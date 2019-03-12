@@ -3,12 +3,15 @@ title: HTTP2 Delivery of Content FAQ
 seo-title: HTTP2 Delivery of Content FAQ
 description: Learn about HTTP2 content delivery.
 seo-description: Learn about HTTP2 content delivery.
-uuid: 00755b60-77e9-465e-899b-ea78f2c8da07
+uuid: e837c3e0-6e48-46f1-b510-847c9976807a
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 2fc9fadc-456f-4506-89f1-7966c3a93f86
+discoiquuid: afbe9f80-c2a3-4a46-b9d6-4c9406667d7f
+index: y
+internal: n
+snippet: y
 ---
 
 # HTTP2 Delivery of Content FAQ{#http-delivery-of-content-faq}

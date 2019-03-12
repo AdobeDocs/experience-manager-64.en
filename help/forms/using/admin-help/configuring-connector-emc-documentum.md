@@ -3,12 +3,15 @@ title: Configuring Connector for EMC Documentum
 seo-title: Configuring Connector for EMC Documentum
 description: Learn how to configure the Connector for EMC Documentum to enable communication between AEM forms and EMC Documentum.
 seo-description: Learn how to configure the Connector for EMC Documentum to enable communication between AEM forms and EMC Documentum.
-uuid: e3db2de8-9e3a-4aa4-b326-33a3ac79b9fb
+uuid: fc96900a-ec8a-4efd-ad8e-25e9967e649b
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: d54f9ae3-efd5-4e63-90f8-de51347c536b
+discoiquuid: e62370a7-9d9e-43a3-8014-8e53800c870d
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Connector for EMC Documentum{#configuring-connector-for-emc-documentum}

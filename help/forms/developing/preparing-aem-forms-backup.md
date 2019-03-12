@@ -3,12 +3,15 @@ title: Preparing AEM Forms for Backup
 seo-title: Preparing AEM Forms for Backup
 description: null
 seo-description: null
-uuid: 1a6cef6a-35b9-4abe-ab1b-12dc65d64e06
+uuid: b8ef2bed-62e2-4000-b55a-30d2fc398a5f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 283ec8a2-4359-4291-b590-e3ceb1a7f4d8
+discoiquuid: e747147e-e96d-43c7-87b3-55947eef81f5
+index: y
+internal: n
+snippet: y
 ---
 
 # Preparing AEM Forms for Backup{#preparing-aem-forms-for-backup}

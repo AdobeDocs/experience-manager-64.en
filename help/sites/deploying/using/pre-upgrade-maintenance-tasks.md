@@ -3,12 +3,15 @@ title: Pre-Upgrade Maintenance Tasks
 seo-title: Pre-Upgrade Maintenance Tasks
 description: Learn about the pre-upgrade tasks in AEM.
 seo-description: Learn about the pre-upgrade tasks in AEM.
-uuid: f909da7b-f1b4-4d76-8f57-4862d70985c7
+uuid: 6c0d4b31-6464-470b-9e40-1fc2abb9b2a6
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: fcb58d20-1f2d-4350-a0b6-bf3911597b6f
+discoiquuid: 899ea120-c96d-4dbf-85da-e5d25959d10a
+index: y
+internal: n
+snippet: y
 ---
 
 # Pre-Upgrade Maintenance Tasks{#pre-upgrade-maintenance-tasks}

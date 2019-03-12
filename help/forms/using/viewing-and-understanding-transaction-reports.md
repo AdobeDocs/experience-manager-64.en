@@ -3,11 +3,14 @@ title: Viewing and Understanding Transaction Reports
 seo-title: Viewing and Understanding Transaction Reports
 description: Use transaction reports to make an informed decision about the product usage and rebalancing investments in hardware and software.
 seo-description: Use transaction reports to make an informed decision about the product usage and rebalancing investments in hardware and software.
-uuid: 2f2d59d3-e15a-4cc8-895d-69b03a034f35
+uuid: a33abcae-8e37-4e2d-99b0-c92c439745f3
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: b1a52b9b-8089-457a-9a39-c5d8631cab71
+discoiquuid: bef38e7a-92db-4226-a4ea-8facce573456
+index: y
+internal: n
+snippet: y
 ---
 
 # Viewing and Understanding Transaction Reports{#viewing-and-understanding-transaction-reports}
@@ -79,7 +82,7 @@ AEM Forms displays transaction reports since the configured date, as shown in a 
 
 * Use the **Reset the date to today** options to reset transaction records. When you reset the date to today, all previous transaction records are lost. When you reset the date on an author instance, the change does not affect transaction reports on the Publish instances and conversely.
 * Use the **Show transactions of only Publish instances** to view all the transactions that occurred only on the configured publish instance or publish farm.
-* Use the categories:** Document Processed**, **Documents Rendered**, and **Forms Submitted** to view corresponding transactions. For the type of transactions accounted in these categories, see [Billable Transaction Reports APIs](../../forms/using/transaction-reports-billable-apis.md).
+* Use the categories: **Document Processed**, **Documents Rendered**, and **Forms Submitted** to view corresponding transactions. For the type of transactions accounted in these categories, see [Billable Transaction Reports APIs](../../forms/using/transaction-reports-billable-apis.md).
 
 ## View transaction reporting logs {#view-transaction-reporting-logs}
 

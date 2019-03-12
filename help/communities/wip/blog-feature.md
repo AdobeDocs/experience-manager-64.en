@@ -3,11 +3,14 @@ title: Blog Feature
 seo-title: Blog Feature
 description: Community information in a journaling format
 seo-description: Community information in a journaling format
-uuid: 7497f8a4-5fdb-43f2-9a9a-0cb729fb3205
+uuid: 3a0469c4-0930-4890-840a-e07efb6de520
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 8cdbf71b-9c38-46a8-9b78-c6bfbb552c44
+discoiquuid: 893111a3-52d4-4231-a23d-03ac387a108f
+index: y
+internal: n
+snippet: y
 ---
 
 # Blog Feature{#blog-feature}

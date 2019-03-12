@@ -3,12 +3,15 @@ title: Performing Service Operations Using APIs
 seo-title: Performing Service Operations Using APIs
 description: null
 seo-description: null
-uuid: 4fcd8695-c96b-4e66-9891-5536f5776aac
+uuid: a5697c91-d643-4265-973c-18467ca0437a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 8c1f789c-8a70-47c4-9caa-ca2711a7189e
+discoiquuid: 8fa1426f-f453-45c5-89b9-67038f56c70e
+index: y
+internal: n
+snippet: y
 ---
 
 # Performing Service Operations Using APIs{#performing-service-operations-using-apis}

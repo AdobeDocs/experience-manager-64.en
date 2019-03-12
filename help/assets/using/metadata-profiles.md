@@ -3,12 +3,15 @@ title: Metadata Profiles
 seo-title: Metadata Profiles
 description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
 seo-description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
-uuid: bf5edfb6-8b5c-482f-b641-8a3876abd4ec
+uuid: fd366fb8-0585-40e8-bb9a-97475879f293
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 95a94859-26a0-4bfc-b74a-3800aea88ca1
+discoiquuid: a8e2c376-7a53-45e2-b547-204115fe35c3
+index: y
+internal: n
+snippet: y
 ---
 
 # Metadata Profiles{#metadata-profiles}
@@ -46,7 +49,7 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 
 1. (Optional) Add more components to the Edit Form from the **Build Form** tab, and configure their properties in the **Settings** tab. The following properties are available from the **Build Form **tab:
 
-<table> 
+<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
    <td><strong>Component</strong></td> 
@@ -188,7 +191,7 @@ To apply a profile globally, do one of the following:
 
   ![](assets/chlimage_1-492.png)
 
-* Navigate to CRXDE Lite to the following node:** /content/dam/jcr:content. **Add the property** metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name of metadata profile&gt; **and tap or click **Save All**. 
+* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name of metadata profile&gt; **and tap or click **Save All**. 
 
   ![](assets/chlimage_1-493.png)
 
@@ -198,7 +201,7 @@ When you remove a metadata profile from a folder, any subfolders automatically i
 
 You can remove a metadata profile from a folder from within the **Tools** menu or if you are in the folder, from the **Properties**. This section describes how to remove metadata profiles from folders both ways.
 
-### Removing metadata profiles from folders via Profiles user interface {#removing-metadata-profiles-from-folders-via-profiles-user-interface}
+#### Removing metadata profiles from folders via Profiles user interface {#removing-metadata-profiles-from-folders-via-profiles-user-interface}
 
 To remove a metadata profile from folders via Profiles user interface:
 
@@ -208,7 +211,7 @@ To remove a metadata profile from folders via Profiles user interface:
 
    You can confirm that the metadata profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-### Removing metadata profiles from folders via Properties {#removing-metadata-profiles-from-folders-via-properties}
+#### Removing metadata profiles from folders via Properties {#removing-metadata-profiles-from-folders-via-properties}
 
 To remove a metadata profile from folders via properties:
 

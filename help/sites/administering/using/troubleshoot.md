@@ -3,12 +3,15 @@ title: Troubleshooting AEM
 seo-title: Troubleshooting AEM
 description: Learn about troubleshooting issues with AEM.
 seo-description: Learn about troubleshooting issues with AEM.
-uuid: d72bd7ef-0582-492a-a424-ac324b67a37a
+uuid: d68e9ead-8aa6-4108-9f1e-85d7cd7a370f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: fe75a15e-e6f1-45d1-b3a9-fe939d89b02a
+discoiquuid: 1bc19f9a-fa3f-43e3-813e-23ab0b708d43
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting AEM{#troubleshooting-aem}

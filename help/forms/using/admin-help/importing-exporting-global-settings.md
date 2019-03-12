@@ -3,12 +3,15 @@ title: Importing and exporting global settings
 seo-title: Importing and exporting global settings
 description: You can import and export search template definitions and global settings for Workspace.
 seo-description: You can import and export search template definitions and global settings for Workspace.
-uuid: 3a413ac4-6b9f-4742-a84c-fa01b09fc1f5
+uuid: 8f1f210d-e850-4b2c-bb5a-942fa8299791
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 6c3d4e17-e1c3-4d23-856e-efa2ee642ab0
+discoiquuid: 72fe5749-2fa2-442f-b679-7889faeafcac
+index: y
+internal: n
+snippet: y
 ---
 
 # Importing and exporting global settings{#importing-and-exporting-global-settings}

@@ -3,12 +3,15 @@ title: Adaptive Template Rendering
 seo-title: Adaptive Template Rendering
 description: null
 seo-description: null
-uuid: af87a2d0-2366-4afe-8772-d990eff77289
+uuid: 97226ae1-e42a-40ae-a5e0-886cd77559d8
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 80c27265-0508-4367-b280-64b9a4aed1eb
+discoiquuid: f5cb0e98-0d6e-4f14-9b94-df1a9d8cbe5b
+index: y
+internal: n
+snippet: y
 ---
 
 # Adaptive Template Rendering{#adaptive-template-rendering}

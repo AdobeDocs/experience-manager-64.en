@@ -3,12 +3,15 @@ title: Introduction to AEM Forms workspace
 seo-title: Introduction to AEM Forms workspace
 description: Increase org efficiency and create paperless office by business process automation using LiveCycle AEM Forms workspace.
 seo-description: Increase org efficiency and create paperless office by business process automation using LiveCycle AEM Forms workspace.
-uuid: 767ed0cb-8846-4e12-bb65-49253d8b39c4
+uuid: 6171d1e7-8d1f-4adb-be8f-49521cd4cc6f
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: cd073c71-3d5f-4299-8e70-da53fd5ebe82
+discoiquuid: 7efc8ad6-2bb1-41a6-ac0b-7f8ddddbf2a6
+index: y
+internal: n
+snippet: y
 ---
 
 # Introduction to AEM Forms workspace{#introduction-to-aem-forms-workspace}

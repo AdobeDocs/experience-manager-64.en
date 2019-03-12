@@ -3,12 +3,15 @@ title: Group Templates
 seo-title: Group Templates
 description: How to access the Group Templates console
 seo-description: How to access the Group Templates console
-uuid: 16112932-4379-4c7b-ae94-c42ea4aea454
+uuid: a3c6dfe6-f973-4dcf-9c66-ea52cbe56630
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 7a8b313b-1d9a-4523-89f7-868b9fef59ef
+discoiquuid: 9a862756-58e8-47c0-a4b4-5d4aaac021e4
+index: y
+internal: n
+snippet: y
 ---
 
 # Group Templates{#group-templates}
@@ -29,7 +32,7 @@ At the moment the action is taken to create a new community group, the group's t
 
 In the author environment, to reach the groups templates console
 
-* from global navigation :** Tools, Communities, Group Templates**
+* from global navigation : **Tools, Communities, Group Templates**
 
 This console displays the templates from which a [community site](../../communities/using/sites-console.md) can be created and allows new group templates to be created.
 

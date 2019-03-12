@@ -3,12 +3,15 @@ title: Configure the Admin Password on Installation
 seo-title: Configure the Admin Password on Installation
 description: Learn how to change the Admin Password on AEM Installation.
 seo-description: Learn how to change the Admin Password on AEM Installation.
-uuid: dc4e1d34-bdfb-4e59-b2e8-c00a5152387c
+uuid: 06da9890-ed63-4fb6-88d5-fd0e16bc4ceb
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 29021a56-b4df-4f49-9c88-6e30e76cc868
+discoiquuid: 00806e6e-3578-4caa-bafa-064f200a871f
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure the Admin Password on Installation{#configure-the-admin-password-on-installation}

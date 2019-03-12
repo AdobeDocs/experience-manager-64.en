@@ -3,12 +3,15 @@ title: Client Context Javascript API
 seo-title: Client Context Javascript API
 description: The Javascript API for Client Context
 seo-description: The Javascript API for Client Context
-uuid: 5a595c2d-edc4-490c-9071-2a4164064591
+uuid: be58998c-f23e-4768-8394-1f1ad3994c4c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 05c46ec4-babc-4541-83df-99417e230350
+discoiquuid: a6e5810b-dac5-4137-93cf-5d8d53cacc49
+index: y
+internal: n
+snippet: y
 ---
 
 # Client Context Javascript API{#client-context-javascript-api}

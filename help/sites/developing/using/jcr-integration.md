@@ -3,12 +3,15 @@ title: JCR Integration
 seo-title: JCR Integration
 description: Tips for when you must integrate at the JCR level
 seo-description: Tips for when you must integrate at the JCR level
-uuid: 45f87f46-30ca-46e6-87a4-57426a84bff9
+uuid: 11518baf-521e-471d-ad4f-2baa76075cfa
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: bd1771a6-e603-47e3-a47b-4847b14579b2
+discoiquuid: e6647a11-a36e-4808-bb61-29b2895c6b1d
+index: y
+internal: n
+snippet: y
 ---
 
 # JCR Integration{#jcr-integration}

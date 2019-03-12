@@ -3,13 +3,16 @@ title: MSM Best Practices
 seo-title: MSM Best Practices
 description: Find best practices compiled by Adobe engineering and consulting teams to help get up and running with the AEM Multi Site Manager.
 seo-description: Find best practices compiled by Adobe engineering and consulting teams to help get up and running with the AEM Multi Site Manager.
-uuid: 33293ee4-81df-4178-84f6-10dc7ba5000d
+uuid: cbb598bb-ec8f-4985-97af-7c87f5891c66
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 97314bc6-1225-45b1-9ce6-00a6b9f53b81
+discoiquuid: 04344537-7485-40a9-ad14-804ba448f1e2
+index: y
+internal: n
+snippet: y
 ---
 
 # MSM Best Practices{#msm-best-practices}

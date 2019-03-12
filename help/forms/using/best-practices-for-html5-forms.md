@@ -3,12 +3,15 @@ title: Best practices for HTML5 forms
 seo-title: Best practices for HTML5 forms
 description: Tune your XFA-based HTML5 Forms for best performance. 
 seo-description: Learn how to tune your XFA-based HTML5 Forms for best performance. 
-uuid: c8d298a4-d444-4431-8596-a90352655f1a
+uuid: 739700c7-4f88-4b53-9453-1be6d5bc8432
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 content-type: reference
-discoiquuid: 6a28a55c-b430-4658-a96a-287403449317
+discoiquuid: a5eba237-3aad-497a-8f77-061d5d3df371
+index: y
+internal: n
+snippet: y
 ---
 
 # Best practices for HTML5 forms{#best-practices-for-html-forms}

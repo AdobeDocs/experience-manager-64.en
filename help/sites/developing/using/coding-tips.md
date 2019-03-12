@@ -3,12 +3,15 @@ title: Coding Tips
 seo-title: Coding Tips
 description: Tips for coding for AEM
 seo-description: Tips for coding for AEM
-uuid: c0f9135a-b4f6-4a99-86b7-06b235298f65
+uuid: 1bb1cc6a-3606-4ef4-a8dd-7c08a7cf5189
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: e0e6e15d-cb29-4b38-82ee-14efc1bf5f47
+discoiquuid: 4adce3b4-f209-4a01-b116-a5e01c4cc123
+index: y
+internal: n
+snippet: y
 ---
 
 # Coding Tips{#coding-tips}

@@ -3,12 +3,15 @@ title: General Release Notes for Adobe Experience Manager 6.4
 seo-title: Release Notes
 description: Adobe Experience Manager 6.4 notes outlining the release information, what's new, how to install and detailed change lists. 
 seo-description: Adobe Experience Manager 6.4 notes outlining the release information, what's new, how to install and detailed change lists. 
-uuid: 3f366664-aa9a-4eff-9d46-b1f08df2257f
+uuid: 5a220301-2727-4078-ba19-4a2dbf9657f4
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 1a728e88-ded7-4416-92f4-54d9251bb356
+discoiquuid: 2be468e7-2b4e-4e04-881b-b9bdd1f55e57
+index: y
+internal: n
+snippet: y
 ---
 
 # General Release Notes for Adobe Experience Manager 6.4{#general-release-notes-for-adobe-experience-manager}

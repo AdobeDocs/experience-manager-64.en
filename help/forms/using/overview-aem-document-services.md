@@ -3,11 +3,14 @@ title: Overview of AEM Document Services
 seo-title: Overview of AEM Document Services
 description: AEM Document Services are a set of OSGi Services for creating, assembling, and securing PDF Documents.
 seo-description: AEM Document Services are a set of OSGi Services for creating, assembling, and securing PDF Documents.
-uuid: 8b991945-9961-4361-ace6-f5704ef55552
+uuid: 17fd42ef-9950-4b51-9ae7-82e8b4759fe8
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: 811d168e-c7d9-4721-9998-14d733716578
+discoiquuid: 0685478b-d08e-4d69-8dd3-f75270772167
+index: y
+internal: n
+snippet: y
 ---
 
 # Overview of AEM Document Services{#overview-of-aem-document-services}

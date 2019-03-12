@@ -3,13 +3,16 @@ title: AEM 6.4 Service Pack Release Notes
 seo-title: AEM 6.4 Service Pack Release Notes
 description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 3.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 3.
-uuid: 5c9765a3-1ce2-4f0f-874e-971673e276bc
+uuid: 49a710a8-7cd5-47de-9a96-7af7f3c00dfc
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: baea2037-49a4-44a4-8c03-7efedbb0cda7
+discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
 legacypath: /content/docs/en/aem/6-1/release-notes-sp1
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM 6.4 Service Pack Release Notes{#aem-service-pack-release-notes}

@@ -3,13 +3,16 @@ title: Testing Your UI
 seo-title: Testing Your UI
 description: AEM provides a framework for automating tests for your AEM UI
 seo-description: AEM provides a framework for automating tests for your AEM UI
-uuid: 2626015e-5910-4ff7-a47c-e16e621f57da
+uuid: b0280a70-643e-4455-82ea-fa7a90823b53
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 topic-tags: testing
-discoiquuid: 98838eed-d385-4da9-b1a5-b8527ba692e2
+discoiquuid: bc0130c3-826e-47dd-b18b-85e1a7bb9936
+index: y
+internal: n
+snippet: y
 ---
 
 # Testing Your UI{#testing-your-ui}

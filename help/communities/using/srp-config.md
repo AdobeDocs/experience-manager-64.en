@@ -3,12 +3,15 @@ title: Storage Configuration
 seo-title: Storage Configuration
 description: How to access the Storage Configuration Console
 seo-description: How to access the Storage Configuration Console
-uuid: 5a9f498f-81df-4850-9887-55debfa58a70
+uuid: 6a5a71d5-6aaa-4635-8852-4dae33c497a9
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 8e1ea9b9-22d0-470e-b5c1-42e1c9653f2f
+discoiquuid: 71fac7e9-814a-48b5-b816-9bdcb2a05190
+index: y
+internal: n
+snippet: y
 ---
 
 # Storage Configuration{#storage-configuration}
@@ -28,7 +31,7 @@ For a discussion of storage options and deployment topologies, visit
 
 In the author environment, to reach the storage configuration console
 
-* from global navigation :** Tools, Communities, Storage Configuration**
+* from global navigation : **Tools, Communities, Storage Configuration**
 
 To select a storage option other than the default JCR :
 

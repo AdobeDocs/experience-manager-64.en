@@ -3,9 +3,12 @@ title: Content Disposition Filter
 seo-title: Content Disposition Filter
 description: null
 seo-description: null
-uuid: 40819306-a690-46f0-b26a-d0f73d40bbbf
+uuid: 145a88e0-9fa8-42db-b189-eda507c33049
 contentOwner: trushton
-discoiquuid: d93a60ef-bafc-4b72-a1bb-409fe9c19556
+discoiquuid: badfaa18-472e-4777-a7dc-9c28441b38b7
+index: y
+internal: n
+snippet: y
 ---
 
 # Content Disposition Filter{#content-disposition-filter}

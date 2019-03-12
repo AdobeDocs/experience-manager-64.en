@@ -3,12 +3,15 @@ title: Configuring Remoting endpoints
 seo-title: Configuring Remoting endpoints
 description: Learn how to configure remoting endpoints.
 seo-description: Learn how to configure remoting endpoints.
-uuid: 7b604016-2801-4c18-80ce-d774769f80b8
+uuid: 4d4f9274-dcae-4b9f-975a-575376c2f89c
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 69fdef88-55af-4323-8dd2-f9b67b93c2f8
+discoiquuid: aab9d622-d76b-4100-9ca6-e5b86f543381
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Remoting endpoints{#configuring-remoting-endpoints}

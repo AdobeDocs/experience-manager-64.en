@@ -3,12 +3,15 @@ title: Social Login with Facebook and Twitter
 seo-title: Social Login with Facebook and Twitter
 description: Social login lets site visitors to sign in with their Facebook or Twitter account.
 seo-description: Social login lets site visitors to sign in with their Facebook or Twitter account.
-uuid: a2c324c1-3e6c-432c-b89d-71d40b0bcf97
+uuid: f70e346e-0d8c-41a0-a100-206a420088dc
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 95b0a1cf-bc3a-4ca3-a41d-1be0ebdbbb33
+discoiquuid: c0a71870-8f95-40c8-9ffd-b7af49723288
+index: y
+internal: n
+snippet: y
 ---
 
 # Social Login with Facebook and Twitter{#social-login-with-facebook-and-twitter}

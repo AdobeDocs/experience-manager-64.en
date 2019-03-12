@@ -3,12 +3,15 @@ title: Configuring OSGi
 seo-title: Configuring OSGi
 description: OSGi is a fundamental element in the technology stack of Adobe Experience Manager (AEM). It is used to control the composite bundles of AEM and their configuration. This article details how you can manage the configuration settings for such bundles.
 seo-description: OSGi is a fundamental element in the technology stack of Adobe Experience Manager (AEM). It is used to control the composite bundles of AEM and their configuration. This article details how you can manage the configuration settings for such bundles.
-uuid: f5557a5a-5835-4280-9d70-b2d8ec6320a5
+uuid: b39059a5-dd61-486a-869a-0d7a732c3a47
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: c34f11a4-b442-42fa-b18e-a53927850290
+discoiquuid: d701e4ba-417f-4b57-b103-27fd25290736
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring OSGi{#configuring-osgi}

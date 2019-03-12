@@ -3,12 +3,15 @@ title: SPA and Server-Side Rendering
 seo-title: SPA and Server-Side Rendering
 description: null
 seo-description: null
-uuid: a7373cb8-9bba-4073-b810-3c8bbbd8b17c
+uuid: fbf7d0d1-865d-45d2-aeec-a7e3caf3fcb2
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 12f5d444-a355-4490-8256-a7b8b1d5967c
+discoiquuid: 30d25772-0df7-468e-bcbd-c6fb2e962662
+index: y
+internal: n
+snippet: y
 ---
 
 # SPA and Server-Side Rendering{#spa-and-server-side-rendering}

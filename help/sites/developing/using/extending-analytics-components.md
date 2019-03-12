@@ -3,12 +3,15 @@ title: Adding Adobe Analytics Tracking to Components
 seo-title: Adding Adobe Analytics Tracking to Components
 description: null
 seo-description: null
-uuid: 191dd5f6-3927-4c30-a5fd-c4844e3b905a
+uuid: 447b140c-678c-428d-a1c9-ecbdec75cd42
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 388e3567-981a-4402-9947-d960d4fab1ca
+discoiquuid: a11c39b4-c23b-4207-8898-33aea25f2ad0
+index: y
+internal: n
+snippet: y
 ---
 
 # Adding Adobe Analytics Tracking to Components{#adding-adobe-analytics-tracking-to-components}

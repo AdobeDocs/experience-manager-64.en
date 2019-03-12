@@ -3,11 +3,14 @@ title: Updating general settings
 seo-title: Updating general settings
 description: Update AEM Forms app settings such as the Home screen and fetch Startpoints and attachments options
 seo-description: Update AEM Forms app settings such as the Home screen and fetch Startpoints and attachments options
-uuid: 105bd480-db52-453c-b09a-366ae24aaae0
+uuid: 234cd2da-2b47-4d60-82ed-68363d782632
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 37e78a1d-a1ed-46fb-952d-8c8282618e09
+discoiquuid: a3aac07e-7d67-4a4f-b941-ff25a981092f
+index: y
+internal: n
+snippet: y
 ---
 
 # Updating general settings{#updating-general-settings}

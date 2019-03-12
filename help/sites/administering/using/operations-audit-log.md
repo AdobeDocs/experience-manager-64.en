@@ -3,12 +3,15 @@ title: Audit Log Maintenance in AEM 6
 seo-title: Audit Log Maintenance in AEM 6
 description: Lear about Audit Log Maintenance in AEM.
 seo-description: Lear about Audit Log Maintenance in AEM.
-uuid: 4bf21c63-c973-4cd1-af16-e97815b1f534
+uuid: 212de4df-6bf4-434c-94e1-74186d21945a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: ebae4ef4-b723-4b42-bb56-076b0ad26546
+discoiquuid: 565d89de-b3ca-41a5-8e1c-d10905c25fb5
+index: y
+internal: n
+snippet: y
 ---
 
 # Audit Log Maintenance in AEM 6{#audit-log-maintenance-in-aem}

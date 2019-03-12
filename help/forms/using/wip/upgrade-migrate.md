@@ -4,12 +4,15 @@ seo-title: [DO NOT PUBLISH] Upgrade or migrate to AEM 6.3 Forms
 description: You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from a LiveCycle version to AEM 6.3 Forms. 
 seo-description: You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from a LiveCycle version to AEM 6.3 Forms. 
 page-status-flag: never-activated
-uuid: d6d76027-dda7-40b6-8b3b-cbd9c07c35d8
+uuid: 5c42e438-12d2-4951-bb96-de0d659aa627
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: c4594852-7adc-4bbc-92f0-cfcdfb94cb08
+discoiquuid: df0d4356-6a32-463d-aca2-105f624c6350
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Upgrade or migrate to AEM 6.3 Forms{#do-not-publish-upgrade-or-migrate-to-aem-forms}
@@ -132,9 +135,9 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
        >
        >    
        >    
-       >* Adobe Correspondence Management Migration
-       >* Adobe LiveCycle FormsManager Core
-       >* Forms Common Service
+       >    * Adobe Correspondence Management Migration
+       >    * Adobe LiveCycle FormsManager Core
+       >    * Forms Common Service
        >    
        >
 
@@ -166,7 +169,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
 1. Verify that the server is upgraded successfully, all the data is also migrated successfully, and it can operate normally.
 
-    * **Verify the status of the bundles:** Ensure that all the bundles are in active state.  
+    * **Verify the status of the bundles: **Ensure that all the bundles are in active state.  
     
     * **Verify replication and reverse replication:** Publish, fill, and submit a few migrated forms. Verify the submitted data also.
     * **Verify access to admin and developer user interfaces:** Log in to AEM instance from an admin account and verify that you have access to the following URLs:

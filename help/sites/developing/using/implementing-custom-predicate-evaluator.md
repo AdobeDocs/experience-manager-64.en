@@ -3,12 +3,15 @@ title: Implementing a Custom Predicate Evaluator for the Query Builder
 seo-title: Implementing a Custom Predicate Evaluator for the Query Builder
 description: The Query Builder offers an easy way of querying the content repository
 seo-description: The Query Builder offers an easy way of querying the content repository
-uuid: cafe4d1c-6ba5-4c15-a973-9ef9d5015cfa
+uuid: 5b599b60-a149-4425-b7ac-7fbe7e048bca
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 17ccffd2-b257-4879-a442-7646b8c46098
+discoiquuid: 08bdade7-fdad-445d-80fe-8fc06596dace
+index: y
+internal: n
+snippet: y
 ---
 
 # Implementing a Custom Predicate Evaluator for the Query Builder{#implementing-a-custom-predicate-evaluator-for-the-query-builder}

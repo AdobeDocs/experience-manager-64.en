@@ -3,12 +3,15 @@ title: Asset Insights
 seo-title: Asset Insights
 description: Learn how the Asset Insights feature lets you track user ratings and usage statistics of assets that are used in third-party websites, marketing campaigns, and Adobe's creative solutions.
 seo-description: Learn how the Asset Insights feature lets you track user ratings and usage statistics of assets that are used in third-party websites, marketing campaigns, and Adobe's creative solutions. Derive insights regarding asset performance and popularity.
-uuid: 9b476700-5010-4e6f-ae50-e0ffbf21886c
+uuid: fff948f7-d8c4-40a2-af0e-de73a528e23f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 251c2d46-f70e-4b8f-9441-5fcb352c172e
+discoiquuid: 330bad1b-72b3-48a3-95c4-9a90a3e6c9f7
+index: y
+internal: n
+snippet: y
 ---
 
 # Asset Insights{#asset-insights}

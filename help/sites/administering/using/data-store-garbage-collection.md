@@ -3,12 +3,15 @@ title: Data Store Garbage Collection
 seo-title: Data Store Garbage Collection
 description: Learn how to configure Data Store Garbage Collection to free up disk space.
 seo-description: Learn how to configure Data Store Garbage Collection to free up disk space.
-uuid: 3f6e5bc5-2478-4f59-92ec-0309d842dc5e
+uuid: 1f49e9e9-3a0d-4687-844d-8a32fb30f2b4
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 35579db1-3fcb-4935-a064-cb3552527146
+discoiquuid: 5ee9d11a-85c2-440d-b487-a38d04dc040b
+index: y
+internal: n
+snippet: y
 ---
 
 # Data Store Garbage Collection{#data-store-garbage-collection}

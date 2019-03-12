@@ -3,12 +3,15 @@ title: Barcoded Forms Service Java APIQuick Start(SOAP)
 seo-title: Barcoded Forms Service Java APIQuick Start(SOAP)
 description: null
 seo-description: null
-uuid: e468a984-7766-448f-acb9-c6f6a79d72de
+uuid: a6739695-ee0b-4480-8cef-0f91a72deaad
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 8e348251-16f2-4cd7-8814-5ab10bdfb4fe
+discoiquuid: 245b9cc4-5837-4a22-b5f4-a1d4c5d66918
+index: y
+internal: n
+snippet: y
 ---
 
 # Barcoded Forms Service Java APIQuick Start(SOAP){#barcoded-forms-service-java-apiquick-start-soap}

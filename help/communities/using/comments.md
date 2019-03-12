@@ -3,12 +3,15 @@ title: Using Comments
 seo-title: Using Comments
 description: Comments feature lets signed-in site visitors share their opinions and knowledge
 seo-description: Comments feature lets signed-in site visitors share their opinions and knowledge
-uuid: 76948af4-5eb7-4c4a-a12c-903f54219cb9
+uuid: 30fc48ac-134c-4acb-a65c-398855c93829
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: d10bd3f5-a2e7-4a89-9e0a-6a6b5d7e9f08
+discoiquuid: b074ebfa-2894-4a2d-aa8e-28168049971a
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Comments{#using-comments}

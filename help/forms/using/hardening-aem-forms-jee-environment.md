@@ -3,11 +3,14 @@ title: Hardening Your AEM Forms on JEE Environment
 seo-title: Hardening Your AEM Forms on JEE Environment
 description: Learn a variety of security-hardening settings to enhance the security of AEM Forms on JEE running in a corporate intranet.
 seo-description: Learn a variety of security-hardening settings to enhance the security of AEM Forms on JEE running in a corporate intranet.
-uuid: e6d88ca0-0ae8-45de-98da-526949289544
+uuid: f6c63690-6376-4fe1-9df2-a14fbfd62aff
 content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
-discoiquuid: 70539179-cfab-4079-ad62-70647c4cb8a5
+discoiquuid: 6b380e92-f90d-4875-b7a2-f3958daf2364
+index: y
+internal: n
+snippet: y
 ---
 
 # Hardening Your AEM Forms on JEE Environment{#hardening-your-aem-forms-on-jee-environment}
@@ -348,9 +351,9 @@ On Oracle, the database account that you use needs only the CONNECT, RESOURCE, a
    ```
 
 1. Under Change Center, click **Lock & Edit**.
-1. Under Domain Structure, click *[base_domain]* &gt; **Services** &gt; **JDBC** &gt; **Data Sources** and, in the right pane, click **IDP_DS**.
-1. On the next screen, on the **Configuration** tab, click the **Connection Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
-1. Under Domain Structure, click **[base_domain]** &gt; **Services** &gt; **JDBC** &gt; **Data Sources** and, in the right pane, click **RM_DS**.
+1. Under Domain Structure, click *[base_domain]*****&gt;** Services **&gt;** JDBC **&gt;** Data Sources** and, in the right pane, click **IDP_DS**.
+1. On the next screen, on the **Configuration** tab, click the **Connection****Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
+1. Under Domain Structure, click **[base_domain] **&gt;** Services **&gt;** JDBC **&gt;** Data Sources** and, in the right pane, click **RM_DS**.
 1. On the next screen, on the **Configuration** tab, click the **Connection Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
 1. Add the sqljdbc_auth.dll file to the Windows systems path on the computer that is running the application server. The sqljdbc_auth.dll file is located with the Microsoft SQL JDBC 6.2.1.0 driver installation.
 1. Set Security for SQL Server from **Mixed** mode to** Windows Authentication only**.

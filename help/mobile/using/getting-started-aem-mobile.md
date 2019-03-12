@@ -3,12 +3,15 @@ title: Getting Started with AEM Mobile
 seo-title: Getting Started with AEM Mobile
 description: This page serves as a landing page for AEM Mobile. Follow this page as a starting point to learn about the three different ways for creating apps.
 seo-description: This page serves as a landing page for AEM Mobile. Follow this page as a starting point to learn about the three different ways for creating apps.
-uuid: 186aac9d-722d-4494-921a-c309c925f56e
+uuid: a5398216-f9bb-4009-a9f8-a4f0135db67c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
-discoiquuid: 7f2d8532-8a4f-4eec-a9bc-e0e42ce71ccb
+discoiquuid: 724e09c2-3df3-4080-a0d4-ee2ede483791
+index: y
+internal: n
+snippet: y
 ---
 
 # Getting Started with AEM Mobile{#getting-started-with-aem-mobile}

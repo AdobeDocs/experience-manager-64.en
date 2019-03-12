@@ -3,12 +3,15 @@ title: Channel Assignment
 seo-title: Channel Assignment
 description: Follow this page to learn about Channel Assignment and Dayparting.
 seo-description: Follow this page to learn about Channel Assignment and Dayparting.
-uuid: 51a75b01-916f-47f2-9fc3-2bedf91e320e
+uuid: 9ff9ca1c-c7d3-454c-9c65-24c0d40a9a36
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 6caa40e0-2cff-41f9-9317-473eb304ed6b
+discoiquuid: 6303a1fd-8ee7-4565-a0c7-9295a2cd9306
+index: y
+internal: n
+snippet: y
 ---
 
 # Channel Assignment{#channel-assignment}

@@ -3,12 +3,15 @@ title: Using Dynamic Embedded Sequence
 seo-title: Using Dynamic Embedded Sequence
 description: Follow this page to learn how to implement Dynamic Embedded Sequences in your AEM Screens project.
 seo-description: Follow this page to learn how to implement Dynamic Embedded Sequences in your AEM Screens project.
-uuid: 35f86803-6e47-412d-9c6e-5e7bd0f2fac9
+uuid: 1f442489-2eeb-4dd8-b892-911fcccb3377
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: a2f1788b-8973-4fc7-8ca8-f648d3e91eca
+discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Dynamic Embedded Sequence{#using-dynamic-embedded-sequence}

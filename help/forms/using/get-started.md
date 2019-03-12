@@ -3,11 +3,14 @@ title: Getting started with HTML5 forms
 seo-title: Getting started with HTML5 forms
 description: To get started, deploy AEM Forms add-on package and import existing HTML5 forms to AEM.
 seo-description: To get started, deploy AEM Forms add-on package and import existing HTML5 forms to AEM.
-uuid: dc024f0e-369f-461b-a12a-19bac071a425
+uuid: e85e57ab-fe32-4b6f-819e-322047ae3240
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 6629d17c-2119-4673-a775-6e5fe101b345
+discoiquuid: f276d150-8936-4bfb-8475-7ca36815b233
+index: y
+internal: n
+snippet: y
 ---
 
 # Getting started with HTML5 forms{#getting-started-with-html-forms}
@@ -24,6 +27,6 @@ After installing AEM, perform the following steps to import Mobile Forms to AEM:
 
 * **Set up and deploy AEM Forms add-on package:** Install AEM Forms add-on package to enable Mobile Forms. For information about installing AEM Forms add-on package, see [Installing and configuring AEM Forms](../../forms/using/installing-configuring-aem-forms-osgi.md).
 
-* **Import Mobile Forms:** Import your forms from your local file system to the CRX repository. For detailed information, see [Getting XDP and PDF documents in AEM Forms](../../forms/using/get-xdp-pdf-documents-aem.md).
+* **Import Mobile Forms: **Import your forms from your local file system to the CRX repository. For detailed information, see [Getting XDP and PDF documents in AEM Forms](../../forms/using/get-xdp-pdf-documents-aem.md).
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

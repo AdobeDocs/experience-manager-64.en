@@ -3,12 +3,15 @@ title: Performing an In-Place Upgrade
 seo-title: Performing an In-Place Upgrade
 description: Learn how to perform an in-place upgrade.
 seo-description: Learn how to perform an in-place upgrade.
-uuid: e237d10c-1e81-41f2-b0b1-a916c58c6e50
+uuid: c7428dc0-2b9e-401d-8f80-19e936f6d739
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: 7e6d363c-f013-46fd-8b0a-65b364537104
+discoiquuid: b1bd40f4-21c6-48f5-a41e-42daeaad3687
+index: y
+internal: n
+snippet: y
 ---
 
 # Performing an In-Place Upgrade{#performing-an-in-place-upgrade}

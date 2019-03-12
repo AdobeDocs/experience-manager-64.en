@@ -3,12 +3,15 @@ title: ContextHub
 seo-title: ContextHub
 description: ContextHub is a framework for storing, manipulating, and presenting context data
 seo-description: ContextHub is a framework for storing, manipulating, and presenting context data
-uuid: 69cd6bbc-0465-441b-a4ae-34fda510d952
+uuid: 14e6ff4f-ffbe-454a-b2ec-a35333526e27
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: d93b624c-d981-450b-8745-196e23f7a8e3
+discoiquuid: acf5c17a-95b7-43ba-9734-241e20f4f374
+index: y
+internal: n
+snippet: y
 ---
 
 # ContextHub{#contexthub}

@@ -3,14 +3,17 @@ title: Asset Level Scheduling
 seo-title: Asset Level Scheduling
 description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. 
 seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. 
-uuid: b2262eb7-137f-4866-ba02-2f44c3ef27d8
+uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 admitteddomains: @adobe.com;@caesars.com
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: ef0df265-804c-4667-b677-46625687fe94
+discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Asset Level Scheduling{#asset-level-scheduling}
@@ -55,8 +58,8 @@ Follow the steps below to perform asset level scheduling:
    >
    >    
    >    
-   >* Create a project, see ** [Creating a new Project](../../sites/authoring/using/creating-a-screens-project.md)**.
-   >* Create and add content to a channel, see ** [Managing Channels](../../screens/using/managing-channels.md)**.
+   >    * Create a project, see ** [Creating a new Project](../../sites/authoring/using/creating-a-screens-project.md)**.
+   >    * Create and add content to a channel, see ** [Managing Channels](../../screens/using/managing-channels.md)**.
    >    
    >
 

@@ -3,12 +3,15 @@ title: Embedding the Video or Image Viewer on a Web Page
 seo-title: Embedding the Video or Image Viewer on a Web Page
 description: Learn how to embed dynamic media video or images on a web page
 seo-description: Learn how to embed dynamic media video or images on a web page
-uuid: 8e9ec599-6b41-4e8b-841b-722943c7f819
+uuid: 6f786521-eb6c-4c80-8c15-9bf97b56818f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: dae0b712-a73c-4aef-855e-21a7486d3693
+discoiquuid: 4ae76d8a-208f-4099-9f17-a94df424685e
+index: y
+internal: n
+snippet: y
 ---
 
 # Embedding the Video or Image Viewer on a Web Page{#embedding-the-video-or-image-viewer-on-a-web-page}
@@ -49,7 +52,7 @@ To embed the video viewer or asset viewer on a web page:
 1. In the Embed Code dialog box, copy the entire code to the clipboard, and then click **Close**.
 1. Paste the embed code into your web pages.
 
-## Using HTTP/2 to deliver your Dynamic Media assets {#using-http-to-deliver-your-dynamic-media-assets}
+### Using HTTP/2 to deliver your Dynamic Media assets {#using-http-to-deliver-your-dynamic-media-assets}
 
 HTTP/2 is the new, updated web protocol that improves the way browsers and servers communicate. It provides faster transfer of information and reduces the amount of processing power that is needed. Delivery of Dynamic Media assets can now be over HTTP/2 which provides better response and load times.
 

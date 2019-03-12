@@ -3,12 +3,15 @@ title: Video
 seo-title: Video
 description: Learn how to work with video in dynamic media
 seo-description: Learn how to work with video in dynamic media
-uuid: b6000d4e-7b18-4b1e-a048-7331beac29ff
+uuid: 15e89f88-2787-472d-bbb6-d370bbab9228
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 5c85cf8f-c9d0-4419-a089-5d030a41a09b
+discoiquuid: b721dc7c-b056-47f5-9489-9f4db45b68a0
+index: y
+internal: n
+snippet: y
 ---
 
 # Video{#video}
@@ -881,9 +884,9 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >    
    >    
-   >* Apache Sling Job Queue Configuration
-   >* Adobe Granite Workflow External Process Job Handler
-   >* Granite Workflow Timeout Queue
+   >    * Apache Sling Job Queue Configuration
+   >    * Adobe Granite Workflow External Process Job Handler
+   >    * Granite Workflow Timeout Queue
    >    
    >    
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.
@@ -916,9 +919,9 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >    
    >    
-   >* Apache Sling Job Queue Configuration
-   >* Adobe Granite Workflow External Process Job Handler
-   >* Granite Workflow Timeout Queue
+   >    * Apache Sling Job Queue Configuration
+   >    * Adobe Granite Workflow External Process Job Handler
+   >    * Granite Workflow Timeout Queue
    >    
    >    
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.

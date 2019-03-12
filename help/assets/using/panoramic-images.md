@@ -3,12 +3,15 @@ title: Panoramic Images
 seo-title: Panoramic Images
 description: Learn how to work with panoramic images in Dynamic Media.
 seo-description: Learn how to work with panoramic images in Dynamic Media.
-uuid: b08fbf6d-855b-4eee-a7e7-91ffeb8fcae1
+uuid: dfd7a55c-7bcc-4d62-8c3a-a73726881103
 contentOwner: rbrough
 topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 4c742adf-26f3-447f-98ea-e62d4649066b
+discoiquuid: fc285b25-2bce-493c-87bc-5f1a8a26eb42
+index: y
+internal: n
+snippet: y
 ---
 
 # Panoramic Images{#panoramic-images}

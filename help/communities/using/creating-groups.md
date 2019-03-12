@@ -3,12 +3,15 @@ title: Community Groups
 seo-title: Community Groups
 description: Creating community groups
 seo-description: Creating community groups
-uuid: 9b2c84e1-d64d-4268-94df-bd7546ada4c6
+uuid: 05429b23-9083-498c-9eb3-d49b049d9446
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 0ee50057-4e4a-4463-8f7f-a61b83287ab2
+discoiquuid: 868a3d5d-d505-4ce5-8776-5bbe68a30ccb
+index: y
+internal: n
+snippet: y
 ---
 
 # Community Groups{#community-groups}

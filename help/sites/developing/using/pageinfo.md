@@ -3,12 +3,15 @@ title: Obtaining Page Information in JSON Format
 seo-title: Obtaining Page Information in JSON Format
 description: To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format
 seo-description: To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format
-uuid: 587b3612-bcfa-4024-a998-b69bf61f4788
+uuid: fb4f56b9-55e2-4622-a0d1-a86d6f2cce86
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 30b6be13-2493-46ec-a60c-85f9b3423124
+discoiquuid: 505bf3e3-ce3c-40aa-9619-e1b9f6634deb
+index: y
+internal: n
+snippet: y
 ---
 
 # Obtaining Page Information in JSON Format{#obtaining-page-information-in-json-format}
@@ -52,9 +55,9 @@ The `/libs/foundation/components/page` component is associated with the followin
 
 * **Default Page Status Provider:** Information about the page status, such as whether it is locked, whether the page is the payload of an active workflow, and which workflows are available for the page.
 * **Live Relationship Info Provider:** Information regarding Multi Site Management (MSM), such as whether the page is part of a Blue Print, and whether it is a Live Copy.
-* **Content Language Servlet:** The language of the current page, and information about each language in which the page is available.
+* **Content Language Servlet: **The language of the current page, and information about each language in which the page is available.
 * **Workflow Status Provider:** Status information about the running workflow that has the page as a payload.
-* **Workflow Package Info Provider:** Information about each workflow package that is stored in the repository, and whether each package contains the current resource.
+* **Workflow Package Info Provider: **Information about each workflow package that is stored in the repository, and whether each package contains the current resource.
 * **Emulator Info Provider:** Information about the mobile device emulators that are available for this resource. If the page component does not render mobile pages, no emulators are available.
 * **Annotations Info Provider:** Information about annotations that are on the page.
 

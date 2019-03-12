@@ -3,12 +3,15 @@ title: Tough Day
 seo-title: Tough Day
 description: The Tough Day test simulates the daily load of around 1000 authors in a worst-case scenario with all the operations going on at the same time.
 seo-description: The Tough Day test simulates the daily load of around 1000 authors in a worst-case scenario with all the operations going on at the same time.
-uuid: b40d3280-ba48-4ec6-b631-0de703b9c959
+uuid: 7a13efe0-c455-4af0-ad7b-c39cb2479d74
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: bb84c93f-ed54-4387-8cb8-0072f0dbf03b
+discoiquuid: f48fa5ba-749b-4d3d-a4dd-c802006c8f07
+index: y
+internal: n
+snippet: y
 ---
 
 # Tough Day{#tough-day}
@@ -276,7 +279,7 @@ tests:
 
 ### Run Modes {#run-modes}
 
-Tough Day 2 can run in one of the following modes:** normal** and **constant load**.
+Tough Day 2 can run in one of the following modes: **normal** and **constant load**.
 
 The **normal** run mode has two parameters:
 

@@ -3,12 +3,15 @@ title: Author a New Community Site
 seo-title: Author a New Community Site
 description: How to author a new AEM Communities site
 seo-description: How to author a new AEM Communities site
-uuid: 7ae1cecd-4dff-4ee9-be48-74ec27017d1a
+uuid: b8557416-cae4-489e-ab3b-e94d56686b7a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: d157b066-5b09-4695-a737-6a128695a735
+discoiquuid: bf182bb7-e305-45be-aadb-d71efd70f8cb
+index: y
+internal: n
+snippet: y
 ---
 
 # Author a New Community Site{#author-a-new-community-site}
@@ -21,7 +24,7 @@ discoiquuid: d157b066-5b09-4695-a737-6a128695a735
 Use the author instance to create a new community site
 
 * sign in with administrator privileges
-* from global navigation :** Navigation, Communities, Sites**
+* from global navigation : **Navigation, Communities, Sites**
 
 The Communities Sites console provides a wizard to guide one through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
 
@@ -214,7 +217,7 @@ From left to right they are :
 >1. next to "Settings" select "Edit"
 >1. in pop up dialog for Agent Settings, select Transport tab
 >1. in URI, change the port number, 4503, to the desired port number >
->* for example, to use port 6103 :   
+>    * for example, to use port 6103 :   
 >      http://localhost:6103/bin/receive?sling:authRequestLogin=1
 >
 >1. select "OK"

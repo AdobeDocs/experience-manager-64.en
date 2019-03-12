@@ -3,12 +3,15 @@ title: Working with Page Versions
 seo-title: Working with Page Versions
 description: Create, compare, and restore versions of a page
 seo-description: Create, compare, and restore versions of a page
-uuid: 178c4865-2a97-42a9-b48f-b14e3f4c0203
+uuid: b0328431-c2cf-48f4-b358-261238338241
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 33e8cd48-6f09-427d-aec0-7c299c7797da
+discoiquuid: fa331c03-5587-452d-ab96-ac2926ae0da3
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Page Versions{#working-with-page-versions}
@@ -105,7 +108,7 @@ You can preview a specific version:
    >
    >    
    >    
-   >* If you experience problems with a preview, check the [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) for the page to see whether the page has been moved.
+   >    * If you experience problems with a preview, check the [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) for the page to see whether the page has been moved.
    >    
    >
 

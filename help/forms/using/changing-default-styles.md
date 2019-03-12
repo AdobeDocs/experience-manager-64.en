@@ -3,11 +3,14 @@ title: Changing default styles of HTML5 forms
 seo-title: Changing default styles of HTML5 forms
 description: HTML5 forms styling is based on CSS. You can change the default styles of the form.
 seo-description: HTML5 forms styling is based on CSS. You can change the default styles of the form.
-uuid: a5954f67-8e15-4eef-95a3-c2980e36358e
+uuid: dab888b1-d1a9-4990-ab21-96570beafd26
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 39daaab9-e55a-4de9-9530-ba0ebb317b64
+discoiquuid: a9ab5a78-2add-46e1-a8f2-444d0f25f43a
+index: y
+internal: n
+snippet: y
 ---
 
 # Changing default styles of HTML5 forms{#changing-default-styles-of-html-forms}
@@ -24,7 +27,7 @@ The following two images show the difference between the default and customized 
 
 1. **Choose a profile to add custom styles**
 
-   Access the CRX DE interface at the URL:** http://&lt;server&gt;:&lt;port&gt;/crx/de** and create a profile or choose an existing profile. To know how to create a profile, see [Creating a new Profile](../../forms/using/custom-profile.md)
+   Access the CRX DE interface at the URL: **http://&lt;server&gt;:&lt;port&gt;/crx/de** and create a profile or choose an existing profile. To know how to create a profile, see [Creating a new Profile](../../forms/using/custom-profile.md)
 
 1. **Create a CSS style sheet for styling the HTML5 forms**
 

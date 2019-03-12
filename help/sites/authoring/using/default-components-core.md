@@ -3,13 +3,16 @@ title: REDIRECT Core Components
 seo-title: Core Components
 description: null
 seo-description: null
-uuid: 7fe57c83-0aa8-4942-89da-ebefd5d4c960
+uuid: 2e1c306c-3d01-48a0-a73a-195b08370b8f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: d748c636-1ba0-444d-8c96-7b1f3a4b72f2
+discoiquuid: 9ff5c170-b14a-442e-9c84-1551eb6e1bc6
 noindex: true
 redirecttarget: /content/help/en/experience-manager/cloud-manager/user-guide
+index: y
+internal: n
+snippet: y
 ---
 
 # REDIRECT Core Components{#redirect-core-components}

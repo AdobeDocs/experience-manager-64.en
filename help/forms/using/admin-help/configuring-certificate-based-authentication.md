@@ -3,12 +3,15 @@ title: Configuring certificate-based authentication
 seo-title: Configuring certificate-based authentication
 description: Import a Certificate Authority (CA) certificate into the Trust Store and create a certificate mapping for certificate-based authentication.
 seo-description: Import a Certificate Authority (CA) certificate into the Trust Store and create a certificate mapping for certificate-based authentication.
-uuid: 3875a7ae-5bc7-4e94-b374-23f74b179494
+uuid: 9802a969-6d29-4b80-a4ed-06eb6e66e046
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3133b51c-ff4b-447b-b836-1eb80c6a8761
+discoiquuid: d958ae65-3008-4d68-9e11-4346e149827f
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring certificate-based authentication{#configuring-certificate-based-authentication}

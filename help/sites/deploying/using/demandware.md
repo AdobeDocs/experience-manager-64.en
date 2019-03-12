@@ -3,13 +3,16 @@ title: Salesforce Commerce Cloud
 seo-title: Salesforce Commerce Cloud / Demandware
 description: Learn how to deploy eCommerce with Salesforce Commerce Cloud / Demandware.
 seo-description: Learn how to deploy eCommerce with Salesforce Commerce Cloud / Demandware.
-uuid: f03577ff-e8ca-43ec-8bb6-7cb0a3a37967
+uuid: 53dfd380-ce89-4fa6-b8b8-c0f149ac918d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: f65bb7a6-ccf2-4327-bd33-db05663d1124
+discoiquuid: f2cf15dc-0e21-4826-b87e-2b834d0e369d
 pagetitle: Deploying eCommerce with Demandware
+index: y
+internal: n
+snippet: y
 ---
 
 # Salesforce Commerce Cloud{#salesforce-commerce-cloud}

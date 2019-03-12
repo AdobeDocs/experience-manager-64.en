@@ -3,13 +3,16 @@ title: Developing AEM Components (Classic UI)
 seo-title: Developing AEM Components (Classic UI)
 description: The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. HTL is not the recommended scripting language for AEM.
 seo-description: The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. HTL is not the recommended scripting language for AEM.
-uuid: 664212f4-68ff-4594-8392-48bc53467fae
+uuid: ed53d7c6-5996-4892-81a4-4ac30df85f04
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 8c8cb8ca-07f1-4482-9aa2-d9fd45181097
+discoiquuid: c68f724f-f9b3-4018-8d3a-1680c53d73f8
 legacypath: /content/docs/en/aem/6-2/develop/components/components-classic
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing AEM Components (Classic UI){#developing-aem-components-classic-ui}
@@ -176,9 +179,9 @@ To develop new components for AEM based on existing component you can copy the c
    >
    >    
    >    
-   >* Touch-enabled UI uses [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) components  
+   >    * Touch-enabled UI uses [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) components  
    >    
-   >* Classic UI uses [ExtJS widgets](/sites/developing/using/reference-materials/widgets-api/index.md)
+   >    * Classic UI uses [ExtJS widgets](/sites/developing/using/reference-materials/widgets-api/index.md)
    >    
    >
 
@@ -282,8 +285,8 @@ To create the new component, we use the standard textimage component as a basis 
    >
    >    
    >    
-   >* Touch-enabled UI: `textimage/cq:dialog`
-   >* Classic UI: `textimage/dialog`
+   >    * Touch-enabled UI: `textimage/cq:dialog`
+   >    * Classic UI: `textimage/dialog`
    >    
    >
 

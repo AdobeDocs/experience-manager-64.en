@@ -3,11 +3,14 @@ title: REDIRECT Authoring Screens
 seo-title: REDIRECT Authoring Screens
 description: null
 seo-description: null
-uuid: 49ce4b0b-32be-42ad-9ed2-75810f187553
+uuid: 8fd6adb9-0392-44d3-bf30-7c7829eb07cb
 contentOwner: jsyal
-discoiquuid: e098ff86-5ed1-486a-92cf-bd9efea326e7
+discoiquuid: 69c3d1d1-c4db-4c87-9c89-0641d909594c
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/authoring-screens
+index: y
+internal: n
+snippet: y
 ---
 
 # REDIRECT Authoring Screens{#redirect-authoring-screens}

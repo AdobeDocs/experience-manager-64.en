@@ -3,12 +3,15 @@ title: Integrating AEM Forms workspace components in web applications
 seo-title: Integrating AEM Forms workspace components in web applications
 description: How to reuse AEM Forms workspace components in your own webapps to leverage functionality and provide tight integration.
 seo-description: How to reuse AEM Forms workspace components in your own webapps to leverage functionality and provide tight integration.
-uuid: 5306a8a7-1a15-49a7-a797-72b1e5cbc8c2
+uuid: bb9b8aa0-3f41-4f44-8eb7-944e778ee8a6
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: e41d430e-eda2-4a8f-86d5-a2b3a461c688
+discoiquuid: 6be87939-007e-42c7-8a41-e34ac2b8bed4
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating AEM Forms workspace components in web applications{#integrating-aem-forms-workspace-components-in-web-applications}

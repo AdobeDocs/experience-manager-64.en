@@ -3,12 +3,15 @@ title: Backup strategies for watched folders
 seo-title: Backup strategies for watched folders
 description: This document describes how watched folders are affected by different backup and recovery scenarios, the limitations and outcomes of these scenarios, and how to minimize data loss.
 seo-description: This document describes how watched folders are affected by different backup and recovery scenarios, the limitations and outcomes of these scenarios, and how to minimize data loss.
-uuid: 4b632176-01bc-4a40-b593-685aca8c46be
+uuid: c61997b8-6c36-4bd9-90e5-411841a6c176
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1203f534-1302-4a29-bf0a-75448a684aed
+discoiquuid: 6f775933-e989-4456-ad01-9bdf5dee3dad
+index: y
+internal: n
+snippet: y
 ---
 
 # Backup strategies for watched folders{#backup-strategies-for-watched-folders}
@@ -116,9 +119,9 @@ The following text describes file manipulation for each time:
 
 **T5:**The service operation places file4 in the stage folder for manipulation. The manipulation of file3 fails, and the service operation places it in the failure folder.
 
-**T6:** The service operation places file5 in the input folder. It places the results of file4 in the output folder, places file4 in the preserve folder.
+**T6: **The service operation places file5 in the input folder. It places the results of file4 in the output folder, places file4 in the preserve folder.
 
-**T7:** The service operation places file5 in the stage folder for manipulation.
+**T7: **The service operation places file5 in the stage folder for manipulation.
 
 ## Backing up watched folders {#backing-up-watched-folders}
 
@@ -134,7 +137,7 @@ If a more recent backup was taken, you can restore the files. When restoring the
 
 **Stage:** Files in this folder are processed again after the watched folder is restored.
 
-**Input:** Files in this folder are processed again after the watched folder is restored.
+**Input: **Files in this folder are processed again after the watched folder is restored.
 
 **Result:** Files in this folder are not processed.
 

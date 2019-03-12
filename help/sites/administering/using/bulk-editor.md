@@ -3,12 +3,15 @@ title: The Bulk Editor
 seo-title: The Bulk Editor
 description: Learn how to use the Bulk Editor.
 seo-description: Learn how to use the Bulk Editor.
-uuid: 2ba31a8f-d900-45eb-81ce-682ebcd6dd2f
+uuid: 65158ea4-d0fb-4992-99c6-d4b4fa4c87d2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: bc538a1c-e99a-4311-a720-16585e77ace8
+discoiquuid: 4da555b4-7fb2-4d55-b29f-8bd21f474c1a
+index: y
+internal: n
+snippet: y
 ---
 
 # The Bulk Editor{#the-bulk-editor}

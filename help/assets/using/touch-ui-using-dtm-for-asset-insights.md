@@ -3,12 +3,15 @@ title: Enabling Asset Insights through DTM
 seo-title: Enabling Asset Insights through DTM
 description: Learn how to use Adobe Dynamic Tag Management (DTM )to enable Asset Insights.
 seo-description: Learn how to use Adobe Dynamic Tag Management (DTM )to enable Asset Insights.
-uuid: f7537c17-1dfe-40c8-9b0e-1f2d5c6a43c4
+uuid: fd548ee7-559a-4d72-8d80-af4514151ca6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 37f728e7-0df0-4853-82ae-192933bf297a
+discoiquuid: fa65084a-b69a-4ce2-8798-21ef23392964
+index: y
+internal: n
+snippet: y
 ---
 
 # Enabling Asset Insights through DTM{#enabling-asset-insights-through-dtm}
@@ -49,10 +52,10 @@ Perform these steps to enable Asset Insights through DTM:
    >
    >    
    >    
-   >* AppMeasurement.js has been removed. It is expected to be available through DTM's Adobe Analytics tool.
-   >* The call to `assetAnalytics.dispatcher.init`() is removed. The function is expected to be called once DTM's Adobe Analytics tool finishes loading.
-   >* Depending on where Asset Insights Page Tracker is hosted (for example AEM, CDN and so on), the origin of the script source may require changes.
-   >* For AEM-hosted Page Tracker, the source should point to a publish instance using the host name of the dispatcher instance.
+   >    * AppMeasurement.js has been removed. It is expected to be available through DTM's Adobe Analytics tool.
+   >    * The call to `assetAnalytics.dispatcher.init`() is removed. The function is expected to be called once DTM's Adobe Analytics tool finishes loading.
+   >    * Depending on where Asset Insights Page Tracker is hosted (for example AEM, CDN and so on), the origin of the script source may require changes.
+   >    * For AEM-hosted Page Tracker, the source should point to a publish instance using the host name of the dispatcher instance.
    >    
    >
 

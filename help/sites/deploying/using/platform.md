@@ -3,13 +3,16 @@ title: Introduction to the AEM Platform
 seo-title: Introduction to the AEM Platform
 description: This article provides a general overview of the AEM platform and its most important components.
 seo-description: This article provides a general overview of the AEM platform and its most important components.
-uuid: 6521bf19-42e9-4c99-8bd7-716b95f02c9c
+uuid: 214d4c49-1f5c-432c-a2c0-c1fbdceee716
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 9d0a279b-0b4f-4fa3-a6d0-cb9b271cf64c
+discoiquuid: fccf9a0f-ebab-45ab-8460-84c86b3c4192
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/introduction-to-oak
+index: y
+internal: n
+snippet: y
 ---
 
 # Introduction to the AEM Platform{#introduction-to-the-aem-platform}
@@ -62,7 +65,7 @@ In addition, non-Java implementations are now possible and part of the Oak JCR c
 
 The Oak storage layer provides an abstraction layer for the actual storage of the content.
 
-Currently, there are two storage implementations available in AEM6:** Tar Storage** and **MongoDB Storage**.
+Currently, there are two storage implementations available in AEM6: **Tar Storage** and **MongoDB Storage**.
 
 #### Tar Storage {#tar-storage}
 

@@ -3,10 +3,13 @@ title: Reference adaptive form fragments
 seo-title: Reference adaptive form fragments
 description: AEM Forms provides adaptive form fragments that you can use as assets to create a form quickly. 
 seo-description: AEM Forms provides adaptive form fragments that you can use as assets to create a form quickly. 
-uuid: d18cb4d7-b587-4c22-a73b-06babff8867f
+uuid: af3ab863-e895-4fac-84f4-0a77a66f5094
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: b7465d59-a3bf-4d57-a28b-dc7af290f4d9
+discoiquuid: 43dc10c2-8cfc-4ca3-8ccb-9b3f268663b7
+index: y
+internal: n
+snippet: y
 ---
 
 # Reference adaptive form fragments{#reference-adaptive-form-fragments}

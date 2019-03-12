@@ -3,12 +3,15 @@ title: Displaying components based on the template used
 seo-title: Displaying components based on the template used
 description: When you create a form, learn how you can enable components in the sidebar based on the template selected.
 seo-description: When you create a form, learn how you can enable components in the sidebar based on the template selected.
-uuid: 05025592-047c-4e4e-8607-1a3c4bc07b81
+uuid: 4e87f400-fb45-413d-9be8-72edbe99f210
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 content-type: reference
-discoiquuid: 27857c6b-5740-4343-896d-e98f8b07b893
+discoiquuid: 940e45b4-dbf1-4207-bd4a-cf677d645fb4
+index: y
+internal: n
+snippet: y
 ---
 
 # Displaying components based on the template used{#displaying-components-based-on-the-template-used}

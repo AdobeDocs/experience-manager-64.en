@@ -3,12 +3,15 @@ title: Adding Scene7 Features to your Page
 seo-title: Adding Scene7 Features to your Page
 description: Learn how to add Scene7 features and components to your AEM page.
 seo-description: Learn how to add Scene7 features and components to your AEM page.
-uuid: ad9d4c11-9ba3-4a79-86c5-f19eefc21af6
+uuid: aa5a4735-bfec-43b8-aec0-a0c32bff134f
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: managing-assets
-discoiquuid: 43b2eaaf-552f-4150-bc96-ef313827a559
+discoiquuid: e7b95732-a571-48e8-afad-612059cdbde7
+index: y
+internal: n
+snippet: y
 ---
 
 # Adding Scene7 Features to your Page{#adding-scene-features-to-your-page}
@@ -272,9 +275,9 @@ If you have multiple configurations, AEM by default displays the [default config
 >* If you do not see **Scene7 **or the** S7 **icon as an option in the content browser, you need to [configure Scene7 to work with AEM](../../sites/administering/using/scene7.md).
 >
 >* For video, the Scene7 content browser supports: >
->* Adaptive Video Sets: container of all video renditions needed for seamless playback across multiple screens
->* Single MP4 video 
->* Single F4V video 
+>    * Adaptive Video Sets: container of all video renditions needed for seamless playback across multiple screens
+>    * Single MP4 video 
+>    * Single F4V video 
 >
 
 ### Browsing content in the Touch-optimized UI {#browsing-content-in-the-touch-optimized-ui}

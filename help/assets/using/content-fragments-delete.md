@@ -3,12 +3,15 @@ title: Content Fragments - Delete Considerations
 seo-title: Content Fragments - Delete Considerations
 description: Content Fragments - Delete Considerations
 seo-description: Content Fragments - Delete Considerations
-uuid: e1532e30-dad1-4791-9742-8c9c97b78c80
+uuid: b4161a0e-7e17-4547-9bdd-cf3b1d0d7d63
 contentOwner: aheimoz
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 6a256902-329b-4259-9f4e-29c9203ad7c1
+discoiquuid: eaf65bdd-9091-4985-90bd-5eb2148965e3
+index: y
+internal: n
+snippet: y
 ---
 
 # Content Fragments - Delete Considerations{#content-fragments-delete-considerations}

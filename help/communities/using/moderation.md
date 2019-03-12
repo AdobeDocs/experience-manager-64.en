@@ -3,12 +3,15 @@ title: Moderation Console
 seo-title: Moderation Console
 description: How to access the Moderation console
 seo-description: How to access the Moderation console
-uuid: e765c6f2-6e9c-49d1-9bcb-71b73e5cbb70
+uuid: 920124b9-af6f-4622-adb6-b8e294c5607d
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 194a1948-a2c2-45af-8174-4a3951d0ea7f
+discoiquuid: 6c405543-e339-4916-aa0f-b61d0b798cf3
+index: y
+internal: n
+snippet: y
 ---
 
 # Moderation Console{#moderation-console}
@@ -46,7 +49,7 @@ By selecting the Administration link, the Moderation console appears :
 
 In the author environment, to reach the Moderation console
 
-* from global navigation :** Navigation, Communities, Moderation**
+* from global navigation : **Navigation, Communities, Moderation**
 
 Only when signed in as an administrator, or as a member with ` [moderator permissions](../../communities/using/in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed. The only community content displayed is that which the signed in member is permitted to moderate.
 

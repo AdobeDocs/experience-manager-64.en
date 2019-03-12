@@ -3,12 +3,15 @@ title: Editing Page Properties
 seo-title: Editing Page Properties
 description: Define the required properties for a page
 seo-description: Define the required properties for a page
-uuid: 4f8d5ea0-e818-4783-9743-2130269daefe
+uuid: c0386cd6-ca01-4741-b8c8-36edb66e50ef
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 5a03055f-81ba-48dd-97ca-e295f95989c1
+discoiquuid: 8e85ea7f-80ea-43b6-a67c-366852ef86ce
+index: y
+internal: n
+snippet: y
 ---
 
 # Editing Page Properties{#editing-page-properties}
@@ -86,8 +89,8 @@ The properties are distributed across several tabs.
   >
   >    
   >    
-  >* Must be unique so you should take care that the value is not already used by another page.
-  >* Do not support regex patterns.
+  >    * Must be unique so you should take care that the value is not already used by another page.
+  >    * Do not support regex patterns.
   >    
   >
 

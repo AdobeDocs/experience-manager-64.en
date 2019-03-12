@@ -3,12 +3,15 @@ title: Specify security settings
 seo-title: Specify security settings
 description: Learn how to specify security settings.
 seo-description: Learn how to specify security settings.
-uuid: dc11d248-f122-49d1-92e1-0a77f7d650c1
+uuid: c86ba195-010d-40d6-9f9d-4cb4c364d104
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2c8a6f8f-511b-4ffe-83b0-24f2dc930a54
+discoiquuid: 3c017f9a-aa7f-4d12-ba8b-9fd92c029157
+index: y
+internal: n
+snippet: y
 ---
 
 # Specify security settings{#specify-security-settings}

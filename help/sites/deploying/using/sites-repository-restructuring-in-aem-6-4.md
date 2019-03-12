@@ -3,11 +3,14 @@ title: Sites Repository Restructuring in AEM 6.4
 seo-title: Sites Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Sites.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Sites.
-uuid: 13285cf5-b802-476b-8406-288c8901d508
+uuid: 6dc5f8bd-1680-40af-9b8f-26c1f4bc3304
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: cb43d281-a314-4cab-af55-64c41ec7c12e
+discoiquuid: 3eccb2d5-c325-43a6-9c03-5f93f7e30712
+index: y
+internal: n
+snippet: y
 ---
 
 # Sites Repository Restructuring in AEM 6.4{#sites-repository-restructuring-in-aem}

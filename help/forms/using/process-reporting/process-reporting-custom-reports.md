@@ -3,11 +3,14 @@ title: Custom Reports in Process Reporting
 seo-title: Custom Reports in Process Reporting
 description: You can create custom reports and add these reports to the AEM Forms on JEE Process Reporting UI.
 seo-description: You can create custom reports and add these reports to the AEM Forms on JEE Process Reporting UI.
-uuid: d1997f6f-dc9d-44ed-bc39-cd43883decd8
+uuid: 8974ec2d-ac54-4b44-9758-b1cf44b732fa
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
-discoiquuid: 1ee83568-3d68-439b-aaad-3a34b80532d9
+discoiquuid: c668bd53-f2d8-4f8c-83f2-be0afd65392a
+index: y
+internal: n
+snippet: y
 ---
 
 # Custom Reports in Process Reporting{#custom-reports-in-process-reporting}

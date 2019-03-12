@@ -3,12 +3,15 @@ title: SPA Deep Dives
 seo-title: SPA Deep Dives
 description: The AEM SPA Editor SDK was featured in a series of AEM Gems sessions. Hosted by Adobe engineers, this series can serve as a great guide to gain a deeper understanding of the AEM SPA Editor SDK at a low level, hosted by Adobe engineers.
 seo-description: The AEM SPA Editor SDK was featured in a series of AEM Gems sessions. Hosted by Adobe engineers, this series can serve as a great guide to gain a deeper understanding of the AEM SPA Editor SDK at a low level, hosted by Adobe engineers.
-uuid: 4f243237-696b-499a-b7c2-edf0d9d66e7a
+uuid: 326ac431-79d4-48ed-aa48-0c9bfdbd23d0
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: a32e321c-cd83-48ce-a5ee-c2ad2d6dff48
+discoiquuid: 48ab972b-ca26-40d1-b89e-86124ceb173b
+index: y
+internal: n
+snippet: y
 ---
 
 # SPA Deep Dives{#spa-deep-dives}

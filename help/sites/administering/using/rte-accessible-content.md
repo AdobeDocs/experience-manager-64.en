@@ -3,12 +3,15 @@ title: Configuring RTE for Producing Accessible Sites
 seo-title: Configuring RTE for Producing Accessible Sites
 description: Learn how to configure the AEM Rich Text Editor to produce accessible sites.
 seo-description: Learn how to configure the AEM Rich Text Editor to produce accessible sites.
-uuid: 22dde621-c432-46e6-9164-5bf769401189
+uuid: 87539fee-3ecc-49f4-af3d-8dde72399c28
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 185f97b3-8a9d-4395-955b-726bf3fc0027
+discoiquuid: ff0f006d-461c-4cc4-b6eb-d665f3f3b498
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring RTE for Producing Accessible Sites{#configuring-rte-for-producing-accessible-sites}
@@ -124,13 +127,13 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
 
    `/apps/cq/ui/widgets/source/widgets/form/rte/plugins/TablePropertiesDialog.js`
 
-1. In the `constructor` method, before the line reading:
+1. In the `constructor` method, before the line reading:****
 
    ```
    var dialogRef = this;
    ```
 
-   Add the following code:
+   Add the following code:****
 
    ```
    editItems.push({

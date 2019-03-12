@@ -3,12 +3,15 @@ title: Configuring directories
 seo-title: Configuring directories
 description: Learn how to add, edit and delete directories and configure user management to use virtual list view.
 seo-description: Learn how to add, edit and delete directories and configure user management to use virtual list view.
-uuid: 0a41fca0-617c-4bb5-9151-f7d2a7f6bc36
+uuid: 0bf1a8a7-c917-4248-9937-d24e31c5ba17
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: af0c1347-c1f9-4dac-a0df-5afd981b0521
+discoiquuid: 1f15f028-aa81-478e-97eb-f83a4dc0418c
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring directories{#configuring-directories}

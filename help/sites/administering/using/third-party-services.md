@@ -3,12 +3,15 @@ title: Integrating with Third-Party Services
 seo-title: Integrating with Third-Party Services
 description: Learn how to integrate AEM with third party services.
 seo-description: Learn how to integrate AEM with third party services.
-uuid: 4d1a579e-b26d-4d9f-bf65-d6a397cad7b2
+uuid: bfafd00b-46bc-4af2-b3e8-874afb1ed697
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 52ab699e-7f81-424f-a2b6-5cfba6fda140
+discoiquuid: e0d6478a-4420-46a6-96fe-082a30ee82f0
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating with Third-Party Services{#integrating-with-third-party-services}

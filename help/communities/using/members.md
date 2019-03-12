@@ -3,12 +3,15 @@ title: Members & Groups Management Consoles
 seo-title: Members & Groups Management Consoles
 description: How to access Members and Groups Management consoles
 seo-description: How to access Members and Groups Management consoles
-uuid: 43138965-3c51-4e21-940d-350a3f3147f6
+uuid: 2e93e861-a066-4189-91db-f8b784bc5aea
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: a363db11-0264-4e3d-b8a8-17f1d94b81f4
+discoiquuid: ccabf301-b417-48aa-8501-8360fd9f3e36
+index: y
+internal: n
+snippet: y
 ---
 
 # Members & Groups Management Consoles{#members-groups-management-consoles}
@@ -36,7 +39,7 @@ For managing users and groups registered in the *author* environment, is is nece
 
 In the author environment, to reach the Members console for managing members registered in the publish environment :
 
-* from global navigation :** Navigation, Communities, Members**
+* from global navigation : **Navigation, Communities, Members**
 
 >[!CAUTION]
 >
@@ -158,7 +161,7 @@ The Groups console, available from the author environment, allows for the creati
 
 To access the Groups console :
 
-* from global navigation :** Navigation, Communities, Groups**
+* from global navigation : **Navigation, Communities, Groups**
 
 >[!CAUTION]
 >

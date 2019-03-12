@@ -3,13 +3,16 @@ title: Creating Device Group Filters
 seo-title: Creating Device Group Filters
 description: Create a device group filter to define a set of device capability requirements
 seo-description: Create a device group filter to define a set of device capability requirements
-uuid: 73782d53-f37a-48f5-ab5f-d05d92c3f467
+uuid: 8db98b98-f26d-4924-930a-a682cd7df866
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: e689e73f-8489-4459-8ee4-1899e35f6b8c
+discoiquuid: 4c4a7bc4-3fb1-44c1-823f-d789790f5e06
 legacypath: /content/docs/en/aem/6-0/develop/mobile/groupfilters
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Device Group Filters{#creating-device-group-filters}
@@ -186,7 +189,7 @@ The DeviceGroup and DeviceGroupFilter interfaces are included in the Day Communi
 
 At the time of authoring, 5.5.2 is the version of the WCM Mobile API bundle that is in the latest release of AEM. Use Adobe Web Console ([http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles)) to ensure this is the bundle version that is deployed in your environment.
 
-**POM:** (Your POM will use a different groupId and version.)
+**POM: **(Your POM will use a different groupId and version.)
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0"

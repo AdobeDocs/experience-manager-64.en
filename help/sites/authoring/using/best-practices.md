@@ -3,12 +3,15 @@ title: Best Practices
 seo-title: Best Practices
 description: How to use AEM in the most efficient and most effective way possible
 seo-description: How to use AEM in the most efficient and most effective way possible
-uuid: 9f508e9e-6e54-421e-936f-07a7b7da7d3a
+uuid: b3044cdf-8ca4-4012-b290-11f73c0cb1bf
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 23fe7d78-6f22-47c6-875f-7fc4228a2572
+discoiquuid: d15ded18-7417-47e2-9783-b23fa05a0cda
+index: y
+internal: n
+snippet: y
 ---
 
 # Best Practices{#best-practices}

@@ -3,12 +3,15 @@ title: Revision Cleanup
 seo-title: Revision Cleanup
 description: Learn how to use the Revision Cleanup functionality in AEM 6.3.
 seo-description: Learn how to use the Revision Cleanup functionality in AEM 6.3.
-uuid: 215be518-8cc6-422f-8026-2d69667ce42b
+uuid: 321f5038-44b0-4f1e-a1aa-2d29074eed70
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: b886f0ab-e6e8-419c-bb1a-70aeb10f321d
+discoiquuid: f03ebe60-88c0-4fc0-969f-949490a8e768
+index: y
+internal: n
+snippet: y
 ---
 
 # Revision Cleanup{#revision-cleanup}
@@ -21,7 +24,7 @@ With AEM 6.3 an online version of this functionality called Online Revision Clea
 
 **Note**: [See the Video](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/revision-cleanup-technical-video-use.html) for an introduction and how to use Online Revision Cleanup.
 
-The revision cleanup process consists of three phases:** estimation**, **compaction** and **clean up**. Estimation determines whether to run the next phase (compaction) or not based on how much garbage might be collected. During the compaction phase segments and tar files are rewritten leaving out any unused content. The clean up phase subsequently removes the old segments including any garbage they may contain. The offline mode can usually reclaim more space because the online mode needs to account for AEM's working set which retains additional segments from being collected.
+The revision cleanup process consists of three phases: **estimation**, **compaction** and **clean up**. Estimation determines whether to run the next phase (compaction) or not based on how much garbage might be collected. During the compaction phase segments and tar files are rewritten leaving out any unused content. The clean up phase subsequently removes the old segments including any garbage they may contain. The offline mode can usually reclaim more space because the online mode needs to account for AEM's working set which retains additional segments from being collected.
 
 For more details regarding Revision Cleanup, see the following links:
 

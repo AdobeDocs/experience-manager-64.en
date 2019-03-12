@@ -3,12 +3,15 @@ title: Website Administration
 seo-title: Website Administration
 description: Learn how to manage multilingual websites in AEM.
 seo-description: Learn how to manage multilingual websites in AEM.
-uuid: dd71acf8-7b75-45f0-9028-c45d37aa6db5
+uuid: a32d458b-a5ad-46ef-a68c-4717c63b4bdd
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 55334c59-5c23-4250-b931-b04a26234578
+discoiquuid: fabaa3e8-1657-4ed4-abb2-990117bec39c
+index: y
+internal: n
+snippet: y
 ---
 
 # Website Administration{#website-administration}
@@ -55,8 +58,8 @@ The following diagram illustrates how the main concepts intersect (but does not 
 >For all use-cases it is recommended to read the following best practices:
 >
 >* [Best Practices for MSM](../../../sites/administering/using/msm-best-practices.md); particularly: >
->* [Create Site](../../../sites/administering/using/msm-best-practices.md#create-site)
->* [MSM and Multilingual Websites](../../../sites/administering/using/msm-best-practices.md#msm-and-multilingual-websites)
+>    * [Create Site](../../../sites/administering/using/msm-best-practices.md#create-site)
+>    * [MSM and Multilingual Websites](../../../sites/administering/using/msm-best-practices.md#msm-and-multilingual-websites)
 >
 >* [Best Practices for Translation](../../../sites/administering/using/tc-bp.md)
 >

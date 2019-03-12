@@ -3,12 +3,15 @@ title: Importing and exporting PDF Generator configuration files
 seo-title: Importing and exporting PDF Generator configuration files
 description: Learn how to import and export PDF Generator configuration files.
 seo-description: Learn how to import and export PDF Generator configuration files.
-uuid: 1433079f-0051-411f-b9d2-8463a059ae1a
+uuid: 3367253b-d222-4c5f-9455-a1810d96112e
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2503ba60-493a-4532-a673-0fecc635c861
+discoiquuid: e25c1b35-73eb-4353-8e39-a2d4cdccd101
+index: y
+internal: n
+snippet: y
 ---
 
 # Importing and exporting PDF Generator configuration files{#importing-and-exporting-pdf-generator-configuration-files}

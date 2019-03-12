@@ -3,12 +3,15 @@ title: Images
 seo-title: Images
 description: null
 seo-description: null
-uuid: f3758bb7-82d6-464f-8dc8-fa49afd5efe2
+uuid: 7e63a2bb-a925-47d9-bf3d-161e286c3134
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 40590260-c9c4-474c-9451-323908460f57
+discoiquuid: 8793528c-0008-41d8-bee1-5fde6183b148
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Images{#images}

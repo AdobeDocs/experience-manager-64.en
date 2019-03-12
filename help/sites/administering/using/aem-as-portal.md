@@ -3,12 +3,15 @@ title: AEM Portals and Portlets
 seo-title: AEM Portals and Portlets
 description: Learn about Portals and Portles in AEM.
 seo-description: Learn about Portals and Portles in AEM.
-uuid: 38672cc9-7b64-46ab-b8f5-a67afe228dbf
+uuid: 50d3f49e-abf3-4544-94ce-078245c685dd
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 20c7b918-2ca6-47e5-a6b9-b6ca3a86d000
+discoiquuid: f25d901a-c62c-46b4-aab7-3ca3da1cea5b
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Portals and Portlets{#aem-portals-and-portlets}

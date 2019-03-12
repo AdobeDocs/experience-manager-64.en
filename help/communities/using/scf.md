@@ -3,12 +3,15 @@ title: Social Component Framework
 seo-title: Social Component Framework
 description: The social component framework (SCF) simplifies the process of configuring, customizing, and extending Communities components
 seo-description: The social component framework (SCF) simplifies the process of configuring, customizing, and extending Communities components
-uuid: 4cb7c585-9088-47f2-a41f-106f1560a9f0
+uuid: 23b4418d-b91c-46fc-bf42-1154ef79fe5a
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 41d6f0d1-a50d-4ee1-97f9-bab84de710e1
+discoiquuid: d7b5b5e3-2d84-4a6b-bcc2-d490882ff3ed
+index: y
+internal: n
+snippet: y
 ---
 
 # Social Component Framework{#social-component-framework}

@@ -3,12 +3,15 @@ title: Client-side Customization
 seo-title: Client-side Customization
 description: Customizing behavior or appearance client-side in AEM Communities
 seo-description: Customizing behavior or appearance client-side in AEM Communities
-uuid: 1197f393-6b21-438c-91f9-5a9f6b002121
+uuid: 57978c39-9a8a-4098-9001-c8bbe7ee786f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 39e5d510-0828-43c8-9858-6f91a2be3756
+discoiquuid: 24b6d1d2-c118-4a25-959f-2783961c4ae3
+index: y
+internal: n
+snippet: y
 ---
 
 # Client-side Customization{#client-side-customization}

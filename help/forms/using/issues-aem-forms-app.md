@@ -3,11 +3,14 @@ title: Troubleshoot AEM Forms app
 seo-title: Troubleshoot AEM Forms app
 description: Learn about common issues with AEM Forms app and how to troubleshoot them. 
 seo-description: Learn about common issues with AEM Forms app and how to troubleshoot them. 
-uuid: 2a9c3b49-40fa-42a6-9a4f-54f72a181df3
+uuid: a5cc3065-0ebf-48c0-a8fe-f1061632ca90
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 497cafe3-7c51-4b70-b1d7-7288114aae30
+discoiquuid: 2f45a965-590b-43b1-95c6-df4b74ad15b9
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshoot AEM Forms app{#troubleshoot-aem-forms-app}
@@ -79,7 +82,7 @@ Modify the path of the form and its resources to reduce the number of characters
 
 The error message is displayed when you build AEM Forms app in Android Studio. The issue occurs due to unsupported version of Gradle supported on the system.
 
-**Resolution:** Click **Fix Gradle wrapper and re-import project **to resolve the issue.
+**Resolution: **Click **Fix Gradle wrapper and re-import project **to resolve the issue.
 
 ![](assets/gradle_unsupported_version.png) 
 
@@ -91,7 +94,7 @@ The error message is displayed when you select **Build APK** option from the **B
 
 ![](assets/gradle_plugin_compatibility.png)
 
-**Resolution:** Open **Gradle Scripts** &gt; **gradle-wrapper.properties** file and edit the **distributionUrl **property.
+**Resolution: **Open **Gradle Scripts** &gt; **gradle-wrapper.properties** file and edit the **distributionUrl **property.
 
 For example, the Android Studio console recommends downgrading the Gradle version to 3.5. Edit the version in **distributionUrl **of** gradle-wrapper.properties** file.
 

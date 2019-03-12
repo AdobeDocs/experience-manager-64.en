@@ -3,12 +3,15 @@ title: Creating CSS styles for HTML5 forms
 seo-title: Creating CSS styles for HTML5 forms
 description: Learn how to change the appearance of HTML5 forms by modifying the CSS class associated with the HTML form element. 
 seo-description: Learn how to change the appearance of HTML5 forms by modifying the CSS class associated with the HTML form element. 
-uuid: c7a02300-2c9a-42ff-b1d7-8dda1c5dc1ac
+uuid: 43c689b4-243c-43de-a8be-1eef10d75295
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: fc3008b7-146f-4aec-803c-67bd1d1d7a9a
+discoiquuid: a8d986ab-2a4c-488b-957e-4606f7391bd3
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating CSS styles for HTML5 forms{#creating-css-styles-for-html-forms}
@@ -41,9 +44,9 @@ The field element contains two nested elements: widget and caption.
 
 The widget element contains the user interface element for interaction with users. It has three CSS classes:
 
-* Widget**:** Every widget has this class.
-* name**:** All the widgets shipped with AEM contain the widget name class. For custom widgets, the widget developer provides the Widget name class.
-* type**:** Every widget has a user interface element. This class defines the type of the user interface element.
+* Widget**: **Every widget has this class.
+* name**: **All the widgets shipped with AEM contain the widget name class. For custom widgets, the widget developer provides the Widget name class.
+* type**: **Every widget has a user interface element. This class defines the type of the user interface element.
 
 ```xml
 <!--field with caption-->

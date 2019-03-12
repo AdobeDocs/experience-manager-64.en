@@ -3,12 +3,15 @@ title: Previewing Pages Using ContextHub Data
 seo-title: Previewing Pages Using ContextHub Data
 description: The ContextHub toolbar displays data from ContextHub stores and enables you to change store data. The ContextHub toolbar is useful for previewing content that is determined by data in a ContextHub store.
 seo-description: The ContextHub toolbar displays data from ContextHub stores and enables you to change store data. The ContextHub toolbar is useful for previewing content that is determined by data in a ContextHub store.
-uuid: c7bbe6d0-84ce-4001-a846-fea5ff2e3171
+uuid: 42012698-92f4-462d-87e1-44cceb669548
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 9c1f5b61-8c42-4871-8634-bb1a5e5775a6
+discoiquuid: 5f50f136-982d-47c9-a952-84e33c0bdc8a
+index: y
+internal: n
+snippet: y
 ---
 
 # Previewing Pages Using ContextHub Data{#previewing-pages-using-contexthub-data}

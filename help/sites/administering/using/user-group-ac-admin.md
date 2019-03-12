@@ -3,11 +3,14 @@ title: User, Group and Access Rights Administration
 seo-title: User, Group and Access Rights Administration
 description: Learn about user, group and access rights administration in AEM.
 seo-description: Learn about user, group and access rights administration in AEM.
-uuid: fce035ff-e2a2-4882-b0d3-96299356f8e4
+uuid: 30e0d4dc-261d-4dc2-aff7-29179eca1cc2
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 2f6e5571-19ae-403e-9f0d-3776a54d797c
+discoiquuid: cc0637ef-4a9e-454f-899d-655c9caebe2b
+index: y
+internal: n
+snippet: y
 ---
 
 # User, Group and Access Rights Administration{#user-group-and-access-rights-administration}

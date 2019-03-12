@@ -3,13 +3,16 @@ title: Assembling Non-Interactive PDF Documents
 seo-title: Assembling Non-Interactive PDF Documents
 description: null
 seo-description: null
-uuid: fdf44c8e-632a-4566-927b-95c1b8e1f9ac
+uuid: 0c7adeb4-9a3a-4ec5-ba33-c3642928d4ea
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 0036c0f9-fc83-492d-84e1-c1275eb2030d
+discoiquuid: 8a75c201-bd88-4809-be08-69de94656489
+index: y
+internal: n
+snippet: y
 ---
 
 # Assembling Non-Interactive PDF Documents{#assembling-non-interactive-pdf-documents}

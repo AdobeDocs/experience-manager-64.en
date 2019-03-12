@@ -3,12 +3,15 @@ title: Managing Projects with the Touch-Enabled UI
 seo-title: Managing Projects with the Touch-Enabled UI
 description: Projects lets you organize your project by grouping resources into one entity.
 seo-description: Projects lets you organize your project by grouping resources into one entity.
-uuid: fb8e673f-c890-465f-8af6-0624baca3540
+uuid: 94a76e16-57ad-46e5-a39f-fa374f3ed7d7
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 6a481e8f-d4b8-4d1b-9555-0fcdba3c660a
+discoiquuid: 969cabe9-1add-4328-89c1-3dbfa1a0ee79
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Projects with the Touch-Enabled UI{#managing-projects-with-the-touch-enabled-ui}

@@ -3,12 +3,15 @@ title: Selecting your UI
 seo-title: Selecting your UI
 description: Configure which interface you will use to work in AEM
 seo-description: Configure which interface you will use to work in AEM
-uuid: ba8d541c-a8b8-49ca-9a3d-fa0492a804b5
+uuid: af956219-178e-477b-a0cd-dd2341ed2ff0
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 7423a775-e048-472f-bc48-e289850eb3ce
+discoiquuid: 9cadec1b-f435-4fd8-b4bc-1a23a0cf11f3
+index: y
+internal: n
+snippet: y
 ---
 
 # Selecting your UI{#selecting-your-ui}

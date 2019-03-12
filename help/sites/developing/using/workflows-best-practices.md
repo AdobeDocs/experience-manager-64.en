@@ -3,12 +3,15 @@ title: Workflow Best Practices
 seo-title: Workflow Best Practices
 description: null
 seo-description: null
-uuid: 72ebd817-84e8-419e-9537-15ab1a50542c
+uuid: 79be4055-c2ef-428e-9054-103c6cfde1d2
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: f861a7b5-9cb3-4813-828c-4688aa0aa5fe
+discoiquuid: 0be8b88c-6f57-4dcc-ae11-77b378a2decd
+index: y
+internal: n
+snippet: y
 ---
 
 # Workflow Best Practices{#workflow-best-practices}
@@ -102,8 +105,8 @@ Workflow models are stored in the repository according to type:
   >
   >    
   >    
-  >* place any of your custom workflow models in this folder
-  >* edit anything in `/libs`
+  >    * place any of your custom workflow models in this folder
+  >    * edit anything in `/libs`
   >    
   >    
   >As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.
@@ -141,8 +144,8 @@ Workflow launcher definitions are also stored in the repository according to typ
   >
   >    
   >    
-  >* place any of your custom workflow launchers in this folder
-  >* edit anything in `/libs`
+  >    * place any of your custom workflow launchers in this folder
+  >    * edit anything in `/libs`
   >    
   >    
   >As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.
@@ -176,8 +179,8 @@ Workflow scripts are also stored in the repository according to type:
   >
   >    
   >    
-  >* place any of your custom workflow scripts in this folder
-  >* edit anything in `/libs`
+  >    * place any of your custom workflow scripts in this folder
+  >    * edit anything in `/libs`
   >    
   >    
   >As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.
@@ -207,8 +210,8 @@ Workflow notifications are also stored in the repository according to type:
   >
   >    
   >    
-  >* place any of your custom workflow notification definitions in this folder
-  >* edit anything in `/libs`
+  >    * place any of your custom workflow notification definitions in this folder
+  >    * edit anything in `/libs`
   >    
   >    
   >As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.

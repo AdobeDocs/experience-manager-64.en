@@ -3,13 +3,16 @@ title: Translating Content for Multilingual Sites
 seo-title: Translating Content for Multilingual Sites
 description: Learn how to translate content for multilingual sites.
 seo-description: Learn how to translate content for multilingual sites.
-uuid: ab9bfe70-2c1d-4d33-8fd6-7f715e5eb0b4
+uuid: b8047f6f-e86a-495d-9b80-731ac7d83c66
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 3e9d1122-96b0-4acd-83f4-7f56a63149f3
+discoiquuid: 67faa2ee-cb12-44b0-8bfb-534d1d6c360a
 legacypath: /content/docs/en/aem/6-0/administer/integration/third-party-services/machine-translation
+index: y
+internal: n
+snippet: y
 ---
 
 # Translating Content for Multilingual Sites{#translating-content-for-multilingual-sites}

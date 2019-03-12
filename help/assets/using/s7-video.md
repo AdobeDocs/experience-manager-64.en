@@ -3,12 +3,15 @@ title: Video
 seo-title: Video
 description: Learn about the centralized video asset management AEM Assets where you can upload videos for auto-encoding to Scene7 and access Scene7 videos directly from AEM Assets. Scene7 video integration extends the reach of optimized video to all screens.
 seo-description: Learn about the centralized video asset management AEM Assets where you can upload videos for auto-encoding to Scene7 and access Scene7 videos directly from AEM Assets. Scene7 video integration extends the reach of optimized video to all screens.
-uuid: 35ce707b-22ce-4b97-9a42-4002626ba893
+uuid: 8b3423f1-d96b-44d9-bdb7-e3b77875b25d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: ee365d94-2983-4889-b10a-3ef97115b97a
+discoiquuid: 2685f9f3-0973-40a9-89b8-e7db0a6a75f2
+index: y
+internal: n
+snippet: y
 ---
 
 # Video{#video}

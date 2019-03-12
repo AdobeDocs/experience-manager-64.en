@@ -3,12 +3,15 @@ title: Application Server Install
 seo-title: Application Server Install
 description: Learn how to install AEM with an application server.
 seo-description: Learn how to install AEM with an application server.
-uuid: 1825d509-f582-42f0-8689-a8d17c2e8918
+uuid: c9571f80-6ed1-46fe-b7c3-946658dfc3f4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: eaeaa5d7-2e28-40df-a455-ada42c649829
+discoiquuid: 6fdce35d-2709-41cc-87fb-27a4b867e960
+index: y
+internal: n
+snippet: y
 ---
 
 # Application Server Install{#application-server-install}

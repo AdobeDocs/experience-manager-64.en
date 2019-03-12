@@ -3,12 +3,15 @@ title: Asset Templates
 seo-title: Asset Templates
 description: Learn about Asset templates in AEM Assets and how to use Asset templates to create marketing collateral.
 seo-description: Learn about Asset templates in AEM Assets and how to use Asset templates to create marketing collateral.
-uuid: 1d5580fd-4f14-4dfd-b3e0-a4b95da56cc0
+uuid: 7ba87c1d-70cd-4b89-86f3-971b93885f1e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 4e2a1b3a-2866-454a-80f3-dd0e4ea95659
+discoiquuid: 340b62f7-2405-4d2d-846d-2c444d6cc77b
+index: y
+internal: n
+snippet: y
 ---
 
 # Asset Templates{#asset-templates}
@@ -148,16 +151,16 @@ You can edit a collateral immediately after you create it. Alternatively, you op
    >
    >    
    >    
-   >* Images are not embeded in the underlying InDesign template
-   >* Images are linked from the local file system
+   >    * Images are not embeded in the underlying InDesign template
+   >    * Images are linked from the local file system
    >    
    >    
    >To enable AEM to resolve images, do the following:
    >
    >    
    >    
-   >* Embed images while creating InDesign templates (See [About links and embedded graphics](https://helpx.adobe.com/indesign/using/graphics-links.html)).
-   >* Mount AEM to your local file system, and then map missing icons with existing AEM assets.
+   >    * Embed images while creating InDesign templates (See [About links and embedded graphics](https://helpx.adobe.com/indesign/using/graphics-links.html)).
+   >    * Mount AEM to your local file system, and then map missing icons with existing AEM assets.
    >    
    >    
    >For more information around working with InDesign documents, see [Best Practices for Working with InDesign Documents in AEM](https://helpx.adobe.com/experience-manager/kb/best-practices-idd-docs-aem.html).

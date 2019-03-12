@@ -3,10 +3,13 @@ title: Inline styling of adaptive form components
 seo-title: Inline CSS properties for adaptive form components
 description: While you can apply custom styles on an adaptive form, you can also apply inline CSS properties on individual components of an adaptive form.
 seo-description: While you can apply custom styles on an adaptive form, you can also apply inline CSS properties on individual components of an adaptive form.
-uuid: 6318b77e-cf5f-4350-8ec3-bcd32fa00a93
+uuid: ab948f02-3b41-4304-955b-6dd51d27088e
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 55fa2e0a-d884-4ba3-bd83-8cb05eee35a8
+discoiquuid: 91a41bc1-3fa3-4467-b3f8-5570ba7757c0
+index: y
+internal: n
+snippet: y
 ---
 
 # Inline styling of adaptive form components{#inline-styling-of-adaptive-form-components}

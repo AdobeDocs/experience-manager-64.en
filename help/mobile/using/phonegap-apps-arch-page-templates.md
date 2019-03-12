@@ -3,12 +3,15 @@ title: Page Templates for Mobile Apps
 seo-title: Page Templates for Mobile Apps
 description: Follow this page to learn about page templates for mobile apps. 
 seo-description: Follow this page to learn about page templates for mobile apps. 
-uuid: afefa82b-850e-46c4-8ba8-8e867d584b6a
+uuid: ef469796-10f5-44f4-a5c7-25025ca192b0
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: fe2e48f2-e992-4fa4-9cb6-7cf34287fa0d
+discoiquuid: f45d8a9b-14d6-468f-a44c-3933e962922c
+index: y
+internal: n
+snippet: y
 ---
 
 # Page Templates for Mobile Apps{#page-templates-for-mobile-apps}

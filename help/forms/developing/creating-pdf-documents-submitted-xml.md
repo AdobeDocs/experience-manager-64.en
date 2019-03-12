@@ -3,13 +3,16 @@ title: Creating PDF Documents with SubmittedXML Data
 seo-title: Creating PDF Documents with SubmittedXML Data
 description: null
 seo-description: null
-uuid: eadc79ed-8fde-4c06-8d44-3109dd96f779
+uuid: 2676c614-8988-451b-ac7c-bd07731a3f5f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: dd8e6b1c-993a-48b4-8e1d-dacad798de59
+discoiquuid: 62490230-a24e-419d-95bb-c0bb04a03f96
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating PDF Documents with SubmittedXML Data{#creating-pdf-documents-with-submittedxml-data}

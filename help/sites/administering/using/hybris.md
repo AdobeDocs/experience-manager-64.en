@@ -3,13 +3,16 @@ title: hybris
 seo-title: hybris
 description: Learn how to use AEM with hybris.
 seo-description: Learn how to use AEM with hybris.
-uuid: ddfc07ff-2800-47fa-9c7e-16afdd0be89c
+uuid: cee1a781-fcba-461e-a0a4-c561a1dbcbf3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: e7a50b13-1a6c-4e78-9c73-8fb49aab9fee
+discoiquuid: 9474519d-14cc-49e0-a81d-9319966fd1f6
 pagetitle: Administering hybris
+index: y
+internal: n
+snippet: y
 ---
 
 # hybris{#hybris}
@@ -430,14 +433,14 @@ To add order history to the [client context](../../../sites/developing/using/cli
    >
    >    
    >    
-   >* Navigate to  
+   >    * Navigate to  
    >      [http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html](http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html)  
    >      The campaign consists of one experience.
    >    
-   >* Click on the segment  
+   >    * Click on the segment  
    >      ([http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html](http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html))
    >    
-   >* The segment is built using the **Order History Property** trait.
+   >    * The segment is built using the **Order History Property** trait.
    >    
    >
 

@@ -3,12 +3,15 @@ title: SSL By Default
 seo-title: SSL By Default
 description: Learn how to use SSL by Default in AEM.
 seo-description: Learn how to use SSL by Default in AEM.
-uuid: b84d7cc0-26f6-4e3b-ad9c-d9ef089c2485
+uuid: 262474b0-f5fa-4cff-8727-9f39c5b5f760
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
-discoiquuid: 73ddc532-7760-4a50-a325-26807c8bea1e
+discoiquuid: 3a1817cd-357b-473d-9a09-e18bbfc60dfd
+index: y
+internal: n
+snippet: y
 ---
 
 # SSL By Default{#ssl-by-default}

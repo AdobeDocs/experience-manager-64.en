@@ -3,9 +3,12 @@ title: Installing and configuring the document security server
 seo-title: Installing and configuring the document security server
 description: Use document security to safely distribute any information that you have saved in a supported format. Only authorized users can access protected documents. 
 seo-description: Use document security to safely distribute any information that you have saved in a supported format. Only authorized users can access protected documents. 
-uuid: bf53420b-8028-42a5-9089-d6dffab21e89
+uuid: 04c67a84-01ad-45b7-a590-822b1c067d52
 contentOwner: khsingh
-discoiquuid: 3014e689-24d1-40a4-9906-c8c0a9c28f28
+discoiquuid: 600d13e7-6655-41c5-aab4-c8e9e2a8d14f
+index: y
+internal: n
+snippet: y
 ---
 
 # Installing and configuring the document security server{#installing-and-configuring-the-document-security-server}

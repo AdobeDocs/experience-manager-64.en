@@ -3,12 +3,15 @@ title: Assets Supported Formats
 seo-title: Assets Supported Formats
 description: List of file formats supported by AEM Assets and features supported for each format.
 seo-description: List of file formats supported by AEM Assets and features supported for each format.
-uuid: fec8d160-8bd7-404f-a40f-ce7e32868b01
+uuid: 56debf26-d67f-4bca-933c-5eb4ec9d2865
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: bf9f486c-3b84-4279-9196-5f22a72d76ef
+discoiquuid: 8519f029-3dd1-4325-9758-e6b5b530a0ee
+index: y
+internal: n
+snippet: y
 ---
 
 # Assets Supported Formats{#assets-supported-formats}
@@ -21,19 +24,19 @@ The following tables describes all the formats supported by AEM Assets as well a
 
 The following legend describes the level of support AEM Assets offers for a feature: 
 
+| 
+|
 | Support Level |Description |
-|--- |--- |
 | x |Supported |
-| * |Supported with add-on features |
+| &#42; |Supported with add-on features |
 | - |Not applicable |
 
 ## Supported Raster Image Formats {#supported-raster-image-formats}
 
-<!-- This table needs to be fixed-->
-
-||| Asset Management Features ||||||| Dynamic Media Features |||
-|Format |Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
-|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asset Management Features |Dynamic Media Features |
+|---|---|
+|   |Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
+| Format |  |
 | PNG |x |x |x |x |x |x |x |x |x |x |x |
 | GIF |x |x |x |x |x |  |x |x |x |x |x |
 | TIFF |x |x |x |x |  |x |x |x |x |x |x |
@@ -43,8 +46,8 @@ The following legend describes the level of support AEM Assets offers for a feat
 | PGM |x |x |  |  |  |  |  |  |  |  |  |
 | PBM |x |x |  |  |  |  |  |  |  |  |  |
 | PPM |x |x |  |  |  |  |  |  |  |  |  |
-| PSD* |x |x |x |x |  |  |x |  |  |  |  |
-| [EPS](../../assets/using/managing-image-presets.md#adobeillustratoraipostscriptepsandpdffileformats) |x |x |x |x |  |x |x |x |x |x |x |
+| PSD&#42; |x |x |x |x |  |  |x |  |  |  |  |
+| [EPS](../../assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) |x |x |x |x |  |x |x |x |x |x |x |
 | PICT |  |  |  |  |  |  |x |  |  |  |  |
 | PSB |x  |x  |x  |x  |  |  |  |  |  |  |  |
 

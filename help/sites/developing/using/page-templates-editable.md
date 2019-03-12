@@ -3,12 +3,15 @@ title: Page Templates - Editable
 seo-title: Page Templates - Editable 
 description: Editable templates have been introduced to, allow non-developers to create and edit templates, provide templates that retain a dynamic connection to any pages created from them, and make the page component more generic
 seo-description: Editable templates have been introduced to, allow non-developers to create and edit templates, provide templates that retain a dynamic connection to any pages created from them, and make the page component more generic
-uuid: 3d95b438-0d94-4aab-87bf-3922d88cca65
+uuid: ca0b8ae2-8300-4f4f-9418-0b5f0d32aeae
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: bc83bc15-3dbf-478a-be9d-daf7f942fcc8
+discoiquuid: cf181663-8a4a-4efc-9f02-be1cf71c9299
+index: y
+internal: n
+snippet: y
 ---
 
 # Page Templates - Editable {#page-templates-editable}

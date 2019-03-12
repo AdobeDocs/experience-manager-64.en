@@ -3,10 +3,13 @@ title: Layout capabilities of adaptive forms
 seo-title: Layout capabilities of adaptive forms
 description: Layout and appearances of adaptive forms on various devices are governed by the layout settings. Understand the various layouts and how to apply them.
 seo-description: Layout and appearances of adaptive forms on various devices are governed by the layout settings. Understand the various layouts and how to apply them.
-uuid: 63fe002c-c13c-45a0-9514-d2b18e55afd1
+uuid: 7df2d234-e2e3-432a-9720-e73296424302
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 86329ad8-8665-4c3e-8070-39825e25275e
+discoiquuid: 10bf1d44-9660-44d9-b2c3-dd9a252efc3a
+index: y
+internal: n
+snippet: y
 ---
 
 # Layout capabilities of adaptive forms{#layout-capabilities-of-adaptive-forms}

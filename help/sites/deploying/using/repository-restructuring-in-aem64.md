@@ -3,14 +3,17 @@ title: Repository Restructuring in AEM 6.4
 seo-title: Repository Restructuring in AEM 6.4
 description: Learn about the repository restructuring in AEM 6.4
 seo-description: Learn about the repository restructuring in AEM 6.4
-uuid: 0a70d4c6-0b1b-4bf4-898c-32d327ff05b8
+uuid: c8ae3cb6-5839-4ad7-8d59-f26554c66c1f
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: 66e4e22f-e051-4307-b310-816cfc6cbfc8
+discoiquuid: 0f6068c8-a3da-4fac-af57-8ef7429a77d1
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/deploying/using/repository-restructuring.html
+index: y
+internal: n
+snippet: y
 ---
 
 # Repository Restructuring in AEM 6.4{#repository-restructuring-in-aem}

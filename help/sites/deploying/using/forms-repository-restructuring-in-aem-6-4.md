@@ -3,11 +3,14 @@ title: Forms Repository Restructuring in AEM 6.4
 seo-title: Forms Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Forms.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Forms.
-uuid: d1e09c7d-842a-4ffb-bb92-6afb31efb9b8
+uuid: e60830d4-23ca-4be9-941a-ee4abe4786a6
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: 743cd969-94f5-4572-abad-0c29eeef8af4
+discoiquuid: 1ce9a622-5968-407f-a74b-d325a2bff669
+index: y
+internal: n
+snippet: y
 ---
 
 # Forms Repository Restructuring in AEM 6.4{#forms-repository-restructuring-in-aem}
@@ -103,7 +106,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Typekit Cloud Service Configurations {#typekit-cloud-service-configurations}
 
-| **Previous location** | `/etc/cloudservices/typekit` |
+| ****Previous location** | `/etc/cloudservices/typekit` |
 |---|---|
 | **New location(s)** | `/conf/<tenant>/settings/cloudconfigs/typekit` |
 | **Restructuring guidance** |The [Lazy Content Migration](../../../sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |

@@ -3,11 +3,14 @@ title: Download an XFA or a PDF form template
 seo-title: Download an XFA or a PDF form template
 description: You can export forms from the repository to the local system and migrate the downloaded forms to new repository.
 seo-description: You can export forms from the repository to the local system and migrate the downloaded forms to new repository.
-uuid: c00428ee-fafe-4532-a17a-94a1820ae4da
+uuid: 5f7fbd14-cb9d-4749-8708-7efe49df89d7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 490b8770-613d-4f8b-95dc-a3fd318401b9
+discoiquuid: 6699e0e7-fd42-41ae-86a2-3b940d905111
+index: y
+internal: n
+snippet: y
 ---
 
 # Download an XFA or a PDF form template{#download-an-xfa-or-a-pdf-form-template}

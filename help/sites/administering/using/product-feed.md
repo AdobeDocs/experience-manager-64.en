@@ -3,12 +3,15 @@ title: Product Feed
 seo-title: Product Feed
 description: Learn about the AEM Product Feed.
 seo-description: Learn about the AEM Product Feed.
-uuid: 03c02183-7b9a-4514-8208-4c59cacb7bc1
+uuid: 99eb9bdc-2717-45d4-9203-6394b7d7ddc6
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: ba6c93b4-fe7a-4330-91fd-ee2fccd999ef
+discoiquuid: 1f920892-c52e-42ca-900c-2c7ab3c503b3
+index: y
+internal: n
+snippet: y
 ---
 
 # Product Feed{#product-feed}

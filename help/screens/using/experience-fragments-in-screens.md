@@ -3,12 +3,15 @@ title: Using Experience Fragments
 seo-title: Using Experience Fragments
 description: Follow this page to learn about using Experience Fragments in AEM Screens. 
 seo-description: Follow this page to learn about using Experience Fragments in AEM Screens. 
-uuid: 77e98013-757c-4919-8d09-1c962e30ee02
+uuid: 77ca8b98-1a0f-4517-a493-04a03acdea36
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: f76ffd50-44fe-4069-9e6d-c3a536931a37
+discoiquuid: a310dd2f-02bd-44bc-9ad8-bf7450648054
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Experience Fragments{#using-experience-fragments}

@@ -3,11 +3,14 @@ title: Logging in to AEM Forms app
 seo-title: Logging in to AEM Forms app
 description: Steps to log into the AEM Forms app.
 seo-description: Steps to log into the AEM Forms app.
-uuid: 5e32197a-53c0-4b3c-a806-3ee1597cdcf5
+uuid: 041372b0-adf1-40b1-8e23-b9b1535f86b4
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 29a21a6e-ce70-434e-a0ba-ea267fa663d7
+discoiquuid: e5aa84a5-9b47-4cc8-8622-510a0a2950bf
+index: y
+internal: n
+snippet: y
 ---
 
 # Logging in to AEM Forms app{#logging-in-to-aem-forms-app}
@@ -25,8 +28,8 @@ When you start your AEM Forms app, you first need to provide your login credenti
    >
    >    
    >    
-   >* To display the list of server URLs, click the list arrow at the right corner of the Server URL text box.
-   >* You can the select a AEM Forms server URL to log in to via the app.
+   >    * To display the list of server URLs, click the list arrow at the right corner of the Server URL text box.
+   >    * You can the select a AEM Forms server URL to log in to via the app.
    >    
    >
 

@@ -3,11 +3,14 @@ title: Working with AEM Forms workspace
 seo-title: Working with AEM Forms workspace
 description: Get started with AEM Forms workspace with this quick overview of the process workflows.
 seo-description: Get started with AEM Forms workspace with this quick overview of the process workflows.
-uuid: 1d4db8b4-079f-4cef-9976-cdde105abc12
+uuid: fac103bd-142b-46cc-9db7-22d1880260f8
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: c3335891-2853-4220-a97d-c47ae4c99e96
+discoiquuid: ebabecb9-91c4-4991-8f5b-d27f940d2ecb
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with AEM Forms workspace{#working-with-aem-forms-workspace}

@@ -3,12 +3,15 @@ title: Flash Viewers End-of-Life Notice
 seo-title: Flash Viewers End-of-Life Notice
 description: Effective January 31, 2017, Adobe Scene7 will officially end-of-life support for the Flash viewer platform.
 seo-description: Effective January 31, 2017, Adobe Scene7 will officially end-of-life support for the Flash viewer platform.
-uuid: 2ff35ecb-629d-477e-aace-0e24af488600
+uuid: db4e349a-4773-4c08-8a3a-e8d399902a45
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: e4c3bdcc-3f1b-4557-8d07-23a376bfb25d
+discoiquuid: fe392c24-d01e-4d5b-9af9-9ec500adc61a
+index: y
+internal: n
+snippet: y
 ---
 
 # Flash Viewers End-of-Life Notice{#flash-viewers-end-of-life-notice}

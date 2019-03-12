@@ -3,12 +3,15 @@ title: Closed User Groups in AEM
 seo-title: Closed User Groups in AEM
 description: Learn about Closed User Groups in AEM.
 seo-description: Learn about Closed User Groups in AEM.
-uuid: fa333793-0aee-4d51-ad58-b39461f42b77
+uuid: a65ed163-fdec-45f3-adf9-984d36f4eb73
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 1483c4d0-1118-44db-b825-fdad2279abd5
+discoiquuid: a2bd7045-970f-4245-ad5d-a272a654df0a
+index: y
+internal: n
+snippet: y
 ---
 
 # Closed User Groups in AEM{#closed-user-groups-in-aem}

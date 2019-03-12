@@ -3,12 +3,15 @@ title: Dashboards
 seo-title: Dashboards
 description: Learn how to create, configure and develop new AEM dashboards.
 seo-description: Learn how to create, configure and develop new AEM dashboards.
-uuid: d63dfbf0-5e35-4774-87b4-96d067ea9510
+uuid: 3eadbba2-0ce1-41be-a9f8-e6cafa109893
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 74111747-e9fa-4480-90f3-cbc2ed470a78
+discoiquuid: 40560e06-2508-45a4-a648-39629ed54f28
+index: y
+internal: n
+snippet: y
 ---
 
 # Dashboards{#dashboards}

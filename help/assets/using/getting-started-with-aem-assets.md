@@ -4,9 +4,12 @@ seo-title: Getting Started with AEM Assets
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: b1bcb22c-18a3-465d-98de-4b603abeb41d
+uuid: 5bb3a807-2bd5-4a6a-a71e-2d20e2838428
 contentOwner: alvawb
-discoiquuid: 2e9c833f-1304-4235-8817-8d6144fed9ad
+discoiquuid: a6ca75c1-57e6-419a-8caf-6ac7100f905f
+index: y
+internal: n
+snippet: y
 ---
 
 # Getting Started with AEM Assets{#getting-started-with-aem-assets}

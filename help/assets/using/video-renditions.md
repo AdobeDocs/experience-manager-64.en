@@ -3,12 +3,15 @@ title: Video renditions
 seo-title: Video renditions
 description: null
 seo-description: null
-uuid: 7cc31080-2788-4c03-bf01-88068b8c1d77
+uuid: a02f9ec1-30d9-4cbb-8746-8391ac614f0a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 1d9de298-054a-451a-af9a-a759ad741418
+discoiquuid: 1601b473-7227-4a56-bb7c-289de2987e4b
+index: y
+internal: n
+snippet: y
 ---
 
 # Video renditions{#video-renditions}

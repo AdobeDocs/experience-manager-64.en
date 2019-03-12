@@ -3,12 +3,15 @@ title: Administering generic eCommerce
 seo-title: Administering generic eCommerce
 description: The AEM generic solution provides methods of managing the commerce information held within the repository.
 seo-description: The AEM generic solution provides methods of managing the commerce information held within the repository.
-uuid: 4f529ba9-8143-48cb-aa17-683c933fc548
+uuid: 8af6933a-2dee-4b73-bc15-71b8394d082f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 5cac5bdf-7d59-4511-b6db-67b2635074fe
+discoiquuid: ad80505f-116e-43f1-8d93-ffe6e8b1ac46
+index: y
+internal: n
+snippet: y
 ---
 
 # Administering generic eCommerce{#administering-generic-ecommerce}
@@ -655,7 +658,7 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 
    ![](do-not-localize/chlimage_1-26.png)
 
-1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs to enter the [information about the new order](../../../sites/administering/using/concepts.md#order-information).  
+1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs**** to enter the [information about the new order](../../../sites/administering/using/concepts.md#order-information).  
 
 1. Select **Create** to save the information.
 

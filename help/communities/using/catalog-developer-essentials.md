@@ -3,12 +3,15 @@ title: Catalog Essentials
 seo-title: Catalog Essentials
 description: Catalog overview
 seo-description: Catalog overview
-uuid: 18e6097f-e683-49ad-9d80-25b04b940b76
+uuid: 788512bb-fa38-48fb-a769-1eaae6bb95a1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 425da53a-437a-42ad-99f0-5ca723278da0
+discoiquuid: 542467ef-3793-4347-8424-c365c5a166f6
+index: y
+internal: n
+snippet: y
 ---
 
 # Catalog Essentials{#catalog-essentials}

@@ -3,11 +3,14 @@ title: APIs to access letter instances
 seo-title: APIs to access letter instances
 description: Learn how to use APIs to access letter instances.
 seo-description: Learn how to use APIs to access letter instances.
-uuid: 27ff1078-0c14-4edc-9798-46899d2320f0
+uuid: e7fb7798-f49d-458f-87f5-22df5f3e7d10
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 1bfd11eb-97f6-4cea-aa77-84721bda00db
+discoiquuid: 9c27f976-972a-4250-b56d-b84a7d72f8c8
+index: y
+internal: n
+snippet: y
 ---
 
 # APIs to access letter instances{#apis-to-access-letter-instances}

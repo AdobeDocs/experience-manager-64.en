@@ -3,12 +3,15 @@ title: Integrating AEM Assets with InDesign Server
 seo-title: Integrating AEM Assets with InDesign Server
 description: Learn how to integrate AEM Assets with InDesign Server.
 seo-description: Learn how to integrate AEM Assets with InDesign Server.
-uuid: 7f88c3e2-f6f5-4607-bb4c-7d60afbe35f0
+uuid: 678840f6-0c16-4fdb-a964-5be30833539a
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: d5554be6-9141-4c7c-9736-0b1b1ccbb6be
+discoiquuid: 2d406520-536f-4616-8038-7772fbc4948b
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating AEM Assets with InDesign Server{#integrating-aem-assets-with-indesign-server}
@@ -33,7 +36,7 @@ To fully upload files to AEM Assets that you have created with Adobe InDesign a 
 >  The scripts are written in extendscript, which is similar to javascript. For information about Indesign scripts see [http://www.adobe.com/devnet/indesign/documentation.html#idscripting](http://www.adobe.com/devnet/indesign/documentation.html#idscripting).
 >
 
-## How the Extraction Works {#how-the-extraction-works}
+### How the Extraction Works {#how-the-extraction-works}
 
 The InDesign Server can be integrated with AEM Assets so that files created with InDesign ( `.indd`) can be uploaded, renditions generated, *all* media extracted (for example, video) and stored as assets:
 

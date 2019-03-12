@@ -3,12 +3,15 @@ title: SEO and URL Management Best Practices
 seo-title: SEO and URL Management Best Practices
 description: Learn about SEO best practices and recommendations for achieving these on an AEM implementation.
 seo-description: Learn about SEO best practices and recommendations for achieving these on an AEM implementation.
-uuid: abedd54c-5839-4212-ab1d-9d4ff8d5692f
+uuid: 7fffbe30-7cf8-44ce-b275-e128732577dd
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
-discoiquuid: 5d88831c-9e03-4925-b93c-1a7ee3b48ac2
+discoiquuid: 150b43e3-9fb3-4c1c-b1cd-ccfd162974ad
+index: y
+internal: n
+snippet: y
 ---
 
 # SEO and URL Management Best Practices{#seo-and-url-management-best-practices}

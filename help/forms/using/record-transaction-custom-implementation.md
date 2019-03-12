@@ -3,11 +3,14 @@ title: Record a transaction for custom implementations
 seo-title: Record a transaction for custom implementations
 description: Use the TransactionRecorder API to record actions which are not accounted as transactions automatically
 seo-description: Use the TransactionRecorder API to record actions which are not accounted as transactions automatically
-uuid: d58551dc-4b1d-425c-99f5-7b536df575e7
+uuid: a22b1a0b-7553-4a17-8fb4-a3bee97b4a98
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: c5921418-9e7f-4ea9-bbd7-25ae55bf7eba
+discoiquuid: 0d961630-573b-4c8e-902f-996f1d1265b6
+index: y
+internal: n
+snippet: y
 ---
 
 # Record a transaction for custom implementations{#record-a-transaction-for-custom-implementations}

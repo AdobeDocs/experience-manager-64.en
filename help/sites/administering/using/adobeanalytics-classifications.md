@@ -3,12 +3,15 @@ title: Adobe Classifications
 seo-title: Adobe Classifications
 description: Learn about Adobe Classifications.
 seo-description: Learn about Adobe Classifications.
-uuid: 655b3e1c-5f26-4a11-9eea-6c44e8ab05e3
+uuid: 57fb59f4-da90-4fe7-a5b1-c3bd51159a16
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 3d4653f2-6500-4f68-b264-9be9d69a4f41
+discoiquuid: 6787511a-2ce0-421a-bcfb-90d5f32ad35e
+index: y
+internal: n
+snippet: y
 ---
 
 # Adobe Classifications{#adobe-classifications}

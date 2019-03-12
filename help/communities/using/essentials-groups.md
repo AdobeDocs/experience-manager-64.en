@@ -3,12 +3,15 @@ title: Community Group Essentials
 seo-title: Community Group Essentials
 description: Creating community sites dynamically
 seo-description: Creating community sites dynamically
-uuid: 292a5d76-1995-4a60-b992-c08f1e18798e
+uuid: 168e7aeb-6e9a-468d-8ac4-274007cea252
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 08b8702b-0889-4e9f-8dd1-c5745f918ab0
+discoiquuid: 4f85cd3c-5158-4f23-abe2-7e375fd0c8d4
+index: y
+internal: n
+snippet: y
 ---
 
 # Community Group Essentials{#community-group-essentials}

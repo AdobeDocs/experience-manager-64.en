@@ -3,13 +3,16 @@ title: Rendering Rights-Enabled Forms
 seo-title: Rendering Rights-Enabled Forms
 description: null
 seo-description: null
-uuid: 45a52e87-c748-43b9-b0f6-bb3c26aa450c
+uuid: ce5e4be6-d9b0-4989-a0e1-a8c3b98aed77
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 0b8274b4-6250-4dd6-9ce0-8c41ae5e8a49
+discoiquuid: d4c2b2f0-613a-409d-b39b-8e37fdb96eea
+index: y
+internal: n
+snippet: y
 ---
 
 # Rendering Rights-Enabled Forms{#rendering-rights-enabled-forms}

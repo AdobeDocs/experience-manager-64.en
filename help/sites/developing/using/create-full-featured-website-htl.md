@@ -3,13 +3,16 @@ title: Quickly Create a Fully-Featured Website
 seo-title: Quickly Create a Fully-Featured Website
 description: A community article is available which discusses how to build your first Adobe Experience Manager components.
 seo-description: A community article is available which discusses how to build your first Adobe Experience Manager components.
-uuid: bca97c69-6431-4ef1-b906-6f7a00416422
+uuid: fd900af5-b211-48c7-9358-ddc1b68fd074
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 69ff37f5-b568-4075-8b51-592a3acddb24
+discoiquuid: b4ccc026-12a0-4c37-8efe-7f0529309245
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/getting-started
+index: y
+internal: n
+snippet: y
 ---
 
 # Quickly Create a Fully-Featured Website{#quickly-create-a-fully-featured-website}

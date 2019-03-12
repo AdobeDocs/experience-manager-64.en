@@ -3,9 +3,12 @@ title: Installing and configuring document services
 seo-title: Installing and configuring document services
 description: Install AEM Forms document services to create, assemble, distribute, archive PDF documents, add digital signatures to limit access to documents, and decode barcoded forms.
 seo-description: Install AEM Forms document services to create, assemble, distribute, archive PDF documents, add digital signatures to limit access to documents, and decode barcoded forms.
-uuid: 92117503-e058-46e9-9eaf-e92845423238
+uuid: 908806a9-b0d4-42d3-9fe4-3eae44cf4326
 topic-tags: installing
-discoiquuid: 44cb5452-813b-49bd-94b8-8f0de50fb864
+discoiquuid: b53eae8c-16ba-47e7-9421-7c33e141d268
+index: y
+internal: n
+snippet: y
 ---
 
 # Installing and configuring document services{#installing-and-configuring-document-services}
@@ -504,10 +507,10 @@ The DocAssurance service can apply usage rights to PDF documents. To apply usage
    >
    >    
    >    
-   >* To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
-   >* In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
+   >    * To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
+   >    * In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
    >    
-   >* In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
+   >    * In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
    >    
    >
 

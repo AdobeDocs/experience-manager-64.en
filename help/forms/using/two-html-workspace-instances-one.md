@@ -3,11 +3,14 @@ title: Hosting two AEM Forms workspace instances on one server
 seo-title: Hosting two AEM Forms workspace instances on one server
 description: How LC administrators can customize HTML WS to host two instances on a single server accessible via different URLs.
 seo-description: How LC administrators can customize HTML WS to host two instances on a single server accessible via different URLs.
-uuid: 379f7254-c189-4896-821e-6cccf80ac709
+uuid: 0584f512-6b92-4418-b71c-93605cfa1927
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 82ad5e22-7bdd-4d0d-8bc9-783828eca720
+discoiquuid: 1254a7c2-2c67-4661-803e-afd53e817916
+index: y
+internal: n
+snippet: y
 ---
 
 # Hosting two AEM Forms workspace instances on one server{#hosting-two-aem-forms-workspace-instances-on-one-server}

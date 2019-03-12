@@ -3,10 +3,13 @@ title: Adaptive form fragments
 seo-title: Adaptive form fragments
 description: Adaptive forms provides a mechanism to create a form segment, such as a panel or a group of fields, as use it in any adaptive form. You can also save an existing panel as fragment.
 seo-description: Adaptive forms provides a mechanism to create a form segment, such as a panel or a group of fields, as use it in any adaptive form. You can also save an existing panel as fragment.
-uuid: c606fdfb-74a3-4d87-8910-f907b69aebe4
+uuid: 1629dd9e-b04e-4baa-ae87-c18d4550ac0f
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: ef993890-0a1e-4705-9c8a-f91ae070fce3
+discoiquuid: 4df5ee77-5a77-4efd-b7e1-c78e650673a9
+index: y
+internal: n
+snippet: y
 ---
 
 # Adaptive form fragments{#adaptive-form-fragments}

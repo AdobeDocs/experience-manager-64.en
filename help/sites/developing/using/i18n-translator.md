@@ -3,12 +3,15 @@ title: Using Translator to Manage Dictionaries
 seo-title: Using Translator to Manage Dictionaries
 description: AEM provides a console for managing the various translations of texts used in component UI
 seo-description: AEM provides a console for managing the various translations of texts used in component UI
-uuid: e7ca9c84-2ad1-40e7-91af-04eaeebf5819
+uuid: 4eea3110-e958-473e-8d22-c84fa435edbd
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: 96e8cbd9-1020-48a2-a6e7-9b0ed07b0d03
+discoiquuid: adf3364c-11f1-45c6-b41d-2c7d48b626f9
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Translator to Manage Dictionaries{#using-translator-to-manage-dictionaries}
@@ -176,7 +179,7 @@ Use the following procedure to remove a string from a dictionary.
 The search bar at the bottom of the Translator tool provides string selection options:
 
 * **Filter by text:** A pattern to match with the English string, comment, or translations. Only items that match all or part of the pattern appear in the table.
-* **Changes: Any, Modified, New, Deleted:** Show items that have been changed and not saved.
+* **Changes: Any, Modified, New, Deleted: **Show items that have been changed and not saved.
 
     * Any: Show items that have been modified, added, or removed.
     * Modified: Show items that are changed.
@@ -185,7 +188,7 @@ The search bar at the bottom of the Translator tool provides string selection op
     * Multiple Selections: Show items that have all of the selected properties.
 
 * **Has Comment**: Show items that have comments for translators.
-* **Missing Translations:** Show items where at least one language does not have a translation.
+* **Missing Translations: **Show items where at least one language does not have a translation.
 
 ![](assets/chlimage_1-215.png)
 

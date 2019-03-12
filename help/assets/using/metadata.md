@@ -3,12 +3,15 @@ title: Managing Metadata for Digital Assets
 seo-title: Managing Metadata for Digital Assets
 description: Learn about the types of metadata an how AEM Assets helps manage metadata for assets to allow easier categorization and organization of assets. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata.
 seo-description: Learn about the types of metadata an how AEM Assets helps manage metadata for assets to allow easier categorization and organization of assets. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata.
-uuid: e206e1bd-3b05-40c0-8e7d-bcb3acec134f
+uuid: 29215e51-b315-440a-9480-5b5a0ee76547
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 6a7f4d89-f34e-4db4-81b9-bcafb1e6dd19
+discoiquuid: 7acc1cab-d167-4299-bd13-8eb800a1112e
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Metadata for Digital Assets{#managing-metadata-for-digital-assets}
@@ -138,7 +141,7 @@ AEM provides you with an out-of-the-box list of the most popular metadata schema
 
 The metadata schemata supported are listed in the following section.
 
-### Standard Metadata {#standard-metadata}
+#### Standard Metadata {#standard-metadata}
 
 * dc - Dublin Core - the most important and widely used set of metadata
 * DICOM - Digital Imaging and Communications in Medicine
@@ -147,7 +150,7 @@ The metadata schemata supported are listed in the following section.
 * xmp - Extensible Metadata Platform
 * xmpBJ - Basic Job Ticketing
 
-### Application-Specific Metadata {#application-specific-metadata}
+#### Application-Specific Metadata {#application-specific-metadata}
 
 >[!NOTE]
 >
@@ -167,7 +170,7 @@ The metadata schemata supported are listed in the following section.
 * pdf & pdfx
 * photoshop & psAux - Adobe Photoshop
 
-### Digital Rights Management Metadata {#digital-rights-management-metadata}
+#### Digital Rights Management Metadata {#digital-rights-management-metadata}
 
 * cc - creative commons
 * xmpRights
@@ -177,21 +180,21 @@ The metadata schemata supported are listed in the following section.
 * pur - Prism Usage Rights
 * xmpPlus - integration of PLUS with XMP
 
-### Photography-Specific Metadata {#photography-specific-metadata}
+#### Photography-Specific Metadata {#photography-specific-metadata}
 
 * exif - lots of technical information from camera, including GPS position
 * crs - photoshop camera raw
 * Iptc4xmpCore & iptc4xmpExt
 * TIFF - image metadata (not only for TIFF images)
 
-### Print-Specific Metadata {#print-specific-metadata}
+#### Print-Specific Metadata {#print-specific-metadata}
 
 * pdf & pdfx - Adobe PDF and third-party applications
 * prism - http://www.prismstandard.org Publishing Requirements for Industry Standard Metadata
 * xmp
 * xmpPG - xmp for paged text
 
-### Multimedia-Specific Metadata {#multimedia-specific-metadata}
+#### Multimedia-Specific Metadata {#multimedia-specific-metadata}
 
 * xmpDM - Dynamic Media
 * xmpMM - Media Management

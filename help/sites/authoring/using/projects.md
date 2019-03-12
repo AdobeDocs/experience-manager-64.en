@@ -3,12 +3,15 @@ title: Projects
 seo-title: Projects
 description: Projects let you group resources into one entity whose common, shared environment makes it easy to manage your projects
 seo-description: Projects let you group resources into one entity whose common, shared environment makes it easy to manage your projects
-uuid: f14241b9-f604-43aa-bc84-f18b158e14e1
+uuid: c279fa04-05ef-4a4c-9295-2194879a6271
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: b563eb5f-5b6c-4465-b3c5-69c34cd33c1c
+discoiquuid: 42b224e5-1256-44b6-9b46-4cd6de5927fb
+index: y
+internal: n
+snippet: y
 ---
 
 # Projects{#projects}

@@ -3,9 +3,12 @@ title: Hardening and Securing AEM forms on OSGi environment
 seo-title: Hardening and Securing AEM forms on OSGi environment
 description: Learn recommendations and best practices for securing AEM Forms on OSGi server.
 seo-description: Learn recommendations and best practices for securing AEM Forms on OSGi server.
-uuid: ce763aac-43fc-46d8-8c90-397f347e5e2a
+uuid: abca7e7c-38c3-44f5-8d8a-4615cfce26c6
 topic-tags: Security
-discoiquuid: 4d8a9b1f-9e10-4d4c-b018-216a4a4d4130
+discoiquuid: b1bd04bf-0d6d-4e6b-8c7c-eafd1a24b5fe
+index: y
+internal: n
+snippet: y
 ---
 
 # Hardening and Securing AEM forms on OSGi environment{#hardening-and-securing-aem-forms-on-osgi-environment}
@@ -147,7 +150,7 @@ Data integration also provides methods to authorize FDM service requests. You ca
 
 **Pre-process authorization:** You can use the pre-process authorization to validate authenticity of a request before executing it. You can use inputs, service and request details to allow or stop execution of the request. You can return a data integration exception OPERATION_ACCESS_DENIED if the execution is stopped. You can also modify client request before sending it for execution. For example, changing input and adding additional information.
 
-**Post-process authorization:** You can use the post-process authorization to validate and control the results before returning the results to requester. You can also filter, prune, and insert additional data to results.
+**Post-process authorization: **You can use the post-process authorization to validate and control the results before returning the results to requester. You can also filter, prune, and insert additional data to results.
 
 ### Limit user access {#limit-user-access}
 
@@ -191,4 +194,4 @@ A processing cluster runs in the author mode but do not use it for development a
 
 ### USE AEM best practices to secure an AEM Forms environment {#use-aem-best-practices-to-secure-an-aem-forms-environment}
 
-This document provide instructions specific to AEM Forms environment. You should take to ensure that your underlying AEM installation is secure when deployed. For detailed instructions, see [AEM Security Checklist](../../sites/administering/using/security-checklist.md) documentation.
+This document provide instructions specific to AEM Forms environment. You should take to ensure that your underlying AEM installation is secure when deployed. For detailed instructions, see [AEM Security Checklist](../../sites/administering/using/security-checklist.md) documentation.****

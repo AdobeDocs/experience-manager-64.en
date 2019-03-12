@@ -3,12 +3,15 @@ title: Integrating Services with the JMX Console
 seo-title: Integrating Services with the JMX Console
 description: Expose service attributes and operations to enable administration tasks to be performed by creating and deploying MBeans to manage services using the JMX Console
 seo-description: Expose service attributes and operations to enable administration tasks to be performed by creating and deploying MBeans to manage services using the JMX Console
-uuid: e71deb6f-ead4-4760-8e8f-da0fdf9c57c2
+uuid: 730a09b6-a110-4203-8de2-d4c46edc59f6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 2c7568b0-937e-4ba7-aab9-99de7cac547b
+discoiquuid: df8cfde3-543d-4150-9822-9be763908bd7
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating Services with the JMX Console{#integrating-services-with-the-jmx-console}
@@ -132,7 +135,7 @@ When you register MBeans as an OSGi service, they are automatically registered w
 
 In addition to the OSGi-related metadata, you must also provide metadata that the Aries JMX Whiteboard module requires for registering the MBean with the MBean Server:
 
-* **The name of the DynamicMBean interface:** Declare that the MBean service implements the `javax.management.DynamicMBea`n interface. This declaration notifies the Aries JMX Whiteboard module that the service is an MBean service.
+* **The name of the DynamicMBean interface: **Declare that the MBean service implements the `javax.management.DynamicMBea`n interface. This declaration notifies the Aries JMX Whiteboard module that the service is an MBean service.
 
 * **The MBean domain and key properties:** On Felix, you provide this information as a property of the MBean's OSGi service. This is the same information that you ordinarily provide to the MBean Server in a `javax.management.ObjectName` object.
 
@@ -543,6 +546,8 @@ For your convenience, you can copy and paste the following XML code into your pr
 ```
 
 Add the following profile to your maven settings file to use the public Adobe repository.
+
+****
 
 #### Maven Profile {#maven-profile}
 

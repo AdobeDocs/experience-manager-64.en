@@ -3,12 +3,15 @@ title: Installing and configuring AEM 3D
 seo-title: Installing and configuring AEM 3D
 description: Learn how to install and configure AEM 3D
 seo-description: Learn how to install and configure AEM 3D
-uuid: eb0a9882-ee7c-477c-a8cb-6804a3f93cbc
+uuid: a60732ff-fd66-4f29-b901-42a3cfd58b65
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: b78be8e0-f04b-45b1-81dc-bc166865b62a
+discoiquuid: 5898d084-4b45-41bc-ad2e-2fcc65b0392c
+index: y
+internal: n
+snippet: y
 ---
 
 # Installing and configuring AEM 3D{#installing-and-configuring-aem-d}

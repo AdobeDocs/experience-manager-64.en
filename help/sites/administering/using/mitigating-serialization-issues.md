@@ -3,12 +3,15 @@ title: Mitigating serialization issues in AEM
 seo-title: Mitigating serialization issues in AEM
 description: Learn how to mitigate serialization issues in AEM.
 seo-description: Learn how to mitigate serialization issues in AEM.
-uuid: 7b831e61-5962-4fd9-8dba-09f301281b35
+uuid: c3989dc6-c728-40fd-bc47-f8427ed71a49
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: d68684ef-0318-47da-a72a-82a46634b61b
+discoiquuid: f3781d9a-421a-446e-8b49-40744b9ef58e
+index: y
+internal: n
+snippet: y
 ---
 
 # Mitigating serialization issues in AEM{#mitigating-serialization-issues-in-aem}
@@ -75,7 +78,7 @@ The firewall configuration is dynamic, and can be changed at any time by:
    >
    >    
    >    
-   >* `http://server:port/system/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl`
+   >    * `http://server:port/system/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl`
    >    
    >
 

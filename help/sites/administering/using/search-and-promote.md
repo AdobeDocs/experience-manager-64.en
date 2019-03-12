@@ -3,12 +3,15 @@ title: Integrating with Adobe Search&Promote
 seo-title: Integrating with Adobe Search&Promote
 description: Learn how to integrate with Adobe Search&Promote.
 seo-description: Learn how to integrate with Adobe Search&Promote.
-uuid: 54c0375a-7227-40a4-b10a-9251ec6a46ef
+uuid: ddc4510a-9bd1-4238-a8a8-5f4f563edd8d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: c2a9f3a4-2d1d-4c3b-9c9b-a9bd1572a734
+discoiquuid: 87e62346-98d5-40ec-a3ef-904adf667425
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating with Adobe Search&Promote{#integrating-with-adobe-search-promote}
@@ -90,9 +93,9 @@ Configure one or more connections to Search&Promote so that your web pages can i
    >
    >    
    >    
-   >* **XXXXXXXX** corresponds with your** Member id**
+   >    * **XXXXXXXX** corresponds with your** Member id**
    >    
-   >* **spYYYYYYYY** corresponds with your **Account Number**
+   >    * **spYYYYYYYY** corresponds with your **Account Number**
    >    
    >    
    >

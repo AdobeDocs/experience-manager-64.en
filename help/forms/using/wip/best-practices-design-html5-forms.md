@@ -4,9 +4,12 @@ seo-title: DO NOT PUBLISH - Best practices for designing HTML5 forms
 description: Guidelines for form developers to ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent.
 seo-description: Guidelines for form developers to ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent.
 page-status-flag: never-activated
-uuid: 28973397-6ff2-4b1a-abbf-09d024354164
+uuid: 77e82730-8d93-434b-ace3-12b75c839a8a
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3a65dd02-1da2-4774-945b-6d96c8cf6c97
+discoiquuid: 80c2efed-4383-405d-90c2-82c0d450c139
+index: y
+internal: n
+snippet: y
 ---
 
 # DO NOT PUBLISH - Best practices for designing HTML5 forms{#do-not-publish-best-practices-for-designing-html-forms}

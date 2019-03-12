@@ -3,13 +3,16 @@ title: AEM Components - The Basics
 seo-title: AEM Components - The Basics
 description: When you start to develop new components you need to understand the basics of their structure and configuration
 seo-description: When you start to develop new components you need to understand the basics of their structure and configuration
-uuid: 916a87cb-ccb9-4fdb-9fd2-6f0f6b9ffa82
+uuid: 0225b34d-5ac4-40c3-b226-0c9b24bdf782
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: bb692fb8-8a86-4064-9d38-b5625b8f8a42
+discoiquuid: 1f9867f1-5089-46d0-8e21-30d62dbf4f45
 legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Components - The Basics{#aem-components-the-basics}
@@ -1024,9 +1027,9 @@ The `cq:listeners` node (node type `cq:EditListenersConfig`) defines what happen
 
 >
 >* For nested components, the values of the following properties *must* be `REFRESH_PAGE`: >
->* `aftermove`  
+>    * `aftermove`  
 >    
->* `aftercopy` ``  
+>    * `aftercopy` ``  
 >
 
 The event handler can be implemented with a custom implementation. For example (where `project.customerAction` is a static method):

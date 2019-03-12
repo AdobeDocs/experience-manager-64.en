@@ -3,12 +3,15 @@ title: Theme Customization
 seo-title: Theme Customization
 description: How to customize the theme of your AEM Forms app.
 seo-description: How to customize the theme of your AEM Forms app.
-uuid: 84dbc3d2-ac52-4c1a-9877-406a8543517b
+uuid: 36632e67-1cc6-416d-ae80-d84bbabab4bd
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: dcddca94-4f58-4673-a342-02670a4beb45
+discoiquuid: c72f608e-052a-4bf9-b7bc-ddf57483af35
+index: y
+internal: n
+snippet: y
 ---
 
 # Theme Customization{#theme-customization}

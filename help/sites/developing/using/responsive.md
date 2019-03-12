@@ -3,13 +3,16 @@ title: Responsive Design for Web Pages
 seo-title: Responsive Design for Web Pages
 description: With responsive design, the same pages can be effectively displayed on multiple devices in multiple orientations
 seo-description: With responsive design, the same pages can be effectively displayed on multiple devices in multiple orientations
-uuid: 63a4bcbc-4349-4d76-9806-37eb0d1ccd46
+uuid: 3d324557-e7ff-4c82-920f-9b5a906925e8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: 135d3738-b9d2-44cb-9ad0-308c77fb632b
+discoiquuid: 532544b0-1932-419a-b6bd-ecf57a926fef
 legacypath: /content/docs/en/aem/6-0/develop/mobile/responsive
+index: y
+internal: n
+snippet: y
 ---
 
 # Responsive Design for Web Pages{#responsive-design-for-web-pages}
@@ -151,7 +154,7 @@ Include the client library folder in the JSP script of your page component to ge
 <ui:includeClientLib categories="apps.weretail.all"/>
 ```
 
-**Note:** the apps.weretail.all client library folder embeds the clientlibs library.
+**Note: **the apps.weretail.all client library folder embeds the clientlibs library.
 
 The JSP script generates the following HTML code that references the style sheets:
 
@@ -289,7 +292,7 @@ Obtain the following javascript libraries and include them in a client library f
 * jquery.js (avaliable via the /etc/clientlibs/granite/jquery client library folder (category = jquery)
 * [jquery.debouncedresize.js](https://github.com/louisremi/jquery-smartresize) (a jquery event that occurs once after the window is resized)
 
-**Tip:** You can automatically concatenate multiple client library folders by [embedding](../../../sites/developing/using/clientlibs.md#embedding-code-from-other-libraries).
+**Tip: **You can automatically concatenate multiple client library folders by [embedding](../../../sites/developing/using/clientlibs.md#embedding-code-from-other-libraries).
 
 **HTML**
 

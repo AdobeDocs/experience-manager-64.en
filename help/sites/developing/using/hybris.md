@@ -3,12 +3,15 @@ title: Developing with hybris
 seo-title: Developing with hybris
 description: The hybris integration framework includes an integration layer with an API
 seo-description: The hybris integration framework includes an integration layer with an API
-uuid: 2fb70bbf-2fbe-4806-8364-8a6cefd51e00
+uuid: a780dd17-027a-4a61-af8f-3e2f600524c7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 1953b7f8-cf49-4446-b5e5-0157e914c29f
+discoiquuid: 96dc0c1a-b21d-480a-addf-c3d0348bd3ad
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing with hybris{#developing-with-hybris}
@@ -129,7 +132,7 @@ hybris uses a user session to store information such as the customer's shopping 
 
 #### CommerceSession {#commercesession}
 
-* This session "owns" the **shopping cart**
+* This session "owns" the **s****hopping ****c****art**
 
     * performs add/remove/etc
     * performs the various calculations on the cart;  
@@ -492,9 +495,9 @@ The `CommerceSession` owns the three elements:
 >`yourProject/commerce/components/shippingpicker`:
 >
 >* Essentially this could be a copy of `foundation/components/form/radio`, but with callbacks to the `CommerceSession` for: >
->* Checking if the method is available
->* Adding pricing information
->* To enable shoppers to update the order page in AEM (including the superset of shipping methods and the text describing them), while still having the control to expose the relevant `CommerceSession` information.
+>    * Checking if the method is available
+>    * Adding pricing information
+>    * To enable shoppers to update the order page in AEM (including the superset of shipping methods and the text describing them), while still having the control to expose the relevant `CommerceSession` information.
 >
 
 **Payment Processing**

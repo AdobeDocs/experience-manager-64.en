@@ -3,12 +3,15 @@ title: Creating Custom AEM Page Template with Adobe Campaign Form Components
 seo-title: Creating Custom AEM Page Template with Adobe Campaign Form Components
 description: Build a custom page template that uses Adobe Campaign Form components
 seo-description: Build a custom page template that uses Adobe Campaign Form components
-uuid: 3377e902-23ce-49e3-a7cf-b2332fab28ad
+uuid: 8162ace2-b661-4c39-b0fb-288e1c035b9c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 8ab340b9-8a02-4aad-bd0c-5850a79bdbcf
+discoiquuid: c3f6eed4-bbda-454a-88ce-c7f2041d4217
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Custom AEM Page Template with Adobe Campaign Form Components{#creating-custom-aem-page-template-with-adobe-campaign-form-components}

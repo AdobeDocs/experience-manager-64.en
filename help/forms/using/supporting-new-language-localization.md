@@ -3,11 +3,14 @@ title: Supporting new locales for adaptive forms localization
 seo-title: Supporting new locales for adaptive forms localization
 description: AEM Forms allows you to add new locales for localizing adaptive forms. The supported locales by default are English, French, German, and Japanese.
 seo-description: AEM Forms allows you to add new locales for localizing adaptive forms. The supported locales by default are English, French, German, and Japanese.
-uuid: ae6ba1b5-b0f8-44ff-9aef-eccfbd8df446
+uuid: d4cee51b-c555-4544-9ae9-4aa8d38b2b17
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
-discoiquuid: 410ccdf4-35db-4bb4-8e6c-0d9291b199cd
+discoiquuid: e78f539a-109c-444c-8e52-be2260c3509f
+index: y
+internal: n
+snippet: y
 ---
 
 # Supporting new locales for adaptive forms localization{#supporting-new-locales-for-adaptive-forms-localization}

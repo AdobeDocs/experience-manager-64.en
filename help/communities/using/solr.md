@@ -3,12 +3,15 @@ title: Solr Configuration for SRP
 seo-title: Solr Configuration for SRP
 description: An Apache Solr installation may be shared between the node store (Oak) and common store (SRP) by using different collections
 seo-description: An Apache Solr installation may be shared between the node store (Oak) and common store (SRP) by using different collections
-uuid: 72d6a7a3-907c-46d4-b9aa-0f26777638a4
+uuid: 7356343d-073c-4266-bdcb-c7e999281476
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 77546166-b190-4140-9431-872e76ae60ca
+discoiquuid: e228f1db-91ea-4ec3-86da-06d89d74bc72
+index: y
+internal: n
+snippet: y
 ---
 
 # Solr Configuration for SRP{#solr-configuration-for-srp}

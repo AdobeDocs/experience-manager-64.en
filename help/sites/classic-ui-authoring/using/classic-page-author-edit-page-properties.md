@@ -3,12 +3,15 @@ title: Editing Page Properties
 seo-title: Editing Page Properties
 description: Properties of a page can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.
 seo-description: Properties of a page can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.
-uuid: 422ced4e-07c8-4f11-89fa-0061f79651f9
+uuid: 63d37d1b-52da-489d-b02b-e8b3d17571d1
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 3dce06d3-142a-4544-af7a-70cb9ce17f5b
+discoiquuid: 23768c73-ac64-4727-8313-160c8c131b05
+index: y
+internal: n
+snippet: y
 ---
 
 # Editing Page Properties{#editing-page-properties}
@@ -81,8 +84,8 @@ The properties are distributed across several tabs:
   >
   >    
   >    
-  >* must be unique so you should take care that the value is not already used by another page.
-  >* do not support regex patterns.
+  >    * must be unique so you should take care that the value is not already used by another page.
+  >    * do not support regex patterns.
   >    
   >
 

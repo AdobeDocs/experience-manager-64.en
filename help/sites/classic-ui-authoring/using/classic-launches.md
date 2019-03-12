@@ -3,12 +3,15 @@ title: Launches
 seo-title: Launches
 description: Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page.
 seo-description: Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page.
-uuid: 685bcfde-1bcb-4915-ac25-e0b3dfeee714
+uuid: b1952b6c-fc44-4e39-80ba-9380a6c66b8c
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 20311b57-f122-4ffe-ae37-75b1b3a62c4a
+discoiquuid: 4f62078d-b5b0-4eb9-bd9b-7647a093dec2
+index: y
+internal: n
+snippet: y
 ---
 
 # Launches{#launches}

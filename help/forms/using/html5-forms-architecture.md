@@ -3,12 +3,15 @@ title: Architecture of HTML5 forms
 seo-title: Architecture of HTML5 forms
 description: HTML5 forms is deployed as a package within the embedded AEM instance and exposes the functionality as REST end point over HTTP/S using RESTful Apache Sling architecture.
 seo-description: HTML5 forms is deployed as a package within the embedded AEM instance and exposes the functionality as REST end point over HTTP/S using RESTful Apache Sling architecture.
-uuid: bdb6b369-61cc-4aca-b4a7-9b8ae766d324
+uuid: f32f9946-20f6-4c64-b1bd-03882517e11a
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 3fa1f48a-df1c-46c5-bf80-adf723cd4462
+discoiquuid: 599f1925-a17e-4bae-93d9-b54edcee92b0
+index: y
+internal: n
+snippet: y
 ---
 
 # Architecture of HTML5 forms{#architecture-of-html-forms}

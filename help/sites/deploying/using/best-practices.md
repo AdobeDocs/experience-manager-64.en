@@ -3,12 +3,15 @@ title: Deploying Best Practices
 seo-title: Deploying Best Practices
 description: Deploying and maintaining best practices.
 seo-description: Deploying and maintaining best practices.
-uuid: 0387336a-e8c8-41d0-8898-3d49c832d37a
+uuid: 4546ed2c-43d5-40f3-874f-567b324e78c2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: be1a266f-ac35-49ce-9312-5971702ffa70
+discoiquuid: 4b5c0677-c630-4fae-867e-4f4583ac8507
+index: y
+internal: n
+snippet: y
 ---
 
 # Deploying Best Practices{#deploying-best-practices}

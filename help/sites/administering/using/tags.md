@@ -3,12 +3,15 @@ title: Administering Tags
 seo-title: Administering Tags
 description: Learn how to administer Tags in AEM.
 seo-description: Learn how to administer Tags in AEM.
-uuid: ffc669de-08e1-4946-8ba5-191ba811aebb
+uuid: 77e1280a-feea-4edd-94b6-4fb825566c42
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: c7c7d3be-4d3d-496c-b405-be844334acd8
+discoiquuid: 69253ee9-8c28-436b-9331-6fb875f64cba
+index: y
+internal: n
+snippet: y
 ---
 
 # Administering Tags{#administering-tags}

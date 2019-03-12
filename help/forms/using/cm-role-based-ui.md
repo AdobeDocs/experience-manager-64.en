@@ -4,10 +4,13 @@ seo-title: [DO NOT PUBLISH] Role based user interface in Correspondence Manageme
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: fe8808f2-8ebf-4632-b575-7ccccdc29432
+uuid: 60808852-f63f-4c0a-badb-b0af93c995a8
 contentOwner: gtalwar
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
-discoiquuid: 00b2d3b4-8218-4a9a-9fee-c91919851c17
+discoiquuid: 342f111e-f15a-4f9a-8993-f90760363c02
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Role based user interface in Correspondence Management{#do-not-publish-role-based-user-interface-in-correspondence-management}

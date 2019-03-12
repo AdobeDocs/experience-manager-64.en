@@ -3,11 +3,14 @@ title: Pre-defined reports in Process Reporting
 seo-title: Pre-defined reports in Process Reporting
 description: Query for AEM Forms on JEE process data to create reports on long running processes, Process duration, and Workflow volume
 seo-description: Query for AEM Forms on JEE process data to create reports on long running processes, Process duration, and Workflow volume
-uuid: 1b85e356-fd6d-4585-9c8d-7ad4aee4033d
+uuid: ba3a1809-270e-4c94-ade4-d2f6af86d860
 content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: d5dbc417-9b39-4abb-9b8e-8fda08fb9c7f
+discoiquuid: 6320c632-c7ec-4e56-9d12-cd27e3e9306e
+index: y
+internal: n
+snippet: y
 ---
 
 # Pre-defined reports in Process Reporting{#pre-defined-reports-in-process-reporting}

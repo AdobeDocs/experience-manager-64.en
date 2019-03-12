@@ -3,11 +3,14 @@ title: Search Facets
 seo-title: Search Facets
 description: This article describes how to create, modify, and use search facets in AEM.
 seo-description: Learn how to create, modify, and use search facets in AEM.
-uuid: a4ddd7b9-8650-4399-9e54-00acfb2d0939
+uuid: 213bec95-2f9a-49d2-a45b-0c7d1bb4fbf8
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: aa11e26a-dc1e-4259-b70a-7a9fdf8e7a2d
+discoiquuid: 4c03f218-6c0c-4482-b10e-a6ccddb30d57
+index: y
+internal: n
+snippet: y
 ---
 
 # Search Facets{#search-facets}
@@ -28,7 +31,7 @@ The search facets that appear in the Filters panel are defined in the underlying
 
 For full-text searches, add the Fulltext predicate to the form. Use the Property predicate to search for assets that match a single property you specify. Use the Options predicate to search assets that match one or more values for a particular property. Add the Date Range predicate to search assets created within a specified date range.
 
-1. Tap/click the AEM logo, and then go to **[!UICONTROL Tools]** > **[!UICONTROL General]** > **[!UICONTROL Search Forms]**.
+1. Tap/click the AEM logo, and then go to **[!UICONTROL Tools]** > **[!UICONTROL General]**** **> **[!UICONTROL Search Forms]**.
 1. From the Search Forms page, select **[!UICONTROL Assets Admin Search Rail]** and then tap/click Edit ![](assets/aemassets_edit.png).
 
    ![Locate and select the Assets Admin Search Rail](assets/assets_admin_searchrail.png)

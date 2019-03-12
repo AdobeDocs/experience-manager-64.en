@@ -3,12 +3,15 @@ title: Image Sets
 seo-title: Image Sets
 description: Learn how to work with image sets in dynamic media
 seo-description: Learn how to work with image sets in dynamic media
-uuid: 26832ebc-a75e-4f6d-98eb-d8cece5c9ab0
+uuid: 16008278-f59f-4fa8-90e9-19c78f132439
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: a0d02226-72c9-4a7a-a7ee-66c7959ce854
+discoiquuid: e00e7cc9-b777-4f9e-906d-824bcb2bbd41
+index: y
+internal: n
+snippet: y
 ---
 
 # Image Sets{#image-sets}
@@ -82,7 +85,7 @@ Start by uploading the images for your Image Sets. Because users can zoom on ima
 
 You can upload images for Image Sets as you would [upload any other asset in Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
-### Preparing Image Set assets for upload {#preparing-image-set-assets-for-upload}
+#### Preparing Image Set assets for upload {#preparing-image-set-assets-for-upload}
 
 Before creating Image Sets, make sure that the images are the right size and format.
 

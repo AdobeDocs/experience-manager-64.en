@@ -3,12 +3,15 @@ title: Advanced Scoring and Badges
 seo-title: Advanced Scoring and Badges
 description: Setting up advanced scoring
 seo-description: Setting up advanced scoring
-uuid: 07f7ac43-643e-497f-b712-15e1607004aa
+uuid: 3854b668-729a-42b8-b7cd-5d5ec1ca8380
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 3644d3b8-eb3c-4dfb-9379-c6e893ea591c
+discoiquuid: 42fb3c50-8728-4897-ade9-6b839294a10e
+index: y
+internal: n
+snippet: y
 ---
 
 # Advanced Scoring and Badges{#advanced-scoring-and-badges}

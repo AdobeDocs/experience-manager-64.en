@@ -3,12 +3,15 @@ title: Touch UI Feature Status
 seo-title: Touch UI Feature Status
 description: Release notes specific to Adobe Experience Manager 6.3 Touch UI.
 seo-description: Release notes specific to Adobe Experience Manager 6.3 Touch UI.
-uuid: adf6c987-1967-49c4-9e92-8ffabb1f4431
+uuid: dc335334-6c50-4cee-8a2e-183958742686
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 56dbf604-4ff0-4200-9b1d-42e8f6c7730d
+discoiquuid: 482b5eb0-1b15-4f10-a9d8-3b72dd74acf8
+index: y
+internal: n
+snippet: y
 ---
 
 # Touch UI Feature Status{#touch-ui-feature-status}

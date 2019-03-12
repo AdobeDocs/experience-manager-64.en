@@ -3,12 +3,15 @@ title: Interactive Images
 seo-title: Interactive Images
 description: Learn how to work with interactive images in dynamic media
 seo-description: Learn how to work with interactive images in dynamic media
-uuid: 33cfdcee-10b2-4dc9-906d-5640c8788792
+uuid: e8f79bc1-fccb-48d0-aca1-7f319c595fe9
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 83f913dc-8aa7-403d-9585-8957f77c013d
+discoiquuid: d630499d-740d-4979-8a34-9e3fcc3b5a23
+index: y
+internal: n
+snippet: y
 ---
 
 # Interactive Images{#interactive-images}
@@ -23,7 +26,7 @@ See interactive images in action on the web page above by going to the following
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion-QVzoom/index2-shoppable.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion-QVzoom/index2-shoppable.html)
 
-## Watch how interactive image banners are created {#watch-how-interactive-image-banners-are-created}
+### Watch how interactive image banners are created {#watch-how-interactive-image-banners-are-created}
 
 Watch a 10 minute and 33 second walkthrough on [how interactive image banners are created](http://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=http://s7d5.scene7.com/is/content/&emailurl=http://s7d5.scene7.com/s7/emailFriend&serverUrl=http://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video_social&contenturl=http://s7d5.scene7.com/skins/&asset=S7tutorials/InteractiveCarouselBanner). You will also learn how to preview, edit, and deliver interactive image banners.
 
@@ -109,7 +112,11 @@ However, in complex cases, the Quickview URL has different varying elements in a
 
 Consider the following examples of Quickview URLs and their resulting hotspot variables:
 
-<table>  
+<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+ <tbody> 
+  <tr> 
+   <td colspan="2" rowspan="3"> 
+    <table border="1" cellpadding="4" cellspacing="0"> 
      <tbody> 
       <tr> 
        <td valign="top" width="22.271714922048996%"><p>Single SKU, found in the query string.</p> </td> 
@@ -145,7 +152,12 @@ Consider the following examples of Quickview URLs and their resulting hotspot va
         </ul> <p> </p> </td> 
       </tr> 
      </tbody> 
-    </table> 
+    </table> </td> 
+  </tr> 
+  <tr></tr> 
+  <tr></tr> 
+ </tbody> 
+</table>
 
 **Example**
 
@@ -424,7 +436,7 @@ See [Identifying hotspot variables](#optional-identifying-hotspot-variables).
 
 Using our previous Quickview URL examples, you can see, in the following examples, how the Quickview URL is constructed in each case:
 
-<table> 
+<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
    <td valign="top" width="17.035775127768314%"><p>Single SKU, found in the query string</p> </td> 

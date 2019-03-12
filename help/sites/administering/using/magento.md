@@ -3,13 +3,16 @@ title: Magento
 seo-title: Magento
 description: Learn how to use AEM with Magento.
 seo-description: Learn how to use AEM with Magento.
-uuid: f3377316-7292-4c14-8ed0-ac181b3d4f4c
+uuid: 5acbc637-3b7e-407f-85bb-bce1fd389652
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 03d5c142-9caf-4e78-938b-7c94dff6c9b1
+discoiquuid: 18d8a771-081f-427a-b75f-5d561abbb431
 pagetitle: Administering Magento
+index: y
+internal: n
+snippet: y
 ---
 
 # Magento{#magento}

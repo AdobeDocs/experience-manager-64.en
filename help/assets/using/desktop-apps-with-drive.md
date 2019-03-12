@@ -3,13 +3,16 @@ title: Connecting Assets to Desktop Applications with Adobe Drive
 seo-title: Connecting Assets to Desktop Applications with Adobe Drive
 description: null
 seo-description: null
-uuid: 3f5cb0d8-c81c-4d7d-a47b-5a80036ea1e7
+uuid: 0c5b4156-4424-4484-8188-fbd571cbf6fe
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: c3d27dca-229f-4ee5-997f-0401e962704a
+discoiquuid: 363ee8d7-6fa8-4c19-b813-2c0d4ac43804
 draft: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Connecting Assets to Desktop Applications with Adobe Drive{#connecting-assets-to-desktop-applications-with-adobe-drive}
@@ -20,7 +23,7 @@ Once connected, you can access AEM assets through Windows Explorer or Mac OS Fin
 
 You can also use Adobe Experience Manager Desktop App to map the AEM Assets repository to a network directory on your system so assets within AEM are available at your local system. For details, see [Adobe Experience Manager Desktop App](/assets/using/aem-desktop-app.md).
 
-## Supported Features {#supported-features}
+### Supported Features {#supported-features}
 
 Adobe Drive CC (5.0.3) supports the following AEM-related features:
 
@@ -35,7 +38,7 @@ Adobe Drive CC (5.0.3) supports the following AEM-related features:
 * Thumbnails in the Show Versions dialog.
 * Viewing, editing, and searching XMP metadata in Adobe Bridge
 
-## Before you begin {#before-you-begin}
+### Before you begin {#before-you-begin}
 
 Before connecting, you will need:
 
@@ -45,7 +48,7 @@ Before connecting, you will need:
 
 This document uses the localhost server on the default port (4502) in examples; this will only work if you have the default server installation on your local machine. To connect to a remote machine, you must replace `localhost URL` with the appropriate remote server URL and the username and password with valid credentials.
 
-## Connecting to the Server {#connecting-to-the-server}
+### Connecting to the Server {#connecting-to-the-server}
 
 To connect to an AEM server:
 
@@ -74,14 +77,14 @@ To connect to an AEM server:
 
    ![](assets/chlimage_1-293.png)
 
-## Troubleshooting {#troubleshooting}
+### Troubleshooting {#troubleshooting}
 
 If connection fails, open a web browser and test whether the server is available using the server URL. For example, if you enter `http://localhost:4502` and authenticate with your credentials, you should see the AEM login screen, and be able to navigate to AEM Assets and open digital assets.
 
 * If you receive no response or an empty response, your server might not be available or your credentials might be incorrect.
 * If you do not have AEM access, check that you have the Digital Asset Management capability installed. The connector does not work with an AEM server that does not have this capability.
 
-## Disconnecting {#disconnecting}
+### Disconnecting {#disconnecting}
 
 * In Windows Explorer: Right-click the AEM Assets drive and choose **Disconnect** from the context menu.
 * In Mac OS Finder: CTRL-click the AEM Assets drive and choose **Eject** from the context menu.
@@ -89,7 +92,7 @@ If connection fails, open a web browser and test whether the server is available
 
 * In Adobe Bridge (see below): Select **Adobe Drive** in the Favorites panel. Right-click (CTRL-click in Mac OS) the AEM Assets drive and choose **Disconnect** from the context menu.
 
-## Connecting AEM Assets to Adobe Bridge {#connecting-aem-assets-to-adobe-bridge}
+### Connecting AEM Assets to Adobe Bridge {#connecting-aem-assets-to-adobe-bridge}
 
 Adobe Bridge is part of Adobe's Creative Suite software. It let's you edit and manage asset metadata and connect asset stores (like AEM Assets) directly to your desktop CS applications like Photoshop, InDesign and Illustrator.
 
@@ -103,11 +106,11 @@ You can now navigate into the mounted drive to reveal all your AEM assets:
 
 ![](assets/chlimage_1-295.png) 
 
-## Browsing and manipulating documents and folders {#browsing-and-manipulating-documents-and-folders}
+### Browsing and manipulating documents and folders {#browsing-and-manipulating-documents-and-folders}
 
 Once you are connected, Adobe Drive 5.0.3 presents documents and folders from your AEM Assets server in a network drive on your computer. You can view the server’s files in Windows Explorer or Mac OS Finder and access these files in Open, Save As, and other file management dialog boxes, just as you would local files. Of course, at the same time, the assets still reside on the AEM server and so you can also use the web-based UI of the AEM Assets server to view and manipulate your assets.
 
-## Creating and deleting documents and folders {#creating-and-deleting-documents-and-folders}
+### Creating and deleting documents and folders {#creating-and-deleting-documents-and-folders}
 
 Adobe Photoshop Creative Suite CC 2014, CC, and CS6, Adobe Illustrator Creative Suite CC 2014, CC, and CS6, Adobe InDesign Creative Suite CC 2014, CC, and CS6, and Adobe InCopy Creative Suite CC 2014, CC, and CS6 allow you to check in documents directly to the AEM Assets server. In other applications you must save your document to the AEM drive and use Windows Explorer, Mac OS Finder or Adobe Bridge to manually check in the file.
 
@@ -124,7 +127,7 @@ For example, to create a new document in the AEM Assets server from Photoshop:
 
 Photoshop, Illustrator, InDesign, and InCopy display the file status in a status bar when you view or edit documents. Once the document is saved to the server, the file status changes to Up-to-Date.
 
-## Moving and copying documents and folders {#moving-and-copying-documents-and-folders}
+### Moving and copying documents and folders {#moving-and-copying-documents-and-folders}
 
 To move or copy documents or folders on the AEM Assets server:
 
@@ -143,13 +146,13 @@ In Windows Explorer or Mac OS Finder:
     * If you move a document from the desktop to an AEM drive this way, or copy any document to a new location, you must check it in explicitly.
     * You cannot move or copy documents or folders to the root of an AEM drive.
 
-## Renaming documents and folders {#renaming-documents-and-folders}
+### Renaming documents and folders {#renaming-documents-and-folders}
 
 In Adobe Bridge, Mac OS Finder or Windows Explorer, invoke the context menu (right-click in Windows or CTRL-click in Mac OS) for the document or folder, and choose **Rename**.
 
 You cannot rename documents or folders in the root of an AEM drive.
 
-## Deleting documents and folders {#deleting-documents-and-folders}
+### Deleting documents and folders {#deleting-documents-and-folders}
 
 In Adobe Bridge, Mac OS Finder, or Windows Explorer, invoke the context menu (right-click in Windows or CTRL-click in Mac OS) for the document or folder, and choose **Delete**.
 
@@ -157,7 +160,7 @@ You cannot delete documents or folders in the root of an AEM drive.
 
 Deletion from an AEM server is permanent; deleted files cannot be restored. The **Tools &gt; Adobe Drive &gt; Project Trash** option in Adobe Bridge, **Recycle Bin** in Windows, and **Trash** in Mac OS are not supported.
 
-## Working with XMP metadata {#working-with-xmp-metadata}
+### Working with XMP metadata {#working-with-xmp-metadata}
 
 When you are connected to an AEM server, you can use Adobe Bridge to view, edit, and search XMP metadata in managed assets.
 
@@ -177,7 +180,7 @@ In addition, the Adobe Bridge **Label** menu gives you access to the view and ed
 
 ![](assets/chlimage_1-298.png) 
 
-## Searching documents and folders {#searching-documents-and-folders}
+### Searching documents and folders {#searching-documents-and-folders}
 
 To search for a document or a folder on an AEM server from Adobe Bridge:
 
@@ -196,7 +199,7 @@ To search for a document or a folder on an AEM server from Adobe Bridge:
 
 ![](assets/chlimage_1-299.png) 
 
-## Check-out and version management {#check-out-and-version-management}
+### Check-out and version management {#check-out-and-version-management}
 
 Adobe Photoshop, Adobe Illustrator, and Adobe InDesign or InCopy automatically check out a managed document when the first edit is made.
 
@@ -207,7 +210,7 @@ In other applications, you must check out assets manually, modify and save the d
 
 In Mac OS Finder or Windows Explorer, invoke the context menu (right-click in Windows or CTRL-click in Mac OS) and choose the desired action from the **Adobe Drive 5.0.3** menu (**Check Out**, **Check In**, or **Cancel Check Out**).
 
-## Managing document versions {#managing-document-versions}
+### Managing document versions {#managing-document-versions}
 
 All documents created or modified via the AEM Services Connector are versioned. Versions track changes to a document. Each version is a snapshot of the document at a particular point in time. When you check a document in, you create a new version of the document on the AEM server.
 

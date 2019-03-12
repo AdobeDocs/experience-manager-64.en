@@ -3,12 +3,15 @@ title: Setting up your campaign
 seo-title: Setting up your campaign
 description: Set up a new campaign
 seo-description: Set up a new campaign
-uuid: d018a175-efed-41ba-99a2-933b6efd75b5
+uuid: 11661058-f835-45b2-bf7f-3f9f735f8d0b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 310d6e94-f5a9-4185-9cea-a3f1725f8eaf
+discoiquuid: e0bf531a-2427-4f77-9358-44492a00a308
+index: y
+internal: n
+snippet: y
 ---
 
 # Setting up your campaign{#setting-up-your-campaign}
@@ -216,9 +219,9 @@ To import leads from a comma-separated list:
    >
    >    
    >    
-   >* In the Dashboard, click **Import Leads** in the **Lists** pane  
+   >    * In the Dashboard, click **Import Leads** in the **Lists** pane  
    >    
-   >* Click **Lists** and in the **Tools** menu, select **Import Leads**.  
+   >    * Click **Lists** and in the **Tools** menu, select **Import Leads**.  
    >    
    >    
    >

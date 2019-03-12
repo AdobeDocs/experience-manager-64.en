@@ -3,12 +3,15 @@ title: Developing and Page Diff
 seo-title: Developing and Page Diff
 description: null
 seo-description: null
-uuid: d29d85d0-da41-4b30-b817-2f0fa621b6ec
+uuid: 48bbeca3-fe16-48ef-bb4d-ac605fe0ca76
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 1ca9cdcc-946c-4d3e-9266-cbe2873168ac
+discoiquuid: 13e8cbef-698f-4e69-9f8c-f9bee82e9fd1
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing and Page Diff{#developing-and-page-diff}

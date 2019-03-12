@@ -3,12 +3,15 @@ title: Scaffolding
 seo-title: Scaffolding
 description: Sometimes you may need to create a large set of pages that share the same structure but have differing content. With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.
 seo-description: Sometimes you may need to create a large set of pages that share the same structure but have differing content. With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.
-uuid: 66f45e27-2a33-4af3-a358-6c98441b2832
+uuid: b1fdf2c0-e6d0-488a-96e5-dfbd6beb7610
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 4e350c3f-fad3-40d0-81b8-2d64a5e72243
+discoiquuid: 884b3e75-78b5-421a-938e-97fe6d77c8c2
+index: y
+internal: n
+snippet: y
 ---
 
 # Scaffolding{#scaffolding}
@@ -53,7 +56,7 @@ The body of the scaffold is the form. When a user wishes to create a page using 
 
 * **Image/Advanced**: **Alt Text**: The alt text for the image.
 
-* **Image/Advanced**: **Description**: The description of the image.
+* **I****mage/Advanced**: **Description**: The description of the image.
 
 * **Image/Advanced**: **Size**: The size of the image.
 
@@ -79,7 +82,7 @@ The dialog definition for a scaffold works similarly to that of a component (see
 
 A look at the example **News** scaffold dialog in the dialog editor helps to explain how this works. Go into design mode on the scaffold page and click the dialog editor link.
 
-Now, click on the dialog field **Dialog &gt; Tab Panel &gt; Text &gt; Text**, like this:
+Now, click on the dialog field **Dialog &gt; Tab Panel &gt; Text &gt; Tex****t**, like this:
 
 ![](assets/textedit.png)
 

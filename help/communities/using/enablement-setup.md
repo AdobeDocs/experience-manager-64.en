@@ -3,12 +3,15 @@ title: Initial Setup for Enablement
 seo-title: Initial Setup
 description: Initial Setup for Enablement
 seo-description: Initial Setup for Enablement
-uuid: 5b84ed5f-33a0-4733-9f90-ac57473d64f7
+uuid: 873ec41d-c088-41d9-a535-de5300661de6
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: aae33a1a-ca80-441f-a912-44e19cfd5c60
+discoiquuid: f2ac3d66-cc79-498f-83fb-dd96feb88de2
+index: y
+internal: n
+snippet: y
 ---
 
 # Initial Setup for Enablement{#initial-setup-for-enablement}

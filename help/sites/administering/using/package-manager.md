@@ -3,12 +3,15 @@ title: How to Work With Packages
 seo-title: How to Work With Packages
 description: Learn the basics of working with packages in AEM.
 seo-description: Learn the basics of working with packages in AEM.
-uuid: 77cd7114-7657-4f0f-8a8a-9f239ab6aa56
+uuid: e9eb4f88-9df6-4019-92e0-2aafcffe1aab
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: 337e57f5-b575-4af3-b9de-8830cdb276b4
+discoiquuid: 8e568c59-5455-422f-94a6-baf6d2aae070
+index: y
+internal: n
+snippet: y
 ---
 
 # How to Work With Packages{#how-to-work-with-packages}

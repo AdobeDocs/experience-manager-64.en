@@ -3,11 +3,14 @@ title: Creating and Adding Templates and Components
 seo-title: Creating and Adding Templates and Components
 description: Follow this page to learn about creating and adding templates and components to your app. The page uses Geometrixx Unlimited App as the app that contains a sample app template and page templates.
 seo-description: Follow this page to learn about creating and adding templates and components to your app. The page uses Geometrixx Unlimited App as the app that contains a sample app template and page templates.
-uuid: 28838101-235c-4705-bea2-419d0b388e1d
+uuid: 3a93017c-8094-413f-a01c-9b72025a2b20
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 960c6d34-8897-4e50-976b-d41c1a6d4597
+discoiquuid: ec4ada04-e429-4ad4-a060-2dccac847cf0
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and Adding Templates and Components{#creating-and-adding-templates-and-components}
@@ -62,7 +65,7 @@ Once you create an app using this template, you can add articles, banners, and c
 
 Each entity type has two out-of-the-box templates. These are:
 
-* **Default templates:** used for content creation with applicable default properties/structure 
+* **Default templates: **used for content creation with applicable default properties/structure 
 * **Imported templates:** used for importing content from AEM Mobile with applicable default properties/structure
 
 ### Article Templates {#article-templates}

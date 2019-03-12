@@ -3,12 +3,15 @@ title: Trying out Core Components in We.Retail
 seo-title: Trying out Core Components in We.Retail
 description: null
 seo-description: null
-uuid: bfe57a99-36ee-48f5-9662-66de270cbe12
+uuid: 8d1cea0b-99d9-49b2-b275-41f14864b1ff
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 05743399-4468-4978-be90-2d70a1d03f0a
+discoiquuid: af3cd818-61cf-4da1-bfb5-87540911ddd5
+index: y
+internal: n
+snippet: y
 ---
 
 # Trying out Core Components in We.Retail{#trying-out-core-components-in-we-retail}

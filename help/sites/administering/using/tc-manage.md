@@ -3,12 +3,15 @@ title: Managing Translation Projects
 seo-title: Managing Translation Projects
 description: Learn how to manage translation projects in AEM.
 seo-description: Learn how to manage translation projects in AEM.
-uuid: 29384e25-ad59-435c-9666-5a77015a25ea
+uuid: f6f79b5b-dc08-4dde-b464-719345d233a6
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 8bf13470-bd4b-471e-93a9-939b40d83cd4
+discoiquuid: c8672774-6911-497d-837b-1e5953c4226a
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Translation Projects{#managing-translation-projects}

@@ -3,13 +3,16 @@ title: Upgrading to AEM 6.4
 seo-title: Upgrading to AEM 6.4
 description: Learn about the basics of upgrading an older AEM installation to AEM 6.4.
 seo-description: Learn about the basics of upgrading an older AEM installation to AEM 6.4.
-uuid: 3965e082-2f2f-444e-8647-e6041a767181
+uuid: aa878528-5161-4df3-9fed-cc779fb6bdbe
 contentOwner: sarchiz
 topic-tags: upgrading
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: ec4265d4-2df5-485d-9e43-b9480b931b15
+discoiquuid: 81ceb91d-039e-45f0-9b0c-b8233901dea8
 targetaudience: target-audience upgrader
+index: y
+internal: n
+snippet: y
 ---
 
 # Upgrading to AEM 6.4{#upgrading-to-aem}

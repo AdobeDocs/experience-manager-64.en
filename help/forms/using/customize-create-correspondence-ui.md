@@ -3,11 +3,14 @@ title: Customize create correspondence UI
 seo-title: Customize create correspondence UI
 description: Learn how to customize create correspondence UI.
 seo-description: Learn how to customize create correspondence UI.
-uuid: 0149f234-739b-41ec-bf6f-61224ad7a15b
+uuid: 5b6eb8fd-0270-4638-bdf4-cb7015919d57
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 4f96cc16-5e0a-45b9-932d-788f35f2cc73
+discoiquuid: 3efd8f5a-9f38-4d9b-88d6-d8fde6c9a644
+index: y
+internal: n
+snippet: y
 ---
 
 # Customize create correspondence UI{#customize-create-correspondence-ui}
@@ -71,9 +74,9 @@ Use the following steps to create the required folder structure in the /apps bra
        >
        >    
        >    
-       >* Upgrade on your instance
-       >* Apply a hot fix
-       >* Install a feature pack
+       >    * Upgrade on your instance
+       >    * Apply a hot fix
+       >    * Install a feature pack
        >    
        >
 

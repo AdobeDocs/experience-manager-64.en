@@ -3,12 +3,15 @@ title: Personalization
 seo-title: Personalization
 description: Learn about personalization in AEM.
 seo-description: Learn about personalization in AEM.
-uuid: 207fd160-86fd-4c3c-9b53-a95437695eeb
+uuid: 5790a3e0-f0ec-4785-b915-330a10dea30c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 84585441-cc93-431d-94ff-63892f40f589
+discoiquuid: 03ebc494-8baa-4741-b8de-dac5ace743c8
+index: y
+internal: n
+snippet: y
 ---
 
 # Personalization{#personalization}
@@ -62,7 +65,7 @@ Personalization can be used in many cases, for example:
 * Users require a login for authorization; this will be linked to a profile providing information required for personalization; possibly details such as their location, relationship to the product, usage history, budgeting responsibilities, etc.
 * Such instances can range over sites such as:
 * Companies which provide websites to a highly specialized section of their market e.g. a pharmaceutical company providing a specialized website for physicians.
-* Companies which provide websites allowing their customer to view current account and billing information; for example telephone providers.
+* Companies which provide websites allowing their customer to view current account and billing information; for example telephone providers.****
 
 **Sales and Distribution website**
 

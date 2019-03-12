@@ -3,11 +3,14 @@ title: Set up the Android studio project and build the Android app
 seo-title: Set up the Android studio project and build the Android app
 description: Steps to set up the Android Studio project and build the installer for the AEM Forms app
 seo-description: Steps to set up the Android Studio project and build the installer for the AEM Forms app
-uuid: 771d825c-8166-4147-ab2c-9c1b5d090160
+uuid: 4c966cdc-d0f5-4b5b-b21f-f11e8a35ec8a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms-app
-discoiquuid: 49674260-5dea-4e04-84e9-562dbe436503
+discoiquuid: fabc981e-0c9e-4157-b0a1-0c13717fb6cd
+index: y
+internal: n
+snippet: y
 ---
 
 # Set up the Android studio project and build the Android app{#set-up-the-android-studio-project-and-build-the-android-app}
@@ -86,10 +89,12 @@ The following image displays the directory structure of the `android`folder in t
    ![](assets/dontremindmeagainforthisproject.png)
 
 1. After successful gradle build, the following screen appears. Connect the appropriate device or emulator with the system and click **[!UICONTROL Run Android™]**.  
+   ****
 
    ![](assets/gradleconsole.png)
 
 1. Android™ Studio displays the connected devices and available emulators. Select the device on which you want to run the application and then click **OK**.  
+   ****
 
    ![](assets/connecteddevice.png)
 

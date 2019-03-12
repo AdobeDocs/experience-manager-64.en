@@ -3,10 +3,13 @@ title: Forms user management | Handling user data
 seo-title: Forms user management | Handling user data
 description: null
 seo-description: null
-uuid: 92482174-24b1-4d4b-a76f-eca46a7fa494
+uuid: 2b76b69f-6f3a-4f1a-a2a4-d39f5e529f75
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7ac4fb4e-488d-4c3d-bb97-346bb6049b61
+discoiquuid: a88fc933-f1af-4798-b72f-10e7b0d2fd11
+index: y
+internal: n
+snippet: y
 ---
 
 # Forms user management | Handling user data{#forms-user-management-handling-user-data}

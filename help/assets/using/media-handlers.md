@@ -3,12 +3,15 @@ title: Processing Assets Using Media Handlers and Workflows
 seo-title: Processing Assets Using Media Handlers and Workflows
 description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
 seo-description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
-uuid: be5dde7e-d1ad-4627-b1e0-8a91bada1d4b
+uuid: 4ef96bfc-d194-4aea-8d6c-ae91d04456aa
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 03f1bacf-adc5-49fd-9b53-7344cbee394f
+discoiquuid: 8cd78c84-71ba-4095-b882-90d0dc00289d
+index: y
+internal: n
+snippet: y
 ---
 
 # Processing Assets Using Media Handlers and Workflows{#processing-assets-using-media-handlers-and-workflows}
@@ -27,7 +30,7 @@ Media handlers are services inside AEM Assets that perform specific actions on a
 
 The following media handlers are available within AEM Assets and handle the most common MIME types:
 
-<table> 
+<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
    <td>Handler name</td> 
@@ -129,7 +132,7 @@ The media handlers can be disabled or enabled through the Apache Felix Web Manag
 To enable/disable a media handler:
 
 1. In your browser, navigate to http://&lt;host&gt;:&lt;port&gt;/system/console/components.
-1. Click the** Disable** button right beside the name of the media handler. For example:** com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
+1. Click the** Disable** button right beside the name of the media handler. For example: **com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
 1. Refresh the page: a** Disabled **icon is displayed beside the media handler.
 1. To enable the media handler, click the **Enable **button beside the name of the media handler.
 
@@ -532,7 +535,7 @@ The `CommandLineProcess` process performs the following operations in the order 
 * Deletes the temporary directory.  
 * Creates thumbnails based on those renditions, if specified. The number and the dimensions of the thumbnails are defined by the arguments of the step.
 
-### An Example Using ImageMagick {#an-example-using-imagemagick}
+#### An Example Using ImageMagick {#an-example-using-imagemagick}
 
 The following example shows you how to set up the command line process step so that every time an asset with the mime-type gif or tiff is added to /content/dam on the AEM server, a flipped image of the original is created together with three additional thumbnails (140x100, 48x48 and 10x250).
 
@@ -576,7 +579,7 @@ This section describes how to set the **Process Arguments** of the **CommandLine
 
 The values of the **Process Arguments** must be separated by a comma and must not start with a whitespace.
 
-<table> 
+<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
  <tbody> 
   <tr> 
    <td> Argument-Format</td> 

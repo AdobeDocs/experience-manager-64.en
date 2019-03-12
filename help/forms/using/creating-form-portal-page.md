@@ -3,11 +3,14 @@ title: Creating a forms portal page
 seo-title: Creating a forms portal page
 description: Forms Portal equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM).
 seo-description: Forms Portal equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM).
-uuid: f0172424-88a1-4954-a846-c5769aa7fca0
+uuid: 328f3342-d6ca-4413-9f1d-1a550df74bde
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 590603b7-bbcb-40f2-b951-81f5f43256d4
+discoiquuid: 7387dfe8-0029-4ad0-b319-fc519928318b
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating a forms portal page{#creating-a-forms-portal-page}
@@ -167,13 +170,13 @@ To configure the Date Predicate component:
 1. Tap the component and then tap ![](assets/settings_icon.png). The Edit dialog opens.
 1. Specify the following:
 
-    * **Type:** The only option available is **Last Modified Date**
+    * **Type: **The only option available is **Last Modified Date**
     
-    * **Text:** Label or caption for the Date Predicate Component. The default value is **Last Modified Date.**
+    * **Text: **Label or caption for the Date Predicate Component. The default value is **Last Modified Date.**
     
-    * **Start Date Label:** Label or caption of start date field
-    * **End Date Label:** Label or caption for end date field
-    * **Hide:** To enforce default date filter to list forms
+    * **Start Date Label: **Label or caption of start date field
+    * **End Date Label: **Label or caption for end date field
+    * **Hide: **To enforce default date filter to list forms
 
 1. Tap **OK**
 
@@ -218,7 +221,7 @@ The selected tags appear in the Search pane along with the check boxes for selec
 
 ## List forms on a page <br> {#list-forms-on-a-page-br}
 
-To list forms on a page, add the **[!UICONTROL Search & Lister]** Component to the page and configure the **[!UICONTROL List Pane]**. To enable the end users to search forms with date, text, and tags, add a **[!UICONTROL Search Pane]** component.
+To list forms on a page, add the ****[!UICONTROL Search & Lister]****Component to the page and configure the ****[!UICONTROL List Pane]****. To enable the end users to search forms with date, text, and tags, add a ****[!UICONTROL Search Pane]**** component.
 
 To link a form from anywhere on the page, use the Link component. For more information about link component, see [Embedding link component in a page](../../forms/using/embedding-link-component-page.md).
 

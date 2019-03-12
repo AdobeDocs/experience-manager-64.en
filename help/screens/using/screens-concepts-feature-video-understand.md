@@ -3,13 +3,16 @@ title: AEM Screens Overview Video
 seo-title: AEM Screens Overview Video
 description: AEM Screens is a Digital Signage Solution that allows marketers to publish dynamic and interactive digital experiences to different types of screens. The following videos introduce the different areas of an AEM Screens project, as well as detail the steps to create channel content and publish to a Screens Player.
 seo-description: AEM Screens is a Digital Signage Solution that allows marketers to publish dynamic and interactive digital experiences to different types of screens. The following videos introduce the different areas of an AEM Screens project, as well as detail the steps to create channel content and publish to a screens player.
-uuid: ba170df1-92b3-4599-a21a-57bf6c0ebff7
+uuid: af5cf1ac-4cd4-474b-8b2b-4f32086dce72
 contentOwner: dgordon
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: introduction
 content-type: reference
-discoiquuid: a10c9b1d-1388-4ee7-ac27-9b453d0bc586
+discoiquuid: babe81cb-1a77-445d-9e80-e5fe53cc2e74
 targetaudience: target-audience new
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Screens Overview Video{#aem-screens-overview-video}

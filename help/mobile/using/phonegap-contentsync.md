@@ -3,12 +3,15 @@ title: Mobile with Content Sync
 seo-title: Mobile with Content Sync
 description: Follow this page to learn about Content Sync for Adobe PhoneGap Enterprise with AEM.
 seo-description: Follow this page to learn about Content Sync for Adobe PhoneGap Enterprise with AEM.
-uuid: 553b6f74-974a-4561-8d31-94196fbccbd7
+uuid: 65ee4138-b79a-44a7-83da-3e933ccae854
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 0c3051ac-cc72-41f7-a0ff-6cd6d3574442
+discoiquuid: 7941987a-2f4c-4c62-8ab2-0f6f30ceb064
+index: y
+internal: n
+snippet: y
 ---
 
 # Mobile with Content Sync{#mobile-with-content-sync}

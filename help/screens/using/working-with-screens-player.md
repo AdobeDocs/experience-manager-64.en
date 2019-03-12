@@ -3,12 +3,15 @@ title: Working with AEM Screens Player
 seo-title: Working with Screens Player
 description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
 seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 953cb9a0-e5f1-483e-b060-99143e1e1146
+uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 46e4d92e-eacf-4ac0-9770-0460f3eb9de1
+discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with AEM Screens Player{#working-with-aem-screens-player}

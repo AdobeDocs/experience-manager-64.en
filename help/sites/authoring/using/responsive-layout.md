@@ -3,12 +3,15 @@ title: Responsive Layout
 seo-title: Responsive Layout
 description: AEM allows you to realize a responsive layout for your pages
 seo-description: AEM allows you to realize a responsive layout for your pages
-uuid: 9fa7f92b-68d3-49c7-8825-36b3141b921b
+uuid: 4db45d78-9fca-4251-b504-ae3481fd9a8b
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: e67baf8e-45ca-461d-8e5a-aaac1756f858
+discoiquuid: 668d1a8a-c757-4c9f-833f-e5dada4d0384
+index: y
+internal: n
+snippet: y
 ---
 
 # Responsive Layout{#responsive-layout}
@@ -40,7 +43,7 @@ AEM realizes responsive layout for your pages using a combination of mechanisms:
 * [**Layout** **Mode**](../../../sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode)  
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
-* [**Emulator**](#selecting-a-device-to-emulate)
+* [**Emulator**](#selecting-a-device-to-emulate)**** 
   This allows you to create and edit responsive websites that rearrange the layout according to device/window size by resizing components interactively. The user can then see how the content will be rendered using the emulator.
 
 With these responsive grid mechanisms you can:

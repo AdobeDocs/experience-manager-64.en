@@ -4,9 +4,12 @@ seo-title: Launches
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 9864f4c9-396e-43fd-b61a-f3133d6c1b9c
+uuid: 566a9988-6892-4f57-88b3-e2ffb54076a8
 contentOwner: jsyal
-discoiquuid: 9f164222-95b0-4b03-a46d-383e33fb061a
+discoiquuid: 379f8f9f-a29c-43bc-84cd-218a279cf810
+index: y
+internal: n
+snippet: y
 ---
 
 # Launches{#launches}

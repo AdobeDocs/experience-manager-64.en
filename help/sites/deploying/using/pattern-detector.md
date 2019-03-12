@@ -3,12 +3,15 @@ title: Assessing the Upgrade Complexity with the Pattern Detector
 seo-title: Assessing the Upgrade Complexity with the Pattern Detector
 description: Learn how to use the Pattern Detector to assess the complexity of your upgrade.
 seo-description: Learn how to use the Pattern Detector to assess the complexity of your upgrade.
-uuid: 55c1fb16-6e37-49b1-8f2a-ee1a12efd9a0
+uuid: 4fcfdb16-3183-442a-aa5b-5f9c4fb7e091
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: 94e489d9-fefc-4630-bc0d-58662e5b237f
+discoiquuid: 8cdcfd3a-7003-4cce-97f4-da7a1a887d1b
+index: y
+internal: n
+snippet: y
 ---
 
 # Assessing the Upgrade Complexity with the Pattern Detector{#assessing-the-upgrade-complexity-with-the-pattern-detector}

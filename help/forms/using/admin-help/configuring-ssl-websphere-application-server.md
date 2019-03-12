@@ -3,12 +3,15 @@ title: Configuring SSL for WebSphere Application Server
 seo-title: Configuring SSL for WebSphere Application Server
 description: Learn how to configure SSL for WebSphere Application Server.
 seo-description: Learn how to configure SSL for WebSphere Application Server.
-uuid: 54ce346b-28a3-4ab5-9b18-8243dd92fefd
+uuid: f939a806-346e-41e0-b2c0-6d0ba83f8f6f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2c2df454-b869-4ec1-a059-444d372075b0
+discoiquuid: 7c0efcb3-5b07-4090-9119-b7318c8b7980
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring SSL for WebSphere Application Server{#configuring-ssl-for-websphere-application-server}

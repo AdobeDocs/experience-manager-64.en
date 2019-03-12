@@ -3,11 +3,14 @@ title: Forms Portal | Handling user data
 seo-title: Forms Portal | Handling user data
 description: null
 seo-description: null
-uuid: a8a320b4-c195-4c83-ae83-e9f645160013
+uuid: 2ac2b2a9-b603-489a-86b8-a78b697f130d
 contentOwner: vishgupt
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: e07bc3be-41f8-45fc-ba50-ec7d2bd06903
+discoiquuid: 48f841b7-0e7f-4216-9ee8-fb6e843acaf0
+index: y
+internal: n
+snippet: y
 ---
 
 # Forms Portal | Handling user data{#forms-portal-handling-user-data}

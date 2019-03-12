@@ -3,12 +3,15 @@ title: Upgrade to AEM 6.4 Forms
 seo-title: Upgrade to AEM 6.4 Forms
 description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms. 
 seo-description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms. 
-uuid: 4ea6dd98-54e3-471d-88a4-06ef0d042cae
+uuid: 1435246a-9215-4d88-b52c-59a5c329bb77
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 52d011f1-bb86-4419-8eba-2b93fe42dcf6
+discoiquuid: e745033f-8015-4fae-9d82-99d35802c0a6
+index: y
+internal: n
+snippet: y
 ---
 
 # Upgrade to AEM 6.4 Forms{#upgrade-to-aem-forms}
@@ -127,7 +130,7 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 
 1. Verify that the server is upgraded successfully, all the data is also migrated successfully, and it can operate normally.
 
-    * **Verify the status of the bundles:** Ensure that all the bundles are in active state.  
+    * **Verify the status of the bundles: **Ensure that all the bundles are in active state.  
     
     * **Verify replication and reverse replication:** Publish, fill, and submit a few migrated forms. Verify the submitted data also.
     * **Verify access to admin and developer user interfaces:** Log in to AEM instance from an admin account and verify that you have access to the following URLs:
@@ -200,7 +203,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
        >
        >    
        >    
-       >* After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see [Changing the Password for an Existing User](../../sites/administering/using/granite-user-group-admin.md).
+       >    * After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see [Changing the Password for an Existing User](../../sites/administering/using/granite-user-group-admin.md).
        >    
        >
 

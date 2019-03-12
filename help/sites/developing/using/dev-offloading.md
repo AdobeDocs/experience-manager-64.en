@@ -3,12 +3,15 @@ title: Creating and Consuming Jobs for Offloading
 seo-title: Creating and Consuming Jobs for Offloading
 description: The Apache Sling Discovery feature provides a Java API that enables you to create JobManager jobs and JobConsumer services that consume them
 seo-description: The Apache Sling Discovery feature provides a Java API that enables you to create JobManager jobs and JobConsumer services that consume them
-uuid: d8ff4aed-205c-4797-b6dc-2bda53b1006a
+uuid: d6a5beb0-0618-4b61-9b52-570862eac920
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 90c1fadf-722e-47eb-bdc6-6106ab4c9cae
+discoiquuid: e7b6b9ee-d807-4eb0-8e96-75ca1e66a4e4
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and Consuming Jobs for Offloading{#creating-and-consuming-jobs-for-offloading}

@@ -3,12 +3,15 @@ title: Use Rich Text Editor to author content
 seo-title: Use Rich Text Editor to author content
 description: Use the Rich Text Editor to author text in AEM.
 seo-description: Use the Rich Text Editor to author text in AEM.
-uuid: c969d1af-2fad-4b16-ab49-1473827fb9ed
+uuid: d8dc5989-7a1c-4bab-88fd-040c2c9aa69f
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 388a8450-7155-4ccf-be31-4980139c9bb8
+discoiquuid: 29e0bdfa-1d49-47d9-a332-04da062d3d3f
+index: y
+internal: n
+snippet: y
 ---
 
 # Use Rich Text Editor to author content{#use-rich-text-editor-to-author-content}

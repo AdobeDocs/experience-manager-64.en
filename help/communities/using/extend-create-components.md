@@ -3,12 +3,15 @@ title: Create the Components
 seo-title: Create the Components
 description: Create the Comments component
 seo-description: Create the Comments component
-uuid: 1d421896-6d54-43e2-83ad-704b55f4e681
+uuid: ea6e00d4-1db7-40ef-ae49-9ec55df58adf
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 18c09216-b631-4600-a526-1e4194716df6
+discoiquuid: 83c4f18a-d7d6-4090-88c7-41a9075153b5
+index: y
+internal: n
+snippet: y
 ---
 
 # Create the Components{#create-the-components}
@@ -66,7 +69,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
     * Select **Next**
     * Select **OK**
 
-1. Expand the node just created :** /apps/custom/components/comments**
+1. Expand the node just created : **/apps/custom/components/comments**
 1. Select **Save All**
 1. Right-click **comments.jsp**
 1. Select **Delete**
@@ -100,7 +103,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
     * Select **Next**
     * Select **OK**
 
-1. Expand the node just created :** /apps/custom/components/comments/comment**
+1. Expand the node just created : **/apps/custom/components/comments/comment**
 1. Select **Save All**
 1. Right-click **comment.jsp**
 1. Select **Delete**

@@ -3,12 +3,15 @@ title: Working with PDF/A Documents
 seo-title: Working with PDF/A Documents
 description: null
 seo-description: null
-uuid: 1ccd5654-93af-4615-9b9b-96a1ed025339
+uuid: c258d253-068a-4412-955a-21d8a4792d6f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 3ee10ea5-182c-4e84-b8af-3c4fb5e1b8ef
+discoiquuid: 1e6cc554-aef1-463c-906b-634b80a27917
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with PDF/A Documents{#working-with-pdf-a-documents}

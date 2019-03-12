@@ -3,12 +3,15 @@ title: Configuring authentication providers
 seo-title: Configuring authentication providers
 description: Add, edit, or delete authentication providers, change authentication settings, and read about just-in-time provisioning of users.
 seo-description: Add, edit, or delete authentication providers, change authentication settings, and read about just-in-time provisioning of users.
-uuid: 9214228c-faac-48c1-a9f3-15a0c8927960
+uuid: 90e7690b-1ce0-4604-b58f-6dca4f2372cf
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9280fa7f-b33d-44d4-b911-57ad8d985872
+discoiquuid: 31dd8db3-ddac-429e-82f8-8c5dc4ffc186
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring authentication providers{#configuring-authentication-providers}

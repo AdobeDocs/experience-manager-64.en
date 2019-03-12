@@ -3,12 +3,15 @@ title: Developing (generic)
 seo-title: Developing (generic)
 description: The integration framework includes an integration layer with an API, allowing you to build AEM components for eCommerce capabilities
 seo-description: The integration framework includes an integration layer with an API, allowing you to build AEM components for eCommerce capabilities
-uuid: cd93a766-c12b-43f9-8384-d0d66c9efbc9
+uuid: 393bb28a-9744-44f4-9796-09228fcd466f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 6e5b5c73-6007-4e73-bbd6-5501d41a077e
+discoiquuid: d8ee3b57-633a-425e-bf36-646f0e0bad52
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing (generic){#developing-generic}
@@ -87,7 +90,7 @@ A session to store information related to the customer's shopping cart.
 
 The **CommerceSession**:
 
-* Owns the **shopping cart**
+* Owns the **s****hopping ****c****art**
 
     * performs add/remove/etc
     * performs the various calculations on the cart;  

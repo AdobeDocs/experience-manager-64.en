@@ -3,12 +3,15 @@ title: Editing Page Content
 seo-title: Editing Page Content
 description: Content is added using components that can be dragged onto the page. These can then be edited in place, moved, or deleted.
 seo-description: Content is added using components that can be dragged onto the page. These can then be edited in place, moved, or deleted.
-uuid: 84dc170e-6016-4e3f-8ef0-2b87ee3992b8
+uuid: 0b34fb45-286a-4acb-b5d1-efc3d0e4ab70
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 043e087c-1291-400d-b2f2-728cd004d591
+discoiquuid: e75ce118-3850-4440-ad58-89569cb8c8eb
+index: y
+internal: n
+snippet: y
 ---
 
 # Editing Page Content{#editing-page-content}

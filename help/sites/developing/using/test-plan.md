@@ -3,12 +3,15 @@ title: Compiling your Test Plan
 seo-title: Compiling your Test Plan
 description: The individual test cases are amalgamated into your Test Plan
 seo-description: The individual test cases are amalgamated into your Test Plan
-uuid: bfb3826c-f4b7-4bc6-9776-a509ff786d75
+uuid: 99822b02-7b75-422d-ae21-16c4af742567
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 128bb9f2-607e-4667-ad31-9d5968b13d5d
+discoiquuid: 3a8302e8-bc61-402c-a9f2-5db3dfa6dd6d
+index: y
+internal: n
+snippet: y
 ---
 
 # Compiling your Test Plan{#compiling-your-test-plan}

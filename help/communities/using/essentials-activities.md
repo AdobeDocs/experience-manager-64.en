@@ -3,12 +3,15 @@ title: Activity Stream Essentials
 seo-title: Activity Stream Essentials
 description: List of recent activites performed by a member or a list of recent activities on a single thread of content
 seo-description: List of recent activites performed by a member or a list of recent activities on a single thread of content
-uuid: fb2ec853-d52b-4267-a683-0dd2642d2745
+uuid: 6e4734bb-52a8-4670-b665-e640108b036e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: a61dbb60-2caa-4bd5-8a43-5dd64211c0b1
+discoiquuid: 8cc04993-4021-4cb7-b973-5afc4da1ed11
+index: y
+internal: n
+snippet: y
 ---
 
 # Activity Stream Essentials{#activity-stream-essentials}

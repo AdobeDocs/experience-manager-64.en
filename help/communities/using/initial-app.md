@@ -3,12 +3,15 @@ title: Initial Sandbox Application
 seo-title: Initial Sandbox Application
 description: Create template, component, and script
 seo-description: Create template, component, and script
-uuid: 7f8af302-e85f-4556-9cf5-2f2790209276
+uuid: b0d03376-d8bc-4e98-aea2-a01744c64ccd
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 3107bd46-2b3d-489e-b588-2c50f0ccb4e0
+discoiquuid: f74d225e-0245-4d5a-bb93-0ee3f31557aa
+index: y
+internal: n
+snippet: y
 ---
 
 # Initial Sandbox Application{#initial-sandbox-application}
@@ -34,9 +37,9 @@ In this exercise, all pages are based on one simple template.
 
 1. In the Create Template dialog, type the following values and then click **Next**:
 
-    * Label :** playpage**
-    * Title :** An SCF Sandbox Play Template**
-    * Description :** An SCF Sandbox template for play pages** 
+    * Label : **playpage**
+    * Title : **An SCF Sandbox Play Template**
+    * Description : **An SCF Sandbox template for play pages** 
     
     * Resource Type :** an-scf-sandbox/components/playpage**
     * Ranking : &lt;leave as default&gt;
@@ -91,9 +94,9 @@ Create the *component* that defines the content and renders any pages created ba
 
    In the** Create Component** dialog, type the following property values :
 
-    * Label :** playpage**
-    * Title :** An SCF Sandbox Play Component**
-    * Description :** This is the component which renders content for An SCF Sandbox page.**
+    * Label : **playpage**
+    * Title : **An SCF Sandbox Play Component**
+    * Description : **This is the component which renders content for An SCF Sandbox page.**
     * Super Type** **: *&lt;leave blank&gt;*
     
     * Group :

@@ -3,12 +3,15 @@ title: Models in Repository
 seo-title: Models in Repository
 description: null
 seo-description: null
-uuid: d965a71e-5d6f-440f-bd07-13c4076a0ebd
+uuid: 54f81180-4178-4e33-a6f0-e9e6ea50798e
 contentOwner: User
 content-type: reference
-discoiquuid: 300ae54e-abc1-4d82-bac3-33298a5a63c6
+discoiquuid: ae1a72f4-d8c1-4c75-ba2c-7322f3743b17
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/administer-mobile-apps
+index: y
+internal: n
+snippet: y
 ---
 
 # Models in Repository{#models-in-repository}

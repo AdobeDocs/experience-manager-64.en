@@ -3,12 +3,15 @@ title: Featured Content Essentials
 seo-title: Featured Content Essentials
 description: Working with feature content
 seo-description: Working with feature content
-uuid: f01747bc-9cd6-4dd2-b8b7-495488170872
+uuid: b376828a-1431-4d16-ad6b-b23a3ea62a75
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 1769eedf-bc8f-4909-b747-8557d263bfd9
+discoiquuid: 781625f1-39a0-4e34-948c-d4eab35dd5c1
+index: y
+internal: n
+snippet: y
 ---
 
 # Featured Content Essentials{#featured-content-essentials}

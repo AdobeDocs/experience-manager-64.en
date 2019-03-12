@@ -3,12 +3,15 @@ title: Adding ContextHub to Pages and Accessing Stores
 seo-title: Adding ContextHub to Pages and Accessing Stores
 description: Add ContextHub to your pages to enable the ContextHub features and to link to the ContextHub Javascript libraries
 seo-description: Add ContextHub to your pages to enable the ContextHub features and to link to the ContextHub Javascript libraries
-uuid: 88f937ce-9c4c-4590-9959-e8e112a21754
+uuid: ade37960-21c4-4d64-a525-68f0d199f955
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 94d4586a-151c-4824-97fc-8e46cc6ea270
+discoiquuid: ac8f44df-39fb-44ea-ae17-ead0dbd1f6c0
+index: y
+internal: n
+snippet: y
 ---
 
 # Adding ContextHub to Pages and Accessing Stores{#adding-contexthub-to-pages-and-accessing-stores}

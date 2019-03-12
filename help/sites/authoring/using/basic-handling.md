@@ -3,12 +3,15 @@ title: Basic Handling
 seo-title: Basic Handling
 description: Get comfortable with navigating AEM and its basic usage
 seo-description: Get comfortable with navigating AEM and its basic usage
-uuid: b5944a4a-d31f-4743-834d-2e52f68aa71e
+uuid: 12958209-6a49-41ad-8a8e-b112503d26b1
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 08eeed7c-4733-473d-9e8a-e962b172edd2
+discoiquuid: 616d42c8-2316-4c56-b89f-660903270620
+index: y
+internal: n
+snippet: y
 ---
 
 # Basic Handling{#basic-handling}
@@ -242,8 +245,8 @@ There are various help resources available:
   >
   >    
   >    
-  >* [Keyboard shortcuts for editing pages](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md)
-  >* [Keyboard shortcuts for consoles](../../../sites/authoring/using/keyboard-shortcuts.md)
+  >    * [Keyboard shortcuts for editing pages](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md)
+  >    * [Keyboard shortcuts for consoles](../../../sites/authoring/using/keyboard-shortcuts.md)
   >    
   >
 

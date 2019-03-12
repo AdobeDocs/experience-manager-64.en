@@ -3,12 +3,15 @@ title: Applying translation cloud services to folders
 seo-title: Applying translation cloud services to folders 
 description: null
 seo-description: null
-uuid: 35eea2f2-37a3-49f3-9231-ff3f12b28ced
+uuid: ffbe5f8a-faef-4d61-9301-c323c21ec16c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 2fd9b8fc-2708-4ccc-9396-8330f8f4c75d
+discoiquuid: 5344cc2e-f4eb-4d43-87ae-e0f04a82c377
+index: y
+internal: n
+snippet: y
 ---
 
 # Applying translation cloud services to folders {#applying-translation-cloud-services-to-folders}

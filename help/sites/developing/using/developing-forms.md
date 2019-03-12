@@ -3,12 +3,15 @@ title: Developing Forms (Classic UI)
 seo-title: Developing Forms (Classic UI)
 description: Learn how to develop forms
 seo-description: Learn how to develop forms
-uuid: 23f746be-21d6-400a-b129-57e9847442b1
+uuid: 124e63ba-8d87-4173-aa35-7809b39811d7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 6e4aa9e0-6ea1-4c0c-90a3-c1431984ebf8
+discoiquuid: 0ef6a3b1-e7ce-4268-a5be-a565646ecc29
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing Forms (Classic UI){#developing-forms-classic-ui}
@@ -301,9 +304,9 @@ In Javascript, conditions use the value of the Element Name property to refer to
    >
    >    
    >    
-   >* in **Preview** mode on the author environment (needs a page reload when first switching to preview)  
+   >    * in **Preview** mode on the author environment (needs a page reload when first switching to preview)  
    >    
-   >* on the publish environment
+   >    * on the publish environment
    >    
    >
 

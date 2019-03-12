@@ -3,12 +3,15 @@ title: Delivering Optimized Images for a Responsive Site
 seo-title: Delivering Optimized Images for a Responsive Site
 description: How to use the responsive code feature to deliver optimized images
 seo-description: How to use the responsive code feature to deliver optimized images
-uuid: 31d79bb8-e049-449b-877d-28b0cd91e12b
+uuid: 7c6baef5-7513-4644-94ed-2383e8724c17
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 43518523-d018-44fa-bdd8-ebfdd6fb6e3c
+discoiquuid: 5edcc765-c374-4368-a0d9-e02a713a24f2
+index: y
+internal: n
+snippet: y
 ---
 
 # Delivering Optimized Images for a Responsive Site{#delivering-optimized-images-for-a-responsive-site}

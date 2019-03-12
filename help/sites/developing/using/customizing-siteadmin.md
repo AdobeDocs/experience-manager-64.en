@@ -3,12 +3,15 @@ title: Customizing the Websites Console (Classic UI)
 seo-title: Customizing the Websites Console (Classic UI)
 description: The Websites Administration console can be extended to display custom columns
 seo-description: The Websites Administration console can be extended to display custom columns
-uuid: 733d35a3-639c-4ef6-a396-7572f5505a24
+uuid: 7587d026-f974-46fe-bac3-3872d3a083ab
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 9d0ad5cd-c567-47c9-8420-5d6c3f1cd85e
+discoiquuid: 73e57f20-4022-46ab-aa5c-ec866298b645
+index: y
+internal: n
+snippet: y
 ---
 
 # Customizing the Websites Console (Classic UI){#customizing-the-websites-console-classic-ui}

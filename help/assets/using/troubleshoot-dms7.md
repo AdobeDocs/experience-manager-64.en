@@ -3,12 +3,15 @@ title: Troubleshooting Dynamic Media - Scene7 mode
 seo-title: Troubleshooting Dynamic Media - Scene7 mode
 description: Troubleshooting Dynamic Media in Scene7 runmode.
 seo-description: Troubleshooting Dynamic Media in Scene7 runmode.
-uuid: 6b91483d-b8ea-43d0-8377-5c9fc7dfc100
+uuid: bd9653f7-e4c7-464f-84a8-dc1e8dc37ba2
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: dfbfc09a-414e-4000-a901-ad95ad0c600d
+discoiquuid: eab920f4-b56e-4ed2-9ec1-03f348810ae5
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting Dynamic Media - Scene7 mode{#troubleshooting-dynamic-media-scene-mode}

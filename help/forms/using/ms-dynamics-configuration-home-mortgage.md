@@ -3,11 +3,14 @@ title: Configure Microsoft Dynamics 365 for the home mortgage workflow of the We
 seo-title: Configure Microsoft Dynamics 365 for the home mortgage workflow of the We.Finance reference site
 description: Learn how to leverage the Microsoft® Dynamics 365 services through adaptive forms for the home mortgage workflow of the We.Finance Reference site
 seo-description: Learn how to leverage the Microsoft® Dynamics 365 services through adaptive forms for the home mortgage workflow of the We.Finance Reference site
-uuid: 01daaa2c-3742-4ef6-82b3-387418c8424f
+uuid: a0656d90-84c7-46d1-9a16-dadcc19ff9ef
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: develop
 topic-tags: Configuration
-discoiquuid: 3e279050-366a-4186-98b1-9c3354d95909
+discoiquuid: 6b31397a-fb06-4043-9368-59fb4fce8afa
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure Microsoft Dynamics 365 for the home mortgage workflow of the We.Finance reference site{#configure-microsoft-dynamics-for-the-home-mortgage-workflow-of-the-we-finance-reference-site}

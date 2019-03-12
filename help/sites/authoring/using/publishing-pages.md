@@ -3,12 +3,15 @@ title: Publishing Pages
 seo-title: Publishing Pages
 description: null
 seo-description: null
-uuid: 866135d7-1e60-4c1a-9bdd-31a44556cb30
+uuid: 1222859d-ef8d-462e-a125-b76e6cfec26d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 24b041f7-0bca-4134-b29f-c87144c16356
+discoiquuid: 8f2714bc-9d6c-4e6f-97a1-3b4f977348c5
+index: y
+internal: n
+snippet: y
 ---
 
 # Publishing Pages{#publishing-pages}

@@ -3,11 +3,14 @@ title: Create custom appearances for adaptive form fields
 seo-title: Create custom appearances for adaptive form fields
 description: Customize appearance of out-of-the-box components in Adaptive Forms. 
 seo-description: Customize appearance of out-of-the-box components in Adaptive Forms. 
-uuid: 1fd096e1-20fb-44ea-a564-243c8b01129c
+uuid: 1f2d2ac4-44e1-45f9-a6a0-eb95931b0633
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 8255d736-73d1-47bb-ba94-76cc85cfcf72
+discoiquuid: 1115697c-cb7d-441a-876f-3c01761568c0
+index: y
+internal: n
+snippet: y
 ---
 
 # Create custom appearances for adaptive form fields{#create-custom-appearances-for-adaptive-form-fields}
@@ -181,7 +184,7 @@ To apply the custom appearance to an adaptive form field:
 
 1. Open the adaptive form in edit mode.
 1. Open the **Property** dialog for the field on which you want to apply the custom appearance.
-1. In the **Styling** tab, update the `CSS class` property to add the appearance name in the `widget_<widgetName>` format. For example:** widget_numericstepper**
+1. In the **Styling** tab, update the `CSS class` property to add the appearance name in the `widget_<widgetName>` format. For example: **widget_numericstepper**
 
 ## Sample: Create a custom appearance &nbsp; {#sample-create-a-custom-appearance-nbsp}
 

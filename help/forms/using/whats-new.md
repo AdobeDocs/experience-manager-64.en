@@ -3,11 +3,14 @@ title: New features summary | AEM 6.4 Forms
 seo-title: New features summary | AEM 6.4 Forms
 description: Summary of new features and enhancements in AEM 6.4 Forms.
 seo-description: Summary of new features and enhancements in AEM 6.4 Forms.
-uuid: 0b9bb148-f4db-422f-a071-ea290fa19b43
+uuid: 152068ec-47a8-43f4-b9c8-3a17d1f085fe
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: f665ad66-b9cd-42ad-bedc-48e23e9dc76b
+discoiquuid: 436aa424-d05e-4f3d-90ac-5ff3b05ddba8
+index: y
+internal: n
+snippet: y
 ---
 
 # New features summary | AEM 6.4 Forms{#new-features-summary-aem-forms}

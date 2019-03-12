@@ -3,10 +3,13 @@ title: "Tutorial: Create document fragments"
 seo-title: Create document fragments for Interactive Communication
 description: Create document fragments for Interactive Communication
 seo-description: Create document fragments for Interactive Communication
-uuid: 6bbba8c9-2bd4-4910-a730-b9e8431bebe5
+uuid: 215d09a6-949c-45ef-b2b0-88cd0cb4b99c
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c123a55f-2b21-4203-a843-5ff515cd5d2c
+discoiquuid: e9b78e2b-af7d-49d7-b37f-c96ec732015e
+index: y
+internal: n
+snippet: y
 ---
 
 # Tutorial: Create document fragments{#tutorial-create-document-fragments}

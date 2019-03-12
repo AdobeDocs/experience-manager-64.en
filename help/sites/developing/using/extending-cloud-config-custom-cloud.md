@@ -3,12 +3,15 @@ title: Creating a Custom Cloud Service
 seo-title: Creating a Custom Cloud Service
 description: The default set of Cloud Services can be extended with custom Cloud Service types
 seo-description: The default set of Cloud Services can be extended with custom Cloud Service types
-uuid: e83a2e3b-f881-4bc1-b8d9-a3ec2736e9c5
+uuid: b105a0c1-b68c-4f57-8e3b-561c8051a08e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: ad143f09-fa39-4abf-b1f9-71b0be918127
+discoiquuid: e48e87c6-43ca-45ba-bd6b-d74c969757cd
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating a Custom Cloud Service{#creating-a-custom-cloud-service}
@@ -246,7 +249,7 @@ Cloud Services are inherited from parent pages to child pages with the ability t
 
     * **Parent Configuration**: `/etc/cloudservices/googleanalytics`
     
-    * **Title:**  `My First GA Config`
+    * **Title: ** `My First GA Config`
 
    Choose **Google Analytics Configuration** and click **Create**.  
 

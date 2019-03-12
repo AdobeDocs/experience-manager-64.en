@@ -3,12 +3,15 @@ title: AEM Assets Release Notes
 seo-title: AEM Assets
 description: Release notes specific to Adobe Experience Manager 6.4 Assets.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Assets.
-uuid: 397ba8aa-fb25-4dca-be4c-3370d5303216
+uuid: f5e7608d-f906-4a35-b442-899703de3587
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: bba2bf68-5493-485a-bc8c-c38d382f63e1
+discoiquuid: 397b3267-1437-4263-963c-9d68ccc928ab
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Assets Release Notes{#aem-assets-release-notes}

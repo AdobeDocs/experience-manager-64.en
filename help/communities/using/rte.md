@@ -3,12 +3,15 @@ title: Rich Text Editor Essentials
 seo-title: Rich Text Editor Essentials
 description: Rich text Editor feature overview
 seo-description: Rich text Editor feature overview
-uuid: 057ccd5b-e2ca-4d28-8ec1-2b5004d5a04e
+uuid: f96015cc-114b-431a-a5ba-dc195c2a0b83
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: b2acefbf-ef27-40c4-a8ff-c2cba6044b12
+discoiquuid: 0225a543-0fad-488b-8b0b-8b3512d44fbe
+index: y
+internal: n
+snippet: y
 ---
 
 # Rich Text Editor Essentials{#rich-text-editor-essentials}

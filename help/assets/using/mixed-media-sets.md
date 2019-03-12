@@ -3,12 +3,15 @@ title: Mixed Media Sets
 seo-title: Mixed Media Sets
 description: Learn how to work with mixed media sets in dynamic media
 seo-description: Learn how to work with mixed media sets in dynamic media
-uuid: 3fd7c5ff-08cb-4630-9d94-11def73600f3
+uuid: e37fa648-74e2-42e3-8611-8509c92ec00d
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 33ed8a1a-d224-4203-84ab-81a59ff01fb5
+discoiquuid: 599c316e-b6a7-4a28-bc4b-75d48409bde0
+index: y
+internal: n
+snippet: y
 ---
 
 # Mixed Media Sets{#mixed-media-sets}
@@ -148,9 +151,9 @@ To edit a Mixed Media Set:
    >
    >    
    >    
-   >* To delete an entire Mixed Media Set, from any viewing mode (such as Card view or Column view) navigate to the Mixed Media Set. Hover over the asset and tap the checkmark icon to select it. Press **Backspace** on the keyboard, or click **More **(three dots) on the toolbar, then tap **Delete**.
+   >    * To delete an entire Mixed Media Set, from any viewing mode (such as Card view or Column view) navigate to the Mixed Media Set. Hover over the asset and tap the checkmark icon to select it. Press **Backspace** on the keyboard, or click **More **(three dots) on the toolbar, then tap **Delete**.
    >    
-   >* You can edit the assets in a Mixed Media Set by navigating to the set, clicking **Set Members** in the left rail, and then clicking or tapping the Pencil icon on an individual asset to open the editing window.
+   >    * You can edit the assets in a Mixed Media Set by navigating to the set, clicking **Set Members** in the left rail, and then clicking or tapping the Pencil icon on an individual asset to open the editing window.
    >    
    >
 

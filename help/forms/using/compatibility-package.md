@@ -3,13 +3,16 @@ title: Compatibility Package
 seo-title: Compatibility Package
 description: Installing the Compatibility package on AEM Forms 6.4 allows you to use the Correspondence Management assets from AEM Forms 6.3 and deprecated adaptive forms templates and pages 
 seo-description: Installing the Compatibility package on AEM Forms 6.4 allows you to use the Correspondence Management assets from AEM Forms 6.3 and deprecated adaptive forms templates and pages
-uuid: 0f98ca05-c57c-4344-bef9-05be15f1fec6
+uuid: e50b1ff9-c357-422a-8da8-a791ff805317
 contentOwner: gtalwar
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 topic-tags: correspondence-management
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: f5966e06-b6da-47b4-8d8b-78f17bec1048
+discoiquuid: 38a80992-2eda-4535-89af-0de34b1a9686
+index: y
+internal: n
+snippet: y
 ---
 
 # Compatibility Package{#compatibility-package}

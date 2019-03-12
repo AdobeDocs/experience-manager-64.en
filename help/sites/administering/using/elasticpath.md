@@ -3,13 +3,16 @@ title: Elastic Path
 seo-title: Elastic Path
 description: Learn how to use AEM with Elastic Path.
 seo-description: Learn how to use AEM with Elastic Path.
-uuid: c9a3f110-5385-426c-a066-6b283b2b94f4
+uuid: 9e78a7b7-b1c3-45c6-9935-5e11a51dbdf3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: cc662ed7-2d8a-42a2-b485-138e234b2cac
+discoiquuid: 36188cce-39be-42ca-9345-0bc9b75b8be2
 pagetitle: Administering Elastic Path
+index: y
+internal: n
+snippet: y
 ---
 
 # Elastic Path{#elastic-path}

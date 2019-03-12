@@ -3,12 +3,15 @@ title: Creating Translation Projects for Content Fragments
 seo-title: Creating Translation Projects for Content Fragments
 description: Learn how to translate content fragments.
 seo-description: Learn how to translate content fragments.
-uuid: 288173bc-fb9d-4099-b9d8-d709dd800607
+uuid: 23176e70-4003-453c-af25-6499a5ed3f6d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 05ccef4f-adac-4c5f-8d90-e860d8227cbf
+discoiquuid: d2decc31-a04b-4a8e-bb19-65f21cf7107e
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Translation Projects for Content Fragments{#creating-translation-projects-for-content-fragments}

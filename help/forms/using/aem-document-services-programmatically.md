@@ -3,11 +3,14 @@ title: Using AEM Document Services Programmatically
 seo-title: Using AEM Document Services Programmatically
 description: Learn how to use Document Services APIs to Digitally sign, encrypt, and generate PDF documents.
 seo-description: Learn how to use Document Services APIs to Digitally sign, encrypt, and generate PDF documents.
-uuid: 16653dbb-97e1-44a9-afa2-72b7d21f0c49
+uuid: bf5ee197-4daf-4a64-8b6d-2c0d1f232b1c
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: b765597f-1bc8-4193-bde8-2318987d02e5
+discoiquuid: 32118d3b-54d0-4283-b489-780bdcbfc8d2
+index: y
+internal: n
+snippet: y
 ---
 
 # Using AEM Document Services Programmatically{#using-aem-document-services-programmatically}
@@ -3599,9 +3602,9 @@ public class RemovePKIEncryption {
 
 The Output service provides APIs to render an XDP file in .pdf, .pcl, .zpl, and .ps formats. The service supports following APIs:
 
-* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data stored on a network location, local file system, or HTTP location as literal values.  
+* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p): **Generates a PDF document by merging a form design with data stored on a network location, local file system, or HTTP location as literal values.  
 
-* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data that are stored in an application.
+* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p): **Generates a PDF document by merging a form design with data that are stored in an application.
 * ** [generatePDFOutputBatch](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutputbatch-p):** Merges a form design with data to create a PDF document. Optionally, generates a metadata file for each record or saves the output to a PDF file.
 * ** [generatePrintedOutput](../../forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, or ZPL output from a form design and data file stored on a network location, local file system, or HTTP location as literal values.  
 
@@ -4258,7 +4261,7 @@ String outputFolder="C:/Output";
 
 The Forms service provides APIs to import and export data to and from an interactive PDF form. An interactive PDF form is a PDF document that contains one or more fields used to display and collect information from the users. The service supports following APIs:
 
-* ** [exportData](../../forms/using/aem-document-services-programmatically.md#p-exportdata-p):** exports data from a PDF form.
+* ** [exportData](../../forms/using/aem-document-services-programmatically.md#p-exportdata-p): **exports data from a PDF form.
 * ** [importData](../../forms/using/aem-document-services-programmatically.md#p-importdata-p):** imports data into an interactive PDF Form.
 
 ### exportData {#exportdata}

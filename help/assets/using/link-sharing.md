@@ -3,12 +3,15 @@ title: Asset link sharing
 seo-title: Asset link sharing
 description: This article describes how to share assets, folders, and collections within AEM Assets as a URL to external parties.
 seo-description: Share assets, folders, and collections as a URL to external parties without them having to first log in to AEM Assets, thereby securing your asset repository.
-uuid: a1df1469-60be-43ea-89b8-40e823e42c08
+uuid: 50fdb81f-7a38-4f61-9c6a-f814e30c63db
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 12e2f291-690a-4fea-9638-683d974e7d33
+discoiquuid: e4f9827f-8283-4215-8a04-e48ecb556443
+index: y
+internal: n
+snippet: y
 ---
 
 # Asset link sharing{#asset-link-sharing}
@@ -46,9 +49,9 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >
    >    
    >    
-   >* &lt;AEM Server&gt;/linkshare.html
-   >* &lt;AEM Server&gt;/linksharepreview.html
-   >* &lt;AEM Server&gt;/linkexpired.html
+   >    * &lt;AEM Server&gt;/linkshare.html
+   >    * &lt;AEM Server&gt;/linksharepreview.html
+   >    * &lt;AEM Server&gt;/linkexpired.html
    >    
    >    
    >Block other URLs to ensure that your Author instance is secure.
@@ -108,13 +111,13 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >
    >    
    >    
-   >* JPG
-   >* PNG
-   >* GIF
-   >* BMP
-   >* INDD
-   >* PDF
-   >* PPT
+   >    * JPG
+   >    * PNG
+   >    * GIF
+   >    * BMP
+   >    * INDD
+   >    * PDF
+   >    * PPT
    >    
    >    
    >For assets of other MIME types, you can only download the assets.

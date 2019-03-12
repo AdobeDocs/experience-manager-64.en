@@ -3,11 +3,14 @@ title: Performance
 seo-title: Performance
 description: null
 seo-description: null
-uuid: 56ce70d8-d2d7-44bd-9cff-d59105675303
+uuid: a2632752-e42e-4e75-a2f8-7d9f075df9bf
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 2c6ef04c-68fd-48af-acfb-45ee24b40832
+discoiquuid: afc4a9fd-9bde-4517-bf6b-df21744d5a32
+index: y
+internal: n
+snippet: y
 ---
 
 # Performance{#performance}

@@ -3,12 +3,15 @@ title: Developing Reports
 seo-title: Developing Reports
 description: AEM provides a selection of standard reports based on a reporting framework
 seo-description: AEM provides a selection of standard reports based on a reporting framework
-uuid: ff5d5133-5eb9-452e-90f5-764bdb1e5c4d
+uuid: 1b406d15-bd77-4531-84c0-377dbff5cab2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 883a7bc4-0382-4014-862f-3ac663926380
+discoiquuid: 50fafc64-d462-4386-93af-ce360588d294
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing Reports{#developing-reports}
@@ -45,13 +48,13 @@ For the standard reports delivered with CQ:
 >
 >* Each line defines a node or a property where:  
 >
->* `N:<*name*> [<*nodeType*>]`  
+>    * `N:<*name*> [<*nodeType*>]`  
 >      Describes a node with the name of `<*name*>` and node type of `<*nodeType*>`*.*
 >    
->* `P:<*name*> [<*propertyType*]`  
+>    * `P:<*name*> [<*propertyType*]`  
 >      Describes a property with the name of `<*name*>` and a property type of `<*propertyType*>`.  
 >    
->* `P:<*name*> = <*value*>`  
+>    * `P:<*name*> = <*value*>`  
 >      Describes a property `<*name*>` that must be set to the value of `<*value*>`.
 >
 >* Indentation shows the hierarchical dependencies between the nodes.

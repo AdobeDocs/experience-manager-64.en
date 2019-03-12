@@ -3,12 +3,15 @@ title: Basic Configuration Concepts
 seo-title: Basic Configuration Concepts
 description: Learn how to configure AEM.
 seo-description: Learn how to configure AEM.
-uuid: 0b47ebd1-d6b4-4063-9a81-b526781ce553
+uuid: edcdd4bd-5917-417e-8913-40d488383ea9
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: e918a281-e69e-4abb-89de-9dc168a0e1c0
+discoiquuid: 2673ea92-1651-4b1b-9aac-f4ba8b36782e
+index: y
+internal: n
+snippet: y
 ---
 
 # Basic Configuration Concepts{#basic-configuration-concepts}

@@ -3,12 +3,15 @@ title: Add Clientlibs
 seo-title: Add Clientlibs
 description: Add a ClientLibraryFolder
 seo-description: Add a ClientLibraryFolder
-uuid: a59f2be0-9ba8-4239-916a-70c74e68f030
+uuid: cdc1d258-2011-4517-9206-dd2b5d1f7e0d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: f95dbb8d-73d0-4c97-a15e-f1fae4784eba
+discoiquuid: c84040b0-7850-4960-b676-ffa0a74c8cb2
+index: y
+internal: n
+snippet: y
 ---
 
 # Add Clientlibs{#add-clientlibs}
@@ -35,9 +38,9 @@ The `categories`property value given to this client library is the identifier us
 
 In the **Properties** tab for the new `clientlibs` node, enter the **`categories`**property:
 
-* Name :** categories**
-* Type :** String**
-* Value :** apps.an-scf-sandbox**
+* Name : **categories**
+* Type : **String**
+* Value : **apps.an-scf-sandbox**
 * click **Add**
 * click **Save All**
 
@@ -81,10 +84,10 @@ If only using one feature on one page, you could include that feature's complete
 
 In this case, we're including them all, and so would prefer the more basic SCF clientlibs which are the author clientlibs:
 
-* Name :** `embed`**
-* Type :** `String`**
+* Name : **`embed`**
+* Type : **`String`**
 * click **`Multi`**
-* Value:** `cq.social.scf`** 
+* Value: **`cq.social.scf`** 
   *&lt;enter&gt; will pop up a dialog  
   click **[+] **after each entry to add the following clientlib categories:*
 
@@ -116,7 +119,7 @@ Once apps.an-scf-sandbox clientlibs is included, the SCF comments component appe
 
 ![](assets/chlimage_1-225.png)
 
-The include statement belongs in the <head> section of the <html> script. The default **`foundation head.jsp`** includes a script that can be overlaid :** `headlibs.jsp`**.
+The include statement belongs in the <head> section of the <html> script. The default **`foundation head.jsp`** includes a script that can be overlaid : **`headlibs.jsp`**.
 
 **Copy headlibs.jsp and include clientlibs:**
 

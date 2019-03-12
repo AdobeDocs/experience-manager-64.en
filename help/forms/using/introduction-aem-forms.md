@@ -3,11 +3,14 @@ title: Introduction to AEM Forms
 seo-title: Introduction to AEM Forms
 description: With Adobe Experience Manager Forms, business users can integrate engaging, responsive, and adaptive forms into web and mobile sites, simplifying the digital enrollment process and increasing customer conversion rates.
 seo-description: With Adobe Experience Manager Forms, business users can integrate engaging, responsive, and adaptive forms into web and mobile sites, simplifying the digital enrollment process and increasing customer conversion rates.
-uuid: 0d907053-986d-491a-9fdb-5d1c56db7146
+uuid: 9e9a164a-4a74-4096-98b8-800ea610edd8
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: ed26d3b2-3c76-4cb7-8a1a-ce37f2c088eb
+discoiquuid: a976a854-4bf2-49f8-871e-28bc597ac496
+index: y
+internal: n
+snippet: y
 ---
 
 # Introduction to AEM Forms{#introduction-to-aem-forms}

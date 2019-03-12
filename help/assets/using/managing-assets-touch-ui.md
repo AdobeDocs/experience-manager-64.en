@@ -3,12 +3,15 @@ title: Managing Assets with the Touch-Optimized UI
 seo-title: Managing Assets with the Touch-Optimized UI
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 seo-description: Learn how to upload, manage, and edit assets using the touch-optimized user interface
-uuid: feca58c4-fcb6-40d0-a943-0cc7993e5bd7
+uuid: f148c913-7b44-4285-8db9-138f959c4899
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 72bb4494-90f1-44e1-99de-ef2cb6bb2aa3
+discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Assets with the Touch-Optimized UI{#managing-assets-with-the-touch-optimized-ui}

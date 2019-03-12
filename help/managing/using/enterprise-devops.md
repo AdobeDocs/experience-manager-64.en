@@ -3,12 +3,15 @@ title: Enterprise DevOps
 seo-title: Enterprise DevOps
 description: Learn about the processes, methods and communication required to ease deployment and simplify collaboration.
 seo-description: Learn about the processes, methods and communication required to ease deployment and simplify collaboration.
-uuid: 0e0b24b0-48bc-4408-a9a5-976e8b8f72a6
+uuid: ca4806d2-c845-4c18-9498-4b66f0980a5e
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
-discoiquuid: 0f3893d5-1409-46e2-8e21-48079982d676
+discoiquuid: 934eda2a-bd3b-4018-86dc-dbb01d246386
+index: y
+internal: n
+snippet: y
 ---
 
 # Enterprise DevOps{#enterprise-devops}

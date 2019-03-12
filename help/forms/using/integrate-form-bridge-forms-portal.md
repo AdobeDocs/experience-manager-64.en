@@ -3,11 +3,14 @@ title: Integrating Form Bridge with custom portal for HTML5 forms
 seo-title: Integrating Form Bridge with custom portal for HTML5 forms
 description: You can use the FormBridge API to get or set the values of form fields from the HTML page and submit the form.
 seo-description: You can use the FormBridge API to get or set the values of form fields from the HTML page and submit the form.
-uuid: afd71d80-c5be-4445-ac76-f2c6be00dc72
+uuid: 09f2189f-d584-4b84-895e-22833b6b17e3
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 219ceacc-7be5-4891-8196-c9634f0f6038
+discoiquuid: e0608649-bd49-4f40-bc1b-821c9b208883
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating Form Bridge with custom portal for HTML5 forms{#integrating-form-bridge-with-custom-portal-for-html-forms}
@@ -76,7 +79,7 @@ An existing HTML application can leverage the FormBridge API to interact with a 
    >The &lt;div id="rightdiv"&gt; tag on **line 18** contains the HTML snippet of the XFA form.
    >
    >
-   >The page is styled into two containers:** left** and **right**. The right container has the form. The left container has two input fields and part of the external HTML page.
+   >The page is styled into two containers: **left** and **right**. The right container has the form. The left container has two input fields and part of the external HTML page.
    >
    >
    >The following screen shot shows how the form displays in a browser.

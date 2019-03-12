@@ -3,12 +3,15 @@ title: File Library Essentials
 seo-title: File Library Essentials
 description: Working with the file library feature
 seo-description: Working with the file library feature
-uuid: 42e7b780-a959-42ca-abb0-e5aa517963f6
+uuid: 0630f13e-97b4-4f93-9dce-07f559287c29
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 62e4321a-5624-4606-ad40-bc2602111a8c
+discoiquuid: 9019b967-fff8-4dda-bc5a-fd4a3e14a4ef
+index: y
+internal: n
+snippet: y
 ---
 
 # File Library Essentials{#file-library-essentials}

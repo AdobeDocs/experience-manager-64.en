@@ -3,12 +3,15 @@ title: PDF Utilities Service Java APIQuick Start(SOAP)
 seo-title: PDF Utilities Service Java APIQuick Start(SOAP)
 description: null
 seo-description: null
-uuid: c6c759dc-6da5-4552-b355-88e921ae003f
+uuid: 96bb2bd5-b274-43d4-a664-49cc1c526b3f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 2a4d9de3-7c56-41ce-a310-0af44f0c4e4a
+discoiquuid: 4ec4c674-d7d3-4988-9d77-78d274970672
+index: y
+internal: n
+snippet: y
 ---
 
 # PDF Utilities Service Java APIQuick Start(SOAP){#pdf-utilities-service-java-apiquick-start-soap}

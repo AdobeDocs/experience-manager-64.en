@@ -3,12 +3,15 @@ title: E-mail Marketing
 seo-title: E-mail Marketing
 description: In AEM you can create newsletters from existing AEM content as well as add new content, specific to the newsletters
 seo-description: In AEM you can create newsletters from existing AEM content as well as add new content, specific to the newsletters
-uuid: c09a390a-a81a-4df5-9e18-8be5f459782d
+uuid: 4972af56-c4bb-48e7-9844-7ad48d840d10
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: b126b58f-2595-4467-ad71-bc4597a89a52
+discoiquuid: 29aab96f-cf08-4c4a-8ea5-457ca69cde3c
+index: y
+internal: n
+snippet: y
 ---
 
 # E-mail Marketing{#e-mail-marketing}

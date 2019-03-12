@@ -3,12 +3,15 @@ title: Manage App Tile
 seo-title: Manage App Tile
 description: Follow this page to learn about the Manage App Tile on the app dashboard that provides the ability to modify details about the Application. 
 seo-description: Follow this page to learn about the Manage App Tile on the app dashboard that provides the ability to modify details about the Application. 
-uuid: 704b5b9c-a9e4-4c32-833e-d630cfdcc76e
+uuid: bde75ecd-8694-427c-9b16-2c4ab2fd4d8b
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
-discoiquuid: ba3b7317-271e-48aa-b201-c0e3f499f9e2
+discoiquuid: a87834c9-247c-49fa-9978-a969230db91c
+index: y
+internal: n
+snippet: y
 ---
 
 # Manage App Tile{#manage-app-tile}

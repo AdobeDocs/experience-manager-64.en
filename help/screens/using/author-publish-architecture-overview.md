@@ -3,12 +3,15 @@ title: Author and Publish Architectural Overview
 seo-title: Author and Publish Architectural Overview
 description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more on author and publish architectural overview.
 seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more on author and publish architectural overview.
-uuid: 6102e26f-6918-4dad-b520-91cda8cb336a
+uuid: f5c848fb-c230-4fb1-8760-e42c643fc405
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 32de19e6-f9da-4e3a-95c7-73e907bfa4ce
+discoiquuid: e650e33b-198f-41bf-a912-3d76f635b557
+index: y
+internal: n
+snippet: y
 ---
 
 # Author and Publish Architectural Overview{#author-and-publish-architectural-overview}

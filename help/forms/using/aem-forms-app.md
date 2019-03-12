@@ -3,12 +3,15 @@ title: AEM Forms app
 seo-title: AEM Forms app
 description: AEM Forms app enables your field workers to use adaptive forms on their mobile devices. 
 seo-description: AEM Forms app enables your field workers to use adaptive forms on their mobile devices. 
-uuid: e8dec29a-e0ce-4bd4-bc5b-b5ddcc339354
+uuid: fac976c8-b713-4492-b153-f567e7a11ceb
 contentOwner: sashanka
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 60fd136d-c45e-4ca1-a312-dffb36763ff1
+discoiquuid: e18aa345-034c-473b-b4c2-01678bb10616
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Forms app{#aem-forms-app}
@@ -55,7 +58,7 @@ To sync your form in AEM Forms app:
 1. In author instance, select a form, and click **View Properties**.  
 
 1. In the properties page, click **Advanced.**
-1. Under Advanced, enable option:** Sync with AEM Forms App, **and tap **Save**.
+1. Under Advanced, enable option: **Sync with AEM Forms App, **and tap **Save**.
 
 When the form is published, the app syncs with the server and fetches the form. To sync multiple forms, in the author instance, select multiple forms in forms manager and tap **Sync with AEM Forms App**.
 

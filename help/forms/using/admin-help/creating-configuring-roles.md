@@ -3,12 +3,15 @@ title: Creating and configuring roles
 seo-title: Creating and configuring roles
 description: Learn how to associate users and groups with roles that are already part of the User Management database. You can also create, edit, and delete roles.
 seo-description: Learn how to associate users and groups with roles that are already part of the User Management database. You can also create, edit, and delete roles.
-uuid: 756ed439-63d0-44c6-9fdf-32174c0ad315
+uuid: e8e4331d-48e1-4fa9-8f44-f885f4ab1a54
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 496cd514-317b-465b-9c4f-0f9b557b0ca0
+discoiquuid: 737fb4d1-adef-47e1-9a0d-8cddd13132cb
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and configuring roles{#creating-and-configuring-roles}

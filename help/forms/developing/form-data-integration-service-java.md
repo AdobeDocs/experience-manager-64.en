@@ -3,12 +3,15 @@ title: Form Data Integration Service JavaAPI Quick Start(SOAP)
 seo-title: Form Data Integration Service JavaAPI Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: c8f44d0e-6d5f-4f8f-90fa-4d14f76483e8
+uuid: bde8e83d-56d3-4331-a025-82b327c219b7
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 75633b48-5614-46e8-9762-ba361bc17747
+discoiquuid: 91b738ec-aa00-4f05-bf42-2574ced8d993
+index: y
+internal: n
+snippet: y
 ---
 
 # Form Data Integration Service JavaAPI Quick Start(SOAP){#form-data-integration-service-javaapi-quick-start-soap}

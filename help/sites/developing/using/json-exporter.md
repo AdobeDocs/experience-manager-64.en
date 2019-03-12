@@ -3,12 +3,15 @@ title: JSON Exporter for Content Services
 seo-title: JSON Exporter for Content Services
 description: AEM Content Services are designed to generalize the description and delivery of content in/from AEM beyond a focus on web pages. They provide the delivery of content to channels that are not traditional AEM web pages, using standardized methods that can be consumed by any client. 
 seo-description: AEM Content Services are designed to generalize the description and delivery of content in/from AEM beyond a focus on web pages. They provide the delivery of content to channels that are not traditional AEM web pages, using standardized methods that can be consumed by any client. 
-uuid: 94495b9e-26dd-4d26-a125-e84c87762466
+uuid: be6457b1-fa9c-4f3b-b219-01a4afc239e7
 contentOwner: User
 content-type: reference
 topic-tags: components
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: a62d60b1-5ba8-45f0-a478-5fad180a96d6
+discoiquuid: 4c7e33ea-f2d3-4d69-b676-aeb50c610d70
+index: y
+internal: n
+snippet: y
 ---
 
 # JSON Exporter for Content Services{#json-exporter-for-content-services}

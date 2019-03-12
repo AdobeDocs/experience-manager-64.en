@@ -3,12 +3,15 @@ title: Starting AEM PhoneGap
 seo-title: Starting AEM PhoneGap
 description: Follow this page to learn about the starterkit for developers.
 seo-description: Follow this page to learn about the starterkit for developers.
-uuid: 69cf4458-f414-4ade-b7a3-d43add5200bb
+uuid: 952bf9f9-5c79-4212-91b7-1d3850ec2402
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 87ce0591-16c7-430a-a251-0827bc2d7a96
+discoiquuid: 2ecf05ed-4e56-4e0b-89cf-5161741f9001
+index: y
+internal: n
+snippet: y
 ---
 
 # Starting AEM PhoneGap{#starting-aem-phonegap}

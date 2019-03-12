@@ -3,11 +3,14 @@ title: Introduction to multi-step form sequence
 seo-title: Introduction to multi-step form sequence
 description: With AEM Forms, you can define a sequence of form panel in which you want users to navigate and fill an adaptive form.
 seo-description: With AEM Forms, you can define a sequence of form panel in which you want users to navigate and fill an adaptive form.
-uuid: 32d69e0e-67dc-4b5d-958a-3ef240f2d1ce
+uuid: b2b94e4c-0c28-47ba-8e23-fd8742baf71c
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: a788e08c-b693-47f8-b3b0-cf0d6684b5a9
+discoiquuid: 4a51ebc4-e019-4fc5-93a1-d97f695126f5
+index: y
+internal: n
+snippet: y
 ---
 
 # Introduction to multi-step form sequence{#introduction-to-multi-step-form-sequence}

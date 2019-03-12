@@ -3,13 +3,16 @@ title: Configuring Dynamic Media - Hybrid mode
 seo-title: Configuring Dynamic Media - Hybrid mode
 description: Learn how to configure Dynamic Media - Hybrid mode.
 seo-description: Learn how to configure Dynamic Media - Hybrid mode.
-uuid: ebfdb77f-7e9f-47fa-bc41-306d2ea3d0f9
+uuid: de88f68f-4697-4ff0-8008-3ae6a4684a84
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 0b9d2f53-6d05-4f50-9a6c-016e0814e448
+discoiquuid: 821eb27e-67c9-4589-9196-30dacb84fa59
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Dynamic Media - Hybrid mode{#configuring-dynamic-media-hybrid-mode}
@@ -43,11 +46,11 @@ Other content, such as Dynamic Media viewers, Site pages, and static content wil
 
 If you are a customer of Dynamic Media, you are required to use hybrid delivery as the delivery mechanism for all Dynamic Media content.
 
-## Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
+#### Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
 ![](assets/chlimage_1-506.png) 
 
-## Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
+#### Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
 
 ![](assets/chlimage_1-507.png) 
 
@@ -180,7 +183,7 @@ To enable dynamic media:
    >
    >    
    >    
-   >* ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.  
+   >    * ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.  
    >      Example of an Image Server log file name: `ImageServer-57346-2019-07-25.log`
    >    
    >    
@@ -188,7 +191,7 @@ To enable dynamic media:
    >
    >    
    >    
-   >* s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
+   >    * s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
    >    
    >    
    >    
@@ -539,6 +542,8 @@ As part of the configuration, you need to enter a registration ID, video service
 
 To configure dynamic media cloud services:
 
+##
+
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools **&gt; **Cloud Services** &gt; **Dynamic Media Configuration (Pre-6.3)**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, select **global**, then click **Create**.
 1. In the **Create Dynamic Media Configuration** dialog box, in the Title field, type a title.
@@ -689,9 +694,9 @@ However, in Dynamic Media deployments, because assets are delivered by way of th
 
 Besides replicating the assets, the following non-assets are also replicated:
 
-* Dynamic Media Delivery configuration:** /conf/global/settings/dam/dm/imageserver/configuration/jcr:content/settings**
-* Image Presets:** /conf/global/settings/dam/dm/presets/macros**
-* Viewer Presets:** /conf/global/settings/dam/dm/presets/viewer**
+* Dynamic Media Delivery configuration: **/conf/global/settings/dam/dm/imageserver/configuration/jcr:content/settings**
+* Image Presets: **/conf/global/settings/dam/dm/presets/macros**
+* Viewer Presets: **/conf/global/settings/dam/dm/presets/viewer**
 
 The filters provide a way for you to *exclude* assets from being replicated to the AEM publish node.
 
@@ -930,7 +935,7 @@ To configure Dynamic Media Image Server settings:
    | Cache Max Size |200000000 |Maximum size of response cache in bytes. |
    | Cache Max Entries |100000 |Maximum number of entries allowed in the cache. |
 
-### Default Manifest settings {#default-manifest-settings}
+#### Default Manifest settings {#default-manifest-settings}
 
 The default manifest lets you configure the defaults that are used to generate the Dynamic Media Delivery responses. You can fine tune quality (JPEG quality, resolution, resampling mode), caching (expiration), and prevent the rendering of images that are too large (defaultpix, defaultthumbpix, maxpix).
 

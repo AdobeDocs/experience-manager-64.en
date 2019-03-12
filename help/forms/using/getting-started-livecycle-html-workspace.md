@@ -3,12 +3,15 @@ title: Getting started with AEM Forms workspace
 seo-title: Getting started with AEM Forms workspace
 description: How to get started with using the LiveCycle AEM Forms workspace to manage your business automation processes.
 seo-description: How to get started with using the LiveCycle AEM Forms workspace to manage your business automation processes.
-uuid: e2656bbd-c322-4e00-9a96-b2fdc14a7906
+uuid: 35ca1a51-92c3-40d8-8de3-604be8704752
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: ff3720d9-a237-4ae6-88c3-946ccb600e8d
+discoiquuid: fa6e0246-6bd2-4ffb-b54c-15eda605f213
+index: y
+internal: n
+snippet: y
 ---
 
 # Getting started with AEM Forms workspace{#getting-started-with-aem-forms-workspace}
@@ -61,14 +64,14 @@ You can set the various AEM Forms workspace preferences in the following categor
 
 **Queues:** Set preferences for sharing your To-do list with other users or for requesting access to another user’s list. See [Working with tasks from group and shared queues](../../forms/using/todo-lists.md#main-pars-heading-19).
 
-**UI Settings:** Set preferences for how you interact with AEM Forms workspace. See [Set user interface preferences](../../forms/using/getting-started-livecycle-html-workspace.md#main-pars-heading-5).
+**UI Settings: **Set preferences for how you interact with AEM Forms workspace. See [Set user interface preferences](../../forms/using/getting-started-livecycle-html-workspace.md#main-pars-heading-5).
 
 ### Set user interface preferences {#set-user-interface-preferences}
 
 Set the user interface preferences in the Preferences &gt; UI Settings tab. The following preferences are available.
 
-* **Start Location:** Specifies the page that appears when you log in to AEM Forms workspace. The four available options are Start Process, To Do, Tracking, and Favorites.
-* **Logout Prompt:** Specifies whether you are prompted to confirm that you want to log out after you click Log Out.
+* **Start Location: **Specifies the page that appears when you log in to AEM Forms workspace. The four available options are Start Process, To Do, Tracking, and Favorites.
+* **Logout Prompt: **Specifies whether you are prompted to confirm that you want to log out after you click Log Out.
 * **Date Format:** Specifies the date display format used across AEM Forms workspace.
 * **Time Format**: Specifies the time display format used across AEM Forms workspace.
 * **Notify Task Events via Email:** Specifies whether you receive email notifications for task events, including task assignments, reminders, and deadlines for tasks in your To-do list and in group To-do lists that you belong to.

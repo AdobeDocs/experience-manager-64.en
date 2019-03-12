@@ -3,12 +3,15 @@ title: Reviews Essentials
 seo-title: Reviews Essentials
 description: Reviews and Review Summary components
 seo-description: Reviews and Review Summary components
-uuid: 3dac8902-0443-4f85-ab7b-4f44d6d6ebd3
+uuid: 540c106e-ee3b-4261-82b2-a909d254dbf7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 9f055a2d-ab4b-4e91-a59a-8c475839501b
+discoiquuid: 62669a9d-2107-4644-a4bf-143d0ac148b3
+index: y
+internal: n
+snippet: y
 ---
 
 # Reviews Essentials{#reviews-essentials}

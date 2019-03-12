@@ -3,12 +3,15 @@ title: Implementing a React Component for SPA
 seo-title: Implementing a React Component for SPA
 description: This article presents an example of how to adapt a simple, existing React component to work with the AEM SPA Editor.
 seo-description: This article presents an example of how to adapt a simple, existing React component to work with the AEM SPA Editor.
-uuid: 0f6a08c5-b6e7-42f4-bdaf-ad60f804f170
+uuid: aebca2ea-a020-45e1-8043-f8c21154c660
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: be407172-9bf2-48ad-b2ee-c4070da1ed80
+discoiquuid: 86a981fe-25f3-451a-b262-8c497619e0ac
+index: y
+internal: n
+snippet: y
 ---
 
 # Implementing a React Component for SPA{#implementing-a-react-component-for-spa}

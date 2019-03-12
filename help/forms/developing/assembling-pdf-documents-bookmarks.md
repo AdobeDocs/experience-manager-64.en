@@ -3,13 +3,16 @@ title: Assembling PDF Documents with Bookmarks
 seo-title: Assembling PDF Documents with Bookmarks
 description: null
 seo-description: null
-uuid: a34fba55-e7c8-45ff-9d0f-3f82aff441e9
+uuid: a306d2a6-0b12-4eb3-bff4-968a33417486
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: a19acfad-5b5f-4bfc-9e3c-f9e0342d6dd3
+discoiquuid: 9f4711a8-033c-4051-ab41-65a26838899b
+index: y
+internal: n
+snippet: y
 ---
 
 # Assembling PDF Documents with Bookmarks{#assembling-pdf-documents-with-bookmarks}

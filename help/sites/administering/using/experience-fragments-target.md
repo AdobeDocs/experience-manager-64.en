@@ -3,12 +3,15 @@ title: Target Integration with Experience Fragments
 seo-title: Target Integration with Experience Fragments
 description: Target Integration with Experience Fragments
 seo-description: Target Integration with Experience Fragments
-uuid: 5d6e3f1e-7e60-4a79-b080-bb404d5aac94
+uuid: 621f57d4-3b8d-49ea-b193-8530c8fbd74e
 contentOwner: carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: d90d9e25-d1cd-4d76-a71c-d350129d5c0d
+discoiquuid: 6911c8e3-b12c-466e-8255-5dcd09557d35
+index: y
+internal: n
+snippet: y
 ---
 
 # Target Integration with Experience Fragments{#target-integration-with-experience-fragments}

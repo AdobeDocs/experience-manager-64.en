@@ -3,12 +3,15 @@ title: Integrating with Adobe Analytics
 seo-title: Integrating with Adobe Analytics
 description: Learn how to integrate AEM with Adobe Analytics.
 seo-description: Learn how to integrate AEM with Adobe Analytics.
-uuid: 9d1babd9-b59d-480e-9cca-5404337db2da
+uuid: 8329d891-1897-46f6-80ee-40244b079c0e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 00ad3066-92a0-4484-8662-0608fa06d5f3
+discoiquuid: 0089394f-0107-49eb-ad73-52e9cabe71b1
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating with Adobe Analytics{#integrating-with-adobe-analytics}

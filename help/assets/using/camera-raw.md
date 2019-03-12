@@ -3,12 +3,15 @@ title: Camera Raw Support
 seo-title: Camera Raw Support
 description: Learn how to enable Camera Raw support in Adobe Experience Manager (AEM) Assets.
 seo-description: Learn how to enable Camera Raw support in Adobe Experience Manager (AEM) Assets.
-uuid: 0abc93f6-53fd-48ff-b47f-1147110768ab
+uuid: 9b2db870-0f58-4340-b1f6-e0a2d8983e55
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: fd968e5a-7352-4729-8fec-88d75cb9b492
+discoiquuid: fb4a0018-2572-439e-b066-4a631eac55eb
+index: y
+internal: n
+snippet: y
 ---
 
 # Camera Raw Support{#camera-raw-support}
@@ -87,7 +90,7 @@ To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:
    >
    >Linux, Windows, and Mac (with 64-bit JVM) support the Camera Raw package.
 
-   After you install the Camera RAW package and configure the required workflow, **[!UICONTROL Image Adjust]** option appears in the list of panes.
+   After you install the Camera RAW package and configure the required workflow, **[!UICONTROL Image Adjust]**** **option appears in the list of panes.
 
    ![](assets/chlimage_1-337.png)
 

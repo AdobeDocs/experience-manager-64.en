@@ -3,21 +3,24 @@ title: Metadata - Fragment Properties
 seo-title: Metadata - Fragment Properties
 description: You can view and edit the metadata (properties) for content fragments.
 seo-description: You can view and edit the metadata (properties) for content fragments.
-uuid: 848382bd-d3e3-4196-856a-e3cad7f6d0aa
+uuid: 2744610b-215a-4ee8-893e-e167376f9df5
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 3e52100b-3843-4d73-ae67-a9ac6c983cdd
+discoiquuid: 96cf7c92-af98-417f-ab60-b368e3846ef8
+index: y
+internal: n
+snippet: y
 ---
 
-# Metadata - Fragment Properties {#metadata-fragment-properties}
+# Metadata - Fragment Properties{#metadata-fragment-properties}
 
 >[!CAUTION]
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
-## Editing Properties / Meta data {#editing-properties-meta-data}
+### Editing Properties / Meta data {#editing-properties-meta-data}
 
 You can view and edit the metadata (properties) for content fragments:
 

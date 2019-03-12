@@ -3,12 +3,15 @@ title:  Adobe IMS Authentication and Admin Console Support for AEM Managed Servi
 seo-title:  Adobe IMS Authentication and Admin Console Support for AEM Managed Services 
 description: Learn how to use the the Admin Console in AEM.
 seo-description: Learn how to use the the Admin Console in AEM.
-uuid: dcc67696-6f8d-4856-a2e5-c3ec4a0dd91a
+uuid: 3f5b32c7-cf62-41a4-be34-3f71bbf224eb
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 5f19c785-c1bf-4130-aab1-7a8af0acab8f
+discoiquuid: f6112dea-a1eb-4fd6-84fb-f098476deab7
+index: y
+internal: n
+snippet: y
 ---
 
 #  Adobe IMS Authentication and Admin Console Support for AEM Managed Services {#adobe-ims-authentication-and-admin-console-support-for-aem-managed-services}

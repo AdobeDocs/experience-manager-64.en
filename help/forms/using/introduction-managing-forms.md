@@ -3,12 +3,15 @@ title: Introduction to managing forms
 seo-title: Introduction to managing forms
 description: AEM Forms provides tools to manage Adaptive Forms and related assets. This article introduces you to the key forms management capabilities and user interface elements.
 seo-description: AEM Forms provides tools to manage Adaptive Forms and related assets. This article introduces you to the key forms management capabilities and user interface elements.
-uuid: df1a9e2a-deee-43b0-8589-f9a39711a1cc
+uuid: 8a9fe83a-e9dc-410e-9bae-eca936c6eb8a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 topic-tags: introduction
-discoiquuid: abcb4dbc-407e-4533-a07b-c11eaa2ebb58
+discoiquuid: 6f9cb26a-ac7f-4218-827f-9d4d55b859b4
+index: y
+internal: n
+snippet: y
 ---
 
 # Introduction to managing forms{#introduction-to-managing-forms}
@@ -49,9 +52,9 @@ The create button is the starting point of the process of creating or uploading 
 
 * **Form set:** A form set is a collection of HTML5 forms grouped together and presented as a single set of forms to end users. When end users start filling a form set, the forms are seamlessly transitioned from one form to another. At the end, a user can submit all forms, as a single entity, in just one click. For detailed information, see [Form set in AEM Forms](../../forms/using/formset-in-aem-forms.md).
 
-* **Folder:** AEM Forms user interface uses folders to arrange assets. It supports two types of folders:
+* **Folder: **AEM Forms user interface uses folders to arrange assets. It supports two types of folders:
 
-    * **General Folder:** These folders are used for assets created within AEM Forms user interface. These folders do not have a strict folder structure. You can rename, create subfolders, and store adaptive forms, Interactive Communications, adaptive form fragments, Form Templates (XDPs), PDF Forms, Documents, and related assets in these folders.  
+    * **General Folder: **These folders are used for assets created within AEM Forms user interface. These folders do not have a strict folder structure. You can rename, create subfolders, and store adaptive forms, Interactive Communications, adaptive form fragments, Form Templates (XDPs), PDF Forms, Documents, and related assets in these folders.  
     
     * **Forms Workflow folder:** Forms workflow folders are created when Workbench processes (LiveCycle archives) are migrated and synchronized with AEM Forms user interface. It is not allowed to rename, create a subfolder, create an Interactive Communication, an adaptive form fragment, or an Interactive Communication. It is also not allowed to delete a version folder or create and upload an adaptive form, an adaptive form fragment, or an Interactive Communication in parallel to the version folder.
 
@@ -93,7 +96,7 @@ AEM tools panel contains tools for various components. To navigate to AEM Forms-
 
 * **Configure Watched Folder:** An administrator can configure a network folder, known as a watched folder, so that when a user places a file (such as a PDF file) in the watched folder, a pre-configured operation is started and manipulates the file. For detailed information, see [Create and Configure a watched folder](../../forms/using/Creating-Configure-watched-folder.md).  
 
-* **Configure Forms App Offline Service:** The AEM Forms app offline service caches the paths or URLs of the resources used in a form. Caching paths or URLs of the resources used in a form improves server-side performance. To configure the server-side offline component of AEM Forms app, see [Working in the offline mode](../../forms/using/work-offline-mode.md).
+* **Configure Forms App Offline Service: **The AEM Forms app offline service caches the paths or URLs of the resources used in a form. Caching paths or URLs of the resources used in a form improves server-side performance. To configure the server-side offline component of AEM Forms app, see [Working in the offline mode](../../forms/using/work-offline-mode.md).
 
 ![](assets/aem-forms-tools.png)
 
@@ -115,7 +118,7 @@ AEM tools panel contains tools for various components. To navigate to AEM Forms-
 * **Breadcrumbs:** A Breadcrumb represents the title of the current console or folder. You can click the Breadcrumb option to navigate between the level of folders that are higher in hierarchy.
 * **View Switcher:** You can click the View Switcher icon ![](assets/viewlist.png) or ![](assets/viewcard.png) to quickly switch between list and card view. For more information about common user interface components, see [Working with the Author Environment](../../sites/authoring/using/basic-handling.md).  
 
-* **Search:** The search option ![](assets/search.png) provides capability to quickly find and jump to the content and tools you need. Type the name of content or product capability and select from the suggestions, for example, type "Documents" to quickly find and navigate to Forms & Documents or Document Fragments console. For more information about search, see AEM 6.2 [search](../../sites/authoring/using/search.md) article  
+* **Search: **The search option ![](assets/search.png) provides capability to quickly find and jump to the content and tools you need. Type the name of content or product capability and select from the suggestions, for example, type "Documents" to quickly find and navigate to Forms & Documents or Document Fragments console. For more information about search, see AEM 6.2 [search](../../sites/authoring/using/search.md) article  
 
 * **Actions toolbar**: On selecting an asset, the actions toolbar appears above the list of assets. It contains all the management tools for the selected asset. You can hover over a tool icon to view the tool tip describing its functionality
 

@@ -4,9 +4,12 @@ seo-title: Channel Layout Editor
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: ea22b9c6-1799-42cb-959d-6af4124502df
+uuid: 81490abc-58cf-4daa-93d6-d697f7495232
 contentOwner: jsyal
-discoiquuid: e9ef4367-86b3-4e95-96bd-3635a9b3d124
+discoiquuid: 10beb13e-d8b2-440e-b2b0-d9fc2dafdc26
+index: y
+internal: n
+snippet: y
 ---
 
 # Channel Layout Editor{#channel-layout-editor}

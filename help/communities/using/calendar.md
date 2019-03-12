@@ -3,12 +3,15 @@ title: Calendar Feature
 seo-title: Calendar Feature
 description: Provides community event information in a calendar format
 seo-description: Provides community event information in a calendar format
-uuid: 9b96c8cc-af87-4b10-96c0-9b07f46949ed
+uuid: 6f1f327f-bf4b-4357-b8fd-4bec74016921
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 83b05ab9-8047-4905-8865-4d7b13333508
+discoiquuid: 8b8e74c5-8b65-4117-9ef0-da9d9e47191f
+index: y
+internal: n
+snippet: y
 ---
 
 # Calendar Feature{#calendar-feature}

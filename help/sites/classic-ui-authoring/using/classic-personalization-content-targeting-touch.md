@@ -3,12 +3,15 @@ title: Authoring Targeted Content Using Targeting Mode
 seo-title: Authoring Targeted Content Using Targeting Mode
 description: Targeting mode and the Target component provide tools for creating content for experiences.
 seo-description: Targeting mode and the Target component provide tools for creating content for experiences.
-uuid: ac272305-3102-4c73-876e-b02b51990411
+uuid: 022b4dcd-e5af-4ab6-a559-f7fe1e628683
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 0dde0d28-9cd5-4056-8bbd-f312f0b9fa78
+discoiquuid: ad05afed-e544-4209-a16f-2f6c38991789
+index: y
+internal: n
+snippet: y
 ---
 
 # Authoring Targeted Content Using Targeting Mode{#authoring-targeted-content-using-targeting-mode}

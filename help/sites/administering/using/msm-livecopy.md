@@ -3,12 +3,15 @@ title: Creating and Synchronizing Live Copies
 seo-title: Creating and Synchronizing Live Copies
 description: Learn how to create and synchronize Live Copies.
 seo-description: Learn how to create and synchronize Live Copies.
-uuid: 854a5505-2a86-46b3-bcb1-9e4cad0069c0
+uuid: f6f410d4-8c72-48b7-a217-afd6076b512d
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: d96022d1-02af-4206-a9eb-84092945eabb
+discoiquuid: 161b591b-5871-4b5f-9c63-823b6e67b1fd
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and Synchronizing Live Copies{#creating-and-synchronizing-live-copies}

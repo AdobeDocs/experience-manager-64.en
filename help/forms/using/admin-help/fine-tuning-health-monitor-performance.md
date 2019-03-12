@@ -3,12 +3,15 @@ title: Fine-tuning Health Monitor performance
 seo-title: Fine-tuning Health Monitor performance
 description: Learn how to fine-tune Health Monitor performance
 seo-description: Learn how to fine-tune Health Monitor performance
-uuid: edfbb78d-9f4f-4e42-a156-fb575c77ac26
+uuid: 770b10cb-065f-41b5-9594-a291e4311151
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: d0e846d5-ab5c-4dbc-a8e2-308b947810ac
+discoiquuid: b8f8bddc-0d38-4d5e-b33f-978f04bc16c6
+index: y
+internal: n
+snippet: y
 ---
 
 # Fine-tuning Health Monitor performance{#fine-tuning-health-monitor-performance}

@@ -3,12 +3,15 @@ title: Assignments Feature
 seo-title: Assignments Feature
 description: Currently signed-in community members can access assigned enablement resources
 seo-description: Currently signed-in community members can access assigned enablement resources
-uuid: afb03917-2191-4eaf-a235-91333b47a527
+uuid: e64da827-2fe9-41e2-a532-a1ef783ba167
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 2c8aeed0-02e6-4f2a-bd08-212e6f78a8f9
+discoiquuid: aeacddc5-a128-40cd-a4c3-07fa173f90c4
+index: y
+internal: n
+snippet: y
 ---
 
 # Assignments Feature{#assignments-feature}

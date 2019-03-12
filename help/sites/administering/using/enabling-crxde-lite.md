@@ -3,12 +3,15 @@ title: Enabling CRXDE Lite in AEM
 seo-title: Enabling CRXDE Lite in AEM
 description: Learn how to enable CRXDE Lite in AEM.
 seo-description: Learn how to enable CRXDE Lite in AEM.
-uuid: 4725ea6d-170c-464b-8a8b-b492ba92f353
+uuid: d7a3db67-6384-463b-9aa9-f08ecc6c99c6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: d8166f0f-716e-452c-8c91-9d6be0a215c5
+discoiquuid: 72df3ece-badf-466b-8f9a-0ec985d87741
+index: y
+internal: n
+snippet: y
 ---
 
 # Enabling CRXDE Lite in AEM{#enabling-crxde-lite-in-aem}

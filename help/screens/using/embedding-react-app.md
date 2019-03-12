@@ -3,12 +3,15 @@ title: Embedding a REACT application using the AEM SPA Editor and Integrating wi
 seo-title: Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics
 description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
 seo-description: Follow this page to learn how to embed an interactive single page application using REACT (or Angular) using the AEM SPA editor that can be configured by business professionals in AEM and also how to integrate your interactive application with offline Adobe Analytics.
-uuid: 06c10649-7d6e-4269-98c1-704404383e40
+uuid: 02ae67bb-058a-4aa9-b484-0c60a8d897ad
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: developing
-discoiquuid: e6fa7208-4590-4485-a37b-208a75886525
+discoiquuid: 70fdeeb8-0c82-44f3-a6fa-ee4dfb32a90b
+index: y
+internal: n
+snippet: y
 ---
 
 # Embedding a REACT application using the AEM SPA Editor and Integrating with AEM Screens Analytics{#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}

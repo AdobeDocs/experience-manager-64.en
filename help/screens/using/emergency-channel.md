@@ -3,12 +3,15 @@ title: Emergency Channel
 seo-title: Emergency Channel
 description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
 seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
-uuid: 55434a9a-4830-401f-ae74-3ed2d84f4d0e
+uuid: 527137b4-0421-4917-95e1-195611e25f54
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: example
 topic-tags: use-case-examples
-discoiquuid: f18f1474-2abb-484e-9b82-f8f1e83bc43f
+discoiquuid: 0d711658-5174-40c5-9e75-cc68c1836948
+index: y
+internal: n
+snippet: y
 ---
 
 # Emergency Channel{#emergency-channel}

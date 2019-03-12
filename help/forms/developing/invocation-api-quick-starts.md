@@ -3,12 +3,15 @@ title: Invocation API Quick Starts
 seo-title: Invocation API Quick Starts
 description: null
 seo-description: null
-uuid: 440e18a4-35c4-457e-bcfc-1efffef1fca5
+uuid: acf67177-98a4-4c99-95a5-3086907d7c2c
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 2740eee2-9a39-4617-9b50-b1a10a9a5b47
+discoiquuid: dcf83c9f-b818-44a2-9079-80a4fc357c4f
+index: y
+internal: n
+snippet: y
 ---
 
 # Invocation API Quick Starts{#invocation-api-quick-starts}

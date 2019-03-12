@@ -3,11 +3,14 @@ title: Adaptive Form Templates
 seo-title: Adaptive Form Templates
 description: Create adaptive form templates by defining the basic structure and initial form content using the Template Editor.
 seo-description: Create adaptive form templates by defining the basic structure and initial form content using the Template Editor.
-uuid: 202f510d-4509-49c6-93e7-144fc721fbed
+uuid: d011bf78-931d-4865-bce5-4328c39402b2
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 7fac67d0-d7a9-4556-8a4f-01eff4300ff9
+discoiquuid: 155aaf96-1e9c-4e73-8e43-d96878d69b16
+index: y
+internal: n
+snippet: y
 ---
 
 # Adaptive Form Templates{#adaptive-form-templates}
@@ -53,8 +56,8 @@ When you open a template for editing, you can see the following AEM Editor compo
     
     * **Preview:** Lets you preview how the template looks when you publish it. You can use Layer Selector and Preview to toggle editing and preview modes.
 
-* **Sidebar:** Provides the Content, Properties, Assets, and Components browsers. 
-* **Component toolbar:** When you select a component, you see a toolbar that lets you customize the component. 
+* **Sidebar: **Provides the Content, Properties, Assets, and Components browsers. 
+* **Component toolbar: **When you select a component, you see a toolbar that lets you customize the component. 
 * **Page**: The area where you add content to create the template.
 
 See [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md) to understand the Touch UI editor.

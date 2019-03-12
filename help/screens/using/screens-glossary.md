@@ -3,12 +3,15 @@ title: Glossary
 seo-title: Glossary
 description: Follow this page to understand the key terms associated with AEM Screens.
 seo-description: Follow this page to understand the key terms associated with AEM Screens.
-uuid: 0a869d3e-9e3a-44e3-853a-4c037f9d8a92
+uuid: 2cbb7e48-0436-497d-adbd-7abdb7343fcc
 contentOwner: User
 content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
-discoiquuid: 6cba42d8-cada-40eb-a537-91791bb05033
+discoiquuid: 984f91ab-9b4c-4cb8-aefa-bc765157349a
+index: y
+internal: n
+snippet: y
 ---
 
 # Glossary{#glossary}

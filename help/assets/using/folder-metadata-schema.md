@@ -3,8 +3,11 @@ title: Folder Metadata Schema
 seo-title: Folder Metadata Schema
 description: This article describes how to create metadata schema for asset folders in AEM Assets.
 seo-description: How to create metadata schema for asset folders in AEM Assets.
-uuid: ec363ff0-40d8-4176-a328-52b5409cef6e
-discoiquuid: 4e6dacf6-4e80-48b7-83c4-2f33a6b634b9
+uuid: 286a4f26-c0ad-4691-80d8-d17ba1a2dfe0
+discoiquuid: 92eacea5-7511-48ce-8a72-ff4552ebb07d
+index: y
+internal: n
+snippet: y
 ---
 
 # Folder Metadata Schema{#folder-metadata-schema}
@@ -35,11 +38,11 @@ You can edit a newly added or existing metadata schema form, which includes the 
 You can map/configure these form items to a field within a metadata node in the CRX repository. You can add new tabs or form items to the metadata schema form.
 
 1. In the Schema Forms page, select the form you created, and then tap/click the **[!UICONTROL Edit]**icon from the toolbar.
-1. In the Folder Metadata Schema Editor page, tap/click the **[!UICONTROL +]** icon to add a tab to the form. To rename the tab, tap/click the default name and specify the new name under **[!UICONTROL Settings]**.
+1. In the Folder Metadata Schema Editor page, tap/click the ****[!UICONTROL +]**** icon to add a tab to the form. To rename the tab, tap/click the default name and specify the new name under **[!UICONTROL Settings]**.
 
    ![](assets/custom_tab.png)
 
-   To add more tabs, tap/click the **[!UICONTROL +]** icon. Tap/click **[!UICONTROL X]** to delete a tab.
+   To add more tabs, tap/click the ****[!UICONTROL +]**** icon. Tap/click **[!UICONTROL X]** to delete a tab.
 
 1. In the active tab, add one or more components from the **[!UICONTROL Build Form]** tab.
 
@@ -47,7 +50,7 @@ You can map/configure these form items to a field within a metadata node in the 
 
    If you create multiple tabs, tap/click a particular tab to add components.
 
-1. To configure a component, select it and modify its properties in the **[!UICONTROL Settings]** tab.
+1. To configure a component, select it and modify its properties in the** ** **[!UICONTROL Settings]**** **tab.
 
    If required, delete a component from the **[!UICONTROL Settings]** tab.
 
@@ -57,7 +60,7 @@ You can map/configure these form items to a field within a metadata node in the 
 
 ### Components to build forms {#components-to-build-forms}
 
-The **[!UICONTROL Build Form]** tab lists form items that you use in your folder metadata schema form. The **[!UICONTROL Settings]** tab displays the attributes for each item that you select in the **[!UICONTROL Build Form]** tab. Here is a list the form items available in the **[!UICONTROL Build Form]** tab:
+The **[!UICONTROL Build Form]**** **tab lists form items that you use in your folder metadata schema form. The **[!UICONTROL Settings]**** **tab displays the attributes for each item that you select in the **[!UICONTROL Build Form]**** **tab. Here is a list the form items available in the **[!UICONTROL Build Form]**** **tab:
 
 <table border="1" cellpadding="0" cellspacing="0" width="100%"> 
  <tbody> 

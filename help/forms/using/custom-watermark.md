@@ -3,11 +3,14 @@ title: Custom watermark in letter PDF preview
 seo-title: Custom watermark in letter PDF preview
 description: Learn how to create custom watermark in letter PDF preview.
 seo-description: Learn how to create custom watermark in letter PDF preview.
-uuid: 5f46ca20-8ff5-4a72-bd64-b55a18a23ce2
+uuid: f406de81-af94-40dd-97ec-9ca95620f961
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 81cea92c-adf3-4a25-ab04-774af5be9c3e
+discoiquuid: a09e2c83-083d-427a-8336-0567e00c5712
+index: y
+internal: n
+snippet: y
 ---
 
 # Custom watermark in letter PDF preview{#custom-watermark-in-letter-pdf-preview}
@@ -47,9 +50,9 @@ You can use the following steps to customize the text and appearance of the wate
        >
        >    
        >    
-       >* Upgrade on your instance
-       >* Apply a hot fix
-       >* Install a feature pack
+       >    * Upgrade on your instance
+       >    * Apply a hot fix
+       >    * Install a feature pack
        >    
        >
 

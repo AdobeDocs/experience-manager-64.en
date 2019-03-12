@@ -3,12 +3,15 @@ title: Poll Essentials
 seo-title: Poll Essentials
 description: Poll component overview
 seo-description: Poll component overview
-uuid: 9747e620-8ab9-432b-8050-687aae0b7e83
+uuid: 2cccb555-f08e-41db-8613-bf15e5eb73eb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 49d4e7d6-c59d-41c6-886f-38b162ab2a97
+discoiquuid: 4785c3f2-c25f-47c4-9ecd-09aa49afd4d3
+index: y
+internal: n
+snippet: y
 ---
 
 # Poll Essentials{#poll-essentials}

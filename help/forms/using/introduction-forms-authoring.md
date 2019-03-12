@@ -3,12 +3,15 @@ title: Introduction to authoring adaptive forms
 seo-title: Introduction to authoring adaptive forms 
 description: AEM Forms provide easy-to-use yet powerful interface for authoring adaptive forms. It provides a host of components and tools that you can use to build forms.
 seo-description: AEM Forms provide easy-to-use yet powerful interface for authoring adaptive forms. It provides a host of components and tools that you can use to build forms.
-uuid: ccf44e00-2056-4833-adb1-1d5af1657d04
+uuid: 07ff8e79-daf7-4608-9171-91854619cc0b
 content-type: reference
 topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: 80f7ed67-e5fa-4e93-aaa2-f3580ed8872a
+discoiquuid: c7a1d13e-cb61-4082-8ae7-7f5eee9e0a51
+index: y
+internal: n
+snippet: y
 ---
 
 # Introduction to authoring adaptive forms {#introduction-to-authoring-adaptive-forms}
@@ -308,7 +311,7 @@ The page toolbar on the top provides options that let you preview the form, chan
 
 * **Emulator ** ![](assets/ruler.png): Lets you emulate the look of your form for different display sizes such as tablets and phones.
 
-* **Edit**: Lets you select other modes such as:** Edit, Style, Developer, **and** Design**.
+* **Edit**: Lets you select other modes such as: **Edit, Style, Developer, **and** Design**.
 
     * **Edit**: Lets you edit the properties of the form and its components. For example, adding a component, dropping an image, and specifying mandatory fields. 
     * **Style**: Lets you style the appearance of components of your form. For example, in style mode, you can select a panel and specify its background color.  
@@ -376,9 +379,9 @@ The content structure typically contains the following primary components:
     * *Submit Action*: Defines how the form is processed on the server once the user submits the form.
     * *Styling*: Specifies the path to the CSS file used to customize the appearance of the form.
 
-* **rootPanel:** The root panel of an adaptive form. It can contain subpanels under the items node. Each panel including the root panel can have a layout associated with it. The layout of the panel dictates how the form is laid out. For example, in the Accordion layout*, *its items are laid out as Accordion steps.
+* **rootPanel: **The root panel of an adaptive form. It can contain subpanels under the items node. Each panel including the root panel can have a layout associated with it. The layout of the panel dictates how the form is laid out. For example, in the Accordion layout*, *its items are laid out as Accordion steps.
 
-* **toolbar:** An adaptive form container has an associated global toolbar, which is global to the form. This toolbar can be added using the **Add Toolbar **action in the edit bar, which allows authors to add actions, such as Submit, Save, Reset, and so on. 
+* **toolbar: **An adaptive form container has an associated global toolbar, which is global to the form. This toolbar can be added using the **Add Toolbar **action in the edit bar, which allows authors to add actions, such as Submit, Save, Reset, and so on. 
 
-* **assets:** This node contains additional information used for form authoring. For example, form model details, localization details, and so on).
+* **assets: **This node contains additional information used for form authoring. For example, form model details, localization details, and so on).
 

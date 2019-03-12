@@ -4,12 +4,15 @@ seo-title: Scaling
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 2614d595-879e-49de-b7cf-59033a9c8063
+uuid: de44d48a-e5f7-471f-841d-fb4a4e8670c3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: db44e2d0-a067-4738-ac0e-d8941255e235
+discoiquuid: 9dd34d5e-02fe-4891-802f-0b98bb458c87
 redirecttarget: /content/help/en/experience-manager/6-4/sites/deploying/using/recommended-deploys.html
+index: y
+internal: n
+snippet: y
 ---
 
 # Scaling{#scaling}
@@ -75,7 +78,7 @@ In CQ 5.6.1 **Author Offload** is the preferred solution. It consists of the fol
 For pre-5.6.1 installations, where offloading is not available, one solution is to use author clustering configured as follows:
 
 * **Create an Author Cluster**: Install an author cluster of two instances (one master, one slave).
-* **Configure Dispatcher to Slave:**  Configuring the dispatcher so that all requests go to the slave ensures that normal authoring is done on the slave. However, when the asset import workflow is initiated, the actual processing will run on the *master* , since in a cluster, workflow processes always run on the master.  
+* **Configure Dispatcher to Slave: ** Configuring the dispatcher so that all requests go to the slave ensures that normal authoring is done on the slave. However, when the asset import workflow is initiated, the actual processing will run on the *master* , since in a cluster, workflow processes always run on the master.  
   
   This solution also provides the reliability advantages of clustering, in that content is automatically "backed-up" from master to slave and vice versa.  
   

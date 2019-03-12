@@ -3,12 +3,15 @@ title: Managing Projects
 seo-title: Managing Projects
 description: Projects lets you organize your project by grouping resources into one entity which can be acessed and managed in the the Projects console
 seo-description: Projects lets you organize your project by grouping resources into one entity which can be acessed and managed in the the Projects console
-uuid: 8b1f701c-0d69-4f72-88af-3b64e7d4e29c
+uuid: ac937582-181f-429b-9404-3c71d1241495
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: f0180687-05be-414c-8f11-e2926024366f
+discoiquuid: fb354c72-debb-4fb6-9ccf-56ff5785c3ae
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Projects{#managing-projects}

@@ -3,12 +3,15 @@ title: Campaign Management
 seo-title: Campaign Management
 description: Campaign management provides digital marketers the opportunity to deliver personalized content and so create dedicated experiences for visitors. It allows you to orchestrate your marketing campaigns across the web, email and mobile services and so engage your visitors.
 seo-description: Campaign management provides digital marketers the opportunity to deliver personalized content and so create dedicated experiences for visitors. It allows you to orchestrate your marketing campaigns across the web, email and mobile services and so engage your visitors.
-uuid: 81afd38a-c111-4078-a9e9-5f2b57ba5c68
+uuid: 202d614b-a607-45de-8c24-1ee66b230315
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 2db40069-6b19-43d5-bcb0-5841abae8ca4
+discoiquuid: e8b70971-4f23-45f8-8c23-e147413243c2
+index: y
+internal: n
+snippet: y
 ---
 
 # Campaign Management{#campaign-management}
@@ -62,7 +65,7 @@ Campaign management is made up of various elements:
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).  
 
 * **Lists** 
-  Leads are usually grouped into lists so that you can take collective action on them. Note:** Note:** Adobe is not planning to further enhance this capability.  
+  Leads are usually grouped into lists so that you can take collective action on them. Note: **Note:** Adobe is not planning to further enhance this capability.  
   Recommendation is to [leverage Adobe Campaign and the integration to AEM.](../../../sites/administering/using/campaign.md)  
 
 * **Segments** 

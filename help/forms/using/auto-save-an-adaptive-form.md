@@ -3,10 +3,13 @@ title: Auto-save an adaptive form
 seo-title: Auto-save an adaptive form
 description: You can configure an adaptive form to automatically start saving the content based on an event or a pre-defined time-interval
 seo-description: You can configure an adaptive form to automatically start saving the content based on an event or a pre-defined time-interval
-uuid: f34ea830-a400-4fca-935e-a21bd8afd6ca
+uuid: 0fe9a389-269b-438a-9489-d9d1d09558a1
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 75d83b17-9df0-424d-9d85-297d227480e1
+discoiquuid: d519ac4e-6d29-4a69-874e-792acabe87ff
+index: y
+internal: n
+snippet: y
 ---
 
 # Auto-save an adaptive form{#auto-save-an-adaptive-form}
@@ -27,10 +30,10 @@ For an adaptive form, the auto save option is not enabled out of the box. You ca
 1. In the **Adaptive Form Event** box, specify 1 or TRUE to automatically start saving the form when the form is loaded in the browser. You can also specify a conditional expression for an event, which when triggered and returns true, starts saving the content of the form.
 1. Specify the Trigger. Auto-save is triggered based on your configuration. Your options are:
 
-    * **Time based:** Select the option to start saving the content based on a specific time interval.** 
+    * **Time based: **Select the option to start saving the content based on a specific time interval.** 
       **
     
-    * **Event based:** Select the option to start saving the content based when an event is triggered.
+    * **Event based: **Select the option to start saving the content based when an event is triggered.
 
    When you select a trigger, Strategy Configuration box is enabled. Strategy Configuration box lets you:
 

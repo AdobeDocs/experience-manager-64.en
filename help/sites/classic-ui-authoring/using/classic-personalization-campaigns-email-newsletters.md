@@ -3,12 +3,15 @@ title: Publishing an Email to Email Service Providers
 seo-title: Publishing an Email to Email Service Providers
 description: You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage.
 seo-description: You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage.
-uuid: 54aaa21f-1700-45cb-b378-974a514b3f83
+uuid: 1a7adcfe-8e52-49f4-9a00-99ac99881225
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: a6b84a75-9be6-4e00-88de-95cfdfb6de62
+discoiquuid: b9618913-5433-4baf-9ff6-490a26860505
+index: y
+internal: n
+snippet: y
 ---
 
 # Publishing an Email to Email Service Providers{#publishing-an-email-to-email-service-providers}
@@ -103,7 +106,7 @@ The **Email Tools** component for ExactTarget can add more email functionality t
 >
 >* The URLs within the email tools are replaced (in the received email) by their actual values only when an email is sent using **Simple Send** or **Guided Send** but not **Test Send**.
 >
->* Two of the email tools are required:** Physical Mailing Address (Required)** and **Profile Center (Required)**. When the email is published to ExactTarget, these two email-tools are added to the bottom of every mail by default.
+>* Two of the email tools are required: **Physical Mailing Address (Required)** and **Profile Center (Required)**. When the email is published to ExactTarget, these two email-tools are added to the bottom of every mail by default.
 >
 
 ### Adding Text and Personalization tool to your e-mail {#adding-text-and-personalization-tool-to-your-e-mail}

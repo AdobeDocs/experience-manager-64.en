@@ -3,12 +3,15 @@ title: Proxy Server Tool (proxy.jar)
 seo-title: Proxy Server Tool (proxy.jar)
 description: Learn about the Proxy Server Tool in AEM.
 seo-description: Learn about the Proxy Server Tool in AEM.
-uuid: 913acc98-6954-45ed-b0c2-906ae8267b39
+uuid: 9a095b12-1d54-4b79-b0c5-d973f16479d3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: c9b6f82c-97cc-4b94-9d28-588793dc017c
+discoiquuid: ff0b1e93-2fd2-4dc1-898f-4ba4db1b3d98
+index: y
+internal: n
+snippet: y
 ---
 
 # Proxy Server Tool (proxy.jar){#proxy-server-tool-proxy-jar}
@@ -47,7 +50,7 @@ java -jar proxy.jar <host> <remoteport> <localport> [options]
 
 ## Uses of the Proxy Server Tool {#uses-of-the-proxy-server-tool}
 
-The following scenarios illustrate a few of the purposes for which the Proxy Server Tool can be used:** **
+The following scenarios illustrate a few of the purposes for which the Proxy Server Tool can be used: ****
 
 **Check for Cookies and their Values**
 
@@ -65,7 +68,7 @@ S-7-#000017 -> [Connection: Keep-Alive ]
 S-7-#000107 -> [Content-Length: 124 ]
 ```
 
-**Checking if Keep-Alive works**
+**Checking if Keep-Alive works******
 
 **Keep-Alive** means that a client re-uses the connection to the server to transports multiple files (the page code, pictures, style sheets and so on). Without keep-alive, the client has to establish a new connection for each request.
 

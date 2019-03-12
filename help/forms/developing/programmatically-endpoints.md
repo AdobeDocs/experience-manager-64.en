@@ -3,12 +3,15 @@ title: Programmatically Managing Endpoints
 seo-title: Programmatically Managing Endpoints
 description: null
 seo-description: null
-uuid: f1fc0ecf-c7d3-4b51-a41f-9cae1c21b4b2
+uuid: 5dc50946-3323-4c5d-a43b-31c1c980bd04
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 4c5922b6-fa7e-418a-8926-6cdd92e5a7a8
+discoiquuid: 076889a7-9c9f-4b6f-a45b-67a9b3923c36
+index: y
+internal: n
+snippet: y
 ---
 
 # Programmatically Managing Endpoints{#programmatically-managing-endpoints}
@@ -971,6 +974,8 @@ Add a TaskManager endpoint by using the Java API:
 
 [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
+****
+
 ## Modifying Endpoints {#modifying-endpoints}
 
 You can programmatically modify an existing endpoint by using the AEM Forms Java API. By modifying an endpoint, you can change the behaviour of the endpoint. Consider, for example, a Watched Folder endpoint that specifies a folder that is used as the watched folder. You can programmatically modify configuration values that belong to the Watched Folder endpoint, resulting in another folder functioning as the watched folder. For information about configuration values that belong to a Watched Folder endpoint, see [Adding Watched Folder Endpoints](programmatically-endpoints.md#adding_watched_folder_endpoints).
@@ -1163,6 +1168,8 @@ Remove an endpoint by using the Java API:
 
 [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
+****
+
 ## Retrieving Endpoint Connector Information {#retrieving-endpoint-connector-information}
 
 You can programmatically retrieve information about endpoint connectors using the AEM Forms API. A connector enables an endpoint to invoke a service using various invocation methods. For example, a Watched Folder connector enables an endpoint to invoke a service using watched folders. By programmatically retrieving information about endpoint connectors, you can retrieve configuration values associated with a connector such as which configuration values are required and which ones are optional.
@@ -1257,3 +1264,5 @@ Retrieve endpoint connector information by using the Java API:
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+
+****

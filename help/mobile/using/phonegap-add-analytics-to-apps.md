@@ -3,12 +3,15 @@ title: Add Adobe Analytics to your Mobile Application
 seo-title: Add Adobe Analytics to your Mobile Application
 description: Follow this page to learn about how you can use Mobile App Analytics in your AEM Apps by integrating with Adobe Mobile Services.
 seo-description: Follow this page to learn about how you can use Mobile App Analytics in your AEM Apps by integrating with Adobe Mobile Services.
-uuid: 5437b858-5f14-4e20-83cf-d4d7de45d236
+uuid: d3ff6f9b-0467-4abe-9a59-b3495a6af0f8
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: fdcde3f9-10dc-4650-aedb-95d9bf21494b
+discoiquuid: cd9d2bea-48d8-4a17-8544-ea25dcad69f3
+index: y
+internal: n
+snippet: y
 ---
 
 # Add Adobe Analytics to your Mobile Application{#add-adobe-analytics-to-your-mobile-application}

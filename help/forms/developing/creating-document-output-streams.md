@@ -3,12 +3,15 @@ title: Creating Document Output Streams
 seo-title: Creating Document Output Streams 
 description: null
 seo-description: null
-uuid: 911e19fd-857c-4e98-9522-f74fc2480bfa
+uuid: 80c28efa-35ce-4073-9ca6-2d93bcd67fdd
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: e2fa32d3-a660-4805-a655-0616ec308340
+discoiquuid: de527d50-991b-4ca3-a8ac-44d5cab988e9
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Document Output Streams {#creating-document-output-streams}

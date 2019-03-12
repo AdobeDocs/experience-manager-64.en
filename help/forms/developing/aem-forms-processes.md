@@ -3,13 +3,16 @@ title: Understanding AEM Forms Processes
 seo-title: Understanding AEM Forms Processes
 description: null
 seo-description: null
-uuid: 901b6b06-2aeb-4628-bfe4-a1e597321be6
+uuid: 7cbebe7d-f222-42fa-8eb6-d2443458a791
 contentOwner: admin
 content-type: reference
 topic-tags: coding
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: development-tools
-discoiquuid: 89519224-8ae5-47c5-a6fe-48ea1eade483
+discoiquuid: ac9fe461-63e7-442b-bd1c-eb9576ef55aa
+index: y
+internal: n
+snippet: y
 ---
 
 # Understanding AEM Forms Processes{#understanding-aem-forms-processes}

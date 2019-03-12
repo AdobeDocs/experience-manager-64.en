@@ -3,12 +3,15 @@ title: File Library Feature
 seo-title: File Library Feature
 description: The File Library feature lets signed-in site visitors upload, manage, and download files
 seo-description: The File Library feature lets signed-in site visitors upload, manage, and download files
-uuid: c6838482-7aa6-41d0-a956-bafbf670b892
+uuid: 7da94703-8334-4c02-ba2a-55b5cde22e6c
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 4a0b4e82-7a6a-4bab-a94c-72ff137ea349
+discoiquuid: cdcae09f-c3cb-471e-863f-b33130e9df0f
+index: y
+internal: n
+snippet: y
 ---
 
 # File Library Feature{#file-library-feature}

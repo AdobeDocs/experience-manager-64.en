@@ -3,12 +3,15 @@ title: SPA and Launch Integration
 seo-title: SPA and Launch Integration
 description: Adobe Launch is the recommended way to implement Analytics, Target, and Audience Manager within SPAs.
 seo-description: Adobe Launch is the recommended way to implement Analytics, Target, and Audience Manager within SPAs.
-uuid: d8953cc2-8482-4eb9-95a9-aa3ed830151e
+uuid: 8535a911-2863-4e3b-a3fb-414a0e7e9a4e
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: spa
-discoiquuid: 11a8f5ef-ecd7-44c3-b2c0-f05df5e2a029
+discoiquuid: a458cc95-cd94-4f3f-9e7b-d6a5780ec4d5
+index: y
+internal: n
+snippet: y
 ---
 
 # SPA and Launch Integration{#spa-and-launch-integration}

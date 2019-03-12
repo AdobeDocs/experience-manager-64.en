@@ -3,20 +3,23 @@ title: Communities Tools
 seo-title: Communities Tools
 description: How to access Communities Tools console
 seo-description: How to access Communities Tools console
-uuid: 1ed87b0f-172f-49e3-a278-0ba01b634b19
+uuid: 3172fe00-7132-4cee-9fd1-b6f96eb43200
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: bf688095-5273-494d-bc52-5c4199d8f2a4
+discoiquuid: 410149d6-15bd-41e5-bdba-1d8e6eab7b87
 pagetitle: Communities Tools
+index: y
+internal: n
+snippet: y
 ---
 
 # Communities Tools{#communities-tools}
 
 On author, to access the Communities tools console :
 
-* from global navigation :** Tools, Communities**
+* from global navigation : **Tools, Communities**
 
 ![](assets/chlimage_1-129.png)
 

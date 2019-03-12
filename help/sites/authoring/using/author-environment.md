@@ -3,12 +3,15 @@ title: Working with the Author Environment
 seo-title: Working with the Author Environment
 description: Get to know the author environment and how classic UI and the modern UI are different.
 seo-description: Get to know the author environment and how classic UI and the modern UI are different.
-uuid: 49d6589c-6f21-4f6a-8f56-e8af70c8877e
+uuid: a5b5aef2-e75b-48b0-9fde-60821a104306
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 53ef3823-3ba5-4fbe-b69d-df33bb893488
+discoiquuid: cda3b321-8f6a-4867-abbf-e2e6898b9373
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with the Author Environment{#working-with-the-author-environment}

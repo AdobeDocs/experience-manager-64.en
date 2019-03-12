@@ -3,12 +3,15 @@ title: Managing Users
 seo-title: Managing Users
 description: null
 seo-description: null
-uuid: bec6df79-57af-453b-b31e-d3e1998901af
+uuid: 68d8a0bc-6e3d-4286-ba5c-534dcf58cb84
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: fc67d8c2-d5b5-48ef-ac78-d7e56631c827
+discoiquuid: 95804bff-9e6f-4807-aae4-790bd9e7cb57
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Users{#managing-users}

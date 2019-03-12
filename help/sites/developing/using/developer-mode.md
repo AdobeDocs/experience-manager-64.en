@@ -3,12 +3,15 @@ title: Developer Mode
 seo-title: Developer Mode
 description: Developer mode opens a side panel with several tabs that provide a developer with infomation about the current page
 seo-description: Developer mode opens a side panel with several tabs that provide a developer with infomation about the current page
-uuid: 3b5a796a-63ab-4454-a665-6177724a7eaf
+uuid: 2ff0d85e-fe49-4506-b6d6-74cc060d7ea1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: c124afea-fbd1-46f4-a393-19c7ca684978
+discoiquuid: efbe46a3-c37f-4b67-8b3a-188cfc75118b
+index: y
+internal: n
+snippet: y
 ---
 
 # Developer Mode{#developer-mode}
@@ -32,11 +35,11 @@ These help a developer to:
 >* Is only available in the touch-enabled UI (when editing pages).
 >* Is not available on mobile devices or small windows on desktop (due to space restrictions).  
 >
->* This occurs when the width is less than 1024px.  
+>    * This occurs when the width is less than 1024px.  
 >
 >* Requires the appropriate permissions/privileges:  
 >
->* Access to Developer Mode is given to users who have write access on `/apps`.
+>    * Access to Developer Mode is given to users who have write access on `/apps`.
 >
 
 >[!CAUTION]

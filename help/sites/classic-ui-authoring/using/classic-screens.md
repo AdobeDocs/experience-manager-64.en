@@ -3,12 +3,15 @@ title: Screens Authoring Capabilites
 seo-title: Screens Authoring Capabilites
 description: Screens are not available in classic UI. See Screens in the standard authoring documentation for details.
 seo-description: Screens are not available in classic UI. See Screens in the standard authoring documentation for details.
-uuid: 9c9381d7-21ef-435b-b0f3-15e3f1c9ab7b
+uuid: d57001a4-8e1b-4436-bbc4-f55459d710db
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: edbde0b4-75a0-4ad7-a95b-bff0eaa20a64
+discoiquuid: 0717c1ff-7710-483b-8491-79bc689b15a9
+index: y
+internal: n
+snippet: y
 ---
 
 # Screens Authoring Capabilites{#screens-authoring-capabilites}

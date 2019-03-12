@@ -3,12 +3,15 @@ title: AEM Assets Home Page Experience
 seo-title: AEM Assets Home Page Experience
 description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 seo-description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
-uuid: 2abee995-0c08-4380-ab6b-4b0826beb899
+uuid: 787ebcc3-9c20-4e25-8ce5-ecba1b42d123
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 7764e2c2-e5ad-4298-a7fa-82ba2766224f
+discoiquuid: c7d6bac8-0897-4a5e-a286-823968dfb52e
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Assets Home Page Experience{#aem-assets-home-page-experience}

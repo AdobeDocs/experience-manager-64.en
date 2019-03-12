@@ -3,12 +3,15 @@ title: Search for a user or group
 seo-title: Search for a user or group
 description: Learn how to search for a user or group using the User Management settings in the administration console.
 seo-description: Learn how to search for a user or group using the User Management settings in the administration console.
-uuid: 24b318bf-13a6-428a-ba06-e1e28deeb289
+uuid: 8d85e1af-9977-489d-9969-c4d2661b38c3
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: aca576ff-4ab1-4ee2-a552-812b7922beba
+discoiquuid: f345e42c-82d9-4970-9169-156ea4505097
+index: y
+internal: n
+snippet: y
 ---
 
 # Search for a user or group{#search-for-a-user-or-group}

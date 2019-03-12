@@ -3,12 +3,15 @@ title: Which Test Environments will be needed?
 seo-title: Which Test Environments will be needed?
 description: Several environments will need to be considered as part of testing
 seo-description: Several environments will need to be considered as part of testing
-uuid: 9f13ca7c-f8fe-453c-94d0-ccb223dfcf72
+uuid: bb725e50-edae-4c20-8107-d1c8df2e60e2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 9812e2fd-3c6a-4d44-abb5-dad92b57fbea
+discoiquuid: db528b9b-3407-462d-8254-20b3cc2c3ccf
+index: y
+internal: n
+snippet: y
 ---
 
 # Which Test Environments will be needed?{#which-test-environments-will-be-needed}

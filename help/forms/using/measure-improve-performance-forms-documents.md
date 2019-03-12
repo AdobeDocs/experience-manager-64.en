@@ -3,11 +3,14 @@ title: Measure and improve effectiveness and conversion of forms
 seo-title: Measure and improve effectiveness and conversion of forms
 description: AEM Forms integrates with Adobe Target and Adobe Analytics solutions that allows you to measure and improve the performance and conversion rate of your forms.
 seo-description: AEM Forms integrates with Adobe Target and Adobe Analytics solutions that allows you to measure and improve the performance and conversion rate of your forms.
-uuid: 1d14cb88-0f48-4c85-9f07-81d7a727608c
+uuid: 5876f2f3-1c97-4fb9-a032-b869ee3c6a45
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
-discoiquuid: 510abef8-4b91-4931-9078-9df947df2481
+discoiquuid: 6b62b280-d101-410a-ba8c-02940f766c32
+index: y
+internal: n
+snippet: y
 ---
 
 # Measure and improve effectiveness and conversion of forms{#measure-and-improve-effectiveness-and-conversion-of-forms}

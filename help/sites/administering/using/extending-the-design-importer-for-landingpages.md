@@ -3,12 +3,15 @@ title: Extending and Configuring the Design Importer for Landing Pages
 seo-title: Extending and Configuring the Design Importer for Landing Pages
 description: Learn how to configure the Design Importer for landing pages.
 seo-description: Learn how to configure the Design Importer for landing pages.
-uuid: cd2ae4fe-e05e-4e8d-819a-fcb43a9efbde
+uuid: b2bfe831-bfaf-43f3-babc-687bf229dd44
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 3b8930dd-8ae1-4798-b563-0afaf87ae8da
+discoiquuid: f8991416-995b-4160-a705-d131e78089ee
+index: y
+internal: n
+snippet: y
 ---
 
 # Extending and Configuring the Design Importer for Landing Pages{#extending-and-configuring-the-design-importer-for-landing-pages}

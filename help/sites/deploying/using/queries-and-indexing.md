@@ -3,13 +3,16 @@ title: Oak Queries and Indexing
 seo-title: Oak Queries and Indexing
 description: Learn how to configure indexes in AEM.
 seo-description: Learn how to configure indexes in AEM.
-uuid: 060cd97e-f082-4431-bd0e-96f86de4fb3d
+uuid: a1233d2e-1320-43e0-9b18-cd6d1eeaad59
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 37bfc533-ddc0-49c6-bc47-4fa6a7e7fada
+discoiquuid: 492741d5-8d2b-4a81-8f21-e621ef3ee685
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/queries-and-indexing
+index: y
+internal: n
+snippet: y
 ---
 
 # Oak Queries and Indexing{#oak-queries-and-indexing}
@@ -76,9 +79,9 @@ The Property Index is generally useful for queries that have property constraint
 1. Name the node **PropertyIndex**, and set the node type to **oak:QueryIndexDefinition**
 1. Set the following properties for the new node:
 
-    * **type:**  `property` (of type String)  
+    * **type: ** `property` (of type String)  
     
-    * **propertyNames:**  `jcr:uuid` (of type Name)
+    * **propertyNames: ** `jcr:uuid` (of type Name)
 
    This particular example will index the `jcr:uuid` property, whose job is to expose the universally unique idetifier (UUID) of the node it is attached to.
 
@@ -115,9 +118,9 @@ You can configure a Lucene full-text index, by following the below procedure:
 1. Name the node **LuceneIndex** and set the node type to **oak:QueryIndexDefinition**
 1. Add the following properties to the node:
 
-    * **type:**  `lucene` (of type String)  
+    * **type: ** `lucene` (of type String)  
     
-    * **async:**  `async` (of type String)
+    * **async: ** `async` (of type String)
 
 1. Save the changes.
 

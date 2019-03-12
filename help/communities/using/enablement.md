@@ -3,12 +3,15 @@ title: Configuring Enablement Features
 seo-title: Configuring Enablement Features
 description: Configure enablement features in Communities
 seo-description: Configure enablement features in Communities
-uuid: 83abc1b8-a2ba-4e76-a555-6a515bfdff0c
+uuid: 27be3128-1a7d-412e-99a9-6e3b3b0aec1c
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 29fa557c-5e23-4402-a9d7-d4a50d57591f
+discoiquuid: 765a3d9b-4552-403e-872c-fdf684ac271d
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Enablement Features{#configuring-enablement-features}
@@ -50,57 +53,55 @@ Following are the steps necessary for enablement communities.
 
 Each step links to documentation which provides the necessary details.
 
-**On all author/publish instances:**
+**On all author/publish instances :**
 
-1 - **[install JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbc-driver-for-mysql)** 
+1. ** [install JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbc-driver-for-mysql)** 
 use Web Console (bundles) : *http://localhost:4502/system/console/bundles* 
 install *before* installing SCORM package
 
-2 - **[install SCORM package](../../communities/using/deploy-communities.md#scorm-package)** 
+2. ** [install SCORM package](../../communities/using/deploy-communities.md#scorm-package)** 
 use Package Manager : *http://localhost:4502/crx/packmgr/*
 
 **On any server:**
 
-3 - **[install MySQL, MySQL Workbench](../../communities/using/mysql.md)**
+3. ** [install MySQL, MySQL Workbench](../../communities/using/mysql.md)**
 
-4 - **[install MySQL databases](../../communities/using/mysql.md#database-setup)** 
+4. ** [install MySQL databases](../../communities/using/mysql.md#database-setup)** 
 execute SQL scripts downloaded from author instance  
 use MySQL Workbench
 
 **On same server hosting author instance:**
 
-5 - **[install FFmpeg](../../communities/using/ffmpeg.md)**
+5. ** [install FFmpeg](../../communities/using/ffmpeg.md)**
 
 **On all author/publish instances :**
 
-6 - **[configure JDBC Connections pool](../../communities/using/mysql.md#configure-jdbc-connections)** 
+6. ** [configure JDBC Connections pool](../../communities/using/mysql.md#configure-jdbc-connections)** 
 use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
 
-7 - **[configure SCORM engine service](../../communities/using/mysql.md#aem-communities-scormengine-service)** 
+7. ** [configure SCORM engine service](../../communities/using/mysql.md#aem-communities-scormengine-service)** 
 use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
 
-8 - **[configure CSRF filters](../../communities/using/mysql.md#adobe-granite-csrf-filter)** 
+8. ** [configure CSRF filters](../../communities/using/mysql.md#adobe-granite-csrf-filter)** 
 use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
 
 **On author instance :**
 
-9 - (*optional*) **[configure Analytics service](../../communities/using/analytics.md)** 
+9. (*optional*) ** [configure Analytics service](../../communities/using/analytics.md)** 
 use Tools, Deployment, Cloud Services console : *http://localhost:4502/etc/cloudservices/sitecatalyst.html*
 
-10 - **[configure FFmpeg](../../communities/using/ffmpeg.md#configure-ffmpeg-transcoding-service)** 
+10. ** [configure FFmpeg](../../communities/using/ffmpeg.md#configure-ffmpeg-transcoding-service)** 
 use Workflow/Models console
 
-11 - **[enable Tunnel Service](../../communities/using/deploy-communities.md#tunnel-service-on-author)** 
+11. ** [enable Tunnel Service](../../communities/using/deploy-communities.md#tunnel-service-on-author)** 
 use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
 
-12 - **[create Community administrators](../../communities/using/users.md#creating-community-members) **for author environment  
+12. ** [create Community administrators](../../communities/using/users.md#creating-community-members) **for author environment  
 use classic-UI Security console: *http://localhost:4502/useradmin* 
-
-* create user(s) with path = /home/users/community  
-* add members(s) to the following groups: 
-
-    * Community Enablement Managers  
-    * Communities Administrators
+- create user(s) with path = /home/users/community  
+- add members(s) to the following groups :  
+Community Enablement Managers  
+Communities Administrators
 
 ## Dispatcher {#dispatcher}
 

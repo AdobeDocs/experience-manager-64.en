@@ -3,12 +3,15 @@ title: JSRP - JCR Storage Resource Provider
 seo-title: JSRP - JCR Storage Resource Provider
 description: JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance
 seo-description: JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance
-uuid: cb8ab222-d87a-49da-ad37-923f3867a570
+uuid: 358a43c1-4137-4300-8443-c0d7166968ad
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: d85c027d-dcc3-4a9c-be58-1ade050256f4
+discoiquuid: f5316a73-84e2-4a18-98c1-a384eeaa77cf
+index: y
+internal: n
+snippet: y
 ---
 
 # JSRP - JCR Storage Resource Provider{#jsrp-jcr-storage-resource-provider}
@@ -31,7 +34,7 @@ The [Storage Configuration console](../../communities/using/srp-config.md) allow
 
 In the author environment, to reach the Storage Configuration console
 
-* from global navigation :** Tools, Communities, Storage Configuration**
+* from global navigation : **Tools, Communities, Storage Configuration**
 
 ![](assets/chlimage_1-234.png)
 
@@ -44,7 +47,7 @@ While JSRP is the default configuration, to ensure the identical configuration i
 
 * on author :
 
-    * from global navigation :** Tools, Deployment, Replication**
+    * from global navigation : **Tools, Deployment, Replication**
     * select **Activate Tree**
     * **Start Path :**
 

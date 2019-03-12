@@ -3,12 +3,15 @@ title: Configuring LDAP with AEM 6
 seo-title: Configuring LDAP with AEM 6
 description: Learn how to configure LDAP with AEM.
 seo-description: Learn how to configure LDAP with AEM.
-uuid: 8876990e-c77e-43c4-b36a-978bf2e05a55
+uuid: 0007def4-86f0-401d-aa37-c8d49d5acea1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 361092ce-1f24-43c3-8780-3c2cf2975c3a
+discoiquuid: 5faf6ee5-9242-48f4-87a8-ada887a3be1e
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring LDAP with AEM 6{#configuring-ldap-with-aem}

@@ -3,12 +3,15 @@ title: Working with Tasks
 seo-title: Working with Tasks
 description: Tasks represent items of work to be done on content. When you are assigned a task, it appears in your Workflow Inbox. Task items have a value of task in the Type column.
 seo-description: Tasks represent items of work to be done on content. When you are assigned a task, it appears in your Workflow Inbox. Task items have a value of task in the Type column.
-uuid: 8fe575e1-db44-4b55-a77d-9fef1fc333fc
+uuid: 4dd3fb17-a952-41f5-9a9a-f8c53107a513
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: a38a3b52-ebf9-499d-b39e-3bd90a23a5fb
+discoiquuid: b0597167-7c12-44bf-a164-50d01858e460
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Tasks{#working-with-tasks}

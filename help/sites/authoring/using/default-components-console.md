@@ -3,12 +3,15 @@ title: Components Console
 seo-title: Components Console
 description: null
 seo-description: null
-uuid: 41c63dfb-3f86-4192-bc65-384097a802eb
+uuid: 308b7fa1-9525-43f3-8c15-1076485b3f8c
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 0f8d0804-b414-4026-b81f-f45db65ae732
+discoiquuid: 8774c38a-abd2-4dc2-868e-d6760c96f3f6
+index: y
+internal: n
+snippet: y
 ---
 
 # Components Console{#components-console}

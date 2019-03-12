@@ -3,12 +3,15 @@ title: Configuring form output
 seo-title: Configuring form output
 description: Learn how to configure form output.
 seo-description: Learn how to configure form output.
-uuid: b4ff2072-500d-4a4a-a2dc-dd08223d0e07
+uuid: 70aad14e-c845-4ef3-a751-ad8860d5d505
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a335eb25-2c4f-4798-bb40-160bad7c1293
+discoiquuid: 17c9b69a-3c6f-47e3-a828-841bb90eba8b
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring form output{#configuring-form-output}

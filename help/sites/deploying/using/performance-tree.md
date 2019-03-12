@@ -3,12 +3,15 @@ title: Performance Tree
 seo-title: Performance Tree
 description: Learn about the steps that need to be taken in order to troubleshoot performance issues in AEM.
 seo-description: Learn about the steps that need to be taken in order to troubleshoot performance issues in AEM.
-uuid: 76300bc5-c4a3-4873-b485-41f516559762
+uuid: ab0624f7-6b39-4255-89e0-54c74b54cd98
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 66aea3b8-9cd3-47e7-9c72-ce4604d62ed5
+discoiquuid: 5febbb1e-795c-49cd-a8f4-c6b4b540673d
+index: y
+internal: n
+snippet: y
 ---
 
 # Performance Tree{#performance-tree}

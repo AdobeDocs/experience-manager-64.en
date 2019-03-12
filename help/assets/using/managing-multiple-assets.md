@@ -3,12 +3,15 @@ title: Managing Multiple Assets and Collections
 seo-title: Managing Multiple Assets and Collections
 description: Learn how to edit the metadata of multiple assets and collections simultaneously to quickly propagate common metadata changes.
 seo-description: Learn how to edit the metadata of multiple assets and collections in bulk.
-uuid: 4b005882-c4c9-4a2c-83d8-b6f013debd71
+uuid: 115a6e39-2f1b-4d07-bec6-30b149524a60
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 892e593d-8755-4722-b0ba-77187e074a29
+discoiquuid: 5ca217a3-3806-4647-800c-2e3658df00b8
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Multiple Assets and Collections{#managing-multiple-assets-and-collections}
@@ -42,8 +45,8 @@ To customize the metadata properties page, including adding, modifying, deleting
    >
    >    
    >    
-   >* In the properties page, you can remove assets from the asset list by deselecting them. The asset list has all the assets selected by default. The metadata for assets that you remove from the list is not updated.
-   >* At the top of assets list, select the check box near **Title** to toggle between selecting the assets and clearing the list.
+   >    * In the properties page, you can remove assets from the asset list by deselecting them. The asset list has all the assets selected by default. The metadata for assets that you remove from the list is not updated.
+   >    * At the top of assets list, select the check box near **Title** to toggle between selecting the assets and clearing the list.
    >    
    >
 
@@ -74,8 +77,8 @@ To customize the metadata properties page, including adding, modifying, deleting
    >
    >    
    >    
-   >* In the collection properties page, you can remove collections from the list of collections by deselecting them. The collections list has all the collections selected by default. The metadata for collections that you remove is not updated.
-   >* At the top of the list, select the check box near **Title** to toggle between selecting the collections and clearing the list.
+   >    * In the collection properties page, you can remove collections from the list of collections by deselecting them. The collections list has all the collections selected by default. The metadata for collections that you remove is not updated.
+   >    * At the top of the list, select the check box near **Title** to toggle between selecting the collections and clearing the list.
    >    
    >
 

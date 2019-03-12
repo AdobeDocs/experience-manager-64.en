@@ -3,12 +3,15 @@ title: Content Insight
 seo-title: Content Insight
 description: Content Insight provides information about page performance using web analytics and SEO recommendation
 seo-description: Content Insight provides information about page performance using web analytics and SEO recommendation
-uuid: f92abbf8-6d1a-4bae-8dcf-fe16b63f6672
+uuid: 32f5b37c-2a82-462a-9f0a-c19bed46e198
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: dbd36247-5f5b-4a1b-b7b5-eaf6b6b0d8fe
+discoiquuid: 60f980fd-049e-43c1-8b5d-60a8279b357a
+index: y
+internal: n
+snippet: y
 ---
 
 # Content Insight{#content-insight}

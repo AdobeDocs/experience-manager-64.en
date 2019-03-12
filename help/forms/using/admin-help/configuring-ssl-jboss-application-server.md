@@ -3,12 +3,15 @@ title: Configuring SSL for JBoss Application Server
 seo-title: Configuring SSL for JBoss Application Server
 description: Learn how to configure SSL for JBoss Application Server.
 seo-description: Learn how to configure SSL for JBoss Application Server.
-uuid: 7970029a-e74c-4108-8713-77a136881b4c
+uuid: 7c13cf00-ea89-4894-a4fc-aaeec7ae9f66
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5e5ff14f-95d7-48aa-bb5a-27946b2c102f
+discoiquuid: c187daa4-41b7-47dc-9669-d7120850cafd
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring SSL for JBoss Application Server{#configuring-ssl-for-jboss-application-server}
@@ -211,8 +214,8 @@ In this procedure:
    >
    >    
    >    
-   >* Replace [JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.
-   >* The imported CA signed certificate will replace a self-signed public certificate if it exists.
+   >    * Replace [JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.
+   >    * The imported CA signed certificate will replace a self-signed public certificate if it exists.
    >    
    >
 

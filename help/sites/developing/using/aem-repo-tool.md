@@ -3,12 +3,15 @@ title: AEM Repo Tool
 seo-title: AEM Repo Tool
 description: The AEM Repo Tool is a simple solution to transfer JCR content between your local filesystem and the AEM server via the command line comparable to FTP. The AEM Repo Tool is similar to the Jackrabbit FileVault tool, but is faster, has minimal dependencies, and is a simple bash script.
 seo-description: The AEM Repo Tool is a simple solution to transfer JCR content between your local filesystem and the AEM server via the command line comparable to FTP. The AEM Repo Tool is similar to the Jackrabbit FileVault tool, but is faster, has minimal dependencies, and is a simple bash script.
-uuid: 687b4ec8-8331-4273-81a2-60dd7b25f35a
+uuid: 6c4a3504-e8e8-46c0-83cb-c18d9791f93e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: d57e507c-0156-4781-966e-fb3bf0ab3e37
+discoiquuid: 7de7b2f9-770e-4af3-8a31-c7b4de64fd43
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Repo Tool{#aem-repo-tool}

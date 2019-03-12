@@ -3,13 +3,16 @@ title: Rendering HTML Forms with CustomToolbars
 seo-title: Rendering HTML Forms with CustomToolbars
 description: null
 seo-description: null
-uuid: 81e53151-78f8-4e80-af6b-d8eb78ba9175
+uuid: b9c9464e-ff19-4051-a39b-4ec71c512d10
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 501d5486-9d1c-4b96-9726-000d9af4cf3c
+discoiquuid: 7eb0e8a8-d76a-43f7-a012-c21157b14cd4
+index: y
+internal: n
+snippet: y
 ---
 
 # Rendering HTML Forms with CustomToolbars{#rendering-html-forms-with-customtoolbars}

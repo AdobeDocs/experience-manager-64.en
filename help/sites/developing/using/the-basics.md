@@ -3,12 +3,15 @@ title: AEM Core Concepts
 seo-title: The Basics
 description: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM
 seo-description: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM
-uuid: 054a2852-a2d5-4fee-98cc-18105ae2a009
+uuid: e49f29db-a5d6-48a0-af32-f8785156746e
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 9afd0e43-906e-4b8c-adc3-39c7d9ea46d2
+discoiquuid: 6e913190-be92-4862-a8b9-517f8bde0044
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Core Concepts{#aem-core-concepts}

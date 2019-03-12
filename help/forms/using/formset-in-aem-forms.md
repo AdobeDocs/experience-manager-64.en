@@ -3,11 +3,14 @@ title: Form set in AEM Forms
 seo-title: Form set in AEM Forms
 description: This article introduces form set and explains how to create form sets by stitching together HTML5 forms. This article also explains how you can prefill xml data to a form set and how you can use form sets in process management.
 seo-description: This article introduces form set and explains how to create form sets by stitching together HTML5 forms. This article also explains how you can prefill xml data to a form set and how you can use form sets in process management.
-uuid: ec773536-c41f-40f7-b43c-3fc175214cc6
+uuid: 20ff948a-db5c-45b9-84e7-cacdeae44ebe
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: e537460f-0831-4910-a020-078fcfd95b84
+discoiquuid: d90f80e7-0c5d-4c56-93a2-c3888b1cbf30
+index: y
+internal: n
+snippet: y
 ---
 
 # Form set in AEM Forms{#form-set-in-aem-forms}

@@ -3,12 +3,15 @@ title: Applying Workflows to Pages
 seo-title: Applying Workflows to Pages
 description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
 seo-description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
-uuid: 954261e0-02fe-41ba-b3d3-560ca354d988
+uuid: 8a1d16f8-69fc-4e3a-b72a-b799ea381024
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 41f25d4f-b1b8-43d0-9ab6-1c87a9d4d6c7
+discoiquuid: 8556d20a-99bd-4942-b7b8-2db69f64e67c
+index: y
+internal: n
+snippet: y
 ---
 
 # Applying Workflows to Pages{#applying-workflows-to-pages}

@@ -3,13 +3,16 @@ title: Developing Experience Manager Components
 seo-title: Developing Experience Manager Components
 description: A community article is available which discusses how to build your first Adobe Experience Manager components.
 seo-description: A community article is available which discusses how to build your first Adobe Experience Manager components.
-uuid: 85565032-85d2-4e5b-b5de-f6161cfd399b
+uuid: 53401f50-a476-46d8-b663-359480b52b89
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 4d0d1156-e4ca-4d79-bd6b-0478aa8607d1
+discoiquuid: abdaecd8-2b53-4475-ae94-d746e1c29839
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/components-basics
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing Experience Manager Components{#developing-experience-manager-components}

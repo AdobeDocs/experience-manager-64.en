@@ -3,12 +3,15 @@ title: Social Graph Essentials
 seo-title: Social Graph Essentials
 description: follow component and following component overview
 seo-description: follow component and following component overview
-uuid: 649cf23a-e191-49ad-9141-bd49cc7b61d4
+uuid: 8ea33760-62b1-4de2-b07f-bc2417ade156
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 8a5530a1-ef78-4dc1-b6f6-f2850507bc78
+discoiquuid: f8d85d72-0215-4680-a334-e37a530fba58
+index: y
+internal: n
+snippet: y
 ---
 
 # Social Graph Essentials{#social-graph-essentials}

@@ -3,12 +3,15 @@ title: Experience the Published Site
 seo-title: Experience the Published Site
 description: Browse to a published site for enablement
 seo-description: Browse to a published site for enablement
-uuid: dd9bc1b2-46b2-404a-9f59-197f2d36c5c8
+uuid: 1bfefa8a-fd9c-4ca8-b2ff-add79776c8ae
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 7bcd3a04-5149-4478-9e36-4f31ab678df4
+discoiquuid: 26715b94-e2ea-4da7-a0e2-3e5a367ac1cd
+index: y
+internal: n
+snippet: y
 ---
 
 # Experience the Published Site{#experience-the-published-site}

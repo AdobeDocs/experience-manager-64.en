@@ -3,12 +3,15 @@ title: Enhanced sorting of assets in AEM
 seo-title: Enhanced Sort
 description: Learn how AEM Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
 seo-description: Learn how AEM Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
-uuid: 75e382aa-1dd4-4fe0-b388-fd631ec7c708
+uuid: 94e9dae6-dfba-4fda-b70a-039afefd2fa9
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 9392cf84-4053-4577-90d8-d8b158d247c8
+discoiquuid: 5a854b34-49d4-4a1d-b6b7-cdada342a2a4
+index: y
+internal: n
+snippet: y
 ---
 
 # Enhanced sorting of assets in AEM{#enhanced-sorting-of-assets-in-aem}

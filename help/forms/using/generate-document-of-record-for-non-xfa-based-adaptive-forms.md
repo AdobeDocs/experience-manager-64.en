@@ -3,13 +3,16 @@ title: Generate Document of Record for adaptive forms
 seo-title: Generate Document of Record for adaptive forms
 description: Explains how you can generate a template for a document of record (DoR) for adaptive forms.
 seo-description: Explains how you can generate a template for a document of record (DoR) for adaptive forms.
-uuid: 168dc8bf-f442-4ea6-9929-3d12de40c640
+uuid: 6c0664a4-a2eb-4ec5-bad0-cf4e2f4fe83d
 content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5f32fda2-fe1b-446f-8837-af933301040a
+discoiquuid: 1e533a8c-f200-40ca-b170-0e9abee8513e
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Generate Document of Record for adaptive forms{#generate-document-of-record-for-adaptive-forms}
@@ -287,8 +290,8 @@ Perform the following steps to configure a document of record for adaptive forms
    >
    >    
    >    
-   >* Your Adaptive form is schema based
-   >* You are using **Associate Form Template as the Document of Record Template** option for document of record
+   >    * Your Adaptive form is schema based
+   >    * You are using **Associate Form Template as the Document of Record Template** option for document of record
    >    
    >
 
@@ -366,14 +369,14 @@ The document of record settings of a component are available under its propertie
 
 * **Exclude From Document Of Record**: Setting the property true excludes the field from document of record. This is script-able property named `excludeFromDoR`. Its behavior depends on **Exclude fields from DoR if hidden** form level property.
 
-* **Display panel as table:** Setting the property displays panel as table in document of record if panel has less than 6 fields in it. Applicable for panel only.
-* **Exclude title from Document of Record:** Setting the property excludes title of the panel/table from document of record. Applicable for panel and table only.
-* **Exclude description from Document of Record:** Setting the property excludes description of the panel/table from document of record. Applicable for panel and table only.
+* **Display panel as table: **Setting the property displays panel as table in document of record if panel has less than 6 fields in it. Applicable for panel only.
+* **Exclude title from Document of Record: **Setting the property excludes title of the panel/table from document of record. Applicable for panel and table only.
+* **Exclude description from Document of Record: **Setting the property excludes description of the panel/table from document of record. Applicable for panel and table only.
 
 **Form level settings**
 
-* **Include unbound fields in DoR:** Setting the property includes unbound fields from Schema based adaptive form in document of record. By default it is true.
-* **Exclude fields from DoR if hidden:** Setting the property overrides the behavior of “Exclude From Document of Record” field level property when it’s not true. If fields are hidden at the time of form submission, they will be excluded from document of record if the property is set true, provided “Exclude From Document of Record” property is not set.
+* **Include unbound fields in DoR: **Setting the property includes unbound fields from Schema based adaptive form in document of record. By default it is true.
+* **Exclude fields from DoR if hidden: **Setting the property overrides the behavior of “Exclude From Document of Record” field level property when it’s not true. If fields are hidden at the time of form submission, they will be excluded from document of record if the property is set true, provided “Exclude From Document of Record” property is not set.
 
 ## Key considerations when working with document of record {#key-considerations-when-working-with-document-of-record}
 

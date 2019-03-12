@@ -4,9 +4,12 @@ seo-title: Metered Playback
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 37ff52af-4b30-4dbb-934f-76b4ebea5b52
+uuid: 7eef1f60-a743-48ea-aab4-94026d3b1ca7
 contentOwner: jsyal
-discoiquuid: d9863f26-c357-4301-afcd-ac2b21fc62de
+discoiquuid: 7f848d35-5059-4d39-86d9-c2f782650474
+index: y
+internal: n
+snippet: y
 ---
 
 # Metered Playback{#metered-playback}

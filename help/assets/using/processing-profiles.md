@@ -3,12 +3,15 @@ title: Profiles for Processing Metadata, Images, and Videos
 seo-title: Profiles for Processing Metadata, Images, and Videos
 description: A profile a set of rules around the options to be applied to assets uploaded to a folder. Specify what metadata profile and video encoding profile to apply to video assets that you upload. For image assets, you can also specify what imaging profile to apply to image assets to have them properly cropped.
 seo-description: A profile a set of rules around the options to be applied to assets uploaded to a folder. Specify what metadata profile and video encoding profile to apply to video assets that you upload. For image assets, you can also specify what imaging profile to apply to image assets to have them properly cropped.
-uuid: f0d119d6-3af1-4269-a2ad-a1812adb7aa7
+uuid: d95978b9-ffa4-4895-854f-3f7bd396e019
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 275bfa89-4585-45b1-966f-b0c31483cb55
+discoiquuid: 347a90ae-a0c5-44f5-8e80-edc3edc1386f
+index: y
+internal: n
+snippet: y
 ---
 
 # Profiles for Processing Metadata, Images, and Videos{#profiles-for-processing-metadata-images-and-videos}

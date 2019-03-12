@@ -3,12 +3,15 @@ title: Tag Essentials
 seo-title: Tag Essentials
 description: Tag overview
 seo-description: Tag overview
-uuid: e20cda03-4e68-4f65-a97f-2cb3ba1a120e
+uuid: a5d52319-f821-4608-b0ab-abc8a1374343
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 48bb86af-67a9-47fe-988a-14775a07ceb4
+discoiquuid: d355a3ee-c8a8-4a07-8d28-d1a99bda315c
+index: y
+internal: n
+snippet: y
 ---
 
 # Tag Essentials{#tag-essentials}

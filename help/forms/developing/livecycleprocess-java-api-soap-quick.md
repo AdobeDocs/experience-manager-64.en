@@ -3,12 +3,15 @@ title: LiveCycleProcess Java API(SOAP)Quick Start
 seo-title: LiveCycleProcess Java API(SOAP)Quick Start
 description: null
 seo-description: null
-uuid: 86c95f7a-5dc4-448f-b73e-5e88d748dfcd
+uuid: ad14fb50-8dd5-44e0-9e48-f0f0334e04d6
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 60636afd-c5d9-4588-8cbf-9807ac638068
+discoiquuid: 9c17fa2d-0337-4204-822e-dcdafebf0e4d
+index: y
+internal: n
+snippet: y
 ---
 
 # LiveCycleProcess Java API(SOAP)Quick Start{#livecycleprocess-java-api-soap-quick-start}

@@ -3,13 +3,16 @@ title: Configuring node stores and data stores in AEM 6
 seo-title: Configuring node stores and data stores in AEM 6
 description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
 seo-description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
-uuid: 302a0503-b8c9-49de-bb3c-90ccfb50bf72
+uuid: b6bb43c7-23e9-428a-b977-6d4e246e714e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 5ba2596d-e168-4c09-8d26-4cd4b659b88a
+discoiquuid: d4636434-98a6-4cf7-bb92-4338da17c893
 legacypath: /deploy/platform/data-store-config
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring node stores and data stores in AEM 6{#configuring-node-stores-and-data-stores-in-aem}
@@ -206,7 +209,7 @@ If you need to upgrade to a new version of the 1.8.x S3 connector (for example, 
 You can use the configuration file with the following options:
 
 * accessKey: The AWS access key.
-* secretKey: The AWS secret access key. **Note:** Alternatively, [IAM roles](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-roles.html) can be used for authentication. If you are using IAM roles you no longer need to specify the `accessKey` and `secretKey`.
+* secretKey: The AWS secret access key. **Note: **Alternatively, [IAM roles](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-roles.html) can be used for authentication. If you are using IAM roles you no longer need to specify the `accessKey` and `secretKey`.
 
 * s3Bucket: The bucket name.
 * s3Region: The bucket region.
@@ -358,9 +361,9 @@ In order to configure binaryless replication with S3, the following steps are re
    >
    >    
    >    
-   >* For Oak versions **1.2.x** use the Oak-run **1.2.12 or newer** 
+   >    * For Oak versions **1.2.x** use the Oak-run **1.2.12 or newer** 
    >    
-   >* For Oak versions **newer than the above**, use the version of Oak-run that matches the Oak core of your AEM installation.
+   >    * For Oak versions **newer than the above**, use the version of Oak-run that matches the Oak core of your AEM installation.
    >    
    >
 

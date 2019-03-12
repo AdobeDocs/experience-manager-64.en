@@ -3,12 +3,15 @@ title: Create and Assign Enablement Resources
 seo-title: Create and Assign Enablement Resources
 description: Add enablement resources
 seo-description: Add enablement resources
-uuid: 3529aa3b-764b-4be3-957c-245c9162412b
+uuid: da940242-0c9b-4ad8-8880-61fd41461c3b
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 9ddc9cdb-3fc1-4818-ac08-0f3ff6e7c3c8
+discoiquuid: 8fe97181-600e-42ac-af25-d5d4db248740
+index: y
+internal: n
+snippet: y
 ---
 
 # Create and Assign Enablement Resources{#create-and-assign-enablement-resources}
@@ -87,7 +90,7 @@ Upload a Resource. If a video resource, either upload a custom image to display 
 * **Resource Expert** 
   *(Optional)* Leave blank.
 
-**Note**: if users or groups are not visible, check that they were added to the `Community Enable Members` group and *Saved* on the publish instance.
+****Note**** ****: if users or groups are not visible, check that they were added to the `Community Enable Members` group and *Saved *on the publish instance.
 
 ![](assets/chlimage_1-206.png)
 

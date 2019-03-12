@@ -3,25 +3,28 @@ title: Metadata Schemata Reference
 seo-title: Metadata Schemata Reference
 description: Learn about standard conventions for describing asset metadata, including Dublin Core, IPTC, and other metadata schema. 
 seo-description: Learn about standard conventions for describing asset metadata, including Dublin Core, IPTC, and other metadata schema. 
-uuid: 6033191c-4046-4aa1-bad5-c206c8697894
+uuid: 842cce16-af42-470f-ae6b-976c41d6a25e
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: cd86e711-cdc0-4d8d-8e4d-19f66e29ab4d
+discoiquuid: 8a7dd9b0-7d41-491f-afc9-d9c59ffcb8ac
+index: y
+internal: n
+snippet: y
 ---
 
 # Metadata Schemata Reference{#metadata-schemata-reference}
 
 The following reference includes information about a particular metadata schemata (in alphabetical order) as well as a list of properties and their definitions.
 
-## CC {#cc}
+### CC {#cc}
 
 | **Property** |**Description** |
 |---|---|
 | License |  |
 
-## Dublin Core {#dublin-core}
+### Dublin Core {#dublin-core}
 
 Dublin Core metadata provides a standardized set of conventions for describing assets to make them easier to find. In AEM Assets, the Dublin Core describes digital assets including video, sound, images, and documents.
 
@@ -29,7 +32,7 @@ The simple Dublin Core Metadata Element Set (DCMES) contains 15 metadata element
 
 In addition to the DCMES, there are other metadata elements created by the Dublin Core Initiative. See the [Dublin Core Initiative](http://dublincore.org/) for more information.
 
-<table> 
+<table border="1" cellpadding="1" cellspacing="0" width="400"> 
  <tbody>
   <tr>
    <td><strong>Property</strong></td> 
@@ -98,7 +101,7 @@ In addition to the DCMES, there are other metadata elements created by the Dubli
  </tbody>
 </table>
 
-## IPTC {#iptc}
+### IPTC {#iptc}
 
 The International Press Telecommunications Council (IPTC) is a consortium of news agencies around the world - one of its goals is to develop and maintain technical standards. The IPTC defined a set of photo metadata standards for images that is almost universally accepted among photographers. These metadata standards were part of the broader standard known as the IPTC Information Interchange Model (IIM) created in the 1990s.
 

@@ -3,12 +3,15 @@ title: Configuring Business Calendars
 seo-title: Configuring Business Calendars
 description: Business calendars define business and non-business days for your organization. Learn how to configure the business calendars.
 seo-description: Business calendars define business and non-business days for your organization. Learn how to configure the business calendars.
-uuid: 01d35110-9a70-408f-987a-4a1fb367f61f
+uuid: 0ba610b8-72a8-480c-8783-70d98cbe890a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9f531481-d43e-457f-bd82-b404e88bc8cc
+discoiquuid: 7a85e13d-4800-47c4-812a-5c6e2355298a
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Business Calendars{#configuring-business-calendars}

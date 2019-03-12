@@ -3,12 +3,15 @@ title: Workflow Process Reference
 seo-title: Workflow Process Reference
 description: null
 seo-description: null
-uuid: 2e74f101-7cfc-4e31-a2e5-e6e2f6a607ee
+uuid: de367aa8-4580-4810-b665-2a7b521e36ca
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: bac3b798-efdb-4c8b-98e9-59e5141f178f
+discoiquuid: dbdf981f-791b-4ff7-8ca8-039d0bdc9c92
+index: y
+internal: n
+snippet: y
 ---
 
 # Workflow Process Reference{#workflow-process-reference}

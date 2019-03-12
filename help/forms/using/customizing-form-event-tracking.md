@@ -3,11 +3,14 @@ title: Customizing form event tracking
 seo-title: Customizing form event tracking
 description: If a user spends more than 60 seconds on a field, a fieldvisit event is triggered and the details of the field are sent to Adobe SiteCatalyst.
 seo-description: If a user spends more than 60 seconds on a field, a fieldvisit event is triggered and the details of the field are sent to Adobe SiteCatalyst.
-uuid: 3b538a6c-06b8-4a26-9e00-eacfe5cdf441
+uuid: 2f790085-2f1a-45be-9a69-6100c76dcae0
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 7edc50bb-74ca-43d6-a290-6cde99d3a034
+discoiquuid: 60d67c6b-5994-42ef-b159-ed6edf5cf9d4
+index: y
+internal: n
+snippet: y
 ---
 
 # Customizing form event tracking{#customizing-form-event-tracking}

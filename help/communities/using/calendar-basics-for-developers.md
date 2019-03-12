@@ -3,12 +3,15 @@ title: Calendar Essentials
 seo-title: Calendar Essentials
 description: Calendar feature overview
 seo-description: Calendar feature overview
-uuid: 4768f78a-62a0-4e0e-b74a-dd5b7c4529d3
+uuid: 14ff7a83-b2a7-4f7e-8ee7-88f336329a1a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 4e0b5189-dd6f-4c9d-bcd2-0e22bad4c2b1
+discoiquuid: 88932a3c-ba7f-47ba-9e0b-206755c2d42e
+index: y
+internal: n
+snippet: y
 ---
 
 # Calendar Essentials{#calendar-essentials}

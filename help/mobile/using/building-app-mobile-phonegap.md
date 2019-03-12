@@ -3,12 +3,15 @@ title: Building Mobile Applications
 seo-title: Building Mobile Applications
 description: This page provides a complete step-by-step article on how to build a mobile application using code available from GitHub is available here.Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build. 
 seo-description: This page provides a complete step-by-step article on how to build a mobile application using code available from GitHub is available here.Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build. 
-uuid: 85d7a1a1-cd73-4db0-97c9-d107a7e1da5b
+uuid: 1ff6fe1a-24cc-4973-a2cd-8d356bc649b0
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 700c5cb5-835d-4beb-bf6c-a1980fa6b2ed
+discoiquuid: b2778086-8280-4306-bf3a-f6ec2a0e04df
+index: y
+internal: n
+snippet: y
 ---
 
 # Building Mobile Applications{#building-mobile-applications}
@@ -154,7 +157,7 @@ Send your application resources to PhoneGap Build for compiling for the various 
 
    ![](do-not-localize/chlimage_1-3.png)
 
-   **Note:** The Beta version of AEM Beta does not create an Inbox notification when the build successfuly completes.
+   **Note: **The Beta version of AEM Beta does not create an Inbox notification when the build successfuly completes.
 
 1. In the Success dialog box, click PhoneGap Build to open the Adobe PhoneGap Build page at [https://build.phonegap.com/apps](https://build.phonegap.com/apps). If you are waiting for your app to appear, you can check the [PhoneGap Build Status](http://status.build.phonegap.com/) page.
 

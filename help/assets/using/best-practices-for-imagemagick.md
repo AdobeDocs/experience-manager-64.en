@@ -3,12 +3,15 @@ title: Install and configure ImageMagick to work with AEM Assets
 seo-title: Install and configure ImageMagick to work with AEM Assets
 description: Learn about ImageMagick software, how to install it, set up the command line process step, and use it to edit, compose, and generate thumbnails from images.
 seo-description: Learn about ImageMagick software, how to install it, set up the command line process step, and use it to edit, compose, and generate thumbnails from images.
-uuid: 160dcb70-84e1-4b40-932d-9229a019db8e
+uuid: 9eeaabeb-c4d0-4551-98ba-d900757e59d3
 contentOwner: asgupta
 topic-tags: extending-assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: f91bedae-da43-4689-a2e3-d9c63e245069
+discoiquuid: f18ccd41-2db3-47b2-9462-29723c7ed9ab
+index: y
+internal: n
+snippet: y
 ---
 
 # Install and configure ImageMagick to work with AEM Assets{#install-and-configure-imagemagick-to-work-with-aem-assets}
@@ -62,7 +65,7 @@ You can set up the command line process step for your particular use case. Perfo
 
    ![](assets/skip_mime_types.png)
 
-1. In the **[!UICONTROL Web Enabled Image]** tab, add the MIME type `image/jpeg` under the **[!UICONTROL Skip List]**. Tap/click **[!UICONTROL OK]** to save the changes.
+1. In the **[!UICONTROL Web Enabled Image]**** **tab, add the MIME type `image/jpeg` under the **[!UICONTROL Skip List]**. Tap/click **[!UICONTROL OK]** to save the changes.
 
    ![](assets/web_enabled.png)
 

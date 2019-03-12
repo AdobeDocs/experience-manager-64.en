@@ -3,12 +3,15 @@ title: Getting Started Developing AEM Sites - WKND Tutorial
 seo-title: Getting Started Developing AEM Sites - WKND Tutorial
 description: New to developing AEM? Need a refresher on best practices? This is the place to start! The goal for this multi-part tutorial is to teach a developer who is new to AEM how to implement a website in AEM using the latest standards and technologies.
 seo-description: New to developing AEM? Need a refresher on best practices? This is the place to start! The goal for this multi-part tutorial is to teach a developer who is new to AEM how to implement a website in AEM using the latest standards and technologies.
-uuid: 9f4b172f-f483-4c06-a00c-30815faf55ab
+uuid: 42db7bc5-5818-40e4-83b4-0cafc1acac42
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: introduction
-discoiquuid: 4af2cb38-37f7-4818-9d6c-522c51bb8a12
+discoiquuid: 54e48abc-be75-4477-83fa-bd74d5b995af
+index: y
+internal: n
+snippet: y
 ---
 
 # Getting Started Developing AEM Sites - WKND Tutorial{#getting-started-developing-aem-sites-wknd-tutorial}

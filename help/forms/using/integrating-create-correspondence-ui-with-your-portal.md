@@ -3,11 +3,14 @@ title: Integrating Create Correspondence UI with your custom portal
 seo-title: Integrating Create Correspondence UI with your custom portal
 description: Learn how to integrate create correspondence UI with your custom portal
 seo-description: Learn how to integrate create correspondence UI with your custom portal
-uuid: 321816f0-539f-4154-a8c1-4577a636ad84
+uuid: 4ae9c5fb-bb9d-46d8-be84-455f386ab443
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 8156a075-977e-4f2e-be84-14d486d4f1ae
+discoiquuid: cb232931-60b7-4956-bc77-10636c19325e
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating Create Correspondence UI with your custom portal{#integrating-create-correspondence-ui-with-your-custom-portal}

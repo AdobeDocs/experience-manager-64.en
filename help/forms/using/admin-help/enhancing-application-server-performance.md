@@ -3,12 +3,15 @@ title: Enhancing application server performance
 seo-title: Enhancing application server performance
 description: This document describes optional settings that you can configure to improve the performance of your AEM forms application server.
 seo-description: This document describes optional settings that you can configure to improve the performance of your AEM forms application server.
-uuid: bbdaf27e-8540-4da9-a1b6-6cdf4166a3d3
+uuid: 88d2f96a-3b59-410d-8160-20581d27acad
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 01612598-e2b4-4a8c-bf56-ddb80810c746
+discoiquuid: fad65765-d56d-4a9f-82d5-bcceb1758953
+index: y
+internal: n
+snippet: y
 ---
 
 # Enhancing application server performance{#enhancing-application-server-performance}

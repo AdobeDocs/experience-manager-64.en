@@ -3,11 +3,14 @@ title: Quickstart for AEM Screens
 seo-title: Quickstart for AEM Screens
 description: null
 seo-description: null
-uuid: de55cc26-6199-46cf-a251-3a21152cf830
+uuid: 14029924-8242-4f68-a74f-98614e9afbdd
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 353777c0-7c27-4d43-abdd-b7cbac96e6d5
+discoiquuid: 0944cfa3-6398-432d-89d1-d56b68d65fb7
+index: y
+internal: n
+snippet: y
 ---
 
 # Quickstart for AEM Screens{#quickstart-for-aem-screens}

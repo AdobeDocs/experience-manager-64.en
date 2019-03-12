@@ -3,12 +3,15 @@ title: Setting up your campaign
 seo-title: Setting up your campaign
 description: Setting up a new campaign requires creating a brand to hold your campaigns, creating a campaign to hold experiences, and finally defining the properties for your new campaign.
 seo-description: Setting up a new campaign requires creating a brand to hold your campaigns, creating a campaign to hold experiences, and finally defining the properties for your new campaign.
-uuid: 7b8366c5-3f69-450c-a061-3d8c71cbda08
+uuid: 86fcd398-803e-4aa5-998c-7624afa7e839
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: d155eaaf-b9ce-4d7b-83c9-0d85e5c836c6
+discoiquuid: e30e5a21-ac86-4653-bd1f-7351852db3f3
+index: y
+internal: n
+snippet: y
 ---
 
 # Setting up your campaign{#setting-up-your-campaign}
@@ -216,9 +219,9 @@ To import leads from a comma-separated list:
    >
    >    
    >    
-   >* In the Dashboard, click **Import Leads** in the **Lists** pane  
+   >    * In the Dashboard, click **Import Leads** in the **Lists** pane  
    >    
-   >* Click **Lists** and in the **Tools** menu, select **Import Leads**.  
+   >    * Click **Lists** and in the **Tools** menu, select **Import Leads**.  
    >    
    >    
    >

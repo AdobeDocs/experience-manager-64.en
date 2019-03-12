@@ -3,12 +3,15 @@ title: App Templates and Components
 seo-title: App Templates and Components
 description: Follow this page to learn about App Templates and Components. It provides detailed information on the structure of templates.
 seo-description: Follow this page to learn about App Templates and Components. It provides detailed information on the structure of templates.
-uuid: 6444f333-6830-4bb3-b471-e211387b82b9
+uuid: ba2fd91b-de5a-4f39-a976-5455f9983669
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
-discoiquuid: 6fcb98bf-5779-4aad-8574-8cf6689456d9
+discoiquuid: 7f31c6a7-92d5-4a87-a9f0-68a82b834d5a
+index: y
+internal: n
+snippet: y
 ---
 
 # App Templates and Components{#app-templates-and-components}

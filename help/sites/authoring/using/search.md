@@ -3,12 +3,15 @@ title: Search
 seo-title: Search
 description: Find your content faster with comprehensive search
 seo-description: Find your content faster with comprehensive search
-uuid: 2230460f-625c-4a8d-89c4-3b2f6145d3e5
+uuid: 1e80cf85-653f-4dde-930a-de05415b994f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: dd3649fd-910b-4776-a565-b9bc1149e9e9
+discoiquuid: cd87e1e8-5329-4e60-ac9d-2705f54d0da6
+index: y
+internal: n
+snippet: y
 ---
 
 # Search{#search}
@@ -73,8 +76,8 @@ To search and filter your resources:
    >
    >    
    >    
-   >* Depending on the resource type you have selected; for example, the Assets and Communities criteria are understandably specialized.
-   >* Your instance as the [Search Forms](../../../sites/administering/using/search-forms.md) can be customized (appropriate to the location within AEM).
+   >    * Depending on the resource type you have selected; for example, the Assets and Communities criteria are understandably specialized.
+   >    * Your instance as the [Search Forms](../../../sites/administering/using/search-forms.md) can be customized (appropriate to the location within AEM).
    >    
    >
 

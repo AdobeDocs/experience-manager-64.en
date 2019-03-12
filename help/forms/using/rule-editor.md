@@ -3,12 +3,15 @@ title: Adaptive forms rule editor
 seo-title: Adaptive forms rule editor
 description: Adaptive forms rule editor allows you to add dynamic behavior and build complex logic into forms without coding or scripting.
 seo-description: Adaptive forms rule editor allows you to add dynamic behavior and build complex logic into forms without coding or scripting.
-uuid: 0631257c-71b1-4f54-9b4f-38841998f027
+uuid: 15c9bb41-ddae-4d3e-b130-5eb1b7572e6e
 content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9eb44e49-628e-4303-ab02-a37bc7ff1c56
+discoiquuid: 66a3528a-489b-4fd0-be6c-b8c4b9b1f908
+index: y
+internal: n
+snippet: y
 ---
 
 # Adaptive forms rule editor{#adaptive-forms-rule-editor}
@@ -82,9 +85,9 @@ The rule editor provides the following logical operators and events using which 
 * **Contains **
 * **Is Empty **
 * **Is Not Empty**
-* **Has Selected:**  Returns true when the user selects a particular option for a checkbox, drop-down, radio button.
-* **Is Initialized (event):** Returns true when a form object renders in the browser. 
-* **Is Changed (event):** Returns true when the user changes the entered value or selected option for a form object.
+* **Has Selected: ** Returns true when the user selects a particular option for a checkbox, drop-down, radio button.
+* **Is Initialized (event): **Returns true when a form object renders in the browser. 
+* **Is Changed (event): **Returns true when the user changes the entered value or selected option for a form object.
 
 ## Available rule types in rule editor {#available-rule-types-in-rule-editor}
 

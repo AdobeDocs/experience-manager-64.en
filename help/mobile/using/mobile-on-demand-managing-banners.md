@@ -3,12 +3,15 @@ title: Managing Banners
 seo-title: Managing Banners
 description: Banners represent typically graphical promotional links. Follow this page to learn more.
 seo-description: Banners represent typically graphical promotional links. Follow this page to learn more.
-uuid: 645ca379-cf6d-43d7-ad14-a0a2581aa3e2
+uuid: 593fe2ef-84df-42e2-8a03-897fb67a896d
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: 4d8b887e-4e2c-4187-8555-2a0301df3d22
+discoiquuid: fb1abaa0-9c02-4f20-aa7c-073def067452
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Banners{#managing-banners}

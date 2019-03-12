@@ -3,12 +3,15 @@ title: Administering Workflow Instances
 seo-title: Administering Workflow Instances
 description: Lear how to administer Workflow Instances.
 seo-description: Lear how to administer Workflow Instances.
-uuid: a9c71726-d441-42ce-886c-239e8c39a289
+uuid: 81e53ef5-fe62-4ed4-b2d4-132aa986d5aa
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 117efec0-7edd-4ac8-8d27-a3adc1388c09
+discoiquuid: d9c96e7f-9416-48e1-a6af-47384f7bee92
+index: y
+internal: n
+snippet: y
 ---
 
 # Administering Workflow Instances{#administering-workflow-instances}
@@ -62,8 +65,8 @@ A range of consoles are available for administering your workflows. Use the [glo
    >
    >    
    >    
-   >* use of the **Terminate** action
-   >* when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated
+   >    * use of the **Terminate** action
+   >    * when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated
    >    
    >
 

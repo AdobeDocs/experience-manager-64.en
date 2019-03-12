@@ -3,12 +3,15 @@ title: Offline Channels
 seo-title: Offline Channels
 description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.  
 seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.  
-uuid: f023b484-7516-4dd5-a454-9415e0bcab45
+uuid: 25766e79-a5a5-4b84-b235-e3050f725fbe
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
-discoiquuid: 186b1c52-ba89-4bab-9d01-cf0b17a42a16
+discoiquuid: 609d5405-138f-47f7-9ac0-efaa32f8715b
+index: y
+internal: n
+snippet: y
 ---
 
 # Offline Channels{#offline-channels}

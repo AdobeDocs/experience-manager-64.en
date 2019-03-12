@@ -3,13 +3,16 @@ title: Programmatically Assembling PDF Documents
 seo-title: Programmatically Assembling PDF Documents
 description: null
 seo-description: null
-uuid: 9a8131f4-96ae-42f2-ba42-6423f757a4a2
+uuid: aa3f8f39-1fbc-48d0-82ff-6caaadf125fc
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 2734824a-ace0-46c2-9a28-a78c196b073a
+discoiquuid: ebe8136b-2a79-4035-b9d5-aa70a5bbd4af
+index: y
+internal: n
+snippet: y
 ---
 
 # Programmatically Assembling PDF Documents{#programmatically-assembling-pdf-documents}

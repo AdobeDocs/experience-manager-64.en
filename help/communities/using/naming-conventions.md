@@ -3,12 +3,15 @@ title: Naming Conventions
 seo-title: Naming Conventions
 description: Hyphens in Java Package Name
 seo-description: Hyphens in Java Package Name
-uuid: eb08f2ae-a4c4-47f3-a7da-e928d0652003
+uuid: 48086e6c-c35b-4ffc-b216-d01feca7bf9a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: ffd779c0-5d28-4c8c-8c5f-50425b3ff69f
+discoiquuid: 5271feb9-70c6-4c82-8ac7-34a63d80e3aa
+index: y
+internal: n
+snippet: y
 ---
 
 # Naming Conventions{#naming-conventions}

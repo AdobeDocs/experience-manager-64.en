@@ -4,8 +4,11 @@ seo-title: "[DO NOT PUBLISH] Tutorial: Create an adaptive form"
 description: Learn to create, layout, and preview an adaptive form. Also, learn to configure submit actions.
 seo-description: Learn to create, layout, and preview an adaptive form. Also, learn to configure submit actions.
 page-status-flag: de-activated
-uuid: 9f32a8a1-0c43-4ceb-a963-b23be567e684
-discoiquuid: 9ca6a14f-fa90-44ad-ab2c-e0cf33c8bfe3
+uuid: 0010d274-a683-499e-9fa6-ce355d7898a0
+discoiquuid: 55c08940-8c25-4938-8e49-25bce20aaf22
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Tutorial: Create an adaptive form{#do-not-publish-tutorial-create-an-adaptive-form}

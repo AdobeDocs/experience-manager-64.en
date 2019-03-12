@@ -3,15 +3,18 @@ title: Markdown
 seo-title: Markdown
 description: When you are authoring, the content fragment editor uses markdown syntax to allow you to easily write content.
 seo-description: When you are authoring, the content fragment editor uses markdown syntax to allow you to easily write content.
-uuid: 5600ca81-5360-4b14-88c9-52c83de026f3
+uuid: 12b185a5-3d87-4d7c-8d09-8cc2726009a8
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 2b822de5-1637-42e9-b503-8947791324ec
+discoiquuid: bde54663-9050-4a5a-93cb-7cd84ac7f071
+index: y
+internal: n
+snippet: y
 ---
 
-# Markdown {#markdown}
+# Markdown{#markdown}
 
 >[!CAUTION]
 >
@@ -33,7 +36,7 @@ You can define:
 * [Code Blocks](#code-blocks)
 * [Backslash Escapes](#backslash-escapes)
 
-## Heading Notation {#heading-notation}
+### Heading Notation {#heading-notation}
 
 To create a header by placing a hash tag (#) in front of the heading. One hash tag (#) is used for an H1, two hash tags (##) for a H2 etc. You can use up to 6 hash tags. For example:
 
@@ -51,13 +54,13 @@ Optionally, you can create a H1 by underlining the text in equal signs and creat
 *This is an H2  
 --------------*
 
-## Paragraphs and Line Breaks {#paragraphs-and-line-breaks}
+### Paragraphs and Line Breaks {#paragraphs-and-line-breaks}
 
 A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. A blank line is a line containing nothing but spaces or tabs. Normal paragraphs should not be indented with spaces or tabs.
 
 A line break is created by ending a line with two or more spaces then a return.
 
-## Links {#links}
+### Links {#links}
 
 You can create inline and reference links.
 
@@ -80,7 +83,7 @@ A reference link has the following syntax:
 [made]: http://www.stackoverflow.com  
 *
 
-## Images {#images}
+### Images {#images}
 
 The syntax for images is similar to the links. You can create inline and reference links.
 
@@ -104,7 +107,7 @@ Where “i*d”* is the name of a defined image reference. Image references are 
 
 *[id]: url/to/image "Optional title attribute"*
 
-## Block Quotes {#block-quotes}
+### Block Quotes {#block-quotes}
 
 You can quote text by adding the &gt; symbol before the text. For example:
 
@@ -136,7 +139,7 @@ To create an ordered list, add the numbers, followed by a period, before each it
 2. Second item in list.  
 3. Third item in list.*
 
-## Emphasis {#emphasis}
+### Emphasis {#emphasis}
 
 You can add italic or bold styling to your text.
 
@@ -162,7 +165,7 @@ For example:
 
 *Use the `printf()` function.*
 
-## Code Blocks {#code-blocks}
+### Code Blocks {#code-blocks}
 
 Code blocks are typically used to illustrate source code. You can create code blocks by indenting the code using a tab or a minimum of 4 spaces. For example:
 
@@ -170,7 +173,7 @@ Code blocks are typically used to illustrate source code. You can create code bl
 
 * This is a code block.*
 
-## Backslash escapes {#backslash-escapes}
+### Backslash escapes {#backslash-escapes}
 
 You can use backslash escapes to generate literal characters which have special meaning in formatting syntax. For example, if you wanted to surround a word with literal asterisks (instead of an HTML &lt;em&gt; tag), you can use backslashes before the asterisks, like this:
 

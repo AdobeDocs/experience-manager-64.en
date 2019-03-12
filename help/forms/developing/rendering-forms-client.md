@@ -3,13 +3,16 @@ title: Rendering Forms at the Client
 seo-title: Rendering Forms at the Client
 description: null
 seo-description: null
-uuid: 5b2f9b61-5aca-409c-a810-19ebb27d335b
+uuid: 09bcc23d-28b0-473a-87f1-bc17e87620f4
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: d2932bf3-8d41-46d5-8b8e-9b67aaf125d0
+discoiquuid: 08d36e9f-cafc-478e-9781-8fc29ac6262e
+index: y
+internal: n
+snippet: y
 ---
 
 # Rendering Forms at the Client{#rendering-forms-at-the-client}

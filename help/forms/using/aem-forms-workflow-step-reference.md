@@ -3,9 +3,12 @@ title: Forms-centric workflow on OSGi - Step Reference
 seo-title: Forms-centric workflow on OSGi - Step Reference
 description: Forms-centric workflow on OSGi steps allow you rapidly build adaptive forms based workflows.
 seo-description: Forms-centric workflow on OSGi steps allow you rapidly build adaptive forms based workflows.
-uuid: 17cf6f42-689f-47e9-9fc0-fa8d43a7e74b
+uuid: 57c872d6-c6ca-4f78-a98c-f9487f1d673c
 contentOwner: aheimoz
-discoiquuid: 930bb25e-6262-41f5-86f4-71e36797c8ba
+discoiquuid: f2bd4d96-55a5-4fbd-bede-1747c2ec63c8
+index: y
+internal: n
+snippet: y
 ---
 
 # Forms-centric workflow on OSGi - Step Reference{#forms-centric-workflow-on-osgi-step-reference}
@@ -24,37 +27,37 @@ You can also use the component to control the behavior of the task. For example,
 * **Description:** Explanation of the operations being performed in the task. This information is useful for other process developers when you are working in a shared development environment.  
 
 * **Thumbnail Path:** Path of the task thumbnail. If no path is specified, for an adaptive form default thumbnail is displayed and for Document of Record, a default icon is displayed.
-* **Workflow Stage:** A workflow can have multiple stages. These stages are displayed in the AEM Inbox. You can define these stages in the properties of the model (Sidekick &gt; Page &gt; Page Properties &gt; Stages).
-* **Priority:** Selected priority is displayed in the AEM Inbox. The available options are High, Medium, and Low. The default value is Medium.
+* **Workflow Stage: **A workflow can have multiple stages. These stages are displayed in the AEM Inbox. You can define these stages in the properties of the model (Sidekick &gt; Page &gt; Page Properties &gt; Stages).
+* **Priority: **Selected priority is displayed in the AEM Inbox. The available options are High, Medium, and Low. The default value is Medium.
 * **Due Date:** Specify the number of days or hours after which the task is marked overdue. If you select **Off**, then the task is never marked overdue. You can also specify a time-out handler to perform specific tasks after the task is overdue.
 
-* **Days:** The number of days before which the task is to be completed. The number of days are counted after the task is assigned to a user. If a task is not complete and crosses the number of days specifies in the Days field, then, if selected, a timeout handler is triggered after the due date.
+* **Days: **The number of days before which the task is to be completed. The number of days are counted after the task is assigned to a user. If a task is not complete and crosses the number of days specifies in the Days field, then, if selected, a timeout handler is triggered after the due date.
 * **Hours:** The number of hours before which the task is to be completed. The number of hours are counted after the task is assigned to a user. If a task is not complete and crosses the number of hours specifies in the Hours field, then, if selected, a timeout handler is triggered after the due hours.
-* **Time-out after Due Date:** Select this option to enable the Timeout Handler selection field.
-* **Timeout Handler:** Select the script to be executed when the assign task step crosses the due date. Scripts placed in the CRX-repository at [apps]/fd/dashboard/scripts/timeoutHandler are available for selection. The specified path does not exist in crx-repository. An administrator creates the path before using it.
-* **Highlight the action and comment from the last task in Task Details:** Select this option to display the last action that was taken and comment received on the task details section of a task.
-* **Type:** Choose the type of document to be filled when the workflow is started. You can choose an adaptive form, read-only adaptive form, or a non-interactive PDF document.
+* **Time-out after Due Date: **Select this option to enable the Timeout Handler selection field.
+* **Timeout Handler: **Select the script to be executed when the assign task step crosses the due date. Scripts placed in the CRX-repository at [apps]/fd/dashboard/scripts/timeoutHandler are available for selection. The specified path does not exist in crx-repository. An administrator creates the path before using it.
+* **Highlight the action and comment from the last task in Task Details: **Select this option to display the last action that was taken and comment received on the task details section of a task.
+* **Type: **Choose the type of document to be filled when the workflow is started. You can choose an adaptive form, read-only adaptive form, or a non-interactive PDF document.
 * **Use Adaptive Form:** Specify the method to locate the input adaptive form. You can use the adaptive form available at an absolute path, submitted as payload to the workflow, or available at a path calculated using a variable. You can use a variable of type String to specify the path.
 * **Adaptive Form Path**: Specify the path of the adaptive form. The field is available when you use the an adaptive form or read-only adaptive form option in the Type field in conjunction with absolute path option the Use Adaptive Form field.
-* **PDF Path:** Specify the path of a non-interactive PDF document. The field is available when you choose a non-interactive PDF document in the Type field. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/PDF/credit-card.pdf. The path does not exist in crx-repository. An administrator creates the path before using it. You require a Document of Record option enabled or form template based adaptive forms for using the PDF Path option.
+* **PDF Path: **Specify the path of a non-interactive PDF document. The field is available when you choose a non-interactive PDF document in the Type field. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/PDF/credit-card.pdf. The path does not exist in crx-repository. An administrator creates the path before using it. You require a Document of Record option enabled or form template based adaptive forms for using the PDF Path option.
 * **For completed task, render the adaptive form as**: When a task is marked complete, you can render the adaptive form as a read-only adaptive form or a PDF document. You require a Document of Record option enabled or form template based adaptive forms for rendering the adaptive form as Document of Record.
-* **Information to be pre-populated:** The following fields listed below serve as inputs to the task:** **
+* **Information to be pre-populated: **The following fields listed below serve as inputs to the task:** **
 
     * **Data File Path:** Path of input data file (.json or .xml). The path is always relative to the payload. For example, the file contains the data submitted for the form through an AEM Inbox application. An example path is [Payload_Directory]/workflow/data.
-    * **Attachment Path:** Attachments available at the location are attached to the form associated with the task. The path is always relative to the payload. An example path is [Payload_Directory]/attachments/
+    * **Attachment Path: **Attachments available at the location are attached to the form associated with the task. The path is always relative to the payload. An example path is [Payload_Directory]/attachments/
 
-* **Submitted information:** The following fields listed below serve as output locations to the task:** **
+* **Submitted information: **The following fields listed below serve as output locations to the task:** **
 
     * **Data File Path:** Path of data file (.json or .xml). The data file contains information submitted through the associated form. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/data, where data is a file.
-    * **Attachment Path:** Path to save the form attachments provide in a task.
-    * **Document of Record Path:** Path to save a Document of Record file. For example, [Payload_Directory]/DocumentofRecord/credit-card.pdf. The Document of Record is not generated if the path field is left empty. The path is always relative to the payload.
+    * **Attachment Path: **Path to save the form attachments provide in a task.
+    * **Document of Record Path: **Path to save a Document of Record file. For example, [Payload_Directory]/DocumentofRecord/credit-card.pdf. The Document of Record is not generated if the path field is left empty. The path is always relative to the payload.
 
 * **Assign options:** Specify the method to assign the task to a user. You can dynamically assign the task to a user or a group using the Participant Chooser script or assign the task to a specific AEM user or group.
 * **Participant Chooser:** The option is available when the **Dynamically to a user or group** option is selected in the Assign options field. You can use an ECMAScript or a service to dynamically select a user or a group. For more information, see [Dynamically assign a workflow to the users](https://helpx.adobe.com/experience-manager/kb/HowToAssignAWorkflowDynamicallyToParticipants.html) and [Creating a custom Adobe Experience Manager Dynamic Participant step.](https://helpx.adobe.com/experience-manager/using/dynamic-steps.html)
 
 * **Participants:** The field is available when the **[!UICONTROL com.adobe.granite.workflow.core.process.RandomParticipantChooser]** option is selected in the Participant Chooser field. The field allows you to select users or groups for the RandomParticipantChooser option.
 
-* **Arguments:** The field is available when a script other than the RandomParticipantChoose script is selected in the Participant Chooser field. The field allows you to provide a list of a comma separated arguments for the script selected in the Participant Chooser field.  
+* **Arguments: **The field is available when a script other than the RandomParticipantChoose script is selected in the Participant Chooser field. The field allows you to provide a list of a comma separated arguments for the script selected in the Participant Chooser field.  
 
 * **User or Group:** The task is assigned to selected user or group. The option is available when the **To a specific user or group option** is selected in the Assign options field. The field lists all the users and groups of the workflow-users group.
 
@@ -72,10 +75,10 @@ You can also use the component to control the behavior of the task. For example,
 * **Allow assignee to add attachment(s) to the task**: Select this option to enable attachments for the task. An assignee can add the attachments from within AEM Inbox at the time of task submission.
 * **Output path of task attachments**: Specify the location of attachment folder. The location is relative to the payload.
 * **Use custom metadata:** Select this option to enable the custom metadata field. Custom metadata is used in email templates.
-* **Custom Metadata:** Select a custom metadata for the email templates. The custom metadata is available in crx-repository at apps/fd/dashboard/scripts/metadataScripts. The specified path does not exist in crx-repository. An administrator creates the path before using it. You can also use a service for the custom metadata. You can also extend the `WorkitemUserMetadataService` interface to provide custom metadata.
+* **Custom Metadata: **Select a custom metadata for the email templates. The custom metadata is available in crx-repository at apps/fd/dashboard/scripts/metadataScripts. The specified path does not exist in crx-repository. An administrator creates the path before using it. You can also use a service for the custom metadata. You can also extend the `WorkitemUserMetadataService` interface to provide custom metadata.
 
 * **Show Data from Previous Steps**: Select this option to enable assignees to view previous assignees, action already taken on the task, comments added to the task, and document of record of the completed task, if available. 
-* **Show Data from Subsequent Steps:** Select this option to enable the current assignee to view the action taken and comments added to task by subsequent assignees. It also allows the current assignee to view a document of record of the completed task, if available.
+* **Show Data from Subsequent Steps: **Select this option to enable the current assignee to view the action taken and comments added to task by subsequent assignees. It also allows the current assignee to view a document of record of the completed task, if available.
 * **Visibility of data type:** By default, an assignee can view a Document of Record, assignees, action taken, and comments that previous and subsequent assignees have added. Use the visibility of data type option to limit the type of data visible to the assignees.
 
 ## Send Email Step {#send-email-step}
@@ -86,7 +89,7 @@ The email step uses Day CQ Mail Service to send emails. Before using the email s
 
 **Title:** Title of the step helps identify the step in the workflow editor.
 
-**Description:** Explanation is useful for other process developers when you are working in a shared development environment.
+**Description: **Explanation is useful for other process developers when you are working in a shared development environment.
 
 **Email Subject:** Subject can be retrieved from a workflow metadata or specified manually. Select the **Literal** option to manually specify a subject or select the **Retrieve from Workflow metadata** option to retrieve the subject from a metadata property.
 
@@ -104,7 +107,7 @@ The email step uses Day CQ Mail Service to send emails. Before using the email s
 
 **File Attachment Path:** The asset available at the specified location is attached to the email. The path of the asset can be relative to the payload or absolute path. An example path is [Payload_Directory]/attachments/
 
-**File Name:** Name of the email attachment file. The Email Step changes the original file name of the attachment to the specified file name. The name can be specified manually or retrieved from a workflow metadata property. Use the **Literal** option when you know the exact value to specify. Use the **Retrieve from a Workflow Metadata** option when the value to use is saved in a workflow metadata property.
+**File Name: **Name of the email attachment file. The Email Step changes the original file name of the attachment to the specified file name. The name can be specified manually or retrieved from a workflow metadata property. Use the **Literal** option when you know the exact value to specify. Use the **Retrieve from a Workflow Metadata** option when the value to use is saved in a workflow metadata property.
 
 ## Generate Document of Record step {#generate-document-of-record-step}
 
@@ -122,7 +125,7 @@ The Document of Record step has the following properties:
 
 If you specify the path of a folder, for example, attachments, all the files directly available in the folder are attached to Document of Record. If any files are available in the folders directly available in the specified attachment path, the files are included in Document of Record as attachments. If there are any folders in directly available folders, those are skipped.
 
-**Generated Document of Record Path:** Specify the location to keep a document of record file. You can choose to overwrite the payload folder or place document of record at a location within the payload directory.
+**Generated Document of Record Path: **Specify the location to keep a document of record file. You can choose to overwrite the payload folder or place document of record at a location within the payload directory.
 
 **Locale**: Specify the language of the document of record.
 
@@ -200,12 +203,12 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
     * **Map input fields from input JSON:** Specify path of a JSON file to obtain input value of some service arguments from the JSON file. Path of the JSON file can be relative to the payload or an absolute path.
 
 * **Input for services &gt; Provide input data using a JSON file:** Select the option to obtain values for all the arguments from a JSON file.
-* **Input JSON File Path**: Path of the JSON file containing values for all the service arguments. Path of the JSON file can be **relative to the payload** or an **absolute path**.
+* **Input JSON File Path**:**** Path of the JSON file containing values for all the service arguments. Path of the JSON file can be** relative to the payload** or an** absolute path**.
 
 * **JSON Dot Notation:** Leave the field blank to use all the objects of the specified JSON file as input for service arguments. To read a specific JSON object from the specified JSON file as input for service arguments, specify dot notation for the JSON object, for example, If you have a JSON similar to the one listed at the start of the section, specify insurance.customerDetails to provide all the details of a customer as input to the service.
-* **Output of service &gt; Map and write output values to metadata:** Select the option to save the output values as properties of the workflow instance metadata node in crx-repository. Specify the name of the metadata property and select the corresponding service output attribute to be mapped with metadata property, for example, map the phone_number returned by output service with the phone_number property of workflow metadata.
-* **Output of service &gt; Save output as JSON:** Select the option to save the output values in a JSON file.
-* **Output JSON File Path:** Path to save the save the output JSON file. The path of the output JSON file can be relative to the payload or an absolute path.
+* **Output of service &gt; Map and write output values to metadata: **Select the option to save the output values as properties of the workflow instance metadata node in crx-repository. Specify the name of the metadata property and select the corresponding service output attribute to be mapped with metadata property, for example, map the phone_number returned by output service with the phone_number property of workflow metadata.
+* **Output of service &gt; Save output as JSON: **Select the option to save the output values in a JSON file.
+* **Output JSON File Path: **Path to save the save the output JSON file. The path of the output JSON file can be relative to the payload or an absolute path.
 
 ## Sign Document step {#sign-document-step}
 
@@ -216,17 +219,17 @@ The Sign Document step enables you to use Adobe Sign to sign documents. The Sign
 * **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](../../forms/using/adobe-sign-integration-adaptive-forms.md). 
 
 * **Document to be Signed:** You can choose a document from a location relative to the payload, use payload as the document, or specify an absolute path of the document.
-* **Days Until Deadline:** A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field.** **The number of days are counted after the documented is assigned to a user for signing.
+* **Days Until Deadline: **A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field.** **The number of days are counted after the documented is assigned to a user for signing.
 
-* **Reminder Email Frequency:** You can send a reminder email at daily or weekly interval. The week is counted from the day the documented is assigned to a user for signing.
+* **Reminder Email Frequency: **You can send a reminder email at daily or weekly interval. The week is counted from the day the documented is assigned to a user for signing.
 * **Signature Process:** You can choose to sign a document in a sequential or a parallel order. In sequential order, one signer receives the document at a time for signing. After the first signer completes signing the document, then the document is sent to the second signer, and so on. In parallel order, multiple signers can sign a document at a time.  
 
 * **Redirection URL:** Specify a redirection URL. After the document is signed, you can redirect the assignee to a URL. Usually, this URL contains a thank you message or further instructions.
-* **Workflow Stage:** A workflow can have multiple stages. These stages are displayed in the AEM Inbox. You can define these stages in the properties of the model (Sidekick &gt; Page &gt; Page Properties &gt; Stages).
-* **Select Signers:** Specify the method to choose signers for the document. You can dynamically assign the workflow to a user or a group or manually add details of a signer.
+* **Workflow Stage: **A workflow can have multiple stages. These stages are displayed in the AEM Inbox. You can define these stages in the properties of the model (Sidekick &gt; Page &gt; Page Properties &gt; Stages).
+* **Select Signers: **Specify the method to choose signers for the document. You can dynamically assign the workflow to a user or a group or manually add details of a signer.
 * **Script or service to select signers:** The option is available only if the Dynamically option is selected in the Select Signers field. You can specify an ECMAScript or a service to choose signers and verification options for a document.  
 
-* **Signer Details:** The option is available only if the Manually option is selected in the Select Signers field. Specify email address and choose an optional verification mechanism. Before selecting a 2-step verification mechanism, ensure that the corresponding verification option is enabled for the configured Adobe Sign account.
+* **Signer Details: **The option is available only if the Manually option is selected in the Select Signers field. Specify email address and choose an optional verification mechanism. Before selecting a 2-step verification mechanism, ensure that the corresponding verification option is enabled for the configured Adobe Sign account.
 * **Status Variable:** An Adobe Sign enabled document stores signing status of the document in a variable. Specify the name of the status variable (adobeSignStatus). A status variable of an instance is available in CRXDE at /etc/workflow/instances/&lt;server&gt;/&lt;date-time&gt;/&lt;instance of workflow model&gt;/workItems/&lt;node&gt;/metaData contains status of a variable.
 * **Signed Document Path:** Specify the location to keep signed documents. You can choose to overwrite the payload file or place the signed document at a location within the payload directory.
 

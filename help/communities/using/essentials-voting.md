@@ -3,12 +3,15 @@ title: Voting Essentials
 seo-title: Voting Essentials
 description: Voting component overview
 seo-description: Voting component overview
-uuid: 37162d84-df95-4f20-91d8-489c32b4b1e4
+uuid: ed0a771d-1c14-4fbf-ab6a-a028e5ee2e2a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 865e781d-f671-4f2f-9d30-00526cdc694a
+discoiquuid: 1a947a06-6a5c-4be9-b2fa-e5fa809ff3b8
+index: y
+internal: n
+snippet: y
 ---
 
 # Voting Essentials{#voting-essentials}

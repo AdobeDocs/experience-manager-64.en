@@ -3,11 +3,14 @@ title: Assets Repository Restructuring in AEM 6.4
 seo-title: Assets Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Assets.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Assets.
-uuid: 39684d34-2382-47fc-b483-bff2a69f15b7
+uuid: 0e3d8163-6274-4d1b-91c7-32ca927fb83c
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: 01ca1d80-1395-4b8d-89a2-0b45ef488e61
+discoiquuid: 212930fc-3430-4a0a-842c-2fb613ef981f
+index: y
+internal: n
+snippet: y
 ---
 
 # Assets Repository Restructuring in AEM 6.4{#assets-repository-restructuring-in-aem}

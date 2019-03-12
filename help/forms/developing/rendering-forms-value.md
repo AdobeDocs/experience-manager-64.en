@@ -3,13 +3,16 @@ title: Rendering Forms By Value
 seo-title: Rendering Forms By Value
 description: null
 seo-description: null
-uuid: de180532-a309-4549-834d-c49d52279738
+uuid: b932cc54-662f-40ae-94e0-20ac82845f3b
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 1d7c65a0-85e6-4ab6-bd37-8612df28f556
+discoiquuid: ddbb2b82-4c57-4845-a5be-2435902d312b
+index: y
+internal: n
+snippet: y
 ---
 
 # Rendering Forms By Value{#rendering-forms-by-value}

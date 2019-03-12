@@ -3,12 +3,15 @@ title: Reports Console
 seo-title: Reports Console
 description: Learn how to access reports
 seo-description: Learn how to access reports
-uuid: 52c59c92-a017-4906-80ce-2c135ae90028
+uuid: 580f5eb8-24b2-4404-90d4-81f7108d1ee6
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 2be84127-52a2-4826-949c-2a0404fe8ad2
+discoiquuid: 0042893e-3d2c-469e-8759-404be16e7436
+index: y
+internal: n
+snippet: y
 ---
 
 # Reports Console{#reports-console}
@@ -32,7 +35,7 @@ Tabular reports can be exported in .csv format for subsequent processing.
 
 ### Reports for Community Sites {#reports-for-community-sites}
 
-* from global navigation :** Navigation**, **Communities, Reports**
+* from global navigation : **Navigation**, **Communities, Reports**
 
 * choose from
 
@@ -52,7 +55,7 @@ Tabular reports can be exported in .csv format for subsequent processing.
 
 ### Reports for Enablement Resources and Learning Paths {#reports-for-enablement-resources-and-learning-paths}
 
-* from global navigation :** Navigation**, **Communities, Resources**
+* from global navigation : **Navigation**, **Communities, Resources**
 
 * select an existing enablement community site
 

@@ -3,13 +3,16 @@ title: Single Sign On
 seo-title: Single Sign On
 description: Learn how to configure Single Sign On (SSO) for an AEM instance.
 seo-description: Learn how to configure Single Sign On (SSO) for an AEM instance.
-uuid: 2cb0bc0e-ccd1-4549-b71c-687c741ea915
+uuid: b8dcb28e-4604-4da5-b8dd-4e1e2cbdda18
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 topic-tags: Security
-discoiquuid: da93803c-d9d8-4b00-b9a3-69fda8c68e37
+discoiquuid: 86e8dc12-608d-4aff-ba7a-5524f6b4eb0d
+index: y
+internal: n
+snippet: y
 ---
 
 # Single Sign On{#single-sign-on}
@@ -58,7 +61,7 @@ To configure SSO for a AEM instance, you need to configure the [SSO Authenticati
 
     * **Path:** as required; for example, `/`
     
-    * **Header Names:** SM_USER
+    * **Header Names: **SM_USER
     * **ID Format**: AsIs
 
 1. Confirm that Single Sign On is working as required; including authorization.

@@ -3,12 +3,15 @@ title: Interactive Communications Overview
 seo-title: Interactive Communications Overview
 description: This article includes overview, sample use cases, creation workflow, and differences between Interactive Communication and letter.
 seo-description: Interactive Communication key capabilities, sample use cases, creation workflow, and differences between Interactive Communication and Correspondence Management
-uuid: c9556a79-c394-4220-b1e1-90d85d9c656f
+uuid: a06b4ac7-ca20-4d6d-b2b7-87b21e2f5cf9
 contentOwner: gtalwar
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: cf8e81e8-7a42-4c52-b1e5-03c9bae29c3a
+discoiquuid: 67b03098-c58d-4a57-90e0-e4ddd78e5d99
+index: y
+internal: n
+snippet: y
 ---
 
 # Interactive Communications Overview{#interactive-communications-overview}

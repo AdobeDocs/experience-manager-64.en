@@ -3,12 +3,15 @@ title: Create An SCF Sandbox
 seo-title: Create An SCF Sandbox
 description: This tutorial is primarily for developers, new to AEM, who are interested in using SCF components.  It walks through the creation of An SCF Sandbox site
 seo-description: This tutorial is primarily for developers, new to AEM, who are interested in using SCF components.  It walks through the creation of An SCF Sandbox site
-uuid: 3fe85c23-68a9-403e-b012-0bfe226528d5
+uuid: ee52e670-e1e6-4bcd-9548-c963142e6704
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: d4fdf36f-92dd-403d-98b2-415e10c15be6
+discoiquuid: e1b5c25d-cbdd-421c-b81a-feb6039610a3
+index: y
+internal: n
+snippet: y
 ---
 
 # Create An SCF Sandbox{#create-an-scf-sandbox}

@@ -3,9 +3,12 @@ title: Use metadata in an email notification
 seo-title: Use metadata in an email notification 
 description: Use metadata to populate information in a forms workflow email notification
 seo-description: Use metadata to populate information in a forms workflow email notification
-uuid: aa69495c-782d-49e1-a969-8ce55e6dd2f6
+uuid: 17e018c9-6bf8-4042-bba9-4ebe449304ac
 topic-tags: publish
-discoiquuid: afd4bde7-7a2b-49af-bc38-dd26d7df2945
+discoiquuid: bdf13893-630a-43cd-aaeb-c7c16bf4f8a6
+index: y
+internal: n
+snippet: y
 ---
 
 # Use metadata in an email notification {#use-metadata-in-an-email-notification}

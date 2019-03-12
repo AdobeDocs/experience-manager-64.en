@@ -4,12 +4,15 @@ seo-title: Annotations when Editing a Page
 description: Adding content to the pages of your website is often subject to discussions prior to it actually being published. To aid this, many components directly related to content allow you to add an annotation.
 seo-description: Adding content to the pages of your website is often subject to discussions prior to it actually being published. To aid this, many components directly related to content allow you to add an annotation.
 page-status-flag: de-activated
-uuid: d2c608c4-5354-435d-9dc7-8aa3815afdff
+uuid: d8d6ba76-f2aa-4044-98bf-5d506742d90d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 2c9b1319-27e8-46b9-b2ad-290320aebf3d
+discoiquuid: 9bee0197-f275-49cc-922d-62cba826c4e5
+index: y
+internal: n
+snippet: y
 ---
 
 # Annotations when Editing a Page{#annotations-when-editing-a-page}

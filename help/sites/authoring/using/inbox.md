@@ -3,12 +3,15 @@ title: Your Inbox
 seo-title: Your Inbox
 description: Managing your tasks with the inbox
 seo-description: Managing your tasks with the inbox
-uuid: a99bd1cc-922c-48ef-a1a2-ca5294d3117c
+uuid: ddd48019-ce69-4a47-be2b-5b66ae2fe3c8
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 3bd5e576-7c8c-4958-b3d2-1061b2c699e3
+discoiquuid: 8b607b55-2412-469f-856b-0a3dea4b0efb
+index: y
+internal: n
+snippet: y
 ---
 
 # Your Inbox{#your-inbox}
@@ -156,7 +159,7 @@ For both views (List and Calendar) you can define settings:
    >
    >    
    >    
-   >* Workflow items - [Participating in Workflows](../../../sites/authoring/using/workflows-participating.md)
+   >    * Workflow items - [Participating in Workflows](../../../sites/authoring/using/workflows-participating.md)
    >    
    >
 

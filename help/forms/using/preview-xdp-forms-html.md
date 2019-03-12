@@ -3,10 +3,13 @@ title: Generate HTML5 preview of an XDP form
 seo-title: Generate HTML5 preview of an XDP form
 description: Preview HTML tab in LiveCycle Designer can be used to preview forms as they appear in a browser.
 seo-description: Preview HTML tab in LiveCycle Designer can be used to preview forms as they appear in a browser.
-uuid: 750eff38-f1f2-49a1-b175-b390651596c0
+uuid: d004e75d-e569-4e85-8dfa-5c411bc959af
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: f4d6d8ce-930a-4b5c-bb07-ae607dce12fc
+discoiquuid: c142d7b3-301b-447c-a715-452c905565d1
+index: y
+internal: n
+snippet: y
 ---
 
 # Generate HTML5 preview of an XDP form{#generate-html-preview-of-an-xdp-form}
@@ -66,7 +69,7 @@ The [protected mode](../../forms/using/get-xdp-pdf-documents-aem.md) is on, by d
     * **Server URL**: AEM Forms server URL.  
     
     * **HTTP port number**: AEM server port. The default value is 4502.
-    * **HTML Preview Context:** Path of the profile for rendering XFA forms. The following default profiles are used to preview the form in Designer. However, you can also specify path to a custom profile.
+    * **HTML Preview Context: **Path of the profile for rendering XFA forms. The following default profiles are used to preview the form in Designer. However, you can also specify path to a custom profile.
 
         * `/content/xfaforms/profiles/default.html` (AEM Forms on OSGi)  
         
@@ -77,7 +80,7 @@ The [protected mode](../../forms/using/get-xdp-pdf-documents-aem.md) is on, by d
         * `/aem/forms` (AEM Forms on OSGi)
         * `/lc/forms` (AEM Forms on JEE)
 
-   **Note:** *Ensure that AEM Forms server is up and running. The HTML preview connects to the CRX server to *generate* a preview.*
+   **Note: ***Ensure that AEM Forms server is up and running. The HTML preview connects to the CRX server to *generate* a preview.*
 
    ![AEM Forms Designer options ](assets/server_options.png)
 

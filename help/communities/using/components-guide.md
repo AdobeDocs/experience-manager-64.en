@@ -3,12 +3,15 @@ title: Community Components Guide
 seo-title: Community Components Guide
 description: An interactive development tool to get started with the social component framework (SCF)
 seo-description: An interactive development tool to get started with the social component framework (SCF)
-uuid: 655d3f9c-26c8-4321-8e96-1238d5c717c6
+uuid: 120e56d1-b93c-4f92-bab4-6bb5e40e0ddf
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: abd60f5e-0d8f-436e-9900-167fdf02b2a0
+discoiquuid: a777a3f1-b39f-4d90-b9b6-02d3e321a86f
+index: y
+internal: n
+snippet: y
 ---
 
 # Community Components Guide{#community-components-guide}

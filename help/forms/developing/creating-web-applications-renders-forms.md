@@ -3,13 +3,16 @@ title: Creating Web Applications thatRenders Forms
 seo-title: Creating Web Applications thatRenders Forms
 description: null
 seo-description: null
-uuid: a201688a-cfbc-4d0b-b50b-61bdc7abf906
+uuid: 00de10c5-79bd-4d8a-ae18-32f1fd2623bf
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: b7b17868-c3f2-43b5-a803-d5f8a1857200
+discoiquuid: f29b089e-8902-4744-81c5-15ee41ba8069
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Web Applications thatRenders Forms{#creating-web-applications-thatrenders-forms}
@@ -90,8 +93,8 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **To create a web project:**
 
-1. Start Eclipse and click **File** &gt; **New Project**.
-1. In the **New Project** dialog box, select **Web** &gt; Dynamic Web Project**.
+1. Start Eclipse and click **File **&gt; **New****Project**.
+1. In the **New Project** dialog box, select **Web **&gt;** Dynamic Web Project**.
 1. Type `FragmentsWebApplication` for the name of your project and then click **Finish**.
 
 **To add required JAR files to your project:**
@@ -104,13 +107,13 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New **&gt; **Other**. 
 1. Expand the **Web** folder, select **Servlet**, and then click **Next**. 
-1. In the Create Servlet dialog box, type `RenderFormFragment` for the name of the servlet and then click **Finish**.
+1. In the Create Servlet dialog box, type `RenderFormFragment`****for the name of the servlet and then click **Finish**.
 
 **To add an HTML page to your project:**
 
 1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New** &gt; **Other**. 
 1. Expand the **Web** folder, select **HTML**, and click **Next**. 
-1. In the **New HTML** dialog box, type `index.html` for the file name and then click **Finish**.
+1. In the New HTML****dialog box, type `index.html` for the file name and then click **Finish**.
 
 >[!NOTE]
 >

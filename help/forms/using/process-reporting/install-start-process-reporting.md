@@ -3,11 +3,14 @@ title: Getting Started with Process Reporting
 seo-title: Getting Started with Process Reporting
 description: The steps you need to follow to get started with AEM Forms on JEE Process Reporting
 seo-description: The steps you need to follow to get started with AEM Forms on JEE Process Reporting
-uuid: b44a08ec-e8f7-4823-8a67-bb9d0f10dd11
+uuid: 86ba17da-57e5-4e7a-a864-583d8c0f830e
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
-discoiquuid: bbed8135-2ac7-4cd5-888b-ce9a518e7321
+discoiquuid: a0f81621-6ccd-46e2-85d7-2eb4ee3cdb91
+index: y
+internal: n
+snippet: y
 ---
 
 # Getting Started with Process Reporting{#getting-started-with-process-reporting}
@@ -75,7 +78,7 @@ Perform the following steps to change the publishing schedule:
 
     * `-Dreporting.publisher.cron = 0_0_0/5_*_*_?`
 
-1. Click **Apply**, click OK, and then click **Save directly to the master configuration**.  
+1. Click **Apply**, click OK, and**** then click **Save directly to the master configuration**.  
 
 1. Restart the AEM Forms server instance.
 

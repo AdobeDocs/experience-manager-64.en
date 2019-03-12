@@ -3,12 +3,15 @@ title: AEM Mobile content personalization
 seo-title: AEM Mobile content personalization
 description: Follow this page to learn about AEM Mobile content personalization feature that allows AEM authors to personalize mobile app content by leveraging Adobe Target. 
 seo-description: Follow this page to learn about AEM Mobile content personalization feature that allows AEM authors to personalize mobile app content by leveraging Adobe Target. 
-uuid: f211c2d8-0dfb-4170-84c3-aed5e9865819
+uuid: 9078edd1-8399-485f-8a63-a07e766f7ef9
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 9bc4adaa-4f88-47d7-8e92-5f24ef461cea
+discoiquuid: c9c818dc-c5c4-4a96-94fe-9dc9fe75705b
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Mobile content personalization{#aem-mobile-content-personalization}

@@ -3,12 +3,15 @@ title: Communities User Synchronization
 seo-title: Communities User Synchronization
 description: How user synchronization works
 seo-description: How user synchronization works
-uuid: df0bb0fe-2632-41d2-b184-fcd03736d284
+uuid: 5b9bb7b6-9238-41f6-81da-84b9a303b9e2
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: ca56c585-328e-49e1-bc9f-570e94f5e6df
+discoiquuid: 32b56b48-75cb-4cc9-a077-10e335f01a35
+index: y
+internal: n
+snippet: y
 ---
 
 # Communities User Synchronization{#communities-user-synchronization}

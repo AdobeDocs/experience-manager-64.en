@@ -3,12 +3,15 @@ title: Managing tasks in an organizational hierarchy using Manager View
 seo-title: Managing tasks in an organizational hierarchy using Manager View
 description: How managers and organization heads can access and work on the tasks of their direct and indirect reports in the To-do tab in AEM Forms workspace.
 seo-description: How managers and organization heads can access and work on the tasks of their direct and indirect reports in the To-do tab in AEM Forms workspace.
-uuid: f3fb2b96-0bac-410e-90b3-f305801dbb19
+uuid: a44d5a64-c03a-4337-8577-b121e6202449
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 7bf8222e-713d-49fc-893c-75d70aac5183
+discoiquuid: c7cf28bf-2806-47bc-a803-8bc0e803fc4d
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing tasks in an organizational hierarchy using Manager View{#managing-tasks-in-an-organizational-hierarchy-using-manager-view}

@@ -3,12 +3,15 @@ title: Creating and Managing a Live Copy
 seo-title: Managing LiveCopy
 description: This page describes creating and managing Live Copies of channels.
 seo-description: Follow this page to create live copy of a channel, view properties, check status, and propagate changes from a channel to its live copy.
-uuid: 9545c06f-b55e-4da7-89ce-981be151d875
+uuid: 78ec7219-95ab-44d1-9514-1b97aded5bf4
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: a1c6ce08-fc6f-42bf-a39d-c1468f0ec828
+discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and Managing a Live Copy{#creating-and-managing-a-live-copy}

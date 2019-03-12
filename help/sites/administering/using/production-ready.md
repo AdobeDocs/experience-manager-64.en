@@ -3,12 +3,15 @@ title: Running AEM in Production Ready Mode
 seo-title: Running AEM in Production Ready Mode
 description: Learn how to run AEM in Production Ready Mode.
 seo-description: Learn how to run AEM in Production Ready Mode.
-uuid: 5b4b8d27-dc24-4634-a49e-111f9ddc3224
+uuid: f48c8bae-c72f-4772-967e-f1526f096399
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 8fc64d14-cb3e-4c9d-904a-1156312f3925
+discoiquuid: 32da99f0-f058-40ae-95a8-2522622438ce
+index: y
+internal: n
+snippet: y
 ---
 
 # Running AEM in Production Ready Mode{#running-aem-in-production-ready-mode}

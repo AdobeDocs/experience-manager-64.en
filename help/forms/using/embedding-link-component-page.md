@@ -3,11 +3,14 @@ title: Embedding link component in a page
 seo-title: Embedding link component in a page
 description: You can use the link component to link an adaptive document or an adaptive form from any page.  
 seo-description: You can use the link component to link an adaptive document or an adaptive form from any page.  
-uuid: 9cb932ca-fa94-4d33-934e-6619ae48c841
+uuid: fde56b5f-634c-406f-a026-875f972f7c8f
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 79d1c352-9834-4f74-a6c8-e3e0e3e7b46f
+discoiquuid: a4a36e73-3f7a-4173-8807-931f26daa35a
+index: y
+internal: n
+snippet: y
 ---
 
 # Embedding link component in a page{#embedding-link-component-in-a-page}
@@ -37,7 +40,7 @@ Perform the following steps to add a Link component to the page:
     * **Asset Path**: Repository path where the asset is stored.  
     
     * **Render Type**: The render format--PDF, HTML, or Auto. The Auto render type detects the user environment and accordingly renders the form as HTML or as PDF. For example, if the form is accessed from a mobile device, the Auto render type render the form in HTML.
-    * **Submit URL:**  URL to the servlet where the form data is submitted.
+    * **Submit URL: ** URL to the servlet where the form data is submitted.
     * **HTML Profile**: Profile for rendering the form as HTML.
     * **PDF Profile**: Profile for rendering the form as PDF document.
 

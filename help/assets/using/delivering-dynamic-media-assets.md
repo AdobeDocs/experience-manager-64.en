@@ -3,12 +3,15 @@ title: Delivering Dynamic Media Assets
 seo-title: Delivering Dynamic Media Assets
 description: Learn how to deliver dynamic media assets
 seo-description: Learn how to deliver dynamic media assets
-uuid: 09093558-c409-47b4-a767-e689d6f914a1
+uuid: e87754a9-4c34-4658-9971-cd7ceb26523f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 4fabbbed-b203-4b20-853b-d9a9c6ea3560
+discoiquuid: ec394bd3-2fa6-4f50-b974-bc10f643ecac
+index: y
+internal: n
+snippet: y
 ---
 
 # Delivering Dynamic Media Assets{#delivering-dynamic-media-assets}
@@ -40,7 +43,7 @@ For more information, see the following topics:
 * I [nvalidating your CDN cached content](../../assets/using/invalidate-cdn-cached-content.md)
 * [Using Rulesets to Transform URLs](../../assets/using/using-rulesets-to-transform-urls.md)
 
-## HTTP/2 delivery of Dynamic Media assets {#http-delivery-of-dynamic-media-assets}
+### HTTP/2 delivery of Dynamic Media assets {#http-delivery-of-dynamic-media-assets}
 
 AEM now supports the delivery of all Dynamic Media content (images and video) over HTTP/2. That is, a published URL or embed code for the image or video is available to be integrated with any application that accepts a hosted asset. That published asset is then delivered by way of HTTP/2 protocol. This method of delivery improves the way browsers and servers communicate, allowing for better response and load times of all your Dynamic Media assets.
 

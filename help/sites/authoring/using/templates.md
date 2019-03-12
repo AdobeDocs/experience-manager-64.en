@@ -3,12 +3,15 @@ title: Creating Page Templates
 seo-title: Creating Page Templates
 description: The template defines the structure of the resultant page and with the template editor, creating and maintaining templates is no longer a developer-only task
 seo-description: The template defines the structure of the resultant page and with the template editor, creating and maintaining templates is no longer a developer-only task
-uuid: 9886d4d6-f1ed-4ab3-9897-1d8e81585d54
+uuid: ffdc760d-9504-4d13-9f74-a58499632b78
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 9b24bd6f-dade-4bc7-8ac3-44e7112ab39a
+discoiquuid: 5a96c306-790a-4721-a146-86fbceb376db
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Page Templates{#creating-page-templates}

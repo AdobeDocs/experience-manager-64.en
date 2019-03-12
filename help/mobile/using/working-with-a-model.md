@@ -3,12 +3,15 @@ title: Working with Models
 seo-title: Working with Models
 description: null
 seo-description: null
-uuid: f1508146-595d-4456-b41b-fc763aa33d2e
+uuid: e593b5cf-5b28-4910-b9e3-ebed2381f6d7
 contentOwner: Jyotika Syal
 content-type: reference
-discoiquuid: c3a9b3ad-9ae2-4eff-ab81-65bc8945d282
+discoiquuid: 2d956042-56d4-4f84-a0e3-e72ce204340a
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/administer-mobile-apps
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Models{#working-with-models}
@@ -42,7 +45,7 @@ Once you have defined the configurations in the Configuration Browser, you can c
    ![](assets/chlimage_1.png)
 
 1. Click **Create** to create a new model.
-1. Choose the type of template:** Entity Group** or **Primitives Types Model**. Click **Next**.
+1. Choose the type of template: **Entity Group** or **Primitives Types Model**. Click **Next**.
 
    ![](assets/chlimage_1-1.png)
 

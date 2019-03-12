@@ -3,15 +3,18 @@ title: Associated Content
 seo-title: Associated Content
 description: Associated content provides the connection so that assets can be (optionally) used with the fragment when it is added to a content page.
 seo-description: Associated content provides the connection so that assets can be (optionally) used with the fragment when it is added to a content page.
-uuid: 75823b63-3ecf-47d8-9097-46b3767357db
+uuid: 1bc1eefa-7a7c-43be-a8a8-0d153d60c5c4
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 0ea1342c-ee7e-49a8-8c8b-4dde552a9be6
+discoiquuid: 09536869-3806-4b89-adfd-68f408298c55
+index: y
+internal: n
+snippet: y
 ---
 
-# Associated Content {#associated-content}
+# Associated Content{#associated-content}
 
 >[!CAUTION]
 >
@@ -19,7 +22,7 @@ discoiquuid: 0ea1342c-ee7e-49a8-8c8b-4dde552a9be6
 
 Associated content provides the connection so that assets (i.e.) can be (optionally) used with the fragment when it is added to a content page. This provides flexibility by [providing a range of assets to access when using the content fragment on a page](../../sites/authoring/using/content-fragments.md#using-associated-content), while also helping to reduce the time required to search for the appropriate asset.
 
-## Adding Associated Content {#adding-associated-content}
+### Adding Associated Content {#adding-associated-content}
 
 >[!NOTE]
 >
@@ -42,7 +45,7 @@ To make the association you first need to [add your media asset(s) to a collecti
 
    ![](assets/cfm-6420-05.png)
 
-## Editing Associated Content {#editing-associated-content}
+### Editing Associated Content {#editing-associated-content}
 
 Once you have associated a collection you can:
 

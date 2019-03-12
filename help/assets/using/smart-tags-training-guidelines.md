@@ -3,9 +3,12 @@ title: Smart Content Service Training Guidelines
 seo-title: Smart Content Service Training Guidelines
 description: null
 seo-description: null
-uuid: e6d27249-379a-482f-8e5a-754cae491048
+uuid: 1c011496-be6e-470b-9da8-48db8c6d1108
 contentOwner: cmajumda
-discoiquuid: 15f7b347-b577-4ab7-bc14-a801c62fa77e
+discoiquuid: a5aab094-8b2d-4a23-890f-be6f9e5137bd
+index: y
+internal: n
+snippet: y
 ---
 
 # Smart Content Service Training Guidelines{#smart-content-service-training-guidelines}
@@ -16,7 +19,7 @@ To be able to effectively tag your brand images, the Smart Content Service requi
 
 For best results, images in your training set should conform to the following guidelines:
 
-**Quantity and size:** Minimum **30 images per tag**. Minimum of 500 pixels on the longer side.
+**Quantity and size: **Minimum **30 images per tag**. Minimum of 500 pixels on the longer side.
 
 **Coherence**: Images for a tag should be visually similar.
 
@@ -36,7 +39,7 @@ For example, for the tag *casual-shoe*, the second image is not a good training 
 
 ![Illustrative images to exemplify the guidelines for training](do-not-localize/distraction.png)
 
-**Completeness:** If an image qualifies for more than one tag, add all applicable tags before including the image for training. For example, for tags, such as *raincoat* and *model-side-view*, add both the tags on the eligible asset before including it for training.
+**Completeness: **If an image qualifies for more than one tag, add all applicable tags before including the image for training. For example, for tags, such as *raincoat* and *model-side-view*, add both the tags on the eligible asset before including it for training.
 
 ![Illustrative images to exemplify the guidelines for training](do-not-localize/completeness.png)
 

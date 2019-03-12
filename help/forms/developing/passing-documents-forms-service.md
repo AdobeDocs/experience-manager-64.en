@@ -3,13 +3,16 @@ title: Passing Documents to the FormsService
 seo-title: Passing Documents to the FormsService
 description: null
 seo-description: null
-uuid: a835d5db-9e8c-46b8-bb3f-fd435a286410
+uuid: 841e97f3-ebb8-4340-81a9-b6db11f0ec82
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 7df5c9e5-f6b2-4fa9-9c7e-d9a728134dc2
+discoiquuid: e23de3c3-f8a0-459f-801e-a0942fb1c6aa
+index: y
+internal: n
+snippet: y
 ---
 
 # Passing Documents to the FormsService{#passing-documents-to-the-formsservice}

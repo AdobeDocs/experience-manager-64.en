@@ -3,12 +3,15 @@ title: Mapping Component Data with Adobe Analytics Properties
 seo-title: Mapping Component Data with Adobe Analytics Properties
 description: Learn how to map component data with SiteCatalyst properties.
 seo-description: Learn how to map component data with SiteCatalyst properties.
-uuid: 2794754d-1796-44e4-8d9b-fee6eadffb38
+uuid: accdb0e8-957c-4617-9a8d-eccc24ac436e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 549c4106-e311-46b5-8485-e3c1581d0362
+discoiquuid: 2a9be3b7-b325-4d74-a5bc-8d24db491920
+index: y
+internal: n
+snippet: y
 ---
 
 # Mapping Component Data with Adobe Analytics Properties{#mapping-component-data-with-adobe-analytics-properties}
@@ -36,7 +39,7 @@ Use the following procedure to map CQ component variables with Adobe Analytics r
 
    ![](assets/aa-13.png)
 
-   There are several default component groups:** General**, **Commerce**, **Communities**, **Search&Promote**, and **Other**. Your AEM instance may be configured to display different groups and components.
+   There are several default component groups: **General**, **Commerce**, **Communities**, **Search&Promote**, and **Other**. Your AEM instance may be configured to display different groups and components.
 
 1. To map Adobe Analytics variables with variables that are defined in the component, drag an **Analytics variable** from the content finder onto a field on the tracking component. For example, drag `Page Name (pageName)` to `pagedata.title`.
 
@@ -58,9 +61,9 @@ Use the following procedure to map CQ component variables with Adobe Analytics r
    >
    >    
    >    
-   >* `eVars` and `props` are mapped to CQ variables beginning with either** ** `pagedata.X`** **or `eventdata.X`   
+   >    * `eVars` and `props` are mapped to CQ variables beginning with either** ** `pagedata.X`** **or `eventdata.X`   
    >    
-   >* whereas events should be mapped to variables starting with `eventdata.events.X`
+   >    * whereas events should be mapped to variables starting with `eventdata.events.X`
    >    
    >
 

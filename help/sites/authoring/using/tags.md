@@ -3,12 +3,15 @@ title: Using Tags
 seo-title: Using Tags
 description: Tags are a quick and easy method of classifying content within a website
 seo-description: Tags are a quick and easy method of classifying content within a website
-uuid: e9a7fc75-d82f-4a7d-8909-71762dabd072
+uuid: a91f8724-fc35-4f40-b21c-bee90429765b
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 94ebd827-72d5-45e2-8f13-f5762c4e58b2
+discoiquuid: d0b0e47b-e68d-407d-9d06-deca2039dede
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Tags{#using-tags}

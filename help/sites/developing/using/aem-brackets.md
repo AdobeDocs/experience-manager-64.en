@@ -3,12 +3,15 @@ title: AEM Brackets Extension
 seo-title: AEM Brackets Extension
 description: null
 seo-description: null
-uuid: ff09365e-2259-44d7-82ef-9f31dd6ceb01
+uuid: 2f0dfa42-eb34-44ae-90eb-b5f321c03b79
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 28721b42-72f5-48fd-8cde-bcc4126f2960
+discoiquuid: 8231a30a-dcb7-4156-bb45-c5a23e5b56ef
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Brackets Extension{#aem-brackets-extension}

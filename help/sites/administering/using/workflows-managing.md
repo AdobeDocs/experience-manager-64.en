@@ -3,12 +3,15 @@ title: Managing Access to Workflows
 seo-title: Managing Access to Workflows
 description: Learn how to manage access to Workflows.
 seo-description: Learn how to manage access to Workflows.
-uuid: 248c79f3-3cd6-42f7-806e-474c2841dd20
+uuid: 58f79b89-fe56-4565-a869-8179c1ac68de
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 57829246-5211-4177-a8bd-c4c35ca317d4
+discoiquuid: 5150867a-02a9-45c9-b2fd-e536b60ffa8c
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Access to Workflows{#managing-access-to-workflows}

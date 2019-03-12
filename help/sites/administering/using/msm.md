@@ -3,12 +3,15 @@ title: "Reusing Content: Multi Site Manager and Live Copy"
 seo-title: "Reusing Content: Multi Site Manager and Live Copy"
 description: Learn about reusing content with Live Copies and the Multi Site Manager.
 seo-description: Learn about reusing content with Live Copies and the Multi Site Manager.
-uuid: a0a08218-7eeb-45ef-9577-c5cb2dfc2764
+uuid: 9f955226-8fc9-4357-b90c-c6896b0dc4b4
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 9268b375-df12-4eec-9c6d-60e4d67bf756
+discoiquuid: c21debc3-ecf4-4aa9-ab5a-18ddd5cf2fff
+index: y
+internal: n
+snippet: y
 ---
 
 # Reusing Content: Multi Site Manager and Live Copy{#reusing-content-multi-site-manager-and-live-copy}
@@ -111,14 +114,14 @@ There are many use-cases for MSM and live copies, some scenerios include:
   >
   >    
   >    
-  >* How much of the core content will need updating over the multiple versions.
+  >    * How much of the core content will need updating over the multiple versions.
   >    
   >    
   >Against:
   >
   >    
   >    
-  >* How much of the individual copies will need to be adjusted.
+  >    * How much of the individual copies will need to be adjusted.
   >    
   >
 

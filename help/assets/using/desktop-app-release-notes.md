@@ -4,11 +4,14 @@ seo-title: AEM Desktop App Release Notes
 description: Release notes specific to Desktop App Adobe Experience Manager 6.3 Assets.
 seo-description: Release notes specific to Desktop App Adobe Experience Manager 6.3 Assets.
 page-status-flag: never-activated
-uuid: 93da676d-d1ba-4144-be83-bcdb48f73305
+uuid: 99f40c39-447d-4739-81d0-9fb36bcd85b1
 topic-tags: release-notes
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4
-discoiquuid: 942159a5-ab39-4969-99d8-7842fdc413c9
+discoiquuid: 518d7ad9-671b-4bb5-a4e5-4dce6bf1a226
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Desktop App Release Notes{#aem-desktop-app-release-notes}

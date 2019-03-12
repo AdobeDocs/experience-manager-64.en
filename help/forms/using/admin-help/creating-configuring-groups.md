@@ -3,12 +3,15 @@ title: Creating and configuring groups
 seo-title: Creating and configuring groups
 description: Learn how to create groups manually or dynamically, edit a group, view details about a group, or delete a group.
 seo-description: Learn how to create groups manually or dynamically, edit a group, view details about a group, or delete a group.
-uuid: 1e38a5f3-6f25-4715-a5fa-cd2eead7e861
+uuid: 8532d72b-270a-4fcf-b7a5-56fca979a5fe
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: dee0a947-53bb-4265-8d06-3879d6006c28
+discoiquuid: 2058b501-65ce-4ad3-8e1b-b2eab896f70f
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and configuring groups{#creating-and-configuring-groups}
@@ -86,13 +89,13 @@ A dynamic group contains only users. It cannot contain other groups. However, a 
    >
    >The Email, Description, and Canonical Name attributes are case-sensitive when using the Equals operator. They are not case-sensitive with the Starts With, Ends With, or Contains operators.
 
-   **Email:** User’s email domain, such as `@adobe.com`.
+   **Email: **User’s email domain, such as `@adobe.com`.
 
-   **Description:** User’s description, such as "Computer Scientist"
+   **Description: **User’s description, such as "Computer Scientist"
 
-   **Canonical Name:** User’s canonical name, such as `ou=adobe.com`
+   **Canonical Name: **User’s canonical name, such as `ou=adobe.com`
 
-   **Domain Name:** The name of the domain to which the user belongs, such as `DefaultDom`. The Domain Name attribute is case-sensitive when using the Contains operator. It is not case-sensitive with the Starts With, Ends With, or Equals operators. 
+   **Domain Name: **The name of the domain to which the user belongs, such as `DefaultDom`. The Domain Name attribute is case-sensitive when using the Contains operator. It is not case-sensitive with the Starts With, Ends With, or Equals operators. 
 
 1. Click Test. A Test page displays the first 200 users who meet the defined criteria. Click Close.
 1. If the test returned the expected results, click Next. Otherwise, edit the dynamic group criteria and test again.

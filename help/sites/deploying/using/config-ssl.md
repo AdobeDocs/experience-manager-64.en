@@ -3,13 +3,16 @@ title: Enabling HTTP Over SSL
 seo-title: Enabling HTTP Over SSL
 description: Learn how to enable and configure HTTP over SSL in AEM.
 seo-description: Learn how to enable and configure HTTP over SSL in AEM.
-uuid: a55f53f3-adf6-4758-8586-ba272cbfe0f5
+uuid: fef79655-a13d-4442-9815-5d9ac78bd9d1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: e6314fe9-518e-4cdc-aea7-0838fdbd8194
+discoiquuid: 2fe68f66-37a1-4de5-b635-cc3f774d5013
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/administering/using/ssl-by-default
+index: y
+internal: n
+snippet: y
 ---
 
 # Enabling HTTP Over SSL{#enabling-http-over-ssl}

@@ -3,10 +3,13 @@ title: Forms JEE workflows | Handling user data
 seo-title: Forms JEE workflows | Handling user data
 description: null
 seo-description: null
-uuid: 992d9865-9416-4210-8034-27af59cadb1f
+uuid: 3b06ef19-d3c4-411e-9530-2c5d2159b559
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 26b730d0-2013-470f-b8dc-6d282a95f976
+discoiquuid: 5632a8df-a827-4e38-beaa-18b61c2208a3
+index: y
+internal: n
+snippet: y
 ---
 
 # Forms JEE workflows | Handling user data{#forms-jee-workflows-handling-user-data}

@@ -3,12 +3,15 @@ title: User Interface Recommendations for Customers
 seo-title: User Interface Recommendations for Customers
 description: A list of recommendations related to the classic and touch-optimized user interfaces. 
 seo-description: A list of recommendations related to the classic and touch-optimized user interfaces. 
-uuid: 1edb7c28-86eb-4915-bec1-1798ca09347b
+uuid: c661fb10-4dbc-4f8b-93be-3e77af1ad095
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 0b444db5-dab9-41f0-afe9-ced000cb8548
+discoiquuid: 42bf42cb-0c6c-4390-8170-2c540c4d3ed3
+index: y
+internal: n
+snippet: y
 ---
 
 # User Interface Recommendations for Customers{#user-interface-recommendations-for-customers}

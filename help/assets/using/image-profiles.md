@@ -3,12 +3,15 @@ title: Image Profiles
 seo-title: Image Profiles
 description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 seo-description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
-uuid: ed86ff75-4788-4fcf-a1f8-23a4359c4ffb
+uuid: 9049fab9-d2be-4118-8684-ce58f3c8c16a
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: cb0a1312-95cc-4b95-aa4f-e1279a6a0879
+discoiquuid: 4f9301db-edf8-480b-886c-b5e8fca5bf5c
+index: y
+internal: n
+snippet: y
 ---
 
 # Image Profiles{#image-profiles}
@@ -19,11 +22,11 @@ When uploading images, you can automatically crop the image upon upload by apply
 >
 >Smart Crop is available only in Dynamic Media - Scene7 mode.
 
-## Crop Options {#crop-options}
+### Crop Options {#crop-options}
 
 You have two image cropping options to choose from and an option for automating the creation of color and image swatches.
 
-<table> 
+<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
    <td><strong>Option</strong></td> 
@@ -60,7 +63,7 @@ You have two image cropping options to choose from and an option for automating 
  </tbody> 
 </table>
 
-## Unsharp Mask {#unsharp-mask}
+### Unsharp Mask {#unsharp-mask}
 
 You use** Unsharp mask** to fine-tune a sharpening filter effect on the final downsampled image. You can control intensity of effect, radius of the effect (measured in pixels), and a threshold of contrast that will be ignored. This effect uses the same options as Adobe Photoshop’s “Unsharp Mask” filter.
 
@@ -165,7 +168,7 @@ To apply a profile globally, do one of the following:
 
   ![](assets/chlimage_1-257.png)
 
-* Navigate to CRXDE Lite to the following node:** /content/dam/jcr:content.**
+* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content.**
 
   Add the property** imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/&lt;name of image profile&gt; **and tap **Save All**. 
 
@@ -250,7 +253,7 @@ When you remove an image profile from a folder, any subfolders automatically inh
 
 You can remove an image profile from a folder from within the **Tools** menu or if you are in the folder, from **Properties**. This section describes how to remove image profiles from folders both ways.
 
-### Removing image profiles from folders via Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
+#### Removing image profiles from folders via Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
 
 1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Image Profiles.**
 1. Select the image profile that you want to remove from a folder or multiple folders.
@@ -258,7 +261,7 @@ You can remove an image profile from a folder from within the **Tools** menu or 
 
    You can confirm that the image profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-### Removing image profiles from folders via Properties {#removing-image-profiles-from-folders-via-properties}
+#### Removing image profiles from folders via Properties {#removing-image-profiles-from-folders-via-properties}
 
 1. Tap or click the AEM logo and navigate **Assets **and then to the folder that you want to remove an image profile from.
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.

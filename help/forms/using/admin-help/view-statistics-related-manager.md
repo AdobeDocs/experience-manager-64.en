@@ -3,12 +3,15 @@ title: View statistics related to Work Manager
 seo-title: View statistics related to Work Manager
 description: The Work Manager tab displays statistics that relate to Work Manager items. Learn how you can view and filter the work items.
 seo-description: The Work Manager tab displays statistics that relate to Work Manager items. Learn how you can view and filter the work items.
-uuid: b6f3cc49-b95e-4562-9cef-51d8a206a313
+uuid: c3a575c7-773d-477a-bc75-6cbcf8b836b8
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: dd2958c1-d162-4c5b-ac6c-1d073e43e476
+discoiquuid: 8e1b2f7c-2609-474b-a1b2-fa820df74ae3
+index: y
+internal: n
+snippet: y
 ---
 
 # View statistics related to Work Manager{#view-statistics-related-to-work-manager}
@@ -104,11 +107,11 @@ When you click More Info, the Operation Details dialog box displays a list of th
 
    **Delete Items:** Deletes the selected work item or job.
 
-   **Pause Items:** Pauses the selected work item or job.
+   **Pause Items: **Pauses the selected work item or job.
 
    **Resume Items:** Resumes the selected work item or job from its paused state.
 
-   **Retry Items:** Attempts to rerun the selected work item or job from its current state.
+   **Retry Items: **Attempts to rerun the selected work item or job from its current state.
 
    You can verify whether an operation was successful by clicking More Info above the list. A dialog box that contains the selected work items or jobs and their statuses is displayed.
 

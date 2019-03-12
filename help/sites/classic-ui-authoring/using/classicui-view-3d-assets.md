@@ -3,12 +3,15 @@ title: Viewing 3D assets
 seo-title: Viewing 3D assets
 description: The interactive 3D viewer is available from the asset details page in AEM. The viewer includes, among other things, a collection of interactive camera controls that let you orbit, zoom, and pan the 3D asset.
 seo-description: The interactive 3D viewer is available from the asset details page in AEM. The viewer includes, among other things, a collection of interactive camera controls that let you orbit, zoom, and pan the 3D asset.
-uuid: c1cee039-4e41-4801-8a03-9e7eb4fdfa14
+uuid: 06dea4d6-c33a-45da-a9a7-7caae9d1717a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 20f2cec2-5285-40fb-bea1-19a66efc0fb7
+discoiquuid: 5e1e0039-670e-4051-9f2a-e88162482467
+index: y
+internal: n
+snippet: y
 ---
 
 # Viewing 3D assets{#viewing-d-assets}

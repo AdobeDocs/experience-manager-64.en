@@ -3,12 +3,15 @@ title: SharePoint Connector Licenses, Copyright Notices, and Disclaimers
 seo-title: SharePoint Connector Licenses, Copyright Notices, and Disclaimers
 description: Learn about SharePoint Connector Licenses, Copyright Notices and Disclaimers.
 seo-description: Learn about SharePoint Connector Licenses, Copyright Notices and Disclaimers.
-uuid: 28c7f9e1-d7fc-4146-b08a-ac16dd2af307
+uuid: fba2c8ad-c6f3-484e-87b6-ddc426f7087a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 6c3cb3c3-ab46-4ca9-9cce-c726ce25883f
+discoiquuid: 487fc170-3750-49a7-af59-f1cc20d5f528
+index: y
+internal: n
+snippet: y
 ---
 
 # SharePoint Connector Licenses, Copyright Notices, and Disclaimers{#sharepoint-connector-licenses-copyright-notices-and-disclaimers}

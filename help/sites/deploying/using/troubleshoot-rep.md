@@ -3,12 +3,15 @@ title: Troubleshooting Replication
 seo-title: Troubleshooting Replication
 description: This article provides information on how to troubleshoot replication issues.
 seo-description: This article provides information on how to troubleshoot replication issues.
-uuid: 6bc7f086-de2f-431c-97a2-0305dd40e26d
+uuid: 7c3fdaad-0916-4159-a26c-17ff8c6617fe
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: afd1767f-b62b-4a6e-a298-568b3d2dfac6
+discoiquuid: e862c8a9-b5b6-4857-a154-03d3ffac3e67
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting Replication{#troubleshooting-replication}

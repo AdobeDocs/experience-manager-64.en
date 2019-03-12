@@ -3,11 +3,14 @@ title: Customize tracking tables
 seo-title: Customize tracking tables
 description: How-to customize the display of the details of user processes in the task table displayed in the tracking tab of AEM Forms workspace.
 seo-description: How-to customize the display of the details of user processes in the task table displayed in the tracking tab of AEM Forms workspace.
-uuid: 965ab413-488b-45a2-b525-4ba084d4f9a1
+uuid: 13d6ebf2-99d5-434f-85f9-b0cba5f5751a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 5570ff4f-6f89-4d51-b009-0aa6792e16b6
+discoiquuid: bb7a6e9f-4f28-4d97-8a0c-949259fd6857
+index: y
+internal: n
+snippet: y
 ---
 
 # Customize tracking tables{#customize-tracking-tables}

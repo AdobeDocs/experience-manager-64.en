@@ -3,12 +3,15 @@ title: Video Profiles
 seo-title: Video Profiles
 description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
 seo-description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
-uuid: edda9017-69c0-46a8-ad70-3a7ebbf3d0ea
+uuid: cfb498f8-44a0-4d94-99b0-fed7c27f575b
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 7ba515bc-eea8-4222-b72a-13f59ea1adf6
+discoiquuid: b893f366-279a-4872-9413-77626d3387ea
+index: y
+internal: n
+snippet: y
 ---
 
 # Video Profiles{#video-profiles}
@@ -122,7 +125,7 @@ When you are done creating the video profile, you apply it to a folder or multip
 1. Tap **Add Video Encoding Preset**.
 1. On the **Basic** tab, set the video and audio options.  
    Tap the information icon next to each option for additional descriptions or recommended settings based on the selected video format codec.
-1. Under the Video Size heading, ensure that **Keep aspect ratio** is checked.
+1. Under the Video Size heading, ensure that **Keep aspect ratio** is checked****.
 1. Set the video frame size resolution in pixels. Use the **Auto** value to automatically scale to match the source aspect ratio (width to height ratio). For example, Auto x 480 or 640 x Auto.
 
    Do one of the following:
@@ -335,7 +338,7 @@ In addition to applying a profile to a folder, you can also apply one globally s
 
 To apply a video profile globally,
 
-* Navigate to CRXDE Lite to the following node:** /content/dam/jcr:content. **Add the property** videoProfile:/etc/dam/video/dynamicmedia/&lt;name of video encoding profile&gt; **and tap or click **Save All**. 
+* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** videoProfile:/etc/dam/video/dynamicmedia/&lt;name of video encoding profile&gt; **and tap or click **Save All**. 
 
   ![](assets/chlimage_1-519.png)
 

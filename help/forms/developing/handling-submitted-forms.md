@@ -3,13 +3,16 @@ title: Handling Submitted Forms
 seo-title: Handling Submitted Forms
 description: null
 seo-description: null
-uuid: 901ba841-d212-4a98-95da-f8e21150fcf0
+uuid: 673b28f1-f023-4da8-a6a0-c5ff921c5f5d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: ad33a232-caf8-4a67-9270-ab883449823b
+discoiquuid: 3d838027-6bde-4a71-a428-4d5102f7d799
+index: y
+internal: n
+snippet: y
 ---
 
 # Handling Submitted Forms{#handling-submitted-forms}
@@ -152,7 +155,7 @@ You retrieve form data that was posted to the Forms service and determine its pr
 The Forms service returns the following values to indicate whether it has finished processing the data:
 
 * **0 (Submit):** Submitted data is ready to be processed.
-* **1 (Calculate):** The Forms service performed a calculation operation on the data and the results must be rendered back to the user. 
+* **1 (Calculate): **The Forms service performed a calculation operation on the data and the results must be rendered back to the user. 
 * **2 (Validate):** The Forms service validated form data and the results must be rendered back to the user. 
 * **3 (Next):** The current page has changed with results that must be written to the client application. 
 * **4 (Previous**): The current page has changed with results that must be written to the client application.

@@ -3,12 +3,15 @@ title: Monitoring Server Resources Using the JMX Console
 seo-title: Monitoring Server Resources Using the JMX Console
 description: Learn how to monitor server resources using the JMX console.
 seo-description: Learn how to monitor server resources using the JMX console.
-uuid: 33aff42e-5731-4c24-9351-b54d118264e8
+uuid: b3cfcc0b-69db-415d-9244-ac22a7387247
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 5eb6f4f9-7fdb-4c03-b57e-0006621a26df
+discoiquuid: 0798ae5c-e06e-425f-ba8a-9309eb233083
+index: y
+internal: n
+snippet: y
 ---
 
 # Monitoring Server Resources Using the JMX Console{#monitoring-server-resources-using-the-jmx-console}
@@ -670,7 +673,7 @@ Statistical information about repository queries.
 Monitor the services for each replication agent. When you create a replication agent, the service automatically appears in the JMX console.
 
 * **Domain:** com.adobe.granite.replication
-* **Type:** agent
+* **Type: **agent
 * **Name:** no value
 * **Properties:** {id="*Name*"}, where *Name* is the value of the agent Name property.
 

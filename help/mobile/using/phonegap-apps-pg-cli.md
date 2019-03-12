@@ -3,12 +3,15 @@ title: Developing Apps with PhoneGap CLI
 seo-title: Developing Apps with PhoneGap CLI
 description: Follow this page to learn about developing apps with PhoneGap CLI.
 seo-description: Follow this page to learn about developing apps with PhoneGap CLI.
-uuid: ef0e90cc-209e-481c-a6c8-ce63d9292718
+uuid: 9a66171d-19af-40db-9c07-f5dd9561e1b5
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 1a56933f-e51c-4ed8-866b-b01f440bf7c6
+discoiquuid: 4a034e15-3394-4be3-9e8e-bc894668946a
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing Apps with PhoneGap CLI{#developing-apps-with-phonegap-cli}

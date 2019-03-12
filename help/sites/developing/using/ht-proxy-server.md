@@ -3,12 +3,15 @@ title: How to use the Proxy Server Tool
 seo-title: How to use the Proxy Server Tool
 description: The proxy server acts as an intermediate server that relays requests between a client and a server
 seo-description: The proxy server acts as an intermediate server that relays requests between a client and a server
-uuid: aa54e377-9cf3-4276-b487-7940be168097
+uuid: 30f4f46d-839e-4d23-a511-12f29b3cc8aa
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 8e5070eb-b314-4baa-beea-9a70705ef03c
+discoiquuid: dfbc1d2f-80c1-4564-a01c-a5028b7257d7
+index: y
+internal: n
+snippet: y
 ---
 
 # How to use the Proxy Server Tool{#how-to-use-the-proxy-server-tool}

@@ -3,12 +3,15 @@ title: Troubleshooting AEM when Authoring
 seo-title: Troubleshooting AEM when Authoring
 description: Some issues that you might encounter when using AEM
 seo-description: Some issues that you might encounter when using AEM
-uuid: 7a5b160d-de75-4e5c-8a01-c82544077df9
+uuid: 99af51ea-8628-4811-83f2-ab3f88f0279e
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 2da0fd7b-cdef-43fd-a250-18fc60e9de17
+discoiquuid: da0a5644-2e1d-4394-a6aa-11bb41406ba6
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting AEM when Authoring{#troubleshooting-aem-when-authoring}

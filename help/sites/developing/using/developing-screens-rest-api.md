@@ -3,11 +3,14 @@ title: REDIRECT REST API
 seo-title: REDIRECT REST API
 description: null
 seo-description: null
-uuid: 8383eb73-cd6c-49f4-a20a-d0940209315a
+uuid: a6114e8e-2b1d-4398-8eea-6321ba7a4413
 contentOwner: jsyal
-discoiquuid: 73327288-3e93-4337-b0de-2723ffc809d1
+discoiquuid: b4b3d058-4299-401a-bff1-5fc138d63c34
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/rest-api
+index: y
+internal: n
+snippet: y
 ---
 
 # REDIRECT REST API{#redirect-rest-api}

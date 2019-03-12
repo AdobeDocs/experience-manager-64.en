@@ -3,12 +3,15 @@ title: Review the usage rights of a PDF file
 seo-title: Review the usage rights of a PDF file
 description: Learn how to review the usage rights of a PDF file.
 seo-description: Learn how to review the usage rights of a PDF file.
-uuid: 7f960839-ca79-4adc-baac-c0bc12e3f6ae
+uuid: b55e945c-03e2-4b26-aacb-f1234ce163f1
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a3f1898e-ce5b-4687-8af4-35447d4901b8
+discoiquuid: 2777706c-d42b-4921-a8f4-720b7c0fa45e
+index: y
+internal: n
+snippet: y
 ---
 
 # Review the usage rights of a PDF file{#review-the-usage-rights-of-a-pdf-file}

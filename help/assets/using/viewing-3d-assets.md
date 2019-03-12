@@ -3,12 +3,15 @@ title: Viewing 3D assets
 seo-title: Viewing 3D assets
 description: Learn about the interactive 3D viewer available from the asset details page in AEM and how to use it to view 3D assets.
 seo-description: Learn about the interactive 3D viewer available from the asset details page in AEM and how to use it to view 3D assets.
-uuid: d3fb7bee-c03a-4d88-bfc9-dbd18d69f3c6
+uuid: 7d8133ac-3110-4979-8e19-e65090e791be
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: ce5632f0-cbe1-4190-9f15-f77e8c2ec9f9
+discoiquuid: 65040923-a8a8-4e27-82c0-67a04348e238
+index: y
+internal: n
+snippet: y
 ---
 
 # Viewing 3D assets{#viewing-d-assets}

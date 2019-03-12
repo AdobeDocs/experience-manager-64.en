@@ -3,12 +3,15 @@ title: How to use the VLT Tool
 seo-title: How to use the VLT Tool
 description: The Jackrabbit FileVault tool (VLT) is developed by The Apache Foundation that maps the content of a Jackrabbit/AEM instance to your file system
 seo-description: The Jackrabbit FileVault tool (VLT) is developed by The Apache Foundation that maps the content of a Jackrabbit/AEM instance to your file system
-uuid: 49aa1f03-b3ae-47d3-929f-3d0c4da4bab0
+uuid: 579e7785-8b50-4366-b562-8e79b6451464
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: ee7296a7-2678-4bf8-8630-840488d57653
+discoiquuid: a76425e9-fd3b-4c73-80f9-0ebabb8fd94f
+index: y
+internal: n
+snippet: y
 ---
 
 # How to use the VLT Tool{#how-to-use-the-vlt-tool}

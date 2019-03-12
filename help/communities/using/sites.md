@@ -3,12 +3,15 @@ title: Site Templates
 seo-title: Site Templates
 description: How to access the Site Templates console
 seo-description: How to access the Site Templates console
-uuid: 2fd6f658-46c6-493c-9739-38a4a1327027
+uuid: d2f7556e-7e43-424e-82f1-41790aeb2d98
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 48be14a1-d8ed-46f6-8c73-93de33238089
+discoiquuid: 202d7dba-2b34-431d-b10f-87775632807f
+index: y
+internal: n
+snippet: y
 ---
 
 # Site Templates{#site-templates}
@@ -23,7 +26,7 @@ The Site Templates console is very similar to the [Group Templates](../../commun
 
 In the author environment, to reach the community sites console
 
-* from global navigation :** Tools, Communities, Site Templates**
+* from global navigation : **Tools, Communities, Site Templates**
 
 This console displays the templates from which a [community site](../../communities/using/sites-console.md) can be created and allows new site templates to be created.
 

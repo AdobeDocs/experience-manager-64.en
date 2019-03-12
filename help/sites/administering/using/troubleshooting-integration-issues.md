@@ -3,12 +3,15 @@ title: Troubleshooting Integration Issues
 seo-title: Troubleshooting Integration Issues
 description: Learn how to troubleshoot integration issues.
 seo-description: Learn how to troubleshoot integration issues.
-uuid: f60e5132-96d3-4054-967c-886e94c40203
+uuid: fe080e58-a855-4308-a611-f72eb47ba82d
 contentOwner: raiman
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: cae2cc87-5995-4da3-bca4-77163a5899a0
+discoiquuid: 422ee332-23ae-46bd-8394-a4e0915beaa2
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting Integration Issues{#troubleshooting-integration-issues}

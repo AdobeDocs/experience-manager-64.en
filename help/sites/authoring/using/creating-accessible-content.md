@@ -3,12 +3,15 @@ title: Creating Accessible Content (WCAG 2.0 Conformance)
 seo-title: Creating Accessible Content (WCAG 2.0 Conformance)
 description: Help make web content accessible to, and usable by, persons with disabilities
 seo-description: Help make web content accessible to, and usable by, persons with disabilities
-uuid: 9ce65d86-f8c5-4e38-b7ae-02841c6926d2
+uuid: 416be3a1-6f02-4911-a69e-cae1825ee022
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: c2e8c76e-3a1e-4ee7-ae26-eb5a8d9c070a
+discoiquuid: 3d4258de-c0bb-4952-b6f0-0c5f2a15e531
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Accessible Content (WCAG 2.0 Conformance){#creating-accessible-content-wcag-conformance}
@@ -365,8 +368,8 @@ You can make sure your web pages are given the appropriate structure by:
   >
   >    
   >    
-  >* &lt;b&gt; for &lt;strong&gt;
-  >* &lt;i&gt; for &lt;em&gt;
+  >    * &lt;b&gt; for &lt;strong&gt;
+  >    * &lt;i&gt; for &lt;em&gt;
   >    
   >    
   >They are effectively the same, but &lt;strong&gt; and &lt;em&gt; are preferable as they are semantically correct html. Your development team can configure the RTE to use &lt;strong&gt; and &lt;em&gt; (instead of &lt;b&gt; and &lt;i&gt;) when developing your project instance.

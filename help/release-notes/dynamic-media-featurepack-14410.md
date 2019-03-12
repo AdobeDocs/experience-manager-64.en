@@ -4,12 +4,15 @@ seo-title: Dynamic Media Feature Pack 18912 Release Notes
 description: Release notes specific to the Dynamic Media Feature Pack 18912.
 seo-description: Release notes specific to the Dynamic Media Feature Pack 18912.
 page-status-flag: de-activated
-uuid: d8ac7363-14e7-4a29-a1b1-e82c163c1535
+uuid: 1751dfed-2ae7-4bf7-9c1f-84c4f904eace
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 2aed720e-e837-4568-98b2-b7b1f8d54490
+discoiquuid: b490dda2-4072-46b2-b52f-10367a9623a2
+index: y
+internal: n
+snippet: y
 ---
 
 # Dynamic Media Feature Pack 18912 Release Notes{#dynamic-media-feature-pack-release-notes}
@@ -51,7 +54,7 @@ discoiquuid: 2aed720e-e837-4568-98b2-b7b1f8d54490
 
 ## What is included in Dynamic Media Feature Pack 18912 {#what-is-included-in-dynamic-media-feature-pack}
 
-* ** [FTP Ingestion](../assets/using/managing-assets-touch-ui.md#uploading-assets-using-ftp) (available via FP 18912):** Bulk upload large volume of assets and/or very large file size assets through FTP for more scalable and performant ingestion. FTP jobs can be scheduled on a recurring basis to automate ingestion.
+* ** [FTP Ingestion](../assets/using/managing-assets-touch-ui.md#uploading-assets-using-ftp) (available via FP 18912): **Bulk upload large volume of assets and/or very large file size assets through FTP for more scalable and performant ingestion. FTP jobs can be scheduled on a recurring basis to automate ingestion.
 * **Asset Replicator (available via FP 18912):** For customers transitioning from Dynamic Media Classic (Scene7) to Dynamic Media, master assets will be replicated from their existing S7 repository to the Dynamic Media repository. This enables customers to achieve the following benefits during the upgrade:
 
     1. No need to change URLs used on their existing production sites.

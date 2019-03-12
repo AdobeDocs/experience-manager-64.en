@@ -3,12 +3,15 @@ title: Integrating with Adobe Target
 seo-title: Integrating with Adobe Target
 description: Learn about integrating AEM with Adobe Target.
 seo-description: Learn about integrating AEM with Adobe Target.
-uuid: 90be203e-afa7-49e3-a808-73c4cf568e3a
+uuid: b90346e8-9757-4272-a870-bbe5e647303f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: b3283db4-a8b2-419a-9976-e01411e41d2e
+discoiquuid: 454854f8-6053-406c-888d-f427777bf570
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating with Adobe Target{#integrating-with-adobe-target}

@@ -3,12 +3,15 @@ title: Communities Consoles
 seo-title: Communities Consoles
 description: Community Consoles explained
 seo-description: Community Consoles explained
-uuid: dfe0d4c2-0f59-4127-8592-94d47540c4ca
+uuid: 1c5b2600-9059-4b44-9741-f1b627423d3c
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: bea76c31-8558-4054-8f9b-69dcfd7b7513
+discoiquuid: 5fa9ee8b-5893-4ae9-a986-bfdbb00f355f
+index: y
+internal: n
+snippet: y
 ---
 
 # Communities Consoles{#communities-consoles}
@@ -63,4 +66,4 @@ To access the various Communities consoles, from global navigation select **navi
 
 ### Tools Console {#tools-console}
 
-To access [Communities Tools](../../communities/using/tools.md) (formerly the administration console), from global navigation :** Tools, Communities**
+To access [Communities Tools](../../communities/using/tools.md) (formerly the administration console), from global navigation : **Tools, Communities**

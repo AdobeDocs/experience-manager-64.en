@@ -3,12 +3,15 @@ title: Contributing to AEM
 seo-title: Contributing to AEM
 description: AEM is developed following proven methodologies commonly practiced in large open source projects
 seo-description: AEM is developed following proven methodologies commonly practiced in large open source projects
-uuid: 8431fc39-07ea-49e6-ac12-988047f57534
+uuid: ffef60ae-8a9a-4c4b-8cbd-3cd72792a42e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 12741b8c-54b4-4035-a676-d68fee28e0ca
+discoiquuid: f52402df-f6dc-4c62-82bc-cbce489b2b74
+index: y
+internal: n
+snippet: y
 ---
 
 # Contributing to AEM{#contributing-to-aem}
@@ -110,6 +113,8 @@ Designing for backwards compatibility also ensures that the upgrade experince ma
 While existing APIs can and should be marked as deprecated when newer, better functionality replaces them, all APIs that were made public in a previous 5.x release need to remain functional, since they may be in use in custom application code. No such APIs should be removed.
 
 Backwards compatibility should also be kept in mind in regards to the general consistency of content structure and user experience.
+
+****
 
 ## Core Concepts {#core-concepts}
 

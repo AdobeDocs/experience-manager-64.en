@@ -3,12 +3,15 @@ title: Managing Collections
 seo-title: Managing Collections
 description: Collections represent a well defined bucket filled with content such as articles or banners that suits the cover's theme. Follow this page to learn more.
 seo-description: Collections represent a well defined bucket filled with content such as articles or banners that suits the cover's theme. Follow this page to learn more.
-uuid: 59450f75-4e3c-4e45-b334-0411dde4f055
+uuid: 1d2e9769-d2cc-4d43-a428-e962a51eb5d0
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: 7bba3590-39b3-4c91-89c7-21fbc00e6886
+discoiquuid: 64c6d198-983f-4a52-9c83-560206363868
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Collections{#managing-collections}

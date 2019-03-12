@@ -3,10 +3,13 @@ title: Create an adaptive form using a set of adaptive forms
 seo-title: Create an adaptive form using a set of adaptive forms
 description: With AEM Forms, bring adaptive forms together to author a single large adaptive form, and understand its features. 
 seo-description: With AEM Forms, bring adaptive forms together to author a single large adaptive form, and understand its features. 
-uuid: 385745c4-1c92-4836-a831-7cf529a6e59a
+uuid: 1423038b-8261-455b-b4ff-7be7222448c9
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: f67852a4-1026-49d5-a418-d0f2805770d5
+discoiquuid: 75ee94f7-e939-409b-b8cb-8fdc3f79bb63
+index: y
+internal: n
+snippet: y
 ---
 
 # Create an adaptive form using a set of adaptive forms{#create-an-adaptive-form-using-a-set-of-adaptive-forms}

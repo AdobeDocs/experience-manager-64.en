@@ -3,11 +3,14 @@ title: APIs used in AEM Forms workspace
 seo-title: APIs used in AEM Forms workspace
 description: Public Java and JavaScript APIs and methods of LiveCycle AEM Forms workspace, exposed for customization and automation.
 seo-description: Public Java and JavaScript APIs and methods of LiveCycle AEM Forms workspace, exposed for customization and automation.
-uuid: eb889b07-b9c7-44ad-97d9-0a156027b177
+uuid: 9602990e-8ac7-42eb-b507-50b3594055ba
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 8bbacdaa-eceb-4c6c-9f79-64b11437223c
+discoiquuid: 4a73a973-fccf-466b-b4a0-47652a14a080
+index: y
+internal: n
+snippet: y
 ---
 
 # APIs used in AEM Forms workspace{#apis-used-in-aem-forms-workspace}

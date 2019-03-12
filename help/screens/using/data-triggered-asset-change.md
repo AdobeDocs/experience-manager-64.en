@@ -3,12 +3,15 @@ title: Data Triggered Asset Change
 seo-title: Data Triggered Asset Change
 description: Follow this use case example to learn how to achieve personalized content based on some precondition (for example, weather of your location).
 seo-description: Follow this use case example to learn how to achieve personalized content based on some precondition (for example, weather of your location).
-uuid: e6e96671-ba97-4014-a599-16dce6911b9e
+uuid: 8e557e4c-a6e2-4e4a-87bd-e01e2ff0043d
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: example
 topic-tags: use-case-examples
-discoiquuid: 7fc93ed2-bc36-4485-b101-5d78594f1a32
+discoiquuid: 878a2354-0990-4b21-b1ab-b9b33b50e353
+index: y
+internal: n
+snippet: y
 ---
 
 # Data Triggered Asset Change{#data-triggered-asset-change}
@@ -82,9 +85,9 @@ Follow the steps below to set up a project showcasing data triggered asset chang
     1. For demo purposes, download the content package below.
     1. Once you have downloaded the package to your AEM instance, you need to set the ContextHub and Segments Path:
 
-    * For **ContextHub**, set the path to:** */libs/settings/cloudsettings/legacy/contexthub***
+    * For **ContextHub**, set the path to: ***/libs/settings/cloudsettings/legacy/contexthub***
     
-    * For **Segments Path**, set the path to:** */conf/data-triggers/settings/wcm/segments***
+    * For **Segments Path**, set the path to: ***/conf/data-triggers/settings/wcm/segments***
 
    Data Triggers
 
@@ -96,8 +99,8 @@ Follow the steps below to set up a project showcasing data triggered asset chang
    >
    >    
    >    
-   >* ** [Configuring ContextHub](../../sites/administering/using/contexthub-config.md)**
-   >* ** [Configuring Segmentation with ContextHub](../../sites/administering/using/segmentation.md)**
+   >    * ** [Configuring ContextHub](../../sites/administering/using/contexthub-config.md)**
+   >    * ** [Configuring Segmentation with ContextHub](../../sites/administering/using/segmentation.md)**
    >    
    >
 

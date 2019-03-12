@@ -3,13 +3,16 @@ title: IBM Websphere Commerce
 seo-title: IBM Websphere Commerce
 description: Learn how to use AEM with IBM Websphere Commerce.
 seo-description: Learn how to use AEM with IBM Websphere Commerce.
-uuid: 824b93f9-0622-4137-a19a-e344787abdbe
+uuid: ec36ccf1-a132-4657-b1a1-2b2b919261b9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 8d223358-ab22-476f-b904-67d2470dccb9
+discoiquuid: fdd84ff0-a7e5-4e3f-910e-e15db0ba50a8
 pagetitle: Administering IBM Websphere Commerce
+index: y
+internal: n
+snippet: y
 ---
 
 # IBM Websphere Commerce{#ibm-websphere-commerce}

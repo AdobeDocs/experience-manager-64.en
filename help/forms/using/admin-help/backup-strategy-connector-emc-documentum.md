@@ -3,12 +3,15 @@ title: Backup strategy for Connector for EMC Documentum users
 seo-title: Backup strategy for Connector for EMC Documentum users
 description: Check how to create a backup strategy for Connector for EMC Documentum users.
 seo-description: Check how to create a backup strategy for Connector for EMC Documentum users.
-uuid: ea1dacb0-b31d-41ec-b363-f891e5c6cbc4
+uuid: 5d8a0476-5231-4e1d-96c4-ae3df68e09f0
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2f18bec7-477f-4451-b6eb-7e14587d3498
+discoiquuid: e83b1a59-a730-4d22-9d58-1c9c38e5d534
+index: y
+internal: n
+snippet: y
 ---
 
 # Backup strategy for Connector for EMC Documentum users{#backup-strategy-for-connector-for-emc-documentum-users}

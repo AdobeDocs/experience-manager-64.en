@@ -3,12 +3,15 @@ title: Adobe Analytics Integration with AEM Screens
 seo-title: Adobe Analytics Integration with AEM Screens
 description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
 seo-description: Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play.
-uuid: adaf4f36-ae48-406b-8df6-f7cc1b1ac699
+uuid: f4f71c85-ab6b-4e4d-94d3-5ba55ec0a246
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
-discoiquuid: a5580129-a39e-4c8b-a711-b4e4a9b3d600
+discoiquuid: 2784b590-3402-492f-94a6-36fe16633e89
+index: y
+internal: n
+snippet: y
 ---
 
 # Adobe Analytics Integration with AEM Screens{#adobe-analytics-integration-with-aem-screens}

@@ -3,12 +3,15 @@ title: Mobile Quickstart
 seo-title: Mobile Quickstart
 description: Follow this page to learn about AEM Verify app. The AEM Verify app is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. 
 seo-description: Follow this page to learn about AEM Verify app. The AEM Verify app is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. 
-uuid: d99090ce-b6df-4e76-ab2f-c729fb00a8ea
+uuid: afae4b9d-f835-4d83-b758-39a0d7741510
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
-discoiquuid: e49b0fb7-1db7-445f-99ec-c6ab9a82a875
+discoiquuid: 2de6bafb-47cf-4aca-84a3-0cace2858d5c
+index: y
+internal: n
+snippet: y
 ---
 
 # Mobile Quickstart{#mobile-quickstart}

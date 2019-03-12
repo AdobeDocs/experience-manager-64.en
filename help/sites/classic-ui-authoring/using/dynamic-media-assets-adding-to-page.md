@@ -3,12 +3,15 @@ title: Adding Dynamic Media Assets to Pages
 seo-title: Adding Dynamic Media Assets to Pages
 description: To add the dynamic media functionality to assets you use on your websites, you can add the Dynamic Media or Interactive Media component directly on the page.
 seo-description: To add the dynamic media functionality to assets you use on your websites, you can add the Dynamic Media or Interactive Media component directly on the page.
-uuid: 2b87e153-519e-4da8-a034-fe93a99cc7c6
+uuid: 650d0867-a079-4936-a466-55b7a30803a2
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: f1f087bd-bdcc-4466-ae38-0f87387a4356
+discoiquuid: 331f4980-5193-4546-a22e-f27e38bb8250
+index: y
+internal: n
+snippet: y
 ---
 
 # Adding Dynamic Media Assets to Pages{#adding-dynamic-media-assets-to-pages}

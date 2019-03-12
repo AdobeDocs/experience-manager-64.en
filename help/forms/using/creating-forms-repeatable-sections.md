@@ -3,10 +3,13 @@ title: Creating forms with repeatable sections
 seo-title: Creating forms with repeatable sections
 description: Repeatable sections are panels that can be dynamically added or removed to a form.  
 seo-description: Repeatable sections are panels that can be dynamically added or removed to a form.  
-uuid: cb21a336-69d7-430c-bc2c-b3a799ed9bef
+uuid: c3fa2aa4-a6b4-458e-8534-138e075290b1
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 2db2576d-ca08-4d17-9a61-6873eaf3e8de
+discoiquuid: 01724ca0-6901-45e7-b045-f44814ed574e
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating forms with repeatable sections{#creating-forms-with-repeatable-sections}
@@ -19,7 +22,7 @@ You can use one of the following methods to create repeatable panels:
 
 ## Using Instance Manager via scripts&nbsp; {#using-instance-manager-via-scripts-nbsp}
 
-1. In the edit mode, select a panel, then tap ![](assets/cmppr.png-). In the sidebar, under Properties, enable **Make Panel Repeatable**. Specify values for the **[!UICONTROL Maximum]** and **[!UICONTROL **Minimum**]** fields.
+1. In the edit mode, select a panel, then tap ![](assets/cmppr.png-). In the sidebar, under Properties, enable **Make Panel Repeatable**. Specify values for the ****[!UICONTROL Maximum]**** and **[!UICONTROL **Minimum**]** fields.
 
    The Maximum field specifies the maximum number of times a panel can appear on the page. You can specify -1 in the Maximum Count field to allow the panel to appear for infinite number of times.
 

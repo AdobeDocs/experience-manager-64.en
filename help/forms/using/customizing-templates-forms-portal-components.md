@@ -3,11 +3,14 @@ title: Customizing templates for forms portal components
 seo-title: Customizing templates for forms portal components
 description: Display custom metadata in form listing
 seo-description: Display custom metadata in form listing
-uuid: 3345d987-d60d-40e6-8104-2ae5fd2f61f1
+uuid: 746aeece-a6d1-417b-8065-05cd54bd66d6
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: c025eb72-df01-43a2-9ce1-58a139626994
+discoiquuid: 842d3a5a-8e09-4a21-b9a2-a8f4f5b699bd
+index: y
+internal: n
+snippet: y
 ---
 
 # Customizing templates for forms portal components{#customizing-templates-for-forms-portal-components}
@@ -90,7 +93,7 @@ Various Forms Portal components provide exclusive sets of OOTB metadata that you
 
 ### Search &amp; Lister component {#search-amp-lister-component}
 
-* **Title:** Title of the form
+* **Title: **Title of the form
 * **name**: Name of the form (mostly it is the same as the title)
 * **description**: Description of the form
 * **formUrl**: URL to render the form as HTML
@@ -114,7 +117,7 @@ Support for localization, sorting, and using configuration properties on the use
 
 ### Link component {#link-component}
 
-* **Title:** Title of the form
+* **Title: **Title of the form
 * **formUrl**: URL to render the form as HTML
 * **target**: Target attribute of the link. Valid values are “_blank” and “_self.”
 * **linkText**: Link caption

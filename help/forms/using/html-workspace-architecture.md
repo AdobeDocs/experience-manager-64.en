@@ -3,12 +3,15 @@ title: AEM Forms Workspace Architecture
 seo-title: AEM Forms Workspace Architecture
 description: Conceptual information and overview of the architecture of LiveCycle AEM Forms workspace.
 seo-description: Conceptual information and overview of the architecture of LiveCycle AEM Forms workspace.
-uuid: fe473709-b413-4a37-a035-c0a088987be3
+uuid: e1a48452-ed44-4ea7-ba38-d961c8faafa5
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: f8bed36d-67e6-43dc-95da-f12a76f7e4a1
+discoiquuid: c3a312fb-f684-477d-916d-2d3c99aa7607
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Forms Workspace Architecture{#aem-forms-workspace-architecture}

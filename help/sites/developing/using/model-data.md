@@ -3,12 +3,15 @@ title: Data Modeling - David Nuescheler's Model
 seo-title: Data Modeling - David Nuescheler's Model
 description: David Nuescheler's content modelling recommendations
 seo-description: David Nuescheler's content modelling recommendations
-uuid: 33db99b9-9f14-4600-9495-c13888201c67
+uuid: acb27e81-9143-4e0d-a37a-ba26491a841f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 2780ac60-f646-4341-9715-05cc9a7db36a
+discoiquuid: 39546c0a-b72f-42df-859b-98428ee0d5fb
+index: y
+internal: n
+snippet: y
 ---
 
 # Data Modeling - David Nuescheler's Model{#data-modeling-david-nuescheler-s-model}
@@ -31,7 +34,7 @@ I would like to start filling this void by expressing my personal opinions on ho
 
 >[!NOTE]
 >
->***Disclaimer*: These guidelines express my personal, sometimes controversial views. I am looking forward to debate these guidelines and refine them.**
+>*****Disclaimer*: These guidelines express my personal, sometimes controversial views. I am looking forward to debate these guidelines and refine them.****
 
 ### Seven Simple Rules {#seven-simple-rules}
 

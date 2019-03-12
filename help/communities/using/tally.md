@@ -3,12 +3,15 @@ title: Tally Essentials
 seo-title: Tally Essentials
 description: Tally class overview
 seo-description: Tally class overview
-uuid: 857f1f52-4097-42d8-9db4-ad722ab43087
+uuid: c369c6a1-9ced-4b5c-af43-8c03236eaa52
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 100ac0e7-b43f-48ed-a63a-a06eee7001fd
+discoiquuid: 9941ba90-3d40-4c90-bca8-5db49603cbfa
+index: y
+internal: n
+snippet: y
 ---
 
 # Tally Essentials{#tally-essentials}

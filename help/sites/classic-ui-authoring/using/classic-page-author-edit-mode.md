@@ -3,12 +3,15 @@ title: Components for Page Authoring
 seo-title: Components for Page Authoring
 description: The components are available when editing a page from the Components tab of the sidekick and the Insert New Component selector (when you double-click in the Drag components or assets here area).
 seo-description: The components are available when editing a page from the Components tab of the sidekick and the Insert New Component selector (when you double-click in the Drag components or assets here area).
-uuid: cdb9fb00-aec1-4eaa-a2d0-5d9c3f0d0191
+uuid: 6e4db6b1-af52-4b54-88a5-b82634f264fa
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: e3c56177-cafd-46bb-aafa-c67fe2a8e8f7
+discoiquuid: 62c6826d-bc8b-4177-a3bb-134ebafed8d2
+index: y
+internal: n
+snippet: y
 ---
 
 # Components for Page Authoring{#components-for-page-authoring}
@@ -282,7 +285,7 @@ The external application is integrated into the paragraph system of the AEM page
 
 The Flash component lets you load a Flash movie. You can drag a flash asset from the content finder onto the component, or you can use the dialog:
 
-* **Flash**
+* **Fla****sh**
 
     * **Flash movie** 
       The flash movie file. Either drag an asset from the content finder, or click to open a browse window.
@@ -955,7 +958,7 @@ This component is needed to define the start of a new form on a page. You can co
               `/forms/feedback/`
             
             * **Type** 
-              Select the required type.
+              Select the required type.**** 
             
             * **Form** 
               Specify the form.  

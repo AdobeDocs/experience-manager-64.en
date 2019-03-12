@@ -3,12 +3,15 @@ title: Creative Project and PIM Integration
 seo-title: Creative Project and PIM Integration
 description: Creative Project streamlines the entire photo shoot workflow that including generating a photo shoot request, uploading a photo shoot, collaborating on a photo shoot, and packaging approved assets
 seo-description: Creative Project streamlines the entire photo shoot workflow that including generating a photo shoot request, uploading a photo shoot, collaborating on a photo shoot, and packaging approved assets
-uuid: fd2c4790-ffd5-4a9d-ae2f-dd1f53a56954
+uuid: 09f27d36-e725-45cb-88d1-27383aedceed
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 18893755-7b67-4636-a999-6895739b5185
+discoiquuid: 0e5d0a45-c663-4d91-b793-03d39119d103
+index: y
+internal: n
+snippet: y
 ---
 
 # Creative Project and PIM Integration{#creative-project-and-pim-integration}
@@ -150,11 +153,13 @@ To configure the **Product Photo Shoot** workflow:
     * Photo Shoot Review
     * Move to Production
 
-   Perform a similar procedure to configure the tasks in the **Product Photo Shoot (Commerce Integration) workflow**.
+   Perform a similar procedure to configure the tasks in the **Product Photo Shoot (Commerce Integration) workflow**.****
 
-### Starting a Project Workflow {#starting-a-project-workflow}
+##
 
 This section describes how to integrate product information management with your creative project.
+
+### Starting a Project Workflow {#starting-a-project-workflow}
 
 1. Navigate to a Product Photo Shoot project, and tap/click the **Add Work** icon on the **Workflows** card.
 1. Select the **Product Photo Shoot (Commerce Integration)** workflow card to start the Product Photo Shoot (Commerce Integration) workflow. If the product information isn't available under /etc/commerce, select the **Product Photo Shoot** workflow and start the Product Photo Shoot workflow.

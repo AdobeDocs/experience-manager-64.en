@@ -3,11 +3,14 @@ title: Transaction Reports Billable APIs
 seo-title: Transaction Reports Billable APIs
 description: List of all the APIs that are accounted as transactions
 seo-description: List of all the APIs that are accounted as transactions
-uuid: 16de2df6-235d-48f9-907a-983e3a6daffe
+uuid: 8861e325-7393-4d2c-9ec1-17f391ca3909
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: aacc933d-6c47-4aeb-baf7-3eccade69b38
+discoiquuid: 82e72ffb-2faa-45fe-8bb2-f485d8fa043e
+index: y
+internal: n
+snippet: y
 ---
 
 # Transaction Reports Billable APIs{#transaction-reports-billable-apis}

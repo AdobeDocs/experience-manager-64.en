@@ -3,12 +3,15 @@ title: Assets Offloading Best Practices
 seo-title: Assets Offloading Best Practices
 description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
 seo-description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
-uuid: 8a3855fd-9199-4b3c-97b2-7aaa8934dfd6
+uuid: 7d08fda2-1c59-44ad-bd35-83d199642e01
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 4cc811d9-7217-4f5b-868a-24c439585c74
+discoiquuid: cdb175f4-a7c6-4d9f-994a-5fc8eca51f03
+index: y
+internal: n
+snippet: y
 ---
 
 # Assets Offloading Best Practices{#assets-offloading-best-practices}
