@@ -22,7 +22,7 @@ A proxy is a specific (and sometimes separate) AEM instance that uses proxy work
 
 When the proxy is a separate AEM instance this helps reduce the load on the AEM authoring instance(s). By default, AEM Assets executes the asset processing tasks in the same JVM (externalized via Proxy) to reduce the load on the AEM authoring instance.
 
-### Proxy (HTTP Access) {#proxy-http-access}
+## Proxy (HTTP Access) {#proxy-http-access}
 
 A proxy is available via the HTTP Servlet when it is configured to accept processing jobs at:
 
@@ -30,7 +30,7 @@ A proxy is available via the HTTP Servlet when it is configured to accept proces
 
 This servlet creates a sling job from the posted parameters. This is then added to the proxy job queue and connected to the appropriate proxy worker.
 
-#### Supported Operations {#supported-operations}
+### Supported Operations {#supported-operations}
 
 * `job`  
   **Requirements**: the parameter `jobevent` must be set as a serialized value map. This is used to create an `Event` for a job processor.  

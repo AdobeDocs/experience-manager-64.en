@@ -14,17 +14,17 @@ internal: n
 snippet: y
 ---
 
-# Customizing Asset Share{#customizing-asset-share}
+# Customizing Asset Share {#customizing-asset-share}
 
 The Asset Share page is used to search for assets based on their metadata. You can customize the search, search results, and what actions users can take.
 
 ## Creating an Asset Share Template {#creating-an-asset-share-template}
 
 * Geometrixx Sample Page: **/content/geometrixx/en/press.html**
-* Sample Template:** /apps/geometrixx/templates/assetshare**
-* Sample Page Component:** /apps/geometrixx/components/assetshare **
+* Sample Template: **/apps/geometrixx/templates/assetshare**
+* Sample Page Component: **/apps/geometrixx/components/assetshare**
 
-#### Configuring Clientlib {#configuring-clientlib}
+### Configuring Clientlib {#configuring-clientlib}
 
 Adobe Experience Manager (AEM) Assets components use an extension of the WCM edit clientlib. The clientlibs are usually loaded in **init.jsp**.
 
@@ -36,7 +36,7 @@ Compared to the default clientlib loading (in core's **init.jsp**), an AEM Asset
 
 In most cases, copying the existing sample **init.jsp** (**/apps/geometrixx/components/assetshare/init.jsp**) should meet these needs.
 
-#### Additional Style Sheets {#additional-style-sheets}
+### Additional Style Sheets {#additional-style-sheets}
 
 Some of the AEM Assets components use the AEM widgets library. To be rendered properly in the content context, an additional style sheet has to be loaded. The tag action component requires one more.
 
@@ -44,11 +44,11 @@ Some of the AEM Assets components use the AEM widgets library. To be rendered pr
 <link href="/etc/designs/geometrixx/ui.widgets.css" rel="stylesheet" type="text/css">
 ```
 
-#### Geometrixx Style Sheet {#geometrixx-style-sheet}
+### Geometrixx Style Sheet {#geometrixx-style-sheet}
 
 The sample page components require all selectors to start with .**assetshare** of **static.css** (**/etc/designs/geometrixx/static.css**). Best practice: Copy all** .assetshare **selectors to your style sheet and adjust the rules as desired.
 
-#### Query Builder {#query-builder}
+### Query Builder {#query-builder}
 
 The Geometrixx sample page includes the default AEM Assets query builder component (**/libs/dam/components/assetshare/querybuilder**) with two columns (in **/apps/geometrixx/components/assetshare/body.jsp**):
 

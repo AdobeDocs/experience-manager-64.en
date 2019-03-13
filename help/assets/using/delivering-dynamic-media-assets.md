@@ -43,7 +43,7 @@ For more information, see the following topics:
 * I [nvalidating your CDN cached content](../../assets/using/invalidate-cdn-cached-content.md)
 * [Using Rulesets to Transform URLs](../../assets/using/using-rulesets-to-transform-urls.md)
 
-### HTTP/2 delivery of Dynamic Media assets {#http-delivery-of-dynamic-media-assets}
+## HTTP/2 delivery of Dynamic Media assets {#http-delivery-of-dynamic-media-assets}
 
 AEM now supports the delivery of all Dynamic Media content (images and video) over HTTP/2. That is, a published URL or embed code for the image or video is available to be integrated with any application that accepts a hosted asset. That published asset is then delivered by way of HTTP/2 protocol. This method of delivery improves the way browsers and servers communicate, allowing for better response and load times of all your Dynamic Media assets.
 

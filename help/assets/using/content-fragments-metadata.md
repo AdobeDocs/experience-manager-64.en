@@ -20,7 +20,7 @@ snippet: y
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
-### Editing Properties / Meta data {#editing-properties-meta-data}
+## Editing Properties / Meta data {#editing-properties-meta-data}
 
 You can view and edit the metadata (properties) for content fragments:
 

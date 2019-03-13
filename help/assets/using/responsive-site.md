@@ -48,7 +48,7 @@ To deliver optimized images for a responsive site:
 1. Select and copy the text and paste it in your web site to access the responsive asset.
 1. Edit the default breakpoints in the embed code to match those of the responsive web site directly in the code. In addition, test the different image resolutions being served at different page breakpoints.
 
-### Using HTTP/2 to delivery your Dynamic Media assets {#using-http-to-delivery-your-dynamic-media-assets}
+## Using HTTP/2 to delivery your Dynamic Media assets {#using-http-to-delivery-your-dynamic-media-assets}
 
 HTTP/2 is the new, updated web protocol that improves the way browsers and servers communicate. It provides faster transfer of information and reduces the amount of processing power that is needed. Delivery of Dynamic Media assets is supported using HTTP/2 which provides better response and load times.
 

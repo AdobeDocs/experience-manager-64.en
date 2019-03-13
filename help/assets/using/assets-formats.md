@@ -24,9 +24,8 @@ The following tables describes all the formats supported by AEM Assets as well a
 
 The following legend describes the level of support AEM Assets offers for a feature: 
 
-| 
-|
 | Support Level |Description |
+|---|---|
 | x |Supported |
 | &#42; |Supported with add-on features |
 | - |Not applicable |
@@ -95,7 +94,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 ## Supported Document Formats {#supported-document-formats}
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+<table> 
  <tbody>
   <tr>
    <th colspan="8" style="text-align: center;">Asset Management Features</th> 
@@ -402,9 +401,9 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 ## Supported Multimedia Formats {#supported-multimedia-formats}
 
-| Features |
-|---|
-|   |Storage |Metadata management |Metadata extraction |Thumbnail generation |FFMPEG transcoding |
+
+|Storage |Metadata management |Metadata extraction |Thumbnail generation |FFMPEG transcoding |
+|---|---|---|---|---|
 | Format |  |
 | AAC |x |x |  |- |&#42; |
 | MIDI |x |x |  |- |&#42; |
@@ -448,7 +447,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 ## Supported Archive Formats {#supported-archive-formats}
 
-<table border="1" cellpadding="1" cellspacing="0" columns="5" header="none" height="186" width="533"> 
+<table> 
  <tbody>
   <tr></tr>
   <tr>
@@ -523,7 +522,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 ## Other Supported Formats {#other-supported-formats}
 
-<table border="1" cellpadding="1" cellspacing="0" columns="4" header="none" height="130" width="527"> 
+<table> 
  <tbody>
   <tr>
    <th colspan="6" style="text-align: center;">Features</th> 
@@ -615,7 +614,7 @@ See [Configuring mime type-based for upload job parameters support](../../assets
 
 See also [Enabling MIME type-based Assets/Scene7 upload job parameter support](../../sites/administering/using/scene7.md#enabling-mime-type-based-assets-scene-upload-job-parameter-support).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>File extension</strong></td> 

@@ -4,7 +4,7 @@ seo-title: Metadata Profiles
 description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
 seo-description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
 uuid: fd366fb8-0585-40e8-bb9a-97475879f293
-contentOwner: Alva Ware-Bevacqui
+contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
@@ -49,70 +49,70 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 
 1. (Optional) Add more components to the Edit Form from the **Build Form** tab, and configure their properties in the **Settings** tab. The following properties are available from the **Build Form **tab:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>Component</strong></td> 
-   <td><strong>Properties</strong></td> 
-  </tr> 
-  <tr> 
-   <td>Section Header</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Single Line Text</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Map to property</li> 
-     <li>Default Value</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Multi Value Text</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Map to property</li> 
-     <li>Default Value</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Number</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Map to property</li> 
-     <li>Default Value</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Date</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Map to property</li> 
-     <li>Default Value</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Standard Tags</td> 
-   <td> 
-    <ul> 
-     <li>Field Label</li> 
-     <li>Map to property</li> 
-     <li>Default Value</li> 
-     <li>Description</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <tbody> 
+      <tr> 
+      <td><strong>Component</strong></td> 
+      <td><strong>Properties</strong></td> 
+      </tr> 
+      <tr> 
+      <td>Section Header</td> 
+      <td> 
+        <ul> 
+        <li>Field Label</li> 
+        <li>Description</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td>Single Line Text</td> 
+      <td> 
+        <ul> 
+        <li>Field Label</li> 
+        <li>Map to property</li> 
+        <li>Default Value</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td>Multi Value Text</td> 
+      <td> 
+        <ul> 
+        <li>Field Label</li> 
+        <li>Map to property</li> 
+        <li>Default Value</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td>Number</td> 
+      <td> 
+        <ul> 
+        <li>Field Label</li> 
+        <li>Map to property</li> 
+        <li>Default Value</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td>Date</td> 
+      <td> 
+        <ul> 
+        <li>Field Label</li> 
+        <li>Map to property</li> 
+        <li>Default Value</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td>Standard Tags</td> 
+      <td> 
+        <ul> 
+        <li>Field Label</li> 
+        <li>Map to property</li> 
+        <li>Default Value</li> 
+        <li>Description</li> 
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
-   ![](assets/chlimage_1-484.png)
+      ![](assets/chlimage_1-484.png)
 
 1. Click **Done**. The Metadata Profile is added to the list of profiles in the **Metadata Profiles** page. 
 
@@ -166,7 +166,7 @@ To apply a metadata profile to folders from the Profiles user interface:
 
    ![](assets/chlimage_1-490.png)
 
-1. Tap/click **Apply Metadata Profile to Folder(s) **and select the folder or multiple folders you want use to receive the newly uploaded assets and tap/click **Done**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
+1. Tap/click **Apply Metadata Profile to Folder(s)** and select the folder or multiple folders you want use to receive the newly uploaded assets and tap/click **Done**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
 #### Applying metadata profiles to folders from Properties {#applying-metadata-profiles-to-folders-from-properties}
 
@@ -191,7 +191,7 @@ To apply a profile globally, do one of the following:
 
   ![](assets/chlimage_1-492.png)
 
-* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name of metadata profile&gt; **and tap or click **Save All**. 
+* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content.** Add the property **metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name of metadata profile&gt;** and tap or click **Save All**. 
 
   ![](assets/chlimage_1-493.png)
 
@@ -201,21 +201,21 @@ When you remove a metadata profile from a folder, any subfolders automatically i
 
 You can remove a metadata profile from a folder from within the **Tools** menu or if you are in the folder, from the **Properties**. This section describes how to remove metadata profiles from folders both ways.
 
-#### Removing metadata profiles from folders via Profiles user interface {#removing-metadata-profiles-from-folders-via-profiles-user-interface}
+### Removing metadata profiles from folders via Profiles user interface {#removing-metadata-profiles-from-folders-via-profiles-user-interface}
 
 To remove a metadata profile from folders via Profiles user interface:
 
-1. Tap or click the AEM logo and navigate to** Tools** &gt;** Assets **&gt; **Metadata Profiles.**
+1. Tap or click the AEM logo and navigate to **Tools** &gt; **Assets** &gt; **Metadata Profiles.**
 1. Select the metadata profile that you want to remove from a folder or multiple folders.
-1. Tap/click **Remove Metadata Profile from Folder(s) **and select the folder or multiple folders you want use to remove a profile from and tap/click **Done**.
+1. Tap/click **Remove Metadata Profile from Folder(s)** and select the folder or multiple folders you want use to remove a profile from and tap/click **Done**.
 
    You can confirm that the metadata profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-#### Removing metadata profiles from folders via Properties {#removing-metadata-profiles-from-folders-via-properties}
+### Removing metadata profiles from folders via Properties {#removing-metadata-profiles-from-folders-via-properties}
 
 To remove a metadata profile from folders via properties:
 
-1. Tap or click the AEM logo and navigate **Assets **and then to the folder that you want to remove an metadata profile from.
+1. Tap or click the AEM logo and navigate **Assets** and then to the folder that you want to remove an metadata profile from.
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.
 1. Select the **Metadata Profiles** tab and select **None** from the drop-down menu and click **Save**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 

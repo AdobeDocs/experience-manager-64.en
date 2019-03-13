@@ -92,46 +92,46 @@ To add actions to the Asset Share page:
 
 1. In the Asset Share page that you want to customize, click **Actions** in the sidekick.
 
-The following actions are available: 
+    The following actions are available: 
 
-![](assets/assetshare2.bmp)
+    ![](assets/assetshare2.bmp)
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400">
- <tbody> 
-  <tr> 
-   <td><strong>Action</strong></td> 
-   <td><strong>Description </strong></td> 
-  </tr> 
-  <tr> 
-   <td><strong>Delete Action</strong></td> 
-   <td>Users can delete the selected assets.</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Download Action</strong></td> 
-   <td>Lets users download selected assets to their computers.</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Lightbox Action</strong></td> 
-   <td>Saves assets to a "lightbox" where you can perform other actions on them. This comes in handy when working with assets across multiple pages. The lightbox can also be used as a shopping cart for assets.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Move Action</strong></td> 
-   <td>Users can move the asset to another location</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Tags Action</strong></td> 
-   <td>Lets users add tags to selected assets</td> 
-  </tr> 
-  <tr> 
-   <td><strong>View Asset Action </strong></td> 
-   <td>Opens the asset in the Asset editor for user manipulation.</td> 
-  </tr> 
- </tbody> 
-</table>
+    <table>
+    <tbody> 
+    <tr> 
+    <td><strong>Action</strong></td> 
+    <td><strong>Description </strong></td> 
+    </tr> 
+    <tr> 
+    <td><strong>Delete Action</strong></td> 
+    <td>Users can delete the selected assets.</td> 
+    </tr> 
+    <tr> 
+    <td><strong>Download Action</strong></td> 
+    <td>Lets users download selected assets to their computers.</td> 
+    </tr> 
+    <tr> 
+    <td><strong>Lightbox Action</strong></td> 
+    <td>Saves assets to a "lightbox" where you can perform other actions on them. This comes in handy when working with assets across multiple pages. The lightbox can also be used as a shopping cart for assets.<br /> </td> 
+    </tr> 
+    <tr> 
+    <td><strong>Move Action</strong></td> 
+    <td>Users can move the asset to another location</td> 
+    </tr> 
+    <tr> 
+    <td><strong>Tags Action</strong></td> 
+    <td>Lets users add tags to selected assets</td> 
+    </tr> 
+    <tr> 
+    <td><strong>View Asset Action </strong></td> 
+    <td>Opens the asset in the Asset editor for user manipulation.</td> 
+    </tr> 
+    </tbody> 
+    </table>
 
-2. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
+1. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
 
-![](assets/chlimage_1-387.png)
+    ![](assets/chlimage_1-387.png)
 
 #### Determining how Search Results are Presented {#determining-how-search-results-are-presented}
 
@@ -141,9 +141,9 @@ To change how search results are viewed:
 
 1. In the Asset Share page that you want to customize, click Search.
 
-![](assets/chlimage_1.bmp)
+    ![](assets/chlimage_1.bmp)
 
-2. Drag the appropriate lens to the top center of the page. In the Press Center, the lenses are already available. Users press the appropriate lens icon to display search results as desired.
+1. Drag the appropriate lens to the top center of the page. In the Press Center, the lenses are already available. Users press the appropriate lens icon to display search results as desired.
 
 The following lenses are available: 
 
@@ -168,23 +168,23 @@ To customize the query builder:
 
 1. In the Asset Share page that you want to customize, click **Edit** in the Query Builder. By default, the **General** tab opens.
 
-2. Select the number of results per page, the path of the asset editor (if you have a customized asset editor) and the Actions title.
+1. Select the number of results per page, the path of the asset editor (if you have a customized asset editor) and the Actions title.
 
-![](assets/screen_shot_2012-04-23at15055pm.png)
+    ![](assets/screen_shot_2012-04-23at15055pm.png)
 
-3. Click the **Paths** tab. Enter a path or multiple paths that the search will run. These paths are overwritten if the user uses the Paths predicate.
+1. Click the **Paths** tab. Enter a path or multiple paths that the search will run. These paths are overwritten if the user uses the Paths predicate.
 
-![](assets/screen_shot_2012-04-23at15150pm.png)
+    ![](assets/screen_shot_2012-04-23at15150pm.png)
 
-4. Enter another node type, if desired.
+1. Enter another node type, if desired.
 
-5. In the **Query Builder URL** field, you can override or wrap the query builder and enter the new servlet URLs with the existing query builder component. In the **Feed URL** field, you can override the Feed URL as well.
+1. In the **Query Builder URL** field, you can override or wrap the query builder and enter the new servlet URLs with the existing query builder component. In the **Feed URL** field, you can override the Feed URL as well.
 
-![](assets/screen_shot_2012-04-23at15313pm.png)
+    ![](assets/screen_shot_2012-04-23at15313pm.png)
 
-6. In the **Text** field, enter the text you want to appear for results and page numbers of results. Click **OK** when finished making changes.
+1. In the **Text** field, enter the text you want to appear for results and page numbers of results. Click **OK** when finished making changes.
 
-![](assets/screen_shot_2012-04-23at15300pm.png)
+    ![](assets/screen_shot_2012-04-23at15300pm.png)
 
 #### Adding Predicates {#adding-predicates}
 
@@ -194,26 +194,26 @@ To add predicates:
 
 1. In the Asset Share page that you want to customize, click **Search**.
 
-![](assets/assetshare3.bmp)
+    ![](assets/assetshare3.bmp)
 
-2. Drag the appropriate predicates to the Asset Share page underneath the query builder. Doing so creates the appropriate fields.
+1. Drag the appropriate predicates to the Asset Share page underneath the query builder. Doing so creates the appropriate fields.
 
-![](assets/assetshare4.bmp)
+    ![](assets/assetshare4.bmp)
 
-The following predicates are available: 
+    The following predicates are available: 
 
-| **Predicate** |**Description ** |
-|---|---|
-| **Date Predicate** |Lets users search for assets that were modified before and after certain dates. |
-| **Options Predicate** |The site owner can specify a property to search for (as in the property predicate, for example cq:tags) and a content tree to populate the options from (for example the tag tree). Doing so generates a list of options where the users can select the values (tags) that the selected property (tag property) should have. This predicate lets you build list controls like the list of tags, file types, image orientations, and so on. It is great for a fixed set of options. |
-| **Path Predicate** |Lets users define the path and subfolders, if desired. |
-| **Property Predicate** |The site owner specifies a property to search for, e.g. tiff:ImageLength and the user can then enter a value, e.g. 800. This returns all images that are 800 pixels high. Useful predicate if your property can have arbitrary values.  |
+    | **Predicate** |**Description ** |
+    |---|---|
+    | **Date Predicate** |Lets users search for assets that were modified before and after certain dates. |
+    | **Options Predicate** |The site owner can specify a property to search for (as in the property predicate, for example cq:tags) and a content tree to populate the options from (for example the tag tree). Doing so generates a list of options where the users can select the values (tags) that the selected property (tag property) should have. This predicate lets you build list controls like the list of tags, file types, image orientations, and so on. It is great for a fixed set of options. |
+    | **Path Predicate** |Lets users define the path and subfolders, if desired. |
+    | **Property Predicate** |The site owner specifies a property to search for, e.g. tiff:ImageLength and the user can then enter a value, e.g. 800. This returns all images that are 800 pixels high. Useful predicate if your property can have arbitrary values.  |
 
-For more information, see the [predicate javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.md).
+    For more information, see the [predicate javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.md).
 
-3. To configure the predicate further, double-click it. For example, when you open the Path Predicate, you need to assign the root path.
+1. To configure the predicate further, double-click it. For example, when you open the Path Predicate, you need to assign the root path.
 
-![](assets/screen_shot_2012-04-23at15640pm.png)
+    ![](assets/screen_shot_2012-04-23at15640pm.png)
 
 ## Creating and Configuring an Asset Editor Page {#creating-and-configuring-an-asset-editor-page}
 
@@ -231,7 +231,7 @@ To create an Asset Editor page:
 
 1. In the **Websites** tab, navigate to the place where you want to create an asset editor page and click **New**.
 
-1. Select **Geometrixx**** Asset Editor** and click **Create**. The new page is created and the page is listed in the **Websites** tab.
+1. Select **Geometrixx** **Asset Editor** and click **Create**. The new page is created and the page is listed in the **Websites** tab.
 
 ![](assets/screen_shot_2012-04-23at15858pm.png)
 
@@ -251,13 +251,13 @@ To set the Asset Editor page:
 
 1. In the Asset Share page, click **Edit** next to the Query Builder.
 
-![](assets/screen_shot_2012-04-23at20123pm.png)
+    ![](assets/screen_shot_2012-04-23at20123pm.png)
 
-2. Click the **General** tab if it is not already selected.
+1. Click the **General** tab if it is not already selected.
 
-3. In the **Path of Asset Editor** field, enter the path to the asset editor you want the Asset Share page to open assets in and click **OK**.
+1. In the **Path of Asset Editor** field, enter the path to the asset editor you want the Asset Share page to open assets in and click **OK**.
 
-![](assets/screen_shot_2012-04-23at21653pm.png)
+    ![](assets/screen_shot_2012-04-23at21653pm.png)
 
 #### Adding Asset Editor Components {#adding-asset-editor-components}
 
@@ -267,25 +267,25 @@ To add asset editor components:
 
 1. In the Asset Editor page that you want to customize, select **Asset Editor** in the sidekick. All available asset editor components are displayed.
 
->[!NOTE]
->
->What you can customize depends on what components are available. To enable components, go to Design mode and select the components you need enabled.
+    >[!NOTE]
+    >
+    >What you can customize depends on what components are available. To enable components, go to Design mode and select the components you need enabled.
 
-2. Drag the components from the sidekick to the asset editor and make any modifications in the component dialogs. The components are described in the following table and described in the detailed instructions that follow.
+1. Drag the components from the sidekick to the asset editor and make any modifications in the component dialogs. The components are described in the following table and described in the detailed instructions that follow.
 
->[!NOTE]
->
->When designing the asset editor page, you create components that are either read-only or editable. Users know a field can be edited if an image of a pencil appears in that component. By default, most components are set up as read-only.
+    >[!NOTE]
+    >
+    >When designing the asset editor page, you create components that are either read-only or editable. Users know a field can be edited if an image of a pencil appears in that component. By default, most components are set up as read-only.
 
-| **Component** |**Description ** |
-|---|---|
-| **Metadata Form and Text Field** |Lets you add additional metadata to an asset and perform an action, such as submitting, on that asset. |
-| **Sub Assets** |Lets you customize sub-assets. |
-| **Tags** |Lets users select and add tags to an asset. |
-| **Thumbnail** |Shows a thumbnail of the asset, its filename, and lets you add an alternate text. You can add asset editor actions here as well. |
-| **Title ** |Displays the asset title, which can be customized. |
+    | **Component** |**Description ** |
+    |---|---|
+    | **Metadata Form and Text Field** |Lets you add additional metadata to an asset and perform an action, such as submitting, on that asset. |
+    | **Sub Assets** |Lets you customize sub-assets. |
+    | **Tags** |Lets users select and add tags to an asset. |
+    | **Thumbnail** |Shows a thumbnail of the asset, its filename, and lets you add an alternate text. You can add asset editor actions here as well. |
+    | **Title** |Displays the asset title, which can be customized. |
 
-![](assets/screen_shot_2012-04-23at22743pm.png)
+    ![](assets/screen_shot_2012-04-23at22743pm.png)
 
 #### Metadata Form and Text Field - Configuring the View Metadata Component {#metadata-form-and-text-field-configuring-the-view-metadata-component}
 
@@ -293,31 +293,31 @@ The Metadata Form is a form that includes a start and end action. In between, yo
 
 1. Create a start action by clicking **Edit** in the Start area of the form. You can enter a Box title, if desired. By default, the Box title is **Metadata**. Select the Client Validation check box if you want the java-script client code for validation generated.
 
-![](assets/screen_shot_2012-04-23at22911pm.png)
+    ![](assets/screen_shot_2012-04-23at22911pm.png)
 
-2. Create an End action by clicking **Edit** in the End area of the form. For example, you may want to create a **Submit** button to allow users to submit their metadata changes. Optionally, you can add a **Reset** button that resets the metadata to its original state.
+1. Create an End action by clicking **Edit** in the End area of the form. For example, you may want to create a **Submit** button to allow users to submit their metadata changes. Optionally, you can add a **Reset** button that resets the metadata to its original state.
 
-![](assets/screen_shot_2012-04-23at23138pm.png)
+    ![](assets/screen_shot_2012-04-23at23138pm.png)
 
-3. In between the **Form Start** and the **Form End**, drag Metadata Text Fields to the form. Users populate metadata into these text fields, which they can submit or complete another action on.
+1. In between the **Form Start** and the **Form End**, drag Metadata Text Fields to the form. Users populate metadata into these text fields, which they can submit or complete another action on.
 
-4. Double-click the field name, for example, **Title** to open the metadata field and make changes. In the **General** tab of the** Edit Component** window, you define the namespace and the field label as well as type, for example, **dc:title**.
+1. Double-click the field name, for example, **Title** to open the metadata field and make changes. In the **General** tab of the** Edit Component** window, you define the namespace and the field label as well as type, for example, **dc:title**.
 
-![](assets/screen_shot_2012-04-23at23305pm.png)
+    ![](assets/screen_shot_2012-04-23at23305pm.png)
 
-See [Customizing and Extending AEM Assets](../../assets/using/extending-assets.md) for information on modifying the namespaces available in the metadata form.
+    See [Customizing and Extending AEM Assets](../../assets/using/extending-assets.md) for information on modifying the namespaces available in the metadata form.
 
-5. Click the **Constraints** tab. Here you can select whether a field is required and if necessary, add any constraints.
+1. Click the **Constraints** tab. Here you can select whether a field is required and if necessary, add any constraints.
 
-![](assets/screen_shot_2012-04-23at23435pm.png)
+    ![](assets/screen_shot_2012-04-23at23435pm.png)
 
-6. Click the **Display** tab. Here, you can enter a new width and number of rows for the metadata field. Select the **Field is read only** checkbox to allow users to edit the metadata.
+1. Click the **Display** tab. Here, you can enter a new width and number of rows for the metadata field. Select the **Field is read only** checkbox to allow users to edit the metadata.
 
-![](assets/screen_shot_2012-04-23at23446pm.png)
+    ![](assets/screen_shot_2012-04-23at23446pm.png)
 
-The following is an example of a Metadata form with various fields:
+    The following is an example of a Metadata form with various fields:
 
-![](assets/chlimage_1-390.png)
+    ![](assets/chlimage_1-390.png)
 
 On the Asset Editor page, users can then enter values into the metadata fields (if they are editable) and perform the end action (for example, submitting the changes).
 
@@ -403,16 +403,16 @@ To add actions to the Asset Editor page:
 
 The following actions are available: 
 
-| **Action** |**Description ** |
+| **Action** |**Description** |
 |---|---|
-| **Download ** |Lets users download selected assets to their computers. |
+| **Download** |Lets users download selected assets to their computers. |
 | **Editors** |Lets users edit an image (interactive editing)  |
 | **Lightbox** |Saves assets to a "lightbox" where you can perform other actions on them. This comes in handy when working with assets across multiple pages. |
 | **Locking** |Lets users lock an asset. This functionality is not enabled by default and needs to be enabled in the list of components. |
 | **References** |Click this to show on what pages the asset is being used.  |
 | **Versioning** |Lets you create and restore versions of an asset.  |
 
-2. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
+1. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
 
 ![](assets/chlimage_1-393.png)
 
