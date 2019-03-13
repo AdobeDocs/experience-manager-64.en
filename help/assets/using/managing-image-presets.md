@@ -29,7 +29,7 @@ This section describes how to create, modify, and generally manage image presets
 >
 >Smart imaging works with your existing image presets and uses intelligence at the last millisecond of delivery to further reduce image file size based on browser or network connection speed. See [Smart Imaging](../../assets/using/imaging-faq.md) for more information.
 
-### Understanding Image Presets {#understanding-image-presets}
+## Understanding Image Presets {#understanding-image-presets}
 
 Like a macro, an Image Preset is a predefined collection of sizing and formatting commands saved under a name. To understand how Image Presets work, suppose your web site requires each product image to appear in different sizes, different formats, and compression rates for desktop and mobile delivery.
 
@@ -39,7 +39,7 @@ Images that are reduced in size when they are delivered dynamically can lose sha
 
 Administrators can create Image Presets. To create an image preset, you can start from scratch or you can start from an existing one and save it under a new name.
 
-### Managing Image Presets {#managing-image-presets}
+## Managing Image Presets {#managing-image-presets}
 
 You manage your image presets in AEM by tapping or clicking the AEM logo to access the global navigation console and then tapping or clicking the Tools icon and navigating to **Assets **&gt;** Image Presets**.
 
@@ -84,7 +84,7 @@ To use Dynamic Media to preview and generate dynamic renditions for AI, EPS or P
 >
 >In the DAM Update Asset workflow, the **EPS thumbnails** step generates thumbnails for EPS files.
 
-#### PDF/AI/EPS asset metadata properties {#pdf-ai-eps-asset-metadata-properties}
+### PDF/AI/EPS asset metadata properties {#pdf-ai-eps-asset-metadata-properties}
 
 | **Metadata property** |**Description** |
 |---|---|
@@ -95,13 +95,13 @@ You access `Rasterize PDF/AI Image Preview Rendition` process component options 
 
 Tap on Adobe Experience Manager in the upper left, navigate to **Tools **> **Workflow** > **Models**. On the Workflow Models page, select **DAM Update Asset**, then on the toolbar tap **Edit**. On the DAM Update Asset workflow page, double-tap the `Rasterize PDF/AI Image Preview Rendition` process component to open its Step Properties dialog box.
 
-#### Rasterize PDF/AI Image Preview Rendition options {#rasterize-pdf-ai-image-preview-rendition-options}
+### Rasterize PDF/AI Image Preview Rendition options {#rasterize-pdf-ai-image-preview-rendition-options}
 
 ![Arguments to rasterize PDF or AI workflow](assets/rasterize_pdf_ai_image_preview.png)
 
 Arguments to rasterize PDF or AI workflow
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Process Argument</strong></td> 
@@ -153,7 +153,7 @@ The ExtendScript paths in the arguments of Media Extraction process component in
 
 The following scripts, are used by Dynamic Media integration:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Extend Script name</strong></td> 
@@ -178,7 +178,7 @@ The following scripts, are used by Dynamic Media integration:
  </tbody> 
 </table>
 
-### Configuring Image Thumbnail Size {#configuring-image-thumbnail-size}
+## Configuring Image Thumbnail Size {#configuring-image-thumbnail-size}
 
 You can configure the size of thumbnails by configuring those settings in the **DAM Update Asset **workflow. There are two steps in the workflow where you can configure the thumbnail size of image assets. Although one (**Dynamic Media Process Image Assets**) is used for dynamic image assets and the other (**Process Thumbnails**) for static thumbnail generation or when all other processes fail to generate thumbnails, *both* should have the same settings.
 
@@ -286,7 +286,7 @@ When you create or edit image presets, you have the options described in this se
 
 #### Basic tab options {#basic-tab-options}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Field</strong></td> 
@@ -338,7 +338,7 @@ When you create or edit image presets, you have the options described in this se
 
 #### Advanced tab options {#advanced-tab-options}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Field</strong></td> 
@@ -421,7 +421,7 @@ When you create or edit image presets, you have the options described in this se
  </tbody> 
 </table>
 
-### Defining Image Preset Options with Image Modifiers {#defining-image-preset-options-with-image-modifiers}
+## Defining Image Preset Options with Image Modifiers {#defining-image-preset-options-with-image-modifiers}
 
 In addition to the options available in the Basic and Advanced tabs, you can define image modifiers to give you more options when defining image presets. Image Rendering relies on the Scene7 image rendering API and are defined in detail in the [HTTP Protocol Reference](http://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/c_http_protocol_reference.html).
 
@@ -471,7 +471,7 @@ The following are some basic examples of what you can do with image modifiers.
 
   ![](assets/chlimage_1-503.png)
 
-### Modifying Image Presets {#modifying-image-presets}
+## Modifying Image Presets {#modifying-image-presets}
 
 To edit image presets:
 
@@ -482,7 +482,7 @@ To edit image presets:
 1. Select a preset and then click **Edit**. The **Edit Image Preset** window opens.
 1. Make changes and click **Save** to save your changes or **Cancel** to cancel your changes.
 
-### Publishing Image Presets {#publishing-image-presets}
+## Publishing Image Presets {#publishing-image-presets}
 
 If you are running Dynamic Media - Hybrid mode, you must manually publish image presets.
 
@@ -496,7 +496,7 @@ To manually publish image presets in Dynamic Media - Hybrid mode:
 
    ![](assets/chlimage_1-505.png)
 
-### Deleting Image Presets {#deleting-image-presets}
+## Deleting Image Presets {#deleting-image-presets}
 
 To delete image presets:
 

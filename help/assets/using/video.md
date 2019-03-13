@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Video{#video}
+# Video {#video}
 
 This section describes working with video in Dynamic Media.
 
@@ -185,7 +185,7 @@ Progressive video is delivered by downloading and storing the video locally to a
 
 The following table describes the device, browser, and playback method of videos on desktop computers and mobile devices using the Scene7 Video Viewer.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Device</strong></td> 
@@ -282,7 +282,7 @@ When you encode a video file, use a source video file of the highest possible qu
 
 The following table describes the recommended size, aspect ratio, and minimum bit rate that your source video files should have before you encode them:
 
-<table border="1" cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Size</p> </th> 
@@ -327,7 +327,7 @@ width/height = aspect ratio
 
 The following table describes how formula results translate to common aspect ratio choices:
 
-<table border="1" cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Formula result</p> </th> 
@@ -379,7 +379,7 @@ When you choose a video encoding preset, take into account the target end userâ€
 
 This table describes the data rate of typical connection speeds.
 
-<table border="1" cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Speed (Kbps)</p> </th> 
@@ -412,7 +412,7 @@ This table describes the data rate of typical connection speeds.
 
 Resolution and data rate are two integrally linked factors that determine video quality. To maintain the same video quality, the higher the number of pixels in a video file (the higher the resolution), the higher the data rate must be. For example, consider the number of pixels per frame in a 320 x 240 resolution and a 640 x 480 resolution video file:
 
-<table border="1" cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Resolution</p> </th> 
@@ -442,7 +442,7 @@ Because resolution and data rate are linked, you have two options when encoding 
 
 When you choose (or create) a video encoding preset for your master video file, use this table to target the correct resolution:
 
-<table border="1" cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Resolution</p> </th> 
@@ -500,7 +500,7 @@ If the resulting ratio is a whole integer, it means that the video is optimally 
 
 As an example, suppose that your source video is 1920 x 1080. In the following table, the three encoded videos provide the optimal encoding settings to use.
 
-<table border="1" cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Video Type</p> </th> 
@@ -577,7 +577,7 @@ To configure Google Cloud settings:
    [https://accounts.google.com/SignUp?service=mail](https://accounts.google.com/SignUp?service=mail)  
    If you already have a Google account, skip to the next step.
 1. Go to [https://cloud.google.com/](https://cloud.google.com/).
-1. On the Google Cloud Platform page, near the top, click **Console**. You may need **Sign in** using your Google account credentials**.**
+1. On the Google Cloud Platform page, near the top, click **Console**. You may need **Sign in** using your Google account credentials.
 1. On the Dashboard page, click **Create Project**.
 1. In the New Project dialog box, enter in a project name.  
   
@@ -854,7 +854,7 @@ To unpublish videos to remove them from YouTube:
 
 When you upload a new video to a folder that has video encoding applied or you publish your video to youtube, you can monitor how your video encoding/youtube publishing is progressing (or failing) in a number of ways. Actual YouTube publishing progress is only available via the logs but whether it fails or succeeds is listed in additional ways described in the following procedure. In addition, you may receive email notifications when a YouTube publish workflow or video encoding completes or is aborted.
 
-#### Monitoring progress {#monitoring-progress}
+### Monitoring progress {#monitoring-progress}
 
 To monitor progress (including failed encoding/YouTube publish):
 
@@ -1145,7 +1145,7 @@ You create a chapter list for your video in much the same way that you create ca
   
 You can use the following sample as an example of the format you use to create a WebVTT file with chapter navigation:
 
-#### WebVTT file with video chapter navigation {#webvtt-file-with-video-chapter-navigation}
+### WebVTT file with video chapter navigation {#webvtt-file-with-video-chapter-navigation}
 
 ```xml
 WEBVTT 
@@ -1186,11 +1186,7 @@ See [WebVTT: The Web Video Text Tracks format](http://dev.w3.org/html5/webvtt/)
 
 1. Do one of the following:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td colspan="2" rowspan="2"> 
-    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
      <tbody> 
       <tr> 
        <td>For a pop-up video viewer experience</td> 
@@ -1218,8 +1214,7 @@ See [WebVTT: The Web Video Text Tracks format](http://dev.w3.org/html5/webvtt/)
       </tr> 
      </tbody> 
     </table> </td> 
-  </tr> 
-  <tr></tr> 
+  </tr>  
  </tbody> 
 </table>
 

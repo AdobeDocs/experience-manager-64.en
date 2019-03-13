@@ -32,7 +32,7 @@ See [About the use of stages in AEM 3D](../../assets/using/about-the-use-of-stag
 >
 >To view a 3D asset, your device or desktop browser must be WebGL-enabled. Also, the underlying graphics hardware must have sufficient capabilities and memory to render models of the desired size and complexity. Certain preview features, such as cast shadow, are not available on all browsers.
 
-#### Performance considerations when you view 3D assets {#performance-considerations-when-you-view-d-assets}
+### Performance considerations when you view 3D assets {#performance-considerations-when-you-view-d-assets}
 
 The time it takes to open a 3D asset in the asset details page view depends on several factors. These factors include such things as the following:
 
@@ -58,7 +58,7 @@ To view 3D assets:
       If you use a non-touch input device without a scroll wheel, such as a classic Apple single-button mouse, you can still change the zoom or perspective of a 3D asset, while in each respective mode. You accomplish the action by pressing and holding down the `SHIFT`key while depressing the mouse button and dragging up or down.  
       When using a touch pad on a typical notebook computer, it is often difficult to control the zoom or perspective behaviors with the two-finger gesture. In such cases, you can press and hold down `SHIFT`during the action. This kind of effort reduces the velocity of the pinch gesture and makes it easier to achieve the exact zoom level or perspective that you want. Alternately, you can use a one finger drag up or down while the `SHIFT`key is pressed to affect zoom or perspective behaviors.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Camera control name</strong><br /> </td> 

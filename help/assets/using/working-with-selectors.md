@@ -28,7 +28,7 @@ For example, in this carousel banner, you use the Product selector if you are li
 
 When you select (rather than manually enter) where hotspots or image maps go to, you are using the selector. The Site selector only works if you are an AEM sites customer. The product selector also requires AEM Commerce.
 
-### Selecting Products {#selecting-products}
+## Selecting Products {#selecting-products}
 
 Use the product selector to choose a product when you want a hotspot or image map to provide a quick view to a specific product in your product catalog.
 
@@ -66,7 +66,7 @@ Use the product selector to choose a product when you want a hotspot or image ma
 
    ![](assets/chlimage_1-528.png)
 
-### Selecting Sites {#selecting-sites}
+## Selecting Sites {#selecting-sites}
 
 Use the site selector to choose a webpage when you want a hotspot or image map to link to a webpage that is managed within AEM sites.
 
@@ -86,7 +86,7 @@ Use the site selector to choose a webpage when you want a hotspot or image map t
 
 1. When in Preview mode if you tap or click the hotspot or image map, you navigate to the AEM site page you specified.
 
-### Selecting Assets {#selecting-assets}
+## Selecting Assets {#selecting-assets}
 
 Use this selector to choose images to be used in a carousel banner, an interactive video, image sets, mixed media sets, and spin sets. In interactive video, the asset selector is available when you tap or click **Select Assets** in the Content tab. In carousel sets, the asset selector is available when you create a new slide. In image sets, mixed media sets, and spin sets, the asset selector is available when you create a new image set, mixed media set, or spin set, respectively.
 
@@ -107,7 +107,7 @@ See also [Asset Picker](../../assets/using/asset-selector.md) for more informati
 
    ![](assets/chlimage_1-534.png)
 
-   Tap or click **View as **to change how you view products - either list, column, or card view.
+   Tap or click **View as** to change how you view products - either list, column, or card view.
 
    ![](assets/chlimage_1-535.png)
 

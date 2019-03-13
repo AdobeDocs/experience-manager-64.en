@@ -46,9 +46,7 @@ In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access th
 
 In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access the following configurations:
 
-##
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Path</strong></td> 
@@ -87,8 +85,7 @@ In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access th
 
 ## Cloud Services Configuration Settings {#cloud-services-configuration-settings}
 
-Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.**** 
-****
+Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.
 
 | **Path** |**Description** |
 |---|---|

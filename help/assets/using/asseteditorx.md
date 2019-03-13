@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Extending Asset Editor{#extending-asset-editor}
+# Extending Asset Editor {#extending-asset-editor}
 
 The Asset Editor is the page that opens when an asset found through the Asset Share is clicked allowing the user to edit such aspects of the asset as metadata, thumbnail, title and tags.
 
@@ -22,15 +22,15 @@ Configuration of the editor using the predefined editing components is covered i
 
 In addition to using pre-existing editor components, Adobe Experience Manager (AEM) developers can also create their own components.
 
-### Creating an Asset Editor Template {#creating-an-asset-editor-template}
+## Creating an Asset Editor Template {#creating-an-asset-editor-template}
 
 The following sample pages are included in geometrixx:
 
 * Geometrixx Sample Page: **/content/geometrixx/en/press/asseteditor.html**
 * Sample Template: **/apps/geometrixx/templates/asseteditor**
-* Sample Page Component:** /apps/geometrixx/components/asseteditor**
+* Sample Page Component: **/apps/geometrixx/components/asseteditor**
 
-#### Configuring Clientlib {#configuring-clientlib}
+### Configuring Clientlib {#configuring-clientlib}
 
 AEM Assets components use an extension of the WCM edit clientlib. The clientlibs are usually loaded in **init.jsp**.
 
@@ -42,7 +42,7 @@ Compared to the default clientlib loading (in core's **init.jsp**), an AEM Asset
 
 In most cases, copying the existing sample **init.jsp** (**/apps/geometrixx/components/asseteditor/init.jsp**) should meet these needs.
 
-#### Configuring JS actions {#configuring-js-actions}
+### Configuring JS actions {#configuring-js-actions}
 
 Some of the AEM Assets components require JS functions defined in **component.js**. Copy this file to your component directory and link it.
 
@@ -53,7 +53,7 @@ Some of the AEM Assets components require JS functions defined in **component.js
 
 The sample loads this javascript source in **head.jsp **(**/apps/geometrixx/components/asseteditor/head.jsp**).
 
-#### Additional Style Sheets {#additional-style-sheets}
+### Additional Style Sheets {#additional-style-sheets}
 
 Some of the AEM Assets components use the AEM widgets library. To be rendered properly in the content context, an additional style sheet has to be loaded. The tag action component requires one more.
 
@@ -61,11 +61,11 @@ Some of the AEM Assets components use the AEM widgets library. To be rendered pr
 <link href="/etc/designs/geometrixx/ui.widgets.css" rel="stylesheet" type="text/css">
 ```
 
-#### Geometrixx Style Sheet {#geometrixx-style-sheet}
+### Geometrixx Style Sheet {#geometrixx-style-sheet}
 
 The sample page components require that all selectors start with **.asseteditor** of **static.css** (**/etc/designs/geometrixx/static.css**). Best practice: Copy all **.asseteditor** selectors to your style sheet and adjust the rules as desired.
 
-#### FormChooser: Adjustments for eventually loaded Resources {#formchooser-adjustments-for-eventually-loaded-resources}
+### FormChooser: Adjustments for eventually loaded Resources {#formchooser-adjustments-for-eventually-loaded-resources}
 
 The Asset Editor uses the Form Chooser, which allows you to edit resources - in this case assets - on the same form page by simply adding a form selector and the path of the form to the URL of the asset.
 
@@ -126,7 +126,7 @@ In the HTML part, use the preceding title set (either asset or page title):
 
 ```
 
-### Creating a simple form field component {#creating-a-simple-form-field-component}
+## Creating a simple form field component {#creating-a-simple-form-field-component}
 
 This example describes how to build a component that shows and displays the metadata of a loaded asset.
 
@@ -209,7 +209,7 @@ This example describes how to build a component that shows and displays the meta
 
 1. In **Edit** mode, the new component (for example, **Sample Metadata**) is now available in the sidekick (found in the **Asset Editor **group). Insert the component. To be able to store the metadata, it must be added to the metadata form.
 
-### Modifying Metadata Options {#modifying-metadata-options}
+## Modifying Metadata Options {#modifying-metadata-options}
 
 You can modify the namespaces available in the [metadata form](../../assets/using/assets-finder-editor.md#metadata-form-and-text-field-configuring-the-view-metadata-component).
 
@@ -221,7 +221,7 @@ Currently available metadata are defined in **/libs/dam/options/metadata**:
 
 The options can be overwritten in **/apps/dam/options/metadata**:
 
-1. Copy the directory from **/libs **to **/apps**.
+1. Copy the directory from **/libs** to **/apps**.
 
 1. Remove, modify, or add items.
 

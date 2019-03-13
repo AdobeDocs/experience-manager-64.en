@@ -36,7 +36,7 @@ To fully upload files to AEM Assets that you have created with Adobe InDesign a 
 >  The scripts are written in extendscript, which is similar to javascript. For information about Indesign scripts see [http://www.adobe.com/devnet/indesign/documentation.html#idscripting](http://www.adobe.com/devnet/indesign/documentation.html#idscripting).
 >
 
-### How the Extraction Works {#how-the-extraction-works}
+## How the Extraction Works {#how-the-extraction-works}
 
 The InDesign Server can be integrated with AEM Assets so that files created with InDesign ( `.indd`) can be uploaded, renditions generated, *all* media extracted (for example, video) and stored as assets:
 

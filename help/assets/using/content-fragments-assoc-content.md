@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Associated Content{#associated-content}
+# Associated Content {#associated-content}
 
 >[!CAUTION]
 >
@@ -22,7 +22,7 @@ snippet: y
 
 Associated content provides the connection so that assets (i.e.) can be (optionally) used with the fragment when it is added to a content page. This provides flexibility by [providing a range of assets to access when using the content fragment on a page](../../sites/authoring/using/content-fragments.md#using-associated-content), while also helping to reduce the time required to search for the appropriate asset.
 
-### Adding Associated Content {#adding-associated-content}
+## Adding Associated Content {#adding-associated-content}
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ To make the association you first need to [add your media asset(s) to a collecti
 
    ![](assets/cfm-6420-05.png)
 
-### Editing Associated Content {#editing-associated-content}
+## Editing Associated Content {#editing-associated-content}
 
 Once you have associated a collection you can:
 

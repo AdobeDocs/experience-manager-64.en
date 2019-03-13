@@ -85,7 +85,7 @@ Start by uploading the images for your Image Sets. Because users can zoom on ima
 
 You can upload images for Image Sets as you would [upload any other asset in Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
-#### Preparing Image Set assets for upload {#preparing-image-set-assets-for-upload}
+### Preparing Image Set assets for upload {#preparing-image-set-assets-for-upload}
 
 Before creating Image Sets, make sure that the images are the right size and format.
 

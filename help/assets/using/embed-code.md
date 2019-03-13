@@ -52,7 +52,7 @@ To embed the video viewer or asset viewer on a web page:
 1. In the Embed Code dialog box, copy the entire code to the clipboard, and then click **Close**.
 1. Paste the embed code into your web pages.
 
-### Using HTTP/2 to deliver your Dynamic Media assets {#using-http-to-deliver-your-dynamic-media-assets}
+## Using HTTP/2 to deliver your Dynamic Media assets {#using-http-to-deliver-your-dynamic-media-assets}
 
 HTTP/2 is the new, updated web protocol that improves the way browsers and servers communicate. It provides faster transfer of information and reduces the amount of processing power that is needed. Delivery of Dynamic Media assets can now be over HTTP/2 which provides better response and load times.
 

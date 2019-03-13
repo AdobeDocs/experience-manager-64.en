@@ -15,6 +15,3 @@ snippet: y
 ---
 
 # Installing and Configuring Video Transcoder with FFmpeg{#installing-and-configuring-video-transcoder-with-ffmpeg}
-
-##
-

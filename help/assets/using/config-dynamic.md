@@ -46,11 +46,11 @@ Other content, such as Dynamic Media viewers, Site pages, and static content wil
 
 If you are a customer of Dynamic Media, you are required to use hybrid delivery as the delivery mechanism for all Dynamic Media content.
 
-#### Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
+## Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
 ![](assets/chlimage_1-506.png) 
 
-#### Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
+## Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
 
 ![](assets/chlimage_1-507.png) 
 
@@ -66,7 +66,7 @@ The configuration tasks that follow reference the following terms:
 
 You may choose to implement Dynamic Media only for imaging, only for video, or for both imaging and video. To determine the steps for configuring Dynamic Media for your specific scenario, please reference the following table. 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="20%"><strong>Scenario</strong></td> 
@@ -542,8 +542,6 @@ As part of the configuration, you need to enter a registration ID, video service
 
 To configure dynamic media cloud services:
 
-##
-
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools **&gt; **Cloud Services** &gt; **Dynamic Media Configuration (Pre-6.3)**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, select **global**, then click **Create**.
 1. In the **Create Dynamic Media Configuration** dialog box, in the Title field, type a title.
@@ -614,10 +612,8 @@ Make sure that the Video Analytics preset package from the first Author node is 
   
       `http://localhost:4502/is/image/conf/global/settings/dam/dm/presets/analytics?req=userdata`  
   
-      To validate the preset on Publish servers, you can make a similar direct request to the Publish server. The responses are the same on Author and Publish nodes. The response looks similar to the following:** 
-  
-      ** 
-    
+      To validate the preset on Publish servers, you can make a similar direct request to the Publish server. The responses are the same on Author and Publish nodes. The response looks similar to the following:
+      
       ```    
       marketingCloudOrgId=0FC4E86B573F99CC7F000101
        reportSuite=aemaem6397618-2018-05-23
@@ -625,14 +621,12 @@ Make sure that the Video Analytics preset package from the first Author node is 
        trackingServer=aemvideodal.d2.sc.omtrdc.net
       ```
 
-    * **Check the Video Analytics preset through the Video Reporting tool in AEM  
-      **Click **Tools** &gt; **Assets** &gt; **Video Reporting  
-  
-      ** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
+    * **Check the Video Analytics preset through the Video Reporting tool in AEM**  
+      Click **Tools** &gt; **Assets** &gt; **Video Reporting** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
   
       If you see the following error message, the report suite is available, but unpopulated. This error is correct--and desired--in a new installation before the system collects any data.
 
-   ![](assets/screen_shot_2018-05-23at52254pm.png)
+      ![](assets/screen_shot_2018-05-23at52254pm.png)
 
    To generate reporting data, upload and publish one video. Use **Copy URL** and run the video at least one time.  
   
@@ -704,7 +698,7 @@ The filters provide a way for you to *exclude* assets from being replicated to t
 
 If you are using Dynamic Media for (1) imaging in production **or** (2) imaging and video, then you can use the default filters that we provide as-is. The following filters are active by default:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> </td> 
@@ -822,7 +816,7 @@ To optionally customize asset filters for replication:
 
    Characters that you can use to filter for replication include the following:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Character to use</strong></td> 
@@ -880,7 +874,7 @@ To configure Dynamic Media Image Server settings:
    >
    >In most cases, there is no need to change the default values. However, if you do change the default values, you must restart the bundle for the changes to take affect.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -955,7 +949,7 @@ Be sure you click the **Access Control** tab (to the right of the Properties tab
 
 Table of Manifest settings and their default values:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -1022,7 +1016,7 @@ You can configure dynamic media color management and configure image presets usi
 
 Advanced use cases could use a manual configure** icc=** modifier to explicitly select an output color profile:
 
-* **icc **- [https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_icc.html](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_icc.html)
+* **icc** - [https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_icc.html](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_icc.html)
 
 * **iccEmbed** - [https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_iccembed.html](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_iccembed.html)
 
@@ -1062,7 +1056,7 @@ To configure the default color profiles:
 
    **Color Correction Properties Table**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -1323,7 +1317,7 @@ After you complete all the tasks above, activated Dynamic Media assets are serve
 
 See [Delivering Dynamic Media Assets](../../assets/using/delivering-dynamic-media-assets.md).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>When you...</strong></td> 
