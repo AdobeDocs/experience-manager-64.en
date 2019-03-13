@@ -20,11 +20,11 @@ snippet: y
 
 This section of the documentation describes how to add client-side libraries (clientlibs) to a page for Communities components.
 
-For basic information, visit :
+For basic information, visit:
 
 * [Using Client-Side Libraries](../../sites/developing/using/clientlibs.md) which provides usage details as well as debugging tools
 * [Clientlibs for SCF](../../communities/using/client-customize.md#clientlibs) which provides useful information when customizing SCF components
-* [Blog : AEM Client Libraries explained by example](http://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/)
+* [Blog: AEM Client Libraries explained by example](http://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/)
 
 ## Why Clientlibs are Required {#why-clientlibs-are-required}
 
@@ -34,11 +34,11 @@ When there exists a [community function](../../communities/using/functions.md) f
 
 When the required clientlibs are missing, [adding a Communities component to a page](../../communities/using/author-communities.md) could result in javascript errors as well as an unexpected appearance.
 
-### Example : Placed Reviews without Clientlibs {#example-placed-reviews-without-clientlibs}
+### Example: Placed Reviews without Clientlibs {#example-placed-reviews-without-clientlibs}
 
 ![](assets/chlimage_1-244.png) 
 
-### Example : Placed Reviews with Clientlibs {#example-placed-reviews-with-clientlibs}
+### Example: Placed Reviews with Clientlibs {#example-placed-reviews-with-clientlibs}
 
 ![](assets/chlimage_1-245.png) 
 
@@ -61,7 +61,7 @@ When it is desired to add a Communities component to a page, it will be necessar
 
 Use [CRXDE|Lite](#using-crxde-lite) to modify an existing clientlibslist for a community site page.
 
-To add a clientlib for a community site using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
+To add a clientlib for a community site using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 * browse to [http://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 * locate the `clientlibslist` node for the page on which you wish to add the component
@@ -86,7 +86,7 @@ To add a clientlib for a community site using [CRXDE Lite](../../sites/developin
 >
 >If the site is not a community site, the existance or location of the client libraries in use for the site would need to be discovered.
 
-Using the [Getting Started with AEM Communities](../../communities/using/getting-started.md) example, where `site-name` is *engage*, this is how the clientliblist would appear if adding the reviews component :
+Using the [Getting Started with AEM Communities](../../communities/using/getting-started.md) example, where `site-name` is *engage*, this is how the clientliblist would appear if adding the reviews component:
 
 ![](assets/chlimage_1-247.png)
 

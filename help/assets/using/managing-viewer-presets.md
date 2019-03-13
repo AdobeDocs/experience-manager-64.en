@@ -59,7 +59,7 @@ See [Responsive Image library](https://marketing.adobe.com/resources/help/en_US/
 >Please note that you must publish all out-of-the-box viewers before you first use them.  
 >See [Publishing Viewer Presets.](#publishing-viewer-presets)
 
-## Viewer Preset system compatiblity  {#viewer-preset-system-compatiblity}
+## Viewer Preset system compatibility  {#viewer-preset-system-compatibility}
 
 All out-of-the-box Viewer Presets that come with Dynamic Media are fully compatible with the following systems:
 

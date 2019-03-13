@@ -26,7 +26,7 @@ In addition to content relevance, the scoring algorithms take into account membe
 
 Therefore, the advanced scoring engine requires enough data to make analysis meaningful. The achievement threshold for becoming an expert is constantly re-evaluated as the algorithm continually adjusts to the volume and quality of content created. There is also a concept of *decay *of a member's older posts. If an expert member stops participating in the subject matter where they gained expert status, at some pre-determined point (see [scoring engine configuration](#configurable-scoring-engine)) they could lose their status as an expert.
 
-Setting up advanced scoring is virtually the same as basic scoring :
+Setting up advanced scoring is virtually the same as basic scoring:
 
 * basic and advanced scoring and badging rules are [applied to content](../../communities/using/implementing-scoring.md#apply-rules-to-content) in the same manner
 
@@ -34,15 +34,15 @@ Setting up advanced scoring is virtually the same as basic scoring :
 
 * [enabling badges for components](../../communities/using/implementing-scoring.md#enable-badges-for-component) is generic
 
-The differences in setting up the scoring and badging rules are :
+The differences in setting up the scoring and badging rules are:
 
 * configurable advanced scoring engine
-* advanced scoring rules :
+* advanced scoring rules:
 
     * scoringType set to 'advanced'
     * requires stopwords
 
-* advanced badging rules :
+* advanced badging rules:
 
     * badgingType set to 'advanced'
     * badgingLevels set to number of expert levels to award
@@ -60,7 +60,7 @@ The advanced scoring engine provides an OSGi configuration with parameters that 
 
 * **scoring weights** 
   For a topic, specify the verb that should be given the highest priority when calculating the score. One or more topics may be entered, but limited to **one verb per topic**. See [Topics and Verbs](../../communities/using/implementing-scoring.md#topics-and-verbs).  
-  Entered as `topic,verb` with the comma escaped. For example :  
+  Entered as `topic,verb` with the comma escaped. For example:  
   `/social/forum/hbs/social/forum\,ADD`  
   Default is set to the ADD verb for QnA and forum components.
 
@@ -96,7 +96,7 @@ See [Scoring Sub-Rules](../../communities/using/implementing-scoring.md#scoring-
 
 ### stopwords {#stopwords}
 
-The advanced scoring package installs a configuration folder that contains a stopwords file :
+The advanced scoring package installs a configuration folder that contains a stopwords file:
 
 * /etc/community/scoring/configuration/stopwords
 
@@ -124,7 +124,7 @@ Instead of associating points with a badge image, it is only necessary to identi
   <tr>
    <td style="text-align: center;">badgingPath</td> 
    <td style="text-align: center;">String[]</td> 
-   <td style="text-align: left;"><i>(required)</i> A multi-value string of badge images up to the number of badgingLevels. The badge image paths must be ordered so the first is awarded to the highest expert. If there are less badges than indicated by badgingLevels, the last badge in the array fills out the rest of the array. Example entry :<br /> <span class="code">/etc/community/badging/images/expert-badge/jcr:content/expert.png</span></td> 
+   <td style="text-align: left;"><i>(required)</i> A multi-value string of badge images up to the number of badgingLevels. The badge image paths must be ordered so the first is awarded to the highest expert. If there are less badges than indicated by badgingLevels, the last badge in the array fills out the rest of the array. Example entry:<br /> <span class="code">/etc/community/badging/images/expert-badge/jcr:content/expert.png</span></td> 
   </tr>
   <tr>
    <td style="text-align: center;">badgingLevels</td> 
@@ -139,7 +139,7 @@ Instead of associating points with a badge image, it is only necessary to identi
   <tr>
    <td style="text-align: center;">scoringRules</td> 
    <td style="text-align: center;">String[]</td> 
-   <td style="text-align: left;"><i>(optional)</i> A multi-value string to restrict the badging rule to scoring events identified by the scoring rule(s) listed.<br /> Example entry :<br /> <span class="code">/etc/community/scoring/rules/adv-comments-scoring</span><br /> Default is no restriction.</td> 
+   <td style="text-align: left;"><i>(optional)</i> A multi-value string to restrict the badging rule to scoring events identified by the scoring rule(s) listed.<br /> Example entry:<br /> <span class="code">/etc/community/scoring/rules/adv-comments-scoring</span><br /> Default is no restriction.</td> 
   </tr>
  </tbody>
 </table>
@@ -148,26 +148,26 @@ Instead of associating points with a badge image, it is only necessary to identi
 
 ### Included Badge {#included-badge}
 
-Included in this beta release is one reward-based expert badge :
+Included in this beta release is one reward-based expert badge:
 
 * expert  
   /etc/community/badging/images/expert-badge/jcr:content/expert.png
 
 ![](assets/chlimage_1-263.png)
 
-In order for the expert badge to appear as a reward for activity, there are two things that must happen :
+In order for the expert badge to appear as a reward for activity, there are two things that must happen:
 
 * `badges` must be enabled for the feature, such as a forum or QnA component
 * advanced scoring and badging rules must be applied to the page (or ancestor) on which the component is placed
 
-See the basic informaton for :
+See the basic informaton for:
 
 * [enabling badging for a component](../../communities/using/implementing-scoring.md#enableforcomponent)
 * [applying rules](../../communities/using/implementing-scoring.md#applytopage)
 
 ### Included Scoring Rules and Sub-Rules {#included-scoring-rules-and-sub-rules}
 
-Included in the beta release are two advanced scoring rules for the [forum function](../../communities/using/functions.md#forum-function) (one each for the forum and comments components of the forum feature) :
+Included in the beta release are two advanced scoring rules for the [forum function](../../communities/using/functions.md#forum-function) (one each for the forum and comments components of the forum feature):
 
 1. /etc/community/scoring/rules/adv-comments-scoring
 

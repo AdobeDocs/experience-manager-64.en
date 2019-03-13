@@ -21,7 +21,7 @@ The blog feature for AEM Communities has transformed from an authoring activity 
 
 The blog feature supports providing community information in a journaling format. Blog entries are made in the publish environment by authorized members (registered, signed-in users).
 
-The blog feature provides :
+The blog feature provides:
 
 * Publish-side creation of blog articles and comments
 * Rich text editing
@@ -206,7 +206,7 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
     * Categories
     * Archives
 
-* **Journal Component Path** 
+* **Journal Component Path**
   *(Optional)* The location of the blog resource from which blog articles are to be listed. If left blank, will use the component of resourceType `social/journal/components/hbs/journal` that appears on the same page.
 
     * for example, `/content/sites/engage/en/blog/jcr:content/content/primary/blog`
@@ -224,7 +224,7 @@ When a blog article is selected, the blog article and comments are displayed (if
 
 Other abilities depend on whether the site visitor is a moderator, administrator, community member, privileged member or anonymous.
 
-#### Working with Articles {#working-with-articles}
+### Working with Articles {#working-with-articles}
 
 When creating a new blog article, there is the choice to
 
@@ -234,13 +234,13 @@ When creating a new blog article, there is the choice to
 
 The blog articles will appear under the appropriate tab (Published, Drafts or Scheduled) to members able to author on publish.
 
-#### Moderators and Administrators {#moderators-and-administrators}
+### Moderators and Administrators {#moderators-and-administrators}
 
 When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](../../communities/using/moderate-ugc.md) (as permitted by the configuration of the component) on all blog articles and comments posted to a blog.
 
 ![](assets/chlimage_1-152.png)
 
-#### Members {#members}
+### Members {#members}
 
 When the signed in user is a community member or [privileged member](../../communities/using/users.md#privileged-members-group) (depending on configuration), they are able to select `New Article` to create and post a new blog article.
 
@@ -255,7 +255,7 @@ Specifically, they may
 
 ![](assets/chlimage_1-153.png) ![](assets/chlimage_1-154.png)
 
-#### Anonymous {#anonymous}
+### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted blog articles and comments, translate them if supported, but may not add a blog article or comment nor flag others' articles or comments.
 

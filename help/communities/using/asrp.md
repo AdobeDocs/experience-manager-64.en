@@ -43,7 +43,7 @@ The [Storage Configuration console](../../communities/using/srp-config.md) allow
 
 **On author**,
 
-* from global navigation : **Tools, Communities, Storage Configuration**
+* from global navigation: **Tools, Communities, Storage Configuration**
 
 ![](assets/chlimage_1-310.png)
 
@@ -64,12 +64,12 @@ The [Storage Configuration console](../../communities/using/srp-config.md) allow
 
 * select **Submit**
 
-Prepare the publish instances :
+Prepare the publish instances:
 
 * [replicate the crypto key](#replicate-the-crypto-key)
 * [replicate the configuration](#publishing-the-configuration)
 
-After submitting the configuration, test the connection :
+After submitting the configuration, test the connection:
 
 * select **Test Config** 
   for each author and publish instance, test the connection to the data center from the Storage Configuration console
@@ -96,13 +96,13 @@ In order for authentication with the ASRP endpoint to succeed, the machines runn
 
 ASRP must be identified as the common store on all author and publish instances.
 
-To make the identical configuration available in the publish environment :
+To make the identical configuration available in the publish environment:
 
-* on author :
+* on author:
 
     * navigate from main menu to `Tools > Operations > Replication`
     * select **Activate Tree**
-    * **Start Path :**
+    * **Start Path:**
 
         * browse to `/etc/socialconfig/srpc/`
 
@@ -148,7 +148,7 @@ While the interval affecting eventual consistency is monitored, please contact y
 
 Make sure ASRP has been configured to be the default provider by checking the configuration of the storage option. By default, the storage resource provider is JSRP, not ASRP.
 
-On all author and publish AEM instances, revisit the Storage Configuration console or check the AEM repository :
+On all author and publish AEM instances, revisit the Storage Configuration console or check the AEM repository:
 
 * in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 

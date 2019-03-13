@@ -257,10 +257,6 @@ For all upgrades, either with or without the compatibility package, you can copy
 
 `curl -u admin:admin http://localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets`
 
-```
-
-```
-
 ## Configuring Image Replication {#configuring-image-replication}
 
 Dynamic Media image delivery works by publishing image assets, including video thumbnails, from AEM Author and replicating them to Adobe's on-demand replication service (the Replication Service URL). Assets are then delivered by way of the on-demand image delivery service (the Image Service URL).
@@ -282,7 +278,7 @@ After you have configured the replication agent, you need to [validate and test 
 >
 >An image that requires more than the maximum memory limit will be rejected.
 >
->To change the memory limit for PTIFF creation, navigate to **Tools** &gt; **Operations** &gt; **Web Console **&gt; **Adobe CQ Scene7 PTiffManager** and change the **maxMemory** value.
+>To change the memory limit for PTIFF creation, navigate to **Tools** &gt; **Operations** &gt; **Web Console**&gt; **Adobe CQ Scene7 PTiffManager** and change the **maxMemory** value.
 
 ### Setting up Authentication {#setting-up-authentication}
 
@@ -929,7 +925,7 @@ To configure Dynamic Media Image Server settings:
    | Cache Max Size |200000000 |Maximum size of response cache in bytes. |
    | Cache Max Entries |100000 |Maximum number of entries allowed in the cache. |
 
-#### Default Manifest settings {#default-manifest-settings}
+### Default Manifest settings {#default-manifest-settings}
 
 The default manifest lets you configure the defaults that are used to generate the Dynamic Media Delivery responses. You can fine tune quality (JPEG quality, resolution, resampling mode), caching (expiration), and prevent the rendering of images that are too large (defaultpix, defaultthumbpix, maxpix).
 

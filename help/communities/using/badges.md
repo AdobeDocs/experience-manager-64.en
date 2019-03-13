@@ -22,7 +22,7 @@ The Communities Badges console provides the ability to add custom badges which c
 
 ### Badge Visibility {#badge-visibility}
 
-Currently, badges a community member earns or is assigned will appear along with their name and avatar in the following locations :
+Currently, badges a community member earns or is assigned will appear along with their name and avatar in the following locations:
 
 * profiles
 * [forums](../../communities/using/forum.md)
@@ -30,11 +30,9 @@ Currently, badges a community member earns or is assigned will appear along with
 * [leaderboards](../../communities/using/enabling-leaderboard.md)
 * [ideation](../../communities/using/ideation-feature.md)
 
-##
-
 In the author environment, to reach the Badges console
 
-* from global navigation : **Tools, Communities, Badges**
+* from global navigation: **Tools, Communities, Badges**
 
 This console displays the badges currently available and from which new badges can be added.
 

@@ -31,7 +31,6 @@ The first step is to add a resource super type property to the `/apps/an-scf-san
 
 Using CRXDE Lite:
 
-1. 
 1.
 
     * Name: ** `sling:resourceSuperType`**
@@ -47,7 +46,7 @@ Using CRXDE Lite:
 
 1. In **CRXDE Lite** explorer pane, navigate to `/apps/an-scf-sandbox/components/playpage` and double-click the file `playpage.jsp` to open it in the edit pane.
 
-   #### /apps/an-scf-sandbox/components/playpage/playpage.jsp {#apps-an-scf-sandbox-components-playpage-playpage-jsp}
+#### /apps/an-scf-sandbox/components/playpage/playpage.jsp {#apps-an-scf-sandbox-components-playpage-playpage-jsp}
 
    ```xml
    <%--
@@ -68,12 +67,12 @@ Using CRXDE Lite:
 
    With a super type of `foundation/components/page`, any script not defined in this same folder will resolve to a script in `/apps/foundation/components/page` folder (if it exists), else to a script in `/libs/foundation/components/page` folder.
 
-   #### /apps/an-scf-sandbox/components/playpage/playpage.jsp {#apps-an-scf-sandbox-components-playpage-playpage-jsp-1}
+#### /apps/an-scf-sandbox/components/playpage/playpage.jsp {#apps-an-scf-sandbox-components-playpage-playpage-jsp-1}
 
    ```xml
    <%--
    
-       An SCF Sandbox Play Component component : playpage.jsp
+       An SCF Sandbox Play Component component: playpage.jsp
    
      This is the component which renders content for An SCF Sandbox page.
    
@@ -88,7 +87,7 @@ Using CRXDE Lite:
 
 1. The foundation script `head.jsp` need not be overlaid, but the foundation script `body.jsp` is empty.
 
-   To setup for authoring, overlay `body.jsp` with a local script and include a paragraph system (parsys) in the body :
+   To setup for authoring, overlay `body.jsp` with a local script and include a paragraph system (parsys) in the body:
 
     1. navigate to `/apps/an-scf-sandbox/components`
     1. select the `playpage`node
@@ -96,14 +95,14 @@ Using CRXDE Lite:
 
         * Name: **body.jsp**
 
-    1. click** Save All**
+    1. click **Save All**
 
    Open `/apps/an-scf-sandbox/components/playpage/body.jsp` and paste in the following text:  
 
    ```xml
    <%--
    
-       An SCF Sandbox Play Component component : body.jsp
+       An SCF Sandbox Play Component component: body.jsp
    
      This is the component which renders content for An SCF Sandbox page.
    
@@ -116,11 +115,11 @@ Using CRXDE Lite:
    </body>
    ```
 
-1. Click** Save All**
+1. Click **Save All**
 
 **View the page in a browser in edit mode:**
 
-* Standard UI : [http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.html]( http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.md)
+* Standard UI: [http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.html]( http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.md)
 
 You should not only see the heading **Community Play**, but also the UI for editing page content.
 
@@ -128,15 +127,15 @@ The Assets/Component side panel is seen when both the side panel is toggled open
 
 ![](assets/chlimage_1-232.png)
 
-* Classic UI : [http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html](http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html)
+* Classic UI: [http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html](http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html)
 
-Following is how the play page appears in the classic UI including with content finder (cf) :
+Following is how the play page appears in the classic UI including with content finder (cf):
 
 ![](assets/chlimage_1-233.png) 
 
 ## Communities Components {#communities-components}
 
-To enable Communities components for authoring, start by following these instructions :
+To enable Communities components for authoring, start by following these instructions:
 
 * [Accessing Communities Components](../../communities/using/basics.md#accessing-communities-components)
 
@@ -167,7 +166,7 @@ In a multi-language environment, the root page would include a script which woul
 
 In this simple example, the root page is being statically set to redirect to the english page, which may be developed in the future to be the main landing page with a link to the play page.
 
-Change the browser URL to the root page : [http://localhost:4502/editor.html/content/an-scf-sandbox.html](http://locahost:4502/editor.html/content/an-scf-sandbox.html)
+Change the browser URL to the root page: [http://localhost:4502/editor.html/content/an-scf-sandbox.html](http://locahost:4502/editor.html/content/an-scf-sandbox.html)
 
 * select the Page Information icon
 * select **Open Properties**

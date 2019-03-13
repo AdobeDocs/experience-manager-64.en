@@ -74,7 +74,7 @@ Under the **Settings **tab, specify whether or not to allow tags to be applied t
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
 * **Allowed File Types** 
-  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.
+  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.
 
 * **Max Attach Image File Size** 
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152** **(2 Mb).
@@ -154,13 +154,13 @@ When a calendar event is selected, the calendar event details, description and c
 
 Other abilities depend on whether the site visitor is a moderator, administrator, community member, privileged member or anonymous.
 
-#### Moderators and Administrators {#moderators-and-administrators}
+### Moderators and Administrators {#moderators-and-administrators}
 
 When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](../../communities/using/moderate-ugc.md) (as permitted by the configuration of the component) on all calendar events and comments posted to an event.
 
 ![](assets/chlimage_1-115.png)
 
-#### Members {#members}
+### Members {#members}
 
 When the signed in user is a community member or [privileged member](../../communities/using/users.md#privileged-members-group) (depending on configuration), they are able to select `New Event` to create and post a new calendar event.
 
@@ -174,7 +174,7 @@ Specifically, they may
 
 ![](assets/chlimage_1-116.png) ![](assets/chlimage_1-117.png)
 
-#### Anonymous {#anonymous}
+### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted calendar events, translate them if supported, but may not add an event or comment nor flag others' events or comments.
 

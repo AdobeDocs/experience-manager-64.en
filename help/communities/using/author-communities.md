@@ -20,7 +20,7 @@ snippet: y
 
 When AEM Communities is licensed, in addition to creating community sites, it is possible to add Communities features to any AEM site using standard AEM authoring tools.
 
-To learn more about creating a community site visit :
+To learn more about creating a community site visit:
 
 * [AEM Communities Overview](../../communities/using/overview.md)
 * [Getting Started with AEM Communities](../../communities/using/getting-started.md)
