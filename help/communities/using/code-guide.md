@@ -22,7 +22,7 @@ Working with AEM Communities has evolved from being heavily dependant on Java Se
 
 Further flexibility in working with user generated content (UGC) is through the SocialResourceProvider API, which eliminates the need for awareness of which [SRP](../../communities/using/srp.md) option was chosen for the deployment.
 
-Following are various coding guidelines and best practices for AEM Communities developers :
+Following are various coding guidelines and best practices for AEM Communities developers:
 
 ### Code {#code}
 

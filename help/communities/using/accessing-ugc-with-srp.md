@@ -20,7 +20,7 @@ snippet: y
 
 All AEM Communities components and features are built on the [social component framework (SCF)](../../communities/using/scf.md), which invokes the SocialResourceProvider API to access all user generated content (UGC).
 
-Before a community site is created, the [storage resource provider (SRP)](../../communities/using/working-with-srp.md) must be configured to select an implementation consistent with the underlying [topology](../../communities/using/topologies.md). The SRP implementations are based on three storage options :
+Before a community site is created, the [storage resource provider (SRP)](../../communities/using/working-with-srp.md) must be configured to select an implementation consistent with the underlying [topology](../../communities/using/topologies.md). The SRP implementations are based on three storage options:
 
 1. [ASRP](../../communities/using/asrp.md) - Adobe on-demand storage
 1. [MSRP](../../communities/using/msrp.md) - MongoDB
@@ -42,7 +42,7 @@ When developing custom components, developers should be careful to code independ
 
 Methods specific to JCR should avoided.
 
-Methods to use :
+Methods to use:
 
 * Sling API (Sling Resource)
 
@@ -55,7 +55,7 @@ Methods to use :
 * [SocialResourceUtilities](../../communities/using/socialutils.md#socialresourceutilities-package)
 * [SCFUtilities](../../communities/using/socialutils.md#scfutilities-package)
 
-Methods to avoid :
+Methods to avoid:
 
 * Node API
 * JCR events

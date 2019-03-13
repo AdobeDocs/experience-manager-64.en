@@ -24,20 +24,20 @@ Adobe Analytics may be configured for AEM Communities so that, as a member inter
 
 For example, when a member of an enablement community site views a video resource assigned to them, the resource player will send events to Analytics, including video heartbeat data. From the community site, administrators are able to see various reports regarding the playing of the video.
 
-Further, analytics is necessary for :
+Further, analytics is necessary for:
 
-* in the publish environment :
+* in the publish environment:
 
     * reporting on community [trends](../../communities/using/trends.md)
     * allow site visitors to sort by "most viewed", "most active", "most liked"
     * view counts on UGC lists
 
-* in the author environment :
+* in the author environment:
 
     * display of participation data in the [members management console](../../communities/using/members.md) (views, posts, follows, likes)
     * trend summary, video heartbeat and videio device for enablement resource [reports](../../communities/using/reports.md)
 
-Supported Communities features include :
+Supported Communities features include:
 
 * [enablement resources](../../communities/using/resources.md)
 * [forum](../../communities/using/forum.md)
@@ -46,7 +46,7 @@ Supported Communities features include :
 * [file library](../../communities/using/file-library.md)
 * [calendar](../../communities/using/calendar.md)
 
-This section of the documentation describes how to connect an Analytics report suite with Communities features. The basic steps are :
+This section of the documentation describes how to connect an Analytics report suite with Communities features. The basic steps are:
 
 1. [Replicate the crypto key](#replicate-the-crypto-key) to ensure encryption/decryption occurs correctly on all AEM instances
 1. Prepare an Adobe Analytics [report suite](#adobe-analytics-report-suite-for-video-reporting)
@@ -60,7 +60,7 @@ This section of the documentation describes how to connect an Analytics report s
 
 ## Prerequisites {#prerequisites}
 
-To configure Analytics for Communities features, it is necessary to work with your account representative to setup an Adobe Analytics account and [report suite](#adobe-analytics-report-suite-for-video-reporting). Once established, the following information should be available :
+To configure Analytics for Communities features, it is necessary to work with your account representative to setup an Adobe Analytics account and [report suite](#adobe-analytics-report-suite-for-video-reporting). Once established, the following information should be available:
 
 * Company Name  
   the company that is associated with the Adobe Analytics account
@@ -79,7 +79,7 @@ To configure Analytics for Communities features, it is necessary to work with yo
 
 Using the Adobe Marketing Cloud's [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html), Analytics report suites can be configured so that a community site may be enabled to provide reports for Communities features.
 
-By signing in to [Adobe Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) with [Company Name and Username](../../communities/using/analytics.md#prerequisites), it is possible to configure a new or existing report suite to have :
+By signing in to [Adobe Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) with [Company Name and Username](../../communities/using/analytics.md#prerequisites), it is possible to configure a new or existing report suite to have:
 
 * [11 Conversion Variables](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) (evars)
 
@@ -131,7 +131,7 @@ If using an **existing report suite**, it may be necessary to [modify the variab
 
 When Video Heartbeat Analytics is licensed, a `Marketing Cloud Org Id` is assigned.
 
-To enable Video Heartbeat reporting after [configuring the Analytics report suite for video reporting](#adobe-analytics-report-suite-for-video-reporting) :
+To enable Video Heartbeat reporting after [configuring the Analytics report suite for video reporting](#adobe-analytics-report-suite-for-video-reporting):
 
 * create an [Analytics cloud service](#aem-analytics-cloud-service-configuration)
 * enable [Analytics for a community site](#enable-analytics-for-a-community-site)
@@ -147,9 +147,9 @@ If not enabled, the video heartbeat code is never instantiated and only the vide
 
 ## AEM Analytics Cloud Service Configuration {#aem-analytics-cloud-service-configuration}
 
-To create a new Analytics Integration, which integrates Adobe Analytics with the AEM community site, using the standard UI on the author instance :
+To create a new Analytics Integration, which integrates Adobe Analytics with the AEM community site, using the standard UI on the author instance:
 
-* from global navigation : **Tools, Deployment, Cloud Services**
+* from global navigation: **Tools, Deployment, Cloud Services**
 * scroll down to **Adobe Analytics**
 * select either **Configure Now** or **Show Configurations**
 
@@ -208,7 +208,7 @@ The initial creation of a new Analytics configuration results in the display of 
 * **Do not import page impressions nightly (publish)** 
   leave as default (checked)
 
-To save the settings :
+To save the settings:
 
 * select **Connect to Analytics**
 
@@ -255,7 +255,7 @@ The purpose of the framework is to map AEM variables to Analytics variables (eva
 
 Select the report suite that has been set up for video reporting.
 
-If a report suite has not yet been created or not properly set up, see the previous section :  
+If a report suite has not yet been created or not properly set up, see the previous section:  
 [Adobe Analytics Report Suite for Video Reporting](#adobe-analytics-report-suite-for-video-reporting)
 
 The Sidekick is not needed and may be minimized so that it does not obstruct access to the Report Suites settings.
@@ -270,7 +270,7 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
 1. choose a `Report suite`  
    the report suites associated with the Company account should be available for selection
 
-1. Select **Yes **in the dialog that opens :
+1. Select **Yes **in the dialog that opens:
 
    ```
    Load default server settings?
@@ -288,10 +288,10 @@ The Analytic cloud service and framework are now complete. The Mappings will be 
 
 ### Enable for New Community Site {#enable-for-new-community-site}
 
-To add the Analytics cloud service while [creating a new community site](../../communities/using/sites-console.md) :
+To add the Analytics cloud service while [creating a new community site](../../communities/using/sites-console.md):
 
 * in step 3
-* under the [ANALYTICS tab](../../communities/using/sites-console.md#analytics) :
+* under the [ANALYTICS tab](../../communities/using/sites-console.md#analytics):
 
     * check the **Enable Analytics** checkbox
     * choose the framework from the drop-down box
@@ -300,12 +300,12 @@ To add the Analytics cloud service while [creating a new community site](../../c
 
 ### Enable for Existing Community Site {#enable-for-existing-community-site}
 
-To add the Analytics cloud service to an [existing community site](../../communities/using/sites-console.md#modifying-site-properties) :
+To add the Analytics cloud service to an [existing community site](../../communities/using/sites-console.md#modifying-site-properties):
 
 * navigate to the **Communities, Sites** console
 * select the community site's Edit Site icon
 * select the SETTINGS
-* in the Analytics section :
+* in the Analytics section:
 
     * check the **Enable Analytics** checkbox
     * choose the framework from the drop-down box
@@ -330,7 +330,7 @@ In order for Analytics tracking and import to work properly for a community site
 
 For a **customized community site** that overlays the `sitepage.hbs` script, ensure the element is present. The `siteUrl`variable will be set when rendered on the server before serving to the client.
 
-For a **generic AEM site** that includes Communities components, but is not created with the [site creation wizard](../../communities/using/sites-console.md), it is necessary to add the element. The value of the href should be the path to the site. For example, if the site path is `/content/my/company/en`, then use :
+For a **generic AEM site** that includes Communities components, but is not created with the [site creation wizard](../../communities/using/sites-console.md), it is necessary to add the element. The value of the href should be the path to the site. For example, if the site path is `/content/my/company/en`, then use:
 
 ```xml
 <div 
@@ -353,7 +353,7 @@ If new custom components are created that are instrumented for Analytics, they s
 
 ![](assets/chlimage_1-273.png)
 
-Note : the `journal` components are used to implement the blog feature.
+Note: the `journal` components are used to implement the blog feature.
 
 ### Mapped Analytics to AEM Variables {#mapped-analytics-to-aem-variables}
 
@@ -361,7 +361,7 @@ Once the community site is saved with Analytics enabled and the cloud config fra
 
 If using an existing report suite that mapped any of the variables within evar1 through evar11 and event1 through event7, it will be necessary to [remap the AEM variables](#modifying-analytics-variable-mapping) and restore the original mapping.
 
-Following is an example of default mappings after following the [getting started tutorial](../../communities/using/getting-started-enablement.md) :
+Following is an example of default mappings after following the [getting started tutorial](../../communities/using/getting-started-enablement.md):
 
 ![](assets/chlimage_1-274.png) 
 
@@ -489,20 +489,20 @@ Following is an example of default mappings after following the [getting started
  </tbody> 
 </table>
 
-**Examples for eVar values :**
+**Examples for eVar values:**
 
-* *(a) [MIME type](https://www.iana.org/assignments/media-types)* : video/mp4
-* *(b) [community site title](../../communities/using/sites-console.md#step13asitetemplate)* : Geometrixx Communities
-* *(c) [community function name](../../communities/using/functions.md)* : Forum
-* *(d) [community group name](../../communities/using/creating-groups.md#creating-a-new-group)* : Hiking
-* *(e) path to community group content* : /content/sites/communities/en/groups/hiking
-* *(f) [UGC component resourceType](../../communities/using/essentials.md)* : social/forum/components/hbs/topic
-* *(g) UGC component title* : Hiking Topics
-* *(h) login (authorizableId)* : aaron.mcdonald@mailinator.com
-* *(i) SRP path to UGC* : /content/usergenerated/asi/.../forum/jmtz-topic3  
-  or *path of component to follow* : /content/sites/communities/en/jcr:content/content/primary/forum
+* *(a) [MIME type](https://www.iana.org/assignments/media-types)*: video/mp4
+* *(b) [community site title](../../communities/using/sites-console.md#step13asitetemplate)*: Geometrixx Communities
+* *(c) [community function name](../../communities/using/functions.md)*: Forum
+* *(d) [community group name](../../communities/using/creating-groups.md#creating-a-new-group)*: Hiking
+* *(e) path to community group content*: /content/sites/communities/en/groups/hiking
+* *(f) [UGC component resourceType](../../communities/using/essentials.md)*: social/forum/components/hbs/topic
+* *(g) UGC component title*: Hiking Topics
+* *(h) login (authorizableId)*: aaron.mcdonald@mailinator.com
+* *(i) SRP path to UGC*: /content/usergenerated/asi/.../forum/jmtz-topic3  
+  or *path of component to follow*: /content/sites/communities/en/jcr:content/content/primary/forum
 
-* *(j) path to community site content* : /content/sites/community/en
+* *(j) path to community site content*: /content/sites/community/en
 
 ### Modifying Analytics Variable Mapping {#modifying-analytics-variable-mapping}
 
@@ -518,15 +518,15 @@ If Communities evars and events overwrite mappings that pre-existed in the repor
 >
 >It is important to remap before the community site is [published](#publishing-the-community-site) with Analytics enabled, else there is risk of data loss.
 
-#### Example Step 1 : Dragging Analytics evar14 into mapping table {#example-step-dragging-analytics-evar-into-mapping-table}
+#### Example Step 1: Dragging Analytics evar14 into mapping table {#example-step-dragging-analytics-evar-into-mapping-table}
 
 ![](assets/chlimage_1-275.png) 
 
-#### Example Step 2 : Selecting 'x' to remove replaced evar11 {#example-step-selecting-x-to-remove-replaced-evar}
+#### Example Step 2: Selecting 'x' to remove replaced evar11 {#example-step-selecting-x-to-remove-replaced-evar}
 
 ![](assets/chlimage_1-276.png) 
 
-#### Example Step 3 : AEM var eventdata.siteId remapped to Analytics evar14 {#example-step-aem-var-eventdata-siteid-remapped-to-analytics-evar}
+#### Example Step 3: AEM var eventdata.siteId remapped to Analytics evar14 {#example-step-aem-var-eventdata-siteid-remapped-to-analytics-evar}
 
 ![](assets/chlimage_1-277.png) 
 
@@ -536,7 +536,7 @@ If Communities evars and events overwrite mappings that pre-existed in the repor
 
 It is wise to verify the variable mapping prior to publishing the community site, which also publishes the Analytics cloud service and framework.
 
-See sections :
+See sections:
 
 * [Mapped Analytics to AEM Variables](#mapped-analytics-to-aem-variables)
 * [Modifying Analytics Variable Mapping](#modifying-analytics-variable-mapping)
@@ -605,7 +605,7 @@ The default polling **Import interval** is set to 12 hours.
 
 Presently, to customize the metrics to track, nodes are created in the repository that define time periods for which to generate a report on that metric.
 
-The forum topic is presently the only example of this customization :
+The forum topic is presently the only example of this customization:
 
 * on the primary publisher
 * sign in with administrative privileges
@@ -640,7 +640,7 @@ Adobe Analytics provides APIs that allow you to access, export, and delete user 
 
 ## Resources {#resources}
 
-* Adobe Marketing Cloud : [Analytics Help and Reference](https://marketing.adobe.com/resources/help/en_US/reference/)
-* AEM : [Integrating with Adobe Analytics](../../sites/administering/using/adobeanalytics.md)
-* AEM : [Analytics with External Providers](../../sites/administering/using/external-providers.md)
+* Adobe Marketing Cloud: [Analytics Help and Reference](https://marketing.adobe.com/resources/help/en_US/reference/)
+* AEM: [Integrating with Adobe Analytics](../../sites/administering/using/adobeanalytics.md)
+* AEM: [Analytics with External Providers](../../sites/administering/using/external-providers.md)
 

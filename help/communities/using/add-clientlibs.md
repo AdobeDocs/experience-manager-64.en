@@ -16,10 +16,10 @@ snippet: y
 
 # Add Clientlibs{#add-clientlibs}
 
-| ** [⇐ Develop Sandbox Application](../../communities/using/develop-app.md)** |** [Develop Sandbox Content ⇒](../../communities/using/develop-content.md)** |
+| **[⇐ Develop Sandbox Application](../../communities/using/develop-app.md)** |**[Develop Sandbox Content ⇒](../../communities/using/develop-content.md)** |
 |---|---|
 
-### Add a ClientLibraryFolder (clientlibs) {#add-a-clientlibraryfolder-clientlibs}
+## Add a ClientLibraryFolder (clientlibs) {#add-a-clientlibraryfolder-clientlibs}
 
 Create a ClientLibraryFolder named `clientlibs`which will contain the JS and CSS used to render the pages of your site.
 
@@ -29,8 +29,8 @@ The `categories`property value given to this client library is the identifier us
 
 1. right click on `an-scf-sandbox` and select `Create Node`
 
-    * Name : `clientlibs`
-    * Type : `cq:ClientLibraryFolder`
+    * Name: `clientlibs`
+    * Type: `cq:ClientLibraryFolder`
 
 1. click **OK**
 
@@ -38,13 +38,13 @@ The `categories`property value given to this client library is the identifier us
 
 In the **Properties** tab for the new `clientlibs` node, enter the **`categories`**property:
 
-* Name : **categories**
-* Type : **String**
-* Value : **apps.an-scf-sandbox**
+* Name: **categories**
+* Type: **String**
+* Value: **apps.an-scf-sandbox**
 * click **Add**
 * click **Save All**
 
-Note : prefacing the categories value with 'apps.' is a convention to identify the 'owning application' as being in the /apps folder, not /libs.  IMPORTANT : Add placeholder `js.tx`t and**`css.tx`**t files. (It's not officially a cq:ClientLibraryFolder without them.)
+Note: prefacing the categories value with 'apps.' is a convention to identify the 'owning application' as being in the /apps folder, not /libs.  IMPORTANT: Add placeholder `js.tx`t and**`css.tx`**t files. (It's not officially a cq:ClientLibraryFolder without them.)
 
 1. right click on **`/etc/designs/an-scf-sandbox/clientlibs`**
 1. select** Create File...**
@@ -74,7 +74,7 @@ Then create a file under clientlibs named style.css, and set the content to
 
 `}`
 
-### Embed SCF Clientlibs {#embed-scf-clientlibs}
+## Embed SCF Clientlibs {#embed-scf-clientlibs}
 
 In the **Properties** tab for the `clientlibs` node, enter the multi-value String property **embed**. This will embed the necessary [client-side libraries (clientlibs) for SCF components](../../communities/using/client-customize.md#clientlibs-for-scf). For this tutorial we will add many of the clientlibs necessary for the Communities components.
 
@@ -84,8 +84,8 @@ If only using one feature on one page, you could include that feature's complete
 
 In this case, we're including them all, and so would prefer the more basic SCF clientlibs which are the author clientlibs:
 
-* Name : **`embed`**
-* Type : **`String`**
+* Name: **`embed`**
+* Type: **`String`**
 * click **`Multi`**
 * Value: **`cq.social.scf`** 
   *&lt;enter&gt; will pop up a dialog  
@@ -103,23 +103,23 @@ In this case, we're including them all, and so would prefer the more basic SCF c
 
 ![](assets/chlimage_1-222.png)
 
-This is how `/etc/designs/an-scf-sandbox/clientlibs` should now appear in the repository :
+This is how `/etc/designs/an-scf-sandbox/clientlibs` should now appear in the repository:
 
 ![](assets/chlimage_1-223.png) 
 
-### Include Clientlibs in PlayPage Template {#include-clientlibs-in-playpage-template}
+## Include Clientlibs in PlayPage Template {#include-clientlibs-in-playpage-template}
 
 Without including the `apps.an-scf-sandbox` ClientLibraryFolder category on the page, the SCF components will not be functional nor styled as the necessary Javascript(s) and style(s) will not be available.
 
-For example, without including the clientlibs, the SCF comments component appears unstyled :
+For example, without including the clientlibs, the SCF comments component appears unstyled:
 
 ![](assets/chlimage_1-224.png)
 
-Once apps.an-scf-sandbox clientlibs is included, the SCF comments component appears styled :
+Once apps.an-scf-sandbox clientlibs is included, the SCF comments component appears styled:
 
 ![](assets/chlimage_1-225.png)
 
-The include statement belongs in the <head> section of the <html> script. The default **`foundation head.jsp`** includes a script that can be overlaid : **`headlibs.jsp`**.
+The include statement belongs in the <head> section of the <html> script. The default **`foundation head.jsp`** includes a script that can be overlaid: **`headlibs.jsp`**.
 
 **Copy headlibs.jsp and include clientlibs:**
 
@@ -151,7 +151,7 @@ Load your website in the browser and see if the background is not a shade of blu
 
 ![](assets/chlimage_1-226.png) 
 
-### Saving Your Work So Far {#saving-your-work-so-far}
+## Saving Your Work So Far {#saving-your-work-so-far}
 
 At this point, there exists a minimalist sandbox, and it might be worth saving as a package so that, while playing, if your respository becomes corrupt and you desire to start over, you can turn your server off, rename or delete the folder crx-quickstart/, turn your server on, upload and install this saved package, and not have to repeat these most basic of steps.
 
@@ -187,6 +187,6 @@ To create a package:
 
 Now you can select **Download **to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.  
 
-| ** [⇐ Develop Sandbox Application](../../communities/using/develop-app.md)** |** [Develop Sandbox Content ⇒](../../communities/using/develop-content.md)** |
+| **[⇐ Develop Sandbox Application](../../communities/using/develop-app.md)** |**[Develop Sandbox Content ⇒](../../communities/using/develop-content.md)** |
 |---|---|
 

@@ -16,7 +16,7 @@ snippet: y
 
 # Author a New Community Site for Enablement{#author-a-new-community-site-for-enablement}
 
-| ** [⇐ Initial Setup](../../communities/using/enablement-setup.md)** |** [Create and Assign Enablement Resources ⇒](../../communities/using/resource.md)** |
+| **[⇐ Initial Setup](../../communities/using/enablement-setup.md)** |**[Create and Assign Enablement Resources ⇒](../../communities/using/resource.md)** |
 |---|---|
 
 ## Create Community Site {#create-community-site}
@@ -32,7 +32,7 @@ Using the [author instance](http://localhost:4502/)
 
 * select **Create**
 
-### Step 1 : Site Template {#step-site-template}
+### Step 1: Site Template {#step-site-template}
 
 ![](assets/enablementsitetemplate.png)
 
@@ -57,7 +57,7 @@ On the **Site Template** step, enter a title, description, the name for the URL,
 
 Select **Next**
 
-### Step 2 : Design {#step-design}
+### Step 2: Design {#step-design}
 
 The Design step is presented in two sections for selecing the theme and branding banner :
 
@@ -75,7 +75,7 @@ Select the desired style to apply to the template. When selected, the theme will
 
 Select **Next**.
 
-### Step 3 : Settings {#step-settings}
+### Step 3: Settings {#step-settings}
 
 On the Settings step, before selecting `Next`, notice there are seven sections providing access to configurations involving user management, tagging, roles, moderation, analytics, translation, and enablement.
 
@@ -165,7 +165,7 @@ For an enablement community, it is necessary to identify one or more Community E
 
 Select **Next**.
 
-### Step 4 : Create Community Site {#step-create-community-site}
+### Step 4: Create Community Site {#step-create-community-site}
 
 Select **Create.**
 
@@ -179,7 +179,7 @@ When the process completes, the folder for the new site is displayed in the Comm
 
 The created site should be managed from the Communities - Sites console, the same console from where new sites may be created.
 
-After selecting the community site's folder, hover over the site icon such that four action icons appear :
+After selecting the community site's folder, hover over the site icon such that four action icons appear:
 
 ![](assets/siteactionicons.png)
 
@@ -187,7 +187,7 @@ On selecting the ellipses icon (More Actions icon), Export Site and Delete Site 
 
 ![](assets/siteactionsnew.png)
 
-From left to right they are :
+From left to right they are:
 
 * **Open Site** 
   select the pencil icon to open the community site in author edit mode, to add and/or configure page components
@@ -248,7 +248,7 @@ In this example, the group `Community Ski Class` is added as a member of the gro
 
 ## Configurations on Publish {#configurations-on-publish}
 
-#### http://localhost:4503/content/sites/enable/en.html {#http-localhost-content-sites-enable-en-html}
+### http://localhost:4503/content/sites/enable/en.html {#http-localhost-content-sites-enable-en-html}
 
 ![](assets/chlimage_1-296.png)
 

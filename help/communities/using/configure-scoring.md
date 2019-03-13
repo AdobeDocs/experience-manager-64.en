@@ -22,7 +22,7 @@ The details of setting up the feature are described at
 
 * [Communities Scoring and Badges](../../communities/using/implementing-scoring.md)
 
-This page contains additional technical details :
+This page contains additional technical details:
 
 * how to [display a badge](#displaying-badges) as either image or text
 * how to turn on extensive [debug logging](#debug-log-for-scoring-and-badging)
@@ -36,7 +36,7 @@ This page contains additional technical details :
 
 Whether a badge is displayed as text or image is controlled on the client side in the HBS template.
 
-For example, search for `this.isAssigned` in `/libs/social/forum/components/hbs/topic/list-item.hbs`, :
+For example, search for `this.isAssigned` in `/libs/social/forum/components/hbs/topic/list-item.hbs`,:
 
 ```
 {{#each author.badges}}
@@ -76,7 +76,7 @@ To help debug scoring and badging, a custom log file can be setup. The contents 
 
 For detailed instructions, visit [Create a Custom Log File](../../sites/deploying/using/monitoring-and-maintaining.md#create-a-custom-log-file).
 
-To quickly setup a slinglog file :
+To quickly setup a slinglog file:
 
 1. access the **Adobe Experience Manager Web Console Log Support**, for example
 
@@ -121,112 +121,112 @@ It is possible to view the UGC related to scoring and badging when the chosen SR
 
 The descriptions for accessing scoring and badging data use JSRP, as the UGC is easily accessible using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md).
 
-**JSRP on author** : experimenting in the author environment results in UGC that is only visible from the author environment.
+**JSRP on author**: experimenting in the author environment results in UGC that is only visible from the author environment.
 
-**JSRP on publish** : similarly, if testing on the publish environment, it will be necessary to access CRXDE Lite with administrative privileges on a publish instance. If the publish instance is running in [production mode](../../sites/administering/using/production-ready.md) (nosamplecontent runmode), it will be necessary to [enable CRXDE Lite](../../sites/administering/using/enabling-crxde-lite.md).
+**JSRP on publish**: similarly, if testing on the publish environment, it will be necessary to access CRXDE Lite with administrative privileges on a publish instance. If the publish instance is running in [production mode](../../sites/administering/using/production-ready.md) (nosamplecontent runmode), it will be necessary to [enable CRXDE Lite](../../sites/administering/using/enabling-crxde-lite.md).
 
 The base location of UGC on JSRP is `/content/usergenerated/asi/jcr/`.
 
 ### Scoring and Badging APIs {#scoring-and-badging-apis}
 
-The following APIs are available for use :
+The following APIs are available for use:
 
 * [com.adobe.cq.social.scoring.api](https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/scoring/api/package-summary.html)
 * [com.adobe.cq.social.badging.api](https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/badging/api/package-summary.html)
 
-The latest Javadocs for the installed [feature pack](/communities/using/version-history.md) are available to developers from the Adobe repository. See [Using Maven for Communities : Javadocs](../../communities/using/maven.md#javadocs).
+The latest Javadocs for the installed [feature pack](/communities/using/version-history.md) are available to developers from the Adobe repository. See [Using Maven for Communities: Javadocs](../../communities/using/maven.md#javadocs).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
 ### Example Setup {#example-setup}
 
-The screen shots of repository data come from setting up scoring and badging for a forum on two different AEM sites :
+The screen shots of repository data come from setting up scoring and badging for a forum on two different AEM sites:
 
-1) An AEM site *with *an unique id (community site created using wizard) :
+1. An AEM site *with *an unique id (community site created using wizard):
 
-* using the Getting Started Tutorial (engage) site created during the [getting started tutorial](../../communities/using/getting-started.md)
-* locate the forum page node
+    * using the Getting Started Tutorial (engage) site created during the [getting started tutorial](../../communities/using/getting-started.md)
+    * locate the forum page node
 
-    * `/content/sites/engage/en/forum/jcr:content`
+        * `/content/sites/engage/en/forum/jcr:content`
 
-* add scoring and badging properties
+    * add scoring and badging properties
 
-    * 
-    
-      ```    
-      scoringRules = [/etc/community/scoring/rules/comments-scoring,
-       /etc/community/scoring/rules/forums-scoring]
-      ```    
-    
-    * 
-    
-      ```    
-      badgingRules =[/etc/community/badging/rules/comments-scoring,
-       /etc/community/badging/rules/forums-scoring]
-      ```
+        * 
+        
+          ```    
+          scoringRules = [/etc/community/scoring/rules/comments-scoring,
+          /etc/community/scoring/rules/forums-scoring]
+          ```    
+        
+        * 
+        
+          ```    
+          badgingRules =[/etc/community/badging/rules/comments-scoring,
+          /etc/community/badging/rules/forums-scoring]
+          ```
 
-* locate the forum component node
+    * locate the forum component node
 
-    * `/content/sites/engage/en/forum/jcr:content/content/primary/forum`  
-      ( `sling:resourceType = social/forum/components/hbs/forum`)
+        * `/content/sites/engage/en/forum/jcr:content/content/primary/forum`  
+          ( `sling:resourceType = social/forum/components/hbs/forum`)
 
-* add property to display badges
+    * add property to display badges
 
-    * `allowBadges = true`
+        * `allowBadges = true`
 
-* a user signs in, creates a forum topic, and is awarded a bronze badge
+    * a user signs in, creates a forum topic, and is awarded a bronze badge
 
-2) An AEM site *without *an unique id :
+1. An AEM site *without *an unique id:
 
-* using the [Community Components guide](../../communities/using/components-guide.md)
-* locate the forum page node
+    * using the [Community Components guide](../../communities/using/components-guide.md)
+    * locate the forum page node
 
-    * `/content/community-components/en/forum/jcr:content`
+        * `/content/community-components/en/forum/jcr:content`
 
-* add scoring and badging properties
+    * add scoring and badging properties
 
-    * 
-    
-      ```    
-      scoringRules = [/etc/community/scoring/rules/comments-scoring,
-       /etc/community/scoring/rules/forums-scoring]
-      ```    
-    
-    * 
-    
-      ```    
-      badgingRules =[/etc/community/badging/rules/comments-scoring,
-       /etc/community/badging/rules/forums-scoring]
-      ```
+        * 
+        
+          ```    
+          scoringRules = [/etc/community/scoring/rules/comments-scoring,
+          /etc/community/scoring/rules/forums-scoring]
+          ```    
+        
+        * 
+        
+          ```    
+          badgingRules =[/etc/community/badging/rules/comments-scoring,
+          /etc/community/badging/rules/forums-scoring]
+          ```
 
-* locate the forum component node
+    * locate the forum component node
 
-    * `/content/community-components/en/forum/jcr:content/content/forum`  
-      ( `sling:resourceType = social/forum/components/hbs/forum`)
+        * `/content/community-components/en/forum/jcr:content/content/forum`  
+          ( `sling:resourceType = social/forum/components/hbs/forum`)
 
-* add property to display badges
+    * add property to display badges
 
-    * `allowBadges = true`
+        * `allowBadges = true`
 
-* a user signs in, creates a forum topic, and is awarded a bronze badge
+    * a user signs in, creates a forum topic, and is awarded a bronze badge
 
-3) a user is assigned a moderator badge using cURL :
+1. a user is assigned a moderator badge using cURL:
 
 ```shell
 curl -i -X POST -H "Accept:application/json" -u admin:admin -F ":operation=social:assignBadge" -F "badgeContentPath=/etc/community/badging/images/moderator/jcr:content/moderator.png" http://localhost:4503/home/users/community/w271OOup2Z4DjnOQrviv/profile.social.json
 
 ```
 
-As a user has earned two bronze badges and has been awarded a moderator badge, this is how the user appears with their forum entry :
+As a user has earned two bronze badges and has been awarded a moderator badge, this is how the user appears with their forum entry:
 
 ![](assets/chlimage_1-250.png)
 
 >[!NOTE]
 >
->This example does not follow these best practices :
+>This example does not follow these best practices:
 >
 >* scoring rule names should be globally unique; they should not end with the same name.  
->  An example of what *not *to do :  
+>  An example of what *not *to do:  
 >  /etc/community/scoring/rules/site1/forums-scoring  
 >  /etc/community/scoring/rules/site2/forums-scoring
 >
@@ -243,11 +243,11 @@ For investigative purposes, using JSRP for the example, the base folder containi
 
 The child node of `scoring`is the scoring rule name. Thus, a best practice is that scoring rule names on a server be globally unique.
 
-For the Geometrixx Engage site, the user and their score is in a path contstructed with the scoring rule name, community site's site id ( `engage-ba81p`), an unique id, and the user's id :
+For the Geometrixx Engage site, the user and their score is in a path contstructed with the scoring rule name, community site's site id ( `engage-ba81p`), an unique id, and the user's id:
 
 * `.../scoring/forums-scoring/engage-ba81p/6d179715c0e93cb2b20886aa0434ca9b5a540401/riley`
 
-For the Community Components guide site, the user and their score is in a path constructed with the scoring rule name, a default id ( `default-site`), an unique id, and the user's id :
+For the Community Components guide site, the user and their score is in a path constructed with the scoring rule name, a default id ( `default-site`), an unique id, and the user's id:
 
 * `.../scoring/forums-scoring/default-site/b27a17cb4910a9b69fe81fb1b492ba672d2c086e/riley`
 
@@ -277,7 +277,7 @@ Followed by the path to the user's profile, ending in a badges folder, such as
 
 ## Additional Information {#additional-information}
 
-To display a sorted list of members based on points :
+To display a sorted list of members based on points:
 
 * [Leaderboard function](../../communities/using/functions.md#leaderboard-function) for inclusion in a community site or group template.
 * [Leaderboard component](../../communities/using/enabling-leaderboard.md), the featured component of the Leaderboard function, for page authoring.

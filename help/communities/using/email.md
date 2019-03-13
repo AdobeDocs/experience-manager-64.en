@@ -131,7 +131,7 @@ For Communities subscriptions, it is possible to enable or disable the ability f
 
 In order for the email to be brought into the repository, it is necessary to configure a polling importer and configure its properties in the repository manually.
 
-#### Add New Polling Importer {#add-new-polling-importer}
+### Add New Polling Importer {#add-new-polling-importer}
 
 * on the primary publisher
 * signed in with administrator privileges
@@ -159,7 +159,7 @@ In order for the email to be brought into the repository, it is necessary to con
 
 * Select **OK**
 
-#### Adjust Protocol for New Polling Importer {#adjust-protocol-for-new-polling-importer}
+### Adjust Protocol for New Polling Importer {#adjust-protocol-for-new-polling-importer}
 
 Once the new polling configuration is saved, it is necessary to further modify properties of the subscription email importer in order to change the protocol from `POP3` to `emailreply`
 

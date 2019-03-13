@@ -94,7 +94,7 @@ As of AEM 6.1 Communities, use of a [common store](../../communities/using/worki
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
-See :
+See:
 
 * [Storage Resource Provider Overview](../../communities/using/srp.md) - introduction and repository usage overview
 * [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples
@@ -115,7 +115,7 @@ The AEM platform blocks links from other websites to prevent XSS attacks as desc
 
 As of AEM 6.2, the modifications previously required to be made manually are included in the default AntiSamy config file.
 
-Rich media is embeded in a blog article by selecting the `Embed Media from External Sites` icon :
+Rich media is embeded in a blog article by selecting the `Embed Media from External Sites` icon:
 
 ![](assets/chlimage_1-471.png)
 

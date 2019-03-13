@@ -24,21 +24,21 @@ snippet: y
 Use the author instance to create a new community site
 
 * sign in with administrator privileges
-* from global navigation : **Navigation, Communities, Sites**
+* from global navigation: **Navigation, Communities, Sites**
 
 The Communities Sites console provides a wizard to guide one through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
 
-To get started creating a new community site :
+To get started creating a new community site:
 
 * select the `Create`button
 
 ![](assets/createcommunitysite.png) 
 
-### Step 1 : Site Template {#step-site-template}
+### Step 1: Site Template {#step-site-template}
 
 ![](assets/createsitetemplate63.png)
 
-On the [Site Template step](../../communities/using/sites-console.md#step2013asitetemplate), enter a title, description, the name for the URL, and select a community site template, for example :
+On the [Site Template step](../../communities/using/sites-console.md#step2013asitetemplate), enter a title, description, the name for the URL, and select a community site template, for example:
 
 * **Community Site Title**: `Getting Started Tutorial`
 
@@ -47,7 +47,7 @@ On the [Site Template step](../../communities/using/sites-console.md#step2013asi
 * **Community Site Root**: (leave blank for default root `/content/sites`)  
 
 * **Cloud Configurations**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations. 
-* **Community Site Base Language**: (leave untouched for single language : English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.
+* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.
 
 * **Community Site Name**: engage
 
@@ -60,9 +60,9 @@ On the [Site Template step](../../communities/using/sites-console.md#step2013asi
 
 Select **Next**
 
-### Step 2 : Design {#step-design}
+### Step 2: Design {#step-design}
 
-The Design step is presented in two sections for selecing the theme and branding banner :
+The Design step is presented in two sections for selecing the theme and branding banner:
 
 #### COMMUNITY SITE THEME {#community-site-theme}
 
@@ -78,7 +78,7 @@ Select the desired style to apply to the template. When selected, the theme will
 
 Select **Next**.
 
-### Step 3 : Settings {#step-settings}
+### Step 3: Settings {#step-settings}
 
 On the Settings step, before selecting `Next`, notice there are seven sections providing access to configurations involving user management, tagging, moderation, group management, analytics, translation and enablement.
 
@@ -163,7 +163,7 @@ For a similar tutorial to quickly create an [enablement community](../../communi
 
 Select **Next**.
 
-### Step 4 : Create Communities Site {#step-create-communities-site}
+### Step 4: Create Communities Site {#step-create-communities-site}
 
 Select **Create.**
 
@@ -177,7 +177,7 @@ When the process completes, the folder for the new site is displayed in the Comm
 
 The created site should be managed from the Communities - Sites console, the same console from where new sites may be created.
 
-After selecting the community site's folder to open it, hover over the site icon such that four action icons appear :
+After selecting the community site's folder to open it, hover over the site icon such that four action icons appear:
 
 ![](assets/siteactionicons-1.png)
 
@@ -185,7 +185,7 @@ On selecting the fourth ellipses icon (More Actions), Export Site and Delete Sit
 
 ![](assets/siteactionsnew-1.png)
 
-From left to right they are :
+From left to right they are:
 
 * **Open Site** 
   select the pencil icon to open the community site in author edit mode, to add and/or configure page components
@@ -217,20 +217,20 @@ From left to right they are :
 >1. next to "Settings" select "Edit"
 >1. in pop up dialog for Agent Settings, select Transport tab
 >1. in URI, change the port number, 4503, to the desired port number >
->    * for example, to use port 6103 :   
+>    * for example, to use port 6103:   
 >      http://localhost:6103/bin/receive?sling:authRequestLogin=1
 >
 >1. select "OK"
 >1. (optional) select 'Clear' or 'Force Retry' to reset the replication queue
 >
 
-#### Select Publish {#select-publish}
+### Select Publish {#select-publish}
 
 After ensuring the publish server is running, select the world icon to publish the community site.
 
 ![](assets/chlimage_1-360.png)
 
-When the community site has been successfully published, a message briefly appears :
+When the community site has been successfully published, a message briefly appears:
 
 ![](assets/chlimage_1-361.png) 
 
@@ -238,7 +238,7 @@ When the community site has been successfully published, a message briefly appea
 
 Along with the new community site, new user groups are created which have the appropriate permissions set for various administrative functions. For details, visit [User Groups for Community Sites](../../communities/using/users.md#usergroupsforcommunitysites).
 
-For this new community site, given the site name "engage" in Step 1, the four new user groups may be seen from the [Groups console](../../communities/using/members.md) (global navigation : Communities, Groups):
+For this new community site, given the site name "engage" in Step 1, the four new user groups may be seen from the [Groups console](../../communities/using/members.md) (global navigation: Communities, Groups):
 
 * Community Engage Cpommunitymanagers
 * Community Engage Groupadministrators
@@ -316,13 +316,13 @@ To get started
 
 ![](assets/chlimage_1-364.png) 
 
-#### Troubleshooting : Error Saving Map {#troubleshooting-error-saving-map}
+#### Troubleshooting: Error Saving Map {#troubleshooting-error-saving-map}
 
 If unable to save changes, be sure the node name is `localhost.4503`, with a 'dot' separator, and not `localhost:4503` with a 'colon' separator, as `localhost`is not a valid namespace prefix.
 
 ![](assets/chlimage_1-365.png) 
 
-#### Troubleshooting : Fail to Redirect {#troubleshooting-fail-to-redirect}
+#### Troubleshooting: Fail to Redirect {#troubleshooting-fail-to-redirect}
 
 The '**$**' at the end of the regular expression `sling:match`string is crucial, so that only exactly `http://localhost:4503/` is mapped, else the redirect value is prepended to any path that might exist after the server:port in the URL. Thus, when AEM tries to redirect to the login page, it fails.
 

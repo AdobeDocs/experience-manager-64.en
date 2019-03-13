@@ -30,19 +30,19 @@ The Community Components site is accessed by browsing to
 
 * [http://&lt;server&gt;:&lt;port&gt;/content/community-components/en.html](http://localhost:4502/content/community-components/en.html)
 
-Interactions with the Communities components will vary depending on :
+Interactions with the Communities components will vary depending on:
 
 * the server (author or publish)
 * whether or not the site visitor is signed in
 * if signed in, the privileges assigned to the member
 * whether or not the default SRP, [JSRP](../../communities/using/jsrp.md), is in use
 
-On author, to enter edit mode, insert either * `editor.html`* or * `cf#`* as the first path segment after the server name :
+On author, to enter edit mode, insert either * `editor.html`* or * `cf#`* as the first path segment after the server name:
 
-* Standard UI :  
+* Standard UI:  
   [http://&lt;server&gt;:&lt;port&gt;/editor.html/content/community-components/en.html](http://localhost:4502/editor.html/content/community-components/en.html)
 
-* Classic UI :  
+* Classic UI:  
   [http://&lt;server&gt;:&lt;port&gt;/cf#/content/community-components/en.html](http://localhost:4502/cf#/content/community-components/en.html)
 
 >[!NOTE]
@@ -61,7 +61,7 @@ On author, to enter edit mode, insert either * `editor.html`* or * `cf#`* as the
 
 The guide provides a listing of SCF components available for preview and prototyping along the left side of the page.
 
-Components Guide as viewed on an author instance in Edit mode :
+Components Guide as viewed on an author instance in Edit mode:
 
 ![](assets/chlimage_1-404.png) 
 
@@ -71,17 +71,17 @@ Select a component from the list along the left side of the page.
 
 ![](assets/chlimage_1-405.png)
 
-The main body of the guide displays :
+The main body of the guide displays:
 
-1. Title : the name of the component selected
-1. [Client-Side Llibraries](#client-side-libraries) : a list of one or more required categories
-1. [Includable](../../communities/using/scf.md#add-or-include-a-communities-component) : if the component may be dynamically included, then the state can be toggled in author edit mode :
+1. Title: the name of the component selected
+1. [Client-Side Llibraries](#client-side-libraries): a list of one or more required categories
+1. [Includable](../../communities/using/scf.md#add-or-include-a-communities-component): if the component may be dynamically included, then the state can be toggled in author edit mode:
 
-    * if added, text displayed is : "This component is included via its par node."
-    * if included, text displayed is : "This component is included dynamically."
+    * if added, text displayed is: "This component is included via its par node."
+    * if included, text displayed is: "This component is included dynamically."
     * if not includable, then no text is displayed
 
-1. Sample Component or Feature : an active instance of the component or feature. If a component, it may be altered with changes made to the templates, CSS and data provided in the tab section.
+1. Sample Component or Feature: an active instance of the component or feature. If a component, it may be altered with changes made to the templates, CSS and data provided in the tab section.
 
 >[!NOTE]
 >
@@ -91,11 +91,11 @@ The main body of the guide displays :
 
 When using the guide on an author instance, it is possible to experience configuring a component by opening its dialog. Information for developers is provided in the [Component and Feature Essentials](../../communities/using/essentials.md) section of the documentation, while the dialog settings are described in [Communities Components](../../communities/using/author-communities.md) section for authors.
 
-For the Community Components guide, some component dialog settings are overlayed with the [Includable](../../communities/using/scf.md#add-or-include-a-communities-component) toggle state. To toggle between using the existing resource or a dynamically included resource, in edit mode select both the component and includable text and double-click to open the edit dialog :
+For the Community Components guide, some component dialog settings are overlayed with the [Includable](../../communities/using/scf.md#add-or-include-a-communities-component) toggle state. To toggle between using the existing resource or a dynamically included resource, in edit mode select both the component and includable text and double-click to open the edit dialog:
 
 ![](assets/chlimage_1-406.png)
 
-Under the **Templates **tab :
+Under the **Templates **tab:
 
 ![](assets/chlimage_1-407.png)
 
@@ -103,11 +103,11 @@ Under the **Templates **tab :
   
   If unchecked, the Component Guide will use the existing resource in the repository (a jcr node which is a child of a par node).
 
-    * text displayed is : "This component is included via its par node."
+    * text displayed is: "This component is included via its par node."
 
   If checked, the Component Guide will use sling to dynamically include a component of the child node's resourceType (non-existing resource).
 
-    * text displayed is : "This component is included dynamically."
+    * text displayed is: "This component is included dynamically."
 
   Default is unchecked.
 
@@ -143,7 +143,7 @@ When enabled, each SCF component is available for prototyping of possible custom
 
 To quickly experiment with customizations, the `scg:showIde`property must be added to the component page's content JCR node and set to true.
 
-Using the comments component as an example, on either the author or publish instance, signed in with administrator privileges :
+Using the comments component as an example, on either the author or publish instance, signed in with administrator privileges:
 
 1. browse to [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md)  
    for example, [http://localhost:4503/crx/de](http://localhost:4503/crx/de)

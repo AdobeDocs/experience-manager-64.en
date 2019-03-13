@@ -20,7 +20,7 @@ In addtion to the publicly visible interactions which occur in forums and commen
 
 This feature may be included when a [community site](../../communities/using/overview.md#communitiessites) is created.
 
-The messaging features provides the ability to :
+The messaging features provides the ability to:
 
 * send a message to one or more community members
 * send a message to a community member group

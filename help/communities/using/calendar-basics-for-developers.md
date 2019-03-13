@@ -70,7 +70,7 @@ As of AEM 6.1 Communities, use of a [common store](../../communities/using/worki
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
-See :
+See:
 
 * [Storage Resource Provider Overview](../../communities/using/srp.md) - introduction and repository usage overview
 * [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples

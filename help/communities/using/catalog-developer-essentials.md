@@ -65,7 +65,7 @@ A community site structure that includes the [Catalog function](../../communitie
 
 When a Catalog function has been added to a community site, it is possible to restrict the enablement resources and learning paths which appear in the catalog by specifying a pre-filter. This is done by setting properties on the instance of the catalog resource for the site.
 
-Using the example of the [Enablement Tutorial](../../communities/using/getting-started-enablement.md) :
+Using the example of the [Enablement Tutorial](../../communities/using/getting-started-enablement.md):
 
 * on author
 * using [CRXDE](../../sites/developing/using/developing-with-crxde-lite.md)
@@ -81,8 +81,8 @@ Using the example of the [Enablement Tutorial](../../communities/using/getting-s
     * select the `catalog`node
     * select **Create Node**
 
-        * Name : `filters`
-        * Type : `nt:unstructured`
+        * Name: `filters`
+        * Type: `nt:unstructured`
 
     * select **Save All**
 
@@ -91,9 +91,9 @@ Using the example of the [Enablement Tutorial](../../communities/using/getting-s
     * select the `filters` node
     * add a Multi property
 
-        * Name : `se_resource-tags`
-        * Type : String
-        * Value : *&lt;enter a [TagID](#pre-filter-tagids)&gt;*
+        * Name: `se_resource-tags`
+        * Type: String
+        * Value: *&lt;enter a [TagID](#pre-filter-tagids)&gt;*
         * select **Multi**
         * select **Add**
 

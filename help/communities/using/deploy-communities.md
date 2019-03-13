@@ -22,7 +22,7 @@ snippet: y
 
 * AEM Communities license
 
-* Optional licenses for :
+* Optional licenses for:
 
     * [Adobe Analytics for Communities features](../../communities/using/analytics.md)
     * [MongoDB for MSRP](../../communities/using/msrp.md)
@@ -70,7 +70,7 @@ snippet: y
 
     * if JCR SRP [(JSRP)](../../communities/using/jsrp.md)
 
-        * not a shared UGC store :
+        * not a shared UGC store:
 
             * UGC is never replicated
             * UGC only visible on AEM instance or cluster in which it was entered
@@ -100,28 +100,28 @@ As on AEM 6.4 and beyond, AEM Communities features and hotfixes are part of AEM 
 
 ### JDBC driver for MySQL {#jdbc-driver-for-mysql}
 
-Two Communities features use a MySQL database :
+Two Communities features use a MySQL database:
 
-* for [enablement](../../communities/using/enablement.md) : recording SCORM activities and learners
-* for [DSRP](../../communities/using/dsrp.md) : storing user generated content (UGC)
+* for [enablement](../../communities/using/enablement.md): recording SCORM activities and learners
+* for [DSRP](../../communities/using/dsrp.md): storing user generated content (UGC)
 
 The MySQL connector must be obtained and installed separately.
 
-The necessary steps are :
+The necessary steps are:
 
 1. download the ZIP archive from [https://dev.mysql.com/downloads/connector/j/](https://dev.mysql.com/downloads/connector/j/)
 
     * version must be &gt;= 5.1.38
 
 1. extract mysql-connector-java-&lt;version&gt;-bin.jar (bundle) from the archive
-1. use the web console to install and start the bundle :
+1. use the web console to install and start the bundle:
 
     * for example, http://localhost:4502/system/console/bundles
     * select **`Install/Update`**
     * Browse... to select the bundle extracted from the downloaded ZIP archive
     * check that* Oracle Corporation's JDBC Driver for MySQLcom.mysql.jdbc* is active, and start it if not (or check the logs)
 
-1. if installing on an existing deployment after JDBC has been configured, then rebind JDBC to the new connector by resaving the JDBC configuration from the web console :
+1. if installing on an existing deployment after JDBC has been configured, then rebind JDBC to the new connector by resaving the JDBC configuration from the web console:
 
     * for example, http://localhost:4502/system/console/configMgr
     * locate `Day Commons JDBC Connections Pool` configuration
@@ -132,7 +132,7 @@ The necessary steps are :
 
 Further information on installing bundles is found on the [Web Console](../../sites/deploying/using/configuring-web-console.md#bundles) page.
 
-#### Example : Installed MySQL Connector Bundle {#example-installed-mysql-connector-bundle}
+#### Example: Installed MySQL Connector Bundle {#example-installed-mysql-connector-bundle}
 
 ![](assets/chlimage_1-410.png) 
 
@@ -198,7 +198,7 @@ For working with logs, see [Working with Audit Records and Log Files](../../site
 
 For the SRP collection (MSRP or DSRP) to support advanced multilingual search (MLS), new Solr plug-ins are required in addition to a custom schema and Solr configuration. All required items are packaged into a downloadable zip file.
 
-The advanced MLS download (also known as 'phasetwo') is available from the Adobe repository :
+The advanced MLS download (also known as 'phasetwo') is available from the Adobe repository:
 
 * [AEM-SOLR-MLS-phasetwo](https://repo.adobe.com/nexus/content/repositories/releases/com/adobe/tat/AEM-SOLR-MLS-phasetwo/1.2.40/)
 
@@ -215,7 +215,7 @@ The links to packages on this page require no running instance of AEM as they ar
 
 **How to Install on Local AEM Instance**
 
-To install the packages visible in `adobeaemcloud.com` on a local AEM instance, the package must first be downloaded to a local disk :
+To install the packages visible in `adobeaemcloud.com` on a local AEM instance, the package must first be downloaded to a local disk:
 
 * select the **Assets** tab
 * select **download to disk**
@@ -234,9 +234,9 @@ In AEM Communities, a common store is used to store user generated content (UGC)
 
 The common store supports moderation of, and analytics on, UGC in the publish environment while eliminating the need for [replication](../../communities/using/sync.md) of UGC.
 
-* [Community Content Store](../../communities/using/working-with-srp.md) : discusses the SRP storage options for AEM communities
+* [Community Content Store](../../communities/using/working-with-srp.md): discusses the SRP storage options for AEM communities
 
-* [Recommended Topologies](../../communities/using/topologies.md) : discusses the topology to use depending on use case and SRP choice
+* [Recommended Topologies](../../communities/using/topologies.md): discusses the topology to use depending on use case and SRP choice
 
 ## Upgrading {#upgrading}
 
@@ -256,7 +256,7 @@ Therefore, it is necessary to **edit the configuration on all secondary publish 
 
 ![](assets/chlimage_1-411.png)
 
-For all other (secondary) publish instances in a publish farm :
+For all other (secondary) publish instances in a publish farm:
 
 * sign in with administrator privileges
 * access the [web console](../../sites/deploying/using/configuring-osgi.md)
@@ -280,9 +280,9 @@ There are two replication agents in the author environment that need the transpo
 
 * access the Replication console on author
 
-    * from global navigation : **Tools, Deployment, Replication, Agents on author**
+    * from global navigation: **Tools, Deployment, Replication, Agents on author**
 
-* follow the same procecure for both agents :
+* follow the same procecure for both agents:
 
     * **Default Agent (publish) **
     * **Reverse Replication Agent (publish reverse)**
@@ -294,7 +294,7 @@ There are two replication agents in the author environment that need the transpo
         
         1. if not user `admin`, edit the **User** and **Password** to specify a member of the `administrators` user group
 
-The following images show the results of changing the port from 4503 to 6103 by :
+The following images show the results of changing the port from 4503 to 6103 by:
 
 #### Default Agent (publish) {#default-agent-publish}
 
@@ -310,7 +310,7 @@ When using the author environment to [create sites](../../communities/using/site
 
 The tunnel service provides this access using the replication agent on author.
 
-To enable the tunnel service :
+To enable the tunnel service:
 
 * on **author**
 * sign in with administrative privileges
@@ -334,7 +334,7 @@ There are two features of AEM Communities that require all AEM server instances 
 
 As of AEM 6.3, the key material is stored in the file system and no longer in the repository.
 
-In order to copy the key material from author to all other instances, it is necessary to :
+In order to copy the key material from author to all other instances, it is necessary to:
 
 * access the AEM instance, typically an author instance, that contains the key material to copy
 
@@ -367,7 +367,7 @@ In order to copy the key material from author to all other instances, it is nece
 
 #### Repository Replication {#repository-replication}
 
-Having the key material stored in the repository, as was the case for AEM 6.2 and earlier, can be preserved by specifying the following system property on first startup of each AEM instance (which creates the initial repository) :
+Having the key material stored in the repository, as was the case for AEM 6.2 and earlier, can be preserved by specifying the following system property on first startup of each AEM instance (which creates the initial repository):
 
 * `-Dcom.adobe.granite.crypto.file.disable=true`
 
@@ -375,9 +375,9 @@ Having the key material stored in the repository, as was the case for AEM 6.2 an
 >
 >It is important to verify that the [replication agent on author](#replication-agents-on-author) is correctly configured.
 
-With the key material stored in the repository, the manner for replicating the crypto key from author to other instances is as follows :
+With the key material stored in the repository, the manner for replicating the crypto key from author to other instances is as follows:
 
-Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
+Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 * browse to [http://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 * select `/etc/key`
@@ -399,7 +399,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
 ![](assets/chlimage_1-416.png)
 
-* after a moment, a **Success **dialog should appear :  
+* after a moment, a **Success **dialog should appear:  
   `Operation completed successfully.`
 
 ### Apache HTTP Server {#apache-http-server}
@@ -419,7 +419,7 @@ In particular, be careful to use the correct server name, not `localhost`, in th
      </Location>
 
     # Return from "Sign Out" generates response header directing you to "/", generating a 404 error
-    # The RedirectMatch resolves it correctly when modified for the target Community Site :
+    # The RedirectMatch resolves it correctly when modified for the target Community Site:
     RedirectMatch ^/$ http://[server name]/content/sites/engage/en.html
  ...
  </IfModule>
@@ -427,7 +427,7 @@ In particular, be careful to use the correct server name, not `localhost`, in th
 
 ### Dispatcher {#dispatcher}
 
-If using a Dispatcher, see :
+If using a Dispatcher, see:
 
 * AEM's [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html) documentation
 * [Installing Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html)

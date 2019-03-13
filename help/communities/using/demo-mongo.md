@@ -24,7 +24,7 @@ With this setup, the community content is accessible from both author and publis
 
 This configuration is suitable for* non-production* environments such as for development and/or demonstration.
 
-**A *production *environment should :**
+**A *production* environment should:**
 
 * run MongoDB with a replica set
 * use SolrCloud
@@ -36,13 +36,13 @@ This configuration is suitable for* non-production* environments such as for dev
 
 * Download MongoDB from [http://www.mongodb.org/](http://www.mongodb.org/)
 
-    * choice of OS :
+    * choice of OS:
 
         * Linux
         * Mac 10.8
         * Windows 7
 
-    * choice of version :
+    * choice of version:
 
         * at a minimum, use version 2.6
 
@@ -70,14 +70,14 @@ This will start a MongoDB server using default port 27017.
 >
 >If MongoDB is started *after *AEM, **restart **all **AEM **instances so they properly connect to MongoDB.
 
-### Demo Production Option : Setup MongoDB Replica Set {#demo-production-option-setup-mongodb-replica-set}
+### Demo Production Option: Setup MongoDB Replica Set {#demo-production-option-setup-mongodb-replica-set}
 
 The following commands are an example of setting up a replica set with 3 nodes on localhost:
 
 * bin/mongod --port 27017 --dbpath data --replSet rs0&
 * bin/mongo
 
-    * cfg = {"_id" : "rs0","version" : 1,"members" : [{"_id" : 0,"host" : "127.0.0.1:27017"}]}
+    * cfg = {"_id": "rs0","version": 1,"members": [{"_id": 0,"host": "127.0.0.1:27017"}]}
     * rs.initiate(cfg)
 
 * bin/mongod --port 27018 --dbpath data1 --replSet rs0&
@@ -92,7 +92,7 @@ The following commands are an example of setting up a replica set with 3 nodes o
 
 ### Install Solr {#install-solr}
 
-* Download Solr from [Apache Lucene](http://archive.apache.org/dist/lucene/solr/) :
+* Download Solr from [Apache Lucene](http://archive.apache.org/dist/lucene/solr/):
 
     * suitable for any OS 
     * use version 4.10 or version 5
@@ -106,7 +106,7 @@ The following commands are an example of setting up a replica set with 3 nodes o
 
 ### Configure Solr for AEM Communities {#configure-solr-for-aem-communities}
 
-To configure a Solr collection for MSRP for demo, there are two decisions to be made (select the links to main documentation for details) :
+To configure a Solr collection for MSRP for demo, there are two decisions to be made (select the links to main documentation for details):
 
 1. run Solr in standalone or [SolrCloud mode](../../communities/using/msrp.md#solrcloudmode)
 1. install [standard](../../communities/using/msrp.md#installingstandardmls) or [advanced](../../communities/using/msrp.md#installingadvancedmls) multilingual search (MLS)
@@ -115,14 +115,14 @@ To configure a Solr collection for MSRP for demo, there are two decisions to be 
 
 The method for running Solr may differ depending on the version and manner of installation. The [Solr reference guide](http://archive.apache.org/dist/lucene/solr/ref-guide/) is the authoritative documentation.
 
-For simplicity, using version 4.10 as an example, start Solr in standalone mode :
+For simplicity, using version 4.10 as an example, start Solr in standalone mode:
 
 * cd to &lt;solrinstall&gt;/example
 * java -jar start.jar
 
 This will start a Solr HTTP server using default port 8983. You can browse to the Solr Console to get a Solr console for testing.
 
-* default Solr console : [http://localhost:8983/solr/](http://localhost:8983/solr/)
+* default Solr console: [http://localhost:8983/solr/](http://localhost:8983/solr/)
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ This will start a Solr HTTP server using default port 8983. You can browse to th
 
 ### SolrCloud {#solrcloud}
 
-To run a very basic (not production) solrCloud setup, start solr with :
+To run a very basic (not production) solrCloud setup, start solr with:
 
 * java -Dbootstrap_confdir=./solr/collection1/conf -Dbootstrap_conf=true -DzkRun -jar start.jar
 
@@ -142,14 +142,14 @@ Launch the author and publish AEM instances, if necessary.
 
 If AEM was running before MongoDB was started, then the AEM instances will need to be restarted.
 
-Follow the instructions on the main documentation page : [MSRP - MongoDB Common Store](../../communities/using/msrp.md)
+Follow the instructions on the main documentation page: [MSRP - MongoDB Common Store](../../communities/using/msrp.md)
 
 ## Test {#test}
 
-To test and verify the MongoDB common store, post a comment on the publish instance and view it on the author instance, as well as view the UGC in MongoDB and Solr :
+To test and verify the MongoDB common store, post a comment on the publish instance and view it on the author instance, as well as view the UGC in MongoDB and Solr:
 
 1. on the publish instance, browse to the [Community Components Guide](http://localhost:4503/content/community-components/en/comments.html) page and select the Comments component.
-1. sign in to post a comment :
+1. sign in to post a comment:
 1. enter text in the comment text entry box and click **Post**
 
    ![](assets/chlimage_1-191.png)
@@ -158,15 +158,15 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
    ![](assets/chlimage_1-192.png)
 
-   Note : while there are JCR nodes under the *asipath *on author, these are for the SCF framework. The actual UGC is not in JCR, it is in the MongoDB.
+   Note: while there are JCR nodes under the *asipath *on author, these are for the SCF framework. The actual UGC is not in JCR, it is in the MongoDB.
 
 1. view the UGC in mongodb (communities &gt; Collections &gt; content)
 
    ![](assets/chlimage_1-193.png)
 
-1. view the UGC in Solr :
+1. view the UGC in Solr:
 
-    * browse to Solr dashboard : [http://localhost:8983/solr/](http://localhost:8983/solr/)
+    * browse to Solr dashboard: [http://localhost:8983/solr/](http://localhost:8983/solr/)
     * user 'core selector' to select 'collection1'
     * select `Query`
     * select `Execute Query`
@@ -177,16 +177,16 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
 ### No UGC Appears {#no-ugc-appears}
 
-1) Make sure MongoDB is installed and running properly.
+1. Make sure MongoDB is installed and running properly.
 
-2) Make sure MSRP has been configured to be the default provider :
+1. Make sure MSRP has been configured to be the default provider:
 
-* On all author and publish AEM instances, revisit the [Storage Configuration console](../../communities/using/srp-config.md)  
-  or check the AEM repository :
+    * On all author and publish AEM instances, revisit the [Storage Configuration console](../../communities/using/srp-config.md)  
+    or check the AEM repository:
 
-    * in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
+        * in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 
-        * does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
-        * if the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define MSRP to be the default provider
+            * does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
+            * if the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define MSRP to be the default provider
 
-3) Make sure AEM was restarted after MSRP selected.
+1. Make sure AEM was restarted after MSRP selected.

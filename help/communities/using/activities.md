@@ -16,7 +16,7 @@ snippet: y
 
 # Activity Streams Feature{#activity-streams-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The activities of a signed in community member, such as posting to a forum or blog, are collected into a stream which may be filtered and displayed in various ways through configuration of the `Activity Streams` component.
 
@@ -27,7 +27,7 @@ This section of the documentation describes
 * adding the Activity Streams component to an AEM site
 * configuration settings for Activity Streams component
 
-### Adding Activity Streams to a Page {#adding-activity-streams-to-a-page}
+## Adding Activity Streams to a Page {#adding-activity-streams-to-a-page}
 
 If it is desired to add an `Activity Streams` component to a page in author mode, use the component browser to locate
 
@@ -37,17 +37,17 @@ and drag it into place on a page where activity streams should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-activities.md#essentials-for-client-side) are included, this is how the `Activity Streams` component will appear :
+When the [required client-side libraries](../../communities/using/essentials-activities.md#essentials-for-client-side) are included, this is how the `Activity Streams` component will appear:
 
 ![](assets/chlimage_1-195.png)
 
-### Configuring Activity Streams {#configuring-activity-streams}
+## Configuring Activity Streams {#configuring-activity-streams}
 
 Select the placed `Activity Streams` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/chlimage_1-196.png)
 
-Under the **User Activities** tab, specify which activities to display :
+Under the **User Activities** tab, specify which activities to display:
 
 ![](assets/chlimage_1-197.png)
 
@@ -66,7 +66,7 @@ Under the **User Activities** tab, specify which activities to display :
 * **Display Following View** 
   if checked, the activities page will include a tab which filters activities based on those the current member is following. Default is checked.
 
-### Following View {#following-view}
+## Following View {#following-view}
 
 Components must be configured to enable following. Features that allow following are [blog](../../communities/using/blog-feature.md), [forum](../../communities/using/forum.md), [QnA](../../communities/using/working-with-qna.md), [calendar](../../communities/using/calendar.md), [filelibrary](../../communities/using/file-library.md), and [comments](../../communities/using/comments.md).
 
@@ -76,7 +76,7 @@ The **Follow **button provides a means to follow entries as activities, [notific
 
 If any method of following is selected, the text of the button changes to **Following**. For convenience, it is possible to select `Unfollow All` to toggle off all methods.
 
-The **Follow **button will appear
+The **Follow** button will appear
 
 * when viewing another member's profile
 * on a main feature page, such as forums, QnA, and blogs
@@ -87,6 +87,6 @@ The **Follow **button will appear
 
     * follows all activity for that specific entry
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Activity Streams Essentials](../../communities/using/essentials-activities.md) page for developers.

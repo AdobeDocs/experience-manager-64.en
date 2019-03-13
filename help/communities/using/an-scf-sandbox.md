@@ -41,22 +41,22 @@ The steps in this tutorial are:
 >
 >If a simple community site is preferred, follow the [Create a Sample Page](../../communities/using/create-sample-page.md) tutorial.
 
-### Prerequisites {#prerequisites}
+## Prerequisites {#prerequisites}
 
 This tutorial assumes you have one AEM author and one AEM publish instance installed that has the [latest release](../../communities/using/deploy-communities.md#latest-releases) of Communities.
 
-Following are some helpful links for developers new to the AEM platform :
+Following are some helpful links for developers new to the AEM platform:
 
 * [Getting Started](../../sites/deploying/using/deploy.md#getting-started) - for deploying AEM instances
 
     * [The Basics](../../sites/developing/using/the-basics.md) - for developers of websites and features
     * [First Steps for Authors](../../sites/authoring/using/first-steps.md) - for authoring page content
 
-### Using CRXDE Lite Development Environment {#using-crxde-lite-development-environment}
+## Using CRXDE Lite Development Environment {#using-crxde-lite-development-environment}
 
 AEM developers spend much of their time in the [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) development environment on an author instance. CRXDE Lite provides a less restricted access to the CRX repository. Classic UI tools and touch-enabled UI consoles provide more structured access to specific portions of the CRX repository.
 
-After signing in with administrative privileges, there are various ways to access CRXDE Lite :
+After signing in with administrative privileges, there are various ways to access CRXDE Lite:
 
 1. From global navigation, select **navigation**, **Tools**, **CRXDE Lite**.
 
@@ -66,14 +66,14 @@ After signing in with administrative privileges, there are various ways to acces
 
    ![](assets/chlimage_1-351.png)
 
-1. Browse directly to `CRXDE Lite` : `<server>:<port>/crx/de`
+1. Browse directly to `CRXDE Lite`: `<server>:<port>/crx/de`
 
-   For example, on a local author instance : ` [http://localhost:4502/crx/de](http://localhost:4502/crx/de)`
+   For example, on a local author instance: ` [http://localhost:4502/crx/de](http://localhost:4502/crx/de)`
 
 To work with CRXDE Lite, you must sign in with developer or administrator priveleges. For the default localhost instance, you can login with
 
-* username : admin
-* password : admin
+* username: admin
+* password: admin
 
 ***Be aware** *that this login will timeout and you will need to re-login periodically using the pull down on the right end of the CRXDe Lite tool bar.
 
@@ -83,6 +83,6 @@ If not logged in, you will be unable to navigate the JCR repository or perform a
 
 ![](assets/chlimage_1-352.png) 
 
-|   |** [Setup Website Structure ⇒](../../communities/using/setup-website.md)** |
+|   |**[Setup Website Structure ⇒](../../communities/using/setup-website.md)** |
 |---|---|
 

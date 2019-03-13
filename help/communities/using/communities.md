@@ -22,7 +22,7 @@ AEM Communities simplifies the creation and customizaton of community features s
 
 The foundation of a [community site](../../communities/using/overview.md#communitiessites) is the [social component framework](../../communities/using/scf.md) (SCF). Creation of a community site begins with the selection of a [community site template](../../communities/using/sites-console.md) that is composed of [community functions](../../communities/using/functions.md).
 
-For an overview and getting started tutorials, visit :
+For an overview and getting started tutorials, visit:
 
 * [AEM Communities Overview](../../communities/using/overview.md)
 * [Getting Started with AEM Communities](../../communities/using/getting-started.md)
@@ -34,18 +34,18 @@ For an overview and getting started tutorials, visit :
 
 ## Recommended Deployments {#recommended-deployments}
 
-* [Community Content Storage](../../communities/using/working-with-srp.md) : discusses the available SRP choices for a UGC common store
-* [Recommended Topologies for Communities](../../communities/using/topologies.md) : discusses topologies based on use case and SRP choice
+* [Community Content Storage](../../communities/using/working-with-srp.md): discusses the available SRP choices for a UGC common store
+* [Recommended Topologies for Communities](../../communities/using/topologies.md): discusses topologies based on use case and SRP choice
 
 ## Social Component Framework {#social-component-framework}
 
-* [Social Component Framework](../../communities/using/scf.md) : overview of framework and APIs
-* [SCF Handlebars Helpers](../../communities/using/handlebars-helpers.md) : default helpers and how to write custom helpers
-* [Client-side Customization](../../communities/using/client-customize.md) : customizing code that runs in browser
-* [Server-side Customization](../../communities/using/server-customize.md) : customizing code that runs on server
-* [Storage Resource Provider (SRP)](../../communities/using/srp.md) : overview of community content storage
-* [Coding Guidelines](../../communities/using/code-guide.md) : guidelines, tips & tricks
-* [Community Components guide](../../communities/using/components-guide.md) : interactive development tool
+* [Social Component Framework](../../communities/using/scf.md): overview of framework and APIs
+* [SCF Handlebars Helpers](../../communities/using/handlebars-helpers.md): default helpers and how to write custom helpers
+* [Client-side Customization](../../communities/using/client-customize.md): customizing code that runs in browser
+* [Server-side Customization](../../communities/using/server-customize.md): customizing code that runs on server
+* [Storage Resource Provider (SRP)](../../communities/using/srp.md): overview of community content storage
+* [Coding Guidelines](../../communities/using/code-guide.md): guidelines, tips & tricks
+* [Community Components guide](../../communities/using/components-guide.md): interactive development tool
 
 ## Component, Function and Feature Essentials {#component-function-and-feature-essentials}
 

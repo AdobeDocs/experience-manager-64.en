@@ -63,7 +63,7 @@ Depending on the type of fragment, either models or templates are also used:
     * [Content fragment templates](../../../sites/developing/using/content-fragment-templates.md) operate in a different manner to that of other templating mechanisms within the AEM ecosystem (e.g. page templates, etc.). Therefore they should be considered separately.
     * When based on a template the MIME type of the content is managed on the actual content; this means that each element and variation can have a different MIME type.
 
-### Integration with Assets {#integration-with-assets}
+## Integration with Assets {#integration-with-assets}
 
 Content Fragment Management (CFM) is part of AEM Assets as:
 
@@ -71,7 +71,7 @@ Content Fragment Management (CFM) is part of AEM Assets as:
 * They use existing Assets functionality.
 * They are fully integrated with Assets (admin consoles, etc.).
 
-#### Mapping Structured Content Fragments to Assets {#mapping-structured-content-fragments-to-assets}
+### Mapping Structured Content Fragments to Assets {#mapping-structured-content-fragments-to-assets}
 
 ![](assets/fragment-to-assets-structured.png)
 
@@ -91,7 +91,7 @@ Content fragments with structured content (i.e. based on a content fragment mode
 * Metadata and associated content is stored below `jcr:content/metadata`  
   Except for the title and description, which are not considered traditional metadata and stored on `jcr:content`
 
-#### Mapping Simple Content Fragments to Assets {#mapping-simple-content-fragments-to-assets}
+### Mapping Simple Content Fragments to Assets {#mapping-simple-content-fragments-to-assets}
 
 ![](assets/chlimage_1-253.png)
 
@@ -107,23 +107,23 @@ Simple content fragments (based on a template) are mapped to a composite consist
     * The main content of these additional elements map to the original rendition of the respective sub-asset.
     * Other variations (if applicable) of any additional elements map to other renditions of the respective sub-asset.
 
-#### Asset Location {#asset-location}
+### Asset Location {#asset-location}
 
 As with standard assets, a content fragment is held under:
 
 `/content/dam`
 
-#### Asset Permissions {#asset-permissions}
+### Asset Permissions {#asset-permissions}
 
 For further details see [Content Fragment - Delete Considerations](../../../assets/using/content-fragments-delete.md).
 
-#### Feature Integration {#feature-integration}
+### Feature Integration {#feature-integration}
 
 * The Content Fragment Management (CFM) feature builds on the Assets core, but should be as independent of it as possible.
 * CFM provides its own implementations for items in the card/column/list views; these plug into the existing Assets content rendering implementations.
 * Several Assets components have been extended to cater for content fragments.
 
-### Using Content Fragments in Pages {#using-content-fragments-in-pages}
+## Using Content Fragments in Pages {#using-content-fragments-in-pages}
 
 >[!CAUTION]
 >
@@ -153,7 +153,7 @@ Content fragments can be referenced from AEM pages, just as any other asset type
 >
 >When using a content fragment that has been based on a content fragment template on a page, there is no reference as the template was copied when creating the fragment.
 
-#### Configuration using OSGi console {#configuration-using-osgi-console}
+### Configuration using OSGi console {#configuration-using-osgi-console}
 
 The backend implementation of content fragments is, for example, responsible for making instances of a fragment used on a page searchable, or for managing mixed media content. This implementation needs to know which components are used for rendering fragments and how the rendering is parameterized.
 

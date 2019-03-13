@@ -24,19 +24,19 @@ A [community group template](../../communities/using/tools-groups.md) provides t
 
 One or more group templates are selected for the groups function when the function is added to a community site's structure or to a community site template. This list of group templates is presented to the member or author who dynamically creates a new group from within the community site.
 
-### Creating a New Group {#creating-a-new-group}
+## Creating a New Group {#creating-a-new-group}
 
 The ability to create a new community group relies on the existance of a community site which includes the groups function, such as one created from the ` [Reference Site Template](../../communities/using/sites.md)`.
 
 The examples that follow use the community site created from the `Reference Site Template` as described in the [Getting Started with AEM Communities](../../communities/using/getting-started.md) tutorial.
 
-This is the page that loads on publish when the **Groups **menu item is selected :
+This is the page that loads on publish when the **Groups **menu item is selected:
 
 ![](assets/chlimage_1-236.png)
 
 When you select the **New Group** icon, an edit dialog opens up.
 
-Under the **Settings **tab, you provide the basic features of the group :
+Under the **Settings **tab, you provide the basic features of the group:
 
 ![](assets/chlimage_1-237.png)
 
@@ -68,19 +68,19 @@ Under the **Image **tab is the ability to upload an image to display for the gro
 
 By selecting the **Create Group** button, the pages for the group are created based on the chosen template, and a user group is created for membership and the Groups page will be updated to show the new sub-community.
 
-For example, the Groups page with a new sub-community titled "Focus Group", for which an image thumbnail was uploaded, will appear as follows (still signed in as a community group administrator) :
+For example, the Groups page with a new sub-community titled "Focus Group", for which an image thumbnail was uploaded, will appear as follows (still signed in as a community group administrator):
 
 ![](assets/chlimage_1-240.png)
 
-Selecting the `Focus Group` link will open the Focus Group page in the browser, which has an initial appearance based on the chosen template, and includes a sub-menu underneath the main community site's menu :
+Selecting the `Focus Group` link will open the Focus Group page in the browser, which has an initial appearance based on the chosen template, and includes a sub-menu underneath the main community site's menu:
 
 ![](assets/chlimage_1-241.png)
 
-### Community Group Member List Component {#community-group-member-list-component}
+## Community Group Member List Component {#community-group-member-list-component}
 
 The `Community Group Member List` component is intended for use by developers of group templates.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Community Group Essentials](../../communities/using/essentials-groups.md) page for developers.
 

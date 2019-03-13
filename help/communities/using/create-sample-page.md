@@ -72,8 +72,8 @@ After creating the site template, from global navigation select **Communities**,
 
     * `Title`: Simple Community Site
     * `Description`: A Community Site consisiting of a single page for experimentation.
-    * `Community Site Root :* (leave blank)*`
-    * `Community Site Base Language : English`
+    * `Community Site Root:* (leave blank)*`
+    * `Community Site Base Language: English`
     * `Name`: sample
 
         * url = http://localhost:4502/content/sites/sample
