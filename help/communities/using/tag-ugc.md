@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 1cc8ce66-2c03-44e4-9ddd-8d6944d85c99
-index: y
-internal: n
-snippet: y
 ---
 
 # Tagging User Generated Content{#tagging-user-generated-content}

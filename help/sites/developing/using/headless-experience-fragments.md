@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 7fd24454-322f-43d9-b313-3138c1f04a56
 redirecttarget: /content/help/en/experience-manager/6-4/sites/authoring/using/experience-fragments
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience Fragments{#experience-fragments}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 46f135de-a0bf-451d-bdcc-fb29188250aa
-index: y
-internal: n
-snippet: y
 ---
 
 # Recommended Topologies for Communities{#recommended-topologies-for-communities}
@@ -67,7 +64,7 @@ When the topology is a publish farm, relevant topics of importance are
 
 #### Recommended : DSRP, MSRP or ASRP {#recommended-dsrp-msrp-or-asrp}
 
-<table border="1" cellpadding="2" cellspacing="2" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;">MicroKernel</td> 
@@ -102,7 +99,7 @@ When the topology is a publish farm, relevant topics of importance are
 
 #### JSRP {#jsrp}
 
-<table border="1" cellpadding="2" cellspacing="2" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;">Deployment</td> 

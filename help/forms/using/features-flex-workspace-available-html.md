@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: ef5c957a-9d5a-42be-ad85-bdca876f56bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Features of Flex workspace not available in AEM Forms workspace{#features-of-flex-workspace-not-available-in-aem-forms-workspace}

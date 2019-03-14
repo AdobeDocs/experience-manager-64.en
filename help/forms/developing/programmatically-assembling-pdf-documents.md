@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: ebe8136b-2a79-4035-b9d5-aa70a5bbd4af
-index: y
-internal: n
-snippet: y
 ---
 
 # Programmatically Assembling PDF Documents{#programmatically-assembling-pdf-documents}
@@ -115,7 +112,7 @@ The Assembler service returns a `java.util.Map` object, which can be obtained fr
 
 The following table summarizes some of the key values and object types that can be located in the returned `java.util.Map` object. 
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e105266" valign="top" width="NaN%"><p>Key value</p></th> 

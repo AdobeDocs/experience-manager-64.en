@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 5faf6ee5-9242-48f4-87a8-ada887a3be1e
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring LDAP with AEM 6{#configuring-ldap-with-aem}
@@ -51,7 +48,7 @@ It can be found in the management console under the **Apache Jackrabbit Oak LDAP
 
 The following configuration options are available for the LDAP Identity Provider:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>LDAP Provider Name</strong></td> 
@@ -152,7 +149,7 @@ It is located under the **Apache Jackrabbit Oak Default Sync Handler** name in t
 
 The following configurations options are available for the Synchronization Handler:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Sync Handler Name</strong></td> 

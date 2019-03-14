@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 245b9cc4-5837-4a22-b5f4-a1d4c5d66918
-index: y
-internal: n
-snippet: y
 ---
 
 # Barcoded Forms Service Java APIQuick Start(SOAP){#barcoded-forms-service-java-apiquick-start-soap}

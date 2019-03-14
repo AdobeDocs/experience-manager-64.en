@@ -7,9 +7,6 @@ uuid: d004e75d-e569-4e85-8dfa-5c411bc959af
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: c142d7b3-301b-447c-a715-452c905565d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Generate HTML5 preview of an XDP form{#generate-html-preview-of-an-xdp-form}

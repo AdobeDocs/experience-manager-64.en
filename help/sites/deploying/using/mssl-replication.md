@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: 8bc307d9-fa5c-44c0-bff9-2d68d32a253b
-index: y
-internal: n
-snippet: y
 ---
 
 # Replicating Using Mutual SSL{#replicating-using-mutual-ssl}
@@ -224,7 +221,7 @@ Configure the replication agent on the author instance to use the HTTPS protocol
 
 To enable MSSL, configure the properties on the Transport tab according to the following table:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property</th> 

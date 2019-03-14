@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 9019b967-fff8-4dda-bc5a-fd4a3e14a4ef
-index: y
-internal: n
-snippet: y
 ---
 
 # File Library Essentials{#file-library-essentials}
@@ -20,7 +17,7 @@ This page provides the essential information for working with the file library f
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 

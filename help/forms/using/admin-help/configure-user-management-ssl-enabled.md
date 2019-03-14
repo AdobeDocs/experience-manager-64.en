@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e6e7e2fa-579d-4b36-8598-6ced469a94b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure User Management for an SSL-enabled LDAP server{#configure-user-management-for-an-ssl-enabled-ldap-server}

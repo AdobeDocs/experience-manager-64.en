@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: df94dd1b-1b65-478b-a28d-81807a8084b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Campaign Classic{#integrating-with-adobe-campaign-classic}

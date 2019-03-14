@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 5b45b965-6f9f-4b08-bd95-f93fc6ec87ae
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/kickstart-for-aem-screens
-index: y
-internal: n
-snippet: y
 ---
 
 # (Redirect)Kickstart Guide{#redirect-kickstart-guide}

@@ -10,9 +10,6 @@ topic-tags: components
 content-type: reference
 discoiquuid: 1f9867f1-5089-46d0-8e21-30d62dbf4f45
 legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Components - The Basics{#aem-components-the-basics}
@@ -270,7 +267,7 @@ Many of the nodes/properties needed to define a component are common to both UIs
 
 A component is a node of type `cq:Component` and has the following properties and child nodes:
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="600"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Name <br /> </strong></td> 
@@ -645,7 +642,7 @@ There are many existing configurations in the repository. You can easily search 
 
 The `cq:actions` property ( `String array`) defines one or several actions that can be performed on the component. The following values are available for configuration:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Property Value</strong></td> 
@@ -700,7 +697,7 @@ The following configuration adds the text "Inherited Configurations from Base Fr
 
 The `cq:layout` property ( `String`) defines how the component can be edited in the classic UI. The following values are available:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Property Value</strong></td> 
@@ -739,7 +736,7 @@ The following configuration adds an edit button to the component edit bar:
 
 The component can be linked to an edit dialog. The `cq:dialogMode` property ( `String`) defines how the component dialog will be opened in the classic UI. The following values are available:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Property Value</strong></td> 
@@ -822,7 +819,7 @@ For example, the class name is defined as follows in the JSP of the Download com
 
 The node of type `cq:DropTargetConfig` needs to have the following properties:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Property Name</strong></td> 
@@ -904,7 +901,7 @@ The following configuration adds a parameter called `name`, set with the value `
 
 The `cq:inplaceEditing` node (node type `cq:InplaceEditingConfig`) defines an inplace editing configuration for the component. It can have the following properties:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Property Name</strong></td> 
@@ -943,7 +940,7 @@ The following configuration enables the inplace editing of the component and def
 
 The `cq:listeners` node (node type `cq:EditListenersConfig`) defines what happens before or after an action on the component. The following table defines its possible properties.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Property Name</strong></td> 

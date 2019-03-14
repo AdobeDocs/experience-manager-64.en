@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: f9bcb6eb-1df4-4709-bcec-bef0931f797a
-index: y
-internal: n
-snippet: y
 ---
 
 # Designs and the Designer{#designs-and-the-designer}

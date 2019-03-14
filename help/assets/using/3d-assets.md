@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
 discoiquuid: 32143da1-09c8-45ce-b50d-32adf6efe383
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with 3D assets{#working-with-d-assets}

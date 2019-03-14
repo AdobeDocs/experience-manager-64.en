@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: b80a2bfe-6f57-4229-a9ee-1ec87f3c3306
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a custom toolbar action{#creating-a-custom-toolbar-action}
@@ -69,7 +66,7 @@ To illustrate the creation of a custom toolbar action, the following steps guide
                </div>
                <div class="modal-body">
                    <div class="modal-list">
-                       <table class="table table-bordered">
+                       <table>
                            <tr class="name">
                                <td class="reviewlabel col-md-3 active">
                                    <label>Your Name is: </label>

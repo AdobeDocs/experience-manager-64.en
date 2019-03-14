@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 3c2a44a7-24e7-49ee-bf18-eab0e44efa42
-index: y
-internal: n
-snippet: y
 ---
 
 # Appearance framework for adaptive and HTML5 forms{#appearance-framework-for-adaptive-and-html-forms}
@@ -29,7 +26,7 @@ The appearance framework relies on various options, events (triggers), and funct
 
 The following are the set global options. These options are available for every field. 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Property </th> 
@@ -90,7 +87,7 @@ To interact with forms framework, a widget triggers some events to enable the fo
 
 #### Events triggered by widget {#events-triggered-by-widget}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Event </th> 
@@ -119,7 +116,7 @@ To interact with forms framework, a widget triggers some events to enable the fo
 
 The appearance framework calls some functions of the widget which are implemented in the custom widgets. The widget must implement the following functions:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Function</th> 
@@ -150,7 +147,7 @@ All custom widgets should conform to the above specifications. To use the featur
 
 ### TextEdit: Text Field {#textedit-text-field}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Option</th> 
@@ -173,7 +170,7 @@ All custom widgets should conform to the above specifications. To use the featur
 
 ### ChoiceList: DropDownList, ListBox {#choicelist-dropdownlist-listbox}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Option</th> 
@@ -204,7 +201,7 @@ All custom widgets should conform to the above specifications. To use the featur
 
 #### API {#api}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Function</th> 
@@ -237,7 +234,7 @@ All custom widgets should conform to the above specifications. To use the featur
 
 ### CheckButton: RadioButton, CheckBox {#checkbutton-radiobutton-checkbox}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Options</th> 

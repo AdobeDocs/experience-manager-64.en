@@ -10,9 +10,6 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Text Overlay{#text-overlay}

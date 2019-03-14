@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 06ad343a-f74d-41f5-b3c8-b85bb723ceeb
-index: y
-internal: n
-snippet: y
 ---
 
 # Converting Postscript to PDF Documents{#converting-postscript-to-pdf-documents}

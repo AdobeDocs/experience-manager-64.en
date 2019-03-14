@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: f5d6d9bd-4f36-4a4f-8008-15fb853a9219
-index: y
-internal: n
-snippet: y
 ---
 
 # Build the AEM Forms Android app{#build-the-aem-forms-android-app}

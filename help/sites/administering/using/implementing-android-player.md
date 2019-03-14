@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 5b4d5ca5-0afe-4c3a-9515-d0a508fbacc1
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/implementing-android-player
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Implementing Android Player{#redirect-implementing-android-player}

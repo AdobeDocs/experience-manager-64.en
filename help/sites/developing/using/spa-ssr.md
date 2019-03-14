@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 30d25772-0df7-468e-bcbd-c6fb2e962662
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA and Server-Side Rendering{#spa-and-server-side-rendering}
@@ -48,7 +45,7 @@ Alternatively, SSR can be implemented so that the Node.js server is responsible 
 
 Both models are valid and supported by AEM. However, one should consider the advantages and disadvantages of each before implementing a particular model.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Bootstrapping</strong></th> 

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 445e24af-cd1a-414d-bd01-9feb6631bbef
-index: y
-internal: n
-snippet: y
 ---
 
 # Saving an HTML5 form as a draft{#saving-an-html-form-as-a-draft}
@@ -23,7 +20,7 @@ Out of the box, AEM Forms provide a **Save as Draft **profile. You can render a 
 
 To enable Save as Draft functionality for your existing [custom profile](../../forms/using/custom-profile.md), add the following properties to your custom profile node: 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property Name</strong></td> 
@@ -52,7 +49,7 @@ After enabling Save as Draft functionality for a form; when the form is saved, i
 
 To enable forms listing for the Draft and Submission component, add the following property to the profile node: 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property Name</strong></td> 

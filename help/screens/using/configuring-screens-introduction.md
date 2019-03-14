@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 discoiquuid: a94d0891-d75f-482e-8d2a-e0cbf953a9de
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring and Deploying AEM Screens{#configuring-and-deploying-aem-screens}
@@ -151,7 +148,7 @@ The following section provides the hardware selection guidelines for a Screens P
 
 The following table summarizes the hardware configurations with typical use cases for an AEM Screens project:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Player Configuration</td> 

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 331b9317-87b5-4a96-a1bc-429675ff90c5
-index: y
-internal: n
-snippet: y
 ---
 
 # Certificate types used by Acrobat Reader DC extensions {#certificate-types-used-by-acrobat-reader-dc-extensions}
@@ -45,7 +42,7 @@ The string contains the following elements:
 
 The following table lists the certificate profiles that you may encounter when analyzing Acrobat Reader DC extensions certificates.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e12660" valign="top" width="NaN%"><p>Profile code</p></th> 
@@ -160,7 +157,7 @@ If online commenting is required in a non-collaborative environment, contact Ado
 
 The permitted Acrobat Reader DC extensions usage rights consist of one or more specific elements. These elements are used in different combinations to achieve varieties of licensed product functionality. 
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e12897" valign="top" width="NaN%"><p>Usage rights element</p></th> 

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: 6cf54a08-d429-4a58-8429-a1cb784448d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Create targeted experiences in AEM Forms{#create-targeted-experiences-in-aem-forms}

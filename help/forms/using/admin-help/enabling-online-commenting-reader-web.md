@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9c4f8e1e-c2f7-4648-9a2a-104bd540a47a
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling online commenting for Adobe Reader web browser plug-in{#enabling-online-commenting-for-adobe-reader-web-browser-plug-in}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: ac8f44df-39fb-44ea-ae17-ead0dbd1f6c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding ContextHub to Pages and Accessing Stores{#adding-contexthub-to-pages-and-accessing-stores}

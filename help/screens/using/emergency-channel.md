@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: example
 topic-tags: use-case-examples
 discoiquuid: 0d711658-5174-40c5-9e75-cc68c1836948
-index: y
-internal: n
-snippet: y
 ---
 
 # Emergency Channel{#emergency-channel}

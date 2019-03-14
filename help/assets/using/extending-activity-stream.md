@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 4b945204-f141-4656-a122-1334822e6d02
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating Assets with Activity Stream{#integrating-assets-with-activity-stream}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Managing Schedules{#creating-and-managing-schedules}

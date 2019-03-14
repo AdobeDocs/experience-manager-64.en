@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: a715c372-3d05-4119-9d2b-41bca0b16b19
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices{#best-practices}
@@ -36,7 +33,7 @@ Specific documents are described and linked to in the tables that follow.
 
 Best practices around Assets, including the dynamic media capability and Scene 7 integration, are described in the following topics:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>File Formats</td> 

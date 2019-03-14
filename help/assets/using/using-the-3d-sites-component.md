@@ -9,9 +9,6 @@ topic-tags: 3D
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: 9017ab55-6d4a-4306-922f-223ab1b2504b
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with the 3D Sites component{#working-with-the-d-sites-component}
@@ -70,7 +67,7 @@ To add the 3D viewer component to a web page:
 
    You can set the following component properties:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Property</td> 

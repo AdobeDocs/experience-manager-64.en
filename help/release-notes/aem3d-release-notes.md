@@ -10,9 +10,6 @@ topic-tags: release-notes
 content-type: reference
 topic-tags: 3D
 discoiquuid: 9789d031-fb7e-415a-a9c3-8b8fde978238
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM 3D Release Notes{#aem-d-release-notes}
@@ -70,7 +67,7 @@ See also [Integrating AEM 3D with Autodesk Maya](../assets/using/integrate-maya-
 
 ## Supported 3D File Formats {#supported-d-file-formats}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Format</strong></td> 

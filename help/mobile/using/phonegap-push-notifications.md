@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: ed8c51d2-5aac-4fe8-89e8-c175d4ea1374
-index: y
-internal: n
-snippet: y
 ---
 
 # Push Notifications{#push-notifications}
@@ -168,7 +165,7 @@ Follow these steps to set up Amazon SNS for push notifications:
     1. Open "Inline Policies" if it is not already opened. You should see a policy there with a name like oneClick_Cognito_&lt;yourIdentityPoolName&gt;Unauth_Role_1234567890123.
     1. Click "Edit Policy". Replace the contents of the Policy Document with this snippet of JSON:
 
-    <table border="0" cellpadding="0" cellspacing="0"> 
+    <table> 
  <tbody> 
   <tr> 
    <td><p> </p> <p>{</p> <p> "Version": "2012-10-17",</p> <p> "Statement": [</p> <p> {</p> <p> "Action": [</p> <p> "mobileanalytics:PutEvents",</p> <p> "cognito-sync:*",</p> <p> "SNS:CreatePlatformEndpoint",</p> <p> "SNS:Subscribe"</p> <p> ],</p> <p> "Effect": "Allow",</p> <p> "Resource": [</p> <p> "*"</p> <p> ]</p> <p> }</p> <p> ]</p> <p>}</p> <p> </p> </td> 

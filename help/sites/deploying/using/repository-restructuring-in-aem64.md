@@ -11,9 +11,6 @@ topic-tags: upgrading
 discoiquuid: 0f6068c8-a3da-4fac-af57-8ef7429a77d1
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/deploying/using/repository-restructuring.html
-index: y
-internal: n
-snippet: y
 ---
 
 # Repository Restructuring in AEM 6.4{#repository-restructuring-in-aem}
@@ -106,7 +103,7 @@ The table below includes an additional column named "Configuration Type" to expl
     * Editable Templates -> `/conf/we-retail/settings/wcm/templates`
     * Cloud Configs -> `/conf/we-retail/settings/cloudsettings`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Solution</strong></td> 
@@ -525,7 +522,7 @@ The table below includes an additional column named "Configuration Type" to expl
 
 AEM provides an extensibility framework to append multiple JavaScript files. Any file with the same "categories" property will be appended, allowing custom code to extend AEM code that resides under `/libs`.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Solution</strong></td> 
@@ -650,7 +647,7 @@ See each table row for any supported extensibility model. Content in this sectio
 
 ## Miscellaneous {#miscellaneous}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Solution</strong></td> 

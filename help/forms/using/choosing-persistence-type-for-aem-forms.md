@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: a972fb35-38a7-4b83-99bd-6a6dddf8043b
-index: y
-internal: n
-snippet: y
 ---
 
 # Choosing a persistence type for an AEM Forms installation{#choosing-a-persistence-type-for-an-aem-forms-installation}
@@ -26,7 +23,7 @@ Persistence is the method to store content on the physical storages. It defines 
 
 The following table lists all the supported persistence types along with various parameters to help you choose a persistence type for your environment: 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Installation Type / Cost</strong></th> 

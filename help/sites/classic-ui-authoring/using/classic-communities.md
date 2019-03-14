@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: communities
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 230f1016-4b8d-48e3-86cc-f079ff16da8e
-index: y
-internal: n
-snippet: y
 ---
 
 # Communities Components{#communities-components}

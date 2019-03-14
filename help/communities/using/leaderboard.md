@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 7449f99e-77d7-4c0f-96d5-b67d5e1f124a
-index: y
-internal: n
-snippet: y
 ---
 
 # Leaderboard Essentials{#leaderboard-essentials}
@@ -22,7 +19,7 @@ Prior to including the leaderboard component on a page, it is necessary to confi
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 

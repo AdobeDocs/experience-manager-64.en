@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 2bf8496d-a485-4b39-a6c9-07222b66d0cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Tools Consoles{#tools-consoles}
@@ -23,7 +20,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
 
 ## Tools - Classic UI {#tools-classic-ui}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th width="200">Page or Folder</th> 
@@ -205,7 +202,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
 
 ## Tools - Touch-Optimized UI {#tools-touch-optimized-ui}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Section</th> 

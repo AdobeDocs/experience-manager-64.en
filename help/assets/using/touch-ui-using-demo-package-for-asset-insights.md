@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 9009619a-ca5e-4586-8c67-b7e72f58e2a2
-index: y
-internal: n
-snippet: y
 ---
 
 # Using demo package for Asset Insights{#using-demo-package-for-asset-insights}

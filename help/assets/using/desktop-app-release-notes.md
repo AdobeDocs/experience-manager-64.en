@@ -9,16 +9,13 @@ topic-tags: release-notes
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: 518d7ad9-671b-4bb5-a4e5-4dce6bf1a226
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Desktop App Release Notes{#aem-desktop-app-release-notes}
 
 ## Release Information {#release-information}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Products</td> 
@@ -442,7 +439,7 @@ For detailed instructions, see [install and configure AEM Desktop app](https://h
 
 Compatibility matrix for releases of AEM Desktop App with AEM 6.x releases.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><p><strong>Version</strong></p> </td> 

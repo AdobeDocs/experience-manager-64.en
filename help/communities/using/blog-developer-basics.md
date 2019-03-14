@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: de8d0e6d-827b-45fe-a538-d3fe1dec8427
-index: y
-internal: n
-snippet: y
 ---
 
 # Blog Essentials{#blog-essentials}
@@ -32,7 +29,7 @@ The blog feature is comprised of two main components that are available by addin
 
 ### Blog {#blog}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 

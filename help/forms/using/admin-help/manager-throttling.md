@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9a8b4e3a-f416-4dc6-a90a-9018df5c844e
-index: y
-internal: n
-snippet: y
 ---
 
 # Work Manager and throttling{#work-manager-and-throttling}
@@ -40,7 +37,7 @@ AEM forms administrators can use Health Monitor to check Work Manager statistics
 
 You can configure throttling for Work Manager, so that work items are scheduled only when there are enough memory resources available. You configure throttling by setting the following JVM options in your application server. 
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e28320" valign="top" width="NaN%"><p>Property</p></th> 

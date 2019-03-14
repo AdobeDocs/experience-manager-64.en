@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 3f4c17cf-6f77-4a87-b27b-f13a6a976523
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing SPAs for AEM{#developing-spas-for-aem}
@@ -69,7 +66,7 @@ If the [principles of developing SPAs in AEM](../../../sites/developing/using/sp
 
 There may be cases however when this is not entirely necessary. The following table gives an overview of the various design models, their advantages, and their disadvantages.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Design Model<br /> </strong></th> 

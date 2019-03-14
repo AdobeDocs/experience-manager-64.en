@@ -7,9 +7,6 @@ uuid: 6eefbe84-6496-4bf8-b065-212aa50cd074
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9f400560-8152-4d07-a946-e514e9b9cedf
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms-centric workflows on OSGi | Handling user data{#forms-centric-workflows-on-osgi-handling-user-data}
@@ -36,7 +33,7 @@ The default repository locations where payload, drafts, and history of a workflo
 >
 >You can configure different locations to store payload, draft, and history data when creating a workflow or application. To identify the locations where a workflow or application stored data, review the workflow.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> </td> 

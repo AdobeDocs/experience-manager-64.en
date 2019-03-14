@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 12baf001-dfc9-410a-9821-a3bae1324392
-index: y
-internal: n
-snippet: y
 ---
 
 # Best practices for optimizing the quality of your images {#best-practices-for-optimizing-the-quality-of-your-images}

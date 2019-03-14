@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 750bcb3b-d512-4628-92f6-d3083099f244
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset Selector{#asset-selector}
@@ -34,7 +31,7 @@ You can integrate any web page (irrespective of whether it is part of the CQ con
 
 You can pass the following request parameters in a URL to launch the asset selector in a particular context:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top"><p><strong>Name</strong></p> </td> 

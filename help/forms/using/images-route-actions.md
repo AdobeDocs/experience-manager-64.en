@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 10158c13-47b4-43e3-ac47-690f3cbab158
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize images used in route actions{#customize-images-used-in-route-actions}

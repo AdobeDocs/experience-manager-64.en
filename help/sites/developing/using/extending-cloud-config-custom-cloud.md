@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: e48e87c6-43ca-45ba-bd6b-d74c969757cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a Custom Cloud Service{#creating-a-custom-cloud-service}

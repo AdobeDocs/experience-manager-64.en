@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: cc0637ef-4a9e-454f-899d-655c9caebe2b
-index: y
-internal: n
-snippet: y
 ---
 
 # User, Group and Access Rights Administration{#user-group-and-access-rights-administration}
@@ -167,7 +164,7 @@ Access rights from multiple group principals are evaluated based on their order,
 
 The following table list some recommendations and best practices:
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Recommendation...</td> 
@@ -471,7 +468,7 @@ The policies can be selected for:
 
 The following privileges are available for selection when adding an access control entry (see the [Security API](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/security/Privilege.html) for full details):
 
-<table border="0" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><strong>Privilege Name</strong></th> 

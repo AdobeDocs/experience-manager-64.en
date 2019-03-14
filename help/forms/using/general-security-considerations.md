@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: 38132225-ecae-4887-8f3d-0b3845059130
-index: y
-internal: n
-snippet: y
 ---
 
 # General Security Considerations for AEM Forms on JEE{#general-security-considerations-for-aem-forms-on-jee}
@@ -36,7 +33,7 @@ When securing your operating system, carefully consider implementing the measure
 
 For security information about operating systems that AEM Forms on JEE supports, see the resources in the table:
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e209" valign="top" width="NaN%"><p>Operating System</p> </th> 
@@ -89,7 +86,7 @@ When securing your application server, carefully consider implementing the measu
 
 For security information about application servers that AEM Forms on JEE supports, see the resources in this table.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e351" valign="top" width="NaN%"><p>Application Server</p> </th> 
@@ -123,7 +120,7 @@ When securing your database, consider implementing the measures described by you
 
 For security information about databases that AEM Forms on JEE supports, see the resources in this table.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e422" valign="top" width="NaN%"><p>Database</p> </th> 
@@ -152,7 +149,7 @@ For security information about databases that AEM Forms on JEE supports, see the
 
 This table describes the default ports that are required to be open during your AEM Forms on JEE configuration process. If you are connecting over https, adjust your port information and IP addresses accordingly. For more information about configuring ports, see the *Installing and Deploying AEM Forms on JEE* document for your application server.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e484" valign="top" width="NaN%"><p>Product or service</p> </th> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 5ca217a3-3806-4647-800c-2e3658df00b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Multiple Assets and Collections{#managing-multiple-assets-and-collections}

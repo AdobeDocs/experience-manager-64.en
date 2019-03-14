@@ -7,9 +7,6 @@ uuid: 1c2b5c5b-c655-4559-8748-3e0b343779c2
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 75b2d424-91d3-45b4-a5d7-fb49ab558582
-index: y
-internal: n
-snippet: y
 ---
 
 # Tutorial: Plan the Interactive Communication{#tutorial-plan-the-interactive-communication}
@@ -55,7 +52,7 @@ In each section, the text in bold represents static text. The database includes 
 
 The following table illustrates the data source for each field in the anatomy of Interactive Communication:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Section</td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: fe392c24-d01e-4d5b-9af9-9ec500adc61a
-index: y
-internal: n
-snippet: y
 ---
 
 # Flash Viewers End-of-Life Notice{#flash-viewers-end-of-life-notice}

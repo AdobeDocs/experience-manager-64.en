@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 6e913190-be92-4862-a8b9-517f8bde0044
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Core Concepts{#aem-core-concepts}

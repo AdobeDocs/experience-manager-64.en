@@ -10,9 +10,6 @@ topic-tags: developing
 content-type: reference
 discoiquuid: f176c42b-b16b-42c9-af22-4b6421de5a90
 pagetitle: Liking Essentials
-index: y
-internal: n
-snippet: y
 ---
 
 # Liking Essentials{#liking-essentials}
@@ -25,7 +22,7 @@ Anonymous posting of a like is not supported. Site visitors must register and si
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> <strong>resourceType</strong></td> 

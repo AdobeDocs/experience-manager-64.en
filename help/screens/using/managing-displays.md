@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Managing Displays{#creating-and-managing-displays}

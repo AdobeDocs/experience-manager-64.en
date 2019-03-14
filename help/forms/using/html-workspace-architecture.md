@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: c3a312fb-f684-477d-916d-2d3c99aa7607
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms Workspace Architecture{#aem-forms-workspace-architecture}

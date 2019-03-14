@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 076889a7-9c9f-4b6f-a45b-67a9b3923c36
-index: y
-internal: n
-snippet: y
 ---
 
 # Programmatically Managing Endpoints{#programmatically-managing-endpoints}

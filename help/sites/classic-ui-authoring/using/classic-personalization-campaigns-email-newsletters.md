@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: b9618913-5433-4baf-9ff6-490a26860505
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing an Email to Email Service Providers{#publishing-an-email-to-email-service-providers}
@@ -61,7 +58,7 @@ The **Email Tools** component for ExactTarget can add more email functionality t
 
 1. Select an option from the **Options** menu:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Physical Mailing Address (Required)</td> 

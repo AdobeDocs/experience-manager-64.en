@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 8fe7c072-7df0-44b7-92d0-bf39dc1e688a
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering HTML Forms Using Custom CSS Files{#rendering-html-forms-using-custom-css-files}

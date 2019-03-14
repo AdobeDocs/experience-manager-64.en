@@ -7,9 +7,6 @@ uuid: ab948f02-3b41-4304-955b-6dd51d27088e
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 91a41bc1-3fa3-4467-b3f8-5570ba7757c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Inline styling of adaptive form components{#inline-styling-of-adaptive-form-components}
@@ -51,7 +48,7 @@ Text box component before applying inline style properties
 
 Notice the change in text box style as shown in the following image after applying the following CSS properties.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="161"><p>Selector</p> </td> 

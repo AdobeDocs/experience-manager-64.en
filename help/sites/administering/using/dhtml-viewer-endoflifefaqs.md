@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: d94244ac-a5f6-4c95-ab8c-26b41d25863f
-index: y
-internal: n
-snippet: y
 ---
 
 # DHTML Viewer End-of-Life FAQs{#dhtml-viewer-end-of-life-faqs}

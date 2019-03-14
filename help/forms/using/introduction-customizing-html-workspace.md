@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 80a70f5c-dcc4-425f-9971-9e0feec094d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to Customizing AEM form workspace{#introduction-to-customizing-aem-form-workspace}
@@ -42,7 +39,7 @@ Before customizing workspace, make yourself familiar with the default style shee
 
 To customize the workspace, it is recommended that you make yourself familiar with the existing style sheet, style.css, located in /libs/ws/css folder. A few prominent components are described below.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th class="cellrowborder" valign="top" width="NaN%"><p>CSS element</p> </th> 

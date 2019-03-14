@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 62669a9d-2107-4644-a4bf-143d0ac148b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Reviews Essentials{#reviews-essentials}
@@ -26,7 +23,7 @@ Anonymous posting of a review is not supported. Site visitors must register and 
 
 #### Reviews {#reviews}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 

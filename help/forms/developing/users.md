@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 95804bff-9e6f-4807-aae4-790bd9e7cb57
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Users{#managing-users}
@@ -46,7 +43,7 @@ The following diagram shows the interaction among an end user attempting to log 
 
 The following table describes each step of the authentication process. 
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e69785" valign="top" width="NaN%"><p>Step</p></th> 
@@ -743,7 +740,7 @@ The following diagram shows the application’s logic flow.
 
 The following table describes the steps in this diagram
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e71891" valign="top" width="NaN%"><p>Step</p></th> 
@@ -873,7 +870,7 @@ The following diagram shows AEM Forms synchronizing with a user respository.
 
 The following table describes the steps in this diagram
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e72202" valign="top" width="NaN%"><p>Step</p></th> 

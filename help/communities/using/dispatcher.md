@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 23745dd3-1424-4d22-8456-d2dbd42467f4
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Dispatcher for Communities{#configuring-dispatcher-for-communities}

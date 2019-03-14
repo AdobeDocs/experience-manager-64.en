@@ -7,9 +7,6 @@ uuid: 40561086-e69d-4e6a-9543-1eb2f54cd836
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: aa3e50f1-8f5a-489d-a42e-a928e437ab79
-index: y
-internal: n
-snippet: y
 ---
 
 # API to invoke form data model service from adaptive forms{#api-to-invoke-form-data-model-service-from-adaptive-forms}
@@ -57,7 +54,7 @@ outputFieldN
 
 The API structure specifies the following details about the service operation.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 

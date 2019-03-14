@@ -10,9 +10,6 @@ topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: 8fe314c3-42c7-4584-9cec-57255fb6027f
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating digital non-visible watermarking (Digimarc) with Dynamic Media{#integrating-digital-non-visible-watermarking-digimarc-with-dynamic-media}

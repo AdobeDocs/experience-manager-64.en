@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 5d860f05-3257-4cf7-93dd-77d226d59b39
-index: y
-internal: n
-snippet: y
 ---
 
 # Create custom appearances in HTML5 forms{#create-custom-appearances-in-html-forms}
@@ -32,7 +29,7 @@ You can create a profile or choose an existing profile to add a custom widget. F
 
 HTML5 forms provide an implementation of the widget framework that can be extended to create new widgets. The implementation is a jQuery widget *abstractWidget* that can be extended to write a new widget. The new widget can be made functional only by extending/overriding the below mentioned functions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Function/Class</td> 

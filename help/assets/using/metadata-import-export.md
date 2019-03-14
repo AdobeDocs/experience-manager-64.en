@@ -8,9 +8,6 @@ contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 discoiquuid: f7e30ec4-62fd-43b7-a650-f61034f7a2db
-index: y
-internal: n
-snippet: y
 ---
 
 # Bulk Metadata Import and Export{#bulk-metadata-import-and-export}
@@ -32,7 +29,7 @@ In other words, you can use a single CSV file to simultaneously update the metad
 1. In the **Metadata Import** page, tap/click the **Select File** button to select the CSV file with metadata values to be imported.
 1. Specify the following configuration parameters:
 
-<table border="1" cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody>
   <tr>
    <td style="font-weight: normal" valign="top" width="295"><p>Batch Size</p> </td> 

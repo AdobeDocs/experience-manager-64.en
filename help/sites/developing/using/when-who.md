@@ -9,16 +9,13 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 6148f8e6-ab62-4eb8-8a2d-c431b8318000
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing - when and with whom?{#testing-when-and-with-whom}
 
 Various roles can be involved in testing and at various stages of project development.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Test Team</td> 

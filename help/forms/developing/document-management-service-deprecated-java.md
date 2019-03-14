@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9cffdb77-c8a4-4a15-b64f-1d3aadaa60c7
-index: y
-internal: n
-snippet: y
 ---
 
 # Document Management Service (Deprecated)Java API Quick Start(SOAP){#document-management-service-deprecated-java-api-quick-start-soap}

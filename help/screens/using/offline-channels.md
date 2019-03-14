@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
 discoiquuid: 609d5405-138f-47f7-9ac0-efaa32f8715b
-index: y
-internal: n
-snippet: y
 ---
 
 # Offline Channels{#offline-channels}
@@ -40,7 +37,7 @@ The ***ContentSync*** uses update handlers to parse and collect all necessary pa
 * *path*: path to the resource
 * *[targetRootDirectory]*: target folder in the zip file
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Type</strong></td> 

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f34058c3-384a-4b73-a386-5bc9125acbf8
-index: y
-internal: n
-snippet: y
 ---
 
 # Controlling access to policy-protected documents{#controlling-access-to-policy-protected-documents}

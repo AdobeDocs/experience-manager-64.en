@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 32118d3b-54d0-4283-b489-780bdcbfc8d2
-index: y
-internal: n
-snippet: y
 ---
 
 # Using AEM Document Services Programmatically{#using-aem-document-services-programmatically}
@@ -69,7 +66,7 @@ Digital signatures appear in signature fields, which are form fields that contai
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -250,7 +247,7 @@ public Document addSignatureField(Document inDoc,
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -421,7 +418,7 @@ You can programmatically timestamp a document as per [PAdES 4](https://en.wikipe
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -628,7 +625,7 @@ You can retrieve the names of all signature fields that are located in a PDF doc
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -872,7 +869,7 @@ By modifying an existing signature field, you can edit the PDF document to refle
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -1044,7 +1041,7 @@ secureDocument(Document inDoc, EncryptionOptions encryptionOptions,
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -1413,7 +1410,7 @@ secureDocument(Document inDoc,
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -2075,7 +2072,7 @@ To fetch usage rights information of the credential specified by the given `cred
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -2166,7 +2163,7 @@ To fetch usage rights information for a given document, call this API from withi
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -2284,7 +2281,7 @@ You can remove the usage rights for a document by calling the `removeUsageRights
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -2411,7 +2408,7 @@ Digital signatures can be verified to ensure that a signed PDF document was not 
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -2729,7 +2726,7 @@ AEM lets you verify digital signatures in PDF documents. A PDF document can cont
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -3027,7 +3024,7 @@ You can apply a new digital signature to a signature field only after you remove
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -3148,7 +3145,7 @@ You can retrieve the names of all signature fields that are located in a PDF doc
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -3268,7 +3265,7 @@ You can retrieve the names of all signature fields that are located in a PDF doc
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -3385,7 +3382,7 @@ Remove password-based encryption from a PDF document to let users open the PDF d
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -3484,7 +3481,7 @@ You can remove certificate-based encryption from a PDF document so that users ca
 
 **Input Parameters**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -3618,7 +3615,7 @@ The generatePDFOutput API generates a PDF document by merging a form design with
 
 #### Input Parameters {#input-parameters}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -3725,7 +3722,7 @@ The generatePDFOutput API generates a PDF document by merging a form design with
 
 #### Input Parameter {#input-parameter}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameters</th> 
@@ -3835,7 +3832,7 @@ Merges a form design with data to create a PDF document. Optionally, generates a
 
 #### Input Parameters {#input-parameters-1}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -3952,7 +3949,7 @@ Generates a PCL, PostScript, and ZPL output from a form design and data file. Th
 
 #### Input Parameters {#input-parameters-2}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -4043,7 +4040,7 @@ Generates a PCL, PostScript, and ZPL output given a form design and data file. T
 
 #### Input Parameters {#input-parameters-3}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -4128,7 +4125,7 @@ Generates a document of PS, PCL, and ZPL format by merging a form design with da
 
 #### Input Parameters {#input-parameters-4}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -4272,7 +4269,7 @@ Exports form data from an interactive PDF form in XML and XDP formats.
 
 #### Input Parameters {#input-parameters-5}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -4357,7 +4354,7 @@ Imports form data into an interactive PDF form.
 
 #### Input Parameters {#input-parameters-6}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -4444,7 +4441,7 @@ The GeneratePDFService provides APIs to convert various file formats such as .do
 
 #### PDF Generator API available on Microsoft Windows and Linux {#pdf-generator-api-available-on-microsoft-windows-and-linux}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;" width="40%"><strong>API</strong></td> 
@@ -4500,7 +4497,7 @@ The createPDF service throws the following exceptions:
 
 #### Input Parameters {#input-parameters-7}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -4637,7 +4634,7 @@ Map exportPDF(Document inputDoc, String inputFileName, String formatType, Docume
 
 #### Input Parameters {#input-parameters-8}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -4731,7 +4728,7 @@ OptimizePDFResult optimizePDF(Document inputDoc, String fileTypeSettings, Docume
 
 #### Input Parameters {#input-parameters-9}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -4822,7 +4819,7 @@ HtmlToPdfResult htmlToPdf2(String inputUrl, String fileTypeSettingsName, String 
 
 #### Input Parameters {#input-parameters-10}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 
@@ -4921,7 +4918,7 @@ Map createPDF(Document inputDoc, String inputFileName, String pdfSettings, Strin
 
 #### Input Parameters {#input-parameters-11}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 

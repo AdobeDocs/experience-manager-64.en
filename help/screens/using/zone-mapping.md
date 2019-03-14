@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 6c3b35bc-ea4f-46d4-bfed-2505ae21f764
 contentOwner: jsyal
 discoiquuid: 679da35f-2b6b-4910-92bd-5dbd4ae3742a
-index: y
-internal: n
-snippet: y
 ---
 
 # Display Layout Editor{#display-layout-editor}

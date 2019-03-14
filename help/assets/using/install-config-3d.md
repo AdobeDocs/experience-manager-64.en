@@ -9,9 +9,6 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 5898d084-4b45-41bc-ad2e-2fcc65b0392c
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing and configuring AEM 3D{#installing-and-configuring-aem-d}

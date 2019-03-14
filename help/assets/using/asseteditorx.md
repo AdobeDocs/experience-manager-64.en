@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 90dc9025-ad40-47ea-9e17-af8c93ef650c
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending Asset Editor {#extending-asset-editor}

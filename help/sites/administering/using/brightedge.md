@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: cf25c9a8-0555-4c67-8aa5-55984fd8d301
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with BrightEdge Content Optimizer{#integrating-with-brightedge-content-optimizer}

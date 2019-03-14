@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 25a6d702-9995-4c63-99d8-3e5d710bb0c4
-index: y
-internal: n
-snippet: y
 ---
 
 # We.Gov reference site walkthrough{#we-gov-reference-site-walkthrough}

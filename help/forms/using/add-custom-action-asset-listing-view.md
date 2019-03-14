@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: b35ea921-182f-4371-90f6-482d22694b42
-index: y
-internal: n
-snippet: y
 ---
 
 # Add custom action to the Asset Listing view{#add-custom-action-to-the-asset-listing-view}
@@ -85,7 +82,7 @@ To customize Correspondence Management to allow your users to download a flat PD
 
     1. Add the following properties to the node (here downloadFlatPDF) and click **Save All**:
 
-    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+    <table> 
  <tbody> 
   <tr> 
    <td><strong>Name</strong></td> 

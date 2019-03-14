@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: a2bd7045-970f-4245-ad5d-a272a654df0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Closed User Groups in AEM{#closed-user-groups-in-aem}
@@ -511,7 +508,7 @@ The following two OSGi components have been introduced to define authentication 
 
 **org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Label</td> 
@@ -543,7 +540,7 @@ The following two OSGi components have been introduced to define authentication 
 
 **org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Label</td> 
@@ -615,7 +612,7 @@ The following 2 OSGi components have been introduced to defne authentication req
 
 **com.adobe.granite.auth.requirement.impl.RequirementService**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Label</td> 
@@ -659,7 +656,7 @@ The authentication related parts of the CUG rewrite only come with a single conf
 
 **“Authentication Requirement and Login Path Handler”**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Property</td> 

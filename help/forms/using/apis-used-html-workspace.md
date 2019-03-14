@@ -8,16 +8,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 4a73a973-fccf-466b-b4a0-47652a14a080
-index: y
-internal: n
-snippet: y
 ---
 
 # APIs used in AEM Forms workspace{#apis-used-in-aem-forms-workspace}
 
 The following APIs are used in AEM Forms workspace.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody style="font-size: 75%;">
   <tr>
    <td width="20%"><strong>Javascript Method</strong></td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 8cd78c84-71ba-4095-b882-90d0dc00289d
-index: y
-internal: n
-snippet: y
 ---
 
 # Processing Assets Using Media Handlers and Workflows{#processing-assets-using-media-handlers-and-workflows}

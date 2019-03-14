@@ -10,9 +10,6 @@ topic-tags: administering
 content-type: reference
 discoiquuid: b19b3c24-82a0-468c-a077-9f3edb96afc9
 tagskeywords: scoring, badging, badges, gamification
-index: y
-internal: n
-snippet: y
 ---
 
 # Communities Scoring and Badges{#communities-scoring-and-badges}
@@ -200,7 +197,7 @@ The name of the sub-rule typically follows the pattern of using a *subject, obje
 
 Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node that specify the [verbs and topics](#topics-and-verbs) .
 
-<table border="2" cellpadding="4" cellspacing="1" width="95%"> 
+<table> 
  <tbody> 
   <tr> 
    <th style="text-align: center;">Property</th> 
@@ -331,7 +328,7 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
 
 ![](assets/chlimage_1-369.png) 
 
-<table border="2" cellpadding="4" cellspacing="2" width="90%"> 
+<table> 
  <tbody> 
   <tr> 
    <th style="text-align: center;">Property</th> 

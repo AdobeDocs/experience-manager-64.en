@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 73f37b3c-5dbe-4132-bb60-daa8de871884
-index: y
-internal: n
-snippet: y
 ---
 
 # Expiration of Static Objects{#expiration-of-static-objects}

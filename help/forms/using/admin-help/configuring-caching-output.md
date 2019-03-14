@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e5398abd-f62c-485d-9f4b-a316c0de2b6b
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring caching for Output {#configuring-caching-for-output}

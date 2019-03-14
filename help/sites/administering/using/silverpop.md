@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: dfff6bdc-0d5f-4338-aa8a-7d0eb04bc19a
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Silverpop Engage{#integrating-with-silverpop-engage}

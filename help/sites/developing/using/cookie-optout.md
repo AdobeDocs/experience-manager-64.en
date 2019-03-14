@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 5773ec1a-f15b-462d-8f9f-54ee1d7ead44
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Cookie Usage{#configuring-cookie-usage}

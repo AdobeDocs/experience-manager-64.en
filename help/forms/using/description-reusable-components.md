@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: d3facd17-ceb0-4799-8cd9-ff9e81e09793
-index: y
-internal: n
-snippet: y
 ---
 
 # Description of reusable components{#description-of-reusable-components}
@@ -20,7 +17,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## TaskList {#tasklist}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -69,7 +66,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## Task {#task}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -112,7 +109,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## FilterList {#filterlist}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -150,7 +147,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## Filter {#filter}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>View</p> </td> 
@@ -184,7 +181,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## TeamQueues {#teamqueues}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -221,7 +218,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## TeamFilter {#teamfilter}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
@@ -264,7 +261,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## TaskDetails {#taskdetails}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
@@ -322,7 +319,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## CategoryList {#categorylist}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -365,7 +362,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## Category {#category}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -405,7 +402,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## StartPointList {#startpointlist}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -456,7 +453,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## StartPoint {#startpoint}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -487,7 +484,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## StartProcess {#startprocess}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
@@ -550,7 +547,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## ProcessNameList {#processnamelist}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -590,7 +587,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## ProcessName {#processname}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -621,7 +618,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## ProcessInstanceList {#processinstancelist}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -660,7 +657,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## ProcessInstance {#processinstance}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -691,7 +688,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## ProcessInstanceHistory {#processinstancehistory}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -735,7 +732,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## OutofOffice {#outofoffice}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
@@ -776,7 +773,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## ShareQueue {#sharequeue}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
@@ -820,7 +817,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## UISettings {#uisettings}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -859,7 +856,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## AppNavigation {#appnavigation}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -894,7 +891,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## UserInfo {#userinfo}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
@@ -934,7 +931,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## WSError {#wserror}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p></td> 
@@ -965,7 +962,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## UserSearch {#usersearch}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
@@ -1000,7 +997,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## SearchTemplate {#searchtemplate}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
@@ -1031,7 +1028,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## SearchTemplateList {#searchtemplatelist}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 
@@ -1062,7 +1059,7 @@ AEM Forms workspace is composed of [reusable](../../forms/using/integrating-html
 
 ## SearchTemplateDetails {#searchtemplatedetails}
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td class="cellrowborder" valign="top" width="NaN%"><p>Model</p> </td> 

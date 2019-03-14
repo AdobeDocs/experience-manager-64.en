@@ -8,9 +8,6 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 discoiquuid: afc4a9fd-9bde-4517-bf6b-df21744d5a32
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance{#performance}

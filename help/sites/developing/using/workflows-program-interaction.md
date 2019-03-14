@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: cb621332-a149-4f8d-9425-fd815b033c38
-index: y
-internal: n
-snippet: y
 ---
 
 # Interacting with Workflows Programmatically{#interacting-with-workflows-programmatically}
@@ -36,7 +33,7 @@ The class also provides several methods for intervening in workflow lifecycles.
 
 The following table provides links to the reference documentation of several key Java objects to use when interacting programmatically with workflows. The examples that follow demonstrate how to obtain and use the class objects in code.
 
-<table border="1" cellpadding="1" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Features<a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md"></a></th> 
@@ -102,7 +99,7 @@ The following HTTP request methods apply to:
 
 `http://localhost:4502/etc/workflow/instances`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="20%">HTTP request method</td> 
@@ -135,7 +132,7 @@ The following HTTP request methods apply to:
 
 `http://localhost:4502/etc/workflow/instances/{id}`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="20%">HTTP request method</td> 
@@ -158,7 +155,7 @@ The following HTTP request methods apply to: ``
 
 `http://localhost:4502/etc/workflow/models`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="20%">HTTP request method</td> 
@@ -243,7 +240,7 @@ The following HTTP request methods apply to:
 
 ``Where * `{uri}`* is the path to the model node in the repository.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="20%">HTTP request method</td> 
@@ -362,7 +359,7 @@ The following HTTP request methods apply to: ``
 
 `http://localhost:4502/bin/workflow/inbox`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="20%">HTTP request method</td> 

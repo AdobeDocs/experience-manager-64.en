@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 4785c3f2-c25f-47c4-9ecd-09aa49afd4d3
-index: y
-internal: n
-snippet: y
 ---
 
 # Poll Essentials{#poll-essentials}

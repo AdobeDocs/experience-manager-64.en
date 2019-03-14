@@ -6,9 +6,6 @@ seo-description: Use metadata to populate information in a forms workflow email 
 uuid: 17e018c9-6bf8-4042-bba9-4ebe449304ac
 topic-tags: publish
 discoiquuid: bdf13893-630a-43cd-aaeb-c7c16bf4f8a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Use metadata in an email notification {#use-metadata-in-an-email-notification}
@@ -27,7 +24,7 @@ Metadata is stored in key-value pairs. You can specify the key in the email temp
 subject=Task Assigned - ${workitem_title}
 
 message=<html><body>\n\
- <table style="width: 480px; font-family: Helvetica, Arial, sans-serif; border: 0; padding: 0; vertical-align: top; text-align: left; word-wrap: break-word; margin: 16px auto; color:#323232; background-color:#FFFCF9; border-collapse: collapse;">\n\
+ <table>\n\
   <tbody>\n\
    <tr>\n\
     <td style="height: 100px; width: 480px; background-color: #FFE0CB; border-top: 5pt solid black; font-family: Helvetica, Arial, sans-serif; font-weight: bold; font-size: 15px; line-height: 20px; padding: 12px; color: #707070;">\n\
@@ -42,7 +39,7 @@ message=<html><body>\n\
    </tr>\n\
    <tr>\n\
     <td style="width: 480px;">\n\
-     <table style="height: auto; width: 480px; background-color:#FFFBF9; font-family: Helvetica, Arial, sans-serif; border-collapse: collapse;">\n\
+     <table>\n\
       <tbody>\n\
        <tr style="border-bottom: solid 2px #FFFCF9;">\n\
         <td style="font-family: Helvetica, Arial, sans-serif; width: auto; height: auto; background-color:#FFF5EF; font-weight: bold; font-size: 11px; line-height: 20px; padding: 12px; color: #707070;"> TITLE</td>\n\
@@ -98,7 +95,7 @@ message=<html><body>\n\
 
 An AEM Forms application provides several metadata variables (key-value pairs) out of the box. You can use these variables in an email template. The value of the variable is based on the associated forms application. The following table lists all the metadata variables available out of the box:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Key</td> 

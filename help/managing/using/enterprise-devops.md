@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
 discoiquuid: 934eda2a-bd3b-4018-86dc-dbb01d246386
-index: y
-internal: n
-snippet: y
 ---
 
 # Enterprise DevOps{#enterprise-devops}

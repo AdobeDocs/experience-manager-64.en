@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 6911c8e3-b12c-466e-8255-5dcd09557d35
-index: y
-internal: n
-snippet: y
 ---
 
 # Target Integration with Experience Fragments{#target-integration-with-experience-fragments}

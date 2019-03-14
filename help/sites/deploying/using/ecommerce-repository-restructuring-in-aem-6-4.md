@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 28c92e7d-2106-4333-afa6-c5528a00d7b4
-index: y
-internal: n
-snippet: y
 ---
 
 # E-Commerce Repository Restructuring in AEM 6.4{#e-commerce-repository-restructuring-in-aem}
@@ -21,7 +18,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Product, Order, Collections, Classifications, Shipping Methods and Payment Methods Data {#product-order-collections-classifications-shipping-methods-and-payment-methods-data}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 

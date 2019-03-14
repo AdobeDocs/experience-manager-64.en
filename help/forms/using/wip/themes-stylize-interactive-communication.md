@@ -8,9 +8,6 @@ uuid: 8a35900f-2d60-47e3-ab2d-8c1511b19d84
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9a2d00bb-8c0f-4b0e-859f-f6d3920754b4
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Themes in AEM Forms{#do-not-publish-themes-in-aem-forms}
@@ -403,7 +400,7 @@ Options for customizing state styles vary for different components.
 
 #### Property sheet {#property-sheet}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Property</strong></td> 

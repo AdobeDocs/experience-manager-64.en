@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: 505bf3e3-ce3c-40aa-9619-e1b9f6634deb
-index: y
-internal: n
-snippet: y
 ---
 
 # Obtaining Page Information in JSON Format{#obtaining-page-information-in-json-format}

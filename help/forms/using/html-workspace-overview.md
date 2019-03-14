@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: ebabecb9-91c4-4991-8f5b-d27f940d2ecb
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with AEM Forms workspace{#working-with-aem-forms-workspace}
@@ -58,7 +55,7 @@ In AEM Forms workspace, the default render and submit services, in the default a
 
 The mapping between various types of customizations in both the workspaces is as follows.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Type of customization </strong></td> 

@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: b4b3d058-4299-401a-bff1-5fc138d63c34
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/rest-api
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT REST API{#redirect-rest-api}

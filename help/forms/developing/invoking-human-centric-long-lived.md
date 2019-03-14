@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 18a320b4-dce6-4c50-8864-644b0b2d6644
-index: y
-internal: n
-snippet: y
 ---
 
 # Invoking Human-Centric Long-Lived Processes{#invoking-human-centric-long-lived-processes}
@@ -376,7 +373,7 @@ The following HTML code represents the index.html file that was created during s
  <title>Insert title here</title> 
  </head> 
  <body> 
- <TABLE border="0"> 
+ <table> 
      <TBODY> 
          <TR> 
              <TD width="172"><img src="financeCorpLogo.jpg" width="172" height="62"></TD> 
@@ -388,7 +385,7 @@ The following HTML code represents the index.html file that was created during s
      </TBODY> 
  </TABLE> 
      <FORM action="http://hiro-xp:8080/PreLoanProcess/SubmitXML" method="post"> 
-        <TABLE border="0"> 
+        <table> 
           <TBODY> 
                 <TR> 
                       <TD width="114"><LABEL for="name">Name: </LABEL></TD> 
@@ -518,7 +515,7 @@ The following illustration shows the ASP.NET application
 
 The following table lists the controls that are part of this ASP.NET application. 
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e14504" valign="top" width="NaN%"><p>Control name</p></th> 

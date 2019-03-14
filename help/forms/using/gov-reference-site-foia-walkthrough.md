@@ -7,9 +7,6 @@ uuid: 65d4233c-8dad-4e5e-8e39-22eb4f145adc
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: cef8f597-7935-4d98-aacf-9981470ab620
-index: y
-internal: n
-snippet: y
 ---
 
 # We.Gov reference site FOIA walkthrough{#we-gov-reference-site-foia-walkthrough}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 599c316e-b6a7-4a28-bc4b-75d48409bde0
-index: y
-internal: n
-snippet: y
 ---
 
 # Mixed Media Sets{#mixed-media-sets}

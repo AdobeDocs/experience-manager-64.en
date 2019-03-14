@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 42bf42cb-0c6c-4390-8170-2c540c4d3ed3
-index: y
-internal: n
-snippet: y
 ---
 
 # User Interface Recommendations for Customers{#user-interface-recommendations-for-customers}
@@ -54,7 +51,7 @@ Adobe does not plan to make further enhancements to the Classic UI starting AEM 
 
 The following is a list of recommendations from Product Management for Adobe Experience Manager 6.4:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>My project...</th> 

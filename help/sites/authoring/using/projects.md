@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: 42b224e5-1256-44b6-9b46-4cd6de5927fb
-index: y
-internal: n
-snippet: y
 ---
 
 # Projects{#projects}
@@ -194,7 +191,7 @@ The different user roles are set in a Project template and are used for two prim
 
 All projects support the following default roles to let you administer security and control permissions:
 
-<table border="1" cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="160"><p><strong>Role</strong></p> </td> 

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
 discoiquuid: abfeea65-102d-4800-abeb-304d61afcc13
-index: y
-internal: n
-snippet: y
 ---
 
 # Authoring Mobile Applications{#authoring-mobile-applications}

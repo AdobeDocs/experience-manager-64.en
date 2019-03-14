@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: de6ed870-0e69-4d16-99e4-037dd5acf413
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring and Maintaining Your AEM instance{#monitoring-and-maintaining-your-aem-instance}
@@ -567,7 +564,7 @@ The following gives a short overview of some of the tools available for monitori
 
 Some of these will be dependent on your operating system.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Tool</td> 

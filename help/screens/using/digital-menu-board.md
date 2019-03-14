@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: ac2235a0-0356-47fe-bf27-46c4628b3445
 contentOwner: jsyal
 discoiquuid: d85d8cec-7390-4718-b502-dc863cc51854
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting up a Digital Menu Board{#setting-up-a-digital-menu-board}

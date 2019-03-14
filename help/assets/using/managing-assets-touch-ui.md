@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Assets with the Touch-Optimized UI{#managing-assets-with-the-touch-optimized-ui}
@@ -142,7 +139,7 @@ Dynamic Media enables batch uploading of assets via FTP server. If you intend to
 
 #### Upload Job Options {#upload-job-options}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Upload option</strong></td> 
@@ -261,7 +258,7 @@ When uploading image files, including AI, EPS, and PSD files, you can take the f
 * Sharpen images with unsharp masking options
 * Knockout Background
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Option</strong></td> 
@@ -329,7 +326,7 @@ When uploading image files, including AI, EPS, and PSD files, you can take the f
 
 When you upload PostScript (EPS) or Illustrator (AI) image files, you can format them in various ways. You can rasterize the files, maintain the transparent background, choose a resolution, and choose a color space. Options for formatting PostScript and Illustrator files are available in the Upload Job Options dialog box under PostScript Options and Illustrator Options.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Option</strong></td> 
@@ -391,7 +388,7 @@ Use the Crop Options and Color Profile Options, described above, with Photoshop 
 >
 >Templates are not supported in AEM.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Option</strong></td> 
@@ -456,7 +453,7 @@ When you upload a PDF file, you can format it in various ways. You crop its page
 
 Choose from the following options:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Option</strong></td> 
@@ -520,7 +517,7 @@ Choose from the following options:
 
 You can transcode a video file by choosing from a variety of video presets.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Option</strong></td> 
@@ -837,7 +834,7 @@ You can download assets including static and dynamic renditions. Alternatively, 
 
 The following are the Export/Download options. Dynamic renditions are unique to Dynamic Media and let you generate renditions on-the-fly in addition to the asset you selected - that option is only available if you have dynamic media enabled.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Assets</strong></td> 

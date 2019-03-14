@@ -7,9 +7,6 @@ uuid: 19dcbda4-61af-40b3-b10b-68a341373410
 content-type: troubleshooting
 topic-tags: publish
 discoiquuid: e6c9f3bb-8f20-4889-86f4-d30578fb1c51
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamically select a user or group for AEM Forms-centric workflow steps{#dynamically-select-a-user-or-group-for-aem-forms-centric-workflow-steps}
@@ -40,7 +37,7 @@ ECMAScript is a scripting language. It is used for client-side scripting and ser
     1. Add the `mix:title` property in Edit Mixins dialog and click **OK**.
     1. Add the following property to the jcr:content node of script:
 
-    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+    <table> 
  <tbody> 
   <tr> 
    <td>Name</td> 

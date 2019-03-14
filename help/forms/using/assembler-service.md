@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: d34f1598-38bc-46c3-b6cd-954a3880994a
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Assembler Service{#using-assembler-service}
@@ -130,7 +127,7 @@ Typically, XDP documents can contain images referenced either through absolute o
 
 You can specify how the Assembler service handles the images referenced in the source XDP documents either through absolute or relative references in the XDP files when assembling. You can choose to have all the images embedded in the resultant so that it contains no relative or absolute references. You define this by setting the value of the resolveAssets tag, which can take any of the following options. By default, no references are resolved in the result document.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Value</th> 

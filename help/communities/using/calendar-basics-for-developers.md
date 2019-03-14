@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 88932a3c-ba7f-47ba-9e0b-206755c2d42e
-index: y
-internal: n
-snippet: y
 ---
 
 # Calendar Essentials{#calendar-essentials}
@@ -20,7 +17,7 @@ This page provides essential information on working with the calendar feature.
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 

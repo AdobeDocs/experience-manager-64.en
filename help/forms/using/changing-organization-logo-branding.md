@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 2c651302-f4ef-4211-b897-f5942ed0ffb1
-index: y
-internal: n
-snippet: y
 ---
 
 # Changing the organization logo for branding{#changing-the-organization-logo-for-branding}

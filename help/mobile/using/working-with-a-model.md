@@ -9,9 +9,6 @@ content-type: reference
 discoiquuid: 2d956042-56d4-4f84-a0e3-e72ce204340a
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/administer-mobile-apps
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Models{#working-with-models}

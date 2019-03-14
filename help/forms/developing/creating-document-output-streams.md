@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: de527d50-991b-4ca3-a8ac-44d5cab988e9
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Document Output Streams {#creating-document-output-streams}
@@ -1436,7 +1433,7 @@ Another limitation of sending a PDF document to a printer is that it just prints
 
 To retrieve a document to print, you use the `generatePrintedOutput` method. The following table specifies content types that are set for a given print stream when using the `generatePrintedOutput` method.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e30883" valign="top" width="NaN%"><p>Print format </p></th> 

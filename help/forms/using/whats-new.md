@@ -8,9 +8,6 @@ contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 436aa424-d05e-4f3d-90ac-5ff3b05ddba8
-index: y
-internal: n
-snippet: y
 ---
 
 # New features summary | AEM 6.4 Forms{#new-features-summary-aem-forms}
@@ -200,7 +197,7 @@ Using document security, you can safely distribute any information that you have
 
 AEM Forms can be set up using any combination of supported operating systems, application servers, databases, database drivers, JDK, LDAP servers, and email servers. The following are the major changes in supported platforms:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Component</td> 

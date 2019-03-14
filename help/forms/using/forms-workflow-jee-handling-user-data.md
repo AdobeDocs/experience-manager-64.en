@@ -7,9 +7,6 @@ uuid: 3b06ef19-d3c4-411e-9530-2c5d2159b559
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5632a8df-a827-4e38-beaa-18b61c2208a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms JEE workflows | Handling user data{#forms-jee-workflows-handling-user-data}

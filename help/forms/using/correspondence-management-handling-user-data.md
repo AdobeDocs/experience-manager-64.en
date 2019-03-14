@@ -7,9 +7,6 @@ uuid: d5bb190b-d668-4da3-95da-b7705ad302d9
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 764d8e0d-604d-4c7b-89cd-7686ce5f03ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Correspondence Management | Handling user data{#correspondence-management-handling-user-data}
@@ -28,7 +25,7 @@ Correspondence management stores data for draft and submitted letters in AEM rep
 
 Depending on the data store persistence configured for your AEM deployment, drafts and submitted correspondence data is stored at the following locations.
 
-<table border="1" cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="98"><p><strong>Persistence type</strong></p> </td> 

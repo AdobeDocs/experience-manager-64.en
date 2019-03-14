@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 58f95138-5439-4540-a8dc-193b4cb42203
-index: y
-internal: n
-snippet: y
 ---
 
 # New render and submit service{#new-render-and-submit-service}

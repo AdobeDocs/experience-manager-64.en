@@ -9,16 +9,13 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 2be468e7-2b4e-4e04-881b-b9bdd1f55e57
-index: y
-internal: n
-snippet: y
 ---
 
 # General Release Notes for Adobe Experience Manager 6.4{#general-release-notes-for-adobe-experience-manager}
 
 ## Release Information {#release-information}
 
-<table border="1" cellpadding="1" cellspacing="0" width="781"> 
+<table> 
  <tbody>
   <tr>
    <th>Product</th> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: df8cfde3-543d-4150-9822-9be763908bd7
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating Services with the JMX Console{#integrating-services-with-the-jmx-console}

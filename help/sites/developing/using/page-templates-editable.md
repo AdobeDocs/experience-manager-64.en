@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: cf181663-8a4a-4efc-9f02-be1cf71c9299
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Templates - Editable {#page-templates-editable}
@@ -243,7 +240,7 @@ The `template-authors` group is the group used to manage access to templates and
 
 The following table details the necessary permissions for template editing.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th scope="row">Path</th> 
@@ -303,7 +300,7 @@ This default `template-authors` group only covers the project setups, where all 
 
 Templates should no longer be stored in `/conf/global`, however for some legacy installations there may still be templates in this location. ONLY in such legacy situations should the following `/conf/global` paths be explicitly configured.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th scope="row">Path</th> 

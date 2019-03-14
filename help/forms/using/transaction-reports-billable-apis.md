@@ -8,9 +8,6 @@ contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 82e72ffb-2faa-45fe-8bb2-f485d8fa043e
-index: y
-internal: n
-snippet: y
 ---
 
 # Transaction Reports Billable APIs{#transaction-reports-billable-apis}
@@ -38,7 +35,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### Generate PDF Service {#generate-pdf-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -105,7 +102,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### Distiller Service {#distiller-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -130,7 +127,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### Document of Record Service (DoR Service) {#document-of-record-service-dor-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -149,7 +146,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### Output Service {#output-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -192,7 +189,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### Forms Service {#forms-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -217,7 +214,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### Convert PDF Service {#convert-pdf-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -242,7 +239,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### Barcoded Forms Service {#barcoded-forms-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -261,7 +258,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### Assembler Service {#assembler-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -302,7 +299,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### PDF Utility Service  {#pdf-utility-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -321,7 +318,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ### Doc Assurance Service {#doc-assurance-service}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -344,7 +341,7 @@ All the submission events of adaptive forms, HTML5 Forms, and form set are accou
 
 ### Adaptive Forms {#adaptive-forms}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="15%"><p>Use Case</p> </td> 
@@ -367,7 +364,7 @@ All the submission events of adaptive forms, HTML5 Forms, and form set are accou
 
 ### HTML5 Forms {#html-forms}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="15%"><p>Use Case</p> </td> 
@@ -386,7 +383,7 @@ All the submission events of adaptive forms, HTML5 Forms, and form set are accou
 
 ### Form set {#form-set}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -413,7 +410,7 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 
 ### Interactive Communication - Web Channel {#interactive-communication-web-channel}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -434,7 +431,7 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 
 ### Interactive Communication - Print Channel {#interactive-communication-print-channel}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>API</p> </td> 
@@ -455,7 +452,7 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 
 ### Form-centric AEM Workflows on OSGi  {#form-centric-aem-workflows-on-osgi}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="121"><p>Use case</p> </td> 

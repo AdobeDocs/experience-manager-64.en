@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 73b4ffbe-2821-4336-a169-de817f581ac7
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/aem-screens-introduction
-index: y
-internal: n
-snippet: y
 ---
 
 # (Redirect)What is AEM Screens?{#redirect-what-is-aem-screens}

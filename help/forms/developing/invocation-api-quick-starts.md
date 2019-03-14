@@ -9,16 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: dcf83c9f-b818-44a2-9079-80a4fc357c4f
-index: y
-internal: n
-snippet: y
 ---
 
 # Invocation API Quick Starts{#invocation-api-quick-starts}
 
 The following Quick Starts are available for programmatically invoking AEM Forms services:
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e2231" valign="top" width="NaN%"><p>Description</p></th> 

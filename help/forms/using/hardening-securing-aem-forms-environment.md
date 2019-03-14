@@ -6,9 +6,6 @@ seo-description: Learn recommendations and best practices for securing AEM Forms
 uuid: abca7e7c-38c3-44f5-8d8a-4615cfce26c6
 topic-tags: Security
 discoiquuid: b1bd04bf-0d6d-4e6b-8c7c-eafd1a24b5fe
-index: y
-internal: n
-snippet: y
 ---
 
 # Hardening and Securing AEM forms on OSGi environment{#hardening-and-securing-aem-forms-on-osgi-environment}
@@ -42,7 +39,7 @@ An organization can have an external firewall to restrict access between an end-
 
 You can configure an external firewall to allow a certain AEM Forms URLs to access to the internet. Access to these URLs is required to fill or submit an adaptive form, HTML5, correspondence management letter or to login to an AEM Forms server: 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td width="50%">Component</td> 
@@ -96,7 +93,7 @@ You can configure an external firewall to allow a certain AEM Forms URLs to acce
 
 You can configure the internal firewall to allow certain AEM Forms components (For example, author instance, processing instance, databases) to communicate with publish farm and other internal components mentioned in the topology diagram:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td width="50%">Host<br /> </td> 

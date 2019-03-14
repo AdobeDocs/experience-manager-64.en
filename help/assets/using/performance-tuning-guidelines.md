@@ -10,9 +10,6 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 6e454056-96cf-4269-9bed-e6b96c480388
 tagskeywords: performance tuning, AEM Assets, software optimization, hardware optimization
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Performance Tuning Guide{#assets-performance-tuning-guide}

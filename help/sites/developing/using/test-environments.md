@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: db528b9b-3407-462d-8254-20b3cc2c3ccf
-index: y
-internal: n
-snippet: y
 ---
 
 # Which Test Environments will be needed?{#which-test-environments-will-be-needed}

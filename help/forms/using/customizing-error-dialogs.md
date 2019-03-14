@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: f547c0c1-3917-4092-9d63-c1b3aaefcef0
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing error dialogs{#customizing-error-dialogs}

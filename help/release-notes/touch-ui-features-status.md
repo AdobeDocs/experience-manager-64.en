@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 482b5eb0-1b15-4f10-a9d8-3b72dd74acf8
-index: y
-internal: n
-snippet: y
 ---
 
 # Touch UI Feature Status{#touch-ui-feature-status}
@@ -50,7 +47,7 @@ For recommendations for customers that upgrade to AEM 6.4, please see [User Inte
 
 This is a list of capabilities the classic UI Site Admin ( `/siteadmin`) has and the status in the touch-enabled UI ( `/sites.html`).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Feature<br /> </strong></td> 
@@ -224,7 +221,7 @@ This is a list of capabilities the classic UI Site Admin ( `/siteadmin`) has and
 
 This is a list of capabilities the classic UI Page Editor ( `/cf#`) has and the status in the touch-enabled ( `/editor.html`).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Feature</strong></td> 
@@ -438,7 +435,7 @@ This is a list of capabilities the classic UI Page Editor ( `/cf#`) has and the 
 
 This is a list of capabilities the classic UI Text, Table, and Image Editor have and the status in the touch-enabled UI.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Feature</strong></td> 
@@ -597,7 +594,7 @@ This is a list of capabilities the classic UI Text, Table, and Image Editor have
 
 This is a list of various tools the classic UI have and the status in the touch-enabled UI.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Feature<br /> </strong></td> 

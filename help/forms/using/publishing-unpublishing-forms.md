@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 content-strategy: max-2018
 discoiquuid: 7dd08e81-5df6-4522-9f8c-48b4bba8927b
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing and unpublishing forms and documents{#publishing-and-unpublishing-forms-and-documents}

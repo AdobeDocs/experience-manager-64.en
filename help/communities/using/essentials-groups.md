@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 4f85cd3c-5158-4f23-abe2-7e375fd0c8d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Community Group Essentials{#community-group-essentials}
@@ -24,7 +21,7 @@ As of Communities [feature pack 1](../../communities/using/deploy-communities.md
 
 #### Community Groups Member List {#community-groups-member-list}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 
@@ -51,7 +48,7 @@ As of Communities [feature pack 1](../../communities/using/deploy-communities.md
 
 #### Community Groups {#community-groups}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 

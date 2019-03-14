@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 8cc04993-4021-4cb7-b973-5afc4da1ed11
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity Stream Essentials{#activity-stream-essentials}
@@ -34,7 +31,7 @@ A * [social graph](../../communities/using/essentials-socialgraph.md)* captures 
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 

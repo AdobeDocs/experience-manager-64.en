@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 72df3ece-badf-466b-8f9a-0ec985d87741
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling CRXDE Lite in AEM{#enabling-crxde-lite-in-aem}

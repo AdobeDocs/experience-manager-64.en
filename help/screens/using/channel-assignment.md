@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 6303a1fd-8ee7-4565-a0c7-9295a2cd9306
-index: y
-internal: n
-snippet: y
 ---
 
 # Channel Assignment{#channel-assignment}
@@ -113,7 +110,7 @@ Here, we will divide each day into three different time slots, so that channel c
 
 This example shows the dayparting achieved in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Channel</strong></td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 7cb99618-d903-4cfb-b0d9-b23d189f6e78
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Workflows{#working-with-workflows}

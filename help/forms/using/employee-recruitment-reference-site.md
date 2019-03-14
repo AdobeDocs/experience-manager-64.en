@@ -7,9 +7,6 @@ uuid: 27e456ba-3c08-4c43-ad54-1ba0070995ad
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5f04b13e-ea40-4c86-9168-e020c52435a2
-index: y
-internal: n
-snippet: y
 ---
 
 # Employee recruitment reference site walkthrough{#employee-recruitment-reference-site-walkthrough}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: b6e42b9d-9e27-4f22-8543-442d03af48f3
-index: y
-internal: n
-snippet: y
 ---
 
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
@@ -29,7 +26,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply to the use o
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Location</th> 

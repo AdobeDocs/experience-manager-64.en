@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 8231a30a-dcb7-4156-bb45-c5a23e5b56ef
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Brackets Extension{#aem-brackets-extension}

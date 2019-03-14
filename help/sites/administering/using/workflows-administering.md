@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: d9c96e7f-9416-48e1-a6af-47384f7bee92
-index: y
-internal: n
-snippet: y
 ---
 
 # Administering Workflow Instances{#administering-workflow-instances}
@@ -119,7 +116,7 @@ To configure the service, you can use the [Web Console](../../../sites/deploying
 >
 >`com.adobe.granite.workflow.purge.Scheduler-myidentifier`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property Name (Web Console)</th> 

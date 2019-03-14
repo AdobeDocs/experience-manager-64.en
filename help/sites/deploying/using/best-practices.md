@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 4b5c0677-c630-4fae-867e-4f4583ac8507
-index: y
-internal: n
-snippet: y
 ---
 
 # Deploying Best Practices{#deploying-best-practices}
@@ -37,7 +34,7 @@ Specific documents are described and linked to in the tables that follow.
 
 [Oak](../../../sites/deploying/using/platform.md) is a scalable and performant hierarchical content repository that is the foundation of AEM. 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><p>Scalability, Performance and Disaster Recovery</p> </td> 
@@ -86,7 +83,7 @@ Best practices around the user interface are described here:
 
 Best practices around performance are listed here:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Best Practices for Quality Assurance</td> 

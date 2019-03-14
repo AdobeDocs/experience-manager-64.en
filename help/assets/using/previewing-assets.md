@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 77296bff-8429-4240-af93-26076ae431ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Previewing Assets{#previewing-assets}
@@ -37,7 +34,7 @@ To preview assets:
 1. Under the **Title** column, click the title name (not the thumbnail image) of the asset you want to preview.
 1. Depending on the asset type you clicked, do any one of the following:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Asset type you clicked</strong><br /> </td> 

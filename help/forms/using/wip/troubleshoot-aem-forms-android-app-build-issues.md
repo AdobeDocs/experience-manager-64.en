@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: forms-app
 discoiquuid: 4f3815e9-2151-41aa-a8b2-8905f87de387
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Troubleshoot AEM Forms Android app build issues{#do-not-publish-troubleshoot-aem-forms-android-app-build-issues}

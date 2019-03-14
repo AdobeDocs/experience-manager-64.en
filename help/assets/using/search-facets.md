@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 4c03f218-6c0c-4482-b10e-a6ccddb30d57
-index: y
-internal: n
-snippet: y
 ---
 
 # Search Facets{#search-facets}
@@ -184,7 +181,7 @@ The Tag predicate allows you to perform tag-based searches for assets. By defaul
 
 Similar to the way you add a Property predicate or an Options predicate, you can add the following additional predicates to the Search panel:
 
-<table border="1" cellpadding="0" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="19%"><p><strong>Predicate Name</strong></p> </td> 
@@ -360,7 +357,7 @@ To restore the default search facet, perform these steps:
 
 If you are not assigned an administrator role, here is a list of permissions you require to perform edit, delete, and preview actions involving search facets.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Action</strong></td> 

@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0cfe62b8-839e-414b-95e5-1bfce6a9d16a
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to Process Reporting{#introduction-to-process-reporting}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 6696c325-d188-41c8-a39f-c8ae7f339fe8
-index: y
-internal: n
-snippet: y
 ---
 
 # Deploying and Maintaining{#deploying-and-maintaining}

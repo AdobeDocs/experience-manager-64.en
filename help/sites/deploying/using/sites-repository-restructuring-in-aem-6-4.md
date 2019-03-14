@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 3eccb2d5-c325-43a6-9c03-5f93f7e30712
-index: y
-internal: n
-snippet: y
 ---
 
 # Sites Repository Restructuring in AEM 6.4{#sites-repository-restructuring-in-aem}
@@ -40,7 +37,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### ContextHub Segments {#contexthub-segments}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -76,7 +73,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Adobe Analytics Client Libraries {#adobe-analytics-client-libraries}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -117,7 +114,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Classic Microsoft Word to Web Page Designs {#classic-microsoft-word-to-web-page-designs}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -150,7 +147,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Mobile Device Emulator Configurations {#mobile-device-emulator-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -200,7 +197,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Multi-site Manager Blueprint Configurations {#multi-site-manager-blueprint-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -227,7 +224,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Multi-site Manager Rollout Configurations {#multi-site-manager-rollout-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -254,7 +251,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Page Event Notification E-mail Template {#page-event-notification-e-mail-template}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -286,7 +283,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Page Scaffolding {#page-scaffolding}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -315,7 +312,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Responsive Grid LESS {#responsive-grid-less}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -341,7 +338,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Static Template Designs {#static-template-designs}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -374,7 +371,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Adobe Search and Promote Integration Client Libraries {#adobe-search-and-promote-integration-client-libraries}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -407,7 +404,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Adobe Target Integration Client Libraries {#adobe-target-integration-client-libraries}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -452,7 +449,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### WCM Foundation Client Libraries {#wcm-foundation-client-libraries}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 

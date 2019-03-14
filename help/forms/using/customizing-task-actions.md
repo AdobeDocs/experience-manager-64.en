@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: ca3f6025-7e17-4173-8267-e24a338ea4a1
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing Task Actions{#customizing-task-actions}

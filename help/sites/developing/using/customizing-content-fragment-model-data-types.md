@@ -8,9 +8,6 @@ uuid: d8215dbf-2dbe-43cb-a5c1-dc1cb412a204
 contentOwner: aheimoz
 discoiquuid: a8b8155c-852c-4d16-b59b-7e19527c2bd4
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Data Types for Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-data-types-for-content-fragment-models}
@@ -92,7 +89,7 @@ All of the following properties must be present for the data type to be present 
 
 #### Mappings {#mappings}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Data Type<br /> </td> 

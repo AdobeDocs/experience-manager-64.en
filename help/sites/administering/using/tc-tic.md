@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 200f51ab-f9bf-4989-91af-c3904fc673e5
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring the Translation Integration Framework{#configuring-the-translation-integration-framework}
@@ -80,7 +77,7 @@ A single configuration of the framework controls how to translate page content, 
 
 The Sites properties control how the translation of page content is performed.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property</th> 
@@ -137,7 +134,7 @@ Communities properties control how the translation of user-generated content is 
 
 Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](/sites/authoring/using/language-copy.md).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property</th> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 1a947a06-6a5c-4be9-b2fa-e5fa809ff3b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Voting Essentials{#voting-essentials}
@@ -24,7 +21,7 @@ Anonymous posting of a vote is not supported. Site visitors must register and si
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> <strong>resourceType</strong></td> 

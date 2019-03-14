@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: f7f19679-cfc2-4ac0-9a26-685fad09276f
-index: y
-internal: n
-snippet: y
 ---
 
 # Searching for forms and assets{#searching-for-forms-and-assets}
@@ -77,7 +74,7 @@ You can search for assets using one of the following statuses:
 
 You can select any number of asset types. The search returns the union of all the selected asset types.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Option</th> 

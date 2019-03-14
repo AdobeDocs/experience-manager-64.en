@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: b4f57e42-60a6-407d-9764-15a11615827d
-index: y
-internal: n
-snippet: y
 ---
 
 # Calculating Form Data{#calculating-form-data}
@@ -34,7 +31,7 @@ The following diagram shows the application’s logic flow.
 
 The following table describes the steps in this diagram.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e70561" valign="top" width="NaN%"><p>Step</p></th> 

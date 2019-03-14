@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: a3006835-b1d2-47d6-959a-cdb692e34e1e
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Content Properties to Export Content{#using-content-properties-to-export-content}
@@ -28,7 +25,7 @@ They share the same common properties found in any *cq:Page* in addition to othe
 
 The following table shows **App Properties and Nodes**.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>PropertyName</strong></td> 

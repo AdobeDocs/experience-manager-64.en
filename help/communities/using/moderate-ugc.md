@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: d11b8fc8-5e98-4a77-a536-d445ac88e1b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Moderating Community Content{#moderating-community-content}
@@ -56,7 +53,7 @@ The actions which can be performed on posted content (UGC) varies depending on t
 * `Visitor`  
   an anonymous user
 
-<table border="2" cellpadding="4" cellspacing="1" width="80%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"> </td> 

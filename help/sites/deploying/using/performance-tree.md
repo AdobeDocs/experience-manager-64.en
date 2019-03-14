@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 5febbb1e-795c-49cd-a8f4-c6b4b540673d
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance Tree{#performance-tree}
@@ -50,7 +47,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
 
 ## Reference Links {#reference-links}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Step</strong></td> 

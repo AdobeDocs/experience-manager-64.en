@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 0225a543-0fad-488b-8b0b-8b3512d44fbe
-index: y
-internal: n
-snippet: y
 ---
 
 # Rich Text Editor Essentials{#rich-text-editor-essentials}

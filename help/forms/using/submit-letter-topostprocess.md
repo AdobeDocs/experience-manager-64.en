@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 637342e8-fbdd-4cda-b175-56a805b3b480
-index: y
-internal: n
-snippet: y
 ---
 
 # Post processing of letters and interactive communications{#post-processing-of-letters-and-interactive-communications}
@@ -77,7 +74,7 @@ To associate post processes with letters or interactive communications, you firs
 
 Saved letter instances can be manipulated further, such as retrieval of letter instances and deletion of letter instances, by using the following APIs defined in LetterInstanceService. 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Server-side API</strong></td> 

@@ -10,9 +10,6 @@ topic-tags: mobile-web
 content-type: reference
 discoiquuid: e6b2de9e-dddc-4987-af2f-cf3477634ea9
 legacypath: /content/docs/en/aem/6-0/develop/mobile/mobile
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Sites for Mobile Devices{#creating-sites-for-mobile-devices}
@@ -83,7 +80,7 @@ The Java packages containing the mobile classes are:
 
 The **We.Retail Mobile Demo Site** uses the following mobile components which are located below `/libs/foundation/components`:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Name</td> 

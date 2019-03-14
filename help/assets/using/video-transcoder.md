@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 9190ad4e-b566-4355-aa6a-625b0e19589c
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing and Configuring Video Transcoder with FFmpeg{#installing-and-configuring-video-transcoder-with-ffmpeg}

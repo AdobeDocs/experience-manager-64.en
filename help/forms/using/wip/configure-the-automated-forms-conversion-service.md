@@ -6,9 +6,6 @@ seo-description: Ready your AEM instance to use Automated Forms Conversion servi
 uuid: d421a0ba-1d33-4928-a254-585d1157a39a
 contentOwner: khsingh
 discoiquuid: bc18da7d-9350-4856-8f1d-9061018ae64f
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Automated Forms Conversion service{#configure-the-automated-forms-conversion-service}
@@ -59,7 +56,7 @@ Create a cloud service configuration to connect your AEM Instance to the convers
 
 1. In the **[!UICONTROL Basic]**tab of the **[!UICONTROL Create Automated Forms Conversion Configuration]** page, specify a value for the following fields:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="30%">Field</td> 

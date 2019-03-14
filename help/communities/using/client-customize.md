@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 24b6d1d2-c118-4a25-959f-2783961c4ae3
-index: y
-internal: n
-snippet: y
 ---
 
 # Client-side Customization{#client-side-customization}
@@ -151,7 +148,7 @@ The use of [client-side libraries](../../sites/developing/using/clientlibs.md) (
 
 The clientlibs for SCF follow a very specific naming pattern for two variants, which vary only by the presence of 'author' in the category name:
 
-<table width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> </td> 

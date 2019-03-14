@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 61cd5751-0dc8-48e0-873e-3a64899489bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamic Media Repository Restructuring in AEM 6.4{#dynamic-media-repository-restructuring-in-aem}
@@ -29,7 +26,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Custom Adaptive Video Encoding Configurations  {#custom-adaptive-video-encoding-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -52,7 +49,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Dynamic Media (DMS7) Cloud Configuration {#dynamic-media-dms-cloud-configuration}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -79,7 +76,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Dynamic Media (DM Hybrid) Cloud Service Configuration {#cloudserviceconfiguration}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -102,7 +99,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Dynamic Media - YouTube Cloud Service Configuration  {#youtubecloudserviceconfiguration}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -125,7 +122,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Misc {#misc}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -146,7 +143,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
  </tbody>
 </table>
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 

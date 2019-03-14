@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 5260d981-da40-40ab-834e-88e091840813
-index: y
-internal: n
-snippet: y
 ---
 
 # Debugging HTML5 forms{#debugging-html-forms}
@@ -26,7 +23,7 @@ The probable reason is that one or more parameters in the URL are incorrect.
 
 Check the following parameters:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Parameter</strong></td> 
@@ -146,7 +143,7 @@ Check the following parameters:
    Check the following parameters:
    Step text 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Parameter</strong></td> 

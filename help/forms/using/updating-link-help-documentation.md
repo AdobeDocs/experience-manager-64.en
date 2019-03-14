@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 788c427f-190f-4580-9efd-6a4c4a008837
-index: y
-internal: n
-snippet: y
 ---
 
 # Updating the link to the documentation{#updating-the-link-to-the-documentation}

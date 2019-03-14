@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: d4e8dcef-6870-4340-976a-194089ea4c21
-index: y
-internal: n
-snippet: y
 ---
 
 # Quick Guide to Authoring Pages{#quick-guide-to-authoring-pages}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: f9291151-851a-4aff-a50e-a24330ee0c13
-index: y
-internal: n
-snippet: y
 ---
 
 # About working with IBL stages{#about-working-with-ibl-stages}
@@ -40,7 +37,7 @@ While a single HDR image is often sufficient for IBL stages, AEM 3D provides add
 
 You can fine-tune the appearance of the IBL stage with the following stage properties:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong><br /> </td> 

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting up ACLs{#setting-up-acls}
@@ -87,7 +84,7 @@ For example, you can create the following project specific groups:
 
 The following table summarizes the groups with description and permissions for an AEM Screens project:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Group name</strong></td> 

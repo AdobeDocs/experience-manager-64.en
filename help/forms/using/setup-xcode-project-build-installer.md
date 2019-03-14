@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 2dec23f7-6cca-4cc9-a78a-acd23ae7da5f
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up the Xcode project and build the iOS app{#set-up-the-xcode-project-and-build-the-ios-app}
@@ -34,7 +31,7 @@ The following image displays the extracted contents of the `adobe-lc-mobileworks
 
 The following table details contents of the `adobe-lc-mobileworkspace-src-[version]/ios` folder.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th class="row-nocellborder" valign="top" width="NaN%"><p>Directory</p> </th> 

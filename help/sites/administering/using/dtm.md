@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: b8c7a20a-7694-4a49-b66a-060720f17dad
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Dynamic Tag Management{#integrating-with-adobe-dynamic-tag-management}
@@ -88,7 +85,7 @@ Create a cloud configuration so that the AEM instance can authenticate with Dyna
 
 ### General Settings {#general-settings}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property</th> 
@@ -125,7 +122,7 @@ Some properties use values that you obtain from the Library Download section of 
 
 When hosting the Dynamic Tag Management libraries on AEM, AEM automatically configures some properties of the web property according to your configuration. See the descriptions in the following table.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property</th> 
@@ -172,7 +169,7 @@ When hosting the Dynamic Tag Management libraries on AEM, AEM automatically conf
 
 You configure the following properties for your Dynamic Tag Management configuration when Dynamic Tag Configuration is cloud-hosted. 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property</th> 

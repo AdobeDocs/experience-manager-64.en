@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: a79839e2-be39-418b-a3bd-f5457e555172
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Performance Guide{#assets-performance-guide}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: e9a1ff95-e88e-41f0-9731-9a59159b4653
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing the Bulk Editor{#developing-the-bulk-editor}
@@ -34,7 +31,7 @@ The following is a list of the bulk editor query parameters:
 >
 >Each parameter can have a long and a short name. For example the long name for the search root path is `rootPath`, the short one is `rp`. If the long name is not defined, the short one is read from the request.
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td> </td> 
@@ -267,7 +264,7 @@ Here is an XML representation of the dialog sub nodes:
 
 Every part of the bulk editor can be configured. The following table lists all the configuration properties for the bulk editor.
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Property name</td> 

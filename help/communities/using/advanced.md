@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 42fb3c50-8728-4897-ade9-6b839294a10e
-index: y
-internal: n
-snippet: y
 ---
 
 # Advanced Scoring and Badges{#advanced-scoring-and-badges}
@@ -114,7 +111,7 @@ Instead of associating points with a badge image, it is only necessary to identi
 
 ![](assets/chlimage_1-262.png)
 
-<table border="2" cellpadding="4" cellspacing="2" width="90%"> 
+<table> 
  <tbody>
   <tr>
    <th style="text-align: center;">Property</th> 

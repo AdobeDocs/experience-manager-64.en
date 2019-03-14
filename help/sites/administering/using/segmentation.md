@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 6cade87c-9ed5-47d7-9b39-c942268afdad
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Segmentation with ContextHub{#configuring-segmentation-with-contexthub}
@@ -55,7 +52,7 @@ When the entire statement evaluates to true then the segment has resolved. In th
 
 The following containers are available out-of-the-box and allow you to group comparisons and references together for boolean evaluation. They can be dragged from the components browser to the editor. See the following section [Using AND and OR Containers](../../../sites/administering/using/segmentation.md#using-and-and-or-containers) for more information.
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="125">Container AND<br /> </td> 
@@ -72,7 +69,7 @@ The following containers are available out-of-the-box and allow you to group com
 
 The following segment comparisons are available out-of-the-box to evaluate segment properties. They can be dragged from the components browser to the editor.
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="125">Property-Value<br /> </td> 
@@ -111,7 +108,7 @@ The following segment comparisons are available out-of-the-box to evaluate segme
 
 The following references are available out-of-the-box to link directly to a script or another segment. They can be dragged from the components browser to the editor.
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="125">Segment Reference<br /> </td> 

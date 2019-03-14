@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: c9c818dc-c5c4-4a96-94fe-9dc9fe75705b
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Mobile content personalization{#aem-mobile-content-personalization}
@@ -201,7 +198,7 @@ Examples of head.html and body.html can be found in the [AEM Mobile Hybrid Refer
 
 When the content author has finished creating content for the mobile application the next step is to download the source and build the application, or stage the content to be published. There are a number of steps that the developer is involved with to make this happen. To aid in rendering the content AEM Mobile utilizes content sync handlers to render and package the content. A new content sync handler has been introduced for the Personalization use case to render targeted content. The 'mobileappoffers' handler knows how to render the associated target offers that have been created by the content author. The mobileappoffers handler extends the abstract pages update handler therefore, many of the properties are similar. The details of the mobileappoffers handler has the following properties.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 

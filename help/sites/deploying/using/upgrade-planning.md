@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
 discoiquuid: 901108a1-c0cb-4680-bc71-6266bcde2775
-index: y
-internal: n
-snippet: y
 ---
 
 # Planning Your Upgrade{#planning-your-upgrade}
@@ -34,7 +31,7 @@ Note that it is possible to upgrade directly from AEM versions 6.0 and up to 6.4
 
 Below you will find a list of areas that are impacted in a typical AEM Upgrade project:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Component</strong></td> 

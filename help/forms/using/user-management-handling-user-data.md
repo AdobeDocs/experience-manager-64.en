@@ -7,9 +7,6 @@ uuid: 2b76b69f-6f3a-4f1a-a2a4-d39f5e529f75
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a88fc933-f1af-4798-b72f-10e7b0d2fd11
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms user management | Handling user data{#forms-user-management-handling-user-data}
@@ -40,7 +37,7 @@ User management stores user data in a database, such as My Sql, Oracle, MS SQL S
 
 User management stores user data in the following database tables:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Database table</td> 

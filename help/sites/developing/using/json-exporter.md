@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: components
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 4c7e33ea-f2d3-4d69-b676-aeb50c610d70
-index: y
-internal: n
-snippet: y
 ---
 
 # JSON Exporter for Content Services{#json-exporter-for-content-services}

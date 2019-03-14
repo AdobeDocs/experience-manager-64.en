@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: f328cd1e-30a3-42d2-88b7-64455ee9eb1f
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Campaign Components{#adobe-campaign-components}
@@ -287,7 +284,7 @@ This section describes each component in detail.
 
 The following table describes the components that are available to display and modify Adobe Campaign profile data. Each component can be mapped to an Adobe Campaign profile field to display its value and update the field when the form is submitted. The different components can only be matched to fields of an appropriate data type.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="middle"><p><strong>Component</strong></p> </td> 

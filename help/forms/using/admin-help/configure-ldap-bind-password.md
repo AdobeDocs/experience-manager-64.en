@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 165b3950-b03f-4848-8361-ffb0a26d2658
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the LDAP bind password{#configure-the-ldap-bind-password}

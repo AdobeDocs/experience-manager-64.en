@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-features
 content-type: reference
 discoiquuid: 9955bf12-a91b-43cb-a9e6-c1efc04ad075
-index: y
-internal: n
-snippet: y
 ---
 
 # Site and Page Features{#site-and-page-features}

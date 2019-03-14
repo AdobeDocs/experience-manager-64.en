@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 262eb911-3dcb-475d-b410-8bcac1347905
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Selectors{#working-with-selectors}

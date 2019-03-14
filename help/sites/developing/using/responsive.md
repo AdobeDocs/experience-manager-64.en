@@ -10,9 +10,6 @@ topic-tags: mobile-web
 content-type: reference
 discoiquuid: 532544b0-1932-419a-b6bd-ecf57a926fef
 legacypath: /content/docs/en/aem/6-0/develop/mobile/responsive
-index: y
-internal: n
-snippet: y
 ---
 
 # Responsive Design for Web Pages{#responsive-design-for-web-pages}
@@ -82,7 +79,7 @@ The We.Retail Media sample uses this strategy to define styles in the site desig
 
 The following table lists the files in the css child folder.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>File name</th> 
@@ -464,7 +461,7 @@ Use the Web Console ([http://localhost:4502/system/console/configMgr](http://loc
 
 For information about how to configure AEM services, see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th> </th> 

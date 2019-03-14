@@ -6,9 +6,6 @@ seo-description: Install and configure AEM Forms Interactive Communications to c
 uuid: c09b5743-3cbc-49ff-977a-b6b3eb81b160
 topic-tags: installing
 discoiquuid: 674c6b68-8a04-4cd3-a63e-9968ca686948
-index: y
-internal: n
-snippet: y
 ---
 
 # Install and configure Interactive Communications{#install-and-configure-interactive-communications}
@@ -52,7 +49,7 @@ Before you begin to install and configure interactive communication and correspo
 
 * Extra requirements for UNIX-based systems: If you are using the UNIX-based operating system, install the following packages from the installation media of the respective operating system.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>expat</td> 

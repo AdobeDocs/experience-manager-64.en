@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: a84fd0ab-0bcd-48cf-bba3-fb29308fa0f8
-index: y
-internal: n
-snippet: y
 ---
 
 # Prerequisites for Integrating with Adobe Target{#prerequisites-for-integrating-with-adobe-target}

@@ -7,9 +7,6 @@ page-status-flag: de-activated
 uuid: ffb2cc22-baaf-4525-a2e3-29f39271c670
 topic-tags: introduction
 discoiquuid: 655303a4-99bb-4ba3-9d50-a178f5edcf85
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Style your adaptive form {#do-not-publish-style-your-adaptive-form}
@@ -149,7 +146,7 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
 
 1. In the theme editor, tap the logo in the header and tap **Header Logo**. Expand the Dimensions & Position accordion, set the following properties and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="20%">Margin</td> 
@@ -179,7 +176,7 @@ You can use multiple components in an adaptive form to capture data. For example
 
 1. Tap the Customer ID field and tap the **Field Widget **option. Set the following properties** **and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Accordion</td> 
@@ -243,7 +240,7 @@ You can use a custom theme to apply an identical style to all the buttons of the
 
 1. Tap the **Submit **button and tap the **Button **option. Set the following properties and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Accordion</td> 
@@ -312,7 +309,7 @@ Some styles apply to only a specific component. Such components are styled in ad
 
 1. Tap the **Government approved address proof** option and tap the ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Edit.png)icon. Set the following properties:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="40%">Accordion</td> 
@@ -401,7 +398,7 @@ Some styles apply to only a specific component. Such components are styled in ad
 
 1. Tap the **Submit** button and tap the ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Edit.png)icon. Set the following properties:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="40%">Accordion</td> 

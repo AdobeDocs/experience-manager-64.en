@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 180cac3f-6378-42bc-9a47-60f9f08a7103
-index: y
-internal: n
-snippet: y
 ---
 
 # Converting Between File Formatsand PDF{#converting-between-file-formatsand-pdf}
@@ -604,7 +601,7 @@ If WinID is able to extract the dialog contents such as the text, sub-windows, w
 
 This table lists the type of information used in printing native file formats.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e41054" valign="top" width="NaN%"><p>Information type</p></th> 

@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: a94f23c8-cbfd-49a5-b999-9b3fbf358924
-index: y
-internal: n
-snippet: y
 ---
 
 # Security Changes in CQ 5.3 and CRX 2.0{#security-changes-in-cq-and-crx}
@@ -100,7 +97,7 @@ In this case:
 
 The current mappings are defined in `CqActions` code module and were selected as the closest match to the previous mappings:
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>ActionSet</strong></td> 

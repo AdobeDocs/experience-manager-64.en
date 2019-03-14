@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: 104d1c64-b9b3-40f5-8f9b-fe92d9daaa1f
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Hide Conditions{#using-hide-conditions}

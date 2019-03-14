@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: ac0a281f-f589-4a70-9bc7-1a23e054b02f
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing tabs for a task{#customizing-tabs-for-a-task}

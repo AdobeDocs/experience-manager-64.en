@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 69c3d1d1-c4db-4c87-9c89-0641d909594c
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/authoring-screens
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Authoring Screens{#redirect-authoring-screens}

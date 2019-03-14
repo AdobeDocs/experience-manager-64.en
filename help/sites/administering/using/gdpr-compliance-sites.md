@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 772f6188-5e0b-4e66-b94a-65a0cc267ed3
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Sites - GDPR Readiness{#aem-sites-gdpr-readiness}

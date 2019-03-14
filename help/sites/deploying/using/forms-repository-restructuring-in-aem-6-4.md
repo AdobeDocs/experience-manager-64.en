@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 1ce9a622-5968-407f-a74b-d325a2bff669
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms Repository Restructuring in AEM 6.4{#forms-repository-restructuring-in-aem}

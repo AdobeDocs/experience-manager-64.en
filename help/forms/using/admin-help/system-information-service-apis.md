@@ -9,16 +9,13 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/system_information_service
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 79fccce2-d090-4b50-9c58-3f2a00e651b2
-index: y
-internal: n
-snippet: y
 ---
 
 # System information Service APIs{#system-information-service-apis}
 
 The system information service provides a set of REST APIs to retrieve information. The following table provides detailed information about the APIs:
 
-<table cellpadding="4" cellspacing="0">
+<table>
  <thead align="left">
   <tr>
    <th class="row-nocellborder" id="d19e32321" valign="top" width="NaN%"><p>Name</p></th> 

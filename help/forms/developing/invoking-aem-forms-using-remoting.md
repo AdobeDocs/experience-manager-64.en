@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 3d8bb2d3-b1f8-49e1-a529-b3e7a28da4bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Invoking AEM Forms using Remoting{#invoking-aem-forms-using-remoting}
@@ -893,7 +890,7 @@ The Customer service exposes an operation named `createCustomer`. This discussio
 
 The following table lists the controls that are part of this client application. 
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e5779" valign="top" width="NaN%"><p>Control name</p></th> 

@@ -10,9 +10,6 @@ topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1e533a8c-f200-40ca-b170-0e9abee8513e
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Generate Document of Record for adaptive forms{#generate-document-of-record-for-adaptive-forms}
@@ -84,7 +81,7 @@ The following sections describe how adaptive form elements appear in document of
 
 ### Fields {#fields}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Adaptive form component</th> 
@@ -175,7 +172,7 @@ The following sections describe how adaptive form elements appear in document of
 
 ### Containers {#containers}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Adaptive form component</th> 

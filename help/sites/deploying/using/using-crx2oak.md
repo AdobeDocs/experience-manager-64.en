@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: e938bdc7-f8f5-4da5-81f6-7f60c6b4b8e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the CRX2Oak Migration Tool{#using-the-crx-oak-migration-tool}
@@ -186,7 +183,7 @@ See the [Apache Documentation](https://jackrabbit.apache.org/oak/docs/migration.
 
 You can also enable debug information for the migration process in order to troubleshoot any issues that might appear during the process. You can do this differently depending on the mode you wish to run the tool in:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>CRX2Oak Mode</strong></td> 

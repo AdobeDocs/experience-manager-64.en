@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 8c399a27-abdb-41fb-bd76-f30d22f1d68f
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Fragment Templates{#content-fragment-templates}
@@ -101,7 +98,7 @@ More details about the nodes and their properties are:
 
 * **Template**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th scope="row">Name</th> 
@@ -143,7 +140,7 @@ More details about the nodes and their properties are:
 
 * **Elements**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th scope="row">Name</th> 
@@ -160,7 +157,7 @@ More details about the nodes and their properties are:
 
 * **Element Name**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th scope="row">Name</th> 
@@ -202,7 +199,7 @@ More details about the nodes and their properties are:
 
 * **Variations**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th scope="row">Name</th> 
@@ -219,7 +216,7 @@ More details about the nodes and their properties are:
 
 * **Variation Name**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th scope="row">Name</th> 

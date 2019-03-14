@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: d3b7133c-4a58-4c9f-a5fe-162ce4ff016b
-index: y
-internal: n
-snippet: y
 ---
 
 # GQL Full-text Search{#gql-full-text-search}
@@ -54,7 +51,7 @@ The GQL full-text search feature lets you search for assets based on the followi
 >
 >GQL full-text search works for full-text predicates only.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>PROPERTY </td> 

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 2cb251a6-d8d0-4563-b0f0-2dca38037155
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with To-do lists{#working-with-to-do-lists}

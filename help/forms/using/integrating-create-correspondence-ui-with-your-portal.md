@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: cb232931-60b7-4956-bc77-10636c19325e
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating Create Correspondence UI with your custom portal{#integrating-create-correspondence-ui-with-your-custom-portal}
@@ -46,7 +43,7 @@ Another (and a more secure) way to call the Create Correspondence application co
 
 ### Parameters for specifying letter {#parameters-for-specifying-letter}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Name</strong></td> 
@@ -75,7 +72,7 @@ The order of parameters in the table specifies the preference of parameters used
 
 ### Parameters for specifying the XML data source {#parameters-for-specifying-the-xml-data-source}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Name</strong></td> 
@@ -104,7 +101,7 @@ The order of parameters in the table specifies the preference of parameters used
 
 ### Other Parameters {#other-parameters}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Name</strong></td> 

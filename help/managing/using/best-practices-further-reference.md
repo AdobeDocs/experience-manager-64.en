@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
 discoiquuid: 6fc2751e-f42a-4519-bc8c-695057f21b69
-index: y
-internal: n
-snippet: y
 ---
 
 # The Checklist - Further Reference{#the-checklist-further-reference}
@@ -513,7 +510,7 @@ The following site metrics should be defined:
 
 The following list is provided to inform you of tools that can be used. It is intended as an introduction, not an extensive recommendation list, and should certainly not deter you from using any other tools which you prefer.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Product</strong></td> 

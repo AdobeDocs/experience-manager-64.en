@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: f8991416-995b-4160-a705-d131e78089ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending and Configuring the Design Importer for Landing Pages{#extending-and-configuring-the-design-importer-for-landing-pages}
@@ -476,7 +473,7 @@ The components that expose properties configurable via OSGI console are as follo
 
 The below table briefly describes the properties:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Component</strong></td> 

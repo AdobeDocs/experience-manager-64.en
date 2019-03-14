@@ -9,9 +9,6 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: a0319701-21eb-4b7f-8b2e-ac81a7a75875
-index: y
-internal: n
-snippet: y
 ---
 
 # About the uploading and processing of 3D assets in AEM{#about-the-uploading-and-processing-of-d-assets-in-aem}
@@ -53,7 +50,7 @@ Mechanisms are available to restrict CPU use for ingestion processing and for re
 
 In Card View only, the processing status and progression is displayed as a progress banner on the asset's card. Each uploaded 3D model typically undergoes the following 4-6 ordered processing stages:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Processing stage</strong><br /> </td> 

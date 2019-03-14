@@ -7,9 +7,6 @@ uuid: b5cdbf01-db85-4ff8-9fda-1489542bffef
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 6cef0bcf-e2f0-4a5a-85a1-6d8a5dd9bd01
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Letter{#create-letter}
@@ -105,7 +102,7 @@ This Notice of Cancelation document is an example of a typical correspondence:
 
 ![A sample letter of cancelation](assets/5_deconstructingaletter.png) 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Letter elements</strong></td> 
@@ -180,7 +177,7 @@ The complexity of correspondence can be determined by analyzing the following pa
 
 This table provides some guidelines that you can use to classify your letters:
 
-<table border="0" cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="75"><p><strong>Complexity level</strong></p> </td> 
@@ -363,7 +360,7 @@ The following values in the table
 * **No**: Field type in the leftmost column does not support that type of mapping
 * **N/A**: Field type in the leftmost column is not applicable
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> </td> 

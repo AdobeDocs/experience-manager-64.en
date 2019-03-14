@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: c01e42ff-e338-46e6-a961-131ef943ea91
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Slow Queries{#troubleshooting-slow-queries}

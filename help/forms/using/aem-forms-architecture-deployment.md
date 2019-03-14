@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 0156b5c3-3bef-4213-9ada-c7b6ae96ada4
-index: y
-internal: n
-snippet: y
 ---
 
 # Architecture and deployment topologies for AEM Forms{#architecture-and-deployment-topologies-for-aem-forms}

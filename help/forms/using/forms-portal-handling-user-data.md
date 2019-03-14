@@ -8,9 +8,6 @@ contentOwner: vishgupt
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 48f841b7-0e7f-4216-9ee8-fb6e843acaf0
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms Portal | Handling user data{#forms-portal-handling-user-data}
@@ -34,7 +31,7 @@ For every draft and submitted form for logged-in and anonymous users, forms port
 
 Depending on the configured data store persistence, drafts and submitted forms data is stored at the following locations.
 
-<table border="1" cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="98"><p><strong>Persistence type</strong></p> </td> 

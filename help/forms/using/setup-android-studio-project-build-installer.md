@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms-app
 discoiquuid: fabc981e-0c9e-4157-b0a1-0c13717fb6cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up the Android studio project and build the Android app{#set-up-the-android-studio-project-and-build-the-android-app}

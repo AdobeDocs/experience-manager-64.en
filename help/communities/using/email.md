@@ -10,9 +10,6 @@ topic-tags: administering
 content-type: reference
 discoiquuid: b4d38e45-eaa0-4ace-a885-a2e84fdfd5a1
 pagetitle: Configuring Email
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Email{#configuring-email}

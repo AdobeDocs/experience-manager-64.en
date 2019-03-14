@@ -9,9 +9,6 @@ topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: eaf65bdd-9091-4985-90bd-5eb2148965e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Fragments - Delete Considerations{#content-fragments-delete-considerations}

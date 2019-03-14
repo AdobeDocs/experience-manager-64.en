@@ -6,9 +6,6 @@ seo-description: null
 page-status-flag: de-activated
 uuid: 2cb2bf82-130f-4d6b-a711-df0b97cb0504
 discoiquuid: f3ca177f-7c0d-4b8b-ab4b-bf04668d634c
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Create your first adaptive document{#do-not-publish-create-your-first-adaptive-document}
@@ -24,7 +21,7 @@ The portal runs on Adobe AEM. The web and print welcome channel output is create
 You will have an adaptive document similar to the following at the end of the tutorial:
 [ ![](assets/ad-1.png)](http://blogs.adobe.com/contentcorner/files/2017/07/PAF_Mobile.pdf) [ ![](assets/ad-2.png)](http://blogs.adobe.com/contentcorner/files/2017/07/PAF_Desktop.pdf)Creating your first adaptive document tutorial is categorized into steps. Each step is a complete article in itself.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th width="20%">You will learn</th> 

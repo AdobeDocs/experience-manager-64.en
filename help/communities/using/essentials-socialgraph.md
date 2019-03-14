@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: f8d85d72-0215-4680-a334-e37a530fba58
-index: y
-internal: n
-snippet: y
 ---
 
 # Social Graph Essentials{#social-graph-essentials}
@@ -26,7 +23,7 @@ The `following`component lists the members that are either following the current
 
 #### Following {#following}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 

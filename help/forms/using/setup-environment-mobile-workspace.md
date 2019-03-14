@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 72c3a451-fa57-4b12-8d25-fc2e6fa98adb
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up environment for AEM Forms app{#set-up-environment-for-aem-forms-app}

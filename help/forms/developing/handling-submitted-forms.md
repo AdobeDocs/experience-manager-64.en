@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 3d838027-6bde-4a71-a428-4d5102f7d799
-index: y
-internal: n
-snippet: y
 ---
 
 # Handling Submitted Forms{#handling-submitted-forms}
@@ -29,7 +26,7 @@ The following diagram shows data being submitted to a Java Servlet named `Handle
 
 The following table explains the steps in the diagram.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e67713" valign="top" width="NaN%"><p>Step</p></th> 
@@ -77,7 +74,7 @@ Consider a web application that invokes the Forms service. After the Forms servi
 
 The following table describes the steps in this diagram.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e67796" valign="top" width="NaN%"><p>Step</p></th> 

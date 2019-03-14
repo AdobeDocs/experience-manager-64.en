@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: bb7a6e9f-4f28-4d97-8a0c-949259fd6857
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize tracking tables{#customize-tracking-tables}
@@ -27,7 +24,7 @@ The tracking tab in AEM Forms workspace is used to display the details of proces
 
 The remaining attributes in the task model available for display in the task table are:   
 
-<table border="1" cellpadding="0" cellspacing="0" width="477"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="161"><p>actionInstanceId</p> </td> 
@@ -119,7 +116,7 @@ For the following customizations in the task table, you need to do semantic chan
 1. To modify the task attributes displayed in the table and their order, configure the file /ws/js/runtime/templates/processinstancehistory.html :
 
    ```as3
-   <table class="fixedTaskTableHeader" cellpadding="0" cellspacing="0">
+   <table>
        <thead>
            <tr>
                <!-- put the column headings in order here, for example-->
@@ -134,7 +131,7 @@ For the following customizations in the task table, you need to do semantic chan
    ```
 
    ```as3
-   <table class="taskTable" cellpadding="0" cellspacing="0">
+   <table>
        <tbody>
            <%_.each(obj, function(task){%>
            <tr class="taskRow">

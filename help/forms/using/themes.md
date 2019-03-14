@@ -9,9 +9,6 @@ topic-tags: develop
 topic-tags: interactive-communications
 content-strategy: max-2018
 discoiquuid: c5933e2a-fb8d-4d1b-a301-c8a2bc7ee226
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and using themes{#creating-and-using-themes}
@@ -393,7 +390,7 @@ Options for customizing state styles vary for different components.
 
 #### Property sheet {#property-sheet}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Property</strong></td> 

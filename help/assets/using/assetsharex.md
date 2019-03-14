@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 75063639-dad3-4549-9703-3a39c06be090
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing Asset Share {#customizing-asset-share}

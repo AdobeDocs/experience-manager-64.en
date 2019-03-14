@@ -9,9 +9,6 @@ topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6bd58e37-085e-4057-8200-1404d54f41cc
-index: y
-internal: n
-snippet: y
 ---
 
 # Grant rule editor access to select user groups{#grant-rule-editor-access-to-select-user-groups}

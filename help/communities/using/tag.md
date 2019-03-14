@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: d355a3ee-c8a8-4a07-8d28-d1a99bda315c
-index: y
-internal: n
-snippet: y
 ---
 
 # Tag Essentials{#tag-essentials}
@@ -40,7 +37,7 @@ Tagging of UGC may be enabled when configuring a [community site](../../communit
 
 ### Social Tag Cloud {#social-tag-cloud}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceType</strong></td> 

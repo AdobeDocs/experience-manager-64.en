@@ -8,9 +8,6 @@ contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
 discoiquuid: b6786321-6e8e-40e2-809b-d117991246c4
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms Data Integration{#aem-forms-data-integration}

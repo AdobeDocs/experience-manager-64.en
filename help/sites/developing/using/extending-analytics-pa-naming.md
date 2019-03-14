@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: be2aa297-5b78-4b1d-8ff1-e6a585a177dd
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing Server-Side Page Naming for Analytics{#implementing-server-side-page-naming-for-analytics}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 943de371-0149-4307-be3a-b11c590b3451
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Packages Using Maven{#managing-packages-using-maven}
@@ -69,7 +66,7 @@ Goals that use proxies for the CRX or CQ server use the first valid proxy config
 
 The parameters in the following table are common to all goals except when noted in the Goals column.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Name</th> 
@@ -209,7 +206,7 @@ Installs a package in the CRX respository. Execution of this goal does not requi
 
 In addition to the following parameters, see the descriptions in the [Common Parameters](#common-parameters) section.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Name</th> 
@@ -480,7 +477,7 @@ Creates a content package. The default configuration of the package goal include
 
 In addition to the following parameters, see the description of the `name` parameter in the [Common Parameters](#common-parameters) section.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Name</th> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: e745033f-8015-4fae-9d82-99d35802c0a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Upgrade to AEM 6.4 Forms{#upgrade-to-aem-forms}

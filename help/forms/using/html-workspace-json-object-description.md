@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 61b7246d-ed28-4470-a0a2-a4aaf1a061a4
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms workspace JSON object description{#aem-forms-workspace-json-object-description}
@@ -21,7 +18,7 @@ JSON objects used in AEM Forms workspace are described below.
 
    Categories are present in the start process tab of the workspace. These categories are used to classify the startpoints.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"><strong>Property</strong></td> 
@@ -86,7 +83,7 @@ JSON objects used in AEM Forms workspace are described below.
 
    Tasks are assigned to users/group and include a user interface--a form or a Guide (deprecated)--that can be populated with data. When users are assigned a task, they are provided with the form or Guide to complete and submit.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;">Property<br /> </td> 
@@ -385,7 +382,7 @@ JSON objects used in AEM Forms workspace are described below.
 
    Filter is basically queue of user or group. When a task is assigned to user/group, the task is added in corresponding queue.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"><strong>Property</strong></td> 
@@ -429,7 +426,7 @@ JSON objects used in AEM Forms workspace are described below.
 
    You can manage your out-of-office schedule and control the flow of tasks assigned to you in your absence.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"><strong>Property</strong><br type="_moz" /> </td> 
@@ -488,7 +485,7 @@ JSON objects used in AEM Forms workspace are described below.
 
    A process instance is created when a process is invoked via workspace or workbench.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"><strong>Property</strong></td> 
@@ -550,7 +547,7 @@ JSON objects used in AEM Forms workspace are described below.
 
 1. Process Name
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"><strong>Property</strong></td> 
@@ -589,7 +586,7 @@ JSON objects used in AEM Forms workspace are described below.
 
    Task assignment object contains information about the assignment of task. Following are the properties of task's assignment.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"><strong>Property</strong></td> 
@@ -633,7 +630,7 @@ JSON objects used in AEM Forms workspace are described below.
 
    Task ACL object contains information about permissions like forward, share, consult etc. of a task. Following are the properties of task's ACL.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"><strong>Property</strong></td> 
@@ -677,7 +674,7 @@ JSON objects used in AEM Forms workspace are described below.
 
    Attachments can be added to a task. Attachment can be of type attachment and note. Following are the properties of attachment object.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"><strong>Property</strong></td> 
@@ -766,7 +763,7 @@ JSON objects used in AEM Forms workspace are described below.
 
    Following are the properties of user object.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td style="text-align: center;"><strong>Property</strong></td> 

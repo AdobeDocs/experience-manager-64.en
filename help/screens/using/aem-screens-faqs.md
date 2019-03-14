@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: troubleshoot
 discoiquuid: 558a7c2f-b32e-428e-89f6-123d72ca1108
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Screens FAQs{#aem-screens-faqs}

@@ -9,9 +9,6 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: e43fd002-2954-4ef1-ac2b-e8d45afa75be
-index: y
-internal: n
-snippet: y
 ---
 
 # Advanced configuration settings{#advanced-configuration-settings}

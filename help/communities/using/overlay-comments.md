@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 4849da13-518c-40c8-b80e-1b2264d7f8f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Overlay Comments Component{#overlay-comments-component}

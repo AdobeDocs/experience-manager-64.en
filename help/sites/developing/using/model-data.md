@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 39546c0a-b72f-42df-859b-98428ee0d5fb
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Modeling - David Nuescheler's Model{#data-modeling-david-nuescheler-s-model}

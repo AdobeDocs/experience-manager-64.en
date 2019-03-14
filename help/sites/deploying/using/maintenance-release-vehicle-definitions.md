@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 32695db5-d62d-4959-8a24-3d56b4a19904
-index: y
-internal: n
-snippet: y
 ---
 
 # Maintenance Release Vehicle Definitions{#maintenance-release-vehicle-definitions}
@@ -20,7 +17,7 @@ This document includes details about the various types of Adobe Experience Manag
 
 ## Full Release {#full-release}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Definition</strong></td> 
@@ -77,7 +74,7 @@ This document includes details about the various types of Adobe Experience Manag
 
 ## Service Pack {#service-pack}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Definition</strong></td> 
@@ -139,7 +136,7 @@ This document includes details about the various types of Adobe Experience Manag
 
 ## Cumulative Fix Pack (AEM <= 6.3) {#cumulative-fix-pack-aem}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Definition</strong></td> 
@@ -186,7 +183,7 @@ This document includes details about the various types of Adobe Experience Manag
 
 ## Oak Cumulative Fix Pack {#oak-cumulative-fix-pack}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Definition</strong></td> 
@@ -228,7 +225,7 @@ This document includes details about the various types of Adobe Experience Manag
 
 ## Hot Fix {#hot-fix}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Definition</strong></td> 
@@ -273,7 +270,7 @@ This document includes details about the various types of Adobe Experience Manag
 
 ## Overlay {#overlay}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Definition</strong></td> 
@@ -312,7 +309,7 @@ This document includes details about the various types of Adobe Experience Manag
 
 ## Feature Pack {#feature-pack}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Definition</strong></td> 

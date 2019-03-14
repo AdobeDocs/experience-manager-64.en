@@ -5,9 +5,6 @@ description: null
 seo-description: null
 uuid: 76057e9c-63e5-415d-b1b5-bd06e8cbf245
 discoiquuid: f8766420-a74c-4bbc-95d0-8452fb98663f
-index: y
-internal: n
-snippet: y
 ---
 
 # Automated Forms Conversion service: frequently asked questions{#automated-forms-conversion-service-frequently-asked-questions}
@@ -95,7 +92,7 @@ snippet: y
  <summary>How to request a new feature or report an issue?</summary> 
  <p>Contact Adobe Support to request a feature or to report a bug.</p> 
  <p>During the beta phase, Adobe support can log a JIRA issue on with the following details to report an issue:</p> 
- <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+ <table> 
   <tbody> 
    <tr> 
     <td>JIRA field</td> 

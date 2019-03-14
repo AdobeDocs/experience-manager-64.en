@@ -9,9 +9,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 30a12fc6-07b8-4c7c-b9e2-caa2bec0ac48
-index: y
-internal: n
-snippet: y
 ---
 
 # Prepopulating Forms with Flowable Layouts{#prepopulating-forms-with-flowable-layouts}
@@ -63,7 +60,7 @@ Consider a web-based application, such as an online store. After an online shopp
 
 The following table describes the steps in this diagram.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e69369" valign="top" width="NaN%"><p>Step</p></th> 

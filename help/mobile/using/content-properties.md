@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: f5721ddc-df5c-496c-be61-38d1cab63ad4
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Properties and Nodes{#content-properties-and-nodes}
@@ -43,7 +40,7 @@ The following tables describe the content properties and nodes.
 
 ### Core Metadata Properties {#core-metadata-properties}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Property Name</strong></td> 
@@ -120,7 +117,7 @@ The following tables describe the content properties and nodes.
 
 ### Collections {#collections}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Property Name</strong></td> 
@@ -164,7 +161,7 @@ The following tables describe the content properties and nodes.
 
 ### Common Nodes {#common-nodes}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Node Name</strong></td> 
@@ -185,7 +182,7 @@ The following tables describe the content properties and nodes.
 
 #### Articles {#articles-1}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node Name</td> 
@@ -210,7 +207,7 @@ The following tables describe the content properties and nodes.
 
 #### Collections {#collections-1}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node Name</td> 

@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f06b8cb2-6f98-465f-beec-1e91e3f45707
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating an adaptive form{#creating-an-adaptive-form}

@@ -8,9 +8,6 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: 672d5b1e-6b2f-4afe-ab04-c398e5ef45d5
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering and Delivery{#rendering-and-delivery}
@@ -35,7 +32,7 @@ The following diagram shows the rendering of content services.
 
 Use **&lt;RESOURCE&gt;.caas[.&lt;EXPORT-CONFIG][.&lt;DEPTH-INT&gt;].json** to request JSON.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>RESOURCE</td> 
@@ -64,7 +61,7 @@ You can create a configuration node under */apps/mobileapps/caas/exportConfigs.*
 
 The following table shows the properties of Export Configs:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Name</strong></td> 
@@ -142,7 +139,7 @@ Create a configuration node under */apps/mobileapps/caas/exportConfigs.*
 
 The following table show the properties:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Name</strong></td> 
@@ -174,7 +171,7 @@ Content Services default export configuration will be applied if a config is spe
 
 **&lt;RESOURCE&gt;.caas[.&lt;DEPTH-INT&gt;].json**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Name</strong></td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: e9e8b56f-b7fe-423d-a44e-0fa6be524858
-index: y
-internal: n
-snippet: y
 ---
 
 # Detecting MIME Type of Assets Using Apache Tika{#detecting-mime-type-of-assets-using-apache-tika}

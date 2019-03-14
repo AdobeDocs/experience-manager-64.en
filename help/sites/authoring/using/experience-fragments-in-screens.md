@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 65f77f94-1701-4ef5-bdf9-926b7c92d49e
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/experience-fragments-in-screens
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Using Experience Fragments{#redirect-using-experience-fragments}

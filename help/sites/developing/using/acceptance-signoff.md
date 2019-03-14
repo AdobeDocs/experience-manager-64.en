@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: d8da194f-f161-4ba7-b8cc-c2c282dc9c83
-index: y
-internal: n
-snippet: y
 ---
 
 # Acceptance and Sign-off{#acceptance-and-sign-off}

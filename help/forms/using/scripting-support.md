@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 4ef78c8c-783f-4aac-a499-692cd4acef75
-index: y
-internal: n
-snippet: y
 ---
 
 # Scripting support for HTML5 forms{#scripting-support-for-html-forms}
@@ -20,7 +17,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## $event {#event}
 
-<table border="1" cellpadding="2" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property </th> 
@@ -83,7 +80,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ### $host {#host}
 
-<table border="1" cellpadding="2" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property</th> 
@@ -165,7 +162,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ### field {#field}
 
-<table border="1" cellpadding="2" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><strong><span>Property</span></strong></th> 
@@ -397,7 +394,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## Subform {#subform}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property</th> 
@@ -490,7 +487,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## tree {#tree}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property</th> 
@@ -559,7 +556,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## edge {#edge}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property </strong></td> 
@@ -580,7 +577,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## fill {#fill}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -601,7 +598,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## linear {#linear}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -622,7 +619,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## line {#line}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -639,7 +636,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## pattern {#pattern}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -660,7 +657,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## radial {#radial}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -681,7 +678,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## stipple {#stipple}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -702,7 +699,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## draw {#draw}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Property</td> 
@@ -739,7 +736,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## corner {#corner}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -760,7 +757,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## checkButton {#checkbutton}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -777,7 +774,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## choiceList {#choicelist}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property<br /> </strong></td> 
@@ -800,7 +797,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## Image {#image}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -834,7 +831,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## object {#object}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -851,7 +848,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## rectangle {#rectangle}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -868,7 +865,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## textEdit {#textedit}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -885,7 +882,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## exclGroup {#exclgroup}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -997,7 +994,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## arc {#arc}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property<strong></strong></strong></td> 
@@ -1014,7 +1011,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## border {#border}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property<strong></strong></strong></td> 
@@ -1031,7 +1028,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 ## $layout {#layout}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 
@@ -1114,7 +1111,7 @@ FormCalc is an XFA-specific language for creating e-form centric logic and calcu
 
 ### FormCalc Expression Support {#formcalc-expression-support}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;" width="30%"><strong>Category </strong></td> 
@@ -1243,7 +1240,7 @@ FormCalc is an XFA-specific language for creating e-form centric logic and calcu
     1. num2date()
     1. DateFmt()
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>API</strong></td> 

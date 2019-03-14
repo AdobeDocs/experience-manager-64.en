@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: a7958411-b509-428e-bbe2-42efe8fd1add
-index: y
-internal: n
-snippet: y
 ---
 
 # Connecting to Microsoft Translator{#connecting-to-microsoft-translator}

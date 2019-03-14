@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 9b1d2bf3-f28c-41b2-9026-1f3311556422
-index: y
-internal: n
-snippet: y
 ---
 
 # Protecting Documents with Policies{#protecting-documents-with-policies}
@@ -1296,7 +1293,7 @@ To create a new watermark, you must set watermark attributes. The name attribute
 
 The following table lists key and value pairs that are required when creating a watermark using web services. 
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e49370" valign="top" width="NaN%"><p>Key Name</p></th> 
@@ -1731,7 +1728,7 @@ Search for events by using the Rights Management API (web service):
     * Assign the value `true` to the `EventSpec` object’s `lastTime.dateSpecified` data member.
     * Set the event to search for by assigning a string value to the `EventSpec` object’s `eventCode` data member. The following table lists the numeric values that you can assign to this property:
 
-    <table border="1" cellpadding="4" cellspacing="0" frame="border" rules="all" summary=""> 
+    <table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e50725" valign="top" width="NaN%"><p>Event type</p></th> 

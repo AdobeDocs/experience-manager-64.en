@@ -9,9 +9,6 @@ topic-tags: dynamic-media
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: bf8c6bbd-847d-43d7-9ff4-7231bfd8d107
-index: y
-internal: n
-snippet: y
 ---
 
 # Smart Imaging{#smart-imaging}

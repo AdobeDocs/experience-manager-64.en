@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: a08cee9c-e981-4483-8bdc-e6353977f854
-index: y
-internal: n
-snippet: y
 ---
 
 # Upgrading Custom Search Forms{#upgrading-custom-search-forms}
@@ -47,7 +44,7 @@ Below you will find a list of all cusom Search Forms and the modifications they 
 
 ### Fulltext Predicate with node name "fulltext" {#fulltext-predicate-with-node-name-fulltext}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1</td> 
@@ -70,7 +67,7 @@ In AEM 6.1, the standard fulltext predicate was part of the search form. In 6.2,
 
 ### Other Fulltext Predicates {#other-fulltext-predicates}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search From in 6.1</td> 
@@ -91,7 +88,7 @@ In AEM 6.1, the standard fulltext predicate was part of the search form. In 6.2,
 
 ### Path Browser Predicates {#path-browser-predicates}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -112,7 +109,7 @@ In AEM 6.1, the standard fulltext predicate was part of the search form. In 6.2,
 
 ### Tags Predicates {#tags-predicates}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -133,7 +130,7 @@ In AEM 6.1, the standard fulltext predicate was part of the search form. In 6.2,
 
 ### Page Status Predicate {#page-status-predicate}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -169,7 +166,7 @@ The Page Status has been replaced by two Options Property Predicates, one for pu
 
 ### Date Range Predicates {#date-range-predicates}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -190,7 +187,7 @@ The Page Status has been replaced by two Options Property Predicates, one for pu
 
 ### Hidden Filter {#hidden-filter}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -211,7 +208,7 @@ The Page Status has been replaced by two Options Property Predicates, one for pu
 
 ### Analytics Predicate {#analytics-predicate}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -232,7 +229,7 @@ The Page Status has been replaced by two Options Property Predicates, one for pu
 
 ### Range Predicate {#range-predicate}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -257,7 +254,7 @@ The Page Status has been replaced by two Options Property Predicates, one for pu
 
 ### Options Property Predicate {#options-property-predicate}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -278,7 +275,7 @@ The Page Status has been replaced by two Options Property Predicates, one for pu
 
 ### Slider Range Predicate {#slider-range-predicate}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -299,7 +296,7 @@ The Page Status has been replaced by two Options Property Predicates, one for pu
 
 ### Components Predicate {#components-predicate}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -320,7 +317,7 @@ The Page Status has been replaced by two Options Property Predicates, one for pu
 
 ### Author Predicate {#author-predicate}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 
@@ -341,7 +338,7 @@ The Page Status has been replaced by two Options Property Predicates, one for pu
 
 ### Templates Predicate {#templates-predicate}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Node/s in default Search Form in 6.1<br /> <br /> </td> 

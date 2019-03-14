@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 565e307a-e42e-4967-ba72-f1c6fb078676
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Configuring Asset Editor pages{#creating-and-configuring-asset-editor-pages}
@@ -377,7 +374,7 @@ The Title component displays the title of the asset and a description.
 
 ![](assets/chlimage_1-391.png)
 
-By default, it is in read-only mode so users cannot edit it. To make it editable, double-click the component and clear the **Hide**** edit button** checkbox. In addition, enter a title for multiple assets.
+By default, it is in read-only mode so users cannot edit it. To make it editable, double-click the component and clear the **Hide edit button** checkbox. In addition, enter a title for multiple assets.
 
 ![](assets/screen_shot_2012-04-23at35100pm.png)
 

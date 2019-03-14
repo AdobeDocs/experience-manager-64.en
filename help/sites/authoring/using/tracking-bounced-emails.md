@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: c7968dc7-2fcd-4523-94d3-c3e4d4993fd3
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking Bounced Emails{#tracking-bounced-emails}

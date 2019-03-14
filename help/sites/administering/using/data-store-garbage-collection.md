@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 5ee9d11a-85c2-440d-b487-a38d04dc040b
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Store Garbage Collection{#data-store-garbage-collection}
@@ -67,7 +64,7 @@ If TarMK is being used as both the node store and data store, then Revision Clea
 
 The below table shows the data store garbage collection type that needs to be used for all the supported data store deployments in AEM 6:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Node Store</strong><br /> </td> 

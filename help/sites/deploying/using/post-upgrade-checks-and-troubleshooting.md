@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: bc8c9aa2-f669-41f3-a526-6146ff5cf0cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Post Upgrade Checks and Troubleshooting{#post-upgrade-checks-and-troubleshooting}

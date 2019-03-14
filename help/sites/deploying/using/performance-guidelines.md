@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: 9ccbc39e-aea7-455e-8639-9193abc1552f
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance Guidelines{#performance-guidelines}
@@ -25,7 +22,7 @@ This page provides general guidelines on how to optimize the performance of your
 
 Illustrated below are the deployment options available for AEM (scroll to view all the options):
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td height="13" width="104"><p><strong>AEM</strong></p> <p><strong>Product</strong></p> </td> 
@@ -429,7 +426,7 @@ Illustrated below are the architecture guidelines for AEM sites and AEM Assets.
 
 For good performance, you should follow the settings guidelines presented below. For instructions on how to change the settings, [see this page](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Setting</strong></td> 
@@ -539,7 +536,7 @@ To establish good performance when using MongoMK, you should start from the foll
 
 For good performance, you should follow the settings guidelines presented below. For instructions on how to change the settings, [see this page](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Setting</strong></td> 
@@ -654,7 +651,7 @@ For further details on TarMK vs MongoMK, see [Recommended Deployments](../../../
 
 ### Scenario 1 Technical Specifications {#scenario-technical-specifications}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong> </strong></td> 
@@ -740,7 +737,7 @@ For further details on TarMK vs MongoMK, see [Recommended Deployments](../../../
 >
 >To enable the same number of Authors with MongoDB as with one TarMK system you need a cluster with two AEM nodes. A four node MongoDB cluster can handle 1.8 times the number of Authors than one TarMK instance. An eight node MongoDB cluster can handle 2.3 times the number of Authors than one TarMK instance.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong> </strong></td> 

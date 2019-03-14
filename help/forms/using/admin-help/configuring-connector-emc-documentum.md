@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e62370a7-9d9e-43a3-8014-8e53800c870d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Connector for EMC Documentum{#configuring-connector-for-emc-documentum}

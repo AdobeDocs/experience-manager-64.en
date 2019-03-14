@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-on-demand-services-app
 discoiquuid: c08729f6-1512-4aee-82bb-7cc05749a72f
-index: y
-internal: n
-snippet: y
 ---
 
 # Previewing with Preflight{#previewing-with-preflight}

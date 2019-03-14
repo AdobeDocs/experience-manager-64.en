@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 topic-tags: development-tools
 discoiquuid: dd9c0ec4-a195-4b78-8992-81d0efcc0a7e
-index: y
-internal: n
-snippet: y
 ---
 
 # Service container{#service-container}
@@ -21,7 +18,7 @@ AEM Forms services located in the service container (including standard servces 
 
 The following table describes the different ways in which you can programmatically invoke AEM Forms services. 
 
-<table cellpadding="4" cellspacing="0">
+<table>
  <thead align="left">
   <tr>
    <th class="cellrowborder" id="d19e4697" valign="top" width="NaN%"><p>Invocation method</p></th> 

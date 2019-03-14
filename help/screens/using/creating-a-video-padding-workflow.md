@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 11962188-3767-4d62-b94b-6853ae749836
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a Video Padding Workflow{#creating-a-video-padding-workflow}
