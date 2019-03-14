@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 3cb307ec-9b7b-4f03-b860-48553ccee746
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering Interactive PDF Forms{#rendering-interactive-pdf-forms}
@@ -35,7 +32,7 @@ A sample loan application is introduced to demonstrate how the Forms service use
 
 The following table describes the steps in this diagram.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e61770" valign="top" width="NaN%"><p>Step</p></th> 

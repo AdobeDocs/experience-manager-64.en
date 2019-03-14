@@ -10,9 +10,6 @@ content-type: reference
 topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Multi-zone Layout{#multi-zone-layout}

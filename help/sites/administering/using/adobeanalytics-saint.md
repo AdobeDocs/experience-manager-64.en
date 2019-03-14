@@ -8,9 +8,6 @@ contentOwner: aheimoz
 discoiquuid: 60441aa0-2a45-4282-ada5-351a15bc08a1
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/administering/using/adobeanalytics-classifications
-index: y
-internal: n
-snippet: y
 ---
 
 # redirect (SAINT Exporter){#redirect-saint-exporter}

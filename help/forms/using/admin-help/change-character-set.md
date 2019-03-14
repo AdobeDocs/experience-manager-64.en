@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 811b31f8-5465-4fb2-b1f9-513936041771
-index: y
-internal: n
-snippet: y
 ---
 
 # Change the character set{#change-the-character-set}

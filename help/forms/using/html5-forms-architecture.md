@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 599f1925-a17e-4bae-93d9-b54edcee92b0
-index: y
-internal: n
-snippet: y
 ---
 
 # Architecture of HTML5 forms{#architecture-of-html-forms}
@@ -78,7 +75,7 @@ This component is also responsible for generating data XML from submitted form s
 
 HTML5 forms uses caching to optimize throughput and response time. You can configure the level of the cache service to fine-tune the trade-off between performance and space utilization.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Cache Strategy</th> 

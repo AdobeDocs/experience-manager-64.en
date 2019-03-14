@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 23386353-b2bf-49f1-947a-dd7587bba175
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # PDF Generator backup limitations{#pdf-generator-backup-limitations}

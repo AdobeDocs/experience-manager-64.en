@@ -6,9 +6,6 @@ seo-description: Learn to create, layout, and preview an adaptive form. Also, le
 page-status-flag: de-activated
 uuid: 0010d274-a683-499e-9fa6-ce355d7898a0
 discoiquuid: 55c08940-8c25-4938-8e49-25bce20aaf22
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Tutorial: Create an adaptive form{#do-not-publish-tutorial-create-an-adaptive-form}
@@ -80,7 +77,7 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
 1. Drag the Numeric Box component to the adaptive form. Place it before the footer component. Open properties of the component, change **Title **of the component to **`Customer ID`**, change **Element Name** to** `customer_ID`**, enable the **Required Field** option, enable the **Use HTML5 Number Input Type** option, and tap ![](assets/aem_6_3_forms_save.png).
 1. Drag three Text Box components to the adaptive form. Place these before the footer component. Set the following properties for these text boxes.:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="25%">Property</td> 
@@ -135,7 +132,7 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
 
 1. Drag an **File Attachment** component before the footer component. Open properties of the component, set values listed in the below table, and tap ![](assets/aem_6_3_forms_save.png).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="25%">Property</td> 
@@ -173,7 +170,7 @@ Using the following steps, you can configure email submit action and demo submit
 1. Tap **Form Container** in the Content browser and tap ![](assets/cmppr.png). The properties browser opens on the left. 
 1. Go to **Submission **&gt; **Submit Action**. Select **Send Email**. Specify the following values and tap ![](assets/aem_6_3_forms_save.png).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Property</td> 

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a62b68b4-7735-49b1-8938-f0d9e4c4a051
-index: y
-internal: n
-snippet: y
 ---
 
 # IBM DB2 database: Running commands for regular maintenance{#ibm-db-database-running-commands-for-regular-maintenance}

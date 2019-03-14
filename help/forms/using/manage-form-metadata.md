@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 28549db2-e2f2-4a25-b0b1-785237d9d941
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage form metadata{#manage-form-metadata}
@@ -42,7 +39,7 @@ The following asset types are supported in AEM Forms:
 
 The following is an extensive list of metadata properties supported in AEM Forms:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property name</strong></td> 

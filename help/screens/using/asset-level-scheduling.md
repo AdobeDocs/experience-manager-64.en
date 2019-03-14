@@ -11,9 +11,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset Level Scheduling{#asset-level-scheduling}

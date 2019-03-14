@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 80bd707f-c02d-4616-9b45-90f6c726abea
-index: y
-internal: n
-snippet: y
 ---
 
 # Common Repository Restructuring in AEM 6.4{#common-repository-restructuring-in-aem}
@@ -51,7 +48,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Workflow Models {#workflow-models}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -100,7 +97,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Workflow Instances {#workflow-instances}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -126,7 +123,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Workflow Launchers {#workflow-launchers}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -157,7 +154,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Workflow Scripts {#workflow-scripts}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -192,7 +189,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### ContextHub Configurations {#contexthub-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -223,7 +220,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Classic Cloud Services Designs {#classic-cloud-services-designs}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -262,7 +259,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Classic Dashboards Designs {#classic-dashboards-designs}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -301,7 +298,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Classic Reports Designs {#classic-reports-designs}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -340,7 +337,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Default Designs {#default-designs}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -379,7 +376,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Adobe DTM JavaScript Endpoint {#adobe-dtm-javascript-endpoint}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -402,7 +399,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Adobe DTM Web-Hook Endpoint {#adobe-dtm-web-hook-endpoint}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -425,7 +422,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Inbox Tasks {#inbox-tasks}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -452,7 +449,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Multi-site Manager Blueprint Configurations {#multi-site-manager-blueprint-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong><em></em>Previous location</strong></td> 
@@ -479,7 +476,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### AEM Projects Dashboard Gadget Configurations {#aem-projects-dashboard-gadget-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -509,7 +506,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Replication Notification E-mail Template {#replication-notification-e-mail-template}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -542,7 +539,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Tags {#tags}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -576,7 +573,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Translation Cloud Services {#translation-cloud-services}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -621,7 +618,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Translation Languages {#translation-languages}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -652,7 +649,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Translation Rules {#translation-rules}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -683,7 +680,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Translation Widget Client Library {#translation-widget-client-library}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -730,7 +727,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Vendor Translation Connector Cloud Services {#vendor-translation-connector-cloud-services}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -777,7 +774,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Workflow Notification Email Templates {#workflow-notification-email-templates}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -809,7 +806,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Workflow Packages {#workflow-packages}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 

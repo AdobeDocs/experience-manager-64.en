@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: example
 topic-tags: use-case-examples
 discoiquuid: 878a2354-0990-4b21-b1ab-b9b33b50e353
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Triggered Asset Change{#data-triggered-asset-change}

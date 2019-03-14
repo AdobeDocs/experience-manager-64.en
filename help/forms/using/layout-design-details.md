@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 topic-tags: interactive-communications
 discoiquuid: 046b1bf9-1ac7-4e2e-ab37-6fe5422dfa20
-index: y
-internal: n
-snippet: y
 ---
 
 # Layout Design{#layout-design}
@@ -83,7 +80,7 @@ Use a subform if you want to capture multiple module content in a top-down verti
 
 Use a field if you want to capture module data or data dictionary element data into your layout's schema (because fields are bound to data) or to display module content on a master page. Remember that content in a master page cannot flow with body page content, so you must ensure that the image field is used as a header logo. This table provides more criteria for deciding when to use a subform or a field in a layout.
 
-<table cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top"><p><strong>Use a subform when</strong></p> </td> 

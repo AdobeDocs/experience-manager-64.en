@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 5a854b34-49d4-4a1d-b6b7-cdada342a2a4
-index: y
-internal: n
-snippet: y
 ---
 
 # Enhanced sorting of assets in AEM{#enhanced-sorting-of-assets-in-aem}

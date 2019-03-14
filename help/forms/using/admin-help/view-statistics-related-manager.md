@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8e1b2f7c-2609-474b-a1b2-fa820df74ae3
-index: y
-internal: n
-snippet: y
 ---
 
 # View statistics related to Work Manager{#view-statistics-related-to-work-manager}

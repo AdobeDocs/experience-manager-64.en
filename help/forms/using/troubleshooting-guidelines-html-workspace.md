@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 5dae9ed9-77a3-44f5-a94d-ca5c355c8730
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting guidelines for AEM Forms workspace{#troubleshooting-guidelines-for-aem-forms-workspace}
@@ -53,7 +50,7 @@ In AEM Forms workspace:
 
 ### List of component files in&nbsp;AEM Forms workspace {#list-of-component-files-in-nbsp-aem-forms-workspace}
 
-<table border="1" cellpadding="3" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="213"><p>allcategoryModel</p> </td> 

@@ -10,9 +10,6 @@ content-type: reference
 topic-tags: deploying
 discoiquuid: d4636434-98a6-4cf7-bb92-4338da17c893
 legacypath: /deploy/platform/data-store-config
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring node stores and data stores in AEM 6{#configuring-node-stores-and-data-stores-in-aem}
@@ -226,7 +223,7 @@ You can use the configuration file with the following options:
 
 #### Bucket region options {#bucket-region-options}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>US Standard</td> 

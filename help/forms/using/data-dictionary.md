@@ -7,9 +7,6 @@ uuid: cc976dff-f243-4807-a92c-81b78476a744
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 53595ac8-ca7e-4adc-9214-5d0b7cdf71a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Dictionary{#data-dictionary}
@@ -261,7 +258,7 @@ The following code samples show implementation details for the Data Dictionary.
 
 The following table details the common attributes associated with a DDE:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Attribute</strong></td> 
@@ -346,7 +343,7 @@ A computed DDE PersonFullName can be associated with an EL concatenation express
 
 Exporting an XSD requires specific data mapping, which is detailed in the following table. The DDI column indicates the type of the DDE value as available in the DDI.
 
-<table border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="border-collapse: collapse; mso-yfti-tbllook: 1184; mso-padding-alt: 4.0pt 4.0pt 4.0pt 4.0pt;"> 
+<table> 
  <tbody> 
   <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes;"> 
    <td style="background: #EEEEEE; padding: 6.0pt 6.0pt .75pt 6.0pt;" valign="top">XSD <br /> </td> 
@@ -545,7 +542,7 @@ The following example shows the schema for a note.
 </xs:element> 
 ```
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Data Dictionary Element</strong></td> 

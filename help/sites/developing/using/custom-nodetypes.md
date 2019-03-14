@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: aae186eb-e059-4a9d-b02d-86a86c86589d
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Node Types{#custom-node-types}

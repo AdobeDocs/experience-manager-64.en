@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 667645a0-53d0-4f9b-a0ba-cc7e366a23a1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SSL on Windows Vista{#configuring-ssl-on-windows-vista}

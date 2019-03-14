@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7d0d4f96-fc72-4e2b-a2cc-5741b0a30f74
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding, enabling, modifying, or removing endpoints{#adding-enabling-modifying-or-removing-endpoints}

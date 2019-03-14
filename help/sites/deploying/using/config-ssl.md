@@ -10,9 +10,6 @@ content-type: reference
 discoiquuid: 2fe68f66-37a1-4de5-b635-cc3f774d5013
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/administering/using/ssl-by-default
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling HTTP Over SSL{#enabling-http-over-ssl}

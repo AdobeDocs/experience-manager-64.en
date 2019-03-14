@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: e1b5c25d-cbdd-421c-b81a-feb6039610a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Create An SCF Sandbox{#create-an-scf-sandbox}

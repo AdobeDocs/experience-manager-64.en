@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: acc3f85a-f6c0-415a-bbf5-3f67941a6000
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/developing-screens
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Developing Screens{#redirect-developing-screens}

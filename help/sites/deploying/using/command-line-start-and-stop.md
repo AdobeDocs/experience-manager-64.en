@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 9333ff84-f624-4cfa-a9e4-c5e3882171ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Command Line Start and Stop{#command-line-start-and-stop}
@@ -22,7 +19,7 @@ The `start` script is available under *the &lt;cq-installation&gt;/bin* director
 
 Those two versions support a list of environement variables that could be used to start and tune the AEM instance.
 
-<table border="1" cellpadding="1" cellspacing="0" height="210" width="368"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Environment variable </strong></td> 

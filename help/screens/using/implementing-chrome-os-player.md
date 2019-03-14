@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing Chrome OS Player{#implementing-chrome-os-player}

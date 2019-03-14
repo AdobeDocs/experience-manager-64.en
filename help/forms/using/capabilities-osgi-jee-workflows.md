@@ -7,9 +7,6 @@ uuid: ce2a05fe-ba45-42ed-880e-fb1d6efc1d26
 contentOwner: khsingh
 topic-tags: publish
 discoiquuid: 4c7ba430-25b2-4ba2-a5eb-4edaed0d599a
-index: y
-internal: n
-snippet: y
 ---
 
 # Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows {#actions-and-capabilities-of-form-centric-aem-workflows-on-osgi-and-aem-forms-jee-workflows}
@@ -18,7 +15,7 @@ snippet: y
 
 AEM Inbox is used to run and monitor Forms-centric AEM Workflows on OSGi. HTML Workspace allows you to run and monitor AEM Forms JEE Workflows. The following table lists important actions available in AEM Inbox for Forms-centric AEM Workflows on OSGi and in HTML Workspace for AEM Forms JEE Workflows.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Actions</td> 
@@ -97,7 +94,7 @@ AEM Inbox is used to run and monitor Forms-centric AEM Workflows on OSGi. HTML W
 
 Form-centric AEM Workflows on OSGi and AEM Forms JEE Workflows (AEM Forms on JEE Process Management) have a different set of capabilities. The following table lists important capabilities and support available for the capabilities in Form-centric AEM Workflows on OSGi and AEM Forms on JEE Workflows:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Capabilities</td> 
@@ -332,7 +329,7 @@ Two of the prominent ways to launch a Forms-centric workflow are using [AEM Inbo
 
 The following table lists the capabilities of AEM Inbox and AEM Forms app:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td valign="top" width="69"><p><strong>Actions</strong></p> </td> 

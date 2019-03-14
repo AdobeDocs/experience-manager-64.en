@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: d1cff2bb-9fdf-49cb-a695-d437bba5653d
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with ExactTarget{#integrating-with-exacttarget}

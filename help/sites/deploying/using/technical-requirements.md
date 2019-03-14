@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 4d3c4650-3e2a-43b1-ad2d-8d0ae2254ca9
-index: y
-internal: n
-snippet: y
 ---
 
 # Technical Requirements{#technical-requirements}
@@ -54,7 +51,7 @@ This document lists the supported client and server platforms for Adobe Experien
 
 Adobe recommends these configurations and provides full support as part of the standard software maintenance agreement.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Support Level</td> 
@@ -89,7 +86,7 @@ Adobe Experience Manager operates with the following versions of the Java Virtua
 >
 >It is recommended to track the Security Bulletins from the Java vendor to ensure the safety and security of production environments and install the latest Java Updates.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Platform</td> 
@@ -131,7 +128,7 @@ Adobe Experience Manager operates with the following versions of the Java Virtua
 
 Various options exist to deploy the repository of Adobe Experience Manager. See the following list for supported technologies and storage options.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Platform</strong></td> 
@@ -275,7 +272,7 @@ Minimum Servlet API Version required is Servlet 3.1, but below Servlet 4.0.
 
 Adobe Experience Manager works with the following server platforms:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Platform</strong></td> 
@@ -364,7 +361,7 @@ The AEM user interface is optimized for larger screens (typically notebooks and 
 >
 >Mozilla Firefox, Google Chrome and Microsoft Edge release updates every few months. Adobe is committed to provide updates for Adobe Experience Manager to maintain the support level as stated below with upcoming versions of these browsers.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Browser</strong></td> 
@@ -554,7 +551,7 @@ x86
 
 ### Requirements for AEM Forms PDF Generator {#requirements-for-aem-forms-pdf-generator}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th valign="middle" width="35%"><p><strong>Product</strong></p> </th> 

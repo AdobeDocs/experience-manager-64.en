@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: a76425e9-fd3b-4c73-80f9-0ebabb8fd94f
-index: y
-internal: n
-snippet: y
 ---
 
 # How to use the VLT Tool{#how-to-use-the-vlt-tool}
@@ -295,7 +292,7 @@ Options and commands are described in detail in the following sections.
 
 The following is a list of VLT options, which are available for all commands. See the individual commands for information on additional available options.
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Option<br /> </strong></td> 
@@ -344,7 +341,7 @@ The following is a list of VLT options, which are available for all commands. Se
 
 The following table describes all available VLT commands. See the individual commands for detailed information on syntax, available options, and examples.
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Command</strong></td> 
@@ -461,7 +458,7 @@ export -v|-t <arg>|-p <uri> <jcr-path> <local-path>
 
 #### Options {#options}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-v (--verbose)</td> 
@@ -508,7 +505,7 @@ import -v|-s <uri> <local-path> <jcr-path>
 
 #### Options {#options-1}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-v (--verbose)</td> 
@@ -551,7 +548,7 @@ checkout --force|-v|-q|-f <file> <uri> <jcrPath> <localPath>
 
 #### Options {#options-2}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>--force</td> 
@@ -616,7 +613,7 @@ analyze -l <format>|-v|-q <localPaths1> [<localPaths2> ...]
 
 #### Options {#options-3}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-l (--linkFormat) &lt;format&gt;</td> 
@@ -651,7 +648,7 @@ status -v|-q|-u|-N <file1> [<file2> ...]
 
 #### Options {#options-4}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-v (--verbose)</td> 
@@ -688,7 +685,7 @@ update -v|-q|--force|-N <file1> [<file2> ...]
 
 #### Options {#options-5}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-v (--verbose)</td> 
@@ -725,7 +722,7 @@ info -v|-q|-R <file1> [<file2> ...]
 
 #### Options {#options-6}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-v (--verbose)</td> 
@@ -758,7 +755,7 @@ commit -v|-q|--force|-N <file1> [<file2> ...]
 
 #### Options {#options-7}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-v (--verbose)</td> 
@@ -795,7 +792,7 @@ revert -q|-R <file1> [<file2> ...]
 
 #### Options {#options-8}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-q (--quiet)</td> 
@@ -828,7 +825,7 @@ resolved -q|-R|--force <file1> [<file2> ...]
 
 #### Options {#options-9}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-q (--quiet)</td> 
@@ -861,7 +858,7 @@ propget -q|-R <propname> <file1> [<file2> ...]
 
 #### Options {#options-10}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-q (--quiet)</td> 
@@ -894,7 +891,7 @@ proplist -q|-R <file1> [<file2> ...]
 
 #### Options {#options-11}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-q (--quiet)</td> 
@@ -930,7 +927,7 @@ propset -q|-R <propname> <propval> <file1> [<file2> ...]
 
 #### Options {#options-12}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-q (--quiet)</td> 
@@ -967,7 +964,7 @@ add -v|-q|-N|--force <file1> [<file2> ...]
 
 #### Options {#options-13}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-v (--verbose)</td> 
@@ -1004,7 +1001,7 @@ delete -v|-q|--force <file1> [<file2> ...]
 
 #### Options {#options-14}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-v (--verbose)</td> 
@@ -1037,7 +1034,7 @@ diff -N <file1> [<file2> ...]
 
 #### Options {#options-15}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-N (--non-recursive)<br /> </td> 
@@ -1062,7 +1059,7 @@ console -F <file>
 
 #### Options {#options-16}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-F (--console-settings) &lt;file&gt;</td> 
@@ -1083,7 +1080,7 @@ rcp -q|-r|-b <size>|-t <seconds>|-u|-n|-e <arg1> [<arg2> ...] <src> <dst>
 
 #### Options {#options-17}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-q (--quiet)</td> 
@@ -1148,7 +1145,7 @@ sync -v|--force|-u <uri> <command> <localPath>
 
 #### Options {#options-18}
 
-<table border="1" cellpadding="1" cellspacing="0" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td>-v (--verbose)<br /> </td> 

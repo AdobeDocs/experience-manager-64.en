@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 8ae7ccec-489b-4d20-ac56-6101402fb18a
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating Landing Pages with Adobe Analytics{#integrating-landing-pages-with-adobe-analytics}
@@ -40,7 +37,7 @@ To map landing page components to Adobe Analytics:
 1. After creating the Adobe Analytics configuration and creating a new framework, select the appropriate reporting suite from the drop-down menu. This results in fetching the Adobe Analytics variables and showing them in the content finder.
 1. Drag and drop Call to Action (CTA) components from the sidekick into the mapping area in the middle of the page, as appropriate.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Component Name</strong></td> 

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9fe48243-24c6-4e08-9886-148cd99dec87
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms Service API Quick Starts{#forms-service-api-quick-starts}

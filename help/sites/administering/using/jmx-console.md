@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 0798ae5c-e06e-425f-ba8a-9309eb233083
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring Server Resources Using the JMX Console{#monitoring-server-resources-using-the-jmx-console}
@@ -222,7 +219,7 @@ Information about the CRX repository
 
 **Descriptors** A set of key-value pairs that represent repository properties. All properties are read-only.
 
-<table border="1" cellpadding="3" cellspacing="0" width="90%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Key</th> 
@@ -824,7 +821,7 @@ Sets the completion value of the server startup process. The progress bar on the
 
 Several third-party server resources install MBeans that expose attributes and operations to the JMX console. The following table lists the third-party resources and provides links to more information.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Domain</th> 

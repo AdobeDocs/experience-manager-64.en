@@ -9,9 +9,6 @@ topic-tags: headless
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 4538439f-7fd1-45fb-89f0-624d5813f80a
 redirecttarget: https //helpx.adobe.com/experience-manager/6-4/sites/developing/user-guide.html?topic=/experience-manager/6-4/sites/developing/morehelp/spa.ug.js
-index: y
-internal: n
-snippet: y
 ---
 
 # Single Page Applications{#single-page-applications}

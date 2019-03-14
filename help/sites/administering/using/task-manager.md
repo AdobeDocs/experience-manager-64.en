@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 849e79b4-1408-40cc-9325-6ec9d4c4c0d8
-index: y
-internal: n
-snippet: y
 ---
 
 # Track Content Changes Using Task Management{#track-content-changes-using-task-management}
@@ -137,7 +134,7 @@ Using the appropriate method configure the OSGi service:
 
 Configure the following properties to override default values, according to the following table:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Name</p> </th> 
@@ -170,7 +167,7 @@ Using the appropriate method configure the OSGi service:
 
 Configure the following properties to override default values, according to the following table:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Name</th> 

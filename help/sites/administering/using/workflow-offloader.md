@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 91f0fd7d-4b49-4599-8f0e-fc367d51aeba
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Workflow Offloader{#assets-workflow-offloader}

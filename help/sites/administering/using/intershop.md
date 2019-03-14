@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 66d0d4bd-4e56-4cea-a155-1fc41c748af8
 pagetitle: Administering Intershop
-index: y
-internal: n
-snippet: y
 ---
 
 # Intershop{#intershop}

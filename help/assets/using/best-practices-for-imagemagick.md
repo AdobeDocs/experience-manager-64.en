@@ -9,9 +9,6 @@ topic-tags: extending-assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: f18ccd41-2db3-47b2-9462-29723c7ed9ab
-index: y
-internal: n
-snippet: y
 ---
 
 # Install and configure ImageMagick to work with AEM Assets{#install-and-configure-imagemagick-to-work-with-aem-assets}
@@ -65,7 +62,7 @@ You can set up the command line process step for your particular use case. Perfo
 
    ![](assets/skip_mime_types.png)
 
-1. In the **[!UICONTROL Web Enabled Image]**** **tab, add the MIME type `image/jpeg` under the **[!UICONTROL Skip List]**. Tap/click **[!UICONTROL OK]** to save the changes.
+1. In the **[!UICONTROL Web Enabled Image]** tab, add the MIME type `image/jpeg` under the **[!UICONTROL Skip List]**. Tap/click **[!UICONTROL OK]** to save the changes.
 
    ![](assets/web_enabled.png)
 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 48204f21-a26d-46b6-b5b3-ecbbec704980
-index: y
-internal: n
-snippet: y
 ---
 
 # Applying Workflows to Assets{#applying-workflows-to-assets}

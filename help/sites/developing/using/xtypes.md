@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: adb70b43-1b0b-4302-905a-c7612675dabb
-index: y
-internal: n
-snippet: y
 ---
 
 # Using xtypes (Classic UI){#using-xtypes-classic-ui}

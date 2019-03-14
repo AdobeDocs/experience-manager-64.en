@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 2847a92f-9363-48ae-95e0-94628f9ac24e
-index: y
-internal: n
-snippet: y
 ---
 
 # Serial Uploads{#serial-uploads}

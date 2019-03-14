@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ee54d9d4-190d-4665-925a-9740ac65fbd5
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling single sign-on in AEM forms{#enabling-single-sign-on-in-aem-forms}

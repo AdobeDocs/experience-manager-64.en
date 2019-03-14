@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 9248d09c-b749-4aca-9167-1707c1dd8a53
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Rich Text Editor{#configure-the-rich-text-editor}
@@ -49,7 +46,7 @@ Rich Text Editor toolbar in Classic UI
 
 Authors can create and edit textual content in AEM using the different modes of components. The toolbar options for authoring and formatting content and the user experience of RTE-enabled components in different editing mode varies based on RTE configurations.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th style="text-align: center;" valign="middle">Editing mode</th> 
@@ -144,7 +141,7 @@ The following table lists the current plug-ins, showing:
 * Permitted values for the `features` property.
 * A description of the functionality provided by the plug-in.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="100"><p>Plug-in ID<br /> <br /> </p> </td> 

@@ -10,9 +10,6 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: 1200157d-f460-4960-949f-1c10f7fcce1e
 legacypath: /content/docs/en/aem/6-2/author/assets/using-asset-share-pages
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Asset Share Pages{#using-asset-share-pages}

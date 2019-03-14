@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: da96d3d8-a338-470a-8d20-55ea39bd15bf
-index: y
-internal: n
-snippet: y
 ---
 
 # Sample for integrating drafts & submissions component with database{#sample-for-integrating-drafts-submissions-component-with-database}
@@ -84,7 +81,7 @@ Perform the following steps, on all the author and publish instances, to install
 1. The database connection can be done via Apache Sling Connection Pooled Data Source.
 1. For Apache Sling connection, find and click to open **[!UICONTROL Apache Sling Connection Pooled DataSource]** in edit mode in the Web Console Configuration. Specify the values for properties as described in the following table:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 

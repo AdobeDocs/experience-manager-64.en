@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 7dc3ef57-05c3-45d4-ace3-bb3ba6ea768b
-index: y
-internal: n
-snippet: y
 ---
 
 # Rating Essentials{#rating-essentials}
@@ -24,7 +21,7 @@ Anonymous posting of a rating is not supported. Site visitors must register and 
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> <strong>resourceType</strong></td> 

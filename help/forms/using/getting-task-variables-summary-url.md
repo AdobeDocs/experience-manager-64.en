@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 6dc31bec-b02d-47db-a4f4-be8c14c5619e
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Task Variables in Summary URL{#getting-task-variables-in-summary-url}
@@ -37,7 +34,7 @@ In this sample orchestration, an employee submits a leave application form. The 
    ```
    <html>
      <body>
-       <table style="background-color: #647B7B;color: WHITE;text-align: left;width: 100%;font-size: 24px;line-height: 40px;">
+       <table>
        <tbody>
        <tr>
            <td style="width:50%;">

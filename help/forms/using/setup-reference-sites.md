@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 2feb4a9c-57ad-4c6b-a572-0047bc409bbb
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up and configure AEM Forms reference sites{#set-up-and-configure-aem-forms-reference-sites}
@@ -55,7 +52,7 @@ Before you set up the reference site, ensure that you have the following:
 
 Perform the following steps in the recommended sequence to set up and configure the reference sites.
 
-<table border="1" cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th><strong>Step</strong></th> 

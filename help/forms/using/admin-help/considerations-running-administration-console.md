@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 525c4afc-e109-4546-b78c-1efee63edc43
-index: y
-internal: n
-snippet: y
 ---
 
 # Considerations when running AdministrationConsole{#considerations-when-running-administrationconsole}

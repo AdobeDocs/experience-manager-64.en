@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 8f6468a0-7721-454f-9334-c449968b8fe7
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices{#best-practices}
@@ -35,7 +32,7 @@ Specific documents are described and linked to in the tables that follow.
 
 Best practices around Assets, including the dynamic media capability and Scene 7 integration, are described in the following topics:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Best practices in different areas around Assets to enhance system stability and performance under load</td> 
@@ -69,7 +66,7 @@ Best practices around Assets, including the dynamic media capability and Scene 7
 
 Managing and authoring your website content has some best practices outlined as follows:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>GDPR Compliance</td> 

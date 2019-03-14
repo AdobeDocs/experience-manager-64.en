@@ -9,9 +9,6 @@ topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 67b03098-c58d-4a57-90e0-e4ddd78e5d99
-index: y
-internal: n
-snippet: y
 ---
 
 # Interactive Communications Overview{#interactive-communications-overview}
@@ -74,7 +71,7 @@ Following are the building blocks required for creating an Interactive Communica
 
 Interactive Communication is the default and recommended approach to create customer communications. To continue using the letters creating in AEM 6.3 Forms and AEM 6.2 Forms, you need to [install a compatibility package](../../forms/using/compatibility-package.md). Following is a comparison between capabilities of Interactive Communication and letter. 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Capability</strong></td> 

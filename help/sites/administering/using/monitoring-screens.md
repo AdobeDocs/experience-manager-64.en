@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 0025b57c-3b26-4ef5-ab7f-369a6b07a080
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/monitoring-screens
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Monitoring and Troubleshooting Performance{#redirect-monitoring-and-troubleshooting-performance}

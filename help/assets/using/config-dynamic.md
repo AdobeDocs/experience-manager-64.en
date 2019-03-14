@@ -10,9 +10,6 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 821eb27e-67c9-4589-9196-30dacb84fa59
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Dynamic Media - Hybrid mode{#configuring-dynamic-media-hybrid-mode}
@@ -1125,7 +1122,7 @@ To configure the default color profiles:
 
    The following color profiles are installed:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Name</p> </th> 

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 83ca522e-d16e-4196-9aa7-84f85de8dee2
-index: y
-internal: n
-snippet: y
 ---
 
 # Reader extending policy-protected PDF documents using Portable Protection Library{#reader-extending-policy-protected-pdf-documents-using-portable-protection-library}
@@ -46,7 +43,7 @@ You can use the `applyUsageRights`Java API to apply usage rights to policy-prote
 
 **Syntax:** `InputStream applyUsageRights(InputStream inputFile, File certFile, String credentialPassword, UsageRights usageRights)`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="132"><p><strong>Parameter</strong></p> </td> 
@@ -77,7 +74,7 @@ You can use the `getDocumentUsageRights`Java API to retrieve the reader extensio
 
 **Syntax:** `public GetUsageRightsResult getDocumentUsageRights(InputStream inDoc)`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="132"><p><strong>Parameter</strong></p> </td> 
@@ -143,7 +140,7 @@ You can use the `removeUsageRights`Java API to remove usage rights from a policy
 
 **Syntax:** `InputStream removeUsageRights(InputStream inputFile)`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="132"><p><strong>Parameter</strong></p> </td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 82c1725e-a092-42e2-a43b-72f2af3a8e04
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Sizing Guide{#assets-sizing-guide}

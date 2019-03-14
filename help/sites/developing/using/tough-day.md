@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: f48fa5ba-749b-4d3d-a4dd-c802006c8f07
-index: y
-internal: n
-snippet: y
 ---
 
 # Tough Day{#tough-day}
@@ -61,7 +58,7 @@ java -jar toughday2.jar --help_full
 
 In the table below, you can find the relevant help parameters.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Parameter</strong></td> 

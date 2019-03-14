@@ -10,9 +10,6 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 1293c01a-7308-494a-ab48-bd9938205b81
 pagetitle: Community Groups Console
-index: y
-internal: n
-snippet: y
 ---
 
 # Community Groups Console{#community-groups-console}

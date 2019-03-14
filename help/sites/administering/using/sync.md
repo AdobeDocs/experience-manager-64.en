@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 707b150b-7759-437f-9150-9f4784856754
-index: y
-internal: n
-snippet: y
 ---
 
 # User Synchronization{#user-synchronization}

@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: a65c5303-0ebd-43a9-a777-401042d8fcad
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering Forms Based on Fragments{#rendering-forms-based-on-fragments}

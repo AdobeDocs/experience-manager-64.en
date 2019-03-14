@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: e5aa84a5-9b47-4cc8-8622-510a0a2950bf
-index: y
-internal: n
-snippet: y
 ---
 
 # Logging in to AEM Forms app{#logging-in-to-aem-forms-app}

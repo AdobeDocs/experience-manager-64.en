@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 6787511a-2ce0-421a-bcfb-90d5f32ad35e
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Classifications{#adobe-classifications}
@@ -90,7 +87,7 @@ In the default implementation SAINTDefaultTransformer, the child resources of th
 
 Properties include the following:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property path</strong></td> 

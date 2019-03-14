@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8a07dddf-1281-45ac-a55e-4333b860a261
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring caching for Forms{#configuring-caching-for-forms}

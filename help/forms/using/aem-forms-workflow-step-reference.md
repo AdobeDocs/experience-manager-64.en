@@ -6,9 +6,6 @@ seo-description: Forms-centric workflow on OSGi steps allow you rapidly build ad
 uuid: 57c872d6-c6ca-4f78-a98c-f9487f1d673c
 contentOwner: aheimoz
 discoiquuid: f2bd4d96-55a5-4fbd-bede-1747c2ec63c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms-centric workflow on OSGi - Step Reference{#forms-centric-workflow-on-osgi-step-reference}
@@ -137,7 +134,7 @@ To explain inputs for fields of the step, the following database table and JSON 
 
 **Sample CustomerDetails table**
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Property</td> 

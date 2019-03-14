@@ -8,9 +8,6 @@ uuid: 23e66061-1846-46c2-b856-d98753703fda
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 35e106f1-eba2-4f1c-9bf0-69c2e7217980
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH: AEM Forms Apache Felix and Apache Sling configurations {#do-not-publish-aem-forms-apache-felix-and-apache-sling-configurations}
@@ -54,7 +51,7 @@ Assembler service depends on the Reader Extensions service, Signature service, F
 1. Open AEM Bundles Web Console as an administrator. The default URL is http://[server]:[port]&gt;/system/console/bundles. 
 1. Search the services/bundles listed below and ensure that these services are up and running:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Service<br /> </th> 

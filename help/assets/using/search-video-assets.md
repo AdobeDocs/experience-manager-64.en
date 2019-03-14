@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 0463205f-75f3-4e65-b9a2-8e5028c801d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Searching Video Assets{#searching-video-assets}
@@ -22,7 +19,7 @@ If you aren't seeing the file you are looking for, you can change the entire sco
 
 You can search for digital assets based on one or more of the following properties:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Search field</strong></td> 

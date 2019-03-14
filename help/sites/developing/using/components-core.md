@@ -10,9 +10,6 @@ content-type: reference
 discoiquuid: 03af5023-21c7-494b-b583-e858c92f484e
 noindex: true
 redirecttarget: /content/help/en/experience-manager/core-components/user-guide
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Core Components{#redirect-core-components}

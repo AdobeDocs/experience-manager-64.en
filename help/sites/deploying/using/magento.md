@@ -11,9 +11,6 @@ content-type: reference
 discoiquuid: bea0e011-0661-45fc-816f-d35bbe473252
 pagetitle: Deploying eCommerce with Magento
 redirecttarget: https //github.com/adobe/commerce-cif-magento
-index: y
-internal: n
-snippet: y
 ---
 
 # Magento{#magento}

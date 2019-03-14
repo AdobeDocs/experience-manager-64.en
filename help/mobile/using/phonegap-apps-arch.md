@@ -8,9 +8,6 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: 55667e62-a61b-4794-b292-8d54929c41ac
-index: y
-internal: n
-snippet: y
 ---
 
 # The Anatomy of an App{#the-anatomy-of-an-app}

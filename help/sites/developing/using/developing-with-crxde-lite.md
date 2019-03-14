@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 19cb3946-32ba-4f0b-89f0-f9272f2373d2
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing with CRXDE Lite{#developing-with-crxde-lite}
@@ -53,7 +50,7 @@ You can now use CRXDE Lite to develop your application.
 
 CRXDE Lite offers the following functionality:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Top switcher bar</td> 
@@ -365,7 +362,7 @@ The wizard creates the following elements:
 
 The following table lists all the properties of the .bnd file, their values and descriptions:
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 

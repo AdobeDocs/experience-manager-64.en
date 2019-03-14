@@ -10,9 +10,6 @@ topic-tags: designer
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 36560809-dba9-49cf-a8ee-23c6766382ef
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing and configuring Designer{#installing-and-configuring-designer}

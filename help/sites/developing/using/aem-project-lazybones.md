@@ -10,9 +10,6 @@ content-type: reference
 discoiquuid: 49c58d64-a415-49a5-906b-d467b01c5ceb
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/getting-started
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating an AEM project using Lazybones{#creating-an-aem-project-using-lazybones}

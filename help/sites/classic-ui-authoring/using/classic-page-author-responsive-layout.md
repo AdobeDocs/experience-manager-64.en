@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 69a20064-99c9-4ead-9cc1-4c771a87268c
-index: y
-internal: n
-snippet: y
 ---
 
 # Responsive Layout{#responsive-layout}

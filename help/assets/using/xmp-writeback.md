@@ -8,9 +8,6 @@ contentOwner: Chiradeep Majumdar
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 1258c866-8f04-4331-b6ba-1de6f9b51591
-index: y
-internal: n
-snippet: y
 ---
 
 # XMP writeback to renditions{#xmp-writeback-to-renditions}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 topic-tags: developer-reference
 discoiquuid: 9457effd-3595-452f-a976-ad9eda6dc909
-index: y
-internal: n
-snippet: y
 ---
 
 # APIs to work with submitted forms on forms portal{#apis-to-work-with-submitted-forms-on-forms-portal}
@@ -64,7 +61,7 @@ Returns details of all submitted forms. However, you can use URL parameters to l
 
 Specify the following parameters in the request URL:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Parameter</th> 

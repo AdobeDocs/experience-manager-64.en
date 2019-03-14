@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 8369bf1a-1323-49a7-933f-0d8ef76a07de
 contentOwner: rbrough
 discoiquuid: 5437de34-d092-4af8-836e-8c776f0d6f60
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM 6.4.2.0 Release Notes{#aem-release-notes}

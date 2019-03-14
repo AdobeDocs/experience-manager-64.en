@@ -10,16 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 3c2e952f-185e-451c-8abb-324b44b10ee3
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom User Group Mapping in AEM 6.3{#custom-user-group-mapping-in-aem}
 
 ## Comparison of JCR Content related to CUG {#comparison-of-jcr-content-related-to-cug}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Older AEM Versions</strong></td> 
@@ -29,7 +26,7 @@ snippet: y
   <tr> 
    <td><p>Property: cq:cugEnabled</p> <p>Declaring node type: N/A, residual property</p> </td> 
    <td> 
-    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+    <table> 
      <tbody> 
       <tr> 
        <td><p>Authorization:</p> <p>Node: rep:cugPolicy of node type rep:CugPolicy</p> <p>Declaring node type: rep:CugMixin</p> <p> </p> <p> </p> <p> </p> </td> 
@@ -40,7 +37,7 @@ snippet: y
      </tbody> 
     </table> </td> 
    <td> 
-    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+    <table> 
      <tbody> 
       <tr> 
        <td><p>In order to restrict read access a dedicated CUG policy is applied to the target node.</p> <p>NOTE: Policies can only be applied at the configured supported paths.</p> <p>Nodes with name rep:cugPolicy and type rep:CugPolicy are protected and cannot be written using regular JCR API calls; use JCR access control management instead.</p> <p>See <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/cug.html" target="_blank">this page</a> for more info.</p> </td> 
@@ -71,7 +68,7 @@ snippet: y
 
 ## Comparison of OSGi Services {#comparison-of-osgi-services}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Older AEM Versions</strong></td> 
@@ -81,7 +78,7 @@ snippet: y
   <tr> 
    <td><p>Label: Adobe Granite Closed User Group (CUG) Support</p> <p>Name: com.day.cq.auth.impl.CugSupportImpl</p> </td> 
    <td> 
-    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+    <table> 
      <tbody> 
       <tr> 
        <td><p>Label: Apache Jackrabbit Oak CUG Configuration</p> <p>Name: org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration</p> <p>ConfgurationPolicy = REQUIRED</p> </td> 
@@ -98,7 +95,7 @@ snippet: y
      </tbody> 
     </table> </td> 
    <td> 
-    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+    <table> 
      <tbody> 
       <tr> 
        <td>Configuration of the CUG authorization and enable/disable the evaluation.</td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 059c5bbe-07eb-4873-8157-2196df887b27
-index: y
-internal: n
-snippet: y
 ---
 
 # Forum Essentials{#forum-essentials}
@@ -20,7 +17,7 @@ This page provides the essential information for working with the forum feature.
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> <strong>resourceTypes</strong></td> 

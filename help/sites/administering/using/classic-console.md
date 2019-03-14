@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: a7f31bc8-c583-439f-b2af-1dcc58f9c481
-index: y
-internal: n
-snippet: y
 ---
 
 # Classic UI Tagging Console{#classic-ui-tagging-console}

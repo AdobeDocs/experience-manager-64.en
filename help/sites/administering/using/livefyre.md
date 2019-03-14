@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: bb3fcb53-b8c3-4b1d-9125-4715f34ceb0b
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Livefyre{#integrating-with-livefyre}

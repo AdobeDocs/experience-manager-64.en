@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: spa
 discoiquuid: a458cc95-cd94-4f3f-9e7b-d6a5780ec4d5
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA and Launch Integration{#spa-and-launch-integration}

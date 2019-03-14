@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 370151df-3b8e-41aa-b586-5c21ecb55ffe
-index: y
-internal: n
-snippet: y
 ---
 
 # Offloading Jobs{#offloading-jobs}
@@ -111,7 +108,7 @@ The Discovery Service sends periodic POST requests (heartbeats) to Topology Conn
 
 Use the Web Console or a sling:OsgiConfig node to configure the following properties of the org.apache.sling.discovery.impt.Config service:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Property Name</th> 

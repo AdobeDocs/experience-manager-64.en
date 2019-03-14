@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: adc697e1-4a1c-4985-8690-79ed77736fec
-index: y
-internal: n
-snippet: y
 ---
 
 # Rich Text Editor{#rich-text-editor}
@@ -264,7 +261,7 @@ In both the **Text** and **Table** components table functionality is available v
 
 The table specific functions are:
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td><a href="#table-properties">Table Properties</a><br /> </td> 

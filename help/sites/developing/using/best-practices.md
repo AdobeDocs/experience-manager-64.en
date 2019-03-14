@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 99678c1a-81f3-4fb3-bf73-98f0691c3fb6
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices{#best-practices}
@@ -50,7 +47,7 @@ For best practices on administering, deploying and maintaining, or authoring, se
 
 Managing and authoring your website content has some best practices outlined as follows:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Some of the theory behind the standard, touch-enabled UI.</td> 

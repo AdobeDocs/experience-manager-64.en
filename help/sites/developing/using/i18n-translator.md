@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 discoiquuid: adf3364c-11f1-45c6-b41d-2c7d48b626f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Translator to Manage Dictionaries{#using-translator-to-manage-dictionaries}

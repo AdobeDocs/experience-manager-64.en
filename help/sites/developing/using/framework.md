@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 4b680d17-383b-4173-a444-0b7bdb24e6c8
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Tagging Framework{#aem-tagging-framework}
@@ -91,7 +88,7 @@ The following table shows some sample TagIDs, their elements, and how the TagID 
 The following table shows some sample TagIDs, their elements, and how the TagID resolves to an absolute path in the repository :  
 The following table shows some sample TagIDs, their elements, and how the TagID resolves to an absolute path in the repository : 
 
-<table border="1" cellpadding="2" cellspacing="2" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>TagID<br /> </strong></td> 

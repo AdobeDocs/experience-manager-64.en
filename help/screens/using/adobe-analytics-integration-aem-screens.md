@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 discoiquuid: 2784b590-3402-492f-94a6-36fe16633e89
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Analytics Integration with AEM Screens{#adobe-analytics-integration-with-aem-screens}
@@ -69,7 +66,7 @@ Navigate to **Adobe Experience Manager Web Console Configuration** to configure 
 
 The following table highlights the properties with their description for configure Adobe Analytics for AEM Screens:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Property</strong></td> 

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ab018b6d-0233-4439-bb75-58c5421d769a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Adobe PDF settings{#configuring-adobe-pdf-settings}
@@ -127,7 +124,7 @@ Use the general options to specify the version of Acrobat to use for file compat
 
 **Compatibility:** The compatibility level of the PDF file. For documents that will be widely distributed, consider selecting Acrobat 4 (PDF 1.3) or Acrobat 5 (PDF 1.4) to ensure that all users can view and print the document. If you create files by using Acrobat 5 compatibility or later, they may not be compatible with earlier versions of Acrobat. The following subsections show some of the differences between PDF files that are created using different levels of Acrobat compatibility.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Acrobat 4 (PDF 1.3)</p> </th> 
@@ -226,7 +223,7 @@ Also consider whether users need to magnify a page. For example, if you are crea
 
 This table shows contains types of printers and their resolution measured in dpi, their default screen ruling measured in lines per inch (lpi), and a resampling resolution for images that are measured in pixels per inch (ppi). For example, to print to a 600-dpi laser printer, enter 170 for the resolution to resample images at.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p>Printer resolution</p> </th> 

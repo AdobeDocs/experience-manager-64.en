@@ -8,16 +8,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 60d67c6b-5994-42ef-b159-ed6edf5cf9d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing form event tracking{#customizing-form-event-tracking}
 
 Out of the box, the following events are tracked in an analytics enabled Adaptive Form:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Event</th> 

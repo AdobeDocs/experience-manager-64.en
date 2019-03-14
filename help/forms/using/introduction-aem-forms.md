@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: a976a854-4bf2-49f8-871e-28bc597ac496
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to AEM Forms{#introduction-to-aem-forms}

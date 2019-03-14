@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 219dd379-5bc9-40b0-bdc2-2fb347da29d8
-index: y
-internal: n
-snippet: y
 ---
 
 # Drafts and submissions component{#drafts-and-submissions-component}
@@ -34,7 +31,7 @@ Perform the following steps to add and configure a Drafts & Submissions componen
 
 1. In the Edit dialog, specify the following details and tap **Done** to save the settings.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Tab</th> 

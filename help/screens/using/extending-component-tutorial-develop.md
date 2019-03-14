@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 46bdc191-5056-41a4-9804-8f7c4a035abf
 targetaudience: target-audience new
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending an AEM Screens Component{#extending-an-aem-screens-component}

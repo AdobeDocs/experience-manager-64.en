@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: 8cb9fd6e-5e1f-43cd-8121-b490dee8c2be
-index: y
-internal: n
-snippet: y
 ---
 
 # Decoration Tag{#decoration-tag}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: fe6ba6af-f500-4c0d-b984-fb617d4bf48a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Link Tracking for Adobe Analytics{#configuring-link-tracking-for-adobe-analytics}
@@ -149,7 +146,7 @@ This example illustrates how the mapping works in the context of tracking and th
 
    Configure the mapping according to the following table, by dragging the Analytics (SiteCatalyst) variable from the left side-panel:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>CQ Variable<br /> </th> 
@@ -171,7 +168,7 @@ This example illustrates how the mapping works in the context of tracking and th
 
 1. Drag the Search component to the mappings area of the framework. The Search component belongs to the General component group in Sidekick. Configure the mapping according to the following table, by dragging the Analytics (SiteCatalyst) variable from the left side-panel:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>CQ Variable<br /> </th> 

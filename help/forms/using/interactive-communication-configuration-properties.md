@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: interactive-communications
 discoiquuid: 1aef2a51-4391-4075-8841-a62ace5606f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Interactive Communications configuration properties{#interactive-communications-configuration-properties}
@@ -35,7 +32,7 @@ The configuration properties include:
 
 Tap **Document Fragments** **Configuration** on the **Adobe Experience Manager Web Console Configuration** page to view the configuration properties for document fragments.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Property</td> 
@@ -100,7 +97,7 @@ Tap **Adaptive Form and Interactive Communication Web Channel Configuration** on
 
 Tap **Adaptive Form and Interactive Communication Web Channel Theme Configuration** on the **Adobe Experience Manager Web Console Configuration** page to view the configuration properties for Adaptive Forms and Interactive Communications Web channel themes.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Property</td> 

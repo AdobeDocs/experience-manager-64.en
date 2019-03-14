@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 3504afe1-abf5-4fbf-a0d2-e093361764bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Create accessible complex tables in HTML5 forms{#create-accessible-complex-tables-in-html-forms}

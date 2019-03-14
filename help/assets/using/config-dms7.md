@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: cd3adbac-9868-4838-9d8a-37dde8973df4
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Dynamic Media - Scene7 mode{#configuring-dynamic-media-scene-mode}
@@ -490,7 +487,7 @@ The filters provide a way for you to *exclude* assets from being replicated to t
 
 If you are using Dynamic Media for imaging and/or video, then you can use the default filters that we provide as-is. The following filters are active by default:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> </td> 
@@ -548,7 +545,7 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
    Characters that you can use to filter for replication include the following:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Character to use</strong></td> 

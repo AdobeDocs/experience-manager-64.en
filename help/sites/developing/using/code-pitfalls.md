@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 01362026-a696-4a5d-94e9-ea784eaa6e4b
-index: y
-internal: n
-snippet: y
 ---
 
 # Code pitfalls{#code-pitfalls}

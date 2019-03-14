@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 515ceaf6-c132-4e1a-b3c6-5d2c1ccffa7c
-index: y
-internal: n
-snippet: y
 ---
 
 # Listing forms on a web page using APIs{#listing-forms-on-a-web-page-using-apis}
@@ -21,7 +18,7 @@ To search forms using the REST API, send a GET request to the server at `https:/
 
 ## Query parameters {#query-parameters}
 
-<table border="1" cellpadding="1" cellspacing="0" style="overflow: visible;"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Attribute name<br /> </strong></td> 

@@ -7,9 +7,6 @@ uuid: 292217c2-8110-4232-a78b-edea212765d2
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
 discoiquuid: 1dafd400-16c0-416d-9e81-7bf53b761f98
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure data sources{#configure-data-sources}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 16db5334-604f-44e2-9993-10d683dee5bb
-index: y
-internal: n
-snippet: y
 ---
 
 # MSM Rollout Conflicts{#msm-rollout-conflicts}
@@ -45,7 +42,7 @@ In the following sections we use the example of a new page `b`, created in both 
 
     * Activated on publish as `/b`, together with the child page.
 
-<table border="1" cellpadding="1" cellspacing="0" height="159" width="533"> 
+<table> 
  <caption>
    Before Rollout 
  </caption> 
@@ -116,7 +113,7 @@ This conflict handler gives precedence to the blueprint. The live copy page `/b`
 
     * `bp-level-1` is rolled out to the livecopy.
 
-<table border="1" cellpadding="1" cellspacing="0" width="700"> 
+<table> 
  <caption>
    After Rollout 
  </caption> 
@@ -175,7 +172,7 @@ In this case the live copy effectively takes precedence. The blueprint page `/b`
 * live copy: `/b`  
   Stays the same.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <caption>
    After Rollout 
  </caption> 

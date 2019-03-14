@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 212930fc-3430-4a0a-842c-2fb613ef981f
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Repository Restructuring in AEM 6.4{#assets-repository-restructuring-in-aem}
@@ -37,7 +34,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Misc {#misc}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
@@ -62,7 +59,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Asset/Collection Event E-mail Notification Template {#asset-collection-event-e-mail-notification-template}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
@@ -95,7 +92,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Classic Asset Share Designs {#classic-asset-share-designs}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
@@ -125,7 +122,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Download Asset E-mail Notification Template {#download-asset-e-mail-notification-template}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
@@ -166,7 +163,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ###  Link Share E-mail Notification Template {#link-share-e-mail-notification-template}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
@@ -199,7 +196,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### InDesign Workflow Scripts {#indesign-workflow-scripts}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
@@ -233,7 +230,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Video Transcoding Configurations {#video-transcoding-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
@@ -260,7 +257,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Viewer Preset Configurations {#viewer-preset-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
@@ -287,7 +284,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Misc {#misc2}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 

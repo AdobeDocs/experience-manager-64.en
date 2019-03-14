@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6f775933-e989-4456-ad01-9bdf5dee3dad
-index: y
-internal: n
-snippet: y
 ---
 
 # Backup strategies for watched folders{#backup-strategies-for-watched-folders}
@@ -40,7 +37,7 @@ This content describes the watched folder file manipulation process. It is impor
 
 The following table describes the file manipulation of five sample files (file1, file2, file3, file4, file5) throughout the process. In the table, the x axis represents time, such as Time 1 or T1, and the y axis represents folders within the watched folder hierarchy, such as Input.
 
-<table cellpadding="4" cellspacing="0">
+<table>
  <thead align="left">
   <tr>
    <th class="cellrowborder" id="d19e31195" valign="top" width="NaN%"><p>Folder</p></th> 

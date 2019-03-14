@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 56c223ea-14b0-4679-b458-c3554e6828fb
-index: y
-internal: n
-snippet: y
 ---
 
 # Multilingual Assets{#multilingual-assets}

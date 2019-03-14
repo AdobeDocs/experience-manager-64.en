@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: cec0308a-3e48-41a6-998f-6591f402e755
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM and Creative Cloud Integration Best Practices{#aem-and-creative-cloud-integration-best-practices}
@@ -74,7 +71,7 @@ The following table provides a concise summary of when to use which solution or 
 * **AEM / CC Folder Sharing:** When users don't have direct access to AEM or only require access to a smaller number of files.
 * Alternative solutions (for example, [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share](../../assets/using/assets-finder-editor.md) components, [Link Share](../../assets/using/link-sharing.md), using [AEM Assets web UI](../../assets/using/managing-assets-touch-ui.md)): Support similar use cases and should be reviewed based on specific requirement.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Use Case </th> 

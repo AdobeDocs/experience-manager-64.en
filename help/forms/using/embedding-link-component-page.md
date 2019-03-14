@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: a4a36e73-3f7a-4173-8807-931f26daa35a
-index: y
-internal: n
-snippet: y
 ---
 
 # Embedding link component in a page{#embedding-link-component-in-a-page}

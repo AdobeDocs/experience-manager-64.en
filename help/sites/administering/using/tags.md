@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 69253ee9-8c28-436b-9331-6fb875f64cba
-index: y
-internal: n
-snippet: y
 ---
 
 # Administering Tags{#administering-tags}

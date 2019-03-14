@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 7383265b-0ed4-4ea7-b741-0a417d187bdd
-index: y
-internal: n
-snippet: y
 ---
 
 # Repository Restructuring for AEM Communities in 6.4{#repository-restructuring-for-aem-communities-in}
@@ -38,7 +35,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### E-mail Notification Templates {#e-mail-notification-templates}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -61,7 +58,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Subscription Configurations {#subscription-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -84,7 +81,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Watchwords Configurations {#watchwords-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -109,7 +106,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Badging Configurations {#badging-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -143,7 +140,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Classic Communities Console Designs {#classic-communities-console-designs}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -166,7 +163,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Facebook Social Login Configurations {#facebook-social-login-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -199,7 +196,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Language Options Configurations {#language-options-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -222,7 +219,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Pinterest Social Login Configurations {#pinterest-social-login-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -255,7 +252,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Scoring Configurations {#scoring-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -288,7 +285,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Twitter Social Login Configurations {#twitter-social-login-configurations}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
@@ -321,7 +318,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Misc {#misc}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 

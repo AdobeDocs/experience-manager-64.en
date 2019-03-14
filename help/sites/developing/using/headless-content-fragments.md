@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 0a9c2a76-84c2-47e3-95cd-d666ac49011e
 redirecttarget: https //helpx.adobe.com/experience-manager/6-4/assets/user-guide.html?topic=/experience-manager/6-4/assets/morehelp/content-fragments.ug.js
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Fragments{#content-fragments}

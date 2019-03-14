@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 89f4d3cf-eb2e-4d55-8209-16ecbba03792
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring file type settings{#configuring-file-type-settings}
@@ -312,7 +309,7 @@ The following table shows common types of printers and their resolution measured
 >
 >Resampling monochrome images can have unexpected viewing results, such as no image display. If this happens, turn off resampling and convert the file again. This problem is most likely to occur with subsampling, and least likely with bicubic downsampling.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p><strong>Printer resolution</strong></p> </th> 

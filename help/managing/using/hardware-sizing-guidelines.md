@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
 discoiquuid: 3f4feb38-eca0-4852-88f8-9b20625e18ad
-index: y
-internal: n
-snippet: y
 ---
 
 # Hardware Sizing Guidelines{#hardware-sizing-guidelines}
@@ -234,7 +231,7 @@ Based on the complexity, you can determine the number of servers (or CPU cores) 
 
 The variables in the equation are as follows:
 
-<table border="1" cellpadding="3" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>traffic</td> 

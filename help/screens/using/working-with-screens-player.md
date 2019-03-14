@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with AEM Screens Player{#working-with-aem-screens-player}

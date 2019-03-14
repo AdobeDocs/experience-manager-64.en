@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 2f45a965-590b-43b1-95c6-df4b74ad15b9
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshoot AEM Forms app{#troubleshoot-aem-forms-app}

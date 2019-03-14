@@ -9,16 +9,13 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 8f94c22d-5f08-4a8b-8bb5-5ec757c44bc8
-index: y
-internal: n
-snippet: y
 ---
 
 # Checklists{#checklists}
 
 The following checklist highlights some of the main issues - please read the other sections related to Testing for full details.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Check </td> 

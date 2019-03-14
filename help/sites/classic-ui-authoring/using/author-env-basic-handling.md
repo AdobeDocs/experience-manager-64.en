@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 9737ead9-e324-43c9-9780-7abd292f4e5b
-index: y
-internal: n
-snippet: y
 ---
 
 # Basic Handling{#basic-handling}
@@ -36,7 +33,7 @@ Upon login the Welcome screen will be shown, this provides a list of links to co
 
 The main consoles are:
 
-<table border="0" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Console</strong></td> 
@@ -144,7 +141,7 @@ The right pane of the **Websites** console provides a list view with information
 
 The following are available; a subset of these fields is shown as default:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Column</strong></td> 

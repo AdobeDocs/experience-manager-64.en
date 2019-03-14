@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 412c89d1-09c0-40ef-af52-2c420186e057
 redirecttarget: /content/help/en/experience-manager/kt/sites/using/content-fragments-mixed-media-feature-video-use
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding Content Fragments and Content Services in AEM{#understanding-content-fragments-and-content-services-in-aem}

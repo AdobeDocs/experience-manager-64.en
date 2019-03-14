@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 61f86320-71a6-4d3c-839d-155a2083d995
-index: y
-internal: n
-snippet: y
 ---
 
 # Preparing Assets for Translation{#preparing-assets-for-translation}

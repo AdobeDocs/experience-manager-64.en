@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 72fe5749-2fa2-442f-b679-7889faeafcac
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing and exporting global settings{#importing-and-exporting-global-settings}

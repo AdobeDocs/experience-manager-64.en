@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 6a3c69b5-6df6-4b8f-afa4-7d3e9dd458b5
-index: y
-internal: n
-snippet: y
 ---
 
 # Keyboard Shortcuts when Editing Pages{#keyboard-shortcuts-when-editing-pages}
@@ -24,7 +21,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
 
 ## Editing Keyboard Shortcuts {#editing-keyboard-shortcuts}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Location</th> 
@@ -103,7 +100,7 @@ Various keyboard shortcuts are also available for desktop users when using the [
 
 The modfier keys used for the keyboard shortcuts vary depending on the operating system used by the client.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Windows and Linux</strong><br /> </td> 

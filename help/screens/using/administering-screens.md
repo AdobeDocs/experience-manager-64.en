@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: administering
 discoiquuid: 7903e83b-427f-445a-a257-6aa2c4261632
-index: y
-internal: n
-snippet: y
 ---
 
 # Administering Screens{#administering-screens}

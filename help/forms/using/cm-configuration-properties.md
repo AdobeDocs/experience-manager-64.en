@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: f2955419-c680-44a7-9913-c594b4577551
-index: y
-internal: n
-snippet: y
 ---
 
 # Correspondence Management Configuration Properties{#correspondence-management-configuration-properties}
@@ -19,7 +16,7 @@ To configure these properties, open the following URL in a browser: `http://<ser
 
 Correspondence Management has the following configuration properties:
 
-<table border="1" cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th><p><strong>Property</strong></p> </th> 

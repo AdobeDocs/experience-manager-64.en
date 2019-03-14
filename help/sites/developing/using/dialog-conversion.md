@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: dafe26ae-b2c5-4070-b8b1-cc1da147b464
-index: y
-internal: n
-snippet: y
 ---
 
 # Dialog Conversion Tool{#dialog-conversion-tool}
@@ -298,7 +295,7 @@ public class CustomDialogRewriteRule extends AbstractDialogRewriteRule {
 
 The `cq-dialog-conversion-content` package contains several predefined rewrite rules. For classic UI widgets see [Using xtypes](../../../sites/developing/using/xtypes.md) for more information).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Rule</strong></td> 

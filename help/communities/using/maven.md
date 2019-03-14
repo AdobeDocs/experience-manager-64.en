@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: a726c904-aadd-4678-be84-9e05808ab8be
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Maven for Communities{#using-maven-for-communities}

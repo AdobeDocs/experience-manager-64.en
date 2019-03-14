@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: edb7e73b-83e3-4e6d-85e0-f975c99931b0
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Managing Channels{#creating-and-managing-channels}
@@ -163,7 +160,7 @@ Follow the steps below to make the channel online:
 
 The following table summarizes the events associated with the automatic and manual updates from the device dashboard.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Event</strong></td> 

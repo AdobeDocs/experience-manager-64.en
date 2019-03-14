@@ -10,9 +10,6 @@ content-type: reference
 topic-tags: components
 topic-tags: testing
 discoiquuid: bc0130c3-826e-47dd-b18b-85e1a7bb9936
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing Your UI{#testing-your-ui}

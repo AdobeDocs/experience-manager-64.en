@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 4da555b4-7fb2-4d55-b29f-8bd21f474c1a
-index: y
-internal: n
-snippet: y
 ---
 
 # The Bulk Editor{#the-bulk-editor}
@@ -65,7 +62,7 @@ To use the bulk editor to edit multiple items simultaneously:
 1. Double-click the **Bulk Editor** to open it.
 1. Enter your selection requirements:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Field</td> 

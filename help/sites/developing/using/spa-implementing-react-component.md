@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 86a981fe-25f3-451a-b262-8c497619e0ac
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing a React Component for SPA{#implementing-a-react-component-for-spa}

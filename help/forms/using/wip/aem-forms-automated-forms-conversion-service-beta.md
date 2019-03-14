@@ -6,9 +6,6 @@ seo-description: null
 uuid: 746249b0-8198-42b7-9654-f2d6b7e1acc7
 contentOwner: vishgupt
 discoiquuid: 78ad3714-e0de-4c12-aea2-6f0ec5a83002
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms Automated Forms Conversion service prerelease notes{#aem-forms-automated-forms-conversion-service-prerelease-notes}
@@ -115,7 +112,7 @@ Your feedback is important as it helps us improve our offerings. To share your e
 
 ### Log JIRA issue {#log-jira-issue}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>JIRA field</td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 542467ef-3793-4347-8424-c365c5a166f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Catalog Essentials{#catalog-essentials}
@@ -26,7 +23,7 @@ See [Tagging Enablement Resources](../../communities/using/tag-resources.md).
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> <strong>resourceType</strong></td> 

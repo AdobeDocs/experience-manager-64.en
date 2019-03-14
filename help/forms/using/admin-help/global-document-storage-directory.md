@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a33b8834-6e39-47eb-a53b-0982d32e80ad
-index: y
-internal: n
-snippet: y
 ---
 
 # Global document storage directory{#global-document-storage-directory}
@@ -24,7 +21,7 @@ In addition to selecting a secure, highly available directory for GDS, you can a
 
 AEM forms application data resides in the GDS directory and the AEM forms database. The following table describes the data and its locations.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e29288" valign="top" width="NaN%"><p>AEM forms Data</p></th> 

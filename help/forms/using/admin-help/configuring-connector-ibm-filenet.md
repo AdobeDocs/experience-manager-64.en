@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: be4994de-12f8-436e-926a-49a6783b006e
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Connector for IBM FileNet{#configuring-connector-for-ibm-filenet}

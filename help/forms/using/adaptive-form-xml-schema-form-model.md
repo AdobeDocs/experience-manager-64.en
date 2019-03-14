@@ -9,9 +9,6 @@ topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a1070d9e-fb7c-4134-b6d5-ffa2d3e9718d
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating adaptive forms using XML Schema{#creating-adaptive-forms-using-xml-schema}
@@ -37,7 +34,7 @@ An XML schema consists of simple and complex element types. The elements have at
 
 This mapping of XML elements with adaptive form components is as follows:
 
-<table border="1" cellpadding="3" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><strong>XML element or attribute </strong></th> 
@@ -130,7 +127,7 @@ Here's an example of an XML schema.
 
 You can add the following attributes to XML Schema elements to add special properties to the fields of the associated adaptive form.
 
-<table border="1" cellpadding="3" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><strong>Schema property</strong></th> 
@@ -174,7 +171,7 @@ You can add the following attributes to XML Schema elements to add special prope
 
 You can add the following restrictions to XML schema elements to limit the values acceptable to an adaptive form component: 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="21%"><p><strong> Schema property</strong></p> </td> 

@@ -7,9 +7,6 @@ uuid: e73b4b4c-6ad7-4400-b776-5892549970c3
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: bcda96ff-6c7d-46c4-a9e8-7e0fb245cde9
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating adaptive forms using JSON Schema{#creating-adaptive-forms-using-json-schema}
@@ -35,7 +32,7 @@ An JSON Schema consists of simple and complex element types. The elements have a
 
 This mapping of JSON elements with adaptive form components is as follows:
 
-<table border="1" cellpadding="3" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><strong>JSON element, properties, or attributes</strong></th> 
@@ -341,7 +338,7 @@ You can use the **aem:afProperties** property to preconfigure JSON Schema field 
 
 You can add the following restrictions to JSON Schema elements to limit the values acceptable to an adaptive form component: 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="21%"><p><strong> Schema property</strong></p> </td> 

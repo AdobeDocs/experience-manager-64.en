@@ -6,9 +6,6 @@ seo-description: Feature Pack 18912 lets you bulk ingest assets by way of FTP, o
 uuid: 316d77e3-3d61-4cf0-8955-726ee54e268c
 contentOwner: rbrough
 discoiquuid: 6198e613-a867-49a8-b9a5-a05e7889821c
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing Feature Pack 18912{#installing-feature-pack}

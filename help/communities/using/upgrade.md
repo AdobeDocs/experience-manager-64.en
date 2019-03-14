@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 7aa28e36-6b31-4447-b800-cab2dc78c93c
-index: y
-internal: n
-snippet: y
 ---
 
 # Upgrading to AEM 6.4 Communities{#upgrading-to-aem-communities}

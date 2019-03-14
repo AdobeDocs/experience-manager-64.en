@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 56a984a5-4b7f-4a95-8a17-95d2d355bfed
-index: y
-internal: n
-snippet: y
 ---
 
 # RDBMS Support in AEM 6.4{#rdbms-support-in-aem}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: f5ab3f61-aa5a-49ae-a976-6ab7f0d11ea6
-index: y
-internal: n
-snippet: y
 ---
 
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
@@ -26,7 +23,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply to the use o
 
 The following shortcuts are available for the Sites, Commerce, Screens, Assets, Users, Groups, Projects, and Experience Fragments consoles.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Location</th> 
@@ -134,7 +131,7 @@ Various keyboard shortcuts are also available for desktop users when using the [
 
 The modfier keys used for the keyboard shortcuts vary depending on the operating system used by the client.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td><strong>Windows and Linux</strong></td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: 6205e2b0-b8b3-49f1-8c2c-aedb9d263cfe
-index: y
-internal: n
-snippet: y
 ---
 
 # Projects{#projects}

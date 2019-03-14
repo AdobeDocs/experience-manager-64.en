@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: eb8fd2b3-0a31-425e-b0f1-38f09e1106df
-index: y
-internal: n
-snippet: y
 ---
 
 # Messaging Essentials{#messaging-essentials}
@@ -20,7 +17,7 @@ This page documents the details of working with using the Messaging component to
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th colspan="2" style="text-align: center;">Compose Message</th> 
@@ -52,7 +49,7 @@ This page documents the details of working with using the Messaging component to
  </tbody> 
 </table>
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th colspan="2" style="text-align: center;">Message List</th> 

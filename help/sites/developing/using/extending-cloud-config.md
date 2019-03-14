@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: d25c03bf-6eaa-45f4-ab60-298865935a62
-index: y
-internal: n
-snippet: y
 ---
 
 # Cloud Service Configurations{#cloud-service-configurations}
@@ -166,7 +163,7 @@ The property will then be automatically encrypted (using the `CryptoSupport` ser
 
 #### Additional Properties for Service Page jcr:content Nodes {#additional-properties-for-service-page-jcr-content-nodes}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Property</strong></td> 

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 0ce7b338-6686-49b3-b58b-e7ab6b670708
-index: y
-internal: n
-snippet: y
 ---
 
 # Create or Configure a watched folder{#create-or-configure-a-watched-folder}

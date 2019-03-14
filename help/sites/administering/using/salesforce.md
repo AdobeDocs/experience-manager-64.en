@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: b9752c60-eb26-4840-9163-a99537a58727
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Salesforce{#integrating-with-salesforce}

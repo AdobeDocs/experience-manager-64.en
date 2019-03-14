@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: abc27987-960e-48da-9580-1008a2bdc94c
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Search Forms{#configuring-search-forms}
@@ -83,7 +80,7 @@ The default configurations available are:
 
 The following predicates are available, dependent on the configuration:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th width="10%">Predicate</th> 
@@ -527,7 +524,7 @@ The following example (to search according to the template used to create a page
 
 The following table lists the permissions required to perform edit, delete, and preview actions on search forms.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Action</strong></td> 

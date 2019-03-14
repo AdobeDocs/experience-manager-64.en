@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: c21debc3-ecf4-4aa9-ab5a-18ddd5cf2fff
-index: y
-internal: n
-snippet: y
 ---
 
 # Reusing Content: Multi Site Manager and Live Copy{#reusing-content-multi-site-manager-and-live-copy}
@@ -167,7 +164,7 @@ MSM is directly accessible in the UI using various options from the appropriate 
 
 As an introduction the following table provides an overview of the main terms used with MSM; these will be covered in more details in the subsequent sections and pages:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Term</strong></td> 

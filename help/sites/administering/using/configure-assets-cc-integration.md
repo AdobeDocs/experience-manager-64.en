@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: c2f190af-656e-4435-9f44-2698d41c4ad1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure AEM Assets integration with Experience Cloud and Creative Cloud{#configure-aem-assets-integration-with-experience-cloud-and-creative-cloud}

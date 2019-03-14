@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 4adce3b4-f209-4a01-b116-a5e01c4cc123
-index: y
-internal: n
-snippet: y
 ---
 
 # Coding Tips{#coding-tips}
@@ -43,7 +40,7 @@ Note that these conventions don’t necessarily need to apply to customer implem
 
 Ideally, names should reveal their intention. A common code test for when names are not as clear as they should be is the presence of comments explaining what the variable or method is for:
 
-<table border="1" cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top" width="245"><p><strong>Unclear</strong></p> </td> 

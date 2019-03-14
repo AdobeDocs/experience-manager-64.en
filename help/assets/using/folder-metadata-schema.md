@@ -5,9 +5,6 @@ description: This article describes how to create metadata schema for asset fold
 seo-description: How to create metadata schema for asset folders in AEM Assets.
 uuid: 286a4f26-c0ad-4691-80d8-d17ba1a2dfe0
 discoiquuid: 92eacea5-7511-48ce-8a72-ff4552ebb07d
-index: y
-internal: n
-snippet: y
 ---
 
 # Folder Metadata Schema{#folder-metadata-schema}
@@ -62,7 +59,7 @@ You can map/configure these form items to a field within a metadata node in the 
 
 The **[!UICONTROL Build Form]**** **tab lists form items that you use in your folder metadata schema form. The **[!UICONTROL Settings]**** **tab displays the attributes for each item that you select in the **[!UICONTROL Build Form]**** **tab. Here is a list the form items available in the **[!UICONTROL Build Form]**** **tab:
 
-<table border="1" cellpadding="0" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top"><p><strong>Component Name</strong></p> </td> 

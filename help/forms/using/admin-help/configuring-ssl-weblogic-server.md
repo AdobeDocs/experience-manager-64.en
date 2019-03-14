@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 968c2574-ec9a-45ca-9c64-66f4caeec285
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SSL for WebLogic Server{#configuring-ssl-for-weblogic-server}
@@ -27,7 +24,7 @@ Then, configure WebLogic so that it uses the Custom Identity keystore and Custom
 
 The keytool command is typically located in the Java jre/bin directory and must include several options and option values, which are listed in the following table.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e16199" valign="top" width="NaN%"><p>Keytool option</p></th> 

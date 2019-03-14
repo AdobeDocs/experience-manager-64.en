@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: a9ab5a78-2add-46e1-a8f2-444d0f25f43a
-index: y
-internal: n
-snippet: y
 ---
 
 # Changing default styles of HTML5 forms{#changing-default-styles-of-html-forms}

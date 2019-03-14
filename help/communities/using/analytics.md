@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 36ea97a4-4e13-4e89-866b-495f3c30cb94
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics Configuration for Communities Features{#analytics-configuration-for-communities-features}
@@ -367,7 +364,7 @@ Following is an example of default mappings after following the [getting started
 
 #### Map of eVars sent with each event {#map-of-evars-sent-with-each-event}
 
-<table border="1" cellpadding="2" cellspacing="2" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong> </strong></td> 

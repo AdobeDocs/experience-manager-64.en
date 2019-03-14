@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 0c1b6ad7-9d25-41dc-b1fe-a4cb9366c259
-index: y
-internal: n
-snippet: y
 ---
 
 # We.Finance reference site walkthrough{#we-finance-reference-site-walkthrough}

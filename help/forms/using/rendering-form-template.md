@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: cb75b826-d044-44be-b364-790c046513e0
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering form template for HTML5 forms{#rendering-form-template-for-html-forms}
@@ -40,7 +37,7 @@ http://localhost:4502/content/xfaforms/profiles/default.html?
 
 The request parameters supported while rendering form as HTML are:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th><strong>Parameter </strong></th> 

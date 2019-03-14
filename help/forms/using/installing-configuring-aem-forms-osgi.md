@@ -7,9 +7,6 @@ uuid: ce253b5a-eeb2-47d2-a6c9-e6f59384159a
 contentOwner: khsingh
 topic-tags: installing
 discoiquuid: 1bb8360c-5543-484e-9712-590822211298
-index: y
-internal: n
-snippet: y
 ---
 
 # Install and configure data capture capabilities{#install-and-configure-data-capture-capabilities}
@@ -54,7 +51,7 @@ Before you begin to install and configure data capture capability AEM Forms, ens
 * Replication and reverse replication for the author and publish instances is set. For details, see [Replication](../../sites/deploying/using/replication.md).
 * Extra requirements for UNIX-based systems: If you are using the UNIX-based operating system, install the following packages from the installation media of the respective operating system.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>expat</td> 

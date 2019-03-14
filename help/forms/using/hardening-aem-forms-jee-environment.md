@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: 6b380e92-f90d-4875-b7a2-f3958daf2364
-index: y
-internal: n
-snippet: y
 ---
 
 # Hardening Your AEM Forms on JEE Environment{#hardening-your-aem-forms-on-jee-environment}
@@ -45,7 +42,7 @@ Network security vulnerabilities are among the first threats to any Internet-fac
 
 The following table describes common processes that reduce network security vulnerabilities.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e799" valign="top" width="NaN%"><p>Issue</p> </th> 
@@ -81,7 +78,7 @@ The following table describes common processes that reduce network security vuln
 
 The following table describes some potential approaches to minimizing security vulnerabilities found in the operating system.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e879" valign="top" width="NaN%"><p>Issue</p></th> 
@@ -110,7 +107,7 @@ For additional security information for your operating system, see [“Operating
 
 This section describes techniques you can use during the AEM Forms installation process to reduce security vulnerabilities. In some cases, these techniques use options that are part of the installation process. The following table describes these techniques.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e931" valign="top" width="NaN%"><p>Issue</p> </th> 
@@ -301,7 +298,7 @@ Web Service Definition Language (WSDL) generation should be enabled only for dev
 
 The following table describes some techniques for securing your application server after the AEM Forms on JEE application is installed.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e1347" valign="top" width="NaN%"><p>Issue</p> </th> 
@@ -416,7 +413,7 @@ You can use auditing to detect many types of attacks, including these:
 
 This table describes auditing and logging techniques you can use to reduce your server’s vulnerabilities.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e1871" valign="top" width="NaN%"><p>Issue</p> </th> 
@@ -449,7 +446,7 @@ The following application root URLs for each AEM Forms on JEE web application. Y
 
 Certain URLs are highlighted as end-user-facing web applications. You should avoid exposing other URLs for Configuration Manager for access to external users through the reverse proxy.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e1988" valign="top" width="NaN%"><p>Root URL</p> </th> 
@@ -779,7 +776,7 @@ This section describes the protocols and ports that are required by AEM Forms on
 
 When you configure a secure network architecture as described in the previous section, the following network protocols are required for interaction between AEM Forms on JEE and other systems in your enterprise network.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e2732" valign="top" width="NaN%"><p>Protocol</p> </th> 
@@ -863,7 +860,7 @@ This section describes the default ports (and alternate configuration ranges) fo
 
 **JBoss ports**
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e2868" valign="top" width="NaN%"><p>Purpose</p> </th> 
@@ -884,7 +881,7 @@ This section describes the default ports (and alternate configuration ranges) fo
 
 **WebLogic ports**
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e2953" valign="top" width="NaN%"><p>Purpose</p> </th> 

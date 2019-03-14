@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 2e783745-c986-45ba-8e65-7437d114ca38
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing and Exporting Data{#importing-and-exporting-data}

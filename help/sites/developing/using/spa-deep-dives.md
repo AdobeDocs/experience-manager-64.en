@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 48ab972b-ca26-40d1-b89e-86124ceb173b
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA Deep Dives{#spa-deep-dives}

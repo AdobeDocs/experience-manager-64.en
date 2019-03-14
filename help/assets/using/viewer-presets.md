@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 82bed457-794e-4bf2-bc80-abde24fd2851
-index: y
-internal: n
-snippet: y
 ---
 
 # Applying Viewer Presets{#applying-viewer-presets}

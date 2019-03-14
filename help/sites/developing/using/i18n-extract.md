@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 discoiquuid: 034f70f1-fbd2-4f6b-b07a-5758f0461a5b
-index: y
-internal: n
-snippet: y
 ---
 
 # Extracting Strings for Translating{#extracting-strings-for-translating}
@@ -71,7 +68,7 @@ The pattern part of a rule is used to match the names of the files to include or
 
 When used within a pattern, the / character indicates a subdirectory and the &#42; character matches all. The following table lists several example rules.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <th>Example rule</th> 

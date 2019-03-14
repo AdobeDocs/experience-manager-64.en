@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 40d7d43f-ee0a-4e34-ae93-20c9c940f76b
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing the listing of process instances{#customizing-the-listing-of-process-instances}
@@ -19,7 +16,7 @@ The process instance list is displayed in the Tracking tab of AEM Forms workspac
 
 In the process instance list, for each process instance, AEM Forms workspace shows some properties of that instance. The following properties are available for each process instance. These properties are stored as attributes in the process instance component model and are available for use in its view and template.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Property</strong></td> 

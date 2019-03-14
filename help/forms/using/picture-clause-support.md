@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 5e344be7-46cd-4e1f-ae3a-1f89c645cffe
-index: y
-internal: n
-snippet: y
 ---
 
 # Picture clause support for HTML5 forms{#picture-clause-support-for-html-forms}
@@ -40,7 +37,7 @@ Supported expression for Date Picture clause:
 >
 >The default pattern of picture clause is {MMM D, YYYY} pattern. If no pattern is applied, the default pattern is used.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Symbol</strong></th> 
@@ -111,7 +108,7 @@ Supported expressions for Numeric Picture clause in **HTML Forms** are:
 * num.percent{}
 * num{Numeric Picture Clause Symbols}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Symbol</strong></th> 

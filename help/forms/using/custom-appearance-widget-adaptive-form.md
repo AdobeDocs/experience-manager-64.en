@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 1115697c-cb7d-441a-876f-3c01761568c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Create custom appearances for adaptive form fields{#create-custom-appearances-for-adaptive-form-fields}
@@ -115,7 +112,7 @@ Once the project template is created, do the following changes, as required:
 
 1. Integrate the third-party plugin with the framework to enable interaction between the custom appearance framework and the jQuery plugin. The new widget will be functional only after you extend or override the following functions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Function</strong></td> 

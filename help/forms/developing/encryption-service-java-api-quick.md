@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: f12c10c3-1ce6-4415-ba9d-5349d1888237
-index: y
-internal: n
-snippet: y
 ---
 
 # Encryption Service Java API QuickStart(SOAP){#encryption-service-java-api-quickstart-soap}

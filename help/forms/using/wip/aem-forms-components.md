@@ -9,9 +9,6 @@ contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 discoiquuid: 1cc84dd1-c899-409e-b514-424e1b619a3a
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH - AEM Forms Components{#do-not-publish-aem-forms-components}
@@ -24,7 +21,7 @@ All the AEM Forms components that are available out-of-the-box are described bel
 
 Drops a page footer in the adaptive form layout. Includes a rich text out-of-the-box that you can edit in the form. Typically, a footer includes the copyright information of a company. When you tap the text component of the footer, you see the component toolbar. Tap ![](assets/cmppr.png) to customize the properties of the text. Properties are listed below:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Property</th> 
@@ -59,7 +56,7 @@ Adaptive form header component lets you add a page header that you can use to pr
 
 When you select the logo image component and tap ![](assets/cmppr.png), you can use the following properties to customize the logo image:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Property</th> 
@@ -98,7 +95,7 @@ When you select the logo image component and tap ![](assets/cmppr.png), you can 
 
 When you select the text sub-component and tap ![](assets/cmppr.png), you can see the following properties to customize the header text:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Property</th> 
@@ -131,7 +128,7 @@ When you select the text sub-component and tap ![](assets/cmppr.png), you can se
 
 Lets you provide a title for your adaptive form, that your customers use to identify and differentiate from other adaptive forms. You can use the following properties to customize the form title: 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Property</th> 

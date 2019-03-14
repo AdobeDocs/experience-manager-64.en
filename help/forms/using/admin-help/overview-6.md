@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8e107abb-861f-4063-b600-c87e34639019
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of configuring SSL{#overview-of-configuring-ssl}

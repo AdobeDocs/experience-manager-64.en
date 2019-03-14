@@ -10,9 +10,6 @@ topic-tags: extending-assets
 content-type: reference
 discoiquuid: 31c56b65-9ee4-42a5-b1a9-3bb0a10e96a9
 duration: 10 minutes
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending Assets Search{#extending-assets-search}

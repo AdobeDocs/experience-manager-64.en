@@ -7,9 +7,6 @@ uuid: b98e9a49-cef2-42f2-b484-8765b859895b
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c106aa41-cbc0-4daf-9ac6-6c0d23710010
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an Interactive Communication{#create-an-interactive-communication}
@@ -96,7 +93,7 @@ For more information on the Interactive Communication authoring interface, see [
 
 1. Drag-and-drop the document fragments into the Interactive Communication. Following are the types of document fragments that you can use in the print channel of the Interactive Communication. 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Document Fragment Type</strong></td> 

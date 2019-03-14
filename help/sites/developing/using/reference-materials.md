@@ -10,9 +10,6 @@ audience: developing
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 39d1cb2e-18f5-4d08-b983-a06b1f470c51
-index: y
-internal: n
-snippet: y
 ---
 
 # API Guides{#api-guides}

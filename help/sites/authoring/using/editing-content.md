@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 07da66ab-dd5e-4ca8-ac6d-76fc81875fd9
-index: y
-internal: n
-snippet: y
 ---
 
 # Editing Page Content{#editing-page-content}
@@ -167,7 +164,7 @@ You can also add a new component to the page by dragging an asset from the [asse
 
 This is valid for the following asset types (some will be dependent on page/paragraph system):
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th>Asset Type</th> 

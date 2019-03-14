@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: administering
 discoiquuid: e650e33b-198f-41bf-a912-3d76f635b557
-index: y
-internal: n
-snippet: y
 ---
 
 # Author and Publish Architectural Overview{#author-and-publish-architectural-overview}

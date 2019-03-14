@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 1bc19f9a-fa3f-43e3-813e-23ab0b708d43
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting AEM{#troubleshooting-aem}
@@ -30,7 +27,7 @@ The following section covers some issues that you may encounter when using AEM, 
 
 The following table provides an overview of problems administrators may need to troubleshoot:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Role(s)</strong></td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 55e66c66-0120-4ed4-94c5-d65a434bb59b
-index: y
-internal: n
-snippet: y
 ---
 
 # Naming conventions for assets testing{#naming-conventions-for-assets-testing}

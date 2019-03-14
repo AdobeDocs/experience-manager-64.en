@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 6ed09b5d-5089-43d2-b9d5-e7db57be5c02
-index: y
-internal: n
-snippet: y
 ---
 
 # SAML 2.0 Authentication Handler{#saml-authentication-handler}

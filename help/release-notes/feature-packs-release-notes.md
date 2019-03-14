@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: d12b594b-4ac1-4569-87a8-a0993af9163b
-index: y
-internal: n
-snippet: y
 ---
 
 # Feature Packs{#feature-packs}
@@ -26,7 +23,7 @@ Adobe Experience Manager (AEM) 6.4 provides updates to add fuctionality to the p
 
 The following feature packs are available for AEM 6.4:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td>Capability</td> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: e0d6478a-4420-46a6-96fe-082a30ee82f0
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Third-Party Services{#integrating-with-third-party-services}

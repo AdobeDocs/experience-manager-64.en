@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 25b7ac08-6cdc-4dd5-a756-d6169b86f9ab
-index: y
-internal: n
-snippet: y
 ---
 
 # OSGi Events for Communities Components{#osgi-events-for-communities-components}

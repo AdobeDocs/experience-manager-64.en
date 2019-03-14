@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: ceace3aa-78a5-485e-b519-630479e087d8
-index: y
-internal: n
-snippet: y
 ---
 
 # QnA Essentials{#qna-essentials}
@@ -20,7 +17,7 @@ This page provides the essential information for working with the questions and 
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-<table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <td> resourceType</td> 

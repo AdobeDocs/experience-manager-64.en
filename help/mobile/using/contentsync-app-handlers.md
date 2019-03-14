@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: fec86f03-f81e-460a-9f84-d6304c95128c
-index: y
-internal: n
-snippet: y
 ---
 
 # Out of the Box App Handlers{#out-of-the-box-app-handlers}

@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: author
 topic-tags: correspondence-management
 discoiquuid: 010e3639-b1a9-40fb-8615-7d18c4784b73
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms Keyboard Shortcuts{#aem-forms-keyboard-shortcuts}
@@ -88,7 +85,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
 
 ### Text selection and moving the cursor around {#text-selection-and-moving-the-cursor-around}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Operation</strong></th> 
@@ -207,7 +204,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
 
 ### Text alignment {#text-alignment}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th height="20" valign="middle"><p><strong>Operation</strong></p> </th> 
@@ -239,7 +236,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
 
 ### Undo and redo actions {#undo-and-redo-actions}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Operation</strong></th> 
@@ -261,7 +258,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
 
 ### Changing font size {#changing-font-size}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><p><strong>Operation</strong></p> </th> 
@@ -283,7 +280,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
 
 ### Deleting a word {#deleting-a-word}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Operation</strong></th> 
@@ -305,7 +302,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
 
 ### Copy and paste {#copy-and-paste}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Operation</strong></th> 
@@ -332,7 +329,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
 
 ### Formatting {#formatting}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody>
   <tr>
    <th><strong>Operation</strong></th> 

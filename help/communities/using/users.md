@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 774c2553-b629-456b-afa7-5713490f4a0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Users and User Groups{#managing-users-and-user-groups}
@@ -186,7 +183,7 @@ To give the proper privileges for custom member group paths, such as /home/group
 
 There are four separate consoles available only in the author environment:
 
-<table border="1" cellpadding="2" cellspacing="2" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>console</strong></td> 

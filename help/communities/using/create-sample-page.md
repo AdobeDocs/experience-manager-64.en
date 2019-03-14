@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: developing
 discoiquuid: a03145f7-6697-4797-b73e-6f8d241ce469
-index: y
-internal: n
-snippet: y
 ---
 
 # Create a Sample Page{#create-a-sample-page}

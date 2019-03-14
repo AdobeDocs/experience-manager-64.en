@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 9c27f976-972a-4250-b56d-b84a7d72f8c8
-index: y
-internal: n
-snippet: y
 ---
 
 # APIs to access letter instances{#apis-to-access-letter-instances}
@@ -25,7 +22,7 @@ Correspondence Management provides you APIs using which you can build the listin
 
 Correspondence Management exposes APIs to fetch letter instances through the LetterInstanceService service.
 
-<table border="0" cellpadding="0" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <td valign="top"><p><strong>Method</strong></p> </td> 
@@ -59,7 +56,7 @@ The following API finds the letter instances based on the query object (both Sub
 
 **Syntax**: `List getAllLetterInstances(Query query) throws ICCException;`
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Parameter</strong></td> 

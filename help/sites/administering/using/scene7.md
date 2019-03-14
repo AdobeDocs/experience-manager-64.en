@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: f55e68c3-3309-4400-bef9-fd3afa6e2b5f
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Dynamic Media Classic (Scene7){#integrating-with-dynamic-media-classic-scene}
@@ -76,7 +73,7 @@ To use Dynamic Media and Scene7 simultaneously:
 1. Configure [Scene7](#creating-a-cloud-configuration-for-scene) in cloud services.
 1. Follow the specific instructions particular to your use case:
 
-<table border="2" cellpadding="2" cellspacing="2" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td> </td> 
@@ -234,7 +231,7 @@ When setting up AEM Assets and Scene7 synchronization, it is important to unders
 
 With the synchronization between AEM Assets and Scene7, there are currently the following limitations/design implications:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Limitation/design implication</strong></td> 

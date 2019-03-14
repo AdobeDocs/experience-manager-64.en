@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: ff0f006d-461c-4cc4-b6eb-d665f3f3b498
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring RTE for Producing Accessible Sites{#configuring-rte-for-producing-accessible-sites}

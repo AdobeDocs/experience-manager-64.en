@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: bf8fd156-4be9-43f8-8948-cf7f91c25f1b
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics with External Providers{#analytics-with-external-providers}

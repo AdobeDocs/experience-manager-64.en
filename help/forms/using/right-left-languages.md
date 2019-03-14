@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: b8465471-0458-42d6-8209-8ba90f41154a
-index: y
-internal: n
-snippet: y
 ---
 
 # Right-to-left languages in HTML5 forms{#right-to-left-languages-in-html-forms}

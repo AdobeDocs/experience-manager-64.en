@@ -9,9 +9,6 @@ topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: c7a1d13e-cb61-4082-8ae7-7f5eee9e0a51
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to authoring adaptive forms {#introduction-to-authoring-adaptive-forms}
@@ -92,7 +89,7 @@ The sidebar comprises the following browsers:
 * **Components browser** 
   Includes components that you can use to build an adaptive form. You can drag components from onto the adaptive form to add form elements, and configure added element as per the requirements. The following table describes the components listed in components browser**.**
 
-<table border="1" cellpadding="1" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th width="150"><strong>Component</strong></th> 

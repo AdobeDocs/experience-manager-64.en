@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 49b195b2-78c4-49f9-b07a-a87b73624c2c
-index: y
-internal: n
-snippet: y
 ---
 
 # The External Link Checker{#the-external-link-checker}

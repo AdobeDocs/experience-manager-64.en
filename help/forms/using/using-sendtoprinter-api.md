@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: c2d564ba-fa5a-4130-b7fe-7e2c64d92170
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the sendToPrinter API{#using-the-sendtoprinter-api}

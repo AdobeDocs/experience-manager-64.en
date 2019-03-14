@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
 discoiquuid: 899ea120-c96d-4dbf-85da-e5d25959d10a
-index: y
-internal: n
-snippet: y
 ---
 
 # Pre-Upgrade Maintenance Tasks{#pre-upgrade-maintenance-tasks}
@@ -92,7 +89,7 @@ The `PreUpgradeTasksMBean` OSGI component comes preconfigured with a list of pre
 
 The task list differs depending on the run mode that is being used to start the instance. Below is a description of the run mode each maintenance task is designed for.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Task</strong></td> 
@@ -164,7 +161,7 @@ You can access the MBeans by:
 
 Below is a list of all the available methods that the `PreUpgradeTasksMBeanImpl` exposes:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Method Name</strong></td> 

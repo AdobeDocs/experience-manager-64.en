@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
 discoiquuid: 2daf95b6-bf72-4191-bdb7-e17e76b166f3
-index: y
-internal: n
-snippet: y
 ---
 
 # Automate testing of adaptive forms{#automate-testing-of-adaptive-forms}
@@ -27,7 +24,7 @@ Calvin allows you to automate testing of your adaptive forms in the web browser.
 
 Using Calvin, you can create test cases in CRXDE and run UI tests directly in the web browser to thoroughly test your adaptive forms' following aspects:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Adaptive form aspect to test</strong></td> 
@@ -100,7 +97,7 @@ The following example walks you through creation of a test suite for testing mul
 
 1. Specify the following property values in the newly created node (here afTestRegistration) and then click** Save All**. These properties help Hobbes recognize the folder as a test. To reuse this client library as a dependency in other client libraries, name it as granite.testing.calvin.tests. 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Property</td> 
@@ -311,7 +308,7 @@ The steps for testing your AEM adaptive forms are similar to steps for testing y
 
 ## Glossary {#glossary}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Term</strong></td> 

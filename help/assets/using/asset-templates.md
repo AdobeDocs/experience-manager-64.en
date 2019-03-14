@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 340b62f7-2405-4d2d-846d-2c444d6cc77b
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset Templates{#asset-templates}

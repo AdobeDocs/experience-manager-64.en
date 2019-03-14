@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 4e093114-219b-4018-9530-9002eb665448
-index: y
-internal: n
-snippet: y
 ---
 
 # Recovering the AEM forms data{#recovering-the-aem-forms-data}

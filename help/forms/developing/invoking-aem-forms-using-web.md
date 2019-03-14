@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: d5722281-bea9-4fc7-abdc-e678899e0a15
-index: y
-internal: n
-snippet: y
 ---
 
 # Invoking AEM Forms using Web Services{#invoking-aem-forms-using-web-services}
@@ -52,7 +49,7 @@ where:
 
 The following table lists service WSDL definitions (assuming that AEM Forms is deployed on the local host and the post is 8080).
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e9268" valign="top" width="NaN%"><p>Service</p></th> 
@@ -264,7 +261,7 @@ AEM Forms services that return a large amount of binary data use the Document/BL
 
 The following table lists Java data types and shows the corresponding web service data type.
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <thead align="left"> 
   <tr> 
    <th class="cellrowborder" id="d19e9837" valign="top" width="NaN%"><p>Java data type</p></th> 

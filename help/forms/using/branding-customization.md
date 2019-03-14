@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: f6440a36-719a-4f89-b7db-1af918a3469a
-index: y
-internal: n
-snippet: y
 ---
 
 # Branding Customization{#branding-customization}
@@ -129,7 +126,7 @@ The login page of the AEM Forms app has logo and background images. The logo is 
 
 Ensure that you have following images: 
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th class="row-nocellborder" valign="top" width="NaN%"><p>Description</p> </th> 
@@ -184,7 +181,7 @@ After you login to the AEM Forms app and tap the menu button, you can see the lo
 
 Ensure that you have following image:
 
-<table cellpadding="4" cellspacing="0"> 
+<table> 
  <tbody> 
   <tr> 
    <th class="row-nocellborder" valign="top" width="NaN%"><p>Description</p> </th> 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: c081b242-67e4-4820-9bd3-7e4495df459e
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Sling Adapters{#using-sling-adapters}
@@ -77,7 +74,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
 
 [**Resource**](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md) adapts to:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="120"><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html">Node</a></td> 
@@ -224,7 +221,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
 
 [**ResourceResolver**](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/ResourceResolver.md) adapts to:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="120"><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Session.html">Session</a></td> 
@@ -295,7 +292,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 
 [**SlingHttpServletResponse**](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/SlingHttpServletResponse.md) adapts to:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="120"><a href="http://java.sun.com/j2se/1.5.0/docs/api/org/xml/sax/ContentHandler.html">ContentHandler</a><br /> (XML)</td> 
@@ -308,7 +305,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 
 [**Page**](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page.md) adapts to:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="120"><a href="/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md">Resource</a><br /> </td> 
@@ -339,7 +336,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 
 [**Template**](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Template.md) adapts to:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td width="120"><a href="/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md">Resource</a><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html"><br /> </a></td> 

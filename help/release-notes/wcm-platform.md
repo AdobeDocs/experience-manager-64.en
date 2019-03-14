@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Foundation & Repository{#aem-foundation-repository}

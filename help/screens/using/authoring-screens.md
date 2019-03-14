@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 42dcbe38-7036-4e42-8f73-1c4de6eb2c7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Authoring Screens{#authoring-screens}

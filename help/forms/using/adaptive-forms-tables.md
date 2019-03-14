@@ -7,9 +7,6 @@ uuid: 604cd51f-2a47-4410-b414-9cb13fe63713
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: e7d53127-3a0f-4c74-a656-25d9cf969f98
-index: y
-internal: n
-snippet: y
 ---
 
 # Tables in adaptive forms{#tables-in-adaptive-forms}

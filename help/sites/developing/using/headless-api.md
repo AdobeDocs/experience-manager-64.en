@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 2997ce83-8e12-4095-89cb-de2f8a905885
 redirecttarget: /content/help/en/experience-manager/6-4/assets/using/mac-api-assets
-index: y
-internal: n
-snippet: y
 ---
 
 # HTTP API{#http-api}

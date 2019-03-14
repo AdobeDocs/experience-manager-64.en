@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: a8d986ab-2a4c-488b-957e-4606f7391bd3
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating CSS styles for HTML5 forms{#creating-css-styles-for-html-forms}
@@ -69,7 +66,7 @@ Besides the type and name class, the field component also contains an additional
 
 ## CSS classes for different components {#css-classes-for-different-components}
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Component</strong></td> 
@@ -125,7 +122,7 @@ The AEM Forms Designer supports different types of fields in a form like Numeric
 
 Every field has an associated widget representing the UI element. The classes of each field and the widgets associated with each field are listed below.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td style="text-align: center;"><strong>Field Type</strong></td> 

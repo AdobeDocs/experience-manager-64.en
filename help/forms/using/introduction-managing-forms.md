@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 topic-tags: introduction
 discoiquuid: 6f9cb26a-ac7f-4218-827f-9d4d55b859b4
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to managing forms{#introduction-to-managing-forms}
