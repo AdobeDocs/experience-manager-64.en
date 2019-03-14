@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 266634ab-21d3-4aac-acfa-b799a7485507
 ---
 
-# Known Issues{#known-issues}
+# Known Issues {#known-issues}
 
 This page keeps a list of known issues from Adobe Experience Manager 6.4 that was released in April 2018. The list is split into known issues that are resolved via Service Pack or Hotfixs and issues that are still open.
 
@@ -22,29 +22,29 @@ Please [contact support](https://helpx.adobe.com/support/experience-manager.html
 Hybrid Devices are not supported. Various issues can be encountered when using such devices. However, these procedures will solve most of the issues:
 
 If you are using Chrome as browser:  
-- Type chrome://flags/ in the address bar and press Enter.  
-- Click on Enable touch events &gt; Disabled.  
-- Restart the browser (all tabs and windows).  
+* Type chrome://flags/ in the address bar and press Enter.  
+* Click on Enable touch events &gt; Disabled.  
+* Restart the browser (all tabs and windows).  
   
 If you are using Firefox as browser:  
-- Type about:config in the address bar and press Enter.  
-- Filter the settings to dom.w3c.  
-- Make sure that the settings are 0 and false.  
-- Restart Browser.
+* Type about:config in the address bar and press Enter.  
+* Filter the settings to dom.w3c.  
+* Make sure that the settings are 0 and false.  
+* Restart Browser.
 
 If you are using Edge as browser:
 
-- Type about:flags in the address bar and press Enter.  
-- Scroll down to Experimental features then Touch.  
-- Click on option called "Enable touch events".  
-- Select Always Off.  
-- Restart Browser.
+* Type about:flags in the address bar and press Enter.  
+* Scroll down to Experimental features then Touch.  
+* Click on option called "Enable touch events".  
+* Select Always Off.  
+* Restart Browser.
 
 >[!VIDEO](https://vimeo.com/)
 
 ## Platform {#platform}
 
-* **Operations Dashboard: **Progress bar is not shown when backup file is missing .zip extension. (GRANITE-10713)
+* **Operations Dashboard:** Progress bar is not shown when backup file is missing .zip extension. (GRANITE-10713)
 * **HTL:** Java Use object with trailing whitespace in the package declaration freezes the SightlyJavaCompilerService (GRANITE-20836)
 * **Apache Felix/Sling:** Config file still present in the repository even after configuration.delete() (GRANITE-20618)
 * **Cloud Settings:** Console gets broken after editing configuration container (GRANITE-20726)
@@ -55,16 +55,16 @@ If you are using Edge as browser:
 
 * **Tooling - CRX DE Lite:** ctrl+F search on open text files goes stuck on RegExp search (GRANITE-5996)  
 
-* **Tooling - CRX DE Lite: **Node property not displayed after renaming the node (GRANITE-7160)
-* **UI: **Pulldown "more..." doesn't showing all elements when opened at a popover element on IE and Firefox (GRANITE-16326)
+* **Tooling - CRX DE Lite:** Node property not displayed after renaming the node (GRANITE-7160)
+* **UI:** Pulldown "more..." doesn't showing all elements when opened at a popover element on IE and Firefox (GRANITE-16326)
 * **UI:** Info tooltip gets hidden when using fixed columns layout with 2 side-by-side columns (GRANITE-16869)
 * **UI:** Unhandled error when impersonating as a user that does not exist (GRANITE-23228). Workaround by [implementing an error handler](../sites/developing/using/customizing-errorhandler-pages.md) to customize error message.  
 
 * ****Omnisearch: ****Searches with backslash cause exception (GRANITE-11769)
-* **Omnisearch: **Open "View Settings" in list view cause search filter to change (GRANITE-16524)
+* **Omnisearch:** Open "View Settings" in list view cause search filter to change (GRANITE-16524)
 * **Omnisearch:** Wrong list of columnn configs shown when doing Assets search from Sites (GRANITE-16527)  
 
-* **Omnisearch: **Left rail predicates are getting along with the Omnisearch server request (GRANITE-20524)
+* **Omnisearch:** Left rail predicates are getting along with the Omnisearch server request (GRANITE-20524)
 * **Omnisearch:** Omnisearch does not support context paths (GRANITE-16044)
 
 ## Assets {#assets}
@@ -90,11 +90,11 @@ If you are using Edge as browser:
 
 ## Forms {#forms}
 
-**Installation and deployment**
+### Installation and deployment
 
 * (AEM Forms JEE only) When boostrapping JBoss application server while running Configuration Manager returns EJB invocation and bootstrap failure errors. However, you can ignore them. (Ref# CQ-4229793)
 
-**Interactive Communications**
+### Interactive Communications
 
 * The Agent UI takes a while to load Interactive Communications that include chart or image elements. (Ref# CQ-4236630)
 * The data display format in print preview is dd-mm-yyyy while in the web preview is dd-mmm-yy (Ref# CQ-4237045)  
@@ -110,7 +110,7 @@ If you are using Edge as browser:
 
 (Ref# CQ-4239780)
 
-**Data integration**
+### Data integration
 
 * Authentication configurations for SOAP-based web services are not visible and thus cannot be configured in cloud services. To resolve the issue:
 
@@ -123,11 +123,11 @@ selectAuthentication/items/custom.
 
 (Ref# CQ-4238462)
 
-**Adobe Sign integration**
+### Adobe Sign integration
 
-* Adobe Sign scheduler stops working intermittently and therefore forms pending sign do not move to submission. To resolve the issue, restart the **Apache Sling Scheduler Support **bundle from AEM web console at http://[*server*]:[*port*]/system/console/bundles.
+* Adobe Sign scheduler stops working intermittently and therefore forms pending sign do not move to submission. To resolve the issue, restart the **Apache Sling Scheduler Support** bundle from AEM web console at http://[*server*]:[*port*]/system/console/bundles.
 
-**Adaptive Forms authoring**
+### Adaptive Forms authoring
 
 * The Chart component in adaptive forms takes more space than it normally does.
 * An exception is returned when saving properties for adaptive forms, adaptive form fragments, or interactive communications in Forms Manager UI.
