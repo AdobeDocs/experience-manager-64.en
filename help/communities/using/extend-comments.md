@@ -21,7 +21,7 @@ The path to the component is unique and references the default component as a su
 >
 >Extending an [overlaid](../../communities/using/client-customize.md#overlays) component is not supported.
 
-### Example {#example}
+## Example {#example}
 
 Suppose the header for the comment component must display with an alternate appearance on one site of the AEM instance, while appearing with the default display on another site. Instead of overlaying the default comment, which changes the comment component for all instances, a better solution is to ensure there are multiple comment components available for use on various sites.
 

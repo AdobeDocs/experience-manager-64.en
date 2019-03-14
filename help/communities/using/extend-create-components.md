@@ -29,7 +29,7 @@ Both components needs to be put in place, especially if customizing the appearan
 >
 >Many Communities features already include a comment system whose resourceType can be modified to reference the extended comment system.
 
-### Create the Comments Component {#create-the-comments-component}
+## Create the Comments Component {#create-the-comments-component}
 
 These directions specify a **Group **value other than *.hidden* so the component may be made available from the component browser (sidekick).
 
@@ -144,7 +144,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 * select `/apps/custom` node
 * select **Save All**
 
-### Create a Client Library Folder {#create-a-client-library-folder}
+## Create a Client Library Folder {#create-a-client-library-folder}
 
 To avoid having to explicitly include this client library, the categories value for the default comment system's clientlib could be used ( `cq.social.author.hbs.comments`), but then this clientlib would be included for all instances of the default component as well.
 
@@ -177,13 +177,13 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
 ![](assets/chlimage_1-73.png) 
 
-### Register the SCF Model & View {#register-the-scf-model-view}
+## Register the SCF Model & View {#register-the-scf-model-view}
 
 When extending (overriding) an SCF component, the resourceType is different (overlaying makes use of the relative search mechanism that searches through `/apps` before `/libs` so that the resourceType remains the same). This is why it is necessary to write JavaScript (in the client library) to register the SCF JS model and view for the custom resourceType.
 
 Enter the following text as the content of `customcommentsystem.js` :
 
-#### customcommentsystem.js {#customcommentsystem-js}
+### customcommentsystem.js {#customcommentsystem-js}
 
 ```xml
 (function($CQ, _, Backbone, SCF) {
@@ -203,7 +203,7 @@ Enter the following text as the content of `customcommentsystem.js` :
 
 * select **Save All**
 
-### Publish the App {#publish-the-app}
+## Publish the App {#publish-the-app}
 
 In order to experience the extended component in the publish environment, it is necessary to replicate the custom component.
 

@@ -24,7 +24,7 @@ For a simple demonstration, a visual feature, the avatar shown of the signed-in 
 >
 >To make use of the extension, the instance of the comment system in a website to be affected (/content) must set its resourceType to be the custom comment system.
 
-### Modify the HBS Scripts {#modify-the-hbs-scripts}
+## Modify the HBS Scripts {#modify-the-hbs-scripts}
 
 Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
@@ -50,7 +50,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
 * select **Save All**
 
-### Replicate Custom App {#replicate-custom-app}
+## Replicate Custom App {#replicate-custom-app}
 
 After the application has been modified, it is necessary to re-replicate the custom component.
 
@@ -65,13 +65,13 @@ One way to do so is
     * uncheck `Only Modified`
     * select `Activate`button
 
-### View Modified Comment on Published Sample Page {#view-modified-comment-on-published-sample-page}
+## View Modified Comment on Published Sample Page {#view-modified-comment-on-published-sample-page}
 
 [Continuing the experience](../../communities/using/extend-sample-page.md#publish-sample-page) on the publish instance, still signed in as the same user, it is now possible to refresh the page in the publish environment to view the modification to remove the avatar :
 
 ![](assets/chlimage_1-81.png) 
 
-### Sample Comment Extension Package {#sample-comment-extension-package}
+## Sample Comment Extension Package {#sample-comment-extension-package}
 
 Attached is a package of the custom comments application created in this tutorial.
 

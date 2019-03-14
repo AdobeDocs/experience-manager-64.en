@@ -41,11 +41,11 @@ Depending on the type of fragment, either models or templates are also used:
 
 * Content Fragment Models:
 
-    * Used for defining content fragments that hold structured content.
-    * Content fragment models define the structure of a content fragment when it is created.
-    * A fragment references the model; so changes to the model may/will impact any dependent fragments.  
-    * Models are built-up of data types.  
-    * Functions to add new variations, etc., have to update the fragment accordingly.
+  * Used for defining content fragments that hold structured content.
+  * Content fragment models define the structure of a content fragment when it is created.
+  * A fragment references the model; so changes to the model may/will impact any dependent fragments.  
+  * Models are built-up of data types.  
+  * Functions to add new variations, etc., have to update the fragment accordingly.
 
   >[!CAUTION]
   >
@@ -53,12 +53,12 @@ Depending on the type of fragment, either models or templates are also used:
 
 * Content Fragment Templates:
 
-    * Used for defining simple content fragments.
-    * Templates define the (basic, text-only) structure of a content fragment when it is created.
-    * The template is copied to the fragment when it is created; so further changes to the template will not be reflected in existing fragments.
-    * Functions to add new variations, etc., have to update the fragment accordingly.
-    * [Content fragment templates](../../../sites/developing/using/content-fragment-templates.md) operate in a different manner to that of other templating mechanisms within the AEM ecosystem (e.g. page templates, etc.). Therefore they should be considered separately.
-    * When based on a template the MIME type of the content is managed on the actual content; this means that each element and variation can have a different MIME type.
+  * Used for defining simple content fragments.
+  * Templates define the (basic, text-only) structure of a content fragment when it is created.
+  * The template is copied to the fragment when it is created; so further changes to the template will not be reflected in existing fragments.
+  * Functions to add new variations, etc., have to update the fragment accordingly.
+  * [Content fragment templates](../../../sites/developing/using/content-fragment-templates.md) operate in a different manner to that of other templating mechanisms within the AEM ecosystem (e.g. page templates, etc.). Therefore they should be considered separately.
+  * When based on a template the MIME type of the content is managed on the actual content; this means that each element and variation can have a different MIME type.
 
 ## Integration with Assets {#integration-with-assets}
 
@@ -76,14 +76,14 @@ Content fragments with structured content (i.e. based on a content fragment mode
 
 * All content is stored under the `jcr:content/data` node of the asset:
 
-    * The element data is stored under the master sub-node:  
-      `jcr:content/data/master`
-    
-    * Variations are stored under a sub-node that carries the name of the variation:  
-      e.g. `jcr:content/data/myvariation`
-    
-    * The data of each element is stored in the respective sub-node as a property with the element name:  
-      e.g. the content of element `text` is stored as property `text` on `jcr:content/data/master`
+  * The element data is stored under the master sub-node:  
+    `jcr:content/data/master`
+
+  * Variations are stored under a sub-node that carries the name of the variation:  
+    e.g. `jcr:content/data/myvariation`
+
+  * The data of each element is stored in the respective sub-node as a property with the element name:  
+    e.g. the content of element `text` is stored as property `text` on `jcr:content/data/master`
 
 * Metadata and associated content is stored below `jcr:content/metadata`  
   Except for the title and description, which are not considered traditional metadata and stored on `jcr:content`
@@ -97,12 +97,12 @@ Simple content fragments (based on a template) are mapped to a composite consist
 * All non-content information of a fragment (such as title, description, metadata, structure) is managed on the main asset exclusively.
 * The content of the first element of a fragment is mapped to the original rendition of the main asset.
 
-    * The variations (if there are any) of the first element are mapped to other renditions of the main asset.
+  * The variations (if there are any) of the first element are mapped to other renditions of the main asset.
 
 * Additional elements (if existing) are mapped to sub-assets of the main asset.
 
-    * The main content of these additional elements map to the original rendition of the respective sub-asset.
-    * Other variations (if applicable) of any additional elements map to other renditions of the respective sub-asset.
+  * The main content of these additional elements map to the original rendition of the respective sub-asset.
+  * Other variations (if applicable) of any additional elements map to other renditions of the respective sub-asset.
 
 ### Asset Location {#asset-location}
 
@@ -134,10 +134,10 @@ Content fragments can be referenced from AEM pages, just as any other asset type
 * Additionally, a range of paragraphs can be selected to restrict the output; for example, this can be used for multi-column output.
 * The component allows [in-between content](../../../sites/developing/using/components-content-fragments.md#in-between-content):
 
-    * Here the component allows you to place other assets (images, etc.) in between the paragraphs of the referenced fragment.
+  * Here the component allows you to place other assets (images, etc.) in between the paragraphs of the referenced fragment.
     * For in-between content you need to:
 
-        * be aware of the possibility of unstable references; in-between content (added when authoring a page) has no fixed relationship to the paragraph it is positioned next to, inserting a new paragraph (in the content fragment editor) before the position of the in-between content can lose the relative position
+      * be aware of the possibility of unstable references; in-between content (added when authoring a page) has no fixed relationship to the paragraph it is positioned next to, inserting a new paragraph (in the content fragment editor) before the position of the in-between content can lose the relative position
         * consider the additional parameters (such as like variation and paragraph filters) to avoid false positives in search results
 
 >[!NOTE]
@@ -178,14 +178,14 @@ There are still some guidelines you must follow to ensure your component is comp
 
 * If the output of multiple elements is supported (by using `elementNames` to specify multiple elements), the actual display mode is defined by property `displayMode`:
 
-    * If the value is `singleText` (and there is only one element configured) then the element is rendered as a text with in-between content, layout support, etc. This is the default for fragments where only one single element is rendered.
-    * Otherwise, a much more simple approach is used (could be called "form view"), where no in-between content is supported and the fragment content is rendered "as is".
+  * If the value is `singleText` (and there is only one element configured) then the element is rendered as a text with in-between content, layout support, etc. This is the default for fragments where only one single element is rendered.
+  * Otherwise, a much more simple approach is used (could be called "form view"), where no in-between content is supported and the fragment content is rendered "as is".
 
 * If the fragment is rendered for `displayMode` == `singleText` (implicitly or explicitly) the following additional properties come into play:
 
-    * `paragraphScope` defines whether all paragraphs, or only a range of paragraphs, should be rendered (values: `all` vs. `range`)
+  * `paragraphScope` defines whether all paragraphs, or only a range of paragraphs, should be rendered (values: `all` vs. `range`)
     
-    * if `paragraphScope` == `range` then the property `paragraphRange` defines the range of paragraphs to be rendered
+  * if `paragraphScope` == `range` then the property `paragraphRange` defines the range of paragraphs to be rendered
 
 ### Integration with other Frameworks {#integration-with-other-frameworks}
 
@@ -195,14 +195,13 @@ Content fragments can be integrated with:
 
   Content Fragments are fully integrated with the [AEM translation workflow](../../../sites/administering/using/tc-manage.md). On an architectural level, this means:
 
-    * The individual translations of a content fragment are actually separate fragments; for example:
+  * The individual translations of a content fragment are actually separate fragments; for example:
 
-        * they are located under different language roots:  
+    * they are located under different language roots:  
           `/content/dam/<*path*/en/<*to*>/<*fragment*>`  
           vs.  
           `/content/dam/<*path*>/de/<*to*>/<*fragment*>`
-        
-        * but they share exactly the same relative path below the language root:  
+      * but they share exactly the same relative path below the language root:  
           `/content/dam/<*path*>/en/<*to*>/<*fragment*>`  
           vs.  
           `/content/dam/<*path*>/de/<*to*>/<*fragment*>`
@@ -213,21 +212,17 @@ Content fragments can be integrated with:
   >
   >The AEM translation workflow works with `/content`:
   >
-  >    
-  >    
-  >    * As the content fragment models reside in `/conf`, these are not included in such translations. You can [internationalize the UI strings](../../../sites/developing/using/i18n-dev.md).  
-  >    
-  >    * Templates are copied to create the fragment so this is implicit.  
+  >  * As the content fragment models reside in `/conf`, these are not included in such translations. You can [internationalize the UI strings](../../../sites/developing/using/i18n-dev.md).  
+  >  * Templates are copied to create the fragment so this is implicit.  
   >    
   >
 
 * **Metadata schemas**
 
-    * Content fragments (re)use the [metadata schemas](../../../assets/using/metadata-schemas.md), that can be defined with standard assets.
+  * Content fragments (re)use the [metadata schemas](../../../assets/using/metadata-schemas.md), that can be defined with standard assets.
     * CFM provides its own, specific schema:  
       `/libs/dam/content/schemaeditors/forms/contentfragment`  
       this can be extended if required.
-    
     * The respective schema form is integrated with the fragment editor.
 
 ## The Content Fragment Management API - Server-Side {#the-content-fragment-management-api-server-side}

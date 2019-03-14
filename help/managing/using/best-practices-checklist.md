@@ -17,13 +17,13 @@ The Project Checklists are intended as a set of best practices for project deliv
 
 There are checklists for each persona (role) involved in your project. These detail the deliverables, broken down by phase and milestone. They also show the documents required for generating the deliverables. By tracking the status and quality of your documents you can monitor the status of the project as a whole, providing transparency and accountability.
 
-### Download {#download}
+## Download {#download}
 
 AEM Project Best Practices Checklist v2
 
 [Get File](assets/aem_project_bp_checklistv2.xlsx)
 
-### Worksheets {#worksheets}
+## Worksheets {#worksheets}
 
 The spreadsheet provides you with the following worksheets:
 
@@ -42,7 +42,7 @@ The spreadsheet provides you with the following worksheets:
 
 * ** [Persona Definitions](../../managing/using/best-practices.md#persona)**
 
-### Using the Checklists {#using-the-checklists}
+## Using the Checklists {#using-the-checklists}
 
 To successfully deliver a high quality project, you need to complete all items in the checklists, preferably in order:
 
