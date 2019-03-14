@@ -19,7 +19,7 @@ As of Communities [feature pack 1](../../communities/using/deploy-communities.md
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-#### Community Groups Member List {#community-groups-member-list}
+### Community Groups Member List {#community-groups-member-list}
 
 <table> 
  <tbody>
@@ -46,7 +46,7 @@ As of Communities [feature pack 1](../../communities/using/deploy-communities.md
  </tbody>
 </table>
 
-#### Community Groups {#community-groups}
+### Community Groups {#community-groups}
 
 <table> 
  <tbody>

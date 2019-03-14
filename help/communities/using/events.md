@@ -132,7 +132,7 @@ The custom event would override the method `getVerb()` so that an appropriate `v
 >
 >Ensure a custom extension is registered with a ranking lower than any existing implementation in the product.
 
-#### Pseudo-Code for Custom Component Event {#pseudo-code-for-custom-component-event}
+### Pseudo-Code for Custom Component Event {#pseudo-code-for-custom-component-event}
 
 [org.osgi.service.event.Event](https://osgi.org/javadoc/r4v41/org/osgi/service/event/Event.html);  
 [com.adobe.cq.social.scf.core.SocialEvent](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent.md);  
@@ -239,7 +239,7 @@ It is possible to listen to events for the purpose of modifying what appears in 
 
 The following pseudo-code sample will remove DELETE events for Comments component from the activity stream.
 
-#### Pseudo-code for EventListener {#pseudo-code-for-eventlistener}
+### Pseudo-code for EventListener {#pseudo-code-for-eventlistener}
 
 Requires [latest feature pack](../../communities/using/deploy-communities.md#latestfeaturepack).
 

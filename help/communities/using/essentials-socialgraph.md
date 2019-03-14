@@ -21,7 +21,7 @@ The `following`component lists the members that are either following the current
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-#### Following {#following}
+### Following {#following}
 
 <table> 
  <tbody>
@@ -65,7 +65,7 @@ The `following`component lists the members that are either following the current
  </tbody>
 </table>
 
-#### Follow {#follow}
+### Follow {#follow}
 
 |  **resourceType** |social/socialgraph/components/hbs/following |
 |---|---|

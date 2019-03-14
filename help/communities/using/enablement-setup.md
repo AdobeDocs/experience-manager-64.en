@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: f2ac3d66-cc79-498f-83fb-dd96feb88de2
 ---
 
-# Initial Setup for Enablement{#initial-setup-for-enablement}
+# Initial Setup for Enablement {#initial-setup-for-enablement}
 
 |   |** [Author a New Community Site for Enablement ⇒](../../communities/using/enablement-create-site.md)** |
 |---|---|
@@ -118,7 +118,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 >
 >Instead, later, they'll be [assigned to the members group](../../communities/using/enablement-create-site.md#assignuserstocommunityenablemembersgroup).
 
-#### Riley Taylor - Enrollee {#riley-taylor-enrollee}
+### Riley Taylor - Enrollee {#riley-taylor-enrollee}
 
 [Create a member](../../communities/using/members.md#create-new-member) who will be added to a group of Learners - the Community Ski Class group.
 
@@ -129,7 +129,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 * **First Name** : Riley
 * **Last Name **: Taylor
 
-#### Sidney Croft - Enrollee {#sidney-croft-enrollee}
+### Sidney Croft - Enrollee {#sidney-croft-enrollee}
 
 [Create a second member](../../communities/using/members.md#create-new-member) who will be added to the Community Ski Class group.
 
@@ -140,7 +140,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 * **First Name** : Sidney
 * **Last Name **: Croft
 
-#### Quinn Harper - Enablement Resource Contact and Moderator {#quinn-harper-enablement-resource-contact-and-moderator}
+### Quinn Harper - Enablement Resource Contact and Moderator {#quinn-harper-enablement-resource-contact-and-moderator}
 
 [Create a member](../../communities/using/members.md#create-new-member) who will be added to the Community Site's member group once the site has been created. This membership will allow the member to be assigned as the enablement [Resource Contact](../../communities/using/resources.md#settings) when an enablement resource is created for the site.
 
@@ -151,7 +151,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 * **First Name** : Quinn
 * **Last Name **: Harper
 
-#### Add a User Group - Community Ski Class {#add-a-user-group-community-ski-class}
+### Add a User Group - Community Ski Class {#add-a-user-group-community-ski-class}
 
 [Add a new group](../../communities/using/members.md#create-new-group) named Community Ski Class.
 
@@ -165,7 +165,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 
 * select **Save**
 
-#### Community Ski Class properties {#community-ski-class-properties}
+### Community Ski Class properties {#community-ski-class-properties}
 
 ![](assets/chlimage_1-418.png)
 
@@ -177,7 +177,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 
 Members of the Community Administrators group are able to create community sites, manage sites, manage members (they can ban members from the community), and moderate content.
 
-#### Create User {#create-user}
+### Create User {#create-user}
 
 Create a user on *author*, who is assigned the role of Community Administrator :
 
@@ -201,7 +201,7 @@ Create a user on *author*, who is assigned the role of Community Administrator :
     * **First Name** : Sirius
     * **Last Name&#42;** : Nilson
 
-#### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
+### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
 
 Scroll down to `Add User to Groups` :
 
