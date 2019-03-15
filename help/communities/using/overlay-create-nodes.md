@@ -36,46 +36,46 @@ Some nodes in the path are folders and some are components.
     * select `/apps` node
     * **Create &gt; Folder ...**
 
-        * enter Name : `social`
+        * enter Name: `social`
 
 1. `select social`node
 
     * **Create &gt; Folder...**
 
-        * enter Name : `commons`
+        * enter Name: `commons`
 
 1. select `commons`node
 
     * **Create &gt; Folder...**
 
-        * enter Name : `components`
+        * enter Name: `components`
 
 1. select `components` node
 
     * **Create &gt; Folder..**.
 
-        * enter Name : `hbs`
+        * enter Name: `hbs`
 
 1. select `hbs`node
 
     * **Create &gt; Create Component...**
 
-        * enter Label : `comments`
-        * enter Title : `Comments`
-        * enter Description : `List of comments without showing avatars`
-        * Super Type : `social/commons/components/comments`
-        * enter Group : `Communities`
+        * enter Label: `comments`
+        * enter Title: `Comments`
+        * enter Description: `List of comments without showing avatars`
+        * Super Type: `social/commons/components/comments`
+        * enter Group: `Communities`
         * click **Next** until **OK**
 
 1. select `comments`node
 
     * **Create &gt; Create Component...**
 
-        * enter Label : `comment`
-        * enter Title : `Comment`
-        * enter Description : `A comment instance without avatars`
-        * Super Type : `social/commons/components/comments/comment`
-        * enter Group : `.hidden`
+        * enter Label: `comment`
+        * enter Title: `Comment`
+        * enter Description: `A comment instance without avatars`
+        * Super Type: `social/commons/components/comments/comment`
+        * enter Group: `.hidden`
         * click **Next** until **OK**
 
 * select **Save All**

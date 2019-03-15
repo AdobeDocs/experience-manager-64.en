@@ -31,7 +31,7 @@ This OSGi configuration
 * identifies who the member will be able to message when the limit has been reached
 * identifies domains that need never be constrained
 
-To reach this OSGi configuration :
+To reach this OSGi configuration:
 
 * on the primary publisher
 * sign in with administrator privileges

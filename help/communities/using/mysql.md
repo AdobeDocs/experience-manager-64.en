@@ -38,21 +38,21 @@ MySQL should be downloaded and installed following the instructions for the targ
 
 As SQL is case insensitive, for case sensitive operating systems, it is necessary to include a setting to lower case all table names.
 
-For example, to specify all lower case table names on a Linux OS :
+For example, to specify all lower case table names on a Linux OS:
 
 * edit file `/etc/my.cnf`
-* in the `[mysqld]` section, add the following line :  
+* in the `[mysqld]` section, add the following line:  
   `lower_case_table_names = 1`
 
 ### UTF8 character set {#utf-character-set}
 
 To provide better multilingual support, it is necessary to use the UTF8 character set.
 
-Change MySQL to have UTF8 as its character set :
+Change MySQL to have UTF8 as its character set:
 
 * mysql&gt; SET NAMES 'utf8';
 
-Change the MySQL database to default to UTF8 :
+Change the MySQL database to default to UTF8:
 
 * edit file `/etc/my.cnf`
 * in the `[client]` section, add the following line:  
@@ -69,7 +69,7 @@ MySQL Workbench should be downloaded and installed following the instructions fo
 
 ## Enablement Connection {#enablement-connection}
 
-When the MySQL Workbench is first launched, unless already in use for other purposes, it will not yet show any connections :
+When the MySQL Workbench is first launched, unless already in use for other purposes, it will not yet show any connections:
 
 ![](assets/chlimage_1-327.png) 
 
@@ -77,7 +77,7 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 
 1. select the '+' icon to the right of `MySQL Connections`.
 1. in the dialog `Setup New Connection`, enter values appropriate for your platform  
-   for demonstration purposes, with the author AEM instance and MySQL on the same server :
+   for demonstration purposes, with the author AEM instance and MySQL on the same server:
 
     * Connection Name: `Enablement`
     * Connection Method: `Standard (TCP/IP)`
@@ -109,7 +109,7 @@ Upon opening the new Enablement connection, notice there is a test schema and de
 
 ### Obtain SQL Scripts {#obtain-sql-scripts}
 
-The SQL scripts are obtained using CRXDE Lite on the author instance. The [SCORM package](../../communities/using/deploy-communities.md#scorm) must be installed :
+The SQL scripts are obtained using CRXDE Lite on the author instance. The [SCORM package](../../communities/using/deploy-communities.md#scorm) must be installed:
 
 1. browse to CRXDE Lite
 
@@ -130,13 +130,13 @@ The SQL scripts are obtained using CRXDE Lite on the author instance. The [SCORM
 
 ### Create SCORM Database {#create-scorm-database}
 
-The Enablement SCORM Database to be created is :
+The Enablement SCORM Database to be created is:
 
-* name : `ScormEngineDB`
-* created from scripts :
+* name: `ScormEngineDB`
+* created from scripts:
 
-    * schema : `database_scormengine.sql`
-    * data : `database_scorm_integration.sql`
+    * schema: `database_scormengine.sql`
+    * data: `database_scorm_integration.sql`
 
 Follow the steps below ([open](#step-open-sql-file), [execute](#step-execute-sql-script)) to install each [SQL script](#obtain-sql-scripts) . [Refresh](#refresh) when necessary to see the results of the script execution.
 
@@ -150,20 +150,20 @@ Be sure to install the schema before installing the data.
 >* [SCORM config](#configure-scorm)
 >
 
-#### Step 1 : open SQL file {#step-open-sql-file}
+#### Step 1: open SQL file {#step-open-sql-file}
 
 In the MySQL Workbench
 
 * from the File pulldown menu
 * select `Open SQL Script ...` 
-* in this order, select one of :
+* in this order, select one of:
 
     1. `database_scormengine.sql`
     1. `database_scorm_integration.sql`
 
 ![](assets/chlimage_1-332.png) 
 
-#### Step 2 : execute SQL Script {#step-execute-sql-script}
+#### Step 2: execute SQL Script {#step-execute-sql-script}
 
 In the Workbench window for the file opened in Step 1, select the `lightening (flash) icon` to execute the script.
 
@@ -173,11 +173,11 @@ Note that the execution of the `database_scormengine.sql` script to create the S
 
 #### Refresh {#refresh}
 
-Once the scripts are executed, it is necessary to refresh the `SCHEMAS`section of the `Navigator` in order to see the new database. Use the refresh icon to the right of 'SCHEMAS' :
+Once the scripts are executed, it is necessary to refresh the `SCHEMAS`section of the `Navigator` in order to see the new database. Use the refresh icon to the right of 'SCHEMAS':
 
 ![](assets/chlimage_1-334.png) 
 
-####  Result : scormenginedb {#result-scormenginedb}
+#### Result: scormenginedb {#result-scormenginedb}
 
 After installing and refreshing SCHEMAS, the **`scormenginedb`**will be visible.
 
@@ -202,21 +202,21 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 ![](assets/chlimage_1-336.png)
 
-* enter the following values :
+* enter the following values:
 
-    * **JDBC driver class** : com.mysql.jdbc.Driver
-    * **JDBC connection URI** : jdbc:mysql://localhost:3306/aem63reporting  
+    * **JDBC driver class**: com.mysql.jdbc.Driver
+    * **JDBC connection URI**: jdbc:mysql://localhost:3306/aem63reporting  
       specify server in place of localhost if MySQL server is not the same as 'this' AEM server  
     
     * **Username **: root  
       or enter the configured Username for the MySQL server, if not 'root'
     
-    * **Password** :   
+    * **Password**:   
       clear this field if no password set for MySQL,  
       else enter the configured password for the MySQL Username
     
     * **...**
-    * **Datasource name** : name entered for the [MySQL connection](#new-connection-settings), for example, 'enablement'
+    * **Datasource name**: name entered for the [MySQL connection](#new-connection-settings), for example, 'enablement'
 
 * select **Save**
 
@@ -243,21 +243,21 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 ![](assets/chlimage_1-337.png)
 
-* verify the following parameter values are consistent with the [JDBC Connection](#configurejdbcconnectionspool) config :
+* verify the following parameter values are consistent with the [JDBC Connection](#configurejdbcconnectionspool) config:
 
-    * **JDBC connection URI** : jdbc:mysql://localhost:3306/ScormEngineDB  
+    * **JDBC connection URI**: jdbc:mysql://localhost:3306/ScormEngineDB  
       *ScormEngineDB* is the default database name in the SQL scripts
     
     * **Username **: root  
       or enter the configured Username for the MySQL server, if not 'root'
     
-    * **Password** :   
+    * **Password**:   
       clear this field if no password set for MySQL,  
       else enter the configured password for the MySQL Username
 
-* regarding the following parameter :
+* regarding the following parameter:
 
-    * **Scorm User Password** : DO NOT EDIT  
+    * **Scorm User Password**: DO NOT EDIT  
       For internal use only. It is for a special service user used by AEM Communities to communicate with the scorm engine.
 
 * select **Save**

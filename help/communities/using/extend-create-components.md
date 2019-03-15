@@ -37,7 +37,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 
 1. Browse to **CRXDE|Lite** ([http://localhost:4502/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp))
 
-1. create a location for custom applications :
+1. create a location for custom applications:
 
     * select the **/apps** node
 
@@ -51,22 +51,22 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 
     * **Create &gt; Component...**
 
-        * **Label** : *comments*
+        * **Label**: *comments*
         
-        * **Title** : *Alt Comments*
+        * **Title**: *Alt Comments*
         
-        * **Description** : *Alternative comments style*
+        * **Description**: *Alternative comments style*
         
-        * **Super Type** : *social/commons/components/hbs/comments*
+        * **Super Type**: *social/commons/components/hbs/comments*
         
-        * **Group** : *Custom*
+        * **Group**: *Custom*
 
     * Select **Next**
     * Select **Next**
     * Select **Next**
     * Select **OK**
 
-1. Expand the node just created : **/apps/custom/components/comments**
+1. Expand the node just created: **/apps/custom/components/comments**
 1. Select **Save All**
 1. Right-click **comments.jsp**
 1. Select **Delete**
@@ -85,22 +85,22 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 
     * Select **Create &gt; Component...**
 
-        * **Label** : *comment*
+        * **Label**: *comment*
         
-        * **Title** : *Alt Comment*
+        * **Title**: *Alt Comment*
         
-        * **Description** : *Alternative comment style*
+        * **Description**: *Alternative comment style*
         
-        * **Super Type** : *social/commons/components/hbs/comments/comment*
+        * **Super Type**: *social/commons/components/hbs/comments/comment*
         
-        * **Group** : *.hidden*
+        * **Group**: *.hidden*
 
     * Select **Next**
     * Select **Next**
     * Select **Next**
     * Select **OK**
 
-1. Expand the node just created : **/apps/custom/components/comments/comment**
+1. Expand the node just created: **/apps/custom/components/comments/comment**
 1. Select **Save All**
 1. Right-click **comment.jsp**
 1. Select **Delete**
@@ -110,21 +110,21 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 
 ### Copy and Modify the Default HBS Scripts {#copy-and-modify-the-default-hbs-scripts}
 
-Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
+Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 * copy **comments.hbs**
 
     * from [/libs/social/commons/components/hbs/comments](http://localhost:4502/crx/de/index.jsp#/libs/social/commons/components/hbs/comments)
     * to [/apps/custom/components/comments](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments)
 
-* edit **comments.hbs** to :
+* edit **comments.hbs** to:
 
-    * change the value of the `data-scf-component` attribute (~line 20) :
+    * change the value of the `data-scf-component` attribute (~line 20):
 
         * from `social/commons/components/hbs/comments`
         * to `/apps/custom/components/comments`
 
-    * modify to include the custom comment component (~line 75) :
+    * modify to include the custom comment component (~line 75):
 
         * replace ` `{{include this resourceType='social/commons/components/hbs/comments/comment'}}``
         * with ` `{{include this resourceType='/apps/custom/components/comments/comment'}}``
@@ -134,7 +134,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
     * from [/libs/social/commons/components/hbs/comments/comment](http://localhost:4502/crx/de/index.jsp#/libs/social/commons/components/hbs/comments/comment)
     * to [/apps/custom/components/comments/comment](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comment)
 
-* edit **comment.hbs** to :
+* edit **comment.hbs** to:
 
     * change the value of the data-scf-component attribute (~ line 19)
 
@@ -148,7 +148,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
 To avoid having to explicitly include this client library, the categories value for the default comment system's clientlib could be used ( `cq.social.author.hbs.comments`), but then this clientlib would be included for all instances of the default component as well.
 
-Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
+Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 * select `/apps/custom/components/comments` node
 * select **Create Node**
@@ -157,14 +157,14 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
     
     * **Type **: `cq:ClientLibraryFolder`
     
-    * add to **Properties **tab :
+    * add to **Properties **tab:
 
         * **Name** `categories` **Type** `String` **Value** `cq.social.author.hbs.comments` `Multi`
         
         * **Name** `dependencies` **Type** `String` **Value** `cq.social.scf` `Multi`
 
 * select **Save All**
-* with `/apps/custom/components/comments/clientlib`s node selected, create 3 files :
+* with `/apps/custom/components/comments/clientlib`s node selected, create 3 files:
 
     * **Name**: `css.txt`
     
@@ -181,7 +181,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
 When extending (overriding) an SCF component, the resourceType is different (overlaying makes use of the relative search mechanism that searches through `/apps` before `/libs` so that the resourceType remains the same). This is why it is necessary to write JavaScript (in the client library) to register the SCF JS model and view for the custom resourceType.
 
-Enter the following text as the content of `customcommentsystem.js` :
+Enter the following text as the content of `customcommentsystem.js`:
 
 ### customcommentsystem.js {#customcommentsystem-js}
 

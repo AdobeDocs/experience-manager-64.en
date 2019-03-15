@@ -63,7 +63,7 @@ A handle to the OSGi service is obtained by invoking `com.adobe.cq.social.scf.So
 
 The HTTP API POST endpoints are PostOperation classes defined by implementing the `SlingPostOperation`interface (package `org.apache.sling.servlets.post`).
 
-The `PostOperation`endpont implementation sets `sling.post.operation`to a value to which the operation will respond. All POST requests with an :operation parameter set to that value will be delegated to this implementation class.
+The `PostOperation`endpont implementation sets `sling.post.operation`to a value to which the operation will respond. All POST requests with an:operation parameter set to that value will be delegated to this implementation class.
 
 The `PostOperation`invokes the `SocialOperation`which performs the actions necessary for the operation.
 

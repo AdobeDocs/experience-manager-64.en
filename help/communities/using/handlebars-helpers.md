@@ -21,7 +21,7 @@ Handlebars Helpers (helpers) are methods callable from Handlebars scripts to fac
 
 The implementation includes a client-side and a server-side definition. It is also possible for developers to create custom helpers.
 
-The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](../../sites/developing/using/clientlibs.md) :
+The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](../../sites/developing/using/clientlibs.md):
 
 * /etc/clientlibs/social/commons/scf/helpers.js
 
@@ -39,21 +39,21 @@ First, the context is trimmed to maxLength, and then the context is sliced into 
 
 If safeString is set to true, then the returned string is a SafeString.
 
-#### parameters {#parameters}
+### parameters {#parameters}
 
-* **context** : String  
+* **context**: String  
   (optional) Default is the empty string
 
-* **maxLength** : number  
+* **maxLength**: number  
   (optional) Default is the length of the context.
 
-* **maxWords** : number  
+* **maxWords**: number  
   (optional) Default is the number of words in the trimmed string.
 
-* **safeString** : boolean  
+* **safeString**: boolean  
   (optional) Returns a Handlebars.SafeString() if true. Default is false.
 
-#### examples {#examples}
+### examples {#examples}
 
 ```
 {{abbreviate subject maxWords=2}}
@@ -83,24 +83,24 @@ Then abbreviate would return
 
 A helper to add two spans under a div, one for the full text and the other for the less text, with the ability to toggle between the two views.
 
-#### parameters {#parameters-1}
+### parameters {#parameters-1}
 
-* **context** : String  
+* **context**: String  
   (optional) Default is the empty string.  
 
-* **numChars** : number  
+* **numChars**: number  
   (optional) The number of characters to display when not displaying full text. Default is 100.
 
-* **moreText** : String  
+* **moreText**: String  
   (optional) The text to display indicating there is more text to display. Default is "more".
 
-* **ellipsesText** : String  
+* **ellipsesText**: String  
   (optional) The text to display indicating there is hidden text. Default is "...".
 
-* **safeString** : boolean  
+* **safeString**: boolean  
   (optional) Boolean value indicating whether or not to apply Handlebars.SafeString() before returning the result. Default is false.
 
-#### example {#example}
+### example {#example}
 
 ```
 {{content-loadmore  context numChars=32  moreText="go on"  ellipsesText="..." }}
@@ -118,15 +118,15 @@ Then content-loadmore would return
 
 A helper to return a formatted date string.
 
-#### parameters {#parameters-2}
+### parameters {#parameters-2}
 
-* **context** : number  
+* **context**: number  
   (optional) a millisecond value offset from January 1, 1970 (epoch). Default is the current date.
 
-* **format** : String  
+* **format**: String  
   (optional) The date format to apply. Default is "YYYY-MM-DDTHH:mm:ss.sssZ" and the result appears as "2015-03-18T18:17:13-07:00"
 
-#### examples {#examples-1}
+### examples {#examples-1}
 
 ```
 {{dateUtil this.memberSince format="dd MMM yyyy, hh:mm"}}
@@ -144,15 +144,15 @@ A helper to return a formatted date string.
 
 A helper to return content depending on an equality conditional.
 
-#### parameters {#parameters-3}
+### parameters {#parameters-3}
 
-* **lvalue** : String  
+* **lvalue**: String  
   The left-hand value to compare
 
-* **rvalue** : String  
+* **rvalue**: String  
   The right-hand value to compare
 
-#### example {#example-1}
+### example {#example-1}
 
 ```
 {{#equals  value "some-value"}}
@@ -167,15 +167,15 @@ A helper to return content depending on an equality conditional.
 
 A block helper that tests the current value of [WCM mode](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) against a string separated list of modes.
 
-#### parameters {#parameters-4}
+### parameters {#parameters-4}
 
-* **context** : String  
+* **context**: String  
   (optional) The string to translate. Required if no default provided.
 
-* **mode** : String  
+* **mode**: String  
   (optional) A comma separated list of [WCM modes](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) to test if set.
 
-#### example {#example-2}
+### example {#example-2}
 
 ```xml
 {{#if-wcm-mode mode="DESIGN, EDIT"}}
@@ -191,18 +191,18 @@ This helper overrides the Handlebars helper 'i18n'.
 
 See also [Internationalizing Strings in JavaScript Code](../../sites/developing/using/i18n-dev.md#internationalizing-strings-in-javascript-code).
 
-#### parameters {#parameters-5}
+### parameters {#parameters-5}
 
-* **context** : String  
+* **context**: String  
   (optional) The string to translate. Required if no default provided.
 
-* **default** : String  
+* **default**: String  
   (optional) The default string to translate. Required if no context provided.
 
-* **comment** : String  
+* **comment**: String  
   (optional) A translation hint
 
-#### example {#example-3}
+### example {#example-3}
 
 ```
 {{i18n "hello"}}
@@ -220,26 +220,26 @@ Only a select few of Communities components are includable. For AEM 6.1, those t
 
 This helper, appropriate only on the server-side, provides functionality similar to [cq:include](../../sites/developing/using/taglib.md) for JSP scripts.
 
-#### parameters {#parameters-6}
+### parameters {#parameters-6}
 
-* **context** : String or object  
+* **context**: String or object  
   (optional, unless providing a relative path)  
   use `this`to pass the current context  
   use `this.id` to obtain the resource at `id` for rendering the resourceType requested
 
-* **resourceType** : String  
+* **resourceType**: String  
   (optional) resource type will default to resource type from context
 
-* **template** : String  
+* **template**: String  
   path to component script
 
-* **path** : String  
+* **path**: String  
   (required) The path to the resource. If path is relative, a context must be provided, else the empty string is returned.
 
-* **authoringDisabled** : boolean  
+* **authoringDisabled**: boolean  
   (optional) Default is false. For internal use only.
 
-#### example {#example-4}
+### example {#example-4}
 
 ```
 {{include this.id path="comments" resourceType="social/commons/components/hbs/comments"}}
@@ -253,21 +253,21 @@ A helper that includes an AEM html client library, which can be a js, a css or a
 
 This helper, appropriate only on the server-side, provides functionality similar to [ui:includeClientLib](../../sites/developing/using/taglib.md) for JSP scripts.
 
-#### parameters {#parameters-7}
+### parameters {#parameters-7}
 
-* **categories** : String  
+* **categories**: String  
   (optional) A list of comma-separated client lib categories. This will include all Javascript and CSS libraries for the given categories. The theme name is extracted from the request.
 
-* **theme** : String  
+* **theme**: String  
   (optional) A list of comma-separated client lib categories. This will include all theme related libraries (both CSS and JS) for the given categories. The theme name is extracted from the request.
 
-* **js** : String  
+* **js**: String  
   (optional) A list of comma-separated client lib categories. This will include all Javascript libraries for the given categories.
 
-* **css** : String  
+* **css**: String  
   (optional) A list of comma-separated client lib categories. This will include all CSS libraries for the given categories.
 
-#### examples {#examples-2}
+### examples {#examples-2}
 
 ```
 // all: js + theme (theme-js + css) 
@@ -311,20 +311,20 @@ This helper, appropriate only on the server-side, provides functionality similar
 
 A helper to display how much time has passed up to a cutoff point, after which a regular date format is displayed.
 
-For example :
+For example:
 
 * 12 hours ago
 * 7 days ago
 
-#### parameters {#parameters-8}
+### parameters {#parameters-8}
 
-* **context** : number  
+* **context**: number  
   A time in the past to compare to 'now'. Time is expressed as a millisecond value offset from January 1, 1970 (epoch).
 
-* **daysCutoff** : number  
+* **daysCutoff**: number  
   The number of days ago before switching to an actual date. Default is 60.
 
-#### example {#example-5}
+### example {#example-5}
 
 ```
 {{pretty-time this.published daysCutoff=7}}
@@ -346,12 +346,12 @@ A helper that encodes a source string for HTML element content to help guard aga
 
 NOTE: this is not a validator and is not to be used for writing attribute values.
 
-#### parameters {#parameters-9}
+### parameters {#parameters-9}
 
-* **context** : object  
+* **context**: object  
   the HTML to encode
 
-#### example {#example-6}
+### example {#example-6}
 
 ```
 <p>{{xss-html forum-ugc}}</p>
@@ -363,12 +363,12 @@ A helper that encodes a source string for writing to an HTML attribute value to 
 
 NOTE: this is not a validator and is not to be used for writing actionalable attributes (href, src, event handlers).
 
-#### parameters {#parameters-10}
+### parameters {#parameters-10}
 
-* **context** : object  
+* **context**: object  
   the HTML to encode
 
-#### example {#example-7}
+### example {#example-7}
 
 ```
 <div id={{xss-htmlAttr id}} />
@@ -380,12 +380,12 @@ A helper that encodes a source string for writing to JavaScript string content t
 
 NOTE: this is not a validator and is not to be used for writing to arbitrary JavaScript.
 
-#### parameters {#parameters-11}
+### parameters {#parameters-11}
 
-* **context** : object  
+* **context**: object  
   the HTML to encode
 
-#### example {#example-8}
+### example {#example-8}
 
 ```
 var input = {{xss-jsString topic-title}}
@@ -397,12 +397,12 @@ A helper that sanitizes an URL for writing as an HTML href or srce attribute val
 
 NOTE: this may return an empty string
 
-#### parameters {#parameters-12}
+### parameters {#parameters-12}
 
-* **context** : object  
+* **context**: object  
   the URL to sanitize
 
-#### example {#example-9}
+### example {#example-9}
 
 ```
 <a href="{{xss-validHref url}}">my link</a>
@@ -410,12 +410,12 @@ NOTE: this may return an empty string
 
 ## Handlebars.js Basic Overview {#handlebars-js-basic-overview}
 
-A quick overview of helper functions from [Handlebars.js documentation](http://handlebarsjs.com/expressions.html) :
+A quick overview of helper functions from [Handlebars.js documentation](http://handlebarsjs.com/expressions.html):
 
 * A Handlebars helper call is a simple identifier (the *name *of the helper), followed by zero or more space-separated parameters.
 * Parameters may be a simple String, number, boolean, or JSON object, as well as an optional sequence of key-value pairs (hash arguments) as the last parameter(s).
 * The keys in hash arguments must be simple identifiers.
-* The values in hash arguments are Handlebars expressions : simple identifiers, paths, or Strings.
+* The values in hash arguments are Handlebars expressions: simple identifiers, paths, or Strings.
 * The current context, `this`, is always available to Handlebars helpers.
 * The context may be a String, number, boolean, or a JSON data object.
 * It is possible to pass an object nested within the current context as the context, such as `this.url` or `this.id` (see following examples of simple and block helpers).
@@ -431,7 +431,7 @@ A quick overview of helper functions from [Handlebars.js documentation](http://h
 
 * It is recommended that the HTML String content returned from a helper is a SafeString.
 
-#### An example of a simple helper from Handlebars.js documentation : {#an-example-of-a-simple-helper-from-handlebars-js-documentation}
+### An example of a simple helper from Handlebars.js documentation: {#an-example-of-a-simple-helper-from-handlebars-js-documentation}
 
 ```
 Handlebars.registerHelper('link_to', function(title, options) {
@@ -457,7 +457,7 @@ Would render:
 &lt;li&gt;&lt;a href="/posts/hello-world"&gt;Post!&lt;/a&gt;&lt;/li&gt;  
 &lt;/ul&gt;
 
-#### An example of a block helper from Handlebars.js documentation : {#an-example-of-a-block-helper-from-handlebars-js-documentation}
+### An example of a block helper from Handlebars.js documentation: {#an-example-of-a-block-helper-from-handlebars-js-documentation}
 
 ```
 Handlebars.registerHelper('link', function(options) {
@@ -491,9 +491,9 @@ Custom helpers must be implemented on the server-side as well as the client-side
 
 To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.md), make it an [OSGi Service](../../sites/developing/using/the-basics.md#osgi) and install it as part of an OSGi bundle.
 
-For example :
+For example:
 
-#### FooTextHelper.java {#footexthelper-java}
+### FooTextHelper.java {#footexthelper-java}
 
 ```java
 /** Custom Handlebars Helper */
@@ -539,9 +539,9 @@ public class FooTextHelper implements TemplateHelper<String>{
 ### Client-side Custom Helpers {#client-side-custom-helpers}
 
 The client-side helpers are Handlebars scripts registered by invoking `Handlebars.registerHelper()`.  
-For example :
+For example:
 
-#### custom-helpers.js {#custom-helpers-js}
+### custom-helpers.js {#custom-helpers-js}
 
 ```
 function(Handlebars, SCF, $CQ) {
@@ -558,7 +558,7 @@ function(Handlebars, SCF, $CQ) {
 ```
 
 The custom client-side helpers must be added to a custom client library.  
-The clientlib must :
+The clientlib must:
 
 * include a dependency on `cq.social.scf`
 * load after Handlebars has been loaded

@@ -22,11 +22,11 @@ The Groups console provides access to creating community groups when a community
 
 Of the three group templates included, only the `Reference Group` template includes a groups function in its structure.
 
-Several facets of community groups are :
+Several facets of community groups are:
 
-* creation : new group can be created on author and optionally on publish
-* control : group may be open or secret
-* nesting : a group may contain zero or more groups
+* creation: new group can be created on author and optionally on publish
+* control: group may be open or secret
+* nesting: a group may contain zero or more groups
 
 >[!NOTE]
 >
@@ -40,10 +40,10 @@ Several facets of community groups are :
 
 ## Group Creation {#group-creation}
 
-To access the Groups console :
+To access the Groups console:
 
 * on author, sign in with administrator privileges
-* from global navigation : **Communities, Sites**
+* from global navigation: **Communities, Sites**
 * select an existing community site folder to open it
 * select an instance of a community site within the folder
 
@@ -62,7 +62,7 @@ From this Groups console, it is possible to author new groups.
 
 * select **Create Group** button
 
-### Step 1 : Community Group Template {#step-community-group-template}
+### Step 1: Community Group Template {#step-community-group-template}
 
 ![](assets/multilingualgroup.png)
 
@@ -84,7 +84,7 @@ From this Groups console, it is possible to author new groups.
 
 * **Community Group Template** menu: use the pull down menu to choose an available [community group template](../../communities/using/tools.md).
 
-### Step 2 : Design {#step-design}
+### Step 2: Design {#step-design}
 
 #### COMMUNITY GROUP THEME {#community-group-theme}
 
@@ -106,7 +106,7 @@ Community site branding is an image displayed as a header across the top of each
 
 The image should be sized to be as wide as the expected display of the page in the browser and 120 pixels in height.
 
-When creating or selecting an image, keep in mind :
+When creating or selecting an image, keep in mind:
 
 * the image height will be cropped to 120 pixels measured from the top edge of the image
 * the image is pinned to the left edge of the browser window
@@ -115,7 +115,7 @@ When creating or selecting an image, keep in mind :
     * less than the browser's width, the image will repeat horizontally
     * greater than the browser's width, the image will appear to be cropped
 
-### Step 3 : Settings {#step-settings}
+### Step 3: Settings {#step-settings}
 
 #### MODERATION {#moderation}
 
@@ -123,7 +123,7 @@ When creating or selecting an image, keep in mind :
 
 By default, the parent community site's list of moderators is inherited.
 
-It is possible to add moderators specific to the group :
+It is possible to add moderators specific to the group:
 
 * search for members (from publish environment) to add them as moderators
 
@@ -153,7 +153,7 @@ If no image is added, a default image is displayed.
 
 ![](assets/chlimage_1-139.png)
 
-### Step 4 : Create Group {#step-create-group}
+### Step 4: Create Group {#step-create-group}
 
 ![](assets/chlimage_1-140.png)
 
@@ -177,7 +177,7 @@ The page content of a group may be authored with the same tools as any other AEM
 
 ## Modifying Group Properties {#modifying-group-properties}
 
-The properties of an exisitng sub-community site, specified during the community group creation process, may be modified by selecting the Edit Site icon which appears when hovering over the group card :
+The properties of an exisitng sub-community site, specified during the community group creation process, may be modified by selecting the Edit Site icon which appears when hovering over the group card:
 
 ![](assets/chlimage_1-142.png)
 
@@ -203,7 +203,7 @@ Instead, the [STRUCTURE](#modify-structure) of the sub-community may be modified
 The STRUCTURE panel allows the modification of the structure initially created from the community group template selected when creating the sub-community site from either the author or publish environment. From the panel, it is possible to
 
 * drag-and-drop additional [community functions](../../communities/using/functions.md) into the site structure
-* on an instance of a community function in the site structure :
+* on an instance of a community function in the site structure:
 
     * **`gear icon`** 
       edit settings, including the display title and URL name&#42;  
@@ -233,7 +233,7 @@ The STRUCTURE panel allows the modification of the structure initially created f
 
 ### Modify Design {#modify-design}
 
-The DESIGN panel allows the modification of the theme :
+The DESIGN panel allows the modification of the theme:
 
 * [Community Group Theme](#community-group-theme)
 * [Community Group Branding](#community-group-branding)
@@ -258,7 +258,7 @@ The [THUMBNAIL](#thumbnail) panel allows for an image to be uploaded to represen
 
 After a community group has been newly created or modified, it is possible to publish (activate) the group by selecting the `Publish Site` icon.
 
-Once the group is successfully published, a message will appear :
+Once the group is successfully published, a message will appear:
 
 ![](assets/chlimage_1-146.png)
 

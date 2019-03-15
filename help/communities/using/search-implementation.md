@@ -53,7 +53,7 @@ When creating custom properties that are searchable, it is necessary to adhere t
 
 For [MSRP](../../communities/using/msrp.md), UGC is stored in MongoDB configured to use Solr for searching. UGC will not be visible in CRX, but [moderation](../../communities/using/moderate-ugc.md) is available from both the author and publish environments.
 
-Regarding MSRP and Solr :
+Regarding MSRP and Solr:
 
 * the embedded Solr for the AEM platform is not used for MSRP
 * if using a remote Solr for the AEM platform, it may be shared with MSRP, but they should use different collections
@@ -82,12 +82,12 @@ If custom properties are in use and searches are slow, then additional indices w
 
 To modify existing indices or create custom indices, refer to [Oak Queries and Indexing](../../sites/deploying/using/queries-and-indexing.md).
 
-The [Oak Index Manager](http://adobe-consulting-services.github.io/acs-aem-commons/features/oak-index-manager.html) is available from ACS AEM Commons. It provides :
+The [Oak Index Manager](http://adobe-consulting-services.github.io/acs-aem-commons/features/oak-index-manager.html) is available from ACS AEM Commons. It provides:
 
 * a view of existing indices
 * the ability to initiate re-indexing
 
-To view the existing Oak indices in [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md), the location is :
+To view the existing Oak indices in [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md), the location is:
 
 * /oak:index/socialLucene
 
@@ -97,7 +97,7 @@ To view the existing Oak indices in [CRXDE Lite](../../sites/developing/using/de
 
 ### Default Search Properties {#default-search-properties}
 
-Following are some of the searchable properties used for various Communities features :
+Following are some of the searchable properties used for various Communities features:
 
 | **Property** |**Data Type** |
 |---|---|
@@ -133,7 +133,7 @@ Following are some of the searchable properties used for various Communities fea
 
 When adding custom properties, in order for those properties to be visible to sorts and searches created with the [UGC search API](#ugc-search-api), it is *required *to add a suffix to the property name.
 
-The suffix is for query languages which use a schema :
+The suffix is for query languages which use a schema:
 
 * it identifies the property as searchable
 * it identifies the data type
@@ -153,28 +153,28 @@ Solr is an example of a query language which uses a schema.
 
 * *Text* is a tokenized string, *String *is not. Use *Text* for fuzzy (more like this) searches.
 
-* For multi-valued types, add ‘s’ to the suffix, for example :
+* For multi-valued types, add ‘s’ to the suffix, for example:
 
-    * `viewDate_dt` : single date property
-    * `viewDates_dts` : list of dates property
+    * `viewDate_dt`: single date property
+    * `viewDates_dts`: list of dates property
 
 ## Filters {#filters}
 
 Components which include the [comment system](../../communities/using/essentials-comments.md) support the filter parameter addition to their endpoints.
 
-The filter syntax for AND and OR logic is expressed as follows (shown before being URL encoded) :
+The filter syntax for AND and OR logic is expressed as follows (shown before being URL encoded):
 
-* To specify OR use one filter param with comma separated values :
+* To specify OR use one filter param with comma separated values:
 
     * filter=name eq 'Jennifer',name eq 'Jen'
 
-* To specify AND use multiple filter params :
+* To specify AND use multiple filter params:
 
     * filter = name eq 'Jackson'&filter=message eq 'testing'
 
 The default implementation of the [Search component](../../communities/using/search.md) uses this syntax as can be seen in the URL that opens the Search Results page in the [Community Components guide](../../communities/using/components-guide.md). To experiment, browse to [http://localhost:4503/content/community-components/en/search.html](http://localhost:4503/content/community-components/en/search.html).
 
-Filter operators are :
+Filter operators are:
 
 | EQ |equals |
 |---|---|
@@ -185,19 +185,19 @@ Filter operators are :
 | GTE |greater than or equal to |
 | LIKE |fuzzy match |
 
-It is important that the URL references the Communities component (resource) and not the page on which the component is placed :
+It is important that the URL references the Communities component (resource) and not the page on which the component is placed:
 
-* correct : forum component
+* correct: forum component
 
     * `/content/community-components/en/forum/jcr:content/content/forum.social.json`
 
-* incorrect : forum page
+* incorrect: forum page
 
     * `/content/community-components/en/forum.social.json`
 
 ## SRP Tools {#srp-tools}
 
-There is an Adobe Marketing Cloud GitHub project which contains :
+There is an Adobe Marketing Cloud GitHub project which contains:
 
 [AEM Communities SRP Tools](https://github.com/Adobe-Marketing-Cloud/aem-communities-srp-tools)
 
@@ -205,7 +205,7 @@ This repository contains tools for managing data in SRP.
 
 Currently, there is one servlet that provides the ability to delete all UGC from any SRP.
 
-For example, to delete all UGC in ASRP :
+For example, to delete all UGC in ASRP:
 
 ```shell
 curl -X POST http://localhost:4502/services/social/srp/cleanup?path=/content/usergenerated/asi/cloud -uadmin:admin
@@ -219,7 +219,7 @@ To help troubleshoot problems with a Solr query, enable DEBUG logging for
 
 `com.adobe.cq.social.srp.impl.SocialSolrConnector`.
 
-The actual Solr query will be displayed URL encoded in the debug log :
+The actual Solr query will be displayed URL encoded in the debug log:
 
 Query to solr is: sort=timestamp+desc&bl=en&pl=en&start=0&rows=10 **[!UICONTROL &q=%2Btitle_t:(*hello*)+%2Bprovider_id:\/content/usergenerated/asi/mongo/content/*+%2Bresource_type_s:*]**&df=provider_id&trf=verbatim&fq={!cost%3D100}report_suite:mongo
 

@@ -79,14 +79,14 @@ In general, as of Facebook API v2.7:
 
     * for *Platform*, choose Website
 
-        * for *Site URL* - enter `  http ://<server>:<port>.`
+        * for *Site URL* - enter `  http://<server>:<port>.`
 
     * for *Display Name* - enter a title for use as the Title of the Facebook connect service.
     * for *Category*, recommended choosing *Apps for Pages,* but can be anything.
     
     * *Add  Product:  Facebook Login*
 
-        * for *Valid OAuth redirect URIs* - enter `  http ://<server>:<port>.`
+        * for *Valid OAuth redirect URIs* - enter `  http://<server>:<port>.`
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ If editing is necessary, on each AEM publish instance:
 
 #### Next Steps {#next-steps}
 
-The next steps are the same for both Facebook and Twitter :
+The next steps are the same for both Facebook and Twitter:
 
 * [publish the cloud service configurations](#publishcloudservices)
 * [enable for a community site](#enable-social-login)
@@ -224,7 +224,7 @@ In general:
 
 #### Permissions {#permissions}
 
-In the Twitter application management's permissions section :
+In the Twitter application management's permissions section:
 
 * **Access**: select '  Read only '.
 
@@ -349,7 +349,7 @@ Once a cloud service is configured, it may be enabled for the relevant Social Lo
 
 The `Adobe Granite OAuth Authentication Handler` is not enabled by default and ***must be enabled on all AEM publish instances.***
 
-To enable the authentication handler on publish, simply open the OSGi config and save it :
+To enable the authentication handler on publish, simply open the OSGi config and save it:
 
 * sign in with administrator privileges
 * navigate to the [Web Console](../../sites/deploying/using/configuring-osgi.md)  
@@ -385,7 +385,7 @@ To locate the created instance for a Facebook or Twitter app:
 
    ![](assets/chlimage_1-491.png)
 
-   Except the following properties, leave the other properties of the config  unaltered :
+   Except the following properties, leave the other properties of the config  unaltered:
 
     * **Config ID** 
       (*Required*) OAuth configuration IDs must be unique. Auto-generated when cloud service is created.
@@ -445,13 +445,13 @@ On an author instance, signed in with administrative privileges:
     * **reindex**: true
     * **reindexCount**: 1
 
-1. Under node /oak:index/ntBaseLucene-oauth/indexRules/nt:base/properties :
+1. Under node /oak:index/ntBaseLucene-oauth/indexRules/nt:base/properties:
 
     * Delete all child nodes, except for cqTags.
     * Rename cqTags to oauthid-123**&#42;.**
     * Modify the properties of node oauthid-123**&#42;**:
 
-        * **name** : oauthid-123**&#42;**
+        * **name**: oauthid-123**&#42;**
 
     * Select **Save All.**
 

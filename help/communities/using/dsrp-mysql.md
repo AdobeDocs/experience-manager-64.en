@@ -21,7 +21,7 @@ These instructions describe how to connect to the MySQL server and establish the
 
 * [latest Communities feature pack](../../communities/using/deploy-communities.md#latestfeaturepack)
 * [JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbc-driver-for-mysql)
-* a relational database :
+* a relational database:
 
     * [MySQL server](http://dev.mysql.com/downloads/mysql/) Community Server version 5.6 or later
 
@@ -37,21 +37,21 @@ These instructions describe how to connect to the MySQL server and establish the
 
 As SQL is case insensitive, for case sensitive operating systems, it is necessary to include a setting to lower case all table names.
 
-For example, to specify all lower case table names on a Linux OS :
+For example, to specify all lower case table names on a Linux OS:
 
 * edit file `/etc/my.cnf`
-* in the `[mysqld]` section, add the following line :  
+* in the `[mysqld]` section, add the following line:  
   `lower_case_table_names = 1`
 
 ### UTF8 character set {#utf-character-set}
 
 To provide better multilingual support, it is necessary to use the UTF8 character set.
 
-Change MySQL to have UTF8 as its character set :
+Change MySQL to have UTF8 as its character set:
 
 * mysql&gt; SET NAMES 'utf8';
 
-Change the MySQL database to default to UTF8 :
+Change the MySQL database to default to UTF8:
 
 * edit file `/etc/my.cnf`
 * in the `[client]` section, add the following line:  
@@ -68,7 +68,7 @@ MySQL Workbench should be downloaded and installed following the instructions fo
 
 ## Communities Connection {#communities-connection}
 
-When the MySQL Workbench is first launched, unless already in use for other purposes, it will not yet show any connections :
+When the MySQL Workbench is first launched, unless already in use for other purposes, it will not yet show any connections:
 
 ![](assets/chlimage_1-104.png) 
 
@@ -76,7 +76,7 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 
 1. select the '+' icon to the right of `MySQL Connections`.
 1. in the dialog `Setup New Connection`, enter values appropriate for your platform  
-   for demonstration purposes, with the author AEM instance and MySQL on the same server :
+   for demonstration purposes, with the author AEM instance and MySQL on the same server:
 
     * Connection Name: `Communities`
     * Connection Method: `Standard (TCP/IP)`
@@ -104,7 +104,7 @@ Open the Communities connection in order to install the database.
 
 ### Obtain the SQL Script {#obtain-the-sql-script}
 
-The SQL script is obtained from the AEM repository :
+The SQL script is obtained from the AEM repository:
 
 1. browse to CRXDE Lite
 
@@ -128,7 +128,7 @@ Follow the steps below to install the database. The default name of the database
 
 If the database name is changed in the script, be sure to also change it in the [JDBC config](#configurejdbcconnections).
 
-#### Step 1 : open SQL file {#step-open-sql-file}
+#### Step 1: open SQL file {#step-open-sql-file}
 
 In the MySQL Workbench
 
@@ -137,17 +137,17 @@ In the MySQL Workbench
 
 ![](assets/chlimage_1-108.png) 
 
-#### Step 2 : execute SQL Script {#step-execute-sql-script}
+#### Step 2: execute SQL Script {#step-execute-sql-script}
 
 In the Workbench window for the file opened in Step 1, select the `lightening (flash) icon` to execute the script.
 
-In the following image, the `init_schema.sql` file is ready to be executed :
+In the following image, the `init_schema.sql` file is ready to be executed:
 
 ![](assets/chlimage_1-109.png) 
 
 #### Refresh {#refresh}
 
-Once the script is executed, it is necessary to refresh the `SCHEMAS`section of the `Navigator` in order to see the new database. Use the refresh icon to the right of 'SCHEMAS' :
+Once the script is executed, it is necessary to refresh the `SCHEMAS`section of the `Navigator` in order to see the new database. Use the refresh icon to the right of 'SCHEMAS':
 
 ![](assets/chlimage_1-110.png) 
 
@@ -170,22 +170,22 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 ![](assets/chlimage_1-111.png)
 
-* enter the following values :
+* enter the following values:
 
-    * **JDBC driver class** : com.mysql.jdbc.Driver
-    * **JDBC connection URI** : jdbc:mysql://localhost:3306/communities?characterEncoding=UTF-8  
+    * **JDBC driver class**: com.mysql.jdbc.Driver
+    * **JDBC connection URI**: jdbc:mysql://localhost:3306/communities?characterEncoding=UTF-8  
       specify server in place of localhost if MySQL server is not the same as 'this' AEM server  
       *communities* is the default database (schema) name
     
     * **Username **: root  
       or enter the configured Username for the MySQL server, if not 'root'
     
-    * **Password** :   
+    * **Password**:   
       clear this field if no password set for MySQL,  
       else enter the configured password for the MySQL Username
     
     * **...**
-    * **Datasource name** : name entered for the [MySQL connection](#new-connection-settings), for example, 'communities'
+    * **Datasource name**: name entered for the [MySQL connection](#new-connection-settings), for example, 'communities'
 
 * select **Save**
 

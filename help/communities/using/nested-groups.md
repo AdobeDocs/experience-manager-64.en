@@ -54,7 +54,7 @@ These consoles are very similar to the Communities Sites console.
 
 ![](assets/parenttonestedgroup.png)
 
-Continue through the other panels with these settings :
+Continue through the other panels with these settings:
 
 * **2 Design**
 
@@ -95,36 +95,36 @@ Wait for confirmation that the group was published.
 
 ![](assets/chlimage_1-56.png)
 
-The `arts` group should also contain a `groups` folder, but one that is empty and in which new groups can be created. Navigate to the arts group folder and create 3 nested groups, each with a different membership setting :
+The `arts` group should also contain a `groups` folder, but one that is empty and in which new groups can be created. Navigate to the arts group folder and create 3 nested groups, each with a different membership setting:
 
 1. Visiual
 
-    * Title : `Visual Arts`
-    * Name : `visual`
-    * Template : `Reference Group`
-    * Membership : select `Optional Membership`  
+    * Title: `Visual Arts`
+    * Name: `visual`
+    * Template: `Reference Group`
+    * Membership: select `Optional Membership`  
       a public group, open to all members
 
 1. Auditory
 
-    * Title : `Auditory Arts`
-    * Name : `auditory`
-    * Template : `Reference Group`
-    * Membership : select `Required Membership`  
+    * Title: `Auditory Arts`
+    * Name: `auditory`
+    * Template: `Reference Group`
+    * Membership: select `Required Membership`  
       an open group, available for members to join
 
 1. History
 
-    * Title : `Art History`
-    * Name : `history`
-    * Template : `Reference Group`
-    * Membership : select `Restricted Membership`  
+    * Title: `Art History`
+    * Name: `history`
+    * Template: `Reference Group`
+    * Membership: select `Restricted Membership`  
       a secret group, visible only to invited members  
       as an example, invite [demo user](../../communities/using/tutorials.md#demo-users) `emily.andrews@mailinator.com`
 
 Refresh the page to see all three nested groups (sub-communities).
 
-If necessary, to navigate to the nested groups from the Communities Sites console :
+If necessary, to navigate to the nested groups from the Communities Sites console:
 
 * select engage folder
 * select Getting Started Tutorial card
@@ -154,13 +154,13 @@ After publishing the main community site, it is necessary to
 
 It is possible to experience the different groups when signed in, for example with the [demo users](../../communities/using/tutorials.md#demo-users) used for
 
-* Art/History group member : emily.andrews@mailinator.com/password
+* Art/History group member: emily.andrews@mailinator.com/password
 
     * the restricted (secret) group, arts/history, will be visible
     * can see optional (public) groups
     * can join restricted (open) groups
 
-* Group manager : aaron.mcdonald@mailinator.com/password
+* Group manager: aaron.mcdonald@mailinator.com/password
 
     * can see optional (public) groups
     * can join restricted (open) groups

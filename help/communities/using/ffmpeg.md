@@ -43,19 +43,19 @@ By default, when FFmpeg is installed, multiple renditions are configured (transc
 
 As the transcodings are CPU intensive, it is recommended to modify the list of target renditions. In most cases, transcoding is not necessary.
 
-To modify the DAM Update Asset workflow, and in this example, to turn off transcoding :
+To modify the DAM Update Asset workflow, and in this example, to turn off transcoding:
 
 * sign into the author instance with administrative privileges
-* from global navigation : **Tools, Workflow, Models**
+* from global navigation: **Tools, Workflow, Models**
 * locate **DAM Update Asset**
 * double-click to open the workflow for edit in the Classic UI  
-  resulting location : [http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html](http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html)
+  resulting location: [http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html](http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html)
 
 * double-click the **FFmpeg transcoding** step to access the Step Properties dialog
 * under the `Process` tab:
 
     * **Arugments **: clear all entries to disable transcoding  
-      default values : `profile:firefoxhq,profile:hq,profile:flv,profile:iehq`
+      default values: `profile:firefoxhq,profile:hq,profile:flv,profile:iehq`
 
 ![](assets/chlimage_1-372.png)
 

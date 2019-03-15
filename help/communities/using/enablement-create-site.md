@@ -20,7 +20,7 @@ discoiquuid: aff8b79f-dd4e-486e-9d59-5d09dfe34f27
 
 [Community Site creation](../../communities/using/sites-console.md) employs a wizard which guides you through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
 
-To get started creating a new community site :
+To get started creating a new community site:
 
 Using the [author instance](http://localhost:4502/)
 
@@ -33,7 +33,7 @@ Using the [author instance](http://localhost:4502/)
 
 ![](assets/enablementsitetemplate.png)
 
-On the **Site Template** step, enter a title, description, the name for the URL, and select a community site template, for example :
+On the **Site Template** step, enter a title, description, the name for the URL, and select a community site template, for example:
 
 * **Community Site Title**: `Enablement Tutorial`
 
@@ -42,7 +42,7 @@ On the **Site Template** step, enter a title, description, the name for the URL,
 * **Community Site Root**: (leave blank for default root `/content/sites`)  
 
 * **Cloud Configurations**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations.
-* **Community Site Base Language**: (leave untouched for single language : English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
+* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
 * **Community Site Name**: `enable`
 
@@ -56,7 +56,7 @@ Select **Next**
 
 ### Step 2: Design {#step-design}
 
-The Design step is presented in two sections for selecing the theme and branding banner :
+The Design step is presented in two sections for selecing the theme and branding banner:
 
 #### COMMUNITY SITE THEME {#community-site-theme}
 
@@ -82,7 +82,7 @@ It is recommended that [enablement communities](../../communities/using/overview
 
 A community site is private when anonymous site visitors are denied access, may not self-register, and may not use social login.
 
-Ensure most checkboxes are unchecked for [User Management](../../communities/using/sites-console.md#user-management) :
+Ensure most checkboxes are unchecked for [User Management](../../communities/using/sites-console.md#user-management):
 
 * do NOT allow site visitors to self-register
 * do NOT allow anonymous site visitors to view the site
@@ -220,7 +220,7 @@ There will be an indication the site was published.
 
 Along with the new community site, new user groups are created which have the appropriate permissions set for various administrative functions. For details, visit [User Groups for Community Sites](../../communities/using/users.md#usergroupsforcommunitysites).
 
-For this new community site, given the site name "enable" in Step 1, the new user groups that exist in the publish environment may be seen from the [Communities Members & Groups console](../../communities/using/members.md#groups-console) :
+For this new community site, given the site name "enable" in Step 1, the new user groups that exist in the publish environment may be seen from the [Communities Members & Groups console](../../communities/using/members.md#groups-console):
 
 ![](assets/chlimage_1-294.png)
 
@@ -306,13 +306,13 @@ To get started
 
 ![](assets/chlimage_1-297.png)
 
-#### Troubleshooting : Error Saving Map {#troubleshooting-error-saving-map}
+#### Troubleshooting: Error Saving Map {#troubleshooting-error-saving-map}
 
 If unable to save changes, be sure the node name is `localhost.4503`, with a 'dot' separator, and not `localhost:4503` with a 'colon' separator, as `localhost`is not a valid namespace prefix.
 
 ![](assets/chlimage_1-298.png)
 
-#### Troubleshooting : Fail to Redirect {#troubleshooting-fail-to-redirect}
+#### Troubleshooting: Fail to Redirect {#troubleshooting-fail-to-redirect}
 
 The '**$**' at the end of the regular expression `sling:match`string is crucial, so that only exactly `http://localhost:4503/` is mapped, else the redirect value is prepended to any path that might exist after the server:port in the URL. Thus, when AEM tries to redirect to the login page, it fails.
 
@@ -338,13 +338,13 @@ If the site structure does already contain the catalog feature, its Title can be
 
 To modify the site's structure, navigate to the **Communities, Sites** console, open the `enable` folder, and select the **Edit Site **icon to access the properties of `Enablement Tutorial`.
 
-Select the STRUCTURE panel to add a Catalog or modify an existing Catalog :
+Select the STRUCTURE panel to add a Catalog or modify an existing Catalog:
 
-* **Title** : `Ski Catalog`
+* **Title**: `Ski Catalog`
 
-* **URL** : `catalog`
+* **URL**: `catalog`
 
-* **Select All Namespaces** : leave as default.
+* **Select All Namespaces**: leave as default.
 * select **Save**
 
 ![](assets/chlimage_1-299.png)

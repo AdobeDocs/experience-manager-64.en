@@ -29,7 +29,7 @@ See also [SCF client-side customization](../../communities/using/client-customiz
 
 See also [SCF server-side customization](../../communities/using/server-customize.md).
 
-Sample code is available in the [Adobe Marketing Cloud GitHub](https://github.com/Adobe-Marketing-Cloud) repository :
+Sample code is available in the [Adobe Marketing Cloud GitHub](https://github.com/Adobe-Marketing-Cloud) repository:
 
 * [Customize SCF Component Sample](https://github.com/Adobe-Marketing-Cloud/aem-scf-sample-components-customize)
 
@@ -58,7 +58,7 @@ For a full list of the demo users, navigate using the Rail to **Tools &gt; Opera
 
 If a [community ste has been created](../../communities/using/getting-started.md), it is possible to assign demo users to its [community user groups](../../communities/using/users.md).
 
-*** user id* / *password :***
+*** user id* / *password:***
 
 * aaron.mcdonald@mailinator.com / password
 * emily.andrews@mailinator.com / password

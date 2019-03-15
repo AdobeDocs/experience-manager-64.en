@@ -28,9 +28,9 @@ For a discussion of storage options and deployment topologies, visit
 
 In the author environment, to reach the storage configuration console
 
-* from global navigation : **Tools, Communities, Storage Configuration**
+* from global navigation: **Tools, Communities, Storage Configuration**
 
-To select a storage option other than the default JCR :
+To select a storage option other than the default JCR:
 
 * select an option
 * configure appropriately

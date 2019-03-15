@@ -19,7 +19,7 @@ As of Communities [FP1](../../communities/using/deploy-communities.md#latestfeat
 
 Subscriptions are similar to [notifications](../../communities/using/notifications.md) as members may subscribe when following blog articles, forum topics or QnA questions.
 
-What distinguishes subscriptions from notifications is :
+What distinguishes subscriptions from notifications is:
 
 * members may not subscribe when following other members
 * the only action for members to take is to select `Email Subscriptions` when following

@@ -23,11 +23,11 @@ Since the social component framework (SCF) has a lightweight presence, only SCF 
 
 When a page is designed to sideload Communities components, it is possible to cache the entire page.
 
-The steps to dynamically add SCF components are :
+The steps to dynamically add SCF components are:
 
 1) [add the component to the DOM](#dynamically-add-component-to-dom)
 
-2) [sideload the component](#sideload-by-invoking-scf) using one of two methods :
+2) [sideload the component](#sideload-by-invoking-scf) using one of two methods:
 
 * [dynamic inclusion](#dynamic-inclusion)
 
@@ -47,7 +47,7 @@ Whether the component is dynamically included or dynamically loaded, it must fir
 
 When adding the SCF component, the most common tag to use is the DIV tag, but other tags may be used as well. Because SCF only examines the DOM when the page initially loads, this addition to the DOM will go unnoticed until SCF is explicitly invoked.
 
-Whatever tag is used, at a minimum, the element must conform to the normal SCF root element pattern by containing these two attributes :
+Whatever tag is used, at a minimum, the element must conform to the normal SCF root element pattern by containing these two attributes:
 
 * **data-component-id** 
   the effective path to the added component
@@ -55,7 +55,7 @@ Whatever tag is used, at a minimum, the element must conform to the normal SCF r
 * **data-scf-component** 
   the resourceType of the component
 
-Following is one example of an added comments component :
+Following is one example of an added comments component:
 
 ```xml
 <div
@@ -80,7 +80,7 @@ $(document).trigger(SCF.events.BOOTSTRAP_REQUEST);
 
 Dynamic loading provides control over loading SCF components.
 
-Instead of bootstrapping all SCF components found in the DOM, it is possible to specify a specific SCF component to load using this JavaScript method :
+Instead of bootstrapping all SCF components found in the DOM, it is possible to specify a specific SCF component to load using this JavaScript method:
 
 SCF.addComponent(document.getElementById(*someId*));
 

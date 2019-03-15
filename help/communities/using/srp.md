@@ -25,9 +25,9 @@ All SCF components are implemented using the SRP API, allowing code to be develo
 
 >[!NOTE]
 >
->**Custom Components** : For licensed customers of AEM Communities, the SRP API is available to developers of custom components for the purpose of accessing UGC without regard to the underlying topology. See [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md).
+>**Custom Components**: For licensed customers of AEM Communities, the SRP API is available to developers of custom components for the purpose of accessing UGC without regard to the underlying topology. See [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md).
 
-See also :
+See also:
 
 * [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples
 * [Accessing UGC with SRP](../../communities/using/accessing-ugc-with-srp.md) - coding guidelines
@@ -97,7 +97,7 @@ JSRP uses the Oak indices for queries.
 
 ## About Shadow Nodes in JCR {#about-shadow-nodes-in-jcr}
 
-Shadow nodes, which mimic the path to UGC, exist in the local repository to serve two purposes :
+Shadow nodes, which mimic the path to UGC, exist in the local repository to serve two purposes:
 
 1. [Access Control (ACLs](#for-access-control-acls))
 1. [Non-Existing Resources (NERs)](#for-non-existing-resources-ners)
@@ -126,12 +126,12 @@ Shadow nodes provide a Sling addressable location in the repository.
 
 ### Storage Location {#storage-location}
 
-Following is an example of a shadow node, using the [Comments component](http://localhost:4502/content/community-components/en/comments.html) in the [Community Components Guide](../../communities/using/components-guide.md) :
+Following is an example of a shadow node, using the [Comments component](http://localhost:4502/content/community-components/en/comments.html) in the [Community Components Guide](../../communities/using/components-guide.md):
 
-* the component exists in the local repository at :  
+* the component exists in the local repository at:  
   /content/community-components/en/comments/jcr:content/content/includable/comments
 * 
-* the corresponding shadow node exists in the local repository at :  
+* the corresponding shadow node exists in the local repository at:  
   /content/usergenerated/content/community-components/en/comments/jcr:content/content/includable/comments
 
 No UGC will be found under the shadow node.

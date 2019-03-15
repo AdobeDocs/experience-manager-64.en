@@ -31,7 +31,7 @@ The [Storage Configuration console](../../communities/using/srp-config.md) allow
 
 In the author environment, to reach the Storage Configuration console
 
-* from global navigation : **Tools, Communities, Storage Configuration**
+* from global navigation: **Tools, Communities, Storage Configuration**
 
 ![](assets/chlimage_1-234.png)
 
@@ -40,13 +40,13 @@ In the author environment, to reach the Storage Configuration console
 
 ### Publishing the Configuration {#publishing-the-configuration}
 
-While JSRP is the default configuration, to ensure the identical configuration is set in the publish environment :
+While JSRP is the default configuration, to ensure the identical configuration is set in the publish environment:
 
-* on author :
+* on author:
 
-    * from global navigation : **Tools, Deployment, Replication**
+    * from global navigation: **Tools, Deployment, Replication**
     * select **Activate Tree**
-    * **Start Path :**
+    * **Start Path:**
 
         * browse to `/etc/socialconfig/srpc/`
 
@@ -65,7 +65,7 @@ For information regarding *users*, *user profiles* and *user groups*, often ente
 
 Make sure JSRP has been configured to be the default provider by checking the configuration of the storage option. By default, the storage resource provider is JSRP.
 
-On all author and publish AEM instances, revisit the Storage Configuration console or check the AEM repository :
+On all author and publish AEM instances, revisit the Storage Configuration console or check the AEM repository:
 
 * in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 

@@ -17,7 +17,7 @@ discoiquuid: c012d639-c6e6-4f73-bbd8-78a4baa38c17
 
 Tagging of enablement resources allows for filtering of resources and learning paths as members browse [catalogs](../../communities/using/functions.md#catalog-function).
 
-Essentially :
+Essentially:
 
 * [create a tag namespace](../../sites/administering/using/tags.md#creating-a-namespace) for each catalog
 
@@ -76,9 +76,9 @@ The catalog UI allows for visitors to apply a tag filter to the list of resource
 
 The administrator applying the tags to enablement resources must be aware of the tag namespaces associated with the catalogs, as well as the taxonomy in order to select a sub-tag for more refined categorization.
 
-For example, if a `ski-catalog` namespace were created and set on a catalog named `Ski Catalog`, it might have two child tags : `lesson-1` and `lesson-2`.
+For example, if a `ski-catalog` namespace were created and set on a catalog named `Ski Catalog`, it might have two child tags: `lesson-1` and `lesson-2`.
 
-Thus, any enablement resource tagged with one of :
+Thus, any enablement resource tagged with one of:
 
 * ski-catalog:
 * ski-catalog:lesson-1

@@ -15,7 +15,7 @@ discoiquuid: 071cac6d-05c5-47ab-85bc-ead6693ca1f4
 
 The `Voting`component is a useful tool that allows community members to rate a particular piece of content, such as an answer within a QnA component. With the `Voting`component, members select up or down arrows to indicate their opinion.
 
-### Adding Voting to a Page {#adding-voting-to-a-page}
+## Adding Voting to a Page {#adding-voting-to-a-page}
 
 To add a `Voting` component to a page in author mode, use the component browser to locate
 
@@ -29,7 +29,7 @@ When the [required client-side libraries](../../communities/using/essentials-vot
 
 ![](assets/chlimage_1-307.png)
 
-### Configuring Voting {#configuring-voting}
+## Configuring Voting {#configuring-voting}
 
 Select the placed `Voting` component to access and select the `Configure` icon which opens the edit dialog.
 
@@ -48,16 +48,16 @@ Under the **Texts & Labels **tab, specify the properties used to record votes.
 * **Tally Name** 
   (*Required*) The internal, identifiable property name for this instance of a voting component.
 
-### Site Visitor Experience {#site-visitor-experience}
+## Site Visitor Experience {#site-visitor-experience}
 
-#### Members {#members}
+### Members {#members}
 
 Members may only vote once, but may change their vote at any time.
 
-#### Anonymous {#anonymous}
+### Anonymous {#anonymous}
 
 Anonymous voting is not supported. Site visitors must register (become a member) and sign in to participate in voting once.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Voting Essentials](../../communities/using/essentials-voting.md) page for developers.

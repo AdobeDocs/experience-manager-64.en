@@ -29,7 +29,7 @@ If the [default home page was set](../../communities/using/enablement-create-sit
 
 When first arriving at the published site, the site visitor would typically not already be signed in and would be anonymous.
 
-### http://localhost:4503/content/sites/enable/en.html {#http-localhost-content-sites-enable-en-html}
+**http://localhost:4503/content/sites/enable/en.html** 
 
 ![](assets/chlimage_1-433.png) 
 
@@ -74,8 +74,8 @@ This experience relies on users `Riley Taylor` and `Sidney Croft` being [created
 
 Login with
 
-* username : riley
-* password : password
+* username: riley
+* password: password
 
 If the user profile was not created through self-registration, the very first time a member signs in, their Profile page is displayed so they may verify and modify it as necessary.
 
@@ -145,8 +145,8 @@ This experience assumes ` [Quinn Harper](../../communities/using/enablement-setu
 
 Login with
 
-* username : quinn
-* password : password
+* username: quinn
+* password: password
 
 Once signed in, notice there is a new menu item, `Administration`, which appears because the member was given the role of moderator. 
 
@@ -179,7 +179,7 @@ Navigate to the **Communities, [Reports console](../../communities/using/reports
 * posts to a community site over a specific period
 * views (site visits) of a community site over a specific period
 
-* posts and views may be to all content, or to specific content :
+* posts and views may be to all content, or to specific content:
 
     * Forum
     * Forum Topic
@@ -225,7 +225,7 @@ The Reports console allows for generation of reports on
 * **Views** for any community site
 * **Posts** for any community site
 
-For reports on assignments :
+For reports on assignments:
 
 * on author
 * sign in with administrative privileges
@@ -240,7 +240,7 @@ For reports on assignments :
 
 ![](assets/chlimage_1-445.png)
 
-For reports on views :
+For reports on views:
 
 * on author
 * sign in with administrative privileges

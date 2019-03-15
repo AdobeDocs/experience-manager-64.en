@@ -82,7 +82,7 @@ Once signed in, notice there is a new menu item, `Administration`, which appears
 
 ![](assets/chlimage_1-313.png)
 
-Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](../../communities/using/sites.md#edit-site-template) console or when modifying site properties in the author environment :
+Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](../../communities/using/sites.md#edit-site-template) console or when modifying site properties in the author environment:
 
 ![](assets/chlimage_1-314.png)
 
@@ -114,14 +114,14 @@ Groups may also be created in the author environment and managed within the comm
 
 ![](assets/chlimage_1-316.png)
 
-Create a Reference Group :
+Create a Reference Group:
 
 1. select **New Group**
 1. **Settings tab**
 
-    * Group Name : `Sports`
-    * Description : `A parent group for various sporting groups`
-    * Group URL Name : `sports`
+    * Group Name: `Sports`
+    * Description: `A parent group for various sporting groups`
+    * Group URL Name: `sports`
     * select `Open Group` (allow any community member to participate by joining)
 
 1. **Template tab**
@@ -132,7 +132,7 @@ Create a Reference Group :
 
 ![](assets/chlimage_1-317.png)
 
-After new group is created, **select the new Sports group** in order to create two groups (nested) within it. As a site structure can not begin with the groups function, after opening the Sports group, it is necessary to select the Groups link :
+After new group is created, **select the new Sports group** in order to create two groups (nested) within it. As a site structure can not begin with the groups function, after opening the Sports group, it is necessary to select the Groups link:
 
 ![](assets/chlimage_1-318.png)
 
@@ -156,17 +156,17 @@ As an example, add two n `ew groups.`
 * this template does *not *include the groups function, so no further nesting of groups will be possible
 * on author, the [Groups console](../../communities/using/groups.md) provides a third choice - a `Public Group` (optional membership)
 
-Once both groups are created, select the Baseball group, an open group, and notice its links :
+Once both groups are created, select the Baseball group, an open group, and notice its links:
 
 `Discussions` `What's New` `Members`
 
-The group's links are displayed below the main site's links and results in the following display :
+The group's links are displayed below the main site's links and results in the following display:
 
 ![](assets/chlimage_1-319.png)
 
 On author - with administrative privileges, navigate to the [Communities Groups console](../../communities/using/members.md) and add Weston McCall to the `Community Engage Gymnastics <uid> Members` group.
 
-Continuing on publish, log out as Aaron McDonald, and view the groups in the Sports Group as an anonymous site visitor :
+Continuing on publish, log out as Aaron McDonald, and view the groups in the Sports Group as an anonymous site visitor:
 
 * from home page 
 * select `Groups`link

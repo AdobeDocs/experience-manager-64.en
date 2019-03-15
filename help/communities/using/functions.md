@@ -27,7 +27,7 @@ A number of community functions are immediately available as seen in the communi
 
 In the author environment, to reach the community functions console
 
-* from global navigation : **Tools, Communities, Community Functions**
+* from global navigation: **Tools, Communities, Community Functions**
 
 ![](assets/chlimage_1-379.png)
 
@@ -60,7 +60,7 @@ For example, using the site created from following the [Getting Started](../../c
 
 then the URL to the page is http://localhost:4503/content/sites/engage/en/**page**.html
 
-and the menu link for the page appears as :
+and the menu link for the page appears as:
 
 ![](assets/chlimage_1-381.png)
 
@@ -68,7 +68,7 @@ and the menu link for the page appears as :
 
 The activity stream function is a page with an [Activity Streams component](../../communities/using/activities.md) with all views selected (all activities, user activities, and following). See also [Activity Stream Essentials](../../communities/using/essentials-activities.md) for developers.
 
-When added to a template, the following dialog opens :
+When added to a template, the following dialog opens:
 
 #### Configuration Function Details {#configuration-function-details-1}
 
@@ -96,7 +96,7 @@ When added to a template, the only configuration is for the [Title and URL Setti
 
 The blog function is a page with a [Blog component](../../communities/using/blog-feature.md) configured for tagging, file uploads, following, members to self-edit, voting, and moderation. See also [Blog Essentials](../../communities/using/blog-developer-basics.md) for developers.
 
-When added to a template, the following dialog opens :
+When added to a template, the following dialog opens:
 
 ![](assets/chlimage_1-383.png)
 
@@ -117,7 +117,7 @@ When added to a template, the following dialog opens :
 
 The calendar function is a page with a [Calendar component](../../communities/using/calendar.md) configured to allow tagging. See also [Calendar Essentials](../../communities/using/calendar-basics-for-developers.md) for developers.
 
-When added to a template, the following dialog opens :
+When added to a template, the following dialog opens:
 
 ![](assets/chlimage_1-384.png)
 
@@ -143,7 +143,7 @@ The catalog function provides the ability for [enablement community](../../commu
 
 All enablement resources and learning paths for the community site will show in all catalogs if their property, ` [Show in Catalog](../../communities/using/resources.md)`, is set to true. To explicitly include resources and learning paths, it is necessary to apply a [pre-filter](../../communities/using/catalog-developer-essentials.md#pre-filters) to the catalog.
 
-When added to a template, the configuration allows specifying tag namespace(s) used to configure the tag filter presented to site visitors :
+When added to a template, the configuration allows specifying tag namespace(s) used to configure the tag filter presented to site visitors:
 
 ![](assets/catalogfunc.png)
 
@@ -172,7 +172,7 @@ When added to a template, the only configuration is for the [Title and URL Setti
 
 The forum function is a page with a [Forum component](../../communities/using/forum.md) configured for tagging, file uploads, following, members to self-edit, voting, and moderation.
 
-When added to a template, the following dialog opens :
+When added to a template, the following dialog opens:
 
 #### Configuration Function Details {#configuration-function-details-2}
 
@@ -210,7 +210,7 @@ When a community group is created, a member group is dynamically created for the
 
 As of Communities [feature pack 1](../../communities/using/deploy-communities.md#latestfeaturepack), community groups are created in the author environment using the [Communities Sites' Groups console](../../communities/using/groups.md), and may be created in the publish environment when enabled.
 
-When added to a template, the following dialog opens :
+When added to a template, the following dialog opens:
 
 ![](assets/chlimage_1-386.png)
 
@@ -229,7 +229,7 @@ When added to a template, the following dialog opens :
 
 The ideation function is a page with one [Ideation component](../../communities/using/ideation-feature.md).
 
-When added to a template, the following dialog opens, which specifies the default Title and URL names, as well as default display settings for the template :
+When added to a template, the following dialog opens, which specifies the default Title and URL names, as well as default display settings for the template:
 
 ![](assets/chlimage_1-387.png)
 
@@ -250,9 +250,9 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 The leaderboard function is a page with one [Leaderboard component](../../communities/using/enabling-leaderboard.md).
 
-**NOTE** : the Leaderboard component will need further configuration *after* a community site is created from a community template which includes the Leaderboard funciton. The Leaderboard component's [rules](../../communities/using/enabling-leaderboard.md#rules-tab) will need to be specified, which depend on configuration of [scoring and badges](../../communities/using/implementing-scoring.md) for the community site.
+**NOTE**: the Leaderboard component will need further configuration *after* a community site is created from a community template which includes the Leaderboard funciton. The Leaderboard component's [rules](../../communities/using/enabling-leaderboard.md#rules-tab) will need to be specified, which depend on configuration of [scoring and badges](../../communities/using/implementing-scoring.md) for the community site.
 
-When added to a template, the following dialog opens, which specifies the default Title and URL names, as well as default display settings for the template :
+When added to a template, the following dialog opens, which specifies the default Title and URL names, as well as default display settings for the template:
 
 ![](assets/chlimage_1-388.png)
 
@@ -271,7 +271,7 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 ### Page Function {#page-function}
 
-The page function adds a blank page to the community site that it is wired into the features of the community site : login, menu, notifications, messaging, theming and branding. Content may be added to the page using the [standard AEM authoring mode](../../sites/authoring/using/editing-content.md).
+The page function adds a blank page to the community site that it is wired into the features of the community site: login, menu, notifications, messaging, theming and branding. Content may be added to the page using the [standard AEM authoring mode](../../sites/authoring/using/editing-content.md).
 
 When added to a template, the only configuration is for the [Title and URL Settings](#title-and-url-settings).
 
@@ -279,7 +279,7 @@ When added to a template, the only configuration is for the [Title and URL Setti
 
 The QnA function is a page with a [QnA component](../../communities/using/working-with-qna.md) configured for tagging, file uploads, following, members to self-edit, voting, and moderation.
 
-When added to a template, the configuration allows restriction to privileged members :
+When added to a template, the configuration allows restriction to privileged members:
 
 ![](assets/chlimage_1-389.png)
 
@@ -305,11 +305,11 @@ The ability to create a community function is reached by selecting the `Create C
 
 ![](assets/chlimage_1-390.png)
 
-#### Community Function Name {#community-function-name}
+### Community Function Name {#community-function-name}
 
 ![](assets/chlimage_1-391.png)
 
-On the Community Function Name panel, a name, description and whether the function is enabled or disabled are configured :
+On the Community Function Name panel, a name, description and whether the function is enabled or disabled are configured:
 
 * **Community Function Name ** 
   the function name used for display and storage
@@ -320,7 +320,7 @@ On the Community Function Name panel, a name, description and whether the functi
 * **Disabled/Enabled ** 
   a toggle switch controlling whether the function is referenceable
 
-#### AEM Blueprint {#aem-blueprint}
+### AEM Blueprint {#aem-blueprint}
 
 ![](assets/chlimage_1-392.png)
 
@@ -332,7 +332,7 @@ Since the community function is implemented as a [live copy](../../sites/adminis
 
 See also [Multi Site Manager](../../sites/administering/using/msm.md).
 
-#### Thumbnail {#thumbnail}
+### Thumbnail {#thumbnail}
 
 ![](assets/chlimage_1-393.png)
 

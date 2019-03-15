@@ -15,7 +15,7 @@ discoiquuid: dcde4e03-78ab-4779-96a1-05ac41f14701
 
 The `Liking`component is a useful tool that allows users to express an opinion about a particular piece of content, such as an comment within a forum. With the `Liking`component, members select the heart icon to indicate a positive opinion.
 
-### Adding Liking to a Page {#adding-liking-to-a-page}
+## Adding Liking to a Page {#adding-liking-to-a-page}
 
 To add a `Liking` component to a page in author mode, use the component browser to locate
 
@@ -29,7 +29,7 @@ When the [required client-side libraries](../../communities/using/essentials-lik
 
 ![](assets/chlimage_1-93.png)
 
-### Configuring Liking {#configuring-liking}
+## Configuring Liking {#configuring-liking}
 
 Select the placed `Liking` component to access and select the `Configure` icon which opens the edit dialog.
 
@@ -48,16 +48,16 @@ Under the **Texts & Labels **tab, specify the properties used to record likes.
 * **Tally Name** 
   (*Required*) The internal, identifiable property name for this instance of a voting component.
 
-### Site Visitor Experience {#site-visitor-experience}
+## Site Visitor Experience {#site-visitor-experience}
 
-#### Members {#members}
+### Members {#members}
 
 Members may change their like at any time.
 
-#### Anonymous {#anonymous}
+### Anonymous {#anonymous}
 
 Anonymous liking is not supported. Site visitors must register (become a member) and sign in to participate in liking.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Liking Essentials](../../communities/using/essentials-liking.md) page for developers.

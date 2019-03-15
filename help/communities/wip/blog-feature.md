@@ -51,11 +51,11 @@ and drag them into place on a page where the blog should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/blog-developer-basics.md#essentials-for-client-side) are included, this is how the `Blog`component will appear :
+When the [required client-side libraries](../../communities/using/blog-developer-basics.md#essentials-for-client-side) are included, this is how the `Blog`component will appear:
 
 ![](assets/chlimage_1-147.png)
 
-And how the `Blog Sidebar` will appear :
+And how the `Blog Sidebar` will appear:
 
 ![](assets/chlimage_1-148.png)
 
@@ -67,7 +67,7 @@ Select the placed `Blog` component to access and select the `Configure` icon whi
 
 #### Settings tab {#settings-tab}
 
-Under the **Settings** tab, specify the basic features of the blog :
+Under the **Settings** tab, specify the basic features of the blog:
 
 * **Allow Attachment Thumbnail  
   **If checked, a thumbnail of the attached image is created.
@@ -116,7 +116,7 @@ Under the **Settings** tab, specify the basic features of the blog :
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
 * **Allowed File Types** 
-  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that** **all file types are allowed.
+  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that** **all file types are allowed.
 
 * **Max Attach Image File Size** 
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152** **(2 Mb).
@@ -144,7 +144,7 @@ Under the **Settings** tab, specify the basic features of the blog :
 
 #### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation** tab, specify the moderation settings :
+Under the **User Moderation** tab, specify the moderation settings:
 
 * **Deny Posts** 
   If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is unchecked.  
@@ -169,7 +169,7 @@ Under the **User Moderation** tab, specify the moderation settings :
 
 #### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, specify the which tags may be applied if **Allow Tagging** is check on the **Settings** tab :
+Under the **Tag field** tab, specify the which tags may be applied if **Allow Tagging** is check on the **Settings** tab:
 
 * **Allowed Namespaces** 
   Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
@@ -181,18 +181,18 @@ Under the **Tag field** tab, specify the which tags may be applied if **Allow Ta
 
 When you double-click the `Blog Sidebar` component, an edit dialog opens up.
 
-Under the **Journal Sidebar Settings** tab, specify the date format for archives and what type of entries to display in the sidebar :
+Under the **Journal Sidebar Settings** tab, specify the date format for archives and what type of entries to display in the sidebar:
 
 ![](assets/chlimage_1-151.png)
 
 * **Date format** 
   The format used to display for archives of blog entries. The format uses placeholders following the Java convention.
 
-    * yyyy : full year, like '2015'
-    * yy : short year, like '15'
-    * MMMMM : full month, like June
-    * MMM : short month, like Jun
-    * MM : month number, like 06
+    * yyyy: full year, like '2015'
+    * yy: short year, like '15'
+    * MMMMM: full month, like June
+    * MMM: short month, like Jun
+    * MM: month number, like 06
 
   Default is "yyyy MMMMM" which would display, for example, "2015 June"
 

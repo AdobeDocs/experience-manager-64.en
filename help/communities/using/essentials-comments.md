@@ -54,7 +54,7 @@ The comments component establishes a comment system such that each individual po
 
 Pagination and the use of URLs for caching and linking require that the URL be unique per comment system. Therefore, only one instance of a comment system is allowed per page.
 
-Other features already include the comment system. These are :
+Other features already include the comment system. These are:
 
 * [Blog](../../communities/using/blog-developer-basics.md)
 * [Calendar](../../communities/using/calendar-basics-for-developers.md)
@@ -88,7 +88,7 @@ As of AEM 6.1 Communities, use of a [common store](../../communities/using/worki
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
-See :
+See:
 
 * [Storage Resource Provider Overview](../../communities/using/srp.md) - introduction and repository usage overview
 * [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples

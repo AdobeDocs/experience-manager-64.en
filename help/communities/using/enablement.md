@@ -53,11 +53,11 @@ Each step links to documentation which provides the necessary details.
 **On all author/publish instances:**
 
 1. **[install JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbc-driver-for-mysql)** 
-use Web Console (bundles) : *http://localhost:4502/system/console/bundles* 
+use Web Console (bundles): *http://localhost:4502/system/console/bundles* 
 install *before* installing SCORM package
 
 1. **[install SCORM package](../../communities/using/deploy-communities.md#scorm-package)** 
-use Package Manager : *http://localhost:4502/crx/packmgr/*
+use Package Manager: *http://localhost:4502/crx/packmgr/*
 
 **On any server:**
 
@@ -74,10 +74,10 @@ use MySQL Workbench
 **On all author/publish instances:**
 
 1. **[configure JDBC Connections pool](../../communities/using/mysql.md#configure-jdbc-connections)** 
-use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
+use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
 
 1. **[configure SCORM engine service](../../communities/using/mysql.md#aem-communities-scormengine-service)** 
-use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
+use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
 
 1. **[configure CSRF filters](../../communities/using/mysql.md#adobe-granite-csrf-filter)** 
 use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
@@ -91,7 +91,7 @@ use Tools, Deployment, Cloud Services console: *http://localhost:4502/etc/clouds
 use Workflow/Models console
 
 1. **[enable Tunnel Service](../../communities/using/deploy-communities.md#tunnel-service-on-author)** 
-use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
+use Web Console (configMgr): *http://localhost:4502/system/console/configMgr*
 
 1. **[create Community administrators](../../communities/using/users.md#creating-community-members)** for author environment use classic-UI Security console: *http://localhost:4502/useradmin* 
  create user(s) with path = /home/users/community  

@@ -84,7 +84,7 @@ With the default option, there is no common store. The UGC is persisted only in 
 
 Specifying the default storage option, based on the underlying deployment, is made through the [Storage Configuration console](../../communities/using/srp-config.md).
 
-For configuration details of each option, see :
+For configuration details of each option, see:
 
 * [ASRP - Adobe Storage Resource Provider](../../communities/using/asrp.md)
 * [MSRP - MongoDB Storage Resource Provider](../../communities/using/msrp.md)

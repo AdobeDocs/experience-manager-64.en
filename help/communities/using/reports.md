@@ -20,7 +20,6 @@ For AEM Communities, there are various reports that may be accessed in several w
 In general, the various reports are :
 
 * [Assignments Report](#assignments-report) - for an [enablement community](../../communities/using/overview.md#enablement-community), provides an overview of learners' progress on their assignments, including an associated score if implementing the SCORM standard
-
 * [Views Report](#views-report) - provides a chart of views of content by community members and site visitors for any community site
 * [Posts Report](#posts-report) - provides a chart of various types of posts by community members to any community site
 
@@ -32,7 +31,7 @@ Tabular reports can be exported in .csv format for subsequent processing.
 
 ### Reports for Community Sites {#reports-for-community-sites}
 
-* from global navigation : **Navigation**, **Communities, Reports**
+* from global navigation: **Navigation**, **Communities, Reports**
 
 * choose from
 
@@ -52,7 +51,7 @@ Tabular reports can be exported in .csv format for subsequent processing.
 
 ### Reports for Enablement Resources and Learning Paths {#reports-for-enablement-resources-and-learning-paths}
 
-* from global navigation : **Navigation**, **Communities, Resources**
+* from global navigation: **Navigation**, **Communities, Resources**
 
 * select an existing enablement community site
 
@@ -63,7 +62,7 @@ Tabular reports can be exported in .csv format for subsequent processing.
         * the included enablement resources
         * the learners assigned to the learning path
 
-* these reports provide :
+* these reports provide:
 
     * table data, downloadable as CSV
 
@@ -83,20 +82,20 @@ The report provides information on their progress as well as any comments or rat
 
 ![](assets/chlimage_1-157.png)
 
-Select the criteria for the report :
+Select the criteria for the report:
 
 * **Site** 
   select an enablement community site
 
 * **User or Group** 
-  - select User to generate a report for one learner  
-  - select Group to generate a report for a group of learners  
+  * select User to generate a report for one learner  
+  * select Group to generate a report for a group of learners  
   The tunnel service will access members and member groups from the publish environment
 
 * **Assignment** 
   Choose from among the enablement resources assigned to the selected learner(s)
 
-Select **Generate** to create the report :
+Select **Generate** to create the report:
 
 ![](assets/chlimage_1-158.png)
 
@@ -106,7 +105,7 @@ The Views console allows reports to be generated on page views by community feat
 
 ![](assets/chlimage_1-159.png)
 
-Select the criteria for the report :
+Select the criteria for the report:
 
 * **Site** 
   select a community site
@@ -122,7 +121,7 @@ Select the criteria for the report :
     * Last 90 days
     * Last year
 
-Select **Generate** to create the report :
+Select **Generate** to create the report:
 
 ![](assets/chlimage_1-160.png)
 
@@ -132,7 +131,7 @@ The Posts console allows reports to be generate on number of posts to community 
 
 ![](assets/chlimage_1-161.png)
 
-Select the criteria for the report :
+Select the criteria for the report:
 
 * **Site** 
   select a community site
@@ -148,7 +147,7 @@ Select the criteria for the report :
     * Last 90 days
     * Last year
 
-Select **Generate** to create the report :
+Select **Generate** to create the report:
 
 ![](assets/chlimage_1-162.png)
 

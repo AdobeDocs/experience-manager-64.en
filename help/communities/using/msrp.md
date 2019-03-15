@@ -21,19 +21,19 @@ See also [Characteristics of SRP Options](../../communities/using/working-with-s
 
 ## Requirements {#requirements}
 
-* [MongoDB](http://www.mongodb.org/) :
+* [MongoDB](http://www.mongodb.org/):
 
     * version 2.6 or greater
     * no need to configure mongos or sharding
     * strongly recommend use of a [replica set](#mongoreplicaset)
     * may run on same host as AEM or run remotely
 
-* [Apache Solr](http://lucene.apache.org/solr/) :
+* [Apache Solr](http://lucene.apache.org/solr/):
 
     * version 4.10 or version 5
     * Solr requires Java 1.7 or greater
     * no service is needed
-    * choice of run modes :
+    * choice of run modes:
 
         * standalone mode
         * [SolrCloud mode](../../communities/using/solr.md#solrcloud-mode) (recommended for production environments)
@@ -49,9 +49,9 @@ See also [Characteristics of SRP Options](../../communities/using/working-with-s
 
 The [Storage Configuration console](../../communities/using/srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
 
-On author, to access the Storage Configuration console :
+On author, to access the Storage Configuration console:
 
-* from global navigation : **Tools, Communities, Storage Configuration**
+* from global navigation: **Tools, Communities, Storage Configuration**
 
 ![](assets/chlimage_1-28.png)
 
@@ -59,16 +59,16 @@ On author, to access the Storage Configuration console :
 * **mongoDB Configuration**
 
     * **mongoDB URI** 
-      *default* : mongodb://localhost/?maxPoolSize=10&waitQueueMultiple=5&readPreference=secondaryPreferred
+      *default*: mongodb://localhost/?maxPoolSize=10&waitQueueMultiple=5&readPreference=secondaryPreferred
     
     * **mongoDB Database** 
-      *default* : communities
+      *default*: communities
     
     * **mongoDB UGC Collection** 
-      *default* : content
+      *default*: content
     
     * **mongoDB Attachment Collection** 
-      *default* : attachments
+      *default*: attachments
 
 * **SolrConfiguration**
 
@@ -76,16 +76,16 @@ On author, to access the Storage Configuration console :
       When running in [SolrCloud mode](../../communities/using/solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the `HOST:PORT` for the ZooKeeper, such as *my.server.com:2181* 
       For a ZooKeeper Ensemble, enter comma-separated `HOST:PORT` values, such as *host1:2181,host2:2181* 
       Leave blank if running Solr in standalone mode using the internal ZooKeeper.  
-      *default* : * &lt;blank&gt;*
+      *default*: * &lt;blank&gt;*
     
     * **Solr URL** 
       The URL used to communicate with Solr in standalone mode.  
       Leave blank if running in SolrCloud mode.  
-      *default* : http://127.0.0.1:8983/solr/
+      *default*: http://127.0.0.1:8983/solr/
     
     * **Solr Collection** 
       The Solr collection name.  
-      *default* : collection1
+      *default*: collection1
 
 * select **Submit**
 
@@ -104,7 +104,7 @@ To work with replica sets and learn how to define connections between applicatio
 #### Example Url for Connecting to a Replica Set  {#example-url-for-connecting-to-a-replica-set}
 
 ```shell
-# Example url for :
+# Example url for:
 #     servers "mongoserver1", "mongoserver2", "mongoserver3" 
 #     replica set 'rs0'
 # port numbers only necessary if not default port 27017
@@ -138,13 +138,13 @@ If upgrading from an earlier version configured with MSRP, it will be necessary 
 
 MSRP must be identified as the common store on all author and publish instances.
 
-To make the identical configuration available in the publish environment :
+To make the identical configuration available in the publish environment:
 
-* on author :
+* on author:
 
     * navigate from main menu to `Tools > Operations > Replication`
     * select **Activate Tree**
-    * **Start Path :**
+    * **Start Path:**
 
         * browse to `/etc/socialconfig/srpc/`
 
@@ -169,12 +169,12 @@ This tool may be run from the command line using cURL or any other HTTP tool.
 
 When reindexing, there is a tradeoff between memory and performance controlled by the *batchSize *data parameter, which specifies how many UGC records are reindexed per batch.
 
-A reasonable default is 5000 :
+A reasonable default is 5000:
 
 * if memory is an issue, specify a a smaller number 
 * if speed is an issue, specify a larger number to increase speed
 
-#### Running MSRP Reindex Tool Using cURL Command {#running-msrp-reindex-tool-using-curl-command}
+### Running MSRP Reindex Tool Using cURL Command {#running-msrp-reindex-tool-using-curl-command}
 
 The following cURL command shows what is necessary for an HTTP request to reindex UGC stored in MSRP.
 
@@ -191,9 +191,10 @@ for example: admin:admin
 `/content/usergenerated/asi/mongo/`
 
 *path* = the root location of the tree of UGC to reindex  
-- to reindex all UGC, specify the value of the `asipath`property of  
+
+  * to reindex all UGC, specify the value of the `asipath`property of  
 `/etc/socialconfig/srpc/defaultconfiguration`  
-- to limit the index to some UGC, specify a subtree of `asipath`
+  * to limit the index to some UGC, specify a subtree of `asipath`
 
 *reindex-url* = the endpoint for reindexing of SRP  
 `http://localhost:4503/services/social/datastore/mongo/reindex`
@@ -202,7 +203,7 @@ for example: admin:admin
 >
 >If you are [reindexing DSRP Solr](../../communities/using/dsrp.md), the URL is **/services/social/datastore/rdb/reindex**
 
-#### MSRP Reindex Example {#msrp-reindex-example}
+### MSRP Reindex Example {#msrp-reindex-example}
 
 ```shell
 curl -s -u admin:admin -d 'batchSize=10000&path=/content/usergenerated/asi/mongo/' http://localhost:4503/services/social/datastore/mongo/reindex
@@ -219,7 +220,7 @@ To setup MSRP for a demonstration or development environment, see [HowTo Setup M
 
 Make sure MSRP has been configured to be the default provider by checking the configuration of the storage option. By default, the storage resource provider is JSRP.
 
-On all author and publish AEM instances, revisit the [Storage Configuration console](../../communities/using/srp-config.md) or check the AEM repository :
+On all author and publish AEM instances, revisit the [Storage Configuration console](../../communities/using/srp-config.md) or check the AEM repository:
 
 * in JCR, if [/etc/socialconfig](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/)
 
@@ -230,7 +231,7 @@ On all author and publish AEM instances, revisit the [Storage Configuration cons
 
 If upgrading from an exisitng AEM Communities 6.0 site, any pre-existing UGC must be converted to conform to the structure required for the [SRP](../../communities/using/srp.md) API after upgrading to AEM Communities 6.3.
 
-There is an open source tool available on GitHub for this purpose :
+There is an open source tool available on GitHub for this purpose:
 
 * [AEM Communities UGC Migration Tool](https://github.com/Adobe-Marketing-Cloud/communities-ugc-migration)
 

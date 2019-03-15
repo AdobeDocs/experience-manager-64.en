@@ -13,7 +13,7 @@ discoiquuid: cdcae09f-c3cb-471e-863f-b33130e9df0f
 
 # File Library Feature{#file-library-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The file library feature provides a place for signed-in site visitors (community members) to upload, manage and download files within the community site.
 
@@ -22,7 +22,7 @@ This section of the documentation describes
 * adding the file library feature to an AEM site
 * configuration settings for the `File Library` component
 
-### Adding a File Library to a Page {#adding-a-file-library-to-a-page}
+## Adding a File Library to a Page {#adding-a-file-library-to-a-page}
 
 To add a `File Library` component to a page in author mode, locate the component
 
@@ -32,19 +32,19 @@ and drag it into place on a page.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-file-library.md#essentials-for-client-side) are included, this is how the `File Library` component will appear :
+When the [required client-side libraries](../../communities/using/essentials-file-library.md#essentials-for-client-side) are included, this is how the `File Library` component will appear:
 
 ![](assets/chlimage_1-430.png)
 
-### Configuring File Library {#configuring-file-library}
+## Configuring File Library {#configuring-file-library}
 
 Select the placed `File Library` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/chlimage_1-431.png) ![](assets/chlimage_1-432.png)
 
-#### Comments tab {#comments-tab}
+### Comments tab {#comments-tab}
 
-Under the **Comments **tab, specify if and how comments for uploaded files appear :
+Under the **Comments **tab, specify if and how comments for uploaded files appear:
 
 * **Allow Comments on Files** 
   If checked, allow comments on uploaded files. Default is unchecked.
@@ -59,7 +59,7 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
   Maximum number of characters that may be entered into the text box. Default is 4096 characters.
 
 * **Allowed File Types** 
-  A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed. Default is none specified such that** **all file types are allowed.
+  A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed. Default is none specified such that** **all file types are allowed.
 
 * **Rich Text Editor** 
   If checked, comments may be entered with markup. Default is unchecked.
@@ -85,9 +85,9 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
 * **Allow Threaded Replies** 
   If checked, allow replies to posted comments. Default is unchecked.
 
-#### User Moderation tab {#user-moderation-tab}
+### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation** tab, configure moderation of comments, if comments are allowed :
+Under the **User Moderation** tab, configure moderation of comments, if comments are allowed:
 
 * **Pre-Moderation** 
   If checked, comments must be approved before they will appear on a publish site. Default is unchecked.
@@ -116,7 +116,7 @@ Under the **User Moderation** tab, configure moderation of comments, if comments
 * **Flagging Limit** 
   Enter the number of times a comment has to be flagged before it is hidden from public view. This number must be greater than or equal to the **Moderation Threshold**. Default is 5.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [File Library Essentials](../../communities/using/essentials-file-library.md) page for developers.
 

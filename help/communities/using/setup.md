@@ -103,7 +103,7 @@ Create a user on *author*, who is assigned the role of Community Administrator:
 
 #### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
 
-Scroll down to `Add User to Groups` :
+Scroll down to `Add User to Groups`:
 
 * enter 'C' to search
 
@@ -129,14 +129,14 @@ See [Social Login with Facebook and Twitter](../../communities/using/social-logi
 
 Create tags to use for the engage and enablement tutorials, using the tag namespace of `Tutorial`.
 
-Use the [Tagging console](../../sites/administering/using/tags.md#tagging-console) to create the following tags :
+Use the [Tagging console](../../sites/administering/using/tags.md#tagging-console) to create the following tags:
 
-* `Tutorial : Sports / Baseball`
-* `Tutorial : Sports / Gymnastics`
-* `Tutorial : Sports / Skiing`
-* `Tutorial : Arts / Visual`
-* `Tutorial : Arts / Auditory`
-* `Tutorial : Arts / History`
+* `Tutorial: Sports / Baseball`
+* `Tutorial: Sports / Gymnastics`
+* `Tutorial: Sports / Skiing`
+* `Tutorial: Arts / Visual`
+* `Tutorial: Arts / Auditory`
+* `Tutorial: Arts / History`
 
 ![](assets/chlimage_1-302.png)
 

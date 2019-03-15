@@ -22,7 +22,7 @@ Now that the components for the custom comment system are in place in the applic
 
 The client libraries necessary for the style and functioning of the default Comments are also necessary for extended Comments.
 
-The [Community Components Guide](../../communities/using/components-guide.md) identifies the required client libraries. Browse to the Component Guide and view the Comments component, for example :
+The [Community Components Guide](../../communities/using/components-guide.md) identifies the required client libraries. Browse to the Component Guide and view the Comments component, for example:
 
 [http://localhost:4502/content/community-components/en/comments.html](http://localhost:4502/content/community-components/en/comments.html)
 
@@ -60,7 +60,7 @@ After the custom component is added to the page, it is also necessary to (re) [p
 
 After publishing both the custom application and the sample page, it should be possible to enter a comment. When signed in, either with a [demo user](../../communities/using/tutorials.md#demo-users) or admin, it should be possible to post a comment.
 
-Here is aaron.mcdonald@mailinator.com posting a comment :
+Here is aaron.mcdonald@mailinator.com posting a comment:
 
 ![](assets/chlimage_1-51.png) ![](assets/chlimage_1-52.png)
 

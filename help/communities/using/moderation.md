@@ -23,7 +23,7 @@ From the Moderation console, administrators and community moderators will have a
 
 For more detailed information visit [Managing Users and User Groups](../../communities/using/users.md).
 
-The Moderation console supports :
+The Moderation console supports:
 
 * performing moderation tasks in bulk
 * searching UGC
@@ -38,7 +38,7 @@ Access to the Moderation console from a published community site is through an A
 
 ![](assets/publishweretail.png)
 
-By selecting the Administration link, the Moderation console appears :
+By selecting the Administration link, the Moderation console appears:
 
 ![](assets/moderationconsole-publish-1.png)
 
@@ -46,7 +46,7 @@ By selecting the Administration link, the Moderation console appears :
 
 In the author environment, to reach the Moderation console
 
-* from global navigation : **Navigation, Communities, Moderation**
+* from global navigation: **Navigation, Communities, Moderation**
 
 Only when signed in as an administrator, or as a member with ` [moderator permissions](../../communities/using/in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed. The only community content displayed is that which the signed in member is permitted to moderate.
 
@@ -86,7 +86,7 @@ opens a rail, on selecting Search, which allows a choice of properties on which 
 
 ### Content Area {#content-area}
 
-The content area contains information for posted UGC :
+The content area contains information for posted UGC:
 
 * the UGC posted
 * member name
@@ -168,7 +168,7 @@ Content Type limits the referenced UGC displayed to posts of the selected resour
 
 #### Additional Content Types {#additional-content-types}
 
-To add additional resources on which to filter :
+To add additional resources on which to filter:
 
 * on an author instance
 * sign in as administrator
@@ -318,7 +318,7 @@ When working with a single post, a Moderation History icon will appear when hove
 
 To return to the content area display of multiple UGC posts, select the X in the top right corner of the view detail pane.
 
-For example :
+For example:
 
 ![](assets/chlimage_1-486.png)
 
@@ -332,7 +332,7 @@ To do so, hover over the post to display the `View Detail` icon and select it to
 
 To return to the content area display of multiple UGC posts, select the X in the top right corner of the view detail pane.
 
-For example :
+For example:
 
 ![](assets/chlimage_1-488.png)
 

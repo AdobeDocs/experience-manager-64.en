@@ -35,7 +35,7 @@ and drag it into place on a page.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When first placed on a page of a community site, this is how the component appears :
+When first placed on a page of a community site, this is how the component appears:
 
 ![](assets/chlimage_1-8.png)
 

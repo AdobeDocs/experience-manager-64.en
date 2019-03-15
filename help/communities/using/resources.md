@@ -17,7 +17,7 @@ For AEM Communities, the Resources console is where [Enablement Managers](../../
 
 ## Requirements {#requirements}
 
-Before adding enablement resources for a community site, the AEM instances must be properly configured, including :
+Before adding enablement resources for a community site, the AEM instances must be properly configured, including:
 
 * SCORM
 * FFmpeg
@@ -70,7 +70,7 @@ For [enablement communities](../../communities/using/overview.md#enablement-comm
 
 In the author environment, to reach the Resources console
 
-* from global navigation : **Navigation, Communities, Resources**
+* from global navigation: **Navigation, Communities, Resources**
 
 ![](assets/chlimage_1-163.png) 
 
@@ -123,7 +123,7 @@ When the resource is part of a course, a learning path, members should only be a
 
 * **Add Image** 
   (*optional*) An image to display on the card for the enablement resource in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource.  
-  ***Note*** : the recommended image size is not simply 480 x 480 pixels. Due to the responsive design of the cards to various browser dimensions, the display size will vary from 220 X 165 pixels to 400 x 165 pixels.
+  ***Note***: the recommended image size is not simply 480 x 480 pixels. Due to the responsive design of the cards to various browser dimensions, the display size will vary from 220 X 165 pixels to 400 x 165 pixels.
 
 * **Site Name** 
   (*readonly*) The community site to which the resource is being added.
@@ -169,7 +169,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 
 * **Add an external URL** 
   Enter a link to learning content.  
-  In the dialog which opens, enter :
+  In the dialog which opens, enter:
 
     * **Title** 
       The name of the asset for the enablement resource.
@@ -179,7 +179,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 
 * **Add an Adobe Connect URL** 
   Enter a link to an Adobe Connect session.  
-  In the dialog which opens, enter :
+  In the dialog which opens, enter:
 
     * **Title** 
       The name of the asset for the enablement resource.
@@ -189,7 +189,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 
 * **Define an External Resource** 
   Enter the location where the material is to be presented. The values for the success status and score are entered manually (see [Reports](../../communities/using/reports.md)). An uploaded cover image can be used to provide additional information.  
-  In the dialog which opens, enter :
+  In the dialog which opens, enter:
 
     * **Title** 
       The name of the asset for the enablement resource.
@@ -281,7 +281,7 @@ For enablement resources included in a learning path, the assignments should onl
 
 * **Add Image** 
   (*optional*) An image to display on the card for the learning path in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource.  
-  ***Note*** : the recommended image size is no longer simply 480 x 480 pixels. Due to the responsive design of the cards to various browser dimensions, the display size will vary from 220 X 165 pixels to 400 x 165 pixels.
+  ***Note***: the recommended image size is no longer simply 480 x 480 pixels. Due to the responsive design of the cards to various browser dimensions, the display size will vary from 220 X 165 pixels to 400 x 165 pixels.
 
 * **Site Name** 
   (*readonly*) The community site to which the resource is being added.
@@ -360,7 +360,7 @@ To manage a single enablement resource
 * select the community site which contains the resource
 * select the resource
 
-For the selected enablement resource, it is possible to :
+For the selected enablement resource, it is possible to:
 
 * View properties (default)
 * Edit properties
@@ -388,7 +388,7 @@ By selecting the trashcan icon, the enablement resource will be `Delete`d after 
 
 ![](assets/chlimage_1-183.png)
 
-Before learners are able to see an assigned enablement resourse, it must be published :
+Before learners are able to see an assigned enablement resourse, it must be published:
 
 * select the world icon to `Publish`
 * in the dialog which pops up, select **Publish **again
@@ -420,7 +420,7 @@ For all enablement resources, regardless of whether or not Adobe Analytics is en
 
 #### Timeline {#timeline}
 
-The Analytics Timeline report shows when events occur over time for this enablement resource :
+The Analytics Timeline report shows when events occur over time for this enablement resource:
 
 * **Views** 
   a view is when a learner visits the resource details page
@@ -507,7 +507,7 @@ It is possible to adjust the display of the table by selecting columns using the
 
 The Reports Summary table may be downloaded in CSV format using a button at the top of the console.
 
-* for an enablement resource : `Download Resource Report as CSV` button
+* for an enablement resource: `Download Resource Report as CSV` button
 * for a learning path: `Download Learning Path Report as CSV` button
 
 The complete Reports Summary is downloaded regardless of columns chosen for display.

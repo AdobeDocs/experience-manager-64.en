@@ -43,7 +43,7 @@ When upgrading from AEM 6.0 or earlier, it will be necessary to migrate UGC for 
 
 To access UGC, use a method from the SocialResourceUtilities package that returns a path suitable for accessing UGC from SRP and replaces the deprecated method found in the SocialUtils package.
 
-Following is a minimal example of using the resourceToUGCStoragePath() method in a servlet :
+Following is a minimal example of using the resourceToUGCStoragePath() method in a servlet:
 
 ```java
 import com.adobe.cq.social.srp.utilities.api.SocialResourceUtilities;
@@ -74,7 +74,7 @@ Using the SRP API, all SRP options perform the same check of the shadow location
 
 To check ACLs, use a method that returns a path suitable for checking the permissions applied to the resource's UGC.
 
-Following is a simple example of using the resourceToACLPath() method in a servlet :
+Following is a simple example of using the resourceToACLPath() method in a servlet:
 
 ```java
 import com.adobe.cq.social.srp.utilities.api.SocialResourceUtilities;
@@ -101,13 +101,13 @@ The following descriptions of storage location may be of help when developing wi
 
 When a member enters UGC in the publish environment, they are interacting with a component as part of an AEM site.
 
-An example of such a component is the [comments component](http://localhost:4502/content/community-components/en/comments.html) that exists in the [Community Components Guide](../../communities/using/components-guide.md) site. The path to the comment node in the local repository is :
+An example of such a component is the [comments component](http://localhost:4502/content/community-components/en/comments.html) that exists in the [Community Components Guide](../../communities/using/components-guide.md) site. The path to the comment node in the local repository is:
 
 * component path = */content/community-components/en/comments/jcr:content/content/includable/comments*
 
 **shadow node location**
 
-The creation of UGC also creates a [shadow node](../../communities/using/srp.md#about-shadow-nodes-in-jcr) to which the necessary ACLs are applied. The path to the corresponding shadow node in the local repository is the result of prepending the shadow node root path to the component path :
+The creation of UGC also creates a [shadow node](../../communities/using/srp.md#about-shadow-nodes-in-jcr) to which the necessary ACLs are applied. The path to the corresponding shadow node in the local repository is the result of prepending the shadow node root path to the component path:
 
 * root path = /content/usergenerated
 * comment shadow node = /content/usergenerated*/content/community-components/en/comments/jcr:content/content/includable/comments*

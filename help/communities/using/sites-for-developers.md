@@ -28,19 +28,19 @@ To do so,
 
 /**libs**/social/console/components/hbs/sitepage/**sitepage**.hbs
 
-**Custom template in overlay path** :
+**Custom template in overlay path**:
 
 /**apps**/social/console/components/hbs/sitepage/**&lt;*template-name*&gt;**.hbs
 
-** Property** : page-template  
-** Type** : String  
-** Value** : &lt;*template-name*&gt; (no extension)
+** Property**: page-template  
+** Type**: String  
+** Value**: &lt;*template-name*&gt; (no extension)
 
-**Configuration node** :
+**Configuration node**:
 
 /content/&lt;*community site path*&gt;/&lt;*lang*&gt;/configuration
 
-for example : /content/sites/engage/en/configuration
+for example: /content/sites/engage/en/configuration
 
 >[!NOTE]
 >
@@ -55,11 +55,11 @@ for example : /content/sites/engage/en/configuration
 As an example, `vertical-sitepage.hbs` is a site template that results in the placement of menu links vertically down the left side of the page, instead of horizontally below the banner.
 
 [Get File](assets/vertical-sitepage.hbs)
-Place the custom site template in the overlay folder :
+Place the custom site template in the overlay folder:
 
 /**apps**/social/console/components/hbs/sitepage/**vertical-sitepage**.hbs
 
-Identify the custom template by adding a `page-template` property to the configuration node :
+Identify the custom template by adding a `page-template` property to the configuration node:
 
 /content/sites/sample/en/configuration
 
@@ -90,12 +90,12 @@ As of AEM Communities 6.3 Service Pack 1, Delete Site icon appears on hovering o
 
 ### Community Unique Site ID {#community-unique-site-id}
 
-To identify the unique site ID associated with the community site, using CRXDE :
+To identify the unique site ID associated with the community site, using CRXDE:
 
 * navigate to the language root of the site, such as  
   `/content/sites/*<site name>*/en/rep:policy`
 
-* find the `allow<#>` node with a `rep:principalName` in this format :
+* find the `allow<#>` node with a `rep:principalName` in this format:
 
     * `rep:principalName = *community-enable-nrh9h-members*`
 
@@ -110,13 +110,13 @@ To identify the unique site ID associated with the community site, using CRXDE :
 
 ### User Generated Content {#user-generated-content}
 
-Obtain the communities-srp-tools project from Github :
+Obtain the communities-srp-tools project from Github:
 
 * [https://github.com/Adobe-Marketing-Cloud/communities-srp-tools](https://github.com/Adobe-Marketing-Cloud/communities-srp-tools)
 
 This contains a servlet to delete all UGC from any SRP.
 
-All UGC may be removed or for a specific site, for example :
+All UGC may be removed or for a specific site, for example:
 
 * path=/content/usergenerated/asi/mongo/content/sites/engage
 
@@ -124,7 +124,7 @@ This only removes user generated content (entered on publish) and not authored c
 
 ### Community User Groups {#community-user-groups}
 
-On all author and publish instances, from the [security console](../../sites/administering/using/security.md), locate and remove the [user groups](../../communities/using/users.md) that are :
+On all author and publish instances, from the [security console](../../sites/administering/using/security.md), locate and remove the [user groups](../../communities/using/users.md) that are:
 
 * prefixed with `community`
 * followed by [unique site id](#community-unique-site-id)
@@ -133,7 +133,7 @@ For example, `community-engage-x0e11-members`.
 
 ### Enablement Assets {#enablement-assets}
 
-From the main console :
+From the main console:
 
 * select **Assets**
 * enter **Select** mode
