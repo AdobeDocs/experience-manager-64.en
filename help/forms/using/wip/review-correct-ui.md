@@ -45,14 +45,14 @@ Automated Forms Conversion service supports the following components and field t
 * **Text** - It refers to plain text in the PDF.
 * **Field** - It refers to a combination of text associated with a value depending upon the field type. For example, **first name** is a field of **text** field type.  
   The following predefined data types (regex) are supported for a field:  
-  - Text  
-  - Numeric  
-  - Date  
-  - Email  
-  - Telephone Number  
-  - Signature  
-  - Currency  
-  - Password  
+  * Text  
+  * Numeric  
+  * Date  
+  * Email  
+  * Telephone Number  
+  * Signature  
+  * Currency  
+  * Password  
 
 * **Panel** - It refers to an aggregation of related content and components.
 * **Choice Group** - It refers to a combination of text associated with multiple choice options (check box, dropdown, and radio button). For example, gender or marital status.

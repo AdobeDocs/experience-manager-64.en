@@ -409,12 +409,8 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 
     1. Navigate to the **Permissions** tab.
     1. Navigate to ***/content/screens/demo*** and check only the** Read** permissions.
-    
     1. Navigate to ***/content/screens/demo/locations*** and check only the **Read** permissions.
-    
     1. Navigate to ***/content/screens/demo/channels ***and un-check the permissions for **Global** channel.*** 
-       ***
-    
     1. Navigate to ***/content/screens/demo/locations***/***region-a*** and check all the permissions. Similarly, check the permissions for **region-b**.
 
    Please refer to the figure below for understanding the steps:
