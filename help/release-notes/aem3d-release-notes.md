@@ -146,8 +146,6 @@ Version 3.1
 * A new 3D viewer for glTF assets.
 * A new interface to a cloud-based, Adobe-managed conversion service hosted in Amazon AWS. Initially, this service only converts from Dn to glTF formats.
 
-###
-
 ## Restrictions and known issues {#restrictions-and-known-issues}
 
 ### Adobe Dimension support {#adobe-dimension-support}

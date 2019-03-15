@@ -35,7 +35,7 @@ Select the placed `Voting` component to access and select the `Configure` icon w
 
 ![](assets/chlimage_1-308.png)
 
-Under the **Texts & Labels **tab, specify the properties used to record votes.
+Under the **Texts & Labels** tab, specify the properties used to record votes.
 
 ![](assets/chlimage_1-309.png)
 

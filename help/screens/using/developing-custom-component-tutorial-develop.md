@@ -414,7 +414,7 @@ The Hello World component is intended to be used on a Sequence Channel. To test 
 
 1. Click the **Create** button
 
-   2. Choose **Create Entity**
+   1. Choose **Create Entity**
 
    ![](assets/2018-04-30_at_5_18pm.png)
 
@@ -422,7 +422,7 @@ The Hello World component is intended to be used on a Sequence Channel. To test 
 
 1. Template Step - choose** Sequence Channel**
 
-   2. Properties Step
+   1. Properties Step
 
     * Basic Tab &gt; Title = **Idle Channel**
     * Channel Tab &gt; check** Make channel online **
@@ -439,9 +439,9 @@ The Hello World component is intended to be used on a Sequence Channel. To test 
 
 1. Switch the page mode to **Design** Mode
 
-   2. Click the **wrench** Icon in the Parsys to configure the allowed components
+   1. Click the **wrench** Icon in the Parsys to configure the allowed components
 
-   3. Select the **Screens** group and the **We.Retail Run - Content** group.
+   1. Select the **Screens** group and the **We.Retail Run - Content** group.
 
    ![](assets/2018-04-30_at_5_43pm.png)
 

@@ -25,13 +25,13 @@ To edit the app's metadata:
 
 1. Navigate to the dashboard page for the App.
 
-![](assets/chlimage_1-29.png)
+   ![](assets/chlimage_1-29.png)
 
-2. To view or edit details by clicking the '...' in the bottom right corner of the **Manage App** tile.
+1. To view or edit details by clicking the '...' in the bottom right corner of the **Manage App** tile.
 
-3. Enter or view the details in any of the five tabs available as shown in the figure below.
+1. Enter or view the details in any of the five tabs available as shown in the figure below.
 
-![](assets/chlimage_1-30.png)
+   ![](assets/chlimage_1-30.png)
 
 ## Editing Common and IOS Metadata {#editing-common-and-ios-metadata}
 
@@ -48,22 +48,22 @@ You can include App screenshots to the metadata roll up. Some vendors require ac
 
 ![](assets/chlimage_1-33.png)
 
-#### Add Screenshots {#add-screenshots}
+### Add Screenshots {#add-screenshots}
 
 To add an Asset as a screenshot:
 
 1. While in edit mode of the **Manage App** page, click add (plus icon).  
-2. Select the asset and click **Select **to add the asset.
+1. Select the asset and click **Select **to add the asset.
 
-![](assets/chlimage_1-34.png)
+   ![](assets/chlimage_1-34.png)
 
-3. Select the asset and click **Select **to add the asset.
+1. Select the asset and click **Select **to add the asset.
 
 >[!NOTE]
 >
 >The screenshot must match the target device's screen resolution.
 
-#### Delete Screenshots {#delete-screenshots}
+### Delete Screenshots {#delete-screenshots}
 
 To remove a screenshot:
 
@@ -71,7 +71,7 @@ Click the delete on the asset.
 
 ![](assets/chlimage_1-35.png)
 
-### The Next Steps {#the-next-steps}
+## The Next Steps {#the-next-steps}
 
 See the following resources to learn more about other authoring roles:
 
