@@ -27,7 +27,7 @@ Suppose the header for the comment component must display with an alternate appe
 
 To implement this solution, create a new component that extends (overrides) the existing one and modify the Handlebars script. The area of the site that uses the new comments can use the extended one, while the sites that use the default appearance remain unaffected.
 
-The comment component is actually one of two components which comprise the comment system. Thus, there are two components to extend : *comments* and *comment*. The script to edit is in the *comment *component's `header.hbs` file, while the parent *comments* component (the comment system) is what an author actually adds to the page.
+The comment component is actually one of two components which comprise the comment system. Thus, there are two components to extend: *comments* and *comment*. The script to edit is in the *comment *component's `header.hbs` file, while the parent *comments* component (the comment system) is what an author actually adds to the page.
 
 To extend comments you will need to:
 

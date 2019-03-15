@@ -17,12 +17,12 @@ The social component framework (SCF) simplifies the process of configuring, cust
 
 The benefits of the framework are that it is ...
 
-* functional : out-of-the-box ease of integration with little or no customization for 80% of use cases
-* skinnable : consistent use of HTML attributes for CSS styling
-* extensible : component implementation is object-oriented and light on business logic - easy to add incremental business login on server
-* flexible : simple logic-less javascript templates that are easily overlayed and customized
-* accessible : the HTTP API supports posting from any client, including mobile apps
-* portable : integrate/embed into any webpage built on any technology
+* functional: out-of-the-box ease of integration with little or no customization for 80% of use cases
+* skinnable: consistent use of HTML attributes for CSS styling
+* extensible: component implementation is object-oriented and light on business logic - easy to add incremental business login on server
+* flexible: simple logic-less javascript templates that are easily overlayed and customized
+* accessible: the HTTP API supports posting from any client, including mobile apps
+* portable: integrate/embed into any webpage built on any technology
 
 Explore on an author or publish instance using the interactive [Community Components guide](../../communities/using/components-guide.md).
 
@@ -112,7 +112,7 @@ This framework endpoint pattern makes CUD operations extensible, reusable and te
 
 **`POST Request`**
 
-There is a Sling POST :operation for every SocialComponent operation. The business logic and maintenance code for each operation are wrapped in an OperationService which is accessible through the HTTP API or from elsewhere as an OSGi service. Hooks are provided supporting pluggable operation extensions for before/after actions.
+There is a Sling POST:operation for every SocialComponent operation. The business logic and maintenance code for each operation are wrapped in an OperationService which is accessible through the HTTP API or from elsewhere as an OSGi service. Hooks are provided supporting pluggable operation extensions for before/after actions.
 
 ![](assets/chlimage_1-27.png) 
 
@@ -164,7 +164,7 @@ Including a component refers to the process of adding a reference to a ["non-exi
 
 As of AEM 6.1, when a component is dynamically included instead of added, it is possible to edit the component's properties in author *design *mode.
 
-Only a select few of the AEM Communities components may be dynamically included. They are :
+Only a select few of the AEM Communities components may be dynamically included. They are:
 
 * [comments](../../communities/using/essentials-comments.md)
 * [rating](../../communities/using/rating-basics.md)
@@ -173,11 +173,11 @@ Only a select few of the AEM Communities components may be dynamically included.
 
 The [Community Components Guide](../../communities/using/components-guide.md) allows includable components to be toggled from being added to being included.
 
-**When using Handlebars** templating language, the non-existing resource is included using the [include helper](../../communities/using/handlebars-helpers.md#include) by specifying its resourceType :
+**When using Handlebars** templating language, the non-existing resource is included using the [include helper](../../communities/using/handlebars-helpers.md#include) by specifying its resourceType:
 
 `{{include this.id path="comments" resourceType="social/commons/components/hbs/comments"}}`
 
-**When using JSP**, a resource is included using the tag [cq:include](../../sites/developing/using/taglib.md#lt-cq-include) :
+**When using JSP**, a resource is included using the tag [cq:include](../../sites/developing/using/taglib.md#lt-cq-include):
 
 ```
 <cq:include path="votes" 
@@ -213,7 +213,7 @@ The following are recommended conventions for defining and using CSS classes:
 
 ### Client-Side Customizations {#client-side-customizations}
 
-For customizing the appearance and behavior of a Communities component on the client-side, reference [Client-Side Customizations](../../communities/using/client-customize.md), which includes information on :
+For customizing the appearance and behavior of a Communities component on the client-side, reference [Client-Side Customizations](../../communities/using/client-customize.md), which includes information on:
 
 * [Overlays](../../communities/using/client-customize.md#overlays)
 * [Extensions](../../communities/using/client-customize.md#extensions)

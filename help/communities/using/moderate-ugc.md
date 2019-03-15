@@ -15,18 +15,18 @@ discoiquuid: d11b8fc8-5e98-4a77-a536-d445ac88e1b3
 
 ## Overview {#overview}
 
-Community content, also known as user generated content (UGC), is created when a member (signed in site visitor) posts content from a published community site through interaction with one of the following community components :
+Community content, also known as user generated content (UGC), is created when a member (signed in site visitor) posts content from a published community site through interaction with one of the following community components:
 
-* [blog](../../communities/using/blog-feature.md) : members post a blog article or comment
-* [calendar](../../communities/using/calendar.md) : members post a calendar event or comment
-* [comments](../../communities/using/comments.md) : members post a comment or reply to a comment  
+* [blog](../../communities/using/blog-feature.md): members post a blog article or comment
+* [calendar](../../communities/using/calendar.md): members post a calendar event or comment
+* [comments](../../communities/using/comments.md): members post a comment or reply to a comment  
 
-* [forum](../../communities/using/forum.md) : members post a new topic or reply to a topic
-* [ideation](../../communities/using/ideation-feature.md) : members post an idea or comment
-* [QnA](../../communities/using/working-with-qna.md) : members create a question or answer a question
-* [reviews](../../communities/using/reviews.md) : members post a comment when rating an item
+* [forum](../../communities/using/forum.md): members post a new topic or reply to a topic
+* [ideation](../../communities/using/ideation-feature.md): members post an idea or comment
+* [QnA](../../communities/using/working-with-qna.md): members create a question or answer a question
+* [reviews](../../communities/using/reviews.md): members post a comment when rating an item
 
-Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments : [](../../communities/using/working-with-srp.md)
+Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments: [](../../communities/using/working-with-srp.md)
 
 * [bulk moderation console](../../communities/using/moderation.md)  
   The Moderation console is accessible by administrators and [community moderators](../../communities/using/users.md) in the public environment as well as by administrators in the author environment. This is possible when community content is stored in a [common store](../../communities/using/working-with-srp.md).
@@ -36,7 +36,7 @@ Moderation of UGC is useful for recognizing positive contributions as well as li
 
 ## Moderation Actions {#moderation-actions}
 
-The actions which can be performed on posted content (UGC) varies depending on the user identity and the environment. The table below uses the following terminology to describe the various roles according to user identity :
+The actions which can be performed on posted content (UGC) varies depending on the user identity and the environment. The table below uses the following terminology to describe the various roles according to user identity:
 
 * `Admin`  
   a user who is a member of [community-administrators](../../communities/using/users.md) group
@@ -176,7 +176,7 @@ The Allow action is an option for UGC that has been Flagged, Denied or has not b
 
 ### Premoderation {#premoderation}
 
-When UGC is premoderated, the post will not appear on the published site until approved by a moderation action. During creation of a [community site](../../communities/using/sites-console.md), checking the box ` [Content is Premoderated](../../communities/using/sites-console.md#moderation)` will enable premoderation for the entire site. Once components are placed on a page, components which support moderation can be configured for premoderation using a setting in their edit dialog :
+When UGC is premoderated, the post will not appear on the published site until approved by a moderation action. During creation of a [community site](../../communities/using/sites-console.md), checking the box ` [Content is Premoderated](../../communities/using/sites-console.md#moderation)` will enable premoderation for the entire site. Once components are placed on a page, components which support moderation can be configured for premoderation using a setting in their edit dialog:
 
 * [comments](../../communities/using/comments.md) and [reviews](../../communities/using/reviews.md)  
   on **User Moderation** tab, check **Pre-Moderation**
@@ -221,10 +221,10 @@ The value the rules generate are from 1 (all negative, no positive words) to 10 
 
 The rules defined in the /libs component are:
 
-* Rule 1 : set value to 1 if there are no positive words and at least one negative word
-* Rule 2 : set value to 10 if there are no negative words and at least one positive word
-* Rule 3 : set value to 3 if there are more negative words than positive words
-* Rule 4 : set value to 8 if there are more positive words than negative words
+* Rule 1: set value to 1 if there are no positive words and at least one negative word
+* Rule 2: set value to 10 if there are no negative words and at least one positive word
+* Rule 3: set value to 3 if there are more negative words than positive words
+* Rule 4: set value to 8 if there are more positive words than negative words
 
 To overwrite or add rules, create a set of rules in the /apps directory following the structure of the default rules. Edit the sentiment configuration to identify the location of the rules.
 
@@ -244,7 +244,7 @@ The default list of watchwords may be entered as properties of a node in the res
 
 The **sentimentprocess.name** may also be modifed to reference the location of a custom set of sentiment rules.
 
-To configure sentiment and watchwords :
+To configure sentiment and watchwords:
 
 * on an author instance
 * sign in as administrator
@@ -272,7 +272,7 @@ Following is an example of a custom entry for the default watchwords, when `Expl
 
 ### Moderator Permissions {#moderator-permissions}
 
-The following permissions, when assigned to the same resource, are collectively referred to as **`moderator permissions`** :
+The following permissions, when assigned to the same resource, are collectively referred to as **`moderator permissions`**:
 
 * `Read`
 * **`Modify`**

@@ -19,14 +19,14 @@ This section of the AEM Communities documentation is in addition to:
 
 * [How to Build AEM Projects using Apache Maven](../../sites/developing/using/ht-projects-maven.md)
 
-There are now two "uber" artifacts that replace individual artifacts :
+There are now two "uber" artifacts that replace individual artifacts:
 
 * AEM [Communities API jar](#communities-api-jar-artifact)
 * AEM [Uber API jar](../../sites/developing/using/ht-projects-maven.md#what-is-the-uberjar)
 
 ## Communities API Jar Artifact {#communities-api-jar-artifact}
 
-Following is an example of a GAV for the AEM Communities API jar :
+Following is an example of a GAV for the AEM Communities API jar:
 
 ```xml
 <dependency>
@@ -38,7 +38,7 @@ Following is an example of a GAV for the AEM Communities API jar :
 
 ```
 
-The version specified should correspond to the Communities package version installed for AEM Communities. To verify the installed version number :
+The version specified should correspond to the Communities package version installed for AEM Communities. To verify the installed version number:
 
 * login with adminstrative privileges
 * browse to [Package Manager](../../sites/administering/using/package-manager.md)  

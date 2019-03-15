@@ -140,7 +140,7 @@ Whenever data is to be installed on or fetched from publishers, then the author 
   <li>Locate <strong>Adobe Granite Distribution - Encrypted Password Transport Secret Provider.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify property 
    <g class="gr_ gr_122 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" data-gr-id="122" id="122">
-     name : 
+     name: 
    </g> <strong> 
     <g class="gr_ gr_15 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="15" id="15">
       socialpubsync 
@@ -184,7 +184,7 @@ This configuration is used to configure the data you want to sync across publish
 ### Adobe Granite Distribution - Diff Observer Factory {#adobe-granite-distribution-diff-observer-factory}
 
 This configuration syncs group membership across publishers.   
-If changing the membership of a group in one publisher does not update its membership on other publishers, then ensure that **ref  :members ** is  added to **looked properties names**.
+If changing the membership of a group in one publisher does not update its membership on other publishers, then ensure that **ref:members ** is  added to **looked properties names**.
 
 <details> 
  <summary>To ensure member synchronization</summary> 
@@ -200,7 +200,7 @@ If changing the membership of a group in one publisher does not update its membe
   <li>Select the <strong>Enabled </strong>checkbox.</li> 
   <li>Specify <strong>rep 
     <g class="gr_ gr_25 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="25" id="25">
-      :members 
+:members 
     </g> </strong>as 
    <g class="gr_ gr_24 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="24" id="24">
      description 
@@ -226,7 +226,7 @@ The author polls publishers every 30 seconds (default). If any packages are pres
  <ul> 
   <li>select the existing configuration to open for edit (pencil icon)<br /> Verify 
    <g class="gr_ gr_13 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" data-gr-id="13" id="13">
-     Name : 
+     Name: 
    </g> <strong> 
     <g class="gr_ gr_12 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="12" id="12">
       socialpubsync 
@@ -272,7 +272,7 @@ For issues in Sling distribution where there is a discrepancy in subscriptions a
       ignorablenodes 
     </g></strong> to:<br /> .tokens<br /> system<br /> rep 
    <g class="gr_ gr_61 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="61" id="61">
-     :cache 
+:cache 
    </g> (since we use sticky sessions, we need not sync this node to different publishers)</li> 
  </ol> 
  <img imageRotate="0" src="assets/user-sync-listner.png" /> 
@@ -307,7 +307,7 @@ Make sure all the publishers in a publish farm have a unique Sling ID. If the Sl
 For updates to sync properly, it is necessary to modify the vault package builder for user sync.  
 In **/home/users**, a **&#42;/rep:cache **node is created. It is a cache which is used to find that if we query on the principal name of a node then this cache can be used directly.
 
-User synchronization can stop if `rep  :cache `nodes are synced across publishers.
+User synchronization can stop if `rep:cache `nodes are synced across publishers.
 
 <details> 
  <summary>To ensure that updates are synced properly across publishers</summary> 
@@ -325,7 +325,7 @@ User synchronization can stop if `rep  :cache `nodes are synced across publisher
    <ul> 
     <li>to overwrite existing rep 
      <g class="gr_ gr_93 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="93" id="93">
-       :policy 
+:policy 
      </g> nodes with new ones, add a third Package Filter:<br /> /home/users|<strong>+</strong>.*/rep:policy</li> 
     <li>to prevent policies from being distributed, set<br /> Acl Handling: IGNORE</li> 
    </ul> </li> 
@@ -343,12 +343,12 @@ If Sling distribution fails, try the following debugging steps:
 
    To validate this, instead of the [created authorized user](../../sites/administering/using/sync.md#createauthuser) change the [Adobe Granite Distribution - Encrypted Password Transport Secret Provider](../../sites/administering/using/sync.md#adobegraniteencpasswrd) configuration on Author instance to use Admin user credentials. Now try installing the packages again. If the user sync works fine with administrator credentials, then it means that the created publish user did not have appropriate ACLs.
 
-1. **Check Diff Observer Factory configuration**. If only specific nodes are not synced across the publish farm- for example, group members are not synchronized- then ensure that the [Adobe Granite Distribution - Diff Observer Factory](../../sites/administering/using/sync.md#diffobserver) configuration is enabled and **rep  :members ** are set in **looked properties names**.
+1. **Check Diff Observer Factory configuration**. If only specific nodes are not synced across the publish farm- for example, group members are not synchronized- then ensure that the [Adobe Granite Distribution - Diff Observer Factory](../../sites/administering/using/sync.md#diffobserver) configuration is enabled and **rep:members ** are set in **looked properties names**.
 1. **Check AEM Communities User Sync Listener configuration. **If the created users are synced but subscriptions and follows are not working, then ensure that AEM Communities User Sync Listener configuration has:
 
-    * Node types- set to **rep:User,  nt :unstructured**, ** nt :resource**, **rep:ACL**, **sling:Folder**, and **sling:OrderedFolder**
+    * Node types- set to **rep:User,  nt:unstructured**, ** nt:resource**, **rep:ACL**, **sling:Folder**, and **sling:OrderedFolder**
     
-    * Ignorable nodes- set to **.tokens**, **system**, and **rep  :cache **
+    * Ignorable nodes- set to **.tokens**, **system**, and **rep:cache **
     
     * Distributed Folders- set to the folders which you want to be distributed
 

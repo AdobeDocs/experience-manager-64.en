@@ -15,7 +15,7 @@ discoiquuid: d355a3ee-c8a8-4a07-8d28-d1a99bda315c
 
 When AEM Communities components are configured with tagging enabled, community members are able to tag the content they post in the publish environment.
 
-The underlying infrastructure for tags applied in the publish environment is the same as for tags applied to content in the author environment, such as pages and assets :
+The underlying infrastructure for tags applied in the publish environment is the same as for tags applied to content in the author environment, such as pages and assets:
 
 * See [Administering Tags](../../sites/administering/using/tags.md) and [Tagging User Generated Content](../../communities/using/tag-ugc.md) (UGC) for information about creating and managing tags.
 
@@ -25,7 +25,7 @@ The underlying infrastructure for tags applied in the publish environment is the
 
 * See [Tagging Enablement Resources](../../communities/using/tag-resources.md) for information on tagging resources for catalogs.
 
-Tagging of UGC may be enabled when configuring a [community site](../../communities/using/sites-console.md#tagging) or one of the following features :
+Tagging of UGC may be enabled when configuring a [community site](../../communities/using/sites-console.md#tagging) or one of the following features:
 
 * [blog](../../communities/using/blog-feature.md)
 * [calendar](../../communities/using/calendar.md)

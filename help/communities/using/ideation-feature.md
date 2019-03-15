@@ -13,9 +13,9 @@ discoiquuid: 7c0a9120-2edb-431b-b460-68398832d5ec
 
 # Ideation Feature{#ideation-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
-The ideation feature provides an area for signed-in site visitors (community members) in the publish environment to :
+The ideation feature provides an area for signed-in site visitors (community members) in the publish environment to:
 
 * create ideas to share with the community
 * view and comment on ideas
@@ -27,7 +27,7 @@ This section of the documentation describes
 * adding the ideation feature to an AEM site
 * configuration settings for the Ideation component
 
-### Adding a Ideation to a Page {#adding-a-ideation-to-a-page}
+## Adding a Ideation to a Page {#adding-a-ideation-to-a-page}
 
 To add a `Ideation` component to a page in author mode, use the component browser to locate
 
@@ -37,19 +37,19 @@ and drag it into place on a page where the idea should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/ideation.md#essentials-for-client-side) are included, this is how the `Ideation`component will appear :
+When the [required client-side libraries](../../communities/using/ideation.md#essentials-for-client-side) are included, this is how the `Ideation`component will appear:
 
 ![](assets/chlimage_1-29.png)
 
-### Configuring an Ideation {#configuring-an-ideation}
+## Configuring an Ideation {#configuring-an-ideation}
 
 Select the placed `Ideation` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/chlimage_1-30.png) ![](assets/chlimage_1-31.png)
 
-#### Settings tab {#settings-tab}
+### Settings tab {#settings-tab}
 
-Under the **Settings **tab, specify settings for ideas and comments :
+Under the **Settings **tab, specify settings for ideas and comments:
 
 * **Ideation Title** 
   The display title for the idea. Default is `Ideation`.
@@ -79,7 +79,7 @@ Under the **Settings **tab, specify settings for ideas and comments :
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
 * **Allowed File Types** 
-  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that** **all file types are allowed.
+  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that** **all file types are allowed.
 
 * **Max Attach Image File Size** 
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152** **(2 Mb).
@@ -105,7 +105,7 @@ Under the **Settings **tab, specify settings for ideas and comments :
 * **Allow Featured Content** 
   if checked, the idea is able to be identified as [featured content](../../communities/using/featured.md). Default is unchecked.
 
-#### User Moderation tab {#user-moderation-tab}
+### User Moderation tab {#user-moderation-tab}
 
 Under the **User Moderation **tab, specify how the posted ideas and comments (user generated content) are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
 
@@ -130,7 +130,7 @@ Under the **User Moderation **tab, specify how the posted ideas and comments (us
 * **Flagging Limit** 
   Enter the number of times a topic or comment has to be flagged before it is hidden from public view. If set to -1, the flagged topic or comment is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.
 
-#### Tag field tab {#tag-field-tab}
+### Tag field tab {#tag-field-tab}
 
 Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings **tab, are limited according to namespaces chosen.
 
@@ -140,12 +140,12 @@ Under the **Tag field** tab, the tags which may be applied, if allowed under the
 * **Suggestion Limit** 
   Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of **-**1 means no limit. Default is 0.
 
-#### Sort Settings tab {#sort-settings-tab}
+### Sort Settings tab {#sort-settings-tab}
 
 Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
 
 * **Sort By** 
-  Check all allowed sort selections : `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.
+  Check all allowed sort selections: `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.
 
 * **Set as Default** 
   Pull down to select one of the checked sort options to appear as the default. Default is `Newest`.
@@ -169,7 +169,7 @@ By selecting the `Save as Draft` button, a draft is saved.
 
 ![](assets/chlimage_1-33.png)
 
-When viewing saved drafts in the `My Drafts` tab, select `Read More` to re-enter edit mode :
+When viewing saved drafts in the `My Drafts` tab, select `Read More` to re-enter edit mode:
 
 ![](assets/chlimage_1-34.png)
 

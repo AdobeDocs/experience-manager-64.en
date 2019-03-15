@@ -15,7 +15,7 @@ discoiquuid: 3acac082-efbe-4995-b374-851cb9aaf62d
 
 The search feature works with various other features, such as forums, to provide the ability to search for content.
 
-When adding the ability to search posts entered by community members, referred to as user generated content (UGC), there are two components : [ `Search`](#search) and [ `Search Results`](#search-results).
+When adding the ability to search posts entered by community members, referred to as user generated content (UGC), there are two components: [ `Search`](#search) and [ `Search Results`](#search-results).
 
 The page that includes the `Search Results` component supports both searching and the display of results.
 
@@ -50,7 +50,7 @@ Under the **Search Settings **tab, specify how what paths are are search when a 
 ![](assets/chlimage_1-375.png)
 
 * **Search Paths** 
-  By adding search paths using the Add Item button, the content search is limited. As an example, to limit the search to a specific forum, select a forum component placed within a page :
+  By adding search paths using the Add Item button, the content search is limited. As an example, to limit the search to a specific forum, select a forum component placed within a page:
 
     * /content/community-components/en/forum/jcr:content/content/forum
 
@@ -71,7 +71,7 @@ If using Search elsewhere within the website, this one page with `Search Results
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the required client-side library, `cq.social.hbs.search`, is included, this is how the `Search Result` component will appear :
+When the required client-side library, `cq.social.hbs.search`, is included, this is how the `Search Result` component will appear:
 
 ![](assets/chlimage_1-376.png)
 

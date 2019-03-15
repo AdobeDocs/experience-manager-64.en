@@ -89,12 +89,12 @@ Be sure to follow the [Security Checklist](../../sites/administering/using/secur
 
 In the publish environment, depending on the [settings](../../communities/using/sites-console.md#user-management) of the community site, a site visitor may become a community member
 
-* when the community site is private (closed) :
+* when the community site is private (closed):
 
     * by invitation
     * by actions of an administrator
 
-* when the community site is public (open) :
+* when the community site is public (open):
 
     * by self-registration
     * by social login with Facebook and Twitter
@@ -130,7 +130,7 @@ The privileged members group is a member group created and managed using the [Co
 
 After a privileged members group is created, and with the [tunnel service enabled](../../communities/using/sync.md#accessingpublishusersfromauthor), an existing community site's structure may be [modified](../../communities/using/sites-console.md#modify-structure) to edit the configuration of its community functions to 'Allow Privileged Members' and add the created group.
 
-The community functions which allow specification of one or more privileged members groups are :
+The community functions which allow specification of one or more privileged members groups are:
 
 * [blog function](../../communities/using/functions.md#blog-function) - to restrict creation of new articles
 * [calendar function](../../communities/using/functions.md#calendar-function) - to restrict creation of new events
@@ -157,7 +157,7 @@ Using the [Communities Members and Groups consoles](../../communities/using/memb
 
 To specify a custom path requires use of the classic security UI, which is accessible at [http://&lt;server&gt;:&lt;port&gt;/useradmin](http://localhost:4503/useradmin).
 
-To give read privileges for custom member paths, on all publish instances set ACLs similar to `/home/users/community` :
+To give read privileges for custom member paths, on all publish instances set ACLs similar to `/home/users/community`:
 
 ```xml
 <allow
@@ -170,7 +170,7 @@ To give read privileges for custom member paths, on all publish instances set AC
 </allow>
 ```
 
-To give the proper privileges for custom member group paths, such as /home/groups/mycompany, on all publish instances set ACLs similar to `/home/groups/community` :
+To give the proper privileges for custom member group paths, such as /home/groups/mycompany, on all publish instances set ACLs similar to `/home/groups/community`:
 
 ```xml
 <allow
@@ -215,7 +215,7 @@ The ability for a site visitor to self register is typically not allowed for an 
 
 Only users who are members of the global `Community Enablement Managers` group may be selected as an `enablement manager` for a specific community site.
 
-To create a user who may be assigned the role of `Community Site Enablement Manager`, use the classic UI security console in order to specify the path :
+To create a user who may be assigned the role of `Community Site Enablement Manager`, use the classic UI security console in order to specify the path:
 
 * on an author instance
 * signed in with administrator privileges
@@ -232,13 +232,13 @@ To create a user who may be assigned the role of `Community Site Enablement Mana
 
 ![](assets/chlimage_1-130.png)
 
-* In the left pane :
+* In the left pane:
 
     * search for the newly created user and select to display in the right pane
 
 ![](assets/chlimage_1-131.png)
 
-In the left pane :
+In the left pane:
 
 * clear the search box and select **Hide Users**
 * locate and drag `community-enablementmanagers` to the **Groups **tab of the new user displayed in the right pane
@@ -264,13 +264,13 @@ Following are some configuration details specific for community members and memb
 
 1. [the Synchronization Handler](../../sites/administering/using/ldap-config.md#configuring-the-synchronization-handler)
 
-    * set the following properties :
+    * set the following properties:
 
-        * **User auto membership**&#42; : `community-*<site name>-<uid>*-members`
+        * **User auto membership**&#42;: `community-*<site name>-<uid>*-members`
         
-        * **User Path Prefix** : `/community`
+        * **User Path Prefix**: `/community`
         
-        * **Group Path Prefix** : `/community`
+        * **Group Path Prefix**: `/community`
 
 1. [the External Login Module](../../sites/administering/using/ldap-config.md#the-external-login-module)
 
@@ -290,7 +290,7 @@ While the syncing of user groups through user sync will be included in a future 
 
 ## About Community Groups {#about-community-groups}
 
-When discussing groups, there are two distinct topics :
+When discussing groups, there are two distinct topics:
 
 * ** [community groups](../../communities/using/overview.md#communitygroups)** 
   These are sub-communities which may be created in the publish environment for a community site which supports creation of community groups. Creation of a community group results in more pages added to the website and are managed in a manner similar to their parent community site. For more information visit [Community Group Essentials](../../communities/using/essentials-groups.md) for developers and [Community Group](../../communities/using/creating-groups.md) for authors.

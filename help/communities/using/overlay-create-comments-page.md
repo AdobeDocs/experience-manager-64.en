@@ -16,11 +16,11 @@ discoiquuid: b3cb8f12-197e-4f5e-bd7d-70b55e76b0ca
 | ** [⇐ Overlay Comments Component](../../communities/using/overlay-comments.md)** |** [Create Nodes ⇒](../../communities/using/overlay-create-nodes.md)** |
 |---|---|
 
-### Comments Page {#comments-page}
+## Comments Page {#comments-page}
 
 The [Community Components guide](../../communities/using/components-guide.md) provides the ability to easily experience overlaying the comments component.
 
-View the page on the author instance :
+View the page on the author instance:
 
 * [http://localhost:4502/editor.html/content/community-components/en/comments.html](http://localhost:4502/editor.html/content/community-components/en/comments.html)
 

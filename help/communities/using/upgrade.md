@@ -48,7 +48,7 @@ For all AEM 6.3 author and publish instances
 
 * sign in with administrator privileges
 * configure [ASRP](../../communities/using/asrp.md)
-* follow these steps to make pre-existing UGC visible :
+* follow these steps to make pre-existing UGC visible:
 
     * browse to the web console
 
@@ -67,7 +67,7 @@ For all AEM 6.3 author and publish instances
 
 If the upgraded site did not use cloud storage, any pre-existing UGC must be converted to conform to the new structure introduced in AEM 6.1 Communities in support of the common store.
 
-For this purpose, an open source migration tool is available on GitHub :  
+For this purpose, an open source migration tool is available on GitHub:  
 [AEM Communities UGC Migration Tool](https://github.com/Adobe-Marketing-Cloud/communities-ugc-migration)
 
 ### Java APIs {#java-apis}
@@ -94,10 +94,10 @@ In additin to moving UGC from earlier versions, it is also possible to use the t
 
 ## Upgrading from AEM 5.6.1 or Earlier {#upgrading-from-aem-or-earlier}
 
-Conceptually, there are three generations of communities components :
+Conceptually, there are three generations of communities components:
 
-**Gen 1** : roughly CQ 5.4 through AEM 5.6.0 - these are the **collab** components which stored UGC in the local repository using replication as a means of synchronizing UGC across platforms. Other differences involve the implementation using Java Server Pages (JSP) as well as the blog feature consisting of authoring only in the author environment.
+**Gen 1**: roughly CQ 5.4 through AEM 5.6.0 - these are the **collab** components which stored UGC in the local repository using replication as a means of synchronizing UGC across platforms. Other differences involve the implementation using Java Server Pages (JSP) as well as the blog feature consisting of authoring only in the author environment.
 
-**Gen 2** : from AEM 5.6.1 through AEM 6.1 - this is a mix of **collab** and **social** components. AEM 6.0 introduced the new [social component framework](../../communities/using/scf.md) (SCF) and AEM 6.2 introduced a [common UGC store](../../communities/using/working-with-srp.md) where UGC is accessed using a [storage resource provider](../../communities/using/srp.md) (SRP).
+**Gen 2**: from AEM 5.6.1 through AEM 6.1 - this is a mix of **collab** and **social** components. AEM 6.0 introduced the new [social component framework](../../communities/using/scf.md) (SCF) and AEM 6.2 introduced a [common UGC store](../../communities/using/working-with-srp.md) where UGC is accessed using a [storage resource provider](../../communities/using/srp.md) (SRP).
 
-**Gen 3** : from AEM 6.2 forward, there are only **social** components, implemented in SCF as Handlebars (HBS) components requiring a choice of SRP for UGC.
+**Gen 3**: from AEM 6.2 forward, there are only **social** components, implemented in SCF as Handlebars (HBS) components requiring a choice of SRP for UGC.

@@ -65,7 +65,7 @@ Success Status:
 * Pass
 * Fail
 
-The only possible Combinations of Completion and Success Status are :
+The only possible Combinations of Completion and Success Status are:
 
 | **Completion** |**Success** |
 |---|---|

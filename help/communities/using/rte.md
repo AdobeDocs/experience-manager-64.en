@@ -48,15 +48,15 @@ The current configuration for Communities components is in the `cq.social.  scf 
 
 Modifying the cq.social.scf clientlib is not recommended as future upgrades may override any edits.
 
-### Example Customization : Inline Links {#example-customization-inline-links}
+### Example Customization: Inline Links {#example-customization-inline-links}
 
 Due to security concerns, the hyperlink options are not included in the set of rich text icons presented to members by default. The ability for mischief is extensive when hrefs are allowed in UGC.
 
-To add the hyperlink options to the toolbar :
+To add the hyperlink options to the toolbar:
 
 * add a toolbar named " `links`"
 
-    * `{ name: 'links', items : [ 'Link','Unlink','Anchor' ] }`
+    * `{ name: 'links', items: [ 'Link','Unlink','Anchor' ] }`
 
 * select **Save All**
 
@@ -69,7 +69,7 @@ CKRte.prototype.config = {
            items: ["Bold", "Italic", "Underline", "NumberedList", "BulletedList", "Outdent", "Indent", "JustifyLeft", "JustifyCenter", "JustifyRight", "JustifyBlock", "TextColor"]
         },
         { name: 'links', 
-           items : [ 'Link','Unlink','Anchor' ] 
+           items: [ 'Link','Unlink','Anchor' ] 
         }
     ],
     autoParagraph: false,

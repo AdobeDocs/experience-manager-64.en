@@ -23,7 +23,7 @@ The Site Templates console is very similar to the [Group Templates](../../commun
 
 In the author environment, to reach the community sites console
 
-* from global navigation : **Tools, Communities, Site Templates**
+* from global navigation: **Tools, Communities, Site Templates**
 
 This console displays the templates from which a [community site](../../communities/using/sites-console.md) can be created and allows new site templates to be created.
 
@@ -33,13 +33,13 @@ This console displays the templates from which a [community site](../../communit
 
 To get started creating a new site template, select `Create`.
 
-This will bring up the Site Editor panel which contains 3 sub-panels :
+This will bring up the Site Editor panel which contains 3 sub-panels:
 
-#### BASIC INFO {#basic-info}
+### Basic info {#basic-info}
 
 ![](assets/chlimage_1-19.png)
 
-On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured :
+On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured:
 
 * **Community Site Template Name ** 
   the template name id
@@ -50,13 +50,13 @@ On the Basic Info panel, a name, description and whether the template is enabled
 * **Disabled/Enabled** 
   a toggle switch controlling whether the template is referenceable
 
-#### THUMBNAIL {#thumbnail}
+### Thumbnail {#thumbnail}
 
 ![](assets/chlimage_1-20.png)
 
 (Optional) Select the Upload Image icon in order to display a thumbnail along with the name and description to creators of community sites.
 
-#### STRUCTURE {#structure}
+### Structure {#structure}
 
 ![](assets/chlimage_1-21.png)
 

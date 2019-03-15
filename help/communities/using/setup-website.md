@@ -16,7 +16,7 @@ discoiquuid: d18c0ece-4c4f-499c-ac94-a9aaa7f883c4
 | [**⇐ Create An SCF Sandbox**](../../communities/using/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](../../communities/using/initial-app.md)** |
 |---|---|
 
-To setup your website, the instructions below describe the folders to create in the following locations :
+To setup your website, the instructions below describe the folders to create in the following locations:
 
 * **/apps**/an-scf-sandbox  
   this is where custom applications and templates reside
@@ -31,16 +31,16 @@ The code in this tutorial will rely on the main folder name being the same for t
 
 >[!NOTE]
 >
->About names :
+>About names:
 >
 >* the names seen in CRXDE are node names which form the path to addressable content
 >* node names may contain spaces, but when used in an URI, the space must be encoded either as '%20' or '+'
->* node names may contain hyphens and underscores, but they must be encoded when referenced as a package name within a Java file. Both hyphens and underscores are escaped with underscore followed by their unicode value : >
+>* node names may contain hyphens and underscores, but they must be encoded when referenced as a package name within a Java file. Both hyphens and underscores are escaped with underscore followed by their unicode value: >
 >    * hypen becomes '_002d'  
 >    * underscore becomes '_005f'
 >
 
-### Setup the Application Directory (/apps) {#setup-the-application-directory-apps}
+## Set up the Application Directory (/apps) {#setup-the-application-directory-apps}
 
 The /apps directory in the repository contains the code with implements the behavior and rendering of the pages served from the /content directory.
 
@@ -89,20 +89,20 @@ The /apps directory is protected and not publicly accessible as are the /content
 
    ![](assets/chlimage_1-44.png)
 
-### Setup the Design Directory (/etc/designs) {#setup-the-design-directory-etc-designs}
+## Set up the Design Directory (/etc/designs) {#setup-the-design-directory-etc-designs}
 
 The /etc/designs directory contains the images, scripts, and stylesheets to be downloaded along with the page content.
 
 1. To use the Deisgner tool in the Classic UI, browse to [http://&lt;server&gt;:&lt;port&gt;/miscadmin](http://localhost:4502/miscadmin).
 
-   Note : If you use CRXDE Lite to create a Node of type `cq:Page`, the Access Control and Replication would not be set to default settings for a page.
+   Note: If you use CRXDE Lite to create a Node of type `cq:Page`, the Access Control and Replication would not be set to default settings for a page.
 
 1. In the explorer pane, select the **Designs **folder and then click **New &gt; New Page**.
 
    Enter:
 
-    * Title :** An SCF Sandbox**
-    * Name : **an-scf-sandbox**
+    * Title:** An SCF Sandbox**
+    * Name: **an-scf-sandbox**
     * select **Design Page Template**
 
    Click **Create**
@@ -117,7 +117,7 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
 
    ![](assets/chlimage_1-46.png)
 
-### Setup the Content Directory (/content) {#setup-the-content-directory-content}
+## Set up the Content Directory (/content) {#setup-the-content-directory-content}
 
 The /content directory in the respository is where the website content resides. The paths under /content comprise the paths of the URL for browser requests.
 

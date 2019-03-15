@@ -29,7 +29,7 @@ At the moment the action is taken to create a new community group, the group's t
 
 In the author environment, to reach the groups templates console
 
-* from global navigation : **Tools, Communities, Group Templates**
+* from global navigation: **Tools, Communities, Group Templates**
 
 This console displays the templates from which a [community site](../../communities/using/sites-console.md) can be created and allows new group templates to be created.
 
@@ -39,13 +39,13 @@ This console displays the templates from which a [community site](../../communit
 
 To get started creating a new group template, select `Create`
 
-This will bring up the Site Editor panel which contains 3 sub-panels :
+This will bring up the Site Editor panel which contains 3 sub-panels:
 
-#### Basic Info {#basic-info}
+### Basic Info {#basic-info}
 
 ![](assets/chlimage_1-96.png)
 
-On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured :
+On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured:
 
 * **New Group Template Name ** 
   the template name id
@@ -56,13 +56,13 @@ On the Basic Info panel, a name, description and whether the template is enabled
 * **Disabled/Enabled** 
   a toggle switch controlling whether the template is referenceable
 
-#### Thumbnail {#thumbnail}
+### Thumbnail {#thumbnail}
 
 ![](assets/chlimage_1-97.png)
 
 (Optional) Select the Upload Image icon in order to display a Thumbnail along with the Name and Description to creators of community sites.
 
-#### Structure {#structure}
+### Structure {#structure}
 
 >[!CAUTION]
 >

@@ -104,8 +104,8 @@ To create a new Translation Integration, which integrates a Translation Service 
 
 For detailed instructions visit [Creating a Translation Integration Configuration](../../sites/administering/using/tc-tic.md#creating-a-translation-integration-configuration)
 
-* **Sites** tab : can leave as defaults
-* **Communities** tab :
+* **Sites** tab: can leave as defaults
+* **Communities** tab:
 
     * **Translation Provider** 
       Select the translation provider from the drop down list. Default is `microsoft`, the trial service.
@@ -116,7 +116,7 @@ For detailed instructions visit [Creating a Translation Integration Configuratio
     * **Choose A Locale...** 
       (Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](../../communities/using/sites-console.md#translation) for the website. Choosing `No Common Store` will disable global translation. By default, global translation is disabled.
 
-* **Assets **tab : can leave as defaults
+* **Assets **tab: can leave as defaults
 * select **OK**
 
 #### Activation {#activation}

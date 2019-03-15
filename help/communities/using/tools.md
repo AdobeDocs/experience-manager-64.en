@@ -14,9 +14,9 @@ pagetitle: Communities Tools
 
 # Communities Tools{#communities-tools}
 
-On author, to access the Communities tools console :
+On author, to access the Communities tools console:
 
-* from global navigation : **Tools, Communities**
+* from global navigation: **Tools, Communities**
 
 ![](assets/chlimage_1-129.png)
 

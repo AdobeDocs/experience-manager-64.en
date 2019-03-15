@@ -15,7 +15,7 @@ discoiquuid: bbbe32bb-9d97-461e-822f-a7ddc6c9f9ef
 
 ## Introduction {#introduction}
 
-The QnA (questions and answers) forum feature provides an area for community members to ask and answer questions :
+The QnA (questions and answers) forum feature provides an area for community members to ask and answer questions:
 
 * create new questions
 * inline images (with support for drag and drop)
@@ -40,7 +40,7 @@ and drag it into place on a page where the QnA forum should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA`component will appear :
+When the [required client-side libraries](../../communities/using/qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA`component will appear:
 
 ![](assets/chlimage_1-280.png)
 
@@ -52,7 +52,7 @@ Select the placed `QnA` component to access and select the `Configure` icon whic
 
 #### Settings tab {#settings-tab}
 
-Under the **Settings **tab, specify settings for topics (questions) and replies (answers) :
+Under the **Settings **tab, specify settings for topics (questions) and replies (answers):
 
 * **Topics Per Page** 
   Defines the number of questions/posts shown per page. Default is 10.
@@ -76,7 +76,7 @@ Under the **Settings **tab, specify settings for topics (questions) and replies 
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
 * **Allowed File Types** 
-  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that** **all file types are allowed.
+  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that** **all file types are allowed.
 
 * **Max Attach Image File Size** 
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152** **(2 Mb).
@@ -151,7 +151,7 @@ Under the **Tag field** tab, the tags which may be applied, if allowed under the
 Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
 
 * **Sort By** 
-  Check all allowed sort selections : `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.
+  Check all allowed sort selections: `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.
 
 * **Set as Default** 
   Pull down to select one of the checked sort options to appear as the default. Default is `Newest`.
@@ -161,7 +161,7 @@ Under the **Sort Settings **tab, specify how the posted comments are sorted when
 
 ## Site Visitor Experience {#site-visitor-experience}
 
-#### Identifying Answers {#identifying-answers}
+### Identifying Answers {#identifying-answers}
 
 One answer can be marked as a correct or useful answer using the `Select Answer` button. Once a Question is marked as Answered, another answer cannot be selected until the first one has been unselected using the `Unmark Chosen Answer`button.
 
@@ -169,13 +169,13 @@ Once selected as a viable answer, it may be unselected using the `Unmark Chosen 
 
 Once an answer is selected as the viable answer, an indication that the question has been `Answered`is displayed next to the question topic on the main QnA page.
 
-#### Moderators and Administrators {#moderators-and-administrators}
+### Moderators and Administrators {#moderators-and-administrators}
 
 When the signed in user has moderator or administrator privileges, they are able to perform the moderation tasks permitted by the configuration of the component, regardless of who authored the question or answer.
 
 They also have the ability to identify answers.
 
-#### Members {#members}
+### Members {#members}
 
 When the site visitor is signed in, depending on the configuration, they may
 
@@ -184,11 +184,11 @@ When the site visitor is signed in, depending on the configuration, they may
 * may also flag others' questions or answers
 * may identify answers for questions they authored
 
-#### Anonymous {#anonymous}
+### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted questions and answers, translate them if supported, but may not add neither a question nor answer, nor flag others' posts.
 
-## Additional Information {#additional-information}
+# Additional Information {#additional-information}
 
 More information may be found on the [QnA Essentials](../../communities/using/qna-essentials.md) page for developers.
 

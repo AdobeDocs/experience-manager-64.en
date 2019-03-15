@@ -29,44 +29,44 @@ Communities features can be demonstrated using the [AEM Demo Machine](https://gi
 
 A community site is an AEM Site created using a simple wizard that results in a website with many common features pre-wired into the site.
 
-The [site creation wizard](../../communities/using/sites-console.md) :
+The [site creation wizard](../../communities/using/sites-console.md):
 
 * assembles features of the site, based on the selected [community site template](../../communities/using/sites.md) which is
 
     * built from [community functions](#community-functions)
     * optional [community groups](#communitygroups) feature
 
-* uses settings to configure :
+* uses settings to configure:
 
     * moderation
     * login
     * translation
 
-* provides essential features :
+* provides essential features:
 
-    * responsive design :  
+    * responsive design:  
       uses [Twitter Bootstrap themes](http://getbootstrap.com)
     
-    * login :  
+    * login:  
       self-registration, [social login](../../communities/using/social-login.md), user profiles
     
-    * notifications :  
+    * notifications:  
       members see events of relevance to them
-    * messaging :  
+    * messaging:  
       members may send or receive messages within the community site
-    * search :  
+    * search:  
       ability to search within the community site
-    * language switching :  
+    * language switching:  
       ability to select a language for a [multillingual site](../../sites/administering/using/translation.md)
     
-    * administration :  
+    * administration:  
       access for authorized members to moderate and manage users within the community site
 
-* eliminates many page-level authoring steps :
+* eliminates many page-level authoring steps:
 
-    * branding :  
+    * branding:  
       optional upload of a banner image for display on all pages of the community site
-    * navigation menu :  
+    * navigation menu:  
       navigation links are provided for the features included in the community site template
 
 To experience the ease of quickly creating a new community site, visit [Getting Started with AEM Communities](../../communities/using/getting-started.md).
@@ -77,17 +77,17 @@ To improve the performance and synchronization of community content, AEM Communi
 
 Community content is easily accessed through the storage resource provider (SRP), which provides a layer to separate access from the underlying topology and supports a common store for UGC.
 
-To learn more about community content persistence and recommended deployments visit :
+To learn more about community content persistence and recommended deployments visit:
 
-* [Community Content Storage](../../communities/using/working-with-srp.md) : discusses the available SRP storage options for UGC
+* [Community Content Storage](../../communities/using/working-with-srp.md): discusses the available SRP storage options for UGC
 * 
-* [Recommended Topologies](../../communities/using/topologies.md) : discusses topologies based on use case and SRP choice
+* [Recommended Topologies](../../communities/using/topologies.md): discusses topologies based on use case and SRP choice
 * 
-* [Upgrading to AEM 6.3 Communities](../../communities/using/upgrade.md) : provides useful information regarding UGC when moving to AEM 6.3.
+* [Upgrading to AEM 6.3 Communities](../../communities/using/upgrade.md): provides useful information regarding UGC when moving to AEM 6.3.
 
 ## Communities Consoles {#communities-consoles}
 
-In the author environment, the global navigation console provides access to the [Communities console](../../communities/using/consoles.md), which contains :
+In the author environment, the global navigation console provides access to the [Communities console](../../communities/using/consoles.md), which contains:
 
 * [Sites](../../communities/using/sites-console.md) console
 
@@ -116,7 +116,7 @@ In the author environment, the global navigation console provides access to the 
     * provides the ability to create enablement resources and learning paths
     * provides access to reports on enablement resources and learning paths
 
-The global tools console provides access to the following Communities tools :
+The global tools console provides access to the following Communities tools:
 
 * [Site Templates](../../communities/using/tools.md#sitetemplatesconsole) console
 
@@ -162,7 +162,7 @@ From the author environment, community groups (sub-communities) may be created w
 
 Creating a community group requires the selection of a community group template that provides the design of the community group page(s). When a Groups function is added to a template structure, it is configured to either specify one group template or to provide a choice of templates at the time a new community group is created.
 
-See also :
+See also:
 
 * [Site Groups console](../../communities/using/groups.md) - creating sub-communities in the author environment
 * [Group Templates console](../../communities/using/tools-groups.md) - creating site structure for groups
@@ -180,7 +180,7 @@ The [community components guide](../../communities/using/components-guide.md) is
 
 An engagement community is a community site focused on engaging customers to inform, solicit feedback, and allow customers to interact as community members.
 
-Features of an engagement community may include :
+Features of an engagement community may include:
 
 * login
 * messaging
@@ -204,7 +204,7 @@ To experience the ease of quickly creating a new engagement community, visit [Ge
 
 An enablement community is a community site that includes features for online learning.
 
-Features of an enablement community may include :
+Features of an enablement community may include:
 
 * all the features of an [engagement community](#engagement-community)
 * ability to assign content and learning resources to members and member groups

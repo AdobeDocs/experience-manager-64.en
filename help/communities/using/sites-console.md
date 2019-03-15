@@ -35,7 +35,7 @@ Before creating a community site, it is *required* to
 * identify the [primary publisher](../../communities/using/deploy-communities.md#primary-publisher)
 * [configure replication](../../communities/using/deploy-communities.md#replication-agents-on-author) when primary publisher port is not the default (4503)
 
-Best practice, to ensure the site is prepared to support many features, is to take the following steps :
+Best practice, to ensure the site is prepared to support many features, is to take the following steps:
 
 * install the [latest feature pack](../../communities/using/deploy-communities.md#latestfeaturepack)
 * enable [Adobe Analytics](../../communities/using/analytics.md) for AEM Communities
@@ -47,7 +47,7 @@ Best practice, to ensure the site is prepared to support many features, is to ta
 
 In the author environment, to reach the Communities Sites console
 
-* from global navigation :** Communities, Sites**
+* from global navigation:** Communities, Sites**
 
 The Communities Sites console displays any existing community sites. From this console, community sites may be created, edited, managed and deleted.
 
@@ -55,7 +55,7 @@ To create a new community site, select the **Create **icon.
 
 To access an existing community site, for the purpose of authoring, modifying, publishing, exporting, or adding a nested group, select the site's folder icon.
 
-For example, the following image shows the main Communities Sites console displaying the folders for two community sites : [enable](../../communities/using/getting-started-enablement.md) and [engage](../../communities/using/getting-started.md) :
+For example, the following image shows the main Communities Sites console displaying the folders for two community sites: [enable](../../communities/using/getting-started-enablement.md) and [engage](../../communities/using/getting-started.md):
 
 ![](assets/chlimage_1-448.png) 
 
@@ -69,7 +69,7 @@ The process is launched by selecting the `Create` button located at the top of t
 
 The creation process is a series of steps presented as panels containing a set of features to be configured (presented as sub-panels). It is possible to move forward to the **Next **step or **Back **to the previous step before committing the site in the final step.
 
-### Step 1 : Site Template {#step-site-template}
+### Step 1: Site Template {#step-site-template}
 
 ![](assets/newsitetemplate.png)
 
@@ -84,7 +84,7 @@ On the Site Template panel, the Title, Description, Site Root, Base Language, Na
 * **Community Site Root **: the root path to the site.  
   The default root is `/content/sites`, but the root may be moved to any location within the web site.
 
-* **Community Site Base Language** : (leave untouched for single language : English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
+* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
 * **Community Site Name **: the name of the site's root page which appears in the URL
 
@@ -98,9 +98,9 @@ On the Site Template panel, the Title, Description, Site Root, Base Language, Na
 
 Select **Next**
 
-### Step 2 : Design {#step-design}
+### Step 2: Design {#step-design}
 
-The Design panel contains 2 sub-panels for selecing the theme and branding banner :
+The Design panel contains 2 sub-panels for selecing the theme and branding banner:
 
 #### COMMUNITY SITE THEME {#community-site-theme}
 
@@ -120,7 +120,7 @@ Community site branding is an image displayed as a header across the top of each
 
 The image should be sized to be as wide as the expected display of the page in the browser and 120 pixels in height.
 
-When creating or selecting an image, keep in mind :
+When creating or selecting an image, keep in mind:
 
 * the image height will be cropped to 120 pixels measured from the top edge of the image
 * the image is pinned to the left edge of the browser window
@@ -131,7 +131,7 @@ When creating or selecting an image, keep in mind :
 
 Select **Next**.
 
-### Step 3 : Settings {#step-settings}
+### Step 3: Settings {#step-settings}
 
 The Settings panel contains several sub-panels presenting features to configure before moving to the last step to create the site.
 
@@ -204,7 +204,7 @@ The tags which may be applied to community content are controlled by selecting T
 
 In addition, selecting tag namespaces for the community site limits the selection presented when defining catalogs and resources. See [Tagging Enablement Resources](../../communities/using/tag-resources.md) for important information.
 
-* text search box : start typing to identify tags allowed to be used on the site
+* text search box: start typing to identify tags allowed to be used on the site
 
 #### ROLES {#roles}
 
@@ -241,7 +241,7 @@ The global setting for moderating user generated content (UGC) is controlled by 
 
 * **Enable Analytics** 
   Only available when Adobe Analytics has been [configured](../../communities/using/analytics.md) for Communities features.  
-  Default is unchecked. When checked, an additional selection menu appears :
+  Default is unchecked. When checked, an additional selection menu appears:
 
 ![](assets/chlimage_1-454.png)
 
@@ -312,13 +312,13 @@ The `ENABLEMENT`settings are applicable when the chosen community site template 
 
 Select **Next**.
 
-### Step 4 : Create Communities Site {#step-create-communities-site}
+### Step 4: Create Communities Site {#step-create-communities-site}
 
 If any adjustments are needed, use the **Back **button to make them.
 
 Once **Create** is selected and started, the process of creating the site cannot be interrupted.
 
-Once the site is created :
+Once the site is created:
 
 * changing the url (node name) is not supported
 * future changes to the community site template will not affect the created community site
@@ -331,7 +331,7 @@ When the process completes, the folder for the new site is displayed in the Comm
 
 ![](assets/chlimage_1-459.png)
 
-In order to modify a community site, select its project folder to open it :
+In order to modify a community site, select its project folder to open it:
 
 ![](assets/siteactions-2.png)
 
@@ -377,7 +377,7 @@ Instead, the [STRUCTURE](#modify-structure) of the community site may be modifie
 The STRUCTURE panel allows the modification of the structure initially created from the selected community site template. From the panel, it is possible to
 
 * drag-and-drop additional [community functions](../../communities/using/functions.md) into the site structure
-* on an instance of a community function in the site structure :
+* on an instance of a community function in the site structure:
 
     * **`gear icon`** 
       edit settings, including the display title and URL name&#42;  
@@ -405,13 +405,13 @@ The STRUCTURE panel allows the modification of the structure initially created f
 >
 >Any other function, such as the [page function](../../communities/using/functions.md#page-function), must be included and listed first.
 
-#### Example : Adding a Catalog Function to a Community Site Structure {#example-adding-a-catalog-function-to-a-community-site-structure}
+#### Example: Adding a Catalog Function to a Community Site Structure {#example-adding-a-catalog-function-to-a-community-site-structure}
 
 ![](assets/chlimage_1-464.png) 
 
 ### Modify Design {#modify-design}
 
-The DESIGN panel allows a new theme to be applied :
+The DESIGN panel allows a new theme to be applied:
 
 * [Community Site Theme](#community-site-theme)
 * [Community Site Branding](#community-site-branding)
@@ -420,7 +420,7 @@ The DESIGN panel allows a new theme to be applied :
 
 ### Modify Settings {#modify-settings}
 
-The SETTINGS panel allows access to most of the settings under the sub-panels of for Step 3 of community site creation :
+The SETTINGS panel allows access to most of the settings under the sub-panels of for Step 3 of community site creation:
 
 * [User Management](#user-management)
 * [Tags](#tagging)
@@ -472,10 +472,10 @@ Once the new community site is published, new member groups (user groups are cre
 
 The name created for the member groups includes the *site-name* given the site in [Step 1](#step13asitetemplate) (the name which appears in the URL) as well as an unique ID to avoid conflicts with community sites and groups having the same site-name for different community site roots.
 
-For example, if the name were "engage" for a site titled "Getting Started Tutorial", then the user group for moderators would be :
+For example, if the name were "engage" for a site titled "Getting Started Tutorial", then the user group for moderators would be:
 
-* title : Community Engage Moderators
-* name : community-*engage-uid*-moderators
+* title: Community Engage Moderators
+* name: community-*engage-uid*-moderators
 
 Notice that any members assigned roles as moderators or group administrators while creating the site, will be assigned to the appropriate group as well as assigned to the members group. These groups and member assignments are created on publish when the new site is published.
 
@@ -493,7 +493,7 @@ For details, see [Managing Users and User Groups](../../communities/using/users.
 
 By default, a community site will redirect to a sample login page when the user enters the wrong credentials and fails to login. This sample login will not be present on a [production server](../../sites/administering/using/production-ready.md).
 
-To correctly redirect, once a site has been configured and pushed to publish, complete these steps to get authentication failure to redirect to the community site :
+To correctly redirect, once a site has been configured and pushed to publish, complete these steps to get authentication failure to redirect to the community site:
 
 * on each AEM publish instance
 * first sign in with administrator privileges
@@ -503,7 +503,7 @@ To correctly redirect, once a site has been configured and pushed to publish, co
 
 * locate `Adobe Granite Login Selector Authentication Handler`
 * select the `pencil`icon to open the configuration for edit
-* enter a** Login Page Mappings** as follows :  
+* enter a** Login Page Mappings** as follows:  
   /content/sites/*&lt;site-name&gt;*/path/to/login/page**:**/content/sites/*&lt;site-name&gt;* 
   for example:  
   /content/sites/*engage*/en/signin:/content/sites/*engage*/en
@@ -512,9 +512,9 @@ To correctly redirect, once a site has been configured and pushed to publish, co
 
 ![](assets/chlimage_1-468.png) 
 
-#### Test Authentication Redirection {#test-authentication-redirection}
+### Test Authentication Redirection {#test-authentication-redirection}
 
-On the same AEM publish instance configured with a login page mapping for the community site :
+On the same AEM publish instance configured with a login page mapping for the community site:
 
 * browse to the community site home page
 

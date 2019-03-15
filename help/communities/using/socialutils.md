@@ -13,13 +13,13 @@ discoiquuid: 4ade0d6b-041e-4a2f-98f8-3b8fcae0fb29
 
 # SocialUtils Refactoring{#socialutils-refactoring}
 
-### SocialUtils Package Deprecated {#socialutils-package-deprecated}
+## SocialUtils Package Deprecated {#socialutils-package-deprecated}
 
-The package** com.adobe.cq.social.ugcbase.SocialUtils** was deprecated in AEM 6.1.
+The package **com.adobe.cq.social.ugcbase.SocialUtils** was deprecated in AEM 6.1.
 
 The following tables list the methods to use in place of SocialUtils methods.
 
-### SocialResourceUtilities Package  {#socialresourceutilities-package}
+## SocialResourceUtilities Package  {#socialresourceutilities-package}
 
 | Methods in com.adobe.cq.social.srp.utilities.api.SocialResourceUtilities |
 |---|
@@ -41,7 +41,7 @@ The following tables list the methods to use in place of SocialUtils methods.
 |---|
 | SocialResourceProvider getSocialResourceProvider(Resource resource) |replaces SocialResourceProvider getConfiguredProvider(Resource resource) |
 
-### SCFUtilities Package {#scfutilities-package}
+## SCFUtilities Package {#scfutilities-package}
 
 | Methods in `com.adobe.cq.social.`utilities.scf.api.SCFUtilites |
 |---|
@@ -53,7 +53,7 @@ The following tables list the methods to use in place of SocialUtils methods.
 | String getSocialProfileURL(String username, ResourceResolver resolver, Page page) |
 | UserProperties getUserProperties(ResourceResolver resolver, String userId) |
 
-### For Internal Use Only {#for-internal-use-only}
+## For Internal Use Only {#for-internal-use-only}
 
 | boolean canAddNode(Session session, String path) |
 |---|
@@ -72,7 +72,7 @@ The following tables list the methods to use in place of SocialUtils methods.
 | boolean mayPost(ResourceResolver resolver, Resource resource) |
 | String prepareUserGeneratedContent(ResourceResolver resolver, String path) |
 
-### Methods No Longer Available {#methods-no-longer-available}
+## Methods No Longer Available {#methods-no-longer-available}
 
 | Node createNode(ResourceResolver resolver, String path, String nodeType) |
 |---|

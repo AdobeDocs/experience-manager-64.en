@@ -13,7 +13,7 @@ discoiquuid: f8d85d72-0215-4680-a334-e37a530fba58
 
 # Social Graph Essentials{#social-graph-essentials}
 
-The ability for a Community member to follow [activities](../../communities/using/essentials-activities.md) as well as be followed is established through two components :
+The ability for a Community member to follow [activities](../../communities/using/essentials-activities.md) as well as be followed is established through two components:
 
 The `follow`component must be associated with another resource, and this association is already established for existing Communities members and features in a [community site](../../communities/using/overview.md#communitiessites).
 
@@ -53,9 +53,9 @@ The `following`component lists the members that are either following the current
    <td style="vertical-align: top;"><strong> optional<br /> property</strong></td> 
    <td>
     <ul> 
-     <li>Name : <strong><span class="code">outgoing</span></strong></li> 
-     <li>Type : Boolean</li> 
-     <li>Value :<br /> 
+     <li>Name: <strong><span class="code">outgoing</span></strong></li> 
+     <li>Type: Boolean</li> 
+     <li>Value:<br /> 
       <ul> 
        <li><i>true </i>- the <span class="code">following</span> component will list the members who the currently signed-in member <span class="code">follows</span></li> 
        <li><i>false </i>- the <span class="code">following</span> component will list the members who <span class="code">follow </span>the currently signed-in member</li> 

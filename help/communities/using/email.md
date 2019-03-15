@@ -40,21 +40,21 @@ The default mail service is required for both notifications and subscriptions.
 
 This is based on the documentation for [Configuring Email Notification](../../sites/administering/using/notification.md), but with a difference in that the field `"From" address` is *not* required and should be left empty.
 
-For example (filled in with values for illustrative purposes only) :
+For example (filled in with values for illustrative purposes only):
 
 ![](assets/chlimage_1-98.png)
 
-* **SMTP server host name : ***(required)* The SMTP server to use.
+* **SMTP server host name: ***(required)* The SMTP server to use.
 
-* **SMTP server port : ***(required)* The SMTP server port must be 25 or higher.
+* **SMTP server port: ***(required)* The SMTP server port must be 25 or higher.
 
-* **SMTP user : ***(required)* The SMTP user.
+* **SMTP user: ***(required)* The SMTP user.
 
-* **SMTP password : ***(required)* The SMTP user's password.
+* **SMTP password: ***(required)* The SMTP user's password.
 
-* **"From" address : **Leave empty
-* **SMTP use SSL : **If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
-* **Debug email : **If checked, enables logging of SMTP server interactions.
+* **"From" address: **Leave empty
+* **SMTP use SSL: **If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
+* **Debug email: **If checked, enables logging of SMTP server interactions.
 
 ## AEM Communities Email Configuration {#aem-communities-email-configuration}
 
@@ -106,23 +106,23 @@ For Communities subscriptions, it is possible to enable or disable the ability f
 
 * **Name **: *(required)* `subscriptions-email`. Do Not Edit.
 
-* **Create post from reply email** : If checked, recipient of subscription email may post content by sending a reply. Default is checked.
-* **Add tracked id to header** : Default is `Reply-To`.
+* **Create post from reply email**: If checked, recipient of subscription email may post content by sending a reply. Default is checked.
+* **Add tracked id to header**: Default is `Reply-To`.
 
-* **Maximum length of Subject** : If tracker id is added to subject line, this is the maximum length of subject, excluding tracked id, after which it will be trimmed. Note that this should be as small as possible to avoid tracked id information from being lost. Default is 200.
-* **Email "From" address** : *(required)* Address that notification email would be delivered from. Likely the same **SMTP user** specified for the [default mail service](#configuredefaultmailservice). Default is `no-reply@example.com`.
+* **Maximum length of Subject**: If tracker id is added to subject line, this is the maximum length of subject, excluding tracked id, after which it will be trimmed. Note that this should be as small as possible to avoid tracked id information from being lost. Default is 200.
+* **Email "From" address**: *(required)* Address that notification email would be delivered from. Likely the same **SMTP user** specified for the [default mail service](#configuredefaultmailservice). Default is `no-reply@example.com`.
 
-* **Reply-to-Delimiter** : If tracker id is added to Reply-to header, this delimiter will be used. Default is `+` (plus sign).
+* **Reply-to-Delimiter**: If tracker id is added to Reply-to header, this delimiter will be used. Default is `+` (plus sign).
 
-* **Tracker Id prefix in subject** : If tracker id is added to subject line, this prefix will be used. Default is `post#`.
+* **Tracker Id prefix in subject**: If tracker id is added to subject line, this prefix will be used. Default is `post#`.
 
-* **Tracker id prefix in message body** : If tracker id is added to message body, this prefix will be used. Default is `Please do not remove this:`.
+* **Tracker id prefix in message body**: If tracker id is added to message body, this prefix will be used. Default is `Please do not remove this:`.
 
-* **Email as HTML** : If checked, Content-Type of email will be set as `"text/html;charset=utf-8"`. Default is checked.
+* **Email as HTML**: If checked, Content-Type of email will be set as `"text/html;charset=utf-8"`. Default is checked.
 
-* **Default user name** : This name will be used for no name users. Default is `no-reply@example.com`.
+* **Default user name**: This name will be used for no name users. Default is `no-reply@example.com`.
 
-* **Templates root path** : The email is built using template stored at this root path. Default is `/etc/community/templates/subscriptions-email`.
+* **Templates root path**: The email is built using template stored at this root path. Default is `/etc/community/templates/subscriptions-email`.
 
 ## Configure Polling Importer {#configure-polling-importer}
 
@@ -145,14 +145,14 @@ In order for the email to be brought into the repository, it is necessary to con
 * **URL **: *(required)* The outbound mail server. For example,   
   `//pop.gmail.com:995/INBOX?username=community-email@gmail.com&password=****`
 
-* **Import to Path&#42;** : *(required)* Set to `/content/usergenerated/mailFolder/postEmails`  
+* **Import to Path&#42;**: *(required)* Set to `/content/usergenerated/mailFolder/postEmails`  
   by browsing to the `postEmails`folder and select **OK**
 
-* **Update Interval in Seconds** : *(optional) *The mail server configured for the default mail service may have requirements regarding the update interval value. For example, Gmail may require an interval of `300`.
+* **Update Interval in Seconds**: *(optional) *The mail server configured for the default mail service may have requirements regarding the update interval value. For example, Gmail may require an interval of `300`.
 
 * **Login **: *(optional)* 
 
-* **Password** : *(optional)*
+* **Password**: *(optional)*
 
 * Select **OK**
 
@@ -160,7 +160,7 @@ In order for the email to be brought into the repository, it is necessary to con
 
 Once the new polling configuration is saved, it is necessary to further modify properties of the subscription email importer in order to change the protocol from `POP3` to `emailreply`
 
-Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
+Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 * on the primary publisher
 * signed in with administrator privileges
@@ -174,7 +174,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
 ![](assets/chlimage_1-103.png)
 
-The red triangles indicate the modified properties. Be sure to save the changes :
+The red triangles indicate the modified properties. Be sure to save the changes:
 
 * select **Save All**
 

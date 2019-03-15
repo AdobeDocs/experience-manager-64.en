@@ -18,7 +18,7 @@ discoiquuid: 8fe97181-600e-42ac-af25-d5d4db248740
 
 ## Add an Enablement Resource {#add-an-enablement-resource}
 
-To add an enablement resource to the new community site :
+To add an enablement resource to the new community site:
 
 * on the author instance
 
@@ -40,16 +40,16 @@ To add an enablement resource to the new community site :
 
 ### Basic Info {#basic-info}
 
-Fill in the basic information for the Resource :
+Fill in the basic information for the Resource:
 
-* **Site Name** :  
-  set to the name of the selected community site : Enablement Tutorial
+* **Site Name**:  
+  set to the name of the selected community site: Enablement Tutorial
 
-* **Resource Name&#42;** : Ski Lesson 1
-* **Tags** : Tutorial: Sports / Skiing
-* **Show in Catalog** : On
-* **Description** : Sliding on snow for beginners
-* **Add Image** :  
+* **Resource Name&#42;**: Ski Lesson 1
+* **Tags**: Tutorial: Sports / Skiing
+* **Show in Catalog**: On
+* **Description**: Sliding on snow for beginners
+* **Add Image**:  
   add an image to represent the Resource to the member in their Assignments view
 
 ![](assets/chlimage_1-202.png)
@@ -110,11 +110,11 @@ To upload a new version of the enablement resource, it is recommended to create 
 
 ### Publish the Resource {#publish-the-resource}
 
-Before Enrollees are able to see the assigned Resourse, it must be published :
+Before Enrollees are able to see the assigned Resourse, it must be published:
 
 * select the world `Publish`icon
 
-Activation is confirmed with a success message :
+Activation is confirmed with a success message:
 
 ![](assets/chlimage_1-209.png) 
 
@@ -128,7 +128,7 @@ Repeat the steps above to create and publish a second related enablement resourc
 
 Return to the Enablement Tutorial listing of it's Resources.
 
-*Hint : if both Resources are not visible, refresh the page.*
+*Hint: if both Resources are not visible, refresh the page.*
 
 ![](assets/chlimage_1-211.png) 
 
@@ -141,10 +141,10 @@ A learning path is a logical grouping of enablement resources which form a cours
 
 ![](assets/chlimage_1-212.png)
 
-Add the **Basic Info** :
+Add the **Basic Info**:
 
 * **Learning Path Name **: Ski Lessons
-* **Tags** : Tutorial: Skiing
+* **Tags**: Tutorial: Skiing
 * **Show in Catalog**: leave unchecked
 * **upload an image **to represent the learning path in the Resources console
 
@@ -159,7 +159,7 @@ Skip the next panel as there are no prerequisite learning paths to add.
 On the Add Resources panel
 
 * select **+ Add Resources** to select the 2 ski lessions resources to add to the learning path  
-  Note : only **published **Resources will be selectable.
+  Note: only **published **Resources will be selectable.
 
 >[!NOTE]
 >

@@ -13,7 +13,7 @@ discoiquuid: 62669a9d-2107-4644-a4bf-143d0ac148b3
 
 # Reviews Essentials{#reviews-essentials}
 
-This feature consists of two components that work together : reviews and review summary.
+This feature consists of two components that work together: reviews and review summary.
 
 Reviews is a composite component based on a [comment system](../../communities/using/essentials-comments.md) which contains one or more [rating](../../communities/using/rating-basics.md) (tally) components.
 
@@ -81,7 +81,7 @@ As of AEM 6.1 Communities, use of a [common store](../../communities/using/worki
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
-See :
+See:
 
 * [Storage Resource Provider Overview](../../communities/using/srp.md) - introduction and repository usage overview
 * [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples

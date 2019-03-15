@@ -46,7 +46,7 @@ For AEM Communities,
 
 ## Install Latest Communities Release {#install-latest-communities-release}
 
-This tutorial creates an [enablement community site](../../communities/using/overview.md#enablement-community). To ensure the latest feature pack is installed, visit :
+This tutorial creates an [enablement community site](../../communities/using/overview.md#enablement-community). To ensure the latest feature pack is installed, visit:
 
 * [Latest Releases](../../communities/using/deploy-communities.md#latest-releases)
 
@@ -80,14 +80,14 @@ For simple instructions to enable the tunnel service, see [Tunnel Service](../..
 
 Create tags to use for the engage and enablement tutorials, using the tag namespace of `Tutorial`.
 
-Use the [Tagging console](../../sites/administering/using/tags.md#tagging-console) to create the following tags :
+Use the [Tagging console](../../sites/administering/using/tags.md#tagging-console) to create the following tags:
 
-* `Tutorial : Sports / Baseball`
-* `Tutorial : Sports / Gymnastics`
-* `Tutorial : Sports / Skiing`
-* `Tutorial : Arts / Visual`
-* `Tutorial : Arts / Auditory`
-* `Tutorial : Arts / History`
+* `Tutorial: Sports / Baseball`
+* `Tutorial: Sports / Gymnastics`
+* `Tutorial: Sports / Skiing`
+* `Tutorial: Arts / Visual`
+* `Tutorial: Arts / Auditory`
+* `Tutorial: Arts / History`
 
 ![](assets/chlimage_1-417.png)
 
@@ -122,33 +122,33 @@ A fourth user is created in the author environment and assigned the roles of Com
 
 [Create a member](../../communities/using/members.md#create-new-member) who will be added to a group of Learners - the Community Ski Class group.
 
-* **ID** : riley
+* **ID**: riley
 * **Email **: riley.taylor@mailinator.com
 * **Password **: password
-* **Confirm Password** : password
-* **First Name** : Riley
-* **Last Name **: Taylor
+* **Confirm Password**: password
+* **First Name**: Riley
+* **Last Name**: Taylor
 
 ### Sidney Croft - Enrollee {#sidney-croft-enrollee}
 
 [Create a second member](../../communities/using/members.md#create-new-member) who will be added to the Community Ski Class group.
 
-* **ID** : sidney
+* **ID**: sidney
 * **Email **: sidney.croft@mailinator.com
 * **Password **: password
-* **Confirm Password** : password
-* **First Name** : Sidney
+* **Confirm Password**: password
+* **First Name**: Sidney
 * **Last Name **: Croft
 
 ### Quinn Harper - Enablement Resource Contact and Moderator {#quinn-harper-enablement-resource-contact-and-moderator}
 
 [Create a member](../../communities/using/members.md#create-new-member) who will be added to the Community Site's member group once the site has been created. This membership will allow the member to be assigned as the enablement [Resource Contact](../../communities/using/resources.md#settings) when an enablement resource is created for the site.
 
-* **ID** : quinn
+* **ID**: quinn
 * **Email **: quinn.harper@mailinator.com
 * **Password **: password
-* **Confirm Password** : password
-* **First Name** : Quinn
+* **Confirm Password**: password
+* **First Name**: Quinn
 * **Last Name **: Harper
 
 ### Add a User Group - Community Ski Class {#add-a-user-group-community-ski-class}
@@ -156,9 +156,9 @@ A fourth user is created in the author environment and assigned the roles of Com
 [Add a new group](../../communities/using/members.md#create-new-group) named Community Ski Class.
 
 * **ID **: community-ski-class
-* **Name** : Community Ski Class
+* **Name**: Community Ski Class
 * **Description **: a sample group for assigning enablement resources
-* **Add Members To Group** - add :
+* **Add Members To Group** - add:
 
     * riley
     * sidney
@@ -179,7 +179,7 @@ Members of the Community Administrators group are able to create community sites
 
 ### Create User {#create-user}
 
-Create a user on *author*, who is assigned the role of Community Administrator :
+Create a user on *author*, who is assigned the role of Community Administrator:
 
 * on the author instance
 
@@ -194,16 +194,16 @@ Create a user on *author*, who is assigned the role of Community Administrator :
 
 * in the `Create New User` dialog enter
 
-    * **ID&#42;** : sirius
-    * **Emai Address** : sirius.nilson@mailinator.com
-    * **Password&#42;** : password
-    * **Confirm Password&#42;** : password
-    * **First Name** : Sirius
-    * **Last Name&#42;** : Nilson
+    * **ID&#42;**: sirius
+    * **Emai Address**: sirius.nilson@mailinator.com
+    * **Password&#42;**: password
+    * **Confirm Password&#42;**: password
+    * **First Name**: Sirius
+    * **Last Name&#42;**: Nilson
 
 ### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
 
-Scroll down to `Add User to Groups` :
+Scroll down to `Add User to Groups`:
 
 * enter 'C' to search
 

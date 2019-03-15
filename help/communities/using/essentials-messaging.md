@@ -100,23 +100,23 @@ See also [Client-side Customizations](../../communities/using/client-customize.m
 
 >[!CAUTION]
 >
->The String parameter must *not *contain a trailing slash "/" for the following MessageBuilder methods :
+>The String parameter must *not *contain a trailing slash "/" for the following MessageBuilder methods:
 >
 >* `setInboxPath`()
 >* `setSentItemsPath`()
 >
->For example :
+>For example:
 >
 >```>
->valid : mb.setInboxPath( "/mail/inbox" );
-> not valid : mb.setInboxPath( "/mail/inbox/" );
+>valid: mb.setInboxPath( "/mail/inbox" );
+> not valid: mb.setInboxPath( "/mail/inbox/" );
 >```>
 
 ### Community Site {#community-site}
 
 A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](../../communities/using/sites-console.md#user-management).
 
-### Sample Code : Message Received Notification {#sample-code-message-received-notification}
+### Sample Code: Message Received Notification {#sample-code-message-received-notification}
 
 The Social Messaging feature throw events for operations, for example `send`, `marking read`, `marking delete`. These events can be caught and actions taken on the data contained in the event.
 
@@ -127,10 +127,10 @@ To try the server-side sample script, you will need a development environment an
 1. login as an administrator to ` [CRXDE|Lite](http://localhost:4502/crx/de)`
 1. create a `bundle node`in `/apps/engage/install` with arbitrary names, such as
 
-    * Symbolic Name : com.engage.media.social.messaging.MessagingNotification
-    * Name : Getting Started Tutorial Message Notificaton  
-    * Description : a sample service for sending an email notification to users when they receive a message
-    * Package : com.engage.media.social.messaging.notification
+    * Symbolic Name: com.engage.media.social.messaging.MessagingNotification
+    * Name: Getting Started Tutorial Message Notificaton  
+    * Description: a sample service for sending an email notification to users when they receive a message
+    * Package: com.engage.media.social.messaging.notification
 
 1. navigate to /apps/engage/install/com.engage.media.social.messaging.MessagingNotification/src/main/java/com/engage/media/social/messaging/notification
 

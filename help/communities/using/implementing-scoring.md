@@ -18,7 +18,7 @@ tagskeywords: scoring, badging, badges, gamification
 
 The AEM Communities scoring and badges feature provides the ability to identify and reward community members.
 
-The main aspects of scoring and badges are :
+The main aspects of scoring and badges are:
 
 * [assign badges](#assign-and-revoke-badges) to identify the role of a member  in  the community
 
@@ -53,7 +53,7 @@ Role-based badges are assigned by an administrator to community members based on
 
 Assigned (and awared) badges are stored in the selected [SRP](../../communities/using/srp.md) and are not directly accessible. Until a GUI is available, the only means for assigning role-based badges is to do so with code or cURL. For cURL instructions, see the section titled [Assign and Revoke Badges](#assign-and-revoke-badges).
 
-Included in the release are three role-based badges :
+Included in the release are three role-based badges:
 
 * moderator  
   `/etc/community/badging/images/moderator/jcr:content/moderator.png`
@@ -70,12 +70,12 @@ Included in the release are three role-based badges :
 
 Reward-based badges are awarded by the scoring service to community members based on rules applied to their activity in the community.
 
-In order for badges to appear as a reward for activity, there are two things that must happen :
+In order for badges to appear as a reward for activity, there are two things that must happen:
 
 * badging must be [enabled](#enableforcomponent) for the feature component
 * scoring and badging rules must be [applied](#applytopage) to the page (or ancestor) on which the component is placed
 
-Included in the release are three reward-based badges :
+Included in the release are three reward-based badges:
 
 * gold  
   `/etc/community/badging/images/gold-badge/jcr:content/gold.png`
@@ -102,7 +102,7 @@ When installed from the Badges console, custom badges are automatically replicat
 
 ## Enable Scoring {#enable-scoring}
 
-Scoring is not enabled by default. The basic steps for setting up and enabling scoring and awarding of badges are :
+Scoring is not enabled by default. The basic steps for setting up and enabling scoring and awarding of badges are:
 
 * identify rules for earning points ([scoring rules](#scoring-rules))
 * for points accumulated per scoring rules, assign [badges](#badges) ([badging rules](#badging-rules))
@@ -137,7 +137,7 @@ The scoring and bading rules are in effect only for instances of components that
 
 A boolean property, `allowBadges`, enables/disables the display of badges for a component instance. It is configurable in the [component edit dialog](../../communities/using/author-communities.md) for forum, QnA and comment components through a checkbox labeled **Display Badges**.
 
-#### Example : allowBadges for Forum component instance {#example-allowbadges-for-forum-component-instance}
+#### Example: allowBadges for Forum component instance {#example-allowbadges-for-forum-component-instance}
 
 ![](assets/chlimage_1-368.png)
 
@@ -155,7 +155,7 @@ Scoring rules are inherited but not additive. For example:
 
 * if page2 contains scoring rule2 and its ancestor page1 contains scoring rule1
 * an action on a page2 component will invoke both rule1 and rule2
-* if both rules contain applicable sub-rules for the same `topic/verb` :
+* if both rules contain applicable sub-rules for the same `topic/verb`:
 
     * only the sub-rule from rule2 will affect the score
     * the scores from both sub-rules are not added together
@@ -168,11 +168,11 @@ Scores are stored in SRP.
 
 >[!NOTE]
 >
->Best Practice : uniquely name each scoring rule.
+>Best Practice: uniquely name each scoring rule.
 >
 >Scoring rule names should be globally unique; they should not end with the same name.
 >
->An example of what *not *to do :  
+>An example of what *not *to do:  
 >/etc/community/scoring/rules/site1/forums-scoring  
 >/etc/community/scoring/rules/site2/forums-scoring
 
@@ -224,7 +224,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
    <td style="text-align: left;"> 
     <ul> 
      <li>optional; restricts sub-rule to community components identified by event topics</li> 
-     <li>if specified : value is multi-value string of event topics</li> 
+     <li>if specified: value is multi-value string of event topics</li> 
      <li>a list of topics in the release is in the <a href="#topics-and-verbs">Topics and Verbs</a> section</li> 
      <li>default is to apply to all topics associated with the verb(s)</li> 
     </ul> </td> 
@@ -262,7 +262,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
 
 ### Included Scoring Rules and Sub-Rules {#included-scoring-rules-and-sub-rules}
 
-Included in the release are two scoring rules for the [Forum Function](../../communities/using/functions.md#forum-function) (one each for the Forum and Comments components of the Forum feature) :
+Included in the release are two scoring rules for the [Forum Function](../../communities/using/functions.md#forum-function) (one each for the Forum and Comments components of the Forum feature):
 
 1. /etc/community/scoring/rules/comments-scoring
 
@@ -297,14 +297,14 @@ Any changes or additions made to scoring rules or sub-rules made in the author e
 
 ## Badging Rules {#badging-rules}
 
-Badging rules link scoring rules to badges by specifying :
+Badging rules link scoring rules to badges by specifying:
 
 * which scoring rule
 * the score necessary to be awared a specific badge
 
 Badging rules are nodes of type `cq:Page` with properties on its `jcr:content`node that correlate scoring rules to scores and badges.
 
-The rules for badging consist of a mandatory `thresholds`property that is an ordered list of scores mapped to badges. The scores must be ordered in increasing value. For example :
+The rules for badging consist of a mandatory `thresholds`property that is an ordered list of scores mapped to badges. The scores must be ordered in increasing value. For example:
 
 * `1|/etc/community/badging/images/bronze-badge/jcr:content/bronze.png`
 
@@ -324,7 +324,7 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
 
 >[!NOTE]
 >
->Best practice : create badge images unique to each AEM site.
+>Best practice: create badge images unique to each AEM site.
 
 ![](assets/chlimage_1-369.png) 
 
@@ -343,7 +343,7 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
      <li>number = score</li> 
      <li>| = the vertical line char (U+007C)</li> 
      <li>path = full path to badge image resource</li> 
-    </ul> The strings must be ordered so that the numbers are increasing in value and no whitespace should appear between the number and path.<br /> Example entry :<br /> <span class="code">80|/etc/community/badging/images/gold-badge/jcr:content/gold.png</span></td> 
+    </ul> The strings must be ordered so that the numbers are increasing in value and no whitespace should appear between the number and path.<br /> Example entry:<br /> <span class="code">80|/etc/community/badging/images/gold-badge/jcr:content/gold.png</span></td> 
   </tr> 
   <tr> 
    <td style="text-align: center;">badgingType</td> 
@@ -383,7 +383,7 @@ Any changes or additions made to badging rules or images made in the author envi
 
 Badges may be assigned to members either using the [members console](../../communities/using/members.md#badges-tab) or programmatically using cURL commands.
 
-The following cURL commands show what is necessary for an HTTP request for assigning and revoking badges. The basic format is :
+The following cURL commands show what is necessary for an HTTP request for assigning and revoking badges. The basic format is:
 
 cURL -i -X POST -H *header* -u *signin * -F *operation * -F *badge * *member-profile-url*
 
@@ -391,17 +391,17 @@ cURL -i -X POST -H *header* -u *signin * -F *operation * -F *badge * *member-pro
 custom header to pass to server (required)
 
 *signin* = administrator-id:password  
-for example : admin:admin
+for example: admin:admin
 
 *operation* = ":operation=social:assignBadge" OR ":operation=social:deleteBadge"
 
 *badge* = "badgeContentPath=*badge-image-file*"
 
 *badge-image-file* = the location of the badge image file in the repository  
-for example : /etc/community/badging/images/moderator/jcr:content/moderator.png
+for example: /etc/community/badging/images/moderator/jcr:content/moderator.png
 
 *member-profile-url* = the endpoint for the member's profile on publish  
-for example : http://&lt;server&gt;:&lt;port&gt;/home/users/community/riley/profile.social.json
+for example: http://&lt;server&gt;:&lt;port&gt;/home/users/community/riley/profile.social.json
 
 >[!NOTE]
 >
@@ -411,7 +411,7 @@ for example : http://&lt;server&gt;:&lt;port&gt;/home/users/community/riley/prof
 >* may be an obscure, random name - see [Security Checklist](../../sites/administering/using/security-checklist.md#verify-that-you-are-not-disclosing-personally-identifiable-information-in-the-users-home-path) regarding authorizable ID
 >
 
-#### Examples : {#examples}
+### Examples: {#examples}
 
 #### Assign a moderator badge {#assign-a-moderator-badge}
 
@@ -572,18 +572,18 @@ If the feature is not working as expected, ensure the data has been correctly en
 
 ## Quick Test {#quick-test}
 
-It is possible to quickly try scoring and badging using the [Getting Started Tutorial](../../communities/using/getting-started.md) (engage) site :
+It is possible to quickly try scoring and badging using the [Getting Started Tutorial](../../communities/using/getting-started.md) (engage) site:
 
 * access CRXDE Lite on author
-* browse to the base page :
+* browse to the base page:
 
     * /content/sites/engage/en/jcr:content
 
-* add the badgingRules property :
+* add the badgingRules property:
 
-    * **Name** : `badgingRules`
+    * **Name**: `badgingRules`
     
-    * **Type** : `String`
+    * **Type**: `String`
     
     * select **Multi**
     * select **Add**
@@ -592,11 +592,11 @@ It is possible to quickly try scoring and badging using the [Getting Started Tut
     * enter `/etc/community/badging/rules/comments-badging`
     * select **OK**
 
-* add the scoringRules property :
+* add the scoringRules property:
 
-    * **Name** : `scoringRules`
+    * **Name**: `scoringRules`
     
-    * **Type** : `String`
+    * **Type**: `String`
     
     * select **Multi**
     * select **Add**
@@ -609,7 +609,7 @@ It is possible to quickly try scoring and badging using the [Getting Started Tut
 
 ![](assets/chlimage_1-370.png)
 
-Next ensure the forum and comments components allow badges to be displayed :
+Next ensure the forum and comments components allow badges to be displayed:
 
 * again using CRXDE Lite
 * browse to the forum component
@@ -618,11 +618,11 @@ Next ensure the forum and comments components allow badges to be displayed :
 
 * add allowBadges boolean property, if necessary, and ensure it is true
 
-    * **Name** : `allowBadges`
+    * **Name**: `allowBadges`
     
-    * **Type** : `Boolean`
+    * **Type**: `Boolean`
     
-    * **Value** : `true`
+    * **Value**: `true`
 
 ![](assets/chlimage_1-371.png)
 
@@ -631,11 +631,11 @@ Next, [republish](../../communities/using/sites-console.md#publishing-the-site) 
 Finally,
 
 * browse to the component on the publish instance
-* sign in as a community member (for example : weston.mccall@dodgit.com / password)
+* sign in as a community member (for example: weston.mccall@dodgit.com / password)
 * post a new forum topic
 * the page must be refreshed for the badge to show
 
-    * logout and login as a different community member (for example : aaron.mcdonald@mailinator.com / password)
+    * logout and login as a different community member (for example: aaron.mcdonald@mailinator.com / password)
 
 * select the Forum
 

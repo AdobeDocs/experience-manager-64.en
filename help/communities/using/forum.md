@@ -13,9 +13,9 @@ discoiquuid: 3495f983-d71e-4704-be4e-8a42a63f72db
 
 # Forum Feature{#forum-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
-The forum feature provides an area for signed-in site visitors (community members) in the publish environment to :
+The forum feature provides an area for signed-in site visitors (community members) in the publish environment to:
 
 * create new topics
 * view and reply to topics
@@ -29,7 +29,7 @@ This section of the documentation describes
 * adding the forum feature to an AEM site
 * configuration settings for the `Forum`component
 
-### Adding a Forum to a Page {#adding-a-forum-to-a-page}
+## Adding a Forum to a Page {#adding-a-forum-to-a-page}
 
 To add a `Forum` component to a page in author mode, use the component browser to locate
 
@@ -39,19 +39,19 @@ and drag it into place on a page where the forum should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-forum.md#essentials-for-client-side) are included, this is how the `Forum`component will appear :
+When the [required client-side libraries](../../communities/using/essentials-forum.md#essentials-for-client-side) are included, this is how the `Forum`component will appear:
 
 ![](assets/chlimage_1-60.png)
 
-### Configuring a Forum {#configuring-a-forum}
+## Configuring a Forum {#configuring-a-forum}
 
 Select the placed `Forum` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/chlimage_1-61.png) ![](assets/chlimage_1-62.png)
 
-#### Settings tab {#settings-tab}
+### Settings tab {#settings-tab}
 
-Under the **Settings **tab, specify settings for topics and replies :
+Under the **Settings **tab, specify settings for topics and replies:
 
 * **Topics Per Page** 
   Defines the number of topics/posts shown per page. Default is 10.
@@ -87,7 +87,7 @@ Under the **Settings **tab, specify settings for topics and replies :
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
 * **Allowed File Types** 
-  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that** **all file types are allowed.
+  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that** **all file types are allowed.
 
 * **Max Attach Image File Size** 
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152** **(2 Mb).
@@ -111,7 +111,7 @@ Under the **Settings **tab, specify settings for topics and replies :
 >
 >It may be necessary to check both `AllowThreaded Replies` and `Allow users to Delete Comments and Topics` to enable comments on a topic.
 
-#### User Moderation tab {#user-moderation-tab}
+### User Moderation tab {#user-moderation-tab}
 
 Under the **User Moderation **tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
 
@@ -139,7 +139,7 @@ Under the **User Moderation **tab, specify how the posted topics and replies (us
 * **Flagging Limit** 
   Enter the number of times a topic or comment has to be flagged before it is hidden from public view. If set to -1, the flagged topic or comment is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.
 
-#### Tag field tab {#tag-field-tab}
+### Tag field tab {#tag-field-tab}
 
 Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings **tab, are limited according to namespaces chosen.
 
@@ -149,19 +149,19 @@ Under the **Tag field** tab, the tags which may be applied, if allowed under the
 * **Suggestion Limit** 
   Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is **-**1 (no limits).
 
-#### Translation tab {#translation-tab}
+### Translation tab {#translation-tab}
 
 Under the **Translation **tab, if translation is enabled for the community site, translation may be set to translate the entire topic or selected posts.
 
 * **Translate All** 
   If checked, the forum thread is translated into the user's preferred language. Default is unchecked.
 
-#### Sort Settings tab {#sort-settings-tab}
+### Sort Settings tab {#sort-settings-tab}
 
 Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
 
 * **Sort By** 
-  Check all allowed sort selections : `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.
+  Check all allowed sort selections: `Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked`. Default is `Newest, Oldest, Last Updated`.
 
 * **Set as Default** 
   Pull down to select one of the checked sort options to appear as the default. Default is `Newest`.
@@ -169,7 +169,7 @@ Under the **Sort Settings **tab, specify how the posted comments are sorted when
 * **Select Time Options for Analytics Sorting** 
   Pull down to select one of `All, Last 24 Hours, Last 7 Days, Last 30 Days`. Default is `All`.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Forum Essentials](../../communities/using/essentials-forum.md) page for developers.
 
