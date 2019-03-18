@@ -86,12 +86,10 @@ The following image displays the directory structure of the `android`folder in t
    ![](assets/dontremindmeagainforthisproject.png)
 
 1. After successful gradle build, the following screen appears. Connect the appropriate device or emulator with the system and click **[!UICONTROL Run Android™]**.  
-   ****
 
    ![](assets/gradleconsole.png)
 
 1. Android™ Studio displays the connected devices and available emulators. Select the device on which you want to run the application and then click **OK**.  
-   ****
 
    ![](assets/connecteddevice.png)
 

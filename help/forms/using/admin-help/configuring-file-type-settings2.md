@@ -36,7 +36,7 @@ Create or edit a file type setting to specify how the application handles the co
 1. In the Filename Extensions box, type the filename extensions, separated by commas, for file types that are accepted for this application. Do not include the period before or a space between the extensions. The default is `bmp,gif,jpeg,jpg,tif,tiff,png`.
 1. (Optional) To use optical code recognition (OCR) of text in graphics or images, select Use OCR and set the following options:
 
-**Primary OCR****Language:** The language for the OCR engine to use to identify the characters. The default is English (US).
+**Primary OCR Language:** The language for the OCR engine to use to identify the characters. The default is English (US).
 
 **PDF Output Style:** Select Searchable Image to have a bitmap image of the pages in the foreground and the scanned text on an invisible layer beneath. The appearance of the page does not change, but the text becomes selectable and readable. Select Formatted Text & Graphics to reconstruct the original page by using recognized text, fonts, pictures, and other graphic elements. The default is Searchable Image (Exact).
 
@@ -464,7 +464,7 @@ These options determine how Microsoft Project files are converted. For instructi
 
 1. **[!UICONTROL **Filename Extensions**:]** Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is `mpp`. Do not include a period before or a space between the extensions.
 
-1. ****[!UICONTROL Convert Document Information]****: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.
+1. **[!UICONTROL Convert Document Information]**: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.
 1. **[!UICONTROL Attach Source File To Adobe PDF]**: Adds the source file to the PDF file as an attachment. 
 1. **[!UICONTROL Create PDF/A-1a Compliant File]**: Forces the use of the PDF/A-1b:2005 RGB Adobe PDF setting.
 1. **[!UICONTROL Run Macros Automatically]**: Runs any macros in the Microsoft Project document (such as a macro that inserts the current time) before converting the document.

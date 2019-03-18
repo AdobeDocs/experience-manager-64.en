@@ -40,7 +40,7 @@ AEM realizes responsive layout for your pages using a combination of mechanisms:
 * [**Layout** **Mode**](../../../sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode)  
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
-* [**Emulator**](#selecting-a-device-to-emulate)**** 
+* [**Emulator**](#selecting-a-device-to-emulate) 
   This allows you to create and edit responsive websites that rearrange the layout according to device/window size by resizing components interactively. The user can then see how the content will be rendered using the emulator.
 
 With these responsive grid mechanisms you can:

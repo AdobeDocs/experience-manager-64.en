@@ -282,7 +282,7 @@ The external application is integrated into the paragraph system of the AEM page
 
 The Flash component lets you load a Flash movie. You can drag a flash asset from the content finder onto the component, or you can use the dialog:
 
-* **Fla****sh**
+* **Flash**
 
     * **Flash movie** 
       The flash movie file. Either drag an asset from the content finder, or click to open a browse window.
