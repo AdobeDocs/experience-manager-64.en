@@ -14,7 +14,7 @@ discoiquuid: cfaa6b49-3fd0-4c08-84a2-e86c7e7e3532
 
 You can modify the login screen of all AEM Forms modules that use the AEM Forms login screen. For example, the modifications affect the login screen of, both, Forms Manager and AEM Forms workspace.
 
-### Prerequisite {#prerequisite}
+## Prerequisite {#prerequisite}
 
 1. Log in at `/lc/crx/de` with Administrator permissions.
 1. Perform the following actions:
@@ -33,7 +33,7 @@ You can modify the login screen of all AEM Forms modules that use the AEM Forms 
     
     1. Delete the contents of the folder: `/apps/livecycle/core/components/login`.
 
-### Adding a new locale {#adding-a-new-locale}
+## Adding a new locale {#adding-a-new-locale}
 
 1. Copy the `i18n` folder:
 
@@ -177,7 +177,7 @@ You can modify the login screen of all AEM Forms modules that use the AEM Forms 
    for(int i=0; i<locales.length; i++)
    ```
 
-### Adding new text, or modifying existing text {#adding-new-text-or-modifying-existing-text}
+## Adding new text, or modifying existing text {#adding-new-text-or-modifying-existing-text}
 
 1. Copy `i18n` folder:
 
@@ -215,7 +215,7 @@ You can modify the login screen of all AEM Forms modules that use the AEM Forms 
                        <% if (loginFailed) {%>
    ```
 
-### Adding new style, or modifying existing style {#adding-new-style-or-modifying-existing-style}
+## Adding new style, or modifying existing style {#adding-new-style-or-modifying-existing-style}
 
 1. Copy `login` node:
 
@@ -262,7 +262,7 @@ You can modify the login screen of all AEM Forms modules that use the AEM Forms 
 >
 >If the existing images in `/apps/livecycle/core/content/login` (copied from `/libs/livecycle/core/content/login`) are removed, then remove the corresponding references in CSS.
 
-### Add new images {#add-new-images}
+## Add new images {#add-new-images}
 
 1. Follow the steps of Adding new style, or modifying existing style (documented above).
 1. Add new images in `/apps/livecycle/core/content/login`. To add image:

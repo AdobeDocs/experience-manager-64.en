@@ -381,7 +381,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
 
 ## Post-installation configurations {#post-installation-configurations}
 
-#### Configure Boot Delegation for RSA/BouncyCastle libraries  {#configure-boot-delegation-for-rsa-bouncycastle-libraries}
+### Configure Boot Delegation for RSA/BouncyCastle libraries  {#configure-boot-delegation-for-rsa-bouncycastle-libraries}
 
 1. Stop the AEM instance. Navigate to the [AEM installation directory]\crx-quickstart\conf\ folder. Open the sling.properties file for editing.
 
@@ -396,7 +396,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
 
 1. Save and close the file.
 
-#### Configuring the font manager service  {#configuring-the-font-manager-service}
+### Configuring the font manager service  {#configuring-the-font-manager-service}
 
 1. Log in to [AEM Configuration Manager](http://localhost:4502/system/console/configMgr) as an administrator. 
 1. Locate and open the **CQ-DAM-Handler-Gibson Font Managers** service. Specify the path of the System Fonts, Adobe Server Fonts, and Customer Fonts directories. Click **Save**.
@@ -405,7 +405,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
    >
    >Your right to use fonts provided by parties other than Adobe is governed by the license agreements provided to you by such parties with those fonts, and is not covered under your license to use Adobe software. Adobe recommends that you review and ensure that you are in compliance with all applicable non-Adobe license agreements before using non-Adobe fonts with Adobe software, particularly with respect to use of fonts in a server environment.
 
-#### Configure a local user account to run the PDF Generator service  {#configure-a-local-user-account-to-run-the-pdf-generator-service}
+### Configure a local user account to run the PDF Generator service  {#configure-a-local-user-account-to-run-the-pdf-generator-service}
 
 A local user account is required to run the PDF Generator service. For steps to create a local user, see [Create a user account in Windows](https://support.microsoft.com/en-us/help/13951/windows-create-user-account) or [create a user account in UNIX-based platforms](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/s1-starting-create-account.html).
 
@@ -413,7 +413,7 @@ A local user account is required to run the PDF Generator service. For steps to 
 
 1. In the **User Accounts** tab, provide credentials of a local user account, and click **Submit**. If Microsoft Windows prompts, allow access to the user. When added successfully, the configured user is displayed under the **Your user accounts** section in the **User Accounts** tab.
 
-#### Configure the time-out settings {#configure-the-time-out-settings}
+### Configure the time-out settings {#configure-the-time-out-settings}
 
 1. In [AEM configuration manager](http://localhost:4502/system/console/configMgr), locate and open the **Jacorb ORB Provider** service.
 
@@ -450,7 +450,7 @@ A local user account is required to run the PDF Generator service. For steps to 
  </tbody> 
 </table>
 
-#### Configure Acrobat for the PDF Generator service {#configure-acrobat-for-the-pdf-generator-service}
+### Configure Acrobat for the PDF Generator service {#configure-acrobat-for-the-pdf-generator-service}
 
 On Microsoft Windows, the PDF Generator service uses Adobe Acrobat to convert supported file formats to a PDF document. Perform the following steps to configure Adobe Acrobat for the PDF Generator service:
 
@@ -478,7 +478,7 @@ On Microsoft Windows, the PDF Generator service uses Adobe Acrobat to convert su
 
     1. Navigate to [Path_of_reports_folder]. Open the SystemReadinessTool.html file. Verify the report and fix the mentioned issues.
 
-#### Configure primary route for HTML to PDF conversion (Windows only) {#configure-primary-route-for-html-to-pdf-conversion-windows-only}
+### Configure primary route for HTML to PDF conversion (Windows only) {#configure-primary-route-for-html-to-pdf-conversion-windows-only}
 
 The PDF Generator service provides multiple routes to convert HTML files to PDF documents: Webkit, Acrobat WebCapture (Windows only), and PhantomJS. Adobe recommends using PhantomJS route because it has the capability to handle dynamic content and has no dependencies on 32-bit libraries, 32-bit JDK, or requires no extra fonts. Also, PhantomJS route does not require sudo or root access to run the conversion.
 
@@ -488,7 +488,7 @@ The default primary route for HTML to PDF conversion is Webkit. To change the co
 
 1. In the **[!UICONTROL General Configuration]** tab, select the preferred conversion route from the **[!UICONTROL Primary Route for HTML to PDF conversions]** drop-down.
 
-#### Set up certificates for Reader extension and encryption service {#set-up-certificates-for-reader-extension-and-encryption-service}
+### Set up certificates for Reader extension and encryption service {#set-up-certificates-for-reader-extension-and-encryption-service}
 
 The DocAssurance service can apply usage rights to PDF documents. To apply usage rights to PDF documents, configure the certificates:
 
@@ -511,7 +511,7 @@ The DocAssurance service can apply usage rights to PDF documents. To apply usage
    >    
    >
 
-#### Enable AES-256 {#enable-aes}
+### Enable AES-256 {#enable-aes}
 
 To use AES 256 encryption for PDF files, obtain and install the Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy files. Replace the local_policy.jar and US_export_policy.jar files in the jre/lib/security folder. For example, if you are using Sun JDK, copy the downloaded files to the [JAVA_HOME]/jre/lib/security folder.
 

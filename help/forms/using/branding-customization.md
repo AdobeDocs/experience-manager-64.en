@@ -86,7 +86,7 @@ Perform the following steps to customize the default app icon and the launch ima
 
 ## Customize the app name {#customize-the-app-name}
 
-#### For iOS {#for-ios-1}
+### For iOS {#for-ios-1}
 
 1. Open the `Capture.xcodeproj` project in Xcode.
 1. In the navigator view of Capture, navigate to **Capture &gt; Capture &gt; Supporting Files &gt; InfoPlist.strings**.   
@@ -96,7 +96,7 @@ Perform the following steps to customize the default app icon and the launch ima
 
    For details on building the app for iOS, see [Set up the Xcode project and build the iOS app](../../forms/using/setup-xcode-project-build-installer.md).
 
-#### For Android {#for-android-1}
+### For Android {#for-android-1}
 
 1. Open the following Xml in any text or Xml editor:
 

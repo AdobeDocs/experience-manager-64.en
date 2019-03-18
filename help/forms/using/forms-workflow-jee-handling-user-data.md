@@ -35,7 +35,7 @@ However, you cannot identify the process instance ID for an initiator in the fol
 * **Process initiated from publish AEM instance**: All process instances triggered from AEM publish instance do not capture information about the initiator. However, user data may be captured in the form associated with the process, which is stored in workflow variables.
 * **Process initiated through email**: The email ID of the sender is captured as a property in an opaque blob column of the `tb_job_instance` database table, which cannot be queried directly.
 
-#### Identify process instance IDs when workflow initiator or participant is known {#initiator-participant}
+### Identify process instance IDs when workflow initiator or participant is known {#initiator-participant}
 
 Perform the following steps to identify process instance IDs for a workflow initiator or a participant:
 
@@ -73,7 +73,7 @@ Perform the following steps to identify process instance IDs for a workflow init
 
 1. Follow the instructions in [Purge user data from workflow instances based on process instance IDs](../../forms/using/forms-workflow-jee-handling-user-data.md#purge) section to delete user data for identified process instance IDs.
 
-#### Identify process instance IDs when user data is stored in primitive variables {##primitive}
+### Identify process instance IDs when user data is stored in primitive variables {##primitive}
 
 A workflow can be designed such that the user data is captured in a variable that gets stored as a blob in the database. In such cases, you can query user data only if it is stored in one of the following primitive-type variables:
 
@@ -109,7 +109,7 @@ Perform the following steps to determine if a workflow that stores data in primi
 
 1. Follow the instructions in [Purge user data from workflow instances based on process instance IDs](../../forms/using/forms-workflow-jee-handling-user-data.md#purge) section to delete user data for identified process instance IDs.
 
-#### Purge user data from workflow instances based on process instance IDs {#purge}
+### Purge user data from workflow instances based on process instance IDs {#purge}
 
 Now that you have identified the process instance IDs associated with a user, do the following to delete user data from the respective process instances.
 
@@ -135,7 +135,7 @@ Now that you have identified the process instance IDs associated with a user, do
 
    The `purgeProcessInstance` method completely deletes all data for the specified invocation ID from AEM Forms server database and GDS, if configured.
 
-#### Work with orphan tasks {#orphan}
+### Work with orphan tasks {#orphan}
 
 Orphan tasks are the tasks whose containing process has been initiated but not submitted yet. in this case, the `process_instance_id` is **0** (zero). Therefore, you cannot trace user data stored for orphan tasks using process instance IDs. However, you can trace it using the task ID for an orphan task. You can identify the tasks IDs from the `tb_task` table for a user as described in [Identify process instance IDs when workflow initiator or participant is known](../../forms/using/forms-workflow-jee-handling-user-data.md#initiator-participant).
 

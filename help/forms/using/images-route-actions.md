@@ -43,39 +43,39 @@ To customize the images used in route actions, perform the steps described in [G
 
 1. Create a task list action popup, see [Building AEM Forms workspace code](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3). It requires to use the dev package.
 
-2. Copy `/libs/ws/js/runtime/templates/task.html` to `/apps/ws/js/runtime/templates/task.html`.
+1. Copy `/libs/ws/js/runtime/templates/task.html` to `/apps/ws/js/runtime/templates/task.html`.
 
-3. If the name of the CSS style is same as the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/task.html`:
+1. If the name of the CSS style is same as the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/task.html`:
 
-```
-<%if(routeList == null){%>
-            <li>
-                <a href="javascript:void(0);" title="<%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0])%>" value="<%= availableCommands.directCommands[0]%>" data-action="route"><%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0])%></a>
-            </li>
-            <%}else{%>
-            <%for(var i = 0; i<availableCommands.directCommands.length; i++){%>
-            <li>
-                <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"><%= availableCommands.directCommands[i]%></a>
-            </li>
-            <%}%>
-            <%}%>
- 
-To
- 
-<%if(routeList == null){%>
-            <li class="<%= availableCommands.directCommands[0]%>" alt="<%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0]+'.value')%>">
-                <a href="javascript:void(0);" title="<%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0])%>" value="<%= availableCommands.directCommands[0]%>" data-action="route"><%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0])%></a>
-            </li>
-            <%}else{%>
-            <%for(var i = 0; i<availableCommands.directCommands.length; i++){%>
-            <li class="<%= availableCommands.directCommands[i]%>" alt="<%= $.t('taskaction.directcommand.'+availableCommands.directCommands[i]+'.value')%>">
-                <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"><%= availableCommands.directCommands[i]%></a>
-            </li>
-            <%}%>
-            <%}%>
-```
+    ```
+    <%if(routeList == null){%>
+                <li>
+                    <a href="javascript:void(0);" title="<%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0])%>" value="<%= availableCommands.directCommands[0]%>" data-action="route"><%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0])%></a>
+                </li>
+                <%}else{%>
+                <%for(var i = 0; i<availableCommands.directCommands.length; i++){%>
+                <li>
+                    <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"><%= availableCommands.directCommands[i]%></a>
+                </li>
+                <%}%>
+                <%}%>
+    
+    To
+    
+    <%if(routeList == null){%>
+                <li class="<%= availableCommands.directCommands[0]%>" alt="<%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0]+'.value')%>">
+                    <a href="javascript:void(0);" title="<%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0])%>" value="<%= availableCommands.directCommands[0]%>" data-action="route"><%= $.t('taskaction.directcommand.'+availableCommands.directCommands[0])%></a>
+                </li>
+                <%}else{%>
+                <%for(var i = 0; i<availableCommands.directCommands.length; i++){%>
+                <li class="<%= availableCommands.directCommands[i]%>" alt="<%= $.t('taskaction.directcommand.'+availableCommands.directCommands[i]+'.value')%>">
+                    <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"><%= availableCommands.directCommands[i]%></a>
+                </li>
+                <%}%>
+                <%}%>
+    ```
 
-4. If the name of the CSS style is different from the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/task.html`. It adds a stack of the `if-else` servlet conditions to map the style with the route action name.
+1. If the name of the CSS style is different from the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/task.html`. It adds a stack of the `if-else` servlet conditions to map the style with the route action name.
 
 ```
 <%if(routeList == null){%>
@@ -115,60 +115,60 @@ To
 
 1. Copy `/libs/ws/js/runtime/templates/taskdetails.html` to `/apps/ws/js/runtime/templates/taskdetails.html`.
 
-2. If the name of the CSS style is same as the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/taskdetails.html`:
+1. If the name of the CSS style is same as the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/taskdetails.html`:
 
-```
+    ```
 
-<%for (var i = 0; i < availableCommands.directCommands.length; i++) {%>
+    <%for (var i = 0; i < availableCommands.directCommands.length; i++) {%>
+                            <li class="routeAction">
+                                <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"><%= availableCommands.directCommands[i]%></a>
+                            </li>
+                        <%}%>
+    
+    To
+    
+    <%for (var i = 0; i < availableCommands.directCommands.length; i++) {%>
+                            <li class="routeAction">
+                                <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route">
+                                <i class="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"/>
+                                </a>
+                            </li>
+                        <%}%>
+    ```
+
+1. If the name of the CSS style is different from the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/taskdetails.html`. It adds a stack of `if-else` servlet conditions to map the style with the route action name.
+
+    ```
+
+    <%for (var i = 0; i < availableCommands.directCommands.length; i++) {%>
+                            <li class="routeAction">
+                                <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"><%= availableCommands.directCommands[i]%></a>
+                            </li>
+                        <%}%>
+    
+    To
+    
+    <%for (var i = 0; i < availableCommands.directCommands.length; i++) {%>
+                    <%if(availableCommands.directCommands[i].equals("myAction1")){%>
                         <li class="routeAction">
-                            <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"><%= availableCommands.directCommands[i]%></a>
-                        </li>
-                    <%}%>
- 
-To
- 
-<%for (var i = 0; i < availableCommands.directCommands.length; i++) {%>
+                                <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route">
+                                <i class="myStyle1" value="<%= availableCommands.directCommands[i]%>" data-action="route"/>
+                                </a>
+                            </li>
+                    <%}else if(availableCommands.directCommands[i].equals("myAction2")){%>
                         <li class="routeAction">
-                            <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route">
-                               <i class="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"/>
-                            </a>
-                        </li>
+                                <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route">
+                                <i class="myStyle2" value="<%= availableCommands.directCommands[i]%>" data-action="route"/>
+                                </a>
+                            </li>
                     <%}%>
-```
-
-3. If the name of the CSS style is different from the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/taskdetails.html`. It adds a stack of `if-else` servlet conditions to map the style with the route action name.
-
-```
-
-<%for (var i = 0; i < availableCommands.directCommands.length; i++) {%>
-                        <li class="routeAction">
-                            <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route"><%= availableCommands.directCommands[i]%></a>
-                        </li>
-                    <%}%>
- 
-To
- 
-<%for (var i = 0; i < availableCommands.directCommands.length; i++) {%>
-                <%if(availableCommands.directCommands[i].equals("myAction1")){%>
-                     <li class="routeAction">
-                            <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route">
-                               <i class="myStyle1" value="<%= availableCommands.directCommands[i]%>" data-action="route"/>
-                            </a>
-                        </li>
-                <%}else if(availableCommands.directCommands[i].equals("myAction2")){%>
-                     <li class="routeAction">
-                            <a href="javascript:void(0);" title="<%= availableCommands.directCommands[i]%>" value="<%= availableCommands.directCommands[i]%>" data-action="route">
-                               <i class="myStyle2" value="<%= availableCommands.directCommands[i]%>" data-action="route"/>
-                            </a>
-                        </li>
                 <%}%>
-            <%}%>
-```
+    ```
 
-4. Open `/apps/ws/js/registry.js` for editing and look for the following text :  
+1. Open `/apps/ws/js/registry.js` for editing and look for the following text :  
 `"text!/lc/libs/ws/js/runtime/templates/taskdetails.html"`
 
-5. Replace the text with the following:  
+1. Replace the text with the following:  
 `"text!/lc/apps/ws/js/runtime/templates/taskdetails.html"`
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -183,7 +183,7 @@ Summarizing text is designed to help users reduce the length of their text to a 
 >
 >For example, `en/` as in the following path:
 >
->`/content/dam/my-brand/`****[!UICONTROL en]**** `/path-down/my-content-fragment`
+>`/content/dam/my-brand/**[!UICONTROL en]** `/path-down/my-content-fragment`
 
 >[!CAUTION]
 >

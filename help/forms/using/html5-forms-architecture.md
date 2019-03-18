@@ -22,7 +22,7 @@ HTML5 forms functionality is deployed as a package within the embedded AEM insta
 
 [ ![](assets/02-aem-forms-architecture_large.jpg)](javascript:void(0).md)
 
-#### Using Sling Framework {#using-sling-framework}
+### Using Sling Framework {#using-sling-framework}
 
 [Apache Sling](http://sling.apache.org/) is resource-centric. It uses a request URL to first resolve the resource. Each resource has a **sling:resourceType** (or **sling:resourceSuperType**) property. Based on this property, the request method, and properties of the request URL, a sling script is then selected to handle the request. This sling script can be a JSP or a servlet. For HTML5 forms, **Profile **nodes act as sling resources and **Profile Renderer** acts as the sling script that handles the request to render the mobile form with a particular profile. A **Profile Renderer** is a JSP that reads parameters from a request and calls the Forms OSGi Service.
 
@@ -32,7 +32,7 @@ When a user makes a request from a client device such as an iOS or Android brows
 
 For more details on sling script resolution, see [AEM Sling Cheat Sheet](http://docs.adobe.com/content/docs/en/cq/current/developing/sling_cheatsheet.html) or [Apache Sling Url decomposition](http://sling.apache.org/site/url-decomposition.html).
 
-#### Typical form processing call flow {#typical-form-processing-call-flow}
+### Typical form processing call flow {#typical-form-processing-call-flow}
 
 HTML5 forms cache all the intermediate objects required to process (rendition or submission) a form on the first request. It does not cache the objects dependent on the data as such objects are likely to change.
 

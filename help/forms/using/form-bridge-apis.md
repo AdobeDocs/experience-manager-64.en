@@ -34,7 +34,7 @@ window.addEventListener("FormBridgeInitialized",
 >
 >Ensure that you create a connection before including the formRuntime.jsp file.
 
-### Available Form Bridge API&nbsp; {#available-form-bridge-api-nbsp}
+## Available Form Bridge API&nbsp; {#available-form-bridge-api-nbsp}
 
 **getBridgeVersion()**
 
@@ -186,7 +186,7 @@ Returns the version number of the Scripting library
 
 * **Error: **None
 
-#### Example of&nbsp;getFieldValue() API {#example-of-nbsp-getfieldvalue-api}
+### Example of&nbsp;getFieldValue() API {#example-of-nbsp-getfieldvalue-api}
 
 ```
 var a =  formBridge.getFieldValue(“xfa.form.form1.Subform1.TextField”);
@@ -225,7 +225,7 @@ if(a.errors) {
 * **Output: **None
 * **Error: **None
 
-### Sample Usage of Form Bridge API {#sample-usage-of-form-bridge-api}
+## Sample Usage of Form Bridge API {#sample-usage-of-form-bridge-api}
 
 ```
 // Example 1: FormBridge.restoreFormState

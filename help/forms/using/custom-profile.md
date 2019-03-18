@@ -22,27 +22,27 @@ The profile script is in html.jsp and html.POST.jsp for GET and POST requests. Y
 
 A profile contains various modules. The modules are formRuntime.jsp, config.jsp, toolbar.jsp, formBody.jsp, nav_footer.jsp, and footer.jsp.
 
-### formRuntime.jsp <br> {#formruntime-jsp-br}
+## formRuntime.jsp <br> {#formruntime-jsp-br}
 
 The formRuntime.jsp modules contains references of the client libraries. It also depicts methods to extract locale information from the request and include the localized messages in the request. You can include own custom javascript libs or styles in the formRuntime.jsp.
 
-### config.jsp {#config-jsp}
+## config.jsp {#config-jsp}
 
 The config.jsp module contains various configurations such as logging, proxy services, and behavior version. You can add your own configuration and widget customization to the config.jsp module. You can also add configurations such as custom widget registration to the config.jsp module.
 
-### toolbar.jsp {#toolbar-jsp}
+## toolbar.jsp {#toolbar-jsp}
 
 The toolbar.jsp contains code to create colored toolbar. To remove the toolbar, remove toolbar.jsp from the HTML.jsp
 
-### formBody.jsp {#formbody-jsp}
+## formBody.jsp {#formbody-jsp}
 
 The formBody.jsp module is for the HTML representation of the XFA form.
 
-### nav_footer.jsp {#nav-footer-jsp}
+## nav_footer.jsp {#nav-footer-jsp}
 
 At first, the HTML5 form renders only the first page of the form. When a user scrolls the form, then the rest of the forms is loaded. It makes the loading experience faster. The nav_footer.jsp component contains all the styles and required elements to facilitate loading of the pages on scroll.
 
-### footer.jsp {#footer-jsp}
+## footer.jsp {#footer-jsp}
 
 The footer.jsp module is an empty. It allows you to add scripts that are used only for user interaction.
 
