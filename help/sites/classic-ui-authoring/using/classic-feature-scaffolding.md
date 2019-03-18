@@ -53,7 +53,7 @@ The body of the scaffold is the form. When a user wishes to create a page using 
 
 * **Image/Advanced**: **Alt Text**: The alt text for the image.
 
-* **I****mage/Advanced**: **Description**: The description of the image.
+* **Image/Advanced**: **Description**: The description of the image.
 
 * **Image/Advanced**: **Size**: The size of the image.
 

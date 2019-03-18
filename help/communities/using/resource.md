@@ -87,7 +87,7 @@ Upload a Resource. If a video resource, either upload a custom image to display 
 * **Resource Expert** 
   *(Optional)* Leave blank.
 
-****Note**** ****: if users or groups are not visible, check that they were added to the `Community Enable Members` group and *Saved *on the publish instance.
+**Note**: if users or groups are not visible, check that they were added to the `Community Enable Members` group and *Saved* on the publish instance.
 
 ![](assets/chlimage_1-206.png)
 

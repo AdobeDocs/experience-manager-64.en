@@ -56,7 +56,7 @@ AEM forms Digital Signatures can use credentials stored on an HSM to apply serve
 
 1. Select one of these options and provide the path:
 
-    * **Certificate**: (Not required if using SHA1) Click Browse and**** locate the path to the public key for the credential you are using.
+    * **Certificate**: (Not required if using SHA1) Click Browse and locate the path to the public key for the credential you are using.
     * **Certificate SHA1:** (Not required if using a physical certificate) Type SHA1 value (thumbprint) of the public key (.cer) file for the credential you are using. Ensure that there are no spaces used in the SHA1 value.
 
 1. In the Password box, type the password required to access the HSM key for the given slot information, and then click Save.
