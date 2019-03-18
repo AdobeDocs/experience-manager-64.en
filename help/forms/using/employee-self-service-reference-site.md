@@ -31,7 +31,7 @@ Organizations from time to time ask their employees to submit Conflict of Intere
 
 The Compliance department at Sarah's organization has asked employees to submit the Conflict of Interest questionnaire.
 
-#### Sarah submits the Conflict of Interest questionnaire {#sarah-submits-the-conflict-of-interest-questionnaire}
+### Sarah submits the Conflict of Interest questionnaire {#sarah-submits-the-conflict-of-interest-questionnaire}
 
 Sarah goes to her organization's portal, logs in, and clicks Employee to access the employee dashboard. She finds Conflict of Interest questionnaire on the employee dashboard and clicks **[!UICONTROL Apply]**.
 
@@ -59,7 +59,7 @@ The adaptive form uses rules to show-hide information based on the answer provid
 
 Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/self-service-forms.html` and log in using `srose/srose` as username/password for Sarah. Click **[!UICONTROL Employee]** to access the dashboard and then click **[!UICONTROL Apply]** on Conflict of Interest questionnaire. Review and submit the questionnaire.
 
-#### Gloria reviews and approves the Conflict of Interest questionnaire submission {#gloria-reviews-and-approves-the-conflict-of-interest-questionnaire-submission}
+### Gloria reviews and approves the Conflict of Interest questionnaire submission {#gloria-reviews-and-approves-the-conflict-of-interest-questionnaire-submission}
 
 The Conflict of Interest questionnaire submitted by Sarah is assigned to Gloria Rios for review. Gloria works as a Compliance Officer in the organization. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the questionnaire submitted by Sarah and completes the task.
 
@@ -85,7 +85,7 @@ Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.htm
 
 Sarah travels a lot for business and requires a corporate credit card to pay her bills on the move. She applies for a corporate card through her organization's employee portal.
 
-#### Sarah submits the Corporate Card application {#sarah-submits-the-corporate-card-application}
+### Sarah submits the Corporate Card application {#sarah-submits-the-corporate-card-application}
 
 Sarah goes to her organization's portal, logs in, and clicks **[!UICONTROL Employee]** to access the employee dashboard. She finds Corporate Card application on the employee dashboard and clicks **[!UICONTROL Apply]**.
 
@@ -112,7 +112,7 @@ The adaptive form for corporate card application is a simple, one-page, responsi
 
 Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/self-service-forms.html` and log in using `srose/srose` as username/password for Sarah. Click **[!UICONTROL Employee]** to access the dashboard and then click **[!UICONTROL Apply]** on Corporate Card application. Fill in the details, and submit the application.
 
-#### Gloria reviews and approves the corporate card application {#gloria-reviews-and-approves-the-corporate-card-application}
+### Gloria reviews and approves the corporate card application {#gloria-reviews-and-approves-the-corporate-card-application}
 
 The Corporate Card application submitted by Sarah is assigned to Gloria Rios for review. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the application submitted by Sarah and completes the task.
 
@@ -138,7 +138,7 @@ Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.htm
 
 As Sarah spends during business travels, she needs to submit expense reports for approval. The self-service option in her organization lets her submit the expense report online.
 
-#### Sarah submits the Expense Report application {#sarah-submits-the-expense-report-application}
+### Sarah submits the Expense Report application {#sarah-submits-the-expense-report-application}
 
 Sarah goes to her organization's portal, logs in, and clicks **[!UICONTROL Employee]** to access the employee dashboard. She finds Expense Report application on the employee dashboard and clicks **[!UICONTROL Apply]**. 
 
@@ -166,7 +166,7 @@ The Report Name and Report Details tabs in the adaptive form are Panel component
 
 Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/self-service-forms.html` and log in using `srose/srose` as username/password for Sarah. Click **[!UICONTROL Employee]** to access the dashboard and then click **[!UICONTROL Apply]** on Expense Report application. Fill in the details and submit the application.
 
-#### Gloria reviews and approves the expense report {#gloria-reviews-and-approves-the-expense-report}
+### Gloria reviews and approves the expense report {#gloria-reviews-and-approves-the-expense-report}
 
 The expense report submitted by Sarah is assigned to Gloria Rios for review. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the application submitted by Sarah and completes the task.
 
@@ -192,7 +192,7 @@ Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.htm
 
 Sarah is planning a family vacation next month and wants to apply for a week's leave from work.
 
-#### Sarah submits the leave application {#sarah-submits-the-leave-application}
+### Sarah submits the leave application {#sarah-submits-the-leave-application}
 
 Sarah goes to her organization's portal, logs in, and clicks **[!UICONTROL Employee]** to access the employee dashboard. She finds leave application on the employee dashboard and clicks **[!UICONTROL Apply]**.
 
@@ -226,7 +226,7 @@ You can review the adaptive form and the Form Data Model at the following locati
 
 Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/self-service-forms.html` and log in using `srose/srose` as username/password for Sarah. Click **[!UICONTROL Employee]** to access the dashboard and then click **[!UICONTROL Apply]** on Leave Application. Fill in the details and submit the application.
 
-#### Gloria reviews and approves the leave application {#gloria-reviews-and-approves-the-leave-application}
+### Gloria reviews and approves the leave application {#gloria-reviews-and-approves-the-leave-application}
 
 The leave application submitted by Sarah is assigned to Gloria Rios for review. Gloria logs in to her AEM Inbox and reviews the tasks assigned to her. She approves the application submitted by Sarah and completes the task.
 

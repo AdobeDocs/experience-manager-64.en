@@ -14,7 +14,7 @@ discoiquuid: e4636b25-20a4-4326-82fb-f22f735e43c0
 
 When you log in to the AEM Forms app, you are redirected to the Home screen.
 
-### Default Home screen {#default-home-screen}
+## Default Home screen {#default-home-screen}
 
 By default, the Home screen displays all forms including startpoints and tasks (if the connected server is AEM Forms Workflow enabled), along with the associated thumbnails. You can specify the thumbnails in the AEM Forms server.
 
@@ -30,7 +30,7 @@ Click to enlarge
 1. **Horizontal Ellipsis**: Denotes that actions are available for the form. Tapping the ellipsis displays the actions and description author has provided. The **Delete Draft **and **Complete **option is visible when you tap the ellipsis.
 1. **Refresh icon**: Tap the refresh icon to synchronize your app with the AEM Forms server.
 
-### Customizing the Home screen {#customizing-the-home-screen}
+## Customizing the Home screen {#customizing-the-home-screen}
 
 ![General Settings](assets/gen-settings.png)
 

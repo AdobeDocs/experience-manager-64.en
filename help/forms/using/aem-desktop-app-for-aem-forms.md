@@ -17,7 +17,7 @@ AEM Desktop App lets you map the Adobe Experience Manager (AEM) Assets repositor
 
 You can download the app from an AEM instance. For detailed information about downloading the app, see [AEM Desktop App Release Notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html).
 
-### AEM Forms assets supported in AEM Desktop App {#aem-forms-assets-supported-in-aem-desktop-app}
+## AEM Forms assets supported in AEM Desktop App {#aem-forms-assets-supported-in-aem-desktop-app}
 
 You can use the app to sync AEM Forms binary files of following type Form Templates (.xdp), PDF Form (.pdf), Document (.pdf), Images, XML Schema (.xsd), style sheets (.xfs). The app lists all other files (non-supported files) as 0-byte files. Listing non-supported files as 0-byte files ensures that the user is aware of the existence of other assets available on AEM Forms server.
 
@@ -25,7 +25,7 @@ You can use the app to sync AEM Forms binary files of following type Form Templa
 >
 >A filename can only contain alphanumeric characters, hyphen, or underscore.
 
-### Enable AEM Forms for AEM Desktop App {#enable-aem-forms-for-aem-desktop-app}
+## Enable AEM Forms for AEM Desktop App {#enable-aem-forms-for-aem-desktop-app}
 
 AEM Desktop App uses WebDAV protocol on Microsoft Windows and SMB1 on Mac OS X to connect to an AEM Forms server. Out of the box, AEM Forms server is not enabled to sync binary files and other assets with a WebDAV or SMB client. Perform the following steps to enable AEM Forms for AEM Desktop App:
 

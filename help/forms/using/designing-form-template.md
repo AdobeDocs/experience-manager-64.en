@@ -18,13 +18,13 @@ Although HTML5 forms match the behavior of the PDF forms to a great extent, ther
 
 For common XFA features, see the following best practices and guidelines to design a form that works in both formats.
 
-### Capabilities in AEM Forms Designer for HTML5 Forms {#capabilities-in-aem-forms-designer-for-html-forms}
+## Capabilities in AEM Forms Designer for HTML5 Forms {#capabilities-in-aem-forms-designer-for-html-forms}
 
-#### Preview HTML {#preview-html}
+### Preview HTML {#preview-html}
 
 The Preview HTML tab is added in the Design mode for Form Designers to preview forms in HTML5 format during the design process. For more information on how to enable and configure this capability in AEM Forms Designer, see [Preview HTML](../../forms/using/preview-xdp-forms-html.md).
 
-#### Scribble signature {#scribble-signature}
+### Scribble signature {#scribble-signature}
 
 The key target for HTML5 forms is touch devices. Therefore, a new scribble signature control is added in AEM Forms Designer. You can click or drag-and-drop the scribble signature control on your form template and configure it. It is rendered as a scribble field in HTML5 rendition and can be used to scribble signature on touch devices. On desktop machines, it can be used as a scribble field using mouse control. For more information on how to use this feature, see [XFA Scribble Field](../../forms/using/scribble-signature.md).
 

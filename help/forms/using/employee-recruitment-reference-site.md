@@ -78,11 +78,11 @@ Sarah clicks Apply on a job posting. The job application form opens. She fills a
 
 ![](assets/job-application-form.png)
 
-#### How it works {#how-it-works}
+### How it works {#how-it-works}
 
 The We.Finance home page and the career page are AEM Sites pages. The career page embeds an adaptive form, which uses a repeatable panel to fetch job openings using a service and list them on the page. You can review the adaptive form at `http://[authorHost]:[authorPort]/editor.html/content/forms/af/we-finance/employee/recruitment/jobs.html`.
 
-#### See it yourself {#see-it-yourself}
+### See it yourself {#see-it-yourself}
 
 Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en.html` and click **[!UICONTROL Career]**. Click **[!UICONTROL Search]** to populate the job list and then click **[!UICONTROL Apply]** for a job. Fill details in the form and submit the application.
 
@@ -104,7 +104,7 @@ John Jacobs shortlists Sarah Rose's profile for the hiring manager's screening
 
 The submit action in the Job Application form triggers a workflow that creates a task in John Jacob's inbox for screening the application. When John, reviews and shortlists the application, the workflow creates a task in the hiring manager, Gloria's inbox.
 
-#### See it yourself {#see-it-yourself-1}
+### See it yourself {#see-it-yourself-1}
 
 Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html`and log in using jjacobs/password as username/password for John Jacobs. Open the Candidate Profile Review task and shortlist the applicant.
 
@@ -124,7 +124,7 @@ Gloria approves Sarah Rose for an interview
 
 When Gloria approves the candidate for an interview, the workflow creates a task in the AEM Inbox of John Doe, who is a recruiter for We.Finance.
 
-#### See it yourself {#see-it-yourself-2}
+### See it yourself {#see-it-yourself-2}
 
 Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html` and log in using jjacobs/password as username/password for John Jacobs. Open the Candidate Profile Review task and shortlist the applicant.
 

@@ -18,7 +18,7 @@ AEM search is capable of searching and locating AEM assets and performing text s
 1. Establish a secure connection
 1. Index a sample policy-protected PDF document
 
-### Prerequisites {#prerequisites}
+## Prerequisites {#prerequisites}
 
 * If you are using AEM Forms on OSGi:
 
@@ -39,14 +39,14 @@ AEM search is capable of searching and locating AEM assets and performing text s
     
     1. Add the sun.util.calendar package to the Whitelisted classes or package prefixes field and click **Save**.
 
-### Establish a secure connection between AEM Forms JEE and OSGi stacks {#establish-a-secure-connection-between-aem-forms-jee-and-osgi-stacks}
+## Establish a secure connection between AEM Forms JEE and OSGi stacks {#establish-a-secure-connection-between-aem-forms-jee-and-osgi-stacks}
 
 You can use one of the following methods to establish the secure connection:
 
 * Configure Adobe LiveCycle Client SDK Bundle with AEM Forms on JEE admin credentials
 * Configure Adobe LiveCycle Client SDK Bundle using mutual authentication
 
-#### Configure Adobe LiveCycle Client SDK Bundle with AEM Forms on JEE admin credentials {#configure-adobe-livecycle-client-sdk-bundle-with-aem-forms-on-jee-admin-credentials}
+### Configure Adobe LiveCycle Client SDK Bundle with AEM Forms on JEE admin credentials {#configure-adobe-livecycle-client-sdk-bundle-with-aem-forms-on-jee-admin-credentials}
 
 1. Open AEM Web Console. The URL is http://[server]:[port]/system/console/configMgr.
 1. Locate and open the **Adobe LiveCycle Client SDK Bundle**. Specify value for the following fields:
@@ -58,7 +58,7 @@ You can use one of the following methods to establish the secure connection:
 
    Click **Save**. AEM is enabled to search document security protected PDF documents.
 
-#### Configure Adobe LiveCycle Client SDK Bundle using mutual authentication {#configure-adobe-livecycle-client-sdk-bundle-using-mutual-authentication}
+### Configure Adobe LiveCycle Client SDK Bundle using mutual authentication {#configure-adobe-livecycle-client-sdk-bundle-using-mutual-authentication}
 
 1. Enable mutual authentication for AEM Forms on JEE. For detailed information, see [CAC and Mutual Authentication](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html).
 1. Open AEM Web Console. The URL is http://[server]:[port]/system/console/configMgr.
@@ -78,7 +78,7 @@ You can use one of the following methods to establish the secure connection:
 
    Click **Save**. AEM is enabled to search document security protected PDF documents
 
-### Index a sample policy-protected PDF document {#index-a-sample-policy-protected-pdf-document}
+## Index a sample policy-protected PDF document {#index-a-sample-policy-protected-pdf-document}
 
 1. Log in to AEM Assets as an administrator.
 1. Create a folder in AEM Digital Asset Manager and upload the policy-protected PDF documents to the newly created folder.

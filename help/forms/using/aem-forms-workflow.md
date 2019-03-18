@@ -4,7 +4,7 @@ seo-title: Rapidly build adaptive forms-based processes, automate document servi
 description: Use AEM Forms Workflow to automate and rapidly build review and approvals, to start document services (For example, to convert a PDF document to another format), integrate with Adobe Sign signature workflow, and more.
 seo-description: Use AEM Forms Workflow to automate and rapidly build review and approvals, to start document services (For example, to convert a PDF document to another format), integrate with Adobe Sign signature workflow, and more.
 uuid: 46be7ec6-d5cc-498a-9484-e66a29527064
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
+products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 topic-tags: document_services
 discoiquuid: f8df5fa3-3843-4110-a46d-9a524d2657cd
@@ -50,7 +50,7 @@ AEM provides an intuitive user interface to create a workflow model using the pr
 >
 >You must be a member of the workflow-editor group to create or edit a workflow model.
 
-#### Create a model for an approval and review workflow {#create-a-model-for-an-approval-and-review-workflow}
+### Create a model for an approval and review workflow {#create-a-model-for-an-approval-and-review-workflow}
 
 Approval and review workflow are for the tasks which require human intervention to make decisions. The following example creates a workflow model for a mortgage loan application to be filled by a front-office banking agent. Once the application is filled, it is sent for approval. Later on, the approved application is sent to the applicant for electronic signatures using Adobe Sign.
 
@@ -136,7 +136,7 @@ The application is the adaptive form associated with the workflow. When an appli
 >
 >You must be a member of the fd-administrator group to be able to create and manage workflow applications.
 
-1. On your AEM author instance, go to ![](assets/tools.png) **> **[!UICONTROL Forms]**> **[!UICONTROL Manage Workflow Application]**** and taps ****[!UICONTROL Create]****.
+1. On your AEM author instance, go to ![](assets/tools.png)** > **[!UICONTROL Forms]** > **[!UICONTROL Manage Workflow Application]** and taps **[!UICONTROL Create]**.
 1. In the Create Workflow Application window, provide inputs for the following fields, and taps **Create**. A new application is created and is listed in the Workflow Applications screen.
 
 <table> 

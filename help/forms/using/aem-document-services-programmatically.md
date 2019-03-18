@@ -58,7 +58,7 @@ You can perform the following operations using the DocAssurance service:
 >
 >All these services use Document object as  input  parameter for which the Javadoc can be found at the URL [https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/index.html](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/index.html)
 
-#### Adding an invisible signature field {#adding-an-invisible-signature-field}
+### Adding an invisible signature field {#adding-an-invisible-signature-field}
 
 Digital signatures appear in signature fields, which are form fields that contain a graphical representation of the signature. Signature fields can be visible or invisible. Signers can use a pre-existing signature field, or a signature field can be programmatically added. In either case, the signature field must exist before a PDF document can be signed. You can programmatically add a signature field by using the Signature service Java API or Signature web service API. You can add more than one signature field to a PDF document. However, each signature field name must be unique.
 
@@ -230,7 +230,7 @@ sigAppearence.setSigningFormat(signingFormat);
 signOptions.setSigAppearence(sigAppearence);
 ```
 
-#### Adding a signature field&nbsp; {#adding-a-signature-field-nbsp}
+### Adding a signature field&nbsp; {#adding-a-signature-field-nbsp}
 
 You can programmatically add a signature field by using the Signature service Java API or Signature web service API. You can add multiple signature fields to a PDF document. However, each signature field name must be unique.
 
@@ -410,7 +410,7 @@ public class AddSignatureField {
 }
 ```
 
-#### Apply Document TimeStamp {#apply-document-timestamp}
+### Apply Document TimeStamp {#apply-document-timestamp}
 
 You can programmatically timestamp a document as per [PAdES 4](https://en.wikipedia.org/wiki/PAdES) specifications. You can also use [CAdES](https://en.wikipedia.org/wiki/CAdES_%28computing%29) specification for transaction related documents.
 
@@ -617,7 +617,7 @@ import com.adobe.fd.signatures.pki.client.types.prefs.TSPPreferencesImpl;
 }
 ```
 
-#### Getting signature {#getting-signature}
+### Getting signature {#getting-signature}
 
 You can retrieve the names of all signature fields that are located in a PDF document that you want to sign or certify. If you are not sure of the signature field names located in a PDF document or to verify the names, then retrieve the names programmatically. The Signature service returns the fully qualified name of the signature field, such as `form1[0].grantApplication[0].page1[0].SignatureField1[0]`.
 
@@ -742,7 +742,7 @@ public class GetSignature {
 
 ```
 
-#### Getting signature field list&nbsp; {#getting-signature-field-list-nbsp}
+### Getting signature field list&nbsp; {#getting-signature-field-list-nbsp}
 
 You can retrieve the names of all signature fields that are located in a PDF document that you want to sign or certify. If you are unsure of the signature field names in a PDF document, you can programmatically retrieve and verify them. The Signature service returns the fully qualified name of the signature field, such as `form1[0].grantApplication[0].page1[0].SignatureField1[0]`.
 
@@ -857,7 +857,7 @@ public class GetSignatureFields {
 }
 ```
 
-#### Modifying signature fields&nbsp; {#modifying-signature-fields-nbsp}
+### Modifying signature fields&nbsp; {#modifying-signature-fields-nbsp}
 
 You can modify signature fields that are located in a PDF document. Modifying a signature field involves manipulating its signature field lock dictionary values or seed value dictionary values.
 
@@ -1024,7 +1024,7 @@ public class ModifySignatureField {
 }
 ```
 
-#### Certifying PDF documents&nbsp; {#certifying-pdf-documents-nbsp}
+### Certifying PDF documents&nbsp; {#certifying-pdf-documents-nbsp}
 
 You can secure a PDF document by certifying it with a particular type of signature called a certified signature. A certified signature is distinguished from a digital signature in these ways:
 
@@ -1329,7 +1329,7 @@ public class Certify {
 }
 ```
 
-#### Securing documents {#securing-documents}
+### Securing documents {#securing-documents}
 
 secureDocument enables you to encrypt, sign/certify, and reader extend a PDF Document either individually or in any combination in a particular order. To access any of this functionality, pass the corresponding argument. If null, it would be assumed that the particular processing is not required.
 
@@ -2064,7 +2064,7 @@ public class PassEncryptSignExtend {
 }
 ```
 
-#### Getting credential usage rights {#getting-credential-usage-rights}
+### Getting credential usage rights {#getting-credential-usage-rights}
 
 To fetch usage rights information of the credential specified by the given `credentialAlias`, call this API from within the `SecureDocument` API.
 
@@ -2155,7 +2155,7 @@ public void getCredentialUsageRights() {
 }
 ```
 
-#### Getting document usage rights {#getting-document-usage-rights}
+### Getting document usage rights {#getting-document-usage-rights}
 
 To fetch usage rights information for a given document, call this API from within the `docAssuranceService`API.
 
@@ -2275,7 +2275,7 @@ public void getDocumentUsageRights() {
 }
 ```
 
-#### Removing usage rights {#removing-usage-rights}
+### Removing usage rights {#removing-usage-rights}
 
 You can remove the usage rights for a document by calling the `removeUsageRights`API from within the `docAssuranceService`API.
 
@@ -2718,7 +2718,7 @@ public class VerifyFieldEncryptedPDF {
 }
 ```
 
-#### Verifying multiple digital signatures {#verifying-multiple-digital-signatures}
+### Verifying multiple digital signatures {#verifying-multiple-digital-signatures}
 
 AEM lets you verify digital signatures in PDF documents. A PDF document can contain multiple digital signatures if it is subjected to a business process that requires signatures from multiple signers. For example, a financial transaction requires signatures of both the loan officer and the manager. You can use the Signature service API to verify all signatures within the PDF document. When verifying multiple digital signatures, you can check the status and properties of each signature. Before you trust a digital signature, Adobe recommends that you verify it.
 
@@ -3016,7 +3016,7 @@ public class VerifyEncryptedPDFDoc {
 }
 ```
 
-#### Removing digital signatures {#removing-digital-signatures}
+### Removing digital signatures {#removing-digital-signatures}
 
 You can apply a new digital signature to a signature field only after you remove the previous digital signature. You cannot overwrite a digital signature. If you attempt to apply a digital signature to a signature field that contains a signature already, an exception occurs.
 
@@ -3137,7 +3137,7 @@ public class ClearSignatureField {
 }
 ```
 
-#### Getting certifying signature field {#getting-certifying-signature-field}
+### Getting certifying signature field {#getting-certifying-signature-field}
 
 You can retrieve the names of all signature fields that are located in a PDF document that you want to sign or certify. If you are unsure of the signature field names that are located in a PDF document or you want to verify the names, you can programmatically retrieve them. The Signature service returns the fully qualified name of the signature field, such as `form1[0].grantApplication[0].page1[0].SignatureField1[0]`.
 
@@ -3257,7 +3257,7 @@ public class GetCertifyingSignatureField {
 
 ```
 
-#### Getting PDF encryption type {#getting-pdf-encryption-type}
+### Getting PDF encryption type {#getting-pdf-encryption-type}
 
 You can retrieve the names of all signature fields that are located in a PDF document that you want to sign or certify. If you are unsure of the signature field names that are located in a PDF document or you want to verify the names, you can programmatically retrieve them. The Signature service returns the fully qualified name of the signature field, such `asform1[0].grantApplication[0].page1[0].SignatureField1[0]`.
 
@@ -3374,7 +3374,7 @@ public class GetPDFEncryption {
 
 ```
 
-#### Removing password encryption from PDF {#removing-password-encryption-from-pdf}
+### Removing password encryption from PDF {#removing-password-encryption-from-pdf}
 
 Remove password-based encryption from a PDF document to let users open the PDF document in Adobe Reader or Acrobat without having to specify a password. After you remove password-based encryption from a PDF document, the document is no longer secure.
 
@@ -3473,7 +3473,7 @@ public class RemovePasswordEncryption {
 }
 ```
 
-#### Removing certificate encryption {#removing-certificate-encryption}
+### Removing certificate encryption {#removing-certificate-encryption}
 
 You can remove certificate-based encryption from a PDF document so that users can open the PDF document in Adobe Reader or Acrobat. To remove encryption from a PDF document that is encrypted with a certificate, reference a private key. After you remove the encryption from a PDF document, it is no longer secure.
 
