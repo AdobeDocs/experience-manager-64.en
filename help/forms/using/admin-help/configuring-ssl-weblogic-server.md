@@ -123,7 +123,7 @@ For more information about using the keytool command, see the keytool.html file 
 
    `-file "ads-ca.cer" -keystore "ads-credentials.jks"`
 
-   `-storepass` `*store*`*_**password*****
+   `-storepass` `*store*`*_**password**
 
    >[!NOTE]
    >
@@ -140,7 +140,7 @@ For more information about using the keytool command, see the keytool.html file 
 1. Copy the ads-ca.cer file to any host computers that need secure communication with the application server.
 1. Insert the certificate into a new keystore file (the Custom Trust keystore) by entering the following command:
 
-   *[JAVA_HOME]* `/bin/keytool -import -v -noprompt -alias bedrock -file "ads-ca.cer" -keystore "ads-ca.jks" -storepass *store_password* -keypass *key_password*`****
+   *[JAVA_HOME]* `/bin/keytool -import -v -noprompt -alias bedrock -file "ads-ca.cer" -keystore "ads-ca.jks" -storepass *store_password* -keypass *key_password*`
 
    >[!NOTE]
    >
