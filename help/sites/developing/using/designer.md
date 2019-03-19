@@ -21,7 +21,7 @@ You will need to create a design for your website and in AEM, you do so by using
 
 ### Using the Designer {#using-the-designer}
 
-Your design can be defined in the ******designs** section of the **Tools** tab:
+Your design can be defined in the **designs** section of the **Tools** tab:
 
 ![](assets/screen_shot_2012-02-01at30237pm.png)
 

@@ -131,7 +131,7 @@ Wherever possible, set the DAM Update Asset workflow to Transient. The setting s
 
 1. From the navigation tree, expand **[!UICONTROL Tools]** > **[!UICONTROL Workflow]** > **[!UICONTROL Models]** > **[!UICONTROL dam]**.
 1. Double-click **[!UICONTROL DAM Update Asset]**.
-1. From the floating tool panel, switch to the **[!UICONTROL Page]** tab, and then click **[!UICONTROL Page Properties]****.**
+1. From the floating tool panel, switch to the **[!UICONTROL Page]** tab, and then click **[!UICONTROL Page Properties]**.
 1. Select **[!UICONTROL Transient Workflow]** Click **[!UICONTROL OK]**.
 
    >[!NOTE]

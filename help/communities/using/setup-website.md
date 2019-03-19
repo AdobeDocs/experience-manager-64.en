@@ -76,7 +76,7 @@ The /apps directory is protected and not publicly accessible as are the /content
     
     1. in the **Create Folder** dialog, enter **templates**
     
-    1. ****click **OK**
+    1. click **OK**
 
 1.
 
