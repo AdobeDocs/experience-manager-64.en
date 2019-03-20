@@ -18,7 +18,7 @@ There are two ways to back up and restore repository content in AEM:
 * You can create an external backup of the repository and store it in a safe location. If the repository breaks down, you can restore it to the previous state.
 * You can create internal versions of the repository content. These versions are stored in the repository along with the content, so you can quickly restore nodes and trees you have changed or deleted.
 
-### General {#general}
+## General {#general}
 
 The approach described here applies for system backup and recovery.
 
@@ -29,7 +29,7 @@ If you need to backup and/or recover a small amount of content, which is lost, a
 
 For details, see [Package Backup](../../../sites/administering/using/backup-and-restore.md#package-backup) below.
 
-### Timing {#timing}
+## Timing {#timing}
 
 Do not run backup in parallel with the datastore garbage collection, as it might harm the results of both processes.
 

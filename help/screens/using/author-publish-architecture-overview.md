@@ -17,11 +17,9 @@ This page highlights the following topics:
 
 * **Introduction to Publish Servers**
 * **Architectural Overview**
-* **Registration Process  
-  
-  **
+* **Registration Process**
 
-### Prerequisites {#prerequisites}
+## Prerequisites {#prerequisites}
 
 Before getting started with author and publish servers, you should have prior knowledge of:
 
@@ -47,10 +45,10 @@ The following diagram illustrates the author and publish environments.
 
 There are five architectural components, facilitating this solution:
 
-* ***Replicating ***content*** ***from author to publish for display by devices
+* ***Replicating*** content from author to publish for display by devices
 
-* ***Reverse ***replicating binary content from publish (received from devices) to author
-* ***Sending ***commands from author to publish via specific REST APIs
+* ***Reverse*** replicating binary content from publish (received from devices) to author
+* ***Sending*** commands from author to publish via specific REST APIs
 * ***Messaging*** between publish instances to synchronize device information updates and commands
 * ***Polling*** by the author of publish instances to obtain device information via specific REST APIs
 
@@ -103,6 +101,6 @@ Once a device has been registered on the author environment the device configura
 
 ![](assets/screen_shot_2019-02-25at15218pm.png) 
 
-#### The Next Steps {#the-next-steps}
+### The Next Steps {#the-next-steps}
 
 Once you understand the architectural design of author and publish setup in AEM Screens, refer to [**Configuring Author and Publish for AEM Screens**](../../screens/using/author-and-publish.md) for more details.

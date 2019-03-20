@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5faf6ee5-9242-48f4-87a8-ada887a3be1e
 ---
 
-# Configuring LDAP with AEM 6{#configuring-ldap-with-aem}
+# Configuring LDAP with AEM 6 {#configuring-ldap-with-aem}
 
 LDAP (the **L**ightweight **D**irectory **A**ccess **P**rotocol) is used for accessing centralized directory services. This helps reduce the effort required to manage user accounts as they can be accessed by multiple applications. One such LDAP server is Active Directory. LDAP is often used to achieve Single Sign On which allows a user to access multiple applications after logging in once.
 
@@ -233,7 +233,7 @@ AEM 6 can be configured to authenticate with LDAP over SSL by following the belo
 
 1. Test the connection to the LDAP server.
 
-#### Creating SSL certificates {#creating-ssl-certificates}
+### Creating SSL certificates {#creating-ssl-certificates}
 
 Self signed certificates can be used when configuring AEM to authenticate with LDAP via SSL. Below is an example of a working procedure for generating certificates for use with AEM.
 

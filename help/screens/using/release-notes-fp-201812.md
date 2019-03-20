@@ -16,7 +16,7 @@ noindex: true
 
 The AEM Screens released AEM 6.3 Feature Pack 5 and AEM 6.4 Feature Pack 3 with the following details.
 
-### Release Date {#release-date}
+## Release Date {#release-date}
 
 The Release Date for AEM Screens Feature Pack 201812 is January 16, 2019.
 
@@ -32,7 +32,7 @@ The Release Date for AEM Screens Feature Pack 201812 is January 16, 2019.
   Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images, and text that can be combined in a single screen. Please refer to ** [Multi-zone Layout](../../screens/using/multi-zone-layout-aem-screens.md)** to learn more.
 
 * **Smart Syncing of Assets to Players**
-* **Author / Publish deployment (Hardening)**
+* **Author/Publish deployment (Hardening)**
 
 ### Released AEM Screens Players {#released-aem-screens-players}
 

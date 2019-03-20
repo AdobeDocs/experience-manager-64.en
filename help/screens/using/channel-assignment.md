@@ -94,7 +94,7 @@ DayParting refers to as splitting up a day into time slots and specifying which 
 
 The following examples explain dayparting in channels in three different scenarios:
 
-#### Playing content on a single day divided into multiple time slots {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+### Playing content on a single day divided into multiple time slots {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
 This example shows how a Restaurant uses dayparting to showcase its breakfast, lunch and dinner menu.
 
@@ -133,7 +133,7 @@ This example shows the dayparting achieved in a casino where live event occurs e
  </tbody> 
 </table>
 
-#### Playing content for a particular month/months {#playing-content-for-a-particular-month-months}
+### Playing content for a particular month/months {#playing-content-for-a-particular-month-months}
 
 This example shows the dayparting for a store that displays their summer collection from the months of June until August and fall collection from September until the end of October.
 
@@ -148,7 +148,7 @@ Here, you will create dayparting as per months, so that channel content plays as
 >
 >Additionally, you can define ***Priority*** for each of the channels. For example, if two channels are set for the same day and time or for the same month, then the channel with higher priority is played first. The minimum value for priority can be set as 0.
 
-#### Playing content for channels with same priority {#playing-content-for-channels-with-same-priority}
+### Playing content for channels with same priority {#playing-content-for-channels-with-same-priority}
 
 This examples shows the dayparting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.
 

@@ -599,7 +599,7 @@ There are implications on where within the tree that you use **Detach**:
   >
   >See [MSM Rollout Conflicts](../../../sites/administering/using/msm-rollout-conflicts.md) for details of such situations.
 
-#### Detach a Live Copy Page from the Page Properties {#detach-a-live-copy-page-from-the-page-properties}
+### Detach a Live Copy Page from the Page Properties {#detach-a-live-copy-page-from-the-page-properties}
 
 To detach a live copy:
 
@@ -611,7 +611,7 @@ To detach a live copy:
 
 1. A confirmation dialog will be shown, select **Detach** to complete the action.
 
-#### Detach a Live Copy Page from the Live Copy Overview {#detach-a-live-copy-page-from-the-live-copy-overview}
+### Detach a Live Copy Page from the Live Copy Overview {#detach-a-live-copy-page-from-the-live-copy-overview}
 
 The [Detach action is also available from the Live Copy Overview](../../../sites/administering/using/msm-livecopy-overview.md#using-the-live-copy-overview), when a Live Copy page is selected.
 

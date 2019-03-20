@@ -130,6 +130,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-#### Additional Resources {#additional-resources}
+### Additional Resources {#additional-resources}
 
 To learn about AEM Screens Player, see [AEM Screens Player](../../sites/authoring/using/working-with-screens-player.md).

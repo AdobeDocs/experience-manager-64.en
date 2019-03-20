@@ -15,7 +15,7 @@ discoiquuid: 40a182fd-7772-4ef7-b4fd-29ef99390b4a
 
 You can generate manual and automatic Full HD renditions. The following section describes the workflow to add renditions to your assets.
 
-### Automatically Generating Full HD Renditions  {#automatically-generating-full-hd-renditions}
+## Automatically Generating Full HD Renditions  {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Follow the steps below to automatically generate full HD renditions:
 
    ![](assets/step12_-_2_new_renditionsareaddedtothevideo.png)
 
-### Manually Generating Full HD Renditions {#manually-generating-full-hd-renditions}
+## Manually Generating Full HD Renditions {#manually-generating-full-hd-renditions}
 
 Follow the steps below to manually generate full HD renditions:
 

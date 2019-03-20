@@ -37,7 +37,7 @@ To download **AEM Screens Player**, visit the [**AEM 6.4 Player Downloads**](htt
 >1. Click on the **Registration** link from the left action menu and the steps below to complete the device registation process.
 >
 
-#### Additional Resources {#additional-resources}
+### Additional Resources {#additional-resources}
 
 Refer to the following topics for an in-depth information:
 
@@ -66,13 +66,13 @@ Follow the steps below to enable the Apache Sling Referrer Filter Allow Empty. T
 
    ![](assets/screen_shot_2019-02-11at15405pm.png)
 
-1. **Adobe Experience Manager Web Console Configuration **opens. Search for sling referrer.
+1. **Adobe Experience Manager Web Console Configuration** opens. Search for sling referrer.
 
    For searching the sling referrer property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
 
    ![](assets/screen_shot_2019-02-11at15629pm.png)
 
-1. Check the **Allow Empty **option, as shown in the figure below.
+1. Check the **Allow Empty** option, as shown in the figure below.
 
    ![](assets/screen_shot_2018-12-04at22911pm.png)
 
@@ -85,7 +85,7 @@ AEM Screens requires TOUCH UI and will not work with CLASSIC UI of Adobe Experie
 1. Navigate to *&lt;yourAuthorInstance&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Ensure that the **Default authoring UI mode** is set to **TOUCH**, as shown in the figure below
 
-Alternatively, you can also perform the same setting using*&lt;yourAuthorInstance&gt; *-&gt;* tools (hammer icon)* -&gt; **Operations** -&gt;** Web Console** and search for **WCM Authoring UI Mode Service**.
+Alternatively, you can also perform the same setting using*&lt;yourAuthorInstance&gt; *-&gt;* tools (hammer icon)* -&gt; **Operations** -&gt;**Web Console** and search for **WCM Authoring UI Mode Service**.
 
 ![](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -111,9 +111,9 @@ You can configure ***DeviceServiceImpl*** from the link below to enable password
 
 Follow the steps below to configure ***DeviceServiceImpl***:
 
-1. Navigate to **Adobe Experience Manager Web Console Configuration **via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+1. Navigate to **Adobe Experience Manager Web Console Configuration** via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
 
-1. **Adobe Experience Manager Web Console Configuration **opens. Search for deviceservice. For searching the property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
+1. **Adobe Experience Manager Web Console Configuration** opens. Search for deviceservice. For searching the property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
 
 ![](assets/screen_shot_2019-02-21at24951pm.png) 
 
@@ -221,6 +221,5 @@ Once you have installed and configured Screens player, follow the topics below t
 1. [Assign Devices](../../screens/using/managing-devices.md)
 1. [Create and Manage Schedules](https://chl-author.corp./content/help/en/experience-manager/6-4/sites/authoring/using/managing-schedules.html)
 1. [AEM Screens Player](https://chl-author.corp.ad/content/help/en/experience-manager/6-4/sites/authoring/using/working-with-screens-player.html)  
-
 1. [Troubleshoot Device Control Center](../../screens/using/monitoring-screens.md)
 

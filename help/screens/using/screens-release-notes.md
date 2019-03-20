@@ -15,7 +15,7 @@ discoiquuid: 2a049c2c-26ee-498d-a505-a2967be7cbcd
 
 The AEM Screens released AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4 with the following details.
 
-### Release Date {#release-date}
+## Release Date {#release-date}
 
 The Release Date for AEM Screens Feature Pack 201809 is October 01, 2018.
 

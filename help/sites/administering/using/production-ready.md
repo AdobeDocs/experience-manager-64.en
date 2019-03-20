@@ -37,7 +37,7 @@ For example, you can use the production ready to launch an author instance with 
 java -jar aem-quickstart.jar -r author,crx3,crx3mongo,nosamplecontent -Doak.mongo.uri=mongodb://remoteserver:27017 -Doak.mongo.db=aem-author
 ```
 
-### Changes part of the Production Ready Mode {#changes-part-of-the-production-ready-mode}
+## Changes part of the Production Ready Mode {#changes-part-of-the-production-ready-mode}
 
 More specifically, the following configuration changes will be performed when AEM is ran in production ready mode:
 
