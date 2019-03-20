@@ -14,7 +14,7 @@ discoiquuid: a9045816-cae7-42cf-a734-6c3a25d0f522
 
 Adobe Experience Manager Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.
 
-### Setting up analytics {#setting-up-analytics}
+## Setting up analytics {#setting-up-analytics}
 
 The analytics feature in AEM Forms is available as part of the AEM Forms add-on package. For information about installing the add-on package, see [Installing and configuring AEM Forms](../../forms/using/installing-configuring-aem-forms-osgi.md).
 
@@ -22,7 +22,7 @@ In addition to the add-on package, you need an Adobe Analytics account. For info
 
 Once you have the AEM Forms add-on package and an Adobe Analytics account, integrate Adobe Analytics account with AEM Forms and enable tracking on your forms or documents as described in [Configure analytics and reports](../../forms/using/configure-analytics-forms-documents.md).
 
-### How user interaction information is recorded {#how-user-interaction-information-is-recorded}
+## How user interaction information is recorded {#how-user-interaction-information-is-recorded}
 
 When a user interacts with the form, the interactions are recorded and sent to Analytics server. Following list indicates server calls for various user activities:
 
@@ -40,7 +40,7 @@ When a user interacts with the form, the interactions are recorded and sent to A
 >
 >This list is not exhaustive.
 
-### Viewing analytics reports {#summary-report}
+## Viewing analytics reports {#summary-report}
 
 Perform the following steps to view analytics reports:
 
@@ -68,7 +68,7 @@ By default, the analytics report for the last seven days is displayed. You can v
 
 ![](assets/date-range.png) 
 
-### Conversions graph for adaptive and HTML5 forms {#conversions-graph-for-adaptive-and-html-forms}
+## Conversions graph for adaptive and HTML5 forms {#conversions-graph-for-adaptive-and-html-forms}
 
 The form-level conversions graph gives you an insight into how the form is performing on the following key performance indicators (KPIs):
 
@@ -78,7 +78,7 @@ The form-level conversions graph gives you an insight into how the form is perfo
 
 ![](assets/conversion-graph.png) 
 
-### Analytics report for adaptive and HTML5 forms {#analytics-report-for-adaptive-and-html-forms}
+## Analytics report for adaptive and HTML5 forms {#analytics-report-for-adaptive-and-html-forms}
 
 The form-level summary section gives you an insight into how the form is performing on the following key performance indicators (KPIs):
 
@@ -92,7 +92,7 @@ The form-level summary section gives you an insight into how the form is perform
 
 ![Expanded form-level summary analytics report](assets/analytics-report.png) 
 
-### Panel report {#bottom-summary-report}
+## Panel report {#bottom-summary-report}
 
 The panel-level summary section provides the following information about each panel in the form:
 
@@ -102,7 +102,7 @@ The panel-level summary section provides the following information about each pa
 
 * **Help Accessed**: Average number of times users accessed the in-context help for the fields in the panel. Help Accessed is arrived at by dividing total number of times Help is accessed for a field by number of renditions of form.
 
-#### Detailed panel report {#detailed-panel-report}
+### Detailed panel report {#detailed-panel-report}
 
 You can also view details for each panel by clicking a panel's name in Panel Report.
 
@@ -112,7 +112,7 @@ The detailed report shows values for all fields in the panel.
 
 Panel Report has three tabs:
 
-* **Time Report **(Default): Displays the time, in number of seconds, spent on filling up each of the fields in the panel
+* **Time Report** (Default): Displays the time, in number of seconds, spent on filling up each of the fields in the panel
 * **Error Report**: Displays the number of errors encountered by users while filling up the fields 
 * **Help Report**: Number of times help for a particular field was accessed
 
@@ -136,7 +136,7 @@ Once a filter is applied:
 
 ![Close button to remove the applied filter](assets/close-filter.png) 
 
-### A/B Testing {#a-b-testing}
+## A/B Testing {#a-b-testing}
 
 If you have A/B testing enabled and set up for the form, the report page has a drop-down you can use to display the A/B testing report. A/B testing report displays the comparative performance of two versions of the form as you have set up.
 

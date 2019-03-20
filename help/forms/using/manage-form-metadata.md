@@ -24,7 +24,7 @@ If you're a developer or a site owner, you can customize Forms Portal, the end-u
 
 In AEM Forms, the list of metadata properties associated with an asset depends on its type. Also, if you add any custom metadata property, it is added across all the assets of the type on which the custom metadata was added.
 
-#### Asset types&nbsp; {#asset-types-nbsp}
+### Asset types&nbsp; {#asset-types-nbsp}
 
 The following asset types are supported in AEM Forms:
 
@@ -35,7 +35,7 @@ The following asset types are supported in AEM Forms:
 * Resources
 * XFS
 
-#### Extensive list of metadata&nbsp; {#extensive-list-of-metadata-nbsp}
+### Extensive list of metadata {#extensive-list-of-metadata-nbsp}
 
 The following is an extensive list of metadata properties supported in AEM Forms:
 
@@ -166,7 +166,7 @@ The following is an extensive list of metadata properties supported in AEM Forms
  </tbody> 
 </table>
 
-## View form metadata&nbsp; {#view-form-metadata-nbsp}
+## View form metadata {#view-form-metadata-nbsp}
 
 Assets have existing property values, which can be viewed in read-only mode. This metadata is originated at the time of form upload or form creation.
 
@@ -195,7 +195,7 @@ Assets have existing property values, which can be viewed in read-only mode. Thi
     * Left panel contains thumbnail of the form
     * Right panel contains metadata properties in the read-only mode, distributed across various tabs.
 
-## Add/update form metadata values&nbsp; {#add-update-form-metadata-values-nbsp}
+## Add/update form metadata values {#add-update-form-metadata-values-nbsp}
 
 You can edit the value of existing metadata properties or add new values to an existing metadata property field (for example, when a metadata field is blank).
 
@@ -242,7 +242,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 ### Navigate the metadata schema editor&nbsp; {#navigate-the-metadata-schema-editor-nbsp}
 
-1. Navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]****.** 
+1. Navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. 
 
 1. Click **[!UICONTROL forms]**** **from the listed schema forms.  
 
@@ -252,9 +252,9 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
    >
    >These schemas contain metadata properties that are provided out of box and must not be altered/edited (selecting check box and clicking edit from toolbar) to avoid functional issues.
 
-1. Any asset type clicked opens a list containing the `extendedmetadata`** **option. Edit this schema.  
+1. Any asset type clicked opens a list containing the `extendedmetadata` option. Edit this schema.  
 
-1. Select the checkbox beside `extendedmetadata`** **and then click the edit ![](assets/aem6forms_edit.png) icon that appears in the toolbar.  
+1. Select the checkbox beside `extendedmetadata` and then click the edit ![](assets/aem6forms_edit.png) icon that appears in the toolbar.  
 
 1. AEM Forms opens the metadata schema editor/form builder of the selected asset type (in this case adaptive form).
 

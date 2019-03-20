@@ -165,8 +165,7 @@ Perform the following steps, on all the author and publish instances, to install
    >
    >You do not require different databases for author and publish instances. Use same database on all the author and publish instances.
 
-   **SQL statement for data table  
-   **
+   **SQL statement for data table**
 
    ```sql
    CREATE TABLE `data` (

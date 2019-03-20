@@ -21,7 +21,7 @@ discoiquuid: 5e1e6a51-67e1-42e3-bcb0-e16bc92c9cb3
 >
 >If you are not using AEM as your content managment source, see [AEM Mobile On-Demand Services Help](https://helpx.adobe.com/digital-publishing-solution/topics.html).
 
-### AEM Administrator {#aem-administrator}
+## AEM Administrator {#aem-administrator}
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ An AEM administrator is responsible for the following tasks while creating an ap
 * [Previewing with Preflight](../../mobile/using/aem-mobile-manage-ondemand-services.md)
 * [Administering Content Services](/mobile/using/content-services.md)
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:
 

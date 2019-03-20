@@ -38,7 +38,7 @@ The following resources will help you get started with AEM Mobile using Adobe Ph
 >
 >To run your AEM mobile applications on any iOS or Android mobile device, see [Mobile Quickstart using AEM Verify App](../../mobile/using/phonegap-mobile-quickstart.md).
 
-### Getting Ahead {#getting-ahead}
+## Getting Ahead {#getting-ahead}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 

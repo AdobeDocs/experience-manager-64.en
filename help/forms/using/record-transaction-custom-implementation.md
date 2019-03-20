@@ -18,7 +18,7 @@ You can use a custom code to submit a PDF Form, to send Agent UI preview URL to 
 
 To record a transaction, write the [standard sling servlet](https://helpx.adobe.com/experience-manager/using/custom-sling-servlets.html) and call the servlet from a client to record a transaction. You can call the servlet using AJAX or any other standard method.
 
-### Sample server-sided code {#sample-server-sided-code}
+## Sample server-sided code {#sample-server-sided-code}
 
 You can use the below sample code to run the TransactionRecorder API from a JAVA class using a custom OSGi bundle.
 
@@ -67,7 +67,7 @@ private TransactionRecord extractTxRecordFromRequest(SlingHttpServletRequest req
 
 ```
 
-### Sample client-side code {#sample-client-side-code}
+## Sample client-side code {#sample-client-side-code}
 
 You can use the below sample code to call the servlet that has the `TransactionRecorder`API.
 

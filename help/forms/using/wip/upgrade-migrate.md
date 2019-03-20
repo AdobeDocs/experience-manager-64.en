@@ -14,7 +14,7 @@ discoiquuid: df0d4356-6a32-463d-aca2-105f624c6350
 
 # [DO NOT PUBLISH] Upgrade or migrate to AEM 6.3 Forms{#do-not-publish-upgrade-or-migrate-to-aem-forms}
 
-AEM 6.3 Forms includes several new features and enhancements that streamline the creation, management, and user experiences with forms, documents, and correspondences. It also brings enhancements to Adobe Sign and Forms Workflow and many new features such as Data Integration. To learn about all the new capabilities and enhancements of AEM 6.3 Forms, see [New features summary document](../../../forms/using/whats-new.md).
+AEM 6.3 Forms includes several new features and enhancements that streamline the creation, management, and user experiences with forms, documents, and correspondences. It also brings enhancements to Adobe Sign and Forms Workflow and many new features such as Data Integration. To learn about all the new capabilities and enhancements of AEM 6.3 Forms, see [New features summary document](../../../forms/using/whats-new.md.
 
 You can upgrade or migrate from existing LiveCycle or AEM Forms to AEM 6.3 Forms. You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from various releases of LiveCycle and AEM 6.1 Forms.
 
@@ -26,7 +26,7 @@ You can upgrade your existing AEM Forms server to obtain new capabilities and en
 
 **Migration** refers to the process of replaying actions from one system into another fresh installation of AEM Forms. One of the key differences as compared to an upgrade is that a migration involves moving only assets (PDF, XDP, images, adaptive forms, adaptive documents, correspondence management assets) from one server to another - processes (LCA), settings, configurations, and a few other pieces of metadata are not migrated. Migration can be performed with the minimum amount of downtime. Depending on the modules, processes, and assets used, migration can also require a lot of rework.
 
-#### Migrate when {#migratewhen}
+### Migrate when {#migratewhen}
 
 * You do not require existing workflows and processes. Migration does not move existing processes (LCAs) to AEM 6.3 Forms.  
 * You are using AEM Forms on JEE only for document services (PDF Generator, Output, and more) or forms (adaptive forms, HTML5 forms, PDF Forms), then [Migrate to AEM 6.3 Forms on OSGi](#main-pars-accordion-container-1460251140).
@@ -40,7 +40,7 @@ You can upgrade your existing AEM Forms server to obtain new capabilities and en
     
     * Set up a fresh AEM 6.3 Forms on JEE environment and [migrate existing processes (LCA) or other assets to fresh environment](#main-pars-accordion-container-1460251140). Migrate to AEM Forms on OSGi at a later stage.
 
-#### Upgrade when {#upgrade-when}
+### Upgrade when {#upgrade-when}
 
 * You are looking to use latest features of AEM 6.3 Forms while keeping everything (processes and assets) available on the previous version intact.  
 * You are running long lived processes on AEM Forms on JEE.
@@ -157,8 +157,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
       Moreover, AEM 6.3 Forms release has introduced many new Adobe Sign features. For step-by-step information to use Adobe Sign, see [Using Adobe Sign in an adaptive form](../../../forms/using/working-with-adobe-sign.md).
     
-    * **Reconfigure analytics and reports  
-      **
+    * **Reconfigure analytics and reports**
 
       In AEM 6.3 Forms, traffic variable for source and success event for impression are not available. So, when you upgrade to AEM 6.3 Forms, AEM Forms stops sending data to Adobe Analytics server and analytics reports for adaptive forms and adaptive document are not available. Moreover, AEM 6.3 Forms introduces traffic variable for the version of form analytics and success event for the amount of time spent on a field. So, reconfigure analytics and reports for your AEM Forms environment. For detailed steps, see [Configuring analytics and reports](../../../forms/using/configure-analytics-forms-documents.md).
 
@@ -166,7 +165,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
 1. Verify that the server is upgraded successfully, all the data is also migrated successfully, and it can operate normally.
 
-    * **Verify the status of the bundles: **Ensure that all the bundles are in active state.  
+    * **Verify the status of the bundles:** Ensure that all the bundles are in active state.  
     
     * **Verify replication and reverse replication:** Publish, fill, and submit a few migrated forms. Verify the submitted data also.
     * **Verify access to admin and developer user interfaces:** Log in to AEM instance from an admin account and verify that you have access to the following URLs:

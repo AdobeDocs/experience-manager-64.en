@@ -35,13 +35,13 @@ Page components that you create for your app are based on the /libs/mobileapps/c
 * js_clientlibs.jsp
 * css_clientlibs.jsp
 
-#### ng-page.jsp {#ng-page-jsp}
+### ng-page.jsp {#ng-page-jsp}
 
 Determines the name of the application using the `applicationName` property, and exposes it via the pageContext.
 
 Includes head.jsp and body.jsp.
 
-#### head.jsp {#head-jsp}
+### head.jsp {#head-jsp}
 
 Writes out the `<head>` element of the app page.
 
@@ -49,7 +49,7 @@ If you want to override the viewport meta property of the app, this is the file 
 
 Following best practices, the app includes the css portion of the client libraries in the head, while the JS is included at the closing < `body>` element.
 
-#### body.jsp {#body-jsp}
+### body.jsp {#body-jsp}
 
 The body of an Angular page is rendered differently depending on whether wcmMode is detected (!= WCMMode.DISABLED) to determine whether the page is opened for authoring or as a published page.
 
@@ -87,7 +87,7 @@ The body.jsp file includes header.jsp and footer.jsp which are empty. If you wan
 
 Finally, javascript clientlibs are included at the bottom of the &lt;body&gt; element including two special JS files that are generated on the server: *&lt;page name&gt;*.angular-app-module.js and *&lt;page name&gt;*.angular-app-controllers.js.
 
-#### angular-app-module.js.jsp {#angular-app-module-js-jsp}
+### angular-app-module.js.jsp {#angular-app-module-js-jsp}
 
 This script defines the Angular module of the application. The output of this script is linked to the markup that the rest of the template's component generates via the `html` element in ng-page.jsp, which contains the following attribute:
 
@@ -101,7 +101,7 @@ This module also defines a top-level controller named `AppController` which expo
 
 Lastly, this module iterates through each descendant page (including itself) and renders the content of the route fragement of each page (via the angular-route-fragment.js selector & extension), including it as a config entry to Angular's $routeProvider. In other words, the $routeProvider tells the app which content to render when a given path is requested.
 
-#### angular-route-fragment.js.jsp {#angular-route-fragment-js-jsp}
+### angular-route-fragment.js.jsp {#angular-route-fragment-js-jsp}
 
 This script generates a JavaScript fragment that must take the following form:
 
@@ -124,11 +124,11 @@ If necessary, you can override this script to handle more complex paths, includi
 })
 ```
 
-#### angular-app-controllers.js.jsp {#angular-app-controllers-js-jsp}
+### angular-app-controllers.js.jsp {#angular-app-controllers-js-jsp}
 
 In Angular, Controllers wire up variables in the $scope, exposing them to the view. The angular-app-controllers.js.jsp script follows the pattern illustrated by angular-app-module.js.jsp in that it iterates through each descendant page (including itself) and outputs the controller fragment that each page defines (via controller.js.jsp). The module it defines is called `cqAppControllers` and must be listed as a dependency of the top level app module so that the page controllers are made available.
 
-#### controller.js.jsp {#controller-js-jsp}
+### controller.js.jsp {#controller-js-jsp}
 
 The controller.js.jsp script generates the controller fragment for each page. This controller fragment takes the following form:
 
@@ -146,29 +146,29 @@ Note that the `data` variable is assigned the promise returned by the Angular `$
 
 In order for a component to be part of the controller in this way, it should extend the /libs/mobileapps/components/angular/ng-component component and include the `frameworkType: angular` property.
 
-#### template.jsp {#template-jsp}
+### template.jsp {#template-jsp}
 
 First introduced in the body.jsp section, template.jsp simply contains the page's parsys. In publish mode, this content is referenced directly (at &lt;page-path&gt;.template.html) and loaded into the SPA via the templateUrl configured on the $routeProvider.
 
 The parsys in this script can be configured to accept any type of component. However, care must be given when dealing with components that are built for a traditional website (as opposed to an SPA). For example, the foundation image component functions correctly only on the top-level app page since it is not designed to reference assets that are inside an app.
 
-#### angular-module-list.js.jsp {#angular-module-list-js-jsp}
+### angular-module-list.js.jsp {#angular-module-list-js-jsp}
 
 This script simply outputs the Angular dependencies of the top-level Angular app module. It is referenced by angular-app-module.js.jsp.
 
-#### header.jsp {#header-jsp}
+### header.jsp {#header-jsp}
 
 A script to place static content at the top of the app. This content is included by the top level page, outside the scope of ng-view.
 
-#### footer.jsp {#footer-jsp}
+### footer.jsp {#footer-jsp}
 
 A script to place static content at the bottom of the app. This content is included by the top level page, outside the scope of ng-view.
 
-#### js_clientlibs.jsp {#js-clientlibs-jsp}
+### js_clientlibs.jsp {#js-clientlibs-jsp}
 
 Override this script to include your JavaScript clientlibs.
 
-#### css_clientlibs.jsp {#css-clientlibs-jsp}
+### css_clientlibs.jsp {#css-clientlibs-jsp}
 
 Override this script to include your CSS clientlibs.
 
@@ -298,7 +298,7 @@ www/
   |- package-update.json
 ```
 
-#### .cordova {#cordova}
+### .cordova {#cordova}
 
 This is a hidden directory which you may not see depending on your current OS settings. You should configure your OS so that this directory is visible if you plan on modifying the app hooks that it contains.
 

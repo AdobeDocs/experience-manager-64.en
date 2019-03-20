@@ -11,11 +11,11 @@ content-type: reference
 discoiquuid: a063d1ba-712a-49e1-8844-75bfa6e98977
 ---
 
-# Glossary{#glossary}
+# Glossary {#glossary}
 
 This glossary lists (alpabetically) details of all Deliverable documents from the [Project Checklist](../../managing/using/best-practices-checklist.md).
 
-### Acceptance from Business Stakeholders {#acceptance-from-business-stakeholders}
+## Acceptance from Business Stakeholders {#acceptance-from-business-stakeholders}
 
 Acceptance from business stakeholders confirms that they, as key stakeholders, are aligned with the solution and have given their approval as to how the business requirements meet the business case.
 

@@ -41,13 +41,13 @@ An Asset collection can be exposed through Content Services. Calling an asset co
 * A page entity returns JSON (page object) that includes an image reference. The image reference is a URL that is used to get the asset binary for the image.
 * A request for a list of assets in a folder returns JSON with details about all of the entities in that folder. That list is an object. The JSON has URL references that are use to get the asset binary for each asset in that folder.
 
-#### Asset Optimization {#asset-optimization}
+### Asset Optimization {#asset-optimization}
 
 A key value of Content Services is the ability to return assets that are optimized for the device. This reduces local device storage needs and improves app performance.
 
 Asset optimization will be a server side function, based on information supplied in the API request. Wherever possible, the asset renditions should be cached so similar requests will not require a re-generation of the asset rendition.
 
-#### Assets Workflow {#assets-workflow}
+### Assets Workflow {#assets-workflow}
 
 The asset workflow is as follows:
 
