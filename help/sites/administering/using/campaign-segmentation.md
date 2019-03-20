@@ -31,14 +31,14 @@ The **Segment Editor** allows you to easily define a segment:
 
 You can **Edit** each segment to specify a **Title**, **Description** and **Boost** factor. Using the sidekick you can add **AND** and **OR** containers to define the **Segment Logic**, then add the required **Segment Traits** to define the selection criteria.
 
-### Boost Factor {#boost-factor}
+## Boost Factor {#boost-factor}
 
 Each segment has a **Boost** parameter that is used as a weighting factor; a higher number indicates that the segment will be selected in preference to a segment with a lower number.
 
 * Minimum value: `0`
 * Maximum value: `1000000`
 
-### Segment Logic {#segment-logic}
+## Segment Logic {#segment-logic}
 
 The following logic containers are available out-of-the-box and allow you to construct the logic of your segment selection. They can be dragged from the sidekick to the editor:
 
@@ -55,7 +55,7 @@ The following logic containers are available out-of-the-box and allow you to con
  </tbody> 
 </table>
 
-### Segment Traits {#segment-traits}
+## Segment Traits {#segment-traits}
 
 The following segment traits are available out-of-the-box; they can be dragged from the sidekick to the editor:
 
@@ -114,7 +114,7 @@ When the entire statement evaluates to true then this segment has resolved. In t
 >
 >Therefore when creating a segment with such properties is it normally necessary to rely on **browserFamily** for instance instead of **browserFamily_i18n**.
 
-### Creating a New Segment {#creating-a-new-segment}
+## Creating a New Segment {#creating-a-new-segment}
 
 To define your new segment:
 
@@ -137,7 +137,7 @@ To define your new segment:
 
 1. Add more traits if required. You can formulate boolean expressions using the **AND Container** and **OR Container** components found under **Segment Logic**. With the segment editor you can delete traits or containers not needed anymore, or drag them to new positions within the statement.
 
-### Using AND and OR Containers {#using-and-and-or-containers}
+## Using AND and OR Containers {#using-and-and-or-containers}
 
 You can construct complex segments in AEM. It helps to be aware of a few basic points:
 
@@ -183,6 +183,6 @@ Mouseover on a teaser paragraph will show the segments applied, whether they cur
 
 ![](assets/chlimage_1-408.png) 
 
-### Using Your Segment {#using-your-segment}
+## Using Your Segment {#using-your-segment}
 
 Segments are currently used within [Campaigns](../../../sites/authoring/using/campaigns.md). They are used to steer the actual content seen by specific target audiences. See [Understanding Segments](../../../sites/authoring/using/segmentation-overview.md) for more information.

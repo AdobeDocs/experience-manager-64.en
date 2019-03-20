@@ -19,13 +19,13 @@ This chapter describes how to configure and maintain user authorization and also
 
 This section deals with the various entities and related concepts in more detail to help you configure an easy to maintain user management concept.
 
-#### Users {#users}
+### Users {#users}
 
 Users will log in to AEM with their account. Each user account is unique and holds the basic account details, together with the privileges assigned.
 
 Users are often members of Groups, which simplify the allocation of these permissions and/or privileges.
 
-#### Groups {#groups}
+### Groups {#groups}
 
 Groups are collections of users and/or other groups; these are all called Members of a group.
 
@@ -38,7 +38,7 @@ Therefore groups tend to remain stable, whereas users come and go more frequentl
 
 With planning and a clean structure, the use of groups can reflect your structure, giving you a clear overview and an efficient mechanism for updates.
 
-#### Built-in Users and Groups {#built-in-users-and-groups}
+### Built-in Users and Groups {#built-in-users-and-groups}
 
 AEM WCM installs a number of users and groups. These can be seen when you first access the Security Console after installation.
 
@@ -571,7 +571,7 @@ AEM offers three different ways to add users or groups to an existing group:
 * When you are in the member, you can add members to groups.
 * When you are working on Permissions, you can add members to groups.
 
-#### Groups - Adding Users or Groups to a Group {#groups-adding-users-or-groups-to-a-group}
+### Groups - Adding Users or Groups to a Group {#groups-adding-users-or-groups-to-a-group}
 
 The **Groups** tab shows you which groups the current account belongs to. You can use it to add the selected account to a group:
 
@@ -583,7 +583,7 @@ The **Groups** tab shows you which groups the current account belongs to. You ca
 
 1. Click **Save** to save your changes.
 
-#### Members - Adding Users or Groups to a Group {#members-adding-users-or-groups-to-a-group}
+### Members - Adding Users or Groups to a Group {#members-adding-users-or-groups-to-a-group}
 
 The **Members** tab only works for groups and shows you which users and groups belong to the current group. You can used it to add accounts to a group:
 
@@ -595,7 +595,7 @@ The **Members** tab only works for groups and shows you which users and groups b
 
 1. Click **Save** to save your changes.
 
-#### Adding Users or Groups while Adding Permissions {#adding-users-or-groups-while-adding-permissions}
+### Adding Users or Groups while Adding Permissions {#adding-users-or-groups-while-adding-permissions}
 
 To add members to a group at in a certain path:
 
@@ -618,7 +618,7 @@ AEM offers three different ways to remove users or groups from a group:
 * When you are in the member profile, you can remove members from groups.
 * When you are working on Permissions, you can remove members from groups.
 
-#### Groups - Removing Users or Groups from Groups {#groups-removing-users-or-groups-from-groups}
+### Groups - Removing Users or Groups from Groups {#groups-removing-users-or-groups-from-groups}
 
 To remove a user or group account from a group:
 
@@ -630,7 +630,7 @@ To remove a user or group account from a group:
 
 1. Click **Save** to save your changes.
 
-#### Members - Removing Users or Groups from Groups {#members-removing-users-or-groups-from-groups}
+### Members - Removing Users or Groups from Groups {#members-removing-users-or-groups-from-groups}
 
 To remove accounts from a group:
 
@@ -642,7 +642,7 @@ To remove accounts from a group:
 
 1. Click **Save** to save your changes.
 
-#### Removing Users or Groups while Adding Permissions {#removing-users-or-groups-while-adding-permissions}
+### Removing Users or Groups while Adding Permissions {#removing-users-or-groups-while-adding-permissions}
 
 To remove members from a group at a certain path:
 
@@ -667,7 +667,7 @@ To learn about user sync and how to enable it, see [User Sychronization](../../.
 
 This section describes how to set permissions, including replication privileges.
 
-#### Setting Permissions {#setting-permissions}
+### Setting Permissions {#setting-permissions}
 
 Permissions allow users to perform certain actions on resources at certain paths. It also includes the ability to create or delete pages.
 
@@ -683,7 +683,7 @@ To add, modify, or delete permissions:
 
 1. When finished, click **Save**.
 
-#### Setting Replication Privileges {#setting-replication-privileges}
+### Setting Replication Privileges {#setting-replication-privileges}
 
 Replication privilege is the right to publish content, and it can be set for groups and users.
 
@@ -744,7 +744,7 @@ To perform a search on paths or fulltext:
 
 1. In the Search box, enter a term to search for.
 
-#### Impersonating Users {#impersonating-users}
+### Impersonating Users {#impersonating-users}
 
 You can specify one or more users that are allowed to impersonate the current user. This means they can switch their account settings to those of the current user and act on behalf of this user.
 
@@ -765,7 +765,7 @@ To impersonate an existing user:
 
 1. Click **Save**.
 
-#### Setting User and Group Preferences {#setting-user-and-group-preferences}
+### Setting User and Group Preferences {#setting-user-and-group-preferences}
 
 To set user and group preferences, including language, window management, and toolbar preferences:
 
@@ -776,7 +776,7 @@ To set user and group preferences, including language, window management, and to
 
 1. Make changes, as necessary to the group or user preferences and click **Save** when finished.
 
-#### Setting users or administrators to have the privilege to manage other users {#setting-users-or-administrators-to-have-the-privilege-to-manage-other-users}
+### Setting users or administrators to have the privilege to manage other users {#setting-users-or-administrators-to-have-the-privilege-to-manage-other-users}
 
 To set users or administrators to have the privileges to delete/activate/deactivate other users:
 

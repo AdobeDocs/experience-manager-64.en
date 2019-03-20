@@ -236,21 +236,8 @@ The [mode of RTE editing (and the UI)](#editingmodes) that you provide for your 
 
 | Editing mode |Location for Touch UI |Location for Classic UI |
 |---|---|---|
-| Inline |
-
-```
-cq:editConfig/cq:inplaceEditing
-
-```
-
-|
-| Full screen | `cq:editConfig/cq:inplaceEditing` |Not applicable
-
-```
-
-```
-
-|
+| Inline | `cq:editConfig/cq:inplaceEditing`| `cq:editConfig/cq:inplaceEditing` |
+| Full screen | `cq:editConfig/cq:inplaceEditing` |Not applicable |
 | Dialog | `cq:dialog` | `dialog` |
 | Full screen dialog | `cq:dialog` |Not applicable |
 
