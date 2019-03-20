@@ -39,7 +39,7 @@ Adobe Mobile Analytics SDK provides the following:
 
 AEM Command Center Metrics Tile
 
-### Configuring the Cloud Service {#configuring-the-cloud-service}
+## Configuring the Cloud Service {#configuring-the-cloud-service}
 
 In order to take advantage of Adobe Mobile Services Analytics you need to configure the AEM Mobile Analytics Cloud Service with your Adobe Analytics account information.
 

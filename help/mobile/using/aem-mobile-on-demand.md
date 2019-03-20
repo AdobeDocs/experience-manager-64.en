@@ -40,7 +40,7 @@ See [Developing AEM Mobile Content Services](../../mobile/using/developing-conte
 >
 >An *AEM developer's* role does not start and end with the development of templates and components. An *AEM developer* can create an entirely new app rather than simply extend the out-of-the-box reference implementation sample.
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and an Author, see the resources below:
 

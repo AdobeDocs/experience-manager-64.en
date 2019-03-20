@@ -21,15 +21,13 @@ This page explains Previewing with Preflight app.
 
 The following actions are performed on the application as a whole.
 
-##
-
 With the Mobile On Demand Preflight app, you can view all projects to which you have access. Once you select a project, you can then preview the app contents, including browse pages and articles to get a sense of how the app looks and performs on various devices.
 
 >[!NOTE]
 >
 >The Preflight app is similar to the PhoneGap Enterprise viewer in nature.
 
-### Previewing with Preflight {#previewing-with-preflight}
+## Previewing with Preflight {#previewing-with-preflight}
 
 1. From Mobile, choose your Mobile On-Demand app from the catalog.
 1. Click the ellipsis (...) from the **Manage Articles** (or Banners/Collections) tile.
@@ -45,14 +43,14 @@ With the Mobile On Demand Preflight app, you can view all projects to which you 
 >
 >The AEM Preflight app is available in [iTunes App Store](https://itunes.apple.com/us/app/adobe-experience-manager-mobile/id1042687518?mt=8), [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.dps.preflight&hl=en), and [Windows Store](https://www.microsoft.com/en-us/store/p/adobe-experience-manager-mobile-preflight/9nblggh5wmxq).
 
-#### Getting Ahead {#getting-ahead}
+### Getting Ahead {#getting-ahead}
 
 If you still need more information on authoring content, see the following resources to create and manage content in an AEM Mobile application:
 
 * [AEM Mobile Application Dashboard](../../mobile/using/mobile-apps-ondemand-application-dashboard.md)
 * [Managing Content](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:
 

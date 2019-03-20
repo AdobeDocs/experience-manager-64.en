@@ -57,7 +57,7 @@ After completion of the wizard the Manage Cloud Service tile will contain the Ta
 
 It is necessary to link a Adobe Mobile Services (AMS) account to the application as well, the AMS service provides the required ADBMobileConfig.json file which contains the Target client code information. Before creating an association with the AMS account, the AMS account needs to be modified by a user that has permissions to AMS.
 
-#### Client Code {#client-code}
+### Client Code {#client-code}
 
 To login to the AMS services visit [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/), select the mobile application and click the settings. Locate the SDK Target Options field and place the client code into the field and click Save. 
 
@@ -65,7 +65,7 @@ To login to the AMS services visit [https://mobilemarketing.adobe.com](https://m
 
 Now that the client code has been associated with the mobile application, when the AMS cloud service is configured via the Adobe Mobile Dashboard the settings for the service settings will be delivered via the ADBMobileConfig.json file.
 
-#### Adobe Mobile Service Could Service {#adobe-mobile-service-could-service}
+### Adobe Mobile Service Could Service {#adobe-mobile-service-could-service}
 
 Now that AMS has been configured, it's time to associate the mobile application in the Adobe Mobile Dashboard. From the AEM Mobile Dashboard locate the Manage Cloud Services and click the + button. 
 

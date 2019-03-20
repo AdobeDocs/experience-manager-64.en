@@ -13,7 +13,7 @@ discoiquuid: 80c2efed-4383-405d-90c2-82c0d450c139
 
 This article lists some of the best practices for enabling a form template for HTML5 renditions. By following these guidelines, form developers can ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent.
 
-### Layout {#layout}
+## Layout {#layout}
 
 1. In new forms, add the non-interactive (Draw) elements before the interactive (Fields) elements. Add the elements in Hierarchy (Dom Order) if there is an overlap between them. Similarly, between overlapping Draw Text and other Draw elements (like Rectangle, Circle), put in Text after Rectangle so that it is visible. Avoid any overlap between Draw and Field.
 1. HTML5 rendition of Form Template does not embed any fonts. Avoid using fonts that you do not expect on your client computers or you risk a not so optimum rendition on the client devices.
@@ -21,7 +21,7 @@ This article lists some of the best practices for enabling a form template for H
 1. If you are targeting the same form for both PDF and HTML, make sure that you protect the Acrobat-specific JavaScript by checking the environment type. Also ensure that you write equivalent scripts for the browser environment.
 1. If you have a **hidden** subform with a complex hierarchy that is split across pages, make the form visible at design time. Hide the form in the initialize script based on your logic.
 
-### Scripting {#scripting}
+## Scripting {#scripting}
 
 HTML5 forms contain a client-side XFA scripting library that supports form logic execution in both the scripting languages that the Adobe XFA Implementation supports: JavaScript and FormCalc. This library includes implementation for most of the commonly used APIs on the **client side**. The list of supported APIs and Events can be found [here](../../../forms/using/scripting-support.md). If you need APIs that are not implemented yet, you can mark your script to **run at server. **HTML5 forms also support **Web Service** invocation from the client. The service runs on the server.
 

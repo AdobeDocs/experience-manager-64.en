@@ -44,7 +44,7 @@ Basic factors to consider are (in this order):
     * Size of website (number of content-object, pages, and users)
     * Number of users/sessions that are active at the same time
 
-### Architecture {#architecture}
+## Architecture {#architecture}
 
 A typical AEM setup consists of an author and a publish environment. These environments have different requirements regarding the underlying hardware size and system configuration. Detailed considerations for both environments are described in the [author environment](../../managing/using/hardware-sizing-guidelines.md#author-environment-specific-calculations) and [publish environment](../../managing/using/hardware-sizing-guidelines.md#publish-environment-specific-calculations) sections.
 
@@ -79,7 +79,7 @@ Hardware sizing requirements for advanced use cases need to be based on a detail
 * extensive use of customized code, custom workflows or 3rd party software libraries
 * integration with unsupported external systems
 
-#### Disk Space/ Hard Drive {#disk-space-hard-drive}
+### Disk Space/ Hard Drive {#disk-space-hard-drive}
 
 The disk space required depends heavily on both the volume and type of your web application. The calculations should take into account:
 
@@ -96,11 +96,11 @@ Consider a setup of redundant arrays of independent disks (RAID, e.g. RAID10) fo
 >
 >The temporary directory of a production instance should have at least 6 GB of available space.
 
-#### Virtualization {#virtualization}
+### Virtualization {#virtualization}
 
 AEM runs well in virtualized environments, but there can be factors such as CPU or I/O that cannot be directly equated to physical hardware. A recommendation is to choose a higher I/O speed (in general) as this is a critical factor in most cases. Benchmarking your environment is necessary to get a precise understanding of what resources will be required.
 
-#### Parallelization of AEM Instances {#parallelization-of-aem-instances}
+### Parallelization of AEM Instances {#parallelization-of-aem-instances}
 
 **Fail Safeness **
 
@@ -154,8 +154,8 @@ For such scenarios Adobe executed benchmark tests on a two node shared-nothing c
 * **Benchmark test 1a** 
   With an active-active shared-nothing cluster of 2 author instances, calculate the maximum throughput with a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages, all of a similar nature.
 
-    * **Result  
-      **Maximum throughput for a simple page creation exercise, such as above, (considered as one transaction) is found to be 2016 transactions/hour. This is an increase of approximately 16% when compared to a standalone author instance for the same benchmark test.
+    * **Result**  
+      Maximum throughput for a simple page creation exercise, such as above, (considered as one transaction) is found to be 2016 transactions/hour. This is an increase of approximately 16% when compared to a standalone author instance for the same benchmark test.
 
 * **Benchmark test 2b** 
   With an active-active shared-nothing cluster of 2 author instances, calculate the maximum throughput when the load profile has a mix of fresh page creation (10%), modification of an existing pages (80%) and creation and modification a page in succession (10%). The complexity of the page remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of complexity the same as defined in benchmark test 1.

@@ -24,7 +24,7 @@ To ensure you are not confusing AEM Mobile with the older Digital Publishing Sui
 
 [https://digitalpublishing.acrobat.com/welcome.html](https://digitalpublishing.acrobat.com/welcome.html)
 
-#### Initiating a GDPR request {#initiating-a-gdpr-request}
+### Initiating a GDPR request {#initiating-a-gdpr-request}
 
 Please contact Adobe Customer Care to initiate a GDPR request for the Digital Publishing Suite.
 
@@ -46,23 +46,23 @@ Provide at least 1 of the following:
 
 Adobe will delete information it has of App store purchases (subscriptions, etc.) but purchases will still be on record in the App stores. If the App (end-user) is logged into the App store, those receipts will be picked up again and sent to Adobe and subsequently, those will be considered as new purchases and will be restored by the App to have access again.
 
-**Will Adobe delete customer provided entitlements when initiating a DELETE request? **
+**Will Adobe delete customer provided entitlements when initiating a DELETE request?**
 
 Adobe will delete information it has of the customer's additional direct entitlement allowances. If the App (end-user) logs in to the OAuth mechanism that the customer has used, it will send information to Adobe and the services will pick up the extra entitlements again.
 
-**What is expected of the end-user? **
+**What is expected of the end-user?**
 
 Since the key of assigning entitlements to the App resides on the device as part of the viewer software, the end-user should uninstall the App. The end-user should realize that if they reinstall the App, then existing purchases (associated with the App store user) and direct entitlement allowances (associated with the OAuth user of the customer) will still be restored.
 
-**What happens when an app is shared between people on a device? **
+**What happens when an app is shared between people on a device?**
 
 Adobe has very little information that associates directly back to a specific user. It associates the data using a randomly created UUID that is held in the App's data and is passed in every request the App initiates. This means that end-users sharing the App on the same device will use the same UUID and all the data will be considered owned by the person making the GDPR request. For both Access and Delete requests, DPSC will consider people that share an App as one person.
 
-**What Personal Data is tracked with Analytics? **
+**What Personal Data is tracked with Analytics?**
 
 None. There is data being tracked, but it is at the App level (not personal). This includes events like launches, crashes, close, activities, purchases or folio overlays. Geographical locations, names, device IDs or IP addresses are not tracked.
 
-**The end user provided their information but nothing was found. Why not? **
+**The end user provided their information but nothing was found. Why not?**
 
 As the Digital Publishing Suite product evolved, service implementations were changed and more data was obfuscated. If no data was found using the user's provided data, it means that the user's data cannot be tracked back to that person.
 

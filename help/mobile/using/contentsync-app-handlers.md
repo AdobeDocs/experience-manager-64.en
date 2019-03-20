@@ -24,7 +24,7 @@ See the following guidelines for developing Content Sync Handlers:
 * Handler must only report true if they updated the ContentSync cache. Falsely reporting true will allow AEM create an update.
 * Handler should only update the cache if the content actually changed. Do not write to the cache if a white is not necessary and avoid an unnecessary update creation.
 
-### Out of the Box Handlers {#out-of-the-box-handlers}
+## Out of the Box Handlers {#out-of-the-box-handlers}
 
 The following lists out-of-the-box app handlers:
 
@@ -131,9 +131,9 @@ This is used at compile time to configure the AMS plugin for analytic support.
 
 The handler should be used on AEM App Shell ContentSync Config (node with pge-type=app-instance)
 
-* ***type - String *- **mobileADBMobileConfigJSON
-* ***path** - **String*** - Path to an app shell (node with pge-type=app-instance or a RT that extends /libs/mobileapps/core/components/instance)
-* ***targetRootDirectory - String*** -** **the prefix to add to paths as a target root for content update for this handler
+* ***type - String*** - mobileADBMobileConfigJSON
+* ***path - String*** - Path to an app shell (node with pge-type=app-instance or a RT that extends /libs/mobileapps/core/components/instance)
+* ***targetRootDirectory - String*** - the prefix to add to paths as a target root for content update for this handler
 
 **notificationsconfig** Extracts notifications configurations required on device. The properties are extracted from the respective push service cloud  service configuration associated with the app.
 
@@ -198,7 +198,7 @@ It is possible to have multiple mobileappconfig handlers configured each with a 
 
 **Logging** Enable ContentSync Debug logging via OSGI logger configurations on package `com.day.cq.contentsync` This will allow you to track what handlers ran and whether they updated the cache and reported updating the cache.
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 

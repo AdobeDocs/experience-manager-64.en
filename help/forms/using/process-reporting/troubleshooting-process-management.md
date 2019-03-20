@@ -12,7 +12,7 @@ discoiquuid: 0a818d19-8804-4c69-b721-31c347c593c0
 
 # Troubleshooting Process Reporting{#troubleshooting-process-reporting}
 
-### Issues faced in creating filters on Internet Explorer 9 on Microsoft Windows 7 {#issues-faced-in-creating-filters-on-internet-explorer-on-microsoft-windows}
+## Issues faced in creating filters on Internet Explorer 9 on Microsoft Windows 7 {#issues-faced-in-creating-filters-on-internet-explorer-on-microsoft-windows}
 
 If you create filters for pre-defined reports, the following issues intermittently occur on the **Internet Explorer 9** for **Microsoft Windows 7** environment**:**
 
@@ -21,7 +21,7 @@ If you create filters for pre-defined reports, the following issues intermittent
 * The Condition field does not display.
 * The Calendar control in the Value field does not display.
 
-#### Resolution {#resolution}
+### Resolution {#resolution}
 
 While you are still logged in to Process Reporting:
 

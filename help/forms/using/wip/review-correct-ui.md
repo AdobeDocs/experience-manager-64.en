@@ -207,9 +207,9 @@ The conversion service updates the adaptive form, schema, and data fragments bas
 
 ## Launch adaptive form editor from Review and Correct UI {#launch-adaptive-form-editor-from-review-and-correct-ui}
 
-###### Application UI not working properly, loading blank tab with no data when trigger **open adaptive form editor**. {#application-ui-not-working-properly-loading-blank-tab-with-no-data-when-trigger-open-adaptive-form-editor}
+### Application UI not working properly, loading blank tab with no data when trigger **open adaptive form editor**. {#application-ui-not-working-properly-loading-blank-tab-with-no-data-when-trigger-open-adaptive-form-editor}
 
-###### Link to existing article - **Introduction to authoring adaptive form** {#link-to-existing-article-introduction-to-authoring-adaptive-form}
+#### Link to existing article - **Introduction to authoring adaptive form** {#link-to-existing-article-introduction-to-authoring-adaptive-form}
 
 ## Limitations {#limitations}
 

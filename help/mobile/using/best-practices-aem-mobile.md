@@ -33,7 +33,7 @@ Building an AEM Mobile On-Demand Services App is different than building an app 
 
 For example, make sure to wait for the *deviceready* function before attempting to access a plugin's API.
 
-### Guidelines for AEM Developers {#guidelines-for-aem-developers}
+## Guidelines for AEM Developers {#guidelines-for-aem-developers}
 
 The following guidelines will help experienced AEM developers for sites, who want to build mobile app templates and components:
 
@@ -79,7 +79,7 @@ The following guidelines will help experienced AEM developers for sites, who wan
 * Use the smallest assets possible that can effectively cover the largest viewport you will be supporting, at a reasonable resolution
 * Use a tool like* ImageOptim* on your images to remove any excess metadata
 
-### Getting Ahead {#getting-ahead}
+## Getting Ahead {#getting-ahead}
 
 To understand more on the other two roles and responsibilities, see the resources below:
 
