@@ -15,12 +15,11 @@ discoiquuid: a6886b33-3bf1-4a81-8b9b-b6c154ca06d7
 
 This page highlights the following topics:
 
-* **Configuring Author and Publish Instances  
-  **
+* **Configuring Author and Publish Instances**
 * **Setting Up Publish Topology**
 * **Managing Publication: Delivering Content Updates from Author to Publish to Device**
 
-### Prerequisites {#prerequisites}
+## Prerequisites {#prerequisites}
 
 Before getting started with author and publish servers, you should have prior knowledge of:
 
@@ -109,7 +108,7 @@ Follow the same steps to create a reverse replication agent.
 
 ## Setting up Publish Topology {#setting-up-publish-topology}
 
-#### Step 1: Configure Apache Sling Oak-Based Discovery {#step-configure-apache-sling-oak-based-discovery}
+### Step 1: Configure Apache Sling Oak-Based Discovery {#step-configure-apache-sling-oak-based-discovery}
 
 Set up Apache Sling Oak-Based Discovery for all Publish instances in the topology   
   
@@ -119,15 +118,15 @@ For each publish instance:
 1. Select **Apache Sling Oak-Based Discovery Service** Configuration.
 1. Update Topology connector URLs: add URLs of all partaking publish instances that is, [http://localhost:4502/libs/sling/topology/connector](http://localhost:4502/libs/sling/topology/connector)
 1. Topology connector Whitelist: adapt to IPs or subnets covering partaking publish instances
-1. Enable **Auto-Stop Local-Loops** 
+1. Enable **Auto-Stop Local-Loops**
 
 The configuration should be identical for each publish instance and the auto-stop Local-loop prevents an infinite loop.
 
-#### Step 2: Verify Publish Topology {#step-verify-publish-topology}
+### Step 2: Verify Publish Topology {#step-verify-publish-topology}
 
 For any of the Publish instances navigate to http://&lt;host&gt;:&lt;port&gt;/system/console/topology. You should see each publish instance represented in the topology.
 
-#### Step 3: Setup ActiveMQ Artemis Cluster {#step-setup-activemq-artemis-cluster}
+### Step 3: Setup ActiveMQ Artemis Cluster {#step-setup-activemq-artemis-cluster}
 
 This step allows you to create encrypted password for ActiveMQ Artemis cluster.  
 The cluster user and password of all publish instances in the topology needs to be identical. The password of the ActiveMQ Artemis configuration needs to be encrypted. Since each instance has its own encryption key it is necessary to use Crypto Support to create an encrypted password string. Then encrypted password will be used in the OSGi config for ActiveMQ.
@@ -147,7 +146,7 @@ Since each publish instance by default has unique crypto keys you need to perfor
 Pub1 - {1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}   
 Pub2 - {8d3d113c834cc4f52c2daee0da3cb0a21122a31f0138bfe4b70c9ead79415f41}
 
-#### Step 4: Activate ActiveMQ Artemis Cluster {#step-activate-activemq-artemis-cluster}
+### Step 4: Activate ActiveMQ Artemis Cluster {#step-activate-activemq-artemis-cluster}
 
 On each publish instance:
 
@@ -158,7 +157,7 @@ On each publish instance:
 * ***Cluster Password***: (use encrypted value from previous step per respective instance)
 * ***Topics***: {name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}
 
-#### Verify ActiveMQ Artemis Cluster {#verify-activemq-artemis-cluster}
+### Verify ActiveMQ Artemis Cluster {#verify-activemq-artemis-cluster}
 
 Follow the steps below on each Publish instance:
 
@@ -181,7 +180,7 @@ If you do not see the following configuration from */system/console/mq*, then na
 
 ![](assets/image-2018-06-18-18-14-55-449.png) 
 
-#### Remove referrer header requirement {#remove-referrer-header-requirement}
+### Remove referrer header requirement {#remove-referrer-header-requirement}
 
 Follow the steps on each Publish instance:
 
@@ -190,7 +189,7 @@ Follow the steps on each Publish instance:
 1. Select **Apache Sling Referrer Filter**
 1. Update config and **check Allow Empty**
 
-### Configuring Author and Publish Instance {#configuring-author-and-publish-instance}
+## Configuring Author and Publish Instance {#configuring-author-and-publish-instance}
 
 Once you have set up the publish toplogy, you need to configure the author and publish instances, to view the practical results of implementation:
 
@@ -200,7 +199,7 @@ Once you have set up the publish toplogy, you need to configure the author and p
 >
 >To get started with this example, create a new AEM Screens project followed by creating a location, display, and channel in your project. Add content to your channel and assign the channel to a display.
 
-#### Step 1: Starting an AEM Screens Player (device) {#step-starting-an-aem-screens-player-device}
+### Step 1: Starting an AEM Screens Player (device) {#step-starting-an-aem-screens-player-device}
 
 1. Launch a separate browser window.
 1. Go to Screens player using the [web browser](http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html) or launch the AEM Screens app. When you open the device you will notice the device's state as unregistered.
@@ -209,7 +208,7 @@ Once you have set up the publish toplogy, you need to configure the author and p
 >
 >You can open an AEM Screens player using the AEM Screens app you downloaded or using the web browser.
 
-#### Step 2: Registering a Device on Author {#step-registering-a-device-on-author}
+### Step 2: Registering a Device on Author {#step-registering-a-device-on-author}
 
 1. Go to [http://localhost:4502/screens.html/content/screens/we-retail](http://localhost:4502/screens.html/content/screens/we-retail) or select your project and navigate to Devices &gt; Device Manager. 
 1. Select **Register Device**.
@@ -227,7 +226,7 @@ Once you have set up the publish toplogy, you need to configure the author and p
 
 Check your player and you will see the content that you added in your channel.
 
-#### Step 4: Publishing Device Configuration to Publish Instances {#step-publishing-device-configuration-to-publish-instances}
+### Step 4: Publishing Device Configuration to Publish Instances {#step-publishing-device-configuration-to-publish-instances}
 
 **Verifying the Device**
 
@@ -257,7 +256,7 @@ You can also activate the device from the Device Management Console. Follow the 
 
 ![](assets/screen_shot_2019-02-21at105527am.png) 
 
-### Publishing Check list {#publishing-check-list}
+## Publishing Check list {#publishing-check-list}
 
 The following points summarizes the Publishing Check list:
 
@@ -276,7 +275,7 @@ Once you verify the checklist, you need to verify the following changes/behavior
 * Update some channel content on Author and publish it and verify that the updated channel now displays on the AEM Screens player.
 * Connect the Screens player to a different publish instance and verify behavior above.
 
-#### Step 5: Pointing the Device to Publish Instance in the Admin Panel {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+### Step 5: Pointing the Device to Publish Instance in the Admin Panel {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. View the admin UI from the Screens player, long press on the top left corner to open the Admin menu, on your touch enabled AEM Screens player, or by using a mouse. 
 1. Click the **Configuration **option from the side panel.

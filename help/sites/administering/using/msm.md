@@ -33,7 +33,7 @@ This and the following pages cover the related issues:
 * [MSM Rollout Conflicts](../../../sites/administering/using/msm-rollout-conflicts.md)
 * [MSM Best Practices](../../../sites/administering/using/msm-best-practices.md)
 
-### Possible Scenarios {#possible-scenarios}
+## Possible Scenarios {#possible-scenarios}
 
 There are many use-cases for MSM and live copies, some scenerios include:
 
@@ -122,7 +122,7 @@ There are many use-cases for MSM and live copies, some scenerios include:
   >    
   >
 
-### MSM from the UI {#msm-from-the-ui}
+## MSM from the UI {#msm-from-the-ui}
 
 MSM is directly accessible in the UI using various options from the appropriate console. To provide an introduction the following lists the main locations:
 

@@ -15,17 +15,14 @@ discoiquuid: 34f24837-f5e2-41f0-a359-fdb695e1b8f2
 
 Adobe Experience Manager Apps provides the ability to update the content of your application over the air (OTA). The updated content is stored on the publish instance. To allow the App on your device to connect to the publish instance and check for updates the publish instance needs to be configured to allow an empty referrer header.
 
-### Configuring Empty Referrer Header {#configuring-empty-referrer-header}
+## Configuring Empty Referrer Header {#configuring-empty-referrer-header}
 
 To configure the referrer filter service:
 
 * Open the Apache Felix console (**Configurations**) at:  
 * http://&lt;server&gt;:&lt;port_number&gt;/system/console/configMgr*
 * Login as admin.
-* In the **Configurations** menu, select:
-
-  *Apache Sling Referrer Filter*
-
+* In the **Configurations** menu, select: *Apache Sling Referrer Filter*
 * Check the Allow Empty field, to allow empty/missing referrer headers.
 * Click **Save** to save your changes.
 

@@ -17,7 +17,7 @@ An AEM Screens*** Developer*** is responsible for designing and building an inte
 
 A developer creates applications and components, works on API integrations and plugin extensions, builds player extensions, integrates analytics and performs logging operations.
 
-### AEM Screens: Architecture Overview {#aem-screens-architecture-overview}
+## AEM Screens: Architecture Overview {#aem-screens-architecture-overview}
 
 The following diagram provides a detailed architecture of AEM Screens:
 

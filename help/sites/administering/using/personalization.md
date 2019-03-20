@@ -72,7 +72,7 @@ Personalization can be used in many cases, for example:
 
 * Many of the major search engine websites have very powerful analytical tools which record user behavior, the search terms they use and the websites they actually visit. This is then used to customize the content provided - particularly with regard to displaying advertisements.
 
-#### Strengths of Personalization and Points to Consider {#strengths-of-personalization-and-points-to-consider}
+### Strengths of Personalization and Points to Consider {#strengths-of-personalization-and-points-to-consider}
 
 The following are reasons why personalization should be used:
 

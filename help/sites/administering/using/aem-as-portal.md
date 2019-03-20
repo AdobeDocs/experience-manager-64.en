@@ -48,7 +48,7 @@ The AEM content portlet enables you to display AEM content in a portal. The port
 
 Some of the configurations can be changed through portlet preferences and others through OSGi service configurations. You change these configurations using **config** files or the OSGi web console.
 
-#### Portlet Preferences {#portlet-preferences}
+### Portlet Preferences {#portlet-preferences}
 
 Porlet preferences can be configured at deployment time in the portal server or by editing the **WEB-INF/portlet.xml** file before deploying the portlet web application. The portlet.xml file appears as follows by default:
 
@@ -133,7 +133,7 @@ The portlet can be configured with the following preferences:
  </tbody> 
 </table>
 
-#### OSGi Web Console {#osgi-web-console}
+### OSGi Web Console {#osgi-web-console}
 
 Assuming the portal server runs on host localhost, port 8080 and the AEM portlet web application is mounted in the web application context *cqportlet*, the url to for the web console is `http://localhost:8080/cqportlet/cqbridge/system/console`. The default user and password is **admin**.
 
@@ -727,7 +727,7 @@ To access content provided by AEM WCM, the portal server needs to be fitted with
 
 By default, the portlet connects to the publish instance at localhost:4503 and to the author instance at localhost:4502. These values can be changed during deployment of the portlet. The portal director is available as content in the repository under /libs/portal/directory. You will need to download the application war file before using it.
 
-#### Downloading the war file {#downloading-the-war-file}
+### Downloading the war file {#downloading-the-war-file}
 
 1. Using either Webdav or CRXDE Lite, navigate to /libs/portal/director.  
 
@@ -737,7 +737,7 @@ By default, the portlet connects to the publish instance at localhost:4503 and t
 >
 >These procedures use the Websphere portal as an example although they are as generic as possible; please be aware that procedures vary for other web portals. Although the steps are essentially identical for all web portals, you need to repurpose the steps for your particular web portal.
 
-#### Installing the portlet {#installing-the-portlet}
+### Installing the portlet {#installing-the-portlet}
 
 To install the portlet:
 
@@ -749,7 +749,7 @@ To install the portlet:
 
 1. Ensure that the portlet application automatically starts by selecting that option or check box and save your changes. You see a message that your installation was successful.
 
-#### Configuring the Portlet {#configuring-the-portlet}
+### Configuring the Portlet {#configuring-the-portlet}
 
 After you install the portlet, you need to configure it so that it knows the URLs of the underlying AEM instances (author and publish). You also can configure other options.
 
