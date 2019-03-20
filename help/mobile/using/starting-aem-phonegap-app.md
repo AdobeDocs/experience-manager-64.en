@@ -34,7 +34,7 @@ The developers can use this example as a starting point for trying out an AEM Mo
 >
 >Once you have had a chance to familiarize yourself with the starterkit, it is important to learn about Adobe Experience Manager *components and templates.*
 
-### Templates and Components {#templates-and-components}
+## Templates and Components {#templates-and-components}
 
 AEM *Templates* and *Components* enable line of business owners to create custom experiences. Both *Templates *and *Components* are available out-of-the-box or can be custom developed by you, the developer either by extending existing components or creating greenfield (advanced). *Templates* and *Components* are what allow the AEM Author to drag-and-dropped to create engaging and relevent experiences.
 
@@ -47,15 +47,11 @@ Once you have a solid understanding of the above two steps, jump into:
 1. [The anatomy of an AEM Mobile app](../../mobile/using/phonegap-apps-arch.md)
 1. [Is your existing app ready for AEM Mobile?](../../mobile/using/phonegap-adding-content-to-imported-app.md)
 
-### The Next Steps {#the-next-steps}
+## The Next Steps {#the-next-steps}
 
 1. [Start my AEM Mobile app experience](../../mobile/using/starting-aem-phonegap-app.md)
-1. 
-
-   ##### ** [Manage my app's content](/content/docs/en/aem/6-3/author/authoring-mobile-apps/phonegap/manage-my-apps-content.md)** {#manage-my-app-s-content}
-
+1. **[Manage my app's content](/content/docs/en/aem/6-3/author/authoring-mobile-apps/phonegap/manage-my-apps-content.md)** 
 1. [Build my application](../../mobile/using/building-app-mobile-phonegap.md)
 1. [Track my app's performance with Adobe Mobile Analytics](../../mobile/using/phonegap-intro-to-app-analytics.md)
 1. [Deliver a personalized app experience with Adobe Target](../../mobile/using/phonegap-aem-mobile-content-personalization.md)
 1. [Send important messages to my users](../../mobile/using/phonegap-push-notifications.md)
-

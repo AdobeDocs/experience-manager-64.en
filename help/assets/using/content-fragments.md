@@ -59,7 +59,7 @@ Content fragments allow you to:
 
 These content fragments can then be assembled to provide experiences over a variety of channels.
 
-### Content Fragments and Content Services {#content-fragments-and-content-services}
+## Content Fragments and Content Services {#content-fragments-and-content-services}
 
 AEM Content Services are designed to generalize the description and delivery of content in/from AEM beyond a focus on web pages.
 

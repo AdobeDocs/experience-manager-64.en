@@ -35,13 +35,13 @@ Page components that you create for your app are based on the /libs/mobileapps/c
 * js_clientlibs.jsp
 * css_clientlibs.jsp
 
-#### ng-page.jsp {#ng-page-jsp}
+### ng-page.jsp {#ng-page-jsp}
 
 Determines the name of the application using the `applicationName` property, and exposes it via the pageContext.
 
 Includes head.jsp and body.jsp.
 
-#### head.jsp {#head-jsp}
+### head.jsp {#head-jsp}
 
 Writes out the `<head>` element of the app page.
 
@@ -49,7 +49,7 @@ If you want to override the viewport meta property of the app, this is the file 
 
 Following best practices, the app includes the css portion of the client libraries in the head, while the JS is included at the closing < `body>` element.
 
-#### body.jsp {#body-jsp}
+### body.jsp {#body-jsp}
 
 The body of an Angular page is rendered differently depending on whether wcmMode is detected (!= WCMMode.DISABLED) to determine whether the page is opened for authoring or as a published page.
 
@@ -87,7 +87,7 @@ The body.jsp file includes header.jsp and footer.jsp which are empty. If you wan
 
 Finally, javascript clientlibs are included at the bottom of the &lt;body&gt; element including two special JS files that are generated on the server: *&lt;page name&gt;*.angular-app-module.js and *&lt;page name&gt;*.angular-app-controllers.js.
 
-#### angular-app-module.js.jsp {#angular-app-module-js-jsp}
+### angular-app-module.js.jsp {#angular-app-module-js-jsp}
 
 This script defines the Angular module of the application. The output of this script is linked to the markup that the rest of the template's component generates via the `html` element in ng-page.jsp, which contains the following attribute:
 
@@ -101,7 +101,7 @@ This module also defines a top-level controller named `AppController` which expo
 
 Lastly, this module iterates through each descendant page (including itself) and renders the content of the route fragement of each page (via the angular-route-fragment.js selector & extension), including it as a config entry to Angular's $routeProvider. In other words, the $routeProvider tells the app which content to render when a given path is requested.
 
-#### angular-route-fragment.js.jsp {#angular-route-fragment-js-jsp}
+### angular-route-fragment.js.jsp {#angular-route-fragment-js-jsp}
 
 This script generates a JavaScript fragment that must take the following form:
 
@@ -124,11 +124,11 @@ If necessary, you can override this script to handle more complex paths, includi
 })
 ```
 
-#### angular-app-controllers.js.jsp {#angular-app-controllers-js-jsp}
+### angular-app-controllers.js.jsp {#angular-app-controllers-js-jsp}
 
 In Angular, Controllers wire up variables in the $scope, exposing them to the view. The angular-app-controllers.js.jsp script follows the pattern illustrated by angular-app-module.js.jsp in that it iterates through each descendant page (including itself) and outputs the controller fragment that each page defines (via controller.js.jsp). The module it defines is called `cqAppControllers` and must be listed as a dependency of the top level app module so that the page controllers are made available.
 
-#### controller.js.jsp {#controller-js-jsp}
+### controller.js.jsp {#controller-js-jsp}
 
 The controller.js.jsp script generates the controller fragment for each page. This controller fragment takes the following form:
 
@@ -146,29 +146,29 @@ Note that the `data` variable is assigned the promise returned by the Angular `$
 
 In order for a component to be part of the controller in this way, it should extend the /libs/mobileapps/components/angular/ng-component component and include the `frameworkType: angular` property.
 
-#### template.jsp {#template-jsp}
+### template.jsp {#template-jsp}
 
 First introduced in the body.jsp section, template.jsp simply contains the page's parsys. In publish mode, this content is referenced directly (at &lt;page-path&gt;.template.html) and loaded into the SPA via the templateUrl configured on the $routeProvider.
 
 The parsys in this script can be configured to accept any type of component. However, care must be given when dealing with components that are built for a traditional website (as opposed to an SPA). For example, the foundation image component functions correctly only on the top-level app page since it is not designed to reference assets that are inside an app.
 
-#### angular-module-list.js.jsp {#angular-module-list-js-jsp}
+### angular-module-list.js.jsp {#angular-module-list-js-jsp}
 
 This script simply outputs the Angular dependencies of the top-level Angular app module. It is referenced by angular-app-module.js.jsp.
 
-#### header.jsp {#header-jsp}
+### header.jsp {#header-jsp}
 
 A script to place static content at the top of the app. This content is included by the top level page, outside the scope of ng-view.
 
-#### footer.jsp {#footer-jsp}
+### footer.jsp {#footer-jsp}
 
 A script to place static content at the bottom of the app. This content is included by the top level page, outside the scope of ng-view.
 
-#### js_clientlibs.jsp {#js-clientlibs-jsp}
+### js_clientlibs.jsp {#js-clientlibs-jsp}
 
 Override this script to include your JavaScript clientlibs.
 
-#### css_clientlibs.jsp {#css-clientlibs-jsp}
+### css_clientlibs.jsp {#css-clientlibs-jsp}
 
 Override this script to include your CSS clientlibs.
 
@@ -221,25 +221,25 @@ Alternatively, if `$scope.wcmMode == false`, each navigation event results in a 
 
 ![](assets/chlimage_1-51.png) 
 
-#### ng-component.jsp {#ng-component-jsp}
+### ng-component.jsp {#ng-component-jsp}
 
 This script displays either the component contents or a suitable placeholder when Edit mode is detected.
 
-#### template.jsp {#template-jsp-1}
+### template.jsp {#template-jsp-1}
 
 The template.jsp script renders the markup of the component. If the component in question is driven by JSON data extracted from AEM (such as 'ng-text': /libs/mobileapps/components/angular/ng-text/template.jsp), then this script will be responsible for wiring up the markup with data exposed by the page's controller scope.
 
 However, performance requirements sometimes dictate that no client side templating (aka data binding) be performed. In this case, simply render the component's markup on the server side and it is included in the page template content.
 
-#### overhead.jsp {#overhead-jsp}
+### overhead.jsp {#overhead-jsp}
 
 In components driven by JSON data (such as 'ng-text': /libs/mobileapps/components/angular/ng-text), overhead.jsp can be used to remove all Java code from template.jsp. It is then referenced from template.jsp and any variables that it exposes on the request are available for use. This strategy encourages separation of logic from presentation, and limits the amount of code that must be copied and pasted when a new component is derived from an existing one.
 
-#### controller.js.jsp {#controller-js-jsp-1}
+### controller.js.jsp {#controller-js-jsp-1}
 
 As described in [AEM Page Templates](/content/docs/en/aem/6-2/develop/mobile/apps/apps-arch.md#par_title), each component can output a JavaScript fragment to consume the JSON content exposed by the `data` promise. Following Angular conventions, a controller should only be used for assigning variables to the scope.
 
-#### angular.json.jsp {#angular-json-jsp}
+### angular.json.jsp {#angular-json-jsp}
 
 This script is included as a fragment in the page-wide '&lt;page-name&gt;.angular.json' file that gets exported for each page that extends ng-page. In this file, the component developer can expose any JSON structure that the component requires. In the 'ng-text' example, this structure simply includes the text content of the component, and a flag indicating whether or not the component includes rich text.
 
@@ -298,29 +298,29 @@ www/
   |- package-update.json
 ```
 
-#### .cordova {#cordova}
+### .cordova {#cordova}
 
 This is a hidden directory which you may not see depending on your current OS settings. You should configure your OS so that this directory is visible if you plan on modifying the app hooks that it contains.
 
-#### .cordova/hooks/ {#cordova-hooks}
+### .cordova/hooks/ {#cordova-hooks}
 
 This directory contains the [CLI hooks](http://devgirl.org/2013/11/12/three-hooks-your-cordovaphonegap-project-needs/). The folders in the hooks directory contain node.js scripts that are executed at exact points during the build.
 
-#### .cordova/hooks/after-platform_add/ {#cordova-hooks-after-platform-add}
+### .cordova/hooks/after-platform_add/ {#cordova-hooks-after-platform-add}
 
 The after-platform_add directory contains the `copy_AMS_Conifg.js` file. This script copies a configuration file to support the collection of Adobe Mobile Services analytics.
 
-#### .cordova/hooks/after-prepare/ {#cordova-hooks-after-prepare}
+### .cordova/hooks/after-prepare/ {#cordova-hooks-after-prepare}
 
 The after-prepare directory contains the `copy_resource_files.js` file. This script copies a number of icon and splash screen images into platform-specific locations.
 
-#### .cordova/hooks/before_platform_add/ {#cordova-hooks-before-platform-add}
+### .cordova/hooks/before_platform_add/ {#cordova-hooks-before-platform-add}
 
 The before_platform_add directory contains the `install_plugins.js` file. This script iterates through a list of Cordova plugin identifiers, installing those which it detects are not already available.
 
 This strategy does not require that you bundle and install the plugins to AEM each time the Maven `content-package:install` command is executed. The alternative strategy of checking the files into your SCM system requires repetitive bundling and installing activities.
 
-#### .cordova/hooks/Other Hooks {#cordova-hooks-other-hooks}
+### .cordova/hooks/Other Hooks {#cordova-hooks-other-hooks}
 
 Include other hooks as required. The following hooks are available (as provided by the Phonegap sample hello world app):
 
@@ -349,27 +349,27 @@ Include other hooks as required. The following hooks are available (as provided 
 * after_run 
 * before_run
 
-#### platforms/ {#platforms}
+### platforms/ {#platforms}
 
 This directory is empty until you execute the `phonegap run *<platform>*` command on the project. Currently, `*<platform>*` can be either `ios` or `android`.
 
 After you build the app for a specific platform, the corresponding directory is created and it contains the platform-specific app code.
 
-#### plugins/ {#plugins}
+### plugins/ {#plugins}
 
 The plugins directory is populated by each plugin listed in the `.cordova/hooks/before_platform_add/install_plugins.js` file after you execute the `phonegap run *<platform>*` command. The directory is initially empty.
 
-#### www/ {#www}
+### www/ {#www}
 
 The www directory contains all of the web content (HTML, JS, and CSS files) that implements the appearance and behaviour of the app. Except for the exceptions described below, this content originates from AEM and is exported into its static form via Content Sync.
 
-#### www/config.xml {#www-config-xml}
+### www/config.xml {#www-config-xml}
 
 The [PhoneGap documentation](http://docs.phonegap.com) refers to this file as a 'global configuration file'. The config.xml contains many app properties, such as the name of the app, the app 'preferences' (for example whether or not an iOS webview allows overscroll), and plugin dependencies that are *only* consumed by PhoneGap build.
 
 The config.xml file is a static file in AEM and is exported as-is via Content Sync.
 
-#### www/index.html {#www-index-html}
+### www/index.html {#www-index-html}
 
 The index.html file redirects to the starting page of the app.
 
@@ -381,19 +381,19 @@ In [the PhoneGap documentation](http://docs.phonegap.com), this element is descr
 
 PhoneGap build fails if an index.html file is not present. Therefore, this file is included.
 
-#### www/res {#www-res}
+### www/res {#www-res}
 
 The res directory contains splash screen images and icons. The `copy_resource_files.js` script copies the files to their platform-specific locations during the `after_prepare` build phase.
 
-#### www/etc {#www-etc}
+### www/etc {#www-etc}
 
 By convention, in AEM the /etc node contains static clientlib content. The etc directory contains the Topcoat, AngularJS, and We.Retail ng-clientlibsall libraries.
 
-#### www/apps {#www-apps}
+### www/apps {#www-apps}
 
 The apps directory contains code that is related to the splash page. The unique characteristic of the splash page of an AEM app is that it initializes the app with no user interaction. The clientlib content (both CSS and JS) of the app is therefore minimal to maximize performance.
 
-#### www/content {#www-content}
+### www/content {#www-content}
 
 The content directory contains the rest of the web content of the app. The content can include, but is not limited to, the following files:
 
@@ -402,11 +402,11 @@ The content directory contains the rest of the web content of the app. The conte
 * JavaScript content that server-side scripts generate
 * JSON files that describe page or component content
 
-#### www/package.json {#www-package-json}
+### www/package.json {#www-package-json}
 
 The package.json file is a manifest file that lists the files that a **full** Content Sync download includes. This file also contains the timestamp at which the Content Sync payload was generated ( `lastModified`). This property is used when requesting partial updates of the app from AEM.
 
-#### www/package-update.json {#www-package-update-json}
+### www/package-update.json {#www-package-update-json}
 
 If this payload is a download of the entire app, this manifest contains the exact listing of files as `package.json`.
 

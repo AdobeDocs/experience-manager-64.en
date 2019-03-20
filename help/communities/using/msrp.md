@@ -192,9 +192,9 @@ for example: admin:admin
 
 *path* = the root location of the tree of UGC to reindex  
 
-  * to reindex all UGC, specify the value of the `asipath`property of  
+* to reindex all UGC, specify the value of the `asipath`property of  
 `/etc/socialconfig/srpc/defaultconfiguration`  
-  * to limit the index to some UGC, specify a subtree of `asipath`
+* to limit the index to some UGC, specify a subtree of `asipath`
 
 *reindex-url* = the endpoint for reindexing of SRP  
 `http://localhost:4503/services/social/datastore/mongo/reindex`
