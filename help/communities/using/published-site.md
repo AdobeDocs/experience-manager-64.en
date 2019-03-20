@@ -27,7 +27,7 @@ To minimize confusion as to which member is signed in on author and publish, it 
 
 When first arriving at the published site, the site visitor would typically not already be signed in and would be anonymous.
 
-#### http://localhost:4503/content/sites/engage/en.html {#http-localhost-content-sites-engage-en-html}
+## http://localhost:4503/content/sites/engage/en.html {#http-localhost-content-sites-engage-en-html}
 
 ![](assets/chlimage_1-311.png) 
 
@@ -46,7 +46,7 @@ An anonymous site visitor sees the following in the UI:
 
 If you select various links, you will find they are in read-only mode.
 
-### Prevent anonymous access on JCR {#prevent-anonymous-access-on-jcr}
+## Prevent anonymous access on JCR {#prevent-anonymous-access-on-jcr}
 
 A known limitation exposes the community site content to anonymous visitors through  jcr  content and  json , though **allow anonymous access** is disabled for the site's content. However, this behavior can be controlled using Sling Restrictions as a workaround.
 
@@ -94,7 +94,7 @@ Notice the Calendar page is the home page because the chosen Reference Site Temp
 >* [Component, Function, and Feature Essentials](../../communities/using/essentials.md) (for developers)
 >
 
-### Forum link {#forum-link}
+## Forum link {#forum-link}
 
 View the basic forum feature by selecting the Forum link.
 
@@ -104,7 +104,7 @@ Site visitors are able to view posts and sort them in various ways.
 
 ![](assets/chlimage_1-315.png) 
 
-### Groups link {#groups-link}
+## Groups link {#groups-link}
 
 Since Aaron is a group administrator, selecting the Groups link will allow Aaron to create a new community group by selecting a group template, image, whether the group is open or secret, and inviting members.
 
@@ -179,7 +179,7 @@ Log in as Weston McCall (weston.mccall@dodgit.com / password), and navigate to t
 
 ![](assets/chlimage_1-320.png) 
 
-### Web Page link {#web-page-link}
+## Web Page link {#web-page-link}
 
 View the basic web page included in the site by selecting the Web Page link. The standard AEM authoring tools may be used to add content to this page in the author environment.
 
@@ -187,7 +187,7 @@ For example, go to **author** instance, open the `engage` folder in the [Communi
 
 ![](assets/chlimage_1-321.png) 
 
-### Administration Link {#administration-link}
+## Administration Link {#administration-link}
 
 When the community member has moderation privileges, then the Administration link will be visible and selecting it will display the community content posted and allow it to be [moderated](../../communities/using/moderate-ugc.md) in a manner similar to the [moderation console](../../communities/using/moderation.md) in the author environment.
 

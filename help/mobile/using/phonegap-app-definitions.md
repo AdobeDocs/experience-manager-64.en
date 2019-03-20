@@ -23,7 +23,7 @@ App definitions are a way to identify what spaces and other configurations are a
 >
 >App definitions are tied to an app, therefore they require the creation of an App in the AEM Mobile App console.
 
-### Creating a New App definition {#creating-a-new-app-definition}
+## Creating a New App definition {#creating-a-new-app-definition}
 
 1. Choose **Mobile** from the AEM Navigation Console.
 
@@ -43,7 +43,7 @@ Once you are familiar with App Definitions, learn more about the following autho
 * [Create a New App using Create App Wizard](../../mobile/using/phonegap-create-new-app.md)
 * [Content Services](/mobile/using/content-as-a-service.md)
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Adminstrator and Developer, see the resources below:
 

@@ -108,9 +108,5 @@ Now that the mobile app has access to the ADBMobileConfig.json file it has the k
 1. [Manage my app's content](/content/docs/en/aem/6-3/develop/mobile-apps/manage-my-apps-content.md)
 1. [Build my application](/content/docs/en/aem/6-3/author/authoring-mobile-apps/build-app-through-adobe-phonegap-build-cloud-service.md)
 1. [Track my app's performance with Adobe Mobile Analytics](../../mobile/using/phonegap-intro-to-app-analytics.md)
-1. 
-
-   ##### [Deliver a personalized app experience with Adobe Target](/content/docs/en/aem/6-3/develop/mobile-apps/apps/aem-mobile-content-personalization.md) {#deliver-a-personalized-app-experience-with-adobe-target}
-
+1. [Deliver a personalized app experience with Adobe Target](/content/docs/en/aem/6-3/develop/mobile-apps/apps/aem-mobile-content-personalization.md)
 1. [Send important messages to my users](/content/docs/en/aem/6-3/develop/mobile-apps/apps/push-notifications.md)
-

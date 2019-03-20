@@ -18,7 +18,7 @@ discoiquuid: 0d462ad1-5619-4bb6-9609-bc8987c40a0c
 
 ## Start Author and Publish Instances {#start-author-and-publish-instances}
 
-For development and demonstration purposes, it will be necessry to run one author and one publish instance.
+For development and demonstration purposes, it will be necessary to run one author and one publish instance.
 
 To do so, follow the basic AEM [Getting Started](../../sites/deploying/using/deploy.md#getting-started) instructions, which will result in
 
@@ -77,7 +77,7 @@ For simple instructions to enable the tunnel service on an **author** instance, 
 
 Members of the Community Administrators group are able to create community sites, manage sites, manage members (they can ban members from the community), and moderate content.
 
-#### Create User {#create-user}
+### Create User {#create-user}
 
 Create a user on *author*, who is assigned the role of Community Administrator:
 
@@ -101,7 +101,7 @@ Create a user on *author*, who is assigned the role of Community Administrator:
     * **First Name**: Sirius
     * **Last Name&#42;**: Nilson
 
-#### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
+### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
 
 Scroll down to `Add User to Groups`:
 

@@ -29,7 +29,7 @@ HTML5 forms generates documents based on standard HTML5 constructs. You can view
 * Enables custom widgets to offer a rich data capture experience.
 * Provides support for integration with web apps.
 
-#### Multichannel publishing {#multichannel-publishing}
+### Multichannel publishing {#multichannel-publishing}
 
 Form developers can use an XFA template to render forms in PDF and HTML5 formats. This capability is beneficial in scenarios where you have a large set of XFA forms that require minimal changes to adapt to HTML5 forms design practices. You can render the existing XFA forms to HTML5 to target various devices where XFA-based PDF is not yet supported.
 

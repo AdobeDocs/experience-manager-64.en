@@ -129,7 +129,7 @@ The following table shows the properties of Export Configs:
  </tbody> 
 </table>
 
-#### Resource type export overrides {#resource-type-export-overrides}
+### Resource type export overrides {#resource-type-export-overrides}
 
 Create a configuration node under */apps/mobileapps/caas/exportConfigs.*
 
