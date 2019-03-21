@@ -32,7 +32,7 @@ System provided scripts exist (under `/libs/sling/servlet/errorhandler`) to resp
 >
 >On a publish instance, CQ WCM Debug Filter is *always* disabled (even if configured as enabled).
 
-### How to Customize Pages shown by the Error Handler {#how-to-customize-pages-shown-by-the-error-handler}
+## How to Customize Pages shown by the Error Handler {#how-to-customize-pages-shown-by-the-error-handler}
 
 You can develop your own scripts to customize the pages shown by the error handler when an error is encountered. Your customized pages will be created under `/apps` and overlay the default pages (that are under `/libs`).
 

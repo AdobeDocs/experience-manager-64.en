@@ -19,7 +19,7 @@ You will need to create a design for your website and in AEM, you do so by using
 >
 >For more information about Web accessibility, see [AEM and the Web Accessibility Guidelines](../../../managing/using/web-accessibility.md).
 
-### Using the Designer {#using-the-designer}
+## Using the Designer {#using-the-designer}
 
 Your design can be defined in the **designs** section of the **Tools** tab:
 
@@ -35,7 +35,7 @@ Designs are stored under `/etc/designs`. The path to the design to be used for a
 >
 >All the changes that are made on a page in design mode are persisted below the design node of the site and are automatically applied to all pages that have the same design.
 
-### What you will need {#what-you-will-need}
+## What you will need {#what-you-will-need}
 
 To realize your design you will need:
 

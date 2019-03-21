@@ -17,7 +17,7 @@ Configurations are designed to provide the logic and structure for storing servi
 
 You can extend the existing instances to create your own configurations.
 
-### Concepts {#concepts}
+## Concepts {#concepts}
 
 The principles used in developing the configurations have been based on the following concepts:
 
@@ -28,7 +28,7 @@ The principles used in developing the configurations have been based on the foll
 * Has the flexibility to cater for more complex configurations, such as [SiteCatalyst](../../../sites/administering/using/marketing-cloud.md#integratingwithsitecatalyst).
 * Support for dependencies (e.g. [SiteCatalyst](../../../sites/administering/using/marketing-cloud.md#integratingwithsitecatalyst) plugins need a [SiteCatalyst](../../../sites/administering/using/marketing-cloud.md#integratingwithsitecatalyst) configuration).
 
-### Structure {#structure}
+## Structure {#structure}
 
 The base path of the configurations is:
 
@@ -58,7 +58,7 @@ The service provider should also provide the service page:
 
 `/etc/cloudservices/<service-name>`
 
-#### Template {#template}
+### Template {#template}
 
 Your template will extend the base template:
 
@@ -86,7 +86,7 @@ sling:resourceType = cq/analytics/components/generictrackerpage
 
 ```
 
-#### Components {#components}
+### Components {#components}
 
 Your component should extend the base component:
 

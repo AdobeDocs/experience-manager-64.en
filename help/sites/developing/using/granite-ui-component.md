@@ -61,7 +61,7 @@ For examples, see:
 >
 >`/libs/granite/ui/components/foundation/form` directory
 
-### Creating the server-side script for the component {#creating-the-server-side-script-for-the-component}
+## Creating the server-side script for the component {#creating-the-server-side-script-for-the-component}
 
 Your customized field should only override the `render.jsp` script, where you provide the markup for your component. You can consider the JSP (i.e. the rendering script) as a wrapper for your markup.
 
@@ -89,7 +89,7 @@ Your customized field should only override the `render.jsp` script, where you pr
    >
    >At the moment, JSP is the preferred scripting method, as passing information from one component to another (which is quite frequent in the context of form/fields) is not easily achieved in HTL.
 
-### Creating the client-library for the component {#creating-the-client-library-for-the-component}
+## Creating the client-library for the component {#creating-the-client-library-for-the-component}
 
 To add specific client-side behavior to your component:
 

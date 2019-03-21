@@ -106,7 +106,7 @@ $CQ(function(){
 
 All AEM sample sites such as Geometrixx Outdoors have this code included.
 
-#### The sitecatalystAfterCollect Event {#the-sitecatalystaftercollect-event}
+### The sitecatalystAfterCollect Event {#the-sitecatalystaftercollect-event}
 
 The `cloudservices` script triggers the `sitecatalystAfterCollect` event:
 

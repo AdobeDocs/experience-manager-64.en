@@ -15,7 +15,7 @@ discoiquuid: 11c0aac6-a7f6-4d6b-a080-b04643045a64
 
 The Adobe Analytics framework determines the information that is tracked with Adobe Analytics. To customize the default framework, you use javascript to add custom tracking, integrate Adobe Analytics plugins, and change general settings within the framework used for tracking.
 
-### About the Generated javascript for Frameworks {#about-the-generated-javascript-for-frameworks}
+## About the Generated javascript for Frameworks {#about-the-generated-javascript-for-frameworks}
 
 When a page is associated with a Adobe Analytics framework, and the page includes [references to the Analytics module](../../../sites/administering/using/adobeanalytics.md#main-pars-title-25), a analytics.sitecatalyst.js file is automatically generated for the page.
 
@@ -55,7 +55,7 @@ s.doPlugins=s_doPlugins;
 
 When you use custom javascript code to customize the framework, you alter the content of this file.
 
-### Configuring Adobe Analytics Properties {#configuring-adobe-analytics-properties}
+## Configuring Adobe Analytics Properties {#configuring-adobe-analytics-properties}
 
 There are a number of predefined variables within Adobe Analytics that are configurable on a framework**. **The **charset**, **cookieLifetime**, **currencyCode** and **trackInlineStats** variables are included in the **General Analytics Settings** list by default.
 

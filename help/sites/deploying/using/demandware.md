@@ -60,7 +60,7 @@ The server connection between AEM and the Demandware Sandbox needs to be configu
 
 1. Click **Save**.
 
-#### Replication {#replication}
+### Replication {#replication}
 
 The replication should be enabled after the package installation, you can verify that here: [http://localhost:4502/etc/replication/agents.author/demandware.html](http://localhost:4502/etc/replication/agents.author/demandware.html)
 

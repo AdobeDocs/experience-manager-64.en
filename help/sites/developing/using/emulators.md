@@ -30,7 +30,7 @@ The AEM emulator framework:
 >
 >This feature is supported only in Classic UI.
 
-### Emulators Characteristics {#emulators-characteristics}
+## Emulators Characteristics {#emulators-characteristics}
 
 An emulator:
 
@@ -41,7 +41,7 @@ An emulator:
 * Is only active on author.
 * Its base component is at `/libs/wcm/emulator/components/base`.
 
-#### How the Emulator Transforms the Content {#how-the-emulator-transforms-the-content}
+### How the Emulator Transforms the Content {#how-the-emulator-transforms-the-content}
 
 The emulator works by wrapping the HTML body contents into emulator DIVs. For example, the following html code:
 
@@ -134,8 +134,10 @@ To create a custom mobile emulator:
 1. If needed, define a JS client library, for example to define a specific plugin: name = js, node type = cq:ClientLibrary  
    As an example, you can refer to the node `/libs/wcm/mobile/components/emulators/base/js`  
 
-1. If the emulator supports specific functionalities defined by plugins (like touch scrolling), create a configuration node below the emulator: name = `cq:emulatorConfig`, node type = `nt:unstructured` and add the property that defines the plugin:  
-   - Name = `canRotate`, Type = `Boolean`, Value = `true`: to include the rotation functionality.  
-   - Name = `touchScrolling`, Type = `Boolean`, Value = `true`: to include the touch scrolling functionality.  
+1. If the emulator supports specific functionalities defined by plugins (like touch scrolling), create a configuration node below the emulator: name = `cq:emulatorConfig`, node type = `nt:unstructured` and add the property that defines the plugin: 
+
+   * Name = `canRotate`, Type = `Boolean`, Value = `true`: to include the rotation functionality.  
+   * Name = `touchScrolling`, Type = `Boolean`, Value = `true`: to include the touch scrolling functionality. 
+    
    More functionalities can be added by defining your own plugins.
 
