@@ -40,11 +40,11 @@ Key aspects are covered below, while the following pages cover further details:
 >* Changes to the locations of information see [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring-in-aem64.md) and [Workflow Best Practices - Locations](../../../sites/developing/using/workflows-best-practices.md#locations).  
 >
 
-### Model {#model}
+## Model {#model}
 
 A `WorkflowModel` represents a definition (model) of a workflow. It is made of `WorkflowNodes` and `WorkflowTransitions`. The transitions connect the nodes and define the *flow*. The Model has always a start node and an end node.
 
-#### Runtime Model {#runtime-model}
+### Runtime Model {#runtime-model}
 
 Workflow models are versioned. When you run a workflow instance it will use (and keep) the runtime model of the workflow (as available at the time the workflow was started).
 

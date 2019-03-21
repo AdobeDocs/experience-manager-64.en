@@ -13,7 +13,7 @@ discoiquuid: 0f977264-fe58-4478-bd38-aca5c75f36aa
 
 # Testing and Tracking Tools{#testing-and-tracking-tools}
 
-#### Testing {#testing}
+## Testing {#testing}
 
 AEM provides:
 
@@ -28,7 +28,7 @@ The following are two Open Source Testing tools:
 
 There are also many proprietary tools for automating tests and managing test plans.
 
-#### Tracking {#tracking}
+## Tracking {#tracking}
 
 The following tools are easily available. However a key issue in all cases is the availability of the data to all members of the project team - partner and customer.
 
