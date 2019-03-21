@@ -33,7 +33,7 @@ Oak implements the [JSR-283](http://www.day.com/day/en/products/jcr/jsr-283.html
 
 ![](assets/chlimage_1-84.png)
 
-#### Storage {#storage}
+### Storage {#storage}
 
 The purpose of the Storage layer is to:
 
@@ -41,7 +41,7 @@ The purpose of the Storage layer is to:
 * Make storage pluggable
 * Provide a clustering mechanism
 
-#### Oak Core {#oak-core}
+### Oak Core {#oak-core}
 
 The Oak Core adds several layers to the storage layer:
 
@@ -49,7 +49,7 @@ The Oak Core adds several layers to the storage layer:
 * Search and Indexing
 * Observation
 
-#### Oak JCR {#oak-jcr}
+### Oak JCR {#oak-jcr}
 
 The main objective of the Oak JCR is to transform JCR semantics into tree operations. It is also responsible for:
 
@@ -64,7 +64,7 @@ The Oak storage layer provides an abstraction layer for the actual storage of th
 
 Currently, there are two storage implementations available in AEM6: **Tar Storage** and **MongoDB Storage**.
 
-#### Tar Storage {#tar-storage}
+### Tar Storage {#tar-storage}
 
 The Tar storage uses tar files. It stores the content as various types of records within larger segments. Journals are used to track the latest state of the repository.
 
@@ -84,7 +84,7 @@ Related records like a node and its immediate children are usually stored in the
 
 The formatting of records is optimized for size to reduce IO costs and to fit as much content in caches as possible.
 
-#### Mongo Storage {#mongo-storage}
+### Mongo Storage {#mongo-storage}
 
 The MongoDB storage leverages MongoDB for sharding and clustering. The repository tree is kept in one MongoDB database where each node is a separate document.
 

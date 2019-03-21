@@ -27,7 +27,7 @@ Requests are [queued](../../../sites/deploying/using/osgi-configuration-settings
 >
 >For multiple publish instances, user data is Sling distributed when [User Synchronization](../../../sites/administering/using/sync.md) is enabled.
 
-### Replicating from Author to Publish {#replicating-from-author-to-publish}
+## Replicating from Author to Publish {#replicating-from-author-to-publish}
 
 Replication, to a publish instance or dispatcher, takes place in several steps:
 
@@ -42,7 +42,7 @@ Replication, to a publish instance or dispatcher, takes place in several steps:
 
 ![](assets/chlimage_1-144.png) 
 
-### Replicating from Publish to Author {#replicating-from-publish-to-author}
+## Replicating from Publish to Author {#replicating-from-publish-to-author}
 
 Some features allow users to enter data on a publish instance.
 
@@ -54,7 +54,7 @@ In other cases, such as for Communities features (for example, forums, blogs, co
 
 AEM [Communities](../../../communities/using/overview.md) never uses replication for UGC. Instead, the deployment for Communities requires a common store for UGC (see [Community Content Storage](../../../communities/using/working-with-srp.md)).
 
-### Replication - Out of the Box {#replication-out-of-the-box}
+## Replication - Out of the Box {#replication-out-of-the-box}
 
 The Geometrixx website that is included in a standard installation of AEM can be used to illustrate replication.
 
@@ -77,7 +77,7 @@ To follow this example and use the default replication agents you need to [Insta
 >To check the status of either the agent or the queue use the **Tools** console.  
 >See [Monitoring your Replication Agents](#monitoring-your-replication-agents).
 
-#### Replication (Author to Publish) {#replication-author-to-publish}
+### Replication (Author to Publish) {#replication-author-to-publish}
 
 1. Navigate to the support page on the author environment.  
    `http://localhost:4502/content/geometrixx/en/support.html` 
@@ -94,7 +94,7 @@ This replication is actioned from the author environment by the:
   Details of this (configuration and logs) can be accessed from the Tools console of the author environment; or:  
   `http://localhost:4502/etc/replication/agents.author/publish.html`.
 
-#### Replication Agents - Out of the Box {#replication-agents-out-of-the-box}
+### Replication Agents - Out of the Box {#replication-agents-out-of-the-box}
 
 The following agents are available in a standard AEM installation:
 
@@ -116,7 +116,7 @@ The following agents are available in a standard AEM installation:
 
 When configuring a replication agent from the Tools console, four tabs are available within the dialog:
 
-#### Settings {#settings}
+### Settings {#settings}
 
 * **Name**
 
@@ -188,7 +188,7 @@ When configuring a replication agent from the Tools console, four tabs are avail
 
   Selecting this option enables alias or vanity path invalidation requests to Dispatcher. Also, see [Configuring a Dispatcher Flush Agent](../../../sites/deploying/using/replication.md#configuring-a-dispatcher-flush-agent).
 
-#### Transport {#transport}
+### Transport {#transport}
 
 * **URI**
 
@@ -227,7 +227,7 @@ When configuring a replication agent from the Tools console, four tabs are avail
 
   Enable if you want expired SSL certificates to be accepted.
 
-#### Proxy {#proxy}
+### Proxy {#proxy}
 
 The following settings are only needed if a proxy is needed:
 
@@ -255,7 +255,7 @@ The following settings are only needed if a proxy is needed:
 
   The proxy NTLM domain.
 
-#### Extended {#extended}
+### Extended {#extended}
 
 * **Interface**
 

@@ -71,13 +71,13 @@ The assumed topology for this section consists of an Author server running on Ta
 
 ## MongoMK Author Cluster {#mongomk-author-cluster}
 
-### Starting Topology {#Starting Topology}
+### Starting Topology {#starting}
 
 The assumed topology for this section consists of a MongoMK Author cluster with at least two AEM Author instances, backed by at least two MongoMK databases. All Author instances share a datastore. These steps should apply to both S3 and File datastores. Replication occurs from the Author servers to the TarMK Publish farm.
 
 ![](assets/mongo-topology.jpg)
 
-### Upgrade Preparation {#Upgrade Preparation}
+### Upgrade Preparation {#preparation}
 
 ![](assets/mongo-upgrade_prep.jpg)
 
@@ -96,7 +96,7 @@ The assumed topology for this section consists of a MongoMK Author cluster with 
 
 1. If necessary, upgrade MongoDB on the primary Mongo instance to version 3.2 with WiredTiger
 
-### Upgrade Execution {#Upgrade Execution}
+### Upgrade Execution {#execution}
 
 ![](assets/mongo-execution.jpg)
 
@@ -106,7 +106,7 @@ The assumed topology for this section consists of a MongoMK Author cluster with 
 
 1. QA validates the upgrade
 
-### If Successful {#If Successful}
+### If Successful {#successful}
 
 ![](assets/mongo-secondaries.jpg)
 

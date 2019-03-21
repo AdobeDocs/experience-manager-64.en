@@ -25,11 +25,11 @@ A key issue is the time your website takes to respond to visitor requests. Altho
 
 The response times you will be aiming for will be different on the author and publish environments, reflecting the different characteristics of the target audience:
 
-#### Author Environment {#author-environment}
+## Author Environment {#author-environment}
 
 This environment is used by authors entering, and updating content. It must cater for a small number of users who each generate a high number of performance intensive requests when updating content pages and the individual elements on those pages.
 
-#### Publish Environment {#publish-environment}
+## Publish Environment {#publish-environment}
 
 This environment contains content which you make available to your users. Here the number of requests is even greater and the speed is just as vital, but since the nature of the requests is less dynamic, additional performance enhancing mechanisms can be applied; such as caching the content or load-balancing.
 
@@ -497,7 +497,7 @@ The Dispatcher offers a number of built-in mechanisms that you can use to optimi
 >With Dispatcher version 4.1.11 you can also cache response headers, see [Caching HTTP Response Headers](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#configuring-the-dispatcher-cache-cache).
 >
 
-#### Calculating the Dispatcher Cache Ratio {#calculating-the-dispatcher-cache-ratio}
+### Calculating the Dispatcher Cache Ratio {#calculating-the-dispatcher-cache-ratio}
 
 The cache ratio formula estimates the percentage of requests handled by the cache out of the total number of requests coming into the system. To calculate the cache ratio you need the following :
 

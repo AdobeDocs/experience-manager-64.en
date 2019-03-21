@@ -22,7 +22,7 @@ This is available under the English (US) branch ( `/content/geometrixx-outdoors/
 >
 >To run the Geometrixx Outdoors store with WebSphere Commerce, [the Geometrixx Outdoors products and catalog data must be loaded into WebSphere Commerce](../../../sites/deploying/using/setup.md).
 
-### Technical Requirements {#technical-requirements}
+## Technical Requirements {#technical-requirements}
 
 The IBM Websphere extension of the eCommerce Integration Framework has been made to support Websphere Commerce version 7 Feature Pack 8.
 
@@ -30,7 +30,7 @@ The IBM Websphere extension of the eCommerce Integration Framework has been made
 >
 >You will need Java 7.
 
-### Packages Needed for eCommerce with Websphere Commerce {#packages-needed-for-ecommerce-with-websphere-commerce}
+## Packages Needed for eCommerce with Websphere Commerce {#packages-needed-for-ecommerce-with-websphere-commerce}
 
 To install eCommerce functionality you need:
 
@@ -52,7 +52,7 @@ To install eCommerce functionality you need:
     * `cq-6.3.0-featurepack-6709`
     * a reference implementation to illustrate use of Websphere Commerce ( `geometrixx-outdoors/en_US`)
 
-### Installation of eCommerce with Websphere Commerce {#installation-of-ecommerce-with-websphere-commerce}
+## Installation of eCommerce with Websphere Commerce {#installation-of-ecommerce-with-websphere-commerce}
 
 To install AEM with a Websphere Commerce integration configuration (using the demonstration catalog, Geometrixx Outdoors), the basic steps are:
 

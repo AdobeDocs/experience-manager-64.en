@@ -139,10 +139,10 @@ In addition to these. CQ provides a range of custom node types.
   A file that holds a characteristic thumbnail image.
 * @node workflows  
   Auto assign workflow configuration. The configuration will follow the structure below:  
-  + workflows  
-  + name1  
-  - cq:path  
-  - cq:workflowName
+  `+` workflows  
+  `+` name1  
+  `-` cq:path  
+  `-` cq:workflowName
 
 * @prop allowedParents  
   Regular expression patterns to determine the path(s) to templates allowed as parent templates.

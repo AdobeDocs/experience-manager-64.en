@@ -161,7 +161,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 | **Restructuring guidance** |N/A |
 | **Notes** |N/A |
 
-###  Link Share E-mail Notification Template {#link-share-e-mail-notification-template}
+### Link Share E-mail Notification Template {#link-share-e-mail-notification-template}
 
 <table> 
  <tbody> 

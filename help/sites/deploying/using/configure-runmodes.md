@@ -24,7 +24,7 @@ You can:
 
 All settings and definitions are stored in the one repository and activated by setting the **Run Mode**.
 
-### Installation Run Modes {#installation-run-modes}
+## Installation Run Modes {#installation-run-modes}
 
 Installation (or fixed) run modes are used at installation time and then fixed for the entire lifetime of the instance, they cannot be changed.
 
@@ -48,7 +48,7 @@ These are two pairs of mutually exclusive run modes; for example, you can:
 >
 >For these run modes you *cannot* change them after installation.
 
-### Customized Run Modes {#customized-run-modes}
+## Customized Run Modes {#customized-run-modes}
 
 You can also create your own, customized, run modes. These can be combined to cover scenarios such as:
 
@@ -105,7 +105,7 @@ See [OSGi Configuration in the Repository](../../../sites/deploying/using/config
 
 ## Defining additional bundles to be installed for a run mode {#defining-additional-bundles-to-be-installed-for-a-run-mode}
 
-Additional bundles that should be installed for a particular run mode can also be specified. For these definititions, install folders are used to hold the bundles. Again the run mode is indicated by a prefix:
+Additional bundles that should be installed for a particular run mode can also be specified. For these definitions, install folders are used to hold the bundles. Again the run mode is indicated by a prefix:
 
 * `install.author`
 * `install.publish`

@@ -25,7 +25,7 @@ The Geometrixx Outdoors product data .csv file was used as base data. It contain
 >
 >Names and identifiers used on this page (for example **GeometrixxCAS) **should not be changed, otherwise it will require further changes in the configuration files.
 
-### Open Administration Console {#open-administration-console}
+## Open Administration Console {#open-administration-console}
 
 1. Select Store Archives &gt; Publish.
 1. Filter by Extended sites.
@@ -35,7 +35,7 @@ The Geometrixx Outdoors product data .csv file was used as base data. It contain
 1. Set inventory to Non-ATP.
 1. Set sample data to **None**.
 1. Click **Next**.
-1. Click** Finish**.
+1. Click **Finish**.
 
 To complete the setup of the administration console:
 
@@ -55,9 +55,9 @@ To complete the setup of the administration console:
 1. Select Extended Sites Hub as the store.
 1. Select Extended Sites -&gt; New Store
 1. Provide name, default currency and email  
-   - Store Unique Identifier: Geometrixx  
-   - Store Display Name: Geometrixx  
-   - Store Short Description: Geometrixx
+   * Store Unique Identifier: Geometrixx  
+   * Store Display Name: Geometrixx  
+   * Store Short Description: Geometrixx
 1. Select **Extended Sites Seller Organization** for Store Organization.
 1. Select **Next**.
 1. Select new storefront asset store store created above and click **Next**.

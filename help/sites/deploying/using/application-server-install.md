@@ -35,7 +35,7 @@ Consult the appropriate application server documentation for more information on
 
 ## General Description {#general-description}
 
-#### Default behaviour when installing AEM in an Application Server {#default-behaviour-when-installing-aem-in-an-application-server}
+### Default behavior when installing AEM in an Application Server {#default-behaviour-when-installing-aem-in-an-application-server}
 
 AEM comes as a single war file to deploy.
 
@@ -91,7 +91,7 @@ For demonstration purposes it can be appropriate to install author and publish i
 
 ## Application Servers Installation Procedures {#application-servers-installation-procedures}
 
-#### WebSphere 8.5 {#websphere}
+### WebSphere 8.5 {#websphere}
 
 Before a deployment read the [General Description](#general-description) above.
 
@@ -140,9 +140,9 @@ if you use the deployment-scanner for to install the AEM web application it migh
 
 **Deploy AEM web application**
 
-- Upload the AEM web application in your JBoss Administration Console.
+* Upload the AEM web application in your JBoss Administration Console.
 
-- Enable the AEM web application.
+* Enable the AEM web application.
 
 #### Oracle WebLogic 12.1.3/12.2 {#oracle-weblogic}
 
@@ -226,8 +226,6 @@ Before a deployment read the [General Description](#general-description) above.
       ```    
     
       and increase the max-file-size and max-request-size to at least 500MB, see the following `multipart-config` example of such a a `web.xml` file:
-
-        * 
         
           ```        
           <multipart-config>

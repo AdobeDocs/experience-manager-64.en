@@ -107,7 +107,7 @@ The handler that best matches the path is queried first. For example, if you con
 
 ![](assets/screen_shot_2012-02-15at21006pm.png) 
 
-#### Example {#example}
+### Example {#example}
 
 For a cookie request (using the URL `http://localhost:4502/libs/wcm/content/siteadmin.html`):
 

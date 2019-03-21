@@ -25,7 +25,7 @@ ContextHub is a framework for storing, manipulating, and presenting context data
 >
 >It should not be used in a project as your own ContextHub configuration.
 
-### Persistence {#persistence}
+## Persistence {#persistence}
 
 ContextHub stores persist context data on the client. The ContextHub Javascript API enables you to access stores to create, update, and delete data as necessary. As such, ContextHub represents a data layer on your pages.
 
@@ -36,11 +36,11 @@ Each ContextHub store is an instance of a predefined store type:
 * Developers can [create custom store types](../../../sites/developing/using/ch-extend.md#creating-custom-store-candidates). 
 * Developers can [access store data](../../../sites/developing/using/ch-adding.md#interacting-with-contexthub-stores) via Javascript.
 
-### Segmentation {#segmentation}
+## Segmentation {#segmentation}
 
 ContextHub includes a segmentation engine that manages segments and determines which segments are resolved for the current context. Several segments are defined. You can use the Javascript API to [determine resolved segments](../../../sites/developing/using/ch-adding.md#determining-resolved-contexthub-segments).
 
-### Presentation {#presentation}
+## Presentation {#presentation}
 
 The [ContextHub toolbar](../../../sites/authoring/using/ch-previewing.md) enables marketers and authors to see and manipulate store data for simulating the user experience when authoring pages. The toolbar consists of groups of UI modules that provide access to ContextHub stores.
 

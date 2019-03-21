@@ -50,7 +50,7 @@ It can also be run separately in case it requires more customization. However, n
 
 Another thing to note is that with the default settings in standalone mode, only the Node Store will be migrated and the new repository will re-use the old binary storage.
 
-#### Automated Quickstart Mode {#automated-quickstart-mode}
+### Automated Quickstart Mode {#automated-quickstart-mode}
 
 Since AEM 6.3, CRX2Oak is able to handle user defined migration profiles that can be configured with all the migration options already available. This allows for both higher flexibility, and the ability to automate configuration of AEM, features that are not available if you are using the tool in standalone mode.
 
@@ -122,7 +122,7 @@ See the [Apache Documentation](https://jackrabbit.apache.org/oak/docs/migration.
 
 ## Parameters {#parameters}
 
-#### Node Store Options {#node-store-options}
+### Node Store Options {#node-store-options}
 
 * `--cache`: Cache size in MB (default is `256`)
 
@@ -135,7 +135,7 @@ See the [Apache Documentation](https://jackrabbit.apache.org/oak/docs/migration.
 
 * `--password`: Password for the target RDB.
 
-#### Migration Options {#migration-options}
+### Migration Options {#migration-options}
 
 * `--early-shutdown`: Shuts down the source JCR2 repository after nodes are copied and before the commit hooks are applied
 * `--fail-on-error`: Forces a failure of the migration if the nodes cannot be read from the source repository.
@@ -143,7 +143,7 @@ See the [Apache Documentation](https://jackrabbit.apache.org/oak/docs/migration.
 
 * `--ldap-config:` Use this in conjunction with the `--ldap` parameter for CQ 5.x repositories that used multiple LDAP servers for authentication. You can use it to point to the CQ 5.x `ldap_login.conf` or `jaas.conf` configuration files. The format is `--ldapconfig=path/to/ldap_login.conf`.
 
-#### Version Store Options {#version-store-options}
+### Version Store Options {#version-store-options}
 
 * `--copy-orphaned-versions`: Skips copying orphaned versions. Parameters supported are: `true`, `false` and `yyyy-mm-dd`. Defaults to `true`.
 
@@ -155,7 +155,7 @@ See the [Apache Documentation](https://jackrabbit.apache.org/oak/docs/migration.
 * `--merge-paths`: Comma-separated list of paths to merge during copy
 * `--exclude-paths:` Comma-separated list of paths to exclude during copy.
 
-#### Source Blob Store Options {#source-blob-store-options}
+### Source Blob Store Options {#source-blob-store-options}
 
 * `--src-datastore:` The datastore directory to be used as a source `FileDataStore`
 
@@ -165,7 +165,7 @@ See the [Apache Documentation](https://jackrabbit.apache.org/oak/docs/migration.
 
 * `--src-s3config`: The configuration file for the source `S3DataStore`.
 
-#### Destination BlobStore Options {#destination-blobstore-options}
+### Destination BlobStore Options {#destination-blobstore-options}
 
 * `--datastore:` The datastore directory to be used as a target `FileDataStore`
 
@@ -175,7 +175,7 @@ See the [Apache Documentation](https://jackrabbit.apache.org/oak/docs/migration.
 
 * `--s3config`: The configuration file for the target `S3DataStore`.
 
-#### Help Options {#help-options}
+### Help Options {#help-options}
 
 * `-?, -h, --help:` Shows help information.
 

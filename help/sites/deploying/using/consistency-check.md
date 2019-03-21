@@ -24,7 +24,7 @@ javax.jcr.RepositoryException: Error indexing workspace: Error indexing workspac
 ...
 ```
 
-### Perform a Consistency Check {#perform-a-consistency-check}
+## Perform a Consistency Check {#perform-a-consistency-check}
 
 To perform a consistency check, navigate to the administration page for the JMX Mbean** com.adobe.granite (Repository)**. From the AEM main screen, go to:
 

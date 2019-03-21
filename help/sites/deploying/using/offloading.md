@@ -21,7 +21,7 @@ Offloading is based on the [Apache Sling Discovery](http://sling.apache.org/docu
 
 For information about adding instances to a topology, see [Administering Topologies](../../../sites/deploying/using/offloading.md#administering-topologies).
 
-#### Job Distribution {#job-distribution}
+### Job Distribution {#job-distribution}
 
 The Sling JobManager and JobConsumer enable the creation of jobs that are processed in a topology:
 
@@ -39,7 +39,7 @@ See [Configuring Topic Consumption](../../../sites/deploying/using/offloading.md
 
 When the Offloading framework selects a cluster to execute a job, and the cluseter is comprised of multiple instances, Sling Distribution determines which instance in the cluster executes the job.
 
-#### Job Payloads {#job-payloads}
+### Job Payloads {#job-payloads}
 
 The Offloading framework supports job payloads that associate jobs with resources in the repository. Job payloads are useful when jobs are created for processing resources and the job is offloaded to another computer.
 
@@ -60,7 +60,7 @@ The Discovery Service of all members of the topology point to the Topology Conne
 
 Each cluster in the topology contains an instance that is recognized as the leader. The cluster leader interacts with the topology on behalf of the other members of the cluster. When the leader leaves the cluster, a new leader for the cluster is automatically chosen.
 
-#### Viewing the Topology {#viewing-the-topology}
+### Viewing the Topology {#viewing-the-topology}
 
 Use Topology Browser to explore the state of the topology in which the Experience Manager instance is participating. Topology Browser shows the clusters and instances of the topology.
 
@@ -97,7 +97,7 @@ Use the following procedure to open the Topology Management page of the Web Cons
 
    ![](assets/chlimage_1-112.png)
 
-#### Configuring Topology Membership {#configuring-topology-membership}
+### Configuring Topology Membership {#configuring-topology-membership}
 
 The Apache Sling Resource-Based Discovery Service runs on each instance to control how Experience Manager instances interact with a topology.
 
@@ -196,7 +196,7 @@ Jobs are distributed amoung instances that have the associated topic enabled usi
 
    **Note:** When you select Exclusive for a topic, all of the other topics are automatically set to Disabled.
 
-#### Installed Job Consumers {#installed-job-consumers}
+### Installed Job Consumers {#installed-job-consumers}
 
 Several JobConsumer implementations are installed with Experience Manager. The topics for which these JobConsumers are registered appear in Offloading Browser. Additional topics that appear are those that custom JobConsumers have registered. The following table describes the default JobConsumers.
 
@@ -206,7 +206,7 @@ Several JobConsumer implementations are installed with Experience Manager. The t
 | com/day/cq/replication/job/&#42; |com.day.cq.replication.impl.AgentManagerImpl |A replication agent that replicates job payloads. |
 | com/adobe/granite/workflow/offloading |com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer |Processes jobs that the DAM Update Asset Offloader workflow generates. |
 
-#### Disabling and Enabling Topics For an Instance {#disabling-and-enabling-topics-for-an-instance}
+### Disabling and Enabling Topics For an Instance {#disabling-and-enabling-topics-for-an-instance}
 
 The Apache Sling Job Consumer Manager service provides topic whitelist and blacklist properties. Configure these properties to enable or disable the processing of specific topics on an Experience Manager instance.
 
@@ -245,7 +245,7 @@ This replication scheme is similar to that used between author and publish insta
 >
 >The Offloading framework uses the topology to obtain the IP addresses of the offloading instances. The framework then automatically creates the replication agents based on these IP addresses. If the IP addresses of the offloading instances later change, the change is automatically propaged on the topology after the instance restarts. However, the Offloading framework does not automatically update the replication agents to reflect the new IP addresses. To avoid this situaion, use fixed IP addresses for all instances in the topology.
 
-#### Naming the Replication Agents for Offloading {#naming-the-replication-agents-for-offloading}
+### Naming the Replication Agents for Offloading {#naming-the-replication-agents-for-offloading}
 
 Use a specific format for the ***Name*** property of the replication agents so that the offloading framework automatically uses the correct agent for specific worker instances.
 
@@ -265,7 +265,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
 `offloading_outbox`
 
-#### Creating the outgoing agent {#creating-the-outgoing-agent}
+### Creating the outgoing agent {#creating-the-outgoing-agent}
 
 1. Create a** Replication Agent **on author. (See the [documention for replication agents](../../../sites/deploying/using/replication.md)). Specify any **Title**. The **Name** must follow the naming convention. 
 1. Create the agent using the following properties:
@@ -279,7 +279,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
    | Extended > HTTP Method |POST |
    | Triggers > Ignore Default |True |
 
-#### Creating the reverse agent {#creating-the-reverse-agent}
+### Creating the reverse agent {#creating-the-reverse-agent}
 
 1. Create a** Reverse Replication Agent **on author. (See the [documention for replication agents](../../../sites/deploying/using/replication.md).) Specify any **Title. **The **Name** must follow the naming convention. 
 1. Create the agent using the following properties:
@@ -292,7 +292,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
    | Transport >Transport Passoword |Replication user password on target instance |
    | Extended > HTTP Method |GET |
 
-#### Creating the outbox agent {#creating-the-outbox-agent}
+### Creating the outbox agent {#creating-the-outbox-agent}
 
 1. Create a **Replication Agent **on the worker instance. (See the [documention for replication agents](../../../sites/deploying/using/replication.md).) Specify any **Title**. The **Name** must be `offloading_outbox`.
 1. Create the agent using the following properties.
@@ -303,7 +303,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
    | Transport >Transport URI |repo://var/replication/outbox |
    | Trigger > Ignore Default |True |
 
-#### Finding the Sling ID {#finding-the-sling-id}
+### Finding the Sling ID {#finding-the-sling-id}
 
 Obtain the Sling ID of an Experience Manager instance using either of the following methods:
 
@@ -340,7 +340,7 @@ The following procedure assumes the following characteristics for the offloading
 
 1. On the instances that perform the background processing of DAM assets, disable the workflow launchers that execute the DAM Update Asset workflow.
 
-### Further Reading {#further-reading}
+## Further Reading {#further-reading}
 
 In addition to the details presented on this page, you can also read the following:
 
