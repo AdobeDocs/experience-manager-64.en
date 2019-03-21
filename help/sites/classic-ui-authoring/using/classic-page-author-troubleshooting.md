@@ -23,7 +23,7 @@ The following section covers some issues that you might encounter when using AEM
 >
 >Users who have administrator privileges, and who want to troubleshoot problems with AEM, can use the troubleshooting methods described in [Troubleshooting AEM (for Administrators)](../../../sites/administering/using/troubleshoot.md). If you do not have sufficient privileges, please see your system administrator about troubleshooting AEM.
 
-### Old page version still on published site {#old-page-version-still-on-published-site}
+## Old page version still on published site {#old-page-version-still-on-published-site}
 
 * **Issue**:
 
@@ -44,7 +44,7 @@ The following section covers some issues that you might encounter when using AEM
     
     * Contact your system administrator is there are issues with the replication queues.
 
-### Sidekick not visible {#sidekick-not-visible}
+## Sidekick not visible {#sidekick-not-visible}
 
 * **Issue**:
 
@@ -58,7 +58,7 @@ The following section covers some issues that you might encounter when using AEM
 
     * Log out from your current session and log back in again. Sidekick will return to the default position.
 
-### Find & Replace - not all instances are replaced {#find-replace-not-all-instances-are-replaced}
+## Find & Replace - not all instances are replaced {#find-replace-not-all-instances-are-replaced}
 
 * **Issue:**
 

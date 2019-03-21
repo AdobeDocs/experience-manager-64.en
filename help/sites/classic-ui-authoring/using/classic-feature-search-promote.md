@@ -1,8 +1,8 @@
 ---
-title: Adding Search&Promote Features To Your Page
-seo-title: Adding Search&Promote Features To Your Page
-description: Integrating Search&Promote capabilities in your web site, you can use the Search&Promote components to add features to your pages such as keyword search, search results page search refinement, and banners.
-seo-description: Integrating Search&Promote capabilities in your web site, you can use the Search&Promote components to add features to your pages such as keyword search, search results page search refinement, and banners.
+title: Adding Search&amp;Promote Features To Your Page
+seo-title: Adding Search&amp;Promote Features To Your Page
+description: Integrating Search&amp;Promote capabilities in your web site, you can use the Search&amp;Promote components to add features to your pages such as keyword search, search results page search refinement, and banners.
+seo-description: Integrating Search&amp;Promote capabilities in your web site, you can use the Search&amp;Promote components to add features to your pages such as keyword search, search results page search refinement, and banners.
 uuid: 8831aa56-9d7f-44ca-9d32-5901bf762154
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
@@ -11,18 +11,18 @@ topic-tags: site-features
 discoiquuid: 277d7e67-5778-48cb-89bb-29bcc734a485
 ---
 
-# Adding Search&Promote Features To Your Page{#adding-search-promote-features-to-your-page}
+# Adding Search&amp;Promote Features To Your Page {#adding-search-promote-features-to-your-page}
 
-To integrate Search&Promote capabilities in your web site, use the Search&Promote components to add the following features to your pages:
+To integrate Search&amp;Promote capabilities in your web site, use the Search&amp;Promote components to add the following features to your pages:
 
 * Keyword search  
 * Search results page
 * Search refinement
 * Banners
 
-Note that you can use Search&Promote capabilities only if your AEM administrator has enabled them. See [Integrating with Adobe Search&Promote](../../../sites/administering/using/search-and-promote.md).
+Note that you can use Search&amp;Promote capabilities only if your AEM administrator has enabled them. See [Integrating with Adobe Search&amp;Promote](../../../sites/administering/using/search-and-promote.md).
 
-Facets are configured on the Search&Promote server, as is the information that each component provides. The following table provides a brief description of each component. Subsequent sections provide detailed information about their use.
+Facets are configured on the Search&amp;Promote server, as is the information that each component provides. The following table provides a brief description of each component. Subsequent sections provide detailed information about their use.
 
 <table> 
  <tbody> 
@@ -65,9 +65,9 @@ Facets are configured on the Search&Promote server, as is the information that e
  </tbody> 
 </table>
 
-### Creating the search results page {#creating-the-search-results-page}
+## Creating the search results page {#creating-the-search-results-page}
 
-Use the WCM Websites console to create a page for showing search results. The results of a search from any Search component can appear on this page if it uses the same Search&Promote service.
+Use the WCM Websites console to create a page for showing search results. The results of a search from any Search component can appear on this page if it uses the same Search&amp;Promote service.
 
 The components that enable users to review search results are Results, and Pagination. The **Results** component has no configurable properties in Edit or Design mode. The Results component simply lists search results, which provide links to other pages, and displays the number of results for the search keyword.
 
@@ -84,7 +84,7 @@ You can configure the following component properties in Edit mode to control run
 * Hide Previous/Next: Determines whether users can navigate results pages relative to the current page.  
 * Hide view all: Determines whether the user can consolidate all search results on a single page. Typically, providing paged data makes more efficient use of server resources. Select this option to prevent the transfer of large data sets in one response message.
 
-### Enabling the filtering of results by facets {#enabling-the-filtering-of-results-by-facets}
+## Enabling the filtering of results by facets {#enabling-the-filtering-of-results-by-facets}
 
 You can enable users to filter search results by facets. The **Checkbox List Facet, Dropdown Facet,** and **Link List Facet **components enable users to select one or more facets for filtering. When using these components, you should also include the **Breadcrumbs** component. Breadcrumbs indicate the current filters that are used.
 
@@ -110,7 +110,7 @@ Facet members appear as a list of links. The text of each link is the name of a 
 
 ![](assets/sandplinklistcomp.png)
 
-The links in the list also changes when a filter is applied from a different type of Search&Promote component. The use of multiple types filter components can provide effective filter combinations.
+The links in the list also changes when a filter is applied from a different type of Search&amp;Promote component. The use of multiple types filter components can provide effective filter combinations.
 
 The **Breadcrumbs** component enables customers to see the filters that are currently applied to search results, in the order in which they were applied. Customers can click the items in the breadcrumb to revert to that filter combination. 
 
@@ -118,10 +118,10 @@ The **Breadcrumbs** component enables customers to see the filters that are curr
 
 You can configure the following properties for Breadcrumbs in Edit mode to customize the component's look:
 
-* Delimiter: Define the character or character string to act as a delimiter between each breadcrumb. The Delimiter field accepty any character string as input. The default setting is: "&gt;" (without the quotes)
-* Trailing Delimiter: Define a character or character string to be displayed at the end of the breadcrumbs. The Traiiling Delimiter field accepts any character string as input. The default setting for this is &#42;blank&#42; (i.e. nothing is displayed at the end of the breadcrumb line)
+* Delimiter: Define the character or character string to act as a delimiter between each breadcrumb. The Delimiter field accepts any character string as input. The default setting is: "&gt;" (without the quotes)
+* Trailing Delimiter: Define a character or character string to be displayed at the end of the breadcrumbs. The Trailing Delimiter field accepts any character string as input. The default setting for this is "blank" (i.e. nothing is displayed at the end of the breadcrumb line)
 
-### Adding search boxes {#adding-search-boxes}
+## Adding search boxes {#adding-search-boxes}
 
 The Search component enables customers to perform keyword searches. Add Search components to each page where you want to provide access to searching.
 
@@ -132,15 +132,15 @@ Configure the following properties in Edit mode to control runtime behavior:
 
 ![](assets/sandpsearchcomp.png) 
 
-### Adding banners {#adding-banners}
+## Adding banners {#adding-banners}
 
-The Banners component dispays banner advertisements according to the customer's Search&Promote searches. Logic on the Search&Replace server determines which banner to show. For example, a search on jeans could cause a fashion-related banner to appear. Filtering on the Men's department could further refine the choice of banner.
+The Banners component displays banner advertisements according to the customer's Search&Promote searches. Logic on the Search&amp;Replace server determines which banner to show. For example, a search on jeans could cause a fashion-related banner to appear. Filtering on the Men's department could further refine the choice of banner.
 
-The Banners component provides one configurable property named Banner Area. In Edit mode, select one of the property values to specify how the banner appears. The Search&Promote service determines the list of values that you can select from.
+The Banners component provides one configurable property named Banner Area. In Edit mode, select one of the property values to specify how the banner appears. The Search&amp;Promote service determines the list of values that you can select from.
 
-### Example Search&Promote search page {#example-search-promote-search-page}
+## Example Search&amp;Promote search page {#example-search-promote-search-page}
 
-This diagram shows the components that are added to a page to create the fully-functional Search&Promote results page below.
+This diagram shows the components that are added to a page to create the fully-functional Search&amp;Promote results page below.
 
 ![](assets/1328213789109.png) ![](assets/sandppageexample.png)
 

@@ -52,7 +52,7 @@ For more information on working with workflows in AEM, see the folllowing:
 
 This section describes the workflows available for Projects. 
 
-### Request Copy workflow {#request-copy-workflow}
+## Request Copy workflow {#request-copy-workflow}
 
 This workflow lets you request a manuscript from a user and then approve it. To start the request copy workflow:
 
@@ -65,11 +65,11 @@ This workflow lets you request a manuscript from a user and then approve it. To 
 
    ![](assets/chlimage_1-322.png)
 
-### Product Photo Shoot workflow {#product-photo-shoot-workflow}
+## Product Photo Shoot workflow {#product-photo-shoot-workflow}
 
 The Product Photo Shoot workflows (both commerce and without commerce) are covered in detail in [Creative Project](../../../sites/authoring/using/managing-product-information.md#productphotoshootprojectworkflows).
 
-### Project Approval workflow {#project-approval-workflow}
+## Project Approval workflow {#project-approval-workflow}
 
 In the Project Approval workflow, you assign content to a user, review, and then approve the content.
 
@@ -82,33 +82,33 @@ In the Project Approval workflow, you assign content to a user, review, and then
 
    ![](assets/chlimage_1-324.png)
 
-### Request Launch workflow {#request-launch-workflow}
+## Request Launch workflow {#request-launch-workflow}
 
 This workflow lets you request a launch.
 
-1. In your Simple project, select the **+ **sign in the **Workflows** tile and select **Request Launch Workflow**.
+1. In your Simple project, select the **+** sign in the **Workflows** tile and select **Request Launch Workflow**.
 1. Enter a title for the launch and provide the launch source path. You can also add a description and live date, if you applicable. Select Inherit source page live data or exclude sub pages depending on how you want the launch to behave.
 
    ![](assets/chlimage_1-325.png)
 
-1. Click **Create**. The workflow starts. The workflow appears in the **Workflows** list (click ellipses** ... **on the **Workflows **tile** **to access this list).
+1. Click **Create**. The workflow starts. The workflow appears in the **Workflows** list (click ellipses** ... **on the **Workflows **tile**** to access this list).
 
-### Request Landing Page workflow {#request-landing-page-workflow}
+## Request Landing Page workflow {#request-landing-page-workflow}
 
 This workflow lets you request a landing page.
 
-1. In your Simple project, select the **+ **sign in the **Workflows** tile and select Request Landing Page Workflow.
+1. In your Simple project, select the **+** sign in the **Workflows** tile and select Request Landing Page Workflow.
 1. Enter a title for your landing page and the parent path. If applicable, enter a live date or choose a file for your landing page.
 
    ![](assets/chlimage_1-326.png)
 
 1. Click **Create**. The workflow starts. The task appears in the **Tasks** tile.
 
-### Request Email workflow {#request-email-workflow}
+## Request Email workflow {#request-email-workflow}
 
 This workflow lets you request an email. It is the same workflow that appears in the **Emails** tile.
 
-1. In your Media or Simple project, select the **+ **sign in the **Workflows** tile and select **Request Email Workflow**.
+1. In your Media or Simple project, select the **+** sign in the **Workflows** tile and select **Request Email Workflow**.
 1. Enter an email title, as well as the campaign and template paths. In addition you can provide a name, description, and live date.
 
    ![](assets/chlimage_1-327.png)
@@ -117,6 +117,6 @@ This workflow lets you request an email. It is the same workflow that appears in
 
    ![](assets/chlimage_1-328.png)
 
-### Create (and Translate) Language Copy Workflow for Assets {#create-and-translate-language-copy-workflow-for-assets}
+## Create (and Translate) Language Copy Workflow for Assets {#create-and-translate-language-copy-workflow-for-assets}
 
 The **Create Language Copy** and the **Create and Translate Language Copy** workflows are covered in detail in [Creating Language Copies for Assets.](../../../assets/using/translation-projects.md)

@@ -23,7 +23,7 @@ For convenience to authoring users, the touch-optimized UI does allow for switch
 >
 >After upgrade, page authoring will not be automatically switched to the touch-optimized UI, but you can configure this using the the [OSGi configuration](../../../sites/deploying/using/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service). See [UI Overrides for the Editor](#uioverridesfortheeditor).
 
-### Configuring the Default UI for Your Instance {#configuring-the-default-ui-for-your-instance}
+## Configuring the Default UI for Your Instance {#configuring-the-default-ui-for-your-instance}
 
 A system administrator can configure the UI that is seen at startup and login by using [Root Mapping](../../../sites/deploying/using/osgi-configuration-settings.md#daycqrootmapping).
 

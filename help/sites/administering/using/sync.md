@@ -59,15 +59,15 @@ The benefits of user sync using Sling distribution, compared to traditional repl
 
 User sync relies on the author environment to manage the user data distributions, even though the user data is not created on author. Much, but not all, of the configuration takes place in the author environment and each step clearly identifies whether it is to be performed on author or publish.
 
-Following are the steps necessary to enable user synchronization, followed by a [Troubleshooting](#troubleshooting) section :
+Following are the steps necessary to enable user synchronization, followed by a [Troubleshooting](#troubleshooting) section:
 
 ### Prerequisites {#prerequisites}
 
-1) If users and user groups have already been created on one publisher, it is recommended to [manually sync](#manually-syncing-users-and-user-groups) the user data to all publishers prior to configuring and enabling user sync.
+1. If users and user groups have already been created on one publisher, it is recommended to [manually sync](#manually-syncing-users-and-user-groups) the user data to all publishers prior to configuring and enabling user sync.
 
-Once user sync is enabled, only newly created users and groups are syncrhonized.
+    Once user sync is enabled, only newly created users and groups are syncrhonized.
 
-2) Ensure the latest code has been installed :
+1. Ensure the latest code has been installed:
 
 * [AEM platform updates](https://helpx.adobe.com/experience-manager/kb/aem62-available-hotfixes.html)
 * [AEM Communities updates](../../../communities/using/deploy-communities.md#latestfeaturepack)
@@ -86,12 +86,11 @@ Once user sync is enabled, only newly created users and groups are syncrhonized.
     * locate `Apache Sling Distribution Agent - Sync Agents Factory`
 
         * select the existing configuration to open for edit (pencil icon)  
-          Verify `name` : **`socialpubsync`**
+          Verify `name`: **`socialpubsync`**
         
         * select the `Enabled` checkbox
         * select `Save`
 
-** **
 
 ![](assets/chlimage_1-387.png)
 

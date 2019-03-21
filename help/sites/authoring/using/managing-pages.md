@@ -107,7 +107,7 @@ The page **Title** and **Name** can be created separately but are related:
 >
 >Also keep in mind that some browsers (e.g. older versions of IE) can only accept URLs up to a certain length, so there is also technical reason to keep page names short.
 
-When creating a new page, AEM will [validate the page name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposesd by AEM and the JCR.
+When creating a new page, AEM will [validate the page name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposed by AEM and the JCR.
 
 The minimum allowed characters are:
 
@@ -115,7 +115,7 @@ The minimum allowed characters are:
 * 'A' through to 'Z'
 * '0' through to '9'
 * _ (underscore)
-* - (hyphen/minus)
+* `-` (hyphen/minus)
 
 Full details of all characters allowed can be found in [the naming conventions](../../../sites/developing/using/naming-conventions.md).
 
@@ -125,7 +125,7 @@ Full details of all characters allowed can be found in [the naming conventions](
 
 #### Title {#title}
 
-If you supply only a page **Title** when creating a new page, AEM will derive the page **Name** from this string and [validate the name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposed by AEM and JCR. A **Title** field containing invalid characters will be accepted, but the name derived will have the invalid characters subsituted. For example:
+If you supply only a page **Title** when creating a new page, AEM will derive the page **Name** from this string and [validate the name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposed by AEM and JCR. A **Title** field containing invalid characters will be accepted, but the name derived will have the invalid characters substituted. For example:
 
 | Title |Derived Name |
 |---|---|

@@ -21,7 +21,7 @@ With scaffolding you can create a form (a scaffold) with fields that reflect the
 >
 >Scaffolding (in the classic UI) [respects MSM inheritance](#scaffolding-with-msm-inheritance).
 
-### How Scaffolding Works {#how-scaffolding-works}
+## How Scaffolding Works {#how-scaffolding-works}
 
 Scaffolds are stored in the **Tools** console of the site admin.
 
@@ -59,7 +59,7 @@ The body of the scaffold is the form. When a user wishes to create a page using 
 
 * **Tags/Keywords**: Metadata to be assigned to this page. This field is always present on every scaffold.
 
-### Creating a Scaffold {#creating-a-scaffold}
+## Creating a Scaffold {#creating-a-scaffold}
 
 To create a new scaffold go to the **Tools** console, then **Default Page Scaffolding** and create a new page. A single page template type will be available, the *Scaffolding Template.*
 
@@ -138,7 +138,7 @@ and the fixed value specified for this property is
 
 ``This specifies that component to be used to render the text content of this paragraph is the *Text Image* component. Using with the `isRichText` boolean specified in the other hidden field, the component can render the actual text string stored at `./jcr:content/par/text/text` in the desired way.
 
-### Scaffolding with MSM Inheritance {#scaffolding-with-msm-inheritance}
+## Scaffolding with MSM Inheritance {#scaffolding-with-msm-inheritance}
 
 In the classic UI, scaffolding is fully integrated with MSM inheritance (when applicable).
 

@@ -23,7 +23,7 @@ The following section covers some issues that you might encounter when using AEM
 >
 >Users who have administrator privileges, and who want to troubleshoot problems with AEM, can use the troubleshooting methods described in [Troubleshooting AEM (for Administrators)](../../../sites/administering/using/troubleshoot.md). If you do not have sufficient privileges, please see your system administrator about troubleshooting AEM.
 
-### Old page version still on published site {#old-page-version-still-on-published-site}
+## Old page version still on published site {#old-page-version-still-on-published-site}
 
 * **Issue**:
 
@@ -44,7 +44,7 @@ The following section covers some issues that you might encounter when using AEM
     
     * Contact your system administrator is there are issues with the replication queues.
 
-### Component Actions not visible on Toolbar {#component-actions-not-visible-on-toolbar}
+## Component Actions not visible on Toolbar {#component-actions-not-visible-on-toolbar}
 
 * **Issue**:
 

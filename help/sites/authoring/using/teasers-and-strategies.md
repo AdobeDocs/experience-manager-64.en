@@ -33,7 +33,7 @@ Teasers within AEM are comprised of several parts:
 * **Teaser paragraphs** are actual instances of your teaser within a content page. These entice a segment of visitors through to content focused on their interests.
 * Pages that hold the campaign content focused on a specific visitor segment. Usually the teaser paragraphs will lead the visitor to such pages.
 
-### Strategies {#strategies}
+## Strategies {#strategies}
 
 When adding a teaser paragraph to a page you need to define the **Strategy**.
 
@@ -275,7 +275,7 @@ After creating your brand and campaign you can create and set up your teaser exp
 
 1. Click **OK** to save.
 
-### Adding Content to your Teaser {#adding-content-to-your-teaser}
+## Adding Content to your Teaser {#adding-content-to-your-teaser}
 
 To add content to your teaser:
 
@@ -292,7 +292,7 @@ To add content to your teaser:
    >
    >Targeting is enabled on a teaser (or indeed any component) **on the page where it is displayed to visitors**, not here in the page used for editing.
 
-### Creating a Touchpoint for your Teaser {#creating-a-touchpoint-for-your-teaser}
+## Creating a Touchpoint for your Teaser {#creating-a-touchpoint-for-your-teaser}
 
 >[!NOTE]
 >
@@ -325,7 +325,7 @@ You do this by strategically placing the teaser paragraph within your content:
 
    ![](assets/chlimage_1-217.png)
 
-### Teaser Overview {#teaser-overview}
+## Teaser Overview {#teaser-overview}
 
 As well as the campaign view in the MCM, the campaign page also gives information about the teasers connected to it:
 

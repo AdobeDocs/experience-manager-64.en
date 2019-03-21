@@ -34,11 +34,11 @@ When administering workflows you can start them using a variety of methods:
 >* [Translation Projects](../../../sites/administering/using/tc-manage.md)
 >
 
-### Workflow Models {#workflow-models}
+## Workflow Models {#workflow-models}
 
 You can start a workflow [based on one of the models](../../../sites/administering/using/workflows.md#workflow-models-and-instances) listed on the Workflow Models console. The only mandatory information is the payload, though a title and/or comment can be added as well.
 
-### Workflows Launchers {#workflows-launchers}
+## Workflows Launchers {#workflows-launchers}
 
 The Workflow Launcher monitors changes in the content repository to launch workflows dependent on the location and resource type of the changed node.
 
@@ -66,7 +66,7 @@ Various definitions are included with the standard installation. These are used 
 
 ![](assets/wf-100.png) 
 
-### Workflow Packages for Batch Processing {#workflow-packages-for-batch-processing}
+## Workflow Packages for Batch Processing {#workflow-packages-for-batch-processing}
 
 Workflow packages are packages that can be passed to a workflow as payload for processing, allowing multiple resources to be processed.
 
@@ -78,7 +78,7 @@ A workflow package:
 * can be used multiple times.
 * can be changed by the user (add or remove resources) while the workflow instance is actually running.
 
-### Starting a Workflow from the Models Console {#starting-a-workflow-from-the-models-console}
+## Starting a Workflow from the Models Console {#starting-a-workflow-from-the-models-console}
 
 1. Navigate to the **Models** console using **Tools**, **Workflow**, then **Models**.
 1. Select the workflow (according to the console view); you can also use Search (top left) if required:
@@ -103,7 +103,7 @@ A workflow package:
 
    ![](assets/wf-104.png)
 
-### Creating a Launcher Configuration {#creating-a-launcher-configuration}
+## Creating a Launcher Configuration {#creating-a-launcher-configuration}
 
 1. Navigate to the **Workflow Launchers** console using **Tools**, **Workflow**, then **Launchers**.
 1. Select **Create**, then **Add Launcher** to open the dialog:
@@ -163,6 +163,6 @@ A workflow package:
 
    Once the appropriate event occurs the launcher will be triggered and the workflow started.
 
-### Managing a Launcher Configuration {#managing-a-launcher-configuration}
+## Managing a Launcher Configuration {#managing-a-launcher-configuration}
 
 After you have created your launcher configuration you can use the same console to select the instance, then **View Properties** (and edit them) or **Delete**.

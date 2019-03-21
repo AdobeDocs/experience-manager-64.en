@@ -301,17 +301,17 @@ The basic properties of the table can be configured, before clicking **OK** to s
 
 ![](assets/cq55_rte_tableproperties_dialog.png)
 
-* **Width  
-  **The total width of the table.  
+* **Width**  
+  The total width of the table.  
 
-* **Height  
-  **The total height of the table.  
+* **Height**  
+  The total height of the table.  
 
-* **Border  
-  **The size of the table border.  
+* **Border**  
+  The size of the table border.  
 
-* **Cell padding  
-  **This defines the white space between the cell content and its borders.  
+* **Cell padding**  
+  This defines the white space between the cell content and its borders.  
 
 * **Cell spacing** 
   This defines the distance between the cells.
@@ -319,8 +319,9 @@ The basic properties of the table can be configured, before clicking **OK** to s
 >[!NOTE]
 >
 >**Width**, **Height** and certain cell properties can be defined in either:  
->- pixels  
->- percentages
+>
+>* pixels  
+>* percentages
 
 >[!CAUTION]
 >

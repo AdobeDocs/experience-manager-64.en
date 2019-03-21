@@ -26,7 +26,7 @@ In particular, you can use Creative Project to streamline the following tasks in
 >
 >See [Project User Roles for information](../../../sites/authoring/using/projects.md#user-roles-in-a-project) on assigning user roles and workflows to certain types of users.
 
-### Exploring Product Photo Shoot workflows  {#exploring-product-photo-shoot-workflows}
+## Exploring Product Photo Shoot workflows  {#exploring-product-photo-shoot-workflows}
 
 Creative Project provides various project templates to meet diverse project requirements. The **Product Photo Shoot Project **template is available out of the box. This template includes photo shoot workflows that let you initiate and manage product photo shoot requests. It also includes a series of tasks that enable you to obtain digital images for products through appropriate review and approval processes.
 
@@ -39,7 +39,7 @@ The template includes the following workflows:
 >
 >The CSV file that is uploaded in the Upload Shot list task of the Product Photo Shoot workflow should have the filename shotlist.csv.
 
-### Create a Product Photo Shoot project {#create-a-product-photo-shoot-project}
+## Create a Product Photo Shoot project {#create-a-product-photo-shoot-project}
 
 1. In the **Projects** console, tap/click **Create** and then choose **Create Project** from the list.
 
@@ -56,7 +56,7 @@ The template includes the following workflows:
 1. Tap/click **Create**. A confirmation message notifies that the project is created.
 1. Tap/click **Done** to return to the **Projects** console. Alternatively, tap/click **Open** to view the assets within the photoshoot project.
 
-### Starting Work in a Product Photo Shoot Project {#starting-work-in-a-product-photo-shoot-project}
+## Starting Work in a Product Photo Shoot Project {#starting-work-in-a-product-photo-shoot-project}
 
 To initiate a photo shoot request, tap or click a project and then tap/click **Add Work** within the project details page to start a workflow.
 
@@ -95,7 +95,7 @@ Both workflows include steps to link products with their approved assets. Each w
 * Starting a project workflow: Explains how to start a Product Photo Shoot
 * Workflow Tasks Details: Provides details of tasks available in the workflow
 
-### Tracking Project Progress {#tracking-project-progress}
+## Tracking Project Progress {#tracking-project-progress}
 
 You can track the progress of a project by monitoring the active/completed tasks within a project.
 
@@ -118,7 +118,7 @@ The Task list provides detailed information around the currently active workflow
 
 ![](assets/chlimage_1-137.png) 
 
-### Workflow Configuration {#workflow-configuration}
+## Workflow Configuration {#workflow-configuration}
 
 This task involves assigning workflow steps to users based on their roles.
 
@@ -150,13 +150,11 @@ To configure the **Product Photo Shoot** workflow:
     * Photo Shoot Review
     * Move to Production
 
-   Perform a similar procedure to configure the tasks in the **Product Photo Shoot (Commerce Integration) workflow**.****
-
-##
+   Perform a similar procedure to configure the tasks in the **Product Photo Shoot (Commerce Integration) workflow**.
 
 This section describes how to integrate product information management with your creative project.
 
-### Starting a Project Workflow {#starting-a-project-workflow}
+## Starting a Project Workflow {#starting-a-project-workflow}
 
 1. Navigate to a Product Photo Shoot project, and tap/click the **Add Work** icon on the **Workflows** card.
 1. Select the **Product Photo Shoot (Commerce Integration)** workflow card to start the Product Photo Shoot (Commerce Integration) workflow. If the product information isn't available under /etc/commerce, select the **Product Photo Shoot** workflow and start the Product Photo Shoot workflow.
@@ -221,7 +219,7 @@ The **Create Shot List **task enables the project owner to select products for w
 
    For the Product Photo Shoot (without commerce integration) workflow, Upload Shot List is the first task. Tap/click **Upload Shot List **to upload a **shotlist.csv **file. The CSV file should contain the product ID. The other fields are optional. You can use them to map assets to products.
 
-#### Upload Shot List Task {#upload-shot-list-task}
+### Upload Shot List Task {#upload-shot-list-task}
 
 This task is part of the Product Photo Shoot workflow. You perform this task if product information isn’t available in AEM. In this case, you upload a list of products in a CSV file for which image assets are required. Based on the details in the CSV file, you map image assets with the products.
 
@@ -253,7 +251,7 @@ A product can belong to a particular category. The product category can be liste
 
 1. Tap/click the **Complete** icon to complete the task.
 
-#### Upload Photo Shoot Task {#upload-photo-shoot-task}
+### Upload Photo Shoot Task {#upload-photo-shoot-task}
 
 If you are an Editor, you can upload shots for the products listed in the **shotlist.csv **file that is created or uploaded in the previous task.
 
@@ -269,7 +267,7 @@ You can either upload the images directly or upload a ZIP file that contains the
 1. Tap/click **Upload Photo Shoot **and upload the photo shoot images.
 1. Tap/click the **Complete** icon from the toolbar to complete the task.
 
-#### Retouch Photo Shoot Task {#retouch-photo-shoot-task}
+### Retouch Photo Shoot Task {#retouch-photo-shoot-task}
 
 If you have editing rights, perform the Retouch Photo Shoot task to edit the images uploaded to the Photo Shoot folder.
 
@@ -288,7 +286,7 @@ If you have editing rights, perform the Retouch Photo Shoot task to edit the ima
 
 1. Tap/click the **Complete** icon from the toolbar to complete the task.
 
-#### Review and Approve Task {#review-and-approve-task}
+### Review and Approve Task {#review-and-approve-task}
 
 In this task, you review the photo shoot images uploaded by a photographer and mark images as approved for use.
 
@@ -323,7 +321,7 @@ Creative Project associates approved assets with the referenced product. The ass
 >
 >In the Product Photo Shoot workflow (without commerce integration), the approved images have no association with products.
 
-#### Move to Production Task {#move-to-production-task}
+### Move to Production Task {#move-to-production-task}
 
 This task moves the approved assets to the production-ready folder to make them available for use.
 
@@ -344,13 +342,13 @@ This task moves the approved assets to the production-ready folder to make them 
 
 1. Tap/click the **Complete** icon from the toolbar. The workflow completes as the last step is marked complete.
 
-### Viewing DAM Asset Metadata {#viewing-dam-asset-metadata}
+## Viewing DAM Asset Metadata {#viewing-dam-asset-metadata}
 
 After you approve, the assets are linked to the corresponding products. The [Properties Page](../../../assets/using/managing-assets-touch-ui.md#editing-properties) of the approved assets now has an additional **Product Data **(linked product information) tab. This tab displays the product details, SKU number, and other product-related details linking the asset. Tap/click the **Edit** icon to update an asset property. The product-related information remains read-only.
 
 Tap/click the link that appears to navigate to the respective product detail page in the product console with which asset is associated.
 
-### Customizing the Project Photo Shoot Workflows {#customizing-the-project-photo-shoot-workflows}
+## Customizing the Project Photo Shoot Workflows {#customizing-the-project-photo-shoot-workflows}
 
 You can customize the Project Photo Shoot workflows based on requirements. This is an optional, role-based task that you perform to set the value of a variable within the project. Later, you can then use the configured value to arrive at a decision.
 

@@ -896,16 +896,13 @@ This component is needed to define the start of a new form on a page. You can co
         * **E-Mail Service: Create Subscriber and add to list**
         * **E-Mail Service: Send auto-responder email**
         * **E-Mail Service: Unsubscribe user from list**
-        * **Edit Community  
-          **
+        * **Edit Community**
         * **Edit Resource(s)** 
-          ** **
         
         * **Edit Workflow Controlled Resource(s)** 
         
         * **Mail**
-        * **Placed Order Details  
-          **
+        * **Placed Order Details**
         * **Profile Update** 
         
         * **Reset Password** 

@@ -58,7 +58,7 @@ When the integration is complete, you can [author targeted content](../../../sit
 >
 >When you target a component in AEM author, the component makes a series of server-side calls to Adobe Target to register the campaign, set up offers, and retrieve Adobe Target segments (if configured). No server-side calls are made from AEM publish to Adobe Target.
 
-### Background Information Sources {#background-information-sources}
+## Background Information Sources {#background-information-sources}
 
 Integrating AEM with Adobe Target requires knowlege of Adobe Target, AEM Activities management, and AEM Audiences management. You should be familiar with the following information:
 

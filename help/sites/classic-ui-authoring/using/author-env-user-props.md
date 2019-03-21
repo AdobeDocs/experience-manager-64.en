@@ -38,7 +38,7 @@ Using the [account settings](#account-settings) and [user preferences](#user-pre
     * Single Window  
       Pages will be opened in the current window.
 
-### Account Settings {#account-settings}
+## Account Settings {#account-settings}
 
 The user icon gives you access to various to the following options:
 
@@ -49,7 +49,7 @@ The user icon gives you access to various to the following options:
 
 ![](assets/chlimage_1-170.png)
 
-### User Preferences {#user-preferences}
+## User Preferences {#user-preferences}
 
 Each user can set certain properties for themselves. This is available from **Preferences** dialog in the top right corner of the consoles.
 

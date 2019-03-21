@@ -18,7 +18,7 @@ Depending on your instance of AEM, you can use a customized version of the DAM F
 
 This section describes possible ways to search for and find digital assets. However, the methods that are available to you depend on the design of your Asset Share page. (See [Creating customized Asset Share and Asset Editor pages](../../../assets/using/assets-finder-editor.md).)
 
-### Finding Assets with Asset Share {#finding-assets-with-asset-share}
+## Finding Assets with Asset Share {#finding-assets-with-asset-share}
 
 To help you manage digital assets, a finder functionality is included that allows you to find a set of assets according to predicates that you define, then perform one of a range of actions on the results. This finder functionality comes in the form of an Asset Share page.
 
@@ -33,11 +33,11 @@ To find assets on the asset share page:
 
 ![](assets/chlimage_1-143.png)
 
-### Downloading Assets {#downloading-assets}
+## Downloading Assets {#downloading-assets}
 
 You can download assets either directly or by using the Lightbox. Depending on how a particular Asset Editor is configured, the Lightbox may not be available. The Lightbox is simply a place to collect assets.
 
-#### Direct Download {#direct-download}
+### Direct Download {#direct-download}
 
 To download assets directly:
 
@@ -46,7 +46,7 @@ To download assets directly:
 
 AEM Assets generates a ZIP file that contains all selected files. Extract the ZIP file on your desktop by double-clicking it. In the extracted folder, you find the selected files.
 
-#### Lightbox Download {#lightbox-download}
+### Lightbox Download {#lightbox-download}
 
 If you want to download multiple assets simultaneously, but they are spread across multiple pages of the search results or you need to run two queries to collect all the assets, use the Lightbox download. The Lightbox lets you save selected assets together in a holding place.
 
