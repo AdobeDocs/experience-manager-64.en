@@ -15,7 +15,7 @@ discoiquuid: a2ae76a8-50b0-4e43-b791-ad3be25b8582
 
  ![](do-not-localize/chlimage_1-9.png) 
 
-### Overview {#overview}
+## Overview {#overview}
 
 The AEM Developer Tools for Eclipse is a Eclipse plugin based on the [Eclipse plugin for Apache Sling](https://sling.apache.org/documentation/development/ide-tooling.html) released under the Apache License 2.
 
@@ -27,7 +27,7 @@ It offers several features that make AEM development easier:
 * Simple bootstrap of AEM projects via a specific Project Creation Wizard.
 * Easy JCR properties edition.
 
-### Requirements {#requirements}
+## Requirements {#requirements}
 
 Before using the AEM Developper Tools, you need to:
 
@@ -40,7 +40,7 @@ Before using the AEM Developper Tools, you need to:
 >
 >On Mac OS X, you need to right click on **Eclipse.app** and then select **Show Package Contents** in order to find your `eclipse.ini`**.**
 
-### How to install the AEM Developer Tools for Eclipse {#how-to-install-the-aem-developer-tools-for-eclipse}
+## How to install the AEM Developer Tools for Eclipse {#how-to-install-the-aem-developer-tools-for-eclipse}
 
 Once you have fulfilled the [requirements](#requirements) above, you can install the plugin as follows:
 
@@ -62,19 +62,19 @@ Once you have fulfilled the [requirements](#requirements) above, you can install
 1. Accept the lincese agreements and click **Finish**.
 1. Click **Yes** in order to restart Eclipse.
 
-### How To Import Existing Projects {#how-to-import-existing-projects}
+## How To Import Existing Projects {#how-to-import-existing-projects}
 
 >[!NOTE]
 >
 >See [How to work with a bundle in eclipse when it was downloaded from AEM](https://stackoverflow.com/questions/29699726/how-to-work-with-a-bundle-in-eclipse-when-it-was-downloaded-from-aem/29705407#29705407).
 
-### The AEM Perspective {#the-aem-perspective}
+## The AEM Perspective {#the-aem-perspective}
 
 The AEM Development Tools for Eclipse ships with a Perspective that offers you full control over your AEM projects and instances.
 
 ![](assets/chlimage_1-2.jpeg) 
 
-### Sample Multi-Module Project {#sample-multi-module-project}
+## Sample Multi-Module Project {#sample-multi-module-project}
 
 The AEM Developer Tools for Eclipse comes with a sample, multi-module project that helps you quickly get up to speed with a project setup in Eclipse, as well as serving as a best-practice guide to several AEM features. [Learn more about the Project Archetype](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype).
 
@@ -116,9 +116,9 @@ Follow these steps to create the sample project:
    >
    >On a fresh installation (more specifically: when maven dependencies have never been downloaded) you might get the project created with errors. In this case please follow the procedure describe in [Resolving Invalid Project Definition](#resolving-invalid-project-definition).
 
-### Troubleshooting {#troubleshooting}
+## Troubleshooting {#troubleshooting}
 
-#### Resolving Invalid Project Definition {#resolving-invalid-project-definition}
+### Resolving Invalid Project Definition {#resolving-invalid-project-definition}
 
 To resolve invalid dependencies and project definition proceed as follows:
 
@@ -127,7 +127,7 @@ To resolve invalid dependencies and project definition proceed as follows:
 1. Check **Force Updates of Snapshot/Releases**.
 1. Click **OK**. Eclipse tries to download the required dependencies.
 
-#### Enabling tag library autocompletion in JSP files {#enabling-tag-library-autocompletion-in-jsp-files}
+### Enabling tag library autocompletion in JSP files {#enabling-tag-library-autocompletion-in-jsp-files}
 
 Tag library autocompletion works out of the box, given that the proper dependencies are added to the project. There is one known issue when using the AEM Uber Jar, which does not include the needed tld and TagExtraInfo files.
 
@@ -144,7 +144,7 @@ To work around it, ensure that the org.apache.sling.scripting.jsp.taglib artifac
 
 Make sure to add the proper version for your deployment of AEM.
 
-### More information {#more-information}
+## More information {#more-information}
 
 The official Apache Sling IDE tooling for Eclipse website provides you with useful information:
 

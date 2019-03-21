@@ -37,7 +37,7 @@ Terms of interest:
 * **ContextHub** 
   Capabilities to aggregate information about the visitor and use it for various purposes. Provides an user interface to simulate persons visiting the site. Starting AEM 6.2, ContextHub replaced the previous technology, Client Context.
 
-### General {#general}
+## General {#general}
 
 Over the last few years Adobe has updated all the Adobe Experience Cloud solutions with an unified user interface. Users across the Experience Cloud solutions enjoy a consistant experience with common patterns on how to use and operate the applications. With every release, Adobe has refined it's user interface based on feedback from customers working across the various solutions.
 
@@ -47,7 +47,7 @@ Adobe recommends customers to plan to switch to the new UI in 2018/19. This can 
 
 Adobe does not plan to make further enhancements to the Classic UI starting AEM 6.4. Note that Classic UI remains fully supported while being deprecated.
 
-### Rules and Recommendations {#rules-and-recommendations}
+## Rules and Recommendations {#rules-and-recommendations}
 
 The following is a list of recommendations from Product Management for Adobe Experience Manager 6.4:
 
@@ -93,21 +93,21 @@ The following is a list of recommendations from Product Management for Adobe Exp
  </tbody> 
 </table>
 
-### FAQ {#faq}
+## FAQ {#faq}
 
 See the Knowledge Base article, [Touch UI Authoring FAQ](https://helpx.adobe.com/experience-manager/kb/index/touchui_faq.html), for details; including any information about the deprecation schedule for the classic UI.
 
-### Selecting Your UI {#selecting-your-ui}
+## Selecting Your UI {#selecting-your-ui}
 
 See [Selecting Your UI](../../../sites/authoring/using/select-ui.md) for information about configuring your system as required.
 
-### Touch-Optimized UI Status {#touch-optimized-ui-status}
+## Touch-Optimized UI Status {#touch-optimized-ui-status}
 
 For details of the enhancements made to the touch-optimized UI in the AEM 6.3 see [What's New](../../../release-notes.md#what-s-new) in the Release Notes.
 
 A complete overview see the [Touch UI Feature Status](../../../release-notes/touch-ui-features-status.md) page
 
-### Resources to Help {#resources-to-help}
+## Resources to Help {#resources-to-help}
 
 For background information on basic handling:
 

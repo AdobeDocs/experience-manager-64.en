@@ -13,7 +13,7 @@ discoiquuid: 99678c1a-81f3-4fb3-bf73-98f0691c3fb6
 
 # Best Practices{#best-practices}
 
-### Best Practices for Developers - Getting Started {#best-practices-for-developers-getting-started}
+## Best Practices for Developers - Getting Started {#best-practices-for-developers-getting-started}
 
 Adobe Engineering and Consulting teams have developed a comprehensive set of best practices for AEM developers. Adobe developer's adhere to these best practices as they develop core AEM product updates and customer code for customer implementations.
 

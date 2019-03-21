@@ -13,7 +13,7 @@ discoiquuid: ca46b74c-6114-458b-98c0-2a93abffcdc3
 
 # Content Architecture{#content-architecture}
 
-### Follow David's Model {#follow-david-s-model}
+## Follow David's Model {#follow-david-s-model}
 
 David’s Model was written by David Nuescheler years ago, but the ideas hold true today. The main tenets of David’s Model are as follows:
 

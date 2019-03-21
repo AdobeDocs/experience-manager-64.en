@@ -29,7 +29,7 @@ To create a standalone session store and add it to Client Context, or create a s
 
 For information about opening Client Context, configuring the information that it displays, and simulating the user experience, see [Client Context](../../../sites/administering/using/client-context.md).
 
-### Session Stores {#session-stores}
+## Session Stores {#session-stores}
 
 The Client Context includes various session stores that contain user data. Store data comes from the following sources:
 
@@ -426,7 +426,7 @@ CQ_Analytics.ClientContextUtils.onStoreRegistered("surferinfo", function(store) 
 
 ## Configuring the Device Slider {#configuring-the-device-slider}
 
-#### Conditions {#conditions}
+### Conditions {#conditions}
 
 The current page must have a corresponding mobile page; this is determined only if page has a LiveCopy configured with a mobile rollout configuration ( `rolloutconfig.path.toLowerCase` contains `mobile`).
 

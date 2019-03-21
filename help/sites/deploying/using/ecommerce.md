@@ -19,7 +19,7 @@ AEM generic eCommerce is available as part of a standard installation and provid
 >
 >The connectors for AEM 6.4 are still under development.
 
-### Deploying Other Implementations {#deploying-other-implementations}
+## Deploying Other Implementations {#deploying-other-implementations}
 
 * [hybris](../../../sites/deploying/using/hybris.md)
 * [Elastic Path](../../../sites/deploying/using/elasticpath.md)

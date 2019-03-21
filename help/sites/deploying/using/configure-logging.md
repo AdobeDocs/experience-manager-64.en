@@ -71,7 +71,7 @@ These elements are linked by the following parameters for the appropriate elemen
   Define the physical file that the log messages will be written to.  
   This must be identical to the same parameter in the Logging Writer configuration, or the match will not be made. If there is no match then an implicit Writer will be created with default configuration (daily log rotation).
 
-#### Standard Loggers and Writers {#standard-loggers-and-writers}
+### Standard Loggers and Writers {#standard-loggers-and-writers}
 
 Certain Loggers and Writers are included in a standard AEM installation.
 
@@ -112,7 +112,7 @@ The other pairs follow the standard configuration:
 
 * Does not link to a specific Writer so will create and use an implicit Writer with default configuration (daily log rotation).
 
-#### Creating Your Own Loggers and Writers {#creating-your-own-loggers-and-writers}
+### Creating Your Own Loggers and Writers {#creating-your-own-loggers-and-writers}
 
 You can define your own Logger / Writer pair:
 

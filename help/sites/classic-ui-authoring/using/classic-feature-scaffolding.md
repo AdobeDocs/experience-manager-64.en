@@ -147,7 +147,7 @@ When you open a page in **Scaffolding** mode (using the icon at the bottom of si
 * a lock symbol (for most components; e.g. Text and Title)  
 * a mask with the text **Click to cancel inheritance** (for Image components)
 
-These show that the component cannot be edited - until inheritance is cancelled.
+These show that the component cannot be edited - until inheritance is canceled.
 
 ![](assets/chlimage_1.jpeg)
 
@@ -166,5 +166,5 @@ After unlocking you can restore inheritance by clicking on the unlocked padlock 
 
 >[!NOTE]
 >
->If the inheritance is cancelled at the page level (from the Livecopy tab of Page Properties) then all components will be editable in **Scaffolding** mode (they will be shown in unlocked state).
+>If the inheritance is canceled at the page level (from the Livecopy tab of Page Properties) then all components will be editable in **Scaffolding** mode (they will be shown in unlocked state).
 

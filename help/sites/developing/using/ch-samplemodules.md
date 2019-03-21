@@ -35,7 +35,7 @@ The following features are available:
 
 The source code is located at /libs/granite/contexthub/code/ui/container/js/ContextHub.UI.BaseModuleRenderer.js.
 
-#### Configuration {#configuration}
+### Configuration {#configuration}
 
 Configure the contexthub.base UI module using a Javascript object in JSON format. Include any of the following properties to configure the UI module features:
 
@@ -88,7 +88,7 @@ The contexthub.browserinfo UI module displays information about the client web b
 
 The source code for the UI module is located at /libs/granite/contexthub/components/modules/browserinfo. Although contexthub.browserinfo extends the contexthub.base UI module, it does not override or provide additional functions. The implementation provides a default configuration for rendering browser information.
 
-#### Configuration {#configuration-1}
+### Configuration {#configuration-1}
 
 Instances of the contexthub.browserinfo UI module do not require a value for the Detail Configuration. The following JSON text represents the default configuration of the module.
 
@@ -111,7 +111,7 @@ The module provides a popover form that enables you to change the date and time 
 
 The source of the contexthub.datetime UI module is located at /libs/granite/contexthub/components/modules/datetime.
 
-#### Configuration {#configuration-2}
+### Configuration {#configuration-2}
 
 Instances of the contexthub.datetime UI module do not require a value for the Detail Configuration. The following JSON text represents the default configuration of the module.
 
@@ -134,7 +134,7 @@ The contexthub.device UI Module displays the name of the client device. The modu
 
 The source code for the module is located at /etc/cloudsettings/default/contexthub/emulators.
 
-#### Configuration {#configuration-3}
+### Configuration {#configuration-3}
 
 Instances of the contexthub.datetime UI module do not require a value for the Detail Configuration. The following JSON text represents the default configuration of the module. Note that the `clickable` property is false by default. If you override the default configuration to set clickable to `true`, clicking the module reveals a popup where you can select the current device.
 
@@ -157,7 +157,7 @@ The contexthub.location UI module displays the longitude and latitude of the cli
 
 The source of the UI module is located at /etc/cloudsettings/default/contexthub/geolocation.
 
-#### Configuration {#configuration-4}
+### Configuration {#configuration-4}
 
 Instances of the contexthub.location UI module do not require a value for the Detail Configuration. The following JSON text represents the default configuration of the module.
 
@@ -200,7 +200,7 @@ The contexthub.screen-orientation UI module displays the current screen orientat
 
 The source of the UI module is located at /libs/granite/contexthub/components/modules/screen-orientation.
 
-#### Configuration {#configuration-5}
+### Configuration {#configuration-5}
 
 Instances of the contexthub.screen-orientation UI module do not require a value for the Detail Configuration. The following JSON text represents the default configuration of the module. Note that the `clickable` property is `false` by default. If you override the default configuration to set `clickable` to `true`, clicking the module reveals a popup where you can select the orientation.
 
@@ -224,7 +224,7 @@ The contexthub.tagcloud UI module displays information about tags. On the toolba
 
 The source of the UI module is located at /libs/granite/contexthub/components/modules/tagcloud.
 
-#### Configuration {#configuration-6}
+### Configuration {#configuration-6}
 
 Instances of the contexthub.tagcloud UI module do not require a value for the Detail Configuration. The following JSON text represents the default configuration of the module.
 
@@ -248,7 +248,7 @@ The granite.profile ContextHub UI module displays the display name of the curren
 
 The source of the UI module is at /libs/granite/contexthub/components/modules/profile.
 
-#### Configuration {#configuration-7}
+### Configuration {#configuration-7}
 
 Instances of the grantie.profile UI module do not require a value for the Detail Configuration. The following JSON text represents the default configuration of the module.
 

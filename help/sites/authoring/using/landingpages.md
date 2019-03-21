@@ -76,7 +76,7 @@ To make parts of the HTML that gets imported editable within AEM, you can map co
 
 In addition, it is possible to extend this and support custom components. This section describes the components in detail.
 
-#### Text {#text}
+### Text {#text}
 
 The Text component lets you enter a text block using a WYSIWYG editor. See [Text component](../../../sites/authoring/using/default-components.md#text) for more information.
 
@@ -84,7 +84,7 @@ The following is an example of a text component on a landing page:
 
 ![](assets/chlimage_1-330.png) 
 
-#### Title {#title}
+### Title {#title}
 
 The title component lets you display a title and configure the size (h1-6). See [Title component](../../../sites/authoring/using/default-components.md#title) for more information.
 
@@ -92,7 +92,7 @@ The following is an example of a title component on a landing page:
 
 ![](assets/chlimage_1-331.png) 
 
-#### Image {#image}
+### Image {#image}
 
 The image component displays an image that you can either drag and drop from the Content Finder or click to upload. See [image component](../../../sites/authoring/using/default-components.md) for more information.
 

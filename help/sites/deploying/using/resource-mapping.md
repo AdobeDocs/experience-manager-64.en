@@ -38,7 +38,7 @@ as the mapping will automatically add the prefix `/content` to `/geometrixx/en/p
 >
 >See the Sling documentation, and [Mappings for Resource Resolution](http://sling.apache.org/site/resources.html) and [Resources](http://sling.apache.org/site/mappings-for-resource-resolution.html) for further information.
 
-### Viewing Mapping Definitions {#viewing-mapping-definitions}
+## Viewing Mapping Definitions {#viewing-mapping-definitions}
 
 The mappings form two lists that the JCR Resource Resolver evaluates (top-down) to find a match.
 
@@ -82,7 +82,7 @@ New mapping definitions are created within the repository.
 >
 >There are many resources available that help explain how to define regular expressions; for example [http://www.regular-expressions.info/](http://www.regular-expressions.info/).
 
-### Creating Mapping Definitions in AEM {#creating-mapping-definitions-in-aem}
+## Creating Mapping Definitions in AEM {#creating-mapping-definitions-in-aem}
 
 In a standard installation of AEM you can find the folder:
 
@@ -90,7 +90,7 @@ In a standard installation of AEM you can find the folder:
 
 This is the structure used when defining mappings for the HTTP protocol. Other folders ( `sling:Folder`) can be created under `/etc/map` for any other protocols that you want to map.
 
-#### Configuring an Internal Redirect to /content {#configuring-an-internal-redirect-to-content}
+### Configuring an Internal Redirect to /content {#configuring-an-internal-redirect-to-content}
 
 To create the mapping that prefixes any request to http://localhost:4503/ with `/content`:
 

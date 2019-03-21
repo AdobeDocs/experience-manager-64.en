@@ -21,7 +21,7 @@ The framework makes use of tokens to guarantee that the client request is legiti
 >
 >There are no tokens on the publish instances for anonymous users.
 
-### Requirements {#requirements}
+## Requirements {#requirements}
 
 **Dependencies**
 

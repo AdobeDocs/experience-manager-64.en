@@ -15,7 +15,7 @@ discoiquuid: 5542de4e-6262-4300-9cf8-0eac79ba4f9a
 
 This section includes detailed information on logs available to help you troubleshoot and also includes information on some of the problems you might encounter with AEM.
 
-### Troubleshoot Author Performance {#troubleshoot-author-performance}
+## Troubleshoot Author Performance {#troubleshoot-author-performance}
 
 Analyzing slow performance on Authoring instance can become quite complex. As first step it is required to figure out on which level of the technology stack the performance is decreasing.
 
@@ -23,25 +23,25 @@ The following decision tree provides guidenance to narrow down the bottleneck.
 
 ![](assets/chlimage_1-75.png) 
 
-#### Basic Optimization {#basic-optimization}
+### Basic Optimization {#basic-optimization}
 
 ![](assets/chlimage_1-76.png) 
 
-### Configuring log files and audit logs {#configuring-log-files-and-audit-logs}
+## Configuring log files and audit logs {#configuring-log-files-and-audit-logs}
 
 AEM records detailed logs that you might want to configure in order to troubleshoot installation issues. For information, see the [Working with Audit Records and Log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) section.
 
-### Using the Verbose Option {#using-the-verbose-option}
+## Using the Verbose Option {#using-the-verbose-option}
 
 When you start AEM WCM, you can add the -v (verbose) option to the command line as in: java -jar cq-wcm-quickstart-&lt;version&gt;.jar -v.
 
 The verbose option displays some of the Quickstart log output on the console, so it can be used for troubleshooting.
 
-### Common Installation Issues {#common-installation-issues}
+## Common Installation Issues {#common-installation-issues}
 
 The following section describes some installation issues and their solutions.
 
-#### Double-clicking the Quickstart jar does not have any effect or opens the jar file with another program (for example, archive manager) {#double-clicking-the-quickstart-jar-does-not-have-any-effect-or-opens-the-jar-file-with-another-program-for-example-archive-manager}
+### Double-clicking the Quickstart jar does not have any effect or opens the jar file with another program (for example, archive manager) {#double-clicking-the-quickstart-jar-does-not-have-any-effect-or-opens-the-jar-file-with-another-program-for-example-archive-manager}
 
 This usually indicates a problem with the way your operating system's desktop environment is configured to open files with extension .jar. It may also indicate that you do not have Java installed, or that you are using an unsupported version of Java.
 
@@ -58,7 +58,7 @@ To troubleshoot, do the following:
 * Sometimes reinstalling the supported Java version helps restore the correct association.
 * You can always run CRX using the command line or start/stop scripts as described earlier in this document.
 
-#### My application running on CRX throws out-of-memory errors {#my-application-running-on-crx-throws-out-of-memory-errors}
+### My application running on CRX throws out-of-memory errors {#my-application-running-on-crx-throws-out-of-memory-errors}
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ java -Xmx256m -XX:+HeapDumpOnOutOfMemoryError -jar &#42;.jar
 
 This generates a heap dump file (**java_...hprof**) whenever the process runs out of memory. The process may continue to run after the heap dump was generated. Usually, one heap dump file is enough to analyze the problem.
 
-#### The AEM Welcome screen does not display in the browser after double-clicking AEM Quickstart {#the-aem-welcome-screen-does-not-display-in-the-browser-after-double-clicking-aem-quickstart}
+### The AEM Welcome screen does not display in the browser after double-clicking AEM Quickstart {#the-aem-welcome-screen-does-not-display-in-the-browser-after-double-clicking-aem-quickstart}
 
 In certain situations, the AEM WCM Welcome screens does not automatically display even though the repository itself is successfully running. This may depend on operating system setup, browser configuration, or similar factors.
 
@@ -92,9 +92,9 @@ Sometimes, the AEM WCM Quickstart window has the message "AEM WCM running on htt
 
 If everything else fails, check the logs to find out what has happened.
 
-### Troubleshooting Installations with an Application Server {#troubleshooting-installations-with-an-application-server}
+## Troubleshooting Installations with an Application Server {#troubleshooting-installations-with-an-application-server}
 
-#### Page Not Found returned when requesting a geometrixx-outdoor page {#page-not-found-returned-when-requesting-a-geometrixx-outdoor-page}
+### Page Not Found returned when requesting a geometrixx-outdoor page {#page-not-found-returned-when-requesting-a-geometrixx-outdoor-page}
 
 **Applies to WebLogic 10.3.5 and JBoss 5.1**
 
@@ -102,13 +102,13 @@ If everything else fails, check the logs to find out what has happened.
 
 See in the *Deploy AEM web application* steps for the details.
 
-#### Response header size can be greater than 4Kb {#response-header-size-can-be-greater-than-kb}
+### Response header size can be greater than 4Kb {#response-header-size-can-be-greater-than-kb}
 
 502 errors can indicate that the web server cannot handle the size of the AEM HTTP response header. AEM can generate HTTP response headers that include include cookies of size greater than 4Kb. Ensure that your servlet container is configured so that the maximum response header size can exceed 4kb.
 
 For example, for Tomcat 7.0, the maxHttpHeaderSize attribute of the [HTTP Connector](http://tomcat.apache.org/tomcat-7.0-doc/config/http.html) controls limitations on header size.
 
-### Uninstalling Adobe Experience Manager {#uninstalling-adobe-experience-manager}
+## Uninstalling Adobe Experience Manager {#uninstalling-adobe-experience-manager}
 
 Because AEM installs into a single directory, there is no need for an uninstall utility. Uninstalling can be as simple as deleting the entire installation directory, although how you uninstall AEM depends on what you want to achieve and what persistent storage you use.
 
@@ -120,7 +120,7 @@ If persistent storage is embedded in the installation directory, for example, in
 
 If your installation of AEM uses external storage, for example, a database server, removing folder does not remove the data automatically, but it does remove the storage configuration, which makes restoring the JCR content difficult.
 
-#### JSP files are not compiled on JBoss {#jsp-files-are-not-compiled-on-jboss}
+### JSP files are not compiled on JBoss {#jsp-files-are-not-compiled-on-jboss}
 
 If you install or update JSP files to Experience Manager on JBoss and the corresponding servlets are not compiled, ensure the JBoss JSP compiler is correclty configured. For information, see the   
 [JSP Compilation Issues in JBoss](https://helpx.adobe.com/experience-manager/kb/jsps-dont-compile-jboss.html) article.

@@ -22,7 +22,7 @@ This catalog is available under the English (US) branch ( `/content/geometrixx-o
 >
 >This page contains links to the [Elastic Path website](http://www.elasticpath.com/). Certain areas need an account for full access.
 
-### Installation of eCommerce with Elastic Path {#installation-of-ecommerce-with-elastic-path}
+## Installation of eCommerce with Elastic Path {#installation-of-ecommerce-with-elastic-path}
 
 To install AEM with an Elastic Path integration configuration (using the demonstration catalog, Geometrixx Outdoors), the basic steps are:
 

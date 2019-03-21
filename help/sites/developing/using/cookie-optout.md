@@ -20,7 +20,7 @@ CQ provides a service that enables you to configure and control how cookies are 
 
 Use this feature to make sure that your pages comply with your users' consent regarding cookie usage.
 
-### Configuring Allowed Cookies {#configuring-allowed-cookies}
+## Configuring Allowed Cookies {#configuring-allowed-cookies}
 
 Configure the Adobe Granite Opt-Out Service to specify how cookies are used on your web pages. The following table describes the properties that you can configure.
 
@@ -32,7 +32,7 @@ To configure the service, you can use the [Web Console](../../../sites/deploying
 | Opt-Out HTTP Headers |optout.headers |The names of HTTP headers that indicate, when present, that the user has not consented to using cookies. |
 | White-List Cookies |optout.whitelist.cookies |A list of cookies that are essential to the functioning of the web site, and can be used without a user's consent. |
 
-### Validating Cookie Usage {#validating-cookie-usage}
+## Validating Cookie Usage {#validating-cookie-usage}
 
 Use client-side javascript to call Adobe Granite Opt-Out Service to verify that you can use a cookie. Use the Granite.OptOutUtil javascript object to perform any of the following tasks:
 
@@ -58,11 +58,11 @@ function writeCookie(value){
 }
 ```
 
-### The Granite.OptOutUtil Javascript Object {#the-granite-optoututil-javascript-object}
+## The Granite.OptOutUtil Javascript Object {#the-granite-optoututil-javascript-object}
 
 Granite.OptOutUtil enables you to determine whether cookie usage is allowed.
 
-#### getCookieNames() function {#getcookienames-function}
+### getCookieNames() function {#getcookienames-function}
 
 Returns the names of the cookies that, when present, indicate that the user has not given consent to the use of cookies.
 
@@ -98,7 +98,7 @@ None.
 
 A boolean value of `true` if a cookie is found that indicates no consent, and a value of `false` if no cookies indicate non-consent.
 
-#### maySetCookie(cookieName) function {#maysetcookie-cookiename-function}
+### maySetCookie(cookieName) function {#maysetcookie-cookiename-function}
 
 Determines whether a specific cookie can be used on the user's browser. This function is equivalent to using the `isOptedOut` function in conjunction with determining whether the given cookie is included in the list that the `getWhitelsitCookieNames` function returns.
 

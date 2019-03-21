@@ -21,27 +21,25 @@ The ContextHub Diagnostics page provides information about the stores and UI mod
 >
 >In order for diagnostic information to be returned, debug mode must be enabled, otherwise the diagnostics page will be blank. Please see [this document](../../../sites/administering/using/contexthub-config.md#debugging-contexthub) for details on how to enable debug mode.
 
-### Stores {#stores}
+## Stores {#stores}
 
 The Stores section lists all the ContextHub stores that have been configured. Each item in the list consists of the following information:
 
-* **Title: **The [store type](../../../sites/developing/using/ch-samplestores.md) that the store is based on.
-
+* **Title:** The [store type](../../../sites/developing/using/ch-samplestores.md) that the store is based on.
 * **path:** The path to the repository node that holds the configuration.
 * **resourceType:** The path of the repository node where the store type is defined.
 * **clientlibs:** The categories of the client libraries that are loaded which implement the store type.
 
-### Modules {#modules}
+## Modules {#modules}
 
 The Modules section lists all the ContextHub UI modules that have been configured. Each item in the list consists of the following information:
 
 * **Title:** The [UI Module type](../../../sites/developing/using/ch-samplemodules.md) that the UI module is based on.
-
 * **path:** The path to the repository node that holds the configuration.
 * **resourceType:** The path of the repository node where the UI module type is defined.
 * **clientlibs:** The categories of the client libraries that are loaded which implement the UI module type.
 
-### Clientlibs {#clientlibs}
+## Clientlibs {#clientlibs}
 
 The Clientlibs section lists all of the client library folders that ContextHub has loaded. The client libraries are categorized:
 
@@ -49,7 +47,7 @@ The Clientlibs section lists all of the client library folders that ContextHub h
 * **ui.js:** Client libraries that implement the ContextHub UI and UI module types.
 * **style.css:** CSS files that are loaded from client libraries.
 
-### URLs {#urls}
+## URLs {#urls}
 
 The URLs section contains links to ContextHub features:
 

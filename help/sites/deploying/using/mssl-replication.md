@@ -38,7 +38,7 @@ You require a private key and public certificate for the author and publish inst
 * Certificates must be contained in pkcs#12 or JKS format. Additionally certificate contained in "CER" format can also be added to Granite Truststore.
 * Certificates can be self-signed or signed by a recognized CA.
 
-#### JKS Format {#jks-format}
+### JKS Format {#jks-format}
 
 Generate a private key and a certificate in JKS format. The private key is stored in a KeyStore file, and the certificate is stored in a TrustStore file. Use [Java `keytool`](http://docs.oracle.com/javase/7/docs/technotes/tools/solaris/keytool.html) to create both.
 
@@ -77,7 +77,7 @@ Use the following procedure to create a private key and a self-signed certificat
    | -file |author.cer |publish.cer |
    | -keystore |author.keystore |publish.keystore |
 
-#### pkcs#12 Format {#pkcs-format}
+### pkcs#12 Format {#pkcs-format}
 
 Generate a private key and a certificate in pkcs#12 format. Use [openSSL](https://www.openssl.org/) to generate them. Use the following procedure to generate a private key and a certificate request. To obtain the certificate, either sign the request with your private key (self-signed certificate) or send the request to a CA. Then, generate the pkcs#12 archive that contains the private key and the certificate.
 
@@ -138,7 +138,7 @@ Install the following items on the author instance:
 
 To perform the following procedure, you must be logged in as an adminstrator of the author instance.  
 
-#### Install the Author Private Key {#install-the-author-private-key}
+### Install the Author Private Key {#install-the-author-private-key}
 
 1. Open the User Management page for the author instance. ([http://localhost:4502/libs/granite/security/content/useradmin.html](http://localhost:4502/libs/granite/security/content/useradmin.html))
 1. To open the properties of your user account, click or tap your user name. 
@@ -157,7 +157,7 @@ To perform the following procedure, you must be logged in as an adminstrator of 
 
    ![](assets/chlimage_1-67.png)
 
-#### Install the Publish Certificate {#install-the-publish-certificate}
+### Install the Publish Certificate {#install-the-publish-certificate}
 
 1. Open the User Management page for the author instance. ([http://localhost:4502/libs/granite/security/content/useradmin.html](http://localhost:4502/libs/granite/security/content/useradmin.html))
 1. To open the properties of your user account, click or tap your user name. 
@@ -181,7 +181,7 @@ Install the following items on the publish instance:
 
 To perform the following procedure, you must be logged in as an adminstrator of the publish instance.  
 
-#### Install the Publish Private Key {#install-the-publish-private-key}
+### Install the Publish Private Key {#install-the-publish-private-key}
 
 1. Open the User Management page for the publish instance. ([http://localhost:4503/libs/granite/security/content/useradmin.html](http://localhost:4503/libs/granite/security/content/useradmin.html))
 1. To open the properties of your user account, click or tap your user name. 
@@ -192,7 +192,7 @@ To perform the following procedure, you must be logged in as an adminstrator of 
 1. Enter an alias and the password for the key store. Enter the alias and password for the private key, then click Submit.
 1. Close the KeyStore Management dialog box.
 
-#### Install the Author Certificate {#install-the-author-certificate}
+### Install the Author Certificate {#install-the-author-certificate}
 
 1. Open the User Management page for the publish instance. ([http://localhost:4503/libs/granite/security/content/useradmin.html](http://localhost:4503/libs/granite/security/content/useradmin.html))
 1. Locate the user account that you use to execute replication requests, and click or tap the user name. 
