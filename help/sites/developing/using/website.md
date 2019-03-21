@@ -51,7 +51,7 @@ Website content package
 
 [Get File](assets/website-1_0.zip)
 
-### Installing Adobe Experience Manager {#installing-adobe-experience-manager}
+## Installing Adobe Experience Manager {#installing-adobe-experience-manager}
 
 To install an AEM instance for developing your website, follow the instructions for setting up a [deployment environment with author and publish instances](../../../sites/deploying/using/deploy.md#author-and-publish-installs), or perform a [generic installation](../../../sites/deploying/using/deploy.md#default-local-install). The generic installation involves downloading the AEM Quickstart JAR file, placing the license.properties file in the same directory as the JAR file, and double-clicking the JAR file.
 
@@ -63,7 +63,7 @@ After you have installed AEM, access the CRXDE Lite development environment by c
 >
 >The URL of CRXDE Lite for an AEM authoring instance that is installed locally using the default port is [http://localhost:4502/crx/de/](http://localhost:4502/crx/de/).
 
-### Setting up the project structure in CRXDE Lite {#setting-up-the-project-structure-in-crxde-lite}
+## Setting up the project structure in CRXDE Lite {#setting-up-the-project-structure-in-crxde-lite}
 
 Use CRXDE Lite to create the mywebsite application structure in the repository:
 
@@ -77,7 +77,7 @@ Use CRXDE Lite to create the mywebsite application structure in the repository:
 
 1. Click **Save All**.
 
-### Setting up the Design {#setting-up-the-design}
+## Setting up the Design {#setting-up-the-design}
 
 In this section, you create the design for your application using the Designer tool. The design provides CSS and image resources for your web site.
 
@@ -101,7 +101,7 @@ Sample static.css file and images
 
    ![](assets/chlimage_1-103.png)
 
-### Creating the Contentpage Template, Component and Script {#creating-the-contentpage-template-component-and-script}
+## Creating the Contentpage Template, Component and Script {#creating-the-contentpage-template-component-and-script}
 
 In this section, you create the following:
 
@@ -109,7 +109,7 @@ In this section, you create the following:
 * The contentpage component that will be used to render pages of content
 * The contentpage script
 
-#### Creating the Contentpage Template {#creating-the-contentpage-template}
+### Creating the Contentpage Template {#creating-the-contentpage-template}
 
 Create a template to use as the basis of the web pages of your site.
 

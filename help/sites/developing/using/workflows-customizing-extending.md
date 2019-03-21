@@ -22,7 +22,7 @@ Creating a custom workflow step involves the following activities:
 
 You can also [interact with your workflows from your programs and scripts](../../../sites/developing/using/workflows-program-interaction.md).
 
-### Workflow Step Components - The Basics {#workflow-step-components-the-basics}
+## Workflow Step Components - The Basics {#workflow-step-components-the-basics}
 
 A workflow step component defines the appearance and behavior of the step when creating workflow models:
 
@@ -786,7 +786,7 @@ An easy way to start creating your own custom step is to copy an existing step f
 
 `/libs/cq/workflow/components/model`
 
-#### Creating the Basic Step {#creating-the-basic-step}
+### Creating the Basic Step {#creating-the-basic-step}
 
 1. Recreate the path under /apps; for example:
 

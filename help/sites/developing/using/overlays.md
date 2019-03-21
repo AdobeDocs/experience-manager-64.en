@@ -65,7 +65,7 @@ Overlays are the recommended method for many changes, such as [configuring your 
 
 * They concentrate your changes in one location; making it easier for you to track, migrate, backup and/or debug your changes as necessary.
 
-### Configuring the Search Paths {#configuring-the-search-paths}
+## Configuring the Search Paths {#configuring-the-search-paths}
 
 For overlays the resource delivered is an aggregate of the resources and properties retrieved, depending on search paths that can be defined:
 
@@ -88,7 +88,7 @@ For overlays the resource delivered is an aggregate of the resources and propert
 *PID = org.apache.sling.servlets.resolver.SlingServletResolver  
 servletresolver.paths=["/bin/","/libs/","/apps/","/etc/","/system/","/index.servlet","/login.servlet","/services/"]*
 
-### Example of Usage {#example-of-usage}
+## Example of Usage {#example-of-usage}
 
 Some examples are covered when:
 

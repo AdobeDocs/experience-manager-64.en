@@ -22,7 +22,7 @@ AEM provides several tools that enable you to develop sites for mobile devices a
 
 This page should be read in conjunction with the [Mobile page for authors](../../../sites/authoring/using/mobile.md).
 
-#### Developing Web Sites for Mobile {#developing-web-sites-for-mobile}
+## Developing Web Sites for Mobile {#developing-web-sites-for-mobile}
 
 Develop page templates and components that are optimized for viewing using mobile devices. Develop pages that use a responsive layout that adjusts to multiple screen sizes, or develop pages that are optimized for a specific screen size. Use the device emulators that AEM provides or create your own emulators for WSYWIG authoring and previewing:
 
@@ -31,6 +31,6 @@ Develop page templates and components that are optimized for viewing using mobil
 * [Creating Sites for Mobile Devices](../../../sites/developing/using/mobile.md)
 * [Emulators](../../../sites/developing/using/emulators.md)
 
-#### Developing Mobile Apps {#developing-mobile-apps}
+## Developing Mobile Apps {#developing-mobile-apps}
 
 Develop mobile applications that use AEM pages as the application interface. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. Content Sync enables you to create versioned archives of pages for bundling with apps. To learn more about Content Sync, click [here](../../../mobile/using/phonegap-contentsync.md).

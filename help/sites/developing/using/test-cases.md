@@ -33,7 +33,7 @@ The tests should clearly define:
 
 The prospect of automating test cases is obviously attractive as it can eliminate repetitive tasks.
 
-#### Manual versus Automated Tests {#manual-versus-automated-tests}
+## Manual versus Automated Tests {#manual-versus-automated-tests}
 
 However, automating test cases is a significant investment, so certain aspects should be considered:
 
@@ -42,7 +42,7 @@ However, automating test cases is a significant investment, so certain aspects s
 * Only really feasible for big projects.
 * Good when multiple releases are being generated either for testing or in the long term release plan.
 
-#### Testing specific aspects of CQ5 {#testing-specific-aspects-of-cq}
+## Testing specific aspects of CQ5 {#testing-specific-aspects-of-cq}
 
 When testing CQ5 a few specific details are of particular interest:
 
@@ -97,7 +97,7 @@ Testing is difficult (caching occurs at various levels and in various locations)
 
 When used for a customer project the cluster must be tested to confirm correct operation of the configuration.
 
-#### Testing third-party software {#testing-third-party-software}
+## Testing third-party software {#testing-third-party-software}
 
 Any third-party software interfaced to CQ5 will be referenced in the Detailed Requirement Specifications.
 

@@ -630,7 +630,7 @@ l**ogName resourceResolverName**
 
 The [JavaServer Pages Standard Tag Library](http://www.oracle.com/technetwork/java/index-jsp-135995.html) contains a lot of useful and standard tags. The core, formatting and functions taglibs are defined by the `/libs/foundation/global.jsp` as shown in the following snippet.
 
-#### Extract of /libs/foundation/global.jsp {#extract-of-libs-foundation-global-jsp}
+### Extract of /libs/foundation/global.jsp {#extract-of-libs-foundation-global-jsp}
 
 ```xml
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
