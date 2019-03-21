@@ -36,7 +36,7 @@ For the full documentation on creating, managing, using and developing content f
 >
 >Experience Fragments can contain content in the form of Content Fragments, but not the other way around. [](../../../sites/authoring/using/experience-fragments.md)
 
-### Where to Find Content Fragments in We.Retail {#where-to-find-content-fragments-in-we-retail}
+## Where to Find Content Fragments in We.Retail {#where-to-find-content-fragments-in-we-retail}
 
 There are several sample content fragments in We.Retail; navigate via **Assets**, **Files**, **We.Retail**, **English**, **Experiences**.
 

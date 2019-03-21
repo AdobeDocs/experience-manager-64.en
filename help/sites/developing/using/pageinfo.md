@@ -549,7 +549,7 @@ Create a custom Page Information Provider service to add page metadata that your
 
 For resources that use your application page component as the `sling:resourceType`, the PageInfo servlet returns the custom PageInfoProvider metadata in addition to the default PageInfoProvider metadata.
 
-#### Example PageInfoProvider implementation {#example-pageinfoprovider-implementation}
+### Example PageInfoProvider implementation {#example-pageinfoprovider-implementation}
 
 The following Java class implements [PageInfoProvider](/sites/developing/using/reference-materials/javadoc/index.md) and returns the published URL of the current page resource.
 
