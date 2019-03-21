@@ -40,11 +40,11 @@ The following procedure uses the touch-optimized UI to create a Microsoft Transl
 
 The following Microsoft Translator cloud service configurations are installed with the Geometrixx samples. Some sample configurations use a trial Microsoft Translation account that allows for a maximum of 2 000 000 free translated characters per month.
 
-#### Microsoft Translator Trial License {#microsoft-translator-trial-license}
+### Microsoft Translator Trial License {#microsoft-translator-trial-license}
 
 The Microsoft Translator Trial License configuration is a sample configuration that is installed with the Geometrixx Outdoors sample package. This configuration uses a Microsoft Translator account that has a free subscription that allows for 2 000 000 translated characters per month.
 
-#### Microsoft Translator Trial License - Geometrixx-outdoors {#microsoft-translator-trial-license-geometrixx-outdoors}
+### Microsoft Translator Trial License - Geometrixx-outdoors {#microsoft-translator-trial-license-geometrixx-outdoors}
 
 The Microsoft Translator Trial License - Geometrixx-outdoors configuration is a sample configuration that is installed with Geometrixx Outdoors. This configuration uses the same free Microsoft Translator account as the Microsoft Translator Trial License configuration. The account has a free subscription that allows for 2 000 000 translated characters per month.
 

@@ -45,7 +45,7 @@ On the author environment the functionality of AEM is made available through two
 >
 >Together with the Dispatcher it is also used for publishing.
 
-#### Author Environment {#author-environment}
+### Author Environment {#author-environment}
 
 The author works in what is known as the ** [author environment](../../../sites/authoring/using/author-environment.md)**. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.
 
@@ -73,7 +73,7 @@ Additionally, there are administrative tasks that help you manage your content:
 >
 >AEM is also [administered](/sites/administering/user-guide.md) (for a majority of tasks) from the author environment.
 
-#### Publish Environment {#publish-environment}
+### Publish Environment {#publish-environment}
 
 When ready, the AEM site's content is published to the **publish environment**. Here the website's pages are made available to the intended audience in accordance with the look-and-feel of the designed interface.
 
@@ -95,6 +95,6 @@ When the AEM site is a [community site](../../../communities/using/overview.md),
 >  These are the technical terms used to indicate the movement of data (e.g. page content, files, code, user comments) from one environment to another; i.e. when publishing, or reverse-replicating user comments.
 >
 
-#### Dispatcher {#dispatcher}
+### Dispatcher {#dispatcher}
 
 To optimize performance for visitors to your website, the ** [dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html)** implements load balancing and caching.

@@ -33,7 +33,7 @@ In Projects, you can create a project, associate resources with your project, an
 >
 >For users in projects to see other users/groups while using Projects functionality like creating projects, creating tasks/workflows, seeing and managing the team, those users need to have read access on **/home/users** and **/home/groups**. The easiest way to implement this is to give the **projects-users** group read access to **/home/users** and **/home/groups**.
 
-### Creating a Project {#creating-a-project}
+## Creating a Project {#creating-a-project}
 
 Out of the box, AEM provides these templates to choose from when you create a project:
 
@@ -118,7 +118,7 @@ To open a tile so that you can view or modify items:
 
    ![](assets/chlimage_1-262.png)
 
-### Viewing Project Statistics {#viewing-project-statistics}
+## Viewing Project Statistics {#viewing-project-statistics}
 
 To view project statistics, in the **Projects** console, click **Show Statistics View**. The level of completion for each project displays. Click **Show Statistics View** again to go to the **Projects** console.
 
@@ -140,7 +140,7 @@ If the icon has an x next to, it is displaying the inactive projects.
 
 ![](assets/chlimage_1-266.png) 
 
-### Making Projects Inactive or Active {#making-projects-inactive-or-active}
+## Making Projects Inactive or Active {#making-projects-inactive-or-active}
 
 You may want to make a project inactive if you've completed it but you still want to keep the information on the project.
 

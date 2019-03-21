@@ -87,7 +87,7 @@ Implementation and the list of characters allowed differs slightly according to 
 * 'A' through to 'Z'
 * '0' through to '9'
 * _ (underscore)
-* - (hyphen/minus)
+* `-` (hyphen/minus)
 
 Use just these characters if you want to be sure of them being accepted/used (if you need full details of all characters allowed, see [the naming conventions](../../../sites/developing/using/naming-conventions.md)).
 

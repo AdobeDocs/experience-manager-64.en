@@ -27,7 +27,7 @@ To create an effective newsletter landing page, you need to do the following:
 >Adobe is not planning to further enhance this capability (Managing Leads and Lists).  
 >Recommendation is to leverage [Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
 
-### Creating a List for the Newsletter {#creating-a-list-for-the-newsletter}
+## Creating a List for the Newsletter {#creating-a-list-for-the-newsletter}
 
 Create a list, for example, **Geometrixx Newsletter**, in MCM for the newsletter that people should subscribe to. Creating lists is described in [Creating lists](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingnewlists).
 
@@ -35,7 +35,7 @@ The following shows an example of a list:
 
 ![](assets/mcm_listcreate.png) 
 
-### Create a Sign Up Form {#create-a-sign-up-form}
+## Create a Sign Up Form {#create-a-sign-up-form}
 
 Create a newsletter registration form that allows users to subscribe to tags. The sample Geometrixx web site provides a newsletter page in the Geometrixx toolbar where you can create your form.
 
@@ -57,7 +57,7 @@ The following example is a form created at http://localhost:4502/cf#/content/geo
 
    ![](assets/dc_formstart_thankyouadvanced.png)
 
-### Creating a Thank You Page {#creating-a-thank-you-page}
+## Creating a Thank You Page {#creating-a-thank-you-page}
 
 When users click **Subscribe Now**, you want a Thank You page to automatically open. Create the Thank You page in the Geometrixx Newsletter page. After creating the Newsletter Form, edit the Form component and add the path to the thank you page.
 
@@ -65,7 +65,7 @@ Submitting the request takes the user to a **Thank You** page after which they w
 
 ![](assets/mcm_newsletter_thankyoupage.png) 
 
-### Adding Teasers {#adding-teasers}
+## Adding Teasers {#adding-teasers}
 
 Add [teasers](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#teasers) to target specific audiences. For example, you can add teasers to the Thank You page and Newsletter sign up page.
 
@@ -81,7 +81,7 @@ To add teasers to make an effective newsletter landing page:
 
 1. Create a campaign with the two teasers -- tag one with business and one untagged.
 
-### Pushing Content to Subscribers {#pushing-content-to-subscribers}
+## Pushing Content to Subscribers {#pushing-content-to-subscribers}
 
 Push any changes to pages through the Newsletter functionality in the MCM. You then push updated content to subscribers.
 

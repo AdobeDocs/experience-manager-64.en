@@ -22,7 +22,7 @@ When you send a newsletter to many users, there are usually some invalid emails 
 
 To set AEM up to track bounced emails, you need to set up AEM to poll an existing mailbox where bounced emails are received (usually this is the "from" email address that you specify where you send the newsletter). AEM polls this inbox and imports all emails below the path specified in the polling configuration. A workflow is then triggered to search for the bounced email adresses within the users and updates the bounceCounter property value of the user accordingly. After the configured max bounces is exceeded, the user is removed from the newsletter list.
 
-### Configuring the Feed Importer {#configuring-the-feed-importer}
+## Configuring the Feed Importer {#configuring-the-feed-importer}
 
 The feed importer lets you repeatedly import content from external sources into your repository. With this configuration of the feed importer, AEM checks the sender's mailbox for bounced emails.
 
@@ -82,7 +82,7 @@ To configure the feed importer for tracking bounced emails:
 
 1. Save the configuration.
 
-### Configuring the newsletter service component {#configuring-the-newsletter-service-component}
+## Configuring the newsletter service component {#configuring-the-newsletter-service-component}
 
 After configuring the feed importer, you need to configure the From address and the bounce counter.
 

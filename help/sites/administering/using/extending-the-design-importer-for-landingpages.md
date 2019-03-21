@@ -104,25 +104,25 @@ The following section describes how to edit your HTML file so that you convert c
 
 Before importing, please note the following limitations:
 
-#### Any attribute like class or id applied on the &amp;lt;body> tag is not preserved {#any-attribute-like-class-or-id-applied-on-the-amp-lt-body-tag-is-not-preserved}
+### Any attribute like class or id applied on the &amp;lt;body> tag is not preserved {#any-attribute-like-class-or-id-applied-on-the-amp-lt-body-tag-is-not-preserved}
 
 If any attribute like id or class is applied on the body tag for example `<body id="container">` then it is not preserved after the import. So the design being imported should not have any dependencies on the attributes applied on the `<body>` tag.
 
-#### Drag and Drop zip {#drag-and-drop-zip}
+### Drag and Drop zip {#drag-and-drop-zip}
 
 Drag/Drop zip upload is not supported for Internet Explorer and Firefox versions 3.6 and earlier. To upload a design when using these browsers, click the drop file zone to open up a file upload dialog box and upload your design using that dialog.
 
 The browsers that support "drag and drop" of the design zip are Chrome, Safari5.x, Firefox 4 and above.
 
-#### Modernizr is not supported {#modernizr-is-not-supported}
+### Modernizr is not supported {#modernizr-is-not-supported}
 
 `Modernizr.js` is a javascript based tool that detects native capabilities of browsers and detects if they are suited for html5 elements or not. Designs that use Modernizr for enhancing support in older versions of different browsers can cause import issues in the landing page solution. `Modernizr.js` scripts are not supported with the Design importer.
 
-#### Page properties are not preserved at the time of importing design package {#page-properties-are-not-preserved-at-the-time-of-importing-design-package}
+### Page properties are not preserved at the time of importing design package {#page-properties-are-not-preserved-at-the-time-of-importing-design-package}
 
 Any page property (e.g. Custom Domain, Enforcing HTTPS, etc.) set for a page (that uses Blank Landing Page template) prior to importing the design package are lost after the design has been imported. Therefore, the recommended practice is to set the page properties after importing the design package.
 
-#### HTML only markup assumed {#html-only-markup-assumed}
+### HTML only markup assumed {#html-only-markup-assumed}
 
 Upon import the markup is sanitized for security reasons and in order to avoid importing and publishing invalid markup. This assumes HTML-only markup and all other form of elements such as inline SVG or Web Components will be filtered out.
 

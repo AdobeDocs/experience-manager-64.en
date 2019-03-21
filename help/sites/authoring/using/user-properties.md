@@ -17,9 +17,9 @@ AEM provides you with the capability to configure your account and certain aspec
 
 Using the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the [header](../../../sites/authoring/using/basic-handling.md#the-header) and the associated [My Preferences](#userpreferences) dialog, you can modify your user options such as.
 
-Begin by acessing the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the header.
+Begin by accessing the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the header.
 
-### User Settings {#user-settings}
+## User Settings {#user-settings}
 
 The **User** settings dialog gives you access to:
 
@@ -37,7 +37,7 @@ The **User** settings dialog gives you access to:
 
 ![](assets/screen_shot_2018-03-20at103808.png)
 
-### My Preferences {#my-preferences}
+## My Preferences {#my-preferences}
 
 The **My Preferences** dialog is access via the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the header.
 
@@ -63,8 +63,7 @@ Each user can set certain properties for himself or herself.
 
         * Pages will be opened in the current window.
 
-* **Show desktop actions for Assets  
-  **
+* **Show desktop actions for Assets**
 
   This option requires the Assets companion app or Create Cloud desktop app.
 
@@ -75,8 +74,7 @@ Each user can set certain properties for himself or herself.
     * Click the color block to open the swatch selector to select a color.
     * Alternatively, enter the hex code for the desire color in the field.
 
-* **Relative Date Presentation  
-  **
+* **Relative Date Presentation**
 
   To improve readability, AEM will render dates within the last seven days as relative dates (e.g. Three days ago) and older dates as exact dates (e.g. 20 March 2017).
 
@@ -102,13 +100,11 @@ Each user can set certain properties for himself or herself.
 
   This option enables keyboard shortcuts. By default they are enabled, but can be disabled for example if a user has certain accessibility requirements.
 
-* **Use Classic Authoring Experience  
-  **
+* **Use Classic Authoring Experience**
 
   This option enables [classic UI](/sites/classic-ui-authoring/user-guide.md)-based page authoring. By default the standard UI is used.
 
-* **Enable Assets Home Page  
-  **
+* **Enable Assets Home Page**
 
   This option will only be available if your system administrator has enabled Assets Home Page experience for the entire organization.
 

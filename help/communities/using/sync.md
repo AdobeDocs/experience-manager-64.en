@@ -15,7 +15,7 @@ discoiquuid: 32b56b48-75cb-4cc9-a077-10e335f01a35
 
 ## Introduction {#introduction}
 
-In AEM Communities, from the publish environment (depending on permissions configured), *site visitors *may become *members*, create *user groups*, and edit their *member profile* .
+In AEM Communities, from the publish environment (depending on permissions configured), *site visitors *may become *members*, create *user groups*, and edit their *member profile*.
 
 *User data* is a term used to refer to *users*, *user profiles* and *user groups*.
 

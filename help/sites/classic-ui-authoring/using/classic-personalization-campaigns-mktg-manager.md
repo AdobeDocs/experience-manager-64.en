@@ -49,20 +49,20 @@ From the MCM you can access:
   Here you can manage your leads. You can create or import leads, edit specific details for individual leads or delete when no longer needed. You can also put leads in different groups, called Lists. **Note:** Adobe is not planning to further enhance this capability.  
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).  
 
-* ** [Lists](#lists)** 
+* **[Lists](#lists)** 
   Here you can manage your lists (of leads).**Note:** Adobe is not planning to further enhance this capability.  
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
 
-* ** [Campaigns](#campaigns)** 
+* **[Campaigns](#campaigns)** 
   Here you can manage your Brands, Campaigns and Experiences.
 
-### Dashboard {#dashboard}
+## Dashboard {#dashboard}
 
 The dashboard shows four panes that provide you with an overview of your lists (of leads), segments, reports and campaigns. Access to basic functionality for these is also available here.
 
 ![](assets/mcm_dashboard.png) 
 
-### Leads {#leads}
+## Leads {#leads}
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Under **Leads** in the left pane you can create, import, edit and delete your le
 
 ![](assets/screen_shot_2012-02-21at114748am-1.png) 
 
-### Lists {#lists}
+## Lists {#lists}
 
 >[!NOTE]
 >

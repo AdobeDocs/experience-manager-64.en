@@ -70,7 +70,7 @@ Create a heirarchy of tasks to represent task dependencies. Add a task as the ch
 
 Select the parent folder of the task to see the details in the right-hand panel.
 
-#### Manually Creating Tasks {#manually-creating-tasks}
+### Manually Creating Tasks {#manually-creating-tasks}
 
 Use the Task Management console to create tasks for a project.
 

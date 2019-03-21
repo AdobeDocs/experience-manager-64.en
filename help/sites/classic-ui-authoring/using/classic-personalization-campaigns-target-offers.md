@@ -13,7 +13,7 @@ discoiquuid: e26bf608-c57c-4346-88fb-32a82cfa82d2
 
 # Target offers{#target-offers}
 
-### Creating a Test&Target Offer Experience {#creating-a-test-target-offer-experience}
+## Creating a Test&Target Offer Experience {#creating-a-test-target-offer-experience}
 
 1. Select your new campaign in the left pane, or double-click it in the right pane.
 1. Select the list view using the icon:
@@ -31,6 +31,6 @@ discoiquuid: e26bf608-c57c-4346-88fb-32a82cfa82d2
    >
    >Test&Target experiences are not currently listed in the MCM. They can be accessed from the **Websites** console, under Campaigns.
 
-### Integrating with Adobe Target {#integrating-with-adobe-target}
+## Integrating with Adobe Target {#integrating-with-adobe-target}
 
 See [Integrate with Adobe](../../../sites/administering/using/target.md) [Target](../../../sites/administering/using/target.md) for full details.

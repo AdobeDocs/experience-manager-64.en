@@ -44,7 +44,7 @@ See [Changing the Reporting Period](../../../sites/authoring/using/ci-analyze.md
 >
 >The Content Insights reports require that your administrator has integrated AEM with SiteCatalyst, Target, and BrightEdge. See [Integrating with SightCatalyst](../../../sites/administering/using/adobeanalytics.md), [Integrating with Adobe Target](../../../sites/administering/using/target.md), and [Integrating with BrightEdge](../../../sites/administering/using/brightedge.md).
 
-### The Views Report {#the-views-report}
+## The Views Report {#the-views-report}
 
 The Views report includes the following features for evaluating page traffic:
 
@@ -56,7 +56,7 @@ The Views report includes the following features for evaluating page traffic:
 
 ![](assets/chlimage_1-312.png)
 
-### The Page Average Engaged Report {#the-page-average-engaged-report}
+## The Page Average Engaged Report {#the-page-average-engaged-report}
 
 The Page Average Engaged report includes the following features for evaluating page effectiveness:
 
@@ -65,25 +65,25 @@ The Page Average Engaged report includes the following features for evaluating p
 
 ![](assets/chlimage_1-313.png)
 
-### The Sources Report {#the-sources-report}
+## The Sources Report {#the-sources-report}
 
 The Sources report indicates how users navigated to the page, for example from search engine results or using the known URL.
 
 ![](assets/chlimage_1-314.png)
 
-### The Bounces Report {#the-bounces-report}
+## The Bounces Report {#the-bounces-report}
 
 The Bounces report includes a graph that shows the number of bounces that have occurred for a page over the selected reporting period. 
 
 ![](assets/chlimage_1-315.png)
 
-### The Campaign Activity Report {#the-campaign-activity-report}
+## The Campaign Activity Report {#the-campaign-activity-report}
 
 For each campaign for which the page is active, a report appears named *Campaign Name* Activity. The report shows page impressions and conversions for each segment for which an offer is provided. 
 
 ![](assets/chlimage_1-316.png)
 
-### The SEO Recommendations Report {#the-seo-recommendations-report}
+## The SEO Recommendations Report {#the-seo-recommendations-report}
 
 The SEO Recommendations report contains the results of the BrightEdge analysis for the page. The report is a checklist of page features that indicates which features the page does and does not include for maximizing the findability using search engines.
 
