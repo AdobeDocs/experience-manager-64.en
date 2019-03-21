@@ -63,7 +63,7 @@ Here you can [edit and manage](../../../assets/using/content-fragments.md) your 
 
 ![](assets/cf-46.png) 
 
-### Where Content Fragments are Used in We.Retail {#where-content-fragments-are-used-in-we-retail}
+## Where Content Fragments are Used in We.Retail {#where-content-fragments-are-used-in-we-retail}
 
 To illustrate [page authoring with a content fragment](../../../sites/authoring/using/content-fragments.md) there are several example pages provided under, for example:
 
@@ -77,7 +77,7 @@ For example, the **Arctic Surfing in Lofoten** content fragment is referenced in
 
 ![](assets/cf-53.png) 
 
-### Further Information {#further-information}
+## Further Information {#further-information}
 
 For more details see:
 

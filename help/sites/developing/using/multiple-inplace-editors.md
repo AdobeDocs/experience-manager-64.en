@@ -19,7 +19,7 @@ When configured you can select the appropriate content and open the appropriate 
 
 ![](assets/chlimage_1-8.png) 
 
-### Configuring Multiple Editors {#configuring-multiple-editors}
+## Configuring Multiple Editors {#configuring-multiple-editors}
 
 To enable multiple in-place editors the structure of a `cq:InplaceEditingConfig` node type has been enhanced with the definition of `cq:ChildEditorConfig` node type.
 
@@ -129,7 +129,7 @@ To have multiple RTEs you need a configuration for each in-place RTE:
 >
 >However, for RTE, the `configPath` property is supported when there is only one instance of text editor (editable sub-area) in the component. This use of `configPath` is provided to support backwards compatibility with older UI dialogs of the component.
 
-### Code Samples {#code-samples}
+## Code Samples {#code-samples}
 
 CODE ON GITHUB
 
@@ -138,6 +138,6 @@ You can find the code of this page on GitHub
 * [Open aem-authoring-hybrideditors project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-authoring-hybrideditors)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-authoring-hybrideditors/archive/master.zip)
 
-### Adding an In-Place Editor {#adding-an-in-place-editor}
+## Adding an In-Place Editor {#adding-an-in-place-editor}
 
 For general information about adding an in-place editor see the document [Customizing Page Authoring](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-in-place-editor).

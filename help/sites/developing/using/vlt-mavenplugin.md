@@ -21,7 +21,7 @@ Use the Content Package Maven plugin to integrate package management tasks into 
 * Obtain a list of packages that are installed on the server.
 * Remove a package from the server.
 
-### Adding the Content Package Maven Plugin to the POM File {#adding-the-content-package-maven-plugin-to-the-pom-file}
+## Adding the Content Package Maven Plugin to the POM File {#adding-the-content-package-maven-plugin-to-the-pom-file}
 
 To use the Content Package Maven Plugin, add the following plugin element inside the build element of your POM file:
 

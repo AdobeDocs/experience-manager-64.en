@@ -21,7 +21,7 @@ For example to translate a Resource object to the corresponding Node object, you
 Node node = resource.adaptTo(Node.class);
 ```
 
-### Use Cases {#use-cases}
+## Use Cases {#use-cases}
 
 There are the following use cases:
 
@@ -70,7 +70,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
 
 ## Reference {#reference}
 
-#### Sling {#sling}
+### Sling {#sling}
 
 [**Resource**](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md) adapts to:
 

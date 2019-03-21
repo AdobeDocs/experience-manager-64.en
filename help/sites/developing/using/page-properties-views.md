@@ -43,7 +43,7 @@ For example, see the settings for fields grouped under the **More Titles and Des
 /libs/foundation/components/page/cq:dialog/content/items/tabs/items/basic/items/column/items/moretitles   
 ```
 
-### Configuring your Page Properties {#configuring-your-page-properties}
+## Configuring your Page Properties {#configuring-your-page-properties}
 
 You can also configure the fields available by configuring the dialog of your page component and applying the appropriate node properties.
 
@@ -114,7 +114,7 @@ For example, by default the [**Create Page** wizard](../../../sites/authoring/us
 >
 >When configuring page properties for use with live copies see [Configuring MSM Locks on Page Properties](../../../sites/developing/using/extending-msm.md#configuringmsmlocksonpagepropertiestouchoptimizedui) for more details.
 
-### Sample Configuration of Page Properties {#sample-configuration-of-page-properties}
+## Sample Configuration of Page Properties {#sample-configuration-of-page-properties}
 
 This sample demonstrates the dialog diff technique of the [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md); including use of ` [sling:orderBefore](../../../sites/developing/using/sling-resource-merger.md#properties)`. It also illustrates use of both `cq:showOnCreate` and `cq:hideOnEdit`.
 

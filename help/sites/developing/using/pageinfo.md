@@ -31,7 +31,7 @@ http://localhost:4502/libs/wcm/core/content/pageinfo.json?path=/content/we-retai
 >
 >See the document [JSON Exporter for Content Services](../../../sites/developing/using/json-exporter.md).
 
-### Page Information Providers {#page-information-providers}
+## Page Information Providers {#page-information-providers}
 
 Page components can be associated with one or more `com.day.cq.wcm.api.PageInfoProvider` services that generate page metadata. The PageInfo servlet calls each PageInfoProvider service and aggregates the metadata:
 
@@ -46,7 +46,7 @@ Page components can be associated with one or more `com.day.cq.wcm.api.PageInfoP
 >
 >Similar to PageInfoProviders, use ListInfoProviders to update lists of information in JSON format. (See [Customizing the Websites Administration Console](../../../sites/developing/using/customizing-siteadmin.md).)
 
-### Default Page Information Providers {#default-page-information-providers}
+## Default Page Information Providers {#default-page-information-providers}
 
 The `/libs/foundation/components/page` component is associated with the following PageInfoProvider services:
 
@@ -463,7 +463,7 @@ For example, the PageInfo servlet returns the following JSON response for the `/
 }
 ```
 
-### Filtering Workflow Package Information {#filtering-workflow-package-information}
+## Filtering Workflow Package Information {#filtering-workflow-package-information}
 
 Configure the Day CQ WCM Workflow Package Info Provider service so that it returns information about only the workflow packages in which you are interested. By default, the Workflow Package Info Provider service returns information about every workflow package in the repository. Iterating over a subset of workflow packages uses less server resources.
 
@@ -531,7 +531,7 @@ To configure the service in your project source:
 
 1. Save the file.
 
-### Creating a Page Information Provider {#creating-a-page-information-provider}
+## Creating a Page Information Provider {#creating-a-page-information-provider}
 
 Create a custom Page Information Provider service to add page metadata that your application can easily obtain.
 

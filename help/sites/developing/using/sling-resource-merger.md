@@ -13,7 +13,7 @@ discoiquuid: ec712ba0-0fd6-4bb8-93d6-07d09127df58
 
 # Using the Sling Resource Merger in AEM{#using-the-sling-resource-merger-in-aem}
 
-### Purpose {#purpose}
+## Purpose {#purpose}
 
 The Sling Resource Merger provides services to access and merge resources. It provides diff (differencing) mechanisms for both:
 

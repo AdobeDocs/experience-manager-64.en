@@ -44,7 +44,7 @@ See the following topics for information about implementing responsive design be
 
 As you design, use Sidekick to preview your pages for various screen sizes.
 
-### Before you Develop {#before-you-develop}
+## Before you Develop {#before-you-develop}
 
 Before you develop the AEM application that supports your web pages, several design decisions should be made. For example, you need to have the following information:
 
@@ -237,7 +237,7 @@ The following strategy loads a single resource that is chosen using media querie
 1. Based on the results of the queries, determine which resource to include.
 1. Insert an HTML element in the DOM that references the resource.
 
-#### Evaluating Media Queries using javascript {#evaluating-media-queries-using-javascript}
+### Evaluating Media Queries using javascript {#evaluating-media-queries-using-javascript}
 
 Implementations of the [MediaQueryList interface](http://dev.w3.org/csswg/cssom-view/#the-mediaquerylist-interface) that the W3C defines enable you to evaluate media queries using javascript. You can apply logic to the media query results and execute scripts that are targeted for the current window:
 
@@ -834,7 +834,7 @@ Using HTML5 technology you can implement the grid and manipulate it to adapt pag
 * HTML div elements contain blocks of content that span a certain number of columns.
 * One or more of these div elements comprise a row when they share a common parent divelement.
 
-#### Using Discrete Widths {#using-discrete-widths}
+### Using Discrete Widths {#using-discrete-widths}
 
 For each range of viewport widths that you are targeting, use a static page width and content blocks of constant width. When manually resizing a browser window, changes to content size occur at discrete window widths (also known as breakpoints). Consequently, page designs are more closely adhered to, maximizing the user experience.
 
