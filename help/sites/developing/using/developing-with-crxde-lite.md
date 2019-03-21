@@ -30,7 +30,7 @@ CRXDE Lite is recommended when you do not have direct access to the AEM server, 
 >
 >It is recommended to use the [AEM Developer Tools for Eclipse](../../../sites/developing/using/aem-eclipse.md) and the [AEM HTL Brackets Extension](../../../sites/developing/using/aem-brackets.md) during project development.
 
-### Getting Started with CRXDE Lite {#getting-started-with-crxde-lite}
+## Getting Started with CRXDE Lite {#getting-started-with-crxde-lite}
 
 To get started with CRXDE Lite, proceed as follows:
 

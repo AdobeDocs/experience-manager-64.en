@@ -28,7 +28,7 @@ You can use the proxy server to monitor all client-server interaction, regardles
 
 For example, you can position the proxy server between any two applications that communicate via a TCP/IP network; e.g. a web browser and CQ. This allows you to monitor exactly what happens when you request a CQ page.
 
-### Starting the Proxy Server Tool {#starting-the-proxy-server-tool}
+## Starting the Proxy Server Tool {#starting-the-proxy-server-tool}
 
 Start the server on the command line:
 
@@ -66,7 +66,7 @@ Adds a time stamp to each log output. The time stamp is in seconds, so it may no
 
 Writes the client-server conversation to a log file. This parameter also works in quiet mode.
 
-**`-i <numIndentions>` **(add indention)
+**`-i <numIndentions>`**(add indention)
 
 Each active connection is indented for better readability. Default is 16 levels. This feature was introduced with `proxy.jar version 1.16`.
 

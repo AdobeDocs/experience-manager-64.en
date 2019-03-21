@@ -15,7 +15,7 @@ discoiquuid: e9a1ff95-e88e-41f0-9731-9a59159b4653
 
 This section describes how to develop the bulk editor tool and how to extend the Product List component, which is based on the bulk editor.
 
-### Bulk Editor Query Parameters {#bulk-editor-query-parameters}
+## Bulk Editor Query Parameters {#bulk-editor-query-parameters}
 
 When working with the bulk editor, there are several query parameters that you can add to the URL to call the bulk editor with a specific configuration. If you want the bulk editor to always be used with a certain configuration, for example, as in the Product List component, then you need to modify bulkeditor.jsp (located in /libs/wcm/core/components/bulkeditor) or create a component with the specific configuration. Changes made using query parameters are not permanent.
 

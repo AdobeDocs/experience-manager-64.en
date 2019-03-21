@@ -13,7 +13,7 @@ discoiquuid: df6410a2-794e-4fa2-ae8d-37271274d537
 
 # How to Develop AEM Projects using IntelliJ IDEA{#how-to-develop-aem-projects-using-intellij-idea}
 
-### Overview {#overview}
+## Overview {#overview}
 
 To get started with AEM development on IntelliJ, the following steps are required.
 

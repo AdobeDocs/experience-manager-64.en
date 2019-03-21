@@ -15,11 +15,11 @@ discoiquuid: e862c8a9-b5b6-4857-a154-03d3ffac3e67
 
 This page provides information on how to troubleshoot replication issues.
 
-### Problem {#problem}
+## Problem {#problem}
 
 Replication (non-reverse replication) is failing for some reason.
 
-### Resolution {#resolution}
+## Resolution {#resolution}
 
 There are various reasons for replication to fail. This article explains the approach one might take when analyzing these issues.
 
@@ -78,7 +78,7 @@ Sometimes it can be very helpful to set all replication logging to be added in a
 
 1. If you suspect the problem to be related to sling eventing/jobs in any way then you can also add this java package under categories:org.apache.sling.event
 
-#### Pausing Replication Agent Queue  {#pausing-replication-agent-queue}
+### Pausing Replication Agent Queue  {#pausing-replication-agent-queue}
 
 Sometime it might be suitable to pause the replication queue to reduce load on the author system, without disabling it. Currently this is only possible by a hack of temporarily configuring an invalid port. From 5.4 onwards you could see pause button in replication agent queue it has some limitation
 

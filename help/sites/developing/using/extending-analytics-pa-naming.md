@@ -21,7 +21,7 @@ Adobe Analytics uses the `s.pageName` property to uniquely identify pages and to
 
 To expose Analytics report data in the Sites console and in Content Insight, AEM requires the value of the `s.pageName` property for each page. The AEM Analytics Java API defines the `AnalyticsPageNameProvider` interface that you implement to provide the Sites console and Content Insights with the value of the `s.pageName` property. Your `AnaltyicsPageNameProvider` service resolves the pageName property on the server for reporting purposes, as it can be dynamically set using Javascript on the client for tracking purposes.
 
-### The Default Analytics Page Name Provider Service {#the-default-analytics-page-name-provider-service}
+## The Default Analytics Page Name Provider Service {#the-default-analytics-page-name-provider-service}
 
 The `DefaultPageNameProvider` service is the default service that determines the value of the `s.pageName` property to use for retrieving Analytics data for a page. The service works in conjunction with the AEM foundation page component ( `/libs/foundation/components/page`). This page component defines the following CQ variables that are meant to be mapped to the `s.pageName` property:
 
@@ -45,7 +45,7 @@ If you do not map a CQ variable to the `s.pageName` property in the framework, t
 >
 >The DefaultPageNameProvider service uses a service ranking of 100.
 
-### Maintaining Continuity in Analytics Reporting {#maintaining-continuity-in-analytics-reporting}
+## Maintaining Continuity in Analytics Reporting {#maintaining-continuity-in-analytics-reporting}
 
 Maintaining a complete history of analytics data for a page requires that the value of the s.pageName property that is used for a page never changes. However, the analtyics properties that the foundation page component defines can be easily changed. For example moving a page changes the value of `pagedata.path` and breaks the continuity of the reporting history:
 

@@ -22,7 +22,7 @@ Java and Javascript APIs enable you to internationalize strings in the following
 
 For an overview of the internationalization and localization process, see [Internationalizing Components](../../../sites/developing/using/i18n.md).  
 
-### Internationalizing Strings in Java and JSP Code {#internationalizing-strings-in-java-and-jsp-code}
+## Internationalizing Strings in Java and JSP Code {#internationalizing-strings-in-java-and-jsp-code}
 
 The `com.day.cq.i18n` Java package enables you to display localized strings in your UI. The `I18n` class provides the `get` method that retrieves localized strings from the AEM dictionary. The only required parameter of the `get` method is the string literal in the English language. English is the default langauge for the UI. The following example localizes the word `Search`:
 
@@ -33,7 +33,7 @@ Identifying the string in the English language differs from typical internationa
 * Code is easy to understand.
 * The string in the default language is always available.
 
-#### Determining the User's Language {#determining-the-user-s-language}
+### Determining the User's Language {#determining-the-user-s-language}
 
 There are two ways to determine the language that the user prefers:
 

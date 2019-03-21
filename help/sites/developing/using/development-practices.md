@@ -13,7 +13,7 @@ discoiquuid: 8b0297a1-d922-410f-9aaf-3a6b87e11dc0
 
 # Development Practices{#development-practices}
 
-### Work according to a Definition of Done {#work-according-to-a-definition-of-done}
+## Work according to a Definition of Done {#work-according-to-a-definition-of-done}
 
 Each team has a different definition of what “done” means, but it is important to have one and ensure that a story meets the defined criteria before being accepted.
 

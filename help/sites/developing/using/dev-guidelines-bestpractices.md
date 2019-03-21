@@ -42,7 +42,7 @@ The following general rules for developers make sense in majority of usual proje
 * Provide necessary flexibility and configuration capabilities to your custom components.
 * Maximize use of the power and flexibility of AEM paragraph system - the parsys & iparsys components.
 
-#### Customizing Components and Other Elements {#customizing-components-and-other-elements}
+### Customizing Components and Other Elements {#customizing-components-and-other-elements}
 
 When creating your own components or customizing an existing component it is often easiest (and safest) to re-use existing definitions. The same principles also applies to other elements within AEM, for example the error handler.
 

@@ -22,7 +22,7 @@ You can find the article [here](https://helpx.adobe.com/experience-manager/using
 >
 >For additional on components see [Component Basics](../../../sites/developing/using/components-basics.md).
 
-#### Additional Community Articles {#additional-community-articles}
+## Additional Community Articles {#additional-community-articles}
 
 [Creating Adobe Experience Manager 6.3 Sling Model Components](https://helpx.adobe.com/experience-manager/using/aem63_slingmodel.html)
 

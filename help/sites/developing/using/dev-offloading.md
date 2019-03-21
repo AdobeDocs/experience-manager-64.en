@@ -17,7 +17,7 @@ The Apache Sling Discovery feature provides a Java API that enables you to creat
 
 For information about creating offloading topologies and configuring topic consumption, see [Offloading Jobs](../../../sites/deploying/using/offloading.md).
 
-### Handling Job Payloads {#handling-job-payloads}
+## Handling Job Payloads {#handling-job-payloads}
 
 The offloading framework defines two job properties that you use to identify the job payload. The offloading replication agents use these properties to identify the resources to replicate to the instances in the topology:
 
@@ -31,7 +31,7 @@ Use the `OffloadingJobProperties` enum to refer to the property names:
 
 Jobs do not require payloads. However, the payload is necessary if the job requires the manipulation of a resource and the job is offloaded to a computer that did not create the job.
 
-### Creating Jobs for Offloading {#creating-jobs-for-offloading}
+## Creating Jobs for Offloading {#creating-jobs-for-offloading}
 
 Create a client that calls the JobManager.addJob method to create a job that an automatically-selected JobConsumer executes. Provide the following information to create the job:
 
@@ -95,7 +95,7 @@ The log contains the following message when JobGeneratorImpl.createJob is called
 
 ```
 
-### Developing a Job Consumer {#developing-a-job-consumer}
+## Developing a Job Consumer {#developing-a-job-consumer}
 
 To consume jobs, develop an OSGi service that implements the `org.apache.sling.event.jobs.consumer.JobConsumer` interface. Identify with the topic to consume using the `JobConsumer.PROPERTY_TOPICS` property.
 
@@ -176,7 +176,7 @@ The Consumed property can be observed using CRXDE Lite:
 
 ![](assets/chlimage_1-25.png) 
 
-### Maven Dependencies {#maven-dependencies}
+## Maven Dependencies {#maven-dependencies}
 
 Add the following dependency defenitions to your pom.xml file so that Maven can resolve the Offloading-related classes.
 

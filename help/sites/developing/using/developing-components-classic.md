@@ -372,7 +372,7 @@ To create the new component, we use the standard textimage component as a basis 
         %><div <%= style %> class="image"><%
    ```
 
-   4. Save the component to the repository. The component is ready to test.
+1. Save the component to the repository. The component is ready to test.
 
 #### Checking the New Component {#checking-the-new-component}
 

@@ -80,11 +80,11 @@ For example, the following locations within the `/libs` structure can be overlai
 >
 >See the Knowledge Base article, [Troubleshooting AEM TouchUI issues](https://helpx.adobe.com/experience-manager/kb/troubleshooting-aem-touchui-issues.html), for further tips and tools.
 
-### Code Samples {#code-samples}
+## Code Samples {#code-samples}
 
 Various packages have been made available on Github. These provide code samples related to the tasks covered on this page.
 
-#### aem-admin-extension-new-console {#aem-admin-extension-new-console}
+### aem-admin-extension-new-console {#aem-admin-extension-new-console}
 
 `aem-admin-extension-new-console` is a sample package showing how to [create a new AEM 6 console](#create-a-custom-console). This package provides a UI for managing [Launches](../../../sites/authoring/using/launches.md) and adds a link in the navigation:
 
@@ -95,7 +95,7 @@ You can find the code of this page on GitHub
 * [Open aem-admin-extension-new-console project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console/archive/master.zip)
 
-#### aem-admin-extension-customize-sites {#aem-admin-extension-customize-sites}
+### aem-admin-extension-customize-sites {#aem-admin-extension-customize-sites}
 
 `aem-admin-extension-customize-sites` is a sample package showing how to customize an existing AEM 6 admin console. This package provides updates to Sites administration:
 
@@ -106,7 +106,7 @@ You can find the code of this page on GitHub
 * [Open aem-admin-extension-customize-sites project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites/archive/master.zip)
 
-### Create a Custom Console {#create-a-custom-console}
+## Create a Custom Console {#create-a-custom-console}
 
 1. You can create a custom console with related actions; for example, Launches at the top level (below Sites):
 
@@ -160,7 +160,7 @@ You can find the code of this page on GitHub
         
         * `srcPath` = `cq/core/content/nav`
 
-### Customizing the Default View for a Console {#customizing-the-default-view-for-a-console}
+## Customizing the Default View for a Console {#customizing-the-default-view-for-a-console}
 
 You can customize the default view (column, card, list) for a console:
 
@@ -229,7 +229,7 @@ You can find the code of this page on GitHub
           `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/body/rail`  
           ``
 
-### Add New Action to the Toolbar {#add-new-action-to-the-toolbar}
+## Add New Action to the Toolbar {#add-new-action-to-the-toolbar}
 
 1. You can build your own components and include the corresponding client libraries for custom actions. For example, a **Promote to Twitter** action at:
 
@@ -243,7 +243,7 @@ You can find the code of this page on GitHub
 
    `content/jcr:content/body/content/header/items/selection/items/twitter`
 
-### Restrict a Toolbar Action to a specific Group {#restrict-a-toolbar-action-to-a-specific-group}
+## Restrict a Toolbar Action to a specific Group {#restrict-a-toolbar-action-to-a-specific-group}
 
 1. You can use a custom rendering condition to overlay the standard action and impose specific conditions that must be fulfilled before it is rendered.
 
@@ -265,7 +265,7 @@ You can find the code of this page on GitHub
 
    Using properties on this node you can define the `groups` allowed to perform the specific action; for example, `administrators`
 
-### Remove Access to Navigation Option on Rail {#remove-access-to-navigation-option-on-rail}
+## Remove Access to Navigation Option on Rail {#remove-access-to-navigation-option-on-rail}
 
 1. You can rename a navigation entry in the rail by overlaying the required entry from under:
 
@@ -316,7 +316,7 @@ You can find the code of this page on GitHub
 * [Open aem-admin-extension-new-console project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console/archive/master.zip)
 
-### Restrict Access to Navigation Option on Rail {#restrict-access-to-navigation-option-on-rail}
+## Restrict Access to Navigation Option on Rail {#restrict-access-to-navigation-option-on-rail}
 
 You can restrict access to a navigation option using ACLs:
 
@@ -350,7 +350,7 @@ You can restrict access to a navigation option using ACLs:
       
       ```
 
-### Customizing Columns in the List View {#customizing-columns-in-the-list-view}
+## Customizing Columns in the List View {#customizing-columns-in-the-list-view}
 
 >[!NOTE]
 >
@@ -386,7 +386,7 @@ To customize the columns in the list view:
 
 1. You can now select the column in the column configurator of list view.
 
-### Filtering Resources {#filtering-resources}
+## Filtering Resources {#filtering-resources}
 
 When using a console, a common use case is when the user must select from resources (e.g. pages, components, assets, etc.). This can take the form of a list for example from which the author must choose an item.
 

@@ -23,7 +23,7 @@ The dialog node will open in the **dialog editor**:
 
 ![](assets/screen_shot_2012-02-01at25033pm.png)
 
-### User Interface Overview {#user-interface-overview}
+## User Interface Overview {#user-interface-overview}
 
 The dialog editor interface is composed of four panes:
 

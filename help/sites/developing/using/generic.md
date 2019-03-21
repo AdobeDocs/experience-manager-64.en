@@ -30,7 +30,7 @@ A number of out-of-the-box AEM components are provided to use the integration la
 
 For search an integration hook is provided that allows you to use the AEM search, a third party search (like Search&Promote) or a combination thereof.
 
-### eCommerce Engine Selection {#ecommerce-engine-selection}
+## eCommerce Engine Selection {#ecommerce-engine-selection}
 
 The eCommerce framework can be used with any eCommerce solution, the engine being used needs to be identified by AEM - even when using the AEM generic engine:
 
@@ -58,7 +58,7 @@ In a standard AEM installation a specific implementation is required, for exampl
 | `cq:commerceProvider = geometrixx` |geometrixx example; this includes minimal extensions to the generic API |
 |---|---|
 
-#### Example {#example}
+### Example {#example}
 
 ```shell
 /etc/commerce/products/geometrixx-outdoors 

@@ -15,7 +15,7 @@ discoiquuid: 08bdade7-fdad-445d-80fe-8fc06596dace
 
 This section describes how to extend the [Query Builder](../../../sites/developing/using/querybuilder-api.md) by implementing a custom predicate evaluator.
 
-### Overview {#overview}
+## Overview {#overview}
 
 The [Query Builder](../../../sites/developing/using/querybuilder-api.md) offers an easy way of querying the content repository. CQ ships with a set of predicate evaluators that helps you deal with your data.
 
@@ -41,7 +41,7 @@ You can find the code of this page on GitHub
 * [Open aem-search-custom-predicate-evaluator project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-search-custom-predicate-evaluator)
 * Download the project as [a ZIP file](https://github.com/Adobe-Marketing-Cloud/aem-search-custom-predicate-evaluator/archive/master.zip)
 
-### Predicate Evaluator in Detail {#predicate-evaluator-in-detail}
+## Predicate Evaluator in Detail {#predicate-evaluator-in-detail}
 
 A predicate evaluator handles the evaluation of certain predicates, which are the defining constraints of a query.
 
@@ -51,7 +51,7 @@ It maps a higher-level search constraint (such as "width &gt; 200") to a specifi
 >
 >For more information about the `PredicateEvaluator` and the `com.day.cq.search` package see the [Java documentation](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/search/package-summary.md).
 
-### Implementing a Custom Predicate Evaluator for Replication Metadata {#implementing-a-custom-predicate-evaluator-for-replication-metadata}
+## Implementing a Custom Predicate Evaluator for Replication Metadata {#implementing-a-custom-predicate-evaluator-for-replication-metadata}
 
 As an example this section describes how to create a custom predicate evaluator that helps data based on the replication metadata:
 
@@ -61,7 +61,7 @@ As an example this section describes how to create a custom predicate evaluator 
 
 * `cq:lastReplicationAction` that stores the last replication action (e.g. Activation, Deactivation)
 
-#### Querying Replication Metadata with Default Predicate Evaluators {#querying-replication-metadata-with-default-predicate-evaluators}
+### Querying Replication Metadata with Default Predicate Evaluators {#querying-replication-metadata-with-default-predicate-evaluators}
 
 The following query fetches the list of nodes in `/content` branch that have been activated by `admin` since the beginning of the year.
 
@@ -82,7 +82,7 @@ daterange.lowerOperation=>=
 
 This query is valid but hard to read and does not highlight the relationship between the three replication properties. Implementing a custom predicate evaluator will reduce the complexity and improve the semantic of this query.
 
-#### Objectives {#objectives}
+### Objectives {#objectives}
 
 The goal of the `ReplicationPredicateEvaluator` is to support the above query using the following syntax.
 
@@ -96,7 +96,7 @@ replic.action=Activate
 
 Grouping replication metadata predicates with a custom predicate evaluator helps to create a meaningful query.
 
-#### Updating Maven Dependencies {#updating-maven-dependencies}
+### Updating Maven Dependencies {#updating-maven-dependencies}
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ The following snippet shows the differences, in [unified diff format](https://en
 
 [aem-search-custom-predicate-evaluator](https://github.com/Adobe-Marketing-Cloud/aem-search-custom-predicate-evaluator)- [pom.xml](https://github.com/Adobe-Marketing-Cloud/aem-search-custom-predicate-evaluator/raw/7aed6b35b4c8dd3655296e1b10cf40c0dd1eaa61/pom.xml)
 
-#### Writing The ReplicationPredicateEvaluator {#writing-the-replicationpredicateevaluator}
+### Writing The ReplicationPredicateEvaluator {#writing-the-replicationpredicateevaluator}
 
 The `cq-search` project contains the `AbstractPredicateEvaluator` abstract class. This can be extended with a few steps to implement your own custom predicate evaluator `(PredicateEvaluator`).
 
