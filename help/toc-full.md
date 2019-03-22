@@ -1038,7 +1038,7 @@ user-guide: null
 + [Manage agent signature images](forms/using/manage-agent-signature-images.md)
 + [[DO NOT PUBLISH] Create your first adaptive form](forms/using/create-your-first-adaptive-form.md)
 + [AEM Forms app](forms/using/aem-forms-app.md)
-+ [How Process Reporting Works](forms/using/process-reporting/process_reporting_architecture.md)
++ [How Process Reporting Works](forms/using/process-reporting/process-reporting-architecture.md)
 + [Ad-hoc Queries in Process Reporting](forms/using/process-reporting/adhoc-queries-in-process-reporting.md)
 + [Getting Started with Process Reporting](forms/using/process-reporting/install-start-process-reporting.md)
 + [Pre-defined reports in Process Reporting](forms/using/process-reporting/pre-defined-reports-in-process-reporting.md)
