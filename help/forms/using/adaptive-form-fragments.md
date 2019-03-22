@@ -197,7 +197,7 @@ You can perform several operations on adaptive form fragments using the AEM Form
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>Create Dictionary</p> </td> 
-   <td valign="top" width="406"><p>Generates a dictionary for localizing the selected fragment. For more information, see <a href="/forms/using/localizing-adaptive-forms.md" target="_blank">Localizing adaptive forms</a>.<br /> <br /> </p> </td> 
+   <td valign="top" width="406"><p>Generates a dictionary for localizing the selected fragment. For more information, see <a href="/help/forms/using/lazy-loading-adaptive-forms.md" target="_blank">Localizing adaptive forms</a>.<br /> <br /> </p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>Publish / Unpublish</p> </td> 

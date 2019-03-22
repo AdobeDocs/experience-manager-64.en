@@ -175,7 +175,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
 
        Create a backup of LiveCycle ES4 SP1 database, Global Data Storage (GDS), and crx-repository (not required for document security). If you're upgrading to MongoMK or RDBMK persistence, export LiveCycle ES4 SP1 correspondence management assets in a .cmp file and forms assets as an AEM package.
     
-    1. Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the [Supported Platform Combinations](../../forms/using/AEM-forms-JEE-supported-platforms.md) document.
+    1. Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the [Supported Platform Combinations](/help/forms/using/aem-forms-jee-supported-platforms.md) document.
 
        If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.
 
