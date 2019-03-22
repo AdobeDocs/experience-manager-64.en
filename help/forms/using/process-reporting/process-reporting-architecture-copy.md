@@ -58,15 +58,13 @@ The service then uses OSGi services to obtain the relevant reporting data, proce
 
 The Process Reporting user interface is a Web browser-based interface. You use this interface to view process and task information that is published from the AEM Forms database.
 
-For an introduction to the Process Reporting user interface, see [Process Reporting user interface](/forms/using/process-reporting/process-reporting-user-interface.md).
-
-### QueryDataServlet service <br> {#querydataservlet-service-br-1}
+### QueryDataServlet service {#querydataservlet-service-br-1}
 
 The QueryDataServlet service accepts queries from Process Reporting user interface.
 
 The service then uses OSGi services to obtain the relevant reporting data, processes the data, and returns the data to the user interface.
 
-### Custom Reports <br> {#custom-reports-br}
+### Custom Reports {#custom-reports-br}
 
 You can create your own custom reports and display these reports in the Custom Reports tab of the Process Reporting user interface.
 
