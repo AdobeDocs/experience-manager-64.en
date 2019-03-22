@@ -90,4 +90,4 @@ The following keyboard shortcuts are available in AEM Forms.
 | Move to the next panel |Alt+Right Arrow |
 | Move to the previous panel |Alt+Left Arrow |
 | Reset the filled data in a form |Alt+R |
-| Submit a form |Alt+S |configuring-watched-folder-endpoints.md
+| Submit a form |Alt+S |configuring-watched-folder-endpoints.md |
