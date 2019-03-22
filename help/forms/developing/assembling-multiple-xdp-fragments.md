@@ -34,7 +34,7 @@ The following DDX document assembles multiple XDP fragments into an XDP document
 
 ```as3
  <?xml version="1.0" encoding="UTF-8"?> 
- <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+ <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
          <XDP result="tuc018result.xdp"> 
             <XDP source="tuc018_template_flowed.xdp"> 
              <XDPContent insertionPoint="ddx_fragment" source="tuc018_contact.xdp" fragment="subPatientContact" required="false"/> 
@@ -74,11 +74,11 @@ For each sub form, you can add an `XDPContent` element (this element is optional
 
 >[!NOTE]
 >
->For more information about the Assembler service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Assembler service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]
 >
->For more information about a DDX document, see [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddx_63).
+>For more information about a DDX document, see [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddx_63).
 
 ## Summary of steps {#summary-of-steps}
 

@@ -57,10 +57,10 @@ By default, the emails sent out by AEM forms contain links to (Deprecated for AE
 
 1. In administration console, click Home &gt; Services &gt; forms workflow &gt; Server Settings &gt; Task Notifications.
 1. Open task assignment template.
-1. Set the template in the task notifications to the following: `http://@@notification-host@@:8080/lc/libs/ws/index.html?taskId=@@taskid@@`
+1. Set the template in the task notifications to the following: `https://@@notification-host@@:8080/lc/libs/ws/index.html?taskId=@@taskid@@`
 
    ```as3
-   http://@@notification-host@@:8080/lc/libs/ws/index.html?taskId=@@taskid@@
+   https://@@notification-host@@:8080/lc/libs/ws/index.html?taskId=@@taskid@@
    ```
 
 ## Configuring notifications for users and groups {#configuring-notifications-for-users-and-groups}
@@ -122,7 +122,7 @@ You can send deadline notifications to users and groups when the deadline to act
 
 ### Hide the DO NOT DELETE tag for all emails {#hide-the-do-not-delete-tag-for-all-emails}
 
-You can configure email to hide to the DO NOT DELETE tracking tag in all emails send in a human-centric process. For details, see [How to hide the 'DO-NOT-DELETE' tag with CSS](http://blogs.adobe.com/LiveCycleHelp/2013/09/how-to-hide-the-do-not-delete-tag-with-css.html)
+You can configure email to hide to the DO NOT DELETE tracking tag in all emails send in a human-centric process. For details, see [How to hide the 'DO-NOT-DELETE' tag with CSS](https://blogs.adobe.com/LiveCycleHelp/2013/09/how-to-hide-the-do-not-delete-tag-with-css.html)
 
 ## Configuring notifications for administrators {#configuring-notifications-for-administrators}
 
@@ -177,11 +177,11 @@ For Task Notifications only, Forms workflow includes two predefined URL configur
 
 * OpenTask is available for the Reminder and Task Assignment notification types. This URL provides a link to the task in Workspace, allowing the user to access the task quickly from the email notification. When you drag the OpenTask URL to the Notification Template box, the URL is in the following format:
 
-  `http://@@notification-host@@:<PORT>/workpace/Main.html?taskId=@@taskid@@`
+  `https://@@notification-host@@:<PORT>/workpace/Main.html?taskId=@@taskid@@`
 
 * ClaimTask is available for the Group - Reminder and Group - Task Assignment notification types. This URL provides a link to the task details page in Workspace, where the user can either claim or claim and open the work item. When you drag the ClaimTask URL to the Notification Template box, the URL is in the following format:
 
-  `http://@@notification-host@@:<PORT>/workpace/Main.html?taskId=@@taskid@@`
+  `https://@@notification-host@@:<PORT>/workpace/Main.html?taskId=@@taskid@@`
 
 >[!NOTE]
 >

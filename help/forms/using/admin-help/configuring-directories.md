@@ -37,7 +37,7 @@ For each enterprise domain you configure, specify the directories that the authe
 
 ### Add a custom SPI {#add-a-custom-spi}
 
-For information about creating a custom SPI, see "Developing SPIs for AEM forms" in [Programming with AEM forms](http://www.adobe.com/go/learn_aemforms_programming_63). To make a newly deployed custom SPI available for association with the domain, restart the server.
+For information about creating a custom SPI, see "Developing SPIs for AEM forms" in [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63). To make a newly deployed custom SPI available for association with the domain, restart the server.
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click New Enterprise Domain or select an existing enterprise domain.

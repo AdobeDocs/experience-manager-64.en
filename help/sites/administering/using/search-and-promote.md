@@ -32,7 +32,7 @@ To call the Adobe Search&Promote service from your website, perform the followin
 
 ## Changing the Search&Promote service URL {#changing-the-search-promote-service-url}
 
-The default URL that is configured for the Search&Promote service is `http://searchandpromote.omniture.com/px/`. To use a different service, use the OSGi console to specify a different URL.
+The default URL that is configured for the Search&Promote service is `https://searchandpromote.omniture.com/px/`. To use a different service, use the OSGi console to specify a different URL.
 
 1. Open the OSGi console and click the Configuration tab. ([http://localhost:4502/system/console/configMgr.](http://localhost:4502/system/console/configMgr))  
 
@@ -75,15 +75,15 @@ Configure one or more connections to Search&Promote so that your web pages can i
    >In order to get this information **yourself,** first** **you need to log into 
    >
    >
-   >[http://searchandpromote.omniture.com/center/](http://searchandpromote.omniture.com/center/)
+   >[https://searchandpromote.omniture.com/center/](https://searchandpromote.omniture.com/center/)
    >
    >
    >using your valid Seach&Promote credentials (email/password).  
    >Then, you need to look at your url in your brouser's address bar which should look something like this:  
-   >[](http://searchandpromote.omniture.com/px/home/?sp_id=XXXXXXXX-spYYYYYYYY)
+   >[](https://searchandpromote.omniture.com/px/home/?sp_id=XXXXXXXX-spYYYYYYYY)
    >
    >
-   >[http://searchandpromote.omniture.com/px/home/?sp_id=XXXXXXXX-spYYYYYYYY](http://searchandpromote.omniture.com/px/home/?sp_id=XXXXXXXX-spYYYYYYYY)
+   >[https://searchandpromote.omniture.com/px/home/?sp_id=XXXXXXXX-spYYYYYYYY](https://searchandpromote.omniture.com/px/home/?sp_id=XXXXXXXX-spYYYYYYYY)
    >
    >
    >**Where:**

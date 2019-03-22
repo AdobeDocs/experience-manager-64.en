@@ -233,4 +233,4 @@ Adaptive forms keywords are predefined, reserved identifiers that have special m
  </tbody>
 </table>
 
-Apart from the keywords listed above, avoid using names which are similar to [adaptive forms JavaScript APIs](http://adobe.com/go/learn_aemforms_javascript_api_63).
+Apart from the keywords listed above, avoid using names which are similar to [adaptive forms JavaScript APIs](https://adobe.com/go/learn_aemforms_javascript_api_63).

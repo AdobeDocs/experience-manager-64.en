@@ -72,7 +72,7 @@ Before you restart the forms server after a recovery, do the following:
 1. Start the system in maintenance mode. 
 1. Do the following to ensure that Form Manager is synced with AEM forms in the maintenance mode:
 
-    1. Go to http://&lt;*server*&gt;:&lt;*port*&gt;/lc/fm and log in using adminstrator/password credentials.
+    1. Go to https://&lt;*server*&gt;:&lt;*port*&gt;/lc/fm and log in using adminstrator/password credentials.
     1. Click the name of the user (Super Administrator in this case) at top-right corner.
     1. Click **Admin Options**.
     1. Click **Start** to synchronize assets from the repository.

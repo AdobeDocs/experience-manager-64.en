@@ -15,7 +15,7 @@ discoiquuid: adb70b43-1b0b-4302-905a-c7612675dabb
 
 This page describes all the xtypes that are available with Adobe Experience Manager (AEM).
 
-In the ExtJS language, an xtype is a symbolic name given to a class. You can read the "Component XTypes" paragraph of the [Overview of ExtJS 2](http://www.sencha.com/learn/overview-of-extjs-2) for a detailed explanation about what an xtype is and how it can be used.
+In the ExtJS language, an xtype is a symbolic name given to a class. You can read the "Component XTypes" paragraph of the [Overview of ExtJS 2](https://www.sencha.com/learn/overview-of-extjs-2) for a detailed explanation about what an xtype is and how it can be used.
 
 For a complete information on all the available widgets in AEM refer to the [widget API documentation](/sites/developing/using/reference-materials/widgets-api/index.md).
 

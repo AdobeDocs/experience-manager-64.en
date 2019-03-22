@@ -29,7 +29,7 @@ If required, you can use the HTML tags supported by Adobe Flash® Player to form
 * &lt;textformat&gt; Text format tag
 * &lt;u&gt; Underline tag
 
-For more information about the supported tags, see the definition of the `htmlText` property for the TextField class in the [Flex Language Reference](http://www.adobe.com/support/documentation/en/flex/).
+For more information about the supported tags, see the definition of the `htmlText` property for the TextField class in the [Flex Language Reference](https://www.adobe.com/support/documentation/en/flex/).
 
 ## Set the message of the day {#set-the-message-of-the-day}
 

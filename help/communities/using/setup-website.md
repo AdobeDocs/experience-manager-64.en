@@ -93,7 +93,7 @@ The /apps directory is protected and not publicly accessible as are the /content
 
 The /etc/designs directory contains the images, scripts, and stylesheets to be downloaded along with the page content.
 
-1. To use the Deisgner tool in the Classic UI, browse to [http://&lt;server&gt;:&lt;port&gt;/miscadmin](http://localhost:4502/miscadmin).
+1. To use the Deisgner tool in the Classic UI, browse to [https://&lt;server&gt;:&lt;port&gt;/miscadmin](http://localhost:4502/miscadmin).
 
    Note: If you use CRXDE Lite to create a Node of type `cq:Page`, the Access Control and Replication would not be set to default settings for a page.
 

@@ -24,8 +24,8 @@ In addition to using pre-existing editor components, Adobe Experience Manager (A
 The following sample pages are included in geometrixx:
 
 * Geometrixx Sample Page: **/content/geometrixx/en/press/asseteditor.html**
-* Sample Template: **/apps/geometrixx/templates/asseteditor**
-* Sample Page Component: **/apps/geometrixx/components/asseteditor**
+* Sample Template:** /apps/geometrixx/templates/asseteditor**
+* Sample Page Component:** /apps/geometrixx/components/asseteditor**
 
 ### Configuring Clientlib {#configuring-clientlib}
 
@@ -132,7 +132,7 @@ This example describes how to build a component that shows and displays the meta
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:Component"
        jcr:title="Image Dimension"
        sling:resourceSuperType="foundation/components/parbase"

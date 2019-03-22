@@ -20,7 +20,7 @@ This has the following impact:
 * Offloads requests from the server infrastructure.
 * Increases performance of page loading, as the browser caches objects in the browser cache.
 
-Expirations are specified by the HTTP standard regarding "expiration" of files (see, for example, chapter 14.21 of [RFC 2616](http://www.ietf.org/rfc/rfc2616.txt) " Hypertext Transfer Protocol -- HTTP 1.1"). This standard uses the header to allow clients to cache objects until they are considered stale; such objects are cached for the specified amount of time without any status check being made to the originating server.
+Expirations are specified by the HTTP standard regarding "expiration" of files (see, for example, chapter 14.21 of [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt) " Hypertext Transfer Protocol -- HTTP 1.1"). This standard uses the header to allow clients to cache objects until they are considered stale; such objects are cached for the specified amount of time without any status check being made to the originating server.
 
 >[!NOTE]
 >

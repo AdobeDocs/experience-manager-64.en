@@ -23,7 +23,7 @@ FFmpeg is used in the author environment to obtain metadata for uploaded enablem
 
 FFmpeg should be installed on the server(s) hosting the AEM *author* instance(s).
 
-1. Go to [http://www.ffmpeg.org](http://www.ffmpeg.org/) 
+1. Go to [https://www.ffmpeg.org](https://www.ffmpeg.org/) 
 1. Download the latest version of FFmpeg for your specific environment (Macintosh, Windows, or Linux)
 
     * it is important to keep FFmpeg up-to-date due to security vulnerabilities in older versions

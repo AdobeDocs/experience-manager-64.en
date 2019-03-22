@@ -87,9 +87,9 @@ These icons represents a Content Release package for app content
 
 ### The PhoneGap Build Tile {#the-phonegap-build-tile}
 
-The **PhoneGap Build Tile** connects with [http://build.phonegap.com](http://build.phonegap.com) to build and host remote buids. Once built, the build is made available either as a download or directly to your device via a QR code.
+The **PhoneGap Build Tile** connects with [https://build.phonegap.com](https://build.phonegap.com) to build and host remote buids. Once built, the build is made available either as a download or directly to your device via a QR code.
 
-Alternatively, you can download the device source to build locally through the [PhoneGap CLI](http://docs.phonegap.com/en/3.5.0/guide_cli_index.md.html).
+Alternatively, you can download the device source to build locally through the [PhoneGap CLI](https://docs.phonegap.com/en/3.5.0/guide_cli_index.md.html).
 
 ![PhoneGap Build Tile](assets/chlimage_1-140.png)
 
@@ -101,7 +101,7 @@ Alternatively, you can download the device source to build locally through the [
 >
 >See [Configure your Adobe Mobile Services Cloud Service](../../mobile/using/configure-adobe-mobile-cloud-service.md) for details.
 
-AEM Mobile integerates with Adobe Analytics through [Adobe Mobile Services SDK](http://www.adobe.com/ca/solutions/digital-marketing/mobile-services/app-sdk.html) (AMS).
+AEM Mobile integerates with Adobe Analytics through [Adobe Mobile Services SDK](https://www.adobe.com/ca/solutions/digital-marketing/mobile-services/app-sdk.html) (AMS).
 
 The Control Center **Metrics Tile** displays summary analytics pulled from AMS for your application. You can drill into the analytics dashboard by clicking the '...' in the bottom right.
 

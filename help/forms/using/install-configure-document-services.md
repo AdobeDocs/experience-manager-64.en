@@ -332,7 +332,7 @@ You can enable a non-administrator user to use the PDF Generator service. Normal
 
 While converting a document to PDF using the PDF Generator service on Windows Server, occasionally, Windows Server reports that the executable has encountered a problem and needs to close. However, it does not impact the PDF conversion as it continues in the background.
 
-To avoid receiving the error, you can disable the Windows error reporting. For more information on disabling error reporting, see [http://technet.microsoft.com/en-us/library/cc754364.aspx](http://technet.microsoft.com/en-us/library/cc754364.aspx).
+To avoid receiving the error, you can disable the Windows error reporting. For more information on disabling error reporting, see [https://technet.microsoft.com/en-us/library/cc754364.aspx](https://technet.microsoft.com/en-us/library/cc754364.aspx).
 
 ### Configure HTML to PDF conversion {#configure-html-to-pdf-conversion}
 
@@ -517,7 +517,7 @@ To use AES 256 encryption for PDF files, obtain and install the Java Cryptograph
 
 The Assembler service depends on the Reader Extensions service, Signature service, Forms service, and Output service. Perform the following steps to verify that the required services are up and running:
 
-1. Log in to URL http://[server]:[port]&gt;/system/console/bundles as an administrator.
+1. Log in to URL https://[server]:[port]&gt;/system/console/bundles as an administrator.
 1. Search the following service and ensure that the services are up and running:
 
 <table> 

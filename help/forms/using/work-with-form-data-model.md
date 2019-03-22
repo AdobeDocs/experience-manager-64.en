@@ -271,15 +271,15 @@ For example, you can create a computed property **FullName** whose value is a re
 
 ## Work with navigation properties of OData services {#work-with-navigation-properties-of-odata-services}
 
-In OData services, navigation properties are used to define associations between two data model objects. These properties are defined on an entity type or a complex type. For example, in the following extract from the metadata file of the sample [TripPin](http://www.odata.org/blog/trippin-new-odata-v4-sample-service/) OData sample services, the person entity contains three navigation properties - Friends, BestFriend, and Trips.
+In OData services, navigation properties are used to define associations between two data model objects. These properties are defined on an entity type or a complex type. For example, in the following extract from the metadata file of the sample [TripPin](https://www.odata.org/blog/trippin-new-odata-v4-sample-service/) OData sample services, the person entity contains three navigation properties - Friends, BestFriend, and Trips.
 
-For more information about navigation properties, see [OData documentation](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part3-csdl/odata-v4.0-errata03-os-part3-csdl-complete.html#_Toc453752536).
+For more information about navigation properties, see [OData documentation](https://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part3-csdl/odata-v4.0-errata03-os-part3-csdl-complete.html#_Toc453752536).
 
 ```xml
-<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+<edmx:Edmx xmlns:edmx="https://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
 <script/>
 <edmx:DataServices>
-<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="Microsoft.OData.Service.Sample.TrippinInMemory.Models">
+<Schema xmlns="https://docs.oasis-open.org/odata/ns/edm" Namespace="Microsoft.OData.Service.Sample.TrippinInMemory.Models">
 <EntityType Name="Person">
 <Key>
 <PropertyRef Name="UserName"/>

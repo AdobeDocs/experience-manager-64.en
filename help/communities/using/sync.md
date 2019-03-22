@@ -288,7 +288,7 @@ Make sure all the publishers in a publish farm have a unique Sling ID. If the Sl
  <summary>To ensure unique Sling ID of publishers in the publish farm</summary> 
  <p>On each publish instance:</p> 
  <ol> 
-  <li>Browse to <a href="http://localhost:4503/system/console/status-slingsettings">http://<em>host:port</em>/system/console/status-slingsettings</a>.</li> 
+  <li>Browse to <a href="http://localhost:4503/system/console/status-slingsettings">https://<em>host:port</em>/system/console/status-slingsettings</a>.</li> 
   <li>Check the value of <strong>Sling ID.</strong></li> 
  </ol> 
  <img imageRotate="0" src="assets/slingid.png" /> 

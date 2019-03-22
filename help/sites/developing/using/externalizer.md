@@ -13,7 +13,7 @@ discoiquuid: 53342acb-c1a5-443d-8727-cb27cc9d6845
 
 # Externalizing URLs{#externalizing-urls}
 
-In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. `/path/to/my/page`) into an external and absolute URL (for example, `http://www.mycompany.com/path/to/my/page`) by prefixing the path with a pre-configured DNS.
+In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. `/path/to/my/page`) into an external and absolute URL (for example, `https://www.mycompany.com/path/to/my/page`) by prefixing the path with a pre-configured DNS.
 
 Because an instance can not know its externally visible URL if it is running behind a web layer, and because sometimes a link has to be created outside of the request scope, this service provides a central place to configure those external URLs and build them.
 
@@ -25,12 +25,12 @@ The **Externalizer** service allows you to centrally define multiple domains tha
 
 To define a domain mapping for the **Externalizer** service:
 
-1. Navigate to the configuration manager via **Tools**, then** Web Console**, or enter `http://<host>:<port>/system/console/configMgr.`
+1. Navigate to the configuration manager via **Tools**, then** Web Console**, or enter `https://<host>:<port>/system/console/configMgr.`
 1. Click **Day CQ Link Externalizer** to open the configuration dialog box.
 
    >[!NOTE]
    >
-   >The direct link to the configuration is `http://<host>:<port>/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl`
+   >The direct link to the configuration is `https://<host>:<port>/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl`
 
    ![](assets/chlimage_1-44.png)
 
@@ -45,7 +45,7 @@ To define a domain mapping for the **Externalizer** service:
     
     * **contextpath** (optional) is only set if AEM is installed as a webapp under a different context path.
 
-   For example: `production http://my.production.instance`  
+   For example: `production https://my.production.instance`  
    The following mapping names are predefined and must always be set as AEM relies on them:
 
     * **local** - the local instance
@@ -75,18 +75,18 @@ This section shows a few examples of how the **Externalizer** service can be use
 
 `String myExternalizedUrl = externalizer.publishLink(resolver, "/my/page") + ".html";`
 
-Assuming the domain mapping " `publish http://www.website.com`", myExternalizedUrl ends up with the value " `http://www.website.com/contextpath/my/page.html`".
+Assuming the domain mapping " `publish https://www.website.com`", myExternalizedUrl ends up with the value " `https://www.website.com/contextpath/my/page.html`".
 
 **To externalize a path with the 'author' domain:**
 
 `String myExternalizedUrl = externalizer.authorLink(resolver, "/my/page") + ".html";`
 
-Assuming the domain mapping " `author http://author.website.com`", myExternalizedUrl ends up with the value " `http://author.website.com/contextpath/my/page.html`".
+Assuming the domain mapping " `author https://author.website.com`", myExternalizedUrl ends up with the value " `https://author.website.com/contextpath/my/page.html`".
 
 **To externalize a path with the 'local' domain:**
 
 `String myExternalizedUrl = externalizer.externalLink(resolver, Externalizer.LOCAL, "/my/page") + ".html";`
 
-Assuming the domain mapping " `local http://publish-3.internal`", myExternalizedUrl ends up with the value " `http://publish-3.internal/contextpath/my/page.html`".
+Assuming the domain mapping " `local https://publish-3.internal`", myExternalizedUrl ends up with the value " `https://publish-3.internal/contextpath/my/page.html`".
 
 You can find more examples in the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/Externalizer.md).

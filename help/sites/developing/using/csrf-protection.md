@@ -37,7 +37,7 @@ In order to make use of the tokens, you need to replicate the `/etc/keys/hmac` b
 
 >[!NOTE]
 >
->If you use the manifest cache with your web application, make sure you add "**&#42;**" to the manifest in order to make sure the token does not take the CSRF token generation call offline. For more information, consult this [link](http://www.w3.org/TR/offline-webapps/).
+>If you use the manifest cache with your web application, make sure you add "**&#42;**" to the manifest in order to make sure the token does not take the CSRF token generation call offline. For more information, consult this [link](https://www.w3.org/TR/offline-webapps/).
 >
 >For more information on CSRF attacks and ways to mitigate them, see the [Cross-Site Request Forgery OWASP page](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_%28CSRF%29).
 

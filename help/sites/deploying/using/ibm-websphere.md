@@ -40,7 +40,7 @@ To install eCommerce functionality you need:
     * this is part of a standard AEM installation  
     * CQ Geometrixx Outdoors demo store (needs seperate package, as Geometrixx demos are not part of AEM 6.3 any more)
 
-* AEM Websphere Commerce content packages, available through your [Daycare](http://daycare.day.com/home.html) account: ``
+* AEM Websphere Commerce content packages, available through your [Daycare](https://daycare.day.com/home.html) account: ``
 
     * 
     

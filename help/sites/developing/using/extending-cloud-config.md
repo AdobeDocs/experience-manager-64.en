@@ -155,7 +155,7 @@ The property will then be automatically encrypted (using the `CryptoSupport` ser
 
 >[!NOTE]
 >
->This is similar to the standard ` [SlingPostServlet](http://sling.apache.org/site/manipulating-content-the-slingpostservlet-servletspost.html)` annotations.
+>This is similar to the standard ` [SlingPostServlet](https://sling.apache.org/site/manipulating-content-the-slingpostservlet-servletspost.html)` annotations.
 
 >[!NOTE]
 >

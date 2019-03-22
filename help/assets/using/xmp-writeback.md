@@ -34,7 +34,7 @@ The XMP Writeback feature lets you propagate the metadata changes to all or spec
 
 To enable the metadata changes to be propagated to the renditions of the asset when uploading it, modify the **Adobe CQ DAM Rendition Maker** configuration in Configuration Manager.
 
-1. Open Configuration Manager from *http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
+1. Open Configuration Manager from *https://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
 1. Open the **Adobe CQ DAM Rendition Maker** configuration.
 1. Select the **Propagate XMP** option, and then save the changes. 
 
@@ -62,7 +62,7 @@ The metadata changes are propagated to the renditions renditions thumbnail.140.1
 
 >[!NOTE]
 >
->For XMP writeback issues in 64 bit Linux, see [How to enable XMP write-back on 64-bit RedHat Linux](http://helpx.adobe.com/experience-manager/kb/enable-xmp-write-back-64-bit-redhat.html).
+>For XMP writeback issues in 64 bit Linux, see [How to enable XMP write-back on 64-bit RedHat Linux](https://helpx.adobe.com/experience-manager/kb/enable-xmp-write-back-64-bit-redhat.html).
 >
 >For more information about supported platforms, see [XMP metadata write-back prerequisites](../../sites/deploying/using/technical-requirements.md#requirements-for-aem-assets-xmp-metadata-write-back).
 
@@ -74,7 +74,7 @@ Blacklist filtering lets you import all XMP metadata properties except the prope
 
 Whitelist filtering of XMP metadata resolves this issue by letting you define the XMP properties to be imported. This way, other/unknown XMP properties are ignored. You can add some of these properties to the blacklist filter for backward compatibility.
 
-1. Open Configuration Manager from *http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
+1. Open Configuration Manager from *https://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
 1. Open the **Adobe CQ DAM XmpFilter** configuration.
 1. To apply whitelist filtering, select **Apply Whitelist to XMP Properties**, and specify the properties to be imported in the **Whitelisted XML Names for XMP filtering** box.
 

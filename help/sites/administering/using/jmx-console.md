@@ -15,7 +15,7 @@ discoiquuid: 0798ae5c-e06e-425f-ba8a-9309eb233083
 
 The JMX Console enables you to monitor and manage services on the CRX server. The sections that follow summarize the attributes and operations that are exposed through the JMX framework.
 
-For information about how to use the console controls, see [Using the JMX Console](#using-the-jmx-console). For background information about JMX, see the [Java Management Extensions (JMX) Technology](http://www.oracle.com/technetwork/java/javase/tech/javamanagement-140525.html) page on the Oracle website.
+For information about how to use the console controls, see [Using the JMX Console](#using-the-jmx-console). For background information about JMX, see the [Java Management Extensions (JMX) Technology](https://www.oracle.com/technetwork/java/javase/tech/javamanagement-140525.html) page on the Oracle website.
 
 For information about creating MBeans to manage your services using the JMX Console, see [Integrating Services with the JMX Console](../../../sites/developing/using/jmx-integration.md).
 
@@ -831,12 +831,12 @@ Several third-party server resources install MBeans that expose attributes and o
   <tr> 
    <td>JMImplementation</td> 
    <td>MBeanServerDelegate</td> 
-   <td><a href="http://docs.oracle.com/javase/6/docs/api/javax/management/MBeanServerDelegate.html">javax.management.MBeanServerDelegate</a></td> 
+   <td><a href="https://docs.oracle.com/javase/6/docs/api/javax/management/MBeanServerDelegate.html">javax.management.MBeanServerDelegate</a></td> 
   </tr> 
   <tr> 
    <td>com.sun.management</td> 
    <td>HotSpotDiagnostic</td> 
-   <td><a href="http://docs.oracle.com/javase/6/docs/jre/api/management/extension/com/sun/management/HotSpotDiagnosticMXBean.html">com.sun.management.HotSpotDiagnosticMXBean</a></td> 
+   <td><a href="https://docs.oracle.com/javase/6/docs/jre/api/management/extension/com/sun/management/HotSpotDiagnosticMXBean.html">com.sun.management.HotSpotDiagnosticMXBean</a></td> 
   </tr> 
   <tr> 
    <td>java.lang</td> 
@@ -852,12 +852,12 @@ Several third-party server resources install MBeans that expose attributes and o
      <li>Runtime</li> 
      <li>Threading</li> 
     </ul> </td> 
-   <td><a href="http://docs.oracle.com/javase/1.5.0/docs/api/javax/management/package-summary.html">javax.management</a> package</td> 
+   <td><a href="https://docs.oracle.com/javase/1.5.0/docs/api/javax/management/package-summary.html">javax.management</a> package</td> 
   </tr> 
   <tr> 
    <td>java.util.logging</td> 
    <td> </td> 
-   <td><a href="http://developer.apple.com/library/mac/documentation/java/reference/javase6_api/api/java/util/logging/LoggingMXBean.html">java.util.logging.LoggingMXBean</a></td> 
+   <td><a href="https://developer.apple.com/library/mac/documentation/java/reference/javase6_api/api/java/util/logging/LoggingMXBean.html">java.util.logging.LoggingMXBean</a></td> 
   </tr> 
   <tr> 
    <td>osgi.core</td> 
@@ -868,7 +868,7 @@ Several third-party server resources install MBeans that expose attributes and o
      <li>packageState</li> 
      <li>serviceState</li> 
     </ul> </td> 
-   <td><a href="http://www.osgi.org/javadoc/r4v42/org/osgi/jmx/framework/package-summary.html">org.osgi.jmx.framework</a> package</td> 
+   <td><a href="https://www.osgi.org/javadoc/r4v42/org/osgi/jmx/framework/package-summary.html">org.osgi.jmx.framework</a> package</td> 
   </tr> 
  </tbody> 
 </table>
@@ -891,7 +891,7 @@ The main page of the JMX console includes a table of services. Each row in the t
 
 ## Using External JMX Applications for Monitoring {#using-external-jmx-applications-for-monitoring}
 
-CRX allows external applications to interact with Managed Beans (MBeans) via [Java Management Extensions (JMX)](http://docs.oracle.com/javase/6/docs/technotes/guides/management/overview.html). Using generic consoles such as [JConsole](http://java.sun.com/developer/technicalArticles/J2SE/jconsole.html) or domain-specific monitoring applications, allows getting and setting CRX configurations and properties, as well as the monitoring of performance and resource usage.
+CRX allows external applications to interact with Managed Beans (MBeans) via [Java Management Extensions (JMX)](https://docs.oracle.com/javase/6/docs/technotes/guides/management/overview.html). Using generic consoles such as [JConsole](https://java.sun.com/developer/technicalArticles/J2SE/jconsole.html) or domain-specific monitoring applications, allows getting and setting CRX configurations and properties, as well as the monitoring of performance and resource usage.
 
 ### Using JConsole to connect to CRX {#using-jconsole-to-connect-to-crx}
 
@@ -924,7 +924,7 @@ By default, when you enable the JMX agent for remote monitoring, it uses passwor
 
 `com.sun.management.jmxremote.password.file=pwFilePath`
 
-See the [relevant JMX documentation](http://docs.oracle.com/javase/6/docs/technotes/guides/management/agent.html) for detailed instructions on setting up a password file.
+See the [relevant JMX documentation](https://docs.oracle.com/javase/6/docs/technotes/guides/management/agent.html) for detailed instructions on setting up a password file.
 
 Example:
 

@@ -23,7 +23,7 @@ This page provides further details to elaborate on and/or augment the documents 
 
 ### Features within AEM {#features-within-aem}
 
-When implementing AEM (particularly for the first time) you will need to review the [capabilites and workflows of AEM](http://www.adobe.com/marketing-cloud/experience-manager.html) to be sure of which areas you want/need.
+When implementing AEM (particularly for the first time) you will need to review the [capabilites and workflows of AEM](https://www.adobe.com/marketing-cloud/experience-manager.html) to be sure of which areas you want/need.
 
 Consider the features of AEM that you will be using, and the impact on your design; for example:
 
@@ -533,7 +533,7 @@ The following list is provided to inform you of tools that can be used. It is in
   </tr> 
   <tr> 
    <td>Selenium</td> 
-   <td><a href="http://docs.seleniumhq.org/">Selenium</a> is an Open Source test tool. The tests run direct in the browser - emulating how your users work.</td> 
+   <td><a href="https://docs.seleniumhq.org/">Selenium</a> is an Open Source test tool. The tests run direct in the browser - emulating how your users work.</td> 
   </tr> 
   <tr> 
    <td>Microsoft Project</td> 

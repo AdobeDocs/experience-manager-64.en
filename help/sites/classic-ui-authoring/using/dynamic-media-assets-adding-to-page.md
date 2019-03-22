@@ -19,7 +19,7 @@ You add dynamic media assets directly to the page if you are using AEM as your W
 
 >[!NOTE]
 >
->To use image maps with the Dynamic Media viewer (when working with images), you need to create a custom viewer using our SDK. To download the SDK and documentation, please see [the SDK documentation.](http://help.adobe.com/en_US/scene7/using/WSd4272150f67705c11b002eec12fcba4dee6-8000.html)
+>To use image maps with the Dynamic Media viewer (when working with images), you need to create a custom viewer using our SDK. To download the SDK and documentation, please see [the SDK documentation.](https://help.adobe.com/en_US/scene7/using/WSd4272150f67705c11b002eec12fcba4dee6-8000.html)
 >
 >Image maps are available out of the box for carousel banners.
 

@@ -48,7 +48,7 @@ To configure AEM to integrate with Salesforce:
    >
    >The new configuration redirects to a new page: **http://localhost:4502/etc/cloudservices/salesforce/developer.html**. This is the exact same value that you need to specify in the Callback URL while createing the remote access application in Salesforce. These values must match.
 
-1. Log in to your salesforce account (or if you do not have one, create one at [http://developer.force.com](http://developer.force.com).)
+1. Log in to your salesforce account (or if you do not have one, create one at [https://developer.force.com](https://developer.force.com).)
 1. In Salesforce, navigate to **Create** &gt; **Apps **to get to **Connected Apps** (in former versions of salesforce, the workflow was **Deploy** &gt; **Remote Access**). 
 1. Click **New** to connect AEM with Salesforce. 
 
@@ -133,9 +133,9 @@ To configure the Salesforce.com export workflow:
 
 ### Mapping configuration between AEM user and Salesforce Lead {#mapping-configuration-between-aem-user-and-salesforce-lead}
 
-To view or edit the current mapping configuration between an AEM user and a Salesforce lead, open the Configuration Manager: `http://<hostname>:<port>/system/console/configMgr` and search for **Salesforce Lead Mapping Configuration**.
+To view or edit the current mapping configuration between an AEM user and a Salesforce lead, open the Configuration Manager: `https://<hostname>:<port>/system/console/configMgr` and search for **Salesforce Lead Mapping Configuration**.
 
-1. Open the Configuration Manager by clicking **Web Console** or going directly to `http://<hostname>:<port>/system/console/configMgr.`
+1. Open the Configuration Manager by clicking **Web Console** or going directly to `https://<hostname>:<port>/system/console/configMgr.`
 1. Search for **Salesforce Lead Mapping Configuration**.
 
    ![](assets/chlimage_1-94.png)

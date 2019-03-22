@@ -66,7 +66,7 @@ In any case, the backup creates an image (or snapshot) of the repository. Then t
 
 >[!CAUTION]
 >
->The online backup only backs up the file system. If you store the repository content and/or the repository files in a database, that database needs to backed up separately. If you are using AEM with MongoDB, see documentation on how to use the [MongoDB native backup tools](http://docs.mongodb.org/manual/tutorial/backup-with-mongodump/).
+>The online backup only backs up the file system. If you store the repository content and/or the repository files in a database, that database needs to backed up separately. If you are using AEM with MongoDB, see documentation on how to use the [MongoDB native backup tools](https://docs.mongodb.org/manual/tutorial/backup-with-mongodump/).
 
 ### AEM Online Backup {#aem-online-backup}
 
@@ -127,7 +127,7 @@ To create a backup:
 
    >
    >
-   >` http://<*hostname*>:<*port-number*>/libs/granite/backup/content/admin.html`
+   >` https://<*hostname*>:<*port-number*>/libs/granite/backup/content/admin.html`
 
 1. Click **Save**, a progress bar will indicate the progress of the backup.
 

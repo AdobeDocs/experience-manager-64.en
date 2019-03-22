@@ -196,7 +196,7 @@ Below is the procedure that needs to be followed in order to create a setup with
 
 The service can also be configured via the Web Console, by:
 
-1. Going to the Web Console at: *http://serveraddress:serverport/system/console/configMgr*
+1. Going to the Web Console at: *https://serveraddress:serverport/system/console/configMgr*
 1. Looking for a service called **TarMK Cold Standby service** and double click it to edit the settings.
 1. Saving the settings, and restarting the instances so the new settings can take effect.
 

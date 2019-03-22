@@ -101,15 +101,15 @@ For more information on how to do this, see the [Logging documentation](../../..
 
 Lucene registers a JMX bean that will provide details about indexed content including the size and number of documents present in each of the indexes.
 
-You can reach it by accessing the JMX Console at `http://server:port/system/console/jmx`
+You can reach it by accessing the JMX Console at `https://server:port/system/console/jmx`
 
 Once you are logged in to the JMX console, perform a search for **Lucene Index Statistics** in order to find it. Other index statistics can be found in the **IndexStats** MBean.
 
 For query statistics, take a look at the MBean named **Oak Query Statistics**.
 
-If you would like to dig into your indexes using a tool like [Luke](https://code.google.com/p/luke/), you will need to use the Oak console to dump the index from the `NodeStore` to a filesystem directory. For instructions on how to do this, please read the [Lucene documentation](http://jackrabbit.apache.org/oak/docs/query/lucene.html).
+If you would like to dig into your indexes using a tool like [Luke](https://code.google.com/p/luke/), you will need to use the Oak console to dump the index from the `NodeStore` to a filesystem directory. For instructions on how to do this, please read the [Lucene documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
-You can also extract the indexes in your system in JSON format. In order to do this, you need to access `http://server:port/oak:index.tidy.-1.json`
+You can also extract the indexes in your system in JSON format. In order to do this, you need to access `https://server:port/oak:index.tidy.-1.json`
 
 ### Query Limits {#query-limits}
 
@@ -140,7 +140,7 @@ The recommended values are :
 
 In AEM 6.3, the above 2 parameters are preconfigured OOTB, and can be persisted via the OSGi QueryEngineSettings.
 
-More information available under : http://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits
+More information available under : https://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits
 
 ## Tips for Creating Efficient Indexes {#tips-for-creating-efficient-indexes}
 
@@ -156,7 +156,7 @@ Additionally, indexes are only useful if the data contained within the index is 
 
 Lucene indexes were introduced in Oak 1.0.9 and offer some powerful optimizations over the property indexes that were introduced in the initial launch of AEM 6. When deciding whether to use Lucene indexes or property indexes, take the following into consideration:
 
-* Lucene indexes offer many more features than property indexes. For example, a property index can only index a single property while a Lucene index can include many. For more information on all of the features available in Lucene indexes, consult the [documentation](http://jackrabbit.apache.org/oak/docs/query/lucene.html).
+* Lucene indexes offer many more features than property indexes. For example, a property index can only index a single property while a Lucene index can include many. For more information on all of the features available in Lucene indexes, consult the [documentation](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 * Lucene indexes are asynchronous. While this offers a considerable performance boost, it can also induce a delay between when data is written to the repository and when the index is updated. If it is vital to have queries return 100% accurate results, a property index would be required.
 * By virtue of being asynchronous, Lucene indexes cannot enforce uniqueness constraints. If this is required, then a property index will need to be put in place.
 
@@ -170,7 +170,7 @@ Solr indexes can be configured to run embedded on the AEM server for development
 
 >[!NOTE]
 >
->While taking the integrated Solr search approach would allow for offloading of indexing to a Solr server. If the more advanced features of the Solr server are used through a crawler based approach, additional configuration work will be required. Headwire has created an [open source connector](http://www.aemsolrsearch.com/#/) to accelerate these types of implementations.
+>While taking the integrated Solr search approach would allow for offloading of indexing to a Solr server. If the more advanced features of the Solr server are used through a crawler based approach, additional configuration work will be required. Headwire has created an [open source connector](https://www.aemsolrsearch.com/#/) to accelerate these types of implementations.
 
 The downside to taking this approach is that while by default, AEM queries will respect ACLs and thus hide results that a user does not have access to, externalizing search to a Solr server will not support this feature. If search is to be externalized in this way, extra care must be taken to ensure that users are not presented with results that they should not see.
 
@@ -205,7 +205,7 @@ When removing an index on a MongoDB instance, the cost of deletion is proportion
 
 >[!NOTE]
 >
->For more information about oak-mongo.js, see the [Command Line Tools section](http://jackrabbit.apache.org/oak/docs/command_line.html) of the Oak documentation.
+>For more information about oak-mongo.js, see the [Command Line Tools section](https://jackrabbit.apache.org/oak/docs/command_line.html) of the Oak documentation.
 
 ## Re-indexing {#re-indexing}
 
@@ -240,7 +240,7 @@ The following detail possible issues together with resolutions:
 * Applies for/if:
 
     * All Oak versions
-    * Only [property indexes](http://jackrabbit.apache.org/oak/docs/query/property-index.html)
+    * Only [property indexes](https://jackrabbit.apache.org/oak/docs/query/property-index.html)
 
 * Symptoms:
 
@@ -266,7 +266,7 @@ The following detail possible issues together with resolutions:
 * Applies for/if:
 
     * All Oak versions
-    * Only [lucene indexes](http://jackrabbit.apache.org/oak/docs/query/lucene.html)
+    * Only [lucene indexes](https://jackrabbit.apache.org/oak/docs/query/lucene.html)
 
 * Symptoms:
 
@@ -288,7 +288,7 @@ The following detail possible issues together with resolutions:
 
         * If existing content is not effected by the changes then only a refresh is needed
 
-            * [Refresh](http://jackrabbit.apache.org/oak/docs/query/lucene.html#stored-index-definition) the lucene index by setting [oak:queryIndexDefinition]@refresh=true
+            * [Refresh](https://jackrabbit.apache.org/oak/docs/query/lucene.html#stored-index-definition) the lucene index by setting [oak:queryIndexDefinition]@refresh=true
 
         * Else, [re-index](#how-to-re-index) the lucene index
 
@@ -310,7 +310,7 @@ The following detail possible issues together with resolutions:
 * Applies for/if:
 
     * All Oak versions
-    * Only [lucene indexes](http://jackrabbit.apache.org/oak/docs/query/lucene.html)
+    * Only [lucene indexes](https://jackrabbit.apache.org/oak/docs/query/lucene.html)
 
 * Symptoms:
 
@@ -338,7 +338,7 @@ The following detail possible issues together with resolutions:
 * Applies for/if:
 
     * All Oak versions
-    * Only [lucene indexes](http://jackrabbit.apache.org/oak/docs/query/lucene.html)
+    * Only [lucene indexes](https://jackrabbit.apache.org/oak/docs/query/lucene.html)
 
 * Symptoms:
 
@@ -388,7 +388,7 @@ The following detail possible issues together with resolutions:
 
 >[!NOTE]
 >
->The preceding section summarizes and frames the Oak re-indexing guidance from the [Apache Oak documentation](http://jackrabbit.apache.org/oak/docs/query/indexing.html#reindexing) in the context of AEM.
+>The preceding section summarizes and frames the Oak re-indexing guidance from the [Apache Oak documentation](https://jackrabbit.apache.org/oak/docs/query/indexing.html#reindexing) in the context of AEM.
 
 ### Text Pre-extraction of Binaries {#text-pre-extraction-of-binaries}
 
@@ -423,7 +423,7 @@ Under normal operation of AEM, for example uploading Assets via the Web UI or pr
 * The content (binaries) from which to pre-extract text, must be in the repository
 * A maintenance window to generate the CSV file AND to perform the final re-indexing
 * Oak version: 1.0.18+, 1.2.3+
-* [oak-run.jar](http://mvnrepository.com/artifact/org.apache.jackrabbit/oak-run/)version 1.7.4+
+* [oak-run.jar](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-run/)version 1.7.4+
 * A file system folder/share to store extracted text accessible from the indexing AEM instance(s)
 
     * The Text pre-extraction OSGi config requires a file system path to the extracted text files, so they must be accessible directly from the AEM instance (local drive or file share mount)

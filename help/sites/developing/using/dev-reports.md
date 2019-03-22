@@ -361,7 +361,7 @@ An example dialog can look as follows:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Dialog"
     height="{Long}424">
     <items jcr:primaryType="cq:WidgetCollection">
@@ -704,7 +704,7 @@ N:definitions
 
 #### Preprocessing - Find and Replace Patterns {#preprocessing-find-and-replace-patterns}
 
-For preprocessing you can specify a `pattern` (defined as a [regular expression](http://en.wikipedia.org/wiki/Regular_expression) or regex) that is located and then substituted by the `replace` pattern:
+For preprocessing you can specify a `pattern` (defined as a [regular expression](https://en.wikipedia.org/wiki/Regular_expression) or regex) that is located and then substituted by the `replace` pattern:
 
 * `pattern`  
   The regular expression used to locate a substring.

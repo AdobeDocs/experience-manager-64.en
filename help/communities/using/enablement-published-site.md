@@ -50,7 +50,7 @@ A known limitation exposes the community site content to anonymous visitors thro
 
 To protect your community site's content from access by anonymous users through  jcr  content and  json , follow these steps:
 
-1. On AEM Author instance, go to http://&lt;host&gt;:&lt;port&gt;/editor.html/content/site/&lt;sitename&gt;.html.
+1. On AEM Author instance, go to https://&lt;host&gt;:&lt;port&gt;/editor.html/content/site/&lt;sitename&gt;.html.
 
    >[!NOTE]
    >

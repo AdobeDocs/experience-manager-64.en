@@ -36,11 +36,11 @@ You can perform these tasks using the Backup and Restore service:
 
 >[!NOTE]
 >
->For more information about what to consider when performing backups for AEM Forms, see [administration help](http://www.adobe.com/go/learn_aemforms_admin_63).
+>For more information about what to consider when performing backups for AEM Forms, see [administration help](https://www.adobe.com/go/learn_aemforms_admin_63).
 
 >[!NOTE]
 >
->For more information about the Backup and Restore service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Backup and Restore service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Entering Backup Mode on the forms server {#entering-backup-mode-on-the-forms-server}
 
@@ -50,11 +50,11 @@ You enter backup mode to allow for hot backups of a forms server. When you enter
 * The time for the backup procedure to complete.
 * A flag to indicate whether to be in continuous backup mode, which is useful only if you are performing rolling backups.
 
-Before you write applications to enter into backup mode, it is recommended that you understand the backup procedures that will be used after you put the forms server in backup mode. For more information about what to consider when performing backups for AEM Forms, see [administration help](http://www.adobe.com/go/learn_aemforms_admin_63).
+Before you write applications to enter into backup mode, it is recommended that you understand the backup procedures that will be used after you put the forms server in backup mode. For more information about what to consider when performing backups for AEM Forms, see [administration help](https://www.adobe.com/go/learn_aemforms_admin_63).
 
 >[!NOTE]
 >
->For more information about the Backup and Restore service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Backup and Restore service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -79,7 +79,7 @@ To programmatically leave backup mode, you create a BackupService client object 
 
 **Decide upon a unique label, determine the amount of time to perform the backup, and decide whether to be in continuous backup mode**
 
-Before you enter backup mode, you should decide upon a unique label, determine the amount of time that you want to allocate to perform the backup, and decide whether you want the forms server to stay in backup mode. These considerations are important to integrate with the backup procedures established by your organization. (See [administration help](http://www.adobe.com/go/learn_aemforms_admin_63).)
+Before you enter backup mode, you should decide upon a unique label, determine the amount of time that you want to allocate to perform the backup, and decide whether you want the forms server to stay in backup mode. These considerations are important to integrate with the backup procedures established by your organization. (See [administration help](https://www.adobe.com/go/learn_aemforms_admin_63).)
 
 **Enter backup mode**
 
@@ -175,11 +175,11 @@ Enter backup mode by using the web service provided by Backup and Restore Servic
 
 You leave backup mode so that the forms server resumes purging of files from the GDS (Global Document Storage) on the forms server.
 
-Before you write applications to enter into leave mode, it is recommended that you understand the backup procedures that are used with AEM Forms. For more information about what to consider when performing backups for AEM Forms, see [administration help](http://www.adobe.com/go/learn_aemforms_admin_63).
+Before you write applications to enter into leave mode, it is recommended that you understand the backup procedures that are used with AEM Forms. For more information about what to consider when performing backups for AEM Forms, see [administration help](https://www.adobe.com/go/learn_aemforms_admin_63).
 
 >[!NOTE]
 >
->For more information about the Backup and Restore service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Backup and Restore service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 

@@ -22,7 +22,7 @@ It is the successor to Jackrabbit 2 and is used by AEM 6 as the default backend 
 
 ## Design principles and goals {#design-principles-and-goals}
 
-Oak implements the [JSR-283](http://www.day.com/day/en/products/jcr/jsr-283.html) (JCR 2.0) spec. Its principal design objectives are:
+Oak implements the [JSR-283](https://www.day.com/day/en/products/jcr/jsr-283.html) (JCR 2.0) spec. Its principal design objectives are:
 
 * Better support for big repositories
 * Multiple distributed cluster nodes for high availability

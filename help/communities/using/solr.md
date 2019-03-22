@@ -15,7 +15,7 @@ discoiquuid: e228f1db-91ea-4ec3-86da-06d89d74bc72
 
 ## Solr for AEM Platform {#solr-for-aem-platform}
 
-An [Apache Solr](http://lucene.apache.org/solr/) installation may be shared between the [node store](../../sites/deploying/using/data-store-config.md) (Oak) and [common store](../../communities/using/working-with-srp.md) (SRP) by using different collections.
+An [Apache Solr](https://lucene.apache.org/solr/) installation may be shared between the [node store](../../sites/deploying/using/data-store-config.md) (Oak) and [common store](../../communities/using/working-with-srp.md) (SRP) by using different collections.
 
 If both the Oak and SRP collections are used intensively, a second Solr may be installed for performance reasons.
 
@@ -25,7 +25,7 @@ For production environments, [SolrCloud mode](#solrcloud-mode) provides improved
 
 Download and install Apache Solr:
 
-* [version 4.10](http://archive.apache.org/dist/lucene/solr/4.10.4/) or [version 5](http://archive.apache.org/dist/lucene/solr/5.5.3/)
+* [version 4.10](https://archive.apache.org/dist/lucene/solr/4.10.4/) or [version 5](https://archive.apache.org/dist/lucene/solr/5.5.3/)
 
 * Solr requires Java 1.7 or greater
 * no service is needed

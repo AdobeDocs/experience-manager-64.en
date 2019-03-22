@@ -92,9 +92,9 @@ Follow the same steps to create a reverse replication agent.
 
 #### Creating Standard Replication Agents  {#creating-standard-replication-agents}
 
-1. Create standard replication agent for pub1 (out-of-the-box default agent should already be configured) (for example, *http://&lt;hostname&gt;:4503/bin/receive?sling:authRequestLogin=1*)  
+1. Create standard replication agent for pub1 (out-of-the-box default agent should already be configured) (for example, *https://&lt;hostname&gt;:4503/bin/receive?sling:authRequestLogin=1*)  
 
-1. Create standard replication agent for pub2. You can copy rep agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration. (for example, *http://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
+1. Create standard replication agent for pub2. You can copy rep agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration. (for example, *https://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Creating Screens Replication Agents {#creating-screens-replication-agents}
 
@@ -114,7 +114,7 @@ Set up Apache Sling Oak-Based Discovery for all Publish instances in the topolog
   
 For each publish instance:
 
-1. Navigate to http://&lt;host&gt;:&lt;port&gt;/system/console/configMgr
+1. Navigate to https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr
 1. Select **Apache Sling Oak-Based Discovery Service** Configuration.
 1. Update Topology connector URLs: add URLs of all partaking publish instances that is, [http://localhost:4502/libs/sling/topology/connector](http://localhost:4502/libs/sling/topology/connector)
 1. Topology connector Whitelist: adapt to IPs or subnets covering partaking publish instances
@@ -124,7 +124,7 @@ The configuration should be identical for each publish instance and the auto-sto
 
 ### Step 2: Verify Publish Topology {#step-verify-publish-topology}
 
-For any of the Publish instances navigate to http://&lt;host&gt;:&lt;port&gt;/system/console/topology. You should see each publish instance represented in the topology.
+For any of the Publish instances navigate to https://&lt;host&gt;:&lt;port&gt;/system/console/topology. You should see each publish instance represented in the topology.
 
 ### Step 3: Setup ActiveMQ Artemis Cluster {#step-setup-activemq-artemis-cluster}
 
@@ -133,7 +133,7 @@ The cluster user and password of all publish instances in the topology needs to 
 
 On each Publish Instance:
 
-1. In the OSGi Console navigate to **MAIN** --&gt; **Crypto Support** (*http://&lt;host&gt;:&lt;port&gt;/system/console/crypto*).
+1. In the OSGi Console navigate to **MAIN** --&gt; **Crypto Support** (*https://&lt;host&gt;:&lt;port&gt;/system/console/crypto*).
 
 1. Type in the desired plain text password (same for all instances) in **Plain Text**
 1. Click **Protect**.
@@ -150,7 +150,7 @@ Pub2 - {8d3d113c834cc4f52c2daee0da3cb0a21122a31f0138bfe4b70c9ead79415f41}
 
 On each publish instance:
 
-1. Navigate to the OSGi Config manager *http://&lt;host&gt;:&lt;port&gt;/system/console/configMgr*
+1. Navigate to the OSGi Config manager *https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr*
 1. Select **Apache ActiveMQ Artemis JMS Provider** Configuration
 1. Update the following:
 

@@ -190,7 +190,7 @@ Finally, upload the **localhostprivate.der** as the Private Key and **localhost.
 
 You can also automate the SSL configuration by using the cURL tool. You can do this by posting the configuration parameters to this URL:
 
-*http://serveraddress:serverport/libs/granite/security/post/sslSetup.html*
+*https://serveraddress:serverport/libs/granite/security/post/sslSetup.html*
 
 Below are the parameters you can use in order to change the various settings in the configuration wizard:
 
@@ -218,7 +218,7 @@ Below are the parameters you can use in order to change the various settings in 
 >A correct cURL post command should look like this:
 
 ```shell
-curl -u user:password -F "keystorePassword=password" -F "keystorePasswordConfirm=password" -F "truststorePassword=password" -F "truststorePasswordConfirm=password" -F "privatekeyFile=@localhostprivate.der" -F "certificateFile=@localhost.crt" -F "httpsHostName=host.example.com" -F "httpsPort=8443" http://host:port/libs/granite/security/post/sslSetup.html
+curl -u user:password -F "keystorePassword=password" -F "keystorePasswordConfirm=password" -F "truststorePassword=password" -F "truststorePasswordConfirm=password" -F "privatekeyFile=@localhostprivate.der" -F "certificateFile=@localhost.crt" -F "httpsHostName=host.example.com" -F "httpsPort=8443" https://host:port/libs/granite/security/post/sslSetup.html
 ```
 
 #### Multiple certificates using cURL {#multiple-certificates-using-curl}

@@ -18,11 +18,11 @@ You can programmatically validate a DDX document that is used by the Assembler s
 
 >[!NOTE]
 >
->For more information about the Assembler service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Assembler service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]
 >
->For more information about a DDX document, see [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddx_63).
+>For more information about a DDX document, see [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddx_63).
 
 ## Summary of steps {#summary-of-steps}
 
@@ -174,7 +174,7 @@ Validate a DDX document by using the Assembler Service API (web service):
 
     * Create an `AssemblerOptionSpec` object that stores run-time options by using its constructor.
     * Set the run-time option that instructs the Assembler service to validate the DDX document by assigning the value true to the `AssemblerOptionSpec` object’s `validateOnly` data member. 
-    * Set the amount of information that the Assembler service writes to the log file by assigning a string value to the `AssemblerOptionSpec` object’s `logLevel` data member. method When validating a DDX document, you want more information written to the log file that will assist in the validation process. As a result, you can specify the value `FINE` or `FINER`. For information about the run-time options that you can set, see the `AssemblerOptionSpec` class reference in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+    * Set the amount of information that the Assembler service writes to the log file by assigning a string value to the `AssemblerOptionSpec` object’s `logLevel` data member. method When validating a DDX document, you want more information written to the log file that will assist in the validation process. As a result, you can specify the value `FINE` or `FINER`. For information about the run-time options that you can set, see the `AssemblerOptionSpec` class reference in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 1. Perform the validation.
 

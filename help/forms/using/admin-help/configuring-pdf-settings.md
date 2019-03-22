@@ -376,7 +376,7 @@ In traditional print production, a halftone is produced by placing a halftone sc
 
 The Advanced options specify which Document Structuring Conventions (DSC) comments to keep in the PDF file and how to set other options that affect the conversion from PostScript. In a PostScript file, DSC comments contain information about the file (such as the originating application, creation date, and page orientation). They also provide structure for page descriptions in the file (such as beginning and ending statements for a prologue section). DSC comments can be useful when your document is going to print or press. For instructions about accessing the Advanced options, see [Add or edit PDF settings](configuring-pdf-settings.md#add_or_edit_pdf_settings).
 
-When working with the Advanced options, it is helpful to have an understanding of the PostScript language and how it is translated to PDF. (See [Adobe PostScript 3](http://www.adobe.com/products/postscript/main.html).)
+When working with the Advanced options, it is helpful to have an understanding of the PostScript language and how it is translated to PDF. (See [Adobe PostScript 3](https://www.adobe.com/products/postscript/main.html).)
 
 **Allow PostScript File to Override Adobe PDF Settings:** Uses settings that are stored in a PostScript file instead of the current Adobe PDF settings file. Before processing a PostScript file, you can place parameters in the file to control the following aspects:
 

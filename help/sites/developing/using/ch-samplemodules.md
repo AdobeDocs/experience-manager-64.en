@@ -45,7 +45,7 @@ Configure the contexthub.base UI module using a Javascript object in JSON format
 * **title:** A title for the UI module. The title appears when the pointer is paused over the UI module icon.
 * **fullscreen:** A boolean value that indicates whether the UI module supports fullscreen mode. Use `true` to support fullscreen and `false` to prevent fullscreen mode.
 
-* **template:** A [Handlebars](http://handlebarsjs.com/) template that specifies the content to render in the ContextHub toolbar. Use at most two `<p>` tags. 
+* **template:** A [Handlebars](https://handlebarsjs.com/) template that specifies the content to render in the ContextHub toolbar. Use at most two `<p>` tags. 
 
 * **storeMapping:** A key/store mapping. Use the key in Handlebar templates to access the associated ContextHub store data. 
 * **list:** An array of items to display as a list in a popover when the UI module is clicked. If you include this item, do not include popoverTemplate. The value is an array of objects with the following keys:

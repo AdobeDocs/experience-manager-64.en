@@ -33,7 +33,7 @@ To view your notifications:
    >You can also access the console directly in your browser; for example:
    >
    >
-   >` http://<*host*>:<*port*>/libs/wcm/core/content/inbox.html`
+   >` https://<*host*>:<*port*>/libs/wcm/core/content/inbox.html`
 
 1. Your notifcations will be listed. You can take actions as required:
 
@@ -55,7 +55,7 @@ To subscribe to notifications:
    >You can also access the console directly in your browser; for example:
    >
    >
-   >`http://<*host*>:<*port*>/libs/wcm/core/content/inbox.html`
+   >`https://<*host*>:<*port*>/libs/wcm/core/content/inbox.html`
 
 1. Click **Configure...** in the top left corner to open the configuration dialog.
 

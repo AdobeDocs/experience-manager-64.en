@@ -107,7 +107,7 @@ This section only details specific links to Adobe Campaign. For more information
 
    >[!NOTE]
    >
-   >You can add/remove fields that are displayed in the recipient table by following the instructions here: [http://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/](http://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/)
+   >You can add/remove fields that are displayed in the recipient table by following the instructions here: [https://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/](https://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/)
 
 1. Click **Publish Page**. The page is activated on your site. You can view it by going to your AEM publication instance. You can also [test a form](#testing-a-form).
 

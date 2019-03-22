@@ -39,7 +39,7 @@ The employee recruitment use case involves two workflows:
 
 These workflows are created in AEM and can be found at:
 
-`http://[authorHost]:[authorPort]/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models/`
+`https://[authorHost]:[authorPort]/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models/`
 
 #### We Finance Employee Recruiting workflow {#we-finance-employee-recruiting-workflow}
 
@@ -80,11 +80,11 @@ Sarah clicks Apply on a job posting. The job application form opens. She fills a
 
 ### How it works {#how-it-works}
 
-The We.Finance home page and the career page are AEM Sites pages. The career page embeds an adaptive form, which uses a repeatable panel to fetch job openings using a service and list them on the page. You can review the adaptive form at `http://[authorHost]:[authorPort]/editor.html/content/forms/af/we-finance/employee/recruitment/jobs.html`.
+The We.Finance home page and the career page are AEM Sites pages. The career page embeds an adaptive form, which uses a repeatable panel to fetch job openings using a service and list them on the page. You can review the adaptive form at `https://[authorHost]:[authorPort]/editor.html/content/forms/af/we-finance/employee/recruitment/jobs.html`.
 
 ### See it yourself {#see-it-yourself}
 
-Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en.html` and click **[!UICONTROL Career]**. Click **[!UICONTROL Search]** to populate the job list and then click **[!UICONTROL Apply]** for a job. Fill details in the form and submit the application.
+Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en.html` and click **[!UICONTROL Career]**. Click **[!UICONTROL Search]** to populate the job list and then click **[!UICONTROL Apply]** for a job. Fill details in the form and submit the application.
 
 Ensure that you specify a valid email ID in the application as any communication through this walkthrough will be sent to the specified email ID.
 
@@ -106,7 +106,7 @@ The submit action in the Job Application form triggers a workflow that creates a
 
 ### See it yourself {#see-it-yourself-1}
 
-Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html`and log in using jjacobs/password as username/password for John Jacobs. Open the Candidate Profile Review task and shortlist the applicant.
+Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html`and log in using jjacobs/password as username/password for John Jacobs. Open the Candidate Profile Review task and shortlist the applicant.
 
 ## Gloria reviews the application and approves the applicant for an interview {#gloria-reviews-the-application-and-approves-the-applicant-for-an-interview}
 
@@ -126,9 +126,9 @@ When Gloria approves the candidate for an interview, the workflow creates a task
 
 ### See it yourself {#see-it-yourself-2}
 
-Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html` and log in using jjacobs/password as username/password for John Jacobs. Open the Candidate Profile Review task and shortlist the applicant.
+Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html` and log in using jjacobs/password as username/password for John Jacobs. Open the Candidate Profile Review task and shortlist the applicant.
 
-Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html` and log in using grios/password as username/password for Gloria Rios. Open the Candidate Profile Review task and click Schedule Interview.
+Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html` and log in using grios/password as username/password for Gloria Rios. Open the Candidate Profile Review task and click Schedule Interview.
 
 ## John Doe schedules an interview {#john-doe-schedules-an-interview}
 

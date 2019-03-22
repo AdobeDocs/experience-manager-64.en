@@ -41,7 +41,7 @@ The following pages and section provide information and guidelines:
 
 ## World Wide Web Consortium and WCAG 2.0 {#world-wide-web-consortium-and-wcag}
 
-The [World Wide Web Consortium (W3C)](http://www.w3.org/) is an international community dedicated to developing web standards. To help web designers and developers produce accessible web sites the [Web Accessibility Initiative (WAI)](http://www.w3.org/WAI/) published the [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG20/) in December 2008 (updating the original version published in 1999).
+The [World Wide Web Consortium (W3C)](https://www.w3.org/) is an international community dedicated to developing web standards. To help web designers and developers produce accessible web sites the [Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/) published the [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/) in December 2008 (updating the original version published in 1999).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Specific aspects of WCAG 2.0 are highlighted in our [quick guide to WCAG 2.0](..
 
 ### WCAG 2.0 Accessibility Conformance Levels {#wcag-accessibility-conformance-levels}
 
-WCAG 2.0 provides [guidelines (with related success criteria) covering the accessibility levels](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html).
+WCAG 2.0 provides [guidelines (with related success criteria) covering the accessibility levels](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html).
 
 These, as they relate to AEM, are covered under [Level A and AA Conformance](../../sites/authoring/using/creating-accessible-content.md). When creating your site, you should determine the overall level to which you would like your site to conform.
 
@@ -63,4 +63,4 @@ These, as they relate to AEM, are covered under [Level A and AA Conformance](../
 
 ## Accessibility at Adobe {#accessibility-at-adobe}
 
-For additional information, please visit the [Adobe Accessibility Resource Center](http://www.adobe.com/accessibility/).
+For additional information, please visit the [Adobe Accessibility Resource Center](https://www.adobe.com/accessibility/).

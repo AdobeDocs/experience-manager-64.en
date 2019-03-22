@@ -18,7 +18,7 @@ HTML5 forms use standard HTML constructs allowing regular accessibility tools fo
 
 ## Accessibility standards {#accessibility-standards}
 
-HTML5 forms comply to section 508 for accessibility with known exceptions. See [VPAT for HTML5 forms](http://www.adobe.com/mena_en/accessibility/compliance/livecycle-mobile-forms-es4-section-508-vpat.html) for details.
+HTML5 forms comply to section 508 for accessibility with known exceptions. See [VPAT for HTML5 forms](https://www.adobe.com/mena_en/accessibility/compliance/livecycle-mobile-forms-es4-section-508-vpat.html) for details.
 
 ## Certified screen readers for HTML5 forms {#certified-screen-readers-for-html-forms}
 
@@ -27,11 +27,11 @@ HTML5 forms comply to section 508 for accessibility with known exceptions. See [
 
 ### JAWS {#jaws}
 
-All default keystrokes and shortcuts work for HTML5 forms. For more information on using JAWS, visit [http://www.freedomscientific.com/jaws-hq.asp](http://www.freedomscientific.com/jaws-hq.asp).
+All default keystrokes and shortcuts work for HTML5 forms. For more information on using JAWS, visit [https://www.freedomscientific.com/jaws-hq.asp](https://www.freedomscientific.com/jaws-hq.asp).
 
 ### VoiceOver {#voiceover}
 
-HTML5 forms support all the default keystrokes and gestures of Voice over. For more information on setting up and using VoiceOver, see [http://www.apple.com/accessibility/voiceover/](http://www.apple.com/accessibility/voiceover/).
+HTML5 forms support all the default keystrokes and gestures of Voice over. For more information on setting up and using VoiceOver, see [https://www.apple.com/accessibility/voiceover/](https://www.apple.com/accessibility/voiceover/).
 
 ## Known issues {#known-issues}
 

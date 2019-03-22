@@ -13373,7 +13373,7 @@ discoiquuid: b775f65a-be1d-40e8-aa98-c2a4922f9cb2
 |---|---|
 |  Type  |  |
 |  Cause  |WebSphere fails to register Oracle's DataSource MBean on server start resulting in a DataManagerService error. |
-|  Action  |Several blogs suggested downloading the latest Oracle 11g JDBC driver could fix the problem. Go to this link to download: http://www.oracle.com/technology/software/tech/java/sqlj_jdbc/htdocs/jdbc_111060.html |
+|  Action  |Several blogs suggested downloading the latest Oracle 11g JDBC driver could fix the problem. Go to this link to download: https://www.oracle.com/technology/software/tech/java/sqlj_jdbc/htdocs/jdbc_111060.html |
 
 ## Workspace error codes {#workspace-error-codes}
 

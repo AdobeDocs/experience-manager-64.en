@@ -36,7 +36,7 @@ You can retrieve a sample CSS file by using the FormsIVS application. Upload the
 
 >[!NOTE]
 >
->For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 

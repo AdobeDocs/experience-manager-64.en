@@ -65,7 +65,7 @@ IOS developers should be aware of an open issue with Cordova apps running on iOS
 
 >[!NOTE]
 >
->For more detail on “App Transport Security”, see the following section of [Apple’s iOS9 prerelease docs](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html#//apple_ref/doc/uid/TP40016198-SW14) and this [Stack Overflow discussion](http://stackoverflow.com/questions/30751053/ios9-ats-what-about-html5-based-apps/).
+>For more detail on “App Transport Security”, see the following section of [Apple’s iOS9 prerelease docs](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html#//apple_ref/doc/uid/TP40016198-SW14) and this [Stack Overflow discussion](https://stackoverflow.com/questions/30751053/ios9-ats-what-about-html5-based-apps/).
 
 ## Developing Mobile Applications in AEM {#developing-mobile-applications-in-aem}
 

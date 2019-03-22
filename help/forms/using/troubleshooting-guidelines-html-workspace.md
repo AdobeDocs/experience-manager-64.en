@@ -21,12 +21,12 @@ Ater installing the patch, open the AEM Forms workspace. If you encounter the No
 
 While installling the package, if you encounter an error `javax.jcr.nodetype.ConstraintViolationException: OakConstraint0025: Authorizable property rep:authorizableId may not be removed`, perform the following steps:
 
-1. Log in to CRX DE lite. The default url is `http://[localhost]:[port]/lc/crx/de/index.jsp`
+1. Log in to CRX DE lite. The default url is `https://[localhost]:[port]/lc/crx/de/index.jsp`
 1. Delete the following node:
 
    `/home/groups/P/PERM_WORKSPACE_USER`
 
-1. Go to the Package Manager. The default URL is `http://[localhost]:[port]/lc/crx/packmgr/index.jsp.`
+1. Go to the Package Manager. The default URL is `https://[localhost]:[port]/lc/crx/packmgr/index.jsp.`
 1. Search and install the `adobe-lc-workspace-pkg-[version].zip` package.
 1. Restart the application server.
 
@@ -149,11 +149,11 @@ In AEM Forms workspace:
 
 Scripts and styles can be debugged in different browsers.
 
-* **Debugging in IE**: To debug AEM Forms workspace in IE, see: [http://msdn.microsoft.com/en-us/library/hh772704(v=vs.85).aspx](http://msdn.microsoft.com/en-us/library/hh772704(v=vs.85).aspx).
+* **Debugging in IE**: To debug AEM Forms workspace in IE, see: [https://msdn.microsoft.com/en-us/library/hh772704(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/hh772704(v=vs.85).aspx).
 
-* **Debugging in Chrome**: To open debugger in Chrome, use the shortcut: Ctrl+Shift+I. For more information, see: [http://developer.chrome.com/extensions/tut_debugging.html](http://developer.chrome.com/extensions/tut_debugging.html).
+* **Debugging in Chrome**: To open debugger in Chrome, use the shortcut: Ctrl+Shift+I. For more information, see: [https://developer.chrome.com/extensions/tut_debugging.html](https://developer.chrome.com/extensions/tut_debugging.html).
 
-* **Debugging in Firefox**: Several Add-ons are available to debug scripts and styles in Firefox. For example, Firebug is one such debugging utility ([http://getfirebug.com](http://getfirebug.com)).
+* **Debugging in Firefox**: Several Add-ons are available to debug scripts and styles in Firefox. For example, Firebug is one such debugging utility ([https://getfirebug.com](https://getfirebug.com)).
 
 ## FAQs {#faqs}
 

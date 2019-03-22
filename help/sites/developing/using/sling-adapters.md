@@ -13,7 +13,7 @@ discoiquuid: c081b242-67e4-4820-9bd3-7e4495df459e
 
 # Using Sling Adapters{#using-sling-adapters}
 
-[Sling](http://sling.apache.org) offers an [Adapter pattern](http://sling.apache.org/site/adapters.html) to conveniently translate objects that implement the [Adaptable](http://sling.apache.org/apidocs/sling5/org/apache/sling/api/adapter/Adaptable.html#adaptTo%28java.lang.Class%29) interface. This interface provides a generic [adaptTo()](http://sling.apache.org/apidocs/sling5/org/apache/sling/api/adapter/Adaptable.html#adaptTo%28java.lang.Class%29) method that will translate the object to the class type being passed as the argument.
+[Sling](https://sling.apache.org) offers an [Adapter pattern](https://sling.apache.org/site/adapters.html) to conveniently translate objects that implement the [Adaptable](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/adapter/Adaptable.html#adaptTo%28java.lang.Class%29) interface. This interface provides a generic [adaptTo()](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/adapter/Adaptable.html#adaptTo%28java.lang.Class%29) method that will translate the object to the class type being passed as the argument.
 
 For example to translate a Resource object to the corresponding Node object, you can simply do:
 
@@ -26,10 +26,10 @@ Node node = resource.adaptTo(Node.class);
 There are the following use cases:
 
 * Get implementation-specific objects.  
-  For example, a JCR-based implementation of the generic [ `Resource`](http://sling.apache.org/apidocs/sling5/org/apache/sling/api/resource/Resource.html) interface provides access to the underlying JCR ` [Node](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html).`
+  For example, a JCR-based implementation of the generic [ `Resource`](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/resource/Resource.html) interface provides access to the underlying JCR ` [Node](https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html).`
 
 * Shortcut creation of objects that require internal context objects to be passed.  
-  For example, the JCR-based [ `ResourceResolver`](http://sling.apache.org/apidocs/sling5/org/apache/sling/api/resource/ResourceResolver.html) holds a reference to the request's [ `JCR Session`](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Session.html), which in turn is needed for many objects that will work based on that request session, such as the ` [PageManager](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager.md)` or [ `UserManager`](/sites/developing/using/reference-materials/javadoc/com/day/cq/security/UserManager.md).
+  For example, the JCR-based [ `ResourceResolver`](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/resource/ResourceResolver.html) holds a reference to the request's [ `JCR Session`](https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Session.html), which in turn is needed for many objects that will work based on that request session, such as the ` [PageManager](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager.md)` or [ `UserManager`](/sites/developing/using/reference-materials/javadoc/com/day/cq/security/UserManager.md).
 
 * Shortcut to services.  
   A rare case - `sling.getService()` is simple as well.
@@ -60,7 +60,7 @@ However, there is no general rule - the object could be either a new instance or
 There are various ways that `Adaptable.adaptTo()` can be implemented:
 
 * By the object itself; implementing the method itself and mapping to certain objects.
-* By an ` [AdapterFactory](http://sling.apache.org/apidocs/sling5/org/apache/sling/api/adapter/AdapterFactory.html)`, which can map arbitrary objects.  
+* By an ` [AdapterFactory](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/adapter/AdapterFactory.html)`, which can map arbitrary objects.  
   The objects must still implement the `Adaptable` interface and must extend ` [SlingAdaptable](/sites/developing/using/reference-materials/javadoc/org/apache/sling/adapter/SlingAdaptable.md)` (which passes the `adaptTo` call to a central adapter manager).  
   This allows hooks into the `adaptTo` mechanism for existing classes, such as `Resource`.
 
@@ -77,19 +77,19 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
 <table> 
  <tbody> 
   <tr> 
-   <td width="120"><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html">Node</a></td> 
+   <td width="120"><a href="https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html">Node</a></td> 
    <td>If this is a JCR-node-based resource or a JCR property referencing a node.</td> 
   </tr> 
   <tr> 
-   <td><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Property.html">Property</a></td> 
+   <td><a href="https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Property.html">Property</a></td> 
    <td>If this is a JCR-property-based resource.</td> 
   </tr> 
   <tr> 
-   <td><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Item.html">Item</a></td> 
+   <td><a href="https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Item.html">Item</a></td> 
    <td>If this is a JCR-based resource (node or property).</td> 
   </tr> 
   <tr> 
-   <td><a href="http://java.sun.com/j2se/1.5.0/docs/api//java/util/Map.html">Map</a></td> 
+   <td><a href="https://java.sun.com/j2se/1.5.0/docs/api//java/util/Map.html">Map</a></td> 
    <td>Returns a map of the properties, if this is a JCR-node-based resource (or other resource supporting value maps).</td> 
   </tr> 
   <tr> 
@@ -105,31 +105,31 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
    <td>If this is a JCR-node-based resource and the user has permissions to modify properties on that node.<br /> Note: multiple persistable maps do not share their values.</td> 
   </tr> 
   <tr> 
-   <td><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/InputStream.html">InputStream</a></td> 
+   <td><a href="https://java.sun.com/j2se/1.5.0/docs/api/java/io/InputStream.html">InputStream</a></td> 
    <td>Returns the binary content of a "file"<span class="code"></span> resource (if this is a JCR-node-based resource and the node type is <span class="code">nt:file</span> or <span class="code">nt:resource</span>; if this is a bundle resource; file content if this is a file system resource) or the data of a binary JCR property<br /> resource.</td> 
   </tr> 
   <tr> 
-   <td><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/net/URL.html">URL</a></td> 
+   <td><a href="https://java.sun.com/j2se/1.5.0/docs/api/java/net/URL.html">URL</a></td> 
    <td>Returns a URL to the resource (repository URL of this node if this is a JCR-node-based resource; jar bundle URL if this is a bundle resource; file URL if this is a file system resource).</td> 
   </tr> 
   <tr> 
-   <td><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/File.html">File</a></td> 
+   <td><a href="https://java.sun.com/j2se/1.5.0/docs/api/java/io/File.html">File</a></td> 
    <td>If this is a file system resource.</td> 
   </tr> 
   <tr> 
-   <td><a href="http://sling.apache.org/apidocs/sling5/org/apache/sling/api/scripting/SlingScript.html">SlingScript</a></td> 
+   <td><a href="https://sling.apache.org/apidocs/sling5/org/apache/sling/api/scripting/SlingScript.html">SlingScript</a></td> 
    <td>If this resource is a script (e.g. jsp file) for which a script engine is registered with sling.</td> 
   </tr> 
   <tr> 
-   <td><a href="http://java.sun.com/products/servlet/2.2/javadoc/javax/servlet/Servlet.html">Servlet</a></td> 
+   <td><a href="https://java.sun.com/products/servlet/2.2/javadoc/javax/servlet/Servlet.html">Servlet</a></td> 
    <td>If this resource is a script (e.g. jsp file) for which a script engine is registered with sling or if this is a servlet resource.</td> 
   </tr> 
   <tr> 
-   <td><a href="http://jackrabbit.apache.org/api/2.8/org/apache/jackrabbit/api/security/user/Authorizable.html">Authorizable</a><br /> (Jackrabbit)<br /> </td> 
+   <td><a href="https://jackrabbit.apache.org/api/2.8/org/apache/jackrabbit/api/security/user/Authorizable.html">Authorizable</a><br /> (Jackrabbit)<br /> </td> 
    <td>If this is a an authorizable resource (from the<br /> <span class="code">AuthorizableResourceProvider</span> in <span class="code">org.apache.sling.jackrabbit.usermanager</span>, under <span class="code">/system/userManager</span>).</td> 
   </tr> 
   <tr> 
-   <td><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html">String</a><br /> <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Boolean.html">Boolean</a><br /> <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Long.html">Long</a><br /> <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Double.html">Double</a><br /> <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html">Calendar</a><br /> <a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Value.html">Value</a><br /> <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html">String[]</a><br /> <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Boolean.html">Boolean[]</a><br /> <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Long.html">Long[]</a><br /> <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html">Calendar[]</a><br /> <a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Value.html">Value[]</a></td> 
+   <td><a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html">String</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Boolean.html">Boolean</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Long.html">Long</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Double.html">Double</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html">Calendar</a><br /> <a href="https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Value.html">Value</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html">String[]</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Boolean.html">Boolean[]</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Long.html">Long[]</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html">Calendar[]</a><br /> <a href="https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Value.html">Value[]</a></td> 
    <td>Returns the value(s) if this is a JCR-property-based resource (and the value fits).</td> 
   </tr> 
   <tr> 
@@ -224,7 +224,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
 <table> 
  <tbody> 
   <tr> 
-   <td width="120"><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Session.html">Session</a></td> 
+   <td width="120"><a href="https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Session.html">Session</a></td> 
    <td>The request's JCR session, if this is a JCR-based resource resolver (default).</td> 
   </tr> 
   <tr> 
@@ -295,7 +295,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 <table> 
  <tbody> 
   <tr> 
-   <td width="120"><a href="http://java.sun.com/j2se/1.5.0/docs/api/org/xml/sax/ContentHandler.html">ContentHandler</a><br /> (XML)</td> 
+   <td width="120"><a href="https://java.sun.com/j2se/1.5.0/docs/api/org/xml/sax/ContentHandler.html">ContentHandler</a><br /> (XML)</td> 
    <td>If this is a sling rewriter response.</td> 
   </tr> 
  </tbody> 
@@ -316,7 +316,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
    <td>Labeled resource (== this).</td> 
   </tr> 
   <tr> 
-   <td><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html">Node</a></td> 
+   <td><a href="https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html">Node</a></td> 
    <td>Node of the page.</td> 
   </tr> 
   <tr> 
@@ -331,7 +331,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 | [Resource](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md) |Resource of the component. |
 |---|---|
 | [LabeledResource](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/LabeledResource.md) |Labeled resource (== this). |
-| [Node](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html) |Node of the component. |
+| [Node](https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html) |Node of the component. |
 | ... |Everything that the component's resource can be adapted to. |
 
 [**Template**](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Template.md) adapts to:
@@ -339,7 +339,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 <table> 
  <tbody> 
   <tr> 
-   <td width="120"><a href="/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md">Resource</a><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html"><br /> </a></td> 
+   <td width="120"><a href="/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md">Resource</a><a href="https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html"><br /> </a></td> 
    <td>Resource of the template.</td> 
   </tr> 
   <tr> 
@@ -347,7 +347,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
    <td>Labeled resource (== this).</td> 
   </tr> 
   <tr> 
-   <td><a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html">Node</a></td> 
+   <td><a href="https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html">Node</a></td> 
    <td>Node of this template.</td> 
   </tr> 
   <tr> 
@@ -361,7 +361,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 
 [**Authorizable**](/sites/developing/using/reference-materials/javadoc/com/day/cq/security/Authorizable.md), [**User**](/sites/developing/using/reference-materials/javadoc/com/day/cq/security/User.md) and [**Group**](/sites/developing/using/reference-materials/javadoc/com/day/cq/security/Group.md) adapt to:
 
-| [Node](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html) |Returns the user/group home node. |
+| [Node](https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html) |Returns the user/group home node. |
 |---|---|
 | [ReplicationStatus](/sites/developing/using/reference-materials/javadoc/com/day/cq/replication/ReplicationStatus.md) |Returns the replication status for the user/group home node. |
 
@@ -371,7 +371,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 
 | [Resource](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md) |Resource of the asset. |
 |---|---|
-| [Node](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html) |Node of the asset. |
+| [Node](https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html) |Node of the asset. |
 | ... |Everything that the asset's resource can be adapted to. |
 
 #### Tagging {#tagging}
@@ -380,9 +380,9 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 
 | [Resource](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md) |Resource of the tag. |
 |---|---|
-| [Node](http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html) |Node of the tag. |
+| [Node](https://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html) |Node of the tag. |
 | ... |Everything that the tag's resource can be adapted to. |
 
 #### Other {#other}
 
-Furthermore Sling / JCR / OCM also provides an ` [AdapterFactory](http://sling.apache.org/site/adapters.html#Adapters-AdapterFactory)` for custom OCM ([Object Content Mapping](http://jackrabbit.apache.org/object-content-mapping.html)) objects.
+Furthermore Sling / JCR / OCM also provides an ` [AdapterFactory](https://sling.apache.org/site/adapters.html#Adapters-AdapterFactory)` for custom OCM ([Object Content Mapping](https://jackrabbit.apache.org/object-content-mapping.html)) objects.

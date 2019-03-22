@@ -21,7 +21,7 @@ Want to build engaging and relevent experiences for your mobile application user
 
 Are your users accessing all the content? Are they abandoning the app, and if so, where? How often do they stay in the app and how often to they come back to use the app? What changes can you introduce and then measure that increase retention? What about crash rates, is your app crashing for your users?
 
-Take advantage of [Mobile App Analytics](http://www.adobe.com/ca/solutions/digital-analytics/mobile-web-apps-analytics.html) in your AEM Apps by integrating with [Adobe Mobile Services](http://www.adobe.com/marketing-cloud/mobile-marketing.html).
+Take advantage of [Mobile App Analytics](https://www.adobe.com/ca/solutions/digital-analytics/mobile-web-apps-analytics.html) in your AEM Apps by integrating with [Adobe Mobile Services](https://www.adobe.com/marketing-cloud/mobile-marketing.html).
 
 Instrument your AEM Apps to track, report and understand how you users engage with your mobile app and content and to measure key lifecycle metrics such as launches, time in app, and crash rate.
 
@@ -48,7 +48,7 @@ For additional details refer to Configuring the Content Sync Content. The config
 For further details on how to download the ADBMobileConfig from your Mobile Application AEM Apps dashboard, refer to Analytics - Mobile Services - Adobe Mobile Services SDK Config File.
 
 ```xml
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="nt:unstructured"
     extension="json"
     path="../../../.."            
@@ -61,7 +61,7 @@ Each platform requires the ADBMobileConfig to be copied to a specific location.
 
 If building with the PhoneGap CLI this can be done with an cordova build hook scripts. This can be seen in the the Geometrixx Outdoors App at:*content/phonegap/geometrixx-outdoors/shell/_jcr_content/pge-app/app-content/phonegap/scripts/restore_plugins.js.*
 
-For iOS the file will need to be copied to the XCode project's **Resources** directory (eg. "platforms/ios/Geometrixx/Resources/ADBMobileConfig.json"). If the App is targeted for Android then the path to copy to is "platforms/android/assets/ADBMobileConfig.json". For further details on using hooks during the PhoneGap CLI build refer to [Three hooks your Cordova/PhoneGap project needs](http://devgirl.org/2013/11/12/three-hooks-your-cordovaphonegap-project-needs/).
+For iOS the file will need to be copied to the XCode project's **Resources** directory (eg. "platforms/ios/Geometrixx/Resources/ADBMobileConfig.json"). If the App is targeted for Android then the path to copy to is "platforms/android/assets/ADBMobileConfig.json". For further details on using hooks during the PhoneGap CLI build refer to [Three hooks your Cordova/PhoneGap project needs](https://devgirl.org/2013/11/12/three-hooks-your-cordovaphonegap-project-needs/).
 
 ```xml
 ///////////////////////////

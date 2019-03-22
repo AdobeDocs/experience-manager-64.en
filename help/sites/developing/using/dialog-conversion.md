@@ -57,7 +57,7 @@ Use the following steps to convert one or more dialogs:
 
 1. Open the **Dialog Conversion** console, accessible from **Global Navigation -&gt; Tools -&gt;** **Operations**:
 
-   `http://<*hostname*>:<*port*>/libs/cq/dialogconversion/content/console.html`
+   `https://<*hostname*>:<*port*>/libs/cq/dialogconversion/content/console.html`
 
    ![](assets/chlimage_1-18.png)
 
@@ -103,7 +103,7 @@ Use the following steps to convert one or more dialogs:
 
 ## Dialog Rewrite Rules {#dialog-rewrite-rules}
 
-The dialog conversion tool is based on the concept of **graph rewriting**, consisting of transforming a subject graph by applying rewrite rules. A rewrite rule is the pairing of a pattern with a replacement graph. The rule matches occurrences of a certain subgraph in the subject graph and subsequently replaces them. See also [http://en.wikipedia.org/wiki/Graph_rewriting](http://en.wikipedia.org/wiki/Graph_rewriting) for details on graph rewriting.
+The dialog conversion tool is based on the concept of **graph rewriting**, consisting of transforming a subject graph by applying rewrite rules. A rewrite rule is the pairing of a pattern with a replacement graph. The rule matches occurrences of a certain subgraph in the subject graph and subsequently replaces them. See also [https://en.wikipedia.org/wiki/Graph_rewriting](https://en.wikipedia.org/wiki/Graph_rewriting) for details on graph rewriting.
 
 The dialog conversion tool uses this approach to rewrite a given legacy dialog tree (Classic or Granite UI / Coral 2) to its Granite UI / Coral 3 counterpart. This has the advantage that the conversion is highly flexible and can take into account even complex components, since matching is done on actual subtrees and not only single nodes or properties.
 
@@ -244,7 +244,7 @@ The `matches` method must return `true` if the rule matches the subtree rooted a
 
 #### Further information - Javadocs {#further-information-javadocs}
 
-For further information see the [Javadocs for `com.adobe.cq.dialogconversion`](http://adobe-marketing-cloud.github.io/aem-touchui-dialogconversion-samples/javadoc/).
+For further information see the [Javadocs for `com.adobe.cq.dialogconversion`](https://adobe-marketing-cloud.github.io/aem-touchui-dialogconversion-samples/javadoc/).
 
 #### Defining Your Own Java-Based Rewrite Rules {#defining-your-own-java-based-rewrite-rules}
 

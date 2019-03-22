@@ -13,7 +13,7 @@ discoiquuid: 0ec881c9-8dcc-4847-9edf-24d9e6c4a7ea
 
 # Configuring Connector for Microsoft SharePoint{#configuring-connector-for-microsoft-sharepoint}
 
-Connector for Microsoft SharePoint enables communication between AEM forms and Microsoft SharePoint. For additional background information, see "Connectors for ECM" in [Services Reference](http://www.adobe.com/go/learn_aemforms_services_63).
+Connector for Microsoft SharePoint enables communication between AEM forms and Microsoft SharePoint. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 1. In administration console, click Services &gt; Connector for Microsoft SharePoint.
 1. Specify the following settings for your SharePoint Server:
@@ -30,7 +30,7 @@ Connector for Microsoft SharePoint enables communication between AEM forms and M
 
 ## Microsoft SharePoint configuration service {#microsoft-sharepoint-configuration-service}
 
-The Microsoft SharePoint configuration service `(MSSharePointConfigService)` lets you specify credentials for the AEM forms user that has impersonation permissions. For information about impersonation permissions, see [Configuring Connector for Microsoft SharePoint](http://help.adobe.com/en_US/AEMForms/6.1/SharePointConfig/index.html). Follow these steps to specify settings for `MSSharePointConfigService`:
+The Microsoft SharePoint configuration service `(MSSharePointConfigService)` lets you specify credentials for the AEM forms user that has impersonation permissions. For information about impersonation permissions, see [Configuring Connector for Microsoft SharePoint](https://help.adobe.com/en_US/AEMForms/6.1/SharePointConfig/index.html). Follow these steps to specify settings for `MSSharePointConfigService`:
 
 1. In administration console, click Services &gt; Applications and Services &gt; Service Management.
 1. Navigate the list of services and click `MSSharePointConfigService`.

@@ -31,7 +31,7 @@ This configuration is suitable for* non-production* environments such as for dev
 
 ### Install MongoDB {#install-mongodb}
 
-* Download MongoDB from [http://www.mongodb.org/](http://www.mongodb.org/)
+* Download MongoDB from [https://www.mongodb.org/](https://www.mongodb.org/)
 
     * choice of OS:
 
@@ -89,7 +89,7 @@ The following commands are an example of setting up a replica set with 3 nodes o
 
 ### Install Solr {#install-solr}
 
-* Download Solr from [Apache Lucene](http://archive.apache.org/dist/lucene/solr/):
+* Download Solr from [Apache Lucene](https://archive.apache.org/dist/lucene/solr/):
 
     * suitable for any OS 
     * use version 4.10 or version 5
@@ -110,7 +110,7 @@ To configure a Solr collection for MSRP for demo, there are two decisions to be 
 
 ### Standalone Solr {#standalone-solr}
 
-The method for running Solr may differ depending on the version and manner of installation. The [Solr reference guide](http://archive.apache.org/dist/lucene/solr/ref-guide/) is the authoritative documentation.
+The method for running Solr may differ depending on the version and manner of installation. The [Solr reference guide](https://archive.apache.org/dist/lucene/solr/ref-guide/) is the authoritative documentation.
 
 For simplicity, using version 4.10 as an example, start Solr in standalone mode:
 

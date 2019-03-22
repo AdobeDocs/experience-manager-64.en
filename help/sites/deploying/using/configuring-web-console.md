@@ -12,7 +12,7 @@ discoiquuid: f934eb02-1f84-44f2-9f14-3f17250c9a90
 
 # Web Console{#web-console}
 
-The Web console in AEM is based on the [Apache Felix Web Management Console](http://felix.apache.org/documentation/subprojects/apache-felix-web-console.html). Apache Felix is a community effort to implement the OSGi R4 Service Platform, which includes the OSGi framework and standard services.
+The Web console in AEM is based on the [Apache Felix Web Management Console](https://felix.apache.org/documentation/subprojects/apache-felix-web-console.html). Apache Felix is a community effort to implement the OSGi R4 Service Platform, which includes the OSGi framework and standard services.
 
 >[!NOTE]
 >

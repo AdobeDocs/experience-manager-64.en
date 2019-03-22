@@ -41,9 +41,9 @@ As a best practice for image sizing, use `&wid=<value>&hei=<value>&resMode=sharp
 
 Image sharpening is the most complex aspect of controlling images on your website, and where many mistakes are made. Take the time to learn more about how sharpening and unsharp masking works in AEM by referring to the following helpful resources:
 
-Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](http://microsite.omniture.com/t2/help/en_US/s7/sharpening/s7_sharpening_images.pdf) applies to AEM as well.
+Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](https://microsite.omniture.com/t2/help/en_US/s7/sharpening/s7_sharpening_images.pdf) applies to AEM as well.
 
-On Adobe TV, watch [Sharpening an image with unsharp mask](http://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
+On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
 
 With AEM, you can sharpen images on ingestion, on delivery, or both. In most cases, however, you should sharpen images using only one method or the other, but not both. Sharpening images on delivery, on a URL, typically gives you the best results.
 
@@ -67,7 +67,7 @@ There are two image sharpening methods that you can use:
 
       AEM Help topic on Sharpening an image.
 
-      Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](http://microsite.omniture.com/t2/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+      Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](https://microsite.omniture.com/t2/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
 
     * AEM also lets you control a fourth parameter: monochrome (0,1). This parameter determines if unsharp masking is applied to each color component separately using the value 0 or to the image brightness/intensity using the value 1.
 

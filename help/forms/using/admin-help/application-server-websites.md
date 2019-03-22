@@ -15,7 +15,7 @@ discoiquuid: 59b03638-7e1c-4cbd-bd37-671a16afa10f
 
 This list contains links to the manufacturer websites for all supported application servers.
 
-**JBoss:** http://www.jboss.com/products/platforms/application
+**JBoss:** https://www.jboss.com/products/platforms/application
 
 **Oracle WebLogic:** www.oracle.com/us/products/middleware/application-server/index.html
 

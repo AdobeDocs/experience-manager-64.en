@@ -36,5 +36,5 @@ For the hybris and IBM WebSphere integrations, there is some data in AEM. You sh
 
 >[!NOTE]
 >
->Have a look at the [hybris wiki](https://wiki.hybris.com/) or the [Websphere Commerce documentation](http://www-01.ibm.com/support/docview.wss?uid=swg27036450) if required.
+>Have a look at the [hybris wiki](https://wiki.hybris.com/) or the [Websphere Commerce documentation](https://www-01.ibm.com/support/docview.wss?uid=swg27036450) if required.
 

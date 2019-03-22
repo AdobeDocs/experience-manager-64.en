@@ -21,13 +21,13 @@ These instructions describe how to connect to the MySQL server, establish the en
 
 Before configuring MySQL for Communities' enablement feature, be sure to
 
-* install [MySQL server](http://dev.mysql.com/downloads/mysql/) Community Server version 5.6
+* install [MySQL server](https://dev.mysql.com/downloads/mysql/) Community Server version 5.6
 
     * version 5.7 is not supported for SCORM
     * may be same server as author AEM instance
 
 * on all AEM instances, install the official [JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbc-driver-for-mysql)
-* install [MySQL workbench](http://dev.mysql.com/downloads/tools/workbench/)
+* install [MySQL workbench](https://dev.mysql.com/downloads/tools/workbench/)
 * on all AEM instances, install the [SCORM package](../../communities/using/enablement.md#scorm)
 
 ## Installing MySQL {#installing-mysql}

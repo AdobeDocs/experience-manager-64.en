@@ -82,7 +82,7 @@ You can use one of the following methods to create repeatable panels:
        >`Panel1.instanceManager.instances[1].textbox.value`
        >
        >
-       >For more information, see: Class: InstanceManager#instances in [AEM Forms Java API reference](http://adobe.com/go/learn_aemforms_documentation_63).
+       >For more information, see: Class: InstanceManager#instances in [AEM Forms Java API reference](https://adobe.com/go/learn_aemforms_documentation_63).
 
        >[!NOTE]
        >
@@ -109,7 +109,7 @@ Repeatable subform is similar to the repeatable panels in Adaptive Forms. In AEM
 1. To specify the minimum number of repetitions, select Min Count and type a number in the associated box. If this option is set to 0 and no data is provided for the objects in the subform at data-merge time, the subform is not placed when the form is rendered.
 1. To specify the maximum number of subform repetitions, select Max and type a number in the associated box. If you do not specify a value in the Max box, the number of subform repetitions are unlimited.
 1. To specify a set number of subform repetitions, regardless of the quantity of data, select Initial Count and type a number in the associated box. If you select this option and either no data is available or fewer data entries exist than the specified Initial Count value, empty instances of the subform are still placed on the form.
-1. Add two buttons in the parent subform- one for adding instance and another for deleting instance of repeatable subform. For detailed steps, see [Build an action](http://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/WS107c29ade9134a2c74572b5612a87ca2b56-8000.2.html#WS107c29ade9134a2c-1f74d86012a87d4fe55-8000.2).
+1. Add two buttons in the parent subform- one for adding instance and another for deleting instance of repeatable subform. For detailed steps, see [Build an action](https://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/WS107c29ade9134a2c74572b5612a87ca2b56-8000.2.html#WS107c29ade9134a2c-1f74d86012a87d4fe55-8000.2).
 1. Now, link the Form Template to the Adaptive form. For detailed steps, see [Create an adaptive form based on a template](../../forms/using/creating-adaptive-form.md#create-an-adaptive-form-based-on-a-template).
 1. Use the buttons created in step 9 to add and remove subforms.
 
@@ -125,9 +125,9 @@ In the following code, the `SampleType`panel uses the minOccours & maxOccurs pro
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?> 
-    <xs:schema targetNamespace="http://adobe.com/sample.xsd"
-                    xmlns="http://adobe.com/sample.xsd"
-                    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    <xs:schema targetNamespace="https://adobe.com/sample.xsd"
+                    xmlns="https://adobe.com/sample.xsd"
+                    xmlns:xs="https://www.w3.org/2001/XMLSchema"
                 >
 
         <xs:element name="sample" type="SampleType"/>

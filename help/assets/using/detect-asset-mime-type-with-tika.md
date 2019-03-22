@@ -23,7 +23,7 @@ This feature is disabled by default. To enable the feature, configure the **Day 
 >
 >MIME type detection using the Apache Tika library is a resource-intensive operation.
 
-1. Go to *http://&lt;server&gt;:&lt;port&gt;/system/console/configMgr* to open the Configuration Manager web console.
+1. Go to *https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr* to open the Configuration Manager web console.
 1. From the list of services, locate **Day CQ DAM Mime Type Service** and tap/click the **Edit** icon beside it to open it in Edit mode.   
 
 1. Select the **Detect MIME from content** option to enable the parsing of uploaded assets to determine their MIME type while ignoring file extensions. By default, this option is unselected.

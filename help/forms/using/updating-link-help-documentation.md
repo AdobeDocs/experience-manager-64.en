@@ -28,7 +28,7 @@ To update the URL of the online documentation, follow the [Generic Steps of cust
    ```
    <ul class="helpmenu">
      <li>            
-       <a href="http://www.adobe.com/go/learn_aemforms_documentation_63" title="<%= $.t('index.header.dropdown.WorkspaceHelp')%>" target="_blank"><%= $.t('index.header.dropdown.WorkspaceHelp')%></a>
+       <a href="https://www.adobe.com/go/learn_aemforms_documentation_63" title="<%= $.t('index.header.dropdown.WorkspaceHelp')%>" target="_blank"><%= $.t('index.header.dropdown.WorkspaceHelp')%></a>
      </li>
    ```
 

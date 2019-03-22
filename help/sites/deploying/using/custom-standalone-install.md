@@ -299,7 +299,7 @@ Once AEM WCM has been started, you can also access:
 To open CRXDE Lite you can select **CRXDE Lite** from the welcome screen or use your browser to navigate to
 
 ```
- http://<<i>host</i>>:<<i>port</i>>/crx/de/index.jsp
+ https://<<i>host</i>>:<<i>port</i>>/crx/de/index.jsp
 ```
 
 For example:  
@@ -312,7 +312,7 @@ For example:
 To access the Adobe CQ Web console you can select **OSGi Console** from the welcome screen or use your browser to navigate to
 
 ```
- http://<<i>host</i>>:<<i>port</i>>/system/console
+ https://<<i>host</i>>:<<i>port</i>>/system/console
 ```
 
 For example:  

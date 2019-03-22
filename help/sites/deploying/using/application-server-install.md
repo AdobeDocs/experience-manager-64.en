@@ -154,7 +154,7 @@ This uses a simple Server Layout with only an Admin Server.
 
 * In `${myDomain}/config/config.xml`add to the security-configuration section:
 
-    * `<enforce-valid-basic-auth-credentials>false</enforce-valid-basic-auth-credentials>` see on [http://xmlns.oracle.com/weblogic/domain/1.0/domain.xsd](http://xmlns.oracle.com/weblogic/domain/1.0/domain.xsd) for the correct position (per default to position it at the end of the section is ok)
+    * `<enforce-valid-basic-auth-credentials>false</enforce-valid-basic-auth-credentials>` see on [https://xmlns.oracle.com/weblogic/domain/1.0/domain.xsd](https://xmlns.oracle.com/weblogic/domain/1.0/domain.xsd) for the correct position (per default to position it at the end of the section is ok)
 
 * Increase VM Memory settings:
 

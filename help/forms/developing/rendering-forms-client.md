@@ -18,11 +18,11 @@ discoiquuid: 08d36e9f-cafc-478e-9781-8fc29ac6262e
 
 You can optimize the delivery of PDF content and improve the Forms service’s ability to handle network load by using the client-side rendering capability of Acrobat or Adobe Reader. This process is known as rendering a form at the client. To render a form at the client, the client device (typically a web browser) must use Acrobat 7.0 or Adobe Reader 7.0 or later.
 
-Changes to a form resulting from server-side script execution is not reflected in a form that is rendered at the client unless the root subform contains the `restoreState` attribute that is set to `auto`. For more information about this attribute, see [Forms Designer.](http://www.adobe.com/go/learn_aemforms_designer_63)
+Changes to a form resulting from server-side script execution is not reflected in a form that is rendered at the client unless the root subform contains the `restoreState` attribute that is set to `auto`. For more information about this attribute, see [Forms Designer.](https://www.adobe.com/go/learn_aemforms_designer_63)
 
 >[!NOTE]
 >
->For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 

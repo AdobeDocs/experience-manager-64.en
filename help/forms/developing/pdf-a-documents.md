@@ -22,7 +22,7 @@ The DocConverter service can convert PDF documents to PDA/A documents. You can a
 
 >[!NOTE]
 >
->For more information about the DocConverter service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the DocConverter service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Converting Documents to PDF/A Documents {#converting-documents-to-pdf-a-documents}
 
@@ -34,7 +34,7 @@ While PDF/A is the standard for archiving PDF documents, it is not mandatory tha
 
 >[!NOTE]
 >
->For more information about the DocConverter service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the DocConverter service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -114,7 +114,7 @@ Convert a PDF document to a PDF/A document by using the Java API:
 1. Set tracking information
 
     * Create a `PDFAConversionOptionSpec` object by using its constructor.
-    * Set the information tracking level by invoking the `PDFAConversionOptionSpec` object’s `setLogLevel` method and passing a string value that specifies the tracking level. For example, pass the value `FINE`. For information about the different values, see the `setLogLevel` method in the [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+    * Set the information tracking level by invoking the `PDFAConversionOptionSpec` object’s `setLogLevel` method and passing a string value that specifies the tracking level. For example, pass the value `FINE`. For information about the different values, see the `setLogLevel` method in the [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 1. Convert the document
 
@@ -201,7 +201,7 @@ You can use the DocConverter service to determine whether a PDF document is PDF/
 
 >[!NOTE]
 >
->For more information about the DocConverter service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the DocConverter service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -275,7 +275,7 @@ Determine PDF/A compliancy by using the Java API:
 
     * Create a `PDFAValidationOptionSpec` object by using its constructor.
     * Set the compliance level by invoking the `PDFAValidationOptionSpec` object’s `setCompliance` method and passing `PDFAValidationOptionSpec.Compliance.PDFA_1B`. 
-    * Set the information tracking level by invoking the `PDFAValidationOptionSpec` object’s `setLogLevel` method and passing a string value that specifies the tracking level. For example, pass the value `FINE`. For information about the different values, see the `setLogLevel` method in the [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+    * Set the information tracking level by invoking the `PDFAValidationOptionSpec` object’s `setLogLevel` method and passing a string value that specifies the tracking level. For example, pass the value `FINE`. For information about the different values, see the `setLogLevel` method in the [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 1. Retrieve information about the PDF document
 

@@ -127,7 +127,7 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
  </tbody> 
 </table>
 
-* MongoDB is third-party software and is not included in the AEM licensing package. For more information see the [MongoDB licensing policy](http://www.mongodb.org/about/licensing/) page.  
+* MongoDB is third-party software and is not included in the AEM licensing package. For more information see the [MongoDB licensing policy](https://www.mongodb.org/about/licensing/) page.  
 
 * In order to get the most of your AEM deployment, Adobe recommends licensing the MongoDB Enterprise version in order to benefit from professional support.
 * Adobe Customer Care will assist qualifying issues related to the usage of MongoDB with AEM. For more information, see the [MongoDB for Adobe Experience Manager page](https://www.mongodb.com/lp/contact/mongodb-adobe-experience-manager).
@@ -202,7 +202,7 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
   <tr> 
    <td>IBM DB2</td> 
    <td><p>IBM® DB2 Universal JDBC driver 4.16.53 (db2jcc4.jar)</p> </td> 
-   <td valign="top"><p>Download the driver from <a href="http://www-01.ibm.com/support/docview.wss?uid=swg21363866" target="_blank">IBM Website</a></p> </td> 
+   <td valign="top"><p>Download the driver from <a href="https://www-01.ibm.com/support/docview.wss?uid=swg21363866" target="_blank">IBM Website</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -565,9 +565,9 @@ The following subsystems of AEM Forms are not [508](https://www.section508.gov/)
 
 For additional reuirements see:
 
-* [System requirements for a single-server AEM Forms on JEE deployment](http://www.adobe.com/go/learn_aemforms_sysreq_single_63)
+* [System requirements for a single-server AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_single_63)
 * [System requirements for a clustered AEM Forms on JEE deployment  
-  ](http://www.adobe.com/go/learn_aemforms_sysreq_cluster_63)
+  ](https://www.adobe.com/go/learn_aemforms_sysreq_cluster_63)
 
 ## Supported Clients for AEM Forms on JEE {#supported-clients-for-aem-forms-on-jee}
 
@@ -648,7 +648,7 @@ For additional reuirements see:
 
 >[!NOTE]
 >
->The Acrobat DC product family introduces two tracks for both Acrobat and Reader which are essentially different products: “Classic” and “Continuous.” For details and a comparison of the two tracks, see [http://www.adobe.com/go/acrobatdctracks.](http://www.adobe.com/go/acrobatdctracks)
+>The Acrobat DC product family introduces two tracks for both Acrobat and Reader which are essentially different products: “Classic” and “Continuous.” For details and a comparison of the two tracks, see [https://www.adobe.com/go/acrobatdctracks.](https://www.adobe.com/go/acrobatdctracks)
 
 ### Browsers {#browsers}
 
@@ -701,7 +701,7 @@ For additional reuirements see:
 >* Most modern browsers no longer support NPAPI-based plug-ins. For information about how it impacts AEM Forms applications and workflows, see [Discontinuation of NPAPI browser plugins and its impact](https://helpx.adobe.com/aem-forms/kb/discontinuation-of-npapi-plugins-impact-on-aem-forms.html).
 >* Safari is supported only on Macintosh OS X.  
 >* AEM Forms on JEE UIs support only the desktop mode in Internet Explorer 11. App mode is not supported.
->* Workspace supports Safari 5.1 on Macintosh OS X 10.6 and 10.7 with Acrobat DC or later versions. For more information about Safari 5.1 compatibility with Adobe Reader, Acrobat, see [http://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html](http://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html).
+>* Workspace supports Safari 5.1 on Macintosh OS X 10.6 and 10.7 with Acrobat DC or later versions. For more information about Safari 5.1 compatibility with Adobe Reader, Acrobat, see [https://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html](https://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html).
 >* Administration Console is not supported on Safari.
 >* Correspondence Management does not support Windows® Internet Explorer 9.0 for AEM 6.1 forms.
 >* Forms portal supports JAWS 14.0 screen reader software on Internet Explorer 11 for accessibility.
@@ -776,7 +776,7 @@ AEM Forms app is available on the following platforms:
 
 ### Adobe Document Security Extension for Microsoft Office {#adobe-rights-management-extension-for-microsoft-office}
 
-Click [here](http://www.adobe.com/products/livecycle/rightsmanagement/extension/downloads.html) to see the system requirements for Adobe Document Security Extension for Microsoft® Office.
+Click [here](https://www.adobe.com/products/livecycle/rightsmanagement/extension/downloads.html) to see the system requirements for Adobe Document Security Extension for Microsoft® Office.
 
 ### Exceptions to client support {#exceptions-to-client-support}
 
@@ -786,13 +786,13 @@ Also, AEM Forms on JEE supports updates, patches, and fix packs on top of the sp
 
 ## Third-party patch support policy {#third-party-patch-support-policy}
 
-The third-party software requirements for AEM Forms on JEE are documented in the “System Requirements” section of their respective product documents. All documentation can be accessed from [http://adobe.com/go/learn_aemforms_documentation_63](http://adobe.com/go/learn_aemforms_documentation_63) .
+The third-party software requirements for AEM Forms on JEE are documented in the “System Requirements” section of their respective product documents. All documentation can be accessed from [https://adobe.com/go/learn_aemforms_documentation_63](https://adobe.com/go/learn_aemforms_documentation_63) .
 
 AEM Forms on JEE’s third-party reference platforms state the specific patch level of third-party infrastructure that was current during the development and release of AEM Forms on JEE, and from the minimum patch/service pack level of the infrastructure supported by that version of AEM Forms on JEE.
 
 Adobe supports urgent or recommended patches issued by third-party vendors upon their release assuming that third-party vendors guarantee backward compatibility with the versions that AEM Forms on JEE supports. Adobe will only support patches released after the minimum patch level stated in the AEM Forms on JEE documentation.
 
-In some cases, Adobe does not support third-party updates that change major functionality, and thus do not support full backward compatibility. For details on the supported updates, see [Supported patch definitions](http://helpx.adobe.com/aem-forms/aem-forms-third-party-software-patch.html) for specific vendor products and the patch types Adobe supports.
+In some cases, Adobe does not support third-party updates that change major functionality, and thus do not support full backward compatibility. For details on the supported updates, see [Supported patch definitions](https://helpx.adobe.com/aem-forms/aem-forms-third-party-software-patch.html) for specific vendor products and the patch types Adobe supports.
 
 Under circumstances beyond Adobe’s control, third-party patches that claim backward compatibility may have negative impact on the Adobe products or customer environments. In such cases, Adobe recommends that customers assess the impact of any urgent patch from a third party before applying them to critical systems. Adobe will work with third parties using reasonable business efforts to resolve such issues, either through normal Adobe support programs or by third parties rectifying the issue in their patch. This does not guarantee that a newly released third-party patch that will be supported by Adobe will work as documented by the vendor or with AEM Forms on JEE.
 

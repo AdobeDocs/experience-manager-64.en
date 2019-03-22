@@ -35,7 +35,7 @@ CRXDE Lite is recommended when you do not have direct access to the AEM server, 
 To get started with CRXDE Lite, proceed as follows:
 
 1. Install AEM.
-1. In your browser, enter http://<host>:<port>/crx/de. By default it is `http://localhost:4502/crx/de`.
+1. In your browser, enter https://<host>:<port>/crx/de. By default it is `http://localhost:4502/crx/de`.
 1. Enter your **username** and **password**. By default it is `admin` and `admin`.
 
 1. Click **OK**.
@@ -412,7 +412,7 @@ The following table lists all the properties of the .bnd file, their values and 
  </tbody> 
 </table>
 
-For more information on the bnd format, refer to the [bnd utility](http://bndtools.org/) used by CRXDE to create OSGI bundles.
+For more information on the bnd format, refer to the [bnd utility](https://bndtools.org/) used by CRXDE to create OSGI bundles.
 
 #### Creating a Java Class {#creating-a-java-class}
 
@@ -469,7 +469,7 @@ To see the effect of the Test Bundle, create a component that uses the Java meth
 
 1. Click **Save All** to save the changes on the server.  
 
-1. In your browser, request `test_node`: `http://<hostname>:<port>/content/test_node.html`.
+1. In your browser, request `test_node`: `https://<hostname>:<port>/content/test_node.html`.
 
 1. A page is displayed with the **Hello World!** message.
 

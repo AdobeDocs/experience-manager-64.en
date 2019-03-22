@@ -51,7 +51,7 @@ A page may be 25000 in size at maximum, per definition in Adobe Classifications 
 
 To change the page size:
 
-1. Navigate to the OSGI console at **http://&lt;host&gt;:&lt;port&gt;/system/console/configMgr **and select **Adobe AEM Classifications Exporter**.
+1. Navigate to the OSGI console at **https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr **and select **Adobe AEM Classifications Exporter**.
 
    ![](assets/aa-26.png)
 

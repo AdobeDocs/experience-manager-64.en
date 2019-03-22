@@ -30,7 +30,7 @@ For information and instructions related to Acrobat Reader DC extensions, see [C
     * **Acrobat Reader DC extensions Credential: **A digital certificate specific to Acrobat Reader DC extensions that enables Adobe Reader usage rights to be activated in the PDF documents produced.
     * **Default: **Indicates that this is the default credential to use with Acrobat Reader DC extensions.
 
-   For information about obtaining a credential, see [Preparing to Install AEM forms](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63).
+   For information about obtaining a credential, see [Preparing to Install AEM forms](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63).
 
 1. In the Alias box, type an identifier for the credential. This identifier is used as the display name for the credential in Acrobat Reader DC extensions and the Signature service. This alias is also used to access the credential programmatically using the AEM forms SDK.
 

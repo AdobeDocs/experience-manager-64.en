@@ -106,7 +106,7 @@ See in the *Deploy AEM web application* steps for the details.
 
 502 errors can indicate that the web server cannot handle the size of the AEM HTTP response header. AEM can generate HTTP response headers that include include cookies of size greater than 4Kb. Ensure that your servlet container is configured so that the maximum response header size can exceed 4kb.
 
-For example, for Tomcat 7.0, the maxHttpHeaderSize attribute of the [HTTP Connector](http://tomcat.apache.org/tomcat-7.0-doc/config/http.html) controls limitations on header size.
+For example, for Tomcat 7.0, the maxHttpHeaderSize attribute of the [HTTP Connector](https://tomcat.apache.org/tomcat-7.0-doc/config/http.html) controls limitations on header size.
 
 ## Uninstalling Adobe Experience Manager {#uninstalling-adobe-experience-manager}
 

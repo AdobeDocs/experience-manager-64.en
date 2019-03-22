@@ -15,11 +15,11 @@ discoiquuid: 1169d0d1-cbfb-486b-acca-9b9de3d410dc
 
 Security Assertion Markup Language (SAML) is one of the options that you can select when configuring authorization for an enterprise or hybrid domain. SAML is primarily used to support SSO across multiple domains. When SAML is configured as your authentication provider, users log in and authenticate to AEM forms via a specified third-party identity provider (IDP).
 
-For an explanation of SAML, see [Security Assertion Markup Language (SAML) V2.0 Technical Overview](http://www.oasis-open.org/committees/download.php/20645/sstc-saml-tech-overview-2%200-draft-10.pdf).
+For an explanation of SAML, see [Security Assertion Markup Language (SAML) V2.0 Technical Overview](https://www.oasis-open.org/committees/download.php/20645/sstc-saml-tech-overview-2%200-draft-10.pdf).
 
 1. In administration console, click Settings &gt; User Management &gt; Configuration &gt; SAML Service Provider Settings.
-1. In the Service Provider Entity ID box, type a unique ID to use as an identifier for the AEM forms service provider implementation. You also specify this unique ID when configuring your IDP (for example, `um.lc.com`.) You can also use the URL that is used to access AEM forms (for example, `http://AEMformsserver`).
-1. In the Service Provider Base URL box, type the base URL for your forms server (for example, `http://AEMformsserver:8080`).
+1. In the Service Provider Entity ID box, type a unique ID to use as an identifier for the AEM forms service provider implementation. You also specify this unique ID when configuring your IDP (for example, `um.lc.com`.) You can also use the URL that is used to access AEM forms (for example, `https://AEMformsserver`).
+1. In the Service Provider Base URL box, type the base URL for your forms server (for example, `https://AEMformsserver:8080`).
 1. (Optional) To enable AEM forms to send signed authentication requests to the IDP, perform the following tasks:
 
     * Use Trust Manager to import a credential in PKCS #12 format with Document Signing Credential selected as the Trust Store Type. (See [Managing local credentials](../../../forms/using/admin-help/local-credentials.md#managing-local-credentials).)

@@ -93,7 +93,7 @@ Perform the following steps to setup certificates:
 
 The alias contains all the parameters that an HSM or etoken requires. Perform the instructions listed below to create an alias for each HSM or etoken credential that eSign or Digital Signatures uses :
 
-1. Open AEM console. The default URL of AEM console is http://&lt;host&gt;:&lt;port&gt;/system/console/configMgr
+1. Open AEM console. The default URL of AEM console is https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr
 1. Open the **HSM Credentials Configuration Service **and specify values for the following fields:
 
     * **Credential Alias**: Specify a string used to identify the alias. This value is used as a property for some Digital Signatures operations, such as the Sign Signature Field operation. 

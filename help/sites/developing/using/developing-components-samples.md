@@ -42,7 +42,7 @@ You can find the code of this page on GitHub
 
 >[!NOTE]
 >
->This code sample is related to the AEM Gems session on [Customizing Dialog Fields](http://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
+>This code sample is related to the AEM Gems session on [Customizing Dialog Fields](https://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
 
 ## Related Resources {#related-resources}
 

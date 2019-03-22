@@ -26,7 +26,7 @@ You can accomplish these tasks using the PDF Utilities service:
 
 >[!NOTE]
 >
->For more information about the PDF Utilities service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the PDF Utilities service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Converting PDF Documents into XDP Documents {#converting-pdf-documents-into-xdp-documents}
 
@@ -34,7 +34,7 @@ You can use the PDF Utilities Java and web service APIs to programmatically conv
 
 >[!NOTE]
 >
->For more information about the PDF Utilities service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the PDF Utilities service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -123,7 +123,7 @@ You can use the PDF Utilities Java and web service APIs to programmatically conv
 
 >[!NOTE]
 >
->For more information about the PDF Utilities service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the PDF Utilities service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -212,7 +212,7 @@ You can use the PDF Utilities Java and web service APIs to programmatically retr
 
 >[!NOTE]
 >
->For more information about the PDF Utilities service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63)
+>For more information about the PDF Utilities service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63)
 
 ### Summary of steps {#summary_of_steps-2}
 
@@ -311,7 +311,7 @@ You can use the PDF Utilities service Java and web service APIs to programmatica
 
 >[!NOTE]
 >
->For more information about the PDF Utilities service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the PDF Utilities service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-3}
 
@@ -450,7 +450,7 @@ You can use the PDF Utilities Java APIs to programmatically convert PDF document
 
 >[!NOTE]
 >
->For more information about the PDF Utilities service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the PDF Utilities service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-4}
 

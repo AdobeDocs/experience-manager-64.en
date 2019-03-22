@@ -38,7 +38,7 @@ The following limitations apply when a form design is passed by value:
 
 >[!NOTE]
 >
->For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -72,7 +72,7 @@ To render a form by value, pass a `com.adobe.idp.Document` instance that contain
 
 >[!NOTE]
 >
->If you want to display data within the form, the data must be specified within the `xfa:datasets` element. For information about XFA architecture, go to [http://partners.adobe.com/public/developer/xml/index_arch.html](http://partners.adobe.com/public/developer/xml/index_arch.html).
+>If you want to display data within the form, the data must be specified within the `xfa:datasets` element. For information about XFA architecture, go to [https://partners.adobe.com/public/developer/xml/index_arch.html](https://partners.adobe.com/public/developer/xml/index_arch.html).
 
 **Write the form data stream to the client web browser**
 

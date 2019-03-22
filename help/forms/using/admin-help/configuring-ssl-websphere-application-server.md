@@ -152,7 +152,7 @@ HTML-to-PDF conversion from the site whose certificate is added will now work fr
 
 ## Configuring dynamic ports {#configuring-dynamic-ports}
 
-IBM WebSphere does not allow multiple calls to ORB.init() when Global Security is enabled. You can read about the permanent restriction at http://www-01.ibm.com/support/docview.wss?uid=swg1PK58704.
+IBM WebSphere does not allow multiple calls to ORB.init() when Global Security is enabled. You can read about the permanent restriction at https://www-01.ibm.com/support/docview.wss?uid=swg1PK58704.
 
 Perform the following steps to set the port to be dynamic and resolve the issue:
 

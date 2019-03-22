@@ -27,7 +27,7 @@ You can programmatically interact with the Credential service using the Trust Ma
 
 >[!NOTE]
 >
->You can also import and delete certificates by using administration console. (See [administration help.](http://www.adobe.com/go/learn_aemforms_admin_63))
+>You can also import and delete certificates by using administration console. (See [administration help.](https://www.adobe.com/go/learn_aemforms_admin_63))
 
 ## Importing Credentials by using the Trust Manager API {#importing-credentials-by-using-the-trust-manager-api}
 

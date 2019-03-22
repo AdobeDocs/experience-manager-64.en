@@ -79,14 +79,14 @@ In general, as of Facebook API v2.7:
 
     * for *Platform*, choose Website
 
-        * for *Site URL* - enter `  http://<server>:<port>.`
+        * for *Site URL* - enter `  https://<server>:<port>.`
 
     * for *Display Name* - enter a title for use as the Title of the Facebook connect service.
     * for *Category*, recommended choosing *Apps for Pages,* but can be anything.
     
     * *Add  Product:  Facebook Login*
 
-        * for *Valid OAuth redirect URIs* - enter `  http://<server>:<port>.`
+        * for *Valid OAuth redirect URIs* - enter `  https://<server>:<port>.`
 
 >[!NOTE]
 >
@@ -210,15 +210,15 @@ In general:
 
 1. Enter a *Name *that will identify your Twitter application to the users of your website.
 1. Enter a *Description.*
-1. For w*ebsite* - enter http://&lt;server&gt;/.
-1. For *Callback URL* - enter http://&lt;server&gt;/.
+1. For w*ebsite* - enter https://&lt;server&gt;/.
+1. For *Callback URL* - enter https://&lt;server&gt;/.
 
    >[!NOTE]
    >
    >It is not necessary to specify the port.
    >
    >
-   >For development, http://127.0.0.1/ will work.
+   >For development, https://127.0.0.1/ will work.
 
 1. Once the application has been created, locate the **Consumer (API) Key **and **Consumer (API) Secret**. This information will be needed for configuring the [Twitter cloud service](#createatwittercloudservice).
 

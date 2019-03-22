@@ -87,7 +87,7 @@ Follow the steps below to configure various options of the player:
 ```java
 {
   "server": {
-    "Value": "http://aemscreensdemo.adobeitc.com"
+    "Value": "https://aemscreensdemo.adobeitc.com"
   },
   "resolution": {
     "Value": "auto"

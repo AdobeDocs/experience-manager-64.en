@@ -127,7 +127,7 @@ To learn more about Cloud Manger and its resources, please refer to [**Cloud Man
 
 ### Prerequisites {#prerequisites}
 
-While production instances are usually run on dedicated machines running an officially supported OS (see [Technical Requirements](../../../sites/deploying/using/technical-requirements.md)), the Experience Manager server will actually run on any system that supports [**Java Standard Edition 8**](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+While production instances are usually run on dedicated machines running an officially supported OS (see [Technical Requirements](../../../sites/deploying/using/technical-requirements.md)), the Experience Manager server will actually run on any system that supports [**Java Standard Edition 8**](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 For purposes of familiarization and for developing on AEM it is quite common to use an instance installed on your local machine running Apple OS X or desktop versions of Microsoft Windows or Linux.
 

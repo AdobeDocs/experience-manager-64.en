@@ -39,7 +39,7 @@ AEM Forms app for iOS configured to sync with AEM Forms on OSGi supports only fi
 For HTML5 forms enabled in AEM Forms app with **Save as Draft** HTML Render Profile, the saved drafts are not visible to workspace users. To view saved drafts of HTML5 forms submitted by workspace users on the portal, perform the following steps:
 
 1. Open CRXDE and login with administrator credentials.   
-   URL: `http://<server>:<port>/lc/crx/de/index.jsp`
+   URL: `https://<server>:<port>/lc/crx/de/index.jsp`
 
 1. In the root path of the CRXDE, in the Access Control List under Access Control, click **+**.
 1. In the **Add New Entry** dialog, click the group search button in the Principal field.

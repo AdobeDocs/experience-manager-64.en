@@ -64,6 +64,6 @@ See I [nstalling Feature Pack 18912](../assets/using/bulk-ingest-migrate.md).
 
 ## Helpful resources {#helpful-resources}
 
-* [Adobe Experience Manager Product Page](http://www.adobe.com/solutions/web-experience-management.html)
+* [Adobe Experience Manager Product Page](https://www.adobe.com/solutions/web-experience-management.html)
 * [AEM Documentation](https://docs.adobe.com/content/docs/en/aem/6-3.html)
 

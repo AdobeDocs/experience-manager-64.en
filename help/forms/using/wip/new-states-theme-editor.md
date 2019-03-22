@@ -17,7 +17,7 @@ An AEM Forms component contains states that let you define its behavior when a u
 When you create or customize a component, it is stored in the `/apps` folder in CRXDE. Perform the following steps to add states for the new component.
 
 1. Open CRXDE in your browser.  
-   URL: `http://<server>:<port>/crx/de/index.jsp`
+   URL: `https://<server>:<port>/crx/de/index.jsp`
 1. Navigate to `/apps/<path-to-your-component>`.  
    For example, a text-box component is customized to include a label below the text box, called subTitle. In this example, a subTitle node is created under `cq:styleConfig`.
 

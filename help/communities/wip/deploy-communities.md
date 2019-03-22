@@ -336,7 +336,7 @@ With the key material stored in the repository, the manner for replicating the c
 
 Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
-* browse to [http://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
+* browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 * select `/etc/key`
 * open `Replication` tab
 * select `Replicate`
@@ -349,7 +349,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 * on each publish instance, access the [Web Console](../../sites/deploying/using/configuring-osgi.md)
 
-    * for example, [http://&lt;server&gt;:&lt;port&gt;/system/console/bundles](http://localhost:4503/system/console/bundles)
+    * for example, [https://&lt;server&gt;:&lt;port&gt;/system/console/bundles](http://localhost:4503/system/console/bundles)
 
 * locate `Adobe Granite Crypto Support` bundle (com.adobe.granite.crypto)
 * select **Refresh**
@@ -377,7 +377,7 @@ In particular, be careful to use the correct server name, not `localhost`, in th
 
     # Return from "Sign Out" generates response header directing you to "/", generating a 404 error
     # The RedirectMatch resolves it correctly when modified for the target Community Site:
-    RedirectMatch ^/$ http://[server name]/content/sites/engage/en.html
+    RedirectMatch ^/$ https://[server name]/content/sites/engage/en.html
  ...
  </IfModule>
 ```

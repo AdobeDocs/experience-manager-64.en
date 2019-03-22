@@ -14,7 +14,7 @@ discoiquuid: c6115b64-e06f-4b5e-b7f9-876553c7627f
 
 ## Prerequisites {#prerequisites}
 
-* Understanding of AEM [Page Template](../../sites/authoring/using/templates.md) and [Adaptive Form Authoring](http://helpx.adobe.com/aem-forms/6-1/introduction-forms-authoring.html)
+* Understanding of AEM [Page Template](../../sites/authoring/using/templates.md) and [Adaptive Form Authoring](https://helpx.adobe.com/aem-forms/6-1/introduction-forms-authoring.html)
 
 * Understanding of AEM [Client Side Libraries](../../sites/developing/using/clientlibs.md)
 

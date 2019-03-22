@@ -80,7 +80,7 @@ Use the following workaround:
 
 If when clicking the **Synchronize** button in Adobe Campaign Classic, you see the following error:
 
-**Error while executing the method ‘aemListContent' of service ' [nms:delivery](http://nmsdelivery/)'**
+**Error while executing the method ‘aemListContent' of service ' [nms:delivery](https://nmsdelivery/)'**
 
 To fix this issue, make sure the AEM connection-url configured in the External Accounts is reachable from the machine.
 
@@ -121,7 +121,7 @@ When trying to synchronize content in Adobe Campaign delivery, AEM returns a lis
 To solve this issue:
 
 * The dispatcher or reverse proxy needs to be configured to pass the original protocol as a header.
-* The *Apache Felix Http Service SSL Filter* in the OSGi configuration ([http://&lt;host&gt;:&lt;port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr)) needs to be configured to the respective header settings. See [http://felix.apache.org/documentation/subprojects/apache-felix-http-service.html#using-the-ssl-filter](http://felix.apache.org/documentation/subprojects/apache-felix-http-service.html#using-the-ssl-filter)
+* The *Apache Felix Http Service SSL Filter* in the OSGi configuration ([https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr)) needs to be configured to the respective header settings. See [https://felix.apache.org/documentation/subprojects/apache-felix-http-service.html#using-the-ssl-filter](https://felix.apache.org/documentation/subprojects/apache-felix-http-service.html#using-the-ssl-filter)
 
 ## If the custom template I created cannot be selected in Page Properties {#if-the-custom-template-i-created-cannot-be-selected-in-page-properties}
 

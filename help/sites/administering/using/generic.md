@@ -363,7 +363,7 @@ You can look at them in the Web Console in OSGI events ( `/system/console/events
 
 >[!NOTE]
 >
->Read also [Event handling in AEM](http://blogs.adobe.com/experiencedelivers/experience-management/event_handling_incq/). [](http://blogs.adobe.com/experiencedelivers/experience-management/event_handling_incq/)
+>Read also [Event handling in AEM](https://blogs.adobe.com/experiencedelivers/experience-management/event_handling_incq/). [](https://blogs.adobe.com/experiencedelivers/experience-management/event_handling_incq/)
 
 ### Image with Add to Cart Links {#image-with-add-to-cart-links}
 

@@ -17,7 +17,7 @@ discoiquuid: 72ee013a-7a60-41ee-9421-2846e4c6bc68
 >
 >Authoring by default is performed in the standard, touch-enabled AEM UI, which is the focus of this authoring documentation.
 >
->For an explanation of the differences between the standard UI and the classic UI, see [Working with the Author Enviornment](../../../sites/authoring/using/author-environment.md).
+>For an explanation of the differences between the standard UI and the classic UI, see [Working with the Author Environment](../../../sites/authoring/using/author-environment.md).
 >
 >If you are looking for authoring documentation for the classic UI, see [Authoring in the Classic UI User Guide](/sites/classic-ui-authoring/user-guide.md).
 

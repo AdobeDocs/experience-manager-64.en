@@ -81,7 +81,7 @@ customBlobStore=B"true"
 
 The document node store is the basis of AEM's MongoMK implementation. It uses the `org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService`* *PID. The following configuration options are available:
 
-* `mongouri`: The [MongoURI](http://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`  
+* `mongouri`: The [MongoURI](https://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`  
 
 * `db`: Name of the Mongo database. The default is **Oak** ``. However, new AEM 6 installations use **aem-author** ``as the default database name.  
 
@@ -120,7 +120,7 @@ Details on the different data stores and configurations are described below.
 
 ### File Data Store {#file-data-store}
 
-This is the implementation of [FileDataStore](http://jackrabbit.apache.org/api/2.8/org/apache/jackrabbit/core/data/FileDataStore.html) present in Jackrabbit 2. It provides a way to store the binary data as normal files on the file system. It uses the `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore` PID.
+This is the implementation of [FileDataStore](https://jackrabbit.apache.org/api/2.8/org/apache/jackrabbit/core/data/FileDataStore.html) present in Jackrabbit 2. It provides a way to store the binary data as normal files on the file system. It uses the `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore` PID.
 
 These configuration options are available:
 
@@ -351,7 +351,7 @@ In order to configure binaryless replication with S3, the following steps are re
    >The Oak-run tool can be downloaded from this location:
    >
    >
-   >[http://mvnrepository.com/artifact/org.apache.jackrabbit/oak-run/](http://mvnrepository.com/artifact/org.apache.jackrabbit/oak-run/)
+   >[https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-run/](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-run/)
    >
    >
    >Be aware that different versions of the tool need to be used depending on the Oak version you use with your AEM installation. Please check the version requirements list below before using the tool:
@@ -450,7 +450,7 @@ The data store garbage collection process is used to remove any unused files in 
 
 You can run data store garbage collection by:
 
-1. Going to the JMX console located at *http://&lt;serveraddress:port&gt;/system/console/jmx*
+1. Going to the JMX console located at *https://&lt;serveraddress:port&gt;/system/console/jmx*
 1. Searching for **RepositoryManagement.** Once you find the Repository Manager MBean, click it to bring up the available options.
 1. Scroll to the end of the page, and click the **startDataStoreGC(boolean markOnly)** link.
 1. In the following dialogue, enter `false` for the `markOnly` parameter, then click **Invoke**:

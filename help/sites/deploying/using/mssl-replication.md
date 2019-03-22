@@ -40,7 +40,7 @@ You require a private key and public certificate for the author and publish inst
 
 ### JKS Format {#jks-format}
 
-Generate a private key and a certificate in JKS format. The private key is stored in a KeyStore file, and the certificate is stored in a TrustStore file. Use [Java `keytool`](http://docs.oracle.com/javase/7/docs/technotes/tools/solaris/keytool.html) to create both.
+Generate a private key and a certificate in JKS format. The private key is stored in a KeyStore file, and the certificate is stored in a TrustStore file. Use [Java `keytool`](https://docs.oracle.com/javase/7/docs/technotes/tools/solaris/keytool.html) to create both.
 
 Perform the following steps using Java `keytool` to create the private key and the credential:
 
@@ -229,7 +229,7 @@ To enable MSSL, configure the properties on the Transport tab according to the f
   </tr> 
   <tr> 
    <td>URI</td> 
-   <td><p>https://server_name:SSL_port/bin/receive?sling:authRequestLogin=1</p> <p>For example:</p> <p>https://localhost:8443/bin/receive?sling:authRequestLogin=1</p> </td> 
+   <td><p>https://server_name:SSL_port/bin/receive?sling:authRequestLogin=1</p> <p>For example:</p> <p>http://localhost:8443/bin/receive?sling:authRequestLogin=1</p> </td> 
   </tr> 
   <tr> 
    <td>User</td> 
@@ -259,7 +259,7 @@ After you configure the replication agent, test the connection to determine whet
 29.08.2014 14:02:46 - adding header: Handle:/content
 29.08.2014 14:02:46 - deserialize content for delivery
 29.08.2014 14:02:46 - No message body: Content ReplicationContent.VOID is empty
-29.08.2014 14:02:46 - Sending POST request to https://localhost:8443/bin/receive?sling:authRequestLogin=1
+29.08.2014 14:02:46 - Sending POST request to http://localhost:8443/bin/receive?sling:authRequestLogin=1
 29.08.2014 14:02:46 - sent. Response: 200 OK
 29.08.2014 14:02:46 - ------------------------------------------------
 29.08.2014 14:02:46 - Sending message to localhost:8443

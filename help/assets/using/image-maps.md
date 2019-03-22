@@ -36,7 +36,7 @@ Image Maps let you add one or more hyperlinked areas that function like other hy
 
    ![](assets/chlimage_1-422.png)
 
-1. Click/tap the hot-spot, and enter the URL and Alt text. From the Target list, specify where you want the image map displayed, for example the same tab, a new tab, or an iFrame. For example, enter http://www.adobe.com as the URL, Adobe website as the Alt text, and specify New Tab from the Target list for the image map to open in a new tab.
+1. Click/tap the hot-spot, and enter the URL and Alt text. From the Target list, specify where you want the image map displayed, for example the same tab, a new tab, or an iFrame. For example, enter https://www.adobe.com as the URL, Adobe website as the Alt text, and specify New Tab from the Target list for the image map to open in a new tab.
 
    ![](assets/chlimage_1-423.png)
 
@@ -56,5 +56,5 @@ Image Maps let you add one or more hyperlinked areas that function like other hy
 
    >[!NOTE]
    >
-   >To use image maps with the Dynamic Media image viewers, create a custom viewer using Adobe's SDK. To download the SDK and documentation, see [Accessing SDKs through Adobe Developer Connection](http://help.adobe.com/en_US/scene7/using/WSd4272150f67705c11b002eec12fcba4dee6-8000.html).
+   >To use image maps with the Dynamic Media image viewers, create a custom viewer using Adobe's SDK. To download the SDK and documentation, see [Accessing SDKs through Adobe Developer Connection](https://help.adobe.com/en_US/scene7/using/WSd4272150f67705c11b002eec12fcba4dee6-8000.html).
 

@@ -31,7 +31,7 @@ All functionalities are implemented using the native SharePoint web services as 
 >
 >SharePoint Connector is also supported with AEM 6.1 service pack 2. The connector no longer supports virtual repository mount and, therefore, it cannot be mounted. If you want to access the Sharepoint repository using Java APIs, use the Sharepoint connector's JCR repository implementation in your project.
 >
->Installation, configuration, management, and IT operations of the SharePoint server and related IT infrastructure are outside the scope of this document. See vendor documentation on [SharePoint](http://www.microsoft.com/sharepoint) for information about these topics. The connector requires these parts of the infrastructure to be properly installed, configured, and operated.
+>Installation, configuration, management, and IT operations of the SharePoint server and related IT infrastructure are outside the scope of this document. See vendor documentation on [SharePoint](https://www.microsoft.com/sharepoint) for information about these topics. The connector requires these parts of the infrastructure to be properly installed, configured, and operated.
 >
 
 ## Getting started {#getting-started}
@@ -80,7 +80,7 @@ The connector supports the following:
 
 >[!NOTE]
 >
->The connector only supports configurations officially supported by Microsoft. See [MOSS 2010](http://technet.microsoft.com/en-us/library/cc262485(office.14).aspx) and [MOSS 2013](http://technet.microsoft.com/en-us/library/cc262485.aspx) system requirements.
+>The connector only supports configurations officially supported by Microsoft. See [MOSS 2010](https://technet.microsoft.com/en-us/library/cc262485(office.14).aspx) and [MOSS 2013](https://technet.microsoft.com/en-us/library/cc262485.aspx) system requirements.
 
 ### Standard installation {#standard-installation}
 
@@ -256,7 +256,7 @@ To add the user in the admin group:
 
 #### Supporting different authentication methods of the SharePoint server {#supporting-different-authentication-methods-of-the-sharepoint-server}
 
-In its standard version, the connector supports the standard IIS **Windows** authentication (Basic) and Forms-based authentication (token based). The [other authentication methods](http://technet.microsoft.com/en-us/library/cc262350.aspx#section2) can be supported through the extensibility mechanism.
+In its standard version, the connector supports the standard IIS **Windows** authentication (Basic) and Forms-based authentication (token based). The [other authentication methods](https://technet.microsoft.com/en-us/library/cc262350.aspx#section2) can be supported through the extensibility mechanism.
 
 The following steps provide guidelines around extending the standard authentication to support various authentication methods of the SharePoint server:
 

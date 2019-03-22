@@ -106,8 +106,8 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 
     * `The URL of the published static is the following:`
 
-        * `http://*<server_name>*/is/content/*<company_name>*/*<static_asset_filename>*.*<extension>*`  
-          For example, `http://aem.com/is/content/adobe/image.gif`.
+        * `https://*<server_name>*/is/content/*<company_name>*/*<static_asset_filename>*.*<extension>*`  
+          For example, `https://aem.com/is/content/adobe/image.gif`.
 
     * click **Asset **&gt; **Dynamic Renditions**, then click on a dynamic rendition of the static asset and copy the URL.  
       Change the copied URL to use `is/content` in the path instead of `is/image/`.
@@ -122,7 +122,7 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 
    For example, the URL path may appear similar to the following:
 
-   `http://s7athens.macromedia.com:9090/DMGateway/`
+   `https://s7athens.macromedia.com:9090/DMGateway/`
 
    (The path above is for illustration purposes only; it is not the actual path you copy.)
 
@@ -145,7 +145,7 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 
    For example, using the example paths and the example customer name from the steps above, the complete path appears as follows:  
   
-   `http://s7athens.macromedia.com:9090/DMGateway/public/MyCompany/_renditions_/0bd/0bd28743-a616-4fe6-92aa-6eae7c2112ff/avs/Momentum_1080-0x720-2600k.mp4`
+   `https://s7athens.macromedia.com:9090/DMGateway/public/MyCompany/_renditions_/0bd/0bd28743-a616-4fe6-92aa-6eae7c2112ff/avs/Momentum_1080-0x720-2600k.mp4`
 
    This is the complete video URL for a published video rendition.
 

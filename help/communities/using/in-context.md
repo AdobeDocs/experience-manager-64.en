@@ -68,7 +68,7 @@ For more on community user groups, visit [Managing Users and User Groups](../../
     * select Forum
     * for the Hummingbird Topic, select Read More
     * enter the comment for Post Reply  
-      I sell nectar and feeders - visit http://my.viral.url/
+      I sell nectar and feeders - visit https://my.viral.url/
     * select Reply
     * select Log Out
 

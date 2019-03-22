@@ -27,7 +27,7 @@ You can also configure the design of the video components and parameters for Pla
 
 ## Install FFmpeg {#install-ffmpeg}
 
-The Video Component relies on the third-party open-source product FFmpeg for proper transcoding of videos that can be downloaded from [http://ffmpeg.org/](http://ffmpeg.org/). After you install FFmpeg, you must configure AEM to use a specific audio codec and specific runtime options.
+The Video Component relies on the third-party open-source product FFmpeg for proper transcoding of videos that can be downloaded from [https://ffmpeg.org/](https://ffmpeg.org/). After you install FFmpeg, you must configure AEM to use a specific audio codec and specific runtime options.
 
 To install FFmpeg for your platform:
 
@@ -42,9 +42,9 @@ To install FFmpeg for your platform:
 
 * **On Mac OS X:**
 
-    1. Install Xcode ([http://developer.apple.com/technologies/tools/xcode.html](http://developer.apple.com/technologies/tools/xcode.html))
+    1. Install Xcode ([https://developer.apple.com/technologies/tools/xcode.html](https://developer.apple.com/technologies/tools/xcode.html))
     1. Install XQuartz/X11.
-    1. Install MacPorts ([http://www.macports.org/](http://www.macports.org/))
+    1. Install MacPorts ([https://www.macports.org/](https://www.macports.org/))
     1. In the console run the following command and follow the instructions:  
        `sudo port install ffmpeg`   
        `FFmpeg` must be in `PATH` so AEM can pick it up via command line.

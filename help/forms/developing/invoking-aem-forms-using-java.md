@@ -31,9 +31,9 @@ The Java API supports the following features:
 
 The Adobe Developer website contains the following articles that discuss invoking AEM Forms services using the Java API:
 
-[Using Java servlets to invoke AEM Forms processes](http://www.adobe.com/devnet/livecycle/articles/java_servlets.html)
+[Using Java servlets to invoke AEM Forms processes](https://www.adobe.com/devnet/livecycle/articles/java_servlets.html)
 
-[Invoking the AEM Forms Distiller API from Java](http://www.adobe.com/devnet/livecycle/articles/distiller_java_03.html)
+[Invoking the AEM Forms Distiller API from Java](https://www.adobe.com/devnet/livecycle/articles/distiller_java_03.html)
 
 **See also**
 
@@ -420,7 +420,7 @@ To successfully invoke a AEM Forms service, set the following connection propert
 
 * **DSC_DEFAULT_EJB_ENDPOINT:** If you are using the EJB connection mode, this value represents the URL of the J2EE application server on which AEM Forms is deployed. To remotely invoke AEM Forms, specify the J2EE application server name on which AEM Forms is deployed. If your client application is located on the same J2EE application server, then you can specify `localhost`. Depending on which J2EE application server AEM Forms is deployed on, specify one of the following values:
 
-    * JBoss: `http://<ServerName>:8080 (default port)`
+    * JBoss: `https://<ServerName>:8080 (default port)`
     * WebSphere: `iiop://<ServerName>:2809 (default port)`
     * WebLogic: `t3://<ServerName>:7001 (default port)`
 
@@ -486,12 +486,12 @@ The following Java code example sets connection properties to invoke AEM Forms d
 
 ```java
  Properties ConnectionProps = new Properties(); 
- ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_EJB_ENDPOINT, "http://<hostname>:8080"); 
+ ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_EJB_ENDPOINT, "https://<hostname>:8080"); 
  ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_EJB_PROTOCOL);           
  ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
  ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
  ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_PASSWORD, "password");
- ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DOCUMENT_HTTP_ENDPOINT,"http://<hostname>:8080");
+ ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DOCUMENT_HTTP_ENDPOINT,"https://<hostname>:8080");
 ```
 
 **Setting the EJB connection mode for WebLogic**
@@ -1012,7 +1012,7 @@ The discussion here is about using Invocation API to invoke the following AEM Fo
 
 >[!NOTE]
 >
->This process is not based on an existing AEM Forms process. To follow along with the code example, create a process named `MyApplication/EncryptDocument` using Workbench. (See [Using Workbench](http://www.adobe.com/go/learn_aemforms_workbench_63).)
+>This process is not based on an existing AEM Forms process. To follow along with the code example, create a process named `MyApplication/EncryptDocument` using Workbench. (See [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).)
 
 When this process is invoked, it performs the following actions:
 

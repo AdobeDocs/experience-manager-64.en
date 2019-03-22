@@ -82,7 +82,7 @@ If custom properties are in use and searches are slow, then additional indices w
 
 To modify existing indices or create custom indices, refer to [Oak Queries and Indexing](../../sites/deploying/using/queries-and-indexing.md).
 
-The [Oak Index Manager](http://adobe-consulting-services.github.io/acs-aem-commons/features/oak-index-manager.html) is available from ACS AEM Commons. It provides:
+The [Oak Index Manager](https://adobe-consulting-services.github.io/acs-aem-commons/features/oak-index-manager.html) is available from ACS AEM Commons. It provides:
 
 * a view of existing indices
 * the ability to initiate re-indexing

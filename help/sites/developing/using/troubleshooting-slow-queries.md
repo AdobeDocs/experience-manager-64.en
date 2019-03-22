@@ -168,7 +168,7 @@ For AEM 6.0 - 6.2 versions, you can tune the threshold for node traversal via JV
 
 In AEM 6.3, the above 2 parameters are preconfigured by default, and can be modified via the OSGi QueryEngineSettings.
 
-More information available under : [http://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits](http://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits)
+More information available under : [https://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits](https://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits)
 
 ## Query Performance Tuning {#query-performance-tuning}
 
@@ -364,7 +364,7 @@ The following example uses Query Builder as it's the most common query language 
 
         * `/jcr:root/content/my-site/us/en//element(*, cq:Page)[jcr:content/@contentType = 'article-page'] order by jcr:content/@publishDate descending`
 
-1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](http://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
+1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
 
 **Generated Lucene Property Index definition**
 
@@ -410,7 +410,7 @@ The following example uses Query Builder as it's the most common query language 
 
         * `//element(*, myApp:Page)[@firstName = 'ira']`
 
-1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](http://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
+1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
 
 **Generated Lucene Property Index definition**
 
@@ -489,7 +489,7 @@ Therefore, ensure an indexes satisfy queries, except if the combination of path 
 
 ### Community Supported {#community-supported}
 
-* ** [Oak Index Definition Generator](http://oakutils.appspot.com/generate/index)**
+* ** [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index)**
 
     * Generate optimal Lucence Property Index from XPath or JCR-SQL2 query statements.
 

@@ -15,7 +15,7 @@ discoiquuid: 505bf3e3-ce3c-40aa-9619-e1b9f6634deb
 
 To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format.
 
-The PageInfo servlet returns information about resources in the respository. The servlet is bound to the URL `http://*server*:*port*/libs/wcm/core/content/pageinfo.json` and uses the `path` parameter to identify the resource. The following example URL returns information about the `/content/we-retail/us/en` node:
+The PageInfo servlet returns information about resources in the respository. The servlet is bound to the URL `https://*server*:*port*/libs/wcm/core/content/pageinfo.json` and uses the `path` parameter to identify the resource. The following example URL returns information about the `/content/we-retail/us/en` node:
 
 ```shell
 http://localhost:4502/libs/wcm/core/content/pageinfo.json?path=/content/we-retail/us/en
@@ -519,8 +519,8 @@ To configure the service in your project source:
 
    ```
    <?xml version="1.0" encoding="UTF-8"?> 
-    <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" 
-    xmlns:jcr="http://www.jcp.org/jcr/1.0" 
+    <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" 
+    xmlns:jcr="https://www.jcp.org/jcr/1.0" 
     jcr:primaryType="sling:OsgiConfig" 
     workflowpackageinfoprovider.filter="[]"/>
    ```

@@ -17,7 +17,7 @@ Output lets you merge XML form data with a form design created in Designer to cr
 
 You can use the Output page in administration console to administer the Output service. The settings you configure are used at run time when the equivalent settings were not specified through the AEM forms API. Configuration done through the AEM forms SDK overrides the settings configured using administration console.
 
-For additional information about the Output service, see [Services Reference](http://www.adobe.com/go/learn_aemforms_services_61).
+For additional information about the Output service, see [Services Reference](https://www.adobe.com/go/learn_aemforms_services_61).
 
 On the Output pages in administration console, you can perform several tasks:
 

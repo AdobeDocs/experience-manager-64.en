@@ -17,7 +17,7 @@ discoiquuid: 9cfe5f11-8a0e-4a27-9681-a8d50835c864
 
 The main way of getting an administrative session or resource resolver in AEM was using the `SlingRepository.loginAdministrative()` and `ResourceResolverFactory.getAdministrativeResourceResolver()` methods provided by Sling.
 
-However, neither of these methods were designed around the [principle of least privilege](http://en.wikipedia.org/wiki/Principle_of_least_privilege) and make it too easy for a developer not to plan for a proper structure and corresponding Access Control Levels (ACLs) for their content early on. If a vulnerability is present in such a service it often leads to privilege escalations to the `admin` user, even if the code itself would not need administrative privileges to work.
+However, neither of these methods were designed around the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) and make it too easy for a developer not to plan for a proper structure and corresponding Access Control Levels (ACLs) for their content early on. If a vulnerability is present in such a service it often leads to privilege escalations to the `admin` user, even if the code itself would not need administrative privileges to work.
 
 ## How to Phase Out Admin Sessions {#how-to-phase-out-admin-sessions}
 
@@ -67,7 +67,7 @@ Whether you apply access control while restructuring content or when you do it f
 
 * For example, instead of applying `jcr:read` on `/apps`, only apply it to `/apps/*/components/*/analytics`  
 
-* Use [restrictions](http://jackrabbit.apache.org/oak/docs/security/authorization/restriction.html)  
+* Use [restrictions](https://jackrabbit.apache.org/oak/docs/security/authorization/restriction.html)  
 
 * Apply ACLs for node types
 * Limit permissions
@@ -109,13 +109,13 @@ To replace the admin session with a service user, you should perform the followi
 
 After you verified that no user in the list of AEM service users is applicable for your use case and the corresponding RTC issues have been approved, you can go ahead and add the new user to the default content.
 
-The recommended approach is to create a service user to use the repository explorer at *http://server:port/crx/explorer/index.jsp*
+The recommended approach is to create a service user to use the repository explorer at *https://server:port/crx/explorer/index.jsp*
 
 The goal is to get a valid `jcr:uuid` property which is mandatory in order to create the user via a content package installation.
 
 You can create service users by:
 
-1. Going to the repository explorer at *http://server:port/crx/explorer/index.jsp*
+1. Going to the repository explorer at *https://server:port/crx/explorer/index.jsp*
 1. Logging in as admin by pressing the **Log In** link in the upper left corner of the screen.
 1. Next, create and name your system user. In order to create the user as a system one, set the intermediate path as `system` and add optional subfolders depending on your needs:
 
@@ -133,7 +133,7 @@ When adding the corresponding .content.xml to the content of your bundle, make s
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+<jcr:root xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:rep="internal"
     jcr:primaryType="rep:SystemUser"
     jcr:uuid="4917dd68-a0c1-3021-b5b7-435d0044b0dd"
     rep:principalName="authentication-service"
@@ -179,7 +179,7 @@ To add a mapping from your service to the corresponding System Users you need to
 
 1. Install your bundle and make sure the factory configuration has been installed. You can do this by:
 
-    * Going to the Web Console at * `http://serverhost:serveraddress/system/console/configMgr`*
+    * Going to the Web Console at * `https://serverhost:serveraddress/system/console/configMgr`*
     * Search for **Apache Sling Service User Mapper Service Amendment**
     * Click the link to see if the proper configuration is in place.
 

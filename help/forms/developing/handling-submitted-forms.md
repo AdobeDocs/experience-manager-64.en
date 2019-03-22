@@ -64,7 +64,7 @@ using Java XML classes.
 
 >[!NOTE]
 >
->The form design must be configured correctly in Designer for data to be submitted as XML data. To properly configure the form design to submit XML data, ensure that the Submit button that is located on the form design is set to submit XML data. For information about setting the Submit button to submit XML data, see [AEM Forms Designer](http://www.adobe.com/go/learn_aemforms_designer_63).
+>The form design must be configured correctly in Designer for data to be submitted as XML data. To properly configure the form design to submit XML data, ensure that the Submit button that is located on the form design is set to submit XML data. For information about setting the Submit button to submit XML data, see [AEM Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63).
 
 ### Handling submitted PDF data {#handling-submitted-pdf-data}
 
@@ -107,7 +107,7 @@ If form data is submitted as URL UTF-16 data, the client computer requires Adobe
 
 >[!NOTE]
 >
->For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 

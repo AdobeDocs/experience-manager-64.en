@@ -17,7 +17,7 @@ CQ allows you to generate graphics incorporating text dynamically taken from you
 
 To do this you can also load and use your own fonts.
 
-Currently all implementations of the Java Platform support [TrueType](http://en.wikipedia.org/wiki/Truetype) fonts.
+Currently all implementations of the Java Platform support [TrueType](https://en.wikipedia.org/wiki/Truetype) fonts.
 
 1. Open CRXDE Lite and navigate to your project application folder:  
    `/apps/<*your-project*>/`  
@@ -42,5 +42,5 @@ Currently all implementations of the Java Platform support [TrueType](http://en.
 
    These fonts are now ready to be used in the Java API.
 
-For full details of how to use the fonts with the Java API, see the [documentation for the Font class of the Java API](http://download.oracle.com/javase/6/docs/api/java/awt/Font.html).  
+For full details of how to use the fonts with the Java API, see the [documentation for the Font class of the Java API](https://download.oracle.com/javase/6/docs/api/java/awt/Font.html).  
 

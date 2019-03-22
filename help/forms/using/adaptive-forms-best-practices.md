@@ -106,7 +106,7 @@ Rule editor provides a visual editor and a code editor for writing rules. Consid
 * Refer components by relative unique hierarchy to avoid any conflict. For example, `parentName.fieldName`.  
 
 * When handling complex or commonly-used rules, consider writing business logic as functions in a separate client library that you can specify and reuse across adaptive forms. The client library should be a self-contained library and should not have any external dependencies, except on jQuery and Underscore.js. You can also use the client library to enforce [server-side revalidation](../../forms/using/configuring-submit-actions.md#server-side-revalidation-in-adaptive-form) of submitted form data.
-* Adaptive forms provide a set of APIs that you can use to communicate with and perform actions on adaptive forms. Some of the key APIs are as follows. For more information, see [JavaScript Library API reference for Adaptive Forms](http://adobe.com/go/learn_aemforms_documentation_63).
+* Adaptive forms provide a set of APIs that you can use to communicate with and perform actions on adaptive forms. Some of the key APIs are as follows. For more information, see [JavaScript Library API reference for Adaptive Forms](https://adobe.com/go/learn_aemforms_documentation_63).
 
     * `guideBridge.reset()`: Resets a form.
     * `guideBridge.submit()`: Submits a form.
@@ -202,7 +202,7 @@ A document of record (DoR) is a flattened PDF version of an adaptive form that y
 
 ### Debugging and testing adaptive forms {#debugging-and-testing-adaptive-forms}
 
-[AEM Chrome Plug-in](http://adobe-consulting-services.github.io/acs-aem-tools/aem-chrome-plugin/) is a browser extension for Google Chrome that provides tools for debugging adaptive forms. Form authors and developers can use these tools to:
+[AEM Chrome Plug-in](https://adobe-consulting-services.github.io/acs-aem-tools/aem-chrome-plugin/) is a browser extension for Google Chrome that provides tools for debugging adaptive forms. Form authors and developers can use these tools to:
 
 * Identify bottlenecks and optimize performance of form rendering
 * Debug keywords and bindRef errors in the form
@@ -210,7 +210,7 @@ A document of record (DoR) is a flattened PDF version of an adaptive form that y
 * Debug rules and scripts in the form
 * Explore and learn about guideBridge APIs
 
-For more information, see [AEM Chrome Plug-in - Adaptive Form](http://adobe-consulting-services.github.io/acs-aem-tools/aem-chrome-plugin/adaptive-form/).
+For more information, see [AEM Chrome Plug-in - Adaptive Form](https://adobe-consulting-services.github.io/acs-aem-tools/aem-chrome-plugin/adaptive-form/).
 
 Calvin SDK is a utility API for Adaptive Forms developers to test Adaptive Forms. Calvin SDK is built on top of the [Hobbes.js testing framework](https://docs.adobe.com/docs/en/aem/6-3/develop/ref/test-api/index.html). You can use the framework to test the following:
 
@@ -239,7 +239,7 @@ Some best practices when localizing adaptive forms are as follows:
 * Use adaptive form fragments for common elements across forms and localize fragments. It ensures that you localize a fragment once and it reflects in all forms where the localized fragment is used.
 * Any modifications like adding a new component or applying a script in a localized form are not localized automatically. Therefore, you must finalize a form before localizing it to avoid multiple localization cycles.   
 * Use `afAcceptLang` request parameter to override the browser locale and render the form in the specified locale. For example, the following URL will force to render the form in Japanese locale, irrespective of the locale specified in the browser setting:  
-  `http://[*server*]:[*port*]/<*contextPath*>/<*formFolder*>/<*formName*>.html?wcmmode=disabled&afAcceptLang=ja`
+  `https://[*server*]:[*port*]/<*contextPath*>/<*formFolder*>/<*formName*>.html?wcmmode=disabled&afAcceptLang=ja`
 
 * AEM Forms currently supports localization of adaptive forms content in English (en), Spanish (es), French (fr), Italian (it), German (de), Japanese (ja), Portuguese-Brazilian (pt-br), Chinese- (zh-tn), Chinese-Taiwan (zh-tw), and Korean (ko-kr) locales. However, you can add support for new locales for adaptive forms at runtime. For more information, see [Supporting new locales for adaptive forms localization](../../forms/using/supporting-new-language-localization.md).
 
@@ -266,7 +266,7 @@ You often need to move your AEM projects from one environment to another. Some o
 
 Some best practices to configure AEM to improve the overall performance are as follows:
 
-* Enable HTML client library compression for JavaScript and CSS from Felix Console. See [Clientlibs explained by example](http://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/).
+* Enable HTML client library compression for JavaScript and CSS from Felix Console. See [Clientlibs explained by example](https://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/).
 * Cache all client libraries at `/etc.clientlibs/fd` and any additional custom client libraries on AEM dispatcher to increase the responsiveness and security of your published forms. For more information, see [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html).
 
 * Do not cache `/content/forms/af/` and `/content/dam/formsanddocuments/*` paths. for detailed information about configuring adaptive forms caching, see [Caching adaptive forms](../../forms/using/configure-adaptive-forms-cache.md).  
@@ -279,7 +279,7 @@ Some best practices to configure AEM to improve the overall performance are as f
     * Use `nosamplecontent` run mode to ensure there are no sample content and sample users deployed on the production server. See [Running AEM in Production Ready Mode](../../sites/administering/using/production-ready.md).
 
 * Keep the heap size to a minimum of 8 GB. For other settings, see [Performance tuning of AEM Forms server](../../forms/using/performance-tuning-aem-forms.md).
-* Use service user sessions instead of admin sessions for executing service-level tasks. For more information, see [Service authentication](http://sling.apache.org/documentation/the-sling-engine/service-authentication.html).
+* Use service user sessions instead of admin sessions for executing service-level tasks. For more information, see [Service authentication](https://sling.apache.org/documentation/the-sling-engine/service-authentication.html).
 
 >[!VIDEO](https://vimeo.com/)
 

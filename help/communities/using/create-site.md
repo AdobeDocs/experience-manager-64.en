@@ -284,7 +284,7 @@ To get started
         * **Name **localhost.4503  
           (do *not *use ':')
         
-        * **Type ** [sling:Mapping](http://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
+        * **Type ** [sling:Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
 
 1. with newly created `localhost.4503` node selected
 

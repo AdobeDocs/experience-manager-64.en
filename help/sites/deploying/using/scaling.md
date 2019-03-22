@@ -295,7 +295,7 @@ There are many factors which influence your instances' performances, which are d
 
 * [Performance Optimization](/content/docs/en/aem/6-1/deploy/configuring/performance.md) (AEM Documentation)
 * [CQ Development - Guidelines and Best Practices](/content/docs/en/aem/6-1/develop/the-basics/dev-guidelines-bestpractices.md)
-* [Performance Tuning Tips](http://helpx.adobe.com/cq/kb/performancetuningtips.html) (Knowledge Base Article)
+* [Performance Tuning Tips](https://helpx.adobe.com/cq/kb/performancetuningtips.html) (Knowledge Base Article)
 * [DAM Performance Guide](/content/docs/en/aem/6-1/deploy/configuring/performance/assets-performance-sizing.md)
 
 Many aspects are also part of general web development best practices and not particular to AEM deployments, such as

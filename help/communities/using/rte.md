@@ -40,7 +40,7 @@ RTE is available for the following Communities components:
 
 ## Customization {#customization}
 
-Customization of the rich text editor is possible as the implementation is based on [CKEditor](http://www.ckeditor.com/).
+Customization of the rich text editor is possible as the implementation is based on [CKEditor](https://www.ckeditor.com/).
 
 The current configuration for Communities components is in the `cq.social.  scf   clientlib`, located in the repository at
 

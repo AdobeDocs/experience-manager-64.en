@@ -19,7 +19,7 @@ The Adobe Experience Manager (AEM) Assets Home page provides a rich and personal
 
 The Assets Home page is disabled by default. To enable it, perform the following steps:
 
-1. Go to Configuration Manager *http://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
+1. Go to Configuration Manager *https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
 1. Open the **Day CQ DAM Event** **Recorder** service.
 1. Select the **Enable this service** to enable activity recording.
 
@@ -31,7 +31,7 @@ The Assets Home page is disabled by default. To enable it, perform the following
    >
    >Enabling the Asset viewed, Projects viewed, and Collections viewed options, significantly increases the number of recorded events.
 
-1. Open the **DAM Asset Home Page Feature Flag** service from Configuration Manager *http://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
+1. Open the **DAM Asset Home Page Feature Flag** service from Configuration Manager *https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
 1. Select the **isEnabled.name** option to enable the Assets Home page feature. Save the changes.
 
    ![](assets/chlimage_1-251.png)
@@ -40,7 +40,7 @@ The Assets Home page is disabled by default. To enable it, perform the following
 
    ![](assets/user_preferences.png)
 
-After enabling the Assets Home page, navigate to the Assets user interface either from the Navigation page or access it directly from the URL *http://&lt;Server Name&gt;:&lt;Port&gt;/aem/assetshome.html/content/dam*.
+After enabling the Assets Home page, navigate to the Assets user interface either from the Navigation page or access it directly from the URL *https://&lt;Server Name&gt;:&lt;Port&gt;/aem/assetshome.html/content/dam*.
 
 ![](assets/home_page.png)
 

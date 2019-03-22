@@ -15,7 +15,7 @@ discoiquuid: 8d3374ac-51dd-4ff5-84c9-495c937ade12
 
 ## Use semantic versioning {#use-semantic-versioning}
 
-Agreed upon best practices for semantic version numbering can be found at [http://semver.org/](http://semver.org/).
+Agreed upon best practices for semantic version numbering can be found at [https://semver.org/](https://semver.org/).
 
 ## Do not embed more classes and jars than strictly needed in OSGi bundles {#do-not-embed-more-classes-and-jars-than-strictly-needed-in-osgi-bundles}
 
@@ -37,4 +37,4 @@ This will allow consumers of your API to evolve along with you. When doing so, a
 
 ## Include metatype information where exposed {#include-metatype-information-where-exposed}
 
-By specifying meaningful metatype information, it will make your services and components easier to understand in the Felix console. A list of SCR annotations and attributes can be found at: [http://felix.apache.org/documentation/subprojects/apache-felix-maven-scr-plugin/scr-annotations.html](http://felix.apache.org/documentation/subprojects/apache-felix-maven-scr-plugin/scr-annotations.html).
+By specifying meaningful metatype information, it will make your services and components easier to understand in the Felix console. A list of SCR annotations and attributes can be found at: [https://felix.apache.org/documentation/subprojects/apache-felix-maven-scr-plugin/scr-annotations.html](https://felix.apache.org/documentation/subprojects/apache-felix-maven-scr-plugin/scr-annotations.html).

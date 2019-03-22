@@ -555,7 +555,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
     <ol> 
      <li>Copy all Tags from the Previous Location to the New Location.</li> 
      <li>Remove all Tags from the Previous Location.</li> 
-     <li>Via the AEM Web Console, restart the Day Communique 5 Tagging OSGi bundle at <em>http://serveraddress:serverport/system/console/bundles/com.day.cq.cq-tagging</em> for AEM to recognize the New Location contains content and should be used.</li> 
+     <li>Via the AEM Web Console, restart the Day Communique 5 Tagging OSGi bundle at <em>https://serveraddress:serverport/system/console/bundles/com.day.cq.cq-tagging</em> for AEM to recognize the New Location contains content and should be used.</li> 
     </ol> </td> 
   </tr>
   <tr>

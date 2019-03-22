@@ -42,8 +42,8 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
    Add the following configuration to the *APACHE_HOME/conf/httpd.conf* configuration file.
 
    ```java
-   ProxyPass / http://<server_Name>:8080/
-   ProxyPassReverse / http://<server_Name>:8080/
+   ProxyPass / https://<server_Name>:8080/
+   ProxyPassReverse / https://<server_Name>:8080/
    ```
 
    >[!NOTE]
@@ -52,7 +52,7 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
    >
    >    
    >    
-   >    * Access: *http://&lt;server&gt;:&lt;port&gt;/system/console/configMgr*
+   >    * Access: *https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr*
    >    * Edit the configuration for Apache Sling Referrer Filter
    >    * In the Allow Hosts, add the entry for the proxy server
    >    
@@ -78,6 +78,6 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
    </Location>
    ```
 
-1. To access the AEM server, use http://[Apache_server]:80.
+1. To access the AEM server, use https://[Apache_server]:80.
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

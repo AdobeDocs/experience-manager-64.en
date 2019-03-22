@@ -15,7 +15,7 @@ discoiquuid: 3cac0e34-7514-48ce-a93b-592bbdbcd252
 
 AEM has been developed to maximize compliance with the Web Content Accessibility Guidelines:
 
-The [Web Content Accessibility Guidelines version 2.0 (WCAG2)](http://www.w3.org/TR/WCAG/) are a set of internationally recognized guidelines developed by the [World Wide Web Consortium (W3C)](http://www.w3.org/) under their [Web Accessibility Initiative (WAI)](http://www.w3.org/WAI/).
+The [Web Content Accessibility Guidelines version 2.0 (WCAG2)](https://www.w3.org/TR/WCAG/) are a set of internationally recognized guidelines developed by the [World Wide Web Consortium (W3C)](https://www.w3.org/) under their [Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/).
 
 WCAG 2.0 consists of a set of technology independent guidelines and success criteria to help make web content accessible to, and usable by, persons with disabilities. They provide advice to web content authors, designers and developers on ensuring that the resources they produce are as accessible as possible to as many people as possible, regardless of any disability they have; for example, visual impairment, hearing loss, learning difficulties, age related limitations, amongst others.
 
@@ -82,13 +82,13 @@ While WCAG 2.0 is a stable document, and will not change, most of these supporti
 
 ### WCAG 2.0 Resources {#wcag-resources}
 
-* [An outline of all WCAG 2.0 related documents](http://www.w3.org/WAI/intro/wcag.php);
-* [Explanation of how different components relate to each other](http://www.w3.org/WAI/intro/wcag20);
-* [WCAG 2.0 Frequently Asked Questions](http://www.w3.org/WAI/WCAG20/wcag2faq.html);
+* [An outline of all WCAG 2.0 related documents](https://www.w3.org/WAI/intro/wcag.php);
+* [Explanation of how different components relate to each other](https://www.w3.org/WAI/intro/wcag20);
+* [WCAG 2.0 Frequently Asked Questions](https://www.w3.org/WAI/WCAG20/wcag2faq.html);
 
 ### Techniques for WCAG 2.0 {#techniques-for-wcag}
 
-Techniques for WCAG 2.0 are available on the [Techniques for WCAG 2.0](http://www.w3.org/TR/WCAG20-TECHS/) page.
+Techniques for WCAG 2.0 are available on the [Techniques for WCAG 2.0](https://www.w3.org/TR/WCAG20-TECHS/) page.
 
 **Techniques** form the level below success criteria in the WCAG 2.0 hierarchy. They are classed by WAI as informative, not normative. In other words, a specific technique does not have to be followed in order for a resource to conform with WCAG 2.0.
 
@@ -113,7 +113,7 @@ The list of techniques is not complete and WAI is constantly updating the list w
 
 ### Understanding WCAG 2.0 {#understanding-wcag}
 
-This refers to a series of documents, which provide advice helping readers to appreciate the purpose of specific guidelines and success criteria. You can [download an introduction, plus links to more detailed information](http://www.w3.org/TR/2008/NOTE-UNDERSTANDING-WCAG20-20081211/Overview.html).
+This refers to a series of documents, which provide advice helping readers to appreciate the purpose of specific guidelines and success criteria. You can [download an introduction, plus links to more detailed information](https://www.w3.org/TR/2008/NOTE-UNDERSTANDING-WCAG20-20081211/Overview.html).
 
 Each individual guideline and success criterion also has its own ‘Understanding’ page, providing information on:
 
@@ -129,11 +129,11 @@ Each success criterion’s individual "understanding" page provides information 
 * Techniques and failures: specific and detailed examples of how the success criterion can be met (described in more detail below)
 * Key terms - a glossary of terms important to understanding the success criterion.
 
-An example can be found at: [Understanding Success Criterion 1.1.1 ("Non-text content")](http://www.w3.org/TR/2008/NOTE-UNDERSTANDING-WCAG20-20081211/text-equiv-all.html).
+An example can be found at: [Understanding Success Criterion 1.1.1 ("Non-text content")](https://www.w3.org/TR/2008/NOTE-UNDERSTANDING-WCAG20-20081211/text-equiv-all.html).
 
 ### How to Meet WCAG 2.0 {#how-to-meet-wcag}
 
-The ‘How to Meet’ section is available on the [How To Meet WCAG 2.0](http://www.w3.org/WAI/WCAG20/quickref/) page. This section provides an alternative presentation of WCAG, allowing refining the content of the guidelines to those most relevant to a reader’s own interests or circumstances. Readers can filter the success criteria techniques they would like to view by specifying particular web content technologies such as Cascading Style Sheets or scripting, or specifying a particular priority level(s).
+The ‘How to Meet’ section is available on the [How To Meet WCAG 2.0](https://www.w3.org/WAI/WCAG20/quickref/) page. This section provides an alternative presentation of WCAG, allowing refining the content of the guidelines to those most relevant to a reader’s own interests or circumstances. Readers can filter the success criteria techniques they would like to view by specifying particular web content technologies such as Cascading Style Sheets or scripting, or specifying a particular priority level(s).
 
 Without filtering, this resource provides all success criteria grouped by guideline. For each success criterion, the following is provided:
 

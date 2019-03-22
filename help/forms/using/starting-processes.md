@@ -41,7 +41,7 @@ When you select a process, the Form tab and Details tab appear. If the process p
 
 1. Select a process by clicking a task. The form that is associated with the process opens on the Form tab.
 
-   Every form in a process has a unique URL. You can use the unique URL to directly launch the HTML Workspace with the specific process and form. The format of the URL is http://&lt;server&gt;:&lt;port&gt;/lc/libs/ws/index.html#/startprocess/&lt;ApplicationName&gt;%2F&lt;ProcessName&gt;. The &lt;ApplicationName&gt;%2F&lt;ProcessName&gt; string is always URL encoded. An example URL is http://localhost:8080/lc/libs/ws/index.html#/startprocess/MyApplication%2FNewProcess. The ApplicationName%2FProcessName string in the example is URL encoded.
+   Every form in a process has a unique URL. You can use the unique URL to directly launch the HTML Workspace with the specific process and form. The format of the URL is https://&lt;server&gt;:&lt;port&gt;/lc/libs/ws/index.html#/startprocess/&lt;ApplicationName&gt;%2F&lt;ProcessName&gt;. The &lt;ApplicationName&gt;%2F&lt;ProcessName&gt; string is always URL encoded. An example URL is http://localhost:8080/lc/libs/ws/index.html#/startprocess/MyApplication%2FNewProcess. The ApplicationName%2FProcessName string in the example is URL encoded.
 
 1. Fill the form according to the instructions provided with it. If necessary, click **Maximize** to increase the visible area of the form.
 1. If the Attachments tab is available, add attachments as required.

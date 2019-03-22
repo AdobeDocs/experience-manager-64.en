@@ -31,7 +31,7 @@ To edit metadata schema:
    The url of the page is:
 
    ```
-   http://<hostname>:<port>/mnt/overlay/dam/gui/content/metadataschemaeditor/
+   https://<hostname>:<port>/mnt/overlay/dam/gui/content/metadataschemaeditor/
     schemalist.html/dam/content/schemaeditors/forms/forms/
     aem-authored
    ```

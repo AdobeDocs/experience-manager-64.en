@@ -143,7 +143,7 @@ The header is always present at the top of the screen. While most options in the
 
   ![](do-not-localize/screen_shot_2018-03-23at103547.png)
 
-* [Marketing Cloud Solutions](http://www.adobe.com/marketing-cloud.html)
+* [Marketing Cloud Solutions](https://www.adobe.com/marketing-cloud.html)
 
   ![](do-not-localize/screen_shot_2018-03-23at103552.png)
 

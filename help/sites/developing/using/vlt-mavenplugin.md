@@ -55,7 +55,7 @@ mvn content-package:build
 Unless otherwise noted, the plugin goals and parameters use the vault prefix, as in the following example:
 
 ```shell
-mvn content-package:install -Dvault.targetURL="http://192.168.1.100:4502/crx/packmgr/service.jsp"
+mvn content-package:install -Dvault.targetURL="https://192.168.1.100:4502/crx/packmgr/service.jsp"
 ```
 
 **Proxies**
@@ -174,9 +174,9 @@ mvn content-package:build
 The following POM file is located in the current directory of the command line tool. The POM specifies the package name and the URL of the package service.
 
 ```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.adobe.example</groupId>
   <artifactId>example-package</artifactId>
@@ -190,7 +190,7 @@ The following POM file is located in the current directory of the command line t
   <configuration>
    <name>workflow-mbean</name>
    <failOnError>true</failOnError>
-   <targetURL>http://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
+   <targetURL>https://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
   </configuration>
      </plugin>
  </plugins>
@@ -311,10 +311,10 @@ mvn install
 ```
 
 ```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-    http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 
+    https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.adobe.example.myapp</groupId>
   <artifactId>workflow-mbean</artifactId>
@@ -328,7 +328,7 @@ mvn install
         <version>0.0.24</version>
         <configuration>
           <builtContentDirectory>jcr_root</builtContentDirectory>
-          <targetURL>http://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
+          <targetURL>https://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
         </configuration>
         <executions>
           <execution>
@@ -362,9 +362,9 @@ mvn content-package:ls
 The following POM file is located in the current directory of the command line tool. The POM specifies the URL of the package service.
 
 ```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.adobe.example</groupId>
   <artifactId>example-package</artifactId>
@@ -376,7 +376,7 @@ The following POM file is located in the current directory of the command line t
   <artifactId>content-package-maven-plugin</artifactId>
   <version>0.0.24</version>
   <configuration>
-      <targetURL>http://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
+      <targetURL>https://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
   </configuration>
       </plugin>
    </plugins>
@@ -403,9 +403,9 @@ mvn content-package:rm
 The following POM file is located in the current directory of the command line tool. The POM specifies the URL of the package service and the name of the package.
 
 ```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.adobe.example</groupId>
   <artifactId>example-package</artifactId>
@@ -418,7 +418,7 @@ The following POM file is located in the current directory of the command line t
   <version>0.0.24</version>
   <configuration>
                     <name>workflow-mbean</name>
-      <targetURL>http://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
+      <targetURL>https://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
   </configuration>
       </plugin>
    </plugins>
@@ -445,9 +445,9 @@ mvn content-package:uninstall
 The following POM file is located in the current directory of the command line tool. The POM specifies the package name and the URL of the package service.
 
 ```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.adobe.example</groupId>
   <artifactId>workflow-mbean</artifactId>
@@ -461,7 +461,7 @@ The following POM file is located in the current directory of the command line t
   <configuration>
    <name>workflow-mbean</name>
    <failOnError>true</failOnError>
-   <targetURL>http://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
+   <targetURL>https://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
   </configuration>
      </plugin>
  </plugins>
@@ -491,7 +491,7 @@ In addition to the following parameters, see the description of the `name` param
    <td>org.apache.maven.<br /> archiver.<br /> MavenArchiveConfiguration</td> 
    <td>No</td> 
    <td></td> 
-   <td>The archive configuration to use. See <a href="http://maven.apache.org/shared/maven-archiver/index.html">the documentation for Maven Archiver</a>.</td> 
+   <td>The archive configuration to use. See <a href="https://maven.apache.org/shared/maven-archiver/index.html">the documentation for Maven Archiver</a>.</td> 
   </tr> 
   <tr> 
    <td>builtContentDirectory</td> 
@@ -671,10 +671,10 @@ mvn package
 ```
 
 ```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-    http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 
+    https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.adobe.example.myapp</groupId>
   <artifactId>workflow-mbean</artifactId>
@@ -688,7 +688,7 @@ mvn package
         <version>0.0.24</version>
         <configuration>
           <builtContentDirectory>jcr_root</builtContentDirectory>
-          <targetURL>http://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
+          <targetURL>https://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
         </configuration>
         <executions>
           <execution>
@@ -706,10 +706,10 @@ mvn package
 Instead of expressing the `package` goal in the plugin `executions` section, you can use `content-package` as the value of the project `packaging` element:
 
 ```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-    http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 
+    https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.adobe.example.myapp</groupId>
   <artifactId>workflow-mbean</artifactId>
@@ -723,7 +723,7 @@ Instead of expressing the `package` goal in the plugin `executions` section, you
         <version>0.0.24</version>
         <configuration>
           <builtContentDirectory>jcr_root</builtContentDirectory>
-          <targetURL>http://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
+          <targetURL>https://10.36.79.223:4502/crx/packmgr/service.jsp</targetURL>
         </configuration>
       </plugin>
     </plugins>
@@ -803,10 +803,10 @@ The following example POM creates a package that contains the Apache Sling JCR U
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-             http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" 
+             xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://maven.apache.org/POM/4.0.0
+             https://maven.apache.org/maven-v4_0_0.xsd">
  <modelVersion>4.0.0</modelVersion>
    <groupId>com.adobe.example.myapp</groupId>
  <artifactId>embedded-example</artifactId>
@@ -892,7 +892,7 @@ Several Maven archetypes are available for generating CQ projects. Use the arche
 
 >[!NOTE]
 >
->The Apache Sling project also offers archetypes useful in CQ development. These are documented at [http://sling.apache.org/site/maven-archetypes.html](https://sling.apache.org/documentation/development/maven-archetypes.html).
+>The Apache Sling project also offers archetypes useful in CQ development. These are documented at [https://sling.apache.org/site/maven-archetypes.html](https://sling.apache.org/documentation/development/maven-archetypes.html).
 
 Each archetype generates the following items:
 

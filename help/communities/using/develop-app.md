@@ -163,7 +163,7 @@ In a multi-language environment, the root page would include a script which woul
 
 In this simple example, the root page is being statically set to redirect to the english page, which may be developed in the future to be the main landing page with a link to the play page.
 
-Change the browser URL to the root page: [http://localhost:4502/editor.html/content/an-scf-sandbox.html](http://locahost:4502/editor.html/content/an-scf-sandbox.html)
+Change the browser URL to the root page: [http://localhost:4502/editor.html/content/an-scf-sandbox.html](https://locahost:4502/editor.html/content/an-scf-sandbox.html)
 
 * select the Page Information icon
 * select **Open Properties**

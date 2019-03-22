@@ -16,15 +16,15 @@ pagetitle: Administering Elastic Path
 
 >[!NOTE]
 >
->This page contains links to the [Elastic Path website](http://www.elasticpath.com). For access to certain areas you will need an account (from Elastic Path).
+>This page contains links to the [Elastic Path website](https://www.elasticpath.com). For access to certain areas you will need an account (from Elastic Path).
 
 ## Access to the Elastic Path Commerce Manager {#access-to-the-elastic-path-commerce-manager}
 
-The Elastic Path Commerce Manager administers product information; for more information see [the Elastic Path documentation](http://www.elasticpath.com/ecommerce-documentation).
+The Elastic Path Commerce Manager administers product information; for more information see [the Elastic Path documentation](https://www.elasticpath.com/ecommerce-documentation).
 
 The local instance included in the demonstration packages can be accessed using:
 
-`https://localhost:8080/cmserver`
+`http://localhost:8080/cmserver`
 
 Login is required, the default details are:
 

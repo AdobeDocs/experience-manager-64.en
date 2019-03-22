@@ -31,28 +31,28 @@ This means that:
 >
 >The eCommerce framework can be used with any eCommerce solution; including:
 >
->* [hybris](http://www.hybris.com/) - see [AEM with hybris](../../../sites/administering/using/hybris.md)
+>* [hybris](https://www.hybris.com/) - see [AEM with hybris](../../../sites/administering/using/hybris.md)
 >
->* [IBM](http://www.ibm.com/software/websphere) - see [AEM with IBM Websphere Commerce](../../../sites/administering/using/ibm-websphere.md)
+>* [IBM](https://www.ibm.com/software/websphere) - see [AEM with IBM Websphere Commerce](../../../sites/administering/using/ibm-websphere.md)
 >
->* [Elastic Path](http://www.elasticpath.com/) - see [AEM with Elastic Path](../../../sites/administering/using/elasticpath.md)
+>* [Elastic Path](https://www.elasticpath.com/) - see [AEM with Elastic Path](../../../sites/administering/using/elasticpath.md)
 >
->* [Intershop](http://www.intershop.com/) - see [AEM with Intershop](../../../sites/administering/using/intershop.md)
+>* [Intershop](https://www.intershop.com/) - see [AEM with Intershop](../../../sites/administering/using/intershop.md)
 >
->* [Demandware](http://www.demandware.com/) - see [AEM with Demandware](../../../sites/administering/using/demandware.md)
+>* [Demandware](https://www.demandware.com/) - see [AEM with Demandware](../../../sites/administering/using/demandware.md)
 >
->* [Agility Multichannel](http://www.agilitymultichannel.com) - see [Agility PIM and AEM](http://www.agilitymultichannel.com/adobe)
+>* [Agility Multichannel](https://www.agilitymultichannel.com) - see [Agility PIM and AEM](https://www.agilitymultichannel.com/adobe)
 >
->* [Infield Design](http://www.infielddesign.com/technology/adobe-experience-manager/) - see [AEM eCommerce With Magento](http://www.infielddesign.com/technology/adobe-experience-manager/magento)
+>* [Infield Design](https://www.infielddesign.com/technology/adobe-experience-manager/) - see [AEM eCommerce With Magento](https://www.infielddesign.com/technology/adobe-experience-manager/magento)
 >
 
 >[!NOTE]
 >
->Some others are currently under development, for example [inRiver](http://inriver.com) is developing an extension to AEM.
+>Some others are currently under development, for example [inRiver](https://inriver.com) is developing an extension to AEM.
 
 >[!CAUTION]
 >
->The [eCommerce integration framework](http://www.adobe.com/solutions/web-experience-management/commerce.html) is an AEM Add-On.
+>The [eCommerce integration framework](https://www.adobe.com/solutions/web-experience-management/commerce.html) is an AEM Add-On.
 >
 >Your Sales representative will be able to give full details, according to the appropriate engine.
 
@@ -138,7 +138,7 @@ AEM eCommerce is implemented with an eCommerce engine:
 >
 >AEM eCommerce implemented within AEM using generic development based on JCR is:
 >
->* A standalone, AEM-native eCommerce example to illustrate use of the API. This can be used to control product data, shopping carts and checkout in conjunction with the existing data display and marketing campaigns. In this case the product database is stored in the repository native to AEM (Adobe's implementation of [JCR](http://www.day.com/day/en/products/jcr.html)).  
+>* A standalone, AEM-native eCommerce example to illustrate use of the API. This can be used to control product data, shopping carts and checkout in conjunction with the existing data display and marketing campaigns. In this case the product database is stored in the repository native to AEM (Adobe's implementation of [JCR](https://www.day.com/day/en/products/jcr.html)).  
 >  The standard AEM installation contains the basics of the [generic eCommerce implemention](../../../sites/administering/using/generic.md).   
 >
 
@@ -556,7 +556,7 @@ A promotion can be held either in an experience or directly in the campaign:
 
 >[!NOTE]
 >
->[hybris promotions](http://www.hybris.com/modules/promotion) and [hybris vouchers](http://www.hybris.com/en/modules/voucher) cover everything that influences the shopping cart and is related to pricing. Promotion specific marketing content (such as banners, etc) is not part of the hybris promotion.
+>[hybris promotions](https://www.hybris.com/modules/promotion) and [hybris vouchers](https://www.hybris.com/en/modules/voucher) cover everything that influences the shopping cart and is related to pricing. Promotion specific marketing content (such as banners, etc) is not part of the hybris promotion.
 
 ## Personalization {#personalization}
 

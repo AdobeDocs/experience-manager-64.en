@@ -21,14 +21,14 @@ See also [Characteristics of SRP Options](../../communities/using/working-with-s
 
 ## Requirements {#requirements}
 
-* [MongoDB](http://www.mongodb.org/):
+* [MongoDB](https://www.mongodb.org/):
 
     * version 2.6 or greater
     * no need to configure mongos or sharding
     * strongly recommend use of a [replica set](#mongoreplicaset)
     * may run on same host as AEM or run remotely
 
-* [Apache Solr](http://lucene.apache.org/solr/):
+* [Apache Solr](https://lucene.apache.org/solr/):
 
     * version 4.10 or version 5
     * Solr requires Java 1.7 or greater
@@ -81,7 +81,7 @@ On author, to access the Storage Configuration console:
     * **Solr URL** 
       The URL used to communicate with Solr in standalone mode.  
       Leave blank if running in SolrCloud mode.  
-      *default*: http://127.0.0.1:8983/solr/
+      *default*: https://127.0.0.1:8983/solr/
     
     * **Solr Collection** 
       The Solr collection name.  
@@ -97,9 +97,9 @@ On author, to access the Storage Configuration console:
 
 For the production environment, it is strongly recommended to setup a replica set, a cluster of MongoDB servers that implements master-slave replication and automated failover.
 
-To learn more about replica sets, visit MongoDB's [Replication](http://docs.mongodb.org/manual/replication/) documentation.
+To learn more about replica sets, visit MongoDB's [Replication](https://docs.mongodb.org/manual/replication/) documentation.
 
-To work with replica sets and learn how to define connections between applications and MongoDB instances, visit MongoDB's [Connection String URI Format](http://docs.mongodb.org/manual/reference/connection-string/) documentation.
+To work with replica sets and learn how to define connections between applications and MongoDB instances, visit MongoDB's [Connection String URI Format](https://docs.mongodb.org/manual/reference/connection-string/) documentation.
 
 #### Example Url for Connecting to a Replica Set  {#example-url-for-connecting-to-a-replica-set}
 
@@ -261,7 +261,7 @@ To resolve the error, when following the instructions for [Installing Standard M
 If an attempt to make a secured connection to the MongoDB server fails due to a missing class definition, it is necessary to update the MongoDB driver bundle, `mongo-java-driver`, available from the public maven repository.
 
 1. download the driver from  
-   [http://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar](http://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar)  
+   [https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar](https://search.maven.org/#artifactdetails%7Corg.mongodb%7Cmongo-java-driver%7C2.13.2%7Cjar)  
    (version 2.13.2 or later)
 
 1. copy the bundle into the "crx-quickstart/install" folder for an AEM instance
@@ -270,5 +270,5 @@ If an attempt to make a secured connection to the MongoDB server fails due to a 
 ## Resources {#resources}
 
 * [AEM with MongoDB](../../sites/deploying/using/aem-with-mongodb.md)
-* [MongoDB Documentation](http://docs.mongodb.org/)
+* [MongoDB Documentation](https://docs.mongodb.org/)
 

@@ -251,8 +251,8 @@ The [Component Console](../../../sites/authoring/using/default-components-consol
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
      width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
     <ellipse cx="5" cy="5" rx="3" ry="3" fill="#707070"/>
     <ellipse cx="15" cy="5" rx="4" ry="4" fill="#707070"/>
@@ -617,7 +617,7 @@ The edit behavior of a component is configured by adding a `cq:editConfig` node 
 >In this page, a node (properties and child nodes) is represented as XML, as shown in the following example.
 
 ```
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
     cq:actions="[edit]"
     cq:dialogMode="floating"
     cq:layout="editbar"
@@ -678,7 +678,7 @@ The `cq:actions` property ( `String array`) defines one or several actions that 
 The following configuration adds an edit button, a spacer, a delete and an insert button to the component edit bar:
 
 ```
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
     cq:actions="[edit,-,delete,insert]"
     cq:layout="editbar"
     jcr:primaryType="cq:EditConfig"/>
@@ -687,7 +687,7 @@ The following configuration adds an edit button, a spacer, a delete and an inser
 The following configuration adds the text "Inherited Configurations from Base Framework" to the component edit bar:
 
 ```
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
     cq:actions="[text:Inherited Configurations from Base Framework]"
     cq:layout="editbar"
     jcr:primaryType="cq:EditConfig"/>
@@ -725,7 +725,7 @@ The `cq:layout` property ( `String`) defines how the component can be edited in 
 The following configuration adds an edit button to the component edit bar:
 
 ```
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
     cq:actions="[edit]"
     cq:layout="editbar"
     jcr:primaryType="cq:EditConfig">
@@ -764,7 +764,7 @@ The component can be linked to an edit dialog. The `cq:dialogMode` property ( `S
 The following configuration defines an edit bar with an edit button, and a floating dialog:
 
 ```
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
     cq:actions="[edit]"
     cq:dialogMode="floating"
     cq:layout="editbar"
@@ -866,7 +866,7 @@ The following sample configuration defines a new button (with a separator for th
 * a button named **Manage comments** that runs the handler function `CQ_collab_forum_openCollabAdmin()`.
 
 ```
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
     cq:actions="[EDIT,COPYMOVE,DELETE,INSERT]"
     jcr:primaryType="cq:EditConfig">
     <cq:actionConfigs jcr:primaryType="nt:unstructured">

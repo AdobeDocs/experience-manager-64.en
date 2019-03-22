@@ -180,7 +180,7 @@ Once the node has been created, add the following properties:
 
 >[!NOTE]
 >
->For more specific information on the Lucene Property Index, see the [Apache Jackrabbit Oak Lucene documentation page](http://jackrabbit.apache.org/oak/docs/query/lucene.html).
+>For more specific information on the Lucene Property Index, see the [Apache Jackrabbit Oak Lucene documentation page](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 ### Lucene Analyzers {#lucene-analyzers}
 
@@ -310,11 +310,11 @@ AEM can be used with an embedded Solr server that can be configured via the Web 
 
 You can configure the embedded Solr server by:
 
-1. Going to the Web Console at `http://serveraddress:4502/system/console/configMgr`
+1. Going to the Web Console at `https://serveraddress:4502/system/console/configMgr`
 1. Search for "**Oak Solr server provider**".
 1. Press the edit button and in the following window set the server type to **Embedded Solr** in the drop-down list.  
 
-1. Next, edit "**Oak Solr embedded server configuration**" and create a configuration. For more info on the configuration options, please visit the [Apache Solr website](http://lucene.apache.org/solr/documentation.html).
+1. Next, edit "**Oak Solr embedded server configuration**" and create a configuration. For more info on the configuration options, please visit the [Apache Solr website](https://lucene.apache.org/solr/documentation.html).
 
    >[!NOTE]
    >
@@ -363,7 +363,7 @@ AEM can also be confiured to work with a remote Solr server instance:
 
    >[!NOTE]
    >
-   >For more info on Solr and ZooKeeper configuration, consult the [Solr Configuration documentation](https://wiki.apache.org/solr/ConfiguringSolr) and the [ZooKeeper Getting Started Guide](http://zookeeper.apache.org/doc/r3.1.2/zookeeperStarted.html).
+   >For more info on Solr and ZooKeeper configuration, consult the [Solr Configuration documentation](https://wiki.apache.org/solr/ConfiguringSolr) and the [ZooKeeper Getting Started Guide](https://zookeeper.apache.org/doc/r3.1.2/zookeeperStarted.html).
 
 1. Start the first shard with ZooKeeper support by going to `aemsolr1\node1` and running the following command:
 
@@ -451,7 +451,7 @@ The **com.day.cq.search** category is only applicable if you are using the AEM p
 
 You can enable logging by following this procedure:
 
-1. Point your browser to `http://serveraddress:port/system/console/slinglog`
+1. Point your browser to `https://serveraddress:port/system/console/slinglog`
 1. Click the **Add new Logger** button in the lower part of the console.  
 
 1. In the newly created row, add the categories mentioned above. You can use the **+** sign to add more than one category to a single logger.  
@@ -470,7 +470,7 @@ The way the query gets evaluated is largely affected by the index configuration.
 
 Since in most cases, the indexing configuration is stored under the `/oak:index` node in CRXDE, you can get the JSON version at:
 
-`http://serveraddress:port/oak:index.tidy.-1.json`
+`https://serveraddress:port/oak:index.tidy.-1.json`
 
 If the index is configured at a different location, change the path accordingly.
 
@@ -478,7 +478,7 @@ If the index is configured at a different location, change the path accordingly.
 
 In some cases it is helpful to provide the output of index related MBeans for debugging. You can do this by:
 
-1. Going to the JMX console at: http://serveraddress:port/system/console/jmx  
+1. Going to the JMX console at: https://serveraddress:port/system/console/jmx  
 
 1. Search for the following MBeans:
 
@@ -491,17 +491,17 @@ In some cases it is helpful to provide the output of index related MBeans for de
 
 You can also get the JSON variant of these statistics at the following URLs:
 
-* `http://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak/%2522LuceneIndex%2522.tidy.-1.json`
-* `http://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak/%2522LuceneIndex%2522.tidy.-1.json`
-* `http://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak/%2522LuceneIndex%2522.tidy.-1.json`
-* `http://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak/%2522LuceneIndex%2522.tidy.-1.json`
+* `https://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak/%2522LuceneIndex%2522.tidy.-1.json`
+* `https://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak/%2522LuceneIndex%2522.tidy.-1.json`
+* `https://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak/%2522LuceneIndex%2522.tidy.-1.json`
+* `https://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak/%2522LuceneIndex%2522.tidy.-1.json`
 
-You can also provide consolidated JMX output via `http://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak.tidy.3.json`. This would include all Oak related MBean details in JSON format.
+You can also provide consolidated JMX output via `https://serveraddress:port/system/sling/monitoring/mbeans/org/apache/jackrabbit/oak.tidy.3.json`. This would include all Oak related MBean details in JSON format.
 
 #### Other Details {#other-details}
 
 You can gather additional details in order to help troubleshoot the problem, such as:
 
 1. The Oak version your instance is running on. You can see this by opening CRXDE and looking at the version in the lower right corner of the welcome page, or by checking the version of the `org.apache.jackrabbit.oak-core` bundle.
-1. The QueryBuilder Debugger output of the troublesome query. The debugger can be accessed at: `http://serveraddress:port/libs/cq/search/content/querydebug.html`
+1. The QueryBuilder Debugger output of the troublesome query. The debugger can be accessed at: `https://serveraddress:port/libs/cq/search/content/querydebug.html`
 

@@ -86,7 +86,7 @@ CQ_Analytics.CCM.addListener("storesinitialize", function(e) {
 if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
 //-->
 </script>
-<noscript><img src="http://daydocumentation.112.2o7.net/b/ss/daydocumentation/1/H.25--NS/1380120772954?cdp=3&gn=content%3Ageometrixx-outdoors%3Aen" height="1" width="1" border="0" alt=""/></noscript>
+<noscript><img src="https://daydocumentation.112.2o7.net/b/ss/daydocumentation/1/H.25--NS/1380120772954?cdp=3&gn=content%3Ageometrixx-outdoors%3Aen" height="1" width="1" border="0" alt=""/></noscript>
 <span data-tracking="{event:'pageView', values:{}, componentPath:'foundation/components/page'}"></span>
 <div id="cq-analytics-texthint" style="background:white; padding:0 10px; display:none;">
  <h3 class="cq-texthint-placeholder">Component clientcontext is missing or misplaced.</h3>

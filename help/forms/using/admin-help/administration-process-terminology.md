@@ -22,4 +22,4 @@ To administer forms workflow effectively, you should understand the following te
 * An *operation *is one step of a process diagram, which is represented in Workbench by an icon in the process diagram.
 * A *task* is an action that has been assigned to a user. When the task is run and the operation is executed, the User service assigns a task to a user.
 
-For more information about these terms, see [Workbench Help](http://www.adobe.com/go/learn_aemforms_workbench_63).
+For more information about these terms, see [Workbench Help](https://www.adobe.com/go/learn_aemforms_workbench_63).

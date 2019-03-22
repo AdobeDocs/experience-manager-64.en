@@ -32,7 +32,7 @@ Create or obtain the credential that the server uses to sign HTTP messages:
 
 ### Create a Credential for Development {#create-a-credential-for-development}
 
-Use the Java keytool to create a self-signed credential and to store it in a keystore file. The following procedure uses a single command that includes all of the information needed to create the keystore. For complete information about the command, see the [Oracle Java SE Documentation](http://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html).
+Use the Java keytool to create a self-signed credential and to store it in a keystore file. The following procedure uses a single command that includes all of the information needed to create the keystore. For complete information about the command, see the [Oracle Java SE Documentation](https://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html).
 
 1. Create a directory named ssl in the directory where the quickstart JAR file is located.
 1. In the command prompt, type the following command to create the credential and keystore:
@@ -149,7 +149,7 @@ If you want all users to connect over SSL, redirect traffic to the URL that uses
 >
 >The steps presented below do not force the use of the SSL port for HTTP requests to CRXDE Lite, Package Manager or Content Explorer. The requests going to these administrative consoles do not go through the Sling request pipeline. For these scenarios, you should utilize Dispatcher to redirect the requests by using the Apache Web Server. For further details, see the [Dispatcher](https://docs.adobe.com/content/docs/en/dispatcher/disp-install.html#Apache Web Server - Add the Dispatcher Module) and the [official Apache](https://httpd.apache.org/docs/2.4/rewrite/avoid.html#redirect) documentation.
 
-The following example redirects traffic to `localhost:4502` to `https://localhost:5433`. To configure the redirect, create a `sling:mapping` node. Use a node name that matches requested URL. Add a `sling:redirect` property to specify the URL for redirection.
+The following example redirects traffic to `localhost:4502` to `http://localhost:5433`. To configure the redirect, create a `sling:mapping` node. Use a node name that matches requested URL. Add a `sling:redirect` property to specify the URL for redirection.
 
 1. Open CRXDE Lite in your web browser ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
 1. Click the `/etc/map/http`** **folder and click **Create **&gt; **Create Node**:
@@ -164,11 +164,11 @@ The following example redirects traffic to `localhost:4502` to `https://localhos
     
     * **Type**: `String`
     
-    * **Value**: `https://localhost:5433`
+    * **Value**: `http://localhost:5433`
 
 1. Click **Save All**.
 
-Alternatively, you can specify the text for matching the requested URL as a `sling:match` property (See [Mappings for Resource Resolution](http://sling.apache.org/site/mappings-for-resource-resolution.html) in the Apache Sling documentation).
+Alternatively, you can specify the text for matching the requested URL as a `sling:match` property (See [Mappings for Resource Resolution](https://sling.apache.org/site/mappings-for-resource-resolution.html) in the Apache Sling documentation).
 
 ## Configuring SSL When Using a Dispatcher {#configuring-ssl-when-using-a-dispatcher}
 
@@ -185,9 +185,9 @@ For information about configuring Dispatcher to use SSL connections with the pub
 
 Configure the web server to use SSL to secure connections between web clients and the web server. For information about enabling SSL for the web server, see the documentation for your web server.
 
-* Apache HTTP Server: [http://httpd.apache.org/docs/2.0/ssl/ssl_howto.html](http://httpd.apache.org/docs/2.0/ssl/ssl_howto.html)
-* Microsoft IIS: [http://learn.iis.net/page.aspx/144/how-to-set-up-ssl-on-iis/](http://learn.iis.net/page.aspx/144/how-to-set-up-ssl-on-iis/)
-* Oracle iPlanet Web Server: [http://docs.oracle.com/cd/E19146-01/821-1828/gbthq/index.html](http://docs.oracle.com/cd/E19146-01/821-1828/gbthq/index.html)
+* Apache HTTP Server: [https://httpd.apache.org/docs/2.0/ssl/ssl_howto.html](https://httpd.apache.org/docs/2.0/ssl/ssl_howto.html)
+* Microsoft IIS: [https://learn.iis.net/page.aspx/144/how-to-set-up-ssl-on-iis/](https://learn.iis.net/page.aspx/144/how-to-set-up-ssl-on-iis/)
+* Oracle iPlanet Web Server: [https://docs.oracle.com/cd/E19146-01/821-1828/gbthq/index.html](https://docs.oracle.com/cd/E19146-01/821-1828/gbthq/index.html)
 
 Enabling separate caches for secure and unsecure connection types is beyond the scope of this article. However, you could investigate the following strategies:
 

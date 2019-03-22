@@ -312,4 +312,4 @@ When you run a translation workflow to update a language copy with edited versio
 
 1. Navigate to the Assets console, and open the Properties page for each of the translated assets to view the translated metadata.
 
-For tips on translating metadata for assets efficiently, see [5 Steps for Efficiently Translating Metadata](http://blogs.adobe.com/experiencedelivers/experience-management/translate_aemassets_metadata/).
+For tips on translating metadata for assets efficiently, see [5 Steps for Efficiently Translating Metadata](https://blogs.adobe.com/experiencedelivers/experience-management/translate_aemassets_metadata/).

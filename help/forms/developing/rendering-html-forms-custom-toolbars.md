@@ -41,7 +41,7 @@ Ensure that all the above files are referenced in the fscmenu.xml file. That is,
 
 To customize the toolbar, replace the keywords by using the external keyword `FSToolBarURI`. This keyword represents the URI that is passed to the Forms service at run time (this approach is shown later in this section).
 
-You can also specify the absolute locations of these JS and CSS files, such as http://www.mycompany.com/scripts/misc/fscmenu.js. In this situation, you do not need to use the `FSToolBarURI` keyword.
+You can also specify the absolute locations of these JS and CSS files, such as https://www.mycompany.com/scripts/misc/fscmenu.js. In this situation, you do not need to use the `FSToolBarURI` keyword.
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ The following items describe how you can customize a toolbar:
 
 * Change the values of `fscJS`, `fscCSS`, `fscVCSS`, `fscIECSS` attributes (in the fscmenu.xml file) to reflect the custom locations of the referenced files by using one of the methods that are described in this section (for example, `fscJS="FSToolBarURI/scripts/fscmenu.js"`).
 * All the CSS and JS files must be specified. If none of the files are modified, provide the default one at the custom location. You can obtain the default files by opening various files as described in this section.
-* Providing an absolute reference (for example, http://www.example.com/scripts/custom-vertical-fscmenu.css) for any file is allowed.
+* Providing an absolute reference (for example, https://www.example.com/scripts/custom-vertical-fscmenu.css) for any file is allowed.
 * The JS and CSS files that the `div#fscmenu` node requires are essential for toolbar functionality. Individual `ul#fscmenuItem` nodes may or may not have supporting JS or CSS files.
 
 **Changing the local value**
@@ -150,7 +150,7 @@ Also, specify a valid locale value by invoking the `HTMLRenderSpec` object’s `
 >
 >Before you render an HTML form that uses a custom toolbar, you must know how HTML forms are rendered. (See [Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering_forms_as_html).)
 
-For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 

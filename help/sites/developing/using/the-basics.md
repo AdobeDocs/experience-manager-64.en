@@ -35,23 +35,23 @@ It is also recommended that you read and follow the [Guidelines and Best Practic
 
 ## Java Content Repository {#java-content-repository}
 
-The Java Content Repository (JCR) standard, [JSR 283](http://www.day.com/specs/jcr/2.0/), specifies a vendor-independent and implementation-independent way to access content bi-directionally on a granular level within a content repository.
+The Java Content Repository (JCR) standard, [JSR 283](https://www.day.com/specs/jcr/2.0/), specifies a vendor-independent and implementation-independent way to access content bi-directionally on a granular level within a content repository.
 
 Specification lead is held by Adobe Research (Switzerland) AG.
 
-The [JCR API 2.0](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/) package, javax.jcr.&#42; is used for the direct access and manipulation of repository content.
+The [JCR API 2.0](https://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/) package, javax.jcr.&#42; is used for the direct access and manipulation of repository content.
 
 ## Experience Server (CRX) and Jackrabbit {#experience-server-crx-and-jackrabbit}
 
 The Experience Server provides the Experience Services which AEM is built on, and which can be leveraged to build custom applications, and it embeds the Content Repository based on Jackrabbit.
 
-[Apache Jackrabbit](http://jackrabbit.apache.org/) is an open source, fully conforming, implementation of the JCR API 2.0.
+[Apache Jackrabbit](https://jackrabbit.apache.org/) is an open source, fully conforming, implementation of the JCR API 2.0.
 
 ## Sling Request Processing {#sling-request-processing}
 
 ### Introduction to Sling {#introduction-to-sling}
 
-AEM is built using [Sling](http://sling.apache.org/site/index.html), a Web application framework based on REST principles that provides easy development of content-oriented applications. Sling uses a JCR repository, such as Apache Jackrabbit, or in the case of AEM, the CRX Content Repository, as its data store. Sling has been contributed to the Apache Software Foundation - further information can be found at Apache.
+AEM is built using [Sling](https://sling.apache.org/site/index.html), a Web application framework based on REST principles that provides easy development of content-oriented applications. Sling uses a JCR repository, such as Apache Jackrabbit, or in the case of AEM, the CRX Content Repository, as its data store. Sling has been contributed to the Apache Software Foundation - further information can be found at Apache.
 
 Using Sling, the type of content to be rendered is not the first processing consideration. Instead the main consideration is whether the URL resolves to a content object for which a script can then be found to perform the rendering. This provides excellent support for web content authors to build pages which are easily customized to their requirements.
 
@@ -91,14 +91,14 @@ In Sling, processing is driven by the URL of the user request. This defines the 
 If we analyze the following URL:
 
 ```xml
-http://myhost/tools/spy.printable.a4.html/a/b?x=12
+https://myhost/tools/spy.printable.a4.html/a/b?x=12
 ```
 
 We can break it down into its composite parts:
 
 | protocol |host |content path |selector(s) |extension |  |suffix |  |param(s)  |
 |---|---|---|---|---|---|---|---|---|
-| http:// |myhost |tools/spy |.printable.a4. |html |/ |a/b |? |x=12 |
+| https:// |myhost |tools/spy |.printable.a4. |html |/ |a/b |? |x=12 |
 
 **protocol** HTTP
 
@@ -287,11 +287,11 @@ An OSGi framework then offers you dynamic loading/unloading, configuration and c
 
 >[!NOTE]
 >
->Full information on OSGi technology can be found at the [OSGi Alliance Technology Overview](http://www.osgi.org/About/Technology).
+>Full information on OSGi technology can be found at the [OSGi Alliance Technology Overview](https://www.osgi.org/About/Technology).
 >
 >In particular, their Basic Education page holds a collection of presentations and tutorials.
 
-This architecture allows you to extend Sling with application specific modules. Sling, and therefore CQ5, uses the [Apache Felix](http://felix.apache.org/) implementation of OSGI (Open Services Gateway initiative) and is based on the OSGi Service Platform Release 4 Version 4.2 Specifications. They are both collections of OSGi bundles running within an OSGi framework.
+This architecture allows you to extend Sling with application specific modules. Sling, and therefore CQ5, uses the [Apache Felix](https://felix.apache.org/) implementation of OSGI (Open Services Gateway initiative) and is based on the OSGi Service Platform Release 4 Version 4.2 Specifications. They are both collections of OSGi bundles running within an OSGi framework.
 
 This enables you to perform the following actions on any of the packages within your installation:
 
@@ -311,7 +311,7 @@ The following are of interest for development:
 
 **Item** An item is either a node or a property.
 
-For detailed information on manipulating Item objects, refer to the [Javadocs](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Item.html) of the Interface javax.jcr.Item
+For detailed information on manipulating Item objects, refer to the [Javadocs](https://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Item.html) of the Interface javax.jcr.Item
 
 **Node (and their properties)** Nodes and their properties are defined in the JCR API 2.0 specification (JSR 283). They store content, object definitions, rendering scripts and other data.
 
@@ -327,7 +327,7 @@ For example, to get the properties of the current node, you can use following co
 
 With currentNode being the current node object.
 
-For more information on manipulating Node objects, refer to the [Javadocs](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Node.html).
+For more information on manipulating Node objects, refer to the [Javadocs](https://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Node.html).
 
 **Widget** In AEM all user input is managed by widgets. These are often used to control the editing of a piece of content.
 

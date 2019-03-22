@@ -89,7 +89,7 @@ On the Site Template panel, the Title, Description, Site Root, Base Language, Na
 * **Community Site Name **: the name of the site's root page which appears in the URL
 
     * double-check the name as it is not easily changed after the site is created
-    * the base URL ( `http://*server:port/site root/site name*)` will be displayed underneath the `Community Site Name`
+    * the base URL ( `https://*server:port/site root/site name*)` will be displayed underneath the `Community Site Name`
     
     * for a valid URL, append a base language code + ".html"  
       *for example*, `http://localhost:4502/content/sites/mysight/en.html`
@@ -106,7 +106,7 @@ The Design panel contains 2 sub-panels for selecing the theme and branding banne
 
 ![](assets/sitetheme-1.png)
 
-The framework uses [Twitter Bootstrap](http://twitterbootstrap.org/) to bring a responsive, flexible design to the site. One of the many preloaded Bootstrap themes may be selected to style the selected community site template, or a Bootstrap theme may be uploaded.
+The framework uses [Twitter Bootstrap](https://twitterbootstrap.org/) to bring a responsive, flexible design to the site. One of the many preloaded Bootstrap themes may be selected to style the selected community site template, or a Bootstrap theme may be uploaded.
 
 When selected, the theme will be overlayed with an opaque blue checkmark.
 

@@ -63,7 +63,7 @@ When this process is invoked, it performs the following actions:
 
 [Creating Flash Builder applications that perform SSO authentication using HTTP tokens](/programming-with-aem-forms/creating-flash-builder-applications-perform.md#creating_flash_builder_applications_that_perform_sso_authentication_using_http_tokens)
 
-For information on how to display process data in a Flex graph control, see [Displaying AEM Forms process data in Flex graphs](http://www.adobe.com/devnet/livecycle/articles/populating_flexcontrols.html).
+For information on how to display process data in a Flex graph control, see [Displaying AEM Forms process data in Flex graphs](https://www.adobe.com/devnet/livecycle/articles/populating_flexcontrols.html).
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ A client application built with Flex cannot pass a document directly to a AEM Fo
 ```java
 ... var docRef: DocumentReference = new DocumentReference(); 
 docRef.referenceType = DocumentReference.REF_TYPE_URL; 
-docRef.url = "http://companyserver:8080/DocumentManager/116/7855"; ...
+docRef.url = "https://companyserver:8080/DocumentManager/116/7855"; ...
 ```
 
 * To create a DocumentReference object from a text string in the client application, set the DocumentReference object’s referenceType property to REF_TYPE_INLINE. Set the text property to the text to include in the object, as the following example shows:
@@ -125,8 +125,8 @@ docRef.text = "Text for my document";  // Optionally, you can override the ser
 
   ***Note**: if AEM Forms is configured to allow unsecure documents to be uploaded, you can use a user that does not have the Document Upload Application User role to upload a document. A user can also have the Document Upload permission. However, if AEM Forms is configured to only allow secure documents, then ensure that the user has the Document Upload Application User role or Document Upload permission. (See [Configuring AEM Forms to accept secure and unsecure documents](invoking-aem-forms-using-remoting.md#configuring_aem_forms_to_accept_secure_and_unsecure_documents)*.)**
 
-  You use standard Flash upload capabilities for the designated upload URL: `http://SERVER:PORT/remoting/lcfileupload`. You can then use the `DocumentReference` object wherever an input parameter of type `Document` is expected
-  ` private function startUpload():void  {  fileRef.addEventListener(Event.SELECT, selectHandler);  fileRef.addEventListener("uploadCompleteData", completeHandler);  try  {   var success:Boolean = fileRef.browse();  }    catch (error:Error)  {   trace("Unable to browse for files.");  }  }      private function selectHandler(event:Event):void {  var request:URLRequest = new  URLRequest("http://SERVER:PORT/remoting/lcfileupload")  try   {   fileRef.upload(request);   }    catch (error:Error)   {   trace("Unable to upload file.");   }  }    private function completeHandler(event:DataEvent):void  {   var params:Object = new Object();   var docRef:DocumentReference = new DocumentReference();   docRef.url = event.data as String;   docRef.referenceType = DocumentReference.REF_TYPE_URL;  }`The Remoting Quick Start uses the Remoting upload servlet to pass a PDF file to the `MyApplication/EncryptDocument`process. (See [Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting).)
+  You use standard Flash upload capabilities for the designated upload URL: `https://SERVER:PORT/remoting/lcfileupload`. You can then use the `DocumentReference` object wherever an input parameter of type `Document` is expected
+  ` private function startUpload():void  {  fileRef.addEventListener(Event.SELECT, selectHandler);  fileRef.addEventListener("uploadCompleteData", completeHandler);  try  {   var success:Boolean = fileRef.browse();  }    catch (error:Error)  {   trace("Unable to browse for files.");  }  }      private function selectHandler(event:Event):void {  var request:URLRequest = new  URLRequest("https://SERVER:PORT/remoting/lcfileupload")  try   {   fileRef.upload(request);   }    catch (error:Error)   {   trace("Unable to upload file.");   }  }    private function completeHandler(event:DataEvent):void  {   var params:Object = new Object();   var docRef:DocumentReference = new DocumentReference();   docRef.url = event.data as String;   docRef.referenceType = DocumentReference.REF_TYPE_URL;  }`The Remoting Quick Start uses the Remoting upload servlet to pass a PDF file to the `MyApplication/EncryptDocument`process. (See [Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting).)
 
 ```java
  
@@ -143,7 +143,7 @@ function startUpload(): void  { 
 }   
 private
 function selectHandler(event: Event): void { 
- var request: URLRequest = new  URLRequest("http://SERVER:PORT/remoting/lcfileupload")  try  { 
+ var request: URLRequest = new  URLRequest("https://SERVER:PORT/remoting/lcfileupload")  try  { 
   fileRef.upload(request); 
  }  
  catch (error: Error)  { 
@@ -217,7 +217,7 @@ A client application can invoke AEM Forms by specifying a Channel in MXML or Act
      private function refresh():void{ 
          var cs:ChannelSet= new ChannelSet(); 
          cs.addChannel(new AMFChannel("my-amf",  
-             "http://yourlcserver:8080/remoting/messagebroker/amf")); 
+             "https://yourlcserver:8080/remoting/messagebroker/amf")); 
          EncryptDocument.setCredentials("administrator", "password"); 
          EncryptDocument.channelSet = cs; 
      } 
@@ -317,7 +317,7 @@ The following example uses the `ChannelSet.login` and `ChannelSet.logout` method
 ```as3
  <?xml version=”1.0”?> 
  <!-- security/SecurityConstraintCustom.mxml --> 
- <mx:Application xmlns:mx=”http://www.adobe.com/2006/mxml” width=”100%” 
+ <mx:Application xmlns:mx=”https://www.adobe.com/2006/mxml” width=”100%” 
      height=”100%” creationComplete=”creationCompleteHandler();”> 
   
      <mx:Script> 
@@ -690,7 +690,7 @@ if AEM Forms is configured to only allow secure documents to be uploaded and the
       // Set up channel set to invoke AEM Forms  
       private function initializeChannelSet():void { 
         cs = new ChannelSet();  
-        cs.addChannel(new AMFChannel("remoting-amf", "http://" + serverPort + "/remoting/messagebroker/amf"));  
+        cs.addChannel(new AMFChannel("remoting-amf", "https://" + serverPort + "/remoting/messagebroker/amf"));  
         EncryptDocument2.channelSet = cs; 
       } 
   
@@ -713,7 +713,7 @@ if AEM Forms is configured to only allow secure documents to be uploaded and the
      private function authTokenReceived(event:ResultEvent):void 
      { 
      var token:String = event.result as String; 
-     var request:URLRequest = DocumentReference.constructRequestForUpload("http://hiro-xp:8080", token); 
+     var request:URLRequest = DocumentReference.constructRequestForUpload("https://hiro-xp:8080", token); 
               
      try 
      { 
@@ -966,7 +966,7 @@ The ActionScript class's fields match the fields that belong to the AEM Forms co
 
 >[!NOTE]
 >
->A good way to determine the field names that belong to a Forms complex type is to view a service's WSDL in a web browser. A WSDL specifies a service's complex types and the corresponding data members. The following WSDL is used for the Customer service: *http://[yourServer]:[yourPort]/soap/services/CustomerService?wsdl.*
+>A good way to determine the field names that belong to a Forms complex type is to view a service's WSDL in a web browser. A WSDL specifies a service's complex types and the corresponding data members. The following WSDL is used for the Customer service: *https://[yourServer]:[yourPort]/soap/services/CustomerService?wsdl.*
 
 The Customer ActionScript class belongs to a package named customer. It is recommended that you place all ActionScript classes that map to complex AEM Forms data types in their own package. Create a folder in the Flex project's src folder and place the ActionScript file in the folder, as shown in the following illustration.
 
@@ -1016,7 +1016,7 @@ The following code example invokes the Customer service and creates a new custom
       { 
       
         var cs:ChannelSet= new ChannelSet();  
-     cs.addChannel(new AMFChannel("remoting-amf", "http://" + serverPort + "/remoting/messagebroker/amf"));  
+     cs.addChannel(new AMFChannel("remoting-amf", "https://" + serverPort + "/remoting/messagebroker/amf"));  
       
      customerService.setCredentials("administrator", "password"); 
      customerService.channelSet = cs; 

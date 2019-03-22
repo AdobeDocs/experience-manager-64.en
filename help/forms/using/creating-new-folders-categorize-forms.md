@@ -24,7 +24,7 @@ You can create a folder in AEM Forms in one of the following ways:
 
 * Create a new empty folder
 
-1. Log in to the AEM Forms user interface at `http://<server>:<port>/aem/forms.html`.  
+1. Log in to the AEM Forms user interface at `https://<server>:<port>/aem/forms.html`.  
    ``
 1. Navigate to the location under which you want to create a folder.  
 

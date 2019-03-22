@@ -13,7 +13,7 @@ discoiquuid: f55e68c3-3309-4400-bef9-fd3afa6e2b5f
 
 # Integrating with Dynamic Media Classic (Scene7){#integrating-with-dynamic-media-classic-scene}
 
-[Adobe Scene7](http://help.adobe.com/en_US/scene7/using/WS26AB0D9A-F51C-464e-88C8-580A5A82F810.html) is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
+[Adobe Scene7](https://help.adobe.com/en_US/scene7/using/WS26AB0D9A-F51C-464e-88C8-580A5A82F810.html) is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
 
 To use Scene7, you need to configure the cloud configuration so that Scene7 and AEM Assets can interact with one another. This document describes how to configure AEM and Scene7.
 
@@ -152,9 +152,9 @@ To use Dynamic Media and Scene7 simultaneously:
 1. Optional (please see use case table) -- If you choose to enable Automatic Upload from Assets to Scene7, then you need to add the following:
 
     1. Set up automatic upload to Scene7.
-    1. Add the **Scene7 upload** step after all the Dynamic Media workflow steps *at the end of* **Dam Update Asset** workflow ( `http://<server>:<host>/cf#/etc/workflow/models/dam/update_asset.html)`
+    1. Add the **Scene7 upload** step after all the Dynamic Media workflow steps *at the end of* **Dam Update Asset** workflow ( `https://<server>:<host>/cf#/etc/workflow/models/dam/update_asset.html)`
     
-    1. (Optional) Restrict Scene7 asset upload by MIME type in [http://&lt;server&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl](http://localhost:4502/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl). Asset MIME types not in this list will not be uploaded to Scene7 server.
+    1. (Optional) Restrict Scene7 asset upload by MIME type in [https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl](http://localhost:4502/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl). Asset MIME types not in this list will not be uploaded to Scene7 server.
     1. (Optional) Set up video in Scene7 configuration. You can enable video encoding for either or both Dynamic Media and Scene7 simultaneously. Dynamic renditions are used for preview and playback locally in AEM instance, whereas Scene7 video renditions are generated and stored on Scene7 servers. When setting up video encoding services for both Dynamic Media and Scene7, apply a [video processing profile](../../../assets/using/video-profiles.md) to the Scene7 asset folder.
     1. (Optional) [Configure Secure preview in Scene7](../../../sites/administering/using/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene).
 
@@ -417,13 +417,13 @@ However, if you do not want assets pushed to Scene7 to publish automatically, th
 Before you can push assets to Scene7 without publishing them, you must set up the following:
 
 1. Contact Scene7 Customer Care (s7support@adobe.com) to enable secure preview for your Scene7 account. 
-1. Follow directions to [setup secure preview for your Scene7 account.](http://help.adobe.com/en_US/scene7/using/WSd968ca97bf00cf72-5eeee3a113268dc80f5-8000.html)
+1. Follow directions to [setup secure preview for your Scene7 account.](https://help.adobe.com/en_US/scene7/using/WSd968ca97bf00cf72-5eeee3a113268dc80f5-8000.html)
 
 These are the same steps you would follow to create any secure test setup in Scene7.
 
 >[!NOTE]
 >
->If your installation environment is a Unix 64-bit operating system, see [http://helpx.adobe.com/experience-manager/kb/enable-xmp-write-back-64-bit-redhat.html](http://helpx.adobe.com/experience-manager/kb/enable-xmp-write-back-64-bit-redhat.html) regarding additional configuration options you need to set.
+>If your installation environment is a Unix 64-bit operating system, see [https://helpx.adobe.com/experience-manager/kb/enable-xmp-write-back-64-bit-redhat.html](https://helpx.adobe.com/experience-manager/kb/enable-xmp-write-back-64-bit-redhat.html) regarding additional configuration options you need to set.
 
 #### Known Limitations for pushing assets in unpublished state  {#known-limitations-for-pushing-assets-in-unpublished-state}
 
@@ -447,7 +447,7 @@ To set the state of assets pushed to Scene7 as unpublished:
 1. Tap or click the AEM icon and navigate to **Deployment** &gt; **Cloud Services**, click **Scene7**, and select your configuration in Scene7.
 1. Click the **Advanced** tab. In the **Enable Secure View** drop-down menu, select **Upon AEM Publish Activation** to push assets to Scene7 without publishing. (By default, this value is set to **Immediately**, where Scene7 assets are published immediately.)
 
-   See [Scene7 documentation](http://help.adobe.com/en_US/scene7/using/WSd968ca97bf00cf72-5eeee3a113268dc80f5-8000.html) for more information on testing assets before making them public.
+   See [Scene7 documentation](https://help.adobe.com/en_US/scene7/using/WSd968ca97bf00cf72-5eeee3a113268dc80f5-8000.html) for more information on testing assets before making them public.
 
    ![](assets/chlimage_1-302.png)
 

@@ -409,7 +409,7 @@ Configures the details for connecting to the JSONP service that this object uses
 
         * auto: //
         * true: https://
-        * false: http://
+        * false: https://
 
 * **override:** (Boolean). A value of `true` causes the existing service configuration to be replaced by the properties of `serviceConfig`. A value of `false` causes the existing service configuration properties to be merged with the properties of `serviceConfig`.
 
@@ -439,7 +439,7 @@ An object with the following properties:
 
     * auto: //
     * true: https://
-    * false: http://
+    * false: https://
 
 #### getServiceURL(resolve) {#getserviceurl-resolve}
 
@@ -477,7 +477,7 @@ initializes the ContextHub.Store.JSONPStore object.
 
             * auto: //
             * true: https://
-            * false: http://
+            * false: https://
 
         * timeout: (Number) The amount of time to wait for the JSONP service to respond before timing out, in milliseconds.
         * ttl: The minimum amount of time in milliseconds that passes between calls to the JSONP service. (See the [queryService](../../../sites/developing/using/contexthub-api.md#queryservice-reload) function).

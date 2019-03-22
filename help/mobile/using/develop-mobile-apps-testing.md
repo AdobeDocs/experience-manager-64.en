@@ -40,7 +40,7 @@ Some degree of automated testing should be performed to cover the variety of scr
 
 ## Manual testing {#manual-testing}
 
-In addition to automated testing, your app should go through a cycle of manual testing. Customers running the app on a real device cannot be duplicated by a script. Here too, you have many options. You can use a platform, such as HockeyApp, to define who has access and gather feedback. Or, you can outsource the whole process to a service like UTest, ElusiveStars, or Testin. If you have a group of internal testers, but lack variation of devices, there are cloud services where you can perform manual testing on their pool of devices. One such service that provides this is SauceLabs. You can also build apps remotely to PhoneGap Enterprise and install on local devices as a level of acceptance testing or demoing. See the [PhoneGap](http://phonegap.com/) website for their latest features and documentation. Whatever the approach, manual testing should;
+In addition to automated testing, your app should go through a cycle of manual testing. Customers running the app on a real device cannot be duplicated by a script. Here too, you have many options. You can use a platform, such as HockeyApp, to define who has access and gather feedback. Or, you can outsource the whole process to a service like UTest, ElusiveStars, or Testin. If you have a group of internal testers, but lack variation of devices, there are cloud services where you can perform manual testing on their pool of devices. One such service that provides this is SauceLabs. You can also build apps remotely to PhoneGap Enterprise and install on local devices as a level of acceptance testing or demoing. See the [PhoneGap](https://phonegap.com/) website for their latest features and documentation. Whatever the approach, manual testing should;
 
 * hit a large target of testers,
 * test against a large pool of devices (ideally real devices, but simulators/emulators if real devices are not available),
@@ -64,21 +64,21 @@ There is a wide range of tools available for testing mobile apps. The choice of 
 * SeleniumGrid directs tests across nodes for parallel testing.
 * Selenium IDE help reduce test case writing.
 
-For more information see [http://www.seleniumhq.org/](http://www.seleniumhq.org/).
+For more information see [https://www.seleniumhq.org/](https://www.seleniumhq.org/).
 
 **Testdroid**
 
 * A cloud-based testing service with continuous integration hooks and real device testing.
 * Includes an App Crawler that checks device compatibility, analyzes logs, traverses views, takes screenshots, and monitors performance.
 
-For more information see [http://testdroid.com/](http://testdroid.com/).
+For more information see [https://testdroid.com/](https://testdroid.com/).
 
 **Appium**
 
 * Appium is a popular cross platform framework for automating mobile tests.
 * Additionally, an inspector is included with record abilities to help code test cases.
 
-For more information see [http://appium.io/](http://appium.io/).
+For more information see [https://appium.io/](https://appium.io/).
 
 **SauceLabs**
 
@@ -98,7 +98,7 @@ For more information see [https://www.apptestnow.com](https://www.apptestnow.com
 
 * HockeyApp falls under the manual testing where the mobile app is pushed out to a personal app store where testers can download and try it out.
 
-For more information see [http://hockeyapp.net/features/](http://hockeyapp.net/features/).
+For more information see [https://hockeyapp.net/features/](https://hockeyapp.net/features/).
 
 **Jenkins**
 

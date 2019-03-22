@@ -150,7 +150,7 @@ For a new installation of SCORM engine, the package containing [SCORM 2017.1](ht
  <ol> 
   <li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg" target="_blank">cq-social-scorm-package, version 2.2.2</a>.</strong></p> </li> 
   <li><p>Download <strong><span class="code">/libs/social/config/scorm/database_scormengine_data.sql</span></strong> from cq instance and execute it in mysql server to create an upgraded scormEngineDB schema.</p> </li> 
-  <li><p>Add <span class="code">/content/communities/scorm/RecordResults</span> in Excluded Paths property in CSRF filter from <strong>http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</strong> on publishers.</p> </li> 
+  <li><p>Add <span class="code">/content/communities/scorm/RecordResults</span> in Excluded Paths property in CSRF filter from <strong>https://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</strong> on publishers.</p> </li> 
  </ol> 
 </details>
 
@@ -179,7 +179,7 @@ Existing SCORM installations can be upgraded to [**cq-social-scorm-package, vers
     </g> in file <strong>EngineInstall.xml</strong>.<br /> </p> </li> 
   <li><p>Run mysql schema upgrade tool in Installer folder with the command:</p> <p><span class="code">java -Dlogback.configurationFile=logback.xml -cp "lib/*" RusticiSoftware.ScormContentPlayer.Logic.Upgrade.ConsoleApp EngineInstall.xml</span></p> </li> 
   <li><p>Monitor <span class="code">engine_upgrade.log</span> file for any kind of error and schema upgrade status.</p> </li> 
-  <li><p>Add <span class="code">/content/communities/scorm/RecordResults</span> in<strong> Excluded Paths</strong> property in CSRF filter from <span class="code">http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</span> on publishers.</p> </li> 
+  <li><p>Add <span class="code">/content/communities/scorm/RecordResults</span> in<strong> Excluded Paths</strong> property in CSRF filter from <span class="code">https://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</span> on publishers.</p> </li> 
  </ol> 
 </details>
 
@@ -376,7 +376,7 @@ With the key material stored in the repository, the manner for replicating the c
 
 Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
-* browse to [http://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
+* browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 * select `/etc/key`
 * open `Replication` tab
 * select `Replicate`
@@ -389,7 +389,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 * on each publish instance, access the [Web Console](../../sites/deploying/using/configuring-osgi.md)
 
-    * for example, [http://&lt;server&gt;:&lt;port&gt;/system/console/bundles](http://localhost:4503/system/console/bundles)
+    * for example, [https://&lt;server&gt;:&lt;port&gt;/system/console/bundles](http://localhost:4503/system/console/bundles)
 
 * locate `Adobe Granite Crypto Support` bundle (com.adobe.granite.crypto)
 * select **Refresh**
@@ -417,7 +417,7 @@ In particular, be careful to use the correct server name, not `localhost`, in th
 
     # Return from "Sign Out" generates response header directing you to "/", generating a 404 error
     # The RedirectMatch resolves it correctly when modified for the target Community Site:
-    RedirectMatch ^/$ http://[server name]/content/sites/engage/en.html
+    RedirectMatch ^/$ https://[server name]/content/sites/engage/en.html
  ...
  </IfModule>
 ```

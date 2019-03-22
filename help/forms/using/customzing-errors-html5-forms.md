@@ -113,9 +113,9 @@ Ue the attached package to simultaneously display error messages for all the fie
 
 ## Render the form with the new profile.&nbsp; {#render-the-form-with-the-new-profile-nbsp}
 
-Out of the box, html5 forms use a default profile: http://&lt;server&gt;/content/xfaforms/profiles/default.html?contentRoot=&lt;xdp location&gt;&template=&lt;name of the xdp&gt;
+Out of the box, html5 forms use a default profile: https://&lt;server&gt;/content/xfaforms/profiles/default.html?contentRoot=&lt;xdp location&gt;&template=&lt;name of the xdp&gt;
 
-To view a form with the custom error messages, render the form with error profile: http://&lt;server&gt;/content/xfaforms/profiles/error.html?contentRoot=&lt;xdp location&gt;&template=&lt;name of the xdp&gt;
+To view a form with the custom error messages, render the form with error profile: https://&lt;server&gt;/content/xfaforms/profiles/error.html?contentRoot=&lt;xdp location&gt;&template=&lt;name of the xdp&gt;
 
 >[!NOTE]
 >

@@ -25,7 +25,7 @@ See interactive images in action on the web page above by going to the following
 
 ## Watch how interactive image banners are created {#watch-how-interactive-image-banners-are-created}
 
-Watch a 10 minute and 33 second walkthrough on [how interactive image banners are created](http://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=http://s7d5.scene7.com/is/content/&emailurl=http://s7d5.scene7.com/s7/emailFriend&serverUrl=http://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video_social&contenturl=http://s7d5.scene7.com/skins/&asset=S7tutorials/InteractiveCarouselBanner). You will also learn how to preview, edit, and deliver interactive image banners.
+Watch a 10 minute and 33 second walkthrough on [how interactive image banners are created](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video_social&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/InteractiveCarouselBanner). You will also learn how to preview, edit, and deliver interactive image banners.
 
 ## Quick Start: Interactive Images {#quick-start-interactive-images}
 
@@ -115,28 +115,28 @@ Consider the following examples of Quickview URLs and their resulting hotspot va
        <td valign="top" width="22.271714922048996%"><p>Single SKU, found in the query string.</p> </td> 
        <td valign="top" width="77.728285077951%"><p>The recorded Quickview URLs include the following:</p> 
         <ul> 
-         <li><p><span class="code">http://server/json?productId=866558&amp;source=100</span></p> </li> 
-         <li><p><span class="code">http://server/json?productId=1196184&amp;source=100</span></p> </li> 
-         <li><p><span class="code">http://server/json?productId=1081492&amp;source=100</span></p> </li> 
-         <li><p><span class="code">http://server/json?productId=1898294&amp;source=100</span></p> </li> 
+         <li><p><span class="code">https://server/json?productId=866558&amp;source=100</span></p> </li> 
+         <li><p><span class="code">https://server/json?productId=1196184&amp;source=100</span></p> </li> 
+         <li><p><span class="code">https://server/json?productId=1081492&amp;source=100</span></p> </li> 
+         <li><p><span class="code">https://server/json?productId=1898294&amp;source=100</span></p> </li> 
         </ul> <p>The only variable part in the URL is the value of the productId= query string parameter, and it is clearly a SKU value. Therefore, our hotspots only need SKU fields populated with values like <strong><span class="code">866558</span></strong>, <strong><span class="code">1196184</span></strong>, <strong><span class="code">1081492</span></strong>, <strong><span class="code">1898294</span></strong>.</p> </td> 
       </tr> 
       <tr> 
        <td valign="top" width="22.271714922048996%"><p>Single SKU, found in the URL path.</p> </td> 
        <td valign="top" width="77.728285077951%"><p>The recorded Quickview URLs include the following:</p> 
         <ul> 
-         <li><p><span class="code">http://server/product/6422350843</span></p> </li> 
-         <li><p><span class="code">http://server/product/1607745002</span></p> </li> 
-         <li><p><span class="code">http://server/product/0086724882</span></p> </li> 
+         <li><p><span class="code">https://server/product/6422350843</span></p> </li> 
+         <li><p><span class="code">https://server/product/1607745002</span></p> </li> 
+         <li><p><span class="code">https://server/product/0086724882</span></p> </li> 
         </ul> <p>The variable part is in the last portion of the path, and it becomes the SKU value of the hotspots: <strong><span class="code">6422350843</span></strong>, <strong><span class="code">1607745002</span></strong>, <strong><span class="code">0086724882</span></strong>.</p> </td> 
       </tr> 
       <tr> 
        <td valign="top" width="22.271714922048996%"><p>SKU and category ID in the query string.</p> </td> 
        <td valign="top" width="77.728285077951%"><p>The recorded Quickview URLs include the following:</p> 
         <ul> 
-         <li><p><span class="code">http://server/quickView/product/?category=1100004&amp;prodId=305466</span></p> </li> 
-         <li><p><span class="code">http://server/quickView/product/?category=1100004&amp;prodId=310181</span></p> </li> 
-         <li><p><span class="code">http://server/quickView/product/?category=1740148&amp;prodId=308706</span></p> </li> 
+         <li><p><span class="code">https://server/quickView/product/?category=1100004&amp;prodId=305466</span></p> </li> 
+         <li><p><span class="code">https://server/quickView/product/?category=1100004&amp;prodId=310181</span></p> </li> 
+         <li><p><span class="code">https://server/quickView/product/?category=1740148&amp;prodId=308706</span></p> </li> 
         </ul> <p>In this case, there are two varying parts in the URL. The SKU is stored in the <span class="code">prodId</span> parameter and the category ID<span class="code"></span> is stored in the <span class="code">category=</span> parameter.</p> <p>As such, the hotspot definitions are pairs. That is, a SKU value and an additional variable called <span class="code">categoryId</span>. The resulting pairs are the following:</p> 
         <ul> 
          <li><p>SKU is <strong><span class="code">305466</span></strong> and <span class="code">categoryId</span> is <span class="code">1100004</span>.</p> </li> 
@@ -433,7 +433,7 @@ Using our previous Quickview URL examples, you can see, in the following example
    <td valign="top" width="17.035775127768314%"><p>Single SKU, found in the query string</p> </td> 
    <td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
       "quickViewActivate": function(inData) {
-      var quickViewUrl = "http://server/json?productId=" + inData.sku + "&amp;amp;source=100";
+      var quickViewUrl = "https://server/json?productId=" + inData.sku + "&amp;amp;source=100";
       },
       });</code></td> 
   </tr> 
@@ -441,7 +441,7 @@ Using our previous Quickview URL examples, you can see, in the following example
    <td valign="top" width="17.035775127768314%"><p>Single SKU, found in the URL path</p> </td> 
    <td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
       "quickViewActivate": function(inData) {
-      var quickViewUrl = "http://server/product/" + inData.sku;
+      var quickViewUrl = "https://server/product/" + inData.sku;
       },
       });</code></td> 
   </tr> 
@@ -449,7 +449,7 @@ Using our previous Quickview URL examples, you can see, in the following example
    <td valign="top" width="17.035775127768314%"><p>SKU and category ID in the query string</p> </td> 
    <td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
       "quickViewActivate": function(inData) {
-      var quickViewUrl = "http://server/quickView/product/?category=" + inData.categoryId + "&amp;amp;prodId=" + inData.sku;
+      var quickViewUrl = "https://server/quickView/product/?category=" + inData.categoryId + "&amp;amp;prodId=" + inData.sku;
       },
       });</code></td> 
   </tr> 

@@ -52,16 +52,16 @@ There are many commercially available performance testing tools on the market. W
 * Adobe’s **Tough Day** tool can be used to generate load on AEM instances and collect performance data. Adobe’s AEM engineering team actually uses the tool to do load testing of the AEM product itself. The scripts executed in Tough Day are configured via property files and JMX XML files. For more information, see the [Tough Day documentation](../../../sites/developing/using/tough-day.md).
 
 * AEM provides out of the box tools to quickly see problematic queries, requests and error messages. For more information, see the [Diagnosis Tools](../../../sites/administering/using/operations-dashboard.md#diagnosis-tools) section of the Operations Dashboard documentation.
-* Apache provides a product called **JMeter** that can be used for performance and load testing as well as functional behavior. It is open source software and free to use, but has a smaller feature set than enterprise products and a steeper learning curve. JMeter can be found on Apache’s website at [http://jmeter.apache.org/](http://jmeter.apache.org/)
+* Apache provides a product called **JMeter** that can be used for performance and load testing as well as functional behavior. It is open source software and free to use, but has a smaller feature set than enterprise products and a steeper learning curve. JMeter can be found on Apache’s website at [https://jmeter.apache.org/](https://jmeter.apache.org/)
 
-* **Load Runner** is an enterprise grade load testing product produced by HP. A free evaluation version is provided. More information can be found on HP’s website at [http://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/](http://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/)
+* **Load Runner** is an enterprise grade load testing product produced by HP. A free evaluation version is provided. More information can be found on HP’s website at [https://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/](https://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/)
 
 * Cloud based load testing tools like [Neustar](https://www.neustar.biz/services/web-performance/load-testing) can also be used.
 * When it comes to testing mobile or responsive websites, a separate set of tools need to be used. They work by throttling network bandwidth, simulating slower mobile connections like 3G or EDGE. Among the more widely used tools are:
 
-    * ** [Network Link Conditioner](http://nshipster.com/network-link-conditioner/)** - it provides an easy to use UI and works at a fairly low level on the networking stack. It includes versions for OS X and iOS; [](http://nshipster.com/network-link-conditioner/)
+    * ** [Network Link Conditioner](https://nshipster.com/network-link-conditioner/)** - it provides an easy to use UI and works at a fairly low level on the networking stack. It includes versions for OS X and iOS; [](https://nshipster.com/network-link-conditioner/)
     
-    * [**Charles**](http://www.charlesproxy.com/) - a web debugging proxy application that in addition to several other uses, provides network throttling. Versions are provided for Windows, OS X and Linux. [](http://www.charlesproxy.com/)
+    * [**Charles**](https://www.charlesproxy.com/) - a web debugging proxy application that in addition to several other uses, provides network throttling. Versions are provided for Windows, OS X and Linux. [](https://www.charlesproxy.com/)
 
 #### Optimization Tools {#optimization-tools}
 
@@ -71,7 +71,7 @@ The [Monitoring Performance](../../../sites/deploying/using/monitoring-and-maint
 
 **Developer Mode in Touch UI**
 
-One of the new features in AEM 6’s touch UI is the Developer Mode. Just as authors can switch between edit and preview modes, developers can switch to developer mode in the author UI to see the render time for each of the components on the page and to see stack traces of any errors. For more information on developer mode, see this [CQ Gems presentation](http://docs.adobe.com/content/ddc/en/gems/aem-6-0-developer-mode.html).
+One of the new features in AEM 6’s touch UI is the Developer Mode. Just as authors can switch between edit and preview modes, developers can switch to developer mode in the author UI to see the render time for each of the components on the page and to see stack traces of any errors. For more information on developer mode, see this [CQ Gems presentation](https://docs.adobe.com/content/ddc/en/gems/aem-6-0-developer-mode.html).
 
 **Using the rlog.jar to read the request logs**
 
@@ -100,11 +100,11 @@ For the types of environments that have requirements of heavy asset loading or p
 
 On systems with MongoDB backends, AEM provides several [JMX](../../../sites/administering/using/jmx-console.md) MBeans that need to be monitored when performing load or performance tests:
 
-* The **Consolidated Cache Statistics** MBean. It can be accessed directly by going to *http://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D6%2Cname%3D%22Consolidated+Cache+statistics%22%2Ctype%3D%22ConsolidatedCacheStats%22*
+* The **Consolidated Cache Statistics** MBean. It can be accessed directly by going to *https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D6%2Cname%3D%22Consolidated+Cache+statistics%22%2Ctype%3D%22ConsolidatedCacheStats%22*
 
 For the cache named **Document-Diff**, the hit rate should be over `.90`. If the hit rate falls below 90%, it is likely that you will need to modify your `DocumentNodeStoreService` configuration. Adobe product support can recommend optimal settings for your environment.
 
-* The **Oak Repository Statistics** Mbean. It can be accessed directly by going to *http://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D16%2Cname%3D%22Oak+Repository+Statistics%22%2Ctype%3D%22RepositoryStats%22*
+* The **Oak Repository Statistics** Mbean. It can be accessed directly by going to *https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D16%2Cname%3D%22Oak+Repository+Statistics%22%2Ctype%3D%22RepositoryStats%22*
 
 The **ObservationQueueMaxLength** section will show the number of events in Oak’s observation queue over the last hours, minutes, seconds and weeks. Find the largest number of events in the "per hour" section. This number needs to be compared to the `oak.observation.queue-length` setting which can be found in the **SlingRepositoryManager** component in the [OSGi console](../../../sites/deploying/using/configuring-web-console.md). If the highest number shown for the observation queue exceeds the `queue-length` setting, contact Adobe Support for assistance with raising the setting. The default setting is 1,000, but most deployments usually need to raise it to 20,000 or 50,000.
 

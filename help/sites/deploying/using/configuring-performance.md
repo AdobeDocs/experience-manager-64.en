@@ -453,11 +453,11 @@ Any optimizations made must be tested to ensure they have:
 
 A selection of tools is available to help you with load-generation, performance monitoring and/or results analysis:
 
-* [JMeter](http://jakarta.apache.org/jmeter/)
+* [JMeter](https://jakarta.apache.org/jmeter/)
 * Load Runner (HP)
-* [Determyne](http://www.determyne.com/) InsideApps
-* [InfraRED](http://www.infraredsoftware.com/)
-* [Java Interactive Profile](http://jiprof.sourceforge.net/)
+* [Determyne](https://www.determyne.com/) InsideApps
+* [InfraRED](https://www.infraredsoftware.com/)
+* [Java Interactive Profile](https://jiprof.sourceforge.net/)
 * many more...
 
 After optimization, you will need to test again to confirm the impact.

@@ -84,7 +84,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
        >[!NOTE]
        >
-       >After the server is up and running, a few AEM Forms bundles remain in install state. The number of bundles can vary for every installation. You can safely ignore the state these bundles. The bundles are listed at http://[server]:[port]/system/console/.
+       >After the server is up and running, a few AEM Forms bundles remain in install state. The number of bundles can vary for every installation. You can safely ignore the state these bundles. The bundles are listed at https://[server]:[port]/system/console/.
 
 1. Prepare the upgraded AEM instance for AEM 6.3 Forms.
 
@@ -117,7 +117,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
 1. Install AEM Forms add-on package. The steps are listed below:
 
-    1. Log in to the AEM server as an administrator and open the package share. The default URL of the package share is http://[server]:[port]/crx/packageshare.
+    1. Log in to the AEM server as an administrator and open the package share. The default URL of the package share is https://[server]:[port]/crx/packageshare.
     1. In package share, search **AEM 6.3 Forms add-on packages**, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded **appears next to the package.
 
        Alternately, you can also use the hyperlinks listed in the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article to manually download a package.
@@ -170,23 +170,23 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
     * **Verify replication and reverse replication:** Publish, fill, and submit a few migrated forms. Verify the submitted data also.
     * **Verify access to admin and developer user interfaces:** Log in to AEM instance from an admin account and verify that you have access to the following URLs:
 
-        * http://[server]:[port]/crx/packmgr
-        * http://[server]:[port]/crx/de
-        * http://[server]:[port]/aem/forms.html/content/dam/formsanddocuments
+        * https://[server]:[port]/crx/packmgr
+        * https://[server]:[port]/crx/de
+        * https://[server]:[port]/aem/forms.html/content/dam/formsanddocuments
 
 Direct upgrade from LiveCycle ES2, ES3, ES4, and AEM 6.0 Forms to AEM 6.3 Forms is not available. You can perform an intermediate upgrade to one or more versions of LiveCycle or AEM Forms and then upgrade from AEM 6.3 Forms. For the list of intermediate versions and corresponding upgrade instructions, see [Choose an upgrade path](../../../forms/using/wip/upgrade-migrate.md#choose-an-upgrade-path).
 
 Perform the following procedure to upgrade an existing version of LiveCycle or AEM Forms on OSGi to AEM 6.3 Forms:
 
-1. Download the AEM 6.3 Forms on JEE installer from the [Adobe Licensing Website (LWS)](http://licensing.adobe.com/). You require a valid Maintenance & Support contract to download the installer.
-1. Read the [Upgrade checklist and planning](http://www.adobe.com/go/learn_aemfroms_upgrade_checklist_63) document to learn about the checks to perform to ensure a successful upgrade.
-1. Use the [Prepare to upgrade to AEM Forms](http://www.adobe.com/go/learn_aemforms_prepareupgrade_63) to learn and perform the tasks that ensure the upgrade runs correctly with minimal server downtime.
+1. Download the AEM 6.3 Forms on JEE installer from the [Adobe Licensing Website (LWS)](https://licensing.adobe.com/). You require a valid Maintenance & Support contract to download the installer.
+1. Read the [Upgrade checklist and planning](https://www.adobe.com/go/learn_aemfroms_upgrade_checklist_63) document to learn about the checks to perform to ensure a successful upgrade.
+1. Use the [Prepare to upgrade to AEM Forms](https://www.adobe.com/go/learn_aemforms_prepareupgrade_63) to learn and perform the tasks that ensure the upgrade runs correctly with minimal server downtime.
 1. Depending on your application server, choose one of the following documents and follow the instructions:
 
-    * [Upgrade to AEM Forms for JBoss](http://www.adobe.com/go/learn_aemforms_upgradeJBoss_63)
-    * [Upgrade to AEM Forms for WebLogic](http://www.adobe.com/go/learn_aemforms_upgradeWebLogic_63)
-    * [Upgrade to AEM Forms for WebSphere](http://www.adobe.com/go/learn_aemforms_upgradeWebSphere_63)
-    * [Upgrade to AEM Forms using JBoss Turnkey](http://www.adobe.com/go/learn_aemforms_upgradeTurnkey_63)
+    * [Upgrade to AEM Forms for JBoss](https://www.adobe.com/go/learn_aemforms_upgradeJBoss_63)
+    * [Upgrade to AEM Forms for WebLogic](https://www.adobe.com/go/learn_aemforms_upgradeWebLogic_63)
+    * [Upgrade to AEM Forms for WebSphere](https://www.adobe.com/go/learn_aemforms_upgradeWebSphere_63)
+    * [Upgrade to AEM Forms using JBoss Turnkey](https://www.adobe.com/go/learn_aemforms_upgradeTurnkey_63)
 
 Download the [AEM 6.3 QuickStart](https://docs.adobe.com/docs/en/aem/6-3/deploy.html#Getting%20the%20software).
 
@@ -200,7 +200,7 @@ Upgrade your AEM 6.2 instance to AEM 6.3. For step by step instructions, see [ht
 
 Migration involves moving only assets (PDF, XDP, images, adaptive forms, adaptive documents, correspondence management assets) from one server to another - processes (LCA), settings, configurations, and a few other pieces of metadata are not migrated. Perform the following steps to migrate to AEM 6.3 Forms:
 
-1. Set up a fresh environment of [AEM 6.3 Forms](http://adobe.com/go/learn_aemforms_documentation_63). 
+1. Set up a fresh environment of [AEM 6.3 Forms](https://adobe.com/go/learn_aemforms_documentation_63). 
 1. Move XDP or other compatible assets to the freshly set instance. For detailed instructions, see [Importing and exporting assets to AEM Forms](../../../forms/using/import-export-forms-templates.md). [  
    ](../../../forms/using/import-export-forms-templates.md) 
 1. Build the required services, if any.

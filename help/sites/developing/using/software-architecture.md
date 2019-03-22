@@ -51,4 +51,4 @@ Data migration scripts, while production code, are usually only run once at the 
 
 ### Follow published Maven conventions in POM files {#follow-published-maven-conventions-in-pom-files}
 
-Apache has published style conventions at [http://maven.apache.org/developers/conventions/code.html](http://maven.apache.org/developers/conventions/code.html). It is best to follow these conventions, as it will make it easier for new resources to come up to speed quickly.
+Apache has published style conventions at [https://maven.apache.org/developers/conventions/code.html](https://maven.apache.org/developers/conventions/code.html). It is best to follow these conventions, as it will make it easier for new resources to come up to speed quickly.

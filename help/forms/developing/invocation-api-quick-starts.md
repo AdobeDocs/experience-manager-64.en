@@ -171,7 +171,7 @@ The following Java code example invokes a short-lived process named `MyApplicati
          { 
              //Set connection properties required to invoke AEM Forms                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -428,7 +428,7 @@ The following Flex code example invokes a short-lived process named `MyApplicati
       // once for the entire application. 
        private function initializeChannelSet():void { 
         cs = new ChannelSet();  
-        cs.addChannel(new AMFChannel("remoting-amf", "http://" + serverPort + "/remoting/messagebroker/amf"));  
+        cs.addChannel(new AMFChannel("remoting-amf", "https://" + serverPort + "/remoting/messagebroker/amf"));  
         EncryptDocument.setCredentials("administrator", "password"); 
         EncryptDocument.channelSet = cs; 
       } 
@@ -451,7 +451,7 @@ The following Flex code example invokes a short-lived process named `MyApplicati
      private function authTokenReceived(event:ResultEvent):void 
              { 
              var token:String = event.result as String; 
-             var request:URLRequest = DocumentReference.constructRequestForUpload("http://[server]:[port]", token); 
+             var request:URLRequest = DocumentReference.constructRequestForUpload("https://[server]:[port]", token); 
               
              try 
              { 
@@ -680,7 +680,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
          MyApplicationEncryptDocumentServiceLocator locate = new MyApplicationEncryptDocumentServiceLocator (); 
   
          //specify the service target URL and object type 
-         URL serviceURL = new URL("http://[server]:[port]/soap/services/MyApplication/EncryptDocument?blob=dime"); 
+         URL serviceURL = new URL("https://[server]:[port]/soap/services/MyApplication/EncryptDocument?blob=dime"); 
           
          //Use the binding stub with the locator 
          EncryptDocumentSoapBindingStub encryptionClientStub = new EncryptDocumentSoapBindingStub(serviceURL,locate); 
@@ -752,7 +752,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
 
 The following Java code example invokes a process named `MyApplication/EncryptDocument` using data over HTTP. (See [Invoking AEM Forms using BLOB data over HTTP](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_blob_data_over_http).)
 
-An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the AEM Forms process using SOAP over HTTP. The PDF file is located at the following URL: `http://[server]:[port]/FormsQS`. The process returns a password-encrypted PDF document that is saved as a PDF file named *EncryptedDocument.pdf*.
+An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the AEM Forms process using SOAP over HTTP. The PDF file is located at the following URL: `https://[server]:[port]/FormsQS`. The process returns a password-encrypted PDF document that is saved as a PDF file named *EncryptedDocument.pdf*.
 
 ```as3
  /** 
@@ -779,7 +779,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
              MyApplicationEncryptDocument encryptDocClient = encClient.getEncryptDocument(); 
               
              //Set connection values required to invoke AEM Forms using BLOB over HTTP 
-             String url = "http://[server]:[port]/soap/services/MyApplication/EncryptDocument?blob=http"; 
+             String url = "https://[server]:[port]/soap/services/MyApplication/EncryptDocument?blob=http"; 
              String username = "administrator"; 
              String password = "password"; 
              ((BindingProvider) encryptDocClient).getRequestContext().put(BindingProvider.ENDPOINT_ADDRESS_PROPERTY, url); 
@@ -788,7 +788,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
               
              //Create a BLOB object and populate it by invoking the setRemoteURL method 
              BLOB inDoc = new BLOB(); 
-             inDoc.setRemoteURL("http://[server]:[port]/FormsQS/Loan.pdf"); 
+             inDoc.setRemoteURL("https://[server]:[port]/FormsQS/Loan.pdf"); 
               
                 //invoke the short-lived process named MyApplication/EncryptDocument 
              BLOB outDoc = encryptDocClient.invoke(inDoc); 
@@ -858,7 +858,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
   
                 try 
                 { 
-                    String urlData = "http://[server]:[port]/FormsQS/Loan.pdf"; 
+                    String urlData = "https://[server]:[port]/FormsQS/Loan.pdf"; 
   
                     //Create a MyApplication_EncryptDocumentService object and set authentication values 
                     MyApplication_EncryptDocumentService encryptClient = new MyApplication_EncryptDocumentService(); 
@@ -960,7 +960,7 @@ An unsecured PDF document based on a PDF file named *loan.pdf* is passed to the 
   
                     //Create an EncryptDocumentClient object 
                     MyApplication_EncryptDocumentClient encryptProcess = new MyApplication_EncryptDocumentClient(); 
-                    encryptProcess.Endpoint.Address = new System.ServiceModel.EndpointAddress("http://[server]:[port]/soap/services/MyApplication/EncryptDocument?blob=mtom"); 
+                    encryptProcess.Endpoint.Address = new System.ServiceModel.EndpointAddress("https://[server]:[port]/soap/services/MyApplication/EncryptDocument?blob=mtom"); 
                     BasicHttpBinding b = (BasicHttpBinding)encryptProcess.Endpoint.Binding; 
                     b.MessageEncoding = WSMessageEncoding.Mtom; 
   
@@ -1046,7 +1046,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
               
          //Specify connection values required to invoke the MyApplication/EncryptDocument process  
          //using SwaRef     
-         String url = "http://[server]:[port]/soap/services/MyApplication/EncryptDocument?blob=swaref"; 
+         String url = "https://[server]:[port]/soap/services/MyApplication/EncryptDocument?blob=swaref"; 
          String username = "administrator"; 
          String password = "password"; 
          String pdfFile = "C:\\Adobe\Loan.pdf"; 

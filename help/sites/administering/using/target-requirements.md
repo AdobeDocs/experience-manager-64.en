@@ -64,7 +64,7 @@ When editing an activity in Adobe Target, the URL points to **localhost** unless
 
 To configure the AEM externalizer:
 
-1. Navigate to the OSGi web console at** http://&lt;server&gt;:&lt;port&gt;/system/console/configMgr.**
+1. Navigate to the OSGi web console at** https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr.**
 1. Find **Day CQ Link Externalizer** and enter the domain for the author node.
 
    ![](assets/chlimage_1-120.png)

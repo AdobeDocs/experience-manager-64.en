@@ -76,11 +76,11 @@ The eligibility check is a part of the child support application adaptive form. 
 
 ### See it yourself {#see-it-yourself}
 
-In your browser, open `http://<hostname>:<PublishPort>/content/we-gov/en.html`. In the We.Gov site, click Child Support. In the Child Support page, click Check Your Eligibility.
+In your browser, open `https://<hostname>:<PublishPort>/content/we-gov/en.html`. In the We.Gov site, click Child Support. In the Child Support page, click Check Your Eligibility.
 
 To see the rules:
 
-1. Open the form in edit mode on the author instance. URL: `http://<hostname>:<AuthorPort>/editor.html/content/forms/af/we-gov/child-support/css.html`.
+1. Open the form in edit mode on the author instance. URL: `https://<hostname>:<AuthorPort>/editor.html/content/forms/af/we-gov/child-support/css.html`.
 1. Select a component and click ![](assets/edit-rules.png).  
    The Rule Editor opens listing all the rules applied in the form.  
 
@@ -183,16 +183,16 @@ The eligibility check uses rules specified in the form. It uses validity checks 
 
 ### See it yourself {#see-it-yourself-1}
 
-In your browser, open `http://<hostname>:<PublishPort>/content/forms/af/we-gov/child-support/css.html` and fill the required information. When you submit the application after you fill the required information, pay the fees, and sign the document, you receive the acknowledgement email.
+In your browser, open `https://<hostname>:<PublishPort>/content/forms/af/we-gov/child-support/css.html` and fill the required information. When you submit the application after you fill the required information, pay the fees, and sign the document, you receive the acknowledgement email.
 
-See the We.Gov Child Template here: `http://<hostname>:<AuthorPort>/editor.html/conf/we-gov/settings/wcm/templates/we-gov-child-template/structure.html`
+See the We.Gov Child Template here: `https://<hostname>:<AuthorPort>/editor.html/conf/we-gov/settings/wcm/templates/we-gov-child-template/structure.html`
 
-See the theme here: `http://<hostname>:<AuthorPort>/editor.html/content/dam/formsanddocuments-themes/we-gov/we-gov-theme-A/jcr:content`
+See the theme here: `https://<hostname>:<AuthorPort>/editor.html/content/dam/formsanddocuments-themes/we-gov/we-gov-theme-A/jcr:content`
 
 To see all the rules, perform the following steps:
 
 1. Open the form in the authoring mode.   
-   URL: `http://<hostname>:<AuthorPort>/editor.html/content/forms/af/we-gov/child-support/css.html`
+   URL: `https://<hostname>:<AuthorPort>/editor.html/content/forms/af/we-gov/child-support/css.html`
 
 1. Select a component, and tap ![](assets/edit-rules.png). All the rules are listed in the rule editor, including the rules listed above.
 
@@ -206,7 +206,7 @@ When Sarah fills and submits the child support application, a PDF or Document of
 
 ### See it yourself {#see-it-yourself-2}
 
-Open page `http://<***hostname***>:<*PublishP****ort***>/content/we-gov/en.html.`On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using grios/password as the username/password for Gloria Rios. The child support application appears. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+Open page `https://<***hostname***>:<*PublishP****ort***>/content/we-gov/en.html.`On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using grios/password as the username/password for Gloria Rios. The child support application appears. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
 
 ![Gloria's inbox in We.Gov refsite](assets/gloria-inbox.png)
 
@@ -227,7 +227,7 @@ Sarah's application is a startpoint in the AEM workflow. It initiates the AEM wo
 
 If the configuration is complete, the AEM workflow starts immediately after the form is submitted. Log in to the inbox using Gloria's credentials.
 
-Access inbox at http://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-gov/en.html. On the page, tap **Sign In**, select the** Login as representative** checkbox use Gloria's default credentials:
+Access inbox at https://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-gov/en.html. On the page, tap **Sign In**, select the** Login as representative** checkbox use Gloria's default credentials:
 
 * Username: grios
 * Password: password
@@ -315,7 +315,7 @@ The enrollment document is an interactive communication, and can be viewed on an
 
 Check the email client you configured for the automated email with a link to the enrollment document.
 
-Alternatively, to see the document in your browser, open: `http://<hostname>:<PublishPort>/content/aemforms-refsite/doclink.html?document=/content/forms/af/we-gov/child-support/enrollment-document&referenceId=[reference-id]&channel=web`
+Alternatively, to see the document in your browser, open: `https://<hostname>:<PublishPort>/content/aemforms-refsite/doclink.html?document=/content/forms/af/we-gov/child-support/enrollment-document&referenceId=[reference-id]&channel=web`
 
 ## We.Gov analyzes the performance of the application {#we-gov-analyzes-the-performance-of-the-application}
 
@@ -331,7 +331,7 @@ The performance metrics for the child support services application form are trac
 
 For you to view and explore the analytics report, we are providing seed data for the child support services application in the reference site. Before you use seed data, see [Configure Analytics](../../forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
 
-1. Go to **Forms & Documents** UI at http://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
+1. Go to **Forms & Documents** UI at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
 
 1. Click to open the **We.Gov** Folder.
 1. Select **Application for Child Support Services** adaptive form and then click **Enable Analytics** in the toolbar.

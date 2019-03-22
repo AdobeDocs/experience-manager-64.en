@@ -54,7 +54,7 @@ Synchronization errors and issues are logged in **error.log** (AEM server direct
 Before performing a Move, Copy, or Delete operation, do the following:
 
 * For images and videos, confirm that a **&lt;object_node&gt;/jcr:content/metadata/dam:scene7ID** value exists before performing move, copy, or delete operations. 
-* For image and viewer presets, confirm that an `http://<server>/crx/de/index.jsp#/etc/dam/presets/viewer/testpreset/jcr%3Acontent/metadata` value exists before performing move, copy, or delete operations.
+* For image and viewer presets, confirm that an `https://<server>/crx/de/index.jsp#/etc/dam/presets/viewer/testpreset/jcr%3Acontent/metadata` value exists before performing move, copy, or delete operations.
 * If above metadata value is missing, you need to re-upload assets before move, copy, or delete operations.
 
 ### Version Control {#version-control}
@@ -177,7 +177,7 @@ If you are having issues with video, see the following troubleshooting guidance.
    <td>Video processing takes too long</td> 
    <td><p>To determine if video encoding is still in progress or if it has entered a failure state:</p> 
     <ul> 
-     <li>Check the video status <span class="code">https://localhost:4502/crx/de/index.jsp#/content/dam/folder/videomp4/jcr%3Acontent</span> &gt; <span class="kbd">dam:assetState</span></li> 
+     <li>Check the video status <span class="code">http://localhost:4502/crx/de/index.jsp#/content/dam/folder/videomp4/jcr%3Acontent</span> &gt; <span class="kbd">dam:assetState</span></li> 
      <li>Monitor the video from the workflow console <span class="code">http://localhost:4502/libs/cq/workflow/content/console.html</span> &gt; Instances, Archive, Failures tabs.</li> 
     </ul> </td> 
    <td> </td> 
@@ -233,7 +233,7 @@ If you are having issues with viewers, see the following troubleshooting guidanc
        <li><span class="code">"is/content"</span></li> 
        <li><span class="code">dam:scene7Folder</span></li> 
        <li><span class="code">&lt;asset-name&gt;</span></li> 
-       <li>Example: <span class="code">http://&lt;server&gt;/is/content/myfolder/_CSS/_OOTB/CarouselDotsLeftButton_dark_sprite.png</span></li> 
+       <li>Example: <span class="code">https://&lt;server&gt;/is/content/myfolder/_CSS/_OOTB/CarouselDotsLeftButton_dark_sprite.png</span></li> 
       </ul> </li> 
     </ol> </td> 
    <td><p>If the sample assets or viewer preset artwork have not synced or published then restart the entire copy/sync process:</p> 

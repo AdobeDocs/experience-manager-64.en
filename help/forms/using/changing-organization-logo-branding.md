@@ -23,7 +23,7 @@ The organization logo is displayed at the upper-left corner of AEM Forms workspa
 
    >[!NOTE]
    >
-   >For more information about WebDAV access, see [http://dev.day.com/docs/en/crx/current/how_to/webdav_access.html](http://docs.adobe.com/docs/en/crx/current/how_to/webdav_access.html).
+   >For more information about WebDAV access, see [https://dev.day.com/docs/en/crx/current/how_to/webdav_access.html](https://docs.adobe.com/docs/en/crx/current/how_to/webdav_access.html).
 
 1. Reference the new logo image in style sheet at /apps/ws/css/newStyle.css by adding following style.
 

@@ -13,7 +13,7 @@ discoiquuid: fc403a60-b635-4334-9bf8-2f3d2036b2f3
 
 # Configuring Shared Queues{#configuring-shared-queues}
 
-Shared Queues allow you to configure and manage user queues effectively. A user queue is simply all tasks assigned to a user, see [To Do Lists](http://help.adobe.com/en_US/livecycle/11.0/WorkspaceHelp/WS92d06802c76abadb-2b6ab502126beb6ba2f-7ffc.2.html) for more information. You can assign, unassign, and reassign user queues depending on your organizational needs. You can manage Shared Queues in two ways:
+Shared Queues allow you to configure and manage user queues effectively. A user queue is simply all tasks assigned to a user, see [To Do Lists](https://help.adobe.com/en_US/livecycle/11.0/WorkspaceHelp/WS92d06802c76abadb-2b6ab502126beb6ba2f-7ffc.2.html) for more information. You can assign, unassign, and reassign user queues depending on your organizational needs. You can manage Shared Queues in two ways:
 
 **Manage Access To A User**
 

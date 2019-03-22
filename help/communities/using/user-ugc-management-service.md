@@ -66,5 +66,5 @@ For example, to delete the profile of a user having authorizable ID weston.mccal
 
 >[!NOTE]
 >
->deleteUserAccount() API only disables a user profile in the system and removes the UGC. However, to delete a user profile from the system, navigate to **CRXDE Lite**: [http://&lt;server&gt;/crx/de](http://localhost:4502/crx/de), locate the user node and delete it.
+>deleteUserAccount() API only disables a user profile in the system and removes the UGC. However, to delete a user profile from the system, navigate to **CRXDE Lite**: [https://&lt;server&gt;/crx/de](http://localhost:4502/crx/de), locate the user node and delete it.
 

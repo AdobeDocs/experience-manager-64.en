@@ -39,7 +39,7 @@ The following example points to the same content (using Content Root URI and Bas
 
 If the Forms web application and the client application are not deployed to the same application server, provide the URL for the Forms web application in this box, as shown in this example:
 
-`http://<host name>:<port>/FormServer`
+`https://<host name>:<port>/FormServer`
 
 Where `host name`and `port` are the server name and port number of the server that is hosting the Forms web application.
 

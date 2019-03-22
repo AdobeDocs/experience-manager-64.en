@@ -43,7 +43,7 @@ These can be used in many ways to extend the page authoring functionality in you
 >* [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) 
 >* [Structure of the AEM Touch-Enabled UI](../../../sites/developing/using/touch-ui-structure.md) for details of the structural areas used for page authoring.  
 >
->This topic is also covered in the [AEM Gems](http://docs.adobe.com/content/ddc/en/gems.html) session - [User interface customization for AEM 6.0](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-user-interface-customization-for-aem6.html).
+>This topic is also covered in the [AEM Gems](https://docs.adobe.com/content/ddc/en/gems.html) session - [User interface customization for AEM 6.0](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-user-interface-customization-for-aem6.html).
 
 >[!CAUTION]
 >
@@ -89,7 +89,7 @@ The asset browser shows assets of various types/categories (e.g. image, document
 
 ### Code Sample {#code-sample-1}
 
-`aem-authoring-extension-assetfinder-flickr` is a sample package showing how to add a new group to the asset finder. This example connects to [Flickr](http://www.flickr.com/)'s public stream and shows them in the sidepanel.
+`aem-authoring-extension-assetfinder-flickr` is a sample package showing how to add a new group to the asset finder. This example connects to [Flickr](https://www.flickr.com/)'s public stream and shows them in the sidepanel.
 
 CODE ON GITHUB
 

@@ -14,7 +14,7 @@ discoiquuid: ac9fe461-63e7-442b-bd1c-eb9576ef55aa
 
 # Understanding AEM Forms Processes{#understanding-aem-forms-processes}
 
-A common use case is for a set of AEM Forms services to operate on a single document. You can send a request to the service container by creating a process using Workbench. A process represents a business process that you are automating. For information about creating processes, see [Using Workbench](http://www.adobe.com/go/learn_aemforms_workbench_63).
+A common use case is for a set of AEM Forms services to operate on a single document. You can send a request to the service container by creating a process using Workbench. A process represents a business process that you are automating. For information about creating processes, see [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).
 
 Once a process is activated, it becomes a service and can be invoked like other services. One difference between a standard service, such as the Encryption service and a service that originated from a process, is that the latter has one operation that performs many actions. In contrast, an standard service has many operations. Each operation typically performs one action, such as applying a policy to a document or encrypting a document.
 
@@ -38,7 +38,7 @@ The following illustration is an example of a short-lived process named *MyAppli
 
 >[!NOTE]
 >
->This process is not based on an existing AEM Forms process. To follow along with the code examples that discuss how to invoke this process, create a process named `MyApplication/EncryptDocument` using Workbench. (See [Using Workbench](http://www.adobe.com/go/learn_aemforms_workbench_63).)
+>This process is not based on an existing AEM Forms process. To follow along with the code examples that discuss how to invoke this process, create a process named `MyApplication/EncryptDocument` using Workbench. (See [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).)
 
 When this short-lived process is invoked, it performs the following actions:
 
@@ -50,7 +50,7 @@ When this short-lived process is invoked, it performs the following actions:
 
    >[!NOTE]
    >
-   >Typically a short-lived process consists of more than three actions. You create a process using Workbench. (See [Using Workbench](http://www.adobe.com/go/learn_aemforms_workbench_63).)
+   >Typically a short-lived process consists of more than three actions. You create a process using Workbench. (See [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).)
 
    *Programming with AEM forms*describes the following ways in which you can programmatically invoke this short-lived process:
 
@@ -71,5 +71,5 @@ This process is invoked when an applicant submits a loan form. The process is no
 
 >[!NOTE]
 >
->This process can be created by following the tutorial specified in [Creating Your First AEM Forms Application](http://www.adobe.com/go/learn_aemforms_firstapp_ds_63).
+>This process can be created by following the tutorial specified in [Creating Your First AEM Forms Application](https://www.adobe.com/go/learn_aemforms_firstapp_ds_63).
 

@@ -19,7 +19,7 @@ One of their customers' auto insurance policy is expiring and they are sending h
 The portal runs on Adobe AEM. The web and print welcome channel output is created using the multi-channel capabilities of Adaptive Document.
 
 You will have an adaptive document similar to the following at the end of the tutorial:
-[ ![](assets/ad-1.png)](http://blogs.adobe.com/contentcorner/files/2017/07/PAF_Mobile.pdf) [ ![](assets/ad-2.png)](http://blogs.adobe.com/contentcorner/files/2017/07/PAF_Desktop.pdf)Creating your first adaptive document tutorial is categorized into steps. Each step is a complete article in itself.
+[ ![](assets/ad-1.png)](https://blogs.adobe.com/contentcorner/files/2017/07/PAF_Mobile.pdf) [ ![](assets/ad-2.png)](https://blogs.adobe.com/contentcorner/files/2017/07/PAF_Desktop.pdf)Creating your first adaptive document tutorial is categorized into steps. Each step is a complete article in itself.
 
 <table> 
  <tbody>
@@ -64,7 +64,9 @@ Goals:
 
 Customer Communications centralizes and manages the creation, assembly, and delivery of secure, personalized, and interactive correspondences such as business correspondence, letters, documents, statements, benefit notices, wealth management prospectus, marketing mails, bills, and welcome kits.
 
-Using adaptive documents, you can create customer communications that are engaging, responsive, dynamic, and adaptive in nature. AEM Forms provide a drag-and-drop WYSIWYG editor to create adaptive documents. For more information about adaptive documents, see [Introduction to authoring adaptive documents](/forms/using/introduction-ad-authoring.md).
+Using adaptive documents, you can create customer communications that are engaging, responsive, dynamic, and adaptive in nature. AEM Forms provide a drag-and-drop WYSIWYG editor to create adaptive documents. 
+
+<!--`For more information about adaptive documents, see [Introduction to authoring adaptive documents](/forms/using/introduction-ad-authoring.md).`-->
 
 Goals:
 
@@ -72,7 +74,7 @@ Goals:
 * Layout fields of an adaptive form to display information to the customer
 * Create rules to retrieve and display information from form data model to adaptive document.
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](create-ad.md) 
+<!--![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)-->
 
 ## Step 3: Apply rules to adaptive document fields (Web channel only) {#step-apply-rules-to-adaptive-document-fields-web-channel-only}
 

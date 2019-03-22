@@ -13,7 +13,7 @@ discoiquuid: adf3364c-11f1-45c6-b41d-2c7d48b626f9
 
 # Using Translator to Manage Dictionaries{#using-translator-to-manage-dictionaries}
 
-AEM provides a console for managing the various translations of texts used in component UI. This console is available at `http://<*hostname*>:<*port-number*>/libs/cq/i18n/translator.html`
+AEM provides a console for managing the various translations of texts used in component UI. This console is available at `https://<*hostname*>:<*port-number*>/libs/cq/i18n/translator.html`
 
 ` [http://localhost:4502/libs/cq/i18n/translator.html](http://localhost:4502/libs/cq/i18n/translator.html)`
 
@@ -77,7 +77,7 @@ Create a dictionary for managing your localized UI strings. After you create a d
 
    >[!NOTE]
    >
-   >This is the structure from the [Sling i18n module](http://sling.apache.org/site/internationalization-support.html).
+   >This is the structure from the [Sling i18n module](https://sling.apache.org/site/internationalization-support.html).
 
 1. Reload the translator and the dictionary path (e.g. `/apps/myProject/i18n`) will be available in the drop-down selector in the toolbar. Select this to start adding strings and their translations.
 
@@ -372,7 +372,7 @@ To change the default definitions:
    You can do this using the OSGi Web Console:
 
    ```shell
-   http://<hostname>:<port-number>/system/console/configMgr/com.day.cq.wcm.core.impl.LanguageManagerImpl 
+   https://<hostname>:<port-number>/system/console/configMgr/com.day.cq.wcm.core.impl.LanguageManagerImpl 
    ```
 
 ## Publishing Dictionaries {#publishing-dictionaries}

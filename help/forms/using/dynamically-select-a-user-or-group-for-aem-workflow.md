@@ -21,7 +21,7 @@ Assign task and Adobe Sign steps of [Forms-centric workflows on OSGi](../../form
 
 ECMAScript is a scripting language. It is used for client-side scripting and server applications. Perform the following steps to dynamically select a user or a group using ECMAScript:
 
-1. Open CRXDE Lite. The URL is http://[server]:[port]/crx/de/index.jsp
+1. Open CRXDE Lite. The URL is https://[server]:[port]/crx/de/index.jsp
 1. Create a file with extension .ecma at the following path. If the path (node structure) does not exist, create it:
 
     * (Path for Assign Task step) `/apps/fd/dashboard/scripts/participantChooser`
@@ -134,8 +134,8 @@ You require [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-form
 1. Open the pom.xml file for editing and replace all the contents of the file with the following:
 
    ```xml
-   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
        <modelVersion>4.0.0</modelVersion>
     
        <groupId>getAgent</groupId>
@@ -144,12 +144,12 @@ You require [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-form
        <packaging>bundle</packaging><!-- packaging type bundle is must -->
     
        <name>assignToAgent</name>
-       <url>http://maven.apache.org</url>
+       <url>https://maven.apache.org</url>
        <repositories>
            <repository>
                <id>adobe</id>
                <name>Adobe Public Repository</name>
-               <url>http://repo.adobe.com/nexus/content/groups/public/</url>
+               <url>https://repo.adobe.com/nexus/content/groups/public/</url>
                <layout>default</layout>
            </repository>
        </repositories>
@@ -157,7 +157,7 @@ You require [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-form
            <pluginRepository>
                <id>adobe</id>
                <name>Adobe Public Repository</name>
-               <url>http://repo.adobe.com/nexus/content/groups/public/</url>
+               <url>https://repo.adobe.com/nexus/content/groups/public/</url>
                <layout>default</layout>
            </pluginRepository>
        </pluginRepositories>

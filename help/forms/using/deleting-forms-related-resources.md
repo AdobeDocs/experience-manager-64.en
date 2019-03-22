@@ -18,7 +18,7 @@ If you delete an asset from the Author instance, the asset is also deleted from 
 
 ## How to delete a form {#how-to-delete-a-form}
 
-1. Log in to the AEM Forms user interface, by accessing `http://[hostname]:[portport]/aem/forms.html.`
+1. Log in to the AEM Forms user interface, by accessing `https://[hostname]:[portport]/aem/forms.html.`
 1. Navigate to and select the form you want to delete. Click Delete ![](assets/aem6forms_delete2.png) from the toolbar and confirm the delete operation.
 
    >[!NOTE]

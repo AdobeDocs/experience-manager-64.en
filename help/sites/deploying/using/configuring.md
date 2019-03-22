@@ -81,13 +81,13 @@ Operation is seamless as no special configuration is required, when needed you c
 This means that when an IP address needs to be specified you can select (as required) from:
 
 * an IPv6 address  
-  for example `http://[ab12::34c5:6d7:8e90:1234]:4502`  
+  for example `https://[ab12::34c5:6d7:8e90:1234]:4502`  
 
 * an IPv4 address  
-  for example `http://123.1.1.4:4502`  
+  for example `https://123.1.1.4:4502`  
 
 * a server name  
-  for example, `http://www.yourserver.com:4502`
+  for example, `https://www.yourserver.com:4502`
 
 * the default case of `localhost` will be interpreted for both IPv4 and IPv6 network installations  
   for example, `http://localhost:4502`
@@ -133,7 +133,7 @@ Resource mapping is used to define redirects, vanity URLs and virtual hosts for 
 For example, you can use these mappings to:
 
 * Prefix all requests with `/content` so that the internal structure is hidden from the visitors to your website.
-* Define a redirect so that all requests to the `/content/en/gateway` page of your website are redirected to `http://gbiv.com/`.
+* Define a redirect so that all requests to the `/content/en/gateway` page of your website are redirected to `https://gbiv.com/`.
 
 See [Resource Mapping](../../../sites/deploying/using/resource-mapping.md) for further details.
 
@@ -149,7 +149,7 @@ For further details see [Replication](../../../sites/deploying/using/replication
 
 ### OSGi Configuration Settings {#osgi-configuration-settings}
 
-[OSGi](http://www.osgi.org/) is a fundamental element in the technology stack of AEM. It is used to control the composite bundles of AEM and their configuration.
+[OSGi](https://www.osgi.org/) is a fundamental element in the technology stack of AEM. It is used to control the composite bundles of AEM and their configuration.
 
 See [OSGi configuration settings](../../../sites/deploying/using/osgi-configuration-settings.md) for a list of the various bundles that are relevant to project implementation (listed according to bundle). Not all the listed settings need adjusting, some are mentioned to help you understand how AEM operates.
 

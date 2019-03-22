@@ -18,7 +18,7 @@ At the AEM Foundation level, the Personal Data that is stored  is  the User Prof
 
 ### Manual Steps {#manual-steps}
 
-1. Open the User Administration console, by browsing to **Settings - Security - Users **or by browsing directly to *http://serveraddress:serverport/libs/granite/security/content/useradmin.html*
+1. Open the User Administration console, by browsing to **Settings - Security - Users **or by browsing directly to *https://serveraddress:serverport/libs/granite/security/content/useradmin.html*
 
    ![](assets/useradmin2.png)
 

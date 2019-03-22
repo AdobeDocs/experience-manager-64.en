@@ -86,7 +86,7 @@ Summary:
 There are three methods to access content in AEM WCM:
 
 * Via the properties object introduced in `global.jsp`:  
-  The properties object is an instance of a ValueMap (see [Sling API](http://sling.apache.org/apidocs/sling5/org/apache/sling/api/resource/ValueMap.html)) and contains all properties of the current resource.  
+  The properties object is an instance of a ValueMap (see [Sling API](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/resource/ValueMap.html)) and contains all properties of the current resource.  
   Example: `String pageTitle = properties.get("jcr:title", "no title");` used in the rendering script of a page component.  
   Example: `String paragraphTitle = properties.get("jcr:title", "no title");` used in the rendering script of a standard paragraph component.
 
@@ -95,7 +95,7 @@ There are three methods to access content in AEM WCM:
   Example: `String pageTitle = currentPage.getTitle();`
 
 * Via `currentNode` object introduced in `global.jsp`:  
-  The `currentNode` object is an instance of a node (see [JCR API](http://jackrabbit.apache.org/api/2.16/org/apache/jackrabbit/standalone/cli/core/CurrentNode.html)). The properties of a node can be accessed by the `getProperty()` method.  
+  The `currentNode` object is an instance of a node (see [JCR API](https://jackrabbit.apache.org/api/2.16/org/apache/jackrabbit/standalone/cli/core/CurrentNode.html)). The properties of a node can be accessed by the `getProperty()` method.  
   Example: `String pageTitle = currentNode.getProperty("jcr:title");`
 
 ## JSP Tag Libraries {#jsp-tag-libraries}

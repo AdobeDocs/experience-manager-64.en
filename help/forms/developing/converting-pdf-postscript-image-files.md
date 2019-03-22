@@ -22,7 +22,7 @@ You can accomplish these tasks using the Convert PDF service:
 * Convert PDF documents to PostScript. 
 * Convert PDF documents to image formats.
 
-  ***Note**: For more information about the Convert PDF service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).*
+  ***Note**: For more information about the Convert PDF service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).*
 
 ## Converting PDF Documents to PostScript {#converting-pdf-documents-to-postscript}
 
@@ -30,7 +30,7 @@ This topic describes how you can use the Convert PDF Service API (Java and web s
 
 >[!NOTE]
 >
->For more information about the Convert PDF service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Convert PDF service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -67,7 +67,7 @@ Likewise, if you select the `ExpandToFit` option (which expands the output of th
 
 >[!NOTE]
 >
->For information about the run-time values that you can set, see the `ToPSOptionsSpec` class reference in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+>For information about the run-time values that you can set, see the `ToPSOptionsSpec` class reference in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 **Convert the PDF document to a PostScript file**
 
@@ -110,7 +110,7 @@ Convert a PDF document to PostScript by using the Convert PDF Service API (Java)
 1. Set conversion run-time options.
 
     * Create a `ToPSOptionsSpec` object by invoking its constructor.
-    * Set run-time options by invoking an appropriate method that belongs to the `ToPSOptionsSpec` object. For example, to define the PostScript level that is created, invoke the `ToPSOptionsSpec` object’s `setPsLevel` method and pass a `PSLevel` enumeration value that specifies the PostScript level. For information about all run-time values that you can set, see the `ToPSOptionsSpec` class reference in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+    * Set run-time options by invoking an appropriate method that belongs to the `ToPSOptionsSpec` object. For example, to define the PostScript level that is created, invoke the `ToPSOptionsSpec` object’s `setPsLevel` method and pass a `PSLevel` enumeration value that specifies the PostScript level. For information about all run-time values that you can set, see the `ToPSOptionsSpec` class reference in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 1. Convert the PDF document to a PostScript file.
 
@@ -210,7 +210,7 @@ When converting a PDF document to an image, the Convert PDF service creates a se
 
 >[!NOTE]
 >
->For more information about the Convert PDF service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Convert PDF service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -237,7 +237,7 @@ You must retrieve the PDF document to convert to an image. You cannot convert an
 
 **Set run-time options**
 
-You must set run-time options such as the image format and the resolution values. For information about the run-time values, see the `ToImageOptionsSpec` class reference in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+You must set run-time options such as the image format and the resolution values. For information about the run-time values, see the `ToImageOptionsSpec` class reference in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 **Convert the PDF to an image **
 

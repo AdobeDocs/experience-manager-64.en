@@ -40,7 +40,7 @@ Likewise, if the user selects Canadian data, then the returned form contains a C
 
 >[!NOTE]
 >
->For information about creating form designs based on fragments, see [Forms Designer](http://www.adobe.com/go/learn_aemforms_designer_63).
+>For information about creating form designs based on fragments, see [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63).
 
 **Sample Files**
 
@@ -58,7 +58,7 @@ The XML data files used by the web application were moved from the Data folder t
 
 >[!NOTE]
 >
->For information about creating a Forms application using Workbench, see [workbench Help](http://www.adobe.com/go/learn_aemforms_workbench_63).
+>For information about creating a Forms application using Workbench, see [workbench Help](https://www.adobe.com/go/learn_aemforms_workbench_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -149,7 +149,7 @@ To render a form based on fragments using the Forms service API, perform the fol
 
     * A string value that specifies the form design name, including the file name extension.
     * A `com.adobe.idp.Document` object that contains data to merge with the form (created in step 2). 
-    * A `PDFFormRenderSpec` object that stores run-time options. For more information, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
+    * A `PDFFormRenderSpec` object that stores run-time options. For more information, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
     * A `URLSpec` object that contains URI values that are required by the Forms service to render a form based on fragments. 
     * A `java.util.HashMap` object that stores file attachments. This is an optional parameter and you can specify `null` if you do not want to attach files to the form.
 
@@ -218,7 +218,7 @@ The following code example represents the Java servlet that invokes the Forms se
          try{ 
              //Set connection properties required to invoke AEM Forms                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -257,9 +257,9 @@ The following code example represents the Java servlet that invokes the Forms se
              //Specify URI values that are required to render a form 
              //design based on fragments 
              URLSpec uriValues = new URLSpec();  
-             uriValues.setApplicationWebRoot("http://[server]:[port]/RenderFormFragment"); 
+             uriValues.setApplicationWebRoot("https://[server]:[port]/RenderFormFragment"); 
              uriValues.setContentRootURI("repository:///"); 
-             uriValues.setTargetURL("http://[server]:[port]/FormsServiceClientApp/HandleData"); 
+             uriValues.setTargetURL("https://[server]:[port]/FormsServiceClientApp/HandleData"); 
                       
              //Invoke the renderPDFForm method and write the  
              //results to a client web browser 
@@ -327,15 +327,15 @@ The Java servlet captures the data that is posted from the HTML page by using th
 The following HTML code is located in the index.html file that was created during setup of the development environment. (See [Creating a web project](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms creating-web-applications-renders-forms.md#creating_a_web_project).)
 
 ```as3
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
- <html xmlns="http://www.w3.org/1999/xhtml"> 
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ <html xmlns="https://www.w3.org/1999/xhtml"> 
  <head> 
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
  <title>Untitled Document</title> 
  </head> 
   
  <body> 
- <form name="myform" action="http://[server]:[port]/FragmentsWebApplication/RenderFormFragment" method="post"> 
+ <form name="myform" action="https://[server]:[port]/FragmentsWebApplication/RenderFormFragment" method="post"> 
       <table> 
       <tr> 
         <th width="344" scope="col">Forms Fragment Web Client</th> 

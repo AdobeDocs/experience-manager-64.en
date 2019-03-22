@@ -17,7 +17,7 @@ When you open a task in AEM Forms workspace, a Task Summary pane can display a s
 
 AEM Forms workspace allows you to display a web page of your choice in the Task Summary pane. A process can be created to display a Task Summary pane using Workbench.
 
-1. Create an Assign Task process in Workbench. For more details about Assign Task operation, see Service Reference topic in [Workbench Help](http://help.adobe.com/en_US/AEMForms/6.1/WorkbenchHelp/).
+1. Create an Assign Task process in Workbench. For more details about Assign Task operation, see Service Reference topic in [Workbench Help](https://help.adobe.com/en_US/AEMForms/6.1/WorkbenchHelp/).
 
    >[!NOTE]
    >
@@ -26,7 +26,7 @@ AEM Forms workspace allows you to display a web page of your choice in the Task 
 1. Configure the Task Summary URL field. You can specify a literal value, a template, a variable, or an XPath expression.
 1. An example of displaying the information on Task Summary page is below.
 
-    * Log in to CRXDE Lite environment at `http://[server]:[port]/lc/crx/de`.
+    * Log in to CRXDE Lite environment at `https://[server]:[port]/lc/crx/de`.
     * `Create a node`**SampleSummary** ` under `/content` with type `nt:unstructured`. In the properties of this node, add `sling:resourceType` of type String and value `SampleSummary`. In the Access Control List of this node, add an entry for `PERM_WORKSPACE_USER` allowing `jcr:read` privileges.`
     
     * `Create a folder`**SampleSummary** under `/apps`. In the Access Control List of `/apps/SampleSummary`, add an entry for `PERM_WORKSPACE_USER` allowing `jcr:readprivileges`.

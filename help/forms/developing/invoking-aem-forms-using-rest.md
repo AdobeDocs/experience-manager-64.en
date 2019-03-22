@@ -17,16 +17,16 @@ Processes created in Workbench can be configured so that you can invoke them thr
 
 Two types of HTML clients exist. The first HTML client is an AJAX client that is written in JavaScript. The second client is an HTML form that contains a submit button. An HTML-based client application is not the only possible REST client. Any client application that supports HTTP requests can invoke a service using a REST invocation. For example, you can invoke a service by using a REST invocation from a PDF form. (See [Invoking the MyApplication/EncryptDocument process from Acrobat](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ad5.2).)
 
-When using REST requests, it is recommended that you do not invoke Forms services directly. Instead, invoke processes that were created in Workbench. When creating a process that is meant for REST invocation, use a programmatic start point. In this situation, the REST endpoint is added automatically. For information about creating processes in Workbench, see [Using Workbench](http://www.adobe.com/go/learn_aemforms_workbench_63).
+When using REST requests, it is recommended that you do not invoke Forms services directly. Instead, invoke processes that were created in Workbench. When creating a process that is meant for REST invocation, use a programmatic start point. In this situation, the REST endpoint is added automatically. For information about creating processes in Workbench, see [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).
 
 When you invoke a service using REST, you are prompted for a AEM forms user name and password. However, if you do not want to specify a user name and password, you can disable service security. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks.md#disabling_service_security).)
 
-To invoke a Forms service (a process becomes a service when the process is activated) using REST, configure a REST endpoint. (See “Managing Endpoints” in [administration help](http://www.adobe.com/go/learn_aemforms_admin_63).)
+To invoke a Forms service (a process becomes a service when the process is activated) using REST, configure a REST endpoint. (See “Managing Endpoints” in [administration help](https://www.adobe.com/go/learn_aemforms_admin_63).)
 
 After a REST endpoint is configured, you can invoke a Forms service by using an HTTP GET method or a POST method.
 
 ```as3
- action="http://hiro-xp:8080/rest/services/[ServiceName]/[OperationName]:[ServiceVersion]" method="post" enctype="multipart/form-data"
+ action="https://hiro-xp:8080/rest/services/[ServiceName]/[OperationName]:[ServiceVersion]" method="post" enctype="multipart/form-data"
 ```
 
 The mandatory `ServiceName` value is the name of the Forms service to invoke. The optional `OperationName` value is the name of the service’s operation. If this value is not specified, this name defaults to `invoke`, which is the operation name that starts the process. The optional `ServiceVersion` value is the version encoded in the X.Y format. If this value is not specified, the most current version is used. The `enctype` value can also be `application/x-www-form-urlencoded`.
@@ -261,7 +261,7 @@ The following HTML example invokes an AEM Forms process named `SOAPEchoService` 
  <html> 
  <body> 
   
- <form name="input" action="http://hiro-xp:8080/rest/services/SOAPEchoService/echoEnum" method="post"> 
+ <form name="input" action="https://hiro-xp:8080/rest/services/SOAPEchoService/echoEnum" method="post"> 
   
  Color Enum Value: <input type="text" name="value-to-echo" value="green"> 
  <input type="submit" value="Submit"> 
@@ -278,7 +278,7 @@ You can invoke an AEM Forms short-lived process named *MyApplication/EncryptDocu
 
 >[!NOTE]
 >
->This process is not based on an existing AEM Forms process. To follow along with the code example, create a process named `MyApplication/EncryptDocument` using workbench. (See [Using Workbench](http://www.adobe.com/go/learn_aemforms_workbench_63).)
+>This process is not based on an existing AEM Forms process. To follow along with the code example, create a process named `MyApplication/EncryptDocument` using workbench. (See [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).)
 
 When this process is invoked, it performs the following actions:
 
@@ -290,7 +290,7 @@ When this process is invoked, it performs the following actions:
    ```as3
     <html> 
     <body> 
-    <form action="http://hiro-xp:8080/rest/services/MyApplication/EncryptDocument" method="post" enctype="multipart/form-data"> 
+    <form action="https://hiro-xp:8080/rest/services/MyApplication/EncryptDocument" method="post" enctype="multipart/form-data"> 
          <p>Chose a PDF file (.pdf) to send to the EncryptDocument process.</p> 
          <p>file: 
            <input type="file" name="inDoc" /> 
@@ -304,11 +304,11 @@ When this process is invoked, it performs the following actions:
 
 **Invoking the MyApplication/EncryptDocument process from Acrobat**
 
-You can invoke a Forms process from Acrobat by using a REST request. For example, you can invoke the *MyApplication/EncryptDocument* process. To invoke a Forms process from Acrobat, place a submit button on a XDP file within Designer. (See [Designer Help](http://www.adobe.com/go/learn_aemforms_designer_63).)
+You can invoke a Forms process from Acrobat by using a REST request. For example, you can invoke the *MyApplication/EncryptDocument* process. To invoke a Forms process from Acrobat, place a submit button on a XDP file within Designer. (See [Designer Help](https://www.adobe.com/go/learn_aemforms_designer_63).)
 
 Specify the URL to invoke the process within the button’s *Submit to URL* field, as shown in the following illustration.
 
-The complete URL to invoke the process is http://hiro-xp:8080/rest/services/MyApplication/EncryptDocument.
+The complete URL to invoke the process is https://hiro-xp:8080/rest/services/MyApplication/EncryptDocument.
 
 If the process requires a PDF document as an input value, ensure that you submit the form as PDF, as shown in the previous illustration. Also, to successfully invoke a process, the process must return a PDF document. Otherwise Acroabt cannot handle the return value and an error occurs. You do not have to specify the name of the input process variable. For example, the* MyApplication/EncryptDocument* process has an input variable named `inDoc`. You do not have to specify inDoc, as long as the form is submited as PDF.
 

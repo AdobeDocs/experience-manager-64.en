@@ -13,7 +13,7 @@ discoiquuid: 8ae7ccec-489b-4d20-ac56-6101402fb18a
 
 # Integrating Landing Pages with Adobe Analytics{#integrating-landing-pages-with-adobe-analytics}
 
-AEM has integrated the landing pages solution with [Adobe Analytics](http://www.omniture.com/en/products/analytics/sitecatalyst) by using the following call-to-action (CTA) components:
+AEM has integrated the landing pages solution with [Adobe Analytics](https://www.omniture.com/en/products/analytics/sitecatalyst) by using the following call-to-action (CTA) components:
 
 1. Click Through Component
 1. Graphical Link Component

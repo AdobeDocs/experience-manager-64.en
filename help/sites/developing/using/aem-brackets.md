@@ -15,7 +15,7 @@ discoiquuid: 8231a30a-dcb7-4156-bb45-c5a23e5b56ef
 
 ## Overview {#overview}
 
-The AEM Brackets Extension provides a smooth workflow to edit AEM components and client libraries, and leverages the power of the [Brackets](http://brackets.io/) code editor, which gives access from within the code editor to Photoshop files and layers. The easy synchronization provided by the extension (no Maven or File Vault required) increases developer efficiency and also helps front-end developers with limited AEM knowledge to participate on projects. This extension also provides some support for the [HTML Template Language (HTL)](https://helpx.adobe.com/experience-manager/htl/user-guide.html), which takes away the complexity of JSP to make component development easier and more secure.
+The AEM Brackets Extension provides a smooth workflow to edit AEM components and client libraries, and leverages the power of the [Brackets](https://brackets.io/) code editor, which gives access from within the code editor to Photoshop files and layers. The easy synchronization provided by the extension (no Maven or File Vault required) increases developer efficiency and also helps front-end developers with limited AEM knowledge to participate on projects. This extension also provides some support for the [HTML Template Language (HTL)](https://helpx.adobe.com/experience-manager/htl/user-guide.html), which takes away the complexity of JSP to make component development easier and more secure.
 
 ![](assets/chlimage_1-53.png) 
 
@@ -41,7 +41,7 @@ Additionally, Brackets comes with many useful features for AEM font-end develope
 
 The AEM Brackets Extension supports Brackets version 1.0 or greater.
 
-Download the latest Brackets version from [brackets.io](http://brackets.io/).
+Download the latest Brackets version from [brackets.io](https://brackets.io/).
 
 ### The Extension {#the-extension}
 
@@ -65,7 +65,7 @@ The project has to contain at least:
 
 1. a `jcr_root` folder (e.g. `myproject/jcr_root`)
 
-1. a `filter.xml` file (e.g. `myproject/META-INF/vault/filter.xml`); for more details about the structure of the `filter.xml` file please see the [Workspace Filter definition](http://jackrabbit.apache.org/filevault/filter.html).
+1. a `filter.xml` file (e.g. `myproject/META-INF/vault/filter.xml`); for more details about the structure of the `filter.xml` file please see the [Workspace Filter definition](https://jackrabbit.apache.org/filevault/filter.html).
 
 In Brackets' **File** menu, choose **Open Folder…** and pick either the `jcr_root` folder, or the parent project folder.
 
@@ -149,7 +149,7 @@ Within an expression `${}`, common variable names are auto-completed.
 The AEM Brackets Extension is an open-source project, hosted on GitHub by the [Adobe Marketing Cloud](https://github.com/Adobe-Marketing-Cloud) organization, under the Apache License, version 2.0:
 
 * Code repository: [https://github.com/Adobe-Marketing-Cloud/aem-sightly-brackets-extension](https://github.com/Adobe-Marketing-Cloud/aem-sightly-brackets-extension)
-* Apache License, version 2.0: [http://www.apache.org/licenses/LICENSE-2.0.html](http://www.apache.org/licenses/LICENSE-2.0.html)
+* Apache License, version 2.0: [https://www.apache.org/licenses/LICENSE-2.0.html](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 The Brackets code editor is also an open-source project, hosted on GitHub by the [Adobe Systems Incorporated](https://github.com/adobe) organization:
 

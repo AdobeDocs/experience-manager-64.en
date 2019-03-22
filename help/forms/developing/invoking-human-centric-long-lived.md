@@ -19,7 +19,7 @@ You can programmatically invoke human-centric long-lived processes that were cre
 * An ASP.NET application that uses web services. (See [Invoking AEM Forms Using Web Services](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_web_services).)
 * A client application built with Flex that uses Remoting. (See [Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](/programming-with-aem-forms/invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting).)
 
-The long-lived process that is invoked is named *FirstAppSolution/PreLoanProcess*. You can create this process by following the tutorial specified in [Creating Your First AEM Forms Application](http://www.adobe.com/go/learn_aemforms_firstapp_ds_63).
+The long-lived process that is invoked is named *FirstAppSolution/PreLoanProcess*. You can create this process by following the tutorial specified in [Creating Your First AEM Forms Application](https://www.adobe.com/go/learn_aemforms_firstapp_ds_63).
 
 A human-centric process involves a task that a user can respond to by using Workspace. For example, using Workbench, you can create a process that lets a bank manager approve or deny a loan application. The following illustration shows the process *FirstAppSolution/PreLoanProcess*.
 
@@ -366,7 +366,7 @@ The Java servlet captures the data that is posted from the HTML page by using th
 The following HTML code represents the index.html file that was created during setup of the development environment. (See [Create a web project](invoking-human-centric-long-lived.md#create_a_web_project).)
 
 ```as3
- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"> 
  <html> 
  <head> 
  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
@@ -384,7 +384,7 @@ The following HTML code represents the index.html file that was created during s
           
      </TBODY> 
  </TABLE> 
-     <FORM action="http://hiro-xp:8080/PreLoanProcess/SubmitXML" method="post"> 
+     <FORM action="https://hiro-xp:8080/PreLoanProcess/SubmitXML" method="post"> 
         <table> 
           <TBODY> 
                 <TR> 
@@ -488,7 +488,7 @@ Notice under Service References, there are two items. The first item is named* J
 1. In the **Address** dialog box, specify the WSDL to the Job Manager service.
 
    ```as3
-    http://hiro-xp:8080/soap/services/JobManager?WSDL&lc_version=9.0.1
+    https://hiro-xp:8080/soap/services/JobManager?WSDL&lc_version=9.0.1
    ```
 
 1. In the Namespace field, type `JobManager`.
@@ -497,7 +497,7 @@ Notice under Service References, there are two items. The first item is named* J
 1. In the **Address** dialog box, specify the WSDL to the FirstAppSolution/PreLoanProcess process.
 
    ```as3
-    http://hiro-xp:8080/soap/services/FirstAppSolution/PreLoanProcess?WSDL&lc_version=9.0.1
+    https://hiro-xp:8080/soap/services/FirstAppSolution/PreLoanProcess?WSDL&lc_version=9.0.1
    ```
 
 1. In the Namespace field, type `PreLoanProcess`. 
@@ -573,7 +573,7 @@ To create an ASP page that invokes the `FirstAppSolution/PreLoanProcess` process
 1. Create a `FirstAppSolution_PreLoanProcessClient.Endpoint.Address` object by using the `System.ServiceModel.EndpointAddress` constructor. Pass a string value that specifies the WSDL to the AEM Forms service and the encoding type:
 
    ```as3
-    http://hiro-xp:8080/soap/services/FirstAppSolution/PreLoanProcess?blob=mtom
+    https://hiro-xp:8080/soap/services/FirstAppSolution/PreLoanProcess?blob=mtom
    ```
 
    You do not need to use the `lc_version` attribute. This attribute is used when you create a service reference. However, ensure that you specify `?blob=mtom`.
@@ -610,7 +610,7 @@ To create an ASP page that invokes the `FirstAppSolution/PreLoanProcess` process
 1. Convert the `System.Xml.XmlDocument` instance to `InvokePreLoanProcess.PreLoanProcess.XML` (this application logic is shown in the following code example).
 1. Invoke the `FirstAppSolution/PreLoanProcess` process by invoking the `FirstAppSolution_PreLoanProcessClient` object’s `invoke_Async` method. This method returns a string value that represents the invocation identifier value of the long-lived process.
 1. Create a `JobManagerClient` by using is constructor. (Ensure that you have set a service reference to the Job Manager service.)
-1. Repeat steps 1-5. Specify the following URL for step 2: `http://hiro-xp:8080/soap/services/JobManager?blob=mtom`.
+1. Repeat steps 1-5. Specify the following URL for step 2: `https://hiro-xp:8080/soap/services/JobManager?blob=mtom`.
 1. Create a `JobId` object by using its constructor.
 1. Set the `JobId` object's `id` data member with the return value of the `FirstAppSolution_PreLoanProcessClient` object’s `invoke_Async` method.
 1. Assign the `value` true to the `JobId` object's `persistent` data member.
@@ -664,7 +664,7 @@ The following C# code example invokes the `FirstAppSolution/PreLoanProcess`proce
             { 
                 //Create a FirstAppSolution_PreLoanProcessClient object 
                 FirstAppSolution_PreLoanProcessClient mortgageClient = new FirstAppSolution_PreLoanProcessClient(); 
-                mortgageClient.Endpoint.Address = new System.ServiceModel.EndpointAddress("http://hiro-xp:8080/soap/services/FirstAppSolution/PreLoanProcess?blob=mtom"); 
+                mortgageClient.Endpoint.Address = new System.ServiceModel.EndpointAddress("https://hiro-xp:8080/soap/services/FirstAppSolution/PreLoanProcess?blob=mtom"); 
   
                 //Enable BASIC HTTP authentication 
                 BasicHttpBinding b = (BasicHttpBinding)mortgageClient.Endpoint.Binding; 
@@ -697,7 +697,7 @@ The following C# code example invokes the `FirstAppSolution/PreLoanProcess`proce
   
                 //Create a JobManagerClient object to obtain the status of the long-lived operation 
                 JobManagerClient jobManager = new JobManagerClient(); 
-                jobManager.Endpoint.Address = new System.ServiceModel.EndpointAddress("http://hiro-xp:8080/soap/services/JobManager?blob=mtom"); 
+                jobManager.Endpoint.Address = new System.ServiceModel.EndpointAddress("https://hiro-xp:8080/soap/services/JobManager?blob=mtom"); 
   
                 //Enable BASIC HTTP authentication 
                 BasicHttpBinding b1 = (BasicHttpBinding)jobManager.Endpoint.Binding; 
@@ -897,7 +897,7 @@ The following Flex code example invokes the `FirstAppSolution/PreLoanProcess` pr
              private function initializeChannelSet():void  
               { 
               var cs:ChannelSet= new ChannelSet();  
-         cs.addChannel(new AMFChannel("remoting-amf", "http://hiro-xp:8080/remoting/messagebroker/amf"));  
+         cs.addChannel(new AMFChannel("remoting-amf", "https://hiro-xp:8080/remoting/messagebroker/amf"));  
          LC_MortgageApp.setCredentials("tblue", "password"); 
          LC_MortgageApp.channelSet = cs; 
               } 

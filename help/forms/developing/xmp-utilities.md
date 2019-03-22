@@ -26,7 +26,7 @@ You can accomplish these tasks using the XMP Utilities service:
 
 >[!NOTE]
 >
->For more information about the XMP Utilities service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the XMP Utilities service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Importing Metadata into PDF Documents {#importing-metadata-into-pdf-documents}
 
@@ -34,7 +34,7 @@ You can use the XMP Utilities Java and web service APIs to programmatically impo
 
 ![](assets/ww_ww_metadatadialog.png)
 
-To programmatically import metadata into a PDF document, you can use an existing XML document that specifies the metadata values or you can use an object of type `XMPUtilityMetadata`. (See [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).)
+To programmatically import metadata into a PDF document, you can use an existing XML document that specifies the metadata values or you can use an object of type `XMPUtilityMetadata`. (See [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).)
 
 >[!NOTE]
 >
@@ -45,21 +45,21 @@ The following XML code contains metadata values that correspond to the previous 
 ```as3
  <?xpacket begin="?" id="W5M0MpCehiHzreSzNTczkc9d"?> 
  <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2-jc015 52.349034, 2008 Jun 20 00:30:39-PDT (debug)"> 
-       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> 
+       <rdf:RDF xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#"> 
           <rdf:Description rdf:about="" 
-                xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
+                xmlns:xmp="https://ns.adobe.com/xap/1.0/"> 
              <xmp:MetadataDate>2008-10-22T10:52:21-04:00</xmp:MetadataDate> 
              <xmp:CreatorTool>AEM Forms</xmp:CreatorTool> 
              <xmp:ModifyDate>2008-10-22T10:52:21-04:00</xmp:ModifyDate> 
              <xmp:CreateDate>2008-02-13T11:00:18-05:00</xmp:CreateDate> 
           </rdf:Description> 
           <rdf:Description rdf:about="" 
-                xmlns:pdf="http://ns.adobe.com/pdf/1.3/"> 
+                xmlns:pdf="https://ns.adobe.com/pdf/1.3/"> 
              <pdf:Producer>AEM Forms</pdf:Producer> 
              <pdf:Keywords>keyword1, keyword2, keyword3,keyword4</pdf:Keywords> 
           </rdf:Description> 
           <rdf:Description rdf:about="" 
-                xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
+                xmlns:xmpMM="https://ns.adobe.com/xap/1.0/mm/"> 
              <xmpMM:DocumentID>uuid:1cce1f84-331e-4d8d-8538-15441c271dd7</xmpMM:DocumentID> 
              <xmpMM:InstanceID>uuid:cdda0ca6-7c91-4771-9dc9-796c8fe59350</xmpMM:InstanceID> 
           </rdf:Description> 
@@ -91,7 +91,7 @@ The following XML code contains metadata values that correspond to the previous 
              </dc:subject> 
           </rdf:Description> 
           <rdf:Description rdf:about="" 
-                xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/"> 
+                xmlns:desc="https://ns.adobe.com/xfa/promoted-desc/"> 
              <desc:version rdf:parseType="Resource"> 
                 <rdf:value>1.0</rdf:value> 
                 <desc:ref>/template/subform[1]</desc:ref> 
@@ -107,7 +107,7 @@ The following XML code contains metadata values that correspond to the previous 
 
 >[!NOTE]
 >
->For more information about the XMP Utilities service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the XMP Utilities service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -224,7 +224,7 @@ You can use the XMP Utilities Java and web service APIs to programmatically retr
 
 >[!NOTE]
 >
->For more information about the XMP Utilities service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the XMP Utilities service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 

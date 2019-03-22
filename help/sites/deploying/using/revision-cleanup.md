@@ -29,7 +29,7 @@ For more details regarding Revision Cleanup, see the following links:
 * [Online Revision Cleanup Frequently Asked Questions](../../../sites/deploying/using/revision-cleanup.md#online-revision-cleanup-frequently-asked-questions)
 * [How to Run Offline Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md#how-to-run-offline-revision-cleanup)
 
-Additionally, you can also read the [official Oak documentation.](http://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html)
+Additionally, you can also read the [official Oak documentation.](https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html)
 
 ### When to use Online Revision Cleanup as opposed to Offline Revision Cleanup? {#when-to-use-online-revision-cleanup-as-opposed-to-offline-revision-cleanup}
 
@@ -39,7 +39,7 @@ Additionally, you can also read the [official Oak documentation.](http://jackrab
 
 Online Revision Cleanup is configured by default to automatically run once a day on both AEM Author and Publish instances. All you need to do is define the maintenance window during a period with the least user activity. You can configure the Online Revision Cleanup task as follows:
 
-1. In the main AEM window, go to **Tools - Operations - Dashboard - Maintenance** or point your browser to: http://serveraddress:serverport/libs/granite/operations/content/maintenance.html
+1. In the main AEM window, go to **Tools - Operations - Dashboard - Maintenance** or point your browser to: https://serveraddress:serverport/libs/granite/operations/content/maintenance.html
 
    ![](assets/chlimage_1-90.png)
 
@@ -53,7 +53,7 @@ Online Revision Cleanup is configured by default to automatically run once a day
 
 Alternatively, if you want to run the revision cleanup task manually, you can:
 
-1. Go to **Tools - Operations - Dashboard - Maintenance** or browse directly to http://serveraddress:serverport/libs/granite/operations/content/maintenance.html
+1. Go to **Tools - Operations - Dashboard - Maintenance** or browse directly to https://serveraddress:serverport/libs/granite/operations/content/maintenance.html
 1. Click the **Daily Maintenance Window**.
 1. Hover over the **Revision Cleanup** icon.
 1. Click **Run**.
@@ -327,7 +327,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>What happens in case of too much interference from concurrent writes to the repository?</strong></td> 
-   <td><p>If there's write concurrency on the system, online revision cleanup might require exclusive write access to be able to commit the changes at the end of a compaction cycle. The system will go into <strong>forceCompact mode</strong>, as explained in more detail in the <a href="http://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html" target="_blank">oak documentation</a>. During force compact, an exclusive write lock is acquired in order to finally commit the changes without any concurrent writes interfering. To limit the impact on response times a time out value can be defined. This value is set to 1 minute by default, which means that if force compact does not complete within 1 minute the compaction process will be aborted in favour of concurrent commits.</p> <p>The duration of force compact depends on the following factors:</p> 
+   <td><p>If there's write concurrency on the system, online revision cleanup might require exclusive write access to be able to commit the changes at the end of a compaction cycle. The system will go into <strong>forceCompact mode</strong>, as explained in more detail in the <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html" target="_blank">oak documentation</a>. During force compact, an exclusive write lock is acquired in order to finally commit the changes without any concurrent writes interfering. To limit the impact on response times a time out value can be defined. This value is set to 1 minute by default, which means that if force compact does not complete within 1 minute the compaction process will be aborted in favour of concurrent commits.</p> <p>The duration of force compact depends on the following factors:</p> 
     <ul> 
      <li>hardware: specifically IOPS. The duration decreases with more IOPS.</li> 
      <li>segment store size: duration increases with the size of the segment store.</li> 
@@ -380,7 +380,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>Where can we find the statistics of the last Online Revision Cleanup executions ?</strong></td> 
-   <td><p>Status, progress and statistics are exposed via JMX (<span class="code">SegmentRevisionGarbageCollection</span> MBean). For more details about the <span class="code">SegmentRevisionGarbageCollection</span> MBean, read the <a href="http://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">following paragraph</a>.</p> <p>Progress can be tracked via the <span class="code">EstimatedRevisionGCCompletion</span> attribute of the <span class="code">SegmentRevisionGarbageCollection MBean.</span></p> <p>You can obtain a reference of the MBean using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are only available since the last system start. External monitoring tooling could be leveraged to keep the data beyond AEM uptime. See <a href="../../../sites/administering/using/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> </td> 
+   <td><p>Status, progress and statistics are exposed via JMX (<span class="code">SegmentRevisionGarbageCollection</span> MBean). For more details about the <span class="code">SegmentRevisionGarbageCollection</span> MBean, read the <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">following paragraph</a>.</p> <p>Progress can be tracked via the <span class="code">EstimatedRevisionGCCompletion</span> attribute of the <span class="code">SegmentRevisionGarbageCollection MBean.</span></p> <p>You can obtain a reference of the MBean using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are only available since the last system start. External monitoring tooling could be leveraged to keep the data beyond AEM uptime. See <a href="../../../sites/administering/using/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -428,7 +428,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><p><strong>How to monitor Automatic Cleanup on a standby instance?</strong></p> </td> 
-   <td><p>Status, progress and statistics are exposed via JMX by using the <span class="code">SegmentRevisionGarbageCollection</span> MBean. See also the following <a href="http://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">Oak documentation</a>. </p> <p>You can obtain a reference of the MBean by using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are available only since the last system start. External monitoring tooling could be leveraged to keep the data beyond the AEM uptime. Also, see See <a href="../../../sites/administering/using/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> <p>The log files can also be used to check the status, progress and statistics of the Automatic Cleanup.</p> </td> 
+   <td><p>Status, progress and statistics are exposed via JMX by using the <span class="code">SegmentRevisionGarbageCollection</span> MBean. See also the following <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">Oak documentation</a>. </p> <p>You can obtain a reference of the MBean by using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are available only since the last system start. External monitoring tooling could be leveraged to keep the data beyond the AEM uptime. Also, see See <a href="../../../sites/administering/using/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> <p>The log files can also be used to check the status, progress and statistics of the Automatic Cleanup.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -465,7 +465,7 @@ In some cases, alternating between the tail and full compaction modes delays the
      <li>First, check the log entries<br /> </li> 
      <li>Depending on the information in the logs, take appropriate action: 
       <ul> 
-       <li>If the logs show five missed compact cycles and a timeout on the <span class="code">forceCompact</span> cycle, schedule the maintenance window to a quiet time when the amount of repository writes is low. You can check repository writes in the repositoy metrics monitoring tool located at <em>http://serveraddress:serverport/libs/granite/operations/content/monitoring/page.html</em></li> 
+       <li>If the logs show five missed compact cycles and a timeout on the <span class="code">forceCompact</span> cycle, schedule the maintenance window to a quiet time when the amount of repository writes is low. You can check repository writes in the repositoy metrics monitoring tool located at <em>https://serveraddress:serverport/libs/granite/operations/content/monitoring/page.html</em></li> 
        <li>If the cleanup stopped at the end of the maintenance window, make sure the configuration of the maintenance window in the Maintenance Tasks user interface is big enough</li> 
        <li>If available heap memory is not sufficient, make sure instance has enough memory.</li> 
        <li>In case of a late reaction, the segmentstore might grow too much for Online Revision Cleanup to complete even within a longer maintenance window. For example, if there was no successful Online Revision Cleanup completed in the last week then it is recommended to plan an offline maintenance and to execute Offline Revision Cleanup in order to bring the segmenstore back to a manageable size.</li> 
@@ -507,7 +507,7 @@ The error.log will be verbose if there are incidents during the online revision 
 |   |TarMK GC #2: estimation interrupted: ${REASON}. Skipping compaction. |The estimation phase terminated prematurely. Some examples of events that could interrupt the estimation phase: not enough memory or disk space on the host system. |Depends on the given reason. |
 | Compaction |TarMK GC #2: compaction paused |As long as the compaction phase is paused by configuration, neither the estimation phase nor the compaction phase will be executed. |Enable online revision cleanup. |
 |   |TarMK GC #2: compaction cancelled: ${REASON}. |The compaction phase terminated prematurely. Some examples of events that could interrupt the compaction phase: not enough memory or disk space on the host system. Moreover, compaction can also be cancelled by shutting down the system or by explicitly cancelling it via administrative interfaces such as the Maintenance Window within the Operations Dashobard. |Depends on the given reason. |
-|   |TarMK GC #2: compaction failed in 32.902 min (1974140 ms), after 5 cycles |This message doesn’t mean that there was an unrecoverable error, but only that compaction was terminated after a certain amount of attempts. Also, read the [following paragraph](http://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#how-does-compaction-works-with-concurrent-writes). |Read the following [Oak documentation](http://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#how-does-compaction-works-with-concurrent-writes), and the last question of the [Running Online Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md#running-online-revision-cleanup) section. |
+|   |TarMK GC #2: compaction failed in 32.902 min (1974140 ms), after 5 cycles |This message doesn’t mean that there was an unrecoverable error, but only that compaction was terminated after a certain amount of attempts. Also, read the [following paragraph](https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#how-does-compaction-works-with-concurrent-writes). |Read the following [Oak documentation](https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#how-does-compaction-works-with-concurrent-writes), and the last question of the [Running Online Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md#running-online-revision-cleanup) section. |
 | Cleanup |TarMK GC #2: cleanup interrupted |Cleanup has been cancelled by shutting down the repository. No impact on consistency is expected. Also, disk space is most likely not reclaimed to full extent. It will be reclaimed during next revision cleanup cycle. |Investigate why repository has been shut down and going forward try to avoid shutting down the repository during maintenance windows. |
 
 ## How to Run Offline Revision Cleanup {#how-to-run-offline-revision-cleanup}
@@ -603,7 +603,7 @@ In addition to the methods presented above, you can also trigger the revision cl
    <td><strong>What is the difference between a revision and a page version?</strong></td> 
    <td> 
     <ul> 
-     <li><strong>Oak revision:</strong> Oak organizes all the content in a large tree hierarchy that consists of nodes and properties. Each snapshot or revision of this content tree is immutable, and changes to the tree are expressed as a sequence of new revisions. Typically, each content modification triggers a new revision. See also <a href="http://jackrabbit.apache.org/dev/ngp.html" target="_blank" title="Follow link">http://jackrabbit.apache.org/dev/ngp.html</a>.</li> 
+     <li><strong>Oak revision:</strong> Oak organizes all the content in a large tree hierarchy that consists of nodes and properties. Each snapshot or revision of this content tree is immutable, and changes to the tree are expressed as a sequence of new revisions. Typically, each content modification triggers a new revision. See also <a href="https://jackrabbit.apache.org/dev/ngp.html" target="_blank" title="Follow link">https://jackrabbit.apache.org/dev/ngp.html</a>.</li> 
      <li><strong>Page Version:</strong> Versioning creates a "snapshot" of a page at a specific point in time. Typically, a new version is created when a page is activated. For more information, see <a href="../../../sites/authoring/using/working-with-page-versions.md" target="_blank">Working with Page Versions</a>.</li> 
     </ul> </td> 
   </tr> 

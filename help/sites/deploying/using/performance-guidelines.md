@@ -311,7 +311,7 @@ For further details on the available configuration options, see [Configuring Nod
 
 >[!NOTE]
 >
->Adobe recommends to choose the option of deploying AEM on Azure or Amazon Web Services (AWS) using Adobe Managed Services, where customers will benefit from a team who has the experience and the skills of deploying and operating AEM in these cloud computing environments. Please see our [additional documentation on Adobe Managed Services](http://www.adobe.com/marketing-cloud/enterprise-content-management/managed-services-cloud-platform.html?aemClk=t).
+>Adobe recommends to choose the option of deploying AEM on Azure or Amazon Web Services (AWS) using Adobe Managed Services, where customers will benefit from a team who has the experience and the skills of deploying and operating AEM in these cloud computing environments. Please see our [additional documentation on Adobe Managed Services](https://www.adobe.com/marketing-cloud/enterprise-content-management/managed-services-cloud-platform.html?aemClk=t).
 >
 >For recommendations on how to deploy AEM on Azure or AWS, outside of Adobe Managed Services, we strongly recommend working directly with the cloud provider or one of our partners supporting the deployment of AEM in the cloud environment of your choice. The selected cloud provider or partner is responsible for the sizing specifications, design and implementation of the architecture they will support to meet your specific performance, load, scalability, and security requirements.
 >
@@ -456,7 +456,7 @@ For good performance, you should follow the settings guidelines presented below.
    <td>Lucene index configuration</td> 
    <td><p><span class="code">CopyOnRead</span></p> <p><span class="code">CopyOnWrite</span></p> <p><span class="code">Prefetch Index Files</span></p> </td> 
    <td><p>Enabled</p> <p>Enabled</p> <p>Enabled</p> </td> 
-   <td>For more details on the available parameters, see <a href="http://jackrabbit.apache.org/oak/docs/query/lucene.html">this page</a>.</td> 
+   <td>For more details on the available parameters, see <a href="https://jackrabbit.apache.org/oak/docs/query/lucene.html">this page</a>.</td> 
   </tr> 
   <tr> 
    <td>Data Store = S3 Datastore</td> 
@@ -566,7 +566,7 @@ For good performance, you should follow the settings guidelines presented below.
    <td>Lucene index configuration</td> 
    <td><p><span class="code">CopyOnRead</span></p> <p><span class="code">CopyOnWrite</span></p> <p><span class="code">Prefetch Index Files</span></p> </td> 
    <td><p>Enabled</p> <p>Enabled</p> <p>Enabled</p> </td> 
-   <td>For more details on available parameters, see <a href="http://jackrabbit.apache.org/oak/docs/query/lucene.html">this page</a>.</td> 
+   <td>For more details on available parameters, see <a href="https://jackrabbit.apache.org/oak/docs/query/lucene.html">this page</a>.</td> 
   </tr> 
   <tr> 
    <td>Data Store = S3 Datastore</td> 

@@ -72,7 +72,7 @@ The following guidelines will help experienced AEM developers for sites, who wan
 
 * The time it takes to get your content onto the glass of the device will be slowed down by every library your article(s) depend upon. This slowdown is compounded when a new webview is used to render every article, so each library must be initialized again from scratch
 * If your articles are not built as SPAs (single page apps), you probably do not need to include a full stack library like Angular
-* Prefer smaller, single purpose libraries to help add the interactivity your page requires, such as [Fastclick](https://github.com/ftlabs/fastclick) or [Velocity.js](http://velocityjs.org)
+* Prefer smaller, single purpose libraries to help add the interactivity your page requires, such as [Fastclick](https://github.com/ftlabs/fastclick) or [Velocity.js](https://velocityjs.org)
 
 **Minimize size of article payload**
 

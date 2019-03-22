@@ -27,4 +27,4 @@ When listening for events in the repository, it is important to narrow the scope
 
 ## Eliminate use of JCR admin access {#eliminate-use-of-jcr-admin-access}
 
-As of AEM 6, login Administrative has been deprecated as has getting an administrative session from the ResourceResolverFactory. Rather, service accounts should be created for the back office operations that would require this type of access and the ResourceResolverFactory can be used to get a ResourceResolver for this account. For more information, see [http://www.wemblog.com/2014/08/how-to-use-sessions-and-resource.html](http://www.wemblog.com/2014/08/how-to-use-sessions-and-resource.html).
+As of AEM 6, login Administrative has been deprecated as has getting an administrative session from the ResourceResolverFactory. Rather, service accounts should be created for the back office operations that would require this type of access and the ResourceResolverFactory can be used to get a ResourceResolver for this account. For more information, see [https://www.wemblog.com/2014/08/how-to-use-sessions-and-resource.html](https://www.wemblog.com/2014/08/how-to-use-sessions-and-resource.html).

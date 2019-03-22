@@ -28,7 +28,7 @@ If you are using IPv6, enter the Base URL as the computer name or the DNS name. 
 
 **Default Offline Lease Period:** The default length of time that a user can use a protected document offline. This setting determines the initial value of the Auto-Offline lease period setting when you create a policy. (See Creating and editing policies.) When the lease period expires, the recipient must synchronize the document again to continue using it.
 
-For a discussion of how offline lease and synchronization works, see [Primer on configuring offline lease and synchronization](http://blogs.adobe.com/security/2009/05/primer_on_configuring_offline.html).
+For a discussion of how offline lease and synchronization works, see [Primer on configuring offline lease and synchronization](https://blogs.adobe.com/security/2009/05/primer_on_configuring_offline.html).
 
 **Default Offline Synchronization Period:** The maximum time any document can be used offline from when it is initially protected.
 
@@ -547,7 +547,7 @@ Document security automatically generates a registration invitation email when t
 
 The registration email contains a link to a Registration page and information about how to register. After the invited user registers, document security issues an activation email with a link to an Activation page. When activated, the account remains valid until you deactivate or delete it.
 
-If you enable built-in registration, you specify your SMTP server, registration email details, access capabilities, and reset password email information only once. Before you enable built-in registration, ensure that you have created a local domain in User Management have assigned the “Document security Invite User” role to the appropriate users and groups in your organization. (See [Add a local domain](../../../forms/using/admin-help/adding-domains.md#add-a-local-domain) and [Creating and configuring roles](../../../forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).) If you do not use built-in registration, you must have your own user registration system created using the AEM forms SDK. See the help on “Developing SPIs for AEM forms” in [Programming with AEM forms](http://www.adobe.com/go/learn_aemforms_programming_63). If you do not use the Built-in Registration option, it is recommended that you configure a message in the activation email and on the client login screen to notify users about how to contact the administrator for a new password or for other information.
+If you enable built-in registration, you specify your SMTP server, registration email details, access capabilities, and reset password email information only once. Before you enable built-in registration, ensure that you have created a local domain in User Management have assigned the “Document security Invite User” role to the appropriate users and groups in your organization. (See [Add a local domain](../../../forms/using/admin-help/adding-domains.md#add-a-local-domain) and [Creating and configuring roles](../../../forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).) If you do not use built-in registration, you must have your own user registration system created using the AEM forms SDK. See the help on “Developing SPIs for AEM forms” in [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63). If you do not use the Built-in Registration option, it is recommended that you configure a message in the activation email and on the client login screen to notify users about how to contact the administrator for a new password or for other information.
 
 **Enable and configure invited user registration**
 
@@ -602,7 +602,7 @@ If required by your SMTP host, type the required information in the SMTP Server 
 
 1. Open the administration console.
 
-   The default location of the Administration console is `http://<server>:<port>/adminui`.
+   The default location of the Administration console is `https://<server>:<port>/adminui`.
 
 1. Navigate to Home &gt; Services &gt; Document Security &gt; Configuration &gt; Invited User Registration.
 1. On the Invited User Registration, specify all the configuration settings and then click OK.
@@ -882,7 +882,7 @@ In this example, all Windows clients are denied access.
 ```as3
  <node name="ClientVersionRules"> 
      <map> 
-         <entry key="infoURL" value="http://www.dont.use/windows.html"/> 
+         <entry key="infoURL" value="https://www.dont.use/windows.html"/> 
      </map> 
      <node name="Denials"> 
          <map/> 
@@ -900,7 +900,7 @@ In this example, My Application version 3.0 and My Other Application version 2.0
 ```as3
  <node name="ClientVersionRules"> 
      <map> 
-         <entry key="infoURL" value=”http://get.a.new/version.html”/> 
+         <entry key="infoURL" value=”https://get.a.new/version.html”/> 
      </map> 
      <node name="Denials"> 
          <map/> 
@@ -925,7 +925,7 @@ In this example, all requests from a Microsoft PowerPoint 2007 or Microsoft Powe
 ```as3
  <node name="ClientVersionRules"> 
      <map> 
-         <entry key="infoURL" value=”http://get.a.new/version.html”/> 
+         <entry key="infoURL" value=”https://get.a.new/version.html”/> 
      </map> 
      <node name="Denials"> 
          <map/> 
@@ -966,8 +966,8 @@ By default, you can specify a maximum of five elements in a watermark. Also, the
 
 Many document security users do not have access to external links such as **www.adobe.com** while they are using the Right Management user interfaces:
 
-* http://[host]:[port]/adminui
-* http://[host]:[port]/edc.
+* https://[host]:[port]/adminui
+* https://[host]:[port]/edc.
 
 The following changes to the config.xml disables all external links from the Right Management user interfaces.
 

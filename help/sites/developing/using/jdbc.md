@@ -21,9 +21,9 @@ Access an external SQL database to so that your CQ applications can interact wit
 
 ## Bundling the JDBC Database Driver {#bundling-the-jdbc-database-driver}
 
-Some database vendors provide JDBC drivers in an OSGi bundle, for example [MySQL](http://www.mysql.com/downloads/connector/j/). If the JDBC driver for your database is not available as an OSGi bundle, obtain the driver JAR and wrap it in an OSGi bundle. The bundle must export the packages that are required for interacting with the database server. The bundle must also import the packages that it references.
+Some database vendors provide JDBC drivers in an OSGi bundle, for example [MySQL](https://www.mysql.com/downloads/connector/j/). If the JDBC driver for your database is not available as an OSGi bundle, obtain the driver JAR and wrap it in an OSGi bundle. The bundle must export the packages that are required for interacting with the database server. The bundle must also import the packages that it references.
 
-The following example uses the [Bundle plugin for Maven](http://felix.apache.org/site/apache-felix-maven-bundle-plugin-bnd.html) to wrap the HSQLDB driver in an OSGi bundle. The POM instructs the plugin to embed the hsqldb.jar file that is identified as a dependency. All org.hsqldb packages are exported.
+The following example uses the [Bundle plugin for Maven](https://felix.apache.org/site/apache-felix-maven-bundle-plugin-bnd.html) to wrap the HSQLDB driver in an OSGi bundle. The POM instructs the plugin to embed the hsqldb.jar file that is identified as a dependency. All org.hsqldb packages are exported.
 
 The plugin automatically determines which packages to import and lists them in the MANIFEST.MF file of the bundle. If any of the packages are not available on the CQ server, the bundle will not start upon installing. Two possible solutions are as follows:
 
@@ -37,9 +37,9 @@ Knowledge of the source code enables you to decide which solution to use. You ca
 ### POM that bundles hsqldb.jar {#pom-that-bundles-hsqldb-jar}
 
 ```xml
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>com.adobe.example.myapp</groupId>
@@ -80,9 +80,9 @@ Knowledge of the source code enables you to decide which solution to use. You ca
 
 The following links open the download pages for some popular database products:
 
-* [Microsoft SQL Server](http://www.microsoft.com/en-us/download/details.aspx?displaylang=en&id=11774)
-* [Oracle](http://www.oracle.com/technetwork/database/features/jdbc/index-091264.html)
-* [IBM DB2](http://www-01.ibm.com/support/docview.wss?uid=swg27007053)
+* [Microsoft SQL Server](https://www.microsoft.com/en-us/download/details.aspx?displaylang=en&id=11774)
+* [Oracle](https://www.oracle.com/technetwork/database/features/jdbc/index-091264.html)
+* [IBM DB2](https://www-01.ibm.com/support/docview.wss?uid=swg27007053)
 
 ### Configuring the JDBC Connection Pool Service {#configuring-the-jdbc-connection-pool-service}
 

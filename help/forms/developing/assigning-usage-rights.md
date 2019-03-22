@@ -25,7 +25,7 @@ You can accomplish these tasks using the Acrobat Reader DC extensions service:
 
 >[!NOTE]
 >
->For more information about the Acrobat Reader DC extensions service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Acrobat Reader DC extensions service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Applying Usage Rights to PDF Documents {#applying-usage-rights-to-pdf-documents}
 
@@ -37,7 +37,7 @@ You can apply usage rights to PDF documents using the Acrobat Reader DC extensio
 
 >[!NOTE]
 >
->For more information about the Acrobat Reader DC extensions service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Acrobat Reader DC extensions service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -223,7 +223,7 @@ You can remove usage rights from a rights-enabled document. Removing usage-right
 
 >[!NOTE]
 >
->For more information about the Acrobat Reader DC extensions service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Acrobat Reader DC extensions service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -366,7 +366,7 @@ You can retrieve information about the credential that was used to apply usage r
 
 >[!NOTE]
 >
->For more information about the Acrobat Reader DC extensions service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Acrobat Reader DC extensions service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-2}
 

@@ -23,7 +23,7 @@ You can accomplish the following with the Convert PDF service:
 
 ## Configure properties of the service &nbsp; {#properties}
 
-You can use the **AEMFD ConvertPDF Service** in AEM Console to configure properties for this service. The default URL of AEM console is `http://[host]:[port]/system/console/configMgr`.
+You can use the **AEMFD ConvertPDF Service** in AEM Console to configure properties for this service. The default URL of AEM console is `https://[host]:[port]/system/console/configMgr`.
 
 ## Using the service {#using-the-service}
 
@@ -43,7 +43,7 @@ The ConvertPDF service provides the following two APIs:
                 com.adobe.fd.cpdf.api.enumeration.PSLevel,
 
                 com.adobe.aemfd.docmanager.Document" %><%
-%><%@taglib prefix="sling" uri="http://sling.apache.org/taglibs/sling/1.0" %><%
+%><%@taglib prefix="sling" uri="https://sling.apache.org/taglibs/sling/1.0" %><%
 %><sling:defineObjects/><%
 
  // Get reference to ConvertPdfService OSGi service.
@@ -87,7 +87,7 @@ String documentPath = "/content/dam/formsanddocuments/ExpenseClaimFlat.pdf";
                 com.adobe.fd.cpdf.api.enumeration.ImageConvertFormat,
 
                 com.adobe.aemfd.docmanager.Document" %><%
-%><%@taglib prefix="sling" uri="http://sling.apache.org/taglibs/sling/1.0" %><%
+%><%@taglib prefix="sling" uri="https://sling.apache.org/taglibs/sling/1.0" %><%
 %><sling:defineObjects/><%
 
  // Get reference to ConvertPdfService OSGi service.

@@ -39,7 +39,7 @@ Adobe Drive CC (5.0.3) supports the following AEM-related features:
 
 Before connecting, you will need:
 
-* [Adobe Drive CC (or later)](http://www.adobe.com/products/adobedrive.html) installed on your local machine.   
+* [Adobe Drive CC (or later)](https://www.adobe.com/products/adobedrive.html) installed on your local machine.   
 
 * The URL for the AEM server to which you wish to connect, as well as a valid username and password.
 

@@ -52,7 +52,7 @@ AEM administrators can easily generate and customize these reports for your impl
 
    >[!NOTE]
    >
-   >Before you can generate an **[!UICONTROL Asset Downloaded]** report, enable the Asset Download service. From the web console ( `http://[*server name*]:[*port name*]/system/console/configMgr`), open the **[!UICONTROL Day CQ DAM Event Recorder]** configuration, and select the **[!UICONTROL Asset Downloaded (DOWNLOADED)]** option in Event Types.
+   >Before you can generate an **[!UICONTROL Asset Downloaded]** report, enable the Asset Download service. From the web console ( `https://[*server name*]:[*port name*]/system/console/configMgr`), open the **[!UICONTROL Day CQ DAM Event Recorder]** configuration, and select the **[!UICONTROL Asset Downloaded (DOWNLOADED)]** option in Event Types.
 
    >[!NOTE]
    >
@@ -147,7 +147,7 @@ You can add custom columns to the following reports to display more data for you
 
 To remove reports that you no longer require, configure the DAM Report Purge service from the web console to purge existing reports based on their quantity and age.
 
-1. Access the web console (configuration manager) from *http://&lt;Server&gt;.&lt;Port&gt;:/system/console/configMgr*.  
+1. Access the web console (configuration manager) from *https://&lt;Server&gt;.&lt;Port&gt;:/system/console/configMgr*.  
 
 1. Open the **DAM Report Purge Service** configuration.  
 

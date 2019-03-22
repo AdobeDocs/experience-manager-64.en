@@ -33,7 +33,7 @@ When you first install document security, it contains one shared policy, named *
 
 **Microsoft Outlook auto-generated policies**
 
-Using Acrobat, you can apply policies to documents that you send as email attachments in Microsoft Outlook. In Outlook, you can protect a document by using an existing policy or by using an auto-generated policy that Acrobat generates with default confidentiality settings and applies to the document that is attached to an email message. (See * [Acrobat Help](http://help.adobe.com/en_US/acrobat/pro/using/index.html)*.)
+Using Acrobat, you can apply policies to documents that you send as email attachments in Microsoft Outlook. In Outlook, you can protect a document by using an existing policy or by using an auto-generated policy that Acrobat generates with default confidentiality settings and applies to the document that is attached to an email message. (See * [Acrobat Help](https://help.adobe.com/en_US/acrobat/pro/using/index.html)*.)
 
 >[!NOTE]
 >
@@ -266,7 +266,7 @@ The Unchangeable Advanced Settings area contains the following settings. You can
 **Encryption Algorithm and Key Length:** Used to protect your documents. You can choose from these options:
 
 * AES 128-bit
-* AES 256-bit. Only Acrobat 9.0 and later supports this option. To use AES 256 encryption for PDF files, obtain and install the Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy files. These files replace the local_policy.jar and US_export_policy.jar files in the [JAVE_HOME]/lib/security folder. For example, if you are using Sun JDK 1.6, copy the downloaded files to the [dep root]/Java/jdk1.6.0_26/lib/security folder. You can download these files from [Java SE Downloads](http://java.sun.com/javase/downloads/index.jsp).
+* AES 256-bit. Only Acrobat 9.0 and later supports this option. To use AES 256 encryption for PDF files, obtain and install the Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy files. These files replace the local_policy.jar and US_export_policy.jar files in the [JAVE_HOME]/lib/security folder. For example, if you are using Sun JDK 1.6, copy the downloaded files to the [dep root]/Java/jdk1.6.0_26/lib/security folder. You can download these files from [Java SE Downloads](https://java.sun.com/javase/downloads/index.jsp).
 * No encryption. Acrobat 9.0 and later currently support this option. If you select this option, the Document Restrictions options are disabled. This option may be useful if you want to use document security for document auditing or version control but to not want to encrypt the document.
 
 **Document Restrictions:** Select the PDF document components to encrypt. Other client applications encrypt the entire document but not linked or embedded files. You can choose from these options:

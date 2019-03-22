@@ -26,7 +26,7 @@ You can accomplish these tasks using the Encryption service:
 * Unlock the PDF document so that other service operations can be performed. For example, after a password-encrypted PDF document is unlocked, you can apply a digital signature to it. (See [Unlocking Encrypted PDF Documents](encrypting-decrypting-pdf-documents.md#unlocking_encrypted_pdf_documents).)
 * Determine the encryption type of a secured PDF document. (See [Determining Encryption Type](encrypting-decrypting-pdf-documents.md#determining_encryption_type).)
 
-  ***Note**: For more information about the Encryption service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).*
+  ***Note**: For more information about the Encryption service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).*
 
 ## Encrypting PDF Documents with a Password {#encrypting-pdf-documents-with-a-password}
 
@@ -38,7 +38,7 @@ When you encrypt a PDF document with a password, a user must specify the passwor
 
 >[!NOTE]
 >
->For more information about the Encryption service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Encryption service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -250,7 +250,7 @@ A public key certificate contains a user’s public key and identifying informat
 
 >[!NOTE]
 >
->For more information about the Encryption service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Encryption service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -466,7 +466,7 @@ Certificate-based encryption can be removed from a PDF document so that users ca
 
 >[!NOTE]
 >
->For more information about the Encryption service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Encryption service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-2}
 
@@ -631,7 +631,7 @@ Password-based encryption can be removed from a PDF document so that users can o
 
 >[!NOTE]
 >
->For more information about the Encryption service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Encryption service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-3}
 
@@ -782,7 +782,7 @@ A password-encrypted or certificate-encrypted PDF document must be unlocked befo
 
 >[!NOTE]
 >
->For more information about the Encryption service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Encryption service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-4}
 
@@ -964,7 +964,7 @@ A PDF document can be protected by the following encryption types:
 
 >[!NOTE]
 >
->For more information about the Encryption service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Encryption service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-5}
 
