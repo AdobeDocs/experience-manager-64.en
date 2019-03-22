@@ -92,7 +92,7 @@ You can also enable SSO by using HTTP headers. (See [Enable SSO using HTTP heade
 
 ### Map a Service Principal Name (SPN) {#map-a-service-principal-name-spn}
 
-1. Obtain the KtPass utility. This utility is used to map an SPN to a REALM. You can obtain the KtPass utility as part of Windows Server Tool pack or Resource Kit. (See [Windows Server 2003 Service Pack 1 Support Tools](http://support.microsoft.com/kb/892777).)
+1. Obtain the KtPass utility. This utility is used to map an SPN to a REALM. You can obtain the KtPass utility as part of Windows Server Tool pack or Resource Kit. (See [Windows Server 2003 Service Pack 1 Support Tools](https://support.microsoft.com/kb/892777).)
 1. In a command prompt, run `ktpass` using the following arguments:
 
    `ktpass -princ HTTP/`*host* `@`*REALM* `-mapuser`*user*
@@ -138,15 +138,15 @@ ktpass -princ HTTP/lcserver.um.lc.com@UM.LC.COM -mapuser spnegodemo
 
 For SPNEGO-based authentication to work, the client computer must be part of the domain the user account is created in. You must also configure the client browser to allow SPNEGO-based authentication. As well, the site that requires SPNEGO- based authentication must be a trusted site.
 
-If the server is accessed by using the computer name, such as http://lcserver:8080*,* no settings are required for Internet Explorer. If you enter a URL that does not contain any dots ("."), Internet Explorer treats the site as a local intranet site. If you are using a fully qualified name for the site, the site must be added as a trusted site.
+If the server is accessed by using the computer name, such as https://lcserver:8080*,* no settings are required for Internet Explorer. If you enter a URL that does not contain any dots ("."), Internet Explorer treats the site as a local intranet site. If you are using a fully qualified name for the site, the site must be added as a trusted site.
 
 **Configure Internet Explorer 6.x**
 
 1. Go to Tools &gt; Internet Options and click the Security tab. 
 1. Click the Local Intranet icon and then click Sites.
-1. Click Advanced and, in the Add This Web Site To The Zone box, type the URL of your forms server. For example, type `http://lcserver.um.lc.com`
+1. Click Advanced and, in the Add This Web Site To The Zone box, type the URL of your forms server. For example, type `https://lcserver.um.lc.com`
 1. Click OK until all dialog boxes are closed.
-1. Test the configuration by accessing the URL of your AEM forms server. For example, in the browser URL box, type `http://lcserver.um.lc.com:8080/um/login?um_no_redirect=true`
+1. Test the configuration by accessing the URL of your AEM forms server. For example, in the browser URL box, type `https://lcserver.um.lc.com:8080/um/login?um_no_redirect=true`
 
 **Configure Mozilla Firefox**
 

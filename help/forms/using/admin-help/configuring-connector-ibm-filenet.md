@@ -13,7 +13,7 @@ discoiquuid: be4994de-12f8-436e-926a-49a6783b006e
 
 # Configuring Connector for IBM FileNet{#configuring-connector-for-ibm-filenet}
 
-Connector for IBM FileNet enables communication between AEM forms and IBM FileNet. For additional background information, see "Connectors for ECM" in [Services Reference](http://www.adobe.com/go/learn_aemforms_services_63).
+Connector for IBM FileNet enables communication between AEM forms and IBM FileNet. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ IBM FileNet P8 Content Engine provides software services for managing enterprise
 
    If you are using FileNet Content Engine 4.x with CEWS transport, enter:
 
-   `cemp:http://ContentEngineHostNameorIP:port/wsi/FNCEWS40DIME?jaasConfigurationName=FileNetP8WSI`
+   `cemp:https://ContentEngineHostNameorIP:port/wsi/FNCEWS40DIME?jaasConfigurationName=FileNetP8WSI`
 
    If you are using FileNet Content Engine 4.x with EJB transport, which is supported on WebLogic only, enter:
 

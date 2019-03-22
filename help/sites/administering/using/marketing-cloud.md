@@ -13,7 +13,7 @@ discoiquuid: ba496f6a-c9aa-49b5-8207-8633748d2c17
 
 # Integrating with the Adobe Marketing Cloud{#integrating-with-the-adobe-marketing-cloud}
 
-The [Adobe Marketing Cloud](http://www.adobe.com/solutions/digital-marketing.html), includes powerful web analytics and website optimization products that deliver actionable, real-time data and insights to drive successful online initiatives. It offers an integrated and open platform for online business optimization. The Cloud consists of integrated applications to collect and unleash the power of customer insight to optimize customer acquisition, conversion and retention efforts as well as the creation and distribution of content.
+The [Adobe Marketing Cloud](https://www.adobe.com/solutions/digital-marketing.html), includes powerful web analytics and website optimization products that deliver actionable, real-time data and insights to drive successful online initiatives. It offers an integrated and open platform for online business optimization. The Cloud consists of integrated applications to collect and unleash the power of customer insight to optimize customer acquisition, conversion and retention efforts as well as the creation and distribution of content.
 
 With Adobe Experience Manager (AEM), you can seamlessly integrate with the following products of the Adobe Marketing Cloud:
 
@@ -28,7 +28,7 @@ In addition, you can integrate AEM with the [creative cloud](../../../sites/admi
 
 ## Integrating with Adobe Analytics {#integrating-with-adobe-analytics}
 
-[Adobe Analytics](http://www.omniture.com/en/products/analytics/sitecatalyst) is the industry-leading solution that provides digital marketers with one place to measure, analyze, and optimize integrated data from all online initiatives across multiple marketing channels. It provides marketers with actionable, real-time web analytics intelligence about digital strategies and marketing initiatives. Adobe Analytics helps marketers quickly identify the most profitable paths through a website, segment traffic to spot high-value web visitors, determine where visitors are navigating away from the site, and identify critical success metrics for online marketing campaigns.
+[Adobe Analytics](https://www.omniture.com/en/products/analytics/sitecatalyst) is the industry-leading solution that provides digital marketers with one place to measure, analyze, and optimize integrated data from all online initiatives across multiple marketing channels. It provides marketers with actionable, real-time web analytics intelligence about digital strategies and marketing initiatives. Adobe Analytics helps marketers quickly identify the most profitable paths through a website, segment traffic to spot high-value web visitors, determine where visitors are navigating away from the site, and identify critical success metrics for online marketing campaigns.
 
 You can use Adobe Analytics to analyze data from your sites.
 
@@ -47,7 +47,7 @@ You can also use the [Opt-in wizard](../../../sites/administering/using/opt-in.m
 
 ## Integrating with Adobe Target {#integrating-with-adobe-target}
 
-[Adobe Target](http://www.omniture.com/en/products/conversion/test-and-target) is used by marketers to design and execute online tests, create on-the-fly audience segments (based on behavior) and automate the targeting of content and online experiences.
+[Adobe Target](https://www.omniture.com/en/products/conversion/test-and-target) is used by marketers to design and execute online tests, create on-the-fly audience segments (based on behavior) and automate the targeting of content and online experiences.
 
 Online consumers today have constantly evolving needs and expect relevant, even personalized content from the wide variety of sites and content sources they can choose from. To engage an online audience, it is critical that online marketers quickly identify which offers and content are relevant and compelling to their audiences. Armed with this knowledge, marketers need the capability to continually evolve their sites and to target the appropriate content to different audiences.
 
@@ -67,7 +67,7 @@ For more information, see [Opting Into Adobe Analytics and Adobe Target.](../../
 
 ## Integrating with Scene7 {#integrating-with-scene}
 
-[Adobe Scene7](http://www.adobe.com/products/scene7.html) is a hosted solution for publishing, managing, enhancing, and delivering dynamic marketing assets and rich visual merchandising to web, mobile, email, social media, Internet-connected displays and print.
+[Adobe Scene7](https://www.adobe.com/products/scene7.html) is a hosted solution for publishing, managing, enhancing, and delivering dynamic marketing assets and rich visual merchandising to web, mobile, email, social media, Internet-connected displays and print.
 
 In AEM, you can publish digital assets directly from AEM to Scene7 and you can publish digital assets from Scene7 to AEM.
 
@@ -84,7 +84,7 @@ For more information on how AEM integrates with Scene7, see the [Integrating wit
 
 ## Integrating with Adobe Dynamic Tag Management {#integrating-with-adobe-dynamic-tag-management}
 
-[Adobe Dynamic Tag Management](http://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html) gives marketers intuitive tools to quickly and easily manage an unlimited number of Adobe and third-party tags. You'll have more control and flexibility to optimize virtually anything online, all while reducing the dependence on IT resources.
+[Adobe Dynamic Tag Management](https://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html) gives marketers intuitive tools to quickly and easily manage an unlimited number of Adobe and third-party tags. You'll have more control and flexibility to optimize virtually anything online, all while reducing the dependence on IT resources.
 
 [Integrate Adobe Dynamic Tag Management](../../../sites/administering/using/dtm.md) with AEM so that you can use your Dynamic Tag Management web properties to track AEM sites.
 
@@ -94,7 +94,7 @@ The Audience Manager integration has been removed in AEM 6.3.
 
 ## Integrating with Search&Promote {#integrating-with-search-promote}
 
-[Adobe Search&Promote](http://www.omniture.com/en/products/conversion/search-and-promote) enables marketers to optimize how visitors browse, find, compare, and select relevant products and content on web and mobile sites. Businesses can easily promote priority items based on business objectives and visitor intent, as well as automate merchandising and promotions activity via KPI-based triggers or metrics.
+[Adobe Search&Promote](https://www.omniture.com/en/products/conversion/search-and-promote) enables marketers to optimize how visitors browse, find, compare, and select relevant products and content on web and mobile sites. Businesses can easily promote priority items based on business objectives and visitor intent, as well as automate merchandising and promotions activity via KPI-based triggers or metrics.
 
 Adobe Search&Promote is a reliable and scalable hosted site search application, capable of scaling to millions of pages or products, for heavily visited online businesses ranging from retail to news sites. It offers unprecedented levels of marketer control and metrics-based relevance.
 
@@ -102,7 +102,7 @@ For information about integrating AEM and Search&Promote, see [Integrating with 
 
 ## Integrating with Adobe Campaign {#integrating-with-adobe-campaign}
 
-[Adobe Campaign](http://www.adobe.com/solutions/campaign-management.html) lets you manage email delivery content directly in Adobe Experience Manager.
+[Adobe Campaign](https://www.adobe.com/solutions/campaign-management.html) lets you manage email delivery content directly in Adobe Experience Manager.
 
 For information on how AEM integrates with Adobe Campaign, see [Integrating with Adobe Campaign](../../../sites/administering/using/campaignstandard.md).
 
@@ -110,7 +110,7 @@ For information on how AEM integrates with Adobe Campaign, see [Integrating with
 
 Learn about AEM and Livefyre:
 
-* [Getting Started with Livefyre](http://answers.livefyre.com/developers/getting-started)  
+* [Getting Started with Livefyre](https://answers.livefyre.com/developers/getting-started)  
 
 * [Livefyre and AEM](https://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/livefyre-for-adobe-experience-manager/)
 

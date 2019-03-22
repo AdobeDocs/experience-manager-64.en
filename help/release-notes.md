@@ -213,9 +213,9 @@ To learn more about this capability, prerequisites, and how to access it, see [A
 
 AEM Desktop App has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM Desktop App is provided in a dedicated [AEM Desktop App release notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html) document.
 
-Improvements introduced since the AEM 6.3 release include the ability to upload hierarchical folders in the background, a new UI to monitor asset background operations, enhanced caching, networking and login, as well as overall stability improvements. The documentation also includes a [best practices guide](/assets/using/aem-desktop-app-best-practices.md).
+Improvements introduced since the AEM 6.3 release include the ability to upload hierarchical folders in the background, a new UI to monitor asset background operations, enhanced caching, networking and login, as well as overall stability improvements. The documentation also includes a [best practices guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html).
 
-**Adobe Sensei Services **
+**Adobe Sensei Services**
 
 New capabilities include Enhanced Smart Tags, with the ability to learn customer business taxonomy, automatically tag digital assets with customer-specific tags and Smart Translation Search, which improves discoverability in multiple languages by translating search terms on the fly. To learn more about this feature, see [Enhanced Smart Tags](assets/using/enhanced-smart-tags.md).
 
@@ -293,7 +293,7 @@ You can integrate Livefyre with your AEM 6.4 instance. Information on how to int
 
 Adobe is using a customer focused development model that allows customers to contribute to all stages of the development process, during specification, development and testing. Our thanks goes to all contributing customers and partners in this process.
 
-Adobe has the procedures and processes in place to enable collection, prioritization, and tracking of customer focused bug resolution and enhancement request development. The [Adobe Marketing Cloud Support Portal](http://helpx.adobe.com/marketing-cloud/contact-support.html) is integrated with the Adobe Enhancement & Defect Tracking System. Customer questions are identified and resolved with Customer Care where possible. When escalated to R&D, all customer information is captured, and used for prioritization and reporting purposes. Priority is given in development to paid support and warrantee issues and paid customer enhancements.
+Adobe has the procedures and processes in place to enable collection, prioritization, and tracking of customer focused bug resolution and enhancement request development. The [Adobe Marketing Cloud Support Portal](https://helpx.adobe.com/marketing-cloud/contact-support.html) is integrated with the Adobe Enhancement & Defect Tracking System. Customer questions are identified and resolved with Customer Care where possible. When escalated to R&D, all customer information is captured, and used for prioritization and reporting purposes. Priority is given in development to paid support and warrantee issues and paid customer enhancements.
 
 This process of prioritization has yielded more than 500 customer focused changes fixed in AEM 6.4.
 
@@ -314,7 +314,7 @@ This process of prioritization has yielded more than 500 customer focused change
 * Core Components ([GitHub project](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components))
 * We.Retail Reference implementation ([read more](sites/developing/using/we-retail.md))
 * Project Blueprint Archetype ([GitHub project](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype))
-* AEM Screens Players for various target platforms ([download](http://download.macromedia.com/screens/))
+* AEM Screens Players for various target platforms ([download](https://download.macromedia.com/screens/))
 * Smart Content Language Models. English is pre-installed - more languages can be downloaded
 
     * [German](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-de)
@@ -326,7 +326,7 @@ This process of prioritization has yielded more than 500 customer focused change
 
 **Assets**
 
-* Adobe Experience Manager Desktop App ([read more](/assets/using/aem-desktop-app.md) and [download](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html))
+* Adobe Experience Manager Desktop App ([read more](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html) and [download](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html))
 
 * Package to add enhanced PDF Rasterizer ([read more](assets/using/aem-pdf-rasterizer.md) and [download](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/assets/aem-assets-pdf-rasterizer-pkg))
 
@@ -377,7 +377,7 @@ Oak MicroKernel for
 
 >[!NOTE]
 >
->Oracle has moved to a "Long Term Support" (LTS) model for Oracle Java SE products. Java 9 and 10 are non-LTS releases by Oracle (see [Oracle Java SE support roadmap](http://www.oracle.com/technetwork/java/eol-135779.html)). Adobe will only provide support for LTS releases of Java to run AEM in production. Therefore Java 8 is the recommended version to use with AEM 6.4.
+>Oracle has moved to a "Long Term Support" (LTS) model for Oracle Java SE products. Java 9 and 10 are non-LTS releases by Oracle (see [Oracle Java SE support roadmap](https://www.oracle.com/technetwork/java/eol-135779.html)). Adobe will only provide support for LTS releases of Java to run AEM in production. Therefore Java 8 is the recommended version to use with AEM 6.4.
 
 ## Deprecated and Removed Features {#deprecated-and-removed-features}
 
@@ -405,7 +405,7 @@ For Adobe Experience Manager 6.4, [read the list of deprecated and removed capab
 
 These sites are only available to customers. If you are a customer and need access, please contact your Adobe account manager.
 
-* [](http://daycare.day.com) [Product Download at licensing.adobe.com](http://licensing.adobe.com/)
+* [](https://daycare.day.com) [Product Download at licensing.adobe.com](https://licensing.adobe.com/)
 
-* [Customer Support at daycare.day.com](http://daycare.day.com)
+* [Customer Support at daycare.day.com](https://daycare.day.com)
 

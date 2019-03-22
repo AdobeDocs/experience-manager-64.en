@@ -22,7 +22,7 @@ The Forms service renders interactive PDF forms to client devices, typically web
 
 >[!NOTE]
 >
->Before you can render a form using the Forms service, create a form design. Typically, a form design is created in Designer and is saved as an XDP file. For information about creating a form design, see [Forms Designer](http://www.adobe.com/go/learn_aemforms_designer_63).
+>Before you can render a form using the Forms service, create a form design. Typically, a form design is created in Designer and is saved as an XDP file. For information about creating a form design, see [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63).
 
 **Sample loan application**
 
@@ -130,7 +130,7 @@ To access this form design, specify `Applications/FormsApplication/1.0/FormsFold
 
 >[!NOTE]
 >
->For information about creating a Forms application using Workbench, see [Workbench Help](http://www.adobe.com/go/learn_aemforms_workbench_63).
+>For information about creating a Forms application using Workbench, see [Workbench Help](https://www.adobe.com/go/learn_aemforms_workbench_63).
 
 The path to a resource located in a Forms application is:
 

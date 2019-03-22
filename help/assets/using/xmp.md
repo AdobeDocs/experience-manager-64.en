@@ -17,7 +17,7 @@ XMP (Extensible Metadata Platform) is the metadata standard used by AEM Assets f
 
 Aside from offering universal metadata encoding that can be embedded into all file formats, XMP provides a rich [content model](../../assets/using/xmp.md#xmp-core-concepts) and is [supported by Adobe](../../assets/using/xmp.md#advantages-of-xmp) and other companies, so that users of XMP in combination with AEM Assets have a powerful platform to build upon.
 
-The [XMP specification](http://www.adobe.com/devnet/xmp.html) is available from Adobe.
+The [XMP specification](https://www.adobe.com/devnet/xmp.html) is available from Adobe.
 
 ## What is XMP? {#what-is-xmp}
 
@@ -38,9 +38,9 @@ Adobe first introduced the XMP standard as part of the Adobe Acrobat software pr
 
 ### XMP Ecosystem {#xmp-ecosystem}
 
-XMP defines a [metadata](http://en.wikipedia.org/wiki/Metadata) model that can be used with any defined set of metadata items. XMP also defines particular [schemas](http://en.wikipedia.org/wiki/XML_schema) for basic properties useful for recording the history of a resource as it passes through multiple processing steps, from being photographed, [scanned](http://en.wikipedia.org/wiki/Image_scanner), or authored as text, through photo editing steps (such as [cropping](http://en.wikipedia.org/wiki/Cropping_%28image%29) or color adjustment), to assembly into a final image. XMP allows each software program or device along the way to add its own information to a digital resource, which can then be retained in the final digital file.
+XMP defines a [metadata](https://en.wikipedia.org/wiki/Metadata) model that can be used with any defined set of metadata items. XMP also defines particular [schemas](https://en.wikipedia.org/wiki/XML_schema) for basic properties useful for recording the history of a resource as it passes through multiple processing steps, from being photographed, [scanned](https://en.wikipedia.org/wiki/Image_scanner), or authored as text, through photo editing steps (such as [cropping](https://en.wikipedia.org/wiki/Cropping_%28image%29) or color adjustment), to assembly into a final image. XMP allows each software program or device along the way to add its own information to a digital resource, which can then be retained in the final digital file.
 
-XMP is most commonly serialized and stored using a subset of the [W3C](http://en.wikipedia.org/wiki/World_Wide_Web_Consortium) [Resource Description Framework](http://en.wikipedia.org/wiki/Resource_Description_Framework) (RDF), which is in turn expressed in [XML](http://en.wikipedia.org/wiki/XML).
+XMP is most commonly serialized and stored using a subset of the [W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) [Resource Description Framework](https://en.wikipedia.org/wiki/Resource_Description_Framework) (RDF), which is in turn expressed in [XML](https://en.wikipedia.org/wiki/XML).
 
 ## Advantages of XMP {#advantages-of-xmp}
 

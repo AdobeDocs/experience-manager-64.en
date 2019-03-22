@@ -17,4 +17,4 @@ For further information see:
 
 [https://www.adobe.com/legal/terms/enterprise-licensing.html](https://www.adobe.com/legal/terms/enterprise-licensing.html)
 
-Notice of third party licenses: [http://www.adobe.com/products/eula/third_party/](http://www.adobe.com/products/eula/third_party/)
+Notice of third party licenses: [https://www.adobe.com/products/eula/third_party/](https://www.adobe.com/products/eula/third_party/)

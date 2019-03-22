@@ -71,7 +71,7 @@ You can accomplish these tasks using the Generate PDF service:
 
 >[!NOTE]
 >
->For more information about the Generate PDF service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Generate PDF service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Converting Word Documents to PDF Documents {#converting-word-documents-to-pdf-documents}
 
@@ -83,7 +83,7 @@ This section describes how you can use the Generate PDF API to programmatically 
 
 >[!NOTE]
 >
->For more information about the Generate PDF service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Generate PDF service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -253,7 +253,7 @@ This section describes how you can use the Generate PDF API to programmatically 
 
 >[!NOTE]
 >
->For more information about the Generate PDF service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Generate PDF service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -407,7 +407,7 @@ This section describes how you can use the Generate PDF Java API and web service
 
 >[!NOTE]
 >
->For more information about the Generate PDF service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Generate PDF service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-2}
 
@@ -595,7 +595,7 @@ AppMon uses standard Win32 APIs to interact with third-party applications in ord
 
 Due to a limitation with these Win32 APIs, AppMon is not able to dispatch these UI events to some specific kinds of windows, such as floating menu-bars (found in some applications such as TextPad), and certain kind of dialogs whose contents cannot be retrieved using the Win32 APIs.
 
-It is easy to visually identify a floating menu-bar; however it might not be possible to identify the special types of dialogs just by visual inspection. You would require a third-party application such as Microsoft Spy++ (part of the Microsoft Visual C++ development environment) or its equivalent WinID (that can be downloaded free of cost from [http://www.dennisbabkin.com/php/download.php?what=WinID](http://www.dennisbabkin.com/php/download.php?what=WinID)) to examine a dialog to determine if AppMon would be able to interact with it using standard Win32 APIs.
+It is easy to visually identify a floating menu-bar; however it might not be possible to identify the special types of dialogs just by visual inspection. You would require a third-party application such as Microsoft Spy++ (part of the Microsoft Visual C++ development environment) or its equivalent WinID (that can be downloaded free of cost from [https://www.dennisbabkin.com/php/download.php?what=WinID](https://www.dennisbabkin.com/php/download.php?what=WinID)) to examine a dialog to determine if AppMon would be able to interact with it using standard Win32 APIs.
 
 If WinID is able to extract the dialog contents such as the text, sub-windows, window class ID, and so on, then AppMon would also be able to do the same.
 
@@ -771,7 +771,7 @@ Use Microsoft Spy++ to obtain the identities of window element properties in the
 
 #### Using regular expressions in caption attributes {#using-regular-expressions-in-caption-attributes}
 
-You can use regular expressions in caption specifications. The Generate PDF service uses the `java.util.regex.Matcher` class to support regular expressions. That utility supports the regular expressions described in `java.util.regex.Pattern`. (Go to the Java website at [http://java.sun.com/j2se/1.4.2/docs/api/java/util/regex/Pattern.html](http://java.sun.com/j2se/1.4.2/docs/api/java/util/regex/Pattern.html).)
+You can use regular expressions in caption specifications. The Generate PDF service uses the `java.util.regex.Matcher` class to support regular expressions. That utility supports the regular expressions described in `java.util.regex.Pattern`. (Go to the Java website at [https://java.sun.com/j2se/1.4.2/docs/api/java/util/regex/Pattern.html](https://java.sun.com/j2se/1.4.2/docs/api/java/util/regex/Pattern.html).)
 
 **Regular expression accommodating the file name prepended to Notepad in the Notepad banner**
 
@@ -946,7 +946,7 @@ This example contains the additional dialog boxes for the Notepad application. T
 **Notepad dialog boxes(appmon.notepad.addition.en_US.xml)**
 
 ```as3
- <dialogs app="Notepad" locale="en_US" version="7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dialogs.xsd"> 
+ <dialogs app="Notepad" locale="en_US" version="7.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dialogs.xsd"> 
      <window caption="Caption Title"> 
          <windowList> 
              <window className="Button" caption="OK" action="press"/> 
@@ -983,7 +983,7 @@ This example specifies how the Generate PDF service should interact with Notepad
  
 <!-- This file automates printing of text files via notepad to Adobe PDF printer. In order to see the complete hierarchy we recommend using the Microsoft Spy++ which details the properties of windows necessary to write scripts. In this sample there are total of eight steps--> 
  
-<application name="Notepad" version="9.0" locale="en_US" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="scripts.xsd"> 
+<application name="Notepad" version="9.0" locale="en_US" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="scripts.xsd"> 
  
     <!-- In this step we wait for the application window to appear --> 
     <step> 

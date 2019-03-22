@@ -94,7 +94,7 @@ The thread dump is a list of all the Java threads that are currently active. If 
 >
 >`jstack <pid> >> /path/to/logfile.log`
 
-See the [How to take Thread Dumps from a JVM](http://helpx.adobe.com/cq/kb/TakeThreadDump.html) documentation for more information
+See the [How to take Thread Dumps from a JVM](https://helpx.adobe.com/cq/kb/TakeThreadDump.html) documentation for more information
 
 ### Checking for unclosed JCR sessions {#checking-for-unclosed-jcr-sessions}
 
@@ -104,7 +104,7 @@ When functionality is developed for AEM WCM, JCR Sessions may be opened (compara
 * You can see a lot of CacheManager: resizeAll entries in the log file; the following number (size=&lt;x&gt;) shows the number of caches, each sessions opens several caches.
 * From time to time the system runs out of memory (after a few hours, days, or weeks - depending on the severity).
 
-To analyze unclosed sessions and find out which code is not closing a session, refer to the Knowledge Base article [Analyze Unclosed Sessions](http://helpx.adobe.com/crx/kb/AnalyzeUnclosedSessions.html).
+To analyze unclosed sessions and find out which code is not closing a session, refer to the Knowledge Base article [Analyze Unclosed Sessions](https://helpx.adobe.com/crx/kb/AnalyzeUnclosedSessions.html).
 
 ### Using the Adobe Experience Manager Web Console {#using-the-adobe-experience-manager-web-console}
 

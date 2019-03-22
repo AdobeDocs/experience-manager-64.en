@@ -39,13 +39,13 @@ The following sample code displays how a web page that contains both the Page Tr
     <body>
 
                                 <img
-            src="http://10.41.52.147:4502/xxxx/content/dam/test/abc.jpg"
+            src="https://10.41.52.147:4502/xxxx/content/dam/test/abc.jpg"
             data-aem-asset-id="aaid:a386f2cd78234becb66bd11575f9452d"
             data-trackable=true
             onload=assetAnalytics.core.assetLoaded(this)>
 
         <a
-            href="http://www.adobe.com"
+            href="https://www.adobe.com"
         
             onclick="assetAnalytics.core.assetClicked(this);return false">
                 <img
@@ -94,7 +94,7 @@ You add the Embed code within the body of your website code. The following code 
             onload=assetAnalytics.core.assetLoaded(this)>
 
         <a
-            href="http://www.adobe.com"
+            href="https://www.adobe.com"
         
             onclick="assetAnalytics.core.assetClicked(this);return false">
            <img

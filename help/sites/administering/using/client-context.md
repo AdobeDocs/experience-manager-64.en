@@ -235,7 +235,7 @@ Add the JSONP Store component to Client Context and use it to retrieve and store
 1. Double-click the component to open the edit dialog. 
 1. In the JSONP Service URL box, enter the following URL, and then click Fetch Store:
 
-   `http://api.wipmania.com/jsonp?callback=${callback}`
+   `https://api.wipmania.com/jsonp?callback=${callback}`
 
    The component calls the JSONP service and lists all of the properties that the returned data contains. The properties that are in the list are those that will be available in Client Context.
 

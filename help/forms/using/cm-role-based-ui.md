@@ -36,7 +36,7 @@ For more information on groups, permissions, access control lists, and managing 
 
     1. From the Welcome screen or various locations in AEM, click the security icon:  
 
-    1. Navigate directly to http://[server]:[port]/useradmin. Be sure you log into AEM as an administrator.
+    1. Navigate directly to https://[server]:[port]/useradmin. Be sure you log into AEM as an administrator.
 
        ![]()
 

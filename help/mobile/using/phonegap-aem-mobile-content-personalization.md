@@ -21,7 +21,7 @@ discoiquuid: c9c818dc-c5c4-4a96-94fe-9dc9fe75705b
 >
 >This document is part of the [Getting Started with AEM Mobile](../../mobile/using/getting-started-aem-mobile.md) Guide, a recommended starting point for AEM Mobile reference.
 
-The AEM Mobile content personalization feature allows [AEM Authors](#author) to personalize mobile app content by leveraging [Adobe Target](http://www.adobe.com/ca/marketing-cloud/testing-targeting.html). This allows the delivery of targeted offers to mobile application users. Adobe Experience Manager Mobile provides the ability to create, target, and deliver content that will provide the user with content that is specific for their own individual tastes.
+The AEM Mobile content personalization feature allows [AEM Authors](#author) to personalize mobile app content by leveraging [Adobe Target](https://www.adobe.com/ca/marketing-cloud/testing-targeting.html). This allows the delivery of targeted offers to mobile application users. Adobe Experience Manager Mobile provides the ability to create, target, and deliver content that will provide the user with content that is specific for their own individual tastes.
 
 As is often the case in AEM, in order for authors to begin creating this content, administrators and developers need to first prepare the environment.
 

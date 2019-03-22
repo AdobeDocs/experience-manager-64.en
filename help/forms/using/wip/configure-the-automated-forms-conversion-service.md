@@ -28,7 +28,7 @@ Before using the service, you connect your AEM Forms instance to the service run
 An AEM instance contains basic forms capabilities. Install AEM Forms add-on package to avail all the capabilities of AEM Forms. The package is required to set up and run the conversion service:
 
 1. Open the [AEM Forms Automated Forms Conversion Service Prerelease](../../../forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md) Program article, locate, and download the AEM Forms add-on package. 
-1. Log in to AEM instance as an administrator and open the Package Manager. The default URL is [http://&lt;server&gt;:4502/crx/packmgr/index.jsp](http://%3Cserver%3E:4502/crx/packmgr/index.jsp).
+1. Log in to AEM instance as an administrator and open the Package Manager. The default URL is [https://&lt;server&gt;:4502/crx/packmgr/index.jsp](https://%3Cserver%3E:4502/crx/packmgr/index.jsp).
 1. Click **Upload Package**, select the AEM Forms Automated Forms Conversion service package, and click **Upload**. After the package is uploaded, click package name, and click **Install**. The package is installed.
 
 ## Download and install Conversion Manager package  {#download-and-install-conversion-manager-package}
@@ -36,7 +36,7 @@ An AEM instance contains basic forms capabilities. Install AEM Forms add-on pack
 Conversion Manager package provides AEM cloud service configurations and Review and Correct editor for the conversion service. It also allows you to connect your AEM instance with conversion service running on Adobe I/O. Perform the following steps to download and install the package:
 
 1. Open the [AEM Forms Automated Forms Conversion Service Prerelease](../../../forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md) Program article, locate, and download the AEM Forms Automated Forms Conversion service package. 
-1. Log in to AEM instance as an administrator and open the Package Manager. The default URL is [http://&lt;server&gt;:4502/crx/packmgr/index.jsp](http://%3Cserver%3E:4502/crx/packmgr/index.jsp).
+1. Log in to AEM instance as an administrator and open the Package Manager. The default URL is [https://&lt;server&gt;:4502/crx/packmgr/index.jsp](https://%3Cserver%3E:4502/crx/packmgr/index.jsp).
 1. Click **Upload Package**, select the AEM Forms Automated Forms Conversion service package, and click **Upload**. After the package is uploaded, click package name, and click **Install**. The package is installed.
 
 ## Configure email notification {#configure-email-notification}

@@ -182,12 +182,12 @@ The source code for the AEM Forms app can be extracted from the adobe-lc-mobilew
 To get the AEM Forms app source, perform the following steps:
 
 1. Navigate to package share  
-   URL: `http://<server>:<port>/crx/packageshare`.
+   URL: `https://<server>:<port>/crx/packageshare`.
 
 1. Download the source package. When you download the package, it is added in your AEM Forms package manager.
-1. After it is downloaded, navigate to: `http://<server>:<port>/crx/packmgr/index.jsp`, and install `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
+1. After it is downloaded, navigate to: `https://<server>:<port>/crx/packmgr/index.jsp`, and install `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
 
-1. To download the package, open `http://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.   
+1. To download the package, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.   
    The source package is downloaded on your device.
 
 **For iOS**:
@@ -200,7 +200,7 @@ For details on how to sign the AEM Forms app with your provisioning profile, see
 
 For details on how to create an Android app (.apk), refer [Set up the Eclipse project and build the Android app](../../forms/using/setup-eclipse-project-build-installer.md).
 
-For details on how to sign the AEM Forms app, see [Signing Your Applications](http://developer.android.com/tools/publishing/app-signing.html).
+For details on how to sign the AEM Forms app, see [Signing Your Applications](https://developer.android.com/tools/publishing/app-signing.html).
 
 **For Windows**:
 

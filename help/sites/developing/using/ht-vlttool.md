@@ -13,7 +13,7 @@ discoiquuid: a76425e9-fd3b-4c73-80f9-0ebabb8fd94f
 
 # How to use the VLT Tool{#how-to-use-the-vlt-tool}
 
-The Jackrabbit FileVault tool (VLT) is a tool developed by [The Apache Foundation](http://www.apache.org/) that maps the content of a Jackrabbit/AEM instance to your file system. The VLT tool has similar functions as source control system client (such as a Subversion (SVN) client), providing normal check-in, check-out and management operations, as well as configuration options for flexible representation of the project content.
+The Jackrabbit FileVault tool (VLT) is a tool developed by [The Apache Foundation](https://www.apache.org/) that maps the content of a Jackrabbit/AEM instance to your file system. The VLT tool has similar functions as source control system client (such as a Subversion (SVN) client), providing normal check-in, check-out and management operations, as well as configuration options for flexible representation of the project content.
 
 You run the VLT tool from the command line. This document describes how to use the tool, including how to get started and get help, as well as a list of all [commands](#vlt-commands) and available [options](#vlt-global-options).
 
@@ -110,7 +110,7 @@ To guarantee that VLT and SVN configuration match, you should set up the `svn:eo
 Check out the repository using the source control system. In svn, for example, type the following (substituting the URI and path with your repository):
 
 ```shell
-svn co http://svn.server.com/repos/myproject
+svn co https://svn.server.com/repos/myproject
 ```
 
 ### Synchronizing with the repository {#synchronizing-with-the-repository}
@@ -252,8 +252,8 @@ To import and export content without using .vlt control:
 
    ```shell
    $ cd /projects
-   $ svn mkdir http://svn.server.com/repos/myproject
-   $ svn co http://svn.server.com/repos/myproject
+   $ svn mkdir https://svn.server.com/repos/myproject
+   $ svn co https://svn.server.com/repos/myproject
    $ vlt export -v http://localhost:4502/crx /apps/geometrixx geometrixx
    $ cd geometrixx/
    $ svn add META-INF/ jcr_root/
@@ -1124,7 +1124,7 @@ rcp -q|-r|-b <size>|-t <seconds>|-u|-n|-e <arg1> [<arg2> ...] <src> <dst>
 #### Examples {#examples-3}
 
 ```shell
-vlt rcp http://localhost:4502/crx/-/jcr:root/content  http://admin:admin@localhost:4503/crx/-/jcr:root/content_copy  
+vlt rcp http://localhost:4502/crx/-/jcr:root/content  https://admin:admin@localhost:4503/crx/-/jcr:root/content_copy  
 ```
 
 >[!NOTE]

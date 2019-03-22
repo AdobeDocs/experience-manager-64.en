@@ -45,7 +45,7 @@ Check this by going to /etc/replication/agents.author.html then click on the rep
 
 1. It is possible that a certain piece of content cannot be serialized under /var/replication/data due to repository corruption or some other issue. Check the logs/error.log for a related error. To clear out the bad replication item, do the following:
 
-    1. Go to http://&lt;host&gt;:&lt;port&gt;/crx and login as admin user. In CQ5.5 go to http://&lt;host&gt;:&lt;port&gt;/crx/explorer instead.
+    1. Go to https://&lt;host&gt;:&lt;port&gt;/crx and login as admin user. In CQ5.5 go to https://&lt;host&gt;:&lt;port&gt;/crx/explorer instead.
     1. Click on "Content Explorer".
     1. In the "Content Explorer" window click on the magnifying glass button on the top right of the window and a search dialog will pop up.
     1. Select the "XPath" radio button.
@@ -67,7 +67,7 @@ Check this by going to /etc/replication/agents.author.html then click on the rep
 
 Sometimes it can be very helpful to set all replication logging to be added in a separate log file at DEBUG level. To do this:
 
-1. Go to http://host:port/system/console/configMgr and login as admin.
+1. Go to https://host:port/system/console/configMgr and login as admin.
 1. Find the Apache Sling Logging Logger factory and create an instance by clicking the **+** button on the right of the factory configuration. This will create a new logging logger.
 1. Set the configuration like this:
 

@@ -23,15 +23,15 @@ These instructions describe how to connect to the MySQL server and establish the
 * [JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbc-driver-for-mysql)
 * a relational database:
 
-    * [MySQL server](http://dev.mysql.com/downloads/mysql/) Community Server version 5.6 or later
+    * [MySQL server](https://dev.mysql.com/downloads/mysql/) Community Server version 5.6 or later
 
         * may run on same host as AEM or run remotely
 
-    * [MySQL workbench](http://dev.mysql.com/downloads/tools/workbench/)
+    * [MySQL workbench](https://dev.mysql.com/downloads/tools/workbench/)
 
 ## Installing MySQL {#installing-mysql}
 
-[MySQL](http://dev.mysql.com/downloads/mysql/) should be downloaded and installed following the instructions for the target OS.
+[MySQL](https://dev.mysql.com/downloads/mysql/) should be downloaded and installed following the instructions for the target OS.
 
 ### Lower case table names {#lower-case-table-names}
 

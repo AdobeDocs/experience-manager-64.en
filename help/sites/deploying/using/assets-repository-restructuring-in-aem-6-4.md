@@ -271,7 +271,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For the out of the box Viewer Preset, it will only available in the new location.</p> <p>For the Custom Viewer preset:</p> 
     <ul> 
-     <li>you will have to run a migration script to move the node from <span class="code">/etc</span> to <span class="code">/conf</span>. The script is located at <em>http://serveraddress:serverport/libs/settings/dam/dm/presets.migratedmcontent.json</em></li> 
+     <li>you will have to run a migration script to move the node from <span class="code">/etc</span> to <span class="code">/conf</span>. The script is located at <em>https://serveraddress:serverport/libs/settings/dam/dm/presets.migratedmcontent.json</em></li> 
      <li>or you can edit the configuration and they will be auto-saved to the new location.</li> 
     </ul> <p>Note that you do not have to adjust their copyURL/embed code to point to <span class="code">/conf</span>. The existing request to <span class="code">/etc</span> will be re-routed to the correct content from <span class="code">/conf</span>.</p> </td> 
   </tr> 

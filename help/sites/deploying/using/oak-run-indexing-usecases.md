@@ -96,7 +96,7 @@ The reports would be generated in `indexing-result/index-info.txt` and `indexing
 
 In addition same details are provided via the Web Console and would be part of the configuration dump zip. They can be accessed at the following location:
 
-*http://serverhost:serverport/system/console/status-oak-index-defn*
+*https://serverhost:serverport/system/console/status-oak-index-defn*
 
 ### Benefits {#uc2benefits}
 

@@ -36,9 +36,9 @@ Each of them is expained in more detail in the remainder of this How-To.
 
 ## Install Eclipse {#install-eclipse}
 
-Download the "Eclipse IDE for Java EE Developers" from the [Eclipse Downloads page](http://www.eclipse.org/downloads/).
+Download the "Eclipse IDE for Java EE Developers" from the [Eclipse Downloads page](https://www.eclipse.org/downloads/).
 
-Install Eclipse following the [Installation Instructions](http://wiki.eclipse.org/Eclipse/Installation).
+Install Eclipse following the [Installation Instructions](https://wiki.eclipse.org/Eclipse/Installation).
 
 ## Set up your AEM project based on Maven {#set-up-your-aem-project-based-on-maven}
 

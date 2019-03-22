@@ -27,7 +27,7 @@ The following AEM Forms short-lived process, named `MyApplication/EncryptDocumen
 
 >[!NOTE]
 >
->This process is not based on an existing AEM Forms process. To follow along with the code examples that discuss how to invoke this process, create a process named `MyApplication/EncryptDocument` using workbench. (See [Using Workbench](http://www.adobe.com/go/learn_aemforms_workbench_63).)
+>This process is not based on an existing AEM Forms process. To follow along with the code examples that discuss how to invoke this process, create a process named `MyApplication/EncryptDocument` using workbench. (See [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).)
 
 The client application built using Flash Builder interacts with the User Manager’s security servlet configured at `/um/login` and `/um/logout`. That is, the client application sends a request to the `/um/login` URL during startup to determine the status of the user. Then User Manager responds with the user status. The client application and the User Manager security servlet communicate using HTTP.
 
@@ -62,7 +62,7 @@ The security servlet configured at `/um/login` responds by using the `URLVariabl
 
 **Login process**
 
-When a client application starts, you can make a POST request to the `/um/login` security servlet. For example, `http://<your_serverhost>:<your_port>/um/login?um_no_redirect=true`. When the request reaches the User Manager security servlet, it performs the following steps:
+When a client application starts, you can make a POST request to the `/um/login` security servlet. For example, `https://<your_serverhost>:<your_port>/um/login?um_no_redirect=true`. When the request reaches the User Manager security servlet, it performs the following steps:
 
 1. It looks for a cookie named `lcAuthToken`. If the user has already logged in to another Forms application, then this cookie is present. If the cookie is found, then its content is validated.
 1. If Header based SSO is enabled, then the servlet looks for configured headers to determine the user's identity.
@@ -71,7 +71,7 @@ When a client application starts, you can make a POST request to the `/um/login`
 If the security servlet locates a valid token that matches a user, the security servlet lets you proceed and responds with `authstate=COMPLETE`. Otherwise the security servlet responds with `authstate=CREDENTIAL_CHALLENGE`. The following list explains these values:
 
 * `Case authstate=COMPLETE`: Indicates that the user is authenticated and the `assertionid` value contains the assertion identifier for the user. At this stage, the client application can connect to AEM Forms. The servlet configured for that URL can obtain the `AuthResult` for the user by invoking the `AuthenticationManager.authenticate(HttpRequestToken)` method. The `AuthResult` instance can create the user manager context and store it in the session.
-* `Case authstate=CREDENTIAL_CHALLENGE`: Indicates that the security servlet requires the user's credentials. As a response, the client application can display the login screen to the user and send the obtained credential to the security servlet (for example, `http://<your_serverhost>:<your_port>/um/login?um_no_redirect=true&j_username=administrator&j_password=password)`. If authentication is successful, then the security servlet responds with `authstate=COMPLETE`.
+* `Case authstate=CREDENTIAL_CHALLENGE`: Indicates that the security servlet requires the user's credentials. As a response, the client application can display the login screen to the user and send the obtained credential to the security servlet (for example, `https://<your_serverhost>:<your_port>/um/login?um_no_redirect=true&j_username=administrator&j_password=password)`. If authentication is successful, then the security servlet responds with `authstate=COMPLETE`.
 
 If the authentication is still not successful, then the security servlet responds with `authstate=FAILED`. To respond to this value, the client application can display a message to obtain the credentials again.
 
@@ -83,7 +83,7 @@ If the authentication is still not successful, then the security servlet respond
 
 When a client application logs out, you can send a request to the following URL:
 
-`http://<your_serverhost>:<your_port>/um/logout?um_no_redirect=true`
+`https://<your_serverhost>:<your_port>/um/logout?um_no_redirect=true`
 
 On receiving this request, the User Manager security servlet deletes the `lcAuthToken` cookie and responds with `authstate=LOGGED_OUT`. After the client application receives this value, the application can perform cleanup tasks.
 
@@ -183,7 +183,7 @@ The following code represents the SSOStandalone.mxml file.
                      s = givenUrl; 
                  } 
                  if(s== null){ 
-                     s = "http://hiro-xp:8080/"; 
+                     s = "https://hiro-xp:8080/"; 
                  } 
                  s = URLUtil.getFullURL(s,"/"); 
                  trace("[Main] Would be using ["+s+"] as serverUrl"); 
@@ -711,7 +711,7 @@ The following code represents the remoting.mxml file that invokes the `MyApplica
              // once for the entire application. 
              private function initializeChannelSet():void { 
                  cs = new ChannelSet();  
-                 cs.addChannel(new AMFChannel("remoting-amf", "http://" + serverPort + "/remoting/messagebroker/amf"));  
+                 cs.addChannel(new AMFChannel("remoting-amf", "https://" + serverPort + "/remoting/messagebroker/amf"));  
                  EncryptDocument.channelSet = cs; 
               
              //Get the user that is authenticated 
@@ -751,7 +751,7 @@ The following code represents the remoting.mxml file that invokes the `MyApplica
              private function authTokenReceived(event:ResultEvent):void 
              { 
                  var token:String = event.result as String; 
-                 var request:URLRequest = DocumentReference.constructRequestForUpload("http://hiro-xp:8080", token); 
+                 var request:URLRequest = DocumentReference.constructRequestForUpload("https://hiro-xp:8080", token); 
                   
                  try 
                  { 

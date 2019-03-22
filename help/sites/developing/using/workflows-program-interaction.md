@@ -60,7 +60,7 @@ The following table provides links to the reference documentation of several key
 
 ## Obtaining Workflow Objects in ECMA Scripts {#obtaining-workflow-objects-in-ecma-scripts}
 
-As described in [Locating the Script](../../../sites/developing/using/the-basics.md#locating-the-script), AEM (via Apache Sling) provides an ECMA script engine that executes server-side ECMA scripts. The [ `org.apache.sling.scripting.core.ScriptHelper`](http://sling.apache.org/apidocs/sling5/org/apache/sling/scripting/core/ScriptHelper.html) class is immediately available to your scripts as the `sling` variable.
+As described in [Locating the Script](../../../sites/developing/using/the-basics.md#locating-the-script), AEM (via Apache Sling) provides an ECMA script engine that executes server-side ECMA scripts. The [ `org.apache.sling.scripting.core.ScriptHelper`](https://sling.apache.org/apidocs/sling5/org/apache/sling/scripting/core/ScriptHelper.html) class is immediately available to your scripts as the `sling` variable.
 
 The `ScriptHelper` class provides access to the `SlingHttpServletRequest` that you can use to eventually obtain the `WorkflowSession` object; for example:
 

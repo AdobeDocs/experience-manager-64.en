@@ -13,7 +13,7 @@ discoiquuid: 69f62a38-7991-4009-8db7-ee8fd35dc535
 
 # How to programmatically access the AEM JCR{#how-to-programmatically-access-the-aem-jcr}
 
-You can programmatically modify nodes and properties located within the Adobe CQ repository, which is part of the Adobe Marketing Cloud. To access the CQ repository, you use the Java Content Repository (JCR) API. You can use the Java JCR API to perform create, replace, update, and delete (CRUD) operations on content located within the Adobe CQ repository. For more information about the Java JCR API, see [http://jackrabbit.apache.org/jcr/jcr-api.html](http://jackrabbit.apache.org/jcr/jcr-api.html).
+You can programmatically modify nodes and properties located within the Adobe CQ repository, which is part of the Adobe Marketing Cloud. To access the CQ repository, you use the Java Content Repository (JCR) API. You can use the Java JCR API to perform create, replace, update, and delete (CRUD) operations on content located within the Adobe CQ repository. For more information about the Java JCR API, see [https://jackrabbit.apache.org/jcr/jcr-api.html](https://jackrabbit.apache.org/jcr/jcr-api.html).
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ You can programmatically modify nodes and properties located within the Adobe CQ
 
 >[!NOTE]
 >
->To use the JCR API, add the jackrabbit-standalone-2.4.0.jar file to your Java application’s class path. You can obtain this JAR file from the Java JCR API web page at [http://jackrabbit.apache.org/jcr/jcr-api.html](http://jackrabbit.apache.org/jcr/jcr-api.html).
+>To use the JCR API, add the jackrabbit-standalone-2.4.0.jar file to your Java application’s class path. You can obtain this JAR file from the Java JCR API web page at [https://jackrabbit.apache.org/jcr/jcr-api.html](https://jackrabbit.apache.org/jcr/jcr-api.html).
 
 >[!NOTE]
 >

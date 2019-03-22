@@ -117,7 +117,7 @@ You can now submit the form and validate on the Adobe Campaign side whether the 
 
 ## Troubleshooting {#troubleshooting}
 
-**"Invalid type for value '02/02/2015' from element '@eventdate' (document of type 'Event ([adb:event](http://adbevent/))')"**
+**"Invalid type for value '02/02/2015' from element '@eventdate' (document of type 'Event ([adb:event](https://adbevent/))')"**
 
 When submitting the form, this error is logged in the **error.log** in AEM.
 

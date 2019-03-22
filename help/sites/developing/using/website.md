@@ -192,7 +192,7 @@ Add code to the contentpage.jsp script to define the page content.
    <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
        pageEncoding="ISO-8859-1"%>
    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
-   "http://www.w3.org/TR/html4/loose.dtd">
+   "https://www.w3.org/TR/html4/loose.dtd">
    <html>
    <head>
    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -294,7 +294,7 @@ For example, in your component JSP code, you can reference the scripts that the 
    ```xml
    <%@include file="/libs/foundation/global.jsp"%><%
    %><%@page session="false" contentType="text/html; charset=utf-8" %><%
-   %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+   %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">
    <html>
    <cq:include script="head.jsp"/>
    <cq:include script="body.jsp"/>

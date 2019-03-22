@@ -12,7 +12,7 @@ discoiquuid: 9cd22244-9aa6-4b5f-96cf-c9cb3d6f9c8a
 
 # Creating a custom profile for HTML5 forms{#creating-a-custom-profile-for-html-forms}
 
-A profile is a resource node in [Apache Sling](http://sling.apache.org/). It represents custom version of HTML5 forms rendition service. You can use the HTML5 forms Rendition service to customize appearance, behavior, and interactions of the HTML5 forms. A profile node exists in the `/content` folder in the JCR repository. You can place the node directly under the `/content` folder or any subfolder of the `/content` folder.
+A profile is a resource node in [Apache Sling](https://sling.apache.org/). It represents custom version of HTML5 forms rendition service. You can use the HTML5 forms Rendition service to customize appearance, behavior, and interactions of the HTML5 forms. A profile node exists in the `/content` folder in the JCR repository. You can place the node directly under the `/content` folder or any subfolder of the `/content` folder.
 
 The profile node has the **sling:resourceSuperType **property and the default value is **xfaforms/profile**. The render script for the node is at /libs/xfaforms/profile.
 
@@ -52,7 +52,7 @@ To create a custom profile, perform the following steps:
 
 ### Create Profile Node {#create-profile-node}
 
-1. Navigate to the CRX DE interface at the URL: `http://[server]:[port]/crx/de` and log in to the interface with administrator credentials.  
+1. Navigate to the CRX DE interface at the URL: `https://[server]:[port]/crx/de` and log in to the interface with administrator credentials.  
 
 1. In the left pane, navigate to the location */content/xfaforms/profiles*.  
 
@@ -74,7 +74,7 @@ After creating a custom profile, add render information to this profile. On rece
 1. Paste **html.jsp** node into the `/apps/hrform/demo` folder created above with same name **html.jsp** and click **Save**.
 1. If you have any other components of profile script, follow step 1-6 to copy the components in /apps/hrform/demo folder.  
 
-1. To verify that th profile is created, open URL http://[server]:[port]/content/xfaforms/profiles/hrform.html
+1. To verify that th profile is created, open URL https://[server]:[port]/content/xfaforms/profiles/hrform.html
 
 To verify your forms, [Import your forms](../../forms/using/get-xdp-pdf-documents-aem.md) from your local file system to AEM Forms and [preview the form](../../forms/using/previewing-forms.md) on AEM server author instance.
 

@@ -237,7 +237,7 @@ You can find the code of this page on GitHub
 The following procedure requires that you have added the adobe-public profile to your Maven settings file.
 
 * For information about the adobe-public profile, see [Obtaining the Content Package Maven Plugin](../../../sites/developing/using/vlt-mavenplugin.md#obtaining-the-content-package-maven-plugin)
-* For information about the Maven settings file, see the Maven [Settings Reference](http://maven.apache.org/settings.html).
+* For information about the Maven settings file, see the Maven [Settings Reference](https://maven.apache.org/settings.html).
 
 1. Open a terminal or command-line session and change the directory to point to the location of where to create the project.
 1. Enter the following command:

@@ -391,7 +391,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 
 * General
 
-    * Server URLs are required to point to the server without a path (e.g. *http://server*, *https://server*, *http://server:port*, or *https://server:port*). Context paths and sub-folders other than /content/dam are not supported (CQ-89343, CQ-87272)
+    * Server URLs are required to point to the server without a path (e.g. *https://server*, *https://server*, *https://server:port*, or *https://server:port*). Context paths and sub-folders other than /content/dam are not supported (CQ-89343, CQ-87272)
 
 * File names / localization
 
@@ -430,7 +430,7 @@ For detailed instructions, see [install and configure AEM Desktop app](https://h
 
 ## Helpful resources {#helpful-resources}
 
-* [Adobe Experience Manager Product Page](http://www.adobe.com/solutions/web-experience-management.html)
+* [Adobe Experience Manager Product Page](https://www.adobe.com/solutions/web-experience-management.html)
 * [AEM Documentation](https://helpx.adobe.com/support/experience-manager/6-3.html)
 * [AEM Desktop App Documentation](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/aem-desktop-app.html)
 * [AEM Desktop App Best Practices](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html)

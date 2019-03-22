@@ -26,7 +26,7 @@ Use of such accounts is transparent to your users, they see no difference betwee
 In AEM 6, LDAP support comes with a new implementation that requires a different type of configuration than with previous versions.
 
 All LDAP configurations are now available as OSGi configurations. They can be configured via the Web Management console at:  
-`http://serveraddress:4502/system/console/configMgr`
+`https://serveraddress:4502/system/console/configMgr`
 
 In order to have LDAP working with AEM, you need to create three OSGi configurations:
 
@@ -36,7 +36,7 @@ In order to have LDAP working with AEM, you need to create three OSGi configurat
 
 >[!NOTE]
 >
->Watch [Oak's External Login Module - Authenticating with LDAP and Beyond](http://docs.adobe.com/content/ddc/en/gems/oak-s-external-login-module---authenticating-with-ldap-and-beyon.html#) to deep dive External Login Modules.
+>Watch [Oak's External Login Module - Authenticating with LDAP and Beyond](https://docs.adobe.com/content/ddc/en/gems/oak-s-external-login-module---authenticating-with-ldap-and-beyon.html#) to deep dive External Login Modules.
 >
 >To read an example of configuring Experience Manager with Apache DS, see [Configuring Adobe Experience Manager 6.4 to use Apache Directory Service.](https://helpx.adobe.com/experience-manager/using/configuring-aem64-apache-directory-service.html)
 
@@ -294,7 +294,7 @@ If a user is removed from a group on the LDAP server, the change will also be re
 
 AEM detects and handles the purging of users from external groups by making use of the `rep:externalId` property. This property is added automatically to any user or group that is synchronized by the Synchronization Handler and it contains information on the originating identity provider.
 
-For more information, see Apache Oak documentation on [User and Group Synchronization](http://jackrabbit.apache.org/oak/docs/security/authentication/usersync.html).
+For more information, see Apache Oak documentation on [User and Group Synchronization](https://jackrabbit.apache.org/oak/docs/security/authentication/usersync.html).
 
 ## Known issues {#known-issues}
 

@@ -31,7 +31,7 @@ XSS is a top priority during both testing and development, and any issues found 
 
 ## 3. Broken Authentication and Session Management {#broken-authentication-and-session-management}
 
-AEM uses sound and proven authentication techniques, relying on [Apache Jackrabbit](http://jackrabbit.apache.org/) and [Apache Sling](http://sling.apache.org/). Browser/HTTP Sessions are not used in AEM.
+AEM uses sound and proven authentication techniques, relying on [Apache Jackrabbit](https://jackrabbit.apache.org/) and [Apache Sling](https://sling.apache.org/). Browser/HTTP Sessions are not used in AEM.
 
 ## 4. Insecure Direct Object References {#insecure-direct-object-references}
 
@@ -57,7 +57,7 @@ Sensitive data such as third-party credentials are stored in encrypted form usin
 
 ## 8. Failure to Restrict URL Access {#failure-to-restrict-url-access}
 
-The repository allows the setting of [finely-grained privileges (as specified by JCR)](http://www.day.com/specs/javax.jcr/javadocs/jcr-2.0/javax/jcr/security/package-summary.html) for any given user or group at any given path, through access control entries. Access restrictions are enforced by the repository.
+The repository allows the setting of [finely-grained privileges (as specified by JCR)](https://www.day.com/specs/javax.jcr/javadocs/jcr-2.0/javax/jcr/security/package-summary.html) for any given user or group at any given path, through access control entries. Access restrictions are enforced by the repository.
 
 ## 9. Insufficient Transport Layer Protection {#insufficient-transport-layer-protection}
 

@@ -54,9 +54,9 @@ Porlet preferences can be configured at deployment time in the portal server or 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd"
-             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd /opt/SUNWps/dtd/portlet.xsd"
+<portlet-app xmlns="https://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd"
+             xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd /opt/SUNWps/dtd/portlet.xsd"
              version="1.0">
    <portlet>
       <portlet-name>RSSWeatherPortlet</portlet-name>
@@ -71,7 +71,7 @@ Porlet preferences can be configured at deployment time in the portal server or 
       </init-param>
       <init-param>
          <name>base_url</name>
-         <value>http://xml.weather.yahoo.com/forecastrss?p=</value>
+         <value>https://xml.weather.yahoo.com/forecastrss?p=</value>
       </init-param>
       <expiration-cache>180</expiration-cache>
       <supports>
@@ -89,7 +89,7 @@ Porlet preferences can be configured at deployment time in the portal server or 
          </preference>
          <preference>
             <name>RssXml</name>
-            <value>http://xml.weather.yahoo.com/forecastrss?p=33145</value>
+            <value>https://xml.weather.yahoo.com/forecastrss?p=33145</value>
             <read-only>false</read-only>
          </preference>
       </portlet-preferences>
@@ -200,7 +200,7 @@ To configure a replication agent for the portal:
 1. In the **URI **field, enter the flush URI (URL) of the portlet. The URI is in the following form:
 
    ```xml
-   http://<wps-host>:<port>/<wps-context>/<cq5-portlet-context>/cqbridge/cqpcache
+   https://<wps-host>:<port>/<wps-context>/<cq5-portlet-context>/cqbridge/cqpcache
    ```
 
    ![](assets/screen_shot_2012-02-15at42322pm.png)
@@ -223,7 +223,7 @@ You can manually flush the portlet cache by accessing the same URL configured fo
 
 For example:
 
-`http://10.0.20.99:10040/wps/PA_CQ5_Portlet/cqbridge/cqpcache?Path=*` flushes the complete cache. `http://10.0.20.99:10040/wps/PA_CQ5_Portlet/cqbridge/cqpcache?Path=/content/mypage/xyz` flushes `/content/mypage/xyz` from the cache.
+`https://10.0.20.99:10040/wps/PA_CQ5_Portlet/cqbridge/cqpcache?Path=*` flushes the complete cache. `https://10.0.20.99:10040/wps/PA_CQ5_Portlet/cqbridge/cqpcache?Path=/content/mypage/xyz` flushes `/content/mypage/xyz` from the cache.
 
 ### Portal Security {#portal-security}
 
@@ -253,7 +253,7 @@ To access the portlet's authentication configuration:
 
    For example, in its default configuration:
 
-   `http://wps-host:10040/wps/PA_CQ5_Portlet/cqbridge/system/console`
+   `https://wps-host:10040/wps/PA_CQ5_Portlet/cqbridge/system/console`
 
 1. Log in to the Web console. The default credentials are `admin/admin`. 
 1. In the console, select **Configuration**.
@@ -324,7 +324,7 @@ Before SSO can be enabled for AEM WCM, the underlying repository needs to be con
 
 To enable SSO in AEM WCM, access the relevant configuration entry in the AEM WCM's Apache Felix Web Management Console (OSGi):
 
-1. Access the console through its URI at http://&lt;AEM-host&gt;:&lt;port&gt;/system/console.
+1. Access the console through its URI at https://&lt;AEM-host&gt;:&lt;port&gt;/system/console.
 1. In the Configuration menu, select SSO Authentication Handler. In this example, the SSO handler accepts SSO requests for all paths based on the cookie provided by the AEM portlet. Your configuration may vary.
 
    | Path  |/  |Enables SSO handler for all requests  |
@@ -341,7 +341,7 @@ In order for the underlying AEM WCM instance to accept SSO requests, the portlet
 
 To enable SSO authentication in a AEM portlet:
 
-1. Access the console through its URI at http://&lt;aem-host&gt;:&lt;port&gt;/system/console.
+1. Access the console through its URI at https://&lt;aem-host&gt;:&lt;port&gt;/system/console.
 1. In the Configuration menu, select Day Portal Director Authenticator from the list of available configurations.
 1. In Mode, select SSO. Leave the other parameters with their default values.
 
@@ -649,7 +649,7 @@ The AEM Quickstart JAR file contains the portlet component files. To obtain the 
     * Execute Quickstart: crx-quickstart/opt/portal
     * Extract Quickstart contents: static/opt/portal
 
-1. Open Package Manager of the CQ5 author instance that is deployed to the application server. (http://*appserverhost*:*port*/cq5author/crx/packmgr)
+1. Open Package Manager of the CQ5 author instance that is deployed to the application server. (https://*appserverhost*:*port*/cq5author/crx/packmgr)
 
 1. Use Package Manager to [Upload and install](../../../sites/administering/using/package-manager.md#uploading-packages-from-your-file-system) the cq-portlets-components.zip package.
 
@@ -745,7 +745,7 @@ To install the portlet:
 1. Navigate to the Portlet Management part of your web portal.
 1. Click Install and browse to the AEM portlet application (cq-portlet-webapp.war) you downloaded and enter other important information about the portlet.
 
-   For other essential portlet information, you can either accept the defaults or change the values. If you accept the default values, the portlet is available at http://&lt;wps-host&gt;:&lt;port&gt;/wps/PA_CQ5_Portlet. The OSGi administration console provided by the portlet is available at http://&lt;wps-host&gt;:&lt;port&gt;/wps/ PA_CQ5_Portlet/cqbridge/system/console (default username/password is admin/admin).
+   For other essential portlet information, you can either accept the defaults or change the values. If you accept the default values, the portlet is available at https://&lt;wps-host&gt;:&lt;port&gt;/wps/PA_CQ5_Portlet. The OSGi administration console provided by the portlet is available at https://&lt;wps-host&gt;:&lt;port&gt;/wps/ PA_CQ5_Portlet/cqbridge/system/console (default username/password is admin/admin).
 
 1. Ensure that the portlet application automatically starts by selecting that option or check box and save your changes. You see a message that your installation was successful.
 
@@ -764,7 +764,7 @@ To configure the portlet:
 
 1. Save the configuration changes in the app server.  
 
-1. Navigate to the OSGI admin console for the portlet. The default location is `http://<wps-host>:<port>/wps/PA_CQ5_Portlet/cqbridge/system/console/configMgr`. The default username/password is **admin/admin**.  
+1. Navigate to the OSGI admin console for the portlet. The default location is `https://<wps-host>:<port>/wps/PA_CQ5_Portlet/cqbridge/system/console/configMgr`. The default username/password is **admin/admin**.  
 
 1. Select the **Day Portal Director CQ Server Configuration** configuration and edit the following values:
 

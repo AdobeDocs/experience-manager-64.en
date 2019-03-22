@@ -31,10 +31,10 @@ It offers several features that make AEM development easier:
 
 Before using the AEM Developper Tools, you need to:
 
-* Download and install [Eclipse IDE for Java EE Developers](http://eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunar). We currently support Eclipse Kepler or newer  
+* Download and install [Eclipse IDE for Java EE Developers](https://eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunar). We currently support Eclipse Kepler or newer  
 
 * We support AEM version 5.6.1 or newer  
-* Configure your eclipse installation to ensure that you have at least 1 Giga bytes of Heap memory by editing your `eclipse.ini` configuration file as described in the [Eclipse FAQ](http://wiki.eclipse.org/FAQ_How_do_I_increase_the_heap_size_available_to_Eclipse%3F).
+* Configure your eclipse installation to ensure that you have at least 1 Giga bytes of Heap memory by editing your `eclipse.ini` configuration file as described in the [Eclipse FAQ](https://wiki.eclipse.org/FAQ_How_do_I_increase_the_heap_size_available_to_Eclipse%3F).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Before using the AEM Developper Tools, you need to:
 
 Once you have fulfilled the [requirements](#requirements) above, you can install the plugin as follows:
 
-1. Browse the [**AEM** Developer Tools Web Site](http://eclipse.adobe.com/aem/dev-tools/).  
+1. Browse the [**AEM** Developer Tools Web Site](https://eclipse.adobe.com/aem/dev-tools/).  
 
 1. Copy the **Installation Link**.
 
@@ -152,9 +152,9 @@ The official Apache Sling IDE tooling for Eclipse website provides you with usef
 * The [Troubleshooting section](https://sling.apache.org/documentation/development/ide-tooling.html#troubleshooting).
 * The [Known issues list](https://sling.apache.org/documentation/development/ide-tooling.html#known-issues).
 
-The following official [Eclipse](http://eclipse.org/) documentation can help to set up your environment:
+The following official [Eclipse](https://eclipse.org/) documentation can help to set up your environment:
 
-* [Getting Started with Eclipse](http://eclipse.org/users/)
-* [Eclipse Luna Help System](http://help.eclipse.org/luna/index.jsp)
-* [Maven Integration (m2eclipse)](http://www.eclipse.org/m2e/)
+* [Getting Started with Eclipse](https://eclipse.org/users/)
+* [Eclipse Luna Help System](https://help.eclipse.org/luna/index.jsp)
+* [Maven Integration (m2eclipse)](https://www.eclipse.org/m2e/)
 

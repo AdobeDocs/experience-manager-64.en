@@ -51,12 +51,12 @@ Check the following parameters:
 ## Problem: Unable to render a form (an error message is displayed) {#problem-unable-to-render-a-form-an-error-message-is-displayed}
 
 1. Ensure that the specified parameters are correct. For detailed information on parameters, see [Render Parameters](../../forms/using/debug.md#main-pars-table).
-1. Log in to CRX Package Manager(at http://&lt;server&gt;:&lt;port&gt;/crx/packmgr/index.jsp) and check whether the following packages are correctly installed:
+1. Log in to CRX Package Manager(at https://&lt;server&gt;:&lt;port&gt;/crx/packmgr/index.jsp) and check whether the following packages are correctly installed:
 
     * adobe-lc-forms-content-pkg-&lt;version&gt;.zip
     * adobe-lc-forms-runtime-pkg-&lt;version&gt;.zip
 
-1. Log in to CQ Web Console (Felix Console) at http://&lt;server&gt;:&lt;port&gt;/system/console/bundles.  
+1. Log in to CQ Web Console (Felix Console) at https://&lt;server&gt;:&lt;port&gt;/system/console/bundles.  
    Ensure that the status of the following bundles is "active":
 
     * scala-lang.bundle [osgi] (com.adobe.livecyclescala-lang.bundle)
@@ -66,7 +66,7 @@ Check the following parameters:
 ## Problem: Form renders without styles {#problem-form-renders-without-styles}
 
 1. In your browser, open **Developer Tools. **Ensure that profile.css is available.
-1. If the profile.css file is not available, login to CRX DE at http://&lt;server&gt;:&lt;port&gt;/crx/de.
+1. If the profile.css file is not available, login to CRX DE at https://&lt;server&gt;:&lt;port&gt;/crx/de.
 1. In the folder hierarchy on the left, navigate to /etc/clientlibs/fd/xfaforms/. Open css.txt files listed in the folders.
 
     * profile
@@ -90,7 +90,7 @@ Check the following parameters:
 
 ### Problem: Unexpected error encountered {#problem-unexpected-error-encountered}
 
-1. In the form URL, add a query parameter debugClientLibs and set its value to true (For example: http://&lt;server&gt;:&lt;port&gt;/content/xfaforms/profiles/test.html?contentRoot=&lt;some path&gt;&template=&lt;name of xdp file&gt;&log=1-a9-b9-c9&**debugClientLibs=true**)
+1. In the form URL, add a query parameter debugClientLibs and set its value to true (For example: https://&lt;server&gt;:&lt;port&gt;/content/xfaforms/profiles/test.html?contentRoot=&lt;some path&gt;&template=&lt;name of xdp file&gt;&log=1-a9-b9-c9&**debugClientLibs=true**)
 1. In the desktop browser like chrome, go to Developer Tools -&gt; Console.
 1. Open the logs to identify the type of error. For detailed information on logs, see [logs for HTML5 forms](../../forms/using/enable-logs.md).
 1. Go to Developer Tools -&gt; Console. Use stack trace to locate the code which is causing the error. Debug the error to resolve the issue.
@@ -109,7 +109,7 @@ Check the following parameters:
 ## Problem: Localized error messages do not display {#problem-localized-error-messages-do-not-display}
 
 1. Render the form with additional query parameter **debugClientLibs=true** in the desktop browser, and then go to Developer Tools -&gt; Resources and check for the file I18N.css.
-1. If the file is not available, login into CRX DE at http://&lt;server&gt;:&lt;port&gt;/crx/de.
+1. If the file is not available, login into CRX DE at https://&lt;server&gt;:&lt;port&gt;/crx/de.
 1. In the folder hierarchy on the left, navigate to /libs/fd/xfaforms/clientlibs/I18N and ensure that the following files and folders exist:
 
     * Namespace.js

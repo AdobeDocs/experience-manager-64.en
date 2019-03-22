@@ -13,7 +13,7 @@ discoiquuid: 1f920892-c52e-42ca-900c-2c7ab3c503b3
 
 # Product Feed{#product-feed}
 
-AEM integrates with [Search&Promote](http://www.adobe.com/solutions/testing-targeting/searchandpromote.html) and allows you to:
+AEM integrates with [Search&Promote](https://www.adobe.com/solutions/testing-targeting/searchandpromote.html) and allows you to:
 
 * use the eCommerce API, independently of the underlying repository structure and commerce platform.
 * leverage the Index Connector feature of Search&Promote to provide a product feed in XML format.

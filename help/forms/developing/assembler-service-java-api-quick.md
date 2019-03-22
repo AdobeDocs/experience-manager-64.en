@@ -95,7 +95,7 @@ The following Java code example merges two PDF source documents named* map.pdf* 
      * 
      * The following XML represents the DDX document used in this quick start: 
      * <?xml version="1.0" encoding="UTF-8"?> 
-     * <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     * <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <PDF result="out.pdf"> 
      * <PDF source="map.pdf" /> 
      * <PDF source="directions.pdf" /> 
@@ -116,7 +116,7 @@ The following Java code example merges two PDF source documents named* map.pdf* 
          try{ 
              //Set connection properties required to invoke AEM Forms using SOAP mode                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -239,7 +239,7 @@ The following Java code example disassembles a PDF document named *AssemblerResu
      * 
      * The following XML represents the DDX document used in this quick start: 
      * <?xml version="1.0" encoding="UTF-8"?> 
-     *<DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     *<DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <PDFsFromBookmarks prefix="stmt"> 
      * <PDF source="AssemblerResultPDF.pdf"/> 
      *</PDFsFromBookmarks> 
@@ -259,7 +259,7 @@ The following Java code example disassembles a PDF document named *AssemblerResu
          try{ 
              //Set connection properties required to invoke AEM Forms                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -378,7 +378,7 @@ The following Java code example assembles a password-encrypted PDF document. The
      * 
      * The following XML represents the DDX document used in this quick start: 
      *<?xml version="1.0" encoding="UTF-8"?> 
-     * <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     * <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <PDF result="EncryptLoan.pdf" encryption="userProtect"> 
      * <PDF source="inDoc" /> 
      * </PDF> 
@@ -402,7 +402,7 @@ The following Java code example assembles a password-encrypted PDF document. The
          try{ 
              //Set connection properties required to invoke AEM Forms using SOAP mode                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -501,7 +501,7 @@ The following Java code example assembles a PDF document with unique page identi
      * 
      * The following XML represents the DDX document used in this quick start: 
      * <?xml version="1.0" encoding="UTF-8"?> 
-     * <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     * <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <PDF result="out.pdf"> 
      * <Header> 
      * <Center> 
@@ -531,7 +531,7 @@ The following Java code example assembles a PDF document with unique page identi
          try{ 
              //Set connection properties required to invoke AEM Forms using SOAP mode                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -659,7 +659,7 @@ The following Java code example assembles a non-interactive PDF document. The in
      * 
      * The following XML represents the DDX document used in this quick start: 
      * <?xml version="1.0" encoding="UTF-8"?> 
-     * <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     * <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <PDF result="out.pdf"> 
      * <PDF source="inDoc"/> 
      * <NoXFA/> 
@@ -680,7 +680,7 @@ The following Java code example assembles a non-interactive PDF document. The in
          try{ 
              //Set connection properties required to invoke AEM Forms                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -783,7 +783,7 @@ The following Java code example determines whether the input PDF document is PDF
      * 
      * This quick start validates the following DDX document: 
      *<?xml version="1.0" encoding="UTF-8"?> 
-     *<DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     *<DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <DocumentInformation source="Loan.pdf" result="Loan_result.xml"> 
      * <PDFAValidation compliance="PDF/A-1b" resultLevel="Detailed" ignoreUnusedResources="true" allowCertificationSignatures="true" /> 
      * </DocumentInformation> 
@@ -804,7 +804,7 @@ The following Java code example determines whether the input PDF document is PDF
          try{ 
              //Set connection properties required to invoke AEM Forms using SOAP mode                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -929,7 +929,7 @@ The following Java code example validates a DDX document based on a file named *
      * 
      * This quick start validates the following DDX document: 
      *&<?xml version="1.0" encoding="UTF-8"?> 
-     * <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     * <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <PDF result="out.pdf"> 
      * <PDF source="map.pdf" /> 
      * <PDF source="directions.pdf" /> 
@@ -954,7 +954,7 @@ The following Java code example validates a DDX document based on a file named *
          try{ 
              //Set connection properties required to invoke AEM Forms                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -1060,7 +1060,7 @@ The following Java code example assembles a PDF document that contains bookmarks
      * 
      * * This quick start uses the following DDX document: 
      * <?xml version="1.0" encoding="UTF-8"?> 
-     * <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     * <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <PDF result="FinalDoc.pdf"> 
      * <PDF source="Loan.pdf"> 
      * <Bookmarks source="doc2" /> 
@@ -1071,7 +1071,7 @@ The following Java code example assembles a PDF document that contains bookmarks
      * This quick start also uses the following bookmarks XML   
      * to assemble a PDF document containing bookmarks: 
      * <?xml version="1.0" encoding="UTF-8"?> 
-     * <Bookmarks xmlns="http://ns.adobe.com/pdf/bookmarks" version="1.0"> 
+     * <Bookmarks xmlns="https://ns.adobe.com/pdf/bookmarks" version="1.0"> 
      * <Bookmark> 
      * <Action> 
      * <Launch NewWindow="true"> 
@@ -1105,7 +1105,7 @@ The following Java code example assembles a PDF document that contains bookmarks
          try{ 
              //Set connection properties required to invoke AEM Forms using SOAP mode                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -1236,7 +1236,7 @@ The following Java code example dynamally creates a DDX document that disassembl
  *
  * The following XML represents the DDX document created in this quick start:
  * <?xml version="1.0" encoding="UTF-8"?>
- * <DDX xmlns="http://ns.adobe.com/DDX/1.0/">
+ * <DDX xmlns="https://ns.adobe.com/DDX/1.0/">
  * <PDF result="out.pdf">
  * <PDF source="inDoc"/>
  * <NoXFA/>
@@ -1264,7 +1264,7 @@ public class AssemblePDFWithDynamicDDXSOAP {
     //Set connection properties required to invoke AEM Forms using SOAP mode
     Properties connectionProps = new Properties();
     connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT,
-     "http://[server]:[port]");
+     "https://[server]:[port]");
     connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL, ServiceCl ientFactoryProperties.DSC_SOAP_PROTOCOL);
     connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE,
      "JBoss");
@@ -1324,7 +1324,7 @@ public class AssemblePDFWithDynamicDDXSOAP {
     document = builder.newDocument();
     //Create the root element and append it to the XML DOM
     Element root = (Element) document.createElement("DDX");
-    root.setAttribute("xmlns", "http://ns.adobe.com/DDX/1.0/");
+    root.setAttribute("xmlns", "https://ns.adobe.com/DDX/1.0/");
     document.appendChild(root);
     //Create the PDFsFromBookmarks element
     Element PDFsFromBookmarks =
@@ -1410,7 +1410,7 @@ The following Java code example creates a PDF portfolio. The PDF portfolio is sa
      * with AEM Forms 
      * 
      * This is the DDX file used to create a PDF portfolio: 
-     * <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     * <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <PDF result="portfolio1.pdf"> 
      * <Portfolio>   
      * <Navigator source="myNavigator">   
@@ -1444,7 +1444,7 @@ The following Java code example creates a PDF portfolio. The PDF portfolio is sa
          try{ 
              //Set connection properties required to invoke AEM Forms                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -1578,7 +1578,7 @@ The following Java code example assembles XDP fragments that are based on the fo
      * 
      * The following XML represents the DDX document used in this quick start: 
      * <?xml version="1.0" encoding="UTF-8"?> 
-     * <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+     * <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      * <XDP result="tuc018result.xdp"> 
      * <XDP source="tuc018_template_flowed.xdp"> 
      * <XDPContent insertionPoint="ddx_fragment" source="tuc018_contact.xdp" fragment="subPatientContact" required="false"/> 
@@ -1602,7 +1602,7 @@ The following Java code example assembles XDP fragments that are based on the fo
          try{ 
              //Set connection properties required to invoke AEM Forms                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -1737,7 +1737,7 @@ public class RedactPDF
         { 
             //Set connection properties required to invoke AEM Forms 
             Properties connectionProps = new Properties(); 
-            connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+            connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);          
             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 

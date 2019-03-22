@@ -72,7 +72,7 @@ New semantic block formats may be made available for selection by:
 1. [Specify the formats you want to have available in the Paragraphs selection field](../../../sites/administering/using/rich-text-editor.md#specifyingparagraphformatsavailableinthedropdownlist).
 1. The paragraph formats are then available to the content author from the selection fields in the RTE. They can be accessed:
 
-    * Using the paragraph ([pilcrow](http://en.wikipedia.org/wiki/Pilcrow)) icon in the touch-optimized UI:
+    * Using the paragraph ([pilcrow](https://en.wikipedia.org/wiki/Pilcrow)) icon in the touch-optimized UI:
 
    ![Paragraph (pilcrow) icon.](do-not-localize/chlimage_1-7.png)
 

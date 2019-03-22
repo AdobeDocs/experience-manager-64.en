@@ -128,7 +128,7 @@ The media handlers can be disabled or enabled through the Apache Felix Web Manag
 
 To enable/disable a media handler:
 
-1. In your browser, navigate to http://&lt;host&gt;:&lt;port&gt;/system/console/components.
+1. In your browser, navigate to https://&lt;host&gt;:&lt;port&gt;/system/console/components.
 1. Click the** Disable** button right beside the name of the media handler. For example: **com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
 1. Refresh the page: a** Disabled **icon is displayed beside the media handler.
 1. To enable the media handler, click the **Enable **button beside the name of the media handler.
@@ -232,8 +232,8 @@ After you perform the following procedure, when you upload a txt file into AEM, 
 1. Replace the code in the pom.xml file with the following code:
 
    ```xml
-   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+   <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion> 
     <!-- ====================================================================== --> 
     <!-- P A R E N T P R O J E C T D E S C R I P T I O N --> 
@@ -512,11 +512,11 @@ AEM enables you to run any command-line tool within a workflow to convert assets
 
 The following conversions can be automatically run and stored within AEM Assets:
 
-* EPS and AI transformation using [ImageMagick](http://www.imagemagick.org/script/index.php) and [Ghostscript](http://www.ghostscript.com/)
+* EPS and AI transformation using [ImageMagick](https://www.imagemagick.org/script/index.php) and [Ghostscript](https://www.ghostscript.com/)
 
-* FLV video transcoding using [FFmpeg](http://ffmpeg.org/)
-* MP3 encoding using [LAME](http://lame.sourceforge.net/)
-* Audio processing using [SOX](http://sox.sourceforge.net/)
+* FLV video transcoding using [FFmpeg](https://ffmpeg.org/)
+* MP3 encoding using [LAME](https://lame.sourceforge.net/)
+* Audio processing using [SOX](https://sox.sourceforge.net/)
 
 >[!NOTE]
 >
@@ -540,7 +540,7 @@ To do this, you will use ImageMagick. ImageMagick is a free software suite to cr
 
 First install ImageMagick on the disk hosting the AEM server:
 
-1. Install ImageMagick: please refer to the [ImageMagick documentation](http://www.imagemagick.org/script/download.php).
+1. Install ImageMagick: please refer to the [ImageMagick documentation](https://www.imagemagick.org/script/download.php).
 1. Set up the tool so you can run convert on the command line.
 1. To see if the tool is installed properly, run the following command `convert -h` on the command line.
 

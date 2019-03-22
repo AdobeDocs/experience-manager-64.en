@@ -42,7 +42,7 @@ AEM forms provides referer filtering, which can help prevent CSRF attacks. Here 
 1. The forms server checks the HTTP method used for invocation:
 
     * If it is POST, the forms server performs the referer header check.
-    * If it is GET, the forms server bypasses the referer check, unless CSRF_CHECK_GETS is set to true, in which case it performs the referer header check. CSRF_CHECK_GETS is specified in the web.xml file for your application. (See “Protecting from Cross-Site Request Forgery attacks” in [Hardening and Security guide](http://help.adobe.com/en_US/livecycle/11.0/HardeningSecurity/index.html).)
+    * If it is GET, the forms server bypasses the referer check, unless CSRF_CHECK_GETS is set to true, in which case it performs the referer header check. CSRF_CHECK_GETS is specified in the web.xml file for your application. (See “Protecting from Cross-Site Request Forgery attacks” in [Hardening and Security guide](https://help.adobe.com/en_US/livecycle/11.0/HardeningSecurity/index.html).)
 
 1. The forms server checks whether the requested URI is whitelisted:
 

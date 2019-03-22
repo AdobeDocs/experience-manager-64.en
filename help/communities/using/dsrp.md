@@ -78,7 +78,7 @@ On author, to access the Storage Configuration console
       *default*: * &lt;blank&gt;*
     
     * **Solr URL** 
-      *default*: http://127.0.0.1:8983/solr/
+      *default*: https://127.0.0.1:8983/solr/
     
     * **Solr Collection** 
       *default*: collection1
@@ -116,6 +116,6 @@ To reindex DSRP Solr, follow the documentation for [reindexing MSRP](../../commu
 For example, a curl command to re-index DSRP would look like this:
 
 ```shell
-curl -u admin:password -X POST -F path=/ http://host:port/services/social/datastore/rdb/reindex
+curl -u admin:password -X POST -F path=/ https://host:port/services/social/datastore/rdb/reindex
 ```
 

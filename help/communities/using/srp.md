@@ -38,7 +38,7 @@ See also:
 To understand SRP, it is helpful to understand the role of the AEM repository (OAK) in an AEM community site.
 
 **Java Content Repository (JCR)** 
-This standard defines a data model and application programming interface ([JCR API](http://jackrabbit.apache.org/jcr/jcr-api.html)) for content repositories. It combines characteristics of conventional file systems with those of relational databases, and adds a number of additional features that content applications often need.
+This standard defines a data model and application programming interface ([JCR API](https://jackrabbit.apache.org/jcr/jcr-api.html)) for content repositories. It combines characteristics of conventional file systems with those of relational databases, and adds a number of additional features that content applications often need.
 
 One implementation of JCR is the AEM repository, OAK.
 

@@ -169,7 +169,7 @@ By default, all variations of localhost and the current host names the server is
 To configure the referrer filter service:
 
 1. Open the Apache Felix console (**Configurations**) at:  
-   `http://<*server*>:<*port_number*>/system/console/configMgr`  
+   `https://<*server*>:<*port_number*>/system/console/configMgr`  
 
 1. Login as `admin`.
 1. In the **Configurations** menu, select:
@@ -180,7 +180,7 @@ To configure the referrer filter service:
    &lt;protocol&gt;://&lt;server&gt;:&lt;port&gt;   
    For example:
 
-    * `http://allowed.server:80` allows all requests from this server with the given port.
+    * `https://allowed.server:80` allows all requests from this server with the given port.
     * If you also want to allow https requests, you have to enter a second line.
     * If you allow all ports from that server you can use `0` as the port number.
 
@@ -305,7 +305,7 @@ Since AEM does not provide out of the box indexes for the `FormChooserServlet`, 
 
 In order to mitigate this, please follow the below steps:
 
-1. Go to the Web Console by pointing your browser to *http://serveraddress:serverport/system/console/configMgr* 
+1. Go to the Web Console by pointing your browser to *https://serveraddress:serverport/system/console/configMgr* 
 
 1. Search for **Day CQ WCM Form Chooser Servlet**
 1. After you click on the entry, disable the **Advanced Search Require** in the following window.  
@@ -318,7 +318,7 @@ WebDAV should be disabled on both the author and publish environments. This can 
 
 1. Connect to the **Felix Management Console** running on:
 
-   `http://<*host*>:<*port*>/system/console`
+   `https://<*host*>:<*port*>/system/console`
 
    For example `http://localhost:4503/system/console/bundles`.
 
@@ -414,7 +414,7 @@ In AEM 6.2 and older versions, the keys are stored in the repository under the `
 
 The recommended way to securely replicate the keys across your instances is to only replicate this node. You can selectively replicate nodes via CRXDE Lite:
 
-1. Open CRXDE Lite by going to *http://serrveraddress:4502/crx/de/index.jsp*
+1. Open CRXDE Lite by going to *https://serrveraddress:4502/crx/de/index.jsp*
 1. Select the `/etc/key` node. ``
 1. Go to the **Replication** tab.
 1. Press the **Replication** button.

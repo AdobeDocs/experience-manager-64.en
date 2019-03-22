@@ -18,7 +18,7 @@ discoiquuid: a65c5303-0ebd-43a9-a777-401042d8fcad
 
 The Forms service can render forms that are based on fragments that you create using Designer. A *fragment* is a reusable part of a form and is saved as a separate XDP file that can be inserted into multiple form designs. For example, a fragment can include an address block or legal text.
 
-Using fragments simplifies and speeds up the creation and maintenance of large numbers of forms. When creating a new form, you insert a reference to the required fragment and the fragment appears in the form. The fragment reference contains a subform that points to the physical XDP file. For information about creating form designs based on fragments, see [Forms Designer](http://www.adobe.com/go/learn_aemforms_designer_63)
+Using fragments simplifies and speeds up the creation and maintenance of large numbers of forms. When creating a new form, you insert a reference to the required fragment and the fragment appears in the form. The fragment reference contains a subform that points to the physical XDP file. For information about creating form designs based on fragments, see [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63)
 
 A fragment can include several subforms that are wrapped in a choice subform set. Choice subform sets control the display of subforms based on the flow of data from a data connection. You use conditional statements to determine which subform from within the set appears in the delivered form. For example, each subform in a set can include information for a particular geographic location and the subform that is displayed can be determined based on the location of the user.
 
@@ -40,7 +40,7 @@ When using the Assembler service, you are passing a form design that was assembl
 
 >[!NOTE]
 >
->For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]
 >

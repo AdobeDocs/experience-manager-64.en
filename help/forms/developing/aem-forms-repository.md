@@ -25,7 +25,7 @@ Notice that there is a file named Loan.xdp located in the FormsFolder. To access
 
 >[!NOTE]
 >
->For information about creating a Forms application using Workbench, see [Workbench Help](http://www.adobe.com/go/learn_aemforms_workbench_63).
+>For information about creating a Forms application using Workbench, see [Workbench Help](https://www.adobe.com/go/learn_aemforms_workbench_63).
 
 The path to a resource located in the AEM Forms repository is:
 
@@ -39,7 +39,7 @@ The following values show some examples of URI values:
 
 >[!NOTE]
 >
->You can browse the AEM Forms Repository by using a web browser. To browse the repository, enter the following URL into a web browser http://[server name]:[server port]/repository. You can verify quick start results that are associated with the Working with AEM Forms Repository section by using a web browser. For example, if you add content to the AEM Forms Repository, you can see the content in a web browser. (See [Quick Start (SOAP mode): Writing a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_writing_a_resource_using_the_java_api).)
+>You can browse the AEM Forms Repository by using a web browser. To browse the repository, enter the following URL into a web browser https://[server name]:[server port]/repository. You can verify quick start results that are associated with the Working with AEM Forms Repository section by using a web browser. For example, if you add content to the AEM Forms Repository, you can see the content in a web browser. (See [Quick Start (SOAP mode): Writing a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_writing_a_resource_using_the_java_api).)
 
 The repository API provides a number of operations that you can use to store and retrieve information from the repository. For example, you can obtain a list of resources or retrieve specific resources that are stored in the repository when a resource is needed as part of processing an application.
 
@@ -69,7 +69,7 @@ Using the Repository service API, you can accomplish the following tasks:
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Creating Folders {#creating-folders}
 
@@ -79,7 +79,7 @@ Files inherit access control lists (ACLs) from folders, and subfolders inherit A
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -212,7 +212,7 @@ You can programmatically write resources by using the Repository service Java AP
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -294,7 +294,7 @@ Write a resource by using the Repository service API (Java):
     * Invoking the `ResourceContent` object’s `setDataDocument` method and passing in a `com.adobe.idp.Document` object
     * Invoking the `ResourceContent` object’s `setSize` method and passing in the size in bytes of the `Document` object
 
-   Add the content to the resource by invoking the `Resource` object’s `setContent` method and passing in the `ResourceContent` object. For more information, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+   Add the content to the resource by invoking the `Resource` object’s `setContent` method and passing in the `ResourceContent` object. For more information, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 1. Write the resource to the target folder
 
@@ -367,7 +367,7 @@ Listing resources operates by relationship: resources are members of folders. Me
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-2}
 
@@ -486,7 +486,7 @@ You can programmatically read resources by using the Repository service Java API
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-3}
 
@@ -598,7 +598,7 @@ You can programmatically update resources by using the Repository service Java A
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-4}
 
@@ -729,7 +729,7 @@ Then you invoke the `ResourceRepositoryClient` object’s `searchProperties` met
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-5}
 
@@ -869,7 +869,7 @@ You can programmatically specify relationships between resources by using the Re
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-6}
 
@@ -1010,7 +1010,7 @@ You can programmatically control access to resources by using the Repository ser
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-7}
 
@@ -1093,7 +1093,7 @@ Lock resources by using the Repository service API (Java):
 
 1. Unlock the resource
 
-   Invoke the `ResourceRepositoryClient` object’s `unlockResource` method and pass the URI of the resource as a parameter. For more information, see the [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+   Invoke the `ResourceRepositoryClient` object’s `unlockResource` method and pass the URI of the resource as a parameter. For more information, see the [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 **See also**
 
@@ -1164,7 +1164,7 @@ A deletion operation is not transaction-safe in ECM systems. For example, if you
 
 >[!NOTE]
 >
->For more information about the Repository service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Repository service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-8}
 

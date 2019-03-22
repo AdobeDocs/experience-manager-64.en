@@ -92,7 +92,7 @@ Do the following to configure your MySQL database:
         
         * **Transaction Isolation**: Set the value to **READ_COMMITTED**.
 
-   Leave other properties with default [values](http://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html) and tap **Save**.
+   Leave other properties with default [values](https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html) and tap **Save**.
 
    A configuration similar to the following is created.
 

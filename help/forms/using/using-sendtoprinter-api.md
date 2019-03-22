@@ -158,7 +158,7 @@ The table below lists:
 
 Authentication is supported only for CIFS printing. To authenticate, provide the username/password/domain in PrinterSpec. You can encrypt a password using AEM Granite CyprtoSupport Service by performing the following steps:
 
-1. Go to http://&lt;server&gt;:&lt;port&gt;/system/console.  
+1. Go to https://&lt;server&gt;:&lt;port&gt;/system/console.  
 
 1. Go to **[!UICONTROL Main]** > **[!UICONTROL Crypto Support]**.  
 

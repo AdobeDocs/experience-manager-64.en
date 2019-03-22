@@ -63,7 +63,7 @@ You can use the `applyUsageRights`Java API to apply usage rights to policy-prote
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>usageRights</p> </td> 
-   <td valign="top" width="492"><p>Specifies an object of type <a href="http://help.adobe.com/en_US/livecycle/11.0/ProgramLC/javadoc/com/adobe/livecycle/readerextensions/client/UsageRights.html" target="_blank">UsageRights</a>. The usageRights object represents individual rights that can be applied to a policy-protected PDF document.</p> </td> 
+   <td valign="top" width="492"><p>Specifies an object of type <a href="https://help.adobe.com/en_US/livecycle/11.0/ProgramLC/javadoc/com/adobe/livecycle/readerextensions/client/UsageRights.html" target="_blank">UsageRights</a>. The usageRights object represents individual rights that can be applied to a policy-protected PDF document.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -70,7 +70,7 @@ Use the following procedure to define the node in your content package source fo
 
 1. Add the following XML to represent the node:
 
-   `<?xml version="1.0" encoding="UTF-8"?> <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="sling:OsgiConfig" email.from="name@server.com"/>`
+   `<?xml version="1.0" encoding="UTF-8"?> <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" jcr:primaryType="sling:OsgiConfig" email.from="name@server.com"/>`
 1. Replace the value of the `email.from` attribute ( `name@server.com`) with your email address.
 
 1. Save the file.
@@ -240,7 +240,7 @@ subject=<text_1>
 >
 >Where `<text_x>` can be a mix of static text and dynamic string variables. Each line of an `<text_x>` item needs to be ended with a backslash ( `\`), except for the last instance, when the absence of the backslash indicates the end of the `<text_x>` string variable.
 >
->More information about the template format can be found in the [javadocs of the Properties.load()](http://docs.oracle.com/javase/8/docs/api/java/util/Properties.html#load-java.io.InputStream-) method.
+>More information about the template format can be found in the [javadocs of the Properties.load()](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html#load-java.io.InputStream-) method.
 
 The method `${payload.path.open}` reveals the path to the payload of the workitem. For example, for a page in Sites then then `payload.path.open` would be similar to `/bin/wcmcommand?cmd=open&path=…`.; this is without the server name, which is why the template prepends this with `${host.prefix}`.
 

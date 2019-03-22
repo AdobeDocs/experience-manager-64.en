@@ -72,7 +72,7 @@ You must explicitly move from panel to panel using the `xfa.host.pageUp` and `xf
 
 ## Running scripts {#running-scripts}
 
-A form author specifies whether a script executes on the server or the client. The Forms service creates a distributed, event processing environment for execution of form intelligence that can be distributed between the client and the server by using the `runAt` attribute. For information about this attribute or creating scripts within form designs, see [Forms Designer](http://www.adobe.com/go/learn_aemforms_designer_63)
+A form author specifies whether a script executes on the server or the client. The Forms service creates a distributed, event processing environment for execution of form intelligence that can be distributed between the client and the server by using the `runAt` attribute. For information about this attribute or creating scripts within form designs, see [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63)
 
 The Forms service can execute scripts while the form is being rendered. As a result, you can prepopulate a form with data by connecting to a database or to web services that may not be available on the client. You can also set a button’s `Click` event to run on the server so that the client will round trip data to the server. This allows the client to run scripts that may require server resources, such as an enterprise database, while a user is interacting with a form. For HTML forms, formcalc scripts can be executed on server only. As a result, you must mark these scripts to run at `server` or `both`.
 
@@ -114,7 +114,7 @@ var __CUSTOM_SCRIPTS_VERSION = 1; //enabling the feature
 
 When creating form designs to render as HTML, you must restrict your scripting to the XFA subset for scripts in javascript language.
 
-Scripts that run on the client or run on both the client and the server must be written within the XFA subset. Scripts that run on the server can use the full XFA scripting model and also use FormCalc. For information about using JavaScript, see [Forms Designer](http://www.adobe.com/go/learn_aemforms_designer_63).
+Scripts that run on the client or run on both the client and the server must be written within the XFA subset. Scripts that run on the server can use the full XFA scripting model and also use FormCalc. For information about using JavaScript, see [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63).
 
 When running scripts on the client, only the current panel being displayed can use script; for example, you cannot script against fields that are located in panel A when panel B is displayed. When running scripts on the server, all panels can be accessed.
 
@@ -131,11 +131,11 @@ Forms displayed in a web browser (as opposed to Adobe Reader or Acrobat) conform
 * If the null test produces an error and you exit a field without specifying a value, a message box is displayed and you are repositioned to the field after clicking OK.
 * If a null test produces a warning and you exit a field without specifying a value, you are prompted to click either OK or Cancel, giving you the option of proceeding without specifying a value or returning to the field to enter a value.
 
-For more information about a null test, see [Forms Designer](http://www.adobe.com/go/learn_aemforms_designer_63).
+For more information about a null test, see [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63).
 
 ## Form buttons {#form-buttons}
 
-Clicking a submit button sends form data to the Forms service and represents the end of form processing. The `preSubmit` event can be set to run on the client or server. The `preSubmit` event runs prior to the form submission if it is configured to run on the client. Otherwise, the `preSubmit` event runs on the server during the form submission. For more information about the `preSubmit` event, see [Forms Designer](http://www.adobe.com/go/learn_aemforms_designer_63).
+Clicking a submit button sends form data to the Forms service and represents the end of form processing. The `preSubmit` event can be set to run on the client or server. The `preSubmit` event runs prior to the form submission if it is configured to run on the client. Otherwise, the `preSubmit` event runs on the server during the form submission. For more information about the `preSubmit` event, see [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63).
 
 If a button has no client-side script associated with it, data is submitted to the server, calculations are performed on the server, and the HTML form is regenerated. If a button contains a client-side script, data is not sent to the server and the client-side script is executed in the web browser.
 
@@ -183,7 +183,7 @@ It is recommended that you limit your use of validation rules for form fields wh
 
 >[!NOTE]
 >
->For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Summary of steps {#summary-of-steps}
 
@@ -275,7 +275,7 @@ Render an HTML form by using the Forms API (Java):
 
    >[!NOTE]
    >
-   >Forms are not successfully rendered in HTML when the `StandAlone` option is `true` and the `ApplicationWebRoot` references a server other than the J2EE application server hosting AEM Forms (the `ApplicationWebRoot` value is specified using the `URLSpec` object that is passed to the `FormsServiceClient` object’s `(Deprecated) renderHTMLForm` method). When the `ApplicationWebRoot`* is another server from the one hosting AEM Forms, the value of the web root URI in the administration console needs to be set as the Form's web application URI value. This can be done by logging in to the administration console, clicking Services &gt; Forms, and setting the Web Root URI as http://server-name:port/FormServer. Then, save your settings.*
+   >Forms are not successfully rendered in HTML when the `StandAlone` option is `true` and the `ApplicationWebRoot` references a server other than the J2EE application server hosting AEM Forms (the `ApplicationWebRoot` value is specified using the `URLSpec` object that is passed to the `FormsServiceClient` object’s `(Deprecated) renderHTMLForm` method). When the `ApplicationWebRoot`* is another server from the one hosting AEM Forms, the value of the web root URI in the administration console needs to be set as the Form's web application URI value. This can be done by logging in to the administration console, clicking Services &gt; Forms, and setting the Web Root URI as https://server-name:port/FormServer. Then, save your settings.*
 
 1. Render an HTML form
 
@@ -328,12 +328,12 @@ Render an HTML form by using the Forms API (web service):
 
     * Create an `HTMLRenderSpec` object by using its constructor. 
     * To render an HTML form with a toolbar, invoke the `HTMLRenderSpec` object’s `setHTMLToolbar` method and pass an `HTMLToolbar` enum value. For example, to display a vertical HTML toolbar, pass `HTMLToolbar.Vertical`. 
-    * To set the locale value for the HTML form, invoke the `HTMLRenderSpec` object’s `setLocale` method and pass a string value that specifies the locale value. For more information, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+    * To set the locale value for the HTML form, invoke the `HTMLRenderSpec` object’s `setLocale` method and pass a string value that specifies the locale value. For more information, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
     * To render the HTML form within full HTML tags, invoke the `HTMLRenderSpec` object’s `setOutputType` method and pass `OutputType.FullHTMLTags`.
 
    >[!NOTE]
    >
-   >Forms are not successfully rendered in HTML when the `StandAlone` option is `true` and the `ApplicationWebRoot` references a server other than the J2EE application server hosting AEM Forms (the `ApplicationWebRoot` value is specified using the `URLSpec` object that is passed to the `FormsServiceClient` object’s `(Deprecated) renderHTMLForm` method). When the `ApplicationWebRoot`* is another server from the one hosting AEM Forms, the value of the web root URI in the administration console needs to be set as the Form's web application URI value. This can be done by logging in to the administration console, clicking Services &gt; Forms, and setting the Web Root URI as http://server-name:port/FormServer. Then, save your settings. *
+   >Forms are not successfully rendered in HTML when the `StandAlone` option is `true` and the `ApplicationWebRoot` references a server other than the J2EE application server hosting AEM Forms (the `ApplicationWebRoot` value is specified using the `URLSpec` object that is passed to the `FormsServiceClient` object’s `(Deprecated) renderHTMLForm` method). When the `ApplicationWebRoot`* is another server from the one hosting AEM Forms, the value of the web root URI in the administration console needs to be set as the Form's web application URI value. This can be done by logging in to the administration console, clicking Services &gt; Forms, and setting the Web Root URI as https://server-name:port/FormServer. Then, save your settings. *
 
 1. Render an HTML form
 

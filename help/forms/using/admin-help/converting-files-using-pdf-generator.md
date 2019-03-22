@@ -42,7 +42,7 @@ PDF documents that PDF Generator creates in Acrobat 5.0 or later contain documen
 
 The document metadata contains (but is not limited to) information that also appears on the Description tab of the Document Properties dialog box in Acrobat. Changes that are made on the Description tab are reflected in the document metadata. Document metadata can be extended and modified by using third-party products.
 
-Adobe Extensible Metadata Platform (XMP) provides Adobe applications with a common XML framework that standardizes the creation, processing, and interchange of document metadata across publishing workflows. You can save and import the document metadata XML source code in XMP format, making it easy to share metadata among various documents. For more information about XMP files, see [Extensible Metadata Platform (XMP)](http://www.adobe.com/products/xmp/) and [Adobe XMP Developer Center](http://www.adobe.com/devnet/xmp.html).
+Adobe Extensible Metadata Platform (XMP) provides Adobe applications with a common XML framework that standardizes the creation, processing, and interchange of document metadata across publishing workflows. You can save and import the document metadata XML source code in XMP format, making it easy to share metadata among various documents. For more information about XMP files, see [Extensible Metadata Platform (XMP)](https://www.adobe.com/products/xmp/) and [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
 You can create XMP files in Acrobat.
 
@@ -85,7 +85,7 @@ If the ZIP file contains more than one HTML file at the lowest level of its fold
 
 ## Export a PDF file to another file format (Windows Only) {#export-a-pdf-file-to-another-file-format-windows-only}
 
-You can export PDF files to various file formats, as described in the Generate PDF Service chapter of [Services Reference](http://www.adobe.com/go/learn_aemforms_services_63).
+You can export PDF files to various file formats, as described in the Generate PDF Service chapter of [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 1. In administration console, click Services &gt; PDF Generator &gt; Export PDF.
 1. Click Browse to locate the PDF file to export.

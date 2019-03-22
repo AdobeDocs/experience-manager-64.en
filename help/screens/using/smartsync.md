@@ -46,7 +46,7 @@ SmartSync feature provides a number of benefits to your AEM Screens project. It 
 >
 >If you have already installed AEM 6.3 Feature Pack 5 and AEM 6.4 Feature Pack 3, you can enable SmartSync for assets to improve disk space usage. To enable SmartSync, follow the section below to transition from ContentSync to SmartSync, thus enabling SmartSync.
 >
->SmartSync is available to Screens Player with supported servers AEM 6.4.3 FP3. Refer to the [AEM Screens Player Downloads](http://download.macromedia.com/screens/) to download the latest player.
+>SmartSync is available to Screens Player with supported servers AEM 6.4.3 FP3. Refer to the [AEM Screens Player Downloads](https://download.macromedia.com/screens/) to download the latest player.
 
 Follow the steps below to transition from ContentSync to SmartSync if you do not have latest Feature Pack and Players (AEM 6.4 Feature Pack 3) installed:
 

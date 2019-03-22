@@ -40,7 +40,7 @@ You can accomplish these tasks using the Signature service:
 * Validate all digital signatures located in a PDF document. (See [Verifying Multiple Digital Signatures](#unresolvedlink-lc-si).)
 * Remove a digital signature from a signature field. (See [Removing Digital Signatures](digitally-signing-certifying-documents.md#removing_digital_signatures).)
 
-  ***Note**: For more information about the Signature service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).*
+  ***Note**: For more information about the Signature service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).*
 
 ## Adding Signature Fields {#adding-signature-fields}
 
@@ -50,7 +50,7 @@ You can programmatically add a signature field by using the Signature service Ja
 
 >[!NOTE]
 >
->Some PDF document types do not let you programmatically add a signature field. For more information about the Signature service and adding signature fields, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>Some PDF document types do not let you programmatically add a signature field. For more information about the Signature service and adding signature fields, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -214,7 +214,7 @@ You can retrieve the names of all signature fields that are located in a PDF doc
 
 >[!NOTE]
 >
->For more information about the Signature service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63)
+>For more information about the Signature service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63)
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -358,7 +358,7 @@ This section explains how to modify a signature field by amending both field loc
 
 >[!NOTE]
 >
->For more information about the Signature service and modifying signature fields, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Signature service and modifying signature fields, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-2}
 
@@ -400,9 +400,9 @@ To modify a signature field, assign values to its field lock dictionary or seed 
 The following seed value dictionary values can be set:
 
 * **Revision checking**: Specifies whether revocation checking is performed when a signature is applied to the signature field. 
-* **Certificate options**: Assigns values to the certificate seed value dictionary. Before specifying certificate options, it is recommended that you become familiar with a certificate seed value dictionary. (See [PDF Reference](http://www.adobe.com/devnet/acrobat/pdfs/pdf_reference_1-7.pdf).)
+* **Certificate options**: Assigns values to the certificate seed value dictionary. Before specifying certificate options, it is recommended that you become familiar with a certificate seed value dictionary. (See [PDF Reference](https://www.adobe.com/devnet/acrobat/pdfs/pdf_reference_1-7.pdf).)
 * **Digest options**: Assigns digest algorithms that are used for signing. Valid values are SHA1, SHA256, SHA384, SHA512, and RIPEMD160. 
-* **Filter**: Specifies the filter that is used with the signature field. For example, you can use the Adobe.PPKLite filter. (See [PDF Reference](http://www.adobe.com/devnet/acrobat/pdfs/pdf_reference_1-7.pdf).)
+* **Filter**: Specifies the filter that is used with the signature field. For example, you can use the Adobe.PPKLite filter. (See [PDF Reference](https://www.adobe.com/devnet/acrobat/pdfs/pdf_reference_1-7.pdf).)
 * **Flag options**: Specifies the flag values that are associated with this signature field. A value of 1 means that a signer must use only the specified values for the entry. A value of 0 means that other values are permitted. Here are the Bit positions:
 
     * **1(Filter):** The signature handler to be used to sign the signature field
@@ -465,7 +465,7 @@ Modify a signature field by using the Signature API (Java):
 
    >[!NOTE]
    >
-   >To see all seed value dictionary values that you can set, see the `PDFSeedValueOptionSpec` class reference. (See [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).)
+   >To see all seed value dictionary values that you can set, see the `PDFSeedValueOptionSpec` class reference. (See [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).)
 
 1. Modify the signature field
 
@@ -527,7 +527,7 @@ Modify a signature field by using the Signature API (web service):
 
    >[!NOTE]
    >
-   >To see all seed value dictionary values that you can set, see the `PDFSeedValueOptionSpec` class reference. (See [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en)).
+   >To see all seed value dictionary values that you can set, see the `PDFSeedValueOptionSpec` class reference. (See [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en)).
 
 1. Modify the signature field
 
@@ -582,7 +582,7 @@ For information about handling the security credential, see the* Installing and 
 
 >[!NOTE]
 >
->Not all PDF documents support signing. For more information about the Signature service and digitally signing documents, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>Not all PDF documents support signing. For more information about the Signature service and digitally signing documents, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]
 >
@@ -660,7 +660,7 @@ You can also specify whether or not to perform a revocation check that determine
 
 To perform revocation checking on a certificate, you can specify a URL to a certificate revocation list (CRL) server by using a `CRLOptionSpec` object. However, if you want to perform revocation checking and you do not specify a URL to a CRL server, then the Signature service obtains the URL from the certificate.
 
-Instead of using a CRL server, you can use an online certificate status protocol (OCSP) server when performing revocation checking. Typically when using an OCSP server as opposed to a CRL server, the revocation check is performed faster. (See “Online Certificate Status Protocol” at [http://tools.ietf.org/html/rfc2560](http://tools.ietf.org/html/rfc2560).)
+Instead of using a CRL server, you can use an online certificate status protocol (OCSP) server when performing revocation checking. Typically when using an OCSP server as opposed to a CRL server, the revocation check is performed faster. (See “Online Certificate Status Protocol” at [https://tools.ietf.org/html/rfc2560](https://tools.ietf.org/html/rfc2560).)
 
 You can set the CRL and OCSP server order that the Signature service uses using Adobe Applications and Services. For example, if the OCSP server is set first in Adobe Applications and Services, then the OCSP server is checked, followed by the CRL server. (See “Managing certificates and credentials using Trust Store“ in AAC Help).
 
@@ -730,7 +730,7 @@ Digitally sign a PDF document by using the Signature API (Java):
     * A `java.lang.Boolean` object that specifies whether to perform revocation checking on the signer's certificate. 
     * An `OCSPOptionSpec` object that stores preferences for Online Certificate Status Protocol (OCSP) support. If revocation checking is not done, this parameter is not used and you can specify `null`. 
     * A `CRLPreferences` object that stores certificate revocation list (CRL) preferences. If revocation checking is not done, this parameter is not used and you can specify `null`.
-    * A `TSPPreferences` object that stores preferences for time stamp provider (TSP) support. This parameter is optional and can be `null`. For more information, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+    * A `TSPPreferences` object that stores preferences for time stamp provider (TSP) support. This parameter is optional and can be `null`. For more information, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
    The `sign` method returns a `com.adobe.idp.Document` object that represents the signed PDF document.
 
@@ -796,7 +796,7 @@ To digitally sign a PDF document by using the Signature API (web service):
     * A string value that represents the signer’s contact information. 
     * A `PDFSignatureAppearanceOptions` object that controls the appearance of the digital signature. For example, you can use this object to add a custom logo to a digital signature. 
     * A `System.Boolean` object that specifies whether to perform revocation checking on the signer's certificate. If this revocation checking is done, it is embedded in the signature. The default is `false`.
-    * An `OCSPOptionSpec` object that stores preferences for Online Certificate Status Protocol (OCSP) support. If revocation checking is not done, this parameter is not used and you can specify `null`. For information about this object, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
+    * An `OCSPOptionSpec` object that stores preferences for Online Certificate Status Protocol (OCSP) support. If revocation checking is not done, this parameter is not used and you can specify `null`. For information about this object, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
     * A `CRLPreferences` object that stores certificate revocation list (CRL) preferences. If revocation checking is not done, this parameter is not used and you can specify `null`.
     * A `TSPPreferences` object that stores preferences for time stamp provider (TSP) support. This parameter is optional and can be `null`.
 
@@ -1047,7 +1047,7 @@ Digitally sign an interactive form by using the Forms and Signature API (web ser
     * A string value that represents the signer’s contact information. 
     * A `PDFSignatureAppearanceOptions` object that controls the appearance of the digital signature. For example, you can use this object to add a custom logo to a digital signature. 
     * A `System.Boolean` object that specifies whether to perform revocation checking on the signer's certificate. If this revocation checking is done, it is embedded in the signature. The default is `false`.
-    * An `OCSPPreferences` object that stores preferences for Online Certificate Status Protocol (OCSP) support. If revocation checking is not done, this parameter is not used and you can specify `null`. For information about this object, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
+    * An `OCSPPreferences` object that stores preferences for Online Certificate Status Protocol (OCSP) support. If revocation checking is not done, this parameter is not used and you can specify `null`. For information about this object, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
     * A `CRLPreferences` object that stores certificate revocation list (CRL) preferences. If revocation checking is not done, this parameter is not used and you can specify `null`.
     * A `TSPPreferences` object that stores preferences for time stamp provider (TSP) support. This parameter is optional and can be `null`.
 
@@ -1096,7 +1096,7 @@ After you add this configuration value to the cknfastrc file, the new credential
 
 >[!NOTE]
 >
->For more information about the Signature service and certifying a document, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Signature service and certifying a document, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-5}
 
@@ -1198,9 +1198,9 @@ Certify a PDF document by using the Signature API (Java):
     * A string value that provides an explanation of what actions invalidate the signature.
     * A `java.lang.Boolean` object that specifies whether to perform revocation checking on the signer's certificate. If this revocation checking is done, it is embedded in the signature. The default is `false`.
     * A `java.lang.Boolean` object that specifies whether the signature field being certified is locked. If the field is locked, the signature field is marked as read only, its properties cannot be modified, and it cannot be cleared by anyone who does not have the required permissions. The default is `false`.
-    * An `OCSPPreferences` object that stores preferences for Online Certificate Status Protocol (OCSP) support. If revocation checking is not done, this parameter is not used and you can specify `null`. For information about this object, See [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
+    * An `OCSPPreferences` object that stores preferences for Online Certificate Status Protocol (OCSP) support. If revocation checking is not done, this parameter is not used and you can specify `null`. For information about this object, See [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
     * A `CRLPreferences` object that stores certificate revocation list (CRL) preferences. If revocation checking is not done, this parameter is not used and you can specify `null`.
-    * A `TSPPreferences` object that stores preferences for time stamp provider (TSP) support. For example, after you create a `TSPPreferences` object, you can set the URL of the TSP server by invoking the `TSPPreferences` object’s `setTspServerURL` method. This parameter is optional and can be `null`. For more information, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+    * A `TSPPreferences` object that stores preferences for time stamp provider (TSP) support. For example, after you create a `TSPPreferences` object, you can set the URL of the TSP server by invoking the `TSPPreferences` object’s `setTspServerURL` method. This parameter is optional and can be `null`. For more information, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
    The `certify` method returns a `com.adobe.idp.Document` object that represents the certified PDF document.
 
@@ -1308,7 +1308,7 @@ Likewise, when you programmatically verify a digital signature, you can determin
 
 >[!NOTE]
 >
->For more information about the Signature service and verifying digital signatures, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Signature service and verifying digital signatures, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-6}
 
@@ -1352,13 +1352,13 @@ Set these PKI run-time options that the Signature service uses when verifying si
 * Revocation checking
 * Time-stamping values
 
-As part of setting these options, you can specify verification time. For example, you can select current time (the time on the validator’s computer), which indicates to use the current time. For information about the different time values, see the `VerificationTime` enumeration value in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+As part of setting these options, you can specify verification time. For example, you can select current time (the time on the validator’s computer), which indicates to use the current time. For information about the different time values, see the `VerificationTime` enumeration value in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
-You can also specify whether to perform revocation checking as part of the verification process. For example, you can perform a revocation check to determine whether the certificate is revoked. For information about the revocation-checking options, see the `RevocationCheckStyle` enumeration value in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+You can also specify whether to perform revocation checking as part of the verification process. For example, you can perform a revocation check to determine whether the certificate is revoked. For information about the revocation-checking options, see the `RevocationCheckStyle` enumeration value in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 To perform revocation checking on a certificate, specify a URL to a certificate revocation list (CRL) server by using a `CRLOptionSpec` object. However, if you do not specify a URL to CRL server, the Signature service obtains the URL from the certificate.
 
-Instead of using a CRL server, you can use an online certificate status protocol (OCSP) server when performing revocation checking. Typically, when using an OCSP server as opposed to a CRL server, the revocation check is performed faster. (See [Online Certificate Status Protocol](http://tools.ietf.org/html/rfc2560).)
+Instead of using a CRL server, you can use an online certificate status protocol (OCSP) server when performing revocation checking. Typically, when using an OCSP server as opposed to a CRL server, the revocation check is performed faster. (See [Online Certificate Status Protocol](https://tools.ietf.org/html/rfc2560).)
 
 You can set the CRL and OCSP server order that the Signature service uses by using Adobe Applications and Services. For example, if the OCSP server is set first in Adobe Applications and Services, then the OCSP server is checked, followed by the CRL server.
 
@@ -1382,7 +1382,7 @@ By default, the Signature service limits the amount of time that a document can 
 
 >[!NOTE]
 >
->For other values that you require when verifying a signature, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+>For other values that you require when verifying a signature, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 **Determine the status of the signature **
 
@@ -1537,7 +1537,7 @@ AEM Forms provides the means to verify all digital signatures that are located i
 
 >[!NOTE]
 >
->For more information about the Signature service and verifying digital signatures, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Signature service and verifying digital signatures, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-7}
 
@@ -1580,13 +1580,13 @@ Set these PKI run-time options that the Signature service uses when verifying al
 * Revocation checking
 * Time-stamping values
 
-As part of setting these options, you can specify verification time. For example, you can select current time (the time on the validator’s computer), which indicates to use the current time. For information about the different time values, see the `VerificationTime` enumeration value in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+As part of setting these options, you can specify verification time. For example, you can select current time (the time on the validator’s computer), which indicates to use the current time. For information about the different time values, see the `VerificationTime` enumeration value in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
-You can also specify whether to perform revocation checking as part of the verification process. For example, you can perform a revocation check to determine whether the certificate is revoked. For information about the revocation-checking options, see the `RevocationCheckStyle` enumeration value in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+You can also specify whether to perform revocation checking as part of the verification process. For example, you can perform a revocation check to determine whether the certificate is revoked. For information about the revocation-checking options, see the `RevocationCheckStyle` enumeration value in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 To perform revocation checking on a certificate, specify a URL to a certificate revocation list (CRL) server by using a `CRLOptionSpec` object. However, if you do not specify a URL to a CRL server, the Signature service obtains the URL from the certificate.
 
-Instead of using a CRL server, you can use an online certificate status protocol (OCSP) server when performing revocation checking. Typically, when using an OCSP server instead of a CRL server, the revocation check is performed faster. (See [Online Certificate Status Protocol](http://tools.ietf.org/html/rfc2560).)
+Instead of using a CRL server, you can use an online certificate status protocol (OCSP) server when performing revocation checking. Typically, when using an OCSP server instead of a CRL server, the revocation check is performed faster. (See [Online Certificate Status Protocol](https://tools.ietf.org/html/rfc2560).)
 
 You can set the CRL and OCSP server order that the Signature service uses by using Adobe Applications and Services. For example, if the OCSP server is set first in Adobe Applications and Services, the OCSP server is checked, followed by the CRL server.
 
@@ -1751,7 +1751,7 @@ Digital signatures must be removed from a signature field before a newer digital
 
 >[!NOTE]
 >
->For more information about the Signature service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Signature service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-8}
 

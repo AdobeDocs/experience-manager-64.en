@@ -23,7 +23,7 @@ These are all [OSGi configurations](../../../sites/deploying/using/configuring-o
 
 >[!NOTE]
 >
->Logging in AEM is based on Sling principles. See [Sling Logging](http://sling.apache.org/site/logging.html) for further information.
+>Logging in AEM is based on Sling principles. See [Sling Logging](https://sling.apache.org/site/logging.html) for further information.
 
 ## Global Logging {#global-logging}
 

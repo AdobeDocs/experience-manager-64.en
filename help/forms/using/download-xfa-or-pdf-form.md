@@ -26,7 +26,7 @@ Aside from these assets, you can download the `Resource` type of asset if it is 
 
 ## Download one or more forms {#download-one-or-more-forms}
 
-1. Log in to the AEM Forms user interface at `http://<server>:<port>/aem/forms.html`.  
+1. Log in to the AEM Forms user interface at `https://<server>:<port>/aem/forms.html`.  
 
 1. Navigate to the location of the asset you want to download.  
 

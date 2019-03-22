@@ -53,7 +53,7 @@ Compile the PhoneGap application on your computer using the PhoneGap Command-lin
 
 To build using the PhoneGap CLI, you need to install Node.js and the PhoneGap client utility. You require an internet connection to perform the following procedure.
 
-1. Download and install [Node.js](http://nodejs.org/).
+1. Download and install [Node.js](https://nodejs.org/).
 1. Open a terminal or command prompt and enter the following node command to install the PhoneGap utility:
 
    ```shell
@@ -82,7 +82,7 @@ To build using the PhoneGap CLI, you need to install Node.js and the PhoneGap cl
 1. (Optional) Obtain the SDK for the mobile platform that you are targeting:
 
     * To build apps for the iOS platform, install the latest version of [Xcode](https://developer.apple.com/xcode/).
-    * To build Android apps, install the [Android SDK](http://developer.android.com/).
+    * To build Android apps, install the [Android SDK](https://developer.android.com/).
 
 ### Downloading the Content ZIP File {#downloading-the-content-zip-file}
 
@@ -106,7 +106,7 @@ Move the content of your mobile application to your file system.
 
 ### Using the PhoneGap CLI to Build {#using-the-phonegap-cli-to-build}
 
-Use the PhoneGap CLI to compile and install the application. For information about how to use the PhoneGap CLI, see the PhoneGap [Command-line Interface](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html) documentation.
+Use the PhoneGap CLI to compile and install the application. For information about how to use the PhoneGap CLI, see the PhoneGap [Command-line Interface](https://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html) documentation.
 
 1. Open a terminal or command prompt and change the current directory to the downloaded application ZIP file. For example, the following changes the directory to the ng-app-cli.1392137825303.zip file:
 
@@ -156,9 +156,9 @@ Send your application resources to PhoneGap Build for compiling for the various 
 
    **Note: **The Beta version of AEM Beta does not create an Inbox notification when the build successfuly completes.
 
-1. In the Success dialog box, click PhoneGap Build to open the Adobe PhoneGap Build page at [https://build.phonegap.com/apps](https://build.phonegap.com/apps). If you are waiting for your app to appear, you can check the [PhoneGap Build Status](http://status.build.phonegap.com/) page.
+1. In the Success dialog box, click PhoneGap Build to open the Adobe PhoneGap Build page at [https://build.phonegap.com/apps](https://build.phonegap.com/apps). If you are waiting for your app to appear, you can check the [PhoneGap Build Status](https://status.build.phonegap.com/) page.
 
-   For information about installing the build, see the [PhoneGap Build Documentation](http://docs.build.phonegap.com/en_US/3.1.0/#googtrans%28en%29).
+   For information about installing the build, see the [PhoneGap Build Documentation](https://docs.build.phonegap.com/en_US/3.1.0/#googtrans%28en%29).
 
    >[!NOTE]
    >

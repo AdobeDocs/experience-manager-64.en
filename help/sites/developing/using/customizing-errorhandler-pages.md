@@ -24,7 +24,7 @@ System provided scripts exist (under `/libs/sling/servlet/errorhandler`) to resp
 
 >[!NOTE]
 >
->CQ is based on Apache Sling, so see [http://sling.apache.org/site/errorhandling.html](http://sling.apache.org/site/errorhandling.html) for detailed information about Sling Error Handling.
+>CQ is based on Apache Sling, so see [https://sling.apache.org/site/errorhandling.html](https://sling.apache.org/site/errorhandling.html) for detailed information about Sling Error Handling.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ You can develop your own scripts to customize the pages shown by the error handl
 
 HTTP 500 errors are caused by server side exceptions.
 
-* ** [500 Internal Server Error](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)** 
+* ** [500 Internal Server Error](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)** 
   The server encountered an unexpected condition which prevented it from fulfilling the request.
 
 When request processing results in an exception, the Apache Sling framework (that CQ is built on):

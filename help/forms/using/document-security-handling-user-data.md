@@ -165,13 +165,13 @@ Do the following to delete document security data for a principal ID from databa
    </ns2:Principal>
    </ns2:PolicyEntry>
        <ns2:Property PropertyName="isCertified">
-           <ns2:PropertyValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">false</ns2:PropertyValue>
+           <ns2:PropertyValue xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xs="https://www.w3.org/2001/XMLSchema" xsi:type="xs:string">false</ns2:PropertyValue>
        </ns2:Property>
        <ns2:Property PropertyName="encryptionAlgorithm">
-           <ns2:PropertyValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">AES128</ns2:PropertyValue>
+           <ns2:PropertyValue xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xs="https://www.w3.org/2001/XMLSchema" xsi:type="xs:string">AES128</ns2:PropertyValue>
        </ns2:Property>
        <ns2:Property PropertyName="AccessDeniedErrorMessage">
-           <ns2:PropertyValue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string"></ns2:PropertyValue>
+           <ns2:PropertyValue xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xs="https://www.w3.org/2001/XMLSchema" xsi:type="xs:string"></ns2:PropertyValue>
        </ns2:Property>
    <ns2:PolicyEntry>
    <ns2:Permission PermissionName="ns3:com.adobe.aps.onlineOpen" Access="ALLOW"/>
@@ -189,7 +189,7 @@ Do the following to delete document security data for a principal ID from databa
 
    **Using administration console**
 
-    1. As an administrator, log into the Forms JEE administration console at http://[*server*]:[*port*]/adminui.
+    1. As an administrator, log into the Forms JEE administration console at https://[*server*]:[*port*]/adminui.
     
     1. Navigate to **[!UICONTROL Services > Document Security > Policy Sets]**.
     1. Open a policy set and delete the user from the policy.
@@ -198,7 +198,7 @@ Do the following to delete document security data for a principal ID from databa
 
    Document security users who have permissions to create personal policies can delete user data from their policies. To do so:
 
-    1. Users who have personal policies log into their document security web page at http://[*server*]:[*port*]/edc.
+    1. Users who have personal policies log into their document security web page at https://[*server*]:[*port*]/edc.
     
     1. Navigate to **[!UICONTROL Services > Document Security > My Policies]**.
     1. Open a policy and delete the user from the policy.

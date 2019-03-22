@@ -19,7 +19,7 @@ The Forms service enables you to create interactive data capture client applicat
 * as HTML in various browser environments including a compliant XHTML 1.0 rendering
 * as form Guides in various browser environments that support Adobe Flash Player.
 
-For additional information about the Forms service, see [Services Reference](http://www.adobe.com/go/learn_aemforms_services_63).
+For additional information about the Forms service, see [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 Using the Forms page in administration console, you can configure the behavior of the Forms service. These settings apply to all invocations of the service. Any parameters sent through the AEM forms SDK override the settings set in administration console; however, they affect only that particular invocation.
 

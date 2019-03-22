@@ -20,7 +20,7 @@ Adobe Experience Manager Apps provides the ability to update the content of your
 To configure the referrer filter service:
 
 * Open the Apache Felix console (**Configurations**) at:  
-* http://&lt;server&gt;:&lt;port_number&gt;/system/console/configMgr*
+* https://&lt;server&gt;:&lt;port_number&gt;/system/console/configMgr*
 * Login as admin.
 * In the **Configurations** menu, select: *Apache Sling Referrer Filter*
 * Check the Allow Empty field, to allow empty/missing referrer headers.

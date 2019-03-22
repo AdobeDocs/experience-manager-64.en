@@ -48,7 +48,7 @@ You can use several methods to check the Pattern Detector output:
 
 * **Via the Felix Inventory console:**
 
-1. Go to the AEM Web Console by browsing to *http://serveraddress:serverport/system/console/configMgr*
+1. Go to the AEM Web Console by browsing to *https://serveraddress:serverport/system/console/configMgr*
 1. Select **Status - Pattern Detector** as shown in the image below:
 
    ![](assets/screenshot-2018-2-5pattern-detector.png)

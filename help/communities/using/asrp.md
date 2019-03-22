@@ -87,7 +87,7 @@ Be sure to set the domains to be URLs that are routable from the Data Center URL
 
 ### Time Synchronization {#time-synchronization}
 
-In order for authentication with the ASRP endpoint to succeed, the machines running your hosted AEM Communities must be time synchronized, such as with the [Network Time Protocol (NTP)](http://www.ntp.org/).
+In order for authentication with the ASRP endpoint to succeed, the machines running your hosted AEM Communities must be time synchronized, such as with the [Network Time Protocol (NTP)](https://www.ntp.org/).
 
 ### Publishing the Configuration {#publishing-the-configuration}
 
@@ -133,7 +133,7 @@ If upgrading from an exisitng AEM 6.0 social community site, be sure to follow t
 
 If receiving authentication errors against the Data Center URL, and the AEM error.log contains messages about stale timestamps, then verify that time synchronization is happening.
 
-It is recommended to use a tool such as the [Network Time Protocol (NTP)](http://www.ntp.org/) to time synchronize all AEM author and publish servers.
+It is recommended to use a tool such as the [Network Time Protocol (NTP)](https://www.ntp.org/) to time synchronize all AEM author and publish servers.
 
 ### New Content Does Not Appear in Searches {#new-content-does-not-appear-in-searches}
 

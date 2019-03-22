@@ -164,7 +164,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 * on the primary publisher
 * signed in with administrator privileges
-* browse to [http://&lt;server&gt;:&lt;port&gt;/crx/de/index.jsp#/etc/importers/polling](http://localhost:4503/crx/de/index.jsp#/etc/importers/polling)
+* browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de/index.jsp#/etc/importers/polling](http://localhost:4503/crx/de/index.jsp#/etc/importers/polling)
 * select the newly created configuration
 * modify the following properties
 

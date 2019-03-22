@@ -93,9 +93,9 @@ The structure of prefill XML and submitted XML for adaptive forms based on XML s
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?> 
-<xs:schema targetNamespace="http://adobe.com/sample.xsd"
-            xmlns="http://adobe.com/sample.xsd"
-            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema targetNamespace="https://adobe.com/sample.xsd"
+            xmlns="https://adobe.com/sample.xsd"
+            xmlns:xs="https://www.w3.org/2001/XMLSchema">
  
     <xs:element name="sample" type="SampleType"/>
          
@@ -148,8 +148,8 @@ For adaptive forms based on JSON schema, the structure of prefill JSON and submi
 
 ```
 {
-    "id": "http://some.site.somewhere/entry-schema#",
-    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "https://some.site.somewhere/entry-schema#",
+    "$schema": "https://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
         "address": {
@@ -232,7 +232,7 @@ To enable prefill service, specify the Default Prefill Service Configuration in 
 >Prefill Service Configuration is applicable for adaptive forms, HTML5 forms, and HTML5 form sets.
 
 1. Open **[!UICONTROL Adobe Experience Manager Web Console Configuration]** by using the URL:   
-   http://&lt;server&gt;:&lt;port&gt;/system/console/configMgr
+   https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr
 1. Search and open **[!UICONTROL Default Prefill Service Configuration]**. 
 
    ![](assets/prefill_config.png)
@@ -284,7 +284,7 @@ http://localhost:4502/content/forms/af/someAF.html?wcmmode=disabled&dataRef=file
 
 The referred file must be on the same server.
 
-### The http:// protocol {#the-http-protocol}
+### The https:// protocol {#the-http-protocol}
 
 ```xml
 http://localhost:4502/content/forms/af/xml.html?wcmmode=disabled&dataRef=http://localhost:8000/somesamplexmlfile.xml

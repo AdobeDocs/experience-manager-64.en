@@ -15,7 +15,7 @@ discoiquuid: 96dc0c1a-b21d-480a-addf-c3d0348bd3ad
 
 >[!NOTE]
 >
->The eCommerce framework can be used with any eCommerce solution. Certain specifics and examples dealt with here will refer to the [hybris](http://www.hybris.com/) solution.
+>The eCommerce framework can be used with any eCommerce solution. Certain specifics and examples dealt with here will refer to the [hybris](https://www.hybris.com/) solution.
 
 The integration framework includes an integration layer with an API. This allows you to:
 

@@ -155,7 +155,7 @@ Similarly, custom community user groups (such as privileged members groups) shou
 
 Using the [Communities Members and Groups consoles](../../communities/using/members.md) will create users and groups in these paths.
 
-To specify a custom path requires use of the classic security UI, which is accessible at [http://&lt;server&gt;:&lt;port&gt;/useradmin](http://localhost:4503/useradmin).
+To specify a custom path requires use of the classic security UI, which is accessible at [https://&lt;server&gt;:&lt;port&gt;/useradmin](http://localhost:4503/useradmin).
 
 To give read privileges for custom member paths, on all publish instances set ACLs similar to `/home/users/community`:
 

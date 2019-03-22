@@ -64,7 +64,7 @@ The typical AEM application structure supports all responsive design implementat
 
 Media queries enable the selective use of CSS styles for page rendering. AEM development tools and features enable you to effectively and efficiently implement media queries in your applications.
 
-The W3C group provides the [Media Queries](http://www.w3.org/TR/css3-mediaqueries/) recommendation that describes this CSS3 feature and the syntax.
+The W3C group provides the [Media Queries](https://www.w3.org/TR/css3-mediaqueries/) recommendation that describes this CSS3 feature and the syntax.
 
 ### Creating the CSS File {#creating-the-css-file}
 
@@ -239,7 +239,7 @@ The following strategy loads a single resource that is chosen using media querie
 
 ### Evaluating Media Queries using javascript {#evaluating-media-queries-using-javascript}
 
-Implementations of the [MediaQueryList interface](http://dev.w3.org/csswg/cssom-view/#the-mediaquerylist-interface) that the W3C defines enable you to evaluate media queries using javascript. You can apply logic to the media query results and execute scripts that are targeted for the current window:
+Implementations of the [MediaQueryList interface](https://dev.w3.org/csswg/cssom-view/#the-mediaquerylist-interface) that the W3C defines enable you to evaluate media queries using javascript. You can apply logic to the media query results and execute scripts that are targeted for the current window:
 
 * Browsers that implement the MediaQueryList interface support the `window.matchMedia()` function. This function tests media queries against a given string. The function returns a `MediaQueryList` object that provides access to the query results.
 
@@ -247,7 +247,7 @@ Implementations of the [MediaQueryList interface](http://dev.w3.org/csswg/cssom-
 
 #### Selecting Media-Specific Resources {#selecting-media-specific-resources}
 
-The W3C-proposed [picture element](http://picture.responsiveimages.org/) uses media queries to determine the source to use for image elements. The picture element uses element attributes to assocate media queries with image paths.
+The W3C-proposed [picture element](https://picture.responsiveimages.org/) uses media queries to determine the source to use for image elements. The picture element uses element attributes to assocate media queries with image paths.
 
 The freely-available [picturefill.js library](https://github.com/scottjehl/picturefill) provides similar functionality as the proposed `picture` element, and uses a similar strategy. The picturefill.js library calls `window.matchMedia` to evaluate the media queries that are defined for a set of `div` elements. Each `div` element also specifies an image source. The source is used when the media query of the `div` element returns `true`.
 
@@ -642,7 +642,7 @@ The `ImageReferenceModificationServlet` class overrides the `createLayer` method
 
 ## Developing a Fluid Grid {#developing-a-fluid-grid}
 
-AEM enables you to efficiently and effectively implement fluid grids. This page explains how you can integrate your fluid grid or an existing grid implementation (such as [Bootstrap](http://twitter.github.com/bootstrap/)) into your AEM application.
+AEM enables you to efficiently and effectively implement fluid grids. This page explains how you can integrate your fluid grid or an existing grid implementation (such as [Bootstrap](https://twitter.github.com/bootstrap/)) into your AEM application.
 
 If you are not familiar with fluid grids, see the [Introduction to Fluid Grids](../../../sites/developing/using/responsive.md#developing-a-fluid-grid) section at the bottom of this page. This introduction provides an overview of fluid grids and guidance for designing them.
 
@@ -691,7 +691,7 @@ The following example CSS is a subset of those styles. This subset focuses on `s
 
 >[!NOTE]
 >
->The Geometrixx Media sample integrates the [Bootstrap](http://twitter.github.com/bootstrap/javascript.html) javascript framework into its fluid grid implementation. The Bootstrap framework provides the bootstrap.css file.
+>The Geometrixx Media sample integrates the [Bootstrap](https://twitter.github.com/bootstrap/javascript.html) javascript framework into its fluid grid implementation. The Bootstrap framework provides the bootstrap.css file.
 
 ```xml
 /* default styles (no media queries) */

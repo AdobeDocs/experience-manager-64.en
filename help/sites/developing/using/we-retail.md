@@ -60,7 +60,7 @@ Although We.Retail is distributed with the AEM release, updates to the content a
 1. Once AEM is started (and/or We.Retail is installed), the site **We.Retail** is available in the [sites console](../../../sites/authoring/using/basic-handling.md#global-navigation).
 1. For example the following page can be opened and it should look as displayed in the [appendix](#appendix) below:
 
-   `http://<server name>:<port number>/editor.html/content/we-retail/language-masters/en.html`
+   `https://<server name>:<port number>/editor.html/content/we-retail/language-masters/en.html`
 
 ## We.Retail & Geometrixx {#we-retail-geometrixx}
 

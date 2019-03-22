@@ -125,7 +125,7 @@ selectAuthentication/items/custom.
 
 ### Adobe Sign integration
 
-* Adobe Sign scheduler stops working intermittently and therefore forms pending sign do not move to submission. To resolve the issue, restart the **Apache Sling Scheduler Support** bundle from AEM web console at http://[*server*]:[*port*]/system/console/bundles.
+* Adobe Sign scheduler stops working intermittently and therefore forms pending sign do not move to submission. To resolve the issue, restart the **Apache Sling Scheduler Support** bundle from AEM web console at https://[*server*]:[*port*]/system/console/bundles.
 
 ### Adaptive Forms authoring
 

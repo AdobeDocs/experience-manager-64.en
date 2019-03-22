@@ -67,11 +67,11 @@ curl -u admin:admin -F":operation=remove" -F"jobid=xxxxxxxxxxxx"
 
 ### Proxy Worker {#proxy-worker}
 
-A proxy worker is a processor responsible for handling a job and creating a result. Workers reside on the proxy instance and must implement [sling JobProcessor](http://sling.apache.org/site/eventing-and-jobs.html) to be recognized as a proxy worker.
+A proxy worker is a processor responsible for handling a job and creating a result. Workers reside on the proxy instance and must implement [sling JobProcessor](https://sling.apache.org/site/eventing-and-jobs.html) to be recognized as a proxy worker.
 
 >[!NOTE]
 >
->The worker must implement [sling JobProcessor](http://sling.apache.org/site/eventing-and-jobs.html) to be recognized as a proxy worker.
+>The worker must implement [sling JobProcessor](https://sling.apache.org/site/eventing-and-jobs.html) to be recognized as a proxy worker.
 
 ### Client API {#client-api}
 
@@ -167,7 +167,7 @@ The following diagram and steps detail how to proceed:
 >
 >In the following steps, Indesign equivalents are indicated as reference examples.
 
-1. A [Sling job](http://sling.apache.org/site/eventing-and-jobs.html) is used, so you need to define a job topic for your use case.
+1. A [Sling job](https://sling.apache.org/site/eventing-and-jobs.html) is used, so you need to define a job topic for your use case.
 
    As an example, see `IDSJob.IDS_EXTENDSCRIPT_JOB` for the IDS proxy worker.
 

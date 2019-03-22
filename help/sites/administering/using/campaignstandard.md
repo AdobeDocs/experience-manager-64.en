@@ -195,7 +195,7 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 
 You need to [configure the externalizer](../../../sites/developing/using/externalizer.md) in AEM on your author instance. The Externalizer is an OSGi service that lets you transform a resource path into an external and absolute URL. This service provides a central place to configure those external URLs and build them.
 
-See [Configure the externalizer](../../../sites/developing/using/externalizer.md) for general instructions. For the Adobe Campaign integration, make sure you configure the publish server at `http://*<host>:<port>*/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl` not point to `localhost:4503` but to a server that is reachable by the Adobe Campaign console.
+See [Configure the externalizer](../../../sites/developing/using/externalizer.md) for general instructions. For the Adobe Campaign integration, make sure you configure the publish server at `https://*<host>:<port>*/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl` not point to `localhost:4503` but to a server that is reachable by the Adobe Campaign console.
 
 If it points to `localhost:4503` or another server that Adobe Campaign cannot reach, your images will not appear on the Adobe Campaign console.
 

@@ -22,7 +22,7 @@ For the purpose of this discussion, assume that the following DDX document is us
 
 ```as3
  <?xml version="1.0" encoding="UTF-8"?> 
- <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+ <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
       <PDF result="out.pdf"> 
         <PDF source="inDoc"/> 
         <NoXFA/> 
@@ -44,11 +44,11 @@ The Assembler service can assemble non-interactive PDF documents without the Out
 
 >[!NOTE]
 >
->For more information about the Assembler service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Assembler service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]
 >
->For more information about a DDX document, see [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddx_63).
+>For more information about a DDX document, see [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddx_63).
 
 ## Summary of steps {#summary-of-steps}
 

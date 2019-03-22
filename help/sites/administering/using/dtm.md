@@ -13,7 +13,7 @@ discoiquuid: b8c7a20a-7694-4a49-b66a-060720f17dad
 
 # Integrating with Adobe Dynamic Tag Management{#integrating-with-adobe-dynamic-tag-management}
 
-Integrate [Adobe Dynamic Tag Management](http://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html) with AEM so that you can use your Dynamic Tag Management web properties to track AEM sites. Dynamic Tag Management enables marketers to manage tags for collecting data, and distribute data across digital marketing systems. For example, use Dynamic Tag Management to collect usage data for your AEM website and distribute the data for analysis in Adobe Analytics or Adobe Target.
+Integrate [Adobe Dynamic Tag Management](https://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html) with AEM so that you can use your Dynamic Tag Management web properties to track AEM sites. Dynamic Tag Management enables marketers to manage tags for collecting data, and distribute data across digital marketing systems. For example, use Dynamic Tag Management to collect usage data for your AEM website and distribute the data for analysis in Adobe Analytics or Adobe Target.
 
 Before you integrate, you need to create the Dynamic Tag Management [web property](https://microsite.omniture.com/t2/help/en_US/dtm/#Web_Properties) that tracks the domain of your AEM site. The [hosting options](https://microsite.omniture.com/t2/help/en_US/dtm/#Hosting__Embed_Tab) of the web property must be configured so that you can configure AEM to access the Dynamic Tag Management libraries.
 
@@ -46,7 +46,7 @@ Decide whether your AEM author instance uses the Dynamic Tag Management staging 
 
 Typically your author instance uses the Dynamic Tag Management staging libraries, and the production instance uses the production libraries. This scenario enables you to use the author instance to test unapproved Dynamic Tag Management configurations.
 
-If desired, your author instance can use the production libraries. [Web browser plugins are available](http://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html) that enable you to switch between the use of staging libraries for testing purposes when the libraries are cloud-hosted.
+If desired, your author instance can use the production libraries. [Web browser plugins are available](https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html) that enable you to switch between the use of staging libraries for testing purposes when the libraries are cloud-hosted.
 
 ### Using the Dynamic Tag Management Deployment Hook {#using-the-dynamic-tag-management-deployment-hook}
 

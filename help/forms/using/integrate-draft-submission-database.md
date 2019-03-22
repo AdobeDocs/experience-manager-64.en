@@ -34,12 +34,12 @@ Perform the following steps, on all the author and publish instances, to install
 
    [Get File](assets/aem-fp-db-integration-sample-pkg-6.1.2.zip)
 
-1. Go to AEM package manager at http://[*host*]:[*port*]/crx/packmgr/.
+1. Go to AEM package manager at https://[*host*]:[*port*]/crx/packmgr/.
 1. Click **Upload Package**.  
 
 1. Browse to select the **aem-fp-db-integration-sample-pkg-6.1.2.zip** package and click **OK**.
 1. Click **Install** to next to the package to install the package.
-1. Go to AEM Web Console Configuration page at http://[*host*]:[*port*]/system/console/configMgr.
+1. Go to AEM Web Console Configuration page at https://[*host*]:[*port*]/system/console/configMgr.
 1. Click to open **Forms Portal Draft and Submission Configuration** in edit mode.  
 
 1. Specify the values for properties as described in the following table:
@@ -300,12 +300,12 @@ The sample implementation is now configured, which you can use to list your draf
 
 Perform the following steps,on all the author and publish instances, to install the mysql-connector-java-5.1.39-bin.jar file:
 
-1. Navigate to http://[server]:[port]/system/console/depfinder and search for com.mysql.jdbc package.
+1. Navigate to https://[server]:[port]/system/console/depfinder and search for com.mysql.jdbc package.
 1. In the Exported by column, check if the package is exported by any bundle.
 
    Proceed if the package is not exported by any bundle.
 
-1. Navigate to http://[server]:[port]/system/console/bundles and click **Install/Update**.
+1. Navigate to https://[server]:[port]/system/console/bundles and click **Install/Update**.
 1. Click **Choose File** and browse to select the mysql-connector-java-5.1.39-bin.jar file. Also, select **Start Bundle** and **Refresh Packages** checkboxes.
 1. Click **Install or Update**. Once complete, restart the server.
 1. (*Windows only*) Turn off the system firewall for your operating system.

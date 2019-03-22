@@ -21,7 +21,7 @@ See also [Cache overview in Scene7](https://helpx.adobe.com/experience-manager/s
 
 1. Log on to your Dynamic Media Classic (Scene7) account:
 
-   [http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
+   [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
@@ -32,16 +32,16 @@ See also [Cache overview in Scene7](https://helpx.adobe.com/experience-manager/s
 
    For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
-   `http://server.com/is/image/Company/<ID>?$product$`
+   `https://server.com/is/image/Company/<ID>?$product$`
 
-   If the Template just contains `<ID>`, then Dynamic Media fills in `http://<server>/is/image` where `<server>` is the Publish Server Name that is defined in General Settings and &lt;ID&gt; is the asset(s) selected to be invalidated.
+   If the Template just contains `<ID>`, then Dynamic Media fills in `https://<server>/is/image` where `<server>` is the Publish Server Name that is defined in General Settings and &lt;ID&gt; is the asset(s) selected to be invalidated.
 
 1. In the lower-right corner of the page, click **Close**.
 1. In the Dynamic Media Classic (Scene7) UI, select one or more assets, then click **File** &gt; **Invalidate CDN**. You will see a list of one or more URLs generated from the template you created and the asset(s) you selected. It uses the server URL listed under "Published Server Name" under the Application General Settings.
 
    For example, with the CDN Invalidation Template set in the previous step, suppose you selected a single image asset image named `Backpack_B`. When you click **File** &gt; **Invalidate CDN** it results in the following generated URL in the CDN Invalidation user interface:
 
-   `http://server.com/is/image/Company/Backpack_B?$product$`
+   `https://server.com/is/image/Company/Backpack_B?$product$`
 
 1. In the URL list box, click **Continue** to clear the cache for each specific URL. Note that you can edit a URL or you can add a URL by typing or pasting it into the URL list box; you do not need to set CDN Invalidate Template beforehand.
 

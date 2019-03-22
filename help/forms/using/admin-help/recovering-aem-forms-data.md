@@ -51,10 +51,10 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
 1. (WebSphere Application Server) If you are recovering to a new instance of WebSphere Application Server, run the restoreConfig.bat/sh command.
 1. Recover the AEM forms database by first running a database restore operation using the database backup files and then applying the transaction redo logs to the recovered database. (See [AEM forms database](../../../forms/using/admin-help/files-back-recover.md#aem-forms-database).) For more information, see one of these knowledge base articles:
 
-    * [Oracle Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403624)
-    * [MySQL Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403625)
-    * [Microsoft SQL Server Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403623)
-    * [DB2 Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403626)
+    * [Oracle Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403624)
+    * [MySQL Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403625)
+    * [Microsoft SQL Server Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403623)
+    * [DB2 Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403626)
 
 1. Recover the GDS directory by first deleting the contents of the GDS directory on the existing installation of AEM forms and then copying the contents of the GDS directory from the backed-up GDS. If you changed the GDS directory location, see [Changing the GDS location during recovery](recovering-aem-forms-data.md#changing_the_gds_location_during_recovery).
 1. Rename the GDS backup directory to be restored as shown in these examples:
@@ -93,7 +93,7 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
 
     * **Standalone**
 
-      *Restore author and publish instances*: If a disaster occurs, you can restore the repository to the last backed up state by performing the steps described in [Backup and Restore.](http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html)
+      *Restore author and publish instances*: If a disaster occurs, you can restore the repository to the last backed up state by performing the steps described in [Backup and Restore.](https://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html)
 
       The complete restoration of Author node ascertains the restoration of Forms Manager and AEM Forms Workspace data as well.
     

@@ -17,7 +17,7 @@ discoiquuid: 370151df-3b8e-41aa-b586-5c21ecb55ffe
 
 Offloading distributes processing tasks amoung Experience Manager instances in a topology. With offloading, you can use specific Experience Manager instances for performing specific types of processing. Specialized processing enables you to maximize the usage of available server resources.
 
-Offloading is based on the [Apache Sling Discovery](http://sling.apache.org/documentation/bundles/discovery-api-and-impl.html) and Sling JobManager features. To use offloading, you add Experience Manager clusters to a topology and identify the job topics that the cluster process. Clusters are comprised of one or more Experience Manager instances, so that a single instance is considered to be a cluster.
+Offloading is based on the [Apache Sling Discovery](https://sling.apache.org/documentation/bundles/discovery-api-and-impl.html) and Sling JobManager features. To use offloading, you add Experience Manager clusters to a topology and identify the job topics that the cluster process. Clusters are comprised of one or more Experience Manager instances, so that a single instance is considered to be a cluster.
 
 For information about adding instances to a topology, see [Administering Topologies](../../../sites/deploying/using/offloading.md#administering-topologies).
 
@@ -160,7 +160,7 @@ Use the following procedure to connect a CQ instance to the root member of a top
 1. Open the Web Console in your browser. ([http://localhost:4502/system/console](http://localhost:4502/system/console))
 1. Click Main &gt; Topology Management.
 1. Click Configure Discovery Service.
-1. Add an item to the Topology Connector URLs property, and specify the URL of the root topology member's Topology Connector service. The URL is in the form http://rootservername:4502/libs/sling/topology/connector.
+1. Add an item to the Topology Connector URLs property, and specify the URL of the root topology member's Topology Connector service. The URL is in the form https://rootservername:4502/libs/sling/topology/connector.
 
 Perform the following procedure on the root member of the topology. The procedure adds the names of the other topology members to its Discovery Service whitelist.
 
@@ -273,7 +273,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
    | Property |Value |
    |---|---|
    | Settings > Serialization Type |Default |
-   | Transport >Transport URI |http://*<ip of target instance>*:*<port>*/bin/receive?sling:authRequestLogin=1 |
+   | Transport >Transport URI |https://*<ip of target instance>*:*<port>*/bin/receive?sling:authRequestLogin=1 |
    | Transport >Transport User |Replication user on target instance |
    | Transport >Transport Passoword |Replication user password on target instance |
    | Extended > HTTP Method |POST |
@@ -287,7 +287,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
    | Property |Value |
    |---|---|
    | Settings > Serialization Type |Default |
-   | Transport >Transport URI |http://*<ip of target instance>*:*<port>*/bin/receive?sling:authRequestLogin=1 |
+   | Transport >Transport URI |https://*<ip of target instance>*:*<port>*/bin/receive?sling:authRequestLogin=1 |
    | Transport >Transport User |Replication user on target instance |
    | Transport >Transport Passoword |Replication user password on target instance |
    | Extended > HTTP Method |GET |

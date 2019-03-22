@@ -256,7 +256,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="http://helpx.adobe.com/cloud-manager/using/using-cloud-manager.html">Cloud Services</a></td> 
+   <td><a href="https://helpx.adobe.com/cloud-manager/using/using-cloud-manager.html">Cloud Services</a></td> 
    <td>Connect to Adobe Marketing Cloud.</td> 
   </tr> 
   <tr> 

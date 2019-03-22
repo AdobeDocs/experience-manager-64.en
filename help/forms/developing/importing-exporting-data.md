@@ -32,7 +32,7 @@ You can accomplish these tasks using the Form Data Integration service:
 
 >[!NOTE]
 >
->For more information about the Form Data Integration service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Form Data Integration service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Importing Form Data {#importing-form-data}
 
@@ -46,7 +46,7 @@ In order to import data values into this form, you must have a valid XDP XML dat
 
 ```as3
  <?xml version="1.0" encoding="UTF-8" ?>  
- - <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"> 
+ - <xfa:datasets xmlns:xfa="https://www.xfa.org/schema/xfa-data/1.0/"> 
  - <xfa:data> 
  - <data> 
      - <Layer> 
@@ -77,7 +77,7 @@ In order to import data values into this form, you must have a valid XDP XML dat
 
 >[!NOTE]
 >
->For more information about the Form Data Integration service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Form Data Integration service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -256,7 +256,7 @@ You can export form data from an interactive PDF form by using the Form Data Int
 
 >[!NOTE]
 >
->For more information about the Form Data Integration service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Form Data Integration service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 

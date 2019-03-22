@@ -94,7 +94,7 @@ The following code example converts a Word file named *Loan.doc* to a PDF docume
          try{ 
          //Set connection properties required to invoke AEM Forms using SOAP mode                                 
          Properties connectionProps = new Properties(); 
-         connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+         connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
          connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
          connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
          connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -141,7 +141,7 @@ The following code example converts a Word file named *Loan.doc* to a PDF docume
 
 ## Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API {#quick-start-soap-mode-converting-html-content-to-a-pdf-document-using-the-java-api}
 
-The following Java code example converts HTML content located at http://www.adobe.com to a PDF document named *AdobeHTML.pdf*. (See [Converting HTML Documents to PDF Documents](/programming-with-aem-forms/converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents).)
+The following Java code example converts HTML content located at https://www.adobe.com to a PDF document named *AdobeHTML.pdf*. (See [Converting HTML Documents to PDF Documents](/programming-with-aem-forms/converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents).)
 
 ```as3
  /* 
@@ -206,7 +206,7 @@ The following Java code example converts HTML content located at http://www.adob
          try{ 
          //Set connection properties required to invoke AEM Forms using SOAP mode                                 
          Properties connectionProps = new Properties(); 
-         connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+         connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
          connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
          connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
          connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 
@@ -219,7 +219,7 @@ The following Java code example converts HTML content located at http://www.adob
          GeneratePdfServiceClient pdfGenClient = new GeneratePdfServiceClient(myFactory); 
           
          //Get an HTML document to convert to a PDF document a 
-         String inputFileName = "http://www.adobe.com"; 
+         String inputFileName = "https://www.adobe.com"; 
           
           String securitySettings = "No Security"; 
          String fileTypeSettings = "Standard"; 
@@ -315,7 +315,7 @@ The following code example converts a PDF document named *Loan.pdf* to an RTF do
          try{ 
              //Set connection properties required to invoke AEM Forms using SOAP mode                                 
              Properties connectionProps = new Properties(); 
-             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "http://[server]:[port]"); 
+             connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT, "https://[server]:[port]"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);           
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE, "JBoss"); 
              connectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME, "administrator"); 

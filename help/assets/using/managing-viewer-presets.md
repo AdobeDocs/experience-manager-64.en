@@ -19,7 +19,7 @@ A Viewer Preset is a collection of settings that determine how users view rich-m
 For instructions on creating and customizing your own HTML5 viewer presets, see the *Adobe Scene7 HTML5 Viewer SDK*. The SDK is available on the IS publish server embedded in the SDK itself. Each library version has its own SDK documentation included.
 
 Path: `<scene7_domain>/s7sdk/<library_version>/docs/jsdocs/index.html`.  
-For example, 3.5 SDK: [http://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html](http://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html)
+For example, 3.5 SDK: [https://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html](https://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html)
 
 See also the [Adobe Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
 

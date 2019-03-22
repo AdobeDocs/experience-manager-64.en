@@ -444,7 +444,7 @@ Adobe Typekit is a web fonts service. You can configure and use the service with
 
 >[!NOTE]
 >
->![](assets/typekit-to-adobe-fonts.png) Typekit is now called Adobe Fonts and is included with Creative Cloud and other subscriptions. [Learn more](http://fonts.adobe.com/).
+>![](assets/typekit-to-adobe-fonts.png) Typekit is now called Adobe Fonts and is included with Creative Cloud and other subscriptions. [Learn more](https://fonts.adobe.com/).
 
 1. Create an [Adobe Typekit](https://typekit.com/) account, create a kit, add font Myriad Pro to the kit, publish the kit, and obtain the Kit ID. It is required to use Adobe Typekit fonts (Web fonts) in an adaptive form. 
 1. In the AEM Forms server, navigate to ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/icons/AdobeExperienceManager.png)**Adobe Experience Manager** &gt;** Tools** ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/icons/Hammer.png) &gt; **Deployment **&gt; **Cloud Services**. On the Cloud Services page, navigate to **Third Party Services** &gt; **Typekit**, and click **Configure** Now under Typekit. If a configuration is already available, click the + button to create a new instance.

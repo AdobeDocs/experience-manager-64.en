@@ -67,7 +67,7 @@ Using the example of the [Enablement Tutorial](../../communities/using/getting-s
 * on author
 * using [CRXDE](../../sites/developing/using/developing-with-crxde-lite.md)
 
-    * such as [http://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
+    * such as [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 
 * navigate to the catalog resource on the catalog page
 

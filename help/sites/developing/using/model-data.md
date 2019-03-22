@@ -19,7 +19,7 @@ The following details are ideas and comments expressed by David Nuescheler.
 
 David was co-founder and CTO of Day Software AG, a leading provider of global content management and content infrastructure software, which was aquired by Adobe in 2010. He is now fellow and VP of Enterprise Technology at Adobe and also leads the development of JSR-170, the Java Content Repository (JCR) application programming interface (API), the technology standard for content management.
 
-Further updates can also be seen on [http://wiki.apache.org/jackrabbit/DavidsModel](http://wiki.apache.org/jackrabbit/DavidsModel).
+Further updates can also be seen on [https://wiki.apache.org/jackrabbit/DavidsModel](https://wiki.apache.org/jackrabbit/DavidsModel).
 
 ### Introduction from David {#introduction-from-david}
 

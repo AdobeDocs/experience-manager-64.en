@@ -19,7 +19,7 @@ The barcoded forms service automates the capture of data from fill-and-print for
 
 Using the barcoded forms service, you can add one-dimensional and two-dimensional barcodes to interactive PDF forms. You can then publish the barcoded forms to a website or distribute them by email or CD. When a user fills a barcoded form by using Adobe Reader, Acrobat Professional, or Acrobat Standard, the barcode is updated automatically to encode the user-supplied form data. The user can submit the form electronically, or print it to paper and submit it by mail, fax, or hand. You can later extract the user-supplied data as part of an automated workflow, routing the data among approval processes and business systems.
 
-For more information about the barcoded forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+For more information about the barcoded forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Decoding Barcoded Form Data {#decoding-barcoded-form-data}
 
@@ -27,7 +27,7 @@ You can use the barcoded forms service API to decode data from a PDF form or an 
 
 >[!NOTE]
 >
->For more information about the barcoded forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the barcoded forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 

@@ -13,11 +13,11 @@ discoiquuid: ccddb2cd-8e67-43aa-a495-8996ad349761
 
 # OSGi Configuration Settings{#osgi-configuration-settings}
 
-[OSGi](http://www.osgi.org/) is a fundamental element in the technology stack of AEM. It is used to control the composite bundles of AEM and their configuration.
+[OSGi](https://www.osgi.org/) is a fundamental element in the technology stack of AEM. It is used to control the composite bundles of AEM and their configuration.
 
 OSGi "*provides the standardized primitives that allow applications to be constructed from small, reusable and collaborative components. These components can be composed into an application and deployed*".
 
-This allows easy management of bundles as they can be stopped, installed, started individually. The interdependencies are handled automatically. Each OSGi Component (see the [OSGi Specification](http://www.osgi.org/Specifications/HomePage)) is contained in one of the various bundles. When working with AEM there are several methods of managing the configuration settings for such bundles; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+This allows easy management of bundles as they can be stopped, installed, started individually. The interdependencies are handled automatically. Each OSGi Component (see the [OSGi Specification](https://www.osgi.org/Specifications/HomePage)) is contained in one of the various bundles. When working with AEM there are several methods of managing the configuration settings for such bundles; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 The following OSGi configuration settings (listed according to bundle) are relevant to project implementation. Not all the listed settings need adjusting, some are mentioned to help you understand how AEM operates.
 
@@ -31,7 +31,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 
 >[!NOTE]
 >
->The [AEM OSGi Config Details](http://www.aemstuff.com/osgi.html) tool can be used to list the default OSGi configurations.
+>The [AEM OSGi Config Details](https://www.aemstuff.com/osgi.html) tool can be used to list the default OSGi configurations.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 * **Logger Name** and **Log Format** to configure the location and format of request and access logging (default: `request.log`). This log file is essential when analyzing performance or debugging functionality related to the web chain.  
   This is paired with the [Apache Sling Request Logger](#apacheslingrequestlogger).
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](http://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Eventing Thread Pool** Configure:
 
@@ -143,7 +143,7 @@ In particular for production instances:
 
 * **Message Pattern** defines the format of the log messages.
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md#global-logging) and [Sling Logging](http://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md#global-logging) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Logging Logger Configuration (Factory Configuration)** Configure:
 
@@ -155,7 +155,7 @@ For further information see [AEM Logging](../../../sites/deploying/using/configu
 * Such configurations are helpful during development; for example, to log TRACE messages for a specific service in a specific log file.
 * Such configurations are helpful in a production environment; for example, to have messages about a specific service logged to an individual log file for easier monitoring.
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](http://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Logging Writer Configuration (Factory Configuration)** Configure:
 
@@ -167,7 +167,7 @@ For further information see [AEM Logging](../../../sites/deploying/using/configu
 * Such configurations are helpful during development; for example, to log TRACE messages for a specific service in a specific log file.
 * Such configurations are helpful in a production environment; for example, to have messages about a specific service logged to an individual log file for easier monitoring.
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](http://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Main Servlet** Configure:
 
@@ -200,7 +200,7 @@ See the [Security Checklist - Issues with Cross-Site Request Forgery](../../../s
 
 This is paired with the [Apache Sling Customizable Request Data Logger](#apacheslingcustomizablerequestdatalogger).
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](http://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Resource Resolver Factory** Configure central aspects of Sling resource resolution:
 

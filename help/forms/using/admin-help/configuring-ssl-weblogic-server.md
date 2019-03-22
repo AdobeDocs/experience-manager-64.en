@@ -158,7 +158,7 @@ Configure WebLogic so that it uses the Custom Identity keystore and Custom Trust
 
 ## Configure WebLogic to use SSL {#configure-weblogic-to-use-ssl}
 
-1. Start the WebLogic Server administration console by typing `http://`*[host name]* `:7001/console` in the URL line of a web browser. 
+1. Start the WebLogic Server administration console by typing `https://`*[host name]* `:7001/console` in the URL line of a web browser. 
 1. Under Environment, in Domain Configurations, select **Servers &gt; [*server*] &gt; Configuration &gt; General**.
 1. Under General, in Configuration, ensure that **Listen Port Enabled** and **SSL Listen Port Enabled** are selected. If not enabled, do the following:
 

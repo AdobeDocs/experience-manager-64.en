@@ -106,7 +106,7 @@ When a Flash disabled device like the iPad requests a AEM page that includes Fla
 The following procedure shows you how to access Flash content on your iPad. To access the Mobile Trader pages:
 
 1. On your iPad, open the Safari browser and go to the page:  
-   `http://<aem-server-ip>:4502/content/geometrixx_mobile/en/trader.html`
+   `https://<aem-server-ip>:4502/content/geometrixx_mobile/en/trader.html`
 
 1. Login with the default credentials ( `admin/admin`).  
 

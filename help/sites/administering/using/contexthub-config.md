@@ -161,7 +161,7 @@ AEM provides the following sample store candidates upon which you can base a sto
 
 This example illustrates how to configure a store and display the data in a UI module. In this example, the MD5 service of the jsontest.com site is used as a data source for a store. The service returns the MD5 hash code of a given string, in JSON format.
 
-A contexthub.generic-jsonp store is configured so that it stores data for the service call `http://md5.jsontest.com/?text=%22text%20to%20md5%22`. The service returns the following data which is displayed in a UI module:
+A contexthub.generic-jsonp store is configured so that it stores data for the service call `https://md5.jsontest.com/?text=%22text%20to%20md5%22`. The service returns the following data which is displayed in a UI module:
 
 ```xml
 {

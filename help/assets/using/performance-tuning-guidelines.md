@@ -30,7 +30,7 @@ While AEM is supported on a number of platforms, Adobe has found the greatest su
 
 ### Temp Folder {#temp-folder}
 
-To improve asset upload times, use high performance storage for the Java temp directory. On Linux and Windows, a RAM drive or SSD could be used. In cloud-based environments, an equivalent high speed storage type could be used. For example in Amazon EC2, an ["ephemeral drive"](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html) drive can be used for the temp folder.
+To improve asset upload times, use high performance storage for the Java temp directory. On Linux and Windows, a RAM drive or SSD could be used. In cloud-based environments, an equivalent high speed storage type could be used. For example in Amazon EC2, an ["ephemeral drive"](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html) drive can be used for the temp folder.
 
 Assuming the server has ample memory, configure a RAM drive. On Linux, run these commands to create an 8 GB RAM drive:
 
@@ -73,7 +73,7 @@ Separating the data store from the segment store is recommended for all AEM Asse
 
 When uploading large amounts of assets to Adobe Experience Manager, to allow for unexpected spikes in memory consumption and to prevent JVM fails with OutOfMemoryErrors, reduce the configured maximum size of the buffered image cache. Consider an example that you have a system with a maximum heap (- `Xmx`param) of 5 GB, an Oak BlobCache set at 1 GB, and document cache set at 2 GB. In this case, the buffered cache would take maximum 1.25 GB and memory, that would leave only 0.75 GB memory for unexpected spikes.
 
-Configure the buffered cache size in the OSGi Web Console. At `http://host:port/system/console/configMgr/com.day.cq.dam.core.impl.cache.CQBufferedImageCache`, set the property `cq.dam.image.cache.max.memory` in bytes. For example, 1073741824 is 1 GB (1024 x 1024 x 1024 = 1 GB).
+Configure the buffered cache size in the OSGi Web Console. At `https://host:port/system/console/configMgr/com.day.cq.dam.core.impl.cache.CQBufferedImageCache`, set the property `cq.dam.image.cache.max.memory` in bytes. For example, 1073741824 is 1 GB (1024 x 1024 x 1024 = 1 GB).
 
 From AEM 6.1 SP1, if you're using a `sling:osgiConfig` node for configuring this property, make sure to set the data type to Long. For more details, see [CQBufferedImageCache consumes heap during Asset uploads](https://helpx.adobe.com/experience-manager/kb/cqbufferedimagecache-consumes-heap-during-asset-uploads.html).
 
@@ -90,7 +90,7 @@ accessKey=<snip>
  secretKey=<snip>
  s3Bucket=<snip>
  s3Region=us-standard
- s3EndPoint=<a href="http://s3.amazonaws.com/">s3.amazonaws.com</a>
+ s3EndPoint=<a href="https://s3.amazonaws.com/">s3.amazonaws.com</a>
  connectionTimeout=120000
  socketTimeout=120000
  maxConnections=80
@@ -264,7 +264,7 @@ When replicating assets to a large number of publish instances, for example in a
 
 Make sure you implement the latest service packs and performance-related hotfixes as they often include updates to system indexes. See [Performance tuning tips | 6.x](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html) for some index optimizations that can be applied, depending on your version of AEM.
 
-Create custom indexes for queries that you run often. For details, see [methodology for analyzing slow queries](http://aemfaq.blogspot.com/2014/08/oak-query-log-file-analyzer-tool.html) and [crafting custom indexes](../../sites/deploying/using/queries-and-indexing.md). For additional insights around query and index best practices, see [Best Practices for Queries and Indexing](../../sites/deploying/using/best-practices-for-queries-and-indexing.md).
+Create custom indexes for queries that you run often. For details, see [methodology for analyzing slow queries](https://aemfaq.blogspot.com/2014/08/oak-query-log-file-analyzer-tool.html) and [crafting custom indexes](../../sites/deploying/using/queries-and-indexing.md). For additional insights around query and index best practices, see [Best Practices for Queries and Indexing](../../sites/deploying/using/best-practices-for-queries-and-indexing.md).
 
 ### Lucene index configurations {#lucene-index-configurations}
 

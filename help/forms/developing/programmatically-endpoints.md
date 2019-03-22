@@ -314,7 +314,7 @@ The following list specifies configuration values that are set when programmatic
 
 * **url**: Specifies the watched folder location. In a clustered environment, this value must point to a shared network folder that is accessible from every computer in the cluster.
 * **asynchronous**: Identifies the invocation type as asynchronous or synchronous. Transient and synchronous processes can only be invoked synchronously. The default value is true. Asynchronous is recommended.
-* **cronExpression**: Used by quartz to schedule the polling of the input directory. For details about configuring the cron expression, see [http://quartz.sourceforge.net/javadoc/org/quartz/CronTrigger.html](http://quartz.sourceforge.net/javadoc/org/quartz/CronTrigger.html).
+* **cronExpression**: Used by quartz to schedule the polling of the input directory. For details about configuring the cron expression, see [https://quartz.sourceforge.net/javadoc/org/quartz/CronTrigger.html](https://quartz.sourceforge.net/javadoc/org/quartz/CronTrigger.html).
 * **purgeDuration**: This is a mandatory attribute. Files and folders in the result folder are purged when they are older than this value. This value is measured in days. This attribute is useful in ensuring the result folder does not become full. A value of -1 days indicates to never delete the results folder. The default value is -1.
 * **repeatInterval**: The interval, in seconds, for scanning the Watched Folder for input. Unless throttling is enabled, this value should be longer than the time to process an average job; otherwise, the system may become overloaded. The default value is 5.
 * **repeatCount**: The number of times a Watched Folder scans the folder or directory. A value of -1 indicates indefinite scanning. The default value is -1.
@@ -1048,7 +1048,7 @@ Modify an endpoint by using the Java API:
 
 1. Retrieve the endpoint to modify.
 
-    * Retrieve a list of all endpoints to which the current user (specified in the connection properties) can access by invoking the `EndpointRegistryClient` object’s `getEndpoints` method and passing a `PagingFilter` object that acts as a filter. You can pass a `(PagingFilter)null` value to return all endpoints. This method returns a `java.util.List` object where each element is an `Endpoint` object. For information about a `PagingFilter` object, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
+    * Retrieve a list of all endpoints to which the current user (specified in the connection properties) can access by invoking the `EndpointRegistryClient` object’s `getEndpoints` method and passing a `PagingFilter` object that acts as a filter. You can pass a `(PagingFilter)null` value to return all endpoints. This method returns a `java.util.List` object where each element is an `Endpoint` object. For information about a `PagingFilter` object, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en). 
     * Iterate through the `java.util.List` object to determine whether it has endpoints. If endpoints exist, each element is an `EndPoint` instance. 
     * Determine the service that corresponds to an endpoint by invoking the `EndPoint` object’s `getServiceId` method. This method returns a string value that specifies the service name. 
     * Determine the type of endpoint by invoking the `EndPoint` object’s `getConnectorId` method. This method returns a string value that specifies the type of endpoint. For example, if the endpoint is a Watched Folder endpoint, this method returns `WatchedFolder`.
@@ -1175,7 +1175,7 @@ To demonstrate how to retrieve information about endpoint connectors, this secti
 
 >[!NOTE]
 >
->This topic uses the `ConnectorRegistryClient` API to retrieve information about endpoint connectors. (See [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).)
+>This topic uses the `ConnectorRegistryClient` API to retrieve information about endpoint connectors. (See [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).)
 
 ### Summary of steps {#summary_of_steps-8}
 

@@ -20,12 +20,12 @@ AEM Forms provides the complete source code of the AEM Forms app. The source con
 To get the AEM Forms app source, perform the following steps:
 
 1. Navigate to package share  
-   URL: `http://<server>:<port>/crx/packageshare`.
+   URL: `https://<server>:<port>/crx/packageshare`.
 
 1. Download the source package. When you download the package, it is added in your AEM Forms package manager.
-1. After it is downloaded, navigate to: `http://<server>:<port>/crx/packmgr/index.jsp`, and install `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
+1. After it is downloaded, navigate to: `https://<server>:<port>/crx/packmgr/index.jsp`, and install `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
 
-1. To download the source-code archive, open `http://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.   
+1. To download the source-code archive, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.   
    The source package is downloaded on your device.
 
 The following image displays the extracted contents of the `adobe-lc-mobileworkspace-src-<version>.zip`.
@@ -97,7 +97,7 @@ After you have built the project, you can choose to install the app using Androi
 
 ### Using Android™ Debug Bridge {#andriod-debug-bridge}
 
-You can install the application on an Android™ device via the [Android™ Debug Bridge](http://developer.android.com/tools/help/adb.html) with the following command:
+You can install the application on an Android™ device via the [Android™ Debug Bridge](https://developer.android.com/tools/help/adb.html) with the following command:
 
 **For MAC users**: `adb install [User_Home]/Projects/[your-project]/adobe-lc-mobileworkspace-src-[version]/android/build/outputs/apk/android-debug.apk`
 

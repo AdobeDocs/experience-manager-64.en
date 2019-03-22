@@ -181,7 +181,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
     <ul> 
      <li><a href="https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html">Performance Tuning Tips</a></li> 
      <li><a href="../../../sites/deploying/using/configuring-performance.md#configuring-for-performance">Configuring for Performance</a></li> 
-     <li><a href="http://www.slideshare.net/jukka/repository-performance-tuning">Repository Performance Tuning</a></li> 
+     <li><a href="https://www.slideshare.net/jukka/repository-performance-tuning">Repository Performance Tuning</a></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -282,7 +282,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Steps 45<br /> and 47</strong><br /> </td> 
    <td>Using HTTP/2</td> 
-   <td>See the Gem Session for steps 37,38 and 39. Also, check out <a href="http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.topic.html/forum__kdzc-does_anyoneknowwhe.html">this</a> forum post on HTTP/2 support.<br /> </td> 
+   <td>See the Gem Session for steps 37,38 and 39. Also, check out <a href="https://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.topic.html/forum__kdzc-does_anyoneknowwhe.html">this</a> forum post on HTTP/2 support.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 49</strong></td> 

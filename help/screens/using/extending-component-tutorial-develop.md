@@ -65,7 +65,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:Component"
        jcr:title="Poster"
        sling:resourceSuperType="screens/core/components/content/image"
@@ -88,7 +88,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="cq:EditConfig">
        <cq:dropTargets jcr:primaryType="nt:unstructured">
            <image
@@ -125,7 +125,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0" xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
        jcr:primaryType="nt:unstructured"
        jcr:title="Poster"
        sling:resourceType="cq/gui/components/authoring/dialog">
@@ -271,7 +271,7 @@ The Poster component is rendered in full screen in preview/production mode. In e
 
    A logo is also included as an overlay in the component. In this example, the path to the We.Retail logo is hard-coded in the DAM. Depending on the use case it might make more sense to create a new dialog field to make the logo path a dynamically populated value.
 
-   Also note that BEM (Block Element Modifier) notation is used with the component. BEM is a CSS coding convention that makes it easier to create reusable components. BEM is the notation used by [AEM's Core Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). More info can be found at: [http://getbem.com/](http://getbem.com/)
+   Also note that BEM (Block Element Modifier) notation is used with the component. BEM is a CSS coding convention that makes it easier to create reusable components. BEM is the notation used by [AEM's Core Components](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/wiki/CSS-coding-conventions). More info can be found at: [https://getbem.com/](https://getbem.com/)
 
 1. Create a file beneath `/apps/weretail-run/components/content/poster` named `edit.html.`
 
@@ -344,7 +344,7 @@ AEM Screens components are rendered differently in Edit mode vs. Preview/Product
 
    ![](assets/2018-05-03_at_1057pm.png)
 
-   Instead of writing CSS directly, this tutorial uses LESS. [LESS](http://lesscss.org/) is a popular CSS pre-compiler that supports CSS variables, mixins, and functions. AEM client libraries natively support LESS compilation. Sass or other pre-compilers can be used but need to be compiled outside of AEM.
+   Instead of writing CSS directly, this tutorial uses LESS. [LESS](https://lesscss.org/) is a popular CSS pre-compiler that supports CSS variables, mixins, and functions. AEM client libraries natively support LESS compilation. Sass or other pre-compilers can be used but need to be compiled outside of AEM.
 
 1. Populate `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` with the following:
 

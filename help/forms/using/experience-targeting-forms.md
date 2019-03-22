@@ -26,7 +26,7 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 
 1. Tap **Adobe Experience Manager &gt; Personalization &gt; Activities**.
 
-   `http://<hostname>:<port>/libs/cq/personalization/touch-ui/content/v2/activities.html`
+   `https://<hostname>:<port>/libs/cq/personalization/touch-ui/content/v2/activities.html`
 
 1. In the Activities page, tap **Create > Create Brand**. `` 
 1. You are asked to choose a template and enter properties.  

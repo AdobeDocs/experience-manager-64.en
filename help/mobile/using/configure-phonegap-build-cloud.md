@@ -21,7 +21,7 @@ The **PhoneGap Build Tile** on the application dashboard provides the ability to
 
 All supported platforms defined within the** Manage App** tile will be built with PhoneGap Build when pushing a remote build with the **PhoneGap Build** Tile.
 
-You can push a remote build to [https://build.phonegap.com](https://build.phonegap.com) or download the source to build locally with [PhoneGap CLI](http://docs.phonegap.com/references/phonegap-cli/).
+You can push a remote build to [https://build.phonegap.com](https://build.phonegap.com) or download the source to build locally with [PhoneGap CLI](https://docs.phonegap.com/references/phonegap-cli/).
 
 ![PhoneGap Build Tile](assets/chlimage_1-60.png)
 
@@ -82,7 +82,7 @@ In order to take advantage of PhoneGap's command line interface, you will need t
 1. Platform SDK (iOS, Android, WindowsPhone, ...) and,
 1. PhoneGap CLI
 
-You can read more [here](http://docs.phonegap.com/references/phonegap-cli/).  
+You can read more [here](https://docs.phonegap.com/references/phonegap-cli/).  
 
 Once you have installed the pre-requisites, give it a simple test by creating a simple app and getting it running either in your simulator or better yet on your device, from a terminal try:  
 

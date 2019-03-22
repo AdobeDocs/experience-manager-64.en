@@ -303,7 +303,7 @@ For information, go to [Creating Device Group Filters](../../../sites/developing
 
 ### Using the WURFL™ Database {#using-the-wurfl-database}
 
-AEM uses a truncated version of the [WURFL](http://wurfl.sourceforge.net/)™ database to query device capabilities, such as screen resolution or javascript support, based on the device's User-Agent.
+AEM uses a truncated version of the [WURFL](https://wurfl.sourceforge.net/)™ database to query device capabilities, such as screen resolution or javascript support, based on the device's User-Agent.
 
 The XML code of the WURFL™ database is represented as nodes below `/var/mobile/devicespecs` by parsing the `wurfl.xml`file at `/libs/wcm/mobile/devicespecs/wurfl.xml.` The expansion to nodes occurs the first time that the `cq-mobile-core` bundle is started.
 
@@ -429,7 +429,7 @@ Once you've created your customised `BrowserMap` client library, we suggest the 
 
    ```xml
    <%@include file="/libs/foundation/global.jsp" %>
-   <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+   <%@ taglib prefix="c" uri="https://java.sun.com/jsp/jstl/core" %>
    <%@ page import="
        com.day.cq.wcm.api.variants.PageVariant,
        com.day.cq.wcm.api.variants.PageVariantsProvider,
@@ -582,7 +582,7 @@ The **Statistics** page looks as follows:
 
 If you need to generate an entry in the statistics, you can proceed as follows:
 
-1. Use a mobile device or an emulator (as for example http://chrispederick.com/work/user-agent-switcher/ on Firefox).  
+1. Use a mobile device or an emulator (as for example https://chrispederick.com/work/user-agent-switcher/ on Firefox).  
 1. Request a mobile page on the author instance by disabling the authoring mode, e.g.:  
    `http://localhost:4502/content/geometrixx_mobile/en/products.html?wcmmode=disabled`
 

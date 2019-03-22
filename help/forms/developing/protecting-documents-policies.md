@@ -45,7 +45,7 @@ You can accomplish these tasks using the Document Security service:
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63). For examples of working with policies, see the “Document Security Service API Quick Starts” in [API Quick Starts (Code Examples)](/programming-with-aem-forms/.md#java_api_soap_quick_start_code_examples).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63). For examples of working with policies, see the “Document Security Service API Quick Starts” in [API Quick Starts (Code Examples)](/programming-with-aem-forms/.md#java_api_soap_quick_start_code_examples).
 
 ## Creating Policies {#creating-policies}
 
@@ -64,15 +64,15 @@ When creating a policy using the web service API, reference an existing Portable
 
 ```as3
  <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
- <Policy PolicyInstanceVersion="1" PolicyID="5DA3F847-DE76-F9CC-63EA-49A8D59154DE" PolicyCreationTime="2004-08-30T00:02:28.294+00:00" PolicyType="1" PolicySchemaVersion="1.0" PolicyName="SDK Test Policy -4344050357301573237" PolicyDescription="An SDK Test policy" xmlns="http://www.adobe.com/schema/1.0/pdrl"> 
+ <Policy PolicyInstanceVersion="1" PolicyID="5DA3F847-DE76-F9CC-63EA-49A8D59154DE" PolicyCreationTime="2004-08-30T00:02:28.294+00:00" PolicyType="1" PolicySchemaVersion="1.0" PolicyName="SDK Test Policy -4344050357301573237" PolicyDescription="An SDK Test policy" xmlns="https://www.adobe.com/schema/1.0/pdrl"> 
        <PolicyEntry> 
-          <ns1:Permission PermissionName="com.adobe.aps.onlineOpen" Access="ALLOW" xmlns:ns1="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns1:Permission PermissionName="com.adobe.aps.onlineOpen" Access="ALLOW" xmlns:ns1="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns2:Permission PermissionName="com.adobe.aps.offlineOpen" Access="ALLOW" xmlns:ns2="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns2:Permission PermissionName="com.adobe.aps.offlineOpen" Access="ALLOW" xmlns:ns2="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns3:Permission PermissionName="com.adobe.aps.pdf.editNotes" Access="ALLOW" xmlns:ns3="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns3:Permission PermissionName="com.adobe.aps.pdf.editNotes" Access="ALLOW" xmlns:ns3="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns4:Permission PermissionName="com.adobe.aps.pdf.fillAndSign" Access="ALLOW" xmlns:ns4="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns4:Permission PermissionName="com.adobe.aps.pdf.fillAndSign" Access="ALLOW" xmlns:ns4="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
           <Principal PrincipalNameType="SYSTEM"> 
              <PrincipalDomain>EDC_SPECIAL</PrincipalDomain> 
@@ -82,25 +82,25 @@ When creating a policy using the web service API, reference an existing Portable
        </PolicyEntry> 
   
        <PolicyEntry> 
-          <ns5:Permission PermissionName="com.adobe.aps.onlineOpen" Access="ALLOW" xmlns:ns5="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns5:Permission PermissionName="com.adobe.aps.onlineOpen" Access="ALLOW" xmlns:ns5="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns6:Permission PermissionName="com.adobe.aps.offlineOpen" Access="ALLOW" xmlns:ns6="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns6:Permission PermissionName="com.adobe.aps.offlineOpen" Access="ALLOW" xmlns:ns6="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns7:Permission PermissionName="com.adobe.aps.pdf.copy" Access="ALLOW" xmlns:ns7="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns7:Permission PermissionName="com.adobe.aps.pdf.copy" Access="ALLOW" xmlns:ns7="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns8:Permission PermissionName="com.adobe.aps.pdf.printLow" Access="ALLOW" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" xmlns:ns8="http://www.adobe.com/schema/1.0/pdrl" /> 
+          <ns8:Permission PermissionName="com.adobe.aps.pdf.printLow" Access="ALLOW" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" xmlns:ns8="https://www.adobe.com/schema/1.0/pdrl" /> 
   
-          <ns9:Permission PermissionName="com.adobe.aps.policySwitch" Access="ALLOW" xmlns:ns9="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns9:Permission PermissionName="com.adobe.aps.policySwitch" Access="ALLOW" xmlns:ns9="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns10:Permission PermissionName="com.adobe.aps.revoke" Access="ALLOW" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" xmlns:ns10="http://www.adobe.com/schema/1.0/pdrl" /> 
+          <ns10:Permission PermissionName="com.adobe.aps.revoke" Access="ALLOW" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" xmlns:ns10="https://www.adobe.com/schema/1.0/pdrl" /> 
   
-          <ns11:Permission PermissionName="com.adobe.aps.pdf.edit" Access="ALLOW" xmlns:ns11="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns11:Permission PermissionName="com.adobe.aps.pdf.edit" Access="ALLOW" xmlns:ns11="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns12:Permission PermissionName="com.adobe.aps.pdf.editNotes" Access="ALLOW" xmlns:ns12="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns12:Permission PermissionName="com.adobe.aps.pdf.editNotes" Access="ALLOW" xmlns:ns12="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns13:Permission PermissionName="com.adobe.aps.pdf.fillAndSign" Access="ALLOW" xmlns:ns13="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns13:Permission PermissionName="com.adobe.aps.pdf.fillAndSign" Access="ALLOW" xmlns:ns13="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
-          <ns14:Permission PermissionName="com.adobe.aps.pdf.printHigh" Access="ALLOW" xmlns:ns14="http://www.adobe.com/schema/1.0/pdrl" xmlns="http://www.adobe.com/schema/1.0/pdrl-ex" /> 
+          <ns14:Permission PermissionName="com.adobe.aps.pdf.printHigh" Access="ALLOW" xmlns:ns14="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
           <Principal PrincipalNameType="SYSTEM"> 
              <PrincipalDomain>EDC_SPECIAL</PrincipalDomain> 
@@ -128,7 +128,7 @@ When creating a policy using the web service API, reference an existing Portable
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -190,7 +190,7 @@ When specifying the `NoEncryption` option, you cannot set the `PlaintextMetadata
 
 >[!NOTE]
 >
->For information about other attributes that you can set, see the `Policy` interface description in the [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+>For information about other attributes that you can set, see the `Policy` interface description in the [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 **Create a policy entry**
 
@@ -328,7 +328,7 @@ To modify policy attributes using a web service (for example, using Java proxy c
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -360,7 +360,7 @@ When modifying a policy’s offline lease period using a web service, the `offli
 
 >[!NOTE]
 >
->For information about other attributes that you can set, see the `Policy` interface description in the [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+>For information about other attributes that you can set, see the `Policy` interface description in the [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 **Update the policy**
 
@@ -453,7 +453,7 @@ You can delete an existing policy using the Document Security Java API or web se
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-2}
 
@@ -552,7 +552,7 @@ You can monitor the use of a policy-protected document after you distribute it. 
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-3}
 
@@ -715,7 +715,7 @@ You can remove a policy from a policy-protected document in order to remove secu
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-4}
 
@@ -854,7 +854,7 @@ The ability to revoke access to a document provides additional security. For exa
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-5}
 
@@ -996,7 +996,7 @@ You can reinstate access to a revoked PDF document, resulting in all copies of t
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-6}
 
@@ -1124,7 +1124,7 @@ You cannot perform this task if your version of LiveCycle is 8.x or an earlier v
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-7}
 
@@ -1263,7 +1263,7 @@ Watermarks help ensure the security of a document by uniquely identifying the do
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-8}
 
@@ -1484,7 +1484,7 @@ When you modify a watermark, the change impacts future documents that have the w
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-9}
 
@@ -1628,7 +1628,7 @@ You can search for specify specific events by using the Rights Management Java A
 
 >[!NOTE]
 >
->For more information about the Rights Management service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Rights Management service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-10}
 
@@ -1952,7 +1952,7 @@ You can monitor the use of a policy-protected Word document after you distribute
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-11}
 
@@ -2107,7 +2107,7 @@ You can remove a policy from a policy-protected Word document in order to remove
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-12}
 

@@ -94,7 +94,7 @@ You can configure:
     * **Timer**: needs to be set when a schedule is provided
     * **User Interaction**: will be loaded when the screen is touched
 
-* **Schedule**: you can describe in text when the channel should appear. See [http://bunkat.github.io/later/parsers.html#text](http://bunkat.github.io/later/parsers.html#text) to know how to write.
+* **Schedule**: you can describe in text when the channel should appear. See [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text) to know how to write.
 
 * **Show Attraction Tooltip**: defines if the attraction tooltip ("Touch anywhere to begin") must be shown or not while the channel is running
 

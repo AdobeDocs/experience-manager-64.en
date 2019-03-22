@@ -157,7 +157,7 @@ Letter Instance can be of type Submitted or Draft. Opening both the letter insta
 
 CCR UI support the cmLetterInstanceId parameter, which can be used to reloaded letter.
 
-`http://[hostName]:[portNo]/[contextPath]//aem/forms/createcorrespondence.html?random=[randomNo]&cmLetterInstanceId=[letterInstanceId]`
+`https://[hostName]:[portNo]/[contextPath]//aem/forms/createcorrespondence.html?random=[randomNo]&cmLetterInstanceId=[letterInstanceId]`
 
 >[!NOTE]
 >
@@ -167,4 +167,4 @@ CCR UI support the cmLetterInstanceId parameter, which can be used to reloaded l
 
 Submitted PDF can be directly opened using letter instance Id:
 
-`http://[hostName]:[portNo]/[contextPath]/[letterInstanceId]`
+`https://[hostName]:[portNo]/[contextPath]/[letterInstanceId]`

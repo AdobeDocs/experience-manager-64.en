@@ -59,7 +59,7 @@ The URL for the WebDAV server has the following structure:
     <nobr>
      <strong>URL Component</strong>
     </nobr></td> 
-   <td><span class="code">http://&lt;host&gt;:&lt;port&gt;</span></td> 
+   <td><span class="code">https://&lt;host&gt;:&lt;port&gt;</span></td> 
    <td><span class="code">/&lt;crx-webapp-path&gt;</span></td> 
    <td><span class="code">/repository</span></td> 
    <td><span class="code">/&lt;workspace&gt;</span></td> 
@@ -122,9 +122,9 @@ To update the registry to allow basic authentication over an unsecured network:
 
 1. You must restart the system for the registry change to take effect.
 
-See [Microsoft Support KB 841215](http://support.microsoft.com/default.aspx/kb/841215) for more information on this registry change.
+See [Microsoft Support KB 841215](https://support.microsoft.com/default.aspx/kb/841215) for more information on this registry change.
 
-See [Microsoft Support KB 2445570](http://support.microsoft.com/kb/2445570) for information about improving the responsivness of the WebDav Client under Windows.
+See [Microsoft Support KB 2445570](https://support.microsoft.com/kb/2445570) for information about improving the responsivness of the WebDav Client under Windows.
 
 >[!NOTE]
 >

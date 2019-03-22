@@ -17,7 +17,7 @@ To apply usage rights to PDF documents, configure AEM forms with a valid credent
 
 If you are using an evaluation credential, replace it with a production credential when moving to your production environment. To update an expired or evaluations credential, first delete the old Acrobat Reader DC extensions credential.
 
-For information about obtaining a credential, see [Preparing to Install AEM forms (Single Server)](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63).
+For information about obtaining a credential, see [Preparing to Install AEM forms (Single Server)](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63).
 
 The Trust Store may contain more than one Acrobat Reader DC extensions credential. You must designate one of those credentials as the default Reader Extensions credential. The default credential is used when a Workbench user is unable to determine which credential to use during process creation. These rules apply to default credentials:
 
@@ -28,7 +28,7 @@ The Trust Store may contain more than one Acrobat Reader DC extensions credentia
 
 >[!NOTE]
 >
->You can also import and delete credentials programmatically. (See [Programming with AEM forms](http://www.adobe.com/go/learn_aemforms_programming_63).)
+>You can also import and delete credentials programmatically. (See [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63).)
 
 ## Import a Acrobat Reader DC extensions credential {#import-a-acrobat-reader-dc-extensions-credential}
 

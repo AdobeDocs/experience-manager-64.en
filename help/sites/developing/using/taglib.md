@@ -28,7 +28,7 @@ When you develop the jsp script of a Granite UI component, it is recommended to 
 The global also declares the [Sling library](../../../sites/developing/using/taglib.md#sling-tag-library).
 
 ```xml
-<%@taglib prefix="sling" uri="http://sling.apache.org/taglibs/sling" %>
+<%@taglib prefix="sling" uri="https://sling.apache.org/taglibs/sling" %>
 ```
 
 ### &amp;lt;ui:includeClientLib> {#amp-lt-ui-includeclientlib}
@@ -78,7 +78,7 @@ The CQ tag library contains helpful functions.
 To use the CQ Tag Library in your script, the script must start with the following code:
 
 ```xml
-<%@taglib prefix="cq" uri="http://www.day.com/taglibs/cq/1.0" %>
+<%@taglib prefix="cq" uri="https://www.day.com/taglibs/cq/1.0" %>
 ```
 
 >[!NOTE]
@@ -229,7 +229,7 @@ It has the following attributes:
 **Example:**
 
 ```xml
-<%@taglib prefix="cq" uri="http://www.day.com/taglibs/cq/1.0" %><%
+<%@taglib prefix="cq" uri="https://www.day.com/taglibs/cq/1.0" %><%
 %><div class="center">
     <cq:include path="trail" resourceType="foundation/components/breadcrumb" />
     <cq:include path="title" resourceType="foundation/components/title" />
@@ -426,7 +426,7 @@ The `<cq:defineObjects>` tag exposes the following, regularly used, scripting ob
 ```xml
 <%@page session="false" contentType="text/html; charset=utf-8" %><%
 %><%@ page import="com.day.cq.wcm.api.WCMMode" %><%
-%><%@taglib prefix="cq" uri="http://www.day.com/taglibs/cq/1.0" %><%
+%><%@taglib prefix="cq" uri="https://www.day.com/taglibs/cq/1.0" %><%
 %><cq:defineObjects/>
 ```
 
@@ -499,7 +499,7 @@ The Sling tag library contains helpful Sling functions.
 When you use the Sling Tag Library in your script, the script must start with the following code:
 
 ```xml
-<%@ taglib prefix="sling" uri="http://sling.apache.org/taglibs/sling/1.0" %>
+<%@ taglib prefix="sling" uri="https://sling.apache.org/taglibs/sling/1.0" %>
 ```
 
 >[!NOTE]
@@ -622,20 +622,20 @@ l**ogName resourceResolverName**
 ```xml
 <%@page session="false" %><%
 %><%@page import="com.day.cq.wcm.foundation.forms.ValidationHelper"%><%
-%><%@taglib prefix="sling" uri="http://sling.apache.org/taglibs/sling/1.0" %><%
+%><%@taglib prefix="sling" uri="https://sling.apache.org/taglibs/sling/1.0" %><%
 %><sling:defineObjects/>
 ```
 
 ## JSTL Tag library {#jstl-tag-library}
 
-The [JavaServer Pages Standard Tag Library](http://www.oracle.com/technetwork/java/index-jsp-135995.html) contains a lot of useful and standard tags. The core, formatting and functions taglibs are defined by the `/libs/foundation/global.jsp` as shown in the following snippet.
+The [JavaServer Pages Standard Tag Library](https://www.oracle.com/technetwork/java/index-jsp-135995.html) contains a lot of useful and standard tags. The core, formatting and functions taglibs are defined by the `/libs/foundation/global.jsp` as shown in the following snippet.
 
 ### Extract of /libs/foundation/global.jsp {#extract-of-libs-foundation-global-jsp}
 
 ```xml
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@taglib prefix="c" uri="https://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="fmt" uri="https://java.sun.com/jsp/jstl/fmt" %>
+<%@taglib prefix="fn" uri="https://java.sun.com/jsp/jstl/functions" %>
 ```
 
-After importing the `/libs/foundation/global.jsp` file as described before, you can use the `c`, `fmt` and `fn` prefixes to access to those taglibs. The official documentation of the JSTL is available at [The Java EE 5 Tutorial - JavaServer Pages Standard Tag Library](http://docs.oracle.com/javaee/5/tutorial/doc/bnakc.html).
+After importing the `/libs/foundation/global.jsp` file as described before, you can use the `c`, `fmt` and `fn` prefixes to access to those taglibs. The official documentation of the JSTL is available at [The Java EE 5 Tutorial - JavaServer Pages Standard Tag Library](https://docs.oracle.com/javaee/5/tutorial/doc/bnakc.html).

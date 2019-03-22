@@ -15,7 +15,7 @@ discoiquuid: f3781d9a-421a-446e-8b49-40744b9ef58e
 
 ## Overview {#overview}
 
-The AEM team at Adobe has been working closely with the open source project [NotSoSerial](https://github.com/kantega/notsoserial) to assist in mitigating the vulnerabilities described in **CVE-2015-7501**. NotSoSerial is licensed under the [Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0) and includes ASM code licensed under its own [BSD-like license](http://asm.ow2.org/license.html).
+The AEM team at Adobe has been working closely with the open source project [NotSoSerial](https://github.com/kantega/notsoserial) to assist in mitigating the vulnerabilities described in **CVE-2015-7501**. NotSoSerial is licensed under the [Apache 2 license](https://www.apache.org/licenses/LICENSE-2.0) and includes ASM code licensed under its own [BSD-like license](https://asm.ow2.org/license.html).
 
 The agent jar included with this package is Adobe's modified distribution of NotSoSerial. For more information, see the [Revision History](../../../sites/administering/using/mitigating-serialization-issues.md#revision-history) section below.  
   
@@ -37,7 +37,7 @@ Adobe officially supports Java 6, 7, and 8, however our understanding is that No
 
 1. Install the **com.adobe.cq.cq-serialization-tester** bundle.  
 
-1. Go to the Bundle Web Console at `http://server:port/system/console/bundles`
+1. Go to the Bundle Web Console at `https://server:port/system/console/bundles`
 1. Look for the serialization bundle and start it. This should dynamically autoload the NotSoSerial agent.
 
 ## Installing the Agent on Application Servers {#installing-the-agent-on-application-servers}
@@ -66,7 +66,7 @@ The default configuration is adequate for most installs. This includes a blackli
 
 The firewall configuration is dynamic, and can be changed at any time by:
 
-1. Going to the Web Console at `http://server:port/system/console/configMgr`
+1. Going to the Web Console at `https://server:port/system/console/configMgr`
 1. Searching for and clicking **Deserialization Firewall Configuration.**
 
    >[!NOTE]
@@ -75,7 +75,7 @@ The firewall configuration is dynamic, and can be changed at any time by:
    >
    >    
    >    
-   >    * `http://server:port/system/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl`
+   >    * `https://server:port/system/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl`
    >    
    >
 
@@ -101,7 +101,7 @@ You can also set the **full-stack** option which will log a java stack of the fi
 
 You can verify the deserialization agent's configuration by browsing to the URL at:
 
-* `http://server:port/system/console/healthcheck?tags=deserialization`
+* `https://server:port/system/console/healthcheck?tags=deserialization`
 
 Once you access the URL, a list of health checks related to the agent will be displayed. You can determine if the agent is properly activated by verifying that the health checks are passing. If they are failing, you may need to load the agent manually.
 

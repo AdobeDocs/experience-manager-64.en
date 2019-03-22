@@ -25,7 +25,7 @@ We.Gov is a state run organization that lets adoptive parents enroll for child s
 * Department of the Navy
 * Environmental Protection Agency
 
-For more information on the Freedom Of Information Act, see [www.foia.gov](http://www.foia.gov).
+For more information on the Freedom Of Information Act, see [www.foia.gov](https://www.foia.gov).
 
 The scenario involves the following personas:
 
@@ -41,7 +41,7 @@ Under the Freedom of Information Act, Sarah requests for copy of the Administrat
 
 ### See it yourself {#see-it-yourself}
 
-In your browser, open `http://<hostname>:<PublishPort>/wegov`. In the We.Gov site, tap Applications &gt; All Applications. In the All Applications page, tap Apply under Application for FOIA Request.
+In your browser, open `https://<hostname>:<PublishPort>/wegov`. In the We.Gov site, tap Applications &gt; All Applications. In the All Applications page, tap Apply under Application for FOIA Request.
 
 ## Sarah starts her application for information under FOIA {#sarah-starts-her-application-for-information-under-foia}
 
@@ -72,7 +72,7 @@ When Sarah fills and submits the FOIA application, a record of the application i
 
 ### See it yourself {#see-it-yourself-1}
 
-You can access the AEM inbox at http://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox, using jjacobs/password as the username/password for John Jacobs, and see the FOIA application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+You can access the AEM inbox at https://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox, using jjacobs/password as the username/password for John Jacobs, and see the FOIA application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
 
 ![](assets/johnjacobs.png)
 
@@ -98,7 +98,7 @@ When John Jacobs approves the FOIA request, a PDF or Document of Record of the a
 
 ### See for yourself {#see-for-yourself}
 
-You can access the AEM inbox at http://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using grios/password as the username/password for Gloria Rios, and see the FOIS request.
+You can access the AEM inbox at https://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using grios/password as the username/password for Gloria Rios, and see the FOIS request.
 
 Gloria opens the request and examines the details of the FOIA request. After reviewing the details of the request and checking the feasibility of furnishing the required documents, Gloria approves the request. 
 

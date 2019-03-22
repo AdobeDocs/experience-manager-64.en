@@ -133,7 +133,7 @@ This section describes techniques you can use during the AEM Forms installation 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e931 " valign="top" width="NaN%"><p>Cross-domain policy file</p> </td> 
-   <td class="cellrowborder" headers="d19e934 " valign="top" width="NaN%"><p>The presence of a <span class="code">crossdomain.xml</span> file on the server may immediately weaken that server. It is recommended that you make the list of domains as restrictive as possible. Do not place the <span class="code">crossdomain.xml</span> file that was used during development into production when using Guides <em>(deprecated)</em>. For a guide that uses web services, if the service is on the same server that served up the guide, a <span class="code">crossdomain.xml</span> file is not needed at all. But if the service is on another server, or if clusters are involved, the presence of a <span class="code">crossdomain.xml</span> file would be needed. Refer to <a href="http://kb2.adobe.com/cps/142/tn_14213.html">http://kb2.adobe.com/cps/142/tn_14213.html</a>, for more information on the crossdomain.xml file.</p> </td> 
+   <td class="cellrowborder" headers="d19e934 " valign="top" width="NaN%"><p>The presence of a <span class="code">crossdomain.xml</span> file on the server may immediately weaken that server. It is recommended that you make the list of domains as restrictive as possible. Do not place the <span class="code">crossdomain.xml</span> file that was used during development into production when using Guides <em>(deprecated)</em>. For a guide that uses web services, if the service is on the same server that served up the guide, a <span class="code">crossdomain.xml</span> file is not needed at all. But if the service is on another server, or if clusters are involved, the presence of a <span class="code">crossdomain.xml</span> file would be needed. Refer to <a href="https://kb2.adobe.com/cps/142/tn_14213.html">https://kb2.adobe.com/cps/142/tn_14213.html</a>, for more information on the crossdomain.xml file.</p> </td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e931 " valign="top" width="NaN%"><p>Operating System security settings</p> </td> 
@@ -236,7 +236,7 @@ Configuration Manager made use of a servlet deployed on your application server 
 1. Start the AEM Forms server.
 1. Type the below URL into a browser to test the change and ensure that it no longer works.
 
-   http://&lt;localhost&gt;:&lt;port&gt;/adobe-bootstrapper/bootstrap
+   https://&lt;localhost&gt;:&lt;port&gt;/adobe-bootstrapper/bootstrap
 
 **Lockdown remote access to the Trust Store**
 
@@ -255,7 +255,7 @@ When AEM Forms on JEE is installed, a single default user account is configured 
 1. Type the following URL in a web browser:
 
    ```as3
-   http://[host name]:[port]/adminui
+   https://[host name]:[port]/adminui
    ```
 
    The default port number is one of these:
@@ -275,7 +275,7 @@ When AEM Forms on JEE is installed, a single default user account is configured 
 
 In addition, it is recommended to change the default password for CRX Administrator by performing the following steps:
 
-1. Log into http://[server]:[port]/lc/libs/granite/security/content/useradmin.html using the default username/password.
+1. Log into https://[server]:[port]/lc/libs/granite/security/content/useradmin.html using the default username/password.
 1. Type Administrator in the search field and click **Go**.
 1. Select **Administrator** from the search result and click the **Edit** icon at the lower right of the user interface.
 1. Specify the new password in the **New Password** field and the old password in the **Your Password** field.
@@ -288,7 +288,7 @@ Web Service Definition Language (WSDL) generation should be enabled only for dev
 1. Type the following URL in a web browser:
 
    ```as3
-   http://[host name]:[port]/adminui
+   https://[host name]:[port]/adminui
    ```
 
 1. Click **Settings &gt; Core System Settings &gt; Configurations**.
@@ -325,7 +325,7 @@ The following table describes some techniques for securing your application serv
 
 When securing your database, you should implement the measures described by your database vendor. You should allocate a database user with the minimum required database permissions granted for use by AEM Forms on JEE. For example, do not use an account with database administrator privileges.
 
-On Oracle, the database account that you use needs only the CONNECT, RESOURCE, and CREATE VIEW privileges. For similar requirements on other databases, see [Preparing to Install AEM Forms on JEE (Single Server)](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64).
+On Oracle, the database account that you use needs only the CONNECT, RESOURCE, and CREATE VIEW privileges. For similar requirements on other databases, see [Preparing to Install AEM Forms on JEE (Single Server)](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64).
 
 #### Configuring integrated security for SQL Server on Windows for JBoss {#configuring-integrated-security-for-sql-server-on-windows-for-jboss}
 
@@ -344,7 +344,7 @@ On Oracle, the database account that you use needs only the CONNECT, RESOURCE, a
 1. Start the WebLogic Server Administration Console by typing the following URL in the URL line of a web browser:
 
    ```as3
-   http://[host name]:7001/console
+   https://[host name]:7001/console
    ```
 
 1. Under Change Center, click **Lock & Edit**.
@@ -669,7 +669,7 @@ The Referrer Filtering process can be described as follows:
 
 AEM Forms on JEE provides a Referrer Filter to specify Referrer that are allowed access to your server resources. By default, the Referrer filter does not filter requests that use a safe HTTP method, e.g. GET, unless *CSRF_CHECK_GETS* is set to true. If the port number for an Allowed Referrer entry is set to 0, AEM Forms on JEE will allow all requests with Referrer from that host regardless of the port number. If no port number is specified, only requests from the default port 80 (HTTP) or port 443 (HTTPS) are allowed. Referrer Filtering is disabled if all the entries in the Allowed Referrer list are deleted.
 
-When you first install Document Services, the Allowed Referrer list is updated with the address of the server on which Document Services is installed. The entries for the server include the server name, the IPv4 address, the IPv6 address if IPv6 is enabled, the loopback address, and a localhost entry. The names added to the Allowed Referrer list are returned by Host operating system. For example a server with an IP address of 10.40.54.187 will include the following entries: `http://server-name:0, https://10.40.54.187:0, http://127.0.0.1:0, http://localhost:0`. For any unqualified name retuned by Host operating system (names that do not have IPv4 address, IPv6 address or qualified domain name) white list is not updated. Modify the Allowed Referrer list to suit your business environment. Do not deploy the forms server in the production environment with the default Allowed Referrer list. After modifying any of the Allowed Referrer, Referrer Exceptions, or URIs, ensure that you restart the server for the changes to take effect.
+When you first install Document Services, the Allowed Referrer list is updated with the address of the server on which Document Services is installed. The entries for the server include the server name, the IPv4 address, the IPv6 address if IPv6 is enabled, the loopback address, and a localhost entry. The names added to the Allowed Referrer list are returned by Host operating system. For example a server with an IP address of 10.40.54.187 will include the following entries: `https://server-name:0, https://10.40.54.187:0, https://127.0.0.1:0, http://localhost:0`. For any unqualified name retuned by Host operating system (names that do not have IPv4 address, IPv6 address or qualified domain name) white list is not updated. Modify the Allowed Referrer list to suit your business environment. Do not deploy the forms server in the production environment with the default Allowed Referrer list. After modifying any of the Allowed Referrer, Referrer Exceptions, or URIs, ensure that you restart the server for the changes to take effect.
 
 **Managing Allowed Referrer list**
 
@@ -918,7 +918,7 @@ For information about WebSphere ports that AEM Forms on JEE requires, go to Port
 
 Referring to the physical architecture that is described in the section [AEM Forms on JEE physical architecture](hardening-aem-forms-jee-environment.md#aem_forms_on_jee_physical_architecture), you should configure SSL for all of the connections that you plan to use. Specifically, all SOAP connections must be conducted over SSL to prevent exposure of user credentials on a network.
 
-For instructions on how to configure SSL on JBoss, WebLogic, and WebSphere, see “Configuring SSL” in the [administration help](http://www.adobe.com/go/learn_aemforms_admin_64).
+For instructions on how to configure SSL on JBoss, WebLogic, and WebSphere, see “Configuring SSL” in the [administration help](https://www.adobe.com/go/learn_aemforms_admin_64).
 
 ### Configuring SSL redirect {#configuring-ssl-redirect}
 
@@ -996,8 +996,8 @@ Access to the JBoss Management Console and JMX Console is already configured (JM
 After logging into Administration Console, it is possible to browse the console’s directory listing by modifying the URL. For example, if you change the URL to one of the following URLs, a directory listing may appear:
 
 ```as3
-http://<servername>:8080/adminui/secured/ 
-http://<servername>:8080/um/
+https://<servername>:8080/adminui/secured/ 
+https://<servername>:8080/um/
 ```
 
 ## WebLogic-specific security recommendations {#weblogic-specific-security-recommendations}

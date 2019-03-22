@@ -33,7 +33,7 @@ The standard way to include a client-side library (that is, a JS or CSS file) in
 
 While this approach works in AEM, it can lead to problems when pages and their constituent components become complex. In such cases there is the danger that multiple copies of the same JS library may be included in the final HTML output. To avoid this and to allow logical organization of client-side libraries AEM uses **client-side library folders**.
 
-A client-side library folder is a repository node of type `cq:ClientLibraryFolder`. It's definition in [CND notation](http://jackrabbit.apache.org/node-type-notation.html) is
+A client-side library folder is a repository node of type `cq:ClientLibraryFolder`. It's definition in [CND notation](https://jackrabbit.apache.org/node-type-notation.html) is
 
 ```shell
 [cq:ClientLibraryFolder] > sling:Folder
@@ -75,7 +75,7 @@ For further details and exmple of usage, see the document [Getting Started with 
 Add a `ui:includeClientLib` tag to your JSP code to add a link to client libraries in the generated HTML page. To reference the libraries, you use the value of the `categories` property of the `ui:includeClientLib` node.
 
 ```
-<%@taglib prefix="ui" uri="http://www.adobe.com/taglibs/granite/ui/1.0" %>
+<%@taglib prefix="ui" uri="https://www.adobe.com/taglibs/granite/ui/1.0" %>
 <ui:includeClientLib categories="<%= categories %>" />
 ```
 

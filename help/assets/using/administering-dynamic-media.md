@@ -14,7 +14,7 @@ legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media
 
 # Setting Up Dynamic Media{#setting-up-dynamic-media}
 
-[Dynamic Media](http://www.adobe.com/solutions/web-experience-management/dynamic-media.html) helps you manage assets by delivering rich visual merchandising and marketing assets on demand, automatically scaled for consumption on web, mobile, and social sites. Using a set of master assets, Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, performance-optimized network.
+[Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) helps you manage assets by delivering rich visual merchandising and marketing assets on demand, automatically scaled for consumption on web, mobile, and social sites. Using a set of master assets, Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, performance-optimized network.
 
 >[!NOTE]
 >

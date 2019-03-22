@@ -47,7 +47,7 @@ For security information about operating systems that AEM Forms on JEE supports,
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e209 " valign="top" width="NaN%"><p>Microsoft Windows Server® 2012 </p> </td> 
-   <td valign="top" width="NaN%"><p><a href="http://blogs.technet.com/b/secguide/archive/2014/08/13/security-baselines-for-windows-8-1-windows-server-2012-r2-and-internet-explorer-11-final.aspx" target="_blank">Windows Server 2012 Security Guide</a></p> </td> 
+   <td valign="top" width="NaN%"><p><a href="https://blogs.technet.com/b/secguide/archive/2014/08/13/security-baselines-for-windows-8-1-windows-server-2012-r2-and-internet-explorer-11-final.aspx" target="_blank">Windows Server 2012 Security Guide</a></p> </td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e209 " valign="top" width="NaN%"><p>Microsoft Windows Server® 2016 </p> </td> 
@@ -96,7 +96,7 @@ For security information about application servers that AEM Forms on JEE support
  <tbody> 
   <tr> 
    <td class="cellrowborder" headers="d19e351 " valign="top" width="NaN%"><p>Oracle WebLogic®</p> </td> 
-   <td class="cellrowborder" headers="d19e354 " valign="top" width="NaN%"><p>Search for Understanding WebLogic Security at <a href="http://download.oracle.com/docs/">http://download.oracle.com/docs/</a>.</p> </td> 
+   <td class="cellrowborder" headers="d19e354 " valign="top" width="NaN%"><p>Search for Understanding WebLogic Security at <a href="https://download.oracle.com/docs/">https://download.oracle.com/docs/</a>.</p> </td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e351 " valign="top" width="NaN%"><p>IBM WebSphere®</p> </td> 
@@ -130,7 +130,7 @@ For security information about databases that AEM Forms on JEE supports, see the
  <tbody> 
   <tr> 
    <td class="cellrowborder" headers="d19e422 " valign="top" width="NaN%"><p>IBM DB2® 11.1</p> </td> 
-   <td class="cellrowborder" headers="d19e425 " valign="top" width="NaN%"><p><a href="http://www-01.ibm.com/software/data/db2/library/">DB2 Product Family Library</a></p> </td> 
+   <td class="cellrowborder" headers="d19e425 " valign="top" width="NaN%"><p><a href="https://www-01.ibm.com/software/data/db2/library/">DB2 Product Family Library</a></p> </td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e422 " valign="top" width="NaN%"><p>Microsoft SQL Server 2016</p> </td> 
@@ -138,7 +138,7 @@ For security information about databases that AEM Forms on JEE supports, see the
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e422 " valign="top" width="NaN%"><p>MySQL 5</p> </td> 
-   <td class="cellrowborder" headers="d19e425 " valign="top" width="NaN%"><p><a href="http://dev.mysql.com/doc/refman/5.0/en/security.html">MySQL 5.0 General Security Issues</a></p> <p><a href="http://dev.mysql.com/doc/refman/5.1/en/security.html">MySQL 5.1 General Security Issues</a></p> </td> 
+   <td class="cellrowborder" headers="d19e425 " valign="top" width="NaN%"><p><a href="https://dev.mysql.com/doc/refman/5.0/en/security.html">MySQL 5.0 General Security Issues</a></p> <p><a href="https://dev.mysql.com/doc/refman/5.1/en/security.html">MySQL 5.1 General Security Issues</a></p> </td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e422 " valign="top" width="NaN%"><p>Oracle® 12c</p> </td> 

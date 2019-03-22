@@ -17,7 +17,7 @@ A *credential* contains your private key information needed for signing or ident
 
 * Acrobat Reader DC extensions uses a credential to enable Adobe Reader usage rights in PDF documents. (See [Configuring credentials for use with Acrobat Reader DC extensions](../../../forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md#configuring-credentials-for-use-with-acrobat-reader-dc-extensions).)
 * You can configure Rights Management to display credentials for use in Acrobat only from trusted issuers. (See [Configure Rights Management display settings](../../../forms/using/admin-help/configuring-client-server-options.md#configure-document-security-display-settings).) The Common Name (CN) must be present in the certificate.
-* The Signature service accesses certificates and credentials. For details on the Signature service, see [Services Reference](http://www.adobe.com/go/learn_aemforms_services_63).
+* The Signature service accesses certificates and credentials. For details on the Signature service, see [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 **Generating a pair key**
 
@@ -25,11 +25,11 @@ AEM forms uses its Trust Store to store and manage certificates, credentials, an
 
 AEM forms does not provide any option to generate a key pair. However, you can generate it using tools, such as Java keytool, and import it in AEM forms Trust Store. For more information on Java keytool, see the following:
 
-[http://docs.oracle.com/javase/tutorial/security/toolsign/step3.html](http://docs.oracle.com/javase/tutorial/security/toolsign/step3.html)
+[https://docs.oracle.com/javase/tutorial/security/toolsign/step3.html](https://docs.oracle.com/javase/tutorial/security/toolsign/step3.html)
 
-[http://docs.oracle.com/cd/E19798-01/821-1841/gjrgy/index.html](http://docs.oracle.com/cd/E19798-01/821-1841/gjrgy/index.html)
+[https://docs.oracle.com/cd/E19798-01/821-1841/gjrgy/index.html](https://docs.oracle.com/cd/E19798-01/821-1841/gjrgy/index.html)
 
-[http://blogs.adobe.com/livecycle/2010/01/creating_ssl_keys_and_certific.html](http://blogs.adobe.com/livecycle/2010/01/creating_ssl_keys_and_certific.html)
+[https://blogs.adobe.com/livecycle/2010/01/creating_ssl_keys_and_certific.html](https://blogs.adobe.com/livecycle/2010/01/creating_ssl_keys_and_certific.html)
 
 The following signature types are supported and can be imported in AEM forms:
 

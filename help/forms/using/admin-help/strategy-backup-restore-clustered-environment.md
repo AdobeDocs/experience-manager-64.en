@@ -46,7 +46,7 @@ This topic discusses the following strategies to back up any AEM forms clustered
     1. Back up all files of any slave cluster node, including subdirectories.
     1. Back up repository/system id of each cluster node separately.
 
-   For detailed steps, see [Backup and Restore](http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html).
+   For detailed steps, see [Backup and Restore](https://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html).
 
 1. Back up any other data, such as customer fonts.
 1. Start the cluster again.
@@ -65,7 +65,7 @@ This topic discusses the following strategies to back up any AEM forms clustered
     1. Back up all files of any slave cluster node, including subdirectories.
     1. Back up repository/system.id of each cluster node separately.
 
-   For detailed steps, see [Backup and Restore](http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html).
+   For detailed steps, see [Backup and Restore](https://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html).
 
 1. Back up any other data, such as customer fonts.
 1. Start the cluster again.
@@ -171,16 +171,16 @@ In case the entire cluster fails due to failures like database crash, you need t
 
 ## Back up and restore Correspondence Management Solution publish node {#back-up-and-restore-correspondence-management-solution-publish-node}
 
-The publisher node does not have any master-slave relationship in a clustered environment. You can take backup of any Publisher node by following [Backup and Restore](http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html).
+The publisher node does not have any master-slave relationship in a clustered environment. You can take backup of any Publisher node by following [Backup and Restore](https://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html).
 
 ### Recover a single publisher node {#recover-a-single-publisher-node}
 
 1. Shutdown the node that needs to be recovered and do not do any publish activity until the node is up again.
-1. Restore the Publish node using [Restoring the Backup](http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html#Restoring the Backup).
+1. Restore the Publish node using [Restoring the Backup](https://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html#Restoring the Backup).
 
 ### Recover a cluster {#recover-a-cluster}
 
 1. Shutdown the cluster.
-1. Restore the Publish node using [Restoring the Backup](http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html#Restoring the Backup).
+1. Restore the Publish node using [Restoring the Backup](https://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html#Restoring the Backup).
 1. Start the master node followed by the slave node of the author cluster.
 

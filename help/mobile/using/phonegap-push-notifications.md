@@ -23,7 +23,7 @@ Being able to instantly alert your AEM Mobile app users with important notificat
 >
 >*Push notifications are not guaranteed delivery; they are more like announcements. A best effort is made to make sure everyone receives them but they are not a guaranteed delivery mechanism. Also, the time to deliver a push can vary from less than a second to up to half an hour.*
 
-Using push notifications with AEM requires a few different technologies. First, a push notification service provider must be used to manage the the notifications and devices (AEM does not do this, yet). Two providers are configured out-of-the-box with AEM: [Amazon Simple Notification Service](http://aws.amazon.com/sns/) (or SNS), and [Pushwoosh](https://www.pushwoosh.com/). Second, the push technology for the given mobile OS must go through the appropriate service — Apple's Push Notification Service (or APNS) for iOS devices; and Google Cloud Messaging (or GCM) for Android devices. Although AEM does not communicate with these platform specific services directly, some related configuration information must be provided by AEM along with the notifications in order for these services to execute the push.
+Using push notifications with AEM requires a few different technologies. First, a push notification service provider must be used to manage the the notifications and devices (AEM does not do this, yet). Two providers are configured out-of-the-box with AEM: [Amazon Simple Notification Service](https://aws.amazon.com/sns/) (or SNS), and [Pushwoosh](https://www.pushwoosh.com/). Second, the push technology for the given mobile OS must go through the appropriate service — Apple's Push Notification Service (or APNS) for iOS devices; and Google Cloud Messaging (or GCM) for Android devices. Although AEM does not communicate with these platform specific services directly, some related configuration information must be provided by AEM along with the notifications in order for these services to execute the push.
 
 Once installed and configured (as explained below) it works like this:
 
@@ -66,9 +66,9 @@ To use APNS you will need a **Certificate** file (a .cer file), a push** Private
 >
 >Google is replacing GCM with a similar service called Firebase Cloud Messaging (FCM). For more information on FCM, click [here](https://developers.google.com/cloud-messaging/faq).
 
-Go to the Google page [here](http://developer.android.com/google/gcm/index.html)to become familiar with Google Cloud Messaging for Android.
+Go to the Google page [here](https://developer.android.com/google/gcm/index.html)to become familiar with Google Cloud Messaging for Android.
 
-You will need to follow the steps [here](http://developer.android.com/google/gcm/gs.html)to **Create a Google API project**, **Enable the GCM Service**, and **Obtain an API Key**. You will need the **API Key** to send push notifications to Android devices. Also, record your **Project Number**, which is also sometimes called a **GCM Sender Id**.
+You will need to follow the steps [here](https://developer.android.com/google/gcm/gs.html)to **Create a Google API project**, **Enable the GCM Service**, and **Obtain an API Key**. You will need the **API Key** to send push notifications to Android devices. Also, record your **Project Number**, which is also sometimes called a **GCM Sender Id**.
 
 The following steps shows a different method of creating GCM API Keys:
 
@@ -99,7 +99,7 @@ AEM is configured to use one of three services for push notifications:
 
 >[!NOTE]
 >
->*Information about Amazon SNS, and a link to create a new AWS account, can be found [here](http://aws.amazon.com/sns/). You can get a free account for a year.*
+>*Information about Amazon SNS, and a link to create a new AWS account, can be found [here](https://aws.amazon.com/sns/). You can get a free account for a year.*
 
 If you do not want to use Amazon SNS you can skip these steps.
 
@@ -210,7 +210,7 @@ Create two content nodes (one in app-config and one in app-config-dev) called no
 * /content/&lt;your app&gt;/shell/jcr:content/pge-app/app-config/notificationsConfig
 
 With these properties (.content.xml files) :  
-&lt;jcr:root xmlns:jcr=" [http://www.jcp.org/jcr/1.0](http://www.jcp.org/jcr/1.0)" xmlns:nt=" [http://www.jcp.org/jcr/nt/1.0](http://www.jcp.org/jcr/nt/1.0)"  
+&lt;jcr:root xmlns:jcr=" [https://www.jcp.org/jcr/1.0](https://www.jcp.org/jcr/1.0)" xmlns:nt=" [https://www.jcp.org/jcr/nt/1.0](https://www.jcp.org/jcr/nt/1.0)"  
 jcr:primaryType="nt:unstructured"  
 excludeProperties="[appAPIAccessToken]"  
 path="../../../.."  
@@ -252,7 +252,7 @@ With XCode 8.1, before using Push Notifications you must go to the Capabilities 
 
 #### Android {#android}
 
-To install the app on an Android phone using CLI (see below: **6 - Deploy the app onto your phone**), you first must put the phone in "developer mode." See [Enabling On-device Developer Options](http://developer.android.com/tools/device.html#developer-device-options) for details on doing this.
+To install the app on an Android phone using CLI (see below: **6 - Deploy the app onto your phone**), you first must put the phone in "developer mode." See [Enabling On-device Developer Options](https://developer.android.com/tools/device.html#developer-device-options) for details on doing this.
 
 ### Step 5: Configure push on AEM apps {#step-configure-push-on-aem-apps}
 
@@ -276,7 +276,7 @@ There are two ways to build and deploy your app using PhoneGap.
 
 1. *PhoneGap Build* is a service offered by PhoneGap that will build your app for you on their servers, and allow you to download it to your device directly. Refer to the [PhoneGap Build documentation](https://build.phonegap.com/) to learn how to set up and use PhoneGap Build.
 
-1. *PhoneGap Command Line Interface* (CLI) lets you use a rich set of PhoneGap commands on your command line to build, debug, and deploy your app. Refer to the [PhoneGap developer documentation](http://docs.phonegap.com/en/edge/guide_cli_index.md.html#The%20Command-Line%20Interface) to learn how to set up and use PhoneGap CLI.
+1. *PhoneGap Command Line Interface* (CLI) lets you use a rich set of PhoneGap commands on your command line to build, debug, and deploy your app. Refer to the [PhoneGap developer documentation](https://docs.phonegap.com/en/edge/guide_cli_index.md.html#The%20Command-Line%20Interface) to learn how to set up and use PhoneGap CLI.
 
 ### Step 7: Send a Push Notification {#step-send-a-push-notification}
 

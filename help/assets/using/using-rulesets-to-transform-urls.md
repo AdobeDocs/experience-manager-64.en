@@ -43,11 +43,11 @@ See also [Troubleshooting rule sets](https://helpx.adobe.com/experience-manager/
 Also, make sure you first test your rule set in a staging environment that does not impact your live production environment.  
 Production environments and staging environments typically require different logins.
 
-* **NA staging environment** login page: [http://s7sps1-staging.scene7.com/IpsWeb/](http://s7sps1-staging.scene7.com/IpsWeb/)
+* **NA staging environment** login page: [https://s7sps1-staging.scene7.com/IpsWeb/](https://s7sps1-staging.scene7.com/IpsWeb/)
 
-* **EMEA staging environment** login page: [http://s7sps3-staging.scene7.com/IpsWeb/](http://s7sps3-staging.scene7.com/IpsWeb/)
+* **EMEA staging environment** login page: [https://s7sps3-staging.scene7.com/IpsWeb/](https://s7sps3-staging.scene7.com/IpsWeb/)
 
-* **JAPAC staging environment** login page: [http://s7sps5-staging.scene7.com/IpsWeb/](http://s7sps5-staging.scene7.com/IpsWeb/)
+* **JAPAC staging environment** login page: [https://s7sps5-staging.scene7.com/IpsWeb/](https://s7sps5-staging.scene7.com/IpsWeb/)
 
 See also [Using 'asset' instead of 'is' image in a rule set](https://helpx.adobe.com/experience-manager/scene7/kb/base/scene7-rulesets/ruleset-asset-instead-image.html).
 
@@ -55,7 +55,7 @@ See also [Using 'asset' instead of 'is' image in a rule set](https://helpx.adobe
 
 1. Log on to your Dynamic Media Classic (Scene7) account:
 
-   [http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
+   [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 

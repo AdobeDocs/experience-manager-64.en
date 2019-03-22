@@ -47,7 +47,7 @@ If some of the users in your organization have different non-business days, you 
 
 1. In forms workflow, define a calendar for each set of users who share the same non-business days. (See [Create or update a business calendar](configuring-business-calendars.md#create_or_update_a_business_calendar).)
 1. In forms workflow, map the business calendar keys or group memberships for each calendar. (See [Mapping users and groups to a business calendar](configuring-business-calendars.md#mapping_users_and_groups_to_a_business_calendar).)
-1. In Workbench, the process developer chooses whether to use business calendars for reminders, deadlines, and escalations. (See [Workbench Help](http://www.adobe.com/go/learn_aemforms_workbench_63).)
+1. In Workbench, the process developer chooses whether to use business calendars for reminders, deadlines, and escalations. (See [Workbench Help](https://www.adobe.com/go/learn_aemforms_workbench_63).)
 
    If the process developer chooses to use business calendars, AEM forms will dynamically select the appropriate business calendar based on the User Management setting and the business calendar mappings defined in Administration Console, or, if no mappings exists, will use the default calendar.
 

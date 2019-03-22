@@ -15,11 +15,11 @@ discoiquuid: 508f4fab-dd87-4306-83ae-12e544b8b723
 
 Adobe Experience Manager's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page.
 
-Adobe Experience Manager (AEM) uses the [ExtJS](http://www.sencha.com/) widgets library, which provides the highly polished user interface elements that work across all the most important browsers and allow the creation of desktop-grade UI experiences.
+Adobe Experience Manager (AEM) uses the [ExtJS](https://www.sencha.com/) widgets library, which provides the highly polished user interface elements that work across all the most important browsers and allow the creation of desktop-grade UI experiences.
 
 These widgets are included within AEM and, in addition to being used by AEM itself, can be used by any website built using AEM.
 
-For a complete reference of all the available widgets in AEM you can refer to the [widget API documentation](/sites/developing/using/reference-materials/widgets-api/index.md) or to the [list of existing xtypes](../../../sites/developing/using/xtypes.md). In addition, many examples showing how to use the ExtJS framework are available on the [Sencha](http://www.sencha.com/products/extjs/examples/) site, the owner of the framework.
+For a complete reference of all the available widgets in AEM you can refer to the [widget API documentation](/sites/developing/using/reference-materials/widgets-api/index.md) or to the [list of existing xtypes](../../../sites/developing/using/xtypes.md). In addition, many examples showing how to use the ExtJS framework are available on the [Sencha](https://www.sencha.com/products/extjs/examples/) site, the owner of the framework.
 
 This page gives some insights about how to use and extend widgets. It first describes how to [include client-sided code in a page](#including-the-client-sided-code-in-a-page). It then describes some sample components that have been created to illustrate some basic use and extension. Those components are available in the **Using ExtJS Widgets** package on **Package Share**.
 
@@ -33,7 +33,7 @@ The package includes examples of:
 
 >[!NOTE]
 >
->The classic UI of Adobe Experience Manager is built upon [ExtJS 3.4.0](http://extjs.cachefly.net/ext-3.4.0/docs/).
+>The classic UI of Adobe Experience Manager is built upon [ExtJS 3.4.0](https://extjs.cachefly.net/ext-3.4.0/docs/).
 
 >[!NOTE]
 >

@@ -17,9 +17,9 @@ The Asset Share page is used to search for assets based on their metadata. You c
 
 ## Creating an Asset Share Template {#creating-an-asset-share-template}
 
-* Geometrixx Sample Page: **/content/geometrixx/en/press.html**
-* Sample Template: **/apps/geometrixx/templates/assetshare**
-* Sample Page Component: **/apps/geometrixx/components/assetshare**
+* Geometrixx Sample Page:** /content/geometrixx/en/press.html**
+* Sample Template:** /apps/geometrixx/templates/assetshare**
+* Sample Page Component:** /apps/geometrixx/components/assetshare**
 
 ### Configuring Clientlib {#configuring-clientlib}
 
@@ -81,7 +81,7 @@ To create a custom action:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
-   <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+   <jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0" xmlns:cq="https://www.day.com/jcr/cq/1.0" xmlns:jcr="https://www.jcp.org/jcr/1.0"
        jcr:primaryType="cq:Component"
        jcr:title="Image Formats"
        sling:resourceSuperType="foundation/components/parbase"

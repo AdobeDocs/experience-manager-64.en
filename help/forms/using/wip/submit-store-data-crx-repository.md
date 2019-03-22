@@ -63,7 +63,7 @@ ACL for store path node
 
 >[!NOTE]
 >
->If there are multiple publish nodes linked to the same author node as publish far and are not clustered, the data submitted on one publish node will not be available on another publish node. In such cases, you need to configure Reverse Replication Agent associated with the Author instance. It ensures publishing the submitted nodes to all the publish instances linked to the author instance. For more information on configuring the Reverse Application Agent, see [http://dev.day.com/docs/en/cq/current/deploying/replication.html](http://docs.adobe.com/docs/en/cq/current/deploying/replication.html)
+>If there are multiple publish nodes linked to the same author node as publish far and are not clustered, the data submitted on one publish node will not be available on another publish node. In such cases, you need to configure Reverse Replication Agent associated with the Author instance. It ensures publishing the submitted nodes to all the publish instances linked to the author instance. For more information on configuring the Reverse Application Agent, see [https://dev.day.com/docs/en/cq/current/deploying/replication.html](https://docs.adobe.com/docs/en/cq/current/deploying/replication.html)
 
 ## Store PDF (deprecated) submit action {#store-pdf-deprecated-submit-action}
 

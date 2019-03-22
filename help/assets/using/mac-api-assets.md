@@ -26,7 +26,7 @@ The Assets HTTP API was first introduced with Adobe Experience Manager (AEM) Ass
 To access the API:
 
 1. Start AEM
-1. Open the API Service Document at `http://<*hostname*>:<*port*>/api.json`
+1. Open the API Service Document at `https://<*hostname*>:<*port*>/api.json`
 1. Follow the Assets service link.
 
 ## Data model {#data-model}
@@ -96,7 +96,7 @@ The Assets HTTP API includes the following features:
 
 **Prerequisites**
 
-* Go to *http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
+* Go to *https://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr*.
 * Navigate to **Adobe Granite CSRF Filter**.
 * Make sure the property **Filter Methods** incudes: POST, PUT, DELETE.
 

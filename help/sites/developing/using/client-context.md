@@ -241,7 +241,7 @@ Display session store data in Client Context using a consistent format.
 The personalization taglib provides the `personalization:storePropertyTag` tag that displays the value of a property from a session store. To use the tag, include the following line of code in your JSP file:
 
 ```xml
-<%@taglib prefix="personalization" uri="http://www.day.com/taglibs/cq/personalization/1.0" %>
+<%@taglib prefix="personalization" uri="https://www.day.com/taglibs/cq/personalization/1.0" %>
 ```
 
 The tag has the following format:
@@ -304,7 +304,7 @@ To render store data using a genericstore component, you need to:
 The personalization taglib provides the `personalization:storePropertyTag` tag that displays the value of a property from a session store. To use the tag, include the following line of code in your JSP file:
 
 ```xml
-<%@taglib prefix="personalization" uri="http://www.day.com/taglibs/cq/personalization/1.0" %>
+<%@taglib prefix="personalization" uri="https://www.day.com/taglibs/cq/personalization/1.0" %>
 ```
 
 The tag has the following format:
@@ -540,7 +540,7 @@ The init.js.jsp file is executed when the Client Context is loaded by the page. 
    %><%@include file="/libs/foundation/global.jsp"%><%
    log.info("***** initializing geolocstore ****");
    String store = "locstore";
-   String jsonpurl = "http://api.wipmania.com/jsonp?callback=${callback}";
+   String jsonpurl = "https://api.wipmania.com/jsonp?callback=${callback}";
    
    %>
    var locstore = CQ_Analytics.StoreRegistry.getStore("<%= store %>");
@@ -560,7 +560,7 @@ Add the code to the JSP file of the geoloc component to render the store data in
 1. Add the following HTML code below the stub code:
 
    ```xml
-   <%@taglib prefix="personalization" uri="http://www.day.com/taglibs/cq/personalization/1.0" %>
+   <%@taglib prefix="personalization" uri="https://www.day.com/taglibs/cq/personalization/1.0" %>
    <div class="cq-cc-store">
       <div class="cq-cc-content">
           <div class="cq-cc-store-property cq-cc-store-property-level0">

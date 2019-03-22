@@ -25,7 +25,7 @@ See the [Best Practices on Queries and Indexing](../../../sites/deploying/using/
 
 Initial detection slow indexing requires reviewing the `IndexStats` JMX MBeans. On the affected AEM instance, do the following:
 
-1. Open the Web Console and click the JMX tab or go to http://&lt;host&gt;:&lt;port&gt;/system/console/jmx (for example, [http://localhost:4502/system/console/jmx](http://localhost:4502/system/console/jmx)).
+1. Open the Web Console and click the JMX tab or go to https://&lt;host&gt;:&lt;port&gt;/system/console/jmx (for example, [http://localhost:4502/system/console/jmx](http://localhost:4502/system/console/jmx)).
 1. Navigate to the `IndexStats` Mbeans.
 1. Open the `IndexStats` MBeans for " `async`" and " `fulltext-async`".
 
@@ -54,7 +54,7 @@ In exceptional circumstances, the thread pool used to manage asychronous indexin
 
 1. Define a new, isolated thread pool for the Apache Sling Scheduler to use for asynchronous indexing:
 
-    * On the affected AEM instance, navigate to AEM OSGi Web Console&gt;OSGi&gt;Configuration&gt;Apache Sling Scheduler or go to http://&lt;host&gt;:&lt;port&gt;/system/console/configMgr (for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr))
+    * On the affected AEM instance, navigate to AEM OSGi Web Console&gt;OSGi&gt;Configuration&gt;Apache Sling Scheduler or go to https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr (for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr))
     * Add an entry to the "Allowed Thread Pools" field with the value of "oak".
     * Click Save in the bottom-right to save the changes.
 
@@ -62,7 +62,7 @@ In exceptional circumstances, the thread pool used to manage asychronous indexin
 
 1. Verify that the new Apache Sling Scheduler thread pool is registered and displays in the Apache Sling Scheduler Satus web console.
 
-    * Navigate to the AEM OSGi Web console&gt;Status&gt;Sling Scheduler or go to http://&lt;host&gt;:&lt;port&gt;/system/console/status-slingscheduler (for example, [http://localhost:4502/system/console/status-slingscheduler](http://localhost:4502/system/console/status-slingscheduler)) 
+    * Navigate to the AEM OSGi Web console&gt;Status&gt;Sling Scheduler or go to https://&lt;host&gt;:&lt;port&gt;/system/console/status-slingscheduler (for example, [http://localhost:4502/system/console/status-slingscheduler](http://localhost:4502/system/console/status-slingscheduler)) 
     * Verify that the following pool entries exist:
 
         * ApacheSlingoak
@@ -74,7 +74,7 @@ In exceptional circumstances, the thread pool used to manage asychronous indexin
 
 If too many changes and commits are made to the repository in a short amount of time, indexing can be delayed due to a full observation queue. Firstly, determine if the observation queue is full:
 
-1. Go to the Web Console and click the JMX tab or go to http://&lt;host&gt;:&lt;port&gt;/system/console/jmx (for example, [http://localhost:4502/system/console/jmx](http://localhost:4502/system/console/jmx))
+1. Go to the Web Console and click the JMX tab or go to https://&lt;host&gt;:&lt;port&gt;/system/console/jmx (for example, [http://localhost:4502/system/console/jmx](http://localhost:4502/system/console/jmx))
 1. Open the Oak Repository Statistics MBean and determine if any `ObservationQueueMaxLength` value is greater than 10,000.
 
     * In normal operations, this maximum value must always eventually reduce to zero (especially in the `per second` section) so verify that the `ObservationQueueMaxLength`'s seconds metrics are 0.
@@ -127,7 +127,7 @@ To identify and fix a stuck re-indexing process, do the following:
 
 ## Safely aborting asynchronous re-indexing {#safely-aborting-asynchronous-re-indexing}
 
-Re-indexing can be safely aborted (stopped before it is completed) via the `async, async-reindex`and f `ulltext-async` indexing lanes ( `IndexStats` Mbean). For more information, also see the Apache Oak documentation on [How to Abort Reindexing](http://jackrabbit.apache.org/oak/docs/query/indexing.html#abort-reindex). Aditionally, take into consideration that:
+Re-indexing can be safely aborted (stopped before it is completed) via the `async, async-reindex`and f `ulltext-async` indexing lanes ( `IndexStats` Mbean). For more information, also see the Apache Oak documentation on [How to Abort Reindexing](https://jackrabbit.apache.org/oak/docs/query/indexing.html#abort-reindex). Aditionally, take into consideration that:
 
 * The re-indexing of Lucene and Lucene Property Indexes can be aborted as they are naturally asychronous.
 * The re-indexing of Oak Property Indexes can only be aborted if re-indexing was intiated via the `PropertyIndexAsyncReindexMBean`.
@@ -136,7 +136,7 @@ To safely abort re-indexing, follow these steps:
 
 1. Identify the IndexStats MBean that controls the re-indexing lane that needs to be stopped.
 
-    * Navigate to the appropriate IndexStats MBean via the JMX console by going to either AEM OSGi Web Console&gt;Main&gt;JMX or http://&lt;host&gt;:&lt;port&gt;/system/console/jmx (for example, [http://localhost:4502/system/console/jmx](http://localhost:4502/system/console/jmx))
+    * Navigate to the appropriate IndexStats MBean via the JMX console by going to either AEM OSGi Web Console&gt;Main&gt;JMX or https://&lt;host&gt;:&lt;port&gt;/system/console/jmx (for example, [http://localhost:4502/system/console/jmx](http://localhost:4502/system/console/jmx))
     * Open the IndexStats MBean based on the re-indexing lane that you wish to stop ( `async`, `async-reindex`, or `fulltext-async`)
 
         * To identify the appropriate lane and thus the IndexStats MBean instance, look at the Oak Indexes "async" property. The "async" property will contain the lane name: `async`, `async-reindex`, or `fulltext-async`.

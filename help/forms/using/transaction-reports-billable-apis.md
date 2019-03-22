@@ -337,7 +337,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ## Billable Data Capture APIs {#billable-data-capture-apis}
 
-All the submission events of adaptive forms, HTML5 Forms, and form set are accounted as transactions. By default, submission of a PDF Form is not accounted as a transaction. Use the provided [transaction reports API](http://www.bdnsw.gov.bn/PublishingImages/page-under-construction.jpg) to recording a PDF Forms submission as a transaction.
+All the submission events of adaptive forms, HTML5 Forms, and form set are accounted as transactions. By default, submission of a PDF Form is not accounted as a transaction. Use the provided [transaction reports API](https://www.bdnsw.gov.bn/PublishingImages/page-under-construction.jpg) to recording a PDF Forms submission as a transaction.
 
 ### Adaptive Forms {#adaptive-forms}
 
@@ -481,7 +481,7 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 
 ## Recording billable APIs as transactions for custom code {#recording-billable-apis-as-transactions-for-custom-code}
 
-Actions like submitting a PDF Form, using Agent UI to preview an interactive communication, using non-standard form submission, and custom implementations are not accounted as transactions. AEM Forms provides an API to record such actions as transactions. You can call the API from your custom implementations to [record a transaction](http://www.bdnsw.gov.bn/PublishingImages/page-under-construction.jpg).
+Actions like submitting a PDF Form, using Agent UI to preview an interactive communication, using non-standard form submission, and custom implementations are not accounted as transactions. AEM Forms provides an API to record such actions as transactions. You can call the API from your custom implementations to [record a transaction](https://www.bdnsw.gov.bn/PublishingImages/page-under-construction.jpg).
 
 ## Related Articles {#related-articles}
 

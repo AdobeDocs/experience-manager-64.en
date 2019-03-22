@@ -38,7 +38,7 @@ When configured to support dispatcher caching, a TTL-based "max age" expiration 
 ### Requirements {#requirements}
 
 * Dispatcher version 4.1.2 or later (see [Installing Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html) for the latest version)
-* [ACS AEM Commons package](http://adobe-consulting-services.github.io/acs-aem-commons/)
+* [ACS AEM Commons package](https://adobe-consulting-services.github.io/acs-aem-commons/)
 
     * Version 3.3.2 or later
     * `ACS AEM Commons - Dispatcher Cache Control Header - Max Age` OSGi config

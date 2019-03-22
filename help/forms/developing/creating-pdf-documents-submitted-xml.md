@@ -135,7 +135,7 @@ Create a PDF document with submitted XML data by using the Forms, Output, and Do
     * A string value that specifies the store where the content is added. The default store is `SpacesStore`. This value is a mandatory parameter. 
     * A string value that specifies the fully qualified path of the space where the content is added (for example, `/Company Home/Test Directory`). This value is a mandatory parameter. 
     * The node name that represents the new content (for example, `MortgageForm.pdf`). This value is a mandatory parameter. 
-    * A string value that specifies the node type. To add new content, such as a PDF file, specify `{http://www.alfresco.org/model/content/1.0}content`. This value is a mandatory parameter. 
+    * A string value that specifies the node type. To add new content, such as a PDF file, specify `{https://www.alfresco.org/model/content/1.0}content`. This value is a mandatory parameter. 
     * A `com.adobe.idp.Document` object that represents the content. This value is a mandatory parameter. 
     * A string value that specifies the encoding value (for example, `UTF-8`). This value is a mandatory parameter.
     * An `UpdateVersionType` enumeration value that specifies how to handle version information (for example, `UpdateVersionType.INCREMENT_MAJOR_VERSION` to increment the content version. ) This value is a mandatory parameter.

@@ -44,7 +44,7 @@ The response object contains a JSON array that includes forms names and their re
 **Request URL**
 
 ```
-http://[host]:[port]/content/forms/portal/submission.review.json?func=getFormsForSubmissionReview
+https://[host]:[port]/content/forms/portal/submission.review.json?func=getFormsForSubmissionReview
 ```
 
 **Response**
@@ -114,7 +114,7 @@ The response object contains a JSON array that includes details of the specified
 **Request URL**
 
 ```
-http://[host]:[port]/content/forms/portal/submission.review.json?func=getAllSubmissions&formPath=/content/dam/formsanddocuments/forms-review/form2
+https://[host]:[port]/content/forms/portal/submission.review.json?func=getAllSubmissions&formPath=/content/dam/formsanddocuments/forms-review/form2
 ```
 
 **Response**
@@ -145,7 +145,7 @@ Returns a comment ID on successful posting of a comment.
 **Request URL**
 
 ```
-http://[host:[port]/content/forms/portal/submission.review.json?func=addComment&submitID=1403037413508500&comment=API+test+comment
+https://[host:[port]/content/forms/portal/submission.review.json?func=addComment&submitID=1403037413508500&comment=API+test+comment
 ```
 
 **Response**
@@ -183,7 +183,7 @@ The response object contains a JSON array that includes all comments associated 
 **Request URL**
 
 ```
-http://[host]:[port]/content/forms/portal/submission.review.json?func=getComments&submitID=1403037413508500
+https://[host]:[port]/content/forms/portal/submission.review.json?func=getComments&submitID=1403037413508500
 ```
 
 **Response**
@@ -215,7 +215,7 @@ Returns a JSON object with information about the update posted.
 **Request URL**
 
 ```
-http://[host]:[port]/content/forms/portal/submission.review.json?func=updateSubmission&submitID=1403037413508500&value=sample_value&property=some_new_prop
+https://[host]:[port]/content/forms/portal/submission.review.json?func=updateSubmission&submitID=1403037413508500&value=sample_value&property=some_new_prop
 
 ```
 

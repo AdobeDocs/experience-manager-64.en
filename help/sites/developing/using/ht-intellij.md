@@ -30,7 +30,7 @@ Each of them is explained in more detail in the remainder of this How-To.
 
 ### Install IntelliJ IDEA {#install-intellij-idea}
 
-Download IntelliJ IDEA from [the Downloads page at JetBrains](http://www.jetbrains.com/idea/download/index.html).
+Download IntelliJ IDEA from [the Downloads page at JetBrains](https://www.jetbrains.com/idea/download/index.html).
 
 Then, follow the installation instructions on that page.
 
@@ -145,4 +145,4 @@ You are now all set up for debugging your JSPs in AEM.
 
 ### Debugging Bundles with IntelliJ IDEA {#debugging-bundles-with-intellij-idea}
 
-Code in bundles can be debugged using a standard generic remote debug connection. You can follow the [Jetbrain documentation on remote debugging](http://www.jetbrains.com/idea/webhelp/run-debug-configuration-remote.html).
+Code in bundles can be debugged using a standard generic remote debug connection. You can follow the [Jetbrain documentation on remote debugging](https://www.jetbrains.com/idea/webhelp/run-debug-configuration-remote.html).

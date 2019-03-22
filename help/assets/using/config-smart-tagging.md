@@ -89,7 +89,7 @@ To configure the integration, use the values of Technical Account ID, Organizati
 
 After you've completed the configuration, you can use a JMX MBean to validate the configuration. To validate, follow these steps.
 
-1. Access your AEM server at http://&lt;*servername*&gt;:&lt;*port&gt;*.  
+1. Access your AEM server at https://&lt;*servername*&gt;:&lt;*port&gt;*.  
 
 1. Go to **[!UICONTROL Tools > Operations > Web Console]** to open the OSGi console. Click **[!UICONTROL Main > JMX]**.
 1. Click **[!UICONTROL com.day.cq.dam.similaritysearch.internal.impl]**. It opens **[!UICONTROL SimilaritySearch Miscellaneous Tasks.]** 

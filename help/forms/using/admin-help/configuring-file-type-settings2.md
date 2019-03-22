@@ -78,7 +78,7 @@ Create or edit a file type setting to specify how the application handles the co
 
 1. After you complete all the sections, click **[!UICONTROL Save]** or **[!UICONTROL Save As]** and provide a name for the setting.
 
-Support for various file types can be customized. (See " [Adding Support for Additional Native File Formats](http://help.adobe.com/en_US/AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7756.2.html)" in [Programming with AEM forms](http://www.adobe.com/go/learn_lc_programming_11).)
+Support for various file types can be customized. (See " [Adding Support for Additional Native File Formats](https://help.adobe.com/en_US/AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7756.2.html)" in [Programming with AEM forms](https://www.adobe.com/go/learn_lc_programming_11).)
 
 ## Change the default settings {#change-the-default-settings}
 
@@ -549,7 +549,7 @@ These options determine how AutoCAD files are converted. For instructions about 
 
 **[!UICONTROL Open Layers Pane When Viewed In Adobe Acrobat]**: Shows the layers structure when the PDF is opened in Acrobat.
 
-**[!UICONTROL Create PDF/E-1 Compliant File]**: Creates a file that is PDF/E-1 compliant. PDF/E is an ISO standard for the exchange of engineering and technical documentation. For more information about PDF/E-1, see [Adobe and industry standards](http://www.adobe.com/enterprise/standards/index.html).
+**[!UICONTROL Create PDF/E-1 Compliant File]**: Creates a file that is PDF/E-1 compliant. PDF/E is an ISO standard for the exchange of engineering and technical documentation. For more information about PDF/E-1, see [Adobe and industry standards](https://www.adobe.com/enterprise/standards/index.html).
 
 **[!UICONTROL Convert All Layouts]**: Includes all layouts in the PDF.
 
@@ -604,13 +604,13 @@ You can also specify how forms are submitted. The options are XML, FDF, PDF, or 
 
 ## Other applications’ settings (Windows only) {#other-applications-settings-windows-only}
 
-You cannot change the settings for other applications through administration console; they display the filename extensions for the supported file types. For instructions about accessing these settings, see [Create or edit file type settings](http://help.adobe.com/en_US/AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e42.2.html).
+You cannot change the settings for other applications through administration console; they display the filename extensions for the supported file types. For instructions about accessing these settings, see [Create or edit file type settings](https://help.adobe.com/en_US/AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e42.2.html).
 
 * Corel WordPerfect: `wpd`
 * Adobe PageMaker: `pmd, pm6, p65, pm`
 * Adobe FrameMaker: `fm`
 * Adobe Photoshop: `psd`
 
-Support for these file types may need to be customized. For more information, see “Adding Support for Additional Native File Formats” in [Programming with AEM forms](http://www.adobe.com/go/learn_aemforms_programming_62).
+Support for these file types may need to be customized. For more information, see “Adding Support for Additional Native File Formats” in [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_62).
 
 For help on configuring a PDFG network printer, see [Setting up a PDFG network printer (Windows only)](../../../forms/using/admin-help/setting-pdfg-network-printer-windows.md).

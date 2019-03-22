@@ -16,7 +16,7 @@ pagetitle: Deploying eCommerce with Intershop
 
 >[!NOTE]
 >
->This page contains links to the [Intershop website](http://www.intershop.com/). Certain areas need an account for full access.
+>This page contains links to the [Intershop website](https://www.intershop.com/). Certain areas need an account for full access.
 
 ## Deploying eCommerce with Intershop {#deploying-ecommerce-with-intershop}
 
@@ -72,7 +72,7 @@ To install AEM with an Intershop integration configuration (using the demonstrat
 
    >[!NOTE]
    >
-   >Packages are available on demand. To be able to find and download them, please [contact Intershop](http://www.intershop.com/contact).
+   >Packages are available on demand. To be able to find and download them, please [contact Intershop](https://www.intershop.com/contact).
 
 1. [Author](../../../sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
 

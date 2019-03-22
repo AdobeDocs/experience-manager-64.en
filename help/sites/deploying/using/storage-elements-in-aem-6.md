@@ -62,7 +62,7 @@ AEM 6 can be configured to run with MongoDB storage by following the below proce
 
    `java -jar cq-quickstart-6.jar -unpack`
 
-1. Make sure that MongoDB is installed and an instance of `mongod` is running. For more info, see [Installing MongoDB](http://docs.mongodb.org/manual/installation/).
+1. Make sure that MongoDB is installed and an instance of `mongod` is running. For more info, see [Installing MongoDB](https://docs.mongodb.org/manual/installation/).
 1. Create a folder named `crx-quickstart\install` in the installation directory.
 1. Configure the node store by creating a configuration file with the name of the configuration you want to use in the `crx-quickstart\install` directory.
 
@@ -70,7 +70,7 @@ AEM 6 can be configured to run with MongoDB storage by following the below proce
 
 1. Edit the file and set your configuration options. The following options are available:
 
-    * `mongouri`: The [MongoURI](http://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`  
+    * `mongouri`: The [MongoURI](https://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`  
     
     * `db`: Name of the Mongo database. By default new AEM 6 installations use **aem-author** as the database name.  
     

@@ -27,19 +27,19 @@ Because page dynamism and interactive content are key to the WM experience, it's
 
 At the highest level, then, you should have a solid understanding of:
 
-* the [HTTP/1.1 protocol](http://www.ietf.org/rfc/rfc2616.txt)
-* HTML (preferably [HTML5](http://dev.w3.org/html5/spec/Overview.html))
+* the [HTTP/1.1 protocol](https://www.ietf.org/rfc/rfc2616.txt)
+* HTML (preferably [HTML5](https://dev.w3.org/html5/spec/Overview.html))
 * Cascading Style Sheets
 * Extensible Markup Language (XML)
 * Asynchronous JavaScript and XML (AJAX) design patterns
 * JavaScript Object Notation (JSON)
 * the Document Object Model
 * Stateful vs. stateless interactions
-* [Uniform Resource Identifiers](http://www.ietf.org/rfc/rfc2396.txt)
+* [Uniform Resource Identifiers](https://www.ietf.org/rfc/rfc2396.txt)
 * Browser cookies
 * and other modern web-development concepts
 
-The technology stack of Adobe Experience Manager are based on the [Apache Felix](http://felix.apache.org/) OSGI container with the [Apache Sling](http://sling.apache.org/site/index.html) web framework and embeds a Java Content Repository ([JCR](http://www.day.com/specs/jcr/2.0/index.html)) based on [Apache Jackrabbit](http://jackrabbit.apache.org/jcr-api.html). You should familiarize yourself with these individual projects, as well as any other open source components (e.g., Apache Lucene) used in the area where you intend to contribute.
+The technology stack of Adobe Experience Manager are based on the [Apache Felix](https://felix.apache.org/) OSGI container with the [Apache Sling](https://sling.apache.org/site/index.html) web framework and embeds a Java Content Repository ([JCR](https://www.day.com/specs/jcr/2.0/index.html)) based on [Apache Jackrabbit](https://jackrabbit.apache.org/jcr-api.html). You should familiarize yourself with these individual projects, as well as any other open source components (e.g., Apache Lucene) used in the area where you intend to contribute.
 
 ## Tribal Knowledge {#tribal-knowledge}
 
@@ -51,7 +51,7 @@ Content includes not only all of the data that the web application persists. The
 
 ### David's Model {#david-s-model}
 
-The way content should be modeled in a Java Content Repository requires an entirely different way of thinking than what is common practice in the software industry for data modeling in the relational world. Essential reading for any newcomer to content management the JCR way is [David's Model: A guide for content modeling](http://wiki.apache.org/jackrabbit/DavidsModel).
+The way content should be modeled in a Java Content Repository requires an entirely different way of thinking than what is common practice in the software industry for data modeling in the relational world. Essential reading for any newcomer to content management the JCR way is [David's Model: A guide for content modeling](https://wiki.apache.org/jackrabbit/DavidsModel).
 
 ### RESTfulness {#restfulness}
 
@@ -59,11 +59,11 @@ The REST approach is deeply ingrained in what we do. This means, among other thi
 
 REST (REpresentational State Transfer) refers to the software architectural style on which the World Wide Web is based. It describes the key elements that make the Web work, and so provides a set of principles for how web-based software should be designed. When designing an API to be used over the Web, it therefore makes sense to adhere to these “best practices.”
 
-Because REST provides the guiding philosophy behind so much of what we do, you should consider it essential to become well-versed in the tenets of RESTful design. A good place to start is with [Roy Fielding's dissertation](http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm).
+Because REST provides the guiding philosophy behind so much of what we do, you should consider it essential to become well-versed in the tenets of RESTful design. A good place to start is with [Roy Fielding's dissertation](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm).
 
 ### Sling Request Resolution {#sling-request-resolution}
 
-A key aspect to understand about AEM is how incoming requests relate to content and application behavior, how content is structured in the content repository and where AEM looks for the application logic to handle the request. Learn about the Apache [Sling URL decomposition](http://sling.apache.org/site/url-decomposition.html) and the way it enforces the REST architectural style and its stateless, cacheable, and layered system constraints.
+A key aspect to understand about AEM is how incoming requests relate to content and application behavior, how content is structured in the content repository and where AEM looks for the application logic to handle the request. Learn about the Apache [Sling URL decomposition](https://sling.apache.org/site/url-decomposition.html) and the way it enforces the REST architectural style and its stateless, cacheable, and layered system constraints.
 
 Key aspects to understand about Apache Sling's request resolution are how requests primarily map to a specific resource in the Content Repository, how additional properties of the request, together with properties of these content objects, determine which application code will be invoked to render the content, and how code in /apps overrides code in /libs.
 
@@ -137,7 +137,7 @@ In essence, JCR is a system of nodes and properties, in which nodes can inherit 
 
 JCR has a number of predefined node types and property types, but in general the typing system is quite flexible, and (indeed) one of the strengths of JCR is that it allows structured as well as unstructured content to be stored/managed with equal ease. That is, JCR can accommodate highly structured data, but it can also accommodate arbitrary dynamic data structures without schema constraints.
 
-The JavaDoc for JCR's Java API is [here](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/index.html).
+The JavaDoc for JCR's Java API is [here](https://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/index.html).
 
 Before attempting to read the JavaDoc or the JCR spec itself, you might want to look at [this high-level explanation](../../../sites/developing/using/the-basics.md#java-content-repository) of JCR as implemented by Adobe Experience Services.
 

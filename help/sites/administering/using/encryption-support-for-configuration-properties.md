@@ -26,7 +26,7 @@ OSGi Configuration Plugin support was added in order to decrypt the property bef
 
 These steps show how to encrypt the SMTP password for the Mail service. You can complete these steps for an OSGI property you want encrypted.
 
-1. Go to the AEM Web Console at *http://serveraddress:serverport/system/console/configMgr*
+1. Go to the AEM Web Console at *https://serveraddress:serverport/system/console/configMgr*
 1. In the upper left corner, go to **Main - Crypto Support**
 
    ![](assets/chlimage_1-325.png)

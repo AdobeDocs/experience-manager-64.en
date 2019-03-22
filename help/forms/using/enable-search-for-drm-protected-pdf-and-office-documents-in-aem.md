@@ -20,8 +20,8 @@ Perform the following steps to enable AEM to search document security protected 
 ## Before you start {#before-you-start}
 
 * Install and configure AEM Forms document security.
-* Add package sun.util.calendar to the whitelist of the **Deserialization Firewall Configuration.** The configuration is listed at http://[server]:[port]/system/console/configMgr.
-* Ensure that all AEM bundles are up and running. The bundles are listed at http://[server]:[port]/system/console/bundles. If all the bundles are not active, wait, and check the status of the bundles after for a few minutes.
+* Add package sun.util.calendar to the whitelist of the **Deserialization Firewall Configuration.** The configuration is listed at https://[server]:[port]/system/console/configMgr.
+* Ensure that all AEM bundles are up and running. The bundles are listed at https://[server]:[port]/system/console/bundles. If all the bundles are not active, wait, and check the status of the bundles after for a few minutes.
 
 ## Establish a secure connection within AEM Forms workflow (AEM Forms on JEE) {#establish-a-secure-connection-within-aem-forms-workflow-aem-forms-on-jee}
 
@@ -32,7 +32,7 @@ A secure connection enables  seamless  flow of information between AEM Forms on 
 
 ### Configure AEM Forms Client SDK Bundle with AEM Forms on JEE admin credentials {#configure-aem-forms-client-sdk-bundle-with-aem-forms-on-jee-admin-credentials}
 
-1. Open AEM configuration manager and login as an administrator. The default URL is http://&lt;serverName&gt;:&lt;port&gt;/lc/system/console/configMgr.
+1. Open AEM configuration manager and login as an administrator. The default URL is https://&lt;serverName&gt;:&lt;port&gt;/lc/system/console/configMgr.
 1. Search and open the AEM Forms Client SDK Bundle. Specify value for the following properties:
 
     * **Server URL: **Specify HTTP URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE  keystore  file&gt; parameter.
@@ -46,7 +46,7 @@ A secure connection enables  seamless  flow of information between AEM Forms on 
 ### Configure AEM Forms Client SDK Bundle using mutual authentication {#configure-aem-forms-client-sdk-bundle-using-mutual-authentication}
 
 1. Enable mutual authentication for AEM Forms on JEE. For detailed information, see [CAC and Mutual Authentication](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html).
-1. Open AEM configuration manager and login as an administrator. The default URL is http://&lt;serverName&gt;:&lt;port&gt;/lc/system/console/configMgr.
+1. Open AEM configuration manager and login as an administrator. The default URL is https://&lt;serverName&gt;:&lt;port&gt;/lc/system/console/configMgr.
 1. Search and open the AEM Forms Client SDK Bundle. Specify value for the following properties:
 
     * **Server URL: **Specify HTTPS URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE  keystore  file&gt; parameter.

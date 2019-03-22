@@ -15,7 +15,7 @@ discoiquuid: 0463205f-75f3-4e65-b9a2-8e5028c801d6
 
 To save time and effort from having to browse through potentially hundreds of videos, use keywords, file properties such as a file's type, or recently modified time stamp to quickly find your file.
 
-If you aren't seeing the file you are looking for, you can change the entire scope of a search by clicking one of the options at the bottom of the search results. For example, if you search for a file in the Documents library but you cannot find it, you can click Libraries to expand the search to the rest of your libraries. For more information, see [Find a file or folder](http://windows.microsoft.com/en-us/windows7/find-a-file-or-folder).
+If you aren't seeing the file you are looking for, you can change the entire scope of a search by clicking one of the options at the bottom of the search results. For example, if you search for a file in the Documents library but you cannot find it, you can click Libraries to expand the search to the rest of your libraries. For more information, see [Find a file or folder](https://windows.microsoft.com/en-us/windows7/find-a-file-or-folder).
 
 You can search for digital assets based on one or more of the following properties:
 

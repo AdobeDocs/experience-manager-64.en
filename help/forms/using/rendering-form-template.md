@@ -16,7 +16,7 @@ discoiquuid: cb75b826-d044-44be-b364-790c046513e0
 
 HTML5 forms have the notion of **Profiles** which are exposed as REST Endpoints to enable Mobile Rendering of Form Templates. These Profiles have associated **Profile Renderer**. They are JSP pages responsible for generating HTML representation of the form by calling the Forms OSGi service. The JCR path of the Profile node determines the URL of the render end point. The default render end point of the form pointing to 'default' profile looks like:
 
-http://&lt;*host*&gt;:&lt;*port*&gt;/content/xfaforms/profiles/default.html?contentRoot=&lt;*path of the folder containg form xdp*&gt;&template=&lt;*name of the xdp*&gt;
+https://&lt;*host*&gt;:&lt;*port*&gt;/content/xfaforms/profiles/default.html?contentRoot=&lt;*path of the folder containg form xdp*&gt;&template=&lt;*name of the xdp*&gt;
 
 For example, `http://localhost:4502/content/xfaforms/profiles/default.html?contentRoot=c:/xdps&template=sampleForm.xdp`
 

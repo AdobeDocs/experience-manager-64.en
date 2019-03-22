@@ -45,7 +45,7 @@ The [site creation wizard](../../communities/using/sites-console.md):
 * provides essential features:
 
     * responsive design:  
-      uses [Twitter Bootstrap themes](http://getbootstrap.com)
+      uses [Twitter Bootstrap themes](https://getbootstrap.com)
     
     * login:  
       self-registration, [social login](../../communities/using/social-login.md), user profiles

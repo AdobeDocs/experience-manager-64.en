@@ -29,7 +29,7 @@ With the new architecture, AEM is responsible for master assets and synchs with 
 
 ## Enabling Dynamic Media in Scene7 mode {#enabling-dynamic-media-in-scene-mode}
 
-[Dynamic media](http://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable it.
+[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable it.
 
 Dynamic Media - Scene7 mode is for Author only.
 
@@ -63,7 +63,7 @@ See [Installing Feature Pack 18912](../../assets/using/bulk-ingest-migrate.md) f
 
 ## Configuring Dynamic Media Cloud Services {#configuring-dynamic-media-cloud-services}
 
-**Before you configure Dynamic Media Cloud Services**: After you receive your provisioning email with Dynamic Media credentials, you must [log in](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) to Dynamic Media Classic to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that Dynamic Media Cloud Service is set up with the correct credentials.
+**Before you configure Dynamic Media Cloud Services**: After you receive your provisioning email with Dynamic Media credentials, you must [log in](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) to Dynamic Media Classic to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that Dynamic Media Cloud Service is set up with the correct credentials.
 
 To configure dynamic media cloud services:
 
@@ -75,7 +75,7 @@ To configure dynamic media cloud services:
 
    >[!NOTE]
    >
-   >After you receive your provisioning email with Dynamic Media credentials, please [log into](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) Dynamic Media Classic to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that the Dynamic Media cloud service is set up with the correct credentials.
+   >After you receive your provisioning email with Dynamic Media credentials, please [log into](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) Dynamic Media Classic to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that the Dynamic Media cloud service is set up with the correct credentials.
 
 1. If the connection is successful, you can also set the following:
 
@@ -100,7 +100,7 @@ To configure dynamic media cloud services:
 1. Tap or click **Save**.
 1. To securely preview Dynamic Media content before it gets published, you will need to "whitelist" the AEM author instance to connect to Dynamic Media:
 
-    * Log on to your Dynamic Media Classic account: [http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html). Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
+    * Log on to your Dynamic Media Classic account: [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html). Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
     * On the navigation bar near the top right of the page, click **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server**.
     
     * On the Image Server Publish page, in the Publish Context drop-down list, select **Test Image Serving**.
@@ -125,7 +125,7 @@ If you want to further customize the configuration and setup of Dynamic Media - 
 
 When you are in runmode **dynamicmedia_scene7**, you use the Dynamic Media Classic (Scene7) user interface to make changes to your Dynamic Media settings.
 
-Some of the tasks above require that you log into Dynamic Media Classic (Scene7) here: [http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
+Some of the tasks above require that you log into Dynamic Media Classic (Scene7) here: [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
 
 Setup and configuration tasks include the following:
 
@@ -149,7 +149,7 @@ The Image Server screen establishes default settings for delivering images. See 
 * **Defaults for Catalog Fields **- These settings pertain to the resolution and default thumbnail type of images.
 * **Color Management Attributes** - These settings determine which ICC color profiles are used.
 * **Compatibility Attributes** - This setting enables leading and trailing paragraphs in text layers to be treated as they were in version 3.6 for backwards compatibility.
-* **Localization Support** - These settings let you manage multiple locale attributes. It also lets you specify a locale map string so you can define which languages you want to support for the various tooltips in Viewers. For more information about setting up **Localization Support**, see [Considerations when setting up localization of assets](http://help.adobe.com/en_US/scene7/using/WS997f1dc4cb0179f034e07dc31412799d19a-8000.html).
+* **Localization Support** - These settings let you manage multiple locale attributes. It also lets you specify a locale map string so you can define which languages you want to support for the various tooltips in Viewers. For more information about setting up **Localization Support**, see [Considerations when setting up localization of assets](https://help.adobe.com/en_US/scene7/using/WS997f1dc4cb0179f034e07dc31412799d19a-8000.html).
 
 #### Configuring application general settings {#configuring-application-general-settings}
 
@@ -181,7 +181,7 @@ Dynamic media color management lets you color correct assets. With color correct
 
 To configure the default color properties to enable color correction when requesting images:
 
-1. [Log into Dynamic Media Classic](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials provided during provisioning. Navigate to **Setup** &gt; **Application Setup**.
+1. [Log into Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials provided during provisioning. Navigate to **Setup** &gt; **Application Setup**.
 1. Expand the **Publish Setup** area and select **Image Server**. Set **Publish Context** to **Image Serving** when setting defaults for publish instances. 
 1. Scroll to the property you need to change, for example a property in the **Color Management Attributes** area.
 
@@ -258,7 +258,7 @@ Two elements are available for definition, Match and Base Name. These fields let
 
 **To configure default naming:**
 
-1. Log on to your Dynamic Media Classic (Scene7) account: [http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
+1. Log on to your Dynamic Media Classic (Scene7) account: [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
@@ -292,7 +292,7 @@ You can use either the form field method to define a batch set preset or the cod
 
 **To create a Batch Set Preset:**
 
-1. Log on to your Dynamic Media Classic (Scene7) account: [http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
+1. Log on to your Dynamic Media Classic (Scene7) account: [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
@@ -348,7 +348,7 @@ When the Spin Set is uploaded and published, you would activate the name of the 
 
 **To create a Batch Set Preset for the auto-generation of a 2D Spin Set:**
 
-1. Log on to your Dynamic Media Classic (Scene7) account: [http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
+1. Log on to your Dynamic Media Classic (Scene7) account: [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html)
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
@@ -418,7 +418,7 @@ The Granite Transit Workflow queue is used for the **DAM Update Asset** workflow
 
 **To update the Granite Transient Workflow queue:**
 
-1. Navigate to [http://&lt;server&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr) and search for **Queue: Granite Transient Workflow Queue**.
+1. Navigate to [https://&lt;server&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr) and search for **Queue: Granite Transient Workflow Queue**.
 
    >[!NOTE]
    >
@@ -440,7 +440,7 @@ The Granite Workflow queue is used for non-transient workflows. In Dynamic Media
 
 **To update the Granite Workflow queue:**
 
-1. Navigate to `http://<server>/system/console/configMgr` and search for **Queue: Granite Workflow Queue**.
+1. Navigate to `https://<server>/system/console/configMgr` and search for **Queue: Granite Workflow Queue**.
 
    >[!NOTE]
    >
@@ -462,7 +462,7 @@ The Scene7 Upload Connection setting synchronizes AEM assets to Dynamic Media Cl
 
 **To update the Scene7 upload connection:**
 
-1. Navigate to `http://<server>/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl`
+1. Navigate to `https://<server>/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl`
 1. In the **Number of connections** field and/or the **Active job timeout** field, change the number as desired.
 
    The** Number of connections** setting controls the maximum number of HTTP connections allowed for AEM to Dynamic Media upload; typically, the predefined value of 10 connections is sufficient.

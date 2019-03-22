@@ -20,7 +20,7 @@ legacypath: /content/docs/en/aem/6-1/develop/mobile-apps/apps/managing-aem-mobil
 
 The **Mobile Metrics Tile** on the command center provides real-time analytics for your mobile application.
 
-The [Adobe Mobile Analytics](http://www.adobe.com/ca/solutions/digital-analytics/mobile-web-apps-analytics.html) SDK is made available through a PhoneGap plug-in. Metrics are collected and cached on the device until the device is connected, at which time the data is pushed to the Adobe Mobile Services Cloud for reporting and analysis.
+The [Adobe Mobile Analytics](https://www.adobe.com/ca/solutions/digital-analytics/mobile-web-apps-analytics.html) SDK is made available through a PhoneGap plug-in. Metrics are collected and cached on the device until the device is connected, at which time the data is pushed to the Adobe Mobile Services Cloud for reporting and analysis.
 
 Adobe Mobile Analytics SDK provides the following:
 

@@ -21,7 +21,7 @@ When working with the bulk editor, there are several query parameters that you c
 
 For example if you type the following in your browser's URL:
 
-http://&lt;servername&gt;:&lt;port_number&gt;/etc/importers/bulkeditor.html?rootPath=/content/geometrixx/en&queryParams=geometrixx&initialSearch=true&hrp=true
+https://&lt;servername&gt;:&lt;port_number&gt;/etc/importers/bulkeditor.html?rootPath=/content/geometrixx/en&queryParams=geometrixx&initialSearch=true&hrp=true
 
 the bulk editor displays without the **Root Path** field as hrp=true hides the field. With the parameter hrp=false, the field is displayed (the default value).
 

@@ -44,8 +44,8 @@ The hybris extension of the eCommerce Integration Framework has been updated to 
 >[!NOTE]
 >
 >* Supports up to hybris 6.4 with OCC version 2.
->* You will need Java 7 to run the [hybris 5 server.](http://www.hybris.com/en/architecture-technology)
->* The hybris add-on, the [Telco Accelerator](http://www.hybris.com/en/products/telecommunication), is not supported by the AEM extension.
+>* You will need Java 7 to run the [hybris 5 server.](https://www.hybris.com/en/architecture-technology)
+>* The hybris add-on, the [Telco Accelerator](https://www.hybris.com/en/products/telecommunication), is not supported by the AEM extension.
 >
 
 ### Packages Needed for eCommerce with hybris {#packages-needed-for-ecommerce-with-hybris}
@@ -113,7 +113,7 @@ The steps in this procedure will download and build the hybris server. It will a
 
 >[!NOTE]
 >
->To complete this, you will need [Groovy](http://groovy-lang.org/) installed on your system.
+>To complete this, you will need [Groovy](https://groovy-lang.org/) installed on your system.
 
 1. Download the **hybris Commerce Suite **distribution from the hybris download site.
 

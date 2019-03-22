@@ -21,7 +21,7 @@ Duplicate Detection is disabled by default. To enable the feature, perform the f
 
 1. Go to the **Adobe Experience Manager Web Console Configuration** page at the following URL:
 
-   *http://&lt;server&gt;:&lt;port&gt;/system/console/configMgr* 
+   *https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr* 
 
 1. Edit the configuration for the servlet **Day CQ DAM Create Asset**.
 1. Select the d**etect duplicate** option, and click/tap **Save**. The Detect Duplicate feature is now enabled in AEM Assets.

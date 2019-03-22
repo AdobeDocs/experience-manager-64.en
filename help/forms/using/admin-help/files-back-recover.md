@@ -86,7 +86,7 @@ To back up the database in real time, you must either use snapshot mode or confi
 
 >[!NOTE]
 >
->Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](http://www.adobe.com/support/products/enterprise/eol/eol_matrix.html). To know about configuring Content Services (Deprecated), see [Administering Content Services](http://help.adobe.com/en_US/livecycle/9.0/admin_contentservices.pdf).
+>Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](https://www.adobe.com/support/products/enterprise/eol/eol_matrix.html). To know about configuring Content Services (Deprecated), see [Administering Content Services](https://help.adobe.com/en_US/livecycle/9.0/admin_contentservices.pdf).
 
 ### DB2 {#db2}
 
@@ -98,22 +98,22 @@ Configure your DB2 database to run in archive log mode.
 
 IBM has a suite of tools and help systems to help database administrators manage their backup and recovery tasks:
 
-* IBM DB2 Archive Log Accelerator (See [IBM DB2 Archive Log Accelerator for z/OS User's Guide]( http://publib.boulder.ibm.com/infocenter/dzichelp/v2r2/topic/com.ibm.db2tools.alc.doc.ug/alcugb20.pdf?noframes=true).)
-* IBM DB2 Data Archive expert (See [IBM DB2 Data Archive Expert User's Guide and Reference]( http://publib.boulder.ibm.com/infocenter/mptoolic/v1r0/topic/com.ibm.db2tools.aeu.doc.ug/ahxugb13.pdf?noframes=true).)
+* IBM DB2 Archive Log Accelerator (See [IBM DB2 Archive Log Accelerator for z/OS User's Guide]( https://publib.boulder.ibm.com/infocenter/dzichelp/v2r2/topic/com.ibm.db2tools.alc.doc.ug/alcugb20.pdf?noframes=true).)
+* IBM DB2 Data Archive expert (See [IBM DB2 Data Archive Expert User's Guide and Reference]( https://publib.boulder.ibm.com/infocenter/mptoolic/v1r0/topic/com.ibm.db2tools.aeu.doc.ug/ahxugb13.pdf?noframes=true).)
 
 DB2 has built-in capabilities to back up a database to Tivoli Storage Manager. By using Tivoli Storage Manager, DB2 backups can be stored on other media or the local hard drive.
 
-For more information about DB2 database backup and recovery, see [Developing a backup and recovery strategy for DB2](http://publib.boulder.ibm.com/infocenter/db2luw/v9/index.jsp?topic=/com.ibm.db2.udb.admin.doc/doc/c0005945.htm).
+For more information about DB2 database backup and recovery, see [Developing a backup and recovery strategy for DB2](https://publib.boulder.ibm.com/infocenter/db2luw/v9/index.jsp?topic=/com.ibm.db2.udb.admin.doc/doc/c0005945.htm).
 
 ### Oracle {#oracle}
 
-Use snapshot backups or configure your Oracle database to run in archive log mode. (See [Oracle Backup: An Introduction]( http://www.databasedesign-resource.com/oracle-backup.md).) For more information about backing up and recovering your Oracle database, go to these sites:
+Use snapshot backups or configure your Oracle database to run in archive log mode. (See [Oracle Backup: An Introduction]( https://www.databasedesign-resource.com/oracle-backup.md).) For more information about backing up and recovering your Oracle database, go to these sites:
 
-[Oracle Backup and Recovery:](http://www.oracle.com/technetwork/database/features/availability/br-overview-097160.html) Explains the concepts of backup and recovery and the most common techniques for using Recovery Manager (RMAN) for backup, recovery, and reporting in more detail, as well as providing more information about how to plan a backup and recovery strategy.
+[Oracle Backup and Recovery:](https://www.oracle.com/technetwork/database/features/availability/br-overview-097160.html) Explains the concepts of backup and recovery and the most common techniques for using Recovery Manager (RMAN) for backup, recovery, and reporting in more detail, as well as providing more information about how to plan a backup and recovery strategy.
 
-[Oracle Database Backup and Recovery User's Guide:](http://download.oracle.com/docs/cd/E11882_01/backup.112/e10642.pdf) Provides in-depth information about RMAN architecture, backup and recovery concepts and mechanisms, advanced recovery techniques such as point-in-time recovery and database flashback features, and backup and recovery performance tuning. It also covers user-managed backup and recovery, using host operating system facilities instead of RMAN. This volume is essential for backup and recovery of more sophisticated database deployments and for advanced recovery scenarios.
+[Oracle Database Backup and Recovery User's Guide:](https://download.oracle.com/docs/cd/E11882_01/backup.112/e10642.pdf) Provides in-depth information about RMAN architecture, backup and recovery concepts and mechanisms, advanced recovery techniques such as point-in-time recovery and database flashback features, and backup and recovery performance tuning. It also covers user-managed backup and recovery, using host operating system facilities instead of RMAN. This volume is essential for backup and recovery of more sophisticated database deployments and for advanced recovery scenarios.
 
-[Oracle Database Backup and Recovery Reference:](http://download.oracle.com/docs/cd/E11882_01/backup.112/e10643.pdf) Provides complete information about syntax and semantics for all RMAN commands, and describes the database views that are available for reporting on backup and recovery activities.
+[Oracle Database Backup and Recovery Reference:](https://download.oracle.com/docs/cd/E11882_01/backup.112/e10643.pdf) Provides complete information about syntax and semantics for all RMAN commands, and describes the database views that are available for reporting on backup and recovery activities.
 
 ### SQL Server {#sql-server}
 
@@ -124,18 +124,18 @@ SQL Server also provides two backup and recovery tools:
 * SQL Server Management Studio (GUI)
 * T-SQL (command line)
 
-See [Backup Strategies]( http://articles.techrepublic.com.com/5100-1035_61-1043671.md)and [Backup and Restore](http://msdn.microsoft.com/en-us/library/ms187048(v=SQL.90).aspx).
+See [Backup Strategies]( https://articles.techrepublic.com.com/5100-1035_61-1043671.md)and [Backup and Restore](https://msdn.microsoft.com/en-us/library/ms187048(v=SQL.90).aspx).
 
 ### MySQL {#mysql}
 
-Use MySQLAdmin or modify the INI files in Windows to configure your MySQL database to run in binary log mode. (See [MySQL binary logging](http://dev.mysql.com/doc/refman/5.1/en/binary-log.html).) A hot backup tool for MySQL is also available from InnoBase software. (See [Innobase Hot Backup]( http://www.innodb.com/hot-backup/features.md).)
+Use MySQLAdmin or modify the INI files in Windows to configure your MySQL database to run in binary log mode. (See [MySQL binary logging](https://dev.mysql.com/doc/refman/5.1/en/binary-log.html).) A hot backup tool for MySQL is also available from InnoBase software. (See [Innobase Hot Backup]( https://www.innodb.com/hot-backup/features.md).)
 
 ***note**: The default binary logging mode for MySQL is "Statement", which is incompatible with tables used by Content Services (Deprecated). Using binary logging in this default mode causes Content Services (Deprecated) to fail. If your system includes Content Services (Deprecated), use "Mixed" logging mode. To enable "Mixed" logging, add the following argument to the my.ini file:*
 `binlog_format=mixed log-bin=logname`
 
 You can use the mysqldump utility to obtain the full database backup. Full backups are required, but they are not always convenient. They produce large backup files and take time to generate. To do an incremental backup, ensure that you start the server with the - `log-bin` option as described in the previous section. Each time the MySQL server restarts, it stops writing to the current binary log, creates a new one and, from then on, the new one becomes the current one. You can force a switch manually with the `FLUSH LOGS SQL` command. After the first full backup, subsequent incremental backups are done by using the mysqladmin utility with the `flush-logs` command, which creates the next log file.
 
-See [Backup Strategy Summary](http://dev.mysql.com/doc/refman/5.5/en/backup-strategy-summary.html).
+See [Backup Strategy Summary](https://dev.mysql.com/doc/refman/5.5/en/backup-strategy-summary.html).
 
 ```as3
 binlog_format=mixed 

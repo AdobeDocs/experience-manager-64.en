@@ -34,18 +34,18 @@ The following diagram shows the typical architecture for AEM Forms Document Secu
 
 Perform the following steps to install and configure AEM Forms on JEE:
 
-1. Download the AEM 6.4 Forms on JEE installer from the [Adobe Licensing Website (LWS)](http://licensing.adobe.com/). You require a valid Maintenance & Support contract to download the installer.
+1. Download the AEM 6.4 Forms on JEE installer from the [Adobe Licensing Website (LWS)](https://licensing.adobe.com/). You require a valid Maintenance & Support contract to download the installer.
 1. Read the [AEM Forms on JEE Supported Platforms document](../../forms/using/AEM-forms-JEE-supported-platforms.md) and ensure that have the software, hardware, operating systems, application server, databases, JDKs, and other infrastructure ready to install AEM Forms on JEE.
-1. (Non-Turnkey installs only) Read the [Preparing to install AEM Forms single server](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64) or [Preparing to install AEM Forms server cluster](http://www.adobe.com/go/learn_aemforms_prepareInstallcluster_64) and ready your environment to install and configure AEM Forms on JEE.
+1. (Non-Turnkey installs only) Read the [Preparing to install AEM Forms single server](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64) or [Preparing to install AEM Forms server cluster](https://www.adobe.com/go/learn_aemforms_prepareInstallcluster_64) and ready your environment to install and configure AEM Forms on JEE.
 1. Depending on your environment and application server, choose one of the following documents and follow the instructions to complete the installation
 
-    * [Installing and deploying AEM Forms on JEE using JBoss turnkey](http://www.adobe.com/go/learn_aemforms_installTurnkey_64)
-    * [Installing and deploying AEM Forms on JEE for JBoss](http://www.adobe.com/go/learn_aemforms_installJBoss_64)
-    * [Installing and deploying AEM Forms on JEE for WebLogic](http://www.adobe.com/go/learn_aemforms_installWebLogic_64)
-    * [Installing and deploying AEM Forms on JEE for WebSphere](http://www.adobe.com/go/learn_aemforms_installWebSphere_64)
-    * [Configuring AEM Forms on JEE on JBoss cluster](http://www.adobe.com/go/learn_aemforms_clusterJBoss_64)
-    * [Configuring AEM Forms on JEE on WebLogic cluster](http://www.adobe.com/go/learn_aemforms_clusterWebLogic_64)
-    * [Configuring AEM Forms on JEE on WebSphere cluster](http://www.adobe.com/go/learn_aemforms_clusterWebSphere_64)
+    * [Installing and deploying AEM Forms on JEE using JBoss turnkey](https://www.adobe.com/go/learn_aemforms_installTurnkey_64)
+    * [Installing and deploying AEM Forms on JEE for JBoss](https://www.adobe.com/go/learn_aemforms_installJBoss_64)
+    * [Installing and deploying AEM Forms on JEE for WebLogic](https://www.adobe.com/go/learn_aemforms_installWebLogic_64)
+    * [Installing and deploying AEM Forms on JEE for WebSphere](https://www.adobe.com/go/learn_aemforms_installWebSphere_64)
+    * [Configuring AEM Forms on JEE on JBoss cluster](https://www.adobe.com/go/learn_aemforms_clusterJBoss_64)
+    * [Configuring AEM Forms on JEE on WebLogic cluster](https://www.adobe.com/go/learn_aemforms_clusterWebLogic_64)
+    * [Configuring AEM Forms on JEE on WebSphere cluster](https://www.adobe.com/go/learn_aemforms_clusterWebSphere_64)
 
    >[!NOTE]
    >

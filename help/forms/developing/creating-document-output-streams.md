@@ -60,7 +60,7 @@ You can accomplish these tasks by using the Output service:
 * [Creating Search Rules](creating-document-output-streams.md#creating_search_rules)
 * [Flattening PDF Documents](creating-document-output-streams.md#flattening_pdf_documents)
 
-  ***Note**: For more information about the Output service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).*
+  ***Note**: For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).*
 
 ## Creating PDF Documents {#creating-pdf-documents}
 
@@ -72,7 +72,7 @@ To create an interactive PDF form that lets a user enter data, use the Forms ser
 
 >[!NOTE]
 >
->For more information about the Output service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -116,7 +116,7 @@ To merge data into this form design, you must create an XML data source that cor
 
 ```as3
  <?xml version="1.0" encoding="UTF-8" ?>  
- - <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"> 
+ - <xfa:datasets xmlns:xfa="https://www.xfa.org/schema/xfa-data/1.0/"> 
  - <xfa:data> 
  - <data> 
      - <Layer> 
@@ -161,7 +161,7 @@ If you use a tagged Acrobat form as input, you cannot use the Output service Jav
 
 >[!NOTE]
 >
->If you do not specify rendering run-time options, then default values are used. For information about rendering run-time options, see the `RenderOptionsSpec` class reference. (See [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en)).
+>If you do not specify rendering run-time options, then default values are used. For information about rendering run-time options, see the `RenderOptionsSpec` class reference. (See [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en)).
 
 **Generate a PDF document**
 
@@ -394,11 +394,11 @@ When a PDF/A document is opened in Acrobat, a message is displayed that confirms
 
 >[!NOTE]
 >
->The AIIM web site has a PDF/A FAQ section that you can access at [http://www.aiim.org/documents/standards/19005-1_FAQ.pdf](http://www.aiim.org/documents/standards/19005-1_FAQ.pdf).
+>The AIIM web site has a PDF/A FAQ section that you can access at [https://www.aiim.org/documents/standards/19005-1_FAQ.pdf](https://www.aiim.org/documents/standards/19005-1_FAQ.pdf).
 
 >[!NOTE]
 >
->For more information about the Output service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -639,7 +639,7 @@ You can programmatically retrieve Loan.xdp from Content Services (deprecated) an
 
 >[!NOTE]
 >
->For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-2}
 
@@ -842,7 +842,7 @@ You can create a PDF based on an XDP file located in the repository using one of
 
 >[!NOTE]
 >
->For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-3}
 
@@ -957,7 +957,7 @@ Before reading *Creating PDF Documents using Fragments*, it is recommended that 
 
 >[!NOTE]
 >
->For more information about the Output service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-4}
 
@@ -1166,7 +1166,7 @@ Using the Output service, you can merge XML data with a form design and print th
 
 >[!NOTE]
 >
->For more information about the Output service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-5}
 
@@ -1207,7 +1207,7 @@ To print to a file, you must set the File URI run-time option by specifying the 
 
 >[!NOTE]
 >
->There are optional run-time options that you can define. For information about all the options that you can set, see the `PrintedOutputOptionsSpec` class reference in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+>There are optional run-time options that you can define. For information about all the options that you can set, see the `PrintedOutputOptionsSpec` class reference in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 **Print the print stream to a file**
 
@@ -1375,7 +1375,7 @@ Using the Output service, you can merge XML data with a form design and output t
 
 >[!NOTE]
 >
->For more information about the Output service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-6}
 
@@ -1716,7 +1716,7 @@ Notice that the XML element that starts and ends each data record is `LoanRecord
 
 >[!NOTE]
 >
->For more information about the Output service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-7}
 
@@ -1962,7 +1962,7 @@ In addition, the Output service is able to generate document packages, where mul
 
 >[!NOTE]
 >
->For more information about the Output service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-8}
 
@@ -2226,7 +2226,7 @@ Attempting to flatten a PDF that is a non-interactive PDF document causes an exc
 
 >[!NOTE]
 >
->For more information about the Output service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary_of_steps-9}
 

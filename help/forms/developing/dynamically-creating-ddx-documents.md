@@ -22,7 +22,7 @@ For this discussion, assume that the following DDX document is dynamically creat
 
 ```as3
  <?xml version="1.0" encoding="UTF-8"?> 
- <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+ <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
       <PDFsFromBookmarks prefix="stmt"> 
      <PDF source="AssemblerResultPDF.pdf"/> 
  </PDFsFromBookmarks> 
@@ -33,11 +33,11 @@ This DDX document disassembles a PDF document. It is recommended that you be fam
 
 >[!NOTE]
 >
->For more information about the Assembler service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Assembler service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]
 >
->For more information about a DDX document, see [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddx_63).
+>For more information about a DDX document, see [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddx_63).
 
 ## Summary of steps {#summary-of-steps}
 
@@ -124,7 +124,7 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
     * Create a Java `DocumentBuilder` object by calling the `DocumentBuilderFactory` object’s `newDocumentBuilder` method.
     * Call the `DocumentBuilder` object’s `newDocument` method to instantiate a `org.w3c.dom.Document` object.
     * Create the DDX document’s root element by invoking the `org.w3c.dom.Document` object’s `createElement` method. This method creates an `Element` object that represents the root element. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, set a value for the child element by calling its `setAttribute` method. Finally, append the element to the header element by calling the header element’s `appendChild` method, and pass the child element object as an argument. The following lines of code show this application logic:
-      ` Element root = (Element)document.createElement("DDX");  root.setAttribute("xmlns","http://ns.adobe.com/DDX/1.0/");  document.appendChild(root);`
+      ` Element root = (Element)document.createElement("DDX");  root.setAttribute("xmlns","https://ns.adobe.com/DDX/1.0/");  document.appendChild(root);`
     
     * Create the `PDFsFromBookmarks` element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Set a value for the `PDFsFromBookmarks` element by calling its `setAttribute` method. Append the `PDFsFromBookmarks` element to the `DDX` element by calling the DDX element’s `appendChild` method. Pass the `PDFsFromBookmarks` element object as an argument. The following lines of code show this application logic:
       ` Element PDFsFromBookmarks = (Element)document.createElement("PDFsFromBookmarks");  PDFsFromBookmarks.setAttribute("prefix","stmt");  root.appendChild(PDFsFromBookmarks);`
@@ -216,7 +216,7 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
 
     * Create a `System.Xml.XmlElement` object by using its constructor.
     * Create the DDX document’s root element by invoking the `XmlElement` object’s `CreateElement` method. This method creates an `Element` object that represents the root element. Pass a string value representing the name of the element to the `CreateElement` method. Set a value for the DDX element by calling its `SetAttribute` method. Finally, append the element to the DDX document by calling the `XmlElement` object’s `AppendChild` method. Pass the DDX object as an argument. The following lines of code show this application logic:
-      ` System.Xml.XmlElement root = ddx.CreateElement("DDX");  root.SetAttribute("xmlns", "http://ns.adobe.com/DDX/1.0/");  ddx.AppendChild(root);`
+      ` System.Xml.XmlElement root = ddx.CreateElement("DDX");  root.SetAttribute("xmlns", "https://ns.adobe.com/DDX/1.0/");  ddx.AppendChild(root);`
     
     * Create the DDX document’s `PDFsFromBookmarks` element by calling the `XmlElement` object’s `CreateElement` method. Pass a string value representing the name of the element to the `CreateElement` method. Next, set a value for the element by calling its `SetAttribute` method. Append the `PDFsFromBookmarks` element to the root element by calling the `DDX` element’s `AppendChild` method. Pass the `PDFsFromBookmarks` element object as an argument. The following lines of code show this application logic:
       ` XmlElement PDFsFromBookmarks = ddx.CreateElement("PDFsFromBookmarks");  PDFsFromBookmarks.SetAttribute("prefix", "stmt");  root.AppendChild(PDFsFromBookmarks);`

@@ -25,7 +25,7 @@ The guide is intended for use on development installations of author (localhost:
 
 The Community Components site is accessed by browsing to
 
-* [http://&lt;server&gt;:&lt;port&gt;/content/community-components/en.html](http://localhost:4502/content/community-components/en.html)
+* [https://&lt;server&gt;:&lt;port&gt;/content/community-components/en.html](http://localhost:4502/content/community-components/en.html)
 
 Interactions with the Communities components will vary depending on:
 
@@ -37,10 +37,10 @@ Interactions with the Communities components will vary depending on:
 On author, to enter edit mode, insert either * `editor.html`* or * `cf#`* as the first path segment after the server name:
 
 * Standard UI:  
-  [http://&lt;server&gt;:&lt;port&gt;/editor.html/content/community-components/en.html](http://localhost:4502/editor.html/content/community-components/en.html)
+  [https://&lt;server&gt;:&lt;port&gt;/editor.html/content/community-components/en.html](http://localhost:4502/editor.html/content/community-components/en.html)
 
 * Classic UI:  
-  [http://&lt;server&gt;:&lt;port&gt;/cf#/content/community-components/en.html](http://localhost:4502/cf#/content/community-components/en.html)
+  [https://&lt;server&gt;:&lt;port&gt;/cf#/content/community-components/en.html](http://localhost:4502/cf#/content/community-components/en.html)
 
 >[!NOTE]
 >

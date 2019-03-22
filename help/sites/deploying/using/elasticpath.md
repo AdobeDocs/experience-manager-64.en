@@ -20,7 +20,7 @@ This catalog is available under the English (US) branch ( `/content/geometrixx-o
 
 >[!NOTE]
 >
->This page contains links to the [Elastic Path website](http://www.elasticpath.com/). Certain areas need an account for full access.
+>This page contains links to the [Elastic Path website](https://www.elasticpath.com/). Certain areas need an account for full access.
 
 ## Installation of eCommerce with Elastic Path {#installation-of-ecommerce-with-elastic-path}
 
@@ -37,9 +37,9 @@ To install AEM with an Elastic Path integration configuration (using the demonst
 
 >[!NOTE]
 >
->To be able to find and download those packages and the matching Elastic Path Commerce demo server, please [contact Elastic Path](http://www.elasticpath.com/company/contact-us).
+>To be able to find and download those packages and the matching Elastic Path Commerce demo server, please [contact Elastic Path](https://www.elasticpath.com/company/contact-us).
 >
->For additional details on Elastic Path for Adobe Marketing Cloud, please see [http://cms-developers.elasticpath.com](http://cms-developers.elasticpath.com).
+>For additional details on Elastic Path for Adobe Marketing Cloud, please see [https://cms-developers.elasticpath.com](https://cms-developers.elasticpath.com).
 
 If Elastic Path is running on any other machine or server (as recommended for Production):
 

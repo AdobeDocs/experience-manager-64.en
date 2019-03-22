@@ -14,7 +14,7 @@ legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/config
 
 # Configuring Layout Container and Layout Mode{#configuring-layout-container-and-layout-mode}
 
-[Responsive Layout](../../../sites/authoring/using/responsive-layout.md) is a mechanism for realizing [responsive web design](http://en.wikipedia.org/wiki/Responsive_web_design). This allows the user to create web pages that have a layout and dimensions dependent on the devices their users use.
+[Responsive Layout](../../../sites/authoring/using/responsive-layout.md) is a mechanism for realizing [responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design). This allows the user to create web pages that have a layout and dimensions dependent on the devices their users use.
 
 >[!NOTE]
 >

@@ -25,7 +25,7 @@ David’s Model was written by David Nuescheler years ago, but the ideas hold tr
 * Files are files are files.
 * ID’s are evil.
 
-David’s Model can be found on the Jackrabbit wiki at [http://wiki.apache.org/jackrabbit/DavidsModel](http://wiki.apache.org/jackrabbit/DavidsModel).
+David’s Model can be found on the Jackrabbit wiki at [https://wiki.apache.org/jackrabbit/DavidsModel](https://wiki.apache.org/jackrabbit/DavidsModel).
 
 ### Everything is content {#everything-is-content}
 

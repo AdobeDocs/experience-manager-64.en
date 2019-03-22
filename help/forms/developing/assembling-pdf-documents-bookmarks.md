@@ -25,7 +25,7 @@ For the purpose of this discussion, assume that the following DDX document is us
 
 ```as3
  <?xml version="1.0" encoding="UTF-8"?> 
- <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+ <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
        <PDF result="FinalDoc.pdf"> 
           <PDF source="Loan.pdf"> 
              <Bookmarks source="doc2" /> 
@@ -36,13 +36,13 @@ For the purpose of this discussion, assume that the following DDX document is us
 
 Within this DDX document, notice that the source attribute is assigned the value `Loan.pdf`. This DDX document specifies that a single PDF document is passed to the Assembler service. When assembling a PDF document with bookmarks, you must specify a bookmark XML document that describes the bookmarks in the result document. To specify a bookmark XML document, ensure that the `Bookmarks` element is specified in your DDX document.
 
-In this example DDX document, the `Bookmarks` element specifies `doc2` as the value. This value indicates that the input map passed to the Assembler service contains a key named `doc2`. The value of the `doc2` key is a `com.adobe.idp.Document` value that represents the bookmark XML document. (See "Bookmarks Language" in the [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddx_63).)
+In this example DDX document, the `Bookmarks` element specifies `doc2` as the value. This value indicates that the input map passed to the Assembler service contains a key named `doc2`. The value of the `doc2` key is a `com.adobe.idp.Document` value that represents the bookmark XML document. (See "Bookmarks Language" in the [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddx_63).)
 
 This topic uses the following XML bookmarks language to assemble a PDF document containing bookmarks.
 
 ```as3
  <?xml version="1.0" encoding="UTF-8"?> 
- <Bookmarks xmlns="http://ns.adobe.com/pdf/bookmarks" version="1.0"> 
+ <Bookmarks xmlns="https://ns.adobe.com/pdf/bookmarks" version="1.0"> 
        <Bookmark> 
           <Action> 
              <Launch NewWindow="true"> 
@@ -66,7 +66,7 @@ Within this bookmark XML document, notice the Action element that defines the ac
 
 >[!NOTE]
 >
->For complete details about supported actions, see " `Action` element" in the [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddx_63).
+>For complete details about supported actions, see " `Action` element" in the [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddx_63).
 
 Given the DDX document specified in this section and bookmark XML file as input, the Assembler service assembles a PDF document that contains the following bookmarks.
 
@@ -80,11 +80,11 @@ When a user clicks on the *Open the Loan Details* bookmark, the LoanDetails.pdf 
 
 >[!NOTE]
 >
->For more information about the Assembler service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Assembler service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]
 >
->For more information about a DDX document, see [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddx_63).
+>For more information about a DDX document, see [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddx_63).
 
 ## Summary of steps {#summary-of-steps}
 
@@ -139,7 +139,7 @@ To assemble a PDF that contains new bookmarks, you must reference a bookmark XML
 
 >[!NOTE]
 >
->See "Bookmarks Language" in the [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddx_63).
+>See "Bookmarks Language" in the [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddx_63).
 
 **Add the PDF document and the bookmark XML document to a Map collection**
 
@@ -147,7 +147,7 @@ You must add both the PDF document to which bookmarks are added and the bookmark
 
 **Set run-time options**
 
-You can set run-time options that control the behavior of the Assembler service while it performs a job. For example, you can set an option that instructs the Assembler service to continue processing a job if an error is encountered. For information about the run-time options that you can set, see the `AssemblerOptionSpec` class reference in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+You can set run-time options that control the behavior of the Assembler service while it performs a job. For example, you can set an option that instructs the Assembler service to continue processing a job if an error is encountered. For information about the run-time options that you can set, see the `AssemblerOptionSpec` class reference in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 **Assemble the PDF document**
 

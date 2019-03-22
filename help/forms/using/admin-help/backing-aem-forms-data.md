@@ -55,10 +55,10 @@ In addition to these, observe the following guidelines for the backup/restore pr
 
 You should back up the AEM forms database, including any transaction logs. (See [AEM forms database](../../../forms/using/admin-help/files-back-recover.md#aem-forms-database).) For more information, see the appropriate knowledge base article for your database:
 
-* [Oracle Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403624)
-* [MySQL Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403625)
-* [Microsoft SQL Server Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403623)
-* [DB2 Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403626)
+* [Oracle Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403624)
+* [MySQL Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403625)
+* [Microsoft SQL Server Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403623)
+* [DB2 Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403626)
 
 These articles provide guidance to basic database features for the backup and recovery of data. They are not intended as all-inclusive technical Guides of a specific vendor's database backup and recovery feature. They outline commands that are required to create a reliable database backup strategy for your AEM forms application data.
 
@@ -131,7 +131,7 @@ You can use the command line interface to take AEM forms out of safe backup mode
 
    >[!NOTE]
    >
-   >You must set the JAVA_HOME directory as described in the appropriate chapter for your application server in [Preparing to Install AEM forms](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63)*.*
+   >You must set the JAVA_HOME directory as described in the appropriate chapter for your application server in [Preparing to Install AEM forms](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63)*.*
 
 1. Run the following command on a single line:
 

@@ -97,7 +97,7 @@ The following diagram shows an example of a purchase order form. The information
 
 ### Form design considerations {#form-design-considerations}
 
-Forms with flowable layouts are based on form designs that are created in Designer. A form design specifies a set of layout, presentation, and data capture rules, including calculating values based on user input. The rules are applied when data is entered into a form. Fields that are added to a form are subforms that are within the form design. For example, in the purchase order form shown in the previous diagram, each line is a subform. For information about creating a form design that contains subforms, see [Creating a purchase order form that has a flowable layout](http://www.adobe.com/go/learn_aemforms_qs_poformflowable_9).
+Forms with flowable layouts are based on form designs that are created in Designer. A form design specifies a set of layout, presentation, and data capture rules, including calculating values based on user input. The rules are applied when data is entered into a form. Fields that are added to a form are subforms that are within the form design. For example, in the purchase order form shown in the previous diagram, each line is a subform. For information about creating a form design that contains subforms, see [Creating a purchase order form that has a flowable layout](https://www.adobe.com/go/learn_aemforms_qs_poformflowable_9).
 
 ### Understanding data subgroups {#understanding-data-subgroups}
 
@@ -184,7 +184,7 @@ Each data subgroup must contain XML elements that match the field names in the s
 
 >[!NOTE]
 >
->For more information about the Forms service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -358,7 +358,7 @@ To prepopulate a form with a flowable layout by using the Forms API (web service
 
     * A string value that specifies the form design name, including the file name extension.
     * A `BLOB` object that contains data to merge with the form. Ensure that you use the `BLOB` object that was created in steps one and two. 
-    * A `PDFFormRenderSpecc` object that stores run-time options. For more information, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+    * A `PDFFormRenderSpecc` object that stores run-time options. For more information, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
     * A `URLSpec` object that contains URI values that are required by the Forms service.
     * A `java.util.HashMap` object that stores file attachments. This is an optional parameter and you can specify `null` if you do not want to attach files to the form.
     * An empty `com.adobe.idp.services.holders.BLOBHolder` object that is populated by the method. This is used to store the rendered PDF form. 

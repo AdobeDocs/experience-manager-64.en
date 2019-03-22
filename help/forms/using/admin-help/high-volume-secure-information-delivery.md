@@ -23,4 +23,4 @@ In the case of monthly invoice generation for a telecom company, you create an a
 
 Creation of an abstract policy is supported only through document security Java SDK. You can, however, administer the policies that you create from the abstract policy from the document security web pages. Policies that are created using this method are identical in behavior to those created from document security web pages.
 
-See [Programming with AEM forms](http://www.adobe.com/go/learn_aemforms_programming_63) for more information.
+See [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63) for more information.

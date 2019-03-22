@@ -24,7 +24,7 @@ For the purpose of this discussion, assume that the following DDX document is us
 
 ```as3
  <?xml version="1.0" encoding="UTF-8"?> 
- <DDX xmlns="http://ns.adobe.com/DDX/1.0/"> 
+ <DDX xmlns="https://ns.adobe.com/DDX/1.0/"> 
      <PDF result="out.pdf"> 
          <PDF source="map.pdf" /> 
          <PDF source="directions.pdf" /> 
@@ -40,11 +40,11 @@ This DDX document merges two PDF documents named *map.pdf* and *directions.pdf* 
 
 >[!NOTE]
 >
->For more information about the Assembler service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Assembler service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]
 >
->For more information about a DDX document, see [Assembler Service and DDX Reference](http://www.adobe.com/go/learn_aemforms_ddx_63).
+>For more information about a DDX document, see [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddx_63).
 
 ## Considerations when invoking Assembler service using web services {#considerations-when-invoking-assembler-service-using-web-services}
 
@@ -100,7 +100,7 @@ Both the map.pdf file and the directions.pdf file must be placed in a collection
 
 **Set run-time options**
 
-You can set run-time options that control the behaviour of the Assembler service while it performs a job. For example, you can set an option that instructs the Assembler service to continue processing a job if an error is encountered. For information about the run-time options that you can set, see the `AssemblerOptionSpec` class reference in [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+You can set run-time options that control the behaviour of the Assembler service while it performs a job. For example, you can set an option that instructs the Assembler service to continue processing a job if an error is encountered. For information about the run-time options that you can set, see the `AssemblerOptionSpec` class reference in [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
 **Assemble the input PDF documents**
 

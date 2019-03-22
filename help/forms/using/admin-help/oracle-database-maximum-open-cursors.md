@@ -13,4 +13,4 @@ discoiquuid: d3565776-1b7d-498c-9840-b17f80170d9b
 
 # Oracle database maximum open cursors threshold{#oracle-database-maximum-open-cursors-threshold}
 
-To configure a maximum value for open cursors in Oracle, you may have to tune this value to a number that is appropriate to your application. It is evident that under a moderate load, the average cursors open was 2700. It is recommended that you start with an upper limit of 3000. For more information, go to [http://www.orafaq.com/node/758](http://www.orafaq.com/node/758).
+To configure a maximum value for open cursors in Oracle, you may have to tune this value to a number that is appropriate to your application. It is evident that under a moderate load, the average cursors open was 2700. It is recommended that you start with an upper limit of 3000. For more information, go to [https://www.orafaq.com/node/758](https://www.orafaq.com/node/758).

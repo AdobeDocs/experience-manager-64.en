@@ -13,7 +13,7 @@ discoiquuid: d958ae65-3008-4d68-9e11-4346e149827f
 
 # Configuring certificate-based authentication{#configuring-certificate-based-authentication}
 
-User Management usually performs authentication by using a user name and password. User Management also supports certificate-based authentication, which you can use to authenticate users through Acrobat or to authenticate users programmatically. For details about authenticating users programmatically, see [Programming with AEM forms](http://www.adobe.com/go/learn_aemforms_programming_63).
+User Management usually performs authentication by using a user name and password. User Management also supports certificate-based authentication, which you can use to authenticate users through Acrobat or to authenticate users programmatically. For details about authenticating users programmatically, see [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63).
 
 To use certificate-based authentication, import a Certificate Authority (CA) certificate that you trust into the Trust Store and then create a certificate mapping.
 
@@ -76,7 +76,7 @@ When you test a certificate, User Management uploads the certificate checks to e
 
       **Regex:** smtp:(.&#42;)
 
-   For details on using regular expressions, see [Java tutorial about regular expressions](http://java.sun.com/docs/books/tutorial/essential/regex/). 
+   For details on using regular expressions, see [Java tutorial about regular expressions](https://java.sun.com/docs/books/tutorial/essential/regex/). 
 
 1. In the For Domain list, select the user’s domain.
 1. To test this configuration, click Browse to upload a sample user certificate, click Test Certificate and, if the configuration is correct, click OK.

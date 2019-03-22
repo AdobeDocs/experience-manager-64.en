@@ -55,7 +55,7 @@ Each application server has a separate set of instructions to enable mutual auth
     1. `\Adobe\Adobe_Experience_Manager_Forms\Java\jdk<version>\bin\keytool.exe -import -alias server-cert -file <client-certificate>.cer -keystore server.truststore C:\Adobe`
     1. `\Adobe_Experience_Manager_Forms\Java\jdk<version>\bin\keytool.exe -import -alias adobe-cert-auth-root -file <servert-certificate>.cer -keystore server.truststore`
 
-1. Open AEM Forms admin console and whitelist the common name. The default URL of admin console is http://&lt;server&gt;:&lt;port&gt;/adminui.
+1. Open AEM Forms admin console and whitelist the common name. The default URL of admin console is https://&lt;server&gt;:&lt;port&gt;/adminui.
 
    In the admin console, navigate to Settings &gt; User Management &gt; Configuration &gt;Configure Allowed Referer URL's. In the **Referer Whitelist** field, type the common name assigned to the certificate. For example, Paul Smith. In the **HTTP port** and **HTTPs port** field, type 0 and click **Add**. 
 
@@ -101,7 +101,7 @@ Each application server has a separate set of instructions to enable mutual auth
 
 1. Add certificates to AEM truststore and keystore:
 
-    1. Login to http://[server]:[port]/lc/libs/granite/security/content/useradmin.html as an administrator.
+    1. Login to https://[server]:[port]/lc/libs/granite/security/content/useradmin.html as an administrator.
     1. Tap **[!UICONTROL Administrator]**. The **Edit User Settings** page opens.
     1. Tap **[!UICONTROL Create trustStore]** and set an access password for trustStore. For more information, see [Add the IdP Certificate to the AEM TrustStore](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/saml-2-0-authenticationhandler.html#add-the-idp-certificate-to-the-aem-truststore).
     1. Tap **[!UICONTROL Create keyStore]** and set a password for keyStore. For more information, see [Add the Service Provider key and certificate chain to the AEM keystore](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/saml-2-0-authenticationhandler.html#add-the-service-provider-key-and-certificate-chain-to-the-aem-keystore).

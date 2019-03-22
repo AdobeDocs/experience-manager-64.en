@@ -155,7 +155,7 @@ The metadata schemata supported are listed in the following section.
 >
 >If you find that you have a lot of application-specific metadata in your assets, you can create a workflow step that changes the application-specific property to a standard one.
 
-* acdsee - metadata managed by the ACDSee program [http://www.acdsee.com/](http://www.acdsee.com/)
+* acdsee - metadata managed by the ACDSee program [https://www.acdsee.com/](https://www.acdsee.com/)
 * album - Adobe Photoshop Album
 * cq - used by AEM Assets
 * dam - used by AEM Assets
@@ -171,8 +171,8 @@ The metadata schemata supported are listed in the following section.
 
 * cc - creative commons
 * xmpRights
-* plus - Picture Licensing Universal System - http://www.useplus.com/
-* prism - http://www.prismstandard.org Publishing Requirements for Industry Standard Metadata 
+* plus - Picture Licensing Universal System - https://www.useplus.com/
+* prism - https://www.prismstandard.org Publishing Requirements for Industry Standard Metadata 
 * prl - Prism Rights Language
 * pur - Prism Usage Rights
 * xmpPlus - integration of PLUS with XMP
@@ -187,7 +187,7 @@ The metadata schemata supported are listed in the following section.
 ### Print-Specific Metadata {#print-specific-metadata}
 
 * pdf & pdfx - Adobe PDF and third-party applications
-* prism - http://www.prismstandard.org Publishing Requirements for Industry Standard Metadata
+* prism - https://www.prismstandard.org Publishing Requirements for Industry Standard Metadata
 * xmp
 * xmpPG - xmp for paged text
 

@@ -71,7 +71,7 @@ To configure the feed importer for tracking bounced emails:
    | imap.flag.SEEN |Set false for new/unseen message, true for already-read messages |
    |---|---|
 
-   See [http://java.sun.com/products/javamail/javadocs/javax/mail/Flags.Flag.html](http://java.sun.com/products/javamail/javadocs/javax/mail/Flags.Flag.html) for the full list of flags.
+   See [https://java.sun.com/products/javamail/javadocs/javax/mail/Flags.Flag.html](https://java.sun.com/products/javamail/javadocs/javax/mail/Flags.Flag.html) for the full list of flags.
 
    **IMAP examples:**
 

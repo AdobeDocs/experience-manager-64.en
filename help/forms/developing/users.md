@@ -585,7 +585,7 @@ To programmatically manage users, groups, and domains using the Directory Manage
 
    >[!NOTE]
    >
-   >If the maximum number of results is not specified in the search filter (through the `PrincipalSearchFilter.resultsMax` field), a maximum of 1000 results will be returned. This is different behavior than what occurs using the Java API, in which 10 results is the default maximum. Also, the search methods such as `findGroupMembers` will not yield any results unless the maximum number of results is specified in the search filter (for example, through the `GroupMembershipSearchFilter.resultsMax` field). This applies to all search filters that inherit from the `GenericSearchFilter` class. For more information, see [AEM Forms API Reference](http://www.adobe.com/go/learn_aemforms_javadocs_63_en).
+   >If the maximum number of results is not specified in the search filter (through the `PrincipalSearchFilter.resultsMax` field), a maximum of 1000 results will be returned. This is different behavior than what occurs using the Java API, in which 10 results is the default maximum. Also, the search methods such as `findGroupMembers` will not yield any results unless the maximum number of results is specified in the search filter (for example, through the `GroupMembershipSearchFilter.resultsMax` field). This applies to all search filters that inherit from the `GenericSearchFilter` class. For more information, see [AEM Forms API Reference](https://www.adobe.com/go/learn_aemforms_javadocs_63_en).
 
    Since the return value in this case is an `object[]` containing `Principal` objects, iterate through the result and cast the `Principal` objects to either `User` or `Group` objects.
 
@@ -917,7 +917,7 @@ Before you can programmatically synchronize users, you must create a `UserManage
 
 **Specify the enterprise domain**
 
-Before you perform a synchronization operation by using the User Management API, you specify the enterprise domain to which users belong. You can specify one or many enterprise domains. Before you can programmatically perform a synchronization operation, you have to setup an enterprise domain using Administration Console. (See [administration help](http://www.adobe.com/go/learn_aemforms_admin_63).)
+Before you perform a synchronization operation by using the User Management API, you specify the enterprise domain to which users belong. You can specify one or many enterprise domains. Before you can programmatically perform a synchronization operation, you have to setup an enterprise domain using Administration Console. (See [administration help](https://www.adobe.com/go/learn_aemforms_admin_63).)
 
 **Invoke the synchronization operation**
 

@@ -76,7 +76,7 @@ In this sample orchestration, an employee submits a leave application form. The 
 
 1. Define the summary Url as an XPath expression containing the server details along with **ptoSummaryNodePath**.
 
-   XPath: `concat('http://[*server*]:[*port*]/lc',/process_data/@ptoSummaryNodePath,'.html')`.
+   XPath: `concat('https://[*server*]:[*port*]/lc',/process_data/@ptoSummaryNodePath,'.html')`.
 
 In AEM Forms workspace, when you open a task, the summary Url accesses the CRX node, and the HTML renderer displays the summary.
 

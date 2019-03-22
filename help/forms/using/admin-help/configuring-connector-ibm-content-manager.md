@@ -13,7 +13,7 @@ discoiquuid: 3094b178-3b1a-46b3-8fbd-c20388afa3a7
 
 # Configuring Connector for IBM Content Manager{#configuring-connector-for-ibm-content-manager}
 
-Connector for IBM Content Manager enables communication between AEM forms and IBM Content Manager. For additional background information, see "Connectors for ECM" in [Services Reference](http://www.adobe.com/go/learn_aemforms_services_63).
+Connector for IBM Content Manager enables communication between AEM forms and IBM Content Manager. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Configure the IBM Content Manager connection {#configure-the-ibm-content-manager-connection}
 

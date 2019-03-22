@@ -45,7 +45,7 @@ The only difference between mutual authentication, CAC cards, and HSM based auth
     1. Create a truststore at client and add server public key certificate in the truststore of client. If you are using Microsoft Windows, you can use Windows Truststore. On linux, you have to create a truststore.  
 
     1. Create a Java_Home environment variable on the client machine. Set the environment variable to use the /bin folder of Java development Kit (JDK) installed on the client machine.
-    1. Download and place [Java Cryptography Extension (JCE) Unlimited Strength](http://www.oracle.com/technetwork/java/javase/downloads/index.html) files at $JAVA_HOME/jre/lib/security on the client machine.
+    1. Download and place [Java Cryptography Extension (JCE) Unlimited Strength](https://www.oracle.com/technetwork/java/javase/downloads/index.html) files at $JAVA_HOME/jre/lib/security on the client machine.
 
        >[!NOTE]
        >
@@ -72,9 +72,9 @@ AEM Forms is enabled to use CAC cards for authentication. Now, you can enable a 
 
 After you enable AEM Forms authentication to use CAC cards, you can perform various document security related operations using CAC cards. For example, protecting a document using a certificate stored on a CAC card.
 
-AEM Forms document security provides a set of APIs to protect, unprotect, and other operations. You create an object of type ServiceClientFactory to connect to AEM Forms server. You set connection properties to invoke AEM Forms when you create ServiceClientFactory object. When setting connection properties, specify whether to invoke services remotely or locally, and specify the connection mode and authentication values. Authentication values are required if service security is enabled. However, if service security is disabled, it is not necessary to specify authentication values. For detailed information about the properties, see [Setting connection properties](http://www.adobe.com/go/learn_aemforms_programming_63).
+AEM Forms document security provides a set of APIs to protect, unprotect, and other operations. You create an object of type ServiceClientFactory to connect to AEM Forms server. You set connection properties to invoke AEM Forms when you create ServiceClientFactory object. When setting connection properties, specify whether to invoke services remotely or locally, and specify the connection mode and authentication values. Authentication values are required if service security is enabled. However, if service security is disabled, it is not necessary to specify authentication values. For detailed information about the properties, see [Setting connection properties](https://www.adobe.com/go/learn_aemforms_programming_63).
 
-To successfully invoke an AEM Forms Document Security service with CAC cards authentication, set the following connection properties in addition to setting other [connection properties](http://www.adobe.com/go/learn_aemforms_programming_63):
+To successfully invoke an AEM Forms Document Security service with CAC cards authentication, set the following connection properties in addition to setting other [connection properties](https://www.adobe.com/go/learn_aemforms_programming_63):
 
 ### PKCS#11 properties {#pkcs-properties}
 
