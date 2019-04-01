@@ -21,7 +21,7 @@ When [customizing and extending your workflows](../../../sites/developing/using/
 
 ## Using the Workflow Java API {#using-the-workflow-java-api}
 
-The workflow Java API consists of the [ `com.adobe.granite.workflow`](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/package-summary.md) package and several sub-packages. The most significant member of the API is the `com.adobe.granite.workflow.WorkflowSession` class. The `WorkflowSession` class provides access to both design-time and runtime workflow objects:
+The workflow Java API consists of the [`com.adobe.granite.workflow`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/package-summary.md) package and several sub-packages. The most significant member of the API is the `com.adobe.granite.workflow.WorkflowSession` class. The `WorkflowSession` class provides access to both design-time and runtime workflow objects:
 
 * workflow models
 * work items
@@ -36,31 +36,31 @@ The following table provides links to the reference documentation of several key
 <table> 
  <tbody> 
   <tr> 
-   <th>Features<a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md"></a></th> 
+   <th>Features<a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md"></a></th> 
    <th>Objects<br /> </th> 
   </tr> 
   <tr> 
    <td>Accessing a workflow<br /> </td> 
-   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/WorkflowSession.md"><span class="code">WorkflowSession</span></a><br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/WorkflowSession.md"><span class="code">WorkflowSession</span></a><br /> </td> 
   </tr> 
   <tr> 
    <td>Executing and querying a workflow instance<br /> </td> 
-   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow.md"><span class="code">Workflow</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkItem.md"><span class="code">WorkItem</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData.md"><span class="code">WorkflowData</span></a><br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow.md"><span class="code">Workflow</span></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkItem.md"><span class="code">WorkItem</span></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData.md"><span class="code">WorkflowData</span></a><br /> </td> 
   </tr> 
   <tr> 
    <td>Managing a workflow model<br /> </td> 
-   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowModel.md"><span class="code">WorkflowModel</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowNode.md"><span class="code">WorkflowNode</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowTransition.md"><span class="code">WorkflowTransition</span></a><br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowModel.md"><span class="code">WorkflowModel</span></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowNode.md"><span class="code">WorkflowNode</span></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowTransition.md"><span class="code">WorkflowTransition</span></a><br /> </td> 
   </tr> 
   <tr> 
    <td>Information for a node that is in the workflow (or not) </td> 
-   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md"><span class="code">WorkflowStatus</span></a></td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md"><span class="code">WorkflowStatus</span></a></td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Obtaining Workflow Objects in ECMA Scripts {#obtaining-workflow-objects-in-ecma-scripts}
 
-As described in [Locating the Script](../../../sites/developing/using/the-basics.md#locating-the-script), AEM (via Apache Sling) provides an ECMA script engine that executes server-side ECMA scripts. The [ `org.apache.sling.scripting.core.ScriptHelper`](https://sling.apache.org/apidocs/sling5/org/apache/sling/scripting/core/ScriptHelper.html) class is immediately available to your scripts as the `sling` variable.
+As described in [Locating the Script](../../../sites/developing/using/the-basics.md#locating-the-script), AEM (via Apache Sling) provides an ECMA script engine that executes server-side ECMA scripts. The [`org.apache.sling.scripting.core.ScriptHelper`](https://sling.apache.org/apidocs/sling5/org/apache/sling/scripting/core/ScriptHelper.html) class is immediately available to your scripts as the `sling` variable.
 
 The `ScriptHelper` class provides access to the `SlingHttpServletRequest` that you can use to eventually obtain the `WorkflowSession` object; for example:
 
@@ -573,7 +573,7 @@ curl -u admin:admin -X DELETE http://localhost:4502/etc/workflow/models/{id}
 
 ### Filtering Out System Workflows when Checking Workflow Status {#filtering-out-system-workflows-when-checking-workflow-status}
 
-You can use the [WorkflowStatus API](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md) to retrieve information about the workflow status of a node.
+You can use the [WorkflowStatus API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md) to retrieve information about the workflow status of a node.
 
 Various methods have the parameter:
 
@@ -827,7 +827,7 @@ wfSession.complete(workItem, routes.get(0));
 
 ### Listening for Workflow Events {#listening-for-workflow-events}
 
-Use the OSGi event framework to listen for events that the [ `com.adobe.granite.workflow.event.WorkflowEvent`](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/event/WorkflowEvent.md) class defines. This class also provides several useful methods for obtaining information about the subject of the event. For example, the `getWorkItem` method returns the `WorkItem` object for the workitem that is involved in the event.
+Use the OSGi event framework to listen for events that the [ `com.adobe.granite.workflow.event.WorkflowEvent`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/event/WorkflowEvent.md) class defines. This class also provides several useful methods for obtaining information about the subject of the event. For example, the `getWorkItem` method returns the `WorkItem` object for the workitem that is involved in the event.
 
 The following example code defines a service that listens to workflow events and performs tasks according to the type of event.
 

@@ -80,7 +80,7 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Assets<br /> </td> 
-   <td>These consoles let you import and <a href="/assets/user-guide.md">manage digital assets</a> such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance. </td> 
+   <td>These consoles let you import and manage digital assets such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance. </td> 
   </tr>
   <tr>
    <td>Communities</td> 
@@ -96,7 +96,7 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Forms</td> 
-   <td>This console allows you to create, manage, and process your <a href="/forms/user-guide.md">forms and documents</a>.</td> 
+   <td>This console allows you to create, manage, and process your forms and documents.</td> 
   </tr>
   <tr>
    <td>Personalization</td> 
