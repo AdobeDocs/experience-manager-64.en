@@ -1,5 +1,5 @@
 ---
-title: [Redirect] Authoring Adobe Flash Content
+title: REDIRECT Authoring Adobe Flash Content
 seo-title: Authoring Adobe Flash Content
 description: null
 seo-description: null
@@ -12,7 +12,7 @@ noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/assets/user-guide
 ---
 
-# [Redirect] Authoring Adobe Flash Content{#redirect-authoring-adobe-flash-content}
+# REDIRECT Authoring Adobe Flash Content{#redirect-authoring-adobe-flash-content}
 
 Do you wish to manage your Flash based AIR application the same way you manage your web site? That is: authoring Flash content without being a developer? Or enabling your customers to view your Flash based web site on an iPad? The short answer is: AEM does it all for you!
 

@@ -26,5 +26,5 @@ The following are the available JavaScript API references of the NPM modules for
 >* [Overview of Single Page Applications (SPA)](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-overview-feature-video.html)
 >* [Getting Started with the AEM SPA Editor - Hello World Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-helloworld-tutorial-use.html)
 >* [Understanding SPA components in AEM SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-components-technical-video-understand.html)
->* [do not publish](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.html)
+>* DO NOT PUBLISH(https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.html)
 >* [Template DO NOT PUBLISH](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/template.html)

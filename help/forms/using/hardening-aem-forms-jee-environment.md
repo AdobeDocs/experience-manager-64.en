@@ -69,7 +69,7 @@ The following table describes common processes that reduce network security vuln
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e799 " valign="top" width="NaN%"><p>Database ports</p> </td> 
-   <td class="cellrowborder" headers="d19e802 " valign="top" width="NaN%"><p>Do not use default listening ports for databases (MySQL - 3306, Oracle - 1521, MS SQL - 1433). For information about changing database ports, see your database documentation.</p> <p>Using a different database port affects the overall AEM Forms on JEE configuration. If you change default ports, you must make corresponding modifications in other areas of configuration, such as the data sources for AEM Forms on JEE.</p> <p>For information about configuring data sources in AEM Forms on JEE, see Install and Upgrade AEM Forms on JEE or Upgrading to AEM Forms on JEE for your application server at <a href="/forms/user-guide.md" target="_blank">AEM Forms user guide</a>.</p> </td> 
+   <td class="cellrowborder" headers="d19e802 " valign="top" width="NaN%"><p>Do not use default listening ports for databases (MySQL - 3306, Oracle - 1521, MS SQL - 1433). For information about changing database ports, see your database documentation.</p> <p>Using a different database port affects the overall AEM Forms on JEE configuration. If you change default ports, you must make corresponding modifications in other areas of configuration, such as the data sources for AEM Forms on JEE.</p> <p>For information about configuring data sources in AEM Forms on JEE, see Install and Upgrade AEM Forms on JEE or Upgrading to AEM Forms on JEE for your application server at <a href="/help/forms/using/introduction-aem-forms.md" target="_blank">AEM Forms user guide</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

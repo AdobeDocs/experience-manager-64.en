@@ -1,5 +1,5 @@
 ---
-title: [DO NOT PUBLISH] Text
+title: DO NOT PUBLISH Text
 seo-title: Text
 description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
 seo-description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 372cf182-9fcd-4963-84e1-9a6f95583bd1
 ---
 
-# [DO NOT PUBLISH] Text{#do-not-publish-text}
+# DO NOT PUBLISH Text{#do-not-publish-text}
 
 A text asset is a piece of content that consists of one or more paragraphs of text. A paragraph can be static or dynamic. A dynamic paragraph contains references to data elements, whose values are supplied at runtime. For example, the customer name in a letter salutation could be a dynamic data element, with its value made available at runtime. By changing these values, the same letter template can be used to generate letters for different customers.
 

@@ -91,12 +91,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td width="200">Importers - <a href="../../../sites/administering/using/bulk-editor.md">Bulk Editor</a></td> 
    <td> </td> 
    <td>Lets you search for items and edit them in bulk. You can also export and import content (in bulk) into the repository.</td> 
-  </tr> 
-  <tr> 
-   <td width="200">Importers - <a href="/content/docs/en/aem/6-3/administer/content/offline-importer.md">Offline Importer</a></td> 
-   <td> </td> 
-   <td>The offline importer enables you to import content from MS Word documents generated offline.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td width="200">Importer - Feed Importer</td> 
    <td> </td> 
@@ -153,7 +148,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.</td> 
   </tr> 
   <tr> 
-   <td width="200">Security - <a href="/content/docs/en/aem/6-3/administer/security/configure-account-services.md">Self-Service Configuration </a> </td> 
+   <td width="200">Security - <a href="/help/sites/administering/using/notification.md">Self-Service Configuration </a> </td> 
    <td> </td> 
    <td>Lets you configure the emails that users automatically receive when they create an account or reset a password and to confirm a password that has been reset.</td> 
   </tr> 

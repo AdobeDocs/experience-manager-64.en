@@ -54,7 +54,7 @@ The following table describes the steps in this diagram.
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">HandleData</span> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling_submitted_forms">Handling Submitted Forms</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">HandleData</span> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Handling Submitted Forms</a>.)</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>5</p></td> 

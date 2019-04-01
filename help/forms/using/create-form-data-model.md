@@ -1,5 +1,5 @@
 ---
-title: "[DO NOT PUBLISH] Tutorial: Create form data model "
+title: "DO NOT PUBLISH Tutorial: Create form data model "
 seo-title: Create Form Data Model Tutorial
 description: null
 seo-description: null
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 31e97723-d637-4a18-999d-36e00fbd031a
 ---
 
-# [DO NOT PUBLISH] Tutorial: Create form data model {#do-not-publish-tutorial-create-form-data-model}
+# DO NOT PUBLISH Tutorial: Create form data model {#do-not-publish-tutorial-create-form-data-model}
 
  ![](assets/04-create-form-data-model-main.png)
 

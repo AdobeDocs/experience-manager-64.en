@@ -1,5 +1,5 @@
 ---
-title: [DO NOT PUBLISH] Conditions
+title: DO NOT PUBLISH Conditions
 seo-title: Conditions
 description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
 seo-description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b5c2f6bf-d8a3-4fbd-bcf6-04ab4994379a
 ---
 
-# [DO NOT PUBLISH] Conditions{#do-not-publish-conditions}
+# DO NOT PUBLISH Conditions{#do-not-publish-conditions}
 
 ## Conditions {#conditions}
 
