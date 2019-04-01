@@ -629,7 +629,7 @@ Action toolbar for an adaptive form
 >* [Set up ContextHub with AEM Sites](https://helpx.adobe.com/experience-manager/kt/sites/using/context-hub-technical-video-setup.html)
 >* [Getting Started with the AEM SPA Editor - WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
 >* [Getting Started with React and AEM SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react.html)
->* [do not publish](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.html)
+>* DO NOT PUBLISH(https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.html)
 >* [Template DO NOT PUBLISH](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/template.html)
 >* [Getting Started with React and AEM SPA Editor - Chapter 1](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-1.html)
 >* [Getting Started with React and AEM SPA Editor - Chapter 2](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-2.html)

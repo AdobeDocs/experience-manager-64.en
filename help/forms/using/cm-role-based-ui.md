@@ -1,6 +1,6 @@
 ---
-title: [DO NOT PUBLISH] Role based user interface in Correspondence Management
-seo-title: [DO NOT PUBLISH] Role based user interface in Correspondence Management
+title: DO NOT PUBLISH Role based user interface in Correspondence Management
+seo-title: DO NOT PUBLISH Role based user interface in Correspondence Management
 description: null
 seo-description: null
 page-status-flag: de-activated
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 342f111e-f15a-4f9a-8993-f90760363c02
 ---
 
-# [DO NOT PUBLISH] Role based user interface in Correspondence Management{#do-not-publish-role-based-user-interface-in-correspondence-management}
+# DO NOT PUBLISH Role based user interface in Correspondence Management{#do-not-publish-role-based-user-interface-in-correspondence-management}
 
 In AEM, the Admin can provide role-based access to different user groups perform various actions on different resources. For example, the funtionality to create or edit data dictionaries could be available only to users in a specific user group while other users could only view and user the data dictionaries.
 

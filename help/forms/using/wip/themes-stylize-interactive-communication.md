@@ -1,6 +1,6 @@
 ---
-title: [DO NOT PUBLISH] Themes in AEM Forms
-seo-title: [DO NOT PUBLISH] Themes in AEM Forms
+title: DO NOT PUBLISH Themes in AEM Forms
+seo-title: DO NOT PUBLISH Themes in AEM Forms
 description: Learn how to customize themes of your adaptive forms using AEM Forms theme editor. 
 seo-description: Learn how to customize themes of your adaptive forms using AEM Forms theme editor. 
 page-status-flag: never-activated
@@ -10,7 +10,7 @@ topic-tags: develop
 discoiquuid: 9a2d00bb-8c0f-4b0e-859f-f6d3920754b4
 ---
 
-# [DO NOT PUBLISH] Themes in AEM Forms{#do-not-publish-themes-in-aem-forms}
+# DO NOT PUBLISH Themes in AEM Forms{#do-not-publish-themes-in-aem-forms}
 
 ## About themes in AEM Forms {#about-themes-in-aem-forms}
 
