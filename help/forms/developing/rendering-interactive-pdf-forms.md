@@ -46,7 +46,7 @@ The following table describes the steps in this diagram.
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">GetLoanForm</span> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering render-interactive-pdf-form-using.md#render_an_interactive_pdf_form_using_the_java_api">Render an interactive PDF form using the Java API</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">GetLoanForm</span> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="help/forms/developing/rendering-interactive-pdf-forms.md#render_an_interactive_pdf_form_using_the_java_api">Render an interactive PDF form using the Java API</a>.)</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>3</p></td> 
