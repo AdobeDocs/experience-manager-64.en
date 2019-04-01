@@ -7,12 +7,11 @@ user-guide: AEM Deploying Guide
 
 # Table of Contents - AEM 6.4 - Deploying User Guide {#table-of-contents}
 
-+ [Introduction to the AEM Platform](#Introduction)
++ Introduction to the AEM Platform {#Introduction}
     + [Introduction to the AEM Platform](platform.md)
     + [Technical Requirements](technical-requirements.md)
     + [Storage Elements in AEM 6.4](storage-elements-in-aem-6.md)
     + [AEM with MongoDB](aem-with-mongodb.md)
-
 + [Deploying AEM](#Deploying)
     + [Deploying and Maintaining](deploy.md)
     + [Recommended Deployments](recommended-deploys.md)
@@ -20,7 +19,6 @@ user-guide: AEM Deploying Guide
     + [Custom Standalone Install](custom-standalone-install.md)
     + [Command Line Start and Stop](command-line-start-and-stop.md)
     + [Configuring node stores and data stores in AEM 6](data-store-config.md)
-
 + [Configuring AEM](#Configuring)
     + [Basic Configuration Concepts](configuring.md)
     + [Logging](configure-logging.md)
