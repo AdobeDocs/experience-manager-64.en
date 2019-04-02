@@ -73,9 +73,9 @@ As of Communities [feature pack 1](../../communities/using/deploy-communities.md
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Community Group API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/group/client/api/package-summary.md)
+* [Community Group API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/group/client/api/package-summary.md)
 
-* [Community Group Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/group/client/endpoints/package-summary.md)
+* [Community Group Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/group/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

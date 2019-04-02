@@ -426,7 +426,7 @@ Create an OSGi service or an ECMAScript that selects a user to assign the work i
 
 * **OSGi service**
 
-  Services must implement the [com.day.cq.workflow.exec.ParticipantStepChooser](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/ParticipantStepChooser.md) interface. The interface defines the following members:
+  Services must implement the [com.day.cq.workflow.exec.ParticipantStepChooser](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/ParticipantStepChooser.md) interface. The interface defines the following members:
 
     * `SERVICE_PROPERTY_LABEL` field: Use this field to specify the name of the participant chooser. The name appears in a list of available participant choosers in the **Dynamic Participant Step** properties.
     

@@ -77,9 +77,9 @@ A proxy worker is a processor responsible for handling a job and creating a resu
 
 >[!NOTE]
 >
->Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.md).
+>Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.md).
 
-` [JobService](/sites/developing/using/reference-materials/javadoc/index.md)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service ( `JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
+` [JobService](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.md)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service ( `JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
 
 The following is an example of API usage:
 
@@ -108,7 +108,7 @@ The following is an example of API usage:
 
 >[!NOTE]
 >
->Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.md).
+>Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.md).
 
 Both proxy and proxy worker configurations are available via cloud services configurations as accessible from the AEM Assets **Tools** console or under:
 
