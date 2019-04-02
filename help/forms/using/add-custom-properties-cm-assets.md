@@ -81,7 +81,7 @@ Complete the following steps to add a custom property to all the asset types and
        | **Name** |**Type** |**Value** |
        |---|---|---|
        | fieldLabel |String |The name you want to give the field/property. (Here: Location of recipients) |
-       | name |String |./extendedproperties/GeoLocation (Keep the value same as the field name you created under the items node) |
+       | name |String |`./extendedproperties/GeoLocation` (Keep the value same as the field name you created under the items node) |
        | renderReadOnly |Boolean |true |
        | sling:resourceType |String |granite/ui/components/coral/foundation/form/textfield |
 
@@ -97,7 +97,7 @@ Complete the following steps to add a custom property to all the asset types and
 
    >[!NOTE]
    >
-   >The common properties for all assets that you add appear in the basic tab of the asset properties. By default, the common properties added for all assets appear on the properties page as well as the asset creation page. To hide the common properties, you need to [link to show / hide properties].
+   >The common properties for all assets that you add appear in the basic tab of the asset properties. By default, the common properties added for all assets appear on the properties page as well as the asset creation page. To hide the common properties, you need to `[link to show / hide properties]`.
 
 ### Scenario: Add custom drop-down and values to a custom property/field {#scenario-add-custom-drop-down-and-values-to-a-custom-property-field}
 
@@ -111,35 +111,12 @@ This scenario shows how you can add a custom property to all the asset types and
    Create a node for each of the properties (fields) for which you need to create a drop-down (here `geographicallocation`) of the type nt:unstructured. 
 1. Add the following properties to the node (here geographicallocation) and click **Save All**:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>fieldLabel</td> 
-   <td>String</td> 
-   <td>The name you want to give the field/property. (Here: geographicallocation)</td> 
-  </tr> 
-  <tr> 
-   <td>name</td> 
-   <td>String</td> 
-   <td>./extendedproperties/geographicallocation (Keep the value same as the field name you created under the items node)</td> 
-  </tr> 
-  <tr> 
-   <td>renderReadOnly</td> 
-   <td>Boolean</td> 
-   <td>true</td> 
-  </tr> 
-  <tr> 
-   <td>sling:resourceType</td> 
-   <td>String</td> 
-   <td>granite/ui/components/coral/foundation/form/select<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+   |Name|Type|Value|
+   |--- |--- |---|
+   |fieldLabel|String|The name you want to give the field/property. (Here: geographicallocation)|
+   |name|String|`./extendedproperties/geographicallocation` (Keep the value same as the field name you created under the items node)|
+   |renderReadOnly|Boolean|true|
+   |sling:resourceType|String|granite/ui/components/coral/foundation/form/select|
 
 1. Under property node (here geographicallocation), add a new node with name `items`. Under the items node, add a node each for the values in the drop-down. As a good practice, add the first node as blank to serve as the default value of the drop-down and an option for the user to specify no value for the field. To add multiple options/drop-down values, repeat the following steps:
 
@@ -147,26 +124,11 @@ This scenario shows how you can add a custom property to all the asset types and
     1. Enter name of the field as `item1,` retain type as nt:unstructured, and click **OK**.
     1. Add the following properties to the newly created node (here item1) and then click **Save All**:
 
-    <table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>text</td> 
-   <td>String</td> 
-   <td>This is the value of the drop-down option that is visible to the user. Keep it blank for the blank (default) value or enter the value, such as <strong>International</strong> or <strong>Within US</strong>.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>value</td> 
-   <td>String</td> 
-   <td>Value stored in CRXDE for the text. Enter any unique keyword. <br /> </td> 
-  </tr> 
- </tbody> 
-</table>    
-    
+       |Name|Type|Value|
+       |--- |--- |--- |
+       |text|String|This is the value of the drop-down option that is visible to the user. Keep it blank for the blank (default) value or enter the value, such as **International** or **Within US**.|
+       |value|String|Value stored in CRXDE for the text. Enter any unique keyword.|
+
        ![](assets/customizationdropdownvaluescrxde.png)
 
 The custom drop-down appears as the following in asset properties:
@@ -201,7 +163,6 @@ Using the following procedure, you can add a tab with a field to all your assets
     1. Click **OK**. The folder structure is created in the apps folder.
 
        ![Overlay folder structure created in CRX](assets/cmmetadatapropertiesappsfolder.png)    
-    
        Click **Save All**.
 
 1. Under the cmmetadataproperties folder, add a node for creating a custom tab for all the assets (Example: commontab) using the following steps:
@@ -219,25 +180,10 @@ Using the following procedure, you can add a tab with a field to all your assets
     1. Click the new node you have created (here commontab). CRX displays the node's properties. 
     1. Add the following properties to the node (here commontab):
 
-    <table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>jcr:title</td> 
-   <td>String</td> 
-   <td>The name you want to give the column. (Here: Recipients)</td> 
-  </tr> 
-  <tr> 
-   <td>sling:resourceType</td> 
-   <td>String</td> 
-   <td>granite/ui/components/coral/foundation/container<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+       |Name|Type|Value|
+       |--- |--- |--- |
+       |jcr:title|String|The name you want to give the column. (Here: Recipients)|
+       |sling:resourceType|String|granite/ui/components/coral/foundation/container|
 
     1. Click **Save All**.
 
@@ -263,20 +209,9 @@ Using the following procedure, you can add a tab with a field to all your assets
 
     1. Add the following property to the node (Here Column1) and then click **Save All**:
 
-    <table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>sling:resourceType</td> 
-   <td>String</td> 
-   <td>granite/ui/components/coral/foundation/container<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+       |Name|Type|Value|
+       |--- |--- |--- |
+       |sling:resourceType|String|granite/ui/components/coral/foundation/container|
 
 1. In the node you created in the previous step (here Column1), add a node called items using the following steps:
 
@@ -302,7 +237,7 @@ Using the following procedure, you can add a tab with a field to all your assets
 
        | **Name** |**Type** |**Value** |
        |---|---|---|
-       | fieldLabel |String |Location of recipients (or the name you want to give the field.) |
+       | fieldLabel |String |Location of recipients (or the name you want to give the field.)|
        | name |String |./extendedproperties/GeographicalLocation |
        | renderReadOnly |Boolean |true |
        | sling:resourceType |String |/libs/granite/ui/components/coral/foundation/form/textfield |
@@ -341,25 +276,10 @@ Using the following procedure, you can add a tab with a field to all your assets
     1. Click the new node you have created (here mytab). CRX displays the node's properties. 
     1. Add the following two properties to the node (here customtab):
 
-    <table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>path<br /> </td> 
-   <td>String</td> 
-   <td>fd/cm/ma/gui/content/cmmetadataproperties/commontab<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>sling:resourceType</td> 
-   <td>String</td> 
-   <td>granite/ui/components/coral/foundation/include<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+       |Name|Type|Value|
+       |--- |--- |--- |
+       |path|String|fd/cm/ma/gui/content/cmmetadataproperties/commontab|
+       |sling:resourceType|String|granite/ui/components/coral/foundation/include|
 
     1. Click **Save All**.
 
@@ -458,20 +378,9 @@ To add a property to an asset type, complete the following steps:
 
     1. Add the following property to the node (Here Column1) and then click **Save All**.
 
-    <table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>sling:resourceType</td> 
-   <td>String</td> 
-   <td>granite/ui/components/coral/foundation/container<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+       |Name|Type|Value|
+       |--- |--- |--- |
+       |sling:resourceType|String|granite/ui/components/coral/foundation/container|
 
 1. For each column you create (as specified in the previous step - here Column1), create a node called item using the following steps:
 
@@ -546,29 +455,29 @@ By default, the custom properties added to new tabs are visible only on the prop
 
 1. Add the following properties to the newly created node (here col4) and click **Save All**:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>path</td> 
-   <td>String</td> 
-   <td><p>This path is the pointer to the column created in:</p> 
-    <ul> 
-     <li>For common tab for all asset types: /apps/fd/cm/ma/gui/content/cmmetadataproperties/commontab/items/col1</li> 
-     <li>For different properties for different asset types: /apps/fd/cm/ma/gui/content/cmmetadataproperties/properties//items/tabs/items/customtab/items/col1</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>sling:resourceType</td> 
-   <td>String</td> 
-   <td> granite/ui/components/coral/foundation/include<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+   <tbody> 
+   <tr> 
+      <td><strong>Name</strong></td> 
+      <td><strong>Type</strong></td> 
+      <td><strong>Value</strong></td> 
+   </tr> 
+   <tr> 
+      <td>path</td> 
+      <td>String</td> 
+      <td><p>This path is the pointer to the column created in:</p> 
+      <ul> 
+      <li>For common tab for all asset types: /apps/fd/cm/ma/gui/content/cmmetadataproperties/commontab/items/col1</li> 
+      <li>For different properties for different asset types: /apps/fd/cm/ma/gui/content/cmmetadataproperties/properties//items/tabs/items/customtab/items/col1</li> 
+      </ul> </td> 
+   </tr> 
+   <tr> 
+      <td>sling:resourceType</td> 
+      <td>String</td> 
+      <td> granite/ui/components/coral/foundation/include<br /> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
    ![](assets/customfieldappearinginmainproperties.png)
 
@@ -614,30 +523,11 @@ Complete the following steps to display the custom property in the Correspondenc
     
     1. Add the following properties to the node and then click **Save All**.
 
-    <table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>jcr:primaryType</td> 
-   <td>Name</td> 
-   <td><p>nt:unstructured</p> </td> 
-  </tr> 
-  <tr> 
-   <td>jcr:title</td> 
-   <td>String</td> 
-   <td><p>GeographicalLocation</p> <p>This value appears as the column header in the UI. </p> </td> 
-  </tr> 
-  <tr> 
-   <td>sortable</td> 
-   <td>Boolean</td> 
-   <td><p>true</p> <p>A value of true signifies that the user can sort the values in this column. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+       |Name|Type|Value|
+       |--- |--- |--- |
+       |jcr:primaryType|Name|nt:unstructured|
+       |jcr:title|String|GeographicalLocation This value appears as the column header in the UI.|
+       |sortable|Boolean|true A value of true signifies that the user can sort the values in this column.|
 
 1. Create the following folder structure in the apps folder:
 
@@ -729,20 +619,9 @@ Complete the following steps to display the custom property in the Correspondenc
 
 1. (Optional) By default the new column appears as the last column in the UI. To make the column appear at a specific position, add the following property to the column node:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>sling:orderBefore</td> 
-   <td>String</td> 
-   <td><p>The name of the column node at path "/libs/fd/cm/ma/gui/content/cmassets/jcr:content/views/list/columns" before which custom column needs to appear on UI.</p> <p>Here, if you want Geographical Location column to appear before (to the left of) the Version column, add the property sling:orderBefore to GeoLocation node at path ""/apps/fd/cm/ma/gui/content/cmassets/jcr:content/views/list/columns/GeoLocation" and set the value of property to version.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   |Name|Type|Value|
+   |--- |--- |--- |
+   |sling:orderBefore|String|The name of the column node at path "`/libs/fd/cm/ma/gui/content/cmassets/jcr:content/views/list/columns`" before which custom column needs to appear on UI. Here, if you want Geographical Location column to appear before (to the left of) the Version column, add the property `sling:orderBefore` to GeoLocation node at path "`/apps/fd/cm/ma/gui/content/cmassets/jcr:content/views/list/columns/GeoLocation`" and set the value of property to version.|
 
    When you add the sling:orderBefore property to specify the column location, then you also need to update the order of the corresponding &lt;td&gt; tag specified in step 6.4 of this procedure. For example, in this case, you need to ensure that the &lt;td&gt; tag of Geographical Location is placed before &lt;td&gt; tag of Version column:
 
@@ -788,21 +667,9 @@ To allow indexing of custom properties, complete the following steps:
     1. Click the new node you have created (here include0). CRX displays the node's properties. 
     1. Add the following property to the node (here include0):
 
-    <table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>path</td> 
-   <td>String</td> 
-   <td>extendedProperties<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+       |Name|Type|Value|
+       |--- |--- |--- |
+       |path|String|extendedProperties|
     1. Click **Save All**.
 
 1. Go to properties at the following location and add a node location under it: `/oak:index/cmLucene/indexRules/cm:resource/properties`
@@ -859,20 +726,9 @@ To allow indexing of custom properties, complete the following steps:
 
 1. In the newly created node, list, add the following property and click **Save All**:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>sling:orderBefore<br /> </td> 
-   <td>String</td> 
-   <td>card</td> 
-  </tr> 
- </tbody> 
-</table>
+   |Name|Type|Value|
+   |---|---|---|
+   |sling:orderBefore|String|card|
 
 1. The customization shows search results in List view for all consoles, including Forms and Documents, Assets, and Sites.
 
@@ -905,20 +761,9 @@ To allow indexing of custom properties, complete the following steps:
 
 1. In the newly created node, list, add the following property and click **Save All**:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>sling:orderBefore<br /> </td> 
-   <td>String</td> 
-   <td>card</td> 
-  </tr> 
- </tbody> 
-</table>
+   |Name|Type|Value|
+   |---|---|---|
+   |sling:orderBefore|String|card|
 
 1. Clear the browser cookies or use the incognito mode of your browser to view the assets. The assets page, by default, appears in the card layout.
 
@@ -929,54 +774,20 @@ To show or hide the custom properties, complete the following steps:
 1. Under the custom property node, such as geographicallocation, create a new node with name "granite:rendercondition" of type "nt:unstructured."
 1. Add the following property to the node and click **Save All**:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>sling:resourceType<br /> </td> 
-   <td>String</td> 
-   <td>fd/cm/ma/gui/components/admin/assetsproperties/custompropertyconfig<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+   |Name|Type|Value|
+   |---|---|---|
+   |sling:resourceType|String|fd/cm/ma/gui/components/admin/assetsproperties/custompropertyconfig|
 
 1. To hide this property on the asset creation page, add the following property to it and click **Save All**: 
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>hideOnCreate<br /> </td> 
-   <td>Boolean</td> 
-   <td>true<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+   |Name|Type|Value|
+   |---|---|---|
+   |hideOnCreate|Boolean|true|
 
 1. To hide the custom property on the properties page of the assets, add the following property to it and click **Save All**:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>hideOnEdit<br /> </td> 
-   <td>Boolean</td> 
-   <td>true<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+   |Name|Type|Value|
+   |---|---|---|
+   |hideOnEdit|Boolean|true|
 
    To display the values again, either reset the property values to `false` or delete the property entries.
-
