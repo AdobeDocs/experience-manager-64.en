@@ -64,7 +64,7 @@ After you create the service client, you can invoke the PDF to XDP conversion op
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Convert PDF documents into XDP documents using the Java API {#convert-pdf-documents-into-xdp-documents-using-the-java-api}
 
@@ -88,7 +88,7 @@ Convert PDF documents into XDP documents by using the PDF Utilities API(Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Convert PDF documents into XDP documents using the web service API {#convert-pdf-documents-into-xdp-documents-using-the-web-service-api}
 
@@ -153,7 +153,7 @@ After you create the service client, you can invoke the XDP to PDF conversion op
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Convert XDP documents into PDF documents using the Java API {#convert-xdp-documents-into-pdf-documents-using-the-java-api}
 
@@ -177,7 +177,7 @@ Convert XDP documents into PDF documents by using the PDF Utilities API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Converting XDP documents into PDF documents using the web service API {#converting-xdp-documents-into-pdf-documents-using-the-web-service-api}
 
@@ -242,7 +242,7 @@ After you create the service client, you can invoke the properties retrieval ope
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Retrieve PDF document properties using the Java API {#retrieve-pdf-document-properties-using-the-java-api}
 
@@ -271,7 +271,7 @@ Retrieve PDF document properties by using the PDF Utilities API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Retrieve PDF document properties using the web service API {#retrieve-pdf-document-properties-using-the-web-service-api}
 
@@ -359,7 +359,7 @@ Once the PDF Utilities service sets the specified Save mode, pass the PDF docume
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Encrypting PDF Documents with a Password](/programming-with-aem-forms/encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password)
 
@@ -400,7 +400,7 @@ Set the PDF document save options by using the PDF Utilities API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Set PDF document save options using the web service API {#set-pdf-document-save-options-using-the-web-service-api}
 
@@ -480,7 +480,7 @@ After you create the service client, you can invoke the sanitization operation.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Sanitize PDF documents using the Java API {#sanitize-pdf-documents-using-the-java-api}
 
@@ -504,4 +504,4 @@ Sanitize documents by using the PDF Utilities API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)S
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)S

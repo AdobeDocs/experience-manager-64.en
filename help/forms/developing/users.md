@@ -147,7 +147,7 @@ You can verify that the user was added to ensure that no issues occurred. Locate
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Deleting Users](users.md#deleting_users)
 
@@ -200,7 +200,7 @@ Add users by using the Directory Manager Service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Add users using the web service API {#add-users-using-the-web-service-api}
 
@@ -301,7 +301,7 @@ To delete a user, invoke the `DirectoryManagerServiceClient` object’s `deleteL
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Adding Users](users.md#adding_users)
 
@@ -337,7 +337,7 @@ Delete users by using the Directory Manager Service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Delete users using the web service API {#delete-users-using-the-web-service-api}
 
@@ -435,7 +435,7 @@ After you create a group, you can perform an action using the group. For example
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Adding Users](users.md#adding_users)
 
@@ -483,7 +483,7 @@ Create a group by using the Directory Manager Service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Managing Users and Groups {#managing-users-and-groups}
 
@@ -528,7 +528,7 @@ Once you have created the service client, you can then invoke the user or group 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick.md#user_manager_java_api_quick_start_soap)
 
@@ -542,7 +542,7 @@ To programmatically manage users, groups, and domains using the (Java), perform 
 
 1. Create a DirectoryManagerService client.
 
-   Create a `DirectoryManagerServiceClient` object by using its constructor and passing a `ServiceClientFactory` object that contains connection properties. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)*.*
+   Create a `DirectoryManagerServiceClient` object by using its constructor and passing a `ServiceClientFactory` object that contains connection properties. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)*.*
 
 1. Invoke the appropriate user or group operations.
 
@@ -564,7 +564,7 @@ To programmatically manage users, groups, and domains using the (Java), perform 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Managing users and groups using the web service API {#managing-users-and-groups-using-the-web-service-api}
 
@@ -641,7 +641,7 @@ Once you have created the service client, you can then invoke the role or permis
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick.md#user_manager_java_api_quick_start_soap)
 
@@ -677,7 +677,7 @@ To manage roles and permissions using the Authorization Manager Service API (Jav
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Managing roles and permissions using the web service API {#managing-roles-and-permissions-using-the-web-service-api}
 
@@ -796,7 +796,7 @@ Once you have authenticated the user, you can create a context based in the auth
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick.md#user_manager_java_api_quick_start_soap)
 
@@ -931,7 +931,7 @@ After you programmatically perform a synchronization operation, you can detemine
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick.md#user_manager_java_api_quick_start_soap)
 
@@ -967,4 +967,4 @@ Synchronize users by using the User Management API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
