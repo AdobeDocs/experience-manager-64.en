@@ -673,7 +673,7 @@ When you first install Document Services, the Allowed Referrer list is updated w
 
 **Managing Allowed Referrer list**
 
-You can manage the Allowed Referrer list from the User Management Interface of Administration Console. The User Management Interface provides you with the functionality to create, edit, or delete the list. Refer to the * [Preventing CSRF attacks](#unresolvedlink-/xml/en-us/products/aemforms/6.1/adminhelp/lc-admin-config-user-mgmt-cu.xml#ws83e2a195e488af795a3f001a12fb77e5bcd-8000.2)* section of the *administration help* for more information on working with the Allowed Referrer list.
+You can manage the Allowed Referrer list from the User Management Interface of Administration Console. The User Management Interface provides you with the functionality to create, edit, or delete the list. Refer to the * [Preventing CSRF attacks](unresolvedlink-/xml/en-us/products/aemforms/6.1/adminhelp/lc-admin-config-user-mgmt-cu.xml#ws83e2a195e488af795a3f001a12fb77e5bcd-8000.2)* section of the *administration help* for more information on working with the Allowed Referrer list.
 
 **Managing Allowed Referrer Exception and Allowed URI lists**
 

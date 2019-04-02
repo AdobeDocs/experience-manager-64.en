@@ -209,9 +209,9 @@ Apply usage rights to a PDF document by using the Acrobat Reader DC Extensions A
 
 [Applying Usage Rights to PDF Documents](assigning-usage-rights.md#applying_usage_rights_to_pdf_documents)
 
-[Quick Start (MTOM): Applying usage rights using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0f.2)
+[Quick Start (MTOM): Applying usage rights using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0f.2)
 
-[Quick Start (SwaRef): Applying usage rights using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0e.2)
+[Quick Start (SwaRef): Applying usage rights using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0e.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -299,7 +299,7 @@ Remove usage rights from a rights-enabled PDF document by using the Acrobat Read
 
 [Removing Usage Rights from PDF Documents](assigning-usage-rights.md#removing_usage_rights_from_pdf_documents)
 
-[Quick Start (SOAP mode): Removing usage rights from a PDF document using the Java API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0b.2)
+[Quick Start (SOAP mode): Removing usage rights from a PDF document using the Java API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0b.2)
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
@@ -352,9 +352,9 @@ Remove usage rights from a rights-enabled PDF document by using the Acrobat Read
 
 [Removing Usage Rights from PDF Documents](assigning-usage-rights.md#removing_usage_rights_from_pdf_documents)
 
-[Quick Start (MTOM): Removing usage rights from a PDF document using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0a.2)
+[Quick Start (MTOM): Removing usage rights from a PDF document using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0a.2)
 
-[Quick Start (SwaRef): Removing usage rights from a PDF document using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d05.2)
+[Quick Start (SwaRef): Removing usage rights from a PDF document using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d05.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -438,7 +438,7 @@ Retrieve credential information by using the Acrobat Reader DC extensions API (J
 
 [Retrieving Credential Information](assigning-usage-rights.md#retrieving_credential_information)
 
-[Quick Start (SOAP mode): Retrieving credential information using the Java API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d02.2)
+[Quick Start (SOAP mode): Retrieving credential information using the Java API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d02.2)
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
@@ -488,9 +488,9 @@ Retrieve credential information using the Acrobat Reader DC extensions API (web 
 
 [Retrieving Credential Information](assigning-usage-rights.md#retrieving_credential_information)
 
-[Quick Start (MTOM): Retrieving credential information using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d01.2)
+[Quick Start (MTOM): Retrieving credential information using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d01.2)
 
-[Quick Start (SwaRef): Retrieving credential information using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d00.2)
+[Quick Start (SwaRef): Retrieving credential information using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d00.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 

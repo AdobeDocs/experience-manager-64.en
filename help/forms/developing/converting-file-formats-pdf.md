@@ -239,9 +239,9 @@ Convert a Microsoft Word document to a PDF document by using the Generate PDF AP
 
 [Summary of steps](converting-file-formats-pdf.md#summary_of_steps)
 
-[Quick Start (MTOM): Converting a Microsoft Word document to a PDF document using the web service API](#unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7de0.2)
+[Quick Start (MTOM): Converting a Microsoft Word document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7de0.2)
 
-[Quick Start (SwaRef): Converting a Microsoft Word document to a PDF document using the web service API](#unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd0.2)
+[Quick Start (SwaRef): Converting a Microsoft Word document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd0.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -334,7 +334,7 @@ Convert an HTML document to a PDF document using the Generate PDF API (Java):
 
 [Converting HTML Documents to PDF Documents](converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents)
 
-[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](#unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7ddb.2)
+[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7ddb.2)
 
 [Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/programming-with-aem-forms/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
 
@@ -393,9 +393,9 @@ Convert HTML content to a PDF document by using the Generate PDF API (web servic
 
 [Converting HTML Documents to PDF Documents](converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents)
 
-[Quick Start (MTOM): Converting an HTML document to a PDF document using the web service API](#unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd9.2)
+[Quick Start (MTOM): Converting an HTML document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd9.2)
 
-[Quick Start (SwaRef): Converting an HTML document to a PDF document using the web service API](#unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dcb.2)
+[Quick Start (SwaRef): Converting an HTML document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dcb.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -552,9 +552,9 @@ Convert a PDF document to an RTF file by using the Generate PDF API (web service
 
 [Summary of steps](converting-file-formats-pdf.md#summary_of_steps)
 
-[Quick Start (MTOM): Converting a PDF document to an RTF file using the web service API](#unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd6.2)
+[Quick Start (MTOM): Converting a PDF document to an RTF file using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd6.2)
 
-[Quick Start (SwaRef): Converting a PDF document to an RTF file using the web service API](#unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dc5.2)
+[Quick Start (SwaRef): Converting a PDF document to an RTF file using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dc5.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 

@@ -454,7 +454,7 @@ Add a Watched Folder endpoint by using the AEM Forms Java API:
 
 ### Watched folder configuration values constant file {#watched-folder-configuration-values-constant-file}
 
-The [QuickStart: Adding a Watched Folder endpoint using the Java API](/programming-with-aem-forms/endpoint-registry-java-api-quick.md#quickstart_adding_a_watched_folder_endpoint_using_the_java_api) uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding a Watched Folder endpoint. The following Java code represents the constant file. For information about these configuration values, see [Specify configuration values](#unresolvedlink-lc-ep-add-watched-folder-endpoints-aw.xml#ws624e3cba99b79e12e69a9941333732bac8-6f85.2).
+The [QuickStart: Adding a Watched Folder endpoint using the Java API](/programming-with-aem-forms/endpoint-registry-java-api-quick.md#quickstart_adding_a_watched_folder_endpoint_using_the_java_api) uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding a Watched Folder endpoint. The following Java code represents the constant file. For information about these configuration values, see [Specify configuration values](unresolvedlink-lc-ep-add-watched-folder-endpoints-aw.xml#ws624e3cba99b79e12e69a9941333732bac8-6f85.2).
 
 ```as3
  /** 
@@ -699,7 +699,7 @@ Add an Email endpoint by using the Java API:
 
 ### Email configuration values constant file {#email-configuration-values-constant-file}
 
-The [QuickStart: Adding an Email endpoint using the Java API](/programming-with-aem-forms/endpoint-registry-java-api-quick.md#quickstart_adding_an_email_endpoint_using_the_java_api) uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding an email endpoint. The following Java code represents the constant file. For information about these configuration values, see [Specify configuration values](#unresolvedlink-lc-ep-add-email-endpoints-ae.xml#ws624e3cba99b79e12e69a9941333732bac8-6f73.2).
+The [QuickStart: Adding an Email endpoint using the Java API](/programming-with-aem-forms/endpoint-registry-java-api-quick.md#quickstart_adding_an_email_endpoint_using_the_java_api) uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding an email endpoint. The following Java code represents the constant file. For information about these configuration values, see [Specify configuration values](unresolvedlink-lc-ep-add-email-endpoints-ae.xml#ws624e3cba99b79e12e69a9941333732bac8-6f73.2).
 
 ```as3
  /** 
@@ -1127,7 +1127,7 @@ After you create a new endpoint, you must enable it. When the endpoint is enable
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Setting the EJB connection mode](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-6f3d.2)
+[Setting the EJB connection mode](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-6f3d.2)
 
 ### Removing an endpoint using the Java API {#removing-an-endpoint-using-the-java-api}
 

@@ -212,7 +212,7 @@ To programmatically import XMP metadata using the XMP Utilities web service API,
 
 [Importing Metadata into PDF Documents](xmp-utilities.md#importing_metadata_into_pdf_documents)
 
-[Quick Start (Base64): Importing XMP metadata using the web service API](#unresolvedlink-lc-qs-xmp-utilities-xu.xml#ws624e3cba99b79e12e69a9941333732bac8-7be8.2)
+[Quick Start (Base64): Importing XMP metadata using the web service API](unresolvedlink-lc-qs-xmp-utilities-xu.xml#ws624e3cba99b79e12e69a9941333732bac8-7be8.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 

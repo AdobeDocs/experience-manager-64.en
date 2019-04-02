@@ -111,7 +111,7 @@ Convert PDF documents into XDP documents by using the PDF Utilities API (web ser
 
 [Converting PDF Documents into XDP Documents](pdf-utilities.md#converting_pdf_documents_into_xdp_documents)
 
-[Quick Start (Base64): Converting a PDF document to an XDP document using the web service API](#unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2c.2)
+[Quick Start (Base64): Converting a PDF document to an XDP document using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2c.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -200,7 +200,7 @@ Convert XDP documents into PDF documents by using the PDF Utilities API (web ser
 
 [Converting XDP Documents into PDF Documents](pdf-utilities.md#converting_xdp_documents_into_pdf_documents)
 
-[Quick Start (Base64): Converting an XDP document to a PDF document using the web service API](#unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2f.2)
+[Quick Start (Base64): Converting an XDP document to a PDF document using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2f.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -299,7 +299,7 @@ Retrieve PDF document properties by using the PDF Utilities web service API:
 
 [Retrieving PDF Document Properties](pdf-utilities.md#retrieving_pdf_document_properties)
 
-[Quick Start (Base64): Retrieving PDF document properties using the web service API](#unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2b.2)
+[Quick Start (Base64): Retrieving PDF document properties using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2b.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -438,7 +438,7 @@ Set the PDF document save options by using the PDF Utilities AP (web service):
 
 [Setting PDF Document Save Modes](pdf-utilities.md#setting_pdf_document_save_modes)
 
-[Quick Start (Base64): Setting the save style for a PDF document using the web service API](#unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2a.2)
+[Quick Start (Base64): Setting the save style for a PDF document using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2a.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 

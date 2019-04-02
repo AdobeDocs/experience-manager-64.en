@@ -61,7 +61,7 @@ When this short-lived process is invoked, it performs the following actions:
     * [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref) (web service example)
     * [Invoking AEM Forms using BLOB data over HTTP](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_blob_data_over_http) (web service example)
     * [Invoking AEM Forms using DIME](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_dime) (web service example)
-    * [Invoking the MyApplication/EncryptDocument process using REST](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b5e.2)
+    * [Invoking the MyApplication/EncryptDocument process using REST](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b5e.2)
 
 **Long-lived process example**
 

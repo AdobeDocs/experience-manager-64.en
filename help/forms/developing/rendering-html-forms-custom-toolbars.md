@@ -190,11 +190,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Rendering an HTML Form with a custom toolbar using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars.md#rendering_an_html_form_with_a_custom_toolbar_using_the_web_service_api)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Forms Service API Quick Starts](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
 [Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
 
@@ -254,11 +254,11 @@ Render an HTML Form that contains a custom toolbar by using the Forms Service AP
 
 [Rendering HTML Forms with Custom Toolbars](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering_html_forms_with_custom_toolbars)
 
-[Quick Start (SOAP mode): Rendering an HTML Form with a custom toolbar using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e33.2)
+[Quick Start (SOAP mode): Rendering an HTML Form with a custom toolbar using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e33.2)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 ### Rendering an HTML Form with a custom toolbar using the web service API {#rendering-an-html-form-with-a-custom-toolbar-using-the-web-service-api}
 
@@ -318,6 +318,6 @@ Render an HTML form that contains a custom toolbar by using the Forms Service AP
 
 [Rendering HTML Forms with Custom Toolbars](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering_html_forms_with_custom_toolbars)
 
-[Quick Start (Base64): Rendering an HTML Form with a custom toolbar using the web service API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2f.2)
+[Quick Start (Base64): Rendering an HTML Form with a custom toolbar using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2f.2)
 
-[Invoking AEM Forms using Base64 encoding](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)
+[Invoking AEM Forms using Base64 encoding](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)

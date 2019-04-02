@@ -196,7 +196,7 @@ Add users by using the Directory Manager Service API (Java):
 
 [Summary of steps](users.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Adding users using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdc.2)
+[Quick Start (SOAP mode): Adding users using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdc.2)
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
@@ -256,9 +256,9 @@ Add users by using the Directory Manager Service API (web service):
 
 [Summary of steps](users.md#summary_of_steps)
 
-[Quick Start (MTOM): Adding users using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdb.2)
+[Quick Start (MTOM): Adding users using the web service API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdb.2)
 
-[Quick Start (SwaRef): Adding users using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bda.2)
+[Quick Start (SwaRef): Adding users using the web service API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bda.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -333,7 +333,7 @@ Delete users by using the Directory Manager Service API (Java):
 
 [Quick Start (EJB mode): Deleting users using the Java API](/programming-with-aem-forms/user-manager-java-api-quick.md#quick_start_soap_mode_deleting_users_using_the_java_api)
 
-[Quick Start (SOAP mode): Deleting users using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd7.2)
+[Quick Start (SOAP mode): Deleting users using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd7.2)
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
@@ -374,9 +374,9 @@ Delete users by using the Directory Manager Service API (web service):
 
 [Summary of steps](users.md#summary_of_steps)
 
-[Quick Start (MTOM): Deleting users using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd0.2)
+[Quick Start (MTOM): Deleting users using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd0.2)
 
-[Quick Start (SwaRef): Deleting users using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bcd.2)
+[Quick Start (SwaRef): Deleting users using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bcd.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -560,7 +560,7 @@ To programmatically manage users, groups, and domains using the (Java), perform 
 
 [Summary of steps](users.md#summary_of_steps)
 
-[Quick Start (SOAP): Managing users and groups using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bc7.2)
+[Quick Start (SOAP): Managing users and groups using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bc7.2)
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
@@ -599,7 +599,7 @@ To programmatically manage users, groups, and domains using the Directory Manage
 
 [Summary of steps](users.md#summary_of_steps)
 
-[Quick Start (MTOM): Managing users and groups using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7251.2)
+[Quick Start (MTOM): Managing users and groups using the web service API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7251.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -673,7 +673,7 @@ To manage roles and permissions using the Authorization Manager Service API (Jav
 
 [Summary of steps](users.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Managing roles and permissions using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbe.2)
+[Quick Start (SOAP mode): Managing roles and permissions using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbe.2)
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
@@ -720,7 +720,7 @@ Manage roles and permissions by using the Authorization Manager Service API (web
 
 [Summary of steps](users.md#summary_of_steps)
 
-[Quick Start (MTOM): Managing roles and permissions using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbd.2)
+[Quick Start (MTOM): Managing roles and permissions using the web service API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbd.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -852,9 +852,9 @@ Authenticate a user using the Authentication Manager Service API (web service):
 
 **See also**
 
-[Quick Start (MTOM): Removing a digital signature using the web service API](#unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c07.2)
+[Quick Start (MTOM): Removing a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c07.2)
 
-[Quick Start (SwaRef): Removing a digital signature using the web service API](#unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c06.2)
+[Quick Start (SwaRef): Removing a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c06.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 

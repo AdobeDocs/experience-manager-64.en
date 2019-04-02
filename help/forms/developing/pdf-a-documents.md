@@ -189,7 +189,7 @@ Convert a PDF document to a PDF/A document by using the DocConverter API (web se
 
 [Working with PDF/A Documents](pdf-a-documents.md#working_with_pdf_a_documents)
 
-[Quick Start (Base64): Converting a document to a PDF/A document using the web service API](#unresolvedlink-lc-qs-doc-converter-dc.xml#ws624e3cba99b79e12e69a9941333732bac8-7efc.2)
+[Quick Start (Base64): Converting a document to a PDF/A document using the web service API](unresolvedlink-lc-qs-doc-converter-dc.xml#ws624e3cba99b79e12e69a9941333732bac8-7efc.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -337,7 +337,7 @@ Determine PDF/A compliancy by using the web service API:
 
 [Working with PDF/A Documents](pdf-a-documents.md#working_with_pdf_a_documents)
 
-[Quick Start (Base64): Determining PDF/A compliancy using the web service API](#unresolvedlink-lc-qs-doc-converter-dc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ef9.2)
+[Quick Start (Base64): Determining PDF/A compliancy using the web service API](unresolvedlink-lc-qs-doc-converter-dc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ef9.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 

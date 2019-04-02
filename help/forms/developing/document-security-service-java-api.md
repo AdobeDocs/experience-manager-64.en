@@ -17,11 +17,11 @@ Java API Quick Start(SOAP) is available for the Rights Management service:
 
 [Quick Start (SOAP mode): Creating a policy using the Java API](document-security-service-java-api.md#quick_start_soap_mode_creating_a_policy_using_the_java_api)
 
-[Quick Start (SOAP mode): Modifying a policy using the Java API](#unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc0.2)
+[Quick Start (SOAP mode): Modifying a policy using the Java API](unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc0.2)
 
 [Quick Start (SOAP mode): Deleting a policy using the Java API](document-security-service-java-api.md#quick_start_soap_mode_deleting_a_policy_using_the_java_api)
 
-[Quick Start (SOAP mode): Applying a policy to a PDF document using the Java API](#unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7c9d.2)
+[Quick Start (SOAP mode): Applying a policy to a PDF document using the Java API](unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7c9d.2)
 
 [Quick Start (SOAP mode): Removing a policy from a PDF document using the Java API](document-security-service-java-api.md#quick_start_soap_mode_removing_a_policy_from_a_pdf_document_using_the_java_api)
 
@@ -37,7 +37,7 @@ Java API Quick Start(SOAP) is available for the Rights Management service:
 
 [Quick Start (SOAP mode): Searching for events using the Java API](document-security-service-java-api.md#quick_start_soap_mode_searching_for_events_using_the_java_api)
 
-[Quick Start (SOAP mode): Applying a policy to a Word document using the Java API](#unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7c70.2)
+[Quick Start (SOAP mode): Applying a policy to a Word document using the Java API](unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7c70.2)
 
 [Quick Start (SOAP mode): Removing a policy from a Word document using the Java API](document-security-service-java-api.md#quick_start_soap_mode_removing_a_policy_from_a_word_document_using_the_java_api)
 

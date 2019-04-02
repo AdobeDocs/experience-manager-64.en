@@ -146,7 +146,7 @@ You must specify the Application name and the Process name within the WSDL defin
 
 >[!NOTE]
 >
->For information about the example `MyApplication/EncryptDocument` short-lived process, see [Short lived process example](#unresolvedlink-lc-in-invoke-using-apis-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b77.2).
+>For information about the example `MyApplication/EncryptDocument` short-lived process, see [Short lived process example](unresolvedlink-lc-in-invoke-using-apis-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b77.2).
 
 >[!NOTE]
 >
@@ -708,7 +708,7 @@ You can invoke an AEM Forms service using Java proxy classes and Base64. To invo
 1. Retrieve the PDF document to send to the `MyApplication/EncryptDocument` process by creating a `java.io.FileInputStream` object by using its constructor. Pass a string value that specifies the location of the PDF document. 
 1. Create a byte array and populate it with the contents of the `java.io.FileInputStream` object.
 1. Create a `BLOB` object by using its constructor. 
-1. Populate the `BLOB` object by invoking its `setBinaryData` method and passing the byte array. The `BLOB` object’s `setBinaryData` is the method to call when using Base64 encoding. (See [Supplying BLOB objects in service requests](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b0c.2).)
+1. Populate the `BLOB` object by invoking its `setBinaryData` method and passing the byte array. The `BLOB` object’s `setBinaryData` is the method to call when using Base64 encoding. (See [Supplying BLOB objects in service requests](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b0c.2).)
 1. Invoke the `MyApplication/EncryptDocument` process by invoking the `MyApplicationEncryptDocument` object’s `invoke` method. Pass the `BLOB` object that contains the PDF document. The invoke method returns a `BLOB` object that contains the encrypted PDF document. 
 1. Create a byte array that contains the encrypted PDF document by invoking the `BLOB` object’s `getBinaryData` method. 
 1. Save the encrypted PDF document as a PDF file. Write the byte array to a file.

@@ -15,7 +15,7 @@ discoiquuid: df7b60bb-4897-479e-a05e-1b1e9429ed87
 
 Processes created in Workbench can be configured so that you can invoke them through Representational State Transfer (REST) requests. REST requests are sent from HTML pages. That is, you can invoke a Forms process directly from a web page using a REST request. For example, you can open a new instance of a web page. Then you can invoke a Forms process and load a rendered PDF document with data that was sent in an HTTP POST request.
 
-Two types of HTML clients exist. The first HTML client is an AJAX client that is written in JavaScript. The second client is an HTML form that contains a submit button. An HTML-based client application is not the only possible REST client. Any client application that supports HTTP requests can invoke a service using a REST invocation. For example, you can invoke a service by using a REST invocation from a PDF form. (See [Invoking the MyApplication/EncryptDocument process from Acrobat](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ad5.2).)
+Two types of HTML clients exist. The first HTML client is an AJAX client that is written in JavaScript. The second client is an HTML form that contains a submit button. An HTML-based client application is not the only possible REST client. Any client application that supports HTTP requests can invoke a service using a REST invocation. For example, you can invoke a service by using a REST invocation from a PDF form. (See [Invoking the MyApplication/EncryptDocument process from Acrobat](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ad5.2).)
 
 When using REST requests, it is recommended that you do not invoke Forms services directly. Instead, invoke processes that were created in Workbench. When creating a process that is meant for REST invocation, use a programmatic start point. In this situation, the REST endpoint is added automatically. For information about creating processes in Workbench, see [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).
 
@@ -148,7 +148,7 @@ To create a policy, you have to define complex data types such as a `PolicyEntry
 
 Instead of sending a REST request to create a policy (which would include defining complex data types such as a `PolicyEntry` object), create a process that creates a policy using Workbench. Define the process to accept primitive input variables such as a string value that defines the process name or an integer that defines the offline lease period.
 
-This way, you do not have to create a REST invocation request that includes complex data types that required by the operation. The process defines the complex data types and all you do from the REST client is invoke the process and pass primitive data types. For information about invoking a process using REST, see [Invoking the MyApplication/EncryptDocument process using REST](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b5e.2).
+This way, you do not have to create a REST invocation request that includes complex data types that required by the operation. The process defines the complex data types and all you do from the REST client is invoke the process and pass primitive data types. For information about invoking a process using REST, see [Invoking the MyApplication/EncryptDocument process using REST](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b5e.2).
 
 The following lists specifies those AEM Forms services that support direct REST invocation.
 
@@ -162,13 +162,13 @@ The following lists specifies those AEM Forms services that support direct REST 
 
 The following REST invocation examples are provided:
 
-* [Passing Boolean values to an AEM Forms process](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ade.2)
-* [Passing date values to an AEM Forms process](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7add.2)
-* [Passing documents to an AEM Forms process](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7adc.2)
-* [Passing document and text values to an AEM Forms process](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7adb.2)
-* [Passing enumeration values to an AEM Forms process](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ada.2)
-* [Invoking the MyApplication/EncryptDocument process using REST](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b5e.2)
-* [Invoking the MyApplication/EncryptDocument process from Acrobat](#unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ad5.2)
+* [Passing Boolean values to an AEM Forms process](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ade.2)
+* [Passing date values to an AEM Forms process](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7add.2)
+* [Passing documents to an AEM Forms process](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7adc.2)
+* [Passing document and text values to an AEM Forms process](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7adb.2)
+* [Passing enumeration values to an AEM Forms process](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ada.2)
+* [Invoking the MyApplication/EncryptDocument process using REST](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b5e.2)
+* [Invoking the MyApplication/EncryptDocument process from Acrobat](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ad5.2)
 
   Each example demonstrates passing different data types to an AEM Forms process
 

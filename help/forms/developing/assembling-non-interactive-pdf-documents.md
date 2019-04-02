@@ -106,9 +106,9 @@ If only a single PDF document is passed to the Assembler service, the Assembler 
 
 [Assemble a non-interactive PDF document using the web service API](/programming-with-aem-forms/assembling-non-interactive-pdf-documents assembling-non-interactive-pdf-documents.md#assemble_a_non_interactive_pdf_document_using_the_web_service_api)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
@@ -155,7 +155,7 @@ Assemble a non-interactive PDF document by using the Assembler Service API (Java
     * Create a `java.io.File` object and ensure that the file name extension is .pdf.
     * Invoke the `Document` object’s `copyToFile` method to copy the contents of the `Document` object to the file. Ensure that you use the `Document` object that the `invokeOneDocument` method returned.
 
-For code examples, see these Assembler Service Quick Starts in * [API Quick Starts (Code Examples)](#unresolvedlink-lc-qs-intro-in.xml#ws624e3cba99b79e12-171c1d181336a34f42f-8000.2)*:
+For code examples, see these Assembler Service Quick Starts in * [API Quick Starts (Code Examples)](unresolvedlink-lc-qs-intro-in.xml#ws624e3cba99b79e12-171c1d181336a34f42f-8000.2)*:
 
 * “Quick Start (SOAP mode): Assembling a non-interactive PDF document using the Java API”
 
@@ -222,7 +222,7 @@ Assemble a non-interactive PDF document by using the Assembler Service API (web 
     * Create a `System.IO.BinaryWriter` object by invoking its constructor and passing the `System.IO.FileStream` object.
     * Write the contents of the byte array to a PDF file by invoking the `System.IO.BinaryWriter` object’s `Write` method and passing the byte array.
 
-For code examples, see this Assembler Service Quick Start in * [API Quick Starts (Code Examples)](#unresolvedlink-lc-qs-intro-in.xml#ws624e3cba99b79e12-171c1d181336a34f42f-8000.2)*:
+For code examples, see this Assembler Service Quick Start in * [API Quick Starts (Code Examples)](unresolvedlink-lc-qs-intro-in.xml#ws624e3cba99b79e12-171c1d181336a34f42f-8000.2)*:
 
 * “Quick Start (MTOM): Assembling a non-interactive PDF document using the web service API”.
 
@@ -230,4 +230,4 @@ For code examples, see this Assembler Service Quick Start in * [API Quick Starts
 
 [Assembling Non-Interactive PDF Documents](/programming-with-aem-forms/assembling-non-interactive-pdf-documents assembling-non-interactive-pdf-documents.md#assembling_non_interactive_pdf_documents)
 
-[Invoking AEM Forms using MTOM](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)

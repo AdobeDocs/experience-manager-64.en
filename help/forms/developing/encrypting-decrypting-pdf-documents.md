@@ -221,9 +221,9 @@ Encrypt a PDF document with a password by using the Encryption API (web service)
 
 [Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (MTOM): Encrypting a PDF document using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e9c.2)
+[Quick Start (MTOM): Encrypting a PDF document using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e9c.2)
 
-[Quick Start (Java SwaRef): Encrypting a PDF document using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e9b.2)
+[Quick Start (Java SwaRef): Encrypting a PDF document using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e9b.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -452,9 +452,9 @@ Encrypt a PDF document with a certificate by using the Encryption API (web servi
 
 [Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (MTOM): Encrypting a PDF document with a certificate using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e92.2)
+[Quick Start (MTOM): Encrypting a PDF document with a certificate using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e92.2)
 
-[Quick Start (Java SwaRef): Encrypting a PDF document with a certificate using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e91.2)
+[Quick Start (Java SwaRef): Encrypting a PDF document with a certificate using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e91.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -617,9 +617,9 @@ Remove certificate-based encryption by using the Encryption API (web service):
 
 [Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (MTOM): Removing certificate-based encryption using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e8d.2)
+[Quick Start (MTOM): Removing certificate-based encryption using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e8d.2)
 
-[Quick Start (Java SWAref): Removing certificate-based encryption using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e8c.2)
+[Quick Start (Java SWAref): Removing certificate-based encryption using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e8c.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -768,9 +768,9 @@ Remove password-based encryption by using the Encryption API (web service):
 
 **See also**
 
-[Quick Start (MTOM): Removing password-based encryption using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e97.2)
+[Quick Start (MTOM): Removing password-based encryption using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e97.2)
 
-[Quick Start (Java SWAref): Removing password-based encryption using web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e96.2)
+[Quick Start (Java SWAref): Removing password-based encryption using web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e96.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -943,9 +943,9 @@ Unlock an encrypted PDF document by using the Encryption API (web service):
 
 [Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (MTOM): Unlocking an encrypted PDF document using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e88.2)
+[Quick Start (MTOM): Unlocking an encrypted PDF document using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e88.2)
 
-[Quick Start (Java SwaRef): Unlocking an encrypted PDF document using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e87.2)
+[Quick Start (Java SwaRef): Unlocking an encrypted PDF document using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e87.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
@@ -1088,9 +1088,9 @@ Determine the type of encryption that is protecting a PDF document by using the 
 
 [Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (MTOM): Determining encryption type using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e83.2)
+[Quick Start (MTOM): Determining encryption type using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e83.2)
 
-[Quick Start (Java SWAref): Determining encryption type using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e82.2)
+[Quick Start (Java SWAref): Determining encryption type using the web service API](unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e82.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
