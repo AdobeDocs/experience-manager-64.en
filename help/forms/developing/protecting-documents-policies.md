@@ -255,7 +255,7 @@ Create a policy by using the Document Security API (Java):
    >
    >When creating a policy, reference an existing policy set. If you specify a policy set that does not exist, then an exception is thrown.
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/programming-with-aem-forms/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in *[API Quick Starts (Code Examples)](programming-with-aem-forms.md#java_api_soap_quick_start_code_examples)*:
 
 * “Quick Start (SOAP mode): Creating a policy using the Java API”
 
@@ -2135,13 +2135,13 @@ You must retrieve a policy-protected Word document in order to remove a policy. 
 
 You can remove a policy from a policy-protected Word document provided that an administrator is specified in the connection settings. If not, then the policy used to secure a document must contain the `SWITCH_POLICY` permission in order to remove a policy from a Word document. Also, the user specified in the AEM Forms connection settings must also have that permission. Otherwise, an exception is thrown.
 
-**Save the unsecured Word document **
+**Save the unsecured Word document**
 
 After the Document Security service removes a policy from a Word document, you can save the unsecured Word document as a DOC file.
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+<!--BROKEN [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)-->
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 

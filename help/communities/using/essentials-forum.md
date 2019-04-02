@@ -50,9 +50,9 @@ This page provides the essential information for working with the forum feature.
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Forum API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/forum/client/api/package-summary.md)
+* [Forum API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/forum/client/api/package-summary.md)
 
-* [Forum Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/forum/client/endpoints/package-summary.md)
+* [Forum Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/forum/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

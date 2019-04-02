@@ -26,15 +26,15 @@ The text document fragment in Interactive Communication supports the following t
 
 ## Create text {#createtext}
 
-1. Select **[!UICONTROL Forms]** > **[!UICONTROL Document Fragments]**. 
-1. Select **[!UICONTROL Create]** > **[!UICONTROL Text]**. 
+1. Select **`[!UICONTROL Forms]`** > **[!UICONTROL Document Fragments]**. 
+1. Select **`[!UICONTROL Create]`** > **[!UICONTROL Text]**. 
 1. Specify the following information:
 
     * **[!UICONTROL Title]**: (Optional) Enter the title for the text document fragment. Titles need not be unique and can have special characters and non-English characters. Texts are referred by their titles (when available) such as in thumbnails and properties. 
     * **[!UICONTROL Name]**: The unique name for the text, within a folder. No two document fragments (text, condition, or list) in any state can exist with the same name in a folder. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
     
     * **[!UICONTROL Description]**: Type a description of the text.
-    * **[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the text based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]** field appears. Browse and select a form data model. While creating text and condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on Form Data Model, see [Data Integration](../../forms/using/data-integration.md). 
+    * **`[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the text based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]`** field appears. Browse and select a form data model. While creating text and condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on Form Data Model, see [Data Integration](../../forms/using/data-integration.md). 
     
     * **[!UICONTROL Tags]**: Optionally, to create custom tag enter value in text field and press Enter. When you save this text, the newly added tags get created.
 
@@ -49,8 +49,7 @@ The text document fragment in Interactive Communication supports the following t
     * [Rule editor](#rules)
     * [Formatting options](#formatting)
 
-        * [Copy paste formatted text from other applications](#paste)  
-        
+        * [Copy paste formatted text from other applications](#paste)
         * [Highlight parts of text](#highlight)
 
     * [Repeat](../../forms/using/cm-inline-condition.md)
@@ -66,7 +65,7 @@ The text document fragment in Interactive Communication supports the following t
 
 You can edit an existing text document fragment using the following steps. You can also choose to edit a text document fragment from within an Interactive Communication editor.
 
-1. Select **[!UICONTROL Forms]** > **[!UICONTROL Document Fragments]**. 
+1. Select **`[!UICONTROL Forms]`** > **[!UICONTROL Document Fragments]**. 
 1. Navigate to a text document fragment and select it. 
 1. Tap **[!UICONTROL Edit]**. 
 1. Make the required changes. For more information on options in text, see [Create text](#createtext). 
@@ -80,9 +79,9 @@ If you have specified a form data model while creating a text, the properties in
 
 ![](assets/insertfdmelementtext.png)
 
-* To insert an FDM property into text, place the cursor where you want to insert the property, then select the **[A]** property in the left pane by tapping on it, and tap **[B]** **[!UICONTROL Add Selected]**. You can also just double-tap the property to insert it at the **[C]** cursor position. Form data model properties are highlighted in a brownish background color. 
+* To insert an FDM property into text, place the cursor where you want to insert the property, then select the **`[A]`** property in the left pane by tapping on it, and tap **`[B]`** **[!UICONTROL Add Selected]**. You can also just double-tap the property to insert it at the **`[C]`** cursor position. Form data model properties are highlighted in a brownish background color. 
 
-* To allow the agents to edit an FDM property's value in the agent UI while [Prepare and send Interactive Communication](../../forms/using/prepare-send-interactive-communication.md) using the Agent UI, tap the **[D]** lock icon for that property and ensure it is in an unlocked state. The default state of the property is locked and an agent cannot edit the property in the Agent UI. 
+* To allow the agents to edit an FDM property's value in the agent UI while [Prepare and send Interactive Communication](../../forms/using/prepare-send-interactive-communication.md) using the Agent UI, tap the **`[D]`** lock icon for that property and ensure it is in an unlocked state. The default state of the property is locked and an agent cannot edit the property in the Agent UI. 
 
 *
 
@@ -117,7 +116,7 @@ While creating or editing a text document fragment, you can create and insert va
     * **[!UICONTROL Name*]**: Name of the variable.
     * **[!UICONTROL Description]**: Optionally enter a description about the variable. 
     * **[!UICONTROL Type*]**: Select a type of the variable: String, Number, Boolean, or Date. 
-    * **[!UICONTROL Allow Specific Values Only]**: For String and Number variables, you can ensure that the agent chooses from a specific set of values for a placeholder in the Agent UI. To specify the set of values, select this option and then specify comma-separated values that are allowed in the **[!UICONTROL Values*]** field.
+    * **`[!UICONTROL Allow Specific Values Only]**: For String and Number variables, you can ensure that the agent chooses from a specific set of values for a placeholder in the Agent UI. To specify the set of values, select this option and then specify comma-separated values that are allowed in the **[!UICONTROL Values*]`** field.
 
 1. Tap **[!UICONTROL Create]**.
 
@@ -157,7 +156,9 @@ Using rule editor in a text, you can create rules to display or hide strings of 
 
    Select the appropriate option to be evaluated. 
 
-   ![](assets/ruleeditor.png) ![](assets/ruleeditorfdm.png)
+   ![](assets/ruleeditor.png)
+   
+   ![](assets/ruleeditorfdm.png)
 
    >[!NOTE]
    >
@@ -206,13 +207,13 @@ Listing toolbar
 
 ### Highlight/Emphasize parts of text {#highlight}
 
-To highlight\emphasize parts of text in an editable document fragment, select the text and tap Highlight Color.
+To highlight or emphasize parts of text in an editable document fragment, select the text and tap Highlight Color.
 
 ![](assets/textbackgroundcolorapplied-1.png)
 
-You can either directly tap a basic color **[A]** present in the Basic Colors palette or tap **Select** after using the slider **[B]** to choose the appropriate shade of the color.
+You can either directly tap a basic color **`[A]`** present in the Basic Colors palette or tap **Select** after using the slider **`[B]`** to choose the appropriate shade of the color.
 
-Optionally, you can also go to the Advanced tab to select the appropriate Hue, Lightness, and Saturation **[C]** to create the precise color and then tap Select **[D]** to apply the color to highlight the text. 
+Optionally, you can also go to the Advanced tab to select the appropriate Hue, Lightness, and Saturation **`[C]`** to create the precise color and then tap Select **`[D]`** to apply the color to highlight the text. 
 
 ![](assets/textbackgroundcolor-2.png) 
 
@@ -253,14 +254,14 @@ The Find and Replace feature allows you to search for (and replace) any string o
 1. Open a text document fragment for [editing](#edittext). 
 1. Tap **[!UICONTROL Find & Replace]**.  
 
-1. Enter the text to search in the **[!UICONTROL Find]** text box and the new text (replacement text) in the **[!UICONTROL Replace]** text box and tap **[!UICONTROL Replace]**.  
+1. Enter the text to search in the **`[!UICONTROL Find]`** text box and the new text (replacement text) in the **`[!UICONTROL Replace]`** text box and tap **[!UICONTROL Replace]**.  
 
 1. If the searched text is found, the text is replaced by the replacement text.
 
-    * If another instance of the search text is found, that instance is highlighted in the text document fragment. If you tap **[!UICONTROL Replace]** again, the highlighted instance is replaced and the cursor moves forward, if a third instance is found.
+    * If another instance of the search text is found, that instance is highlighted in the text document fragment. If you tap **`[!UICONTROL Replace]`** again, the highlighted instance is replaced and the cursor moves forward, if a third instance is found.
     * If another instance is not found, the Find & Replace dialog displays a message: Reached end of module.
 
    You can also tap Replace all to replace all the matches in a one go.
 
-   Find & Replace also includes a powerful regular expression search. To use regex in your search, select **[!UICONTROL Reg ex]** and then tap **[!UICONTROL Find]** or **[!UICONTROL Replace]**. **[!UICONTROL]**
+   Find & Replace also includes a powerful regular expression search. To use regex in your search, select **`[!UICONTROL Reg ex]`** and then tap **`[!UICONTROL Find]`** or **[!UICONTROL Replace]**. **[!UICONTROL]**
 

@@ -90,11 +90,11 @@ See also [Client-side Customizations](../../communities/using/client-customize.m
 
 * [Configuring Messaging](../../communities/using/configure-messaging.md)
 
-* [Messaging client APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/api/package-summary.md) for SCF components
+* [Messaging client APIs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/api/package-summary.md) for SCF components
 
-* [Messaging APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/api/package-summary.md) for the service
+* [Messaging APIs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/api/package-summary.md) for the service
 
-* [Messaging Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/endpoints/package-summary.md)
+* [Messaging Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

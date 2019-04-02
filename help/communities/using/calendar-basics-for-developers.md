@@ -51,9 +51,9 @@ This page provides essential information on working with the calendar feature.
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Calendar APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/api/package-summary.md)
+* [Calendar APIs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/api/package-summary.md)
 
-* [Calendar Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/endpoints/package-summary.md)
+* [Calendar Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
