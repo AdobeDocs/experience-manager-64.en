@@ -25,7 +25,7 @@ Java API Quick Start(SOAP) is available for the User Manager API.
 
 [Quick Start (SOAP mode): Managing roles and permissions using the Java API](user-manager-java-api-quick.md#quick_start_soap_mode_managing_roles_and_permissions_using_the_java_api)
 
-[Quick Start(SOAP mode): Authenticating a user using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbb.2)
+[Quick Start(SOAP mode): Authenticating a user using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbb.2)
 
 [Quick Start (SOAP mode): Programmatically synchronizing users using the Java API](user-manager-java-api-quick.md#quick_start_soap_mode_programmatically_synchronizing_users_using_the_java_api)
 

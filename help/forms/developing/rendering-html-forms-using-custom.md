@@ -74,11 +74,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Render an HTML form that uses a CSS file using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-using-custom rendering-html-forms-using-custom.md#render_an_html_form_that_uses_a_css_file_using_the_java_api)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Forms Service API Quick Starts](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
 [Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
 
@@ -132,11 +132,11 @@ Render an HTML form that uses a custom CSS file by using the Forms API (Java):
 
 [Rendering HTML Forms Using Custom CSS Files](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-using-custom.md#rendering_html_forms_using_custom_css_files)
 
-[Quick Start (SOAP mode): Rendering an HTML form that uses a CSS file using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7a03.2)
+[Quick Start (SOAP mode): Rendering an HTML form that uses a CSS file using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7a03.2)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 ### Render an HTML form that uses a CSS file using the web service API {#render-an-html-form-that-uses-a-css-file-using-the-web-service-api}
 
@@ -165,8 +165,8 @@ Render an HTML form that uses a custom CSS file by using the Forms API (web serv
     * A `BLOB` object that contains data to merge with the form. If you do not want to merge data, pass `null`. (See [Prepopulating Forms with Flowable Layouts](/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_with_flowable_layouts).)
     * The `HTMLRenderSpec` object that stores HTML run-time options. 
     * A string value that specifies the `HTTP_USER_AGENT` header value, such as `Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)`. You can pass an empty string if you do not want to set this value. 
-    * A `URLSpec` object that stores URI values required to render an HTML form. (See [Specify URI values](#unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a96.2).)
-    * A `java.util.HashMap` object that stores file attachments. This is an optional parameter, and you can specify `null` if you do not want to attach files to the form. (See [Attach files to the form](#unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a95.2).)
+    * A `URLSpec` object that stores URI values required to render an HTML form. (See [Specify URI values](unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a96.2).)
+    * A `java.util.HashMap` object that stores file attachments. This is an optional parameter, and you can specify `null` if you do not want to attach files to the form. (See [Attach files to the form](unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a95.2).)
     * An empty `com.adobe.idp.services.holders.BLOBHolder` object that is populated by the `(Deprecated) renderHTMLForm` method. This parameter value stores the rendered form. 
     * An empty `com.adobe.idp.services.holders.BLOBHolder` object that is populated by the `(Deprecated) renderHTMLForm` method. This parameter stores the output XML data. 
     * An empty `javax.xml.rpc.holders.LongHolder` object that is populated by the `(Deprecated) renderHTMLForm` method. This argument stores the number of pages in the form.
@@ -190,6 +190,6 @@ Render an HTML form that uses a custom CSS file by using the Forms API (web serv
 
 [Rendering HTML Forms Using Custom CSS Files](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-using-custom.md#rendering_html_forms_using_custom_css_files)
 
-[Quick Start (Base64): Rendering an HTML form that uses a CSS file using the web service API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e32.2)
+[Quick Start (Base64): Rendering an HTML form that uses a CSS file using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e32.2)
 
-[Invoking AEM Forms using Base64 encoding](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)
+[Invoking AEM Forms using Base64 encoding](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)

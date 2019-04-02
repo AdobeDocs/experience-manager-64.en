@@ -140,9 +140,9 @@ An assembled XDP document is returned within a collection object. Iterate throug
 
 [Assemble multiple XDP fragments using the web service API](assembling-multiple-xdp-fragments.md#assemble_multiple_xdp_fragments_using_the_web_service_api)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
@@ -202,11 +202,11 @@ Assemble multiple XDP fragments by using the Assembler Service API (Java):
 
 [Assembling Multiple XDP Fragments](assembling-multiple-xdp-fragments.md#assembling_multiple_xdp_fragments)
 
-[Quick Start (SOAP mode): Assembling multiple XDP fragments using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f57.2)
+[Quick Start (SOAP mode): Assembling multiple XDP fragments using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f57.2)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 ## Assemble multiple XDP fragments using the web service API {#assemble-multiple-xdp-fragments-using-the-web-service-api}
 
@@ -285,6 +285,6 @@ Assemble multiple XDP fragments by using the Assembler Service API (web service)
 
 [Assembling Multiple XDP Fragments](assembling-multiple-xdp-fragments.md#assembling_multiple_xdp_fragments)
 
-[Quick Start (MTOM): Assembling multiple XDP fragments using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f56.2)
+[Quick Start (MTOM): Assembling multiple XDP fragments using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f56.2)
 
-[Invoking AEM Forms using MTOM](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)

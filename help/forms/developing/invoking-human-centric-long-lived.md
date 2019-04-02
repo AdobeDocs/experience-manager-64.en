@@ -841,8 +841,8 @@ To create a client application built with Flex that is able to invoke the FirstA
 
 1. Start a new Flex project. 
 1. Include the adobe-remoting-provider.swc file in your project’s class path. (See [Including the AEM Forms Flex library file](/programming-with-aem-forms/invoking-aem-forms-using-remoting.md#including_the_aem_forms_flex_library_file).)
-1. Create a `mx:RemoteObject` instance through either ActionScript or MXML. (See [Creating a mx:RemoteObject instance](#unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba9.2))
-1. Set up a `ChannelSet` instance to communicate with AEM Forms, and associate it with the `mx:RemoteObject` instance. (See [Create a Channel to AEM Forms](#unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba7.2).)
+1. Create a `mx:RemoteObject` instance through either ActionScript or MXML. (See [Creating a mx:RemoteObject instance](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba9.2))
+1. Set up a `ChannelSet` instance to communicate with AEM Forms, and associate it with the `mx:RemoteObject` instance. (See [Create a Channel to AEM Forms](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba7.2).)
 1. Call the ChannelSet’s `login` method or the service’s `setCredentials` method to specify the user identifier value and password. (See [Using single sign-on](/programming-with-aem-forms/invoking-aem-forms-using-remoting.md#using_single_sign_on).)
 1. Create the XML data source to pass to the `FirstAppSolution/PreLoanProcess` process by creating an XML instance. (This application logic is shown in the following code example.) 
 1. Create an object of type Object by using its constructor. Assign the XML to the object by specifying the name of the process’s input parameter, as shown in the following code:
@@ -854,7 +854,7 @@ To create a client application built with Flex that is able to invoke the FirstA
     params["formData"]=xml;
    ```
 
-1. Invoke the `FirstAppSolution/PreLoanProcess` process by calling the `mx:RemoteObject` instance’s `invoke_Async` method. Pass the `Object` that contains the input parameter. (See [Passing input values](#unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7baa.2).)
+1. Invoke the `FirstAppSolution/PreLoanProcess` process by calling the `mx:RemoteObject` instance’s `invoke_Async` method. Pass the `Object` that contains the input parameter. (See [Passing input values](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7baa.2).)
 1. Retrieve the invocation identification value that is returned from a long-lived process, as shown in the following code:
 
    ```as3

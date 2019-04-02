@@ -72,11 +72,11 @@ When the Forms service renders a rights-enabled form, it returns a form data str
 
 [Render rights-enabled forms using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering rendering-rights-enabled-forms-rendering.md#render_rights_enabled_forms_using_the_web_service_api)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Forms Service API Quick Starts](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
 [Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
 
@@ -131,11 +131,11 @@ Render a rights-enabled form by using the Forms API (Java):
 
 [Rendering Rights-Enabled Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering.md#rendering_rights_enabled_forms)
 
-[Quick Start (SOAP mode): Rendering a rights-enabled form using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e39.2)
+[Quick Start (SOAP mode): Rendering a rights-enabled form using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e39.2)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 ### Render rights-enabled forms using the web service API {#render-rights-enabled-forms-using-the-web-service-api}
 
@@ -181,6 +181,6 @@ Render a rights-enabled form by using the Forms API (web service):
 
 [Rendering Rights-Enabled Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering.md#rendering_rights_enabled_forms)
 
-[Quick Start (Base64): Rendering a rights-enabled form using the web service API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e38.2)
+[Quick Start (Base64): Rendering a rights-enabled form using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e38.2)
 
-[Invoking AEM Forms using Base64 encoding](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)
+[Invoking AEM Forms using Base64 encoding](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)

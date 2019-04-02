@@ -104,9 +104,9 @@ All disassembled PDF documents are returned within a collection object. Iterate 
 
 [Disassemble a PDF document using the web service API](/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-web.md#disassemble_a_pdf_document_using_the_web_service_api)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
@@ -165,11 +165,11 @@ Disassemble a PDF document by using the Assembler Service API (Java):
 
 [Programmatically Disassembling PDF Documents](programmatically-disassembling-pdf-documents-programmatically.md#programmatically_disassembling_pdf_documents)
 
-[Quick Start (SOAP mode): Disassembling a PDF document using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb2.2)
+[Quick Start (SOAP mode): Disassembling a PDF document using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb2.2)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 ## Disassemble a PDF document using the web service API {#disassemble-a-pdf-document-using-the-web-service-api}
 
@@ -244,6 +244,6 @@ Disassemble a PDF document by using the Assembler Service API (web service):
 
 [Programmatically Disassembling PDF Documents](programmatically-disassembling-pdf-documents-programmatically.md#programmatically_disassembling_pdf_documents)
 
-[Quick Start (MTOM): Disassembling a PDF document using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb1.2)
+[Quick Start (MTOM): Disassembling a PDF document using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb1.2)
 
-[Invoking AEM Forms using MTOM](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)

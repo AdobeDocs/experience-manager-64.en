@@ -69,7 +69,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss) 
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-if AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server that AEM Forms is deployed on. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2).
+if AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server that AEM Forms is deployed on. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2).
 
 **Create a PDF Assembler client**
 
@@ -107,9 +107,9 @@ Save the XML document as an XML file so that you can open the file and view the 
 
 [Determine whether a document is PDF/A compliant using the web service API](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determine_whether_a_document_is_pdf_a_compliant_using_the_web_service_api)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
@@ -168,11 +168,11 @@ Determine whether a PDF document is PDF/A-compliant by using the Assembler Servi
 
 [Determining Whether Documents Are PDF/A- Compliant](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determining_whether_documents_are_pdf_a_compliant)
 
-[Quick Start (SOAP mode): Determining whether a document is PDF/A compliant using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7f.2) (SOAP mode)
+[Quick Start (SOAP mode): Determining whether a document is PDF/A compliant using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7f.2) (SOAP mode)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 ## Determine whether a document is PDF/A compliant using the web service API {#determine-whether-a-document-is-pdf-a-compliant-using-the-web-service-api}
 
@@ -247,6 +247,6 @@ Determine whether a PDF document is PDF/A-compliant by using the Assembler Servi
 
 [Determining Whether Documents Are PDF/A- Compliant](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determining_whether_documents_are_pdf_a_compliant)
 
-[Quick Start (MTOM): Determining whether a document is PDF/A compliant using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7e.2)
+[Quick Start (MTOM): Determining whether a document is PDF/A compliant using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7e.2)
 
-[Invoking AEM Forms using MTOM](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)

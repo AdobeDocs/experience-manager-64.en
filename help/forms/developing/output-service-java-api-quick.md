@@ -25,9 +25,9 @@ Java API Quick Start(SOAP) is available for the Output service.
 
 [Quick Start (SOAP mode): Passing a document located in the AEM Forms Repository to the Output service using the Java API](output-service-java-api-quick.md#quick_start_soap_mode_passing_a_document_located_in_the_repository_to_the_output_service_using_the_java_api)
 
-[Quick Start (SOAP mode): Creating a PDF document based on fragments using the Java API](#unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d84.2)
+[Quick Start (SOAP mode): Creating a PDF document based on fragments using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d84.2)
 
-[Quick Start (SOAP mode): Printing to a file using the Java API](#unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d80.2)
+[Quick Start (SOAP mode): Printing to a file using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d80.2)
 
 [Quick Start (SOAP mode): Sending a print stream to a network printer using the Java API](output-service-java-api-quick.md#quick_start_soap_mode_sending_a_print_stream_to_a_network_printer_using_the_java_api)
 
@@ -165,7 +165,7 @@ The following Java code example creates a PDF document named *Loan.pdf*. This PD
 
 >[!NOTE]
 >
->Before running this quick start, ensure that you create an AEM Forms application named Applications/FormsApplication. Create a folder within the application named FormsFolder and place the XDP file in the folder. For more information, see [Generate a PDF document](#unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7d45.2)*.*
+>Before running this quick start, ensure that you create an AEM Forms application named Applications/FormsApplication. Create a folder within the application named FormsFolder and place the XDP file in the folder. For more information, see [Generate a PDF document](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7d45.2)*.*
 
 ```as3
  /* 

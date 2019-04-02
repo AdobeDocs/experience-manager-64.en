@@ -45,7 +45,7 @@ The repository API provides a number of operations that you can use to store and
 
 >[!NOTE]
 >
->The repository API cannot be used to interact with Content Services (deprecated). To interact with Content Services (deprecated), you use the Document Management API. (See [Performing Document Management Operations Using APIs](#unresolvedlink-lc-cs-api-perform-doc-mgmt-operations-pd.xml#ws624e3cba99b79e12e69a9941333732bac8-720f.2))
+>The repository API cannot be used to interact with Content Services (deprecated). To interact with Content Services (deprecated), you use the Document Management API. (See [Performing Document Management Operations Using APIs](unresolvedlink-lc-cs-api-perform-doc-mgmt-operations-pd.xml#ws624e3cba99b79e12e69a9941333732bac8-720f.2))
 
 Using the Repository service API, you can accomplish the following tasks:
 
@@ -56,7 +56,7 @@ Using the Repository service API, you can accomplish the following tasks:
 * Update resources and their properties. See [Updating Resources](aem-forms-repository.md#updating_resources).
 * Search for resources, including their history, related resources, and properties. See [Searching for Resources](aem-forms-repository.md#searching_for_resources).
 * Specify relationships between resources. See [Creating Resource Relationships](aem-forms-repository.md#creating_resource_relationships).
-* Manage resource access control, including locking and unlocking resources, and reading and writing access control lists (ACLs). See [Controlling Access to Resources](#unresolvedlink-lc-rp-control-access-resources-ca.xml#ws624e3cba99b79e12e69a9941333732bac8-7cce.2) and [Locking Resources](aem-forms-repository.md#locking_resources). 
+* Manage resource access control, including locking and unlocking resources, and reading and writing access control lists (ACLs). See [Controlling Access to Resources](unresolvedlink-lc-rp-control-access-resources-ca.xml#ws624e3cba99b79e12e69a9941333732bac8-7cce.2) and [Locking Resources](aem-forms-repository.md#locking_resources). 
 * Delete resources and their properties. See [Deleting Resources](aem-forms-repository.md#deleting_resources).
 
 >[!NOTE]
@@ -196,7 +196,7 @@ Create a folder by using the Repository service API (web service):
 
 [Creating Folders](aem-forms-repository.md#creating_folders)
 
-[Quick Start (Base64): Creating a folder using the web service API](#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc6.2)
+[Quick Start (Base64): Creating a folder using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc6.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -353,7 +353,7 @@ Write a resource by using the Repository service API (web service):
 
 [Writing Resources](aem-forms-repository.md#writing_resources)
 
-[Quick Start (Base64): Writing a resource using the web service API](#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cdc.2)
+[Quick Start (Base64): Writing a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cdc.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -465,7 +465,7 @@ List resources by using the Repository service API (web service):
 
 [Listing Resources](aem-forms-repository.md#listing_resources).
 
-[Quick Start (Base64): Listing resources using the web service API](#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd9.2)
+[Quick Start (Base64): Listing resources using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd9.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -580,7 +580,7 @@ Read a resource by using the Repository service API (web service):
 
 [Reading Resources](aem-forms-repository.md#reading_resources)
 
-[Quick Start (Base64): Reading a resource using the web service API](#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd6.2)
+[Quick Start (Base64): Reading a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd6.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -705,7 +705,7 @@ Update a resource by using the Repository API (web service):
 
 [Updating Resources](aem-forms-repository.md#updating_resources)
 
-[Quick Start (Base64): Updating a resource using the web service API](#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd3.2)
+[Quick Start (Base64): Updating a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd3.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -994,7 +994,7 @@ Create relationship resources by using the Repository API (web service):
 
 [Creating Resource Relationships](aem-forms-repository.md#creating_resource_relationships)
 
-[Quick Start (Base64): Creating relationships between resources using the web service API](#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc5.2)
+[Quick Start (Base64): Creating relationships between resources using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc5.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -1144,7 +1144,7 @@ Lock resources by using the Repository service API (web service):
 
 [Locking Resources](aem-forms-repository.md#locking_resources)
 
-[Quick Start (Base64): Locking a resource using the web service API](#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc4.2)
+[Quick Start (Base64): Locking a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc4.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
@@ -1258,6 +1258,6 @@ Delete a resource by using the Repository API (web service):
 
 [Deleting Resources](aem-forms-repository.md#deleting_resources)
 
-[Quick Start (Base64): Deleting a resource using the web service API](#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc2.2)
+[Quick Start (Base64): Deleting a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc2.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)

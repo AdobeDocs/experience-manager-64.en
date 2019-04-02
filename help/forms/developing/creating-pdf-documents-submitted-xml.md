@@ -71,15 +71,15 @@ Use the Document Management service API to store a PDF document in Content Servi
 
 [Create a PDF Document with submitted XML data using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml creating-pdf-documents-submitted-xml.md#create_a_pdf_document_with_submitted_xml_data_using_the_java_api)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Forms Service API Quick Starts](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
 [Creating PDF Documents](/programming-with-aem-forms/creating-document-output-streams-creating creating-document-output-streams-creating.md#creating_pdf_documents)
 
-[Adding Content to Content Services (deprecated)](#unresolvedlink-lc-cs-api-add-content-ac.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffd.2)
+[Adding Content to Content Services (deprecated)](unresolvedlink-lc-cs-api-add-content-ac.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffd.2)
 
 ### Create a PDF Document with submitted XML data using the Java API {#create-a-pdf-document-with-submitted-xml-data-using-the-java-api}
 
@@ -148,8 +148,8 @@ Create a PDF document with submitted XML data by using the Forms, Output, and Do
 
 [Creating PDF Documents with Submitted XML Data](/programming-with-aem-forms/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml.md#creating_pdf_documents_with_submitted_xml_data)
 
-[Quick Start (EJB mode): Creating PDF Documents with submitted XML data using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd2.2)
+[Quick Start (EJB mode): Creating PDF Documents with submitted XML data using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd2.2)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)

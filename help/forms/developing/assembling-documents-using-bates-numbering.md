@@ -77,7 +77,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-if AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2).
+if AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2).
 
 **Create a PDF Assembler client**
 
@@ -113,9 +113,9 @@ The Assembler service returns a collection object that contains the job results.
 
 [Assemble documents with Bates numbering using the web service API](/programming-with-aem-forms/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assemble_documents_with_bates_numbering_using_the_web_service_api)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
@@ -174,11 +174,11 @@ Assemble a PDF document that uses unique page identifiers (Bates numbering) by u
 
 [Assembling Documents Using Bates Numbering](/programming-with-aem-forms/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assembling_documents_using_bates_numbering)
 
-[Quick Start (SOAP mode): Assembling a PDF document with bates numbering using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fa8.2)
+[Quick Start (SOAP mode): Assembling a PDF document with bates numbering using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fa8.2)
 
-[Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
-[Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
 ## Assemble documents with Bates numbering using the web service API {#assemble-documents-with-bates-numbering-using-the-web-service-api}
 
@@ -253,6 +253,6 @@ Assemble a PDF document that uses unique page identifiers (Bates numbering) by u
 
 [Assembling Documents Using Bates Numbering](/programming-with-aem-forms/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assembling_documents_using_bates_numbering)
 
-[Quick Start (MTOM): Assembling a PDF document with bates numbering using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fa7.2)
+[Quick Start (MTOM): Assembling a PDF document with bates numbering using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fa7.2)
 
-[Invoking AEM Forms using MTOM](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)

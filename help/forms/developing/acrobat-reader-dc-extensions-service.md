@@ -14,7 +14,7 @@ discoiquuid: 31a9bfc6-462d-4535-888f-31026b8fa674
 
 The following Quick Starts are available for the Acrobat Reader DC Extensions service.
 
-[Quick Start (SOAP mode):Applying usage rights using the Java API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d11.2)
+[Quick Start (SOAP mode):Applying usage rights using the Java API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d11.2)
 
 [Removing Usage Rights from PDF Documents](../../forms/developing/acrobat-reader-dc-extensions-service.md#main-pars-heading-1)
 
