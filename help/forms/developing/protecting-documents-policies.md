@@ -2135,13 +2135,13 @@ You must retrieve a policy-protected Word document in order to remove a policy. 
 
 You can remove a policy from a policy-protected Word document provided that an administrator is specified in the connection settings. If not, then the policy used to secure a document must contain the `SWITCH_POLICY` permission in order to remove a policy from a Word document. Also, the user specified in the AEM Forms connection settings must also have that permission. Otherwise, an exception is thrown.
 
-**Save the unsecured Word document **
+**Save the unsecured Word document**
 
 After the Document Security service removes a policy from a Word document, you can save the unsecured Word document as a DOC file.
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+<!--BROKEN [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)-->
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
