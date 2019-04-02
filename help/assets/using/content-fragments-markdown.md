@@ -101,7 +101,7 @@ A Reference-style image has the following syntax:
 
 Where “i*d”* is the name of a defined image reference. Image references are defined using syntax identical to link references:
 
-*[id]: url/to/image "Optional title attribute"*
+`*[id]: url/to/image "Optional title attribute"*`
 
 ## Block Quotes {#block-quotes}
 
