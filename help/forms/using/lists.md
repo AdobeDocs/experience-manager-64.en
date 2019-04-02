@@ -37,11 +37,11 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
 1. Select **Forms **&gt; **Document Fragments**.  
 
-1. Tap **Create** &gt; **Text. **Or select a text asset and tap **Edit**.
+1. Tap **Create** &gt; **Text.** Or select a text asset and tap **Edit**.
 1. Specify the following information for the text:
 
-    * **Title: (Optional) **Enter the title for the text asset. Titles need not be unique and can have special characters and non-english characters. Texts are referred by their titles (when available) such as in thumbnails and asset properties. 
-    * **Name: **The unique name for the text asset. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
+    * **Title: (Optional)** Enter the title for the text asset. Titles need not be unique and can have special characters and non-english characters. Texts are referred by their titles (when available) such as in thumbnails and asset properties. 
+    * **Name:** The unique name for the text asset. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
     
     * **Description**: Type a description of the asset.
     * **Data Dictionary**: Optionally, select the data dictionary in which to map. This attribute enables you to add references to data dictionary elements in the text asset.
@@ -57,9 +57,9 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    [ ![Toolbar](assets/advancedediting.png)
 
-   (Click to open full-sized image)
+    <!--   (Click to open full-sized image)
 
-   ](assets/advancedediting-1.png)
+    [ !](assets/advancedediting-1.png) -->
 
     * **Link**: Insert hypertext link in the text.
     * **Repeat**: Repeat prints collection element in Data Dictionary using a delimiter. 
@@ -76,7 +76,10 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
    ![Paragraph toolbar](assets/fonteditingtoolbar.png)
 
    Paragraph toolbar
-   [ ![Alignment toolbar](assets/paragrapheditingtoolbar.png)](assets/paragrapheditingtoolbar-1.png)Alignment toolbar
+
+   ![Alignment toolbar](assets/paragrapheditingtoolbar.png)](assets/paragrapheditingtoolbar-1.png)
+   
+   Alignment toolbar
 
    ![Listing toolbar](assets/bulleteditingtoolbar.png)
 
@@ -110,9 +113,9 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    ![](assets/textbackgroundcolorapplied.png)
 
-   You can either directly tap a basic color **[A]** present in the Basic Colors palette or tap **Select** after using the slider **[B]** to choose the appropriate shade of the color.
+   You can either directly tap a basic color **`[A]`** present in the Basic Colors palette or tap **Select** after using the slider **`[B]`** to choose the appropriate shade of the color.
 
-   Optionally, you can also go to the Advanced tab to select the appropriate Hue, Lightness, and Saturation **[C]** to create the precise color and then tap Select **[D]** to apply the color to highlight the text. 
+   Optionally, you can also go to the Advanced tab to select the appropriate Hue, Lightness, and Saturation **`[C]`** to create the precise color and then tap Select **`[D]`** to apply the color to highlight the text. 
 
    ![](assets/textbackgroundcolor.png)
 
@@ -158,9 +161,9 @@ The Find and Replace feature allows you to search for (and replace) any string o
 
 #### Search Options {#search-options}
 
-**Match Case: **The search returns results with the same case only.
+**Match Case:** The search returns results with the same case only.
 
-**Whole word: **Search returns only whole words.
+**Whole word:** Search returns only whole words.
 
 **Note:** If you enter any special characters in the Find text box, the Whole Word option is disabled.
 
@@ -189,10 +192,10 @@ The Find and Replace feature allows you to search for (and replace) any string o
 * Use appropriate data dictionary binding in text modules.
 * The following rules apply when using the Text Editor when changing a text asset:
 
-    * **Addition of variable: **Allowed
-    * **Removal of variable: **Allowed
-    * **Update of properties: **Allowed
-    * **Change of data dictionary: **Allowed until data dictionary element is not used. You cannot change the data dictionary on update.
+    * **Addition of variable:** Allowed
+    * **Removal of variable:** Allowed
+    * **Update of properties:** Allowed
+    * **Change of data dictionary:** Allowed until data dictionary element is not used. You cannot change the data dictionary on update.
 
 ## List {#list}
 
@@ -253,14 +256,14 @@ A list is a group of related content that can be used in a letter template as a 
 
 1. You can select the following options to specify how each asset in the list behaves at runtime:
 
-    * **Editable: **When this option is selected, the content can be edited in Create Correspondence user interface. (This option is not available for List and Image modules.) 
-    * **Mandatory: **When this option is selected, the content is required in Create Correspondence user interface.
-    * **Selected: **When this option is selected, the content is preselected in Create Correspondence user interface.
-    * **Skip Style: **When this option is selected, the content skips bullets and numbering in Create Correspondence user interface. (This option is not available for Image modules. Also, between Skip Style, Compound, and Ignore List Style, only one of the options can be applied to a module. One of these options can be used for a module when you select Add Bullets for a module.)
-    * **Indentation: **You can change the indentation level of each module/content selected as part of the List. Indentation is specified in terms of Levels (starting with zero), such that each level of indent corresponds to a padding of 36pts. 
-    * **Compound: **When selected, the compound numbering is applied as a combination of the outer (parent) List's style and it's own style. The compound numbering on this nested List is based on the order in which this nested List appears in the outer List.
-    * **Ignore list style: **If the Compound Numbering option is deselected, then the option to Ignore List Style is enabled. This selection ignores the nested List's own style and the numbering continues from the outer List. Therefore the modules of the nested list are treated as part of the outer list itself, disregarding any styles specified on the nested List. If the Ignore List Style option is deselected for a nested List, the modules that are part of that nested List have their own numbering style.
-    * **Keep With Next: **Sets the page break for the assets contained in a list. If you set the Keep With Next property of one asset of a list to **On**, that asset and the next asset stays on the same page. This implies that the contents of the selected asset and the next asset will not break across pages.
+    * **Editable:** When this option is selected, the content can be edited in Create Correspondence user interface. (This option is not available for List and Image modules.) 
+    * **Mandatory:** When this option is selected, the content is required in Create Correspondence user interface.
+    * **Selected:** When this option is selected, the content is preselected in Create Correspondence user interface.
+    * **Skip Style:** When this option is selected, the content skips bullets and numbering in Create Correspondence user interface. (This option is not available for Image modules. Also, between Skip Style, Compound, and Ignore List Style, only one of the options can be applied to a module. One of these options can be used for a module when you select Add Bullets for a module.)
+    * **Indentation:** You can change the indentation level of each module/content selected as part of the List. Indentation is specified in terms of Levels (starting with zero), such that each level of indent corresponds to a padding of 36pts. 
+    * **Compound:** When selected, the compound numbering is applied as a combination of the outer (parent) List's style and it's own style. The compound numbering on this nested List is based on the order in which this nested List appears in the outer List.
+    * **Ignore list style:** If the Compound Numbering option is deselected, then the option to Ignore List Style is enabled. This selection ignores the nested List's own style and the numbering continues from the outer List. Therefore the modules of the nested list are treated as part of the outer list itself, disregarding any styles specified on the nested List. If the Ignore List Style option is deselected for a nested List, the modules that are part of that nested List have their own numbering style.
+    * **Keep With Next:** Sets the page break for the assets contained in a list. If you set the Keep With Next property of one asset of a list to **On**, that asset and the next asset stays on the same page. This implies that the contents of the selected asset and the next asset will not break across pages.
 
 1. Tap **Save**.
 
@@ -271,7 +274,7 @@ A list is a group of related content that can be used in a letter template as a 
 * The following rules apply when using the List Editor to change a list:
 
     * Update of properties: Allowed
-    * **Change of data dictionary: **Allowed until no item that uses the data dictionary is associated with it. You cannot change the data dictionary on update.
+    * **Change of data dictionary:** Allowed until no item that uses the data dictionary is associated with it. You cannot change the data dictionary on update.
 
 ## Conditions {#conditions}
 
@@ -327,10 +330,10 @@ The Condition editor enables you to specify a default condition. If the value of
 * Use appropriate data dictionary binding
 * The following rules apply when using the Condition Editor to edit a condition:
 
-    * **Addition of variable: **Allowed
-    * **Removal of variable: **Allowed
-    * **Update of properties: **Allowed
-    * **Change of data dictionary: **Allowed until data dictionary element is not used.
+    * **Addition of variable:** Allowed
+    * **Removal of variable:** Allowed
+    * **Update of properties:** Allowed
+    * **Change of data dictionary:** Allowed until data dictionary element is not used.
 
 ## Layout Fragments {#layoutfragments}
 
@@ -385,12 +388,12 @@ For a detailed example of using static and dynamic tables in layout fragments, s
 1. Correspondence Management displays the available XDPs. Select the XDP on which you want to base your layout fragment and tap **Next**.
 1. Specify the following information for the layout:
 
-    * **Title (Optional): **Enter the title for the layout fragment. Title needs not be unique and can have special characters and non-english characters. Layout fragments are referred by their titles (when available) such as in thumbnails and asset properties.
-    * **Name: **The unique name for the layout fragment. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value. This name appears in the list in the Manage Assets user interface.
+    * **Title (Optional):** Enter the title for the layout fragment. Title needs not be unique and can have special characters and non-english characters. Layout fragments are referred by their titles (when available) such as in thumbnails and asset properties.
+    * **Name:** The unique name for the layout fragment. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value. This name appears in the list in the Manage Assets user interface.
     * **Description (Optional)**: Description that appears in the list in the Manage Assets user interface.
     * **Tags (Optional)**: Optionally, select the tags to apply to the condition. You can also type in a new tag’s name and create it.
 
-1. Tap the **Table **tab and specify the following information for the layout:
+1. Tap the **Table** tab and specify the following information for the layout:
 
     * **Configuration for**: Select the table being configured.** **As a suffix to the table name in the dropdown is (Static) if the table is a static one or (Dynamic) if the table is a dynamic table. Static tables contain a fixed number of rows. Static tables can contain target areas and fields. These target area and fields cannot be bound to repeating DDEs. The data bound to table cells determines the number of rows for dynamic tables.
     
@@ -402,7 +405,7 @@ For a detailed example of using static and dynamic tables in layout fragments, s
     * **Header**: text to show for the header
     * **Footer**: text to show for the footer
     * **Type**: type of additional column. Field or Target Area. Type is enabled for static place holder tables. Type can be defined at column level and not at cell level. All the cells in an extended column would be of the same type. For a dynamic table, all the columns are of Field type. For non-placeholder tables, you cannot define the type of additional columns. In this case, type of additional cells in extended column is same as the type of last column in that row; and type of cell in additional row is same as type of last cell in that column.
-    * **Width ratio: **ratio of the table column widths.
+    * **Width ratio:** ratio of the table column widths.
 
    For a detailed example of using static and dynamic tables in layout fragments, see [Example with sample files: using static and dynamic tables in a letter](#main-pars-header-28).  
 
@@ -496,7 +499,7 @@ This example shows how you can create a dynamic and a static table, bind the dyn
    Or, use the static and dynamic XDPs attached with this step.  
 
    For more information on working with Layout Fragments, see [Layout Fragments](#layoutfragments).  
-   For more information on designing layouts, see [Designer Help](https://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/ ).
+   For more information on designing layouts, see [Designer Help](https://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/).
 
    [Get File](assets/static.xdp.zip)
 

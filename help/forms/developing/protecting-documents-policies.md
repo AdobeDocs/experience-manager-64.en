@@ -255,7 +255,7 @@ Create a policy by using the Document Security API (Java):
    >
    >When creating a policy, reference an existing policy set. If you specify a policy set that does not exist, then an exception is thrown.
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/programming-with-aem-forms/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in *[API Quick Starts (Code Examples)](programming-with-aem-forms.md#java_api_soap_quick_start_code_examples)*:
 
 * “Quick Start (SOAP mode): Creating a policy using the Java API”
 

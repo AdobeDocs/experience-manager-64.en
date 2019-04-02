@@ -21,7 +21,7 @@ Assign task and Adobe Sign steps of [Forms-centric workflows on OSGi](../../form
 
 ECMAScript is a scripting language. It is used for client-side scripting and server applications. Perform the following steps to dynamically select a user or a group using ECMAScript:
 
-1. Open CRXDE Lite. The URL is https://[server]:[port]/crx/de/index.jsp
+1. Open CRXDE Lite. The URL is `https://[server]:[port]/crx/de/index.jsp`
 1. Create a file with extension .ecma at the following path. If the path (node structure) does not exist, create it:
 
     * (Path for Assign Task step) `/apps/fd/dashboard/scripts/participantChooser`
@@ -37,26 +37,13 @@ ECMAScript is a scripting language. It is used for client-side scripting and ser
     1. Add the `mix:title` property in Edit Mixins dialog and click **OK**.
     1. Add the following property to the jcr:content node of script:
 
-    <table> 
- <tbody> 
-  <tr> 
-   <td>Name</td> 
-   <td>Type</td> 
-   <td>Value</td> 
-  </tr> 
-  <tr> 
-   <td>jcr:title</td> 
-   <td>String</td> 
-   <td>Specify the name of the script. For example, Choose nearest field agent.<br /> This name is displayed in Assign Task and Sign Document steps.</td> 
-  </tr> 
- </tbody> 
-</table>    
-    
-       Click **Save All**. The script becomes available for selection in the components of AEM Workflow.
-    
-       ![](assets/script.png)
+       |Name|Type|Value|
+       |--- |--- |--- |
+       |jcr:title|String|Specify the name of the script. For example, Choose nearest field agent. This name is displayed in Assign Task and Sign Document steps.|
 
-   ![]()
+    1. Click **Save All**. The script becomes available for selection in the components of AEM Workflow.
+       
+       ![](assets/script.png)
 
 ### Sample ECMAScripts to dynamically choose a user or a group {#sample-ecmascripts-to-dynamically-choose-a-user-or-a-group}
 
@@ -247,6 +234,7 @@ After the bundle is imported, the option to choose the Java interface for dynami
 The following sample code dynamically chooses an assignee for the Adobe Sign step. You use the code in an OSGi bundle. Before using the below-listed code, ensure that the user information (email addresses and phone numbers) mentioned in the code is correct. If user information mentioned in the code is incorrect, the related process can fail.
 
 ```java
+
 /*************************************************************************
 
  *
@@ -265,6 +253,7 @@ The following sample code dynamically chooses an assignee for the Adobe Sign ste
  * is strictly forbidden unless prior written permission is obtained
  * from Adobe Systems Incorporated.
  **************************************************************************/
+ 
 package com.aem.impl;
 
 import java.util.ArrayList;
