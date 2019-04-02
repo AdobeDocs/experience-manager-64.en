@@ -114,7 +114,7 @@ Invoke the Repository service method to write the resource collection, specifyin
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
@@ -160,7 +160,7 @@ Create a folder by using the Repository service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Create folders using the web service API {#create-folders-using-the-web-service-api}
 
@@ -255,7 +255,7 @@ Invoke the Repository service method to write the resource, specifying the targe
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
@@ -308,7 +308,7 @@ Write a resource by using the Repository service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Write resources using the web service API {#write-resources-using-the-web-service-api}
 
@@ -402,7 +402,7 @@ Invoke the Repository service method to retrieve the list of resources, specifyi
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
@@ -436,7 +436,7 @@ List resources by using the Repository service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### List resources using the web service API {#list-resources-using-the-web-service-api}
 
@@ -521,7 +521,7 @@ Invoke the Repository service method to read the resource, specifying the URI.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
@@ -553,7 +553,7 @@ Read a resource by using the Repository service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Reading resources using the web service API {#reading-resources-using-the-web-service-api}
 
@@ -633,7 +633,7 @@ Set the new information in the resource and invoke the Repository service method
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
@@ -671,7 +671,7 @@ Update a resource by using the Repository service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Update resources using the web service API {#update-resources-using-the-web-service-api}
 
@@ -782,7 +782,7 @@ Iterate through the returned list of resources and extract the information for f
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
@@ -853,7 +853,7 @@ Search for a resource by using the Repository service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Creating Resource Relationships {#creating-resource-relationships}
 
@@ -904,7 +904,7 @@ Invoke the Repository service method to create and specify the type of relations
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
@@ -949,7 +949,7 @@ Create relationship resources by using the Repository service Java API, perform 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Create relationship resources using the web service API {#create-relationship-resources-using-the-web-service-api}
 
@@ -1055,7 +1055,7 @@ Invoke the Repository service method to unlock the resource, specifying the URI.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
@@ -1103,7 +1103,7 @@ Lock resources by using the Repository service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Lock resources using the web service API {#lock-resources-using-the-web-service-api}
 
@@ -1199,7 +1199,7 @@ Invoke the Repository service method to delete the resource, specifying the URI.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
@@ -1231,7 +1231,7 @@ Delete a resource by using the Repository API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Delete resources using the web service API {#delete-resources-using-the-web-service-api}
 

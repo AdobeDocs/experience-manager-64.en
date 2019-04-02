@@ -85,7 +85,7 @@ After you convert the PDF document to PostScript, you can save the output as a P
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Convert PDF Service API Quick Starts](/programming-with-aem-forms/convert-pdf-service-java-api.md#convert_pdf_service_java_api_quick_start_soap)
 
@@ -134,7 +134,7 @@ Convert a PDF document to PostScript by using the Convert PDF Service API (Java)
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Convert a PDF document to PS using the web service API {#convert-a-pdf-document-to-ps-using-the-web-service-api}
 
@@ -253,7 +253,7 @@ The format of the image file is dependent on the `ImageConvertFormat` run-time o
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Convert PDF Service API Quick Starts](/programming-with-aem-forms/convert-pdf-service-java-api.md#convert_pdf_service_java_api_quick_start_soap)
 

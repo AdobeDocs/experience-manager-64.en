@@ -94,7 +94,7 @@ After the Signature service adds a signature field to the PDF document, you can 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Digitally Signing PDF Documents](digitally-signing-certifying-documents.md#digitally_signing_pdf_documents)
 
@@ -259,7 +259,7 @@ You can retrieve signature field names after you retrieve a PDF document that co
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Adding Signature Fields](digitally-signing-certifying-documents.md#adding_signature_fields)
 
@@ -294,7 +294,7 @@ Retrieve signature field names by using the Signature API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Retrieve signature field using the web service API {#retrieve-signature-field-using-the-web-service-api}
 
@@ -429,7 +429,7 @@ Save the PDF document that contains the modified signature field as a PDF file s
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Signature Service API Quick Starts](/programming-with-aem-forms/signature-service-java-api-quick.md#signature_service_java_api_quick_start_soap)
 
@@ -692,7 +692,7 @@ After the Signature service digitally signs the PDF document, you can save it as
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Adding Signature Fields](digitally-signing-certifying-documents.md#adding_signature_fields)
 
@@ -747,7 +747,7 @@ Digitally sign a PDF document by using the Signature API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Digitally signing PDF documents using the web service API {#digitally-signing-pdf-documents-using-the-web-service-api}
 
@@ -901,7 +901,7 @@ After the Signature service digitally signs the PDF document, you can save it as
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Digitally Signing PDF Documents](digitally-signing-certifying-documents.md#digitally_signing_pdf_documents)
 
@@ -971,7 +971,7 @@ Digitally sign an interactive form by using the Forms and Signature API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Digitally sign an interactive form using the web service API {#digitally-sign-an-interactive-form-using-the-web-service-api}
 
@@ -1161,7 +1161,7 @@ After the Signature service certifies the PDF document, you can save it as a PDF
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Adding Signature Fields](digitally-signing-certifying-documents.md#adding_signature_fields)
 
@@ -1217,7 +1217,7 @@ Certify a PDF document by using the Signature API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Certify PDF documents using the web service API {#certify-pdf-documents-using-the-web-service-api}
 
@@ -1404,7 +1404,7 @@ You can determine the identity of the signer, which can be one of the following 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Verify digital signatures using the Java API {#verify-digital-signatures-using-the-java-api}
 
@@ -1458,7 +1458,7 @@ Verify a digital signature by using the Signature Service API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Verify digital signatures using the web service API {#verify-digital-signatures-using-the-web-service-api}
 
@@ -1626,7 +1626,7 @@ Iterate through each signature. That is, for each signature, verify the digital 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Verify multiple digital signatures using the Java API {#verify-multiple-digital-signatures-using-the-java-api}
 
@@ -1677,7 +1677,7 @@ Verify multiple digital signatures by using the Signature Service API (Java):
 
 [Verifying Digital Signatures](#unresolvedlink-lc-si)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Verifying multiple digital signatures using the web service API {#verifying-multiple-digital-signatures-using-the-web-service-api}
 
@@ -1801,7 +1801,7 @@ After the Signature service removes a digital signature from a signature field, 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Adding Signature Fields](digitally-signing-certifying-documents.md#adding_signature_fields)
 
@@ -1845,7 +1845,7 @@ Remove a digital signature by using the Signature API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Remove digital signatures using the web service API {#remove-digital-signatures-using-the-web-service-api}
 
