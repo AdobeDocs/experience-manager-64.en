@@ -75,7 +75,8 @@ You can define the style for a table by using the Style mode in the page toolbar
 
 1. In the page toolbar, before Preview, tap ![](assets/canvas-drop-down.png) &gt; **Style**.
 
-1. In the sidebar select table and tap the edit button ![](assets/edit-button.png).   
+1. In the sidebar select table and tap the edit button ![](assets/edit-button.png).
+
    You can see the styling properties in the sidebar.
 
 ![Styling properties of a table](assets/style-table.png)
@@ -92,7 +93,7 @@ Tables provide out-of-the box support for dynamically adding or deleting rows at
 1. In the Repeat settings tab, specify the minimum and maximum counts to limit the number of rows in the table.
 1. Click **Done**.
 
-At runtime, you will see **+** and *-* buttons to add or delete a row.
+At runtime, you will see **`+`** and *`-`* buttons to add or delete a row.
 
 ![](assets/add-delete-rows-dynamically.png)
 
@@ -231,7 +232,7 @@ The XML file that contains data in the following format:
 
 ```
 
-In the sample XML, the data for a row is defined by the <Row1> tags, which is the element name for the row in the table. Within the `<Row1>` tag, the data for each cell is defined within the tag for its element name, such as `<tableItem1>`, `<tableItem2>`, `<tableItem3>`, and `<type>`.
+In the sample XML, the data for a row is defined by the `<Row1>` tags, which is the element name for the row in the table. Within the `<Row1>` tag, the data for each cell is defined within the tag for its element name, such as `<tableItem1>`, `<tableItem2>`, `<tableItem3>`, and `<type>`.
 
 To merge this data with the table at runtime, we need to point the adaptive form containing the table to the absolute XML location with wcmmode disabled. For example, if the adaptive form is at *http://localhost:4502/myForms/bankTransaction.html* and the data XML file is saved at *C:/myTransactions/bankSummary.xml*, you can view the table with data at the following URL:
 
