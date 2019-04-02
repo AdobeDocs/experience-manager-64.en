@@ -106,7 +106,7 @@ For information about the location of these JAR files, see [Including AEM Forms 
 
 **Create a Form Data Integration service client**
 
-Before you can programmatically import data into a PDF form Client API, you must create a Data Integration service client. When creating a service client, you define connection settings that are required to invoke a service. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).
+Before you can programmatically import data into a PDF form Client API, you must create a Data Integration service client. When creating a service client, you define connection settings that are required to invoke a service. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 **Reference a PDF form**
 
@@ -132,7 +132,7 @@ After you import data into a form, you can save the form as a PDF file. Once sav
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Form Data Integration Service API Quick Starts](/programming-with-aem-forms/form-data-integration-service-java.md#form_data_integration_service_java_api_quick_start_soap)
 
@@ -183,7 +183,7 @@ Import form data by using the Form Data Integration API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Import form data using the web service API {#import-form-data-using-the-web-service-api}
 
@@ -282,7 +282,7 @@ The following JAR files must be added to your project’s classpath:
 
 **Create a Form Data Integration service client**
 
-Before you can programmatically import data into a PDF formClient API, you must create a Data Integration service client. When creating a service client, you define connection settings that are required to invoke a service. For information, [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).
+Before you can programmatically import data into a PDF formClient API, you must create a Data Integration service client. When creating a service client, you define connection settings that are required to invoke a service. For information, [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 **Reference a PDF form**
 
@@ -304,7 +304,7 @@ After you export form data, you can save the data as an XML file. Once saved as 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Form Data Integration Service API Quick Starts](/programming-with-aem-forms/form-data-integration-service-java.md#form_data_integration_service_java_api_quick_start_soap)
 
@@ -345,7 +345,7 @@ Export form data by using the Form Data Integration API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Export form data using the web service API {#export-form-data-using-the-web-service-api}
 

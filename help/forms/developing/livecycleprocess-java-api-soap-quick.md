@@ -31,7 +31,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 >[!NOTE]
 >
->Quick starts located in Programming with AEM Forms are based on the Forms if you are using another operating system, such as Unix, replace windows specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)
+>Quick starts located in Programming with AEM Forms are based on the Forms if you are using another operating system, such as Unix, replace windows specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).)
 
 ## Quick Start (SOAP mode): Searching for Process Instances using the Java API {#quick-start-soap-mode-searching-for-process-instances-using-the-java-api}
 

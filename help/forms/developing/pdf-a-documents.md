@@ -89,7 +89,7 @@ You can save the PDF/A document as a PDF file.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Programmatically Determining PDF/A Compliancy](pdf-a-documents.md#programmatically_determining_pdf_a_compliancy)
 
@@ -139,7 +139,7 @@ Convert a PDF document to a PDF/A document by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Convert documents to PDF/A documents using the web service API {#convert-documents-to-pdf-a-documents-using-the-web-service-api}
 
@@ -251,7 +251,7 @@ After you create the DocConverter service client, reference the PDF document, an
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Determine PDF/A compliancy using the Java API {#determine-pdf-a-compliancy-using-the-java-api}
 
@@ -294,7 +294,7 @@ Determine PDF/A compliancy by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Determine PDF/A compliancy using the web service API {#determine-pdf-a-compliancy-using-the-web-service-api}
 

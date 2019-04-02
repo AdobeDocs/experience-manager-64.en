@@ -66,7 +66,7 @@ For information about the location of these JAR files, see [Including AEM Forms 
 
 **Create a credential service client**
 
-Before you can programmatically import a credential into AEM Forms, create a credential service client. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).
+Before you can programmatically import a credential into AEM Forms, create a credential service client. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 **Reference the credential**
 
@@ -82,7 +82,7 @@ After you reference the credential, import the credential into AEM Forms. If the
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Credential Service API Quick Starts](/programming-with-aem-forms/credential-service-java-api-quick.md#credential_service_java_api_quick_start_soap)
 
@@ -124,7 +124,7 @@ Import a credential into AEM Forms by using the Trust Manager API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Deleting Credentials by using the Trust Manager API {#deleting-credentials-by-using-the-trust-manager-api}
 
@@ -156,7 +156,7 @@ For information about the location of these JAR files, see [Including AEM Forms 
 
 **Create a credential service client**
 
-Before you can programmatically delete a credential, create a Data Integration service client. When creating a service client, you define connection settings that are required to invoke a service. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).
+Before you can programmatically delete a credential, create a Data Integration service client. When creating a service client, you define connection settings that are required to invoke a service. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 **Perform the delete operation**
 
@@ -168,7 +168,7 @@ To delete a credential, specify the alias that corresponds to the credential. If
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Import credentials using the Java API](credentials.md#import_credentials_using_the_java_api)
 
@@ -197,4 +197,4 @@ Delete a credential from AEM Forms by using the Trust Manager API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)

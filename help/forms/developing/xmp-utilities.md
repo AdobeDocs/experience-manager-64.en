@@ -137,7 +137,7 @@ After you create the service client, you can invoke one of the XMP metadata impo
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Import XMP metadata using the Java API {#import-xmp-metadata-using-the-java-api}
 
@@ -177,7 +177,7 @@ Import XMP metadata by using the XMP Utilities API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Importing XMP metadata using the web service API {#importing-xmp-metadata-using-the-web-service-api}
 
@@ -254,7 +254,7 @@ After you create the service client, you can invoke one of the XMP metadata expo
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Export XMP metadata using the Java API {#export-xmp-metadata-using-the-java-api}
 
@@ -284,7 +284,7 @@ Export XMP metadata by using the XMP Utilities API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Export XMP metadata using the web service API {#export-xmp-metadata-using-the-web-service-api}
 

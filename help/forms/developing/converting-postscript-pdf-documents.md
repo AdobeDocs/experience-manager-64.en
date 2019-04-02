@@ -71,7 +71,7 @@ You can save the PDF document as a PDF file.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -126,7 +126,7 @@ Convert a PostScript file to PDF document by using the Distiller Service API (Ja
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Converting a PostScript file to PDF using the web service API {#converting-a-postscript-file-to-pdf-using-the-web-service-api}
 
