@@ -98,7 +98,7 @@ You can process the converted data to meet your business requirements. For examp
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Decode barcoded form data using the Java API {#decode-barcoded-form-data-using-the-java-api}
 
@@ -161,7 +161,7 @@ Decode form data by using the barcoded forms API(Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Decode barcoded form data using the web service API {#decode-barcoded-form-data-using-the-web-service-api}
 

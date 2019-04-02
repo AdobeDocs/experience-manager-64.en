@@ -111,7 +111,7 @@ Enter backup mode by using the Backup and Restore Service API:
 
    You use a `ServiceClientFactory` object and the BackupService client API object together.
 
-    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).)
+    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
     * Create an `BackupService` object by using its constructor and passing the `ServiceClientFactory` object.
 
 1. Decide upon a unique label, determine the amount of time to perform the backup, and decide whether to be in continuous backup mode
@@ -226,7 +226,7 @@ Leave backup mode by using the Backup and Restore Service API (Java):
 
    You use a `ServiceClientFactory` object and the BackupService client API object together.
 
-    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).)
+    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
     * Create a `BackupService` object by using its constructor and passing the `ServiceClientFactory` object as parameter.
 
 1. Enter backup mode

@@ -46,7 +46,7 @@ The Endpoint Registry service provides the ability to programmatically manage en
 
 ## Adding EJB Endpoints {#adding-ejb-endpoints}
 
-You can programmatically add an EJB endpoint to a service by using the AEM Forms Java API. By adding an EJB endpoint to a service, you are enabling a client application to invoke the service by using the EJB mode. That is, when setting connection properties that are required to invoke AEM Forms, you can select the EJB mode. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).)
+You can programmatically add an EJB endpoint to a service by using the AEM Forms Java API. By adding an EJB endpoint to a service, you are enabling a client application to invoke the service by using the EJB mode. That is, when setting connection properties that are required to invoke AEM Forms, you can select the EJB mode. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ After you create a new endpoint, you must enable it. After you enable the endpoi
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Adding an EJB endpoint using the Java API {#adding-an-ejb-endpoint-using-the-java-api}
 
@@ -145,7 +145,7 @@ Add an EJB endpoint by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Adding SOAP Endpoints {#adding-soap-endpoints}
 
@@ -210,7 +210,7 @@ After you create a new endpoint, you must enable it. When the endpoint is enable
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Add a SOAP endpoint using the Java API {#add-a-soap-endpoint-using-the-java-api}
 
@@ -250,7 +250,7 @@ Add a SOAP endpoint to a service by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Adding Watched Folder Endpoints {#adding-watched-folder-endpoints}
 
@@ -378,7 +378,7 @@ After you create a Watched Folder endpoint, you must enable it. When the endpoin
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Add a Watched Folder endpoint using the Java API {#add-a-watched-folder-endpoint-using-the-java-api}
 
@@ -450,7 +450,7 @@ Add a Watched Folder endpoint by using the AEM Forms Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Watched folder configuration values constant file {#watched-folder-configuration-values-constant-file}
 
@@ -623,7 +623,7 @@ After you create an Email endpoint, you must enable it. When the endpoint is ena
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Add an Email endpoint using the Java API {#add-an-email-endpoint-using-the-java-api}
 
@@ -695,7 +695,7 @@ Add an Email endpoint by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Email configuration values constant file {#email-configuration-values-constant-file}
 
@@ -808,7 +808,7 @@ After you create a new endpoint, you must enable it. When a Remoting endpoint is
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Add a Remoting endpoint using the Java API {#add-a-remoting-endpoint-using-the-java-api}
 
@@ -848,7 +848,7 @@ Add a Remoting endpoint by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Adding TaskManager Endpoints {#adding-taskmanager-endpoints}
 
@@ -919,7 +919,7 @@ After you create a new endpoint, you must enable it. When the endpoint is enable
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Add a TaskManager endpoint using the Java API {#add-a-taskmanager-endpoint-using-the-java-api}
 
@@ -969,7 +969,7 @@ Add a TaskManager endpoint by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Modifying Endpoints {#modifying-endpoints}
 
@@ -1009,7 +1009,7 @@ To programmatically modify an endpoint, you must create an `EndpointRegistryClie
 
 **Retrieve the endpoint to modify**
 
-Before you can modify an endpoint, you must retrieve it. To retrieve an endpoint, you must connect as a user who can access an endpoint. It is recommended that you connect as an administrator. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)).
+Before you can modify an endpoint, you must retrieve it. To retrieve an endpoint, you must connect as a user who can access an endpoint. It is recommended that you connect as an administrator. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)).
 
 You can retrieve an endpoint by retrieving a list of endpoints. You can then iterate through the list, searching for the specific endpoint to remove. For example, you can locate an endpoint by determining the service that corresponds to the endpoint and the type of endpoint. When you locate the endpoint, you can modify it.
 
@@ -1031,7 +1031,7 @@ When modifying an endpoint, specify new configuration values. For example, to mo
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Modifying an endpoint using the Java API {#modifying-an-endpoint-using-the-java-api}
 
@@ -1071,7 +1071,7 @@ Modify an endpoint by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Removing Endpoints {#removing-endpoints}
 
@@ -1111,7 +1111,7 @@ To programmatically remove an endpoint, you must create an `EndpointRegistryClie
 
 **Retrieve the endpoint to remove**
 
-Before you can remove an endpoint, you must retrieve it. To retrieve an endpoint, you must connect as a user who can access an endpoint. It is recommended that you connect as an administrator. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)).
+Before you can remove an endpoint, you must retrieve it. To retrieve an endpoint, you must connect as a user who can access an endpoint. It is recommended that you connect as an administrator. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)).
 
 You can retrieve an endpoint by retrieving a list of endpoints. You can then iterate through the list, searching for the specific endpoint to remove. For example, you can locate an endpoint by determining the service that corresponds to the endpoint and the type of endpoint. When you locate the endpoint, you can remove it.
 
@@ -1125,7 +1125,7 @@ After you create a new endpoint, you must enable it. When the endpoint is enable
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Setting the EJB connection mode](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-6f3d.2)
 
@@ -1161,7 +1161,7 @@ Remove an endpoint by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Retrieving Endpoint Connector Information {#retrieving-endpoint-connector-information}
 
@@ -1224,7 +1224,7 @@ After you specify the connector type, you can retrieve information about the con
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Retrieve endpoint connector information using the Java API {#retrieve-endpoint-connector-information-using-the-java-api}
 
@@ -1256,4 +1256,4 @@ Retrieve endpoint connector information by using the Java API:
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)

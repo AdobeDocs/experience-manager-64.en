@@ -102,7 +102,7 @@ You can save the password-encrypted PDF document as a PDF file.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
@@ -158,7 +158,7 @@ Encrypt a PDF document with a password by using the Encryption API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Encrypting a PDF document using the web service API {#encrypting-a-pdf-document-using-the-web-service-api}
 
@@ -310,7 +310,7 @@ You can save the encrypted PDF document as a PDF file.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
@@ -377,7 +377,7 @@ Encrypt a PDF document with a certificate by using the Encryption API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Encrypt a PDF document with a certificate using the web service API {#encrypt-a-pdf-document-with-a-certificate-using-the-web-service-api}
 
@@ -518,7 +518,7 @@ After certificate-based encryption is removed from an encrypted PDF document, yo
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
@@ -562,7 +562,7 @@ Remove certificate-based encryption from a PDF document by using the Encryption 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Remove certificate-based encryption using the web service API {#remove-certificate-based-encryption-using-the-web-service-api}
 
@@ -675,7 +675,7 @@ After the Encryption service removes password-based encryption from a PDF docume
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
@@ -832,7 +832,7 @@ After an encrypted PDF document is unlocked, you can perform another service ope
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
@@ -884,7 +884,7 @@ Unlock an encrypted PDF document by using the Encryption API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Unlock an encrypted PDF document using the web service API {#unlock-an-encrypted-pdf-document-using-the-web-service-api}
 
@@ -1007,7 +1007,7 @@ You can determine the type of encryption that is protecting a PDF document. If t
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
@@ -1044,7 +1044,7 @@ Determine the type of encryption that is protecting a PDF document by using the 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Determine the encryption type using the web service API {#determine-the-encryption-type-using-the-web-service-api}
 

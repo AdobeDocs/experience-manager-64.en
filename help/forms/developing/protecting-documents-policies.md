@@ -588,7 +588,7 @@ After the Document Security service applies a policy to a PDF document, you can 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Revoking Access to Documents](protecting-documents-policies.md#revoking_access_to_documents)
 
@@ -642,7 +642,7 @@ For code examples using the Document Security service, see the following Quick S
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Apply a policy to a PDF document using the web service API {#apply-a-policy-to-a-pdf-document-using-the-web-service-api}
 
@@ -751,7 +751,7 @@ After the Document Security service removes a policy from a PDF document, you ca
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Applying Policies to PDF Documents](protecting-documents-policies.md#applying_policies_to_pdf_documents)
 
@@ -891,7 +891,7 @@ To revoke a policy-protected document, specify the license identifier of the pol
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Applying Policies to PDF Documents](protecting-documents-policies.md#applying_policies_to_pdf_documents)
 
@@ -1027,7 +1027,7 @@ To reinstate access to a revoked PDF document, you must specify the license iden
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Applying Policies to PDF Documents](protecting-documents-policies.md#applying_policies_to_pdf_documents)
 
@@ -1163,7 +1163,7 @@ If the document is secured using a policy that is contained in a policy set (oth
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Inspect Policy Protected PDF Documents using the Java API {#inspect-policy-protected-pdf-documents-using-the-java-api}
 
@@ -1175,7 +1175,7 @@ Inspect a policy-protected PDF document by using the Document Security Service A
 
 1. Create a Document Security Client API object.
 
-    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).)
+    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
     * Create a `RightsManagementClient` object by using its constructor and passing the `ServiceClientFactory` object.
 
 1. Retrieve a policy-protected document to inspect.
@@ -1382,7 +1382,7 @@ A new watermark must be registered with the Document Security service before it 
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Applying Policies to PDF Documents](protecting-documents-policies.md#applying_policies_to_pdf_documents)
 
@@ -1528,7 +1528,7 @@ After you modify a watermark’s attributes, you must update the watermark.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Creating Watermarks](protecting-documents-policies.md#creating_watermarks)
 
@@ -1659,7 +1659,7 @@ After you specify the event to search for, you can use either the Rights Managem
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Search for events using the Java API {#search-for-events-using-the-java-api}
 
@@ -1988,7 +1988,7 @@ After the Document Security service applies a policy to a Word document, you can
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Revoking Access to Documents](protecting-documents-policies.md#revoking_access_to_documents)
 
@@ -2143,7 +2143,7 @@ After the Document Security service removes a policy from a Word document, you c
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Applying Policies to Word Documents](protecting-documents-policies.md#applying_policies_to_word_documents)
 

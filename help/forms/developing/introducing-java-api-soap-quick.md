@@ -77,7 +77,7 @@ Most Quick Starts located in *Programming with AEM Forms *invoke a specific serv
 
 >[!NOTE]
 >
->Quick Start located in Programming with AEM Forms are based on AEM Forms being deployed on JBoss® Application Server and the Microsoft® Windows® operating system. However, if you are using another operating system, such as UNIX®, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).)
+>Quick Start located in Programming with AEM Forms are based on AEM Forms being deployed on JBoss® Application Server and the Microsoft® Windows® operating system. However, if you are using another operating system, such as UNIX®, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
 
 >[!NOTE]
 >

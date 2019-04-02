@@ -195,7 +195,7 @@ After the Output service performs an operation, it returns various data items su
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -278,7 +278,7 @@ Create a PDF document by using the Output API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Create a PDF document using the web service API {#create-a-pdf-document-using-the-web-service-api}
 
@@ -464,7 +464,7 @@ After the Output service performs an operation, it returns various data items su
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -540,7 +540,7 @@ Create a PDF/A document by using the Output API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ### Create a PDF/A document using the web service API {#create-a-pdf-a-document-using-the-web-service-api}
 
@@ -683,7 +683,7 @@ You can save the non-interactive form as a PDF file. The form can be viewed in A
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -699,7 +699,7 @@ Pass a document retrieved from Content Services (deprecated) by using the Output
 
 1. Create an Output and a Document Management Client API object.
 
-    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).)
+    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
     * Create an `OutputClient` object by using its constructor and passing the `ServiceClientFactory` object.
     * Create a `DocumentManagementServiceClientImpl` object by using its constructor and passing the `ServiceClientFactory` object.
 
@@ -742,7 +742,7 @@ Pass a document retrieved from Content Services (deprecated) by using the Output
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Pass documents to the Output Service using the web service API {#pass-documents-to-the-output-service-using-the-web-service-api}
 
@@ -886,7 +886,7 @@ You can save the non-interactive form as a PDF file. The form can be viewed in A
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -904,7 +904,7 @@ Pass a document retrieved from the Repository by using the Output service and Re
 
 1. Create an Output and a Document Management Client API object.
 
-    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).)
+    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
     * Create an `OutputClient` object by using its constructor and passing the `ServiceClientFactory` object.
     * Create a `DocumentManagementServiceClientImpl` object by using its constructor and passing the `ServiceClientFactory` object.
 
@@ -939,7 +939,7 @@ Pass a document retrieved from the Repository by using the Output service and Re
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Creating PDF Documents Using Fragments {#creating-pdf-documents-using-fragments}
 
@@ -997,7 +997,7 @@ After the Output service generates a PDF document, you can save it as a PDF file
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -1062,7 +1062,7 @@ Create a PDF document based on fragments by using the Output Service API and Ass
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ### Create a PDF document based on fragments using the web service API {#create-a-pdf-document-based-on-fragments-using-the-web-service-api}
 
@@ -1225,7 +1225,7 @@ After the Output service performs an operation, it returns various data items, s
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -1284,7 +1284,7 @@ Print to a file using the Output API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties).
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ### Print to files using the web service API {#print-to-files-using-the-web-service-api}
 
@@ -1811,7 +1811,7 @@ After the Output service performs an operation, it returns XML data that specifi
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -1871,7 +1871,7 @@ Create multiple PDF files by using the Output API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Create multiple PDF files using the web service API {#create-multiple-pdf-files-using-the-web-service-api}
 
@@ -2031,7 +2031,7 @@ After the Output service performs an operation, it returns XML data that specifi
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -2107,7 +2107,7 @@ Create search rules by using the Output API (Java):
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Create search rules using the web service API {#create-search-rules-using-the-web-service-api}
 
@@ -2276,7 +2276,7 @@ You can save the non-interactive PDF document as a PDF file.
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
@@ -2325,7 +2325,7 @@ Flatten an interactive PDF document to a non-interactive PDF document by using t
 
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting-connection-properties)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Flatten a PDF document using the web service API {#flatten-a-pdf-document-using-the-web-service-api}
 
