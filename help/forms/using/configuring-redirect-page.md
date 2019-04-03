@@ -13,7 +13,7 @@ discoiquuid: c51817aa-193a-4d4f-bd83-06518ddfb395
 
 Form authors can configure a page for each form, to which the form users are redirected after submitting a form.
 
-1. In the edit mode, select a component, then click ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then click ![](assets/cmppr.png-).
+1. In the edit mode, select a component, then click ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then click ![](assets/cmppr.png).
 
 1. In the sidebar, click **Submission**.  
 

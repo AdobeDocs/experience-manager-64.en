@@ -22,7 +22,7 @@ You can configure an adaptive form to automatically start saving the content bas
 
 For an adaptive form, the auto save option is not enabled out of the box. You can enable the auto save option from the **Auto Save** section in the properties of an adaptive form. The **Auto Save **section also provides several other configuration options. Perform the following steps to enable and configure the auto save option for an adaptive form:
 
-1. To access the auto-save section in the properties, select a component, then tap ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![](assets/cmppr.png-).
+1. To access the auto-save section in the properties, select a component, then tap ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![](assets/cmppr.png).
 1. In the **Auto Save** section, **Enable** the auto-save option.
 1. In the **Adaptive Form Event** box, specify 1 or TRUE to automatically start saving the form when the form is loaded in the browser. You can also specify a conditional expression for an event, which when triggered and returns true, starts saving the content of the form.
 1. Specify the Trigger. Auto-save is triggered based on your configuration. Your options are:
@@ -82,7 +82,7 @@ You can implement a custom event to trigger the autosave functionality. Perform 
 
 1. Open the adaptive form in author mode.  
 
-1. In the edit mode, select a component, then tap ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![](assets/cmppr.png-).
+1. In the edit mode, select a component, then tap ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![](assets/cmppr.png).
 1. In th properties, open the **Basic** section. In the **Client Library Category** box, enter the value of the category property defined while creating the client library folders.
 1. Open the Auto Save section. In the **Auto save after this event** box, specify a custom event already defined in the client library. Click **OK**.
 

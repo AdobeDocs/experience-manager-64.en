@@ -73,14 +73,12 @@ When creating a policy using the web service API, reference an existing Portable
           <ns3:Permission PermissionName="com.adobe.aps.pdf.editNotes" Access="ALLOW" xmlns:ns3="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
           <ns4:Permission PermissionName="com.adobe.aps.pdf.fillAndSign" Access="ALLOW" xmlns:ns4="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
-  
           <Principal PrincipalNameType="SYSTEM"> 
              <PrincipalDomain>EDC_SPECIAL</PrincipalDomain> 
   
              <PrincipalName>all_internal_users</PrincipalName> 
           </Principal> 
        </PolicyEntry> 
-  
        <PolicyEntry> 
           <ns5:Permission PermissionName="com.adobe.aps.onlineOpen" Access="ALLOW" xmlns:ns5="https://www.adobe.com/schema/1.0/pdrl" xmlns="https://www.adobe.com/schema/1.0/pdrl-ex" /> 
   
@@ -397,7 +395,7 @@ Modify an existing policy by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see theQuick Start(SOAP mode): Modifying a policy using the Java API in * [API Quick Starts (Code Examples)](/programming-with-aem-forms/.md#java_api_soap_quick_start_code_examples)*.
+For code examples using the Document Security service, see theQuick Start(SOAP mode): Modifying a policy using the Java API in *[API Quick Starts (Code Examples)](/programming-with-aem-forms/.md#java_api_soap_quick_start_code_examples)*.
 
 ### Modify existing policies using the web service API {#modify-existing-policies-using-the-web-service-api}
 
@@ -580,7 +578,7 @@ You can retrieve a PDF document in order to apply a policy. After you apply a po
 
 To apply a policy to a PDF document, reference an existing policy and specify which policy set the policy belongs to. The user who is setting the connection properties must have access to the specified policy. If not, an exception occurs.
 
-**Save the PDF document **
+**Save the PDF document**
 
 After the Document Security service applies a policy to a PDF document, you can save the policy-protected PDF document as a PDF file.
 
@@ -743,7 +741,7 @@ You can retrieve a policy-protected PDF document in order to remove a policy. If
 
 You can remove a policy from a policy-protected PDF document provided that an administrator is specified in the connection settings. If not, then the policy used to secure a document must contain the `SWITCH_POLICY` permission in order to remove a policy from a PDF document. Also, the user specified in the AEM Forms connection settings must also have that permission. Otherwise, an exception is thrown.
 
-**Save the unsecured PDF document **
+**Save the unsecured PDF document**
 
 After the Document Security service removes a policy from a PDF document, you can save the unsecured PDF document as a PDF file.
 
@@ -1392,7 +1390,7 @@ Create a watermark by using the Document Security API (Java):
 
 1. Include project files.
 
-   Include client JAR files, such as the adobe-rightsmanagement-client.jar, in your Java project’s class path. 
+   Include client JAR files, such as the `adobe-rightsmanagement-client.jar`, in your Java project’s class path. 
 
 1. Create a Document Security Client API object.
 
@@ -1729,203 +1727,203 @@ Search for events by using the Rights Management API (web service):
     * Set the event to search for by assigning a string value to the `EventSpec` object’s `eventCode` data member. The following table lists the numeric values that you can assign to this property:
 
     <table> 
- <thead align="left"> 
-  <tr> 
-   <th class="cellrowborder" id="d19e50725" valign="top" width="NaN%"><p>Event type</p></th> 
-   <th class="cellrowborder" id="d19e50728" valign="top" width="NaN%"><p>Value</p></th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ALL_EVENTS</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>999</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_CHANGE_PASSWORD_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1000</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_REGISTER_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1001</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_PREREGISTER_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1002</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_ACTIVATE_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1003</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_DEACTIVATE_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1004</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_AUTHENTICATE_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1005</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_AUTHENTICATE_DENY_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1006</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_ACCOUNT_LOCK_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1007</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_DELETE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1008</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_UPDATE_PROFILE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1009</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_VIEW_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2000</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_PRINT_LOW_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2001</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_PRINT_HIGH_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2002</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_SIGN_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2003</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_ADD_ANNOTATION_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2004</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_FORM_FILL_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2005</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_CLOSE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2006</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_MODIFY_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2007</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_CHANGE_SECURITY_HANDLER_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2008</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_SWITCH_POLICY_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2009</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_REVOKE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2010</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_UNREVOKE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2011</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_SECURE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2012</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_UNKNOWN_CLIENT_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2013</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_CHANGE_REVOKE_URL_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2014</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_CHANGE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3000</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_ENABLE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3001</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_DISABLE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3002</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_CREATE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3003</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_DELETE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3004</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_CHANGE_OWNER_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3005</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_CLIENT_SYNC_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4000</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_SYNC_DIR_INFO_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4001</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_SYNC_DIR_COMPLETE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4002</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_VERSION_MISMATCH_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4003</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_CONFIG_CHANGE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4004</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_ENABLE_OFFLINE_ACCESS_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4005</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_ADD_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5000</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_DELETE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5001</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_EDIT_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5002</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_ACTIVATE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5003</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_DEACTIVATE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5004</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ERROR_DIRECTORY_SERVICE_EVENT </span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>6000</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">CREATED_POLICYSET_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7000</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DELETED_POLICYSET_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7001</p></td> 
-  </tr> 
-  <tr> 
-   <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">MODIFIED_POLICYSET_EVENT</span></p></td> 
-   <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7002</p></td> 
-  </tr> 
- </tbody> 
-</table>
+    <thead align="left"> 
+    <tr> 
+    <th class="cellrowborder" id="d19e50725" valign="top" width="NaN%"><p>Event type</p></th> 
+    <th class="cellrowborder" id="d19e50728" valign="top" width="NaN%"><p>Value</p></th> 
+    </tr> 
+    </thead> 
+    <tbody> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ALL_EVENTS</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>999</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_CHANGE_PASSWORD_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1000</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_REGISTER_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1001</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_PREREGISTER_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1002</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_ACTIVATE_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1003</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_DEACTIVATE_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1004</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_AUTHENTICATE_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1005</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_AUTHENTICATE_DENY_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1006</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_ACCOUNT_LOCK_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1007</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_DELETE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1008</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">USER_UPDATE_PROFILE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1009</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_VIEW_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2000</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_PRINT_LOW_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2001</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_PRINT_HIGH_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2002</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_SIGN_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2003</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_ADD_ANNOTATION_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2004</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_FORM_FILL_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2005</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_CLOSE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2006</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_MODIFY_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2007</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_CHANGE_SECURITY_HANDLER_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2008</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_SWITCH_POLICY_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2009</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_REVOKE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2010</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_UNREVOKE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2011</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_SECURE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2012</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_UNKNOWN_CLIENT_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2013</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DOCUMENT_CHANGE_REVOKE_URL_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2014</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_CHANGE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3000</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_ENABLE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3001</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_DISABLE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3002</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_CREATE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3003</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_DELETE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3004</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">POLICY_CHANGE_OWNER_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3005</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_CLIENT_SYNC_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4000</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_SYNC_DIR_INFO_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4001</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_SYNC_DIR_COMPLETE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4002</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_VERSION_MISMATCH_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4003</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_CONFIG_CHANGE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4004</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">SERVER_ENABLE_OFFLINE_ACCESS_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4005</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_ADD_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5000</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_DELETE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5001</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_EDIT_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5002</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_ACTIVATE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5003</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ADMIN_DEACTIVATE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5004</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">ERROR_DIRECTORY_SERVICE_EVENT </span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>6000</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">CREATED_POLICYSET_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7000</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">DELETED_POLICYSET_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7001</p></td> 
+    </tr> 
+    <tr> 
+    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><span class="code">MODIFIED_POLICYSET_EVENT</span></p></td> 
+    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7002</p></td> 
+    </tr> 
+    </tbody> 
+    </table>
 
 1. Search for the event
 
@@ -2141,7 +2139,7 @@ After the Document Security service removes a policy from a Word document, you c
 
 **See also**
 
-<!--BROKEN [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)-->
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -2227,7 +2225,7 @@ Remove a policy from a policy-protected Word document by using the Document Secu
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/programming-with-aem-forms/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Start in *[API Quick Starts (Code Examples)](/programming-with-aem-forms/.md#java_api_soap_quick_start_code_examples)*:
 
 * “Quick Start (MTOM): Removing a policy from a Word document using the web service API”
 
