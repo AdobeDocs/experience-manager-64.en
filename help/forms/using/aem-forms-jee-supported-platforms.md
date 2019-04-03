@@ -391,11 +391,9 @@ In addition, consider the following points while choosing software for Adobe AEM
 
 ### Email servers (optional) {#email-servers-optional}
 
-| Product |
-|---|
-| IBM Lotus Domino 9.0 |
-| Microsoft Exchange 2013 |
-| Microsoft Office 365 |
+* IBM Lotus Domino 9.0
+* Microsoft Exchange 2013
+* Microsoft Office 365
 
 ### Content managers and corresponding connectors {#content-managers-and-corresponding-connectors}
 
@@ -619,9 +617,9 @@ For additional reuirements see:
 
 * Microsoft® Windows® 2012 Server R2, Microsoft® Windows® 2016 Server, Microsoft Windows 10
 
-    * 1 GHz or faster processor with support for PAE, NX, and SSE2.  
-    * 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS  
-    * 16 GB disk space for 32-bit or 20 GB disk space for 64-bit OS
+  * 1 GHz or faster processor with support for PAE, NX, and SSE2.  
+  * 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS  
+  * 16 GB disk space for 32-bit or 20 GB disk space for 64-bit OS
 
 * Graphics memory - 128 MB of GPU (256 MB recommended)
 * 2.35 GB of available hard-disk space
