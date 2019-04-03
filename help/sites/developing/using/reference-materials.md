@@ -16,7 +16,7 @@ discoiquuid: 39d1cb2e-18f5-4d08-b983-a06b1f470c51
 
 AEM provides several APIs for developing applications. The following list provides the documentation for APIs supported by AEM:
 
-* [Adobe AEM 6.4.0 API](/sites/developing/using/reference-materials/javadoc/index.md)  
+* [Adobe AEM 6.4.0 API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.md)  
 
 * [API Differences](/sites/developing/using/reference-materials/diff-previous/changes.md)  
 

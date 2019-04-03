@@ -104,7 +104,7 @@ When authoring pages, the user must often select from resources (e.g. pages, com
 
 In order to keep the list to a reasonable size and also relevant to the use case, a filter can be implemented in the form of a custom predicate. For example, if the ` [pathbrowser](/sites/developing/using/reference-materials/granite-ui/api/index.md)` [Granite](../../../sites/developing/using/touch-ui-concepts.md#granite-ui) component is used to allow the user to select the path to a particular resource, the paths presented can be filtered in the following way:
 
-* Implement the custom predicate by implementing ` [com.day.cq.commons.predicate.AbstractNodePredicate](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/predicate/package-summary.md)` interface.
+* Implement the custom predicate by implementing ` [com.day.cq.commons.predicate.AbstractNodePredicate](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/predicate/package-summary.md)` interface.
 * Specify a name for the predicate, and refer that name when using the `pathbrowser`.
 
 For further detail on creating a custom predicate, see [this article](../../../sites/developing/using/implementing-custom-predicate-evaluator.md).

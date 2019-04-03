@@ -17,11 +17,11 @@ tagskeywords: querybuilder
 
 The functionality of the [Asset Share Query Builder](../../../assets/using/assets-finder-editor.md) is exposed through a Java API and a REST API. This section describes these APIs.
 
-The server-side query builder ( ` [QueryBuilder](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md)`) will accept a query description, create and run an XPath query, optionally filter the result set, and also extract facets, if desired.
+The server-side query builder ( ` [QueryBuilder](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md)`) will accept a query description, create and run an XPath query, optionally filter the result set, and also extract facets, if desired.
 
-The query description is simply a set of predicates ( ` [Predicate](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/Predicate.md)`). Examples include a full-text predicate, which corresponds to the `jcr:contains()` function in XPath, and an image size predicate that looks for width and height properties in the DAM asset subtree.
+The query description is simply a set of predicates ( ` [Predicate](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/Predicate.md)`). Examples include a full-text predicate, which corresponds to the `jcr:contains()` function in XPath, and an image size predicate that looks for width and height properties in the DAM asset subtree.
 
-For each predicate type, there is an evaluator component ( ` [PredicateEvaluator](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.md)`) that knows how to handle that specific predicate for XPath, filtering, and facet extraction. It is very easy to create custom evaluators, which are plugged-in through the OSGi component runtime.
+For each predicate type, there is an evaluator component ( ` [PredicateEvaluator](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.md)`) that knows how to handle that specific predicate for XPath, filtering, and facet extraction. It is very easy to create custom evaluators, which are plugged-in through the OSGi component runtime.
 
 The REST API provides access to exactly the same features through HTTP with responses being sent in JSON.
 
@@ -131,7 +131,7 @@ By default the Query Builder would also provide the number of hits. Depending on
 
 For example, the UI can adapt following approach:
 
-* Get and display the accurate count of the number of total hits ([SearchResult.getTotalMatches()](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/SearchResult.md#gettotalmatches) or total in the querybuilder.json response) are less than or equal to 100;
+* Get and display the accurate count of the number of total hits ([SearchResult.getTotalMatches()](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/SearchResult.md#gettotalmatches) or total in the querybuilder.json response) are less than or equal to 100;
 * Set `guessTotal` to 100 while making the call to the Query Builder.  
 
 * The response can have the following outcome:
@@ -375,9 +375,9 @@ p.nodedepth=5
 
 For more predicates, see the [Query Builder Predicate Reference page](../../../sites/developing/using/querybuilder-predicate-reference.md).
 
-You can also check the [Javadoc for the `*PredicateEvaluator` classes](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.md). The Javadoc for these classes contains the list of properties that you can use.
+You can also check the [Javadoc for the `*PredicateEvaluator` classes](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.md). The Javadoc for these classes contains the list of properties that you can use.
 
-The prefix of the class name (for example, " `similar`" in ` [SimilarityPredicateEvaluator](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/SimilarityPredicateEvaluator.md)`) is the *principal property* of the class. This property is also the name of the predicate to use in the query (in lower case).
+The prefix of the class name (for example, " `similar`" in ` [SimilarityPredicateEvaluator](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/SimilarityPredicateEvaluator.md)`) is the *principal property* of the class. This property is also the name of the predicate to use in the query (in lower case).
 
 For such principal properties, you can shorten the query and use " `similar=/content/en`" instead of the fully qualified variant " `similar.similar=/content/en`". The fully qualified form must be used for all non-principal properties of a class.
 
@@ -453,13 +453,13 @@ Queries can be stored to the repository so that you can use them later. The `Que
 void storeQuery(Query query, String path, boolean createFile, Session session) throws RepositoryException, IOException;
 ```
 
-When using the [ `QueryBuilder#storeQuery`](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md#storequerycomdaycqsearchqueryjavalangstringbooleanjavaxjcrsession) method, the given `Query` is stored into the repository as a file or as a property according to the `createFile` argument value. The following example shows how to save a `Query` to the path `/mypath/getfiles` as a file:
+When using the [ `QueryBuilder#storeQuery`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md#storequerycomdaycqsearchqueryjavalangstringbooleanjavaxjcrsession) method, the given `Query` is stored into the repository as a file or as a property according to the `createFile` argument value. The following example shows how to save a `Query` to the path `/mypath/getfiles` as a file:
 
 ```java
 builder.storeQuery(query, "/mypath/getfiles", true, session);
 ```
 
-Any previously stored queries can be loaded from the repository by using the ` [QueryBuilder#loadQuery](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md#loadqueryjavalangstringjavaxjcrsession)` method:
+Any previously stored queries can be loaded from the repository by using the ` [QueryBuilder#loadQuery](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md#loadqueryjavalangstringjavaxjcrsession)` method:
 
 ```java
 Query loadQuery(String path, Session session) throws RepositoryException, IOException
@@ -583,11 +583,11 @@ com.day.cq.search.impl.builder.QueryImpl query execution took 272 ms
 
 | **Javadoc** |**Description** |
 |---|---|
-| [com.day.cq.search](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/package-summary.md) |Basic QueryBuilder and Query API |
-| [com.day.cq.search.result](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/package-summary.md) |Result API |
-| [com.day.cq.search.facets](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/package-summary.md) |Facets |
-| [com.day.cq.search.facets.buckets](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/buckets/package-summary.md) |Buckets (contained within facets) |
-| [com.day.cq.search.eval](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.md) |Predicate Evaluators |
-| [com.day.cq.search.facets.extractors](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/extractors/package-summary.md) |Facet Extractors (for evaluators) |
-| [com.day.cq.search.writer](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/writer/package-summary.md) |JSON Result Hit Writer for Querybuilder servlet (/bin/querybuilder.json) |
+| [com.day.cq.search](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/package-summary.md) |Basic QueryBuilder and Query API |
+| [com.day.cq.search.result](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/package-summary.md) |Result API |
+| [com.day.cq.search.facets](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/package-summary.md) |Facets |
+| [com.day.cq.search.facets.buckets](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/buckets/package-summary.md) |Buckets (contained within facets) |
+| [com.day.cq.search.eval](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.md) |Predicate Evaluators |
+| [com.day.cq.search.facets.extractors](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/extractors/package-summary.md) |Facet Extractors (for evaluators) |
+| [com.day.cq.search.writer](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/writer/package-summary.md) |JSON Result Hit Writer for Querybuilder servlet (/bin/querybuilder.json) |
 
