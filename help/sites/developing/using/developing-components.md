@@ -110,7 +110,7 @@ The [edit behavior of a component is configured](../../../sites/developing/using
 
 ## Configuring the Preview Behavior {#configuring-the-preview-behavior}
 
-The [WCM Mode](https://helpx.adobe.com/experience-manager/6-4https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) cookie is set when switching to **Preview** mode even when the page is not refreshed.
+The [WCM Mode](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) cookie is set when switching to **Preview** mode even when the page is not refreshed.
 
 For components with a rendering that are sensitive to the WCM Mode, they need to be defined to refresh themselves specifically, then rely on the value of the cookie.
 
