@@ -29,7 +29,7 @@ These naming conventions are implemented at various levels:
 
 ### JCR Utilities {#jcr-utilities}
 
-[JcrUtil](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/commons/jcr/JcrUtil.md) is the AEM implementation of the JCR utilities. Of particular interest to validating names are the character mappings that it controls and the following validations:
+[JcrUtil](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/commons/jcr/JcrUtil.md) is the AEM implementation of the JCR utilities. Of particular interest to validating names are the character mappings that it controls and the following validations:
 
 * `isValidName`
 
@@ -43,7 +43,7 @@ These naming conventions are implemented at various levels:
 
 ### Page Manager {#page-manager}
 
-[PageManager](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager.md) provides methods for page level operations, based on [JCRUtil](#jcr-utilities).
+[PageManager](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager.md) provides methods for page level operations, based on [JCRUtil](#jcr-utilities).
 
 ### Standard UI {#standard-ui}
 
