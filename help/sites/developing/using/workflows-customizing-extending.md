@@ -832,7 +832,7 @@ An easy way to start creating your own custom step is to copy an existing step f
       Is the title displayed when the component is listed in the step browser (left side panel of the workflow model editor).
     
     * `cq:icon`  
-      Used to specify a [Coral icon](/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon) for the step.
+      Used to specify a [Coral icon](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon) for the step.
     
     * `componentGroup`  
       Must be one of the following:

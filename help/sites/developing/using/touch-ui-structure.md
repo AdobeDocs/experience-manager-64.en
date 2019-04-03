@@ -25,7 +25,7 @@ All modules use the same basic layout, in AEM this can be seen as:
 
 ![](assets/chlimage_1-142.png)
 
-The layout adheres to a responsive design style and will accomodate itself to the size of the device/window you are using.
+The layout adheres to a responsive design style and will accommodate itself to the size of the device/window you are using.
 
 For example, when the resolution goes below 1024px (as on a mobile device) the display will be adjusted accordingly:
 
@@ -162,5 +162,5 @@ Depending on the space available, the component toolbars are positioned at the t
 
 For more details about the concepts around the touch-enabled UI, continue to the article [Concepts of the AEM Touch-Enabled UI](../../../sites/developing/using/touch-ui-concepts.md).
 
-For further technical information see the [JS documentation set](/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index.md) for the touch-enabled page editor.  
+For further technical information see the [JS documentation set](https://helpx.adobe.com/experience-manager/6-4/sites/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index.md) for the touch-enabled page editor.  
 

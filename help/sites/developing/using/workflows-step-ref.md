@@ -337,7 +337,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
 1. **Example Dialog Definition**
 
-   The following XML code snippet represents a dialog that stores a `String` value in the `watchEmail` node of the payload content. The title node represents the [TextField](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/form/textfield/index.md) component:
+   The following XML code snippet represents a dialog that stores a `String` value in the `watchEmail` node of the payload content. The title node represents the [TextField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/form/textfield/index.md) component:
 
    ```xml
    jcr:primaryType="nt:unstructured" 
