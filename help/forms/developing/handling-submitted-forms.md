@@ -18,7 +18,7 @@ discoiquuid: 3d838027-6bde-4a71-a428-4d5102f7d799
 
 Web-based applications that enable a user to fill in interactive forms require the data to be submitted back to the server. Using the Forms service, you can retrieve the data that the user entered into an interactive form. After you retrieve the data, you can process the data to meet your business requirements. For example, you can store the data in a database, send the data to another application, send the data to another service, merge the data in a form design, display the data in a web browser, and so on.
 
-Form data is submitted to the Forms service as either XML or PDF data, which is an option that is set in Designer. A form that is submitted as XML enables you to extract individual field data values. That is, you can extract the value of each form field that the user entered into the form. A form that is submitted as PDF data is binary data, not XML data. You can save the form as a PDF file, or send the form to another service. If you want to extract data from a form submitted as XML and then use the form data to create a PDF document, invoke another AEM Forms operation. (See [Creating PDF Documents with Submitted XML Data](/programming-with-aem-forms/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml.md#creating_pdf_documents_with_submitted_xml_data))
+Form data is submitted to the Forms service as either XML or PDF data, which is an option that is set in Designer. A form that is submitted as XML enables you to extract individual field data values. That is, you can extract the value of each form field that the user entered into the form. A form that is submitted as PDF data is binary data, not XML data. You can save the form as a PDF file, or send the form to another service. If you want to extract data from a form submitted as XML and then use the form data to create a PDF document, invoke another AEM Forms operation. (See [Creating PDF Documents with Submitted XML Data](/help/forms/developing/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml.md#creating_pdf_documents_with_submitted_xml_data))
 
 The following diagram shows data being submitted to a Java Servlet named `HandleData` from an interactive form displayed in a web browser.
 
@@ -159,7 +159,7 @@ The Forms service returns the following values to indicate whether it has finish
 
 >[!NOTE]
 >
->Calculations and validations must be rendered back to the user. (See [Calculating Form Data](/programming-with-aem-forms/rendering-forms-rendering-forms calculating-form-data-calculating-form calculating-form-data-calculating-form.md#calculating_form_data)*.)*
+>Calculations and validations must be rendered back to the user. (See [Calculating Form Data](/help/forms/developing/rendering-forms-rendering-forms calculating-form-data-calculating-form calculating-form-data-calculating-form.md#calculating_form_data)*.)*
 
 **Determine if the form submission contains file attachments**
 
@@ -177,9 +177,9 @@ Depending on the content type of the submitted data, you can extract individual 
 
 **See also**
 
-[Handle submitted forms using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted.md#handle_submitted_forms_using_the_java_api)
+[Handle submitted forms using the Java API](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted.md#handle_submitted_forms_using_the_java_api)
 
-[Handle submitted PDF data using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted.md#handle_submitted_pdf_data_using_the_web_service_api)
+[Handle submitted PDF data using the web service API](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted.md#handle_submitted_pdf_data_using_the_web_service_api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -187,9 +187,9 @@ Depending on the content type of the submitted data, you can extract individual 
 
 [Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Passing Documents to the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing_documents_to_the_forms_service)
+[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing_documents_to_the_forms_service)
 
-[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
 
 ### Handle submitted forms using the Java API {#handle-submitted-forms-using-the-java-api}
 
@@ -252,7 +252,7 @@ Handle a submitted form by using the Forms API (Java):
 
 **See also**
 
-[Handling Submitted Forms](/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling_submitted_forms)
+[Handling Submitted Forms](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling_submitted_forms)
 
 [Quick Start (SOAP mode): Handling PDF forms submitted as XML using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2d.2)
 
@@ -330,7 +330,7 @@ Handle a submitted form by using the Forms API (web service):
 
 **See also**
 
-[Handling Submitted Forms](/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling_submitted_forms)
+[Handling Submitted Forms](/help/forms/developing/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling_submitted_forms)
 
 [Quick Start (Base64): Handling submitted forms using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2c.2)
 

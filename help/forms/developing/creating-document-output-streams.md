@@ -68,7 +68,7 @@ You can use the Output service to create a PDF document that is based on a form 
 
 If you want to create a PDF document meant for long-term storage, it is recommended that you create a PDF/A document. (See [Creating PDF/A Documents](creating-document-output-streams.md#creating_pdf_a_documents).)
 
-To create an interactive PDF form that lets a user enter data, use the Forms service. (See [Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms.md#rendering_interactive_pdf_forms).)
+To create an interactive PDF form that lets a user enter data, use the Forms service. (See [Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms.md#rendering_interactive_pdf_forms).)
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ If the XDP file contains images (or other resources such as fragments), place th
 
 >[!NOTE]
 >
->To see a complete quick start that creates a PDF document by referencing a XDP located in a Forms application, see [Quick Start (EJB mode): Creating a PDF document based on an application XDP file using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_based_on_an_application_xdp_file_using_the_java_api).
+>To see a complete quick start that creates a PDF document by referencing a XDP located in a Forms application, see [Quick Start (EJB mode): Creating a PDF document based on an application XDP file using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_based_on_an_application_xdp_file_using_the_java_api).
 
 **Retrieve the results of the operation**
 
@@ -193,11 +193,11 @@ After the Output service performs an operation, it returns various data items su
 
 [Create a PDF document using the web service API](creating-document-output-streams.md#create_a_pdf_document_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
 ### Create a PDF document using the Java API {#create-a-pdf-document-using-the-java-api}
 
@@ -233,7 +233,7 @@ Create a PDF document by using the Output API (Java):
 
    >[!NOTE]
    >
-   >You cannot set the linearized PDF option by using the `RenderOptionsSpec` object’s `setLinearizedPDF` method if the input PDF document is certified or digitally signed. (See [Digitally Signing PDF Documents](/programming-with-aem-forms/digitally-signing-certifying-documents.md#digitally_signing_pdf_documents)*.)*
+   >You cannot set the linearized PDF option by using the `RenderOptionsSpec` object’s `setLinearizedPDF` method if the input PDF document is certified or digitally signed. (See [Digitally Signing PDF Documents](/help/forms/developing/digitally-signing-certifying-documents.md#digitally_signing_pdf_documents)*.)*
 
 1. Generate a PDF document.
 
@@ -250,7 +250,7 @@ Create a PDF document by using the Output API (Java):
 
    >[!NOTE]
    >
-   >When generating a PDF document by invoking the `generatePDFOutput` method, be aware that you cannot merge data with an XFA PDF form that is signed or certified. (See [Digitally Signing and Certifying Documents](/programming-with-aem-forms/digitally-signing-certifying-documents.md#digitally_signing_and_certifying_documents)*.)*
+   >When generating a PDF document by invoking the `generatePDFOutput` method, be aware that you cannot merge data with an XFA PDF form that is signed or certified. (See [Digitally Signing and Certifying Documents](/help/forms/developing/digitally-signing-certifying-documents.md#digitally_signing_and_certifying_documents)*.)*
 
    >[!NOTE]
    >
@@ -272,11 +272,11 @@ Create a PDF document by using the Output API (Java):
 
 [Summary of steps](creating-document-output-streams.md#summary_of_steps)
 
-[Quick Start (EJB mode): Creating a PDF document using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_using_the_java_api)
+[Quick Start (EJB mode): Creating a PDF document using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_using_the_java_api)
 
-[Quick Start (SOAP mode): Creating a PDF document using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Creating a PDF document using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -329,7 +329,7 @@ Create a PDF document by using the Output API (web service):
 
    >[!NOTE]
    >
-   >You cannot set the linearized PDF option by using the `RenderOptionsSpec` object’s `linearizedPDF` member if the input PDF document is certified or digitally signed. (See [Digitally Signing PDF Documents](/programming-with-aem-forms/digitally-signing-certifying-documents.md#digitally_signing_pdf_documents)*.)*
+   >You cannot set the linearized PDF option by using the `RenderOptionsSpec` object’s `linearizedPDF` member if the input PDF document is certified or digitally signed. (See [Digitally Signing PDF Documents](/help/forms/developing/digitally-signing-certifying-documents.md#digitally_signing_pdf_documents)*.)*
 
 1. [Generate a PDF document](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7d45.2).
 
@@ -347,7 +347,7 @@ Create a PDF document by using the Output API (web service):
 
    >[!NOTE]
    >
-   >When generating a PDF document by invoking the `generatePDFOutput` method, be aware that you cannot merge data with an XFA PDF form that is signed or certified. (See [Digitally Signing and Certifying Documents](/programming-with-aem-forms/digitally-signing-certifying-documents.md#digitally_signing_and_certifying_documents)*.)*
+   >When generating a PDF document by invoking the `generatePDFOutput` method, be aware that you cannot merge data with an XFA PDF form that is signed or certified. (See [Digitally Signing and Certifying Documents](/help/forms/developing/digitally-signing-certifying-documents.md#digitally_signing_and_certifying_documents)*.)*
 
    >[!NOTE]
    >
@@ -368,9 +368,9 @@ Create a PDF document by using the Output API (web service):
 
    [Quick Start (SwaRef): Creating a PDF document using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d95.2)
 
-   [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+   [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-   [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+   [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
    >[!NOTE]
    >
@@ -384,7 +384,7 @@ The PDF/A-1 specification consists of two levels of conformance, namely a and b.
 
 Although PDF/A is the standard for archiving PDF documents, it is not mandatory that PDF/A be used for archiving if a standard PDF document meets your company’s needs. The purpose of the PDF/A standard is to establish a PDF file that can be stored for a long period of time as well as meet document preservation requirements. For example, a URL cannot be embedded in a PDF/A because over time the URL may become invalid.
 
-Your organization must assess its own needs, the length of time you intend to keep the document, file size considerations, and determine your own archiving strategy. You can programmatically determine if a PDF document is PDF/A compliant by using the DocConverter service. (See [Programmatically Determining PDF/A Compliancy](/programming-with-aem-forms/pdf-a-documents.md#programmatically_determining_pdf_a_compliancy).)
+Your organization must assess its own needs, the length of time you intend to keep the document, file size considerations, and determine your own archiving strategy. You can programmatically determine if a PDF document is PDF/A compliant by using the DocConverter service. (See [Programmatically Determining PDF/A Compliancy](/help/forms/developing/pdf-a-documents.md#programmatically_determining_pdf_a_compliancy).)
 
 A PDF/A document must use the font that is specified in the form design and fonts cannot be substituted. As a result, if a font that is located within a PDF document is not available on the host operating system (OS), then an exception occurs.
 
@@ -462,11 +462,11 @@ After the Output service performs an operation, it returns various data items su
 
 [Create a PDF/A document using the web service API](creating-document-output-streams.md#create_a_pdf_a_document_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
 ### Create a PDF/A document using the Java API {#create-a-pdf-a-document-using-the-java-api}
 
@@ -538,7 +538,7 @@ Create a PDF/A document by using the Output API (Java):
 
 [Quick Start (SOAP mode): Creating a PDF/A document using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d90.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
@@ -623,9 +623,9 @@ Create a PDF/A document by using the Output API (web service):
 
 [Quick Start (SwaRef): Creating a PDF/A document using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d8e.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Passing Documents located in Content Services (deprecated) to the Output Service {#passing-documents-located-in-content-services-deprecated-to-the-output-service}
 
@@ -681,11 +681,11 @@ You can save the non-interactive form as a PDF file. The form can be viewed in A
 
 [Pass documents to the Output Service using the web service API](creating-document-output-streams.md#pass_documents_to_the_output_service_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
 [Creating PDF Documents Using Fragments](creating-document-output-streams.md#creating_pdf_documents_using_fragments)
 
@@ -736,11 +736,11 @@ Pass a document retrieved from Content Services (deprecated) by using the Output
 
 [Summary of steps](creating-document-output-streams.md#summary_of_steps)
 
-[Quick Start (EJB mode): Passing documents to the Output Service using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_passing_documents_to_the_output_service_using_the_java_api)
+[Quick Start (EJB mode): Passing documents to the Output Service using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_passing_documents_to_the_output_service_using_the_java_api)
 
 [Quick Start (SOAP mode): Passing documents to the Output Service using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d8b.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -816,7 +816,7 @@ Pass a document retrieved from Content Services (deprecated) by using the Output
 
 [Summary of steps](creating-document-output-streams.md#summary_of_steps)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
 [Quick Start (MTOM): Passing documents to the Output Service using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d8a.2)
 
@@ -836,9 +836,9 @@ You can programmatically retrieve Loan.xdp from the AEM Forms repository and pas
 
 You can create a PDF based on an XDP file located in the repository using one of two ways. You can pass the XDP loction by reference or you can programmatically retrieve the XDP from the repository and pass it to the Output service within an XDP file.
 
-[Quick Start (EJB mode): Creating a PDF document based on an application XDP file using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_based_on_an_application_xdp_file_using_the_java_api) (shows how to pass the location of the XDP file by reference).
+[Quick Start (EJB mode): Creating a PDF document based on an application XDP file using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_based_on_an_application_xdp_file_using_the_java_api) (shows how to pass the location of the XDP file by reference).
 
-[Quick Start (EJB mode): Passing a document located in the AEM Forms Repository to the Output service using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_passing_a_document_located_in_the_repository_to_the_output_service_using_the_java_api) (shows how to programmatically retrieve the XDP file from the AEM Forms Repository and pass it to the Output service within a `com.adobe.idp.Document` instance). (This section discusses how to perform this task)
+[Quick Start (EJB mode): Passing a document located in the AEM Forms Repository to the Output service using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_passing_a_document_located_in_the_repository_to_the_output_service_using_the_java_api) (shows how to programmatically retrieve the XDP file from the AEM Forms Repository and pass it to the Output service within a `com.adobe.idp.Document` instance). (This section discusses how to perform this task)
 
 >[!NOTE]
 >
@@ -864,7 +864,7 @@ Before you can programmatically perform a Output service API operation, create a
 
 **Retrieve the form design from the AEM Forms Repository**
 
-Retrieve the XDP file from the AEM Forms Repository by using the Repository API. (See [Reading Resources](/programming-with-aem-forms/aem-forms-repository.md#reading_resources).)
+Retrieve the XDP file from the AEM Forms Repository by using the Repository API. (See [Reading Resources](/help/forms/developing/aem-forms-repository.md#reading_resources).)
 
 The XDP file is returned within a `com.adobe.idp.Document` instance (or a `BLOB` instance if you are using web services). You can then pass the `com.adobe.idp.Document` instance o the Output service.
 
@@ -884,11 +884,11 @@ You can save the non-interactive form as a PDF file. The form can be viewed in A
 
 [Pass documents located in the Repository to the Output Service using the Java API](creating-document-output-streams.md#pass_documents_located_in_the_repository_to_the_output_service_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
 [Retrieving Content from Content Services (deprecated)](unresolvedlink-lc-cs-api-retrieve-content-rc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffc.2)
 
@@ -935,9 +935,9 @@ Pass a document retrieved from the Repository by using the Output service and Re
 
 [Summary of steps](creating-document-output-streams.md#summary_of_steps)
 
-[Quick Start (EJB mode): Passing a document located in the AEM Forms Repository to the Output service using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_passing_a_document_located_in_the_repository_to_the_output_service_using_the_java_api)
+[Quick Start (EJB mode): Passing a document located in the AEM Forms Repository to the Output service using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_passing_a_document_located_in_the_repository_to_the_output_service_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -949,7 +949,7 @@ The following illustration shows this workflow.
 
 ![](assets/cp_cp_outputassemblefragments.png)
 
-Before reading *Creating PDF Documents using Fragments*, it is recommended that you become familiar with using the Assembler service to assemble multiple XDP documents. (See [Assembling Multiple XDP Fragments](/programming-with-aem-forms/assembling-pdf-documents.md#assembling_multiple_xdp_fragments).)
+Before reading *Creating PDF Documents using Fragments*, it is recommended that you become familiar with using the Assembler service to assemble multiple XDP documents. (See [Assembling Multiple XDP Fragments](/help/forms/developing/assembling-pdf-documents.md#assembling_multiple_xdp_fragments).)
 
 >[!NOTE]
 >
@@ -995,13 +995,13 @@ After the Output service generates a PDF document, you can save it as a PDF file
 
 [Create a PDF document based on fragments using the web service API](creating-document-output-streams.md#create_a_pdf_document_based_on_fragments_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
-[Assembling Multiple XDP Fragments](/programming-with-aem-forms/assembling-pdf-documents.md#assembling_multiple_xdp_fragments)
+[Assembling Multiple XDP Fragments](/help/forms/developing/assembling-pdf-documents.md#assembling_multiple_xdp_fragments)
 
 [Creating PDF Documents](creating-document-output-streams.md#creating_pdf_documents)
 
@@ -1056,11 +1056,11 @@ Create a PDF document based on fragments by using the Output Service API and Ass
 
 [Summary of steps](creating-document-output-streams.md#summary_of_steps)
 
-[Quick Start (EJB mode): Creating a PDF document based on fragments using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_based_on_fragments_using_the_java_api)
+[Quick Start (EJB mode): Creating a PDF document based on fragments using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_based_on_fragments_using_the_java_api)
 
 [Quick Start (SOAP mode): Creating a PDF document based on fragments using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d84.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
@@ -1147,7 +1147,7 @@ Create a PDF document based on fragments by using the Output Service API and Ass
 
 [Quick Start (MTOM): Creating a PDF document based on fragments using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d83.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
 ## Printing to Files {#printing-to-files}
 
@@ -1191,7 +1191,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-if AEM Forms is deployed on a supported J2EE application server that is not JBoss, you will need to replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. (See [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).)
+if AEM Forms is deployed on a supported J2EE application server that is not JBoss, you will need to replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. (See [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).)
 
 **Create an Output Client object**
 
@@ -1223,11 +1223,11 @@ After the Output service performs an operation, it returns various data items, s
 
 [Print to files using the web service API](creating-document-output-streams.md#print_to_files_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
 ### Print to files using the Java API {#print-to-files-using-the-java-api}
 
@@ -1282,7 +1282,7 @@ Print to a file using the Output API (Java):
 
 [Quick Start (SOAP mode): Printing to a file using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d80.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
@@ -1354,9 +1354,9 @@ Print to a file using the Output API (web service):
 
 [Quick Start (SwaRef): Printing to a file using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d7e.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Sending Print Streams to Printers {#sending-print-streams-to-printers}
 
@@ -1809,11 +1809,11 @@ After the Output service performs an operation, it returns XML data that specifi
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
 ### Create multiple PDF files using the Java API {#create-multiple-pdf-files-using-the-java-api}
 
@@ -1867,9 +1867,9 @@ Create multiple PDF files by using the Output API (Java):
 
 [Summary of steps](creating-document-output-streams.md#summary_of_steps)
 
-[Quick Start (EJB mode): Creating multiple PDF files using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_creating_multiple_pdf_files_using_the_java_api)
+[Quick Start (EJB mode): Creating multiple PDF files using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_creating_multiple_pdf_files_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1946,9 +1946,9 @@ Create multiple PDF files by using the Output API (web service):
 
 [Quick Start (MTOM): Creating multiple PDF files using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d56.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Creating Search Rules {#creating-search-rules}
 
@@ -2029,11 +2029,11 @@ After the Output service performs an operation, it returns XML data that specifi
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
 ### Create search rules using the Java API {#create-search-rules-using-the-java-api}
 
@@ -2101,11 +2101,11 @@ Create search rules by using the Output API (Java):
 
 [Summary of steps](creating-document-output-streams.md#summary_of_steps)
 
-[Quick Start (EJB mode): Creating search rules using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_creating_search_rules_using_the_java_api)
+[Quick Start (EJB mode): Creating search rules using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_creating_search_rules_using_the_java_api)
 
 [Quick Start (SOAP mode): Creating search rules using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d4f.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -2174,7 +2174,7 @@ Create search rules by using the Output API (web service):
 
    >[!NOTE]
    >
-   >You cannot set the linearized PDF option by using the `RenderOptionsSpec` object’s `linearizedPDF` member if the input PDF document is certified or digitally signed. For information, see [Digitally Signing PDF Documents](/programming-with-aem-forms/digitally-signing-certifying-documents.md#digitally_signing_pdf_documents).
+   >You cannot set the linearized PDF option by using the `RenderOptionsSpec` object’s `linearizedPDF` member if the input PDF document is certified or digitally signed. For information, see [Digitally Signing PDF Documents](/help/forms/developing/digitally-signing-certifying-documents.md#digitally_signing_pdf_documents).
 
 1. Generate a PDF document
 
@@ -2192,7 +2192,7 @@ Create search rules by using the Output API (web service):
 
    >[!NOTE]
    >
-   >When generating a PDF document by invoking the `generatePDFOutput` method, be aware that you cannot merge data with an XFA PDF form that is signed, certified, or contains usage rights. For information about usage rights, see [Applying Usage Rights to PDF Documents](/programming-with-aem-forms/assigning-usage-rights.md#applying_usage_rights_to_pdf_documents).
+   >When generating a PDF document by invoking the `generatePDFOutput` method, be aware that you cannot merge data with an XFA PDF form that is signed, certified, or contains usage rights. For information about usage rights, see [Applying Usage Rights to PDF Documents](/help/forms/developing/assigning-usage-rights.md#applying_usage_rights_to_pdf_documents).
 
 1. Retrieve the results of the operation
 
@@ -2209,9 +2209,9 @@ Create search rules by using the Output API (web service):
 
 [Quick Start (SwaRef): Creating search rules using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d4d.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Flattening PDF Documents {#flattening-pdf-documents}
 
@@ -2250,7 +2250,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-if AEM Forms is deployed on a supported J2EE application server that is not JBoss, you will need to replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+if AEM Forms is deployed on a supported J2EE application server that is not JBoss, you will need to replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create an Output Client object**
 
@@ -2274,11 +2274,11 @@ You can save the non-interactive PDF document as a PDF file.
 
 [Flatten a PDF document using the web service API](creating-document-output-streams.md#flatten_a_pdf_document_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
 ### Flatten a PDF document using the Java API {#flatten-a-pdf-document-using-the-java-api}
 
@@ -2319,11 +2319,11 @@ Flatten an interactive PDF document to a non-interactive PDF document by using t
 
 [Summary of steps](creating-document-output-streams.md#summary_of_steps)
 
-[Quick Start (EJB mode): Transforming a PDF document using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_transforming_a_pdf_document_using_the_java_api)
+[Quick Start (EJB mode): Transforming a PDF document using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_transforming_a_pdf_document_using_the_java_api)
 
 [Quick Start (SOAP mode): Transforming a PDF document using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d46.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -2389,6 +2389,6 @@ Flatten an interactive PDF document to a non-interactive PDF document by using t
 
 [Quick Start (SwaRef): Transforming a PDF document using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d43.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)

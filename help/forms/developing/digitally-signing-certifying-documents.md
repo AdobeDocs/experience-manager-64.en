@@ -92,7 +92,7 @@ After the Signature service adds a signature field to the PDF document, you can 
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -143,7 +143,7 @@ Add a signature field by using the Signature API (Java):
 
 **See also**
 
-[Signature Service API Quick Starts](/programming-with-aem-forms/signature-service-java-api-quick.md#signature_service_java_api_quick_start_soap)
+[Signature Service API Quick Starts](/help/forms/developing/signature-service-java-api-quick.md#signature_service_java_api_quick_start_soap)
 
 ### Add signature fields using the web service API {#add-signature-fields-using-the-web-service-api}
 
@@ -204,9 +204,9 @@ To add a signature field by using the Signature API (web service):
 
 [Quick Start (SwaRef):Adding a signature field using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c51.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Retrieving Signature Field Names {#retrieving-signature-field-names}
 
@@ -237,7 +237,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a Signature client**
 
@@ -257,7 +257,7 @@ You can retrieve signature field names after you retrieve a PDF document that co
 
 [Retrieve signature field using the web service API](digitally-signing-certifying-documents.md#retrieve_signature_field_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -290,9 +290,9 @@ Retrieve signature field names by using the Signature API (Java):
 
 [Retrieving Signature Field Names](digitally-signing-certifying-documents.md#retrieving_signature_field_names)
 
-[Quick Start (SOAP mode): Retrieving signature field names using the Java API](/programming-with-aem-forms/signature-service-java-api-quick.md#quick_start_soap_mode_retrieving_signature_field_names_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving signature field names using the Java API](/help/forms/developing/signature-service-java-api-quick.md#quick_start_soap_mode_retrieving_signature_field_names_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -342,9 +342,9 @@ Retrieve signature field names using the Signature API (web service):
 
 [Quick Start (SwaRef): Retrieving signature field names using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c4c.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Modifying Signature Fields {#modifying-signature-fields}
 
@@ -383,7 +383,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss) 
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-For information about the location of these JAR files, see [Including LiveCycle Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including LiveCycle Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a Signature client**
 
@@ -427,11 +427,11 @@ Save the PDF document that contains the modified signature field as a PDF file s
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Signature Service API Quick Starts](/programming-with-aem-forms/signature-service-java-api-quick.md#signature_service_java_api_quick_start_soap)
+[Signature Service API Quick Starts](/help/forms/developing/signature-service-java-api-quick.md#signature_service_java_api_quick_start_soap)
 
 [Digitally Signing PDF Documents](digitally-signing-certifying-documents.md#digitally_signing_pdf_documents)
 
@@ -552,9 +552,9 @@ Modify a signature field by using the Signature API (web service):
 
 [Quick Start (SwaRef): Modifying a signature field using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c47.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Digitally Signing PDF Documents {#digitally-signing-pdf-documents}
 
@@ -564,7 +564,7 @@ PDF documents are signed by means of public-key technology. A signer has two key
 
 >[!NOTE]
 >
->Before you can digitally sign a PDF document, you must ensure that you add the certificate to AEM Forms. A certificate is added using administration console or programmatically using the Trust Manager API. (See [Importing Credentials by using the Trust Manager API](/programming-with-aem-forms/credentials.md#importing_credentials_by_using_the_trust_manager_api).)
+>Before you can digitally sign a PDF document, you must ensure that you add the certificate to AEM Forms. A certificate is added using administration console or programmatically using the Trust Manager API. (See [Importing Credentials by using the Trust Manager API](/help/forms/developing/credentials.md#importing_credentials_by_using_the_trust_manager_api).)
 
 You can programmatically digitally sign PDF documents. When digitally signing a PDF document, you must reference a security credential that exists in AEM Forms. The credential is the private key used for signing.
 
@@ -586,7 +586,7 @@ For information about handling the security credential, see the* Installing and 
 
 >[!NOTE]
 >
->The Signature service does not support XDP files with embedded PDF data as input to an operation, such as certifying a document. This action results in the Signature service throwing a `PDFOperationException`. To resolve this issue, convert the XDP file to a PDF file by using the PDF Utilities service and then pass the converted PDF file to a Signature service operation. (See [Working with PDF Utilities](/programming-with-aem-forms/pdf-utilities.md#working_with_pdf_utilities).)
+>The Signature service does not support XDP files with embedded PDF data as input to an operation, such as certifying a document. This action results in the Signature service throwing a `PDFOperationException`. To resolve this issue, convert the XDP file to a PDF file by using the PDF Utilities service and then pass the converted PDF file to a Signature service operation. (See [Working with PDF Utilities](/help/forms/developing/pdf-utilities.md#working_with_pdf_utilities).)
 
 **nCipher nShield HSM credential**
 
@@ -690,7 +690,7 @@ After the Signature service digitally signs the PDF document, you can save it as
 
 [Digitally signing PDF documents using the web service API](digitally-signing-certifying-documents.md#digitally_signing_pdf_documents_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -743,9 +743,9 @@ Digitally sign a PDF document by using the Signature API (Java):
 
 [Digitally Signing PDF Documents](digitally-signing-certifying-documents.md#digitally_signing_pdf_documents)
 
-[Quick Start (SOAP mode): Digitally signing a PDF document using the Java API](/programming-with-aem-forms/signature-service-java-api-quick.md#quick_start_soap_mode_digitally_signing_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Digitally signing a PDF document using the Java API](/help/forms/developing/signature-service-java-api-quick.md#quick_start_soap_mode_digitally_signing_a_pdf_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -817,9 +817,9 @@ To digitally sign a PDF document by using the Signature API (web service):
 
 [Quick Start (SwaRef): Digitally signing a PDF document using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c41.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Digitally Signing Interactive Forms {#digitally-signing-interactive-forms}
 
@@ -832,7 +832,7 @@ The result is a digitally signed interactive PDF form. When signing a PDF form t
 
 >[!NOTE]
 >
->Before you can digitally sign an interactive form, you must ensure that you add the certificate to AEM Forms. A certificate is added using administration console or programmatically using the Trust Manager API. (See [Importing Credentials by using the Trust Manager API](/programming-with-aem-forms/credentials.md#importing_credentials_by_using_the_trust_manager_api).)
+>Before you can digitally sign an interactive form, you must ensure that you add the certificate to AEM Forms. A certificate is added using administration console or programmatically using the Trust Manager API. (See [Importing Credentials by using the Trust Manager API](/help/forms/developing/credentials.md#importing_credentials_by_using_the_trust_manager_api).)
 
 When using the Forms Service API, set the `GenerateServerAppearance` run-time option to `true`. This run-time option ensures that the appearance of the form that is generated on the server remains valid when opened in Acrobat or Adobe Reader. It is recommended that you set this run-time option when generating an interactive form to sign by using the Forms API.
 
@@ -863,7 +863,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a Forms and Signatures client**
 
@@ -899,13 +899,13 @@ After the Signature service digitally signs the PDF document, you can save it as
 
 [Digitally sign an interactive form using the web service API](digitally-signing-certifying-documents.md#digitally_sign_an_interactive_form_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Digitally Signing PDF Documents](digitally-signing-certifying-documents.md#digitally_signing_pdf_documents)
 
-[Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms.md#rendering_interactive_pdf_forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms.md#rendering_interactive_pdf_forms)
 
 ### Digitally sign an interactive form using the Java API {#digitally-sign-an-interactive-form-using-the-java-api}
 
@@ -967,9 +967,9 @@ Digitally sign an interactive form by using the Forms and Signature API (Java):
 
 [Digitally Signing Interactive Forms](digitally-signing-certifying-documents.md#digitally_signing_interactive_forms)
 
-[Quick Start (SOAP mode): Digitally signing a PDF document using the Java API](/programming-with-aem-forms/signature-service-java-api-quick.md#quick_start_soap_mode_digitally_signing_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Digitally signing a PDF document using the Java API](/help/forms/developing/signature-service-java-api-quick.md#quick_start_soap_mode_digitally_signing_a_pdf_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1066,7 +1066,7 @@ Digitally sign an interactive form by using the Forms and Signature API (web ser
 
 [Quick Start (MTOM): Digitally signing a PDF document using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c42.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
 ## Certifying PDF Documents {#certifying-pdf-documents}
 
@@ -1120,7 +1120,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a Signature client **
 
@@ -1159,7 +1159,7 @@ After the Signature service certifies the PDF document, you can save it as a PDF
 
 [Certify PDF documents using the web service API](digitally-signing-certifying-documents.md#certify_pdf_documents_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1213,9 +1213,9 @@ Certify a PDF document by using the Signature API (Java):
 
 [Certifying PDF Documents](digitally-signing-certifying-documents.md#certifying_pdf_documents)
 
-[Quick Start (SOAP mode): Certifying a PDF document using the Java API](/programming-with-aem-forms/signature-service-java-api-quick.md#quick_start_soap_mode_certifying_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Certifying a PDF document using the Java API](/help/forms/developing/signature-service-java-api-quick.md#quick_start_soap_mode_certifying_a_pdf_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1292,9 +1292,9 @@ Certify a PDF document by using the Signature API (web service):
 
 [Quick Start (SwaRef): Certifying a PDF document using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c18.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Verifying Digital Signatures {#verifying-digital-signatures}
 
@@ -1334,7 +1334,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a Signature client **
 
@@ -1402,7 +1402,7 @@ You can determine the identity of the signer, which can be one of the following 
 
 [Verify digital signatures using the web service API](#unresolvedlink-lc-si)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1454,9 +1454,9 @@ Verify a digital signature by using the Signature Service API (Java):
 
 [Verifying Digital Signatures](#unresolvedlink-lc-si)
 
-[Quick Start (SOAP mode): Verifying a digital signature using the Java API](/programming-with-aem-forms/signature-service-java-api-quick.md#quick_start_soap_mode_verifying_a_digital_signature_using_the_java_api)
+[Quick Start (SOAP mode): Verifying a digital signature using the Java API](/help/forms/developing/signature-service-java-api-quick.md#quick_start_soap_mode_verifying_a_digital_signature_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1527,9 +1527,9 @@ Verify a digital signature by using the Signature Service API (web service):
 
 [Quick Start (SwaRef): Verifying a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c13.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Verifying Multiple Digital Signatures {#verifying-multiple-digital-signatures}
 
@@ -1562,7 +1562,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a Signature client **
 
@@ -1624,7 +1624,7 @@ Iterate through each signature. That is, for each signature, verify the digital 
 
 [Verifying multiple digital signatures using the web service API](#unresolvedlink-lc-si)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1671,9 +1671,9 @@ Verify multiple digital signatures by using the Signature Service API (Java):
 
 [Verifying Multiple Digital Signatures](#unresolvedlink-lc-si)
 
-[Quick Start (SOAP mode): Verifying multiple digital signatures using the Java API](/programming-with-aem-forms/signature-service-java-api-quick.md#quick_start_soap_mode_verifying_multiple_digital_signatures_using_the_java_api)
+[Quick Start (SOAP mode): Verifying multiple digital signatures using the Java API](/help/forms/developing/signature-service-java-api-quick.md#quick_start_soap_mode_verifying_multiple_digital_signatures_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Verifying Digital Signatures](#unresolvedlink-lc-si)
 
@@ -1741,9 +1741,9 @@ Verify multiple digital signatures by using the Signature Service API (web servi
 
 [Quick Start (MTOM): Verifying multiple digital signatures using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c0f.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Removing Digital Signatures {#removing-digital-signatures}
 
@@ -1775,7 +1775,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a Signature client **
 
@@ -1799,7 +1799,7 @@ After the Signature service removes a digital signature from a signature field, 
 
 [Remove digital signatures using the web service API](digitally-signing-certifying-documents.md#remove_digital_signatures_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1841,9 +1841,9 @@ Remove a digital signature by using the Signature API (Java):
 
 [Removing Digital Signatures](digitally-signing-certifying-documents.md#removing_digital_signatures)
 
-[Quick Start (SOAP mode): Removing a digital signature using the Java API](/programming-with-aem-forms/signature-service-java-api-quick.md#quick_start_soap_mode_removing_a_digital_signature_using_the_java_api)
+[Quick Start (SOAP mode): Removing a digital signature using the Java API](/help/forms/developing/signature-service-java-api-quick.md#quick_start_soap_mode_removing_a_digital_signature_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1904,6 +1904,6 @@ Remove a digital signature by using the Signature API (web service):
 
 [Quick Start (SwaRef): Removing a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c06.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)

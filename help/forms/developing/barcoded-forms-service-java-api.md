@@ -23,7 +23,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Decoding barcoded form data using the Java API {#quick-start-soap-mode-decoding-barcoded-form-data-using-the-java-api}
 
-The following Java code decodes form data that is located in a PDF form that is saved as Loan.pdf. The decoded data is saved as an XML file named extractedData.xml. This code example converts a `org.w3c.dom.Document` object into a `com.adobe.idp.Document` object. (See [Decoding Barcoded Form Data](/programming-with-aem-forms/barcoded-forms.md#decoding_barcoded_form_data).)
+The following Java code decodes form data that is located in a PDF form that is saved as Loan.pdf. The decoded data is saved as an XML file named extractedData.xml. This code example converts a `org.w3c.dom.Document` object into a `com.adobe.idp.Document` object. (See [Decoding Barcoded Form Data](/help/forms/developing/barcoded-forms.md#decoding_barcoded_form_data).)
 
 ```as3
  /* 

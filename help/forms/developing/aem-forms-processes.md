@@ -30,7 +30,7 @@ However, there are situations where a process cannot be completed synchronously 
 
   ***Note**: AEM Forms does not create a record when a short-lived process is invoked. *
 
-  Using the invocation identifier value, you can track the status of the long-lived process. For example, you can use the process invocation identifier value to perform Process Manager operations such as terminating a running process instance. (See [Terminating Process Instances](/programming-with-aem-forms/processes-tasks.md#terminating_process_instances).)
+  Using the invocation identifier value, you can track the status of the long-lived process. For example, you can use the process invocation identifier value to perform Process Manager operations such as terminating a running process instance. (See [Terminating Process Instances](/help/forms/developing/processes-tasks.md#terminating_process_instances).)
 
 **Short lived process example**
 
@@ -54,20 +54,20 @@ When this short-lived process is invoked, it performs the following actions:
 
    *Programming with AEM forms*describes the following ways in which you can programmatically invoke this short-lived process:
 
-    * [Invoking a short-lived process by passing an unsecure document using AEM Forms Remoting](/programming-with-aem-forms/invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting) (Using a Flex application)
-    * [Invoking a short-lived process using the Invocation API](/programming-with-aem-forms/invoking-aem-forms-using-java.md#invoking_a_short_lived_process_using_the_invocation_api) (Java Invocation API)
-    * [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding) (web service example)
-    * [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom) (web service example)
-    * [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref) (web service example)
-    * [Invoking AEM Forms using BLOB data over HTTP](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_blob_data_over_http) (web service example)
-    * [Invoking AEM Forms using DIME](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_dime) (web service example)
+    * [Invoking a short-lived process by passing an unsecure document using AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting) (Using a Flex application)
+    * [Invoking a short-lived process using the Invocation API](/help/forms/developing/invoking-aem-forms-using-java.md#invoking_a_short_lived_process_using_the_invocation_api) (Java Invocation API)
+    * [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding) (web service example)
+    * [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom) (web service example)
+    * [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref) (web service example)
+    * [Invoking AEM Forms using BLOB data over HTTP](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_blob_data_over_http) (web service example)
+    * [Invoking AEM Forms using DIME](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_dime) (web service example)
     * [Invoking the MyApplication/EncryptDocument process using REST](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b5e.2)
 
 **Long-lived process example**
 
 The following illustration is an example of a long-lived process.
 
-This process is invoked when an applicant submits a loan form. The process is not complete until a loan officer approves or rejects the loan request. The name of this long-lived process is* FirstAppSolution/PreLoanProcess *and its operation is `invoke_Async`. This process must be invoked asynchronously. For information about programmatically invoking this long-lived process, see [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).
+This process is invoked when an applicant submits a loan form. The process is not complete until a loan officer approves or rejects the loan request. The name of this long-lived process is* FirstAppSolution/PreLoanProcess *and its operation is `invoke_Async`. This process must be invoked asynchronously. For information about programmatically invoking this long-lived process, see [Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).
 
 >[!NOTE]
 >

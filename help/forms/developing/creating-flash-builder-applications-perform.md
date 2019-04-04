@@ -19,7 +19,7 @@ Although the client application contains required application logic to perform S
 
 >[!NOTE]
 >
->Before reading this section, it is recommended that you are familair with Invoking AEM Forms using Remoting. (See [Invoking AEM Forms using AEM Forms Remoting](/programming-with-aem-forms/invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting).)
+>Before reading this section, it is recommended that you are familair with Invoking AEM Forms using Remoting. (See [Invoking AEM Forms using AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting).)
 
 The following AEM Forms short-lived process, named `MyApplication/EncryptDocument`, is invoked after a user is authenticated using SSO. (For information about this process such as its input and output values, see [Short lived process example](unresolvedlink-lc-in-invoke-using-apis-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b77.2).)
 
@@ -121,7 +121,7 @@ The following illustration provides a visual representation of the client applic
 
 >[!NOTE]
 >
->Notice that there are two packages named um and views. When creating the client application, ensure that you place the files in their proper packages. Also, ensure that you add the adobe-remoting-provider.swc file to your project’s class path. (See [Including the AEM Forms Flex library file](/programming-with-aem-forms/invoking-aem-forms-using-remoting.md#including_the_aem_forms_flex_library_file).)
+>Notice that there are two packages named um and views. When creating the client application, ensure that you place the files in their proper packages. Also, ensure that you add the adobe-remoting-provider.swc file to your project’s class path. (See [Including the AEM Forms Flex library file](/help/forms/developing/invoking-aem-forms-using-remoting.md#including_the_aem_forms_flex_library_file).)
 
 ### Creating the SSOStandalone.mxml file {#creating-the-ssostandalone-mxml-file}
 
@@ -663,7 +663,7 @@ The following code represents the progress.mxml file.
 
 ### Creating the remoting.mxml file {#creating-the-remoting-mxml-file}
 
-The following code represents the remoting.mxml file that invokes the `MyApplication/EncryptDocument` process. Because a document is passed to the process, application logic responsible for passing a secure document to AEM Forms is located in this file. (See [Passing secure documents to invoke processes using Remoting](/programming-with-aem-forms/invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting).)
+The following code represents the remoting.mxml file that invokes the `MyApplication/EncryptDocument` process. Because a document is passed to the process, application logic responsible for passing a secure document to AEM Forms is located in this file. (See [Passing secure documents to invoke processes using Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting).)
 
 ```as3
  <?xml version="1.0" encoding="utf-8"?> 

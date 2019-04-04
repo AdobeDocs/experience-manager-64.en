@@ -43,7 +43,7 @@ When this process is invoked, it performs the following actions:
 
 >[!NOTE]
 >
->For information about using Remoting to invoke a long-lived process, see [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).
+>For information about using Remoting to invoke a long-lived process, see [Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).
 
 **See also**
 
@@ -59,9 +59,9 @@ When this process is invoked, it performs the following actions:
 
 [Invoking custom component services using Remoting](invoking-aem-forms-using-remoting.md#invoking_custom_component_services_using_remoting)
 
-[Creating a client application built with Flex that invokes a human-centric long-lived process](/programming-with-aem-forms/invoking-human-centric-long-lived.md#creating_a_client_application_built_with_flex_that_invokes_a_human_centric_long_lived_process)
+[Creating a client application built with Flex that invokes a human-centric long-lived process](/help/forms/developing/invoking-human-centric-long-lived.md#creating_a_client_application_built_with_flex_that_invokes_a_human_centric_long_lived_process)
 
-[Creating Flash Builder applications that perform SSO authentication using HTTP tokens](/programming-with-aem-forms/creating-flash-builder-applications-perform.md#creating_flash_builder_applications_that_perform_sso_authentication_using_http_tokens)
+[Creating Flash Builder applications that perform SSO authentication using HTTP tokens](/help/forms/developing/creating-flash-builder-applications-perform.md#creating_flash_builder_applications_that_perform_sso_authentication_using_http_tokens)
 
 For information on how to display process data in a Flex graph control, see [Displaying AEM Forms process data in Flex graphs](https://www.adobe.com/devnet/livecycle/articles/populating_flexcontrols.html).
 
@@ -89,7 +89,7 @@ To programmatically invoke AEM Forms processes using Remoting, add the adobe-rem
 
 ## Handling documents with Remoting {#handling-documents-with-remoting}
 
-One of the most important non-primitive Java types used in AEM Forms is the `com.adobe.idp.Document` class. A document is commonly required to invoke a AEM Forms operation. It is primarily a PDF document, but can contain other document types such as SWF, HTML, XML, or a DOC file. (See [Passing data to AEM Forms services using the Java API](/programming-with-aem-forms/invoking-aem-forms-using-java.md#passing_data_to_aem_forms_services_using_the_java_api).)
+One of the most important non-primitive Java types used in AEM Forms is the `com.adobe.idp.Document` class. A document is commonly required to invoke a AEM Forms operation. It is primarily a PDF document, but can contain other document types such as SWF, HTML, XML, or a DOC file. (See [Passing data to AEM Forms services using the Java API](/help/forms/developing/invoking-aem-forms-using-java.md#passing_data_to_aem_forms_services_using_the_java_api).)
 
 A client application built with Flex cannot directly request a document. For example, you cannot launch Adobe Reader to request a URL that produces a PDF file. Requests for document types, such as PDF and Microsoft Word documents, return a result that is a URL. It is the client’s responsibility to display the contents of the URL. The Document Management service helps generate the URL and content type information. Requests for XML documents return the full XML document in the result.
 
@@ -282,7 +282,7 @@ You can invoke the `MyApplication/EncryptDocument` process by performing the fol
 1. Encrypt the PDF document by calling the `mx:RemoteObject` instance’s `invoke` method. Pass the `Object` that contains the input parameter (which is the unsecured PDF document). (See [Passing input values](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7baa.2).)
 1. Retrieve the password-encrypted PDF document that is returned from the process. (See [Handling return values](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba5.2).)
 
-[Quick Start: Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](/programming-with-aem-forms/invocation-api-quick-starts.md#quick_start_invoking_a_short_lived_process_by_passing_an_unsecure_document_using_deprecated_for_aem_forms_aem_forms_remoting)
+[Quick Start: Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](/help/forms/developing/invocation-api-quick-starts.md#quick_start_invoking_a_short_lived_process_by_passing_an_unsecure_document_using_deprecated_for_aem_forms_aem_forms_remoting)
 
 ## Authenticating client applications built with Flex {#authenticating-client-applications-built-with-flex}
 
@@ -294,7 +294,7 @@ For custom authentication, the server sends a fault to the client to indicate th
 
 >[!NOTE]
 >
->For information about performing authentication using HTTP tokens, see [Creating Flash Builder applications that perform SSO authentication using HTTP tokens](/programming-with-aem-forms/creating-flash-builder-applications-perform.md#creating_flash_builder_applications_that_perform_sso_authentication_using_http_tokens).
+>For information about performing authentication using HTTP tokens, see [Creating Flash Builder applications that perform SSO authentication using HTTP tokens](/help/forms/developing/creating-flash-builder-applications-perform.md#creating_flash_builder_applications_that_perform_sso_authentication_using_http_tokens).
 
 ### Using custom authentication {#using-custom-authentication}
 
@@ -539,7 +539,7 @@ You can start a client application built with Flex and use the centralized login
 
 You can pass secure documents to AEM Forms when invoking a process that requires one or more documents. By passing a secure document, you are protecting business information and confidential documents. In this situation, a document can refer to a PDF document, an XML document, a Word document, and so on. Passing a secure document to AEM Forms from a client application written in Flex is required when AEM Forms is configured to allow secure documents. (See [Configuring AEM Forms to accept secure and unsecure documents](invoking-aem-forms-using-remoting.md#configuring_aem_forms_to_accept_secure_and_unsecure_documents).)
 
-When passing a secure document, use single sign-on and specify a AEM forms user who has the* Document Upload Application User *role. Without this role, the user cannot upload a secure document. You can programmatically assign a role to a user. (See [Managing Roles and Permissions](/programming-with-aem-forms/users.md#managing_roles_and_permissions).)
+When passing a secure document, use single sign-on and specify a AEM forms user who has the* Document Upload Application User *role. Without this role, the user cannot upload a secure document. You can programmatically assign a role to a user. (See [Managing Roles and Permissions](/help/forms/developing/users.md#managing_roles_and_permissions).)
 
 >[!NOTE]
 >

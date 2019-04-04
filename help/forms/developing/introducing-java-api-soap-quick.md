@@ -61,19 +61,19 @@ The JAR file listing is located in a comment section located at the beginning of
 
 Most Quick Starts located in *Programming with AEM Forms *invoke a specific service in order to perform an operation. However, some Quick Starts invoke multiple AEM Forms services in order to perform a given workflow. The following list provides Java quick starts that invoke more than one AEM Forms service:
 
-[Quick Start (SOAP mode): Passing a document located in the AEM Forms Repository to the Output service using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_passing_a_document_located_in_the_repository_to_the_output_service_using_the_java_api) (invokes the Repository and Output service)
+[Quick Start (SOAP mode): Passing a document located in the AEM Forms Repository to the Output service using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_passing_a_document_located_in_the_repository_to_the_output_service_using_the_java_api) (invokes the Repository and Output service)
 
-[Quick Start (SOAP mode): Creating a PDF document based on fragments using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_based_on_fragments_using_the_java_api) (invokes the Assembler and Output service)
+[Quick Start (SOAP mode): Creating a PDF document based on fragments using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_creating_a_pdf_document_based_on_fragments_using_the_java_api) (invokes the Assembler and Output service)
 
-[Quick Start (SOAP mode): Creating PDF Documents with submitted XML data using the Java API](/programming-with-aem-forms/forms-service-api-quick-starts.md#quick_start_soap_mode_creating_pdf_documents_with_submitted_xml_data_using_the_java_api) (invokes the Forms, Output, and Document Management service)
+[Quick Start (SOAP mode): Creating PDF Documents with submitted XML data using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick_start_soap_mode_creating_pdf_documents_with_submitted_xml_data_using_the_java_api) (invokes the Forms, Output, and Document Management service)
 
-[Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API](/programming-with-aem-forms/forms-service-api-quick-starts.md#quick_start_soap_mode_passing_documents_to_the_forms_service_using_the_java_api) (invokes the Forms and Document Management service)
+[Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick_start_soap_mode_passing_documents_to_the_forms_service_using_the_java_api) (invokes the Forms and Document Management service)
 
 [Quick Start (SOAP mode): Digitally signing a XFA-based Form using the Java API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd0.2) (invokes the Forms and Signature service)
 
-[Quick Start (SOAP mode): Managing roles and permissions using the Java API](/programming-with-aem-forms/user-manager-java-api-quick.md#quick_start_soap_mode_managing_roles_and_permissions_using_the_java_api) (invokes the DirectoryManager and the AuthorizationManager service )
+[Quick Start (SOAP mode): Managing roles and permissions using the Java API](/help/forms/developing/user-manager-java-api-quick.md#quick_start_soap_mode_managing_roles_and_permissions_using_the_java_api) (invokes the DirectoryManager and the AuthorizationManager service )
 
-[Quick Start (SOAP mode): Passing documents to the Output Service using the Java API](/programming-with-aem-forms/output-service-java-api-quick.md#quick_start_soap_mode_passing_documents_to_the_output_service_using_the_java_api) (invoke the Output and Document Management service)
+[Quick Start (SOAP mode): Passing documents to the Output Service using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick_start_soap_mode_passing_documents_to_the_output_service_using_the_java_api) (invoke the Output and Document Management service)
 
 >[!NOTE]
 >
@@ -81,5 +81,5 @@ Most Quick Starts located in *Programming with AEM Forms *invoke a specific serv
 
 >[!NOTE]
 >
->Most web service Quick Starts are written in C# and uses the .NET framework. However, you can create client application logic that is able to invoke AEM Forms services in any development environment that supports SOAP standards. (See [Invoking AEM Forms Using Web Services](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_web_services).)
+>Most web service Quick Starts are written in C# and uses the .NET framework. However, you can create client application logic that is able to invoke AEM Forms services in any development environment that supports SOAP standards. (See [Invoking AEM Forms Using Web Services](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_web_services).)
 

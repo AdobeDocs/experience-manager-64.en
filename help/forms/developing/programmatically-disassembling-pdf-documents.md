@@ -34,7 +34,7 @@ For the purpose of this discussion, assume the following DDX document is used.
 
 >[!NOTE]
 >
->Before reading this section, it is recommended that you be familiar with assembling PDF documents by using the Assembler service. (See [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents).)
+>Before reading this section, it is recommended that you be familiar with assembling PDF documents by using the Assembler service. (See [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents).)
 
 >[!NOTE]
 >
@@ -100,15 +100,15 @@ All disassembled PDF documents are returned within a collection object. Iterate 
 
 **See also**
 
-[Disassemble a PDF document using the Java API](/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-java.md#disassemble_a_pdf_document_using_the_java_api)
+[Disassemble a PDF document using the Java API](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-java.md#disassemble_a_pdf_document_using_the_java_api)
 
-[Disassemble a PDF document using the web service API](/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-web.md#disassemble_a_pdf_document_using_the_web_service_api)
+[Disassemble a PDF document using the web service API](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-web.md#disassemble_a_pdf_document_using_the_web_service_api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
 ## Disassemble a PDF document using the Java API {#disassemble-a-pdf-document-using-the-java-api}
 

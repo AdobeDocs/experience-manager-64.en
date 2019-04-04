@@ -18,7 +18,7 @@ discoiquuid: d4c2b2f0-613a-409d-b39b-8e37fdb96eea
 
 The Forms service can render forms that have usage rights applied to them. Usage rights pertain to functionality that is available by default in Acrobat but not in Adobe Reader, such as the ability to add comments to a form or to fill in form fields and save the form. Forms that have usage rights applied to them are called rights-enabled forms. A user who opens a rights-enabled form in Adobe Reader can perform operations that are enabled for that form.
 
-In order to apply usage rights to a form, the Acrobat Reader DC extensions service must be part of your AEM forms installation. Also, you must have a valid credential that enables you to apply usage rights to PDF documents. That is, you must properly configure the Acrobat Reader DC extensions service before you can render a rights-enabled form. (See [About the Acrobat Reader DC extensions Service](/programming-with-aem-forms/assigning-usage-rights-assigning-usage assigning-usage-rights-assigning-usage.md#about_the_acrobat_reader_dc_extensions_service).)
+In order to apply usage rights to a form, the Acrobat Reader DC extensions service must be part of your AEM forms installation. Also, you must have a valid credential that enables you to apply usage rights to PDF documents. That is, you must properly configure the Acrobat Reader DC extensions service before you can render a rights-enabled form. (See [About the Acrobat Reader DC extensions Service](/help/forms/developing/assigning-usage-rights-assigning-usage assigning-usage-rights-assigning-usage.md#about_the_acrobat_reader_dc_extensions_service).)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ In order to apply usage rights to a form, the Acrobat Reader DC extensions servi
 
 >[!NOTE]
 >
->You cannot prepopulate a form with XML data when you specify the following usage rights: `enableComments`, `enableCommentsOnline`, `enableEmbeddedFiles`, or `enableDigitalSignatures`. (See [Prepopulating Forms with Flowable Layouts](/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_with_flowable_layouts).)
+>You cannot prepopulate a form with XML data when you specify the following usage rights: `enableComments`, `enableCommentsOnline`, `enableEmbeddedFiles`, or `enableDigitalSignatures`. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_with_flowable_layouts).)
 
 >[!NOTE]
 >
@@ -68,9 +68,9 @@ When the Forms service renders a rights-enabled form, it returns a form data str
 
 **See also**
 
-[Render rights-enabled forms using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering rendering-rights-enabled-forms-rendering.md#render_rights_enabled_forms_using_the_java_api)
+[Render rights-enabled forms using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering rendering-rights-enabled-forms-rendering.md#render_rights_enabled_forms_using_the_java_api)
 
-[Render rights-enabled forms using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering rendering-rights-enabled-forms-rendering.md#render_rights_enabled_forms_using_the_web_service_api)
+[Render rights-enabled forms using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering rendering-rights-enabled-forms-rendering.md#render_rights_enabled_forms_using_the_web_service_api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -78,9 +78,9 @@ When the Forms service renders a rights-enabled form, it returns a form data str
 
 [Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
 
-[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
 
 #### Render rights-enabled forms using the Java API {#render-rights-enabled-forms-using-the-java-api}
 
@@ -129,7 +129,7 @@ Render a rights-enabled form by using the Forms API (Java):
 
 **See also**
 
-[Rendering Rights-Enabled Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering.md#rendering_rights_enabled_forms)
+[Rendering Rights-Enabled Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering.md#rendering_rights_enabled_forms)
 
 [Quick Start (SOAP mode): Rendering a rights-enabled form using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e39.2)
 
@@ -179,7 +179,7 @@ Render a rights-enabled form by using the Forms API (web service):
 
 **See also**
 
-[Rendering Rights-Enabled Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering.md#rendering_rights_enabled_forms)
+[Rendering Rights-Enabled Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering.md#rendering_rights_enabled_forms)
 
 [Quick Start (Base64): Rendering a rights-enabled form using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e38.2)
 

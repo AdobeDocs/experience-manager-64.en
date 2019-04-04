@@ -25,7 +25,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Exporting XMP metadata using the Java API {#quick-start-soap-mode-exporting-xmp-metadata-using-the-java-api}
 
-The following code example retrieves, inspects, and saves XMP metadata. (See [Exporting Metadata from PDF Documents](/programming-with-aem-forms/xmp-utilities.md#exporting_metadata_from_pdf_documents).)
+The following code example retrieves, inspects, and saves XMP metadata. (See [Exporting Metadata from PDF Documents](/help/forms/developing/xmp-utilities.md#exporting_metadata_from_pdf_documents).)
 
 ```as3
  /* 
@@ -130,7 +130,7 @@ The following code example retrieves, inspects, and saves XMP metadata. (See [Ex
 
 ## Quick Start (SOAP mode): Importing XMP metadata using the Java API {#quick-start-soap-mode-importing-xmp-metadata-using-the-java-api}
 
-The following code example imports XMP metadata and saves the new PDF file to disk. The PDF document is based on a PDF file named Loan.pdf. The XML document that contains the metadata to import into the PDF document is based on an XML file named *LoanMetaData.xml*. For information about this XML file, see [Importing Metadata into PDF Documents](/programming-with-aem-forms/xmp-utilities.md#importing_metadata_into_pdf_documents).
+The following code example imports XMP metadata and saves the new PDF file to disk. The PDF document is based on a PDF file named Loan.pdf. The XML document that contains the metadata to import into the PDF document is based on an XML file named *LoanMetaData.xml*. For information about this XML file, see [Importing Metadata into PDF Documents](/help/forms/developing/xmp-utilities.md#importing_metadata_into_pdf_documents).
 
 ```as3
  /* 

@@ -27,7 +27,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API {#quick-start-soap-mode-converting-a-microsoft-word-document-to-a-pdf-document-using-the-java-api}
 
-The following code example converts a Word file named *Loan.doc* to a PDF document named *Loan.pdf*. (See [Converting Word Documents to PDF Documents](/programming-with-aem-forms/converting-file-formats-pdf.md#converting_word_documents_to_pdf_documents).)
+The following code example converts a Word file named *Loan.doc* to a PDF document named *Loan.pdf*. (See [Converting Word Documents to PDF Documents](/help/forms/developing/converting-file-formats-pdf.md#converting_word_documents_to_pdf_documents).)
 
 ```as3
  /* 
@@ -141,7 +141,7 @@ The following code example converts a Word file named *Loan.doc* to a PDF docume
 
 ## Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API {#quick-start-soap-mode-converting-html-content-to-a-pdf-document-using-the-java-api}
 
-The following Java code example converts HTML content located at https://www.adobe.com to a PDF document named *AdobeHTML.pdf*. (See [Converting HTML Documents to PDF Documents](/programming-with-aem-forms/converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents).)
+The following Java code example converts HTML content located at https://www.adobe.com to a PDF document named *AdobeHTML.pdf*. (See [Converting HTML Documents to PDF Documents](/help/forms/developing/converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents).)
 
 ```as3
  /* 
@@ -247,7 +247,7 @@ The following Java code example converts HTML content located at https://www.ado
 
 ## Quick Start (SOAP mode): Converting a PDF document to an RTF file using the Java API (SOAP mode) {#quick-start-soap-mode-converting-a-pdf-document-to-an-rtf-file-using-the-java-api-soap-mode}
 
-The following code example converts a PDF document named *Loan.pdf* to an RTF document named *Loan.rtf*. (See [Converting PDF Documents to Non-image Formats](/programming-with-aem-forms/converting-file-formats-pdf.md#converting_pdf_documents_to_non_image_formats).)
+The following code example converts a PDF document named *Loan.pdf* to an RTF document named *Loan.rtf*. (See [Converting PDF Documents to Non-image Formats](/help/forms/developing/converting-file-formats-pdf.md#converting_pdf_documents_to_non_image_formats).)
 
 ```as3
  /* 
