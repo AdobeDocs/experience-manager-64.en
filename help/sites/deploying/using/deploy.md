@@ -287,9 +287,9 @@ AEM starts and automatically redirects your web browser to the appropriate page,
 
 Once logged in, you have access to AEM. For further information, depending on the your role, see the following:
 
-* [Authoring](/sites/authoring/user-guide.md) 
-* [Administering](/sites/administering/user-guide.md)
-* [Developing](/sites/developing/user-guide.md)
+* [Authoring](/help/sites/authoring/using/home.md) 
+* [Administering](help/sites/administering/using/home.md)
+* [Developing](help/sites/developing/using/home.md)
 * [Managing](../../../managing/using/manage-reference.md)
 
 ## Advanced Deployment {#advanced-deployment}

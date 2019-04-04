@@ -15,13 +15,13 @@ discoiquuid: cda3b321-8f6a-4867-abbf-e2e6898b9373
 
 >[!NOTE]
 >
->The following documentation focuses on the AEM standard, touch-enabled UI. For information about authoring in the classic UI, see the [Classic UI Authoring User Guide](/sites/classic-ui-authoring/user-guide.md).
+>The following documentation focuses on the AEM standard, touch-enabled UI. For information about authoring in the classic UI, see the [Classic UI Authoring User Guide](/help/sites/classic-ui-authoring/using/home.md).
 
 The author environment allows for:
 
-* [Authoring](../../../sites/authoring/using/author.md) (including [page authoring](../../../sites/authoring/using/page-authoring.md), [managing assets](/assets/user-guide.md), [communities](../../../communities/using/author-communities.md))  
+* [Authoring](../../../sites/authoring/using/author.md) (including [page authoring](../../../sites/authoring/using/page-authoring.md), [managing assets](/help/assets/using/home.md), [communities](../../../communities/using/author-communities.md))  
 
-* [Administering](/sites/administering/user-guide.md) tasks you need when generating and maintaining the content on your website
+* [Administering](/help/sites/administering/using/home.md) tasks you need when generating and maintaining the content on your website
 
 Two graphical user interfaces are provided to achieve this. These are accessible through any modern browser.
 

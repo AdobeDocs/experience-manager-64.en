@@ -79,7 +79,7 @@ Various enhancements have been made to the UI to make it more productive and eas
 * [Ability to disable keyboard shortcuts](sites/authoring/using/user-properties.md) (enable/disable in Preferences). 
 * [Stop showing time stamps across all UI](sites/authoring/using/user-properties.md) relative after 7 days (set default in Preferences).
 
-See the [Authoring documentation](/sites/authoring/user-guide.md) for more information on these features.
+See the [Authoring documentation](/help/sites/authoring/using/home.md) for more information on these features.
 
 >[!CAUTION]
 >
@@ -143,7 +143,7 @@ Creating variations in a fragment with the same content but different layout is 
 
 Various enhancements to Sling Model Exporter and the Core Components are included to provide a robust JSON output to embed content in mobile apps and experiences build with single-page apps.
 
-#### Gettings Sites Built Quicker {#gettings-sites-built-quicker}
+#### Getting Sites Built Quicker {#gettings-sites-built-quicker}
 
 AEM 6.4 completes the transformation to the next generation component model. The Core Components concept introduced in AEM 6.3, and now joined by the Style System, provides an efficient way to build new and extend existing sites.
 
@@ -151,9 +151,9 @@ Recommended tutorial to learn on how to best leverage the new component model: [
 
 #### Screens Add-on {#screens-add-on}
 
-Delivering a consistant message across all marketing channels including Digital Signage and kiosk networks is what AEM Screens stands for. AEM 6.4 adds support to run the Signage Player on Microsoft Windows and Google Chrome OS hardware. Further, enhancements to remote device management and schedules (groups of channels) are available.
+Delivering a consistent message across all marketing channels including Digital Signage and kiosk networks is what AEM Screens stands for. AEM 6.4 adds support to run the Signage Player on Microsoft Windows and Google Chrome OS hardware. Further, enhancements to remote device management and schedules (groups of channels) are available.
 
-For more information on the Screens updates, see [AEM Screens User Guide](/screens/user-guide.md).
+For more information on the Screens updates, see [AEM Screens User Guide](/help/screens/using/home.md).
 
 ### Experience Manager Communities {#experience-manager-communities}
 
