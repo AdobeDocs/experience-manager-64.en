@@ -26,7 +26,7 @@ However, there are situations where a process cannot be completed synchronously 
 * A process can span organizational boundaries.
 * A process needs external input in order for it to finish. For example, consider a situation where a form is sent to a manager who is out of the office. In this situation, the process is not complete until the manager returns and fills out the form.
 
-  These types of processes are known as long-lived processes. A long-lived process is performed asynchronously, allowing for systems to interact as resources permit and allowing for the tracking and monitoring of the operation. When a long-lived process is invoked, AEM Forms creates an invocation identifier value as part of a record that tracks the long-lived process status. The record is stored in the AEM Forms database. You can purge long-lived process records when they are no longer required. (See [Purging Process Data](/programming-with-aem-forms/processes-tasks.md#purging_process_data).)
+  These types of processes are known as long-lived processes. A long-lived process is performed asynchronously, allowing for systems to interact as resources permit and allowing for the tracking and monitoring of the operation. When a long-lived process is invoked, AEM Forms creates an invocation identifier value as part of a record that tracks the long-lived process status. The record is stored in the AEM Forms database. You can purge long-lived process records when they are no longer required. (See [Purging Process Data](/help/forms/developing/processes-tasks.md#purging_process_data).)
 
   ***Note**: AEM Forms does not create a record when a short-lived process is invoked. *
 

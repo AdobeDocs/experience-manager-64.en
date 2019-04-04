@@ -1,13 +1,13 @@
 ---
-title: AEM 6.4 Authoring User Guide
-seo-title: AEM 6.4 Authoring User Guide
-description: Authoring in AEM
-seo-description: Authoring in AEM
+title: AEM 6.4 Communities User Guide
+seo-title: AEM 6.4 Communities User Guide
+description: null
+seo-description: null
 ---
 
-# AEM 6.4 Authoring User Guide
+# AEM 6.4 Communities User Guide
 
-This guide covers all AEM Authoring tasks, such as 
+This guide covers all AEM Communities tasks, such as 
 
 ## Key articles
 
@@ -17,7 +17,7 @@ This guide covers all AEM Authoring tasks, such as
 
 | User Guide | Description |
 |--- |---|
-| [Release Notes](home.md)|This guide|
+| [Release Notes](home.md)|Provide instruction on the Data Workbench Client, Installation, Dataset Configuration, etc.|
 | [Assets User Guide](home.md) | This guide  |
 | [Forms User Guide](home.md) | This guide |
 | [Communities User Guide](home.md) | This guide  |
@@ -27,8 +27,6 @@ This guide covers all AEM Authoring tasks, such as
 | [Screens User Guide](home.md) | This guide |
 | [Deploying User Guide](home.md) | This guide  |
 | [Developing User Guide](home.md)|This guide|
-| [Managing User Guide](home.md)|This guide |
-| [Mobile User Guide](home.md)|This guide |
 
 ## Key AEM resources
 

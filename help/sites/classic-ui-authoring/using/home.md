@@ -1,13 +1,13 @@
 ---
-title: AEM 6.4 Authoring User Guide
-seo-title: AEM 6.4 Authoring User Guide
-description: Authoring in AEM
-seo-description: Authoring in AEM
+title: AEM 6.4 Classic UI Authoring User Guide
+seo-title: AEM 6.4 Classic UI Authoring User Guide
+description: Classic UI authoring in AEM
+seo-description: Classic UI authoring in AEM
 ---
 
-# AEM 6.4 Authoring User Guide
+# AEM 6.4 Classic UI Authoring User Guide
 
-This guide covers all AEM Authoring tasks, such as 
+This guide covers all AEM classic UI authoring tasks, such as 
 
 ## Key articles
 

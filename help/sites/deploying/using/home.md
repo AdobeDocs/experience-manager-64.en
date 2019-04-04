@@ -1,13 +1,13 @@
 ---
-title: AEM 6.4 Authoring User Guide
-seo-title: AEM 6.4 Authoring User Guide
-description: Authoring in AEM
-seo-description: Authoring in AEM
+title: AEM 6.4 Deploying User Guide
+seo-title: AEM 6.4 Deploying User Guide
+description: Deploying in AEM
+seo-description: Deploying in AEM
 ---
 
-# AEM 6.4 Authoring User Guide
+# AEM 6.4 Deploying User Guide
 
-This guide covers all AEM Authoring tasks, such as 
+This guide covers all AEM Deploying tasks, such as 
 
 ## Key articles
 
