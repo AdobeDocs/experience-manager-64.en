@@ -51,7 +51,7 @@ discoiquuid: b490dda2-4072-46b2-b52f-10367a9623a2
 
 ## What is included in Dynamic Media Feature Pack 18912 {#what-is-included-in-dynamic-media-feature-pack}
 
-* ** [FTP Ingestion](../assets/using/managing-assets-touch-ui.md#uploading-assets-using-ftp) (available via FP 18912): **Bulk upload large volume of assets and/or very large file size assets through FTP for more scalable and performant ingestion. FTP jobs can be scheduled on a recurring basis to automate ingestion.
+* [FTP Ingestion](../assets/using/managing-assets-touch-ui.md#uploading-assets-using-ftp) (available via FP 18912): Bulk upload large volume of assets and/or very large file size assets through FTP for more scalable and performant ingestion. FTP jobs can be scheduled on a recurring basis to automate ingestion.
 * **Asset Replicator (available via FP 18912):** For customers transitioning from Dynamic Media Classic (Scene7) to Dynamic Media, master assets will be replicated from their existing S7 repository to the Dynamic Media repository. This enables customers to achieve the following benefits during the upgrade:
 
     1. No need to change URLs used on their existing production sites.

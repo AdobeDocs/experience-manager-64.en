@@ -47,7 +47,7 @@ In your browser, open `https://<hostname>:<PublishPort>/wegov`. In the We.Gov si
 
 Sarah clicks **Apply** and in the Freedom of Information Act Request Form page, Sarah enters information including the following:
 
-* **Agency: **Sarah specifies the agency to which the request was addressed as Department of Justice - Office of Information Policy**. **
+* **Agency:** Sarah specifies the agency to which the request was addressed as Department of Justice - Office of Information Policy.
 
 * **Will Pay Up To**: Sarah specifies that she is willing to pay up to USD 100 for printing and postage expenses. 
 * **Describe the request in detail**: Sarah specifies "Requesting copy of the Administration for Children and Families case logs for fiscal years 2013 through 2016."

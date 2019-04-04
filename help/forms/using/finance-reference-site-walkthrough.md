@@ -304,8 +304,9 @@ Perform the following steps to experience the creation of A/B test for We.Financ
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.
 
 1. Open CRXDE Lite and take a back-up of the following file: /libs/fd/fmaddon/gui/components/admin/targetreport/clientlibs/targetreport/js/targetreport.js
-1. Replace the definition of function `onReportLoadSuccess` in the above mentioned file with the function definition in the following file: /apps/we-finance/demo-artifacts/targetreport.js** 
-   Note: **These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
+1. Replace the definition of function `onReportLoadSuccess` in the above mentioned file with the function definition in the following file: /apps/we-finance/demo-artifacts/targetreport.js
+
+   **Note:** These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
 
 1. Refresh the report that you generated, and you will see something like the following. Review the reporting dashboard.
 
@@ -554,8 +555,8 @@ Perform the following steps in the author instance to experience the creation of
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.
 
 1. Open CRXDE Lite and take a back-up of the following file: /libs/fd/fmaddon/gui/components/admin/targetreport/clientlibs/targetreport/js/targetreport.js
-1. Replace the definition of the `onReportLoadSuccess` function in the above mentioned file with the function definition in the following file: /apps/we-finance/demo-artifacts/targetreport.js** 
-   Note: **These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
+1. Replace the definition of the `onReportLoadSuccess` function in the above mentioned file with the function definition in the following file: /apps/we-finance/demo-artifacts/targetreport.js
+   **Note:** These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
 
 1. Refresh the report that you generated, and you will see something like the following. Review the reporting dashboard.
 

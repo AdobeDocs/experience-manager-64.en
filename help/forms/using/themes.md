@@ -218,7 +218,7 @@ The Theme Editor is divided in two panels:
     
     * **View CSS**: Lets you view CSS of the selected component
 
-  Also, in the Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error. **These options, along with the options described above are discussed in detail [below](../../forms/using/themes.md#using-rail).
+  Also, in the Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error.** These options, along with the options described above are discussed in detail [below](../../forms/using/themes.md#using-rail).
 
 [ ![Theme editor with Rail and Canvas highlighted.](assets/themes.png)](assets/themes-1.png) **A.** Sidebar **B.** Canvas
 
@@ -602,7 +602,7 @@ After you customize the theme, apply it to your form or interactive communicatio
 ## Impact on other adaptive form use cases {#impact-on-other-adaptive-form-use-cases}
 
 * **Publish/unpublish a form:** On publishing a form, theme applied to is also published (if it is not already published)
-* **Import/Export a form: **On importing or exporting a form, its associated theme is also automatically imported or exported.
+* **Import/Export a form:** On importing or exporting a form, its associated theme is also automatically imported or exported.
 * **References of a form:** The Refers section in form references contains an extra entry for the theme.
 * **Last Modification time of a form:** Updated when the associated theme is changed.
 * **A/B Testing:** You can apply a different theme to two versions of the form in A/B testing. The information of the two themes is individually stored on the two guide containers.

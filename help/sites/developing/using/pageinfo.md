@@ -52,9 +52,9 @@ The `/libs/foundation/components/page` component is associated with the followin
 
 * **Default Page Status Provider:** Information about the page status, such as whether it is locked, whether the page is the payload of an active workflow, and which workflows are available for the page.
 * **Live Relationship Info Provider:** Information regarding Multi Site Management (MSM), such as whether the page is part of a Blue Print, and whether it is a Live Copy.
-* **Content Language Servlet: **The language of the current page, and information about each language in which the page is available.
+* **Content Language Servlet:** The language of the current page, and information about each language in which the page is available.
 * **Workflow Status Provider:** Status information about the running workflow that has the page as a payload.
-* **Workflow Package Info Provider: **Information about each workflow package that is stored in the repository, and whether each package contains the current resource.
+* **Workflow Package Info Provider:** Information about each workflow package that is stored in the repository, and whether each package contains the current resource.
 * **Emulator Info Provider:** Information about the mobile device emulators that are available for this resource. If the page component does not render mobile pages, no emulators are available.
 * **Annotations Info Provider:** Information about annotations that are on the page.
 

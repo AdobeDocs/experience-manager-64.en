@@ -670,7 +670,7 @@ Statistical information about repository queries.
 Monitor the services for each replication agent. When you create a replication agent, the service automatically appears in the JMX console.
 
 * **Domain:** com.adobe.granite.replication
-* **Type: **agent
+* **Type:** agent
 * **Name:** no value
 * **Properties:** {id="*Name*"}, where *Name* is the value of the agent Name property.
 

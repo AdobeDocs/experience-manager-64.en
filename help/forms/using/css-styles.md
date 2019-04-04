@@ -41,9 +41,9 @@ The field element contains two nested elements: widget and caption.
 
 The widget element contains the user interface element for interaction with users. It has three CSS classes:
 
-* Widget**: **Every widget has this class.
-* name**: **All the widgets shipped with AEM contain the widget name class. For custom widgets, the widget developer provides the Widget name class.
-* type**: **Every widget has a user interface element. This class defines the type of the user interface element.
+* **Widget**: Every widget has this class.
+* **name**: All the widgets shipped with AEM contain the widget name class. For custom widgets, the widget developer provides the Widget name class.
+* **type**: Every widget has a user interface element. This class defines the type of the user interface element.
 
 ```xml
 <!--field with caption-->

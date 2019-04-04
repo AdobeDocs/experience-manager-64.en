@@ -25,7 +25,7 @@ If you think of an online magazine, the main content includes articles, ads, and
 
 * **Articles**: text based along with art to convey information
 * **Banners:** typically graphical promotional links
-* **Collections: **represent a well defined *bucket* filled with content such as articles or banners that suits the cover's theme
+* **Collections:** represent a well defined *bucket* filled with content such as articles or banners that suits the cover's theme
 
 * **Shared Resources:** allows reuse or sharing of common pieces across articles
 

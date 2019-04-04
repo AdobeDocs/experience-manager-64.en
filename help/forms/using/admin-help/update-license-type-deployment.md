@@ -35,10 +35,10 @@ The Change License page displays information about your license:
 1. On the Change License page, select a license type:
 
     * **EVAL:** 60-day evaluation license
-    * **DEV: **Perpetual development license
+    * **DEV:** Perpetual development license
     * **NFR:** 2-year evaluation license
     * **IDEV:** 1-year subscription to the Adobe Developer Program
-    * **Production: **Perpetual license
+    * **Production:** Perpetual license
 
 1. Select Yes, License Change Is Valid for All Deployed Modules.
 1. Click Confirm License Change. A message appears, stating that the license was updated successfully.

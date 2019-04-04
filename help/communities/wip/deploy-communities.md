@@ -248,7 +248,6 @@ There are two replication agents in the author environment that need the transpo
         1. select **edit**
         1. select the **Transport** tab
         1. if not port `4503`, edit the **URI** to specify the correct port
-        
         1. if not user `admin`, edit the **User** and **Password** to specify a member of the `administrators` user group
 
 The following images show the results of changing the port from 4503 to 6103 by:

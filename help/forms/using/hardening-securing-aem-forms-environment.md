@@ -147,7 +147,7 @@ Data integration also provides methods to authorize FDM service requests. You ca
 
 **Pre-process authorization:** You can use the pre-process authorization to validate authenticity of a request before executing it. You can use inputs, service and request details to allow or stop execution of the request. You can return a data integration exception OPERATION_ACCESS_DENIED if the execution is stopped. You can also modify client request before sending it for execution. For example, changing input and adding additional information.
 
-**Post-process authorization: **You can use the post-process authorization to validate and control the results before returning the results to requester. You can also filter, prune, and insert additional data to results.
+**Post-process authorization:** You can use the post-process authorization to validate and control the results before returning the results to requester. You can also filter, prune, and insert additional data to results.
 
 ### Limit user access {#limit-user-access}
 

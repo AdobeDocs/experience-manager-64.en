@@ -48,7 +48,7 @@ If you are using Edge as browser:
 * **HTL:** Java Use object with trailing whitespace in the package declaration freezes the SightlyJavaCompilerService (GRANITE-20836)
 * **Apache Felix/Sling:** Config file still present in the repository even after configuration.delete() (GRANITE-20618)
 * **Cloud Settings:** Console gets broken after editing configuration container (GRANITE-20726)
-* **Security: **IMS integration fails with custom context path (GRANITE-20639)
+* **Security:** IMS integration fails with custom context path (GRANITE-20639)
 * **Security:** Improve default JAAS Ranking of SSO, External and Default LoginModules (GRANITE-20590
 * **Tooling - CRX DE Lite:** Ridge of properties view keeps moving up (GRANITE-12040)
 * **Tooling - CRX DE Lite:** Cannot save changes to "Long" Value Types unless you double-click on Property Name (GRANITE-12351)  

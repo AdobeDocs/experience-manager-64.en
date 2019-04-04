@@ -26,9 +26,9 @@ For information and instructions related to Acrobat Reader DC extensions, see [C
 1. In administration console, click Settings &gt;Trust Store Management &gt; Local Credentials.
 1. Click Import. Under Trust Store Type, select one of these options:
 
-    * **Document Signing Credential: **A credential used to issue a digital signature on a document.
-    * **Acrobat Reader DC extensions Credential: **A digital certificate specific to Acrobat Reader DC extensions that enables Adobe Reader usage rights to be activated in the PDF documents produced.
-    * **Default: **Indicates that this is the default credential to use with Acrobat Reader DC extensions.
+    * **Document Signing Credential:** A credential used to issue a digital signature on a document.
+    * **Acrobat Reader DC extensions Credential:** A digital certificate specific to Acrobat Reader DC extensions that enables Adobe Reader usage rights to be activated in the PDF documents produced.
+    * **Default:** Indicates that this is the default credential to use with Acrobat Reader DC extensions.
 
    For information about obtaining a credential, see [Preparing to Install AEM forms](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63).
 

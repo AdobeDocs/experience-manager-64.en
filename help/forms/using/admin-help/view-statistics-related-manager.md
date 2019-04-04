@@ -104,11 +104,11 @@ When you click More Info, the Operation Details dialog box displays a list of th
 
    **Delete Items:** Deletes the selected work item or job.
 
-   **Pause Items: **Pauses the selected work item or job.
+   **Pause Items:** Pauses the selected work item or job.
 
    **Resume Items:** Resumes the selected work item or job from its paused state.
 
-   **Retry Items: **Attempts to rerun the selected work item or job from its current state.
+   **Retry Items:** Attempts to rerun the selected work item or job from its current state.
 
    You can verify whether an operation was successful by clicking More Info above the list. A dialog box that contains the selected work items or jobs and their statuses is displayed.
 

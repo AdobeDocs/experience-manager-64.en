@@ -21,13 +21,13 @@ This section describes the steps required to recover the AEM forms data. Also se
 
 AEM forms should recover reliably from the following failures:
 
-**Disk Failure: **The latest backup media is required to recover the database content.
+**Disk Failure:** The latest backup media is required to recover the database content.
 
-**Data Corruption: **File systems do not record past transactions, and systems may accidentally overwrite required process data.
+**Data Corruption:** File systems do not record past transactions, and systems may accidentally overwrite required process data.
 
-**User Error: **Recovery is limited to the data that is made available by the database. If the data was stored and is available, recovery is simplified.
+**User Error:** Recovery is limited to the data that is made available by the database. If the data was stored and is available, recovery is simplified.
 
-**Power Outage, System Crash: **File system APIs are often not designed or used in a robust manner that guards against unexpected system failures. If a power outage or system crash occurs, document content that is stored in the database is more likely to be up to date than content that is stored on a file system.
+**Power Outage, System Crash:** File system APIs are often not designed or used in a robust manner that guards against unexpected system failures. If a power outage or system crash occurs, document content that is stored in the database is more likely to be up to date than content that is stored on a file system.
 
 If you are using rolling backup mode, you are still in backup mode after recovery. If you are using snapshot backup mode, you are not in backup mode after recovery.
 
@@ -81,9 +81,9 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
    >
    >The backup of the Content Storage Root directory must be restored to the location of the Content Storage Root directory as it was set during Content Services (Deprecated) configuration.
 
-   **Standalone: **During the recovery process, restore all the directories that were backed up. When these directories are restored, if the /backup-lucene-indexes directory is present, rename it to /lucene-indexes. Otherwise, the lucene-indexes directory should already exist and no action is required.
+   **Standalone:** During the recovery process, restore all the directories that were backed up. When these directories are restored, if the /backup-lucene-indexes directory is present, rename it to /lucene-indexes. Otherwise, the lucene-indexes directory should already exist and no action is required.
 
-   **Clustered: **During the recovery process, restore all the directories that were backed up. To restore the Index Root directory, perform the following steps on each node of the cluster:
+   **Clustered:** During the recovery process, restore all the directories that were backed up. To restore the Index Root directory, perform the following steps on each node of the cluster:
 
     * Delete all content in the Index Root directory.
     * If the /backup-lucene-indexes directory is present, copy the contents of the *Content Storage Root directory*/backup-lucene-indexes directory to the Index Root directory and delete the *Content Storage Root directory*/backup-lucene-indexes directory.

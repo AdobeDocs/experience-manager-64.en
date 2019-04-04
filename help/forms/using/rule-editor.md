@@ -83,8 +83,8 @@ The rule editor provides the following logical operators and events using which 
 * **Is Empty **
 * **Is Not Empty**
 * **Has Selected:** Returns true when the user selects a particular option for a checkbox, drop-down, radio button.
-* **Is Initialized (event): **Returns true when a form object renders in the browser. 
-* **Is Changed (event): **Returns true when the user changes the entered value or selected option for a form object.
+* **Is Initialized (event):** Returns true when a form object renders in the browser. 
+* **Is Changed (event):** Returns true when the user changes the entered value or selected option for a form object.
 
 ## Available rule types in rule editor {#available-rule-types-in-rule-editor}
 

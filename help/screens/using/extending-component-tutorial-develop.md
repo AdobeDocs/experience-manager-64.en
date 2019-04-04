@@ -482,7 +482,7 @@ A third clientlibrary category: `cq.screens.components.edit` could be used to ad
 
 The Poster component is intended to be used on a Sequence Channel. The starter package for this tutorial included an Idle Channel. The Idle Channel is pre-configured to allow components of the group **We.Retail Run - Content**. The Poster component's group is set to `We.Retail Run - Content` and is available to be added to the channel.
 
-1. Open the Idle Channel from the We.Retail Run project: ***http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html***
+1. Open the Idle Channel from the We.Retail Run project: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Drag + Drop a new instance of the **Poster** component from the side bar on to the page.
 
    ![](assets/2018-05-07_at_3_23pm.png)

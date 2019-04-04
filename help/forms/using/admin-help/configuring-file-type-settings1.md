@@ -237,11 +237,11 @@ For instructions about accessing this setting, see [Create or edit file type set
 1. Select **Fonts.**
 1. Select one of the following options:
 
-   **Unembed all fonts: **Unembeds all embedded fonts.
+   **Unembed all fonts:** Unembeds all embedded fonts.
 
-   **Do not unembed any font: **Does not unembed any fonts.
+   **Do not unembed any font:** Does not unembed any fonts.
 
-   **Unembed some fonts: **Unembeds only the specified fonts. Follow these steps to specify the fonts that you want to unembed:
+   **Unembed some fonts:** Unembeds only the specified fonts. Follow these steps to specify the fonts that you want to unembed:
 
     * If necessary, select a different fonts directory from the **Font source** drop-down menu. This drop-down menu lists fonts directories specified in **Home &gt; Settings &gt; Core System &gt; Core Configurations**.
     * Select one or more fonts from the **Available Fonts** list and click **Add**. These fonts are added to the **Fonts to Unembed** list.

@@ -69,11 +69,11 @@ If this feature is enabled, you can view the related iterations of a document fr
 1. View the Document Detail page for a document. (See [View information about a document](controlling-access-policy-protected-documents.md#view_information_about_a_document).)
 1. Click View Related Iterations. The option is available only if the feature is enabled. The list of related iterations appears. For each iteration, you can view the following information:
 
-    * **Iteration: **The filename. It may be different from the original filename and it has a version number appended to the end of it.
-    * **Publisher: **The publisher of the original document.
-    * **Created By: **The user who saved the iteration.
-    * **Date Created: **The date and time that the Iteration was saved.
-    * **Policy: **The policy that protects the iteration. Different iterations may be protected by different policies.
+    * **Iteration:** The filename. It may be different from the original filename and it has a version number appended to the end of it.
+    * **Publisher:** The publisher of the original document.
+    * **Created By:** The user who saved the iteration.
+    * **Date Created:** The date and time that the Iteration was saved.
+    * **Policy:** The policy that protects the iteration. Different iterations may be protected by different policies.
 
 1. To display the Document Detail page for that iteration, click the filename of an iteration.
 
@@ -99,8 +99,8 @@ When you revoke or reinstate document access privileges, the change takes effect
 1. Select the check box beside the appropriate document and click Revoke. You can revoke access to multiple documents at a time.
 1. Select a message to display to users who attempt to open the document after it is revoked:
 
-    * **General Message: **Indicates that the author revoked the document
-    * **Document Terminated: **Indicates that the author terminated the document
+    * **General Message:** Indicates that the author revoked the document
+    * **Document Terminated:** Indicates that the author terminated the document
     * **Document Revised**: Indicates that the author revised the document
 
 1. (Optional) If a newer version of the document is available, enter the URL and click Test to verify the URL.

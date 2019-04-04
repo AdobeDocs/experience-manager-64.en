@@ -36,8 +36,8 @@ IBM FileNet P8 Content Engine provides software services for managing enterprise
 
 1. In the Credential Protection Scheme list, select one of these protection levels:
 
-    * **Clear: **Sends credentials across the network in an unprotected mode
-    * **Symmetric: **Sends encrypted credentials across the network
+    * **Clear:** Sends credentials across the network in an unprotected mode
+    * **Symmetric:** Sends encrypted credentials across the network
 
 1. In the Encryption File Location box, enter the path to the encryption file:
 

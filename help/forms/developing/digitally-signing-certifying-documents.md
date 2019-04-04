@@ -409,7 +409,7 @@ The following seed value dictionary values can be set:
     * **2 (SubFilter):** An array of names that indicate acceptable encodings to use when signing
     * **3 (V)**: The minimum required version number of the signature handler to be used to sign the signature field
     * **4 (Reasons):** An array of strings that specify possible reasons for signing a document
-    * **5 (PDFLegalWarnings): **An array of strings that specify possible legal attestations
+    * **5 (PDFLegalWarnings):** An array of strings that specify possible legal attestations
 
 * **Legal attestations**: When a document is certified, it is automatically scanned for specific types of content that can make the visible contents of a document ambiguous or misleading. For example, an annotation can obscure text that is important for understanding what is being certified. The scanning process generates warnings that indicate the presence of this type of content. It also provides an additional explanation of the content that may have generated warnings. 
 * **Permissions**: Specifies permissions that can be used on a PDF document without invalidating the signature. 
@@ -655,7 +655,7 @@ You can also specify whether or not to perform a revocation check that determine
 
 * **NoCheck**: Do not perform revocation checking. 
 * **BestEffort**: Always attempt to check for revocation of all certificates in the chain. If any problem occurs in checking, the revocation is assumed to be valid. If any failure happens, assume that the certificate is not revoked.
-* **CheckIfAvailable: **Check for revocation of all certificates in the chain if revocation information is available. If any problem occurs in checking, the revocation is assumed to be invalid. If any failure happens, assume the certificate is revoked and invalid. (This is the default value.)
+* **CheckIfAvailable:** Check for revocation of all certificates in the chain if revocation information is available. If any problem occurs in checking, the revocation is assumed to be invalid. If any failure happens, assume the certificate is revoked and invalid. (This is the default value.)
 * **AlwaysCheck**: Check for revocation of all certificates in the chain. If revocation information is not present in any certificate, revocation is assumed to be invalid.
 
 To perform revocation checking on a certificate, you can specify a URL to a certificate revocation list (CRL) server by using a `CRLOptionSpec` object. However, if you want to perform revocation checking and you do not specify a URL to a CRL server, then the Signature service obtains the URL from the certificate.

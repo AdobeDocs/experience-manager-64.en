@@ -26,10 +26,10 @@ Enter basic criteria to perform a general search. If you enter multiple criteria
 1. In administration console, click Services &gt; Forms workflow &gt; Process Search.
 1. On the Process Search page, under General Search, provide the following criteria:
 
-    * **Process ID: **The positive integer that identifies each unique process instance.
-    * **Process Status: **Select a status from the list.
-    * **Application: **Select an application from the list. Only deployed applications are shown.
-    * **Process Name - Version: **Select a process name from the menu. Only deployed processes are shown.
+    * **Process ID:** The positive integer that identifies each unique process instance.
+    * **Process Status:** Select a status from the list.
+    * **Application:** Select an application from the list. Only deployed applications are shown.
+    * **Process Name - Version:** Select a process name from the menu. Only deployed processes are shown.
 
 1. Click Search. The Process Instance page appears, listing the found instances.
 

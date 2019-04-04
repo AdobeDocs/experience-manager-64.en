@@ -58,7 +58,7 @@ To configure SSO for a AEM instance, you need to configure the [SSO Authenticati
 
     * **Path:** as required; for example, `/`
     
-    * **Header Names: **SM_USER
+    * **Header Names:** SM_USER
     * **ID Format**: AsIs
 
 1. Confirm that Single Sign On is working as required; including authorization.
