@@ -79,7 +79,7 @@
             "pattern": "^.*sling.apache.org"
         },
         {
-            "pattern": "^.*localhost:4502"
-        },
+            "pattern": "^.*localhost.*"
+        }
     ]
 }
