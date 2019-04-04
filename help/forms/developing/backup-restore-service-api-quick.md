@@ -25,7 +25,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Entering backup mode using the Java API {#quick-start-soap-mode-entering-backup-mode-using-the-java-api}
 
-The following Java code example enters into backup mode with a unique label for two hours. After the backup time expires or if backup mode is explicitly exited, the forms server returns to purging files from the Global Document Storage. (See [Entering Backup Mode on the forms server](/programming-with-aem-forms/preparing-aem-forms-backup.md#entering_backup_mode_on_the_forms_server).)
+The following Java code example enters into backup mode with a unique label for two hours. After the backup time expires or if backup mode is explicitly exited, the forms server returns to purging files from the Global Document Storage. (See [Entering Backup Mode on the forms server](/help/forms/developing/preparing-aem-forms-backup.md#entering_backup_mode_on_the_forms_server).)
 
 ```as3
  /* 
@@ -140,7 +140,7 @@ The following Java code example enters into backup mode with a unique label for 
 
 ## Quick Start (SOAP mode): Leaving backup mode using the Java API {#quick-start-soap-mode-leaving-backup-mode-using-the-java-api}
 
-The following Java code example explicitly causes a Forms Server to leave backup mode and return to purging files from the Global Document Storage. (See [Leaving Backup Mode on the forms server](/programming-with-aem-forms/preparing-aem-forms-backup.md#leaving_backup_mode_on_the_forms_server).)
+The following Java code example explicitly causes a Forms Server to leave backup mode and return to purging files from the Global Document Storage. (See [Leaving Backup Mode on the forms server](/help/forms/developing/preparing-aem-forms-backup.md#leaving_backup_mode_on_the_forms_server).)
 
 ```as3
  /* 

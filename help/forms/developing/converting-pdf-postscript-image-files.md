@@ -51,7 +51,7 @@ Include the necessary files into your development project. If you are creating a
 
 Before you can programmatically perform a Convert PDF service operation, you must create a Convert PDF service client. If you are using the Java API, create a `ConvertPdfServiceClient` object. If you are using the web service API, create a `ConvertPDFServiceService` object.
 
-This section uses web service functionality that is introduced in AEM Forms. To access new functionality, you have to construct your proxy object using the `lc_version` attribute. (See “Accessing new functionality using web services” in [Invoking AEM Forms using Web Services](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_web_services).)
+This section uses web service functionality that is introduced in AEM Forms. To access new functionality, you have to construct your proxy object using the `lc_version` attribute. (See “Accessing new functionality using web services” in [Invoking AEM Forms using Web Services](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_web_services).)
 
 **Reference the PDF document to convert to a PostScript file**
 
@@ -83,11 +83,11 @@ After you convert the PDF document to PostScript, you can save the output as a P
 
 [Convert a PDF document to PS using the web service API](converting-pdf-postscript-image-files.md#convert_a_pdf_document_to_ps_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Convert PDF Service API Quick Starts](/programming-with-aem-forms/convert-pdf-service-java-api.md#convert_pdf_service_java_api_quick_start_soap)
+[Convert PDF Service API Quick Starts](/help/forms/developing/convert-pdf-service-java-api.md#convert_pdf_service_java_api_quick_start_soap)
 
 ### Convert a PDF document to PS using the Java API {#convert-a-pdf-document-to-ps-using-the-java-api}
 
@@ -130,9 +130,9 @@ Convert a PDF document to PostScript by using the Convert PDF Service API (Java)
 
 [Summary of steps](converting-pdf-postscript-image-files.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Converting a PDF document to PostScript using the Java API](/programming-with-aem-forms/convert-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_postscript_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PDF document to PostScript using the Java API](/help/forms/developing/convert-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_postscript_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -198,9 +198,9 @@ Convert a PDF document to PostScript by using the Convert PDF Service API (web s
 
 [Quick Start (SwaRef): Converting a PDF document to PostScript using the web service API](unresolvedlink-lc-qs-convert-pdf-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7f1e.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Converting PDF Documents to Image Formats {#converting-pdf-documents-to-image-formats}
 
@@ -233,7 +233,7 @@ Before you can programmatically perform a Convert PDF service operation, you mus
 
 **Retrieve the PDF document to convert**
 
-You must retrieve the PDF document to convert to an image. You cannot convert an interactive PDF document to an image. If you attempt to do so, an exception is thrown. To convert an interactive PDF document to an image file, you must flatten the PDF document before you convert it. (See [Flattening PDF Documents](/programming-with-aem-forms/creating-document-output-streams.md#flattening_pdf_documents).)
+You must retrieve the PDF document to convert to an image. You cannot convert an interactive PDF document to an image. If you attempt to do so, an exception is thrown. To convert an interactive PDF document to an image file, you must flatten the PDF document before you convert it. (See [Flattening PDF Documents](/help/forms/developing/creating-document-output-streams.md#flattening_pdf_documents).)
 
 **Set run-time options**
 
@@ -251,11 +251,11 @@ The format of the image file is dependent on the `ImageConvertFormat` run-time o
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Convert PDF Service API Quick Starts](/programming-with-aem-forms/convert-pdf-service-java-api.md#convert_pdf_service_java_api_quick_start_soap)
+[Convert PDF Service API Quick Starts](/help/forms/developing/convert-pdf-service-java-api.md#convert_pdf_service_java_api_quick_start_soap)
 
 ### Convert a PDF document to image files using the Java API {#convert-a-pdf-document-to-image-files-using-the-java-api}
 
@@ -299,7 +299,7 @@ Convert a PDF document to an image format by using the Convert PDF service API (
 
 **See also**
 
-[Quick Start (SOAP mode): Converting a PDF document to JPEG files using the Java API](/programming-with-aem-forms/convert-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_jpeg_files_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PDF document to JPEG files using the Java API](/help/forms/developing/convert-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_jpeg_files_using_the_java_api)
 
 ### Convert a PDF document to image files using the web service API {#convert-a-pdf-document-to-image-files-using-the-web-service-api}
 
@@ -363,6 +363,6 @@ Convert a PDF document to an image format by using the Convert PDF Service API (
 
 [Quick Start (SwaRef): Converting a PDF document to a set of JPEG files using the web service API](unresolvedlink-lc-qs-convert-pdf-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7f1a.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)

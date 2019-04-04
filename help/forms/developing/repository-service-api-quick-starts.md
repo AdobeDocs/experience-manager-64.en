@@ -59,7 +59,7 @@ The path to a resource located in the AEM Forms repository is:
 
 ## Quick Start (SOAP mode): Creating a folder using the Java API {#quick-start-soap-mode-creating-a-folder-using-the-java-api}
 
-The following Java code example creates a folder called *FormsFolder* in the following location `/Applications/FormsApplication/1.0/`. (See [Creating Folders](/programming-with-aem-forms/aem-forms-repository.md#creating_folders).)
+The following Java code example creates a folder called *FormsFolder* in the following location `/Applications/FormsApplication/1.0/`. (See [Creating Folders](/help/forms/developing/aem-forms-repository.md#creating_folders).)
 
 ```as3
  /* 
@@ -165,7 +165,7 @@ The following Java code example creates a folder called *FormsFolder* in the fol
 
 ## Quick Start (SOAP mode): Writing a resource using the Java API {#quick-start-soap-mode-writing-a-resource-using-the-java-api}
 
-The following Java code example writes a resource called *loan.xdp* in the repository. The resource is added to the `/Applications/FormsApplication/1.0/FormsFolder` location. (See [Writing Resources](/programming-with-aem-forms/aem-forms-repository.md#writing_resources).)
+The following Java code example writes a resource called *loan.xdp* in the repository. The resource is added to the `/Applications/FormsApplication/1.0/FormsFolder` location. (See [Writing Resources](/help/forms/developing/aem-forms-repository.md#writing_resources).)
 
 ```as3
  /* 
@@ -293,7 +293,7 @@ The following Java code example writes a resource called *loan.xdp* in the repos
 
 ## Quick Start (SOAP mode): Listing resources using the Java API {#quick-start-soap-mode-listing-resources-using-the-java-api}
 
-The following Java code example lists resources that are located in `Applications/FormsApplication/1.0/FormsFolder`. (See [Listing Resources](/programming-with-aem-forms/aem-forms-repository.md#listing_resources).)
+The following Java code example lists resources that are located in `Applications/FormsApplication/1.0/FormsFolder`. (See [Listing Resources](/help/forms/developing/aem-forms-repository.md#listing_resources).)
 
 ```as3
  /* 
@@ -392,7 +392,7 @@ The following Java code example lists resources that are located in `Application
 
 ## Quick Start (SOAP mode): Reading a resource using the Java API {#quick-start-soap-mode-reading-a-resource-using-the-java-api}
 
-The following Java code example reads a resource called *Loan.xdp* from the repository. The XDP file is located in `/Applications/FormsApplication/1.0/FormsFolder/`. (See [Reading Resources](/programming-with-aem-forms/aem-forms-repository.md#reading_resources).)
+The following Java code example reads a resource called *Loan.xdp* from the repository. The XDP file is located in `/Applications/FormsApplication/1.0/FormsFolder/`. (See [Reading Resources](/help/forms/developing/aem-forms-repository.md#reading_resources).)
 
 ```as3
  /* 
@@ -493,7 +493,7 @@ The following Java code example reads a resource called *Loan.xdp* from the repo
 
 ## Quick Start (SOAP mode): Updating a resource using the Java API {#quick-start-soap-mode-updating-a-resource-using-the-java-api}
 
-The following Java code example updates `/Applications/FormsApplication/1.0/FormsFolder` by modifying its description. (See [Updating Resources](/programming-with-aem-forms/aem-forms-repository.md#updating_resources).)
+The following Java code example updates `/Applications/FormsApplication/1.0/FormsFolder` by modifying its description. (See [Updating Resources](/help/forms/developing/aem-forms-repository.md#updating_resources).)
 
 ```as3
  /* 
@@ -605,7 +605,7 @@ The following Java code example updates `/Applications/FormsApplication/1.0/Form
 
 ## Quick Start (SOAP mode): Searching for resources using the Java API {#quick-start-soap-mode-searching-for-resources-using-the-java-api}
 
-The following Java code example searches for Loan.xdp in `Applications/FormsApplication/1.0/FormsFolder`. (See [Searching for Resources](/programming-with-aem-forms/aem-forms-repository.md#searching_for_resources).)
+The following Java code example searches for Loan.xdp in `Applications/FormsApplication/1.0/FormsFolder`. (See [Searching for Resources](/help/forms/developing/aem-forms-repository.md#searching_for_resources).)
 
 ```as3
  /* 
@@ -729,7 +729,7 @@ The following Java code example searches for Loan.xdp in `Applications/FormsAppl
 
 ## Quick Start (SOAP mode): Creating relationships between resources using the Java API {#quick-start-soap-mode-creating-relationships-between-resources-using-the-java-api}
 
-The following Java code example creates a relationship between two resources in the AEM Forms repository. (See [Creating Resource Relationships](/programming-with-aem-forms/aem-forms-repository.md#creating_resource_relationships).)
+The following Java code example creates a relationship between two resources in the AEM Forms repository. (See [Creating Resource Relationships](/help/forms/developing/aem-forms-repository.md#creating_resource_relationships).)
 
 ```as3
  /* 
@@ -870,7 +870,7 @@ The following Java code example creates a relationship between two resources in 
 
 ## Quick Start (SOAP mode): Locking a resource using the Java API {#quick-start-soap-mode-locking-a-resource-using-the-java-api}
 
-The following Java code example locks /Applications/FormsApplication/1.0/FormsFolder/Loan.xdp. (See [Locking Resources](/programming-with-aem-forms/aem-forms-repository.md#locking_resources).)
+The following Java code example locks /Applications/FormsApplication/1.0/FormsFolder/Loan.xdp. (See [Locking Resources](/help/forms/developing/aem-forms-repository.md#locking_resources).)
 
 ```as3
  /* 
@@ -1096,7 +1096,7 @@ The following Java code example reads and creates access control lists (ACLs) in
 
 ## Quick Start (SOAP mode): Deleting a resource using the Java API {#quick-start-soap-mode-deleting-a-resource-using-the-java-api}
 
-The following Java code example deletes Loan.xdp from `Applications/FormsApplication/1.0/FormsFolder`. If this XDP file is not located in this folder, an exception is thrown. (See [Deleting Resources](/programming-with-aem-forms/aem-forms-repository.md#deleting_resources).)
+The following Java code example deletes Loan.xdp from `Applications/FormsApplication/1.0/FormsFolder`. If this XDP file is not located in this folder, an exception is thrown. (See [Deleting Resources](/help/forms/developing/aem-forms-repository.md#deleting_resources).)
 
 ```as3
  /* 

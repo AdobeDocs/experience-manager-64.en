@@ -386,7 +386,7 @@ The following table specifies invoking scenarios and lists the required JAR file
      <li><p>adobe-reader-extensions-client.jar</p> </li> 
      <li><p>adobe-signatures-client.jar</p> </li> 
     </ul> </td> 
-  </tr> 
+  </tr> xmp-uti
  </tbody> 
 </table>
 
@@ -412,7 +412,7 @@ Assuming that you are upgrading to AEM Forms. To use a Java application that inv
 
 ## Setting connection properties {#setting-connection-properties}
 
-You set connection properties to invoke AEM Forms when using the Java API. When setting connection properties, specify whether to invoke services remotely or locally, and also specify the connection mode and authentication values. Authentication values are required if service security is enabled. However, if service security is disabled, it is not necessary to specify authentication values. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks.md#disabling_service_security).)
+You set connection properties to invoke AEM Forms when using the Java API. When setting connection properties, specify whether to invoke services remotely or locally, and also specify the connection mode and authentication values. Authentication values are required if service security is enabled. However, if service security is disabled, it is not necessary to specify authentication values. (See [Disabling Service Security](/help/forms/developing/processes-tasks.md#disabling_service_security).)
 
 The connection mode can either be SOAP or EJB mode. The EJB mode uses the RMI/IIOP protocol, and the performance of the EJB mode is better than the performance of the SOAP mode. The SOAP mode is used to eliminate a J2EE application server dependency or when a firewall is located between AEM Forms and the client application. The SOAP mode uses the https protocol as the underlying transport and can communicate across firewall boundaries. If neither a J2EE application server dependency or a firewall is an issue, it is recommended that you use the EJB mode.
 
@@ -438,7 +438,7 @@ To successfully invoke a AEM Forms service, set the following connection propert
 
   ***Note**: Instead of using a string to set the `DSC_SERVER_TYPE` connection property, you can use a static member of the `ServiceClientFactoryProperties` class. The following values can be used: `ServiceClientFactoryProperties.DSC_WEBSPHERE_SERVER_TYPE`, `ServiceClientFactoryProperties.DSC_WEBLOGIC_SERVER_TYPE`, or `ServiceClientFactoryProperties.DSC_JBOSS_SERVER_TYPE`*.**
 
-* **DSC_CREDENTIAL_USERNAME:** Specifies the AEM forms user name. For a user to sucessfully invoke a AEM Forms service, they need the Services User role. A user can also have another role that includes the Service Invoke permission. Otherwise, an exception is thrown when they attempt to invoke a service. If service security is disabled, it is not necessary to specify this connection property. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks.md#disabling_service_security).)
+* **DSC_CREDENTIAL_USERNAME:** Specifies the AEM forms user name. For a user to sucessfully invoke a AEM Forms service, they need the Services User role. A user can also have another role that includes the Service Invoke permission. Otherwise, an exception is thrown when they attempt to invoke a service. If service security is disabled, it is not necessary to specify this connection property. (See [Disabling Service Security](/help/forms/developing/processes-tasks.md#disabling_service_security).)
 * **DSC_CREDENTIAL_PASSWORD:** Specifies the corresponding password value. If service security is disabled, it is not necessary to specify this connection property.
 * **DSC_REQUEST_TIMEOUT: **The default request timeout limit for the SOAP request is 1200000 milliseconds (20 minutes). Sometime, a request can require longer time to complete the operation. For example, a SOAP request that retrieves a large set of records can require a longer timeout limit. You can use the `ServiceClientFactoryProperties.DSC_REQUEST_TIMEOUT` to increase the request call timeout limit for the SOAP requests.
 
@@ -539,7 +539,7 @@ The following Java code example sets connection properties in SOAP mode to invok
 
 **Setting connection properties when service security is disabled**
 
-The following Java code example sets connection properties required to invoke AEM Forms deployed on JBoss Application Server and when service security is disabled. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks.md#disabling_service_security).)
+The following Java code example sets connection properties required to invoke AEM Forms deployed on JBoss Application Server and when service security is disabled. (See [Disabling Service Security](/help/forms/developing/processes-tasks.md#disabling_service_security).)
 
 ```as3
  Properties ConnectionProps = new Properties(); 
@@ -609,7 +609,7 @@ The following code example shows how to use a `com.adobe.idp.Context` object wit
 
 >[!NOTE]
 >
->For complete details about authenticating a user, see [Authenticating Users](/programming-with-aem-forms/users.md#authenticating_users).
+>For complete details about authenticating a user, see [Authenticating Users](/help/forms/developing/users.md#authenticating_users).
 
 ### Invoking scenarios {#invoking_scenarios-1}
 
@@ -695,7 +695,7 @@ The `com.adobe.idp.Document` object attempts to determine the content type using
 
 If collateral files reside on the same file system, creating a `com.adobe.idp.Document` object is faster. If collateral files reside on remote file systems, a copy operation must be done, which affects performance.
 
-An application can contain both `com.adobe.idp.Document` and `org.w3c.dom.Document` data types. However, ensure that you fully qualify the `org.w3c.dom.Document` data type. For information about converting a `org.w3c.dom.Document` object to a `com.adobe.idp.Document` object, see [Quick Start (EJB mode): Prepopulating Forms with Flowable Layouts using the Java API](/programming-with-aem-forms/forms-service-api-quick-starts.md#quick_start_soap_mode_prepopulating_forms_with_flowable_layouts_using_the_java_api).
+An application can contain both `com.adobe.idp.Document` and `org.w3c.dom.Document` data types. However, ensure that you fully qualify the `org.w3c.dom.Document` data type. For information about converting a `org.w3c.dom.Document` object to a `com.adobe.idp.Document` object, see [Quick Start (EJB mode): Prepopulating Forms with Flowable Layouts using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick_start_soap_mode_prepopulating_forms_with_flowable_layouts_using_the_java_api).
 
 >[!NOTE]
 >
@@ -952,7 +952,7 @@ When you no longer require a `Document` object, it is recommended that you dispo
 
 ## Invoking a service using a Java client library {#invoking-a-service-using-a-java-client-library}
 
-AEM Forms service operations can be invoked by using a service’s strongly typed API, which is known as a Java client library. A *Java client library* is a set of concrete classes that provide access to services deployed in the service container. You instantiate a Java object that represents the service to invoke instead of creating an `InvocationRequest` object by using the Invocation API. The Invocation API is used to invoke processes, such as long-lived processes, created in Workbench. (See [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).)
+AEM Forms service operations can be invoked by using a service’s strongly typed API, which is known as a Java client library. A *Java client library* is a set of concrete classes that provide access to services deployed in the service container. You instantiate a Java object that represents the service to invoke instead of creating an `InvocationRequest` object by using the Invocation API. The Invocation API is used to invoke processes, such as long-lived processes, created in Workbench. (See [Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).)
 
 To perform a service operation, invoke a method that belongs to the Java object. A Java client library contains methods that typically map one-to-one with service operations. When using a Java client library, set required connection properties. (See [Setting connection properties](invoking-aem-forms-using-java.md#setting-connection-properties).)
 
@@ -994,7 +994,7 @@ You can invoke the Repository service by using a Java client library and by perf
 
 **See also**
 
-[Quick Start (EJB mode): Writing a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_writing_a_resource_using_the_java_api)
+[Quick Start (EJB mode): Writing a resource using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_writing_a_resource_using_the_java_api)
 
 [Invoking AEM Forms using the Java API](invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api)
 
@@ -1006,7 +1006,7 @@ You can invoke a short-lived process using the Java Invocation API. When you inv
 
 >[!NOTE]
 >
->For information about invoking a long-lived process, see [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).
+>For information about invoking a long-lived process, see [Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).
 
 The discussion here is about using Invocation API to invoke the following AEM Forms short-lived process named `MyApplication/EncryptDocument`.
 
@@ -1062,9 +1062,9 @@ Invoke the `MyApplication/EncryptDocument` short-lived process using the Java in
 
 **See also**
 
-[Quick Start: Invoking a short-lived process using the Invocation API](/programming-with-aem-forms/invocation-api-quick-starts.md#quick_start_invoking_a_short_lived_process_using_the_invocation_api)
+[Quick Start: Invoking a short-lived process using the Invocation API](/help/forms/developing/invocation-api-quick-starts.md#quick_start_invoking_a_short_lived_process_using_the_invocation_api)
 
-[Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes)
+[Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes)
 
 [Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 

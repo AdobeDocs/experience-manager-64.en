@@ -172,7 +172,7 @@ To access new functionality introduced in AEM Forms, specify the `lc_version` at
 
 **Web service BLOB data type**
 
-AEM Forms service WSDLs define many data types. One of the most important data types exposed in a web service is a `BLOB` type. This data type maps to the `com.adobe.idp.Document` class when working with AEM Forms Java APIs. (See [Passing data to AEM Forms services using the Java API](/programming-with-aem-forms/invoking-aem-forms-using-java.md#passing_data_to_aem_forms_services_using_the_java_api).)
+AEM Forms service WSDLs define many data types. One of the most important data types exposed in a web service is a `BLOB` type. This data type maps to the `com.adobe.idp.Document` class when working with AEM Forms Java APIs. (See [Passing data to AEM Forms services using the Java API](/help/forms/developing/invoking-aem-forms-using-java.md#passing_data_to_aem_forms_services_using_the_java_api).)
 
 A `BLOB` object sends and retrieves binary data (for example, PDF files, XML data, and so on) to and from AEM Forms services. The `BLOB` type is defined in a service WSDL as follows:
 
@@ -469,7 +469,7 @@ You can use the Apache Axis WSDL2Java tool to convert a Forms service into Java 
 
 >[!NOTE]
 >
->The web service quick starts associated with the Forms service use Java proxy classes created using Apache Axis. The Forms web service quick starts also use Base64 as the encoding type. (See [Forms Service API Quick Starts](/programming-with-aem-forms/forms-service-api-quick-starts.md#forms_service_api_quick_starts).)
+>The web service quick starts associated with the Forms service use Java proxy classes created using Apache Axis. The Forms web service quick starts also use Base64 as the encoding type. (See [Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms_service_api_quick_starts).)
 
 You can generate Axis Java library files by performing the following steps:
 
@@ -715,7 +715,7 @@ You can invoke an AEM Forms service using Java proxy classes and Base64. To invo
 
 **See also**
 
-[Quick Start: Invoking a service using Java proxy files and Base64 encoding](/programming-with-aem-forms/invocation-api-quick-starts.md#quick_start_invoking_a_service_using_java_proxy_files_and_base64_encoding)
+[Quick Start: Invoking a service using Java proxy files and Base64 encoding](/help/forms/developing/invocation-api-quick-starts.md#quick_start_invoking_a_service_using_java_proxy_files_and_base64_encoding)
 
 [Creating a .NET client assembly that uses Base64 encoding](invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
 
@@ -823,15 +823,15 @@ Consider the `MyApplication/EncryptDocument` process that accepts an unsecured P
 
 >[!NOTE]
 >
->Most AEM Forms service operations have a MTOM quick start. You can view these quick starts in a service’s corresponding quick start section. For example, to see the Output quick start section, see [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap).
+>Most AEM Forms service operations have a MTOM quick start. You can view these quick starts in a service’s corresponding quick start section. For example, to see the Output quick start section, see [Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap).
 
 **See also**
 
-[Quick Start: Invoking a service using MTOM in a .NET project](/programming-with-aem-forms/invocation-api-quick-starts.md#quick_start_invoking_a_service_using_mtom_in_a_net_project)
+[Quick Start: Invoking a service using MTOM in a .NET project](/help/forms/developing/invocation-api-quick-starts.md#quick_start_invoking_a_service_using_mtom_in_a_net_project)
 
 [Accessing multiple services using web services](invoking-aem-forms-using-web.md#accessing_multiple_services_using_web_services)
 
-[Creating an ASP.NET web application that invokes a human-centric long-lived process](/programming-with-aem-forms/invoking-human-centric-long-lived.md#creating_an_asp_net_web_application_that_invokes_a_human_centric_long_lived_process)
+[Creating an ASP.NET web application that invokes a human-centric long-lived process](/help/forms/developing/invoking-human-centric-long-lived.md#creating_an_asp_net_web_application_that_invokes_a_human_centric_long_lived_process)
 
 ## Invoking AEM Forms using SwaRef {#invoking-aem-forms-using-swaref}
 
@@ -911,11 +911,11 @@ To invoke the `MyApplication/EncryptDocument` process by using Java proxy files 
 
 >[!NOTE]
 >
->Most AEM Forms service operations have a SwaRef quick start. You can view these quick starts in a service’s corresponding quick start section. For example, to see the Output quick start section, see [Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap).
+>Most AEM Forms service operations have a SwaRef quick start. You can view these quick starts in a service’s corresponding quick start section. For example, to see the Output quick start section, see [Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output_service_java_api_quick_start_soap).
 
 **See also**
 
-[Quick Start: Invoking a service using SwaRef in a Java project](/programming-with-aem-forms/invocation-api-quick-starts.md#quick_start_invoking_a_service_using_swaref_in_a_java_project)
+[Quick Start: Invoking a service using SwaRef in a Java project](/help/forms/developing/invocation-api-quick-starts.md#quick_start_invoking_a_service_using_swaref_in_a_java_project)
 
 ## Invoking AEM Forms using BLOB data over HTTP {#invoking-aem-forms-using-blob-data-over-http}
 
@@ -1162,7 +1162,7 @@ To invoke the `MyApplication/EncryptDocument` service (which was built in Workbe
 
 **See also**
 
-[Quick Start: Invoking a service using DIME in a Java project](/programming-with-aem-forms/invocation-api-quick-starts.md#quick_start_invoking_a_service_using_dime_in_a_java_project)
+[Quick Start: Invoking a service using DIME in a Java project](/help/forms/developing/invocation-api-quick-starts.md#quick_start_invoking_a_service_using_dime_in_a_java_project)
 
 ## Using SAML-based authentication {#using-saml-based-authentication}
 
@@ -1524,7 +1524,7 @@ The following list specifies data types that cannot be shared between multiple s
 * `Roles`
 * `BLOB`
 
-To avoid this problem, it is recommended that you fully-qualify the data types. For example, consider a .NET application that references both the Forms service and Signature service using a service reference. Both service references will contain a `BLOB` class. To use a `BLOB` instance, fully-qualify the `BLOB` object when you declare it. This approach is shown in the following code example. For information about this code exampe, see [Digitally Signing Interactive Forms](/programming-with-aem-forms/digitally-signing-certifying-documents.md#digitally_signing_interactive_forms).
+To avoid this problem, it is recommended that you fully-qualify the data types. For example, consider a .NET application that references both the Forms service and Signature service using a service reference. Both service references will contain a `BLOB` class. To use a `BLOB` instance, fully-qualify the `BLOB` object when you declare it. This approach is shown in the following code example. For information about this code exampe, see [Digitally Signing Interactive Forms](/help/forms/developing/digitally-signing-certifying-documents.md#digitally_signing_interactive_forms).
 
 The following C# code example signs an interactive form that is rendered by the Forms service. The client application has two service references. The `BLOB` instance that is associated with the Forms service belongs to the `SignInteractiveForm.ServiceReference2` namespace. Likewise, the `BLOB` instance that is associated with the Signature service belongs to the `SignInteractiveForm.ServiceReference1` namespace. The signed interactive form is saved as a PDF file named *LoanXFASigned.pdf*.
 

@@ -121,11 +121,11 @@ After the file is converted to a PDF document, you can retrieve the results. For
 
 [Convert Word documents to PDF documents using the web service API](converting-file-formats-pdf.md#convert_word_documents_to_pdf_documents_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Generate PDF Service API Quick Starts](/programming-with-aem-forms/generate-pdf-service-java-api.md#generate_pdf_service_java_api_quick_start_soap)
+[Generate PDF Service API Quick Starts](/help/forms/developing/generate-pdf-service-java-api.md#generate_pdf_service_java_api_quick_start_soap)
 
 ### Convert Word documents to PDF documents using the Java API {#convert-word-documents-to-pdf-documents-using-the-java-api}
 
@@ -175,9 +175,9 @@ Convert a Microsoft Word document to a PDF document by using the Generate PDF AP
 
 [Summary of steps](converting-file-formats-pdf.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API](/programming-with-aem-forms/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_a_microsoft_word_document_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_a_microsoft_word_document_to_a_pdf_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -243,9 +243,9 @@ Convert a Microsoft Word document to a PDF document by using the Generate PDF AP
 
 [Quick Start (SwaRef): Converting a Microsoft Word document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd0.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Converting HTML Documents to PDF Documents {#converting-html-documents-to-pdf-documents}
 
@@ -291,11 +291,11 @@ After the HTML content is converted to a PDF document, you can retrieve the resu
 
 [Convert HTML content to a PDF document using the web service API](converting-file-formats-pdf.md#convert_html_content_to_a_pdf_document_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Generate PDF Service API Quick Starts](/programming-with-aem-forms/generate-pdf-service-java-api.md#generate_pdf_service_java_api_quick_start_soap)
+[Generate PDF Service API Quick Starts](/help/forms/developing/generate-pdf-service-java-api.md#generate_pdf_service_java_api_quick_start_soap)
 
 ### Convert HTML content to a PDF document using the Java API {#convert-html-content-to-a-pdf-document-using-the-java-api}
 
@@ -336,9 +336,9 @@ Convert an HTML document to a PDF document using the Generate PDF API (Java):
 
 [Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7ddb.2)
 
-[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/programming-with-aem-forms/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -397,9 +397,9 @@ Convert HTML content to a PDF document by using the Generate PDF API (web servic
 
 [Quick Start (SwaRef): Converting an HTML document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dcb.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Converting PDF Documents to Non-image Formats {#converting-pdf-documents-to-non-image-formats}
 
@@ -445,11 +445,11 @@ Save the converted file. For example, if you convert a PDF document to an RTF fi
 
 [Convert a PDF document to a RTF file using the web service API](converting-file-formats-pdf.md#convert_a_pdf_document_to_a_rtf_file_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Generate PDF Service API Quick Starts](/programming-with-aem-forms/generate-pdf-service-java-api.md#generate_pdf_service_java_api_quick_start_soap)
+[Generate PDF Service API Quick Starts](/help/forms/developing/generate-pdf-service-java-api.md#generate_pdf_service_java_api_quick_start_soap)
 
 ### Convert a PDF document to a RTF file using the Java API {#convert-a-pdf-document-to-a-rtf-file-using-the-java-api}
 
@@ -491,9 +491,9 @@ Convert a PDF document to an RTF file by using the Generate PDF API (Java):
 
 [Summary of steps](converting-file-formats-pdf.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/programming-with-aem-forms/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -556,9 +556,9 @@ Convert a PDF document to an RTF file by using the Generate PDF API (web service
 
 [Quick Start (SwaRef): Converting a PDF document to an RTF file using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dc5.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Adding Support for Additional Native File Formats {#adding-support-for-additional-native-file-formats}
 

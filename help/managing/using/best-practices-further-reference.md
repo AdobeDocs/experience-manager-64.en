@@ -32,7 +32,7 @@ Consider the features of AEM that you will be using, and the impact on your desi
 * [Assets](../../assets/using/assets.md)
 * [Tags](../../sites/administering/using/tags.md)
 * [Multi Site Management and Translation](../../sites/administering/using/msm-and-translation.md)
-* [Forms](/forms/user-guide.md)
+* [Forms](/help/forms/home.md)
 * [Communities](../../communities/using/deploy-communities.md)
 * [Livefyre](https://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/livefyre-for-adobe-experience-manager/)
 

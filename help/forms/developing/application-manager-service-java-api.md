@@ -29,7 +29,7 @@ AEM Forms operations can be performed using the AEM Forms strongly typed API and
 
 ## Quick Start (SOAP mode): Deploying Applications using the Java API {#quick-start-soap-mode-deploying-applications-using-the-java-api}
 
-The following Java code example imports an application based on an existing LCA file named *EncryptDocument.lca*. (See [Deploying applications](/programming-with-aem-forms/processes-tasks.md#deploying_applications).)
+The following Java code example imports an application based on an existing LCA file named *EncryptDocument.lca*. (See [Deploying applications](/help/forms/developing/processes-tasks.md#deploying_applications).)
 
 ```as3
  /* 
@@ -131,7 +131,7 @@ The following Java code example imports an application based on an existing LCA 
 
 ## Quick Start (SOAP mode): Removing an application using the Java API {#quick-start-soap-mode-removing-an-application-using-the-java-api}
 
-The following Java code example removes an application named *EncryptDocument*. (See [Removing Applications](/programming-with-aem-forms/processes-tasks.md#removing_applications).)
+The following Java code example removes an application named *EncryptDocument*. (See [Removing Applications](/help/forms/developing/processes-tasks.md#removing_applications).)
 
 ```as3
  /* 

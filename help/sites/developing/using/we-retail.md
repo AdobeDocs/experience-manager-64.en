@@ -49,7 +49,7 @@ We.Retail is delivered as AEM's sample content. In order to use, simply [start A
 
 >[!CAUTION]
 >
->We.Retail is based on the latest AEM technology and therefore does not support [classic UI authoring](/sites/classic-ui-authoring/user-guide.md).
+>We.Retail is based on the latest AEM technology and therefore does not support [classic UI authoring](/help/sites/classic-ui-authoring/using/home.md).
 
 ### Latest Version {#latest-version}
 

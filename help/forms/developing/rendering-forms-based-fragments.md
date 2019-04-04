@@ -34,7 +34,7 @@ Here are advantages of using fragments:
 
 ### Assembling a form design assembled using fragments {#assembling-a-form-design-assembled-using-fragments}
 
-You can assemble a form design to pass to the Forms service based on multiple fragments. To assemble multiple fragments, use the Assembler service. To see an example of using the Assemble service to create a form design which is used by another Forms services (the Output service), see [Creating PDF Documents Using Fragments](/programming-with-aem-forms/creating-document-output-streams-creating creating-document-output-streams-creating.md#creating_pdf_documents_using_fragments). Instead of using the Output service, you can perform the same workflow using the Forms service.
+You can assemble a form design to pass to the Forms service based on multiple fragments. To assemble multiple fragments, use the Assembler service. To see an example of using the Assemble service to create a form design which is used by another Forms services (the Output service), see [Creating PDF Documents Using Fragments](/help/forms/developing/creating-document-output-streams-creating creating-document-output-streams-creating.md#creating_pdf_documents_using_fragments). Instead of using the Output service, you can perform the same workflow using the Forms service.
 
 When using the Assembler service, you are passing a form design that was assembled using fragments. The form design that was created does not reference other fragments. In contrast, this topic discusses passing a form design that references other fragments to the Forms service. However, the form design was not assembled by Assembler. It was created in Designer.
 
@@ -44,7 +44,7 @@ When using the Assembler service, you are passing a form design that was assembl
 
 >[!NOTE]
 >
->For information about creating a web-based application that renders forms based on fragments, see [Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms).
+>For information about creating a web-based application that renders forms based on fragments, see [Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms).
 
 ### Summary of steps {#summary-of-steps}
 
@@ -68,13 +68,13 @@ Before you can programmatically perform a Forms service Client API operation, yo
 
 To successfully render a form based on fragments, you must ensure that the Forms service can locate both the form and the fragments (the XDP files) that the form design references. For example, assume the form is named PO.xdp and this form uses two fragments named FooterUS.xdp and FooterCanada.xdp. In this situation, the Forms service must be able to locate all three XDP files.
 
-You can organize a form and its fragments by placing the form in one location and the fragments in another location, or you can place all XDP files in the same location. For the purposes of this section, assume that all XDP files are located in the AEM Forms repository. For information about placing XDP files in the AEM Forms repository, see [Writing Resources](/programming-with-aem-forms/aem-forms-repository-aem-forms writing-resources-writing-resources.md#writing_resources).
+You can organize a form and its fragments by placing the form in one location and the fragments in another location, or you can place all XDP files in the same location. For the purposes of this section, assume that all XDP files are located in the AEM Forms repository. For information about placing XDP files in the AEM Forms repository, see [Writing Resources](/help/forms/developing/aem-forms-repository-aem-forms writing-resources-writing-resources.md#writing_resources).
 
 When rendering a form based on fragments, you must reference only the form itself and not the fragments. For example, you must reference PO.xdp and not FooterUS.xdp or FooterCanada.xdp. Ensure that you place the fragments in a location where the Forms service can locate them.
 
 **Render the form**
 
-A form based on fragments can be rendered in the same manner as non-fragmented forms. That is, you can render the form as PDF, HTML, or form Guides (deprecated). The example in this section renders a form based on fragments as an interactive PDF form. (See [Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms).)
+A form based on fragments can be rendered in the same manner as non-fragmented forms. That is, you can render the form as PDF, HTML, or form Guides (deprecated). The example in this section renders a form based on fragments as an interactive PDF form. (See [Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms).)
 
 **Write the form data stream to the client web browser**
 
@@ -82,9 +82,9 @@ When the Forms service renders a form, it returns a form data stream that you mu
 
 **See also**
 
-[Render forms based on fragments using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering rendering-forms-based-fragments-rendering.md#render_forms_based_on_fragments_using_the_java_api)
+[Render forms based on fragments using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering rendering-forms-based-fragments-rendering.md#render_forms_based_on_fragments_using_the_java_api)
 
-[Render forms based on fragments using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering rendering-forms-based-fragments-rendering.md#render_forms_based_on_fragments_using_the_web_service_api)
+[Render forms based on fragments using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering rendering-forms-based-fragments-rendering.md#render_forms_based_on_fragments_using_the_web_service_api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -92,9 +92,9 @@ When the Forms service renders a form, it returns a form data stream that you mu
 
 [Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
 
-[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
 
 ### Render forms based on fragments using the Java API {#render-forms-based-on-fragments-using-the-java-api}
 
@@ -140,7 +140,7 @@ Render a form based on fragments by using the Forms API (Java):
 
 **See also**
 
-[Rendering Forms Based on Fragments](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering_forms_based_on_fragments)
+[Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering_forms_based_on_fragments)
 
 [Quick Start (SOAP mode): Rendering a form based on fragments using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e3c.2)
 
@@ -196,7 +196,7 @@ Render a form based on fragments using the Forms API (web service):
 
 **See also**
 
-[Rendering Forms Based on Fragments](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering_forms_based_on_fragments)
+[Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering_forms_based_on_fragments)
 
 [Quick Start (Base64): Rendering a form based on fragments using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e3b.2)
 

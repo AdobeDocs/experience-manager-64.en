@@ -1,32 +1,35 @@
 ---
-title: Adobe Experience Manager Authoring Guide
-seo-title: Authoring in AEM
+title: AEM 6.4 Authoring User Guide
+seo-title: AEM 6.4 Authoring User Guide
 description: Authoring in AEM
-seo-description: Authoring AEM
+seo-description: Authoring in AEM
 ---
 
-# Adobe Experience Manager Authoring User Guide
+# AEM 6.4 Authoring User Guide
 
-This guide covers all Authoring etc.
+This guide covers all AEM Authoring tasks, such as 
 
 ## Key articles
 
-* first item - this file needs to be updated and then copied into all the user guides.
+* List of links
 
-## Adobe Experience Manager user guides
+## AEM 6.4 user guides
 
 | User Guide | Description |
 |--- |---|
-| guide | This guide features all the analysis tools you can use in Adobe Analytics. First and foremost, it provides thorough documentation on Analysis Workspace, the premier analysis and visualization tool for Analytics. |
-| guide | This guide covers all Adobe Analytics Admin configuration tasks, such as setting up report suites, users/groups, classifications, or data governance. |
-| [guide | This guide walks you through different Adobe Analytics implementation methods, from JavaScript to Launch. |
-| guide | Analytics components help you fine tune and empower your customer journey analysis. Examples of components include segments, calculated metrics, virtual report suites, and alerts. |
-| guide | This guide discusses various data export methods, such as data feeds and Data Warehouse. |
-| guide | This guide explains how to get data into Analytics through data sources, the insertion API, or through data connectors. |
-| guide | This guide helps you configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, or Target. |
-| [Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) | This guide provides instructions on the Media SDK and the Media Collection API. |
-| [Data Workbench Guides](https://marketing.adobe.com/resources/help/en_US/insight/)|Provide instruction on the Data Workbench Client, Installation, Dataset Configuration, etc.|
+| [Release Notes](home.md)|This guide|
+| [Assets User Guide](home.md) | This guide  |
+| [Forms User Guide](home.md) | This guide |
+| [Communities User Guide](home.md) | This guide  |
+| [Administering Guide](home.md) | This guide |
+| [Authoring Guide](home.md) | This guide |
+| [Classic UI Authoring Guide](home.md) | This guide  |
+| [Screens User Guide](home.md) | This guide |
+| [Deploying User Guide](home.md) | This guide  |
+| [Developing User Guide](home.md)|This guide|
+| [Managing User Guide](home.md)|This guide |
+| [Mobile User Guide](home.md)|This guide |
 
-## Key Adobe Experience Manager resources
+## Key AEM resources
 
-* List of links 
+* List of links

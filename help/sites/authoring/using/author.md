@@ -19,7 +19,7 @@ discoiquuid: 72ee013a-7a60-41ee-9421-2846e4c6bc68
 >
 >For an explanation of the differences between the standard UI and the classic UI, see [Working with the Author Environment](../../../sites/authoring/using/author-environment.md).
 >
->If you are looking for authoring documentation for the classic UI, see [Authoring in the Classic UI User Guide](/sites/classic-ui-authoring/user-guide.md).
+>If you are looking for authoring documentation for the classic UI, see [Authoring in the Classic UI User Guide](/help/sites/classic-ui-authoring/using/home.md).
 
 ## Concept of Authoring (and Publishing) {#concept-of-authoring-and-publishing}
 
@@ -71,7 +71,7 @@ Additionally, there are administrative tasks that help you manage your content:
 
 >[!NOTE]
 >
->AEM is also [administered](/sites/administering/user-guide.md) (for a majority of tasks) from the author environment.
+>AEM is also [administered](/help/sites/administering/using/home.md) (for a majority of tasks) from the author environment.
 
 ### Publish Environment {#publish-environment}
 

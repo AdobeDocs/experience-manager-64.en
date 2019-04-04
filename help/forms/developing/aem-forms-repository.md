@@ -39,7 +39,7 @@ The following values show some examples of URI values:
 
 >[!NOTE]
 >
->You can browse the AEM Forms Repository by using a web browser. To browse the repository, enter the following URL into a web browser https://[server name]:[server port]/repository. You can verify quick start results that are associated with the Working with AEM Forms Repository section by using a web browser. For example, if you add content to the AEM Forms Repository, you can see the content in a web browser. (See [Quick Start (SOAP mode): Writing a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_writing_a_resource_using_the_java_api).)
+>You can browse the AEM Forms Repository by using a web browser. To browse the repository, enter the following URL into a web browser https://[server name]:[server port]/repository. You can verify quick start results that are associated with the Working with AEM Forms Repository section by using a web browser. For example, if you add content to the AEM Forms Repository, you can see the content in a web browser. (See [Quick Start (SOAP mode): Writing a resource using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_writing_a_resource_using_the_java_api).)
 
 The repository API provides a number of operations that you can use to store and retrieve information from the repository. For example, you can obtain a list of resources or retrieve specific resources that are stored in the repository when a resource is needed as part of processing an application.
 
@@ -112,11 +112,11 @@ Invoke the Repository service method to write the resource collection, specifyin
 
 [Create folders using the web service API](aem-forms-repository.md#create_folders_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
+[Repository Service API Quick Starts](/help/forms/developing/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
 ### Create folders using the Java API {#create-folders-using-the-java-api}
 
@@ -156,9 +156,9 @@ Create a folder by using the Repository service API (Java):
 
 [Creating Folders](aem-forms-repository.md#creating_folders)
 
-[Quick Start (SOAP mode): Creating a folder using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_creating_a_folder_using_the_java_api)
+[Quick Start (SOAP mode): Creating a folder using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_creating_a_folder_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -198,7 +198,7 @@ Create a folder by using the Repository service API (web service):
 
 [Quick Start (Base64): Creating a folder using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc6.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
 ## Writing Resources {#writing-resources}
 
@@ -253,11 +253,11 @@ Invoke the Repository service method to write the resource, specifying the targe
 
 [Write resources using the web service API](aem-forms-repository.md#write_resources_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
+[Repository Service API Quick Starts](/help/forms/developing/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
 ### Write resources using the Java API {#write-resources-using-the-java-api}
 
@@ -304,9 +304,9 @@ Write a resource by using the Repository service API (Java):
 
 [Writing Resources](aem-forms-repository.md#writing_resources)
 
-[Quick Start (SOAP mode): Writing a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_writing_a_resource_using_the_java_api)
+[Quick Start (SOAP mode): Writing a resource using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_writing_a_resource_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -355,7 +355,7 @@ Write a resource by using the Repository service API (web service):
 
 [Quick Start (Base64): Writing a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cdc.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
 ## Listing Resources {#listing-resources}
 
@@ -400,11 +400,11 @@ Invoke the Repository service method to retrieve the list of resources, specifyi
 
 [List resources using the web service API](aem-forms-repository.md#list_resources_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
+[Repository Service API Quick Starts](/help/forms/developing/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
 ### List resources using the Java API {#list-resources-using-the-java-api}
 
@@ -432,9 +432,9 @@ List resources by using the Repository service API (Java):
 
 [Listing Resources](aem-forms-repository.md#listing_resources).
 
-[Quick Start (SOAP mode): Listing resources using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_listing_resources_using_the_java_api)
+[Quick Start (SOAP mode): Listing resources using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_listing_resources_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -467,7 +467,7 @@ List resources by using the Repository service API (web service):
 
 [Quick Start (Base64): Listing resources using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd9.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
 ## Reading Resources {#reading-resources}
 
@@ -519,11 +519,11 @@ Invoke the Repository service method to read the resource, specifying the URI.
 
 [Reading resources using the web service API](aem-forms-repository.md#reading_resources_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
+[Repository Service API Quick Starts](/help/forms/developing/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
 ### Read resources using the Java API {#read-resources-using-the-java-api}
 
@@ -549,9 +549,9 @@ Read a resource by using the Repository service API (Java):
 
 [Reading Resources](aem-forms-repository.md#reading_resources)
 
-[Quick Start (SOAP mode): Reading a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_reading_a_resource_using_the_java_api)
+[Quick Start (SOAP mode): Reading a resource using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_reading_a_resource_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -561,8 +561,8 @@ Read a resource by using the Repository service API (web service):
 
 1. Include project files
 
-    * Create a Microsoft .NET client assembly that consumes the Repository WSDL. (See [Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding).)
-    * Reference the Microsoft .NET client assembly. (See [Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding).)
+    * Create a Microsoft .NET client assembly that consumes the Repository WSDL. (See [Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding).)
+    * Reference the Microsoft .NET client assembly. (See [Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding).)
 
 1. Create the service client
 
@@ -582,7 +582,7 @@ Read a resource by using the Repository service API (web service):
 
 [Quick Start (Base64): Reading a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd6.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
 ## Updating Resources {#updating-resources}
 
@@ -631,11 +631,11 @@ Set the new information in the resource and invoke the Repository service method
 
 [Update resources using the web service API](aem-forms-repository.md#update_resources_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
+[Repository Service API Quick Starts](/help/forms/developing/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
 ### Update resources using the Java API {#update-resources-using-the-java-api}
 
@@ -667,9 +667,9 @@ Update a resource by using the Repository service API (Java):
 
 [Updating Resources](aem-forms-repository.md#updating_resources)
 
-[Quick Start (SOAP mode): Updating a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_updating_a_resource_using_the_java_api)
+[Quick Start (SOAP mode): Updating a resource using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_updating_a_resource_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -707,7 +707,7 @@ Update a resource by using the Repository API (web service):
 
 [Quick Start (Base64): Updating a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd3.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
 ## Searching for Resources {#searching-for-resources}
 
@@ -780,11 +780,11 @@ Iterate through the returned list of resources and extract the information for f
 
 [Search for resources using the Java API](aem-forms-repository.md#search_for_resources_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
+[Repository Service API Quick Starts](/help/forms/developing/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
 ### Search for resources using the Java API {#search-for-resources-using-the-java-api}
 
@@ -849,9 +849,9 @@ Search for a resource by using the Repository service API (Java):
 
 [Searching for Resources](aem-forms-repository.md#searching_for_resources)
 
-[Quick Start (SOAP mode): Searching for resources using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_searching_for_resources_using_the_java_api)
+[Quick Start (SOAP mode): Searching for resources using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_searching_for_resources_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -902,11 +902,11 @@ Invoke the Repository service method to create and specify the type of relations
 
 [Create relationship resources using the web service API](aem-forms-repository.md#create_relationship_resources_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
+[Repository Service API Quick Starts](/help/forms/developing/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
 ### Create relationship resources using the Java API {#create-relationship-resources-using-the-java-api}
 
@@ -945,9 +945,9 @@ Create relationship resources by using the Repository service Java API, perform 
 
 [Creating Resource Relationships](aem-forms-repository.md#creating_resource_relationships)
 
-[Quick Start (SOAP mode): Creating relationships between resources using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_creating_relationships_between_resources_using_the_java_api)
+[Quick Start (SOAP mode): Creating relationships between resources using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_creating_relationships_between_resources_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -996,7 +996,7 @@ Create relationship resources by using the Repository API (web service):
 
 [Quick Start (Base64): Creating relationships between resources using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc5.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
 ## Locking Resources {#locking-resources}
 
@@ -1053,11 +1053,11 @@ Invoke the Repository service method to unlock the resource, specifying the URI.
 
 [Lock resources using the web service API](aem-forms-repository.md#lock_resources_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
+[Repository Service API Quick Starts](/help/forms/developing/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
 ### Lock resources using the Java API {#lock-resources-using-the-java-api}
 
@@ -1099,9 +1099,9 @@ Lock resources by using the Repository service API (Java):
 
 [Locking Resources](aem-forms-repository.md#locking_resources)
 
-[Quick Start (SOAP mode): Locking a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_locking_a_resource_using_the_java_api)
+[Quick Start (SOAP mode): Locking a resource using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_locking_a_resource_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1146,7 +1146,7 @@ Lock resources by using the Repository service API (web service):
 
 [Quick Start (Base64): Locking a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc4.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
 ## Deleting Resources {#deleting-resources}
 
@@ -1197,11 +1197,11 @@ Invoke the Repository service method to delete the resource, specifying the URI.
 
 [Delete resources using the web service API](aem-forms-repository.md#delete_resources_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Repository Service API Quick Starts](/programming-with-aem-forms/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
+[Repository Service API Quick Starts](/help/forms/developing/repository-service-api-quick-starts.md#repository_service_api_quick_starts)
 
 ### Delete resources using the Java API(SOAP) {#delete-resources-using-the-java-api-soap}
 
@@ -1227,9 +1227,9 @@ Delete a resource by using the Repository API (Java):
 
 [Deleting Resources](aem-forms-repository.md#deleting_resources)
 
-[Quick Start (SOAP mode): Searching for resources using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_searching_for_resources_using_the_java_api)
+[Quick Start (SOAP mode): Searching for resources using the Java API](/help/forms/developing/repository-service-api-quick-starts.md#quick_start_soap_mode_searching_for_resources_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1260,4 +1260,4 @@ Delete a resource by using the Repository API (web service):
 
 [Quick Start (Base64): Deleting a resource using the web service API](unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc2.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)

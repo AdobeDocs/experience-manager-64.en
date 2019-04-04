@@ -71,7 +71,7 @@ To create an application that enters backup mode, perform the following steps:
 
 Include necessary files in your development project. These files are important to include in your project for compiling your code properly and using the Backup and Restore Service API.
 
-For information about the location of these files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a BackupService Client API object**
 
@@ -194,7 +194,7 @@ To leave backup mode, perform the following steps:
 
 Include all necessary files in your development project. These files are important for compiling your code properly and using the Backup and Restore Service API.
 
-For information about the location of these files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a BackupService Client API object**
 

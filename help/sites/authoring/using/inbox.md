@@ -41,7 +41,7 @@ You receive these notifications in your own Inbox where you can view them and ta
 >* [Projects](../../../sites/authoring/using/touch-ui-managing-projects.md)
 >* [Projects - working with Tasks](../../../sites/authoring/using/task-content.md)
 >* [Workflows](../../../sites/authoring/using/workflows.md)
->* [Forms](/forms/user-guide.md)
+>* [Forms](/help/forms/home.md)
 >
 
 ## Inbox in the Header {#inbox-in-the-header}

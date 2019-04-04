@@ -62,7 +62,7 @@ After you create the service client, you can invoke the PDF to XDP conversion op
 
 [Convert PDF documents into XDP documents using the web service API](pdf-utilities.md#convert_pdf_documents_into_xdp_documents_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -86,7 +86,7 @@ Convert PDF documents into XDP documents by using the PDF Utilities API(Java):
 
 [Converting PDF Documents into XDP Documents](pdf-utilities.md#converting_pdf_documents_into_xdp_documents)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -113,9 +113,9 @@ Convert PDF documents into XDP documents by using the PDF Utilities API (web ser
 
 [Quick Start (Base64): Converting a PDF document to an XDP document using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2c.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
-[Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
+[Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
 
 ## Converting XDP Documents into PDF Documents {#converting-xdp-documents-into-pdf-documents}
 
@@ -151,7 +151,7 @@ After you create the service client, you can invoke the XDP to PDF conversion op
 
 [Converting XDP documents into PDF documents using the web service API](pdf-utilities.md#converting_xdp_documents_into_pdf_documents_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -175,7 +175,7 @@ Convert XDP documents into PDF documents by using the PDF Utilities API (Java):
 
 [Converting XDP Documents into PDF Documents](pdf-utilities.md#converting_xdp_documents_into_pdf_documents)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -202,9 +202,9 @@ Convert XDP documents into PDF documents by using the PDF Utilities API (web ser
 
 [Quick Start (Base64): Converting an XDP document to a PDF document using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2f.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
-[Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
+[Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
 
 ## Retrieving PDF Document Properties {#retrieving-pdf-document-properties}
 
@@ -240,7 +240,7 @@ After you create the service client, you can invoke the properties retrieval ope
 
 [Retrieve PDF document properties using the web service API](pdf-utilities.md#retrieve_pdf_document_properties_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -269,7 +269,7 @@ Retrieve PDF document properties by using the PDF Utilities API (Java):
 
 [Retrieving PDF Document Properties](pdf-utilities.md#retrieving_pdf_document_properties)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -301,9 +301,9 @@ Retrieve PDF document properties by using the PDF Utilities web service API:
 
 [Quick Start (Base64): Retrieving PDF document properties using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2b.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
-[Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
+[Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
 
 ## Setting PDF Document Save Modes {#setting-pdf-document-save-modes}
 
@@ -357,11 +357,11 @@ Once the PDF Utilities service sets the specified Save mode, pass the PDF docume
 
 [Set PDF document save options using the web service API](pdf-utilities.md#set_pdf_document_save_options_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Encrypting PDF Documents with a Password](/programming-with-aem-forms/encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password)
+[Encrypting PDF Documents with a Password](/help/forms/developing/encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password)
 
 ### Set PDF document save options using the Java API {#set-pdf-document-save-options-using-the-java-api}
 
@@ -398,7 +398,7 @@ Set the PDF document save options by using the PDF Utilities API (Java):
 
 [Setting PDF Document Save Modes](pdf-utilities.md#setting_pdf_document_save_modes)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -440,9 +440,9 @@ Set the PDF document save options by using the PDF Utilities AP (web service):
 
 [Quick Start (Base64): Setting the save style for a PDF document using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2a.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
-[Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
+[Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
 
 ## Sanitizing PDF Documents {#sanitizing-pdf-documents}
 
@@ -478,7 +478,7 @@ After you create the service client, you can invoke the sanitization operation.
 
 [Convert PDF documents into XDP documents using the web service API](pdf-utilities.md#convert_pdf_documents_into_xdp_documents_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -500,8 +500,8 @@ Sanitize documents by using the PDF Utilities API (Java):
 
 **See also**
 
-[Sanitizing PDF documents](/programming-with-aem-forms/pdf-utilities-service-java-api.md#quick_start_soap_mode_sanitizing_pdf_documents)
+[Sanitizing PDF documents](/help/forms/developing/pdf-utilities-service-java-api.md#quick_start_soap_mode_sanitizing_pdf_documents)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)S

@@ -19,7 +19,7 @@ Two types of HTML clients exist. The first HTML client is an AJAX client that is
 
 When using REST requests, it is recommended that you do not invoke Forms services directly. Instead, invoke processes that were created in Workbench. When creating a process that is meant for REST invocation, use a programmatic start point. In this situation, the REST endpoint is added automatically. For information about creating processes in Workbench, see [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).
 
-When you invoke a service using REST, you are prompted for a AEM forms user name and password. However, if you do not want to specify a user name and password, you can disable service security. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks.md#disabling_service_security).)
+When you invoke a service using REST, you are prompted for a AEM forms user name and password. However, if you do not want to specify a user name and password, you can disable service security. (See [Disabling Service Security](/help/forms/developing/processes-tasks.md#disabling_service_security).)
 
 To invoke a Forms service (a process becomes a service when the process is activated) using REST, configure a REST endpoint. (See “Managing Endpoints” in [administration help](https://www.adobe.com/go/learn_aemforms_admin_63).)
 
@@ -78,7 +78,7 @@ The following data types are supported when invoking AEM Forms services using RE
 
 ## Asynchronous invocations {#asynchronous-invocations}
 
-Some AEM Forms services, such as human-centric long-lived processes, require a long time to complete. These services can be invoked asynchronously in a non-blocking manner. (See [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).)
+Some AEM Forms services, such as human-centric long-lived processes, require a long time to complete. These services can be invoked asynchronously in a non-blocking manner. (See [Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).)
 
 An AEM Forms service can be invoked asynchronously by substituting `services` with `async_invoke` in the invocation URL, as shown in the following example.
 
@@ -94,7 +94,7 @@ The status of the asynchronous invocation can be retrieved by using an invocatio
  http://localhost:8080/rest/async_status/SomeService.SomeOperation?job_id=2345353443366564
 ```
 
-This URL returns an integer value (in “text/plain” format) encoding the job status according to the Job Manager’s specification (for example, 2 means running, 3 means completed, 4 means failed, and so on.) (See [Retrieving the Status of an AEM Forms Job](/programming-with-aem-forms/processes-tasks.md#retrieving_the_status_of_an_aem_forms_job).)
+This URL returns an integer value (in “text/plain” format) encoding the job status according to the Job Manager’s specification (for example, 2 means running, 3 means completed, 4 means failed, and so on.) (See [Retrieving the Status of an AEM Forms Job](/help/forms/developing/processes-tasks.md#retrieving_the_status_of_an_aem_forms_job).)
 
 If the job is completed, the URL returns the same result as if the service was invoked synchronously.
 
@@ -144,7 +144,7 @@ To provide REST invocations with a secure transport, a AEM forms administrator c
 
 Although it is recommended that you invoke processes created using Workbench as opposed to services directly, there are some AEM Forms services that do support REST invocation. The reason why it is recommended that you invoke a process as opposed to a service directly is because it is more efficient to invoke a process. Consider the following scenario. Assume that you want to create a policy from a REST client. That is, you want the REST client to define values such as the policy name, the offline lease period.
 
-To create a policy, you have to define complex data types such as a `PolicyEntry` object. A `PolicyEntry` object defines attributes such as permissions associated with the policy. (See [Creating Policies](/programming-with-aem-forms/protecting-documents-policies.md#creating_policies).)
+To create a policy, you have to define complex data types such as a `PolicyEntry` object. A `PolicyEntry` object defines attributes such as permissions associated with the policy. (See [Creating Policies](/help/forms/developing/protecting-documents-policies.md#creating_policies).)
 
 Instead of sending a REST request to create a policy (which would include defining complex data types such as a `PolicyEntry` object), create a process that creates a policy using Workbench. Define the process to accept primitive input variables such as a string value that defines the process name or an integer that defines the offline lease period.
 
@@ -213,7 +213,7 @@ The following HTML example passes a date value to an AEM Forms process named `SO
 
 **Passing documents to a process**
 
-The following HTML example invokes an AEM Forms process named `MyApplication/EncryptDocument` that requires a PDF document. For information about this process, see [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom).
+The following HTML example invokes an AEM Forms process named `MyApplication/EncryptDocument` that requires a PDF document. For information about this process, see [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom).
 
 ```as3
  <html> 

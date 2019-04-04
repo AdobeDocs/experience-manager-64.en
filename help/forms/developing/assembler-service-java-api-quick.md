@@ -43,7 +43,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Assembling a PDF document using the Java API {#quick-start-soap-mode-assembling-a-pdf-document-using-the-java-api}
 
-The following Java code example merges two PDF source documents named* map.pdf* and *directions.pdf* into a single PDF document. The name of the single PDF document is *AssemblerResultPDF.pdf*. The name of the DDX document is *shell.xml*. (See [Programmatically Assembling PDF Documents](/programming-with-aem-forms/assembling-pdf-documents.md#programmatically_assembling_pdf_documents).)
+The following Java code example merges two PDF source documents named* map.pdf* and *directions.pdf* into a single PDF document. The name of the single PDF document is *AssemblerResultPDF.pdf*. The name of the DDX document is *shell.xml*. (See [Programmatically Assembling PDF Documents](/help/forms/developing/assembling-pdf-documents.md#programmatically_assembling_pdf_documents).)
 
 ```as3
  /* 
@@ -187,7 +187,7 @@ The following Java code example merges two PDF source documents named* map.pdf* 
 
 ## Quick Start (SOAP mode): Disassembling a PDF document using the Java API {#quick-start-soap-mode-disassembling-a-pdf-document-using-the-java-api}
 
-The following Java code example disassembles a PDF document named *AssemblerResultPDF.pdf*. Notice that the name of the DDX document is *shell_disassemble.xml*. Each disassembled PDF document is named *ResultPDF[Number].pdf*. That is, the first disassembled PDF document is named *ResultPDF1.pdf.* For information about the *shell_disassemble.xml* DDX document used in this code example, see [Programmatically Disassembling PDF Documents](/programming-with-aem-forms/assembling-pdf-documents.md#programmatically_disassembling_pdf_documents).
+The following Java code example disassembles a PDF document named *AssemblerResultPDF.pdf*. Notice that the name of the DDX document is *shell_disassemble.xml*. Each disassembled PDF document is named *ResultPDF[Number].pdf*. That is, the first disassembled PDF document is named *ResultPDF1.pdf.* For information about the *shell_disassemble.xml* DDX document used in this code example, see [Programmatically Disassembling PDF Documents](/help/forms/developing/assembling-pdf-documents.md#programmatically_disassembling_pdf_documents).
 
 ```as3
  /* 
@@ -326,7 +326,7 @@ The following Java code example disassembles a PDF document named *AssemblerResu
 
 ## Quick Start (SOAP mode): Assembling an encrypted PDF document using the Java API {#quick-start-soap-mode-assembling-an-encrypted-pdf-document-using-the-java-api}
 
-The following Java code example assembles a password-encrypted PDF document. The unsecured PDF document is named *Loan.pdf*. Notice that the name of the DDX document is *shell_Encrypt.xml*. The encrypted PDF document is named *AssemblerEncryptedPDF.pdf*. (See [Assembling Encrypted PDF Documents](/programming-with-aem-forms/assembling-pdf-documents.md#assembling_encrypted_pdf_documents).)
+The following Java code example assembles a password-encrypted PDF document. The unsecured PDF document is named *Loan.pdf*. Notice that the name of the DDX document is *shell_Encrypt.xml*. The encrypted PDF document is named *AssemblerEncryptedPDF.pdf*. (See [Assembling Encrypted PDF Documents](/help/forms/developing/assembling-pdf-documents.md#assembling_encrypted_pdf_documents).)
 
 ```as3
  /* 
@@ -449,7 +449,7 @@ The following Java code example assembles a password-encrypted PDF document. The
 
 ## Quick Start (SOAP mode): Assembling a PDF document with bates numbering using the Java API {#quick-start-soap-mode-assembling-a-pdf-document-with-bates-numbering-using-the-java-api}
 
-The following Java code example assembles a PDF document with unique page identifiers (bates numbering). Notice that the name of the DDX document is *shell_Bates.xml*. The PDF document that is returned from the Assembler service is saved as a PDF file named *AssemblerResultBatesPDF.pdf*. (See [Assembling Documents Using Bates Numbering](/programming-with-aem-forms/assembling-pdf-documents.md#assembling_documents_using_bates_numbering).)
+The following Java code example assembles a PDF document with unique page identifiers (bates numbering). Notice that the name of the DDX document is *shell_Bates.xml*. The PDF document that is returned from the Assembler service is saved as a PDF file named *AssemblerResultBatesPDF.pdf*. (See [Assembling Documents Using Bates Numbering](/help/forms/developing/assembling-pdf-documents.md#assembling_documents_using_bates_numbering).)
 
 ```as3
  /* 
@@ -607,7 +607,7 @@ The following Java code example assembles a PDF document with unique page identi
 
 ## Quick Start (SOAP mode): Assembling a non-interactive PDF document using the Java API {#quick-start-soap-mode-assembling-a-non-interactive-pdf-document-using-the-java-api}
 
-The following Java code example assembles a non-interactive PDF document. The interactive PDF document that is passed to the Assembler service is named *Loan.pdf*. Notice that the name of the DDX document is *shell_XFA.xml*. The non-interactive PDF document is saved as a PDF file named *AssembleNonInteractivePDF.pdf*. (See [Assembling Non-Interactive PDF Documents](/programming-with-aem-forms/assembling-pdf-documents.md#assembling_non_interactive_pdf_documents).)
+The following Java code example assembles a non-interactive PDF document. The interactive PDF document that is passed to the Assembler service is named *Loan.pdf*. Notice that the name of the DDX document is *shell_XFA.xml*. The non-interactive PDF document is saved as a PDF file named *AssembleNonInteractivePDF.pdf*. (See [Assembling Non-Interactive PDF Documents](/help/forms/developing/assembling-pdf-documents.md#assembling_non_interactive_pdf_documents).)
 
 ```as3
  /* 
@@ -731,7 +731,7 @@ The following Java code example assembles a non-interactive PDF document. The in
 
 ## Quick Start (SOAP mode): Determining whether a document is PDF/A compliant using the Java API {#quick-start-soap-mode-determining-whether-a-document-is-pdf-a-compliant-using-the-java-api}
 
-The following Java code example determines whether the input PDF document is PDF/A compliant. The input PDF document that is passed to the Assembler service is named *Loan.pdf*. The name of the DDX document is shell_PDFA.xml. The XML document that is returned from the Assembler service and specifies whether the input PDF document is PDF/A compliant is saved as an XML file named result.xml. For information about the *shell_PDFA.xml* DDX document used in this code example, see [Determining Whether Documents Are PDF/A- Compliant](/programming-with-aem-forms/assembling-pdf-documents.md#determining_whether_documents_are_pdf_a_compliant).
+The following Java code example determines whether the input PDF document is PDF/A compliant. The input PDF document that is passed to the Assembler service is named *Loan.pdf*. The name of the DDX document is shell_PDFA.xml. The XML document that is returned from the Assembler service and specifies whether the input PDF document is PDF/A compliant is saved as an XML file named result.xml. For information about the *shell_PDFA.xml* DDX document used in this code example, see [Determining Whether Documents Are PDF/A- Compliant](/help/forms/developing/assembling-pdf-documents.md#determining_whether_documents_are_pdf_a_compliant).
 
 ```as3
  /* 
@@ -877,7 +877,7 @@ The following Java code example determines whether the input PDF document is PDF
 
 ## Quick Start (SOAP mode): Validating DDX documents using the Java API {#quick-start-soap-mode-validating-ddx-documents-using-the-java-api}
 
-The following Java code example validates a DDX document based on a file named *bookmarkDDX.xml*. (See [Validating DDX Documents](/programming-with-aem-forms/assembling-pdf-documents.md#validating_ddx_documents).)
+The following Java code example validates a DDX document based on a file named *bookmarkDDX.xml*. (See [Validating DDX Documents](/help/forms/developing/assembling-pdf-documents.md#validating_ddx_documents).)
 
 ```as3
  /* 
@@ -1008,7 +1008,7 @@ The following Java code example validates a DDX document based on a file named *
 
 ## Quick Start (SOAP mode): Assembling PDF documents with bookmarks using the Java API {#quick-start-soap-mode-assembling-pdf-documents-with-bookmarks-using-the-java-api}
 
-The following Java code example assembles a PDF document that contains bookmarks. The name of the DDX document is *bookmarkDDX.xml*. The name of the bookmark XML document that describes the bookmarks to add to the PDF document is bookmarks.xml. The result PDF document is saved as a PDF file named AssemblerResultBookmarks.pdf. (See [Assembling PDF Documents with Bookmarks](/programming-with-aem-forms/assembling-pdf-documents.md#assembling_pdf_documents_with_bookmarks).)
+The following Java code example assembles a PDF document that contains bookmarks. The name of the DDX document is *bookmarkDDX.xml*. The name of the bookmark XML document that describes the bookmarks to add to the PDF document is bookmarks.xml. The result PDF document is saved as a PDF file named AssemblerResultBookmarks.pdf. (See [Assembling PDF Documents with Bookmarks](/help/forms/developing/assembling-pdf-documents.md#assembling_pdf_documents_with_bookmarks).)
 
 ```as3
  /* 
@@ -1183,7 +1183,7 @@ The following Java code example dynamally creates a DDX document that disassembl
 * `createDDX`: Creates an `org.w3c.dom.Document` object that represents the DDX document that is sent to the Assembler service. This user-defined method returns the `org.w3c.dom.Document` object.
 * `convertDDX`: Converts an `org.w3c.dom.Document` object to a `com.adobe.idp.Document` object. This method accepts an `org.w3c.dom.Document` object as an input parameter and returns a `com.adobe.idp.Document` object.
 
-  Both of these methods are invoked in this quick start. (See [Dynamically Creating DDX Documents](/programming-with-aem-forms/assembling-pdf-documents.md#dynamically_creating_ddx_documents).)
+  Both of these methods are invoked in this quick start. (See [Dynamically Creating DDX Documents](/help/forms/developing/assembling-pdf-documents.md#dynamically_creating_ddx_documents).)
   ``
 
 ```java
@@ -1375,7 +1375,7 @@ public class AssemblePDFWithDynamicDDXSOAP {
 
 ## Quick Start (SOAP mode): Assembling PDF Portfolios using the Java API {#quick-start-soap-mode-assembling-pdf-portfolios-using-the-java-api}
 
-The following Java code example creates a PDF portfolio. The PDF portfolio is saved as a PDF file named *AssemblerResultPortfolio.pdf*. (See [Assembling PDF Portfolios](/programming-with-aem-forms/assembling-pdf-documents.md#assembling_pdf_portfolios).)
+The following Java code example creates a PDF portfolio. The PDF portfolio is saved as a PDF file named *AssemblerResultPortfolio.pdf*. (See [Assembling PDF Portfolios](/help/forms/developing/assembling-pdf-documents.md#assembling_pdf_portfolios).)
 
 ```as3
  /* 
@@ -1526,7 +1526,7 @@ The following Java code example creates a PDF portfolio. The PDF portfolio is sa
 
 ## Quick Start (SOAP mode): Assembling multiple XDP fragments using the Java API {#quick-start-soap-mode-assembling-multiple-xdp-fragments-using-the-java-api}
 
-The following Java code example assembles XDP fragments that are based on the following XDP files: *tuc018_template_flowed.xdp*, *tuc018_contact.xdp*, and* tuc018_patient.xdp*. The assembled XDP document that contains all fragments is saved as a XDP file named *AssemblerResultXDP.xdp*. (See [Assembling Multiple XDP Fragments](/programming-with-aem-forms/assembling-pdf-documents.md#assembling_multiple_xdp_fragments).)
+The following Java code example assembles XDP fragments that are based on the following XDP files: *tuc018_template_flowed.xdp*, *tuc018_contact.xdp*, and* tuc018_patient.xdp*. The assembled XDP document that contains all fragments is saved as a XDP file named *AssemblerResultXDP.xdp*. (See [Assembling Multiple XDP Fragments](/help/forms/developing/assembling-pdf-documents.md#assembling_multiple_xdp_fragments).)
 
 ```as3
  /* 

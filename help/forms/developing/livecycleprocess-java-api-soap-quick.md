@@ -531,7 +531,7 @@ The following Java code purges data from a process named *SecureDocument*. A fil
 
 ## Quick Start (SOAP Mode): Retrieving the status of a job using the Java API {#quick-start-soap-mode-retrieving-the-status-of-a-job-using-the-java-api}
 
-The following code example retrieves the status of 10 AEM Forms jobs. (See [Retrieving the Status of a AEM Forms Job](/programming-with-aem-forms/processes-tasks.md#retrieving_the_status_of_an_aem_forms_job).)
+The following code example retrieves the status of 10 AEM Forms jobs. (See [Retrieving the Status of a AEM Forms Job](/help/forms/developing/processes-tasks.md#retrieving_the_status_of_an_aem_forms_job).)
 
 ```as3
  /* 

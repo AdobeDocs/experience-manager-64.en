@@ -73,15 +73,15 @@ The Assembler service returns the validation results that you can write to a XML
 
 **See also**
 
-[Validate a DDX document using the Java API](/programming-with-aem-forms/validating-ddx-documents-validating-ddx validate-ddx-document-using-java.md#validate_a_ddx_document_using_the_java_api)
+[Validate a DDX document using the Java API](/help/forms/developing/validating-ddx-documents-validating-ddx validate-ddx-document-using-java.md#validate_a_ddx_document_using_the_java_api)
 
-[Validate a DDX document using the web service API](/programming-with-aem-forms/validating-ddx-documents-validating-ddx validate-ddx-document-using-web.md#validate_a_ddx_document_using_the_web_service_api)
+[Validate a DDX document using the web service API](/help/forms/developing/validating-ddx-documents-validating-ddx validate-ddx-document-using-web.md#validate_a_ddx_document_using_the_web_service_api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
 ## Validate a DDX document using the Java API {#validate-a-ddx-document-using-the-java-api}
 

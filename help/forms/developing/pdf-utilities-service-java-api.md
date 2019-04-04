@@ -31,7 +31,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Converting a PDF document to an XDP document using the Java API {#quick-start-soap-mode-converting-a-pdf-document-to-an-xdp-document-using-the-java-api}
 
-The following code example converts a PDF document to an XDP document. (See [Converting PDF Documents into XDP Documents](/programming-with-aem-forms/pdf-utilities.md#converting_pdf_documents_into_xdp_documents).
+The following code example converts a PDF document to an XDP document. (See [Converting PDF Documents into XDP Documents](/help/forms/developing/pdf-utilities.md#converting_pdf_documents_into_xdp_documents).
 
 ```as3
  /* 
@@ -132,7 +132,7 @@ The following code example converts a PDF document to an XDP document. (See [Con
 
 ## Quick Start (SOAP mode): Converting an XDP document to a PDF document using the Java API {#quick-start-soap-mode-converting-an-xdp-document-to-a-pdf-document-using-the-java-api}
 
-The following code example converts an XDP document to a PDF document. (See [Converting XDP Documents into PDF Documents](/programming-with-aem-forms/pdf-utilities.md#converting_xdp_documents_into_pdf_documents).)
+The following code example converts an XDP document to a PDF document. (See [Converting XDP Documents into PDF Documents](/help/forms/developing/pdf-utilities.md#converting_xdp_documents_into_pdf_documents).)
 
 ```as3
  /* 
@@ -232,7 +232,7 @@ The following code example converts an XDP document to a PDF document. (See [Con
 
 ## Quick Start (SOAP mode): Retrieving PDF document properties using the Java API {#quick-start-soap-mode-retrieving-pdf-document-properties-using-the-java-api}
 
-The following code example determines whether the document is a PDF document and, if so, the earliest Acrobat version able to read it. (See [Retrieving PDF Document Properties](/programming-with-aem-forms/pdf-utilities.md#retrieving_pdf_document_properties).)
+The following code example determines whether the document is a PDF document and, if so, the earliest Acrobat version able to read it. (See [Retrieving PDF Document Properties](/help/forms/developing/pdf-utilities.md#retrieving_pdf_document_properties).)
 
 ```as3
  /* 
@@ -349,7 +349,7 @@ The following code example determines whether the document is a PDF document and
 
 ## Quick Start (SOAP mode): Setting the save style for a PDF document using the Java API {#quick-start-soap-mode-setting-the-save-style-for-a-pdf-document-using-the-java-api}
 
-The following code example sets the save mode for fast web viewing and then passes the PDF document to the Encryption service where it is encrypted. The encrypted PDF document that is saved for fast web viewing is saved as a PDF file named* FastWebViewLoan.pdf*. (See [Setting PDF Document Save Modes](/programming-with-aem-forms/pdf-utilities.md#setting_pdf_document_save_modes).)
+The following code example sets the save mode for fast web viewing and then passes the PDF document to the Encryption service where it is encrypted. The encrypted PDF document that is saved for fast web viewing is saved as a PDF file named* FastWebViewLoan.pdf*. (See [Setting PDF Document Save Modes](/help/forms/developing/pdf-utilities.md#setting_pdf_document_save_modes).)
 
 ```as3
  /* 
@@ -489,7 +489,7 @@ The following code example sets the save mode for fast web viewing and then pass
 
 ## Quick Start (SOAP mode): Converting a document to a PDF/A-2b document using the Java API {#quick-start-soap-mode-converting-a-document-to-a-pdf-a-2b-document-using-the-java-api}
 
-The following Java code example converts a PDF document named *Loan.pdf* to a PDF/A-2b document that is saved as a PDF file named *LoanArchive.pdf*. (See [Converting Documents to PDF/A Documents](/programming-with-aem-forms/pdf-a-documents.md#converting_documents_to_pdf_a_documents).)
+The following Java code example converts a PDF document named *Loan.pdf* to a PDF/A-2b document that is saved as a PDF file named *LoanArchive.pdf*. (See [Converting Documents to PDF/A Documents](/help/forms/developing/pdf-a-documents.md#converting_documents_to_pdf_a_documents).)
 
 ```as3
 /* 

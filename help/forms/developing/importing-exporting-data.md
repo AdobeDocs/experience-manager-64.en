@@ -102,7 +102,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar (Required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (Required if AEM Forms is deployed on JBoss)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a Form Data Integration service client**
 
@@ -130,11 +130,11 @@ After you import data into a form, you can save the form as a PDF file. Once sav
 
 [Import form data using the web service API](importing-exporting-data.md#import_form_data_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Form Data Integration Service API Quick Starts](/programming-with-aem-forms/form-data-integration-service-java.md#form_data_integration_service_java_api_quick_start_soap)
+[Form Data Integration Service API Quick Starts](/help/forms/developing/form-data-integration-service-java.md#form_data_integration_service_java_api_quick_start_soap)
 
 [Exporting Form Data](importing-exporting-data.md#exporting_form_data)
 
@@ -179,9 +179,9 @@ Import form data by using the Form Data Integration API (Java):
 
 [Summary of steps](importing-exporting-data.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Importing form data using the Java API](/programming-with-aem-forms/form-data-integration-service-java.md#quick_start_soap_mode_importing_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Importing form data using the Java API](/help/forms/developing/form-data-integration-service-java.md#quick_start_soap_mode_importing_form_data_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -248,7 +248,7 @@ Import form data by using the Form Data Integration API (web service):
 
 [Quick Start (MTOM): Importing form data using the web service API](unresolvedlink-lc-qs-form-data-integration-fd.xml#ws624e3cba99b79e12e69a9941333732bac8-7de5.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
 ## Exporting Form Data {#exporting-form-data}
 
@@ -302,11 +302,11 @@ After you export form data, you can save the data as an XML file. Once saved as 
 
 [Export form data using the web service API](importing-exporting-data.md#export_form_data_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Form Data Integration Service API Quick Starts](/programming-with-aem-forms/form-data-integration-service-java.md#form_data_integration_service_java_api_quick_start_soap)
+[Form Data Integration Service API Quick Starts](/help/forms/developing/form-data-integration-service-java.md#form_data_integration_service_java_api_quick_start_soap)
 
 [Importing Form Data](importing-exporting-data.md#importing_form_data)
 
@@ -341,9 +341,9 @@ Export form data by using the Form Data Integration API (Java):
 
 [Summary of steps](importing-exporting-data.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Exporting form data using the Java API](/programming-with-aem-forms/form-data-integration-service-java.md#quick_start_soap_mode_exporting_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Exporting form data using the Java API](/help/forms/developing/form-data-integration-service-java.md#quick_start_soap_mode_exporting_form_data_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -395,6 +395,6 @@ Export form data by using the Form Data Integration API (web service):
 
 [Quick Start (MTOM): Exporting form data using the web service API](unresolvedlink-lc-qs-form-data-integration-fd.xml#ws624e3cba99b79e12e69a9941333732bac8-7de7.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
