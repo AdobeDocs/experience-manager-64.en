@@ -34,7 +34,7 @@ There are three ways to implement Livefyre into a custom AEM component or other 
 **Method 1: Designer App Implementation**
 
 * **What:** Simplest and fastest way of integrating a Livefyre App. You can design, configure, and generate a customized JavaScript embed code to integrate a Media Wall App on a page in minutes.
-* **How: ** [Create, Preview, Publish, and Embed a Media Wall App](https://marketing.adobe.com/resources/help/en_US/livefyre/c_create_an_app.html)
+* **How:**  [Create, Preview, Publish, and Embed a Media Wall App](https://marketing.adobe.com/resources/help/en_US/livefyre/c_create_an_app.html)
 
 * **Example:** [https://codepen.io/dharafyre/pen/bvGrLo](https://codepen.io/dharafyre/pen/bvGrLo)
 
@@ -112,7 +112,7 @@ There are three ways to implement Livefyre Comments App into a custom AEM compon
     * Create a collection/App using [CollectionMeta token](https://marketing.adobe.com/resources/help/en_US/livefyre/t_create_a_collectionmeta_token.html).
     * Integrate [Comments App](https://marketing.adobe.com/resources/help/en_US/livefyre/c_comments_integration.html) into sites using the Livefyre.js embed code structure.
 
-* **Example: ** [https://codepen.io/dharafyre/pen/oYoJdP](https://codepen.io/dharafyre/pen/oYoJdP)
+* **Example:**  [https://codepen.io/dharafyre/pen/oYoJdP](https://codepen.io/dharafyre/pen/oYoJdP)
 
 For advanced customizations using the SDK, please see [StreamHub SDKs](https://github.com/Livefyre/streamhub-sdk).
 
@@ -172,7 +172,7 @@ There are two ways to implement Livefyre Reviews App into a custom AEM component
     * Create the Reviews [CollectionMeta token](https://marketing.adobe.com/resources/help/en_US/livefyre/c_reviews_integration.html) to specify metadata to store within the Reviews Collection.
     * Integrate [Reviews App](https://marketing.adobe.com/resources/help/en_US/livefyre/c_reviews_integration.html) into Sites using the *Livefyre.js* embed code structure
 
-* **Example: ** [https://codepen.io/dharafyre/pen/GXgvvd](https://codepen.io/dharafyre/pen/GXgvvd)
+* **Example:**  [https://codepen.io/dharafyre/pen/GXgvvd](https://codepen.io/dharafyre/pen/GXgvvd)
 
 For advanced customizations using the SDK, please see [StreamHub SDKs](https://github.com/Livefyre/streamhub-sdk).
 

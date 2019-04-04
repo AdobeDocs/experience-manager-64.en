@@ -75,7 +75,7 @@ In CQ 5.6.1 **Author Offload** is the preferred solution. It consists of the fol
 For pre-5.6.1 installations, where offloading is not available, one solution is to use author clustering configured as follows:
 
 * **Create an Author Cluster**: Install an author cluster of two instances (one master, one slave).
-* **Configure Dispatcher to Slave: ** Configuring the dispatcher so that all requests go to the slave ensures that normal authoring is done on the slave. However, when the asset import workflow is initiated, the actual processing will run on the *master* , since in a cluster, workflow processes always run on the master.  
+* **Configure Dispatcher to Slave:**  Configuring the dispatcher so that all requests go to the slave ensures that normal authoring is done on the slave. However, when the asset import workflow is initiated, the actual processing will run on the *master* , since in a cluster, workflow processes always run on the master.  
   
   This solution also provides the reliability advantages of clustering, in that content is automatically "backed-up" from master to slave and vice versa.  
   

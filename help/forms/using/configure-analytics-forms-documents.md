@@ -174,7 +174,7 @@ An Adobe Analytics framework is a set of mappings between Adobe Analytics variab
     
     * **Analytics report sync cron**: Specify cron expression for fetching reports from Adobe Analytics. The default value is 0 0 2 ? &#42; &#42;.  
     
-    * **Fetch report timeout: **Specify the duration, in seconds, to wait for server to respond to the analytics report. The default time is 120 seconds.
+    * **Fetch report timeout:** Specify the duration, in seconds, to wait for server to respond to the analytics report. The default time is 120 seconds.
 
    >[!NOTE]
    >

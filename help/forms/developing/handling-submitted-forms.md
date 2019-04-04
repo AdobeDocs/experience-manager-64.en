@@ -152,7 +152,7 @@ You retrieve form data that was posted to the Forms service and determine its pr
 The Forms service returns the following values to indicate whether it has finished processing the data:
 
 * **0 (Submit):** Submitted data is ready to be processed.
-* **1 (Calculate): **The Forms service performed a calculation operation on the data and the results must be rendered back to the user. 
+* **1 (Calculate):** The Forms service performed a calculation operation on the data and the results must be rendered back to the user. 
 * **2 (Validate):** The Forms service validated form data and the results must be rendered back to the user. 
 * **3 (Next):** The current page has changed with results that must be written to the client application. 
 * **4 (Previous**): The current page has changed with results that must be written to the client application.

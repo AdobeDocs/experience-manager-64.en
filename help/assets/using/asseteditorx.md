@@ -24,8 +24,8 @@ In addition to using pre-existing editor components, Adobe Experience Manager (A
 The following sample pages are included in geometrixx:
 
 * Geometrixx Sample Page: **/content/geometrixx/en/press/asseteditor.html**
-* Sample Template:** /apps/geometrixx/templates/asseteditor**
-* Sample Page Component:** /apps/geometrixx/components/asseteditor**
+* Sample Template: **/apps/geometrixx/templates/asseteditor**
+* Sample Page Component: **/apps/geometrixx/components/asseteditor**
 
 ### Configuring Clientlib {#configuring-clientlib}
 

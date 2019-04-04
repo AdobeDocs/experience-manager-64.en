@@ -149,7 +149,7 @@ In AEM 6.1, the standard fulltext predicate was part of the search form. In 6.2,
 
 The Page Status has been replaced by two Options Property Predicates, one for publish and one for LiveCopy status.
 
-**Actions: **
+**Actions:** 
 
 * Remove the `pagestatuspredicate` node
 * Copy node
@@ -415,7 +415,7 @@ Action: Adjust the resourceType property (add "/coral" like in the 6.2 location 
 | Resource type in 6.1 |dam/gui/components/admin/customsearch/searchpredicates/publishpredicate |
 | Resource type in 6.2 |dam/gui/coral/components/admin/customsearch/searchpredicates/publishpredicate |
 
-**Actions: **
+**Actions:** 
 
 * Adjust the `resourceType` property (add "**/coral**" like in the 6.2 location indicated above)
 
@@ -466,7 +466,7 @@ Action: Adjust the resourceType property (add "/coral" like in the 6.2 location 
 | Resource type in 6.1 |dam/gui/components/admin/customsearch/searchpredicates/tagsfilterpredicate |
 | Resource type in 6.2 |cq/gui/components/coral/common/admin/customsearch/searchpredicates/tagspredicate |
 
-**Actions: **
+**Actions:** 
 
 * Adjust the `resourceType` property (add "**/coral**" like in the 6.2 location indicated above)
 
@@ -483,7 +483,7 @@ Action: Adjust the resourceType property (add "/coral" like in the 6.2 location 
 | Resource type in 6.1 |dam/gui/components/admin/customsearch/searchpredicates/tagsfilterpredicate |
 | Resource type in 6.2 |cq/gui/components/coral/common/admin/customsearch/searchpredicates/tagspredicate |
 
-**Actions: **
+**Actions:** 
 
 * Adjust the `resourceType` property (add "**/coral**" like in the 6.2 location indicated above)
 

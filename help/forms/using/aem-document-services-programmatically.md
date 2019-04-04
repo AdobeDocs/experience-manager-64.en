@@ -3599,9 +3599,9 @@ public class RemovePKIEncryption {
 
 The Output service provides APIs to render an XDP file in .pdf, .pcl, .zpl, and .ps formats. The service supports following APIs:
 
-* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p): **Generates a PDF document by merging a form design with data stored on a network location, local file system, or HTTP location as literal values.  
+* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data stored on a network location, local file system, or HTTP location as literal values.  
 
-* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p): **Generates a PDF document by merging a form design with data that are stored in an application.
+* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data that are stored in an application.
 * ** [generatePDFOutputBatch](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutputbatch-p):** Merges a form design with data to create a PDF document. Optionally, generates a metadata file for each record or saves the output to a PDF file.
 * ** [generatePrintedOutput](../../forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, or ZPL output from a form design and data file stored on a network location, local file system, or HTTP location as literal values.  
 
@@ -4258,7 +4258,7 @@ String outputFolder="C:/Output";
 
 The Forms service provides APIs to import and export data to and from an interactive PDF form. An interactive PDF form is a PDF document that contains one or more fields used to display and collect information from the users. The service supports following APIs:
 
-* ** [exportData](../../forms/using/aem-document-services-programmatically.md#p-exportdata-p): **exports data from a PDF form.
+* ** [exportData](../../forms/using/aem-document-services-programmatically.md#p-exportdata-p):** exports data from a PDF form.
 * ** [importData](../../forms/using/aem-document-services-programmatically.md#p-importdata-p):** imports data into an interactive PDF Form.
 
 ### exportData {#exportdata}

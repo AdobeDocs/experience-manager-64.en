@@ -151,7 +151,7 @@ AEM provides the following sample store candidates upon which you can base a sto
 
     * **Configuration Title:** The title that identifies the store
     * **Store Type:** The value of the storeType property of the store candidate upon which to base the store
-    * **Required: **Select
+    * **Required:** Select
     * **Enabled:** Select to enable the store
 
 1. (Optional) To override the default store configuration, enter a JSON object in the Detail Configuration (JSON) box.

@@ -101,7 +101,7 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
 
    Enter:
 
-    * Title:** An SCF Sandbox**
+    * Title: **An SCF Sandbox**
     * Name: **an-scf-sandbox**
     * select **Design Page Template**
 

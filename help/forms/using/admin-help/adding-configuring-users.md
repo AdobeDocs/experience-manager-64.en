@@ -39,23 +39,23 @@ When you create users, you can add the them to groups and assign roles to the th
 
 Specify the following settings when you create or edit a user.
 
-**Canonical Name: **(Mandatory) Unique identifier for the user. Each user and group in a domain must have a unique canonical name. Select the System Generated checkbox to let User Management assign a unique value, or clear the checkbox and specify a custom value for the Canonical Name.
+**Canonical Name:** (Mandatory) Unique identifier for the user. Each user and group in a domain must have a unique canonical name. Select the System Generated checkbox to let User Management assign a unique value, or clear the checkbox and specify a custom value for the Canonical Name.
 
 Avoid using underscore characters (_) in canonical names, for example, `sample_user`. When you search for users based on their canonical name, those containing underscore characters are not returned.
 
-**First Name: **(Mandatory) User’s given name
+**First Name:** (Mandatory) User’s given name
 
-**Last Name: **(Mandatory) User’s family name
+**Last Name:** (Mandatory) User’s family name
 
-**Common Name: **Full name or display name for the user. For example, if First Name = Gloria and Last Name = Rios, then Common Name = Gloria Rios.
+**Common Name:** Full name or display name for the user. For example, if First Name = Gloria and Last Name = Rios, then Common Name = Gloria Rios.
 
-**Email: **User’s email address
+**Email:** User’s email address
 
-**Telephone: **User’s telephone number
+**Telephone:** User’s telephone number
 
-**Description: **Optional description. Use this field as suits your organization’s needs.
+**Description:** Optional description. Use this field as suits your organization’s needs.
 
-**Address: **User’s mailing address
+**Address:** User’s mailing address
 
 **Organization:** Organization to which the user belongs
 
@@ -63,9 +63,9 @@ Avoid using underscore characters (_) in canonical names, for example, `sample_u
 
 **Domain:** Domain to which the user belongs
 
-**Locale: **User’s ISO locale
+**Locale:** User’s ISO locale
 
-**Business Calendar Key: **Enables you to map a business calendar to a user, based on the value for this setting. Business calendars define business and non-business days. AEM forms can use business calendars when calculating future dates and times for events such as reminders, deadlines, and escalations. The way that you assign business calendar keys to users depends on whether you are using an enterprise, local, or hybrid domain. (See [Adding domains](../../../forms/using/admin-help/adding-domains.md#adding-domains).)
+**Business Calendar Key:** Enables you to map a business calendar to a user, based on the value for this setting. Business calendars define business and non-business days. AEM forms can use business calendars when calculating future dates and times for events such as reminders, deadlines, and escalations. The way that you assign business calendar keys to users depends on whether you are using an enterprise, local, or hybrid domain. (See [Adding domains](../../../forms/using/admin-help/adding-domains.md#adding-domains).)
 
 If you are using a local or hybrid domain, information about users is stored only in the User Management database. For these users, set the Business Calendar Key to a string. Then map the business calendar key (the string) to a business calendar in forms workflow.
 
@@ -75,7 +75,7 @@ For additional information on business calendars, including how to map business 
 
 Limit the name to less than 53 characters. A shorter name helps prevent problems displaying the business calendar key in the Process Management pages in administration console.
 
-**User ID: **(Mandatory) User ID that the user uses to log in. User ID is not case sensitive and it must be unique across the domain.
+**User ID:** (Mandatory) User ID that the user uses to log in. User ID is not case sensitive and it must be unique across the domain.
 
 In enterprise domains, use a non-DN attribute as the user ID because a user’s DN can change if they move to another part of the organization. This setting depends on the directory server. The value is `objectGUID` for Active Directory 2003, `nsuniqueID` for Sun™ One, and `guid` for eDirectory.
 
@@ -89,7 +89,7 @@ When using MySQL, the user ID can contain extended characters. However, when a c
 
 Avoid creating user names that begin with a number sign (#). Performing task searches returns no results for those user names. (See [Working with tasks](../../../forms/using/admin-help/tasks.md#working-with-tasks).)
 
-**Password and Confirm Password: **Password the user uses to log in. It must have a minimum of eight characters. A password is not required for a user who is part of a hybrid domain.
+**Password and Confirm Password:** Password the user uses to log in. It must have a minimum of eight characters. A password is not required for a user who is part of a hybrid domain.
 
 ## View details about a user {#view-details-about-a-user}
 

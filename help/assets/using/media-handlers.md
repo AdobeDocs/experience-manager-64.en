@@ -128,10 +128,10 @@ The media handlers can be disabled or enabled through the Apache Felix Web Manag
 
 To enable/disable a media handler:
 
-1. In your browser, navigate to https://&lt;host&gt;:&lt;port&gt;/system/console/components.
+1. In your browser, navigate to `https://<host>:<port>/system/console/components`.
 1. Click the** Disable** button right beside the name of the media handler. For example: **com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
-1. Refresh the page: a** Disabled **icon is displayed beside the media handler.
-1. To enable the media handler, click the **Enable **button beside the name of the media handler.
+1. Refresh the page: a **Disabled** icon is displayed beside the media handler.
+1. To enable the media handler, click the **Enable** button beside the name of the media handler.
 
 ### Creating a new Media Handler {#creating-a-new-media-handler}
 

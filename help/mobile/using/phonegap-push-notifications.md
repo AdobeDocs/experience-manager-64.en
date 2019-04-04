@@ -252,7 +252,7 @@ With XCode 8.1, before using Push Notifications you must go to the Capabilities 
 
 #### Android {#android}
 
-To install the app on an Android phone using CLI (see below: **6 - Deploy the app onto your phone**), you first must put the phone in "developer mode." See [Enabling On-device Developer Options](https://developer.android.com/tools/device.html#developer-device-options) for details on doing this.
+To install the app on an Android phone using CLI (see below: **Step 6 - Build and deploy the app**), you first must put the phone in "developer mode." See [Enabling On-device Developer Options](https://developer.android.com/tools/device.html#developer-device-options) for details on doing this.
 
 ### Step 5: Configure push on AEM apps {#step-configure-push-on-aem-apps}
 

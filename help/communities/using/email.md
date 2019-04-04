@@ -44,17 +44,17 @@ For example (filled in with values for illustrative purposes only):
 
 ![](assets/chlimage_1-98.png)
 
-* **SMTP server host name: ***(required)* The SMTP server to use.
+* **SMTP server host name:** *(required)* The SMTP server to use.
 
-* **SMTP server port: ***(required)* The SMTP server port must be 25 or higher.
+* **SMTP server port** *(required)* The SMTP server port must be 25 or higher.
 
-* **SMTP user: ***(required)* The SMTP user.
+* **SMTP user:** *(required)* The SMTP user.
 
-* **SMTP password: ***(required)* The SMTP user's password.
+* **SMTP password:** *(required)* The SMTP user's password.
 
-* **"From" address: **Leave empty
-* **SMTP use SSL: **If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
-* **Debug email: **If checked, enables logging of SMTP server interactions.
+* **"From" address:** Leave empty
+* **SMTP use SSL:** If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
+* **Debug email:** If checked, enables logging of SMTP server interactions.
 
 ## AEM Communities Email Configuration {#aem-communities-email-configuration}
 

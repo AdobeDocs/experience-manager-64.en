@@ -167,13 +167,11 @@ To configure the Date Predicate component:
 1. Tap the component and then tap ![](assets/settings_icon.png). The Edit dialog opens.
 1. Specify the following:
 
-    * **Type: **The only option available is **Last Modified Date**
-    
-    * **Text: **Label or caption for the Date Predicate Component. The default value is **Last Modified Date.**
-    
-    * **Start Date Label: **Label or caption of start date field
-    * **End Date Label: **Label or caption for end date field
-    * **Hide: **To enforce default date filter to list forms
+    * **Type:** The only option available is **Last Modified Date**
+    * **Text:** Label or caption for the Date Predicate Component. The default value is **Last Modified Date.**
+    * **Start Date Label:** Label or caption of start date field
+    * **End Date Label:** Label or caption for end date field
+    * **Hide:** To enforce default date filter to list forms
 
 1. Tap **OK**
 

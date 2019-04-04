@@ -60,9 +60,9 @@ Only when signed in as an administrator, or as a member with ` [moderator permis
 
 Setting aside the left navigation rail (which appears on author, but not on publish), the moderation UI has following main areas:
 
-* ** [top navigation bar](#top-navigation-bar)**
-* ** [toolbar](#toolbar)** 
-* ** [content area](#content-area)**
+* **[top navigation bar](#top-navigation-bar)**
+* **[toolbar](#toolbar)** 
+* **[content area](#content-area)**
 
 ### Top Navigation Bar {#top-navigation-bar}
 

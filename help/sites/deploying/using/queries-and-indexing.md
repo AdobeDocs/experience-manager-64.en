@@ -76,9 +76,9 @@ The Property Index is generally useful for queries that have property constraint
 1. Name the node **PropertyIndex**, and set the node type to **oak:QueryIndexDefinition**
 1. Set the following properties for the new node:
 
-    * **type: ** `property` (of type String)  
+    * **type:**  `property` (of type String)  
     
-    * **propertyNames: ** `jcr:uuid` (of type Name)
+    * **propertyNames:**  `jcr:uuid` (of type Name)
 
    This particular example will index the `jcr:uuid` property, whose job is to expose the universally unique idetifier (UUID) of the node it is attached to.
 
@@ -115,9 +115,9 @@ You can configure a Lucene full-text index, by following the below procedure:
 1. Name the node **LuceneIndex** and set the node type to **oak:QueryIndexDefinition**
 1. Add the following properties to the node:
 
-    * **type: ** `lucene` (of type String)  
+    * **type:**  `lucene` (of type String)  
     
-    * **async: ** `async` (of type String)
+    * **async:**  `async` (of type String)
 
 1. Save the changes.
 

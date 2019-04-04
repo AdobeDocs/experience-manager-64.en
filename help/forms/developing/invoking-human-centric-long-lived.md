@@ -482,7 +482,7 @@ Notice under Service References, there are two items. The first item is named* J
 1. In the **Language** box, select Visual C#
 1. Click OK.
 
-**Add service references: **
+**Add service references:**
 
 1. In the Project menu, select **Add Service Reference**.
 1. In the **Address** dialog box, specify the WSDL to the Job Manager service.

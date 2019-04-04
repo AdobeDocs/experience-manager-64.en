@@ -246,7 +246,7 @@ Cloud Services are inherited from parent pages to child pages with the ability t
 
     * **Parent Configuration**: `/etc/cloudservices/googleanalytics`
     
-    * **Title: ** `My First GA Config`
+    * **Title:**  `My First GA Config`
 
    Choose **Google Analytics Configuration** and click **Create**.  
 

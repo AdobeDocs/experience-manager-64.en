@@ -154,7 +154,7 @@ Send your application resources to PhoneGap Build for compiling for the various 
 
    ![](do-not-localize/chlimage_1-3.png)
 
-   **Note: **The Beta version of AEM Beta does not create an Inbox notification when the build successfuly completes.
+   **Note:** The Beta version of AEM Beta does not create an Inbox notification when the build successfuly completes.
 
 1. In the Success dialog box, click PhoneGap Build to open the Adobe PhoneGap Build page at [https://build.phonegap.com/apps](https://build.phonegap.com/apps). If you are waiting for your app to appear, you can check the [PhoneGap Build Status](https://status.build.phonegap.com/) page.
 

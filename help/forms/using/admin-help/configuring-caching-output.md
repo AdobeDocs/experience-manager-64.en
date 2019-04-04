@@ -19,8 +19,8 @@ The Output page in administration console contains settings that control the way
 
 The Output service caches the following items:
 
-* **form designs: **The Output service caches form designs that it retrieves from the repository or from HTTP sources. This caching improves performance because for subsequent render requests, the Output service retrieves the form design from the cache instead of from the repository. 
-* **fragments and images: **The Output service can cache fragments and images used in form designs. When the Output service caches these objects, it improves performance because the fragments and images are only read from the repository on the first request.
+* **form designs:** The Output service caches form designs that it retrieves from the repository or from HTTP sources. This caching improves performance because for subsequent render requests, the Output service retrieves the form design from the cache instead of from the repository. 
+* **fragments and images:** The Output service can cache fragments and images used in form designs. When the Output service caches these objects, it improves performance because the fragments and images are only read from the repository on the first request.
 
 Output stores the cache in two locations:
 

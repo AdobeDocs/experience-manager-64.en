@@ -41,37 +41,37 @@ The default configurations available are:
 * **Page Editor (Manuscript search):** 
   This configuration defines the options available when searching for manuscripts in the assets browser (when editing a page).
 
-* **Page Editor (Page search): ** 
+* **Page Editor (Page search):**  
   This configuration defines the options available when searching for pages in the assets browser (when editing a page).
 
-* **Page Editor (Paragraphs search): ** 
+* **Page Editor (Paragraphs search):**  
   This configuration defines the options available when searching for paragraphs in the assets browser (when editing a page).
 
-* **Page Editor (Product search):  
-  **This configuration defines the options available when searching for products in the assets browser (when editing a page).
+* **Page Editor (Product search):**
+  This configuration defines the options available when searching for products in the assets browser (when editing a page).
 * **Page Editor (Scene7 search)**:  
   This configuration defines the options available when searching for Scene7 resources in the assets browser (when editing a page).
 
 * **Sites Admin Search Rail**:  
   This configuration defines the search options available to the user when using the search rail of the Sites console.
 
-* **Page Editor (Video search):   
-  **This configuration defines the options available when searching for videos in the assets browser (when editing a page).
-* **Assets Admin Search Rail:  
-  **This configuration defines the search options available to the user when using the Assets console.
-* **Catalogs Admin Search Rail: ** 
+* **Page Editor (Video search):**
+  This configuration defines the options available when searching for videos in the assets browser (when editing a page).
+* **Assets Admin Search Rail:**
+  This configuration defines the search options available to the user when using the Assets console.
+* **Catalogs Admin Search Rail:**  
   This configuration defines the search options available to the user when searching a commerce catalog.
 
-* **Orders Admin Search Rail: ** 
+* **Orders Admin Search Rail:**  
   This configuration defines the search options available to the user when searching commerce orders.
 
-* **Product Collections Admin Search Rail: ** 
+* **Product Collections Admin Search Rail:**  
   This configuration defines the search options available to the user when searching commerce product collections.
 
-* **Products Admin Search Rail: ** 
+* **Products Admin Search Rail:**  
   This configuration defines the search options available to the user when searching commerce products.
 
-* **Project Admin Search Rail: ** 
+* **Project Admin Search Rail:**  
   This configuration defines the search options available to the user when searching projects.
 
 ## Predicates and Their Settings {#predicates-and-their-settings}

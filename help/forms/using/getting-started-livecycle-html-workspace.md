@@ -61,14 +61,14 @@ You can set the various AEM Forms workspace preferences in the following categor
 
 **Queues:** Set preferences for sharing your To-do list with other users or for requesting access to another user’s list. See [Working with tasks from group and shared queues](../../forms/using/todo-lists.md#main-pars-heading-19).
 
-**UI Settings: **Set preferences for how you interact with AEM Forms workspace. See [Set user interface preferences](../../forms/using/getting-started-livecycle-html-workspace.md#main-pars-heading-5).
+**UI Settings:** Set preferences for how you interact with AEM Forms workspace. See [Set user interface preferences](../../forms/using/getting-started-livecycle-html-workspace.md#main-pars-heading-5).
 
 ### Set user interface preferences {#set-user-interface-preferences}
 
 Set the user interface preferences in the Preferences &gt; UI Settings tab. The following preferences are available.
 
-* **Start Location: **Specifies the page that appears when you log in to AEM Forms workspace. The four available options are Start Process, To Do, Tracking, and Favorites.
-* **Logout Prompt: **Specifies whether you are prompted to confirm that you want to log out after you click Log Out.
+* **Start Location:** Specifies the page that appears when you log in to AEM Forms workspace. The four available options are Start Process, To Do, Tracking, and Favorites.
+* **Logout Prompt:** Specifies whether you are prompted to confirm that you want to log out after you click Log Out.
 * **Date Format:** Specifies the date display format used across AEM Forms workspace.
 * **Time Format**: Specifies the time display format used across AEM Forms workspace.
 * **Notify Task Events via Email:** Specifies whether you receive email notifications for task events, including task assignments, reminders, and deadlines for tasks in your To-do list and in group To-do lists that you belong to.

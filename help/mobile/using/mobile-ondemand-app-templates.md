@@ -62,7 +62,7 @@ Once you create an app using this template, you can add articles, banners, and c
 
 Each entity type has two out-of-the-box templates. These are:
 
-* **Default templates: **used for content creation with applicable default properties/structure 
+* **Default templates:** used for content creation with applicable default properties/structure 
 * **Imported templates:** used for importing content from AEM Mobile with applicable default properties/structure
 
 ### Article Templates {#article-templates}
