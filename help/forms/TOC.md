@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: AEM 6.4 Forms User Guide
+product: Adobe Experience Manager
+audience: end-user
+user-guide-title: AEM 6.4 Forms User Guide
 ---
 
-# Table of Contents - AEM 6.4 - Forms User Guide {#table-of-contents}
+# AEM 6.4 Forms User Guide {#forms}
 
 + [Correspondence Management: Handling user data](using/correspondence-management-handling-user-data.md)
 + [Document security offerings](using/document-security-offerings.md)
