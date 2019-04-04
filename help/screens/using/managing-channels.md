@@ -19,14 +19,14 @@ This page shows creating and managing channels for Screens.
 
 **Pre-requisites**:
 
-* [Configuring and Deploying Screens](../../sites/deploying/using/configuring-screens-introduction.md)
-* [Create and Manage Screens Project](../../screens/using/creating-a-screens-project.md)
+* [Configuring and Deploying Screens](configuring-screens-introduction.md)
+* [Create and Manage Screens Project](creating-a-screens-project.md)
 
 ## Creating a New Channel {#creating-a-new-channel}
 
 Once you create your project for Screens, follow the steps below to create a new Channel for a Screens project:
 
-1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can ﻿go directly to: [http://localhost:4502/screens.html/content/screens](http://localhost:4502/screens.html/content/screens).
+1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can navigate directly from `https://localhost:4502/screens.html/content/screens`
 1. Navigate to Screens project and click **Channels**. 
 1. Click **Create** next to the plus icon in the action bar. A wizard will open (*See Channel Types for more information*).
 
@@ -53,7 +53,7 @@ The following template options are available while using the wizard such as:
 >
 >The Split Screen channels split the display into multiple zones so you can play several experiences at the same time, side-by-side. The experiences can either be static assets/text or embedded sequences.
 
-The following example shows the creation of a Sequence Channel (C*hannelOne*) for a Screens project (*DemoProject*).
+The following example shows the creation of a Sequence Channel **ChannelOne** for a Screens project **DemoProject**.
 
 ![](assets/player2-2.gif)
 
@@ -80,11 +80,12 @@ You can edit, view properties and dashboard, copy, preview, and delete a channel
 To add or edit content in a channel, follow the steps below:
 
 1. Click on the Channel you want to edit (as shown in the figure above).
-1. Click **Edit **from the top left corner of the action bar to edit the channel properties. The editor opens that allows you to add assets/components to your channel that you want to publish.
+1. Click **Edit** from the top left corner of the action bar to edit the channel properties. The editor opens that allows you to add assets/components to your channel that you want to publish.
 
 ![](assets/chlimage_1-44.png)
 
-**Uploading Videos to the Channel** Follow the steps below to upload videos to your channel:
+**Uploading Videos to the Channel** 
+Follow the steps below to upload videos to your channel:
 
 1. Select the channel where you want to upload the video.   
 1. Click **Edit** from the action bar to open the editor.
@@ -92,7 +93,7 @@ To add or edit content in a channel, follow the steps below:
 
 >[!NOTE]
 >
->If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](../../screens/using/troubleshoot-videos.md) under Administering Screens.
+>If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md) under Administering Screens.
 
 ### Viewing Properties {#viewing-properties}
 
@@ -108,7 +109,7 @@ To view or edit properties of a channel, follow the steps below:
 To view dashboard of a channel, follow the steps below:
 
 1. Click on the Channel you want to edit.
-1. Click **View Dashboard **from the action bar to view the dashobard. The **CHANNEL INFORMATION** and **ASSIGNED DISPLAYS **panel opens, as shown in the figure below:
+1. Click **View Dashboard** from the action bar to view the dashobard. The **CHANNEL INFORMATION** and **ASSIGNED DISPLAYS** panel opens, as shown in the figure below:
 
 ![](assets/player2-4.gif) 
 
@@ -132,7 +133,7 @@ An ***Online Channel***, will show the updated content in the real time environm
 
 Follow the steps below to make the channel online:
 
-1. Navigate to the channel as **TestProject** --&gt; **Channels** --&gt; **TestChannel**.
+1. Navigate to the channel **TestChannel** from **Channels** folder in your **TestProject**.
 
    Select the channel.
 
@@ -208,8 +209,8 @@ The associated displays will list in the **Assigned Displays** panel, as shown b
 >
 >To learn about creating a display in a location, please refer to:
 >
->* [Create and Manage Locations](../../screens/using/managing-locations.md)
->* [Create and Manage Displays](../../screens/using/managing-displays.md)
+>* [Create and Manage Locations](managing-locations.md)
+>* [Create and Manage Displays](managing-displays.md)
 >
 
 Additionally, click on the display in the **ASSIGNED DISPLAYS** panel, to view the display information, as shown below:
@@ -222,7 +223,6 @@ The next step after creating a channel and adding/editing content in your channe
 
 See the following resources, for next steps:
 
-* [Create and Manage Channels](../../screens/using/managing-channels.md)
-* [Create and Manage Locations](../../screens/using/managing-locations.md)
-* [Create and Manage Displays](../../screens/using/managing-displays.md)
-
+* [Create and Manage Channels](managing-channels.md)
+* [Create and Manage Locations](managing-locations.md)
+* [Create and Manage Displays](managing-displays.md)
