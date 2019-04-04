@@ -185,7 +185,7 @@ See the [Security section](../../../sites/administering/using/security.md) for m
 
 ### Link Selection Mechanism {#link-selection-mechanism}
 
-In `/libs/cq/core/components/welcome/welcome.jsp` use is made of [ConsoleUtil](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/ConsoleUtil.md), which executes a query on nodes that have the property:
+In `/libs/cq/core/components/welcome/welcome.jsp` use is made of [ConsoleUtil](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/ConsoleUtil.md), which executes a query on nodes that have the property:
 
 * `jcr:mixinTypes` with the value: `cq:Console`
 
