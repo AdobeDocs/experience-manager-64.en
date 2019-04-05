@@ -29,49 +29,49 @@ While the functionality of each viewer differs, the process of creating a Quickv
 
    You typically create a Quickview the same time you edit an asset for use with the viewer you are using.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Viewer you are using</strong></td> 
-   <td><strong>Complete these steps to create the Quickview</strong></td> 
-  </tr> 
-  <tr> 
-   <td>Interactive Images</td> 
-   <td><a href="../../assets/using/interactive-images.md#adding-hotspots-to-an-image-banner" target="_blank">Adding hotspots to an image banner</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Interactive Videos</td> 
-   <td><a href="../../assets/using/interactive-videos.md#adding-interactivity-to-your-video" target="_blank">Adding interactivity to your video</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Carousel Banners</td> 
-   <td><a href="../../assets/using/carousel-banners.md#adding-hotspots-or-image-maps-to-an-image-banner" target="_blank">Adding Hotspots or Image Maps to a Banner</a>.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <tbody> 
+    <tr> 
+    <td><strong>Viewer you are using</strong></td> 
+    <td><strong>Complete these steps to create the Quickview</strong></td> 
+    </tr> 
+    <tr> 
+    <td>Interactive Images</td> 
+    <td><a href="../../assets/using/interactive-images.md#adding-hotspots-to-an-image-banner" target="_blank">Adding hotspots to an image banner</a>.</td> 
+    </tr> 
+    <tr> 
+    <td>Interactive Videos</td> 
+    <td><a href="../../assets/using/interactive-videos.md#adding-interactivity-to-your-video" target="_blank">Adding interactivity to your video</a>.</td> 
+    </tr> 
+    <tr> 
+    <td>Carousel Banners</td> 
+    <td><a href="../../assets/using/carousel-banners.md#adding-hotspots-or-image-maps-to-an-image-banner" target="_blank">Adding Hotspots or Image Maps to a Banner</a>.<br /> </td> 
+    </tr> 
+    </tbody> 
+   </table>
 
 1. Obtain the viewer embed code to Integrate the viewer within your website.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Viewer you are using</strong><br /> </td> 
-   <td><strong>Complete these steps to integrate the viewer with your website</strong></td> 
-  </tr> 
-  <tr> 
-   <td>Interactive image</td> 
-   <td><a href="../../assets/using/interactive-images.md#integrating-an-interactive-image-with-your-website" target="_blank">Integrating an interactive image with your website</a>.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>Interactive video<br /> </td> 
-   <td><a href="../../assets/using/interactive-videos.md#integrating-an-interactive-video-with-your-website" target="_blank">Integrating an interactive video with your website</a>.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>Carousel banner</td> 
-   <td><a href="../../assets/using/carousel-banners.md#adding-a-carousel-banner-to-your-website-page" target="_blank">Adding a carousel banner to your website page</a>.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <tbody> 
+    <tr> 
+    <td><strong>Viewer you are using</strong><br /> </td> 
+    <td><strong>Complete these steps to integrate the viewer with your website</strong></td> 
+    </tr> 
+    <tr> 
+    <td>Interactive image</td> 
+    <td><a href="../../assets/using/interactive-images.md#integrating-an-interactive-image-with-your-website" target="_blank">Integrating an interactive image with your website</a>.<br /> </td> 
+    </tr> 
+    <tr> 
+    <td>Interactive video<br /> </td> 
+    <td><a href="../../assets/using/interactive-videos.md#integrating-an-interactive-video-with-your-website" target="_blank">Integrating an interactive video with your website</a>.<br /> </td> 
+    </tr> 
+    <tr> 
+    <td>Carousel banner</td> 
+    <td><a href="../../assets/using/carousel-banners.md#adding-a-carousel-banner-to-your-website-page" target="_blank">Adding a carousel banner to your website page</a>.<br /> </td> 
+    </tr> 
+    </tbody> 
+   </table>
 
 1. The viewer you are using now needs to know how to use the Quickview.
 
