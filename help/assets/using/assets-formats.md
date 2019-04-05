@@ -24,10 +24,12 @@ The following legend describes the level of support AEM Assets offers for a feat
 | Support Level |Description |
 |---|---|
 | x |Supported |
-| &#42; |Supported with add-on features |
+| * |Supported with add-on features |
 | - |Not applicable |
 
 ## Supported Raster Image Formats {#supported-raster-image-formats}
+
+<!-- This table is messed up. The 2 rows are from spans, but it should be a 12-row table. Is it necessary to distinguish Asset Management Features from Dynamic Media Features? -->
 
 | Asset Management Features |Dynamic Media Features |
 |---|---|
@@ -42,7 +44,7 @@ The following legend describes the level of support AEM Assets offers for a feat
 | PGM |x |x |  |  |  |  |  |  |  |  |  |
 | PBM |x |x |  |  |  |  |  |  |  |  |  |
 | PPM |x |x |  |  |  |  |  |  |  |  |  |
-| PSD&#42; |x |x |x |x |  |  |x |  |  |  |  |
+| PSD* |x |x |x |x |  |  |x |  |  |  |  |
 | [EPS](../../assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) |x |x |x |x |  |x |x |x |x |x |x |
 | PICT |  |  |  |  |  |  |x |  |  |  |  |
 | PSB |x  |x  |x  |x  |  |  |  |  |  |  |  |
@@ -90,6 +92,8 @@ For details, see [Imaging Transcoding Library](../../assets/using/imaging-transc
 The Adobe Camera Raw library enables AEM Assets to ingest raw images. For details, see [Camera Raw Support](../../assets/using/camera-raw.md).
 
 ## Supported Document Formats {#supported-document-formats}
+
+<!-- table with merged cells - fix -->
 
 <table> 
  <tbody>

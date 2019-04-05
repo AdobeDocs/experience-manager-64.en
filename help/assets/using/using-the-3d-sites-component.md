@@ -67,60 +67,60 @@ To add the 3D viewer component to a web page:
 
    You can set the following component properties:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>Property</td> 
-   <td>Description</td> 
-   <td>Applicability</td> 
-  </tr> 
-  <tr> 
-   <td>Height (px)</td> 
-   <td>Specify the desired height of the 3D component in pixels. If left empty, the default is 600 pixels.</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Stage Name</td> 
-   <td><p>Select a 3D Stage from the list of available stages. The stage provides background and lighting.</p> <p>See <a href="../../assets/using/about-the-use-of-stages-in-aem-3d.md" target="_blank">About the use of stages in AEM 3D Sites</a>.</p> </td> 
-   <td>Ignored for Adobe Dimension assets.</td> 
-  </tr> 
-  <tr> 
-   <td>Auto-spin Speed (RPM)</td> 
-   <td><p>The 3D viewer orbits the camera continuously after load and reset. Auto-spin terminates when the user initiates a manual orbit action.</p> <p>You can specify the spin speed in RPM using the following values:</p> 
-    <ul> 
-     <li>Set a positive value to spin right</li> 
-     <li>Set a negative value to spin left</li> 
-     <li>Set a 0 value to disable auto-spin.</li> 
-    </ul> <p>The default is 3 RPM, equivalent to 20 seconds per full revolution.<br /> <br /> <strong>Note:</strong> The spin speed assumes a 60/sec frame rate. This rate is typically achieved with small to moderately-sized models on more powerful graphics hardware. Larger models or slower devices auto-spin at lower rates.</p> </td> 
-   <td>Ignored for Adobe Dimension assets.</td> 
-  </tr> 
-  <tr> 
-   <td>Navigation Button Color</td> 
-   <td>Use the color picker to choose the primary color for the viewer's control buttons.</td> 
-   <td>Ignored for Adobe Dimension asses.</td> 
-  </tr> 
-  <tr> 
-   <td>Navigation Hover Color</td> 
-   <td>Use the color picker to choose the hover/selected color for the viewer's control buttons.</td> 
-   <td>Ignored for Adobe Dimension assets.</td> 
-  </tr> 
-  <tr> 
-   <td>Show Swatches</td> 
-   <td>For future use.</td> 
-   <td>Ignored for Adobe Dimension assets.</td> 
-  </tr> 
-  <tr> 
-   <td>Show GLTF Camera Presets</td> 
-   <td>Show or hide the camera presets which may be present in Adobe Dimension assets.</td> 
-   <td>For Adobe Dimension assets only.</td> 
-  </tr> 
-  <tr> 
-   <td>GLTF Background Color</td> 
-   <td>Default background color if the 3D model does not include a background.</td> 
-   <td>For Adobe Dimension assets only.</td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <tbody> 
+    <tr> 
+    <td>Property</td> 
+    <td>Description</td> 
+    <td>Applicability</td> 
+    </tr> 
+    <tr> 
+    <td>Height (px)</td> 
+    <td>Specify the desired height of the 3D component in pixels. If left empty, the default is 600 pixels.</td> 
+    <td> </td> 
+    </tr> 
+    <tr> 
+    <td>Stage Name</td> 
+    <td><p>Select a 3D Stage from the list of available stages. The stage provides background and lighting.</p> <p>See <a href="../../assets/using/about-the-use-of-stages-in-aem-3d.md" target="_blank">About the use of stages in AEM 3D Sites</a>.</p> </td> 
+    <td>Ignored for Adobe Dimension assets.</td> 
+    </tr> 
+    <tr> 
+    <td>Auto-spin Speed (RPM)</td> 
+    <td><p>The 3D viewer orbits the camera continuously after load and reset. Auto-spin terminates when the user initiates a manual orbit action.</p> <p>You can specify the spin speed in RPM using the following values:</p> 
+        <ul> 
+        <li>Set a positive value to spin right</li> 
+        <li>Set a negative value to spin left</li> 
+        <li>Set a 0 value to disable auto-spin.</li> 
+        </ul> <p>The default is 3 RPM, equivalent to 20 seconds per full revolution.<br /> <br /> <strong>Note:</strong> The spin speed assumes a 60/sec frame rate. This rate is typically achieved with small to moderately-sized models on more powerful graphics hardware. Larger models or slower devices auto-spin at lower rates.</p> </td> 
+    <td>Ignored for Adobe Dimension assets.</td> 
+    </tr> 
+    <tr> 
+    <td>Navigation Button Color</td> 
+    <td>Use the color picker to choose the primary color for the viewer's control buttons.</td> 
+    <td>Ignored for Adobe Dimension asses.</td> 
+    </tr> 
+    <tr> 
+    <td>Navigation Hover Color</td> 
+    <td>Use the color picker to choose the hover/selected color for the viewer's control buttons.</td> 
+    <td>Ignored for Adobe Dimension assets.</td> 
+    </tr> 
+    <tr> 
+    <td>Show Swatches</td> 
+    <td>For future use.</td> 
+    <td>Ignored for Adobe Dimension assets.</td> 
+    </tr> 
+    <tr> 
+    <td>Show GLTF Camera Presets</td> 
+    <td>Show or hide the camera presets which may be present in Adobe Dimension assets.</td> 
+    <td>For Adobe Dimension assets only.</td> 
+    </tr> 
+    <tr> 
+    <td>GLTF Background Color</td> 
+    <td>Default background color if the 3D model does not include a background.</td> 
+    <td>For Adobe Dimension assets only.</td> 
+    </tr> 
+    </tbody> 
+   </table>
 
 1. Tap the check mark to save your changes.
 

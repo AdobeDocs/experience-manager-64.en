@@ -545,26 +545,26 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
    Characters that you can use to filter for replication include the following:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Character to use</strong></td> 
-   <td><strong>How it filters assets for replication</strong></td> 
-  </tr> 
-  <tr> 
-   <td>*</td> 
-   <td>Wildcard character<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>+</td> 
-   <td>Includes assets for replication.</td> 
-  </tr> 
-  <tr> 
-   <td>-</td> 
-   <td>Excludes assets from replication.</td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <tbody> 
+    <tr> 
+    <td><strong>Character to use</strong></td> 
+    <td><strong>How it filters assets for replication</strong></td> 
+    </tr> 
+    <tr> 
+    <td>*</td> 
+    <td>Wildcard character<br /> </td> 
+    </tr> 
+    <tr> 
+    <td>+</td> 
+    <td>Includes assets for replication.</td> 
+    </tr> 
+    <tr> 
+    <td>-</td> 
+    <td>Excludes assets from replication.</td> 
+    </tr> 
+    </tbody> 
+   </table>
 
    Navigate to **content/dam/<`locate your asset`&gt;/jcr:content/renditions**.
 

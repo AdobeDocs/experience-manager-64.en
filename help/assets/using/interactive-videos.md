@@ -291,34 +291,34 @@ To add interactivty to your video:
 
    Depending on the length of your video, the Segment Duration defaults to the following values:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>If the video length is...</strong></td> 
-   <td><strong>The Segment Duration setting defaults to...</strong></td> 
-  </tr> 
-  <tr> 
-   <td>3 minutes or more</td> 
-   <td>60 seconds</td> 
-  </tr> 
-  <tr> 
-   <td>2-3 minutes</td> 
-   <td>30 seconds</td> 
-  </tr> 
-  <tr> 
-   <td>1-2 minutes</td> 
-   <td>20 seconds<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>30-60 seconds</td> 
-   <td>10 seconds</td> 
-  </tr> 
-  <tr> 
-   <td>30 seconds or less</td> 
-   <td>5 seconds</td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <tbody> 
+      <tr> 
+      <td><strong>If the video length is...</strong></td> 
+      <td><strong>The Segment Duration setting defaults to...</strong></td> 
+      </tr> 
+      <tr> 
+      <td>3 minutes or more</td> 
+      <td>60 seconds</td> 
+      </tr> 
+      <tr> 
+      <td>2-3 minutes</td> 
+      <td>30 seconds</td> 
+      </tr> 
+      <tr> 
+      <td>1-2 minutes</td> 
+      <td>20 seconds<br /> </td> 
+      </tr> 
+      <tr> 
+      <td>30-60 seconds</td> 
+      <td>10 seconds</td> 
+      </tr> 
+      <tr> 
+      <td>30 seconds or less</td> 
+      <td>5 seconds</td> 
+      </tr> 
+    </tbody> 
+   </table>
 
    The video timeline uses as much screen real estate as what is made available to it. As such, when you resize the browser, the segments you have added maintain their correct width.
 
@@ -370,22 +370,22 @@ To add interactivty to your video:
 
 1. In the asset selector below the Content tab, do any of the following:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>To associate a thumbnail to the selected timeline segment</td> 
-   <td><p>Tap the image in the asset selector panel on the right.</p> <p>You can add as many thumbnails as you want to a timeline segment. For each image you select, a check mark appears over the image in the asset selector.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>To remove a thumbnail from the selected timeline segment</td> 
-   <td><p>Do any of the following:</p> 
-    <ul> 
-     <li>In the asset selector panel, tap an image with a check mark to deselect it. The image asset is removed from the timeline segment.<br /> </li> 
-     <li>In the selected timeline segment, tap an image, then on the toolbar, tap <strong>Delete Product</strong>.</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <tbody> 
+      <tr> 
+      <td>To associate a thumbnail to the selected timeline segment</td> 
+      <td><p>Tap the image in the asset selector panel on the right.</p> <p>You can add as many thumbnails as you want to a timeline segment. For each image you select, a check mark appears over the image in the asset selector.</p> </td> 
+      </tr> 
+      <tr> 
+      <td>To remove a thumbnail from the selected timeline segment</td> 
+      <td><p>Do any of the following:</p> 
+        <ul> 
+        <li>In the asset selector panel, tap an image with a check mark to deselect it. The image asset is removed from the timeline segment.<br /> </li> 
+        <li>In the selected timeline segment, tap an image, then on the toolbar, tap <strong>Delete Product</strong>.</li> 
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+   </table>
 
    ![Asset picker](assets/chlimage_1-133.png)
 
@@ -394,53 +394,53 @@ To add interactivty to your video:
 1. Select a single thumbnail image within one of the timeline segments, then tap the **Actions** tab.
 1. Do any of the following:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>To associate the selected thumbnail image with a Quickview</td> 
-   <td><p>Under Action Type, tap <strong>Quickview</strong>.</p> <p>If you are an AEM Sites and Ecommerce customer:</p> 
-    <ul> 
-     <li>Notice that the SKU Value text field is pre-populated with the selected product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you are offering. This is populated automatically when the image is associated with a product in AEM Commerce.</li> 
-     <li>If the pre-populated SKU is incorrect, tap or click the Product Picker icon (magnifying glass) to open the Select Product page. Tap or click the product you want to use, then tap the check mark in the upper-right corner of the page to return to the Interactive Video Editor.</li> 
-    </ul> <p> If you are <em>not</em> an AEM Sites or Ecommerce customer</p> 
-    <ul> 
-     <li>See <a href="../../assets/using/carousel-banners.md#identifyinghotspotvariables">Identifying hotspot variables</a>. You will need to define these variables. </li> 
-     <li>By default, this SKU field uses the image asset's filename without the extension. If you follow a standard naming convention for your files based on SKU, then this typically does not require any additional edits. </li> 
-     <li>Otherwise, edit the default value and enter the correct SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped image with a particular SKU's Quickview.</li> 
-    </ul> <p>(Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap <strong>Add Generic Variable</strong>. In the text field, specify an additional variable. For example, <span class="code">category=Womens</span> is an added variable.</p> <p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td>To associate the selected thumbnail image with a hyperlink</td> 
-   <td><p>Under Action Type, tap <strong>Hyperlink</strong>, then do one of the following:</p> 
-    <ul> 
-     <li>If you are an AEM Sites customer, tap the Site Selector icon (folder) to navigate to a webpage. Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.</li> 
-     <li>If you are a standalone Dynamic Media customer, in the HREF text field, specify the full URL path to a linked web page.</li> 
-    </ul> <p>Be sure you specify whether to open the link in a new browser tab or in the current tab.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>To associate the selected thumbnail image with an Experience Fragment</td> 
-   <td><p>Under Action Type, tap <strong>Experience Fragment</strong>, then do the following:</p> 
-    <ul> 
-     <li>If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap <strong>Select </strong>in the upper-right corner of the page to return to the Actions panel on the previous page.<br /> See <a href="../../sites/authoring/using/experience-fragments.md">Experience Fragments</a>.</li> 
-    </ul> 
-    <ul> 
-     <li>Specify the width and height of the Experience Fragment as it will appear on the video.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>To edit an action already assigned to a thumbnail image</td> 
-   <td>Within a timeline segment, tap a thumbnail image that has a chain link to the right of its text label. The chain link indicates that an action is assigned to it. Tap the <strong>Actions</strong> tab to make your changes.</td> 
-  </tr> 
-  <tr> 
-   <td>To change the text label of a thumbnail image</td> 
-   <td><p>By default, the text label uses the thumbnail image’s <span class="code">Title</span> metadata field. If <span class="code">Title</span> is not present, the thumbnail image's filename is used instead, but without the extension.</p> <p>To change the text label of a thumbnail image, under the <strong>Actions </strong>tab, directly below the image asset that is displayed, enter the desired text. See the illustration below.</p> <p>Note that the new text label is used only by the video player itself and the thumbnail text that is displayed in the timeline segment. The label change does not affect the thumbnail image's Title metadata field nor its filename.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>To revert a change you have made</td> 
-   <td>Near the upper-right corner of the page, tap <strong>Undo</strong> or <strong>Redo</strong>.</td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <tbody> 
+      <tr> 
+      <td>To associate the selected thumbnail image with a Quickview</td> 
+      <td><p>Under Action Type, tap <strong>Quickview</strong>.</p> <p>If you are an AEM Sites and Ecommerce customer:</p> 
+       <ul> 
+       <li>Notice that the SKU Value text field is pre-populated with the selected product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you are offering. This is populated automatically when the image is associated with a product in AEM Commerce.</li> 
+       <li>If the pre-populated SKU is incorrect, tap or click the Product Picker icon (magnifying glass) to open the Select Product page. Tap or click the product you want to use, then tap the check mark in the upper-right corner of the page to return to the Interactive Video Editor.</li> 
+       </ul> <p> If you are <em>not</em> an AEM Sites or Ecommerce customer</p> 
+       <ul> 
+       <li>See <a href="../../assets/using/carousel-banners.md#identifyinghotspotvariables">Identifying hotspot variables</a>. You will need to define these variables. </li> 
+       <li>By default, this SKU field uses the image asset's filename without the extension. If you follow a standard naming convention for your files based on SKU, then this typically does not require any additional edits. </li> 
+       <li>Otherwise, edit the default value and enter the correct SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped image with a particular SKU's Quickview.</li> 
+       </ul> <p>(Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap <strong>Add Generic Variable</strong>. In the text field, specify an additional variable. For example, <span class="code">category=Womens</span> is an added variable.</p> <p> </p> </td> 
+      </tr> 
+      <tr> 
+      <td>To associate the selected thumbnail image with a hyperlink</td> 
+      <td><p>Under Action Type, tap <strong>Hyperlink</strong>, then do one of the following:</p> 
+       <ul> 
+       <li>If you are an AEM Sites customer, tap the Site Selector icon (folder) to navigate to a webpage. Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.</li> 
+       <li>If you are a standalone Dynamic Media customer, in the HREF text field, specify the full URL path to a linked web page.</li> 
+       </ul> <p>Be sure you specify whether to open the link in a new browser tab or in the current tab.</p> </td> 
+      </tr> 
+      <tr> 
+      <td>To associate the selected thumbnail image with an Experience Fragment</td> 
+      <td><p>Under Action Type, tap <strong>Experience Fragment</strong>, then do the following:</p> 
+       <ul> 
+       <li>If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap <strong>Select </strong>in the upper-right corner of the page to return to the Actions panel on the previous page.<br /> See <a href="../../sites/authoring/using/experience-fragments.md">Experience Fragments</a>.</li> 
+       </ul> 
+       <ul> 
+       <li>Specify the width and height of the Experience Fragment as it will appear on the video.</li> 
+       </ul> </td> 
+      </tr> 
+      <tr> 
+      <td>To edit an action already assigned to a thumbnail image</td> 
+      <td>Within a timeline segment, tap a thumbnail image that has a chain link to the right of its text label. The chain link indicates that an action is assigned to it. Tap the <strong>Actions</strong> tab to make your changes.</td> 
+      </tr> 
+      <tr> 
+      <td>To change the text label of a thumbnail image</td> 
+      <td><p>By default, the text label uses the thumbnail image’s <span class="code">Title</span> metadata field. If <span class="code">Title</span> is not present, the thumbnail image's filename is used instead, but without the extension.</p> <p>To change the text label of a thumbnail image, under the <strong>Actions </strong>tab, directly below the image asset that is displayed, enter the desired text. See the illustration below.</p> <p>Note that the new text label is used only by the video player itself and the thumbnail text that is displayed in the timeline segment. The label change does not affect the thumbnail image's Title metadata field nor its filename.</p> </td> 
+      </tr> 
+      <tr> 
+      <td>To revert a change you have made</td> 
+      <td>Near the upper-right corner of the page, tap <strong>Undo</strong> or <strong>Redo</strong>.</td> 
+      </tr> 
+    </tbody> 
+   </table>
 
    ![](assets/experiencefragment_interactivevideos.png)
 

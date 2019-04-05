@@ -167,22 +167,22 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 
 1. Based on the video delivery protocol you are using, copy the respective protocol selector. You will need the copied protocol selector later in these steps.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Video delivery protocol you are using</strong></td> 
-   <td><strong>Protocol selector to use</strong></td> 
-  </tr> 
-  <tr> 
-   <td><p>HTTP</p> <p>If you are using HTTP (non-secure video delivery), be sure you change <span class="code">https</span> to <span class="code">http</span> in the Video Service URL value you copied earlier.</p> </td> 
-   <td><span class="code">public/</span></td> 
-  </tr> 
-  <tr> 
-   <td>HTTPS</td> 
-   <td><span class="code">public-ssl/</span></td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <tbody> 
+      <tr> 
+      <td><strong>Video delivery protocol you are using</strong></td> 
+      <td><strong>Protocol selector to use</strong></td> 
+      </tr> 
+      <tr> 
+      <td><p>HTTP</p> <p>If you are using HTTP (non-secure video delivery), be sure you change <span class="code">https</span> to <span class="code">http</span> in the Video Service URL value you copied earlier.</p> </td> 
+      <td><span class="code">public/</span></td> 
+      </tr> 
+      <tr> 
+      <td>HTTPS</td> 
+      <td><span class="code">public-ssl/</span></td> 
+      </tr> 
+    </tbody> 
+   </table>
 
 1. Copy the full video asset path in AEM, as processed by Dynamic Media. You will need this copied video asset path later in these steps.
 

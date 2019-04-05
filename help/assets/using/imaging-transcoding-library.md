@@ -121,6 +121,8 @@ The command line arguments for Imaging Transcoding Library can include the follo
  </tbody> 
 </table>
 
+<!--empty table -->
+
 <table> 
  <tbody> 
   <tr> 
@@ -130,8 +132,8 @@ The command line arguments for Imaging Transcoding Library can include the follo
 </table>
 
 1. Tap/click the AEM logo, and go to **Tools** &gt; **Workflow** &gt; **Models**.
-1. From the **Workflow Models** page, open the** DAM Update Asset** workflow model in edit mode.
-1. Open the **Process Thumbnails** workflow process step. In the **Thumbnails** tab, add the MIME types for which you want to skip the default thumbnail generation process in the **Skip Mime Types **list. For example, if you want to create thumbnails for a JPEG image using Imaging Transcoding Library, specify `skip:image/jpeg` in the Skip Mime Types field.
+1. From the **Workflow Models** page, open the **DAM Update Asset** workflow model in edit mode.
+1. Open the **Process Thumbnails** workflow process step. In the **Thumbnails** tab, add the MIME types for which you want to skip the default thumbnail generation process in the **Skip Mime Types** list. For example, if you want to create thumbnails for a JPEG image using Imaging Transcoding Library, specify `skip:image/jpeg` in the Skip Mime Types field.
 
    ![](assets/skip_mime_types-1.png)
 
