@@ -19,7 +19,7 @@ Although the client application contains required application logic to perform S
 
 >[!NOTE]
 >
->Before reading this section, it is recommended that you are familair with Invoking AEM Forms using Remoting. (See [Invoking AEM Forms using AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting).)
+>Before reading this section, it is recommended that you are familair with Invoking AEM Forms using Remoting. (See [Invoking AEM Forms using AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting).)
 
 The following AEM Forms short-lived process, named `MyApplication/EncryptDocument`, is invoked after a user is authenticated using SSO. (For information about this process such as its input and output values, see [Short lived process example](unresolvedlink-lc-in-invoke-using-apis-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b77.2).)
 
@@ -105,15 +105,15 @@ The previous illustration describes the application flow that occurs when the cl
 
 The client application consists of the following files:
 
-* `SSOStandalone.mxml`: The main MXML file that represents the client application. (See [Creating the SSOStandalone.mxml file](creating-flash-builder-applications-perform.md#creating_the_ssostandalone_mxml_file).)
-* `um/ISSOManager.as`: Expose operations related to Single Sign On (SSO). (See [Creating the ISSOManager.as file](creating-flash-builder-applications-perform.md#creating_the_issomanager_as_file).)
-* `um/SSOEvent.as`: The `SSOEvent` is dispatched for SSO related events. (See [Creating the SSOEvent.as file](creating-flash-builder-applications-perform.md#creating_the_ssoevent_as_file).)
-* `um/SSOManager.as`: Manages the SSO related operations and dispatches appropriate events. (See [Creating the SSOManager.as file](creating-flash-builder-applications-perform.md#creating_the_ssomanager_as_file).)
-* `um/UserManager.as`: Contains application logic that invokes the Authentication Manager service using its WSDL. (See [Creating the UserManager.as file](creating-flash-builder-applications-perform.md#creating_the_usermanager_as_file).)
-* `views/login.mxml`: Represents the login screen. (See [Creating the login.mxml file](creating-flash-builder-applications-perform.md#creating_the_login_mxml_file).)
-* `views/logout.mxml`: Represents the logout screen. (See [Creating the logout.mxml file](creating-flash-builder-applications-perform.md#creating_the_logout_mxml_file).)
-* `views/progress.mxml`: Represents a progress view. (See [Creating the progress.mxml file](creating-flash-builder-applications-perform.md#creating_the_progress_mxml_file).)
-* `views/remoting.mxml`: Represents the view that invokes AEM Forms short-lived process named MyApplication/EncryptDocument using remoting. (See [Creating the remoting.mxml file](creating-flash-builder-applications-perform.md#creating_the_remoting_mxml_file).)
+* `SSOStandalone.mxml`: The main MXML file that represents the client application. (See [Creating the SSOStandalone.mxml file](creating-flash-builder-applications-perform.md#creating-the-ssostandalone-mxml-file).)
+* `um/ISSOManager.as`: Expose operations related to Single Sign On (SSO). (See [Creating the ISSOManager.as file](creating-flash-builder-applications-perform.md#creating-the-issomanager-as-file).)
+* `um/SSOEvent.as`: The `SSOEvent` is dispatched for SSO related events. (See [Creating the SSOEvent.as file](creating-flash-builder-applications-perform.md#creating-the-ssoevent-as-file).)
+* `um/SSOManager.as`: Manages the SSO related operations and dispatches appropriate events. (See [Creating the SSOManager.as file](creating-flash-builder-applications-perform.md#creating-the-ssomanager-as-file).)
+* `um/UserManager.as`: Contains application logic that invokes the Authentication Manager service using its WSDL. (See [Creating the UserManager.as file](creating-flash-builder-applications-perform.md#creating-the-usermanager-as-file).)
+* `views/login.mxml`: Represents the login screen. (See [Creating the login.mxml file](creating-flash-builder-applications-perform.md#creating-the-login-mxml-file).)
+* `views/logout.mxml`: Represents the logout screen. (See [Creating the logout.mxml file](creating-flash-builder-applications-perform.md#creating-the-logout-mxml-file).)
+* `views/progress.mxml`: Represents a progress view. (See [Creating the progress.mxml file](creating-flash-builder-applications-perform.md#creating-the-progress-mxml-file).)
+* `views/remoting.mxml`: Represents the view that invokes AEM Forms short-lived process named MyApplication/EncryptDocument using remoting. (See [Creating the remoting.mxml file](creating-flash-builder-applications-perform.md#creating-the-remoting-mxml-file).)
 
 The following illustration provides a visual representation of the client application. 
 
@@ -121,7 +121,7 @@ The following illustration provides a visual representation of the client applic
 
 >[!NOTE]
 >
->Notice that there are two packages named um and views. When creating the client application, ensure that you place the files in their proper packages. Also, ensure that you add the adobe-remoting-provider.swc file to your project’s class path. (See [Including the AEM Forms Flex library file](/help/forms/developing/invoking-aem-forms-using-remoting.md#including_the_aem_forms_flex_library_file).)
+>Notice that there are two packages named um and views. When creating the client application, ensure that you place the files in their proper packages. Also, ensure that you add the adobe-remoting-provider.swc file to your project’s class path. (See [Including the AEM Forms Flex library file](/help/forms/developing/invoking-aem-forms-using-remoting.md#including-the-aem-forms-flex-library-file).)
 
 ### Creating the SSOStandalone.mxml file {#creating-the-ssostandalone-mxml-file}
 
@@ -663,7 +663,7 @@ The following code represents the progress.mxml file.
 
 ### Creating the remoting.mxml file {#creating-the-remoting-mxml-file}
 
-The following code represents the remoting.mxml file that invokes the `MyApplication/EncryptDocument` process. Because a document is passed to the process, application logic responsible for passing a secure document to AEM Forms is located in this file. (See [Passing secure documents to invoke processes using Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting).)
+The following code represents the remoting.mxml file that invokes the `MyApplication/EncryptDocument` process. Because a document is passed to the process, application logic responsible for passing a secure document to AEM Forms is located in this file. (See [Passing secure documents to invoke processes using Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#passing-secure-documents-to-invoke-processes-using-remoting).)
 
 ```as3
  <?xml version="1.0" encoding="utf-8"?> 

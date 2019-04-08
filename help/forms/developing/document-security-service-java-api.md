@@ -15,31 +15,31 @@ discoiquuid: b89293c4-ea2e-4fa4-9e5e-ef4f548e9608
 
 Java API Quick Start(SOAP) is available for the Rights Management service:
 
-[Quick Start (SOAP mode): Creating a policy using the Java API](document-security-service-java-api.md#quick_start_soap_mode_creating_a_policy_using_the_java_api)
+[Quick Start (SOAP mode): Creating a policy using the Java API](document-security-service-java-api.md#quick-start-soap-mode-creating-a-policy-using-the-java-api)
 
 [Quick Start (SOAP mode): Modifying a policy using the Java API](unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc0.2)
 
-[Quick Start (SOAP mode): Deleting a policy using the Java API](document-security-service-java-api.md#quick_start_soap_mode_deleting_a_policy_using_the_java_api)
+[Quick Start (SOAP mode): Deleting a policy using the Java API](document-security-service-java-api.md#quick-start-soap-mode-deleting-a-policy-using-the-java-api)
 
 [Quick Start (SOAP mode): Applying a policy to a PDF document using the Java API](unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7c9d.2)
 
-[Quick Start (SOAP mode): Removing a policy from a PDF document using the Java API](document-security-service-java-api.md#quick_start_soap_mode_removing_a_policy_from_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Removing a policy from a PDF document using the Java API](document-security-service-java-api.md#quick-start-soap-mode-removing-a-policy-from-a-pdf-document-using-the-java-api)
 
-[Quick Start (SOAP mode): Revoking a document using the Java API](document-security-service-java-api.md#quick_start_soap_mode_revoking_a_document_using_the_java_api)
+[Quick Start (SOAP mode): Revoking a document using the Java API](document-security-service-java-api.md#quick-start-soap-mode-revoking-a-document-using-the-java-api)
 
-[Quick Start (SOAP mode): Reinstating access to a revoked document using the Java API](document-security-service-java-api.md#quick_start_soap_mode_reinstating_access_to_a_revoked_document_using_the_java_api)
+[Quick Start (SOAP mode): Reinstating access to a revoked document using the Java API](document-security-service-java-api.md#quick-start-soap-mode-reinstating-access-to-a-revoked-document-using-the-java-api)
 
-[Quick Start (SOAP mode): Inspecting policy protected PDF documents using the Java API](document-security-service-java-api.md#quick_start_soap_mode_inspecting_policy_protected_pdf_documents_using_the_java_api)
+[Quick Start (SOAP mode): Inspecting policy protected PDF documents using the Java API](document-security-service-java-api.md#quick-start-soap-mode-inspecting-policy-protected-pdf-documents-using-the-java-api)
 
-[Quick Start (SOAP mode): Creating a watermark using the Java API](document-security-service-java-api.md#quick_start_soap_mode_creating_a_pdf_watermark_using_the_java_api)
+[Quick Start (SOAP mode): Creating a watermark using the Java API](document-security-service-java-api.md#quick-start-soap-mode-creating-a-pdf-watermark-using-the-java-api)
 
-[Quick Start(SOAP mode): Modifying a watermark using the Java API](document-security-service-java-api.md#quick_start_soap_mode_modifying_a_watermark_using_the_java_api)
+[Quick Start(SOAP mode): Modifying a watermark using the Java API](document-security-service-java-api.md#quick-start-soap-mode-modifying-a-watermark-using-the-java-api)
 
-[Quick Start (SOAP mode): Searching for events using the Java API](document-security-service-java-api.md#quick_start_soap_mode_searching_for_events_using_the_java_api)
+[Quick Start (SOAP mode): Searching for events using the Java API](document-security-service-java-api.md#quick-start-soap-mode-searching-for-events-using-the-java-api)
 
 [Quick Start (SOAP mode): Applying a policy to a Word document using the Java API](unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7c70.2)
 
-[Quick Start (SOAP mode): Removing a policy from a Word document using the Java API](document-security-service-java-api.md#quick_start_soap_mode_removing_a_policy_from_a_word_document_using_the_java_api)
+[Quick Start (SOAP mode): Removing a policy from a Word document using the Java API](document-security-service-java-api.md#quick-start-soap-mode-removing-a-policy-from-a-word-document-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -47,7 +47,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Creating a policy using the Java API {#quick-start-soap-mode-creating-a-policy-using-the-java-api}
 
-The following Java code example creates a new policy named *Allow Copy*. The policy set to which the policy is added is named *Global Policy Set*. This policy set exists by default. (See [Creating Policies](/help/forms/developing/protecting-documents-policies.md#creating_policies).)
+The following Java code example creates a new policy named *Allow Copy*. The policy set to which the policy is added is named *Global Policy Set*. This policy set exists by default. (See [Creating Policies](/help/forms/developing/protecting-documents-policies.md#creating-policies).)
 
 ```as3
  /* 
@@ -176,7 +176,7 @@ The following Java code example creates a new policy named *Allow Copy*. The pol
 
 ## Quick Start (SOAP mode): Modifying a policy using the Java API {#quick-start-soap-mode-modifying-a-policy-using-the-java-api}
 
-The following Java code example modifies a policy named *Allow Copy* by setting the offline lease period to 40 days. (See [Modifying Policies](/help/forms/developing/protecting-documents-policies.md#modifying_policies).)
+The following Java code example modifies a policy named *Allow Copy* by setting the offline lease period to 40 days. (See [Modifying Policies](/help/forms/developing/protecting-documents-policies.md#modifying-policies).)
 
 ```as3
  /* 
@@ -277,7 +277,7 @@ The following Java code example modifies a policy named *Allow Copy* by setting 
 
 ## Quick Start (SOAP mode): Deleting a policy using the Java API {#quick-start-soap-mode-deleting-a-policy-using-the-java-api}
 
-The following Java code example deletes a policy named *Allow Copy*. (See [Deleting Policies](/help/forms/developing/protecting-documents-policies.md#deleting_policies).)
+The following Java code example deletes a policy named *Allow Copy*. (See [Deleting Policies](/help/forms/developing/protecting-documents-policies.md#deleting-policies).)
 
 ```as3
  /* 
@@ -369,7 +369,7 @@ The following Java code example deletes a policy named *Allow Copy*. (See [Delet
 
 ## Quick Start (SOAP mode): Applying a policy to a PDF document using the Java API {#quick-start-soap-mode-applying-a-policy-to-a-pdf-document-using-the-java-api}
 
-The following Java code example applies a policy named *Allow Copy* to a PDF document named *Loan.pdf*. The policy set to which the policy is added is named *Global Policy Set*. The policy-protected document is saved as a PDF file named *PolicyProtectedLoanDoc.pdf. *(See [Applying Policies to PDF Documents](/help/forms/developing/protecting-documents-policies.md#applying_policies_to_pdf_documents).)
+The following Java code example applies a policy named *Allow Copy* to a PDF document named *Loan.pdf*. The policy set to which the policy is added is named *Global Policy Set*. The policy-protected document is saved as a PDF file named *PolicyProtectedLoanDoc.pdf. *(See [Applying Policies to PDF Documents](/help/forms/developing/protecting-documents-policies.md#applying-policies-to-pdf-documents).)
 
 ```as3
  /* 
@@ -475,7 +475,7 @@ The following Java code example applies a policy named *Allow Copy* to a PDF doc
 
 ## Quick Start (SOAP mode): Removing a policy from a PDF document using the Java API {#quick-start-soap-mode-removing-a-policy-from-a-pdf-document-using-the-java-api}
 
-The following code example removes a policy from a PDF document named *PolicyProtectedLoanDoc.pdf*. The unsecured PDF document is saved as *unProtectedLoan.pdf*. (See [Removing Policies from PDF Documents](/help/forms/developing/protecting-documents-policies.md#removing_policies_from_pdf_documents).)
+The following code example removes a policy from a PDF document named *PolicyProtectedLoanDoc.pdf*. The unsecured PDF document is saved as *unProtectedLoan.pdf*. (See [Removing Policies from PDF Documents](/help/forms/developing/protecting-documents-policies.md#removing-policies-from-pdf-documents).)
 
 ```as3
  /* 
@@ -582,7 +582,7 @@ The following code example removes a policy from a PDF document named *PolicyPro
 
 ## Quick Start (SOAP mode): Revoking a document using the Java API {#quick-start-soap-mode-revoking-a-document-using-the-java-api}
 
-The following Java code example revokes a policy-protected document named *PolicyProtectedLoanDoc.pdf*. A revised PDF document is located at the following URL location `https://[server]:[port]/RightsManagement/UpdatedLoan.pdf`. (See [Revoking Access to Documents](/help/forms/developing/protecting-documents-policies.md#revoking_access_to_documents).)
+The following Java code example revokes a policy-protected document named *PolicyProtectedLoanDoc.pdf*. A revised PDF document is located at the following URL location `https://[server]:[port]/RightsManagement/UpdatedLoan.pdf`. (See [Revoking Access to Documents](/help/forms/developing/protecting-documents-policies.md#revoking-access-to-documents).)
 
 ```as3
  /* 
@@ -696,7 +696,7 @@ The following Java code example revokes a policy-protected document named *Polic
 
 ## Quick Start (SOAP mode): Inspecting policy protected PDF documents using the Java API {#quick-start-soap-mode-inspecting-policy-protected-pdf-documents-using-the-java-api}
 
-The following Java code example inspects a policy-protected PDF document named *PolicyProtectedLoanDoc.pd*f. (See [Inspecting Policy Protected PDF Documents](/help/forms/developing/protecting-documents-policies.md#inspecting_policy_protected_pdf_documents).)
+The following Java code example inspects a policy-protected PDF document named *PolicyProtectedLoanDoc.pd*f. (See [Inspecting Policy Protected PDF Documents](/help/forms/developing/protecting-documents-policies.md#inspecting-policy-protected-pdf-documents).)
 
 ```as3
  /* 
@@ -814,7 +814,7 @@ The following Java code example inspects a policy-protected PDF document named *
 
 ## Quick Start (SOAP mode): Reinstating access to a revoked document using the Java API {#quick-start-soap-mode-reinstating-access-to-a-revoked-document-using-the-java-api}
 
-The following Java code example reinstates access to a revoked PDF document named *PolicyProtectedLoanDoc.pdf*. (See [Reinstating Access to Revoked Documents](/help/forms/developing/protecting-documents-policies.md#reinstating_access_to_revoked_documents).)
+The following Java code example reinstates access to a revoked PDF document named *PolicyProtectedLoanDoc.pdf*. (See [Reinstating Access to Revoked Documents](/help/forms/developing/protecting-documents-policies.md#reinstating-access-to-revoked-documents).)
 
 ```as3
  /* 
@@ -920,7 +920,7 @@ The following Java code example reinstates access to a revoked PDF document name
 
 ## Quick Start (SOAP mode): Creating a PDF Watermark using the Java API {#quick-start-soap-mode-creating-a-pdf-watermark-using-the-java-api}
 
-The following Java code example creates a new PDF watermark named 'Sample PDF Watermark'. This watermark contains a single element (See [Creating Watermarks](/help/forms/developing/protecting-documents-policies.md#creating_watermarks)).
+The following Java code example creates a new PDF watermark named 'Sample PDF Watermark'. This watermark contains a single element (See [Creating Watermarks](/help/forms/developing/protecting-documents-policies.md#creating-watermarks)).
 
 ```as3
 /* 
@@ -1525,7 +1525,7 @@ The following Java code example searches for the create policy event.
 
 ## Quick Start (SOAP): Applying a policy to a Word document using the Java API {#quick-start-soap-applying-a-policy-to-a-word-document-using-the-java-api}
 
-The following Java code example applies a policy named *Allow Copy* to a Word document named *Loan.doc*. The policy set to which the policy is added is named *Global Policy Set*. The policy-protected document is saved as a DOC file named *PolicyProtectedLoanDoc.doc. *(See [Applying Policies to PDF Documents](/help/forms/developing/protecting-documents-policies.md#applying_policies_to_pdf_documents).)
+The following Java code example applies a policy named *Allow Copy* to a Word document named *Loan.doc*. The policy set to which the policy is added is named *Global Policy Set*. The policy-protected document is saved as a DOC file named *PolicyProtectedLoanDoc.doc. *(See [Applying Policies to PDF Documents](/help/forms/developing/protecting-documents-policies.md#applying-policies-to-pdf-documents).)
 
 ```as3
  /* 
@@ -1640,7 +1640,7 @@ The following Java code example applies a policy named *Allow Copy* to a Word do
 
 ## Quick Start (SOAP mode): Removing a policy from a Word document using the Java API {#quick-start-soap-mode-removing-a-policy-from-a-word-document-using-the-java-api}
 
-The following code example removes a policy from a Word document named *PolicyProtectedLoanDoc.doc*. The unsecured Word document is saved as *unProtectedLoan.doc*. (See [Removing Policies from Word Documents](/help/forms/developing/protecting-documents-policies.md#removing_policies_from_word_documents).)
+The following code example removes a policy from a Word document named *PolicyProtectedLoanDoc.doc*. The unsecured Word document is saved as *unProtectedLoan.doc*. (See [Removing Policies from Word Documents](/help/forms/developing/protecting-documents-policies.md#removing-policies-from-word-documents).)
 
 ```as3
  /* 

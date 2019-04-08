@@ -15,15 +15,15 @@ discoiquuid: 4ec4c674-d7d3-4988-9d77-78d274970672
 
 The following Quick Starts are available for the PDF Utilities service.
 
-[Quick Start (SOAP mode): Converting a PDF document to an XDP document using the Java API](pdf-utilities-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_an_xdp_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PDF document to an XDP document using the Java API](pdf-utilities-service-java-api.md#quick-start-soap-mode-converting-a-pdf-document-to-an-xdp-document-using-the-java-api)
 
-[Quick Start (SOAP mode): Converting an XDP document to a PDF document using the Java API](pdf-utilities-service-java-api.md#quick_start_soap_mode_converting_an_xdp_document_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting an XDP document to a PDF document using the Java API](pdf-utilities-service-java-api.md#quick-start-soap-mode-converting-an-xdp-document-to-a-pdf-document-using-the-java-api)
 
-[Quick Start (SOAP mode): Retrieving PDF document properties using the Java API](pdf-utilities-service-java-api.md#quick_start_soap_mode_retrieving_pdf_document_properties_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving PDF document properties using the Java API](pdf-utilities-service-java-api.md#quick-start-soap-mode-retrieving-pdf-document-properties-using-the-java-api)
 
-[Quick Start (SOAP mode): Setting the save style for a PDF document using the Java API](pdf-utilities-service-java-api.md#quick_start_soap_mode_setting_the_save_style_for_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Setting the save style for a PDF document using the Java API](pdf-utilities-service-java-api.md#quick-start-soap-mode-setting-the-save-style-for-a-pdf-document-using-the-java-api)
 
-[Quick Start (SOAP mode): Sanitizing PDF documents](pdf-utilities-service-java-api.md#quick_start_soap_mode_sanitizing_pdf_documents)
+[Quick Start (SOAP mode): Sanitizing PDF documents](pdf-utilities-service-java-api.md#quick-start-soap-mode-sanitizing-pdf-documents)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -31,7 +31,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Converting a PDF document to an XDP document using the Java API {#quick-start-soap-mode-converting-a-pdf-document-to-an-xdp-document-using-the-java-api}
 
-The following code example converts a PDF document to an XDP document. (See [Converting PDF Documents into XDP Documents](/help/forms/developing/pdf-utilities.md#converting_pdf_documents_into_xdp_documents).
+The following code example converts a PDF document to an XDP document. (See [Converting PDF Documents into XDP Documents](/help/forms/developing/pdf-utilities.md#converting-pdf-documents-into-xdp-documents).
 
 ```as3
  /* 
@@ -132,7 +132,7 @@ The following code example converts a PDF document to an XDP document. (See [Con
 
 ## Quick Start (SOAP mode): Converting an XDP document to a PDF document using the Java API {#quick-start-soap-mode-converting-an-xdp-document-to-a-pdf-document-using-the-java-api}
 
-The following code example converts an XDP document to a PDF document. (See [Converting XDP Documents into PDF Documents](/help/forms/developing/pdf-utilities.md#converting_xdp_documents_into_pdf_documents).)
+The following code example converts an XDP document to a PDF document. (See [Converting XDP Documents into PDF Documents](/help/forms/developing/pdf-utilities.md#converting-xdp-documents-into-pdf-documents).)
 
 ```as3
  /* 
@@ -232,7 +232,7 @@ The following code example converts an XDP document to a PDF document. (See [Con
 
 ## Quick Start (SOAP mode): Retrieving PDF document properties using the Java API {#quick-start-soap-mode-retrieving-pdf-document-properties-using-the-java-api}
 
-The following code example determines whether the document is a PDF document and, if so, the earliest Acrobat version able to read it. (See [Retrieving PDF Document Properties](/help/forms/developing/pdf-utilities.md#retrieving_pdf_document_properties).)
+The following code example determines whether the document is a PDF document and, if so, the earliest Acrobat version able to read it. (See [Retrieving PDF Document Properties](/help/forms/developing/pdf-utilities.md#retrieving-pdf-document-properties).)
 
 ```as3
  /* 
@@ -349,7 +349,7 @@ The following code example determines whether the document is a PDF document and
 
 ## Quick Start (SOAP mode): Setting the save style for a PDF document using the Java API {#quick-start-soap-mode-setting-the-save-style-for-a-pdf-document-using-the-java-api}
 
-The following code example sets the save mode for fast web viewing and then passes the PDF document to the Encryption service where it is encrypted. The encrypted PDF document that is saved for fast web viewing is saved as a PDF file named* FastWebViewLoan.pdf*. (See [Setting PDF Document Save Modes](/help/forms/developing/pdf-utilities.md#setting_pdf_document_save_modes).)
+The following code example sets the save mode for fast web viewing and then passes the PDF document to the Encryption service where it is encrypted. The encrypted PDF document that is saved for fast web viewing is saved as a PDF file named* FastWebViewLoan.pdf*. (See [Setting PDF Document Save Modes](/help/forms/developing/pdf-utilities.md#setting-pdf-document-save-modes).)
 
 ```as3
  /* 
@@ -489,7 +489,7 @@ The following code example sets the save mode for fast web viewing and then pass
 
 ## Quick Start (SOAP mode): Converting a document to a PDF/A-2b document using the Java API {#quick-start-soap-mode-converting-a-document-to-a-pdf-a-2b-document-using-the-java-api}
 
-The following Java code example converts a PDF document named *Loan.pdf* to a PDF/A-2b document that is saved as a PDF file named *LoanArchive.pdf*. (See [Converting Documents to PDF/A Documents](/help/forms/developing/pdf-a-documents.md#converting_documents_to_pdf_a_documents).)
+The following Java code example converts a PDF document named *Loan.pdf* to a PDF/A-2b document that is saved as a PDF file named *LoanArchive.pdf*. (See [Converting Documents to PDF/A Documents](/help/forms/developing/pdf-a-documents.md#converting-documents-to-pdf-a-documents).)
 
 ```as3
 /* 

@@ -118,10 +118,10 @@ Do the following to create form data model:
 Configuring form data model includes:
 
 * [adding data model objects and services](../../forms/using/create-form-data-model0.md#add-data-model-objects-and-services)
-* [creating computed child properties for data model object](/content.md#main-pars_header_72155927)
-* [adding associations between data model objects](/content.md#main-pars_header_1093081045)
-* [editing data model object properties](/content.md#main-pars_header_1673827991)
-* [configuring services for data model objects](/content.md#main-pars_header_599411965)
+* [creating computed child properties for data model object](/content.md#main-pars-header-72155927)
+* [adding associations between data model objects](/content.md#main-pars-header-1093081045)
+* [editing data model object properties](/content.md#main-pars-header-1673827991)
+* [configuring services for data model objects](/content.md#main-pars-header-599411965)
 
 ### Add data model objects and services {#add-data-model-objects-and-services}
 

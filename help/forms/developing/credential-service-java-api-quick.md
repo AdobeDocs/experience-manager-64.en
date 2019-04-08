@@ -15,9 +15,9 @@ discoiquuid: b624e255-ae71-4d9c-8554-d48f3e77b799
 
 Java API Quick Start(SOAP) is available for the Credential service.
 
-[Quick Start (SOAP mode): Importing credentials using the Java API](credential-service-java-api-quick.md#quick_start_soap_mode_importing_credentials_using_the_java_api)
+[Quick Start (SOAP mode): Importing credentials using the Java API](credential-service-java-api-quick.md#quick-start-soap-mode-importing-credentials-using-the-java-api)
 
-[Quick Start (SOAP mode): Deleting credentials using the Java API](credential-service-java-api-quick.md#quick_start_soap_mode_deleting_credentials_using_the_java_api)
+[Quick Start (SOAP mode): Deleting credentials using the Java API](credential-service-java-api-quick.md#quick-start-soap-mode-deleting-credentials-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -27,7 +27,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Importing credentials using the Java API {#quick-start-soap-mode-importing-credentials-using-the-java-api}
 
-The following code example imports a credential based on a file named *cred.p12*. The alias value used to import the credential is `Secure`. (See [Importing Credentials by using the Trust Manager API](/help/forms/developing/credentials.md#importing_credentials_by_using_the_trust_manager_api).)
+The following code example imports a credential based on a file named *cred.p12*. The alias value used to import the credential is `Secure`. (See [Importing Credentials by using the Trust Manager API](/help/forms/developing/credentials.md#importing-credentials-by-using-the-trust-manager-api).)
 
 ```as3
  /* 
@@ -128,7 +128,7 @@ The following code example imports a credential based on a file named *cred.p12*
 
 ## Quick Start (SOAP mode): Deleting credentials using the Java API {#quick-start-soap-mode-deleting-credentials-using-the-java-api}
 
-The following code example deletes a credential based on an alias value *secure*. (See [Deleting Credentials by using the Trust Manager API](/help/forms/developing/credentials.md#deleting_credentials_by_using_the_trust_manager_api).)
+The following code example deletes a credential based on an alias value *secure*. (See [Deleting Credentials by using the Trust Manager API](/help/forms/developing/credentials.md#deleting-credentials-by-using-the-trust-manager-api).)
 
 ```as3
  /* 

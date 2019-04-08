@@ -117,7 +117,7 @@ The code that you add is appended to the analytics.sitecatalyst.js file. Therefo
 
 `s.prop10= 'CONSTANT';`
 
-The code in the [analytics.sitecatalyst.js](../../../sites/developing/using/extending-analytics-components.md#includingthesitecatalystmoduleinapagecomponent) file (which includes the content of the Adobe Analytics `s_code.js` file) contains the following code:
+The code in the [analytics.sitecatalyst.js](../../../sites/developing/using/extending-analytics-components.md#includingthesitecatalystmoduleinapagecomponent) file (which includes the content of the Adobe Analytics `s-code.js` file) contains the following code:
 
 `if (s.usePlugins) s.doPlugins(s)`
 

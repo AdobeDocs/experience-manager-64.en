@@ -43,7 +43,7 @@ This DDX document merges two PDF documents named *map.pdf* and* directions.pdf* 
 
 >[!NOTE]
 >
->Before reading this section, it is recommended that you be familiar with assembling PDF documents using the Assembler service. This section does not discuss the concepts, such as creating a collection object that contains input documents, or extracting the results from the returned collection object. (See [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents).)
+>Before reading this section, it is recommended that you be familiar with assembling PDF documents using the Assembler service. This section does not discuss the concepts, such as creating a collection object that contains input documents, or extracting the results from the returned collection object. (See [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents).)
 
 >[!NOTE]
 >
@@ -105,19 +105,19 @@ The Assembler service returns a collection object that contains the job results.
 
 >[!NOTE]
 >
->A collection object is returned if you invoke the `invokeDDX` operation. This operation is used when passing two or more input PDF documents to the Assembler service. However if you pass only one input PDF document to the Assembler service, you should invoke the `invokeOneDocument` operation. For information about using this operation, see [Assembling Encrypted PDF Documents](/help/forms/developing/assembling-encrypted-pdf-documents-assembling assembling-encrypted-pdf-documents-assembling.md#assembling_encrypted_pdf_documents).
+>A collection object is returned if you invoke the `invokeDDX` operation. This operation is used when passing two or more input PDF documents to the Assembler service. However if you pass only one input PDF document to the Assembler service, you should invoke the `invokeOneDocument` operation. For information about using this operation, see [Assembling Encrypted PDF Documents](/help/forms/developing/assembling-encrypted-pdf-documents-assembling assembling-encrypted-pdf-documents-assembling.md#assembling-encrypted-pdf-documents).
 
 **See also**
 
-[Assemble documents with Bates numbering using the Java API](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assemble_documents_with_bates_numbering_using_the_java_api)
+[Assemble documents with Bates numbering using the Java API](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assemble-documents-with-bates-numbering-using-the-java-api)
 
-[Assemble documents with Bates numbering using the web service API](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assemble_documents_with_bates_numbering_using_the_web_service_api)
+[Assemble documents with Bates numbering using the web service API](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assemble-documents-with-bates-numbering-using-the-web-service-api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
 ## Assemble documents with Bates numbering using the Java API {#assemble-documents-with-bates-numbering-using-the-java-api}
 
@@ -172,7 +172,7 @@ Assemble a PDF document that uses unique page identifiers (Bates numbering) by u
 
 **See also**
 
-[Assembling Documents Using Bates Numbering](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assembling_documents_using_bates_numbering)
+[Assembling Documents Using Bates Numbering](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assembling-documents-using-bates-numbering)
 
 [Quick Start (SOAP mode): Assembling a PDF document with bates numbering using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fa8.2)
 
@@ -251,7 +251,7 @@ Assemble a PDF document that uses unique page identifiers (Bates numbering) by u
 
 **See also**
 
-[Assembling Documents Using Bates Numbering](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assembling_documents_using_bates_numbering)
+[Assembling Documents Using Bates Numbering](/help/forms/developing/assembling-documents-using-bates-numbering assembling-documents-using-bates-numbering.md#assembling-documents-using-bates-numbering)
 
 [Quick Start (MTOM): Assembling a PDF document with bates numbering using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fa7.2)
 

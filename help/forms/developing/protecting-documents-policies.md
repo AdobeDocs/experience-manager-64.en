@@ -27,25 +27,25 @@ The Document Security service also protects other file types such as Microsoft W
 
 For clarity, the following two sections discuss how to work with Word documents:
 
-* [Applying Policies to Word Documents](protecting-documents-policies.md#applying_policies_to_word_documents)
-* [Removing Policies from Word Documents](protecting-documents-policies.md#removing_policies_from_word_documents)
+* [Applying Policies to Word Documents](protecting-documents-policies.md#applying-policies-to-word-documents)
+* [Removing Policies from Word Documents](protecting-documents-policies.md#removing-policies-from-word-documents)
 
 You can accomplish these tasks using the Document Security service:
 
-* Create policies. For information, see [Creating Policies](protecting-documents-policies.md#creating_policies).
-* Modify policies. For information, see [Modifying Policies](protecting-documents-policies.md#modifying_policies).
-* Delete policies. For information, see [Deleting Policies](protecting-documents-policies.md#deleting_policies).
-* Apply policies to PDF documents. For information, see [Applying Policies to PDF Documents](protecting-documents-policies.md#applying_policies_to_pdf_documents).
-* Remove policies from PDF documents. For information, see [Removing Policies from PDF Documents](protecting-documents-policies.md#removing_policies_from_pdf_documents).
-* Inspect policy-protected documents. For information, see [Inspecting Policy Protected PDF Documents](protecting-documents-policies.md#inspecting_policy_protected_pdf_documents).
-* Revoke access to PDF documents. For information, see [Revoking Access to Documents](protecting-documents-policies.md#revoking_access_to_documents).
-* Reinstate access to revoked documents. For information, see [Reinstating Access to Revoked Documents](protecting-documents-policies.md#reinstating_access_to_revoked_documents).
-* Create watermarks. For information, see [Creating Watermarks](protecting-documents-policies.md#creating_watermarks).
-* Search for events. For information, see [Searching for Events](protecting-documents-policies.md#searching_for_events).
+* Create policies. For information, see [Creating Policies](protecting-documents-policies.md#creating-policies).
+* Modify policies. For information, see [Modifying Policies](protecting-documents-policies.md#modifying-policies).
+* Delete policies. For information, see [Deleting Policies](protecting-documents-policies.md#deleting-policies).
+* Apply policies to PDF documents. For information, see [Applying Policies to PDF Documents](protecting-documents-policies.md#applying-policies-to-pdf-documents).
+* Remove policies from PDF documents. For information, see [Removing Policies from PDF Documents](protecting-documents-policies.md#removing-policies-from-pdf-documents).
+* Inspect policy-protected documents. For information, see [Inspecting Policy Protected PDF Documents](protecting-documents-policies.md#inspecting-policy-protected-pdf-documents).
+* Revoke access to PDF documents. For information, see [Revoking Access to Documents](protecting-documents-policies.md#revoking-access-to-documents).
+* Reinstate access to revoked documents. For information, see [Reinstating Access to Revoked Documents](protecting-documents-policies.md#reinstating-access-to-revoked-documents).
+* Create watermarks. For information, see [Creating Watermarks](protecting-documents-policies.md#creating-watermarks).
+* Search for events. For information, see [Searching for Events](protecting-documents-policies.md#searching-for-events).
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63). For examples of working with policies, see the “Document Security Service API Quick Starts” in [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63). For examples of working with policies, see the “Document Security Service API Quick Starts” in [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples).
 
 ## Creating Policies {#creating-policies}
 
@@ -157,7 +157,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar
 * jbossall-client.jar (use a different JAR file if AEM Forms is not deployed on JBoss)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create a Document Security Client API object**
 
@@ -253,7 +253,7 @@ Create a policy by using the Document Security API (Java):
    >
    >When creating a policy, reference an existing policy set. If you specify a policy set that does not exist, then an exception is thrown.
 
-For code examples using the Document Security service, see the following Quick Starts in *[API Quick Starts (Code Examples)](programming-with-aem-forms.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in *[API Quick Starts (Code Examples)](programming-with-aem-forms.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP mode): Creating a policy using the Java API”
 
@@ -311,7 +311,7 @@ Create a policy by using the Document Security API (web service):
    >
    >When creating a policy and you specify a policy set, ensure that you specify an existing policy set. If you specify a policy set that does not exist, then an exception is thrown.
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Creating a policy using the web service API”
 * “Quick Start (SwaRef): Creating a policy using the web service API”
@@ -395,7 +395,7 @@ Modify an existing policy by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see theQuick Start(SOAP mode): Modifying a policy using the Java API in *[API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*.
+For code examples using the Document Security service, see theQuick Start(SOAP mode): Modifying a policy using the Java API in *[API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*.
 
 ### Modify existing policies using the web service API {#modify-existing-policies-using-the-web-service-api}
 
@@ -440,7 +440,7 @@ Modify an existing policy by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Modifying a policy using the web service API”
 * “Quick Start (SwaRef): Modifying a policy using the web service API”
@@ -496,7 +496,7 @@ Delete a policy by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP mode): Deleting a policy using the Java API”
 
@@ -535,7 +535,7 @@ Delete a policy by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Deleting a policy using the web service API”
 * “Quick Start (SwaRef): Deleting a policy using the web service API”
@@ -584,11 +584,11 @@ After the Document Security service applies a policy to a PDF document, you can 
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Revoking Access to Documents](protecting-documents-policies.md#revoking_access_to_documents)
+[Revoking Access to Documents](protecting-documents-policies.md#revoking-access-to-documents)
 
 ### Apply a policy to a PDF document using the Java API {#apply-a-policy-to-a-pdf-document-using-the-java-api}
 
@@ -631,14 +631,14 @@ Apply a policy to a PDF document by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (EJB mode): Applying a policy to a PDF document using the Java API”
 * “Quick Start (SOAP mode): Applying a policy to a PDF document using the Java API”
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -702,7 +702,7 @@ Apply a policy to a PDF document by using the Document Security API (web service
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Applying a policy to a PDF document using the web service API”
 * “Quick Start (SwaRef): Applying a policy to a PDF document using the web service API ”
@@ -747,11 +747,11 @@ After the Document Security service removes a policy from a PDF document, you ca
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Applying Policies to PDF Documents](protecting-documents-policies.md#applying_policies_to_pdf_documents)
+[Applying Policies to PDF Documents](protecting-documents-policies.md#applying-policies-to-pdf-documents)
 
 ### Remove a policy from a PDF document using the Java API {#remove-a-policy-from-a-pdf-document-using-the-java-api}
 
@@ -783,7 +783,7 @@ Remove a policy from a policy-protected PDF document by using the Document Secur
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP mode): Removing a policy from a PDF document using the Java API”
 
@@ -833,16 +833,16 @@ Remove a policy from a policy-protected PDF document using the Document Security
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Removing a policy from a PDF document using the web service API ”
 * “Quick Start (SwaRef): Removing a policy from a PDF document using the web service API”
 
 **See also**
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
 
 ## Revoking Access to Documents {#revoking-access-to-documents}
 
@@ -887,13 +887,13 @@ To revoke a policy-protected document, specify the license identifier of the pol
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Applying Policies to PDF Documents](protecting-documents-policies.md#applying_policies_to_pdf_documents)
+[Applying Policies to PDF Documents](protecting-documents-policies.md#applying-policies-to-pdf-documents)
 
-[Reinstating Access to Revoked Documents](protecting-documents-policies.md#reinstating_access_to_revoked_documents)
+[Reinstating Access to Revoked Documents](protecting-documents-policies.md#reinstating-access-to-revoked-documents)
 
 ### Revoke access to documents using the Java API {#revoke-access-to-documents-using-the-java-api}
 
@@ -926,7 +926,7 @@ Revoke access to a policy-protected PDF document by using the Document Security 
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP mode): Revoking a document using the Java API”
 
@@ -975,18 +975,18 @@ Revoke access to a policy-protected PDF document by using the Document Security 
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Revoking a document using the web service API”
 * “Quick Start (SwaRef): Revoking a document using the web service API”
 
 **See also**
 
-[Removing Policies from Word Documents](protecting-documents-policies.md#removing_policies_from_word_documents)
+[Removing Policies from Word Documents](protecting-documents-policies.md#removing-policies-from-word-documents)
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
 
 ## Reinstating Access to Revoked Documents {#reinstating-access-to-revoked-documents}
 
@@ -1023,13 +1023,13 @@ To reinstate access to a revoked PDF document, you must specify the license iden
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Applying Policies to PDF Documents](protecting-documents-policies.md#applying_policies_to_pdf_documents)
+[Applying Policies to PDF Documents](protecting-documents-policies.md#applying-policies-to-pdf-documents)
 
-[Revoking Access to Documents](protecting-documents-policies.md#revoking_access_to_documents)
+[Revoking Access to Documents](protecting-documents-policies.md#revoking-access-to-documents)
 
 ### Reinstate access to revoked documents using the Java API {#reinstate-access-to-revoked-documents-using-the-java-api}
 
@@ -1058,7 +1058,7 @@ Reinstate access to a revoked document by using the Document Security API (Java)
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP mode): Reinstating access to a revoked document using the web service API”
 
@@ -1103,16 +1103,16 @@ Reinstate access to a revoked document using the Document Security API (web serv
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Reinstating access to a revoked document using the web service API”
 * “Quick Start (SwaRef): Reinstating access to a revoked document using the web service API”
 
 **See also**
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
 
 ## Inspecting Policy Protected PDF Documents {#inspecting-policy-protected-pdf-documents}
 
@@ -1159,7 +1159,7 @@ If the document is secured using a policy that is contained in a policy set (oth
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1169,7 +1169,7 @@ Inspect a policy-protected PDF document by using the Document Security Service A
 
 1. Include project files.
 
-   Include client JAR files, such as the adobe-rightsmanagement-client.jar, in your Java project’s class path. For information about the location of these files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+   Include client JAR files, such as the adobe-rightsmanagement-client.jar, in your Java project’s class path. For information about the location of these files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 1. Create a Document Security Client API object.
 
@@ -1192,7 +1192,7 @@ Inspect a policy-protected PDF document by using the Document Security Service A
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP mode): Inspecting policy protected PDF documents using the Java API”
 
@@ -1240,16 +1240,16 @@ Inspect a policy-protected PDF document by using the Document Security Service A
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Inspecting policy protected PDF documents using the web service API”
 * “Quick Start (SwaRef): Inspecting policy protected PDF documents using the web service API”
 
 **See also**
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
 
 ## Creating Watermarks {#creating-watermarks}
 
@@ -1378,11 +1378,11 @@ A new watermark must be registered with the Document Security service before it 
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Applying Policies to PDF Documents](protecting-documents-policies.md#applying_policies_to_pdf_documents)
+[Applying Policies to PDF Documents](protecting-documents-policies.md#applying-policies-to-pdf-documents)
 
 ### Create watermarks using the Java API {#create-watermarks-using-the-java-api}
 
@@ -1412,7 +1412,7 @@ Create a watermark by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP mode): Creating a watermark using the Java API”
 
@@ -1459,16 +1459,16 @@ Create a watermark by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Creating a watermark using the web service API”
 * “Quick Start (SwaRef): Creating a watermark using the web service API”
 
 **See also**
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
 
 ## Modifying Watermarks {#modifying-watermarks}
 
@@ -1516,7 +1516,7 @@ To modify an existing watermark, change the value of one or more watermark attri
 
 >[!NOTE]
 >
->For information about the watermark attribute names, see [Creating Watermarks](protecting-documents-policies.md#creating_watermarks).
+>For information about the watermark attribute names, see [Creating Watermarks](protecting-documents-policies.md#creating-watermarks).
 
 **Update the watermark**
 
@@ -1524,11 +1524,11 @@ After you modify a watermark’s attributes, you must update the watermark.
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Creating Watermarks](protecting-documents-policies.md#creating_watermarks)
+[Creating Watermarks](protecting-documents-policies.md#creating-watermarks)
 
 ### Modify watermarks using the Java API {#modify-watermarks-using-the-java-api}
 
@@ -1561,7 +1561,7 @@ Modify a watermark by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the Quick Start(SOAP mode): Modifying a watermark using the Java API in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*
+For code examples using the Document Security service, see the Quick Start(SOAP mode): Modifying a watermark using the Java API in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*
 
 ### Modify watermarks using the web service API {#modify-watermarks-using-the-web-service-api}
 
@@ -1607,7 +1607,7 @@ Modify a watermark by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Modifying a watermark using the web service API”
 
@@ -1655,7 +1655,7 @@ After you specify the event to search for, you can use either the Rights Managem
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1687,7 +1687,7 @@ Search for events by using the Rights Management API (Java):
 
 **Code examples**
 
-For code examples using the Rights Management service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Rights Management service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP): Searching for events using the Java API”
 
@@ -1931,16 +1931,16 @@ Search for events by using the Rights Management API (web service):
 
 **Code examples**
 
-For code examples using the Rights Management service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Rights Management service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Searching for events using the web service API”
 * “Quick Start (SwaRef): Searching for events using the web service API”
 
 **See also**
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
 
 ## Applying Policies to Word Documents {#applying-policies-to-word-documents}
 
@@ -1984,11 +1984,11 @@ After the Document Security service applies a policy to a Word document, you can
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Revoking Access to Documents](protecting-documents-policies.md#revoking_access_to_documents)
+[Revoking Access to Documents](protecting-documents-policies.md#revoking-access-to-documents)
 
 ### Apply a policy to a Word document using the Java API {#apply-a-policy-to-a-word-document-using-the-java-api}
 
@@ -2031,7 +2031,7 @@ Apply a policy to a Word document by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP mode): Applying a policy to a Word document using the Java API”
 
@@ -2095,7 +2095,7 @@ Apply a policy to a Word document by using the Document Security API (web servic
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Applying a policy to a Word document using the web service API ”
 
@@ -2139,11 +2139,11 @@ After the Document Security service removes a policy from a Word document, you c
 
 **See also**
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Applying Policies to Word Documents](protecting-documents-policies.md#applying_policies_to_word_documents)
+[Applying Policies to Word Documents](protecting-documents-policies.md#applying-policies-to-word-documents)
 
 ### Remove a policy from a Word document using the Java API {#remove-a-policy-from-a-word-document-using-the-java-api}
 
@@ -2175,7 +2175,7 @@ Remove a policy from a policy-protected Word document by using the Document Secu
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (SOAP mode): Removing a policy from a Word document using the Java API ”
 
@@ -2225,10 +2225,10 @@ Remove a policy from a policy-protected Word document by using the Document Secu
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in *[API Quick Starts (Code Examples)](/help/forms/developing/.md#java_api_soap_quick_start_code_examples)*:
+For code examples using the Document Security service, see the following Quick Start in *[API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
 
 * “Quick Start (MTOM): Removing a policy from a Word document using the web service API”
 
 **See also**
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

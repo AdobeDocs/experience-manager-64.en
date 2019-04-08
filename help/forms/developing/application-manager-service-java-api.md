@@ -15,9 +15,9 @@ discoiquuid: 12da2a9b-4009-496e-953f-c2ae0352f59f
 
 Java API Quick Start(SOAP) is available for the Application Manager service.
 
-[Quick Start: Deploying applications using the Java API(SOAP)](application-manager-service-java-api.md#quick_start_soap_mode_deploying_applications_using_the_java_api)
+[Quick Start: Deploying applications using the Java API(SOAP)](application-manager-service-java-api.md#quick-start-soap-mode-deploying-applications-using-the-java-api)
 
-[Quick Start: Removing an application using the Java API(SOAP)](application-manager-service-java-api.md#quick_start_soap_mode_removing_an_application_using_the_java_api)
+[Quick Start: Removing an application using the Java API(SOAP)](application-manager-service-java-api.md#quick-start-soap-mode-removing-an-application-using-the-java-api)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ AEM Forms operations can be performed using the AEM Forms strongly typed API and
 
 ## Quick Start (SOAP mode): Deploying Applications using the Java API {#quick-start-soap-mode-deploying-applications-using-the-java-api}
 
-The following Java code example imports an application based on an existing LCA file named *EncryptDocument.lca*. (See [Deploying applications](/help/forms/developing/processes-tasks.md#deploying_applications).)
+The following Java code example imports an application based on an existing LCA file named *EncryptDocument.lca*. (See [Deploying applications](/help/forms/developing/processes-tasks.md#deploying-applications).)
 
 ```as3
  /* 
@@ -131,7 +131,7 @@ The following Java code example imports an application based on an existing LCA 
 
 ## Quick Start (SOAP mode): Removing an application using the Java API {#quick-start-soap-mode-removing-an-application-using-the-java-api}
 
-The following Java code example removes an application named *EncryptDocument*. (See [Removing Applications](/help/forms/developing/processes-tasks.md#removing_applications).)
+The following Java code example removes an application named *EncryptDocument*. (See [Removing Applications](/help/forms/developing/processes-tasks.md#removing-applications).)
 
 ```as3
  /* 

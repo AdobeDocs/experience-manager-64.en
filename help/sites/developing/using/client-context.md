@@ -139,9 +139,9 @@ Session stores are either created and available during a browser session, or are
 
 The API also provides extensions of these classes that are specialized for storing JSON data or JSONP data:
 
-* Session-only objects: [CQ_Analytics.JSONStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-jsonstore) and [CQ_Analytics.JSONPStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-jsonpstore).
+* Session-only objects: [CQ_Analytics.JSONStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-jsonstore) and [CQ-Analytics.JSONPStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-jsonpstore).
 
-* Persisted objects: [CQ_Analytics.PersistedJSONStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-persistedjsonstore) and [CQ_Analytics.PersistedJSONPStore](../../../sites/developing/using/ccjsapi.md#cq-analyics-persistedjsonpstore).
+* Persisted objects: [CQ_Analytics.PersistedJSONStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-persistedjsonstore) and [CQ-Analytics.PersistedJSONPStore](../../../sites/developing/using/ccjsapi.md#cq-analyics-persistedjsonpstore).
 
 #### Creating the Session Store Object {#creating-the-session-store-object}
 
@@ -328,7 +328,7 @@ Use javascript to interact with session stores.
 
 ### Accessing Session Stores {#accessing-session-stores}
 
-Obtain a session store object to read or write data to the store. [CQ_Analytics.ClientContextMgr](../../../sites/developing/using/ccjsapi.md#cq-analytics-clientcontextmgr) provides access to stores based on the store name. Once obtained, use the methods of the [CQ_Analytics.SessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) or [CQ_Analytics.PersistedSessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-persistedsessionstore) to interact with store data.
+Obtain a session store object to read or write data to the store. [CQ_Analytics.ClientContextMgr](../../../sites/developing/using/ccjsapi.md#cq-analytics-clientcontextmgr) provides access to stores based on the store name. Once obtained, use the methods of the [CQ-Analytics.SessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) or [CQ-Analytics.PersistedSessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-persistedsessionstore) to interact with store data.
 
 The following example obtains the `profile` store and then retrieves the `formattedName` property from the store.
 

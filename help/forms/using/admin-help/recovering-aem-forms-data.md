@@ -56,7 +56,7 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
     * [Microsoft SQL Server Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403623)
     * [DB2 Backup and Recovery for AEM forms](https://www.adobe.com/go/kb403626)
 
-1. Recover the GDS directory by first deleting the contents of the GDS directory on the existing installation of AEM forms and then copying the contents of the GDS directory from the backed-up GDS. If you changed the GDS directory location, see [Changing the GDS location during recovery](recovering-aem-forms-data.md#changing_the_gds_location_during_recovery).
+1. Recover the GDS directory by first deleting the contents of the GDS directory on the existing installation of AEM forms and then copying the contents of the GDS directory from the backed-up GDS. If you changed the GDS directory location, see [Changing the GDS location during recovery](recovering-aem-forms-data.md#changing-the-gds-location-during-recovery).
 1. Rename the GDS backup directory to be restored as shown in these examples:
 
    >[!NOTE]
@@ -122,7 +122,7 @@ If your GDS is restored to a location other than where it was originally, run th
 
 ## Recovering the GDS to a clustered environment {#recovering-the-gds-to-a-clustered-environment}
 
-To change the GDS location in a clustered environment, shut down the entire cluster and run the LCSetGDS script on a single node of the cluster. (See [Changing the GDS location during recovery](recovering-aem-forms-data.md#changing_the_gds_location_during_recovery).) Start only that node. When that node is fully started, other nodes in the cluster may be started safely and will correctly point at the new GDS.
+To change the GDS location in a clustered environment, shut down the entire cluster and run the LCSetGDS script on a single node of the cluster. (See [Changing the GDS location during recovery](recovering-aem-forms-data.md#changing-the-gds-location-during-recovery).) Start only that node. When that node is fully started, other nodes in the cluster may be started safely and will correctly point at the new GDS.
 
 >[!NOTE]
 >

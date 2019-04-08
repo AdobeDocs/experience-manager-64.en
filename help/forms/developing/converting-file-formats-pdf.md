@@ -79,7 +79,7 @@ This section describes how you can use the Generate PDF API to programmatically 
 
 >[!NOTE]
 >
->For more information about additional file formats, see [Adding Support for Additional Native File Formats](converting-file-formats-pdf.md#adding_support_for_additional_native_file_formats).
+>For more information about additional file formats, see [Adding Support for Additional Native File Formats](converting-file-formats-pdf.md#adding-support-for-additional-native-file-formats).
 
 >[!NOTE]
 >
@@ -117,15 +117,15 @@ After the file is converted to a PDF document, you can retrieve the results. For
 
 **See also**
 
-[Convert Word documents to PDF documents using the Java API](converting-file-formats-pdf.md#convert_word_documents_to_pdf_documents_using_the_java_api)
+[Convert Word documents to PDF documents using the Java API](converting-file-formats-pdf.md#convert-word-documents-to-pdf-documents-using-the-java-api)
 
-[Convert Word documents to PDF documents using the web service API](converting-file-formats-pdf.md#convert_word_documents_to_pdf_documents_using_the_web_service_api)
+[Convert Word documents to PDF documents using the web service API](converting-file-formats-pdf.md#convert-word-documents-to-pdf-documents-using-the-web-service-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Generate PDF Service API Quick Starts](/help/forms/developing/generate-pdf-service-java-api.md#generate_pdf_service_java_api_quick_start_soap)
+[Generate PDF Service API Quick Starts](/help/forms/developing/generate-pdf-service-java-api.md#generate-pdf-service-java-api-quick-start-soap)
 
 ### Convert Word documents to PDF documents using the Java API {#convert-word-documents-to-pdf-documents-using-the-java-api}
 
@@ -173,11 +173,11 @@ Convert a Microsoft Word document to a PDF document by using the Generate PDF AP
 
 **See also**
 
-[Summary of steps](converting-file-formats-pdf.md#summary_of_steps)
+[Summary of steps](converting-file-formats-pdf.md#summary-of-steps)
 
-[Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_a_microsoft_word_document_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick-start-soap-mode-converting-a-microsoft-word-document-to-a-pdf-document-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -237,15 +237,15 @@ Convert a Microsoft Word document to a PDF document by using the Generate PDF AP
 
 **See also**
 
-[Summary of steps](converting-file-formats-pdf.md#summary_of_steps)
+[Summary of steps](converting-file-formats-pdf.md#summary-of-steps)
 
 [Quick Start (MTOM): Converting a Microsoft Word document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7de0.2)
 
 [Quick Start (SwaRef): Converting a Microsoft Word document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd0.2)
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
 
 ## Converting HTML Documents to PDF Documents {#converting-html-documents-to-pdf-documents}
 
@@ -287,15 +287,15 @@ After the HTML content is converted to a PDF document, you can retrieve the resu
 
 **See also**
 
-[Convert HTML content to a PDF document using the Java API](converting-file-formats-pdf.md#convert_html_content_to_a_pdf_document_using_the_java_api)
+[Convert HTML content to a PDF document using the Java API](converting-file-formats-pdf.md#convert-html-content-to-a-pdf-document-using-the-java-api)
 
-[Convert HTML content to a PDF document using the web service API](converting-file-formats-pdf.md#convert_html_content_to_a_pdf_document_using_the_web_service_api)
+[Convert HTML content to a PDF document using the web service API](converting-file-formats-pdf.md#convert-html-content-to-a-pdf-document-using-the-web-service-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Generate PDF Service API Quick Starts](/help/forms/developing/generate-pdf-service-java-api.md#generate_pdf_service_java_api_quick_start_soap)
+[Generate PDF Service API Quick Starts](/help/forms/developing/generate-pdf-service-java-api.md#generate-pdf-service-java-api-quick-start-soap)
 
 ### Convert HTML content to a PDF document using the Java API {#convert-html-content-to-a-pdf-document-using-the-java-api}
 
@@ -332,13 +332,13 @@ Convert an HTML document to a PDF document using the Generate PDF API (Java):
 
 **See also**
 
-[Converting HTML Documents to PDF Documents](converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents)
+[Converting HTML Documents to PDF Documents](converting-file-formats-pdf.md#converting-html-documents-to-pdf-documents)
 
 [Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7ddb.2)
 
-[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick-start-soap-mode-converting-html-content-to-a-pdf-document-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -391,15 +391,15 @@ Convert HTML content to a PDF document by using the Generate PDF API (web servic
 
 **See also**
 
-[Converting HTML Documents to PDF Documents](converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents)
+[Converting HTML Documents to PDF Documents](converting-file-formats-pdf.md#converting-html-documents-to-pdf-documents)
 
 [Quick Start (MTOM): Converting an HTML document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd9.2)
 
 [Quick Start (SwaRef): Converting an HTML document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dcb.2)
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
 
 ## Converting PDF Documents to Non-image Formats {#converting-pdf-documents-to-non-image-formats}
 
@@ -441,15 +441,15 @@ Save the converted file. For example, if you convert a PDF document to an RTF fi
 
 **See also**
 
-[Convert a PDF document to a RTF file using the Java API](converting-file-formats-pdf.md#convert_a_pdf_document_to_a_rtf_file_using_the_java_api)
+[Convert a PDF document to a RTF file using the Java API](converting-file-formats-pdf.md#convert-a-pdf-document-to-a-rtf-file-using-the-java-api)
 
-[Convert a PDF document to a RTF file using the web service API](converting-file-formats-pdf.md#convert_a_pdf_document_to_a_rtf_file_using_the_web_service_api)
+[Convert a PDF document to a RTF file using the web service API](converting-file-formats-pdf.md#convert-a-pdf-document-to-a-rtf-file-using-the-web-service-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Generate PDF Service API Quick Starts](/help/forms/developing/generate-pdf-service-java-api.md#generate_pdf_service_java_api_quick_start_soap)
+[Generate PDF Service API Quick Starts](/help/forms/developing/generate-pdf-service-java-api.md#generate-pdf-service-java-api-quick-start-soap)
 
 ### Convert a PDF document to a RTF file using the Java API {#convert-a-pdf-document-to-a-rtf-file-using-the-java-api}
 
@@ -489,11 +489,11 @@ Convert a PDF document to an RTF file by using the Generate PDF API (Java):
 
 **See also**
 
-[Summary of steps](converting-file-formats-pdf.md#summary_of_steps)
+[Summary of steps](converting-file-formats-pdf.md#summary-of-steps)
 
-[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick-start-soap-mode-converting-html-content-to-a-pdf-document-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -550,15 +550,15 @@ Convert a PDF document to an RTF file by using the Generate PDF API (web service
 
 **See also**
 
-[Summary of steps](converting-file-formats-pdf.md#summary_of_steps)
+[Summary of steps](converting-file-formats-pdf.md#summary-of-steps)
 
 [Quick Start (MTOM): Converting a PDF document to an RTF file using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd6.2)
 
 [Quick Start (SwaRef): Converting a PDF document to an RTF file using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dc5.2)
 
-[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
 
 ## Adding Support for Additional Native File Formats {#adding-support-for-additional-native-file-formats}
 
@@ -613,12 +613,12 @@ This table lists the type of information used in printing native file formats.
   <tr> 
    <td class="cellrowborder" headers="d19e41054 " valign="top" width="NaN%"><p>Administrative settings </p></td> 
    <td class="cellrowborder" headers="d19e41057 " valign="top" width="NaN%"><p>Includes PDF settings, security settings, and file type settings. </p><p>File type settings associate file name extensions with the corresponding native applications. File type settings also specify native application settings used to print native files. </p></td> 
-   <td class="cellrowborder" headers="d19e41060 " valign="top" width="NaN%"><p>To change settings for an already supported native application, the system administrator sets the File Type Settings in the administration console. </p><p>To add support for a new native file format, you must manually edit the file. (See <a href="converting-file-formats-pdf.md#adding_or_modifying_support_for_a_native_file_format">Adding or modifying support for a native file format</a>.) </p></td> 
+   <td class="cellrowborder" headers="d19e41060 " valign="top" width="NaN%"><p>To change settings for an already supported native application, the system administrator sets the File Type Settings in the administration console. </p><p>To add support for a new native file format, you must manually edit the file. (See <a href="converting-file-formats-pdf.md#adding-or-modifying-support-for-a-native-file-format">Adding or modifying support for a native file format</a>.) </p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e41054 " valign="top" width="NaN%"><p>Script </p></td> 
    <td class="cellrowborder" headers="d19e41057 " valign="top" width="NaN%"><p>Specifies interactions between the Generate PDF service and a native application. Such interactions usually direct the application to print a file to the Adobe PDF driver. </p><p>The script contains instructions that direct the native application to open specific dialog boxes and that supply specific responses to fields and buttons in those dialog boxes. </p></td> 
-   <td class="cellrowborder" headers="d19e41060 " valign="top" width="NaN%"><p>The Generate PDF service includes script files for all supported native applications. You can modify these files using an XML editing application.</p><p>To add support for a new native application, you must create a new script file. (See <a href="converting-file-formats-pdf.md#creating_or_modifying_an_additional_dialog_xml_file_for_a_native_application">Creating or modifying an additional dialog XML file for a native application</a>.) </p></td> 
+   <td class="cellrowborder" headers="d19e41060 " valign="top" width="NaN%"><p>The Generate PDF service includes script files for all supported native applications. You can modify these files using an XML editing application.</p><p>To add support for a new native application, you must create a new script file. (See <a href="converting-file-formats-pdf.md#creating-or-modifying-an-additional-dialog-xml-file-for-a-native-application">Creating or modifying an additional dialog XML file for a native application</a>.) </p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e41054 " valign="top" width="NaN%"><p>Generic dialog box instructions </p></td> 
@@ -633,7 +633,7 @@ This table lists the type of information used in printing native file formats.
   <tr> 
    <td class="cellrowborder" headers="d19e41054 " valign="top" width="NaN%"><p>Additional application-specific dialog box instructions </p></td> 
    <td class="cellrowborder" headers="d19e41057 " valign="top" width="NaN%"><p>Specifies overrides and additions to application-specific dialog box instructions. The section presents an example of such information. </p><p>The file that contains this information is appmon.<i>[appname]</i>.addition.<i>[locale]</i>.xml. An example is appmon.addition.en_US.xml.</p></td> 
-   <td class="cellrowborder" headers="d19e41060 " valign="top" width="NaN%"><p>Files of this type can be created and modified using an XML editing application. (See <a href="converting-file-formats-pdf.md#creating_or_modifying_an_additional_dialog_xml_file_for_a_native_application">Creating or modifying an additional dialog XML file for a native application</a>.) </p><p><strong>Important</strong>: You must create additional application-specific dialog box instructions for each native application your server will support. </p></td> 
+   <td class="cellrowborder" headers="d19e41060 " valign="top" width="NaN%"><p>Files of this type can be created and modified using an XML editing application. (See <a href="converting-file-formats-pdf.md#creating-or-modifying-an-additional-dialog-xml-file-for-a-native-application">Creating or modifying an additional dialog XML file for a native application</a>.) </p><p><strong>Important</strong>: You must create additional application-specific dialog box instructions for each native application your server will support. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -715,7 +715,7 @@ If the attributes fail to identify a caption, you can instead identify a window 
 Be aware of these issues:
 
 * Microsoft Spy++ displays captions by using an ampersand (&) to identify the caption’s hot key. For example, Spy++ shows the caption for one Print dialog box as `Pri&nt`, which indicates that the hotkey is *n*. Caption titles in script and dialog XML files must omit ampersands. 
-* Some captions include line breaks. the Generate PDF service cannot identify line breaks. If a caption includes a line break, include enough of the caption to differentiate it from the other menu items and then use regular expressions for the omitted part. An example is ( `^Long caption title$`).]. (See [Using regular expressions in caption attributes](converting-file-formats-pdf.md#using_regular_expressions_in_caption_attributes).)
+* Some captions include line breaks. the Generate PDF service cannot identify line breaks. If a caption includes a line break, include enough of the caption to differentiate it from the other menu items and then use regular expressions for the omitted part. An example is ( `^Long caption title$`).]. (See [Using regular expressions in caption attributes](converting-file-formats-pdf.md#using-regular-expressions-in-caption-attributes).)
 * Use character entities (also called escape sequences) for reserved XML characters. For example, use `&` for ampersands, `<` and `>` for less than and greater than symbols, `&apos;` for apostrophes, and `&quot;` for quotation marks.
 
 If you plan to work on dialog or script XML files, you should install the application Microsoft Spy++.
@@ -730,10 +730,10 @@ The dialog and script files reside in the appmondata.jar file. Before you can mo
 After you add these XML files to the adobe-appmondata.jar file, you must redeploy the GeneratePDF component. To add dialog and script XML files to the adobe-appmondata.jar file, perform these tasks:
 
 1. Using a tool such as WinZip or WinRAR, open the adobe-livecycle-native-jboss-x86_win32.ear****file &gt; adobe-Native2PDFSvc.war\WEB-INF\lib &gt; adobe-native.jar &gt; Native2PDFSvc-native.jar\bin &gt; adobe-appmondata.jar file.
-1. Add the dialog and script XML files to the appmondata.jar file or modify existing XML files in this file. (See [Creating or modifying a script XML file for a native application](converting-file-formats-pdf.md#creating_or_modifying_a_script_xml_file_for_a_native_application)and [Creating or modifying an additional dialog XML file for a native application](converting-file-formats-pdf.md#creating_or_modifying_an_additional_dialog_xml_file_for_a_native_application).) 
+1. Add the dialog and script XML files to the appmondata.jar file or modify existing XML files in this file. (See [Creating or modifying a script XML file for a native application](converting-file-formats-pdf.md#creating-or-modifying-a-script-xml-file-for-a-native-application)and [Creating or modifying an additional dialog XML file for a native application](converting-file-formats-pdf.md#creating-or-modifying-an-additional-dialog-xml-file-for-a-native-application).) 
 1. Using a tool such as WinZip or WinRAR, open adobe-generatepdf-dsc.jar &gt; adobe-appmondata.jar. 
-1. Add the dialog and script XML files to the appmondata.jar file or modify existing XML files in this file. (See [Creating or modifying a script XML file for a native application](converting-file-formats-pdf.md#creating_or_modifying_a_script_xml_file_for_a_native_application)and [Creating or modifying an additional dialog XML file for a native application](converting-file-formats-pdf.md#creating_or_modifying_an_additional_dialog_xml_file_for_a_native_application).) After you add the XML files to the adobe-appmondata.jar file, place the new adobe-appmondata.jar file into the adobe-generatepdf-dsc.jar file. 
-1. If you added support for an additional native file format, create a system environment variable that provides the path of the application (See [Creating an environment variable to locate the native application](converting-file-formats-pdf.md#creating_an_environment_variable_to_locate_the_native_application).)
+1. Add the dialog and script XML files to the appmondata.jar file or modify existing XML files in this file. (See [Creating or modifying a script XML file for a native application](converting-file-formats-pdf.md#creating-or-modifying-a-script-xml-file-for-a-native-application)and [Creating or modifying an additional dialog XML file for a native application](converting-file-formats-pdf.md#creating-or-modifying-an-additional-dialog-xml-file-for-a-native-application).) After you add the XML files to the adobe-appmondata.jar file, place the new adobe-appmondata.jar file into the adobe-generatepdf-dsc.jar file. 
+1. If you added support for an additional native file format, create a system environment variable that provides the path of the application (See [Creating an environment variable to locate the native application](converting-file-formats-pdf.md#creating-an-environment-variable-to-locate-the-native-application).)
 
 **To redeploy the GeneratePDF component**
 
@@ -861,9 +861,9 @@ The name of the additional dialog XML file must use the format appmon.*[applicat
 
 >[!NOTE]
 >
->None of the generic applications specified in the native2pdfconfig.xml configuration file have a primary dialog XML file. The section [Adding or modifying support for a native file format](converting-file-formats-pdf.md#adding_or_modifying_support_for_a_native_file_format)describes such specifications.
+>None of the generic applications specified in the native2pdfconfig.xml configuration file have a primary dialog XML file. The section [Adding or modifying support for a native file format](converting-file-formats-pdf.md#adding-or-modifying-support-for-a-native-file-format)describes such specifications.
 
-You must order `windowList` elements that appear as children in a `window` element. (See [Ordering the window and windowList elements](converting-file-formats-pdf.md#ordering_the_window_and_windowlist_elements).)
+You must order `windowList` elements that appear as children in a `window` element. (See [Ordering the window and windowList elements](converting-file-formats-pdf.md#ordering-the-window-and-windowlist-elements).)
 
 ### Modifying the general dialog XML file {#modifying-the-general-dialog-xml-file}
 

@@ -234,7 +234,7 @@ Perform the following tasks after you complete a full backup of your AEM forms d
 
 >[!NOTE]
 >
->The command scripts require the full path to the nsrnmd_win.cfg file that you created in [Preparing the EMC Document Content Server for backup and recovery](backing-recovering-emc-documentum-repository.md#preparing_the_emc_document_content_server_for_backup_and_recovery).
+>The command scripts require the full path to the nsrnmd_win.cfg file that you created in [Preparing the EMC Document Content Server for backup and recovery](backing-recovering-emc-documentum-repository.md#preparing-the-emc-document-content-server-for-backup-and-recovery).
 
 1. Open a command prompt, and change to *[NetWorker_root]*\Legato\nsr\bin.
 1. Run the following command:
@@ -249,7 +249,7 @@ Perform the following tasks before you restore your AEM forms data. (See [Recove
 
 >[!NOTE]
 >
->The command scripts require the full path to the nsrnmd_win.cfg file that you created in [Preparing the EMC Document Content Server for backup and recovery](backing-recovering-emc-documentum-repository.md#preparing_the_emc_document_content_server_for_backup_and_recovery).
+>The command scripts require the full path to the nsrnmd_win.cfg file that you created in [Preparing the EMC Document Content Server for backup and recovery](backing-recovering-emc-documentum-repository.md#preparing-the-emc-document-content-server-for-backup-and-recovery).
 
 1. Stop the Docbase service that you are restoring.
 1. Start the NetWorker User utility for your database module (for example, *NetWorker User for SQL Server*). 

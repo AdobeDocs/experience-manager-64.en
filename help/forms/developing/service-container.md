@@ -28,19 +28,19 @@ The following table describes the different ways in which you can programmatical
  <tbody>
   <tr>
    <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>Remote integration</p></td> 
-   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>Remote integration provides the ability for Flex clients to invoke service operations. (See <a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting">Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>Remote integration provides the ability for Flex clients to invoke service operations. (See <a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting">Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting</a>.)</p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>Java API</p></td> 
-   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>A Java API can invoke an AEM Forms service. The Java API is organized into client libraries and the Java Invocation API. (See <a href="/help/forms/developing/invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>A Java API can invoke an AEM Forms service. The Java API is organized into client libraries and the Java Invocation API. (See <a href="/help/forms/developing/invoking-aem-forms-using-java.md#invoking-aem-forms-using-the-java-api">Invoking AEM Forms using the Java API</a>.)</p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>Web services</p></td> 
-   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>AEM Forms supports web service standards such as SOAP/HTTP. A service can be exposed as a web service, with the WSDL complying to web service standards defined by W3C.</p><p>A service can be invoked from any web service stack, including the .NET Framework and Sun™ Web Services SDK. (See <a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_web_services">Invoking AEM Forms using Web Services</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>AEM Forms supports web service standards such as SOAP/HTTP. A service can be exposed as a web service, with the WSDL complying to web service standards defined by W3C.</p><p>A service can be invoked from any web service stack, including the .NET Framework and Sun™ Web Services SDK. (See <a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-web-services">Invoking AEM Forms using Web Services</a>.)</p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>REST requests</p></td> 
-   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>AEM Forms supports REST requests. A service can be invoked directly from an HTML page. (See <a href="/help/forms/developing/invoking-aem-forms-using-rest.md#invoking_aem_forms_using_rest_requests">Invoking AEM Forms using REST Requests</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>AEM Forms supports REST requests. A service can be invoked directly from an HTML page. (See <a href="/help/forms/developing/invoking-aem-forms-using-rest.md#invoking-aem-forms-using-rest-requests">Invoking AEM Forms using REST Requests</a>.)</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,12 +53,12 @@ The following illustration provides a visual representation of the different way
 
 The service container provides the following functionality:
 
-* Allows AEM Forms services to be invoked using different methods. You can configure a service by setting endpoints so that it can be invoked using all methods: Remoting, the Java API, web services, and REST. (See [Programmatically Managing Endpoints](/help/forms/developing/programmatically-endpoints.md#programmatically_managing_endpoints).)
+* Allows AEM Forms services to be invoked using different methods. You can configure a service by setting endpoints so that it can be invoked using all methods: Remoting, the Java API, web services, and REST. (See [Programmatically Managing Endpoints](/help/forms/developing/programmatically-endpoints.md#programmatically-managing-endpoints).)
 * Converts a message into a normalized format called an invocation request. An invocation request is sent from a client application (or another service) to a service located in the service container. An invocation request contains information such as the name of the service to invoke and data values that are required to perform the operation. Many services require a document to perform an operation. Therefore, an invocation request usually contains a document, which can be PDF data, XDP data, XML data, and so on. 
 * Routes invocation requests to appropriate services (the name of the service to invoke is part of the invocation request). 
 * Performs tasks such as determining whether the caller has permission to invoke the specified service operation. The invocation request must contain a valid AEM forms user name and password.
 
-  There are different ways to send an invocation request to a service. As well, there are different ways to send required input values to the service. For example, assume that you use the Java API to invoke a service that requires a PDF document. The corresponding Java method contains a parameter that accepts a PDF document. In this situation, the data type of the parameter is `com.adobe.idp.Document`. (See [Passing data to AEM Forms services using the Java API](/help/forms/developing/invoking-aem-forms-using-java.md#passing_data_to_aem_forms_services_using_the_java_api).)
+  There are different ways to send an invocation request to a service. As well, there are different ways to send required input values to the service. For example, assume that you use the Java API to invoke a service that requires a PDF document. The corresponding Java method contains a parameter that accepts a PDF document. In this situation, the data type of the parameter is `com.adobe.idp.Document`. (See [Passing data to AEM Forms services using the Java API](/help/forms/developing/invoking-aem-forms-using-java.md#passing-data-to-aem-forms-services-using-the-java-api).)
 
   If you invoke a service using watched folders, then an invocation request is sent when you place a file in a configured watched folder. If you invoke a service using e-mail, then an invocation request is sent to a service when an e-mail message arrives in a configured inbox.
 
@@ -66,7 +66,7 @@ The service container provides the following functionality:
 
   An invocation response can be retrieved in the same way in which an invocation request is sent. That is, if the invocation request is sent using the Java API, then an invocation response can be retrieved using the Java API. Assume, for example, that an operation modifies a PDF document. You can retrieve the modified PDF document by getting the return value of the Java method that invoked the service.
 
-  When a long-lived process is invoked, an invocation response contains an identifier value that is associated with the invocation request. Using this identifier value, you can check the status of the process at a later time. For example, consider the MortgageLoan long-lived service. Using the identifier value, you can check to determine whether the process successfully completed. (See [Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).)
+  When a long-lived process is invoked, an invocation response contains an identifier value that is associated with the invocation request. Using this identifier value, you can check the status of the process at a later time. For example, consider the MortgageLoan long-lived service. Using the identifier value, you can check to determine whether the process successfully completed. (See [Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking-human-centric-long-lived-processes).)
 
   The following diagram shows a client application (that uses the Java API) invoking a service.
 
@@ -78,14 +78,14 @@ The service container provides the following functionality:
 
 **See also**
 
-[Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md#understanding_aem_forms_processes)
+[Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md#understanding-aem-forms-processes)
 
-[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting)
+[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting)
 
-[Invoking AEM Forms using the Java API](/help/forms/developing/invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api)
+[Invoking AEM Forms using the Java API](/help/forms/developing/invoking-aem-forms-using-java.md#invoking-aem-forms-using-the-java-api)
 
-[Invoking AEM Forms using Web Services](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_web_services)
+[Invoking AEM Forms using Web Services](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-web-services)
 
-[Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes)
+[Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#invoking-human-centric-long-lived-processes)
 
-[Invoking AEM Forms using REST Requests](/help/forms/developing/invoking-aem-forms-using-rest.md#invoking_aem_forms_using_rest_requests)
+[Invoking AEM Forms using REST Requests](/help/forms/developing/invoking-aem-forms-using-rest.md#invoking-aem-forms-using-rest-requests)

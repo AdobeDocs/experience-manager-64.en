@@ -15,17 +15,17 @@ discoiquuid: 9c17fa2d-0337-4204-822e-dcdafebf0e4d
 
 The Java API(SOAP) Quick Start is available for processes. A *process instance* is an occurrence of a specific process that was started by an invocation method such as the Invocation API or from within Workspace.
 
-[Quick Start (SOAP mode): Searching for Process Instances using the Java API](livecycleprocess-java-api-soap-quick.md#quick_start_soap_mode_searching_for_process_instances_using_the_java_api)
+[Quick Start (SOAP mode): Searching for Process Instances using the Java API](livecycleprocess-java-api-soap-quick.md#quick-start-soap-mode-searching-for-process-instances-using-the-java-api)
 
-[Quick Start (SOAP mode): Suspending process instances using the Java API](livecycleprocess-java-api-soap-quick.md#quick_start_soap_mode_suspending_process_instances_using_the_java_api)
+[Quick Start (SOAP mode): Suspending process instances using the Java API](livecycleprocess-java-api-soap-quick.md#quick-start-soap-mode-suspending-process-instances-using-the-java-api)
 
-[Quick Start (SOAP Mode): Starting suspended process instances using the Java API](livecycleprocess-java-api-soap-quick.md#quick_start_soap_mode_starting_suspended_process_instances_using_the_java_api)
+[Quick Start (SOAP Mode): Starting suspended process instances using the Java API](livecycleprocess-java-api-soap-quick.md#quick-start-soap-mode-starting-suspended-process-instances-using-the-java-api)
 
-[Quick Start (SOAP mode): Terminating process instances using the Java API](livecycleprocess-java-api-soap-quick.md#quick_start_soap_mode_terminating_process_instances_using_the_java_api)
+[Quick Start (SOAP mode): Terminating process instances using the Java API](livecycleprocess-java-api-soap-quick.md#quick-start-soap-mode-terminating-process-instances-using-the-java-api)
 
-[Quick Start (SOAP mode): Purging process data using the Java API](livecycleprocess-java-api-soap-quick.md#quick_start_soap_mode_purging_process_data_using_the_java_api)
+[Quick Start (SOAP mode): Purging process data using the Java API](livecycleprocess-java-api-soap-quick.md#quick-start-soap-mode-purging-process-data-using-the-java-api)
 
-[Quick Start (SOAP Mode): Retrieving the status of a job using the Java API](livecycleprocess-java-api-soap-quick.md#quick_start_soap_mode_retrieving_the_status_of_a_job_using_the_java_api)
+[Quick Start (SOAP Mode): Retrieving the status of a job using the Java API](livecycleprocess-java-api-soap-quick.md#quick-start-soap-mode-retrieving-the-status-of-a-job-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -531,7 +531,7 @@ The following Java code purges data from a process named *SecureDocument*. A fil
 
 ## Quick Start (SOAP Mode): Retrieving the status of a job using the Java API {#quick-start-soap-mode-retrieving-the-status-of-a-job-using-the-java-api}
 
-The following code example retrieves the status of 10 AEM Forms jobs. (See [Retrieving the Status of a AEM Forms Job](/help/forms/developing/processes-tasks.md#retrieving_the_status_of_an_aem_forms_job).)
+The following code example retrieves the status of 10 AEM Forms jobs. (See [Retrieving the Status of a AEM Forms Job](/help/forms/developing/processes-tasks.md#retrieving-the-status-of-an-aem-forms-job).)
 
 ```as3
  /* 

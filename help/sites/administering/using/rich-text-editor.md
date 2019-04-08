@@ -206,7 +206,7 @@ The following table lists the current plug-ins, showing:
   <tr> 
    <td valign="top" width="100"><p>styles</p> </td> 
    <td valign="top" width="100"><p>styles</p> </td> 
-   <td valign="top" width="200">Support for styling using a CSS class. <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Add new text styles</a> if you want to add (or extend) your own range of styles for use with text.</td> 
+   <td valign="top" width="200">Support for styling using a CSS class. <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="-blank">Add new text styles</a> if you want to add (or extend) your own range of styles for use with text.</td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p>subsuperscript</p> </td> 

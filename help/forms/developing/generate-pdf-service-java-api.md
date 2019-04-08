@@ -15,11 +15,11 @@ discoiquuid: a7c0c4cf-7476-41e7-8d4e-564e6a21458d
 
 Java API Quick Start(SOAP) is available for the Generate PDF service.
 
-[Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API](generate-pdf-service-java-api.md#quick_start_soap_mode_converting_a_microsoft_word_document_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API](generate-pdf-service-java-api.md#quick-start-soap-mode-converting-a-microsoft-word-document-to-a-pdf-document-using-the-java-api)
 
-[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](generate-pdf-service-java-api.md#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](generate-pdf-service-java-api.md#quick-start-soap-mode-converting-html-content-to-a-pdf-document-using-the-java-api)
 
-[Quick Start (SOAP mode): Converting a PDF document to an RTF file using the Java API (SOAP mode)](generate-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_an_rtf_file_using_the_java_api_soap_mode)
+[Quick Start (SOAP mode): Converting a PDF document to an RTF file using the Java API (SOAP mode)](generate-pdf-service-java-api.md#quick-start-soap-mode-converting-a-pdf-document-to-an-rtf-file-using-the-java-api-soap-mode)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -27,7 +27,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API {#quick-start-soap-mode-converting-a-microsoft-word-document-to-a-pdf-document-using-the-java-api}
 
-The following code example converts a Word file named *Loan.doc* to a PDF document named *Loan.pdf*. (See [Converting Word Documents to PDF Documents](/help/forms/developing/converting-file-formats-pdf.md#converting_word_documents_to_pdf_documents).)
+The following code example converts a Word file named *Loan.doc* to a PDF document named *Loan.pdf*. (See [Converting Word Documents to PDF Documents](/help/forms/developing/converting-file-formats-pdf.md#converting-word-documents-to-pdf-documents).)
 
 ```as3
  /* 
@@ -141,7 +141,7 @@ The following code example converts a Word file named *Loan.doc* to a PDF docume
 
 ## Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API {#quick-start-soap-mode-converting-html-content-to-a-pdf-document-using-the-java-api}
 
-The following Java code example converts HTML content located at https://www.adobe.com to a PDF document named *AdobeHTML.pdf*. (See [Converting HTML Documents to PDF Documents](/help/forms/developing/converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents).)
+The following Java code example converts HTML content located at https://www.adobe.com to a PDF document named *AdobeHTML.pdf*. (See [Converting HTML Documents to PDF Documents](/help/forms/developing/converting-file-formats-pdf.md#converting-html-documents-to-pdf-documents).)
 
 ```as3
  /* 
@@ -247,7 +247,7 @@ The following Java code example converts HTML content located at https://www.ado
 
 ## Quick Start (SOAP mode): Converting a PDF document to an RTF file using the Java API (SOAP mode) {#quick-start-soap-mode-converting-a-pdf-document-to-an-rtf-file-using-the-java-api-soap-mode}
 
-The following code example converts a PDF document named *Loan.pdf* to an RTF document named *Loan.rtf*. (See [Converting PDF Documents to Non-image Formats](/help/forms/developing/converting-file-formats-pdf.md#converting_pdf_documents_to_non_image_formats).)
+The following code example converts a PDF document named *Loan.pdf* to an RTF document named *Loan.rtf*. (See [Converting PDF Documents to Non-image Formats](/help/forms/developing/converting-file-formats-pdf.md#converting-pdf-documents-to-non-image-formats).)
 
 ```as3
  /* 

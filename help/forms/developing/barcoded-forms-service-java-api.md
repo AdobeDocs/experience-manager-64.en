@@ -15,7 +15,7 @@ discoiquuid: 245b9cc4-5837-4a22-b5f4-a1d4c5d66918
 
 Java API Quick Start(SOAP) is available for the Barcoded Forms service:
 
-[Quick Start (SOAP mode): Decoding barcoded form data using the Java API](barcoded-forms-service-java-api.md#quick_start_soap_mode_decoding_barcoded_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Decoding barcoded form data using the Java API](barcoded-forms-service-java-api.md#quick-start-soap-mode-decoding-barcoded-form-data-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -23,7 +23,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Decoding barcoded form data using the Java API {#quick-start-soap-mode-decoding-barcoded-form-data-using-the-java-api}
 
-The following Java code decodes form data that is located in a PDF form that is saved as Loan.pdf. The decoded data is saved as an XML file named extractedData.xml. This code example converts a `org.w3c.dom.Document` object into a `com.adobe.idp.Document` object. (See [Decoding Barcoded Form Data](/help/forms/developing/barcoded-forms.md#decoding_barcoded_form_data).)
+The following Java code decodes form data that is located in a PDF form that is saved as Loan.pdf. The decoded data is saved as an XML file named extractedData.xml. This code example converts a `org.w3c.dom.Document` object into a `com.adobe.idp.Document` object. (See [Decoding Barcoded Form Data](/help/forms/developing/barcoded-forms.md#decoding-barcoded-form-data).)
 
 ```as3
  /* 

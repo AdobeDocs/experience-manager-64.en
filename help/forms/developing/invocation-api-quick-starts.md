@@ -27,7 +27,7 @@ The following Quick Starts are available for programmatically invoking AEM Forms
  <tbody> 
   <tr> 
    <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes">Invoking Human-Centric Long-Lived Processes</a></p></td> 
-   <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-human-centric-long-lived.md#invoking_a_long_lived_process_using_remoting">Invoking a long-lived process using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
+   <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-human-centric-long-lived.md#invoking-a-long-lived-process-using-remoting">Invoking a long-lived process using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-human-centric-long-lived.md#quick_start_invoking_a_long_lived_process_using_the_invocation_api">Quick Start: Invoking a long-lived process using the Invocation API</a></p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-human-centric-long-lived.md#quick_start_invoking_a_long_lived_process_using_the_web_service_api">Quick Start: Invoking a long-lived process using the web service API</a></p></td> 
   </tr> 
@@ -38,62 +38,62 @@ The following Quick Starts are available for programmatically invoking AEM Forms
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p>N/A</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a> (Java web service proxy)</p></td> 
+   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding">Invoking AEM Forms using Base64 encoding</a> (Java web service proxy)</p></td> 
    <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p><a href="invocation-api-quick-starts.md#quick_start_invoking_a_service_using_java_proxy_files_and_base64_encoding">Quick Start: Invoking a service using Java proxy files and Base64 encoding</a></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a> (.NET web service proxy)</p></td> 
+   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding">Invoking AEM Forms using Base64 encoding</a> (.NET web service proxy)</p></td> 
    <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p><a href="invocation-api-quick-starts.md#quick_start_invoking_a_service_using_base64_in_a_microsoft_net_project">Quick Start: Invoking a service using base64 in a Microsoft .NET project</a></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a> (.NET web service example)</p></td> 
+   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom">Invoking AEM Forms using MTOM</a> (.NET web service example)</p></td> 
    <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p><a href="invocation-api-quick-starts.md#quick_start_invoking_a_service_using_mtom_in_a_net_project">Quick Start: Invoking a service using MTOM in a .NET project</a></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a> (Java web service example)</p></td> 
+   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref">Invoking AEM Forms using SwaRef</a> (Java web service example)</p></td> 
    <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p><a href="invocation-api-quick-starts.md#quick_start_invoking_a_service_using_swaref_in_a_java_project">Quick Start: Invoking a service using SwaRef in a Java project</a></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_blob_data_over_http">Invoking AEM Forms using BLOB data over HTTP</a> (Java web service example)</p></td> 
+   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-blob-data-over-http">Invoking AEM Forms using BLOB data over HTTP</a> (Java web service example)</p></td> 
    <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p><a href="invocation-api-quick-starts.md#quick_start_invoking_a_service_using_blob_data_over_http_in_a_net_project">Quick Start: Invoking a service using BLOB data over HTTP in a .NET project</a></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_blob_data_over_http">Invoking AEM Forms using BLOB data over HTTP</a> (.NET web service example)</p></td> 
+   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-blob-data-over-http">Invoking AEM Forms using BLOB data over HTTP</a> (.NET web service example)</p></td> 
    <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p><a href="invocation-api-quick-starts.md#quick_start_invoking_a_service_using_blob_data_over_http_in_a_java_project">Quick Start: Invoking a service using BLOB data over HTTP in a Java project</a></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_dime">Invoking AEM Forms using DIME</a> (Java web service example)</p></td> 
+   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-dime">Invoking AEM Forms using DIME</a> (Java web service example)</p></td> 
    <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p><a href="invocation-api-quick-starts.md#quick_start_invoking_a_service_using_dime_in_a_java_project">Quick Start: Invoking a service using DIME in a Java project</a></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting">Invoking AEM Forms Using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
-   <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p><a href="invocation-api-quick-starts.md#quick_start_invoking_a_short_lived_process_by_passing_an_unsecure_document_using_deprecated_for_aem_forms_aem_forms_remoting">Quick Start: Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
+   <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting">Invoking AEM Forms Using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
+   <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p><a href="invocation-api-quick-starts.md#quick-start-invoking-a-short-lived-process-by-passing-an-unsecure-document-using-deprecated-for-aem-forms-aem-forms-remoting">Quick Start: Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p>N/A</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting">Passing secure documents to invoke processes using Remoting</a></p></td> 
-   <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#quick_start_invoking_a_short_lived_process_by_passing_a_secure_document_using_remoting">Quick Start: Invoking a short-lived process by passing a secure document using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
+   <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#quick-start-invoking-a-short-lived-process-by-passing-a-secure-document-using-remoting">Quick Start: Invoking a short-lived process by passing a secure document using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p>N/A</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e2231 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking_custom_component_services_using_remoting">Invoking custom component services using Remoting</a></p></td> 
-   <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#quick_start_invoking_the_customer_custom_service_using_remoting">Quick Start: Invoking the Customer custom service using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
+   <td class="cellrowborder" headers="d19e2234 " valign="top" width="NaN%"><p><a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#quick-start-invoking-the-customer-custom-service-using-remoting">Quick Start: Invoking the Customer custom service using (Deprecated for AEM forms) AEM Forms Remoting</a></p></td> 
    <td class="cellrowborder" headers="d19e2237 " valign="top" width="NaN%"><p>N/A</p></td> 
    <td class="cellrowborder" headers="d19e2240 " valign="top" width="NaN%"><p>N/A</p></td> 
   </tr> 
@@ -106,7 +106,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start: Invoking a short-lived process using the Invocation API {#quick-start-invoking-a-short-lived-process-using-the-invocation-api}
 
-The following Java code example invokes a short-lived process named `MyApplication/EncryptDocument`. Notice that this process is invoked synchronously. The input parameter for this process is named `inDoc`. The output parameter for this process is named `outDoc`. The password encrypted PDF document is saved as a PDF file named `EncryptLoan.pdf`. (See [Invoking a short-lived process using the Invocation API](/help/forms/developing/invoking-aem-forms-using-java.md#invoking_a_short_lived_process_using_the_invocation_api).)
+The following Java code example invokes a short-lived process named `MyApplication/EncryptDocument`. Notice that this process is invoked synchronously. The input parameter for this process is named `inDoc`. The output parameter for this process is named `outDoc`. The password encrypted PDF document is saved as a PDF file named `EncryptLoan.pdf`. (See [Invoking a short-lived process using the Invocation API](/help/forms/developing/invoking-aem-forms-using-java.md#invoking-a-short-lived-process-using-the-invocation-api).)
 
 ```as3
  /* 
@@ -220,7 +220,7 @@ The following Java code example invokes a short-lived process named `MyApplicati
 
 ## Quick Start: Invoking a service using base64 in a Microsoft .NET project {#quick-start-invoking-a-service-using-base64-in-a-microsoft-net-project}
 
-The following C# code example invokes a process named `MyApplication/EncryptDocument` from a Microsoft .NET project using Base64 encoding. (See [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding).)
+The following C# code example invokes a process named `MyApplication/EncryptDocument` from a Microsoft .NET project using Base64 encoding. (See [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).)
 
 An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the AEM Forms process. The process returns a password-encrypted PDF document that is saved as a PDF file named *EncryptedPDF.pdf*.
 
@@ -301,7 +301,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
 
 ## Quick Start: Invoking a service using Java proxy files and Base64 encoding {#quick-start-invoking-a-service-using-java-proxy-files-and-base64-encoding}
 
-The following Java code example invokes a process named `MyApplication/EncryptDocument` using Java proxy files created using JAX-WS and Base64 encoding. (See [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding).)
+The following Java code example invokes a process named `MyApplication/EncryptDocument` using Java proxy files created using JAX-WS and Base64 encoding. (See [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).)
 
 An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the AEM Forms process. The process returns a password-encrypted PDF document that is saved as a PDF file named *EncryptedDocument.pdf*.
 
@@ -387,11 +387,11 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
 
 ## Quick Start: Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting {#quick-start-invoking-a-short-lived-process-by-passing-an-unsecure-document-using-deprecated-for-aem-forms-aem-forms-remoting}
 
-The following Flex code example invokes a short-lived process named `MyApplication/EncryptDocument`. (See [Invoking AEM Forms Using (Deprecated for AEM forms) AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting).)
+The following Flex code example invokes a short-lived process named `MyApplication/EncryptDocument`. (See [Invoking AEM Forms Using (Deprecated for AEM forms) AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting).)
 
 >[!NOTE]
 >
->This quick start invokes a AEM Forms process and uploads an unsecure document. To execute this quick start, AEM Forms has to be configured to upload unsecure documents. For information about how to configure AEM Forms to accept unsecure documents, see [Configuring AEM Forms to accept secure and unsecure documents](/help/forms/developing/invoking-aem-forms-using-remoting.md#configuring_aem_forms_to_accept_secure_and_unsecure_documents).
+>This quick start invokes a AEM Forms process and uploads an unsecure document. To execute this quick start, AEM Forms has to be configured to upload unsecure documents. For information about how to configure AEM Forms to accept unsecure documents, see [Configuring AEM Forms to accept secure and unsecure documents](/help/forms/developing/invoking-aem-forms-using-remoting.md#configuring-aem-forms-to-accept-secure-and-unsecure-documents).
 
 ```as3
  <?xml version="1.0" encoding="utf-8"?> 
@@ -544,7 +544,7 @@ The following Flex code example invokes a short-lived process named `MyApplicati
 
 ## Quick Start: Invoking a service using DIME in a .NET project {#quick-start-invoking-a-service-using-dime-in-a-net-project}
 
-The following C# code example invokes a process named `MyApplication/EncryptDocument` from a Microsoft .NET project using Dime. (See [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding).)
+The following C# code example invokes a process named `MyApplication/EncryptDocument` from a Microsoft .NET project using Dime. (See [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).)
 
 An unsecured PDF document based on a PDF file named *map.pdf* is passed to the AEM Forms process using DIME. The process returns a password-encrypted PDF document that is saved as a PDF file named *mapEncrypt.pdf*.
 
@@ -649,7 +649,7 @@ An unsecured PDF document based on a PDF file named *map.pdf* is passed to the A
 
 ## Quick Start: Invoking a service using DIME in a Java project {#quick-start-invoking-a-service-using-dime-in-a-java-project}
 
-The following Java code example invokes a process named `MyApplication/EncryptDocument` using DIME. (See [Invoking AEM Forms using DIME](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_dime).)
+The following Java code example invokes a process named `MyApplication/EncryptDocument` using DIME. (See [Invoking AEM Forms using DIME](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-dime).)
 
 An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the AEM Forms process using DIME. The process returns a password-encrypted PDF document that is saved as a PDF file named *EncryptLoan.pdf*.
 
@@ -750,7 +750,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
 
 ## Quick Start: Invoking a service using BLOB data over HTTP in a Java project {#quick-start-invoking-a-service-using-blob-data-over-http-in-a-java-project}
 
-The following Java code example invokes a process named `MyApplication/EncryptDocument` using data over HTTP. (See [Invoking AEM Forms using BLOB data over HTTP](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_blob_data_over_http).)
+The following Java code example invokes a process named `MyApplication/EncryptDocument` using data over HTTP. (See [Invoking AEM Forms using BLOB data over HTTP](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-blob-data-over-http).)
 
 An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the AEM Forms process using SOAP over HTTP. The PDF file is located at the following URL: `https://[server]:[port]/FormsQS`. The process returns a password-encrypted PDF document that is saved as a PDF file named *EncryptedDocument.pdf*.
 
@@ -825,7 +825,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
 
 ## Quick Start: Invoking a service using BLOB data over HTTP in a .NET project {#quick-start-invoking-a-service-using-blob-data-over-http-in-a-net-project}
 
-The following C# code example invokes a process named `MyApplication/EncryptDocument` from a Microsoft .NET project using data over HTTP. (See [Invoking AEM Forms using BLOB data over HTTP](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_blob_data_over_http).)
+The following C# code example invokes a process named `MyApplication/EncryptDocument` from a Microsoft .NET project using data over HTTP. (See [Invoking AEM Forms using BLOB data over HTTP](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-blob-data-over-http).)
 
 An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the AEM Forms process using BLOB over HTTP. The process returns a password-encrypted PDF document that is saved as a PDF file named *EncryptedPDF.pdf*.
 
@@ -925,7 +925,7 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
 
 ## Quick Start: Invoking a service using MTOM in a .NET project {#quick-start-invoking-a-service-using-mtom-in-a-net-project}
 
-The following C# code example invokes a process named `MyApplication/EncryptDocument` from a Microsoft .NET project using MTOM. (See [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom).)
+The following C# code example invokes a process named `MyApplication/EncryptDocument` from a Microsoft .NET project using MTOM. (See [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom).)
 
 An unsecured PDF document based on a PDF file named *loan.pdf* is passed to the AEM Forms process using MTOM. The process returns a password-encrypted PDF document that is saved as a PDF file named *EncryptedDocument.pdf*.
 
@@ -1015,7 +1015,7 @@ An unsecured PDF document based on a PDF file named *loan.pdf* is passed to the 
 
 ## Quick Start: Invoking a service using SwaRef in a Java project {#quick-start-invoking-a-service-using-swaref-in-a-java-project}
 
-The following Java code example invokes a process named `MyApplication/EncryptDocument` from a Java project. This Java project using proxy classes that were created using JAX-WS and SwaRef as the encoding type. (See [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref).)
+The following Java code example invokes a process named `MyApplication/EncryptDocument` from a Java project. This Java project using proxy classes that were created using JAX-WS and SwaRef as the encoding type. (See [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref).)
 
 An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the AEM Forms process using SwaRef. The encrypted PDF document is saved as a PDF file named *EncryptedDocument.pdf*.
 

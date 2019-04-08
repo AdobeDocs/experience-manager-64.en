@@ -19,11 +19,11 @@ Printing to this printer from any application sends the document (in PostScript 
 
 The following steps are required to set up a PDFG Network Printer:
 
-1. Configure email settings. (See [Configure email settings for PDFG Network Printer](setting-pdfg-network-printer-windows.md#configure_email_settings_for_pdfg_network_printer).)
-1. In administration console, configure the PDFG Network Printer settings. (See [Configure the PDFG Network Printer settings](setting-pdfg-network-printer-windows.md#configure_the_pdfg_network_printer_settings).) 
-1. Ensure that your users are configured with a valid email address in the AEM forms database and assign the PDFGUserPermission to each user. (See [Setting up and organizing users](/forms/using/admin-help/.md#setting_up_and_organizing_users).)
+1. Configure email settings. (See [Configure email settings for PDFG Network Printer](setting-pdfg-network-printer-windows.md#configure-email-settings-for-pdfg-network-printer).)
+1. In administration console, configure the PDFG Network Printer settings. (See [Configure the PDFG Network Printer settings](setting-pdfg-network-printer-windows.md#configure-the-pdfg-network-printer-settings).) 
+1. Ensure that your users are configured with a valid email address in the AEM forms database and assign the PDFGUserPermission to each user. (See [Setting up and organizing users](/forms/using/admin-help/.md#setting-up-and-organizing-users).)
 1. Ensure that 32-bit JRE6 is installed on your users’ computers. 
-1. Install the printer on your users’ computers. (See [Install PDFG Network Printer on a user’s computer](setting-pdfg-network-printer-windows.md#install_pdfg_network_printer_on_a_user_s_computer).)
+1. Install the printer on your users’ computers. (See [Install PDFG Network Printer on a user’s computer](setting-pdfg-network-printer-windows.md#install-pdfg-network-printer-on-a-user-s-computer).)
 
 ## Configure email settings for PDFG Network Printer {#configure-email-settings-for-pdfg-network-printer}
 

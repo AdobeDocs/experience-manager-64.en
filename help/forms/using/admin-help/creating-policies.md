@@ -105,17 +105,17 @@ When you edit policies, these restrictions apply:
    >
    >You can create a policy name that contains extended characters; however, when a comparison is made between two strings, accented and non-accented characters such as "e" and "é" are considered to be the same. When someone creates a policy, a comparison is made to check whether a policy with the same name already exists. The comparison cannot distinguish between names that are the same except for accented characters. It is assumed that the policy is already added to the database and the new one is not added.
 
-1. Add users and groups to the policy and set the appropriate permissions. (See [Users and Groups](creating-policies.md#users_and_groups).)
-1. Under General Settings, select the appropriate options. (See [General Settings](creating-policies.md#general_settings).)
+1. Add users and groups to the policy and set the appropriate permissions. (See [Users and Groups](creating-policies.md#users-and-groups).)
+1. Under General Settings, select the appropriate options. (See [General Settings](creating-policies.md#general-settings).)
 1. (Optional) If applicable, select an external authorization provider and specify its properties. If you do not want to use an external authorization provider, click Remove Default Provider.
 
    An external authorization provider is used to set up properties within the policy and when selected, the external authorization provider uses this information to evaluate the policy. The available properties are configured by the administrator and the person who installs the software.
 
-1. Under Advanced Settings, select the appropriate options. (See [Advanced Settings](creating-policies.md#advanced_settings).)
-1. Under Unchangeable Advanced Settings, select the appropriate options. (See [Unchangeable Advanced Settings](creating-policies.md#unchangeable_advanced_settings).)
+1. Under Advanced Settings, select the appropriate options. (See [Advanced Settings](creating-policies.md#advanced-settings).)
+1. Under Unchangeable Advanced Settings, select the appropriate options. (See [Unchangeable Advanced Settings](creating-policies.md#unchangeable-advanced-settings).)
 1. Click Save. The policy appears in the policy list. An icon with a red circle appears beside the new policy, indicating that it is still disabled.
 
-   To make the policy available to users, enable it. (See [Enable or disable shared policies](creating-policies.md#enable_or_disable_shared_policies).)
+   To make the policy available to users, enable it. (See [Enable or disable shared policies](creating-policies.md#enable-or-disable-shared-policies).)
 
 ### Users and Groups {#users-and-groups}
 

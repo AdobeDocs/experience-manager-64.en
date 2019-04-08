@@ -64,9 +64,9 @@ Depending on the type of client application, you can write the form to a client 
 
 **See also**
 
-[Pass documents to the Forms Service using the Java API](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing.md#pass_documents_to_the_forms_service_using_the_java_api)
+[Pass documents to the Forms Service using the Java API](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing.md#pass-documents-to-the-forms-service-using-the-java-api)
 
-[Pass documents to the Forms Service using the web service API](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing.md#pass_documents_to_the_forms_service_using_the_web_service_api)
+[Pass documents to the Forms Service using the web service API](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing.md#pass-documents-to-the-forms-service-using-the-web-service-api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -124,7 +124,7 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
 
 **See also**
 
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing_documents_to_the_forms_service)
+[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
 
 [Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd1.2)
 
@@ -203,7 +203,7 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
 
 **See also**
 
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing_documents_to_the_forms_service)
+[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
 
 [Quick Start (MTOM): Passing documents to the Forms Service using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e17.2)
 

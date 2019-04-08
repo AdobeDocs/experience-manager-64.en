@@ -17,12 +17,12 @@ The Adobe PDF Settings page shows the conversion settings that you can specify f
 
 On the Adobe PDF Settings page, you can do the following tasks:
 
-* View the predefined PDF settings. (See [About the predefined PDF settings](configuring-pdf-settings.md#about_the_predefined_pdf_settings).)
-* Create a PDF setting or edit one that you created previously. (See [Add or edit PDF settings](configuring-pdf-settings.md#add_or_edit_pdf_settings).)
+* View the predefined PDF settings. (See [About the predefined PDF settings](configuring-pdf-settings.md#about-the-predefined-pdf-settings).)
+* Create a PDF setting or edit one that you created previously. (See [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).)
 * Specify default PDF settings. (See [Change the default settings](../../../forms/using/admin-help/configuring-file-type-settings.md#change-the-default-settings))
-* Upload a PDF settings file to the server. (See [Upload PDF settings](configuring-pdf-settings.md#upload_pdf_settings).)
-* Delete customized PDF settings. (See [Delete PDF settings](configuring-pdf-settings.md#delete_pdf_settings).)
-* Upload and download prologue and epilogue files. (See [Uploading and downloading prologue and epilogue files](configuring-pdf-settings.md#uploading_and_downloading_prologue_and_epilogue_files).)
+* Upload a PDF settings file to the server. (See [Upload PDF settings](configuring-pdf-settings.md#upload-pdf-settings).)
+* Delete customized PDF settings. (See [Delete PDF settings](configuring-pdf-settings.md#delete-pdf-settings).)
+* Upload and download prologue and epilogue files. (See [Uploading and downloading prologue and epilogue files](configuring-pdf-settings.md#uploading-and-downloading-prologue-and-epilogue-files).)
 
 Adobe PDF settings are applicable only to the PDFMaker based conversions. These include the following conversions:
 
@@ -82,19 +82,19 @@ PDF settings determine precisely how files are converted and their resultant PDF
 1. Either click New or click the name of an existing setting.
 1. On the New/Edit Adobe PDF Setting page, complete the required information in these sections:
 
-   [General options](configuring-pdf-settings.md#general_options)
+   [General options](configuring-pdf-settings.md#general-options)
 
-   [Images options](configuring-pdf-settings.md#images_options)
+   [Images options](configuring-pdf-settings.md#images-options)
 
-   [Fonts options](configuring-pdf-settings.md#fonts_options)
+   [Fonts options](configuring-pdf-settings.md#fonts-options)
 
-   [Color options](configuring-pdf-settings.md#color_options)
+   [Color options](configuring-pdf-settings.md#color-options)
 
-   [Advanced options](configuring-pdf-settings.md#advanced_options)
+   [Advanced options](configuring-pdf-settings.md#advanced-options)
 
-   [Standards reporting and compliance options](configuring-pdf-settings.md#standards_reporting_and_compliance_options)
+   [Standards reporting and compliance options](configuring-pdf-settings.md#standards-reporting-and-compliance-options)
 
-   [Initial view options](configuring-pdf-settings.md#initial_view_options)
+   [Initial view options](configuring-pdf-settings.md#initial-view-options)
 
    To go to another section, click its link on the web page or use the Next and Previous buttons. 
 
@@ -118,7 +118,7 @@ You can permanently delete PDF settings if they are no longer required.
 
 ## General options {#general-options}
 
-Use the general options to specify the version of Acrobat to use for file compatibility and other file and device options. For instructions about accessing the General options, see [Add or edit PDF settings](configuring-pdf-settings.md#add_or_edit_pdf_settings).
+Use the general options to specify the version of Acrobat to use for file compatibility and other file and device options. For instructions about accessing the General options, see [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).
 
 ### File Options {#file-options}
 
@@ -203,7 +203,7 @@ The Default Page Size options specify the page size to use when one is not speci
 
 ## Images options {#images-options}
 
-The Images options specify compression and resampling for images. You can experiment with these options to find an appropriate balance between file size and image quality. For instructions about accessing the Images settings, see [Add or edit PDF settings](configuring-pdf-settings.md#add_or_edit_pdf_settings).
+The Images options specify compression and resampling for images. You can experiment with these options to find an appropriate balance between file size and image quality. For instructions about accessing the Images settings, see [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).
 
 These options configure color, grayscale, and monochrome images:
 
@@ -270,7 +270,7 @@ Make sure that monochrome images are scanned as monochrome and not as grayscale.
 
 ## Fonts options {#fonts-options}
 
-The Fonts options specify which fonts to embed in a PDF file and whether to embed a subset of characters that are used in the PDF file. For instructions about accessing the Fonts options, see [Add or edit PDF settings](configuring-pdf-settings.md#add_or_edit_pdf_settings).
+The Fonts options specify which fonts to embed in a PDF file and whether to embed a subset of characters that are used in the PDF file. For instructions about accessing the Fonts options, see [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).
 
 >[!NOTE]
 >
@@ -304,7 +304,7 @@ The Fonts options specify which fonts to embed in a PDF file and whether to embe
 
 ## Color options {#color-options}
 
-The Color options set all color management information for PDF Generator. For instructions about accessing the Color options, see [Add or edit PDF settings](configuring-pdf-settings.md#add_or_edit_pdf_settings).
+The Color options set all color management information for PDF Generator. For instructions about accessing the Color options, see [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).
 
 ### Adobe Color Settings {#adobe-color-settings}
 
@@ -374,7 +374,7 @@ In traditional print production, a halftone is produced by placing a halftone sc
 
 ## Advanced options {#advanced-options}
 
-The Advanced options specify which Document Structuring Conventions (DSC) comments to keep in the PDF file and how to set other options that affect the conversion from PostScript. In a PostScript file, DSC comments contain information about the file (such as the originating application, creation date, and page orientation). They also provide structure for page descriptions in the file (such as beginning and ending statements for a prologue section). DSC comments can be useful when your document is going to print or press. For instructions about accessing the Advanced options, see [Add or edit PDF settings](configuring-pdf-settings.md#add_or_edit_pdf_settings).
+The Advanced options specify which Document Structuring Conventions (DSC) comments to keep in the PDF file and how to set other options that affect the conversion from PostScript. In a PostScript file, DSC comments contain information about the file (such as the originating application, creation date, and page orientation). They also provide structure for page descriptions in the file (such as beginning and ending statements for a prologue section). DSC comments can be useful when your document is going to print or press. For instructions about accessing the Advanced options, see [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).
 
 When working with the Advanced options, it is helpful to have an understanding of the PostScript language and how it is translated to PDF. (See [Adobe PostScript 3](https://www.adobe.com/products/postscript/main.html).)
 
@@ -428,7 +428,7 @@ PDF/A-compliant files are primarily used for archiving. Because long-term preser
 >
 >If you set up a watched folder for creating PDF/A-compliant files, make sure that you do not add security to the folder; the PDF/A standard does not allow encryption.
 
-For instructions about accessing the Standards reporting and compliance options, see [Add or edit PDF settings](configuring-pdf-settings.md#add_or_edit_pdf_settings).
+For instructions about accessing the Standards reporting and compliance options, see [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).
 
 **Compliance Standard:** Select a standard to produce a report that indicates whether the file complies with the requirements and, if not, what problems were encountered. When Compatibility on the General Settings page is set to Acrobat 4.0, the following options are enabled. When Compatibility is set to Acrobat 5.0, only the Acrobat 5.0 options are available to select. When Compatibility is set to an alternative option, the following options are dimmed:
 
@@ -486,7 +486,7 @@ These options are enabled when Compatibility (in the General area) is set to Acr
 
 ## Initial view options {#initial-view-options}
 
-These options are organized into three areas: Document Options, Window Options, and User Interface Options. For instructions about accessing the Initial view options, see [Add or edit PDF settings](configuring-pdf-settings.md#add_or_edit_pdf_settings).
+These options are organized into three areas: Document Options, Window Options, and User Interface Options. For instructions about accessing the Initial view options, see [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).
 
 To use any options, select Set Initial View Settings.
 

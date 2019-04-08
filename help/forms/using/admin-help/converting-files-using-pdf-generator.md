@@ -32,7 +32,7 @@ You can use the PDF Generator web pages to convert files.
     
     * If you are uploading a settings file, type its path and name in the box, or click Browse to find and select the file.
 
-1. (Optional) Under XMP Metadata File, type the path and name of the XMP file, or click Browse to find and select the file. An XMP file can be used to include standard metadata information. (See [About XMP files](converting-files-using-pdf-generator.md#about_xmp_files).)
+1. (Optional) Under XMP Metadata File, type the path and name of the XMP file, or click Browse to find and select the file. An XMP file can be used to include standard metadata information. (See [About XMP files](converting-files-using-pdf-generator.md#about-xmp-files).)
 1. Click Create. When the file is created, a link to it appears. If an error occurs during conversion, a warning appears. If you are creating a Postscript file, the warning also contains a link to the log file.
 1. Click the link for the PDF file. The file opens in Acrobat.
 
@@ -79,7 +79,7 @@ If the ZIP file contains more than one HTML file at the lowest level of its fold
     
     * To use an existing settings file, select Upload Settings File and click Browse to go to the file location.
 
-1. To upload an XMP file, click Browse and go to the file location. An XMP file can be used to include standard metadata information. (See [About XMP files](converting-files-using-pdf-generator.md#about_xmp_files).)
+1. To upload an XMP file, click Browse and go to the file location. An XMP file can be used to include standard metadata information. (See [About XMP files](converting-files-using-pdf-generator.md#about-xmp-files).)
 1. Click Create. When the file is created, a link to the PDF file appears.
 1. Click the link to view the PDF document in Acrobat.
 

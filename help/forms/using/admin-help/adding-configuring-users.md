@@ -19,7 +19,7 @@ User and group information is maintained in a third-party storage system, such a
 When you create users, you can add the them to groups and assign roles to the them.
 
 1. In administration console, click Settings &gt; User Management &gt; Users and Groups, and click New User.
-1. Under General Settings, provide information as required, and then click Next. For details about the settings, see [User settings](adding-configuring-users.md#user_settings).
+1. Under General Settings, provide information as required, and then click Next. For details about the settings, see [User settings](adding-configuring-users.md#user-settings).
 1. (Optional) To add the user to a group, click Find Groups, and do these tasks:
 
     * In the Find box, type all or part of the group name.
@@ -119,7 +119,7 @@ Avoid creating user names that begin with a number sign (#). Performing task sea
     * Select the domain, select the number of items to display, and then click Find.
 
 1. Click the user to edit.
-1. For a user who is part of a local or hybrid domain, on the Detail tab, edit the General Settings and Login Settings, and click Save. For details about the settings, see [User settings](adding-configuring-users.md#user_settings). You cannot edit the general and login settings for a user who belongs to an enterprise domain.
+1. For a user who is part of a local or hybrid domain, on the Detail tab, edit the General Settings and Login Settings, and click Save. For details about the settings, see [User settings](adding-configuring-users.md#user-settings). You cannot edit the general and login settings for a user who belongs to an enterprise domain.
 1. To edit the group settings for the user, click the Group Membership tab and do these tasks:
 
     * Click Find Group and complete the search information. 

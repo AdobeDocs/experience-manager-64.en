@@ -66,7 +66,7 @@ This feature is useful when multiple users are collaborating and are saving diff
 
 If this feature is enabled, you can view the related iterations of a document from the Documents page.
 
-1. View the Document Detail page for a document. (See [View information about a document](controlling-access-policy-protected-documents.md#view_information_about_a_document).)
+1. View the Document Detail page for a document. (See [View information about a document](controlling-access-policy-protected-documents.md#view-information-about-a-document).)
 1. Click View Related Iterations. The option is available only if the feature is enabled. The list of related iterations appears. For each iteration, you can view the following information:
 
     * **Iteration:** The filename. It may be different from the original filename and it has a version number appended to the end of it.

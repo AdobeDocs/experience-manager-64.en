@@ -36,7 +36,7 @@ This DDX document merges two PDF documents named *map.pdf* and *directions.pdf* 
 
 >[!NOTE]
 >
->To see a DDX document that disassembles a PDF document, see [Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically_disassembling_pdf_documents).
+>To see a DDX document that disassembles a PDF document, see [Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically-disassembling-pdf-documents).
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Both the map.pdf file and the directions.pdf file must be placed in a collection
 
 >[!NOTE]
 >
->An `*AssemblerResult*` object, which contains a collection object, is returned if you invoke the `*invokeDDX*` operation. This operation is used when you pass two or more input PDF documents to the Assembler service. However, if you pass only one input PDF to the Assembler service and expect only one return document, invoke the `*invokeOneDocument*` operation. When invoking this operation, a single document is returned. For information about using this operation, see [Assembling Encrypted PDF Documents](/help/forms/developing/assembling-encrypted-pdf-documents-assembling assembling-encrypted-pdf-documents-assembling.md#assembling_encrypted_pdf_documents).
+>An `*AssemblerResult*` object, which contains a collection object, is returned if you invoke the `*invokeDDX*` operation. This operation is used when you pass two or more input PDF documents to the Assembler service. However, if you pass only one input PDF to the Assembler service and expect only one return document, invoke the `*invokeOneDocument*` operation. When invoking this operation, a single document is returned. For information about using this operation, see [Assembling Encrypted PDF Documents](/help/forms/developing/assembling-encrypted-pdf-documents-assembling assembling-encrypted-pdf-documents-assembling.md#assembling-encrypted-pdf-documents).
 
 **Set run-time options**
 
@@ -141,15 +141,15 @@ The following table summarizes some of the key values and object types that can 
 
 **See also**
 
-[Assemble PDF documents using the Java API](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#assemble_pdf_documents_using_the_java_api)
+[Assemble PDF documents using the Java API](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#assemble-pdf-documents-using-the-java-api)
 
-[Assemble PDF documents using the web service API](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#assemble_pdf_documents_using_the_web_service_api)
+[Assemble PDF documents using the web service API](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#assemble-pdf-documents-using-the-web-service-api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically_disassembling_pdf_documents)
+[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically-disassembling-pdf-documents)
 
 ## Assemble PDF documents using the Java API {#assemble-pdf-documents-using-the-java-api}
 
@@ -208,7 +208,7 @@ Assemble a PDF document by using the Assembler Service API (Java):
 
 **See also**
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
 [Quick Start (SOAP mode): Assembling a PDF document using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb7.2)
 
@@ -291,7 +291,7 @@ Assemble PDF documents by using the Assembler Service API (web service):
 
 **See also**
 
-[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
 [Quick Start (MTOM): Assembling a PDF document using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb6.2)
 

@@ -27,7 +27,7 @@ The GDS is a directory used to store long-lived files that are used within a pro
 
 Input documents for asynchronous job invocation are also stored in the GDS and must be available to process requests. Therefore, it is important that you consider the reliability of the file system that hosts the GDS and employ a redundant array of independent disks (RAID) or other technology as appropriate for your quality and level of service requirements.
 
-The location of the GDS is determined during the AEM forms installation process or later by using administration console. In addition to keeping a high-availability location for GDS, you can also enable database storage for documents. See [Backup options when database is used for document storage](files-back-recover.md#backup_options_when_database_is_used_for_document_storage).
+The location of the GDS is determined during the AEM forms installation process or later by using administration console. In addition to keeping a high-availability location for GDS, you can also enable database storage for documents. See [Backup options when database is used for document storage](files-back-recover.md#backup-options-when-database-is-used-for-document-storage).
 
 ### GDS location {#gds-location}
 
@@ -172,7 +172,7 @@ When you install Content Services (Deprecated) in a clustered environment, the C
 
 **Index Root directory:** A directory that is created on each node in the cluster, always having the same path and directory name
 
-The default location for the Content Storage Root directory is *[GDS root]*/lccs_data, where *[GDS root]* is the location described in [GDS location](files-back-recover.md#gds_location). Back up the following directories located in the Content Storage Root directory:
+The default location for the Content Storage Root directory is *[GDS root]*/lccs_data, where *[GDS root]* is the location described in [GDS location](files-back-recover.md#gds-location). Back up the following directories located in the Content Storage Root directory:
 
 /audit.contentstore
 

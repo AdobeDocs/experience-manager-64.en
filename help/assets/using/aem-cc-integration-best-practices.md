@@ -324,7 +324,7 @@ Note that this description refers to uploading files operationally (e.g., every 
 
 You can leverage the following capabilities if you want to upload assets in bulk:
 
-* To upload large/hierarchical folders, use AEM Desktop App, which provides a [Folder Upload](/sites/administering/using/aem-desktop-app.md#main-pars_title_f8d7) feature in the AEM Assets Web UI. You can also upload hierarchical folder structures. Assets are uploaded in background and, therefore, it is not tied to a web browser session
+* To upload large/hierarchical folders, use AEM Desktop App, which provides a [Folder Upload](/sites/administering/using/aem-desktop-app.md#main-pars-title-f8d7) feature in the AEM Assets Web UI. You can also upload hierarchical folder structures. Assets are uploaded in background and, therefore, it is not tied to a web browser session
 * If you want to upload a few files from a single folder, drag them directly from desktop to the Web UI or use the Create option in the AEM Assets web UI.
 
 >[!NOTE]

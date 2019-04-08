@@ -32,7 +32,7 @@ An XML element must exist for every form field that you want to prepopulate. The
 
 When you prepopulate a form that already contains data, you must specify the data that is already displayed within the XML data source. Assume that a form containing 10 fields has data in four fields. Next, assume that you want to prepopulate the remaining six fields. In this situation, you must specify 10 XML elements in the XML data source that is used to prepopulate the form. If you specify only six elements, the original four fields are empty.
 
-For example, you can prepopulate a form such as the sample confirmation form. (See “Confirmation form” in [Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms).)
+For example, you can prepopulate a form such as the sample confirmation form. (See “Confirmation form” in [Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms).)
 
 To prepopulate the sample confirmation form, you have to create an XML data source that contains three XML elements that match the three fields in the form. This form contains the following three fields: `FirstName`, `LastName`, and `Amount`. The first step is to create an XML data source that contains XML elements that match the fields located in the form design. The next step is to assign data values to the XML elements, as shown in the following XML code.
 
@@ -180,7 +180,7 @@ Each data subgroup must contain XML elements that match the field names in the s
 
 >[!NOTE]
 >
->If you attempt to prepopulate a form with a data source that contains repeating XML elements and you set the `RenderAtClient` option to `No`, only the first data record is merged into the form. To ensure that all data records are merged into the form, set the `RenderAtClient` to `Yes`. For information about the `RenderAtClient` option, see [Rendering Forms at the Client](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering_forms_at_the_client).
+>If you attempt to prepopulate a form with a data source that contains repeating XML elements and you set the `RenderAtClient` option to `No`, only the first data record is merged into the form. To ensure that all data records are merged into the form, set the `RenderAtClient` to `Yes`. For information about the `RenderAtClient` option, see [Rendering Forms at the Client](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering-forms-at-the-client).
 
 >[!NOTE]
 >
@@ -205,7 +205,7 @@ Include necessary files into your development project. If you are creating a cli
 
 **Create an in-memory XML data source**
 
-You can use `org.w3c.dom` classes to create an in-memory XML data source to prepopulate a form with a flowable layout. You must place data into an XML data source that conforms to the form. For information about the relationship between a form with a flowable layout and the XML data source, see [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding_data_subgroups).
+You can use `org.w3c.dom` classes to create an in-memory XML data source to prepopulate a form with a flowable layout. You must place data into an XML data source that conforms to the form. For information about the relationship between a form with a flowable layout and the XML data source, see [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding-data-subgroups).
 
 **Convert the XML data source**
 
@@ -221,9 +221,9 @@ You render a prepopulated form just like other form. The only difference is that
 
 **See also**
 
-[Prepopulating forms using the Java API](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_using_the_java_api)
+[Prepopulating forms using the Java API](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-using-the-java-api)
 
-[Prepopulating forms using the web service API](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_using_the_web_service_api)
+[Prepopulating forms using the web service API](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-using-the-web-service-api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -231,9 +231,9 @@ You render a prepopulated form just like other form. The only difference is that
 
 [Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
 
 ### Prepopulating forms using the Java API {#prepopulating-forms-using-the-java-api}
 
@@ -257,7 +257,7 @@ To prepopulate a form with a flowable layout by using the Forms API (Java), perf
     * Create a child element that belongs to the header element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the header element by calling the header element’s `appendChild` method, and pass the child element object as an argument. The following lines of code show this application logic:
       ` Element poNum= (Element)document.createElement("txtPONum");  poNum.appendChild(document.createTextNode("8745236985"));  header.appendChild(LastName);`
     
-    * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding_data_subgroups).)
+    * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding-data-subgroups).)
     * Create the XML data source’s detail element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the detail element to the root element by calling the `root` object’s `appendChild` method, and pass the detail element object as an argument. The XML elements that are appended to the detail element correspond to the dynamic portion of the form. The following lines of code show this application logic:
       ` Element detail = (Element)document.createElement("detail");  root.appendChild(detail);`
     
@@ -299,7 +299,7 @@ To prepopulate a form with a flowable layout by using the Forms API (Java), perf
 
 **See also**
 
-[Prepopulating forms with flowable layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_with_flowable_layouts)
+[Prepopulating forms with flowable layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-with-flowable-layouts)
 
 [Quick Start (SOAP mode): Prepopulating Forms with Flowable Layouts using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e24.2)
 
@@ -330,7 +330,7 @@ To prepopulate a form with a flowable layout by using the Forms API (web service
     * Create a child element that belongs to the header element by calling the `Document` object’s `createElement` method, and pass a string value that represents the element’s name. Cast the return value to `Element`. Next, set a value for the child element by calling its `appendChild` method, and pass the `Document` object’s `createTextNode` method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the header element by calling the header element’s `appendChild` method, and pass the child element object as an argument. The following lines of code shows this application logic:
       ` Element poNum= (Element)document.createElement("txtPONum");  poNum.appendChild(document.createTextNode("8745236985"));  header.appendChild(LastName);`
     
-    * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding_data_subgroups).)
+    * Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See [Understanding data subgroups](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#understanding-data-subgroups).)
     * Create the XML data source’s detail element by calling the `Document` object’s `createElement` method. Pass a string value representing the name of the element to the `createElement` method. Cast the return value to `Element`. Next, append the detail element to the root element by calling the `root` object’s `appendChild` method, and pass the detail element object as an argument. The XML elements that are appended to the detail element correspond to the dynamic portion of the form. The following lines of code shows this application logic:
       ` Element detail = (Element)document.createElement("detail");  root.appendChild(detail);`
     
@@ -382,7 +382,7 @@ To prepopulate a form with a flowable layout by using the Forms API (web service
 
 **See also**
 
-[Prepopulating forms with flowable layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_with_flowable_layouts)
+[Prepopulating forms with flowable layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-with-flowable-layouts)
 
 [Quick Start (Base64): Prepopulating Forms with Flowable Layouts using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e23.2)
 

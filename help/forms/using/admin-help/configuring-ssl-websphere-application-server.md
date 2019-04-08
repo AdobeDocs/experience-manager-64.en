@@ -19,7 +19,7 @@ This section includes the following steps to configure SSL with your IBM WebSphe
 
 For enabling SSL, WebSphere needs access to a user account in the local OS user registry that has permission to administer the system:
 
-* (Windows) Create a new Windows user who is part of the Administrators group and has the privilege to act as part of the operating system. (See [Create a Windows user for WebSphere](configuring-ssl-websphere-application-server.md#create_a_windows_user_for_websphere).) 
+* (Windows) Create a new Windows user who is part of the Administrators group and has the privilege to act as part of the operating system. (See [Create a Windows user for WebSphere](configuring-ssl-websphere-application-server.md#create-a-windows-user-for-websphere).) 
 * (Linux, UNIX) The user can be a root user or another user who has root privileges. When you enable SSL on WebSphere, use the server identification and password of this user.
 
 ### Create a Linux or UNIX user for WebSphere {#create-a-linux-or-unix-user-for-websphere}

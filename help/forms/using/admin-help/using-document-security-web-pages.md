@@ -17,7 +17,7 @@ Users and administrators use the document security web pages to create and manag
 
 >[!NOTE]
 >
->You can also log in to document security through Acrobat and other client applications using your user login account. (See [Setting up access to document security from client applications](using-document-security-web-pages.md#setting_up_access_to_document_security_from_client_applications).)
+>You can also log in to document security through Acrobat and other client applications using your user login account. (See [Setting up access to document security from client applications](using-document-security-web-pages.md#setting-up-access-to-document-security-from-client-applications).)
 
 To open the web pages, you require a browser and the URL and your login information for document security. The URL for users is different from the URL for administrators.
 

@@ -15,19 +15,19 @@ discoiquuid: 532e607d-5bc5-4ccc-92c6-30efe1081872
 
 The following Quick Starts are available for the Task Manager service.
 
-[Quick Start (SOAP mode): Assigning tasks using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_assigning_tasks_using_the_java_api)
+[Quick Start (SOAP mode): Assigning tasks using the Java API](task-manager-service-java-api.md#quick-start-soap-mode-assigning-tasks-using-the-java-api)
 
-[Quick Start (SOAP mode): Locking tasks using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_locking_tasks_using_the_java_api)
+[Quick Start (SOAP mode): Locking tasks using the Java API](task-manager-service-java-api.md#quick-start-soap-mode-locking-tasks-using-the-java-api)
 
-[Quick Start (SOAP mode): Retrieving tasks assigned to users using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_retrieving_tasks_assigned_to_users_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving tasks assigned to users using the Java API](task-manager-service-java-api.md#quick-start-soap-mode-retrieving-tasks-assigned-to-users-using-the-java-api)
 
-[Quick Start (SOAP mode): Retrieving form data from tasks using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_retrieving_form_data_from_tasks_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving form data from tasks using the Java API](task-manager-service-java-api.md#quick-start-soap-mode-retrieving-form-data-from-tasks-using-the-java-api)
 
-[Quick Start (SOAP mode): Modifying form data using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_modifying_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Modifying form data using the Java API](task-manager-service-java-api.md#quick-start-soap-mode-modifying-form-data-using-the-java-api)
 
-[Quick Start (SOAP mode): Retrieving file attachments from tasks using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_retrieving_file_attachments_from_tasks_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving file attachments from tasks using the Java API](task-manager-service-java-api.md#quick-start-soap-mode-retrieving-file-attachments-from-tasks-using-the-java-api)
 
-[Quick Start (SOAP mode): Retrieving task information using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_retrieving_task_information_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving task information using the Java API](task-manager-service-java-api.md#quick-start-soap-mode-retrieving-task-information-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
