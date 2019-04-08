@@ -21,8 +21,8 @@ The XMP Utilities service can retrieve and save XMP metadata from PDF documents,
 
 You can accomplish these tasks using the XMP Utilities service:
 
-* Import metadata into PDF documents. (See [Importing Metadata into PDF Documents](xmp-utilities.md#importing_metadata_into_pdf_documents).)
-* Export metadata from PDF documents. (See [Exporting Metadata from PDF Documents](xmp-utilities.md#exporting_metadata_from_pdf_documents).)
+* Import metadata into PDF documents. (See [Importing Metadata into PDF Documents](xmp-utilities.md#importing-metadata-into-pdf-documents).)
+* Export metadata from PDF documents. (See [Exporting Metadata from PDF Documents](xmp-utilities.md#exporting-metadata-from-pdf-documents).)
 
 >[!NOTE]
 >
@@ -131,11 +131,11 @@ After you create the service client, you can invoke one of the XMP metadata impo
 
 **See also**
 
-[Import XMP metadata using the Java API](xmp-utilities.md#import_xmp_metadata_using_the_java_api)
+[Import XMP metadata using the Java API](xmp-utilities.md#import-xmp-metadata-using-the-java-api)
 
-[Importing XMP metadata using the web service API](xmp-utilities.md#importing_xmp_metadata_using_the_web_service_api)
+[Importing XMP metadata using the web service API](xmp-utilities.md#importing-xmp-metadata-using-the-web-service-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -173,9 +173,9 @@ Import XMP metadata by using the XMP Utilities API (Java):
 
 **See also**
 
-[Importing Metadata into PDF Documents](xmp-utilities.md#importing_metadata_into_pdf_documents)
+[Importing Metadata into PDF Documents](xmp-utilities.md#importing-metadata-into-pdf-documents)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -185,8 +185,8 @@ To programmatically import XMP metadata using the XMP Utilities web service API,
 
 1. Include project files
 
-    * Create a Microsoft .NET client assembly that consumes the XMP Utilities service WSDL file. (See [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding).)
-    * Reference the Microsoft .NET client assembly. (See [Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding).)
+    * Create a Microsoft .NET client assembly that consumes the XMP Utilities service WSDL file. (See [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).)
+    * Reference the Microsoft .NET client assembly. (See [Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating-a-net-client-assembly-that-uses-base64-encoding).)
 
 1. Create an XMPUtilityService client
 
@@ -210,13 +210,13 @@ To programmatically import XMP metadata using the XMP Utilities web service API,
 
 **See also**
 
-[Importing Metadata into PDF Documents](xmp-utilities.md#importing_metadata_into_pdf_documents)
+[Importing Metadata into PDF Documents](xmp-utilities.md#importing-metadata-into-pdf-documents)
 
 <!--REVIEW: [Quick Start (Base64): Importing XMP metadata using the web service API](unresolvedlink-lc-qs-xmp-utilities-xu.xml#ws624e3cba99b79e12e69a9941333732bac8-7be8.2)-->
 
-[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
 
-[Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
+[Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating-a-net-client-assembly-that-uses-base64-encoding)
 
 ## Exporting Metadata from PDF Documents {#exporting-metadata-from-pdf-documents}
 
@@ -248,11 +248,11 @@ After you create the service client, you can invoke one of the XMP metadata expo
 
 **See also**
 
-[Import XMP metadata using the Java API](xmp-utilities.md#import_xmp_metadata_using_the_java_api)
+[Import XMP metadata using the Java API](xmp-utilities.md#import-xmp-metadata-using-the-java-api)
 
-[Importing XMP metadata using the web service API](xmp-utilities.md#importing_xmp_metadata_using_the_web_service_api)
+[Importing XMP metadata using the web service API](xmp-utilities.md#importing-xmp-metadata-using-the-web-service-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -280,9 +280,9 @@ Export XMP metadata by using the XMP Utilities API (Java):
 
 **See also**
 
-[Exporting Metadata from PDF Documents](xmp-utilities.md#exporting_metadata_from_pdf_documents)
+[Exporting Metadata from PDF Documents](xmp-utilities.md#exporting-metadata-from-pdf-documents)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -307,8 +307,8 @@ Export XMP metadata by using the XMP Utilities API (web service):
 
 **See also**
 
-[Exporting Metadata from PDF Documents](xmp-utilities.md#exporting_metadata_from_pdf_documents)
+[Exporting Metadata from PDF Documents](xmp-utilities.md#exporting-metadata-from-pdf-documents)
 
-[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
 
-[Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
+[Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating-a-net-client-assembly-that-uses-base64-encoding)

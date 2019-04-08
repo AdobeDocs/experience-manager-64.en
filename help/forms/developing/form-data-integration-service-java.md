@@ -15,9 +15,9 @@ discoiquuid: 91b738ec-aa00-4f05-bf42-2574ced8d993
 
 The following Quick Starts are available for the Form Data Integration service.
 
-[Quick Start (SOAP mode): Importing form data using the Java API](form-data-integration-service-java.md#quick_start_soap_mode_importing_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Importing form data using the Java API](form-data-integration-service-java.md#quick-start-soap-mode-importing-form-data-using-the-java-api)
 
-[Quick Start (SOAP mode): Exporting form data using the Java API](form-data-integration-service-java.md#quick_start_soap_mode_exporting_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Exporting form data using the Java API](form-data-integration-service-java.md#quick-start-soap-mode-exporting-form-data-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -25,7 +25,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Importing form data using the Java API {#quick-start-soap-mode-importing-form-data-using-the-java-api}
 
-The following Java code example imports data into a PDF form. The data is located in an XML file named *Loan_data.xml* and the PDF form is saved as a PDF file named *ResultLoanForm.pdf*. (See [Importing Form Data](/help/forms/developing/importing-exporting-data.md#importing_form_data).)
+The following Java code example imports data into a PDF form. The data is located in an XML file named *Loan_data.xml* and the PDF form is saved as a PDF file named *ResultLoanForm.pdf*. (See [Importing Form Data](/help/forms/developing/importing-exporting-data.md#importing-form-data).)
 
 ```as3
  /* 
@@ -127,7 +127,7 @@ The following Java code example imports data into a PDF form. The data is locate
 
 ## Quick Start (SOAP mode): Exporting form data using the Java API {#quick-start-soap-mode-exporting-form-data-using-the-java-api}
 
-The following Java code example exports data from a PDF form. The form data is saved as an XML file named *Loan_data.xml*. (See [Exporting Form Data](/help/forms/developing/importing-exporting-data.md#exporting_form_data).)
+The following Java code example exports data from a PDF form. The form data is saved as an XML file named *Loan_data.xml*. (See [Exporting Form Data](/help/forms/developing/importing-exporting-data.md#exporting-form-data).)
 
 ```as3
  /* 

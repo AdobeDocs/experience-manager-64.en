@@ -200,7 +200,7 @@ class MyComponent extends Component {
 MapTo('component/resource/path')(MyComponent, EditConfig);
 ```
 
-In the above implementation, the project component is extended with the emptiness functionality before the being actually registered in the [Component Mapping](../../../sites/developing/using/spa-blueprint.md#componentmapping) store. This is done by encapsulating and extending the ` [ComponentMapping](/content.md#main-pars_header_906602219)` library to introduce the support of the `EditConfig` configuration object:
+In the above implementation, the project component is extended with the emptiness functionality before the being actually registered in the [Component Mapping](../../../sites/developing/using/spa-blueprint.md#componentmapping) store. This is done by encapsulating and extending the ` [ComponentMapping](/content.md#main-pars-header-906602219)` library to introduce the support of the `EditConfig` configuration object:
 
 ```
 /**

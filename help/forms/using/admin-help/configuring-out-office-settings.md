@@ -34,14 +34,14 @@ When creating a process, the Workbench user can specify whether a task can be re
 
 ## Change a user’s out of office status {#change-a-user-s-out-of-office-status}
 
-1. Find the user, as described in [View a user’s Out of Office information](configuring-out-office-settings.md#view_a_user_s_out_of_office_information).
+1. Find the user, as described in [View a user’s Out of Office information](configuring-out-office-settings.md#view-a-user-s-out-of-office-information).
 1. Click the name of the user who you want to change.
 1. From the *User Name* is currently list, select either In the Office or Out of the Office.
 1. Click Save.
 
 ## Add an Out of Office date range for a user {#add-an-out-of-office-date-range-for-a-user}
 
-1. Find the user, as described in [View a user’s Out of Office information](configuring-out-office-settings.md#view_a_user_s_out_of_office_information).
+1. Find the user, as described in [View a user’s Out of Office information](configuring-out-office-settings.md#view-a-user-s-out-of-office-information).
 1. Click the name of the user who you want to change.
 1. Click Add Date Range.
 1. Enter a Start Time and End Time. You can click the Calendar icon to select a date. If you do not specify an end time, the user will be set as out of office indefinitely.
@@ -56,7 +56,7 @@ While a user is out of the office, you can assign one or more users to perform a
 * Assign a default user who will receive most of the user’s tasks, but specify that tasks from certain processes are reassigned to other users or remain assigned to the user who is out of the office.
 * Do not assign a default user, but assign certain tasks from certain processes to specific users.
 
-    1. Find the user, as described in [View a user’s Out of Office information](configuring-out-office-settings.md#view_a_user_s_out_of_office_information).
+    1. Find the user, as described in [View a user’s Out of Office information](configuring-out-office-settings.md#view-a-user-s-out-of-office-information).
     1. Click the name of the user who you want to change.
     1. In the Default User For Out of Office Tasks list, select a user from the list. If you do not want to designate a default user to receive reassigned items, select Do Not Assign.
 

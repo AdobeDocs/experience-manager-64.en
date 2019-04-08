@@ -98,5 +98,5 @@ Modules and AEM forms archive files are packaged in JAR files. Because they are 
 
 >[!NOTE]
 >
->Before you deploy the service containers, ensure that you created and configured the GDS directory. (See [Configuring the GDS directory](global-document-storage-directory.md#configuring_the_gds_directory))
+>Before you deploy the service containers, ensure that you created and configured the GDS directory. (See [Configuring the GDS directory](global-document-storage-directory.md#configuring-the-gds-directory))
 

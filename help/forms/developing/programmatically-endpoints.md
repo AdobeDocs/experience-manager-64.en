@@ -34,15 +34,15 @@ The Endpoint Registry service provides the ability to programmatically manage en
 
   You can accomplish these tasks using the Endpoint Registry service:
 
-* Add EJB endpoints. (See [Adding EJB Endpoints](programmatically-endpoints.md#adding_ejb_endpoints).) 
-* Add SOAP endpoints. (See [Adding SOAP Endpoints](programmatically-endpoints.md#adding_soap_endpoints).)
-* Add Watched Folder endpoints (See [Adding Watched Folder Endpoints](programmatically-endpoints.md#adding_watched_folder_endpoints).)
-* Add Email endpoints. (See [Adding Email Endpoints](programmatically-endpoints.md#adding_email_endpoints).)
-* Add Remoting endpoints. (See [Adding Remoting Endpoints](programmatically-endpoints.md#adding_remoting_endpoints).)
-* Add TaskManager endpoints (See [Adding TaskManager Endpoints](programmatically-endpoints.md#adding_taskmanager_endpoints).)
-* Modify endpoints (See [Modifying Endpoints](programmatically-endpoints.md#modifying_endpoints).)
-* Remove endpoints (See [Removing Endpoints](programmatically-endpoints.md#removing_endpoints).)
-* Retrieve endpoint connector information (See [Retrieving Endpoint Connector Information](programmatically-endpoints.md#retrieving_endpoint_connector_information).)
+* Add EJB endpoints. (See [Adding EJB Endpoints](programmatically-endpoints.md#adding-ejb-endpoints).) 
+* Add SOAP endpoints. (See [Adding SOAP Endpoints](programmatically-endpoints.md#adding-soap-endpoints).)
+* Add Watched Folder endpoints (See [Adding Watched Folder Endpoints](programmatically-endpoints.md#adding-watched-folder-endpoints).)
+* Add Email endpoints. (See [Adding Email Endpoints](programmatically-endpoints.md#adding-email-endpoints).)
+* Add Remoting endpoints. (See [Adding Remoting Endpoints](programmatically-endpoints.md#adding-remoting-endpoints).)
+* Add TaskManager endpoints (See [Adding TaskManager Endpoints](programmatically-endpoints.md#adding-taskmanager-endpoints).)
+* Modify endpoints (See [Modifying Endpoints](programmatically-endpoints.md#modifying-endpoints).)
+* Remove endpoints (See [Removing Endpoints](programmatically-endpoints.md#removing-endpoints).)
+* Retrieve endpoint connector information (See [Retrieving Endpoint Connector Information](programmatically-endpoints.md#retrieving-endpoint-connector-information).)
 
 ## Adding EJB Endpoints {#adding-ejb-endpoints}
 
@@ -75,7 +75,7 @@ Include necessary files in your development project. The following JAR files mus
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create an EndpointRegistry Client object **
 
@@ -101,9 +101,9 @@ After you create a new endpoint, you must enable it. After you enable the endpoi
 
 **See also**
 
-[Adding an EJB endpoint using the Java API](programmatically-endpoints.md#adding_an_ejb_endpoint_using_the_java_api)
+[Adding an EJB endpoint using the Java API](programmatically-endpoints.md#adding-an-ejb-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -139,11 +139,11 @@ Add an EJB endpoint by using the Java API:
 
 **See also**
 
-[Summary of steps](programmatically-endpoints.md#summary_of_steps)
+[Summary of steps](programmatically-endpoints.md#summary-of-steps)
 
-[QuickStart: Adding an EJB endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_an_ejb_endpoint_using_the_java_api)
+[QuickStart: Adding an EJB endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-an-ejb-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -180,7 +180,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-These JAR files are required to create a SOAP endpoint. However, you require addition JAR files if you use the SOAP endpoint to invoke the service. For information about AEM Forms JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+These JAR files are required to create a SOAP endpoint. However, you require addition JAR files if you use the SOAP endpoint to invoke the service. For information about AEM Forms JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create an EndpointRegistry Client object **
 
@@ -206,9 +206,9 @@ After you create a new endpoint, you must enable it. When the endpoint is enable
 
 **See also**
 
-[Add a SOAP endpoint using the Java API](programmatically-endpoints.md#add_a_soap_endpoint_using_the_java_api)
+[Add a SOAP endpoint using the Java API](programmatically-endpoints.md#add-a-soap-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -244,11 +244,11 @@ Add a SOAP endpoint to a service by using the Java API:
 
 **See also**
 
-[Summary of steps](programmatically-endpoints.md#summary_of_steps)
+[Summary of steps](programmatically-endpoints.md#summary-of-steps)
 
-[QuickStart: Adding a SOAP endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_a_soap_endpoint_using_the_java_api)
+[QuickStart: Adding a SOAP endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-a-soap-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -256,7 +256,7 @@ Add a SOAP endpoint to a service by using the Java API:
 
 You can programmatically add a Watched Folder endpoint to a service by using the AEM Forms Java API. By adding a Watched Folder endpoint, you enable users to place a file (such as a PDF file) in a folder. When the file is placed in the folder, the configured service is then invoked and manipulates the file. After the service performs the specified operation, it saves the modified file in a specified output folder. A watched folder is configured to be scanned at a fixed rate interval or with a cron schedule, such as every Monday, Wednesday, and Friday at noon.
 
-For the purposes of programmatically adding a Watched Folder endpoint to a service, consider the following short-lived process named *EncryptDocument*. (See [Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md#understanding_aem_forms_processes).) 
+For the purposes of programmatically adding a Watched Folder endpoint to a service, consider the following short-lived process named *EncryptDocument*. (See [Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md#understanding-aem-forms-processes).) 
 
 ![](assets/aw_aw_encryptdocumentprocess.png)
 
@@ -290,7 +290,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server) 
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create an EndpointRegistry Client object **
 
@@ -374,9 +374,9 @@ After you create a Watched Folder endpoint, you must enable it. When the endpoin
 
 **See also**
 
-[Add a Watched Folder endpoint using the Java API](programmatically-endpoints.md#add_a_watched_folder_endpoint_using_the_java_api)
+[Add a Watched Folder endpoint using the Java API](programmatically-endpoints.md#add-a-watched-folder-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -411,7 +411,7 @@ Add a Watched Folder endpoint by using the AEM Forms Java API:
 
    >[!NOTE]
    >
-   >To see all the configuration values set for the EncryptDocument service, see the Java code example located at [QuickStart: Adding a Watched Folder endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_a_watched_folder_endpoint_using_the_java_api).
+   >To see all the configuration values set for the EncryptDocument service, see the Java code example located at [QuickStart: Adding a Watched Folder endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-a-watched-folder-endpoint-using-the-java-api).
 
 1. Define input parameter values.
 
@@ -444,17 +444,17 @@ Add a Watched Folder endpoint by using the AEM Forms Java API:
 
 **See also**
 
-[Summary of steps](programmatically-endpoints.md#summary_of_steps)
+[Summary of steps](programmatically-endpoints.md#summary-of-steps)
 
-[QuickStart: Adding a Watched Folder endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_a_watched_folder_endpoint_using_the_java_api)
+[QuickStart: Adding a Watched Folder endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-a-watched-folder-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Watched folder configuration values constant file {#watched-folder-configuration-values-constant-file}
 
-The [QuickStart: Adding a Watched Folder endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_a_watched_folder_endpoint_using_the_java_api) uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding a Watched Folder endpoint. The following Java code represents the constant file. For information about these configuration values, see [Specify configuration values](unresolvedlink-lc-ep-add-watched-folder-endpoints-aw.xml#ws624e3cba99b79e12e69a9941333732bac8-6f85.2).
+The [QuickStart: Adding a Watched Folder endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-a-watched-folder-endpoint-using-the-java-api) uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding a Watched Folder endpoint. The following Java code represents the constant file. For information about these configuration values, see [Specify configuration values](unresolvedlink-lc-ep-add-watched-folder-endpoints-aw.xml#ws624e3cba99b79e12e69a9941333732bac8-6f85.2).
 
 ```as3
  /** 
@@ -489,7 +489,7 @@ The [QuickStart: Adding a Watched Folder endpoint using the Java API](/help/form
 
 You can programmatically add an Email endpoint to a service by using the AEM Forms Java API. By adding an Email endpoint, you enable users to send an email message with one or more file attachments to a specified email account. Then the configure service operation is invoked and manipulates the files. After the service performs the specified operation, it sends an email message to the sender with the modified files as file attachments.
 
-For the purposes of programmatically adding an Email endpoint to a service, consider the following short-lived process named *MyApplication\EncryptDocument*. For information about short-lived processes, see [Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md#understanding_aem_forms_processes).
+For the purposes of programmatically adding an Email endpoint to a service, consider the following short-lived process named *MyApplication\EncryptDocument*. For information about short-lived processes, see [Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md#understanding-aem-forms-processes).
 
 ![](assets/ae_ae_encryptdocumentprocess.png)
 
@@ -523,7 +523,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create an EndpointRegistry Client object **
 
@@ -619,9 +619,9 @@ After you create an Email endpoint, you must enable it. When the endpoint is ena
 
 **See also**
 
-[Add an Email endpoint using the Java API](programmatically-endpoints.md#add_an_email_endpoint_using_the_java_api)
+[Add an Email endpoint using the Java API](programmatically-endpoints.md#add-an-email-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -656,7 +656,7 @@ Add an Email endpoint by using the Java API:
 
    >[!NOTE]
    >
-   >To see all the configuration values set for the EncryptDocument service introduced in this section, see the Java code example located at [QuickStart: Adding an Email endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_an_email_endpoint_using_the_java_api).
+   >To see all the configuration values set for the EncryptDocument service introduced in this section, see the Java code example located at [QuickStart: Adding an Email endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-an-email-endpoint-using-the-java-api).
 
 1. Define input parameter values.
 
@@ -689,17 +689,17 @@ Add an Email endpoint by using the Java API:
 
 **See also**
 
-[Summary of steps](programmatically-endpoints.md#summary_of_steps)
+[Summary of steps](programmatically-endpoints.md#summary-of-steps)
 
-[QuickStart: Adding a Watched Folder endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_a_watched_folder_endpoint_using_the_java_api)
+[QuickStart: Adding a Watched Folder endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-a-watched-folder-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Email configuration values constant file {#email-configuration-values-constant-file}
 
-The [QuickStart: Adding an Email endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_an_email_endpoint_using_the_java_api) uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding an email endpoint. The following Java code represents the constant file. For information about these configuration values, see [Specify configuration values](unresolvedlink-lc-ep-add-email-endpoints-ae.xml#ws624e3cba99b79e12e69a9941333732bac8-6f73.2).
+The [QuickStart: Adding an Email endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-an-email-endpoint-using-the-java-api) uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding an email endpoint. The following Java code represents the constant file. For information about these configuration values, see [Specify configuration values](unresolvedlink-lc-ep-add-email-endpoints-ae.xml#ws624e3cba99b79e12e69a9941333732bac8-6f73.2).
 
 ```as3
  /** 
@@ -743,7 +743,7 @@ The [QuickStart: Adding an Email endpoint using the Java API](/help/forms/develo
 >
 >LiveCycle Remoting APIs deprecated for AEM forms on JEE.
 
-You can programmatically add a Remoting endpoint to a service by using the AEM Forms Java API. By adding a Remoting endpoint, you are enabling a Flex application to invoke the service by using remoting. (See [Invoking AEM Forms Using (Deprecated for AEM forms) AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting).)
+You can programmatically add a Remoting endpoint to a service by using the AEM Forms Java API. By adding a Remoting endpoint, you are enabling a Flex application to invoke the service by using remoting. (See [Invoking AEM Forms Using (Deprecated for AEM forms) AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting).)
 
 For the purposes of programmatically adding a Remoting endpoint to a service, consider the following short-lived process named *EncryptDocument*.
 
@@ -778,7 +778,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create an EndpointRegistry Client object **
 
@@ -804,9 +804,9 @@ After you create a new endpoint, you must enable it. When a Remoting endpoint is
 
 **See also**
 
-[Add a Remoting endpoint using the Java API](programmatically-endpoints.md#add_a_remoting_endpoint_using_the_java_api)
+[Add a Remoting endpoint using the Java API](programmatically-endpoints.md#add-a-remoting-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -842,11 +842,11 @@ Add a Remoting endpoint by using the Java API:
 
 **See also**
 
-[Summary of steps](programmatically-endpoints.md#summary_of_steps)
+[Summary of steps](programmatically-endpoints.md#summary-of-steps)
 
-[QuickStart: Adding a Remoting endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_a_remoting_endpoint_using_the_java_api)
+[QuickStart: Adding a Remoting endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-a-remoting-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -880,7 +880,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create an EndpointRegistry Client object **
 
@@ -915,9 +915,9 @@ After you create a new endpoint, you must enable it. When the endpoint is enable
 
 **See also**
 
-[Add a TaskManager endpoint using the Java API](programmatically-endpoints.md#add_a_taskmanager_endpoint_using_the_java_api)
+[Add a TaskManager endpoint using the Java API](programmatically-endpoints.md#add-a-taskmanager-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -963,17 +963,17 @@ Add a TaskManager endpoint by using the Java API:
 
 **See also**
 
-[Summary of steps](programmatically-endpoints.md#summary_of_steps)
+[Summary of steps](programmatically-endpoints.md#summary-of-steps)
 
-[QuickStart: Adding a TaskManager endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_adding_a_taskmanager_endpoint_using_the_java_api)
+[QuickStart: Adding a TaskManager endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-adding-a-taskmanager-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Modifying Endpoints {#modifying-endpoints}
 
-You can programmatically modify an existing endpoint by using the AEM Forms Java API. By modifying an endpoint, you can change the behaviour of the endpoint. Consider, for example, a Watched Folder endpoint that specifies a folder that is used as the watched folder. You can programmatically modify configuration values that belong to the Watched Folder endpoint, resulting in another folder functioning as the watched folder. For information about configuration values that belong to a Watched Folder endpoint, see [Adding Watched Folder Endpoints](programmatically-endpoints.md#adding_watched_folder_endpoints).
+You can programmatically modify an existing endpoint by using the AEM Forms Java API. By modifying an endpoint, you can change the behaviour of the endpoint. Consider, for example, a Watched Folder endpoint that specifies a folder that is used as the watched folder. You can programmatically modify configuration values that belong to the Watched Folder endpoint, resulting in another folder functioning as the watched folder. For information about configuration values that belong to a Watched Folder endpoint, see [Adding Watched Folder Endpoints](programmatically-endpoints.md#adding-watched-folder-endpoints).
 
 To demonstrate how to modify an endpoint, this section modifies a Watched Folder endpoint by changing the folder that behaves as the watched folder.
 
@@ -1001,7 +1001,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create an EndpointRegistry Client object **
 
@@ -1015,21 +1015,21 @@ You can retrieve an endpoint by retrieving a list of endpoints. You can then ite
 
 **Specify new configuration values**
 
-When modifying an endpoint, specify new configuration values. For example, to modify a Watched Folder endpoint, reset all Watched Folder endpoint configuration values, not just the ones that you want to modify. For information about configuration values that belong to a Watched Folder endpoint, see [Adding Watched Folder Endpoints](programmatically-endpoints.md#adding_watched_folder_endpoints).
+When modifying an endpoint, specify new configuration values. For example, to modify a Watched Folder endpoint, reset all Watched Folder endpoint configuration values, not just the ones that you want to modify. For information about configuration values that belong to a Watched Folder endpoint, see [Adding Watched Folder Endpoints](programmatically-endpoints.md#adding-watched-folder-endpoints).
 
 >[!NOTE]
 >
->For information about configuration values that belong to an Email endpoint, see [Adding Email Endpoints](programmatically-endpoints.md#adding_email_endpoints).
+>For information about configuration values that belong to an Email endpoint, see [Adding Email Endpoints](programmatically-endpoints.md#adding-email-endpoints).
 
 >[!NOTE]
 >
->You cannot modify the service that is invoked by the endpoint. If you attempt to modify the service, an exception is thrown. To modify the service associated with a given endpoint, remove the endpoint and create a new one. (See [Removing Endpoints](programmatically-endpoints.md#removing_endpoints).)
+>You cannot modify the service that is invoked by the endpoint. If you attempt to modify the service, an exception is thrown. To modify the service associated with a given endpoint, remove the endpoint and create a new one. (See [Removing Endpoints](programmatically-endpoints.md#removing-endpoints).)
 
 **See also**
 
-[Modifying an endpoint using the Java API](programmatically-endpoints.md#modifying_an_endpoint_using_the_java_api)
+[Modifying an endpoint using the Java API](programmatically-endpoints.md#modifying-an-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1065,11 +1065,11 @@ Modify an endpoint by using the Java API:
 
 **See also**
 
-[Summary of steps](programmatically-endpoints.md#summary_of_steps)
+[Summary of steps](programmatically-endpoints.md#summary-of-steps)
 
-[QuickStart: Modifying an endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_modifying_an_endpoint_using_the_java_api)
+[QuickStart: Modifying an endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-modifying-an-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1103,7 +1103,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server) 
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create an EndpointRegistry Client object **
 
@@ -1121,9 +1121,9 @@ After you create a new endpoint, you must enable it. When the endpoint is enable
 
 **See also**
 
-[Removing an endpoint using the Java API](programmatically-endpoints.md#removing_an_endpoint_using_the_java_api)
+[Removing an endpoint using the Java API](programmatically-endpoints.md#removing-an-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1155,11 +1155,11 @@ Remove an endpoint by using the Java API:
 
 **See also**
 
-[Summary of steps](programmatically-endpoints.md#summary_of_steps)
+[Summary of steps](programmatically-endpoints.md#summary-of-steps)
 
-[QuickStart: Removing an endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_removing_an_endpoint_using_the_java_api)
+[QuickStart: Removing an endpoint using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-removing-an-endpoint-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1167,7 +1167,7 @@ Remove an endpoint by using the Java API:
 
 You can programmatically retrieve information about endpoint connectors using the AEM Forms API. A connector enables an endpoint to invoke a service using various invocation methods. For example, a Watched Folder connector enables an endpoint to invoke a service using watched folders. By programmatically retrieving information about endpoint connectors, you can retrieve configuration values associated with a connector such as which configuration values are required and which ones are optional.
 
-To demonstrate how to retrieve information about endpoint connectors, this section retrieves information about a Watched Folder connector. (See [Adding Watched Folder Endpoints](programmatically-endpoints.md#adding_watched_folder_endpoints).)
+To demonstrate how to retrieve information about endpoint connectors, this section retrieves information about a Watched Folder connector. (See [Adding Watched Folder Endpoints](programmatically-endpoints.md#adding-watched-folder-endpoints).)
 
 >[!NOTE]
 >
@@ -1197,7 +1197,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server) 
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-If AEM Forms is deployed on a supported J2EE application server that is not JBoss, then replace adobe-utilities.jar and jbossall-client.jar with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
+If AEM Forms is deployed on a supported J2EE application server that is not JBoss, then replace adobe-utilities.jar and jbossall-client.jar with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create an ConnectorRegistry Client object **
 
@@ -1220,9 +1220,9 @@ After you specify the connector type, you can retrieve information about the con
 
 **See also**
 
-[Retrieve endpoint connector information using the Java API](programmatically-endpoints.md#retrieve_endpoint_connector_information_using_the_java_api)
+[Retrieve endpoint connector information using the Java API](programmatically-endpoints.md#retrieve-endpoint-connector-information-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
@@ -1250,10 +1250,10 @@ Retrieve endpoint connector information by using the Java API:
 
 **See also**
 
-[Summary of steps](programmatically-endpoints.md#summary_of_steps)
+[Summary of steps](programmatically-endpoints.md#summary-of-steps)
 
-[QuickStart: Retrieving endpoint connector information using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart_retrieving_endpoint_connector_information_using_the_java_api)
+[QuickStart: Retrieving endpoint connector information using the Java API](/help/forms/developing/endpoint-registry-java-api-quick.md#quickstart-retrieving-endpoint-connector-information-using-the-java-api)
 
-[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)

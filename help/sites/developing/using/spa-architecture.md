@@ -28,7 +28,7 @@ Developing single page applications on AEM assumes that the front-end developer 
 * ** [Portability](../../../sites/developing/using/spa-architecture.md#portability) -** As with any components, the components should be built to be as portable as possible. The SPA should be built with portably and reusable components, avoiding static paths that refer to the content structure.
 * ** [AEM Drives Site Structure](../../../sites/developing/using/spa-architecture.md#aem-drives-site-structure) - **The front-end developer creates components and owns their internal structure, but relies on AEM to define the content structure of the site.
 * ** [Dynamic Rendering](../../../sites/developing/using/spa-architecture.md#dynamic-rendering) -** All rendering should be dynamic.
-* ** [Dynamic Routing](/content.md#main-pars_header_1105486143) -** The SPA is responsible for the routing and AEM listens to it and fetches the component data based on it. Any routing should be dynamic as well.
+* ** [Dynamic Routing](/content.md#main-pars-header-1105486143) -** The SPA is responsible for the routing and AEM listens to it and fetches the component data based on it. Any routing should be dynamic as well.
 
 If you keep these principles in mind as you develop your SPA, it will be as flexible and as future proof as possible while enabling all supported AEM authoring functionality.
 

@@ -15,9 +15,9 @@ discoiquuid: 813162be-dbf5-4dc1-80ff-e37dbc25ef60
 
 Java API Quick Start(SOAP) are available for the Backup and Restore Service API.
 
-[Quick Start: Entering backup mode using the Java API(SOAP)](backup-restore-service-api-quick.md#quick_start_soap_mode_entering_backup_mode_using_the_java_api)
+[Quick Start: Entering backup mode using the Java API(SOAP)](backup-restore-service-api-quick.md#quick-start-soap-mode-entering-backup-mode-using-the-java-api)
 
-[Quick Start: Leaving backup mode using the Java API(SOAP)](backup-restore-service-api-quick.md#quick_start_soap_mode_leaving_backup_mode_using_the_java_api)
+[Quick Start: Leaving backup mode using the Java API(SOAP)](backup-restore-service-api-quick.md#quick-start-soap-mode-leaving-backup-mode-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -25,7 +25,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Entering backup mode using the Java API {#quick-start-soap-mode-entering-backup-mode-using-the-java-api}
 
-The following Java code example enters into backup mode with a unique label for two hours. After the backup time expires or if backup mode is explicitly exited, the forms server returns to purging files from the Global Document Storage. (See [Entering Backup Mode on the forms server](/help/forms/developing/preparing-aem-forms-backup.md#entering_backup_mode_on_the_forms_server).)
+The following Java code example enters into backup mode with a unique label for two hours. After the backup time expires or if backup mode is explicitly exited, the forms server returns to purging files from the Global Document Storage. (See [Entering Backup Mode on the forms server](/help/forms/developing/preparing-aem-forms-backup.md#entering-backup-mode-on-the-forms-server).)
 
 ```as3
  /* 
@@ -140,7 +140,7 @@ The following Java code example enters into backup mode with a unique label for 
 
 ## Quick Start (SOAP mode): Leaving backup mode using the Java API {#quick-start-soap-mode-leaving-backup-mode-using-the-java-api}
 
-The following Java code example explicitly causes a Forms Server to leave backup mode and return to purging files from the Global Document Storage. (See [Leaving Backup Mode on the forms server](/help/forms/developing/preparing-aem-forms-backup.md#leaving_backup_mode_on_the_forms_server).)
+The following Java code example explicitly causes a Forms Server to leave backup mode and return to purging files from the Global Document Storage. (See [Leaving Backup Mode on the forms server](/help/forms/developing/preparing-aem-forms-backup.md#leaving-backup-mode-on-the-forms-server).)
 
 ```as3
  /* 

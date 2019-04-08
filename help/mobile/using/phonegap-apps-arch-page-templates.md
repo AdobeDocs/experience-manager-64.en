@@ -237,7 +237,7 @@ In components driven by JSON data (such as 'ng-text': /libs/mobileapps/component
 
 ### controller.js.jsp {#controller-js-jsp-1}
 
-As described in [AEM Page Templates](/content/docs/en/aem/6-2/develop/mobile/apps/apps-arch.md#par_title), each component can output a JavaScript fragment to consume the JSON content exposed by the `data` promise. Following Angular conventions, a controller should only be used for assigning variables to the scope.
+As described in [AEM Page Templates](/content/docs/en/aem/6-2/develop/mobile/apps/apps-arch.md#par-title), each component can output a JavaScript fragment to consume the JSON content exposed by the `data` promise. Following Angular conventions, a controller should only be used for assigning variables to the scope.
 
 ### angular.json.jsp {#angular-json-jsp}
 

@@ -15,9 +15,9 @@ discoiquuid: bdd9bb56-14f6-448b-be4a-7c11f670e901
 
 The following Quick Starts are available for the Convert PDF service API.
 
-[Quick Start (SOAP mode): Converting a PDF document to PostScript using the Java API](convert-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_postscript_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PDF document to PostScript using the Java API](convert-pdf-service-java-api.md#quick-start-soap-mode-converting-a-pdf-document-to-postscript-using-the-java-api)
 
-[Quick Start (SOAP mode): Converting a PDF document to JPEG files using the Java API](convert-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_jpeg_files_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PDF document to JPEG files using the Java API](convert-pdf-service-java-api.md#quick-start-soap-mode-converting-a-pdf-document-to-jpeg-files-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -25,7 +25,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Converting a PDF document to PostScript using the Java API {#quick-start-soap-mode-converting-a-pdf-document-to-postscript-using-the-java-api}
 
-The following code example converts a PDF document called *Loan.pdf* to a PostScript document called *Loan.ps*. (See [Converting PDF Documents to PostScript](/help/forms/developing/converting-pdf-postscript-image-files.md#converting_pdf_documents_to_postscript).)
+The following code example converts a PDF document called *Loan.pdf* to a PostScript document called *Loan.ps*. (See [Converting PDF Documents to PostScript](/help/forms/developing/converting-pdf-postscript-image-files.md#converting-pdf-documents-to-postscript).)
 
 ```as3
  /* 
@@ -140,7 +140,7 @@ The following code example converts a PDF document called *Loan.pdf* to a PostSc
 
 ## Quick Start (SOAP mode): Converting a PDF document to JPEG files using the Java API {#quick-start-soap-mode-converting-a-pdf-document-to-jpeg-files-using-the-java-api}
 
-The following Java code example converts a PDF document called *Loan.pdf* to a set of JPEG files and stores them in the C:\Adobe directory. Each file is named *tempFile[index].jpg*, where the first image file is named *tempFile0.jpg*. (See [Converting PDF Documents to Image Formats](/help/forms/developing/converting-pdf-postscript-image-files.md#converting_pdf_documents_to_image_formats).)
+The following Java code example converts a PDF document called *Loan.pdf* to a set of JPEG files and stores them in the C:\Adobe directory. Each file is named *tempFile[index].jpg*, where the first image file is named *tempFile0.jpg*. (See [Converting PDF Documents to Image Formats](/help/forms/developing/converting-pdf-postscript-image-files.md#converting-pdf-documents-to-image-formats).)
 
 ```as3
  /* 

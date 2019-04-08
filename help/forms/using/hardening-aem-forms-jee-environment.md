@@ -916,7 +916,7 @@ For information about WebSphere ports that AEM Forms on JEE requires, go to Port
 
 ### Configuring SSL {#configuring-ssl}
 
-Referring to the physical architecture that is described in the section [AEM Forms on JEE physical architecture](hardening-aem-forms-jee-environment.md#aem_forms_on_jee_physical_architecture), you should configure SSL for all of the connections that you plan to use. Specifically, all SOAP connections must be conducted over SSL to prevent exposure of user credentials on a network.
+Referring to the physical architecture that is described in the section [AEM Forms on JEE physical architecture](hardening-aem-forms-jee-environment.md#aem-forms-on-jee-physical-architecture), you should configure SSL for all of the connections that you plan to use. Specifically, all SOAP connections must be conducted over SSL to prevent exposure of user credentials on a network.
 
 For instructions on how to configure SSL on JBoss, WebLogic, and WebSphere, see “Configuring SSL” in the [administration help](https://www.adobe.com/go/learn_aemforms_admin_64).
 

@@ -27,7 +27,7 @@ After you connect your AEM instance with AEM Forms Conversion Service, you can c
 
 * [Upload PDF forms to your AEM Forms server](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#upload-pdf-forms-to-your-aem-forms-server)
 * [Run the conversion](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#run-the-conversion)
-* [Review and correct the converted forms](/content.md#main-pars_header_1485925451)
+* [Review and correct the converted forms](/content.md#main-pars-header-1485925451)
 
 ### Upload PDF forms to your AEM Forms server {#upload-pdf-forms-to-your-aem-forms-server}
 

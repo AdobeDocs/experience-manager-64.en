@@ -441,7 +441,7 @@ Like with the login path, there is no public API to retrieve the inherited authe
 >
 >It is recommended to rely on the inheritance mechanism both for authentication requirements and login path and avoid creation of nested auth requirements.
 >
->For more information see [Evaluation and Inheritance of Authentication Requirement](/content.md#contentbody_title_1715134837), [Evaluation of Login Path](/content.md#contentbody_title_914954954) and [Best Practices](/content.md#contentbody_title_1658415695).
+>For more information see [Evaluation and Inheritance of Authentication Requirement](/content.md#contentbody-title-1715134837), [Evaluation of Login Path](/content.md#contentbody-title-914954954) and [Best Practices](/content.md#contentbody-title-1658415695).
 
 ```java
 String path = [...]

@@ -22,7 +22,7 @@ The JSON Export is based on [Sling Models](https://sling.apache.org/documentatio
 This means that the component must have a Sling Model if it needs to export JSON. Therefore you will need to follow these two steps to enable JSON export on any component.
 
 * [Define a Sling Model for the component](../../../sites/developing/using/json-exporter-components.md#define-a-sling-model-for-the-component)
-* [Annotate the Sling Model interface](/content.md#contentbody_title_820975085)
+* [Annotate the Sling Model interface](/content.md#contentbody-title-820975085)
 
 ## Define a Sling Model for the Component {#define-a-sling-model-for-the-component}
 

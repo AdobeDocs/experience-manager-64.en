@@ -15,7 +15,7 @@ discoiquuid: 59dd61d1-c6b1-4bea-b666-4aa7897384a1
 
 Java API Quick Start(SOAP) is available for the Distiller® service:
 
-[Quick Start (SOAP mode): Converting a PostScript file to a PDF document using the Java API](distiller-service-java-api-quick.md#quick_start_soap_mode_converting_a_postscript_file_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PostScript file to a PDF document using the Java API](distiller-service-java-api-quick.md#quick-start-soap-mode-converting-a-postscript-file-to-a-pdf-document-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
@@ -23,7 +23,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Converting a PostScript file to a PDF document using the Java API {#quick-start-soap-mode-converting-a-postscript-file-to-a-pdf-document-using-the-java-api}
 
-The following code example converts a PostScript file called *Loan.ps *to a PDF file called *Loan.pdf*. (See [Converting PostScript to PDF documents](/help/forms/developing/converting-postscript-pdf-documents.md#converting_postscript_to_pdf_documents).)
+The following code example converts a PostScript file called *Loan.ps *to a PDF file called *Loan.pdf*. (See [Converting PostScript to PDF documents](/help/forms/developing/converting-postscript-pdf-documents.md#converting-postscript-to-pdf-documents).)
 
 ```as3
  /* 

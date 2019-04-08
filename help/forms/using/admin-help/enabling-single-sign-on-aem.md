@@ -23,7 +23,7 @@ If AEM forms cannot authenticate a user by using either of these methods, the us
 
 You can use the Portal Configuration page to enable single sign-on (SSO) between applications and any application that supports conveying the identity over HTTP header. When SSO is implemented, the AEM forms user login pages are not required and do not appear if the user is already authenticated through their company portal.
 
-You can also enable SSO by using SPNEGO. (See [Enable SSO using SPNEGO](enabling-single-sign-on-aem.md#enable_sso_using_spnego).)
+You can also enable SSO by using SPNEGO. (See [Enable SSO using SPNEGO](enabling-single-sign-on-aem.md#enable-sso-using-spnego).)
 
 1. In administration console, click Settings &gt; User Management &gt; Configuration &gt; Configure Portal Attributes.
 1. Select Yes to enable SSO. If you select No, the remaining settings on the page are unavailable.
@@ -51,16 +51,16 @@ For the steps to configure allowed referers, see [Configure allowed referers](..
 
 You can use Simple and Protected GSSAPI Negotiation Mechanism (SPNEGO) to enable single sign-on (SSO) when using Active Directory as your LDAP server in a Windows environment. When SSO is enabled, the AEM forms user login pages are not required and do not appear.
 
-You can also enable SSO by using HTTP headers. (See [Enable SSO using HTTP headers](enabling-single-sign-on-aem.md#enable_sso_using_http_headers).)
+You can also enable SSO by using HTTP headers. (See [Enable SSO using HTTP headers](enabling-single-sign-on-aem.md#enable-sso-using-http-headers).)
 
 >[!NOTE]
 >
 >AEM Forms on JEE does not support configuring SSO using Kerberos/SPNEGO in a multiple child domain environments .
 
 1. Decide which domain to use to enable SSO. The AEM forms server and the users must be part of the same Windows domain or trusted domain. 
-1. In Active Directory, create a user who represents the AEM forms server. (See [Create a user account](enabling-single-sign-on-aem.md#create_a_user_account).) If you are configuring more than one domain to use SPNEGO, ensure that the passwords for each of these users is different. If the passwords are not different, SPNEGO SSO does not work.
-1. Map the service principal name. (See [Map a Service Principal Name (SPN)](enabling-single-sign-on-aem.md#map_a_service_principal_name_spn).)
-1. Configure the domain controller. (See [Prevent Kerberos integrity-check failures](enabling-single-sign-on-aem.md#prevent_kerberos_integrity_check_failures).)
+1. In Active Directory, create a user who represents the AEM forms server. (See [Create a user account](enabling-single-sign-on-aem.md#create-a-user-account).) If you are configuring more than one domain to use SPNEGO, ensure that the passwords for each of these users is different. If the passwords are not different, SPNEGO SSO does not work.
+1. Map the service principal name. (See [Map a Service Principal Name (SPN)](enabling-single-sign-on-aem.md#map-a-service-principal-name-spn).)
+1. Configure the domain controller. (See [Prevent Kerberos integrity-check failures](enabling-single-sign-on-aem.md#prevent-kerberos-integrity-check-failures).)
 1. Add or edit an enterprise domain as described in [Adding domains](../../../forms/using/admin-help/adding-domains.md#adding-domains) or [Editing and converting existing domains](../../../forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains). When you create or edit the enterprise domain, perform these tasks:
 
     * Add or edit a directory that contains your Active Directory information. 
@@ -75,7 +75,7 @@ You can also enable SSO by using HTTP headers. (See [Enable SSO using HTTP heade
         * **Service Password:** Service user’s password. In the example used earlier, the service password is `password`.
         * **Enable SPNEGO:** Enables the use of SPNEGO for single sign-on (SSO). Select this option.
 
-1. Configure SPNEGO client browser settings. (See [Configuring SPNEGO client browser settings](enabling-single-sign-on-aem.md#configuring_spnego_client_browser_settings).)
+1. Configure SPNEGO client browser settings. (See [Configuring SPNEGO client browser settings](enabling-single-sign-on-aem.md#configuring-spnego-client-browser-settings).)
 
 ### Create a user account {#create-a-user-account}
 

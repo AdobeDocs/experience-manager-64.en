@@ -51,7 +51,7 @@ If you are running OpenOffice, Microsoft Word, or Microsoft PowerPoint on Window
 
 ### Additional configuration required for OpenOffice on Linux or Solaris {#additional-configuration-required-for-openoffice-on-linux-or-solaris}
 
-1. Add user accounts. (See [Add a user account](enabling-multi-threaded-file-conversions.md#add_a_user_account).) 
+1. Add user accounts. (See [Add a user account](enabling-multi-threaded-file-conversions.md#add-a-user-account).) 
 1. Next, you will make changes to the /etc/sudoers file. The default permission for this file is 440. Change the permission for this file to writable. 
 1. Add entries for additional users (other than the administrator who runs the forms server) in the /etc/sudoers file. For example, if you are running AEM forms as a user named lcadm and a server named myhost, and you want to impersonate user1 and user2, add the following entries to /etc/sudoers:
 
@@ -64,7 +64,7 @@ If you are running OpenOffice, Microsoft Word, or Microsoft PowerPoint on Window
 
    >[!NOTE]
    >
-   >Ensure that you have assigned system user and PDFG user roles to ‘user1’ and ‘user2’ . To assign PDFG role to a user, see [Add a user account](enabling-multi-threaded-file-conversions.md#add_a_user_account)
+   >Ensure that you have assigned system user and PDFG user roles to ‘user1’ and ‘user2’ . To assign PDFG role to a user, see [Add a user account](enabling-multi-threaded-file-conversions.md#add-a-user-account)
 
 1. Also in the /etc/sudoers file, locate and comment out this line by adding a number sign (#) at the beginning of the line:
 
@@ -75,7 +75,7 @@ If you are running OpenOffice, Microsoft Word, or Microsoft PowerPoint on Window
    This enables you to add Linux users. 
 
 1. Change the permission for the etc/sudoers file back to 440. 
-1. Allow all the users that you added via [Add a user account](enabling-multi-threaded-file-conversions.md#add_a_user_account) to make connections to the forms server. For example, to allow a local user named user1 the permission of making the connection to the forms server, use the following command
+1. Allow all the users that you added via [Add a user account](enabling-multi-threaded-file-conversions.md#add-a-user-account) to make connections to the forms server. For example, to allow a local user named user1 the permission of making the connection to the forms server, use the following command
 
    `xhost +local:user1@`
 

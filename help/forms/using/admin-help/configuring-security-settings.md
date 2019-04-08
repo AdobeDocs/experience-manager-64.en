@@ -28,7 +28,7 @@ A *security setting* controls the security and permissions for files that are co
 
 ### Security settings {#security-settings}
 
-These settings configure the compatibility and encryption. For instructions about accessing the fonts settings, see [Create or edit a security setting](configuring-security-settings.md#create_or_edit_a_security_setting).
+These settings configure the compatibility and encryption. For instructions about accessing the fonts settings, see [Create or edit a security setting](configuring-security-settings.md#create-or-edit-a-security-setting).
 
 **Compatibility:** Sets the type of encryption for opening a password-protected document. The Acrobat 3.0 And Later option uses a low encryption level, but the other options use a high encryption level:
 

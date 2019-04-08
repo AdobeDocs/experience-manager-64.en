@@ -160,7 +160,7 @@ Perform the following steps to select a cloud service and order of signing:
 
    In simultaneous order, multiple signers can sign a form at a time.
 
-1. [Add Signers to an adaptive form](../../forms/using/working-with-adobe-sign.md#main-pars-header-1374317451) and tap the Done ![](assets/aem_6_3_forms_save.png) icon to save the changes.
+1. [Add Signers to an adaptive form](../../forms/using/working-with-adobe-sign.md#main-pars-header-1374317451) and tap the Done ![](assets/aem-6-3-forms-save.png) icon to save the changes.
 
 ### Add Signers to an adaptive form {#addsignerstoanadaptiveform}
 

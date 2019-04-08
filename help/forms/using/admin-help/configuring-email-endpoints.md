@@ -27,7 +27,7 @@ All email endpoints are configured with an authorized user name and password for
 
 If your users send documents with Western European language characters in file and conversion path names, they must use an email application that supports the required encoding types (Latin1 [ISO-8859-1], Western European [Windows], or UTF-8). For more information, see the *Installing and Deploying AEM forms* document for your application server.
 
-Before you configure an email endpoint, configure the Email service. (See [Configure default email endpoint settings](configuring-email-endpoints.md#configure_default_email_endpoint_settings).) The Email service’s configuration parameters have two purposes:
+Before you configure an email endpoint, configure the Email service. (See [Configure default email endpoint settings](configuring-email-endpoints.md#configure-default-email-endpoint-settings).) The Email service’s configuration parameters have two purposes:
 
 * To configure attributes that are common for all email endpoints
 * To provide default values for all the email endpoints
@@ -56,7 +56,7 @@ You can configure POP3, IMAP, or SMTP to use Secure Sockets Layer (SSL) for an e
 
 You can use the Service Management page to configure attributes that are common for all email endpoints, and to provide default values for all the email endpoints.
 
-For forms workflow to receive and handle incoming email messages from users, you need to create an email endpoint for the Complete Task service. This email endpoint requires additional settings, as described in [Create an Email endpoint for the Complete Task service](configuring-email-endpoints.md#create_an_email_endpoint_for_the_complete_task_service).
+For forms workflow to receive and handle incoming email messages from users, you need to create an email endpoint for the Complete Task service. This email endpoint requires additional settings, as described in [Create an Email endpoint for the Complete Task service](configuring-email-endpoints.md#create-an-email-endpoint-for-the-complete-task-service).
 
 ### Change the default values for email endpoints {#change-the-default-values-for-email-endpoints}
 

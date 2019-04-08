@@ -148,7 +148,7 @@ Also, specify a valid locale value by invoking the `HTMLRenderSpec` object’s `
 
 >[!NOTE]
 >
->Before you render an HTML form that uses a custom toolbar, you must know how HTML forms are rendered. (See [Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering_forms_as_html).)
+>Before you render an HTML form that uses a custom toolbar, you must know how HTML forms are rendered. (See [Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html).)
 
 For more information about the Forms service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
@@ -186,9 +186,9 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 **See also**
 
-[Render an HTML Form with a custom toolbar using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars.md#render_an_html_form_with_a_custom_toolbar_using_the_java_api)
+[Render an HTML Form with a custom toolbar using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars.md#render-an-html-form-with-a-custom-toolbar-using-the-java-api)
 
-[Rendering an HTML Form with a custom toolbar using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars.md#rendering_an_html_form_with_a_custom_toolbar_using_the_web_service_api)
+[Rendering an HTML Form with a custom toolbar using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars.md#rendering-an-html-form-with-a-custom-toolbar-using-the-web-service-api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -196,11 +196,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
+[Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
 
-[Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering_forms_as_html)
+[Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
 
 ### Render an HTML Form with a custom toolbar using the Java API {#render-an-html-form-with-a-custom-toolbar-using-the-java-api}
 
@@ -252,7 +252,7 @@ Render an HTML Form that contains a custom toolbar by using the Forms Service AP
 
 **See also**
 
-[Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering_html_forms_with_custom_toolbars)
+[Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering-html-forms-with-custom-toolbars)
 
 [Quick Start (SOAP mode): Rendering an HTML Form with a custom toolbar using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e33.2)
 
@@ -316,7 +316,7 @@ Render an HTML form that contains a custom toolbar by using the Forms Service AP
 
 **See also**
 
-[Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering_html_forms_with_custom_toolbars)
+[Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering-html-forms-with-custom-toolbars)
 
 [Quick Start (Base64): Rendering an HTML Form with a custom toolbar using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2f.2)
 

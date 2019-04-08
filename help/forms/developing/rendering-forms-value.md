@@ -80,9 +80,9 @@ When the Forms service renders a form by value, it returns a form data stream th
 
 **See also**
 
-[Render a form by value using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms rendering-forms-value-rendering-forms.md#render_a_form_by_value_using_the_java_api)
+[Render a form by value using the Java API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms rendering-forms-value-rendering-forms.md#render-a-form-by-value-using-the-java-api)
 
-[Render a form by value using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms rendering-forms-value-rendering-forms.md#render_a_form_by_value_using_the_web_service_api)
+[Render a form by value using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms rendering-forms-value-rendering-forms.md#render-a-form-by-value-using-the-web-service-api)
 
 [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -90,9 +90,9 @@ When the Forms service renders a form by value, it returns a form data stream th
 
 [Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing_documents_to_the_forms_service)
+[Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
 
-[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/help/forms/developing/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating-web-applications-that-renders-forms)
 
 ### Render a form by value using the Java API {#render-a-form-by-value-using-the-java-api}
 
@@ -137,7 +137,7 @@ Render a form by value using the Forms API (Java):
 
 **See also**
 
-[Rendering Forms By Value](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms.md#rendering_forms_by_value)
+[Rendering Forms By Value](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms.md#rendering-forms-by-value)
 
 [Quick Start (SOAP mode): Rendering by value using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e1b.2)
 
@@ -194,7 +194,7 @@ Render a form by value by using the Forms API (web service):
 
 **See also**
 
-[Rendering Forms By Value](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms.md#rendering_forms_by_value)
+[Rendering Forms By Value](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-value-rendering-forms.md#rendering-forms-by-value)
 
 [Quick Start (Base64): Rendering by value using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e1a.2)
 
