@@ -13,7 +13,7 @@ discoiquuid: 75b2d424-91d3-45b4-a5d7-fb49ab558582
 
 Plan the anatomy for your Interactive Communication
 
- ![](assets/02-create-adaptive-form-%20main-image.png)
+ ![](assets/02-create-adaptive-form-main-image.png)
 
 | This tutorial is a step in the [Create your first Interactive Communication](../../forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|

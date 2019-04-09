@@ -110,7 +110,7 @@ Each column is an instance of the [ `columnbase` component](#column-base-compone
 The query:
 
 * Is defined as part of the [ `reportbase`](#report-base) component.
-* Is based on the [CQ QueryBuilder](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md).
+* Is based on the [CQ QueryBuilder](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.html).
 * Retrieves the data used as the basis of the report. Each row of the result set (table) is tied to a node as returned by the query. Specific information for [individual columns](#column-base-component) is then extracted from this data set.  
 
 * Usually consists of:

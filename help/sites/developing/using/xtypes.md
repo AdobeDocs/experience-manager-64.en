@@ -17,7 +17,7 @@ This page describes all the xtypes that are available with Adobe Experience Mana
 
 In the ExtJS language, an xtype is a symbolic name given to a class. You can read the "Component XTypes" paragraph of the [Overview of ExtJS 2](https://www.sencha.com/learn/overview-of-extjs-2) for a detailed explanation about what an xtype is and how it can be used.
 
-For a complete information on all the available widgets in AEM refer to the [widget API documentation](https://helpx.adobe.com/experience-manager/6-4https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.md).
+For a complete information on all the available widgets in AEM refer to the [widget API documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html).
 
 To find out in which components a given xtype is used in AEM, you can use the following Xpath query in CRXDE by replacing 'checkbox' with the xtype that you are interested in:   
 `//element(*, cq:Widget)[@xtype='checkbox']`
