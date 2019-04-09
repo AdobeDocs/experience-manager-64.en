@@ -21,7 +21,7 @@ In a standard instance the predefined functionality is held under `/libs` and it
 
 Since AEM 6.0, changes have been made to how overlays are implemented and used:
 
-* AEM 6.0 onwards - for [Granite](/sites/developing/using/reference-materials/granite-ui/api/index.md)-related overlays (i.e. the touch-enabled UI)
+* AEM 6.0 onwards - for [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html)-related overlays (i.e. the touch-enabled UI)
 
     * Method
 
@@ -50,7 +50,7 @@ Since AEM 6.0, changes have been made to how overlays are implemented and used:
 
 >[!CAUTION]
 >
->The [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md) and the related methods can only be used with [Granite](/sites/developing/using/reference-materials/granite-ui/api/index.md). This means that creating an overlay with a skeleton structure is only appropriate for the standard, touch-enabled UI.
+>The [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md) and the related methods can only be used with [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html). This means that creating an overlay with a skeleton structure is only appropriate for the standard, touch-enabled UI.
 >
 >Overlays for other areas (including the classic UI) involve copying the appropriate node and entire sub-structure, then making the required changes.
 

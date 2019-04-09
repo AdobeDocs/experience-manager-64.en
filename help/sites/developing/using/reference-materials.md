@@ -18,17 +18,17 @@ AEM provides several APIs for developing applications. The following list provid
 
 * [Adobe AEM 6.4.0 API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html)  
 
-* [API Differences](/sites/developing/using/reference-materials/diff-previous/changes.md)  
+* [API Differences](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/diff-previous/changes.html)  
 
-* [Granite UI (Touch-Enabled) API Documentation](/sites/developing/using/reference-materials/granite-ui/api/index.md)  
+* [Granite UI (Touch-Enabled) API Documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html)  
 
-* [Coral UI Guide](/sites/developing/using/reference-materials/coral-ui/coralui3/index.md)  
+* [Coral UI Guide](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html)  
 
-* [Widgets API (Classic UI) Documentation](/sites/developing/using/reference-materials/widgets-api/index.md)  
+* [Widgets API (Classic UI) Documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html)  
 
-* [UI Test Framework Javascript API Reference](/sites/developing/using/reference-materials/test-api/index.md)  
+* [UI Test Framework Javascript API Reference](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materialstest-api/index.html)  
 
-* [Editor Core Javascript API Reference](/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index.md)
+* [Editor Core Javascript API Reference](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materialsjsdoc/ui-touch/editor-core/index.html)
 
 AEM Single-Page Application (SPA) Editor SDK framework JavaScript API references:
 
