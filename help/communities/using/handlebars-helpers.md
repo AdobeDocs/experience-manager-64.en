@@ -165,7 +165,7 @@ A helper to return content depending on an equality conditional.
 
 ## if-wcm-mode {#if-wcm-mode}
 
-A block helper that tests the current value of [WCM mode](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) against a string separated list of modes.
+A block helper that tests the current value of [WCM mode](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.html) against a string separated list of modes.
 
 ### parameters {#parameters-4}
 

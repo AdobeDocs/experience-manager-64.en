@@ -355,7 +355,7 @@ N:charting
 
 Every report can have a configuration dialog, allowing the user to specify various parameters for the report. This dialog is accessible through the **Edit** button when the report page is open.
 
-This dialog is a standard CQ [dialog](../../../sites/developing/using/components.md#dialogs) and can be configured as such (see [CQ.Dialog](/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Dialog) for more information).
+This dialog is a standard CQ [dialog](../../../sites/developing/using/components.md#dialogs) and can be configured as such (see [CQ.Dialog](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Dialog) for more information).
 
 An example dialog can look as follows:
 
