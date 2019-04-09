@@ -62,9 +62,9 @@ After prerequisites are in place, perform the following steps to configure Adobe
     * workflow_read
 
    For step-by-step information to configure OAuth settings for an Adobe Sign application and obtain the keys, see [Configure oAuth settings for the application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobeio/adobeio-documentation/master/sign/gstarted/configure_oauth.md) developer documentation.
-   [ ![OAuth Config](assets/oauth_config.png)](OAuth Config.md)
+   ![OAuth Config](assets/oauth_config.png)
 
-1. Go back to the **Create Adobe Sign Configuration** page. In the ****[!UICONTROL Settings]**** tab, the ****[!UICONTROL OAuth URL]**** field mentions the following default URL:
+1. Go back to the **Create Adobe Sign Configuration** page. In the **[!UICONTROL Settings]** tab, the **!UICONTROL OAuth URL]** field mentions the following default URL:
 
    https://secure.na1.echosign.com/public/oauth
 
@@ -74,7 +74,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
    You can modify the value for the database shard. Restart the server to be able to use the new value for the database shard.
 
-1. Specify the **Client ID **(also referred to as Application ID) and **Client Secret**. Select the **Enable Adobe Sign for attachments also **option to append files attached to an adaptive form to the corresponding Adobe Sign document sent for signing.
+1. Specify the **Client ID** (also referred to as Application ID) and **Client Secret**. Select the **Enable Adobe Sign for attachments also** option to append files attached to an adaptive form to the corresponding Adobe Sign document sent for signing.
 
    Tap **[!UICONTROL Connect to Adobe Sign]**. When prompted for credentials, provide username and password of the account used while creating Adobe Sign application.
 

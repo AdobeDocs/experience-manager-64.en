@@ -74,7 +74,7 @@ The blog feature is comprised of two main components that are available by addin
 
 * [Blog API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/api/package-summary.md)
 
-* [Blog Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/endpoints/package-summary.md)
+* [Blog Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/endpoints/package-summary.html)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

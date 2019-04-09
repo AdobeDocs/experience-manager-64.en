@@ -178,7 +178,7 @@ For advanced customizations using the SDK, please see [StreamHub SDKs](https://g
 
 **Method 2: API Implementation**
 
-* For creating customized experiences and data visualizations, Livefyre Apps can be created from scratch by consuming Livefyre and social data using the [Bootstrap and Stream API](Bootstrap and Stream API.md).
+* For creating customized experiences and data visualizations, Livefyre Apps can be created from scratch by consuming Livefyre and social data using the Bootstrap and Stream API.
 
 Additional Ratings and Reviews APIs can be found [here](https://api.livefyre.com/docs/apis/by-category/ratings-and-reviews).
 

@@ -173,7 +173,7 @@ A block helper that tests the current value of [WCM mode](https://helpx.adobe.co
   (optional) The string to translate. Required if no default provided.
 
 * **mode**: String  
-  (optional) A comma separated list of [WCM modes](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) to test if set.
+  (optional) A comma separated list of [WCM modes](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.html) to test if set.
 
 ### example {#example-2}
 
@@ -489,7 +489,7 @@ Custom helpers must be implemented on the server-side as well as the client-side
 
 ### Server-side Custom Helpers {#server-side-custom-helpers}
 
-To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.md), make it an [OSGi Service](../../sites/developing/using/the-basics.md#osgi) and install it as part of an OSGi bundle.
+To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.html), make it an [OSGi Service](../../sites/developing/using/the-basics.md#osgi) and install it as part of an OSGi bundle.
 
 For example:
 

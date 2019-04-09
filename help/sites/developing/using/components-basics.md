@@ -210,7 +210,7 @@ The definition of a component can be broken down as follows:
 
 The icon or abbreviation for the component is defined via JCR properties of the component when the component is created by the developer. These properties are evaluated in the following order and the first valid property found is used.
 
-1. `cq:icon` - String property pointing to a standard icon in the [Coral UI library](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon) to display in the component browser
+1. `cq:icon` - String property pointing to a standard icon in the [Coral UI library](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon.html) to display in the component browser
 
     * Use the value of the HTML attribute of the Coral icon.
 

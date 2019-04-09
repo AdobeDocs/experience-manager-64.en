@@ -379,7 +379,7 @@ To customize the columns in the list view:
 
 1. Optionally:
 
-    * If you want to plug additional data, you need to write a ` [PageInforProvider](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider.md)` with a   
+    * If you want to plug additional data, you need to write a ` [PageInforProvider](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider.html)` with a   
       `pageInfoProviderType` property.
 
    For example, see the class/bundle attached (from GitHub) below.

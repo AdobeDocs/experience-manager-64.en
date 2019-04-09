@@ -26,7 +26,7 @@ Before you configure a watched folder, ensure the following:
 
 * Watched folders is an advanced feature of AEM forms. It requires AEM forms add-on package to function. Ensure that appropriate AEM Forms add-on package is installed and configured.
 * You can create the watched folder at a shared or local storage. Ensure that AEM forms user configured to run the watched folder has read and write permissions on the watched folder.
-* You can use a Service, Workflow, or a Script to automate an operation with watched folder. Ensure that the corresponding Service, Workflow, or a Script is created and ready to run. For information about creating a Service, Workflow, and Script, see [Various methods of processing files](../../forms/using/watched-folder-in-aem-forms.md#variousmethodsforprocessingfiles).
+* You can use a Service, Workflow, or a Script to automate an operation with watched folder. Ensure that the corresponding Service, Workflow, or a Script is created and ready to run. For information about creating a Service, Workflow, and Script, see [Various methods of processing files](../../forms/using/watched-folder-in-aem-forms.md#various-methods-for-processing-files).
 * A watched folder has various properties, see [Watched Folder Properties](../../forms/using/watched-folder-in-aem-forms.md#main-pars-header-1).
 
 Perform the following steps to create a watched folder:
@@ -121,6 +121,6 @@ Apart from changing the name of the watched folder, you can modify all the prope
 
 1. Tap the **Adobe Experience Manager** icon on the top-left corner of the screen.
 1. Tap **Tools** &gt; **Forms** &gt; **Configure Watched Folder.** A list of already configured watched folders is displayed.
-1. On the left side of the Watched Folder screen, select the watchfolder and tap **Edit. **A list of fields required to create the watched folder is displayed. The fields listed in the **Basic **Tab are mandatory. The advanced tab contains more fields. Most of these fields contain a default value. You can modify these properties as per your requirements.
+1. On the left side of the Watched Folder screen, select the watchfolder and tap **Edit.** A list of fields required to create the watched folder is displayed. The fields listed in the **Basic** Tab are mandatory. The advanced tab contains more fields. Most of these fields contain a default value. You can modify these properties as per your requirements.
 1. After modifying the properties, tap **Update**. The modified properties are saved.
 

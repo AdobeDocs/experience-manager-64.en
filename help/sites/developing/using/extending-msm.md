@@ -32,8 +32,8 @@ This page helps you extend the functionalities of the Multi Site Manager:
 
 Multi Site Management consists of the following packages:
 
-* [com.day.cq.wcm.msm.api](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/package-frame.md)
-* [com.day.cq.wcm.msm.commons](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/commons/package-frame.md)
+* [com.day.cq.wcm.msm.api](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/package-frame.html)
+* [com.day.cq.wcm.msm.commons](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/commons/package-frame.html)
 
 The main MSM API objects interact as follows (see also [Terms Used](../../../sites/administering/using/msm.md#terms-used)):
 
@@ -88,8 +88,8 @@ The main MSM API objects interact as follows (see also [Terms Used](../../../sit
 
 Create custom synchronization actions to use with your rollout configurations. Create a synchronization action when the [installed actions](../../../sites/administering/using/msm-sync.md#installed-synchronization-actions) do not meet your specific application requirements. To do so, create two classes:
 
-* An implementation of the [ `com.day.cq.wcm.msm.api.LiveAction`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveAction.md) interface that performs the action. 
-* An OSGI component that implements the [ `com.day.cq.wcm.msm.api.LiveActionFactory`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory.md) interface and creates instances of your `LiveAction` class.
+* An implementation of the [ `com.day.cq.wcm.msm.api.LiveAction`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveAction.html) interface that performs the action. 
+* An OSGI component that implements the [ `com.day.cq.wcm.msm.api.LiveActionFactory`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory.html) interface and creates instances of your `LiveAction` class.
 
 The `LiveActionFactory` creates instances of the `LiveAction` class for a given configuration:
 
@@ -112,7 +112,7 @@ Use the `LiveAction` configuration node in the repository to store information t
 
 For example, a `LiveAction` needs to store the name of the blueprint author. A property of the configuration node includes the property name of the blueprint page that stores the information. At runtime, the `LiveAction` retrieves the property name from the configuration, then obtains the property value.
 
-The parameter of the ` [LiveActionFactory](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory.md).createAction` method is a `Resource` object. This `Resource` object represents the `cq:LiveSyncAction` node for this live action in the rollout configuration; see [Creating a Rollout Configuration](../../../sites/administering/using/msm-sync.md#creating-a-rollout-configuration). As usual when using a configuration node, you should adapt it to a `ValueMap` object:
+The parameter of the ` [LiveActionFactory](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory.html).createAction` method is a `Resource` object. This `Resource` object represents the `cq:LiveSyncAction` node for this live action in the rollout configuration; see [Creating a Rollout Configuration](../../../sites/administering/using/msm-sync.md#creating-a-rollout-configuration). As usual when using a configuration node, you should adapt it to a `ValueMap` object:
 
 ```java
 public LiveAction createAction(Resource resource) throws WCMException {
@@ -130,9 +130,9 @@ public LiveAction createAction(Resource resource) throws WCMException {
 
 The following objects are provided as parameters of the `execute` method of the `LiveAction` object:
 
-* A [ `Resource`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md) object that represents the source of the Live Copy.
+* A [ `Resource`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.html) object that represents the source of the Live Copy.
 * A `Resource` object that represents the target of the Live Copy.
-* The [ `LiveRelationship`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveRelationship.md) object for the live copy.
+* The [ `LiveRelationship`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveRelationship.html) object for the live copy.
 * The `autoSave` value indicates whether your `LiveAction` should save changes that are made to the repository.
 
 * The reset value indicates the rollout reset mode.
@@ -149,7 +149,7 @@ Node sourcenode = source.adaptTo(javax.jcr.Node.class);
 
 >[!NOTE]
 >
->The `Resource` arguments may be `null` or `Resources` objects that do not adapt to `Node` objects, such as [ `NonExistingResource`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/NonExistingResource.md) objects.
+>The `Resource` arguments may be `null` or `Resources` objects that do not adapt to `Node` objects, such as [ `NonExistingResource`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/NonExistingResource.html) objects.
 
 ### Creating a New Rollout Configuration {#creating-a-new-rollout-configuration}
 

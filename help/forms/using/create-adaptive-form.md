@@ -10,7 +10,7 @@ discoiquuid: 55c08940-8c25-4938-8e49-25bce20aaf22
 
 # DO NOT PUBLISH Tutorial: Create an adaptive form{#do-not-publish-tutorial-create-an-adaptive-form}
 
- ![](assets/02-create-adaptive-form-%20main-image.png)
+ ![](assets/02-create-adaptive-form-main-image.png)
 
 | This tutorial is a step in the [Create Your First Adaptive Form](../../forms/using/create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|

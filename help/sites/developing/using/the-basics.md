@@ -366,7 +366,7 @@ For example, to get the name of the current page, you can use following code in 
 
 String pageName = currentPage.getName();
 
-With currentPage being the current page object. For more information on manipulating Page objects, refer to the [Javadocs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page.md).
+With currentPage being the current page object. For more information on manipulating Page objects, refer to the [Javadocs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page.html).
 
 **Page Manager** The page manager is an Interface that provides methods for page level operations.
 
@@ -374,7 +374,7 @@ For example, to get the containing page of a resource, you can use following cod
 
 Page myPage = pageManager.getContainingPage(myResource);
 
-With pageManager being the page manager object and myResource a resource object. For more information on the methods provided by the page manager, refer to the [Javadocs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager.md).
+With pageManager being the page manager object and myResource a resource object. For more information on the methods provided by the page manager, refer to the [Javadocs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager.html).
 
 ## Structure within the Repository {#structure-within-the-repository}
 

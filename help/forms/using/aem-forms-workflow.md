@@ -60,7 +60,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
 [Get File](assets/example-mortgage-loan-application.zip)
 
-1. Open the Workflow Models console. The default URL is https://[Server]:[port]/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models
+1. Open the Workflow Models console. The default URL is `https://[Server]:[port]/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`
 1. Select **Create**, then **Create Model**. The Add Workflow Model dialog appears.
 1. Enter the **Title **and **Name **(optional). For example, a mortgage application. Tap **Done**.
 1. Select the newly created workflow model and tap **Edit. **Now, you can add workflow steps to build business logic. When you first create a workflow model, it contains:
@@ -256,11 +256,11 @@ An administrator (a member of fd-administrators group) can configure a network f
    |---|---|
    | Payload Mapper Filter |When you create a watched folder, it creates a folder structure in the crx-repository. The folder structure can serve as a payload to the workflow. You can write a script to map an AEM Workflow to accept inputs from the watched folder structure. An out of the box implementation is available and listed in the Payload Mapper Filter. If you do not have a custom implementation, select the default implementation. |
 
-   The Advanced tab contains more fields. Most of these fields contain a default value. To learn about all the fields, see the [Create or Configure a watched folder](../../forms/using/Creating-Configure-watched-folder.md) article.
+   The Advanced tab contains more fields. Most of these fields contain a default value. To learn about all the fields, see the [Create or Configure a watched folder](../../forms/using/creating-configure-watched-folder.md) article.
 
 ### Submitting an interactive communication or a letter {#letter}
 
-You can associate and execute a Forms-centric workflow on OSGi on submission of an intreactive communication or a letter. In correspondence management workflows are used for post processing intreactive communications and letters. For example, emailing, printing, faxing, or archiving final letters. For detailed steps, see [Post processing of interactive communications and letters](../../forms/using/submit-letter-topostprocess.md).
+You can associate and execute a Forms-centric workflow on OSGi on submission of an interactive communication or a letter. In correspondence management workflows are used for post processing interactive communications and letters. For example, emailing, printing, faxing, or archiving final letters. For detailed steps, see [Post processing of interactive communications and letters](../../forms/using/submit-letter-topostprocess.md).
 
 ## Additional Configurations {#additional-configurations}
 
@@ -268,7 +268,7 @@ You can associate and execute a Forms-centric workflow on OSGi on submission of 
 
 You can use the Assign Task and Send Email steps of AEM Workflows to send an email. Perform the following steps to specify email servers and other configurations required to send email:
 
-1. Go to AEM configuration manager at https://[server]:[port]/system/console/configMgr.
+1. Go to AEM configuration manager at `https://[server]:[port]/system/console/configMgr`.
 1. Open the **[!UICONTROL Day CQ Mail Service]** configuration. Specify a value for the ****[!UICONTROL SMTP server host name]****, ****[!UICONTROL SMTP server port,]**** and ****[!UICONTROL "From" address]** **fields. Click **[!UICONTROL Save]**.
 1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration. In the **[!UICONTROL Domains]**field, specify the actual hostname/IP address and port number for local, author, and publish instances. Click **[!UICONTROL Save]**.
 
