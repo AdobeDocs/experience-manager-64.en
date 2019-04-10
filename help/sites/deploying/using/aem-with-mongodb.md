@@ -109,7 +109,7 @@ It requires an agent installed on the MongoDB instance that connects to the moni
 
 Although using Cloud Manager for maintenance automation of a MongoDB cluster makes many of the routine tasks easier, it is not required, and neither is using it for backup. When choosing Cloud Manager to monitor, monitoring is however required.
 
-For more information regarding MongoDB Cloud Manager, consult the [MongoDB documentation](https://docs.cloud.mongodb.com/).
+For more information regarding MongoDB Cloud Manager, consult the [MongoDB documentation](https://docs.mongodb.com/).
 
 ### MongoDB Ops Manager {#mongodb-ops-manager}
 
@@ -573,7 +573,7 @@ If you are using WMWare ESX to manage and deploy your virtualized environments, 
 
 ### Amazon Web Services {#amazon-web-services}
 
-For documentation on how to set up MongoDB with Amazon Web Services, check the [Configure AWS Integration](https://docs.cloud.mongodb.com/tutorial/configure-aws-settings/) article on the MongoDB website.
+For documentation on how to set up MongoDB with Amazon Web Services, check the following guide [MongoDB on AWS](https://docs.aws.amazon.com/quickstart/latest/mongodb/welcome.html).
 
 ## Securing MongoDB Before Deployment {#securing-mongodb-before-deployment}
 

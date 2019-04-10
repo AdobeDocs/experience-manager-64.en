@@ -198,4 +198,4 @@ Enabling separate caches for secure and unsecure connection types is beyond the 
 
 If you want to send flush requests to the dispatcher over SSL, configure the Dispatcher Flush replication agent.
 
-Follow the procedure in [Configure Replication Agents](#configurereplicationagents), using the SSL port that is confgured for the web server (typically 443).
+Follow the procedure in [Configure Replication Agents](#configure-replication-agents-to-use-secure-urls), using the SSL port that is confgured for the web server (typically 443).

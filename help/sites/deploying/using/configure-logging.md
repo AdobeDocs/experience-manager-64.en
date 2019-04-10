@@ -27,7 +27,7 @@ These are all [OSGi configurations](../../../sites/deploying/using/configuring-o
 
 ## Global Logging {#global-logging}
 
-[Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingconfiguration) is used to configure the root logger. This defines the global settings for logging in AEM:
+[Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md) is used to configure the root logger. This defines the global settings for logging in AEM:
 
 * the logging level
 * the location of the central log file
@@ -116,13 +116,13 @@ The other pairs follow the standard configuration:
 
 You can define your own Logger / Writer pair:
 
-1. Create a new instance of the Factory Configuration [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingloggerconfigurationfactoryconfiguration).
+1. Create a new instance of the Factory Configuration [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md).
 
     1. Specify the Log File.
     1. Specify the Logger.
     1. Configure the other parameters as required.
 
-1. Create a new instance of the Factory Configuration [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingwriterconfigurationfactoryconfiguration).
+1. Create a new instance of the Factory Configuration [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md).
 
     1. Specify the Log File - this must match that specified for the Logger.
     1. Configure the other parameters as required.
