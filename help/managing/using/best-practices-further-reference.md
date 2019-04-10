@@ -369,7 +369,7 @@ However, it is preferable to have a small set of accurate, core metrics that fun
 
 Security is crucial and an ever-increasing challenge. It ***must*** be considered and planned from the earliest stages of your project.
 
-The [Security Checklist](../../sites/administering/using/security-checklist.md) details steps that you should take to ensure that your AEM installation is secure when deployed. Other security aspects are covered under [Security (when developing)](../../sites/developing/using/security.md) and [User Administration and Security](/sites/administering/using/security-landing.md).
+The [Security Checklist](../../sites/administering/using/security-checklist.md) details steps that you should take to ensure that your AEM installation is secure when deployed. Other security aspects are covered under [Security (when developing)](../../sites/developing/using/security.md) and [User Administration and Security](../../sites/administering/using/security.md).
 
 ## Parallel and Iterative Tasks {#parallel-and-iterative-tasks}
 
