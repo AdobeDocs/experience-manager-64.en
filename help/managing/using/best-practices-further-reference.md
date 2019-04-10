@@ -146,7 +146,7 @@ Some, but not all, indicators can be based on the target metrics that you identi
 
 ### Target Metrics {#target-metrics}
 
-Metrics are used to define quantitative measurements for the quality of your website - they are basically a definition of the performance goals that you want to achieve and can be used to define your [KPIs (Key Performance Indicators)](#keyperformanceindicators).
+Metrics are used to define quantitative measurements for the quality of your website - they are basically a definition of the performance goals that you want to achieve and can be used to define your [KPIs (Key Performance Indicators)](#key-performance-indicators-and-target-metrics).
 
 Many metrics can be defined, but often the ones you define cover your goals for performance and concurrency. In particular, factors which can be difficult to quantify, and are often prone to *emotional* assessment:
 
@@ -161,7 +161,7 @@ Target Metrics are defined at the start of a project to:
 * indicate the expected dimensions of the website you will offer
 * indicate the minimum quality which you want to achieve
 * define how these factors will actually be measured
-* be used as the basis for the [Key Performance Indicators](#keyperformanceindicators)
+* be used as the basis for the [Key Performance Indicators](#key-performance-indicators-and-target-metrics)
 
 As always care must be taken when defining the target metrics:
 
