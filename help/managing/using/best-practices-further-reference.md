@@ -23,7 +23,7 @@ This page provides further details to elaborate on and/or augment the documents 
 
 ### Features within AEM {#features-within-aem}
 
-When implementing AEM (particularly for the first time) you will need to review the [capabilites and workflows of AEM](https://www.adobe.com/marketing-cloud/experience-manager.html) to be sure of which areas you want/need.
+When implementing AEM (particularly for the first time) you will need to review the [capabilites and workflows of AEM](https://www.adobe.com/marketing/experience-manager.html) to be sure of which areas you want/need.
 
 Consider the features of AEM that you will be using, and the impact on your design; for example:
 
@@ -146,7 +146,7 @@ Some, but not all, indicators can be based on the target metrics that you identi
 
 ### Target Metrics {#target-metrics}
 
-Metrics are used to define quantitative measurements for the quality of your website - they are basically a definition of the performance goals that you want to achieve and can be used to define your [KPIs (Key Performance Indicators)](#keyperformanceindicators).
+Metrics are used to define quantitative measurements for the quality of your website - they are basically a definition of the performance goals that you want to achieve and can be used to define your [KPIs (Key Performance Indicators)](#key-performance-indicators-and-target-metrics).
 
 Many metrics can be defined, but often the ones you define cover your goals for performance and concurrency. In particular, factors which can be difficult to quantify, and are often prone to *emotional* assessment:
 
@@ -161,7 +161,7 @@ Target Metrics are defined at the start of a project to:
 * indicate the expected dimensions of the website you will offer
 * indicate the minimum quality which you want to achieve
 * define how these factors will actually be measured
-* be used as the basis for the [Key Performance Indicators](#keyperformanceindicators)
+* be used as the basis for the [Key Performance Indicators](#key-performance-indicators-and-target-metrics)
 
 As always care must be taken when defining the target metrics:
 
@@ -369,7 +369,7 @@ However, it is preferable to have a small set of accurate, core metrics that fun
 
 Security is crucial and an ever-increasing challenge. It ***must*** be considered and planned from the earliest stages of your project.
 
-The [Security Checklist](../../sites/administering/using/security-checklist.md) details steps that you should take to ensure that your AEM installation is secure when deployed. Other security aspects are covered under [Security (when developing)](../../sites/developing/using/security.md) and [User Administration and Security](/sites/administering/using/security-landing.md).
+The [Security Checklist](../../sites/administering/using/security-checklist.md) details steps that you should take to ensure that your AEM installation is secure when deployed. Other security aspects are covered under [Security (when developing)](../../sites/developing/using/security.md) and [User Administration and Security](../../sites/administering/using/security.md).
 
 ## Parallel and Iterative Tasks {#parallel-and-iterative-tasks}
 

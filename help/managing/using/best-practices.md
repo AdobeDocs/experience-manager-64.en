@@ -25,7 +25,7 @@ To help you, the best practices consist of:
 
 * Documentation, based directly on the [checklist](../../managing/using/best-practices-checklist.md), that details the:
 
-    * [Project Heartbeat](#projectheartbeat) analysis.
+    * [Project Heartbeat](#project-heartbeat-dashboard) analysis.
     * [Status by Role](#status-by-role) overview.
     * [Phases and Milestones](#phases-and-milestones).
     * [Key Persona](#persona) and their involvement at every (relevant) stage.
@@ -51,7 +51,7 @@ The **Project Heartbeat** worksheet provides a graphical overview of critical me
 
 ## Status by Role {#status-by-role}
 
-The **Status by Role** worksheet shows detailed breakdown of [**Health**, **Quality** and **Completeness**](#projectheartbeat) by ** [Phase](#phases-and-milestones)** and ** [Persona](#persona)**.
+The **Status by Role** worksheet shows detailed breakdown of [**Health**, **Quality** and **Completeness**](#project-heartbeat-dashboard) by ** [Phase](#phases-and-milestones)** and ** [Persona](#persona)**.
 
 ## Phases and Milestones {#phases-and-milestones}
 
@@ -214,7 +214,7 @@ Planning the development is key to ensure that your project is built on a solid 
 
 * **Test Concept**
 
-  Before starting development you should draw up an in-depth and comprehensive concept of all [testing](/sites/developing/using/test.md) requirements for your project.
+  Before starting development you should draw up an in-depth and comprehensive concept of all [testing](../../sites/developing/using/test-plan.md) requirements for your project.
 
   This should include (amongst others):
 

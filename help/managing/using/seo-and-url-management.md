@@ -309,8 +309,8 @@ For example, if a site were to offer a printer-friendly version of a page, a sea
 
 Examples:
 
-* https://www.mydomain.com/my-brand/my-page.html
-* https://www.mydomain.com/my-brand/my-page.print.html
+* `https://www.mydomain.com/my-brand/my-page.html`
+* `https://www.mydomain.com/my-brand/my-page.print.html`
 
 Both would apply the following tag to the head of the page:
 
@@ -392,7 +392,7 @@ For more information, please see the following additional resources:
 * [https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
 * [https://httpd.apache.org/docs/current/mod/mod_rewrite.html](https://httpd.apache.org/docs/current/mod/mod_rewrite.html)
 * [https://moz.com/blog/canonical-url-tag-the-most-important-advancement-in-seo-practices-since-sitemaps](https://moz.com/blog/canonical-url-tag-the-most-important-advancement-in-seo-practices-since-sitemaps)
-* [https://www.robotstxt.org/robotstxt.html](https://www.robotstxt.org/robotstxt.html)
+* [https://en.wikipedia.org/wiki/Robots_exclusion_standard](https://en.wikipedia.org/wiki/Robots_exclusion_standard)
 * [https://www.internetmarketingninjas.com/blog/search-engine-optimization/301-redirects/](https://www.internetmarketingninjas.com/blog/search-engine-optimization/301-redirects/)
 * [https://github.com/Adobe-Marketing-Cloud/tools/tree/master/dispatcher/redirectTester](https://github.com/Adobe-Marketing-Cloud/tools/tree/master/dispatcher/redirectTester)
 * [https://adobe-consulting-services.github.io/](https://adobe-consulting-services.github.io/)

@@ -56,7 +56,7 @@ Depending on the scale of your system, the development environment can have both
 
 ### Quality Assurance {#quality-assurance}
 
-This environment is used by the quality assurance team to comprehensively [test](/sites/developing/using/test.md) your new system; both design and function. It should have both author and publish environments, with suitable content, and provide all necessary services to enable a complete suite of tests.
+This environment is used by the quality assurance team to comprehensively [test](../../sites/developing/using/test-plan.md) your new system; both design and function. It should have both author and publish environments, with suitable content, and provide all necessary services to enable a complete suite of tests.
 
 ### Staging {#staging}
 
