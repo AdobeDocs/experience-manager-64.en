@@ -23,7 +23,7 @@ This page provides further details to elaborate on and/or augment the documents 
 
 ### Features within AEM {#features-within-aem}
 
-When implementing AEM (particularly for the first time) you will need to review the [capabilites and workflows of AEM](https://www.adobe.com/marketing-cloud/experience-manager.html) to be sure of which areas you want/need.
+When implementing AEM (particularly for the first time) you will need to review the [capabilites and workflows of AEM](https://www.adobe.com/marketing/experience-manager.html) to be sure of which areas you want/need.
 
 Consider the features of AEM that you will be using, and the impact on your design; for example:
 
