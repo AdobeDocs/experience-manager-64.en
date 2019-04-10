@@ -28,7 +28,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 * [Link Share E-mail Notification Template](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#link-share-e-mail-notification-template)
 * [InDesign Workflow Scripts](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#indesign-workflow-scripts)
 * [Video Transcoding Configurations](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#video-transcoding-configurations)
-* [Misc](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#main-pars-header-284561465)
+* [Misc](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#misc2)
 
 ## With 6.4 Upgrade {#with-upgrade}
 

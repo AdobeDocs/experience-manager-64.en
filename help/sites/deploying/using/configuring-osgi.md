@@ -122,7 +122,7 @@ These can be included in content packages and re-used on other instances.
 
 The Web Console shows no indication of where in the repository your changes have been saved, but they can be easily located:
 
-1. Create the configuration file by [making an initial change in the web console](#updatingaconfigurationwiththewebconsole).
+1. Create the configuration file by [making an initial change in the web console](#osgi-configuration-with-the-web-console).
 1. Open CRXDE Lite.
 1. In the **Tools** menu select **Query ...** .
 1. Submit a query of **Type** `SQL` to search for the PID of the configuration that you have updated.
@@ -298,13 +298,13 @@ The configuration with the highest number of matching run modes will be effectiv
 
 The following list shows a small selection of the configurations available (in a standard installation) in the repository:
 
-* Author - [AEM WCM Filter](#aemwcmfilter):  
+* Author - AEM WCM Filter:  
   `libs/wcm/core/config.author/com.day.cq.wcm.core.WCMRequestFilter`
 
-* Publish - [AEM WCM Filter](#aemwcmfilter):  
+* Publish - AEM WCM Filter:  
   `libs/wcm/core/config.publish/com.day.cq.wcm.core.WCMRequestFilter`
 
-* Publish - [AEM WCM Page Statistics](#aemwcmpagestatistics):  
+* Publish - AEM WCM Page Statistics:  
   `libs/wcm/core/config.publish/com.day.cq.wcm.core.stats.PageViewStatistics`
 
 >[!NOTE]

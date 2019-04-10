@@ -118,7 +118,7 @@ If you have defined configurations for multiple run modes then you need to defin
 
 1. [ `sling.properties` file](#using-the-sling-properties-file)
 1. [ `-r` option](#using-the-r-option)
-1. [system properties ( `-D`)](#usingasystemproperty)  
+1. [system properties ( `-D`)](#using-a-system-property-in-the-start-script)  
 
 1. [Filename detection](#filename-detection-renaming-the-jar-file)
 

@@ -54,7 +54,7 @@ There are many commercially available performance testing tools on the market. W
 * AEM provides out of the box tools to quickly see problematic queries, requests and error messages. For more information, see the [Diagnosis Tools](../../../sites/administering/using/operations-dashboard.md#diagnosis-tools) section of the Operations Dashboard documentation.
 * Apache provides a product called **JMeter** that can be used for performance and load testing as well as functional behavior. It is open source software and free to use, but has a smaller feature set than enterprise products and a steeper learning curve. JMeter can be found on Apache’s website at [https://jmeter.apache.org/](https://jmeter.apache.org/)
 
-* **Load Runner** is an enterprise grade load testing product produced by HP. A free evaluation version is provided. More information can be found on HP’s website at [https://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/](https://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/)
+* **Load Runner** is an enterprise grade load testing product. A free evaluation version is available. More information can be found at [https://www.microfocus.com/en-us/products/loadrunner-load-testing/overview](https://www.microfocus.com/en-us/products/loadrunner-load-testing/overview)
 
 * Cloud based load testing tools like [Neustar](https://www.neustar.biz/services/web-performance/load-testing) can also be used.
 * When it comes to testing mobile or responsive websites, a separate set of tools need to be used. They work by throttling network bandwidth, simulating slower mobile connections like 3G or EDGE. Among the more widely used tools are:
@@ -100,11 +100,15 @@ For the types of environments that have requirements of heavy asset loading or p
 
 On systems with MongoDB backends, AEM provides several [JMX](../../../sites/administering/using/jmx-console.md) MBeans that need to be monitored when performing load or performance tests:
 
-* The **Consolidated Cache Statistics** MBean. It can be accessed directly by going to *https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D6%2Cname%3D%22Consolidated+Cache+statistics%22%2Ctype%3D%22ConsolidatedCacheStats%22*
+* The **Consolidated Cache Statistics** MBean. It can be accessed directly by going to:
+
+`https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D6%2Cname%3D%22Consolidated+Cache+statistics%22%2Ctype%3D%22ConsolidatedCacheStats%22`
 
 For the cache named **Document-Diff**, the hit rate should be over `.90`. If the hit rate falls below 90%, it is likely that you will need to modify your `DocumentNodeStoreService` configuration. Adobe product support can recommend optimal settings for your environment.
 
-* The **Oak Repository Statistics** Mbean. It can be accessed directly by going to *https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D16%2Cname%3D%22Oak+Repository+Statistics%22%2Ctype%3D%22RepositoryStats%22*
+* The **Oak Repository Statistics** Mbean. It can be accessed directly by going to: 
+
+`https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D16%2Cname%3D%22Oak+Repository+Statistics%22%2Ctype%3D%22RepositoryStats%22`
 
 The **ObservationQueueMaxLength** section will show the number of events in Oak’s observation queue over the last hours, minutes, seconds and weeks. Find the largest number of events in the "per hour" section. This number needs to be compared to the `oak.observation.queue-length` setting which can be found in the **SlingRepositoryManager** component in the [OSGi console](../../../sites/deploying/using/configuring-web-console.md). If the highest number shown for the observation queue exceeds the `queue-length` setting, contact Adobe Support for assistance with raising the setting. The default setting is 1,000, but most deployments usually need to raise it to 20,000 or 50,000.
 
