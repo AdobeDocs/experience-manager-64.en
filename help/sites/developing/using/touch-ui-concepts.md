@@ -205,7 +205,7 @@ The differences between Granite UI and ExtJS (used for the classic UI) are also 
 
 ### Granite UI Foundation Components {#granite-ui-foundation-components}
 
-The [Granite UI foundation components](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) provide the basic building blocks needed for building any UI. They include, amongst others:
+The [Granite UI foundation components](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.html) provide the basic building blocks needed for building any UI. They include, amongst others:
 
 * Button
 * Hyperlink
