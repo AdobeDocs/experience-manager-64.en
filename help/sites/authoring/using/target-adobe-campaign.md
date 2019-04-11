@@ -68,7 +68,7 @@ After you have created segments, a brand, a campaign, and an experience, you can
 
 >[!NOTE]
 >
->[Email samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
+>[Email samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md. Please download sample Geometrixx content from Package Share.
 
 To create a newsletter with targeted content:
 

@@ -46,7 +46,7 @@ You can create a launch from either the Sites or Launches console:
 
    >[!NOTE]
    >
-   >In the **Sites** console you can also use [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode) to select a page before selecting **Create**.
+   >In the **Sites** console you can also use [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) to select a page before selecting **Create**.
    >
    >
    >This will use the selected page as the initial source page.

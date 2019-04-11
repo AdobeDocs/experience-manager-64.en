@@ -38,7 +38,7 @@ Depending on which Project template you select, you have certain workflows avail
 
 >[!NOTE]
 >
->&#42; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](/sites/authoring/using/language-copy.md)
+>&#42; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](/sites/administering/using/tc-manage.html)
 
 The steps for starting and completing workflows are the same no matter which workflow you choose. Only the steps change.
 
