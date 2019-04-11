@@ -25,9 +25,9 @@ When planning an upgrade the following areas of an implementation need to be inv
 
 1. **Pattern Detector** - Run the Pattern Detector as described in upgrade planning and described in detail in [this page](../../../sites/deploying/using/pattern-detector.md) to get a pattern detector report that contains more details on areas that need to be addressed in addition to the unvailable APIs/bundles in the Target version of AEM. The Pattern Detection report should give you an indication of any incompatibilities in your code, if there are none then your deployment is already 6.4 compatible, you can still choose to do new development for utilizing 6.4 functionality, but you do't need it just for maintaining compatibility. If there are incompatibilities reported then you can choose to either a) Run in compatibility mode and defer your development for new 6.4 features or compatibility, b) Decide to do development after upgrade, and move to step 2. Please see please see [Backward Compatibility in AEM 6.4](../../../sites/deploying/using/backward-compatibility.md) for more details.
 
-1. **Develop Code Base for 6.4 **- Create a dedicated branch or repository for the code base for the Target version. Use info from Pre-Upgrade Compatibility to plan areas of code to update.
-1. **Compile with 6.4 Uber jar **- Update code base POMs to point to 6.4 uber jar and compile code against this.
-1. **Update AEM Customizations*** - *Any customizations or extensions to AEM should be updated/validated to work in 6.4 and added to the 6.4 code base. Includes UI Search Forms, Assets Customizations, anything using /mnt/overlay
+1. **Develop Code Base for 6.4** - Create a dedicated branch or repository for the code base for the Target version. Use info from Pre-Upgrade Compatibility to plan areas of code to update.
+1. **Compile with 6.4 Uber jar** - Update code base POMs to point to 6.4 uber jar and compile code against this.
+1. **Update AEM Customizations** - Any customizations or extensions to AEM should be updated/validated to work in 6.4 and added to the 6.4 code base. Includes UI Search Forms, Assets Customizations, anything using /mnt/overlay
 
 1. **Deploy to 6.4 Environment** - A clean instance of AEM 6.4 (Author + Publish) should be stood up in a Dev/QA environment. Updated code base and a representative sample of content (from current production) should be deployed.
 1. **QA Validation and Bug fix** - QA should validate the application on both Author and Publish instances of 6.4. Any bugs found should be fixed and committed to the 6.4 code base. Repeat Dev-Cycle as necessary until all bugs are fixed.
@@ -107,7 +107,7 @@ Instances that have customized Assets deployments need to be prepared for the up
 
 You can prepare customizations to the Assets UI by doing the following:
 
-1. On the instance that needs to be upgraded, open CRXDE Lite by going to *https://server:port/crx/de/index.jsp* 
+1. On the instance that needs to be upgraded, open CRXDE Lite by going to `https://server:port/crx/de/index.jsp` 
 
 1. Go to the following node:
 
@@ -125,7 +125,7 @@ You can prepare customizations to the Assets UI by doing the following:
 
 ### Generating Asset IDs for Existing Assets {#generating-asset-ids-for-existing-assets}
 
-To generate asset IDs for existing assets, upgrade the assets when you upgrade your AEM instance to run AEM 6.4. This is required to enable the [Assets Insights feature](../../../assets/using/touch-ui-asset-insights.md). For more details, see [Adding Embed code](../../../assets/using/touch-ui-using-page-tracker.md#contentbody-title-1017167766).
+To generate asset IDs for existing assets, upgrade the assets when you upgrade your AEM instance to run AEM 6.4. This is required to enable the [Assets Insights feature](../../../assets/using/touch-ui-asset-insights.md). For more details, see [Adding Embed code](/help/assets/using/touch-ui-using-page-tracker.md#adding-embed-code).
 
 To upgrade assets, configure the Associate Asset IDs package in the JMX console. Depending on the number of assets in the repository, `migrateAllAssets` may take a long time. Our internal tests estimate roughly one hour for 125 thousand assets on TarMK.
 
@@ -153,11 +153,11 @@ It is a common practice to update modify out of the box workflows to add or remo
 >
 >This procedure is required only for Sites upgrades using Editable Templates from AEM 6.2
 
-The structure for Editable templates changed between AEM 6.2 and 6.3. If you are upgrading from 6.2 or earlier and If your site content is built using editable templates you will need to use the [Responsive Nodes Clean Up Tool](https://github.com/Adobe-Marketing-Cloud/aem-sites-template-migration). The tool is meant to run **after** an upgrade in order to clean up content. It will need to be run on both Author and Publish tiers.
+The structure for Editable templates changed between AEM 6.2 and 6.3. If you are upgrading from 6.2 or earlier and If your site content is built using editable templates you will need to use the [Responsive Nodes Clean Up Tool](https://github.com/Adobe-Marketing-Cloud/aem-sites-template-migration). The tool is meant to run **_after_** an upgrade in order to clean up content. It will need to be run on both Author and Publish tiers.
 
 ### CUG Implementation Changes {#cug-implementation-changes}
 
-The implementation of Closed User Groups has changed significantly to address performance and scalability limitations in previous versions of AEM. The previous version of CUG was deprecated in 6.3 and the new implementation is only supported in the Touch UI. If you are upgrading from 6.2 or ealier then Instructions to migrate to the new CUG implementation can be found [here](../../../sites/administering/using/closed-user-groups.md#upgradetoaem63).
+The implementation of Closed User Groups has changed significantly to address performance and scalability limitations in previous versions of AEM. The previous version of CUG was deprecated in 6.3 and the new implementation is only supported in the Touch UI. If you are upgrading from 6.2 or ealier then Instructions to migrate to the new CUG implementation can be found [here](/help/sites/administering/using/closed-user-groups.md#upgrade-cug).
 
 ## Testing Procedure {#testing-procedure}
 
