@@ -58,19 +58,19 @@ For the Panoramic Image viewer to work properly within AEM, you must synchronize
 
    These settings are necessary for using the Panoramic Media WCM component in AEM.
 
-1. At the bottom of the Image Server Publish page, on the left side, click **Save**.  
+1. At the bottom of the Image Server Publish page, on the left side, tap **Save**.  
 
-1. In the lower-right corner, click **Close**.
+1. In the lower-right corner, tap **Close**.
 
 ### Troubleshooting the Panoramic Media WCM component {#troubleshooting-the-panoramic-media-wcm-component}
 
 If you dropped an image into the Panoramic Media component in your WCM and the component placeholder collapsed, you may want to troubleshoot the following:
 
-* If you experience a 403 Forbidden error, it may have been caused by the requested image size being too large. Review the **Reply Image Size Limit** settings in [Configuring Dynamic Media Classic (Scene7)](../../assets/using/panoramic-images.md#configuring%20dynamic%20media%20classic%20(scene7)).
+* If you experience a 403 Forbidden error, it may have been caused by the requested image size being too large. Review the **Reply Image Size Limit** settings in [Configuring Dynamic Media Classic (Scene7)](#configuring-dynamic-media-classic-scene).
 
 * For an "Invalid lock" on the asset or "Parsing error" displayed on the page, check Request Obfuscation Mode and Request Locking Mode to ensure they are disabled.
 * For a tainted canvas error, setup a Rule Set Definition File Path and Invalidate CTN for the previous requests for the image asset.
-* If image quality becomes very low after an image request with sizing above the supported limit, check that the **JPEG Encoding Attributes** &gt; **Quality** setting is not empty. A typical setting for the **Quality **field is 95. You can find the setting on the Image Server Publish page. To access the page, see [Configuring Dynamic Media Classic (Scene7)](../../assets/using/panoramic-images.md#configuring%20dynamic%20media%20classic%20(scene7)).
+* If image quality becomes very low after an image request with sizing above the supported limit, check that the **JPEG Encoding Attributes** &gt; **Quality** setting is not empty. A typical setting for the **Quality** field is 95. You can find the setting on the Image Server Publish page. To access the page, see [Configuring Dynamic Media Classic (Scene7)](#configuring-dynamic-media-classic-scene).
 
 ## Previewing Panoramic Images {#previewing-panoramic-images}
 

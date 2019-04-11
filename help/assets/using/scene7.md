@@ -113,7 +113,7 @@ To add an interactive viewing experience to a responsive site in the touch-optim
 
    >[!NOTE]
    >
-   >If Scene7 WCM components are not available, be sure [to enable them via Design mode](../../sites/authoring/using/author-environment-tools.md#designmodeclassicui). [](../../sites/authoring/using/default-components-designmode.md)
+   >If Scene7 WCM components are not available, be sure [to enable them by way of Design mode](../../sites/authoring/using/default-components-designmode.md).
 
 1. In a website with the Scene7 components enabled, drag an **Image** component to the page.
 1. Select the component and tap or click the configuration icon.
@@ -145,7 +145,7 @@ The asset has zoom tools at the bottom. Click **+** to enlarge. Click **-** to r
 
 ### Flyout {#flyout}
 
-In the HTML5 Flyout component, the asset is shown as split screen; left the asset in the specified size; right the zoom portion is displayed. Click **Edit** to configure the component. With this component, you can configure [settings common to all Scene7 components](../../sites/administering/using/scene7.md#settingscommontoallscene7components).
+In the HTML5 Flyout component, the asset is shown as split screen; left the asset in the specified size; right the zoom portion is displayed. Click **Edit** to configure the component. With this component, you can configure [settings common to all Scene7 components](#settings-common-to-all-scene-components).
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ The Scene7 Image component lets you add Scene7 functionality to your images, suc
 
 [Scene7 Image Templates](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) are layered Photoshop content that was imported to Scene7, where content and properties were parameterized for variability. The** Image template** component lets you import images and change the text dynamically in AEM. In addition, you can configure the **Image template** component to use values from client context, so that each user experiences the image in a personalized way.
 
-Click **Edit** to configure the component. You can configure [settings common to all Scene7 components](../../sites/administering/using/scene7.md#settingscommontoallscene7components) as well as other settings described in this section.
+Click **Edit** to configure the component. You can configure [settings common to all Scene7 components](#settings-common-to-all-scene-components) as well as other settings described in this section.
 
 ![](assets/chlimage_1-231.png)
 

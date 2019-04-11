@@ -270,8 +270,8 @@ The following are best-practice tips for encoding source video files.
 
 For advice about video encoding, see the following:
 
-* Article: *Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution: * [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en).
-* Video: *Video Encoding Basics: * [www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en).
+* Article: *Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution:* [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en).
+* Video: *Video Encoding Basics:* [www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en).
 
 ### Source video files {#source-video-files}
 
@@ -320,7 +320,7 @@ When you choose or create a video encoding preset for your master video file, ma
 
 To determine the aspect ratio of a video file, obtain the file’s metadata and note the file’s width and height (see Obtaining a file's metadata above). Then use this formula to determine the aspect ratio:
 
-width/height = aspect ratio
+*width/height = aspect ratio*
 
 The following table describes how formula results translate to common aspect ratio choices:
 
@@ -369,7 +369,7 @@ When selecting a bitrate encoding, there are two types you can choose:
 * **Variable Bitrate Encoding** (VBR) - VBR encoding adjusts the data rate down and to the upper limit you set, based on the data required by the compressor. This means that during a VBR encoding process the bitrate of the media file dynamically increases or decreases depending on the media files bitrate needs.  
   VBR takes longer to encode but produces the most favorable results; the quality of the media file is superior. VBR is most commonly used for http progressive delivery of video content.
 
-When should you use VBR versus CRB?  
+**When should you use VBR versus CRB?** 
 When it comes to selecting VBR versus CBR, it is almost always recommended that you use VBR for your media files. VBR provides higher quality files at competitive bitrates. When you use VBR, be sure you use with two-pass encoding, and set the maximum bitrate to be 1.5x the target video bitrate.
 
 When you choose a video encoding preset, take into account the target end user’s connection speed. Choose a preset with a data rate that is 80 percent of that speed. For example, if the target end user’s connection speed is 1000 Kbps, the best preset is one with a video data rate of 800 Kbps.
@@ -405,7 +405,7 @@ This table describes the data rate of typical connection speeds.
 
 ### Resolution {#resolution}
 
-**Resolution **describes a video file’s height and width in pixels. Most source video is stored at a high resolution (for example, 1920 x 1080). For streaming purposes, source video is compressed to a smaller resolution (640 x 480 or smaller).
+**Resolution** describes a video file’s height and width in pixels. Most source video is stored at a high resolution (for example, 1920 x 1080). For streaming purposes, source video is compressed to a smaller resolution (640 x 480 or smaller).
 
 Resolution and data rate are two integrally linked factors that determine video quality. To maintain the same video quality, the higher the number of pixels in a video file (the higher the resolution), the higher the data rate must be. For example, consider the number of pixels per frame in a 320 x 240 resolution and a 640 x 480 resolution video file:
 
@@ -662,7 +662,7 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
 ### Setting up YouTube in AEM {#setting-up-youtube-in-aem}
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, click **Tools **(hammer icon) &gt; **Deployment** &gt; **Cloud Services**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Deployment** &gt; **Cloud Services**.
 1. Under the Third Party Services heading, under YouTube, click **Configure now**.
 1. In the Create Configuration dialog box, enter a title (mandatory) and name (optional) in the respective fields.
 1. Click **Create**.
@@ -700,8 +700,7 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
    To delete a tag you have added, select the tag, and click **X**.
 
-1. When you are finished adding the tags you want, click **OK.  
-   ** 
+1. When you are finished adding the tags you want, click **OK**.   
    Now you publish videos to your YouTube channel.
 
 ### (Optional) Automating the setting of default YouTube properties for your uploaded videos {#optional-automating-the-setting-of-default-youtube-properties-for-your-uploaded-videos}
@@ -712,9 +711,9 @@ To create the metadata processing profile, you are first going to copy values fr
 
 To automate the setting of default YouTube properties for your uploaded videos:
 
-1. In the upper-left corner of AEM, click the AEM logo, then in the left rail, click **Tools **(hammer icon) &gt; **Assets** &gt; **Metadata Schemas**.
+1. In the upper-left corner of AEM, click the AEM logo, then in the left rail, click **Tools** (hammer icon) &gt; **Assets** &gt; **Metadata Schemas**.
 1. Click **default**. (Do not add a checkmark to the selection box to the left of "default".)
-1. On the **default **page, check the box to the left of **video**, then click **Edit**.
+1. On the **default** page, check the box to the left of **video**, then tap **Edit**.
 1. On the Metadata Schema Editor page, click the **Advanced** tab.
 1. Under the YouTube Publishing heading, click **YouTube Category**. (Do not click the YouTube Category drop-down list.)
 1. On the right side of the page, under the **Settings** tab, do the following:
@@ -741,7 +740,7 @@ To automate the setting of default YouTube properties for your uploaded videos:
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
 1. Near the upper-right corner of the Metadata Schema Editor page, click **Cancel**.
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, click **Tools **(hammer icon) &gt; **Assets** &gt; **Metadata Profiles**.  
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, click **Tools** (hammer icon) &gt; **Assets** &gt; **Metadata Profiles**.  
 
 1. On the Metadata Profiles page, near the upper-right corner of the page, click **Create**. In the Add Metadata Profile dialog box, in the **Profile title** text field, enter the name `YouTube Video`.
 1. On the Metadata Profile Editor page, click the **Advance** tab.
@@ -753,21 +752,21 @@ To automate the setting of default YouTube properties for your uploaded videos:
     * On the right side of the page, under the Settings tab, in the Field Label text field, enter `YouTube Publishing`.
     * Click the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Publishing** heading that you just created.
     
-    * Click **Field Label **to select the component.
+    * Click **Field Label** to select the component.
     * On the right side of the page, under the Settings tab, paste the YouTube Publishing values (Field Label value and Map to property value) that you copied earlier, into their respective fields on the form. Paste the Choices value into the Default Value field.
 
 1. Add the copied YouTube Privacy values to the profile by doing the following:
 
     * On the right side of the page, click the **Build Form** tab.
     * Drag the component labeled **Section Header** to the left and drop it in the form area.
-    * Click **Field Label **to select the component.
+    * Click **Field Label** to select the component.
     * On the right side of the page, under the Settings tab, in the Field Label text field, enter `YouTube Privacy`.
     * Click the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Privacy** heading you just created.
     
-    * Click **Field Label **to select the component.
-    * On the right side of the page, under the Settings tab, paste the YouTube Publishing values (Field Label value and Map to property value) that you copied earlier, into their respective fields on the form. Paste the Choices value into the Default Value field.
+    * Click **Field Label** to select the component.
+    * On the right side of the page, under the **Settings** tab, paste the YouTube Publishing values (Field Label value and Map to property value) that you copied earlier, into their respective fields on the form. Paste the Choices value into the Default Value field.
 
-1. Near the upper-right corner of the page, click **Save**.
+1. Near the upper-right corner of the page, tap **Save**.
 1. Apply the YouTube Publishing metadata profile to the folders where you are going to upload videos. You will need to have both the Metadata Profile and the Video Profile set.
 
    See [Metadata Profiles](../../assets/using/metadata-profiles.md) and [Video Profiles](../../assets/using/video-profiles.md).
@@ -789,12 +788,12 @@ To publish videos to your YouTube channel:
 
    Regardless of the video asset that you select--such as the original source video or an encoded rendition of it--the original source video always gets uploaded.
 
-1. On the toolbar, click **Properties**.
-1. In the Basic tab, under the Metadata heading, click **Browse **to the right of the Tags field.
+1. On the toolbar, tap **Properties**.
+1. In the Basic tab, under the Metadata heading, click **Browse** to the right of the Tags field.
 1. On the Select Tags page, navigate to the tags you want to use, and then select one or more tags.
-1. In the upper-right corner of the page, click the **Confirm **icon.
-1. In the upper-right corner of the video's properties page, click **Save**.
-1. On the toolbar, click **Publish** &gt; **Publish**.  
+1. In the upper-right corner of the page, click the **Confirm** icon.
+1. In the upper-right corner of the video's properties page, tap **Save**.
+1. On the toolbar, tap **Publish** &gt; **Publish**.  
   
    You can optionally verify the published video on your YouTube channel.
 
@@ -818,12 +817,12 @@ You can obtain a YouTube URL string that is generated by Dynamic Media after you
 
 To link YouTube URLs to your web application:
 
-1. Navigate to the* YouTube published *video asset whose URL you want to copy, then select it.
+1. Navigate to the YouTube *published* video asset whose URL you want to copy, then select it.
 
    Remember that YouTube URLs are only available to copy *after* you have first *published* the video assets to YouTube.
 
-1. On the toolbar, click **Properties**.
-1. Click the** Advanced** tab.
+1. On the toolbar, tap **Properties**.
+1. Click the **Advanced** tab.
 1. Under the YouTube Publishing heading, in the YouTube URL List, select and copy the URL text to your web browser to preview the asset or to add to your web content page.
 
 ### Unpublishing videos to remove them from YouTube {#unpublishing-videos-to-remove-them-from-youtube}
@@ -842,10 +841,10 @@ When you unpublish a video asset in AEM, the video is removed from YouTube.
 
 To unpublish videos to remove them from YouTube:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, click **Tools **(hammer icon) &gt; **Assets**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Assets**.
 1. Navigate to the video assets that you want to unpublish from your YouTube channel.
 1. In an asset selection mode, select one or more published video assets.
-1. On the toolbar, click **Unpublish** &gt; **Unpublish**.
+1. On the toolbar, tap **Unpublish** &gt; **Unpublish**.
 
 ## Monitoring video encoding and YouTube publishing progress {#monitoring-video-encoding-and-youtube-publishing-progress}
 
@@ -859,15 +858,15 @@ To monitor progress (including failed encoding/YouTube publish):
 
     * In card view, video encoding progress displays on the asset by percent. If there is an error, this information also displays on the asset.
 
-   ![](assets/chlimage_1-429.png)
+       ![](assets/chlimage_1-429.png)
 
     * In list view, video encoding progress displays in the **Processing Status** column. If there is an error, this message displays in that same column.
 
-   ![](assets/chlimage_1-430.png)
+       ![](assets/chlimage_1-430.png)
 
-   This column does not display by default. To enable the column, select **View Settings** from the views drop-down menu, and add the **Processing Status** column and tap or click **Update**.
+       This column does not display by default. To enable the column, select **View Settings** from the views drop-down menu, and add the **Processing Status** column and tap or click **Update**.
 
-   ![](assets/chlimage_1-431.png)
+       ![](assets/chlimage_1-431.png)
 
 1. View progress in the asset details. When you tap or click an asset, open the drop-down menu and select **Timeline**. To narrow it down to workflow activities like encoding or YouTube publishing, select **Workflows**.
 
@@ -946,8 +945,8 @@ How you configure notification depends on whether you want notifications for enc
 * For YouTube publishing jobs, do the following:
 
 1. In AEM, select **Tools** &gt; **Workflow** &gt; **Models**.
-1. Select the **Publish to YouTube** workflow and tap or click **Edit**. 
-1. Right-click the **YouTube Upload** workflow step and tap or click **Edit**. 
+1. Select the **Publish to YouTube** workflow, then tap **Edit**. 
+1. Right-click the **YouTube Upload** workflow step, then tap **Edit**. 
 1. Click the **Arguments** tab. 
 1. You can select or clear the following check boxes:
 
@@ -975,13 +974,13 @@ Video Reports display several aggregate metrics across a specified period of tim
 * Total time on video
 * Videos per visit
 
-A table of all *published *videos is also listed so you can track the top viewed videos on your website based on total video starts.
+A table of all *published* videos is also listed so you can track the top viewed videos on your website based on total video starts.
 
 When you tap a video name in the list it shows you the video’s audience retention (drop-off) report in the form of a line chart. The chart displays the number of views for any given moment of time during video playback. When you play the video, the vertical bar tracks in synchronization with the time indicator in the player. Drops in the line chart data indicate where your audience drops off from disinterest.
 
 If the video was encoded outside of Adobe Experience Manager Dynamic Media, the audience retention (drop-off) chart and the Play Percentage data in the table are not available.
 
-See also [Configuring Dynamic Media Cloud Services](../../assets/using/config-dynamic.md).
+See also [Configuring Dynamic Media Cloud Services](/help/assets/using/config-dynamic.md).
 
 >[!NOTE]
 >
@@ -993,16 +992,16 @@ For video reports to work correctly, a Report Suite ID is automatically created 
 
 To view video reports:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools **(hammer icon) &gt; **Assets** &gt; **Video Reports**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Assets** &gt; **Video Reports**.
 1. On the Video Reports page, do one of the following:
 
-    * Near the upper-right corner, tap the **Refresh Video Report **icon.  
+    * Near the upper-right corner, tap the **Refresh Video Report** icon.  
       You only need to use Refresh if the end date of the report is the current day. This ensures that you see the video tracking that has occurred since the last time you ran the report.
     
-    * Near the upper-right corner, tap the **Date Picker **icon.  
+    * Near the upper-right corner, tap the **Date Picker** icon.  
       Specify the beginning and end date range for which you want video data, and then tap **Run Report**.
 
-   The Top Metrics group box identifies various aggregate measurements for all *published *videos across your site.
+   The Top Metrics group box identifies various aggregate measurements for all *published* videos across your site.
 
 1. In the table that lists the top published videos, tap a video name to play the video and also see the video’s audience retention (drop-off) report.
 
@@ -1108,7 +1107,7 @@ To add captions or subtitles to video:
    Generally, you want to name the caption VTT file the same name as the video file, and append it with the language locale, such as -EN, or -FR, or -DE, and so on. By doing so, it can help you with automating the generation of the video URLs using your existing web content management system.
 
 1. In AEM, upload your WebVTT caption file into DAM.
-1. Navigate to the *published *video asset that you want to associate with the caption file that you uploaded.
+1. Navigate to the *published* video asset that you want to associate with the caption file that you uploaded.
 
    Remember that URLs are only available to copy *after* you have first *published* the assets.
 
@@ -1182,8 +1181,6 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
    See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
 1. Do one of the following:
-
-<!--check table for accuracy. nest? -->
 
    <table> 
      <tbody> 

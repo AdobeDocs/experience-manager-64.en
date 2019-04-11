@@ -404,7 +404,7 @@ To add interactivty to your video:
        <li>If the pre-populated SKU is incorrect, tap or click the Product Picker icon (magnifying glass) to open the Select Product page. Tap or click the product you want to use, then tap the check mark in the upper-right corner of the page to return to the Interactive Video Editor.</li> 
        </ul> <p> If you are <em>not</em> an AEM Sites or Ecommerce customer</p> 
        <ul> 
-       <li>See <a href="../../assets/using/carousel-banners.md#identifyinghotspotvariables">Identifying hotspot variables</a>. You will need to define these variables. </li> 
+       <li>See <a href="../../assets/using/carousel-banners.md#identifying-hotspot-and-image-map-variables">Identifying hotspot variables</a>. You will need to define these variables. </li> 
        <li>By default, this SKU field uses the image asset's filename without the extension. If you follow a standard naming convention for your files based on SKU, then this typically does not require any additional edits. </li> 
        <li>Otherwise, edit the default value and enter the correct SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped image with a particular SKU's Quickview.</li> 
        </ul> <p>(Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap <strong>Add Generic Variable</strong>. In the text field, specify an additional variable. For example, <span class="code">category=Womens</span> is an added variable.</p> <p> </p> </td> 

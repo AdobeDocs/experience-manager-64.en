@@ -100,23 +100,23 @@ You can browse through individual pages of a file from the asset page. You can u
 
    ![](assets/chlimage_1-264.png)
 
-1. To annotate a page, click the **Annotate **icon from the toolbar and add a comment.
+1. To annotate a page, click the **Annotate** icon from the toolbar and add a comment.
 
    ![](assets/chlimage_1-265.png)
 
-1. To download the file, click the **Download **icon.
+1. To download the file, click the **Download** icon.
 
    ![](assets/chlimage_1-266.png)
 
-1. To view all pages of the file simultaneously, click the **Page Overview** icon.
+1. To view all pages of the file simultaneously, near the upper-right corner of the page, tap the **Page Overview** icon.
 
    ![](assets/chlimage_1-267.png)
 
-1. To view the activity stream for the file, including annotations and downloads, click the Global Nav ico and then choose **Timeline** from the menu.
+1. To view the activity stream for the file, including annotations and downloads, click the Global Navigation icon and then choose **Timeline** from the menu.
 
    ![](assets/chlimage_1-268.png)
 
-1. To view and edit the metadata properties of the page, click the **View Properties **icon from the toolbar.
+1. To view and edit the metadata properties of the page, click the **View Properties** icon from the toolbar.
 
    ![](assets/chlimage_1-269.png)
 

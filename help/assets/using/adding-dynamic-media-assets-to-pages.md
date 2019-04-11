@@ -37,7 +37,7 @@ Adding the Dynamic Media or Interactive Media component to a page is the same as
    ![](assets/chlimage_1-537.png)
 
 1. Drag the **Dynamic Media** or **Interactive Media** component onto the page in the desired location.
-1. Click** **the blue box around the component and click the** Configuration** (wrench)** **icon**.**
+1. Click the blue box around the component, then tap the **Configuration** (wrench) icon.
 1. [Edit the components](#dynamic-media-components) as necessary and click the checkmark to save changes.
 
 ## Localizing Dynamic Media Components {#localizing-dynamic-media-components}
@@ -228,7 +228,7 @@ Both the aspect ratio and keyword criteria apply to panoramic assets for the ass
 
 ![](assets/panoramic-media-viewer-preset.png)
 
-You can edit the following** **setting by clicking **Configure** in the component.
+You can edit the following setting by tapping **Configure** in the component.
 
 **Viewer Preset** Select an existing viewer from the Viewer preset drop-down menu.
 
@@ -247,4 +247,4 @@ See [HTTP2 Delivery of Content](../../assets/using/http2.md) for complete detail
 >* [Understanding the Asset Viewer with AEM Dynamic Media](https://helpx.adobe.com/experience-manager/kt/assets/using/dynamic-media-viewer-feature-video-understand.html)
 >* [Using Custom Video Thumbnail with AEM Dynamic Media](https://helpx.adobe.com/experience-manager/kt/assets/using/dynamic-media-video-thumbnails-feature-video-use.html)
 >* [Understanding Color Management with AEM Dynamic Media](https://helpx.adobe.com/experience-manager/kt/assets/using/dynamic-media-color-management-technical-video-setup.html)
->* [Using Image Sharpening with AEM Dynamic Media](https://helpx.adobe.com/experience-manager/kt/assets/using/dynamic-media-image-sharpening-feature-video-use.html)
+>* [Using Image Sharpening with AEM Dynamic Media](https://helpx.adobe.com/experience-manager/6-4/assets/using/best-practices-for-optimizing-the-quality-of-your-images.html)

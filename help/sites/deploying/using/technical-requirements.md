@@ -475,26 +475,25 @@ This means that when an IP address needs to be specified you can select (as requ
 
 ### Requirements for AEM Dynamic Media Add-on {#requirements-for-aem-dynamic-media-add-on}
 
-AEM Dynamic Media is disabled by default. See here to [enable Dynamic Media](../../../assets/using/config-dynamic.md#enabling-dynamic-media).
+AEM Dynamic Media is disabled by default. See [Enabling Dynamic Media](../../../assets/using/config-dynamic.md#enabling-dynamic-media).
 
-With Dynamic Media enabled, the following additional technical requirements apply.
-
+With Dynamic Media enabled, the following additional system requirements apply:
 >[!NOTE]
 >
->These system requirements **only** apply if you use Dynamic Media - Hybrid mode; Dynamic Media - Hybrid mode has an embedded image server, which is only certified on certain operating systems. 
+>The following system requirements apply **_only_** if you use Dynamic Media - Hybrid mode; Dynamic Media - Hybrid mode has an embedded image server, which is only certified on certain operating systems. 
 >
 >For Dynamic Media customers who run Dynamic Media - Scene7 mode (that is, **dynamicmedia_scene7** runmode), there are no additional system requirements; only the same system requirements as AEM. Dynamic Media - Scene7 mode architecture uses the cloud-based image service, not the service embedded in AEM.
 
 #### Hardware {#hardware}
 
-The following hardware requirements are applicable for both Linux and Windows:
+The following hardware requirements apply to both Linux and Windows operating systems:
 
 * Intel Xeon or AMD Opteron CPU with at least 4 cores  
 * 16GB of RAM minimum
 
 #### Linux {#linux}
 
-If you are using Dynamic Media on Linux, the following prerequisites need to be met:
+Using Dynamic Media on Linux requires the following prerequisites:
 
 * RedHat Enterprise 7 or CentOS 7 and later with latest fix patches
 * 64-bit Operating System

@@ -141,7 +141,7 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 ## Enabling Dynamic Media {#enabling-dynamic-media}
 
-[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable dynamic media by using the **dynamicmedia** run mode as you would, for example, **publish** run mode. Before enabling, make sure to review the [technical requirements.](../../sites/deploying/using/technical-requirements.md#dynamicmediaaddonprerequisites)
+[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable dynamic media by using the **dynamicmedia** run mode as you would, for example, **publish** run mode. Before enabling, make sure to review the [technical requirements.](/help/sites/deploying/using/technical-requirements.md##requirements-for-aem-dynamic-media-add-on)
 
 >[!NOTE]
 >
@@ -671,7 +671,7 @@ To deliver* *an asset with a viewer preset, you must replicate/publish* *the vie
 
 >[!NOTE]
 >
->By default, the system shows a variety of renditions when you select **Renditions** and a variety of viewer presets when you select **Viewers** in the asset's detail view. You can increase or decrease the number seen. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasingthenumberofimagepresetsthatdisplay) or [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md#increasing-the-number-of-viewer-presets-that-display).
+>By default, the system shows a variety of renditions when you select **Renditions** and a variety of viewer presets when you select **Viewers** in the asset's detail view. You can increase or decrease the number seen. See [Increasing the number of image presets that display](/help/assets/using/managing-image-presets.md##increasing-or-decreasing-the-number-of-image-presets-that-display) or [Increasing the number of viewer presets that display](/help/assets/using/managing-viewer-presets.md##increasing-the-number-of-viewer-presets-that-display).
 
 ## Filtering Assets for Replication {#filtering-assets-for-replication}
 
@@ -952,17 +952,17 @@ Table of Manifest settings and their default values:
   <tr> 
    <td>bkgcolor</td> 
    <td>FFFFFF</td> 
-   <td><p>Default background color. RGB value used to fill in any area of a reply image which does not contain actual image data.</p> <p>See also <a href="https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/image_catalog/r_bkgcolor.html">BkgColor</a> in the Image Serving API.</p> </td> 
+   <td><p>Default background color. RGB value used to fill in any area of a reply image which does not contain actual image data.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_bkgcolor.html">BkgColor</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>defaultpix</td> 
    <td>300,300</td> 
-   <td><p>Default view size. The server constrains reply images to be no larger than this width and height, if the request does not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. Does not apply to nested/embedded requests.</p> <p>See also <a href="https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/image_catalog/r_defaultpix.html">DefaultPix</a> in the Image Serving API.</p> <p>Usually, however, you are using a viewer preset or image preset to deliver the asset. Defaultpix only applies to an asset that is not using a viewer preset or image preset.</p> </td> 
+   <td><p>Default view size. The server constrains reply images to be no larger than this width and height, if the request does not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. Does not apply to nested/embedded requests.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_defaultpix.html">DefaultPix</a> in the Image Serving API.</p> <p>Usually, however, you are using a viewer preset or image preset to deliver the asset. Defaultpix only applies to an asset that is not using a viewer preset or image preset.</p> </td> 
   </tr> 
   <tr> 
    <td>defaultthumbpix</td> 
    <td>100,100</td> 
-   <td><p>Default thumbnail size. Used instead of attribute::DefaultPix for thumbnail requests (req=tmb).</p> <p>The server constrains reply images to be no larger than this width and height, if a thumbnail request (req=tmb) does not specify the size explicitly not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. </p> <p>Does not apply to nested/embedded requests.</p> <p>See also <a href="https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/image_catalog/r_defaultthumbpix.html">DefaultThumbPix</a> in the Image Serving API. </p> </td> 
+   <td><p>Default thumbnail size. Used instead of attribute::DefaultPix for thumbnail requests (req=tmb).</p> <p>The server constrains reply images to be no larger than this width and height, if a thumbnail request (req=tmb) does not specify the size explicitly not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. </p> <p>Does not apply to nested/embedded requests.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_defaultthumbpix.html">DefaultThumbPix</a> in the Image Serving API. </p> </td> 
   </tr> 
   <tr> 
    <td>expiration</td> 
@@ -972,22 +972,22 @@ Table of Manifest settings and their default values:
   <tr> 
    <td>jpegquality</td> 
    <td>80</td> 
-   <td><p>Default JPEG encoding attributes. Specifies the default attributes for JPEG reply images.</p> <p>Integer number and flag, separated by a comma. The first value is in the range 1..100 and defines the quality. The second value may be 0 for normal behavior, or 1 to disable the RGB chromaticity down-sampling usually employed by JPEG encoders.</p> <p>See also <a href="https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/image_catalog/r_jpegquality.html">JpegQuality</a> in the Image Serving API.</p> </td> 
+   <td><p>Default JPEG encoding attributes. Specifies the default attributes for JPEG reply images.</p> <p>Integer number and flag, separated by a comma. The first value is in the range 1..100 and defines the quality. The second value may be 0 for normal behavior, or 1 to disable the RGB chromaticity down-sampling usually employed by JPEG encoders.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_jpegquality.html">JpegQuality</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>maxpix</td> 
    <td>2000,2000</td> 
-   <td><p>Reply image size limit. Maximum reply image width and height that is returned to the client.</p> <p>The server returns an error if a request causes a reply image whose width or height is larger than attribute::MaxPix.</p> <p>See also <a href="https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/image_catalog/r_maxpix.html">MaxPix</a> in the Image Serving API.</p> </td> 
+   <td><p>Reply image size limit. Maximum reply image width and height that is returned to the client.</p> <p>The server returns an error if a request causes a reply image whose width or height is larger than attribute::MaxPix.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_maxpix.html">MaxPix</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>resmode</td> 
    <td>SHARP2</td> 
-   <td><p>Default resampling mode. Specifies the default resampling and interpolation attributes to be used for scaling image data.</p> <p>Used when resMode= is not specified in a request.</p> <p>Allowed values include BILIN, BICUB, or SHARP2.</p> <p>Enum. Set to 2 for bilin, 3 for bicub, or 4 for sharp2 interpolation mode. Use sharp2 for best results.</p> <p>See also <a href="https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/image_catalog/r_is_cat_resmode.html">ResMode</a> in the Image Serving API.</p> </td> 
+   <td><p>Default resampling mode. Specifies the default resampling and interpolation attributes to be used for scaling image data.</p> <p>Used when resMode= is not specified in a request.</p> <p>Allowed values include BILIN, BICUB, or SHARP2.</p> <p>Enum. Set to 2 for bilin, 3 for bicub, or 4 for sharp2 interpolation mode. Use sharp2 for best results.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_is_cat_resmode.html">ResMode</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>resolution</td> 
    <td>72</td> 
-   <td><p>Default object resolution. Provides a default object resolution in case a particular catalog record does not contain a valid catalog::Resolution value.</p> <p>Real number, larger than 0. Typically expressed as pixels per inch, but may also be in other units, such as pixels per meter.</p> <p>See also <a href="https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/image_catalog/r_resolution.html">Resolution</a> in the Image Serving API.</p> </td> 
+   <td><p>Default object resolution. Provides a default object resolution in case a particular catalog record does not contain a valid catalog::Resolution value.</p> <p>Real number, larger than 0. Typically expressed as pixels per inch, but may also be in other units, such as pixels per meter.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_resolution.html">Resolution</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>thumbnailtime</td> 
@@ -1033,86 +1033,86 @@ To install feature pack 12445:
 
 After you install the feature pack, you need to configure the appropriate default color profiles to enable color correction when requesting RGB or CMYK image data.
 
-To configure the default color profiles:
+**To configure the default color profiles**
 
-1. In **Tools** &gt; **General** &gt; **CRXDE Lite**, navigate to */conf/global/settings/dam/dm/imageserver/configuration/settings *which contains the default Adobe Color Profiles.
+1. In **Tools** &gt; **General** &gt; **CRXDE Lite**, navigate to */conf/global/settings/dam/dm/imageserver/configuration/settings* which contains the default Adobe Color Profiles.
 
    ![](assets/chlimage_1-514.png)
 
-1. Add* *a color correction property by scrolling to the bottom of the **Properties** tab and manually entering the property name, type, and value, which are described in the following tables. After you enter the values, click **Add** and then **Save All** to save your values.
+1. Add a color correction property by scrolling to the bottom of the **Properties** tab and manually entering the property name, type, and value, which are described in the following tables. After you enter the values, click **Add** and then **Save All** to save your values.
 
    Color correction properties are described in the **Color Corrections Properties** table. Values that you can assign to color correction properties are in the **Color Profile** table.
 
-   For example, in **Name**, add `iccprofilecmyk`, select **Type** `String`, and add `WebCoated` as a **Value**. Then click **Add** and then **Save All **to save your values.
+   For example, in **Name**, add `iccprofilecmyk`, select **Type** `String`, and add `WebCoated` as a **Value**. Tap **Add**, then **Save All** to save your values.
 
    ![](assets/chlimage_1-515.png)
 
-   **Color Correction Properties Table**
+    **Color Correction Properties Table**
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Property</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Default</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilergb.html">iccprofilergb</a></td> 
-   <td>String</td> 
-   <td>&lt;empty&gt;</td> 
-   <td>Name of the default RGB color profile.</td> 
-  </tr> 
-  <tr> 
-   <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilecmyk.html">iccprofilecmyk</a></td> 
-   <td>String</td> 
-   <td>&lt;empty&gt;</td> 
-   <td>Name of the default CMYK color profile.</td> 
-  </tr> 
-  <tr> 
-   <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilegray.html">iccprofilegray</a></td> 
-   <td>String</td> 
-   <td>&lt;empty&gt;</td> 
-   <td>Name of the default Gray color profile.</td> 
-  </tr> 
-  <tr> 
-   <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrcrgb.html">iccprofilesrcrgb</a></td> 
-   <td>String</td> 
-   <td>&lt;empty&gt;</td> 
-   <td>Name of the default RGB color profile used for RGB images that do not have an embedded color profile</td> 
-  </tr> 
-  <tr> 
-   <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrccmyk.html">iccprofilesrccmyk</a></td> 
-   <td>String</td> 
-   <td>&lt;empty&gt;</td> 
-   <td>Name of the default CMYK color profile used for CMYK images that do not have an embedded color profile.</td> 
-  </tr> 
-  <tr> 
-   <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrcgray.html">iccprofilesrcgray</a></td> 
-   <td>String</td> 
-   <td>&lt;empty&gt;</td> 
-   <td>Name of the default Gray color profile used for CMYK images that do not have an embedded color profile.</td> 
-  </tr> 
-  <tr> 
-   <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccblackpointcompensation.html">iccblackpointcompensation</a></td> 
-   <td>Boolean</td> 
-   <td>True</td> 
-   <td>Specifies whether black point compensation should be done during color correction. Adobe recommends this to be on.</td> 
-  </tr> 
-  <tr> 
-   <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccdither.html">iccdither</a></td> 
-   <td>Boolean</td> 
-   <td>False</td> 
-   <td>Specifies whether dithering should be done during color correction.</td> 
-  </tr> 
-  <tr> 
-   <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccrenderintent.html">iccrenderintent</a></td> 
-   <td>String</td> 
-   <td>relative</td> 
-   <td><p>Specifies the render intent. Acceptable values are: <strong>perceptual, relative, saturation, absolute. </strong><i></i>Adobe recommends <strong>relative </strong><i></i>as the default.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <tbody> 
+      <tr> 
+      <td><strong>Property</strong></td> 
+      <td><strong>Type</strong></td> 
+      <td><strong>Default</strong></td> 
+      <td><strong>Description</strong></td> 
+      </tr> 
+      <tr> 
+      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilergb.html">iccprofilergb</a></td> 
+      <td>String</td> 
+      <td>&lt;empty&gt;</td> 
+      <td>Name of the default RGB color profile.</td> 
+      </tr> 
+      <tr> 
+      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilecmyk.html">iccprofilecmyk</a></td> 
+      <td>String</td> 
+      <td>&lt;empty&gt;</td> 
+      <td>Name of the default CMYK color profile.</td> 
+      </tr> 
+      <tr> 
+      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilegray.html">iccprofilegray</a></td> 
+      <td>String</td> 
+      <td>&lt;empty&gt;</td> 
+      <td>Name of the default Gray color profile.</td> 
+      </tr> 
+      <tr> 
+      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrcrgb.html">iccprofilesrcrgb</a></td> 
+      <td>String</td> 
+      <td>&lt;empty&gt;</td> 
+      <td>Name of the default RGB color profile used for RGB images that do not have an embedded color profile</td> 
+      </tr> 
+      <tr> 
+      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrccmyk.html">iccprofilesrccmyk</a></td> 
+      <td>String</td> 
+      <td>&lt;empty&gt;</td> 
+      <td>Name of the default CMYK color profile used for CMYK images that do not have an embedded color profile.</td> 
+      </tr> 
+      <tr> 
+      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrcgray.html">iccprofilesrcgray</a></td> 
+      <td>String</td> 
+      <td>&lt;empty&gt;</td> 
+      <td>Name of the default Gray color profile used for CMYK images that do not have an embedded color profile.</td> 
+      </tr> 
+      <tr> 
+      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccblackpointcompensation.html">iccblackpointcompensation</a></td> 
+      <td>Boolean</td> 
+      <td>True</td> 
+      <td>Specifies whether black point compensation should be done during color correction. Adobe recommends this to be on.</td> 
+      </tr> 
+      <tr> 
+      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccdither.html">iccdither</a></td> 
+      <td>Boolean</td> 
+      <td>False</td> 
+      <td>Specifies whether dithering should be done during color correction.</td> 
+      </tr> 
+      <tr> 
+      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccrenderintent.html">iccrenderintent</a></td> 
+      <td>String</td> 
+      <td>relative</td> 
+      <td><p>Specifies the render intent. Acceptable values are: <strong>perceptual, relative, saturation, absolute. </strong><i></i>Adobe recommends <strong>relative </strong><i></i>as the default.</p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    >[!NOTE]
    >
@@ -1122,181 +1122,179 @@ To configure the default color profiles:
 
    The following color profiles are installed:
 
-<table> 
- <tbody> 
-  <tr> 
-   <th><p>Name</p> </th> 
-   <th><p>Colorspace</p> </th> 
-   <th><p>Description</p> </th> 
-  </tr> 
-  <tr> 
-   <td>AdobeRGB</td> 
-   <td>RGB</td> 
-   <td>Adobe RGB (1998)</td> 
-  </tr> 
-  <tr> 
-   <td>AppleRGB</td> 
-   <td>RGB</td> 
-   <td>Apple RGB</td> 
-  </tr> 
-  <tr> 
-   <td>CIERGB</td> 
-   <td>RGB</td> 
-   <td>CIE RGB</td> 
-  </tr> 
-  <tr> 
-   <td>CoatedFogra27</td> 
-   <td>CMYK</td> 
-   <td>Coated FOGRA27 (ISO 12647-2:2004)</td> 
-  </tr> 
-  <tr> 
-   <td>CoatedFogra39</td> 
-   <td>CMYK</td> 
-   <td>Coated FOGRA39 (ISO 12647-2:2004)</td> 
-  </tr> 
-  <tr> 
-   <td>CoatedGraCol</td> 
-   <td>CMYK</td> 
-   <td>Coated GRACoL 2006 (ISO 12647-2:2004)</td> 
-  </tr> 
-  <tr> 
-   <td>ColorMatchRGB</td> 
-   <td>RGB</td> 
-   <td>ColorMatch RGB</td> 
-  </tr> 
-  <tr> 
-   <td>EuropeISOCoated</td> 
-   <td>CMYK</td> 
-   <td>Europe ISO Coated FOGRA27</td> 
-  </tr> 
-  <tr> 
-   <td>EuroscaleCoated</td> 
-   <td>CMYK</td> 
-   <td>Euroscale Coated v2</td> 
-  </tr> 
-  <tr> 
-   <td>EuroscaleUncoated</td> 
-   <td>CMYK</td> 
-   <td>Euroscale Uncoated v2</td> 
-  </tr> 
-  <tr> 
-   <td>JapanColorCoated</td> 
-   <td>CMYK</td> 
-   <td>Japan Color 2001 Coated</td> 
-  </tr> 
-  <tr> 
-   <td>JapanColorNewspaper</td> 
-   <td>CMYK</td> 
-   <td>Japan Color 2002 Newspaper</td> 
-  </tr> 
-  <tr> 
-   <td>JapanColorUncoated</td> 
-   <td>CMYK</td> 
-   <td>Japan Color 2001 Uncoated</td> 
-  </tr> 
-  <tr> 
-   <td>JapanColorWebCoated</td> 
-   <td>CMYK</td> 
-   <td>Japan Color 2003 Web Coated</td> 
-  </tr> 
-  <tr> 
-   <td>JapanWebCoated</td> 
-   <td>CMYK</td> 
-   <td>Japan Web Coated (Ad)</td> 
-  </tr> 
-  <tr> 
-   <td>NewsprintSNAP2007</td> 
-   <td>CMYK</td> 
-   <td>US Newsprint (SNAP 2007)</td> 
-  </tr> 
-  <tr> 
-   <td>NTSC</td> 
-   <td>RGB</td> 
-   <td>NTSC (1953)</td> 
-  </tr> 
-  <tr> 
-   <td>PAL</td> 
-   <td>RGB</td> 
-   <td>PAL/SECAM</td> 
-  </tr> 
-  <tr> 
-   <td>ProPhoto</td> 
-   <td>RGB</td> 
-   <td>ProPhoto RGB</td> 
-  </tr> 
-  <tr> 
-   <td>PS4Default</td> 
-   <td>CMYK</td> 
-   <td>Photoshop 4 Default CMYK</td> 
-  </tr> 
-  <tr> 
-   <td>PS5Default</td> 
-   <td>CMYK</td> 
-   <td>Photoshop 5 Default CMYK</td> 
-  </tr> 
-  <tr> 
-   <td>SheetfedCoated</td> 
-   <td>CMYK</td> 
-   <td>U.S. Sheetfed Coated v2</td> 
-  </tr> 
-  <tr> 
-   <td>SheetfedUncoated</td> 
-   <td>CMYK</td> 
-   <td>U.S. Sheetfed Uncoated v2</td> 
-  </tr> 
-  <tr> 
-   <td>SMPTE</td> 
-   <td>RGB</td> 
-   <td>SMPTE-C</td> 
-  </tr> 
-  <tr> 
-   <td>sRGB</td> 
-   <td>RGB</td> 
-   <td>sRGB IEC61966-2.1</td> 
-  </tr> 
-  <tr> 
-   <td>UncoatedFogra29</td> 
-   <td>CMYK</td> 
-   <td>Uncoated FOGRA29 (ISO 12647-2:2004)</td> 
-  </tr> 
-  <tr> 
-   <td>WebCoated</td> 
-   <td>CMYK</td> 
-   <td>U.S. Web Coated (SWOP) v2</td> 
-  </tr> 
-  <tr> 
-   <td>WebCoatedFogra28</td> 
-   <td>CMYK</td> 
-   <td>Web Coated FOGRA28 (ISO 12647-2:2004)</td> 
-  </tr> 
-  <tr> 
-   <td>WebCoatedGrade3</td> 
-   <td>CMYK</td> 
-   <td>Web Coated SWOP 2006 Grade 3 Paper</td> 
-  </tr> 
-  <tr> 
-   <td>WebCoatedGrade5</td> 
-   <td>CMYK</td> 
-   <td>Web Coated SWOP 2006 Grade 5 Paper</td> 
-  </tr> 
-  <tr> 
-   <td>WebUncoated</td> 
-   <td>CMYK</td> 
-   <td>U.S. Web Uncoated v2</td> 
-  </tr> 
-  <tr> 
-   <td>WideGamutRGB</td> 
-   <td>RGB</td> 
-   <td>Wide Gamut RGB</td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <tbody> 
+      <tr> 
+      <th><p>Name</p> </th> 
+      <th><p>Colorspace</p> </th> 
+      <th><p>Description</p> </th> 
+      </tr> 
+      <tr> 
+      <td>AdobeRGB</td> 
+      <td>RGB</td> 
+      <td>Adobe RGB (1998)</td> 
+      </tr> 
+      <tr> 
+      <td>AppleRGB</td> 
+      <td>RGB</td> 
+      <td>Apple RGB</td> 
+      </tr> 
+      <tr> 
+      <td>CIERGB</td> 
+      <td>RGB</td> 
+      <td>CIE RGB</td> 
+      </tr> 
+      <tr> 
+      <td>CoatedFogra27</td> 
+      <td>CMYK</td> 
+      <td>Coated FOGRA27 (ISO 12647-2:2004)</td> 
+      </tr> 
+      <tr> 
+      <td>CoatedFogra39</td> 
+      <td>CMYK</td> 
+      <td>Coated FOGRA39 (ISO 12647-2:2004)</td> 
+      </tr> 
+      <tr> 
+      <td>CoatedGraCol</td> 
+      <td>CMYK</td> 
+      <td>Coated GRACoL 2006 (ISO 12647-2:2004)</td> 
+      </tr> 
+      <tr> 
+      <td>ColorMatchRGB</td> 
+      <td>RGB</td> 
+      <td>ColorMatch RGB</td> 
+      </tr> 
+      <tr> 
+      <td>EuropeISOCoated</td> 
+      <td>CMYK</td> 
+      <td>Europe ISO Coated FOGRA27</td> 
+      </tr> 
+      <tr> 
+      <td>EuroscaleCoated</td> 
+      <td>CMYK</td> 
+      <td>Euroscale Coated v2</td> 
+      </tr> 
+      <tr> 
+      <td>EuroscaleUncoated</td> 
+      <td>CMYK</td> 
+      <td>Euroscale Uncoated v2</td> 
+      </tr> 
+      <tr> 
+      <td>JapanColorCoated</td> 
+      <td>CMYK</td> 
+      <td>Japan Color 2001 Coated</td> 
+      </tr> 
+      <tr> 
+      <td>JapanColorNewspaper</td> 
+      <td>CMYK</td> 
+      <td>Japan Color 2002 Newspaper</td> 
+      </tr> 
+      <tr> 
+      <td>JapanColorUncoated</td> 
+      <td>CMYK</td> 
+      <td>Japan Color 2001 Uncoated</td> 
+      </tr> 
+      <tr> 
+      <td>JapanColorWebCoated</td> 
+      <td>CMYK</td> 
+      <td>Japan Color 2003 Web Coated</td> 
+      </tr> 
+      <tr> 
+      <td>JapanWebCoated</td> 
+      <td>CMYK</td> 
+      <td>Japan Web Coated (Ad)</td> 
+      </tr> 
+      <tr> 
+      <td>NewsprintSNAP2007</td> 
+      <td>CMYK</td> 
+      <td>US Newsprint (SNAP 2007)</td> 
+      </tr> 
+      <tr> 
+      <td>NTSC</td> 
+      <td>RGB</td> 
+      <td>NTSC (1953)</td> 
+      </tr> 
+      <tr> 
+      <td>PAL</td> 
+      <td>RGB</td> 
+      <td>PAL/SECAM</td> 
+      </tr> 
+      <tr> 
+      <td>ProPhoto</td> 
+      <td>RGB</td> 
+      <td>ProPhoto RGB</td> 
+      </tr> 
+      <tr> 
+      <td>PS4Default</td> 
+      <td>CMYK</td> 
+      <td>Photoshop 4 Default CMYK</td> 
+      </tr> 
+      <tr> 
+      <td>PS5Default</td> 
+      <td>CMYK</td> 
+      <td>Photoshop 5 Default CMYK</td> 
+      </tr> 
+      <tr> 
+      <td>SheetfedCoated</td> 
+      <td>CMYK</td> 
+      <td>U.S. Sheetfed Coated v2</td> 
+      </tr> 
+      <tr> 
+      <td>SheetfedUncoated</td> 
+      <td>CMYK</td> 
+      <td>U.S. Sheetfed Uncoated v2</td> 
+      </tr> 
+      <tr> 
+      <td>SMPTE</td> 
+      <td>RGB</td> 
+      <td>SMPTE-C</td> 
+      </tr> 
+      <tr> 
+      <td>sRGB</td> 
+      <td>RGB</td> 
+      <td>sRGB IEC61966-2.1</td> 
+      </tr> 
+      <tr> 
+      <td>UncoatedFogra29</td> 
+      <td>CMYK</td> 
+      <td>Uncoated FOGRA29 (ISO 12647-2:2004)</td> 
+      </tr> 
+      <tr> 
+      <td>WebCoated</td> 
+      <td>CMYK</td> 
+      <td>U.S. Web Coated (SWOP) v2</td> 
+      </tr> 
+      <tr> 
+      <td>WebCoatedFogra28</td> 
+      <td>CMYK</td> 
+      <td>Web Coated FOGRA28 (ISO 12647-2:2004)</td> 
+      </tr> 
+      <tr> 
+      <td>WebCoatedGrade3</td> 
+      <td>CMYK</td> 
+      <td>Web Coated SWOP 2006 Grade 3 Paper</td> 
+      </tr> 
+      <tr> 
+      <td>WebCoatedGrade5</td> 
+      <td>CMYK</td> 
+      <td>Web Coated SWOP 2006 Grade 5 Paper</td> 
+      </tr> 
+      <tr> 
+      <td>WebUncoated</td> 
+      <td>CMYK</td> 
+      <td>U.S. Web Uncoated v2</td> 
+      </tr> 
+      <tr> 
+      <td>WideGamutRGB</td> 
+      <td>RGB</td> 
+      <td>Wide Gamut RGB</td> 
+      </tr> 
+    </tbody> 
+    </table>
 
-1. Tap or click **Save All**.
+1. Tap **Save All**.
 
-For example, you could set the **iccprofilergb** to *sRGB*, and **iccprofilecmyk*** *to *WebCoated. *
-
-Doing so would do the following:
+For example, you could set the **iccprofilergb** to *sRGB*, and **iccprofilecmyk** to *WebCoated*. Doing so would do the following:
 
 * Enables color correction for RGB and CMYK images.
 * RGB images that do not have a color profile will be assumed to be in the *sRGB* color space.

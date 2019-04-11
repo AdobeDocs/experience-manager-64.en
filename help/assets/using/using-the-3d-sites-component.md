@@ -19,9 +19,9 @@ After you have added your 3D component, you can [view the 3D asset in that compo
 
 ## Adding the 3D component to the page template {#adding-the-d-component-to-the-page-template}
 
-You must enable the 3D component in the page before you can place it on a page. See [Editing templates](../../sites/authoring/using/templates.md#editingatemplatelayoutauthor)for detailed information on enabling components in templates.
+You must enable the 3D component in the page before you can place it on a page. See [Editing templates](/help/sites/authoring/using/templates.md#editing-a-template-layout-template-author) for detailed information on enabling components in templates.
 
-The following instructions show one way to enable the 3D component:
+Adding the 3D component to the page template:
 
 1. Navigate to **Tools** &gt; **General** &gt; **Templates**.  
 
@@ -35,7 +35,7 @@ The following instructions show one way to enable the 3D component:
 1. Tap in the Layout Container region to select it.  
 
 1. Tap the **Policy** button to open the Policy Editor.
-1. In the **Properties** section, select the **3D** checkmark, and then tap or click **Done** to save the changes and close the Policy Editor.
+1. In the **Properties** section, select the **3D** checkmark, and then tap **Done** to save the changes and close the Policy Editor.
 
    You can now place the 3D Sites component on all pages that use this template.
 
@@ -157,7 +157,7 @@ To preview a web page that has a 3D component:
 1. Do either one of the following:
 
     * Near the upper-right of the page, click **Preview** to enter preview mode.
-    * Remove `/edit.html` from the page URL in the browser.
+    * Delete `/edit.html` from the page URL in the browser.
 
 ## Publishing the page and assets {#publishing-the-page-and-assets}
 

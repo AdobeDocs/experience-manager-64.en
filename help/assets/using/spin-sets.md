@@ -35,7 +35,7 @@ To get you up and running quickly with Spin Sets, follow these steps:
 
 1. [Create Spin Sets.](#creating-spin-sets)
 
-   To create a Spin Set, select **Create **&gt; **Spin Set** and then name the set, choose the assets, and choose the order the images appear.
+   To create a Spin Set, select **Create** &gt; **Spin Set** and then name the set, choose the assets, and choose the order the images appear.
 
    See [Working with Selectors](../../assets/using/working-with-selectors.md).
 
@@ -95,9 +95,9 @@ This section describes how to create Spin Sets in AEM.
 
 >[!NOTE]
 >
->You can also create spin sets automatically through [batch set presets](../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets). **Important:** Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
+>You can also create spin sets automatically through [batch set presets](/help/assets/using/config-dms7.md##creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets). **Important:** Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
 >
->See "Creating batch set presets to auto-generate Image Sets and Spin Sets" in [Configuring Dynamic Media - Scene7 mode](../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets).
+>See "Creating batch set presets to auto-generate Image Sets and Spin Sets" in [Configuring Dynamic Media - Scene7 mode](/help/assets/using/config-dms7.md##creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets).
 >
 
 >[!NOTE]
@@ -106,17 +106,17 @@ This section describes how to create Spin Sets in AEM.
 
 **To create Spin Sets:**
 
-1. In Assets, navigate to where you want to create a spin set, click **Create**, and select** Spin Set**. You can also create the set from inside a folder that contains your assets. The Spin Set Editor displays.
+1. In Assets, navigate to where you want to create a spin set, tap **Create**, and select **Spin Set**. You can also create the set from inside a folder that contains your assets.
 
    ![](assets/chlimage_1-381.png)
 
-1. In the Spin Set Editor, in the **Title** field, enter a name for the Spin Set. The name appears in the banner across the Spin Set. Optionally, enter a description.
+1. On the Spin Set Editor page, in the **Title** field, enter a name for the Spin Set. The name appears in the banner across the Spin Set. Optionally, enter a description.
 
    ![](assets/chlimage_1-382.png)
 
    >[!NOTE]
    >
-   >When creating the spin set, you can change the spin set thumbnail or allow AEM to select the thumbnail automatically based on the assets in the spin set. To select a thumbnail, click **Change thumbnail **and select any image (you can navigate to other folders to find images as well). If you have selected a thumbnail and then decide that you want AEM to generate one from the spin set, select **Switch to Automatic thumbnail**.
+   >When you create the spin set, you can change the spin set thumbnail or allow AEM to select the thumbnail automatically based on the assets in the spin set. To select a thumbnail, tap **Change thumbnail**. Select any image (you can navigate to other folders to find images as well). If you have selected a thumbnail and then decide that you want AEM to generate one from the spin set, select **Switch to Automatic thumbnail**.
 
 1. Do either one of the following:
 
@@ -126,29 +126,27 @@ This section describes how to create Spin Sets in AEM.
 
    Tap to select assets that you want to include in your Spin Set. Selected assets have a checkmark icon over them. When you are finished, near the upper-right corner of the page, tap **Select**.
 
-   With the Asset Selector, you can search for assets by typing in a keyword and tapping or clicking **Return**. You can also apply filters to refine your search results. You can filter by path, collection, file type, and tag. Select the filter and then tap the **Filter** icon on the toolbar. Change the view by tapping the View icon and selecting **Column View**, **Card View**, or **List View**.
+   With the Asset Selector, you can search for assets by typing in a keyword and tapping or clicking **Return**. You can also apply filters to refine your search results. You can filter by path, collection, file type, and tag. Select the filter and then tap the **Filter** icon on the toolbar. To change the view, near the upper-right corner of the page, tap the View icon then tap **Column View**, **Card View**, or **List View**.
 
    See [Working with Selectors](../../assets/using/working-with-selectors.md).
 
    ![](assets/chlimage_1-383.png)
 
-1. When you add assets to your set, they are automatically added in alphanumeric order. You can manually re-order or sort assets after you add them.
-
-   If necessary, drag an asset's Reorder icon to the right of the asset's file name to re-order images up or down the set list.
+1. When you add assets to your set, they are automatically added in alphanumeric order. You can manually re-order or sort assets after you add them. If necessary, drag an asset's Reorder icon to the right of the asset's file name to re-order images up or down the set list.
 
    ![](assets/spin_set_assets6-4.png)
 
 1. (Optional) Do any of the following:
 
-    * To delete an image, select the image and tap **Delete Asset**.  
+    * To delete an image, select the image, then tap **Delete Asset**.  
     
     * To apply a preset, near the upper-right corner of the page, tap **Preset**, then select a preset to apply to all the assets at once.
 
-1. Click **Save**. Your newly created Spin Set appears in the folder you created it in.
+1. Tap **Save**. Your newly created Spin Set appears in the folder in which you created it.
 
 ## Viewing Spin Sets {#viewing-spin-sets}
 
-You can create spin sets either in the user interface or automatically using [batch set presets](../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets). However, sets created using batch set presets, do **not** appear in the user interface. You can access sets created via batch set presets in three different ways. (These methods are available even if you created the spin sets in the user interface).
+You can create spin sets either in the user interface or automatically using [batch set presets](../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets). However, sets created using batch set presets, do *not* appear in the user interface. You can access sets created via batch set presets in three different ways. (These methods are available even if you created the spin sets in the user interface).
 
 >[!NOTE]
 >
@@ -156,7 +154,7 @@ You can create spin sets either in the user interface or automatically using [ba
 
 **To view Spin Sets:**
 
-1. When opening the properties of an individual asset. Properties indicate what sets the selected asset is a member of (under **Member of Sets**). Click the name of the set to see the entire set.
+1. When opening the properties of an individual asset. Properties indicate what sets the selected asset is a member of (under **Member of Sets**). Tap the name of the set to see the entire set.
 
    ![](assets/chlimage_1-384.png)
 
@@ -164,7 +162,7 @@ You can create spin sets either in the user interface or automatically using [ba
 
    ![](assets/chlimage_1-385.png)
 
-1. From search, you can Select **Filters**, then expand **Dynamic Media** and select **Sets**.
+1. From search, you can select **Filters**, then expand **Dynamic Media** and select **Sets**.
 
    The search returns matching sets that were manually created in the UI or automatically created through batch set presets. For automated sets, the search query is conducted using "Starts with" search criteria which is different from AEM search which is based on using "Contains" search criteria. Setting the filter to **Sets** is the the only way to search automated sets.
 

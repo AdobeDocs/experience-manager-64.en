@@ -44,7 +44,7 @@ See also [Setting up Dynamic Media](../../assets/using/administering-dynamic-med
 
 >[!NOTE]
 >
->To understand the differences between using Dynamic Media and integrating Scene7 with AEM, see [Scene7/AEM integration versus Dynamic Media](../../sites/administering/using/scene7.md#scene7aemintegrationversusdynamicmedia).
+>To understand the differences between using Dynamic Media and integrating Scene7 with AEM, see [Scene7/AEM integration versus Dynamic Media](/help/sites/administering/using/scene7.md#aem-scene-integration-versus-dynamic-media).
 
 ## Dynamic Media on versus Dynamic Media off {#dynamic-media-on-versus-dynamic-media-off}
 

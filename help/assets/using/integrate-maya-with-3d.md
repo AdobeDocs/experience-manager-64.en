@@ -42,7 +42,7 @@ To integrate AEM 3D with Autodesk Maya:
 
 1. Add the path to the Maya executable folder to the Windows PATH environment variable.
 
-   For example, on Windows Server 2012, tap or click **Start **> **Control Panel** > **System and Security** > **System **> **Advanced System Settings** > **Environment Variables**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
+   For example, on Windows Server 2012, tap or click **Start** > **Control Panel** > **System and Security** > **System** > **Advanced System Settings** > **Environment Variables**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
 
    ![](assets/chlimage_1-53.png)
 
@@ -60,23 +60,21 @@ To integrate AEM 3D with Autodesk Maya:
 
 1. Set the **Enabled** property to `true`.
 
-   See also [Advanced configuration settings for integration of AEM 3D with Autodesk Maya](#advancedconfigurationsettingsforintegrationofaem3dwithautodeskmaya).
-
 1. Near the upper-left corner of the CRXDE Lite page, tap or click **Save All**.
 
    Maya is now enabled as a renderer.
 
 ## Testing the integration of AEM 3D with Autodesk Maya {#testing-the-integration-of-aem-d-with-autodesk-maya}
 
-1. Open AEM Assets, then upload the `.MA` files located in `sample-3D-content/models`** **to the `test3d` folder.
+1. Open AEM Assets, then upload the **`.MA`** files located in **`sample-3D-content/models`** to the **`test3d`** folder.
 
-   Note that `sample-3D-content.zip` was previously downloaded for validating the basic 3D functionality.
+   Note that **`sample-3D-content.zip`** was previously downloaded for validating the basic 3D functionality.
 
 1. Return to the Card view and observe the message banners shown on the uploaded assets.
 
-   The Converting Format banner is displayed while Maya is converting the native `.MA` format to `.FBX`.
+   The Converting Format banner is displayed while Maya is converting the native **`.MA`** format to **`.FBX`**.
 
-1. After all processing is finished, open the `logo-sphere.ma` asset and select the `stage-helipad.ma` stage.
+1. After all processing is finished, open the **`logo-sphere.ma`** asset and select the **`stage-helipad.ma`** stage.
 
    The Preview experience is the same as with **`logo_sphere.fbx`** and **`stage-helipad.fbx`**.
 

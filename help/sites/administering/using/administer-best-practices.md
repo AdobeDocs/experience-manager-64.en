@@ -51,7 +51,7 @@ Best practices around Assets, including the dynamic media capability and Scene 7
   </tr>
   <tr>
    <td>Image preset options</td> 
-   <td>Understanding <a href="../../../assets/using/managing-image-presets.md#understanding-image-presets">image presets</a> and <a href="../../../assets/using/managing-image-presets.md#imagepresetbestpractices">image preset best practices</a></td> 
+   <td>Understanding <a href="../../../assets/using/managing-image-presets.md#understanding-image-presets">image presets</a> and <a href="../../../assets/using/managing-image-presets.md#image-preset-options">image preset best practices</a></td> 
    <td>As part of the documentation on <a href="../../../assets/using/managing-image-presets.md">Managing Image presets</a>, these topics describe what image presets are and best practices around selecting image preset options.</td> 
   </tr>
   <tr>
