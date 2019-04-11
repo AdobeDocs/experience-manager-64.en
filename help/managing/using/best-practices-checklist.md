@@ -31,7 +31,7 @@ The spreadsheet provides you with the following worksheets:
 
     * Provides instructions on how to use the spreadsheet, together with explanations of the mechanisms used.
 
-* ** [Project Heartbeat](../../managing/using/best-practices.md#projectheartbeat)**
+* ** [Project Heartbeat](../../managing/using/best-practices.md#project-heartbeat-dashboard)**
 * ** [Status by Role](../../managing/using/best-practices.md#status-by-role)**
 * A series of checklists, according to [Persona](../../managing/using/best-practices.md#persona), [Phase and Milestone](../../managing/using/best-practices.md#phases-and-milestones)
 
@@ -53,5 +53,5 @@ To successfully deliver a high quality project, you need to complete all items i
    >
    >There is not a direct 1:1 relationship between the individual required documents and deliverables.
 
-1. Based on the statuses of the ** [Required Documents](../../managing/using/best-practices.md#required-documents)** and ** [Deliverables](../../managing/using/best-practices.md#deliverables)**, the worksheets ** [Project Heartbeat](../../managing/using/best-practices.md#projectheartbeat)** and ** [Status by Role](../../managing/using/best-practices.md#status-by-role)** are automatically updated to give you an up-to-date indication of the progress and health of your project.
+1. Based on the statuses of the ** [Required Documents](../../managing/using/best-practices.md#required-documents)** and ** [Deliverables](../../managing/using/best-practices.md#deliverables)**, the worksheets ** [Project Heartbeat](../../managing/using/best-practices.md#project-heartbeat-dashboard)** and ** [Status by Role](../../managing/using/best-practices.md#status-by-role)** are automatically updated to give you an up-to-date indication of the progress and health of your project.
 
