@@ -976,7 +976,7 @@ CUGs are an extra way to restrict access to your assets. You can also configure 
 
 ## Searching Assets {#searching-assets}
 
-Basic search is detailed in the [Search and filter](../../sites/authoring/using/search.md#search-and-filter) section. Use the Search panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the Search panel using [Search facets](/assets/using/custom-search-facets.md). 
+Basic search is detailed in the [Search and filter](../../sites/authoring/using/search.md#search-and-filter) section. Use the Search panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the Search panel using [Search facets](help/assets/using/search-facets.md). 
 
 ![](assets/filters_panel.png)
 

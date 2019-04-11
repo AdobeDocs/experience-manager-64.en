@@ -21,7 +21,7 @@ The following activities are those that you typically perform as a digital asset
 * [Assets Supported Formats](../../assets/using/assets-formats.md)
 * [Integrating AEM Assets with InDesign Server](../../assets/using/indesign.md)
 * [Managing Metadata for Digital Assets](../../assets/using/metadata.md)
-* [Search Facets](/assets/using/custom-search-facets.md)
+* [Search Facets](help/assets/using/search-facets.md)
 * [Camera Raw Support](../../assets/using/camera-raw.md)
 * [Metadata Schemas](../../assets/using/metadata-schemas.md)
 * [Profiles for Processing Metadata, Images, and Videos](../../assets/using/processing-profiles.md)

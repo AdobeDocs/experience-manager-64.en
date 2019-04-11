@@ -23,7 +23,7 @@ The following step-by-step workflow description is designed to help you get up a
 >
 >Before you work with video in Dynamic Media, make sure that your AEM admininistrator has already enabled and configured Dynamic Media Cloud Services.
 >
->* See [Configuring Dynamic Media Cloud Services in Configuring Dynamic Media - Hybrid mode.](/assets/using/config-dynamic.html ) 
+>* See [Configuring Dynamic Media Cloud Services in Configuring Dynamic Media - Hybrid mode.](/help/assets/using/config-dynamic.md) 
 >* See [Configuring Dynamic Media - Scene7 mode](../../assets/using/config-dms7.md) and [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md)
 >
 

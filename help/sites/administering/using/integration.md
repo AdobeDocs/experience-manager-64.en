@@ -16,7 +16,6 @@ discoiquuid: b5ff918d-08ab-4307-a807-693468fc083b
 * [Integrating with the Adobe Marketing Cloud](../../../sites/administering/using/marketing-cloud.md)
 * [Integrating with Third-Party Services](../../../sites/administering/using/third-party-services.md)
 * [Analytics with External Providers](../../../sites/administering/using/external-providers.md)
-* [CQ Portals and Portlets](/sites/administering/using/cq-as-portal.md)
 * [Catalog Producer](../../../sites/administering/using/catalog-producer.md)
 * [Configuring AEM Assets integration with Marketing Cloud and Creative Cloud](../../../sites/administering/using/configure-assets-cc-integration.md)
 * [Adobe Experience Manager Desktop App](/assets/using/aem-desktop-app.md)

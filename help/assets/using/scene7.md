@@ -255,10 +255,6 @@ Adobe DAM and WCM shows if a master video is uploaded. They do not show these pr
 
 When using an adaptive video set with the Scene7 video component, the component will need to resized to fit he dimensions of the video.
 
-### Excluding master videos from adaptive video sets {#excluding-master-videos-from-adaptive-video-sets}
-
-See [Excluding master videos from adaptive video sets](../../sites/administering/using/scene7.md#excludingmastervideosfromadaptivevideosets).
-
 ## Scene7 Content Browser {#scene-content-browser}
 
 The Scene7 content browser lets you view content from Scene7 directly in AEM. To access the content browser, in the Content Finder, select **Scene7** in the touch-optimized user interface or the **S7** icon in the classic user interface. Functionality is identical between both user interfaces.

@@ -227,5 +227,5 @@ In this tutorial, you learn how to search for assets.
 In this tutorial you learned how to search for an asset. For more information, see the following:
 
 * [Searching video assets](../../assets/using/search-video-assets.md)
-* [Search facets](/assets/using/custom-search-facets.md)
+* [Search facets](help/assets/using/search-facets.md)
 

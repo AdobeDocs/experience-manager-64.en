@@ -43,7 +43,7 @@ To get you up and running quickly:
 
    To create an Image Set in Assets, tap or click **Create** &gt; **Image Sets**. Then, add images and click **Save**.
 
-   You can also create image sets automatically through [batch set presets](../../assets/using/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets). **Important:** Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
+   You can also create image sets automatically through [batch set presets](/help/assets/using/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets). **Important:** Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
 
    See [Preparing Image Set assets for upload and Uploading your files](#uploading-assets-in-image-sets).
 
@@ -106,7 +106,7 @@ You can create Image Sets through the user interface or via the API. This sectio
 
 >[!NOTE]
 >
->You can also create image sets automatically through [batch set presets](../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets). **Important:** Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
+>You can also create image sets automatically through [batch set presets](/help/assets/using/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets). **Important:** Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
 
 When you add assets to your set, they are automatically added in alphanumeric order. You can manually re-order or sort assets after they have been added.
 
@@ -160,7 +160,7 @@ To create an Image Set:
 
 ## Viewing Image Sets {#viewing-image-sets}
 
-You can create image sets either in the user interface or automatically using [batch set presets](../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets). (**Important:** Batch sets are created by the IPS [Image Production System] as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.)
+You can create image sets either in the user interface or automatically using [batch set presets](/help/assets/using/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets). (**Important:** Batch sets are created by the IPS [Image Production System] as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.)
 
 However, sets created using batch set presets, do **not** appear in the user interface. You can view these sets in three different ways. (These methods are available even if you created the image sets in the user interface).
 

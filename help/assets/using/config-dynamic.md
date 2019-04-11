@@ -141,7 +141,7 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 ## Enabling Dynamic Media {#enabling-dynamic-media}
 
-[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable dynamic media by using the **dynamicmedia** run mode as you would, for example, **publish** run mode. Before enabling, make sure to review the [technical requirements.](/help/sites/deploying/using/technical-requirements.md##requirements-for-aem-dynamic-media-add-on)
+[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable dynamic media by using the **dynamicmedia** run mode as you would, for example, **publish** run mode. Before enabling, make sure to review the [technical requirements.](/help/sites/deploying/using/technical-requirements.md#requirements-for-aem-dynamic-media-add-on)
 
 >[!NOTE]
 >
@@ -328,8 +328,8 @@ To configure the replication agent:
 1. Tap **Edit**.
 1. Tap the **Settings** tab, then enter the following:
 
-    * **Enabled **- Select this check box to enable the replication agent.
-    * **Region **- Set to the appropriate region: North America, Europe, or Asia
+    * **Enabled** - Select this check box to enable the replication agent.
+    * **Region** - Set to the appropriate region: North America, Europe, or Asia
     * **Tenant ID** - This value is the name of your company/tenant that is publishing to the Replication Service. This value is the Tenant ID that Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive this.
 
     * **Key Store Alias** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#setting-up-authentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#setting-up-authentication).)
@@ -671,7 +671,7 @@ To deliver* *an asset with a viewer preset, you must replicate/publish* *the vie
 
 >[!NOTE]
 >
->By default, the system shows a variety of renditions when you select **Renditions** and a variety of viewer presets when you select **Viewers** in the asset's detail view. You can increase or decrease the number seen. See [Increasing the number of image presets that display](/help/assets/using/managing-image-presets.md##increasing-or-decreasing-the-number-of-image-presets-that-display) or [Increasing the number of viewer presets that display](/help/assets/using/managing-viewer-presets.md##increasing-the-number-of-viewer-presets-that-display).
+>By default, the system shows a variety of renditions when you select **Renditions** and a variety of viewer presets when you select **Viewers** in the asset's detail view. You can increase or decrease the number seen. See [Increasing the number of image presets that display](/help/assets/using/managing-image-presets.md#increasing-or-decreasing-the-number-of-image-presets-that-display) or [Increasing the number of viewer presets that display](/help/assets/using/managing-viewer-presets.md#increasing-the-number-of-viewer-presets-that-display).
 
 ## Filtering Assets for Replication {#filtering-assets-for-replication}
 
