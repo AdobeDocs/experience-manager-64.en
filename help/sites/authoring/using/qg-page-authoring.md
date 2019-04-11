@@ -72,7 +72,7 @@ Before giving the overview of specifics, here is a small collection of general t
 
    ![](assets/screen_shot_2018-03-21at160214.png)
 
-1. Navigate up the tree using [the breadcrumb in the header](../../../sites/authoring/using/basic-handling.md#theheaderwithbreadcrumbs), which allows you to return to the selected location:
+1. Navigate up the tree using [the breadcrumb in the header](../../../sites/authoring/using/basic-handling.md#the-header), which allows you to return to the selected location:
 
    ![](assets/chlimage_1-95.png)
 
@@ -93,7 +93,7 @@ How to select a page depends on which view you are using in the console:
 
 1. Card View:
 
-    * Enter selection mode by [selecting the required resource](../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources) with:
+    * Enter selection mode by [selecting the required resource](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) with:
 
         * Mobile device: tap-and-hold
         * Desktop: the [quick action](../../../sites/authoring/using/basic-handling.md#quick-actions) - tick icon:
@@ -131,7 +131,7 @@ How to select a page depends on which view you are using in the console:
    This can be accessed from either:
 
     * [Quick Actions (Card View/Desktop Only)](#quick-actions-card-view-desktop-only) for the approprate resource.
-    * The toolbar when your [page has been selected](#selectiingyourpageforfurtheraction).
+    * The toolbar when your [page has been selected](#selecting-your-page-for-further-action).
 
 1. When the editor opens you can:
 
@@ -223,7 +223,7 @@ There are two main methods of [publishing your page](../../../sites/authoring/us
     1. Select the **Quick Publish** icon from either:
 
         * [Quick Actions (Card View/Desktop Only)](#quick-actions-card-view-desktop-only) for the approprate resource.
-        * The toolbar when your [page has been selected](#selectiingyourpageforfurtheraction) (also gives access to [Publish Later](../../../sites/authoring/using/publishing-pages.md#main-pars-title-12)).
+        * The toolbar when your [page has been selected](#selectiingyourpageforfurtheraction) (also gives access to [Publish Later](../../../sites/authoring/using/publishing-pages.md#manage-publication)).
 
   ![](assets/screen_shot_2018-03-21at160957.png)
 

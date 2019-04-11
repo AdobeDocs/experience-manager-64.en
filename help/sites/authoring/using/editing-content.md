@@ -29,7 +29,7 @@ Content is added using [components](../../../sites/authoring/using/default-compo
 
 >[!NOTE]
 >
->When in **Edit** mode, links in your content are visible, but **not accessible**. Use [Preview mode](#previewingpagestouchoptimizedui) if you want to navigate using the links in your content.
+>When in **Edit** mode, links in your content are visible, but **not accessible**. Use [Preview mode](#previewing-pages) if you want to navigate using the links in your content.
 
 ## Page Toolbar {#page-toolbar}
 
@@ -133,7 +133,7 @@ You can add a new component by using the [component browser](../../../sites/auth
 1. Open the [component browser](../../../sites/authoring/using/author-environment-tools.md#components-browser).
 1. Drag the required component to the [required position](#component-placeholder).  
 
-1. [Edit](#editmovecopypastedelete) the component.
+1. [Edit](#edit-configure-copy-cut-delete-paste) the component.
 
 >[!NOTE]
 >
@@ -291,8 +291,7 @@ The actual actions available to the user will be shown as appropriate and not al
 
   ![](do-not-localize/screen_shot_2018-03-22at113044.png)
 
-* **Convert to an experience fragment variation  
-  **
+* **Convert to an experience fragment variation**  
 
   This allows you to create a new [experience fragment](../../../sites/authoring/using/experience-fragments.md) from the selected component or add it to an existing experience fragment.
 
@@ -303,7 +302,7 @@ The actual actions available to the user will be shown as appropriate and not al
 There are two methods of adding and/or editing content in components:
 
 * Open the [component dialog for editing](#component-edit-dialog).
-* [Drag and drop an asset](#draganddropintocomponent) from the assets browser to directly add content.
+* [Drag and drop an asset](#inserting-a-component-using-the-assets-browser) from the assets browser to directly add content.
 
 ### Component Edit Dialog {#component-edit-dialog}
 
@@ -311,7 +310,7 @@ You can open a component to edit the content using the [Edit (pencil) icon of th
 
 The exact edit options will depend on the component. For some components [all actions will only be available in full screen mode](#edit-content-full-screen-mode). For example:
 
-* [Text component](../../../sites/authoring/using/rich-text-editor.md#main-pars-title-24)
+* [Text component](../../../sites/authoring/using/rich-text-editor.md)
 
   ![](assets/screen_shot_2018-03-22at120215.png)
 

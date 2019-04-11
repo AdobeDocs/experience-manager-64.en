@@ -41,7 +41,7 @@ See [Changing Live Copy Content](../../../sites/administering/using/msm-livecopy
 
 To track the changes you have made, you can view the launch in **References** and compare the launch page with its source page:
 
-1. In the **Sites** console, [navigate to the source page of your launch and select it](../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources).
+1. In the **Sites** console, [navigate to the source page of your launch and select it](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
 1. Open the ** [References](../../../sites/authoring/using/basic-handling.md#references)** panel and select **Launches**.
 1. Select your specific launch then **Compare to Source**:
 

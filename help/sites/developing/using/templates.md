@@ -56,7 +56,7 @@ The advantages of Editable Templates:
 
 >[!NOTE]
 >
->An AEM Community Article is available explaining how to develop an Experience Manager site with Editable Templayes, see [Creating an Adobe Experience Manager 6.4 website using Editable Templates](https://helpx.adobe.com/experience-manager/using/first_aem64_website.html).
+>An AEM Community Article is available explaining how to develop an Experience Manager site with Editable Templates, see [Creating an Adobe Experience Manager 6.4 website using Editable Templates](https://helpx.adobe.com/experience-manager/using/first_aem64_website.html).
 
 ### Static Templates {#static-templates}
 
