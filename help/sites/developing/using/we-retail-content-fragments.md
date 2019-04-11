@@ -67,7 +67,7 @@ Here you can [edit and manage](../../../assets/using/content-fragments.md) your 
 
 To illustrate [page authoring with a content fragment](../../../sites/authoring/using/content-fragments.md) there are several example pages provided under, for example:
 
-* [http://localhost:4502/sites.html/content/we-retail/language-masters/en/experience](/sites.html/content/we-retail/language-masters/en/experience.md)
+* [http://localhost:4502/sites.html/content/we-retail/language-masters/en/experience](http://localhost:4502/sites.html/content/we-retail/language-masters/en/experience)
 
 For example, the **Arctic Surfing in Lofoten** content fragment is referenced in the Sites page:
 

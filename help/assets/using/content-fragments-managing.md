@@ -146,7 +146,7 @@ To open your fragment for editing:
     
     * [Annotations](../../assets/using/content-fragments-variations.md#annotating-a-content-fragment)
     * [Associated Content](#associating-content-with-your-fragment)
-    * [Metadata](#viewingandeditingthemetadataofyourfragment)
+    * [Metadata](#viewing-and-editing-the-metadata-properties-of-your-fragment)
 
    ![](assets/cfm-10.png)
 
