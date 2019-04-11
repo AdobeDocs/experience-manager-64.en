@@ -64,15 +64,15 @@ The actual appearance and handling is dependent on the device type you are using
 
 * **Mobile device (e.g. iPad)**
 
-  The component browser completely covers the page being edited.
+  The components browser completely covers the page being edited.
 
-  To add a component to your page touch-and-hold the required component and move it towards the right - the component browser will close to show the page again - where you can position the component.
+  To add a components to your page touch-and-hold the required component and move it towards the right - the components browser will close to show the page again - where you can position the component.
 
   ![](assets/screen_shot_2018-03-22at141752.png)
 
 * **Desktop device**
 
-  The component browser is opened at the left side of the window.
+  The components browser is opened at the left side of the window.
 
   To add a component to your page click on the required component and drag it to the required location.
 

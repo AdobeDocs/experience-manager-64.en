@@ -144,7 +144,7 @@ A **Layout Container** is a paragraph system that:
 
 >[!NOTE]
 >
->If not already available, the **Layout Container** must be explicitly [activated for a paragraph system/page](../../../sites/administering/using/configuring-responsive-layout.md#activatingthelayoutcontainerforapage) (for example, by using [**Design** mode](../../../sites/authoring/using/default-components-designmode.md)).
+>If not already available, the **Layout Container** must be explicitly [activated for a paragraph system/page](../../../sites/administering/using/configuring-responsive-layout.md) (for example, by using [**Design** mode](../../../sites/authoring/using/default-components-designmode.md)).
 
 1. The **Layout Container** is available as a standard component in the [Components Browser](../../../sites/authoring/using/author-environment-tools.md#components-browser). From here you can drag it to the required location on the page after which you will see the **Drag Components here** placeholder.
 1. You can then add components to the layout container. These components will hold the actual content:

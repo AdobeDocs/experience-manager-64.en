@@ -277,11 +277,11 @@ Exact details of how to create audio-described video are beyond the scope of thi
 
 #### Purpose - Captions (Live) (1.2.4) {#purpose-captions-live}
 
-This success criterion is identical to [Captions (Pre-Recorded)](#captionsprerecorded) in that it addresses accessibility barriers experienced by people who are deaf or hearing-impaired, except that this success criterion deals with live presentations such as webcasts.
+This success criterion is identical to [Captions (Pre-Recorded)](#captions-pre-recorded) in that it addresses accessibility barriers experienced by people who are deaf or hearing-impaired, except that this success criterion deals with live presentations such as webcasts.
 
 #### How to Meet - Captions (Live) (1.2.4) {#how-to-meet-captions-live}
 
-Follow the guidance provided for [Captions (Pre-Recorded)](#captionsprerecorded) above. However, due to the live nature of the media, caption provision has to be created as quickly as possible and in response to what is happening. Therefore, you should consider using real time captioning or speech-to-text tools.
+Follow the guidance provided for [Captions (Pre-Recorded)](#captions-pre-recorded) above. However, due to the live nature of the media, caption provision has to be created as quickly as possible and in response to what is happening. Therefore, you should consider using real time captioning or speech-to-text tools.
 
 Detailed instructions are beyond the scope of this document, but the following resources provide helpful information:
 
@@ -301,11 +301,11 @@ Detailed instructions are beyond the scope of this document, but the following r
 
 #### Purpose - Audio Description (Pre-Recorded) (1.2.5) {#purpose-audio-description-pre-recorded}
 
-This success criterion is identical to [Audio Description or Media Alternative (Pre-Recorded)](#audiodescriptionormediaalternativeprerecorded), except that authors must provide a much more detailed audio description to conform to Level AA.
+This success criterion is identical to [Audio Description or Media Alternative (Pre-Recorded)](#audio-description-or-media-alternative-pre-recorded), except that authors must provide a much more detailed audio description to conform to Level AA.
 
 #### How to Meet - Audio Description (Pre-Recorded) (1.2.5) {#how-to-meet-audio-description-pre-recorded}
 
-Follow the guidance provided for [Audio Description or Media Alternative (Pre-Recorded)](#audiodescriptionormediaalternativeprerecorded).
+Follow the guidance provided for [Audio Description or Media Alternative (Pre-Recorded)](#audio-description-or-media-alternative-pre-recorded).
 
 #### More Information - Audio Description (Pre-Recorded) (1.2.5) {#more-information-audio-description-pre-recorded}
 
@@ -346,7 +346,7 @@ You can make sure your web pages are given the appropriate structure by:
 
 * **Using headings:**
 
-  As long as you have the accessibility features of the RTE enabled (see [AEM and Accessibility](#adobeexperiencemanagerandaccessibility)), AEM offers 3 levels of page heading. You can use these to identify sections and subsections of content. Heading 1 is the highest level of heading, Heading 3 the lowest. The system administrator can configure the system to allow the use of more heading levels.
+  As long as you have the accessibility features of the RTE enabled (see [Configuring RTE for Producing Accessible Sites](../../administering/using/rte-accessible-content.md)), AEM offers 3 levels of page heading. You can use these to identify sections and subsections of content. Heading 1 is the highest level of heading, Heading 3 the lowest. The system administrator can configure the system to allow the use of more heading levels.
 
   The following image demonstrates an example of the different types of headings.
 
@@ -829,7 +829,7 @@ In AEM, the default language of your page is set when creating the page, but may
 
 #### Purpose - Language of Parts (3.1.2) {#purpose-language-of-parts}
 
-The purpose of this success criterion is similar to the success criterion [Language of Page](#languageofpage), except that it applies to web pages containing content in multiple languages on a single page (for example, because of quotations or uncommon loan words).
+The purpose of this success criterion is similar to the success criterion [Language of Page](#language-of-page), except that it applies to web pages containing content in multiple languages on a single page (for example, because of quotations or uncommon loan words).
 
 Pages applying this success criterion allow:
 
@@ -865,7 +865,7 @@ To add the span element, with an appropriate language, you can manually edit you
 
 #### More Information - Language of Parts (3.1.2) {#more-information-language-of-parts}
 
-* [Understanding Success Criterion 3.1.2](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.htm)
+* [Understanding Success Criterion 3.1.2](https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/meaning-other-lang-id.html)
 * [How to meet Success Criterion 3.1.2](https://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-other-lang-id)
 
 ### Help Users Avoid and Correct Mistakes (3.3) {#help-users-avoid-and-correct-mistakes}

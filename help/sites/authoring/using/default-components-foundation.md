@@ -46,7 +46,7 @@ Components are sorted according to various categories called component groups in
 
 * [General](#general): Includes basic components, including text, images, tables, and charts.
 * [Columns](#columns): Includes components necessary for organizing the layout of the content.
-* [Form](#formgroup): Includes all the components needed to create a form.
+* [Form](#form): Includes all the components needed to create a form.
 
 ## General {#general}
 
@@ -351,7 +351,7 @@ Several additional options are available in the full-screen editing mode; for ex
 >Internet Explorer users need to upload the image and click **Ok** then re-open the image to see the uploaded file in the preview and to be able to perform modifications (i.e. crop).  
 
 >
->See the [Certified Platforms](../../../release-notes.md#certifiedplatforms) section for more information about HTML5 features used by AEM.
+>See the [Supported Platforms](../../../release-notes.md#supported-platforms) section for more information about HTML5 features used by AEM.
 
 When an image is loaded, you can configure the following:
 
@@ -752,7 +752,7 @@ The following example shows a **Title** component being displayed; the design is
 
 The **Video** component allows you to place a predefined, out-of-the-box video element on a page.
 
-See also [Configure your Video Profiles](../../../sites/administering/using/config-video.md#configuringvideoprofiles) for use with HTML5 elements.
+See also [Configure the Video component](../../../sites/administering/using/config-video.md) for use with HTML5 elements.
 
 After placing an instance of the component on your page you can configure:
 

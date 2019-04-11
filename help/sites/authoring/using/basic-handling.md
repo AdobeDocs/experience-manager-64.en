@@ -29,7 +29,7 @@ AEM's user interface has been enabled for touch. A touch-enabled interface allow
 
 ### First Steps {#first-steps}
 
-Immediately after logging in you arrive on the [Navigation panel](../../../sites/authoring/using/basic-handling.md#main-pars-procedure-701559143). This will be discussed in more detail in a following section.
+Immediately after logging in you arrive on the [Navigation panel](../../../sites/authoring/using/basic-handling.md#global-navigation). This will be discussed in more detail in a following section.
 
 ![](assets/screen_shot_2018-03-23at102603.png)
 
@@ -127,7 +127,7 @@ The header is always present at the top of the screen. While most options in the
 
 ![](assets/screen_shot_2018-03-23at102631-1.png)
 
-* [Global Navigation](#navigatingconsolesandtools)
+* [Global Navigation](#global-navigation)
 
   Select the **Adobe Experience Manager** link to navigate between consoles.
 
@@ -139,7 +139,7 @@ The header is always present at the top of the screen. While most options in the
 
   You can also use the [shortcut key](../../../sites/authoring/using/keyboard-shortcuts.md) `/` (forward slash) to invoke search from any console.
 
-* [Help](#accessinghelptouchoptimizedui)
+* [Help](#accessing-help)
 
   ![](do-not-localize/screen_shot_2018-03-23at103547.png)
 
@@ -191,7 +191,7 @@ The header is always present at the top of the screen. While most options in the
 
   Once clicked, the options displayed are appropriate to the console/context.
 
-* [Views](../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresourcescardlistcolumn)
+* [Views](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
   ![](do-not-localize/screen_shot_2018-03-23at104310.png)
 
@@ -253,7 +253,7 @@ Whenever a resource is selected (e.g. a page or an asset), various actions are i
 
 * The current console.
 * The current context.
-* Whether you are in [selection mode](#navigatingandselectionmode).
+* Whether you are in [selection mode](#viewing-and-selecting-resources).
 
 The action available in the toolbar change to reflect the actions you can take on the specific items selected.
 
@@ -269,7 +269,7 @@ Due to the space restrictions in some windows, the toolbar can quickly become lo
 
 ## Quick Actions {#quick-actions}
 
-In [Card View](#cardviewquickactions) certain actions are available as quick action icons as well as being on the toolbar. Quick action icons are available for a single item at a time and eliminate the need for you to preselect.
+In [Card View](#quick-actions) certain actions are available as quick action icons as well as being on the toolbar. Quick action icons are available for a single item at a time and eliminate the need for you to preselect.
 
 The quick actions are visible when you mouseover (desktop device) a resource card. The quick actions available can depend on the console and context. For example, here are the quick actions for a page in the **Sites** console:
 
@@ -359,7 +359,7 @@ In all views, all items can be deslected by tapping escape on the keyboard if yo
 
    ![](assets/screen_shot_2018-03-23at105508.png)
 
-1. Once you have selected a resource the top header is covered by the [actions toolbar](#actionstoolbar) that provides access to actions currently applicable to the selected resource.
+1. Once you have selected a resource the top header is covered by the [actions toolbar](#actions-toolbar) that provides access to actions currently applicable to the selected resource.
 
    To exit selection mode select the **X** to the top-right.
 
@@ -499,11 +499,11 @@ The timeline can be used to view and/or initiate events that have occured on the
 
 The timeline column allows you to:
 
-* [View various events](#timelineviewevents) related to a selected item.
+* View various events related to a selected item.
 
     * The event types can be selected from the drop-down list:
 
-        * [Comments](#timelineaddingandviewingcomments)
+        * Comments
         * Annotations
         * Activities
         * [Launches](../../../sites/authoring/using/launches.md)
@@ -518,8 +518,8 @@ The timeline column allows you to:
 
 * Specific consoles have additional functionality. For example, in the Sites console you can:
 
-    * [Save a version](../../../sites/authoring/using/working-with-page-versions.md#creatinganewversiontouchoptimizedui).
-    * [Start a workflow](../../../sites/authoring/using/workflows-applying.md#startingaworkflowfromtherail).
+    * [Save a version](../../../sites/authoring/using/working-with-page-versions.md).
+    * [Start a workflow](../../../sites/authoring/using/workflows-applying.md).
 
 These options accessible via the chevron next to the **Comment** field.
 
@@ -527,10 +527,10 @@ These options accessible via the chevron next to the **Comment** field.
 
 ### References {#references}
 
-**References** shows any connections to the selected resource. For example, in the **Sites** console [references](../../../sites/authoring/using/author-environment-tools.md#showingpagereferences) for pages shows:
+**References** shows any connections to the selected resource. For example, in the **Sites** console [references](../../../sites/authoring/using/author-environment-tools.md#references) for pages shows:
 
 * [Launches](../../../sites/authoring/using/launches.md#launches-in-references-sites-console)
-* [Live copies](../../../sites/administering/using/msm-livecopy-overview.md#openingthelivecopyoverviewfromreferences)
+* [Live copies](../../../sites/administering/using/msm-livecopy-overview.md)
 * [Language copies](../../../sites/administering/using/tc-prep.md#seeing-the-status-of-language-roots)
 * Content references (e.g. content borrowed and/or lent by the Reference component)
 
