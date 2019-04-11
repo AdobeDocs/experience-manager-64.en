@@ -22,17 +22,15 @@ When you are [authoring](../../assets/using/content-fragments-variations.md#auth
 ![](assets/cfm-6420-08.png)
 
 You can define:
-
-- [Markdown{#markdown}](#markdownmarkdown)
-  - [Heading Notation {#heading-notation}](#heading-notation-heading-notation)
-  - [Paragraphs and Line Breaks {#paragraphs-and-line-breaks}](#paragraphs-and-line-breaks-paragraphs-and-line-breaks)
-  - [Links {#links}](#links-links)
-  - [Images {#images}](#images-images)
-  - [Block Quotes {#block-quotes}](#block-quotes-block-quotes)
-  - [Lists {#lists}](#lists-lists)
-  - [Emphasis {#emphasis}](#emphasis-emphasis)
-  - [Code Blocks {#code-blocks}](#code-blocks-code-blocks)
-  - [Backslash escapes {#backslash-escapes}](#backslash-escapes-backslash-escapes)
+[Heading Notation](#heading-notation)
+[Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
+[Links](#links)
+[Images](#images)
+[Block Quotes](#block-quotes)
+[Lists](#lists)
+[Emphasis](#emphasis)
+[Code Blocks](#code-blocks)
+[Backslash escapes](#backslash-escapes)
 
 ## Heading Notation {#heading-notation}
 
@@ -133,8 +131,8 @@ To create an unordered list, use the &#42; symbol before the items in the list. 
 To create an ordered list, add the numbers, followed by a period, before each item in the list. For example:
 
 *1. First item in list.  
-2. Second item in list.  
-3. Third item in list.*
+1. Second item in list.  
+2. Third item in list.*
 
 ## Emphasis {#emphasis}
 

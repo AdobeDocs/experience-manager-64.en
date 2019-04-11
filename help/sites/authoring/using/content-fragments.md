@@ -145,7 +145,7 @@ You can open the fragment source for editing (the asset) using the **Edit** icon
 
 When a specific content fragment is added to the page, there is a **Drag components here** placeholder between each HTML paragraph (and at the top/bottom) of the fragment.
 
-This allows you to add extra content [in-between (i.e. in-between content)](../../../assets/using/content-fragments.md#inbetweencontent) the fragment content (at any of the available points), without having to change the root fragment.
+This allows you to add extra content [in-between (i.e. in-between content)](../../../assets/using/content-fragments.md#in-between-content-when-page-authoring-with-content-fragments) the fragment content (at any of the available points), without having to change the root fragment.
 
 For in-between content you can:
 
@@ -211,6 +211,6 @@ Other changes, such as move, copy, delete must be made in the fragment editor.
 
 Fragments need to be published so they can used used on your published web pages:
 
-* A fragment can be published after [creating the fragment in the Assets console](../../../assets/using/content-fragments.md#publishingandreferencingafragment).
+* A fragment can be published after [creating the fragment in the Assets console](../../../assets/using/content-fragments-managing.md#publishing-and-referencing-a-fragment).
 * If an *unpublished fragment* is used on a page that is being published, the fragment can also be published at this time.
 
