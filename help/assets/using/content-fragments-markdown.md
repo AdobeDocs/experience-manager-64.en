@@ -92,9 +92,9 @@ For example, an inline image has the following syntax:
 
 The syntax includes:
 
-* An exclamation mark: !;
-* followed by a set of square brackets, containing the alt attribute text for the image;
-* followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.
+- An exclamation mark: !;
+- followed by a set of square brackets, containing the alt attribute text for the image;
+- followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.
 
 A Reference-style image has the following syntax:
 
@@ -161,6 +161,7 @@ To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-forma
 For example:
 
 `Use the printf() function.`
+
 ## Code Blocks {#code-blocks}
 
 Code blocks are typically used to illustrate source code. You can create code blocks by indenting the code using a tab or a minimum of 4 spaces. For example:
