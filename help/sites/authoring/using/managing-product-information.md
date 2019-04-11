@@ -233,7 +233,7 @@ A product can belong to a particular category. The product category can be liste
 >
 >The name of images to be uploaded should start with "**&lt;ProductId&gt;_"** where Product ID is referenced from the **Id** field in the *shotlist.csv* file. For example, for a product in the shot list with **Id** **397122**, you can upload files with names** 397122_highcontrast.jpg**, **397122_lowlight.png**, and so on.
 
-1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracktheprogress) to view the list of tasks in the workflow.
+1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracking-project-progress) to view the list of tasks in the workflow.
 1. Select the **Upload Shot List** task, and then tap/click the **Open** icon from the toolbar.
 
    ![](assets/chlimage_1-150.png)

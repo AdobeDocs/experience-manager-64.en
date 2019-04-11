@@ -156,7 +156,7 @@ You can add a new component by using the **Drag components here** box of the par
 
    ![](assets/screen_shot_2018-03-22at112650.png)
 
-1. The selected component will be added to the bottom of the page. [Edit](#editmovecopypastedelete) the component as required.
+1. The selected component will be added to the bottom of the page. [Edit](#edit-content) the component as required.
 
 ### Inserting a Component using the Assets Browser {#inserting-a-component-using-the-assets-browser}
 
@@ -205,7 +205,7 @@ To create a component by dragging one of the above asset types:
 
    A component, appropriate for the asset type, will be created at the required location - it will contain the selected asset.
 
-1. [Edit](#editmovecopypastedelete) the component if required.
+1. [Edit](#edit-content) the component if required.
 
 >[!NOTE]
 >

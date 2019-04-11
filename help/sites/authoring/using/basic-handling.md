@@ -514,7 +514,7 @@ The timeline column allows you to:
 
         * and Show All
 
-* [Add/view comments](#timelineaddingandviewingcomments) about the selected item. The **Comment** box is shown at the bottom of the list of events. Typing a comment followed by Return will register the comment. It is shown when **Comments** or **Show All** is selected.  
+* Add/view comments about the selected item. The **Comment** box is shown at the bottom of the list of events. Typing a comment followed by Return will register the comment. It is shown when **Comments** or **Show All** is selected.  
 
 * Specific consoles have additional functionality. For example, in the Sites console you can:
 

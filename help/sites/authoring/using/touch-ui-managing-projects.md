@@ -45,7 +45,7 @@ Out of the box, AEM provides these templates to choose from when you create a pr
 The procedure of creating a project is the same from project to project. The difference between the types of projects includes available [user roles](../../../sites/authoring/using/projects.md#userroles) and [workflows](../../../sites/authoring/using/projects-with-workflows.md).  To create a new project:
 
 1. In **Projects**, tap/click **Create** to open the **Create Project** wizard:
-1. Select a template. Out of the box, Simple Project, Media Project, [Translation Project](sites/administering/using/tc-manage.md), and [Product Photo Shoot Product](../../../sites/authoring/using/managing-product-information.md) are available and click **Next**. 
+1. Select a template. Out of the box, Simple Project, Media Project, [Translation Project](../../../sites/administering/using/tc-manage.md), and [Product Photo Shoot Product](../../../sites/authoring/using/managing-product-information.md) are available and click **Next**. 
 
    ![](assets/chlimage_1-256.png)
 

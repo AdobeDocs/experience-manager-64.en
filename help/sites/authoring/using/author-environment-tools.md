@@ -281,7 +281,7 @@ There are various modes when editing a page allowing for different actions:
 * [Design](../../../sites/authoring/using/default-components-designmode.md) - allows you to enable/disable components for use on a page and to configure the design of the component (if the page is based on a [static template](../../../sites/authoring/using/templates.md#editable-and-static-templates)).
 
 * [Targeting](../../../sites/authoring/using/content-targeting-touch.md) - increase content relevance through targeting and measuring across all channels.
-* [Activity Map](../../../sites/authoring/using/pa-using.md#analyticsvisiblefromthepageeditor) - shows Analytics data for the page.  
+* [Activity Map](../../../sites/authoring/using/pa-using.md) - shows Analytics data for the page.  
 
 * [Timewarp](../../../sites/authoring/using/working-with-page-versions.md#timewarp) - allows you to view a pages state at a particular point in time.
 * [Live Copy Status](../../../sites/authoring/using/editing-content.md#live-copy-status) - allows a quick overview of the live copy status and which components are/are not inherited.

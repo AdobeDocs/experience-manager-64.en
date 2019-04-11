@@ -200,7 +200,7 @@ There are two (main) methods of [editing page properties](../../../sites/authori
     1. Select the **Properties** icon from either:
 
         * [Quick Actions (Card View/Desktop Only)](#quick-actions-card-view-desktop-only) for the approprate resource.
-        * The toolbar when your [page has been selected](#selectiingyourpageforfurtheraction).
+        * The toolbar when your [page has been selected](#selecting-your-page-for-further-action).
 
   ![](assets/screen_shot_2018-03-21at160850.png)
 
@@ -223,7 +223,7 @@ There are two main methods of [publishing your page](../../../sites/authoring/us
     1. Select the **Quick Publish** icon from either:
 
         * [Quick Actions (Card View/Desktop Only)](#quick-actions-card-view-desktop-only) for the approprate resource.
-        * The toolbar when your [page has been selected](#selectiingyourpageforfurtheraction) (also gives access to [Publish Later](../../../sites/authoring/using/publishing-pages.md#manage-publication)).
+        * The toolbar when your [page has been selected](#selecting-your-page-for-further-action) (also gives access to [Publish Later](../../../sites/authoring/using/publishing-pages.md#manage-publication)).
 
   ![](assets/screen_shot_2018-03-21at160957.png)
 

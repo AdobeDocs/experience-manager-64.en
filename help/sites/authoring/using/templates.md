@@ -480,7 +480,7 @@ In **Structure** mode of the template editor:
 
   >[!NOTE]
   >
-  >[Content policies for components implementing the rich text editor](../../../sites/administering/using/rich-text-editor.md) can only be defined for options made available by the RTE through its UI settings. [](../../../sites/administering/using/rich-text-editor.md#main-pars-header-206036638) [](../../../sites/administering/using/rich-text-editor.md#main-pars-header-206036638)
+  >[Content policies for components implementing the rich text editor](../../../sites/administering/using/rich-text-editor.md) can only be defined for options made available by the RTE through its UI settings.
 
 * **Policy & Properties (Layout Container)**
 

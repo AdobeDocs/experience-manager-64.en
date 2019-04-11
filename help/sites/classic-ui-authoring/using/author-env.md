@@ -15,13 +15,13 @@ discoiquuid: 8c747892-c5ba-4288-b5e7-75fd40d92f5c
 
 >[!NOTE]
 >
->The following documentation focuses on the classic UI. For information about authoring in the modern, touch-based UI, see the [standard Authoring documentation](../../../sites/authoring/using/assets.md).
+>The following documentation focuses on the classic UI. For information about authoring in the modern, touch-based UI, see the [standard Authoring documentation](../../../assets/using/assets.md).
 
 The author environment allows you to perform tasks related to:
 
-* [Authoring](../../../sites/authoring/using/author.md) (including [page authoring](../../../sites/authoring/using/page-authoring.md) and [managing assets](/assets/using/author-assets.md))  
+* [Authoring](../../../sites/authoring/using/author.md) (including [page authoring](../../../sites/authoring/using/page-authoring.md) and [managing assets](../../../assets/using/assets.md))  
 
-* [Administering](/sites/administering/using/administer-best-practices.md) tasks you need when generating and maintaining the content on your website
+* [Administering](../../../sites/administering/using/administer-best-practices.md) tasks you need when generating and maintaining the content on your website
 
 Two graphical user interfaces are provided to achieve this, these are accessible through any modern browser:
 

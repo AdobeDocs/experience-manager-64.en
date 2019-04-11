@@ -39,7 +39,7 @@ Campaign management is made up of various elements:
   The focused content forms the various experiences, presented to the visitor at **Touchpoints**. There are several types of experience available:
 
     * **Teasers** 
-      [Teaser Pages / Paragraphs](#teasers-and-strategies) are used to steer specific visitor **Segments** to content that is focused on their interests.  
+      [Teaser Pages / Paragraphs](../../../sites/authoring/using/teasers-and-strategies.md) are used to steer specific visitor **Segments** to content that is focused on their interests.  
       Teaser pages can:
 
         * present a range of options for the visitor to choose from
@@ -48,7 +48,7 @@ Campaign management is made up of various elements:
       Typically a teaser page is a temporary action that will last for a specific period of time, until it is replaced by the next teaser page.
     
     * **Newsletters** 
-      [E-mail Communications](#email-marketing) are used to engage users and encourage them to visit your web site. These usually take the form of a newsletter, sent to your **Leads** (which are usually grouped into **Lists**). **Note:** Adobe is not planning to further enhance this capability. Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+      [E-mail Communications](../../../sites/authoring/using/email-marketing.md) are used to engage users and encourage them to visit your web site. These usually take the form of a newsletter, sent to your **Leads** (which are usually grouped into **Lists**). **Note:** Adobe is not planning to further enhance this capability. Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
     
     * **Adobe Target** 
       This allows integration with Adobe Target (formerly Test&Target), which gives marketers a conversion website optimization tool with the necessary capabilities to continually make their online content and offers more relevant to their customers—yielding greater conversion. Adobe Target provides an intuitive interface for designing and executing tests, creating audience segments and targeting content—all from a single application.
