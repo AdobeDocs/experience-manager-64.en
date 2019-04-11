@@ -78,7 +78,7 @@ In addition, it is possible to extend this and support custom components. This s
 
 ### Text {#text}
 
-The Text component lets you enter a text block using a WYSIWYG editor. See [Text component](../../../sites/authoring/using/default-components.md#text) for more information.
+The Text component lets you enter a text block using a WYSIWYG editor. See [Text component](../../../sites/authoring/using/default-components.md) for more information.
 
 The following is an example of a text component on a landing page:
 
@@ -86,7 +86,7 @@ The following is an example of a text component on a landing page:
 
 ### Title {#title}
 
-The title component lets you display a title and configure the size (h1-6). See [Title component](../../../sites/authoring/using/default-components.md#title) for more information.
+The title component lets you display a title and configure the size (h1-6). See [Title component](../../../sites/authoring/using/default-components.md) for more information.
 
 The following is an example of a title component on a landing page:
 
@@ -216,7 +216,7 @@ When configuring any of the form components the following tabs are available in 
 >
 >The fields you see vary depending on the individual component.
 >
->Not all options are available to all lead form components. See Forms for more information on these [common settings](../../../sites/authoring/using/default-components.md#formsgroup).
+>Not all options are available to all lead form components. See Forms for more information on these [common settings](../../../sites/authoring/using/default-components.md).
 
 #### Lead Form Components {#lead-form-components}
 
@@ -366,7 +366,7 @@ Assuming that you have the design package ready, the following steps describe ho
 
 To import the design package:
 
-1. Open the importer page you [created earlier](#creatingablankcanvaspage). 
+1. Open the importer page you created earlier. 
 
    ![](assets/chlimage_1-351.png)
 

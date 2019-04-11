@@ -39,7 +39,7 @@ The form automatically updates based on the user. See [Editing Form Content](#ed
 
 Before being able to create forms that are specific to Adobe Campaign, you must make the different templates available in your AEM application.
 
-To do this, see the [Templates documentation](../../../sites/developing/using/page-templates-static.md#templateavailability).
+To do this, see the [Templates documentation](../../../sites/developing/using/templates.md#template-availability).
 
 ## Creating a Form {#creating-a-form}
 
@@ -57,7 +57,7 @@ First of all, check the connection between the author and publish instances and 
 
    >[!NOTE]
    >
-   >If the desired template is not available, see [Making a template available](../../../sites/authoring/using/adobe-campaign.md#activatingatemplate).
+   >If the desired template is not available, see [Template Availability](../../../sites/developing/using/templates.md#template-availability).
 
 1. In the **Name** field, add the name of the page. It must be a valid JCR name.
 1. In the **Title** field, enter a title and click **Create**.
@@ -73,7 +73,7 @@ Forms dedicated to Adobe Campaign have specific components. These components hav
 
 >[!NOTE]
 >
->If the desired template is not available, see [Making a template available](../../../sites/authoring/using/adobe-campaign.md#activatingatemplate).
+>If the desired template is not available, see [Making a template available](../../../sites/authoring/using/adobe-campaign.md).
 
 This section only details specific links to Adobe Campaign. For more information on a more general overview of how to use forms in Adobe Experience Manager, see [Editmode components](../../../sites/authoring/using/default-components-foundation.md).
 

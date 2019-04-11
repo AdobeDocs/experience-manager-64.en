@@ -115,7 +115,7 @@ The properties are distributed across several tabs.
 
 * **Allowed Templates**
 
-  [Define the list of templates that will be available](../../../sites/authoring/using/templates.md#allowingatemplate) within this sub-branch.
+  [Define the list of templates that will be available](../../../sites/authoring/using/templates.md#enabling-and-allowing-a-template-template-author) within this sub-branch.
 
 * **Authentication Requirement**
 
@@ -125,7 +125,7 @@ The properties are distributed across several tabs.
 
   >[!CAUTION]
   >
-  >The ** [Permissions](../../../sites/authoring/using/editing-page-properties.md#main-pars-procedure-949394300)** tab allows editing of CUG configurations based on the presence of the `granite:AuthenticationRequired` mixin. If page permissions are configured using deprecated CUG configurations, based on the presence of cq:cugEnabled property, a warning message will be shown under **Authentication Requirement** and the option will not be editable, nor will the [Permissions](../../../sites/authoring/using/editing-page-properties.md#permissions) be editable.
+  >The **[Permissions](../../../sites/authoring/using/editing-page-properties.md#permissions)** tab allows editing of CUG configurations based on the presence of the `granite:AuthenticationRequired` mixin. If page permissions are configured using deprecated CUG configurations, based on the presence of cq:cugEnabled property, a warning message will be shown under **Authentication Requirement** and the option will not be editable, nor will the [Permissions](../../../sites/authoring/using/editing-page-properties.md#permissions) be editable.
   >
   >
   >In such a case the CUG permissions must be edited in the [classic UI](../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md).
@@ -237,7 +237,7 @@ Clicking or tapping** Properties** to define the page properties:
 1. Select the **Properties** option for the required page using either:
 
     * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [Selection mode](../../../sites/authoring/using/basic-handling.md#selectionmode)
+    * [Selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    The page properties will be shown using the appropriate tabs.
 

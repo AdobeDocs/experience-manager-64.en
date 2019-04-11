@@ -48,7 +48,7 @@ You can promote launches from either the **Sites** console or the **Launches** c
 
     * the **Sites** console:
 
-        1. Open the [references rail](../../../sites/authoring/using/author-environment-tools.md#showingpagereferences) and select the required source page using [selection mode](../../../sites/authoring/using/basic-handling.md) (or select and open the references rail, the order is not important). All references will be shown.
+        1. Open the [references rail](../../../sites/authoring/using/author-environment-tools.md#references) and select the required source page using [selection mode](../../../sites/authoring/using/basic-handling.md) (or select and open the references rail, the order is not important). All references will be shown.
         
         1. Select **Launches** (e.g. Launches (1)) to show a list of the specific launches.
         1. Select the specific launch to show the actions available.
@@ -97,7 +97,7 @@ After creating a nested launch you can promote it back to any of the sources, in
 
 ![](assets/chlimage_1-3.png)
 
-1. As with [Creating a Nested Launch](#creatinganestedlaunchlaunchwithinalaunch), navigate to and select the required launch in either the **Launches** console or the **References** rail.
+1. As with [Creating a Nested Launch](../../../sites/authoring/using/launches-creating.md#creating-a-nested-launch), navigate to and select the required launch in either the **Launches** console or the **References** rail.
 1. Select **Promote launch** to open the wizard.  
 
 1. Enter the required details:

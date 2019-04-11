@@ -41,7 +41,7 @@ Editable templates are now cosidered best practices for developing with AEM 6.4.
 
 The advantages of Editable Templates:
 
-* Can be [created](../../../sites/authoring/using/templates.md#creatinganewtemplate) and [edited](../../../sites/authoring/using/templates.md#editingatemplate) by your authors.
+* Can be [created](../../../sites/authoring/using/templates.md#creating-a-new-template-template-author) and [edited](../../../sites/authoring/using/templates.md#editing-a-template-structure-template-author) by your authors.
 
 * Have been introduced to allow you to define the following for any pages created with the template:
 
@@ -56,7 +56,7 @@ The advantages of Editable Templates:
 
 >[!NOTE]
 >
->An AEM Community Article is available explaining how to develop an Experience Manager site with Editable Templayes, see [Creating an Adobe Experience Manager 6.4 website using Editable Templates](https://helpx.adobe.com/experience-manager/using/first_aem64_website.html).
+>An AEM Community Article is available explaining how to develop an Experience Manager site with Editable Templates, see [Creating an Adobe Experience Manager 6.4 website using Editable Templates](https://helpx.adobe.com/experience-manager/using/first_aem64_website.html).
 
 ### Static Templates {#static-templates}
 

@@ -66,7 +66,7 @@ You can start a workflow from the toolbar of the **Sites** console:
 
 From the **Timeline** you can start a workflow to be applied to your selected resource.
 
-1. [Select the resource](../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources) and open [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) (or open Timeline and then select the resource).
+1. [Select the resource](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) and open [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) (or open Timeline and then select the resource).
 1. The arrowhead by the comment field can be used to reveal **Start Workflow**:
 
    ![](assets/wf-51.png)

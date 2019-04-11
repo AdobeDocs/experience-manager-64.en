@@ -24,21 +24,21 @@ Then depending on the type of experience(s) you are creating, you will need to [
 
 * If creating a Teaser:
 
-    1. [Create a teaser experience](../../../sites/authoring/using/campaigns.md#creatingateaserexperience).
-    1. [Add content to your teaser](../../../sites/authoring/using/campaigns.md#addingcontenttoyourteaser).
-    1. [Create a Touchpoint for your Teaser](../../../sites/authoring/using/campaigns.md#creatingatouchpointforyourteaser) (add your teaser to a content page).
+    1. [Create a teaser experience](../../../sites/authoring/using/campaigns.md).
+    1. [Add content to your teaser](../../../sites/authoring/using/campaigns.md).
+    1. [Create a Touchpoint for your Teaser](../../../sites/authoring/using/campaigns.md) (add your teaser to a content page).
 
 * If creating a Newsletter:
 
-    1. [Create a newsletter experience](../../../sites/authoring/using/campaigns.md#creatinganewsletterexperience).
-    1. [Add content to the newsletter.](../../../sites/authoring/using/campaigns.md#addingcontenttonewsletters)
-    1. [Personalize the newsletter.](../../../sites/authoring/using/campaigns.md#personalizingnewsletters)
-    1. [Create a compelling newsletter landing page](../../../sites/authoring/using/campaigns.md#settingupanewsletterlandingpage).
-    1. [Send the newsletter](../../../sites/authoring/using/campaigns.md#sendingnewsletters) to subscribers or leads.
+    1. [Create a newsletter experience](../../../sites/authoring/using/campaigns.md).
+    1. [Add content to the newsletter.](../../../sites/authoring/using/campaigns.md)
+    1. [Personalize the newsletter.](../../../sites/authoring/using/campaigns.md)
+    1. [Create a compelling newsletter landing page](../../../sites/authoring/using/campaigns.md).
+    1. [Send the newsletter](../../../sites/authoring/using/campaigns.md) to subscribers or leads.
 
 * If creating an Adobe Target (formerly Test&Target) Offer:
 
-    1. [Create an Adobe Target offer experience](../../../sites/authoring/using/campaigns.md#creatingatesttargetofferexperience).
+    1. [Create an Adobe Target offer experience](../../../sites/authoring/using/campaigns.md).
     1. [Integrate with Adobe Target](../../../sites/authoring/using/target-offers.md).
 
 >[!NOTE]
@@ -104,9 +104,9 @@ Configure campaign properties that control the behavior:
 
 The procedure for creating a new experience is dependent on the type of experience:
 
-* [Creating a Teaser](../../../sites/authoring/using/campaigns.md#creatingateaser)
-* [Creating a Newsletter](../../../sites/authoring/using/campaigns.md#creatinganewsletter)
-* [Creating an Adobe Target Offer](../../../sites/authoring/using/campaigns.md#creatingatesttargetoffer)
+* [Creating a Teaser](../../../sites/authoring/using/campaigns.md)
+* [Creating a Newsletter](../../../sites/authoring/using/campaigns.md)
+* [Creating an Adobe Target Offer](../../../sites/authoring/using/campaigns.md)
 
 >[!NOTE]
 >
@@ -118,19 +118,19 @@ The procedure for creating a new experience is dependent on the type of experien
 
 Now that you have created the basic skeleton for your experience you need to continue with the following actions, dependent on the type of experience:
 
-* [Teaser](../../../sites/authoring/using/campaigns.md#teasers):
+* [Teaser](../../../sites/authoring/using/campaigns.md):
 
-    * [Connect the teaser page to visitor segments.](../../../sites/authoring/using/campaigns.md#applyingasegmenttoyourteaser)
-    * [Create a Touchpoint for your Teaser](../../../sites/authoring/using/campaigns.md#creatingatouchpointforyourteaser) (add your teaser to a content page).
+    * [Connect the teaser page to visitor segments.](../../../sites/authoring/using/campaigns.md)
+    * [Create a Touchpoint for your Teaser](../../../sites/authoring/using/campaigns.md) (add your teaser to a content page).
 
-* [Newsletter](../../../sites/authoring/using/campaigns.md#newsletters):
+* [Newsletter](../../../sites/authoring/using/campaigns.md):
 
-    * [Add content to the newsletter.](../../../sites/authoring/using/campaigns.md#addingcontenttonewsletters)
-    * [Personalize the newsletter.](../../../sites/authoring/using/campaigns.md#personalizingnewsletters)
-    * [Send the newsletter](../../../sites/authoring/using/campaigns.md#sendingnewsletters) to subscribers or leads.
-    * [Create a compelling newsletter landing page](../../../sites/authoring/using/campaigns.md#settingupanewsletterlandingpage).
+    * [Add content to the newsletter.](../../../sites/authoring/using/campaigns.md)
+    * [Personalize the newsletter.](../../../sites/authoring/using/campaigns.md)
+    * [Send the newsletter](../../../sites/authoring/using/campaigns.md) to subscribers or leads.
+    * [Create a compelling newsletter landing page](../../../sites/authoring/using/campaigns.md).
 
-* [Adobe Target Offer](../../../sites/authoring/using/campaigns.md#testtargetoffers):
+* [Adobe Target Offer](../../../sites/authoring/using/campaigns.md):
 
     * [Integrate with Adobe Target](../../../sites/administering/using/target.md).
 

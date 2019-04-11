@@ -15,7 +15,7 @@ discoiquuid: 8ae6817a-16d3-4740-b67a-498e75adf350
 
 When AEM instance is installed out-of-the-box, a selection of components are immediately available in the components browser.
 
-In addition to these, various other components are also available. You can use Design mode to [enable/disable such components](#enabledisablecomponentsusingdesignmode). When enabled and located on your page you can then use Design mode to [configure aspects of the component design](#configuringcomponentsusingdesignmode) by editing the attribute parameters.
+In addition to these, various other components are also available. You can use Design mode to [enable/disable such components](#enable-disable-components). When enabled and located on your page you can then use Design mode to [configure aspects of the component design](#configuring-the-design-of-a-component) by editing the attribute parameters.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ For example, the content of a product page may contain a paragraph system holdin
 
 >[!NOTE]
 >
->See [Developing Components](../../../sites/developing/using/components.md#paragraphsystem) and [Guidelines for Using Templates and Components](../../../sites/developing/using/dev-guidelines-bestpractices.md#guidelines-for-using-templates-and-components) for more information about `parsys`.
+>See [Developing Components](../../../sites/developing/using/components.md) and [Guidelines for Using Templates and Components](../../../sites/developing/using/dev-guidelines-bestpractices.md#guidelines-for-using-templates-and-components) for more information about `parsys`.
 
 >[!CAUTION]
 >

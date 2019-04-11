@@ -90,9 +90,9 @@ The tasks detailed in this document are listed with the role responsible for car
 
 AEM now offers two basic types of templates:
 
-* [Editable Templates](../../../sites/authoring/using/templates.md#creatingandmanagingnewtemplates)
+* Editable Templates
 
-    * Can be [created](#creatinganewtemplate) and [edited](#editingatemplate) by template authors using the **Template** console and editor. The **Template** console is accessible in the **General** section of the **Tools** console.  
+    * Can be [created](#creating-a-new-template-template-author) and [edited](#editing-templates-template-authors) by template authors using the **Template** console and editor. The **Template** console is accessible in the **General** section of the **Tools** console.  
     
     * After the new page is created a dynamic connection is maintained between the page and the template. This means that changes to the template structure and/or locked content will be reflected on any pages created with that template. Changes to the unlocked (i.e. initial) content will not be reflected.
     * Use content policies, which you can define these from the template editor, to persist the design properties. Design mode within the page editor is no longer used for editable templates.
@@ -120,21 +120,21 @@ When creating a new editable template you:
     * Or directly at: [http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf](http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf)
 
 * Can [create a folder for the templates](#creating-a-template-folder-admin) if necessary
-* [Create a new template](#creatinganewtemplateauthor), which will initially be empty [](#templatedefinitions)
+* [Create a new template](#creating-a-new-template-template-author), which will initially be empty
 
-* [Define additional properties](#definingtemplatepropertiesauthor) for the template if required
-* [Edit the template](#editingtemplates) to define the:
+* [Define additional properties](#defining-template-properties-template-author) for the template if required
+* [Edit the template](#editing-templates-template-authors) to define the:
 
-    * [Structure](#editingatemplatestructureauthor) - Predefined content that cannot be changed on pages created with the template.  
+    * [Structure](#editing-a-template-structure-template-author) - Predefined content that cannot be changed on pages created with the template.  
     
     * [Initial Content](#editing-a-template-initial-content-author) - Predefined content that can be changed on pages created with the template.  
     
-    * [Layout](#editingatemplatelayoutauthor) - For a range of devices.
+    * [Layout](#editing-a-template-layout-template-author) - For a range of devices.
     * [Styles](../../../sites/authoring/using/style-system.md) - Define the styles to be used with the template and its components.
 
-* [Enable the template](#enablingatemplateauthor) for use when creating a page
+* [Enable the template](#enabling-a-template-template-author) for use when creating a page
 * [Allow the template](#allowing-a-template-author) for the required page or branch of your website
-* [Publish the template](#publishingatemplateauthor) to make it available on the publish environment
+* [Publish the template](#publishing-a-template-template-author) to make it available on the publish environment
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ A template folder should be created for your project to hold your project-specif
     * **Template Name**
     * **Description**
 
-1. Select **Create**. A confirmation will be shown, select **Open** to start [editing the template](#editingatemplate) or **Done** to return to the template console.
+1. Select **Create**. A confirmation will be shown, select **Open** to start [editing the template](#editing-templates-template-authors) or **Done** to return to the template console.
 
    >[!NOTE]
    >
@@ -227,8 +227,8 @@ To define the template thumbnail:
 
 To be able to use a template when creating a page you need to:
 
-* [Enable the template](#enablingatemplate) to make it available for use when creating pages.
-* [Allow the template](#allowingatemplate) to specify the content branches where the template can be used.
+* [Enable the template](#enabling-a-template-template-author) to make it available for use when creating pages.
+* [Allow the template](#allowing-a-template-author) to specify the content branches where the template can be used.
 
 #### Enabling a Template - Template Author {#enabling-a-template-template-author}
 
@@ -240,7 +240,7 @@ A template can be enabled or disabled to make it available or unavailable in the
 
 1. In the **Templates Console**, select the template.
 1. Select **Enable** or **Disable** from the toolbar, and again in the confirmation dialog.
-1. You can now use your template when [creating a new page](../../../sites/authoring/using/managing-pages.md#creating-a-new-page), though you will probably want to [edit the template](#editingatemplate) according to your requirements.
+1. You can now use your template when [creating a new page](../../../sites/authoring/using/managing-pages.md#creating-a-new-page), though you will probably want to [edit the template](#editing-templates-template-authors) according to your requirements.
 
 >[!NOTE]
 >
@@ -291,17 +291,17 @@ When creating or editing a template there are various aspects that you can defin
 
 The following aspects of a template can be edited:
 
-* [Structure](#editingatemplatestructure)
+* [Structure](#editing-a-template-structure-template-author)
 
   Components added here cannot be moved/removed from resultant pages by the page authors. If you want page authors to be able to add and remove components to resultant pages, then you need to add a paragraph system to the template.
 
-  When components are locked you can add content, which cannot be edited by page authors. You can unlock components to allow you to define [Initial Content](#editingatemplateinitialcontent).
+  When components are locked you can add content, which cannot be edited by page authors. You can unlock components to allow you to define [Initial Content](#editing-a-template-initial-content-author).
 
   >[!NOTE]
   >
   >In structure mode, any components that are the parent of an unlocked component cannot be moved, cut, or deleted.
 
-* [Initial Content](#editingatemplateinitialcontent)
+* [Initial Content](#editing-a-template-initial-content-author)
 
   When a component has been unlocked you can define the initial content that will be copied to the resultant page(s), created from the template. These unlocked components can be edited on the resulting page(s).
 
@@ -309,11 +309,11 @@ The following aspects of a template can be edited:
   >
   >In **Initial Content** mode as well as on the resultant pages, any unlocked components that have an accessible parent (i.e. components within a layout container) can be deleted.
 
-* [Layout](#editingatemplatelayout)
+* [Layout](#editing-a-template-layout-template-author)
 
   Here you can predefine the template layout for the required device formats. **Layout** mode for template authoring has the same functionality as the [**Layout** mode for page authoring](../../../sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode).
 
-* [Page Policies](#editingatemplatepagepolicies)
+* [Page Policies](#editing-a-template-structure-template-author)
 
   Under page policies you can connect predefined page policies to the page. These page policies define the various design configurations.
 
@@ -325,13 +325,13 @@ The following aspects of a template can be edited:
 
 The **Mode** selector in the toolbar allows you to select and edit the appropriate aspect of the template:
 
-* [Structure](#editingatemplatestructure)
-* [Initial Content](#editingatemplateinitialcontent)
-* [Layout](#editingatemplatelayout)
+* [Structure](#editing-a-template-structure-template-author)
+* [Initial Content](#editing-a-template-initial-content-author)
+* [Layout](#editing-a-template-layout-template-author)
 
 ![](assets/chlimage_1-363.png)
 
-While the **Page Policy** option on the **Page Information** menu allows you to [select the required page policies](#editingatemplatepagepolicies):
+While the **Page Policy** option on the **Page Information** menu allows you to [select the required page policies](#editing-a-template-structure-template-author):
 
 ![](assets/screen_shot_2018-03-23at120604.png)
 
@@ -345,7 +345,7 @@ In **Structure** mode you define components and content for your template and de
 
 * Components defined in the template structure cannot be moved on a resulting page nor deleted from any resulting pages.
 * If you want page authors to be able to add and remove components, add a paragraph system to the template.
-* Components can be unlocked and locked again to allow you to define [initial content](#editingatemplateinitialcontent).  
+* Components can be unlocked and locked again to allow you to define [initial content](#editing-a-template-initial-content-author).  
 
 * The design policies for the components and page are defined.
 
@@ -480,7 +480,7 @@ In **Structure** mode of the template editor:
 
   >[!NOTE]
   >
-  >[Content policies for components implementing the rich text editor](../../../sites/administering/using/rich-text-editor.md#main-pars-header-206036638) can only be defined for options made available by the RTE through its UI settings. [](../../../sites/administering/using/rich-text-editor.md#main-pars-header-206036638) [](../../../sites/administering/using/rich-text-editor.md#main-pars-header-206036638)
+  >[Content policies for components implementing the rich text editor](../../../sites/administering/using/rich-text-editor.md) can only be defined for options made available by the RTE through its UI settings.
 
 * **Policy & Properties (Layout Container)**
 
@@ -722,6 +722,6 @@ When creating templates you should consider:
    >
    >AEM gives explicit warnings when changing the lock status of components on templates that are no longer drafts.
 
-1. [Creating your own folders](#creatingatemplatefolderdeveloper) for your site-specific templates.
-1. [Publish your templates](#publishingatemplateauthor) from the **Templates** console.
+1. [Creating your own folders](#creating-a-template-folder-admin) for your site-specific templates.
+1. [Publish your templates](#publishing-a-template-template-author) from the **Templates** console.
 

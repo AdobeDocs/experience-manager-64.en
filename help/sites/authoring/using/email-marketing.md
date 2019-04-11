@@ -62,7 +62,7 @@ This document describes the basics of creating newsletters in AEM. For more deta
 
 1. A new dialog will open immediately. Here you can enter properties for the newsletter.
 
-   The **Default Recipients List** is a mandatory field as this forms the touchpoint for the newsletter (see [Working with Lists](../../../sites/authoring/using/campaigns.md#workingwithlists) for more information about lists).
+   The **Default Recipients List** is a mandatory field as this forms the touchpoint for the newsletter.
 
    ![](assets/mcm_newnewsletterdialog.png)
 

@@ -312,7 +312,7 @@ You do this by strategically placing the teaser paragraph within your content:
     * **Campaign Path** 
       Path to the campaign page that holds the individual teaser page; segments determine exactly which teaser is shown.
     
-    * ** [Strategy](../../../sites/authoring/using/campaigns.md#strategies)** 
+    * ** [Strategy](../../../sites/authoring/using/campaigns.md)** 
       Method used for selection when multiple segments resolve successfully.
 
    ![](assets/chlimage_1-215.png)

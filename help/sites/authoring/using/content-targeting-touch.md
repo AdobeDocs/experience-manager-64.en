@@ -35,7 +35,7 @@ The activities and experiences that you see in Target mode reflect the [Activite
 
 >[!NOTE]
 >
->When you create a campaign in Adobe Target, it assigns a property called `thirdPartyId`to each campaign. When you delete the campaign in Adobe Target, thirdPartyId is not deleted. You cannot re-use the `thirdPartyId` for campaigns of different types (AB, XT) and it cannot be manually removed. To avoid this issue, name each campaign a unique name; campaign names can therefore not be re-used in different campaign types. 
+>When you create a campaign in Adobe Target, it assigns a property called `thirdPartyId` to each campaign. When you delete the campaign in Adobe Target, thirdPartyId is not deleted. You cannot re-use the `thirdPartyId` for campaigns of different types (AB, XT) and it cannot be manually removed. To avoid this issue, name each campaign a unique name; campaign names can therefore not be re-used in different campaign types. 
 >
 >If you use the same name in the same campaign type, you will overwrite the existing campaign. 
 >
@@ -106,8 +106,8 @@ To add an activity:
 Targeting mode enables you to configure several aspects of an activity. Use the following three-step process for creating targeted content for a brand activity:
 
 1. [Create](#create-authoring-the-experiences): Add or remove experiences, and add offers for each experience.
-1. [Target](#diagramtargetconfiguringtheaudiences): Specify the audience that each experience targets. You can target a specific audience and if using A/B testing decide what percentage of traffic goes to which experience.
-1. [Goals & Settings](#settingsgoalssettingsconfiguringtheactivityandsettinggoals): Schedule the activity and set the priority. You can also set success metric goals.
+1. [Target](#target-configuring-the-audiences): Specify the audience that each experience targets. You can target a specific audience and if using A/B testing decide what percentage of traffic goes to which experience.
+1. [Goals & Settings](#goals-settings-configuring-the-activity-and-setting-goals): Schedule the activity and set the priority. You can also set success metric goals.
 
 Use the following procedure to start the content targeting process for an activity.
 

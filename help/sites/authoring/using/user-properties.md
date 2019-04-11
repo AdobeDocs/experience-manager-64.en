@@ -15,7 +15,7 @@ discoiquuid: 6afbc889-c613-40e6-8a25-1570dff32d60
 
 AEM provides you with the capability to configure your account and certain aspects of the author environment.
 
-Using the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the [header](../../../sites/authoring/using/basic-handling.md#the-header) and the associated [My Preferences](#userpreferences) dialog, you can modify your user options such as.
+Using the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the [header](../../../sites/authoring/using/basic-handling.md#the-header) and the associated [My Preferences](#my-preferences) dialog, you can modify your user options such as.
 
 Begin by accessing the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the header.
 

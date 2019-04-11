@@ -28,7 +28,7 @@ This document describes the following:
 
 To set up how your sites share personalized content, you need to perform the following steps:
 
-1. [Create a new area](#creating-new-areas) or [create a new area as live copy](#creatingnewareasaslivecopies). An area includes all the activities tha are available for an *area* of the page; that is , the location on the page where the component is targeted. Creating a new area creates an empty area, whereas creating a new area as a live copy lets you inherit content across site structures.
+1. [Create a new area](#creating-new-areas) or [create a new area as live copy](#creating-new-areas). An area includes all the activities tha are available for an *area* of the page; that is , the location on the page where the component is targeted. Creating a new area creates an empty area, whereas creating a new area as a live copy lets you inherit content across site structures.
 
 1. [Link your site or page](#linking-sites-to-an-area) to an area.
 
@@ -54,7 +54,7 @@ A site or live copy links to an area containing the activities that need to be a
 
 ## Use cases {#use-cases}
 
-You can set up multisite support for targeted content in a number of ways, depending on your use case. This section describes how this would work theoretically with one brand. In addition, in [Example: Targeting Content Based on Geogrpahy](#exampletargetingcontentbasedongeogrpahy), you can see a real-world application of targeting content in multiple sites.
+You can set up multisite support for targeted content in a number of ways, depending on your use case. This section describes how this would work theoretically with one brand. In addition, in [Example: Targeting Content Based on Geogrpahy](#example-targeting-content-based-on-geography), you can see a real-world application of targeting content in multiple sites.
 
 Targeted content is wrapped in a so-called areas, which define the scope for sites or pages. These areas are defined at the brand level. One brand can contain multiple areas. Areas can be distinct between brands. While one brand may just contain the master area and therefore is shared across all brands, another brand may contain multiple brands (for example, by region). Brands, therefore, do not need to mirror the set of areas between them.
 

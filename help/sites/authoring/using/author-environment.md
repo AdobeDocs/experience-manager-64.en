@@ -29,7 +29,7 @@ Two graphical user interfaces are provided to achieve this. These are accessible
 
     * This is the modern, standard AEM UI.
     * It is predominantly grey, with a clean, flat interface.
-    * Designed for use on both touch and desktop devices, the look and feel is the same on all devices, though [viewing and selecting your resources](../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources) differs slightly (taps versus clicks).
+    * Designed for use on both touch and desktop devices, the look and feel is the same on all devices, though [viewing and selecting your resources](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) differs slightly (taps versus clicks).
 
         * Desktop:
 

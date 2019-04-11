@@ -64,7 +64,7 @@ The image (campaign) component displays an image and accompanying text according
 
 You can upload an image, then edit and manipulate it (for example, crop, rotate, add link/title/text).
 
-You can either drag and drop an image from the [Asset Browser](../../../sites/authoring/using/author-environment-tools.md#assetsbrowsertouchoptimizedui) directly onto the component or its [Configure dialog](../../../sites/authoring/using/editing-content.md#editconfigurecopycutdeletepastetouchoptimizedui). You can also upload an image from the Configure dialog; this dialog also controls all definitions and manipulation of the image:
+You can either drag and drop an image from the [Asset Browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser) directly onto the component or its [Configure dialog](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste). You can also upload an image from the Configure dialog; this dialog also controls all definitions and manipulation of the image:
 
 ![](assets/chlimage_1-108.png)
 
@@ -72,7 +72,7 @@ You can either drag and drop an image from the [Asset Browser](../../../sites/au
 >
 >You must enter information in the **Alt Text** field, or the image cannot be saved.
 
-After the image is uploaded (and not before) you can use [inplace editing](../../../sites/authoring/using/editing-content.md#editcontenttouchoptimizedui) to crop/rotate the image as required:
+After the image is uploaded (and not before) you can use [inplace editing](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) to crop/rotate the image as required:
 
 ![](do-not-localize/chlimage_1-10.png)
 
@@ -241,7 +241,7 @@ The selection of icons allow you to format your text, including font characteris
 
 ![](assets/chlimage_1-115.png)
 
-In the inplace editor you can add text, change the justification, add and remove links, add context fields or personalization blocks, and enter full-screen mode. When finished adding text/personalization, select the check mark to save your changes (or x to cancel). See [Inplace editing](../../../sites/authoring/using/editing-content.md#editcontenttouchoptimizedui) for more information.
+In the inplace editor you can add text, change the justification, add and remove links, add context fields or personalization blocks, and enter full-screen mode. When finished adding text/personalization, select the check mark to save your changes (or x to cancel). See [Inplace editing](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) for more information.
 
 >[!NOTE]
 >

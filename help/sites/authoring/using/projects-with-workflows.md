@@ -38,7 +38,7 @@ Depending on which Project template you select, you have certain workflows avail
 
 >[!NOTE]
 >
->&#42; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](/sites/authoring/using/language-copy.md)
+>&#42; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](../../../sites/administering/using/tc-manage.md)
 
 The steps for starting and completing workflows are the same no matter which workflow you choose. Only the steps change.
 
@@ -67,7 +67,7 @@ This workflow lets you request a manuscript from a user and then approve it. To 
 
 ## Product Photo Shoot workflow {#product-photo-shoot-workflow}
 
-The Product Photo Shoot workflows (both commerce and without commerce) are covered in detail in [Creative Project](../../../sites/authoring/using/managing-product-information.md#productphotoshootprojectworkflows).
+The Product Photo Shoot workflows (both commerce and without commerce) are covered in detail in [Creative Project](../../../sites/authoring/using/managing-product-information.md).
 
 ## Project Approval workflow {#project-approval-workflow}
 

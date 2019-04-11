@@ -64,15 +64,15 @@ The actual appearance and handling is dependent on the device type you are using
 
 * **Mobile device (e.g. iPad)**
 
-  The component browser completely covers the page being edited.
+  The components browser completely covers the page being edited.
 
-  To add a component to your page touch-and-hold the required component and move it towards the right - the component browser will close to show the page again - where you can position the component.
+  To add a components to your page touch-and-hold the required component and move it towards the right - the components browser will close to show the page again - where you can position the component.
 
   ![](assets/screen_shot_2018-03-22at141752.png)
 
 * **Desktop device**
 
-  The component browser is opened at the left side of the window.
+  The components browser is opened at the left side of the window.
 
   To add a component to your page click on the required component and drag it to the required location.
 
@@ -253,8 +253,8 @@ The Page Information (equalizer icon) opens a menu that also provides details ab
 * [Rollout Page](../../../sites/administering/using/msm.md#msm-from-the-ui)
 * [Start Workflow](../../../sites/authoring/using/workflows-applying.md#starting-a-workflow-from-the-page-editor)
 * [Lock Page](../../../sites/authoring/using/editing-content.md#locking-a-page)
-* [Publish Page](../../../sites/authoring/using/publishing-pages.md#main-pars-title-10)
-* [Unpublish Page](../../../sites/authoring/using/publishing-pages.md#main-pars-title-5)
+* [Publish Page](../../../sites/authoring/using/publishing-pages.md#publishing-pages)
+* [Unpublish Page](../../../sites/authoring/using/publishing-pages.md#unpublishing-pages)
 * [View as Published](../../../sites/authoring/using/editing-content.md#view-as-published)
 * [View in Admin](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 * [Help](../../../sites/authoring/using/basic-handling.md#accessing-help)
@@ -281,7 +281,7 @@ There are various modes when editing a page allowing for different actions:
 * [Design](../../../sites/authoring/using/default-components-designmode.md) - allows you to enable/disable components for use on a page and to configure the design of the component (if the page is based on a [static template](../../../sites/authoring/using/templates.md#editable-and-static-templates)).
 
 * [Targeting](../../../sites/authoring/using/content-targeting-touch.md) - increase content relevance through targeting and measuring across all channels.
-* [Activity Map](../../../sites/authoring/using/pa-using.md#analyticsvisiblefromthepageeditor) - shows Analytics data for the page.  
+* [Activity Map](../../../sites/authoring/using/pa-using.md) - shows Analytics data for the page.  
 
 * [Timewarp](../../../sites/authoring/using/working-with-page-versions.md#timewarp) - allows you to view a pages state at a particular point in time.
 * [Live Copy Status](../../../sites/authoring/using/editing-content.md#live-copy-status) - allows a quick overview of the live copy status and which components are/are not inherited.

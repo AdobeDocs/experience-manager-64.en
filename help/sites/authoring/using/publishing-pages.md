@@ -38,7 +38,7 @@ You can also publish/unpublish a page immediately or at a predefined date/time i
 >If you do not have the required privileges for publishing a specific page:
 >
 >* A workflow will be triggered to notify the appropriate person of your request to publish.
->* This [workflow may have been customized](../../../sites/developing/using/workflows-models.md#main-pars-procedure-6fe6) by your development team.
+>* This [workflow may have been customized](../../../sites/developing/using/workflows-models.md) by your development team.
 >* A message will be displayed briefly to notify you that the workflow was triggered.
 >
 
@@ -184,7 +184,7 @@ To publish or unpublish a page using Manage Publication:
 
    >[!NOTE]
    >
-   >The **Workflows** step will be shown based on what rights your user may or may not have. See the [previous note on this page](../../../sites/authoring/using/publishing-pages.md#main-pars-note-0-ejsjqg-refd) regarding publishing privileges as well as [Managing Access to Workflows](../../../sites/administering/using/workflows-managing.md) and [Applying Workflows to Pages](../../../sites/authoring/using/workflows-applying.md#main-pars-text-5-bvhbkh-refd) for details.
+   >The **Workflows** step will be shown based on what rights your user may or may not have. See the [previous note on this page](../../../sites/authoring/using/publishing-pages.md) regarding publishing privileges as well as [Managing Access to Workflows](../../../sites/administering/using/workflows-managing.md) and [Applying Workflows to Pages](../../../sites/authoring/using/workflows-applying.md) for details.
 
    The resources are grouped by the workflows triggered and each given options to:
 

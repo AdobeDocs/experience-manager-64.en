@@ -178,7 +178,7 @@ The photo shoot workflow includes several tasks. Each task is assigned to a user
 
 The **Create Shot List **task enables the project owner to select products for which images are required. Based on the option selected by the user, a CSV file is generated that contains basic product information.
 
-1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracktheprogress) to view the task item in the workflow.
+1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracking-project-progress) to view the task item in the workflow.
 
    ![](assets/chlimage_1-143.png)
 
@@ -233,7 +233,7 @@ A product can belong to a particular category. The product category can be liste
 >
 >The name of images to be uploaded should start with "**&lt;ProductId&gt;_"** where Product ID is referenced from the **Id** field in the *shotlist.csv* file. For example, for a product in the shot list with **Id** **397122**, you can upload files with names** 397122_highcontrast.jpg**, **397122_lowlight.png**, and so on.
 
-1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracktheprogress) to view the list of tasks in the workflow.
+1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracking-project-progress) to view the list of tasks in the workflow.
 1. Select the **Upload Shot List** task, and then tap/click the **Open** icon from the toolbar.
 
    ![](assets/chlimage_1-150.png)
@@ -397,7 +397,7 @@ You can customize the Project Photo Shoot workflows based on requirements. This 
 
    >[!NOTE]
    >
-   >For details around scripting in workflow steps, see [Defining a Rule for an OR Split](../../../sites/developing/using/workflows-models.md#definingaruleforanorsplit).
+   >For details around scripting in workflow steps, see [Defining a Rule for an OR Split](../../../sites/developing/using/workflows-models.md).
 
    ![](assets/chlimage_1-166.png)
 
