@@ -110,13 +110,13 @@ To configure dynamic media cloud services:
 
 You are now finished with the basic configuration; you are ready to use Dynamic Media - Scene7 mode.
 
-If you want to further customize your configuration, you can optionally complete any of the tasks under [(Optional) Configuring Advanced Settings in Dynamic Media - Scene7 mode](#optionalconfigurationofadvancedsettingindynamicmediascene7mode).
+If you want to further customize your configuration, you can optionally complete any of the tasks under [(Optional) Configuring Advanced Settings in Dynamic Media - Scene7 mode](#optional-configuring-advanced-settings-in-dynamic-media-scene-mode).
 
 ## (Optional) Configuring Advanced Settings in Dynamic Media - Scene7 mode {#optional-configuring-advanced-settings-in-dynamic-media-scene-mode}
 
 If you want to further customize the configuration and setup of Dynamic Media - Scene7 mode, or optimize its performance, you can complete one or more of the following *optional* tasks:
 
-* [(Optional) Setup and configuration of Dynamic Media - Scene7 mode settings](#optionalsetupandconfigurationofdynamicmediascene7modesettings)  
+* [(Optional) Setup and configuration of Dynamic Media - Scene7 mode settings](#optional-setup-and-configuration-of-dynamic-media-scene-mode-settings-p)  
 
 * [(Optional) Tuning the performance of Dynamic Media - Scene7 mode](#optional-tuning-the-performance-of-dynamic-media-scene-mode)
 * [(Optional) Filtering assets for replication](#optional-filtering-assets-for-replication)
@@ -172,7 +172,7 @@ To open the Application General Settings page, in Dynamic Media Classic Global N
 
 >[!NOTE]
 >
->By default, the system shows 15 renditions when you select **Renditions** and 15 viewer presets when you select **Viewers** in the asset's detail view. You can increase this limit. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasingthenumberofimagepresetsthatdisplay) or [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md#increasing-the-number-of-viewer-presets-that-display).
+>By default, the system shows 15 renditions when you select **Renditions** and 15 viewer presets when you select **Viewers** in the asset's detail view. You can increase this limit. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasing-or-decreasing-the-number-of-image-presets-that-display) or [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md#increasing-the-number-of-viewer-presets-that-display).
 >
 
 #### Configuring color management {#configuring-color-management}

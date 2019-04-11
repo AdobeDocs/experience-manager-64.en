@@ -38,7 +38,7 @@ Administrators can create Image Presets. To create an image preset, you can star
 
 ## Managing Image Presets {#managing-image-presets}
 
-You manage your image presets in AEM by tapping or clicking the AEM logo to access the global navigation console and then tapping or clicking the Tools icon and navigating to **Assets **&gt;** Image Presets**.
+You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **Assets **&gt;** Image Presets**.
 
 ![](assets/chlimage_1-494.png)
 
@@ -54,7 +54,7 @@ You manage your image presets in AEM by tapping or clicking the AEM logo to acce
 
 >[!NOTE]
 >
->The system shows a variety of renditions when you select **Renditions** in an asset's Detail View. You can increase or decrease the number of image presets that display. See [Increasing the number of image presets that display](#increasingthenumberofimagepresetsthatdisplay).
+>The system shows a variety of renditions when you select **Renditions** in an asset's Detail View. You can increase or decrease the number of image presets that display. See [Increasing the number of image presets that display](#increasing-or-decreasing-the-number-of-image-presets-that-display).
 
 ### Adobe Illustrator (AI), Postscript (EPS), and PDF file formats {#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats}
 
@@ -65,9 +65,9 @@ Adobe Illustrator's file format is a variant of PDF. The main differences, in th
 * Adobe Illustrator documents consist of a single page with multiple layers. Each layer is extracted as a PNG sub-asset under the main Illustrator asset.
 * PDF documents consist of one or more pages. Each page is extracted as a single page PDF sub-asset under the main multi-page PDF document.
 
-The sub-assets are created by the `Create Sub Asset process` component within the overall `DAM Update Asset` workflow. To see this process component within the workflow, tap **Tools **&gt; **Workflow** &gt; **Models** &gt; **DAM Update Asset** &gt; **Edit**.
+The sub-assets are created by the `Create Sub Asset process` component within the overall `DAM Update Asset` workflow. To see this process component within the workflow, tap **Tools** &gt; **Workflow** &gt; **Models** &gt; **DAM Update Asset** &gt; **Edit**.
 
-See also [Viewing pages of a multi-page file](../../assets/using/managing-linked-subassets.md#viewingpagesofamultipagefile).  
+See also [Viewing pages of a multi-page file](/help/assets/using/managing-linked-subassets.md#view-pages-of-a-multi-page-file).  
   
 You can view the sub-assets or the pages when you open the asset, tap the Content menu, and select **Subassets** or **Pages**. The sub-assets are real assets. That is, PDF pages are extracted by the `Create Sub Asset` workflow component. They are then stored as `page1.pdf`, `page2.pdf`, and so on below the main asset. After they are stored, the `DAM Update Asset` workflow processes them.  
   
@@ -90,13 +90,13 @@ To use Dynamic Media to preview and generate dynamic renditions for AI, EPS or P
 
 You access `Rasterize PDF/AI Image Preview Rendition` process component options by way of the `DAM Update Asset` workflow.
 
-Tap on Adobe Experience Manager in the upper left, navigate to **Tools **> **Workflow** > **Models**. On the Workflow Models page, select **DAM Update Asset**, then on the toolbar tap **Edit**. On the DAM Update Asset workflow page, double-tap the `Rasterize PDF/AI Image Preview Rendition` process component to open its Step Properties dialog box.
+Tap on Adobe Experience Manager in the upper left, navigate to **Tools** > **Workflow** > **Models**. On the Workflow Models page, select **DAM Update Asset**, then on the toolbar tap **Edit**. On the DAM Update Asset workflow page, double-tap the `Rasterize PDF/AI Image Preview Rendition` process component to open its Step Properties dialog box.
 
 ### Rasterize PDF/AI Image Preview Rendition options {#rasterize-pdf-ai-image-preview-rendition-options}
 
 ![Arguments to rasterize PDF or AI workflow](assets/rasterize_pdf_ai_image_preview.png)
 
-Arguments to rasterize PDF or AI workflow
+**Arguments to rasterize PDF or AI workflow**
 
 <table> 
  <tbody> 
@@ -177,7 +177,7 @@ The following scripts, are used by Dynamic Media integration:
 
 ## Configuring Image Thumbnail Size {#configuring-image-thumbnail-size}
 
-You can configure the size of thumbnails by configuring those settings in the **DAM Update Asset **workflow. There are two steps in the workflow where you can configure the thumbnail size of image assets. Although one (**Dynamic Media Process Image Assets**) is used for dynamic image assets and the other (**Process Thumbnails**) for static thumbnail generation or when all other processes fail to generate thumbnails, *both* should have the same settings.
+You can configure the size of thumbnails by configuring those settings in the **DAM Update Asset** workflow. There are two steps in the workflow where you can configure the thumbnail size of image assets. Although one (**Dynamic Media Process Image Assets**) is used for dynamic image assets and the other (**Process Thumbnails**) for static thumbnail generation or when all other processes fail to generate thumbnails, *both* should have the same settings.
 
 With the **Dynamic Media Process Image Assets** step, thumbnails are generated by the image server, and this configuration is independent of the configuration applied to the **Process Thumbnails** step. Generating thumbnails through the **Process Thumbnails** step is the slowest and most memory intensive way to create thumbnails.
 
@@ -185,25 +185,25 @@ Thumbnail sizing is defined in the following format: **width:height:center**, fo
 
 >[!NOTE]
 >
->* Thumbnail size for EPS files are configured in the **EPS thumbnails **step, in the **Arguments** tab under Thumbnails.
+>* Thumbnail size for EPS files are configured in the **EPS thumbnails** step, in the **Arguments** tab under Thumbnails.
 >
 >* Thumbnail size for videos are configured in the **FFmpeg thumbnails** step, in the **Process** tab under **Arguments**.
 >
 
 To configure thumbnail size:
 
-1. Click or tap **Tools **&gt; **Workflow** &gt; **Models** &gt; **DAM Update Asset** &gt; **Edit**.
-1. Tap or click the **Dynamic Media Process Image Assets** step and tap or click the **Thumbnails** tab. Change the thumbnail size, as needed, and tap or click **OK**.
+1. Tap **Tools** &gt; **Workflow** &gt; **Models** &gt; **DAM Update Asset** &gt; **Edit**.
+1. Tap the **Dynamic Media Process Image Assets** step, then tap the **Thumbnails** tab. Change the thumbnail size, as needed, then tap **OK**.
 
    ![](assets/step_properties_thumbnailarguments.png)
 
-1. Tap or click the **Process Thumbnails** step and tap or click the **Thumbnails** tab. Change the thumbnail size, as needed, and tap or click **OK**.
+1. Tap the **Process Thumbnails** step, then tap the **Thumbnails** tab. Change the thumbnail size, as needed, and tap **OK**.
 
    >[!NOTE]
    >
    >The values in the thumbnails argument in the **Process Thumbnails** step must match the thumbnails argument in the **Dynamic Media Process Image Assets** step.
 
-1. Tap or click **Save** to save the changes to the workflow.
+1. Tap **Save** to save the changes to the workflow.
 
 ### Increasing or decreasing the number of image presets that display {#increasing-or-decreasing-the-number-of-image-presets-that-display}
 
@@ -222,7 +222,7 @@ To increase or decrease the number of image presets displayed:
    ![](assets/chlimage_1-495.png)
 
 1. In the limit property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
-1. Tap or click **Save All**.
+1. Tap **Save All**.
 
 ### Creating Image Presets {#creating-image-presets}
 
@@ -240,8 +240,9 @@ See [InDesign (INDD) file format](#indesign-indd-file-format).
 
 To create an image preset:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
-1. Click **Create**. The **Edit Image Preset** window opens.
+1. In AEM, tap the AEM logo to access the global navigation console.
+1. Tap the Tools icon, then navigate to **Assets** &gt; **Image Presets**.
+1. Tap **Create**.
 
    ![](assets/chlimage_1-496.png)
 
@@ -249,7 +250,7 @@ To create an image preset:
    >
    >To make this image preset responsive, erase the values in the **width** and **height** fields and leave them blank.
 
-1. Enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset Options](#image-preset-options). Presets appear in the left pane and can be used on-the-fly with other assets.
+1. On the Edit Image Preset page, enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset Options](#image-preset-options). Presets appear in the left pane and can be used on-the-fly with other assets.
 
    ![](assets/chlimage_1-497.png)
 
@@ -273,7 +274,7 @@ Leaving them blank tells AEM that this image preset is responsive. You can adjus
 
 ### Image Preset Options {#image-preset-options}
 
-When you create or edit image presets, you have the options described in this section. In addition, Adobe recommends these “best practice” option choices to start:
+When you create or edit image presets, you have the options described in this section. In addition, Adobe recommends the following three *best practice* option choices to start:
 
 * **Format** (**Basic** tab) - Select **JPEG** or another format that meets your requirements. All web browsers support the JPEG image format; it offers a good balance between small files sizes and image quality. However, JPEG format images use a lossy compression scheme that can introduce unwanted image artifacts if the compression setting is too low. For that reason, Adobe recommends setting the compression quality to 75. This setting offers a good balance between image quality and small file size.
 
@@ -383,7 +384,7 @@ When you create or edit image presets, you have the options described in this se
     </ul> 
     <div>
       Sharpening is described in 
-     <a href="https://microsite.omniture.com/t2/help/en_US/s7/sharpening/s7_sharpening_images.pdf">Sharpening Images</a>. 
+     <a href="https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf">Sharpening Images</a>. 
     </div> </td> 
   </tr> 
   <tr> 
@@ -420,7 +421,7 @@ When you create or edit image presets, you have the options described in this se
 
 ## Defining Image Preset Options with Image Modifiers {#defining-image-preset-options-with-image-modifiers}
 
-In addition to the options available in the Basic and Advanced tabs, you can define image modifiers to give you more options when defining image presets. Image Rendering relies on the Scene7 image rendering API and are defined in detail in the [HTTP Protocol Reference](https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/c_http_protocol_reference.html).
+Besides the options available in the Basic and Advanced tabs, you can define image modifiers to give you more options when you define image presets. Image Rendering relies on the Scene7 image rendering API. The API is defined in detail in the [HTTP Protocol Reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_http_protocol_reference.html).
 
 The following are some basic examples of what you can do with image modifiers.
 
@@ -428,7 +429,7 @@ The following are some basic examples of what you can do with image modifiers.
 >
 >Some image modifiers [cannot be used in AEM](#advanced-tab-options).
 
-* [op_invert](https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_invert.html) - Inverts each color component for a negative image effect.
+* [op_invert](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_invert.html) - Inverts each color component for a negative image effect.
 
   ```xml
   &op_invert=1
@@ -436,7 +437,7 @@ The following are some basic examples of what you can do with image modifiers.
 
   ![](assets/chlimage_1-499.png)
 
-* [op_blur](https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_blur.html) - Applies a blur filter to the image.
+* [op_blur](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_blur.html) - Applies a blur filter to the image.
 
   ```xml
   &op_blur=25
@@ -452,7 +453,7 @@ The following are some basic examples of what you can do with image modifiers.
 
   ![](assets/chlimage_1-501.png)
 
-* [op_brightness](https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_brightness.html) - Decreases or increases the brightness.
+* [op_brightness](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_brightness.html) - Decreases or increases the brightness.
 
   ```xml
   &op_brightness=75
@@ -460,7 +461,7 @@ The following are some basic examples of what you can do with image modifiers.
 
   ![](assets/chlimage_1-502.png)
 
-* [opac](https://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_opac.html) - Adjusts image opacity. Lets you decrease the foreground opacity.
+* [opac](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_opac.html) - Adjusts image opacity. Lets you decrease the foreground opacity.
 
   ```xml
   opac=50
@@ -472,23 +473,25 @@ The following are some basic examples of what you can do with image modifiers.
 
 To edit image presets:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
+1. In AEM, tap the AEM logo to access the global navigation console.
+1. Tap the Tools icon, then navigate to **Assets** &gt; **Image Presets**.
 
    ![](assets/chlimage_1-504.png)
 
-1. Select a preset and then click **Edit**. The **Edit Image Preset** window opens.
-1. Make changes and click **Save** to save your changes or **Cancel** to cancel your changes.
+1. Select a preset, then tap **Edit**.
+1. On the **Edit Image Presets** page, make the changes you want, then tap **Save**.
 
 ## Publishing Image Presets {#publishing-image-presets}
 
 If you are running Dynamic Media - Hybrid mode, you must manually publish image presets.
 
-(If you are running Dynamic Media - Scene7 mode, image presets are automatically published for you; you do not need to complete these steps.)
+If you are running Dynamic Media - Scene7 mode, image presets are automatically published for you; you do not need to complete these steps.
 
-To manually publish image presets in Dynamic Media - Hybrid mode:
+To publish image presets in Dynamic Media - Hybrid mode:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
-1. Select the image preset or multiple image presets from the list of image presets and click or tap **Publish**.
+1. In AEM, tap the AEM logo to access the global navigation console.
+1. Tap the Tools icon, then navigate to **Assets** &gt; **Image Presets**.
+1. Select the image preset or multiple image presets from the list of image presets, then tap **Publish**.
 1. After the image preset is published, the status changes from unpublished to published.
 
    ![](assets/chlimage_1-505.png)
@@ -497,6 +500,7 @@ To manually publish image presets in Dynamic Media - Hybrid mode:
 
 To delete image presets:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
-1. Select a preset, and then click **Delete**. Dynamic Media confirms that you want to delete it. Click **Delete** to delete or click **Cancel** to abort.
+1. In AEM, tap the AEM logo to access the global navigation console.
+1. Tap the Tools icon, then navigate to **Assets** &gt; **Image Presets**.
+1. Select a preset, then tap **Delete**. Dynamic Media confirms that you want to delete it. Tap **Delete**.
 

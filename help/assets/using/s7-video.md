@@ -74,7 +74,7 @@ To configure universal presets:
 
    >[!NOTE]
    >
-   >The **Video** tab does not appear if the page does not have a cloud configuration. See [Enabling Scene7 for WCM](#enablingscene7forwcm).
+   >The **Video** tab does not appear if the page does not have a cloud configuration.
 
 1. Select the adaptive video encoding profile, an out-of-the-box single video encoding profile, or a custom video encoding profile.
 
