@@ -54,7 +54,7 @@ Detailed instructions are described in this document.
 
    >[!NOTE]
    >
-   >[Email samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
+   >[Email samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md). Please download sample Geometrixx content from Package Share.
 
    ![](assets/chlimage_1-15.png)
 

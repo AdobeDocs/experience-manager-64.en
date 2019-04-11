@@ -72,7 +72,7 @@ Depending on the configuration of your instance, use of `/content` might be opti
  /...
 ```
 
-This structure can be viewed From the **Sites** console, where you can [navigate through the pages of your website](../../../sites/authoring/using/basic-handling.md#navigating) and perform actions on the pages. You can also create new sites and [new pages](#creating-a-new-page).
+This structure can be viewed From the **Sites** console, where you can [navigate through the pages of your website](../../../sites/authoring/using/basic-handling.md#product-navigation) and perform actions on the pages. You can also create new sites and [new pages](#creating-a-new-page).
 
 From any point, you can see the upward branch from breadcrumbs in the header bar:
 
@@ -175,7 +175,7 @@ Components are the elements provided by AEM so that you can add specific types o
 * Video
 * And many more
 
-Once you have created and opened a page you can [add content using the components](../../../sites/authoring/using/editing-content.md#insertinganewparagraph), which are available from the [component browser](../../../sites/authoring/using/author-environment-tools.md#componentbrowser).
+Once you have created and opened a page you can [add content using the components](../../../sites/authoring/using/editing-content.md#inserting-a-component), which are available from the [component browser](../../../sites/authoring/using/author-environment-tools.md#components-browser).
 
 >[!NOTE]
 >
@@ -253,13 +253,13 @@ After creating a page, or navigating to an existing page (in the console), you c
 1. Select your page by using either:
 
     * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [Selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode) and the toolbar
+    * [Selection mode](../../../sites/authoring/using/basic-handling.md#product-navigation) and the toolbar
 
    And then select the **Edit** icon:
 
    ![](assets/screen_shot_2018-03-22at105355.png)
 
-1. The page will be opened and you can [edit the page](../../../sites/authoring/using/editing-content.md#touchoptimizedui) as required.
+1. The page will be opened and you can [edit the page](../../../sites/authoring/using/editing-content.md) as required.
 
 >[!NOTE]
 >
@@ -273,7 +273,7 @@ You can copy a page and all of its subpages to a new location:
 1. Select your page using either:
 
     * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [Selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode) and the toolbar
+    * [Selection mode](../../../sites/authoring/using/basic-handling.md#product-navigation) and the toolbar
 
    And then the **Copy** page icon:
 
@@ -316,7 +316,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 1. Select your page using either:
 
     * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [Selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode) and the toolbar
+    * [Selection mode](../../../sites/authoring/using/basic-handling.md#product-navigation) and the toolbar
 
    And then select the **Move** page icon:
 

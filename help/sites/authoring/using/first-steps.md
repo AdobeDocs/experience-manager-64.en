@@ -58,7 +58,7 @@ Whether your instance already has existing pages or you have just created a new 
 
 ### Publishing a Page {#publishing-a-page}
 
-Once you have finished editing your page you will want to [publish (or activate) your page](../../../sites/authoring/using/publishing-pages.md#main-pars-title-10) so that it is available to visitors to your website.
+Once you have finished editing your page you will want to [publish (or activate) your page](../../../sites/authoring/using/publishing-pages.md) so that it is available to visitors to your website.
 
 ## Further Actions {#further-actions}
 
@@ -74,7 +74,7 @@ It is sometimes easier to [copy a page](../../../sites/authoring/using/managing-
 
 ### Unpublishing a Page {#unpublishing-a-page}
 
-To make previously published (or activated) content unavailable on your public website, you [unpublish (or deactivate) the page](../../../sites/authoring/using/publishing-pages.md#main-pars-title-5).
+To make previously published (or activated) content unavailable on your public website, you [unpublish (or deactivate) the page](../../../sites/authoring/using/publishing-pages.md).
 
 ### Deleting a Page {#deleting-a-page}
 

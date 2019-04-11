@@ -50,7 +50,7 @@ Activities are displayed with a label describing what kind of activity is define
 >
 >You must secure the activity settings node **cq:ActivitySettings** on the publish instance so that it is inaccessible to normal users. The activity settings node should only be accessible to the service handling the activity synchronization to Adobe Target.
 >
->See [Prerequisites for Integrating with Adobe Target](../../../sites/administering/using/target-requirements.md#securingtheactivitysettings) for detailed information.
+>See [Prerequisites for Integrating with Adobe Target](../../../sites/administering/using/target-requirements.md) for detailed information.
 
 ## Creating a Brand Using the Activities Console {#creating-a-brand-using-the-activities-console}
 

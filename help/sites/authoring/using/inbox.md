@@ -52,7 +52,7 @@ From any of the consoles the current number of items in your inbox is shown in t
 
 >[!NOTE]
 >
->Certain actions will also be shown in the [card view of the appropriate resource](../../../sites/authoring/using/basic-handling.md#resourceoverviewcardview).
+>Certain actions will also be shown in the [card view of the appropriate resource](../../../sites/authoring/using/basic-handling.md#card-view).
 
 ## Out-of-the-Box Administrative Tasks  {#out-of-the-box-administrative-tasks}
 

@@ -46,13 +46,13 @@ There are various locations where you can define which UI is to be used:
 
 ## Configuring the Default UI for Your Instance {#configuring-the-default-ui-for-your-instance}
 
-A system administrator can configure the UI that is seen at startup and login by using [Root Mapping](../../../sites/deploying/using/osgi-configuration-settings.md#daycqrootmapping).
+A system administrator can configure the UI that is seen at startup and login by using [Root Mapping](../../../sites/deploying/using/osgi-configuration-settings.md).
 
 This can be overridden by user defaults or session settings.
 
 ## Setting Classic UI Authoring for Your Account {#setting-classic-ui-authoring-for-your-account}
 
-Each user can access his/her [user preferences](../../../sites/authoring/using/user-properties.md#userpreferences) to define if he/she wishes to use the classic UI for page authoring (instead of the default UI).
+Each user can access his/her [user preferences](../../../sites/authoring/using/user-properties.md) to define if he/she wishes to use the classic UI for page authoring (instead of the default UI).
 
 This can be overridden by session settings.
 
@@ -124,7 +124,7 @@ The settings defined by a user or system administrator can be overriden by the s
 
 >[!NOTE]
 >
->If [a user has already defined a preference for page authoring](#settingthedefaultauthoringuiforyouraccount), that will not be overridden by changing the OSGi property.
+>If [a user has already defined a preference for page authoring](#setting-classic-ui-authoring-for-your-account), that will not be overridden by changing the OSGi property.
 
 >[!CAUTION]
 >

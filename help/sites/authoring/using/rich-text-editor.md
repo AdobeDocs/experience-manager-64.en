@@ -25,7 +25,7 @@ The Rich Text Editor (RTE) is a basic building block for inserting textual conte
 
 ## In-Place Editing {#in-place-editing}
 
-Selecting a text-based component with a single tap or click will reveal the [component toolbar](../../../sites/authoring/using/editing-content.md#editmovecopypastedeletetouchoptimizedui) as with any component.
+Selecting a text-based component with a single tap or click will reveal the [component toolbar](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) as with any component.
 
 ![](assets/screen_shot_2018-03-21at163054.png)
 
@@ -50,7 +50,7 @@ This toolbar provides the following options:
 
 ## Full-Screen Editing {#full-screen-editing}
 
-For text-based components, selecting the full screen mode from the [toolbar](#componenttoolbar) will open the rich text editor and hide the rest of the page content.
+For text-based components, selecting the full screen mode from the toolbar will open the rich text editor and hide the rest of the page content.
 
 ![](do-not-localize/screen_shot_2018-03-21at163236.png)
 

@@ -178,7 +178,7 @@ The photo shoot workflow includes several tasks. Each task is assigned to a user
 
 The **Create Shot List **task enables the project owner to select products for which images are required. Based on the option selected by the user, a CSV file is generated that contains basic product information.
 
-1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracktheprogress) to view the task item in the workflow.
+1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracking-project-progress) to view the task item in the workflow.
 
    ![](assets/chlimage_1-143.png)
 
@@ -397,7 +397,7 @@ You can customize the Project Photo Shoot workflows based on requirements. This 
 
    >[!NOTE]
    >
-   >For details around scripting in workflow steps, see [Defining a Rule for an OR Split](../../../sites/developing/using/workflows-models.md#definingaruleforanorsplit).
+   >For details around scripting in workflow steps, see [Defining a Rule for an OR Split](../../../sites/developing/using/workflows-models.md).
 
    ![](assets/chlimage_1-166.png)
 
