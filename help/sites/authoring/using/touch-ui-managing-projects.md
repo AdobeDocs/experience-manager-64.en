@@ -42,7 +42,7 @@ Out of the box, AEM provides these templates to choose from when you create a pr
 * Product Photo Shoot Project
 * Translation Project
 
-The procedure of creating a project is the same from project to project. The difference between the types of projects includes available [user roles](../../../sites/authoring/using/projects.md#userroles) and [workflows](../../../sites/authoring/using/projects-with-workflows.md).  To create a new project:
+The procedure of creating a project is the same from project to project. The difference between the types of projects includes available [user roles](../../../sites/authoring/using/projects.md) and [workflows](../../../sites/authoring/using/projects-with-workflows.md).  To create a new project:
 
 1. In **Projects**, tap/click **Create** to open the **Create Project** wizard:
 1. Select a template. Out of the box, Simple Project, Media Project, [Translation Project](../../../sites/administering/using/tc-manage.md), and [Product Photo Shoot Product](../../../sites/authoring/using/managing-product-information.md) are available and click **Next**. 
@@ -150,7 +150,7 @@ To make a project inactive (or active):
 
    >[!NOTE]
    >
-   >You may need to add this tile if it is not already in your project. See [Adding Tiles](#addingtiles).
+   >You may need to add this tile if it is not already in your project. See [Adding Tiles](#adding-items-to-a-tile).
 
 1. Tap/click **Edit**.
 1. Change the selector from **Active** to **Inactive** (or vice versa).

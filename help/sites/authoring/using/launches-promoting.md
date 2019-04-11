@@ -97,7 +97,7 @@ After creating a nested launch you can promote it back to any of the sources, in
 
 ![](assets/chlimage_1-3.png)
 
-1. As with [Creating a Nested Launch](/sites/authoring/using/launches-creating.md#creating-a-nested-launch), navigate to and select the required launch in either the **Launches** console or the **References** rail.
+1. As with [Creating a Nested Launch](../../../sites/authoring/using/launches-creating.md#creating-a-nested-launch), navigate to and select the required launch in either the **Launches** console or the **References** rail.
 1. Select **Promote launch** to open the wizard.  
 
 1. Enter the required details:

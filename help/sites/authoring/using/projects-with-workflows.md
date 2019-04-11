@@ -67,7 +67,7 @@ This workflow lets you request a manuscript from a user and then approve it. To 
 
 ## Product Photo Shoot workflow {#product-photo-shoot-workflow}
 
-The Product Photo Shoot workflows (both commerce and without commerce) are covered in detail in [Creative Project](../../../sites/authoring/using/managing-product-information.md#productphotoshootprojectworkflows).
+The Product Photo Shoot workflows (both commerce and without commerce) are covered in detail in [Creative Project](../../../sites/authoring/using/managing-product-information.md).
 
 ## Project Approval workflow {#project-approval-workflow}
 
