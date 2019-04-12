@@ -65,7 +65,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
    ![Paragraph toolbar](assets/fonteditingtoolbar.png)
 
    Paragraph toolbar
-   [ ![Alignment toolbar](assets/paragrapheditingtoolbar.png)](assets/paragrapheditingtoolbar-1.png)Alignment toolbar
+  ![Alignment toolbar](assets/paragrapheditingtoolbar.png)Alignment toolbar
 
    ![Listing toolbar](assets/bulleteditingtoolbar.png)
 

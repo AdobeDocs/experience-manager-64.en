@@ -197,7 +197,7 @@ This example shows how you can create a dynamic and a static table, bind the dyn
 1. Create a layout fragment based on the static XDP. The Table tab of the properties displays that the table is static (Configuration For field). The number of rows (1) and columns (3) are derived from the XDP/Layout Fragment.
 
    You can change the number of columns and rows here. According to what you choose in this screen, the number of rows and columns of a static table remain fixed in the letter that is created with this layout.
-   [ ![Create a layout fragment screen](assets/statictableproperties.png)](assets/statictableproperties-1.png)
+   ![Create a layout fragment screen](assets/statictableproperties.png)
 
 1. Create a letter using both the layout fragments in it. When you insert the dynamic XDP in the letter, set the binding of its fields to the Data Dictionary's collection elements.
 

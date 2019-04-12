@@ -20,7 +20,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 AEM Forms combine form authoring, management, and publishing along with correspondence management capabilities, document security, and integrated analytics to create engaging end-to-end experiences. Designed to work across web and mobile channels, AEM Forms can be efficiently integrated into your business processes, reducing paper processes and errors while improving efficiency.
 
-AEM Forms leverages and extends the capabilities of your existing investments in XFA forms and Adobe LiveCycle solution. For details, see [AEM Forms - securing and extending your existing forms ecosystem](/forms/using/aem-forms-complement-xfa-livecycle-processes.md).
+AEM Forms leverages and extends the capabilities of your existing investments in XFA forms and Adobe LiveCycle solution.
 
 In large enterprises, forms are often created once and reused by copying to a content management system. Keeping a large database of forms up-to-date and making them discoverable can be a considerable challenge. AEM provides a customizable Forms Portal that ensures that customers find and access forms they need across both web and mobile channels.
 

@@ -72,7 +72,7 @@ AEM Forms provides many components to display information on an adaptive form. H
 
 ## Step 3: Add components to capture and display information {#step-add-components-to-capture-and-display-information}
 
-Components are building blocks of an adaptive form. AEM Forms provides many components to capture and display information in an adaptive form. You can drag the components from ![](assets/treeexpandall.png) to a form. To learn about available components and corresponding functionality, see [Introduction to authoring adaptive forms](/forms/using/installing-configuring-aem-forms-osgi/introduction-forms-authoring.md).
+Components are building blocks of an adaptive form. AEM Forms provides many components to capture and display information in an adaptive form. You can drag the components from ![](assets/treeexpandall.png) to a form. To learn about available components and corresponding functionality, see [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md).
 
 1. Drag the Numeric Box component to the adaptive form. Place it before the footer component. Open properties of the component, change **Title **of the component to **`Customer ID`**, change **Element Name** to** `customer_ID`**, enable the **Required Field** option, enable the **Use HTML5 Number Input Type** option, and tap ![](assets/aem_6_3_forms_save.png).
 1. Drag three Text Box components to the adaptive form. Place these before the footer component. Set the following properties for these text boxes.:

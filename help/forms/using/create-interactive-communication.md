@@ -79,7 +79,7 @@ For more information on the Interactive Communication authoring interface, see [
 
    | **Component** |**Functionality** |
    |---|---|
-   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from an form data model collection. For more information, see [Using charts in Interactive Communications](/forms/using/chart-component.md). |
+   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from an form data model collection. For more information, see [Using charts in Interactive Communications](../../forms/using/chart-component-interactive-communications.md). |
    | Document Fragment |Allows you to add a reusable component, such as text, list, or condition, to an Interactive Communication. The added component could be either form data model-based or without a form data model. |
    | Image |Allows you to insert an image. |
 
