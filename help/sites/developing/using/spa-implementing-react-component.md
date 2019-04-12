@@ -117,12 +117,3 @@ Although a back-end component must already exist, the front-end developer can le
 ## Next Step {#next-step}
 
 For further information about developing SPAs for AEM see the article [Developing SPAs for AEM](../../../sites/developing/using/spa-architecture.md).
-
->[!MORE_LIKE_THIS]
->
->* [Using the SPA Editor framework with AEM Sites](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-framework-feature-video-use.html)
->* [Overview of Single Page Applications (SPA)](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-overview-feature-video.html)
->* [Getting Started with the AEM SPA Editor - Hello World Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-helloworld-tutorial-use.html)
->* [Understanding SPA components in AEM SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-components-technical-video-understand.html)
->* DO NOT PUBLISH(https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.html)
->* [Template DO NOT PUBLISH](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/template.html)

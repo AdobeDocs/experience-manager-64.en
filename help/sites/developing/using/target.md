@@ -203,7 +203,7 @@ For example, if you want to use the [Marketing Cloud ID service](https://marketi
 1. For the Custom mbox.js property, click Browse and select the file.
 1. To apply the changes, enter the password for your Adobe Target account, click Re-connect To Target, and click OK when the connection is successful. Then, click OK on the Edit Component dialog box.
 
-Your Target configuration includes a custom mbox.js file, [the required code in the head section](../../../sites/developing/using/target.md#p-the-head-section-p) of your page adds the file to the client library framework instead of a reference to the testandtarget.js library.
+Your Target configuration includes a custom mbox.js file, [the required code in the head section](../../../sites/developing/using/target.md#the-head-section) of your page adds the file to the client library framework instead of a reference to the testandtarget.js library.
 
 ## Disabling the Target Command for Components {#disabling-the-target-command-for-components}
 

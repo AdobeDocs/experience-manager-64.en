@@ -32,11 +32,11 @@ This supports the headless Content Management System (CMS) use-case, where autho
 
 ## Where to Create Experience Fragments in We.Retail {#where-to-create-experience-fragments-in-we-retail}
 
-Select **Experience Fragments** from the Global Navigation. Here you configure, [create](../../../sites/authoring/using/experience-fragments.md#creating-an-experience-fragment) and [author](../../../sites/authoring/using/experience-fragments.md#authoringyourexperiencefragment) your Experience Fragments, and any related [variations](../../../sites/authoring/using/experience-fragments.md#creatingexperiencefragmentsvariants).
+Select **Experience Fragments** from the Global Navigation. Here you configure, [create](../../../sites/authoring/using/experience-fragments.md#creating-an-experience-fragment) and [edit](../../../sites/authoring/using/experience-fragments.md#editing-your-experience-fragment) your Experience Fragments, and any related [variations](../../../sites/authoring/using/experience-fragments.md#creating-an-experience-fragment-variation).
 
 ## Where to Use Experience Fragments in We.Retail {#where-to-use-experience-fragments-in-we-retail}
 
-You can use your [Experience Fragments](../../../sites/authoring/using/experience-fragments.md#usingyizrexperiencefragments) (as with any other component) on [any page](../../../sites/authoring/using/editing-content.md) under **Sites** in the Global Navigation.
+You can use your [Experience Fragments](../../../sites/authoring/using/experience-fragments.md#using-your-experience-fragment) (as with any other component) on [any page](../../../sites/authoring/using/editing-content.md) under **Sites** in the Global Navigation.
 
 ## Further Information {#further-information}
 

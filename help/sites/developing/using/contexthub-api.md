@@ -1056,7 +1056,7 @@ ContextHub.Utils.JSON.tree.sanitizeKey(key)
 
 #### setItem(tree, key, value) {#setitem-tree-key-value}
 
-Adds a key/value pair to the data tree of a copy of an object. For information about data trees, see [Store Data](../../../sites/developing/using/contexthub.md#main-pars-title-11).
+Adds a key/value pair to the data tree of a copy of an object. For information about data trees, see [Persistence](../../../sites/developing/using/contexthub.md#persistence).
 
 **Parameters**
 

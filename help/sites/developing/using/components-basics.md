@@ -31,10 +31,10 @@ Before starting to actually configure/code your component you should ask:
     * A clear specification helps at all stages of development, testing and handover.  
       Details may change over time, but the specification can be updated (though changes should be documented too).
 
-* Do you need to create your component from scratch, or can you [inherit the basics from an existing component](#extendingexistingcomponentsanddialogs)?
+* Do you need to create your component from scratch, or can you inherit the basics from an existing component?
 
     * There is no need to reinvent the wheel.
-    * There are several mechanisms provided by AEM to allow you to inherit and extend details from another component definition including override, overlay and the [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md).
+    * There are several mechanisms provided by AEM to allow you to inherit and extend details from another component definition including override, overlay, and the [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md).
 
 * Will your component require logic to select/manipulate the content?
 
@@ -100,7 +100,7 @@ The components that render content must be deployed on the same AEM instance as 
 Use the following tools to move your components to the publish instance:
 
 * [Use Package Manager](../../../sites/administering/using/package-manager.md) to add your components to a package and move them to another AEM instance.
-* [Use the Activate Tree replication tool](../../../sites/authoring/using/publishing-pages.md#howtoactivateacompletesectiontreeofyourwebsite) to replicate the components.
+* [Use the Activate Tree replication tool](../../../sites/authoring/using/publishing-pages.md#manage-publication) to replicate the components.
 
 >[!NOTE]
 >

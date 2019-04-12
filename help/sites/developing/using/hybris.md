@@ -57,7 +57,7 @@ The eCommerce framework can be used with any eCommerce solution, the engine bein
 
     * For example, a `cq:commerceProvider` property with the value `hybris` will correlate to the OSGi configuration for **Day CQ Commerce Factory for Hybris** (com.adobe.cq.commerce.hybris.impl.HybrisServiceFactory) - where the parameter `commerceProvider` also has the value `hybris`.  
     
-    * Here further properties, such as [**Catalog version** can be configured](#configuringthecatalogversion) (when appropriate and available).
+    * Here further properties, such as **Catalog version** can be configured (when appropriate and available).
 
 See the following examples below:
 

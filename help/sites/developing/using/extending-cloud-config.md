@@ -25,8 +25,8 @@ The principles used in developing the configurations have been based on the foll
 * Configurations (e.g. properties/paragraphs) are inherited from the parent(s).
 * Referenced from analytics node(s) by path.
 * Easily extensible.
-* Has the flexibility to cater for more complex configurations, such as [SiteCatalyst](../../../sites/administering/using/marketing-cloud.md#integratingwithsitecatalyst).
-* Support for dependencies (e.g. [SiteCatalyst](../../../sites/administering/using/marketing-cloud.md#integratingwithsitecatalyst) plugins need a [SiteCatalyst](../../../sites/administering/using/marketing-cloud.md#integratingwithsitecatalyst) configuration).
+* Has the flexibility to cater for more complex configurations, such as [Adobe Analytics](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics).
+* Support for dependencies (e.g. [Adobe Analytics](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics) plugins need a [Adobe Analytics](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics) configuration).
 
 ## Structure {#structure}
 
@@ -213,8 +213,8 @@ The property will then be automatically encrypted (using the `CryptoSupport` ser
 These services are provided by default:
 
 * [Tracker Snippets](../../../sites/administering/using/external-providers.md) (Google, WebTrends etc.)
-* [SiteCatalyst](../../../sites/administering/using/marketing-cloud.md#integratingwithsitecatalyst)
-* [Test&Target](../../../sites/administering/using/marketing-cloud.md#integratingwithtesttarget)
+* [Adobe Analytics](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics)
+* [Test&Target](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-target)
 * [Search&Promote](../../../sites/administering/using/marketing-cloud.md#integrating-with-search-promote)
 * [Scene7](../../../sites/administering/using/marketing-cloud.md#integrating-with-scene)
 

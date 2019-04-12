@@ -273,12 +273,3 @@ Now that you understand the SPA editing experience in AEM and how a SPA relates 
 * [Getting Started with SPAs in AEM](../../../sites/developing/using/spa-getting-started-react.md) shows how a basic SPA is built to work with the SPA Editor in AEM
 * [SPA Editor Overview](../../../sites/developing/using/spa-overview.md) goes into more depth into the communication model between AEM and the SPA.
 * [Developing SPAs for AEM](../../../sites/developing/using/spa-architecture.md) describes how to engage front-end developers to develop a SPA for AEM as well as how SPAs interact with AEM's architecture.
-
->[!MORE_LIKE_THIS]
->
->* [Using the SPA Editor framework with AEM Sites](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-framework-feature-video-use.html)
->* [Overview of Single Page Applications (SPA)](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-overview-feature-video.html)
->* [Getting Started with the AEM SPA Editor - Hello World Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-helloworld-tutorial-use.html)
->* [Understanding SPA components in AEM SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-components-technical-video-understand.html)
->* DO NOT PUBLISH(https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.html)
->* [Template DO NOT PUBLISH](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/template.html)

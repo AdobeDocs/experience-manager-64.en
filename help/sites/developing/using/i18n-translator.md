@@ -90,7 +90,7 @@ Create a dictionary for managing your localized UI strings. After you create a d
 
    >
    >
-   >Make sure that these [correspond to the languages shown in the grid](#changinglanguageslistedinthegrid).
+   >Make sure that these correspond to the languages shown in the grid.
 
 ## Managing Dictionary Strings {#managing-dictionary-strings}
 
@@ -197,7 +197,7 @@ The search bar at the bottom of the Translator tool provides string selection op
 
 After you add the English string to a dictionary, you can add translations of the string. You can also [export the dictionary](../../../sites/developing/using/i18n-translator.md#exporting-a-dictionary) to have it translated by a third party.
 
-1. Select [your project specific dictionary](#creatinganewdictionary) as it specifies the path in the repository holding the translations. For example, select **Dictionaries** as:
+1. Select [your project specific dictionary](#creating-a-dictionary) as it specifies the path in the repository holding the translations. For example, select **Dictionaries** as:
 
    `/apps/myProject/i18n`
 
@@ -309,7 +309,7 @@ Use the following procedure to add or remove languages.
 
    >
    >
-   >The translator will only save translations for languages that are actually [present in the dictionary](#creatinganewdictionary) (i.e. underneath the dictionary path such as `/apps/myProject/i18n`).  
+   >The translator will only save translations for languages that are actually [present in the dictionary](#creating-a-dictionary) (i.e. underneath the dictionary path such as `/apps/myProject/i18n`).  
 
    >
    >

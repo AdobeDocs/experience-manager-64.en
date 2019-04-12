@@ -445,7 +445,7 @@ Below dependencies need to be added to the `content` modules's POM.
 
 >[!NOTE]
 >
->Unless you are importing the product dependencies as described in [Importing AEM Product Dependencies](#importingaemproductdependencies) above, they also need to be added to the parent POM along with the version matching your AEM setup as described in [Adding Dependencies](#addingdependencies) above. The comments in each entry below show the package to search for in the Dependency Finder.
+>Unless you are importing the product dependencies as described above, they also need to be added to the parent POM along with the version matching your AEM setup as described above. The comments in each entry below show the package to search for in the Dependency Finder.
 
 >[!NOTE]
 >

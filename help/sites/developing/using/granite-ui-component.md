@@ -45,7 +45,7 @@ The generic Granite UI component `field` is composed of two files of interest:
 * `init.jsp`: handles the generic processing; labelling, description, and provides form value you will need when rendering your field.
 * `render.jsp`: this is where the actual rendering of the field is performed and needs to be overridden for your custom field; is included by `init.jsp`.
 
-Please refer to the [Granite UI documentation - Field](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/field/index.html) if you want more details.
+Please refer to the [Granite UI documentation - Field](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/field/index.html) if you want more details.
 
 For examples, see:
 

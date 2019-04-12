@@ -176,9 +176,9 @@ To develop new components for AEM based on existing component you can copy the c
    >
    >    
    >    
-   >    * Touch-enabled UI uses [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) components  
+   >    * Touch-enabled UI uses [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.html) components  
    >    
-   >    * Classic UI uses [ExtJS widgets](/sites/developing/using/reference-materials/widgets-api/index.md)
+   >    * Classic UI uses [ExtJS widgets](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html)
    >    
    >
 

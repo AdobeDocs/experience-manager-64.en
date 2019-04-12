@@ -321,7 +321,7 @@ This is something to keep in mind if you plan to use this step as part of a work
 When upgrading your instance:
 
 * make sure that any custom workflow models are backed up before an instance is upgraded.
-* confirm that none of your custom workflows are stored under the [location](#location):
+* confirm that none of your custom workflows are stored under the [location](#locations):
 
     * `/libs/settings/workflow/models/projects`
 

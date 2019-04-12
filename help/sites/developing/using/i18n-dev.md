@@ -111,7 +111,7 @@ The `I18N` class defines a static `get` method that is useful when you need to l
 
 ### Internationalizing Strings in Javascript Code {#internationalizing-strings-in-javascript-code}
 
-The Javascript API enables you to localize strings on the client. As with [Java and JSP](../../../sites/developing/using/i18n.md#main-pars-title-0) code, the Javascript API enables you to identify strings to localize, priovide localization hints, and include variables in the localized strings.
+The Javascript API enables you to localize strings on the client. As with [Java and JSP](#internationalizing-strings-in-java-and-jsp-code) code, the Javascript API enables you to identify strings to localize, provide localization hints, and include variables in the localized strings.
 
 The `granite.utils` [client library folder](../../../sites/developing/using/clientlibs.md) provides the Javascript API. To use the API, include this client library folder on your page. Localization functions use the `Granite.I18n` namespace.
 
@@ -160,7 +160,7 @@ The following example JSP script retrieves the `jcr:title` property from the rep
 
 #### Specifying Translation Hints for JCR Nodes {#specifying-translation-hints-for-jcr-nodes}
 
-Similar to [translation hints in the Java API](../../../sites/developing/using/i18n.md#main-pars-title-12), you can provide translation hints to distinguish duplicate strings in the dictionary. Provide the translation hint as a property of the node that contains the internationalized property. The name of the hint property is comprised of the name of the internationalized property name with the `_commentI18n` suffix:
+Similar to [translation hints in the Java API](#using-translation-hints), you can provide translation hints to distinguish duplicate strings in the dictionary. Provide the translation hint as a property of the node that contains the internationalized property. The name of the hint property is comprised of the name of the internationalized property name with the `_commentI18n` suffix:
 
 `${prop}_commentI18n`
 

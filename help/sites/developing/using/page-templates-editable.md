@@ -367,7 +367,7 @@ When creating a new template you need to specify a template type:
 
     * The resource type of the page component.
     * The policy of the root node, which defines the components allowed in the template editor.
-    * It is recommended to define the breakpoints for the responsive grid and setup of the mobile emulator at on the template type. This is optional, because the configuration could also be defined on the individual template (see [Template Type and Mobile Device Groups](../../../sites/developing/using/page-templates-editable.md#p-template-type-and-mobile-device-groups-br-p)).
+    * It is recommended to define the breakpoints for the responsive grid and setup of the mobile emulator at on the template type. This is optional, because the configuration could also be defined on the individual template (see [Template Type and Mobile Device Groups](../../../sites/developing/using/page-templates-editable.md#template-type-and-mobile-device-groups)).
 
 * AEM provides a small selection of out-of-the-box template types such as HTML5 Page and Adaptive Form Page.
 
@@ -397,7 +397,7 @@ Definitions for your customized templates types should be stored in user-defined
 >
 >The template types have to respect the correct folder structure (i.e. `/settings/wcm/...`), otherwise the template types will not be found.
 
-### Template Type and Mobile Device Groups <br> {#template-type-and-mobile-device-groups-br}
+### Template Type and Mobile Device Groups {#template-type-and-mobile-device-groups}
 
 The [device groups](../../../sites/developing/using/mobile.md#device-groups) used for an editable template (set as relative path of the property `cq:deviceGroups`) define which mobile devices are available as emulators in the [layout mode](../../../sites/authoring/using/responsive-layout.md) of page authoring. This value can be set in two places:
 
@@ -562,7 +562,7 @@ Page policies allow you to define the [content policy](#content-policies) for th
 
    Before a template can be used it must be enabled by either:
 
-    * [Enabling the template](../../../sites/authoring/using/templates.md#enablingatemplateauthor) from the **Templates** console.
+    * [Enabling the template](../../../sites/authoring/using/templates.md#enabling-and-allowing-a-template-template-author) from the **Templates** console.
     
     * Setting the status property on the `jcr:content` node.
 

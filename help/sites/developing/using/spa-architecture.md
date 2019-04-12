@@ -28,7 +28,7 @@ Developing single page applications on AEM assumes that the front-end developer 
 * ** [Portability](../../../sites/developing/using/spa-architecture.md#portability) -** As with any components, the components should be built to be as portable as possible. The SPA should be built with portably and reusable components, avoiding static paths that refer to the content structure.
 * ** [AEM Drives Site Structure](../../../sites/developing/using/spa-architecture.md#aem-drives-site-structure) - **The front-end developer creates components and owns their internal structure, but relies on AEM to define the content structure of the site.
 * ** [Dynamic Rendering](../../../sites/developing/using/spa-architecture.md#dynamic-rendering) -** All rendering should be dynamic.
-* ** [Dynamic Routing](/content.md#main-pars-header-1105486143) -** The SPA is responsible for the routing and AEM listens to it and fetches the component data based on it. Any routing should be dynamic as well.
+* ** [Dynamic Routing](#dynamic-routing) -** The SPA is responsible for the routing and AEM listens to it and fetches the component data based on it. Any routing should be dynamic as well.
 
 If you keep these principles in mind as you develop your SPA, it will be as flexible and as future proof as possible while enabling all supported AEM authoring functionality.
 
@@ -227,12 +227,3 @@ For a step-by-step guide to creating your own SPA, see the [Getting Started with
 For further details about the dynamic model to component mapping and how it works within SPAs in AEM, see the article [Dynamic Model to Component Mapping for SPAs](../../../sites/developing/using/spa-dynamic-model-to-component-mapping.md).
 
 If you wish to implement SPAs in AEM for a framework other than React or Angular or simply wish to take a deep dive into how the SPA SDK for AEM works, refer to the [SPA Blueprint](../../../sites/developing/using/spa-blueprint.md) article.
-
->[!MORE_LIKE_THIS]
->
->* [Using the SPA Editor framework with AEM Sites](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-framework-feature-video-use.html)
->* [Overview of Single Page Applications (SPA)](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-overview-feature-video.html)
->* [Getting Started with the AEM SPA Editor - Hello World Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-helloworld-tutorial-use.html)
->* [Understanding SPA components in AEM SPA Editor](https://helpx.adobe.com/experience-manager/kt/sites/using/spa-editor-components-technical-video-understand.html)
->* DO NOT PUBLISH(https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup.html)
->* [Template DO NOT PUBLISH](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/template.html)

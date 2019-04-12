@@ -126,7 +126,7 @@ Dialogs are used to allow author to interact with the component. Using a dialog 
 
 [Coral UI](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) and [Granite UI](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html) define the modern look and feel of AEM.
 
-[Granite UI provides a large range of the basic components (widgets)](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html) needed to create your dialog on the authoring environment. When necessary you can extend this selection and [create your own widget](#creatinganewwidget).
+[Granite UI provides a large range of the basic components (widgets)](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html) needed to create your dialog on the authoring environment. When necessary you can extend this selection and create your own widget.
 
 For more information on developing components using Coral and Granite resource types see: [Building Experience Manager components using Coral/Granite resource types](https://helpx.adobe.com/experience-manager/using/aem64_coral_resourcetypes.html).
 
@@ -136,7 +136,7 @@ For full details see:
 
     * Provides a consistent UI across all cloud solutions  
     * [Concepts of the AEM Touch-Enabled UI - Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui)
-    * [Coral UI Guide](/sites/developing/using/reference-materials/coral-ui/coralui3/index.md)
+    * [Coral UI Guide](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html)
 
 * Granite UI
 
@@ -211,7 +211,7 @@ If you consider your dialog as a simple container for a form element, then you c
 
 `/libs/granite/ui/components/coral/foundation/form/field`
 
-More specifically Granite UI provides a range of field components that are suitable for use in dialogs (or, more generally speaking, in [forms](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/index.html)).
+More specifically Granite UI provides a range of field components that are suitable for use in dialogs (or, more generally speaking, in [forms](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/index.html)).
 
 >[!NOTE]
 >
@@ -254,7 +254,7 @@ You can also use render conditions ( `rendercondition`) to control who has acces
 
 ### Handling Field Events {#handling-field-events}
 
-The method of handling events on dialog fields is now done with [listeners in a custom client library](#listeners-in-a-custom-client-library). This is a change from the older method of having [listeners in the content structure](#listenersinthecontentstructureclassicui).
+The method of handling events on dialog fields is now done with [listeners in a custom client library](#listeners-in-a-custom-client-library). This is a change from the older method of having [listeners in the content structure](#listeners-in-the-content-structure).
 
 #### Listeners in a Custom Client Library {#listeners-in-a-custom-client-library}
 
@@ -352,7 +352,7 @@ This can be done by either:
 
 ## Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance {#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance}
 
-AEM offers the possibility to configure a paragraph system on your page so that [an instance of your new component is automatically created when a user drags an (appropriate) asset onto an instance of that page](../../../sites/authoring/using/editing-content.md#insertingacomponenttouchoptimizedui) (instead of always having to drag an empty component to the page).
+AEM offers the possibility to configure a paragraph system on your page so that [an instance of your new component is automatically created when a user drags an (appropriate) asset onto an instance of that page](../../../sites/authoring/using/editing-content.md) (instead of always having to drag an empty component to the page).
 
 This behavior, and the required asset-to-component relationship can be configured:
 

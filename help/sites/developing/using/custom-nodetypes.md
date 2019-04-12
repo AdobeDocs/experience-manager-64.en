@@ -15,7 +15,7 @@ discoiquuid: aae186eb-e059-4a9d-b02d-86a86c86589d
 
 As CQ is based on Sling and uses a JCR repository, node types offered by both of these are available for use:
 
-* [JCR Node Types](https://www.day.com/specs/jcr/2.0/3_Repository_Model.html#NodeTypes)
+* [JCR Node Types](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/3_Repository_Model.html#3.1.7%20Node%20Types)
 * [Sling Node Types](https://cwiki.apache.org/confluence/display/SLING/Sling+Node+Types)
 
 In addition to these. CQ provides a range of custom node types.

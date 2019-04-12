@@ -91,11 +91,11 @@ The generated HTML page contains the following code:
 <script type="text/javascript" src="/etc/clientlibs/foundation/jquery.js"></script>
 ```
 
-For complete information, including attributes for filtering JS, CSS, or theme libraries, see [ui:includeClientLib](../../../sites/developing/using/taglib.md#lt-ui-includeclientlib).
+For complete information, including attributes for filtering JS, CSS, or theme libraries, see [ui:includeClientLib](../../../sites/developing/using/taglib.md#amp-lt-ui-includeclientlib).
 
 >[!CAUTION]
 >
->`<cq:includeClientLib>`, which in the past was commonly used to include client libraries, has been deprecated since AEM 5.6. [ `<ui:includeClientLib>`](../../../sites/developing/using/taglib.md#lt-ui-includeclientlib) should be used instead as detailed above.
+>`<cq:includeClientLib>`, which in the past was commonly used to include client libraries, has been deprecated since AEM 5.6. [ `<ui:includeClientLib>`](../../../sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) should be used instead as detailed above.
 
 ## Creating Client Library Folders {#creating-client-library-folders}
 
@@ -455,4 +455,4 @@ The HTML Library Manager service processes `cq:ClientLibraryFolder` tags and gen
 * Improve performance: Remove whitespace and compress libraries. 
 * Improve readability: Include whitespace and do not compress.
 
-For information about configuring the service, see [AEM HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md#aemhtmllibrarymanager).
+For information about configuring the service, see [AEM HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md).

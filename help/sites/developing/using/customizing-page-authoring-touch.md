@@ -60,7 +60,7 @@ These can be used in many ways to extend the page authoring functionality in you
 
 ## Add New Layer (Mode) {#add-new-layer-mode}
 
-When you are editing a page, there are various [modes](../../../sites/authoring/using/author-environment-tools.md#modestouchoptimizedui) available. These modes are implemented using [layers](../../../sites/developing/using/touch-ui-structure.md#layer). These allow access to differing types of functionality for the same page content. The standard layers are: edit, preview, annotate, developer, and targeting.
+When you are editing a page, there are various [modes](../../../sites/authoring/using/author-environment-tools.md#page-modes) available. These modes are implemented using [layers](../../../sites/developing/using/touch-ui-structure.md#layer). These allow access to differing types of functionality for the same page content. The standard layers are: edit, preview, annotate, developer, and targeting.
 
 ### Layer Example: Live Copy Status {#layer-example-live-copy-status}
 
@@ -89,7 +89,7 @@ The asset browser shows assets of various types/categories (e.g. image, document
 
 ### Code Sample {#code-sample-1}
 
-`aem-authoring-extension-assetfinder-flickr` is a sample package showing how to add a new group to the asset finder. This example connects to [Flickr](https://www.flickr.com/)'s public stream and shows them in the sidepanel.
+`aem-authoring-extension-assetfinder-flickr` is a sample package showing how to add a new group to the asset finder. This example connects to [Flickr](https://www.flickr.com)'s public stream and shows them in the sidepanel.
 
 CODE ON GITHUB
 

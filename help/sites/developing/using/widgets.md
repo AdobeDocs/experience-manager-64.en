@@ -95,7 +95,7 @@ To include the client library in the page component jsp:
 * to only include javascript code:  
   `<ui:includeClientLib js="<category-name>"/>`
 
-For more details refer to the description of the [&lt;ui:includeClientLib&gt;](../../../sites/developing/using/taglib.md#lt-ui-includeclientlib) tag.
+For more details refer to the description of the [&lt;ui:includeClientLib&gt;](../../../sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) tag.
 
 In some cases a client library should only be available in author mode and should be excluded in publish mode. It can be achieved as follows:
 
@@ -466,7 +466,7 @@ The custom multifield widget (xtype = `ejstcustom`):
 
 * Overrides `CQ.Ext.Component#initComponent` to add the 3 fields:
 
-    * `allowField` is a [CQ.form.Selection](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.Selection) object of type 'select'. optionsProvider is a configuration of the Selection object that is instantiated with the optionsProvider configuration of the CustomWidget defined in the dialog
+    * `allowField` is a [CQ.form.Selection](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.Selection) object of type 'select'. optionsProvider is a configuration of the Selection object that is instantiated with the optionsProvider configuration of the CustomWidget defined in the dialog
     
     * `otherField` is a [CQ.Ext.form.TextField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.form.TextField) object
 

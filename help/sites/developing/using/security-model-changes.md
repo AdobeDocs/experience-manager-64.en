@@ -179,7 +179,7 @@ With CRX 2.0, protected items are no longer checked with the regular permission-
 
 To produce the same effect before, JCR_LOCK_MANAGEMENT and JCR_VERSION_MANAGEMENT (both writing protected properties) are automatically granted in CQ if a user is granted modify properties.
 
-The JCR_MODIFY_PROPERTIES not only covers the creation of new properties and modification of existing ones but also of property removal. see [[3]](#3).
+The JCR_MODIFY_PROPERTIES not only covers the creation of new properties and modification of existing ones but also of property removal. see [3].
 
 **Note:** If a user is granted JCR_MODIFY_PROPERTIES, but not the other two privileges, the "Modify" action in the CQ page permission flag displays **false** even if the user is allowed to add/set/remove regular JCR properties.
 
