@@ -254,7 +254,7 @@ You can also use render conditions ( `rendercondition`) to control who has acces
 
 ### Handling Field Events {#handling-field-events}
 
-The method of handling events on dialog fields is now done with [listeners in a custom client library](#listeners-in-a-custom-client-library). This is a change from the older method of having [listeners in the content structure](#listenersinthecontentstructureclassicui).
+The method of handling events on dialog fields is now done with [listeners in a custom client library](#listeners-in-a-custom-client-library). This is a change from the older method of having [listeners in the content structure](#listeners-in-the-content-structure).
 
 #### Listeners in a Custom Client Library {#listeners-in-a-custom-client-library}
 
