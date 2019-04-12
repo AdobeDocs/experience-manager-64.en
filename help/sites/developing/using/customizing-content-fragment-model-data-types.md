@@ -43,7 +43,7 @@ You can add new data types by overlaying the node structure as follows under `/a
 Node properties are used to define the data types:
 
 * [Data Types Properties](#data-type-properties)
-* and within those [fieldProperties](#fieldproperties-)
+* and within those [fieldProperties](#fieldproperties)
 
 ### Data Type Properties {#data-type-properties}
 
