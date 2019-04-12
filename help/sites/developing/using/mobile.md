@@ -395,7 +395,7 @@ BrowserMap is designed in such a way that Device Groups definitions can be overr
 
 >[!NOTE]
 >
->For more details please read the [Customised BrowserMap](##using-browsermap-on-your-pages) section.
+>For more details please read the [Customised BrowserMap](#using-browsermap-on-your-pages) section.
 
 ### Defining Selector-based URLs {#defining-selector-based-urls}
 

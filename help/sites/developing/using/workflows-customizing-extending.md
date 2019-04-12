@@ -216,7 +216,7 @@ Peform the following procedure on your new component (see [Creating Custom Workf
     * Name: `cq:editConfig`
     * Type: `cq:EditConfig`
 
-   For more information about the cq:editConfig node, see [Configuring the Edit Behavior of a Component](../../../sites/developing/using/components.md#configuringtheeditbehaviourofacomponent).
+   For more information about the cq:editConfig node, see [Configuring the Edit Behavior of a Component](../../../sites/developing/using/components-basics.md#edit-behavior).
 
 1. Below the cq:EditConfig node, add the following node:
 
@@ -651,7 +651,7 @@ function getParticipant() {
    | `jcr:mixinTypes` | `Name[]` | `mix:title` |
    | `jcr:title` | `String` |The name to appear in the edit dialog. |
 
-1. Edit the [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md##dynamic-participant-step) instance and specify the script to be used.
+1. Edit the [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md#dynamic-participant-step) instance and specify the script to be used.
 
 ## Handling Workflow Packages {#handling-workflow-packages}
 

@@ -95,7 +95,7 @@ To include the client library in the page component jsp:
 * to only include javascript code:  
   `<ui:includeClientLib js="<category-name>"/>`
 
-For more details refer to the description of the [&lt;ui:includeClientLib&gt;](../../../sites/developing/using/taglib.md#lt-ui-includeclientlib) tag.
+For more details refer to the description of the [&lt;ui:includeClientLib&gt;](../../../sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) tag.
 
 In some cases a client library should only be available in author mode and should be excluded in publish mode. It can be achieved as follows:
 

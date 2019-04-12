@@ -214,7 +214,7 @@ These services are provided by default:
 
 * [Tracker Snippets](../../../sites/administering/using/external-providers.md) (Google, WebTrends etc.)
 * [Adobe Analytics](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics)
-* [Test&Target](../../../sites/administering/using/marketing-cloud.md#integratingwithtesttarget)
+* [Test&Target](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-target)
 * [Search&Promote](../../../sites/administering/using/marketing-cloud.md#integrating-with-search-promote)
 * [Scene7](../../../sites/administering/using/marketing-cloud.md#integrating-with-scene)
 

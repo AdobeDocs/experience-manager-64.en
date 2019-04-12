@@ -136,7 +136,7 @@ For full details see:
 
     * Provides a consistent UI across all cloud solutions  
     * [Concepts of the AEM Touch-Enabled UI - Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui)
-    * [Coral UI Guide](/sites/developing/using/reference-materials/coral-ui/coralui3/index.md)
+    * [Coral UI Guide](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html)
 
 * Granite UI
 

@@ -144,7 +144,7 @@ The client-server communication in the Granite UI consists of hypertext, not obj
 
 #### Client-Side {#client-side}
 
-This uses an extension of HTML vocabulary, provided so that the author can express their intention to build an interactive webapp. This is a similar approach to [WAI-ARIA](https://www.w3.org/TR/wai-aria/) and [microformats](https://microformats.org/).
+This uses an extension of HTML vocabulary, provided so that the author can express their intention to build an interactive webapp. This is a similar approach to [WAI-ARIA](https://www.w3.org/TR/wai-aria/) and [microformats](http://microformats.org/).
 
 It primarily consists of a collection of interaction patterns (for example, asyncronously submitting a form) that are interpreted by JS and CSS codes, run on the client-side. The role of the client-side is to enhance the markup (given as the hypermedia affordance by the server) for interactivity.
 

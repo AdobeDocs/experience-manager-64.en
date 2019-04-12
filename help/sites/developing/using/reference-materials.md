@@ -26,9 +26,9 @@ AEM provides several APIs for developing applications. The following list provid
 
 * [Widgets API (Classic UI) Documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html)  
 
-* [UI Test Framework Javascript API Reference](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materialstest-api/index.html)  
+* [UI Test Framework Javascript API Reference](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/test-api/index.html)  
 
-* [Editor Core Javascript API Reference](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materialsjsdoc/ui-touch/editor-core/index.html)
+* [Editor Core Javascript API Reference](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index.html)
 
 AEM Single-Page Application (SPA) Editor SDK framework JavaScript API references:
 
@@ -46,7 +46,7 @@ The following external resources are for reference only:
 
 * [Apache Sling 10 API](https://sling.apache.org/apidocs/sling10/)
 * [Jackrabbit Oak API](https://jackrabbit.apache.org/oak/docs/oak_api/overview.html)
-* [Java Content Repository API](https://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/)
+* [Java Content Repository API](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0/index.html)
 * [Apache Jackrabbit API](https://jackrabbit.apache.org/api)
 
 >[!VIDEO](https://vimeo.com/)
