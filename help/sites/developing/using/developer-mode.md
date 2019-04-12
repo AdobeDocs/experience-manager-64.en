@@ -13,7 +13,7 @@ discoiquuid: efbe46a3-c37f-4b67-8b3a-188cfc75118b
 
 # Developer Mode{#developer-mode}
 
-When editing pages in AEM, several [modes](../../../sites/authoring/using/author-environment-tools.md#modestouchoptimizedui) are available, including Developer mode. This opens a side panel with several tabs that provide a developer with infomation about the current page. The three tabs are:
+When editing pages in AEM, several [modes](../../../sites/authoring/using/author-environment-tools.md#page-modes) are available, including Developer mode. This opens a side panel with several tabs that provide a developer with infomation about the current page. The three tabs are:
 
 * **[Components](#components)** for viewing sructure and performance information.
 * **[Tests](#tests)** for running tests and analyzing the results.

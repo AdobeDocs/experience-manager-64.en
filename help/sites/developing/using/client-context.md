@@ -34,7 +34,7 @@ For information about opening Client Context, configuring the information that i
 The Client Context includes various session stores that contain user data. Store data comes from the following sources:
 
 * The client web browser.  
-* The server (see [JSONP Store](../../../sites/administering/using/client-context.md#main-pars-variable-8) for storing information from 3rd-party sources)
+* The server (see [JSONP Store](../../../sites/administering/using/client-context.md) for storing information from 3rd-party sources)
 
 The Client Context framework provides a [javascript API](../../../sites/developing/using/ccjsapi.md) that you can use to interact with session stores to read and write user data, and listen and react to store events. You can also create session stores for user data that you use for content targeting or other purposes.
 

@@ -219,7 +219,7 @@ To configure the split:
 
   >[!NOTE]
   >
-  >See [Defining a Rule for an OR Split](../../../sites/developing/using/workflows-models.md#definingaruleforanorsplit).
+  >See [Defining a Rule for an OR Split](../../../sites/developing/using/workflows-models.md#example-defining-a-rule-for-an-or-split).
 
 * Add workflow steps to the branches as required.
 
@@ -248,7 +248,7 @@ To configure the step, edit and use the following tabs:
 
 >[!NOTE]
 >
->Some properties need to be configured to enable email notifications. You can also customize the email template or add an email template for a new language. See [Configuring Email Notification](../../../sites/administering/using/notification.md#configuringemailnotification) to configure email notifications in AEM.
+>Some properties need to be configured to enable email notifications. You can also customize the email template or add an email template for a new language. See [Configuring Email Notification](../../../sites/administering/using/notification.md) to configure email notifications in AEM.
 
 ### Dialog Participant Step {#dialog-participant-step}
 
@@ -382,7 +382,7 @@ To configure the step, edit and use the following tabs:
 * [Common](#step-properties-common-tab)
 * **Participant Chooser**
 
-    * **Participant Chooser**: The name of the [participant chooser that you create](#developingtheparticipantchooser).
+    * **Participant Chooser**: The name of the [participant chooser that you create](#dynamic-participant-step-developing-the-participant-chooser).
     
     * **Arguments**: Any required arguments.
     * **Email**: Whether an email notification should be sent to the user.

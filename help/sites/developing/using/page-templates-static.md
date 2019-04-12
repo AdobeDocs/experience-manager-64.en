@@ -277,7 +277,7 @@ To create a new template based on an existing template:
 
    >[!NOTE]
    >
-   >The list of available templates depends on the location of the new page and the restrictions on placement specified in each template. See [Template Availability](#templateavailibility).
+   >The list of available templates depends on the location of the new page and the restrictions on placement specified in each template. See [Template Availability](../../../sites/developing/using/templates.md#template-availability).
 
 1. Change the **jcr:title** of the new template node to reflect its new role. You can also update the **jcr:description** if appropriate. Be sure to change the template availability of the page as appropriate.
 

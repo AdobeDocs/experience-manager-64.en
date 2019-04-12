@@ -66,7 +66,7 @@ There are two sets of Adobe-provided AEM components available:
 
 **Core Components** were introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. The [We.Retail reference site](../../../sites/developing/using/we-retail.md) illustrates how the core components can be used and represent the current best-practices of component development.
 
-**Foundation Components** have been available with AEM for many versions and are available out-of-the-box in a standard AEM installation. Although still supported they are no longer enhanced and are based on legacy technologies.
+**Foundation Components** have been available with AEM for many versions and are available out-of-the-box in a standard AEM installation. Although still supported, most have been deprecated, are no longer enhanced, and are based on legacy technologies.
 
 >[!NOTE]
 >

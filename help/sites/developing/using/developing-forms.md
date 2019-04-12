@@ -19,7 +19,7 @@ The basic structure of a form is:
 * Form elements
 * Form end
 
-All of these are realised with a series of default [Form components](../../../sites/authoring/using/default-components.md#form), available in a standard AEM installation.
+All of these are realized with a series of default [Form components](../../../sites/authoring/using/default-components.md), available in a standard AEM installation.
 
 In addition to [developing new components](../../../sites/developing/using/developing-components-samples.md) for use on your forms you can also:
 

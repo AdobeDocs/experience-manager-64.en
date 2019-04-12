@@ -91,7 +91,7 @@ When you develop the jsp script of a AEM component, it is recommended to include
 <%@include file="/libs/foundation/global.jsp"%>
 ```
 
-It declares the sling, CQ, and jstl taglibs and exposes the regularly used scripting objects defined by the [ `<cq:defineObjects />`](#cqdefineobjects) tag. This shortens and simplifies the jsp code of your component.
+It declares the sling, CQ, and jstl taglibs and exposes the regularly used scripting objects defined by the [ `<cq:defineObjects />`](#amp-lt-cq-defineobjects) tag. This shortens and simplifies the jsp code of your component.
 
 ### &amp;lt;cq:text> {#amp-lt-cq-text}
 
@@ -252,7 +252,7 @@ Should you use `<cq:include>` or `<sling:include>`?
 
 >[!CAUTION]
 >
->`<cq:includeClientLib>` has been deprecated since AEM 5.6. [ `<ui:includeClientLib>`](../../../sites/developing/using/taglib.md#lt-ui-includeclientlib) should be used instead. ``
+>`<cq:includeClientLib>` has been deprecated since AEM 5.6. [ `<ui:includeClientLib>`](../../../sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) should be used instead. ``
 
 The `<cq:includeClientLib>` tag Includes a AEM html client library, which can be a js, a css or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the jsp. This tag is a convenience wrapper around the `com.day.cq.widget.HtmlLibraryManager` service interface.
 
@@ -294,7 +294,7 @@ The `<cq:includeClientLib>` tag can be used as follows in a jsp:
 
 ### &amp;lt;cq:defineObjects> {#amp-lt-cq-defineobjects}
 
-The `<cq:defineObjects>` tag exposes the following, regularly used, scripting objects which can be referenced by the developer. It also exposes the objects defined by the [ `<sling:defineObjects>`](#slingdefineobjects) tag.
+The `<cq:defineObjects>` tag exposes the following, regularly used, scripting objects which can be referenced by the developer. It also exposes the objects defined by the [ `<sling:defineObjects>`](#amp-lt-sling-defineobjects) tag.
 
 **componentContext**
 
@@ -436,7 +436,7 @@ The `<cq:defineObjects>` tag exposes the following, regularly used, scripting ob
 
 ### &amp;lt;cq:requestURL> {#amp-lt-cq-requesturl}
 
-The `<cq:requestURL>` tag writes the current request URL to the JspWriter. The two tags [ `<cq:addParam>`](#cqaddparam) and [ `<cq:removeParam>`](#cqremoveparam) and may be used inside the body of this tag to modify the current request URL before it is written.
+The `<cq:requestURL>` tag writes the current request URL to the JspWriter. The two tags [ `<cq:addParam>`](#amp-lt-cq-addparam) and [ `<cq:removeParam>`](#amp-lt-cq-removeparam) and may be used inside the body of this tag to modify the current request URL before it is written.
 
 It allows you to create links to the current page with varying parameters. For example, it enables you to transform the request:
 
@@ -458,7 +458,7 @@ Examples:
 
 ### &amp;lt;cq:addParam> {#amp-lt-cq-addparam}
 
-The `<cq:addParam>` tag adds a request parameter with the given name and value to the enclosing [ `<cq:requestURL>`](#cqrequesturl) tag.
+The `<cq:addParam>` tag adds a request parameter with the given name and value to the enclosing [ `<cq:requestURL>`](#amp-lt-cq-requesturl) tag.
 
 It has the following attributes:
 
@@ -478,7 +478,7 @@ It has the following attributes:
 
 ### &amp;lt;cq:removeParam> {#amp-lt-cq-removeparam}
 
-The `<cq:removeParam>` tag removes a request parameter with the given name and value from the enclosing [ `<cq:requestURL>`](#cqrequesturl) tag. If no value is provided all parameters with the given name are removed.
+The `<cq:removeParam>` tag removes a request parameter with the given name and value from the enclosing [ `<cq:requestURL>`](#amp-lt-cq-requesturl) tag. If no value is provided all parameters with the given name are removed.
 
 It has the following attributes:
 

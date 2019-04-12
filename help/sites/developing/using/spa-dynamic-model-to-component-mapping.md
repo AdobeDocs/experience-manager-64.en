@@ -39,7 +39,7 @@ Single Page Applications leveraging the Javascript SPA SDK for AEM are model-dri
 Each component is extended with the capabilities of the [ `ModelProvider`](../../../sites/developing/using/spa-blueprint.md#the-model-provider). Initialization therefore take the following general form:
 
 1. Each model provider initializes itself and listens for changes made to the piece of model that corresponds to its inner component. 
-1. The [ `PageModelManager`](../../../sites/developing/using/spa-blueprint.md#pagemodelmanager) must be initialized as represented by the [initialization flow](../../../sites/developing/using/spa-blueprint.md#main-pars-text-1679624069). 
+1. The [ `PageModelManager`](../../../sites/developing/using/spa-blueprint.md#pagemodelmanager) must be initialized as represented by the [initialization flow](../../../sites/developing/using/spa-blueprint.md). 
 
 1. Once stored, the page model manager returns the complete model of the app. 
 1. This model is then passed to the front-end root [Container](../../../sites/developing/using/spa-blueprint.md#container) component of the application. 

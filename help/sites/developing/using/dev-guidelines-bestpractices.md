@@ -128,7 +128,7 @@ Cross-site scripting (XSS) allows attackers to inject code into web pages viewed
 
 AEM applies the principle of filtering all user-supplied content upon output. Preventing XSS is given the highest priority during both development and testing.
 
-Additionally, a web application firewall, such as [mod_security for Apache](https://www.modsecurity.org/projects/modsecurity/apache/), can provide reliable, central control over the security of the deployment environment and protect against previously undetected cross-site scripting attacks.
+Additionally, a web application firewall, such as [mod_security for Apache](http://modsecurity.org), can provide reliable, central control over the security of the deployment environment and protect against previously undetected cross-site scripting attacks.
 
 >[!CAUTION]
 >

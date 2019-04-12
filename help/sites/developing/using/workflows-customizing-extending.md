@@ -131,7 +131,7 @@ Use the following procedure to specify default values for the **Title** and **De
 
    >[!NOTE]
    >
-   >For more information about the cq:editConfig node, see [Configuring the Edit Behaviour of a Component](../../../sites/developing/using/components.md#configuringtheeditbehaviourofacomponent).
+   >For more information about the cq:editConfig node, see [Configuring the Edit Behavior of a Component](../../../sites/developing/using/developing-components.md#configuring-the-edit-behavior).
 
 1. Below the `cq:EditConfig` node, add the following node:
 
@@ -181,7 +181,7 @@ To focus the component for use in a specific workflow scenario, configure the ke
     * Name: `cq:editConfig`
     * Type: `cq:EditConfig`
 
-   For more information about the cq:editConfig node, see [Configuring the Edit Behaviour of a Component](../../../sites/developing/using/components.md#configuringtheeditbehaviourofacomponent).
+   For more information about the cq:editConfig node, see [Configuring the Edit Behaviour of a Component](../../../sites/developing/using/developing-components.md#configuring-the-edit-behavior).
 
 1. Below the cq:EditConfig node, add the following node:
 
@@ -204,7 +204,7 @@ To focus the component for use in a specific workflow scenario, configure the ke
 
 ### Adding Forms and Dialogs to Participant Steps {#adding-forms-and-dialogs-to-participant-steps}
 
-Customize your participant step component to provide features that are found in the [Form Participant Step](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0) and [Dialog Participant Step](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0) components:
+Customize your participant step component to provide features that are found in the [Form Participant Step](../../../sites/developing/using/workflows-step-ref.md#form-participant-step) and [Dialog Participant Step](../../../sites/developing/using/workflows-step-ref.md#dialog-participant-step) components:
 
 * Present a form to the user when they open the generated work item. 
 * Present a custom dialog to the user when they complete the generated work item.
@@ -216,7 +216,7 @@ Peform the following procedure on your new component (see [Creating Custom Workf
     * Name: `cq:editConfig`
     * Type: `cq:EditConfig`
 
-   For more information about the cq:editConfig node, see [Configuring the Edit Behaviour of a Component](../../../sites/developing/using/components.md#configuringtheeditbehaviourofacomponent).
+   For more information about the cq:editConfig node, see [Configuring the Edit Behavior of a Component](../../../sites/developing/using/components.md#configuringtheeditbehaviourofacomponent).
 
 1. Below the cq:EditConfig node, add the following node:
 
@@ -359,11 +359,6 @@ log.info("currentDateInMillisKey "+ graniteWorkItem.getWorkflowData().getMetaDat
 >[!NOTE]
 >
 >This section describes how to work with arguments for process steps. The information also applies to dynamic participant choosers.
->
-
->[!NOTE]
->
->For another example of storing component properties in workflow metadata, see [Example: Create a Logger Workflow Step](#example-create-a-logger-workflow-step). This example features a dailog that associates metadata value with a key other than `PROCESS_ARGS`.
 
 ### Scripts and Process Arguments {#scripts-and-process-arguments}
 
@@ -377,7 +372,7 @@ When process steps are started during the process of a workflow, the steps send 
 
 >[!NOTE]
 >
->For information about associating your Process Step component with the service or script, see [Process Step](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0) or [Overriding the Step Implementation](#overriding-the-step-implementation).
+>For information about associating your Process Step component with the service or script, see [Process Step](../../../sites/developing/using/workflows-step-ref.md#process-step) or [Overriding the Step Implementation](#overriding-the-step-implementation).
 
 ### Implementing a Process Step with a Java Class {#implementing-a-process-step-with-a-java-class}
 
@@ -656,7 +651,7 @@ function getParticipant() {
    | `jcr:mixinTypes` | `Name[]` | `mix:title` |
    | `jcr:title` | `String` |The name to appear in the edit dialog. |
 
-1. Edit the [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0) instance and specify the script to be used.
+1. Edit the [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md##dynamic-participant-step) instance and specify the script to be used.
 
 ## Handling Workflow Packages {#handling-workflow-packages}
 
@@ -860,7 +855,7 @@ An easy way to start creating your own custom step is to copy an existing step f
 
 #### Defining the Step Configure Dialog {#defining-the-step-configure-dialog}
 
-After [Creating the Basic Step](#creatingthebasicstep-), define the step **Configure** dialog as follows:
+After [Creating the Basic Step](#creating-the-basic-step), define the step **Configure** dialog as follows:
 
 1. Configure the properties on the node `cq:editConfig` as follows:
 
@@ -891,26 +886,11 @@ After [Creating the Basic Step](#creatingthebasicstep-), define the step **Confi
 
    **Properties of Interest:**
 
-    * 
+    * `afterMove: REFRESH_PAGE`    
     
-      ```    
-      afterMove: REFRESH_PAGE
-      
-      ```    
+    * `afterdelete: CQ.workflow.flow.Step.afterDelete`    
     
-    * 
-    
-      ```    
-      afterdelete: CQ.workflow.flow.Step.afterDelete
-      
-      ```    
-    
-    * 
-    
-      ```    
-      afteredit: CQ.workflow.flow.Step.afterEdit
-      
-      ```    
+    * `afteredit: CQ.workflow.flow.Step.afterEdit`    
     
     * `afterinsert: CQ.workflow.flow.Step.afterInsert`
 

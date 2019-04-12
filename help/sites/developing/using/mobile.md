@@ -185,7 +185,7 @@ To create an emulator, please refer to the [Creating a Custom Mobile Emulator](.
 
 ### Device Groups {#device-groups}
 
-Mobile device groups provide segmentation of mobile devices based on the device capabilities. A device group provides the information required for emulator-based authoring on the author instance and for correct content rendering on the publish instance: once authors have added content to the mobile page and have published it, the page can be requested on the publish instance. There, instead of the emulator editing view, the content page is rendered using one of the configured device groups. The selection of the device group occurs based on [mobile device detection](#devicedetection). The matching device group then provides the necessary styling information.
+Mobile device groups provide segmentation of mobile devices based on the device capabilities. A device group provides the information required for emulator-based authoring on the author instance and for correct content rendering on the publish instance: once authors have added content to the mobile page and have published it, the page can be requested on the publish instance. There, instead of the emulator editing view, the content page is rendered using one of the configured device groups. The selection of the device group occurs based on [mobile device detection](#client-side-device-detection). The matching device group then provides the necessary styling information.
 
 Device groups are defined as content pages below `/etc/mobile/devices` and use the **Mobile Device Group** template. The device group template serves as a configuration template for device group definitions in the form of content pages. Its main characteristics are:
 
@@ -303,7 +303,7 @@ For information, go to [Creating Device Group Filters](../../../sites/developing
 
 ### Using the WURFL™ Database {#using-the-wurfl-database}
 
-AEM uses a truncated version of the [WURFL](https://wurfl.sourceforge.net/)™ database to query device capabilities, such as screen resolution or javascript support, based on the device's User-Agent.
+AEM uses a truncated version of the [WURFL](http://wurfl.sourceforge.net/index.php)™ database to query device capabilities, such as screen resolution or javascript support, based on the device's User-Agent.
 
 The XML code of the WURFL™ database is represented as nodes below `/var/mobile/devicespecs` by parsing the `wurfl.xml`file at `/libs/wcm/mobile/devicespecs/wurfl.xml.` The expansion to nodes occurs the first time that the `cq-mobile-core` bundle is started.
 
@@ -359,7 +359,7 @@ AEM supports device client-side detection based on `BrowserMap`. `BrowserMap` is
 
 1. [Alternate links](#providing-alternate-links)  
 
-1. [Device Group Specific URL](#definingdevicegroupspecificurl)
+1. [Device Group Specific URL](#defining-a-device-group-specific-url)
 1. [Selector-based URL](#defining-selector-based-urls)
 
 >[!NOTE]
@@ -395,7 +395,7 @@ BrowserMap is designed in such a way that Device Groups definitions can be overr
 
 >[!NOTE]
 >
->For more details please read the [Customised BrowserMap](#creatingacustomisedbrowsermap) section.
+>For more details please read the [Customised BrowserMap](##using-browsermap-on-your-pages) section.
 
 ### Defining Selector-based URLs {#defining-selector-based-urls}
 
@@ -413,7 +413,7 @@ In order to use the standard BrowserMap client library in a page, you have to in
 
 Besides adding the `BrowserMap` client library in your `JSP` files, you also have to add a `cq:deviceIdentificationMode` String property set to `client-side` to the `jcr:content` node below the root of your web site.
 
-### Overriding BrowserMap's default behaviour {#overriding-browsermap-s-default-behaviour}
+### Overriding BrowserMap's default behavior {#overriding-browsermap-s-default-behavior}
 
 If you would like to customise `BrowserMap` - by overriding the `DeviceGroups` or adding more probes - then you should create your own client-side library in which you embed the `browsermap.standard`client-side library.
 
