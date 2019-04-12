@@ -629,7 +629,7 @@ response.setCharacterEncoding("utf-8");
 
 The prerequisites to creating a separate UI for displaying results are [Sling Basics](https://wem.help.adobe.com/enterprise/en_US/10-0/wem/developing/the_basics.html), [Creating a CRX Node](https://docs.adobe.com/docs/en/crx/current/developing/development_tools/developing_with_crxde_lite.html#Creating%20a%20Node) and providing appropriate [access privileges](https://docs.adobe.com/docs/en/crx/current/developing/development_tools/developing_with_crxde_lite.html#Access%20Control).
 
-1. Create a separate UI as described in [Creating a separate UI](/forms/using/process-reporting/process-reporting-custom-reports.html?cq_ck=1416827713473) section.
+1. Create a separate UI as described in [Creating a separate UI](#creating-a-separate-ui-nbsp) section.
 1. Create a child `nt:unstructured` node at the `/content/process-reporting-runtime/custom-reports` node for every pluggable report.
 
     * **id **- Specifies unique identification number of the report.

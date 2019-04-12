@@ -32,8 +32,8 @@ Configure application server and AEM Forms on JEE server to provide secure loggi
 Perform the following additional configurations to enable authenticate via a system user certificate instead of a pre-configured user name and password for Microsoft SharePoint, authenticate users using CAC cards, allow indexing protected documents, securely logging in to AEM Forms Workbench:
 
 * [Configure Microsoft SharePoint Connector Web part changes](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html#p-sharepoint-connector-web-part-changes-p)
-* [Configure document security iFilter](/content.md#main-pars-header-5)
-* [Provide access to HTML Workspace through CAC authentication](/content.md#main-pars-header-29601462)
+* [Configure document security iFilter](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html#main-pars_header_5)
+* [Provide access to HTML Workspace through CAC authentication](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html#main-pars_header_29601462)
 * Configure Workbench
 
 ### Pre-requisites {#pre-requisites}

@@ -68,7 +68,7 @@ To create an anatomy for the Interactive Communication with the following modes 
 
 ## Step 2: Create form data model {#step-create-form-data-model}
 
-![](assets/03-create-adaptive-form-%20main-image_small.png)
+![](assets/03-create-adaptive-form-main-image_small.png)
 
 A form data model allows you to connect an Interactive Communication to disparate data sources. For example, AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. A form data model is a unified data representation schema of business entities and services available in connected data sources. You can use the form data model with an Interactive Communication to retrieve data from connected data sources. For more information about form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
 
@@ -119,7 +119,7 @@ The templates for the Web channel are created in AEM. Template authors and admin
 
 ## Step 5: Create an Interactive Communication {#step-create-an-interactive-communication}
 
-![](assets/09-style%20your%20adaptive%20form_small.png)
+![](assets/09-style-your-adaptive-form-small.png)
 
 Once you create all the building blocks such as form data model, document fragments, and templates for the web version, you can start creating an Interactive Communication.
 

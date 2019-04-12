@@ -33,7 +33,7 @@ The Review and Correct editor provides an easy to use interface. It has the foll
 
 * Filter button: The filter button ![](assets/toggle_eye.png) is on the top of the editor. It allows you to filter the fields to display only texts, fields, choice Groups, panels, or all the components.   
 
-* Open Adaptive Form Editor option: The Open Adaptive Form Editor option appears on tapping the ![](assets/properties.png) icon. Open the adaptive forms editor after making all the necessary changes in Review and Correct editor.
+* Open Adaptive Form Editor option: The Open Adaptive Form Editor option appears on tapping the ![](../assets/properties.png) icon. Open the adaptive forms editor after making all the necessary changes in Review and Correct editor.
 
 ![](assets/review-and-correct.png)
 
@@ -173,7 +173,7 @@ If you resend a form for conversion after updating the form in adaptive form edi
 
 There can be instances where you require adaptive forms editor to make the changes like, applying a different theme to the form or fixing tables. Once you have made all the required changes in Review and Correct editor and converted the form, you can open your form in adaptive forms editor to make the final set of changes.
 
-To open the form with adaptive forms editor, tap the ![](assets/properties.png) icon, and tap **Open Adaptive Form Editor**. The form opens in adaptive form editor.
+To open the form with adaptive forms editor, tap the ![](../assets/properties.png) icon, and tap **Open Adaptive Form Editor**. The form opens in adaptive form editor.
 
 ## Previous {#previous}
 

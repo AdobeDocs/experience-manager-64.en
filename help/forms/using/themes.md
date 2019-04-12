@@ -452,7 +452,7 @@ Perform the following steps to customize styling for a particular component (a n
       **
     * **Field Widget  
       **
-    * ![](assets/field-level.png-)
+    * ![](assets/field-level.png)
 
 1. Select **Numeric Box Widget**.
 1. Sidebar title changes to Numeric Box Widget, and shows options to customize its look.  
@@ -559,7 +559,7 @@ To apply a theme to an adaptive form:
    You can edit properties of your form in the sidebar.
 
 1. In the sidebar, click **Styling**.
-1. Select your theme from the **Adaptive Form Theme** drop-down and click **Done** ![](assets/check-button.png-).
+1. Select your theme from the **Adaptive Form Theme** drop-down and click **Done** ![](assets/check-button.png).
 
 To apply a theme to an interactive communication:
 

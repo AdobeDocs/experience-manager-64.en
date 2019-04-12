@@ -16,7 +16,7 @@ Client classes required to build Maven Projects using AEM Document Services are 
 
 >[!NOTE]
 >
->Before using the DocAssurance service APIs, [configure the DocAssurance service](/forms/using/configuring-document-services.md).
+>Before using the DocAssurance service APIs, [configure the DocAssurance service](../../forms/using/install-configure-document-services.md).
 
 ## DocAssurance Service {#docassurance-service}
 

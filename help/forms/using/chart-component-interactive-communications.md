@@ -66,7 +66,7 @@ Complete the following steps to add a chart to an Interactive Communication:
    >
    >For print channel, on the X axis, the data model object that you bind should be of Number, String, or Date type. On the Y axis the data model object that you bind should be of Number type. It is recommended that you use the right-side legend in the print channel.
 
-   For more information on chart properties, see [Basic properties in charts](/forms/using/chart-component.md#basicpropertiescharts). 
+   For more information on chart properties, see [Basic properties in charts](#basicpropertiescharts). 
 
 1. (Print channel only) In the Agent Settings, specify whether it is mandatory for the agent to use this chart. If i **[!UICONTROL t Is Mandatory For the Agent To Use This Chart]** option is not selected, the agent can tap the eye icon for the chart in the Content tab of Agent UI to show/hide the chart. 
 

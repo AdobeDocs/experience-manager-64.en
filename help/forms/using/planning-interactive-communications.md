@@ -38,7 +38,7 @@ An interactive communication includes the following elements:
 
 Once you have finalized the content and elements that are used to create your Interactive Communication, you can create an anatomy of the Interactive Communication. The anatomy must have the details listed in the [Planning Considerations](../../forms/using/planning-interactive-communications.md#planning-considerations) section. Based on our use case, the following is an example of an anatomy of the monthly bill that a telecom operator sends to its customers.
 
->[!VIDEO](/content/dam/help/en/aem-forms/6-4/anatomy_callouts_flyins.mp4)
+Placeholder for the anatomy video
 
 The anatomy includes data with the following modes of input:
 

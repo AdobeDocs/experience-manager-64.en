@@ -46,9 +46,9 @@ Perform the following steps to manually sync the assets:
 
 If an asset with the identical name already exists in AEM forms UI or the network connectivity is disturbed, the default synchronization process fails to synchronize the assets. These issues can happen during post-upgrade asset migration and while synchronizing assets:
 
-* Post upgrade asset migration is an automated process which migrates assets available in the shadow root of previous version of AEM Forms (/content/dam/formsanddocument) to the current version of AEM Forms. If AEM Forms Management User Interface and location /content/dam/formsanddocuments contains an application with the identical name, then the dialog box displayed below appears. To resolve the issue, delete or rename the conflicting application and run the [on-demand asset synchronization](/forms/using/synchronize-aem-forms-on-jee-assets-.md#main-pars-header) to manually synchronize the assets.
+* Post upgrade asset migration is an automated process which migrates assets available in the shadow root of previous version of AEM Forms (/content/dam/formsanddocument) to the current version of AEM Forms. If AEM Forms Management User Interface and location /content/dam/formsanddocuments contains an application with the identical name, then the dialog box displayed below appears. To resolve the issue, delete or rename the conflicting application and run the [on-demand asset synchronization](#manual-or-on-demand-asset-synchronization) to manually synchronize the assets.
 
 ![](assets/asset-sync-error-message.png)
 
-* If a folder with the identical name already exists in AEM Forms management user interface and in Workbench, then delete or rename the conflicting folder in LiveCycle Workbench or AEM Forms management user interface. After deleting or renaming the folder, run the o [n-demand asset synchronization](/forms/using/synchronize-aem-forms-on-jee-assets-.md) to manually synchronize the assets.
+* If a folder with the identical name already exists in AEM Forms management user interface and in Workbench, then delete or rename the conflicting folder in LiveCycle Workbench or AEM Forms management user interface. After deleting or renaming the folder, run the [on-demand asset synchronization](#manual-or-on-demand-asset-synchronization) to manually synchronize the assets.
 

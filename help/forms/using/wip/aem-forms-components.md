@@ -19,7 +19,7 @@ All the AEM Forms components that are available out-of-the-box are described bel
 
 ## Adaptive Form Footer {#adaptive-form-footer}
 
-Drops a page footer in the adaptive form layout. Includes a rich text out-of-the-box that you can edit in the form. Typically, a footer includes the copyright information of a company. When you tap the text component of the footer, you see the component toolbar. Tap ![](assets/cmppr.png) to customize the properties of the text. Properties are listed below:
+Drops a page footer in the adaptive form layout. Includes a rich text out-of-the-box that you can edit in the form. Typically, a footer includes the copyright information of a company. When you tap the text component of the footer, you see the component toolbar. Tap ![](../assets/cmppr.png) to customize the properties of the text. Properties are listed below:
 
 <table> 
  <tbody>
