@@ -47,7 +47,7 @@ Adaptive forms editor provides multiple out-of-the-box themes. If you plan not t
 
 1. Open the adaptive form for editing.
 
-   [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](/editor.html/content/forms/af/shipping-address-add-update-form.md) 
+   [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html) 
 
 1. Open properties of **Adaptive Form container**. In the properties browser, navigate to **Basic** &gt; **Adaptive Form Theme**. The** Adaptive Form Theme** field lists all the out-of-the-box and custom themes. By default, the Canvas theme is applied.
 1. Select a theme from the **Adaptive Form Theme** field. For example, **Survey theme**. Tap ![](assets/aem_6_3_forms_save.png) to apply the selected theme.

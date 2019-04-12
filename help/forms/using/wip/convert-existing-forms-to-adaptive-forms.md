@@ -27,7 +27,7 @@ After you connect your AEM instance with AEM Forms Conversion Service, you can c
 
 * [Upload PDF forms to your AEM Forms server](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#upload-pdf-forms-to-your-aem-forms-server)
 * [Run the conversion](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#run-the-conversion)
-* [Review and correct the converted forms](/content.md#main-pars-header-1485925451)
+* [Review and correct the converted forms](#review-and-correct-the-converted-forms)
 
 ### Upload PDF forms to your AEM Forms server {#upload-pdf-forms-to-your-aem-forms-server}
 
@@ -35,7 +35,7 @@ The conversion service converts PDF forms available on your AEM Forms instance t
 
 1. Log in to the AEM Forms instance.   
 
-1. Tap **[!UICONTROL Adobe Experience Manager]** ![](assets/adobeexperiencemanager.png) > **[!UICONTROL Navigation]** ![](assets/compass.png) **[!UICONTROL]**> **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
+1. Tap **[!UICONTROL Adobe Experience Manager]** ![](../assets/adobeexperiencemanager.png) > **[!UICONTROL Navigation]** ![](../assets/compass.png) **[!UICONTROL]**> **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
 1. Tap **[!UICONTROL Create]**> **[!UICONTROL Folder]**. Specify **Title** and **Name** of the folder. Tap **[!UICONTROL Create]**. A folder is created.
 1. Tap to open the newly created folder.
 1. Tap **[!UICONTROL Create]**> **[!UICONTROL File Upload]**. Select the forms to upload, click **[!UICONTROL Open]**, and click **[!UICONTROL Upload]**. The forms are uploaded.
@@ -44,7 +44,7 @@ The conversion service converts PDF forms available on your AEM Forms instance t
 
 After you have uploaded the forms and configured the service, perform the following steps to start the conversion:
 
-1. On your AEM Forms instance, tap **[!UICONTROL Adobe Experience Manager]** ![](assets/adobeexperiencemanager.png) > **[!UICONTROL Navigation]** ![](assets/compass.png) **[!UICONTROL]**> **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
+1. On your AEM Forms instance, tap **[!UICONTROL Adobe Experience Manager]** ![](../assets/adobeexperiencemanager.png) > **[!UICONTROL Navigation]** ![](../assets/compass.png) **[!UICONTROL]**> **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
 1. Select the folder containing PDF forms (forms to be converted) and tap **[!UICONTROL  **Start Automated Forms Conversion**]**. The ****[!UICONTROL Conversion Settings]**** dialog appears.
 
    ![](assets/start-conversion-dialog.png)
