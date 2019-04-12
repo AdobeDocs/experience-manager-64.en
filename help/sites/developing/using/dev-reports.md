@@ -21,16 +21,16 @@ For the standard reports delivered with CQ:
 
 * These reports are built on the reporting framework:
 
-    * [Component Report](#componentreport)
-    * [Page Activity Report](#pageactivityreport)
-    * [User Report](#userreport)
-    * [Workflow Instance Report](#workflowinstancereport)
+    * [Component Report](../../../sites/administering/using/reporting.md#component-report)
+    * [Page Activity Report](../../../sites/administering/using/reporting.md#page-activity-report)
+    * [User Report](../../../sites/administering/using/reporting.md#user-report)
+    * [Workflow Instance Report](../../../sites/administering/using/reporting.md#workflow-instance-report)
 
 * The following reports are based on individual principles and therefore cannot be extended:
 
-    * [Disk Usage](#diskusage)
-    * [Health Check](#healthcheck)
-    * [Workflow Report](#workflowreport)
+    * [Disk Usage](../../../sites/administering/using/reporting.md#disk-usage)
+    * [Health Check](../../../sites/administering/using/reporting.md#health-check)
+    * [Workflow Report](../../../sites/administering/using/reporting.md#workflow-report)
 
 >[!NOTE]
 >
@@ -355,7 +355,7 @@ N:charting
 
 Every report can have a configuration dialog, allowing the user to specify various parameters for the report. This dialog is accessible through the **Edit** button when the report page is open.
 
-This dialog is a standard CQ [dialog](../../../sites/developing/using/components.md#dialogs) and can be configured as such (see [CQ.Dialog](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Dialog) for more information).
+This dialog is a standard CQ [dialog](../../../sites/developing/using/components-basics.md#dialogs) and can be configured as such (see [CQ.Dialog](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Dialog) for more information).
 
 An example dialog can look as follows:
 
@@ -906,7 +906,7 @@ N:defaults
 ```
 
 * `aggregate`  
-  Valid `aggregate` values are the same as for `type` under `aggregates` (see [Column Specific Definitions (definitions - filters / aggregates)](#columnspecificdefinitionsdefinitionsfiltersaggregates) ).
+  Valid `aggregate` values are the same as for `type` under `aggregates` (see [Column Specific Definitions (definitions - filters / aggregates)](#column-specific-definitions) ).
 
 ### Events and Actions {#events-and-actions}
 
@@ -949,7 +949,7 @@ To make a column generic:
     
     * Properties defined using the UI/dialog take precedence over those defined on the `columnbase` component.
 
-* Define the [Edit Configuration](#editconfigurationcqeditconfig).  
+* Define the Edit Configuration.  
   See `/libs/cq/reporting/components/userreport/genericcol/cq:editConfig`
 
 * Use standard CQ methodologies to define (additional) column properties.  

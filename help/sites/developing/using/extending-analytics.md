@@ -16,7 +16,7 @@ discoiquuid: e0372f4a-fe7b-4526-8391-5bb345b51d70
 AEM Analytics allows you to track user interaction on your website. As a developer you may need to:
 
 * Track how visitors are interacting with your components. This can be done with [Custom events.](#custom-events)
-* [Access values in the ContextHub](../../../sites/developing/using/extending-analytics.md#accessingvaluesintheclientcontext).
+* [Access values in the ContextHub](../../../sites/developing/using/extending-analytics.md#accessing-values-in-the-contexthub).
 * [Add record callbacks](#adding-record-callbacks).
 
 >[!NOTE]

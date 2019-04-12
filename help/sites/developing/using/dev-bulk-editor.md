@@ -167,7 +167,7 @@ With the bulk editor, you can add, modify, delete, filter, and export the rows, 
 The source code of the Product List component is available in the repository at /apps/geometrixx/components/productlist and is composed of several parts like all CQ5 components:
 
 * HTML rendering: the rendering is done in a JSP file (/apps/geometrixx/components/productlist/productlist.jsp). The JSP reads the subnodes of the current Product List component and displays each of them as a row of an HTML table.
-* Edit dialog, which is where you define the Bulk Editor configuration. Configure the dialog to match the needs of the component: columns available and possible actions performed on the grid or on the search. See [bulk editor configuration properties](develop_bulk_editor.md#bulk%20editor%20configuration%20properties) for information on all of the configuration properties.
+* Edit dialog, which is where you define the Bulk Editor configuration. Configure the dialog to match the needs of the component: columns available and possible actions performed on the grid or on the search. See [bulk editor configuration properties](#bulk-editor-configuration-properties) for information on all of the configuration properties.
 
 Here is an XML representation of the dialog sub nodes:
 

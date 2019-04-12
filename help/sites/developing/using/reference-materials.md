@@ -22,7 +22,7 @@ AEM provides several APIs for developing applications. The following list provid
 
 * [Granite UI (Touch-Enabled) API Documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html)  
 
-* [Coral UI Guide](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html)  
+* [Coral UI Guide](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html)  
 
 * [Widgets API (Classic UI) Documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html)  
 
