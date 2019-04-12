@@ -57,11 +57,11 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
 ### Create references to AEM assets by exporting a ZIP file {#create-references-to-aem-assets-by-exporting-a-zip-file}
 
 1. Perform the steps in [Creating Workflow Models](../../sites/developing/using/workflows-models.md) to create a new workflow.
-1. Use the Package feature of Adobe InDesign to export the document.   
+1. Use the Package feature of Adobe InDesign to export the document.
    Adobe InDesign can export a document and the linked assets as a package. In this case, the exported folder contains a Links folder that contains sub-assets in the InDesign file.
 1. Create a ZIP file and upload it to the AEM repository.
 1. Start the Unarchiver workflow.
-1. When the workflow completes, the references in the Links folder are automatically referenced as subassets. To view a list of referred assets, navigate to the asset details page of the InDesign asset and close the [Rail](../../sites/authoring/using/basic-handling.md#therail).
+1. When the workflow completes, the references in the Links folder are automatically referenced as subassets. To view a list of referred assets, navigate to the asset details page of the InDesign asset and close the [Rail](../../sites/authoring/using/basic-handling.md#rail-selector).
 
 ## Add AEM assets as references in Adobe Photoshop {#refps}
 
@@ -73,9 +73,9 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
 1. Save in Photoshop file to the mounted drive or or [upload](../../assets/using/managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
 1. After the worflow completes, the references to existing AEM assets are listed in the asset details page.
 
-   To view the referenced assets, close the [Rail](../../sites/authoring/using/basic-handling.md#therail) in the asset details page.
+   To view the referenced assets, close the [Rail](../../sites/authoring/using/basic-handling.md#rail-selector) in the asset details page.
 
-1. The referenced assets also contain the list of assets they are referenced from. To view a list of referenced assets, navigate to the asset details page and close the [Rail](../../sites/authoring/using/basic-handling.md#therail).
+1. The referenced assets also contain the list of assets they are referenced from. To view a list of referenced assets, navigate to the asset details page and close the [Rail](../../sites/authoring/using/basic-handling.md#rail-selector).
 
 >[!NOTE]
 >
@@ -119,4 +119,3 @@ You can browse through individual pages of a file from the asset page. You can u
 1. To view and edit the metadata properties of the page, click the **View Properties** icon from the toolbar.
 
    ![](assets/chlimage_1-269.png)
-

@@ -15,6 +15,8 @@ discoiquuid: 565e307a-e42e-4967-ba72-f1c6fb078676
 
 This document describes the following:
 
+<!--> Update screenshots for branding -->
+
 * Why you would create customized Asset Editor pages.
 * How to create and customize Asset Editor pages, which are WCM pages that let you view and edit metadata as well as perform actions on the asset.
 * How to edit multiple assets simultaneously.
@@ -274,7 +276,7 @@ To add asset editor components:
     >
     >When designing the asset editor page, you create components that are either read-only or editable. Users know a field can be edited if an image of a pencil appears in that component. By default, most components are set up as read-only.
 
-    | **Component** |**Description ** |
+    | **Component** |**Description** |
     |---|---|
     | **Metadata Form and Text Field** |Lets you add additional metadata to an asset and perform an action, such as submitting, on that asset. |
     | **Sub Assets** |Lets you customize sub-assets. |
@@ -286,7 +288,7 @@ To add asset editor components:
 
 #### Metadata Form and Text Field - Configuring the View Metadata Component {#metadata-form-and-text-field-configuring-the-view-metadata-component}
 
-The Metadata Form is a form that includes a start and end action. In between, you enter **Text** fields. See [Forms](../../sites/authoring/using/default-components.md#form) for more information on working with forms.
+The Metadata Form is a form that includes a start and end action. In between, you enter **Text** fields. See [Forms](../../sites/authoring/using/default-components.md) for more information on working with forms.
 
 1. Create a start action by clicking **Edit** in the Start area of the form. You can enter a Box title, if desired. By default, the Box title is **Metadata**. Select the Client Validation check box if you want the java-script client code for validation generated.
 
