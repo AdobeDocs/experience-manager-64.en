@@ -211,7 +211,7 @@ If you consider your dialog as a simple container for a form element, then you c
 
 `/libs/granite/ui/components/coral/foundation/form/field`
 
-More specifically Granite UI provides a range of field components that are suitable for use in dialogs (or, more generally speaking, in [forms](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/index.html)).
+More specifically Granite UI provides a range of field components that are suitable for use in dialogs (or, more generally speaking, in [forms](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/index.html)).
 
 >[!NOTE]
 >

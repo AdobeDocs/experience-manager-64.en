@@ -283,7 +283,7 @@ The content of the topnav.jsp file should appear as follows:
 
 >[!NOTE]
 >
->It is often desirable to track data from the ContextHub. For information about using javascript to obtain this information, see [Accessing Values in the ContextHub](../../../sites/developing/using/extending-analytics.md#accessingvaluesinthecontexthub).
+>It is often desirable to track data from the ContextHub. For information about using javascript to obtain this information, see [Accessing Values in the ContextHub](../../../sites/developing/using/extending-analytics.md#accessing-values-in-the-contexthub).
 
 #### Adding the Tracking Component to Sidekick {#adding-the-tracking-component-to-sidekick}
 
@@ -303,7 +303,7 @@ Add components that are enabled for tracking with the Adobe Analytics to Sidekic
 
 #### Adding the topnav Component to Your Framework {#adding-the-topnav-component-to-your-framework}
 
-Drag the topnav component to your Adobe Analytics framework and map the component variables and events to Adobe Analytics variables and events. (See [Setting Up a Framework For Basic Tracking](../../../sites/administering/using/adobeanalytics-connect.md#creatingasitecatalystframework).)
+Drag the topnav component to your Adobe Analytics framework and map the component variables and events to Adobe Analytics variables and events. (See [Setting Up a Framework For Basic Tracking](../../../sites/administering/using/adobeanalytics-connect.md).)
 
 ![](assets/chlimage_1-1.png)
 

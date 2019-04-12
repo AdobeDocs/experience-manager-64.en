@@ -262,7 +262,7 @@ When upgrading ExtJS code to use the Granite UI, the following list provides a c
 
 ### Granite UI Administration Components {#granite-ui-administration-components}
 
-The [Granite UI administration components](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) build on the foundation components to provide generic building blocks that any administration application can implement. These include, amongst others:
+The [Granite UI administration components](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.html) build on the foundation components to provide generic building blocks that any administration application can implement. These include, amongst others:
 
 * Global Navigation Bar  
 * Rail (skeleton)  

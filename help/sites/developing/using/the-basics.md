@@ -35,7 +35,7 @@ It is also recommended that you read and follow the [Guidelines and Best Practic
 
 ## Java Content Repository {#java-content-repository}
 
-The Java Content Repository (JCR) standard, [JSR 283](https://www.day.com/specs/jcr/2.0/), specifies a vendor-independent and implementation-independent way to access content bi-directionally on a granular level within a content repository.
+The Java Content Repository (JCR) standard, [JSR 283](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/index.html), specifies a vendor-independent and implementation-independent way to access content bi-directionally on a granular level within a content repository.
 
 Specification lead is held by Adobe Research (Switzerland) AG.
 
@@ -287,7 +287,7 @@ An OSGi framework then offers you dynamic loading/unloading, configuration and c
 
 >[!NOTE]
 >
->Full information on OSGi technology can be found at the [OSGi Alliance Technology Overview](https://www.osgi.org/About/Technology).
+>Full information on OSGi technology can be found at the [OSGi website](https://www.osgi.org).
 >
 >In particular, their Basic Education page holds a collection of presentations and tutorials.
 
@@ -311,7 +311,7 @@ The following are of interest for development:
 
 **Item** An item is either a node or a property.
 
-For detailed information on manipulating Item objects, refer to the [Javadocs](https://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Item.html) of the Interface javax.jcr.Item
+For detailed information on manipulating Item objects, refer to the [Javadocs](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0/javax/jcr/Item.html) of the Interface javax.jcr.Item
 
 **Node (and their properties)** Nodes and their properties are defined in the JCR API 2.0 specification (JSR 283). They store content, object definitions, rendering scripts and other data.
 
@@ -327,7 +327,7 @@ For example, to get the properties of the current node, you can use following co
 
 With currentNode being the current node object.
 
-For more information on manipulating Node objects, refer to the [Javadocs](https://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/Node.html).
+For more information on manipulating Node objects, refer to the [Javadocs](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0/javax/jcr/Node.html).
 
 **Widget** In AEM all user input is managed by widgets. These are often used to control the editing of a piece of content.
 

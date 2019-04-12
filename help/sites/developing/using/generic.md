@@ -422,7 +422,7 @@ There are several generic / helper classes provided by the core project:
 1. `FacetParamHelper`   
    Is a utility class that provides one static method - `toParams` - that is used for generating `GET` parameter strings from a list of facets and one toggled value. This is useful on the UI side, where you need to display a hyperlink for each value of each facet, such that when the user clicks on the hyperlink the respective value is toggled (i.e. if it was selected it is removed from the query, otherwise added). This takes care of all the logic of handling multiple/single-valued facets, overriding values, etc.
 
-The entry point for the search API is the `CommerceService#search` method which returns a `CommerceResult` object. See the [API Documentation](#apidocumentation) for more information on this topic.
+The entry point for the search API is the `CommerceService#search` method which returns a `CommerceResult` object. See the API Documentation for more information on this topic.
 
 ### Developing Promotions and Vouchers {#developing-promotions-and-vouchers}
 

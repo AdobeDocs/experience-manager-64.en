@@ -17,7 +17,7 @@ This page explains how to build a custom page template that uses [Adobe Campaign
 
 >[!NOTE]
 >
->[Email and form samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
+>[Email and form samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md). Please download sample Geometrixx content from Package Share.
 
 To create a custom AEM page template using Adobe Campaign Form components, make sure you have the following:
 

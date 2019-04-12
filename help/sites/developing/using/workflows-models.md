@@ -40,7 +40,7 @@ To create a new workflow with the editor:
 1. Select **Create**, then **Create Model**.
 1. The **Add Workflow Model** dialog appears. Enter the **Title** and **Name** (optional) before selecting **Done**.
 1. The new model is listed in the **Workflow Models** console.
-1. Select your new workflow, then use [**Edit** to open it for configuration](#editinganexistingworkflow):
+1. Select your new workflow, then use [**Edit** to open it for configuration](#editing-a-workflow):
 
    ![](assets/wf-01.png)
 
@@ -59,9 +59,9 @@ To create a new workflow with the editor:
 
 You can edit any existing workflow model to:
 
-* [define steps](#addingasteptoamodel-) and their [parameters](#configuring-a-workflow-step)
+* [define steps](#adding-a-step-to-a-model) and their [parameters](#configuring-a-workflow-step)
 
-* configure workflow properties, including [stages](#configuring-workflow-stages-that-show-workflow-progress), [whether the workflow is transient](#creatingatransientworkflow-) and/or [uses multiple resources](#configuring-a-workflow-for-multi-resource-support)
+* configure workflow properties, including [stages](#configuring-workflow-stages-that-show-workflow-progress), [whether the workflow is transient](#creating-a-transient-workflow) and/or [uses multiple resources](#configuring-a-workflow-for-multi-resource-support)
 
 Editing a [**Default and/or Legacy** (out-of-the-box) workflow](#editing-a-default-or-legacy-workflow-for-the-first-time) has an additional step, to ensure that a [safe copy](../../../sites/developing/using/workflows-best-practices.md#locations-workflow-models) is taken prior to your changes being made.
 
@@ -172,7 +172,7 @@ You can **Configure** and customize the behavior of a workflow step using the **
 
 You can create a [Transient](../../../sites/developing/using/workflows.md#transient-workflows) workflow model when creating a new model, or by editing an existing one:
 
-1. Open the workflow model for [editing](#editinganexistingworkflow).
+1. Open the workflow model for [editing](#editing-a-workflow).
 1. Select **Workflow Model Properties** from the toolbar.
 1. In the dialog activate **Transient Workflow** (or deactivate if required):
 
@@ -190,7 +190,7 @@ You can create a [Transient](../../../sites/developing/using/workflows.md#transi
 
 You can configure a workflow model for [Multi Resource Support](../../../sites/developing/using/workflows.md#multi-resource-support) when creating a new model, or by editing an existing one:
 
-1. Open the workflow model for [editing](#editinganexistingworkflow).
+1. Open the workflow model for [editing](#editing-a-workflow).
 1. Select **Workflow Model Properties** from the toolbar.  
 
 1. In the dialog activate **Multi Resource Support** (or deactivate if required):
