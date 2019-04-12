@@ -266,7 +266,7 @@ The node structure must be created under `/apps` in order to overlay the data ty
 
    For example, a `granite/ui/components/coral/foundation/form/textfield`should have a **Label Name**, a **Maximum Length**, a **Placeholder Text** and a **Default Value** property.
 
-   You can choose from the out-of-the-box [fieldProperties](#fieldproperties), or [create your own properties](#creatingyourownfieldproperties).
+   You can choose from the out-of-the-box [fieldProperties](#fieldproperties), or [create your own properties](#creating-your-own-fieldproperties-property).
 
    Define these properties, with the approriate values, on the node for your data type.
 
