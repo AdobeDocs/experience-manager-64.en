@@ -16,7 +16,7 @@ discoiquuid: 9f883483-b81e-42c6-a4a1-eb499dd112e7
 
 ## Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-the-forms-service}
 
-When rendering a form, you can set run-time options that will optimize the performance of the Forms service. Another task that you can perform to improve the performance of the Forms service is to store XDP files in the repository. However, this section does not describe how to perform this task. (See [Invoking a service using a Java client library](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b46.2).)
+When rendering a form, you can set run-time options that will optimize the performance of the Forms service. Another task that you can perform to improve the performance of the Forms service is to store XDP files in the repository. However, this section does not describe how to perform this task. (See [Invoking a service using a Java client library](/help/forms/developing/invoking-aem-forms-using-java.md#invoking-a-service-using-a-java-client-library).)
 
 >[!NOTE]
 >
@@ -66,11 +66,11 @@ After the Forms service renders a form, it returns a form data stream that you m
 
 [Optimize the performance using the web service API](/help/forms/developing/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing optimizing-performance-forms-service-optimizing.md#optimize-the-performance-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
 [Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
 
@@ -121,11 +121,11 @@ Render a form with optimized performance by using the Forms API (Java):
 
 [Optimizing the Performance of the Forms Service](/help/forms/developing/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing.md#optimizing-the-performance-of-the-forms-service)
 
-[Quick Start (SOAP mode): Optimizing performance using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e1e.2)
+[Quick Start (SOAP mode): Optimizing performance using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-optimizing-performance-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Optimize the performance using the web service API {#optimize-the-performance-using-the-web-service-api}
 
@@ -175,7 +175,4 @@ Render a form with optimized performance by using the Forms API (web service):
 
 [Optimizing the Performance of the Forms Service](/help/forms/developing/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing.md#optimizing-the-performance-of-the-forms-service)
 
-[Quick Start (Base64): Optimizing performance using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e1d.2)
-
-[Invoking AEM Forms using Base64 encoding](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)
-
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

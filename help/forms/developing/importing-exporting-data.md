@@ -246,8 +246,6 @@ Import form data by using the Form Data Integration API (web service):
 
 [Summary of steps](importing-exporting-data.md#summary-of-steps)
 
-[Quick Start (MTOM): Importing form data using the web service API](unresolvedlink-lc-qs-form-data-integration-fd.xml#ws624e3cba99b79e12e69a9941333732bac8-7de5.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 ## Exporting Form Data {#exporting-form-data}
@@ -392,8 +390,6 @@ Export form data by using the Form Data Integration API (web service):
 **See also**
 
 [Summary of steps](importing-exporting-data.md#summary-of-steps)
-
-[Quick Start (MTOM): Exporting form data using the web service API](unresolvedlink-lc-qs-form-data-integration-fd.xml#ws624e3cba99b79e12e69a9941333732bac8-7de7.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 

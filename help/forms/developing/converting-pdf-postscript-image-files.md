@@ -194,10 +194,6 @@ Convert a PDF document to PostScript by using the Convert PDF Service API (web s
 
 [Summary of steps](converting-pdf-postscript-image-files.md#summary-of-steps)
 
-[Quick Start (MTOM): Converting a PDF document to PostScript using the web service API](unresolvedlink-lc-qs-convert-pdf-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7f2b.2)
-
-[Quick Start (SwaRef): Converting a PDF document to PostScript using the web service API](unresolvedlink-lc-qs-convert-pdf-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7f1e.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -358,10 +354,6 @@ Convert a PDF document to an image format by using the Convert PDF Service API (
     * Iterate through the `MyArrayOfBLOB` object and save each image file.
 
 **See also**
-
-[Quick Start (MTOM): Converting a PDF document to a set of JPEG files using the web service API](unresolvedlink-lc-qs-convert-pdf-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7f28.2)
-
-[Quick Start (SwaRef): Converting a PDF document to a set of JPEG files using the web service API](unresolvedlink-lc-qs-convert-pdf-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7f1a.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 

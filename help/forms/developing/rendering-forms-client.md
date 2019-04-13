@@ -72,11 +72,11 @@ The Forms service creates a form data stream that you must write to the client w
 
 [Render a form at the client using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-client-rendering-forms rendering-forms-client-rendering-forms.md#render-a-form-at-the-client-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
 [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
 
@@ -126,11 +126,11 @@ Render a form at the client by using the Forms API (Java):
 
 [Rendering Forms at the Client](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering-forms-at-the-client)
 
-[Quick Start (SOAP mode): Rendering a form at the client using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e41.2)
+[Quick Start (SOAP mode): Rendering a form at the client using the Java API](/help/forms/developing/forms-service-api-quick-starts.md##quick-start-soap-mode-rendering-a-form-at-the-client-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Render a form at the client using the web service API {#render-a-form-at-the-client-using-the-web-service-api}
 
@@ -157,8 +157,8 @@ Render a form at the client by using the Forms API (web service):
     * A string value that specifies the form design name, including the file name extension. If you reference a form design that is part of a Forms application, ensure that you specify the complete path, such as `Applications/FormsApplication/1.0/FormsFolder/Loan.xdp`.
     * A `BLOB` object that contains data to merge with the form. If you do not want to merge data, pass `null`. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-with-flowable-layouts).)
     * A `PDFFormRenderSpec` object that stores run-time options required to render a form at the client. 
-    * A `URLSpec` object that contains URI values that are required by the Forms service. (See [Specify URI values](unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a96.2).) 
-    * A `java.util.HashMap` object that stores file attachments. This is an optional parameter and you can specify `null` if you do not want to attach files to the form. (See [Attach files to the form](unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a95.2).)
+    * A `URLSpec` object that contains URI values that are required by the Forms service.
+    * A `java.util.HashMap` object that stores file attachments. This is an optional parameter and you can specify `null` if you do not want to attach files to the form.
     * An empty `com.adobe.idp.services.holders.BLOBHolder` object that is populated by the method. This parameter is used to store the rendered PDF form. 
     * An empty `javax.xml.rpc.holders.LongHolder` object that is populated by the method. (This argument will store the number of pages in the form).
     * An empty `javax.xml.rpc.holders.StringHolder` object that is populated by the method. (This argument will store the locale value).
@@ -180,6 +180,4 @@ Render a form at the client by using the Forms API (web service):
 
 [Rendering Forms at the Client](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering-forms-at-the-client)
 
-[Quick Start (Base64): Rendering a form at the client using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e40.2)
-
-[Invoking AEM Forms using Base64 encoding](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
