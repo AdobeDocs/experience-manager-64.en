@@ -97,13 +97,13 @@ All disassembled PDF documents are returned within a collection object. Iterate 
 
 [Dynamically create a DDX document using the web service API](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-create-a-ddx-document-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
-[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically-disassembling-pdf-documents)
+[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents.md#programmatically-disassembling-pdf-documents)
 
 ## Dynamically create a DDX document using the Java API {#dynamically-create-a-ddx-document-using-the-java-api}
 
@@ -181,11 +181,11 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
 
 [Dynamically Creating DDX Documents](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-creating-ddx-documents)
 
-[Quick Start (SOAP mode): Dynamically creating a DDX document using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f6c.2)
+[Quick Start (SOAP mode): Dynamically creating a DDX document using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-dynamically-creating-a-ddx-document-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Dynamically create a DDX document using the web service API {#dynamically-create-a-ddx-document-using-the-web-service-api}
 
@@ -268,10 +268,6 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
 
 [Dynamically Creating DDX Documents](/help/forms/developing/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically-creating-ddx-documents)
 
-[Quick Start (MTOM mode): Dynamically creating a DDX document using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f6b.2)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Quick Start (SwaRef mode): Dynamically creating a DDX document using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f6a.2)
-
-[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
-
-[Invoking AEM Forms using SwaRef](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe6.2)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)

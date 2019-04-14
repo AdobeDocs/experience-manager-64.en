@@ -18,9 +18,7 @@ discoiquuid: e23de3c3-f8a0-459f-801e-a0942fb1c6aa
 
 The AEM Forms service renders interactive PDF forms to client devices, typically web browsers, to collect information from users. An interactive PDF form is based on a form design that is typically saved as an XDP file and created in Designer. As of AEM Forms, you can pass a `com.adobe.idp.Document` object that contains the form design to the Forms service. The Forms service then renders the form design located in the `com.adobe.idp.Document` object.
 
-An advantage of passing a `com.adobe.idp.Document` object to the Forms service is that other service operations return a `com.adobe.idp.Document` instance. That is, you can get a `com.adobe.idp.Document` instance from another service operation and render it. For example, assume that an XDP file is stored in a Content Services (deprecated) node named `/Company Home/Form Designs`, as shown in the following illustration. 
-
-![](lc_re_pass_documents_pd.xml)
+An advantage of passing a `com.adobe.idp.Document` object to the Forms service is that other service operations return a `com.adobe.idp.Document` instance. That is, you can get a `com.adobe.idp.Document` instance from another service operation and render it. For example, assume that an XDP file is stored in a Content Services (deprecated) node named `/Company Home/Form Designs`, as shown in the following illustration.
 
 You can programmatically retrieve Loan.xdp from Content Services (deprecated) (deprecated) and pass the XDP file to the Forms service within a `com.adobe.idp.Document` object.
 
@@ -68,13 +66,11 @@ Depending on the type of client application, you can write the form to a client 
 
 [Pass documents to the Forms Service using the web service API](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing.md#pass-documents-to-the-forms-service-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
-
-[Retrieving Content from Content Services (deprecated)](unresolvedlink-lc-cs-api-retrieve-content-rc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffc.2)
+[Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
 ### Pass documents to the Forms Service using the Java API {#pass-documents-to-the-forms-service-using-the-java-api}
 
@@ -86,7 +82,7 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
 
 1. Create a Forms and a Document Management Client API object
 
-    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2).)
+    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
     * Create an `FormsServiceClient` object by using its constructor and passing the `ServiceClientFactory` object.
     * Create a `DocumentManagementServiceClientImpl` object by using its constructor and passing the `ServiceClientFactory` object.
 
@@ -126,11 +122,11 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
 
 [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
 
-[Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd1.2)
+[Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-passing-documents-to-the-forms-service-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Pass documents to the Forms Service using the web service API {#pass-documents-to-the-forms-service-using-the-web-service-api}
 
@@ -205,6 +201,4 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
 
 [Passing Documents to the Forms Service](/help/forms/developing/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing-documents-to-the-forms-service)
 
-[Quick Start (MTOM): Passing documents to the Forms Service using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e17.2)
-
-[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

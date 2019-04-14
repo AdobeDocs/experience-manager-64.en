@@ -26,11 +26,11 @@ However, there are situations where a process cannot be completed synchronously 
 * A process can span organizational boundaries.
 * A process needs external input in order for it to finish. For example, consider a situation where a form is sent to a manager who is out of the office. In this situation, the process is not complete until the manager returns and fills out the form.
 
-  These types of processes are known as long-lived processes. A long-lived process is performed asynchronously, allowing for systems to interact as resources permit and allowing for the tracking and monitoring of the operation. When a long-lived process is invoked, AEM Forms creates an invocation identifier value as part of a record that tracks the long-lived process status. The record is stored in the AEM Forms database. You can purge long-lived process records when they are no longer required. (See [Purging Process Data](/help/forms/developing/processes-tasks.md#purging-process-data).)
+  These types of processes are known as long-lived processes. A long-lived process is performed asynchronously, allowing for systems to interact as resources permit and allowing for the tracking and monitoring of the operation. When a long-lived process is invoked, AEM Forms creates an invocation identifier value as part of a record that tracks the long-lived process status. The record is stored in the AEM Forms database. You can purge long-lived process records when they are no longer required.
 
   ***Note**: AEM Forms does not create a record when a short-lived process is invoked. *
 
-  Using the invocation identifier value, you can track the status of the long-lived process. For example, you can use the process invocation identifier value to perform Process Manager operations such as terminating a running process instance. (See [Terminating Process Instances](/help/forms/developing/processes-tasks.md#terminating-process-instances).)
+  Using the invocation identifier value, you can track the status of the long-lived process. For example, you can use the process invocation identifier value to perform Process Manager operations such as terminating a running process instance.
 
 **Short lived process example**
 
@@ -61,7 +61,7 @@ When this short-lived process is invoked, it performs the following actions:
     * [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref) (web service example)
     * [Invoking AEM Forms using BLOB data over HTTP](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-blob-data-over-http) (web service example)
     * [Invoking AEM Forms using DIME](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-dime) (web service example)
-    * [Invoking the MyApplication/EncryptDocument process using REST](unresolvedlink-lc-in-invoke-using-rest-requests-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b5e.2)
+    * [Invoking the MyApplication/EncryptDocument process using REST](/help/forms/developing/invoking-aem-forms-using-rest.md)
 
 **Long-lived process example**
 

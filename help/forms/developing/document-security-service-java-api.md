@@ -17,11 +17,11 @@ Java API Quick Start(SOAP) is available for the Rights Management service:
 
 [Quick Start (SOAP mode): Creating a policy using the Java API](document-security-service-java-api.md#quick-start-soap-mode-creating-a-policy-using-the-java-api)
 
-[Quick Start (SOAP mode): Modifying a policy using the Java API](unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc0.2)
+[Quick Start (SOAP mode): Modifying a policy using the Java API](#quick-start-soap-mode-modifying-a-policy-using-the-java-api)
 
 [Quick Start (SOAP mode): Deleting a policy using the Java API](document-security-service-java-api.md#quick-start-soap-mode-deleting-a-policy-using-the-java-api)
 
-[Quick Start (SOAP mode): Applying a policy to a PDF document using the Java API](unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7c9d.2)
+[Quick Start (SOAP mode): Applying a policy to a PDF document using the Java API](#quick-start-soap-mode-applying-a-policy-to-a-pdf-document-using-the-java-api)
 
 [Quick Start (SOAP mode): Removing a policy from a PDF document using the Java API](document-security-service-java-api.md#quick-start-soap-mode-removing-a-policy-from-a-pdf-document-using-the-java-api)
 
@@ -36,8 +36,6 @@ Java API Quick Start(SOAP) is available for the Rights Management service:
 [Quick Start(SOAP mode): Modifying a watermark using the Java API](document-security-service-java-api.md#quick-start-soap-mode-modifying-a-watermark-using-the-java-api)
 
 [Quick Start (SOAP mode): Searching for events using the Java API](document-security-service-java-api.md#quick-start-soap-mode-searching-for-events-using-the-java-api)
-
-[Quick Start (SOAP mode): Applying a policy to a Word document using the Java API](unresolvedlink-lc-qs-rights-management-rm.xml#ws624e3cba99b79e12e69a9941333732bac8-7c70.2)
 
 [Quick Start (SOAP mode): Removing a policy from a Word document using the Java API](document-security-service-java-api.md#quick-start-soap-mode-removing-a-policy-from-a-word-document-using-the-java-api)
 

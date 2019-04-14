@@ -112,7 +112,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss) 
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss)
 
-if AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server that AEM Forms is deployed on. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2).
+if AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server that AEM Forms is deployed on. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **Create a PDF Assembler client**
 
@@ -163,9 +163,9 @@ You must extract the results from the returned map object and save the correspon
 
 [Assemble PDF documents with bookmarks using the web service API](/help/forms/developing/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assemble-pdf-documents-with-bookmarks-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
@@ -179,7 +179,7 @@ Assemble a PDF document with bookmarks by using the Assembler Service API (Java)
 
 1. Create a PDF Assembler client.
 
-    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2).)
+    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
     * Create an `AssemblerServiceClient` object by using its constructor and passing the `ServiceClientFactory` object.
 
 1. Reference an existing DDX document.
@@ -237,11 +237,11 @@ Assemble a PDF document with bookmarks by using the Assembler Service API (Java)
 
 [Assembling PDF Documents with Bookmarks](/help/forms/developing/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assembling-pdf-documents-with-bookmarks)
 
-[Quick Start (SOAP mode): Assembling PDF documents with bookmarks using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f75.2)
+[Quick Start (SOAP mode): Assembling PDF documents with bookmarks using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-assembling-pdf-documents-with-bookmarks-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Assemble PDF documents with bookmarks using the web service API {#assemble-pdf-documents-with-bookmarks-using-the-web-service-api}
 
@@ -327,6 +327,4 @@ Assemble a PDF document with bookmarks by using the Assembler Service API (web s
 
 [Assembling PDF Documents with Bookmarks](/help/forms/developing/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assembling-pdf-documents-with-bookmarks)
 
-[Quick Start (MTOM): Assembling PDF documents with bookmarks using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f74.2)
-
-[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

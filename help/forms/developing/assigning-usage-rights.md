@@ -209,10 +209,6 @@ Apply usage rights to a PDF document by using the Acrobat Reader DC Extensions A
 
 [Applying Usage Rights to PDF Documents](assigning-usage-rights.md#applying-usage-rights-to-pdf-documents)
 
-[Quick Start (MTOM): Applying usage rights using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0f.2)
-
-[Quick Start (SwaRef): Applying usage rights using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0e.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -299,7 +295,7 @@ Remove usage rights from a rights-enabled PDF document by using the Acrobat Read
 
 [Removing Usage Rights from PDF Documents](assigning-usage-rights.md#removing-usage-rights-from-pdf-documents)
 
-[Quick Start (SOAP mode): Removing usage rights from a PDF document using the Java API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0b.2)
+[Quick Start (SOAP mode): Removing usage rights from a PDF document using the Java API](/help/forms/developing/acrobat-reader-dc-extensions-service.md#quick-start-soap-mode-removing-usage-rights-from-a-pdf-document-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -351,10 +347,6 @@ Remove usage rights from a rights-enabled PDF document by using the Acrobat Read
 **See also**
 
 [Removing Usage Rights from PDF Documents](assigning-usage-rights.md#removing-usage-rights-from-pdf-documents)
-
-[Quick Start (MTOM): Removing usage rights from a PDF document using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0a.2)
-
-[Quick Start (SwaRef): Removing usage rights from a PDF document using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d05.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -438,7 +430,7 @@ Retrieve credential information by using the Acrobat Reader DC extensions API (J
 
 [Retrieving Credential Information](assigning-usage-rights.md#retrieving-credential-information)
 
-[Quick Start (SOAP mode): Retrieving credential information using the Java API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d02.2)
+[Quick Start (SOAP mode): Retrieving credential information using the Java API](/help/forms/developing/acrobat-reader-dc-extensions-service.md#quick-start-soap-mode-retrieving-credential-information-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -487,10 +479,6 @@ Retrieve credential information using the Acrobat Reader DC extensions API (web 
 **See also**
 
 [Retrieving Credential Information](assigning-usage-rights.md#retrieving-credential-information)
-
-[Quick Start (MTOM): Retrieving credential information using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d01.2)
-
-[Quick Start (SwaRef): Retrieving credential information using the web service API](unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d00.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 

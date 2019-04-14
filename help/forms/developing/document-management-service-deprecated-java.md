@@ -41,7 +41,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 ## Quick Start (SOAP mode): Create Content Services spaces using the Java API (Deprecated) {#quick-start-soap-mode-create-content-services-spaces-using-the-java-api-deprecated}
 
-The following Java code example creates a new space named *Test Directory *located in Company Home. The identification value of the new space is written to the console. (See [Creating Content Services Spaces](unresolvedlink-lc-cs-api-create-spaces-cc.xml#ws624e3cba99b79e12e69a9941333732bac8-7fff.2).)
+The following Java code example creates a new space named *Test Directory *located in Company Home. The identification value of the new space is written to the console.
 
 ```as3
  /* 
@@ -237,7 +237,7 @@ The following Java code example deletes a space named /Company Home/Test Directo
 
 ## Quick Start (SOAP mode): Add content to Content Services using the Java API (Deprecated) {#quick-start-soap-mode-add-content-to-content-services-using-the-java-api-deprecated}
 
-The following Java code example adds a PDF file named *MortgageForm.pdf* to a folder named /Company Home/Test Directory. The creator and description attributes are set. The identification value of the new content is written to the console. (See [Adding Content to Content Services](unresolvedlink-lc-cs-api-add-content-ac.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffd.2).)
+The following Java code example adds a PDF file named *MortgageForm.pdf* to a folder named /Company Home/Test Directory. The creator and description attributes are set. The identification value of the new content is written to the console.
 
 ```as3
  /* 
@@ -360,7 +360,7 @@ The following Java code example adds a PDF file named *MortgageForm.pdf* to a fo
 
 ## Quick Start (SOAP mode): Retrieve content from Content Services using the Java API (Deprecated) {#quick-start-soap-mode-retrieve-content-from-content-services-using-the-java-api-deprecated}
 
-The following Java code example retrieves a PDF file named *MortgageForm.pdf* from /Company Home. The PDF file is saved to the local file system and is named *UpdatedMortgageForm.pdf*. (See [Retrieving Content from Content Services](unresolvedlink-lc-cs-api-retrieve-content-rc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffc.2).)
+The following Java code example retrieves a PDF file named *MortgageForm.pdf* from /Company Home. The PDF file is saved to the local file system and is named *UpdatedMortgageForm.pdf*.
 
 ```as3
  /* 
@@ -466,7 +466,7 @@ The following Java code example retrieves a PDF file named *MortgageForm.pdf* fr
 
 ## Quick Start (SOAP mode): Move Content Services content using the Java API (Deprecated) {#quick-start-soap-mode-move-content-services-content-using-the-java-api-deprecated}
 
-The following Java code example moves a PDF file named *MortgageForm.pdf* from /Company Home/Test Directory to /Company Home. The identification value of the moved content is written to the console. (See [Moving Content Services Content](unresolvedlink-lc-cs-api-move-content-mc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffb.2).)
+The following Java code example moves a PDF file named *MortgageForm.pdf* from /Company Home/Test Directory to /Company Home. The identification value of the moved content is written to the console.
 
 ```as3
  /* 
@@ -567,7 +567,7 @@ The following Java code example moves a PDF file named *MortgageForm.pdf* from /
 
 ## Quick Start (SOAP mode): List Content Services content using the Java API (Deprecated) {#quick-start-soap-mode-list-content-services-content-using-the-java-api-deprecated}
 
-The following Java code example lists content that is located in /Company Home. Each node type and node name is displayed. (See [Listing Content Services Content](unresolvedlink-lc-cs-api-listing-content-lc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffa.2).)
+The following Java code example lists content that is located in /Company Home. Each node type and node name is displayed.
 
 ```as3
  /* 
@@ -680,7 +680,7 @@ The following Java code example lists content that is located in /Company Home. 
 
 ## Quick Start (SOAP mode): Search Content Services content using the Java API (Deprecated) {#quick-start-soap-mode-search-content-services-content-using-the-java-api-deprecated}
 
-The following Java code searches /Company Home for a document that contains the text MortgageForm. The sub folders are also searched. (See [Searching Content Services Content](unresolvedlink-lc-cs-api-search-content-sc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ff9.2).)
+The following Java code searches /Company Home for a document that contains the text MortgageForm. The sub folders are also searched.
 
 ```as3
  /* 
@@ -790,7 +790,7 @@ The following Java code searches /Company Home for a document that contains the 
 
 ## Quick Start (SOAP mode): Setting Content Services Permissions using the Java API (Deprecated) {#quick-start-soap-mode-setting-content-services-permissions-using-the-java-api-deprecated}
 
-The following Java code example sets a permission for a user named tony blue. The domain that is specified is the default domain. The Consumer permission is specified and the node is `/Company Home/Test Directory`. (See [Setting Content Services Permissions](unresolvedlink-lc-cs-api-set-permissions-sp.xml#ws624e3cba99b79e12e69a9941333732bac8-7ff8.2).)
+The following Java code example sets a permission for a user named tony blue. The domain that is specified is the default domain. The Consumer permission is specified and the node is `/Company Home/Test Directory`.
 
 ```as3
  /* 
@@ -900,8 +900,7 @@ The following Java code example sets a permission for a user named tony blue. Th
 
 ## Quick Start (SOAP Mode): Creating Associations using the Java API (Deprecated) {#quick-start-soap-mode-creating-associations-using-the-java-api-deprecated}
 
-The following Java code creates an association an XML data file and a PDF form. This type of association is named LinkedBy.The PDF document must have the aspect linkable applied to it. (See [Creating Content Services Associations](unresolvedlink-lc-cs-api-create-associations-ca.xml#ws624e3cba99b79e12e69a9941333732bac8-7ff7.2).)
-
+The following Java code creates an association an XML data file and a PDF form. This type of association is named LinkedBy.The PDF document must have the aspect linkable applied to it.
 ```as3
  /* 
      * This Java Quick Start uses the SOAP mode and contains the following JAR files 

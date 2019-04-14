@@ -31,7 +31,7 @@ A long-lived process is invoked asynchronously and cannot be invoked synchronous
 * A process can span organizational boundaries.
 * A process needs external input in order for it to finish. For example, consider a situation where a form is sent to a manager, who is out of the office. In this situation, the process is not complete until the manager returns and fills out the form.
 
-When a long-lived process is invoked, AEM Forms creates an invocation identifier value as part of creating a record. The record tracks the status of the long-lived process and is stored in the AEM Forms database. Using the invocation identifier value, you can track the status of the long-lived process. In addition, you can use the process invocation identifier value to perform Process Manager operations such as terminating a running process instance. (See [Terminating Process Instances](/help/forms/developing/processes-tasks.md#terminating-process-instances).)
+When a long-lived process is invoked, AEM Forms creates an invocation identifier value as part of creating a record. The record tracks the status of the long-lived process and is stored in the AEM Forms database. Using the invocation identifier value, you can track the status of the long-lived process. In addition, you can use the process invocation identifier value to perform Process Manager operations such as terminating a running process instance.
 
 >[!NOTE]
 >
@@ -806,7 +806,7 @@ The following C# code example invokes the `FirstAppSolution/PreLoanProcess`proce
 
 >[!NOTE]
 >
->The values located in the getJobDescription user-defined method correspond to values returned by the Job Manager service. (See [Retrieving the Status of an AEM Forms Job](/help/forms/developing/processes-tasks.md#retrieving-the-status-of-an-aem-forms-job).)
+>The values located in the getJobDescription user-defined method correspond to values returned by the Job Manager service.
 
 ### Run the ASP.NET application {#run-the-asp-net-application}
 
@@ -841,8 +841,8 @@ To create a client application built with Flex that is able to invoke the FirstA
 
 1. Start a new Flex project. 
 1. Include the adobe-remoting-provider.swc file in your project’s class path. (See [Including the AEM Forms Flex library file](/help/forms/developing/invoking-aem-forms-using-remoting.md#including-the-aem-forms-flex-library-file).)
-1. Create a `mx:RemoteObject` instance through either ActionScript or MXML. (See [Creating a mx:RemoteObject instance](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba9.2))
-1. Set up a `ChannelSet` instance to communicate with AEM Forms, and associate it with the `mx:RemoteObject` instance. (See [Create a Channel to AEM Forms](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba7.2).)
+1. Create a `mx:RemoteObject` instance through either ActionScript or MXML. (See [Creating a mx:RemoteObject instance](/help/forms/developing/invoking-aem-forms-using-remoting.md))
+1. Set up a `ChannelSet` instance to communicate with AEM Forms, and associate it with the `mx:RemoteObject` instance. (See [Create a Channel to AEM Forms](/help/forms/developing/invoking-aem-forms-using-remoting.md).)
 1. Call the ChannelSet’s `login` method or the service’s `setCredentials` method to specify the user identifier value and password. (See [Using single sign-on](/help/forms/developing/invoking-aem-forms-using-remoting.md#using-single-sign-on).)
 1. Create the XML data source to pass to the `FirstAppSolution/PreLoanProcess` process by creating an XML instance. (This application logic is shown in the following code example.) 
 1. Create an object of type Object by using its constructor. Assign the XML to the object by specifying the name of the process’s input parameter, as shown in the following code:
@@ -854,7 +854,7 @@ To create a client application built with Flex that is able to invoke the FirstA
     params["formData"]=xml;
    ```
 
-1. Invoke the `FirstAppSolution/PreLoanProcess` process by calling the `mx:RemoteObject` instance’s `invoke_Async` method. Pass the `Object` that contains the input parameter. (See [Passing input values](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7baa.2).)
+1. Invoke the `FirstAppSolution/PreLoanProcess` process by calling the `mx:RemoteObject` instance’s `invoke_Async` method. Pass the `Object` that contains the input parameter. (See [Passing input values](/help/forms/developing/invoking-aem-forms-using-remoting.md).)
 1. Retrieve the invocation identification value that is returned from a long-lived process, as shown in the following code:
 
    ```as3

@@ -19,7 +19,7 @@ The Signature service lets your organization protect the security and privacy of
 
 >[!NOTE]
 >
->You can create a custom signature handler for the Signature service that is invoked when certain operations are invoked, such as signing a PDF document. (See [Creating Signature Handlers](unresolvedlink-lc-spi-create-signature-handlers-cs.xml#ws624e3cba99b79e12e69a9941333732bac8-752b.2).)
+>You can create a custom signature handler for the Signature service that is invoked when certain operations are invoked, such as signing a PDF document.
 
 **Signature field names**
 
@@ -200,10 +200,6 @@ To add a signature field by using the Signature API (web service):
 
 **See also**
 
-[Quick Start (MTOM):Adding a signature field using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c52.2)
-
-[Quick Start (SwaRef):Adding a signature field using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c51.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -337,10 +333,6 @@ Retrieve signature field names using the Signature API (web service):
 **See also**
 
 [Retrieving Signature Field Names](digitally-signing-certifying-documents.md#retrieving-signature-field-names)
-
-[Quick Start (MTOM): Retrieving signature field names using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c4d.2)
-
-[Quick Start (SwaRef): Retrieving signature field names using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c4c.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -547,10 +539,6 @@ Modify a signature field by using the Signature API (web service):
     * Write the contents of the byte array to a PDF file by invoking the `System.IO.BinaryWriter` object’s `Write` method and passing the byte array.
 
 **See also**
-
-[Quick Start (MTOM): Modifying a signature field using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c48.2)
-
-[Quick Start (SwaRef): Modifying a signature field using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c47.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -813,10 +801,6 @@ To digitally sign a PDF document by using the Signature API (web service):
 
 [Digitally Signing PDF Documents](digitally-signing-certifying-documents.md#digitally-signing-pdf-documents)
 
-[Quick Start (MTOM): Digitally signing a PDF document using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c42.2)
-
-[Quick Start (SwaRef): Digitally signing a PDF document using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c41.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -1064,8 +1048,6 @@ Digitally sign an interactive form by using the Forms and Signature API (web ser
 
 [Digitally Signing Interactive Forms](digitally-signing-certifying-documents.md#digitally-signing-interactive-forms)
 
-[Quick Start (MTOM): Digitally signing a PDF document using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c42.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 ## Certifying PDF Documents {#certifying-pdf-documents}
@@ -1287,10 +1269,6 @@ Certify a PDF document by using the Signature API (web service):
 **See also**
 
 [Certifying PDF Documents](digitally-signing-certifying-documents.md#certifying-pdf-documents)
-
-[Quick Start (MTOM): Certifying a PDF document using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c19.2)
-
-[Quick Start (SwaRef): Certifying a PDF document using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c18.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -1523,10 +1501,6 @@ Verify a digital signature by using the Signature Service API (web service):
 
 [Verifying Digital Signatures](#unresolvedlink-lc-si)
 
-[Quick Start (MTOM): Verifying a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c14.2)
-
-[Quick Start (SwaRef): Verifying a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c13.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -1737,10 +1711,6 @@ Verify multiple digital signatures by using the Signature Service API (web servi
 
 [Verifying Multiple Digital Signatures](#unresolvedlink-lc-si)
 
-[Quick Start (MTOM): Verifying multiple digital signatures using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c0f.2)
-
-[Quick Start (MTOM): Verifying multiple digital signatures using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c0f.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -1813,7 +1783,7 @@ Remove a digital signature by using the Signature API (Java):
 
    Include client JAR files, such as adobe-signatures-client.jar, in your Java project’s class path. 
 
-1. [Create a Signature client](unresolvedlink-lc-si-remove-digital-signatures-rd.xml#ws624e3cba99b79e12e69a9941333732bac8-7457.2)
+1. Create a Signature client.
 
     * Create a `ServiceClientFactory` object that contains connection properties. 
     * Create a `SignatureServiceClient` object by using its constructor and passing the `ServiceClientFactory` object.
@@ -1899,10 +1869,6 @@ Remove a digital signature by using the Signature API (web service):
 **See also**
 
 [Removing Digital Signatures](digitally-signing-certifying-documents.md#removing-digital-signatures)
-
-[Quick Start (MTOM): Removing a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c07.2)
-
-[Quick Start (SwaRef): Removing a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c06.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 

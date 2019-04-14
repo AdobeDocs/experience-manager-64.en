@@ -71,15 +71,13 @@ Use the Document Management service API to store a PDF document in Content Servi
 
 [Create a PDF Document with submitted XML data using the Java API](/help/forms/developing/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml creating-pdf-documents-submitted-xml.md#create-a-pdf-document-with-submitted-xml-data-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
 [Creating PDF Documents](/help/forms/developing/creating-document-output-streams-creating creating-document-output-streams-creating.md#creating-pdf-documents)
-
-[Adding Content to Content Services (deprecated)](unresolvedlink-lc-cs-api-add-content-ac.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffd.2)
 
 ### Create a PDF Document with submitted XML data using the Java API {#create-a-pdf-document-with-submitted-xml-data-using-the-java-api}
 
@@ -148,8 +146,6 @@ Create a PDF document with submitted XML data by using the Forms, Output, and Do
 
 [Creating PDF Documents with Submitted XML Data](/help/forms/developing/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml.md#creating-pdf-documents-with-submitted-xml-data)
 
-[Quick Start (EJB mode): Creating PDF Documents with submitted XML data using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd2.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
-
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)

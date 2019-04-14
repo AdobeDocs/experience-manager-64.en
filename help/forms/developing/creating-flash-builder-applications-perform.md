@@ -21,7 +21,7 @@ Although the client application contains required application logic to perform S
 >
 >Before reading this section, it is recommended that you are familair with Invoking AEM Forms using Remoting. (See [Invoking AEM Forms using AEM Forms Remoting](/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting).)
 
-The following AEM Forms short-lived process, named `MyApplication/EncryptDocument`, is invoked after a user is authenticated using SSO. (For information about this process such as its input and output values, see [Short lived process example](unresolvedlink-lc-in-invoke-using-apis-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b77.2).)
+The following AEM Forms short-lived process, named `MyApplication/EncryptDocument`, is invoked after a user is authenticated using SSO. (For information about this process such as its input and output values, see [Short lived process example](/help/forms/developing/aem-forms-processes.md).)
 
 ![](assets/cf_cf_encryptdocumentprocess2.png)
 
