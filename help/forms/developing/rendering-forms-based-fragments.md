@@ -86,11 +86,11 @@ When the Forms service renders a form, it returns a form data stream that you mu
 
 [Render forms based on fragments using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering rendering-forms-based-fragments-rendering.md#render-forms-based-on-fragments-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
 [Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
 
@@ -142,11 +142,11 @@ Render a form based on fragments by using the Forms API (Java):
 
 [Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering-forms-based-on-fragments)
 
-[Quick Start (SOAP mode): Rendering a form based on fragments using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e3c.2)
+[Quick Start (SOAP mode): Rendering a form based on fragments using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-rendering-a-form-based-on-fragments-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Render forms based on fragments using the web service API {#render-forms-based-on-fragments-using-the-web-service-api}
 
@@ -198,6 +198,4 @@ Render a form based on fragments using the Forms API (web service):
 
 [Rendering Forms Based on Fragments](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering-forms-based-on-fragments)
 
-[Quick Start (Base64): Rendering a form based on fragments using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e3b.2)
-
-[Invoking AEM Forms using Base64 encoding](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

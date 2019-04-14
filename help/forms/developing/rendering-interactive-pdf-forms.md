@@ -18,8 +18,6 @@ discoiquuid: 3cb307ec-9b7b-4f03-b860-48553ccee746
 
 The Forms service renders interactive PDF forms to client devices, typically web browsers, to collect information from users. After an interactive form is rendered, a user can enter data into form fields and click a submit button located on the form to send information back to the Forms service. Adobe Reader or Acrobat must be installed on the computer hosting the client web browser in order for an interactive PDF form to be visible.
 
-![](lc_re_render_interactive_forms_ri.xml)
-
 >[!NOTE]
 >
 >Before you can render a form using the Forms service, create a form design. Typically, a form design is created in Designer and is saved as an XDP file. For information about creating a form design, see [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63).
@@ -46,7 +44,7 @@ The following table describes the steps in this diagram.
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">GetLoanForm</span> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="help/forms/developing/rendering-interactive-pdf-forms.md#render-an-interactive-pdf-form-using-the-java-api">Render an interactive PDF form using the Java API</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">GetLoanForm</span> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Render an interactive PDF form using the Java API</a>.)</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>3</p></td> 
@@ -58,7 +56,7 @@ The following table describes the steps in this diagram.
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>5</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>A confirmation form is rendered back to the web browser. Data such as the user’s first and last name is merged with the form before it is rendered. (See <a href="/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-with-flowable-layouts">Prepopulating Forms with Flowable Layouts</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>A confirmation form is rendered back to the web browser. Data such as the user’s first and last name is merged with the form before it is rendered. (See <a href="/help/forms/developing/prepopulating-forms-flowable-layouts.md">Prepopulating Forms with Flowable Layouts</a>.)</p></td> 
   </tr> 
  </tbody> 
 </table>

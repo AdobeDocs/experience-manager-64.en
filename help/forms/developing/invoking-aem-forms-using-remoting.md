@@ -23,7 +23,7 @@ Processes created in Workbench can be invoked by using Remoting. That is, you ca
 >
 >If a AEM Forms service is not configured to allow anonymous access, requests from a Flex client result in a web browser challenge. The user must enter user name and password credentials.
 
-The following AEM Forms short-lived process, named `MyApplication/EncryptDocument`, can be invoked using Remoting. (For information about this process such as its input and output values, see [Short lived process example](unresolvedlink-lc-in-invoke-using-apis-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b77.2).)
+The following AEM Forms short-lived process, named `MyApplication/EncryptDocument`, can be invoked using Remoting. (For information about this process such as its input and output values, see [Short lived process example](/help/forms/developing/aem-forms-processes.md).)
 
 ![](assets/iu_iu_encryptdocumentprocess2.png)
 
@@ -275,12 +275,12 @@ AEM Forms process output parameters are deserialized into ActionScript objects f
 
 You can invoke the `MyApplication/EncryptDocument` process by performing the following steps:
 
-1. Create a `mx:RemoteObject` instance through either ActionScript or MXML. (See [Creating a mx:RemoteObject instance](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba9.2))
-1. Set up a `ChannelSet` instance to communicate with AEM Forms, and associate it with the `mx:RemoteObject` instance. (See [Create a Channel to AEM Forms](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba7.2).)
+1. Create a `mx:RemoteObject` instance through either ActionScript or MXML. See Creating a mx:RemoteObject instance.
+1. Set up a `ChannelSet` instance to communicate with AEM Forms, and associate it with the `mx:RemoteObject` instance. See Create a Channel to AEM Forms.
 1. Call the ChannelSet’s `login` method or the service’s `setCredentials` method to specify the user identifier value and password. (See [Using single sign-on](invoking-aem-forms-using-remoting.md#using-single-sign-on).)
 1. Populate an `mx.rpc.livecycle.DocumentReference` instance with an unsecured PDF document to pass to the `MyApplication/EncryptDocument` process. (See [Passing a document as an input parameter](invoking-aem-forms-using-remoting.md#passing-a-document-as-an-input-parameter).)
-1. Encrypt the PDF document by calling the `mx:RemoteObject` instance’s `invoke` method. Pass the `Object` that contains the input parameter (which is the unsecured PDF document). (See [Passing input values](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7baa.2).)
-1. Retrieve the password-encrypted PDF document that is returned from the process. (See [Handling return values](unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba5.2).)
+1. Encrypt the PDF document by calling the `mx:RemoteObject` instance’s `invoke` method. Pass the `Object` that contains the input parameter (which is the unsecured PDF document). See Passing input values.
+1. Retrieve the password-encrypted PDF document that is returned from the process. See Handling return values.
 
 [Quick Start: Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](/help/forms/developing/invocation-api-quick-starts.md#quick-start-invoking-a-short-lived-process-by-passing-an-unsecure-document-using-deprecated-for-aem-forms-aem-forms-remoting)
 
@@ -882,7 +882,7 @@ if AEM Forms is configured to only allow secure documents to be uploaded and the
 
 ## Invoking custom component services using Remoting {#invoking-custom-component-services-using-remoting}
 
-You can invoke services located in a custom component using Remoting. For example, consider the Bank component that contains the Customer service. You can invoke operations that belong to the Customer service using a client application written in Flex. Before you can execute the quick start associated with this section, you have to create the Bank custom component. (See [Creating Components That Use Custom Data Types](unresolvedlink-lc-co-create-components-custom-data-types-cc.xml#ws624e3cba99b79e12e69a9941333732bac8-7b86.2).)
+You can invoke services located in a custom component using Remoting. For example, consider the Bank component that contains the Customer service. You can invoke operations that belong to the Customer service using a client application written in Flex. Before you can execute the quick start associated with this section, you have to create the Bank custom component.
 
 The Customer service exposes an operation named `createCustomer`. This discussion describes how to create a Flex client application that invokes the Customer service and creates a customer. This operation requires a complex object of type `com.adobe.livecycle.sample.customer.Customer` that represents the new customer. The following illustration shows the client application that invokes the Customer service and creates a new customer. The `createCustomer` operation returns a customer identifier value. The identifier value is displayed in the Customer Identifier text box.
 
@@ -962,7 +962,7 @@ The following ActionScript class named Customer shows how to map to the AEM Form
 
 The fully qualified data type of the AEM Forms complex type is assigned to the alias tag.
 
-The ActionScript class's fields match the fields that belong to the AEM Forms complex type. The six fields located in the Customer ActionScript class match the fields that belong to `com.adobe.livecycle.sample.customer.Customer`. (See [Defining the Customer class](unresolvedlink-lc-co-create-components-custom-data-types-cc.xml#ws624e3cba99b79e12e69a9941333732bac8-7b7d.2).)
+The ActionScript class's fields match the fields that belong to the AEM Forms complex type. The six fields located in the Customer ActionScript class match the fields that belong to `com.adobe.livecycle.sample.customer.Customer`.
 
 >[!NOTE]
 >
@@ -978,7 +978,7 @@ The following code example invokes the Customer service and creates a new custom
 
 >[!NOTE]
 >
->Before you can execute this quick start, you have to create and deploy the Bank custom component. (See [Creating Components That Use Custom Data Types](unresolvedlink-lc-co-create-components-custom-data-types-cc.xml#ws624e3cba99b79e12e69a9941333732bac8-7b86.2).)
+>Before you can execute this quick start, you have to create and deploy the Bank custom component.
 
 ```as3
  <?xml version="1.0" encoding="utf-8"?> 

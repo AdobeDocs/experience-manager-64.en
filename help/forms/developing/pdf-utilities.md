@@ -19,7 +19,7 @@ The PDF Utilities service can convert between PDF and XDP file formats, set and 
 
 You can accomplish these tasks using the PDF Utilities service:
 
-* Convert PDF documents to XDP documents. (See [Converting PDF Documents into XDP Documents](lc_ut_convert_pdf_into_xdp_cp.md#ws624e3cba99b79e12e69a9941333732bac8-7d40).)
+* Convert PDF documents to XDP documents.
 * Convert XDP documents to PDF documents. (See [Converting XDP Documents into PDF Documents](pdf-utilities.md#converting-xdp-documents-into-pdf-documents).)
 * Retrieve PDF document properties. (See [Retrieving PDF Document Properties](pdf-utilities.md#retrieving-pdf-document-properties).)
 * Save a PDF document and optimize it for fast web viewing. (See [Setting PDF Document Save Modes](pdf-utilities.md#setting-pdf-document-save-modes).)
@@ -111,8 +111,6 @@ Convert PDF documents into XDP documents by using the PDF Utilities API (web ser
 
 [Converting PDF Documents into XDP Documents](pdf-utilities.md#converting-pdf-documents-into-xdp-documents)
 
-[Quick Start (Base64): Converting a PDF document to an XDP document using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2c.2)
-
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
 
 [Creating a .NET client assembly that uses Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#creating-a-net-client-assembly-that-uses-base64-encoding)
@@ -199,8 +197,6 @@ Convert XDP documents into PDF documents by using the PDF Utilities API (web ser
 **See also**
 
 [Converting XDP Documents into PDF Documents](pdf-utilities.md#converting-xdp-documents-into-pdf-documents)
-
-[Quick Start (Base64): Converting an XDP document to a PDF document using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2f.2)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
 
@@ -298,8 +294,6 @@ Retrieve PDF document properties by using the PDF Utilities web service API:
 **See also**
 
 [Retrieving PDF Document Properties](pdf-utilities.md#retrieving-pdf-document-properties)
-
-[Quick Start (Base64): Retrieving PDF document properties using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2b.2)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
 
@@ -437,8 +431,6 @@ Set the PDF document save options by using the PDF Utilities AP (web service):
 **See also**
 
 [Setting PDF Document Save Modes](pdf-utilities.md#setting-pdf-document-save-modes)
-
-[Quick Start (Base64): Setting the save style for a PDF document using the web service API](unresolvedlink-lc-qs-pdf-utilities-pu.xml#ws624e3cba99b79e12e69a9941333732bac8-7d2a.2)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
 

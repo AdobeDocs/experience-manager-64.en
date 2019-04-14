@@ -99,8 +99,6 @@ The following items describe how you can customize a toolbar:
 
 As part of customizing a toolbar, you can change the locale value of the toolbar. That is, you can display it in another language. The following illustration shows a custom toolbar that is displayed in French.
 
-![](lc_re_render_forms_custom_toolbar_rf.xml)
-
 >[!NOTE]
 >
 >It is not possible to create a custom toolbar in more than one language. Toolbars cannot use different XML files based on the locale settings.
@@ -190,11 +188,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Rendering an HTML Form with a custom toolbar using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars.md#rendering-an-html-form-with-a-custom-toolbar-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
 [Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
 
@@ -254,11 +252,11 @@ Render an HTML Form that contains a custom toolbar by using the Forms Service AP
 
 [Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering-html-forms-with-custom-toolbars)
 
-[Quick Start (SOAP mode): Rendering an HTML Form with a custom toolbar using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e33.2)
+[Quick Start (SOAP mode): Rendering an HTML Form with a custom toolbar using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-rendering-an-html-form-with-a-custom-toolbar-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ### Rendering an HTML Form with a custom toolbar using the web service API {#rendering-an-html-form-with-a-custom-toolbar-using-the-web-service-api}
 
@@ -318,6 +316,4 @@ Render an HTML form that contains a custom toolbar by using the Forms Service AP
 
 [Rendering HTML Forms with Custom Toolbars](/help/forms/developing/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering-html-forms-with-custom-toolbars)
 
-[Quick Start (Base64): Rendering an HTML Form with a custom toolbar using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2f.2)
-
-[Invoking AEM Forms using Base64 encoding](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

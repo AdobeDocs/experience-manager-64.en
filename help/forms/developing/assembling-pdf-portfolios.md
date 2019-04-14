@@ -118,9 +118,9 @@ A PDF Portfolio is returned within a collection object. Iterate through the coll
 
 [Assemble a PDF Portfolio using the web service API](/help/forms/developing/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assemble-a-pdf-portfolio-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
@@ -179,11 +179,11 @@ Assemble a PDF Portfolio by using the Assembler Service API (Java):
 
 [Assembling PDF Portfolios](/help/forms/developing/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assembling-pdf-portfolios)
 
-[Quick Start (SOAP mode): Assembling PDF Portfolios using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f67.2)
+[Quick Start (SOAP mode): Assembling PDF Portfolios using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-assembling-pdf-portfolios-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Assemble a PDF Portfolio using the web service API {#assemble-a-pdf-portfolio-using-the-web-service-api}
 
@@ -258,10 +258,6 @@ Assemble a PDF Portfolio by using the Assembler Service API (web service):
 
 [Assembling PDF Portfolios](/help/forms/developing/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assembling-pdf-portfolios)
 
-[Quick Start (MTOM): Assembling PDF Portfolios using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f66.2)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Quick Start (SwaRef mode): Assembling PDF Portfolios using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f65.2)
-
-[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
-
-[Invoking AEM Forms using SwaRef](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe6.2)
+[Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)

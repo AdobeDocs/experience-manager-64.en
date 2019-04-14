@@ -69,7 +69,7 @@ Most Quick Starts located in *Programming with AEM Forms *invoke a specific serv
 
 [Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-passing-documents-to-the-forms-service-using-the-java-api) (invokes the Forms and Document Management service)
 
-[Quick Start (SOAP mode): Digitally signing a XFA-based Form using the Java API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd0.2) (invokes the Forms and Signature service)
+[Quick Start (SOAP mode): Digitally signing a XFA-based Form using the Java API](/help/forms/developing/signature-service-java-api-quick.md#quick-start-soap-mode-digitally-signing-a-xfa-based-form-using-the-java-api) (invokes the Forms and Signature service)
 
 [Quick Start (SOAP mode): Managing roles and permissions using the Java API](/help/forms/developing/user-manager-java-api-quick.md#quick-start-soap-mode-managing-roles-and-permissions-using-the-java-api) (invokes the DirectoryManager and the AuthorizationManager service )
 

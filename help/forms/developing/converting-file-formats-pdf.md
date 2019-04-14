@@ -239,10 +239,6 @@ Convert a Microsoft Word document to a PDF document by using the Generate PDF AP
 
 [Summary of steps](converting-file-formats-pdf.md#summary-of-steps)
 
-[Quick Start (MTOM): Converting a Microsoft Word document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7de0.2)
-
-[Quick Start (SwaRef): Converting a Microsoft Word document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd0.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -334,7 +330,7 @@ Convert an HTML document to a PDF document using the Generate PDF API (Java):
 
 [Converting HTML Documents to PDF Documents](converting-file-formats-pdf.md#converting-html-documents-to-pdf-documents)
 
-[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7ddb.2)
+[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick-start-soap-mode-converting-html-content-to-a-pdf-document-using-the-java-api)
 
 [Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](/help/forms/developing/generate-pdf-service-java-api.md#quick-start-soap-mode-converting-html-content-to-a-pdf-document-using-the-java-api)
 
@@ -392,10 +388,6 @@ Convert HTML content to a PDF document by using the Generate PDF API (web servic
 **See also**
 
 [Converting HTML Documents to PDF Documents](converting-file-formats-pdf.md#converting-html-documents-to-pdf-documents)
-
-[Quick Start (MTOM): Converting an HTML document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd9.2)
-
-[Quick Start (SwaRef): Converting an HTML document to a PDF document using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dcb.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -552,10 +544,6 @@ Convert a PDF document to an RTF file by using the Generate PDF API (web service
 
 [Summary of steps](converting-file-formats-pdf.md#summary-of-steps)
 
-[Quick Start (MTOM): Converting a PDF document to an RTF file using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dd6.2)
-
-[Quick Start (SwaRef): Converting a PDF document to an RTF file using the web service API](unresolvedlink-lc-qs-generate-pdf-gp.xml#ws624e3cba99b79e12e69a9941333732bac8-7dc5.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -574,9 +562,7 @@ This section also explains the following:
 
 The Generate PDF service converts native file formats by invoking the application associated with the file format and then interacting with the application to print the document using the default printer. The default printer must be set up as the Adobe PDF printer.
 
-This illustration shows the components and drivers involved with native application support. It also mentions the XML grammars that influence the interactions. 
-
-![](lc_add_support_native_file_formats_as.xml)
+This illustration shows the components and drivers involved with native application support. It also mentions the XML grammars that influence the interactions.
 
 Component interactions for native file conversion
 

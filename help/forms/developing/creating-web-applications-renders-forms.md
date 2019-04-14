@@ -24,8 +24,6 @@ You can create a web-based application that uses Java servlets to invoke the For
 
 Using a Java servlet, you can write a form to a client web browser so that a customer can view and enter data into the form. After populating the form with data, the web user clicks a submit button located on the form to send information back to the Java servlet, where the data can be retrieved and processed. For example, the data can be sent to another process.
 
-![](lc_re_create_web_applications_render_forms_cw.xml)
-
 This section discusses how to create a web-based application that enables the user to select either American-based form data or Canadian-based form data, as shown in the following illustration. 
 
 ![](assets/cw_cw_fragmentwebclient.png)
@@ -86,7 +84,7 @@ The following list specifies the JAR files that you must add to your web project
 * adobe-usermanager-client.jar
 * adobe-utilities.jar
 
-For the location of these JAR files, see [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2).
+For the location of these JAR files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 
 **To create a web project:**
 
@@ -137,9 +135,9 @@ Normally, you would not place client code within a Java servlet’s `doGet` or `
 
 To render a form based on fragments using the Forms service API, perform the following tasks:
 
-1. Include client JAR files, such as adobe-forms-client.jar, in your Java project’s class path. For information about the location of these files, see [Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2).
+1. Include client JAR files, such as adobe-forms-client.jar, in your Java project’s class path. For information about the location of these files, see [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files).
 1. Retrieve the value of the radio button that is submitted from the HTML form and specifies whether to use American or Canadian data. If American is submitted, create a `com.adobe.idp.Document` that stores data located in the *Purchase Order US.xml*. Likewise, if Canadian, then create a `com.adobe.idp.Document` that stores data located in the *Purchase Order Canada.xml* file.
-1. Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2).)
+1. Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)
 1. Create an `FormsServiceClient` object by using its constructor and passing the `ServiceClientFactory` object. 
 1. Create a `URLSpec` object that stores URI values by using its constructor. 
 1. Invoke the `URLSpec` object’s `setApplicationWebRoot` method and pass a string value that represents the application’s web root.

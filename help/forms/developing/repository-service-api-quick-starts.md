@@ -39,9 +39,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 **Applications/FormsApplication **
 
-Most AEM Forms repository service quick starts interact with an application named `Applications/FormsApplication,` as shown in the following illustration. 
-
-![](lc_qs_repository_re.xml)
+Most AEM Forms repository service quick starts interact with an application named `Applications/FormsApplication,` as shown in the following illustration.
 
 The folder FormsFolder is a location in the AEM Forms repository. You can, for example, programmatically add this folder to `Applications/FormsApplication`. (See [Quick Start (SOAP mode): Creating a folder using the Java API](repository-service-api-quick-starts.md#quick-start-soap-mode-creating-a-folder-using-the-java-api).)
 

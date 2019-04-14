@@ -74,8 +74,6 @@ Validate a DDX document by using the Assembler Service API (web service):
 
 **See also**
 
-[Validating DDX Documents](/help/forms/developing/validating-ddx-documents-validating-ddx.md#validating-ddx-documents)
+[Validating DDX Documents](/help/forms/developing/validating-ddx-documents.md#validating-ddx-documents)
 
-[Quick Start (MTOM): Validating DDX documents using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f79.2)
-
-[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

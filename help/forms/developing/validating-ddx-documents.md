@@ -77,9 +77,9 @@ The Assembler service returns the validation results that you can write to a XML
 
 [Validate a DDX document using the web service API](/help/forms/developing/validating-ddx-documents-validating-ddx validate-ddx-document-using-web.md#validate-a-ddx-document-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
@@ -129,13 +129,13 @@ Validate a DDX document by using the Assembler Service API (Java):
 
 **See also**
 
-[Validating DDX Documents](validating-ddx-documents-validating-ddx.md#validating-ddx-documents)
+[Validating DDX Documents](#validating-ddx-documents)
 
-[Quick Start (SOAP mode): Validating DDX documents using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7a.2) (SOAP mode)
+[Quick Start (SOAP mode): Validating DDX documents using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-validating-ddx-documents-using-the-java-api) (SOAP mode)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Validate a DDX document using the web service API {#validate-a-ddx-document-using-the-web-service-api}
 
@@ -200,8 +200,6 @@ Validate a DDX document by using the Assembler Service API (web service):
 
 **See also**
 
-[Validating DDX Documents](validating-ddx-documents-validating-ddx.md#validating-ddx-documents)
+[Validating DDX Documents](#validating-ddx-documents)
 
-[Quick Start (MTOM): Validating DDX documents using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f79.2)
-
-[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
