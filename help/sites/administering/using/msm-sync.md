@@ -302,7 +302,7 @@ The following table describes the properties that you can configure:
 
 >[!NOTE]
 >
->In the touch-optimized UI see also [Configuring MSM Locks on Page Properties (Touch-Optimized UI)](../../../sites/developing/using/extending-msm.md#configuringmsmlocksonpagepropertiestouchoptimizedui).
+>In the touch-enabled UI see also [Configuring MSM Locks on Page Properties)](../../../sites/developing/using/extending-msm.md).
 
 #### CQ MSM Content Update Action - Exclusions {#cq-msm-content-update-action-exclusions}
 

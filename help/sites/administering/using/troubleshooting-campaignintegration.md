@@ -51,7 +51,7 @@ To fix this issue, change the following in **$CAMPAIGN_HOME/conf/config-&lt;inst
 
 ## If no data displays in the Adobe Campaign dialog {#if-no-data-displays-in-the-adobe-campaign-dialog}
 
-In Adobe Campaign, ensure that you have no trailing slash (/) after the port number. See [Configuring an external AEM account](#configuringanexternalaemaccount).
+In Adobe Campaign, ensure that you have no trailing slash (/) after the port number.
 
 ![](assets/chlimage_1-149.png) 
 
@@ -71,7 +71,7 @@ Use the following workaround:
 
 1. Open file **$CAMPAIGN_HOME/datakit/nms/fra/js/amcIntegration.js**
 1. Modify line 467 of method “amcGetSeedMetaData” 
-1. Change “label : [inclView.@label](mailto:inclView.@label)” into “label : String([inclView.@label](mailto:inclView.@label))”
+1. Change `label : [inclView.@label](mailto:inclView.@label)` to `label : String([inclView.@label](mailto:inclView.@label))`
 
 1. Save.
 1. Relaunch the server.
@@ -80,7 +80,7 @@ Use the following workaround:
 
 If when clicking the **Synchronize** button in Adobe Campaign Classic, you see the following error:
 
-**Error while executing the method ‘aemListContent' of service ' [nms:delivery](https://nmsdelivery/)'**
+`Error while executing the method ‘aemListContent' of service [nms:delivery](https://nmsdelivery/)`
 
 To fix this issue, make sure the AEM connection-url configured in the External Accounts is reachable from the machine.
 

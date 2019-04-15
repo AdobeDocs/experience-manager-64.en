@@ -43,7 +43,7 @@ Ensure that you have installed the latest [Security Hotfixes provided by Adobe](
 
 ### Change Default Passwords For the AEM and OSGi Console Admin Accounts {#change-default-passwords-for-the-aem-and-osgi-console-admin-accounts}
 
-Adobe strongly recommends that after installation you change the password for the privileged [**AEM** `admin` accounts](#changingthecqadminpassword) (on all instances).
+Adobe strongly recommends that after installation you change the password for the privileged [**AEM** `admin` accounts](#changing-the-aem-admin-password) (on all instances).
 
 These accounts include:
 
@@ -76,7 +76,7 @@ For more information on changing the web console password, see [Changing the OSG
 
 #### Changing the OSGi web console admin password {#changing-the-osgi-web-console-admin-password}
 
-You must also change the password used for accessing the Web console. This is done by configuring the following properties of the [Apache Felix OSGi Management Console](../../../sites/deploying/using/osgi-configuration-settings.md#apachefelixosgimanagementconsole):
+You must also change the password used for accessing the Web console. This is done by configuring the following properties of the [Apache Felix OSGi Management Console](../../../sites/deploying/using/osgi-configuration-settings.md:
 
 **User Name** and **Password**, the credentials for accessing the Apache Felix Web Management Console itself.  
 The password must be changed after the initial installation to ensure the security of your instance.
@@ -204,26 +204,26 @@ Some OSGI settings are set by default to allow easier debugging of the applicati
 
 For each of the following services the specified settings need to be changed:
 
-* [Adobe Granite HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md#daycqhtmllibrarymanager):
+* [Adobe Granite HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md:
 
     * enable **Minify** (to remove CRLF and whitespace characters).
     * enable **Gzip** (to allow files to be gzipped and accessed with one request).
     * disable **Debug**
     * disable **Timing**
 
-* [Day CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md#daycqwcmdebugfilter):
+* [Day CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md):
 
     * uncheck **Enable**
 
-* [Day CQ WCM Filter](../../../sites/deploying/using/osgi-configuration-settings.md#daycqwcmfilter):
+* [Day CQ WCM Filter](../../../sites/deploying/using/osgi-configuration-settings.md):
 
     * on publish only, set **WCM Mode** to "disabled"
 
-* [Apache Sling Java Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingjavascripthandler):
+* [Apache Sling Java Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md):
 
     * disable **Generate Debug Info**
 
-* [Apache Sling JSP Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingjspscripthandler):
+* [Apache Sling JSP Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md):
 
     * disable **Generate Debug Info**
     * disable **Mapped Content**
@@ -283,9 +283,9 @@ To help prevent DoS misuse you can:
       `http://localhost:4502/.json`  
       could dump the whole repository in a JSON representation. This would cause significant server problems. For this reason Sling sets a limit on the number of maximum results. To limit the depth of the JSON rendering you can set the value for:  
       **JSON Max results** ( `json.maximumresults`)  
-      in the configuration for the [Apache Sling GET Servlet](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslinggetservlet). When this limit is exceeded the rendering will be collapsed. The default value for Sling within AEM is `200`.  
+      in the configuration for the [Apache Sling GET Servlet](../../../sites/deploying/using/osgi-configuration-settings.md). When this limit is exceeded the rendering will be collapsed. The default value for Sling within AEM is `200`.  
     
-    * As a preventive measure disable the other default renderers (HTML, plain text, XML). Again by configuring the [Apache Sling GET Servlet](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslinggetservlet).
+    * As a preventive measure disable the other default renderers (HTML, plain text, XML). Again by configuring the [Apache Sling GET Servlet](../../../sites/deploying/using/osgi-configuration-settings.md).
 
    >[!CAUTION]
    >
@@ -305,7 +305,7 @@ Since AEM does not provide out of the box indexes for the `FormChooserServlet`, 
 
 In order to mitigate this, please follow the below steps:
 
-1. Go to the Web Console by pointing your browser to *https://serveraddress:serverport/system/console/configMgr* 
+1. Go to the Web Console by pointing your browser to *https://&lt;serveraddress&gt;:&lt;serverport&gt;/system/console/configMgr* 
 
 1. Search for **Day CQ WCM Form Chooser Servlet**
 1. After you click on the entry, disable the **Advanced Search Require** in the following window.  
@@ -414,7 +414,7 @@ In AEM 6.2 and older versions, the keys are stored in the repository under the `
 
 The recommended way to securely replicate the keys across your instances is to only replicate this node. You can selectively replicate nodes via CRXDE Lite:
 
-1. Open CRXDE Lite by going to *https://serrveraddress:4502/crx/de/index.jsp*
+1. Open CRXDE Lite by going to *https://&lt;serrveraddress&gt;:4502/crx/de/index.jsp*
 1. Select the `/etc/key` node. ``
 1. Go to the **Replication** tab.
 1. Press the **Replication** button.

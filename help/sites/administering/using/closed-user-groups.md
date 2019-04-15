@@ -127,7 +127,7 @@ The default AEM setup now makes use of this confguration by allowing to set the 
 
 Adding the `granite:AuthenticationRequired` mixin type within the configured supported paths will cause the OSGi registration of the responsible handler to be updated containing an new, additional entry with the `sling.auth.requirements` property. If a given authentication requirement specifes the optional `granite:loginPath` property, the value is additionally registered with the Authenticator with a '-' prefix in order to be excluded from authentication requirement.
 
-#### Evaluation and Inheritence of the Authentication Requirement {#evaluation-and-inheritence-of-the-authentication-requirement}
+#### Evaluation and Inheritance of the Authentication Requirement {#evaluation-and-inheritance-of-the-authentication-requirement}
 
 Apache Sling authentication requirements are expected to be inherited through the page or node hierarchy. The very details of the inheritance and the evaluation of the authentication requirements such as order and precedence are considered an implementation detail and will not be documented in this article.
 
@@ -417,7 +417,7 @@ session.save();
 
 #### Retrieve Effective Auth Requirements {#retrieve-effective-auth-requirements}
 
-There is no dedicated public API to read all efective authentication requirements as registered with the Apache Sling Authenticator. However, the list is exposed in the system console at *https://serveraddress:serverport/system/console/slingauth* under the "**Authentication Requirement Confguration**" section.
+There is no dedicated public API to read all efective authentication requirements as registered with the Apache Sling Authenticator. However, the list is exposed in the system console at `https://<serveraddress>:<serverport>/system/console/slingauth` under the "**Authentication Requirement Confguration**" section.
 
 The following image shows the authentication requirements of an AEM publish instance with demo content. The highlighted path of the community page illustrates how a requirement added by the implementation described in this document is reflected in the Apache Sling Authenticator.
 
@@ -441,7 +441,7 @@ Like with the login path, there is no public API to retrieve the inherited authe
 >
 >It is recommended to rely on the inheritance mechanism both for authentication requirements and login path and avoid creation of nested auth requirements.
 >
->For more information see [Evaluation and Inheritance of Authentication Requirement](/content.md#contentbody-title-1715134837), [Evaluation of Login Path](/content.md#contentbody-title-914954954) and [Best Practices](/content.md#contentbody-title-1658415695).
+>For more information see [Evaluation and Inheritance of Authentication Requirement](#evaluation-and-inheritance-of-the-authentication-requirement), [Evaluation of Login Path](#evaluation-of-login-path) and [Best Practices](#best-practices).
 
 ```java
 String path = [...]
@@ -858,7 +858,7 @@ For upgraded AEM installation, it is important to ensure that only one CUG imple
 
 Adobe provides a tool for migrating to the new CUG implementation. In order to use it, perform the following steps:
 
-1. Go to *https://serveraddress:serverport/system/console/cug-migration* to access the tool.
+1. Go to `https://<serveraddress>:<serverport>/system/console/cug-migration` to access the tool.
 1. Enter the root path you want to check CUGs for, and press the **Perform dry run** button. This will scan for CUGs elligible for conversion in the selected location.
 1. After you have reviewed the results, press the **Perform migration** button to migrate to the new implementation.
 

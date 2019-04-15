@@ -432,18 +432,9 @@ The above options can be used to extend and customize your own RTE. For example,
 
 ## Known limitations {#known-limitations}
 
-<details> 
- <summary>Use only in AEM components</summary> 
- <p>RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like <a href="../../../sites/developing/using/page-properties-views.md" target="_blank">Page Properties</a> and <a href="../../../sites/authoring/using/scaffolding.md" target="_blank">Scaffolding</a> on Touch-enabled UI.</p> 
-</details>
+* **Use only in AEM components** - RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](../../../sites/developing/using/page-properties-views.md) and [Scaffolding](../../../sites/authoring/using/scaffolding.md) on Touch-enabled UI.
 
-<details> 
- <summary>Does not work with Hybrid devices</summary> 
- <p>AEM does not work on <a href="../../../release-notes/known-issues.md#knownissues" target="_blank">Hybrid devices</a>.</p> 
-</details>
+* **Does not work with Hybrid devices** - AEM does not work on [Hybrid devices](../../../release-notes/known-issues.md)
 
-<details> 
- <summary>Configuration node cannot be named config</summary> 
- <p>Do not name the RTE configuration node as <span class="code">config</span>. Otherwise, the RTE configurations take effect for only the administrators and not for the users in the group <span class="code">content-author</span>.</p> 
-</details>
+* **Configuration node cannot be named config** - Do not name the RTE configuration node `config`. Otherwise, the RTE configuration takes effect for only the administrators and not for the users in the group `content-author`.
 

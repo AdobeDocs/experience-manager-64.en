@@ -109,13 +109,13 @@ To replace the admin session with a service user, you should perform the followi
 
 After you verified that no user in the list of AEM service users is applicable for your use case and the corresponding RTC issues have been approved, you can go ahead and add the new user to the default content.
 
-The recommended approach is to create a service user to use the repository explorer at *https://server:port/crx/explorer/index.jsp*
+The recommended approach is to create a service user to use the repository explorer at *https://&lt;server&gt;:&lt;port&gt;/crx/explorer/index.jsp*
 
 The goal is to get a valid `jcr:uuid` property which is mandatory in order to create the user via a content package installation.
 
 You can create service users by:
 
-1. Going to the repository explorer at *https://server:port/crx/explorer/index.jsp*
+1. Going to the repository explorer at *https://&lt;server&gt;:&lt;port&gt;/crx/explorer/index.jsp*
 1. Logging in as admin by pressing the **Log In** link in the upper left corner of the screen.
 1. Next, create and name your system user. In order to create the user as a system one, set the intermediate path as `system` and add optional subfolders depending on your needs:
 

@@ -22,7 +22,7 @@ After installation you can configure your instance:
 1. [Configure the Product Attributes to Load](#configure-the-product-attributes-to-load).
 1. [Importing the Product Data](#importing-the-product-data).
 1. [Configure the Catalog Importer](#configure-the-catalog-importer).
-1. Use the [importer to import the catalog](#catalogimporter) into a specific location in AEM.
+1. Use the [importer to import the catalog](#catalog-import) into a specific location in AEM.
 
 ## Configure the Facetted Search for Geometrixx Outdoors {#configure-the-facetted-search-for-geometrixx-outdoors}
 
@@ -156,7 +156,7 @@ Such a structure is created by the OSGi service `DefaultImportHandler` that impl
 
 >[!NOTE]
 >
->You can [customize this process by implementing your own import handler](#customizingtheimportprocess).
+>You can [customize this process by implementing your own import handler](#configure-the-import-structure).
 
 The structure to be generated when importing can be configured for:
 
@@ -271,7 +271,7 @@ The following properties indicate the link with hybris:
 
 ### Express Update {#express-update}
 
-The import process can take a long time, so as an extension to the [Product Synchronization](#productsynchronizationandpublishing) you can select specific areas of the catalog for an express update that is triggered manually. This uses the export feed together with the standard attributes configuration.
+The import process can take a long time, so as an extension to the Product Synchronization you can select specific areas of the catalog for an express update that is triggered manually. This uses the export feed together with the standard attributes configuration.
 
 1. Check the information held in AEM for the relevant product(s), in the appropriate sub-tree under:
 

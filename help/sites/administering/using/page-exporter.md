@@ -19,7 +19,7 @@ Once the export is configured you simply request a page in your browser by repla
 
 ## Exporting a Page {#exporting-a-page}
 
-The following steps describe how to export a page, and assume that an export configuration template exists for your site. A configuration template defines the way a page is exported and is specific to your site. To create a configuration template refer to the [Creating a Page Exporter Configuration for your Site](page-exporter.md#creating%20a%20page%20exporter%20configuration%20for%20your%20site) section.
+The following steps describe how to export a page, and assume that an export configuration template exists for your site. A configuration template defines the way a page is exported and is specific to your site. To create a configuration template refer to the [Creating a Page Exporter Configuration for your Site](#creating-a-page-exporter-configuration-for-your-site) section.
 
 To export a page:
 
@@ -44,7 +44,7 @@ To export a page:
 
 ## Creating a Page Exporter Configuration for your Site {#creating-a-page-exporter-configuration-for-your-site}
 
-The page exporter is based on the [Content Sync](/content/docs/en/aem/6-3/develop/mobile/contentsync.md) framework. The configurations that are available in the page properties dialog are configuration templates. They define all the required dependencies for a page. When a page export is triggered, the configuration template is used and both the page path and the design path are dynamically applied to the configuration. The zip file is then created by using the standard Content Sync functionality.
+The page exporter is based on the Content Sync framework. The configurations that are available in the page properties dialog are configuration templates. They define all the required dependencies for a page. When a page export is triggered, the configuration template is used and both the page path and the design path are dynamically applied to the configuration. The zip file is then created by using the standard Content Sync functionality.
 
 AEM embeds a few templates, including:
 
@@ -66,7 +66,7 @@ To create a page exporter configuration template:
 
 ### Page Exporter Configuration Nodes {#page-exporter-configuration-nodes}
 
-The configuration template consists in a node structure. Each node has a `type` property that defines a specific action in the creation process of the zip file. For more details about the type property, refer to the [Overview of configuration types](/content/docs/en/aem/6-3/develop/mobile/contentsync.md#overview of configuration types) section in the **Content Sync** framework page.
+The configuration template consists in a node structure. Each node has a `type` property that defines a specific action in the creation process of the zip file. For more details about the type property, refer to the Overview of configuration types section in the Content Sync framework page.
 
 The following nodes can be used to build an export configuration template:
 
@@ -83,11 +83,11 @@ The `page` node has the following properties:
 
 * It does not have a `path` property as the current page path is dynamically copied to the configuration.  
 
-* The other properties are described in the [Overview of configuration types](/content/docs/en/aem/6-3/develop/mobile/contentsync.md#overview of configuration types) section of the Content Sync framework.
+* The other properties are described in the Overview of configuration types section of the Content Sync framework.
 
 **rewrite node** The rewrite node defines how the links are rewritten in the exported page. The rewritten links can either point to the files included in the zip file or to the resources on the server.
 
-Please refer to the [Content Sync](/content/docs/en/aem/6-3/develop/mobile/contentsync.md#overview of configuration types) page for a complete description of the `rewrite` node.
+Please refer to the Content Sync page for a complete description of the `rewrite` node.
 
 **design node** The design node is used to copy the design used for the exported page. It has the following characteristics:
 
@@ -108,7 +108,7 @@ The `design` node has the following properties:
 * Is located below `/etc/contentsync/templates/<sitename>`.
 * Does not have a specific name.  
 * Its node type is `nt:unstructured`.
-* Has a `type` property and any `type` related properties as defined in the [Overview of configuration types](/content/docs/en/aem/6-3/develop/mobile/contentsync.md#overview of configuration types) section of the Content Sync framework.
+* Has a `type` property and any `type` related properties as defined in the Overview of configuration types section of the Content Sync framework.
 
 For example the following configuration node copies the geometrixx clientlibs .js files to the zip file:
 
@@ -127,7 +127,7 @@ The **Geometrixx** page export configuration template shows you how a page expor
 
 **Implementing a Custom Configuration**
 
-As you may have noticed in the node structure, the **Geometrixx** page export configuration template has a `logo` node with a `type` property set to `image`. This is a special configuration type that has been created to copy the image logo to the zip file. To meet some specific requirements, you may need to implement a custom `type` property: to do so, refer to the [Implementing a custom update handler](/content/docs/en/aem/6-3/develop/mobile/contentsync.md#implementing a custom update handler) section in the Content Sync page.
+As you may have noticed in the node structure, the **Geometrixx** page export configuration template has a `logo` node with a `type` property set to `image`. This is a special configuration type that has been created to copy the image logo to the zip file. To meet some specific requirements, you may need to implement a custom `type` property: to do so, refer to the Implementing a custom update handler section in the Content Sync page.
 
 ## Programmatically Exporting a Page {#programmatically-exporting-a-page}
 

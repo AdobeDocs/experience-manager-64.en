@@ -186,7 +186,7 @@ The following table describes these rules and provides examples:
 >
 >One package can contain multiple filter definitions, so that nodes from different locations can easily be combined into one package.
 
-Package filters are most often defined when you first [create the package](#creatingnewpackages), but they can be edited at a later time as well (after which the package should be rebuilt).
+Package filters are most often defined when you first [create the package](#creating-a-new-package), but they can be edited at a later time as well (after which the package should be rebuilt).
 
 ### Package Screenshots {#package-screenshots}
 
@@ -214,7 +214,7 @@ Official Feature packs:
 
 ## Package Manager {#package-manager}
 
-The Package Manager manages the packages on your local AEM installation. After you have [assigned the necessary permissions](#providingpermissionstothepackagemanager) you can use the Package Manager for various actions, including configuring, building, downloading and installing your packages. The key elements to be configured are:
+The Package Manager manages the packages on your local AEM installation. After you have [assigned the necessary permissions](#permissions-needed-for-using-the-package-manager) you can use the Package Manager for various actions, including configuring, building, downloading and installing your packages. The key elements to be configured are:
 
 * [Package Settings](#package-settings)
 * [Package Filters](#package-filters)
@@ -226,7 +226,7 @@ To grant users the right to create, modify, upload, and install packages, you mu
 * **/etc/packages** (full rights excluding delete)
 * the node that contains the package contents
 
-See [Setting permissions](../../../sites/administering/using/security.md#settingpagepermissions) for instructions on changing permissions.
+See [Setting permissions](../../../sites/administering/using/security.md) for instructions on changing permissions.
 
 ### Creating a New Package {#creating-a-new-package}
 
@@ -404,7 +404,7 @@ A package upload allows you to upload a package from your file system into the A
 
 >[!NOTE]
 >
->See [Uploading packages to the company-internal Package Share](#uploadingpackagestothecompanyinternalpackageshare) to upload a package to your company's private area of Package Share.
+>See [Uploading packages to the company-internal Package Share](#uploading-a-package) to upload a package to your company's private area of Package Share.
 
 To upload a package:
 
@@ -700,7 +700,7 @@ To gain access to Package Share:
 
 #### Signing In to Package Share {#signing-in-to-package-share}
 
-1. On the AEM Welcome screen, click **Tools**
+1. On the AEM Welcome screen, click **Tools** -&gt; **Deployment**
 1. Then select **Package Share**. You will be required to either:
 
     * login with your Adobe ID
@@ -712,7 +712,7 @@ To gain access to Package Share:
 
    >[!NOTE]
    >
-   >If you have forgotten your password, please use the [Help pages](https://enterprise-dev.adobe.com/content/edev/en/registration/account.html) link (also on the sign in dialog).
+   >If you have forgotten your password, please use the **Trouble signing in?** link in the sign in dialog.
 
 #### Validating your Adobe ID {#validating-your-adobe-id}
 
@@ -768,7 +768,7 @@ To avoid this issue, you can access Package Share from an IPv4 network, download
 
 Package Share is currently unavailable if your company runs an http proxy that requires authentication.
 
-Package Share is only available when your AEM server has access to the Internet without authentication being required. To configure the proxy for all services that use the http client (including package share) use the [OSGi configuration of the Day Commons HTTP Client 3.1 bundle](../../../sites/deploying/using/osgi-configuration-settings.md#daycommonshttpclient31).
+Package Share is only available when your AEM server has access to the Internet without authentication being required. To configure the proxy for all services that use the http client (including package share) use the [OSGi configuration of the Day Commons HTTP Client 3.1 bundle](../../../sites/deploying/using/osgi-configuration-settings.md).
 
 ### Inside Package Share {#inside-package-share}
 

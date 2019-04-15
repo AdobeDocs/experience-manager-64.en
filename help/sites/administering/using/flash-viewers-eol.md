@@ -17,4 +17,4 @@ discoiquuid: fe392c24-d01e-4d5b-9af9-9ec500adc61a
 
 *For more information about this important change, see the following FAQ website:*
 
-[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.md).
+[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).

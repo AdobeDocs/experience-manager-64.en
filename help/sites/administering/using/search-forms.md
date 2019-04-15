@@ -25,7 +25,7 @@ You can [configure the search forms](#configuring-your-search-forms) used within
 
         * **Search Forms**
 
-When you first access this console you can see that all the configurations have a padlock symbol. This indicates that the appropriate configuration is the default (out-of-the-box) configuration - and cannot be deleted. Once you have customized the configuration the lock will disappear - unless you [delete your customized configuration](#deletingaconfiguration), in which case the default (and the padlock indicator) will be reinstated.
+When you first access this console you can see that all the configurations have a padlock symbol. This indicates that the appropriate configuration is the default (out-of-the-box) configuration - and cannot be deleted. Once you have customized the configuration the lock will disappear - unless you [delete your customized configuration](#deleting-a-configuration-to-reinstate-the-default), in which case the default (and the padlock indicator) will be reinstated.
 
 ![](assets/chlimage_1-374.png) 
 

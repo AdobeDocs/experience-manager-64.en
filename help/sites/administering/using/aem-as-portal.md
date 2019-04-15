@@ -28,13 +28,13 @@ AEM portal architecture includes definitions of portals and portlets.
 
 A portal is a web application that provides personalization, single sign on, content integration from different sources, and hosts the presentation layer of information systems.
 
-You can run JSR 286-compliant portlets in AEM. The portlet component lets you embed a portlet on the page. See [Administering the AEM Content Portlet](#administeringthecqcontentportlet).
+You can run JSR 286-compliant portlets in AEM. The portlet component lets you embed a portlet on the page. See [Administering the AEM Content Portlet](#administering-the-aem-content-portlet).
 
 ### What is a portlet? {#what-is-a-portlet}
 
 Portlets are web components deployed inside of a container that generate dynamic content. The portlet interface is packaged and deployed as a .war file inside of a portlet container. If you are running AEM as a portal, you need the portlet's .war file to run the portlet.
 
-To configure AEM content to appear in a portal, see [Installing, Configuring, and Using AEM in a portlet](#installingconfiguringandusingcqinaportlet).
+To configure AEM content to appear in a portal, see [Installing, Configuring, and Using AEM in a portlet](#installing-configuring-and-using-aem-in-a-portlet).
 
 ### AEM Portal Director {#aem-portal-director}
 
@@ -468,7 +468,7 @@ The portlet's toolbar basically has two view states. Each view and associated bu
 
 #### Publish View {#publish-view}
 
-The publish view only has one button that switches the toolbar to the Manage view. The publish view is represented by the publish.html file in [previous bundle](../../../sites/deploying/using/configuring-osgi.md#bundles). In the HTML, you can use the following placeholders, which are replaced by the portlet with the respective contents when rendered:
+The publish view only has one button that switches the toolbar to the Manage view. The publish view is represented by the publish.html file in [previous bundle](../../../sites/deploying/using/configuring-osgi.md). In the HTML, you can use the following placeholders, which are replaced by the portlet with the respective contents when rendered:
 
 #### Publish View Placeholders {#publish-view-placeholders}
 
@@ -478,7 +478,7 @@ The publish view only has one button that switches the toolbar to the Manage vie
 
 #### Manage View {#manage-view}
 
-The manage view has four buttons: Edit, Websites tab, Refresh and Back. The manage view is represented by the manage.html file in the [previous bundle](../../../sites/deploying/using/configuring-osgi.md#bundles). In the HTML, you can use the following placeholders, which are replaced by the portlet with the respective contents when rendered:
+The manage view has four buttons: Edit, Websites tab, Refresh and Back. The manage view is represented by the manage.html file in the [previous bundle](../../../sites/deploying/using/configuring-osgi.md). In the HTML, you can use the following placeholders, which are replaced by the portlet with the respective contents when rendered:
 
 #### Manage View Placeholders {#manage-view-placeholders}
 

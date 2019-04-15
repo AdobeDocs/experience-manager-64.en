@@ -166,7 +166,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Using either:
 
     * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
+    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **View Product Data** icon:
 
@@ -325,7 +325,7 @@ The mechanism to select the image to be displayed is as follows:
 1. Using either:
 
     * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
+    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **Publish** or **Unpublish** icon as required:
 
@@ -373,7 +373,7 @@ Clicking the hotspot opens a dialog which let you choose the size and quantity o
 
 1. Navigate to the page where you want to add the component.
 1. Drag and drop the component in the page.
-1. Drag and drop an image in the component from the [assets browser](../../../sites/authoring/using/author-environment-tools.md#assetsbrowsertouchoptimizedui).
+1. Drag and drop an image in the component from the [assets browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser).
 1. You can either:
 
     * click the component and then click Edit icon 
@@ -406,7 +406,7 @@ Clicking the hotspot opens a dialog which let you choose the size and quantity o
 
    ![](do-not-localize/chlimage_1-22.png)
 
-1. Switch to [preview](../../../sites/authoring/using/editing-content.md#previewingpagestouchoptimizedui) mode.
+1. Switch to [preview](../../../sites/authoring/using/editing-content.md#previewing-pages) mode.
 1. Click the + hotspot. A dialog opens where you can choose the size and quantity of the product you entered in **Path**. 
 
    ![](assets/chlimage_1-333.png)
@@ -441,7 +441,7 @@ You can configure how the dialog looks like when you click the hotspot:
 
 >[!NOTE]
 >
->The catalog will reference your [Product Data](#productsandproductvariants).
+>The catalog will reference your Product Data.
 
 To generate a Catalog:
 
@@ -474,7 +474,7 @@ To generate a Catalog:
 
 >[!NOTE]
 >
->The catalog will reference your [Product Data](#productsandproductvariants).
+>The catalog will reference your [Product Data](#editing-product-information).
 
 1. Using the **Websites** console, navigate to your **Catalog Blueprint**, then the Base Catalog.
 
@@ -511,7 +511,7 @@ To rollout a catalog:
 1. Using either:
 
     * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
+    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **Rollout Changes** icon:
 
@@ -570,9 +570,9 @@ To rollout a catalog:
 >
 >The following example deals with a promotion held directly in a [campaign](../../../sites/authoring/using/campaigns.md), this is used for vouchers.
 >
->A promotion can also be in an [experience](../../../sites/authoring/using/campaigns.md#creatinganewexperience) within a campaign.
+>A promotion can also be in an [experience](../../../sites/authoring/using/campaigns.md) within a campaign.
 >
->For more information see [Promotions and Vouchers](#promotionsandvouchers).
+>For more information see [Promotions and Vouchers](#promotions).
 
 1. Open the **Websites** console of your author instance.
 1. In the left-hand pane select your required **Campaign**.
@@ -667,7 +667,7 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 1. Using either:
 
     * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
+    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **View Order Data** icon:
 

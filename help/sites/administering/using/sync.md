@@ -70,7 +70,7 @@ Following are the steps necessary to enable user synchronization, followed by a 
 1. Ensure the latest code has been installed:
 
 * [AEM platform updates](https://helpx.adobe.com/experience-manager/kb/aem62-available-hotfixes.html)
-* [AEM Communities updates](../../../communities/using/deploy-communities.md#latestfeaturepack)
+* [AEM Communities updates](../../../communities/using/deploy-communities.md#latest-releases)
 
 ### 1. Apache Sling Distribution Agent - Sync Agents Factory {#apache-sling-distribution-agent-sync-agents-factory}
 
@@ -111,7 +111,7 @@ This authorized user will be used in step 3 to configure Sling distribution on a
         * for example, `usersync-admin`
 
     * add this user to the **`administrators`** user group
-    * [add ACL for this user to /home](#howtoaddacl)
+    * [add ACL for this user to /home](#addacls)
 
         * `Allow jcr:all` with restriction `rep:glob=*/activities/*`
 
@@ -170,7 +170,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
     * select the existing configuration to open for edit (pencil icon)  
       Verify `property name` : **`socialpubsync-publishUser`**
     
-    * set the username and password to the [authorized user](#createauthorizeduser) created on publish in step 2
+    * set the username and password to the [authorized user](#createauthuser) created on publish in step 2
 
         * for example, `usersync-admin`
 
@@ -460,7 +460,7 @@ This is what is displayed when User Synchronization has not been enabled :
 
 When the diagnoistic is run from the author environment, the pass/fail results will include an [INFO] section displaying the list of configured publish instances for confirmation.
 
-Included in the list is an URL for each publish instance that will run the diagnostics for that instance. The url param `syncUser` is appended to the diagnostics URL with its value set to the *authorized sync user* created in [Step 2](../../../sites/administering/using/sync.md#2createauthorizeduser).
+Included in the list is an URL for each publish instance that will run the diagnostics for that instance. The url param `syncUser` is appended to the diagnostics URL with its value set to the *authorized sync user* created in [Step 2](../../../sites/administering/using/sync.md#createauthuser).
 
 **Note** : before launching the URL, the *authorized sync user* must already be signed into that publish instance.
 

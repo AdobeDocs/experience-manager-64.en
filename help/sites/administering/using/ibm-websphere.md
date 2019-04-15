@@ -66,7 +66,7 @@ To do roll-out the catalog:
 1. Using either:
 
     * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
+    * [selection mode](../../../sites/authoring/using/basic-handling.md)
 
    Select the **Rollout Changes** icon.
 

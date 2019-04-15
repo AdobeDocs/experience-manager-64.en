@@ -98,7 +98,7 @@ Use the Create Task step in a workflow to automatically create a task. The follo
 * You can specify one or more actions that the user selects upon completing the task. The action can then be used to determines the workflow route to follow.
 * You can provide a script that runs before the task is created. For example, you can manipulate the task content according to logic and runtime data.
 
-For more information, see [Create Task](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0).
+For more information, see [Create Task](../../../sites/developing/using/workflows-step-ref.md).
 
 ### Modifying Tasks {#modifying-tasks}
 

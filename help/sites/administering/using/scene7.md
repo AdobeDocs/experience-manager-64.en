@@ -45,7 +45,7 @@ When you work with assets in this solution, you do one of the following:
 * Upload assets directly to Scene7 and then access via the **Scene7** content browser for page authoring or
 * Upload to AEM Assets and then enable automatic publishing to S7; you access via **Assets** content browser for page authoring
 
-The components you use for this integration are found in the **Scene7** component area in [Design mode.](../../../sites/authoring/using/author-environment-tools.md#designmodeclassicui)  
+The components you use for this integration are found in the **Scene7** component area in [Design mode.](../../../sites/authoring/using/author-environment-tools.md#page-modes)  
 
 ### AEM Dynamic Media {#aem-dynamic-media}
 
@@ -58,7 +58,7 @@ When you work with assets in this solution, you follow this workflow:
 1. Build image-based sets directly within AEM.
 1. If applicable, add interactivity to images or videos.
 
-The components you use for Dynamic Media are found in the **Dynamic Media** component area in [Design mode](../../../sites/authoring/using/author-environment-tools.md#designmodeclassicui). They include the following:
+The components you use for Dynamic Media are found in the **Dynamic Media** component area in [Design mode](../../../sites/authoring/using/author-environment-tools.md#page-modes). They include the following:
 
 * **Dynamic Media** - The **Dynamic Media** component is smart - depending on whether you add an image or a video, you have various options. The component supports image presets, image-based viewers such as image sets, spin sets, mixed media sets, and video. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
 
@@ -66,7 +66,7 @@ The components you use for Dynamic Media are found in the **Dynamic Media** comp
 
 ### Dual-Use Scenario {#dual-use-scenario}
 
-Out of the box, you can use both Dynamic Media and Scene7 integration features of AEM simultaneously. The [Use cases](#usecases) table that follows describes when you turn certain areas on and off.
+Out of the box, you can use both Dynamic Media and Scene7 integration features of AEM simultaneously. The following use cases table describes when you turn certain areas on and off.
 
 To use Dynamic Media and Scene7 simultaneously:
 
@@ -201,15 +201,15 @@ You can configure AEM to upload assets to Scene7. Assets from a CQ target folder
 
 >[!NOTE]
 >
->Adobe recommends that you use only the designated target folder for importing Scene7 assets. Digital assets that reside outside of the target folder can [only be used in Scene7 components on pages where the Scene7 configuration has been enabled](#publishingassetsfromoutsidethecqtargetfolder). In addition, they are placed in an ad hoc folder in Scene7. The adhoc folder is not synchronized with AEM (but assets are discoverable in the Scene7 content browser).
+>Adobe recommends that you use only the designated target folder for importing Scene7 assets. Digital assets that reside outside of the target folder can only be used in Scene7 components on pages where the Scene7 configuration has been enabled. In addition, they are placed in an ad hoc folder in Scene7. The adhoc folder is not synchronized with AEM (but assets are discoverable in the Scene7 content browser).
 
 To configure Scene7 to integrate with AEM, you need to complete the following steps:
 
 1. [Define a cloud configuration](#creating-a-cloud-configuration-for-scene), which defines the mapping between a Scene7 folder and an Assets folder. You need to complete this step even if you only want one-way (AEM Assets to Scene7) synchronization.
 1. [Enable the **Adobe CQ s7dam Dam Listener**](#enabling-the-adobe-cq-scene-dam-listener) in the OSGi console.
-1. If you want AEM assets to [automatically upload to Scene7](#configuringautouploadingfromadobedam), you need to turn that option on and add Scene7 to the DAM update asset workflow. You can also manually upload assets.
-1. [Adding Scene7 components to the sidekick](#addingascene7componenttoapage). This allows the users to use Scene7 components on their AEM pages.
-1. [Map the configuration to the page in AEM](#enabling-scene-for-wcm). This step is required to view any video presets that you have created in Scene7. It is also required if you need to perform a [publish an asset from outside the CQ target folder to Scene7.](#publishingassetsfromoutsidethecqtargetfolder)
+1. If you want AEM assets to automatically upload to Scene7, you need to turn that option on and add Scene7 to the DAM update asset workflow. You can also manually upload assets.
+1. Adding Scene7 components to the sidekick. This allows the users to use Scene7 components on their AEM pages.
+1. [Map the configuration to the page in AEM](#enabling-scene-for-wcm). This step is required to view any video presets that you have created in Scene7. It is also required if you need to perform a publish an asset from outside the CQ target folder to Scene7.
 
 This section covers how to perform all of these steps and lists important limitations.
 
@@ -282,7 +282,7 @@ If you navigate to **/etc/cloudservices/scene7/endpoints.html**, you see the ser
 
 ### Creating a cloud configuration for Scene7 {#creating-a-cloud-configuration-for-scene}
 
-A cloud configuration defines the mapping between a Scene7 folder and an AEM Assets folder. It needs to be configured to synchronize AEM Assets with Scene7. See [How Synchronization Works](#howsynchronizationbetweenscene7andadobedamworks) for more information.
+A cloud configuration defines the mapping between a Scene7 folder and an AEM Assets folder. It needs to be configured to synchronize AEM Assets with Scene7. See How Synchronization Works for more information.
 
 >[!CAUTION]
 >
@@ -515,7 +515,7 @@ To configure the default configuration:
 
 ### Configuring the Ad-hoc folder {#configuring-the-ad-hoc-folder}
 
-You can configure the folder that assets are uploaded to in Scene7 when the asset is not located in the CQ target folder. See [Publishing assets from outside the CQ target folder.](#publishingassetsfromoutsidethecqtargetfolder)
+You can configure the folder that assets are uploaded to in Scene7 when the asset is not located in the CQ target folder. See Publishing assets from outside the CQ target folder.
 
 To configure the adhoc folder:
 

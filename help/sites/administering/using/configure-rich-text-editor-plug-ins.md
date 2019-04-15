@@ -153,8 +153,8 @@ For example, if only bold formats and lists should be allowed when pasting into 
 
 This can be done for both:
 
-* [Text](#formatsallowedwhenpastingtext)
-* [Links](#stylesandprotocolsallowedwhenpastinglinks)
+* [Text](#pastemodes)
+* [Links](#linkstyles)
 
 For links, you can also define the protocols that are automatically accepted.
 
@@ -336,7 +336,7 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 
 ### Specify the available Styles in the pop-up list {#stylesindropdown}
 
-1. In the component definition, navigate to the node `<*rtePlugins-node*>/styles`, as created in [Enabling the style drop-down selector](#enablingthestyledropdownselector).
+1. In the component definition, navigate to the node `<*rtePlugins-node*>/styles`, as created in [Enabling the style drop-down selector](#styleselectorlist).
 1. Under the node `styles`, create a new node (also called `styles`) to hold the list being made available:
 
     * **Name** `styles`
@@ -419,7 +419,7 @@ First enable the paraformat plug-in:
 
 Paragraph formats may be made available for selection by:
 
-1. In the component definition, navigate to the node `<*rtePlugins-node*>/paraformat`, as created in [Enabling the format drop-down selector](#enablingtheformatdropdownselector).
+1. In the component definition, navigate to the node `<*rtePlugins-node*>/paraformat`, as created in [Enabling the format drop-down selector](#styleselectorlist).
 1. Under the `paraformat` node create a new node, to hold the list of formats:
 
     * **Name** `formats`
@@ -520,7 +520,7 @@ You can configure the RTE to make your own selection of characters available; ei
 
 ### Define a range of characters {#definerangechar}
 
-1. Use steps 1 to 3 from [Defining a Single Character](#definingasinglecharacter).
+1. Use steps 1 to 3 from [Defining a Single Character](#definesinglechar).
 1. Under `chars` add a new node to hold the definition of the character range:
 
     * **Name **you can specify the name, but it should reflect the character range; for example, pencils.  
@@ -584,7 +584,7 @@ Styles are typically applied on text, but a separate set of Styles can also be a
    >    
    >
 
-1. Define the location of CSS style sheets to refer those. See [Specifying the location of your style sheet](#specifyingthelocationofyourstylesheet) as this is the same as when defining [styles for text](#stylestext). The location may be defined if you defined other styles.
+1. Define the location of CSS style sheets to refer those. See [Specifying the location of your style sheet](#locationofstylesheet) as this is the same as when defining [styles for text](#textstyles). The location may be defined if you defined other styles.
 1. Under the `table` node create the following new nodes (as required):
 
     * To define styles for the entire table (available under **Table properties**):
@@ -738,7 +738,7 @@ When indentation is enabled (default) you can define the size of indent:
 
 >[!NOTE]
 >
->This is only applicable when using the RTE in a dialog (not [in-place editing - classic UI](#inlineediting)).
+>This is only applicable when using the RTE in a dialog (not in-place editing in classic UI).
 
 You can define the height of the editable space shown within the component dialog:
 

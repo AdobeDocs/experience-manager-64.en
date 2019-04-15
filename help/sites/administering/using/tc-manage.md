@@ -119,7 +119,7 @@ After translating, you can [review the translation](#reviewing-and-promoting-upd
 
 After you have created a translation project, you can use the Resources pane to add pages to the project. Adding pages is useful when you are including pages from different branches in the same project.
 
-When you add pages to a translation project, the pages are included in a new translation job. You can also [add pages to an existing job](#addingpagestoatranslationjob).
+When you add pages to a translation project, the pages are included in a new translation job. You can also [add pages to an existing job](#adding-pages-assets-to-a-translation-job).
 
 As when creating a new project, when adding pages, copies of the pages are added to a launch when necessary to avoid overwriting existing language copies. (See [Creating Translation Projects for Existing Language Copies](#performing-initial-translations-and-updating-existing-translations).)
 

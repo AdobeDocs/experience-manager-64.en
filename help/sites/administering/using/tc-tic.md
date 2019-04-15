@@ -66,7 +66,7 @@ After you create a framework configuration, you associate the cloud configuratio
 
 When different sections of your website have different translation requirements, create multiple framework configurations accordingly. For example, a multilingual website includes English, Spanish, and Japanese language copies. The site owner uses two different translation service providers for Spanish and Japanese translations. Therefore, two configurations of the framework are configured. Each configuration uses a different translation service provider.
 
-After you configure a translation integration framework, you can [associate it with the pages](../../../sites/administering/using/tc-prep.md#main-pars-title-0) that use it.
+After you configure a translation integration framework, you can [associate it with the pages](../../../sites/administering/using/tc-prep.md) that use it.
 
 **Note:** For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md).
 
@@ -132,7 +132,7 @@ Communities properties control how the translation of user-generated content is 
 
 ### Assets Configuration Properties {#assets-configuration-properties}
 
-Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](/sites/authoring/using/language-copy.md).
+Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](../../../assets/using/translation-projects.md).
 
 <table> 
  <tbody> 
@@ -198,7 +198,7 @@ When you associate a page with a cloud configuration, the descendants of the pag
 
 When required, you can override the association on a descendent page. For example, the content of a web site is mostly about clothing. However, one branch of pages describes the company. The root page of the site is associated with a Translation Integration Framework that specifies machine translation using the Clothing category. The branch that describes the company uses a framework that performs machine translation using the General category.
 
-Further, for any communities [SCF components](../../../communities/using/scf.md#featuresandtheircomponents) on the pages, the user generated content (UGC) will include the ability for users to translate content. For more information, see [Translation of User Generated Content](../../../communities/using/translate-ugc.md).
+Further, for any communities [SCF components](../../../communities/using/scf.md) on the pages, the user generated content (UGC) will include the ability for users to translate content. For more information, see [Translation of User Generated Content](../../../communities/using/translate-ugc.md).
 
 ### Associating a Page with a Translation Provider {#associating-a-page-with-a-translation-provider}
 

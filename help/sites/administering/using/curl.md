@@ -298,7 +298,7 @@ See [Opting Into Adobe Analytics and Adobe Target](../../../sites/administering/
 
 #### Send Test Header {#send-test-header}
 
-See [Single Sign On](../../../sites/deploying/using/single-sign-on.md#main-pars-text-7) for details.
+See [Single Sign On](../../../sites/deploying/using/single-sign-on.md) for details.
 
 ## Common Content Manipulation AEM cURL Commands {#common-content-manipulation-aem-curl-commands}
 

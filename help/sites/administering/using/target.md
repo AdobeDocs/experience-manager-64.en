@@ -13,7 +13,7 @@ discoiquuid: 454854f8-6053-406c-888d-f427777bf570
 
 # Integrating with Adobe Target{#integrating-with-adobe-target}
 
-As part of the Adobe Marketing Cloud, [Adobe Target](https://www.adobe.com/solutions/testing-targeting/testandtarget.html) lets you increase content relevance through targeting and measuring across all channels. Adobe Target is used by marketers to design and execute online tests, create on-the-fly audience segments (based on behavior) and automate the targeting of content and online experiences. AEM has adopted the targeting workflow that is used in Adobe Target Standard. If you use Target, you will be familiar with the targeting editing environment in AEM.
+As part of the Adobe Marketing Cloud, Adobe Target lets you increase content relevance through targeting and measuring across all channels. Adobe Target is used by marketers to design and execute online tests, create on-the-fly audience segments (based on behavior) and automate the targeting of content and online experiences. AEM has adopted the targeting workflow that is used in Adobe Target Standard. If you use Target, you will be familiar with the targeting editing environment in AEM.
 
 Integrate your AEM sites with Adobe Target to personalize content in your pages:
 
@@ -50,7 +50,7 @@ To integrate with Target, perform the following tasks:
 >
 >You must secure the activity settings node **cq:ActivitySettings** on the publish instance so that it is inaccessible to normal users. The activity settings node should only be accessible to the service handling the activity synchronization to Adobe Target.
 >
->See [Prerequisites for Integrating with Adobe Target](../../../sites/administering/using/target-requirements.md#securingtheactivitysettings) for detailed information.
+>See [Prerequisites for Integrating with Adobe Target](../../../sites/administering/using/target-requirements.md#securing-the-activity-settings-node) for detailed information.
 
 When the integration is complete, you can [author targeted content](../../../sites/authoring/using/content-targeting-touch.md) that sends visitor data to Adobe Target. Note that page components require specific code to enable content targeting. (See [Developing for Targeted Content](../../../sites/developing/using/target.md).)
 
