@@ -96,7 +96,7 @@ Flow of data when AEM Assets and Creative Cloud are integrated
 
 1. In the **[!UICONTROL Client ID]** field, paste the application ID you copied at the end of the procedure [Create an application](../../../sites/administering/using/configure-assets-cc-integration.md#create-an-application).
 
-   ![Provide the application ID values required to integrate AEM Assets and CC](assets/chlimage_1-291.png)
+   ![Provide the application ID values required to integrate AEM Assets and Creative Cloud](assets/chlimage_1-291.png)
 
 1. Under **[!UICONTROL Synchronization]** select **[!UICONTROL Enabled]**to enable synchronization and click **[!UICONTROL OK]**.
 
