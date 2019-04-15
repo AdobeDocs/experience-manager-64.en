@@ -224,7 +224,7 @@ Log files
 
 ## Installing AEM in the Amazon EC2 environment {#installing-aem-in-the-amazon-ec-environment}
 
-When installing AEM on an Amazon Elastic Compute Cloud (EC2) instance, if you install both author and publish on the EC2 instance, the Author instance is installed correctly by following the procedure on [Installing an Instance of AEM](#installinginstancesofaemmanager); however, the Publish instance becomes Author.
+When installing AEM on an Amazon Elastic Compute Cloud (EC2) instance, if you install both author and publish on the EC2 instance, the Author instance is installed correctly by following the procedure on how to [install an instance of AEM](../../../sites/deploying/using/custom-standalone-install.md); however, the Publish instance becomes Author.
 
 Before installing the Publish instance on your EC2 environment, do the following:
 

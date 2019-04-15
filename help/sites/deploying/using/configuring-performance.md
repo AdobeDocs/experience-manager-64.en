@@ -209,7 +209,7 @@ Starting in AEM 6.0, Adobe Experience Manager uses an Oak based repository archi
 You can find the updated indexing information here:
 
 * [Best Practices for Queries and Indexing](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md)
-* [Queries and Indexing](/sites/deploying/using/queries-and-indexing.md )
+* [Queries and Indexing](../../../sites/deploying/using/queries-and-indexing.md )
 
 ### Concurrent Workflow Processing {#concurrent-workflow-processing}
 

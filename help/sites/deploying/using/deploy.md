@@ -49,7 +49,7 @@ Once you have familiarized yourself with these basics, you will find in more adv
 * [Best Practices](../../../sites/deploying/using/best-practices.md)
 * [Deploying Communities](../../../communities/using/deploy-communities.md)
 * [Introduction to the AEM Platform](../../../sites/deploying/using/platform.md)
-* [Performance Guidelines](../../../sites/deploying/using/DO-NOT-DELETE-performance-guidelines-pdf.md)
+* [Performance Guidelines](../../../sites/deploying/using/performance-guidelines.md)
 * [Getting Started with AEM Mobile](../../../mobile/using/getting-started-aem-mobile.md)
 * [Maintenance Release Vehicle Definitions](../../../sites/deploying/using/maintenance-release-vehicle-definitions.md)
 * [What is AEM Screens?](../../../sites/deploying/using/aem-screens-introduction.md)
@@ -288,8 +288,8 @@ AEM starts and automatically redirects your web browser to the appropriate page,
 Once logged in, you have access to AEM. For further information, depending on the your role, see the following:
 
 * [Authoring](/help/sites/authoring/using/home.md) 
-* [Administering](../../../administering/using/home.md)
-* [Developing](../../../developing/using/home.md)
+* [Administering](../../../sites/administering/using/home.md)
+* [Developing](../../../sites/developing/using/home.md)
 * [Managing](../../../managing/using/manage-reference.md)
 
 ## Advanced Deployment {#advanced-deployment}
