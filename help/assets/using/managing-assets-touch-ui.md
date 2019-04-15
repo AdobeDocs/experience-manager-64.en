@@ -741,7 +741,7 @@ The other properties and metadata information is retained. A partial copy is not
 
    **Deleting a rendition**
 
-   Select a rendition from the **Renditions** panel, and then tap/click the **Delete Rendition **icon from the [toolbar](../../sites/authoring/using/basic-handling.md#p-actions-toolbar-p).
+   Select a rendition from the **Renditions** panel, and then tap/click the **Delete Rendition** icon from the [toolbar](../../sites/authoring/using/basic-handling.md).
 
    ![](assets/delete_renditionicon.png)
 
@@ -1079,7 +1079,7 @@ The timeline lets you view various events for a selected item, such as active wo
 
    ![](assets/timeline.png)
 
-1. In the list that appears, use the **Show All **list to filter the results based on [comments](../../sites/authoring/using/basic-handling.md#main-pars-title-13), versions, workflows, and activities.
+1. In the list that appears, use the **Show All** list to filter the results based on comments, versions, workflows, and activities.
 
    ![](assets/timeline_options.png)
 
@@ -1286,21 +1286,6 @@ The versioning functionality lets you do the following:
 
 1. To view the new version, open the **Show All** list in the timeline from the asset details page or the Assets UI, and choose **Versions**.
 
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
    ![](assets/versions_option.png)
 
 1. Select a specific version for the asset to preview it or enable it to appear in the Assets UI.

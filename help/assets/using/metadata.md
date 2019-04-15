@@ -172,7 +172,7 @@ The metadata schemata supported are listed in the following section.
 * cc - creative commons
 * xmpRights
 * plus - Picture Licensing Universal System - https://www.useplus.com/
-* prism - https://www.prismstandard.org Publishing Requirements for Industry Standard Metadata 
+* prism - https://www.idealliance.org/prism-metadata Publishing Requirements for Industry Standard Metadata 
 * prl - Prism Rights Language
 * pur - Prism Usage Rights
 * xmpPlus - integration of PLUS with XMP

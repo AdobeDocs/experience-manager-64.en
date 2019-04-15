@@ -127,7 +127,7 @@ Wherever possible, set the DAM Update Asset workflow to Transient. The setting s
 >
 >By default, the DAM Update Asset workflow is set to Transient in AEM 6.3. In this case, you can skip the following procedure.
 
-1. Open [http://localhost:4502/miscadmin](/miscadmin.md) on the AEM instance you want to configure.  
+1. Open http://localhost:4502/miscadmin on the AEM instance you want to configure.  
 
 1. From the navigation tree, expand **[!UICONTROL Tools]** > **[!UICONTROL Workflow]** > **[!UICONTROL Models]** > **[!UICONTROL dam]**.
 1. Double-click **[!UICONTROL DAM Update Asset]**.
