@@ -209,7 +209,7 @@ Starting in AEM 6.0, Adobe Experience Manager uses an Oak based repository archi
 You can find the updated indexing information here:
 
 * [Best Practices for Queries and Indexing](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md)
-* [Queries and Indexing](/sites/deploying/using/queries-and-indexing.html )
+* [Queries and Indexing](../../../sites/deploying/using/queries-and-indexing.md )
 
 ### Concurrent Workflow Processing {#concurrent-workflow-processing}
 
@@ -454,7 +454,7 @@ Any optimizations made must be tested to ensure they have:
 A selection of tools is available to help you with load-generation, performance monitoring and/or results analysis:
 
 * [JMeter](https://jakarta.apache.org/jmeter/)
-* Load Runner (HP)
+* [Load Runner](https://www.microfocus.com/en-us/products/loadrunner-load-testing/overview)
 * [Determyne](https://www.determyne.com/) InsideApps
 * [InfraRED](https://www.infraredsoftware.com/)
 * [Java Interactive Profile](https://jiprof.sourceforge.net/)
