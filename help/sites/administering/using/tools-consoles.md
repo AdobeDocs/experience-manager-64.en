@@ -296,11 +296,6 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/deploying/using/recomended-deploys.md">Clustering</a></td> 
-   <td>Manage clustered deployments.</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
    <td><a href="../../../sites/deploying/using/offloading.md#administering-topologies">Topology Browser</a></td> 
    <td>View the instances topology.</td> 
   </tr> 

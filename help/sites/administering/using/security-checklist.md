@@ -43,7 +43,7 @@ Ensure that you have installed the latest [Security Hotfixes provided by Adobe](
 
 ### Change Default Passwords For the AEM and OSGi Console Admin Accounts {#change-default-passwords-for-the-aem-and-osgi-console-admin-accounts}
 
-Adobe strongly recommends that after installation you change the password for the privileged [**AEM** `admin` accounts](##changing-the-aem-admin-password) (on all instances).
+Adobe strongly recommends that after installation you change the password for the privileged [**AEM** `admin` accounts](#changing-the-aem-admin-password) (on all instances).
 
 These accounts include:
 
@@ -223,7 +223,7 @@ For each of the following services the specified settings need to be changed:
 
     * disable **Generate Debug Info**
 
-* [Apache Sling JSP Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingjspscripthandler):
+* [Apache Sling JSP Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md):
 
     * disable **Generate Debug Info**
     * disable **Mapped Content**

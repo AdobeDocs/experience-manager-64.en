@@ -417,7 +417,7 @@ session.save();
 
 #### Retrieve Effective Auth Requirements {#retrieve-effective-auth-requirements}
 
-There is no dedicated public API to read all efective authentication requirements as registered with the Apache Sling Authenticator. However, the list is exposed in the system console at *https://serveraddress:serverport/system/console/slingauth* under the "**Authentication Requirement Confguration**" section.
+There is no dedicated public API to read all efective authentication requirements as registered with the Apache Sling Authenticator. However, the list is exposed in the system console at `https://<serveraddress>:<serverport>/system/console/slingauth` under the "**Authentication Requirement Confguration**" section.
 
 The following image shows the authentication requirements of an AEM publish instance with demo content. The highlighted path of the community page illustrates how a requirement added by the implementation described in this document is reflected in the Apache Sling Authenticator.
 
@@ -858,7 +858,7 @@ For upgraded AEM installation, it is important to ensure that only one CUG imple
 
 Adobe provides a tool for migrating to the new CUG implementation. In order to use it, perform the following steps:
 
-1. Go to *https://serveraddress:serverport/system/console/cug-migration* to access the tool.
+1. Go to `https://<serveraddress>:<serverport>/system/console/cug-migration` to access the tool.
 1. Enter the root path you want to check CUGs for, and press the **Perform dry run** button. This will scan for CUGs elligible for conversion in the selected location.
 1. After you have reviewed the results, press the **Perform migration** button to migrate to the new implementation.
 

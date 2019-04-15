@@ -55,7 +55,7 @@ UI modes appear as a series of icons on the left side of the toolbar. When selec
 
 ![](assets/chlimage_1-319.png)
 
-Icons are references from the [Coral UI icon library](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon.html).
+Icons are references from the [Coral UI icon library](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon.html#availableIcons).
 
 ### Adding a UI Mode {#adding-a-ui-mode}
 

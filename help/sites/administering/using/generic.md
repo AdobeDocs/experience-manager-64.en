@@ -474,7 +474,7 @@ To generate a Catalog:
 
 >[!NOTE]
 >
->The catalog will reference your [Product Data](#productsandproductvariants).
+>The catalog will reference your [Product Data](#editing-product-information).
 
 1. Using the **Websites** console, navigate to your **Catalog Blueprint**, then the Base Catalog.
 
@@ -667,7 +667,7 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 1. Using either:
 
     * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
+    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **View Order Data** icon:
 

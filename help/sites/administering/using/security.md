@@ -447,7 +447,7 @@ The tabs provide access to various configurations:
   </tr> 
   <tr> 
    <td>Properties</td> 
-   <td>Lists information about the user or group that can include email information, a description, and name information. Also allows you to change a user's password. See <a href="https://security.html#creating-users-and-groups">Creating Users and Groups</a>, <a href="https://security.html#modifying-user-and-group-properties">Modifying User and Group Properties</a> and <a href="#changing-a-user-password">Changing a User Password</a>.</td> 
+   <td>Lists information about the user or group that can include email information, a description, and name information. Also allows you to change a user's password. See <a href="#creating-users-and-groups">Creating Users and Groups</a>, <a href="#modifying-user-and-group-properties">Modifying User and Group Properties</a> and <a href="#changing-a-user-password">Changing a User Password</a>.</td> 
   </tr> 
   <tr> 
    <td>Groups</td> 

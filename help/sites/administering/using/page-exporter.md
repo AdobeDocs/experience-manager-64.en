@@ -19,7 +19,7 @@ Once the export is configured you simply request a page in your browser by repla
 
 ## Exporting a Page {#exporting-a-page}
 
-The following steps describe how to export a page, and assume that an export configuration template exists for your site. A configuration template defines the way a page is exported and is specific to your site. To create a configuration template refer to the [Creating a Page Exporter Configuration for your Site](page-exporter.md#creating%20a%20page%20exporter%20configuration%20for%20your%20site) section.
+The following steps describe how to export a page, and assume that an export configuration template exists for your site. A configuration template defines the way a page is exported and is specific to your site. To create a configuration template refer to the [Creating a Page Exporter Configuration for your Site](#creating-a-page-exporter-configuration-for-your-site) section.
 
 To export a page:
 

@@ -69,7 +69,7 @@ New semantic block formats may be made available for selection by:
 
 1. Depending on your RTE, determine and navigate to the [configuration location](../../../sites/administering/using/rich-text-editor.md#understand-the-configuration-paths-and-locations).
 1. [Enable the Paragraphs selection field](../../../sites/administering/using/rich-text-editor.md#stylesindropdown); by [activating the plugin](../../../sites/administering/using/rich-text-editor.md#enable-rte-functionalities-by-activating-plug-ins).
-1. [Specify the formats you want to have available in the Paragraphs selection field](../../../sites/administering/using/rich-text-editor.mdspecifyingparagraphformatsavailableinthedropdownlist).
+1. [Specify the formats you want to have available in the Paragraphs selection field](../../../sites/administering/using/rich-text-editor.md#example-specifying-paragraph-formats-available-in-rte-selection-fiel).
 1. The paragraph formats are then available to the content author from the selection fields in the RTE. They can be accessed:
 
     * Using the paragraph ([pilcrow](https://en.wikipedia.org/wiki/Pilcrow)) icon in the touch-enabled UI:

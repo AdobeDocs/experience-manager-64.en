@@ -46,7 +46,7 @@ Additional functionality can be configured or developed:
 
 ## Registration Forms {#registration-forms}
 
-A [form](../../../sites/authoring/using/default-components.md#formcomponent) can be used to collect the registration information, then generate the new account and profile.
+A form can be used to collect the registration information, then generate the new account and profile.
 
 For example, users can request a new profile, using the Geometrixx page  
 `http://localhost:4502/content/geometrixx-outdoors/en/user/register.html`
