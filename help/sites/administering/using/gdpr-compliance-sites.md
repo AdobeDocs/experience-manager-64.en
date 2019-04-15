@@ -35,7 +35,7 @@ By default AEM Sites components do not store form-data entered by visitors on th
 
 ## Opt-In/Opt-Out {#opt-in-opt-out}
 
-AEM has a [cookie opt-out service](/sites/developing/using/cookie-optout.html ) that can be used for managing the opt-in/opt-out for users.
+AEM has a [cookie opt-out service](../../../sites/developing/using/cookie-optout.md ) that can be used for managing the opt-in/opt-out for users.
 
 ## Enhanced Insights by Analytics {#enhanced-insights-by-analytics}
 

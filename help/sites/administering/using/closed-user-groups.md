@@ -127,7 +127,7 @@ The default AEM setup now makes use of this confguration by allowing to set the 
 
 Adding the `granite:AuthenticationRequired` mixin type within the configured supported paths will cause the OSGi registration of the responsible handler to be updated containing an new, additional entry with the `sling.auth.requirements` property. If a given authentication requirement specifes the optional `granite:loginPath` property, the value is additionally registered with the Authenticator with a '-' prefix in order to be excluded from authentication requirement.
 
-#### Evaluation and Inheritence of the Authentication Requirement {#evaluation-and-inheritence-of-the-authentication-requirement}
+#### Evaluation and Inheritance of the Authentication Requirement {#evaluation-and-inheritance-of-the-authentication-requirement}
 
 Apache Sling authentication requirements are expected to be inherited through the page or node hierarchy. The very details of the inheritance and the evaluation of the authentication requirements such as order and precedence are considered an implementation detail and will not be documented in this article.
 
@@ -441,7 +441,7 @@ Like with the login path, there is no public API to retrieve the inherited authe
 >
 >It is recommended to rely on the inheritance mechanism both for authentication requirements and login path and avoid creation of nested auth requirements.
 >
->For more information see [Evaluation and Inheritance of Authentication Requirement](/content.md#contentbody-title-1715134837), [Evaluation of Login Path](/content.md#contentbody-title-914954954) and [Best Practices](/content.md#contentbody-title-1658415695).
+>For more information see [Evaluation and Inheritance of Authentication Requirement](#evaluation-and-inheritance-of-the-authentication-requirement), [Evaluation of Login Path](#evaluation-of-login-path) and [Best Practices](#best-practices).
 
 ```java
 String path = [...]

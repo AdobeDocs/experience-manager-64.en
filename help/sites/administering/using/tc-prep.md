@@ -39,7 +39,7 @@ Use the following steps to prepare your site for translation:
 1. Author the content of your language master. 
 1. Create the language root of each language copy for your site. For example, the French language copy of the Geometrixx sample site is /content/geometrixx/fr.
 
-After you prepare your content for translation, you can automatically create missing pages in your language copies and associated translation projects. (See [Creating a Translation Project](../../../sites/administering/using/tc-manage.md#main-pars-title-4).) For an overview of the content translation process in AEM, see [Translating Content for Multilingual Websites](../../../sites/administering/using/translation.md).  
+After you prepare your content for translation, you can automatically create missing pages in your language copies and associated translation projects. (See [Creating a Translation Project](../../../sites/administering/using/tc-manage.md).) For an overview of the content translation process in AEM, see [Translating Content for Multilingual Websites](../../../sites/administering/using/translation.md).  
 
 ## Creating a Language Root {#creating-a-language-root}
 

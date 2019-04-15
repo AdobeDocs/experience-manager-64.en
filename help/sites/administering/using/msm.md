@@ -17,7 +17,7 @@ Multi Site Manager (MSM) enables you to use the same site content in multiple lo
 
 * With MSM you can:
 
-    * Create content once ([source](#sourceandblueprints)), then
+    * Create content once and then
     * Copy this content to, and re-use this content in, other areas ([live copies](#live-copies)) of the same or other sites.
 
 * MSM then maintains the (live) relationships between your source content and its live copies so that:

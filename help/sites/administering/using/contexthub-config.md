@@ -71,7 +71,7 @@ Add a UI mode to group related ContextHub modules. When you create the UI mode, 
 1. Provide values for the following properties:
 
     * UI Mode Title: The title that identifies the UI mode 
-    * Mode Icon: The selector for the [Coral UI icon](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon.html) to use, for example `coral-Icon--user`
+    * Mode Icon: The selector for the [Coral UI icon](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon.html#availableIcons) to use, for example `coral-Icon--user`
     
     * Enabled: Select to show the UI mode in the ContextHub toolbar
 
@@ -93,7 +93,6 @@ The UI module properties include a detail configuration where you can provide va
 | [contexthub.device](../../../sites/developing/using/ch-samplemodules.md#contexthub-device-ui-module-type) |Display the client device |emulators |
 | [contexthub.location](../../../sites/developing/using/ch-samplemodules.md#contexthub-location-ui-module-type) |Displays the latitude and longitude of the client, as well as the location on a map. Enables you to change the location. |geolocation |
 | [contexthub.screen-orientation](../../../sites/developing/using/ch-samplemodules.md#contexthub-screen-orientation-ui-module-type) |Displays the screen orientation of the device (landscape or portrait) |emulators |
-| [contexthub.season](../../../sites/developing/using/ch-samplemodules.md#contexthub-season-ui-module-type) |Displays the season for the location of the client. Enables you to select the season |datetime |
 | [contexthub.tagcloud](../../../sites/developing/using/ch-samplemodules.md#contexthub-tagcloud-ui-module-type) |Displays statistics about page tags |tagcloud |
 | [granite.profile](../../../sites/developing/using/ch-samplemodules.md#granite-profile-ui-module-type) |Displays the profile information for the current user, including authorizableID, displayName and familyName. You can change the value of displayName and familyName. |profile |
 
