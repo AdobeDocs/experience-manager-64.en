@@ -73,7 +73,7 @@ Microsoft Translation configuration pages provide a convenient link to the Micro
 
 ## Activating the Translator Service Configurations {#activating-the-translator-service-configurations}
 
-You need to activate your cloud service configurations to support translated content that is replicated to the publish instance. Use the method of [activating a complete section (tree)](../../../sites/authoring/using/publishing-pages.md#main-pars-title-1) to activate the repository nodes that store the Microsoft Translator or third-party cloud service configurations. The nodes are located below the following parent nodes:
+You need to activate your cloud service configurations to support translated content that is replicated to the publish instance. Use the method of [activating a complete section (tree)](../../../sites/authoring/using/publishing-pages.md#publishing-and-unpublishing-a-tree) to activate the repository nodes that store the Microsoft Translator or third-party cloud service configurations. The nodes are located below the following parent nodes:
 
 * Microsoft Translation Service: /etc/cloudservices/msft-translation
 * Third-party Translation: /etc/cloudservices/machine-translation

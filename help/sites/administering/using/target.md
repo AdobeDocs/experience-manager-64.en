@@ -50,7 +50,7 @@ To integrate with Target, perform the following tasks:
 >
 >You must secure the activity settings node **cq:ActivitySettings** on the publish instance so that it is inaccessible to normal users. The activity settings node should only be accessible to the service handling the activity synchronization to Adobe Target.
 >
->See [Prerequisites for Integrating with Adobe Target](../../../sites/administering/using/target-requirements.md#securingtheactivitysettings) for detailed information.
+>See [Prerequisites for Integrating with Adobe Target](../../../sites/administering/using/target-requirements.md#securing-the-activity-settings-node) for detailed information.
 
 When the integration is complete, you can [author targeted content](../../../sites/authoring/using/content-targeting-touch.md) that sends visitor data to Adobe Target. Note that page components require specific code to enable content targeting. (See [Developing for Targeted Content](../../../sites/developing/using/target.md).)
 

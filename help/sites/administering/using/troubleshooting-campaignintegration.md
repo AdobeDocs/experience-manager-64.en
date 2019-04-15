@@ -71,7 +71,7 @@ Use the following workaround:
 
 1. Open file **$CAMPAIGN_HOME/datakit/nms/fra/js/amcIntegration.js**
 1. Modify line 467 of method “amcGetSeedMetaData” 
-1. Change “label : [inclView.@label](mailto:inclView.@label)” into “label : String([inclView.@label](mailto:inclView.@label))”
+1. Change `label : [inclView.@label](mailto:inclView.@label)` to `label : String([inclView.@label](mailto:inclView.@label))`
 
 1. Save.
 1. Relaunch the server.

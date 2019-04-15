@@ -146,7 +146,7 @@ The following procedure describes how to opt into the integration using the prop
 
 When you configure the integration with Analytics and Target, AEM automatically creates the required cloud configurations and frameworks. For example, the Analytics cloud configuration is called Provisioned Analytics Account.
 
-You do not need to alter the cloud configurations. However, you can configure the frameworks as needed. (See [Mapping Component Data with Adobe Analytics Properties](../../../sites/administering/using/adobeanalytics-mapping.md) and [Add a Target Framework](../../../sites/administering/using/target.md#main-pars-title-14).)
+You do not need to alter the cloud configurations. However, you can configure the frameworks as needed. (See [Mapping Component Data with Adobe Analytics Properties](../../../sites/administering/using/adobeanalytics-mapping.md) and [Add a Target Framework](../../../sites/administering/using/target.md).)
 
 >[!NOTE]
 >
