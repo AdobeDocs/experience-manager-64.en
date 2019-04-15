@@ -138,7 +138,7 @@ AEM uses ACLs to determine what actions a user or group and can take and where i
 
 ### Permissions and ACLs {#permissions-and-acls}
 
-Permissions define who is allowed to perform which actions on a resource. The permissions are the result of [access control](security.md#access%20control%20lists%20and%20how%20they%20are%20evaluated) evaluations.
+Permissions define who is allowed to perform which actions on a resource. The permissions are the result of [access control](#access-control-lists-and-how-they-are-evaluated) evaluations.
 
 You can change the permissions granted/denied to a given user by selecting or clearing the checkboxes for the individual AEM [actions](security.md#actions). A check mark indicates that an action is allowed. No checkmark indicates that an action is denied.
 
@@ -146,7 +146,7 @@ Where the checkmark is located in the grid also indicates what permissions users
 
 ### Actions {#actions}
 
-Actions can be performed on a page (resource). For each page in the hierarchy, you can specify which action the user is allowed to take on that page. [Permissions](security.md#permissions%20and%20acls) enable you to allow or deny an action.
+Actions can be performed on a page (resource). For each page in the hierarchy, you can specify which action the user is allowed to take on that page. [Permissions](#permissions-and-acls) enable you to allow or deny an action.
 
 <table> 
  <tbody> 
@@ -447,7 +447,7 @@ The tabs provide access to various configurations:
   </tr> 
   <tr> 
    <td>Properties</td> 
-   <td>Lists information about the user or group that can include email information, a description, and name information. Also allows you to change a user's password. See <a href="https://security.html#Creating%20Users%20and%20Groups">Creating Users and Groups</a>, <a href="https://security.html#Modifying%20User%20and%20Group%20Properties">Modifying User and Group Properties</a> and <a href="#changing-a-user-password">Changing a User Password</a>.</td> 
+   <td>Lists information about the user or group that can include email information, a description, and name information. Also allows you to change a user's password. See <a href="https://security.html#creating-users-and-groups">Creating Users and Groups</a>, <a href="https://security.html#modifying-user-and-group-properties">Modifying User and Group Properties</a> and <a href="#changing-a-user-password">Changing a User Password</a>.</td> 
   </tr> 
   <tr> 
    <td>Groups</td> 
@@ -492,7 +492,7 @@ To filter users or groups:
 
 ### Hiding Users and Groups {#hiding-users-and-groups}
 
-Hiding users or groups is another way to filter the list of all users and groups in a system. There are two toggle mechanisms. Clicking Hide User hides all users from view and clicking Hide Groups hides all groups from view (you cannot hide both users and groups at the same time). To filter the list by using a filter expression, see [Filtering users and groups](security.md#filtering%20users%20and%20groups).
+Hiding users or groups is another way to filter the list of all users and groups in a system. There are two toggle mechanisms. Clicking Hide User hides all users from view and clicking Hide Groups hides all groups from view (you cannot hide both users and groups at the same time). To filter the list by using a filter expression, see [Filtering users and groups](#filtering-users-and-groups).
 
 To hide users and groups:
 

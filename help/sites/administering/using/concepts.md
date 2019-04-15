@@ -295,7 +295,7 @@ A catalog groups product data together for both ease of management and represent
 
 AEM supports product content in multiple languages. When requesting data, the integration framework retrieves the language from the current tree (for example, `en_US` for pages under `/content/geometrixx-outdoors/en_US`).
 
-For a multi-lingual store, you can import your catalog for each language tree individually (or copy it by means of [MSM](/content/docs/en/aem/6-3/administer/sites/multi-site-manager.md)).
+For a multi-lingual store, you can import your catalog for each language tree individually (or copy it by means of [MSM](../../../sites/administering/using/msm.md)).
 
 #### Catalogs for Multiple Brands {#catalogs-for-multiple-brands}
 
@@ -821,7 +821,7 @@ The order is confirmed on screen and can be tracked with the [order tracking](#o
 
 ![](assets/chlimage_1-181.png)
 
-Since AEM uses standard pages for products, you can use the [standard search component](/content/docs/en/aem/6-3/author/page-authoring/default-components/editmode.md#search) to create a search page.
+Since AEM uses standard pages for products, you can use the standard search component to create a search page.
 
 If you require a more thorough implementation, you can either:
 

@@ -28,4 +28,4 @@ To configure the referrer filter service:
 
 ![](assets/chlimage_1-58.png)
 
-See the [OSGI Configuration Settings](../../../sites/deploying/using/osgi-configuration-settings.md) and [Security Checklist - Issues with Cross-Site Request Forgery](/content/docs/en/aem/6-3/administer/security/crx-security-checklist.md#issues%20with%20cross-site%20request%20forgery) for further details. 
+See the [OSGI Configuration Settings](../../../sites/deploying/using/osgi-configuration-settings.md) and [Security Checklist - Issues with Cross-Site Request Forgery](../../../sites/administering/using/security-checklist.md#protect-against-cross-site-request-forgery) for further details. 

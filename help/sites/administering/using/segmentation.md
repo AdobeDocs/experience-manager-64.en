@@ -15,7 +15,7 @@ discoiquuid: 6cade87c-9ed5-47d7-9b39-c942268afdad
 
 >[!NOTE]
 >
->This section describes configuring segmentation when using the ContextHub. If you are using the Client Context functionality, please see the relevant documentation for [configuring segmentation for Client Context](../../../sites/administering/using/campaign-segmentation.md#main-pars-remark-0).
+>This section describes configuring segmentation when using the ContextHub. If you are using the Client Context functionality, please see the relevant documentation for [configuring segmentation for Client Context](../../../sites/administering/using/campaign-segmentation.md).
 >
 
 Segmentation is a key consideration when creating a campaign. See [Managing Audiences](../../../sites/authoring/using/managing-audiences.md) for information on how segmentation works and key terms.

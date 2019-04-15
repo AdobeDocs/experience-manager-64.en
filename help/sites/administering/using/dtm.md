@@ -46,7 +46,7 @@ Decide whether your AEM author instance uses the Dynamic Tag Management staging 
 
 Typically your author instance uses the Dynamic Tag Management staging libraries, and the production instance uses the production libraries. This scenario enables you to use the author instance to test unapproved Dynamic Tag Management configurations.
 
-If desired, your author instance can use the production libraries. [Web browser plugins are available](https://help-forums.adobe.com/content/adobeforums/en/marketing-cloud-forum/adobe-marketing-cloud.topic.html/forum__lkzf-_dtm_switchdt.html) that enable you to switch between the use of staging libraries for testing purposes when the libraries are cloud-hosted.
+If desired, your author instance can use the production libraries. Web browser plugins are available that enable you to switch between the use of staging libraries for testing purposes when the libraries are cloud-hosted.
 
 ### Using the Dynamic Tag Management Deployment Hook {#using-the-dynamic-tag-management-deployment-hook}
 
@@ -54,7 +54,7 @@ When AEM hosts the Dynamic Tag Management libraries, you can use the Dynamic Tag
 
 To use the deployment hook, Dynamic Tag Management must be able to connect to the AEM instance that hosts the libaries. You must [enable access to AEM](../../../sites/administering/using/dtm.md#enabling-access-for-the-deployment-hook-service) for the Dynamic Tag Managment servers.
 
-In some circumstances AEM can be unreachable, such as when AEM lies behind a firewall. In these cases, you can use the AEM [polling importer option](#polling) to periodically retrieve the libraries. A cron job expression dictates the schedule for library downloads.
+In some circumstances AEM can be unreachable, such as when AEM lies behind a firewall. In these cases, you can use the AEM polling importer option to periodically retrieve the libraries. A cron job expression dictates the schedule for library downloads.
 
 ## Enabling Access for the Deployment Hook Service {#enabling-access-for-the-deployment-hook-service}
 

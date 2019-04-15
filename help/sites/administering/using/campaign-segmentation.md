@@ -120,7 +120,7 @@ To define your new segment:
 
 1. In the rail, choose** Tools &gt; Operations &gt; Configuration**.
 1. Click on the **Segmentation** page in the left pane, and navigate to the required location.
-1. Create a [new page](../../../sites/authoring/using/editing-content.md#creatinganewpage) using the **Segment** template.
+1. Create a [new page](../../../sites/authoring/using/managing-pages.md) using the **Segment** template.
 1. Open the new page to see the segment editor:
 
    ![](assets/screen_shot_2012-02-02at101726am.png)
@@ -161,7 +161,7 @@ As the main operator is OR you need to start with an **OR Container**. Within th
 Once the segment has been defined, potential results can be tested with the help of the ** [Client Context](../../../sites/administering/using/client-context.md)**:
 
 1. Select the segment to be tested.
-1. Press ** [Ctrl-Alt-C](../../../sites/authoring/using/page-authoring.md#keyboardshortcuts)** to open the ** [Client Context](../../../sites/administering/using/client-context.md)**, which shows the data that has been collected. For testing purposes you can **Edit** certain values, or **Load** another profile to see the impact there.
+1. Press ** [Ctrl-Alt-C](../../../sites/authoring/using/keyboard-shortcuts.md)** to open the ** [Client Context](../../../sites/administering/using/client-context.md)**, which shows the data that has been collected. For testing purposes you can **Edit** certain values, or **Load** another profile to see the impact there.
 
 1. Depending on the traits defined, the data available for the current page may or may not match the segment definition. The status of the match is shown underneath the definition.
 
