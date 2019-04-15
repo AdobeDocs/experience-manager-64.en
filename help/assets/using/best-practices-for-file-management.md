@@ -17,13 +17,13 @@ An important concept regarding the use of profiles in AEM Assets is that they ar
 
 By using consistent and appropriate file and folder naming strategies, along with good metadata practice, you can make the most of your digital asset collection and ensure that the right files are processed by the right profile.
 
-See [Profiles for Processing Video, Metadata, and Images](../../assets/using/processing-profiles.md).
+See [Profiles for Processing Video, Metadata, and Images](processing-profiles.md).
 
 The following are best-practice tips for organizing your digital asset files.
 
 * Organize your files based on the metadata that you add to them instead of on the folders in which they reside. You can accomplish this by adding metadata profiles.  
-  See [Metadata Profiles.](../../assets/using/metadata-profiles.md)  
-  See [Metadata for Digital Asset Management](../../assets/using/metadata.md).  
+  See [Metadata Profiles.](metadata-profiles.md)  
+  See [Metadata for Digital Asset Management](metadata.md).  
 
 * In most cases, your collection of digital assets are always growing. Therefore, it is important, earlier on, to formalize metadata use, folder structure, and file naming among all your uploaded assets. Standardizing on these things ensures that as your pool of digital assets grows, you can apply processing profiles to folders with greater precision and consistency.
 * Use folders only to impose a consisistent storage structure for your digital assets. For example, folder structures that can help you refine what profiles to assign may include the following:

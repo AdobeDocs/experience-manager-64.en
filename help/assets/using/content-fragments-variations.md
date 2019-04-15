@@ -17,7 +17,7 @@ discoiquuid: 1cdb2dfc-623b-44cf-9a7b-98cfabbb1d0c
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
-[Variations](../../assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) are a significant feature of content fragments, as they allow you to create and edit copies of the master content for use on specific channels, and/or scenarios.
+[Variations](content-fragments.md#constituent-parts-of-a-content-fragment) are a significant feature of content fragments, as they allow you to create and edit copies of the master content for use on specific channels, and/or scenarios.
 
 From the **Variations** tab you can:
 
@@ -88,7 +88,7 @@ The following actions are also available (for all the [formats](#formats)) when 
 * [Upload content](#uploading-content)
 * [Synchronize with Master](#synchronizing-with-master) (when editing a variation)
 * [Summarize Text](#summarizing-text)
-* [Annotate](../../assets/using/content-fragments-variations.md#annotating-a-content-fragment) your text  
+* [Annotate](content-fragments-variations.md#annotating-a-content-fragment) your text  
 
 * [Insert visual assets into your fragment](#inserting-assets-into-your-fragment) (images)
 
@@ -123,7 +123,7 @@ Rich text editing allows you to format:
     * Search
     * Find/Replace
     * Spellchecker
-    * [Annotations](../../assets/using/content-fragments-variations.md#annotating-a-content-fragment)
+    * [Annotations](content-fragments-variations.md#annotating-a-content-fragment)
 
 The [actions](#actions) are also accessible from the full-screen editor.
 
@@ -139,7 +139,7 @@ Plain Text allows for rapid entry of content without formatting or markdown info
 
 >[!NOTE]
 >
->For full information see the [Markdown](../../assets/using/content-fragments-markdown.md) documentation.
+>For full information see the [Markdown](content-fragments-markdown.md) documentation.
 
 This allows you to format your text using markdown. You can define:
 
@@ -249,7 +249,7 @@ Annotations:
 
 ### Inserting Assets into your Fragment {#inserting-assets-into-your-fragment}
 
-To ease the process of authoring content fragments you can add [Assets](../../assets/using/managing-assets-touch-ui.md) (images) directly to the fragment.
+To ease the process of authoring content fragments you can add [Assets](managing-assets-touch-ui.md) (images) directly to the fragment.
 
 They will be added to the paragraph sequence of the fragment without any formatting; formatting can be done when the [fragment is used/referenced on a page](../../sites/authoring/using/content-fragments.md).
 
@@ -261,7 +261,7 @@ They will be added to the paragraph sequence of the fragment without any formatt
 
 >[!NOTE]
 >
->There are various methods of adding [images](../../assets/using/content-fragments.md#fragments-with-visual-assets) to the fragment and/or page.
+>There are various methods of adding [images](content-fragments.md#fragments-with-visual-assets) to the fragment and/or page.
 
 1. Position the cursor at the position you want to add the image.
 1. Use the **Insert Asset** icon to open the search dialog.

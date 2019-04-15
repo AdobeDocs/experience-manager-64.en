@@ -23,7 +23,7 @@ For example, 3.5 SDK: [https://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html](
 
 See also the [Adobe Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
 
-This section describes how to create, edit, and manage viewer presets. You can apply a viewer preset to an asset anytime you preview it. See [Applying Viewer Presets](../../assets/using/viewer-presets.md).
+This section describes how to create, edit, and manage viewer presets. You can apply a viewer preset to an asset anytime you preview it. See [Applying Viewer Presets](viewer-presets.md).
 
 >[!NOTE]
 >
@@ -515,7 +515,7 @@ However, to deliver an asset with a viewer preset, the viewer preset must be pub
 
 See [Activating or Deactivating Viewer Presets](#activating-or-deactivating-viewer-presets).
 
-See also [Previewing Assets](../../assets/using/previewing-assets.md).
+See also [Previewing Assets](previewing-assets.md).
 
 To publish viewer presets:
 
@@ -569,10 +569,10 @@ To apply a Viewer Preset to an asset:
 
 1. Select a viewer preset from the left pane to apply it to the asset.
 
-   You can [copy the URL to share](../../assets/using/linking-urls-to-yourwebapplication.md) with other users.
+   You can [copy the URL to share](linking-urls-to-yourwebapplication.md) with other users.
 
 ## Delivering Assets with Viewer Presets {#delivering-assets-with-viewer-presets}
 
-To get the URLs for Viewer Presets, see [Linking URLs to your Web application](../../assets/using/linking-urls-to-yourwebapplication.md). See also [Embedding the Video Viewer on a Web Page](../../assets/using/embed-code.md).
+To get the URLs for Viewer Presets, see [Linking URLs to your Web application](linking-urls-to-yourwebapplication.md). See also [Embedding the Video Viewer on a Web Page](embed-code.md).
 
-If you are using AEM as your WCM, you can add assets using the viewer presets directly on the page. See [Adding Dynamic Media Assets to Pages](../../assets/using/adding-dynamic-media-assets-to-pages.md).
+If you are using AEM as your WCM, you can add assets using the viewer presets directly on the page. See [Adding Dynamic Media Assets to Pages](adding-dynamic-media-assets-to-pages.md).

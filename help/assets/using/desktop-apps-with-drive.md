@@ -18,7 +18,7 @@ draft: true
 
 Once connected, you can access AEM assets through Windows Explorer or Mac OS Finder, as well as directly through the UI of the integrated CS applications (Photoshop, Illustrator, Bridge, etc.).
 
-You can also use Adobe Experience Manager Desktop App to map the AEM Assets repository to a network directory on your system so assets within AEM are available at your local system. For details, see [Adobe Experience Manager Desktop App](/assets/using/aem-desktop-app.md).
+You can also use Adobe Experience Manager Desktop App to map the AEM Assets repository to a network directory on your system so assets within AEM are available at your local system. For details, see [Adobe Experience Manager Desktop App](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html).
 
 ## Supported Features {#supported-features}
 

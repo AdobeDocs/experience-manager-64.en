@@ -25,13 +25,13 @@ You can integrate your AEM instance with Creative Cloud in multiple ways. Follow
 
 This document includes the following:
 
-* [Overview of integrations and summary of best practices](../../assets/using/aem-cc-integration-best-practices.md#summary-of-best-practices)
-* [Key concepts and use cases](../../assets/using/aem-cc-integration-best-practices.md#key-concepts-and-use-cases)
+* [Overview of integrations and summary of best practices](aem-cc-integration-best-practices.md#summary-of-best-practices)
+* [Key concepts and use cases](aem-cc-integration-best-practices.md#key-concepts-and-use-cases)
 
 You can also review the following best practices documents around specific types of integration in more depth:
 
 * [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices.md)
-* [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md)
+* [AEM to Creative Cloud folder sharing best practices](aem-cc-folder-sharing-best-practices.md)
 
 ## Terms and definitions {#terms-and-definitions}
 
@@ -69,7 +69,7 @@ The following table provides a concise summary of when to use which solution or 
 
 * **AEM Desktop App:**When users have direct access to AEM Assets and/or require access to larger parts of the DAM, including the whole repository.
 * **AEM / CC Folder Sharing:** When users don't have direct access to AEM or only require access to a smaller number of files.
-* Alternative solutions (for example, [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share](../../assets/using/assets-finder-editor.md) components, [Link Share](../../assets/using/link-sharing.md), using [AEM Assets web UI](../../assets/using/managing-assets-touch-ui.md)): Support similar use cases and should be reviewed based on specific requirement.
+* Alternative solutions (for example, [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share](assets-finder-editor.md) components, [Link Share](link-sharing.md), using [AEM Assets web UI](managing-assets-touch-ui.md)): Support similar use cases and should be reviewed based on specific requirement.
 
 <table> 
  <tbody> 
@@ -181,7 +181,7 @@ This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Des
 
 ### Best Practices for AEM / CC Folder Sharing {#best-practices-for-aem-cc-folder-sharing}
 
-This is a brief summary of best practices for AEM to CC folder sharing. Refer to [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md) for more information.
+This is a brief summary of best practices for AEM to CC folder sharing. Refer to [AEM to Creative Cloud folder sharing best practices](aem-cc-folder-sharing-best-practices.md) for more information.
 
 * **One-direction flow of assets:** folder sharing can be used to share assets to CC, or get new assets from CC to DAM - it won't work for modifying existing assets in DAM
 * **Volume considerations:** Share smaller number/sizes of files
@@ -252,9 +252,9 @@ In such cases, you can leverage the AEM/Creative Cloud integration to improve th
 
 Use the following strategies to provide access to final/approved assets:
 
-* To provide access to a large number assets: Use [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), or customer’s implementation of [Asset Share](../../assets/using/assets-finder-editor.md) on AEM publish infrastructure
+* To provide access to a large number assets: Use [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), or customer’s implementation of [Asset Share](assets-finder-editor.md) on AEM publish infrastructure
 
-* To provide access to a few assets: [AEM / Creative Cloud folder sharing](../../sites/administering/using/creative-cloud.md) can be used in addition to AEM Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in its [dedicated best practices guide](../../assets/using/aem-cc-folder-sharing-best-practices.md).
+* To provide access to a few assets: [AEM / Creative Cloud folder sharing](../../sites/administering/using/creative-cloud.md) can be used in addition to AEM Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in its [dedicated best practices guide](aem-cc-folder-sharing-best-practices.md).
 
 ### Use Cases {#use-cases}
 
@@ -341,12 +341,12 @@ Avoid using AEM Desktop App to manage assets directly in the network share of AE
 
 Neither AEM Desktop App nor AEM to CC folders sharing  were  built to support migration of assets from existing systems or large volumes of assets stored on servers. Due to the large volumes of assets to be ingested, and additional requirements around metadata mapping, transformation, and ingestion, migrations should be handled using different tools and approaches.
 
-Please refer to the [Migration Guide](../../assets/using/assets-migration-guide.md) to see how to plan and execute asset migrations.
+Please refer to the [Migration Guide](assets-migration-guide.md) to see how to plan and execute asset migrations.
 
 ## Further reading {#further-reading}
 
 The following documents include best practices around specific integrations in greater detail:
 
 * [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices.md)
-* [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md)
+* [AEM to Creative Cloud folder sharing best practices](aem-cc-folder-sharing-best-practices.md)
 

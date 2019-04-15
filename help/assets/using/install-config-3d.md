@@ -20,21 +20,21 @@ The installation and configuration of AEM 3D (version 3.0) involves the followin
 1. Configuring the 3D asset ingestion workflow and restarting AEM.
 1. Validating the setup of AEM 3D.
 
-See also [Working with 3D assets](../../assets/using/3d-assets.md).
+See also [Working with 3D assets](3d-assets.md).
 
 See also [AEM 3D Assets release notes](../../release-notes/aem3d-release-notes.md) for prerequisites, supported browsers, and other important release imformation.
 
-See also [Working with the 3D Sites component](../../assets/using/using-the-3d-sites-component.md).
+See also [Working with the 3D Sites component](using-the-3d-sites-component.md).
 
 >[!NOTE]
 >
->Before downloading and installing the 3D package, make sure that you have installed all prerequisite AEM packages successfully. See the [AEM 3D Release Notes.](../../assets/using/install-config-3d.md)
+>Before downloading and installing the 3D package, make sure that you have installed all prerequisite AEM packages successfully. See the [AEM 3D Release Notes.](install-config-3d.md)
 
 ## Installing the Autodesk FBX SDK library {#installing-the-autodesk-fbx-sdk-library}
 
 The native AEM 3D code requires the Autodesk FBX library to support the FBX file format. (Adobe is currently unable to redistribute this library.)
 
-See also [Advanced configuration settings](../../assets/using/advanced-config-3d.md).
+See also [Advanced configuration settings](advanced-config-3d.md).
 
 1. Log onto the host where AEM is installed.
 
@@ -64,7 +64,7 @@ See also [Advanced configuration settings](../../assets/using/advanced-config-3d
 >
 >Before you proceed with the installation and configuration of AEM 3D, Adobe recommends that you deploy any applicable service packs and other related feature packs. See [AEM 3D Release Notes](../../release-notes/aem3d-release-notes.md).
 
-See also [Advanced Configuration Settings](../../assets/using/advanced-config-3d.md).
+See also [Advanced Configuration Settings](advanced-config-3d.md).
 
 To install the native 3D code package,
 

@@ -15,7 +15,7 @@ discoiquuid: a0319701-21eb-4b7f-8b2e-ac81a7a75875
 
 Use standard upload or sync mechanisms to bring 3D assets and their associated referenced files into AEM Assets.
 
-See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
+See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 Adobe recommends that you upload all referenced files before-or at the same time-you upload the primary 3D model file. However, this is not a requirement.
 
@@ -44,7 +44,7 @@ Converting and processing 3D files typically consumes significant CPU and memory
 
 Conversion, processing, and render jobs are queued as needed to prevent slowing down the server too much. The message "Waiting for processing..." is sometimes shown in the Card View at the time you uploaded assets. This status indicates that other processing or render jobs must finish before the current asset is processed.
 
-Mechanisms are available to restrict CPU use for ingestion processing and for rendering. See [Advanced configuration settings](../../assets/using/advanced-config-3d.md) for information on how to configure the CPU limits.
+Mechanisms are available to restrict CPU use for ingestion processing and for rendering. See [Advanced configuration settings](advanced-config-3d.md) for information on how to configure the CPU limits.
 
 ## Monitoring the processing status of your uploaded 3D files {#monitoring-the-processing-status-of-your-uploaded-d-files}
 

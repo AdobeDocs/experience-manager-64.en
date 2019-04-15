@@ -15,7 +15,7 @@ discoiquuid: 7c7a9683-9c3a-4cc6-99c2-4749aeb14aa0
 
 XMP (Extensible Metadata Platform) is the metadata standard used by AEM Assets for all metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
 
-Aside from offering universal metadata encoding that can be embedded into all file formats, XMP provides a rich [content model](../../assets/using/xmp.md#xmp-core-concepts) and is [supported by Adobe](../../assets/using/xmp.md#advantages-of-xmp) and other companies, so that users of XMP in combination with AEM Assets have a powerful platform to build upon.
+Aside from offering universal metadata encoding that can be embedded into all file formats, XMP provides a rich [content model](xmp.md#xmp-core-concepts) and is [supported by Adobe](xmp.md#advantages-of-xmp) and other companies, so that users of XMP in combination with AEM Assets have a powerful platform to build upon.
 
 The [XMP specification](https://www.adobe.com/devnet/xmp.html) is available from Adobe.
 
@@ -47,7 +47,7 @@ XMP is most commonly serialized and stored using a subset of the [W3C](https://e
 XMP has the following advantages over other encoding standards and schemata:
 
 * XMP-based metadata is very powerful and fine-grained.   
-* XMP lets you have [multiple values for one property.](#multivalue-properties)
+* XMP lets you have multiple values for one property.
 * XMP has standardized encoding, which lets you easily exchange metadata.
 * XMP is extensible. You can add addtional information into your assets.
 

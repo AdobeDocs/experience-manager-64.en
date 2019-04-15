@@ -24,26 +24,26 @@ The following step-by-step workflow description is designed to help you get up a
 >Before you work with video in Dynamic Media, make sure that your AEM admininistrator has already enabled and configured Dynamic Media Cloud Services.
 >
 >* See [Configuring Dynamic Media Cloud Services in Configuring Dynamic Media - Hybrid mode.](/help/assets/using/config-dynamic.md) 
->* See [Configuring Dynamic Media - Scene7 mode](../../assets/using/config-dms7.md) and [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md)
+>* See [Configuring Dynamic Media - Scene7 mode](config-dms7.md) and [Troubleshooting Dynamic Media - Scene7 mode](troubleshoot-dms7.md)
 >
 
 1. **Upload your Dynamic Media videos** by doing the following:
 
     * Create your own video encoding profile. Or, you can simply use the predefined "Adaptive Video Encoding" profile that comes with Dynamic Media.
 
-        * [Creating a video encoding profile](../../assets/using/video-profiles.md).
+        * [Creating a video encoding profile](video-profiles.md).
         * Learn more about [Best practices for video encoding](#best-practices-for-encoding-videos).
 
     * Associate the video processing profile to one or more folders where you are going to upload your master videos.
 
-        * [Applying a video profile to folders](../../assets/using/video-profiles.md#applying-a-video-profile-to-folders).
-        * Learn more about [Best practices for organizing your digital assets for using processing profiles](../../assets/using/best-practices-for-file-management.md).
-        * Learn more about [Organizing digital assets](../../assets/using/organize-assets.md).
+        * [Applying a video profile to folders](video-profiles.md#applying-a-video-profile-to-folders).
+        * Learn more about [Best practices for organizing your digital assets for using processing profiles](best-practices-for-file-management.md).
+        * Learn more about [Organizing digital assets](organize-assets.md).
 
     * Upload your master videos to the folders. You can upload video files that are up to 20 GB each. When you add videos to the folder, they are encoded according to the video processing profile that you assigned to the folder.
 
-        * [Upload your videos](../../assets/using/managing-video-assets.md#uploading-and-previewing-video-assets).
-        * Learn more about [Supported input file formats](../../assets/using/assets-formats.md#supported-multimedia-formats).
+        * [Upload your videos](managing-video-assets.md#uploading-and-previewing-video-assets).
+        * Learn more about [Supported input file formats](assets-formats.md#supported-multimedia-formats).
 
     * Monitor how [video encoding is progressing](#monitoring-video-encoding-and-youtube-publishing-progress) either from the asset or workflow view.
 
@@ -51,55 +51,55 @@ The following step-by-step workflow description is designed to help you get up a
 
     * Organize, browse, and search video assets
 
-        * [Organizing digital assets](../../assets/using/organize-assets.md)  
-          Learn more about [Best practices for organizing your digital assets for using processing profiles](../../assets/using/best-practices-for-file-management.md)
+        * [Organizing digital assets](organize-assets.md)  
+          Learn more about [Best practices for organizing your digital assets for using processing profiles](best-practices-for-file-management.md)
         
-        * [Searching video assets](../../assets/using/search-video-assets.md) or [Searching assets](../../assets/using/managing-assets-touch-ui.md#searching-assets)
+        * [Searching video assets](search-video-assets.md) or [Searching assets](managing-assets-touch-ui.md#searching-assets)
 
     * Preview and publish video assets
 
         * View the source video and encoded renditions of the video along with its associated thumbnails:  
-          [Previewing videos](../../assets/using/managing-video-assets.md#uploading-and-previewing-video-assets) or [Previewing assets](../../assets/using/previewing-assets.md)  
-          [Viewing video renditions](../../assets/using/video-renditions.md)  
-          [Managing video renditions](../../assets/using/managing-assets-touch-ui.md#managing-renditions)
+          [Previewing videos](managing-video-assets.md#uploading-and-previewing-video-assets) or [Previewing assets](previewing-assets.md)  
+          [Viewing video renditions](video-renditions.md)  
+          [Managing video renditions](managing-assets-touch-ui.md#managing-renditions)
         
-        * [Manage viewer presets](../../assets/using/managing-viewer-presets.md)
-        * [Publishing assets](../../assets/using/publishing-dynamicmedia-assets.md)
+        * [Manage viewer presets](managing-viewer-presets.md)
+        * [Publishing assets](publishing-dynamicmedia-assets.md)
 
     * Work with video metadata
 
         * View the properties of an encoded video rendition such as frame rate, audio and video bitrate, and codec:  
-          [Viewing video rendition properties](../../assets/using/video-renditions.md) 
+          [Viewing video rendition properties](video-renditions.md) 
         
         * Edit the properties of video such as the title, description, and tags, custom metadata fields:  
-          [Editing video properties](../../assets/using/managing-assets-touch-ui.md#editing-properties)
+          [Editing video properties](managing-assets-touch-ui.md#editing-properties)
         
-        * [Managing metadata for digital assets](../../assets/using/metadata.md)
-        * [Metadata schemas](../../assets/using/metadata-schemas.md)
+        * [Managing metadata for digital assets](metadata.md)
+        * [Metadata schemas](metadata-schemas.md)
 
     * Review, approve, and annotate videos, and maintain full version control
 
-        * [Annotating videos](../../assets/using/managing-video-assets.md#annotatingvideos) or [Annotating assets](../../assets/using/managing-assets-touch-ui.md#annotating)
+        * [Annotating videos](managing-video-assets.md#annotatingvideos) or [Annotating assets](managing-assets-touch-ui.md#annotating)
         
-        * [Creating a version](../../assets/using/managing-assets-touch-ui.md#creatingaversion)
-        * [Applying workflows to assets](../../assets/using/assets-workflow.md) or [Starting a workflow on an asset](../../assets/using/managing-assets-touch-ui.md#starting-a-workflow-on-an-asset)
+        * [Creating a version](managing-assets-touch-ui.md#creatingaversion)
+        * [Applying workflows to assets](assets-workflow.md) or [Starting a workflow on an asset](managing-assets-touch-ui.md#starting-a-workflow-on-an-asset)
         
-        * [Review folder assets](../../assets/using/bulk-approval.md)
+        * [Review folder assets](bulk-approval.md)
         * [Projects](../../sites/authoring/using/projects.md)
 
 1. **Publish your Dynamic Media videos** by doing one of the following:
 
     * If you are using Adobe Experience Manager as your web content management system you can add videos directly to your web pages.
 
-        * [Adding videos to your web pages](../../assets/using/adding-dynamic-media-assets-to-pages.md).
+        * [Adding videos to your web pages](adding-dynamic-media-assets-to-pages.md).
 
     * If you are using a third-party web content management system, you can link or embed videos to your web pages.
 
         * Integrate video using URL:  
-          [Linking URLs to your web application](../../assets/using/linking-urls-to-yourwebapplication.md).
+          [Linking URLs to your web application](linking-urls-to-yourwebapplication.md).
         
         * Integrate video using embed code on web page:  
-          [Embedding the video viewer on a web page](../../assets/using/embed-code.md).
+          [Embedding the video viewer on a web page](embed-code.md).
 
     * [Publishing videos to YouTube](#videoyoutubehtml).
     * [Generating video reports](#viewing-video-reports).   
@@ -364,7 +364,7 @@ Bitrate is the amount of data that is encoded to make up a single second of vide
 When selecting a bitrate encoding, there are two types you can choose:
 
 * **Constant Bitrate Encoding** (CBR) - During CBR encoding, the bitrate or the number of bits per second is kept the same throughout the encoding process. CBR encoding persists the set data rate to your setting over the entire video. Also, CBR encoding does not optimize media files for quality but does save on storage space.  
-  Use CBR if your video contains a similar motion level throughout the entire video. CBR is most commonly used for streaming video content. See also [Using custom-added video encoding parameters](../../assets/using/video-profiles.md#using-custom-added-video-encoding-parameters).  
+  Use CBR if your video contains a similar motion level throughout the entire video. CBR is most commonly used for streaming video content. See also [Using custom-added video encoding parameters](video-profiles.md#using-custom-added-video-encoding-parameters).  
 
 * **Variable Bitrate Encoding** (VBR) - VBR encoding adjusts the data rate down and to the upper limit you set, based on the data required by the compressor. This means that during a VBR encoding process the bitrate of the media file dynamically increases or decreases depending on the media files bitrate needs.  
   VBR takes longer to encode but produces the most favorable results; the quality of the media file is superior. VBR is most commonly used for http progressive delivery of video content.
@@ -555,7 +555,7 @@ Publishing video assets to YouTube servers involves completing the following tas
 1. [Setting up YouTube in AEM](#setting-up-youtube-in-aem)
 1. [(Optional) Automating the setting of default YouTube properties for your uploaded videos](#28optional29automatingthesettingofdefaultyoutubepropertiesforyouruploadedvideos)
 1. [Publishing videos to your YouTube channel](#publishing-videos-to-your-youtube-channel)
-1. [(Optional) Verifying the published video on YouTube](../../assets/using/video.md#optional-verifying-the-published-video-on-youtube)
+1. [(Optional) Verifying the published video on YouTube](video.md#optional-verifying-the-published-video-on-youtube)
 1. [Linking YouTube URLs to your Web Application](#linking-youtube-urls-to-your-web-application)
 
 You can also [unpublish videos to remove them from YouTube](#unpublishing-videos-to-remove-them-from-youtube).
@@ -769,7 +769,7 @@ To automate the setting of default YouTube properties for your uploaded videos:
 1. Near the upper-right corner of the page, tap **Save**.
 1. Apply the YouTube Publishing metadata profile to the folders where you are going to upload videos. You will need to have both the Metadata Profile and the Video Profile set.
 
-   See [Metadata Profiles](../../assets/using/metadata-profiles.md) and [Video Profiles](../../assets/using/video-profiles.md).
+   See [Metadata Profiles](metadata-profiles.md) and [Video Profiles](video-profiles.md).
 
 ### Publishing videos to your YouTube channel {#publishing-videos-to-your-youtube-channel}
 
@@ -1096,7 +1096,7 @@ To add captions or subtitles to video:
 
    For best results, use the tool in Internet Explorer 9 or above, Google Chrome, or Safari.
 
-   In the tool, in the **Enter URL of video file** field, paste the copied URL of your video file and then click **Load**. See [Obtaining a URL for an Asset](../../assets/using/linking-urls-to-yourwebapplication.md#obtainingaurlstringforanasset) to get the URL to the video file itself which you can then paste into the **Enter URL of video file field**. Internet Explorer, Chrome, or Safari can then natively play back the video.
+   In the tool, in the **Enter URL of video file** field, paste the copied URL of your video file and then click **Load**. See [Obtaining a URL for an Asset](linking-urls-to-yourwebapplication.md#obtainingaurlstringforanasset) to get the URL to the video file itself which you can then paste into the **Enter URL of video file field**. Internet Explorer, Chrome, or Safari can then natively play back the video.
 
    Now follow the onscreen instructions from the site to author and save your WebVTT file. When you have finished, copy the caption file contents and paste it into a plain text editor and save it with a .vtt filename extension.
 
@@ -1111,7 +1111,7 @@ To add captions or subtitles to video:
 
    Remember that URLs are only available to copy *after* you have first *published* the assets.
 
-   See [Publishing Assets.](../../assets/using/publishing-dynamicmedia-assets.md)
+   See [Publishing Assets.](publishing-dynamicmedia-assets.md)
 
 1. Do one of the following:
 
@@ -1178,7 +1178,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
    Generally, you want to name the chapter VTT file the same name as the video file, and append it with chapters. By doing so, it can help you with automating the generation of the video URLs using your existing web content management system.
 1. In AEM, upload your WebVTT chapter file.
 
-   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
+   See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 1. Do one of the following:
 

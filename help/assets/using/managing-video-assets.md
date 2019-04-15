@@ -19,14 +19,14 @@ This section describes how to manage and edit video assets.
 >
 >**Are you a Dynamic Media customer?**
 >
->If you are licensed to use Dynamic Media, see the [Dynamic Media Video documentation](../../assets/using/video.md).
+>If you are licensed to use Dynamic Media, see the [Dynamic Media Video documentation](video.md).
 
 ## Uploading and Previewing Video Assets {#uploading-and-previewing-video-assets}
 
 Adobe Experience Manager Assets generates previews for video assets with the extension **.mp4**. If the format of the asset is not **mp4**, install the FFmpeg pack to generate a preview. See [FFmpeg installation instructions](../../sites/authoring/using/default-components-foundation.md#video). FFmpeg creates video renditions of type **ogg** and **mp4**. You can preview these renditions in the Adobe Experience Manager Assets user interface.
 
 1. In the Digital Assets folder (or sub-folders), navigate to the location where you want to add digital assets.
-1. To upload the asset, tap **Create** from the toolbar, then choose **Files**. Alternatively, drop it directly in the assets area. See [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets) for details around the upload operation.
+1. To upload the asset, tap **Create** from the toolbar, then choose **Files**. Alternatively, drop it directly in the assets area. See [Uploading assets](managing-assets-touch-ui.md#uploading-assets) for details around the upload operation.
 1. To preview a video in the Card view, tap the **Play** button on the video asset.
 
    ![](assets/chlimage_1-201.png)
@@ -80,7 +80,7 @@ Perform the following steps to configure a higher file size limit (for example 3
 
 After your video assets are published, they are available to you for including in a web page by way of a URL or embedding on a web page.
 
-See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md).
+See [Publishing Assets](publishing-dynamicmedia-assets.md).
 
 ## Annotating video assets {#annotating-video-assets}
 

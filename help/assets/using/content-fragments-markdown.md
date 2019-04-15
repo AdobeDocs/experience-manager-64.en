@@ -17,7 +17,7 @@ discoiquuid: bde54663-9050-4a5a-93cb-7cd84ac7f071
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
-When you are [authoring](../../assets/using/content-fragments-variations.md#authoring-your-content), the content fragment editor uses *markdown* syntax to allow you to easily write content:
+When you are [authoring](content-fragments-variations.md#authoring-your-content), the content fragment editor uses *markdown* syntax to allow you to easily write content:
 
 ![markdown editor](../../assets/using/assets/cfm-6420-08.png)
 

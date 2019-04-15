@@ -22,7 +22,7 @@ This type of integration can be used in both the use cases, especially when work
 
 >[!NOTE]
 >
->Before reading this document, you can review the overall [AEM and Creative Cloud integration best practices](../../assets/using/aem-cc-integration-best-practices.md) for a higher-level overview of the topic.
+>Before reading this document, you can review the overall [AEM and Creative Cloud integration best practices](aem-cc-integration-best-practices.md) for a higher-level overview of the topic.
 
 ## Overview {#overview}
 

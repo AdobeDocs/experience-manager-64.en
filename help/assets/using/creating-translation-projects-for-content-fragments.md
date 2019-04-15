@@ -13,7 +13,7 @@ discoiquuid: d2decc31-a04b-4a8e-bb19-65f21cf7107e
 
 # Creating Translation Projects for Content Fragments{#creating-translation-projects-for-content-fragments}
 
-In addition to assets, Adobe Experience Manager (AEM) Assets supports language copy workflows for [content fragments](../../assets/using/content-fragments.md) (including variations). No additional optimization is required to run language copy workflows on content fragments. In each workflow, the entire content fragment is sent for translation.
+In addition to assets, Adobe Experience Manager (AEM) Assets supports language copy workflows for [content fragments](content-fragments.md) (including variations). No additional optimization is required to run language copy workflows on content fragments. In each workflow, the entire content fragment is sent for translation.
 
 The types of workflows that you can run on content fragments is exactly similar to the workflow types you run for assets. Also, the options available within each workflow type match the options available under the corresponding workflows types for assets.
 
@@ -31,18 +31,18 @@ When the source content fragment is updated or modified, the corresponding local
 
 The Create and translate workflow includes the following options. The procedural steps associated with each option are similar to those associated with the corresponding option for assets.
 
-* Create structure only: For procedure steps, see [Create structure only for assets](../../assets/using/translation-projects.md#create-structure-only). 
-* Create a new translation project: For procedure steps, see [Create a new translation project for assets](../../assets/using/translation-projects.md#create-a-new-translation-project). 
-* Add to existing translation project: For procedure steps, see [Add to existing translation project for assets](../../assets/using/translation-projects.md#add-to-existing-translation-project).
+* Create structure only: For procedure steps, see [Create structure only for assets](translation-projects.md#create-structure-only). 
+* Create a new translation project: For procedure steps, see [Create a new translation project for assets](translation-projects.md#create-a-new-translation-project). 
+* Add to existing translation project: For procedure steps, see [Add to existing translation project for assets](translation-projects.md#add-to-existing-translation-project).
 
 ## Update language copies workflow {#update-language-copies-workflow}
 
 The Update language copies workflow includes the following options. The procedural steps associated with each option are similar to those associated with the corresponding option for assets.
 
-* Create a new translation project: For procedure steps, see [Create a new translation project for assets](../../assets/using/translation-projects.md#create-a-new-translation-project) (update workflow). 
-* Add to existing translation project: For procedure steps, see [Add to existing translation project for assets](../../assets/using/translation-projects.md#add-to-existing-translation-project) (update workflow).
+* Create a new translation project: For procedure steps, see [Create a new translation project for assets](translation-projects.md#create-a-new-translation-project) (update workflow). 
+* Add to existing translation project: For procedure steps, see [Add to existing translation project for assets](translation-projects.md#add-to-existing-translation-project) (update workflow).
 
-You can also create temporary language copies for fragments similar to the way you create temporary copies for assets. For details, see [Creating temporary language copies for assets](../../assets/using/translation-projects.md#creating-temporary-language-copies).
+You can also create temporary language copies for fragments similar to the way you create temporary copies for assets. For details, see [Creating temporary language copies for assets](translation-projects.md#creating-temporary-language-copies).
 
 ## Translating mixed media fragments {#translating-mixed-media-fragments}
 

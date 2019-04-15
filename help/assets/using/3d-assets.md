@@ -17,7 +17,7 @@ AEM 3D (Adobe Experience Manager 3D) lets you upload, manage, view, and render 3
 
 See also [AEM 3D Release Notes](../../release-notes/aem3d-release-notes.md).
 
-See also [Installing and configuring AEM 3D](../../assets/using/install-config-3d.md).
+See also [Installing and configuring AEM 3D](install-config-3d.md).
 
 ## About models and stages in AEM 3D {#about-models-and-stages-in-aem-d}
 
@@ -31,7 +31,7 @@ When you create 3D models for use in AEM 3D, be aware of the following:
 * Place the model above the ground plane. This positioning is especially important when you view or render with stages that provide a ground plane. A configuration setting is available (and enabled by default) that causes the object to be moved above the ground plane when previewing or rendering with Rapid Refine. This setting does not affect rendering with third-party renderers (for example, by way of Maya), and thus objects that are not located above the ground plane may be partially hidden.  
 * Position the model so that it is reasonably centered laterally around the coordinate system origin (0,0,0). Doing so ensures a good interactive viewing experience for you.
 * Other than texture maps, external file references are supported. Therefore, you must embed any referenced content in the primary model file before you upload it into AEM.  
-  See [About the uploading and processing of 3D assets in AEM](../../assets/using/upload-processing-3d-assets.md).
+  See [About the uploading and processing of 3D assets in AEM](upload-processing-3d-assets.md).
 
 * The general scene lighting is provided by the stage. As such, Adobe does not recommend that you include lights with 3D model files. You can include lights in the model. However, they must be specific to the model only. For example, it may be necessary to include additional lighting to brighten a part of the object that is obscured by other parts. Therefore, it would not be sufficiently visible with just the stage lights.  
 
@@ -128,7 +128,7 @@ Materials in the primary 3D model file can reference other types of maps which a
 
 A 3D model file that defines a stage can reference a single IBL environment image. Currently, AEM 3D supports only 32-bit TIFF images in latitude/longitude format for diffuse IBL and for reflections. For the spherical scene background, 8-bit RGB images are also supported.
 
-See [About working with IBL stages](../../assets/using/working-with-ibl-stages.md).
+See [About working with IBL stages](working-with-ibl-stages.md).
 
 >[!NOTE]
 >
@@ -142,9 +142,9 @@ The original native model file can contain material definitions that are used wi
 
 For viewing purposes or when you render using the default Rapid Refine™ renderer, all materials are either simplified, substituted, or both so they can be used with a Phong-like shader. This shader supports a limited set of attributes. Other attributes in the material definition are ignored.
 
-See [Viewing 3D assets](../../assets/using/viewing-3d-assets.md).
+See [Viewing 3D assets](viewing-3d-assets.md).
 
-See [Rendering 3D assets](../../assets/using/rendering-3d-assets.md).
+See [Rendering 3D assets](rendering-3d-assets.md).
 
 ## Naming materials in a primary 3D model file {#naming-materials-in-a-primary-d-model-file}
 

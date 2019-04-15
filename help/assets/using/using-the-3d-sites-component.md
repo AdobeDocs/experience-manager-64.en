@@ -15,7 +15,7 @@ discoiquuid: 9017ab55-6d4a-4306-922f-223ab1b2504b
 
 AEM 3D includes an AEM Sites component that you can use to implement interactive viewing of 3D models on web pages.
 
-After you have added your 3D component, you can [view the 3D asset in that component.](../../assets/using/viewing-3d-assets.md)
+After you have added your 3D component, you can [view the 3D asset in that component.](viewing-3d-assets.md)
 
 ## Adding the 3D component to the page template {#adding-the-d-component-to-the-page-template}
 
@@ -126,7 +126,7 @@ To add the 3D viewer component to a web page:
 
    >[!NOTE]
    >
-   >In addition to the settings available in the component configuration dialog, a number of global configuration settings are available which can be modified via the CRXDELite. See [Advanced Configuration Settings](../../assets/using/advanced-config-3d.md) for detailed information on these global settings.
+   >In addition to the settings available in the component configuration dialog, a number of global configuration settings are available which can be modified via the CRXDELite. See [Advanced Configuration Settings](advanced-config-3d.md) for detailed information on these global settings.
 
 ## Assigning a 3D model to the component {#assigning-a-d-model-to-the-component}
 
@@ -150,7 +150,7 @@ While the web page is in Edit mode, the 3D component displays the 3D model but n
 
 You can preview the web page in the page editor with full access to the functionality of the 3D component.
 
-See also [Viewing 3D assets in the Sites 3D component](../../assets/using/viewing-3d-assets.md#viewing-d-assets-in-the-sites-d-component).
+See also [Viewing 3D assets in the Sites 3D component](viewing-3d-assets.md#viewing-d-assets-in-the-sites-d-component).
 
 To preview a web page that has a 3D component:
 
@@ -161,7 +161,7 @@ To preview a web page that has a 3D component:
 
 ## Publishing the page and assets {#publishing-the-page-and-assets}
 
-See [Publishing Assets](../../assets/using/managing-assets-touch-ui.md) for information on how to publish assets. See [Publishing Pages](../../sites/authoring/using/publishing-pages.md) for information on how to publish pages.
+See [Publishing Assets](managing-assets-touch-ui.md) for information on how to publish assets. See [Publishing Pages](../../sites/authoring/using/publishing-pages.md) for information on how to publish pages.
 
 >[!NOTE]
 >

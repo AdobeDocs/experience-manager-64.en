@@ -22,17 +22,17 @@ The following are other factors that determine the quality of your videos:
 * **Video player size  
   **By default, the "Width" in the Adaptive Video Encoding profile is set to “Auto.” Again, during playback, the best quaility is used based on the size of the player.
 
-See also [Best Practices for Video Encoding](../../assets/using/video.md#best-practices-for-encoding-videos).
+See also [Best Practices for Video Encoding](video.md#best-practices-for-encoding-videos).
 
 >[!NOTE]
 >
->To generate a video's metadata and associated video image thumbnails, the video itself needs to go through the encoding process in Dynamic Media. In AEM, the **Dynamic Media Encode Video** workflow encodes video if you have enabled dynamic media and set up video cloud services. This workflow captures workflow process history and failure information. See [Monitoring video encoding and YouTube publishing progress](../../assets/using/video.md#monitoring-video-encoding-and-youtube-publishing-progress). If you have enabled dynamic media and set up video cloud services, the **Dynamic Media Encode Video** workflow automatically takes effect when you upload a video. (If you are not using dynamic media, the **DAM Update Asset** workflow takes effect.)
+>To generate a video's metadata and associated video image thumbnails, the video itself needs to go through the encoding process in Dynamic Media. In AEM, the **Dynamic Media Encode Video** workflow encodes video if you have enabled dynamic media and set up video cloud services. This workflow captures workflow process history and failure information. See [Monitoring video encoding and YouTube publishing progress](video.md#monitoring-video-encoding-and-youtube-publishing-progress). If you have enabled dynamic media and set up video cloud services, the **Dynamic Media Encode Video** workflow automatically takes effect when you upload a video. (If you are not using dynamic media, the **DAM Update Asset** workflow takes effect.)
 >
 >Metadata is useful when you are searching for assets. The thumbnails are static video images that are generated during encoding. They are required by the AEM system and used in the user interface to help you visually identify videos in the Cards view, Search Results view, and the Asset List view. You can see the generated thumbnails when you tap the Renditions icon (a painter's palette) of an encoded video.
 
 When you are done creating the video profile, you apply it to a folder or mutliple folders. See [Applying a video profile to folders.](#applying-a-video-profile-to-folders)
 
-To define advanced processing parameters for other asset types, see [Configuring Asset Processing](../../assets/using/config-dms7.md#configuring-asset-processing).
+To define advanced processing parameters for other asset types, see [Configuring Asset Processing](config-dms7.md#configuring-asset-processing).
 
 ## Adaptive Video Encoding Presets {#adaptive-video-encoding-presets}
 
@@ -106,9 +106,9 @@ If the values are not the same, you can continue creating the profile as is. How
 
 See also [Creating a video encoding profile for progressive streaming](#creating-a-video-encoding-profile-for-progressive-streaming).
 
-See also [Best Practices for Video Encoding](../../assets/using/video.md#best-practices-for-encoding-videos).
+See also [Best Practices for Video Encoding](video.md#best-practices-for-encoding-videos).
 
-To define advanced processing parameters for other asset types, see [Configuring Asset Processing](../../assets/using/config-dms7.md#configuring-asset-processing).
+To define advanced processing parameters for other asset types, see [Configuring Asset Processing](config-dms7.md#configuring-asset-processing).
 
 When you are done creating the video profile, you apply it to a folder or multiple folders.
 
@@ -155,9 +155,9 @@ Depending on which mode you are running, the supported video format codecs are t
 
 See also [Creating a video encoding profile for adaptive streaming](#creating-a-video-encoding-profile-for-adaptive-streaming).
 
-See also [Best Practices for Video Encoding](../../assets/using/video.md#best-practices-for-encoding-videos).
+See also [Best Practices for Video Encoding](video.md#best-practices-for-encoding-videos).
 
-To define advanced processing parameters for other asset types, see [Configuring Asset Processing](../../assets/using/config-dms7.md#configuring-asset-processing).
+To define advanced processing parameters for other asset types, see [Configuring Asset Processing](config-dms7.md#configuring-asset-processing).
 
 When you are done creating the video profile, you apply it to a folder or multiple folders.
 
@@ -257,9 +257,9 @@ You can edit any video encoding profile that you have created to add, edit, or d
 
 By default, you cannot edit the predefined, out-of-the-box **Adaptive Video Encoding** profile that came with Dynamic Media. Instead, you can easily copy the profile and save it with a new name. You can then edit the desired presets in the copied profile.
 
-See also [Best Practices for Video Encoding](../../assets/using/video.md#best-practices-for-encoding-videos).
+See also [Best Practices for Video Encoding](video.md#best-practices-for-encoding-videos).
 
-To define advanced processing parameters for other asset types, see [Configuring Asset Processing](../../assets/using/config-dms7.md#configuring-asset-processing).
+To define advanced processing parameters for other asset types, see [Configuring Asset Processing](config-dms7.md#configuring-asset-processing).
 
 **To edit a video encoding profile**:
 

@@ -155,10 +155,10 @@ In this tutorial, you learned how to navigate in AEM Assets as well as how to up
 
 For more information, see the following topics:
 
-* [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets)
-* [Uploading assets via FTP](../../assets/using/managing-assets-touch-ui.md#uploading-assets-using-ftp)
-* [Downloading assets](../../assets/using/managing-assets-touch-ui.md#downloading-assets)
-* [Organizing assets](../../assets/using/best-practices-for-file-management.md)
+* [Uploading assets](managing-assets-touch-ui.md#uploading-assets)
+* [Uploading assets via FTP](managing-assets-touch-ui.md#uploading-assets-using-ftp)
+* [Downloading assets](managing-assets-touch-ui.md#downloading-assets)
+* [Organizing assets](best-practices-for-file-management.md)
 
 ## Working with Individual Assets {#working-with-individual-assets}
 
@@ -196,10 +196,10 @@ In this tutorial, you learned how to work with assets, viewers, renditions, zoom
 
 For more information, see the following:
 
-* [Organizing assets](../../assets/using/best-practices-for-file-management.md)  
+* [Organizing assets](best-practices-for-file-management.md)  
 
-* [Applying viewer presets](../../assets/using/viewer-presets.md)
-* [View and edit metadata properties](../../assets/using/meta-edit.md)
+* [Applying viewer presets](viewer-presets.md)
+* [View and edit metadata properties](meta-edit.md)
 
 ## Searching for Assets {#searching-for-assets}
 
@@ -226,6 +226,6 @@ In this tutorial, you learn how to search for assets.
 
 In this tutorial you learned how to search for an asset. For more information, see the following:
 
-* [Searching video assets](../../assets/using/search-video-assets.md)
-* [Search facets](help/assets/using/search-facets.md)
+* [Searching video assets](search-video-assets.md)
+* [Search facets](search-facets.md)
 

@@ -277,7 +277,7 @@ If you use this option, the set of assets are added to an existing translation p
    ![](assets/chlimage_1-98.png)
 
 1. Click/tap **Start**.
-1. See steps 9-14 of [Add to existing translation project](../../assets/using/translation-projects.md#add-to-existing-translation-project) to complete the rest of the procedure.
+1. See steps 9-14 of [Add to existing translation project](translation-projects.md#add-to-existing-translation-project) to complete the rest of the procedure.
 
 ## Creating temporary language copies {#creating-temporary-language-copies}
 

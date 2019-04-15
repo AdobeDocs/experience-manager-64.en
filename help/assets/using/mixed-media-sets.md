@@ -21,7 +21,7 @@ Mixed Media Sets are designated by a banner with the word **MixedMediaSet**. In 
 
 >[!NOTE]
 >
->For information on the Assets user interface, see [Managing assets with the Touch UI](../../assets/using/managing-assets-touch-ui.md).
+>For information on the Assets user interface, see [Managing assets with the Touch UI](managing-assets-touch-ui.md).
 
 ## Quick Start: Mixed Media Sets {#quick-start-mixed-media-sets}
 
@@ -29,21 +29,21 @@ To get you up and running quickly with Mixed Media Sets, follow these steps:
 
 1. [Upload your assets](#uploading-assets).
 
-   Start by uploading the images and videos for your Mixed Media Sets. If necessary, create your [Image Sets](../../assets/using/image-sets.md) and [Spin Sets](../../assets/using/spin-sets.md). Because users can zoom on images in the Mixed Media Set Viewer, take zooming into account when you choose images. Make sure that the images are least 2000 pixels in the largest dimension.
+   Start by uploading the images and videos for your Mixed Media Sets. If necessary, create your [Image Sets](image-sets.md) and [Spin Sets](spin-sets.md). Because users can zoom on images in the Mixed Media Set Viewer, take zooming into account when you choose images. Make sure that the images are least 2000 pixels in the largest dimension.
 
 1. [Create Mixed Media Sets.](#creating-mixed-media-sets)
 
    To create a Mixed Media Set, from the Assets page, tap **Create** &gt; **Mixed Media Set** and then name the set, choose the assets, and choose the order the images appear.
 
-   See [Working with Selectors.](../../assets/using/working-with-selectors.md)
+   See [Working with Selectors.](working-with-selectors.md)
 
-1. Set up [Mixed Media Viewer presets](../../assets/using/managing-viewer-presets.md), as needed.
+1. Set up [Mixed Media Viewer presets](managing-viewer-presets.md), as needed.
 
    Administrators can create or modify Mixed Media Set Viewer Presets. To see your mixed media with a viewer preset, select the mixed media set, and in the left-rail drop-down menu, select **Viewers**.
 
    See **Tools** &gt; **Assets **&gt; **Viewer Presets** to create or edit viewer presets.
 
-   See [Adding and editing viewer presets.](../../assets/using/managing-viewer-presets.md)
+   See [Adding and editing viewer presets.](managing-viewer-presets.md)
 
 1. [Preview Mixed Media Sets.](#previewing-mixed-media-sets)
 
@@ -51,21 +51,21 @@ To get you up and running quickly with Mixed Media Sets, follow these steps:
 
 1. [Publish Mixed Media Sets.](#publishing-mixed-media-sets)
 
-   Publishing a Mixed Media Set activates the URL and Embed string. In addition, you must [publish the viewer preset](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets).
+   Publishing a Mixed Media Set activates the URL and Embed string. In addition, you must [publish the viewer preset](managing-viewer-presets.md#publishing-viewer-presets).
 
-1. [Link URLs to your Web Application](../../assets/using/linking-urls-to-yourwebapplication.md) or [Embed the Video or Image Viewer](../../assets/using/embed-code.md).
+1. [Link URLs to your Web Application](linking-urls-to-yourwebapplication.md) or [Embed the Video or Image Viewer](embed-code.md).
 
    AEM Assets creates URL calls for Mixed Media Sets and activates them after you publish the mixed media sets. You can copy these URLs when you preview assets. Alternatively you can embed them on your web site.
 
    Select the Mixed Media Set, then in the left rail drop-down menu, select **Viewers**.
 
-   See [Linking a Mixed Media Set to a web page](../../assets/using/linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](../../assets/using/embed-code.md).
+   See [Linking a Mixed Media Set to a web page](linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](embed-code.md).
 
-If you need to, you can edit [Mixed Media Sets](#editing-mixed-media-sets). In addition, you can view and modify [Mixed Media Set properties](../../assets/using/managing-assets-touch-ui.md#editing-properties).
+If you need to, you can edit [Mixed Media Sets](#editing-mixed-media-sets). In addition, you can view and modify [Mixed Media Set properties](managing-assets-touch-ui.md#editing-properties).
 
 >[!NOTE]
 >
->If you have issues creating sets, see [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md).
+>If you have issues creating sets, see [Troubleshooting Dynamic Media - Scene7 mode](troubleshoot-dms7.md).
 
 ## Uploading Assets {#uploading-assets}
 
@@ -97,7 +97,7 @@ To create a Mixed Media Set:
 
    With the Asset Selector, you can search for assets by typing in a keyword and tapping or clicking Return. You can also apply filters to refine your search results. You can filter by path, collection, file type, and tag. Select the filter and then click/tap the **Filter** icon from the toolbar. Change the view by selecting the View icon and selecting list, column or card view.
 
-   See [Working with Selectors](../../assets/using/working-with-selectors.md).
+   See [Working with Selectors](working-with-selectors.md).
 
    ![](assets/chlimage_1-351.png)
 
@@ -117,7 +117,7 @@ To create a Mixed Media Set:
 
 ## Editing Mixed Media Sets {#editing-mixed-media-sets}
 
-You can perform a variety of editing tasks to assets in Mixed Media Sets directly in the user interface [as you would any asset in Assets](../../assets/using/managing-assets-touch-ui.md). You can also perform the following actions in Mixed Media Sets:
+You can perform a variety of editing tasks to assets in Mixed Media Sets directly in the user interface [as you would any asset in Assets](managing-assets-touch-ui.md). You can also perform the following actions in Mixed Media Sets:
 
 * Add assets to the Mixed Media Set.
 * Re-order assets in the Mixed Media Set.
@@ -165,11 +165,11 @@ To edit a Mixed Media Set:
 
 ## Previewing Mixed Media Sets {#previewing-mixed-media-sets}
 
-See [Previewing Assets](../../assets/using/previewing-assets.md) for details on how to preview Mixed Media Sets.
+See [Previewing Assets](previewing-assets.md) for details on how to preview Mixed Media Sets.
 
 ## Publishing Mixed Media Sets {#publishing-mixed-media-sets}
 
-See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md) for details on how to publish Mixed Media Sets.
+See [Publishing Assets](publishing-dynamicmedia-assets.md) for details on how to publish Mixed Media Sets.
 
 >[!NOTE]
 >

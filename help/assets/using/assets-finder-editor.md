@@ -15,6 +15,8 @@ discoiquuid: 565e307a-e42e-4967-ba72-f1c6fb078676
 
 This document describes the following:
 
+<!--> Update screenshots for branding -->
+
 * Why you would create customized Asset Editor pages.
 * How to create and customize Asset Editor pages, which are WCM pages that let you view and edit metadata as well as perform actions on the asset.
 * How to edit multiple assets simultaneously.
@@ -274,7 +276,7 @@ To add asset editor components:
     >
     >When designing the asset editor page, you create components that are either read-only or editable. Users know a field can be edited if an image of a pencil appears in that component. By default, most components are set up as read-only.
 
-    | **Component** |**Description ** |
+    | **Component** |**Description** |
     |---|---|
     | **Metadata Form and Text Field** |Lets you add additional metadata to an asset and perform an action, such as submitting, on that asset. |
     | **Sub Assets** |Lets you customize sub-assets. |
@@ -286,7 +288,7 @@ To add asset editor components:
 
 #### Metadata Form and Text Field - Configuring the View Metadata Component {#metadata-form-and-text-field-configuring-the-view-metadata-component}
 
-The Metadata Form is a form that includes a start and end action. In between, you enter **Text** fields. See [Forms](../../sites/authoring/using/default-components.md#form) for more information on working with forms.
+The Metadata Form is a form that includes a start and end action. In between, you enter **Text** fields. See [Forms](../../sites/authoring/using/default-components.md) for more information on working with forms.
 
 1. Create a start action by clicking **Edit** in the Start area of the form. You can enter a Box title, if desired. By default, the Box title is **Metadata**. Select the Client Validation check box if you want the java-script client code for validation generated.
 
@@ -302,7 +304,7 @@ The Metadata Form is a form that includes a start and end action. In between, yo
 
     ![](assets/screen_shot_2012-04-23at23305pm.png)
 
-    See [Customizing and Extending AEM Assets](../../assets/using/extending-assets.md) for information on modifying the namespaces available in the metadata form.
+    See [Customizing and Extending AEM Assets](extending-assets.md) for information on modifying the namespaces available in the metadata form.
 
 1. Click the **Constraints** tab. Here you can select whether a field is required and if necessary, add any constraints.
 
@@ -320,7 +322,7 @@ On the Asset Editor page, users can then enter values into the metadata fields (
 
 #### Sub Assets {#sub-assets}
 
-The Sub Assets component is where you can view and select sub-assets. You can determine what names appear under the [main asset](../../assets/using/assets.md#what-are-digital-assets) and sub-assets.
+The Sub Assets component is where you can view and select sub-assets. You can determine what names appear under the [main asset](assets.md#what-are-digital-assets) and sub-assets.
 
 ![](assets/screen_shot_2012-04-23at24025pm.png)
 
@@ -356,7 +358,7 @@ The following is a populated Tags component:
 
 #### Thumbnail {#thumbnail}
 
-The Thumbnail component is where the asset displays the selected thumbnail (for many of the formats the thumbnail is extracted automatically). In addition, the component displays the filename, and [actions that you can modify](../../assets/using/assets-finder-editor.md#adding-asset-editor-actions). 
+The Thumbnail component is where the asset displays the selected thumbnail (for many of the formats the thumbnail is extracted automatically). In addition, the component displays the filename, and [actions that you can modify](assets-finder-editor.md#adding-asset-editor-actions). 
 
 ![](assets/screen_shot_2012-04-23at25452pm.png)
 

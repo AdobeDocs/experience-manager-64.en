@@ -74,7 +74,7 @@ Alternatively, start typing ' `Location: Adobe Stock`' in the search bar to sele
 
 >[!NOTE]
 >
->Assets searched from Adobe Stock are just displayed in AEM. Adobe Stock assets are fetched and stored in AEM repository only after a user either [saves an asset](../../assets/using/aem-assets-adobe-stock.md#saveassets) or [licenses an asset](../../assets/using/aem-assets-adobe-stock.md#licenseassets). Assets that are already stored in AEM are displayed and highlighted for ease of reference and access. Also, such assets are saved with some additional metadata to indicate the source as Adobe Stock.
+>Assets searched from Adobe Stock are just displayed in AEM. Adobe Stock assets are fetched and stored in AEM repository only after a user either [saves an asset](aem-assets-adobe-stock.md#saveassets) or [licenses an asset](aem-assets-adobe-stock.md#licenseassets). Assets that are already stored in AEM are displayed and highlighted for ease of reference and access. Also, such assets are saved with some additional metadata to indicate the source as Adobe Stock.
 
 ![Search filters in AEM and highlighted Adobe Stock assets in search results](assets/aem-search-filters2.jpg)
 

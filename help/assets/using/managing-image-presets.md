@@ -20,11 +20,11 @@ Administrators can create presets for exporting assets. Users can choose a prese
 
 You can also create image presets that are responsive. If you apply a responsive image preset to your assets, they change depending on the device or screensize they are viewed on. You can configure image presets to use CMYK in the color space in addition to RGB or Gray.
 
-This section describes how to create, modify, and generally manage image presets. You can apply an image preset to an image anytime you preview it. See [Applying Image Presets](../../assets/using/image-presets.md).
+This section describes how to create, modify, and generally manage image presets. You can apply an image preset to an image anytime you preview it. See [Applying Image Presets](image-presets.md).
 
 >[!NOTE]
 >
->Smart imaging works with your existing image presets and uses intelligence at the last millisecond of delivery to further reduce image file size based on browser or network connection speed. See [Smart Imaging](../../assets/using/imaging-faq.md) for more information.
+>Smart imaging works with your existing image presets and uses intelligence at the last millisecond of delivery to further reduce image file size based on browser or network connection speed. See [Smart Imaging](imaging-faq.md) for more information.
 
 ## Understanding Image Presets {#understanding-image-presets}
 
@@ -140,7 +140,7 @@ If you intend to support the ingestion of INDD files so that you can generate dy
 
 For InDesign files, sub assets are extracted only if the Adobe InDesign server is integrated with AEM. Referenced assets are linked based on their metadata. InDesign Server is not required for linking. However, the referenced assets must be present within AEM before the InDesign files are processed for the links to be created between the InDesign files and the referenced assets.
 
-See [Integrating AEM Assets with InDesign Server](../../assets/using/indesign.md).  
+See [Integrating AEM Assets with InDesign Server](indesign.md).  
   
 The Media Extraction process component in the `DAM Update Asset` workflow runs several preconfigured Extend Scripts to process InDesign files.
 

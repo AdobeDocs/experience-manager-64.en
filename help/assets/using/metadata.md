@@ -13,11 +13,11 @@ discoiquuid: 7acc1cab-d167-4299-bd13-8eb800a1112e
 
 # Managing Metadata for Digital Assets{#managing-metadata-for-digital-assets}
 
-Adobe Experience Manager (AEM) Assets keeps metadata for every asset. This allows for a easier categorization and organization of assets and it helps people who are looking for a specific asset. With the ability to extract metadata from files uploaded to AEM Assets, metadata management integrates with the creative workflow. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata. Finally AEM Assets end-user interface, the [DAM Finder](../../sites/classic-ui-authoring/using/manage-assets-classic-using-share-page.md) can be [customized by site owners and developers](../../assets/using/extending-assets.md)to reflect the metadata you are using in your organization.
+Adobe Experience Manager (AEM) Assets keeps metadata for every asset. This allows for a easier categorization and organization of assets and it helps people who are looking for a specific asset. With the ability to extract metadata from files uploaded to AEM Assets, metadata management integrates with the creative workflow. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata. Finally AEM Assets end-user interface, the [DAM Finder](../../sites/classic-ui-authoring/using/manage-assets-classic-using-share-page.md) can be [customized by site owners and developers](extending-assets.md)to reflect the metadata you are using in your organization.
 
-* [XMP Metadata](../../assets/using/xmp.md)
-* [How to edit or add metadata](../../assets/using/meta-edit.md)
-* [Metadata Schemata Reference](../../assets/using/meta-ref.md)
+* [XMP Metadata](xmp.md)
+* [How to edit or add metadata](meta-edit.md)
+* [Metadata Schemata Reference](meta-ref.md)
 
 ## Why we need metadata {#why-we-need-metadata}
 
@@ -122,7 +122,7 @@ EXIF stores metadata as pairs of a metadata name and a metadata value. These met
 
 As EXIF is automatically created by modern digital cameras and supported through modern graphics software, it can be seen as the lowest common denominator for metadata management.
 
-Most of the metadata fields defined by EXIF are of a highly technical nature and of limited use for descriptive metadata management. For this reason, AEM Assets offers mapping of EXIF properties into [common metadata schemata](../../assets/using/metadata-schemas.md) and into [XMP](../../assets/using/xmp-writeback.md), the powerful metadata format AEM Assets uses for metadata management.
+Most of the metadata fields defined by EXIF are of a highly technical nature and of limited use for descriptive metadata management. For this reason, AEM Assets offers mapping of EXIF properties into [common metadata schemata](metadata-schemas.md) and into [XMP](xmp-writeback.md), the powerful metadata format AEM Assets uses for metadata management.
 
 #### Other Metadata {#other-metadata}
 

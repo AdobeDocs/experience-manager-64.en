@@ -15,11 +15,11 @@ discoiquuid: d1f45751-1761-4d6b-b17d-110b2f1117ea
 
 To add the dynamic media functionality to assets you use on your websites, you can add the **Dynamic Media** or** Interactive Media** component directly on the page. You do this by entering Layout mode and enabling the dynamic media components. Then you can add these components to the page and add assets to the component. The dynamic media and interactive media components are smart - they know whether you are adding an image or a video and the options available change accordingly.
 
-You add dynamic media assets directly to the page if you are using AEM as your WCM. If you are using a third-party for your WCM, either [link](../../assets/using/linking-urls-to-yourwebapplication.md) or [embed](../../assets/using/embed-code.md) your assets. For a responsive third-party web site, see [delivering optimized images to a responsive site](../../assets/using/responsive-site.md).
+You add dynamic media assets directly to the page if you are using AEM as your WCM. If you are using a third-party for your WCM, either [link](linking-urls-to-yourwebapplication.md) or [embed](embed-code.md) your assets. For a responsive third-party web site, see [delivering optimized images to a responsive site](responsive-site.md).
 
 >[!NOTE]
 >
->You must publish assets before adding them to pages in AEM. See [Publishing Dynamic Media Assets](../../assets/using/publishing-dynamicmedia-assets.md).
+>You must publish assets before adding them to pages in AEM. See [Publishing Dynamic Media Assets](publishing-dynamicmedia-assets.md).
 
 ## Adding a Dynamic Media Component to a Page {#adding-a-dynamic-media-component-to-a-page}
 
@@ -78,7 +78,7 @@ The Dynamic Media component is smart - depending on whether you add an image or 
 >
 >When you add the Dynamic Media component, and **Dynamic Media Settings** is blank or you cannot add an asset properly, check the following:
 >
->* You have [enabled Dynamic Media](../../assets/using/config-dynamic.md). Dynamic Media is disabled by default.
+>* You have [enabled Dynamic Media](config-dynamic.md). Dynamic Media is disabled by default.
 >* The image has a pyramid tiff file. Images imported before dynamic media is enabled do not have a pyramid tiff file.
 >
 
@@ -159,7 +159,7 @@ You can edit the following Advanced Settings by clicking **Edit** in the compone
 
 Use the Dynamic Media component to add Smart Crop image assets to your web pages. When you edit the component you can choose to use a predefined video viewer preset for playing the video on the page.
 
-See also [Image Profiles](../../assets/using/image-profiles.md).
+See also [Image Profiles](image-profiles.md).
 
 ![](assets/dm-settings-smart-crop.png)
 
@@ -232,13 +232,13 @@ You can edit the following setting by tapping **Configure** in the component.
 
 **Viewer Preset** Select an existing viewer from the Viewer preset drop-down menu.
 
-If the viewer preset you are looking for is not visible, check to ensure that it is published. You must publish viewer presets before you can use them. See [Managing Viewer Presets](../../assets/using/managing-viewer-presets.md).
+If the viewer preset you are looking for is not visible, check to ensure that it is published. You must publish viewer presets before you can use them. See [Managing Viewer Presets](managing-viewer-presets.md).
 
 ### Using HTTP/2 to delivery Dynamic Media assets {#using-http-to-delivery-dynamic-media-assets}
 
 HTTP/2 is the new, updated web protocol that improves the way browsers and servers communicate. It provides faster transfer of information and reduces the amount of processing power that is needed. Delivery of Dynamic Media assets can now be over HTTP/2 which provides better response and load times.
 
-See [HTTP2 Delivery of Content](../../assets/using/http2.md) for complete details on getting started using HTTP/2 with your Dynamic Media account.
+See [HTTP2 Delivery of Content](http2.md) for complete details on getting started using HTTP/2 with your Dynamic Media account.
 
 >[!MORE_LIKE_THIS]
 >

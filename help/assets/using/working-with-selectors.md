@@ -87,7 +87,7 @@ Use the site selector to choose a webpage when you want a hotspot or image map t
 
 Use this selector to choose images to be used in a carousel banner, an interactive video, image sets, mixed media sets, and spin sets. In interactive video, the asset selector is available when you tap or click **Select Assets** in the Content tab. In carousel sets, the asset selector is available when you create a new slide. In image sets, mixed media sets, and spin sets, the asset selector is available when you create a new image set, mixed media set, or spin set, respectively.
 
-See also [Asset Picker](../../assets/using/asset-selector.md) for more information.
+See also [Asset Picker](asset-selector.md) for more information.
 
 1. Navigate to the carousel set and create a new slide. Or navigate to the interactive video, go the Content tab and select assets. Or create a mixed media set, image set, or spin set.
 1. Tap or click the **Asset Selector** icon (folder with magnifying glass) and navigate to an asset.

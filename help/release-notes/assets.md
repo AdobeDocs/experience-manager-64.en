@@ -113,8 +113,8 @@ Here is a list of AEM Desktop App highlights added since AEM 6.3 was released:
 
 For easier access to the documentation and best practices, the following documentation is available:
 
-* [User Guide](/assets/using/aem-desktop-app.md), aimed at end users working with the application
-* [Best Practices Guide](/assets/using/aem-desktop-app-best-practices.md), aimed at end users and administrators
+* [User Guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), aimed at end users working with the application
+* [Best Practices Guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html), aimed at end users and administrators
 * Configuration Guide, aimed at administrators setting up AEM and AEM Desktop App to work together
 
 ## Tiered Storage {#tiered-storage}
