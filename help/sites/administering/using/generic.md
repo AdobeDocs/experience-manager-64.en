@@ -325,7 +325,7 @@ The mechanism to select the image to be displayed is as follows:
 1. Using either:
 
     * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
+    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **Publish** or **Unpublish** icon as required:
 
