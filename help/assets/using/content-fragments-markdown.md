@@ -19,7 +19,7 @@ discoiquuid: bde54663-9050-4a5a-93cb-7cd84ac7f071
 
 When you are [authoring](../../assets/using/content-fragments-variations.md#authoring-your-content), the content fragment editor uses *markdown* syntax to allow you to easily write content:
 
-![](assets/cfm-6420-08.png)
+![markdown editor](../../assets/using/assets/cfm-6420-08.png)
 
 You can define:
 
@@ -37,9 +37,9 @@ You can define:
 
 To create a header by placing a hash tag (#) in front of the heading. One hash tag (#) is used for an H1, two hash tags (##) for a H2 etc. You can use up to 6 hash tags. For example:
 
-`#This is an H1`
+`## This is an H2`
 
-`##This is an H2`
+`### This is an H3`
 
 `###### This is a H6`
 
@@ -69,11 +69,11 @@ These are examples of inline links:
 
 `This is [an example of an email link](emailto:myaddress@mydomain.info)`
 
-` [This link](https://example.net/) has no title attribute.`
+`[This link](https://example.net/) has no title attribute.`
 
 A reference link has the following syntax:
 
-` Hey you should [checkout][0] this [cool thing][wiki] that I [made][].`
+`Hey you should [checkout][0] this [cool thing][wiki] that I [made][].`
   
 `[0]: https://www.google.ca`  
 `[wiki]: https://www.wikipedia.org`  
@@ -91,9 +91,9 @@ For example, an inline image has the following syntax:
 
 The syntax includes:
 
-- An exclamation mark: !;
-- followed by a set of square brackets, containing the alt attribute text for the image;
-- followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.
+* An exclamation mark: !;
+* followed by a set of square brackets, containing the alt attribute text for the image;
+* followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.
 
 A Reference-style image has the following syntax:
 
