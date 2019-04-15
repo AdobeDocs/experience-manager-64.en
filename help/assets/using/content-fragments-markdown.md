@@ -23,15 +23,15 @@ When you are [authoring](../../assets/using/content-fragments-variations.md#auth
 
 You can define:
 
-[Heading Notation](#heading-notation)
-[Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
-[Links](#links)
-[Images](#images)
-[Block Quotes](#block-quotes)
-[Lists](#lists)
-[Emphasis](#emphasis)
-[Code Blocks](#code-blocks)
-[Backslash escapes](#backslash-escapes)
+* [Heading Notation](../../assets/using/content-fragments-markdown.md#heading-notation)
+* [Paragraphs and Line Breaks](../../assets/using/content-fragments-markdown.md#paragraphs-and-line-breaks)
+* [Links](../../assets/using/content-fragments-markdown.md#links)
+* [Images](../../assets/using/content-fragments-markdown.md#images)
+* [Block Quotes](../../assets/using/content-fragments-markdown.md#block-quotes)
+* [Lists](../../assets/using/content-fragments-markdown.md#lists)
+* [Emphasis](../../assets/using/content-fragments-markdown.md#emphasis)
+* [Code Blocks](../../assets/using/content-fragments-markdown.md#code-blocks)
+* [Backslash escapes](../../assets/using/content-fragments-markdown.md#backslash-escapes)
 
 ## Heading Notation {#heading-notation}
 
