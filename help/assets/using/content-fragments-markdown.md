@@ -22,6 +22,7 @@ When you are [authoring](../../assets/using/content-fragments-variations.md#auth
 ![](assets/cfm-6420-08.png)
 
 You can define:
+
 [Heading Notation](#heading-notation)
 [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
 [Links](#links)
@@ -80,7 +81,7 @@ A reference link has the following syntax:
 
 ## Images {#images}
 
-The syntax for images is similar to the links. You can create inline and reference links.
+The syntax for images is similar to the links. You can create inline and referenced images.
 
 For example, an inline image has the following syntax:
 
@@ -114,9 +115,9 @@ You can have nested block quotes. For example:
 
 `> This is the first level of quoting.`  
 `>`  
-`  >> This is nested blockquote.`  
+&nbsp;&nbsp;&nbsp;&nbsp;`>> This is nested blockquote.`  
 `>`  
-`>> Back to the first level.`
+`> Back to the first level.`
 
 ## Lists {#lists}
 
@@ -124,15 +125,15 @@ You can create both ordered and unordered lists.
 
 To create an unordered list, use the &#42; symbol before the items in the list. For example:
 
-*&#42; item in list  
-&#42; item in list  
-&#42; item in list*
+`* item in list`  
+`* item in list`  
+`* item in list`
 
 To create an ordered list, add the numbers, followed by a period, before each item in the list. For example:
 
-*1. First item in list.  
-1. Second item in list.  
-2. Third item in list.*
+`1. First item in list.`  
+`2. Second item in list.`  
+`3. Third item in list.`
 
 ## Emphasis {#emphasis}
 
@@ -158,7 +159,7 @@ To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-forma
 
 For example:
 
-`Use the printf() function.`
+``Use the `printf()` function.``
 
 ## Code Blocks {#code-blocks}
 
@@ -166,7 +167,7 @@ Code blocks are typically used to illustrate source code. You can create code bl
 
 `This is a normal paragraph.`
 
-`This is a code block.`
+&nbsp;&nbsp;&nbsp;&nbsp;`This is a code block.`
 
 ## Backslash escapes {#backslash-escapes}
 
