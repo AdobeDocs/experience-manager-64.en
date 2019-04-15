@@ -43,7 +43,7 @@ curl -u admin:admin -F":operation=job" -F"someproperty=xxxxxxxxxxxx"
   **Result**: Returns a JSON representation of the result Node as created by the job processor.
 
 ```shell
-curl -u admin:admin -F":operation=result" -F"jobid=xxxxxxxxxxxx" 
+curl -u admin:admin -F":operation=result" -F"jobid=xxxxxxxxxxxx"
     http://localhost:4502   /libs/dam/cloud/proxy
 ```
 
@@ -52,7 +52,7 @@ curl -u admin:admin -F":operation=result" -F"jobid=xxxxxxxxxxxx"
   **Result**: Returns a resource associated with the given job.
 
 ```shell
-curl -u admin:admin -F":operation=resource" -F"jobid=xxxxxxxxxxxx" 
+curl -u admin:admin -F":operation=resource" -F"jobid=xxxxxxxxxxxx"
     -F"resourcePath=something.pdf" http://localhost:4502/libs/dam/cloud/proxy
 ```
 
@@ -61,7 +61,7 @@ curl -u admin:admin -F":operation=resource" -F"jobid=xxxxxxxxxxxx"
   **Results**: Removes a job if found.
 
 ```shell
-curl -u admin:admin -F":operation=remove" -F"jobid=xxxxxxxxxxxx" 
+curl -u admin:admin -F":operation=remove" -F"jobid=xxxxxxxxxxxx"
     http://localhost:4502/libs/dam/cloud/proxy
 ```
 
@@ -75,18 +75,12 @@ A proxy worker is a processor responsible for handling a job and creating a resu
 
 ### Client API {#client-api}
 
-<!-->
->[!NOTE]
->
->Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.html).
--->
-
 `[JobService](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service (`JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
 
 The following is an example of API usage:
 
 ```xml
-@Reference 
+@Reference
  JobService proxyJobService;
 
  // to create a new job

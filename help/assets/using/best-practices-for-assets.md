@@ -36,5 +36,4 @@ AEM Desktop App links your digital asset management (DAM) solution with your des
 * [AEM and Creative Cloud Integration Best Practices](aem-cc-integration-best-practices.md)
 You can integrate your AEM instance with Creative Cloud in multiple ways. Following some best practices to streamline your integration and asset transfer workflows helps achieve maximum efficiency. This guide includes best practices around integrating AEM Assets with Adobe Creative Cloud.
 * [AEM to Creative Cloud Folder Sharing Best Practices](aem-cc-folder-sharing-best-practices.md)
-You can configure AEM to allow users in DAM to share folders with Creative Cloud (CC) users, so they are available as shared folders in the Creative Cloud Assets service. The feature can be used to exchange files between creative teams and DAM users. This guide explains best practices for leveraging the AEM to CC folder sharing feature.
-
+You can configure AEM to allow users in DAM to share folders with Creative Cloud users, so they are available as shared folders in the Creative Cloud Assets service. The feature can be used to exchange files between creative teams and DAM users. This guide explains best practices for leveraging the AEM to Creative Cloud folder sharing feature.

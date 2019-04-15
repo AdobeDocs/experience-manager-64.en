@@ -36,11 +36,11 @@ For best results, Adobe recommends using the Adobe PDF Rasterizer library for th
 * AI files with thumbnails not generated out of the box
 * For AI files with SPOT (PMS) colors
 
-Thumbnails and previews generated using PDF Rasterizer are better in quality compared to out-of-the-box raster output. The Adobe PDF Rasterizer library does not support any color space conversion. Irrespective of the color space of the source PDF file, Adobe PDF Rasterizer generates RGB output only. 
+Thumbnails and previews generated using PDF Rasterizer are better in quality compared to out-of-the-box raster output. The Adobe PDF Rasterizer library does not support any color space conversion. Irrespective of the color space of the source PDF file, Adobe PDF Rasterizer generates RGB output only.
 
-## Adobe InDesign CC Server {#adobe-indesign-cc-server}
+## Adobe InDesign Creative Cloud Server {#adobe-indesign-cc-server}
 
-Adobe recommends that you use Adobe InDesign CC Server to extract Adobe InDesign-specific renditions, such as IDML and HTML. For more information, see [Adding AEM assets as references in Adobe InDesign](managing-linked-subassets.md#add-aem-assets-as-references-in-adobe-indesign).
+Adobe recommends that you use Adobe InDesign Creative Cloud Server to extract Adobe InDesign-specific renditions, such as IDML and HTML. For more information, see [Adding AEM assets as references in Adobe InDesign](managing-linked-subassets.md#add-aem-assets-as-references-in-adobe-indesign).
 
 ## Dynamic Media  {#dynamic-media}
 
