@@ -21,7 +21,7 @@ In both cases, the AEM instance performs the task of fetching and serving conten
 
 This feature uses the global Amazon CloudFront infrastructure to directly serve content to the client, rather than through AEM. It reduces the number of input/output operations and network hops. The content is served faster from an edge server that caches content.
 
-To know more, see [Amazon Simple Storage Service documentation](https://aws.amazon.com/documentation/s3/).
+To know more, see [Amazon Simple Storage Service documentation](https://docs.aws.amazon.com/s3/index.html).
 
 >[!CAUTION]
 >

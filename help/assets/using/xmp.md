@@ -47,7 +47,7 @@ XMP is most commonly serialized and stored using a subset of the [W3C](https://e
 XMP has the following advantages over other encoding standards and schemata:
 
 * XMP-based metadata is very powerful and fine-grained.   
-* XMP lets you have [multiple values for one property.](#multivalue-properties)
+* XMP lets you have multiple values for one property.
 * XMP has standardized encoding, which lets you easily exchange metadata.
 * XMP is extensible. You can add addtional information into your assets.
 

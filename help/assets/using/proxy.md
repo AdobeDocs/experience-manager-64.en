@@ -75,9 +75,11 @@ A proxy worker is a processor responsible for handling a job and creating a resu
 
 ### Client API {#client-api}
 
+<!-->
 >[!NOTE]
 >
->Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.html).
+>Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.html). 
+-->
 
 ` [JobService](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service ( `JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
 
