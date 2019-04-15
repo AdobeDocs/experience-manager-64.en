@@ -43,7 +43,7 @@ In summary, here are the main steps to use the Smart Content Service:
 
 The Smart Content Service is available for purchase as an add-on to AEM 6.4. After you purchase, an email is sent to the administrator of your organization with a link to Adobe IO.
 
-The administrator can follow the link to integrate the Smart Content Service with AEM. To integrate the service with AEM Assets, see [Configure Smart Tags](../../assets/using/config-smart-tagging.md).
+The administrator can follow the link to integrate the Smart Content Service with AEM. To integrate the service with AEM Assets, see [Configure Smart Tags](config-smart-tagging.md).
 
 The onboarding process is complete when the administrator configures the service and adds users in AEM.
 
@@ -55,14 +55,14 @@ The onboarding process is complete when the administrator configures the service
 
 After you are onboarded, the first thing you want to do is identify a set of tags that best describe these images in the context of your business.
 
-Next, review images to identify a set of images that best represent your product for a particular business requirement. Ensure that the assets in your curated set conform to [Smart Content Service training guidelines](../../assets/using/smart-tags-training-guidelines.md).
+Next, review images to identify a set of images that best represent your product for a particular business requirement. Ensure that the assets in your curated set conform to [Smart Content Service training guidelines](smart-tags-training-guidelines.md).
 
 Add the assets to a folder and apply the tags to each asset from the properties page. Then, run the training workflow on this folder. The curated set of assets enables the Smart Content Service to effectively train more assets using your taxonomy definitions.
 
 >[!NOTE]
 >
 >1. Training is an irrevocable process. Adobe recommends that you review the tags in the curated set of assets well before training the Smart Content Service on the tags.
->1. Please do read [Smart Content Service training guidelines](../../assets/using/smart-tags-training-guidelines.md) before starting training for any tag.
+>1. Please do read [Smart Content Service training guidelines](smart-tags-training-guidelines.md) before starting training for any tag.
 >1. When you train the Smart Content Service for the first time, Adobe recommends that you train it on at least two distinct tags.
 >
 
@@ -157,7 +157,7 @@ You can trigger the tagging workflow from the following to instantly tag your as
 
    ![](assets/tagging_dialog.png)
 
-   Navigate to the asset folder and review the tags to verify whether the Smart Content Service tagged your assets properly. For details, see [Managing Smart Tags](../../assets/using/managing-smart-tags.md).
+   Navigate to the asset folder and review the tags to verify whether the Smart Content Service tagged your assets properly. For details, see [Managing Smart Tags](managing-smart-tags.md).
 
 #### Tagging assets from the timeline {#tagging-assets-from-the-timeline}
 
@@ -168,7 +168,7 @@ You can trigger the tagging workflow from the following to instantly tag your as
    ![](assets/start_workflow.png)
 
 1. Select the **DAM Smart Tag Assets** workflow, and specify a title for the workflow.
-1. Tap/click **Start**. The workflow applies your tags on assets. Navigate to the asset folder and review the tags to verify whether the Smart Content Service tagged your assets properly. For details, see [Managing Smart Tags](../../assets/using/managing-smart-tags.md).
+1. Tap/click **Start**. The workflow applies your tags on assets. Navigate to the asset folder and review the tags to verify whether the Smart Content Service tagged your assets properly. For details, see [Managing Smart Tags](managing-smart-tags.md).
 
 >[!NOTE]
 >

@@ -23,9 +23,9 @@ Associated content provides the connection so that assets (i.e.) can be (optiona
 
 >[!NOTE]
 >
->There are various methods of adding [visual assets (e.g. images)](../../assets/using/content-fragments.md#fragments-with-visual-assets) to the fragment and/or page.
+>There are various methods of adding [visual assets (e.g. images)](content-fragments.md#fragments-with-visual-assets) to the fragment and/or page.
 
-To make the association you first need to [add your media asset(s) to a collection](../../assets/using/managing-collections-touch-ui.md#adding-assets-to-a-collection). Once that is done you can:
+To make the association you first need to [add your media asset(s) to a collection](managing-collections-touch-ui.md#adding-assets-to-a-collection). Once that is done you can:
 
 1. Open your fragment and select **Associated Content** from the side panel.
 

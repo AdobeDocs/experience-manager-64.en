@@ -382,7 +382,7 @@ If you are not assigned an administrator role, here is a list of permissions you
 
 To know more about searching assets in AEM, see the following articles:
 
-* [Extending Assets Search](../../assets/using/searchx.md)
-* [Searching Assets](../../assets/using/search-assets.md)
-* [Searching Video Assets](../../assets/using/search-video-assets.md)
+* [Extending Assets Search](searchx.md)
+* [Searching Assets](search-assets.md)
+* [Searching Video Assets](search-video-assets.md)
 

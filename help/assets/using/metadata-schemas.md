@@ -29,7 +29,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
    ![](assets/chlimage_1-172.png)
 
-   To modify the MIME type for an asset, use a custom metadata schema form or modify an existing form. See [Editing Metadata Schema Forms](../../assets/using/metadata-schemas.md#editing-metadata-schema-forms) for more information. If you modify the metadata schema for a certain MIME type, the properties page layout for assets with the current MIME type and all asset subtypes are modified. For example, modifying a **jpeg** schema under *default/image* only modifies the metadata layout (asset properties) for assets with MIME type **IMAGE/JPEG**. However, if you edit the **default** schema, your changes modify the metadata layout for all types of assets.
+   To modify the MIME type for an asset, use a custom metadata schema form or modify an existing form. See [Editing Metadata Schema Forms](metadata-schemas.md#editing-metadata-schema-forms) for more information. If you modify the metadata schema for a certain MIME type, the properties page layout for assets with the current MIME type and all asset subtypes are modified. For example, modifying a **jpeg** schema under *default/image* only modifies the metadata layout (asset properties) for assets with MIME type **IMAGE/JPEG**. However, if you edit the **default** schema, your changes modify the metadata layout for all types of assets.
 
 1. To view a list of forms/templates, click the AEM logo and then navigate to **Tools** &gt; **Assets** &gt; **Metadata Schemas**.
 

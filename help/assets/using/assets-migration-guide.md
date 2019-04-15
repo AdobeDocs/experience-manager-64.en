@@ -17,7 +17,7 @@ When migrating assets into AEM, there are several steps to consider. Extracting 
 
 ## Prerequisites {#prerequisites}
 
-Before actually performing any of the steps in this methodology, please review and implement the guidance in [Assets Performance Tuning Tips](../../assets/using/performance-tuning-guidelines.md). Many of the steps, such as configuring maximum concurrent jobs, greatly enhance the server’s stability and performance under load. Other steps, such as configuring a File Data Store, are much more difficult to perform after the system has been loaded with assets.
+Before actually performing any of the steps in this methodology, please review and implement the guidance in [Assets Performance Tuning Tips](performance-tuning-guidelines.md). Many of the steps, such as configuring maximum concurrent jobs, greatly enhance the server’s stability and performance under load. Other steps, such as configuring a File Data Store, are much more difficult to perform after the system has been loaded with assets.
 
 >[!NOTE]
 >

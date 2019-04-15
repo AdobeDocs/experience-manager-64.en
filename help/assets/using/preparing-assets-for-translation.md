@@ -17,7 +17,7 @@ Multilingual assets means assets with binaries, metadata, and tags in multiple l
 
 In Adobe Experience Manager (AEM) Assets, multilingual assets are included in folders, where each folder contains the assets in a different language.
 
-Each language folder is called a language copy. The root folder of a language copy, known as the language root, identifies the language of the content in the language copy. For example, */content/dam/it* is the Italian language root for the Italian language copy. Language copies must use a [correctly-configured language root](../../assets/using/preparing-assets-for-translation.md#creating-a-language-root) so that the correct language is targeted when translations of source assets are performed.
+Each language folder is called a language copy. The root folder of a language copy, known as the language root, identifies the language of the content in the language copy. For example, */content/dam/it* is the Italian language root for the Italian language copy. Language copies must use a [correctly-configured language root](preparing-assets-for-translation.md#creating-a-language-root) so that the correct language is targeted when translations of source assets are performed.
 
 The language copy for which you originally add assets is the language master. The language master is the source that is translated into other languages.
 
@@ -37,7 +37,7 @@ The sample folder hierarchy includes several language roots:
 
 Perform the following steps to prepare your assets for translation:
 
-1. Create the language root of your language master. For example, the language root of the English language copy in the sample folder hierarchy is */content/dam/en*. Ensure that the language root is correctly configured according to the information in [Creating a Language Root](../../assets/using/preparing-assets-for-translation.md#creating-a-language-root).
+1. Create the language root of your language master. For example, the language root of the English language copy in the sample folder hierarchy is */content/dam/en*. Ensure that the language root is correctly configured according to the information in [Creating a Language Root](preparing-assets-for-translation.md#creating-a-language-root).
 
 1. Add assets to your language master. 
 1. Create the language root of each target language for which you require a language copy.

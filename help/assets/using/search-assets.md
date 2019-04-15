@@ -29,7 +29,7 @@ You can search based on the following options (predicates):
 * Style
 * Insights
 
-You can customize the Filters panel and add/remove search predicates using [search facets](../../assets/using/search-facets.md). To display the Filters panel, perform these steps:
+You can customize the Filters panel and add/remove search predicates using [search facets](search-facets.md). To display the Filters panel, perform these steps:
 
 1. In the Assets user interface, tap/click ![](assets/search_icon.png) from the toolbar to display the OmniSearch box.
 1. Enter your search term and press Enter. Alternatively, simply press Enter without entering any search term. Do not enter any leading spaces else the search does not work.  

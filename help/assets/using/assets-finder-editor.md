@@ -304,7 +304,7 @@ The Metadata Form is a form that includes a start and end action. In between, yo
 
     ![](assets/screen_shot_2012-04-23at23305pm.png)
 
-    See [Customizing and Extending AEM Assets](../../assets/using/extending-assets.md) for information on modifying the namespaces available in the metadata form.
+    See [Customizing and Extending AEM Assets](extending-assets.md) for information on modifying the namespaces available in the metadata form.
 
 1. Click the **Constraints** tab. Here you can select whether a field is required and if necessary, add any constraints.
 
@@ -322,7 +322,7 @@ On the Asset Editor page, users can then enter values into the metadata fields (
 
 #### Sub Assets {#sub-assets}
 
-The Sub Assets component is where you can view and select sub-assets. You can determine what names appear under the [main asset](../../assets/using/assets.md#what-are-digital-assets) and sub-assets.
+The Sub Assets component is where you can view and select sub-assets. You can determine what names appear under the [main asset](assets.md#what-are-digital-assets) and sub-assets.
 
 ![](assets/screen_shot_2012-04-23at24025pm.png)
 
@@ -358,7 +358,7 @@ The following is a populated Tags component:
 
 #### Thumbnail {#thumbnail}
 
-The Thumbnail component is where the asset displays the selected thumbnail (for many of the formats the thumbnail is extracted automatically). In addition, the component displays the filename, and [actions that you can modify](../../assets/using/assets-finder-editor.md#adding-asset-editor-actions). 
+The Thumbnail component is where the asset displays the selected thumbnail (for many of the formats the thumbnail is extracted automatically). In addition, the component displays the filename, and [actions that you can modify](assets-finder-editor.md#adding-asset-editor-actions). 
 
 ![](assets/screen_shot_2012-04-23at25452pm.png)
 

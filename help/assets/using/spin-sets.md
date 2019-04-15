@@ -23,7 +23,7 @@ Spin Sets are designated by a banner with the word **SPINSET**. In addition, if 
 
 >[!NOTE]
 >
->For information on the Assets user interface, see [Managing assets with the Touch UI](../../assets/using/managing-assets-touch-ui.md).
+>For information on the Assets user interface, see [Managing assets with the Touch UI](managing-assets-touch-ui.md).
 
 ## Quick Start: Spin Sets {#quick-start-spin-sets}
 
@@ -37,47 +37,47 @@ To get you up and running quickly with Spin Sets, follow these steps:
 
    To create a Spin Set, select **Create** &gt; **Spin Set** and then name the set, choose the assets, and choose the order the images appear.
 
-   See [Working with Selectors](../../assets/using/working-with-selectors.md).
+   See [Working with Selectors](working-with-selectors.md).
 
    >[!NOTE]
    >
    >You can also create spin sets automatically through [batch set presets](/help/assets/using/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets). **Important:** Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
 
-1. Set up [Spin Set Viewer presets](../../assets/using/managing-viewer-presets.md), as needed.
+1. Set up [Spin Set Viewer presets](managing-viewer-presets.md), as needed.
 
    Administrators can create or modify Spin Set Viewer Presets. To see your spin set with a viewer preset, select the spin set, and in the left-rail drop-down menu, select **Viewers**.
 
    See **Tools** &gt; **Assets** &gt; **Viewer Presets** to create or edit viewer presets.
 
-   See [Adding and editing viewer presets.](../../assets/using/managing-viewer-presets.md)
+   See [Adding and editing viewer presets.](managing-viewer-presets.md)
 
 1. [Viewing Spin Sets](#viewing-spin-sets).
 
    You can view and access sets created by way of batch set presets in three different ways. (Sets created using batch set presets, do **not** appear in the user interface.)
 
-1. [Preview Spin Sets.](../../assets/using/previewing-assets.md)
+1. [Preview Spin Sets.](previewing-assets.md)
 
    Select the Spin Set and you can preview it. Rotate the Spin Set. You can choose different viewers from the **Viewers** menu, available from the left rail drop-down menu.
 
-1. [Publish Spin Sets.](../../assets/using/publishing-dynamicmedia-assets.md)
+1. [Publish Spin Sets.](publishing-dynamicmedia-assets.md)
 
-   Publishing a Spin Set activates the URL and Embed string. In addition, you must [publish the viewer preset](../../assets/using/managing-viewer-presets.md). 
+   Publishing a Spin Set activates the URL and Embed string. In addition, you must [publish the viewer preset](managing-viewer-presets.md). 
 
-1. [Link URLs to your Web Application](../../assets/using/linking-urls-to-yourwebapplication.md) or [Embed the Video or Image Viewer](../../assets/using/embed-code.md).
+1. [Link URLs to your Web Application](linking-urls-to-yourwebapplication.md) or [Embed the Video or Image Viewer](embed-code.md).
 
    AEM Assets creates URL calls for Spin Sets and activates them after you publish the spin sets. You can copy these URLs when you preview assets. Alternatively you can embed them on your web site.
 
    Select the Spin Set, then in the left rail drop-down menu, select **Viewers**.
 
-   See [Linking a Spin Set to a web page](../../assets/using/linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](../../assets/using/embed-code.md).
+   See [Linking a Spin Set to a web page](linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](embed-code.md).
 
-If you need to, you can [edit Spin Sets](#editing-spin-sets). In addition, you can view and modify [Spin Set properties](../../assets/using/managing-assets-touch-ui.md#editing-properties).
+If you need to, you can [edit Spin Sets](#editing-spin-sets). In addition, you can view and modify [Spin Set properties](managing-assets-touch-ui.md#editing-properties).
 
 ## Uploading Assets for Spin Sets {#uploading-assets-for-spin-sets}
 
 At minimum, you need 8-12 shots of an item for a one-dimensional Spin Set and 16-24 for a two-dimensional Spin Set. The shots must be taken at regular intervals to give the impression that the item is rotating and being flipped. For example, if a one-dimensional Spin Set includes 12 shots, rotate the item 30 degrees (360/12) for each shot.
 
-You can upload images for the Spin Sets as you would [upload any other asset in AEM Assets](../../assets/using/managing-assets-touch-ui.md).
+You can upload images for the Spin Sets as you would [upload any other asset in AEM Assets](managing-assets-touch-ui.md).
 
 ### Guidelines for shooting Spin Set images {#guidelines-for-shooting-spin-set-images}
 
@@ -128,7 +128,7 @@ This section describes how to create Spin Sets in AEM.
 
    With the Asset Selector, you can search for assets by typing in a keyword and tapping or clicking **Return**. You can also apply filters to refine your search results. You can filter by path, collection, file type, and tag. Select the filter and then tap the **Filter** icon on the toolbar. To change the view, near the upper-right corner of the page, tap the View icon then tap **Column View**, **Card View**, or **List View**.
 
-   See [Working with Selectors](../../assets/using/working-with-selectors.md).
+   See [Working with Selectors](working-with-selectors.md).
 
    ![](assets/chlimage_1-383.png)
 
@@ -210,8 +210,8 @@ You can perform a variety of editing tasks on Spin Sets such as the following:
 
 ## Previewing Spin Sets {#previewing-spin-sets}
 
-See [Previewing Assets](../../assets/using/previewing-assets.md).
+See [Previewing Assets](previewing-assets.md).
 
 ## Publishing Spin Sets {#publishing-spin-sets}
 
-See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md).
+See [Publishing Assets](publishing-dynamicmedia-assets.md).

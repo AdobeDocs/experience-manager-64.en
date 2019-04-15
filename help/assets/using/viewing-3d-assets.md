@@ -23,7 +23,7 @@ The interactive 3D viewer is available from the asset details page in AEM. The v
 
 Besides using the default stages in AEM 3D, you can also use stages that you have created in a third-party application and uploaded into AEM.
 
-See [About the use of stages in AEM 3D](../../assets/using/about-the-use-of-stages-in-aem-3d.md).
+See [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ In addition, the capabilities of the client computer-such as a workstation, note
 To view 3D assets:
 
 1. Make sure you have uploaded 3D assets into AEM.  
-   See [About the uploading and processing of 3D assets in AEM](../../assets/using/upload-processing-3d-assets.md).
+   See [About the uploading and processing of 3D assets in AEM](upload-processing-3d-assets.md).
 1. From **Adobe Experience Manager**, on the **Navigation** page, tap **Assets**.
 1. Near the upper-right corner of the page, from the View drop-down list, tap **Card View**.
 1. Navigate to a 3D asset that you want to view.
@@ -97,20 +97,20 @@ To view 3D assets:
    ![](assets/chlimage_1-140.png)
 
    Stages provide the environment-background, ground plane, and lighting-in which the 3D model is viewed.  
-   See [About the use of stages in AEM 3D](../../assets/using/about-the-use-of-stages-in-aem-3d.md).
+   See [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md).
 
     * Near the upper-right corner of the asset details page, tap the Camera Selector icon, then select a camera view that you want to apply to the 3D asset.
 
    ![](assets/chlimage_1-141.png)
 
    Stages often provide pre-defined cameras. You can re-select the current camera to restore it to its pre-defined settings.  
-   See [About the use of stages in AEM 3D](../../assets/using/about-the-use-of-stages-in-aem-3d.md).
+   See [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md).
 
 1. In the upper-right corner of the page, tap **Save**.
 1. Do one of the following:
 
     * Render the 3D asset.  
-      See [Rendering 3D assets](../../assets/using/rendering-3d-assets.md).
+      See [Rendering 3D assets](rendering-3d-assets.md).
     
     * In the upper-right corner of the page, tap **Close **to return to the Assets page.
 
@@ -128,7 +128,7 @@ For more information, see the following:
 * [Touchpad devices](#touchpad-devices)
 * [Mouse and trackball devices](#mouse-and-trackball-devices)
 
-See also [Previewing a web page that has a 3D component](../../assets/using/using-the-3d-sites-component.md#previewing-a-web-page-that-has-a-d-component).
+See also [Previewing a web page that has a 3D component](using-the-3d-sites-component.md#previewing-a-web-page-that-has-a-d-component).
 
 ![](assets/screen_shot_2017-12-11at145654.png) 
 

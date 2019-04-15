@@ -27,7 +27,7 @@ You can reference existing AEM assets from within an Adobe Illustrator file.
 
 1. Using [AEM Desktop App](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), mount AEM Assets repository as a drive on your local machine. Within the mounted drive, navigate to the location of the asset that you want to reference.
 1. Drag the asset from the mounted drive to the Illustrator file.
-1. Save the Illustrator file to the mounted drive, or [upload](../../assets/using/managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
+1. Save the Illustrator file to the mounted drive, or [upload](managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
 1. After the worflow completes, go to the asset details page for the asset. The references to existing AEM assets are listed under **Dependencies** in the **References** column.
 
    ![](assets/chlimage_1-258.png)
@@ -44,7 +44,7 @@ You can reference existing AEM assets from within an Adobe Illustrator file.
 
 To reference AEM assets from within an InDesign file, either drag AEM assets to the InDesign file or export the InDesign file as a ZIP file.
 
-Referenced assets already exist in AEM Assets. You can extract subassets by [configuring InDesign server](../../assets/using/indesign.md). Embedded assets in an InDesign file are extracted as subassets.
+Referenced assets already exist in AEM Assets. You can extract subassets by [configuring InDesign server](indesign.md). Embedded assets in an InDesign file are extracted as subassets.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Referenced assets already exist in AEM Assets. You can extract subassets by [con
 
 ### Create references By Dragging AEM assets {#create-references-by-dragging-aem-assets}
 
-This procedure is similar to [Adding AEM assets as references in Adobe Illustrator](#refai). [](../../assets/using/managing-linked-subassets.md#refai)
+This procedure is similar to [Adding AEM assets as references in Adobe Illustrator](#refai). [](managing-linked-subassets.md#refai)
 
 ### Create references to AEM assets by exporting a ZIP file {#create-references-to-aem-assets-by-exporting-a-zip-file}
 
@@ -70,7 +70,7 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
 
    ![](assets/chlimage_1-261.png)
 
-1. Save in Photoshop file to the mounted drive or or [upload](../../assets/using/managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
+1. Save in Photoshop file to the mounted drive or or [upload](managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
 1. After the worflow completes, the references to existing AEM assets are listed in the asset details page.
 
    To view the referenced assets, close the [Rail](../../sites/authoring/using/basic-handling.md#rail-selector) in the asset details page.

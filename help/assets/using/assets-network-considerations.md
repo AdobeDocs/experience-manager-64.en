@@ -74,7 +74,7 @@ The dispatcher shares it's 100Mbps connection with two entities, the outside wor
 
 The AEM instance shares it's 1Gbps connection with multiple services. From a network topology perspective, it is equivalent to sharing a single channel with different services.
 
-Reviewing the network from the client device to the AEM instance, the smallest chokepoint appears to be the 10Mbit enterprise firewall throttle. You can use these values in the sizing calculator in the [Assets Sizing Guide](../../assets/using/assets-sizing-guide.md) to determine the user experience.
+Reviewing the network from the client device to the AEM instance, the smallest chokepoint appears to be the 10Mbit enterprise firewall throttle. You can use these values in the sizing calculator in the [Assets Sizing Guide](assets-sizing-guide.md) to determine the user experience.
 
 ## Defined workflows of the AEM instance {#defined-workflows-of-the-aem-instance}
 

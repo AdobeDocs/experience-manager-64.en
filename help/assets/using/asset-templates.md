@@ -87,7 +87,7 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
 1. To open the collateral for editing, do one of the following:
 
-    * Open the collateral (brochure in this case) you created in step 7 of [Creating a Collateral](../../assets/using/asset-templates.md#creating-a-collateral).
+    * Open the collateral (brochure in this case) you created in step 7 of [Creating a Collateral](asset-templates.md#creating-a-collateral).
     * From the Templates page, navigate to a folder where you created the collateral, and click/tap the Edit quick action on the thumbnail of a collateral.
     * In the asset page for the collateral, click/tap the Edit icon from the toolbar.
     * Select the collateral, and click/tap the Edit icon from the toolbar.
@@ -108,7 +108,7 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
    >[!NOTE]
    >
-   >Ensure that your AEM instance is integrated with an InDesign server to enable AEM Assets to extract data from the InDesign template and make it available for editing. For details, see [Integrating AEM Assets with InDesign Server](../../assets/using/indesign.md).
+   >Ensure that your AEM instance is integrated with an InDesign server to enable AEM Assets to extract data from the InDesign template and make it available for editing. For details, see [Integrating AEM Assets with InDesign Server](indesign.md).
 
 1. To modify the text in an editable field, click/tap the text field from the list of editable fields and edit the text in the field.
 

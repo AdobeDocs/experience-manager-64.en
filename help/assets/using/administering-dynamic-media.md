@@ -24,16 +24,16 @@ legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media
 
 If you are administering dynamic media, the following topics are of interest:
 
-* [Configuring Dynamic Media-Scene7 mode](../../assets/using/config-dms7.md) - Use this configuration if you are a new Dynamic Media customer on AEM 6.4.
-* [Configuring Dynamic Media-Hybrid mode](../../assets/using/config-dynamic.md) - Use this configuration if you are an existing Dynamic Media customer upgrading to AEM 6.4.
-* [Managing Image Presets](../../assets/using/managing-image-presets.md)
-* [Managing Viewer Presets](../../assets/using/managing-viewer-presets.md)
-* [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md)
+* [Configuring Dynamic Media-Scene7 mode](config-dms7.md) - Use this configuration if you are a new Dynamic Media customer on AEM 6.4.
+* [Configuring Dynamic Media-Hybrid mode](config-dynamic.md) - Use this configuration if you are an existing Dynamic Media customer upgrading to AEM 6.4.
+* [Managing Image Presets](managing-image-presets.md)
+* [Managing Viewer Presets](managing-viewer-presets.md)
+* [Troubleshooting Dynamic Media - Scene7 mode](troubleshoot-dms7.md)
 
 See also the following topics:
 
-* [Video encoding and video profiles](../../assets/using/video-profiles.md)
-* [Image profiles](../../assets/using/image-profiles.md)
+* [Video encoding and video profiles](video-profiles.md)
+* [Image profiles](image-profiles.md)
 
 >[!NOTE]
 >

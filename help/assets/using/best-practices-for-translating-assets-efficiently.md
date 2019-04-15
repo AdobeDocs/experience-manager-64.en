@@ -13,9 +13,9 @@ discoiquuid: 2480421b-87b1-42d0-ab5f-e81947ffcd65
 
 # Best Practices for Translating Assets Efficiently{#best-practices-for-translating-assets-efficiently}
 
-Adobe Experience Manager (AEM) Assets supports multilingual workflows to translate binaries, metadata, and tags for digital assets into multiple locales and to manage the translated assets. For details, see [Multilingual Assets](../../assets/using/multilingual-assets.md).
+Adobe Experience Manager (AEM) Assets supports multilingual workflows to translate binaries, metadata, and tags for digital assets into multiple locales and to manage the translated assets. For details, see [Multilingual Assets](multilingual-assets.md).
 
-For efficient management of assets to ensure that different translated versions stay synchronized, create [language copies](../../assets/using/preparing-assets-for-translation.md) of assets before running translation workflows.
+For efficient management of assets to ensure that different translated versions stay synchronized, create [language copies](preparing-assets-for-translation.md) of assets before running translation workflows.
 
 A language copy of an asset or a group of assets is a language sibling (or a version of the asset(s) in a cognate language) with a similar content hierarchy.
 
@@ -45,5 +45,5 @@ You can also make a few configuration changes to a couple of workflows and the t
    The *DAM MetaData Writeback* workflow configures the last modified date for an asset. Because you disable this workflow in step 2, AEM Assets is no longer able to keep the last modified date of assets up-to-date. Therefore, enable the *Set last modified date* workflow to ensure that last modified dates of assets are up-to-date. Assets with outdated last modified dates can cause errors.
 
 1. [Configure the translation integration framework](../../sites/administering/using/tc-tic.md) to stop translating asset binaries. Unselect the “Translate Assets" option under the Assets tab to stop the translation of Asset binaries.
-1. Translate asset metadata/tags using [Multilingual Asset workflows](../../assets/using/multilingual-assets.md).
+1. Translate asset metadata/tags using [Multilingual Asset workflows](multilingual-assets.md).
 

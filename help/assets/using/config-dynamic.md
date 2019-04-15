@@ -18,11 +18,11 @@ Dynamic Media-Hybrid needs to be enabled and configured for use. Depending on yo
 
 >[!NOTE]
 >
->If you intend to configure and run Dynamic Media in Scene7 run mode, see [Configuring Dynamic Media - Scene7 mode](../../assets/using/config-dms7.md).
+>If you intend to configure and run Dynamic Media in Scene7 run mode, see [Configuring Dynamic Media - Scene7 mode](config-dms7.md).
 >
 >If you intend to configure and run Dynamic Media in hybrid run mode, follow the instructions on this page.
 
-Learn more about working with [video](../../assets/using/video.md) in Dynamic Media.
+Learn more about working with [video](video.md) in Dynamic Media.
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ Replication test to s7delivery:https://replicate-na.assetsadobe.com/is-publish
    `localhost:4502/libs/granite/security/content/useradmin.html`
 1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
 1. Click the **KeyStore** tab. If the **Create KeyStore** button appears, then you need to redo the steps under [Setting up Authentication](#setting-up-authentication) earlier.
-1. If you had to redo the KeyStore setup, you may need to do [Configuring the Replication Agent](../../assets/using/config-dynamic.md#configuring-the-replication-agent) again, as well.
+1. If you had to redo the KeyStore setup, you may need to do [Configuring the Replication Agent](config-dynamic.md#configuring-the-replication-agent) again, as well.
 
    Reconfigure the s7delivery Replication Agent.  
    `localhost:4502/etc/replication/agents.author/s7delivery.html`
@@ -667,7 +667,7 @@ You must publish your own default catalog settings as part of the setup process 
 
 ## Replicating Viewer Presets {#replicating-viewer-presets}
 
-To deliver* *an asset with a viewer preset, you must replicate/publish* *the viewer preset. (All viewer presets must be activated *and *replicated to obtain the URL or embed code for an asset.) See [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets) for more information.
+To deliver* *an asset with a viewer preset, you must replicate/publish* *the viewer preset. (All viewer presets must be activated *and *replicated to obtain the URL or embed code for an asset.) See [Publishing Viewer Presets](managing-viewer-presets.md#publishing-viewer-presets) for more information.
 
 >[!NOTE]
 >
@@ -1005,7 +1005,7 @@ With color correction, ingested assets retain their color space (RGB, CMYK, Gray
 
 Adobe color management uses ICC profiles, a format defined by the International Color Consortium (ICC).
 
-You can configure dynamic media color management and configure image presets using CMYK, RGB, or Gray output. See [Configuring Image Presets](../../assets/using/managing-image-presets.md).
+You can configure dynamic media color management and configure image presets using CMYK, RGB, or Gray output. See [Configuring Image Presets](managing-image-presets.md).
 
 Advanced use cases could use a manual configure** icc=** modifier to explicitly select an output color profile:
 
@@ -1306,7 +1306,7 @@ For example, you could set the **iccprofilergb** to *sRGB*, and **iccprofilecmyk
 
 After you complete all the tasks above, activated Dynamic Media assets are served from the Image or Video Service. In AEM, this ability shows up in a **Copy Image URL**, **Copy Viewer URL**, **Embed Viewer Code**, and in the WCM.
 
-See [Delivering Dynamic Media Assets](../../assets/using/delivering-dynamic-media-assets.md).
+See [Delivering Dynamic Media Assets](delivering-dynamic-media-assets.md).
 
 <table> 
  <tbody> 

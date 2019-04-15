@@ -65,11 +65,11 @@ discoiquuid: 752e521f-198f-425a-abfa-051993f9c694
 
 1. Upload the scene and the IBL PTIFF into AEM and wait for upload processing to complete.
 
-   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
+   See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 1. Resolve any file dependencies.
 
-   See [Resolving file dependencies](../../assets/using/resolve-file-dependencies.md).
+   See [Resolving file dependencies](resolve-file-dependencies.md).
 
    AEM 3D may not be able to detect the IBL image configured in the stage. In such situations, you must resolve the missing dependencies manually. You can assign the same previously uploaded IBL PTIFF image for each of the missing dependencies. Or, you can assign different images to further control the IBL effects. After resolving the dependencies, be sure you tap **Save** to initiate reprocessing.
 

@@ -17,15 +17,15 @@ A profile is a recipe for what options to apply to assets that get uploaded to a
 
 Those rules can include adding metadata, smart cropping of images, or establishing video encoding profiles. In AEM, you can create three types of profiles, which are covered in detail at the following links:
 
-* [Metadata profiles](../../assets/using/metadata-profiles.md)
-* [Image profiles](../../assets/using/image-profiles.md)
-* [Video profiles](../../assets/using/video-profiles.md)
+* [Metadata profiles](metadata-profiles.md)
+* [Image profiles](image-profiles.md)
+* [Video profiles](video-profiles.md)
 
 You must have Administrator rights to create, edit, and delete metadata, image, or video profiles.
 
 After you create your metadata, image, or video profile, you assign it to one or more folders that you use as the destination for newly uploaded assets.
 
-See also [Best Practices for Organizing your Digital Assets for using Processing Profiles](../../assets/using/best-practices-for-file-management.md).
+See also [Best Practices for Organizing your Digital Assets for using Processing Profiles](best-practices-for-file-management.md).
 
 >[!NOTE]
 >

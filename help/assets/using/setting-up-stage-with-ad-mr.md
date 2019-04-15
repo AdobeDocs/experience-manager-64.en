@@ -55,7 +55,7 @@ discoiquuid: da8fc33b-84ae-4ead-87bb-5a7870a38b1f
 1. Save the scene, then exit Autodesk Maya.
 1. Upload the scene into AEM and wait for upload processing to complete.
 
-   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
+   See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
    If Autodesk® Maya® is not configured on the AEM server, export an FBX from Maya and upload it into AEM.
 

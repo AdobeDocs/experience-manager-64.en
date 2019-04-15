@@ -16,7 +16,7 @@ discoiquuid: 45e67357-4524-4d25-b5f1-21182b8e803c
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
-Content Fragment Models define the structure of content for your [content fragments](../../assets/using/content-fragments.md).
+Content Fragment Models define the structure of content for your [content fragments](content-fragments.md).
 
 ## Enable Content Fragment Models {#enable-content-fragment-models}
 
