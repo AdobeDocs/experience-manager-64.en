@@ -543,7 +543,7 @@ The [Reset action is also available from the Live Copy Overview](../../../sites/
 
 To track the changes you have made, you can view the blueprint page in **References** and compare it with its live copy page:
 
-1. In the **Sites** console, [navigate to a blueprint or live copy page and select it](../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources).
+1. In the **Sites** console, [navigate to a blueprint or live copy page and select it](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
 1. Open the ** [References](../../../sites/authoring/using/basic-handling.md#references)** panel and select:
 
     * **Blueprint** (when a live copy page selected)
@@ -570,7 +570,7 @@ Detach permanently removes the live relationship between a live copy and its sou
 >
 >You cannot reinstate the live relationship after you detach the live copy.
 >
->To remove the live relationship with the option of later reinstating it, you can [cancel live copy inheritance](#cancellinginheritanceforapage) for the page.
+>To remove the live relationship with the option of later reinstating it, you can [cancel live copy inheritance](#suspending-inheritance-for-a-page) for the page.
 
 There are implications on where within the tree that you use **Detach**:
 

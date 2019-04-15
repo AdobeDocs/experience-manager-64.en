@@ -74,9 +74,9 @@ An online backup of your repository lets you create, download, and delete backup
 
 >[!CAUTION]
 >
->Do not run AEM Online Backup concurrently with [Datastore Garbage Collection](../../../sites/administering/using/data-store-garbage-collection.md) or [Revision Cleanup](../../../sites/deploying/using/storage-elements-in-aem-6.md#performing-offline-revision-cleanup). It will negatively affect the system performance.
+>Do not run AEM Online Backup concurrently with [Datastore Garbage Collection](../../../sites/administering/using/data-store-garbage-collection.md) or [Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md#how-to-run-offline-revision-cleanup). It will negatively affect the system performance.
 
-When starting a backup you can specify a** Target Path** and/or a **Delay**.
+When starting a backup you can specify a **Target Path** and/or a **Delay**.
 
 **Target Path** The backup files are usually saved in the parent folder of the folder holidng the quickstart jar file (.jar). For example, if you have the AEM jar file located under /InstallationKits/AEM, then the backup will be generated under /InstallationKits. You can also specify a target to a location of your choice.
 
@@ -117,7 +117,7 @@ To create a backup:
 
    ![](assets/chlimage_1-1.png)
 
-1. On the backup console, specify the ** [Target Path](#targetpath)** and ** [Delay](#path)**.
+1. On the backup console, specify the **[Target Path](#aem-online-backup)** and **[Delay](#aem-online-backup)**.
 
    ![](assets/chlimage_1-2.png)
 
@@ -189,7 +189,7 @@ curl -u admin:admin -X POST http://localhost:4502/system/console/jmx/com.adobe.g
 
 >[!NOTE]
 >
->A backup can also be triggered [using the MBeans provided by AEM](../../../sites/administering/using/jmx-console.md#startbackup).
+>A backup can also be triggered [using the MBeans provided by AEM](../../../sites/administering/using/jmx-console.md).
 
 ### Filesystem Snapshot Backup {#filesystem-snapshot-backup}
 

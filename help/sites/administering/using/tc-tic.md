@@ -132,7 +132,7 @@ Communities properties control how the translation of user-generated content is 
 
 ### Assets Configuration Properties {#assets-configuration-properties}
 
-Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](/sites/authoring/using/language-copy.md).
+Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](../../../assets/using/translation-projects.md).
 
 <table> 
  <tbody> 

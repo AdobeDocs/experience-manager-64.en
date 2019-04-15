@@ -50,7 +50,7 @@ Some of the features of tags within AEM include :
 * If tagging is an important aspect of your content
 
     * make sure to package tags with the pages that use them
-    * make sure [tag permissions](#taggingpermissions) enable read access
+    * make sure [tag permissions](#setting-tag-permissions) enable read access
 
 ## Tagging Console {#tagging-console}
 

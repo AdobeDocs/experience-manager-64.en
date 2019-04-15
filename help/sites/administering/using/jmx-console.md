@@ -857,7 +857,7 @@ Several third-party server resources install MBeans that expose attributes and o
   <tr> 
    <td>java.util.logging</td> 
    <td> </td> 
-   <td><a href="https://developer.apple.com/library/mac/documentation/java/reference/javase6_api/api/java/util/logging/LoggingMXBean.html">java.util.logging.LoggingMXBean</a></td> 
+   <td><a href="https://docs.oracle.com/javase/6/docs/api/java/util/logging/LoggingMXBean.html">java.util.logging.LoggingMXBean</a></td> 
   </tr> 
   <tr> 
    <td>osgi.core</td> 

@@ -24,7 +24,7 @@ The Bulk Editor allows for very efficient editing when the visual page context i
 >
 >You can also import content into the repository, but by default this is disabled for the Bulk Editor as available in the **Tools** console.
 
-This section describes how to work with the bulk editor in the **Tools** console. Typically, administrators use the bulk editor to search and edit multiple items. This is done by populating the table using a GQL query and then by selecting the content items to work on. Authors generally use the bulk editor as part of a customized bulk editor application accessible through the [product listing](../../../sites/authoring/using/default-components.md#productlist) component.
+This section describes how to work with the bulk editor in the **Tools** console. Typically, administrators use the bulk editor to search and edit multiple items. This is done by populating the table using a GQL query and then by selecting the content items to work on. Authors generally use the bulk editor as part of a customized bulk editor application accessible through the [product listing](../../../sites/authoring/using/default-components.md) component.
 
 >[!CAUTION]
 >

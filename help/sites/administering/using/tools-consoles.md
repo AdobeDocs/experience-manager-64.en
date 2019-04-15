@@ -128,12 +128,12 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>An alternative link to the Package Manager that shows the packages that have been loaded for AEM WCM. Similar to the information shown in CRX's Package Manager.</td> 
   </tr> 
   <tr> 
-   <td width="200">Replication - <a href="../../../sites/deploying/using/configuring.md#replicationagents">Replication Agents</a></td> 
+   <td width="200">Replication - <a href="../../../sites/deploying/using/configuring.md#replication-reverse-replication-and-replication-agents">Replication Agents</a></td> 
    <td> </td> 
    <td>Used to replicate data from author to publish when publishing pages, or with reverse replication to return user comments from the publish environment to author.</td> 
   </tr> 
   <tr> 
-   <td width="200">Importers - <a href="../../../sites/authoring/using/publishing-pages.md#howtoactivateacompletesection28tree29ofyourwebsite">Activate Tree</a></td> 
+   <td width="200">Importers - <a href="../../../sites/authoring/using/publishing-pages.md#publishing-and-unpublishing-a-tree">Activate Tree</a></td> 
    <td> </td> 
    <td>From the Websites tab you can activate the individual pages. When you have entered, or updated, a considerable number of content pages - all of which are resident under the same root page - it can be easier to activate the entire tree in one action. You can also perform a Dry Run to emulate an activation and highlight which pages would be activated.</td> 
   </tr> 
@@ -296,7 +296,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="https://helpx.adobe.com/DO NOT MIGRATE.html">Clustering</a></td> 
+   <td><a href="../../../sites/deploying/using/recomended-deploys.md">Clustering</a></td> 
    <td>Manage clustered deployments.</td> 
   </tr> 
   <tr> 

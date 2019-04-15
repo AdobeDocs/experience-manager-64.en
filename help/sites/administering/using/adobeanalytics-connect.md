@@ -123,7 +123,7 @@ Create a Adobe Analytics configuration so that AEM can authenticate with the Ado
 
 ## Configuring for the Activity Map {#configuring-for-the-activity-map}
 
-To be able to see and use the [Activity Map in the page editor](../../../sites/authoring/using/pa-using.md#analyticsvisiblefromthepageeditor), you need to configure:
+To be able to see and use the [Activity Map in the page editor](../../../sites/authoring/using/pa-using.md#analytics-visible-from-the-page-editor-activity-map), you need to configure:
 
 * Users (for both editing and/or configuring) need to be in the group:  
   `analytics-administrators`  
