@@ -30,7 +30,7 @@ Several facets of community groups are:
 
 >[!NOTE]
 >
->Community groups, created in the publish environment prior to the [existence of the Community Groups console](/communities/using/version-history.md#featurepack1fp1), will not be listed in the Community Groups console, and thus, are not modifiable using the console.
+>Community groups, created in the publish environment prior to the [existence of the Community Groups console](https://helpx.adobe.com/in/experience-manager/6-3/communities/using/version-history.html#FeaturePack1FP1), will not be listed in the Community Groups console, and thus, are not modifiable using the console.
 
 >[!NOTE]
 >

@@ -131,7 +131,7 @@ The following APIs are available for use:
 * [com.adobe.cq.social.scoring.api](https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/scoring/api/package-summary.html)
 * [com.adobe.cq.social.badging.api](https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/badging/api/package-summary.html)
 
-The latest Javadocs for the installed [feature pack](/communities/using/version-history.md) are available to developers from the Adobe repository. See [Using Maven for Communities: Javadocs](../../communities/using/maven.md#javadocs).
+The latest Javadocs for the installed [releases](../../communities/using/deploy-communities.md#LatestReleases) are available to developers from the Adobe repository. See [Using Maven for Communities: Javadocs](../../communities/using/maven.md#javadocs).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
@@ -148,19 +148,10 @@ The screen shots of repository data come from setting up scoring and badging for
 
     * add scoring and badging properties
 
-        * 
-        
-          ```    
-          scoringRules = [/etc/community/scoring/rules/comments-scoring,
+        * scoringRules = [/etc/community/scoring/rules/comments-scoring,
           /etc/community/scoring/rules/forums-scoring]
-          ```    
-        
-        * 
-        
-          ```    
-          badgingRules =[/etc/community/badging/rules/comments-scoring,
+        * badgingRules =[/etc/community/badging/rules/comments-scoring,
           /etc/community/badging/rules/forums-scoring]
-          ```
 
     * locate the forum component node
 
