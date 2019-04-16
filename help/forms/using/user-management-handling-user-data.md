@@ -19,7 +19,7 @@ User management is an AEM Forms JEE component that allows creating, managing, an
 
 **Enterprise domains**: Consist of users and groups that reside in a third-party storage system, such as an LDAP directory. User Management does not write to the third-party storage system. Instead, User Management synchronizes the user and group information with the User Management database. Enterprise domains also use an external authentication provider, which can be LDAP, Kerberos, SAML, or a custom authentication provider.
 
-For more information about how user management works and configured, see [AEM Forms JEE administration help](/forms/using/admin-help/topics.md).
+<!-- Fix broken links For more information about how user management works and configured, see AEM Forms JEE administration help. -->
 
 ## User data and data stores {#user-data-and-data-stores}
 

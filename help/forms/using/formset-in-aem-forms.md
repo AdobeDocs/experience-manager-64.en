@@ -345,7 +345,7 @@ In case there is a root element in the prefill XML, the name of that element is 
 
 AEM Forms app allows field workers to synchronize their mobile devices with an AEM Forms server and work on their tasks. The application works even when the device is offline by saving data locally on the device. Using annotation features, such as photographs, field workers can provide accurate information to integrate into the business processes.  
   
-For more information on AEM Forms app, see [AEM Forms app overview](/forms/using/mobile-workspace-overview.md).
+For more information on AEM Forms app, see [AEM Forms app](../../forms/using/aem-forms-app.md).
 
 ## Known limitations - patterns not fully supported in Form set {#known-limitations-patterns-not-fully-supported-in-form-set}
 

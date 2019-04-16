@@ -56,5 +56,4 @@ Perform the following steps to install and configure AEM Forms on JEE:
 * [Configure client and server options](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/configuring-client-server-options.html)
 * [Create and managing policies](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/creating-policies.html)
 * [Create and managing policy sets](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/creating-policy-sets.html)
-* [Working with document security](/forms/using/admin-help/topics.md)
-
+<!-- Fix broken link * Working with document security -->

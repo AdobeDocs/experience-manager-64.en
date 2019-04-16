@@ -137,9 +137,10 @@ The following Java code example creates a new space named *Test Directory *locat
 
 ## Quick Start (SOAP mode): Delete Content Services content using the Java API (Deprecated) {#quick-start-soap-mode-delete-content-services-content-using-the-java-api-deprecated}
 
-The following Java code example deletes a space named /Company Home/Test Directory. (See [Creating Content Services Spaces](unresolvedlink-lc-cs-api-create-spaces-cc.xml#ws624e3cba99b79e12e69a9941333732bac8-7fff.2).)
+The following Java code example deletes a space named /Company Home/Test Directory.
 
 ```as3
+
  /* 
      * This Java Quick Start uses the SOAP mode and contains the following JAR files 
      * in the class path: 

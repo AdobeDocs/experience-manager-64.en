@@ -82,7 +82,7 @@ Client applications must be set up to connect to document security to protect do
 
 Document security is accessed via Secure Sockets Layer (SSL). You must install the website’s certificate in your certificate store so that you can access document security through the client applications.
 
-See [Configuring SSL](/forms/using/admin-help/topics/configuring-ssl.md) for information on SSL.
+<!-- Fix broken link See Configuring SSL for information on SSL.-->
 
 These instructions are specific to Internet Explorer, but you can install the certificate by using any supported web browser. For more information, see the Help for your browser.
 

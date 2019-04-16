@@ -260,7 +260,7 @@ Create a PDF document by using the Output API (Java):
    >
    >You can also create a PDF document by invoking the `OutputClient` object’s `generatePDFOutput2` method. (See [Passing Documents located in Content Services (deprecated) to the Output Service](creating-document-output-streams.md#passing-documents-located-in-content-services-deprecated-to-the-output-service)*.)*
 
-1. [Retrieve the results of the operation](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-792a.2).
+1. Retrieve the results of the operation.
 
     * Retrieve a `com.adobe.idp.Document` object that represents the status of the `generatePDFOutput` operation by invoking the `OutputResult` object’s `getStatusDoc` method. This method returns status XML data that specifies whether the operation was successful.
     * Create a `java.io.File` object that contains the results of the operation. Ensure that the file name extension is .xml. 
@@ -284,7 +284,7 @@ Create a PDF document by using the Output API (Java):
 
 Create a PDF document by using the Output API (web service):
 
-1. [Include project files](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7934.2).
+1. Include project files.
 
    Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: `http://localhost:8080/soap/services/OutputService?WSDL&lc_version=9.0.1`.
 
@@ -292,7 +292,7 @@ Create a PDF document by using the Output API (web service):
    >
    >Replace `localhost`* with the IP address of the server hosting AEM Forms. *
 
-1. [Create an Output Client object](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7932.2).
+1. Create an Output Client object.
 
     * Create an `OutputServiceClient` object by using its default constructor. 
     * Create an `OutputServiceClient.Endpoint.Address` object by using the `System.ServiceModel.EndpointAddress` constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, `http://localhost:8080/soap/services/OutputService?blob=mtom`.) You do not need to use the `lc_version` attribute. This attribute is used when you create a service reference. However, specify `?blob=mtom` to use MTOM.
@@ -305,7 +305,7 @@ Create a PDF document by using the Output API (web service):
         * Assign the constant value `HttpClientCredentialType.Basic` to the field `BasicHttpBindingSecurity.Transport.ClientCredentialType`. 
         * Assign the constant value `BasicHttpSecurityMode.TransportCredentialOnly` to the field `BasicHttpBindingSecurity.Security.Mode`.
 
-1. [Reference an XML data source](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7930.2).
+1. Reference an XML data source.
 
     * Create a `BLOB` object by using its constructor. The `BLOB` object is used to store XML data that will be merged with the PDF document.
     * Create a `System.IO.FileStream` object by invoking its constructor and passing a string value that represents the file location of the XML file that contains form data. 
@@ -313,12 +313,12 @@ Create a PDF document by using the Output API (web service):
     * Populate the byte array with stream data by invoking the `System.IO.FileStream` object’s `Read` method and passing the byte array, the starting position, and the stream length to read.
     * Populate the `BLOB` object by assigning its `MTOM` field with the contents of the byte array.
 
-1. [Set PDF run-time options](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-792f.2).
+1. Set PDF run-time options
 
     * Create a `PDFOutputOptionsSpec` object by using its constructor. 
     * Set the File URI option by assigning a string value that specifies the location of the PDF file that the Output service generates to the `PDFOutputOptionsSpec` object’s `fileURI` data member. The File URI option is relative to the J2EE application server hosting AEM Forms, not the client computer.
 
-1. [Set rendering run-time options](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-792e.2).
+1. Set rendering run-time options.
 
     * Create a `RenderOptionsSpec` object by using its constructor.
     * Cache the form design to improve the performance of the Output service by assigning the value `true` to the `RenderOptionsSpec` object’s `cacheEnabled` data member.
@@ -331,7 +331,7 @@ Create a PDF document by using the Output API (web service):
    >
    >You cannot set the linearized PDF option by using the `RenderOptionsSpec` object’s `linearizedPDF` member if the input PDF document is certified or digitally signed. (See [Digitally Signing PDF Documents](/help/forms/developing/digitally-signing-certifying-documents.md#digitally-signing-pdf-documents)*.)*
 
-1. [Generate a PDF document](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-7d45.2).
+1. Generate a PDF document.
 
    Create a PDF document by invoking the `OutputServiceService` object’s `generatePDFOutput`method and passing the following values:
 
@@ -353,7 +353,7 @@ Create a PDF document by using the Output API (web service):
    >
    >You can also create a PDF document by invoking the `OutputClient` object’s `generatePDFOutput2` method. (See [Passing Documents located in Content Services (deprecated) to the Output Service](creating-document-output-streams.md#passing-documents-located-in-content-services-deprecated-to-the-output-service)*.)*
 
-1. [Retrieve the results of the operation](unresolvedlink-lc-ou-create-pdf-docs-cp.xml#ws624e3cba99b79e12e69a9941333732bac8-792a.2).
+1. Retrieve the results of the operation.
 
     * Create a `System.IO.FileStream` object by invoking its constructor and passing a string value that represents an XML file location that contains result data. Ensure that the file name extension is .xml.
     * Create a byte array that stores the data content of the `BLOB` object that was populated with result data by the `OutputServiceService` object’s `generatePDFOutput` method (the eighth parameter). Populate the byte array by getting the value of the `BLOB` object’s `MTOM` `field`.
@@ -363,10 +363,6 @@ Create a PDF document by using the Output API (web service):
    See also
 
    [Summary of steps](creating-document-output-streams.md#summary-of-steps)
-
-   [Quick Start (MTOM): Creating a PDF document using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d96.2)
-
-   [Quick Start (SwaRef): Creating a PDF document using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d95.2)
 
    [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -536,7 +532,7 @@ Create a PDF/A document by using the Output API (Java):
 
 [Summary of steps](creating-document-output-streams.md#summary-of-steps)
 
-[Quick Start (SOAP mode): Creating a PDF/A document using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d90.2)
+[Quick Start (SOAP mode): Creating a PDF/A document using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-creating-a-pdf-a-document-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -619,10 +615,6 @@ Create a PDF/A document by using the Output API (web service):
 
 [Summary of steps](creating-document-output-streams.md#summary-of-steps)
 
-[Quick Start (MTOM): Creating a PDF/A document using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d8f.2)
-
-[Quick Start (SwaRef): Creating a PDF/A document using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d8e.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -631,9 +623,7 @@ Create a PDF/A document by using the Output API (web service):
 
 The Output service renders a non-interactive PDF form that is based on a form design that is typically saved as an XDP file and created in Designer. You can pass a `com.adobe.idp.Document` object that contains the form design to the Output service. The Output service then renders the form design located in the `com.adobe.idp.Document` object.
 
-An advantage of passing a `com.adobe.idp.Document` object to the Output service is that other AEM Forms service operations return a `com.adobe.idp.Document` instance. That is, you can get a `com.adobe.idp.Document` instance from another service operation and render it. For example, assume that an XDP file is stored in a Content Services (deprecated) node named `/Company Home/Form Designs`, as shown in the following illustration. 
-
-![](lc_ou_pass_documents_pd.xml)
+An advantage of passing a `com.adobe.idp.Document` object to the Output service is that other AEM Forms service operations return a `com.adobe.idp.Document` instance. That is, you can get a `com.adobe.idp.Document` instance from another service operation and render it. For example, assume that an XDP file is stored in a Content Services (deprecated) node named `/Company Home/Form Designs`, as shown in the following illustration.
 
 You can programmatically retrieve Loan.xdp from Content Services (deprecated) and pass the XDP file to the Output service within a `com.adobe.idp.Document` object.
 
@@ -738,7 +728,7 @@ Pass a document retrieved from Content Services (deprecated) by using the Output
 
 [Quick Start (EJB mode): Passing documents to the Output Service using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-passing-documents-to-the-output-service-using-the-java-api)
 
-[Quick Start (SOAP mode): Passing documents to the Output Service using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d8b.2)
+[Quick Start (SOAP mode): Passing documents to the Output Service using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-passing-documents-to-the-output-service-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -818,8 +808,6 @@ Pass a document retrieved from Content Services (deprecated) by using the Output
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
-[Quick Start (MTOM): Passing documents to the Output Service using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d8a.2)
-
 ## Passing Documents located in the Repository to the Output Service {#passing-documents-located-in-the-repository-to-the-output-service}
 
 The Output service renders a non-interactive PDF form that is based on a form design that is typically saved as an XDP file and created in Designer. You can pass a `com.adobe.idp.Document` object that contains the form design to the Output service. The Output service then renders the form design located in the `com.adobe.idp.Document` object.
@@ -889,8 +877,6 @@ You can save the non-interactive form as a PDF file. The form can be viewed in A
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Output Service API Quick Starts](/help/forms/developing/output-service-java-api-quick.md#output-service-java-api-quick-start-soap)
-
-[Retrieving Content from Content Services (deprecated)](unresolvedlink-lc-cs-api-retrieve-content-rc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffc.2)
 
 ResourceRepositoryClient
 
@@ -1058,7 +1044,7 @@ Create a PDF document based on fragments by using the Output Service API and Ass
 
 [Quick Start (EJB mode): Creating a PDF document based on fragments using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-creating-a-pdf-document-based-on-fragments-using-the-java-api)
 
-[Quick Start (SOAP mode): Creating a PDF document based on fragments using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d84.2)
+[Quick Start (SOAP mode): Creating a PDF document based on fragments using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-creating-a-pdf-document-based-on-fragments-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -1144,8 +1130,6 @@ Create a PDF document based on fragments by using the Output Service API and Ass
 **See also**
 
 [Summary of steps](creating-document-output-streams.md#summary-of-steps)
-
-[Quick Start (MTOM): Creating a PDF document based on fragments using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d83.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -1280,7 +1264,7 @@ Print to a file using the Output API (Java):
 
 [Summary of steps](creating-document-output-streams.md#summary-of-steps)
 
-[Quick Start (SOAP mode): Printing to a file using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d80.2)
+[Quick Start (SOAP mode): Printing to a file using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-printing-to-a-file-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -1349,10 +1333,6 @@ Print to a file using the Output API (web service):
 **See also**
 
 [Summary of steps](creating-document-output-streams.md#summary-of-steps)
-
-[Quick Start (MTOM): Printing to a file using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d7f.2)
-
-[Quick Start (SwaRef): Printing to a file using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d7e.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -1651,9 +1631,7 @@ Send a print stream to a network printer by using the Output API (web service):
 
 The Output service can create separate documents for each record within an XML data source or a single file that contains all records (this functionality is the default). For example, assume that ten records are located within an XML data source and you instruct the Output service to create separate PDF documents (or other types of output) for each record by using the Output Service API. As a result, the Output service generates ten PDF documents. (Instead of creating documents, you can send multiple print streams to a printer.)
 
-The following illustration also shows the Output service processing an XML data file that contains multiple records. However, assume that you instruct the Output service to create a single PDF document that contains all data records. In this situation, the Output service generates one document that contains all of the records. 
-
-![](lc_ou_create_multiple_files_cm.xml)
+The following illustration also shows the Output service processing an XML data file that contains multiple records. However, assume that you instruct the Output service to create a single PDF document that contains all data records. In this situation, the Output service generates one document that contains all of the records.
 
 The following illustration shows the Output service processing an XML data file that contains multiple records. Assume that you instruct the Output service to create a separate PDF document for each data record. In this situation, the Output service generates a separate PDF document for each data record. 
 
@@ -1944,8 +1922,6 @@ Create multiple PDF files by using the Output API (web service):
 
 [Summary of steps](creating-document-output-streams.md#summary-of-steps)
 
-[Quick Start (MTOM): Creating multiple PDF files using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d56.2)
-
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
 [Invoking AEM Forms using SwaRef](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-swaref)
@@ -1953,8 +1929,6 @@ Create multiple PDF files by using the Output API (web service):
 ## Creating Search Rules {#creating-search-rules}
 
 You can create search rules that result in the Output service examining input data and using different form designs based on the data content to generate output. For example, if the text *mortgage* is located within the input data, then the Output service can use a form design named Mortgage.xdp. Likewise, if the text *automobile* is located in the input data, then the Output service can use a form design that is saved as AutomobileLoan.xdp. Although the Output service can generate different output types, this section assumes that the Output service generates a PDF file. The following diagram shows the Output service generating a PDF file by processing an XML data file and using one of many form designs.
-
-![](lc_ou_create_search_rules_cs.xml)
 
 In addition, the Output service is able to generate document packages, where multiple records are provided in the data set and each record is matched to a form design and a single document is generated made up of multiple form designs.
 
@@ -2103,7 +2077,7 @@ Create search rules by using the Output API (Java):
 
 [Quick Start (EJB mode): Creating search rules using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-creating-search-rules-using-the-java-api)
 
-[Quick Start (SOAP mode): Creating search rules using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d4f.2)
+[Quick Start (SOAP mode): Creating search rules using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-creating-search-rules-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -2204,10 +2178,6 @@ Create search rules by using the Output API (web service):
 **See also**
 
 [Summary of steps](creating-document-output-streams.md#summary-of-steps)
-
-[Quick Start (MTOM): Creating search rules using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d4e.2)
-
-[Quick Start (SwaRef): Creating search rules using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d4d.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -2321,7 +2291,7 @@ Flatten an interactive PDF document to a non-interactive PDF document by using t
 
 [Quick Start (EJB mode): Transforming a PDF document using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-transforming-a-pdf-document-using-the-java-api)
 
-[Quick Start (SOAP mode): Transforming a PDF document using the Java API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d46.2)
+[Quick Start (SOAP mode): Transforming a PDF document using the Java API](/help/forms/developing/output-service-java-api-quick.md#quick-start-soap-mode-transforming-a-pdf-document-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -2384,10 +2354,6 @@ Flatten an interactive PDF document to a non-interactive PDF document by using t
 **See also**
 
 [Summary of steps](creating-document-output-streams.md#summary-of-steps)
-
-[Quick Start (MTOM): Transforming a PDF document using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d44.2)
-
-[Quick Start (SwaRef): Transforming a PDF document using the web service API](unresolvedlink-lc-qs-output-ou.xml#ws624e3cba99b79e12e69a9941333732bac8-7d43.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 

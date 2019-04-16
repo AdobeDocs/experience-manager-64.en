@@ -87,7 +87,7 @@ public Boolean assign(User user);
 1. Create a just-in-time-enabled domain:
 
     * In Administration Console, click Settings &gt; User Management &gt; Domain Management &gt; New Enterprise Domain.
-    * Configure the domain and select Enable Just In Time Provisioning. (See [Setting up and managing domains](/forms/using/admin-help/topics/setting-up-and-managing-domains.md).
+    * Configure the domain and select Enable Just In Time Provisioning. <!--Fix broken link (See Setting up and managing domains).-->
     * Add authentication providers. While adding authentication providers, on the New Authentication screen, select a registered Identity Creator and Assignment Provider.
 
 1. Save the new domain.

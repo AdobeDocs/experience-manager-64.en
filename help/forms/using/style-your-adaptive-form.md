@@ -67,7 +67,7 @@ The design displayed above requires changes in placeholder text and logo of your
 1. Change the existing logo and text of the header. To remove the logo:
 
     1. Open the form in form editor.  
-       [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](/editor.html/content/forms/af/shipping-address-add-update-form.md)
+       [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html)
     
     1. Tap logo image in the header component and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/6-2/cmppr.png) properties. In the image property, tap X to remove the existing logo image.
     1. Tap upload, select the logo.png, and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG) to save the changes. The image was downloaded in the [Before you start](../../forms/using/style-your-adaptive-form.md#before-you-start) section.  

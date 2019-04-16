@@ -232,7 +232,7 @@ Server-side validations are required to prevent any attempts to bypass validatio
 
 ### Localizing adaptive forms {#localizing-adaptive-forms}
 
-AEM provides translation workflows that you can use to localize adaptive forms. For information, see [Using AEM translation workflow to localize adaptive forms](/forms/using/using-aem-translation-workflow-to-localize-adaptive-forms-.md).
+AEM provides translation workflows that you can use to localize adaptive forms. For information, see [Using AEM translation workflow to localize adaptive forms](../../forms/using/using-aem-translation-workflow-to-localize-adaptive-forms.md).
 
 Some best practices when localizing adaptive forms are as follows:
 

@@ -218,8 +218,6 @@ Assemble a non-interactive PDF document by using the Assembler Service API (web 
     * Create a `System.IO.BinaryWriter` object by invoking its constructor and passing the `System.IO.FileStream` object.
     * Write the contents of the byte array to a PDF file by invoking the `System.IO.BinaryWriter` object’s `Write` method and passing the byte array.
 
-For code examples, see this Assembler Service Quick Start in * [API Quick Starts (Code Examples)](unresolvedlink-lc-qs-intro-in.xml#ws624e3cba99b79e12-171c1d181336a34f42f-8000.2)*:
-
 * “Quick Start (MTOM): Assembling a non-interactive PDF document using the web service API”.
 
 **See also**

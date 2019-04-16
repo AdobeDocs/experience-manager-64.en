@@ -68,7 +68,7 @@ These articles provide guidance to basic database features for the backup and re
 
 ### Entering the backup modes {#entering-the-backup-modes}
 
-You can use either administration console, the LCBackupMode command, or the API available with the AEM forms installation to enter and leave backup modes. Note that for rolling backup (continuous coverage), the administration console option is not available; you should use either the command line option or the API. For information about using the API to enter and leave backup modes, see AEM forms API Reference on [Help and Tutorials](/forms/using/topics.md) page.
+You can use either administration console, the LCBackupMode command, or the API available with the AEM forms installation to enter and leave backup modes. Note that for rolling backup (continuous coverage), the administration console option is not available; you should use either the command line option or the API. <!-- Fix broken link For information about using the API to enter and leave backup modes, see AEM forms API Reference on Help and Tutorials page. -->
 
 >[!NOTE]
 >

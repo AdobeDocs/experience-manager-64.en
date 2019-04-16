@@ -49,7 +49,7 @@ The following illustration provides a visual representation of the different way
 
 >[!NOTE]
 >
->In addition to using the AEM Forms SDK to create client applications that can invoke AEM Forms services, you can also create components that can be deployed to the service container. For example, you can create a Bank component that contains custom data types that can be used in processes. That is, you can create a data type such as `com.adobe.idp.BankAccount`. You can then create `com.adobe.idp.BankAccount` instances in your client applications. (See [Creating Components That Use Custom Data Types](unresolvedlink-lc-co-create-components-custom-data-types-cc.xml#ws624e3cba99b79e12e69a9941333732bac8-7b86.2).)
+>In addition to using the AEM Forms SDK to create client applications that can invoke AEM Forms services, you can also create components that can be deployed to the service container. For example, you can create a Bank component that contains custom data types that can be used in processes. That is, you can create a data type such as `com.adobe.idp.BankAccount`. You can then create `com.adobe.idp.BankAccount` instances in your client applications.
 
 The service container provides the following functionality:
 

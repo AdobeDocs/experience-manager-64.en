@@ -36,7 +36,7 @@ This DDX document merges two PDF documents named *map.pdf* and *directions.pdf* 
 
 >[!NOTE]
 >
->To see a DDX document that disassembles a PDF document, see [Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically-disassembling-pdf-documents).
+>To see a DDX document that disassembles a PDF document, see [Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents.md#programmatically-disassembling-pdf-documents).
 
 >[!NOTE]
 >
@@ -145,9 +145,9 @@ The following table summarizes some of the key values and object types that can 
 
 [Assemble PDF documents using the web service API](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#assemble-pdf-documents-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 [Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically-disassembling-pdf-documents)
 
@@ -210,11 +210,11 @@ Assemble a PDF document by using the Assembler Service API (Java):
 
 [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
-[Quick Start (SOAP mode): Assembling a PDF document using the Java API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb7.2)
+[Quick Start (SOAP mode): Assembling a PDF document using the Java API](/help/forms/developing/assembler-service-java-api-quick.md#quick-start-soap-mode-assembling-a-pdf-document-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Assemble PDF documents using the web service API {#assemble-pdf-documents-using-the-web-service-api}
 
@@ -293,6 +293,4 @@ Assemble PDF documents by using the Assembler Service API (web service):
 
 [Programmatically Assembling PDF Documents](/help/forms/developing/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically-assembling-pdf-documents)
 
-[Quick Start (MTOM): Assembling a PDF document using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb6.2)
-
-[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)

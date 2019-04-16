@@ -54,7 +54,7 @@ Drops a page footer in the adaptive form layout. Includes a rich text out-of-the
 
 Adaptive form header component lets you add a page header that you can use to provide the company logo and name. When you drop a header, you can select the logo image and text sub-components, and use properties to customize the header.
 
-When you select the logo image component and tap ![](assets/cmppr.png), you can use the following properties to customize the logo image:
+When you select the logo image component and tap ![](../assets/cmppr.png), you can use the following properties to customize the logo image:
 
 <table> 
  <tbody>
@@ -93,7 +93,7 @@ When you select the logo image component and tap ![](assets/cmppr.png), you can 
  </tbody>
 </table>
 
-When you select the text sub-component and tap ![](assets/cmppr.png), you can see the following properties to customize the header text:
+When you select the text sub-component and tap ![](../assets/cmppr.png), you can see the following properties to customize the header text:
 
 <table> 
  <tbody>

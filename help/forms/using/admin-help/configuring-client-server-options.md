@@ -77,7 +77,7 @@ To view users and groups in selected domains during policy user searches, a supe
 
 The visible user and group list is visible to the policy set coordinator and is used to restrict which domains the end user can browse when choosing users or groups to add to policies. If this task is not performed, the policy set coordinator will not find any users or groups to add to the policy. There can be more than one policy set coordinator for any given policy set.
 
-1. After you install and configure your AEM forms environment with document security, set up all appropriate domains in User Management. (See [Setting up and managing domains](/forms/using/admin-help/topics/setting-up-and-managing-domains.md)
+1. After you install and configure your AEM forms environment with document security, set up all appropriate domains in User Management. <!-- Fix broken link (See Setting up and managing domains) -->
 
    ***note**: Creating domains must be done before any policies can be created.*
 
