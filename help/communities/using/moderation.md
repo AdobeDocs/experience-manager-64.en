@@ -197,7 +197,7 @@ Status limits the referenced UGC displayed to posts of the selected status, whic
 >
 >If only the Not Answered status is selected, then the moderator will see all the content (for all content types) except the answered questions. It is so because the property responsible for the Answered Question does not exist in the case of not-answered questions and other content such as forum topic, blog article, or comments.
 
-![](assets/statuses-1.png)
+![](assets/statuses.png)
 
 #### Flagging {#flagging}
 
