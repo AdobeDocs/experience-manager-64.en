@@ -14,7 +14,7 @@ The installation of Feature Pack 18912 is optional. Feature Pack 18912 lets you 
 
 When installing this feature pack, you must also create a service user and provide that information to Adobe support.
 
-See also [Configuring Dynamic Media - Scene7 mode](config-dynamic-fp-14410.md).
+See also [Configuring Dynamic Media - Scene7 mode](https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic-fp-14410.html).
 
 **To install feature pack 18912**,
 
