@@ -216,7 +216,7 @@ Some of the key highlights of AEM 6.4.4.0 are:
 
 >[!NOTE]
 >
->AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on](../release-notes/sp-release-notes.md#main-pars-title-850454434) and [Install AEM Forms JEE installer](../release-notes/sp-release-notes.md#forms-jee-installer).
+>AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on](../release-notes/sp-release-notes.md#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](../release-notes/sp-release-notes.md#forms-jee-installer).
 
 The key highlights for AEM 6.4.4.0 forms are:
 
@@ -1563,7 +1563,7 @@ List of Content Packages included in AEM 6.4.4.0
 * [AEM product page](https://www.adobe.com/solutions/web-experience-management.html)
 * [AEM developer support](https://docs.adobe.com/content/ddc/en.html)
 * [AEM 6.4 documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Subscribe](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) to [Adobe Priority Product Updates](https://marketing.adobe.com/resources/help/en_US/whatsnew/)
+* Subscribe to [Adobe Priority Product Updates](https://www.adobe.com/subscription/priority-product-update.html)
 
 ## Restricted Sites {#restricted-sites}
 
