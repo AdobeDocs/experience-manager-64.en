@@ -15,7 +15,7 @@ discoiquuid: 7d731038-13a3-4ff9-b9f0-ec0c54b94c73
 
 Metadata is additional information about the asset that can be searched. It is automatically extracted when you upload an image. You can edit the existing metadata or add new metadata properties to existing fields (for example, when a metadata field is blank).
 
-Because companies need controlled and reliable metadata vocabularies, AEM Assets does not allow for adhoc adding of new metadata properties. Although authors cannot add new metadata fields for assets, developers can. See [Creating New Metadata Property for Assets](../../assets/using/meta-edit.md#editing-metadata-schema).
+Because companies need controlled and reliable metadata vocabularies, AEM Assets does not allow for adhoc adding of new metadata properties. Although authors cannot add new metadata fields for assets, developers can. See [Creating New Metadata Property for Assets](meta-edit.md#editing-metadata-schema).
 
 ## Editing metadata for an asset {#editing-metadata-for-an-asset}
 
@@ -45,7 +45,7 @@ XMP write-back is supported and enabled for the platforms and file formats descr
 
 ## Editing Metadata Schema {#editing-metadata-schema}
 
-For details on how to edit metadata schema, see [Editing metadata schema forms](../../assets/using/metadata-schemas.md#editing-metadata-schema-forms).
+For details on how to edit metadata schema, see [Editing metadata schema forms](metadata-schemas.md#editing-metadata-schema-forms).
 
 ## Registering a custom namespace within AEM {#registering-a-custom-namespace-within-aem}
 

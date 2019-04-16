@@ -43,7 +43,7 @@ This means that:
 >
 >* [Agility Multichannel](https://www.agilitymultichannel.com) - see [Agility PIM and AEM](https://www.agilitymultichannel.com/adobe)
 >
->* [Infield Design](https://www.infielddesign.com/technology/adobe-experience-manager/) - see [AEM eCommerce With Magento](https://www.infielddesign.com/technology/adobe-experience-manager/magento)
+>* [Infield Design](http://www.infielddesign.com/technology/adobe-experience-manager/) - see [AEM eCommerce With Magento](http://www.infielddesign.com/technology/adobe-experience-manager/magento)
 >
 
 >[!NOTE]
@@ -138,7 +138,7 @@ AEM eCommerce is implemented with an eCommerce engine:
 >
 >AEM eCommerce implemented within AEM using generic development based on JCR is:
 >
->* A standalone, AEM-native eCommerce example to illustrate use of the API. This can be used to control product data, shopping carts and checkout in conjunction with the existing data display and marketing campaigns. In this case the product database is stored in the repository native to AEM (Adobe's implementation of [JCR](https://www.day.com/day/en/products/jcr.html)).  
+>* A standalone, AEM-native eCommerce example to illustrate use of the API. This can be used to control product data, shopping carts and checkout in conjunction with the existing data display and marketing campaigns. In this case the product database is stored in the repository native to AEM (Adobe's implementation of [JCR](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/index.html)).  
 >  The standard AEM installation contains the basics of the [generic eCommerce implemention](../../../sites/administering/using/generic.md).   
 >
 
@@ -228,7 +228,7 @@ Product data can be:
 
 * maintained directly in AEM (generic).  
 * maintained in the eCommerce engine and made available in AEM.  
-  Depending on the data type it is [synchronized](#datasynchronization) as necessary, or accessed directly; for example, highly volatile and critial data such as product prices are retrieved from the ecommerce engine (e.g. hybris) on every page request to ensure they are always up-to-date.
+  Depending on the data type it is [synchronized](#catalog-maintenance-data-synchronization) as necessary, or accessed directly; for example, highly volatile and critial data such as product prices are retrieved from the ecommerce engine (e.g. hybris) on every page request to ensure they are always up-to-date.
 
 In either case, when the product data has been entered/imported into AEM it can be seen from the **Products** console. Here the card and list views of a product show information such as:
 
@@ -295,7 +295,7 @@ A catalog groups product data together for both ease of management and represent
 
 AEM supports product content in multiple languages. When requesting data, the integration framework retrieves the language from the current tree (for example, `en_US` for pages under `/content/geometrixx-outdoors/en_US`).
 
-For a multi-lingual store, you can import your catalog for each language tree individually (or copy it by means of [MSM](/content/docs/en/aem/6-3/administer/sites/multi-site-manager.md)).
+For a multi-lingual store, you can import your catalog for each language tree individually (or copy it by means of [MSM](../../../sites/administering/using/msm.md)).
 
 #### Catalogs for Multiple Brands {#catalogs-for-multiple-brands}
 
@@ -539,8 +539,8 @@ Promotions are not usually maintained by product information managers, but by ma
 
 In AEM the promotions are also integrated into the [Campaign Management](../../../sites/authoring/using/campaigns.md):
 
-* a [campaign](../../../sites/authoring/using/campaigns.md#creatinganewcampaign) specifies the on/off times
-* [experiences](../../../sites/authoring/using/campaigns.md#creatinganewexperience) *within* the campaign are used to group assets (teaserpages, promotions, etc) according to the audience segment they correspond to
+* a [campaign](../../../sites/authoring/using/campaigns.md) specifies the on/off times
+* [experiences](../../../sites/authoring/using/campaigns.md) *within* the campaign are used to group assets (teaserpages, promotions, etc) according to the audience segment they correspond to
 
 A promotion can be held either in an experience or directly in the campaign:
 
@@ -821,7 +821,7 @@ The order is confirmed on screen and can be tracked with the [order tracking](#o
 
 ![](assets/chlimage_1-181.png)
 
-Since AEM uses standard pages for products, you can use the [standard search component](/content/docs/en/aem/6-3/author/page-authoring/default-components/editmode.md#search) to create a search page.
+Since AEM uses standard pages for products, you can use the standard search component to create a search page.
 
 If you require a more thorough implementation, you can either:
 

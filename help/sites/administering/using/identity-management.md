@@ -46,7 +46,7 @@ Additional functionality can be configured or developed:
 
 ## Registration Forms {#registration-forms}
 
-A [form](../../../sites/authoring/using/default-components.md#formcomponent) can be used to collect the registration information, then generate the new account and profile.
+A form can be used to collect the registration information, then generate the new account and profile.
 
 For example, users can request a new profile, using the Geometrixx page  
 `http://localhost:4502/content/geometrixx-outdoors/en/user/register.html`
@@ -177,7 +177,7 @@ A workflow is needed to implement the actions related to the states. For example
 
 ## Profiles and User Accounts {#profiles-and-user-accounts}
 
-Profiles are stored in the Content Repository as part of the the [user account](/sites/administering/using/security-landing.md#usersandgroupsinaem).
+Profiles are stored in the Content Repository as part of the the [user account](../../../sites/administering/using/user-group-ac-admin.md).
 
 The profile can be found under `/home/users/geometrixx`:
 

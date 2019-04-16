@@ -27,7 +27,7 @@ For example, suppose you want to present images of caps with different color bil
 
 >[!NOTE]
 >
->For information on the Assets user interface, see [Managing assets with the Touch UI](../../assets/using/managing-assets-touch-ui.md).
+>For information on the Assets user interface, see [Managing assets with the Touch UI](managing-assets-touch-ui.md).
 
 ## Quick Start: Image Sets {#quick-start-image-sets}
 
@@ -47,40 +47,40 @@ To get you up and running quickly:
 
    See [Preparing Image Set assets for upload and Uploading your files](#uploading-assets-in-image-sets).
 
-   See [Working with Selectors.](../../assets/using/working-with-selectors.md)
+   See [Working with Selectors.](working-with-selectors.md)
 
-1. Add [Image Set Viewer presets](../../assets/using/managing-viewer-presets.md), as needed.
+1. Add [Image Set Viewer presets](managing-viewer-presets.md), as needed.
 
    Administrators can create or modify Image Set Viewer Presets. To see your image set with a viewer preset, select the image set, and in the left-rail drop-down menu, select **Viewers**.
 
    See **Tools** &gt; **Assets** &gt; **Viewer Presets** to create or edit viewer presets.
 
-1. (Optional) [Viewing Image Sets](../../assets/using/image-sets.md#viewing-image-sets) that were created using batch set presets. 
-1. [Preview Image Sets.](../../assets/using/previewing-assets.md)
+1. (Optional) [Viewing Image Sets](image-sets.md#viewing-image-sets) that were created using batch set presets. 
+1. [Preview Image Sets.](previewing-assets.md)
 
    Select the Image Set and you can preview it. Click the thumbnail icons to examine your Image Set in the selected Viewer. You can choose different viewers from the **Viewers** menu, available from the left rail drop-down menu.
 
-1. [Publish Image Sets.](../../assets/using/publishing-dynamicmedia-assets.md)
+1. [Publish Image Sets.](publishing-dynamicmedia-assets.md)
 
-   Publishing an Image Set activates the URL and Embed string. In addition, you must [publish any custom viewer preset](../../assets/using/managing-viewer-presets.md) that you have created. Out-of-the box viewer presets are already published.
+   Publishing an Image Set activates the URL and Embed string. In addition, you must [publish any custom viewer preset](managing-viewer-presets.md) that you have created. Out-of-the box viewer presets are already published.
 
-1. [Link URLs to your Web Application](../../assets/using/linking-urls-to-yourwebapplication.md) or [Embed the Video or Image Viewer](../../assets/using/embed-code.md).
+1. [Link URLs to your Web Application](linking-urls-to-yourwebapplication.md) or [Embed the Video or Image Viewer](embed-code.md).
 
    AEM Assets creates URL calls for Image Sets and activates them after you publish the image sets. You can copy these URLs when you preview assets. Alternatively, you can embed them on your web site.
 
    Select the Image Set, then in the left rail drop-down menu, select **Viewers**.
 
-   See [Linking an Image Set to a web page](../../assets/using/linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](../../assets/using/embed-code.md).
+   See [Linking an Image Set to a web page](linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](embed-code.md).
 
-To edit Image Sets, see [editing Image Sets.](#editing-image-sets) In addition, you can view and edit [Image Set properties](../../assets/using/managing-assets-touch-ui.md#editing-properties).
+To edit Image Sets, see [editing Image Sets.](#editing-image-sets) In addition, you can view and edit [Image Set properties](managing-assets-touch-ui.md#editing-properties).
 
-If you have issues creating sets, see Images and Sets in [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md#images-and-sets).
+If you have issues creating sets, see Images and Sets in [Troubleshooting Dynamic Media - Scene7 mode](troubleshoot-dms7.md#images-and-sets).
 
 ## Uploading Assets in Image Sets {#uploading-assets-in-image-sets}
 
 Start by uploading the images for your Image Sets. Because users can zoom on images in the Image Set Viewer, take zooming into account when you choose images. Make sure that the images are least 2000 pixels in the largest dimension. Image Sets supports many image file formats, but lossless TIFF, PNG, and EPS images are recommended.
 
-You can upload images for Image Sets as you would [upload any other asset in Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
+You can upload images for Image Sets as you would [upload any other asset in Assets](managing-assets-touch-ui.md#uploading-assets).
 
 ### Preparing Image Set assets for upload {#preparing-image-set-assets-for-upload}
 
@@ -138,7 +138,7 @@ To create an Image Set:
 
    With the Asset Selector, you can search for assets by typing in a keyword and tapping or clicking **Return**. You can also apply filters to refine your search results. You can filter by path, collection, file type, and tag. Select the filter and then tap the **Filter** icon on the toolbar. Change the view by tapping the View icon and selecting **Column View**, **Card View**, or **List View**.
 
-   See [Working with Selectors.](../../assets/using/working-with-selectors.md)
+   See [Working with Selectors.](working-with-selectors.md)
 
    ![](assets/chlimage_1-342.png)
 
@@ -221,8 +221,8 @@ To edit Image Sets:
 
 ## Previewing Image Sets {#previewing-image-sets}
 
-See [Previewing assets](../../assets/using/previewing-assets.md).
+See [Previewing assets](previewing-assets.md).
 
 ## Publishing Image Sets {#publishing-image-sets}
 
-See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md).
+See [Publishing Assets](publishing-dynamicmedia-assets.md).

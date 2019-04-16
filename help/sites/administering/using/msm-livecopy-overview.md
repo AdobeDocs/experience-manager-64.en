@@ -34,7 +34,7 @@ You can open the Live Copy Overview from the:
 
 The **Live Copy Overview** can be opened from the **References** side panel of the **Sites** console:
 
-1. In the **Sites** console, [navigate to your blueprint page and select it](../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources).
+1. In the **Sites** console, [navigate to your blueprint page and select it](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
 1. Open the ** [References](../../../sites/authoring/using/basic-handling.md#references)** panel and select **Live Copies**.
 
    ![](assets/chlimage_1-359.png)

@@ -27,7 +27,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 
 >[!NOTE]
 >
->Before you share a link with users, ensure that Day CQ Mail Service is configured. An error occurs if you attempt to share a link without first [configuring Day CQ Mail Service](../../assets/using/link-sharing.md#configure-day-cq-mail-service).
+>Before you share a link with users, ensure that Day CQ Mail Service is configured. An error occurs if you attempt to share a link without first [configuring Day CQ Mail Service](link-sharing.md#configure-day-cq-mail-service).
 
 1. In the Assets user interface, select the asset to share as a link.
 1. From the toolbar, click/tap the **[!UICONTROL Share Link]** ![](assets/assets_share.png).
@@ -69,7 +69,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 
    If the user is a member of your organization, select the user's email ID from the suggested email IDs that appear in the list below the typing area. For an external user, type the complete email ID and then select it from the list.
 
-   To enable emails to be sent out to users, configure the SMTP server details in [Day CQ Mail Service](../../assets/using/link-sharing.md#configure-day-cq-mail-service).
+   To enable emails to be sent out to users, configure the SMTP server details in [Day CQ Mail Service](link-sharing.md#configure-day-cq-mail-service).
 
    ![Share links to assets directly from the Link Sharing dialog](assets/chlimage_1-543.png)
 

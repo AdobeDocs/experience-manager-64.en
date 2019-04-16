@@ -30,7 +30,7 @@ Another source of recoverable garbage is packages. Package data, like everything
 
 ## How does data store garbage collection work? {#how-does-data-store-garbage-collection-work}
 
-If the repository has been configured with an external data store, [data store garbage collection will run automatically](../../../sites/administering/using/data-store-garbage-collection.md#automating-data-store-garbage-collection) as part of the Weekly Maintenance Window. The system administrator can also [run data store garbage collection manually](#main-pars-table) on as as-needed basis. In general, it is recommended that data store garbage collection be performed periodically, but that the following factors be taken into account in planning data store garbage collections:
+If the repository has been configured with an external data store, [data store garbage collection will run automatically](../../../sites/administering/using/data-store-garbage-collection.md#automating-data-store-garbage-collection) as part of the Weekly Maintenance Window. The system administrator can also [run data store garbage collection manually](#running-data-store-garbage-collection) on as as-needed basis. In general, it is recommended that data store garbage collection be performed periodically, but that the following factors be taken into account in planning data store garbage collections:
 
 * Data store garbage collections take time and may impact performance, so they should be planned accordingly.
 * Removal of data store garbage records does not affect normal performance, so this is not a performance optimization.
@@ -130,7 +130,7 @@ This section is about manually running data store garbage collection via the JMX
 To run garbage collection:
 
 1. In the Apache Felix OSGi Management Console, highlight the **Main** tab and select **JMX** from the following menu.
-1. Next, search for and click the **Repository Manager** MBean (or go to https://host:port/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Drepository+manager%2Ctype%3DRepositoryManagement).
+1. Next, search for and click the **Repository Manager** MBean (or go to `https://<host>:<port>/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Drepository+manager%2Ctype%3DRepositoryManagement`).
 1. Click** startDataStoreGC(boolean markOnly)**.
 1. enter " `true`" for the `markOnly` parameter if required:
 

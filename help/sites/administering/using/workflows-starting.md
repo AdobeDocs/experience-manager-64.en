@@ -22,7 +22,7 @@ When administering workflows you can start them using a variety of methods:
 
 * Automatically:
 
-    * In response to node changes; [using a Launcher](#workflowlaunchers).
+    * In response to node changes; [using a Launcher](#workflows-launchers).
 
 >[!NOTE]
 >

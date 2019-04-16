@@ -25,17 +25,17 @@ For further information see the [GDPR page at the Adobe Privacy Center](https://
 
 ## Author Server {#author-server}
 
-User accounts and UGC content on the author server are covered in the [Platform GDPR documentation](../../../managing/using/gdpr-compliance.md#aemplatform).
+User accounts and UGC content on the author server are covered in the [Platform GDPR documentation](../../../managing/using/gdpr-compliance.md).
 
 ## Publish Server {#publish-server}
 
-User accounts used to authenticate visitors on the site, and UGC content on the publish server are covered in the [Platform GDPR documentation](../../../managing/using/gdpr-compliance.md#aemplatform).
+User accounts used to authenticate visitors on the site, and UGC content on the publish server are covered in the [Platform GDPR documentation](../../../managing/using/gdpr-compliance.md).
 
 By default AEM Sites components do not store form-data entered by visitors on the  publish  server. It is recommended to forward the data to a third party system, or Adobe Campaign for further processing.
 
 ## Opt-In/Opt-Out {#opt-in-opt-out}
 
-AEM has a [cookie opt-out service](/sites/developing/using/cookie-optout.html ) that can be used for managing the opt-in/opt-out for users.
+AEM has a [cookie opt-out service](../../../sites/developing/using/cookie-optout.md ) that can be used for managing the opt-in/opt-out for users.
 
 ## Enhanced Insights by Analytics {#enhanced-insights-by-analytics}
 

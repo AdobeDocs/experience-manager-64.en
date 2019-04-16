@@ -21,7 +21,7 @@ Assets Insights captures user activity details, such as the number of times an a
 
 For Assets Insights to capture usage statistics for assets from a website, you must include the embed code for the asset in the website code.
 
-To let Asset Insights display usage statistics for assets, first configure the feature to fetch reporting data from Adobe Analytics. For details, see [Configuring Asset Insights](../../assets/using/touch-ui-configuring-asset-insights.md).
+To let Asset Insights display usage statistics for assets, first configure the feature to fetch reporting data from Adobe Analytics. For details, see [Configuring Asset Insights](touch-ui-configuring-asset-insights.md).
 
 ## Viewing statistics for an asset {#viewing-statistics-for-an-asset}
 
@@ -56,7 +56,7 @@ You can view the Asset Insights scores from the metadata page.
    >
    >Unlike the data in the Solutions section, the Performance Statistics section displays the most recent data.
 
-1. To obtain the embed code for the asset that you include in websites to gets performance data, tap/click **Get Embed Code** below the asset thumbnail. For more information on how to include your Embed code in third-party web pages, see [Using Page Tracker and Embed code in web pages](../../assets/using/touch-ui-using-page-tracker.md).
+1. To obtain the embed code for the asset that you include in websites to gets performance data, tap/click **Get Embed Code** below the asset thumbnail. For more information on how to include your Embed code in third-party web pages, see [Using Page Tracker and Embed code in web pages](touch-ui-using-page-tracker.md).
 
    ![](assets/chlimage_1-303.png)
 

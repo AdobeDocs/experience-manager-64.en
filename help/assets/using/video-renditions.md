@@ -31,9 +31,9 @@ The list of video renditions are displayed in the** Renditions** panel.
 
 ![](assets/chlimage_1-479.png)
 
-To configure the proxy server for DM-encoded renditions, [configure Dynamic Media Cloud services.](../../assets/using/config-dynamic.md)
+To configure the proxy server for DM-encoded renditions, [configure Dynamic Media Cloud services.](config-dynamic.md)
 
-To generate video renditions with desired parameters, [create a corresponding video profile](../../assets/using/video-profiles.md).
+To generate video renditions with desired parameters, [create a corresponding video profile](video-profiles.md).
 
 After you configure the proxy server and create video profiles, you can include this video preset in a processing profile and apply the processing profile to a folder.
 

@@ -102,7 +102,7 @@ For the repository, use SSDs or disks with an IOPS level greater than 3Kilobyte.
 
 ## Network {#network}
 
-AEM Assets has a number of use cases that make network performance more important than on many of our AEM projects. A customer can have a fast server, but if the network connection is not large enough to support the load of the users who are uploading and downloading assets from the system, then it will still appear to be slow. There is a good methodology for determining the choke point in a user's network connection to AEM at [AEM Asset considerations for user experience, instance sizing, workflow evaluation, and network topology](../../assets/using/assets-network-considerations.md).
+AEM Assets has a number of use cases that make network performance more important than on many of our AEM projects. A customer can have a fast server, but if the network connection is not large enough to support the load of the users who are uploading and downloading assets from the system, then it will still appear to be slow. There is a good methodology for determining the choke point in a user's network connection to AEM at [AEM Asset considerations for user experience, instance sizing, workflow evaluation, and network topology](assets-network-considerations.md).
 
 ## WebDAV {#webdav}
 
@@ -142,4 +142,4 @@ It is difficult to accurately estimate the size of the TIFF file supported out-o
 
 ## Size of Assets {#size-of-assets}
 
-AEM currently lets you upload up to 2 GB of assets at a time. For more information on configuring maximum file upload sizes, see [Managing Assets](../../assets/using/managing-assets-touch-ui.md).
+AEM currently lets you upload up to 2 GB of assets at a time. For more information on configuring maximum file upload sizes, see [Managing Assets](managing-assets-touch-ui.md).

@@ -15,21 +15,21 @@ discoiquuid: 4ae76d8a-208f-4099-9f17-a94df424685e
 
 Use the Embed Code feature when you want to play the video or view an asset embedded on a web page. You copy the embed code to the clipboard so you can paste it in your web pages. Editing of the code is not permitted in the Embed Code dialog box.
 
-You embed URLs only if you are **not** using AEM as your WCM. If you are using AEM as your WCM, [you add the assets directly on your page.](../../assets/using/adding-dynamic-media-assets-to-pages.md)
+You embed URLs only if you are **not** using AEM as your WCM. If you are using AEM as your WCM, [you add the assets directly on your page.](adding-dynamic-media-assets-to-pages.md)
 
-See also [Linking URLs to your Web Application.](../../assets/using/linking-urls-to-yourwebapplication.md)
+See also [Linking URLs to your Web Application.](linking-urls-to-yourwebapplication.md)
 
-See also [Delivering Optimized Images for a Responsive Site.](../../assets/using/responsive-site.md)
+See also [Delivering Optimized Images for a Responsive Site.](responsive-site.md)
 
 >[!NOTE]
 >
 >The embed code is not available to copy until you have published the selected asset. In addition, you must also publish the viewer preset or image preset.
 >
->See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md).
+>See [Publishing Assets](publishing-dynamicmedia-assets.md).
 >
->See [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets).
+>See [Publishing Viewer Presets](managing-viewer-presets.md#publishing-viewer-presets).
 >
->See [Publishing Image Presets](../../assets/using/managing-image-presets.md#publishing-image-presets).
+>See [Publishing Image Presets](managing-image-presets.md#publishing-image-presets).
 
 To embed the video viewer or asset viewer on a web page:
 
@@ -37,11 +37,11 @@ To embed the video viewer or asset viewer on a web page:
 
    Remember that the embed code is only available to copy *after* you have first *published* the assets. In addition, the viewer preset or image preset must also be published.
 
-   See [Publishing Assets.](../../assets/using/publishing-dynamicmedia-assets.md)
+   See [Publishing Assets.](publishing-dynamicmedia-assets.md)
 
-   See [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets).
+   See [Publishing Viewer Presets](managing-viewer-presets.md#publishing-viewer-presets).
 
-   See [Publishing Image Presets](../../assets/using/managing-image-presets.md#publishing-image-presets).
+   See [Publishing Image Presets](managing-image-presets.md#publishing-image-presets).
 
 1. In the left rail, select the drop-down menu and click or tap **Viewers**. 
 1. In the left rail, click a viewer preset name. The viewer preset is applied to the asset.
@@ -53,4 +53,4 @@ To embed the video viewer or asset viewer on a web page:
 
 HTTP/2 is the new, updated web protocol that improves the way browsers and servers communicate. It provides faster transfer of information and reduces the amount of processing power that is needed. Delivery of Dynamic Media assets can now be over HTTP/2 which provides better response and load times.
 
-See [HTTP2 Delivery of Content](../../assets/using/http2.md) for complete details on getting started using HTTP/2 with your Dynamic Media account.
+See [HTTP2 Delivery of Content](http2.md) for complete details on getting started using HTTP/2 with your Dynamic Media account.

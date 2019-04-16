@@ -139,7 +139,7 @@ You must install the **AEM Integration** package in Adobe Campaign. To do this:
    >In the **serverConf.xml** file, the **allowUserPassword** attribute of the selected security zone must be set to **true** to authorize AEM to connect Adobe Campaign via login/password.
    >
    >
-   >We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the [Installation guide](https://docs.campaign.adobe.com/doc/AC6.1/en/INS_Additional_configurations__Server_side_configurations.html).
+   >We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the [Installation guide](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html).
 
    ![](assets/chlimage_1-134.png)
 
@@ -252,8 +252,8 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 >
 >If the connection fails, make sure you check the following:
 >
->* You may encounter a certificate problem when using a secure connection to an Adobe Campaign instance (https). You will have to add the Adobe Campaign instance certificate to the **cacerts **file of your AEM instance's JDK.
->* A security zone must be configured for the [aemserver operator](#configuringtheaemserveruser) in Adobe Campaign. Furthermore, in the **serverConf.xml** file, the **allowUserPassword** attribute of the security zone must be set to **true** to authorize AEM connection to Adobe Campaign using the login/password mode.
+>* You may encounter a certificate problem when using a secure connection to an Adobe Campaign instance (https). You will have to add the Adobe Campaign instance certificate to the **cacerts** file of your AEM instance's JDK.
+>* A security zone must be configured for the [aemserver operator](#connecting-aem-to-adobe-campaign) in Adobe Campaign. Furthermore, in the **serverConf.xml** file, the **allowUserPassword** attribute of the security zone must be set to **true** to authorize AEM connection to Adobe Campaign using the login/password mode.
 >
 >In addition, see [Troubleshooting your AEM/Adobe Campaign integration](../../../sites/administering/using/troubleshooting-campaignintegration.md).
 

@@ -21,9 +21,9 @@ You can optionally integrate AEM 3D with Autodesk® Maya® software to enable su
 
 When integrating with Autodesk Maya, you must install and configure Autodesk Maya, add the path to the Maya executable folder, enable Maya for ingestion and rendering, and test the integration.
 
-See [Advanced configuration settings](../../assets/using/advanced-config-3d.md).
+See [Advanced configuration settings](advanced-config-3d.md).
 
-See also [Integrating AEM 3D with AutoDesk 3ds Max](../../assets/using/integrating-aem-3d-with-autodesk-3ds-max.md).
+See also [Integrating AEM 3D with AutoDesk 3ds Max](integrating-aem-3d-with-autodesk-3ds-max.md).
 
 To integrate AEM 3D with Autodesk Maya:
 

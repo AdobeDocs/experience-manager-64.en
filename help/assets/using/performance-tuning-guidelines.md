@@ -79,7 +79,7 @@ From AEM 6.1 SP1, if you're using a `sling:osgiConfig` node for configuring this
 
 ### Shared data stores {#shared-data-stores}
 
-Implementing an S3 or Shared File Datastore can help to save disk space and increase network throughput in large-scale implementations. For more information on the pros and cons of using a shared datastore, see [Assets Sizing Guide](../../assets/using/assets-sizing-guide.md).
+Implementing an S3 or Shared File Datastore can help to save disk space and increase network throughput in large-scale implementations. For more information on the pros and cons of using a shared datastore, see [Assets Sizing Guide](assets-sizing-guide.md).
 
 ### S3 data store {#s-data-store}
 
@@ -108,7 +108,7 @@ accessKey=<snip>
 
 ## Network optimization {#network-optimization}
 
-Adobe recommends enabling HTTPS because many companies have firewalls that sniff HTTP traffic, which adversely impacts uploads and corrupts files. For large file uploads, ensure that users have wired connections to the network because a WiFi network becomes quickly saturated. For guidelines on identifying network bottlenecks, see [Assets Sizing Guide](/assets/using/assets-sizing-guide.html ). To assess network performance by analyzing network topology, see [Assets Network Considerations](../../assets/using/assets-network-considerations.md).
+Adobe recommends enabling HTTPS because many companies have firewalls that sniff HTTP traffic, which adversely impacts uploads and corrupts files. For large file uploads, ensure that users have wired connections to the network because a WiFi network becomes quickly saturated. For guidelines on identifying network bottlenecks, see [Assets Sizing Guide](assets-sizing-guide.md ). To assess network performance by analyzing network topology, see [Assets Network Considerations](assets-network-considerations.md).
 
 Primarily, your network optimization strategy depends upon the amount of bandwidth available and the load on your AEM instance. Common configuration options, including firewalls or proxies can help improve network performance. Here are some key points to bear in mind:
 
@@ -127,7 +127,7 @@ Wherever possible, set the DAM Update Asset workflow to Transient. The setting s
 >
 >By default, the DAM Update Asset workflow is set to Transient in AEM 6.3. In this case, you can skip the following procedure.
 
-1. Open [http://localhost:4502/miscadmin](/miscadmin.md) on the AEM instance you want to configure.  
+1. Open `http://localhost:4502/miscadmin` on the AEM instance you want to configure.  
 
 1. From the navigation tree, expand **[!UICONTROL Tools]** > **[!UICONTROL Workflow]** > **[!UICONTROL Models]** > **[!UICONTROL dam]**.
 1. Double-click **[!UICONTROL DAM Update Asset]**.

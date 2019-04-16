@@ -190,7 +190,7 @@ Finally, upload the **localhostprivate.der** as the Private Key and **localhost.
 
 You can also automate the SSL configuration by using the cURL tool. You can do this by posting the configuration parameters to this URL:
 
-*https://serveraddress:serverport/libs/granite/security/post/sslSetup.html*
+*https://&lt;serveraddress&gt;:&lt;serverport&gt;/libs/granite/security/post/sslSetup.html*
 
 Below are the parameters you can use in order to change the various settings in the configuration wizard:
 

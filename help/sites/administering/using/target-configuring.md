@@ -243,7 +243,7 @@ After you create a Target framework in AEM, associate your web pages with the fr
 When you associate a page with the framework, the child pages inherit the association.
 
 1. In the **Sites** console, navigate to the site that you want to configure.
-1. Using either [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions) or [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode), select **View Properties.**
+1. Using either [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions) or [selection mode](../../../sites/authoring/using/basic-handling.md), select **View Properties.**
 1. Select the **Cloud Services** tab.
 1. Tap/click **Edit**.
 1. Tap/click **Add Configuration** under **Cloud Service Configurations** and select **Adobe Target**.

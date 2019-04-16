@@ -23,24 +23,24 @@ Dynamic media serves interactive viewing experiences, including zoom, 360-degree
 
 ## What you can do with Dynamic Media {#what-you-can-do-with-dynamic-media}
 
-Dynamic Media lets you manage your assets before publishing them. How to work with assets in general is covered in detail in [Working with Digital Assets](../../assets/using/managing-assets-touch-ui.md). General topics include uploading, downloading, editing, and publishing assets; viewing and editing properties, and searching for assets.
+Dynamic Media lets you manage your assets before publishing them. How to work with assets in general is covered in detail in [Working with Digital Assets](managing-assets-touch-ui.md). General topics include uploading, downloading, editing, and publishing assets; viewing and editing properties, and searching for assets.
 
 Dynamic-Media-only features include the following:
 
-* [Carousel Banners](../../assets/using/carousel-banners.md)
-* [Image Sets](../../assets/using/image-sets.md)
-* [Interactive Images](../../assets/using/interactive-images.md)
-* [Interactive Videos](../../assets/using/interactive-videos.md)
-* [Mixed Media Sets](../../assets/using/mixed-media-sets.md)
-* [Panoramic Images](../../assets/using/panoramic-images.md)  
+* [Carousel Banners](carousel-banners.md)
+* [Image Sets](image-sets.md)
+* [Interactive Images](interactive-images.md)
+* [Interactive Videos](interactive-videos.md)
+* [Mixed Media Sets](mixed-media-sets.md)
+* [Panoramic Images](panoramic-images.md)  
 
-* [Spin Sets](../../assets/using/spin-sets.md)
-* [Video](../../assets/using/video.md)
-* [Delivering Dynamic Media Assets](../../assets/using/delivering-dynamic-media-assets.md)
-* [Managing Assets](../../assets/using/managing-assets.md)
-* [Using Quickviews to create custom pop-ups](../../assets/using/custom-pop-ups.md)
+* [Spin Sets](spin-sets.md)
+* [Video](video.md)
+* [Delivering Dynamic Media Assets](delivering-dynamic-media-assets.md)
+* [Managing Assets](managing-assets.md)
+* [Using Quickviews to create custom pop-ups](custom-pop-ups.md)
 
-See also [Setting up Dynamic Media](../../assets/using/administering-dynamic-media.md).
+See also [Setting up Dynamic Media](administering-dynamic-media.md).
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ You can tell whether Dynamic Media is turned on by the following characteristics
 * Image sets, Spin sets, Mixed media sets are available.
 * PTIFF renditions are created.
 
-When clicking on an image asset, the view of the asset is different with Dynamic Media [enabled](../../assets/using/config-dynamic.md#enabling-dynamic-media). Dynamic Media uses the on-demand HTML5 viewers.
+When clicking on an image asset, the view of the asset is different with Dynamic Media [enabled](config-dynamic.md#enabling-dynamic-media). Dynamic Media uses the on-demand HTML5 viewers.
 
 ### Dynamic Renditions {#dynamic-renditions}
 

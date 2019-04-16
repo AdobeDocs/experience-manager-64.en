@@ -21,7 +21,7 @@ The Client Context is a mechanism that provides you with certain information abo
 
 ![](assets/clientcontext_alisonparker.png)
 
-In both the [publish and author environment it shows information](#propertiesavailableintheclientcontext) about:
+In both the publish and author environment it shows information about:
 
 * The visitor; depending on your instance certain information is requested, or derived.
 * Page tags and the number of times that these tags have been accessed by the current visitor (this is shown when you move the mouse over a specific tag) .
@@ -34,7 +34,7 @@ The icons (only available in the author environment) allow you to configure the 
 ![](do-not-localize/clientcontext_icons.png)
 
 * **Edit** 
-  A new page will open allowing you to [edit, add or remove a profile property](#editingprofiledetails).  
+  A new page will open allowing you to [edit, add or remove a profile property](#editing-property-details).  
 
 * **Load** 
   You can [select from a list of profiles and load the profile](#loading-a-new-user-profile) you want to test.  
@@ -84,7 +84,7 @@ When displayed in the Context Cloud, the component uses a Google API to display 
 
 **JSONP Store** A component that displays content that is dependent on your installation.
 
-The JSONP standard is a complement to JSON that allows the circumvention of the same origin policy (making it impossible for a web app to communicate with servers that are on another domain). It consists in wrapping the JSON object in a function call in order to be able load it as a <script> from the other domain (which is an allowed exception to the same origin policy).  
+The JSONP standard is a complement to JSON that allows the circumvention of the same origin policy (making it impossible for a web app to communicate with servers that are on another domain). It consists in wrapping the JSON object in a function call in order to be able load it as a from the other domain (which is an allowed exception to the same origin policy).  
   
 The JSONP Store is like any other store, but it loads information that comes from another domain without the need of having a proxy for that information on the current domain. See the example in [Storing Data in Client Context Via JSONP](../../../sites/administering/using/client-context.md#storing-data-in-client-context-via-jsonp).
 
@@ -136,7 +136,7 @@ The Client Context allows you to interactively change details:
 You can change the profile by either:
 
 * [using the load icon](#loading-a-new-visitor-profile-with-the-load-profile-icon)
-* [using the selection slider](#loadinganewvisitorprofilewiththeselectionslider)
+* [using the selection slider](#loading-a-new-user-profile-with-the-selection-slider)
 
 When finished you can [reset the profile](#resetting-the-profile-to-the-current-user).
 

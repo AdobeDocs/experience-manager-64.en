@@ -19,25 +19,25 @@ Best practices for integrating an AEM instance with Adobe Creative Cloud to stre
 
 Adobe Experience Manager (AEM) Assets is a digital asset management (DAM) solution that can integrate with Adobe Creative Cloud to help DAM users work together with creative teams, such as creative agencies, freelancers, and internal studios.
 
-You can work with Creative Cloud and AEM in multiple ways and use various methods to add approved assets to AEM. Moreover, Creative Cloud includes diverse apps and services, such as CC apps (such as Photoshop,  InDesign  and Illustrator), CC cloud services, CC Desktop App, and so on.
+You can work with Creative Cloud and AEM in multiple ways and use various methods to add approved assets to AEM. Moreover, Creative Cloud includes diverse apps and services, such as Creative Cloud apps (such as Photoshop,  InDesign  and Illustrator), Creative Cloud cloud services, Creative Cloud Desktop App, and so on.
 
 You can integrate your AEM instance with Creative Cloud in multiple ways. Following some best practices to streamline your integration and asset transfer workflows helps achieve maximum efficiency. This guide includes best practices around integrating AEM Assets with Adobe Creative Cloud, or more broadly, with the work done on  desktop  that involves assets from DAM.
 
 This document includes the following:
 
-* [Overview of integrations and summary of best practices](../../assets/using/aem-cc-integration-best-practices.md#summary-of-best-practices)
-* [Key concepts and use cases](../../assets/using/aem-cc-integration-best-practices.md#key-concepts-and-use-cases)
+* [Overview of integrations and summary of best practices](aem-cc-integration-best-practices.md#summary-of-best-practices)
+* [Key concepts and use cases](aem-cc-integration-best-practices.md#key-concepts-and-use-cases)
 
 You can also review the following best practices documents around specific types of integration in more depth:
 
-* [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices.md)
-* [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md)
+* [AEM Desktop App best practices](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html)
+* [AEM to Creative Cloud folder sharing best practices](aem-cc-folder-sharing-best-practices.md)
 
 ## Terms and definitions {#terms-and-definitions}
 
 The terms used in this document may have a different meaning in other contexts. In particular, the following terms pertaining to the digital asset lifecycle are used when referring to workflows between a creative professional's desktop and DAM:
 
-* **Work-in-progress or creative work-in-progress (WIP):** A phase in asset lifecycle where an asset undergoes multiple changes and is typically not yet ready to be shared with broader teams. 
+* **Work-in-progress or creative work-in-progress (WIP):** A phase in asset lifecycle where an asset undergoes multiple changes and is typically not yet ready to be shared with broader teams.
 * **Creative-ready assets:** Assets that are ready to be shared with a broader team, or have been  selected / approved  by the creative team for sharing with marketing or LOB teams.
 
 * **Asset approvals:** The approval process that runs for assets already uploaded to DAM, which typically includes brand approvals, legal approvals, and so on.
@@ -47,7 +47,7 @@ The terms used in this document may have a different meaning in other contexts. 
 * **Major asset  update/change :** A change to a digital asset that requires considerable work, and sometimes must be done over a longer period of time. It typically includes multiple changes. The asset must be saved multiple times while being updated. Major asset updates typically cause the asset to enter a WIP stage.
 * **DAM:** Digital asset management. In this document, it is synonymous with AEM Experience Manager Assets, unless specifically mentioned otherwise.
 * **Creative user:** A creative professional, who creates digital assets using Creative Cloud apps and services. In some cases, a creative user may be a member of a creative team who may use Creative Cloud, but does not create digital assets (like a creative director or creative team manager).
-* ** DAM user:**A typical user of a DAM system. Depending on the organization, a DAM user can be a marketing or a non-marketing user, for example a Line-of-Business (LOB) user, librarian, sales person, and so on.
+* **DAM user:** A typical user of a DAM system. Depending on the organization, a DAM user can be a marketing or a non-marketing user, for example a Line-of-Business (LOB) user, librarian, sales person, and so on.
 
 ## Summary of best practices {#summary-of-best-practices}
 
@@ -55,7 +55,7 @@ The terms used in this document may have a different meaning in other contexts. 
 
 The following types of integration are described in this guide:
 
-* **Integration 1 - [AEM Desktop App](/sites/administering/using/aem-desktop-app.md):** Linking AEM Assets with the desktop and desktop applications directly. It uses a network share that  is  mounted on the local  filesystem,  and maps assets from DAM into virtualized folders/files on the local disk share. This type of integration requires network connection on the user's desktop and direct user access to AEM (including AEM login).
+* **Integration 1 - [AEM Desktop App](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html):** Linking AEM Assets with the desktop and desktop applications directly. It uses a network share that  is  mounted on the local  filesystem,  and maps assets from DAM into virtualized folders/files on the local disk share. This type of integration requires network connection on the user's desktop and direct user access to AEM (including AEM login).
 
 * **Integration 2 - [AEM / Creative Cloud folder sharing](../../sites/administering/using/creative-cloud.md):** Sharing AEM folders with Creative Cloud file storage, to let creative users access selected assets and provide new assets back into DAM. This type of integration does not require the creative user to have access / login to AEM, only their login with Adobe ID to Creative Cloud.
 
@@ -68,8 +68,8 @@ The follow diagram depicts both types of integration and describes how they conn
 The following table provides a concise summary of when to use which solution or integration and the alternatives.
 
 * **AEM Desktop App:**When users have direct access to AEM Assets and/or require access to larger parts of the DAM, including the whole repository.
-* **AEM / CC Folder Sharing:** When users don't have direct access to AEM or only require access to a smaller number of files.
-* Alternative solutions (for example, [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share](../../assets/using/assets-finder-editor.md) components, [Link Share](../../assets/using/link-sharing.md), using [AEM Assets web UI](../../assets/using/managing-assets-touch-ui.md)): Support similar use cases and should be reviewed based on specific requirement.
+* **AEM / Creative Cloud Folder Sharing:** When users don't have direct access to AEM or only require access to a smaller number of files.
+* Alternative solutions (for example, [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share](assets-finder-editor.md) components, [Link Share](link-sharing.md), using [AEM Assets web UI](managing-assets-touch-ui.md)): Support similar use cases and should be reviewed based on specific requirement.
 
 <table> 
  <tbody> 
@@ -161,7 +161,7 @@ This is a brief summary of best practices for AEM & Creative Cloud Integration. 
 
 ### Best Practices for AEM Desktop App {#best-practices-for-aem-desktop-app}
 
-This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices.md) document for more information.
+This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Desktop App best practices](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html) document for more information.
 
 * **Understand how Desktop App works:** Linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background  
 
@@ -179,15 +179,15 @@ This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Des
     * **Replacement for network file share**: Heavy-duty DAM operations like moving large folders, large uploads, finding files are better done from the Web UI
     * **AEM Desktop App is not a full “sync” client**: Design principles and usage patterns are different than in "Sync" clients like Microsoft OneDrive or Adobe Creative Cloud Desktop sync
 
-### Best Practices for AEM / CC Folder Sharing {#best-practices-for-aem-cc-folder-sharing}
+### Best Practices for AEM / Creative Cloud Folder Sharing {#best-practices-for-aem-cc-folder-sharing}
 
-This is a brief summary of best practices for AEM to CC folder sharing. Refer to [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md) for more information.
+This is a brief summary of best practices for AEM to Creative Cloud folder sharing. Refer to [AEM to Creative Cloud folder sharing best practices](aem-cc-folder-sharing-best-practices.md) for more information.
 
-* **One-direction flow of assets:** folder sharing can be used to share assets to CC, or get new assets from CC to DAM - it won't work for modifying existing assets in DAM
+* **One-direction flow of assets:** folder sharing can be used to share assets to Creative Cloud, or get new assets from Creative Cloud to DAM - it won't work for modifying existing assets in DAM
 * **Volume considerations:** Share smaller number/sizes of files
 * **Avoid sharing deep hierarchies:** Sharing works recursively - you have better control over what is shared by sharing flat or shallow folders
-* **Separate folders for one-way sharing:** Use separate folders for final assets (AEM-&gt;CC Files) and new/updated assets (CC Files-&gt;AEM)
-* **Avoid WIP in the shared folder:** Use a dedicated WIP folder in CC Files, and copy/save finalized update back to the shared folder
+* **Separate folders for one-way sharing:** Use separate folders for final assets (AEM-&gt;Creative Cloud Files) and new/updated assets (Creative Cloud Files-&gt;AEM)
+* **Avoid WIP in the shared folder:** Use a dedicated WIP folder in Creative Cloud Files, and copy/save finalized update back to the shared folder
 * **Start new work outside of shared folder:** When a new asset reaches "creative-ready" state, copy/save the update to the shared folder
 * **Simplify sharing structure:** Sharing with all creatives might not make sense - consider sharing with creative director / manager, and let them handle sharing with the creative team (e.g, using Creative Cloud collaboration)
 
@@ -252,9 +252,9 @@ In such cases, you can leverage the AEM/Creative Cloud integration to improve th
 
 Use the following strategies to provide access to final/approved assets:
 
-* To provide access to a large number assets: Use [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), or customer’s implementation of [Asset Share](../../assets/using/assets-finder-editor.md) on AEM publish infrastructure
+* To provide access to a large number assets: Use [AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), or customer’s implementation of [Asset Share](assets-finder-editor.md) on AEM publish infrastructure
 
-* To provide access to a few assets: [AEM / Creative Cloud folder sharing](../../sites/administering/using/creative-cloud.md) can be used in addition to AEM Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in its [dedicated best practices guide](../../assets/using/aem-cc-folder-sharing-best-practices.md).
+* To provide access to a few assets: [AEM / Creative Cloud folder sharing](../../sites/administering/using/creative-cloud.md) can be used in addition to AEM Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in its [dedicated best practices guide](aem-cc-folder-sharing-best-practices.md).
 
 ### Use Cases {#use-cases}
 
@@ -324,7 +324,7 @@ Note that this description refers to uploading files operationally (e.g., every 
 
 You can leverage the following capabilities if you want to upload assets in bulk:
 
-* To upload large/hierarchical folders, use AEM Desktop App, which provides a [Folder Upload](/sites/administering/using/aem-desktop-app.md#main-pars-title-f8d7) feature in the AEM Assets Web UI. You can also upload hierarchical folder structures. Assets are uploaded in background and, therefore, it is not tied to a web browser session
+* To upload large/hierarchical folders, use AEM Desktop App, which provides a [Folder Upload](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html#bulkupload) feature. You can also upload hierarchical folder structures. Assets are uploaded in background and, therefore, it is not tied to a web browser session
 * If you want to upload a few files from a single folder, drag them directly from desktop to the Web UI or use the Create option in the AEM Assets web UI.
 
 >[!NOTE]
@@ -339,14 +339,13 @@ Avoid using AEM Desktop App to manage assets directly in the network share of AE
 
 ### Asset migration {#asset-migration}
 
-Neither AEM Desktop App nor AEM to CC folders sharing  were  built to support migration of assets from existing systems or large volumes of assets stored on servers. Due to the large volumes of assets to be ingested, and additional requirements around metadata mapping, transformation, and ingestion, migrations should be handled using different tools and approaches.
+Neither AEM Desktop App nor AEM to Creative Cloud folders sharing  were  built to support migration of assets from existing systems or large volumes of assets stored on servers. Due to the large volumes of assets to be ingested, and additional requirements around metadata mapping, transformation, and ingestion, migrations should be handled using different tools and approaches.
 
-Please refer to the [Migration Guide](../../assets/using/assets-migration-guide.md) to see how to plan and execute asset migrations.
+Please refer to the [Migration Guide](assets-migration-guide.md) to see how to plan and execute asset migrations.
 
-## Further reading {#further-reading}
+<!-- ## Further reading {#further-reading}
 
 The following documents include best practices around specific integrations in greater detail:
 
-* [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices.md)
-* [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md)
-
+* [AEM Desktop App best practices](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html)
+* [AEM to Creative Cloud folder sharing best practices](aem-cc-folder-sharing-best-practices.md) -->

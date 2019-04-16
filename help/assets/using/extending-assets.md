@@ -19,12 +19,12 @@ As an AEM developer, you can customize and extend the Asset Editor in a number o
 
 The following aspects of the functionality can be customized or enhanced:
 
-* [Extending Asset Editor](../../assets/using/asseteditorx.md)
-* [Extending Assets Search](../../assets/using/searchx.md)
-* [Processing Assets Using Media Handlers and Workflows](../../assets/using/media-handlers.md)
-* [Integrating Assets with Activity Stream](../../assets/using/extending-activity-stream.md)
-* [Assets Proxy Development](../../assets/using/proxy.md)
-* [Best Practices for Configuring ImageMagick](../../assets/using/best-practices-for-imagemagick.md)
+* [Extending Asset Editor](asseteditorx.md)
+* [Extending Assets Search](searchx.md)
+* [Processing Assets Using Media Handlers and Workflows](media-handlers.md)
+* [Integrating Assets with Activity Stream](extending-activity-stream.md)
+* [Assets Proxy Development](proxy.md)
+* [Best Practices for Configuring ImageMagick](best-practices-for-imagemagick.md)
 
 ## Customizing the Look and Feel {#customizing-the-look-and-feel}
 

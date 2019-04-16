@@ -57,7 +57,7 @@ Sensitive data such as third-party credentials are stored in encrypted form usin
 
 ## 8. Failure to Restrict URL Access {#failure-to-restrict-url-access}
 
-The repository allows the setting of [finely-grained privileges (as specified by JCR)](https://www.day.com/specs/javax.jcr/javadocs/jcr-2.0/javax/jcr/security/package-summary.html) for any given user or group at any given path, through access control entries. Access restrictions are enforced by the repository.
+The repository allows the setting of [finely-grained privileges (as specified by JCR)](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/16_Access_Control_Management.html) for any given user or group at any given path, through access control entries. Access restrictions are enforced by the repository.
 
 ## 9. Insufficient Transport Layer Protection {#insufficient-transport-layer-protection}
 

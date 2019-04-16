@@ -54,7 +54,7 @@ With these responsive grid mechanisms you can:
 
 >[!NOTE]
 >
->In an out-of-the-box installation, responsive layout has been configured for the [We.Retail reference site](../../../sites/developing/using/we-retail.md). You must still [activate the Layout Container component](#activatingthelayoutcontainerforapage) for other pages.
+>In an out-of-the-box installation, responsive layout has been configured for the [We.Retail reference site](../../../sites/developing/using/we-retail.md). You must still [activate the Layout Container component](#enable-the-layout-container-component-for-page) for other pages.
 
 ## Configuring the Responsive Emulator {#configuring-the-responsive-emulator}
 

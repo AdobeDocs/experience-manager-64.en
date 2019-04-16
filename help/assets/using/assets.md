@@ -13,35 +13,35 @@ discoiquuid: 7c851395-5f10-4311-899a-e73328f57e85
 
 # Administering Assets{#administering-assets}
 
+<!-- Update content for branding -->
+
 Assets is a digital asset management tool that is fully integrated with the AEM platform and enables your enterprise to share and distribute digital assets. Users across an organization can manage, store, and access images, videos, documents, audio clips, and rich media such as Flash files for use on the web, in print, and for digital distribution.
 
 The following activities are those that you typically perform as a digital asset administrator:
 
-* [AEM Assets vs. AEM MediaLibrary](../../assets/using/medialibrary.md)
-* [Assets Supported Formats](../../assets/using/assets-formats.md)
-* [Integrating AEM Assets with InDesign Server](../../assets/using/indesign.md)
-* [Managing Metadata for Digital Assets](../../assets/using/metadata.md)
-* [Search Facets](help/assets/using/search-facets.md)
-* [Camera Raw Support](../../assets/using/camera-raw.md)
-* [Metadata Schemas](../../assets/using/metadata-schemas.md)
-* [Profiles for Processing Metadata, Images, and Videos](../../assets/using/processing-profiles.md)
-* [XMP writeback to renditions](../../assets/using/xmp-writeback.md)
-* [Installing and Configuring Video Transcoder with FFmpeg](../../assets/using/video-transcoder.md)
-* [Watermarking](../../assets/using/watermarking.md)
-* [Asset link sharing](../../assets/using/link-sharing.md)
-* [Best Practices for Assets](../../assets/using/best-practices-for-assets.md)
-* [Detecting MIME Type of Assets Using Apache Tika](../../assets/using/detect-asset-mime-type-with-tika.md)
-* [Configuring Asset Upload Restrictions](../../assets/using/configuring-asset-upload-restrictions.md)
-* [Using PDF Rasterizer](../../assets/using/aem-pdf-rasterizer.md)
-* [Multi-tenancy for Collections, Snippets, and Snippet TemplatesAsset Templates](../../assets/using/multi-tenancy.md)
-* [Support for IPTC Metadata](../../assets/using/iptc-support.md)
-* [Imaging Transcoding Library](../../assets/using/imaging-transcoding-library.md)
-* [Serial Uploads](../../assets/using/serial-uploads.md)
-* [Digital Rights Management in Assets](../../assets/using/drm.md)
+* [AEM Assets vs. AEM MediaLibrary](medialibrary.md)
+* [Assets Supported Formats](assets-formats.md)
+* [Integrating AEM Assets with InDesign Server](indesign.md)
+* [Managing Metadata for Digital Assets](metadata.md)
+* [Search Facets](search-facets.md)
+* [Camera Raw Support](camera-raw.md)
+* [Metadata Schemas](metadata-schemas.md)
+* [Profiles for Processing Metadata, Images, and Videos](processing-profiles.md)
+* [XMP writeback to renditions](xmp-writeback.md)
+* [Installing and Configuring Video Transcoder with FFmpeg](video-transcoder.md)
+* [Watermarking](watermarking.md)
+* [Asset link sharing](link-sharing.md)
+* [Best Practices for Assets](best-practices-for-assets.md)
+* [Detecting MIME Type of Assets Using Apache Tika](detect-asset-mime-type-with-tika.md)
+* [Configuring Asset Upload Restrictions](configuring-asset-upload-restrictions.md)
+* [Using PDF Rasterizer](aem-pdf-rasterizer.md)
+* [Multi-tenancy for Collections, Snippets, and Snippet TemplatesAsset Templates](multi-tenancy.md)
+* [Support for IPTC Metadata](iptc-support.md)
+* [Imaging Transcoding Library](imaging-transcoding-library.md)
+* [Serial Uploads](serial-uploads.md)
+* [Digital Rights Management in Assets](drm.md)
 
-For supported file formats, see [Assets Supported Formats](../../assets/using/assets-formats.md).
-
-For information about extending CQ DAM, see [Customizing and Extending CQ DAM](../../assets/using/extending-assets.md). To learn how authors add assets to web pages, see [Working with Assets](/assets/using/author-assets.md).
+For supported file formats, see [Assets Supported Formats](assets-formats.md).
 
 ## What is Digital Asset Management? {#what-is-digital-asset-management}
 
@@ -60,9 +60,13 @@ Completely integrated into AEM, AEM Assets lets you do the following:
 
 AEM Assets is fully integrated with CQ WCM and functionality is available using the DAM icon:
 
+<!-- Update image for branding -->
+
 ![](assets/screen_shot_2012-04-17at15946pm.png) ![](assets/screen_shot_2012-04-17at20100pm.png)
 
 Assets managed within CQ DAM can then be accessed via the content finder of WCM:
+
+<!-- Update image for branding -->
 
 ![](assets/screen_shot_2012-04-17at20214pm.png)
 
@@ -120,8 +124,8 @@ The tasks you can perform with these preconfigured workflows:
 * generate renditions and thumbnails for the asset; including automatic resizing and cropping where necessary.
 * transcode the asset where necessary. For example, video for mobile and web usage is transcoded with 24 frames per second, download video with 30 frames per second. Audio for mobile and web usage is transcoded with 128 kbps, audio for download with 192 kbps.
 
-Of course, you can apply workflows manually as well. See [AEM Assets Media Handlers](../../assets/using/media-handlers.md)for a list of default workflows.
+Of course, you can apply workflows manually as well. See [AEM Assets Media Handlers](media-handlers.md)for a list of default workflows.
 
 ## CQ DAM vs. CQ MediaLibrary {#cq-dam-vs-cq-medialibrary}
 
-See [CQ DAM and the CQ MediaLibrary](../../assets/using/medialibrary.md) for information on the differences.
+See [CQ DAM and the CQ MediaLibrary](medialibrary.md) for information on the differences.

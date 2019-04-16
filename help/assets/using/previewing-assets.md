@@ -19,8 +19,8 @@ A viewer is a collection of various settings or "presets," such as the viewer di
 
 Besides using the dedicated Preview feature for video, spin sets, and image sets, you can also preview an asset by using viewer presets that you have created. Or, use image presets to preview renditions of images.
 
-* [Applying Image Presets](../../assets/using/image-presets.md)
-* [Applying Viewer Presets](../../assets/using/viewer-presets.md)
+* [Applying Image Presets](image-presets.md)
+* [Applying Viewer Presets](viewer-presets.md)
 
 >[!NOTE]
 >

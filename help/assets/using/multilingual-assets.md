@@ -25,10 +25,10 @@ Translating assets includes the following:
 
 1. [Connecting AEM with the translation service provider](../../sites/administering/using/tc-tic.md#connecting-to-a-translation-service-provider)
 1. [Creating translation integration framework configurations](../../sites/administering/using/tc-tic.md)
-1. [Preparing assets for translation](../../assets/using/preparing-assets-for-translation.md)
-1. [Applying translation cloud services to folders](../../assets/using/transition-cloud-services.md)
-1. [Create translation projects](../../assets/using/translation-projects.md)
+1. [Preparing assets for translation](preparing-assets-for-translation.md)
+1. [Applying translation cloud services to folders](transition-cloud-services.md)
+1. [Create translation projects](translation-projects.md)
 
 If your translation service provider does not provide a connector to integrate with AEM, use an [alternative process](../../sites/administering/using/tc-manage.md#exporting-a-translation-job).
 
-Also see, [Creating translation projects for content fragments](../../assets/using/creating-translation-projects-for-content-fragments.md).
+Also see, [Creating translation projects for content fragments](creating-translation-projects-for-content-fragments.md).

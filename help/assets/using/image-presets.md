@@ -17,11 +17,11 @@ Image Presets enable assets to dynamically deliver images at different sizes, in
 
 In addition, you can choose an image preset that is responsive (designated by the **RESS** button after you select it).
 
-This section describes how to use image presets. [Administrators can create and configure image presets](../../assets/using/managing-image-presets.md).
+This section describes how to use image presets. [Administrators can create and configure image presets](managing-image-presets.md).
 
 >[!NOTE]
 >
->Smart imaging works with your existing image presets and uses intelligence at the last millisecond of delivery to further reduce image file size based on browser or network connection speed. See [Smart Imaging](../../assets/using/imaging-faq.md) for more information.
+>Smart imaging works with your existing image presets and uses intelligence at the last millisecond of delivery to further reduce image file size based on browser or network connection speed. See [Smart Imaging](imaging-faq.md) for more information.
 
 You can apply an image preset to an image anytime you preview it. To apply an image preset:
 
@@ -34,7 +34,7 @@ You can apply an image preset to an image anytime you preview it. To apply an im
    >    
    >    * Static renditions appear in the top half of the the pane. Dynamic renditions appear in the lower half. With dynamic renditions only, you can use the URL to display the image. The **URL** button only appears if you select a dynamic rendition. The **RESS** button only appears if you select a responsive image preset.
    >    
-   >    * The system shows numerous renditions when you select **Renditions** in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasing-or-decreasing-the-number-of-image-presets-that-display).
+   >    * The system shows numerous renditions when you select **Renditions** in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of image presets that display](managing-image-presets.md#increasing-or-decreasing-the-number-of-image-presets-that-display).
    >    
    >    
    >

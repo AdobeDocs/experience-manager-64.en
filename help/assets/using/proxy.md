@@ -15,7 +15,7 @@ discoiquuid: 5332f700-0871-4ce3-945d-fc2e7b65d46e
 
 Adobe Experience Manager (AEM) Assets uses a proxy to distribute processing for certain tasks.
 
-A proxy is a specific (and sometimes separate) AEM instance that uses proxy workers as processors responsible for handling a job and creating a result. A proxy worker can be used for a wide variety of tasks. In the case of an AEM Assets proxy this can be used for loading assets for rendering within AEM Assets. For example, the [IDS proxy worker](../../assets/using/indesign.md) uses an InDesign Server to process files for use in AEM Assets.
+A proxy is a specific (and sometimes separate) AEM instance that uses proxy workers as processors responsible for handling a job and creating a result. A proxy worker can be used for a wide variety of tasks. In the case of an AEM Assets proxy this can be used for loading assets for rendering within AEM Assets. For example, the [IDS proxy worker](indesign.md) uses an InDesign Server to process files for use in AEM Assets.
 
 When the proxy is a separate AEM instance this helps reduce the load on the AEM authoring instance(s). By default, AEM Assets executes the asset processing tasks in the same JVM (externalized via Proxy) to reduce the load on the AEM authoring instance.
 
@@ -34,7 +34,7 @@ This servlet creates a sling job from the posted parameters. This is then added 
   **Result**: Adds a new job. If successful, a unique job id is returned.
 
 ```shell
-curl -u admin:admin -F":operation=job" -F"someproperty=xxxxxxxxxxxx" 
+curl -u admin:admin -F":operation=job" -F"someproperty=xxxxxxxxxxxx"
     -F"jobevent=serialized value map" http://localhost:4502/libs/dam/cloud/proxy
 ```
 
@@ -43,7 +43,7 @@ curl -u admin:admin -F":operation=job" -F"someproperty=xxxxxxxxxxxx"
   **Result**: Returns a JSON representation of the result Node as created by the job processor.
 
 ```shell
-curl -u admin:admin -F":operation=result" -F"jobid=xxxxxxxxxxxx" 
+curl -u admin:admin -F":operation=result" -F"jobid=xxxxxxxxxxxx"
     http://localhost:4502   /libs/dam/cloud/proxy
 ```
 
@@ -52,7 +52,7 @@ curl -u admin:admin -F":operation=result" -F"jobid=xxxxxxxxxxxx"
   **Result**: Returns a resource associated with the given job.
 
 ```shell
-curl -u admin:admin -F":operation=resource" -F"jobid=xxxxxxxxxxxx" 
+curl -u admin:admin -F":operation=resource" -F"jobid=xxxxxxxxxxxx"
     -F"resourcePath=something.pdf" http://localhost:4502/libs/dam/cloud/proxy
 ```
 
@@ -61,7 +61,7 @@ curl -u admin:admin -F":operation=resource" -F"jobid=xxxxxxxxxxxx"
   **Results**: Removes a job if found.
 
 ```shell
-curl -u admin:admin -F":operation=remove" -F"jobid=xxxxxxxxxxxx" 
+curl -u admin:admin -F":operation=remove" -F"jobid=xxxxxxxxxxxx"
     http://localhost:4502/libs/dam/cloud/proxy
 ```
 
@@ -75,16 +75,12 @@ A proxy worker is a processor responsible for handling a job and creating a resu
 
 ### Client API {#client-api}
 
->[!NOTE]
->
->Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.html).
-
-` [JobService](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service ( `JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
+`[JobService](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service (`JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
 
 The following is an example of API usage:
 
 ```xml
-@Reference 
+@Reference
  JobService proxyJobService;
 
  // to create a new job
@@ -122,7 +118,7 @@ for worker specific configuration details (e.g. `/etc/cloudservices/proxy/worker
 
 >[!NOTE]
 >
->See [Indesign Server Proxy Worker configuration](../../assets/using/indesign.md#configuring-the-proxy-worker-for-indesign-server) and [Cloud Services configuration](../../sites/developing/using/extending-cloud-config.md) for more information.
+>See [Indesign Server Proxy Worker configuration](indesign.md#configuring-the-proxy-worker-for-indesign-server) and [Cloud Services configuration](../../sites/developing/using/extending-cloud-config.md) for more information.
 
 The following is an example of API usage:
 
@@ -141,7 +137,7 @@ The following is an example of API usage:
 
 ### Developing a Customized Proxy Worker {#developing-a-customized-proxy-worker}
 
-The [IDS proxy worker](../../assets/using/indesign.md) is an example of a AEM Assets proxy worker that is already provided out-of-the-box to outsource the processing of Indesign assets.
+The [IDS proxy worker](indesign.md) is an example of a AEM Assets proxy worker that is already provided out-of-the-box to outsource the processing of Indesign assets.
 
 You can also develop and configure your own AEM Assets proxy worker to create a specialized worker to dispatch and outsource your AEM Assets processing tasks.
 

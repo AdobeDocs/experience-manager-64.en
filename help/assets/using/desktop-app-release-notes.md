@@ -69,7 +69,7 @@ This release extends and replaces the previous versions of the Experience Manage
 >
 >Want to start quickly?
 >
->* Install the required server-side components on your AEM server (see [Installation](../../assets/using/desktop-app-release-notes.md#main-pars-title-366479462) for details)
+>* Install the required server-side components on your AEM server (see [Installation](desktop-app-release-notes.md#main-pars-title-366479462) for details)
 >* Download the AEM Desktop App binary from [download page](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html) and install on your local machine
 >
 
@@ -92,7 +92,7 @@ The version of AEM Destkop App you are planning to install on your local machine
 
 See how to [install AEM Assets server](https://helpx.adobe.com/experience-manager/6-4/release-notes.html#InstallUpdate).
 
-See the [detailed compatibility matrix](../../assets/using/desktop-app-release-notes.md#compatibility-matrix-and-prequisites) at the end of this document to evaluate the prerequisites for your setup.
+See the [detailed compatibility matrix](desktop-app-release-notes.md#compatibility-matrix-and-prequisites) at the end of this document to evaluate the prerequisites for your setup.
 
 ## What's New in AEM Desktop App 1.9 and 1.9.1 {#what-s-new-in-aem-desktop-app-and}
 

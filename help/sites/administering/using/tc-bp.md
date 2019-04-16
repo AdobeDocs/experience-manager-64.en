@@ -49,7 +49,7 @@ Creating or expanding a global web presence can be a complex process, but with g
 
     * Some LSPs are both service and technology providers. There are also standalone technology providers who allow many LSPs to participate in their translation platforms.
     * The** AEM Translation Framework** supports integration with a variety of translation technology providers for both machine and human translation.
-    * Learn how to [integrate LSP connectors in your AEM system](../../../sites/administering/using/translation.md#main-pars-text-0) to automate content translation, or how to manually create, export and import Translation Projects for testing and in cases where there is no LSP or translation technology provider.
+    * Learn how to [integrate LSP connectors in your AEM system](../../../sites/administering/using/translation.md) to automate content translation, or how to manually create, export and import Translation Projects for testing and in cases where there is no LSP or translation technology provider.
 
 * Choose a **translation method** that best suits the content.
 

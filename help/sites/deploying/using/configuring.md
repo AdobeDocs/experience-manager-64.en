@@ -66,7 +66,7 @@ There are two UIs available for use in AEM:
 * The Touch-optimized UI   
 * The Classic UI
 
-You can configure the UI you require using [Root Mapping](../../../sites/deploying/using/osgi-configuration-settings.md#daycqrootmapping).
+You can configure the UI you require using [Root Mapping](../../../sites/deploying/using/osgi-configuration-settings.md).
 
 >[!NOTE]
 >
@@ -219,7 +219,7 @@ See [Enabling HTTP over SSL](../../../sites/deploying/using/config-ssl.md) for f
 
 A portal is a web application that provides personalization, single sign on, content integration from different sources, and hosts the presentation layer of information systems. The portlet component also lets you embed a portlet on the page. To access content provided by CQ5 WCM, the portal server can to be fitted with the CQ5 Portal Director Portlet. You can do this by installing, configuring, and adding the portlet to the portal page.
 
-See [Portal and Portlets](../../../sites/administering/using/aem-as-portal.md) for further details, in particular [Using CQ as a Portal](../../../sites/administering/using/aem-as-portal.md#usingcqasaportal) and [Installing, Configuring, and Using CQ in a Portlet](../../../sites/administering/using/aem-as-portal.md#installingconfiguringandusingcqinaportlet).
+See [Portal and Portlets](../../../sites/administering/using/aem-as-portal.md) for further details.
 
 ### Expiration of Static Objects {#expiration-of-static-objects}
 
@@ -260,7 +260,7 @@ There are several properties that control the behavior of the undo and redo comm
 
 The [Video component](../../../sites/authoring/using/default-components-foundation.md#video) allows you to place a predefined, out-of-the-box video element on your page.
 
-For proper transcoding to occur, your adminstrator must [Install FFmpeg](../../../sites/administering/using/config-video.md#installingffmpeg) separately. They can also [Configure your Video Profiles](../../../sites/administering/using/config-video.md#configuringvideoprofiles) for use with html5 elements.
+For proper transcoding to occur, your adminstrator must [Install FFmpeg](../../../sites/administering/using/config-video.md#install-ffmpeg) separately. They can also [Configure your Video Profiles](../../../sites/administering/using/config-video.md#configure-video-profiles) for use with html5 elements.
 
 ### Configuring and Customizing Reports {#configuring-and-customizing-reports}
 
@@ -284,11 +284,11 @@ Page impressions are displayed in the **Impressions** column of the classic UI s
 
 * On the publish instance:
 
-    * [Day CQ WCM Page Statistics](../../../sites/deploying/using/osgi-configuration-settings.md#daycqwcmpagestatistics)
+    * [Day CQ WCM Page Statistics](../../../sites/deploying/using/osgi-configuration-settings.md)
 
 * On the author instance:
 
-    * [Adobe Page Impressions Tracke](../../../sites/deploying/using/osgi-configuration-settings.md#adobepageimpressionstracker)r
+    * [Adobe Page Impressions Tracke](../../../sites/deploying/using/osgi-configuration-settings.md)
 
 >[!CAUTION]
 >

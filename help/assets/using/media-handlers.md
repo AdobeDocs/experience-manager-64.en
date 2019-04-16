@@ -21,7 +21,7 @@ Media handlers are services inside AEM Assets that perform specific actions on a
 
 >[!NOTE]
 >
->Please refer to the [Assets Supported Formats](../../assets/using/assets-formats.md) page for a description of all the formats supported by AEM Assets as well as features supported for each format.
+>Please refer to the [Assets Supported Formats](assets-formats.md) page for a description of all the formats supported by AEM Assets as well as features supported for each format.
 
 ## Default Media Handlers {#default-media-handlers}
 
@@ -199,7 +199,7 @@ In this section, you will create a specific Text Handler that generates thumbnai
 
 Proceed as follows:
 
-Refer to [How to Set Up the Development Environment with Eclipse](../../sites/developing/using/dev-tools.md#howto0setupthedevelopmentenvironmentwitheclipse) for installing and setting up Eclipse with a Maven plugin and for setting up the dependencies that are needed for the Maven project.
+Refer to [Development Tools](../../sites/developing/using/dev-tools.md) to install and set up Eclipse with a Maven plugin and for setting up the dependencies that are needed for the Maven project.
 
 After you perform the following procedure, when you upload a txt file into AEM, the file's metadata are extracted and two thumbnails with a watermark are generated.
 
@@ -515,8 +515,8 @@ The following conversions can be automatically run and stored within AEM Assets:
 * EPS and AI transformation using [ImageMagick](https://www.imagemagick.org/script/index.php) and [Ghostscript](https://www.ghostscript.com/)
 
 * FLV video transcoding using [FFmpeg](https://ffmpeg.org/)
-* MP3 encoding using [LAME](https://lame.sourceforge.net/)
-* Audio processing using [SOX](https://sox.sourceforge.net/)
+* MP3 encoding using [LAME](http://lame.sourceforge.net/)
+* Audio processing using [SOX](http://sox.sourceforge.net/)
 
 >[!NOTE]
 >

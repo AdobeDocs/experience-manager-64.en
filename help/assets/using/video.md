@@ -24,26 +24,26 @@ The following step-by-step workflow description is designed to help you get up a
 >Before you work with video in Dynamic Media, make sure that your AEM admininistrator has already enabled and configured Dynamic Media Cloud Services.
 >
 >* See [Configuring Dynamic Media Cloud Services in Configuring Dynamic Media - Hybrid mode.](/help/assets/using/config-dynamic.md) 
->* See [Configuring Dynamic Media - Scene7 mode](../../assets/using/config-dms7.md) and [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md)
+>* See [Configuring Dynamic Media - Scene7 mode](config-dms7.md) and [Troubleshooting Dynamic Media - Scene7 mode](troubleshoot-dms7.md)
 >
 
 1. **Upload your Dynamic Media videos** by doing the following:
 
     * Create your own video encoding profile. Or, you can simply use the predefined "Adaptive Video Encoding" profile that comes with Dynamic Media.
 
-        * [Creating a video encoding profile](../../assets/using/video-profiles.md).
+        * [Creating a video encoding profile](video-profiles.md).
         * Learn more about [Best practices for video encoding](#best-practices-for-encoding-videos).
 
     * Associate the video processing profile to one or more folders where you are going to upload your master videos.
 
-        * [Applying a video profile to folders](../../assets/using/video-profiles.md#applying-a-video-profile-to-folders).
-        * Learn more about [Best practices for organizing your digital assets for using processing profiles](../../assets/using/best-practices-for-file-management.md).
-        * Learn more about [Organizing digital assets](../../assets/using/organize-assets.md).
+        * [Applying a video profile to folders](video-profiles.md#applying-a-video-profile-to-folders).
+        * Learn more about [Best practices for organizing your digital assets for using processing profiles](best-practices-for-file-management.md).
+        * Learn more about [Organizing digital assets](organize-assets.md).
 
     * Upload your master videos to the folders. You can upload video files that are up to 20 GB each. When you add videos to the folder, they are encoded according to the video processing profile that you assigned to the folder.
 
-        * [Upload your videos](../../assets/using/managing-video-assets.md#uploading-and-previewing-video-assets).
-        * Learn more about [Supported input file formats](../../assets/using/assets-formats.md#supported-multimedia-formats).
+        * [Upload your videos](managing-video-assets.md#uploading-and-previewing-video-assets).
+        * Learn more about [Supported input file formats](assets-formats.md#supported-multimedia-formats).
 
     * Monitor how [video encoding is progressing](#monitoring-video-encoding-and-youtube-publishing-progress) either from the asset or workflow view.
 
@@ -51,58 +51,56 @@ The following step-by-step workflow description is designed to help you get up a
 
     * Organize, browse, and search video assets
 
-        * [Organizing digital assets](../../assets/using/organize-assets.md)  
-          Learn more about [Best practices for organizing your digital assets for using processing profiles](../../assets/using/best-practices-for-file-management.md)
+        * [Organizing digital assets](organize-assets.md)  
+          Learn more about [Best practices for organizing your digital assets for using processing profiles](best-practices-for-file-management.md)
         
-        * [Searching video assets](../../assets/using/search-video-assets.md) or [Searching assets](../../assets/using/managing-assets-touch-ui.md#searching-assets)
+        * [Searching video assets](search-video-assets.md) or [Searching assets](managing-assets-touch-ui.md#searching-assets)
 
     * Preview and publish video assets
 
         * View the source video and encoded renditions of the video along with its associated thumbnails:  
-          [Previewing videos](../../assets/using/managing-video-assets.md#uploading-and-previewing-video-assets) or [Previewing assets](../../assets/using/previewing-assets.md)  
-          [Viewing video renditions](../../assets/using/video-renditions.md)  
-          [Managing video renditions](../../assets/using/managing-assets-touch-ui.md#managing-renditions)
+          [Previewing videos](managing-video-assets.md#uploading-and-previewing-video-assets) or [Previewing assets](previewing-assets.md)  
+          [Viewing video renditions](video-renditions.md)  
+          [Managing video renditions](managing-assets-touch-ui.md#managing-renditions)
         
-        * [Manage viewer presets](../../assets/using/managing-viewer-presets.md)
-        * [Publishing assets](../../assets/using/publishing-dynamicmedia-assets.md)
+        * [Manage viewer presets](managing-viewer-presets.md)
+        * [Publishing assets](publishing-dynamicmedia-assets.md)
 
     * Work with video metadata
 
         * View the properties of an encoded video rendition such as frame rate, audio and video bitrate, and codec:  
-          [Viewing video rendition properties](../../assets/using/video-renditions.md) 
+          [Viewing video rendition properties](video-renditions.md) 
         
         * Edit the properties of video such as the title, description, and tags, custom metadata fields:  
-          [Editing video properties](../../assets/using/managing-assets-touch-ui.md#editing-properties)
+          [Editing video properties](managing-assets-touch-ui.md#editing-properties)
         
-        * [Managing metadata for digital assets](../../assets/using/metadata.md)
-        * [Metadata schemas](../../assets/using/metadata-schemas.md)
+        * [Managing metadata for digital assets](metadata.md)
+        * [Metadata schemas](metadata-schemas.md)
 
-    * Review, approve, and annotate videos, and maintain full version control
+    * Review, approve, and annotate videos
 
-        * [Annotating videos](../../assets/using/managing-video-assets.md#annotatingvideos) or [Annotating assets](../../assets/using/managing-assets-touch-ui.md#annotating)
+        * [Annotating videos](managing-video-assets.md#annotating-video-assets) or [Annotating assets](managing-assets-touch-ui.md#annotating)
+        * [Applying workflows to assets](assets-workflow.md) or [Starting a workflow on an asset](managing-assets-touch-ui.md#starting-a-workflow-on-an-asset)
         
-        * [Creating a version](../../assets/using/managing-assets-touch-ui.md#creatingaversion)
-        * [Applying workflows to assets](../../assets/using/assets-workflow.md) or [Starting a workflow on an asset](../../assets/using/managing-assets-touch-ui.md#starting-a-workflow-on-an-asset)
-        
-        * [Review folder assets](../../assets/using/bulk-approval.md)
+        * [Review folder assets](bulk-approval.md)
         * [Projects](../../sites/authoring/using/projects.md)
 
 1. **Publish your Dynamic Media videos** by doing one of the following:
 
     * If you are using Adobe Experience Manager as your web content management system you can add videos directly to your web pages.
 
-        * [Adding videos to your web pages](../../assets/using/adding-dynamic-media-assets-to-pages.md).
+        * [Adding videos to your web pages](adding-dynamic-media-assets-to-pages.md).
 
     * If you are using a third-party web content management system, you can link or embed videos to your web pages.
 
         * Integrate video using URL:  
-          [Linking URLs to your web application](../../assets/using/linking-urls-to-yourwebapplication.md).
+          [Linking URLs to your web application](linking-urls-to-yourwebapplication.md).
         
         * Integrate video using embed code on web page:  
-          [Embedding the video viewer on a web page](../../assets/using/embed-code.md).
+          [Embedding the video viewer on a web page](embed-code.md).
 
-    * [Publishing videos to YouTube](#videoyoutubehtml).
-    * [Generating video reports](#viewing-video-reports).   
+    * [Publishing videos to YouTube](#publishing-videos-to-youtube).
+    * [Generating video reports](#viewing-video-reports).
     
     * [Adding captions to video](#adding-captions-to-video).
 
@@ -310,8 +308,8 @@ The following table describes the recommended size, aspect ratio, and minimum bi
 
 You can obtain a file’s metadata by viewing its metadata using a video editing tool, or using an application designed for obtaining metadata. Following are instructions for using MediaInfo, a third-party application, to obtain a video file’s metadata:
 
-1. Go to this web page: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
-1. Select and download the installer for the GUI version, and follow the installation instructions.
+1. Go to this web page: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
+1. Select and download the installer for the GUI version you are using, and follow the installation instructions.
 1. After installation, either right-click the video file (Windows only) and select MediaInfo, or open MediaInfo and drag your video file into the application. You see all metadata associated with your video file, including its width, height, and fps.
 
 ### Aspect ratio {#aspect-ratio}
@@ -364,7 +362,7 @@ Bitrate is the amount of data that is encoded to make up a single second of vide
 When selecting a bitrate encoding, there are two types you can choose:
 
 * **Constant Bitrate Encoding** (CBR) - During CBR encoding, the bitrate or the number of bits per second is kept the same throughout the encoding process. CBR encoding persists the set data rate to your setting over the entire video. Also, CBR encoding does not optimize media files for quality but does save on storage space.  
-  Use CBR if your video contains a similar motion level throughout the entire video. CBR is most commonly used for streaming video content. See also [Using custom-added video encoding parameters](../../assets/using/video-profiles.md#using-custom-added-video-encoding-parameters).  
+  Use CBR if your video contains a similar motion level throughout the entire video. CBR is most commonly used for streaming video content. See also [Using custom-added video encoding parameters](video-profiles.md#using-custom-added-video-encoding-parameters).  
 
 * **Variable Bitrate Encoding** (VBR) - VBR encoding adjusts the data rate down and to the upper limit you set, based on the data required by the compressor. This means that during a VBR encoding process the bitrate of the media file dynamically increases or decreases depending on the media files bitrate needs.  
   VBR takes longer to encode but produces the most favorable results; the quality of the media file is superior. VBR is most commonly used for http progressive delivery of video content.
@@ -553,16 +551,16 @@ Publishing video assets to YouTube servers involves completing the following tas
 1. [Adding tags for publishing](#adding-tags-for-publishing)
 1. [Enabling the YouTube Publish Replication agent](#enabling-the-youtube-publish-replication-agent)
 1. [Setting up YouTube in AEM](#setting-up-youtube-in-aem)
-1. [(Optional) Automating the setting of default YouTube properties for your uploaded videos](#28optional29automatingthesettingofdefaultyoutubepropertiesforyouruploadedvideos)
+1. [(Optional) Automating the setting of default YouTube properties for your uploaded videos](#optional-automating-the-setting-of-default-youtube-properties-for-your-uploaded-videos)
 1. [Publishing videos to your YouTube channel](#publishing-videos-to-your-youtube-channel)
-1. [(Optional) Verifying the published video on YouTube](../../assets/using/video.md#optional-verifying-the-published-video-on-youtube)
+1. [(Optional) Verifying the published video on YouTube](video.md#optional-verifying-the-published-video-on-youtube)
 1. [Linking YouTube URLs to your Web Application](#linking-youtube-urls-to-your-web-application)
 
 You can also [unpublish videos to remove them from YouTube](#unpublishing-videos-to-remove-them-from-youtube).
 
 ### Configuring Google Cloud settings {#configuring-google-cloud-settings}
 
-To publish to YouTube, you need a Google account. If you have a GMAIL account then you already have a Google account. If you do not have a Google account, you can easily create one. You need the account because you need credentials to publish video assets to YouTube. If you have an account already created, then skip this task and proceed to [Adding one or more channels to YouTube](#addingoneormorechannelstoyoutube).
+To publish to YouTube, you need a Google account. If you have a GMAIL account then you already have a Google account. If you do not have a Google account, you can easily create one. You need the account because you need credentials to publish video assets to YouTube. If you have an account already created, then skip this task and proceed to [Creating a YouTube channel](#creating-a-youtube-channel).
 
 >[!NOTE]
 >
@@ -574,21 +572,21 @@ To configure Google Cloud settings:
    [https://accounts.google.com/SignUp?service=mail](https://accounts.google.com/SignUp?service=mail)  
    If you already have a Google account, skip to the next step.
 1. Go to [https://cloud.google.com/](https://cloud.google.com/).
-1. On the Google Cloud Platform page, near the top, click **Console**. You may need **Sign in** using your Google account credentials.
-1. On the Dashboard page, click **Create Project**.
+1. On the Google Cloud Platform page, near the top, tap **Console**. You may need **Sign in** using your Google account credentials.
+1. On the Dashboard page, tap **Create Project**.
 1. In the New Project dialog box, enter in a project name.  
   
    Note that your project ID is based on your project name. As such, choose the project name carefully; it cannot be changed after it is created. Also, you will need to enter the same project ID again when you set up YouTube in Adobe Experience Manager later on. You may want to write down the project’s ID.
-1. Click **Create**.  
+1. Tap **Create**.  
 
-1. On your project’s Dashboard, in the Getting Started card, click **Enable APIs and get credentials like keys**.
-1. Near the top of the Dashboard page, click **Enable API**.
-1. On the Library page, under YouTube APIs, click **YouTube Data API**.
-1. Near the top of the YouTube Data API v3 page, click **Enable** to turn it on.
-1. To use the API, you may need credentials. If necessary, click **Create Credentials**.
+1. On your project’s Dashboard, in the Getting Started card, tap **Enable APIs and get credentials like keys**.
+1. Near the top of the Dashboard page, tap **Enable API**.
+1. On the Library page, under YouTube APIs, tap **YouTube Data API**.
+1. Near the top of the YouTube Data API v3 page, tap **Enable** to turn it on.
+1. To use the API, you may need credentials. If necessary, tap **Create Credentials**.
 1. From the **Where will you be calling the API from?** drop-down list, select **Web Server (e.g. node.js, Tomcat)**.
 1. Under **What data will you be accessing?** select **User data**.
-1. Click **What credentials do I need?** button.
+1. Tap **What credentials do I need?** button.
 1. Under the **Create an OAuth 2.0 client ID** heading, enter a unique name.
 1. In the text field under the **Authorized Javascript origins** heading, enter the following path, substituting your own domain and port number in the path, then press Enter to add the path to the list:  
   
@@ -606,19 +604,19 @@ To configure Google Cloud settings:
 
    **Note**: The path example above is intended for illustration purposes only.
 
-1. Click **Create client ID**.
+1. Tap **Create client ID**.
 1. On the Credentials page, under the **Set up the OAuth 2.0 consent screen** heading, select the Gmail address that you are currently using.
 1. In the text field under the **Product name shown to users** heading, enter what you want to show on the consent screen.
 
    The consent screen is displayed to the AEM administrator when they authenticate to YouTube; AEM will contact YouTube for permission.
 
-1. Click **Continue**.
-1. Under the **Download credentials** heading, click **Download**.
+1. Tap **Continue**.
+1. Under the **Download credentials** heading, tap **Download**.
 1. Save the `client_id.json` file.
 
    You will need this downloaded json file when you set up YouTube in Adobe Experience Manager later on.
 
-1. Click **Done**.
+1. Tap **Done**.
 
    Now you will create a YouTube channel.
 
@@ -633,10 +631,10 @@ Publishing videos to YouTube requires that you have one or more channels. If you
 To create a YouTube channel:
 
 1. Go to [https://www.youtube.com](https://www.youtube.com/) and sign in using your Google account credentials.
-1. In the upper-right corner of the YouTube page, click your profile picture (may also appear as a letter within a solid colored circle), then click **YouTube settings** (round gear icon).
-1. On the Overview page, under the Additional Features heading, click **See all my channels or create a new channel**.
-1. On the Channels page, click **Create a new channel**.
-1. On the Brand Account page, in the Brand Account Name field, enter a business name or any other channel name you choose where you want to publish your video assets, then click **Create**.
+1. In the upper-right corner of the YouTube page, tap your profile picture (may also appear as a letter within a solid colored circle), then tap **YouTube settings** (round gear icon).
+1. On the Overview page, under the Additional Features heading, tap **See all my channels or create a new channel**.
+1. On the Channels page, tap **Create a new channel**.
+1. On the Brand Account page, in the Brand Account Name field, enter a business name or any other channel name you choose where you want to publish your video assets, then tap **Create**.
 
    Remember the name you enter here because you will need to enter it again when you setup YouTube in AEM.
 
@@ -652,20 +650,20 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 
 ### Enabling the YouTube Publish replication agent {#enabling-the-youtube-publish-replication-agent}
 
-1. In the upper-left corner of AEM, click the AEM logo, then in the left rail, click **Tools** &gt; **Deployment** &gt; **Replication** &gt; **Agents on Author**.
-1. On the Agents of Author page, click **YouTube Publish (youtube)**.
-1. On the toolbar, to the right of Settings, click **Edit**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** &gt; **Deployment** &gt; **Replication** &gt; **Agents on Author**.
+1. On the Agents of Author page, tap **YouTube Publish (youtube)**.
+1. On the toolbar, to the right of Settings, tap **Edit**.
 1. Select the **Enabled** checkbox to turn on the replication agent.
-1. Click **OK**.
+1. tap **OK**.
 
    Now you will set up YouTube in AEM.
 
 ### Setting up YouTube in AEM {#setting-up-youtube-in-aem}
 
 1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Deployment** &gt; **Cloud Services**.
-1. Under the Third Party Services heading, under YouTube, click **Configure now**.
+1. Under the Third Party Services heading, under YouTube, tap **Configure now**.
 1. In the Create Configuration dialog box, enter a title (mandatory) and name (optional) in the respective fields.
-1. Click **Create**.
+1. Tap **Create**.
 1. In the YouTube Account Settings dialog box, in the **Application Name** field, enter the Google Project ID.
 
    You specified the project ID when you initially configured Google Cloud settings earlier.  
@@ -674,33 +672,33 @@ Or, if you intend to use the default tags in AEM, you can skip this task and go 
 1. Using a plain text editor, open the JSON file that you downloaded and saved earlier in the task Configuring Google Cloud settings.
 1. Select and copy the entire JSON text.
 1. Return to the YouTube Account Settings dialog box. In the **JSON Config** field, paste the JSON text.
-1. Click **OK**.
+1. Tap **OK**.
 
    You will now setup YouTube channels in AEM.
 
-1. To the right of **Available Channels**, click **+** (plus sign icon).
-1. In the YouTube Channel Settings dialog box, in the Title field, enter the name of the channel that you created in the task **Adding one or more channels to YouTube** earlier.
+1. To the right of **Available Channels**, tap **+** (plus sign icon).
+1. In the YouTube Channel Settings dialog box, in the Title field, enter the name of the channel that you created in the task **Creating a YouTube channel** earlier.
 
    You can optionally add a description, if desired.
 
-1. Click **OK**.
+1. Tap **OK**.
 1. YouTube/Google authentication is displayed. If you are not already logged into the Google Cloud account, then skip this step.
 
     * Enter the Google username and password associated with the Google Project ID and the JSON text above.
     * Depending on how many channels your account has you see two or more items. Select a channel. Do not select the e-mail address.
     * On the next page, tap **Accept** to allow access to this channel.
 
-1. Click **Allow**.
+1. Tap **Allow**.
 
    You will now setup tags for publishing.
 
-1. **Setting up tags for publishing** - On the Cloud Services &gt; YouTube page, click the pencil icon to edit the list of tags that you want to use.
-1. Click the drop-down list icon (upside-down caret) to display the list of available tags in AEM.
-1. Click one or more tags to add them.
+1. **Setting up tags for publishing** - On the Cloud Services &gt; YouTube page, tap the pencil icon to edit the list of tags that you want to use.
+1. Tap the drop-down list icon (upside-down caret) to display the list of available tags in AEM.
+1. Tap one or more tags to add them.
 
-   To delete a tag you have added, select the tag, and click **X**.
+   To delete a tag you have added, select the tag, and tap **X**.
 
-1. When you are finished adding the tags you want, click **OK**.   
+1. When you are finished adding the tags you want, tap **OK**.   
    Now you publish videos to your YouTube channel.
 
 ### (Optional) Automating the setting of default YouTube properties for your uploaded videos {#optional-automating-the-setting-of-default-youtube-properties-for-your-uploaded-videos}
@@ -711,11 +709,11 @@ To create the metadata processing profile, you are first going to copy values fr
 
 To automate the setting of default YouTube properties for your uploaded videos:
 
-1. In the upper-left corner of AEM, click the AEM logo, then in the left rail, click **Tools** (hammer icon) &gt; **Assets** &gt; **Metadata Schemas**.
-1. Click **default**. (Do not add a checkmark to the selection box to the left of "default".)
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Assets** &gt; **Metadata Schemas**.
+1. Tap **default**. (Do not add a checkmark to the selection box to the left of "default".)
 1. On the **default** page, check the box to the left of **video**, then tap **Edit**.
-1. On the Metadata Schema Editor page, click the **Advanced** tab.
-1. Under the YouTube Publishing heading, click **YouTube Category**. (Do not click the YouTube Category drop-down list.)
+1. On the Metadata Schema Editor page, tap the **Advanced** tab.
+1. Under the YouTube Publishing heading, tap **YouTube Category**. (Do not tap the YouTube Category drop-down list.)
 1. On the right side of the page, under the **Settings** tab, do the following:
 
     * In the **Field Label** text field, select and copy the value.  
@@ -727,7 +725,7 @@ To automate the setting of default YouTube properties for your uploaded videos:
     * Under **Choices**, select and copy the default value that you want to use (such as People & Blogs or Science & Technology).  
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
-1. Under the YouTube Publishing heading, click **YouTube Privacy**. (Do not click the YouTube Privacy drop-down list.)
+1. Under the YouTube Publishing heading, tap **YouTube Privacy**. (Do not tap the YouTube Privacy drop-down list.)
 1. On the right side of the page, under the **Settings** tab, do the following:
 
     * In the **Field Label** text field, select and copy the value.  
@@ -739,37 +737,37 @@ To automate the setting of default YouTube properties for your uploaded videos:
     * Under **Choices**, select and copy the default value that you want to use. Notice that the Choices are grouped in pairs of two. The bottom field in the pair is the default value that you want to copy, such as public, unlisted, or private.  
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
-1. Near the upper-right corner of the Metadata Schema Editor page, click **Cancel**.
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, click **Tools** (hammer icon) &gt; **Assets** &gt; **Metadata Profiles**.  
+1. Near the upper-right corner of the Metadata Schema Editor page, tap **Cancel**.
+1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools** (hammer icon) &gt; **Assets** &gt; **Metadata Profiles**.  
 
-1. On the Metadata Profiles page, near the upper-right corner of the page, click **Create**. In the Add Metadata Profile dialog box, in the **Profile title** text field, enter the name `YouTube Video`.
-1. On the Metadata Profile Editor page, click the **Advance** tab.
+1. On the Metadata Profiles page, near the upper-right corner of the page, tap **Create**. In the Add Metadata Profile dialog box, in the **Profile title** text field, enter the name `YouTube Video`.
+1. On the Metadata Profile Editor page, tap the **Advance** tab.
 1. Add the copied YouTube Publishing values to the profile by doing the following:
 
-    * On the right side of the page, click the **Build Form** tab.
+    * On the right side of the page, tap the **Build Form** tab.
     * Drag the component labeled **Section Header** to the left and drop it in the form area.
-    * Click **Field Label** to select the component.
+    * Tap **Field Label** to select the component.
     * On the right side of the page, under the Settings tab, in the Field Label text field, enter `YouTube Publishing`.
-    * Click the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Publishing** heading that you just created.
+    * Tap the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Publishing** heading that you just created.
     
-    * Click **Field Label** to select the component.
+    * Tap **Field Label** to select the component.
     * On the right side of the page, under the Settings tab, paste the YouTube Publishing values (Field Label value and Map to property value) that you copied earlier, into their respective fields on the form. Paste the Choices value into the Default Value field.
 
 1. Add the copied YouTube Privacy values to the profile by doing the following:
 
-    * On the right side of the page, click the **Build Form** tab.
+    * On the right side of the page, tap the **Build Form** tab.
     * Drag the component labeled **Section Header** to the left and drop it in the form area.
-    * Click **Field Label** to select the component.
+    * Tap **Field Label** to select the component.
     * On the right side of the page, under the Settings tab, in the Field Label text field, enter `YouTube Privacy`.
-    * Click the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Privacy** heading you just created.
+    * Tap the **Build Form** tab, then drag the component labeled **Single Line Text** and drop it below the **YouTube Privacy** heading you just created.
     
-    * Click **Field Label** to select the component.
+    * Tap **Field Label** to select the component.
     * On the right side of the page, under the **Settings** tab, paste the YouTube Publishing values (Field Label value and Map to property value) that you copied earlier, into their respective fields on the form. Paste the Choices value into the Default Value field.
 
 1. Near the upper-right corner of the page, tap **Save**.
 1. Apply the YouTube Publishing metadata profile to the folders where you are going to upload videos. You will need to have both the Metadata Profile and the Video Profile set.
 
-   See [Metadata Profiles](../../assets/using/metadata-profiles.md) and [Video Profiles](../../assets/using/video-profiles.md).
+   See [Metadata Profiles](metadata-profiles.md) and [Video Profiles](video-profiles.md).
 
 ### Publishing videos to your YouTube channel {#publishing-videos-to-your-youtube-channel}
 
@@ -789,9 +787,9 @@ To publish videos to your YouTube channel:
    Regardless of the video asset that you select--such as the original source video or an encoded rendition of it--the original source video always gets uploaded.
 
 1. On the toolbar, tap **Properties**.
-1. In the Basic tab, under the Metadata heading, click **Browse** to the right of the Tags field.
+1. In the Basic tab, under the Metadata heading, tap **Browse** to the right of the Tags field.
 1. On the Select Tags page, navigate to the tags you want to use, and then select one or more tags.
-1. In the upper-right corner of the page, click the **Confirm** icon.
+1. In the upper-right corner of the page, tap the **Confirm** icon.
 1. In the upper-right corner of the video's properties page, tap **Save**.
 1. On the toolbar, tap **Publish** &gt; **Publish**.  
   
@@ -822,7 +820,7 @@ To link YouTube URLs to your web application:
    Remember that YouTube URLs are only available to copy *after* you have first *published* the video assets to YouTube.
 
 1. On the toolbar, tap **Properties**.
-1. Click the **Advanced** tab.
+1. Tap the **Advanced** tab.
 1. Under the YouTube Publishing heading, in the YouTube URL List, select and copy the URL text to your web browser to preview the asset or to add to your web content page.
 
 ### Unpublishing videos to remove them from YouTube {#unpublishing-videos-to-remove-them-from-youtube}
@@ -864,11 +862,11 @@ To monitor progress (including failed encoding/YouTube publish):
 
        ![](assets/chlimage_1-430.png)
 
-       This column does not display by default. To enable the column, select **View Settings** from the views drop-down menu, and add the **Processing Status** column and tap or click **Update**.
+       This column does not display by default. To enable the column, select **View Settings** from the views drop-down menu, and add the **Processing Status** column and tap **Update**.
 
        ![](assets/chlimage_1-431.png)
 
-1. View progress in the asset details. When you tap or click an asset, open the drop-down menu and select **Timeline**. To narrow it down to workflow activities like encoding or YouTube publishing, select **Workflows**.
+1. View progress in the asset details. When you tap an asset, open the drop-down menu and select **Timeline**. To narrow it down to workflow activities like encoding or YouTube publishing, select **Workflows**.
 
    ![](assets/chlimage_1-432.png)
 
@@ -895,7 +893,7 @@ To monitor progress (including failed encoding/YouTube publish):
 
    ![](assets/chlimage_1-433.png)
 
-   Select the instance and tap or click **Open History**.
+   Select the instance and tap **Open History**.
 
    ![](assets/chlimage_1-434.png)
 
@@ -947,7 +945,7 @@ How you configure notification depends on whether you want notifications for enc
 1. In AEM, select **Tools** &gt; **Workflow** &gt; **Models**.
 1. Select the **Publish to YouTube** workflow, then tap **Edit**. 
 1. Right-click the **YouTube Upload** workflow step, then tap **Edit**. 
-1. Click the **Arguments** tab. 
+1. Tap the **Arguments** tab. 
 1. You can select or clear the following check boxes:
 
     * Publish Start
@@ -1096,7 +1094,7 @@ To add captions or subtitles to video:
 
    For best results, use the tool in Internet Explorer 9 or above, Google Chrome, or Safari.
 
-   In the tool, in the **Enter URL of video file** field, paste the copied URL of your video file and then click **Load**. See [Obtaining a URL for an Asset](../../assets/using/linking-urls-to-yourwebapplication.md#obtainingaurlstringforanasset) to get the URL to the video file itself which you can then paste into the **Enter URL of video file field**. Internet Explorer, Chrome, or Safari can then natively play back the video.
+   In the tool, in the **Enter URL of video file** field, paste the copied URL of your video file and then tap **Load**. See [Obtaining a URL for an Asset](linking-urls-to-yourwebapplication.md#oobtaining-a-url-for-an-asset) to get the URL to the video file itself which you can then paste into the **Enter URL of video file field**. Internet Explorer, Chrome, or Safari can then natively play back the video.
 
    Now follow the onscreen instructions from the site to author and save your WebVTT file. When you have finished, copy the caption file contents and paste it into a plain text editor and save it with a .vtt filename extension.
 
@@ -1111,7 +1109,7 @@ To add captions or subtitles to video:
 
    Remember that URLs are only available to copy *after* you have first *published* the assets.
 
-   See [Publishing Assets.](../../assets/using/publishing-dynamicmedia-assets.md)
+   See [Publishing Assets.](publishing-dynamicmedia-assets.md)
 
 1. Do one of the following:
 
@@ -1129,7 +1127,7 @@ To add captions or subtitles to video:
 
 ## Adding chapter markers to video {#adding-chapter-markers-to-video}
 
-You can make your long form videos easier to watch and navigate by adding chapter markers to single videos or to Adaptive Video Sets. When a user plays the video, they can click the chapter markers on the video timeline (also known as the video scrubber) to easily navigate to their point of interest, or immediately jump to new new content, demonstrations, tutorials, and so on.
+You can make your long form videos easier to watch and navigate by adding chapter markers to single videos or to Adaptive Video Sets. When a user plays the video, they can tap the chapter markers on the video timeline (also known as the video scrubber) to easily navigate to their point of interest, or immediately jump to new new content, demonstrations, tutorials, and so on.
 
 >[!NOTE]
 >
@@ -1178,7 +1176,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
    Generally, you want to name the chapter VTT file the same name as the video file, and append it with chapters. By doing so, it can help you with automating the generation of the video URLs using your existing web content management system.
 1. In AEM, upload your WebVTT chapter file.
 
-   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
+   See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 1. Do one of the following:
 
@@ -1189,9 +1187,9 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
        <td> 
        <ol> 
        <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
-       <li>From the drop-down menu, then click or tap <strong>Viewers</strong>.</li> 
-       <li>In the left rail, tap or click the video viewer preset name. A preview of the video is opened in a separate page.</li> 
-       <li>In the left rail, at the bottom, click <strong>URL</strong>.</li> 
+       <li>From the drop-down menu, then tap <strong>Viewers</strong>.</li> 
+       <li>In the left rail, tap the video viewer preset name. A preview of the video is opened in a separate page.</li> 
+       <li>In the left rail, at the bottom, tap <strong>URL</strong>.</li> 
        <li>In the URL dialog box, select and copy the URL to the Clipboard, then past the URL into a simple text editor.</li> 
        <li>Append the copied URL of the video with the following syntax to associate it with the copied URL to your chapter file:<br /> <br /> <span class="code">&amp;navigation=&lt;<i>full_copied_URL_path_to_chapter_file</i>.vtt&gt;</span><br /> </li> 
       </ol> </td> 
@@ -1201,9 +1199,9 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
        <td> 
        <ol> 
        <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
-       <li>From the drop-down menu, then click or tap <strong>Viewers</strong>.</li> 
-       <li>In the left rail, tap or click the video viewer preset name. A preview of the video is opened in a separate page.</li> 
-       <li>In the left rail, at the bottom, click <strong>Embed</strong>.</li> 
+       <li>From the drop-down menu, then tap <strong>Viewers</strong>.</li> 
+       <li>In the left rail, tap the video viewer preset name. A preview of the video is opened in a separate page.</li> 
+       <li>In the left rail, at the bottom, tap <strong>Embed</strong>.</li> 
        <li>In the Embed Code dialog box, select and copy the entire code to the Clipboard, then paste it into a simple text editor.</li> 
        <li>Append the embed code of the video with the following syntax to associate it with the copied URL to your chapter file:<br /> <br /> <span class="code">videoViewer.setParam("navigation","&lt;<i>full_copied_URL_path_to_chapter_file</i>.vtt&gt;"</span></li> 
       </ol> </td> 
@@ -1213,7 +1211,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 ## About video thumbnails {#about-video-thumbnails}
 
-You can choose from one of ten thumbnail images automatically generated by Dynamic Media to add to your video. The video player displays your selected thumbnail when a video asset is used with the Dynamic Media component in the authoring environment of AEM Sites, AEM Mobile, or AEM Screens. The thumbnail serves as a static picture that best represents the contents of your entire video and further encourages users to click the Play button.
+You can choose from one of ten thumbnail images automatically generated by Dynamic Media to add to your video. The video player displays your selected thumbnail when a video asset is used with the Dynamic Media component in the authoring environment of AEM Sites, AEM Mobile, or AEM Screens. The thumbnail serves as a static picture that best represents the contents of your entire video and further encourages users to tap the Play button.
 
 Based on the total time of the video, Dynamic Media captures ten (default) thumbnail images at 1%, 11%, 21%, 31%, 41%, 51%, 61%, 71%, 81%, and 91% into the video. The ten thumbnails persist meaning that if you decide to choose a different thumbnail later on, you do not need to regenerate the series. You preview the ten thumbnail images and then select the one you want to use with your video. If you want to change to default you can use CRXDE Lite to configure the time interval that thumbnail images are generated. For example, if you only wanted to generate a series of four evenly spaced thumbnail images from your video, you can configure the interval time at 24%, 49%, 74%, and 99%.
 

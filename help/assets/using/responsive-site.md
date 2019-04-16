@@ -17,9 +17,9 @@ Use the Responsive code feature when you want to share the code for responsive s
 
 This feature makes sense to use if your website is on a third-party WCM. However, if your website is on AEM instead, an offsite image server renders the image and supplies it to the web page.
 
-See also [Embedding the Video Viewer on a Web Page.](../../assets/using/embed-code.md)
+See also [Embedding the Video Viewer on a Web Page.](embed-code.md)
 
-See also [Linking URLs to your Web Application.](../../assets/using/linking-urls-to-yourwebapplication.md)
+See also [Linking URLs to your Web Application.](linking-urls-to-yourwebapplication.md)
 
 To deliver optimized images for a responsive site:
 
@@ -49,4 +49,4 @@ To deliver optimized images for a responsive site:
 
 HTTP/2 is the new, updated web protocol that improves the way browsers and servers communicate. It provides faster transfer of information and reduces the amount of processing power that is needed. Delivery of Dynamic Media assets is supported using HTTP/2 which provides better response and load times.
 
-See [HTTP2 Delivery of Content](../../assets/using/http2.md) for complete details on getting started using HTTP/2 with your Dynamic Media account.
+See [HTTP2 Delivery of Content](http2.md) for complete details on getting started using HTTP/2 with your Dynamic Media account.

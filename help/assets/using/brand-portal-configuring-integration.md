@@ -71,7 +71,7 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
    ![](assets/bp-config.png)
 
 1. In the **AEM Assets Brand Portal Replication** dialog, specify the URL of your organization in the **Tenant URL **field. 
-1. In the **Client ID** field, paste the application ID you copied at the end of the procedure [Create an application](../../assets/using/brand-portal-configuring-integration.md#create-jwt-application). Click **OK**.
+1. In the **Client ID** field, paste the application ID you copied at the end of the procedure [Create an application](brand-portal-configuring-integration.md#create-jwt-application). Click **OK**.
 
    ![](assets/public-folder-publish.png)
 
@@ -89,12 +89,12 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
 ## Enable integration {#enable-integration}
 
-1. Display the public key using one of the following methods mentioned in the last step of the procedure [Add a new configuration to Marketing Cloud](../../assets/using/brand-portal-configuring-integration.md#create-a-new-cloud-configuration).
+1. Display the public key using one of the following methods mentioned in the last step of the procedure [Add a new configuration to Marketing Cloud](brand-portal-configuring-integration.md#create-a-new-cloud-configuration).
 
     * Click the **Display Public Key** button to display the key.
     * Open the downloaded file containing the key.
 
-1. Open the Marketing Cloud Developer Connection interface and click the application you created in [Create an application](../../assets/using/brand-portal-configuring-integration.md#create-jwt-application).
+1. Open the Marketing Cloud Developer Connection interface and click the application you created in [Create an application](brand-portal-configuring-integration.md#create-jwt-application).
 1. Paste the public key into the **Public Key** field of the configuration interface
 1. Tap/click **Update**. A message confirms that the application has been updated.
 
@@ -133,8 +133,8 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
 After replication succeeds, you can publish assets, folders, and collections to Brand Portal. For details, see:
 
-* [Publish assets and folders to Brand Portal](../../assets/using/brand-portal-publish-folder.md)
-* [Publish collections to Brand Portal](../../assets/using/brand-portal-publish-collection.md)
+* [Publish assets and folders to Brand Portal](brand-portal-publish-folder.md)
+* [Publish collections to Brand Portal](brand-portal-publish-collection.md)
 
 ## Publish assets to Brand Portal {#publish-assets-to-brand-portal}
 

@@ -39,7 +39,7 @@ To render 3D assets:
 
 1. Open a 3D asset for viewing.
 
-   See [Viewing 3D assets](../../assets/using/viewing-3d-assets.md).
+   See [Viewing 3D assets](viewing-3d-assets.md).
 
 1. From **Adobe Experience Manager**, on the **Navigation **page, tap **Assets**.
 1. Near the upper-right corner of the page, from the View drop-down list, tap **Card View**.
@@ -51,7 +51,7 @@ To render 3D assets:
 
 1. Near the upper-right corner of the asset details page, tap the Stage Selector icon (spotlight), then select a stage name with the background and lighting that you want to apply to the 3D object.
 
-   See [About the use of stages in AEM 3D](../../assets/using/about-the-use-of-stages-in-aem-3d.md).
+   See [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md).
 
    ![](assets/chlimage_1-370.png)
 
@@ -61,7 +61,7 @@ To render 3D assets:
 
    The default **Rapid Refine** renderer is always available. If the stage you selected is a native format, the corresponding third-party renderer is also made available in the list for you to select.
 
-   See [About the use of stages in AEM 3D](../../assets/using/about-the-use-of-stages-in-aem-3d.md).
+   See [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md).
 
 1. Do the following:
 

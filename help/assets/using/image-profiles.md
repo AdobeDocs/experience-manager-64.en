@@ -95,7 +95,7 @@ Sharpening is described in [Sharpening Images](https://marketing.adobe.com/resou
 
 ## Creating image profiles {#creating-image-profiles}
 
-To define advanced processing parameters for other asset types, see [Configuring Asset Processing](../../assets/using/config-dms7.md#configuring-asset-processing).
+To define advanced processing parameters for other asset types, see [Configuring Asset Processing](config-dms7.md#configuring-asset-processing).
 
 **To create image profiles**:
 
@@ -128,7 +128,7 @@ If you assigned a different image profile to a folder, the new profile overrides
 
 Folders that have a profile assigned to it are indicated in the user interface by the name of the profile appearing in the card.
 
-When you add smart crop to an existing image profile, you need to re-trigger the [DAM Update Asset workflow](../../assets/using/assets-workflow.md) if you want to generate crops for existing assets in your asset repository.
+When you add smart crop to an existing image profile, you need to re-trigger the [DAM Update Asset workflow](assets-workflow.md) if you want to generate crops for existing assets in your asset repository.
 
 You can apply image profiles to specific folders or globally to all assets.
 

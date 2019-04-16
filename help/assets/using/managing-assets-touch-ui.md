@@ -4,7 +4,7 @@ seo-title: Managing Assets with the Touch-Optimized UI
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 seo-description: Learn how to upload, manage, and edit assets using the touch-optimized user interface
 uuid: f148c913-7b44-4285-8db9-138f959c4899
-contentOwner: msm-service
+contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
@@ -19,7 +19,7 @@ This article describes how to manage and edit assets using the Adobe Experience 
 
 >[!CAUTION]
 >
->See also [Managing Content Fragments](../../assets/using/content-fragments-managing.md) assets.
+>See also [Managing Content Fragments](content-fragments-managing.md) assets.
 
 ## Uploading Assets {#uploading-assets}
 
@@ -27,9 +27,9 @@ You can upload various types of assets (including images, PDF files, RAW files, 
 
 You can choose to upload assets to folders with or without a processing profile assigned to them.
 
-For folders that have a processing profile assigned, the profile name appears on the thumbnail in the card view. In the list view, the profile name appears in the **Processing Profile** column. See [Processing Profiles](../../assets/using/processing-profiles.md).
+For folders that have a processing profile assigned, the profile name appears on the thumbnail in the card view. In the list view, the profile name appears in the **Processing Profile** column. See [Processing Profiles](processing-profiles.md).
 
-Before uploading an asset, ensure that it is in a [format](../../assets/using/assets-formats.md) that AEM Assets supports.
+Before uploading an asset, ensure that it is in a [format](assets-formats.md) that AEM Assets supports.
 
 1. In the Assets UI, navigate to the location where you want to add digital assets.
 1. To upload the assets, do one of the following:
@@ -84,7 +84,7 @@ Before uploading an asset, ensure that it is in a [format](../../assets/using/as
 
    >[!NOTE]
    >
-   >The **Duplicates Detected** dialog appears only when the Duplicate Detection feature is enabled. To enable the Duplicate Detection feature, see [Enabling Duplicate Detection](../../assets/using/duplicate-detection.md).
+   >The **Duplicates Detected** dialog appears only when the Duplicate Detection feature is enabled. To enable the Duplicate Detection feature, see [Enabling Duplicate Detection](duplicate-detection.md).
 
    ![](assets/chlimage_1-8.png)
 
@@ -242,7 +242,7 @@ Dynamic Media enables batch uploading of assets via FTP server. If you intend to
   <tr> 
    <td> </td> 
    <td>Batch Set Presets<br /> </td> 
-   <td><p>To create an Image Set, or Spin Set from the uploaded files, click the Active column for the preset you want to use. You can select more than one preset. You create the presets in the Application Setup/Batch Set Presets page of Dynamic Media Classic.</p> <p>See <a href="../../assets/using/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets" target="_blank">Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets</a> to learn more about creating batch set presets.</p> <p>See <a href="../../assets/using/managing-assets-touch-ui.md#setting-batch-set-presets-at-upload">Setting Batch Set Presets at upload</a>.</p> <p> </p> </td> 
+   <td><p>To create an Image Set, or Spin Set from the uploaded files, click the Active column for the preset you want to use. You can select more than one preset. You create the presets in the Application Setup/Batch Set Presets page of Dynamic Media Classic.</p> <p>See <a href="config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets" target="_blank">Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets</a> to learn more about creating batch set presets.</p> <p>See <a href="managing-assets-touch-ui.md#setting-batch-set-presets-at-upload">Setting Batch Set Presets at upload</a>.</p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -556,7 +556,7 @@ You can transcode a video file by choosing from a variety of video presets.
 
 If you want to automatically create an Image Set or Spin Set from uploaded images, click the Active column for the preset you want to use. You can select more than one preset.
 
-See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](../../assets/using/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets) to learn more about creating batch set presets.
+See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets) to learn more about creating batch set presets.
 
 ### Streamed uploads {#streamed-uploads}
 
@@ -568,12 +568,12 @@ If you upload numerous assets, I/O calls to the AEM server increases drastically
 
 ## Previewing Assets {#previewing-assets}
 
-See also [Previewing Dynamic Media Assets.](../../assets/using/previewing-assets.md)
+See also [Previewing Dynamic Media Assets.](previewing-assets.md)
 
 1. From the Assets UI, navigate to the location of the asset you want to preview.
 1. Tap the desired asset to open it.  
 
-1. In the preview mode, zoom options are available for [supported Image types](../../assets/using/assets-formats.md#supported-raster-image-formats) (with interactive editing).
+1. In the preview mode, zoom options are available for [supported Image types](assets-formats.md#supported-raster-image-formats) (with interactive editing).
 
    To zoom into an asset, tap/click **+** (or tap/click the magnifying glass on the asset). To zoom out, tap/click **-**. When you zoom in, you can look closely at any area of the image by panning. The **Reset Zoom** arrow brings you back to the original view.
 
@@ -599,7 +599,7 @@ See also [Previewing Dynamic Media Assets.](../../assets/using/previewing-assets
 
    >[!NOTE]
    >
-   >The layout of the Properties page and the metadata properties available depend on the underlying metadata schema. To learn how to modify the layout of the Properties page, see [Metadata Schemas](../../assets/using/metadata-schemas.md).
+   >The layout of the Properties page and the metadata properties available depend on the underlying metadata schema. To learn how to modify the layout of the Properties page, see [Metadata Schemas](metadata-schemas.md).
 
 1. To schedule a particular date/time for the activation of the asset, use the date picker beside the **On Time** field.
 
@@ -639,7 +639,7 @@ See also [Previewing Dynamic Media Assets.](../../assets/using/previewing-assets
     * Channels/devices through which the asset was used
     * Creative solutions where the asset was recently used
 
-   For more details, see [Asset Insights](../../assets/using/touch-ui-asset-insights.md).
+   For more details, see [Asset Insights](touch-ui-asset-insights.md).
 
 1. Tap/click **Save & Close**.
 1. Navigate to the Assets UI. The edited metadata properties, including title, description, ratings, and so on are displayed on the asset card in Card view and under relevant columns in the List view.
@@ -741,7 +741,7 @@ The other properties and metadata information is retained. A partial copy is not
 
    **Deleting a rendition**
 
-   Select a rendition from the **Renditions** panel, and then tap/click the **Delete Rendition **icon from the [toolbar](../../sites/authoring/using/basic-handling.md#p-actions-toolbar-p).
+   Select a rendition from the **Renditions** panel, and then tap/click the **Delete Rendition** icon from the [toolbar](../../sites/authoring/using/basic-handling.md).
 
    ![](assets/delete_renditionicon.png)
 
@@ -846,7 +846,7 @@ The following are the Export/Download options. Dynamic renditions are unique to 
   </tr> 
   <tr> 
    <td><strong>Dynamic Renditions</strong></td> 
-   <td><p>A dynamic rendition generates other renditions on-the-fly. When you select this option, you also select the renditions you want to create dynamically by selecting from the <a href="../../assets/using/image-presets.md">Image Preset</a> list.</p> <p>In addition, you can select the size and unit of measurement, format, color space, resolution, and any image modifiers (for example to invert the image)</p> </td> 
+   <td><p>A dynamic rendition generates other renditions on-the-fly. When you select this option, you also select the renditions you want to create dynamically by selecting from the <a href="image-presets.md">Image Preset</a> list.</p> <p>In addition, you can select the size and unit of measurement, format, color space, resolution, and any image modifiers (for example to invert the image)</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Email</strong></td> 
@@ -903,13 +903,13 @@ The following are the Export/Download options. Dynamic renditions are unique to 
 
 >[!NOTE]
 >
->See also [Downloading DRM assets](../../assets/using/drm.md).
+>See also [Downloading DRM assets](drm.md).
 
 ## Publishing Assets {#publishing-assets}
 
 >[!NOTE]
 >
->For more information specific to Dynamic Media, see [Publishing Dynamic Media Assets.](../../assets/using/publishing-dynamicmedia-assets.md)
+>For more information specific to Dynamic Media, see [Publishing Dynamic Media Assets.](publishing-dynamicmedia-assets.md)
 
 1. Navigate to the location of the asset(s)/folder you want to publish  
 
@@ -976,13 +976,13 @@ CUGs are an extra way to restrict access to your assets. You can also configure 
 
 ## Searching Assets {#searching-assets}
 
-Basic search is detailed in the [Search and filter](../../sites/authoring/using/search.md#search-and-filter) section. Use the Search panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the Search panel using [Search facets](help/assets/using/search-facets.md). 
+Basic search is detailed in the [Search and filter](../../sites/authoring/using/search.md#search-and-filter) section. Use the Search panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the Search panel using [Search facets](search-facets.md). 
 
 ![](assets/filters_panel.png)
 
 >[!NOTE]
 >
->For recently uploaded assets, their metadata (including titles, tags, and so on) is not immediately available in the list of suggestions that appear when you type in the Omni Search box. 
+>For recently uploaded assets, their metadata (including titles, tags, and so on) is not immediately available in the list of suggestions that appear when you type in the Omni Search box.
 >
 >This is because AEM Assets waits until the expiry of a timeout period (1 hour by default) before running a background job to index the metadata for all newly uploaded/updated assets and adding them to the list of suggestions.
 
@@ -1064,7 +1064,7 @@ The editing tools in the AEM Assets interface let you perform small editing jobs
 >* JPEG 
 >
 
-You can also add image maps using the image editor. For details, see [Adding Image Maps](../../assets/using/image-maps.md).
+You can also add image maps using the image editor. For details, see [Adding Image Maps](image-maps.md).
 
 >[!NOTE]
 >
@@ -1079,17 +1079,17 @@ The timeline lets you view various events for a selected item, such as active wo
 
    ![](assets/timeline.png)
 
-1. In the list that appears, use the **Show All **list to filter the results based on [comments](../../sites/authoring/using/basic-handling.md#main-pars-title-13), versions, workflows, and activities.
+1. In the list that appears, use the **Show All** list to filter the results based on comments, versions, workflows, and activities.
 
    ![](assets/timeline_options.png)
 
    >[!NOTE]
    >
-   >In the [Collections console](../../assets/using/managing-collections-touch-ui.md#navigating-the-collections-console), the **Show All** list provides options to view comments and workflows only. Moreover, the timeline is displayed only for top-level collections that are listed in the console. It is not displayed if you navigate inside any of the collections.
+   >In the [Collections console](managing-collections-touch-ui.md#navigating-the-collections-console), the **Show All** list provides options to view comments and workflows only. Moreover, the timeline is displayed only for top-level collections that are listed in the console. It is not displayed if you navigate inside any of the collections.
 
    >[!NOTE]
    >
-   >Timeline contains several [options specific to content fragments](../../assets/using/content-fragments-managing.md#timeline-for-content-fragments); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
+   >Timeline contains several [options specific to content fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
 
 ## Annotating {#annotating}
 
@@ -1099,12 +1099,12 @@ Video annotations are only supported on browsers with HTML5-compatible video for
 
 >[!NOTE]
 >
->For Content Fragments, [annotations are created in the editor](../../assets/using/content-fragments-variations.md#annotating-a-content-fragment); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
+>For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
 
 1. Navigate to the location of the asset to which you want to add annotations.
 1. Tap/click the **Annotate** icon from one of the following:
 
-    * [Quick actions](../../assets/using/managing-assets-touch-ui.md#quick-actions)
+    * [Quick actions](managing-assets-touch-ui.md#quick-actions)
     * From the toolbar after selecting the asset or navigating to the asset page
 
    ![](assets/chlimage_1-29.png)
@@ -1134,7 +1134,7 @@ Video annotations are only supported on browsers with HTML5-compatible video for
 
    >[!NOTE]
    >
-   >Annotations can also be added to video assets. While annotating videos, the player pauses to let you annotate on a frame. For details, see [managing video assets](../../assets/using/managing-video-assets.md).
+   >Annotations can also be added to video assets. While annotating videos, the player pauses to let you annotate on a frame. For details, see [managing video assets](managing-video-assets.md).
 
 1. To choose a different color so you can differentiate between users, click/tap the Profile icon and click/tap **My Preferences**.
 
@@ -1178,7 +1178,7 @@ To print the annotations and review status, tap/click the **Print** icon and fol
 1. Do one of the following:
 
     * To print all the annotations and the review status, skip step 3 and directly go to step 4.
-    * To print specific annotations and review status, open the [timeline](../../assets/using/managing-assets-touch-ui.md#timeline) and then go to step 3.
+    * To print specific annotations and review status, open the [timeline](managing-assets-touch-ui.md#timeline) and then go to step 3.
 
 1. To print specific annotations, select the annotations from the timeline.
 
@@ -1214,7 +1214,7 @@ To print the annotations and review status, tap/click the **Print** icon and fol
    >
    >If the asset has subassets, you can print all the subassets along with their specific page-wise annotations.
 
-   To modify the appearance of the rendered PDF file, for example the font color, size, and style, background color of the comments and statuses, open the** Annotation PDF configuration** from Configuration Manager, and modify the desired options. For example, to change the display color of the approved status, modify the color code in the corresponding field. For information around changing the font color of annotations, see [Annotating](../../assets/using/managing-assets-touch-ui.md#annotating).
+   To modify the appearance of the rendered PDF file, for example the font color, size, and style, background color of the comments and statuses, open the** Annotation PDF configuration** from Configuration Manager, and modify the desired options. For example, to change the display color of the approved status, modify the color code in the corresponding field. For information around changing the font color of annotations, see [Annotating](managing-assets-touch-ui.md#annotating).
 
    ![](assets/chlimage_1-44.png)
 
@@ -1286,21 +1286,6 @@ The versioning functionality lets you do the following:
 
 1. To view the new version, open the **Show All** list in the timeline from the asset details page or the Assets UI, and choose **Versions**.
 
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
-
-   All versions created for an asset are listed under the timeline tab. You can filter the list to show Versions, by clicking the drop arrow and selecting **Versions** from the list.
    ![](assets/versions_option.png)
 
 1. Select a specific version for the asset to preview it or enable it to appear in the Assets UI.
@@ -1365,7 +1350,7 @@ A user can have access to multiple collections. Collections are of the following
 
 * A collection that uses a **search criteria** and dynamically populates assets based on the criteria. This is called a **Smart Collection**.
 
-See [Managing Collections](../../assets/using/managing-collections-touch-ui.md) for details on collection management.
+See [Managing Collections](managing-collections-touch-ui.md) for details on collection management.
 
 >[!NOTE]
 >

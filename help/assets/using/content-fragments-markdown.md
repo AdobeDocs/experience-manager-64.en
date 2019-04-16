@@ -17,28 +17,29 @@ discoiquuid: bde54663-9050-4a5a-93cb-7cd84ac7f071
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
-When you are [authoring](../../assets/using/content-fragments-variations.md#authoring-your-content), the content fragment editor uses *markdown* syntax to allow you to easily write content:
+When you are [authoring](content-fragments-variations.md#authoring-your-content), the content fragment editor uses *markdown* syntax to allow you to easily write content:
 
-![](assets/cfm-6420-08.png)
+![markdown editor](../../assets/using/assets/cfm-6420-08.png)
 
 You can define:
-[Heading Notation](#heading-notation)
-[Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
-[Links](#links)
-[Images](#images)
-[Block Quotes](#block-quotes)
-[Lists](#lists)
-[Emphasis](#emphasis)
-[Code Blocks](#code-blocks)
-[Backslash escapes](#backslash-escapes)
+
+* [Heading Notation](../../assets/using/content-fragments-markdown.md#heading-notation)
+* [Paragraphs and Line Breaks](../../assets/using/content-fragments-markdown.md#paragraphs-and-line-breaks)
+* [Links](../../assets/using/content-fragments-markdown.md#links)
+* [Images](../../assets/using/content-fragments-markdown.md#images)
+* [Block Quotes](../../assets/using/content-fragments-markdown.md#block-quotes)
+* [Lists](../../assets/using/content-fragments-markdown.md#lists)
+* [Emphasis](../../assets/using/content-fragments-markdown.md#emphasis)
+* [Code Blocks](../../assets/using/content-fragments-markdown.md#code-blocks)
+* [Backslash escapes](../../assets/using/content-fragments-markdown.md#backslash-escapes)
 
 ## Heading Notation {#heading-notation}
 
 To create a header by placing a hash tag (#) in front of the heading. One hash tag (#) is used for an H1, two hash tags (##) for a H2 etc. You can use up to 6 hash tags. For example:
 
-`#This is an H1`
+`## This is an H2`
 
-`##This is an H2`
+`### This is an H3`
 
 `###### This is a H6`
 
@@ -68,11 +69,11 @@ These are examples of inline links:
 
 `This is [an example of an email link](emailto:myaddress@mydomain.info)`
 
-` [This link](https://example.net/) has no title attribute.`
+`[This link](https://example.net/) has no title attribute.`
 
 A reference link has the following syntax:
 
-` Hey you should [checkout][0] this [cool thing][wiki] that I [made][].`
+`Hey you should [checkout][0] this [cool thing][wiki] that I [made][].`
   
 `[0]: https://www.google.ca`  
 `[wiki]: https://www.wikipedia.org`  
@@ -80,7 +81,7 @@ A reference link has the following syntax:
 
 ## Images {#images}
 
-The syntax for images is similar to the links. You can create inline and reference links.
+The syntax for images is similar to the links. You can create inline and referenced images.
 
 For example, an inline image has the following syntax:
 
@@ -90,9 +91,9 @@ For example, an inline image has the following syntax:
 
 The syntax includes:
 
-- An exclamation mark: !;
-- followed by a set of square brackets, containing the alt attribute text for the image;
-- followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.
+* An exclamation mark: !;
+* followed by a set of square brackets, containing the alt attribute text for the image;
+* followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.
 
 A Reference-style image has the following syntax:
 
@@ -114,9 +115,9 @@ You can have nested block quotes. For example:
 
 `> This is the first level of quoting.`  
 `>`  
-`  >> This is nested blockquote.`  
+&nbsp;&nbsp;&nbsp;&nbsp;`>> This is nested blockquote.`  
 `>`  
-`>> Back to the first level.`
+`> Back to the first level.`
 
 ## Lists {#lists}
 
@@ -124,15 +125,15 @@ You can create both ordered and unordered lists.
 
 To create an unordered list, use the &#42; symbol before the items in the list. For example:
 
-*&#42; item in list  
-&#42; item in list  
-&#42; item in list*
+`* item in list`  
+`* item in list`  
+`* item in list`
 
 To create an ordered list, add the numbers, followed by a period, before each item in the list. For example:
 
-*1. First item in list.  
-1. Second item in list.  
-2. Third item in list.*
+`1. First item in list.`  
+`2. Second item in list.`  
+`3. Third item in list.`
 
 ## Emphasis {#emphasis}
 
@@ -158,7 +159,7 @@ To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-forma
 
 For example:
 
-`Use the printf() function.`
+``Use the `printf()` function.``
 
 ## Code Blocks {#code-blocks}
 
@@ -166,7 +167,7 @@ Code blocks are typically used to illustrate source code. You can create code bl
 
 `This is a normal paragraph.`
 
-`This is a code block.`
+&nbsp;&nbsp;&nbsp;&nbsp;`This is a code block.`
 
 ## Backslash escapes {#backslash-escapes}
 

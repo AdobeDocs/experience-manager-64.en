@@ -62,7 +62,7 @@ The best practice is to copy the existing component to your project folder in** 
 
 ## Customizing Actions {#customizing-actions}
 
-AEM Assets comes with a set of predefined actions that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](../../assets/using/assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
+AEM Assets comes with a set of predefined actions that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
 
 In addition to using pre-existing actions, AEM developers can also create their own actions.
 

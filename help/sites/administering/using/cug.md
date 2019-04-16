@@ -22,7 +22,7 @@ To configure such a area within your website you:
 * [apply this group to the required pages](#applying-your-closed-user-group-to-content-pages) and select (or create) the login page for use by the members of the CUG; also specified when applying a CUG to a content page.  
 
 * [create a link, of some form, to at least one page within the protected area](#linking-to-the-realm), otherwise it will not be visible.
-* [configure the Dispatcher](#configurethedispatcher) if in use.
+* [configure the Dispatcher](#configure-dispatcher-for-cugs) if in use.
 
 >[!CAUTION]
 >

@@ -26,7 +26,7 @@ Translating content involves the following steps:
 1. [Associate the pages of your language master](../../../sites/administering/using/tc-tic.md#configuring-pages-for-translation) with the translation service and framework configurations.
 1. [Identify the type of content](../../../sites/administering/using/tc-rules.md) to translate.
 1. [Prepare the content for translation](../../../sites/administering/using/tc-prep.md) by authoring the language master and creating the root pages of language copies.
-1. [Create translation projects](../../../sites/administering/using/tc-manage.md#main-pars-title-4) to gather the content to translate and to prepare the translation process.
+1. [Create translation projects](../../../sites/administering/using/tc-manage.md) to gather the content to translate and to prepare the translation process.
 1. Use the translation projects to [manage the content translation process](../../../sites/administering/using/tc-manage.md).
 
 If your translation service provider does not provide a connector to integration with AEM, AEM supports the manual extraction and re-insertion of translation content in XML format.

@@ -37,7 +37,7 @@ To open the **Collections** console:
 
 ## Creating a collection {#creating-a-collection}
 
-You can create a collection either with [static references](#creating-a-collection-with-static-references) or based on a [search criteria-based filter](#creatingacollectionwithsearchcriteriabasedfilteralsocalledsmartcollection). You can also create a collection from a lightbox.
+You can create a collection either with [static references](#creating-a-collection-with-static-references) or based on a [search criteria-based filter](#creating-a-smart-collection). You can also create a collection from a lightbox.
 
 ### Creating a collection with static references {#creating-a-collection-with-static-references}
 
@@ -59,7 +59,7 @@ You can create a collection with static references, for example a collection wit
    >
    >AEM Assets lets you create review tasks for a collection similar to the way you create review tasks for an assets folder.
 
-   To add assets to the collection, navigate to the Assets user interface. For details, see [Adding assets to a collection](../../assets/using/managing-collections-touch-ui.md#adding-assets-to-a-collection).
+   To add assets to the collection, navigate to the Assets user interface. For details, see [Adding assets to a collection](managing-collections-touch-ui.md#adding-assets-to-a-collection).
 
 ### Create collections using Dropzone {#create-collections-using-dropzone}
 
@@ -278,7 +278,7 @@ Saved searches are created when you create a smart collection. Smart collections
 
 ### Editing Saved Searches {#editing-saved-searches}
 
-Editing saved searches is the same as editing smart collections. For details, see [Editing a smart collection](../../assets/using/managing-collections-touch-ui.md#editing-a-smart-collection).
+Editing saved searches is the same as editing smart collections. For details, see [Editing a smart collection](managing-collections-touch-ui.md#editing-a-smart-collection).
 
 ### Deleting Saved Searches {#deleting-saved-searches}
 
@@ -312,6 +312,6 @@ You can run a workflow for the assets within a collection. If the collection con
 ## See also {#see-also}
 
 * [Configure AEM Assets email notifications](../../sites/administering/using/notification.md#assetsconfig)
-* [Edit metadata properties of multiple Collections](../../assets/using/managing-multiple-assets.md)
-* [Create a review task for Collections](../../assets/using/bulk-approval.md)
+* [Edit metadata properties of multiple Collections](managing-multiple-assets.md)
+* [Create a review task for Collections](bulk-approval.md)
 

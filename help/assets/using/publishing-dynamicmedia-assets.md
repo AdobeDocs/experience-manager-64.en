@@ -15,7 +15,7 @@ discoiquuid: 99d7025f-d022-4213-83c0-815a4712c573
 
 You publish your dynamic media assets by selecting the assets and tapping **Publish**. After your dynamic media assets are published, they are available to you for including in a web page via URL or via embedding.
 
-You can also instantly publish assets that you upload--without any user intervention. See [Configuring Dynamic Media - Scene7 mode](../../assets/using/config-dms7.md).
+You can also instantly publish assets that you upload--without any user intervention. See [Configuring Dynamic Media - Scene7 mode](config-dms7.md).
 
 In the Card View, a small globe icon appears directly below an asset's name to indicate that it is published. In the List View, a **Published** column indicates which assets are published or which are not.
 
@@ -25,9 +25,9 @@ In the Card View, a small globe icon appears directly below an asset's name to i
 
 If you intend to publish video assets immediately after encoding them, make sure encoding is completely done. When videos are still being encoded, the system lets you know that a video processing workflow is in progress. When video encoding is done, you should be able to preview the video renditions. At that point, it is safe for you to publish the videos without incurring any publishing errors.
 
-See also [Linking URLs to your Web Application](../../assets/using/linking-urls-to-yourwebapplication.md).
+See also [Linking URLs to your Web Application](linking-urls-to-yourwebapplication.md).
 
-See also [Embedding the Video Viewer on a Web Page.](../../assets/using/embed-code.md)
+See also [Embedding the Video Viewer on a Web Page.](embed-code.md)
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ See also [Embedding the Video Viewer on a Web Page.](../../assets/using/embed-co
 >* Image presets and viewer presets must be activated and published for live delivery.
 >
 
-For detailed information on publishing a set or asset, see [Publishing Assets.](../../assets/using/managing-assets-touch-ui.md)
+For detailed information on publishing a set or asset, see [Publishing Assets.](managing-assets-touch-ui.md)
 
 ## HTTP/2 delivery of Dynamic Media assets {#http-delivery-of-dynamic-media-assets}
 

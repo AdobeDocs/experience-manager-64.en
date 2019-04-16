@@ -21,14 +21,14 @@ A new 3D viewer based on the glTF open standard provides preview and Sites and S
 
 When a Dimension asset is uploaded to AEM, a copy of the file is forwarded to an Adobe-managed cloud-based service hosted in Amazon AWS. This service converts from the Adobe-proprietary Dimension file format to the open standard glTF format. The converted 3D model is packaged as a binary glTF (.glb). AEM stores the converted model with the primary Dimension asset as a rendition.
 
-You can configure the .glb conversion format using one of two ways (see [Installing and configuring AEM 3D](../../assets/using/install-config-3d.md) for instructions):
+You can configure the .glb conversion format using one of two ways (see [Installing and configuring AEM 3D](install-config-3d.md) for instructions):
 
 * Include Adobe-specific extensions to maximize the visual quality when using the Adobe glTF viewer to view Dimension assets in AEM Assets, AEM Sites, or AEM Screens. This makes the .glb renditions incompatible with most third-party applications.
 * Exclude Adobe-specific extensions to achieve compatibility of the .glb rendition with third-party applications. This limits the visual quality when viewing in AEM Assets, AEM Sites, or AEM Screens (for example, no IBL lighting) to simulate the quality of typical third-party applications.
 
 Transfer of the Dimension/glTF files to or from Amazon AWS and their temporary storage in AWS are fully secured. These files persist in Amazon AWS a minimal amount of time; typically, no more than a few minutes during normal operations.
 
-To enable support for Dimension assets, you must obtain credentials from Adobe for accessing the conversion service. See [Installing and configuring AEM 3D](../../assets/using/install-config-3d.md).
+To enable support for Dimension assets, you must obtain credentials from Adobe for accessing the conversion service. See [Installing and configuring AEM 3D](install-config-3d.md).
 
 >[!NOTE]
 >
@@ -43,6 +43,6 @@ Note that the glTF viewer's user interface is somewhat different from the standa
 #### See also the following: {#see-also-the-following}
 
 * [AEM 3D release notes](../../release-notes/aem3d-release-notes.md) for restrictions and limitations applicable to Dn assets and the glTF viewer.
-* [Working with the 3D Sites component](../../assets/using/using-the-3d-sites-component.md) for component properties specific to Adobe Dimension assets.
-* [Installing and configuring AEM 3D](../../assets/using/install-config-3d.md) to configure the cloud-based conversion service.
+* [Working with the 3D Sites component](using-the-3d-sites-component.md) for component properties specific to Adobe Dimension assets.
+* [Installing and configuring AEM 3D](install-config-3d.md) to configure the cloud-based conversion service.
 

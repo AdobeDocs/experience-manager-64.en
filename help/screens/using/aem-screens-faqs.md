@@ -115,4 +115,4 @@ When AEM Screens player starts, it makes a request to ***/content/screens/svc.pi
 
 By default, the AEM Assets Touch UI does not let you upload any assets that are larger than 2 GB because of a file size limit in an AEM Screens channel. However, you can overwrite this limit by going into CRXDE Lite and creating a node under the /apps directory.
 
-To learn in detail on how to configure a higher file size limit (for example, 30GB ) in the */apps* directory, please refer to *Configuration to upload video assets that are larger than 2 GB* in [Managing Video Assets](../../assets/using/managing-video-assets.md).
+To learn in detail on how to configure a higher file size limit (for example, 30GB ) in the */apps* directory, please refer to *Configuration to upload video assets that are larger than 2 GB* in [Managing Video Assets](managing-video-assets.md).

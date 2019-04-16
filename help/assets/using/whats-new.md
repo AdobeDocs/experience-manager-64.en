@@ -44,7 +44,7 @@ For example, you can use the AEM panel in Photoshop to access AEM Assets folders
 
 AEM 6.4 Assets applies the power of Adobe Sensei to enhance the machine learning capabilities of smart tags (an image recognition service that applies suggested tags based on the image).
 
-Adobe Sensei's AI framework uses the customer's tag structure and business taxonomy to train the image recognition algorithm. Content intelligence acquired through training enables the algorithm to suggest meaningful tags that are compatible with the customer's taxonomy. For, more information, see [Enhanced Smart Tags](../../assets/using/enhanced-smart-tags.md).
+Adobe Sensei's AI framework uses the customer's tag structure and business taxonomy to train the image recognition algorithm. Content intelligence acquired through training enables the algorithm to suggest meaningful tags that are compatible with the customer's taxonomy. For, more information, see [Enhanced Smart Tags](enhanced-smart-tags.md).
 
 ## Improved metadata management {#improved-metadata-management}
 
@@ -52,7 +52,7 @@ AEM 6.4 Assets supports cascading or contextual metadata. You can define metadat
 
 This feature is helpful when you want to display a relevant subset of tags from a large collection of tags in a complex taxonomy. For example, if you use the review status tag to classify assets, you can define related tags for various review stages, such as approved and rejected. This way, you can easily display approved assets from a large set of assets that have a review status tag.
 
-AEM Assets also provides extended support for bulk metadata export and import. For more details, see [Cascading Metadata](../../assets/using/cascading-metadata.md).
+AEM Assets also provides extended support for bulk metadata export and import. For more details, see [Cascading Metadata](cascading-metadata.md).
 
 ## Enhanced reporting capabilities {#enhanced-reporting-capabilities}
 
@@ -69,7 +69,7 @@ You can generate more OOTB reports, including disk usage and link shares. Here i
 * File
 * Link share
 
-For more details, see [Asset Reports](../../assets/using/asset-reports.md).
+For more details, see [Asset Reports](asset-reports.md).
 
 ## Enhanced search capabilities {#enhanced-search-capabilities}
 
@@ -77,7 +77,7 @@ AEM 6.4 Assets lets you search for specific types of images or documents. For ex
 
 AEM Assets provides granular controls to search for assets based on modified date. You can also search for assets based on file size. You can include the unit of measure (MB, Mb, and so on) in size-based searches.
 
-AEM Assets supports Smart Translation Search that lets you search for assets in various languages and fetch results even if the assets are not tagged in a particular language. For more information, see [Searching Assets](../../assets/using/search-assets.md) and [Search Facets](../../assets/using/search-facets.md).
+AEM Assets supports Smart Translation Search that lets you search for assets in various languages and fetch results even if the assets are not tagged in a particular language. For more information, see [Searching Assets](search-assets.md) and [Search Facets](search-facets.md).
 
 ## Brand Portal {#brand-portal}
 
@@ -87,4 +87,4 @@ Brand Portal is a turnkey solution for the secure distribution of assets. AEM 6.
 
 AEM 6.4 Assets leverages machine learning and AI to identify focus points for assets and suggest appropriate cropping areas. This capability significantly increases the efficiency of cropping assets, especially when you crop assets in bulk.
 
-To learn more about smart crop and smart swatch, see [Image Profiles](../../assets/using/image-profiles.md).
+To learn more about smart crop and smart swatch, see [Image Profiles](image-profiles.md).

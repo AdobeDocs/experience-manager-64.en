@@ -15,7 +15,7 @@ discoiquuid: f18ccd41-2db3-47b2-9462-29723c7ed9ab
 
 ImageMagick is a software plug-in to create, edit, compose, or convert bitmap images. It can read and write images in various formats (over 200) including PNG, JPEG, JPEG-2000, GIF, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG. Use ImageMagick to resize, flip, mirror, rotate, distort, shear, and transform images. You can also adjust image colors, apply various special effects, or draw text, lines, polygons, ellipses, and curves using ImageMagick.
 
-Use the Adobe Experience Manager (AEM) media handler from the command line to process images through ImageMagick. To work with various file formats using ImageMagick, see [Assets file formats best practices](../../assets/using/assets-file-format-best-practices.md). To know about all supported file formats, see [Assets supported formats](../../assets/using/assets-formats.md).
+Use the Adobe Experience Manager (AEM) media handler from the command line to process images through ImageMagick. To work with various file formats using ImageMagick, see [Assets file formats best practices](assets-file-format-best-practices.md). To know about all supported file formats, see [Assets supported formats](assets-formats.md).
 
 ## Installing ImageMagick {#installing-imagemagick}
 

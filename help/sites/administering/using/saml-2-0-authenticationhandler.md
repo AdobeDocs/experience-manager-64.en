@@ -13,7 +13,7 @@ discoiquuid: 6ed09b5d-5089-43d2-b9d5-e7db57be5c02
 
 # SAML 2.0 Authentication Handler{#saml-authentication-handler}
 
-AEM ships with a [SAML](https://saml.xml.org/saml-specifications) authentication handler. This handler provides support for the [SAML](https://saml.xml.org/saml-specifications) 2.0 Authentication Request Protocol (Web-SSO profile) using the `HTTP POST` binding.
+AEM ships with a [SAML](http://saml.xml.org/saml-specifications) authentication handler. This handler provides support for the [SAML](http://saml.xml.org/saml-specifications) 2.0 Authentication Request Protocol (Web-SSO profile) using the `HTTP POST` binding.
 
 It supports:
 
@@ -32,7 +32,7 @@ This handler stores the encrypted SAML response message in the user-node ( `user
 
 ## Configuring The SAML 2.0 Authentication Handler {#configuring-the-saml-authentication-handler}
 
-The [Web console](../../../sites/deploying/using/configuring-osgi.md) provides access to the [SAML](https://saml.xml.org/saml-specifications) 2.0 Authentication Handler configuration called **Adobe Granite SAML 2.0 Authentication Handler**. The following properties can be set.
+The [Web console](../../../sites/deploying/using/configuring-osgi.md) provides access to the [SAML](http://saml.xml.org/saml-specifications) 2.0 Authentication Handler configuration called **Adobe Granite SAML 2.0 Authentication Handler**. The following properties can be set.
 
 >[!NOTE]
 >

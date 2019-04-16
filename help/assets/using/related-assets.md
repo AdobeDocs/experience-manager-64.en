@@ -72,7 +72,7 @@ If the source file is related to another asset, AEM Assets fetches the refenced 
 
 ![](assets/chlimage_1-282.png)
 
-1. Translate the assets in the source folder to a target language by following the steps in [Create a new translation project](../../assets/using/translation-projects.md#create-a-new-translation-project). For example, in this case, translate your assets to French.
+1. Translate the assets in the source folder to a target language by following the steps in [Create a new translation project](translation-projects.md#create-a-new-translation-project). For example, in this case, translate your assets to French.
 1. From the Projects page, open the translation folder.
 
    ![](assets/chlimage_1-283.png)

@@ -22,7 +22,7 @@ You can also add additional tabs to the AEM Assets admin panel.
 
 >[!CAUTION]
 >
->As of AEM 6.4, Classic UI is deprecated. For announcement, see [Deprecated and Removed Features](../../release-notes/deprecated-removed-features.md). You are encouraged to use Touch-enabled UI. For customizations, see [Search Facets](../../assets/using/search-facets.md).
+>As of AEM 6.4, Classic UI is deprecated. For announcement, see [Deprecated and Removed Features](../../release-notes/deprecated-removed-features.md). You are encouraged to use Touch-enabled UI. For customizations, see [Search Facets](search-facets.md).
 
 ## Overlaying {#overlaying}
 
@@ -48,7 +48,7 @@ You can add additional Search tabs by configuring them in the AEM Assets Admin. 
 
 ## Creating Custom Predicates {#creating-custom-predicates}
 
-AEM Assets comes with a set of predefined predicates that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](../../assets/using/assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
+AEM Assets comes with a set of predefined predicates that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
 
 In addition to using pre-existing predicates, AEM developers can also create their own predicates using the [Query Builder API](../../sites/developing/using/querybuilder-api.md).
 
@@ -416,6 +416,6 @@ The following predicates are available as preconfigured ExtJS widgets.
 
 ## Customizing Search Results {#customizing-search-results}
 
-The presentation of search results on an Asset Share page is governed by the selected lens. AEM Assets comes with a set of predefined lenses that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](../../assets/using/assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
+The presentation of search results on an Asset Share page is governed by the selected lens. AEM Assets comes with a set of predefined lenses that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
 
 In addition to using pre-existing lenses, AEM developers can also create their own lenses.

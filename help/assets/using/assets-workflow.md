@@ -19,7 +19,7 @@ Use workflows in digital assets to activate the asset or create watermarks. Many
 
 ## Applying a workflow to an AEM asset {#applying-a-workflow-to-an-aem-asset}
 
-For details of applying a workflow to an AEM asset, see [Starting a Workflow on an Asset](../../assets/using/managing-assets-touch-ui.md#starting-a-workflow-on-an-asset).
+For details of applying a workflow to an AEM asset, see [Starting a Workflow on an Asset](managing-assets-touch-ui.md#starting-a-workflow-on-an-asset).
 
 ## Applying a workflow to multiple assets {#applying-a-workflow-to-multiple-assets}
 
@@ -42,8 +42,8 @@ For details of applying a workflow to an AEM asset, see [Starting a Workflow on 
 
 ## Applying a workflow to multiple folders {#applying-a-workflow-to-multiple-folders}
 
-The procedure to apply a workflow to multiple folders is similar to the procedure to apply a workflow to multiple assets. Select the folders in the Assets console, and perform steps 2-7 of the procedure [Applying a workflow to multiple assets](../../assets/using/assets-workflow.md#applying-a-workflow-to-multiple-assets).
+The procedure to apply a workflow to multiple folders is similar to the procedure to apply a workflow to multiple assets. Select the folders in the Assets console, and perform steps 2-7 of the procedure [Applying a workflow to multiple assets](assets-workflow.md#applying-a-workflow-to-multiple-assets).
 
 ## Applying a workflow to a collection {#applying-a-workflow-to-a-collection}
 
-For details of applying a workflow to a collection, see [Running a workflow on a collection](../../assets/using/managing-collections-touch-ui.md#running-a-workflow-on-a-collection).
+For details of applying a workflow to a collection, see [Running a workflow on a collection](managing-collections-touch-ui.md#running-a-workflow-on-a-collection).

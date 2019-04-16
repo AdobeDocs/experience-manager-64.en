@@ -125,7 +125,7 @@ To configure the data center:
 
 ## Adding Search&Promote components to Sidekick {#adding-search-promote-components-to-sidekick}
 
-In Design mode, edit a **par** component to allow the Search&Promote components in Sidekick. (See the [Components](../../../sites/developing/using/components.md#addinganewcomponenttotheparagraphsystemdesignmode) documentation for more information.)
+In Design mode, edit a **par** component to allow the Search&Promote components in Sidekick. (See the [Components](../../../sites/developing/using/components.md) documentation for more information.)
 
 For information about using the components, see See [Adding Search&Promote Features to a Web Page](../../../sites/authoring/using/search-and-promote.md).)
 
@@ -137,7 +137,7 @@ When you configure the Search&Promote properties for a page, all child pages inh
 
 >[!NOTE]
 >
->The service connection must already be configured. (See [Configure the connection to Search&Promote](#connection).)
+>The service connection must already be configured. (See [Configure the connection to Search&Promote](#configuring-the-connection-to-search-promote).)
 
 1. Open the **Page Properties** dialog box. For example, on the** Websites** page, right-click the page and click **Properties**.  
 

@@ -49,7 +49,7 @@ Once you have familiarized yourself with these basics, you will find in more adv
 * [Best Practices](../../../sites/deploying/using/best-practices.md)
 * [Deploying Communities](../../../communities/using/deploy-communities.md)
 * [Introduction to the AEM Platform](../../../sites/deploying/using/platform.md)
-* [Performance Guidelines](../../../sites/deploying/using/DO-NOT-DELETE-performance-guidelines-pdf.md)
+* [Performance Guidelines](../../../sites/deploying/using/performance-guidelines.md)
 * [Getting Started with AEM Mobile](../../../mobile/using/getting-started-aem-mobile.md)
 * [Maintenance Release Vehicle Definitions](../../../sites/deploying/using/maintenance-release-vehicle-definitions.md)
 * [What is AEM Screens?](../../../sites/deploying/using/aem-screens-introduction.md)
@@ -101,7 +101,7 @@ The following sections describe both the scenarios:
 
 ### On-premise {#on-premise}
 
-You can install AEM on servers in your Corporate environment. Typical installation instances include: Development, Testing and Publishing environments. Please refer to the [Getting Started](../../../sites/deploying/using/deploy.md#getting%20started) section for basic details on how to get the AEM software to install it locally.
+You can install AEM on servers in your Corporate environment. Typical installation instances include: Development, Testing and Publishing environments. Please refer to the [Getting Started](../../../sites/deploying/using/deploy.md#getting-started) section for basic details on how to get the AEM software to install it locally.
 
 To learn more about the typical on-premises deployments, refer to [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md).
 
@@ -288,8 +288,8 @@ AEM starts and automatically redirects your web browser to the appropriate page,
 Once logged in, you have access to AEM. For further information, depending on the your role, see the following:
 
 * [Authoring](/help/sites/authoring/using/home.md) 
-* [Administering](help/sites/administering/using/home.md)
-* [Developing](help/sites/developing/using/home.md)
+* [Administering](../../../sites/administering/using/home.md)
+* [Developing](../../../sites/developing/using/home.md)
 * [Managing](../../../managing/using/manage-reference.md)
 
 ## Advanced Deployment {#advanced-deployment}
@@ -311,7 +311,7 @@ The above section should give you a good understanding of the basics of AEM inst
 * [Best Practices](../../../sites/deploying/using/best-practices.md)
 * [Deploying Communities](../../../communities/using/deploy-communities.md)
 * [Introduction to the AEM Platform](../../../sites/deploying/using/platform.md)
-* [Performance Guidelines](../../../sites/deploying/using/DO-NOT-DELETE-performance-guidelines-pdf.md)
+* [Performance Guidelines](../../../sites/deploying/using/performance-guidelines.md)
 * [Getting Started with AEM Mobile](../../../mobile/using/getting-started-aem-mobile.md)
 * [Maintenance Release Vehicle Definitions](../../../sites/deploying/using/maintenance-release-vehicle-definitions.md)
 * [What is AEM Screens?](../../../sites/deploying/using/aem-screens-introduction.md)

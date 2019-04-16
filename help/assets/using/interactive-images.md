@@ -44,7 +44,7 @@ Interactive Images steps:
    See [eCommerce concepts in AEM Assets](../../sites/administering/using/concepts.md).  
 
 1. **(Optional) Creating an Interactive Image viewer preset **- Customize the graphic image that is used to represent hotspots. Creating your own Interactive Image viewer preset is not required if you intend to use the out-of-the-box Interactive Image viewer preset named `Shoppable_Banner` instead.** 
-   **See [(Optional) Creating an Interactive Image viewer preset](../../assets/using/managing-viewer-presets.md#creating-a-new-viewer-preset).  
+   **See [(Optional) Creating an Interactive Image viewer preset](managing-viewer-presets.md#creating-a-new-viewer-preset).  
 
 1. **Uploading an image banner** - Upload image banners that you want to make interactive.  
    See [Uploading an image banner](#uploading-an-image-banner).  
@@ -52,10 +52,10 @@ Interactive Images steps:
 1. **Adding hotspots to an image banner** - Add one or more hotspots to an image banner and associate each one with an action such as a hyperlink, a Quickview, or an Experience Fragment. After you add hotspots, you will finish this task by publishing the interactive image.  
    See [Adding hotspots to an image banner](#adding-hotspots-to-an-image-banner).  
    See [Previewing interactive images](#optional-previewing-interactive-images) - Optional. If desired, you can view a representation of your shoppable banner and test its interactivity.  
-   See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md) for details on how to publish interactive image assets.  
+   See [Publishing Assets](publishing-dynamicmedia-assets.md) for details on how to publish interactive image assets.  
 
 1. **Adding an interactive image to your website or to your website in AEM** 
-   If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive image directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](../../assets/using/adding-dynamic-media-assets-to-pages.md)  
+   If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive image directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)  
    If you use AEM Assets and Dynamic Media standalone, you must copy the embed code on your website and then integrate it with your existing Quickview. See [Integrating an interactive image with your website](#integrating-an-interactive-image-with-your-website).  
    If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive image with an existing Quickview](#integrating-an-interactive-image-with-an-existing-quickview).
 
@@ -202,7 +202,7 @@ To create an Interactive Image viewer preset:
 
    Be sure you publish the new viewer preset.
 
-   See [Publishing Viewer Presets That You Have Added](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets).
+   See [Publishing Viewer Presets That You Have Added](managing-viewer-presets.md#publishing-viewer-presets).
 
    You are now ready to upload an image banner.
 
@@ -214,7 +214,7 @@ To upload an image banner:
 
 1. Upload image banners that you want to make interactive.
 
-   See [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
+   See [Uploading assets](managing-assets-touch-ui.md#uploading-assets).
 
    You are now ready to add hotspots to the image banner; see the next task below.
 
@@ -238,7 +238,7 @@ See [(Optional) Previewing interactive images](#optional-previewing-interactive-
   
 >Be aware, however, that Carousel Banners support image maps on images that can also contain hotspots; an Interactive Image does not. Keep this in mind if you intend to create an Interactive Image or Carousel Banner that uses the same image. You may want to create Interactive Images and Carousel Banners using separate copies of the same image instead.
 >
->See also [Carousel Banners](../../assets/using/carousel-banners.md).
+>See also [Carousel Banners](carousel-banners.md).
 
 >[!NOTE]
 >
@@ -283,7 +283,7 @@ To add hotspots to an image banner:
 
    Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.
 
-   See [Working with Selectors](../../assets/using/working-with-selectors.md) for more information.
+   See [Working with Selectors](working-with-selectors.md) for more information.
 
     * Tap or click **Experience Fragment**.
 
@@ -295,7 +295,7 @@ To add hotspots to an image banner:
 1. Tap **Save** to save your work and return to the Browse page.
 1. Publish the interactive image. Publishing allows for the banner to be delivered through the cloud and also generates embed code if you need to integrate with a third party website.
 
-   See [Publishing assets](../../assets/using/managing-assets-touch-ui.md#publishing-assets).
+   See [Publishing assets](managing-assets-touch-ui.md#publishing-assets).
 
    After you have added hotspots and published the interactive image, you are now ready to add it to your existing website.
 
@@ -310,9 +310,9 @@ To add hotspots to an image banner:
 You can use Preview to see a representation of what your interactive image will look like to customers and to test the image's hotspots to ensure they are behaving as expected.
 
 When you are satisfied with the interactive image, you can publish it.  
-See [Embedding the Video or Image Viewer on a Web Page](../../assets/using/embed-code.md).  
-See [Linking URLs to your web application](../../assets/using/linking-urls-to-yourwebapplication.md). Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.  
-See [Adding Dynamic Media Assets to Pages.](../../assets/using/adding-dynamic-media-assets-to-pages.md)
+See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).  
+See [Linking URLs to your web application](linking-urls-to-yourwebapplication.md). Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.  
+See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)
 
 To preview interactive images:
 
@@ -323,18 +323,18 @@ To preview interactive images:
 
 ## Publishing interactive image assets {#publishing-interactive-image-assets}
 
-See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md) for details on how to publish interactive image assets.
+See [Publishing Assets](publishing-dynamicmedia-assets.md) for details on how to publish interactive image assets.
 
 ## Integrating an interactive image with your website {#integrating-an-interactive-image-with-your-website}
 
 After you have uploaded a banner image, added hotspots to the image, and published the interactive image, you are now ready to add it to your website page.
 
-If you are an AEM Sites customer, you can add the interactive image by dragging the Interactive Media component onto your page. See [Adding Dynamic Media Assets to Pages.](../../assets/using/adding-dynamic-media-assets-to-pages.md)
+If you are an AEM Sites customer, you can add the interactive image by dragging the Interactive Media component onto your page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)
 
 If you are a standalone AEM Assets customer, you can manually add the interactive image to your website as described in this section.
 
 1. Copy the published interactive image's embed code.  
-   See [Embedding the Video or Image Viewer on a Web Page](../../assets/using/embed-code.md).
+   See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).
 
 1. Add the copied embed code on the desired location within the webpage.   
    The copied embed code is set for a responsive environment so it should automatically fit the assigned area.
@@ -506,4 +506,4 @@ The final demo website with the fully integrated interactive image looks like th
 
 ## Using Quickviews to create custom pop-ups {#using-quickviews-to-create-custom-pop-ups}
 
-See [Using Quickviews to create custom pop-ups](../../assets/using/custom-pop-ups.md).
+See [Using Quickviews to create custom pop-ups](custom-pop-ups.md).

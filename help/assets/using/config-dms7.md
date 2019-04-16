@@ -59,7 +59,7 @@ The installation of Feature Pack 18912 is optional.
 
 Feature Pack 18912 lets you bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic (Scene7), or both. It is available from Adobe support.
 
-See [Installing Feature Pack 18912](../../assets/using/bulk-ingest-migrate.md) for more information.
+See [Installing Feature Pack 18912](bulk-ingest-migrate.md) for more information.
 
 ## Configuring Dynamic Media Cloud Services {#configuring-dynamic-media-cloud-services}
 
@@ -172,12 +172,12 @@ To open the Application General Settings page, in Dynamic Media Classic Global N
 
 >[!NOTE]
 >
->By default, the system shows 15 renditions when you select **Renditions** and 15 viewer presets when you select **Viewers** in the asset's detail view. You can increase this limit. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasing-or-decreasing-the-number-of-image-presets-that-display) or [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md#increasing-the-number-of-viewer-presets-that-display).
+>By default, the system shows 15 renditions when you select **Renditions** and 15 viewer presets when you select **Viewers** in the asset's detail view. You can increase this limit. See [Increasing the number of image presets that display](managing-image-presets.md#increasing-or-decreasing-the-number-of-image-presets-that-display) or [Increasing the number of viewer presets that display](managing-viewer-presets.md#increasing-the-number-of-viewer-presets-that-display).
 >
 
 #### Configuring color management {#configuring-color-management}
 
-Dynamic media color management lets you color correct assets. With color correction, ingested assets retain their color space (RGB, CMYK, Gray) and embedded color profile. When you request a dynamic rendition, the image color is corrected into the target color space using CMYK, RGB, or Gray output. See [Configuring Image Presets](../../assets/using/managing-image-presets.md).
+Dynamic media color management lets you color correct assets. With color correction, ingested assets retain their color space (RGB, CMYK, Gray) and embedded color profile. When you request a dynamic rendition, the image color is corrected into the target color space using CMYK, RGB, or Gray output. See [Configuring Image Presets](managing-image-presets.md).
 
 To configure the default color properties to enable color correction when requesting images:
 
@@ -213,7 +213,7 @@ You can define which asset types should be processed by Dynamic Media and custom
 * Rasterize an Adobe Illustrator file (.AI) or an Adobe Photoshop Encapsulated Postscript file (.EPS).
 * Note: Video Profiles and Imaging Profiles can be used to define processing of videos and images, respectively.
 
-See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
+See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 **To configure asset processing**:
 
@@ -229,7 +229,7 @@ See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-
 
     * double-click the **enabled **field. By default all asset mime types are enabled (set to **true**), which means the assets will be synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **false**.
     
-    * double-click **jobParam** to open its associated text field. See [Supported Mime Types](../../assets/using/assets-formats.md#supported-mime-types) for a list of permitted processing parameter values you can use for a given mime type.
+    * double-click **jobParam** to open its associated text field. See [Supported Mime Types](assets-formats.md#supported-mime-types) for a list of permitted processing parameter values you can use for a given mime type.
 
 1. Do one of the following:
 

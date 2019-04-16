@@ -15,7 +15,7 @@ discoiquuid: a1efef3c-0e4b-4a17-bcad-e3cc17adbbf7
 
 The [Video component](../../../sites/authoring/using/default-components-foundation.md#video) allows you to place a predefined, out-of-the-box video element on your page.
 
-For proper transcoding to occur, your administrator must [Install FFmpeg](#installingffmpeg) separately. They can also [Configure your Video Profiles](#configuringvideoprofiles) for use with HTML5 elements.
+For proper transcoding to occur, your administrator must [Install FFmpeg](#install-ffmpeg) separately. They can also [Configure your Video Profiles](#configure-video-profiles) for use with HTML5 elements.
 
 ## Configure video profiles {#configure-video-profiles}
 

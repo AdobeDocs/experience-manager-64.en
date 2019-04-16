@@ -27,15 +27,15 @@ You can publish digital assets directly from AEM to Scene7 and you can publish d
 
 This document describes how to publish digital assets from AEM to Scene7 and vice versa. Viewers are also described in detail. For information on configuring AEM for Scene7, see [Integrating Scene7 with AEM](../../sites/administering/using/scene7.md).  
 
-See also [Adding Image Maps](../../assets/using/image-maps.md).  
+See also [Adding Image Maps](image-maps.md).  
 
 For more information on using video components with AEM, see the following:
 
-* [Video](../../assets/using/video.md)
+* [Video](video.md)
 
 >[!NOTE]
 >
->If Scene7 assets do not display properly, please make sure that Dynamic media is [disabled](../../assets/using/config-dynamic.md#disabling-dynamic-media) and then refresh the page.
+>If Scene7 assets do not display properly, please make sure that Dynamic media is [disabled](config-dynamic.md#disabling-dynamic-media) and then refresh the page.
 
 ## Manually Publishing to Scene7 from Assets {#manually-publishing-to-scene-from-assets}
 
@@ -242,7 +242,7 @@ The Scene7 **Video** component (available from the Scene7 section of the sidekic
 
 It can be used for adaptive video sets, a single MP4 video, or a single F4V video.
 
-See [Video](../../assets/using/s7-video.md) for more information on how videos work with Scene7 integration. In addition, see how [the **Scene7 video **component compares to the foundation **video** component](../../assets/using/s7-video.md). 
+See [Video](s7-video.md) for more information on how videos work with Scene7 integration. In addition, see how [the **Scene7 video **component compares to the foundation **video** component](s7-video.md). 
 
 ![](assets/chlimage_1-239.png) 
 

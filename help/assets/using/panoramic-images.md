@@ -15,7 +15,7 @@ discoiquuid: fc285b25-2bce-493c-87bc-5f1a8a26eb42
 
 This section describes working with the Panoramic Image viewer to render spherical panoramic images for an immersive 360° viewing experience of a room, property, location, or landscape.
 
-See also [Managing Viewer Presets](../../assets/using/managing-viewer-presets.md).
+See also [Managing Viewer Presets](managing-viewer-presets.md).
 
 ![](assets/panoramic-image2.png) 
 
@@ -31,7 +31,7 @@ For an uploaded asset to qualify as a spherical panorama image that you intend t
 
 Both the aspect ratio and keyword criteria apply to panoramic assets for the asset details page and the "Panoramic Media" WCM component.
 
-To upload assets for use with the Panoramic Image viewer, see [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
+To upload assets for use with the Panoramic Image viewer, see [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 ## Configuring Dynamic Media Classic (Scene7) {#configuring-dynamic-media-classic-scene}
 
@@ -74,8 +74,8 @@ If you dropped an image into the Panoramic Media component in your WCM and the c
 
 ## Previewing Panoramic Images {#previewing-panoramic-images}
 
-See [Previewing Assets](../../assets/using/previewing-assets.md).
+See [Previewing Assets](previewing-assets.md).
 
 ## Publishing Panoramic Images {#publishing-panoramic-images}
 
-See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md).
+See [Publishing Assets](publishing-dynamicmedia-assets.md).

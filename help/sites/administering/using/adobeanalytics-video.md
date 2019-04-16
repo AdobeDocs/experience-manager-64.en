@@ -133,7 +133,7 @@ The following table describes the default CQ variables that are provided for the
 
 1. To map the CQ variables to Adobe Analytics properties, drag the Adobe Analytics properties from ContentFinder beside the CQ variable on the component.
 
-   For information about optimizing the mappings, see the [Measuring Video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/video_overview.html) guide.
+   For information about optimizing the mappings, see the [Measuring Video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/setup-overview.html) guide.
 
 1. [Add the framework](../../../sites/administering/using/adobeanalytics.md) to the page.
 1. To test the setup in **Preview mode**, play the video to get Adobe Analytics calls to trigger.
@@ -245,7 +245,7 @@ Calls to Adobe Analytics using the example provided should look like this when v
 The Non-Legacy Milestones method is similar to the Milestones method except milestones are defined using percentages of the track length. The commonalities are as follows:
 
 * When a video playback passes a milestone, the page calls Adobe Analytics to track the event.
-* The [static set of CQ variables](#cqvars) that are defined for mapping with Adobe Analytics properties.
+* The [static set of CQ variables](#milestones) that are defined for mapping with Adobe Analytics properties.
 * For each milestone that you define, the component creates a CQ variable that you can map to a Adobe Analytics property.
 
 The name of these CQ variables use the following format:
@@ -271,7 +271,7 @@ eventdata.events.milestoneXX
 
 1. To map the CQ variables to Adobe Analytics properties, drag the Adobe Analytics properties from ContentFinder beside the CQ variable on the component.
 
-   For information about optimizing the mappings, see the [Measuring Video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/video_overview.html) guide.
+   For information about optimizing the mappings, see the [Measuring Video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/setup-overview.html) guide.
 
 1. [Add the framework](../../../sites/administering/using/adobeanalytics.md) to the page.
 1. To test the setup in **Preview mode**, play the video to get Adobe Analytics calls to trigger.
@@ -380,4 +380,4 @@ When using the** legacy seconds** method, Adobe Analytics calls get triggered ev
 
 **References used in this tutorial:**
 
-[0] [https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/video_overview.html](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/video_overview.html)
+[0] [https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/setup-overview.html](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/setup-overview.html)
