@@ -135,7 +135,7 @@ For an overview of supported platforms, please refer to the [Technical Requireme
 
 Dynamic Media in 6.4 supports a new mode - where master asset is uploaded and managed with AEM Assets web UI, and dynamic renditions and other dynamic media features are handled in the background by the Dynamic Media cloud delivery service.
 
-In this new mode (introduced first with the release of AEM 6.3 Feature Packs 14410 and 18912), users benefit from end-to-end asset management and dynamic media features using the modern AEM Assets web UI, and still leverage the delivery services that are backwards compatible with Dynamic Media Classic (Scene7)—including delivery URLs, which are unchanged.
+In this mode (introduced first with the release of [AEM 6.3 Feature Packs 14410 and 18912](https://helpx.adobe.com/experience-manager/6-3/release-notes/dynamic-media-featurepack-14410.html)), users benefit from end-to-end asset management and dynamic media features using the modern AEM Assets web UI, and still leverage the delivery services that are backwards compatible with Dynamic Media Classic (Scene7)—including delivery URLs, which are unchanged.
 
 In addition, AEM 6.4 introduces new features powered by Adobe Sensei, enhancements for emerging media like VR and 3D, Dynamic Media viewers, and support for Experience Fragments in Interactive Images and Carousel Banners.
 
