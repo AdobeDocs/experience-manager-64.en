@@ -225,9 +225,9 @@ Various log files are held on the file server where you installed AEM:
 
 ### Activating the DEBUG Log Level {#activating-the-debug-log-level}
 
-The default log level ([Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingconfiguration)) is Information, so debug messages are not logged.
+The default log level [Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings) is Information, so debug messages are not logged.
 
-To activate the debug log level for a Logger, set the property `org.apache.sling.commons.log.level` to debug in the repository. For example, on `/libs/sling/config/org.apache.sling.commons.log.LogManager` to configure the [global Apache Sling Logging](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingconfiguration).
+To activate the debug log level for a Logger, set the property `org.apache.sling.commons.log.level` to debug in the repository. For example, on `/libs/sling/config/org.apache.sling.commons.log.LogManager` to configure the [global Apache Sling Logging](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings).
 
 >[!CAUTION]
 >
@@ -256,7 +256,7 @@ The log levels are as follows:
 In certain circumstances you may want to create a custom log file with a different log level. You can do this in the repository by:
 
 1. If not already existing, create a new configuration folder ( `sling:Folder`) for your project `/apps/<*project-name*>/config`.
-1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingloggerconfigurationfactoryconfiguration):
+1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings):
 
     * Name: `org.apache.sling.commons.log.LogManager.factory.config-<*identifier*>` (as this is a Logger)  
       Where `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.config-MINE`  
@@ -359,7 +359,7 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >If no explicit Writer is configured the system will automatically generate an implicit Writer based on the default.
 
-   Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingwriterconfigurationfactoryconfiguration):
+   Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings):
 
     * Name: `org.apache.sling.commons.log.LogManager.factory.writer-<*identifier*>` (as this is a Writer)  
       As with the Logger, `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.writer-MINE`
@@ -624,7 +624,7 @@ Some of these will be dependent on your operating system.
   <tr> 
    <td>Java VisualVM</td> 
    <td>Observe JVM metrics, threads, memory and profiling.</td> 
-   <td><p>Usage: jvisualvm or visualvm<br /> </p> <p>See <a href="https://java.sun.com/javase/6/docs/technotes/tools/share/jvisualvm.html">jvisualvm</a>, <a href="https://visualvm.dev.java.net/">visualvm</a> and <a href="#monitoring-performance-using-j-visualvm">Monitoring Performance using (J)VisualVM</a>.</p> <p><strong>Note:</strong> With JDK 1.6, VisualVM is extensible with plug-ins.</p> </td> 
+   <td><p>Usage: jvisualvm or visualvm<br /> </p> <p>See <a href="https://java.sun.com/javase/6/docs/technotes/tools/share/jvisualvm.html">jvisualvm</a>, <a href="https://visualvm.github.io/releases.html">visualvm</a> and <a href="#monitoring-performance-using-j-visualvm">Monitoring Performance using (J)VisualVM</a>.</p> <p><strong>Note:</strong> With JDK 1.6, VisualVM is extensible with plug-ins.</p> </td> 
   </tr> 
   <tr> 
    <td>truss/strace, lsof</td> 
@@ -908,7 +908,7 @@ Since JDK 1.6, the tool command `jvisualvm` is available. After you have install
 1. Run either:
 
     * `jvisualvm`: in the JDK 1.6 bin folder (tested version)
-    * `visualvm`: can be downloaded from [VisualVM](https://visualvm.dev.java.net/) (bleeding edge version)
+    * `visualvm`: can be downloaded from [VisualVM](https://visualvm.github.io/releases.html) (bleeding edge version)
 
 1. From within the `Local` application, double-click `com.day.crx.quickstart.Main`; the Overview will be shown as default:
 
@@ -931,7 +931,7 @@ The following information can be useful:
 * [How many pages do you currently maintain on this system?](#how-many-pages-do-you-currently-maintain-on-this-system)
 * [If you use MSM, what is the average number of rollouts per month?](#if-you-use-msm-what-is-the-average-number-of-rollouts-per-month)
 * [What is the average number of Live Copies per month?](#what-is-the-average-number-of-live-copies-per-month)
-* [If you use AEM Assets, how many assets do you currently maintain in Assets?](#ifyouusecqdamhowmanyassetsdoyoucurrentlymaintainincqdam)
+* [If you use AEM Assets, how many assets do you currently maintain in Assets?](#if-you-use-aem-assets-how-many-assets-do-you-currently-maintain-in-assets)
 * [What is the average size of the assets?](#what-is-the-average-size-of-the-assets)
 * [How many templates are currently used?](#how-many-templates-are-currently-used)
 * [How many components are currently used?](#how-many-components-are-currently-used)
@@ -1111,12 +1111,12 @@ If your system is either running out of diskspace, or you notice disk thrashing 
 
 * Whether you have disabled collection of debug information; this can be configured in various locations, including:
 
-    * [Apache Sling JSP Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingjspscripthandler)
-    * [Apache Sling Java Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingjavascripthandler)
+    * [Apache Sling JSP Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
+    * [Apache Sling Java Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
     * [Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingconfiguration)
-    * [CQ HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md#daycqhtmllibrarymanager)
-    * [CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md#daycqwcmdebugfilter)
-    * [Loggers](../../../sites/deploying/using/monitoring-and-maintaining.md#activating-the-debug-log-level) [](../../../sites/deploying/using/configuring.md#loggersandwritersforindividualservices)
+    * [CQ HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
+    * [CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
+    * [Loggers](../../../sites/deploying/using/monitoring-and-maintaining.md#activating-the-debug-log-level) [](../../../sites/deploying/using/configuring.md#logging)
 
 * Whether and how you have configured [Version Purging](../../../sites/deploying/using/version-purging.md)
 * The Knowledge Base:
@@ -1128,7 +1128,7 @@ If your system is either running out of diskspace, or you notice disk thrashing 
 
 If you see the performance of your instance deteriorating after each reboot (sometimes a week or more later), then the following can be checked:
 
-* [Out of Memory](#outofmemory)
+* [Out of Memory](#out-of-memory)
 * The Knowledge Base:
 
     * [Unclosed Sessions](https://helpx.adobe.com/experience-manager/kb/AnalyzeUnclosedSessions.html)
