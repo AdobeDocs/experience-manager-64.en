@@ -539,7 +539,7 @@ The following Java code example sets connection properties in SOAP mode to invok
 
 **Setting connection properties when service security is disabled**
 
-The following Java code example sets connection properties required to invoke AEM Forms deployed on JBoss Application Server and when service security is disabled. (See [Disabling Service Security](/help/forms/developing/processes-tasks.md#disabling-service-security).)
+The following Java code example sets connection properties required to invoke AEM Forms deployed on JBoss Application Server and when service security is disabled.
 
 ```as3
  Properties ConnectionProps = new Properties(); 

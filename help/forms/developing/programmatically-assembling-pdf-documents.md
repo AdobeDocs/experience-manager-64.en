@@ -149,7 +149,7 @@ The following table summarizes some of the key values and object types that can 
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically-disassembling-pdf-documents)
+[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents.md#programmatically-disassembling-pdf-documents)
 
 ## Assemble PDF documents using the Java API {#assemble-pdf-documents-using-the-java-api}
 

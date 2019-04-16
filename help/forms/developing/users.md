@@ -262,7 +262,7 @@ Add users by using the Directory Manager Service API (web service):
 
 ## Deleting Users {#deleting-users}
 
-You can use the Directory Manager Service API (Java and web service) to programmatically delete users from AEM Forms. After you delete a user, the user can no longer be used to perform a service operation that requires a user. For example, you cannot assign a task to a deleted user. (See [Assigning Tasks](/help/forms/developing/processes-tasks.md#assigning-tasks).)
+You can use the Directory Manager Service API (Java and web service) to programmatically delete users from AEM Forms. After you delete a user, the user can no longer be used to perform a service operation that requires a user. For example, you cannot assign a task to a deleted user.
 
 ### Summary of steps {#summary_of_steps-1}
 
