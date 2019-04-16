@@ -156,7 +156,7 @@ For more information on the Interactive Communication authoring interface, see [
 
    | Components |Functionality |
    |---|---|
-   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from a form data model collection. For more information, see [Using chart component](/forms/using/chart-component.md). |
+   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from a form data model collection. For more information, see [Using chart component](../../forms/using/chart-component-interactive-communications.md). |
    | Document Fragment |Allows you to add a reusable component, text, list, or condition, to an Interactive Communication. The reusable component you add to an Interactive Communication could be either form data model-based or without a form data model. |
    | Image |Allows you to insert an image. |
    | Panel |The Panel component is a placeholder for grouping other components together and controls how a group of components, such as accordion and tabs, are laid out in the Interactive Communication. A panel component also allows you to make a group of components repeatable for the end user, such as in multiple entries required for filling in educational credentials.  |

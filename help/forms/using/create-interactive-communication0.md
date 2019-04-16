@@ -13,7 +13,7 @@ discoiquuid: 39262cb1-1447-469a-9c01-886f66eeec74
 
 Create an Interactive Communication using all building blocks
 
- ![style your interactive communication](assets/09-style-your-adaptive-form.png)
+ ![style your interactive communication](assets/styleaf.png)
 
 | This tutorial is a step in the [Create your first Interactive Communication](../../forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|
