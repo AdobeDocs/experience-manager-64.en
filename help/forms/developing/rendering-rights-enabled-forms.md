@@ -181,4 +181,4 @@ Render a rights-enabled form by using the Forms API (web service):
 
 [Rendering Rights-Enabled Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-rights-enabled-forms-rendering.md#rendering-rights-enabled-forms)
 
-[Invoking AEM Forms using Base64 encoding](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

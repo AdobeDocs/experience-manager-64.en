@@ -241,11 +241,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Render a form as HTML using the web service API](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#render-a-form-as-html-using-the-web-service-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
-[Forms Service API Quick Starts](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
+[Forms Service API Quick Starts](/help/forms/developing/forms-service-api-quick-starts.md#forms-service-api-quick-starts)
 
 [Rendering Interactive PDF Forms](/help/forms/developing/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering-interactive-pdf-forms)
 
@@ -305,11 +305,11 @@ Render an HTML form by using the Forms API (Java):
 
 [Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html)
 
-[Quick Start (SOAP mode): Rendering an HTML form using the Java API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e36.2)
+[Quick Start (SOAP mode): Rendering an HTML form using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-rendering-an-html-form-using-the-java-api)
 
-[Including AEM Forms Java library files](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
+[Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
-[Setting connection properties](unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
+[Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
 
 ## Render a form as HTML using the web service API {#render-a-form-as-html-using-the-web-service-api}
 
@@ -344,8 +344,8 @@ Render an HTML form by using the Forms API (web service):
     * A `BLOB` object that contains data to merge with the form. If you do not want to merge data, pass `null`. (See [Prepopulating Forms with Flowable Layouts](/help/forms/developing/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating-forms-with-flowable-layouts).)
     * The `HTMLRenderSpec` object that stores HTML run-time options. 
     * A string value that specifies the `HTTP_USER_AGENT` header value; for example, `Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)`. You can pass an empty string if you do not want to set this value. 
-    * A `URLSpec` object that stores URI values required to render an HTML form. (See [Specify URI values](unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a96.2).)
-    * A `java.util.HashMap` object that stores file attachments. This is an optional parameter and you can specify `null` if you do not want to attach files to the form. (See [Attach files to the form](unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a95.2).)
+    * A `URLSpec` object that stores URI values required to render an HTML form. (See [Specify URI values](/help/forms/developing/rendering-interactive-pdf-forms.md).)
+    * A `java.util.HashMap` object that stores file attachments. This is an optional parameter and you can specify `null` if you do not want to attach files to the form. (See [Attach files to the form](/help/forms/developing/rendering-interactive-pdf-forms.md).)
     * An empty `com.adobe.idp.services.holders.BLOBHolder` object that is populated by the method. This parameter value stores the rendered form. 
     * An empty `com.adobe.idp.services.holders.BLOBHolder` object that is populated by the method. This parameter will store the output XML data. 
     * An empty `javax.xml.rpc.holders.LongHolder` object that is populated by the method. This argument will store the number of pages in the form.
@@ -369,7 +369,5 @@ Render an HTML form by using the Forms API (web service):
 
 [Rendering Forms as HTML](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering-forms-as-html)
 
-[Quick Start (Base64): Rendering an HTML form using the web service API](unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e35.2)
-
-[Invoking AEM Forms using Base64 encoding](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2)
+[Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
 

@@ -104,20 +104,20 @@ You can process the converted data to meet your business requirements. For examp
 
 Decode form data by using the barcoded forms API(Java):
 
-1. [Include project files](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-7831.2)
+1. Include project files
 
    Include client JAR files in your Java project’s class path. 
 
-1. [Create a barcoded forms Client API object](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-7830.2)
+1. Create a barcoded forms Client API object
 
    Create a `BarcodedFormsServiceClient` object by using its constructor and passing a `ServiceClientFactory` object that contains connection properties.
 
-1. [Get a PDF form that contains barcoded data](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-782f.2)
+1. Get a PDF form that contains barcoded data
 
     * Create a `java.io.FileInputStream` object that represents the PDF form that contains barcoded data by using its constructor and passing a string value that specifies the location of the PDF document.
     * Create a `com.adobe.idp.Document` object by using its constructor and passing the `java.io.FileInputStream` object.
 
-1. [Decode the data from the PDF form](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-782e.2)
+1. Decode the data from the PDF form
 
    Decode the form data by invoking the `BarcodedFormsServiceClient` object’s `decode` method and passing the following values:
 
@@ -134,7 +134,7 @@ Decode form data by using the barcoded forms API(Java):
 
    The `decode` method returns an `org.w3c.dom.Document` object that contains decoded form data. 
 
-1. [Convert the data to an XML data source](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-782d.2)
+1. Convert the data to an XML data source
 
    Convert the decoded data into either XDP or XFDF data by invoking the `BarcodedFormsServiceClient` object’s `extractToXML` method and passing the following values:
 
@@ -149,7 +149,7 @@ Decode form data by using the barcoded forms API(Java):
 
    The `extractToXML` method returns a `java.util.List` object where each element is an `org.w3c.dom.Document` object. There is a separate element for each barcode that is located on the form. That is, if there are four barcodes on the form, then there are four elements in the returned `java.util.List` object.
 
-1. [Process the decoded data](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-782c.2)
+1. Process the decoded data
 
     * Iterate through the `java.util.List` object to get each `org.w3c.dom.Document` object that is located in the list. 
     * For each element in the list, convert the `org.w3c.dom.Document` object to a `com.adobe.idp.Document` object. (The application logic that converts a `org.w3c.dom.Document` object into a `com.adobe.idp.Document` object is shown in the Decoding barcoded form data using the Java API example). 
@@ -167,16 +167,16 @@ Decode form data by using the barcoded forms API(Java):
 
 Decode form data by using the barcoded forms API(web service):
 
-1. [Include project files](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-7831.2)
+1. Include project files
 
     * Create a Microsoft .NET client assembly that consumes the barcoded forms service WSDL. For information, see [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).
     * Reference the Microsoft .NET client assembly. For information, see “Referencing the .NET client assembly” in [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding).
 
-1. [Create a barcoded forms Client API object](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-7830.2)
+1. Create a barcoded forms Client API object
 
    Using the Microsoft .NET client assembly that consumes the barcoded forms service WSDL, create an `BarcodedFormsServiceService` object by invoking its default constructor.
 
-1. [Get a PDF form that contains barcoded data](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-782f.2)
+1. Get a PDF form that contains barcoded data
 
     * Create a `BLOB` object by using its constructor. The `BLOB` object is used to store a PDF document that contains a barcode.
     * Create a `System.IO.FileStream` object by invoking its constructor and passing a string value that represents the file location of the PDF document and the mode in which to open the file. 
@@ -184,7 +184,7 @@ Decode form data by using the barcoded forms API(web service):
     * Populate the byte array with stream data by invoking the `System.IO.FileStream` object’s `Read` method and passing the byte array, the starting position, and the stream length to read.
     * Populate the `BLOB` object by assigning its `binaryData` property with the contents of the byte array.
 
-1. [Decode the data from the PDF form](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-782e.2)
+1. Decode the data from the PDF form
 
    Decode the form data by invoking the `BarcodedFormsServiceService` object’s `decode` method and passing the following values:
 
@@ -201,7 +201,7 @@ Decode form data by using the barcoded forms API(web service):
 
    The `decode` method returns a string value that contains decoded form data. 
 
-1. [Convert the data to an XML data source](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-782d.2)
+1. Convert the data to an XML data source
 
    Convert the decoded data into either XDP or XFDF data by invoking the `BarcodedFormsServiceService` object’s `extractToXML` method and passing the following values:
 
@@ -216,7 +216,7 @@ Decode form data by using the barcoded forms API(web service):
 
    The `extractToXML` method returns an `Object` array where each element is an `BLOB` instance. There is a separate element for each barcode that is located on the form. That is, if there are four barcodes on the form, then there are four elements in the returned `Object` array.
 
-1. [Process the decoded data](unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-782c.2)
+1. Process the decoded data
 
     * Create a `System.IO.FileStream` object by invoking its constructor and passing a string value that represents the file location of the secured PDF document.
     * Create a byte array that stores the data content of the `BLOB` object that was returned by the `encryptPDFUsingPassword` method. Populate the byte array by getting the value of the `BLOB` object’s `binaryData` data member.
@@ -224,7 +224,5 @@ Decode form data by using the barcoded forms API(web service):
     * Write the contents of the byte array to a PDF file by invoking the `System.IO.BinaryWriter` object’s `Write` method and passing the byte array.
 
 **See also**
-
-[Quick Start (Base64): Decoding barcoded form data using the web service API](unresolvedlink-lc-qs-barcoded-forms-bf.xml#ws624e3cba99b79e12e69a9941333732bac8-7f3d.2)
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)

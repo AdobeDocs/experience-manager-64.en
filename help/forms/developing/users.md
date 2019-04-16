@@ -100,7 +100,7 @@ An `objectSID` value would change if an object is moved from one Active Director
 
 ## Adding Users {#adding-users}
 
-You can use the Directory Manager Service API (Java and web service) to programmatically add users to AEM Forms. After you add a user, you can use that user when performing a service operation that requires a user. For example, you can assign a task to the new user. (See [Assigning Tasks](/help/forms/developing/processes-tasks.md#assigning-tasks).)
+You can use the Directory Manager Service API (Java and web service) to programmatically add users to AEM Forms. After you add a user, you can use that user when performing a service operation that requires a user. For example, you can assign a task to the new user.
 
 ### Summary of steps {#summary-of-steps}
 
@@ -196,7 +196,7 @@ Add users by using the Directory Manager Service API (Java):
 
 [Summary of steps](users.md#summary-of-steps)
 
-[Quick Start (SOAP mode): Adding users using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdc.2)
+[Quick Start (SOAP mode): Adding users using the Java API](/help/forms/developing/user-manager-java-api-quick.md#quick-start-soap-mode-adding-users-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -255,10 +255,6 @@ Add users by using the Directory Manager Service API (web service):
 **See also**
 
 [Summary of steps](users.md#summary-of-steps)
-
-[Quick Start (MTOM): Adding users using the web service API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdb.2)
-
-[Quick Start (SwaRef): Adding users using the web service API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bda.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -333,7 +329,7 @@ Delete users by using the Directory Manager Service API (Java):
 
 [Quick Start (EJB mode): Deleting users using the Java API](/help/forms/developing/user-manager-java-api-quick.md#quick-start-soap-mode-deleting-users-using-the-java-api)
 
-[Quick Start (SOAP mode): Deleting users using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd7.2)
+[Quick Start (SOAP mode): Deleting users using the Java API](/help/forms/developing/user-manager-java-api-quick.md#quick-start-soap-mode-deleting-users-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -373,10 +369,6 @@ Delete users by using the Directory Manager Service API (web service):
 **See also**
 
 [Summary of steps](users.md#summary-of-steps)
-
-[Quick Start (MTOM): Deleting users using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd0.2)
-
-[Quick Start (SwaRef): Deleting users using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bcd.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -560,8 +552,6 @@ To programmatically manage users, groups, and domains using the (Java), perform 
 
 [Summary of steps](users.md#summary-of-steps)
 
-[Quick Start (SOAP): Managing users and groups using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bc7.2)
-
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
 [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
@@ -598,8 +588,6 @@ To programmatically manage users, groups, and domains using the Directory Manage
 **See also**
 
 [Summary of steps](users.md#summary-of-steps)
-
-[Quick Start (MTOM): Managing users and groups using the web service API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7251.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -673,7 +661,7 @@ To manage roles and permissions using the Authorization Manager Service API (Jav
 
 [Summary of steps](users.md#summary-of-steps)
 
-[Quick Start (SOAP mode): Managing roles and permissions using the Java API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbe.2)
+[Quick Start (SOAP mode): Managing roles and permissions using the Java API](/help/forms/developing/user-manager-java-api-quick.md#quick-start-soap-mode-managing-roles-and-permissions-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 
@@ -719,8 +707,6 @@ Manage roles and permissions by using the Authorization Manager Service API (web
 **See also**
 
 [Summary of steps](users.md#summary-of-steps)
-
-[Quick Start (MTOM): Managing roles and permissions using the web service API](unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbd.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 
@@ -851,10 +837,6 @@ Authenticate a user using the Authentication Manager Service API (web service):
     * The returned value will be an `AuthResult` object, which can be used to retrieve information about the user. In the example below, the user’s information is retrieved by first obtaining the `AuthResult` object’s `authenticatedUser` field and subsequently obtaining the resultant `User` object’s `canonicalName` and `domainName` fields.
 
 **See also**
-
-[Quick Start (MTOM): Removing a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c07.2)
-
-[Quick Start (SwaRef): Removing a digital signature using the web service API](unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c06.2)
 
 [Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
 

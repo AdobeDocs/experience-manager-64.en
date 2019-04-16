@@ -121,7 +121,7 @@ When PDF documents have the appropriate usage rights added, recipients can do th
 
 These special user capabilities are automatically activated when a rights-enabled PDF document is opened within Adobe Reader. When the user has finished working with a rights-enabled document, those functions are again disabled in Adobe Reader. They remain disabled until the user receives another rights-enabled PDF document.
 
-Out of the box, the DocAssurance service is not available for use. To configure the DocAssurance service, see [Configuring Document Services](/forms/using/configuring-document-services.md).
+Out of the box, the DocAssurance service is not available for use. To configure the DocAssurance service, see [Configuring Document Services](../../forms/using/install-configure-document-services.md).
 
 ## Send To Printer Service {#send-to-printer-service}
 

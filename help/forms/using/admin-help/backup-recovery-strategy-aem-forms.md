@@ -39,7 +39,7 @@ The database is used to store form artifacts, service configurations, process st
 
     * Use the Backup Settings page in Administration Console. To enter snapshot mode, select the Operate In Safe Backup Mode checkbox. Deselect the checkbox to exit snapshot mode.
     * Use the LCBackupMode script (see [Back up the database, GDS, and Content Storage Root directories](../../../forms/using/admin-help/backing-aem-forms-data.md#back-up-the-database-gds-aem-repository-and-content-storage-root-directories)). To exit snapshot backup mode, in the script argument, set the `continuousCoverage` parameter to `false` or use the `leaveContinuousCoverage` option.
-    * Use the supplied Backup/Recovery API (see AEM forms API Reference section on AEM Forms [Help and Tutorials](/forms/using/topics.md) page).
+    * Use the supplied Backup/Recovery API. <!-- Fix broken link(see AEM forms API Reference section on AEM Forms Help and Tutorials page).-->
 
 * **Rolling backup** mode indicates that the system is always in backup mode, with a new backup mode session being initiated as soon as the previous session is released. No time out is associated with rolling backup mode. When the LCBackupMode script or APIs are called to leave rolling backup mode, a new rolling backup mode session begins. This mode is useful for supporting continuous backups but still allowing old and unneeded documents to be cleaned out of the GDS directory. Rolling backup mode is not supported through the Backup and Recovery page. After a recovery scenario, rolling backup mode is still enabled. You can leave the continuous backup mode (rolling backup mode) by using the LCBackupMode script with the `leaveContinuousCoverage` option.
 

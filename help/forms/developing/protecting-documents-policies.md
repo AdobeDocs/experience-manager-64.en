@@ -45,7 +45,7 @@ You can accomplish these tasks using the Document Security service:
 
 >[!NOTE]
 >
->For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63). For examples of working with policies, see the “Document Security Service API Quick Starts” in [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples).
+>For more information about the Document Security service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Creating Policies {#creating-policies}
 
@@ -253,7 +253,7 @@ Create a policy by using the Document Security API (Java):
    >
    >When creating a policy, reference an existing policy set. If you specify a policy set that does not exist, then an exception is thrown.
 
-For code examples using the Document Security service, see the following Quick Starts in *[API Quick Starts (Code Examples)](programming-with-aem-forms.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following:
 
 * “Quick Start (SOAP mode): Creating a policy using the Java API”
 

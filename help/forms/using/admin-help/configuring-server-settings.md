@@ -73,7 +73,7 @@ You configure the following types of notifications for users and groups:
 * task assignments
 * deadlines
 
-To generate email notifications for a group, specify an email address for the group in User Management. (See [Setting up and organizing users](/forms/using/admin-help/setting-up-and-organizing-users.md).) When forms workflow sends an email notification to a group, each member within the group who has an email address specified receives the email notification. When a member of the group receives an email notification and wants to claim the task, the member must click the claim link in the email notification, which opens the task details page in Workspace. From there, the member can either claim or claim and open the work item.
+To generate email notifications for a group, specify an email address for the group in User Management. <!--Fix broken link See Setting up and organizing users -->When forms workflow sends an email notification to a group, each member within the group who has an email address specified receives the email notification. When a member of the group receives an email notification and wants to claim the task, the member must click the claim link in the email notification, which opens the task details page in Workspace. From there, the member can either claim or claim and open the work item.
 
 >[!NOTE]
 >

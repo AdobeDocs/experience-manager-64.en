@@ -82,8 +82,6 @@ Disassemble a PDF document by using the Assembler Service API (web service):
 
 **See also**
 
-[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents-programmatically.md#programmatically-disassembling-pdf-documents)
+[Programmatically Disassembling PDF Documents](/help/forms/developing/programmatically-disassembling-pdf-documents.md#programmatically-disassembling-pdf-documents)
 
-[Quick Start (MTOM): Disassembling a PDF document using the web service API](unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb1.2)
-
-[Invoking AEM Forms using MTOM](unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)
+[Invoking AEM Forms using MTOM](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-mtom)
