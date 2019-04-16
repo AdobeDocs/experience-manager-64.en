@@ -140,7 +140,7 @@ In order for the email to be brought into the repository, it is necessary to con
 
 * **Type **: *(required)* Pull down to select `POP3 (over SSL).`
 
-* **URL **: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-email@gmail.com&password=****`
+* **URL **: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-emailgmail.com&password=****`
 
 * **Import to Path&#42;**: *(required)* Set to `/content/usergenerated/mailFolder/postEmails`  
   by browsing to the `postEmails`folder and select **OK**
