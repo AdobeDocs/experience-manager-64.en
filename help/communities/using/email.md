@@ -133,16 +133,14 @@ In order for the email to be brought into the repository, it is necessary to con
 * on the primary publisher
 * signed in with administrator privileges
 * browse to the polling importer console
-
-    * for example, [http://localhost:4503/etc/importers/polling.html](http://localhost:4503/etc/importers/polling.html)
-
+    for example, [http://localhost:4503/etc/importers/polling.html](http://localhost:4503/etc/importers/polling.html)
 * select **Add**
 
 ![](assets/chlimage_1-102.png)
 
 * **Type **: *(required)* Pull down to select `POP3 (over SSL).`
 
-* **URL **: *(required)* The outbound mail server. For example, `//pop.gmail.com: 995/INBOX?username=community-email@gmail.com&password=****`
+* **URL **: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-email@gmail.com&password=****`
 
 * **Import to Path&#42;**: *(required)* Set to `/content/usergenerated/mailFolder/postEmails`  
   by browsing to the `postEmails`folder and select **OK**
