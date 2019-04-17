@@ -15,11 +15,11 @@ discoiquuid: 6fe1c5c5-deb7-4405-82e4-23e0f90e2bd8
 
 Replication agents are central to Adobe Experience Manager (AEM) as the mechanism used to:
 
-* [Publish (activate)](../../../sites/authoring/using/publishing-pages.md#activatingcontent) content from an author to a publish environment.
+* [Publish (activate)](../../../sites/authoring/using/publishing-pages.md#publishing-pages) content from an author to a publish environment.
 * Explicitly flush content from the Dispatcher cache.
 * Return user input (for example, form input) from the publish environment to the author environment (under control of the author environment).
 
-Requests are [queued](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingjobeventhandler) to the appropriate agent for processing.
+Requests are [queued](../../../sites/deploying/using/osgi-configuration-settings.md) to the appropriate agent for processing.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Replication, to a publish instance or dispatcher, takes place in several steps:
 * the author requests that certain content be published (activated); this can be initiated by a manual request, or by automatic triggers which have been preconfigured.
 * the request is passed to the appropriate default replication agent; an environment can have several default agents which will always be selected for such actions.
 * the replication agent "packages" the content and places it in the replication queue.
-* in the Websites tab the [colored status indicator](../../../sites/authoring/using/publishing-pages.md#determiningpagepublicationstatus) is set for the individual pages.
+* in the Websites tab the [colored status indicator](../../../sites/authoring/using/publishing-pages.md#determining-publication-status) is set for the individual pages.
 * the content is lifted from the queue and transported to the publish environment using the configured protocol; usually this is HTTP.
 * a servlet in the publish environment receives the request and publishes the received content; the default servlet is `http://localhost:4503/bin/receive`.  
 
@@ -104,7 +104,7 @@ The following agents are available in a standard AEM installation:
 * Dispatcher Flush  
   This is used for managing the Dispatcher cache. See [Invalidating Dispatcher Cache from the Authoring Environment](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-the-authoring-environment) and [Invalidating Dispatcher Cache from a Publishing Instance](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-a-publishing-instance) for more information.
 
-* [Reverse Replication](#reverse-replication-publish-to-author)  
+* [Reverse Replication](#replicating-from-publish-to-author)  
   Used for replicating from publish to author. Reverse replication is not used for Communities features, such as forums, blogs, and comments. It is effectively disabled as the outbox is not enabled. Use of reverse replication would require custom configuration.
 
 * Static Agent  
@@ -442,7 +442,7 @@ If you encounter any problems, you can check the logs on the author instance. De
 
 >[!NOTE]
 >
->This can be combined with use of the [Agent User Id](#agentuserid) to select different content for replicating to the individual publish environments. For each publish environment:  
+>This can be combined with use of the [Agent User Id](#settings) to select different content for replicating to the individual publish environments. For each publish environment:  
 
 >
 >1. Configure a replication agent for replicating to that publish environment.

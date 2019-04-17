@@ -41,7 +41,7 @@ For easier reference to the AEM instances involved in these procedures, the foll
 
 The following are major changes of note over the last several releases of AEM:
 
-AEM 6.0 introduced the new Jackrabbit Oak repository. Persistence Managers were replaced by [Micro Kernels](../../../sites/deploying/using/platform.md#contentbody-title-4). Starting from version 6.1, CRX2 is no longer supported. A migration tool called crx2oak needs to be run to migrate CRX2 repositories from 5.6.1 instances. For more information, see [Using the CRX2OAK Migration Tool](../../../sites/deploying/using/using-crx2oak.md).
+AEM 6.0 introduced the new Jackrabbit Oak repository. Persistence Managers were replaced by [Micro Kernels](../../../sites/deploying/using/recommended-deploys.md). Starting from version 6.1, CRX2 is no longer supported. A migration tool called crx2oak needs to be run to migrate CRX2 repositories from 5.6.1 instances. For more information, see [Using the CRX2OAK Migration Tool](../../../sites/deploying/using/using-crx2oak.md).
 
 If Asset Insights is to be used and you are upgrading from a version older than AEM 6.2, assets must be migrated and have IDs generated through a JMX bean. In our internal tests, 125K assets on a TarMK environment were migrated in an hour, but your results may vary.
 
