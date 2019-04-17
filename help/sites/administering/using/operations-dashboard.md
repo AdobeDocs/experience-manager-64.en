@@ -481,13 +481,6 @@ The page displays:
 
 By default, the slowest 20 page requests are captured, but the limit can be modified in the Configuration Manager.
 
-In order to modify the number of slowest requests captured, you need to:
-
-1. Go to the Web Configuration Manager by accessing `https://serveraddress:port/system/console/configMgr`
-1. Look for an entry called **Adobe Granite Timed Requests Logger.**
-1. Click on the Edit button and modify the **Longest requests history size** property.
-1. Save the changes.
-
 ### Query Performance {#query-performance}
 
 The Query Performance page allows the analysis of the slowest queries performed by the system. This information is provided by the repository in a JMX Mbean. In Jackrabbit, the `com.adobe.granite.QueryStat` JMX Mbean provides this information, while in the Oak repository, it is offered by `org.apache.jackrabbit.oak.QueryStats.`
