@@ -39,7 +39,7 @@ Additionally, you can also read the [official Oak documentation.](https://jackra
 
 Online Revision Cleanup is configured by default to automatically run once a day on both AEM Author and Publish instances. All you need to do is define the maintenance window during a period with the least user activity. You can configure the Online Revision Cleanup task as follows:
 
-1. In the main AEM window, go to **Tools - Operations - Dashboard - Maintenance** or point your browser to: https://serveraddress:serverport/libs/granite/operations/content/maintenance.html
+1. In the main AEM window, go to **Tools - Operations - Dashboard - Maintenance** or point your browser to: `https://serveraddress:serverport/libs/granite/operations/content/maintenance.html`
 
    ![](assets/chlimage_1-90.png)
 
@@ -53,7 +53,7 @@ Online Revision Cleanup is configured by default to automatically run once a day
 
 Alternatively, if you want to run the revision cleanup task manually, you can:
 
-1. Go to **Tools - Operations - Dashboard - Maintenance** or browse directly to https://serveraddress:serverport/libs/granite/operations/content/maintenance.html
+1. Go to **Tools - Operations - Dashboard - Maintenance** or browse directly to `https://serveraddress:serverport/libs/granite/operations/content/maintenance.html`
 1. Click the **Daily Maintenance Window**.
 1. Hover over the **Revision Cleanup** icon.
 1. Click **Run**.

@@ -28,7 +28,7 @@ AEM is shipped with various mechanisms to help you manage your repository:
 * the [Version Manager](#version-manager)  
   This can be configured to purge old versions when new versions are created.  
 
-* the [Purge Versions](../../../sites/deploying/using/monitoring-and-maintaining.md#purgeversionstool)** **tool  
+* the [Purge Versions](../../../sites/deploying/using/monitoring-and-maintaining.md#version-purging) tool  
   This is used as part of monitoring and maintaining your repository.  
   It allows you to intervene to remove old versions of a node, or a hierarchy of nodes, according to these parameters:
 

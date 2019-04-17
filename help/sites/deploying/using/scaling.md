@@ -62,7 +62,7 @@ In CQ 5.6.1 **Author Offload** is the preferred solution. It consists of the fol
 
 * **Separate Processing and Editing Instances**: Install a *processing* author instance, separate from the normal *editing* author instance.
 
-* **Offload the Processing Step**: Asset ingestion is initiated by a user on the editing author. During the asset ingestion workflow, the step that does the actual processing is offloaded to the processing instance. This ensures that the high load task does not interrupt the normal everyday authoring activity, which still continues on the editing instance. See [Offloading Jobs](/content/docs/en/aem/6-1/deploy/configuring/offloading.md).
+* **Offload the Processing Step**: Asset ingestion is initiated by a user on the editing author. During the asset ingestion workflow, the step that does the actual processing is offloaded to the processing instance. This ensures that the high load task does not interrupt the normal everyday authoring activity, which still continues on the editing instance. See [Offloading Jobs](/../../../sites/deploying/using/offloading.md).
 
 * **Use Binaryless Replication and Shared Data Store**: Configure a Shared Data Store between the processing and editing instances (and potentially, the publish instance). Configure binaryless replication between the processing instance and the editing instance (and between the editing instance and the publish instance, if it too shares the same data store). Once ingestion of an asset is complete and its various renditions have been created, the workflow should replicate the resulting assets back to the editing instance.  
   
@@ -293,7 +293,7 @@ Caching goes hand in hand with optimizing your deployment and custom development
 
 There are many factors which influence your instances' performances, which are documented elsewhere in greater depth:
 
-* [Performance Optimization](/content/docs/en/aem/6-1/deploy/configuring/performance.md) (AEM Documentation)
+* [Performance Optimization](/../../../sites/deploying/using/performance-guidelines.md) (AEM Documentation)
 * [CQ Development - Guidelines and Best Practices](/content/docs/en/aem/6-1/develop/the-basics/dev-guidelines-bestpractices.md)
 * [Performance Tuning Tips](https://helpx.adobe.com/cq/kb/performancetuningtips.html) (Knowledge Base Article)
 * [DAM Performance Guide](/content/docs/en/aem/6-1/deploy/configuring/performance/assets-performance-sizing.md)
