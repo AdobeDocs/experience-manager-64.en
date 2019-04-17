@@ -1113,7 +1113,7 @@ If your system is either running out of diskspace, or you notice disk thrashing 
 
     * [Apache Sling JSP Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
     * [Apache Sling Java Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
-    * [Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingconfiguration)
+    * [Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
     * [CQ HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
     * [CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
     * [Loggers](../../../sites/deploying/using/monitoring-and-maintaining.md#activating-the-debug-log-level) [](../../../sites/deploying/using/configuring.md#logging)

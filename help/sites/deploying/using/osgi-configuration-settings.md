@@ -49,7 +49,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 
 **CRX Sling Client Repository** Configure access to the underlying content repository.
 
-* The **Admin Password** should be changed after installation to ensure the [security](/content/docs/en/aem/6-3/deploy/security_checklist.md) of your instance.
+* The **Admin Password** should be changed after installation to ensure the [security](../../../sites/administering/using/security-checklist.md) of your instance.
 
 * Other changes should not be necessary and care must be taken as they can affect access to the repository.
 
@@ -64,7 +64,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 >Be sure to configure the following:
 >
 >**User Name** and **Password**, the credentials for accessing the Apache Felix Web Management Console itself.  
->The password must be changed after the initial installation to ensure the [security](/content/docs/en/aem/6-3/deploy/security_checklist.md) of your instance.
+>The password must be changed after the initial installation to ensure the [security](../../../sites/administering/using/security-checklist.md) of your instance.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 **Apache Sling Customizable Request Data Logger** Configure:
 
 * **Logger Name** and **Log Format** to configure the location and format of request and access logging (default: `request.log`). This log file is essential when analyzing performance or debugging functionality related to the web chain.  
-  This is paired with the [Apache Sling Request Logger](#apacheslingrequestlogger).
+  This is paired with the Apache Sling Request Logger.
 
 For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
@@ -198,7 +198,7 @@ See the [Security Checklist - Issues with Cross-Site Request Forgery](../../../s
 
 * **Enable Access Log**, to enable or disable.
 
-This is paired with the [Apache Sling Customizable Request Data Logger](#apacheslingcustomizablerequestdatalogger).
+This is paired with the Apache Sling Customizable Request Data Logger.
 
 For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
