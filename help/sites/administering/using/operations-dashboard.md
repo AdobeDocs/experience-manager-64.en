@@ -535,7 +535,7 @@ The purpose of the Index Manager is to facilitate index management such as maint
 
 It can be accessed by going to **Tools - Operations - Diagnosis **from the Welcome Screen, and then clicking the **Index Manager** button.
 
-It can also be accessed directly at this URL: `https://serveraddress:port/libs/granite/operations/content/diagnosis/tool.html/_granite_oakindexmanager`
+It can also be accessed directly at this URL: `https://serveraddress:port/libs/granite/operations/content/diagnosistools/indexManager.html`
 
 ![](assets/chlimage_1-424.png)
 
