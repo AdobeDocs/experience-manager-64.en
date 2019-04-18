@@ -188,7 +188,7 @@ When the site visitor is signed in, depending on the configuration, they may
 
 Site visitors who are not signed in may only read posted questions and answers, translate them if supported, but may not add neither a question nor answer, nor flag others' posts.
 
-# Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [QnA Essentials](../../communities/using/qna-essentials.md) page for developers.
 

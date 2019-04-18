@@ -17,26 +17,26 @@ discoiquuid: bc8c9aa2-f669-41f3-a526-6146ff5cf0cd
 
 Following the [In-Place Upgrade](../../../sites/deploying/using/in-place-upgrade.md) the following activities should be executed to finalize the upgrade. It is assumed AEM has been started with the 6.4 jar and that the upgraded code base has been deployed.
 
-* [Verify logs for upgrade success](#main-pars-header-290365562)  
+* [Verify logs for upgrade success](#verify-logs-for-upgrade-success)  
 
-* [Verify OSGi Bundles](#main-pars-header-1637350649)  
+* [Verify OSGi Bundles](#verify-osgi-bundles)  
 
-* [Verify Oak Version](#main-pars-header-1293049773)  
+* [Verify Oak Version](#verify-oak-version)  
 
-* [Inspect the PreUpgradeBackup folder](#main-pars-header-988995987)  
+* [Inspect the PreUpgradeBackup folder](#inspect-preupgradebackup-folder)  
 
-* [Initial Validation of Pages](#main-pars-header-20827371)
-* [Apply AEM Service Packs](#main-pars-header-215142387)  
+* [Initial Validation of Pages](#initial-validation-of-pages)
+* [Apply AEM Service Packs](#apply-aem-service-packs)  
 
-* [Migrate AEM features](#main-pars-header-1434457709)  
+* [Migrate AEM features](#migrate-aem-features)  
 
-* [Verify Scheduled Maintenance Configurations](#main-pars-header-1552730183)  
+* [Verify Scheduled Maintenance Configurations](#verify-scheduled-maintenance-configurations)  
 
-* [Enable Replication Agents](#main-pars-header-823243751)  
+* [Enable Replication Agents](#enable-replication-agents)  
 
-* [Enable Custom Scheduled Jobs](#main-pars-header-244535083)  
+* [Enable Custom Scheduled Jobs](#enable-custom-scheduled-jobs)  
 
-* [Execute Test Plan](#main-pars-header-1167972233)
+* [Execute Test Plan](#execute-test-plan)
 
 ### Verify logs for Upgrade Success {#verify-logs-for-upgrade-success}
 
@@ -63,7 +63,7 @@ Here is a sample report that shows a bundle that was not installed during the up
 
 **error.log**
 
-The error.log should be carefully reviewed during and following the start up of AEM using the target version jar. Any warnings or errors should be reviewed. In general it is best to look for issues at the beginning of the log. Errors that occur later in the log may actually be side-effects of a root cause that is called out early in the file. If repeated errors and warnings occur see below for [Analyzing Issues with the Upgrade](../../../sites/deploying/using/post-upgrade-checks-and-troubleshooting.md#analyzing-issues-with-the-upgrade).
+The error.log should be carefully reviewed during and following the start up of AEM using the target version jar. Any warnings or errors should be reviewed. In general it is best to look for issues at the beginning of the log. Errors that occur later in the log may actually be side-effects of a root cause that is called out early in the file. If repeated errors and warnings occur see below for [Analyzing Issues with the Upgrade](../../../sites/deploying/using/post-upgrade-checks-and-troubleshooting.md#analyzing-issues-with-upgrade).
 
 ### Verify OSGi Bundles {#verify-osgi-bundles}
 

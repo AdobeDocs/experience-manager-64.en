@@ -17,7 +17,7 @@ discoiquuid: 5e903df9-6591-46e8-9251-45170c78aa21
 >
 >This page refers to recommended topologies for AEM. For more information on clustering capabilities and how to configure them, see the [Apache Sling Discovery API documentation](https://sling.apache.org/documentation/bundles/discovery-api-and-impl.html).
 
-MicroKernels act as persistence managers in AEM 6.2. Choosing one to fit your needs depends on the purpose of your instance and the deployment type you are considering.
+MicroKernels act as persistence managers in AEM 6.4. Choosing one to fit your needs depends on the purpose of your instance and the deployment type you are considering.
 
 The below examples are meant to be an indication of what are their recommended uses in the most common AEM setups.
 
@@ -188,7 +188,7 @@ A set of prerequisites and recommendations is available if you are considering a
 
 ### Considerations for AEM Communities {#considerations-for-aem-communities}
 
-For sites which plan to deploy [AEM Communities](../../../communities/using/overview.md), it is recommended to [choose a deployment](../../../communities/using/working-with-srp.md#characteristicsofstorageoptions) optimized for handling UGC posted by community members from the publish environment.
+For sites which plan to deploy [AEM Communities](../../../communities/using/overview.md), it is recommended to [choose a deployment](../../../communities/using/working-with-srp.md) optimized for handling UGC posted by community members from the publish environment.
 
 By using a [common store](../../../communities/using/working-with-srp.md), UGC does not need to be replicated between author and other publish instances in order to obtain a consistent view of the UGC.
 

@@ -65,13 +65,17 @@ See [Installing Feature Pack 18912](bulk-ingest-migrate.md) for more information
 
 **Before you configure Dynamic Media Cloud Services**: After you receive your provisioning email with Dynamic Media credentials, you must [log in](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) to Dynamic Media Classic to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that Dynamic Media Cloud Service is set up with the correct credentials.
 
+   >[!NOTE]
+   >
+   >By default, the configuration path for Cloud Services is `/content/dam`. Any other configuration path is not support by Dynamic Media - Scene7 mode.
+
 To configure dynamic media cloud services:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon, then tap or click **Cloud Services** &gt; **Dynamic Media Configuration**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap the Tools icon, then tap **Cloud Services** &gt; **Dynamic Media Configuration**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, tap **global** (do not tap or select the folder icon to the left of **global**), then tap **Create**.
 1. On the Create Dynamic Media Configuration page, enter a title, the Dynamic Media account email address, password, then select your region. These are provided to you by Adobe in the provisioning email. Please contact support if you did not receive this.
 
-   Click **Connect to Dynamic Media**.
+   Tap **Connect to Dynamic Media**.
 
    >[!NOTE]
    >
@@ -97,16 +101,16 @@ To configure dynamic media cloud services:
 
    ![](assets/dynamicmediaconfiguration2updated.png)
 
-1. Tap or click **Save**.
+1. Tap **Save**.
 1. To securely preview Dynamic Media content before it gets published, you will need to "whitelist" the AEM author instance to connect to Dynamic Media:
 
     * Log on to your Dynamic Media Classic account: [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html). Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
-    * On the navigation bar near the top right of the page, click **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server**.
+    * On the navigation bar near the top right of the page, tap **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server**.
     
     * On the Image Server Publish page, in the Publish Context drop-down list, select **Test Image Serving**.
-    * For the Client Address Filter, click **Add**.
+    * For the Client Address Filter, tap **Add**.
     * Select the check box to enable (turn on) the address, and then enter the IP address of the AEM Author instance (not Dispatcher IP).
-    * Click **Save.**
+    * Tap **Save.**
 
 You are now finished with the basic configuration; you are ready to use Dynamic Media - Scene7 mode.
 
@@ -139,23 +143,23 @@ Setup and configuration tasks include the following:
 
 The Publish Setup settings determine how assets are delivered by default from Dynamic Media. If no setting is specified, Dynamic Media delivers an asset according to the default settings defined in Publish Setup. For example, a request to deliver an image that does not include a resolution attribute yields an image with the Default Object Resolution setting.
 
-To configure Publish Setup: in Dynamic Media Classic, click **Setup** &gt; **Application Setup** &gt; **Publish Setup &gt; Image Server**.
+To configure Publish Setup: in Dynamic Media Classic, tap **Setup** &gt; **Application Setup** &gt; **Publish Setup &gt; Image Server**.
 
 The Image Server screen establishes default settings for delivering images. See the UI screen for description of each setting.
 
 * **Request Attributes** - These settings impose limits on images that can be delivered from the server.
 * **Default Request Attributes** - These settings pertain to the default appearance of images.
 * **Common Thumbnail Attributes** - These settings pertain to the default appearance of thumbnail images.
-* **Defaults for Catalog Fields **- These settings pertain to the resolution and default thumbnail type of images.
+* **Defaults for Catalog Fields** - These settings pertain to the resolution and default thumbnail type of images.
 * **Color Management Attributes** - These settings determine which ICC color profiles are used.
 * **Compatibility Attributes** - This setting enables leading and trailing paragraphs in text layers to be treated as they were in version 3.6 for backwards compatibility.
 * **Localization Support** - These settings let you manage multiple locale attributes. It also lets you specify a locale map string so you can define which languages you want to support for the various tooltips in Viewers. For more information about setting up **Localization Support**, see [Considerations when setting up localization of assets](https://help.adobe.com/en_US/scene7/using/WS997f1dc4cb0179f034e07dc31412799d19a-8000.html).
 
 #### Configuring application general settings {#configuring-application-general-settings}
 
-To open the Application General Settings page, in Dynamic Media Classic Global Navigation bar, click **Setup** &gt; **Application Setup** &gt; **General Settings**.
+To open the Application General Settings page, in Dynamic Media Classic Global Navigation bar, tap **Setup** &gt; **Application Setup** &gt; **General Settings**.
 
-**Servers - **On account provisioning, Dynamic Media automatically provides the assigned servers for your company. These servers are used to construct URL strings for your web site and applications. These URL calls are specific to your account. Do not change any of the server names unless explicitly instructed to do so by AEM support.
+**Servers** - On account provisioning, Dynamic Media automatically provides the assigned servers for your company. These servers are used to construct URL strings for your web site and applications. These URL calls are specific to your account. Do not change any of the server names unless explicitly instructed to do so by AEM support.
 
 **Overwrite Images** - Dynamic Media does not allow two files to have the same name. Each item's URL ID (the filename minus the extension) must be unique. These options specify how replacement assets are uploaded: whether they replace the original or become duplicate. Duplicate assets are renamed with a “-1” (for example, chair.tif is renamed chair-1.tif). These options affect assets uploaded to a different folder than the original or assets with a different filename extension from the original (such as JPG, TIF, or PNG).
 
@@ -192,7 +196,7 @@ To configure the default color properties to enable color correction when reques
     * RGB Default Color Space - Name of the default RGB color profile
     * Color Conversion Rendering Intent - Specifies the render intent. Acceptable values are: **perceptual, relative colometric, saturation, absolute colometric.** Adobe recommends **relative** as the default.
 
-1. Tap or click **Save**.
+1. Tap **Save**.
 
 For example, you could set the **RGB Default Color Space** to *sRGB*, and **CMYK Default Color Space** to *WebCoated.*
 
@@ -217,7 +221,7 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 **To configure asset processing**:
 
-1. In AEM, click the AEM logo to access the global navigation console, then click the Tools (hammer) icon and navigate to **General **&gt; **CRXDE Lite**.
+1. In AEM, tap the AEM logo to access the global navigation console, then tap the Tools (hammer) icon and navigate to **General **&gt; **CRXDE Lite**.
 1. In the left rail, navigate to the following:
 
    `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`
@@ -227,16 +231,16 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 1. Under the mimeTypes folder, select a mime type. 
 1. On the right side of the CRXDE Lite page, in the lower portion:
 
-    * double-click the **enabled **field. By default all asset mime types are enabled (set to **true**), which means the assets will be synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **false**.
+    * double-click the **enabled** field. By default all asset mime types are enabled (set to **true**), which means the assets will be synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **false**.
     
     * double-click **jobParam** to open its associated text field. See [Supported Mime Types](assets-formats.md#supported-mime-types) for a list of permitted processing parameter values you can use for a given mime type.
 
 1. Do one of the following:
 
     * Repeat steps 3-4 to edit additional mime types.
-    * On the menu bar of the CRXDE Lite page, click **Save All**.
+    * On the menu bar of the CRXDE Lite page, tap **Save All**.
 
-1. In the upper-left corner of the page, click **CRXDE Lite** to return to AEM.
+1. In the upper-left corner of the page, tap **CRXDE Lite** to return to AEM.
 
 #### Creating batch set presets to auto-generate Image Sets and Spin Sets {#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets}
 
@@ -262,7 +266,7 @@ Two elements are available for definition, Match and Base Name. These fields let
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
-1. On the navigation bar near the top of the page, click **Setup** &gt; **Application Setup** &gt; **Batch Set Presets **&gt; **Default Naming.**
+1. On the navigation bar near the top of the page, tap **Setup** &gt; **Application Setup** &gt; **Batch Set Presets** &gt; **Default Naming.**
 1. Select **View Form** or **View Code** to specify how you want to view and enter information about each element.
 
    You can select the View Code check box to view the regular expression value building alongside your form selections. You are able to enter or alter these values to help define the elements of the naming convention, if the form view limits you for any reason. If your values are unable to be parsed in the form view, the form fields become inactive.
@@ -274,13 +278,13 @@ Two elements are available for definition, Match and Base Name. These fields let
 1. Expand each element as necessary and enter the naming conventions you want to use.
 1. As necessary, do any of the following:
 
-    * Click **Add** to add another naming convention for an element.
-    * Click **Remove** to delete a naming convention for an element.
+    * Tap **Add** to add another naming convention for an element.
+    * Tap **Remove** to delete a naming convention for an element.
 
 1. Do one of the following:
 
-    * Click **Save As** and type a name for the preset.
-    * Click **Save** if you are editing an existing preset.
+    * Tap **Save As** and type a name for the preset.
+    * Tap **Save** if you are editing an existing preset.
 
 **Creating a Batch Set Preset**
 
@@ -296,18 +300,18 @@ You can use either the form field method to define a batch set preset or the cod
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
-1. On the navigation bar near the top of the page, click **Setup** &gt; **Application Setup** &gt; **Batch Set Presets **&gt; **Batch Set Preset.**
+1. On the navigation bar near the top of the page, tap **Setup** &gt; **Application Setup** &gt; **Batch Set Presets** &gt; **Batch Set Preset.**
 
    Note that **View Form**, as set in the upper-right corner of the Details page, is the default view.
 
-1. In the Preset List panel, click **Add** to activate the definition fields in the Details panel on the right hand side of the screen.
+1. In the Preset List panel, tap **Add** to activate the definition fields in the Details panel on the right hand side of the screen.
 1. In the Details panel, in the Preset Name field, type a name for the preset.
 1. In the Batch Set Type drop-down menu, select a preset type.
 1. Do one of the following:
 
-    * If you are using a default naming convention that you previously set up under **Application Setup** &gt; **Batch Set Presets** &gt; **Default Naming**, expand **Asset Naming Conventions**, and then in the File Naming drop-down list, click **Default**.
+    * If you are using a default naming convention that you previously set up under **Application Setup** &gt; **Batch Set Presets** &gt; **Default Naming**, expand **Asset Naming Conventions**, and then in the File Naming drop-down list, tap **Default**.
     
-    * To define a new naming convention as you set up the preset, expand **Asset Naming Conventions**, and then in the File Naming drop-down list, click **Custom**.
+    * To define a new naming convention as you set up the preset, expand **Asset Naming Conventions**, and then in the File Naming drop-down list, tap **Custom**.
 
 1. For Sequence order, define the order in which images are displayed after the set is grouped together in Dynamic Media.
 
@@ -317,8 +321,8 @@ You can use either the form field method to define a batch set preset or the cod
 
    If you define large numbers of sets, you may prefer to keep these separate from the folders that contain the assets themselves. For example, you can create an Image Sets folder and place generated sets here.
 
-1. In the Details panel, click **Save**.
-1. Click **Active** next to the new preset name.
+1. In the Details panel, tap **Save**.
+1. Tap **Active** next to the new preset name.
 
    Activating the preset ensures that when you upload assets to Dynamic Media, the batch set preset is applied to generate the set.
 
@@ -352,15 +356,15 @@ When the Spin Set is uploaded and published, you would activate the name of the 
 
    Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
-1. On the navigation bar near the top of the page, click **Setup** &gt; **Application Setup** &gt; **Batch Set Presets **&gt; **Batch Set Preset.**
+1. On the navigation bar near the top of the page, tap **Setup** &gt; **Application Setup** &gt; **Batch Set Presets** &gt; **Batch Set Preset.**
 
    Note that **View Form**, as set in the upper-right corner of the Details page, is the default view.
 
-1. In the Preset List panel, click **Add** to activate the definition fields in the Details panel on the right hand side of the screen.
+1. In the Preset List panel, tap **Add** to activate the definition fields in the Details panel on the right hand side of the screen.
 1. In the Details panel, in the Preset Name field, type a name for the preset.
 1. In the Batch Set Type drop-down menu, select **Asset Set**.
 1. In the Sub Type drop-down list, select **Multi-Axis Spin Set**.
-1. Expand **Asset Naming Conventions**, and then in the File Naming drop-down list, click **Custom**.
+1. Expand **Asset Naming Conventions**, and then in the File Naming drop-down list, tap **Custom**.
 1. Use the **Match** and, optionally, **Base Name** attributes to define a regular expression for the naming of image assets that make up the grouping.
 
    For example, your literal Match regular expression might look like the following:
@@ -399,8 +403,8 @@ When the Spin Set is uploaded and published, you would activate the name of the 
 
    If you define large numbers of sets, you may prefer to keep these separate from the folders that contain the assets themselves. For example, create a Spin Sets folder to place generated sets here.
 
-1. In the Details panel, click **Save**.
-1. Click **Active** next to the new preset name.
+1. In the Details panel, tap **Save**.
+1. Tap **Active** next to the new preset name.
 
    Activating the preset ensures that when you upload assets to Dynamic Media, the batch set preset is applied to generate the set.
 
@@ -416,7 +420,7 @@ To keep Dynamic Media (with dynamicmedia_scene7 runmode) running smoothly, Adobe
 
 The Granite Transit Workflow queue is used for the **DAM Update Asset** workflow. In Dynamic Media, it is used for image ingestion and processing.
 
-**To update the Granite Transient Workflow queue:**
+To update the Granite Transient Workflow queue:
 
 1. Navigate to [https://&lt;server&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr) and search for **Queue: Granite Transient Workflow Queue**.
 
@@ -432,7 +436,7 @@ The Granite Transit Workflow queue is used for the **DAM Update Asset** workflow
 
    ![](assets/chlimage_1.jpeg)
 
-1. Tap or click **Save**.
+1. Tap **Save**.
 
 #### Updating the Granite Workflow queue {#updating-the-granite-workflow-queue}
 
@@ -454,7 +458,7 @@ The Granite Workflow queue is used for non-transient workflows. In Dynamic Media
 
    ![](assets/chlimage_1-1.jpeg)
 
-1. Tap or click **Save**.
+1. Tap **Save**.
 
 #### Updating the Scene7 upload connection {#updating-the-scene-upload-connection}
 
@@ -465,7 +469,7 @@ The Scene7 Upload Connection setting synchronizes AEM assets to Dynamic Media Cl
 1. Navigate to `https://<server>/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl`
 1. In the **Number of connections** field and/or the **Active job timeout** field, change the number as desired.
 
-   The** Number of connections** setting controls the maximum number of HTTP connections allowed for AEM to Dynamic Media upload; typically, the predefined value of 10 connections is sufficient.
+   The **Number of connections** setting controls the maximum number of HTTP connections allowed for AEM to Dynamic Media upload; typically, the predefined value of 10 connections is sufficient.
 
    The **Active job timeout** setting determines the wait time for uploaded Dynamic Media assets to be published in delivery server. This value is 2100 seconds or 35 minutes by default.
 
@@ -473,7 +477,7 @@ The Scene7 Upload Connection setting synchronizes AEM assets to Dynamic Media Cl
 
    ![](assets/chlimage_1-2.jpeg)
 
-1. Tap or click **Save**.
+1. Tap **Save**.
 
 ### (Optional) Filtering assets for replication {#optional-filtering-assets-for-replication}
 
@@ -522,14 +526,14 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
 #### Customizing asset filters for replication {#customizing-asset-filters-for-replication}
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **General **&gt; **CRXDE Lite**.
+1. In AEM, tap the AEM logo to access the global navigation console and tap the Tools icon and navigate to **General** &gt; **CRXDE Lite**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
    ![](assets/chlimage_1-2.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
-   In the left rail, expand **content **> **dam **> **<`locate_your_asset`&gt;** &gt; **jcr:content** &gt; **metadata**, and then in the table, locate **dc:format**.
+   In the left rail, expand **content** > **dam** > **<`locate_your_asset`&gt;** &gt; **jcr:content** &gt; **metadata**, and then in the table, locate **dc:format**.
 
    The following graphic is an example of an asset's path to dc:format.
 

@@ -132,7 +132,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 16</strong></td> 
    <td>Profile server</td> 
-   <td><p>For information about profiling tools you can use with AEM, see <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#toolsformonitoringandanalyzingperformanc">Tools for Monitoring and Analyzing Performance</a>.<br /> </p> </td> 
+   <td><p>For information about profiling tools you can use with AEM, see <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#tools-for-monitoring-and-analyzing-performance">Tools for Monitoring and Analyzing Performance</a>.<br /> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 17</strong></td> 
@@ -154,7 +154,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
    <td>Out of memory</td> 
    <td><br /> 
     <ol> 
-     <li><a href="../../../sites/deploying/using/monitoring-and-maintaining.md#outofmemory">Out Of Memory</a></li> 
+     <li><a href="../../../sites/deploying/using/monitoring-and-maintaining.md#out-of-memory">Out Of Memory</a></li> 
      <li><a href="../../../sites/deploying/using/troubleshooting.md">My application throws out-of-memory errors</a></li> 
      <li><a href="https://helpx.adobe.com/experience-manager/kb/AnalyzeMemoryProblems.html">Analyze Memory Problems on Helpx.</a><br /> </li> 
     </ol> </td> 
@@ -162,7 +162,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 21</strong></td> 
    <td>Disk I/O</td> 
-   <td><p>See the <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#diski2fo">Disk I/O</a> section in the Monitoring and Maintaining documentation.</p> </td> 
+   <td><p>See the <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#disk-i-o">Disk I/O</a> section in the Monitoring and Maintaining documentation.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Steps 22 and 22.1</strong></td> 
@@ -287,7 +287,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 49</strong></td> 
    <td>Shrink payload size</td> 
-   <td><a href="../../../sites/deploying/using/osgi-configuration-settings.md#adobegranitehtmllibrarymanager">Enable Gzip</a> and <a href="https://docs.adobe.com/ddc/en/gems/aem-web-performance.html">shrink the image size</a>.<br /> </td> 
+   <td><a href="../../../sites/deploying/using/osgi-configuration-settings.md">Enable Gzip</a> and <a href="https://docs.adobe.com/ddc/en/gems/aem-web-performance.html">shrink the image size</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Steps 42 and 43</strong></td> 

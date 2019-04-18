@@ -18,8 +18,8 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 * [Custom Adaptive Video Encoding Configurations](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#custom-adaptive-video-encoding-configurations)
 * [Dynamic Media (DMS7) Cloud Configuration](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#dynamic-media-dms-cloud-configuration)
-* [Dynamic Media (DM Hybrid) Cloud Service Configuration](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#main-pars-header-501711721)
-* [Dynamic Media - YouTube Cloud Service Configuration](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#main-pars-header-1269596831)
+* [Dynamic Media (DM Hybrid) Cloud Service Configuration](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#cloudserviceconfiguration)
+* [Dynamic Media - YouTube Cloud Service Configuration](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#youtubecloudserviceconfiguration)
 * [Misc](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#misc)
 
 ## Prior to 6.5 Upgrade {#prior-to-upgrade}

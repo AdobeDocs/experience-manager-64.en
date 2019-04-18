@@ -232,7 +232,7 @@ The table below includes an additional column named "Configuration Type" to expl
      <li>Still loaded on the page (if the given path is selected in <strong>Page Properties &gt; Personalization &gt; Segments Path</strong>).</li> 
      <li>Can be used for content targetting.</li> 
     </ul> </td> 
-   <td>You can use the <a href="../../../sites/deploying/using/upgrading-code-and-customizations.md#migrateconfigurations" target="_blank">Segments Migration Tool</a> to migrate to the new location.</td> 
+   <td>You can use the <a href="../../../sites/deploying/using/upgrading-code-and-customizations.md" target="_blank">Segments Migration Tool</a> to migrate to the new location.</td> 
   </tr> 
   <tr> 
    <td>AEM Communities</td> 

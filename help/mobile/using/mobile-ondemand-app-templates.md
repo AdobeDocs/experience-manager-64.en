@@ -227,7 +227,7 @@ Once the component has already been included in an AEM page, along with a few ot
 * 
   Release Notes
 
-# Mobile with Content Sync {#mobile-with-content-sync}
+### Mobile with Content Sync {#mobile-with-content-sync}
 
 * 
   Deploying and Maintaining  
@@ -302,5 +302,5 @@ Once the component has already been included in an AEM page, along with a few ot
 * 
   Release Notes
 
-# Mobile with Content Sync {#mobile-with-content-sync-1}
+### Mobile with Content Sync {#mobile-with-content-sync-1}
 

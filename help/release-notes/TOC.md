@@ -8,7 +8,6 @@ user-guide: null
 # Table of Contents - AEM 6.4 - Release Notes {#table-of-contents}
 
 + [General Release Notes for Adobe Experience Manager 6.4](../release-notes.md)
-+ [Dynamic Media Feature Pack 18912 Release Notes](dynamic-media-featurepack-14410.md)
 + [Copyright, Licenses and Disclaimers](licenses.md)
 + [AEM Forms](forms.md)
 + [AEM Foundation & Repository](wcm-platform.md)
@@ -26,6 +25,6 @@ user-guide: null
 + [AEM Communities Release Notes](communities-release-notes.md)
 + [Known Issues](known-issues.md)
 + [Style System](style-system-fp.md)
-+ [REDIRECT AEM 6.4.1.0 Release Notes](sp1-release-notes.md)
-+ [AEM 6.4.2.0 Release Notes](sp2-release-notes.md)
 + [AEM 3D Release Notes](aem3d-release-notes.md)
+<!-- + [REDIRECT AEM 6.4.1.0 Release Notes](sp1-release-notes.md) -->
+<!-- + [AEM 6.4.2.0 Release Notes](sp2-release-notes.md) -->

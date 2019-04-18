@@ -478,7 +478,8 @@ If the index is configured at a different location, change the path accordingly.
 
 In some cases it is helpful to provide the output of index related MBeans for debugging. You can do this by:
 
-1. Going to the JMX console at: https://serveraddress:port/system/console/jmx  
+1. Going to the JMX console at: 
+`https://serveraddress:port/system/console/jmx`  
 
 1. Search for the following MBeans:
 

@@ -311,7 +311,7 @@ Create a policy by using the Document Security API (web service):
    >
    >When creating a policy and you specify a policy set, ensure that you specify an existing policy set. If you specify a policy set that does not exist, then an exception is thrown.
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Creating a policy using the web service API”
 * “Quick Start (SwaRef): Creating a policy using the web service API”
@@ -395,7 +395,7 @@ Modify an existing policy by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see theQuick Start(SOAP mode): Modifying a policy using the Java API in *[API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*.
+For code examples using the Document Security service, see the Quick Start(SOAP mode): Modifying a policy using the Java API section.
 
 ### Modify existing policies using the web service API {#modify-existing-policies-using-the-web-service-api}
 
@@ -440,7 +440,7 @@ Modify an existing policy by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Modifying a policy using the web service API”
 * “Quick Start (SwaRef): Modifying a policy using the web service API”
@@ -496,7 +496,7 @@ Delete a policy by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Deleting a policy using the Java API”
 
@@ -535,7 +535,7 @@ Delete a policy by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Deleting a policy using the web service API”
 * “Quick Start (SwaRef): Deleting a policy using the web service API”
@@ -631,7 +631,7 @@ Apply a policy to a PDF document by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (EJB mode): Applying a policy to a PDF document using the Java API”
 * “Quick Start (SOAP mode): Applying a policy to a PDF document using the Java API”
@@ -702,7 +702,7 @@ Apply a policy to a PDF document by using the Document Security API (web service
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Applying a policy to a PDF document using the web service API”
 * “Quick Start (SwaRef): Applying a policy to a PDF document using the web service API ”
@@ -783,7 +783,7 @@ Remove a policy from a policy-protected PDF document by using the Document Secur
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Removing a policy from a PDF document using the Java API”
 
@@ -833,7 +833,7 @@ Remove a policy from a policy-protected PDF document using the Document Security
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Removing a policy from a PDF document using the web service API ”
 * “Quick Start (SwaRef): Removing a policy from a PDF document using the web service API”
@@ -926,7 +926,7 @@ Revoke access to a policy-protected PDF document by using the Document Security 
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Revoking a document using the Java API”
 
@@ -975,7 +975,7 @@ Revoke access to a policy-protected PDF document by using the Document Security 
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Revoking a document using the web service API”
 * “Quick Start (SwaRef): Revoking a document using the web service API”
@@ -1058,7 +1058,7 @@ Reinstate access to a revoked document by using the Document Security API (Java)
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Reinstating access to a revoked document using the web service API”
 
@@ -1103,7 +1103,7 @@ Reinstate access to a revoked document using the Document Security API (web serv
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Reinstating access to a revoked document using the web service API”
 * “Quick Start (SwaRef): Reinstating access to a revoked document using the web service API”
@@ -1192,7 +1192,7 @@ Inspect a policy-protected PDF document by using the Document Security Service A
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Inspecting policy protected PDF documents using the Java API”
 
@@ -1240,7 +1240,7 @@ Inspect a policy-protected PDF document by using the Document Security Service A
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Inspecting policy protected PDF documents using the web service API”
 * “Quick Start (SwaRef): Inspecting policy protected PDF documents using the web service API”
@@ -1412,7 +1412,7 @@ Create a watermark by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (SOAP mode): Creating a watermark using the Java API”
 
@@ -1459,7 +1459,7 @@ Create a watermark by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Creating a watermark using the web service API”
 * “Quick Start (SwaRef): Creating a watermark using the web service API”
@@ -1561,7 +1561,7 @@ Modify a watermark by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the Quick Start(SOAP mode): Modifying a watermark using the Java API in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*
+For code examples using the Document Security service, see the Quick Start(SOAP mode): Modifying a watermark using the Java API section.
 
 ### Modify watermarks using the web service API {#modify-watermarks-using-the-web-service-api}
 
@@ -1607,7 +1607,7 @@ Modify a watermark by using the Document Security API (web service):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (MTOM): Modifying a watermark using the web service API”
 
@@ -1687,7 +1687,7 @@ Search for events by using the Rights Management API (Java):
 
 **Code examples**
 
-For code examples using the Rights Management service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Rights Management service, see the following Quick Starts:
 
 * “Quick Start (SOAP): Searching for events using the Java API”
 
@@ -1931,7 +1931,7 @@ Search for events by using the Rights Management API (web service):
 
 **Code examples**
 
-For code examples using the Rights Management service, see the following Quick Starts in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Rights Management service, see the following Quick Starts:
 
 * “Quick Start (MTOM): Searching for events using the web service API”
 * “Quick Start (SwaRef): Searching for events using the web service API”
@@ -2031,7 +2031,7 @@ Apply a policy to a Word document by using the Document Security API (Java):
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (SOAP mode): Applying a policy to a Word document using the Java API”
 
@@ -2095,7 +2095,7 @@ Apply a policy to a Word document by using the Document Security API (web servic
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (MTOM): Applying a policy to a Word document using the web service API ”
 
@@ -2175,7 +2175,7 @@ Remove a policy from a policy-protected Word document by using the Document Secu
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (SOAP mode): Removing a policy from a Word document using the Java API ”
 
@@ -2225,7 +2225,7 @@ Remove a policy from a policy-protected Word document by using the Document Secu
 
 **Code examples**
 
-For code examples using the Document Security service, see the following Quick Start in *[API Quick Starts (Code Examples)](/help/forms/developing/.md#java-api-soap-quick-start-code-examples)*:
+For code examples using the Document Security service, see the following Quick Start:
 
 * “Quick Start (MTOM): Removing a policy from a Word document using the web service API”
 

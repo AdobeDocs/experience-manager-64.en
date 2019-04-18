@@ -214,7 +214,7 @@ Planning the development is key to ensure that your project is built on a solid 
 
 * **Test Concept**
 
-  Before starting development you should draw up an in-depth and comprehensive concept of all [testing](../../sites/developing/using/test-plan.md) requirements for your project.
+  Before starting development you should draw up an in-depth and comprehensive concept of all [testing](../../sites/developing/using/planning.md) requirements for your project.
 
   This should include (amongst others):
 
