@@ -14,7 +14,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
 + Authoring On-Demand Services App {#authoring} 
     + [Mobile On-Demand](mobile-apps-ondemand.md)
     + [Managing Content](mobile-apps-ondemand-manage-content-ondemand.md)
-    + [Cloud Configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
+    <!--+ [Cloud Configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)-->
     + [AEM Mobile Application Dashboard](mobile-apps-ondemand-application-dashboard.md)
     + [Application Create and Configuration Actions](mobile-apps-ondemand-application-create-configure-action.md)
     + [Managing Articles](mobile-on-demand-managing-articles.md)
