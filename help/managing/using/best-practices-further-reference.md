@@ -29,7 +29,7 @@ Consider the features of AEM that you will be using, and the impact on your desi
 
 * [Commerce](../../sites/administering/using/ecommerce.md)
 * [Screens](../../sites/deploying/using/aem-screens-introduction.md)
-* [Assets](assets.md)
+* [Assets](../../assets/using/assets.md)
 * [Tags](../../sites/administering/using/tags.md)
 * [Multi Site Management and Translation](../../sites/administering/using/msm-and-translation.md)
 * [Forms](/help/forms/home.md)
