@@ -29,7 +29,7 @@ These APIs enable perform the following functions.
 
 ## Retrieve the UGC of a user {#retrieve-the-ugc-of-a-user}
 
-**getUserUgc(ResourceResolver resourceResolver, String user, OutputStream outputStream) **helps export all the UGC of a user from the system.
+**getUserUgc(ResourceResolver resourceResolver, String user, OutputStream outputStream)** helps export all the UGC of a user from the system.
 
 * **user**: authorizable ID of a user.
 * **outputStream**: result is returned as output stream, which is a zip file including the user generated content (as json file) and attachments (which include images or videos uploaded by the user).
@@ -40,7 +40,7 @@ For example, to export the UGC of a user named Weston McCall, who uses weston.mc
 
 ## Delete the UGC of a user {#delete-the-ugc-of-a-user}
 
-**deleteUserUgc(ResourceResolver resourceResolver, String user) **helps delete all the UGC for a user from the system.
+**deleteUserUgc(ResourceResolver resourceResolver, String user)** helps delete all the UGC for a user from the system.
 
 * **user**: authorizable ID of the user.
 
@@ -49,9 +49,17 @@ For example, to delete the UGC of a user having authorizable ID weston.mccall@do
 * user= weston.mccall@dodgit.com
 * operation= deleteUgc
 
+### Delete UGC from Adobe Analytics {#delete-ugc-from-analytics}
+
+To delete user data from the Adobe Analytics, follow the GDPR Analytics workflow; as the API does not delete user data from Adobe Analytics.
+
+For Adobe Analytics variables mappings used by AEM Communities, refer the following image:
+
+![AEM communities variable mapping for Adobe Analytics](assets/Analytics-Communities-Mapping.png)
+
 ## Disable a User Account {#disable-a-user-account}
 
-**deleteUserAccount(ResourceResolver resourceResolver, String user) **helps disable a user account.
+**deleteUserAccount(ResourceResolver resourceResolver, String user)** helps disable a user account.
 
 * **user**: authorizable ID of the user.
 
