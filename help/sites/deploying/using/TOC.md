@@ -118,7 +118,7 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [IBM Websphere Commerce](ibm-websphere.md)
     + [User Interface Recommendations for Customers](ui-recommendations.md)
     + [Post Upgrade Checks and Troubleshooting](post-upgrade-checks-and-troubleshooting.md)
-    + [Performance Guidelines PDF](DO-NOT-DELETE-performance-guidelines-pdf.md)
+    <!--+ [Performance Guidelines PDF](DO-NOT-DELETE-performance-guidelines-pdf.md) commented out for link check-->
     + [(Redirect)Kickstart Guide](kickstart-for-aem-screens.md)
     + [Consistency and Traversal Checks](consistency-check.md)
     + [OSGi Configuration Settings](osgi-configuration-settings.md)

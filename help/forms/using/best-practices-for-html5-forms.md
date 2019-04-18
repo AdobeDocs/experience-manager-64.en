@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a5eba237-3aad-497a-8f77-061d5d3df371
 ---
 
-# Best practices for HTML5 forms{#best-practices-for-html-forms}
+# Best practices for HTML5 forms {#best-practices-for-html-forms}
 
 Tune your XFA-based HTML5 Forms for best performance.
 

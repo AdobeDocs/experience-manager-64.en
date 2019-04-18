@@ -69,5 +69,5 @@ Managing and authoring your website content has some best practices outlined as 
 
 | Adaptive forms | [Best practices for working with adaptive forms](../../../forms/using/adaptive-forms-best-practices.md) |Describes best practices for setting up, authoring, and customizing adaptive forms. |
 |---|---|---|
-| HTML5 forms | [Best practices for designing HTML5 forms](../../../forms/using/Best-practices-for-HTML5-forms.md) |Describes best practices for working on layout and design of HTML5 forms. |
+| HTML5 forms | [Best practices for designing HTML5 forms](/help/forms/using/best-practices-for-html5-forms.md) |Describes best practices for working on layout and design of HTML5 forms. |
 
