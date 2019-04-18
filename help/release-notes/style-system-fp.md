@@ -94,7 +94,7 @@ If you wish to use the style system for your own components follow these steps:
 
 1. Edit the policy of the **List** component by tapping or clicking the **Policy** button of the component. Do not confuse this with the **Article List** component.
 
-   ![](help/sites/authoring/using/assets/screen_shot_2017-11-15at163133.png)
+   ![](/help/sites/authoring/using/assets/screen_shot_2017-11-15at163133.png)
 
 1. On the Styles tab of the properties, you can see how the styles have been configured.
 
