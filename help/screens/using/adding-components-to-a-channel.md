@@ -129,7 +129,7 @@ The Embedded page has the following properties:
 
 >[!NOTE]
 >
->Refer to [**Embedded Sequences**](../../screens/using/embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+>Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
 
 An Embedded Sequence allows you to add an embedded sequence channel inside your existing channel (with other assets).
 
@@ -160,7 +160,7 @@ The Embedded Sequence has the following page properties:
 
 A dynamic embedded sequence allows to add a sequence similar to the above mentioned except by channel role.
 
-Refer to [**Embedded Sequences**](../../screens/using/embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
 
 The dynamic embedded sequence has the following properties:
 

@@ -19,11 +19,11 @@ This section describes asset level scheduling for the assets used in Channels.
 
 The following topics are covered in this section:
 
-* ** [Overview](../../screens/using/asset-level-scheduling.md#overview)**
-* ** [Using Asset Level Scheduling](../../screens/using/asset-level-scheduling.md#using-asset-level-scheduling)**
-* ** [Handling Recurrence in Assets](../../screens/using/asset-level-scheduling.md#handling-recurrence-in-assets)**
-* ** [Multi Asset Scheduling](#multi-assetscheduling)  
-  **
+* OvervieW
+* Using Asset Level Scheduling
+* Handling Recurrence in Assets
+* Multi Asset Scheduling  
+
 
 >[!CAUTION]
 >
@@ -55,10 +55,9 @@ Follow the steps below to perform asset level scheduling:
    >
    >    
    >    
-   >    * Create a project, see ** [Creating a new Project](../../sites/authoring/using/creating-a-screens-project.md)**.
-   >    * Create and add content to a channel, see ** [Managing Channels](../../screens/using/managing-channels.md)**.
+   >    * Create a project, see [Creating a new Project](creating-a-screens-project.md).
+   >    * Create and add content to a channel, see [Managing Channels](managing-channels.md).
    >    
-   >
 
 1. Click **Edit** to open the channel editor and select an asset you want to apply the scheduling to.
 

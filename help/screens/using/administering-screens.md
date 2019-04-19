@@ -19,12 +19,12 @@ An Administrator is responsible for installation and configuration, monitoring (
 
 An AEM Screens administrator is responsible for the following tasks:
 
-* [Installation and Configuration](../../sites/deploying/using/configuring-screens-introduction.md)
-* [Device Registration](../../screens/using/device-registration.md)  
+* [Installation and Configuration](configuring-screens-introduction.md)
+* [Device Registration](device-registration.md)  
 
-* [Setting up ACLs](https://chl-author.corp./content/help/en/experience-manager/6-4/sites/administering/using/setting-up-acls.html)  
+* [Setting up ACLs](setting-up-acls.html)  
 
-* [Implementing Chrome OS Player](https://chl-author.cor/content/help/en/experience-manager/6-4/sites/administering/using/implementing-chrome-os-player.html)
-* [Implementing Android Player](https://chl-author.cor/content/help/en/experience-manager/6-4/sites/administering/using/implementing-android-player.html)
-* [Implementing Windows 10 Player](../../screens/using/implementing-windows-player.md)
+* [Implementing Chrome OS Player](implementing-chrome-os-player.html)
+* [Implementing Android Player](implementing-android-player.html)
+* [Implementing Windows 10 Player](implementing-windows-player.md)
 
