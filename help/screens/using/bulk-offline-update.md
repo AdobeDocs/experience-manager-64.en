@@ -45,7 +45,7 @@ You can manually use bulk offline update from the User Interface (UI) or schedul
 Follow the steps below to use bulk offline update for an AEM Screens project:
 
 1. Navigate to your AEM Screens project.
-1. Select the project and click** Update Offline Content** from the action bar to manually update the channel content.
+1. Select the project and click **Update Offline Content** from the action bar to manually update the channel content.
 
    ![](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -62,7 +62,7 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
 
    **Project Path** Specify the path of your AEM Screens project. The path is usually /content/screens/<Name of your project>.
 
-   *For example*,*** /content/screens/we-retail***. You can find this path in the URL by selecting any project under AEM Screens (do not click the icon).
+   *For example*, /content/screens/we-retail. You can find this path in the URL by selecting any project under AEM Screens (do not click the icon).
 
    >[!NOTE]
    >

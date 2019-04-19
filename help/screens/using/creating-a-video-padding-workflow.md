@@ -15,15 +15,10 @@ discoiquuid: 11962188-3767-4d62-b94b-6853ae749836
 
 This section covers the following topics:
 
-* ** [Overview](../../screens/using/creating-a-video-padding-workflow.md#overview)**
-* **Prerequisites  
-  **
+* **Overview**
+* **Prerequisites** 
 * **Creating a Video Padding Workflow**
-
-    * **Creating a Workflow  
-      **
-    * **Using the Workflow in AEM Screens Project**
-
+* **Using the Workflow in AEM Screens Project**
 * **Validating the Output for the Workflow**
 
 ## Overview {#overview}
