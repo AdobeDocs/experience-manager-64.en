@@ -19,7 +19,7 @@ The following sections describe how to debug and troubleshoot video playing in y
 
 ## DAM Renditions {#dam-renditions}
 
-Once you upload the video to the channel, AEM should start creating some renditions for it. You can view your videos under [Assets](http://localhost:4502/assets.html/content/dam).
+Once you upload the video to the channel, AEM should start creating some renditions for it. You can view your videos under Assets.
 
 To view the video:
 

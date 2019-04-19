@@ -21,9 +21,7 @@ An AEM Screens administrator is responsible for the following tasks:
 
 * [Installation and Configuration](configuring-screens-introduction.md)
 * [Device Registration](device-registration.md)  
-
 * [Setting up ACLs](setting-up-acls.html)  
-
 * [Implementing Chrome OS Player](implementing-chrome-os-player.html)
 * [Implementing Android Player](implementing-android-player.html)
 * [Implementing Windows 10 Player](implementing-windows-player.md)

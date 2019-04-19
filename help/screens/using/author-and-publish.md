@@ -35,7 +35,7 @@ Before getting started with author and publish servers, you should have prior kn
 
 >[!NOTE]
 >
->To learn more about the author and publish architectural overview and how the content is authored on an AEM author instance and then forward-replicated to multiple publish instances, refer to [Author and Publish Architectural Overview](/screens/using/author-publish-architecture-overview.html?).
+>To learn more about the author and publish architectural overview and how the content is authored on an AEM author instance and then forward-replicated to multiple publish instances, refer to [Author and Publish Architectural Overview](author-publish-architecture-overview.html).
 
 The following section explains how to setup replication agents on author and publish topology.
 
@@ -137,7 +137,7 @@ On each Publish Instance:
 
 1. Type in the desired plain text password (same for all instances) in **Plain Text**
 1. Click **Protect**.
-1. Copy the value **Protected Text **to notepad or text editor. This value will be used in the OSGi config for ActiveMQ.
+1. Copy the value **Protected Text** to notepad or text editor. This value will be used in the OSGi config for ActiveMQ.
 
 Since each publish instance by default has unique crypto keys you need to perform this step on each pub instance and save the unique key for the next configuration.
 
@@ -184,10 +184,9 @@ If you do not see the following configuration from */system/console/mq*, then na
 
 Follow the steps on each Publish instance:
 
-1. Navigate to the **OSGi Console **&gt; **Configuration Manager**
-
-1. Select **Apache Sling Referrer Filter**
-1. Update config and **check Allow Empty**
+1. Navigate to **Configuration Manager** from **OSGi Console**. 
+1. Select **Apache Sling Referrer Filter**.
+1. Update config and **check Allow Empty**.
 
 ## Configuring Author and Publish Instance {#configuring-author-and-publish-instance}
 
@@ -245,14 +244,14 @@ Follow the steps below to replicate the device user:
 You can also activate the device from the Device Management Console. Follow the steps below:
 
 1. Navigate to your Screens project --&gt; **Devices**.
-1. Click **Device Manager **from the action bar.
+1. Click **Device Manager** from the action bar.
 1. Select the device and click **Activate** from the action bar, as in shown in the figure below.
 
 ![](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->Alternatively, once you have activated the device you also can edit or update the server URL by clicking **Edit server URL **from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+>Alternatively, once you have activated the device you also can edit or update the server URL by clicking **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![](assets/screen_shot_2019-02-21at105527am.png) 
 
@@ -287,7 +286,7 @@ Alternatively, you can also update/edit the server URL from the device managemen
 
 1. Navigate to your AEM Screens project and select the **Devices** folder.
 1. Click **Device Manager** from the action bar.
-1. Select the device and click **Edit server URL **from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+1. Select the device and click **Edit server URL** from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
 
 ![](assets/screen_shot_2019-02-07at31028pm.png) 
 
@@ -320,7 +319,7 @@ Follow the steps below to deliver content updates from author to publish to devi
 
    ![](assets/screen_shot_2019-02-25at23116pm.png)
 
-1. Click **Publish **from the** Manage **Publication wizard.** **
+1. Click **Publish** from the **Manage **Publication wizard**.
 
    ![](assets/screen_shot_2019-02-25at23341pm.png)
 

@@ -17,7 +17,7 @@ You can manage the channel content and other settings on the AEM Screens Player.
 
 >[!NOTE]
 >
->Press ***Ctrl+Cmd+F ***to exit fullscreen mode for OS X AEM Screens Player.
+>Press ***Ctrl+Cmd+F*** to exit fullscreen mode for OS X AEM Screens Player.
 
 Once you assign a channel to a display, the AEM Screens Player displays the content. You can either configure settings for your player using the preferences for admin UI (from the dashboard) or from the player itself.
 

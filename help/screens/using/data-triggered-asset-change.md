@@ -21,8 +21,7 @@ The following AEM Screens project leverages AEM personalization which includes t
 
 This use case delivers content which is personalized based on the current weather in each location, if the weather is:
 
-* *sunny, it displays summer clothing  
-  *
+* *sunny, it displays summer clothing*
 * *cold, it displays winter clothing*
 
 >[!NOTE]
@@ -54,13 +53,13 @@ Follow the steps below to set up a project showcasing data triggered asset chang
 
     1. Select the **Channels** folder and click **Create** to open the wizard to create a channel.
     
-    1. Select **Sequence Channel **from the wizard and create the channel titled as **DataTrigger**.
+    1. Select **Sequence Channel** from the wizard and create the channel titled as **DataTrigger**.
 
    ![](assets/screen_shot_2019-02-28at120710pm.png)
 
 1. **Adding Content to Sequence Channel**
 
-    1. Select the channel (**DataTrigger**).
+    1. Select the channel **DataTrigger**.
     1. Click **Edit** from the action bar to open the editor. Drag and drop few assets to your channel.
 
    ![](assets/screen_shot_2019-02-28at21511pm.png)
@@ -96,8 +95,8 @@ Follow the steps below to set up a project showcasing data triggered asset chang
    >
    >    
    >    
-   >    * ** [Configuring ContextHub](../../sites/administering/using/contexthub-config.md)**
-   >    * ** [Configuring Segmentation with ContextHub](../../sites/administering/using/segmentation.md)**
+   >    * [Configuring ContextHub](../../sites/administering/using/contexthub-config.md)
+   >    * [Configuring Segmentation with ContextHub](../../sites/administering/using/segmentation.md)
    >    
    >
 

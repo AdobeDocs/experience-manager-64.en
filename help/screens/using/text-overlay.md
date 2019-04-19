@@ -16,13 +16,10 @@ noindex: true
 
 This section covers the following topics:
 
-* ** [Overview](../../screens/using/text-overlay.md#overview)**
-* ** [Using Text Overlay](../../screens/using/text-overlay.md#using-text-overlay)  
-  **
-
-    * ** [Prerequisites](../../screens/using/text-overlay.md#prerequisites)**
-    * ** [Understanding Text Overlay Properties](../../screens/using/text-overlay.md#understanding-text-overlay-properties)  
-      **
+* **Overview**
+* **Using Text Overlay**
+* **Prerequisites**
+* **Understanding Text Overlay Properties**
 
 >[!CAUTION]
 >
@@ -32,7 +29,7 @@ This section covers the following topics:
 
 Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image.
 
-To learn how to create your own custom component, please refer to [**Extending an AEM Screens Component**](../../screens/using/extending-component-tutorial-develop.md) for more information.
+To learn how to create your own custom component, please refer to **Extending an AEM Screens Component**.
 
 This section only showcases how to use and leverage the poster component in an AEM Screens project and use it as text overlay in one of your sequence channels.
 
