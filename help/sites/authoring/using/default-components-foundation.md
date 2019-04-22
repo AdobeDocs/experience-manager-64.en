@@ -351,7 +351,7 @@ Several additional options are available in the full-screen editing mode; for ex
 >Internet Explorer users need to upload the image and click **Ok** then re-open the image to see the uploaded file in the preview and to be able to perform modifications (i.e. crop).  
 
 >
->See the [Supported Platforms](../../../release-notes.md#supported-platforms) section for more information about HTML5 features used by AEM.
+>See the [Supported Platforms](../../../release-notes/release-notes.md#supported-platforms) section for more information about HTML5 features used by AEM.
 
 When an image is loaded, you can configure the following:
 

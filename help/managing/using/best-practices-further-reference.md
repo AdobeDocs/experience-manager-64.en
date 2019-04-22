@@ -36,7 +36,7 @@ Consider the features of AEM that you will be using, and the impact on your desi
 * [Communities](../../communities/using/deploy-communities.md)
 * [Livefyre](https://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/livefyre-for-adobe-experience-manager/)
 
-In addition check the [Release Notes](../../release-notes.md), for the various versions of AEM, to see when any new features were added.
+In addition check the [Release Notes](../../release-notes/release-notes.md), for the various versions of AEM, to see when any new features were added.
 
 ### Integrations {#integrations}
 

@@ -83,7 +83,7 @@ discoiquuid: d0249609-2a9c-4d3b-92ee-dbc5fbdeaac6
 
 ## Latest Releases {#latest-releases}
 
-AEM 6.4 Communities GA ships with Communities package. To know about updates to AEM 6.4 [Communities](../../release-notes.md#experience-manager-communities), refer [AEM 6.4 Release Notes](../../release-notes.md#release-information).
+AEM 6.4 Communities GA ships with Communities package. To know about updates to AEM 6.4 [Communities](../../release-notes/release-notes.md#experience-manager-communities), refer [AEM 6.4 Release Notes](../../release-notes/release-notes.md#release-information).
 
 ### AEM 6.4 Updates {#aem-updates}
 
