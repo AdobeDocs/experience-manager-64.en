@@ -19,7 +19,7 @@ AEM offers you the possibility to configure:
 * request data logging; a specialized logging configuration for request information
 * specific settings for the individual services; for example, an individual log file and format for the log messages
 
-These are all [OSGi configurations](../../../sites/deploying/using/configuring-osgi.md).
+These are all [OSGi configurations](/help/sites/deploying/using/configuring-osgi.md).
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ These are all [OSGi configurations](../../../sites/deploying/using/configuring-o
 
 ## Global Logging {#global-logging}
 
-[Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md) is used to configure the root logger. This defines the global settings for logging in AEM:
+[Apache Sling Logging Configuration](/help/sites/deploying/using/osgi-configuration-settings.md) is used to configure the root logger. This defines the global settings for logging in AEM:
 
 * the logging level
 * the location of the central log file
@@ -116,18 +116,18 @@ The other pairs follow the standard configuration:
 
 You can define your own Logger / Writer pair:
 
-1. Create a new instance of the Factory Configuration [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md).
+1. Create a new instance of the Factory Configuration [Apache Sling Logging Logger Configuration](/help/sites/deploying/using/osgi-configuration-settings.md).
 
     1. Specify the Log File.
     1. Specify the Logger.
     1. Configure the other parameters as required.
 
-1. Create a new instance of the Factory Configuration [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md).
+1. Create a new instance of the Factory Configuration [Apache Sling Logging Writer Configuration](/help/sites/deploying/using/osgi-configuration-settings.md).
 
     1. Specify the Log File - this must match that specified for the Logger.
     1. Configure the other parameters as required.
 
 >[!NOTE]
 >
->In certain circumstances you may want to create a [custom log file](../../../sites/deploying/using/monitoring-and-maintaining.md#create-a-custom-log-file).
+>In certain circumstances you may want to create a [custom log file](/help/sites/deploying/using/monitoring-and-maintaining.md#create-a-custom-log-file).
 

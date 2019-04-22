@@ -16,19 +16,19 @@ legacypath: /content/docs/en/aem/6-2/develop/components/components-touch-optimiz
 
 AEM components are used to hold, format, and render the content made available on your webpages.
 
-* When [authoring pages](../../../sites/authoring/using/default-components.md), the components allow the authors to edit and configure the content.
+* When [authoring pages](/help/sites/authoring/using/default-components.md), the components allow the authors to edit and configure the content.
 
-    * When constructing a [Commerce](../../../sites/administering/using/ecommerce.md) site the components can, for example, collect and render information from the catalog.  
-      See [Developing eCommerce](../../../sites/developing/using/ecommerce.md) for more information.  
+    * When constructing a [Commerce](/help/sites/administering/using/ecommerce.md) site the components can, for example, collect and render information from the catalog.  
+      See [Developing eCommerce](/help/sites/developing/using/ecommerce.md) for more information.  
     
-    * When constructing a [Communities](../../../communities/using/author-communities.md) site the components can provide information to and collect information from your visitors.  
-      See [Developing Communities](../../../communities/using/communities.md) for more information.
+    * When constructing a [Communities](/help/communities/using/author-communities.md) site the components can provide information to and collect information from your visitors.  
+      See [Developing Communities](/help/communities/using/communities.md) for more information.
 
 * On the publish instance the components render your content, presenting it as you require to your website visitors.
 
 >[!NOTE]
 >
->This page is a continuation of the document [AEM Components - The Basics](../../../sites/developing/using/components-basics.md).
+>This page is a continuation of the document [AEM Components - The Basics](/help/sites/developing/using/components-basics.md).
 
 >[!CAUTION]
 >
@@ -36,11 +36,11 @@ AEM components are used to hold, format, and render the content made available o
 
 ## Code Samples {#code-samples}
 
-This page provides the reference documentation (or links to reference documentation) required to develop new components for AEM. See [Developing AEM Components - Code Samples](../../../sites/developing/using/developing-components-samples.md) for some practical examples.
+This page provides the reference documentation (or links to reference documentation) required to develop new components for AEM. See [Developing AEM Components - Code Samples](/help/sites/developing/using/developing-components-samples.md) for some practical examples.
 
 ## Structure {#structure}
 
-The basic structure of a component is covered on the page [AEM Components - The Basics](../../../sites/developing/using/components-basics.md#structure). That document covers both the touch-enabled and classic UIs. Even if you do not need to use the classic settings in your new component it can help to be aware of them when inheriting from existing components.
+The basic structure of a component is covered on the page [AEM Components - The Basics](/help/sites/developing/using/components-basics.md#structure). That document covers both the touch-enabled and classic UIs. Even if you do not need to use the classic settings in your new component it can help to be aware of them when inheriting from existing components.
 
 ## Extending Existing Components and Dialogs {#extending-existing-components-and-dialogs}
 
@@ -50,23 +50,23 @@ When extending or customing an existing component or dialog, you can copy or rep
 
 ### Extending an Existing Component {#extending-an-existing-component}
 
-Extending an existing component can be achieved with [Resource Type Hierarchy](../../../sites/developing/using/components-basics.md#component-hierarchy-and-inheritance) and the related inheritance mechanisms.
+Extending an existing component can be achieved with [Resource Type Hierarchy](/help/sites/developing/using/components-basics.md#component-hierarchy-and-inheritance) and the related inheritance mechanisms.
 
 >[!NOTE]
 >
->Components can also be redefined with an overlay based on the search path logic. However in such case, the [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md) will not be triggered and `/apps` must define the entire overlay.
+>Components can also be redefined with an overlay based on the search path logic. However in such case, the [Sling Resource Merger](/help/sites/developing/using/sling-resource-merger.md) will not be triggered and `/apps` must define the entire overlay.
 
 >[!NOTE]
 >
->The [content fragment component](../../../sites/developing/using/customizing-content-fragments.md) can also be customized and extended, though the full structure and relationships with Assets must be considered.
+>The [content fragment component](/help/sites/developing/using/customizing-content-fragments.md) can also be customized and extended, though the full structure and relationships with Assets must be considered.
 
 ### Customizing a Existing Component Dialog {#customizing-a-existing-component-dialog}
 
-It is also possible to override a *component dialog* using the [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md) and defining the property `sling:resourceSuperType`.
+It is also possible to override a *component dialog* using the [Sling Resource Merger](/help/sites/developing/using/sling-resource-merger.md) and defining the property `sling:resourceSuperType`.
 
 This means you only need to redefine the required differences, as opposed to redefining the entire dialog (using `sling:resourceSuperType`). This is now recommended method for extending a component dialog
 
-See the [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md) for more details.
+See the [Sling Resource Merger](/help/sites/developing/using/sling-resource-merger.md) for more details.
 
 ## Defining the Markup {#defining-the-markup}
 
@@ -100,13 +100,13 @@ Modern websites rely heavily on client-side processing driven by complex JavaScr
 
 To help deal with this issue, AEM provides **Client-side Library Folders**, which allow you to store your client-side code in the repository, organize it into categories and define when and how each category of code is to be served to the client. The client-side library system then takes care of producing the correct links in your final web page to load the correct code.
 
-Read [Using Client-Side HTML Libraries](../../../sites/developing/using/clientlibs.md) for more information.
+Read [Using Client-Side HTML Libraries](/help/sites/developing/using/clientlibs.md) for more information.
 
 ## Configuring the Edit Behavior {#configuring-the-edit-behavior}
 
 You can configure the edit behavior of a component including attributes such as actions available for the component, characteristics of the inplace editor, and the listeners related to events on the component. The configuration is common to both the touch-enabled and classic UI, albeit with certain, specific differences.
 
-The [edit behavior of a component is configured](../../../sites/developing/using/components-basics.md#edit-behavior) by adding a `cq:editConfig` node of type `cq:EditConfig` below the component node (of type `cq:Component`) and by adding specific properties and child nodes.
+The [edit behavior of a component is configured](/help/sites/developing/using/components-basics.md#edit-behavior) by adding a `cq:editConfig` node of type `cq:EditConfig` below the component node (of type `cq:Component`) and by adding specific properties and child nodes.
 
 ## Configuring the Preview Behavior {#configuring-the-preview-behavior}
 
@@ -135,18 +135,18 @@ For full details see:
 * Coral UI
 
     * Provides a consistent UI across all cloud solutions  
-    * [Concepts of the AEM Touch-Enabled UI - Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui)
+    * [Concepts of the AEM Touch-Enabled UI - Coral UI](/help/sites/developing/using/touch-ui-concepts.md#coral-ui)
     * [Coral UI Guide](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html)
 
 * Granite UI
 
     * Provides Coral UI markup wrapped into Sling components for building UI consoles and dialogs  
-    * [Concepts of the AEM Touch-Enabled UI - Granite UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui) 
+    * [Concepts of the AEM Touch-Enabled UI - Granite UI](/help/sites/developing/using/touch-ui-concepts.md#coral-ui) 
     * [Granite UI Documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html)
 
 >[!NOTE]
 >
->Due to the nature of the Granite UI components (and differences to the ExtJS widgets), there are some differences between how components interact with the touch-enabled UI and the [classic UI](../../../sites/developing/using/developing-components-classic.md).
+>Due to the nature of the Granite UI components (and differences to the ExtJS widgets), there are some differences between how components interact with the touch-enabled UI and the [classic UI](/help/sites/developing/using/developing-components-classic.md).
 
 ### Creating a New Dialog {#creating-a-new-dialog}
 
@@ -185,7 +185,7 @@ For examples, see:
 
 >[!NOTE]
 >
->If a component has no dialog defined for the touch-enabled UI, then the classic UI dialog is used as a fallback inside of a compatibility layer. To customize such a dialog you need to customize the classic UI dialog. See [AEM Components for the Classic UI](../../../sites/developing/using/developing-components-classic.md).
+>If a component has no dialog defined for the touch-enabled UI, then the classic UI dialog is used as a fallback inside of a compatibility layer. To customize such a dialog you need to customize the classic UI dialog. See [AEM Components for the Classic UI](/help/sites/developing/using/developing-components-classic.md).
 
 ### Customizing Dialog Fields {#customizing-dialog-fields}
 
@@ -194,14 +194,14 @@ For examples, see:
 >See:
 >
 >* the AEM Gems session on [Customizing Dialog Fields](https://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
->* the related sample code covered under [Code Sample - How to Customize Dialog Fields](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields).  
+>* the related sample code covered under [Code Sample - How to Customize Dialog Fields](/help/sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields).  
 >
 
 #### Creating a New Field {#creating-a-new-field}
 
 Widgets for the touch-enabled UI are implemented as Granite UI components.
 
-To create a new widget for use in a component dialog for the touch-enabled UI requires you to [create a new Granite UI field component](../../../sites/developing/using/granite-ui-component.md).
+To create a new widget for use in a component dialog for the touch-enabled UI requires you to [create a new Granite UI field component](/help/sites/developing/using/granite-ui-component.md).
 
 >[!NOTE]
 >
@@ -221,7 +221,7 @@ Once you have created your resource type, you can instantiate your field by addi
 
 #### Creating a Client Library for Style and Behavior {#creating-a-client-library-for-style-and-behavior}
 
-If you want to define styling and behavior for your component, you can create a dedicated [client library](../../../sites/developing/using/clientlibs.md) that defines your custom CSS/LESS and JS.
+If you want to define styling and behavior for your component, you can create a dedicated [client library](/help/sites/developing/using/clientlibs.md) that defines your custom CSS/LESS and JS.
 
 To have your client library loaded solely for your component dialog (i.e. it will not be loaded for another component) you need to set the property `extraClientLibs`** **of your dialog to the category name of the client library you have just created. This is advisable if your client library is quite big and/or your field is specific to that dialog and will not be needed in other dialogs.
 
@@ -231,7 +231,7 @@ For an example, see:
 
 * `cqgems/customizingfield/components/colorpicker/clientlibs`
 
-    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
+    * provided by the [Code Sample](/help/sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
 
 #### Extending (Inheriting from) a Field {#extending-inheriting-from-a-field}
 
@@ -269,7 +269,7 @@ For an example, see:
 
 * `cqgems/customizingfield/components/clientlibs/customizingfield`
 
-    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
+    * provided by the [Code Sample](/help/sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
 
 #### Listeners in the Content Structure {#listeners-in-the-content-structure}
 
@@ -300,13 +300,13 @@ For examples, see:
 
 * `cqgems/customizingfield/components/clientlibs/customizingfield/js/validations.js`
 
-    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
+    * provided by the [Code Sample](/help/sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
 
 * `/libs/cq/gui/components/authoring/dialog/clientlibs/dialog/js/validations.js`
 
 ## Creating and Configuring a Design Dialog {#creating-and-configuring-a-design-dialog}
 
-The Design dialog is provided when a component has design details that can be edited in [Design Mode](../../../sites/authoring/using/default-components-designmode.md).
+The Design dialog is provided when a component has design details that can be edited in [Design Mode](/help/sites/authoring/using/default-components-designmode.md).
 
 The definition is very similar to that of a [dialog used for editing content](#creating-a-new-dialog), with the difference that it is defined as a node:
 
@@ -319,17 +319,17 @@ An inplace editor allows the user to edit content directly in the paragraph flow
 
 An inplace editor is not necessary/meaningful for every component type.
 
-See [Extending Page Authoring - Add New Inplace Editor](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-in-place-editor) for more information.
+See [Extending Page Authoring - Add New Inplace Editor](/help/sites/developing/using/customizing-page-authoring-touch.md#add-new-in-place-editor) for more information.
 
 ## Customizing the Component Toolbar {#customizing-the-component-toolbar}
 
-The [Component Toolbar](../../../sites/developing/using/touch-ui-structure.md#component-toolbar) gives the user access to a range of actions for the component such as edit, configure, copy, and delete.
+The [Component Toolbar](/help/sites/developing/using/touch-ui-structure.md#component-toolbar) gives the user access to a range of actions for the component such as edit, configure, copy, and delete.
 
-See [Extending Page Authoring - Add New Action to a Component Toolbar](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-action-to-a-component-toolbar) for more information.
+See [Extending Page Authoring - Add New Action to a Component Toolbar](/help/sites/developing/using/customizing-page-authoring-touch.md#add-new-action-to-a-component-toolbar) for more information.
 
 ## Configuring a Component for the References Rail (Borrowed/Lent) {#configuring-a-component-for-the-references-rail-borrowed-lent}
 
-If your new component references content from other pages then you can consider whether you want it to impact the **Borrowed Content** and **Lent Content** sections of the [**References**](../../../sites/authoring/using/basic-handling.md#references) Rail.
+If your new component references content from other pages then you can consider whether you want it to impact the **Borrowed Content** and **Lent Content** sections of the [**References**](/help/sites/authoring/using/basic-handling.md#references) Rail.
 
 Out-of-the-box AEM only checks the Reference component. To add your component you need to configure the OSGi bundle **WCM Authoring Content Reference Configuration**.
 
@@ -339,7 +339,7 @@ Create a new entry in the definition, specifying your component, together with t
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for such services. See [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+>When working with AEM there are several methods of managing the configuration settings for such services. See [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 ## Enabling and Adding Your Component to the Paragraph System {#enabling-and-adding-your-component-to-the-paragraph-system}
 
@@ -347,12 +347,12 @@ After the component has been developed it needs to be enabled for use in an appr
 
 This can be done by either:
 
-* using [Design mode](../../../sites/authoring/using/default-components-designmode.md) when editing a specific page.
-* [defining the `components` property on the paragraph system of a template](../../../sites/developing/using/components-basics.md#adding-your-component-to-the-paragraph-system).
+* using [Design mode](/help/sites/authoring/using/default-components-designmode.md) when editing a specific page.
+* [defining the `components` property on the paragraph system of a template](/help/sites/developing/using/components-basics.md#adding-your-component-to-the-paragraph-system).
 
 ## Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance {#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance}
 
-AEM offers the possibility to configure a paragraph system on your page so that [an instance of your new component is automatically created when a user drags an (appropriate) asset onto an instance of that page](../../../sites/authoring/using/editing-content.md) (instead of always having to drag an empty component to the page).
+AEM offers the possibility to configure a paragraph system on your page so that [an instance of your new component is automatically created when a user drags an (appropriate) asset onto an instance of that page](/help/sites/authoring/using/editing-content.md) (instead of always having to drag an empty component to the page).
 
 This behavior, and the required asset-to-component relationship can be configured:
 
@@ -417,11 +417,11 @@ You can find the code of this page on GitHub
 
 >[!NOTE]
 >
->The automatic creation of component instances can now be configured easily within the UI when using [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) and Editable Templates. See [Creating Page Templates](../../../sites/authoring/using/templates.md#editing-a-template-structure-template-author) for more information about defining which components are automatically associated with given media types.
+>The automatic creation of component instances can now be configured easily within the UI when using [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) and Editable Templates. See [Creating Page Templates](/help/sites/authoring/using/templates.md#editing-a-template-structure-template-author) for more information about defining which components are automatically associated with given media types.
 
 ## Using the AEM Brackets Extension {#using-the-aem-brackets-extension}
 
-The [AEM Brackets Extension](../../../sites/developing/using/aem-brackets.md) provides a smooth workflow to edit AEM components and client libraries. It is based on the [Brackets](https://brackets.io/) code editor.
+The [AEM Brackets Extension](/help/sites/developing/using/aem-brackets.md) provides a smooth workflow to edit AEM components and client libraries. It is based on the [Brackets](https://brackets.io/) code editor.
 
 The extension:
 
@@ -438,19 +438,19 @@ When migrating a component that was designed for use with the classic UI to a co
 
 * HTL
 
-    * Use of [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html) is not compulsory, but if your component needs updating then it is an ideal time to consider [migrating from JSP to HTL](../../../sites/developing/using/components-basics.md#htl-vs-jsp).
+    * Use of [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html) is not compulsory, but if your component needs updating then it is an ideal time to consider [migrating from JSP to HTL](/help/sites/developing/using/components-basics.md#htl-vs-jsp).
 
 * Components
 
-    * Migrate [ `cq:listener`](../../../sites/developing/using/developing-components.md#migrating-cq-listener-code) code that use classic UI specific functions
-    * RTE plugin, for further information see [Configuring the Rich Text Editor](../../../sites/administering/using/rich-text-editor.md).
+    * Migrate [ `cq:listener`](/help/sites/developing/using/developing-components.md#migrating-cq-listener-code) code that use classic UI specific functions
+    * RTE plugin, for further information see [Configuring the Rich Text Editor](/help/sites/administering/using/rich-text-editor.md).
     * [Migrate `cq:listener` code](#migrating-cq-listener-code) that uses functions specific to the classic UI
 
 * Dialogs
 
     * You will need to create a new dialog for use in the touch-enabled UI. However, for compatibility purposes the touch-enabled UI can use the definition of a classic UI dialog, when no dialog has been defined for the touch-enabled UI.  
-    * The [Dialog Conversion Tool](../../../sites/developing/using/dialog-conversion.md) is provided to help you extend existing components.
-    * [Mapping ExtJS to Granite UI Components](../../../sites/developing/using/touch-ui-concepts.md#extjs-and-corresponding-granite-ui-components) provides a convenient overview of ExtJS xtypes and node types with their equivalent Granite UI resource types.
+    * The [Dialog Conversion Tool](/help/sites/developing/using/dialog-conversion.md) is provided to help you extend existing components.
+    * [Mapping ExtJS to Granite UI Components](/help/sites/developing/using/touch-ui-concepts.md#extjs-and-corresponding-granite-ui-components) provides a convenient overview of ExtJS xtypes and node types with their equivalent Granite UI resource types.
     * Customizing fields, for more information see the AEM Gems session on [Customizing Dialog Fields](https://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
     * Migrate from vtypes to [Granite UI validation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/clientlibs/foundation/js/validation/index.html)
     * Using JS listeners, for more information see [Handling Field Events](#handling-field-events) and the AEM Gems session on [Customizing Dialog Fields](https://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
@@ -485,8 +485,8 @@ As a developer, you want easy access to component documentation so that you can 
 
 For this reason, it is quite easy to make any existing documentation markdown you have available within the component itself.
 
-All you need to do is place a `README.md` file in the component structure. This markdown will then be displayed in the [component console](../../../sites/authoring/using/default-components-console.md).
+All you need to do is place a `README.md` file in the component structure. This markdown will then be displayed in the [component console](/help/sites/authoring/using/default-components-console.md).
 
 ![](assets/chlimage_1-225.png)
 
-The supported markdown is the same as that for [content fragments](../../../assets/using/content-fragments-markdown.md).
+The supported markdown is the same as that for [content fragments](/help/assets/using/content-fragments-markdown.md).

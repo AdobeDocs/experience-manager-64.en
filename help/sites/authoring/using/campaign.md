@@ -22,11 +22,11 @@ You can create email content in AEM and process it in Adobe Campaign emails. To 
 
 Content can then be synched with a delivery in Adobe Campaign. Detailed instructions are described in this document.
 
-See also [Creating Adobe Campaign Forms in AEM](../../../sites/authoring/using/adobe-campaign-forms.md).
+See also [Creating Adobe Campaign Forms in AEM](/help/sites/authoring/using/adobe-campaign-forms.md).
 
 >[!NOTE]
 >
->Before you can use this functionality, you must configure AEM to integrate with either [Adobe Campaign](../../../sites/administering/using/campaignonpremise.md) or [Adobe Campaign Standard](../../../sites/administering/using/campaignstandard.md).
+>Before you can use this functionality, you must configure AEM to integrate with either [Adobe Campaign](/help/sites/administering/using/campaignonpremise.md) or [Adobe Campaign Standard](/help/sites/administering/using/campaignstandard.md).
 
 ## Sending Email Content via Adobe Campaign {#sending-email-content-via-adobe-campaign}
 
@@ -54,7 +54,7 @@ Detailed instructions are described in this document.
 
    >[!NOTE]
    >
-   >[Email samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md). Please download sample Geometrixx content from Package Share.
+   >[Email samples are only available in Geometrixx](/help/sites/developing/using/we-retail.md). Please download sample Geometrixx content from Package Share.
 
    ![](assets/chlimage_1-15.png)
 
@@ -136,7 +136,7 @@ To edit email content:
 
    ![](assets/chlimage_1-23.png)
 
-   See [Adobe Campaign Components](../../../sites/authoring/using/adobe-campaign-components.md) for a detailed description of each component.
+   See [Adobe Campaign Components](/help/sites/authoring/using/adobe-campaign-components.md) for a detailed description of each component.
 
    ![](assets/chlimage_1-24.png)
 
@@ -147,7 +147,7 @@ When editing your content, you can insert:
 * Adobe Campaign context fields. These are are fields that you can insert within your text that will adapt according to the recipient’s data (for example first name, last name, or any data of the target dimension).
 * Adobe Campaign personalization blocks. These are blocks of predefined content that are not related to the recipient’s data, such as a brand logo, or link to a mirror page.
 
-See [Adobe Campaign Components](../../../sites/authoring/using/adobe-campaign-components.md) for a full description of the Campaign components.
+See [Adobe Campaign Components](/help/sites/authoring/using/adobe-campaign-components.md) for a full description of the Campaign components.
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ To insert personalization:
    >    
    >    * Available context fields are dynamically recovered from the Adobe Campaign **nms:seedMember** schema. Target extension data is dynamically recovered from the workflow that contains the delivery synchronized with the content. (See the [Synchronizing content created in AEM with a delivery from Adobe Campaign](#synchronizing-content-created-in-aem-with-a-delivery-from-adobe-campaign-classic) section).
    >    
-   >    * To add or hide personalization elements, see [Managing personalization fields and blocks](../../../sites/administering/using/campaignonpremise.md#managing-personalization-fields-and-blocks).
+   >    * To add or hide personalization elements, see [Managing personalization fields and blocks](/help/sites/administering/using/campaignonpremise.md#managing-personalization-fields-and-blocks).
    >    * **Important**: All seed table fields must also be in the recipient table (or corresponding contact table).
    >    
    >

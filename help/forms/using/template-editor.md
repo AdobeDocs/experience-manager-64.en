@@ -22,7 +22,7 @@ For example, you want all form authors to have certain text boxes, navigation bu
 
 ## Working with templates {#working-with-templates}
 
-You can access template editor from the Tools menu by navigating to **Adobe Experience Manager &gt; Tools &gt; Templates**. Here, the templates are organized in folders enabled for editable templates. AEM provides a global folder to organize templates. However, it is not enabled by default. You can request your Administrator to enable the global folder or create a new folder for templates. For more information on how to create folders, see [Template Folders](../../sites/developing/using/page-templates-editable.md).
+You can access template editor from the Tools menu by navigating to **Adobe Experience Manager &gt; Tools &gt; Templates**. Here, the templates are organized in folders enabled for editable templates. AEM provides a global folder to organize templates. However, it is not enabled by default. You can request your Administrator to enable the global folder or create a new folder for templates. For more information on how to create folders, see [Template Folders](/help/sites/developing/using/page-templates-editable.md).
 
 Once you tap to open a folder, you will find a Create button that allows creating a new template for adaptive forms.
 
@@ -57,7 +57,7 @@ When you open a template for editing, you can see the following AEM Editor compo
 * **Component toolbar:** When you select a component, you see a toolbar that lets you customize the component. 
 * **Page**: The area where you add content to create the template.
 
-See [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md) to understand the Touch UI editor.
+See [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md) to understand the Touch UI editor.
 
 ### Editing a template {#editing-a-template}
 
@@ -107,7 +107,7 @@ Initial Content layer in Template Editor showing Adaptive Form Container selecte
 
 ](assets/initial-content-layer-1.png) In the Initial Content layer, you create the adaptive form template that your authors use as a base. Authoring a template is similar to authoring a form, you use options available in the Sidebar. Sidebar provides content, properties, assets, and components browsers.
 
-See [Sidebar](../../forms/using/introduction-forms-authoring.md#sidebar).
+See [Sidebar](/help/forms/using/introduction-forms-authoring.md#sidebar).
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ A form works with its template. When you download an adaptive form created using
 
 ## Creating an adaptive form using the template {#creating-an-adaptive-form-using-the-template}
 
-After you create and enable a template, it is available in the forms manager when you create an adaptive form. To use a template and create an adaptive form, see [Creating an adaptive form](../../forms/using/creating-adaptive-form.md).
+After you create and enable a template, it is available in the forms manager when you create an adaptive form. To use a template and create an adaptive form, see [Creating an adaptive form](/help/forms/using/creating-adaptive-form.md).
 
 ## Change display option of out of the box templates  {#change-display-option-of-out-of-the-box-templates}
 
@@ -186,5 +186,5 @@ Perform the following steps to show and hide templates:
 
 * When you modify properties of the form in template editor, do not use the BindReference property.
 * If you want to add a breakpoint, create it when you author an adaptive form template.   
-  For more information on breakpoints, see [Responsive Layout](../../sites/authoring/using/responsive-layout.md).
+  For more information on breakpoints, see [Responsive Layout](/help/sites/authoring/using/responsive-layout.md).
 

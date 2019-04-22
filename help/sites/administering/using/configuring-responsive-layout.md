@@ -14,15 +14,15 @@ legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/config
 
 # Configuring Layout Container and Layout Mode{#configuring-layout-container-and-layout-mode}
 
-[Responsive Layout](../../../sites/authoring/using/responsive-layout.md) is a mechanism for realizing [responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design). This allows the user to create web pages that have a layout and dimensions dependent on the devices their users use.
+[Responsive Layout](/help/sites/authoring/using/responsive-layout.md) is a mechanism for realizing [responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design). This allows the user to create web pages that have a layout and dimensions dependent on the devices their users use.
 
 >[!NOTE]
 >
->This can be compared with the [Mobile Web](../../../sites/developing/using/mobile-web.md) mechanisms, which use adaptive web design (primarily for the classic UI).
+>This can be compared with the [Mobile Web](/help/sites/developing/using/mobile-web.md) mechanisms, which use adaptive web design (primarily for the classic UI).
 
 AEM realizes responsive layout for your pages using a combination of mechanisms:
 
-* [**Layout Container**](../../../sites/authoring/using/responsive-layout.md#adding-a-layout-container-and-its-content-edit-mode) component  
+* [**Layout Container**](/help/sites/authoring/using/responsive-layout.md#adding-a-layout-container-and-its-content-edit-mode) component  
   This component provides a grid-paragraph system to allow you to add and position components within a responsive grid. It can be used as the default parsys for your page and/or made available to authors in the component browser.
 
     * The default **Layout Container** component is defined under:  
@@ -35,10 +35,10 @@ AEM realizes responsive layout for your pages using a combination of mechanisms:
         * Both.  
           You can have the layout container as standard for the page, while allowing the user to add further layout containers within this; for example, to achieve column control.
 
-* ** [Layout Mode](../../../sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode)** 
+* ** [Layout Mode](/help/sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode)** 
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
-* [**Emulator**](../../../sites/authoring/using/responsive-layout.md#selecting-a-device-to-emulate)**** 
+* [**Emulator**](/help/sites/authoring/using/responsive-layout.md#selecting-a-device-to-emulate)**** 
   This allows you to create and edit responsive websites that rearrange the layout according to device/window size by resizing components interactively. The user can then see how the content will be rendered using the Emulator.
 
 >[!CAUTION]
@@ -54,7 +54,7 @@ With these responsive grid mechanisms you can:
 
 >[!NOTE]
 >
->In an out-of-the-box installation, responsive layout has been configured for the [We.Retail reference site](../../../sites/developing/using/we-retail.md). You must still [activate the Layout Container component](#enable-the-layout-container-component-for-page) for other pages.
+>In an out-of-the-box installation, responsive layout has been configured for the [We.Retail reference site](/help/sites/developing/using/we-retail.md). You must still [activate the Layout Container component](#enable-the-layout-container-component-for-page) for other pages.
 
 ## Configuring the Responsive Emulator {#configuring-the-responsive-emulator}
 
@@ -62,15 +62,15 @@ This tasks allow you to see the responsive **Emulator** on your site.
 
 ### Register your Page Components for Emulation {#register-your-page-components-for-emulation}
 
-To enable the emulator to support your pages, you must register your page components. See [Registering Page Components for Simulation](../../../sites/developing/using/responsive.md#registering-page-components-for-simulation).
+To enable the emulator to support your pages, you must register your page components. See [Registering Page Components for Simulation](/help/sites/developing/using/responsive.md#registering-page-components-for-simulation).
 
 ### Specify the Device Groups {#specify-the-device-groups}
 
-To specify the device groups that appear in the Devices list of the emulator see [Specifying the Device Groups](../../../sites/developing/using/responsive.md#specifying-the-device-groups).
+To specify the device groups that appear in the Devices list of the emulator see [Specifying the Device Groups](/help/sites/developing/using/responsive.md#specifying-the-device-groups).
 
 ### Link your Site to the Specified Device Groups {#link-your-site-to-the-specified-device-groups}
 
-To include the dmulator you need to link your site to the device groups. See [Adding the Devices List](../../../sites/developing/using/responsive.md#adding-the-devices-list) (for both the classic and touch-optimized UI).
+To include the dmulator you need to link your site to the device groups. See [Adding the Devices List](/help/sites/developing/using/responsive.md#adding-the-devices-list) (for both the classic and touch-optimized UI).
 
 ## Activate Layout Mode for your Site {#activate-layout-mode-for-your-site}
 
@@ -78,7 +78,7 @@ These procedures are used to enable the **Layout** mode on your site.
 
 ### Configure the Breakpoints {#configure-the-breakpoints}
 
-[Breakpoints](../../../sites/authoring/using/responsive-layout.md#selecting-a-device-to-emulate):
+[Breakpoints](/help/sites/authoring/using/responsive-layout.md#selecting-a-device-to-emulate):
 
 * Are used in responsive design.
 * Can be defined:
@@ -275,7 +275,7 @@ To allow authors to add further responsive grids to the content pages you need t
 
 * **Author Environment**
 
-  Use [Design mode](../../../sites/authoring/using/default-components-designmode.md) to activate the **Layer Container** component for a page.
+  Use [Design mode](/help/sites/authoring/using/default-components-designmode.md) to activate the **Layer Container** component for a page.
 
 * **Component Definition**
 
@@ -289,7 +289,7 @@ You can configure the number of columns available for each specific instance of 
 
    You can configure the number of columns available for each specific instance of layout container.
 
-   To do this, use [Design mode](../../../sites/authoring/using/default-components-designmode.md), then open the design dialog for the required container. Here you can specific how many columns will be available for positioning and sizing. The default is 12.
+   To do this, use [Design mode](/help/sites/authoring/using/default-components-designmode.md), then open the design dialog for the required container. Here you can specific how many columns will be available for positioning and sizing. The default is 12.
 
 1. **XML**
 

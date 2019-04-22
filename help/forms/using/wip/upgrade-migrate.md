@@ -14,7 +14,7 @@ discoiquuid: df0d4356-6a32-463d-aca2-105f624c6350
 
 # DO NOT PUBLISH Upgrade or migrate to AEM 6.3 Forms{#do-not-publish-upgrade-or-migrate-to-aem-forms}
 
-AEM 6.3 Forms includes several new features and enhancements that streamline the creation, management, and user experiences with forms, documents, and correspondences. It also brings enhancements to Adobe Sign and Forms Workflow and many new features such as Data Integration. To learn about all the new capabilities and enhancements of AEM 6.3 Forms, see [New features summary document](../../../forms/using/whats-new.md.
+AEM 6.3 Forms includes several new features and enhancements that streamline the creation, management, and user experiences with forms, documents, and correspondences. It also brings enhancements to Adobe Sign and Forms Workflow and many new features such as Data Integration. To learn about all the new capabilities and enhancements of AEM 6.3 Forms, see [New features summary document](/help/forms/using/whats-new.md.
 
 You can upgrade or migrate from existing LiveCycle or AEM Forms to AEM 6.3 Forms. You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from various releases of LiveCycle and AEM 6.1 Forms.
 
@@ -30,7 +30,7 @@ You can upgrade your existing AEM Forms server to obtain new capabilities and en
 
 * You do not require existing workflows and processes. Migration does not move existing processes (LCAs) to AEM 6.3 Forms.  
 * You are using AEM Forms on JEE only for document services (PDF Generator, Output, and more) or forms (adaptive forms, HTML5 forms, PDF Forms), then [Migrate to AEM 6.3 Forms on OSGi](#main-pars-accordion-container-1460251140).
-* You are using AEM Forms on JEE Process Management and the [Forms-centric AEM Workflows on OSGi](../../../forms/using/aem-forms-workflow.md) capability suits your requirement.  
+* You are using AEM Forms on JEE Process Management and the [Forms-centric AEM Workflows on OSGi](/help/forms/using/aem-forms-workflow.md) capability suits your requirement.  
 
 * You are running short lived processes on AEM Forms on JEE. You have the following choices in the order of recommendation
 
@@ -44,8 +44,8 @@ You can upgrade your existing AEM Forms server to obtain new capabilities and en
 
 * You are looking to use latest features of AEM 6.3 Forms while keeping everything (processes and assets) available on the previous version intact.  
 * You are running long lived processes on AEM Forms on JEE.
-* You are using AEM Form Document Security, [upgrade to AEM 6.3 Forms on JEE](../../../forms/using/wip/upgrade-migrate.md#main-pars-accordion-container-270280220).
-* You are using [advanced feature](../../../forms/using/aem-forms-workflow.md) of AEM Forms on JEE Process Management.
+* You are using AEM Form Document Security, [upgrade to AEM 6.3 Forms on JEE](/help/forms/using/wip/upgrade-migrate.md#main-pars-accordion-container-270280220).
+* You are using [advanced feature](/help/forms/using/aem-forms-workflow.md) of AEM Forms on JEE Process Management.
 
 You can perform a direct upgrade from AEM 6.1 Forms on JEE and AEM 6.2 Forms on JEE to AEM 6.3 Forms on JEE. You can also perform a multi-hop upgrade from LiveCycle ES2, LiveCycle ES3, LiveCycle ES4, and AEM 6.1 Forms on JEE to AEM 6.3 Forms on JEE. The following diagram displays all the possible upgrade paths:
 
@@ -149,17 +149,17 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
     * **Run Migration Utility**
 
-      The migration utility makes the adaptive forms and correspondence management assets of earlier versions compatible with AEM 6.3 forms. You can download the utility from AEM package share. For step-by-step information to configure and use the migration utility, see [migration utility](../../../forms/using/migration-utility.md) documentation.
+      The migration utility makes the adaptive forms and correspondence management assets of earlier versions compatible with AEM 6.3 forms. You can download the utility from AEM package share. For step-by-step information to configure and use the migration utility, see [migration utility](/help/forms/using/migration-utility.md) documentation.
     
     * **Reconfigure Adobe Sign**
 
-      If you had Adobe Sign configured in the previous version of AEM Forms, then reconfigure Adobe Sign from AEM Cloud services. For more details, see [Integrate Adobe Sign with AEM Forms](../../../forms/using/adobe-sign-integration-adaptive-forms.md).
+      If you had Adobe Sign configured in the previous version of AEM Forms, then reconfigure Adobe Sign from AEM Cloud services. For more details, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
 
-      Moreover, AEM 6.3 Forms release has introduced many new Adobe Sign features. For step-by-step information to use Adobe Sign, see [Using Adobe Sign in an adaptive form](../../../forms/using/working-with-adobe-sign.md).
+      Moreover, AEM 6.3 Forms release has introduced many new Adobe Sign features. For step-by-step information to use Adobe Sign, see [Using Adobe Sign in an adaptive form](/help/forms/using/working-with-adobe-sign.md).
     
     * **Reconfigure analytics and reports**
 
-      In AEM 6.3 Forms, traffic variable for source and success event for impression are not available. So, when you upgrade to AEM 6.3 Forms, AEM Forms stops sending data to Adobe Analytics server and analytics reports for adaptive forms and adaptive document are not available. Moreover, AEM 6.3 Forms introduces traffic variable for the version of form analytics and success event for the amount of time spent on a field. So, reconfigure analytics and reports for your AEM Forms environment. For detailed steps, see [Configuring analytics and reports](../../../forms/using/configure-analytics-forms-documents.md).
+      In AEM 6.3 Forms, traffic variable for source and success event for impression are not available. So, when you upgrade to AEM 6.3 Forms, AEM Forms stops sending data to Adobe Analytics server and analytics reports for adaptive forms and adaptive document are not available. Moreover, AEM 6.3 Forms introduces traffic variable for the version of form analytics and success event for the amount of time spent on a field. So, reconfigure analytics and reports for your AEM Forms environment. For detailed steps, see [Configuring analytics and reports](/help/forms/using/configure-analytics-forms-documents.md).
 
       Methods to calculate average fill time for forms and average read time for adaptive documents have changed. So, when you upgrade to AEM 6.3 forms, older data (data from previous AEM Forms release) for these metrics is available only in Adobe Analytics. It is not visible in AEM Forms analytics reports. For these metrics, AEM Forms analytics reports display data which is captured after performing the upgrade.
 
@@ -174,7 +174,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
         * https://[server]:[port]/crx/de
         * https://[server]:[port]/aem/forms.html/content/dam/formsanddocuments
 
-Direct upgrade from LiveCycle ES2, ES3, ES4, and AEM 6.0 Forms to AEM 6.3 Forms is not available. You can perform an intermediate upgrade to one or more versions of LiveCycle or AEM Forms and then upgrade from AEM 6.3 Forms. For the list of intermediate versions and corresponding upgrade instructions, see [Choose an upgrade path](../../../forms/using/wip/upgrade-migrate.md#choose-an-upgrade-path).
+Direct upgrade from LiveCycle ES2, ES3, ES4, and AEM 6.0 Forms to AEM 6.3 Forms is not available. You can perform an intermediate upgrade to one or more versions of LiveCycle or AEM Forms and then upgrade from AEM 6.3 Forms. For the list of intermediate versions and corresponding upgrade instructions, see [Choose an upgrade path](/help/forms/using/wip/upgrade-migrate.md#choose-an-upgrade-path).
 
 Perform the following procedure to upgrade an existing version of LiveCycle or AEM Forms on OSGi to AEM 6.3 Forms:
 
@@ -201,8 +201,8 @@ Upgrade your AEM 6.2 instance to AEM 6.3. For step by step instructions, see [ht
 Migration involves moving only assets (PDF, XDP, images, adaptive forms, adaptive documents, correspondence management assets) from one server to another - processes (LCA), settings, configurations, and a few other pieces of metadata are not migrated. Perform the following steps to migrate to AEM 6.3 Forms:
 
 1. Set up a fresh environment of [AEM 6.3 Forms](https://adobe.com/go/learn_aemforms_documentation_63). 
-1. Move XDP or other compatible assets to the freshly set instance. For detailed instructions, see [Importing and exporting assets to AEM Forms](../../../forms/using/import-export-forms-templates.md). [  
-   ](../../../forms/using/import-export-forms-templates.md) 
+1. Move XDP or other compatible assets to the freshly set instance. For detailed instructions, see [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md). [  
+   ](/help/forms/using/import-export-forms-templates.md) 
 1. Build the required services, if any.
 
    For example, if you are using AEM Forms on JEE Document Services, changes are required in the code to use document services available in AEM Forms on OSGi.
@@ -211,18 +211,17 @@ Migration involves moving only assets (PDF, XDP, images, adaptive forms, adaptiv
 
     * **Run Migration Utility**
 
-      The migration utility makes the adaptive forms and correspondence management assets of earlier versions compatible with AEM 6.3 forms. You can download the utility from AEM package share. For step-by-step information to configure and use the migration utility, see [migration utility](../../../forms/using/migration-utility.md) documentation.
+      The migration utility makes the adaptive forms and correspondence management assets of earlier versions compatible with AEM 6.3 forms. You can download the utility from AEM package share. For step-by-step information to configure and use the migration utility, see [migration utility](/help/forms/using/migration-utility.md) documentation.
     
     * **Reconfigure Adobe Sign**
 
-      If you had Adobe Sign configured in the previous version of AEM Forms, then reconfigure Adobe Sign from AEM Cloud services. For more details, see [Integrate Adobe Sign with AEM Forms](../../../forms/using/adobe-sign-integration-adaptive-forms.md).
+      If you had Adobe Sign configured in the previous version of AEM Forms, then reconfigure Adobe Sign from AEM Cloud services. For more details, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
 
-      Moreover, AEM 6.3 Forms release has introduced many new Adobe Sign features. For step-by-step information to use Adobe Sign, see [Using Adobe Sign in an adaptive form](../../../forms/using/working-with-adobe-sign.md).
+      Moreover, AEM 6.3 Forms release has introduced many new Adobe Sign features. For step-by-step information to use Adobe Sign, see [Using Adobe Sign in an adaptive form](/help/forms/using/working-with-adobe-sign.md).
     
-    * **Reconfigure analytics and reports  
-      **
+    * **Reconfigure analytics and reports**
 
-      In AEM 6.3 Forms, traffic variable for source and success event for impression are not available. So, when you upgrade to AEM 6.3 Forms, AEM Forms stops sending data to Adobe Analytics server and analytics reports for adaptive forms and adaptive document are not available. Moreover, AEM 6.3 Forms introduces traffic variable for the version of form analytics and success event for the amount of time spent on a field. So, reconfigure analytics and reports for your AEM Forms environment. For detailed steps, see [Configuring analytics and reports](../../../forms/using/configure-analytics-forms-documents.md).
+      In AEM 6.3 Forms, traffic variable for source and success event for impression are not available. So, when you upgrade to AEM 6.3 Forms, AEM Forms stops sending data to Adobe Analytics server and analytics reports for adaptive forms and adaptive document are not available. Moreover, AEM 6.3 Forms introduces traffic variable for the version of form analytics and success event for the amount of time spent on a field. So, reconfigure analytics and reports for your AEM Forms environment. For detailed steps, see [Configuring analytics and reports](/help/forms/using/configure-analytics-forms-documents.md).
 
       Methods to calculate average fill time for forms and average read time for adaptive documents have changed. So, when you upgrade to AEM 6.3 forms, older data (data from previous AEM Forms release) for these metrics is available only in Adobe Analytics. It is not visible in AEM Forms analytics reports. For these metrics, AEM Forms analytics reports display data which is captured after performing the upgrade.
 

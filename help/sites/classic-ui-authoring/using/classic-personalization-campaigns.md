@@ -19,13 +19,13 @@ It allows you to orchestrate your marketing campaigns across the web, email and 
 
 This document describes the various elements that make up campaigns. More detailed information is available in the following documents:
 
-* [Teasers and Strategies](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-teasers-strategy.md)
-* [E-mail Marketing](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-email.md)
-* [Landing Pages](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-landingpage.md)
-* [Target offers](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-target-offers.md)
-* [Working with the Marketing Campaign Manager](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-mktg-manager.md)
-* [Understanding Segmentation](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-segmentation.md)
-* [Setting up your campaign](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-setting-up-your.md)
+* [Teasers and Strategies](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-teasers-strategy.md)
+* [E-mail Marketing](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-email.md)
+* [Landing Pages](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-landingpage.md)
+* [Target offers](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-target-offers.md)
+* [Working with the Marketing Campaign Manager](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-mktg-manager.md)
+* [Understanding Segmentation](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-segmentation.md)
+* [Setting up your campaign](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-setting-up-your.md)
 
 Campaign management is made up of various elements:
 
@@ -48,7 +48,7 @@ Campaign management is made up of various elements:
       Typically a teaser page is a temporary action that will last for a specific period of time, until it is replaced by the next teaser page.
     
     * **Newsletters** 
-      [E-mail Communications](#emailmarketing) are used to engage users and encourage them to visit your web site. These usually take the form of a newsletter, sent to your **Leads** (which are usually grouped into **Lists**). **Note:** Adobe is not planning to further enhance this capability. Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+      [E-mail Communications](#emailmarketing) are used to engage users and encourage them to visit your web site. These usually take the form of a newsletter, sent to your **Leads** (which are usually grouped into **Lists**). **Note:** Adobe is not planning to further enhance this capability. Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
     
     * **Adobe Target** 
       This allows integration with Adobe Target (formerly Test&Target) which gives marketers a conversion website optimization tool with the necessary capabilities to continually make their online content and offers more relevant to their customers—yielding greater conversion. Adobe Target provides an intuitive interface for designing and executing tests, creating audience segments and targeting content—all from a single application.
@@ -59,11 +59,11 @@ Campaign management is made up of various elements:
 
 * **Leads** 
   The information that you have collected about your visitors and how to contact them forms the basis for your leads. **Note:** Adobe is not planning to further enhance this capability.  
-  Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).  
+  Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).  
 
 * **Lists** 
   Leads are usually grouped into lists so that you can take collective action on them. Note: **Note:** Adobe is not planning to further enhance this capability.  
-  Recommendation is to [leverage Adobe Campaign and the integration to AEM.](../../../sites/administering/using/campaign.md)  
+  Recommendation is to [leverage Adobe Campaign and the integration to AEM.](/help/sites/administering/using/campaign.md)  
 
 * **Segments** 
   Site visitors have different interests and objectives when they come to a site. Analyzing this according to factors such as activity on the website, profile information registered and activity on other websites, helps you to define segments. Content can then be specifically targeted to the visitor's needs and interests according to the segment(s) they match.

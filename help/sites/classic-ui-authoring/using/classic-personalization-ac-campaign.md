@@ -22,11 +22,11 @@ You can create email content in AEM and process it in Adobe Campaign emails. To 
 
 Content can then be synched with a delivery in Adobe Campaign. Detailed instructions are described in this document.
 
-See also [Creating Adobe Campaign Forms in AEM](../../../sites/classic-ui-authoring/using/classic-personalization-ac-forms.md).
+See also [Creating Adobe Campaign Forms in AEM](/help/sites/classic-ui-authoring/using/classic-personalization-ac-forms.md).
 
 >[!NOTE]
 >
->Before you can use this functionality, you must configure AEM to integrate with either [Adobe Campaign](../../../sites/administering/using/campaignonpremise.md) or [Adobe Campaign Standard](../../../sites/administering/using/campaignstandard.md).
+>Before you can use this functionality, you must configure AEM to integrate with either [Adobe Campaign](/help/sites/administering/using/campaignonpremise.md) or [Adobe Campaign Standard](/help/sites/administering/using/campaignstandard.md).
 
 ## Sending Email Content via Adobe Campaign {#sending-email-content-via-adobe-campaign}
 
@@ -52,7 +52,7 @@ Detailed instructions are described in this document.
 
    >[!NOTE]
    >
-   >[Email samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
+   >[Email samples are only available in Geometrixx](/help/sites/developing/using/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
 
    ![](assets/chlimage_1-172.png)
 
@@ -103,7 +103,7 @@ You can edit email content in either the classic user interface or the touch-opt
 
    ![](assets/chlimage_1-176.png)
 
-   See [Adobe Campaign Components](../../../sites/classic-ui-authoring/using/classic-personalization-ac-components.md) for a description of components available for Adobe Campaign newsletters/email campaigns.
+   See [Adobe Campaign Components](/help/sites/classic-ui-authoring/using/classic-personalization-ac-components.md) for a description of components available for Adobe Campaign newsletters/email campaigns.
 
    ![](assets/chlimage_1-177.png)
 
@@ -114,7 +114,7 @@ When editing your content, you can insert:
 * Adobe Campaign context fields. These are are fields that you can insert within your text that will adapt according to the recipient’s data (for example first name, last name, or any data of the target dimension).
 * Adobe Campaign personalization blocks. These are blocks of predefined content that are not related to the recipient’s data, such as a brand logo, or link to a mirror page.
 
-See [Adobe Campaign Components](../../../sites/classic-ui-authoring/using/classic-personalization-ac-components.md) for a full description of the Campaign components.
+See [Adobe Campaign Components](/help/sites/classic-ui-authoring/using/classic-personalization-ac-components.md) for a full description of the Campaign components.
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ See [Adobe Campaign Components](../../../sites/classic-ui-authoring/using/classi
    >The available context fields correspond to the **Profiles** targeting dimension in Adobe Campaign.
    >
    >
-   >See [Linking an AEM page to an Adobe Campaign email](../../../sites/classic-ui-authoring/using/classic-personalization-ac-campaign.md#linkinganaempagetoanadobecampaignemail).
+   >See [Linking an AEM page to an Adobe Campaign email](/help/sites/classic-ui-authoring/using/classic-personalization-ac-campaign.md#linkinganaempagetoanadobecampaignemail).
 
    ![](assets/chlimage_1-178.png)
 
@@ -183,5 +183,5 @@ In Adobe Campaign 6.1:
 
 >[!NOTE]
 >
->See [Linking AEM with Adobe Campaign Standard and Adobe Campaign 6.1](../../../sites/authoring/using/campaign.md#linking-aem-with-adobe-campaign-standard-and-adobe-campaign-classic) under [Working with Adobe Campaign 6.1 and Adobe Campaign Standard](../../../sites/authoring/using/campaign.md) in the standard authoring docurmentation for details.
+>See [Linking AEM with Adobe Campaign Standard and Adobe Campaign 6.1](/help/sites/authoring/using/campaign.md#linking-aem-with-adobe-campaign-standard-and-adobe-campaign-classic) under [Working with Adobe Campaign 6.1 and Adobe Campaign Standard](/help/sites/authoring/using/campaign.md) in the standard authoring docurmentation for details.
 

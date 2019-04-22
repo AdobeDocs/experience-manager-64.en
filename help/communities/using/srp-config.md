@@ -19,8 +19,8 @@ This setting informs the AEM Communities code as to which implementation of the 
 
 For a discussion of storage options and deployment topologies, visit
 
-* [Community Content Store](../../communities/using/working-with-srp.md)
-* [Recommended Topologies](../../communities/using/topologies.md)
+* [Community Content Store](/help/communities/using/working-with-srp.md)
+* [Recommended Topologies](/help/communities/using/topologies.md)
 
 ## Storage Configuration Console {#storage-configuration-console}
 
@@ -35,9 +35,9 @@ To select a storage option other than the default JCR:
 * select an option
 * configure appropriately
 
-    * see details for [selecting MSRP](../../communities/using/msrp.md#select-msrp)
-    * see details for [selecting DSRP](../../communities/using/dsrp.md#select-dsrp)
-    * see details for [selecting ASRP](../../communities/using/asrp.md#select-asrp)
+    * see details for [selecting MSRP](/help/communities/using/msrp.md#select-msrp)
+    * see details for [selecting DSRP](/help/communities/using/dsrp.md#select-dsrp)
+    * see details for [selecting ASRP](/help/communities/using/asrp.md#select-asrp)
 
 * select **Submit**
 
@@ -47,9 +47,9 @@ Be aware that if no selection is made, the default is the AEM repository, JCR.
 
 JCR is *not *a common store shared by the author and publish environments. Community content will be visible only from the author or publish environment in which it was created.
 
-Visit [JCR Store](../../communities/using/jsrp.md) for additional information.
+Visit [JCR Store](/help/communities/using/jsrp.md) for additional information.
 
 >[!NOTE]
 >
->The absence of the node `srpc`under `/etc/socialconfig` indicates the default [JCR store](../../communities/using/jsrp.md).
+>The absence of the node `srpc`under `/etc/socialconfig` indicates the default [JCR store](/help/communities/using/jsrp.md).
 

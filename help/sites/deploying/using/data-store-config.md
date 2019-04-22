@@ -116,7 +116,7 @@ Details on the different data stores and configurations are described below.
 
 >[!NOTE]
 >
->In order to enable custom Data Stores, you need to make sure that `customBlobStore` is set to `true` in the respective Node Store configuration file ([segment node store](../../../sites/deploying/using/data-store-config.md#segment-node-store) or [document node store](../../../sites/deploying/using/data-store-config.md#document-node-store)).
+>In order to enable custom Data Stores, you need to make sure that `customBlobStore` is set to `true` in the respective Node Store configuration file ([segment node store](/help/sites/deploying/using/data-store-config.md#segment-node-store) or [document node store](/help/sites/deploying/using/data-store-config.md#document-node-store)).
 
 ### File Data Store {#file-data-store}
 
@@ -335,7 +335,7 @@ In order to configure binaryless replication with S3, the following steps are re
     
     * If using S3 as the data store, create a file named o `rg.apache.jackrabbit.oak.plugins.blob.datastore.S3DataStore.config` in the `<aem-install>/crx-quickstart/install` folder as above.
 
-1. Modify the data store configuration files on each instance to point to the same data store. For more information, see [this article](../../../sites/deploying/using/data-store-config.md#data-store-configurations).
+1. Modify the data store configuration files on each instance to point to the same data store. For more information, see [this article](/help/sites/deploying/using/data-store-config.md#data-store-configurations).
 1. If the instance has been cloned from an existing server, you need to remove the `clusterId` of the new instance by using the latest oak-run tool while the repository is offline. The command you need to run is:
 
    ```xml
@@ -470,7 +470,7 @@ You can run data store garbage collection by:
 With newer versions of AEM, data store garbage collection can also be run on data stores shared by more than one repository. In order to be able to run data store garbage collection on a shared data store, take the following steps:
 
 1. Make sure that any maintenance tasks configured for the data store garbage collection are disabled on all repository instances sharing the data store.
-1. Run the steps mentioned in [Binary Garbage Collection](../../../sites/deploying/using/data-store-config.md#data-store-garbage-collection) individually on **all** repository instances sharing the data store. However, make sure to enter `true` for the `markOnly` parameter before clicking the Invoke button:
+1. Run the steps mentioned in [Binary Garbage Collection](/help/sites/deploying/using/data-store-config.md#data-store-garbage-collection) individually on **all** repository instances sharing the data store. However, make sure to enter `true` for the `markOnly` parameter before clicking the Invoke button:
 
    ![](assets/chlimage_1-123.png)
 

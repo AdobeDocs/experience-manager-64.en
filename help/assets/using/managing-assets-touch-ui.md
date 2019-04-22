@@ -15,7 +15,7 @@ discoiquuid: 3583c0e5-2bd7-4f1e-b4b7-ff9bfe02a223
 
 Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 
-This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface (UI). For elementary knowledge about the UI, see [Basic handling of Touch UI](../../sites/authoring/using/basic-handling.md).
+This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface (UI). For elementary knowledge about the UI, see [Basic handling of Touch UI](/help/sites/authoring/using/basic-handling.md).
 
 >[!CAUTION]
 >
@@ -739,7 +739,7 @@ The other properties and metadata information is retained. A partial copy is not
 
    **Deleting a rendition**
 
-   Select a rendition from the **Renditions** panel, and then tap/click the **Delete Rendition** icon from the [toolbar](../../sites/authoring/using/basic-handling.md).
+   Select a rendition from the **Renditions** panel, and then tap/click the **Delete Rendition** icon from the [toolbar](/help/sites/authoring/using/basic-handling.md).
 
    ![](assets/delete_renditionicon.png)
 
@@ -974,7 +974,7 @@ CUGs are an extra way to restrict access to your assets. You can also configure 
 
 ## Searching Assets {#searching-assets}
 
-Basic search is detailed in the [Search and filter](../../sites/authoring/using/search.md#search-and-filter) section. Use the Search panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the Search panel using [Search facets](search-facets.md). 
+Basic search is detailed in the [Search and filter](/help/sites/authoring/using/search.md#search-and-filter) section. Use the Search panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the Search panel using [Search facets](search-facets.md). 
 
 ![](assets/filters_panel.png)
 
@@ -1005,7 +1005,7 @@ Similar to List view, the **Select** icon appears when you hover the mouse icon 
 
 ![](assets/select_quick_in_columnview.png)
 
-For more information, see [Viewing and Selecting your Resources](../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
+For more information, see [Viewing and Selecting your Resources](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
 
 ## Editing Images {#editing-images}
 
@@ -1087,7 +1087,7 @@ The timeline lets you view various events for a selected item, such as active wo
 
    >[!NOTE]
    >
-   >Timeline contains several [options specific to content fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
+   >Timeline contains several [options specific to content fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md).
 
 ## Annotating {#annotating}
 
@@ -1097,7 +1097,7 @@ Video annotations are only supported on browsers with HTML5-compatible video for
 
 >[!NOTE]
 >
->For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
+>For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md).
 
 1. Navigate to the location of the asset to which you want to add annotations.
 1. Tap/click the **Annotate** icon from one of the following:
@@ -1292,7 +1292,7 @@ The versioning functionality lets you do the following:
 
    >[!NOTE]
    >
-   >You can also select the asset from the [List view](../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) or the [Column view](../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
+   >You can also select the asset from the [List view](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) or the [Column view](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
 
 1. Add a label and comment for the version to revert to the particular version in the Assets UI.
 

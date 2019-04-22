@@ -15,9 +15,9 @@ discoiquuid: 07b38da6-2efa-4a43-9afa-7151a241a5ad
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
-The **Manage App** tile and "Manage App" page provides a means to view and edit application metadata. App metadata is required details for releasing an application to a vendor's store. This may include common metadata, iOS metadata and screenshots. See the [Manage App Tile](../../mobile/using/phonegap-app-details-tile.md) for further details on common and iOS metadata.
+The **Manage App** tile and "Manage App" page provides a means to view and edit application metadata. App metadata is required details for releasing an application to a vendor's store. This may include common metadata, iOS metadata and screenshots. See the [Manage App Tile](/help/mobile/using/phonegap-app-details-tile.md) for further details on common and iOS metadata.
 
 ## Editing the App Data {#editing-the-app-data}
 
@@ -75,16 +75,16 @@ Click the delete on the asset.
 
 See the following resources to learn more about other authoring roles:
 
-* [The Manage App Tile](../../mobile/using/phonegap-app-details-tile.md)
-* [App Definitions](../../mobile/using/phonegap-app-definitions.md)
-* [Creating a New App using Create App Wizard](../../mobile/using/phonegap-create-new-app.md)
-* [Import an Existing Hybrid App](../../mobile/using/phonegap-import-hybrid-app.md)
+* [The Manage App Tile](/help/mobile/using/phonegap-app-details-tile.md)
+* [App Definitions](/help/mobile/using/phonegap-app-definitions.md)
+* [Creating a New App using Create App Wizard](/help/mobile/using/phonegap-create-new-app.md)
+* [Import an Existing Hybrid App](/help/mobile/using/phonegap-import-hybrid-app.md)
 * [Content Services](/mobile/using/content-as-a-service.md)
 
 ### Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Developing for Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md)
-* [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md)
+* [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/developing-in-phonegap.md)
+* [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md)
 

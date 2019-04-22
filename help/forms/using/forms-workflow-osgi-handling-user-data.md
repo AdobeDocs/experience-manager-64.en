@@ -21,7 +21,7 @@ A forms-centric workflow can be triggered or launched through any of the followi
 * Using a watched folder
 * Submitting an interactive communication or a letter
 
-For more information about Forms-centric AEM workflows and capabilities, see [Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md).
+For more information about Forms-centric AEM workflows and capabilities, see [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md).
 
 ## User data and data stores {#user-data-and-data-stores}
 
@@ -122,7 +122,7 @@ To identify and access user data stored for a workflow instance, perform the fol
 
 You must be an AEM administrator to delete user data from workflow instances by performing the following steps:
 
-1. Follow the instructions in [Access user data](../../forms/using/forms-workflow-osgi-handling-user-data.md#access) and take note of the following:
+1. Follow the instructions in [Access user data](/help/forms/using/forms-workflow-osgi-handling-user-data.md#access) and take note of the following:
 
     * Paths to workflow instances associated with the user
     * Status of the workflow instances
@@ -135,7 +135,7 @@ You must be an AEM administrator to delete user data from workflow instances by 
     1. Navigate to **[!UICONTROL Tools > Workflow> Instances]**.
     1. Select relevant workflow instances for the user and tap **[!UICONTROL Terminate]** to terminate running instances.
 
-   For more information about working with workflow instances, see [Administering Workflow Instances](../../sites/administering/using/workflows-administering.md).
+   For more information about working with workflow instances, see [Administering Workflow Instances](/help/sites/administering/using/workflows-administering.md).
 
 1. Go to CRXDE Lite console, navigate to the payload path for a workflow instance, and delete the `payload` node.
 1. Navigate to the drafts path for a workflow instance, and delete the `draft` node.
@@ -151,7 +151,7 @@ You must be an AEM administrator to delete user data from workflow instances by 
 
 You can also use APIs to access and remove nodes and properties. See the following docs for more information.
 
-* [How to programmatically access the AEM JCR](../../sites/developing/using/access-jcr.md)
+* [How to programmatically access the AEM JCR](/help/sites/developing/using/access-jcr.md)
 * [Removing Nodes and Properties](https://docs.adobe.com/docs/en/spec/jcr/2.0/10_Writing.html#10.9%20Removing%20Nodes%20and%20Properties)
 * [API reference](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/reference-materials/javadoc/overview-summary.html)
 

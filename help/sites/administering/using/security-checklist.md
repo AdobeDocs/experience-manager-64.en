@@ -21,13 +21,13 @@ This section deals with various steps that you should take to ensure that your A
 
 >[!NOTE]
 >
->There are some additional [security considerations](../../../sites/developing/using/dev-guidelines-bestpractices.md#security-considerations) applicable at the development phase.
+>There are some additional [security considerations](/help/sites/developing/using/dev-guidelines-bestpractices.md#security-considerations) applicable at the development phase.
 
 ## Main Security Measures {#main-security-measures}
 
 ### Run AEM in Production Ready Mode {#run-aem-in-production-ready-mode}
 
-For more information, see [Running AEM in Production Ready Mode](../../../sites/administering/using/production-ready.md).
+For more information, see [Running AEM in Production Ready Mode](/help/sites/administering/using/production-ready.md).
 
 ### Enable HTTPS for transport layer security {#enable-https-for-transport-layer-security}
 
@@ -35,7 +35,7 @@ Enabling the HTTPS transport layer on both author and publish instances is manda
 
 >[!NOTE]
 >
->See the [Enabling HTTP Over SSL](../../../sites/deploying/using/config-ssl.md) section for more information.
+>See the [Enabling HTTP Over SSL](/help/sites/deploying/using/config-ssl.md) section for more information.
 
 ### Install Security Hotfixes {#install-security-hotfixes}
 
@@ -57,9 +57,9 @@ These two accounts use separate credentials and having distinct, strong password
 
 #### Changing the AEM admin password {#changing-the-aem-admin-password}
 
-The password for the AEM admin account can be changed via the [Granite Operations - Users](../../../sites/administering/using/granite-user-group-admin.md) console.
+The password for the AEM admin account can be changed via the [Granite Operations - Users](/help/sites/administering/using/granite-user-group-admin.md) console.
 
-Here you can edit the `admin` account and [change the password](../../../sites/administering/using/granite-user-group-admin.md#changing-the-password-for-an-existing-user).
+Here you can edit the `admin` account and [change the password](/help/sites/administering/using/granite-user-group-admin.md#changing-the-password-for-an-existing-user).
 
 >[!NOTE]
 >
@@ -72,11 +72,11 @@ Aside from the AEM `admin` account, failing to change the default password for t
 * Exposure of the server with a default password during startup and shutdown (that can take minutes for large servers);
 * Exposure of the server when the repository is down/restarting bundle - and OSGI is running.
 
-For more information on changing the web console password, see [Changing the OSGi web console admin password](../../../sites/administering/using/security-checklist.md#changing-the-osgi-web-console-admin-password) below.
+For more information on changing the web console password, see [Changing the OSGi web console admin password](/help/sites/administering/using/security-checklist.md#changing-the-osgi-web-console-admin-password) below.
 
 #### Changing the OSGi web console admin password {#changing-the-osgi-web-console-admin-password}
 
-You must also change the password used for accessing the Web console. This is done by configuring the following properties of the [Apache Felix OSGi Management Console](../../../sites/deploying/using/osgi-configuration-settings.md:
+You must also change the password used for accessing the Web console. This is done by configuring the following properties of the [Apache Felix OSGi Management Console](/help/sites/deploying/using/osgi-configuration-settings.md:
 
 **User Name** and **Password**, the credentials for accessing the Apache Felix Web Management Console itself.  
 The password must be changed after the initial installation to ensure the security of your instance.
@@ -110,7 +110,7 @@ AEM Dispatcher is a critical piece of your infrastructure. Adobe strongly recomm
 
 ### Configure replication and transport users {#configure-replication-and-transport-users}
 
-A standard installation of AEM specifies `admin` as the user for transport credentials within the default [replication agents](../../../sites/deploying/using/replication.md). Also, the admin user is used to source the replication on the author system.
+A standard installation of AEM specifies `admin` as the user for transport credentials within the default [replication agents](/help/sites/deploying/using/replication.md). Also, the admin user is used to source the replication on the author system.
 
 For security considerations, both should be changed to reflect the particular use case at hand, with the following two aspects in mind:
 
@@ -124,7 +124,7 @@ For security considerations, both should be changed to reflect the particular us
 
 AEM 6 introduces the new Operations Dashboard, aimed at aiding system operators troubleshoot problems and monitor the health of an instance.
 
-The dashboard also comes with a collection of security health checks. It is recommended you check the status of all the security health checks before going live with your production instance. For more information, consult the [Operations Dashboard documentation](../../../sites/administering/using/operations-dashboard.md).
+The dashboard also comes with a collection of security health checks. It is recommended you check the status of all the security health checks before going live with your production instance. For more information, consult the [Operations Dashboard documentation](/help/sites/administering/using/operations-dashboard.md).
 
 ### Check if Example Content is Present {#check-if-example-content-is-present}
 
@@ -132,7 +132,7 @@ All example content and users (e.g. the Geometrixx project and its components) s
 
 >[!NOTE]
 >
->The sample Geometrixx applications are removed if this instance is running in [Production Ready Mode](../../../sites/administering/using/production-ready.md). If, for any reason, this is not the case, you can uninstall the `cq-geometrixx-all-pkg` package as described in [Uninstalling Packages](../../../sites/administering/using/package-manager.md#uninstalling-packages). You can then delete all geometrixx packages using the same user interface.
+>The sample Geometrixx applications are removed if this instance is running in [Production Ready Mode](/help/sites/administering/using/production-ready.md). If, for any reason, this is not the case, you can uninstall the `cq-geometrixx-all-pkg` package as described in [Uninstalling Packages](/help/sites/administering/using/package-manager.md#uninstalling-packages). You can then delete all geometrixx packages using the same user interface.
 
 ### Check if the CRX development bundles are present {#check-if-the-crx-development-bundles-are-present}
 
@@ -144,7 +144,7 @@ These development OSGi bundles should be uninstalled on both author and publish 
 
 ### Check if the Sling development bundle is present {#check-if-the-sling-development-bundle-is-present}
 
-The [AEM Developer Tools for Eclipse](../../../sites/developing/using/aem-eclipse.md) deployes the Apache Sling Tooling Support Install (org.apache.sling.tooling.support.install).
+The [AEM Developer Tools for Eclipse](/help/sites/developing/using/aem-eclipse.md) deployes the Apache Sling Tooling Support Install (org.apache.sling.tooling.support.install).
 
 This OSGi bundle should be uninstalled on both author and publish productive systems before making them accessible.
 
@@ -152,7 +152,7 @@ This OSGi bundle should be uninstalled on both author and publish productive sys
 
 #### The CSRF Protection Framework {#the-csrf-protection-framework}
 
-AEM 6.1 ships with a mechanism that helps protect agains Cross-Site Request Forgery attacks, called the **CSRF Protection Framework**. For more information on how to use it, consult the [documentation](../../../sites/developing/using/csrf-protection.md).
+AEM 6.1 ships with a mechanism that helps protect agains Cross-Site Request Forgery attacks, called the **CSRF Protection Framework**. For more information on how to use it, consult the [documentation](/help/sites/developing/using/csrf-protection.md).
 
 #### The Sling Referrer Filter {#the-sling-referrer-filter}
 
@@ -200,37 +200,37 @@ Some OSGI settings are set by default to allow easier debugging of the applicati
 
 >[!NOTE]
 >
->All of the below settings with the exception of **The Day CQ WCM Debug Filter** are automatically covered by the [Production Ready Mode](../../../sites/administering/using/production-ready.md). Because of this, we recommend reviewing all the settings before deploying your instance in a productive environment.
+>All of the below settings with the exception of **The Day CQ WCM Debug Filter** are automatically covered by the [Production Ready Mode](/help/sites/administering/using/production-ready.md). Because of this, we recommend reviewing all the settings before deploying your instance in a productive environment.
 
 For each of the following services the specified settings need to be changed:
 
-* [Adobe Granite HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md:
+* [Adobe Granite HTML Library Manager](/help/sites/deploying/using/osgi-configuration-settings.md:
 
     * enable **Minify** (to remove CRLF and whitespace characters).
     * enable **Gzip** (to allow files to be gzipped and accessed with one request).
     * disable **Debug**
     * disable **Timing**
 
-* [Day CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md):
+* [Day CQ WCM Debug Filter](/help/sites/deploying/using/osgi-configuration-settings.md):
 
     * uncheck **Enable**
 
-* [Day CQ WCM Filter](../../../sites/deploying/using/osgi-configuration-settings.md):
+* [Day CQ WCM Filter](/help/sites/deploying/using/osgi-configuration-settings.md):
 
     * on publish only, set **WCM Mode** to "disabled"
 
-* [Apache Sling Java Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md):
+* [Apache Sling Java Script Handler](/help/sites/deploying/using/osgi-configuration-settings.md):
 
     * disable **Generate Debug Info**
 
-* [Apache Sling JSP Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md):
+* [Apache Sling JSP Script Handler](/help/sites/deploying/using/osgi-configuration-settings.md):
 
     * disable **Generate Debug Info**
     * disable **Mapped Content**
 
-For further details see [OSGi Configuration Settings](../../../sites/deploying/using/osgi-configuration-settings.md).
+For further details see [OSGi Configuration Settings](/help/sites/deploying/using/osgi-configuration-settings.md).
 
-When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 ## Further Readings {#further-readings}
 
@@ -262,7 +262,7 @@ Sling is *content-centric*. This means that processing is focused on the content
 
 >[!NOTE]
 >
->This is covered in more detail under [Sling Request Processing](../../../sites/developing/using/the-basics.md#sling-request-processing).
+>This is covered in more detail under [Sling Request Processing](/help/sites/developing/using/the-basics.md#sling-request-processing).
 
 This approach makes Sling very powerful and very flexible, but as always it is the flexibility that needs to be carefully managed.
 
@@ -283,9 +283,9 @@ To help prevent DoS misuse you can:
       `http://localhost:4502/.json`  
       could dump the whole repository in a JSON representation. This would cause significant server problems. For this reason Sling sets a limit on the number of maximum results. To limit the depth of the JSON rendering you can set the value for:  
       **JSON Max results** ( `json.maximumresults`)  
-      in the configuration for the [Apache Sling GET Servlet](../../../sites/deploying/using/osgi-configuration-settings.md). When this limit is exceeded the rendering will be collapsed. The default value for Sling within AEM is `200`.  
+      in the configuration for the [Apache Sling GET Servlet](/help/sites/deploying/using/osgi-configuration-settings.md). When this limit is exceeded the rendering will be collapsed. The default value for Sling within AEM is `200`.  
     
-    * As a preventive measure disable the other default renderers (HTML, plain text, XML). Again by configuring the [Apache Sling GET Servlet](../../../sites/deploying/using/osgi-configuration-settings.md).
+    * As a preventive measure disable the other default renderers (HTML, plain text, XML). Again by configuring the [Apache Sling GET Servlet](/help/sites/deploying/using/osgi-configuration-settings.md).
 
    >[!CAUTION]
    >
@@ -399,7 +399,7 @@ More specifically, you need to:
     * `<publish-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21/data`
 
 1. Paste the two files you previously copied.
-1. [Refresh the Crypto Bundle](../../../communities/using/deploy-communities.md#refresh-the-granite-crypto-bundle) if the target instance is already running.
+1. [Refresh the Crypto Bundle](/help/communities/using/deploy-communities.md#refresh-the-granite-crypto-bundle) if the target instance is already running.
 1. Repeat the above steps for all instances you want to replicate the key to.
 
 >[!NOTE]
@@ -425,4 +425,4 @@ Adobe strongly recommends to perform a penetration test of your AEM infrastructu
 
 ### Development Best Practices {#development-best-practices}
 
-It is critical that new development are following the [Security Best Practices](../../../sites/developing/using/security.md) to ensure your AEM environement stays safe.
+It is critical that new development are following the [Security Best Practices](/help/sites/developing/using/security.md) to ensure your AEM environement stays safe.

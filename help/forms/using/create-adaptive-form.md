@@ -12,21 +12,21 @@ discoiquuid: 55c08940-8c25-4938-8e49-25bce20aaf22
 
  ![](assets/02-create-adaptive-form-main-image.png)
 
-| This tutorial is a step in the [Create Your First Adaptive Form](../../forms/using/create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
+| This tutorial is a step in the [Create Your First Adaptive Form](/help/forms/using/create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|
 
 ## About the tutorial {#about-the-tutorial}
 
-Adaptive forms are new-generation forms that are dynamic and responsive. You can use Adaptive forms to deliver personalized experiences. You can also integrate adaptive forms with Adobe Analytics for usage statistics and Adobe Campaign for campaign management. For more information about adaptive forms capabilities, see [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md).
+Adaptive forms are new-generation forms that are dynamic and responsive. You can use Adaptive forms to deliver personalized experiences. You can also integrate adaptive forms with Adobe Analytics for usage statistics and Adobe Campaign for campaign management. For more information about adaptive forms capabilities, see [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
 It is easier to create and manage forms when a proper process is followed. In this article, you learn how to:
 
-* [Create an adaptive form that allows a customer to add a shipping address](../../forms/using/create-adaptive-form.md#step-create-the-adaptive-form)  
+* [Create an adaptive form that allows a customer to add a shipping address](/help/forms/using/create-adaptive-form.md#step-create-the-adaptive-form)  
 
-* [Layout fields of an adaptive form to display and accept information from a customer](../../forms/using/create-adaptive-form.md#step-add-header-and-footer)  
+* [Layout fields of an adaptive form to display and accept information from a customer](/help/forms/using/create-adaptive-form.md#step-add-header-and-footer)  
 
-* [Create submit action to send an email containing form content](../../forms/using/create-adaptive-form.md#step-add-components-to-capture-and-display-information)
-* [Preview and submit an adaptive form](../../forms/using/create-adaptive-form.md)
+* [Create submit action to send an email containing form content](/help/forms/using/create-adaptive-form.md#step-add-components-to-capture-and-display-information)
+* [Preview and submit an adaptive form](/help/forms/using/create-adaptive-form.md)
 
 You will have a form similar to the following by end of article:  
 
@@ -49,7 +49,7 @@ The adaptive form in action.
 
 1. Tap **Create**. An adaptive form is created and a dialog to open the form for editing appears. Tap **Open **to open the newly created form in a new tab. The form opens for editing. It also displays the sidebar to customize the newly created form according to the needs.
 
-   For information about adaptive form authoring interface and available components, see [Introduction to authoring adaptive forms](../../forms/using/creating-adaptive-form.md).
+   For information about adaptive form authoring interface and available components, see [Introduction to authoring adaptive forms](/help/forms/using/creating-adaptive-form.md).
 
    ![](assets/newly-created-adaptive-form.png)
 
@@ -72,7 +72,7 @@ AEM Forms provides many components to display information on an adaptive form. H
 
 ## Step 3: Add components to capture and display information {#step-add-components-to-capture-and-display-information}
 
-Components are building blocks of an adaptive form. AEM Forms provides many components to capture and display information in an adaptive form. You can drag the components from ![](assets/treeexpandall.png) to a form. To learn about available components and corresponding functionality, see [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md).
+Components are building blocks of an adaptive form. AEM Forms provides many components to capture and display information in an adaptive form. You can drag the components from ![](assets/treeexpandall.png) to a form. To learn about available components and corresponding functionality, see [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
 1. Drag the Numeric Box component to the adaptive form. Place it before the footer component. Open properties of the component, change **Title **of the component to **`Customer ID`**, change **Element Name** to** `customer_ID`**, enable the **Required Field** option, enable the **Use HTML5 Number Input Type** option, and tap ![](assets/aem_6_3_forms_save.png).
 1. Drag three Text Box components to the adaptive form. Place these before the footer component. Set the following properties for these text boxes.:
@@ -159,11 +159,11 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
 
 ## Step 4: Configure submit action for the adaptive form {#step-configure-submit-action-for-the-adaptive-form}
 
-A submit action is triggered when a user taps the Submit button on an adaptive form. You can use a submit action to save form data to the local repository, send form data to a REST endpoint, send form data as an email, and more. Adaptive forms provides a few more out-of-the-box submit actions. For detailed information, see [Configuring the Submit action](../../forms/using/configuring-submit-actions.md).
+A submit action is triggered when a user taps the Submit button on an adaptive form. You can use a submit action to save form data to the local repository, send form data to a REST endpoint, send form data as an email, and more. Adaptive forms provides a few more out-of-the-box submit actions. For detailed information, see [Configuring the Submit action](/help/forms/using/configuring-submit-actions.md).
 
 Using the following steps, you can configure email submit action and demo submit action of the form:
 
-1. Configure the email server. For details, see [Configuring Email Notification](../../sites/administering/using/notification.md).
+1. Configure the email server. For details, see [Configuring Email Notification](/help/sites/administering/using/notification.md).
 
    /content/help/en/experience-manager/6-4/sites/administering/using/notification.html 
 
@@ -209,6 +209,6 @@ Adaptive forms also provide an option to Emulate experience of a form for variou
 
 1. Tap the **Preview** option on the right side of the form editor. The form opens in the preview mode. If you have used the name mentioned the tutorial, then preview URL of the form is [http://localhost:4502/content/dam/formsanddocuments/shipping-address-add-update-form/jcr:content?wcmmode=disabled](http://localhost:4502/content/dam/formsanddocuments/shipping-address-addition-updation-form/jcr:content?wcmmode=disabled)
 1. Use ![](assets/ruler.png) to view how the form looks on various devices.
-1. Fill out fields of the form and tap **Submit**. The form is submitted and you are redirected to default **Thank You** page. You can also specify a custom thank you page. For details, see [Configuring redirect page](../../forms/using/configuring-redirect-page.md).
+1. Fill out fields of the form and tap **Submit**. The form is submitted and you are redirected to default **Thank You** page. You can also specify a custom thank you page. For details, see [Configuring redirect page](/help/forms/using/configuring-redirect-page.md).
 
 The adaptive form to add an address is ready. If you have used the name mentioned the tutorial and accessing the form on the machine running AEM Forms server, then the form is available at [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html).

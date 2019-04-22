@@ -13,7 +13,7 @@ discoiquuid: 72df3ece-badf-466b-8f9a-0ec985d87741
 
 # Enabling CRXDE Lite in AEM{#enabling-crxde-lite-in-aem}
 
-In order to ensure that AEM installations are as secure as possible, the security checklist recommends [disabling WebDAV](../../../sites/administering/using/security-checklist.md#disable-webdav) in production environments.
+In order to ensure that AEM installations are as secure as possible, the security checklist recommends [disabling WebDAV](/help/sites/administering/using/security-checklist.md#disable-webdav) in production environments.
 
 However, CRXDE Lite depends on the `org.apache.sling.jcr.davex` bundle to function properly, so disabling WebDAV will effectively disable CRXDE Lite as well.
 
@@ -54,6 +54,6 @@ curl -u admin:admin -F "jcr:primaryType=sling:OsgiConfig" -F "alias=/crx/server"
 
 For more information on AEM 6 security features, see the following pages:
 
-* [The AEM Security Checklist](../../../sites/administering/using/security-checklist.md)
-* [Running AEM in Production Ready Mode](../../../sites/administering/using/production-ready.md)
+* [The AEM Security Checklist](/help/sites/administering/using/security-checklist.md)
+* [Running AEM in Production Ready Mode](/help/sites/administering/using/production-ready.md)
 

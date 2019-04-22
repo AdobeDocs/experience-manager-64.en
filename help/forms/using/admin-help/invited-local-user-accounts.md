@@ -15,8 +15,8 @@ discoiquuid: 65720eed-ab06-463f-9567-2fdc468b6219
 
 Use the Invited and Local Users page to manage your invited and local users. This page is displayed only if the following requirements are met:
 
-* You are an administrator who is assigned the document security Manage Invited and Local Users role and the administration console User role. (See [Creating and configuring roles](../../../forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).)
-* Invited user registration is enabled. (See [Configuring invited user registration](../../../forms/using/admin-help/configuring-client-server-options.md#configuring-invited-user-registration).)
+* You are an administrator who is assigned the document security Manage Invited and Local Users role and the administration console User role. (See [Creating and configuring roles](/help/forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).)
+* Invited user registration is enabled. (See [Configuring invited user registration](/help/forms/using/admin-help/configuring-client-server-options.md#configuring-invited-user-registration).)
 
 The Invited and Local Users page contains two tabs that you can use to search for, view, edit, lock, unlock, and delete invited and local user accounts.
 
@@ -33,7 +33,7 @@ You can add one or more invited user accounts to document security at a time. To
 1. In administration console, click Services &gt; Document Security &gt; Invited and Local Users, and then click Invite New User.
 1. Type the email addresses of the users you want to invite. Enter multiple addresses on a line, separated by a comma.
 
-   The message that you created when enabling invited user registration is sent to the users. (See [Configuring invited user registration](../../../forms/using/admin-help/configuring-client-server-options.md#configuring-invited-user-registration).)
+   The message that you created when enabling invited user registration is sent to the users. (See [Configuring invited user registration](/help/forms/using/admin-help/configuring-client-server-options.md#configuring-invited-user-registration).)
 
 1. Click OK.
 
@@ -58,7 +58,7 @@ When you add an invited user, document security automatically sends the user a r
 
 You can reset passwords for activated invited users who registered with document security but forgot their password. When you reset a password, an email is generated that contains a new, temporary password for the user.
 
-When you enabled the invited user registration process, you created an email message that will be sent to users prompting them to reset their passwords. (See [Configuring invited user registration](../../../forms/using/admin-help/configuring-client-server-options.md#configuring-invited-user-registration).)
+When you enabled the invited user registration process, you created an email message that will be sent to users prompting them to reset their passwords. (See [Configuring invited user registration](/help/forms/using/admin-help/configuring-client-server-options.md#configuring-invited-user-registration).)
 
 1. In administration console, click Services &gt; Document Security &gt; Invited and Local Users and click the Local Users tab.
 1. In the user list, select the appropriate user.

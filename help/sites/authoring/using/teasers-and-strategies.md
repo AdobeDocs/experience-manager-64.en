@@ -19,7 +19,7 @@ One or more teasers are defined for a specific campaign.
 
 >[!NOTE]
 >
->The Teaser component has been deprecated in AEM 6.2. Please use the [Target component](../../../sites/authoring/using/content-targeting-touch.md#creating-an-offer-by-adding-a-target-component) instead.
+>The Teaser component has been deprecated in AEM 6.2. Please use the [Target component](/help/sites/authoring/using/content-targeting-touch.md#creating-an-offer-by-adding-a-target-component) instead.
 
 * **Brand pages** are stored within the Campaigns section of the website. A brand contains the individual campaigns.   
 
@@ -28,7 +28,7 @@ One or more teasers are defined for a specific campaign.
 Teasers within AEM are comprised of several parts:
 
 * **Teaser pages** are stored under the appropriate campaign page and hold the definitions of the teaser paragraphs available for each specific campaign. These definitions are used when displaying the teaser paragraphs; including content variations, the segment to be used for selecting a variation and boost factor.
-* The **Teaser component** is available out of the box and allows you to create an instance of your specific teaser paragraph in a content page. You can drag the teaser component from the sidekick, then specify your teaser definition to create your own teaser paragraph. **Note:** The Teaser component has been deprecated in AEM 6.2. Please use the [Target component](../../../sites/authoring/using/content-targeting-touch.md#creating-an-offer-by-adding-a-target-component) instead.
+* The **Teaser component** is available out of the box and allows you to create an instance of your specific teaser paragraph in a content page. You can drag the teaser component from the sidekick, then specify your teaser definition to create your own teaser paragraph. **Note:** The Teaser component has been deprecated in AEM 6.2. Please use the [Target component](/help/sites/authoring/using/content-targeting-touch.md#creating-an-offer-by-adding-a-target-component) instead.
 
 * **Teaser paragraphs** are actual instances of your teaser within a content page. These entice a segment of visitors through to content focused on their interests.
 * Pages that hold the campaign content focused on a specific visitor segment. Usually the teaser paragraphs will lead the visitor to such pages.
@@ -40,11 +40,11 @@ When adding a teaser paragraph to a page you need to define the **Strategy**.
 This is for the case that several teasers are available for selection as their assigned segments all resolve successfully. The **Strategy** then specifies an extra criteria used to select the teaser shown:
 
 * **Clickstream Score**, is based on the tags and related tag hits held within the visitor's client context (show how often a visitor has clicked on pages containing the respective tag). The hit rates for tags defined on the teaser page are compared.
-* **Random**, for "random" selection; uses the random factor generated for a page, this can be seen with the [client context](../../../sites/administering/using/client-context.md).
+* **Random**, for "random" selection; uses the random factor generated for a page, this can be seen with the [client context](/help/sites/administering/using/client-context.md).
 
 * **First** in the list of resolved segments. The order is that of the teasers within the campaign container page.
 
-The [Boost Factor](../../../sites/administering/using/campaign-segmentation.md#boost-factor) of the segment also has an impact on the selection. This is a weighting factor added to a segment definition to increase/decrease the relative likelihood of it being selected.
+The [Boost Factor](/help/sites/administering/using/campaign-segmentation.md#boost-factor) of the segment also has an impact on the selection. This is a weighting factor added to a segment definition to increase/decrease the relative likelihood of it being selected.
 
 The process and interrelationships of the various selection criteria are best illustrated with an example (a method that can also be used to ensure that your teasers will reach the required audience).
 
@@ -296,7 +296,7 @@ To add content to your teaser:
 
 >[!NOTE]
 >
->The Teaser component has been deprecated in AEM 6.2. Please use the [Target component](../../../sites/authoring/using/content-targeting-touch.md#creating-an-offer-by-adding-a-target-component) instead.
+>The Teaser component has been deprecated in AEM 6.2. Please use the [Target component](/help/sites/authoring/using/content-targeting-touch.md#creating-an-offer-by-adding-a-target-component) instead.
 
 After creating your teaser you need to create a touchpoint (where the visitor will see and access the teaser) to lead to your campaign.
 
@@ -312,7 +312,7 @@ You do this by strategically placing the teaser paragraph within your content:
     * **Campaign Path** 
       Path to the campaign page that holds the individual teaser page; segments determine exactly which teaser is shown.
     
-    * ** [Strategy](../../../sites/authoring/using/campaigns.md)** 
+    * ** [Strategy](/help/sites/authoring/using/campaigns.md)** 
       Method used for selection when multiple segments resolve successfully.
 
    ![](assets/chlimage_1-215.png)

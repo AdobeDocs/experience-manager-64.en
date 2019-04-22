@@ -15,7 +15,7 @@ discoiquuid: e7b6b9ee-d807-4eb0-8e96-75ca1e66a4e4
 
 The Apache Sling Discovery feature provides a Java API that enables you to create JobManager jobs and JobConsumer services that consume them.
 
-For information about creating offloading topologies and configuring topic consumption, see [Offloading Jobs](../../../sites/deploying/using/offloading.md).
+For information about creating offloading topologies and configuring topic consumption, see [Offloading Jobs](/help/sites/deploying/using/offloading.md).
 
 ## Handling Job Payloads {#handling-job-payloads}
 

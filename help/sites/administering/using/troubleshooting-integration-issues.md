@@ -37,7 +37,7 @@ ${ myHtlVariable }
 -->
 ```
 
-For additional details about logging, see the [Logging](../../../sites/deploying/using/configure-logging.md) and [Working with Audit Records and Log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) pages.
+For additional details about logging, see the [Logging](/help/sites/deploying/using/configure-logging.md) and [Working with Audit Records and Log Files](/help/sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) pages.
 
 ## Analytics Integration Issues {#analytics-integration-issues}
 
@@ -50,13 +50,13 @@ The Report Importer causes high CPU/Memory usage or causes `OutOfMemoryError` ex
 To fix this issue you can try the following:
 
 * Ensure there is not a vast amount of PollingImporters registered (see the "Shutdown takes a long time due to PollingImporter" section below).
-* Run Report Importers at a certain time of the day by using CRON expressions for the `ManagedPollingImporter` configurations in the [OSGi console](../../../sites/deploying/using/configuring-osgi.md).
+* Run Report Importers at a certain time of the day by using CRON expressions for the `ManagedPollingImporter` configurations in the [OSGi console](/help/sites/deploying/using/configuring-osgi.md).
 
 For additional details about creating custom data importer services in AEM, read the following article [https://helpx.adobe.com/experience-manager/using/polling.html](https://helpx.adobe.com/experience-manager/using/polling.html).
 
 ### Shutdown takes a long time due to the PollingImporter {#shutdown-takes-a-long-time-due-to-the-pollingimporter}
 
-Analytics has been designed with an inheritance mechanism in mind. Usually, you enable Analytics for a site by adding a reference to an Analytics configuration within the page properties [Cloud Services](../../../sites/developing/using/extending-cloud-config.md) tab. The configuration is then inherited to all sub-pages automatically without the need to reference it again unless a page requires a different configuration. Adding a reference to a site also automatically creates several nodes (12 for AEM 6.3 and earlier or 6 for AEM 6.4) of the type `cq;PollConfig` which instantiates PollingImporters used to import Analytics data into AEM. As a result:
+Analytics has been designed with an inheritance mechanism in mind. Usually, you enable Analytics for a site by adding a reference to an Analytics configuration within the page properties [Cloud Services](/help/sites/developing/using/extending-cloud-config.md) tab. The configuration is then inherited to all sub-pages automatically without the need to reference it again unless a page requires a different configuration. Adding a reference to a site also automatically creates several nodes (12 for AEM 6.3 and earlier or 6 for AEM 6.4) of the type `cq;PollConfig` which instantiates PollingImporters used to import Analytics data into AEM. As a result:
 
 * Having lots of pages referencing Analytics leads to a high amount of PollingImporters.
 * Additionally, copying and pasting pages with a reference to an Analytics configuration leads to a duplication of its PollingImporters.
@@ -85,13 +85,13 @@ For additional details about creating custom data importer services in AEM, read
 
 ### The DTM script tag is not rendered in the page source {#the-dtm-script-tag-is-not-rendered-in-the-page-source}
 
-The [DTM](../../../sites/administering/using/dtm.md) script tag is not properly included in the page even though the configuration has been referenced in the page properties [Cloud Services](../../../sites/developing/using/extending-cloud-config.md) tab.
+The [DTM](/help/sites/administering/using/dtm.md) script tag is not properly included in the page even though the configuration has been referenced in the page properties [Cloud Services](/help/sites/developing/using/extending-cloud-config.md) tab.
 
 #### Solution {#solution-2}
 
 To fix the issue, you can try the following:
 
-* Make sure encrypted properties can be decrypted (note that encryption might use a different automatically generated key on each AEM instance). For additional details, also read [Encryption Support for Configuration Properties](../../../sites/administering/using/encryption-support-for-configuration-properties.md).
+* Make sure encrypted properties can be decrypted (note that encryption might use a different automatically generated key on each AEM instance). For additional details, also read [Encryption Support for Configuration Properties](/help/sites/administering/using/encryption-support-for-configuration-properties.md).
 * Republish the configurations found in `/etc/cloudservices/dynamictagmanagement`
 * Check ACLs on `/etc/cloudservices`. The ACLs should be:
 
@@ -101,7 +101,7 @@ To fix the issue, you can try the following:
     * allow; jcr:read; everyone; rep:glob:&#42;/public/&#42;
     * allow; jcr:read; everyone; rep:glob:&#42;/public
 
-For more information about managing ACLs, read the [User Administration and Security](../../../sites/administering/using/security.md#permissions-in-aem) page.
+For more information about managing ACLs, read the [User Administration and Security](/help/sites/administering/using/security.md#permissions-in-aem) page.
 
 ## Target Integration Issues {#target-integration-issues}
 
@@ -133,7 +133,7 @@ The set of libraries that are loaded depend on the type of target client library
 
 When using DTM to deliver `mbox.js` or `at.js` make sure the libraries are loaded before the content is rendered. Using Tag Management Systems that load these libraries asynchronously could cause issues in executing the target specific JavaScript code.
 
-For additional information, read the [Developing for Targeted Content](../../../sites/developing/using/target.md#understanding-the-target-component) page.
+For additional information, read the [Developing for Targeted Content](/help/sites/developing/using/target.md#understanding-the-target-component) page.
 
 ### The error "Missing Report Suite ID in AppMeasurement initialization" is displayed in the browser console {#the-error-missing-report-suite-id-in-appmeasurement-initialization-is-displayed-in-the-browser-console}
 
@@ -160,7 +160,7 @@ This issue can have multiple causes:
 
 You can try the following solutions:
 
-* Make sure the customer code loading the DTM-like libraries (which in turn load the Target libraries) is executed synchronously in the [page head](../../../sites/developing/using/target.md#enabling-targeting-with-adobe-target-on-your-pages).
+* Make sure the customer code loading the DTM-like libraries (which in turn load the Target libraries) is executed synchronously in the [page head](/help/sites/developing/using/target.md#enabling-targeting-with-adobe-target-on-your-pages).
 * if the site is configured to use DTM to deliver Target libraries ensure that the **Clientlib delivered by DTM** option is checked in the [Target configuration](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/target-configuring.html) for the site.
 
 ### A default offer is always displayed instead of correct offer when using AT.js 1.3+ {#a-default-offer-is-always-displayed-instead-of-correct-offer-when-using-at-js}
@@ -186,7 +186,7 @@ adobe.target.getOffer({
 
 ### The Goals & Settings page does not show the Reporting Sources section {#the-goals-settings-page-does-not-show-the-reporting-sources-section}
 
-This issue is most likely an [A4T Analytics Cloud Configuration](../../../sites/administering/using/target-configuring.md) provisioning issue.
+This issue is most likely an [A4T Analytics Cloud Configuration](/help/sites/administering/using/target-configuring.md) provisioning issue.
 
 #### Solution {#solution-7}
 

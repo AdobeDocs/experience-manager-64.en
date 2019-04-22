@@ -27,7 +27,7 @@ The core components have been released for AEM version 6.3. They provide robust 
 
 ## Compatibility and Documentation {#compatibility-and-documentation}
 
-The core components have been introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. The [We.Retail reference site](../../../sites/developing/using/we-retail.md) illustrates how the core components can be used.
+The core components have been introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. The [We.Retail reference site](/help/sites/developing/using/we-retail.md) illustrates how the core components can be used.
 
 The following table lists which versions of the core components are compatible with AEM 6.3. Follow the link in the table for more information about that version of the core components.
 

@@ -26,7 +26,7 @@ The integration framework includes an integration layer with an API. This allows
 
 >[!NOTE]
 >
->[API documentation](../../../sites/developing/using/ecommerce.md#api-documentation) is also available.
+>[API documentation](/help/sites/developing/using/ecommerce.md#api-documentation) is also available.
 
 A number of out-of-the-box AEM components are provided to use the integration layer. Currently these are:
 
@@ -420,11 +420,11 @@ public class AxisFilter implements VariantFilter {
 * Storage
 
     * In the hybris case, the hybris server owns the cart.
-    * In the AEM-generic case carts of are stored in the [ClientContext](../../../sites/administering/using/client-context.md).
+    * In the AEM-generic case carts of are stored in the [ClientContext](/help/sites/administering/using/client-context.md).
 
 **Personalization**
 
-* Personalization should always be driven through the [ClientContext](../../../sites/administering/using/client-context.md).
+* Personalization should always be driven through the [ClientContext](/help/sites/administering/using/client-context.md).
 * A ClientContext `/version/` of the cart is created in all cases:
 
     * Products should be added by using the `CommerceSession.addCartEntry()` method.
@@ -535,7 +535,7 @@ There are several generic / helper classes provided by the core project:
 1. `FacetParamHelper`  
    Is a utility class that provides one static method - `toParams` - that is used for generating `GET` parameter strings from a list of facets and one toggled value. This is useful on the UI side, where you need to display a hyperlink for each value of each facet, such that when the user clicks on the hyperlink the respective value is toggled (i.e. if it was selected it is removed from the query, otherwise added). This takes care of all the logic of handling multiple/single-valued facets, overriding values, etc.
 
-The entry point for the search API is the `CommerceService#search` method which returns a `CommerceResult` object. See the [API Documentation](../../../sites/developing/using/ecommerce.md#api-documentation) for more information on this topic.
+The entry point for the search API is the `CommerceService#search` method which returns a `CommerceResult` object. See the [API Documentation](/help/sites/developing/using/ecommerce.md#api-documentation) for more information on this topic.
 
 ### User Integration {#user-integration}
 

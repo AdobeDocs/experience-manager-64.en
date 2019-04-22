@@ -13,7 +13,7 @@ discoiquuid: c84040b0-7850-4960-b676-ffa0a74c8cb2
 
 # Add Clientlibs{#add-clientlibs}
 
-| **[⇐ Develop Sandbox Application](../../communities/using/develop-app.md)** |**[Develop Sandbox Content ⇒](../../communities/using/develop-content.md)** |
+| **[⇐ Develop Sandbox Application](/help/communities/using/develop-app.md)** |**[Develop Sandbox Content ⇒](/help/communities/using/develop-content.md)** |
 |---|---|
 
 ## Add a ClientLibraryFolder (clientlibs) {#add-a-clientlibraryfolder-clientlibs}
@@ -73,7 +73,7 @@ Then create a file under clientlibs named style.css, and set the content to
 
 ## Embed SCF Clientlibs {#embed-scf-clientlibs}
 
-In the **Properties** tab for the `clientlibs` node, enter the multi-value String property **embed**. This will embed the necessary [client-side libraries (clientlibs) for SCF components](../../communities/using/client-customize.md#clientlibs-for-scf). For this tutorial we will add many of the clientlibs necessary for the Communities components.
+In the **Properties** tab for the `clientlibs` node, enter the multi-value String property **embed**. This will embed the necessary [client-side libraries (clientlibs) for SCF components](/help/communities/using/client-customize.md#clientlibs-for-scf). For this tutorial we will add many of the clientlibs necessary for the Communities components.
 
 **Note** that this may or may not be the desired approach to use for a production site as there are considerations of convenience versus size/speed of the clientlibs downloaded for every page.
 
@@ -152,7 +152,7 @@ Load your website in the browser and see if the background is not a shade of blu
 
 At this point, there exists a minimalist sandbox, and it might be worth saving as a package so that, while playing, if your respository becomes corrupt and you desire to start over, you can turn your server off, rename or delete the folder crx-quickstart/, turn your server on, upload and install this saved package, and not have to repeat these most basic of steps.
 
-This package exists on the [Create a Sample Page](../../communities/using/create-sample-page.md) tutorial for those who can't wait to just jump in and start playing!...
+This package exists on the [Create a Sample Page](/help/communities/using/create-sample-page.md) tutorial for those who can't wait to just jump in and start playing!...
 
 To create a package:
 
@@ -184,6 +184,6 @@ To create a package:
 
 Now you can select **Download **to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.  
 
-| **[⇐ Develop Sandbox Application](../../communities/using/develop-app.md)** |**[Develop Sandbox Content ⇒](../../communities/using/develop-content.md)** |
+| **[⇐ Develop Sandbox Application](/help/communities/using/develop-app.md)** |**[Develop Sandbox Content ⇒](/help/communities/using/develop-content.md)** |
 |---|---|
 

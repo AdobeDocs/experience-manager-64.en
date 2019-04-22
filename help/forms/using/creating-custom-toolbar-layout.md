@@ -16,7 +16,7 @@ discoiquuid: c69bb229-d680-4a55-9b2d-cd5ad0f83a9e
 
 When you create an adaptive form, you can specify a toolbar layout for the form. The toolbar layout defines the commands and the layout of the toolbar on the form.
 
-Toolbar layout uses rely heavily on client-side processing driven by complex JavaScript and CSS code. Organizing and optimizing the serving of this code can be a complicated issue. To help deal with this issue, AEM provides Client-side Library Folders, which allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client. The client-side library system then takes care of producing the correct links in your final webpage to load the correct code. For detailed information, see [How client-side libraries work in AEM.](../../sites/developing/using/clientlibs.md)
+Toolbar layout uses rely heavily on client-side processing driven by complex JavaScript and CSS code. Organizing and optimizing the serving of this code can be a complicated issue. To help deal with this issue, AEM provides Client-side Library Folders, which allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client. The client-side library system then takes care of producing the correct links in your final webpage to load the correct code. For detailed information, see [How client-side libraries work in AEM.](/help/sites/developing/using/clientlibs.md)
 
 ![Sample layout of the toolbar](assets/default_toolbar_layout.png)
 

@@ -24,7 +24,7 @@ You have the option of adding the following the following components to your seq
 
 >[!NOTE]
 >
->To learn about using other components in your Screens project, see [Adding Components to a Channel](../../screens/using/adding-components-to-a-channel.md).
+>To learn about using other components in your Screens project, see [Adding Components to a Channel](/help/screens/using/adding-components-to-a-channel.md).
 
 ### Adding an Embedded Sequence {#adding-an-embedded-sequence}
 
@@ -34,7 +34,7 @@ You can add an embedded sequence to your channel. An embedded sequence ia anothe
 >
 >***Channel Path ***defines an explicit reference to the channel.
 >
->To learn more about *Channel Path*, see [Channel Assignment](../../screens/using/channel-assignment.md) in Authoring Screens.
+>To learn more about *Channel Path*, see [Channel Assignment](/help/screens/using/channel-assignment.md) in Authoring Screens.
 
 Follow the steps below to add an embedded sequence to your channel:
 
@@ -62,7 +62,7 @@ You can add a dynamic embedded sequence to your channel. A dynamic embedded sequ
 >
 >***Channel Role*** defines the Channel role defines the context of the display.
 >
->To learn more about *Channel Role*, see [Channel Assignment](../../screens/using/channel-assignment.md) in Authoring Screens.
+>To learn more about *Channel Role*, see [Channel Assignment](/help/screens/using/channel-assignment.md) in Authoring Screens.
 
 Follow the steps below to add an embedded sequence to your channel:
 

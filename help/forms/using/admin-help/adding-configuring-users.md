@@ -65,13 +65,13 @@ Avoid using underscore characters (_) in canonical names, for example, `sample_u
 
 **Locale:** User’s ISO locale
 
-**Business Calendar Key:** Enables you to map a business calendar to a user, based on the value for this setting. Business calendars define business and non-business days. AEM forms can use business calendars when calculating future dates and times for events such as reminders, deadlines, and escalations. The way that you assign business calendar keys to users depends on whether you are using an enterprise, local, or hybrid domain. (See [Adding domains](../../../forms/using/admin-help/adding-domains.md#adding-domains).)
+**Business Calendar Key:** Enables you to map a business calendar to a user, based on the value for this setting. Business calendars define business and non-business days. AEM forms can use business calendars when calculating future dates and times for events such as reminders, deadlines, and escalations. The way that you assign business calendar keys to users depends on whether you are using an enterprise, local, or hybrid domain. (See [Adding domains](/help/forms/using/admin-help/adding-domains.md#adding-domains).)
 
 If you are using a local or hybrid domain, information about users is stored only in the User Management database. For these users, set the Business Calendar Key to a string. Then map the business calendar key (the string) to a business calendar in forms workflow.
 
 If you are using an enterprise domain, information about users resides in a third-party storage system, such as an LDAP directory. User Management synchronizes user information from the directory with the User Management database. This feature allows you to map a business calendar key to a field in the LDAP directory. For example, consider a scenario where each user record in your directory contains a country field, and you want to assign business calendars based on the country where the user is located. In this case, you specify the country field name as the value for the Business Calendar Key setting. You can then map the business calendar keys (the values defined for the country field in the LDAP directory) to business calendars in forms workflow.
 
-For additional information on business calendars, including how to map business calendar keys to business calendars, see [Configuring Business Calendars](../../../forms/using/admin-help/configuring-business-calendars.md#configuring-business-calendars).
+For additional information on business calendars, including how to map business calendar keys to business calendars, see [Configuring Business Calendars](/help/forms/using/admin-help/configuring-business-calendars.md#configuring-business-calendars).
 
 Limit the name to less than 53 characters. A shorter name helps prevent problems displaying the business calendar key in the Process Management pages in administration console.
 
@@ -87,7 +87,7 @@ When using SQL Server as your database, you cannot create a user ID that exceeds
 
 When using MySQL, the user ID can contain extended characters. However, when a comparison is made between two strings, such as abcde and âbcdè, they are considered the same. For example, when syncing, if a new user was added to the database, a comparison is made to check whether a user with the same user ID exists in the database. If user *abcde* already exists in the database when the new user *âbcdè * is added, the comparison cannot distinguish between the two names. It is assumed that the user already exists in the database, and the new user is ignored and not added.
 
-Avoid creating user names that begin with a number sign (#). Performing task searches returns no results for those user names. (See [Working with tasks](../../../forms/using/admin-help/tasks.md#working-with-tasks).)
+Avoid creating user names that begin with a number sign (#). Performing task searches returns no results for those user names. (See [Working with tasks](/help/forms/using/admin-help/tasks.md#working-with-tasks).)
 
 **Password and Confirm Password:** Password the user uses to log in. It must have a minimum of eight characters. A password is not required for a user who is part of a hybrid domain.
 

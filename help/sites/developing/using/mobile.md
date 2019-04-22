@@ -16,11 +16,11 @@ legacypath: /content/docs/en/aem/6-0/develop/mobile/mobile
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
-Creating a mobile site is similar to creating a standard site as it also involves creating templates and components. For more details on creating templates and components, please refer to the following pages: [Templates](../../../sites/developing/using/templates.md), [Components](../../../sites/developing/using/components.md) and [Getting Started Developing AEM Sites](../../../sites/developing/using/getting-started.md). The main difference consists in enabling the AEM built-in mobile functionalities within the site. It is achieved by creating a template that relies on the mobile page component.
+Creating a mobile site is similar to creating a standard site as it also involves creating templates and components. For more details on creating templates and components, please refer to the following pages: [Templates](/help/sites/developing/using/templates.md), [Components](/help/sites/developing/using/components.md) and [Getting Started Developing AEM Sites](/help/sites/developing/using/getting-started.md). The main difference consists in enabling the AEM built-in mobile functionalities within the site. It is achieved by creating a template that relies on the mobile page component.
 
-You should also consider using [responsive design](../../../sites/developing/using/responsive.md), creating a single site that accommodates multiple screen sizes.
+You should also consider using [responsive design](/help/sites/developing/using/responsive.md), creating a single site that accommodates multiple screen sizes.
 
 To get started you can have a look at the **We.Retail Mobile Demo Site** that is available in AEM.
 
@@ -60,7 +60,7 @@ The mobile page component ( `/libs/wcm/mobile/components/page`):
 
 ## Creating a Mobile Site with the Multi Site Manager {#creating-a-mobile-site-with-the-multi-site-manager}
 
-Use Multi Site Manager (MSM) to create a mobile live copy from a standard site. The standard site is automatically transformed into a mobile site: the mobile site has all the features of the mobile sites (e.g. edition within an emulator) and can be managed in sync with the standard site. Refer to the section [Creating a Live Copy for different Channels](../../../sites/administering/using/msm.md) in the Multi Site Manager page.
+Use Multi Site Manager (MSM) to create a mobile live copy from a standard site. The standard site is automatically transformed into a mobile site: the mobile site has all the features of the mobile sites (e.g. edition within an emulator) and can be managed in sync with the standard site. Refer to the section [Creating a Live Copy for different Channels](/help/sites/administering/using/msm.md) in the Multi Site Manager page.
 
 ## Server-Side Mobile API {#server-side-mobile-api}
 
@@ -162,13 +162,13 @@ The AEM mobile framework allows to develop components that are sensitive to the 
 
 Emulator-based authoring provides authors the means to create content pages intended for mobile clients. Mobile content authoring follows the same principle of in-place WYSIWYG editing. In order for authors to perceive the page appearance on a mobile device, a mobile content page is edited by using a device emulator.
 
-Mobile devices emulators are based on the generic emulator framework. For more details please refer to the [Emulators](../../../sites/developing/using/emulators.md) page.
+Mobile devices emulators are based on the generic emulator framework. For more details please refer to the [Emulators](/help/sites/developing/using/emulators.md) page.
 
 The device emulator displays the mobile device on the page whereas the usual editing (parsys, components) occurs within the device's screen. The device emulator depends on the device groups that are configured for the site. Several emulators can be assigned to a device group. All the emulators are then available on the content page. By default the first emulator assigned to the first device group assigned to the site, is displayed. Emulators can be switched either via the emulator carousel at the top of the page or via the Sidekick's edit button.
 
 **Creating an emulator**
 
-To create an emulator, please refer to the [Creating a Custom Mobile Emulator](../../../sites/developing/using/emulators.md) section in the generic Emulators page.
+To create an emulator, please refer to the [Creating a Custom Mobile Emulator](/help/sites/developing/using/emulators.md) section in the generic Emulators page.
 
 **Main characteristics of mobile emulators**
 
@@ -233,7 +233,7 @@ Device groups can use zero or more filters for capability detection. Also, a fil
 
 If the device group does not use a filter, the selected capabilities that are configured for the group are the only capabilities that a device requires.
 
-For more information, see [Creating Device Group Filters](../../../sites/developing/using/groupfilters.md).
+For more information, see [Creating Device Group Filters](/help/sites/developing/using/groupfilters.md).
 
 #### Creating a Device Group {#creating-a-device-group}
 
@@ -299,7 +299,7 @@ Design your filters so that you can use combinations of them to define the group
 
 After you create a filter, you can use it in the group configuration.
 
-For information, go to [Creating Device Group Filters](../../../sites/developing/using/groupfilters.md).
+For information, go to [Creating Device Group Filters](/help/sites/developing/using/groupfilters.md).
 
 ### Using the WURFL™ Database {#using-the-wurfl-database}
 
@@ -364,7 +364,7 @@ AEM supports device client-side detection based on `BrowserMap`. `BrowserMap` is
 
 >[!NOTE]
 >
->For more information about Client Library integration, please read the [Using Client-Side HTML Libraries](../../../sites/developing/using/clientlibs.md) section.
+>For more information about Client Library integration, please read the [Using Client-Side HTML Libraries](/help/sites/developing/using/clientlibs.md) section.
 
 ### Providing Alternate Links {#providing-alternate-links}
 
@@ -385,7 +385,7 @@ When the value of the `cq:variantDomain` property of a `cq:siteVariant` node is 
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+>When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 ### Defining a Device Group Specific URL {#defining-a-device-group-specific-url}
 
@@ -421,7 +421,7 @@ Furthermore, you have to manually call the `BrowserMap.forwardRequest()` method 
 
 >[!NOTE]
 >
->For more information about Client Library integration, please read the [Using Client-Side HTML Libraries](../../../sites/developing/using/clientlibs.md) section.
+>For more information about Client Library integration, please read the [Using Client-Side HTML Libraries](/help/sites/developing/using/clientlibs.md) section.
 
 Once you've created your customised `BrowserMap` client library, we suggest the following approach:
 

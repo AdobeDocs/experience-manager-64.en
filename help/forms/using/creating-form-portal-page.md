@@ -12,11 +12,11 @@ discoiquuid: 7387dfe8-0029-4ad0-b319-fc519928318b
 
 # Creating a forms portal page{#creating-a-forms-portal-page}
 
-Forms portal components equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM). For a quick overview of forms portal, see [Introduction to publishing forms on a portal](../../forms/using/introduction-publishing-forms.md).
+Forms portal components equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM). For a quick overview of forms portal, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 
 ## Prerequisites {#prerequisites}
 
-Forms portal components are not available for use by default. Ensure that the following forms portal component categories are enabled as described in [Enabling forms portal components](../../forms/using/enabling-forms-portal-components.md).
+Forms portal components are not available for use by default. Ensure that the following forms portal component categories are enabled as described in [Enabling forms portal components](/help/forms/using/enabling-forms-portal-components.md).
 
 **Document Services** Includes Search & Lister, Link, and Drafts and Submissions components.
 
@@ -63,7 +63,7 @@ The **Edit **dialog includes several tabs that provide configuration options des
   <tr> 
    <td><span class="uicontrol"><strong>Asset Folders</strong></span></td> 
    <td>Add Item</td> 
-   <td>Configures the folders where assets are uploaded using AEM Forms UI. By default, it lists all uploaded assets. For more information about AEM Forms UI, see <a href="../../forms/using/introduction-managing-forms.md" target="_blank">Introduction to managing forms</a>.</td> 
+   <td>Configures the folders where assets are uploaded using AEM Forms UI. By default, it lists all uploaded assets. For more information about AEM Forms UI, see <a href="/help/forms/using/introduction-managing-forms.md" target="_blank">Introduction to managing forms</a>.</td> 
   </tr> 
   <tr> 
    <td style="text-align: center;"><p style="text-align: left;"><span class="uicontrol"><strong>Display</strong></span></p> </td> 
@@ -218,9 +218,9 @@ The selected tags appear in the Search pane along with the check boxes for selec
 
 To list forms on a page, add the ****[!UICONTROL Search & Lister]****Component to the page and configure the ****[!UICONTROL List Pane]****. To enable the end users to search forms with date, text, and tags, add a ****[!UICONTROL Search Pane]**** component.
 
-To link a form from anywhere on the page, use the Link component. For more information about link component, see [Embedding link component in a page](../../forms/using/embedding-link-component-page.md).
+To link a form from anywhere on the page, use the Link component. For more information about link component, see [Embedding link component in a page](/help/forms/using/embedding-link-component-page.md).
 
-To list the forms that are in a draft state and the forms which are already submitted, use the **[!UICONTROL **Drafts and Submissions**]** component. For more information, see [Customizing Drafts and Submissions component](../../forms/using/draft-submission-component.md).
+To list the forms that are in a draft state and the forms which are already submitted, use the **[!UICONTROL **Drafts and Submissions**]** component. For more information, see [Customizing Drafts and Submissions component](/help/forms/using/draft-submission-component.md).
 
 ## Mobile device friendliness {#mobile-device-friendliness}
 
@@ -234,8 +234,8 @@ Search & Lister component
 
 ## Customizing a forms portal page <br> {#customizing-a-forms-portal-page-br}
 
-You can customize a forms portal page to provide a distinct appearance to the page. You can also add metadata to improve search experience, change layout of the page, and add custom CSS styles. For more information, see [Customizing templates for Forms Portal Components](../../forms/using/customizing-templates-forms-portal-components.md).
+You can customize a forms portal page to provide a distinct appearance to the page. You can also add metadata to improve search experience, change layout of the page, and add custom CSS styles. For more information, see [Customizing templates for Forms Portal Components](/help/forms/using/customizing-templates-forms-portal-components.md).
 
-AEM Forms UI allows you to add custom metadata to forms. Custom metadata is useful in providing a listing and searching forms experience to the end users. For more information about Custom metadata, see [Customizing templates for Forms Portal Components](../../forms/using/customizing-templates-forms-portal-components.md).
+AEM Forms UI allows you to add custom metadata to forms. Custom metadata is useful in providing a listing and searching forms experience to the end users. For more information about Custom metadata, see [Customizing templates for Forms Portal Components](/help/forms/using/customizing-templates-forms-portal-components.md).
 
-Out of the box, forms portal provides rendering actions. You can customize forms portal to add more actions. For detailed information, see [Adding custom action on form lister items.](../../forms/using/add-custom-action-form-lister.md)
+Out of the box, forms portal provides rendering actions. You can customize forms portal to add more actions. For detailed information, see [Adding custom action on form lister items.](/help/forms/using/add-custom-action-form-lister.md)

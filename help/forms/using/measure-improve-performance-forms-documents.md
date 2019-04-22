@@ -62,11 +62,11 @@ To gain deep insights into your customer interactions with your forms, you need 
 1. Configure AEM Forms Analytics configuration service in AEM  
 1. Enable analytics on the form in AEM
 
-For detailed steps, see [Configuring analytics and reports for adaptive forms](../../forms/using/configure-analytics-forms-documents.md).
+For detailed steps, see [Configuring analytics and reports for adaptive forms](/help/forms/using/configure-analytics-forms-documents.md).
 
 **Configure Target**
 
-To create and run A/B tests for your adaptive forms, configure Target in AEM Forms as described in [Set up and integrate Target in AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#p-set-up-and-integrate-target-in-aem-forms-p).
+To create and run A/B tests for your adaptive forms, configure Target in AEM Forms as described in [Set up and integrate Target in AEM Forms](/help/forms/using/ab-testing-adaptive-forms.md#p-set-up-and-integrate-target-in-aem-forms-p).
 
 #### Step 2: View analytics report <br> {#step-view-analytics-report-br}
 
@@ -104,7 +104,7 @@ In addition, you get the following details about each panel in the form:
 
 ![A sample analytics report for an adaptive form](assets/summary-report.png)
 
-For more details about forms analytics reports, see [Viewing and understanding AEM Forms analytics reports](../../forms/using/view-understand-aem-forms-analytics-reports.md).
+For more details about forms analytics reports, see [Viewing and understanding AEM Forms analytics reports](/help/forms/using/view-understand-aem-forms-analytics-reports.md).
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ In this step, you will validate the changes you have made in the form and verify
 
 Integration of AEM Forms with Target allows creating A/B tests for adaptive forms. In A/B tests, you randomly present different experiences of a form to your customers in real time to know which experience works better or causes more conversions. Once you have significant data indicating one experience delivering better conversion than the other, you can declare that experiences as winner, and going forward, it becomes the default experience visible to all customers.
 
-For more information about creating an A/B test for an adaptive form, see [A/B testing of adaptive forms](../../forms/using/ab-testing-adaptive-forms.md).
+For more information about creating an A/B test for an adaptive form, see [A/B testing of adaptive forms](/help/forms/using/ab-testing-adaptive-forms.md).
 
 ![A sample summary report of A/B test for an adaptive form](assets/ab-test-report-2.png) 
 

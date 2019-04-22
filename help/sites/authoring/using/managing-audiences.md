@@ -22,7 +22,7 @@ An Audiences, called *segment* in ContextHub and Client Context, is a class of v
 
 In the Audiences console, audiences are organized by brand.
 
-Audiences are available in Targeting mode for [authoring targeted content](../../../sites/authoring/using/content-targeting-touch.md), where you can also create audiences (but you need to create Adobe Target audiences in the Audiences console). Audiences that you create in Targeting mode appear in the Audiences console.
+Audiences are available in Targeting mode for [authoring targeted content](/help/sites/authoring/using/content-targeting-touch.md), where you can also create audiences (but you need to create Adobe Target audiences in the Audiences console). Audiences that you create in Targeting mode appear in the Audiences console.
 
 Audiences are displayed with a label describing what kind of audience is defined:
 
@@ -47,7 +47,7 @@ To create a ContextHub segment in the Audiences console:
    >
    >You can sort the modified list by tapping or clicking **Modified** to sort by descending order to see any newly created audiences.
 
-For further detail about creating segments using ContextHub, please see the [Configuring Segmentation with ContextHub](../../../sites/administering/using/segmentation.md) documentation.
+For further detail about creating segments using ContextHub, please see the [Configuring Segmentation with ContextHub](/help/sites/administering/using/segmentation.md) documentation.
 
 ## Creating an Adobe Target Audience Using the Audience Console {#creating-an-adobe-target-audience-using-the-audience-console}
 
@@ -102,5 +102,5 @@ You can edit any ContextHub or Client Context audience from the Audiences consol
 
 1. In the Navigation console, click or tap **Personalization**. Click or tap **Audiences**.
 1. Tap or click the icon next to the ContextHub or Client Context segment you want to edit, and tap or click **Edit**.
-1. Make any edits in the segment editor. See [Client Context](../../../sites/administering/using/campaign-segmentation.md) or [ContextHub](../../../sites/administering/using/contexthub-config.md) documentation.
+1. Make any edits in the segment editor. See [Client Context](/help/sites/administering/using/campaign-segmentation.md) or [ContextHub](/help/sites/administering/using/contexthub-config.md) documentation.
 

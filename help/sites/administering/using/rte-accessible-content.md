@@ -22,8 +22,8 @@ AEM supports both:
 >
 >See also:
 >
->* our [Quick Guide to WCAG 2.0](../../../managing/using/qg-wcag.md) for further details
->* [Creating accessible content (WCAG 2.0 conformance)](../../../sites/authoring/using/creating-accessible-content.md)  
+>* our [Quick Guide to WCAG 2.0](/help/managing/using/qg-wcag.md) for further details
+>* [Creating accessible content (WCAG 2.0 conformance)](/help/sites/authoring/using/creating-accessible-content.md)  
 >
 
 Content authors can use features of the RTE to provide accessibility information while adding content to a page. This can include adding structural information through headings and paragraph elements.
@@ -46,18 +46,18 @@ The **Text** component in AEM is available for both the touch-enabled and the cl
 >
 >There are differences between the RTE features available in the classic UI and the touch-enabled UI. For more details see
 >
->* [Plugins and their Features](../../../sites/administering/using/rich-text-editor.md#aboutplugins)
->* [Plugins and their Features - Touch enabled UI](../../../sites/administering/using/rich-text-editor.md#aboutplugins)
+>* [Plugins and their Features](/help/sites/administering/using/rich-text-editor.md#aboutplugins)
+>* [Plugins and their Features - Touch enabled UI](/help/sites/administering/using/rich-text-editor.md#aboutplugins)
 >
 
 ## Configuring the Plugin Features {#configuring-the-plugin-features}
 
-Full instructions on configuring the RTE are available on the [Configuring the Rich Text Editor](../../../sites/administering/using/rich-text-editor.md) page. This covers all issues, including the key steps:
+Full instructions on configuring the RTE are available on the [Configuring the Rich Text Editor](/help/sites/administering/using/rich-text-editor.md) page. This covers all issues, including the key steps:
 
-* [Plugins and their Features](../../../sites/administering/using/rich-text-editor.md#aboutplugins)
-* [Configuration Locations](../../../sites/administering/using/rich-text-editor.md#understand-the-configuration-paths-and-locations)
-* [Activate a Plugin and Configure the features Property](../../../sites/administering/using/rich-text-editor.md#enable-rte-functionalities-by-activating-plug-ins)
-* [Configuring Other Functionality of the RTE](../../../sites/administering/using/rich-text-editor.md#enable-rte-functionalities-by-activating-plug-ins)
+* [Plugins and their Features](/help/sites/administering/using/rich-text-editor.md#aboutplugins)
+* [Configuration Locations](/help/sites/administering/using/rich-text-editor.md#understand-the-configuration-paths-and-locations)
+* [Activate a Plugin and Configure the features Property](/help/sites/administering/using/rich-text-editor.md#enable-rte-functionalities-by-activating-plug-ins)
+* [Configuring Other Functionality of the RTE](/help/sites/administering/using/rich-text-editor.md#enable-rte-functionalities-by-activating-plug-ins)
 
 By configuring a plugin within the appropriate `rtePlugins` sub-branch in CRXDE Lite (see the following image), you can activate either all or specific features for that plugin. 
 
@@ -67,9 +67,9 @@ By configuring a plugin within the appropriate `rtePlugins` sub-branch in CRXDE 
 
 New semantic block formats may be made available for selection by:
 
-1. Depending on your RTE, determine and navigate to the [configuration location](../../../sites/administering/using/rich-text-editor.md#understand-the-configuration-paths-and-locations).
-1. [Enable the Paragraphs selection field](../../../sites/administering/using/rich-text-editor.md); by [activating the plugin](../../../sites/administering/using/rich-text-editor.md#enable-rte-functionalities-by-activating-plug-ins).
-1. [Specify the formats you want to have available in the Paragraphs selection field](../../../sites/administering/using/rich-text-editor.md).
+1. Depending on your RTE, determine and navigate to the [configuration location](/help/sites/administering/using/rich-text-editor.md#understand-the-configuration-paths-and-locations).
+1. [Enable the Paragraphs selection field](/help/sites/administering/using/rich-text-editor.md); by [activating the plugin](/help/sites/administering/using/rich-text-editor.md#enable-rte-functionalities-by-activating-plug-ins).
+1. [Specify the formats you want to have available in the Paragraphs selection field](/help/sites/administering/using/rich-text-editor.md).
 1. The paragraph formats are then available to the content author from the selection fields in the RTE. They can be accessed:
 
     * Using the paragraph ([pilcrow](https://en.wikipedia.org/wiki/Pilcrow)) icon in the touch-enabled UI:
@@ -82,7 +82,7 @@ With structural elements available in the RTE via the paragraph format options, 
 
 ## Use of the Source Edit Feature {#use-of-the-source-edit-feature}
 
-In some cases, content authors will find it necessary to examine and adjust the HTML source code created using the RTE. For example, a piece of content created within the RTE may require additional markup to ensure compliance with WCAG 2.0. This can be done with the [source edit](../../../sites/administering/using/rich-text-editor.md#aboutplugins) option of the RTE. You can specify the [ `sourceedit` feature on the `misctools` plugin](../../../sites/administering/using/rich-text-editor.md#aboutplugins).
+In some cases, content authors will find it necessary to examine and adjust the HTML source code created using the RTE. For example, a piece of content created within the RTE may require additional markup to ensure compliance with WCAG 2.0. This can be done with the [source edit](/help/sites/administering/using/rich-text-editor.md#aboutplugins) option of the RTE. You can specify the [ `sourceedit` feature on the `misctools` plugin](/help/sites/administering/using/rich-text-editor.md#aboutplugins).
 
 >[!CAUTION]
 >

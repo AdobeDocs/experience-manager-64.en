@@ -28,7 +28,7 @@ Typically, business users do not require knowledge of metadata representations s
 1. An Author [creates the Data Dictionary](#createdatadictionary) by either uploading a schema or from scratch.
 1. The Author creates letter and Interactive Communications based on the data dictionary and associates data dictionary elements in letter and Interactive Communications wherever required.   
 1. An author can download sample data XML file, which is based on a data dictionary's schema. The author can modify the sample data XML file, which can be associated as test data with the data dictionary. The same gets used during the letter preview. 
-1. While [previewing a letter](../../forms/using/create-letter.md#p-types-of-linkage-available-for-each-of-the-fields-p), an Author chooses to preview the letter with data (Custom Preview). The letter opens prepopulated with the data that Author provided. This opens in the create correspondence interface. The Agent who is previewing this letter can modify the content, data, and attachments in this letter and can submit the final letter. For more information on creating letters, see [Create correspondence](../../forms/using/create-letter.md).
+1. While [previewing a letter](/help/forms/using/create-letter.md#p-types-of-linkage-available-for-each-of-the-fields-p), an Author chooses to preview the letter with data (Custom Preview). The letter opens prepopulated with the data that Author provided. This opens in the create correspondence interface. The Agent who is previewing this letter can modify the content, data, and attachments in this letter and can submit the final letter. For more information on creating letters, see [Create correspondence](/help/forms/using/create-letter.md).
 
 ## Prerequisite {#prerequisite}
 
@@ -411,7 +411,7 @@ Once you have created a data dictionary, you can download it as an XML sample da
 1. Select **Download Sample XML Data**. 
 1. Tap **OK** in the alert message.
 
-   Correspondence Management creates an XML file based on the selected data dictionary’s structure and downloads it to your computer with the name &lt;data-dictionary-name&gt;-SampleData. Now you can edit this file in an XML or text editor to make data entries while [creating a letter](../../forms/using/create-letter.md).
+   Correspondence Management creates an XML file based on the selected data dictionary’s structure and downloads it to your computer with the name &lt;data-dictionary-name&gt;-SampleData. Now you can edit this file in an XML or text editor to make data entries while [creating a letter](/help/forms/using/create-letter.md).
 
 ## Internationalization of meta data {#internationalization-of-meta-data}
 

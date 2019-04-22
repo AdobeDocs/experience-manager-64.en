@@ -17,7 +17,7 @@ The JMX Console enables you to monitor and manage services on the CRX server. Th
 
 For information about how to use the console controls, see [Using the JMX Console](#using-the-jmx-console). For background information about JMX, see the [Java Management Extensions (JMX) Technology](https://www.oracle.com/technetwork/java/javase/tech/javamanagement-140525.html) page on the Oracle website.
 
-For information about creating MBeans to manage your services using the JMX Console, see [Integrating Services with the JMX Console](../../../sites/developing/using/jmx-integration.md).
+For information about creating MBeans to manage your services using the JMX Console, see [Integrating Services with the JMX Console](/help/sites/developing/using/jmx-integration.md).
 
 ## Workflow Maintenance {#workflow-maintenance}
 
@@ -28,7 +28,7 @@ Operations for administering running, completed, and failed workflow instances.
 
 >[!NOTE]
 >
->See the [workflow console](../../../sites/administering/using/workflows-administering.md) for additional workflow administration tools and descriptions of possible workflow instance statuses.
+>See the [workflow console](/help/sites/administering/using/workflows-administering.md) for additional workflow administration tools and descriptions of possible workflow instance statuses.
 
 ### Operations {#operations}
 

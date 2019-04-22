@@ -38,9 +38,9 @@ To add a `QnA` component to a page in author mode, use the component browser to 
 
 and drag it into place on a page where the QnA forum should appear.
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA`component will appear:
+When the [required client-side libraries](/help/communities/using/qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA`component will appear:
 
 ![](assets/chlimage_1-280.png)
 
@@ -82,13 +82,13 @@ Under the **Settings **tab, specify settings for topics (questions) and replies 
   Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152** **(2 Mb).
 
 * **Allow Following** 
-  If checked, include the following feature for forum posts, which allows members to be [notified](../../communities/using/notifications.md) of new posts. Default is unchecked.
+  If checked, include the following feature for forum posts, which allows members to be [notified](/help/communities/using/notifications.md) of new posts. Default is unchecked.
 
 * **Allow Pinning** 
   If checked, forum topics may be pinned to the top of the list of topics. Default is unchecked.
 
 * **Allow Email Subscriptions** 
-  If checked, allow members to be notified of new posts by email ([subscription](../../communities/using/subscriptions.md)). Requires `Allow Following` to be checked and [email configured](../../communities/using/email.md). Default is unchecked.
+  If checked, allow members to be notified of new posts by email ([subscription](/help/communities/using/subscriptions.md)). Requires `Allow Following` to be checked and [email configured](/help/communities/using/email.md). Default is unchecked.
 
 * **Allow Replies** 
   If checked, allow replies to comments posted to the question. Default is unchecked.
@@ -103,14 +103,14 @@ Under the **Settings **tab, specify settings for topics (questions) and replies 
   If checked, first answer shown is a selected answer. Default is checked.
 
 * **Display Badges** 
-  If checked, display earned and assigned [badges](../../communities/using/implementing-scoring.md) with a member's blog entry. Default is unchecked.
+  If checked, display earned and assigned [badges](/help/communities/using/implementing-scoring.md) with a member's blog entry. Default is unchecked.
 
 * **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](../../communities/using/featured.md). Default is unchecked.
+  if checked, the idea is able to be identified as [featured content](/help/communities/using/featured.md). Default is unchecked.
 
 #### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation **tab, specify how the posted topics (quetions) and answers (user generated content) are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+Under the **User Moderation **tab, specify how the posted topics (quetions) and answers (user generated content) are managed. For more information, see [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
 * **Deny Answers** 
   If checked, trusted member moderators will be allowed to deny posted answers and prevent the answer from appearing on the public Q&A forum. Default is unchecked.
@@ -190,8 +190,8 @@ Site visitors who are not signed in may only read posted questions and answers, 
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [QnA Essentials](../../communities/using/qna-essentials.md) page for developers.
+More information may be found on the [QnA Essentials](/help/communities/using/qna-essentials.md) page for developers.
 
-For moderation of posted topics and comments, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+For moderation of posted topics and comments, see [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
-For tagging posted topics and comments, see [Tagging User Generated Content](../../communities/using/tag-ugc.md).
+For tagging posted topics and comments, see [Tagging User Generated Content](/help/communities/using/tag-ugc.md).

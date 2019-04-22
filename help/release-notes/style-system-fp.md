@@ -40,7 +40,7 @@ Using the style system generally takes the following form.
 
 1. The HTML developer implements the corresponding CSS code (and optionally JS code) for each of the visual variation to look as defined.  
 
-1. The AEM developer places the provided CSS (and optional JS) in a [Client Library](../sites/developing/using/clientlibs.md) and deploys it.  
+1. The AEM developer places the provided CSS (and optional JS) in a [Client Library](/help/sites/developing/using/clientlibs.md) and deploys it.  
 
 1. The AEM developer or template author configures the page templates and edits the policy of each styled component with the defined CSS classes, defining user-friendly names for each style, and defining which styles can be combined.  
 
@@ -58,12 +58,12 @@ The following diagram illustrates the architecture of the style system.
 
 [Feature pack 18678](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-18678) for AEM 6.3 is required to enable the style system feature and can be downloaded from Package Share.
 
-To demonstrate the feature, styles need to be created for a component. Using [We.Retail](../sites/developing/using/we-retail.md)'s implementation of core component's [list component](https://helpx.adobe.com/experience-manager/core-components-v2/using/core-components-v1-authoring-list.html) as a basis, you can install the attached package containing styles in order to explore the feature's functionality.
+To demonstrate the feature, styles need to be created for a component. Using [We.Retail](/help/sites/developing/using/we-retail.md)'s implementation of core component's [list component](https://helpx.adobe.com/experience-manager/core-components-v2/using/core-components-v1-authoring-list.html) as a basis, you can install the attached package containing styles in order to explore the feature's functionality.
 
 Style system demo package
 
 [Get File](/help/sites/authoring/using/assets/package_-_style_systemdemo.zip)
-The following sections [As a Content Author](../release-notes/style-system-fp.md#as-a-content-author) and [As a Template Author](#as-a-template-author) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
+The following sections [As a Content Author](/help/release-notes/style-system-fp.md#as-a-content-author) and [As a Template Author](#as-a-template-author) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
 
 If you wish to use the style system for your own components follow these steps:
 
@@ -84,7 +84,7 @@ If you wish to use the style system for your own components follow these steps:
 
    >[!NOTE]
    >
-   >In this example, the **Layout** styles (**Block** and **Grid**) are mutually exclusive, while the **Display** options (**Image** or **Date**) can be combined. This can be [configured in the template as the template author](../release-notes/style-system-fp.md#as-a-template-author).
+   >In this example, the **Layout** styles (**Block** and **Grid**) are mutually exclusive, while the **Display** options (**Image** or **Date**) can be combined. This can be [configured in the template as the template author](/help/release-notes/style-system-fp.md#as-a-template-author).
 
 ### As a Template Author {#as-a-template-author}
 
@@ -109,7 +109,7 @@ If you wish to use the style system for your own components follow these steps:
 
 >[!CAUTION]
 >
->The CSS classes (as well as any necessary Javascript) configured as style properties of a components policy must be deployed as [Client Libraries](../sites/developing/using/clientlibs.md) in order to work.
+>The CSS classes (as well as any necessary Javascript) configured as style properties of a components policy must be deployed as [Client Libraries](/help/sites/developing/using/clientlibs.md) in order to work.
 
 ## Setup {#setup}
 

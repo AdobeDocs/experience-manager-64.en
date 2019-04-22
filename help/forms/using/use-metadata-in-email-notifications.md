@@ -12,7 +12,7 @@ discoiquuid: bdf13893-630a-43cd-aaeb-c7c16bf4f8a6
 
 Use metadata to populate information in a forms workflow email notification
 
-You can use the Assign Task step to create and assign tasks to a user or group. When a task is assigned to a user or group, an email notification is sent to the defined user or to each member of the defined group. A typical [email notification](../../forms/using/use-custom-email-template-assign-task-step.md) contains link of the assigned task and information related to the task.
+You can use the Assign Task step to create and assign tasks to a user or group. When a task is assigned to a user or group, an email notification is sent to the defined user or to each member of the defined group. A typical [email notification](/help/forms/using/use-custom-email-template-assign-task-step.md) contains link of the assigned task and information related to the task.
 
 You can use metadata in an email template to dynamically populate information in an email notification. For example, the value of the title, description, due date, priority, workflow, and last date in the following email notification is selected dynamically at the runtime (when an email notification is generated). 
 

@@ -15,7 +15,7 @@ discoiquuid: fbcdea8a-72e9-431b-9c32-dc02d4cdb9c8
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 AEM integrates with PhoneGap so that you can easily create apps using AEM pages. PhoneGap allows the user to create utility apps that lets user to work with the content. Content Sync enables you to create versioned archives of pages for bundling with apps.
 
@@ -27,7 +27,7 @@ The real power of AEM Mobile is that a* *savvy* **AEM Developer*** can extend an
 
 >[!NOTE]
 >
->When the *AEM Author* believes the app is ready, they can first have their stakeholders download the app with ** [Adobe Verify](../../mobile/using/phonegap-mobile-quickstart.md)**(available in both the AppStore and PlayStore) for review and approval. Once they've received the green light, they are able to release this new or updated content directly to their users through the AEM Mobile ContentSync content release management dashboard. One person can take on any number of roles, that's up to you and your governance policies.
+>When the *AEM Author* believes the app is ready, they can first have their stakeholders download the app with ** [Adobe Verify](/help/mobile/using/phonegap-mobile-quickstart.md)**(available in both the AppStore and PlayStore) for review and approval. Once they've received the green light, they are able to release this new or updated content directly to their users through the AEM Mobile ContentSync content release management dashboard. One person can take on any number of roles, that's up to you and your governance policies.
 
 ## Prerequisites {#prerequisites}
 
@@ -35,23 +35,23 @@ AEM Mobile is just one pillar that makes up the complete AEM platform.
 
 Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with AEM and the AEM Mobile Control Center. See:
 
-[Getting Started with AEM](../../sites/deploying/using/deploy.md)
+[Getting Started with AEM](/help/sites/deploying/using/deploy.md)
 
-[A Walkthrough of the AEM Mobile Control Center](../../mobile/using/phonegap-authoring-apps.md)
+[A Walkthrough of the AEM Mobile Control Center](/help/mobile/using/phonegap-authoring-apps.md)
 
 ## QuickLinks for Authors {#quicklinks-for-authors}
 
-See [Authoring for Adobe PhoneGap Enterprise in AEM](../../mobile/using/phonegap.md) to learn about an author's roles and responsibilities.
+See [Authoring for Adobe PhoneGap Enterprise in AEM](/help/mobile/using/phonegap.md) to learn about an author's roles and responsibilities.
 
 ## QuickLinks for Developers {#quicklinks-for-developers}
 
-There are sample applcations that will integrate with AEM Mobile and can be customized by the developer. Click on [Developing Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md).
+There are sample applcations that will integrate with AEM Mobile and can be customized by the developer. Click on [Developing Adobe PhoneGap Enterprise with AEM](/help/mobile/using/developing-in-phonegap.md).
 
 In subsequent chapters you'll learn about advanced concepts like White labeling you application, Localization, Internationalization, ContentSync, Targeting, Analytics, and more.
 
 ## QuickLinks for Administrators {#quicklinks-for-administrators}
 
-See [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md) to set up and manage your mobile application.
+See [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md) to set up and manage your mobile application.
 
 >[!NOTE]
 >

@@ -54,4 +54,4 @@ A scaffold is a special page containing a form that can be filled in and submitt
 
 The form that makes up a scaffold is defined by a dialog definition, just like a normal dialog, though it appears on the scaffolding page in a different form. Because dialog definitions are used to define scaffolds, scaffolds can be designed using the dialog editor. Note that when using the dialog editor in this fashion, the render pane will still display the the dialog definition in the form of a dialog box not as a scaffold.
 
-See [Scaffolding](../../../sites/authoring/using/scaffolding.md) for more information on using the dialog editor to create scaffolds.
+See [Scaffolding](/help/sites/authoring/using/scaffolding.md) for more information on using the dialog editor to create scaffolds.

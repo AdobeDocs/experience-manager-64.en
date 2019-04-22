@@ -19,9 +19,9 @@ A launch is created to allow you to make changes ready for future publication (w
 
 >[!NOTE]
 >
->The theory behind launches is described in detail under [Launches](../../../sites/authoring/using/launches.md) in the standard authoring documentation.
+>The theory behind launches is described in detail under [Launches](/help/sites/authoring/using/launches.md) in the standard authoring documentation.
 >
->Information specific to using launches in the classic UI can be found in the following documentation together with [Creating Launches](../../../sites/classic-ui-authoring/using/classic-launches-creating.md), [Editing Launches](../../../sites/classic-ui-authoring/using/classic-launches-editing.md), and [Promoting Launches](../../../sites/classic-ui-authoring/using/classic-launches-promoting.md).
+>Information specific to using launches in the classic UI can be found in the following documentation together with [Creating Launches](/help/sites/classic-ui-authoring/using/classic-launches-creating.md), [Editing Launches](/help/sites/classic-ui-authoring/using/classic-launches-editing.md), and [Promoting Launches](/help/sites/classic-ui-authoring/using/classic-launches-promoting.md).
 
 >[!CAUTION]
 >

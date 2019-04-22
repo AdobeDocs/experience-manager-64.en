@@ -83,7 +83,7 @@ The following step-by-step workflow description is designed to help you get up a
         * [Applying workflows to assets](assets-workflow.md) or [Starting a workflow on an asset](managing-assets-touch-ui.md#starting-a-workflow-on-an-asset)
         
         * [Review folder assets](bulk-approval.md)
-        * [Projects](../../sites/authoring/using/projects.md)
+        * [Projects](/help/sites/authoring/using/projects.md)
 
 1. **Publish your Dynamic Media videos** by doing one of the following:
 
@@ -644,7 +644,7 @@ To create a YouTube channel:
 
 ### Adding tags for publishing {#adding-tags-for-publishing}
 
-To publish to your videos to YouTube, AEM associates tags to one or more YouTube channels. To add tags for publishing, see [Administering Tags](../../sites/administering/using/tags.md).
+To publish to your videos to YouTube, AEM associates tags to one or more YouTube channels. To add tags for publishing, see [Administering Tags](/help/sites/administering/using/tags.md).
 
 Or, if you intend to use the default tags in AEM, you can skip this task and go to [Enabling the YouTube Publish replication agent](#enabling-the-youtube-publish-replication-agent).
 
@@ -897,7 +897,7 @@ To monitor progress (including failed encoding/YouTube publish):
 
    ![](assets/chlimage_1-434.png)
 
-   From the Workflow Instances area, you can also suspend, terminate, or rename workflows. See [Administering workflows](../../sites/administering/using/workflows-administering.md) for more information. 
+   From the Workflow Instances area, you can also suspend, terminate, or rename workflows. See [Administering workflows](/help/sites/administering/using/workflows-administering.md) for more information. 
 
 1. For failed jobs, see Workflow Failures available from **Tools** &gt; **Workflow** &gt; **Failures**. The **Workflow Failure** lists all failed workflow activities.
 
@@ -938,7 +938,7 @@ To monitor progress (including failed encoding/YouTube publish):
 
 How you configure notification depends on whether you want notifications for encoding jobs or YouTube publishing jobs:
 
-* For encoding jobs, you can access the configuration page for all AEM workflow email notifications at **Tools** &gt; **Operations** &gt; **Web Console** and by searching for **Day CQ Workflow Email Notification Service**. See [Configuring Email Notification in AEM](../../sites/administering/using/notification.md). You can select/clear the check boxes for **Notify on Abort** or **Notify on Complete** accordingly.
+* For encoding jobs, you can access the configuration page for all AEM workflow email notifications at **Tools** &gt; **Operations** &gt; **Web Console** and by searching for **Day CQ Workflow Email Notification Service**. See [Configuring Email Notification in AEM](/help/sites/administering/using/notification.md). You can select/clear the check boxes for **Notify on Abort** or **Notify on Complete** accordingly.
 
 * For YouTube publishing jobs, do the following:
 
@@ -1186,7 +1186,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
        <td>For a pop-up video viewer experience</td> 
        <td> 
        <ol> 
-       <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
+       <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="/help/assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
        <li>From the drop-down menu, then tap <strong>Viewers</strong>.</li> 
        <li>In the left rail, tap the video viewer preset name. A preview of the video is opened in a separate page.</li> 
        <li>In the left rail, at the bottom, tap <strong>URL</strong>.</li> 
@@ -1198,7 +1198,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
        <td>For an embedded video viewer experience<br /> </td> 
        <td> 
        <ol> 
-       <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
+       <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="/help/assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
        <li>From the drop-down menu, then tap <strong>Viewers</strong>.</li> 
        <li>In the left rail, tap the video viewer preset name. A preview of the video is opened in a separate page.</li> 
        <li>In the left rail, at the bottom, tap <strong>Embed</strong>.</li> 

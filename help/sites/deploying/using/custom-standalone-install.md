@@ -13,7 +13,7 @@ discoiquuid: c9e51008-6009-49a2-9c74-1c610cef2e7f
 
 # Custom Standalone Install{#custom-standalone-install}
 
-This section describes the options available when installing a standalone AEM instance. You can also read [Storage Elements](../../../sites/deploying/using/storage-elements-in-aem-6.md) for more information on choosing the backend storage type after freshly installing AEM 6.
+This section describes the options available when installing a standalone AEM instance. You can also read [Storage Elements](/help/sites/deploying/using/storage-elements-in-aem-6.md) for more information on choosing the backend storage type after freshly installing AEM 6.
 
 ## Changing the Port Number by Renaming the File {#changing-the-port-number-by-renaming-the-file}
 
@@ -45,7 +45,7 @@ There are various rules to be followed when renaming the quickstart jar file:
 
 **Run modes** allow you to tune your AEM instance for a specific purpose; for example, author or publish, test, development, intranet etc. These modes also allow you to control the use of sample content. This sample content is defined before the quickstart is built and can include packages, configurations, etc. This can be particularly useful for production-ready installations when you want to keep your installation lean and without sample content. For more information see:
 
-* [Run Modes](../../../sites/deploying/using/configure-runmodes.md)
+* [Run Modes](/help/sites/deploying/using/configure-runmodes.md)
 
 ## Adding a File Install Provider {#adding-a-file-install-provider}
 
@@ -224,7 +224,7 @@ Log files
 
 ## Installing AEM in the Amazon EC2 environment {#installing-aem-in-the-amazon-ec-environment}
 
-When installing AEM on an Amazon Elastic Compute Cloud (EC2) instance, if you install both author and publish on the EC2 instance, the Author instance is installed correctly by following the procedure on how to [install an instance of AEM](../../../sites/deploying/using/custom-standalone-install.md); however, the Publish instance becomes Author.
+When installing AEM on an Amazon Elastic Compute Cloud (EC2) instance, if you install both author and publish on the EC2 instance, the Author instance is installed correctly by following the procedure on how to [install an instance of AEM](/help/sites/deploying/using/custom-standalone-install.md); however, the Publish instance becomes Author.
 
 Before installing the Publish instance on your EC2 environment, do the following:
 
@@ -284,8 +284,8 @@ The following links can be used to verify that your installation is operational 
 
 Although there are many possibilities to configure AEM WCM, certain actions should be taken, or at least reviewed immediately after installation:
 
-* Consult the [Security Checklist](../../../sites/administering/using/security-checklist.md) for tasks required to ensure that your system remains secure.
-* Review the list of default users and groups which are installed with AEM WCM. Check whether you want to take action on any other accounts - see [Security and User Administration](../../../sites/administering/using/security.md) for further details.
+* Consult the [Security Checklist](/help/sites/administering/using/security-checklist.md) for tasks required to ensure that your system remains secure.
+* Review the list of default users and groups which are installed with AEM WCM. Check whether you want to take action on any other accounts - see [Security and User Administration](/help/sites/administering/using/security.md) for further details.
 
 ## Accessing CRXDE Lite and the Web Console {#accessing-crxde-lite-and-the-web-console}
 
@@ -322,13 +322,13 @@ or for the Bundles page
 
 ![](assets/chlimage_1-74.png)
 
-See [OSGi Configuration with the Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) for further details.
+See [OSGi Configuration with the Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) for further details.
 
 ## Troubleshooting {#troubleshooting}
 
 For information on dealing with issues that may come up during installation, see:
 
-* [Troubleshooting](../../../sites/deploying/using/troubleshooting.md)
+* [Troubleshooting](/help/sites/deploying/using/troubleshooting.md)
 
 ## Uninstalling Adobe Experience Manager {#uninstalling-adobe-experience-manager}
 

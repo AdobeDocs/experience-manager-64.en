@@ -15,9 +15,9 @@ discoiquuid: 83ca522e-d16e-4196-9aa7-84f85de8dee2
 
 You must be familiar with concepts of document security, reader extension, and Java Programming language to reader-extend the document security policy-protected PDF documents.
 
-You can use document security to restrict access of specific PDF documents to only authorized users. You can also determine how a recipient can use a protected document. For example, you can specify whether recipients can print, copy, or edit text of a document security policy-protected document. To learn more about document security, see [about document security](../../forms/using/admin-help/document-security.md).
+You can use document security to restrict access of specific PDF documents to only authorized users. You can also determine how a recipient can use a protected document. For example, you can specify whether recipients can print, copy, or edit text of a document security policy-protected document. To learn more about document security, see [about document security](/help/forms/using/admin-help/document-security.md).
 
-You can use reader extensions to enable interactive features in Adobe PDF document through Acrobat Reader. These interactive features that are normally available only through Adobe Acrobat Professional and Standard. To learn about the interactive features that reader extension can enable, see [Adobe Experience Manager Forms DocAssurance service](../../forms/using/overview-aem-document-services.md)**.**
+You can use reader extensions to enable interactive features in Adobe PDF document through Acrobat Reader. These interactive features that are normally available only through Adobe Acrobat Professional and Standard. To learn about the interactive features that reader extension can enable, see [Adobe Experience Manager Forms DocAssurance service](/help/forms/using/overview-aem-document-services.md)**.**
 
 You can use the portable protection library to apply policies on the document without the need of document traveling over the network. Only security credentials and protection-policy details travel over the network. The actual document never leaves the client and protection-policies are applied locally on the client.
 

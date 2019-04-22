@@ -22,7 +22,7 @@ These components expose certain attributes that can be mapped via Adobe Analytic
 
 ## Prerequisites {#prerequisites}
 
-Adobe recommends that you go through the [existing AEM-Adobe Analytics integration](../../../sites/administering/using/adobeanalytics.md) to understand how this integration works.
+Adobe recommends that you go through the [existing AEM-Adobe Analytics integration](/help/sites/administering/using/adobeanalytics.md) to understand how this integration works.
 
 ## Components available for mapping {#components-available-for-mapping}
 

@@ -19,9 +19,9 @@ Form data model editor provides an intuitive user interface and tools for editin
 
 If you are new to Forms data integration and have not configured a data source or created a form data model, see the following topics:
 
-* [AEM Forms Data Integration](../../forms/using/data-integration.md)
-* [Configure data sources](../../forms/using/configure-data-sources.md)
-* [Create form data model](../../forms/using/create-form-data-models.md)
+* [AEM Forms Data Integration](/help/forms/using/data-integration.md)
+* [Configure data sources](/help/forms/using/configure-data-sources.md)
+* [Create form data model](/help/forms/using/create-form-data-models.md)
 
 Read on for details about various tasks and configurations you can perform using the form data model editor.
 
@@ -69,7 +69,7 @@ To add data model objects and services:
 
    >[!NOTE] {grayBox="true"}
    >
-   >You can invoke services that you configured in the Services tab of a form data model using the adaptive form rules. The configured services are available in the Invoke services action of the rule editor For more information about using these services in adaptive form rules, see Invoke Services and Set Value Of rules in [rule editor](../../forms/using/rule-editor.md).
+   >You can invoke services that you configured in the Services tab of a form data model using the adaptive form rules. The configured services are available in the Invoke services action of the rule editor For more information about using these services in adaptive form rules, see Invoke Services and Set Value Of rules in [rule editor](/help/forms/using/rule-editor.md).
 
 ## Create data model objects and child properties {#create-data-model-objects-and-child-properties}
 
@@ -102,11 +102,11 @@ To create a child property:
 
 1. Tap **[!UICONTROL Done]** to save the child property and tap **[!UICONTROL Save]** to save the form data model.. The child property is now added to the data model object.
 
-After you have created data model objects and properties, you can continue to create adaptive forms and interactive communications based on the form data model. Later, when you have data sources available and configured, you can bind the form data model with data sources. The binding will automatically get updated in associated adaptive forms and interactive communications. For more information about creating adaptive forms and interactive communications using form data model, see [Use form data model](../../forms/using/using-form-data-model.md).
+After you have created data model objects and properties, you can continue to create adaptive forms and interactive communications based on the form data model. Later, when you have data sources available and configured, you can bind the form data model with data sources. The binding will automatically get updated in associated adaptive forms and interactive communications. For more information about creating adaptive forms and interactive communications using form data model, see [Use form data model](/help/forms/using/using-form-data-model.md).
 
 ### Bind data model objects and properties {#bind-data-model-objects-and-properties}
 
-When the data sources you want to integrate with the form data model are available, you can add them to the form data model as described in [Update data sources](../../forms/using/create-form-data-models.md#update). Then, do the following to bind the unbound data model objects and properties:
+When the data sources you want to integrate with the form data model are available, you can add them to the form data model as described in [Update data sources](/help/forms/using/create-form-data-models.md#update). Then, do the following to bind the unbound data model objects and properties:
 
 1. In the form data model, select the unbound data source that you want to bind with a data source.
 1. Tap **[!UICONTROL Edit Properties]**. 
@@ -335,7 +335,7 @@ Do the following to generate and edit sample data:
 
 1. In **[!UICONTROL Edit Sample Data]** window, edit data, as required, and tap **[!UICONTROL Save]**.
 
-Next, you can use the sample data to prefill and test interactive communications based on the form data model. For more information, see [Use form data model](../../forms/using/using-form-data-model.md).
+Next, you can use the sample data to prefill and test interactive communications based on the form data model. For more information, see [Use form data model](/help/forms/using/using-form-data-model.md).
 
 ## Test data model objects and services {#test-data-model-objects-and-services}
 
@@ -357,4 +357,4 @@ Similarly, you can test other data model objects and services in the form data m
 
 ## Next steps {#next-steps}
 
-You have a working form data model that is now ready for use in adaptive forms and interactive communications workflows. For more information, see [Use form data model](../../forms/using/using-form-data-model.md).
+You have a working form data model that is now ready for use in adaptive forms and interactive communications workflows. For more information, see [Use form data model](/help/forms/using/using-form-data-model.md).

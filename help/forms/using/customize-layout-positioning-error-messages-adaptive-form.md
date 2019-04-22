@@ -35,7 +35,7 @@ Perform the following steps to apply a custom layout to a single field:
 
 ### Customize layout of all the fields of a form {#customize-layout-of-all-the-fields-of-a-form}
 
-With AEM Forms, you can now create a theme and apply it to your form. Theme editor lets you specify styling of form components in one place. When you create a theme, you specify styling at a component level. For more information on themes, see [Themes in AEM Forms](../../forms/using/themes.md).
+With AEM Forms, you can now create a theme and apply it to your form. Theme editor lets you specify styling of form components in one place. When you create a theme, you specify styling at a component level. For more information on themes, see [Themes in AEM Forms](/help/forms/using/themes.md).
 
 Create a theme using Theme Editor to customize layout of all fields in your form. After you create a theme, perform the following steps to apply it to a form:
 

@@ -17,7 +17,7 @@ When you integrate with Adobe Campaign, you have components available for when w
 
 ## Adobe Campaign Newsletter Components {#adobe-campaign-newsletter-components}
 
-All the Campaign components follow the best practices outlined in [Best Practices for Email Templates](../../../sites/administering/using/best-practices-for-email-templates.md) and are based on the Adobe markup language [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html).
+All the Campaign components follow the best practices outlined in [Best Practices for Email Templates](/help/sites/administering/using/best-practices-for-email-templates.md) and are based on the Adobe markup language [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html).
 
 When you open a newsletter/email that is configured to integrate with Adobe Campaign, you should see the following components in the **Adobe Campaign Newsletter** section:
 
@@ -64,7 +64,7 @@ The image (campaign) component displays an image and accompanying text according
 
 You can upload an image, then edit and manipulate it (for example, crop, rotate, add link/title/text).
 
-You can either drag and drop an image from the [Asset Browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser) directly onto the component or its [Configure dialog](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste). You can also upload an image from the Configure dialog; this dialog also controls all definitions and manipulation of the image:
+You can either drag and drop an image from the [Asset Browser](/help/sites/authoring/using/author-environment-tools.md#assets-browser) directly onto the component or its [Configure dialog](/help/sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste). You can also upload an image from the Configure dialog; this dialog also controls all definitions and manipulation of the image:
 
 ![](assets/chlimage_1-108.png)
 
@@ -72,7 +72,7 @@ You can either drag and drop an image from the [Asset Browser](../../../sites/au
 >
 >You must enter information in the **Alt Text** field, or the image cannot be saved.
 
-After the image is uploaded (and not before) you can use [inplace editing](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) to crop/rotate the image as required:
+After the image is uploaded (and not before) you can use [inplace editing](/help/sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) to crop/rotate the image as required:
 
 ![](do-not-localize/chlimage_1-10.png)
 
@@ -81,7 +81,7 @@ After the image is uploaded (and not before) you can use [inplace editing](../..
 >The in-place editor uses the original size and aspect ratio of the image when editing. You can also specify height and width properties. Any size and aspect ratio restrictions defined in the properties are applied when you save your edit changes.  
 
 >
->Depending on your instance, minimum and maximum restrictions may also be imposed by the [design of the page](../../../sites/developing/using/designer.md); these are developed during project implementation.
+>Depending on your instance, minimum and maximum restrictions may also be imposed by the [design of the page](/help/sites/developing/using/designer.md); these are developed during project implementation.
 
 Several additional options are available in the full-screen editing mode; for example, map and zoom:
 
@@ -164,7 +164,7 @@ The following example shows a Link (Campaign) component being displayed.
 
 ![](assets/chlimage_1-111.png)
 
-Click **Edit** to configure the component. You can configure the settings described in this section. This Scene7 Image template is described in detail in [Scene7 Image Template component](../../../assets/using/scene7.md#image-template).
+Click **Edit** to configure the component. You can configure the settings described in this section. This Scene7 Image template is described in detail in [Scene7 Image Template component](/help/assets/using/scene7.md#image-template).
 
 In addition, the parameter panel lists all template parameters that have been defined for the template in Scene7. For each of these parameters, you can adapt the value, insert variables, or reset them to their default value.
 
@@ -235,20 +235,20 @@ The following example shows a Text & Image (Campaign) component being displayed.
 
 ### Text & Personalization (Campaign) {#text-personalization-campaign}
 
-The Text & Personalization (Campaign) component lets you enter a text block using a WYSIWYG editor, with functionality provided by the [Rich Text editor](../../../sites/authoring/using/rich-text-editor.md). In addition, this component lets you use context fields and personalization blocks available from Adobe Campaign; also see [Inserting Personalization](../../../sites/authoring/using/campaign.md#inserting-personalization).
+The Text & Personalization (Campaign) component lets you enter a text block using a WYSIWYG editor, with functionality provided by the [Rich Text editor](/help/sites/authoring/using/rich-text-editor.md). In addition, this component lets you use context fields and personalization blocks available from Adobe Campaign; also see [Inserting Personalization](/help/sites/authoring/using/campaign.md#inserting-personalization).
 
-The selection of icons allow you to format your text, including font characteristics, alignment, links, lists and indentation. The functionality is basically the same in [both UIs](../../../sites/authoring/using/editing-content.md), although the look-and-feel is different:
+The selection of icons allow you to format your text, including font characteristics, alignment, links, lists and indentation. The functionality is basically the same in [both UIs](/help/sites/authoring/using/editing-content.md), although the look-and-feel is different:
 
 ![](assets/chlimage_1-115.png)
 
-In the inplace editor you can add text, change the justification, add and remove links, add context fields or personalization blocks, and enter full-screen mode. When finished adding text/personalization, select the check mark to save your changes (or x to cancel). See [Inplace editing](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) for more information.
+In the inplace editor you can add text, change the justification, add and remove links, add context fields or personalization blocks, and enter full-screen mode. When finished adding text/personalization, select the check mark to save your changes (or x to cancel). See [Inplace editing](/help/sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) for more information.
 
 >[!NOTE]
 >
 >* What personalization fields are available depends on what Adobe Campaign template your newsletter is linked to. 
 >* After you select a persona from ContextHub, the personalization fields are automatically replaced by data from the selected profile.
 >
->See [Inserting Personalization](../../../sites/authoring/using/campaign.md#inserting-personalization).
+>See [Inserting Personalization](/help/sites/authoring/using/campaign.md#inserting-personalization).
 
 ![](assets/chlimage_1-116.png)
 
@@ -258,7 +258,7 @@ In the inplace editor you can add text, change the justification, add and remove
 
 ## Adobe Campaign Form Components {#adobe-campaign-form-components}
 
-You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles. See [Creating Adobe Campaign Forms](../../../sites/authoring/using/adobe-campaign-forms.md) for more information.
+You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles. See [Creating Adobe Campaign Forms](/help/sites/authoring/using/adobe-campaign-forms.md) for more information.
 
 Each component field can be linked to an Adobe Campaign database field. The available fields differ according to the type of data they contain as described in the section [Components and Data Type](#components-and-data-type). If you extend your recipient schema in Adobe Campaign, the new fields will be available in the components whose data types match.
 

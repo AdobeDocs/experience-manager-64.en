@@ -19,5 +19,5 @@ An author typically begins the Screens project by creating a simple project, cre
 
 >[!NOTE]
 >
->Additionally, you can create a simple digital signage experience, using ** [QuickStart for AEM Screens](../../screens/using/kickstart-for-aem-screens.md).**
+>Additionally, you can create a simple digital signage experience, using ** [QuickStart for AEM Screens](/help/screens/using/kickstart-for-aem-screens.md).**
 

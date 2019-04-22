@@ -15,8 +15,8 @@ discoiquuid: c117b9d1-e4ae-403f-8619-6e48d424a761
 
 Tags are a quick and easy method of classifying content within a website. Tags may be thought of as keywords or labels that can be attached to a page, an asset, or other content to enable searches to find that content and related content.
 
-* See [Administering Tags](../../../sites/administering/using/tags.md) for information about creating and managing tags, as well as to which content tags have been applied.
-* See [Tagging for Developers](../../../sites/developing/using/tags.md) for information about the tagging framework as well as including and extending tags in custom applications.
+* See [Administering Tags](/help/sites/administering/using/tags.md) for information about creating and managing tags, as well as to which content tags have been applied.
+* See [Tagging for Developers](/help/sites/developing/using/tags.md) for information about the tagging framework as well as including and extending tags in custom applications.
 
 ## Ten Reasons to Use Tagging {#ten-reasons-to-use-tagging}
 
@@ -46,7 +46,7 @@ When designing the content structure for a site and the metadata schema for asse
 
 In the author environment, authors may apply tags by accessing the page properties and entering one or more tags in the **Tags/Keywords** field.
 
-To apply [pre-defined tags](../../../sites/administering/using/tags.md), in the **Page Properties** window use the `Tags/Keywords` field pull-down to select from the list of tags permitted for the page. Tthe **Standard Tags** tab is the default namespace, which means there is no `*namespace-string:*` prefixed to the taxonomy.
+To apply [pre-defined tags](/help/sites/administering/using/tags.md), in the **Page Properties** window use the `Tags/Keywords` field pull-down to select from the list of tags permitted for the page. Tthe **Standard Tags** tab is the default namespace, which means there is no `*namespace-string:*` prefixed to the taxonomy.
 
 ![](assets/chlimage_1-2.png) 
 
@@ -72,7 +72,7 @@ As with pages you can perform the following on tags and namespaces:
 
 Tag clouds show a cloud of tags, either for the current page, the entire website, or those most commonly accessed. Tag clouds are a means of highlighting the issues that are (have been) of interest to the user. The size of the text used to display the tag varies in relationship to its use.
 
-The [Tag Cloud](../../../sites/classic-ui-authoring/using/classic-page-author-edit-mode.md#tag-cloud) component (General component group) is used to add a tag cloud to a page.
+The [Tag Cloud](/help/sites/classic-ui-authoring/using/classic-page-author-edit-mode.md#tag-cloud) component (General component group) is used to add a tag cloud to a page.
 
 ## Searching on Tags {#searching-on-tags}
 
@@ -80,7 +80,7 @@ You can search for tags in both the author and publish environments.
 
 ### Using Search Component {#using-search-component}
 
-Adding a [Search component](../../../sites/classic-ui-authoring/using/classic-page-author-edit-mode.md#search) to a page provides a search capability which includes tags and can be used in both the author and publish environments.
+Adding a [Search component](/help/sites/classic-ui-authoring/using/classic-page-author-edit-mode.md#search) to a page provides a search capability which includes tags and can be used in both the author and publish environments.
 
 ![](assets/chlimage_1-3.png)
 

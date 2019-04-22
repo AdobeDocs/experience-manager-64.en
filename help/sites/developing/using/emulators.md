@@ -16,7 +16,7 @@ legacypath: /content/docs/en/aem/6-0/develop/mobile/emulators
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Adobe Experience Manager (AEM) enables authors to view a page in an emulator that simulates the environment in which an end-user will view the page, as for example on a mobile device or in an email client.
 

@@ -16,12 +16,12 @@ pagetitle: Administering Magento
 
 ## Registration {#registration}
 
-You can create a registration form using the [foundation form component](../../../sites/authoring/using/default-components-foundation.md#form) and add the necessary fields.  
-Make sure you select **Magento Registration** as the action type. [](../../../sites/authoring/using/default-components-foundation.md#form)
+You can create a registration form using the [foundation form component](/help/sites/authoring/using/default-components-foundation.md#form) and add the necessary fields.  
+Make sure you select **Magento Registration** as the action type. [](/help/sites/authoring/using/default-components-foundation.md#form)
 
 ## Product/Catalog Import {#product-catalog-import}
 
-You can re-import catalog blueprint and products from your Magento server by using the [standard blueprint import procedure](../../../sites/administering/using/generic.md#importing-products).  
+You can re-import catalog blueprint and products from your Magento server by using the [standard blueprint import procedure](/help/sites/administering/using/generic.md#importing-products).  
 You just need to select the **Magento2** importer.
 
 ![](assets/chlimage_1-42.jpeg) 

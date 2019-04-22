@@ -13,13 +13,13 @@ discoiquuid: a1efef3c-0e4b-4a17-bcad-e3cc17adbbf7
 
 # Configure the Video component{#configure-the-video-component}
 
-The [Video component](../../../sites/authoring/using/default-components-foundation.md#video) allows you to place a predefined, out-of-the-box video element on your page.
+The [Video component](/help/sites/authoring/using/default-components-foundation.md#video) allows you to place a predefined, out-of-the-box video element on your page.
 
 For proper transcoding to occur, your administrator must [Install FFmpeg](#install-ffmpeg) separately. They can also [Configure your Video Profiles](#configure-video-profiles) for use with HTML5 elements.
 
 ## Configure video profiles {#configure-video-profiles}
 
-You may want to define video profiles to use for HTML5 elements. Those chosen here are used in order. To access, use [Design Mode](../../../sites/authoring/using/default-components-designmode.md) (Classic UI only) and select the **Profiles** tab:
+You may want to define video profiles to use for HTML5 elements. Those chosen here are used in order. To access, use [Design Mode](/help/sites/authoring/using/default-components-designmode.md) (Classic UI only) and select the **Profiles** tab:
 
 ![](assets/chlimage_1-317.png)
 

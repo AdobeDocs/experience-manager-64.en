@@ -16,13 +16,13 @@ legacypath: /content/docs/en/aem/6-0/develop/mobile/groupfilters
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Create a device group filter to define a set of device capability requirements. Create as many filters as you require to target the needed groups of device capabilities.
 
 Design your filters so that you can use combinations of them to define the groups of capabilities. Typically, there is overlap of the capabilities of different device groups. Therefore, you might use some filters with multiple device group definitions.
 
-After you create a filter, you can use it in the [group configuration.](../../../sites/developing/using/mobile.md#creating-a-device-group)
+After you create a filter, you can use it in the [group configuration.](/help/sites/developing/using/mobile.md#creating-a-device-group)
 
 ## The Filter Java Class {#the-filter-java-class}
 
@@ -103,7 +103,7 @@ The `org.apache.commons.lang.math` package provides the `NumberUtils` class.
 
 >[!NOTE]
 >
->Ensure the WURFL™ database that is deployed to AEM includes the capabilities that you use as filter criteria. (See [Device Detection](../../../sites/developing/using/mobile.md#server-side-device-detection).)
+>Ensure the WURFL™ database that is deployed to AEM includes the capabilities that you use as filter criteria. (See [Device Detection](/help/sites/developing/using/mobile.md#server-side-device-detection).)
 
 ### Example Filter For Screen Size {#example-filter-for-screen-size}
 
@@ -251,4 +251,4 @@ At the time of authoring, 5.5.2 is the version of the WCM Mobile API bundle that
 </project>
 ```
 
-Add the profile that the [Obtaining the Content Package Maven Plugin](../../../sites/developing/using/vlt-mavenplugin.md) section provides to your maven settings file to use the public Adobe repository.
+Add the profile that the [Obtaining the Content Package Maven Plugin](/help/sites/developing/using/vlt-mavenplugin.md) section provides to your maven settings file to use the public Adobe repository.

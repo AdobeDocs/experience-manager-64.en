@@ -68,11 +68,11 @@ You may want to have multiple dashboards to quickly see information about your c
 
 ### Overview {#overview}
 
-Dashboard components are nothing more than regular [AEM components](../../../sites/developing/using/developing-components-samples.md). This section describes reporting components shipped with AEM.
+Dashboard components are nothing more than regular [AEM components](/help/sites/developing/using/developing-components-samples.md). This section describes reporting components shipped with AEM.
 
 ### Web Analytics Reporting Components {#web-analytics-reporting-components}
 
-AEM ships with a set of components that render multiple metrics of your [SiteCatalyst](../../../sites/administering/using/adobeanalytics.md) data. Those components are listed in the Sidekick under the **Dashboard** section.
+AEM ships with a set of components that render multiple metrics of your [SiteCatalyst](/help/sites/administering/using/adobeanalytics.md) data. Those components are listed in the Sidekick under the **Dashboard** section.
 
 Each reporting component provides at least three tabs:
 
@@ -167,7 +167,7 @@ There is a default component group `Dashboard` containing analytics reporting co
 
 A template defines the default content of a new Dashboard. You may use several templates for creating different types of dashboards.
 
-Dashboard templates are created like other page templates, except that they are stored under `/libs/cq/dashboards/templates/`. See the [Creating Contentpage Template](../../../sites/developing/using/website.md#creating-the-contentpage-template) section.
+Dashboard templates are created like other page templates, except that they are stored under `/libs/cq/dashboards/templates/`. See the [Creating Contentpage Template](/help/sites/developing/using/website.md#creating-the-contentpage-template) section.
 
 >[!NOTE]
 >
@@ -187,9 +187,9 @@ The top author components is stored in the repository at `/apps/geometrixx-outdo
 
 ![](assets/chlimage_1-32.png)
 
-The following Javascript file is defined in the `geout.reporting.topauthors` [Client Library](../../../sites/developing/using/clientlibs.md) as a child of the component itself.
+The following Javascript file is defined in the `geout.reporting.topauthors` [Client Library](/help/sites/developing/using/clientlibs.md) as a child of the component itself.
 
-The [QueryBuilder](../../../sites/developing/using/querybuilder-api.md) is used to query the repository to read `cq:AuditEvent` nodes. The query result is a JSON object from which author contributions are extracted.
+The [QueryBuilder](/help/sites/developing/using/querybuilder-api.md) is used to query the repository to read `cq:AuditEvent` nodes. The query result is a JSON object from which author contributions are extracted.
 
 #### top_authors.js {#top-authors-js}
 

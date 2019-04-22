@@ -31,7 +31,7 @@ AEM Forms workspace supports a wide variety of customizations to update the layo
 
 You can change the appearance, layout, and other presentation semantics of AEM Forms workspace. Change workspace by customizing the CSS, HTML templates, and JavaScript™ files. All the default files are provided in the default installation.
 
-The most commonly applicable steps are covered in [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md). For specific examples of such customizations, including the detailed steps, see the related articles at the end of this article.
+The most commonly applicable steps are covered in [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md). For specific examples of such customizations, including the detailed steps, see the related articles at the end of this article.
 
 #### Understanding the style sheet {#understanding-the-style-sheet}
 
@@ -122,11 +122,11 @@ The top-level steps for CSS customization are:
 * Add style items to this CSS. See Understanding CSS Styles for more information.
 * Update its references in `html.jsp`.
 
-For the exact steps to do these customizations, see [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md). The CSS file shipped with AEM Forms workspace is at /libs/ws/css/. For CSS-related customizations, use the [Ship Package](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p). For specific examples of CSS-related customizations, see the related Help topics at the end of this article.
+For the exact steps to do these customizations, see [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md). The CSS file shipped with AEM Forms workspace is at /libs/ws/css/. For CSS-related customizations, use the [Ship Package](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p). For specific examples of CSS-related customizations, see the related Help topics at the end of this article.
 
 #### Image {#image}
 
-You can customize the AEM Forms workspace to add avatars of users or to add the logo of your organization. For these customizations, use [Ship Package](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p).
+You can customize the AEM Forms workspace to add avatars of users or to add the logo of your organization. For these customizations, use [Ship Package](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p).
 
 The top-level steps for customizations to the images are:
 
@@ -135,7 +135,7 @@ The top-level steps for customizations to the images are:
 * Add new styles corresponding to the added images.
 * Link to the new CSS file in `html.jsp` file.
 
-To get started with customizing the images in AEM Forms workspace, follow the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md). For specific examples of image-related customizations, see the related Help topics at the end of this article.
+To get started with customizing the images in AEM Forms workspace, follow the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md). For specific examples of image-related customizations, see the related Help topics at the end of this article.
 
 #### HTML template {#html-template}
 
@@ -147,7 +147,7 @@ The top-level steps for customizations to the HTML template are:
 * Add new templates in user-defined folder.
 * Make relevant updates to the copied files like, the path of the new template.
 
-For specific examples of such customizations, see the Help topics provided at the end of this article. Choose between the [Ship Package](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p) or the [Dev Package](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p), depending on the template to be customized.
+For specific examples of such customizations, see the Help topics provided at the end of this article. Choose between the [Ship Package](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p) or the [Dev Package](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p), depending on the template to be customized.
 
 ### Semantic changes {#semantic-changes}
 
@@ -160,13 +160,13 @@ The top-level steps to do semantic changes to modify the functionality of AEM Fo
 * Make relevant updates like updating paths of newly added models and views in the default JavaScript files.
 * Minify the package to optimize the performance.
 
-For more conceptual information about the components that are part of the source code, see the [Description of reusable components](../../forms/using/description-reusable-components.md). For these customizations, use the Dev Package.
+For more conceptual information about the components that are part of the source code, see the [Description of reusable components](/help/forms/using/description-reusable-components.md). For these customizations, use the Dev Package.
 
 ### Reusable components {#reusable-components}
 
 As AEM Forms workspace is a component-based software, it can be easily customized and reused. You can easily integrate the workspace components with your web applications.
 
-For more conceptual information, see the [Description of reusable components](../../forms/using/description-reusable-components.md) and for instruction about using the components, see [Integrating AEM Forms workspace components in web applications](../../forms/using/description-reusable-components.md).
+For more conceptual information, see the [Description of reusable components](/help/forms/using/description-reusable-components.md) and for instruction about using the components, see [Integrating AEM Forms workspace components in web applications](/help/forms/using/description-reusable-components.md).
 
 ## Building AEM Forms workspace&nbsp;code {#building-html-workspace-code}
 
@@ -176,7 +176,7 @@ The package contains the source code of AEM Forms workspace. The package is avai
 
 It is primarily meant for customizations, as it provides the capability to generate:
 
-* CRX packages for Ship, Debug, and Dev profiles (mentioned below in [CRX packages](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p)).
+* CRX packages for Ship, Debug, and Dev profiles (mentioned below in [CRX packages](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p)).
 * Minified version of customized code (for semantic changes).
 
 #### WS content {#ws-content}

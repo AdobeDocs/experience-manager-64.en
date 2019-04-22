@@ -15,7 +15,7 @@ discoiquuid: fe44a941-a09b-4421-b766-1d433291f2cc
 
 Trying out Experience Fragments in We.Retail
 
-An [Experience Fragment](../../../sites/authoring/using/experience-fragments.md) is a group of one or more components including content and layout that can be referenced within pages. They can contain any component.
+An [Experience Fragment](/help/sites/authoring/using/experience-fragments.md) is a group of one or more components including content and layout that can be referenced within pages. They can contain any component.
 
 They allow an author to re-use parts of a page (a fragment of an experience), without having to copy and paste the content.
 
@@ -23,7 +23,7 @@ This supports the headless Content Management System (CMS) use-case, where autho
 
 >[!NOTE]
 >
->**[Content Fragments](../../../sites/developing/using/we-retail-content-fragments.md)** and **Experience Fragments** are different features within AEM:
+>**[Content Fragments](/help/sites/developing/using/we-retail-content-fragments.md)** and **Experience Fragments** are different features within AEM:
 >
 >* **Content Fragments** are editorial content, primarily text and related images. They are pure content, without design and layout.
 >* **Experience Fragments** are fully laid out content; a fragment of a web page.  
@@ -32,15 +32,15 @@ This supports the headless Content Management System (CMS) use-case, where autho
 
 ## Where to Create Experience Fragments in We.Retail {#where-to-create-experience-fragments-in-we-retail}
 
-Select **Experience Fragments** from the Global Navigation. Here you configure, [create](../../../sites/authoring/using/experience-fragments.md#creating-an-experience-fragment) and [edit](../../../sites/authoring/using/experience-fragments.md#editing-your-experience-fragment) your Experience Fragments, and any related [variations](../../../sites/authoring/using/experience-fragments.md#creating-an-experience-fragment-variation).
+Select **Experience Fragments** from the Global Navigation. Here you configure, [create](/help/sites/authoring/using/experience-fragments.md#creating-an-experience-fragment) and [edit](/help/sites/authoring/using/experience-fragments.md#editing-your-experience-fragment) your Experience Fragments, and any related [variations](/help/sites/authoring/using/experience-fragments.md#creating-an-experience-fragment-variation).
 
 ## Where to Use Experience Fragments in We.Retail {#where-to-use-experience-fragments-in-we-retail}
 
-You can use your [Experience Fragments](../../../sites/authoring/using/experience-fragments.md#using-your-experience-fragment) (as with any other component) on [any page](../../../sites/authoring/using/editing-content.md) under **Sites** in the Global Navigation.
+You can use your [Experience Fragments](/help/sites/authoring/using/experience-fragments.md#using-your-experience-fragment) (as with any other component) on [any page](/help/sites/authoring/using/editing-content.md) under **Sites** in the Global Navigation.
 
 ## Further Information {#further-information}
 
 For more details see:
 
-* [Experience Fragments](../../../sites/authoring/using/experience-fragments.md)
+* [Experience Fragments](/help/sites/authoring/using/experience-fragments.md)
 

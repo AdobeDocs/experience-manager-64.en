@@ -15,7 +15,7 @@ Learn how to select a user or group for an AEM Forms workflow at the runtime.
 
 In large organizations, there are requirements to dynamically select users for a process. For example, selecting a field agent to serve a customer based on the proximity of the agent to the customer. In such a scenario, the agent is selected dynamically.
 
-Assign task and Adobe Sign steps of [Forms-centric workflows on OSGi](../../forms/using/aem-forms-workflow.md) provide options to dynamically select a user. You can use ECMAScript or OSGi bundles to dynamically select an assignee for the Assign Task step or to select signers for the Sign Document step.
+Assign task and Adobe Sign steps of [Forms-centric workflows on OSGi](/help/forms/using/aem-forms-workflow.md) provide options to dynamically select a user. You can use ECMAScript or OSGi bundles to dynamically select an assignee for the Assign Task step or to select signers for the Sign Document step.
 
 ## Use ECMAScript to dynamically select a user or group {#use-ecmascript-to-dynamically-select-a-user-or-group}
 
@@ -29,7 +29,7 @@ ECMAScript is a scripting language. It is used for client-side scripting and ser
 
 1. Add ECMAScript, that has the logic to dynamically selecting a user, to the .ecma file. Click **[!UICONTROL Save All]**.
 
-   For sample scripts, see [Sample ECMAScripts for dynamically selecting a user or a group](../../forms/using/dynamically-select-a-user-or-group-for-aem-workflow.md#sample-ecmascripts-to-dynamically-choose-a-user-or-a-group). 
+   For sample scripts, see [Sample ECMAScripts for dynamically selecting a user or a group](/help/forms/using/dynamically-select-a-user-or-group-for-aem-workflow.md#sample-ecmascripts-to-dynamically-choose-a-user-or-a-group). 
 
 1. Add display name of the script. This name is displayed in workflow steps. To specify the name:
 

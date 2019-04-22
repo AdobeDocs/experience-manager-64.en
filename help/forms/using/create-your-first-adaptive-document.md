@@ -38,11 +38,11 @@ You will have an adaptive document similar to the following at the end of the tu
    <td>
     <ul> 
      <li>Setup AEM author instance. </li> 
-     <li>Install AEM Forms add-on. For detailed information see, <a href="../../forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">Install and configure AEM Forms</a>.</li> 
+     <li>Install AEM Forms add-on. For detailed information see, <a href="/help/forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">Install and configure AEM Forms</a>.</li> 
      <li>Obtain JDBC database driver (JAR file) from database provider. Examples in the tutorial are based on MySQL database and use Oracle's MySQL JDBC database driver. </li> 
      <li>Setup a database containing customer data. A database is essential to create an adaptive document. This tutorial uses a database to display form data model and persistence capabilities of AEM Forms. </li> 
-     <li>Create/import and enable <a href="../../forms/using/web-channel-print-channel.md">Templates for print and web channel</a>.</li> 
-     <li>Ensure you have the <a href="../../forms/using/document-fragments.md">Document fragments based on the FDM</a>.</li> 
+     <li>Create/import and enable <a href="/help/forms/using/web-channel-print-channel.md">Templates for print and web channel</a>.</li> 
+     <li>Ensure you have the <a href="/help/forms/using/document-fragments.md">Document fragments based on the FDM</a>.</li> 
     </ul> </td> 
   </tr>
  </tbody>
@@ -50,7 +50,7 @@ You will have an adaptive document similar to the following at the end of the tu
 
 ## Step 1: Create Form Data Model {#step-create-form-data-model}
 
-A form data model allows to connect an adaptive document to disparate data sources. For example, AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. A Form data model is a unified data representation schema of business entities and services available in connected data sources. You can use the form data model with an adaptive document to retrieve data from connected data sources. For more information about form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+A form data model allows to connect an adaptive document to disparate data sources. For example, AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. A Form data model is a unified data representation schema of business entities and services available in connected data sources. You can use the form data model with an adaptive document to retrieve data from connected data sources. For more information about form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
 Goals:
 
@@ -78,7 +78,7 @@ Goals:
 
 ## Step 3: Apply rules to adaptive document fields (Web channel only) {#step-apply-rules-to-adaptive-document-fields-web-channel-only}
 
-Adaptive document provides an editor to write rules on adaptive document objects. These rules define actions to trigger on document objects based on preset conditions and user actions on the document. It helps ensuring accuracy and speeds up user experience in the web version of the adaptive document. For more information about adaptive document rules and rules editor, see [rule editor](../../forms/using/rule-editor.md).
+Adaptive document provides an editor to write rules on adaptive document objects. These rules define actions to trigger on document objects based on preset conditions and user actions on the document. It helps ensuring accuracy and speeds up user experience in the web version of the adaptive document. For more information about adaptive document rules and rules editor, see [rule editor](/help/forms/using/rule-editor.md).
 
 Goals:
 
@@ -87,7 +87,7 @@ Goals:
 
 ## Step 4: Style the adaptive document (Web channel only) {#step-style-the-adaptive-document-web-channel-only}
 
-Adaptive documents provide an editor to create themes for the adaptive documents and in-line styling. A theme contains styling details for components and panels, and you can reuse a theme on web channels of different documents. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply the theme to your document, the specified style reflects on corresponding components of your document. For more information, see [Themes](../../forms/using/themes.md).
+Adaptive documents provide an editor to create themes for the adaptive documents and in-line styling. A theme contains styling details for components and panels, and you can reuse a theme on web channels of different documents. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply the theme to your document, the specified style reflects on corresponding components of your document. For more information, see [Themes](/help/forms/using/themes.md).
 
 Goals:
 

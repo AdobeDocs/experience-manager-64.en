@@ -25,7 +25,7 @@ You can specify an email account for the forms server, through which it sends em
 
 To enable the sending of email messages between AEM forms and users, configure the outgoing email settings on the Email Settings page. Outgoing email must use an SMTP server.
 
-To enable AEM forms to receive and handle incoming email messages from users, create an email endpoint for the Complete Task service. (See [Create an Email endpoint for the Complete Task service](../../../forms/using/admin-help/configuring-email-endpoints.md#create-an-email-endpoint-for-the-complete-task-service)).
+To enable AEM forms to receive and handle incoming email messages from users, create an email endpoint for the Complete Task service. (See [Create an Email endpoint for the Complete Task service](/help/forms/using/admin-help/configuring-email-endpoints.md#create-an-email-endpoint-for-the-complete-task-service)).
 
 If your processes are designed and implemented without requiring email, you do not have to configure any of the options on the Email Settings page.
 
@@ -53,7 +53,7 @@ If your processes are designed and implemented without requiring email, you do n
 >
 >The Flex Workspace is deprecated for AEM forms release.
 
-By default, the emails sent out by AEM forms contain links to (Deprecated for AEM forms on JEE) Flex Workspace. You can configure AEM forms to send out emails with links to AEM Forms Workspace. To know more about the benefits of AEM Forms Workspace over (Deprecated for AEM forms on JEE) Flex Workspace, see [this](../../../forms/using/features-html-workspace-available-flex.md) article.
+By default, the emails sent out by AEM forms contain links to (Deprecated for AEM forms on JEE) Flex Workspace. You can configure AEM forms to send out emails with links to AEM Forms Workspace. To know more about the benefits of AEM Forms Workspace over (Deprecated for AEM forms on JEE) Flex Workspace, see [this](/help/forms/using/features-html-workspace-available-flex.md) article.
 
 1. In administration console, click Home &gt; Services &gt; forms workflow &gt; Server Settings &gt; Task Notifications.
 1. Open task assignment template.

@@ -16,7 +16,7 @@ Adaptive forms provides several out-of-the-box submit actions for submitting for
 
 >[!NOTE]
 >
->In a production environment, it is recommended not to store submitted form data in AEM repository. Submit actions such as Store Content (deprecated), Store PDF (deprecated), and Forms Portal store form data in AEM repository. These submit actions are meant only for demonstration purposes. Instead in a production environment, you must write a custom submit action that stores forms data in a more secure storage like your enterprise database. For more information, see [Writing custom Submit action for adaptive forms](../../../forms/using/custom-submit-action-form.md).
+>In a production environment, it is recommended not to store submitted form data in AEM repository. Submit actions such as Store Content (deprecated), Store PDF (deprecated), and Forms Portal store form data in AEM repository. These submit actions are meant only for demonstration purposes. Instead in a production environment, you must write a custom submit action that stores forms data in a more secure storage like your enterprise database. For more information, see [Writing custom Submit action for adaptive forms](/help/forms/using/custom-submit-action-form.md).
 
 ## Storing content in the JCR repository {#storing-content-in-the-jcr-repository}
 

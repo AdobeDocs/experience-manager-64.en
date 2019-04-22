@@ -30,15 +30,15 @@ The correspondence management module has the following configurations:
 
 ### Asset Composer Configurations {#asset-composer-configurations}
 
-The Asset Composer configuration provides options to configure core correspondence management capabilities such as asset (text, image, list, condition, and letter template) creation and document rendering. To configure available capabilities, navigate to AEM Web Console Configuration and open the **Asset Composer Configurations** option. The [Correspondence Management Configuration Properties](../../../forms/using/cm-configuration-properties.md) article also lists all the properties of the configuration.
+The Asset Composer configuration provides options to configure core correspondence management capabilities such as asset (text, image, list, condition, and letter template) creation and document rendering. To configure available capabilities, navigate to AEM Web Console Configuration and open the **Asset Composer Configurations** option. The [Correspondence Management Configuration Properties](/help/forms/using/cm-configuration-properties.md) article also lists all the properties of the configuration.
 
-For detailed steps to edit a configuration, see configuration section in [Web Console](../../../sites/deploying/using/web-console.md) documentation.
+For detailed steps to edit a configuration, see configuration section in [Web Console](/help/sites/deploying/using/web-console.md) documentation.
 
 ### AEM Forms Analytics Configuration {#aem-forms-analytics-configuration}
 
 AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective  behind  analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable. AEM Forms Analytics Configuration provides options to select framework, configure  cron  expression, and report time-out. To configure available options, navigate to AEM Web Console Configuration and open the AEM Forms Analytics Configuration option.
 
-The configuration service has only a subset of options required to configure Adobe Analytics and AEM Forms reports. For detailed information about configuring Adobe Analytics and AEM Forms reports, see the [Configuring analytics and reports](../../../forms/using/configure-analytics-forms-documents.md) article.
+The configuration service has only a subset of options required to configure Adobe Analytics and AEM Forms reports. For detailed information about configuring Adobe Analytics and AEM Forms reports, see the [Configuring analytics and reports](/help/forms/using/configure-analytics-forms-documents.md) article.
 
 ### AEM Forms Analytics Configuration {#aem-forms-analytics-configuration-1}
 
@@ -84,11 +84,11 @@ AEM Forms PDF Generator enables IT managers to centrally manage and control the 
 
 * To install, configure, and run PDF generator on an **AEM Forms on JEE **environment, see AEM Forms on JEE specific Installing, Upgrading, and Clustering documentation at AEM Forms help and tutorials.
 
-The Reader Extensions service enables your organization to easily share interactive PDF documents by extending the functionality of Adobe Reader with additional usage rights. The Reader Extension service is part of the [DocAssurance Service](../../../forms/using/overview-aem-document-services.md). To configure the DocAssurance service, perform the steps listed in the [Configuring the DocAssurance service](../install-configure-document-services.md) article.
+The Reader Extensions service enables your organization to easily share interactive PDF documents by extending the functionality of Adobe Reader with additional usage rights. The Reader Extension service is part of the [DocAssurance Service](/help/forms/using/overview-aem-document-services.md). To configure the DocAssurance service, perform the steps listed in the [Configuring the DocAssurance service](/help/forms/using/install-configure-document-services.md) article.
 
-The Signature service accesses certificates and credentials that are stored in the trust store. It lets you work with digital signatures and documents on the AEM server. The signature service is part of the [DocAssurance Service](../../../forms/using/overview-aem-document-services.md). To configure the DocAssurance service, perform the steps listed in the [Configuring the DocAssurance service](../install-configure-document-services.md) article.
+The Signature service accesses certificates and credentials that are stored in the trust store. It lets you work with digital signatures and documents on the AEM server. The signature service is part of the [DocAssurance Service](/help/forms/using/overview-aem-document-services.md). To configure the DocAssurance service, perform the steps listed in the [Configuring the DocAssurance service](/help/forms/using/install-configure-document-services.md) article.
 
-AEM Forms can also use credentials stored on an HSM or etoken to eSign or apply server-sided digital signatures to a document. Hardware security modules (HSM) and etokens are dedicated, hardened, and tamper-resistance computing devices designed to securely manage, process, and store digital keys. These devices are directly attached to a computer or a network server. For detailed steps to use an HSM or etoken device with AEM Forms, see [Use HSM to digitally sign or certify documents](../../../forms/using/hsm-certify-esign-docs.md).
+AEM Forms can also use credentials stored on an HSM or etoken to eSign or apply server-sided digital signatures to a document. Hardware security modules (HSM) and etokens are dedicated, hardened, and tamper-resistance computing devices designed to securely manage, process, and store digital keys. These devices are directly attached to a computer or a network server. For detailed steps to use an HSM or etoken device with AEM Forms, see [Use HSM to digitally sign or certify documents](/help/forms/using/hsm-certify-esign-docs.md).
 
 ## AEM Forms on JEE - Document Services configurations  {#aem-forms-on-jee-document-services-configurations}
 

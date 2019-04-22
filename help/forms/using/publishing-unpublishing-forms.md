@@ -13,9 +13,9 @@ discoiquuid: 7dd08e81-5df6-4522-9f8c-48b4bba8927b
 
 # Publishing and unpublishing forms and documents{#publishing-and-unpublishing-forms-and-documents}
 
-AEM Forms let you create, publish, and unpublish forms easily. For more information about AEM Forms, see [Introduction to managing forms](../../forms/using/introduction-managing-forms.md).
+AEM Forms let you create, publish, and unpublish forms easily. For more information about AEM Forms, see [Introduction to managing forms](/help/forms/using/introduction-managing-forms.md).
 
-The AEM Forms server provides two instances: Author and Publish. Author instance is for creating and managing form assets and resources. Publish instance is for keeping assets and related resources that are available for end users. You can import XDP and PDF forms in the Author mode. For more information, see [Getting XDP and PDF documents in AEM Forms](../../forms/using/get-xdp-pdf-documents-aem.md).
+The AEM Forms server provides two instances: Author and Publish. Author instance is for creating and managing form assets and resources. Publish instance is for keeping assets and related resources that are available for end users. You can import XDP and PDF forms in the Author mode. For more information, see [Getting XDP and PDF documents in AEM Forms](/help/forms/using/get-xdp-pdf-documents-aem.md).
 
 ## Supported assets &nbsp; {#supported-assets-nbsp}
 
@@ -91,7 +91,7 @@ An asset can have the following states:
 
    After an asset is published, metadata properties of the asset are copied to the Publish instance and the status of the asset is changed to Published. The status of dependent assets that are published is also changed to Published.
 
-   After publishing an asset, you can use the Forms Portal to display all the assets on a web page. For more information, see [Introduction to publishing forms on a portal](../../forms/using/introduction-publishing-forms.md).
+   After publishing an asset, you can use the Forms Portal to display all the assets on a web page. For more information, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 
 ## Publish all the Correspondence Management Assets {#publish-all-the-correspondence-management-assets}
 
@@ -120,7 +120,7 @@ Complete the following steps to publish all the Correspondence Management assets
 
 ## Automate publishing and unpublishing for Forms &amp; Documents {#automate-publishing-and-unpublishing-for-forms-amp-documents}
 
-AEM Forms let you schedule asset publishing and unpublishing for Forms & Documents. You can specify the schedule in the Metadata Editor. For more information about managing form metadata, see [Managing form metadata.](../../forms/using/manage-form-metadata.md)
+AEM Forms let you schedule asset publishing and unpublishing for Forms & Documents. You can specify the schedule in the Metadata Editor. For more information about managing form metadata, see [Managing form metadata.](/help/forms/using/manage-form-metadata.md)
 
 Follow these steps to schedule the date and time of publishing and unpublishing Forms & Documents assets:
 

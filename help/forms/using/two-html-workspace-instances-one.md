@@ -18,7 +18,7 @@ AEM Forms administrators customize the workspace to create two different URLs an
 
 Follow these steps to configure AEM Forms workspace.
 
-1. Install the dev package of AEM Forms workspace on your server. See [dev package](../../forms/using/introduction-customizing-html-workspace.md#p-crx-package-p), for instructions to create it.
+1. Install the dev package of AEM Forms workspace on your server. See [dev package](/help/forms/using/introduction-customizing-html-workspace.md#p-crx-package-p), for instructions to create it.
 1. Login to CRXDE Lite as an administrator, by accessing `https://[server]:[port]/lc/crx/de/index.jsp`.
 1. Copy node ws at /content and paste at /content. Rename node to ws2. Click **[!UICONTROL Save all]**. In properties of this node, change value of `sling:resourceType` to ws2. Click **[!UICONTROL Save all]**.  
 

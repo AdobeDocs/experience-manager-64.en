@@ -16,17 +16,17 @@ discoiquuid: a6d9b08d-e669-4b9b-b591-c21cd72b6e22
 Individual visitors to your website can only be identified when you provide the ability for them to log in. There are various reasons why you may want to provide a login capability:
 
 * [AEM Communities  
-  ](../../../communities/using/overview.md)Site visitors are required to sign in to post content to the community.
-* [Closed User Groups](../../../sites/administering/using/cug.md)  
+  ](/help/communities/using/overview.md)Site visitors are required to sign in to post content to the community.
+* [Closed User Groups](/help/sites/administering/using/cug.md)  
   You may need to limit access to your website (or sections of it) to specific visitors.
 
 * [Personalization  
-  ](../../../sites/administering/using/personalization.md) Allowing visitors to configure certains aspects of how they access your website.
+  ](/help/sites/administering/using/personalization.md) Allowing visitors to configure certains aspects of how they access your website.
 
 Log in (and out) functionality is provided by an [account with a **Profile**](#profiles-and-user-accounts), which holds additional information about the registered visitor (user). The actual processes for registration and authorization may differ:
 
 * Self-registration from the website  
-  A [Community Site](../../../communities/using/sites-console.md) may be configured to allow visitors to self-register or sign-in with their Facebook or Twitter accounts.  
+  A [Community Site](/help/communities/using/sites-console.md) may be configured to allow visitors to self-register or sign-in with their Facebook or Twitter accounts.  
 
 * Request for registration from the website  
   For a closed user group you might allow visitors to request registration, but enforce authorization by means of a workflow.
@@ -42,7 +42,7 @@ Additional functionality can be configured or developed:
 
 >[!NOTE]
 >
->The information specified in the profile can also be used to provide the user with targeted content via [Segments](../../../sites/administering/using/campaign-segmentation.md) and [Campaigns](../../../sites/authoring/using/campaigns.md).
+>The information specified in the profile can also be used to provide the user with targeted content via [Segments](/help/sites/administering/using/campaign-segmentation.md) and [Campaigns](/help/sites/authoring/using/campaigns.md).
 
 ## Registration Forms {#registration-forms}
 
@@ -57,7 +57,7 @@ Upon submitting the request, the profile page opens where the user can provide p
 
 ![](assets/profilepage.png)
 
-The new account is also visible in the [Users console](../../../sites/administering/using/security.md).
+The new account is also visible in the [Users console](/help/sites/administering/using/security.md).
 
 ## Login {#login}
 
@@ -87,7 +87,7 @@ http://localhost:4502/content/geometrixx-outdoors/en/user/profile.html
 To see the details of your profile click on **My Profile** in the top right corner of any page; for example with the `admin` account:  
 `http://localhost:4502/home/users/a/admin/profile.form.html/content/geometrixx-outdoors/en/user/profile.html.`
 
-You can view another profile using the [client context](../../../sites/administering/using/client-context.md) (on the author environment and with sufficient privileges):
+You can view another profile using the [client context](/help/sites/administering/using/client-context.md) (on the author environment and with sufficient privileges):
 
 1. Open a page; for example the Geometrixx page:  
    `http://localhost:4502/cf#/content/geometrixx/en.html`
@@ -177,7 +177,7 @@ A workflow is needed to implement the actions related to the states. For example
 
 ## Profiles and User Accounts {#profiles-and-user-accounts}
 
-Profiles are stored in the Content Repository as part of the the [user account](../../../sites/administering/using/user-group-ac-admin.md).
+Profiles are stored in the Content Repository as part of the the [user account](/help/sites/administering/using/user-group-ac-admin.md).
 
 The profile can be found under `/home/users/geometrixx`:
 
@@ -196,7 +196,7 @@ That allows:
 
 If such access is not appropriate for your installation you can change these default settings.
 
-This can be done using the ** [Access Control](../../../sites/administering/using/user-group-ac-admin.md#access-right-management)** tab:
+This can be done using the ** [Access Control](/help/sites/administering/using/user-group-ac-admin.md#access-right-management)** tab:
 
 ![](assets/aclmanager.png)  
 

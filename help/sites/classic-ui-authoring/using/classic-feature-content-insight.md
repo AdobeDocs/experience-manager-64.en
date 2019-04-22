@@ -17,5 +17,5 @@ Content Insight provides information about page performance using web analytics 
 
 >[!NOTE]
 >
->Content Insight is only available from the touch-optimized UI. See [Content Insight](../../../sites/authoring/using/content-insights.md) in the standard authoring documentation for details.
+>Content Insight is only available from the touch-optimized UI. See [Content Insight](/help/sites/authoring/using/content-insights.md) in the standard authoring documentation for details.
 

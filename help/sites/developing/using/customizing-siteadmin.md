@@ -52,7 +52,7 @@ The sample implementation below:
 
 To create the OSGI service:
 
-1. In CRXDE Lite, [create a bundle](../../../sites/developing/using/developing-with-crxde-lite.md#managing-a-bundle).
+1. In CRXDE Lite, [create a bundle](/help/sites/developing/using/developing-with-crxde-lite.md#managing-a-bundle).
 1. Add the sample code below.
 1. Build the bundle.
 

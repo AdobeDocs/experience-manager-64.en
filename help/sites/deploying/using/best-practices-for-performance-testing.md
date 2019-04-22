@@ -49,9 +49,9 @@ There are many commercially available performance testing tools on the market. W
 
 #### Testing Tools {#testing-tools}
 
-* Adobe’s **Tough Day** tool can be used to generate load on AEM instances and collect performance data. Adobe’s AEM engineering team actually uses the tool to do load testing of the AEM product itself. The scripts executed in Tough Day are configured via property files and JMX XML files. For more information, see the [Tough Day documentation](../../../sites/developing/using/tough-day.md).
+* Adobe’s **Tough Day** tool can be used to generate load on AEM instances and collect performance data. Adobe’s AEM engineering team actually uses the tool to do load testing of the AEM product itself. The scripts executed in Tough Day are configured via property files and JMX XML files. For more information, see the [Tough Day documentation](/help/sites/developing/using/tough-day.md).
 
-* AEM provides out of the box tools to quickly see problematic queries, requests and error messages. For more information, see the [Diagnosis Tools](../../../sites/administering/using/operations-dashboard.md#diagnosis-tools) section of the Operations Dashboard documentation.
+* AEM provides out of the box tools to quickly see problematic queries, requests and error messages. For more information, see the [Diagnosis Tools](/help/sites/administering/using/operations-dashboard.md#diagnosis-tools) section of the Operations Dashboard documentation.
 * Apache provides a product called **JMeter** that can be used for performance and load testing as well as functional behavior. It is open source software and free to use, but has a smaller feature set than enterprise products and a steeper learning curve. JMeter can be found on Apache’s website at [https://jmeter.apache.org/](https://jmeter.apache.org/)
 
 * **Load Runner** is an enterprise grade load testing product. A free evaluation version is available. More information can be found at [https://www.microfocus.com/en-us/products/loadrunner-load-testing/overview](https://www.microfocus.com/en-us/products/loadrunner-load-testing/overview)
@@ -67,7 +67,7 @@ There are many commercially available performance testing tools on the market. W
 
 **Monitoring**
 
-The [Monitoring Performance](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance) documentation is a good resource for tools and methods that can be used to diagnose issue and pinpoint areas for tuning.
+The [Monitoring Performance](/help/sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance) documentation is a good resource for tools and methods that can be used to diagnose issue and pinpoint areas for tuning.
 
 **Developer Mode in Touch UI**
 
@@ -75,11 +75,11 @@ One of the new features in AEM 6’s touch UI is the Developer Mode. Just as aut
 
 **Using the rlog.jar to read the request logs**
 
-For a more comprehensive analysis of the request logs on an AEM system, `rlog.jar` can be used to search through and sort the `request.log` files that AEM generates. This jar file is included with an AEM installation in the `/crx-quickstart/opt/helpers` folder. For more information on rlog tool and the request log in general, see the [Monitoring and Maintaining](../../../sites/deploying/using/monitoring-and-maintaining.md) documentation.
+For a more comprehensive analysis of the request logs on an AEM system, `rlog.jar` can be used to search through and sort the `request.log` files that AEM generates. This jar file is included with an AEM installation in the `/crx-quickstart/opt/helpers` folder. For more information on rlog tool and the request log in general, see the [Monitoring and Maintaining](/help/sites/deploying/using/monitoring-and-maintaining.md) documentation.
 
 **The Explain Query Tool**
 
-The [Explain Query tool](../../../sites/administering/using/operations-dashboard.md#explain-query) in ACS AEM Tools can be used to view the indexes that are used when running a query. This can be very useful when optimizing slow running queries.
+The [Explain Query tool](/help/sites/administering/using/operations-dashboard.md#explain-query) in ACS AEM Tools can be used to view the indexes that are used when running a query. This can be very useful when optimizing slow running queries.
 
 **PageSpeed Tools  
 **
@@ -94,11 +94,11 @@ In order to conduct performance testing on the author environment it is necessar
 
 There are many automation frameworks available that are designed for performance and load testing. Custom scripts can be recorded in these tools and then played back to simulate a peak number of authors performing similar content creation and activation activities simultaneously. It is recommended you use the Tough Day tool to simulate activities like uploading thousands of assets or activating large numbers of pages.
 
-For the types of environments that have requirements of heavy asset loading or page authoring it is imperative to use tools like Tough Day in order to ensure that the environment will operate efficiently under peak load. [WebDAV](../../../sites/administering/using/webdav-access.md) is a tool that does not require scripting and can also be used to load large amounts of assets.
+For the types of environments that have requirements of heavy asset loading or page authoring it is imperative to use tools like Tough Day in order to ensure that the environment will operate efficiently under peak load. [WebDAV](/help/sites/administering/using/webdav-access.md) is a tool that does not require scripting and can also be used to load large amounts of assets.
 
 #### MongoDB Specific Steps {#mongodb-specific-steps}
 
-On systems with MongoDB backends, AEM provides several [JMX](../../../sites/administering/using/jmx-console.md) MBeans that need to be monitored when performing load or performance tests:
+On systems with MongoDB backends, AEM provides several [JMX](/help/sites/administering/using/jmx-console.md) MBeans that need to be monitored when performing load or performance tests:
 
 * The **Consolidated Cache Statistics** MBean. It can be accessed directly by going to:
 
@@ -110,7 +110,7 @@ For the cache named **Document-Diff**, the hit rate should be over `.90`. If the
 
 `https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D16%2Cname%3D%22Oak+Repository+Statistics%22%2Ctype%3D%22RepositoryStats%22`
 
-The **ObservationQueueMaxLength** section will show the number of events in Oak’s observation queue over the last hours, minutes, seconds and weeks. Find the largest number of events in the "per hour" section. This number needs to be compared to the `oak.observation.queue-length` setting which can be found in the **SlingRepositoryManager** component in the [OSGi console](../../../sites/deploying/using/configuring-web-console.md). If the highest number shown for the observation queue exceeds the `queue-length` setting, contact Adobe Support for assistance with raising the setting. The default setting is 1,000, but most deployments usually need to raise it to 20,000 or 50,000.
+The **ObservationQueueMaxLength** section will show the number of events in Oak’s observation queue over the last hours, minutes, seconds and weeks. Find the largest number of events in the "per hour" section. This number needs to be compared to the `oak.observation.queue-length` setting which can be found in the **SlingRepositoryManager** component in the [OSGi console](/help/sites/deploying/using/configuring-web-console.md). If the highest number shown for the observation queue exceeds the `queue-length` setting, contact Adobe Support for assistance with raising the setting. The default setting is 1,000, but most deployments usually need to raise it to 20,000 or 50,000.
 
 ## Publish Environment {#publish-environment}
 
@@ -124,19 +124,19 @@ Most production websites have optimizations in place like dispatcher caching and
 
 On a system that does not require a high level of personalization, the dispatcher should cache most requests. As a result, the load on the publish instance should remain relatively flat. If a high level of personalization is required, it is recommended to use technologies such as iFrames or AJAX requests for the personalized content so as to allow as much dispatcher caching as possible.
 
-For basic tests, Apache Bench can be used to measure web server response times and help to create load for measuring things like memory leaks. For more see the example in the [Monitoring documentation](../../../sites/deploying/using/monitoring-and-maintaining.md#apache-bench).
+For basic tests, Apache Bench can be used to measure web server response times and help to create load for measuring things like memory leaks. For more see the example in the [Monitoring documentation](/help/sites/deploying/using/monitoring-and-maintaining.md#apache-bench).
 
 ## Troubleshooting Performance Issues {#troubleshooting-performance-issues}
 
 After running performance tests on the author instance, any issues will need to be investigated, diagnosed and addressed. You can use several tools and techniques when performing analysis and addressing issues:
 
-* You can inspect the [Request Performance log](../../../sites/administering/using/operations-dashboard.md#request-performance) in the Operations Dashboard. This tool can be used to identify slow page requests
-* Analyze slow running queries with the [Query Performance tool](../../../sites/administering/using/operations-dashboard.md#query-performance)  
+* You can inspect the [Request Performance log](/help/sites/administering/using/operations-dashboard.md#request-performance) in the Operations Dashboard. This tool can be used to identify slow page requests
+* Analyze slow running queries with the [Query Performance tool](/help/sites/administering/using/operations-dashboard.md#query-performance)  
 
-* Watch the error lof for errors or warnings. For more information, see [Logging](../../../sites/deploying/using/configure-logging.md)
+* Watch the error lof for errors or warnings. For more information, see [Logging](/help/sites/deploying/using/configure-logging.md)
 * Monitor system hardware resources such as memory and CPU utilization, disk I/O or network I/O. These resources are often the causes of performance bottlenecks
 * Optimize the architecture of the pages and how they are addressed to minimize the usage of URL parameters to allow for as much caching as possible
-* Follow the [Performance Optimization](../../../sites/deploying/using/configuring-performance.md) and [Performance tuning tips](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html) documentation
+* Follow the [Performance Optimization](/help/sites/deploying/using/configuring-performance.md) and [Performance tuning tips](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html) documentation
 
 * If issues are present with editing certain pages or components on author instances, use the TouchUI Developer Mode to inspect the page in question. This will provide a breakdown of each content area on the page as well as its load time
 * Minify all JS and CSS on the site. For more information on how to do this, see this [blog post](https://blogs.adobe.com/foxes/enable-js-and-css-minification/).

@@ -12,24 +12,24 @@ discoiquuid: 7383265b-0ed4-4ea7-b741-0a417d187bdd
 
 # Repository Restructuring for AEM Communities in 6.4{#repository-restructuring-for-aem-communities-in}
 
-As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM Communities Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
+As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM Communities Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
 
 **With 6.4 Upgrade**
 
-* [E-mail Notification Templates](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#e-mail-notification-templates)
-* [Subscription Configurations](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#subscription-configurations)
+* [E-mail Notification Templates](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#e-mail-notification-templates)
+* [Subscription Configurations](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#subscription-configurations)
 
 **Prior to 6.5 Upgrade**
 
-* [Badging Configurations](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#badging-configurations)
-* [Classic Communities Console Designs](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#classic-communities-console-designs)
-* [Facebook Social Login Configurations](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#facebook-social-login-configurations)
-* [Language Options Configurations](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#language-options-configurations)  
+* [Badging Configurations](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#badging-configurations)
+* [Classic Communities Console Designs](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#classic-communities-console-designs)
+* [Facebook Social Login Configurations](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#facebook-social-login-configurations)
+* [Language Options Configurations](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#language-options-configurations)  
 
-* [Pinterest Social Login Configurations](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#pinterest-social-login-configurations)
-* [Scoring Configurations](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#scoring-configurations)
-* [Twitter Social Login Configurations](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#twitter-social-login-configurations)
-* [Misc](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#misc)
+* [Pinterest Social Login Configurations](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#pinterest-social-login-configurations)
+* [Scoring Configurations](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#scoring-configurations)
+* [Twitter Social Login Configurations](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#twitter-social-login-configurations)
+* [Misc](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md#misc)
 
 ## With 6.4 Upgrade {#with-upgrade}
 

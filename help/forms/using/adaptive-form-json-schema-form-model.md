@@ -15,7 +15,7 @@ discoiquuid: bcda96ff-6c7d-46c4-a9e8-7e0fb245cde9
 
 Authoring an adaptive form using an JSON Schema as its form model requires basic understanding of JSON Schema. It is recommended to read through the following content before this article.
 
-* [Creating an adaptive form](../../forms/using/creating-adaptive-form.md)
+* [Creating an adaptive form](/help/forms/using/creating-adaptive-form.md)
 * [JSON Schema](https://json-schema.org/)
 
 ## Using a JSON Schema as form model  {#using-a-json-schema-as-form-model}

@@ -216,7 +216,7 @@ Some of the key highlights of AEM 6.4.4.0 are:
 
 >[!NOTE]
 >
->AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on](../release-notes/sp-release-notes.md#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](../release-notes/sp-release-notes.md#forms-jee-installer).
+>AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on](/help/release-notes/sp-release-notes.md#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](/help/release-notes/sp-release-notes.md#forms-jee-installer).
 
 The key highlights for AEM 6.4.4.0 forms are:
 
@@ -563,9 +563,9 @@ The key highlights for AEM 6.4.4.0 forms are:
   <li>The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.7.</li> 
   <li>Added support for HTML Template Language (HTL) Specification 1.4 features</li> 
   <li>Added support for MongoDB Enterprise 3.6.</li> 
-  <li>The Sites Page Editor adds support for in-context editing and composition with client-side components build in React or Angular in combination with <a href="../sites/developing/using/spa-walkthrough.md">AEM's SPA Editor JS SDK</a>. </li> 
+  <li>The Sites Page Editor adds support for in-context editing and composition with client-side components build in React or Angular in combination with <a href="/help/sites/developing/using/spa-walkthrough.md">AEM's SPA Editor JS SDK</a>. </li> 
   <li>Content Fragments enhancements: added the capability to annotate in text fields, and side-by-side comparison of versions.</li> 
-  <li>Added <a href="../assets/using/aem-assets-adobe-stock.md" target="_blank">integration with Adobe Stock</a> so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see <a href="https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html">https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html</a>.</li> 
+  <li>Added <a href="/help/assets/using/aem-assets-adobe-stock.md" target="_blank">integration with Adobe Stock</a> so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see <a href="https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html">https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html</a>.</li> 
   <li>Assets added support for dynamic conditional 
    <g class="gr_ gr_33 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" data-gr-id="33" id="33">
      metaschema and the a 
@@ -626,7 +626,7 @@ The key highlights for AEM 6.4.4.0 forms are:
   <li>Publish later functionality for AEM to Brand Portal replication. NPR-25911: Hotfix for CQ-109139</li> 
   <li>Publishing and un-publishing the private collection by non-admin users results in a NPE. NPR-25906: Hotfix for CQ-4250594</li> 
   <li>Disable publish of content fragment and forms schemas to Brand Portal. NPR-24176, NPR-26004: Hotfix for CQ-4251592, CQ-4252026</li> 
-  <li>[Dynamic Media] Updated DM viewers to 5.10.1 release which enables check for duplicate names on Image Preset page. Refer to <a href="../release-notes/sp-release-notes.md#update-dynamic-media-viewers">Update Dynamic Media Viewers (5.10.1)</a>. NPR-24403: Hotfix for CQ-4247554</li> 
+  <li>[Dynamic Media] Updated DM viewers to 5.10.1 release which enables check for duplicate names on Image Preset page. Refer to <a href="/help/release-notes/sp-release-notes.md#update-dynamic-media-viewers">Update Dynamic Media Viewers (5.10.1)</a>. NPR-24403: Hotfix for CQ-4247554</li> 
   <li>Javascript error in browser console in column view on selecting an asset or folder. NPR-25939: Hotfix for CQ-4250228</li> 
   <li>[Column view] Unable to identify tasks as the key file shows up as blank white entry. NPR-25903: Hotfix for CQ-4246307</li> 
  </ul> 
@@ -645,7 +645,7 @@ The key highlights for AEM 6.4.4.0 forms are:
   <li>ON/OFF time is stored in crx/de but doesn't fetch the same in page properties UI console. NPR-25154: Hotfix for CQ-4243431</li> 
   <li>Styles System breaks dialog's initial properties values. NPR-25648: Hotfix for CQ-4250073</li> 
   <li>When defining a cq:tagName property in a cq:htmlTag node, the tag name is not considered if the component is included via JSP. NPR-24154: Hotfix for CQ-4244120</li> 
-  <li>For a nested parsys components, always the first (with least nested path) satisfying design is applied from multiple available components. For more information, see <a href="../sites/developing/using/page-templates-static.md">Design Path Resolution</a>. NPR-24973: Hotfix for CQ-4246276</li> 
+  <li>For a nested parsys components, always the first (with least nested path) satisfying design is applied from multiple available components. For more information, see <a href="/help/sites/developing/using/page-templates-static.md">Design Path Resolution</a>. NPR-24973: Hotfix for CQ-4246276</li> 
   <li>When pasting text into an RTE component, a pop-up dialog is displayed, but not rendered properly. NPR-24895: Hotfix for CQ-4245901</li> 
   <li>[RTE] Performance issues with mandatory field indicator. NPR-24894: Hotfix for CQ-4241895</li> 
   <li>[Page component] Adding a component to Parsys gets cropped off from right and comes out the device frame width. NPR-25536: Hotfix for CQ-4238224</li> 
@@ -862,7 +862,7 @@ The key highlights for AEM 6.4.4.0 forms are:
   <li>Added capability for the user to use the same WSDL file for multiple service.</li> 
   <li>Removed the unsupported timestamp pattern from the datepicker dropdown.</li> 
   <li>Added support for underlaying xfaf and pdf in OSGI.</li> 
-  <li>Added support to use the <a href="../forms/using/transaction-reports-overview.md">transaction reports capability</a> at on-premise deployments.<br /> </li> 
+  <li>Added support to use the <a href="/help/forms/using/transaction-reports-overview.md">transaction reports capability</a> at on-premise deployments.<br /> </li> 
   <li>Added code to not display child var in condition rule editor.</li> 
  </ul> 
  <h3>Forms add-on package</h3> 
@@ -874,7 +874,7 @@ The key highlights for AEM 6.4.4.0 forms are:
  </ul> 
  <h4>Forms - Workflow</h4> 
  <ul> 
-  <li>[HTML Workspace] When a user claims a task, count of queue is refreshed for that particular user but not for other users unless the page is refreshed. This issue has been fixed by a new property. To configure this new property to your AEM instance, refer to <a href="../release-notes/sp-release-notes.md#configuration-settings-required-for-npr">Configuration Settings</a>. NPR-24536: Hotfix for CQ-4233665</li> 
+  <li>[HTML Workspace] When a user claims a task, count of queue is refreshed for that particular user but not for other users unless the page is refreshed. This issue has been fixed by a new property. To configure this new property to your AEM instance, refer to <a href="/help/release-notes/sp-release-notes.md#configuration-settings-required-for-npr">Configuration Settings</a>. NPR-24536: Hotfix for CQ-4233665</li> 
   <li>Unable to load large form in the AEM Forms App on 6.4. NPR-24463: Hotfix for CQ-4245091</li> 
   <li>Issue in Mobile Workspace App when trying to view the shared task. NPR-25177: Hotfix for CQ-4248733</li> 
   <li>Inconsistent validation Behavior between Web and APK. NPR-25670: Hotfix for CQ-4248178</li> 
@@ -962,17 +962,17 @@ The key highlights for AEM 6.4.4.0 forms are:
  <h3>Feature Packs Included</h3> 
  <h4>Assets</h4> 
  <ul> 
-  <li style="font-size: 16px;">Added <a href="../assets/using/aem-assets-adobe-stock.md">integration with Adobe Stock</a> so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see <a href="https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html">https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html</a>. NPR-15779: Hotfix for CQ-30857</li> 
-  <li>Added support for dynamic conditional metaschema. For more information, see <a href="../assets/using/cascading-metadata.md">Cascading Metadata</a>. NPR-25189: Hotfix for CQ-4237413</li> 
-  <li>Enabled "Asset Download" option on Content Fragments. For more information, see <a href="../assets/using/asset-reports.md">Asset Reports</a>. NPR-25186: Hotfix for CQ-4237410</li> 
-  <li>Ability to set a metadata schema for asset folders. For more information, see <a href="../assets/using/folder-metadata-schema.md">Folder Metadata Schema</a> and refer to its <a href="../release-notes/sp-release-notes.md#configuration-settings-required-for-npr">Configuration Settings</a> post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574</li> 
+  <li style="font-size: 16px;">Added <a href="/help/assets/using/aem-assets-adobe-stock.md">integration with Adobe Stock</a> so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see <a href="https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html">https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html</a>. NPR-15779: Hotfix for CQ-30857</li> 
+  <li>Added support for dynamic conditional metaschema. For more information, see <a href="/help/assets/using/cascading-metadata.md">Cascading Metadata</a>. NPR-25189: Hotfix for CQ-4237413</li> 
+  <li>Enabled "Asset Download" option on Content Fragments. For more information, see <a href="/help/assets/using/asset-reports.md">Asset Reports</a>. NPR-25186: Hotfix for CQ-4237410</li> 
+  <li>Ability to set a metadata schema for asset folders. For more information, see <a href="/help/assets/using/folder-metadata-schema.md">Folder Metadata Schema</a> and refer to its <a href="/help/release-notes/sp-release-notes.md#configuration-settings-required-for-npr">Configuration Settings</a> post AEM 6.4.2.0 installation. NPR-21268: Hotfix for CQ-4221574</li> 
  </ul> 
  <h4>Sites</h4> 
  <ul> 
-  <li>Allow editing a content fragment without delete permissions. For more information, see <a href="../sites/developing/using/customizing-content-fragments.md#asset-permissions">Customizing and Extending Content Fragments</a>. NPR-25793: Hotfix for CQ-4248750</li> 
-  <li>Added the capability to annotate Content Fragments. For more information, see <a href="../assets/using/content-fragments-variations.md#annotating-a-content-fragment" target="_blank">Variations-Authoring Fragments</a>. NPR-25188: Hotfix for CQ-4235336</li> 
-  <li>Versioning: Compare Content Fragments Side-by-Side. For more information, see <a href="../assets/using/content-fragments-managing.md#comparing-fragment-versions">Managing Content Fragments</a>. NPR-25187: Hotfix for CQ-4237412</li> 
-  <li>Image Editor enhancements backported to AEM 6.4.2.0. For more information, see <a href="../sites/developing/using/image-editor.md">Image Editor</a>. NPR-24467</li> 
+  <li>Allow editing a content fragment without delete permissions. For more information, see <a href="/help/sites/developing/using/customizing-content-fragments.md#asset-permissions">Customizing and Extending Content Fragments</a>. NPR-25793: Hotfix for CQ-4248750</li> 
+  <li>Added the capability to annotate Content Fragments. For more information, see <a href="/help/assets/using/content-fragments-variations.md#annotating-a-content-fragment" target="_blank">Variations-Authoring Fragments</a>. NPR-25188: Hotfix for CQ-4235336</li> 
+  <li>Versioning: Compare Content Fragments Side-by-Side. For more information, see <a href="/help/assets/using/content-fragments-managing.md#comparing-fragment-versions">Managing Content Fragments</a>. NPR-25187: Hotfix for CQ-4237412</li> 
+  <li>Image Editor enhancements backported to AEM 6.4.2.0. For more information, see <a href="/help/sites/developing/using/image-editor.md">Image Editor</a>. NPR-24467</li> 
  </ul> 
  <h3>OSGI Bundles and Content Packages Included</h3> 
  <div> 
@@ -1209,7 +1209,7 @@ The key highlights for AEM 6.4.4.0 forms are:
  <p>AEM Forms fixes are delivered through add-on packages and other patch installers provided with the release. For details, see AEM Forms Releases.</p> 
  <p>The key highlights for AEM Forms are:</p> 
  <ul> 
-  <li>AEM Forms introduces <a href="../forms/using/transaction-reports-overview.md" target="_blank">transaction reports capability</a> to track and keep count of transactions like submitted forms, processed documents, and rendered documents on your AEM Forms deployment. It provides insights about product usage and helps business users understand digital processing volumes.<br /> </li> 
+  <li>AEM Forms introduces <a href="/help/forms/using/transaction-reports-overview.md" target="_blank">transaction reports capability</a> to track and keep count of transactions like submitted forms, processed documents, and rendered documents on your AEM Forms deployment. It provides insights about product usage and helps business users understand digital processing volumes.<br /> </li> 
   <li>Enabled PDF/UA support to XML forms.</li> 
   <li>Added allowProxy = true for Clientlib <strong>aemfd.ccm.channel.contentpage</strong></li> 
   <li>Updated code to make advanced title search as contains rather than equal.</li> 
@@ -1377,11 +1377,11 @@ The key highlights for AEM 6.4.4.0 forms are:
  <h4>Assets</h4> 
  <ul> 
   <li>Added the capability for Enhanced Smart Tags. For more information, see <a href="https://helpx.adobe.com/experience-manager/6-4/assets/using/enhanced-smart-tags.html">Enhanced Smart Tags</a>. NPR-21951: Hotfix for CQ-4234883</li> 
-  <li>Introduced AEM Assets References in InDesign. For more information, see <a href="../assets/using/managing-linked-subassets.md">AEM Assets References in InDesign</a>. NPR-23386</li> 
+  <li>Introduced AEM Assets References in InDesign. For more information, see <a href="/help/assets/using/managing-linked-subassets.md">AEM Assets References in InDesign</a>. NPR-23386</li> 
  </ul> 
  <h4>Sites</h4> 
  <ul> 
-  <li>[Page Authoring] Image Editor enhancements. For more information, see <a href="../sites/developing/using/image-editor.md">Image Editor</a>. NPR-24267: Hotfix for CQ-4245502</li> 
+  <li>[Page Authoring] Image Editor enhancements. For more information, see <a href="/help/sites/developing/using/image-editor.md">Image Editor</a>. NPR-24267: Hotfix for CQ-4245502</li> 
  </ul> 
  <h3>OSGI bundles and content packages included</h3> 
  <p>The following text documents the list of OSGI bundles and content packages included in the CFP.</p> 
@@ -1407,7 +1407,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 >
 >For customers with Feature Packs installed on AEM 6.4. Optional Feature Packs provided by Adobe have dependencies on the release version and service pack. If you have any Feature Pack installed, please contact the AEM Customer Care team to validate the compatibility of those feature packs with this service pack for AEM 6.4.
 
-* AEM 6.4.4.0 requires AEM 6.4. Please visit [upgrade documentation](../sites/deploying/using/upgrade.md) for detailed instructions. 
+* AEM 6.4.4.0 requires AEM 6.4. Please visit [upgrade documentation](/help/sites/deploying/using/upgrade.md) for detailed instructions. 
 * The Service Pack download is available on Adobe Package Share, which you can access directly from the AEM 6.4 instance.
 * On a deployment with MongoDB and multiple instances, AEM 6.4.4.0 has to be installed on one of the Author instances using the Package Manager.
 * Before installing the service pack, ensure to:
@@ -1449,7 +1449,7 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
 1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.11 or higher (Use Web Console: /system/console/bundles).
 
-To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites/deploying/using/technical-requirements.md).
+To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](/help/sites/deploying/using/technical-requirements.md).
 
 >[!Note]
 >On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-4 Installed successfully."**
@@ -1512,7 +1512,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 The Uber Jar for AEM 6.4.4.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.3/).
 
-To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites/developing/using/ht-projects-maven.md) and include the following dependency in your project POM:
+To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](/help/sites/developing/using/ht-projects-maven.md) and include the following dependency in your project POM:
 
 ```shell
 <dependency>
@@ -1559,7 +1559,7 @@ List of Content Packages included in AEM 6.4.4.0
 
 ## Helpful resources {#helpful-resources}
 
-* [AEM 6.4 release notes](../release-notes/release-notes.md)
+* [AEM 6.4 release notes](/help/release-notes/release-notes.md)
 * [AEM product page](https://www.adobe.com/solutions/web-experience-management.html)
 * [AEM developer support](https://docs.adobe.com/content/ddc/en.html)
 * [AEM 6.4 documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)

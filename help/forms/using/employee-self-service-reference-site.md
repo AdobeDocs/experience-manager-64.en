@@ -13,7 +13,7 @@ discoiquuid: d2695f71-5126-477c-ae6b-a964fb55728b
 
 ## Prerequisite {#prerequisite}
 
-Set up the reference sites as described in [Set up and configure AEM Forms reference sites](../../forms/using/setup-reference-sites.md).
+Set up the reference sites as described in [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).
 
 ## Overview {#overview}
 

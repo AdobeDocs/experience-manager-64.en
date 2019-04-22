@@ -17,7 +17,7 @@ The *global document storage (GDS)* directory is a directory used to store long-
 
 Long-lived files may contain sensitive user information. This information may require special credentials when accessed by using the AEM forms APIs or user interfaces. It is important that the GDS directory is properly secured through the operating system. Only the administrator account that is used to run the application server should have read/write access to the GDS directory.
 
-In addition to selecting a secure, highly available directory for GDS, you can also choose to enable document storage in the database. Notice that even with using the AEM forms database for document storage, AEM forms still requires the GDS directory. (See [Backup options when database is used for document storage](../../../forms/using/admin-help/files-back-recover.md#backup-options-when-database-is-used-for-document-storage).)
+In addition to selecting a secure, highly available directory for GDS, you can also choose to enable document storage in the database. Notice that even with using the AEM forms database for document storage, AEM forms still requires the GDS directory. (See [Backup options when database is used for document storage](/help/forms/using/admin-help/files-back-recover.md#backup-options-when-database-is-used-for-document-storage).)
 
 AEM forms application data resides in the GDS directory and the AEM forms database. The following table describes the data and its locations.
 

@@ -71,7 +71,7 @@ In the following sections we use the example of a new page `b`, created in both 
 
 The rollout manager allows you to activate or deactivate conflict management.
 
-This is done using [OSGi configuration](../../../sites/deploying/using/configuring-osgi.md) of **Day CQ WCM Rollout Manager**:
+This is done using [OSGi configuration](/help/sites/deploying/using/configuring-osgi.md) of **Day CQ WCM Rollout Manager**:
 
 * **Handle conflict with manually created Pages**:  
   ( `rolloutmgr.conflicthandling.enabled`)  
@@ -150,7 +150,7 @@ Customized conflict handlers can:
 
 * Be named according to your requirements. ``
 * Be developed/configured according to your requirements; for example, you can develop a handler so that the live copy page is given precedence.
-* Can be designed to be configured using the [OSGi configuration](../../../sites/deploying/using/configuring-osgi.md); in particular the:
+* Can be designed to be configured using the [OSGi configuration](/help/sites/deploying/using/configuring-osgi.md); in particular the:
 
     * **Service Ranking**:  
       Defines the order related to other conflict handlers ( `service.ranking`).  

@@ -18,5 +18,5 @@ The Components console allows you to browse through all components defined for y
 
 >[!CAUTION]
 >
->The **Components** **Console** is not available in the classic UI. See [Components Console](../../../sites/authoring/using/default-components-console.md) in the standard authoring documentation for details.
+>The **Components** **Console** is not available in the classic UI. See [Components Console](/help/sites/authoring/using/default-components-console.md) in the standard authoring documentation for details.
 

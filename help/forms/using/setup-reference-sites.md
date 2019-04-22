@@ -95,12 +95,12 @@ Perform the following steps in the recommended sequence to set up and configure 
    <td>Deploy reference sites packages on AEM Forms author instance.</td> 
   </tr> 
   <tr> 
-   <td><a href="../../forms/using/setup-reference-sites.md#optional-import-sample-data-into-microsoft-dynamics">Import sample data into Microsoft Dynamics</a></td> 
+   <td><a href="/help/forms/using/setup-reference-sites.md#optional-import-sample-data-into-microsoft-dynamics">Import sample data into Microsoft Dynamics</a></td> 
    <td>Author and Publish</td> 
    <td>Import sample data for credit card application, home mortgage application, and home insurance application walkthrough</td> 
   </tr> 
   <tr> 
-   <td><a href="../../forms/using/setup-reference-sites.md#configure-oauth-cloud-service-for-microsoft-dynamics">Configure OAuth cloud service for Microsoft Dynamics</a></td> 
+   <td><a href="/help/forms/using/setup-reference-sites.md#configure-oauth-cloud-service-for-microsoft-dynamics">Configure OAuth cloud service for Microsoft Dynamics</a></td> 
    <td>Author and Publish</td> 
    <td>Configure the OAuth cloud service in AEM Forms to enable communication between AEM Forms and Microsoft Dynamics. </td> 
   </tr> 
@@ -129,7 +129,7 @@ Perform the following steps in the recommended sequence to set up and configure 
 
 ## Install and configure AEM Forms {#install-and-configure-aem-forms}
 
-Install and deploy AEM Forms as described in [Installing and configuring AEM Forms on OSGi](../../forms/using/installing-configuring-aem-forms-osgi.md).
+Install and deploy AEM Forms as described in [Installing and configuring AEM Forms on OSGi](/help/forms/using/installing-configuring-aem-forms-osgi.md).
 
 >[!NOTE]
 >
@@ -137,7 +137,7 @@ Install and deploy AEM Forms as described in [Installing and configuring AEM For
 
 ## Configure SSL {#ssl}
 
-SSL configuration is required to communicate with Adobe Sign servers. For detailed steps, see [Enabling HTTP Over SSL](../../sites/administering/using/ssl-by-default.md).
+SSL configuration is required to communicate with Adobe Sign servers. For detailed steps, see [Enabling HTTP Over SSL](/help/sites/administering/using/ssl-by-default.md).
 
 >[!CAUTION]
 >
@@ -145,7 +145,7 @@ SSL configuration is required to communicate with Adobe Sign servers. For detail
 
 ## Configure Day CQ Link Externalizer configuration {#externalizer}
 
-In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](../../sites/developing/using/externalizer.md).
+In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](/help/sites/developing/using/externalizer.md).
 
 >[!CAUTION]
 >
@@ -168,7 +168,7 @@ Perform the following steps on both author and publish instances:
 
 ## Configure Day CQ Mail Service {#cqmail}
 
-Reference site implementation requires emails to be sent to sample users when they fill and submit forms. Configuring Day CQ Mail Service lets you provide SMTP service details to send automated emails to customers. See [Configuring Email Notifications](../../sites/administering/using/notification.md).
+Reference site implementation requires emails to be sent to sample users when they fill and submit forms. Configuring Day CQ Mail Service lets you provide SMTP service details to send automated emails to customers. See [Configuring Email Notifications](/help/sites/administering/using/notification.md).
 
 Perform the following steps to configure mail service on the publish instance:
 
@@ -199,7 +199,7 @@ After configuring the SMTP server, try to fill a form using the Sarah Rose perso
 
 ## Configure AEM DS settings {#aemds}
 
-AEM DS Service settings are required on the Publish instance for email communications in the reference site use cases. For detailed steps to configure AEM DS Service setup on the Publish instance, see [Configure AEM DS settings](../../forms/using/configuring-the-processing-server-url-.md).
+AEM DS Service settings are required on the Publish instance for email communications in the reference site use cases. For detailed steps to configure AEM DS Service setup on the Publish instance, see [Configure AEM DS settings](/help/forms/using/configuring-the-processing-server-url-.md).
 
 For AEM Forms reference sites, in the AEM DS Settings Service, specify URL of the publish server instead of the URL of the processing server.
 
@@ -214,7 +214,7 @@ Install the following reference sites packages using package share.
 * [AEM-FORMS-6.4-FSI-REF-SITE](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-FSI-REF-SITE)
 * [AEM-FORMS-6.4-GOV-REF-SITE](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-GOV-REF-SITE )
 
-To learn more about how to use packages and package share, see [How to Work With Packages](../../sites/administering/using/package-manager.md).
+To learn more about how to use packages and package share, see [How to Work With Packages](/help/sites/administering/using/package-manager.md).
 
 After you have installed the packages and started the author and publish instances, visit the following URLs in your browser:
 
@@ -324,14 +324,14 @@ Do the following to configure Adobe Analytics and Adobe Target in AEM Forms.
 
 AEM Forms integration with Adobe Analytics allows you to monitor and analyze how your customers interact with your forms and documents. It helps you identify and fix problem areas and act to increase the conversion rate.
 
-To experience this functionality in reference site, configure your Analytics account as described in [Configuring analytics and reports](../../forms/using/configure-analytics-forms-documents.md).
+To experience this functionality in reference site, configure your Analytics account as described in [Configuring analytics and reports](/help/forms/using/configure-analytics-forms-documents.md).
 
 To generate a report, seed data is bundled with the reference sites. Before you use seed data, do the following:
 
 1. Ensure that We.Finance and We.Gov analytics configurations are available in the AEM Cloud Services. You can find cloud services in one of the following ways:
 
     * Navigate to **[!UICONTROL Tools>Cloud Services>Legacy Cloud Services]** or browse to https://&lt;host&gt;:&lt;port&gt;/libs/cq/core/content/tools/cloudservices.html.
-    * In the **[!UICONTROL Cloud Services]** page, under **[!UICONTROL Adobe Analytics]** section, click `Show Configurations`. You can see We.Finance and We.Gov configurations available. Click to open the configuration. In the configuration page, click **[!UICONTROL Edit]**. Provide valid Company, Username, Shared Secret (Password) and Data Center and click **[!UICONTROL Connect to Analytics]**. Once you get Connection successful dialog, click **[!UICONTROL OK]** on the configuration dialog. Configure the framework under the Analytics configuration as described in the [Configuring Analytics and Reports](../../forms/using/configure-analytics-forms-documents.md).
+    * In the **[!UICONTROL Cloud Services]** page, under **[!UICONTROL Adobe Analytics]** section, click `Show Configurations`. You can see We.Finance and We.Gov configurations available. Click to open the configuration. In the configuration page, click **[!UICONTROL Edit]**. Provide valid Company, Username, Shared Secret (Password) and Data Center and click **[!UICONTROL Connect to Analytics]**. Once you get Connection successful dialog, click **[!UICONTROL OK]** on the configuration dialog. Configure the framework under the Analytics configuration as described in the [Configuring Analytics and Reports](/help/forms/using/configure-analytics-forms-documents.md).
 
 1. Navigate to https://&lt;*host*&gt;:&lt;*port*&gt;/system/console/configMgr and do the following:
 
@@ -345,7 +345,7 @@ To generate a report, seed data is bundled with the reference sites. Before you 
     * Open the We.Finance or We.Gov folder, and select the form for which you want to see the report.
     * Click Enable Analytics in the Actions Toolbar. After you have enabled analytics for the form, click Analytics Report. You can see a blank report generated. After a blank report is generated, you have to provide seed data shipped with refsite package to generate analytics report for demo purpose.
 
-   Reference sites provide analytics reporting with seed data for credit card, home mortgage, and child support use cases. For configuration of seed data, see [We.Finance reference site walkthrough](../../forms/using/finance-reference-site-walkthrough.md) and [We.Gov reference site walkthrough](../../forms/using/gov-reference-site-walkthrough.md).
+   Reference sites provide analytics reporting with seed data for credit card, home mortgage, and child support use cases. For configuration of seed data, see [We.Finance reference site walkthrough](/help/forms/using/finance-reference-site-walkthrough.md) and [We.Gov reference site walkthrough](/help/forms/using/gov-reference-site-walkthrough.md).
 
 ### Configure Target {#configure-target}
 
@@ -372,14 +372,14 @@ To experience the integration in the reference site, do the following to configu
 
 1. Click **[!UICONTROL Save]**.
 
-Credit Card Application and Home Mortgage Application use cases demonstrate how to perform A/B testing and showcase a report for demo purpose. For walkthroughs, see [We.Finance reference site walkthrough](../../forms/using/finance-reference-site-walkthrough.md).
+Credit Card Application and Home Mortgage Application use cases demonstrate how to perform A/B testing and showcase a report for demo purpose. For walkthroughs, see [We.Finance reference site walkthrough](/help/forms/using/finance-reference-site-walkthrough.md).
 
 ## Next step {#next-step}
 
 Now you are all set to explore the reference site. For more information about reference site workflow and steps, see:
 
-* [We.Finance reference site walkthrough](../../forms/using/finance-reference-site-walkthrough.md)
-* [We.Gov reference site walkthrough](../../forms/using/gov-reference-site-walkthrough.md)  
+* [We.Finance reference site walkthrough](/help/forms/using/finance-reference-site-walkthrough.md)
+* [We.Gov reference site walkthrough](/help/forms/using/gov-reference-site-walkthrough.md)  
 
-* [Employee self-service reference site walkthrough](../../forms/using/employee-self-service-reference-site.md)
+* [Employee self-service reference site walkthrough](/help/forms/using/employee-self-service-reference-site.md)
 

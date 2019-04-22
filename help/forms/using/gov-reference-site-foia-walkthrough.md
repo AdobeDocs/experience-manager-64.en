@@ -13,7 +13,7 @@ discoiquuid: cef8f597-7935-4d98-aacf-9981470ab620
 
 ## Pre-requisite {#pre-requisite}
 
-Set up your We.Gov reference site as described in the [Set up and configure AEM Forms reference sites](../../forms/using/setup-reference-sites.md).
+Set up your We.Gov reference site as described in the [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).
 
 ## Reference site Freedom of Information Act scenario {#reference-site-freedom-of-information-act-scenario}
 
@@ -72,7 +72,7 @@ When Sarah fills and submits the FOIA application, a record of the application i
 
 ### See it yourself {#see-it-yourself-1}
 
-You can access the AEM inbox at https://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox, using jjacobs/password as the username/password for John Jacobs, and see the FOIA application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+You can access the AEM inbox at https://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox, using jjacobs/password as the username/password for John Jacobs, and see the FOIA application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](/help/forms/using/manage-applications-inbox.md).
 
 ![](assets/johnjacobs.png)
 

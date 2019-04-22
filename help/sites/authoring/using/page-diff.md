@@ -23,16 +23,16 @@ The page diff feature allows for the convenient side-by-side comparison of two p
 >
 >The user must have the** Modify/Create/Delete** permission on the node `/content/versionhistor`y in order to use the feature.
 >
->See [Developing and Page Diff](../../../sites/developing/using/pagediff.md#operation-details) for more technical details on this feature.
+>See [Developing and Page Diff](/help/sites/developing/using/pagediff.md#operation-details) for more technical details on this feature.
 
 ## Use {#use}
 
 The side-by-side diff can compare:
 
-* [Versions](../../../sites/authoring/using/working-with-page-versions.md#comparing-a-version-with-current-page) - Earlier version of a page with its current state
-* [Live Copies](../../../sites/administering/using/msm-livecopy.md#comparing-a-live-copy-page-with-a-blueprint-page) - Live Copy with its Blueprint
-* [Launches](../../../sites/authoring/using/launches-editing.md#comparing-a-launch-page-to-its-source-page) - Launch with its Source
-* [Language Copies](../../../sites/administering/using/tc-manage.md#comparing-language-copies) - A page before and after (re-)translation
+* [Versions](/help/sites/authoring/using/working-with-page-versions.md#comparing-a-version-with-current-page) - Earlier version of a page with its current state
+* [Live Copies](/help/sites/administering/using/msm-livecopy.md#comparing-a-live-copy-page-with-a-blueprint-page) - Live Copy with its Blueprint
+* [Launches](/help/sites/authoring/using/launches-editing.md#comparing-a-launch-page-to-its-source-page) - Launch with its Source
+* [Language Copies](/help/sites/administering/using/tc-manage.md#comparing-language-copies) - A page before and after (re-)translation
 
 See the respective topics on how to start the diff within those contexts.
 
@@ -95,7 +95,7 @@ There are some situations in which the page diff may not detect a difference as 
 * The diff is unable to detect image rotation.
 * If a page is moved, you can no longer perform a diff with any versions made before the move.
 
-    * If you experience problems with a diff, check the [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) for the page to see whether the page has been moved.
+    * If you experience problems with a diff, check the [Timeline](/help/sites/authoring/using/basic-handling.md#timeline) for the page to see whether the page has been moved.
 
 >[!NOTE]
 >
@@ -103,5 +103,5 @@ There are some situations in which the page diff may not detect a difference as 
 
 >[!NOTE]
 >
->For more details about the operation of the page diff mechanism as well as limitations which can affect page diff, please see the [developer documentation](../../../sites/developing/using/pagediff.md) of this feature.
+>For more details about the operation of the page diff mechanism as well as limitations which can affect page diff, please see the [developer documentation](/help/sites/developing/using/pagediff.md) of this feature.
 

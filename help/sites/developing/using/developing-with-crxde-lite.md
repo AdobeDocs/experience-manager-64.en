@@ -22,13 +22,13 @@ CRXDE Lite is recommended when you do not have direct access to the AEM server, 
 
 >[!NOTE]
 >
->By default, all AEM users can access CRXDE Lite. If desired, [configure ACLs](../../../sites/administering/using/security.md#permissions-and-acls) for the following node so that only developers can access CRX DE Lite:
+>By default, all AEM users can access CRXDE Lite. If desired, [configure ACLs](/help/sites/administering/using/security.md#permissions-and-acls) for the following node so that only developers can access CRX DE Lite:
 >
 >`/libs/granite/crxde`
 
 >[!NOTE]
 >
->It is recommended to use the [AEM Developer Tools for Eclipse](../../../sites/developing/using/aem-eclipse.md) and the [AEM HTL Brackets Extension](../../../sites/developing/using/aem-brackets.md) during project development.
+>It is recommended to use the [AEM Developer Tools for Eclipse](/help/sites/developing/using/aem-eclipse.md) and the [AEM HTL Brackets Extension](/help/sites/developing/using/aem-brackets.md) during project development.
 
 ## Getting Started with CRXDE Lite {#getting-started-with-crxde-lite}
 
@@ -130,7 +130,7 @@ CRXDE Lite offers the following functionality:
   </tr> 
   <tr> 
    <td>Tools<br /> </td> 
-   <td><p>Drop-down menu with the following tools:</p> <p>- <strong>Server Config ...</strong>: to access the Felix Console.</p> <p>- <strong>Query ...</strong>: to query the repository.</p> <p>- <strong>Privileges ...</strong>: to open privilege management, where you can view and add privileges.</p> <p>- <strong>Test Access Control ...</strong>: a place where you can test the permission for certain path and/or principal.</p> <p>- <strong>Export Node Type</strong>: to export node types in the system as cnd notation.</p> <p>- <strong>Import Node Type ...</strong>: to import node types using cnd notation.</p> <p>- <strong>Import Site ...</strong>: opens the <a href="../../../sites/developing/using/site-importer.md">Site Importer</a> tool to import an existing site into AEM</p> <p>- <strong>Install SiteCatalyst Debugger ...</strong>: instructions on how to install Analytics Debugger.</p> </td> 
+   <td><p>Drop-down menu with the following tools:</p> <p>- <strong>Server Config ...</strong>: to access the Felix Console.</p> <p>- <strong>Query ...</strong>: to query the repository.</p> <p>- <strong>Privileges ...</strong>: to open privilege management, where you can view and add privileges.</p> <p>- <strong>Test Access Control ...</strong>: a place where you can test the permission for certain path and/or principal.</p> <p>- <strong>Export Node Type</strong>: to export node types in the system as cnd notation.</p> <p>- <strong>Import Node Type ...</strong>: to import node types using cnd notation.</p> <p>- <strong>Import Site ...</strong>: opens the <a href="/help/sites/developing/using/site-importer.md">Site Importer</a> tool to import an existing site into AEM</p> <p>- <strong>Install SiteCatalyst Debugger ...</strong>: instructions on how to install Analytics Debugger.</p> </td> 
   </tr> 
   <tr> 
    <td>Login widget<br /> </td> 
@@ -257,7 +257,7 @@ It creates a dialog with the following structure:
 
 You can now adapt the dialog to your needs by modifying properties or creating new nodes.
 
-You can also use the Dialog Editor to edit a dialog. Double clicking the dialog node in CRXDE Lite will bring up the editor. More information about the Dialog Editor can be found [here](../../../sites/developing/using/dialog-editor.md).
+You can also use the Dialog Editor to edit a dialog. Double clicking the dialog node in CRXDE Lite will bring up the editor. More information about the Dialog Editor can be found [here](/help/sites/developing/using/dialog-editor.md).
 
 ### Creating a Node {#creating-a-node}
 
@@ -514,5 +514,5 @@ You can:
 
 >[!NOTE]
 >
->See [Users, Groups and Access Rights Administration](../../../sites/administering/using/user-group-ac-admin.md) for more information.
+>See [Users, Groups and Access Rights Administration](/help/sites/administering/using/user-group-ac-admin.md) for more information.
 

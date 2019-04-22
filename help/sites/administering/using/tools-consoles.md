@@ -28,22 +28,22 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <th>Purpose</th> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/msm.md">MSM Control Center</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/msm.md">MSM Control Center</a></td> 
    <td> </td> 
    <td>Centralized point for managing your multiple sites.</td> 
   </tr> 
   <tr> 
    <td width="200">Client Context Configurations<br /> </td> 
    <td> </td> 
-   <td>The <a href="../../../sites/developing/using/client-context.md">Client Context</a> represents a dynamically assembled collection of user data. The default and marketing cloud configurations are held here.<br /> </td> 
+   <td>The <a href="/help/sites/developing/using/client-context.md">Client Context</a> represents a dynamically assembled collection of user data. The default and marketing cloud configurations are held here.<br /> </td> 
   </tr> 
   <tr> 
    <td width="200">Cloud Services Configurations<br /> </td> 
    <td> </td> 
-   <td>Holds configurations related to <a href="../../../sites/administering/using/marketing-cloud.md">Integrating with the Adobe Marketing Cloud</a>.</td> 
+   <td>Holds configurations related to <a href="/help/sites/administering/using/marketing-cloud.md">Integrating with the Adobe Marketing Cloud</a>.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/ecommerce.md">Commerce</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/ecommerce.md">Commerce</a></td> 
    <td> </td> 
    <td>Provides access to importers and various product data.</td> 
   </tr> 
@@ -68,12 +68,12 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>Configurable profiles for ffmpeg transcodings.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/dashboards.md">Dashboards</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/dashboards.md">Dashboards</a></td> 
    <td> </td> 
    <td>Allows you to create reporting dashboards; these provide a customizable way to define pages that display consolidated data.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/developing/using/designer.md">Designs</a></td> 
+   <td width="200"><a href="/help/sites/developing/using/designer.md">Designs</a></td> 
    <td> </td> 
    <td>Holds the list of designs defined, including the graphics and css files to be used.</td> 
   </tr> 
@@ -88,7 +88,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>Holds the list of form submissions received.</td> 
   </tr> 
   <tr> 
-   <td width="200">Importers - <a href="../../../sites/administering/using/bulk-editor.md">Bulk Editor</a></td> 
+   <td width="200">Importers - <a href="/help/sites/administering/using/bulk-editor.md">Bulk Editor</a></td> 
    <td> </td> 
    <td>Lets you search for items and edit them in bulk. You can also export and import content (in bulk) into the repository.</td> 
   </tr>
@@ -98,52 +98,52 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td><p>The feed importer is a framework to repeatedly import content from external sources into your repository. The idea of the feed importer is to poll a remote resource at a specified interval, to parse it, and to create nodes in the content repository that represent the content of the remote resource.</p> </td> 
   </tr> 
   <tr> 
-   <td width="200">Importers - <a href="../../../sites/developing/using/site-importer.md">Site Importer</a></td> 
+   <td width="200">Importers - <a href="/help/sites/developing/using/site-importer.md">Site Importer</a></td> 
    <td> </td> 
    <td>The site importer helps you take an existing website and set up the basis for a prototype, a proof of concept project and a new development new project.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/external-link-checker.md">External Linkchecker</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/external-link-checker.md">External Linkchecker</a></td> 
    <td> </td> 
    <td>Scans all content pages within your AEM instance and checks any external links. A list of valid and invalid links displays.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/authoring/using/mobile.md">Mobile</a></td> 
+   <td width="200"><a href="/help/sites/authoring/using/mobile.md">Mobile</a></td> 
    <td> </td> 
    <td>Helps you create websites designed for mobile devices.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/msm.md">MSM</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/msm.md">MSM</a></td> 
    <td> </td> 
    <td>Handles multilingual and multinational content, helping you balance centralized branding with localized content.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/notification.md">Notification</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/notification.md">Notification</a></td> 
    <td> </td> 
    <td>Notification templates.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/package-manager.md">Packages</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/package-manager.md">Packages</a></td> 
    <td> </td> 
    <td>An alternative link to the Package Manager that shows the packages that have been loaded for AEM WCM. Similar to the information shown in CRX's Package Manager.</td> 
   </tr> 
   <tr> 
-   <td width="200">Replication - <a href="../../../sites/deploying/using/configuring.md#replication-reverse-replication-and-replication-agents">Replication Agents</a></td> 
+   <td width="200">Replication - <a href="/help/sites/deploying/using/configuring.md#replication-reverse-replication-and-replication-agents">Replication Agents</a></td> 
    <td> </td> 
    <td>Used to replicate data from author to publish when publishing pages, or with reverse replication to return user comments from the publish environment to author.</td> 
   </tr> 
   <tr> 
-   <td width="200">Importers - <a href="../../../sites/authoring/using/publishing-pages.md#publishing-and-unpublishing-a-tree">Activate Tree</a></td> 
+   <td width="200">Importers - <a href="/help/sites/authoring/using/publishing-pages.md#publishing-and-unpublishing-a-tree">Activate Tree</a></td> 
    <td> </td> 
    <td>From the Websites tab you can activate the individual pages. When you have entered, or updated, a considerable number of content pages - all of which are resident under the same root page - it can be easier to activate the entire tree in one action. You can also perform a Dry Run to emulate an activation and highlight which pages would be activated.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/reporting.md">Reports</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/reporting.md">Reports</a></td> 
    <td> </td> 
    <td>AEM provides a range of customized reports, allows you to create customized reports and/or develop your own.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/authoring/using/scaffolding.md">Default Page Scaffolding</a></td> 
+   <td width="200"><a href="/help/sites/authoring/using/scaffolding.md">Default Page Scaffolding</a></td> 
    <td> </td> 
    <td>With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.</td> 
   </tr> 
@@ -153,14 +153,14 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>Lets you configure the emails that users automatically receive when they create an account or reset a password and to confirm a password that has been reset.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/campaign-segmentation.md">Segmentation</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/campaign-segmentation.md">Segmentation</a></td> 
    <td> </td> 
    <td>Site visitors have different interests and objectives when they come to a site. Understanding these goals and fulfilling the expectations is an important success factor for online marketing. Segmentation helps to achieve this by analyzing and characterizing a visitor's details.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../communities/using/working-with-srp.md">socialconfig</a></td> 
+   <td width="200"><a href="/help/communities/using/working-with-srp.md">socialconfig</a></td> 
    <td> </td> 
-   <td>Default SRP configuration. See <a href="../../../communities/using/srp-config.md">Storage Configuration</a> console.</td> 
+   <td>Default SRP configuration. See <a href="/help/communities/using/srp-config.md">Storage Configuration</a> console.</td> 
   </tr> 
   <tr> 
    <td width="200">taskmanagement</td> 
@@ -173,7 +173,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>No active functionality related to this entry.</td> 
   </tr> 
   <tr> 
-   <td width="200">Versioning - <a href="../../../sites/deploying/using/version-purging.md">Purge Versions</a></td> 
+   <td width="200">Versioning - <a href="/help/sites/deploying/using/version-purging.md">Purge Versions</a></td> 
    <td> </td> 
    <td>Allows you to purge page versions as required.</td> 
   </tr> 
@@ -185,10 +185,10 @@ The **Tools** consoles provide access to a number of specialized tools that help
   <tr> 
    <td width="200">watchwords</td> 
    <td> </td> 
-   <td>Deprecated. See <a href="../../../communities/using/moderate-ugc.md#watchwords">Moderating Community Content</a></td> 
+   <td>Deprecated. See <a href="/help/communities/using/moderate-ugc.md#watchwords">Moderating Community Content</a></td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="../../../sites/administering/using/workflows.md">Workflow</a></td> 
+   <td width="200"><a href="/help/sites/administering/using/workflows.md">Workflow</a></td> 
    <td> </td> 
    <td>Workflows control a series of actions on pages or digital assets that support any editorial process.</td> 
   </tr> 
@@ -211,12 +211,12 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/authoring/using/campaigns.md">Campaigns</a></td> 
+   <td><a href="/help/sites/authoring/using/campaigns.md">Campaigns</a></td> 
    <td>Manage your marketing campaigns.</td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/authoring/using/launches.md">Launches</a></td> 
+   <td><a href="/help/sites/authoring/using/launches.md">Launches</a></td> 
    <td>Manage your marketing launches.</td> 
   </tr> 
   <tr> 
@@ -226,12 +226,12 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/authoring/using/task-content.md">Inbox</a></td> 
+   <td><a href="/help/sites/authoring/using/task-content.md">Inbox</a></td> 
    <td>Manage your Inbox items.</td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/administering/using/task-manager.md">Task Management</a></td> 
+   <td><a href="/help/sites/administering/using/task-manager.md">Task Management</a></td> 
    <td>Manage tasks allocated to you.<br /> </td> 
   </tr> 
   <tr> 
@@ -241,12 +241,12 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/administering/using/security.md">Users and Groups</a></td> 
+   <td><a href="/help/sites/administering/using/security.md">Users and Groups</a></td> 
    <td>Manage your users and groups.</td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/authoring/using/tags.md">Tag Management</a></td> 
+   <td><a href="/help/sites/authoring/using/tags.md">Tag Management</a></td> 
    <td>Organize your tags and their namespaces.</td> 
   </tr> 
   <tr> 
@@ -256,22 +256,22 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/administering/using/workflows.md">Workflows</a></td> 
+   <td><a href="/help/sites/administering/using/workflows.md">Workflows</a></td> 
    <td>Model and manage workflows.</td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/deploying/using/replication.md">Replication</a></td> 
+   <td><a href="/help/sites/deploying/using/replication.md">Replication</a></td> 
    <td>Create and manager multiple website.</td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/administering/using/reporting.md">Reports</a></td> 
+   <td><a href="/help/sites/administering/using/reporting.md">Reports</a></td> 
    <td>Create and monitor custom reports.<br /> </td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/developing/using/hobbes.md">Testing</a></td> 
+   <td><a href="/help/sites/developing/using/hobbes.md">Testing</a></td> 
    <td>Run tests defined for your application.</td> 
   </tr> 
   <tr> 
@@ -281,32 +281,32 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a></td> 
+   <td><a href="/help/sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a></td> 
    <td>Develop applications with a web-based IDE.</td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/administering/using/package-manager.md">Packages</a></td> 
+   <td><a href="/help/sites/administering/using/package-manager.md">Packages</a></td> 
    <td>Package and share applications.</td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/administering/using/package-manager.md#package-share">Package Share</a></td> 
+   <td><a href="/help/sites/administering/using/package-manager.md#package-share">Package Share</a></td> 
    <td>Download applications from Adobe and the community.<br /> </td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/deploying/using/offloading.md#administering-topologies">Topology Browser</a></td> 
+   <td><a href="/help/sites/deploying/using/offloading.md#administering-topologies">Topology Browser</a></td> 
    <td>View the instances topology.</td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/deploying/using/offloading.md">Offloading Browser</a></td> 
+   <td><a href="/help/sites/deploying/using/offloading.md">Offloading Browser</a></td> 
    <td>Manage offloading.</td> 
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/deploying/using/monitoring-and-maintaining.md#backups">Backup</a></td> 
+   <td><a href="/help/sites/deploying/using/monitoring-and-maintaining.md#backups">Backup</a></td> 
    <td>Carry out backup tasks.</td> 
   </tr> 
   <tr> 

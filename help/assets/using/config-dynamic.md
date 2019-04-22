@@ -35,7 +35,7 @@ Learn more about working with [video](video.md) in Dynamic Media.
 >* s7access.log
 >* ImageServing.log
 >
->They are documented in [Monitoring and Maintaining your AEM instance](../../sites/deploying/using/monitoring-and-maintaining.md).
+>They are documented in [Monitoring and Maintaining your AEM instance](/help/sites/deploying/using/monitoring-and-maintaining.md).
 
 Hybrid publishing and delivery is a core feature of the Dynamic Media addition to Adobe Experience Manager. Hybrid publishing lets you deliver Dynamic Media assets, such as images, sets and video, from the cloud instead of from the AEM publish nodes.
 
@@ -149,7 +149,7 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 By enabling Dynamic Media, the dynamic media features will be available in the UI and every uploaded image asset receives a *cqdam.pyramid.tiff* rendition that is used for fast delivery of dynamic image renditions. Those PTIFFs have significant advantages including (1) the ability to manage only a single master image and generate infinite renditions on-the-fly without any additional storage and (2) the ability to use interactive visualization such as zoom, pan, spin, and so on.
 
-If you want to use Dynamic Media Classic (Scene7) in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](../../sites/administering/using/scene7.md#aem-scene-integration-versus-dynamic-media). Dynamic Media is disabled unless you enable dynamic media by way of the runmode.
+If you want to use Dynamic Media Classic (Scene7) in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](/help/sites/administering/using/scene7.md#aem-scene-integration-versus-dynamic-media). Dynamic Media is disabled unless you enable dynamic media by way of the runmode.
 
 To enable dynamic media, you must enable the dynamic media runmode either from the command line or from the quickstart file name.
 
@@ -196,7 +196,7 @@ To enable dynamic media:
 
 ### If you installed AEM to a different port or context path ... {#if-you-installed-aem-to-a-different-port-or-context-path}
 
-If you are deploying [AEM to an application server](../../sites/deploying/using/application-server-install.md) and have Dynamic Media enabled, you need to configure the **self** domain in the externalizer. Otherwise, thumbnail generation for assets will not work properly for dynamic media assets.
+If you are deploying [AEM to an application server](/help/sites/deploying/using/application-server-install.md) and have Dynamic Media enabled, you need to configure the **self** domain in the externalizer. Otherwise, thumbnail generation for assets will not work properly for dynamic media assets.
 
 In addition, if you run quickstart on a different port or context path, you also have to change the **self** domain.
 
@@ -204,15 +204,15 @@ When Dynamic Media is enabled, the static thumbnail renditions for image assets 
 
 In AEM:
 
-* The **self** domain in the [externalizer](../../sites/developing/using/externalizer.md) is used to retrieve both the port number and context path.
+* The **self** domain in the [externalizer](/help/sites/developing/using/externalizer.md) is used to retrieve both the port number and context path.
 
 * If no **self** domain is configured, the port number and context path are retrieved from the Jetty HTTP service.
 
-In an AEM QuickStart WAR deployment, the port number and context path cannot be derived, therefore you must configure a **self** domain. See [externalizer documentation](../../sites/developing/using/externalizer.md) on how to configure the **self** domain.
+In an AEM QuickStart WAR deployment, the port number and context path cannot be derived, therefore you must configure a **self** domain. See [externalizer documentation](/help/sites/developing/using/externalizer.md) on how to configure the **self** domain.
 
 >[!NOTE]
 >
->In an [AEM Quickstart stand-alone deployment](../../sites/deploying/using/deploy.md), a **self** domain generally does not need to be configured because the port number and context path can be auto-configured. However, if all network interfaces are turned off, you need to configure the **self** domain.
+>In an [AEM Quickstart stand-alone deployment](/help/sites/deploying/using/deploy.md), a **self** domain generally does not need to be configured because the port number and context path can be auto-configured. However, if all network interfaces are turned off, you need to configure the **self** domain.
 
 ## Disabling Dynamic Media  {#disabling-dynamic-media}
 
@@ -992,7 +992,7 @@ Table of Manifest settings and their default values:
   <tr> 
    <td>thumbnailtime</td> 
    <td>1%,11%,21%,31%,41%,51%,61%,71%,81%,91%</td> 
-   <td>These values represent a snapshot of video playtime and are passed to <a href="https://encoding.com/">encoding.com</a>. See <a href="../../assets/using/video.md#about-video-thumbnails">About video thumbnails</a> for more information.</td> 
+   <td>These values represent a snapshot of video playtime and are passed to <a href="https://encoding.com/">encoding.com</a>. See <a href="/help/assets/using/video.md#about-video-thumbnails">About video thumbnails</a> for more information.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1025,7 +1025,7 @@ To install feature pack 12445:
 
 1. Navigate to [Package Share](https://www.adobeaemcloud.com/content/packageshare.html) and download either `cq-6.3.0-featurepack-12445`.
 
-   See [How to Work with Packages](../../sites/administering/using/package-manager.md) for more information on using Package Share and Packages in AEM.
+   See [How to Work with Packages](/help/sites/administering/using/package-manager.md) for more information on using Package Share and Packages in AEM.
 
 1. Install the feature pack.
 
@@ -1316,11 +1316,11 @@ See [Delivering Dynamic Media Assets](delivering-dynamic-media-assets.md).
   </tr> 
   <tr> 
    <td>Copy an image URL</td> 
-   <td><p>The Copy URL dialog box displays a URL similar to following (URL is for demonstration purposes only):</p> <p><span class="code">https://IMAGESERVICEPUBLISHNODE/is/image/content/dam/path/to/Image.jpg?$preset$</span></p> <p>Where <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="../../assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
+   <td><p>The Copy URL dialog box displays a URL similar to following (URL is for demonstration purposes only):</p> <p><span class="code">https://IMAGESERVICEPUBLISHNODE/is/image/content/dam/path/to/Image.jpg?$preset$</span></p> <p>Where <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="/help/assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Copy a viewer URL</td> 
-   <td><p>The Copy URL dialog box displays a URL similar to the following (URL is for demonstration purposes only):</p> <p><span class="code">https://PUBLISHNODE/etc/dam/viewers/s7viewers/html5/BasicZoomViewer.html?asset=/content/dam/path/to/Image.jpg&amp;config=/conf/global/settings/dam/dm/presets/viewer/Zoom_dark&amp;serverUrl=https://IMAGESERVICEPUBLISHNODE/is/image/&amp;contentRoot=%2F</span></p> <p>Where <span class="code">PUBLISHNODE</span> refers to the regular AEM publish node and <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="../../assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
+   <td><p>The Copy URL dialog box displays a URL similar to the following (URL is for demonstration purposes only):</p> <p><span class="code">https://PUBLISHNODE/etc/dam/viewers/s7viewers/html5/BasicZoomViewer.html?asset=/content/dam/path/to/Image.jpg&amp;config=/conf/global/settings/dam/dm/presets/viewer/Zoom_dark&amp;serverUrl=https://IMAGESERVICEPUBLISHNODE/is/image/&amp;contentRoot=%2F</span></p> <p>Where <span class="code">PUBLISHNODE</span> refers to the regular AEM publish node and <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="/help/assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Copy a viewer's embed code</td> 
@@ -1342,7 +1342,7 @@ See [Delivering Dynamic Media Assets](delivering-dynamic-media-assets.md).
        "config" : "/conf/global/settings/dam/dm/presets/viewer/Zoom_dark",
        "asset" : "/content/dam/path/to/Image.jpg" }
        }).init();
-       &lt;/script&gt;</code></p> <p>Where <span class="code">PUBLISHNODE</span> refers to the regular AEM publish node and <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="../../assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
+       &lt;/script&gt;</code></p> <p>Where <span class="code">PUBLISHNODE</span> refers to the regular AEM publish node and <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="/help/assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

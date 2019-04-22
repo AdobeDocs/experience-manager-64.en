@@ -36,7 +36,7 @@ Then, follow the installation instructions on that page.
 
 ### Set up your AEM project based on Maven {#set-up-your-aem-project-based-on-maven}
 
-Next, set up your project using Maven as described in [How-To Build AEM Projects using Apache Maven](../../../sites/developing/using/ht-projects-maven.md).
+Next, set up your project using Maven as described in [How-To Build AEM Projects using Apache Maven](/help/sites/developing/using/ht-projects-maven.md).
 
 To start working with AEM projects in IntelliJ IDEA, the basic setup in [Getting Started in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) is sufficient.
 
@@ -47,7 +47,7 @@ IntelliJ IDEA can also provide support in working with JSP, e.g.
 * auto-completion of tag libraries
 * awareness of objects defined by &lt;cq:defineObjects /&gt; and &lt;sling:defineObjects /&gt;
 
-For that to work, follow the instructions on [How-To Work with JSPs](../../../sites/developing/using/ht-projects-maven.md#how-to-work-with-jsps) in [How-To Build AEM Projects using Apache Maven](../../../sites/developing/using/ht-projects-maven.md).
+For that to work, follow the instructions on [How-To Work with JSPs](/help/sites/developing/using/ht-projects-maven.md#how-to-work-with-jsps) in [How-To Build AEM Projects using Apache Maven](/help/sites/developing/using/ht-projects-maven.md).
 
 ### Import the Maven Project {#import-the-maven-project}
 

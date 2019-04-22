@@ -65,7 +65,7 @@ Interactive video steps:
 1. **(Optional) Identifying Quickview variables** - Start by identifying dynamic variables used by your existing Quickview implementation. You use the variables to map product thumbnails to their corresponding product Quickview when you create your interactive video. See [(Optional) Identifying Quickview variables](#optional-identifying-quickview-variables).  
    *Note that this step is only required if all the following are true*:  
    • You want to add interactivity to your video by triggering to quickviews.  
-   • Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](../../sites/administering/using/concepts.md).  
+   • Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](/help/sites/administering/using/concepts.md).  
 
 1. **(Optional) Creating an Interactive Video viewer preset** - Customize the appearance and behavior of various components that make up the player such as the video scrubber and the interactive thumbnails.  
    Creating your own Interactive Video viewer preset is not required if you intend to use the out-of-the-box Interactive Video viewer presets `Shoppable_Video_Light` or `Shoppable_Video_Dark` instead.** 
@@ -93,7 +93,7 @@ Interactive video steps:
 >This task is only required if the following are true:
 >
 >* You want to add interactivity to your video by triggering to Quickviews.
->* Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](../../sites/administering/using/concepts.md).
+>* Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](/help/sites/administering/using/concepts.md).
 >
 >If your implementation of AEM uses eCommerce, you can skip this task and proceed to the next task.
 
@@ -254,7 +254,7 @@ You add timeline segments to a video using the in-place visual editor on the Cre
 
 After you add timeline segments, you add thumbnail images within each segment. For each thumbnail that you add, you apply an action to it. For example, you can apply a Quickview to the thumbnail, or you can assign a hyperlink to it, or an Experience Fragment.
 
-See [Experience Fragments](../../sites/authoring/using/experience-fragments.md).
+See [Experience Fragments](/help/sites/authoring/using/experience-fragments.md).
 
 >[!NOTE]
 >
@@ -404,7 +404,7 @@ To add interactivty to your video:
        <li>If the pre-populated SKU is incorrect, tap or click the Product Picker icon (magnifying glass) to open the Select Product page. Tap or click the product you want to use, then tap the check mark in the upper-right corner of the page to return to the Interactive Video Editor.</li> 
        </ul> <p> If you are <em>not</em> an AEM Sites or Ecommerce customer</p> 
        <ul> 
-       <li>See <a href="../../assets/using/carousel-banners.md#identifying-hotspot-and-image-map-variables">Identifying hotspot variables</a>. You will need to define these variables. </li> 
+       <li>See <a href="/help/assets/using/carousel-banners.md#identifying-hotspot-and-image-map-variables">Identifying hotspot variables</a>. You will need to define these variables. </li> 
        <li>By default, this SKU field uses the image asset's filename without the extension. If you follow a standard naming convention for your files based on SKU, then this typically does not require any additional edits. </li> 
        <li>Otherwise, edit the default value and enter the correct SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped image with a particular SKU's Quickview.</li> 
        </ul> <p>(Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap <strong>Add Generic Variable</strong>. In the text field, specify an additional variable. For example, <span class="code">category=Womens</span> is an added variable.</p> <p> </p> </td> 
@@ -421,7 +421,7 @@ To add interactivty to your video:
       <td>To associate the selected thumbnail image with an Experience Fragment</td> 
       <td><p>Under Action Type, tap <strong>Experience Fragment</strong>, then do the following:</p> 
        <ul> 
-       <li>If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap <strong>Select </strong>in the upper-right corner of the page to return to the Actions panel on the previous page.<br /> See <a href="../../sites/authoring/using/experience-fragments.md">Experience Fragments</a>.</li> 
+       <li>If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap <strong>Select </strong>in the upper-right corner of the page to return to the Actions panel on the previous page.<br /> See <a href="/help/sites/authoring/using/experience-fragments.md">Experience Fragments</a>.</li> 
        </ul> 
        <ul> 
        <li>Specify the width and height of the Experience Fragment as it will appear on the video.</li> 

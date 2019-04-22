@@ -19,7 +19,7 @@ AEM provides a console for managing the various translations of texts used in co
 
 Use the translator tool to manage English strings and their translations. The dictionaries are created in the repository, for example /apps/myproject/i18n.
 
-Note that the Translator tool and the dictionaries that you manage are for presenting component UI in different languages. If you want to translate page or user generated content, see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md) and [Translation of User Generated Content](../../../communities/using/translate-ugc.md).
+Note that the Translator tool and the dictionaries that you manage are for presenting component UI in different languages. If you want to translate page or user generated content, see [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md) and [Translation of User Generated Content](/help/communities/using/translate-ugc.md).
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ It is also possible to add the i18n dictonaries to a translation project from th
 
    >[!NOTE]
    >
-   >For more information about translation projects, read [Managing Translation Projects](../../../sites/administering/using/tc-manage.md).
+   >For more information about translation projects, read [Managing Translation Projects](/help/sites/administering/using/tc-manage.md).
 
 ## Creating a Dictionary {#creating-a-dictionary}
 
@@ -120,7 +120,7 @@ Include variables in the localized string to build contextual meaning into a sen
 
 To include variables in the localized string, place bracketed indexes at the location of the variables in the first argument of the get method. Use the localization hint to describe the values. The translator must understand the meaning of the variables because different languages use different sentence structures.
 
-Note that [the code that requests the translated string](../../../sites/developing/using/i18n-dev.md#including-variables-in-localized-sentences) provides values for the indexed variables according to the context.
+Note that [the code that requests the translated string](/help/sites/developing/using/i18n-dev.md#including-variables-in-localized-sentences) provides values for the indexed variables according to the context.
 
 For example, the following string appears when a user logs into a web site, and is included in the dictionary:
 
@@ -195,7 +195,7 @@ The search bar at the bottom of the Translator tool provides string selection op
 
 ### Editing Translated Strings {#editing-translated-strings}
 
-After you add the English string to a dictionary, you can add translations of the string. You can also [export the dictionary](../../../sites/developing/using/i18n-translator.md#exporting-a-dictionary) to have it translated by a third party.
+After you add the English string to a dictionary, you can add translations of the string. You can also [export the dictionary](/help/sites/developing/using/i18n-translator.md#exporting-a-dictionary) to have it translated by a third party.
 
 1. Select [your project specific dictionary](#creating-a-dictionary) as it specifies the path in the repository holding the translations. For example, select **Dictionaries** as:
 
@@ -235,7 +235,7 @@ Export a dictionary to an XLIFF file so that a third-party service can translate
 * Export a dictionary and include the English and the translated terms for a language.
 * Export some or all of only the English strings.
 
-When you export an XLIFF file and include a language, the node structure of the dictionary in the repository must include that language. If the language is not included, errors occur. For example, to export the French XLIFF file, the dictionary folder must include the `mix:language` child node named `fr`. (See [Creating a Dictionary](../../../sites/developing/using/i18n-translator.md#creating-a-dictionary).)
+When you export an XLIFF file and include a language, the node structure of the dictionary in the repository must include that language. If the language is not included, errors occur. For example, to export the French XLIFF file, the dictionary folder must include the `mix:language` child node named `fr`. (See [Creating a Dictionary](/help/sites/developing/using/i18n-translator.md#creating-a-dictionary).)
 
 Use the following procedure to export an XLIFF file for a specific language.
 

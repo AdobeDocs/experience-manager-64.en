@@ -65,8 +65,8 @@ To do roll-out the catalog:
 1. Navigate to the **Base Catalog** in the **Geometrixx Outdoors WC** catalog blueprint folder.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md)
+    * [quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions)
+    * [selection mode](/help/sites/authoring/using/basic-handling.md)
 
    Select the **Rollout Changes** icon.
 

@@ -54,7 +54,7 @@ The following properties and nodes can be applied to the components to control t
 
 ## Script Controls {#script-controls}
 
-The wrapper behavior does differ however depending on if [HTL](../../../sites/developing/using/decoration-tag.md#htl) or [JSP](../../../sites/developing/using/decoration-tag.md#jsp) is used to include the element.
+The wrapper behavior does differ however depending on if [HTL](/help/sites/developing/using/decoration-tag.md#htl) or [JSP](/help/sites/developing/using/decoration-tag.md#jsp) is used to include the element.
 
 ### HTL {#htl}
 

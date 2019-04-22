@@ -47,7 +47,7 @@ Perform the following steps to integrate a running Target server with AEM Forms:
 
 1. Click **Connect to Adobe Target** to initialize the connection with Target. If the connection is successful, the message Connection successful is displayed. Click **OK **on the message and then **OK **on the dialog. The Target account is configured.
 
-1. Create a Target framework as described in [Add a framework](../../sites/administering/using/target.md).  
+1. Create a Target framework as described in [Add a framework](/help/sites/administering/using/target.md).  
 
 1. Go to https://&lt;*hostname*&gt;:&lt;*port*&gt;/system/console/configMgr.
 
@@ -72,7 +72,7 @@ In addition to jboss server, you can add -Dabtesting.enabled=true jvm argument i
 
 >[!NOTE]
 >
->If you update the configured Target URLs later, ensure that you update any running A/B tests so that they point to the current URLs. For information about updating A/B tests, see [Update A/B test](../../forms/using/ab-testing-adaptive-forms.md#p-update-a-b-test-p).
+>If you update the configured Target URLs later, ensure that you update any running A/B tests so that they point to the current URLs. For information about updating A/B tests, see [Update A/B test](/help/forms/using/ab-testing-adaptive-forms.md#p-update-a-b-test-p).
 >
 
 ## Create audiences within AEM {#create-audiences-within-aem}

@@ -19,13 +19,13 @@ The Audit Log Maintenance includes several parts of functionality that enables t
 
 It is implemented as a configurable weekly maintenance task and is accessible via the Operations Dashboard monitoring console.
 
-For more information, refer to the [Operations Dashboard Documentation](../../../sites/administering/using/operations-dashboard.md).
+For more information, refer to the [Operations Dashboard Documentation](/help/sites/administering/using/operations-dashboard.md).
 
 There are three types of Audit Log Purge options:
 
-1. [Page Audit Log Purging](../../../sites/administering/using/operations-audit-log.md#configure-page-audit-log-purging)
-1. [DAM Audit Log Purging](../../../sites/administering/using/operations-audit-log.md#configure-dam-audit-log-purging)
-1. [Replication Audit Log Puring](../../../sites/administering/using/operations-audit-log.md#configure-replication-audit-log-purging)
+1. [Page Audit Log Purging](/help/sites/administering/using/operations-audit-log.md#configure-page-audit-log-purging)
+1. [DAM Audit Log Purging](/help/sites/administering/using/operations-audit-log.md#configure-dam-audit-log-purging)
+1. [Replication Audit Log Puring](/help/sites/administering/using/operations-audit-log.md#configure-replication-audit-log-purging)
 
 Each can be configured by creating rules in the AEM Web Console. After they have been configured, you can trigger them by going to **Tools - Operations - Maintenance** **-** **Weekly Maintenance Window **and running the **AuditLog Maintenance Task**.
 

@@ -20,7 +20,7 @@ You can find the article [here](https://helpx.adobe.com/experience-manager/using
 
 >[!NOTE]
 >
->For additional on components see [Component Basics](../../../sites/developing/using/components-basics.md).
+>For additional on components see [Component Basics](/help/sites/developing/using/components-basics.md).
 
 ## Additional Community Articles {#additional-community-articles}
 

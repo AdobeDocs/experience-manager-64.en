@@ -17,15 +17,15 @@ Tags are a quick and easy method of classifying content within a website. They c
 
 In Adobe Experience Manager (AEM), a tag can be a property of
 
-* a content node for a page (see [Using Tags](../../../sites/authoring/using/tags.md))  
+* a content node for a page (see [Using Tags](/help/sites/authoring/using/tags.md))  
 
-* a metadata node for an asset (see [Managing Metadata for Digital Assets](../../../assets/using/metadata.md))
+* a metadata node for an asset (see [Managing Metadata for Digital Assets](/help/assets/using/metadata.md))
 
 In addition to pages and assets, tags are used for AEM Communities features
 
-* user generated content (see [Tagging UGC)](../../../communities/using/tag-ugc.md)  
+* user generated content (see [Tagging UGC)](/help/communities/using/tag-ugc.md)  
 
-* Enablement Resources (see [Tagging Enablement Resources](../../../communities/using/functions.md#catalog-function))
+* Enablement Resources (see [Tagging Enablement Resources](/help/communities/using/functions.md#catalog-function))
 
 ## Tag Features {#tag-features}
 
@@ -82,7 +82,7 @@ The namespace is itself a tag, and need not contain any sub-tags. However, to co
   *(required) *A display title for the namespace.
 
 * **Name** 
-  *(optional) *A name for the namespace. If not specified, a valid node name is created from the Title. See [TagID](../../../sites/developing/using/framework.md#tagid).
+  *(optional) *A name for the namespace. If not specified, a valid node name is created from the Title. See [TagID](/help/sites/developing/using/framework.md#tagid).
 
 * **Description** 
   *(optional) *A description of the namespace.
@@ -155,7 +155,7 @@ When a namespace or other tag is selected (by selecting the icon next to the tit
   *(required) *A display title for the tag.
 
 * **Name** 
-  *(optional) *A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](../../../sites/developing/using/framework.md#tagid).
+  *(optional) *A name for the tag. If not specified, a valid node name is created from the Title. See [TagID](/help/sites/developing/using/framework.md#tagid).
 
 * **Description** 
   *(optional) *A description of the tag.
@@ -228,7 +228,7 @@ When a namespace or other tag is selected, selecting the **`Merge`**icon will op
 
 When a namespace or other tag is selected, selecting the **`Publish`**icon to activate the tag in the publish environment. Similar to page content, only the selected tag is published, regardless of whether it is a container tag or not.
 
-To publish a taxonomy (a namespace and sub-tags), the best practice is to create a [package](../../../sites/administering/using/package-manager.md) of the namespace (see [Taxonomy Root Node](../../../sites/developing/using/framework.md#taxonomy-root-node)). Be sure to [apply permissions](#setting-tag-permissions) to the namespace before creating the package.
+To publish a taxonomy (a namespace and sub-tags), the best practice is to create a [package](/help/sites/administering/using/package-manager.md) of the namespace (see [Taxonomy Root Node](/help/sites/developing/using/framework.md#taxonomy-root-node)). Be sure to [apply permissions](#setting-tag-permissions) to the namespace before creating the package.
 
 ### Unpublishing Tags {#unpublishing-tags}
 
@@ -244,16 +244,16 @@ When a namespace or other tag is selected, selecting the **`Delete`**icon will p
 
 ## Setting Tag Permissions {#setting-tag-permissions}
 
-Tag permissions are ['secure (by default)'](../../../sites/administering/using/production-ready.md); a best practice for the publish environment that requires read permission to be explicitly allowed for tags. Bascially, this is done by creating a package of the Tag Namespace after permissions have been set on author, and installing the package on all publish instances.
+Tag permissions are ['secure (by default)'](/help/sites/administering/using/production-ready.md); a best practice for the publish environment that requires read permission to be explicitly allowed for tags. Bascially, this is done by creating a package of the Tag Namespace after permissions have been set on author, and installing the package on all publish instances.
 
 * on author instance
 
     * sign in with administrative privileges
-    * access the [Security Console](../../../sites/administering/using/security.md#accessing-user-administration-with-the-security-console),
+    * access the [Security Console](/help/sites/administering/using/security.md#accessing-user-administration-with-the-security-console),
 
         * for example, browse to http://localhost:4502/useradmin
 
-    * in the left pane, select the group (or user) for which [read permission](../../../sites/administering/using/security.md#permissions) is to be granted
+    * in the left pane, select the group (or user) for which [read permission](/help/sites/administering/using/security.md#permissions) is to be granted
     * in the right pane, locate the **Path **to the Tag Namespace
 
         * for example, `/content/cq:tags/mycommunity`
@@ -266,7 +266,7 @@ Tag permissions are ['secure (by default)'](../../../sites/administering/using/p
 
 * ensure all publish instances have same permissions
 
-    * one approach is to [create a package](../../../sites/administering/using/package-manager.md#package-manager) of the namespace on author
+    * one approach is to [create a package](/help/sites/administering/using/package-manager.md#package-manager) of the namespace on author
 
         * on `Advanced` tab, for `AC Handling` select `Overwrite`
 
@@ -292,11 +292,11 @@ Once all translations are entered, select **Save **to exit edit mode.
 
 ![](assets/chlimage_1-205.png)
 
-In general, the language chosen for the tag is taken from the page language, when available. When the [ `tag` widget](../../../sites/developing/using/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
+In general, the language chosen for the tag is taken from the page language, when available. When the [ `tag` widget](/help/sites/developing/using/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
 
 Instead of using the page language setting, the Tagging console uses the user language setting. In the Tagging console, for the 'Animals' tag, 'Animaux' would be displayed for a user who sets the language to French in their user properties.
 
-To add a new language to the dialog, see [Adding a New Language to the Edit Tag Dialog](../../../sites/developing/using/building.md#adding-a-new-language-to-the-edit-tag-dialog).
+To add a new language to the dialog, see [Adding a New Language to the Edit Tag Dialog](/help/sites/developing/using/building.md#adding-a-new-language-to-the-edit-tag-dialog).
 
 >[!NOTE]
 >
@@ -304,8 +304,8 @@ To add a new language to the dialog, see [Adding a New Language to the Edit Tag 
 
 ## Resources {#resources}
 
-* [Tagging for Developers](../../../sites/developing/using/tags.md)  
+* [Tagging for Developers](/help/sites/developing/using/tags.md)  
   Information about the tagging framework as well as extending and including tags in custom applications.
 
-* [Classic UI Tagging Console](../../../sites/administering/using/classic-console.md)
+* [Classic UI Tagging Console](/help/sites/administering/using/classic-console.md)
 

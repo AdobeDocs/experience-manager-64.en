@@ -272,7 +272,7 @@ To customize Correspondence Management to allow your users to download a flat PD
 
        This code is specific to the letter render service. For any other asset, add that asset's java libraries to this code. For more information on AEM Forms APIs, see [AEM Forms API](https://adobe.com/go/learn_aemforms_javadocs_63_en).
 
-       For more information on AEM libraries, see AEM [Components](../../sites/developing/using/components.md).
+       For more information on AEM libraries, see AEM [Components](/help/sites/developing/using/components.md).
 
        ```xml
        /*Import libraries. Here we are downloading letter flat pdf with input xml data so we require letterRender Api. For any other Module functionality we need to first import that library. */            

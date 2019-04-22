@@ -68,7 +68,7 @@ The protected mode is on, by default. If necessary, you can disable the protecte
 
 In AEM Forms, an XFA form template can be referred by an adaptive form or another XFA form template. Also, a template can refer to a resource or another XFA template.
 
-An adaptive form referring to an XFA have its fields bound with the fields available in the XFA. On updating a form template, the associated adaptive form attempts to synchronize with the XFA. For more details, see [Synchronizing adaptive forms with the associated XFA](../../forms/using/synchronizing-adaptive-forms-xfa.md).
+An adaptive form referring to an XFA have its fields bound with the fields available in the XFA. On updating a form template, the associated adaptive form attempts to synchronize with the XFA. For more details, see [Synchronizing adaptive forms with the associated XFA](/help/forms/using/synchronizing-adaptive-forms-xfa.md).
 
 Removing a form template corrupts the dependent adaptive form or form template. Such an adaptive form is sometimes informally referred to as a dirty form. In AEM Forms user interface, you can find the dirty forms in the following two ways.
 

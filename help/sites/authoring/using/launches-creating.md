@@ -16,11 +16,11 @@ legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 
 Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page:
 
-* The title appears in the [References](../../../sites/authoring/using/author-environment-tools.md#references) rail, from where authors can access them to work on them.
+* The title appears in the [References](/help/sites/authoring/using/author-environment-tools.md#references) rail, from where authors can access them to work on them.
 * The child pages of the source page are included in the launch by default. You can use only the source page if desired. 
-* By default, [Live Copy](../../../sites/administering/using/msm.md) automatically updates the launch pages as the source pages change. You can specify that a static copy is created to prevent automatic changes.
+* By default, [Live Copy](/help/sites/administering/using/msm.md) automatically updates the launch pages as the source pages change. You can specify that a static copy is created to prevent automatic changes.
 
-Optionally, you can specify the **Launch Date** (and time) to define when the launch pages are to be promoted and activated. However the **Launch Date** only operates in combination with the **Production Ready** flag (see [Editing a Launch Configuration](../../../sites/authoring/using/launches-editing.md#editing-a-launch-configuration)); for the actions to actually occur automatically, both must be set.
+Optionally, you can specify the **Launch Date** (and time) to define when the launch pages are to be promoted and activated. However the **Launch Date** only operates in combination with the **Production Ready** flag (see [Editing a Launch Configuration](/help/sites/authoring/using/launches-editing.md#editing-a-launch-configuration)); for the actions to actually occur automatically, both must be set.
 
 ## Creating a Launch {#creating-a-launch}
 
@@ -46,7 +46,7 @@ You can create a launch from either the Sites or Launches console:
 
    >[!NOTE]
    >
-   >In the **Sites** console you can also use [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) to select a page before selecting **Create**.
+   >In the **Sites** console you can also use [selection mode](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) to select a page before selecting **Create**.
    >
    >
    >This will use the selected page as the initial source page.
@@ -85,10 +85,10 @@ You can create a launch from either the Sites or Launches console:
     
     * **use a new template to replace the page**: See [Create Launch with New Template](#create-launch-with-new-template) for more details.  
     
-    * **Inherit source page live data**: Select this option to automatically update the content of launch pages when the source pages change. This option achieves this by making the launch a [live copy](../../../sites/administering/using/msm.md).  
+    * **Inherit source page live data**: Select this option to automatically update the content of launch pages when the source pages change. This option achieves this by making the launch a [live copy](/help/sites/administering/using/msm.md).  
       By default, this option is selected.  
     
-    * **Launch Date**: The date and time when the launch copy is to be activated (dependent on the **Production Ready** flag; see [Launches - the Order of Events](../../../sites/authoring/using/launches.md#launches-the-order-of-events)).
+    * **Launch Date**: The date and time when the launch copy is to be activated (dependent on the **Production Ready** flag; see [Launches - the Order of Events](/help/sites/authoring/using/launches.md#launches-the-order-of-events)).
 
    ![](assets/chlimage_1-227.png)
 
@@ -96,12 +96,12 @@ You can create a launch from either the Sites or Launches console:
 
    If you return the console (with **Done**) you can see (and access) your launch from either:
 
-    * the [**Launches** console](../../../sites/authoring/using/launches.md#the-launches-console)
-    * the [**References** in the **Sites** console](../../../sites/authoring/using/launches.md#launches-in-references-sites-console)
+    * the [**Launches** console](/help/sites/authoring/using/launches.md#the-launches-console)
+    * the [**References** in the **Sites** console](/help/sites/authoring/using/launches.md#launches-in-references-sites-console)
 
 ### Create Launch with New Template {#create-launch-with-new-template}
 
-When [creating a launch](../../../sites/authoring/using/launches-creating.md#create-launch-with-new-template) you can select whether to use a new template:
+When [creating a launch](/help/sites/authoring/using/launches-creating.md#create-launch-with-new-template) you can select whether to use a new template:
 
 **using a new template to replace the page**
 
@@ -122,7 +122,7 @@ Selecting this will:
 >
 >As a different template is used the new page will be empty. Due to the different page structure no content will be copied over.
 >
->This mechanism can be used to change the template of an [existing page](../../../sites/authoring/using/managing-pages.md#creating-a-new-page) - though the loss of content must be considered.
+>This mechanism can be used to change the template of an [existing page](/help/sites/authoring/using/managing-pages.md#creating-a-new-page) - though the loss of content must be considered.
 
 ### Creating a Nested Launch {#creating-a-nested-launch}
 
@@ -130,7 +130,7 @@ Creating a nested launch (launch within a launch) gives you the ability to creat
 
 >[!NOTE]
 >
->See also [Promoting a Nested Launch](../../../sites/authoring/using/launches-promoting.md#promoting-a-nested-launch).
+>See also [Promoting a Nested Launch](/help/sites/authoring/using/launches-promoting.md#promoting-a-nested-launch).
 
 #### Creating a Nested Launch - Launches Console {#creating-a-nested-launch-launches-console}
 
@@ -149,7 +149,7 @@ Creating a nested launch from the **Launches** console is basically the same as 
 
 To create a nested launch from the **Sites** console - based on an existing launch:
 
-1. Access the [Launch from References (Sites console)](../../../sites/authoring/using/launches.md#launches-in-references-sites-console) to show the available actions.
+1. Access the [Launch from References (Sites console)](/help/sites/authoring/using/launches.md#launches-in-references-sites-console) to show the available actions.
 1. Select **Create launch** to open the wizard (as the source has already been selected it will skip the **Select Source** step).  
 
 1. Enter the **Launch Title** and any other required details (as with a normal launch).  
@@ -160,7 +160,7 @@ To create a nested launch from the **Sites** console - based on an existing laun
 
 ### Deleting a Launch {#deleting-a-launch}
 
-You can delete a launch from the [launches console](../../../sites/authoring/using/launches.md#the-launches-console):
+You can delete a launch from the [launches console](/help/sites/authoring/using/launches.md#the-launches-console):
 
 * Select the launch, by tapping/clicking on the thumbnail.
 * The toolbar will appear - select Delete.

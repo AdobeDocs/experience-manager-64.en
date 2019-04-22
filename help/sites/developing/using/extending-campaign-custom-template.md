@@ -13,11 +13,11 @@ discoiquuid: c3f6eed4-bbda-454a-88ce-c7f2041d4217
 
 # Creating Custom AEM Page Template with Adobe Campaign Form Components{#creating-custom-aem-page-template-with-adobe-campaign-form-components}
 
-This page explains how to build a custom page template that uses [Adobe Campaign Form](../../../sites/authoring/using/adobe-campaign-components.md) components by examining how the Geometrixx-outdoors template ( `/apps/geometrixx-outdoors/components/page_campaign_profile`) is implemented, and points you to important information you may need when creating your own custom template.
+This page explains how to build a custom page template that uses [Adobe Campaign Form](/help/sites/authoring/using/adobe-campaign-components.md) components by examining how the Geometrixx-outdoors template ( `/apps/geometrixx-outdoors/components/page_campaign_profile`) is implemented, and points you to important information you may need when creating your own custom template.
 
 >[!NOTE]
 >
->[Email and form samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md). Please download sample Geometrixx content from Package Share.
+>[Email and form samples are only available in Geometrixx](/help/sites/developing/using/we-retail.md). Please download sample Geometrixx content from Package Share.
 
 To create a custom AEM page template using Adobe Campaign Form components, make sure you have the following:
 

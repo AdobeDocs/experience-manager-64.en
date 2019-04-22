@@ -13,7 +13,7 @@ discoiquuid: f38ebd69-8d1c-49b6-824f-4bf0ec8a8953
 
 # Specify XCI configuration options{#specify-xci-configuration-options}
 
-Output enables you to specify a custom XCI file that it uses for rendering. (See [Specify file locations for Output](../../../forms/using/admin-help/specify-file-locations-output.md#specify-file-locations-for-output).) By default, Output overrides some of the options specified in the XCI file, including the following:
+Output enables you to specify a custom XCI file that it uses for rendering. (See [Specify file locations for Output](/help/forms/using/admin-help/specify-file-locations-output.md#specify-file-locations-for-output).) By default, Output overrides some of the options specified in the XCI file, including the following:
 
 * `config/present/xdp/packets`
 * `config/present/pdf/creator`

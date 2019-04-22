@@ -15,7 +15,7 @@ discoiquuid: 9248d09c-b749-4aca-9167-1707c1dd8a53
 
 The Rich Text Editor (RTE) provides authors with a wide range of functionality for editing their text content. Icons, selection boxes, toolbar, and menus are provided for a WYSIWYG text-editing experience.
 
-RTE can be configured to enable, disable, and extend the features available in the authoring components. To know how to use RTE features for authoring, see [Use Rich Text Editor for authoring](../../../sites/authoring/using/rich-text-editor.md).
+RTE can be configured to enable, disable, and extend the features available in the authoring components. To know how to use RTE features for authoring, see [Use Rich Text Editor for authoring](/help/sites/authoring/using/rich-text-editor.md).
 
 The following workflow illustrates a recommended order of completing the RTE configuration tasks.
 
@@ -25,7 +25,7 @@ Typical workflow to configure Rich Text Editor
 
 ## Understand Touch-enabled UI and Classic UI {#understand-touch-enabled-ui-and-classic-ui}
 
-The Touch-enabled UI is the standard UI for AEM. Adobe introduced Touch UI with [responsive design](../../../sites/authoring/using/responsive-layout.md) for authoring environment, in version 5.6. The Touch UI is designed for touch and desktop devices. The UI differs considerably from the original classic UI.
+The Touch-enabled UI is the standard UI for AEM. Adobe introduced Touch UI with [responsive design](/help/sites/authoring/using/responsive-layout.md) for authoring environment, in version 5.6. The Touch UI is designed for touch and desktop devices. The UI differs considerably from the original classic UI.
 
 ![Rich Text Editor toolbar in Touch-enabled UI](assets/chlimage_1-404.png)
 
@@ -37,10 +37,10 @@ Rich Text Editor toolbar in Classic UI
 
 **See also**:
 
-* [UI recommendations](../../../sites/deploying/using/ui-recommendations.md)
-* About deprecating the Classic UI, see [AEM 6.4 Release Notes](../../../release-notes/deprecated-removed-features.md)
+* [UI recommendations](/help/sites/deploying/using/ui-recommendations.md)
+* About deprecating the Classic UI, see [AEM 6.4 Release Notes](/help/release-notes/deprecated-removed-features.md)
 * For difference between the UIs, see [Touch UI and Classic UI](https://aemcq5pedia.wordpress.com/2018/01/05/touch-enabled-ui-aem6-3/)
-* To understand the Touch-enabled UI in detail, see [Concepts of AEM Touch UI](../../../sites/developing/using/touch-ui-concepts.md)
+* To understand the Touch-enabled UI in detail, see [Concepts of AEM Touch UI](/help/sites/developing/using/touch-ui-concepts.md)
 
 ## Various modes of editing {#editingmodes}
 
@@ -137,7 +137,7 @@ Basic features of the RTE are activated, or deactivated, by the value of the `fe
 
 The following table lists the current plug-ins, showing:
 
-* Plug-in IDs with a link to API documentation. ID is used as the node name when [activating a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
+* Plug-in IDs with a link to API documentation. ID is used as the node name when [activating a plug-in](/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 * Permitted values for the `features` property.
 * A description of the functionality provided by the plug-in.
 
@@ -151,7 +151,7 @@ The following table lists the current plug-ins, showing:
   <tr> 
    <td valign="top" width="100"><p>edit</p> </td> 
    <td valign="top" width="100"><p>cut<br /> copy<br /> paste-default<br /> paste-plaintext<br /> paste-wordhtml</p> </td> 
-   <td valign="top" width="200"><p><a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Cut, copy and, the three paste modes</a>.</p> </td> 
+   <td valign="top" width="200"><p><a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Cut, copy and, the three paste modes</a>.</p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FindReplacePlugin">findreplace</a></p> </td> 
@@ -161,7 +161,7 @@ The following table lists the current plug-ins, showing:
   <tr> 
    <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FormatPlugin">format</a></p> </td> 
    <td valign="top" width="100"><p>bold<br /> italic<br /> underline</p> </td> 
-   <td valign="top" width="200"><p><a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Basic text formatting</a>.</p> </td> 
+   <td valign="top" width="200"><p><a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Basic text formatting</a>.</p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ImagePlugin">image</a></p> </td> 
@@ -171,7 +171,7 @@ The following table lists the current plug-ins, showing:
   <tr> 
    <td valign="top"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.KeyPlugin">keys</a></p> </td> 
    <td valign="top"><p> </p> </td> 
-   <td valign="top"><p>To define this value, see <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#tabsize" target="_blank">tab size</a>.</p> </td> 
+   <td valign="top"><p>To define this value, see <a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#tabsize" target="_blank">tab size</a>.</p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.JustifyPlugin">justify</a></p> </td> 
@@ -181,32 +181,32 @@ The following table lists the current plug-ins, showing:
   <tr> 
    <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.LinkPlugin">links</a></p> </td> 
    <td valign="top" width="100"><p>modifylink<br /> unlink<br /> anchor</p> </td> 
-   <td valign="top" width="200"><p><a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#linkstyles" target="_blank">Hyperlinks and anchors</a>.</p> </td> 
+   <td valign="top" width="200"><p><a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#linkstyles" target="_blank">Hyperlinks and anchors</a>.</p> </td> 
   </tr> 
   <tr> 
    <td valign="top"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ListPlugin">lists</a></p> </td> 
    <td valign="top"><p>ordered<br /> unordered<br /> indent<br /> outdent</p> </td> 
-   <td valign="top"><p>This plug-in controls both <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#indentmargin" target="_blank">indentation and lists</a>; including nested lists.</p> </td> 
+   <td valign="top"><p>This plug-in controls both <a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#indentmargin" target="_blank">indentation and lists</a>; including nested lists.</p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.MiscToolsPlugin">misctools</a></p> </td> 
    <td valign="top" width="100"><p>specialchars<br /> sourceedit</p> </td> 
-   <td valign="top" width="200">Miscellaneous tools allow authors to enter <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#spchar" target="_blank">special characters</a> or edit the HTML source. Also, you can add a whole <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#definerangechar" target="_blank">range of special characters</a> if you want to define your own list.</td> 
+   <td valign="top" width="200">Miscellaneous tools allow authors to enter <a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#spchar" target="_blank">special characters</a> or edit the HTML source. Also, you can add a whole <a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#definerangechar" target="_blank">range of special characters</a> if you want to define your own list.</td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p>Paraformat</p> </td> 
    <td valign="top" width="100"><p>paraformat</p> </td> 
-   <td valign="top" width="200">The default paragraph formats are Paragraph, Heading 1, Heading 2, and Heading 3 (&lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt;). You can <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#paraformats" target="_blank">add more paragraph formats</a> or extend the list.</td> 
+   <td valign="top" width="200">The default paragraph formats are Paragraph, Heading 1, Heading 2, and Heading 3 (&lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt;). You can <a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#paraformats" target="_blank">add more paragraph formats</a> or extend the list.</td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p>spellcheck</p> </td> 
    <td valign="top" width="100"><p>checktext</p> </td> 
-   <td valign="top" width="200"><p><a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#adddict" target="_blank">Language aware spell checker</a>.</p> </td> 
+   <td valign="top" width="200"><p><a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#adddict" target="_blank">Language aware spell checker</a>.</p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p>styles</p> </td> 
    <td valign="top" width="100"><p>styles</p> </td> 
-   <td valign="top" width="200">Support for styling using a CSS class. <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="-blank">Add new text styles</a> if you want to add (or extend) your own range of styles for use with text.</td> 
+   <td valign="top" width="200">Support for styling using a CSS class. <a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="-blank">Add new text styles</a> if you want to add (or extend) your own range of styles for use with text.</td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p>subsuperscript</p> </td> 
@@ -216,12 +216,12 @@ The following table lists the current plug-ins, showing:
   <tr> 
    <td valign="top" width="100"><p>table</p> </td> 
    <td valign="top" width="100"><p>table<br /> removetable<br /> insertrow<br /> removerow<br /> insertcolumn<br /> removecolumn<br /> cellprops<br /> mergecells<br /> splitcell<br /> selectrow<br /> selectcolumns</p> </td> 
-   <td valign="top" width="200">See <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#tablestyles" target="_blank">configure table styles</a>, if you want to add your own styles for either entire tables or individual cells.</td> 
+   <td valign="top" width="200">See <a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#tablestyles" target="_blank">configure table styles</a>, if you want to add your own styles for either entire tables or individual cells.</td> 
   </tr> 
   <tr> 
    <td valign="top" width="100"><p>undo</p> </td> 
    <td valign="top" width="100"><p>undo<br /> redo</p> </td> 
-   <td valign="top" width="200">History size of <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#undohistory" target="_blank">undo and redo</a> operations.</td> 
+   <td valign="top" width="200">History size of <a href="/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#undohistory" target="_blank">undo and redo</a> operations.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -232,7 +232,7 @@ The following table lists the current plug-ins, showing:
 
 ## Understand the configuration paths and locations {#understand-the-configuration-paths-and-locations}
 
-The [mode of RTE editing (and the UI)](#editingmodes) that you provide for your authors decide the location for the configuration details when you are [activating the RTE plug-ins](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin):
+The [mode of RTE editing (and the UI)](#editingmodes) that you provide for your authors decide the location for the configuration details when you are [activating the RTE plug-ins](/help/sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin):
 
 | Editing mode |Location for Touch UI |Location for Classic UI |
 |---|---|---|
@@ -269,11 +269,11 @@ When RTE is used in the touch-enabled dialog, setting the property `useFixedInli
 
 RTE functionalities are made available via a series of plug-ins, each with features property. You can configure the features property to enable or disable the various features of each plug-in.
 
-For detailed configurations of the RTE plug-ins, see [how to activate and configure the RTE plug-ins](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md).
+For detailed configurations of the RTE plug-ins, see [how to activate and configure the RTE plug-ins](/help/sites/administering/using/configure-rich-text-editor-plug-ins.md).
 
 >[!NOTE]
 >
->The [Core Components text component](https://helpx.adobe.com/experience-manager/core-components/using/text.html) allows template editors to configure many RTE plug-ins in the user interface as content policies, eliminating the need for technical configuration. Content policies can work with RTE user interface configurations as described. For more information, see the [RTE user interface settings and content polices](../../../sites/administering/using/rich-text-editor.md#rtecontentpolicies), [Create page templates](../../../sites/authoring/using/templates.md), and the [Core Components developer documentation](https://helpx.adobe.com/experience-manager/core-components/using/developing.html).
+>The [Core Components text component](https://helpx.adobe.com/experience-manager/core-components/using/text.html) allows template editors to configure many RTE plug-ins in the user interface as content policies, eliminating the need for technical configuration. Content policies can work with RTE user interface configurations as described. For more information, see the [RTE user interface settings and content polices](/help/sites/administering/using/rich-text-editor.md#rtecontentpolicies), [Create page templates](/help/sites/authoring/using/templates.md), and the [Core Components developer documentation](https://helpx.adobe.com/experience-manager/core-components/using/developing.html).
 
 >[!NOTE]
 >
@@ -344,7 +344,7 @@ The pop-up node under inline or full-screen mode contains a list of the popovers
 
 ## RTE user interface settings and content policies {#rtecontentpolicies}
 
-Administrators can control the RTE options using content policies, say instead of doing the configuration as described above. Content policies define the design properties of a component when used as part of an [editable template](../../../sites/authoring/using/templates.md). For example, if a text component that uses the RTE is used with an editable template, the content policy can define that the bold option be available and a few paragraph formatting options be available. Content policies are reusable and can be applied across multiple templates.
+Administrators can control the RTE options using content policies, say instead of doing the configuration as described above. Content policies define the design properties of a component when used as part of an [editable template](/help/sites/authoring/using/templates.md). For example, if a text component that uses the RTE is used with an editable template, the content policy can define that the bold option be available and a few paragraph formatting options be available. Content policies are reusable and can be applied across multiple templates.
 
 AEM 6.4 Service Pack 3 onwards, the available options in the RTE flow downstream from the user interface configurations to the content policies.
 
@@ -432,9 +432,9 @@ The above options can be used to extend and customize your own RTE. For example,
 
 ## Known limitations {#known-limitations}
 
-* **Use only in AEM components** - RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](../../../sites/developing/using/page-properties-views.md) and [Scaffolding](../../../sites/authoring/using/scaffolding.md) on Touch-enabled UI.
+* **Use only in AEM components** - RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](/help/sites/developing/using/page-properties-views.md) and [Scaffolding](/help/sites/authoring/using/scaffolding.md) on Touch-enabled UI.
 
-* **Does not work with Hybrid devices** - AEM does not work on [Hybrid devices](../../../release-notes/known-issues.md)
+* **Does not work with Hybrid devices** - AEM does not work on [Hybrid devices](/help/release-notes/known-issues.md)
 
 * **Configuration node cannot be named config** - Do not name the RTE configuration node `config`. Otherwise, the RTE configuration takes effect for only the administrators and not for the users in the group `content-author`.
 

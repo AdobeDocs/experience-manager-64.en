@@ -19,5 +19,5 @@ In the **Projects** console, you access and take action on your projects.
 
 >[!NOTE]
 >
->Projects are not available in classic UI. See [Projects](../../../sites/authoring/using/projects.md) in the standard authoring documentation for details.
+>Projects are not available in classic UI. See [Projects](/help/sites/authoring/using/projects.md) in the standard authoring documentation for details.
 

@@ -14,14 +14,14 @@ discoiquuid: 31e97723-d637-4a18-999d-36e00fbd031a
 
  ![](assets/04-create-form-data-model-main.png)
 
-| This tutorial is a step in the [Create Your First Adaptive Form](../../forms/using/create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
+| This tutorial is a step in the [Create Your First Adaptive Form](/help/forms/using/create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|
 
 ## About the tutorial {#about-the-tutorial}
 
 AEM Forms data integration module allows you to create a form data model from disparate backend data sources such as AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. You can configure data model objects and services in a form data model and associate it with an adaptive form. Adaptive form fields are bound to data model object properties. The services enable you to prefill the adaptive form and write submitted form data back to the data model object.
 
-For more information about form data integration and form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+For more information about form data integration and form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
 This tutorial walks you through the steps to prepare, create, configure, and associate a form data model with an adaptive form. At the end of this tutorial, you will be able to:
 
@@ -40,13 +40,13 @@ The form data model will look similar to the following:
 
 Before you begin, ensure that you have the following:
 
-* MySQL database with sample data as stated in the Prerequisites section of [Create your first adaptive form](../../forms/using/create-your-first-adaptive-form.md)
-* OSGi bundle for MySQL JDBC driver as explained in [Bundling the JDBC Database Driver](../../sites/developing/using/jdbc.md#bundling-the-jdbc-database-driver)
-* Adaptive form as explained in the first tutorial [Create an adaptive form](../../forms/using/create-adaptive-form.md)
+* MySQL database with sample data as stated in the Prerequisites section of [Create your first adaptive form](/help/forms/using/create-your-first-adaptive-form.md)
+* OSGi bundle for MySQL JDBC driver as explained in [Bundling the JDBC Database Driver](/help/sites/developing/using/jdbc.md#bundling-the-jdbc-database-driver)
+* Adaptive form as explained in the first tutorial [Create an adaptive form](/help/forms/using/create-adaptive-form.md)
 
 ## Step 1: Configure MySQL database as data source {#config-database}
 
-You can configure different types of data sources to create a form data model. For this tutorial, we will configure the MySQL database that you configured and populated with sample data. For information about other supported data sources and how to configure them, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+You can configure different types of data sources to create a form data model. For this tutorial, we will configure the MySQL database that you configured and populated with sample data. For information about other supported data sources and how to configure them, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
 Do the following to configure your MySQL database:
 
@@ -89,7 +89,7 @@ Do the following to configure your MySQL database:
 
 ## Step 2: Create form data model {#create-fdm}
 
-AEM Forms provides an intuitive user interface to [create a form data mode](../../forms/using/data-integration.md#main-pars-header-1524967585)l from configured data sources. You can use multiple data sources in a form data model. For our use case, we will use the configured MySQL data source.
+AEM Forms provides an intuitive user interface to [create a form data mode](/help/forms/using/data-integration.md#main-pars-header-1524967585)l from configured data sources. You can use multiple data sources in a form data model. For our use case, we will use the configured MySQL data source.
 
 Do the following to create form data model:
 

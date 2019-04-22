@@ -17,6 +17,6 @@ discoiquuid: c7968dc7-2fcd-4523-94d3-c3e4d4993fd3
 >
 >Adobe will not further enhance E-mail tracking of open/bounces (not deliverable) sent by the AEM SMTP service.
 >
->Adobe's recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Adobe's recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
-This feature is available in the classic user interface. See [Tracking Bounced Emails in the classic UI](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-email-tracking-bounces.md).
+This feature is available in the classic user interface. See [Tracking Bounced Emails in the classic UI](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-email-tracking-bounces.md).

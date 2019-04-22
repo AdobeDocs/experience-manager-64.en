@@ -82,13 +82,13 @@ This issue may occur if the player is unable to find the AEM Screens Server DNS.
 
 A cross platform Android watchdog using pure Android APIs is already a part of the apk. No additional software is needed but depending on the device you use, you may need to resign the apk to obtain system privileges for a full power cycle (Powermanager api). If it is not resigned using the manufacturer keys, it will quit and restart the application but not power cycle.
 
-For more information on how to implement Android Player, please refer to [**Implementing Android Player**](../../screens/using/implementing-android-player.md).
+For more information on how to implement Android Player, please refer to [**Implementing Android Player**](/help/screens/using/implementing-android-player.md).
 
 ### What third-party remote monitoring and alerting tools (software) does Adobe/AMS recommend for monitoring each device?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 Depending on what you desire out of the monitoring and alerts, a new feature AEM Screens Notifications service notifies you if a device has not pinged in a while. The third-party tools will depend on your Operating System (OS), its capabilities and the customer’s specific needs.
 
-For more information on where you can monitor device activity, please refer to [**AEM Screens Notifications Service**](../../screens/using/screens-notifications-service.md).
+For more information on where you can monitor device activity, please refer to [**AEM Screens Notifications Service**](/help/screens/using/screens-notifications-service.md).
 
 ## AEM Screens Player {#aem-screens-player}
 

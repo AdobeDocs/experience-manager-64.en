@@ -35,7 +35,7 @@ The default suite that runs after adding the parameters is named `toughday`. It 
 
 The suite contains 15% write actions and 85% read actions.
 
-To run the suite tests, Tough Day 2 will install its default content package. This can be avoided by setting the `installsamplecontent`parameter to `false`, but remember that you should also change the default paths for the tests that you intend to run. If the jar is run without parameters, Tough Day 2 displays the [help information](../../../sites/developing/using/tough-day.md#getting-help).
+To run the suite tests, Tough Day 2 will install its default content package. This can be avoided by setting the `installsamplecontent`parameter to `false`, but remember that you should also change the default paths for the tests that you intend to run. If the jar is run without parameters, Tough Day 2 displays the [help information](/help/sites/developing/using/tough-day.md#getting-help).
 
 As a general rule, you can use the application by following this pattern:
 
@@ -234,7 +234,7 @@ tests:
   - add : CreatePageTreeTest
 ```
 
-Existing tests in a given suite can also be reconfigured using the `config`* *parameter. Please note that you must also specify the suite name and the actual name of the test (not the Test Class name). You can find the test name in the `name` property of the Test Class. For further details on how to find test properties, read the [Changing Test Properties](../../../sites/developing/using/tough-day.md#changing-the-test-properties) section.
+Existing tests in a given suite can also be reconfigured using the `config`* *parameter. Please note that you must also specify the suite name and the actual name of the test (not the Test Class name). You can find the test name in the `name` property of the Test Class. For further details on how to find test properties, read the [Changing Test Properties](/help/sites/developing/using/tough-day.md#changing-the-test-properties) section.
 
 In the example below the default asset title for the `CreatePageTreeTest` (named `UploadAsset`) is changed to "NewAsset".
 
@@ -398,7 +398,7 @@ Tough Day 2 creates a logs folder in the same directory where you ran Tough Day 
 * **toughday.log**: contains messages related to the application state, debugging information and global messages.
 * **toughday_&lt;testname&gt;.log**: messages related to the specified test.
 
-The logs are not overwritten, subsequent runs will append messages to the existing logs. The logs have several levels, for more information see the ` [loglevel parameter](../../../sites/developing/using/tough-day.md#global-parameters)`.
+The logs are not overwritten, subsequent runs will append messages to the existing logs. The logs have several levels, for more information see the ` [loglevel parameter](/help/sites/developing/using/tough-day.md#global-parameters)`.
 
 #### Example Usage {#example-usage}
 

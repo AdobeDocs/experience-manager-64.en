@@ -15,7 +15,7 @@ discoiquuid: a87834c9-247c-49fa-9978-a969230db91c
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 The **Manage App** Tile on the App Dashboard provides the ability to modify details about the Application. To open the Details page click on the Manage App tile's details link. From within the Manage App page you can edit the PhoneGap Application Configuration (config.xml) settings and prepare your application for submission to the various application stores.
 
@@ -48,7 +48,7 @@ Each vendor application store, such as Apple App Store or Google Play Store, for
 >
 >The AEM Verify app provides the ability to send screenshots directly to your app details in AEM.
 >
->See [Mobile Quickstart for AEM Verify](../../mobile/using/phonegap-mobile-quickstart.md) for more details.
+>See [Mobile Quickstart for AEM Verify](/help/mobile/using/phonegap-mobile-quickstart.md) for more details.
 
 ![](assets/chlimage_1-118.png) 
 
@@ -56,7 +56,7 @@ Each vendor application store, such as Apple App Store or Google Play Store, for
 
 >[!NOTE]
 >
->Once you are familiar with the **Manage App** tile, see [Editing App Metadata](../../mobile/using/phonegap-editmetadata.md) to view and edit the metadata.
+>Once you are familiar with the **Manage App** tile, see [Editing App Metadata](/help/mobile/using/phonegap-editmetadata.md) to view and edit the metadata.
 
 #### Common Metadata {#common-metadata}
 
@@ -138,7 +138,7 @@ The **Screenshots** tab displays the supported screenshot resolutions on differe
 
 >[!NOTE]
 >
->To add and remove screenshots, see [Editing App Metadata](../../mobile/using/phonegap-editmetadata.md).
+>To add and remove screenshots, see [Editing App Metadata](/help/mobile/using/phonegap-editmetadata.md).
 
 ### The Authentication tab {#the-authentication-tab}
 
@@ -150,16 +150,16 @@ The **Authentication** tab allows you to select an OAuth client to be assoicated
 
 Once you have learnt about Managing App Tile in the application dashboard, see the following resources for other authoring roles:
 
-* [Editing App Metadata](../../mobile/using/phonegap-editmetadata.md)
-* [App Definitions](../../mobile/using/phonegap-app-definitions.md)
-* [Creating a New App using Create App Wizard](../../mobile/using/phonegap-create-new-app.md)
-* [Import an Existing Hybrid App](../../mobile/using/phonegap-import-hybrid-app.md)
+* [Editing App Metadata](/help/mobile/using/phonegap-editmetadata.md)
+* [App Definitions](/help/mobile/using/phonegap-app-definitions.md)
+* [Creating a New App using Create App Wizard](/help/mobile/using/phonegap-create-new-app.md)
+* [Import an Existing Hybrid App](/help/mobile/using/phonegap-import-hybrid-app.md)
 * [Content Services](/mobile/using/content-as-a-service.md)
 
 ### Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Developing for Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md)
-* [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md)
+* [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/developing-in-phonegap.md)
+* [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md)
 

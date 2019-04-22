@@ -39,7 +39,7 @@ To use the VLT tool, you first need to install it. It is not installed by defaul
 
 1. Copy the FileVault archive file from the cq-quickstart/opt/filevault directory of your installation. Copy either filevalut.tgz or filevault.zip, depending on your operating system.
 
-   You can also download the latest version of FileVault from [Package Share](../../../sites/administering/using/package-manager.md).
+   You can also download the latest version of FileVault from [Package Share](/help/sites/administering/using/package-manager.md).
 
 1. Extract the archive.
 1. Add `<archive-dir>/vault-cli-<version>/bin` to your environment `PATH` so that the command files vlt or vlt.bat are accessed as appropriate.
@@ -1267,7 +1267,7 @@ Once the service is running it can be configured with the following parameters:
 >
 >The service can be configured with the Web console or a `sling:OsgiConfig` node (with the name `com.day.jcr.sync.impl.VaultSyncServiceImpl`) in the repository.
 >
->When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details.
+>When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details.
 
 #### Sync folder configuration {#sync-folder-configuration}
 

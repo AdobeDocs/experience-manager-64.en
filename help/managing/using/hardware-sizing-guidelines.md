@@ -46,7 +46,7 @@ Basic factors to consider are (in this order):
 
 ## Architecture {#architecture}
 
-A typical AEM setup consists of an author and a publish environment. These environments have different requirements regarding the underlying hardware size and system configuration. Detailed considerations for both environments are described in the [author environment](../../managing/using/hardware-sizing-guidelines.md#author-environment-specific-calculations) and [publish environment](../../managing/using/hardware-sizing-guidelines.md#publish-environment-specific-calculations) sections.
+A typical AEM setup consists of an author and a publish environment. These environments have different requirements regarding the underlying hardware size and system configuration. Detailed considerations for both environments are described in the [author environment](/help/managing/using/hardware-sizing-guidelines.md#author-environment-specific-calculations) and [publish environment](/help/managing/using/hardware-sizing-guidelines.md#publish-environment-specific-calculations) sections.
 
 In a typical project setup, you have several environments on which to stage project phases:
 
@@ -71,7 +71,7 @@ Additionally the environments may vary, ranging from a single-server system runn
 
 The sections below provide guidance on how to calculate hardware requirements, taking various considerations into account. For large systems we suggest that you perform a simple set of in-house benchmark tests on a reference configuration.
 
-Performance optimization is a fundamental task that needs to be performed before any benchmarking for a specific project can be done. Please make sure to apply the advice provided in the [Performance Optimization documentation](../../sites/deploying/using/configuring-performance.md) before performing any benchmark tests and using their results for any hardware sizing calculations.
+Performance optimization is a fundamental task that needs to be performed before any benchmarking for a specific project can be done. Please make sure to apply the advice provided in the [Performance Optimization documentation](/help/sites/deploying/using/configuring-performance.md) before performing any benchmark tests and using their results for any hardware sizing calculations.
 
 Hardware sizing requirements for advanced use cases need to be based on a detailed performance assessment of the project. Characteristics of advanced use cases requiring exceptional hardware resources include combinations of:
 
@@ -108,12 +108,12 @@ A fail-safe website is deployed on at least two separate systems. If one system 
 
 **System resources scalability**
 
-While all systems are running, an increased computational performance is available. That additional performance is not necessarily linear with the number of cluster nodes as the relationship is highly dependent on the technical environment; please see the [Cluster documentation](../../sites/deploying/using/recommended-deploys.md) for more information.
+While all systems are running, an increased computational performance is available. That additional performance is not necessarily linear with the number of cluster nodes as the relationship is highly dependent on the technical environment; please see the [Cluster documentation](/help/sites/deploying/using/recommended-deploys.md) for more information.
 
 The estimation of how many cluster nodes are necessary is based on the basic requirements and specific use-cases of the particular web project:
 
 * From the perspective of fail-safeness it is necessary to determine, for all environments, how critical failure is and the failure compensation time based on how long it takes for a cluster node to recover.
-* For the aspect of scalability, the number of write operations is basically the most important factor; see [Authors Working in Parallel](../../managing/using/hardware-sizing-guidelines.md#authors-working-in-parallel) for the author environment and [Social Collaboration](../../managing/using/hardware-sizing-guidelines.md#aem-communities-sizing-considerations) for the publish environment. Load balancing can be established for operations that access the system solely to process read operations; see [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html) for details.
+* For the aspect of scalability, the number of write operations is basically the most important factor; see [Authors Working in Parallel](/help/managing/using/hardware-sizing-guidelines.md#authors-working-in-parallel) for the author environment and [Social Collaboration](/help/managing/using/hardware-sizing-guidelines.md#aem-communities-sizing-considerations) for the publish environment. Load balancing can be established for operations that access the system solely to process read operations; see [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html) for details.
 
 ## Author environment specific calculations {#author-environment-specific-calculations}
 
@@ -177,7 +177,7 @@ You can calculate the number of computers (or CPUs) required for the author envi
 
 This formula can serve as a general guideline for scaling CPUs when authors are performing basic operations with AEM. It assumes that the system and the application are optimized. However, the formula will not hold true for advanced features such as MSM or Assets (see the sections below).
 
-Please also see the additional comments on [Parallelization](../../managing/using/hardware-sizing-guidelines.md#parallelization-of-aem-instances) and [Performance Optimization](../../sites/deploying/using/configuring-performance.md).
+Please also see the additional comments on [Parallelization](/help/managing/using/hardware-sizing-guidelines.md#parallelization-of-aem-instances) and [Performance Optimization](/help/sites/deploying/using/configuring-performance.md).
 
 ### Hardware Recommendations {#hardware-recommendations}
 
@@ -289,7 +289,7 @@ In addition to the calculation for a default web application, you may need to co
 
 Extensive processing of digital assets requires optimized hardware resources, the most relevant factors are image size and the peak throughput of processed images.
 
-Allocate at least 16GB of heap and configure the DAM Update Asset workflow to use the [Camera Raw package](../../assets/using/camera-raw.md) for the ingestion of raw images.
+Allocate at least 16GB of heap and configure the DAM Update Asset workflow to use the [Camera Raw package](/help/assets/using/camera-raw.md) for the ingestion of raw images.
 
 >[!NOTE]
 >
@@ -299,7 +299,7 @@ Allocate at least 16GB of heap and configure the DAM Update Asset workflow to us
 
 >[!NOTE]
 >
->See also the [Assets Performance Guide](../../sites/deploying/using/assets-performance-sizing.md).
+>See also the [Assets Performance Guide](/help/sites/deploying/using/assets-performance-sizing.md).
 
 ### Multi-Site Manager {#multi-site-manager}
 
@@ -325,6 +325,6 @@ User generated content (UGC) submitted members is stored separately from page co
 For the UGC store, it is necessary to choose a storage resource provider (SRP), which influences the chosen deployment.  
 See
 
-* [Community Content Storage](../../communities/using/working-with-srp.md)
-* [Recommended Topologies for Communities](../../communities/using/topologies.md)
+* [Community Content Storage](/help/communities/using/working-with-srp.md)
+* [Recommended Topologies for Communities](/help/communities/using/topologies.md)
 

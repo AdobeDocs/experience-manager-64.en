@@ -13,7 +13,7 @@ discoiquuid: efbe46a3-c37f-4b67-8b3a-188cfc75118b
 
 # Developer Mode{#developer-mode}
 
-When editing pages in AEM, several [modes](../../../sites/authoring/using/author-environment-tools.md#page-modes) are available, including Developer mode. This opens a side panel with several tabs that provide a developer with infomation about the current page. The three tabs are:
+When editing pages in AEM, several [modes](/help/sites/authoring/using/author-environment-tools.md#page-modes) are available, including Developer mode. This opens a side panel with several tabs that provide a developer with infomation about the current page. The three tabs are:
 
 * **[Components](#components)** for viewing sructure and performance information.
 * **[Tests](#tests)** for running tests and analyzing the results.
@@ -66,9 +66,9 @@ Developer mode is implemented as a side panel to the page editor. To open the pa
 
 The panel is divided into two tabs:
 
-* ** [Components](../../../sites/developing/using/developer-mode.md#components)** - This shows a component tree, similar to the [content tree](../../../sites/authoring/using/author-environment-tools.md#content-tree) for authors
+* ** [Components](/help/sites/developing/using/developer-mode.md#components)** - This shows a component tree, similar to the [content tree](/help/sites/authoring/using/author-environment-tools.md#content-tree) for authors
 
-* ** [Errors](../../../sites/developing/using/developer-mode.md#errors)** - When problems occur, details are shown for each component.
+* ** [Errors](/help/sites/developing/using/developer-mode.md#errors)** - When problems occur, details are shown for each component.
 
 ### Components {#components}
 
@@ -115,7 +115,7 @@ Each component entry can show (for example):
 
 >[!CAUTION]
 >
->Some links point to scripts under `/libs`. However, these are for reference only, you **must not** edit anything under `/libs`, as any changes you do make may be lost. This is due to the fact that this branch is liable to changes whenever you upgrade or apply a hotfix/feature pack. Any changes you require should be made under `/apps`, see [Overlays and Overrides](../../../sites/developing/using/overlays.md).
+>Some links point to scripts under `/libs`. However, these are for reference only, you **must not** edit anything under `/libs`, as any changes you do make may be lost. This is due to the fact that this branch is liable to changes whenever you upgrade or apply a hotfix/feature pack. Any changes you require should be made under `/apps`, see [Overlays and Overrides](/help/sites/developing/using/overlays.md).
 
 ### Errors {#errors}
 
@@ -138,5 +138,5 @@ The component entry in the tree of the Components tab will also be marked with a
 >
 >In AEM 6.2, the testing features of Developer mode was re-implemented as a standalone Tools application.
 >
->For full details see [Testing Your UI](../../../sites/developing/using/hobbes.md).
+>For full details see [Testing Your UI](/help/sites/developing/using/hobbes.md).
 

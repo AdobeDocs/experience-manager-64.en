@@ -14,13 +14,13 @@ The European Union's General Data Protection Regulation on data privacy rights t
 
 >[!NOTE]
 >
->See [AEM GDPR Readiness](../../../managing/using/gdpr-compliance.md) for further details.
+>See [AEM GDPR Readiness](/help/managing/using/gdpr-compliance.md) for further details.
 
 ![](assets/screen_shot_2018-03-22at111606.jpg)
 
 In our out-of-the-box Commerce integrations, AEM is the experience layer, consuming services and sending data back to the customer commerce platform that runs in a headless mode.
 
-For some commerce platforms, we store profile information ( `/home/users`) and commerce tokens (to login in the commerce platform) in AEM. For these use cases, please read [Handling GDPR Requests for the AEM Platform](../../../sites/administering/using/handling-gdpr-requests-for-aem-platform.md).
+For some commerce platforms, we store profile information ( `/home/users`) and commerce tokens (to login in the commerce platform) in AEM. For these use cases, please read [Handling GDPR Requests for the AEM Platform](/help/sites/administering/using/handling-gdpr-requests-for-aem-platform.md).
 
 ![](assets/screen_shot_2018-03-22at111621.jpg)
 
@@ -28,7 +28,7 @@ For some commerce platforms, we store profile information ( `/home/users`) and c
 
 For the Salesforces Commerce Cloud integration, AEM Commerce does not store any GDPR relevant information. You should forward the request to the [Salesforce Cloud](https://documentation.demandware.com/).
 
-For the hybris and IBM WebSphere integrations, there is some data in AEM. You should use the [AEM Platform GDPR instructions](../../../sites/administering/using/handling-gdpr-requests-for-aem-platform.md) and consider these questions:
+For the hybris and IBM WebSphere integrations, there is some data in AEM. You should use the [AEM Platform GDPR instructions](/help/sites/administering/using/handling-gdpr-requests-for-aem-platform.md) and consider these questions:
 
 1. **Where is my data stored/used?** Cached user profile information such as name, commerce user identifier, token, password, address data, and so on is shown from AEM.
 1. **With whom do I share the covered GDPR data?** Any update of GDPR relevant data in AEM Commerce does not get stored (except relevant profile information, as mentionned above) but is proxied back to the commerce platform.

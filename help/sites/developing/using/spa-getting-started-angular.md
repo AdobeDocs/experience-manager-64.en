@@ -18,7 +18,7 @@ The SPA authoring feature offers a comprehensive solution for supporting SPAs wi
 
 >[!NOTE]
 >
->This article is based on the Angular framework. For the corresponding document for the React framework see [Getting Started with SPAs in AEM - React](../../../sites/developing/using/spa-getting-started-react.md).
+>This article is based on the Angular framework. For the corresponding document for the React framework see [Getting Started with SPAs in AEM - React](/help/sites/developing/using/spa-getting-started-react.md).
 
 ## Introduction {#introduction}
 
@@ -26,11 +26,11 @@ This article summarizes the basic functioning of a simple SPA and the minimum th
 
 For more detail on how SPAs work in AEM, see the following documents:
 
-* [SPA Introduction and Walkthrough](../../../sites/developing/using/spa-walkthrough.md)  
+* [SPA Introduction and Walkthrough](/help/sites/developing/using/spa-walkthrough.md)  
 
-* [SPA Authoring Introduction](../../../sites/developing/using/spa-overview.md)  
+* [SPA Authoring Introduction](/help/sites/developing/using/spa-overview.md)  
 
-* [SPA Blueprint](../../../sites/developing/using/spa-blueprint.md)
+* [SPA Blueprint](/help/sites/developing/using/spa-blueprint.md)
 
 >[!NOTE]
 >
@@ -214,7 +214,7 @@ export class MainContentComponent {
 }
 ```
 
-The `MainComponent` ingests the JSON representation of the page model and processes the content to wrap/decorate each element of the page. Further details on the `Page` can be found in the document [SPA Blueprint](../../../sites/developing/using/spa-blueprint.md).
+The `MainComponent` ingests the JSON representation of the page model and processes the content to wrap/decorate each element of the page. Further details on the `Page` can be found in the document [SPA Blueprint](/help/sites/developing/using/spa-blueprint.md).
 
 ### image.component.ts {#image-component-ts}
 
@@ -247,7 +247,7 @@ export class ImageComponent {
 MapTo('my-angular-app/components/image')(ImageComponent, ImageEditConfig);
 ```
 
-The central idea of SPAs in AEM is the idea of mapping SPA components to AEM components and updating the component when the content is modified (and vice versa). See the document [SPA Editor Overview](../../../sites/developing/using/spa-overview.md) for an summary of this communication model.
+The central idea of SPAs in AEM is the idea of mapping SPA components to AEM components and updating the component when the content is modified (and vice versa). See the document [SPA Editor Overview](/help/sites/developing/using/spa-overview.md) for an summary of this communication model.
 
 `MapTo('my-angular-app/components/image')(Image, ImageEditConfig);`
 
@@ -274,8 +274,8 @@ Finally the image can be rendered in `image.component.html`.
 
 For a step-by-step guide to creating your own SPA, see the [Getting Started with the AEM SPA Editor - WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).
 
-For further information about how to oraganize yourself to develop SPAs for AEM see the article [Developing SPAs for AEM](../../../sites/developing/using/spa-architecture.md).
+For further information about how to oraganize yourself to develop SPAs for AEM see the article [Developing SPAs for AEM](/help/sites/developing/using/spa-architecture.md).
 
-For further details about the dynamic model to component mapping and how it works within SPAs in AEM, see the article [Dynamic Model to Component Mapping for SPAs](../../../sites/developing/using/spa-dynamic-model-to-component-mapping.md).
+For further details about the dynamic model to component mapping and how it works within SPAs in AEM, see the article [Dynamic Model to Component Mapping for SPAs](/help/sites/developing/using/spa-dynamic-model-to-component-mapping.md).
 
-If you wish to implement SPAs in AEM for a framework other than React or Angular or simply wish to take a deep dive into how the SPA SDK for AEM works, refer to the [SPA Blueprint](../../../sites/developing/using/spa-blueprint.md) article.
+If you wish to implement SPAs in AEM for a framework other than React or Angular or simply wish to take a deep dive into how the SPA SDK for AEM works, refer to the [SPA Blueprint](/help/sites/developing/using/spa-blueprint.md) article.

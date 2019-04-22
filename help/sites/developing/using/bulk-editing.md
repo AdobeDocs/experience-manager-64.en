@@ -13,7 +13,7 @@ discoiquuid: fe61ee4b-51b6-4a6f-91d8-1c02b29cc1db
 
 # Configuring your Page for Bulk Editing of Page Properties{#configuring-your-page-for-bulk-editing-of-page-properties}
 
-[Bulk editing of page properties](../../../sites/authoring/using/editing-page-properties.md#from-the-sites-console-multiple-pages) allows you to edit the properties of multiple pages at once.
+[Bulk editing of page properties](/help/sites/authoring/using/editing-page-properties.md#from-the-sites-console-multiple-pages) allows you to edit the properties of multiple pages at once.
 
 Due to the possibility of different values, page properties are not enabled for bulk editing as default. They must be explicitily whitelisted (enabled). When defining the page properties to be available for bulk editing you need to consider certain implications, such as:
 
@@ -32,7 +32,7 @@ Due to the possibility of different values, page properties are not enabled for 
 
 >[!NOTE]
 >
->Bulk editing is also available for Assets. It is very similar, but differs in a few points. See [Editing Properties of Multiple Assets](../../../assets/using/managing-multiple-assets.md) for full information. You can customize the fields in the Bulk Metadata editor for Assets using the [Schema editor](../../../assets/using/metadata-schemas.md).
+>Bulk editing is also available for Assets. It is very similar, but differs in a few points. See [Editing Properties of Multiple Assets](/help/assets/using/managing-multiple-assets.md) for full information. You can customize the fields in the Bulk Metadata editor for Assets using the [Schema editor](/help/assets/using/metadata-schemas.md).
 
 ## Enabling a Field {#enabling-a-field}
 
@@ -67,7 +67,7 @@ Fields are enabled on the page component (*not* on the template):
     
     * **Value**: `true`
 
-   For example, for the standard page [foundation component](../../../sites/authoring/using/default-components-foundation.md):
+   For example, for the standard page [foundation component](/help/sites/authoring/using/default-components-foundation.md):
 
    `/libs/foundation/components/page`
 

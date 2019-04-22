@@ -16,7 +16,7 @@ redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/phonegap-ad
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 ## The Hybrid App Sample {#the-hybrid-app-sample}
 
@@ -36,15 +36,15 @@ Dragging the zipped app onto the AEM Mobile apps catalog will automatically star
 
 See the following resources to learn more about other authoring roles:
 
-* [The Manage App Tile](../../mobile/using/phonegap-app-details-tile.md)
-* [Editing App Metadata](../../mobile/using/phonegap-editmetadata.md)
-* [App Definitions](../../mobile/using/phonegap-app-definitions.md)
-* [Creating a New App using Create App Wizard](../../mobile/using/phonegap-create-new-app.md)
+* [The Manage App Tile](/help/mobile/using/phonegap-app-details-tile.md)
+* [Editing App Metadata](/help/mobile/using/phonegap-editmetadata.md)
+* [App Definitions](/help/mobile/using/phonegap-app-definitions.md)
+* [Creating a New App using Create App Wizard](/help/mobile/using/phonegap-create-new-app.md)
 * [Content Services](/mobile/using/content-as-a-service.md) [](/mobile/using/content-as-a-service.md)
 
 ### Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Developing for Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md)
-* [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md)
+* [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/developing-in-phonegap.md)
+* [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md)

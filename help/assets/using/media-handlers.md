@@ -199,7 +199,7 @@ In this section, you will create a specific Text Handler that generates thumbnai
 
 Proceed as follows:
 
-Refer to [Development Tools](../../sites/developing/using/dev-tools.md) to install and set up Eclipse with a Maven plugin and for setting up the dependencies that are needed for the Maven project.
+Refer to [Development Tools](/help/sites/developing/using/dev-tools.md) to install and set up Eclipse with a Maven plugin and for setting up the dependencies that are needed for the Maven project.
 
 After you perform the following procedure, when you upload a txt file into AEM, the file's metadata are extracted and two thumbnails with a watermark are generated.
 

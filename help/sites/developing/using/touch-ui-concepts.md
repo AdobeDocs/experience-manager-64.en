@@ -13,7 +13,7 @@ discoiquuid: 8c7e5667-14c5-40f3-968a-c574b04671e3
 
 # Concepts of the AEM Touch-Enabled UI{#concepts-of-the-aem-touch-enabled-ui}
 
-With AEM 5.6 Adobe introduced a new touch-enabled UI with [responsive design](../../../sites/authoring/using/responsive-layout.md) for the author environment. This differs considerably from the original classic UI as it is designed to operate on both touch and desktop devices.
+With AEM 5.6 Adobe introduced a new touch-enabled UI with [responsive design](/help/sites/authoring/using/responsive-layout.md) for the author environment. This differs considerably from the original classic UI as it is designed to operate on both touch and desktop devices.
 
 This touch-enabled UI is now the standard UI for AEM, superseding the classic UI.
 
@@ -55,7 +55,7 @@ The touch-enabled UI includes:
 
 >[!NOTE]
 >
->Nearly all AEM functionality has been ported to the touch-enabled UI. However in some limited cases, functionality will revert to the classic UI. See [Touch UI Feature Status](../../../release-notes/touch-ui-features-status.md) for more information.
+>Nearly all AEM functionality has been ported to the touch-enabled UI. However in some limited cases, functionality will revert to the classic UI. See [Touch UI Feature Status](/help/release-notes/touch-ui-features-status.md) for more information.
 
 The touch-enabled UI has been designed by Adobe to provide consistency in the user experience across multiple products. It is based on:
 
@@ -72,7 +72,7 @@ The basic principles of the touch-enabled UI are:
 * Include embedded tests
 * Bottom-up design to ensure these principles are applied to every element and component
 
-For a further overview of the touch-enabled UI structure, see the article [Structure of the AEM Touch-Enabled UI](../../../sites/developing/using/touch-ui-structure.md).
+For a further overview of the touch-enabled UI structure, see the article [Structure of the AEM Touch-Enabled UI](/help/sites/developing/using/touch-ui-structure.md).
 
 ## AEM Technology Stack {#aem-technology-stack}
 
@@ -150,7 +150,7 @@ It primarily consists of a collection of interaction patterns (for example, asyn
 
 The client-side is independent of any server technology. As long as the server gives the appropriate markup, the client-side can fulfil its role.
 
-Currently the JS and CSS codes are delivered as Granite [clientlibs](../../../sites/developing/using/clientlibs.md) under the category:
+Currently the JS and CSS codes are delivered as Granite [clientlibs](/help/sites/developing/using/clientlibs.md) under the category:
 
 `granite.ui.foundation and granite.ui.foundation.admin`
 

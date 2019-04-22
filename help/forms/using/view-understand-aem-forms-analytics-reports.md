@@ -16,11 +16,11 @@ Adobe Experience Manager Forms integrates with Adobe Analytics that allows you t
 
 ## Setting up analytics {#setting-up-analytics}
 
-The analytics feature in AEM Forms is available as part of the AEM Forms add-on package. For information about installing the add-on package, see [Installing and configuring AEM Forms](../../forms/using/installing-configuring-aem-forms-osgi.md).
+The analytics feature in AEM Forms is available as part of the AEM Forms add-on package. For information about installing the add-on package, see [Installing and configuring AEM Forms](/help/forms/using/installing-configuring-aem-forms-osgi.md).
 
 In addition to the add-on package, you need an Adobe Analytics account. For information about the solution, see [Adobe Analytics](https://www.adobe.com/solutions/digital-analytics.html).
 
-Once you have the AEM Forms add-on package and an Adobe Analytics account, integrate Adobe Analytics account with AEM Forms and enable tracking on your forms or documents as described in [Configure analytics and reports](../../forms/using/configure-analytics-forms-documents.md).
+Once you have the AEM Forms add-on package and an Adobe Analytics account, integrate Adobe Analytics account with AEM Forms and enable tracking on your forms or documents as described in [Configure analytics and reports](/help/forms/using/configure-analytics-forms-documents.md).
 
 ## How user interaction information is recorded {#how-user-interaction-information-is-recorded}
 
@@ -140,4 +140,4 @@ Once a filter is applied:
 
 If you have A/B testing enabled and set up for the form, the report page has a drop-down you can use to display the A/B testing report. A/B testing report displays the comparative performance of two versions of the form as you have set up.
 
-For more information on A/B testing, see [Create and manage A/B test for adaptive forms](../../forms/using/ab-testing-adaptive-forms.md). 
+For more information on A/B testing, see [Create and manage A/B test for adaptive forms](/help/forms/using/ab-testing-adaptive-forms.md). 

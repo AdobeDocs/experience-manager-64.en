@@ -23,16 +23,16 @@ Any SPA project on AEM should leverage the [Maven Archetype for SPA Starter Kit]
 
 ## SPA Development Principles for AEM {#spa-development-principles-for-aem}
 
-Developing single page applications on AEM assumes that the front-end developer observes standard best practices when creating an SPA. If as a front end developer you follow these general best practices as well as few AEM-specific principles, your SPA will be functional with [AEM and its content-authoring capabilities](../../../sites/developing/using/spa-walkthrough.md#content-editing-experience-with-spa).
+Developing single page applications on AEM assumes that the front-end developer observes standard best practices when creating an SPA. If as a front end developer you follow these general best practices as well as few AEM-specific principles, your SPA will be functional with [AEM and its content-authoring capabilities](/help/sites/developing/using/spa-walkthrough.md#content-editing-experience-with-spa).
 
-* ** [Portability](../../../sites/developing/using/spa-architecture.md#portability) -** As with any components, the components should be built to be as portable as possible. The SPA should be built with portably and reusable components, avoiding static paths that refer to the content structure.
-* ** [AEM Drives Site Structure](../../../sites/developing/using/spa-architecture.md#aem-drives-site-structure) - **The front-end developer creates components and owns their internal structure, but relies on AEM to define the content structure of the site.
-* ** [Dynamic Rendering](../../../sites/developing/using/spa-architecture.md#dynamic-rendering) -** All rendering should be dynamic.
+* ** [Portability](/help/sites/developing/using/spa-architecture.md#portability) -** As with any components, the components should be built to be as portable as possible. The SPA should be built with portably and reusable components, avoiding static paths that refer to the content structure.
+* ** [AEM Drives Site Structure](/help/sites/developing/using/spa-architecture.md#aem-drives-site-structure) - **The front-end developer creates components and owns their internal structure, but relies on AEM to define the content structure of the site.
+* ** [Dynamic Rendering](/help/sites/developing/using/spa-architecture.md#dynamic-rendering) -** All rendering should be dynamic.
 * ** [Dynamic Routing](#dynamic-routing) -** The SPA is responsible for the routing and AEM listens to it and fetches the component data based on it. Any routing should be dynamic as well.
 
 If you keep these principles in mind as you develop your SPA, it will be as flexible and as future proof as possible while enabling all supported AEM authoring functionality.
 
-If you do not need to support AEM authoring features, you may need to consider a different [SPA design model](../../../sites/developing/using/spa-architecture.md#spa-design-models).
+If you do not need to support AEM authoring features, you may need to consider a different [SPA design model](/help/sites/developing/using/spa-architecture.md#spa-design-models).
 
 ### Portability {#portability}
 
@@ -44,25 +44,25 @@ The resulting SPA should be built with highly portable and reusable components.
 
 ### AEM Drives Site Structure {#aem-drives-site-structure}
 
-The front end developer must think of himself or herself as responsible for creating a library of SPA components that are used to build the app. The front end developer has full control of the internal structure of the components. [However AEM at all times owns the structure of the site.](../../../sites/developing/using/spa-overview.md)
+The front end developer must think of himself or herself as responsible for creating a library of SPA components that are used to build the app. The front end developer has full control of the internal structure of the components. [However AEM at all times owns the structure of the site.](/help/sites/developing/using/spa-overview.md)
 
 This means that the front end developer can add customer content before or after the entry point of the components and can also make third party calls inside the component. However the front end developer is not in full control of how the components nest for example.
 
 ### Dynamic Rendering {#dynamic-rendering}
 
-The SPA should only rely on dynamic rendering of content. This is the default expectation where AEM fetches and renders all children of the content structure. [](../../../sites/developing/using/spa-architecture.md#portability)
+The SPA should only rely on dynamic rendering of content. This is the default expectation where AEM fetches and renders all children of the content structure. [](/help/sites/developing/using/spa-architecture.md#portability)
 
-Any explicit rendering that points to specific content is considered static rendering and though supported will not be compatible with AEM's content authoring features. This also goes against the principle of [portability](../../../sites/developing/using/spa-architecture.md#portability).
+Any explicit rendering that points to specific content is considered static rendering and though supported will not be compatible with AEM's content authoring features. This also goes against the principle of [portability](/help/sites/developing/using/spa-architecture.md#portability).
 
 ### Dynamic Routing {#dynamic-routing}
 
-As with rendering, all routing should also be dynamic. In AEM, [the SPA should always own the routing](../../../sites/developing/using/spa-routing.md) and AEM listens to it and fetches content based on it.
+As with rendering, all routing should also be dynamic. In AEM, [the SPA should always own the routing](/help/sites/developing/using/spa-routing.md) and AEM listens to it and fetches content based on it.
 
-Any static routing works against the [principle of portability](../../../sites/developing/using/spa-architecture.md#portability) and limits the author by not being compatible with content authoring features of AEM. For example, with static routing, if the content author would want to change a route or change a page, he or she would have to ask the front end developer to do it.
+Any static routing works against the [principle of portability](/help/sites/developing/using/spa-architecture.md#portability) and limits the author by not being compatible with content authoring features of AEM. For example, with static routing, if the content author would want to change a route or change a page, he or she would have to ask the front end developer to do it.
 
 ## SPA Design Models {#spa-design-models}
 
-If the [principles of developing SPAs in AEM](../../../sites/developing/using/spa-architecture.md#spa-development-principles-for-aem) are followed, then your SPA will be functional with all supported AEM content authoring features. [](../../../sites/developing/using/spa-architecture.md#spa-development-principles-for-aem)
+If the [principles of developing SPAs in AEM](/help/sites/developing/using/spa-architecture.md#spa-development-principles-for-aem) are followed, then your SPA will be functional with all supported AEM content authoring features. [](/help/sites/developing/using/spa-architecture.md#spa-development-principles-for-aem)
 
 There may be cases however when this is not entirely necessary. The following table gives an overview of the various design models, their advantages, and their disadvantages.
 
@@ -74,7 +74,7 @@ There may be cases however when this is not entirely necessary. The following ta
    <th><strong>Disadvantages</strong></th> 
   </tr>
   <tr>
-   <td>AEM is used as a headless CMS without using the <a href="../../../sites/developing/using/spa-reference-materials.md">SPA Editor SDK framework.</a></td> 
+   <td>AEM is used as a headless CMS without using the <a href="/help/sites/developing/using/spa-reference-materials.md">SPA Editor SDK framework.</a></td> 
    <td>The front end developer has full control over the app.</td> 
    <td><p>Content authors cannot leverage AEM's content authoring experience.</p> <p>The code is neither portable nor reusable if it contains static references or routing.</p> <p>Does not allow use of the template editor so the front end developer must maintain editable templates via the JCR.</p> </td> 
   </tr>
@@ -93,12 +93,12 @@ There may be cases however when this is not entirely necessary. The following ta
 
 >[!NOTE]
 >
->Although all models are supported in AEM, only by implementing the third (and thereby following the recommended [SPA development principles in AEM](../../../sites/developing/using/spa-architecture.md#spa-development-principles-for-aem)) will the content authors be able to interact with and edit the content of the SPA in AEM as they are accustomed.  
->[](../../../sites/developing/using/spa-architecture.md#spa-development-principles-for-aem)
+>Although all models are supported in AEM, only by implementing the third (and thereby following the recommended [SPA development principles in AEM](/help/sites/developing/using/spa-architecture.md#spa-development-principles-for-aem)) will the content authors be able to interact with and edit the content of the SPA in AEM as they are accustomed.  
+>[](/help/sites/developing/using/spa-architecture.md#spa-development-principles-for-aem)
 
 ## Migrating Existing SPAs to AEM {#migrating-existing-spas-to-aem}
 
-Generally if your SPA follows the [SPA Development Principles for AEM](../../../sites/developing/using/spa-architecture.md#spa-development-principles-for-aem), then your SPA will work in AEM and be editable using the AEM SPA Editor.
+Generally if your SPA follows the [SPA Development Principles for AEM](/help/sites/developing/using/spa-architecture.md#spa-development-principles-for-aem), then your SPA will work in AEM and be editable using the AEM SPA Editor.
 
 Follow these steps to get your existing SPA ready to work with AEM.
 
@@ -175,8 +175,8 @@ The `MapTo` helper is the “glue” that allows the back-end and the front-end 
 
 For more information about using `MapTo` and building SPAs for AEM in general, see the Getting Started guide for your chosen framework.
 
-* [Getting Started with SPAs in AEM - React](../../../sites/developing/using/spa-getting-started-react.md)
-* [Getting Started with SPAs in AEM - Angular](../../../sites/developing/using/spa-getting-started-angular.md)
+* [Getting Started with SPAs in AEM - React](/help/sites/developing/using/spa-getting-started-react.md)
+* [Getting Started with SPAs in AEM - Angular](/help/sites/developing/using/spa-getting-started-angular.md)
 
 ## AEM Architecture and SPAs {#aem-architecture-and-spas}
 
@@ -220,10 +220,10 @@ The general architecture of AEM including development, authoring, and publishing
 
 ## Next Steps {#next-steps}
 
-For an overview of how a simple SPA in AEM is structured and how it works, see the getting started guide for both [React](../../../sites/developing/using/spa-getting-started-react.md) and [Angular](../../../sites/developing/using/spa-getting-started-angular.md).
+For an overview of how a simple SPA in AEM is structured and how it works, see the getting started guide for both [React](/help/sites/developing/using/spa-getting-started-react.md) and [Angular](/help/sites/developing/using/spa-getting-started-angular.md).
 
 For a step-by-step guide to creating your own SPA, see the [Getting Started with the AEM SPA Editor - WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).
 
-For further details about the dynamic model to component mapping and how it works within SPAs in AEM, see the article [Dynamic Model to Component Mapping for SPAs](../../../sites/developing/using/spa-dynamic-model-to-component-mapping.md).
+For further details about the dynamic model to component mapping and how it works within SPAs in AEM, see the article [Dynamic Model to Component Mapping for SPAs](/help/sites/developing/using/spa-dynamic-model-to-component-mapping.md).
 
-If you wish to implement SPAs in AEM for a framework other than React or Angular or simply wish to take a deep dive into how the SPA SDK for AEM works, refer to the [SPA Blueprint](../../../sites/developing/using/spa-blueprint.md) article.
+If you wish to implement SPAs in AEM for a framework other than React or Angular or simply wish to take a deep dive into how the SPA SDK for AEM works, refer to the [SPA Blueprint](/help/sites/developing/using/spa-blueprint.md) article.

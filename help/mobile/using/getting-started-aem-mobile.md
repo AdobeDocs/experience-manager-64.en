@@ -15,7 +15,7 @@ discoiquuid: 724e09c2-3df3-4080-a0d4-ee2ede483791
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 >[!CAUTION]
 >
@@ -25,11 +25,11 @@ Adobe Experience Manager (AEM) Mobile is part of the Adobe Experience Manager mu
 
 AEM Mobile offers multiple methods for creating apps. The three different ways that you can create apps are:
 
-* ** [Using On-Demand Services with AEM](../../mobile/using/getting-started-aem-mobile-on-demand.md)**
+* ** [Using On-Demand Services with AEM](/help/mobile/using/getting-started-aem-mobile-on-demand.md)**
 * ** [Using On-Demand Services without AEM](https://helpx.adobe.com/digital-publishing-solution/topics.html)**
-* ** [Using Adobe PhoneGap Enterprise with AEM](../../mobile/using/getting-started-aem-mobile-phonegap.md)**
+* ** [Using Adobe PhoneGap Enterprise with AEM](/help/mobile/using/getting-started-aem-mobile-phonegap.md)**
 
 >[!NOTE]
 >
->If you are new to Adobe Experience Manager, you may want to walk through [Getting Started with AEM](../../sites/deploying/using/deploy.md).
+>If you are new to Adobe Experience Manager, you may want to walk through [Getting Started with AEM](/help/sites/deploying/using/deploy.md).
 

@@ -13,7 +13,7 @@ discoiquuid: be6ac751-ed10-468f-a40d-45cc89b9b59c
 
 # Managing Activities{#managing-activities}
 
-The Activities console enables you to create, organize, and manage the marketing [activities](../../../sites/classic-ui-authoring/using/classic-personalization.md#main-pars-title-44) of your brands:
+The Activities console enables you to create, organize, and manage the marketing [activities](/help/sites/classic-ui-authoring/using/classic-personalization.md#main-pars-title-44) of your brands:
 
 * Add brands. 
 * For each brand, add and configure activities. 
@@ -21,5 +21,5 @@ The Activities console enables you to create, organize, and manage the marketing
 
 >[!NOTE]
 >
->Activities are not available in classic UI. Please see [Managing Activities](../../../sites/authoring/using/activitylib.md) in the standard authoring documentation for details.
+>Activities are not available in classic UI. Please see [Managing Activities](/help/sites/authoring/using/activitylib.md) in the standard authoring documentation for details.
 

@@ -17,7 +17,7 @@ AEM Forms document security allows you to create, store, and apply predefined se
 
 ## User data and data stores {#user-data-and-data-stores}
 
-Document security stores policies and data related to protected documents including user data in a database, such as My Sql, Oracle, MS SQL Server, and IBM DB2. In addition, the data for authorized users in a policy in store in user management. For information about data stored in user management, see [Forms User Management | Handling user data](../../forms/using/user-management-handling-user-data.md).
+Document security stores policies and data related to protected documents including user data in a database, such as My Sql, Oracle, MS SQL Server, and IBM DB2. In addition, the data for authorized users in a policy in store in user management. For information about data stored in user management, see [Forms User Management | Handling user data](/help/forms/using/user-management-handling-user-data.md).
 
 The following table maps how document security organizes data in database tables.
 
@@ -122,7 +122,7 @@ Select * from edcinviteduserentity where principalId = '<principal_id>';
 >
 >To export data from the `EdcAuditEntity` table, use the [EventManager.exportEvents](https://helpx.adobe.com/experience-manager/6-4/forms/ProgramLC/javadoc/index.html?com/adobe/livecycle/rightsmanagement/client/EventManager.html) API that takes [EventSearchFilter](https://helpx.adobe.com/experience-manager/6-4/forms/ProgramLC/javadoc/com/adobe/livecycle/rightsmanagement/client/infomodel/EventSearchFilter.html) as a parameter to export audit data based on `principalId`, `policyId`, or `licenseId`.
 
-To get complete data about a user in the system, you must access and export data from user management database. For more information, see [Forms user management | Handling user data](../../forms/using/user-management-handling-user-data.md).
+To get complete data about a user in the system, you must access and export data from user management database. For more information, see [Forms user management | Handling user data](/help/forms/using/user-management-handling-user-data.md).
 
 ### Delete user data {#delete-user-data}
 
@@ -205,6 +205,6 @@ Do the following to delete document security data for a principal ID from databa
 
    **Note**: Administrators can search, access, and delete user data from personal policies of other users in **[!UICONTROL Services > Document Security > My Policies]** using administration console. 
 
-1. Delete the data for the principal ID from user management database. For detailed steps, see [Forms User Management | Handling user data](../../forms/using/user-management-handling-user-data.md).
+1. Delete the data for the principal ID from user management database. For detailed steps, see [Forms User Management | Handling user data](/help/forms/using/user-management-handling-user-data.md).
 1. Start the AEM Forms server.
 

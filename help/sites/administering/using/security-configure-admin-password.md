@@ -23,7 +23,7 @@ This feature adds the facility of setting a new administrator password for the r
 
 >[!CAUTION]
 >
->Please note that feature does not cover the Felix Console, for which the password needs to be changed manually. For more information, see the relevant [Security Checklist section](../../../sites/administering/using/security-checklist.md#change-default-passwords-for-the-aem-and-osgi-console-admin-accounts).
+>Please note that feature does not cover the Felix Console, for which the password needs to be changed manually. For more information, see the relevant [Security Checklist section](/help/sites/administering/using/security-checklist.md#change-default-passwords-for-the-aem-and-osgi-console-admin-accounts).
 
 ## How Do I Use It? {#how-do-i-use-it}
 

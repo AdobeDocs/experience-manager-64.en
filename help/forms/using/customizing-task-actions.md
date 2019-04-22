@@ -12,7 +12,7 @@ discoiquuid: ca3f6025-7e17-4173-8267-e24a338ea4a1
 
 # Customizing Task Actions{#customizing-task-actions}
 
-AEM Forms workspace allows users to customize the task actions. Before customizing the task actions, ensure that you follow the steps listed at [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md).
+AEM Forms workspace allows users to customize the task actions. Before customizing the task actions, ensure that you follow the steps listed at [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
 
 ## Customizing text style {#customizing-text-style}
 
@@ -127,13 +127,13 @@ To customize the images, add the following code snippet in the `/apps/ws/css/new
 
 ## Showing only images for actions {#showing-only-images-for-actions}
 
-To show only images for actions, customize the images used in route actions. For detailed information, see [Images for Route Actions](../../forms/using/images-route-actions.md).
+To show only images for actions, customize the images used in route actions. For detailed information, see [Images for Route Actions](/help/forms/using/images-route-actions.md).
 
 ### Task List task action&nbsp;pop-up menu {#task-list-task-action-nbsp-pop-up-menu}
 
-1. You require development package to customize items of the AEM Forms workspace Task list task action pop-up menu. For detailed information about creating development package, see [Building AEM Forms workspace code.](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
+1. You require development package to customize items of the AEM Forms workspace Task list task action pop-up menu. For detailed information about creating development package, see [Building AEM Forms workspace code.](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
 
-   [](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
+   [](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
 
 1. Copy /libs/ws/js/runtime/templates/task.html to `/apps/ws/js/runtime/templates/task.html`replace the following code snippet:
 

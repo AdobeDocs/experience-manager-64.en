@@ -67,7 +67,7 @@ All pages in We.Retail are based on editable templates, allowing non-developers 
 
 ## More Information {#more-information}
 
-For further information please refer to the authoring document [Creating Page Templates](../../../sites/authoring/using/templates.md) or the developer document Page [Templates - Editable](../../../sites/developing/using/page-templates-editable.md) for complete technical details on editable templates.
+For further information please refer to the authoring document [Creating Page Templates](/help/sites/authoring/using/templates.md) or the developer document Page [Templates - Editable](/help/sites/developing/using/page-templates-editable.md) for complete technical details on editable templates.
 
-You may also wish to investigate [core components](../../../sites/developing/using/we-retail-core-components.md). See the authoring document [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) for an overview of the capabilities of the core components and the developer document [Developing Core Components](https://helpx.adobe.com/experience-manager/core-components/using/developing.html) for a technical overview.
+You may also wish to investigate [core components](/help/sites/developing/using/we-retail-core-components.md). See the authoring document [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) for an overview of the capabilities of the core components and the developer document [Developing Core Components](https://helpx.adobe.com/experience-manager/core-components/using/developing.html) for a technical overview.
 

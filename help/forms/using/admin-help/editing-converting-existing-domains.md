@@ -20,8 +20,8 @@ You can change the settings for existing domains from the Domain Management page
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click the name of the domain to edit. 
 1. To change the domain name, change the text in the Name box. 
-1. To change the authentication information for an enterprise or hybrid domain, click the appropriate authentication name at the bottom of the page. On the Edit Authentication page, change settings as required. (See [Authentication settings](../../../forms/using/admin-help/configuring-authentication-providers.md#authentication-settings).)
-1. To change the directory information for an enterprise domain, click the appropriate directory name at the bottom of the page. On the Edit Directory page, change settings as required. (See [Adding directories or custom SPIs](../../../forms/using/admin-help/configuring-directories.md#adding-directories-or-custom-spis).)
+1. To change the authentication information for an enterprise or hybrid domain, click the appropriate authentication name at the bottom of the page. On the Edit Authentication page, change settings as required. (See [Authentication settings](/help/forms/using/admin-help/configuring-authentication-providers.md#authentication-settings).)
+1. To change the directory information for an enterprise domain, click the appropriate directory name at the bottom of the page. On the Edit Directory page, change settings as required. (See [Adding directories or custom SPIs](/help/forms/using/admin-help/configuring-directories.md#adding-directories-or-custom-spis).)
 1. When you complete your changes, click OK.
 
 ## Convert an enterprise domain to a hybrid domain {#convert-an-enterprise-domain-to-a-hybrid-domain}
@@ -42,5 +42,5 @@ You can change the settings for existing domains from the Domain Management page
 1. Click the name of the hybrid domain to convert. 
 1. Click Convert to Enterprise Domain.
 1. Review the information that appears regarding user and group data and authentication of users, and click OK.
-1. Click Add Directory and configure the required directory information. (See [Adding directories or custom SPIs](../../../forms/using/admin-help/configuring-directories.md#adding-directories-or-custom-spis).)
+1. Click Add Directory and configure the required directory information. (See [Adding directories or custom SPIs](/help/forms/using/admin-help/configuring-directories.md#adding-directories-or-custom-spis).)
 

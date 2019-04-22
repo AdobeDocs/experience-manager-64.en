@@ -12,22 +12,22 @@ discoiquuid: bc18da7d-9350-4856-8f1d-9061018ae64f
 
 Ready your AEM instance to use Automated Forms Conversion service
 
-AEM Forms Automated Forms Conversion service, powered by Adobe Sensei, automatically converts your legacy forms to device-friendly and responsive adaptive forms. Whether you are using non-interactive PDF forms, Acroforms, or XFA-based PDF forms, the service can easily convert these forms into adaptive forms. For information about the capabilities, conversion workflow, and onboarding information see [Automated Forms Conversion](../../../forms/using/wip/introduction-to-automated-form-conversion-service.md) service.
+AEM Forms Automated Forms Conversion service, powered by Adobe Sensei, automatically converts your legacy forms to device-friendly and responsive adaptive forms. Whether you are using non-interactive PDF forms, Acroforms, or XFA-based PDF forms, the service can easily convert these forms into adaptive forms. For information about the capabilities, conversion workflow, and onboarding information see [Automated Forms Conversion](/help/forms/using/wip/introduction-to-automated-form-conversion-service.md) service.
 
 ## Set up the service {#set-up-the-service}
 
 Before using the service, you connect your AEM Forms instance to the service running on Adobe Cloud. Perform the following steps in the listed sequence to prepare your instance for the service and connect your AEM Forms instance to the service:
 
-* [Download and install AEM Forms add-on package](../../../forms/using/installing-configuring-aem-forms-osgi.md)
-* [Download and install Conversion Manager package](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#download-and-install-conversion-manager-package)
-* [Configure email notifications](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#configure-email-notification)
-* [Configure the cloud service](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#configure-the-cloud-service)
+* [Download and install AEM Forms add-on package](/help/forms/using/installing-configuring-aem-forms-osgi.md)
+* [Download and install Conversion Manager package](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md#download-and-install-conversion-manager-package)
+* [Configure email notifications](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md#configure-email-notification)
+* [Configure the cloud service](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md#configure-the-cloud-service)
 
 ## Download and install AEM Forms add-on package  {#download-and-install-aem-forms-add-on-package}
 
 An AEM instance contains basic forms capabilities. Install AEM Forms add-on package to avail all the capabilities of AEM Forms. The package is required to set up and run the conversion service:
 
-1. Open the [AEM Forms Automated Forms Conversion Service Prerelease](../../../forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md) Program article, locate, and download the AEM Forms add-on package. 
+1. Open the [AEM Forms Automated Forms Conversion Service Prerelease](/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md) Program article, locate, and download the AEM Forms add-on package. 
 1. Log in to AEM instance as an administrator and open the Package Manager. The default URL is [https://&lt;server&gt;:4502/crx/packmgr/index.jsp](https://%3Cserver%3E:4502/crx/packmgr/index.jsp).
 1. Click **Upload Package**, select the AEM Forms Automated Forms Conversion service package, and click **Upload**. After the package is uploaded, click package name, and click **Install**. The package is installed.
 
@@ -35,7 +35,7 @@ An AEM instance contains basic forms capabilities. Install AEM Forms add-on pack
 
 Conversion Manager package provides AEM cloud service configurations and Review and Correct editor for the conversion service. It also allows you to connect your AEM instance with conversion service running on Adobe I/O. Perform the following steps to download and install the package:
 
-1. Open the [AEM Forms Automated Forms Conversion Service Prerelease](../../../forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md) Program article, locate, and download the AEM Forms Automated Forms Conversion service package. 
+1. Open the [AEM Forms Automated Forms Conversion Service Prerelease](/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md) Program article, locate, and download the AEM Forms Automated Forms Conversion service package. 
 1. Log in to AEM instance as an administrator and open the Package Manager. The default URL is [https://&lt;server&gt;:4502/crx/packmgr/index.jsp](https://%3Cserver%3E:4502/crx/packmgr/index.jsp).
 1. Click **Upload Package**, select the AEM Forms Automated Forms Conversion service package, and click **Upload**. After the package is uploaded, click package name, and click **Install**. The package is installed.
 
@@ -108,9 +108,9 @@ Create a cloud service configuration to connect your AEM Instance to the convers
 
 ## Previous {#previous}
 
-* [Introduction to Automated Forms Conversion service](../../../forms/using/wip/introduction-to-automated-form-conversion-service.md)
+* [Introduction to Automated Forms Conversion service](/help/forms/using/wip/introduction-to-automated-form-conversion-service.md)
 
 ## Next {#next}
 
-* [Use Automated Forms Conversion service](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md)
+* [Use Automated Forms Conversion service](/help/forms/using/wip/convert-existing-forms-to-adaptive-forms.md)
 

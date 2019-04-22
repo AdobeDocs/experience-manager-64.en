@@ -15,7 +15,7 @@ discoiquuid: bd648c38-731b-420e-973d-a4728b69868e
 
 The Core Configurations page in administration console provides settings that can help improve system performance. After configuring or updating these settings, restart your application server.
 
-For information about enabling safe backup mode, see [Enabling and disabling safe backup mode](../../../forms/using/admin-help/enabling-disabling-safe-backup-mode.md#enabling-and-disabling-safe-backup-mode).
+For information about enabling safe backup mode, see [Enabling and disabling safe backup mode](/help/forms/using/admin-help/enabling-disabling-safe-backup-mode.md#enabling-and-disabling-safe-backup-mode).
 
 >[!NOTE]
 >

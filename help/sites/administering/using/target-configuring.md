@@ -17,7 +17,7 @@ You can either modify the opt-in wizard configurations that you made when using 
 
 ## Modifying the Opt-In Wizard Configurations {#modifying-the-opt-in-wizard-configurations}
 
-The [Opt-in wizard](../../../sites/administering/using/opt-in.md) that [integrates AEM with Adobe Target](../../../sites/administering/using/target.md) automatically creates a Target cloud configuration named Provisioned Target Configuration. The wizard also creates a Target framework for the cloud configuration named Provisioned Target Framework. You can modify the properties of the cloud configuration and framework if required.
+The [Opt-in wizard](/help/sites/administering/using/opt-in.md) that [integrates AEM with Adobe Target](/help/sites/administering/using/target.md) automatically creates a Target cloud configuration named Provisioned Target Configuration. The wizard also creates a Target framework for the cloud configuration named Provisioned Target Framework. You can modify the properties of the cloud configuration and framework if required.
 
 You can also configure Adobe Target to use Adobe Target as the reporting source when targeting content by configuring the A4T Analytics Cloud Configuration.
 
@@ -35,7 +35,7 @@ The following property values are used in the Provisioned Target Configuration c
 * **Synchronize Segments From Adobe Target:** Selected.** **
 
 * **Client library:** mbox.js.
-* **Use DTM to deliver client library:** Not selected. Select this option if you [use DTM](../../../sites/administering/using/dtm.md) or another tag management system to host the mbox.js or AT.js file. Adobe recommends that you use DTM rather than AEM to deliver the library.
+* **Use DTM to deliver client library:** Not selected. Select this option if you [use DTM](/help/sites/administering/using/dtm.md) or another tag management system to host the mbox.js or AT.js file. Adobe recommends that you use DTM rather than AEM to deliver the library.
 
 * **Custom mbox.js:** None specified so that the default mbox.js file is used. Specify a custom mbox.js file to use as necessary. Only appears if you have selected mbox.js.
 * **Custom AT.js:** None specified so that the default AT.js file is used. Specify a custom AT.js file to use as needed. Only appears if you have selected AT.js.
@@ -59,7 +59,7 @@ The Provisioned Target Framework that the Opt-in wizard creates is configured to
 
 ![](assets/chlimage_1-158.png)
 
-You can configure the framework to send additional context information to Target as described in [Adding a Target Framework](../../../sites/administering/using/target-configuring.md#adding-a-target-framework).
+You can configure the framework to send additional context information to Target as described in [Adding a Target Framework](/help/sites/administering/using/target-configuring.md#adding-a-target-framework).
 
 ### Configuring A4T Analytics Cloud Configuration {#configuring-a-t-analytics-cloud-configuration}
 
@@ -92,7 +92,7 @@ To do this, you need to specify which A4T cloud configuration to connect your Ad
 
    ![](assets/chlimage_1-159.png)
 
-   Click **OK**. When you target content with Adobe Target, you are able to [select your report source](../../../sites/authoring/using/content-targeting-touch.md).
+   Click **OK**. When you target content with Adobe Target, you are able to [select your report source](/help/sites/authoring/using/content-targeting-touch.md).
 
 ## Manually Integrating with Adobe Target {#manually-integrating-with-adobe-target}
 
@@ -164,7 +164,7 @@ Use the following procedure to create a Target cloud configuration in AEM:
     * **Use accurate targeting:** By default this check box is selected. If selected, the cloud service configuration will wait for the context to load before loading content. See note that follows.
     * **Synchronize Segments from Adobe Target:** Select this option to download segments that are defined in Target to use them in AEM. You must select this option when the API Type property is REST, because inline segments are not supported and you always need to use segments from Target. (Note that the AEM term of 'segment' is equivalent to the Target 'audience'.)
     * **Client library:** Select whether you want the mbox.js or AT.js client library. 
-    * **Use DTM to deliver client library** - Select this option to use either AT.js or mbox.js from DTM or another tag managment system. You must [configure the DTM integration](../../../sites/administering/using/dtm.md) to use this option. Adobe recommends that you use DTM rather than AEM to deliver the library.
+    * **Use DTM to deliver client library** - Select this option to use either AT.js or mbox.js from DTM or another tag managment system. You must [configure the DTM integration](/help/sites/administering/using/dtm.md) to use this option. Adobe recommends that you use DTM rather than AEM to deliver the library.
     
     * **Custom mbox.js**: Leave blank if you checked the DTM box or to use the default mbox.js. Alternatively upload your custom mbox.js. Only appears if you have selected mbox.js.
     * **Custom AT.js**: Leave blank if you checked the DTM box or to use the default AT.js. Alternatively upload your custom AT.js. Only appears if you have selected AT.js.
@@ -184,11 +184,11 @@ Use the following procedure to create a Target cloud configuration in AEM:
 
 1. Click **Connect to Target** to initialize the connection with Target. If the connection is successful, the message** Connection successful** is displayed. Click **OK** on the message and then **OK** on the dialog.
 
-   If you cannot connect to Target, see the [troubleshooting](../../../sites/administering/using/target-configuring.md#troubleshooting-target-connection-problems) section.
+   If you cannot connect to Target, see the [troubleshooting](/help/sites/administering/using/target-configuring.md#troubleshooting-target-connection-problems) section.
 
 ### Adding a Target Framework {#adding-a-target-framework}
 
-After you configure the Target cloud configuration, add a Target framework. The framework identifies the default parameters that are sent to Adobe Target from the available [Client Context](../../../sites/administering/using/client-context.md) or [ContextHub](../../../sites/administering/using/contexthub-config.md) components. Target uses the parameters to determine the segments that apply to the current context.
+After you configure the Target cloud configuration, add a Target framework. The framework identifies the default parameters that are sent to Adobe Target from the available [Client Context](/help/sites/administering/using/client-context.md) or [ContextHub](/help/sites/administering/using/contexthub-config.md) components. Target uses the parameters to determine the segments that apply to the current context.
 
 You can create multiple frameworks for a single Target configuration. Multiple frameworks are useful when you need to send a different set of parameters to Target for different sections of your website. Create a framework for each set of parameters that you need to send. Associate each section of your website with the appropriate framework. Note that a web page can use only one framework at a time.
 
@@ -197,7 +197,7 @@ You can create multiple frameworks for a single Target configuration. Multiple f
 
    ![](assets/chlimage_1-161.png)
 
-   The framework page opens. Sidekick provides components that represent information from the [Client Context](../../../sites/administering/using/client-context.md) or [ContextHub](../../../sites/administering/using/contexthub-config.md) that you can map.
+   The framework page opens. Sidekick provides components that represent information from the [Client Context](/help/sites/administering/using/client-context.md) or [ContextHub](/help/sites/administering/using/contexthub-config.md) that you can map.
 
    ![](assets/chlimage_1-162.png)
 
@@ -223,7 +223,7 @@ Your framework is created. To replicate the framework to the publish instance, u
 
 ### Associating Activities With the Target Cloud Configuration  {#associating-activities-with-the-target-cloud-configuration}
 
-Associate your [AEM activities](../../../sites/authoring/using/activitylib.md) with your Target cloud configuration so that you can mirror the activities in [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/target/c_manage_content.html).
+Associate your [AEM activities](/help/sites/authoring/using/activitylib.md) with your Target cloud configuration so that you can mirror the activities in [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/target/c_manage_content.html).
 
 >[!NOTE]
 >
@@ -238,12 +238,12 @@ Associate your [AEM activities](../../../sites/authoring/using/activitylib.md) w
 
 ### Associating the Target Framework With Your Site {#associating-the-target-framework-with-your-site}
 
-After you create a Target framework in AEM, associate your web pages with the framework. The targeted components on the pages send the framework-defined data to Adobe Target for tracking. (See [Content Targeting](../../../sites/authoring/using/content-targeting-touch.md).)
+After you create a Target framework in AEM, associate your web pages with the framework. The targeted components on the pages send the framework-defined data to Adobe Target for tracking. (See [Content Targeting](/help/sites/authoring/using/content-targeting-touch.md).)
 
 When you associate a page with the framework, the child pages inherit the association.
 
 1. In the **Sites** console, navigate to the site that you want to configure.
-1. Using either [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions) or [selection mode](../../../sites/authoring/using/basic-handling.md), select **View Properties.**
+1. Using either [quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions) or [selection mode](/help/sites/authoring/using/basic-handling.md), select **View Properties.**
 1. Select the **Cloud Services** tab.
 1. Tap/click **Edit**.
 1. Tap/click **Add Configuration** under **Cloud Service Configurations** and select **Adobe Target**.
@@ -257,7 +257,7 @@ When you associate a page with the framework, the child pages inherit the associ
    >Make sure that you select the specific **framework** that you created and not the Target cloud configuration under which it was created.
 
 1. Tap/click **Done**.
-1. Activate the root page of the website to replicate it to the publish server. (See [How To Publish Pages](../../../sites/authoring/using/publishing-pages.md).)
+1. Activate the root page of the website to replicate it to the publish server. (See [How To Publish Pages](/help/sites/authoring/using/publishing-pages.md).)
 
    >[!NOTE]
    >

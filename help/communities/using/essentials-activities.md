@@ -17,7 +17,7 @@ The activities of a signed in community member, such as posting to a forum or bl
 
 The ability to follow adds another set of activities when community members follow postings of interest or other community members.
 
-All [community sites](../../communities/using/overview.md#communitiessites) include a user profile page for the signed in member that will display member activities in the same manner.
+All [community sites](/help/communities/using/overview.md#communitiessites) include a user profile page for the signed in member that will display member activities in the same manner.
 
 ## Concepts {#concepts}
 
@@ -27,7 +27,7 @@ A member my follow an activity stream, by either following another individual or
 
 A *news feed* is a merging of the activity streams being followed by a member into a single stream.
 
-A * [social graph](../../communities/using/essentials-socialgraph.md)* captures the following relationships of one member to another.
+A * [social graph](/help/communities/using/essentials-socialgraph.md)* captures the following relationships of one member to another.
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
@@ -38,11 +38,11 @@ A * [social graph](../../communities/using/essentials-socialgraph.md)* captures 
    <td>social/activitystreams/components/hbs/activitystreams</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.activitystreams</td> 
   </tr>
   <tr>
@@ -55,12 +55,12 @@ A * [social graph](../../communities/using/essentials-socialgraph.md)* captures 
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/activities.md">Activity Streams Feature</a></td> 
+   <td>see <a href="/help/communities/using/activities.md">Activity Streams Feature</a></td> 
   </tr>
  </tbody>
 </table>
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -68,8 +68,8 @@ A * [social graph](../../communities/using/essentials-socialgraph.md)* captures 
 
 * [Activity Streams Listener API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/activitystreams/listener/api/package-frame.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 
 ### Activity Stream Function {#activity-stream-function}
 
-A community site structure that includes the [Activity Stream function](../../communities/using/functions.md#activity-stream-function), includes a configured `activity streams` component.
+A community site structure that includes the [Activity Stream function](/help/communities/using/functions.md#activity-stream-function), includes a configured `activity streams` component.

@@ -29,11 +29,11 @@ Launches can also be:
 * Created for multiple root branches. While you could create the launch for the entire site (and do the changes there) this can be impractical as the whole site needs to be copied. When hundreds or even thousands of pages are involved, the system requirements and performance are impacted by both the copy action and later the comparisons required for the promotion tasks.
 * Nested (a launch within a launch) to give you the ability to create a launch from an existing launch so that authors can take advantage of changes already made, rather than having to make the same changes multiple times for each launch.
 
-This section descibes how to create, edit and promote (and if necessary [delete](../../../sites/authoring/using/launches-creating.md#deleting-a-launch)) launch pages from within the Sites console or [the Launches console](#the-launches-console):
+This section descibes how to create, edit and promote (and if necessary [delete](/help/sites/authoring/using/launches-creating.md#deleting-a-launch)) launch pages from within the Sites console or [the Launches console](#the-launches-console):
 
-* [Creating Launches](../../../sites/authoring/using/launches-creating.md)
-* [Editing Launches](../../../sites/authoring/using/launches-editing.md)
-* [Promoting Launches](../../../sites/authoring/using/launches-promoting.md)
+* [Creating Launches](/help/sites/authoring/using/launches-creating.md)
+* [Editing Launches](/help/sites/authoring/using/launches-editing.md)
+* [Promoting Launches](/help/sites/authoring/using/launches-promoting.md)
 
 ## Launches - the Order of Events {#launches-the-order-of-events}
 
@@ -82,10 +82,10 @@ Launches allow you to:
 
   ![](assets/chlimage_1-234.png)
 
-* [Create a nested launch](../../../sites/authoring/using/launches-creating.md#creating-a-nested-launch) - a launch within a launch:
+* [Create a nested launch](/help/sites/authoring/using/launches-creating.md#creating-a-nested-launch) - a launch within a launch:
 
     * The source is an existing launch.
-    * You can [promote a nested launch](../../../sites/authoring/using/launches-promoting.md#promoting-a-nested-launch) to any target; this can be a parent launch or the top-level source pages (Production).
+    * You can [promote a nested launch](/help/sites/authoring/using/launches-promoting.md#promoting-a-nested-launch) to any target; this can be a parent launch or the top-level source pages (Production).
 
   ![](assets/chlimage_1-235.png)
 

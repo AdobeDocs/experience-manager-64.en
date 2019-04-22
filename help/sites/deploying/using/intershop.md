@@ -67,14 +67,14 @@ A database initialization needs to be performed on `adobe_init`. To do that:
 
 To install AEM with an Intershop integration configuration (using the demonstration catalog, Geometrixx Outdoors), the basic steps are:
 
-1. [Install AEM](../../../sites/deploying/using/deploy.md).
-1. Install the demonstration content packages using the [Package Manager](../../../sites/administering/using/package-manager.md).
+1. [Install AEM](/help/sites/deploying/using/deploy.md).
+1. Install the demonstration content packages using the [Package Manager](/help/sites/administering/using/package-manager.md).
 
    >[!NOTE]
    >
    >Packages are available on demand. To be able to find and download them, please [contact Intershop](https://www.intershop.com/contact).
 
-1. [Author](../../../sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
 
 Configure the Intershop REST Client:
 

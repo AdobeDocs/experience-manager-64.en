@@ -51,7 +51,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    The default spellchecker in your browser checks spelling in the Text editor. To manage the spelling and grammar checking, you can edit your browser's spellchecker settings or install browser plugins/addons to check spelling and grammar.
 
-   You can also use the various keyboard shortcuts in the text editor to manage, edit, and format text. For more information on [Text Editor](../../forms/using/keyboard-shortcuts.md#p-formatting-p) keyboard shortcuts in Correspondence Management Keyboard Shortcuts. 
+   You can also use the various keyboard shortcuts in the text editor to manage, edit, and format text. For more information on [Text Editor](/help/forms/using/keyboard-shortcuts.md#p-formatting-p) keyboard shortcuts in Correspondence Management Keyboard Shortcuts. 
 
 1. A text editor opens, enter the text. Use the toolbar at the top of the page to format the text, insert conditions, link, and page breaks.  
 
@@ -107,7 +107,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    ![](assets/specialcharacters.png)
 
-   Correspondence Management has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](../../forms/using/custom-special-characters.md). 
+   Correspondence Management has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](/help/forms/using/custom-special-characters.md). 
 
 1. To highlight\emphasize parts of text in an editable inline module, select the text and tap Highlight Color.
 
@@ -135,7 +135,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    Placeholder element values in the CCR view populated from the Data Dictionary variables as specified in the sample data file
 
-1. You can use inline conditions and repeat to make your letter highly contextual and well structured. For more information on inline condition and repeat, see [Inline conditions and repeat in letters](../../forms/using/cm-inline-condition.md).
+1. You can use inline conditions and repeat to make your letter highly contextual and well structured. For more information on inline condition and repeat, see [Inline conditions and repeat in letters](/help/forms/using/cm-inline-condition.md).
 1. Tap **Save**.
 
 #### Searching and replacing text {#searching-and-replacing-text}
@@ -284,7 +284,7 @@ Based on the options you choose, either only the first expression that is found 
 
 ### Implementing conditions {#implementing-conditions}
 
-The Condition Editor comes with an [Expression Builder](../../forms/using/expression-builder.md) user interface that supports creating expressions using both multiple placeholders and Data Dictionary elements. You can use common operands and local / global functions in such expressions. Each expression can be associated with some content and optionally there could be a default section if none of the expressions evaluates to true. All expressions are evaluated in the sequence in which they are defined and the first expressions returning true is selected and its associated content is returned by that conditional module.
+The Condition Editor comes with an [Expression Builder](/help/forms/using/expression-builder.md) user interface that supports creating expressions using both multiple placeholders and Data Dictionary elements. You can use common operands and local / global functions in such expressions. Each expression can be associated with some content and optionally there could be a default section if none of the expressions evaluates to true. All expressions are evaluated in the sequence in which they are defined and the first expressions returning true is selected and its associated content is returned by that conditional module.
 
 For example, if the terms and conditions text in a letter differs depending which state the customer is in, and the data dictionary contains an element called “state”, then you could add the condition as follows:  
 • state = NY, select T&C_NY text paragraph  
@@ -321,7 +321,7 @@ The Condition editor enables you to specify a default condition. If the value of
    Further:
 
     * To update the asset, tap the folder icon under Asset column.
-    * To open the Expression Builder to insert an expression, tap the folder icon under the Expression column. For more information on Expression Builder, see [Expression Builder](../../forms/using/expression-builder.md).
+    * To open the Expression Builder to insert an expression, tap the folder icon under the Expression column. For more information on Expression Builder, see [Expression Builder](/help/forms/using/expression-builder.md).
 
 ### Best practices/tips and tricks {#best-practices-tips-and-tricks-1}
 
@@ -337,13 +337,13 @@ The Condition editor enables you to specify a default condition. If the value of
 
 ## Layout Fragments {#layoutfragments}
 
-A layout fragment is based on XDPs created in Designer. For creating layout fragments, you need to create the XDPs and [upload them to AEM Forms](../../forms/using/import-export-forms-templates.md).
+A layout fragment is based on XDPs created in Designer. For creating layout fragments, you need to create the XDPs and [upload them to AEM Forms](/help/forms/using/import-export-forms-templates.md).
 
 One or more layout fragments can form parts of a letter and define the graphical layout of those parts. A layout fragment can contain typical form fields, such as Address and Reference Number, and empty subforms that denote target areas. In addition, layout fragments allow you to create tables and insert them in letters.
 
 A common use case is to locate reusable layout patterns in Letters and create layout fragments for them. For example, the salutation, address, and subject part of the letter, which appears in the same order multiple letters. Another example could be a table similar number of rows and columns used in multiple letters.
 
-You can create a layout fragment based on an existing XDP. A layout fragment can either be made up of fields and target areas or one or more tables. The tables in a layout can be static or dynamic. An XDP is created in Designer and [uploaded to AEM Forms](../../forms/using/import-export-forms-templates.md). An XDP can form the structure either of a layout fragment or of a letter. More information on [Layout Design](../../forms/using/layout-design-details.md).
+You can create a layout fragment based on an existing XDP. A layout fragment can either be made up of fields and target areas or one or more tables. The tables in a layout can be static or dynamic. An XDP is created in Designer and [uploaded to AEM Forms](/help/forms/using/import-export-forms-templates.md). An XDP can form the structure either of a layout fragment or of a letter. More information on [Layout Design](/help/forms/using/layout-design-details.md).
 
 Using fragments that are bound to target areas allows the letter to be changed at the time of authoring. Layout fragment with different dimensions can be created and the appropriate fragment can be bound to the target area. Layout fragments also allow you to customize some of the table properties:
 
@@ -413,7 +413,7 @@ For a detailed example of using static and dynamic tables in layout fragments, s
 
 ### Upload an XDP to Correspondence Management {#upload-an-xdp-to-correspondence-management}
 
-For instructions on uploading/importing an XDP to Correspondence Management, see [Importing and exporting assets to AEM Forms](../../forms/using/import-export-forms-templates.md).
+For instructions on uploading/importing an XDP to Correspondence Management, see [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md).
 
 ### Best practices/tips and tricks {#best-practices-tips-and-tricks-2}
 
@@ -441,7 +441,7 @@ If the finished letter created in the Create Correspondence user interface is us
 
 #### Date formats in Designer and Asset Configuration Manager {#date-formats-in-designer-and-asset-configuration-manager}
 
-While designing a layout in Designer, ensure that the formats for date fields match the date formats specified in Data Display Formats in [Correspondence Management Configuration Properties](../../forms/using/cm-configuration-properties.md). For more information, see “Formatting field values and using patterns” in Designer Help.
+While designing a layout in Designer, ensure that the formats for date fields match the date formats specified in Data Display Formats in [Correspondence Management Configuration Properties](/help/forms/using/cm-configuration-properties.md). For more information, see “Formatting field values and using patterns” in Designer Help.
 
 #### Capturing date ranges {#capturing-date-ranges}
 
@@ -485,7 +485,7 @@ This example shows how you can create a dynamic and a static table, bind the dyn
 
    Then select DD and export sample data. The XML file you get contains Employee data and three instances for Nominee_details (by default 3 instances are downloaded. You can add or delete according to your requirement). Update the values and then import test data in DD. The CMP file is the package and it has the DD in it. So, import the DD to Correspondence Management.
 
-   For more information on working with Data Dictionary and test data, see [Data Dictionary](../../forms/using/data-dictionary.md#p-working-with-test-data-p).
+   For more information on working with Data Dictionary and test data, see [Data Dictionary](/help/forms/using/data-dictionary.md#p-working-with-test-data-p).
 
    ![Data dictionary structure](assets/dd.jpeg)
 
@@ -521,7 +521,7 @@ This example shows how you can create a dynamic and a static table, bind the dyn
 
 1. Create a letter using both the layout fragments in it. When you insert the dynamic XDP in the letter, set the binding of its fields to the Data Dictionary's collection elements.
 
-   For more information on creating Letters and Letter templates, see [Create Letter](../../forms/using/create-letter.md).
+   For more information on creating Letters and Letter templates, see [Create Letter](/help/forms/using/create-letter.md).
 
 1. Save the letter and preview it. When you preview the letter, the values from the Data Dictionary show in the letter. For the dynamic table, there are three rows. This is because the test data has three records for these rows.
 
@@ -538,7 +538,7 @@ This example shows how you can create a dynamic and a static table, bind the dyn
 To quickly create a document fragment with properties and content similar to an existing document fragment, you can copy and paste it.
 
 1. From the list of document fragments, select one or more document fragments. The UI displays the Copy icon. 
-1. Tap Copy. The UI displays the Paste icon. You can also choose to go inside a folder before you paste. Different folders can contain assets with same names. For more information on folders, see [Folders and organizing assets](../../forms/using/import-export-forms-templates.md#folders-and-organizing-assets). 
+1. Tap Copy. The UI displays the Paste icon. You can also choose to go inside a folder before you paste. Different folders can contain assets with same names. For more information on folders, see [Folders and organizing assets](/help/forms/using/import-export-forms-templates.md#folders-and-organizing-assets). 
 1. Tap Paste. The Paste dialog appears. If you are copying and pasting the document fragments at the same place, the system automatically assigns names and a titles to the new copies of letters, but you can edit the titles and names of the letters. 
 1. If required, edit the Title and Name with which you want to save the copy of the document fragment.
 1. Tap Paste. The copy of the document fragment is created.

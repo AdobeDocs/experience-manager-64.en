@@ -13,7 +13,7 @@ discoiquuid: a84fd0ab-0bcd-48cf-bba3-fb29308fa0f8
 
 # Prerequisites for Integrating with Adobe Target{#prerequisites-for-integrating-with-adobe-target}
 
-As part of the [integration of AEM and Adobe Target](../../../sites/administering/using/target.md), you need to register with Adobe Target, configure the replication agent, and secure activity settings on the publish node.
+As part of the [integration of AEM and Adobe Target](/help/sites/administering/using/target.md), you need to register with Adobe Target, configure the replication agent, and secure activity settings on the publish node.
 
 ## Registering with Adobe Target {#registering-with-adobe-target}
 
@@ -30,7 +30,7 @@ The Client Code identifies the Adobe Target customer account when calling the Ad
 
 ## Enabling the Target Replication Agent {#enabling-the-target-replication-agent}
 
-The Test and Target [replication agent](../../../sites/deploying/using/replication.md) must be enabled on the author instance. Note that this replication agent is not enabled by default if you used the [nosamplecontent](../../../sites/deploying/using/configure-runmodes.md#using-samplecontent-and-nosamplecontent) run mode for installing AEM. For more information about securing your production environment, see the [Security Checklist](../../../sites/administering/using/security-checklist.md).
+The Test and Target [replication agent](/help/sites/deploying/using/replication.md) must be enabled on the author instance. Note that this replication agent is not enabled by default if you used the [nosamplecontent](/help/sites/deploying/using/configure-runmodes.md#using-samplecontent-and-nosamplecontent) run mode for installing AEM. For more information about securing your production environment, see the [Security Checklist](/help/sites/administering/using/security-checklist.md).
 
 1. On the AEM home page, click or tap **Tools** &gt; **Deployment** &gt; **Replication**.
 1. Click or tap **Agents On Author**.
@@ -56,7 +56,7 @@ The **cq:ActivitySettings** node under the activity's jcr:content is protected b
 * Allow jcr:read,rep:write for "target-activity-authors" (author is a member of this group out of the box)
 * Allow jcr:read,rep:write for "targetservice"
 
-These settings ensure that normal users do not have access to the node properties. Use the same ACLs on author and on publish. See [User Administration and Security](../../../sites/administering/using/security.md) for more information.
+These settings ensure that normal users do not have access to the node properties. Use the same ACLs on author and on publish. See [User Administration and Security](/help/sites/administering/using/security.md) for more information.
 
 ## Configuring the AEM externalizer {#configuring-the-aem-externalizer}
 

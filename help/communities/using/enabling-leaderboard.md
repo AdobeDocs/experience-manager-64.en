@@ -17,11 +17,11 @@ discoiquuid: 1e96d388-8517-4a84-bb0a-d49567eb4bdf
 
 The `Leaderboard` component provides the ability to obtain a sense of how members are interacting within the community by ranking members according to points earned (basic scoring) or their expertise (advanced scoring).
 
-Prior to including the leaderboard component on a page, it is necessary to configure [Communities Scoring and Badges](../../communities/using/implementing-scoring.md).
+Prior to including the leaderboard component on a page, it is necessary to configure [Communities Scoring and Badges](/help/communities/using/implementing-scoring.md).
 
 This section of the documentation describes
 
-* adding the `Leaderboard` component to a [community site](../../communities/using/overview.md#community-sites)
+* adding the `Leaderboard` component to a [community site](/help/communities/using/overview.md#community-sites)
 
 * configuration settings for the `Leaderboard` component
 
@@ -33,7 +33,7 @@ To add a `Leaderboard` component to a page in author mode, locate the component
 
 and drag it into place on a page.
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
 When first placed on a page of a community site, this is how the component appears:
 
@@ -130,6 +130,6 @@ Leaderboard component configuration:
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Leaderboard Essentials](../../communities/using/leaderboard.md) page for developers.
+More information may be found on the [Leaderboard Essentials](/help/communities/using/leaderboard.md) page for developers.
 
-Instructions for creating rules are provided on the [Communities Scoring and Badges](../../communities/using/implementing-scoring.md) page for administrators.
+Instructions for creating rules are provided on the [Communities Scoring and Badges](/help/communities/using/implementing-scoring.md) page for administrators.

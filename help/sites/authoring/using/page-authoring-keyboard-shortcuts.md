@@ -13,11 +13,11 @@ discoiquuid: 6a3c69b5-6df6-4b8f-afa4-7d3e9dd458b5
 
 # Keyboard Shortcuts when Editing Pages{#keyboard-shortcuts-when-editing-pages}
 
-Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the [use of consoles](../../../sites/authoring/using/keyboard-shortcuts.md).
+Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the [use of consoles](/help/sites/authoring/using/keyboard-shortcuts.md).
 
 >[!NOTE]
 >
->The [modifier keys](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md#os-specific-modifier-keys) required for AEM keyboard shortcuts vary depending on operating system.
+>The [modifier keys](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md#os-specific-modifier-keys) required for AEM keyboard shortcuts vary depending on operating system.
 
 ## Editing Keyboard Shortcuts {#editing-keyboard-shortcuts}
 
@@ -31,17 +31,17 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
   <tr>
    <td>Any Edit Window Mode<br /> </td> 
    <td><span class="code">Ctrl-Shift-m</span></td> 
-   <td>Toggle between <a href="../../../sites/authoring/using/author-environment-tools.md#page-modes"><strong>Preview</strong> and the currently selected mode</a> (e.g. <strong>Edit</strong>, <strong>Layout</strong>, etc).*</td> 
+   <td>Toggle between <a href="/help/sites/authoring/using/author-environment-tools.md#page-modes"><strong>Preview</strong> and the currently selected mode</a> (e.g. <strong>Edit</strong>, <strong>Layout</strong>, etc).*</td> 
   </tr>
   <tr>
    <td><strong>Edit</strong> mode</td> 
    <td><span class="code">Ctrl-z</span></td> 
-   <td><a href="../../../sites/authoring/using/editing-content.md#undoing-and-redoing-page-edits">Undo last change</a>.</td> 
+   <td><a href="/help/sites/authoring/using/editing-content.md#undoing-and-redoing-page-edits">Undo last change</a>.</td> 
   </tr>
   <tr>
    <td> </td> 
    <td><span class="code">Ctrl-y</span></td> 
-   <td><a href="../../../sites/authoring/using/editing-content.md#undoing-and-redoing-page-edits">Redo last change</a>.</td> 
+   <td><a href="/help/sites/authoring/using/editing-content.md#undoing-and-redoing-page-edits">Redo last change</a>.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -90,11 +90,11 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
 >
 >&#42; Once the user starts to interact with the page in Preview Mode, the `Ctrl-Shift-m` shortcut is no longer available. The user must click on the top editor bar or go back to the Edit mode for the shortcut to once again become available.
 
-Various keyboard shortcuts are also available for desktop users when using the [consoles](../../../sites/authoring/using/keyboard-shortcuts.md).
+Various keyboard shortcuts are also available for desktop users when using the [consoles](/help/sites/authoring/using/keyboard-shortcuts.md).
 
 >[!NOTE]
 >
->Editor keyboard shortcuts are always active regardless if the [console shortcuts have been deactivated](../../../sites/authoring/using/keyboard-shortcuts.md#deactivating-keyboard-shortcuts).
+>Editor keyboard shortcuts are always active regardless if the [console shortcuts have been deactivated](/help/sites/authoring/using/keyboard-shortcuts.md#deactivating-keyboard-shortcuts).
 
 ## OS-Specific Modifier Keys {#os-specific-modifier-keys}
 

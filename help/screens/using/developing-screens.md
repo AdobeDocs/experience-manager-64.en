@@ -25,8 +25,8 @@ The following diagram provides a detailed architecture of AEM Screens:
 
 To access the developer resources, see the links below:
 
-* [REST API](../../screens/using/rest-api.md)
-* [Creating Components](../../screens/using/creating-components.md)
-* [Offline Channels](../../sites/developing/using/developing-screens-offline-channels.md)
-* [Configuring Adobe Analytics with AEM Screens](../../screens/using/configuring-adobe-analytics-aem-screens.md)
+* [REST API](/help/screens/using/rest-api.md)
+* [Creating Components](/help/screens/using/creating-components.md)
+* [Offline Channels](/help/sites/developing/using/developing-screens-offline-channels.md)
+* [Configuring Adobe Analytics with AEM Screens](/help/screens/using/configuring-adobe-analytics-aem-screens.md)
 

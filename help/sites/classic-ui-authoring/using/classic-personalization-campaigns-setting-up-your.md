@@ -24,26 +24,26 @@ Then depending on the type of experience(s) you are creating, you will need to [
 
 * If creating a Teaser:
 
-    1. [Create a teaser experience](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingateaserexperience).
-    1. [Add content to your teaser](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#addingcontenttoyourteaser).
-    1. [Create a Touchpoint for your Teaser](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingatouchpointforyourteaser) (add your teaser to a content page).
+    1. [Create a teaser experience](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingateaserexperience).
+    1. [Add content to your teaser](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#addingcontenttoyourteaser).
+    1. [Create a Touchpoint for your Teaser](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingatouchpointforyourteaser) (add your teaser to a content page).
 
 * If creating a Newsletter:
 
-    1. [Create a newsletter experience](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatinganewsletterexperience).
-    1. [Add content to the newsletter.](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#addingcontenttonewsletters)
-    1. [Personalize the newsletter.](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#personalizingnewsletters)
-    1. [Create a compelling newsletter landing page](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#settingupanewsletterlandingpage).
-    1. [Send the newsletter](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#sendingnewsletters) to subscribers or leads.
+    1. [Create a newsletter experience](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatinganewsletterexperience).
+    1. [Add content to the newsletter.](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#addingcontenttonewsletters)
+    1. [Personalize the newsletter.](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#personalizingnewsletters)
+    1. [Create a compelling newsletter landing page](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#settingupanewsletterlandingpage).
+    1. [Send the newsletter](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#sendingnewsletters) to subscribers or leads.
 
 * If creating a Adobe Target (formerly Test&Target) Offer:
 
-    1. [Create a Adobe Target offer experience](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingatesttargetofferexperience).
-    1. [Integrate with Adobe Target](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#integratewithadobetesttarget)
+    1. [Create a Adobe Target offer experience](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingatesttargetofferexperience).
+    1. [Integrate with Adobe Target](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#integratewithadobetesttarget)
 
 >[!NOTE]
 >
->See [Segmentation](../../../sites/administering/using/campaign-segmentation.md) for detailed instructions on defining your segments.
+>See [Segmentation](/help/sites/administering/using/campaign-segmentation.md) for detailed instructions on defining your segments.
 
 ## Creating a New Brand {#creating-a-new-brand}
 
@@ -88,9 +88,9 @@ Configure campaign properties that control the behavior:
 * **Priority:** The priority of this campaign relative to other campaigns. When multiple campaigns are simultaneously On, the campaign that has the highest priority controls the visitor experience. 
 * **On and Off Time:** These properties control the period of time when the campaign controls the visitor experience. The On Time property controls the time when the campaign begins to control the experience. The Off Time property controls when the campaigns stops controlling the experience.
 * **Image:** The image that represents the campaign in AEM.
-* **Cloud Services:** The Cloud Service configurations with which the campaign is integrated. (See [Integrating with Adobe Marketing Cloud](../../../sites/administering/using/marketing-cloud.md).)
+* **Cloud Services:** The Cloud Service configurations with which the campaign is integrated. (See [Integrating with Adobe Marketing Cloud](/help/sites/administering/using/marketing-cloud.md).)
 
-* **Adobe Target:** Properties that configure campaigns that are integrated with Adobe Target. (See [Integrating with Adobe Target](../../../sites/administering/using/target.md).)
+* **Adobe Target:** Properties that configure campaigns that are integrated with Adobe Target. (See [Integrating with Adobe Target](/help/sites/administering/using/target.md).)
 
 1. From **Campaigns**, select your brand. In the right pane, select your campaign and cick **Properties**.
 
@@ -104,9 +104,9 @@ Configure campaign properties that control the behavior:
 
 The procedure for creating a new experience is dependent on the type of experience:
 
-* [Creating a Teaser](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingateaser)
-* [Creating a Newsletter](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatinganewsletter)
-* [Creating a Adobe Target Offer](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingatesttargetoffer)
+* [Creating a Teaser](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingateaser)
+* [Creating a Newsletter](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatinganewsletter)
+* [Creating a Adobe Target Offer](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingatesttargetoffer)
 
 >[!NOTE]
 >
@@ -118,21 +118,21 @@ The procedure for creating a new experience is dependent on the type of experien
 
 Now that you have created the basic skeleton for your experience you need to continue with the following actions, dependent on the type of experience:
 
-* [Teaser](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#teasers):
+* [Teaser](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#teasers):
 
-    * [Connect the teaser page to visitor segments.](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#applyingasegmenttoyourteaser)
-    * [Create a Touchpoint for your Teaser](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingatouchpointforyourteaser) (add your teaser to a content page).
+    * [Connect the teaser page to visitor segments.](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#applyingasegmenttoyourteaser)
+    * [Create a Touchpoint for your Teaser](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingatouchpointforyourteaser) (add your teaser to a content page).
 
-* [Newsletter](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#newsletters):
+* [Newsletter](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#newsletters):
 
-    * [Add content to the newsletter.](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#addingcontenttonewsletters)
-    * [Personalize the newsletter.](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#personalizingnewsletters)
-    * [Send the newsletter](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#sendingnewsletters) to subscribers or leads.
-    * [Create a compelling newsletter landing page](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#settingupanewsletterlandingpage).
+    * [Add content to the newsletter.](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#addingcontenttonewsletters)
+    * [Personalize the newsletter.](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#personalizingnewsletters)
+    * [Send the newsletter](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#sendingnewsletters) to subscribers or leads.
+    * [Create a compelling newsletter landing page](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#settingupanewsletterlandingpage).
 
-* [Adobe Target Offer](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#testtargetoffers):
+* [Adobe Target Offer](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#testtargetoffers):
 
-    * [Integrate with Adobe Target](../../../sites/administering/using/target.md)
+    * [Integrate with Adobe Target](/help/sites/administering/using/target.md)
 
 ### Adding a New Touchpoint {#adding-a-new-touchpoint}
 
@@ -151,7 +151,7 @@ If you have existing experiences you can add a touchpoint directly from the Cale
 >[!NOTE]
 >
 >Adobe is not planning to further enhance this capability (Managing Leads).  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 In AEM MCM, you can organize and add leads either by entering them manually or importing a comma-separated list, for example, a mailing list. Additional ways to generate leads are from newsletter sign-ups or community sign-ups (if configured, those can trigger a workflow that populates leads).
 
@@ -305,7 +305,7 @@ To delete existing leads in the MCM, select the check box next to the lead and c
 >[!NOTE]
 >
 >Adobe is not planning to further enhance this capability (managing lists).  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 Lists let you organize your leads into groups. With lists, you can target your marketing campaigns to a select group of people, for example, you can send a targeted newsletter to a list. Lists are visible in the MCM, either in the Dashboard or by clicking **Lists**. Both provide you with the name of the list and the number of members.
 

@@ -15,7 +15,7 @@ discoiquuid: 42a38399-f5a7-4d2f-aa6a-d409a7ec60f7
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 You can manage your application and mobile app content from AEM Mobile Application Dashboard or the Control Center.
 
@@ -55,7 +55,7 @@ The **Manage Connection** tile displays the AEM Mobile On-Demand Services connec
 >
 >Click the gear in the top right to setup a Mobile On-Demand Cloud configuration.
 >
->See [Configuring Mobile On-Demand Services](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md) for details.
+>See [Configuring Mobile On-Demand Services](/help/mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md) for details.
 
 ![](assets/chlimage_1-56.png) 
 
@@ -86,7 +86,7 @@ The following image shows the **Manage Banners** tile in AEM Mobile Application 
 
 >[!NOTE]
 >
->See ** [Managing Banners](../../mobile/using/mobile-on-demand-managing-banners.md)** for creating, deleting, or updating the banners.
+>See ** [Managing Banners](/help/mobile/using/mobile-on-demand-managing-banners.md)** for creating, deleting, or updating the banners.
 
 ### The Manage Articles Tile {#the-manage-articles-tile}
 
@@ -105,7 +105,7 @@ The following image shows the **Manage Articles** tile in AEM Mobile Application
 
 >[!NOTE]
 >
->See [**Managing Articles**](../../mobile/using/mobile-on-demand-managing-articles.md) for creating, deleting, or updating the articles.
+>See [**Managing Articles**](/help/mobile/using/mobile-on-demand-managing-articles.md) for creating, deleting, or updating the articles.
 
 ### The Manage Collections Tile {#the-manage-collections-tile}
 
@@ -124,20 +124,20 @@ The following image shows the **Manage Collections** tile in AEM Mobile Applicat
 
 >[!NOTE]
 >
->See ** [Managing Collections](../../mobile/using/mobile-on-demand-managing-collections.md)** for creating, deleting, or updating the collections.
+>See ** [Managing Collections](/help/mobile/using/mobile-on-demand-managing-collections.md)** for creating, deleting, or updating the collections.
 
 ### The Next Steps {#the-next-steps}
 
 Once you are familiar with the application dashboard, see the following resources to create a mobile app:
 
-* [Application Create and Configuration Actions](../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md)
-* [Associating an On-Demand App to a Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
-* [Content Management Actions](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
+* [Application Create and Configuration Actions](/help/mobile/using/mobile-apps-ondemand-application-create-configure-action.md)
+* [Associating an On-Demand App to a Cloud Configuration](/help/mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
+* [Content Management Actions](/help/mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
 
 ### Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
-* [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md)
+* [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-on-demand.md)
+* [Administering Content to Use AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile.md)
 

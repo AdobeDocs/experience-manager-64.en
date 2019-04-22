@@ -23,9 +23,9 @@ The following areas have documentation available concerning best practices:
 
 For best practices on administering, deploying and maintaining, or developing, see one of the following:
 
-* [Administering best practices](../../../sites/administering/using/administer-best-practices.md)
-* [Developing best practices](../../../sites/developing/using/best-practices.md)
-* [Deploying best practices](../../../sites/deploying/using/best-practices.md)
+* [Administering best practices](/help/sites/administering/using/administer-best-practices.md)
+* [Developing best practices](/help/sites/developing/using/best-practices.md)
+* [Deploying best practices](/help/sites/deploying/using/best-practices.md)
 
 Specific documents are described and linked to in the tables that follow.
 
@@ -37,22 +37,22 @@ Best practices around Assets, including the dynamic media capability and Scene 7
  <tbody>
   <tr>
    <td>File Formats</td> 
-   <td><a href="../../../assets/using/assets-file-format-best-practices.md">Assets File formats Best Practices</a></td> 
+   <td><a href="/help/assets/using/assets-file-format-best-practices.md">Assets File formats Best Practices</a></td> 
    <td>Describes best practices around file support within AEM Assets.</td> 
   </tr>
   <tr>
    <td>Video Encoding</td> 
-   <td><a href="../../../assets/using/video.md#best-practices-for-encoding-videos">Encoding best practices</a></td> 
+   <td><a href="/help/assets/using/video.md#best-practices-for-encoding-videos">Encoding best practices</a></td> 
    <td>Describes best practice tips around encoding source video files.</td> 
   </tr>
   <tr>
    <td>Dynamic Imaging</td> 
-   <td><a href="../../../assets/using/best-practices-for-optimizing-the-quality-of-your-images.md">Dynamic Imaging best practices</a></td> 
+   <td><a href="/help/assets/using/best-practices-for-optimizing-the-quality-of-your-images.md">Dynamic Imaging best practices</a></td> 
    <td><p>Describes how to sharpen an image for best results and the best way to optimize the quality of your images if you're using the Dynamic Media functionality or are integrating with Scene7. </p> </td> 
   </tr>
   <tr>
    <td>Mulltilingual Assets</td> 
-   <td><a href="../../../assets/using/best-practices-for-translating-assets-efficiently.md">Translation best practices</a></td> 
+   <td><a href="/help/assets/using/best-practices-for-translating-assets-efficiently.md">Translation best practices</a></td> 
    <td>Describes best practices around translating AEM assets efficiently.</td> 
   </tr>
  </tbody>
@@ -62,12 +62,12 @@ Best practices around Assets, including the dynamic media capability and Scene 7
 
 Managing and authoring your website content has some best practices outlined as follows:
 
-| Authoring Tools | [Author environment and tools](../../../sites/authoring/using/author-environment-tools.md) |Provides an overview of the tools used to author pages. |
+| Authoring Tools | [Author environment and tools](/help/sites/authoring/using/author-environment-tools.md) |Provides an overview of the tools used to author pages. |
 |---|---|---|
-| Organizing Pages | [Creating and Organizing Pages](../../../sites/authoring/using/managing-pages.md) |Provides an overview on how to best organize your pages including naming conventions. |
+| Organizing Pages | [Creating and Organizing Pages](/help/sites/authoring/using/managing-pages.md) |Provides an overview on how to best organize your pages including naming conventions. |
 
 ## Forms {#forms}
 
-| Adaptive forms | [Best practices for working with adaptive forms](../../../forms/using/adaptive-forms-best-practices.md) |Describes best practices for setting up, authoring, and customizing adaptive forms. |
+| Adaptive forms | [Best practices for working with adaptive forms](/help/forms/using/adaptive-forms-best-practices.md) |Describes best practices for setting up, authoring, and customizing adaptive forms. |
 |---|---|---|
 | HTML5 forms | [Best practices for designing HTML5 forms](/help/forms/using/best-practices-for-html5-forms.md) |Describes best practices for working on layout and design of HTML5 forms. |

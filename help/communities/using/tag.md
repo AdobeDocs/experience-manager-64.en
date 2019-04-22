@@ -17,21 +17,21 @@ When AEM Communities components are configured with tagging enabled, community m
 
 The underlying infrastructure for tags applied in the publish environment is the same as for tags applied to content in the author environment, such as pages and assets:
 
-* See [Administering Tags](../../sites/administering/using/tags.md) and [Tagging User Generated Content](../../communities/using/tag-ugc.md) (UGC) for information about creating and managing tags.
+* See [Administering Tags](/help/sites/administering/using/tags.md) and [Tagging User Generated Content](/help/communities/using/tag-ugc.md) (UGC) for information about creating and managing tags.
 
-* See [Tagging for Developers](../../sites/developing/using/tags.md) for information about the [tagging framework](../../sites/developing/using/framework.md) as well as including and extending tags in [custom applications](../../sites/developing/using/building.md).
+* See [Tagging for Developers](/help/sites/developing/using/tags.md) for information about the [tagging framework](/help/sites/developing/using/framework.md) as well as including and extending tags in [custom applications](/help/sites/developing/using/building.md).
 
-* See [Using Social Tag Cloud](../../communities/using/tagcloud.md) for information for authors on how to add a `social tag cloud` component to a page to highlight the tags applied to UGC in the publish environment.
+* See [Using Social Tag Cloud](/help/communities/using/tagcloud.md) for information for authors on how to add a `social tag cloud` component to a page to highlight the tags applied to UGC in the publish environment.
 
-* See [Tagging Enablement Resources](../../communities/using/tag-resources.md) for information on tagging resources for catalogs.
+* See [Tagging Enablement Resources](/help/communities/using/tag-resources.md) for information on tagging resources for catalogs.
 
-Tagging of UGC may be enabled when configuring a [community site](../../communities/using/sites-console.md#tagging) or one of the following features:
+Tagging of UGC may be enabled when configuring a [community site](/help/communities/using/sites-console.md#tagging) or one of the following features:
 
-* [blog](../../communities/using/blog-feature.md)
-* [calendar](../../communities/using/calendar.md)
-* [file library](../../communities/using/file-library.md)
-* [forum](../../communities/using/forum.md)
-* [QnA](../../communities/using/working-with-qna.md)
+* [blog](/help/communities/using/blog-feature.md)
+* [calendar](/help/communities/using/calendar.md)
+* [file library](/help/communities/using/file-library.md)
+* [forum](/help/communities/using/forum.md)
+* [QnA](/help/communities/using/working-with-qna.md)
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
@@ -44,11 +44,11 @@ Tagging of UGC may be enabled when configuring a [community site](../../communit
    <td>social/commons/components/hbs/tagcloud</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.tagcloud</td> 
   </tr>
   <tr>
@@ -61,12 +61,12 @@ Tagging of UGC may be enabled when configuring a [community site](../../communit
   </tr>
   <tr>
    <td><strong>properties</strong></td> 
-   <td>see <a href="../../communities/using/tagcloud.md">Using Social Tag Cloud</a></td> 
+   <td>see <a href="/help/communities/using/tagcloud.md">Using Social Tag Cloud</a></td> 
   </tr>
  </tbody>
 </table>
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -74,10 +74,10 @@ Tagging of UGC may be enabled when configuring a [community site](../../communit
 
 * [Social Tag Manager](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/tagging/package-summary.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 
 ## Tag Searching {#tag-searching}
 
-As of [feature pack 1](../../communities/using/deploy-communities.md#latestfeaturepack) (FP1), tag searching is performed using [tag titles](../../sites/developing/using/framework.md#tag-characteristics).
+As of [feature pack 1](/help/communities/using/deploy-communities.md#latestfeaturepack) (FP1), tag searching is performed using [tag titles](/help/sites/developing/using/framework.md#tag-characteristics).
 
-Prior to FP1, search was performed using [tag ids](../../sites/developing/using/framework.md#tagid).
+Prior to FP1, search was performed using [tag ids](/help/sites/developing/using/framework.md#tagid).

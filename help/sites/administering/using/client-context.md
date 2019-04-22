@@ -15,7 +15,7 @@ discoiquuid: d13c68ba-be49-440b-8bbe-a10edbfb9b9b
 
 >[!NOTE]
 >
->Client Context has been superseded by ContextHub. For more details, see the related [configuration](../../../sites/administering/using/contexthub-config.md) and [developer](../../../sites/developing/using/contexthub.md) documenatation.
+>Client Context has been superseded by ContextHub. For more details, see the related [configuration](/help/sites/administering/using/contexthub-config.md) and [developer](/help/sites/developing/using/contexthub.md) documenatation.
 
 The Client Context is a mechanism that provides you with certain information about the current page and visitor. It can be opened using **Ctrl-Alt-c** (windows) or **control-option-c** (Mac):
 
@@ -86,7 +86,7 @@ When displayed in the Context Cloud, the component uses a Google API to display 
 
 The JSONP standard is a complement to JSON that allows the circumvention of the same origin policy (making it impossible for a web app to communicate with servers that are on another domain). It consists in wrapping the JSON object in a function call in order to be able load it as a from the other domain (which is an allowed exception to the same origin policy).  
   
-The JSONP Store is like any other store, but it loads information that comes from another domain without the need of having a proxy for that information on the current domain. See the example in [Storing Data in Client Context Via JSONP](../../../sites/administering/using/client-context.md#storing-data-in-client-context-via-jsonp).
+The JSONP Store is like any other store, but it loads information that comes from another domain without the need of having a proxy for that information on the current domain. See the example in [Storing Data in Client Context Via JSONP](/help/sites/administering/using/client-context.md#storing-data-in-client-context-via-jsonp).
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ For example, whether the mouse is currently over the left or right hand portion 
 
 This session store has no default client context component.
 
-For additional information, see [Client Context in Detail](../../../sites/developing/using/client-context.md).
+For additional information, see [Client Context in Detail](/help/sites/developing/using/client-context.md).
 
 >[!NOTE]
 >
@@ -198,7 +198,7 @@ Editing a client context can be used to set (or reset) the values of certain pro
 
 ### Editing Property Details {#editing-property-details}
 
-Editing a client context can be used to set (or reset) the values of certain properties. This allows you to test specific scenarios (particularly useful for [segmentation](../../../sites/administering/using/campaign-segmentation.md) and [campaigns](../../../sites/authoring/using/campaigns.md)).
+Editing a client context can be used to set (or reset) the values of certain properties. This allows you to test specific scenarios (particularly useful for [segmentation](/help/sites/administering/using/campaign-segmentation.md) and [campaigns](/help/sites/authoring/using/campaigns.md)).
 
 ![](assets/clientcontext_alisonparker_edit.png) 
 
@@ -216,7 +216,7 @@ After you have opened the **ClientContext design page**, you can also **Remove**
 
 Follow this example to use the JSONP Store context store component to add external data to Client Context. Then, create a segment based on the information from that data. The example uses the JSONP service that WIPmania.com provides. The service returns geolocation information based on the IP address of the web client.
 
-This example uses the Geometrixx Outdoors sample website to access Client Context and to test the created segment. You can use a different web site as long as the page has enabled Client Context. (See [Adding Client Context To a Page](../../../sites/developing/using/client-context.md#adding-client-context-to-a-page).)
+This example uses the Geometrixx Outdoors sample website to access Client Context and to test the created segment. You can use a different web site as long as the page has enabled Client Context. (See [Adding Client Context To a Page](/help/sites/developing/using/client-context.md#adding-client-context-to-a-page).)
 
 ### Add the JSONP Store Component {#add-the-jsonp-store-component}
 

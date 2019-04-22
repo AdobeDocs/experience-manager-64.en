@@ -15,7 +15,7 @@ discoiquuid: bc8c9aa2-f669-41f3-a526-6146ff5cf0cd
 
 ## Post Upgrade Checks {#post-upgrade-checks}
 
-Following the [In-Place Upgrade](../../../sites/deploying/using/in-place-upgrade.md) the following activities should be executed to finalize the upgrade. It is assumed AEM has been started with the 6.4 jar and that the upgraded code base has been deployed.
+Following the [In-Place Upgrade](/help/sites/deploying/using/in-place-upgrade.md) the following activities should be executed to finalize the upgrade. It is assumed AEM has been started with the 6.4 jar and that the upgraded code base has been deployed.
 
 * [Verify logs for upgrade success](#verify-logs-for-upgrade-success)  
 
@@ -63,7 +63,7 @@ Here is a sample report that shows a bundle that was not installed during the up
 
 **error.log**
 
-The error.log should be carefully reviewed during and following the start up of AEM using the target version jar. Any warnings or errors should be reviewed. In general it is best to look for issues at the beginning of the log. Errors that occur later in the log may actually be side-effects of a root cause that is called out early in the file. If repeated errors and warnings occur see below for [Analyzing Issues with the Upgrade](../../../sites/deploying/using/post-upgrade-checks-and-troubleshooting.md#analyzing-issues-with-upgrade).
+The error.log should be carefully reviewed during and following the start up of AEM using the target version jar. Any warnings or errors should be reviewed. In general it is best to look for issues at the beginning of the log. Errors that occur later in the log may actually be side-effects of a root cause that is called out early in the file. If repeated errors and warnings occur see below for [Analyzing Issues with the Upgrade](/help/sites/deploying/using/post-upgrade-checks-and-troubleshooting.md#analyzing-issues-with-upgrade).
 
 ### Verify OSGi Bundles {#verify-osgi-bundles}
 
@@ -75,7 +75,7 @@ Following the upgrade you should see that Oak version has been updated to **1.6.
 
 ### Inspect PreUpgradeBackup folder {#inspect-preupgradebackup-folder}
 
-During the upgrade AEM will attempt to backup customizations and store them beneath `/var/upgrade/PreUpgradeBackup/<time-stamp-of-upgrade>`. In order to view this folder in CRXDE Lite you may need to [temporarily enable CRXDE Lite](../../../sites/administering/using/enabling-crxde-lite.md).
+During the upgrade AEM will attempt to backup customizations and store them beneath `/var/upgrade/PreUpgradeBackup/<time-stamp-of-upgrade>`. In order to view this folder in CRXDE Lite you may need to [temporarily enable CRXDE Lite](/help/sites/administering/using/enabling-crxde-lite.md).
 
 The folder with the time stamp should have a property named `mergeStatus` with a value of `COMPLETED`. The **to-process** folder should be empty and the **overwritten** node indicates which nodes were overwritten during the upgrade. Content beneath the **leftovers** node indicate content that could not be safely merged during the upgrade. If your implementation is dependent on any of the children nodes (and not already installed by your upgraded code package) they will need to be merged manually.
 
@@ -91,13 +91,13 @@ Apply any relevant AEM 6.4 Service Packs if they have been released.
 
 ### Migrate AEM Features {#migrate-aem-features}
 
-Several features in AEM require additional steps following the upgrade. A full list of these features and steps to migrate them in AEM 6.4 can be found on the [Upgrading Code and Customizations](../../../sites/deploying/using/upgrading-code-and-customizations.md) page.
+Several features in AEM require additional steps following the upgrade. A full list of these features and steps to migrate them in AEM 6.4 can be found on the [Upgrading Code and Customizations](/help/sites/deploying/using/upgrading-code-and-customizations.md) page.
 
 ### Verify Scheduled Maintenance Configurations {#verify-scheduled-maintenance-configurations}
 
 #### Enable Data Store Garbage Collection {#enable-data-store-garbage-collection}
 
-If using a File Data Store ensure that the Data Store Garbage Collection task is enabled and added to the Weekly Maintenance list. Instructions are outlined [here](../../../sites/administering/using/data-store-garbage-collection.md).
+If using a File Data Store ensure that the Data Store Garbage Collection task is enabled and added to the Weekly Maintenance list. Instructions are outlined [here](/help/sites/administering/using/data-store-garbage-collection.md).
 
 >[!NOTE]
 >
@@ -105,15 +105,15 @@ If using a File Data Store ensure that the Data Store Garbage Collection task is
 
 #### Enable Online Revision Cleanup {#enable-online-revision-cleanup}
 
-If using MongoMK or the new TarMK segment format ensure that the Revision Clean Up task is enabled and added to the Daily Maintenance list. Instructions outlined [here](../../../sites/deploying/using/revision-cleanup.md).
+If using MongoMK or the new TarMK segment format ensure that the Revision Clean Up task is enabled and added to the Daily Maintenance list. Instructions outlined [here](/help/sites/deploying/using/revision-cleanup.md).
 
 ### Execute Test Plan {#execute-test-plan}
 
-Execute detailed test plan against as defined [Upgrading Code and Customizations](../../../sites/deploying/using/upgrading-code-and-customizations.md) under the **Test Procedure** section.
+Execute detailed test plan against as defined [Upgrading Code and Customizations](/help/sites/deploying/using/upgrading-code-and-customizations.md) under the **Test Procedure** section.
 
 ### Enable Replication Agents {#enable-replication-agents}
 
-Once publish environment has been fully upgraded and validated, enable replication agents on the Author Environment. Verify that agents are able to connect to respective Publish instances. See U [pgrade Procedure](../../../sites/deploying/using/upgrade-procedure.md) for more details on order of events.
+Once publish environment has been fully upgraded and validated, enable replication agents on the Author Environment. Verify that agents are able to connect to respective Publish instances. See U [pgrade Procedure](/help/sites/deploying/using/upgrade-procedure.md) for more details on order of events.
 
 ### Enable Custom Scheduled Jobs {#enable-custom-scheduled-jobs}
 

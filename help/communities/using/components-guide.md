@@ -13,11 +13,11 @@ discoiquuid: a777a3f1-b39f-4d90-b9b6-02d3e321a86f
 
 # Community Components Guide{#community-components-guide}
 
-The Community Components guide is an interactive development tool for the [social component framework (SCF)](../../communities/using/scf.md). It provides a list of available AEM Communities components or the more complex features built of multiple components.
+The Community Components guide is an interactive development tool for the [social component framework (SCF)](/help/communities/using/scf.md). It provides a list of available AEM Communities components or the more complex features built of multiple components.
 
 Along with basic information for each component, the guide allows for experimentation with how the SCF components/features work and how they can be configured or customized.
 
-For information regarding development essentials related to each component, see [Feature and Component Essentials](../../communities/using/essentials.md).
+For information regarding development essentials related to each component, see [Feature and Component Essentials](/help/communities/using/essentials.md).
 
 ## Getting Started {#getting-started}
 
@@ -32,7 +32,7 @@ Interactions with the Communities components will vary depending on:
 * the server (author or publish)
 * whether or not the site visitor is signed in
 * if signed in, the privileges assigned to the member
-* whether or not the default SRP, [JSRP](../../communities/using/jsrp.md), is in use
+* whether or not the default SRP, [JSRP](/help/communities/using/jsrp.md), is in use
 
 On author, to enter edit mode, insert either * `editor.html`* or * `cf#`* as the first path segment after the server name:
 
@@ -50,9 +50,9 @@ On author, to enter edit mode, insert either * `editor.html`* or * `cf#`* as the
 >
 >With the component page displayed in the browser, return to Edit mode in order to open the component's edit dialog.
 >
->For general authoring information, view the [quick guide to authoring pages](../../sites/authoring/using/qg-page-authoring.md).
+>For general authoring information, view the [quick guide to authoring pages](/help/sites/authoring/using/qg-page-authoring.md).
 >
->If not familiar with AEM, view the documentation on [basic handling](../../sites/authoring/using/basic-handling.md).
+>If not familiar with AEM, view the documentation on [basic handling](/help/sites/authoring/using/basic-handling.md).
 
 ### Home Page {#home-page}
 
@@ -72,7 +72,7 @@ The main body of the guide displays:
 
 1. Title: the name of the component selected
 1. [Client-Side Llibraries](#client-side-libraries): a list of one or more required categories
-1. [Includable](../../communities/using/scf.md#add-or-include-a-communities-component): if the component may be dynamically included, then the state can be toggled in author edit mode:
+1. [Includable](/help/communities/using/scf.md#add-or-include-a-communities-component): if the component may be dynamically included, then the state can be toggled in author edit mode:
 
     * if added, text displayed is: "This component is included via its par node."
     * if included, text displayed is: "This component is included dynamically."
@@ -86,9 +86,9 @@ The main body of the guide displays:
 
 ### Author Interactions {#author-interactions}
 
-When using the guide on an author instance, it is possible to experience configuring a component by opening its dialog. Information for developers is provided in the [Component and Feature Essentials](../../communities/using/essentials.md) section of the documentation, while the dialog settings are described in [Communities Components](../../communities/using/author-communities.md) section for authors.
+When using the guide on an author instance, it is possible to experience configuring a component by opening its dialog. Information for developers is provided in the [Component and Feature Essentials](/help/communities/using/essentials.md) section of the documentation, while the dialog settings are described in [Communities Components](/help/communities/using/author-communities.md) section for authors.
 
-For the Community Components guide, some component dialog settings are overlayed with the [Includable](../../communities/using/scf.md#add-or-include-a-communities-component) toggle state. To toggle between using the existing resource or a dynamically included resource, in edit mode select both the component and includable text and double-click to open the edit dialog:
+For the Community Components guide, some component dialog settings are overlayed with the [Includable](/help/communities/using/scf.md#add-or-include-a-communities-component) toggle state. To toggle between using the existing resource or a dynamically included resource, in edit mode select both the component and includable text and double-click to open the edit dialog:
 
 ![](assets/chlimage_1-406.png)
 
@@ -114,19 +114,19 @@ When using the guide on a publish instance, it is possible to experience the com
 
 >[!NOTE]
 >
->Be aware, if the SRP is left defaulted to [JSRP](../../communities/using/jsrp.md), then UGC entered on the publish instance will only be visible on publish, and will *not *be visible from the [moderation](../../communities/using/moderate-ugc.md) console on the author instance.
+>Be aware, if the SRP is left defaulted to [JSRP](/help/communities/using/jsrp.md), then UGC entered on the publish instance will only be visible on publish, and will *not *be visible from the [moderation](/help/communities/using/moderate-ugc.md) console on the author instance.
 
 ## Client-Side Libraries {#client-side-libraries}
 
 The client-side libraries (clientlibs) listed for each component are those *required *to be referenced when the component is placed on a page. The clientlibs provide a means of managing and optimizing the download of the Javascript and CSS used to render the component in the browser.
 
-For more information, visit [Clientlibs for Communities Components](../../communities/using/clientlibs.md).
+For more information, visit [Clientlibs for Communities Components](/help/communities/using/clientlibs.md).
 
 ## Impersonation {#impersonation}
 
 On the author instance, where one is often signed in as an administrator or developer, in order to experience the component logged in as another user, use the text box to the left of the **Impersonate **button to either type in the username or select from the pull down list, and then click the button. Click Revert to signout and end the impersonation.
 
-The publish instance does not need to impersonate. Simply use the Login/Logout link to impersonate various users, such as the [demo users](../../communities/using/tutorials.md#demo-users).
+The publish instance does not need to impersonate. Simply use the Login/Logout link to impersonate various users, such as the [demo users](/help/communities/using/tutorials.md#demo-users).
 
 ## Customization {#customization}
 
@@ -142,7 +142,7 @@ To quickly experiment with customizations, the `scg:showIde`property must be add
 
 Using the comments component as an example, on either the author or publish instance, signed in with administrator privileges:
 
-1. browse to [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md)  
+1. browse to [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md)  
    for example, [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
 
 1. select the component's `jcr:content` node  

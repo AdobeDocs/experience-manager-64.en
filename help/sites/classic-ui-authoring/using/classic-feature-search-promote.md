@@ -20,7 +20,7 @@ To integrate Search&amp;Promote capabilities in your web site, use the Search&am
 * Search refinement
 * Banners
 
-Note that you can use Search&amp;Promote capabilities only if your AEM administrator has enabled them. See [Integrating with Adobe Search&amp;Promote](../../../sites/administering/using/search-and-promote.md).
+Note that you can use Search&amp;Promote capabilities only if your AEM administrator has enabled them. See [Integrating with Adobe Search&amp;Promote](/help/sites/administering/using/search-and-promote.md).
 
 Facets are configured on the Search&amp;Promote server, as is the information that each component provides. The following table provides a brief description of each component. Subsequent sections provide detailed information about their use.
 

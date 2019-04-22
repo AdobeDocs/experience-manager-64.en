@@ -39,11 +39,11 @@ The form automatically updates based on the user. See [Editing Form Content](#ed
 
 Before being able to create forms that are specific to Adobe Campaign, you must make the different templates available in your AEM application.
 
-To do this, see the [Templates documentation](../../../sites/developing/using/templates.md#template-availability).
+To do this, see the [Templates documentation](/help/sites/developing/using/templates.md#template-availability).
 
 ## Creating a Form {#creating-a-form}
 
-First of all, check the connection between the author and publish instances and Adobe Campaign is working. See [Integrating with Adobe Campaign Standard](../../../sites/administering/using/campaignstandard.md) or [Integrating with Adobe Campaign Classic](../../../sites/administering/using/campaignonpremise.md).
+First of all, check the connection between the author and publish instances and Adobe Campaign is working. See [Integrating with Adobe Campaign Standard](/help/sites/administering/using/campaignstandard.md) or [Integrating with Adobe Campaign Classic](/help/sites/administering/using/campaignonpremise.md).
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ First of all, check the connection between the author and publish instances and 
 
    >[!NOTE]
    >
-   >If the desired template is not available, see [Template Availability](../../../sites/developing/using/templates.md#template-availability).
+   >If the desired template is not available, see [Template Availability](/help/sites/developing/using/templates.md#template-availability).
 
 1. In the **Name** field, add the name of the page. It must be a valid JCR name.
 1. In the **Title** field, enter a title and click **Create**.
@@ -73,9 +73,9 @@ Forms dedicated to Adobe Campaign have specific components. These components hav
 
 >[!NOTE]
 >
->If the desired template is not available, see [Making a template available](../../../sites/authoring/using/adobe-campaign.md).
+>If the desired template is not available, see [Making a template available](/help/sites/authoring/using/adobe-campaign.md).
 
-This section only details specific links to Adobe Campaign. For more information on a more general overview of how to use forms in Adobe Experience Manager, see [Editmode components](../../../sites/authoring/using/default-components-foundation.md).
+This section only details specific links to Adobe Campaign. For more information on a more general overview of how to use forms in Adobe Experience Manager, see [Editmode components](/help/sites/authoring/using/default-components-foundation.md).
 
 1. Select **Open Properties** and in Cloud Services add the Adobe Campaign configuration and select the checkmark to save your changes.
 
@@ -98,7 +98,7 @@ This section only details specific links to Adobe Campaign. For more information
 
    ![](assets/chlimage_1-47.png)
 
-1. Add components to the form as needed, such as a Text field, Date field, Checkbox field, Option field, and so on. See [Adobe Campaign Form Components](../../../sites/authoring/using/adobe-campaign-components.md) for more information on each component.
+1. Add components to the form as needed, such as a Text field, Date field, Checkbox field, Option field, and so on. See [Adobe Campaign Form Components](/help/sites/authoring/using/adobe-campaign-components.md) for more information on each component.
 1. Click the Configuration icon to open the component. For example, in **Text Field (Campaign) **component, change the title and text.
 
    Click** Adobe Campaign** to map the form field to an Adobe Campaign metadata variable. When you submit the form, the mapped field is updated in Adobe Campaign. Only fields with matching types are available in the variable picker (for example, string variables for text fields).

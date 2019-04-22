@@ -15,7 +15,7 @@ tagskeywords: querybuilder
 
 # Query Builder API{#query-builder-api}
 
-The functionality of the [Asset Share Query Builder](../../../assets/using/assets-finder-editor.md) is exposed through a Java API and a REST API. This section describes these APIs.
+The functionality of the [Asset Share Query Builder](/help/assets/using/assets-finder-editor.md) is exposed through a Java API and a REST API. This section describes these APIs.
 
 The server-side query builder ( ` [QueryBuilder](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.html)`) will accept a query description, create and run an XPath query, optionally filter the result set, and also extract facets, if desired.
 
@@ -373,7 +373,7 @@ p.nodedepth=5
 
 ## More Predicates {#morepredicates}
 
-For more predicates, see the [Query Builder Predicate Reference page](../../../sites/developing/using/querybuilder-predicate-reference.md).
+For more predicates, see the [Query Builder Predicate Reference page](/help/sites/developing/using/querybuilder-predicate-reference.md).
 
 You can also check the [Javadoc for the `*PredicateEvaluator` classes](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.html). The Javadoc for these classes contains the list of properties that you can use.
 
@@ -498,7 +498,7 @@ Explain **all** queries during the development cycle against the target index se
 
     * `com.day.cq.search.impl.builder.QueryImpl XPath query: /jcr:root/content//element(*, cq:Page)[(jcr:contains(jcr:content, "Geometrixx") or jcr:contains(jcr:content/@cq:tags, "Geometrixx"))]`
 
-* Paste the XPath query into [Explain Query](../../../sites/administering/using/operations-dashboard.md#explain-query) as XPath to obtrain the query plan
+* Paste the XPath query into [Explain Query](/help/sites/administering/using/operations-dashboard.md#explain-query) as XPath to obtrain the query plan
 
 ### Obtain explain-able XPath via the Query Builder debugger {#obtain-explain-able-xpath-via-the-query-builder-debugger}
 
@@ -517,7 +517,7 @@ Explain **all** queries during the development cycle against the target index se
 
     * `com.day.cq.search.impl.builder.QueryImpl XPath query: /jcr:root/content//element(*, cq:Page)[(jcr:contains(jcr:content, "Geometrixx") or jcr:contains(jcr:content/@cq:tags, "Geometrixx"))]`
 
-* Paste the XPath query into [Explain Query](../../../sites/administering/using/operations-dashboard.md#explain-query) as XPath to obtrain the query plan
+* Paste the XPath query into [Explain Query](/help/sites/administering/using/operations-dashboard.md#explain-query) as XPath to obtrain the query plan
 
 **Obtain explain-able XPath via the Query Builder debugger**
 
@@ -544,7 +544,7 @@ For a rundown on how to debug queries with QueryBuilder, see the video below.
 
 >[!NOTE]
 >
->The configuration of the loggers is described in the section [Creating Your Own Loggers and Writers](../../../sites/deploying/using/configure-logging.md#creating-your-own-loggers-and-writers).
+>The configuration of the loggers is described in the section [Creating Your Own Loggers and Writers](/help/sites/deploying/using/configure-logging.md#creating-your-own-loggers-and-writers).
 
 The log output (INFO level) of the query builder implementation when executing the query described in Testing and Debugging:
 

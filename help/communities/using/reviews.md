@@ -13,7 +13,7 @@ discoiquuid: bf4e7809-8def-4647-aaa6-3ac36865511f
 
 # Using Reviews and Reviews Summary (Display){#using-reviews-and-reviews-summary-display}
 
-The `Reviews`component is a composite of [ `Comments`](../../communities/using/comments.md) and [ `Rating`](../../communities/using/rating.md) components ready for use.
+The `Reviews`component is a composite of [ `Comments`](/help/communities/using/comments.md) and [ `Rating`](/help/communities/using/rating.md) components ready for use.
 
 The `Reviews Summary (Display)` component provides a summary of an active or closed instance of a `Reviews` component for display elsewhere on the site.
 
@@ -29,9 +29,9 @@ To add a `Reviews` component to a page in author mode, use the component browser
 
 and drag it into place on a page, such as a position relative to the feature for users to review.
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews`component will appear.
+When the [required client-side libraries](/help/communities/using/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews`component will appear.
 
 ![](assets/chlimage_1-340.png)
 
@@ -93,7 +93,7 @@ Under the **Reviews **tab, specify how reviews are handled.
 * **Allow Voting** 
   If checked, include the Voting feature for a topic. Default is unchecked.
 
-Under the **User Moderation **tab, specify how the posted reviews are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+Under the **User Moderation **tab, specify how the posted reviews are managed. For more information, see [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
 ![](assets/chlimage_1-345.png)
 
@@ -132,9 +132,9 @@ To add a `Reviews Summary (Display)` component to a page in author mode, locate 
 
 and drag it into place on a page where a summary of an active or closed review is to be displayed.
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews Summary (Display)`component will appear.
+When the [required client-side libraries](/help/communities/using/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews Summary (Display)`component will appear.
 
 ![](assets/chlimage_1-346.png)
 
@@ -153,7 +153,7 @@ Under the **Review Summary** tab
 ![](assets/chlimage_1-348.png)
 
 * `Review Path`  
-  enter or browse to the placed instance of the `reviews`component to summarize, for example, if added to the Web Page of the [Geometrixx Engage site,](../../communities/using/getting-started.md) the path would be:  
+  enter or browse to the placed instance of the `reviews`component to summarize, for example, if added to the Web Page of the [Geometrixx Engage site,](/help/communities/using/getting-started.md) the path would be:  
   /content/sites/engage/en/page/jcr:content/content/primary/reviews
 
 * `Include histogram`  
@@ -165,7 +165,7 @@ The Reviews component uses the Comment System.
 
 By changing the Comment Resource Type, the comment system will no longer generate an instance of a comment using the default, but rather one that has been customized (extended) by developers.
 
-Once the custom resource types is known, enter [Design Mode](../../sites/authoring/using/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
+Once the custom resource types is known, enter [Design Mode](/help/sites/authoring/using/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
 
 Under the **Resource Types **tab, specify the custom resourceType for new instances of the `Comments or Voting`components:
 
@@ -180,7 +180,7 @@ Under the **Resource Types **tab, specify the custom resourceType for new instan
   This resource will identify the resource type of the UGC created when a visitor posts a vote.
 
 * **Comment System Resource Type** 
-  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](../../communities/using/scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](../../communities/using/handlebars-helpers.md#include)
+  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](/help/communities/using/scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](/help/communities/using/handlebars-helpers.md#include)
 
 ## Site Visitor Experience {#site-visitor-experience}
 
@@ -205,8 +205,8 @@ Site visitors who are not signed in may only read posted reviews, translate them
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Review Essentials](../../communities/using/reviews-basics.md) page for developers.
+More information may be found on the [Review Essentials](/help/communities/using/reviews-basics.md) page for developers.
 
-For moderation of posted comments, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+For moderation of posted comments, see [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
-For translation of posted comments, see [Translating User Generated Content](../../communities/using/translate-ugc.md).
+For translation of posted comments, see [Translating User Generated Content](/help/communities/using/translate-ugc.md).

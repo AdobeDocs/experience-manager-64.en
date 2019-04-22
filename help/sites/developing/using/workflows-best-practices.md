@@ -25,7 +25,7 @@ When configuring workflow processes (customized and/or out-of-the-box), there ar
 
 ### Transient Workflows {#transient-workflows}
 
-To optimize high ingestion loads you can define a [workflow as transient](../../../sites/developing/using/workflows.md#transient-workflows).
+To optimize high ingestion loads you can define a [workflow as transient](/help/sites/developing/using/workflows.md#transient-workflows).
 
 When a workflow is transient the runtime data related to the intermediate worksteps are not persisted in the JCR when they run (the output renditions are persisted of course).
 
@@ -42,7 +42,7 @@ The advantages can include:
 
 ### Tuning DAM Workflows {#tuning-dam-workflows}
 
-For performance tuning guidelines for DAM workflows, see the [AEM Assets Performance Tuning Guide](../../../assets/using/performance-tuning-guidelines.md).
+For performance tuning guidelines for DAM workflows, see the [AEM Assets Performance Tuning Guide](/help/assets/using/performance-tuning-guidelines.md).
 
 ### Configure the Maximum Number of Concurrent Workflows {#configure-the-maximum-number-of-concurrent-workflows}
 
@@ -54,7 +54,7 @@ To address this issue, Adobe recommends configuring the number of **Maximum Para
 
 To configure **Maximum Parallel Jobs**, you can either:
 
-* Configure the ** [OSGi Configuration](../../../sites/deploying/using/configuring-osgi.md)** from the AEM Web console; for **Queue: Granite Workflow Queue** (an **Apache Sling Job Queue Configuration**).
+* Configure the ** [OSGi Configuration](/help/sites/deploying/using/configuring-osgi.md)** from the AEM Web console; for **Queue: Granite Workflow Queue** (an **Apache Sling Job Queue Configuration**).
 
 * Configure the queue can from the **Sling Jobs** option of the AEM Web console; for **Job Queue Configuration: Granite Workflow Queue**, at `http://localhost:4502/system/console/slingevent`.
 
@@ -74,7 +74,7 @@ In a standard installation AEM provides a maintenance console where daily and we
 
 By default, the **Weekly Maintenance Window** has a **Workflow Purge** task, but this needs to be configured before it will run. To configure workflow purges, a new **Adobe Granite Workflow Purge Configuration** must be added in the Web console.
 
-For further details on maintenance tasks in AEM, see the [Operations Dashboard](../../../sites/administering/using/operations-dashboard.md).
+For further details on maintenance tasks in AEM, see the [Operations Dashboard](/help/sites/administering/using/operations-dashboard.md).
 
 ## Customization {#customization}
 
@@ -86,7 +86,7 @@ Definitions of workflow models, launchers, scripts and notifications are held in
 
 >[!NOTE]
 >
->See also [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring-in-aem64.md).
+>See also [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring-in-aem64.md).
 
 #### Locations - Workflow Models {#locations-workflow-models}
 
@@ -270,7 +270,7 @@ Saving a session:
 
 ### Minimize the Number/Scope of Launchers {#minimize-the-number-scope-of-launchers}
 
-There is one listener that is responsible for all of the [workflow launchers](../../../sites/administering/using/workflows-starting.md#workflows-launchers) that are registered:
+There is one listener that is responsible for all of the [workflow launchers](/help/sites/administering/using/workflows-starting.md#workflows-launchers) that are registered:
 
 * It will listen for changes at all of the paths specified in the globbing properties of the other launchers. 
 * When an event is dispatched, the workflow engine will then evaluate each launcher to determine if it should run.
@@ -283,7 +283,7 @@ Due to the impact of these launchers on workflow behavior, it can also be helpfu
 
 ### Configuration Enhancements for Launchers {#configuration-enhancements-for-launchers}
 
-The custom [launcher configuration](../../../sites/administering/using/workflows-starting.md#workflows-launchers) has been enhanced to support the following:
+The custom [launcher configuration](/help/sites/administering/using/workflows-starting.md#workflows-launchers) has been enhanced to support the following:
 
 * Have multiple conditions "AND"ed together.
 * Have OR conditions within a single condition.
@@ -306,9 +306,9 @@ It is recommened to use handler advance as it delivers better performance.
 
 ### Workflow Stages {#workflow-stages}
 
-You can define [workflow stages](../../../sites/developing/using/workflows.md#workflow-stages), then assign tasks/steps to a specific workflow stage.
+You can define [workflow stages](/help/sites/developing/using/workflows.md#workflow-stages), then assign tasks/steps to a specific workflow stage.
 
-This information is used for displaying the progress of a workflow when you click on the [**Workflow Info** tab of a workitem from the **Inbox**](../../../sites/authoring/using/workflows-participating.md#opening-a-workflow-item-to-view-details-and-take-actions). Existing workflow models can be edited to add stages.
+This information is used for displaying the progress of a workflow when you click on the [**Workflow Info** tab of a workitem from the **Inbox**](/help/sites/authoring/using/workflows-participating.md#opening-a-workflow-item-to-view-details-and-take-actions). Existing workflow models can be edited to add stages.
 
 ### Activate Page Process Step {#activate-page-process-step}
 
@@ -327,7 +327,7 @@ When upgrading your instance:
 
 >[!NOTE]
 >
->See also [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring-in-aem64.md).
+>See also [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring-in-aem64.md).
 
 ## System Tools {#system-tools}
 
@@ -356,8 +356,8 @@ The workflow maintenance MBean exposes several useful maintenance routines such 
 
 For further information see:
 
-* [Working with Workflows](../../../sites/authoring/using/workflows.md)
-* [Administering Workflows](../../../sites/administering/using/workflows.md)
-* [Developing and Extending Workflows](../../../sites/developing/using/workflows.md)
-* [Performance Optimization](../../../sites/deploying/using/configuring-performance.md)
+* [Working with Workflows](/help/sites/authoring/using/workflows.md)
+* [Administering Workflows](/help/sites/administering/using/workflows.md)
+* [Developing and Extending Workflows](/help/sites/developing/using/workflows.md)
+* [Performance Optimization](/help/sites/deploying/using/configuring-performance.md)
 

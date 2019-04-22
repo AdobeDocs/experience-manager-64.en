@@ -217,7 +217,7 @@ The following table lists the OSGi properties that you need to configure whether
 
 ## Configure the Replication Agent on Author {#configure-the-replication-agent-on-author}
 
-Configure the replication agent on the author instance to use the HTTPS protocol when connecting to the publish instance. For complete information about configuring replication agents see [Configuring Your Replication Agents](../../../sites/deploying/using/replication.md#configuring-your-replication-agents).
+Configure the replication agent on the author instance to use the HTTPS protocol when connecting to the publish instance. For complete information about configuring replication agents see [Configuring Your Replication Agents](/help/sites/deploying/using/replication.md#configuring-your-replication-agents).
 
 To enable MSSL, configure the properties on the Transport tab according to the following table:
 

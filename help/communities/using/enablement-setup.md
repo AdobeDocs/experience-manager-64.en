@@ -13,14 +13,14 @@ discoiquuid: f2ac3d66-cc79-498f-83fb-dd96feb88de2
 
 # Initial Setup for Enablement {#initial-setup-for-enablement}
 
-|   |** [Author a New Community Site for Enablement ⇒](../../communities/using/enablement-create-site.md)** |
+|   |** [Author a New Community Site for Enablement ⇒](/help/communities/using/enablement-create-site.md)** |
 |---|---|
 
 ## Start Author and Publish Instances {#start-author-and-publish-instances}
 
 For development and demonstration purposes, it will be necessry to run one author and one publish instance.
 
-Follow the basic AEM [Getting Started](../../sites/deploying/using/deploy.md#getting-started) instructions which will result in
+Follow the basic AEM [Getting Started](/help/sites/deploying/using/deploy.md#getting-started) instructions which will result in
 
 * author environment on [localhost:4502](http://localhost:4502/)
 * publish environment on [localhost:4503](http://localhost:4503/)
@@ -42,23 +42,23 @@ For AEM Communities,
 
 >[!NOTE]
 >
->If not familiar with AEM, view the documentation on [basic handling](../../sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](../../sites/authoring/using/qg-page-authoring.md).
+>If not familiar with AEM, view the documentation on [basic handling](/help/sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](/help/sites/authoring/using/qg-page-authoring.md).
 
 ## Install Latest Communities Release {#install-latest-communities-release}
 
-This tutorial creates an [enablement community site](../../communities/using/overview.md#enablement-community). To ensure the latest feature pack is installed, visit:
+This tutorial creates an [enablement community site](/help/communities/using/overview.md#enablement-community). To ensure the latest feature pack is installed, visit:
 
-* [Latest Releases](../../communities/using/deploy-communities.md#latest-releases)
+* [Latest Releases](/help/communities/using/deploy-communities.md#latest-releases)
 
-For a tutorial that creates an [engagement community site](../../communities/using/overview.md#engagement-community), visit [Getting Started with AEM Communities](../../communities/using/getting-started.md).
+For a tutorial that creates an [engagement community site](/help/communities/using/overview.md#engagement-community), visit [Getting Started with AEM Communities](/help/communities/using/getting-started.md).
 
 ## Configure Enablement Features {#configure-enablement-features}
 
-To follow this tutorial, it is necessary to correctly install and [configure enablement](../../communities/using/enablement.md), which requires third-party products, such as MySQL and FFmpeg.
+To follow this tutorial, it is necessary to correctly install and [configure enablement](/help/communities/using/enablement.md), which requires third-party products, such as MySQL and FFmpeg.
 
 ## Configure Analytics {#configure-analytics}
 
-When [Adobe Analytics is configured for the community site](../../communities/using/analytics.md), more information is available in the [reports](../../communities/using/reports.md) generated on enablement resources and learning paths assigned to community members (learners).
+When [Adobe Analytics is configured for the community site](/help/communities/using/analytics.md), more information is available in the [reports](/help/communities/using/reports.md) generated on enablement resources and learning paths assigned to community members (learners).
 
 ## Configure Email for Notifications {#configure-email-for-notifications}
 
@@ -66,21 +66,21 @@ The notifications feature, available by default for all sites created using the 
 
 What is necessary is for email to be properly configured for the site.
 
-See [Configuring Email](../../communities/using/email.md).
+See [Configuring Email](/help/communities/using/email.md).
 
 ## Enable the Tunnel Service {#enable-the-tunnel-service}
 
 When creating a community site in the author environment, the tunnel service makes possible the ability to create and manage users and user groups registered in the publish environment (members), assign roles to trusted community members, and assign content to learners.
 
-For more information see [Managing Users and User Groups](../../communities/using/users.md).
+For more information see [Managing Users and User Groups](/help/communities/using/users.md).
 
-For simple instructions to enable the tunnel service, see [Tunnel Service](../../communities/using/deploy-communities.md#tunnel-service-on-author).
+For simple instructions to enable the tunnel service, see [Tunnel Service](/help/communities/using/deploy-communities.md#tunnel-service-on-author).
 
 ## Create Tutorial Tags {#create-tutorial-tags}
 
 Create tags to use for the engage and enablement tutorials, using the tag namespace of `Tutorial`.
 
-Use the [Tagging console](../../sites/administering/using/tags.md#tagging-console) to create the following tags:
+Use the [Tagging console](/help/sites/administering/using/tags.md#tagging-console) to create the following tags:
 
 * `Tutorial: Sports / Baseball`
 * `Tutorial: Sports / Gymnastics`
@@ -93,8 +93,8 @@ Use the [Tagging console](../../sites/administering/using/tags.md#tagging-consol
 
 Then follow the instructions to
 
-1. [set the tag permissions](../../sites/administering/using/tags.md#setting-tag-permissions)
-1. [publish the tags](../../sites/administering/using/tags.md#publishing-tags)
+1. [set the tag permissions](/help/sites/administering/using/tags.md#setting-tag-permissions)
+1. [publish the tags](/help/sites/administering/using/tags.md#publishing-tags)
 
 Sample package of tags created for the AEM Communities Getting Started Tutorials
 
@@ -102,9 +102,9 @@ Sample package of tags created for the AEM Communities Getting Started Tutorials
 
 ## Create Enablement Members and Groups {#create-enablement-members-and-groups}
 
-For an enablement community site, site visitors should not be able to [self-register nor use social login](../../communities/using/sites-console.md#user-management).
+For an enablement community site, site visitors should not be able to [self-register nor use social login](/help/communities/using/sites-console.md#user-management).
 
-Instead, with the [tunnel service](#enable-the-tunnel-service) enabled, the [Members console](../../communities/using/members.md) is used to register new members in the publish environment.
+Instead, with the [tunnel service](#enable-the-tunnel-service) enabled, the [Members console](/help/communities/using/members.md) is used to register new members in the publish environment.
 
 In this tutorial, three members are created in the publish environment. Two members will be become members of a user group that is assigned to a learning path, while the third member will become an enablement resource contact.
 
@@ -116,11 +116,11 @@ A fourth user is created in the author environment and assigned the roles of Com
 >
 >If they were created afterwards, they could be added as members of the *Enablement Tutorial members group* during member creation.
 >
->Instead, later, they'll be [assigned to the members group](../../communities/using/enablement-create-site.md#assignuserstocommunityenablemembersgroup).
+>Instead, later, they'll be [assigned to the members group](/help/communities/using/enablement-create-site.md#assignuserstocommunityenablemembersgroup).
 
 ### Riley Taylor - Enrollee {#riley-taylor-enrollee}
 
-[Create a member](../../communities/using/members.md#create-new-member) who will be added to a group of Learners - the Community Ski Class group.
+[Create a member](/help/communities/using/members.md#create-new-member) who will be added to a group of Learners - the Community Ski Class group.
 
 * **ID**: riley
 * **Email **: riley.taylor@mailinator.com
@@ -131,7 +131,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 
 ### Sidney Croft - Enrollee {#sidney-croft-enrollee}
 
-[Create a second member](../../communities/using/members.md#create-new-member) who will be added to the Community Ski Class group.
+[Create a second member](/help/communities/using/members.md#create-new-member) who will be added to the Community Ski Class group.
 
 * **ID**: sidney
 * **Email **: sidney.croft@mailinator.com
@@ -142,7 +142,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 
 ### Quinn Harper - Enablement Resource Contact and Moderator {#quinn-harper-enablement-resource-contact-and-moderator}
 
-[Create a member](../../communities/using/members.md#create-new-member) who will be added to the Community Site's member group once the site has been created. This membership will allow the member to be assigned as the enablement [Resource Contact](../../communities/using/resources.md#settings) when an enablement resource is created for the site.
+[Create a member](/help/communities/using/members.md#create-new-member) who will be added to the Community Site's member group once the site has been created. This membership will allow the member to be assigned as the enablement [Resource Contact](/help/communities/using/resources.md#settings) when an enablement resource is created for the site.
 
 * **ID**: quinn
 * **Email **: quinn.harper@mailinator.com
@@ -153,7 +153,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 
 ### Add a User Group - Community Ski Class {#add-a-user-group-community-ski-class}
 
-[Add a new group](../../communities/using/members.md#create-new-group) named Community Ski Class.
+[Add a new group](/help/communities/using/members.md#create-new-group) named Community Ski Class.
 
 * **ID **: community-ski-class
 * **Name**: Community Ski Class
@@ -214,6 +214,6 @@ Scroll down to `Add User to Groups`:
 
 ![](assets/chlimage_1-419.png)
 
-|   |** [Author a New Community Site for Enablement ⇒](../../communities/using/enablement-create-site.md)** |
+|   |** [Author a New Community Site for Enablement ⇒](/help/communities/using/enablement-create-site.md)** |
 |---|---|
 

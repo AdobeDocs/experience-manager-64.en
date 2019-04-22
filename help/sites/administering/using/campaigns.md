@@ -23,7 +23,7 @@ If you are administering campaigns (including landing pages) you may need to do 
 
 See the following pages:
 
-* [Configuring Segmentation](../../../sites/administering/using/campaign-segmentation.md)
-* [Extending and Configuring the Design Importer for Landing Pages](../../../sites/administering/using/extending-the-design-importer-for-landingpages.md)
-* [Integrating Landing Pages with Adobe Analytics](../../../sites/administering/using/integrating-landing-pages-with-adobe-analytics.md)
+* [Configuring Segmentation](/help/sites/administering/using/campaign-segmentation.md)
+* [Extending and Configuring the Design Importer for Landing Pages](/help/sites/administering/using/extending-the-design-importer-for-landingpages.md)
+* [Integrating Landing Pages with Adobe Analytics](/help/sites/administering/using/integrating-landing-pages-with-adobe-analytics.md)
 

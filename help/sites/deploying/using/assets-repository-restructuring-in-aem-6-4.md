@@ -12,23 +12,23 @@ discoiquuid: 212930fc-3430-4a0a-842c-2fb613ef981f
 
 # Assets Repository Restructuring in AEM 6.4{#assets-repository-restructuring-in-aem}
 
-As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM Assets Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
+As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM Assets Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
 
 **With 6.4 Upgrade**
 
-* [Misc](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#misc)
+* [Misc](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#misc)
 
 **Prior to 6.5 Upgrade**
 
-* [Asset/Collection Event E-mail Notification Template](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#asset-collection-event-e-mail-notification-template)
-* [Classic Asset Share Designs](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#classic-asset-share-designs)
-* [Download Asset E-mail Notification Template](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#download-asset-e-mail-notification-template)
-* [Example DRM Licenses](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#example-drm-licenses)  
+* [Asset/Collection Event E-mail Notification Template](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#asset-collection-event-e-mail-notification-template)
+* [Classic Asset Share Designs](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#classic-asset-share-designs)
+* [Download Asset E-mail Notification Template](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#download-asset-e-mail-notification-template)
+* [Example DRM Licenses](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#example-drm-licenses)  
 
-* [Link Share E-mail Notification Template](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#link-share-e-mail-notification-template)
-* [InDesign Workflow Scripts](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#indesign-workflow-scripts)
-* [Video Transcoding Configurations](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#video-transcoding-configurations)
-* [Misc](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#misc2)
+* [Link Share E-mail Notification Template](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#link-share-e-mail-notification-template)
+* [InDesign Workflow Scripts](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#indesign-workflow-scripts)
+* [Video Transcoding Configurations](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#video-transcoding-configurations)
+* [Misc](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#misc2)
 
 ## With 6.4 Upgrade {#with-upgrade}
 
@@ -107,7 +107,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs, perform the following actions to align to the latest model:</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location under <span class="code">/apps</span>.</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the <span class="code">cq:designPath</span> property via <strong>AEM &gt; DAM Admin &gt; Asset Share Page &gt; Page Properties &gt; Advanced Tab &gt; Design Field</strong>.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category. This requires updating Page implementation code.</li> 
      <li>Update the Dispatcher rules to allow serving of Client Libraries via the <span class="code">/etc.clientlibs/</span> proxy servlet.</li> 

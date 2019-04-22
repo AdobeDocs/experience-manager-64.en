@@ -15,34 +15,34 @@ discoiquuid: 6cade87c-9ed5-47d7-9b39-c942268afdad
 
 >[!NOTE]
 >
->This section describes configuring segmentation when using the ContextHub. If you are using the Client Context functionality, please see the relevant documentation for [configuring segmentation for Client Context](../../../sites/administering/using/campaign-segmentation.md).
+>This section describes configuring segmentation when using the ContextHub. If you are using the Client Context functionality, please see the relevant documentation for [configuring segmentation for Client Context](/help/sites/administering/using/campaign-segmentation.md).
 >
 
-Segmentation is a key consideration when creating a campaign. See [Managing Audiences](../../../sites/authoring/using/managing-audiences.md) for information on how segmentation works and key terms.
+Segmentation is a key consideration when creating a campaign. See [Managing Audiences](/help/sites/authoring/using/managing-audiences.md) for information on how segmentation works and key terms.
 
 Depending on the information you have already collected about your site visitors and the goals you want to achieve, you will need to define the segments and strategies needed for your targeted content.
 
-These segments are then used to provide a visitor with specifically targeted content. This content is maintained in the [Personalization](../../../sites/authoring/using/personalization.md) section of the website. [Activities](../../../sites/authoring/using/activitylib.md) defined here can be included on any page and define which visitor segment the specialized content is applicable for.
+These segments are then used to provide a visitor with specifically targeted content. This content is maintained in the [Personalization](/help/sites/authoring/using/personalization.md) section of the website. [Activities](/help/sites/authoring/using/activitylib.md) defined here can be included on any page and define which visitor segment the specialized content is applicable for.
 
 AEM allows you to easily personalize your users' experience. It also allows you to verify the results of your segment definitions.
 
 ## Accessing Segments {#accessing-segments}
 
-The [Audiences](../../../sites/authoring/using/managing-audiences.md) console is used to manage segments for ContextHub or Client Context as well as audiences for your Adobe Target account. This documentation covers managing segments for ContextHub. For [Client Context segments](../../../sites/administering/using/campaign-segmentation.md) and Adobe Target segments, please see the relevant documentation.
+The [Audiences](/help/sites/authoring/using/managing-audiences.md) console is used to manage segments for ContextHub or Client Context as well as audiences for your Adobe Target account. This documentation covers managing segments for ContextHub. For [Client Context segments](/help/sites/administering/using/campaign-segmentation.md) and Adobe Target segments, please see the relevant documentation.
 
-To access your segments, in global navigation select **Navigation &gt; Personalization &gt; Audiences**. [](../../../sites/administering/using/campaign-segmentation.md)
+To access your segments, in global navigation select **Navigation &gt; Personalization &gt; Audiences**. [](/help/sites/administering/using/campaign-segmentation.md)
 
 ![](assets/chlimage_1-310.png) 
 
 ## Segment Editor {#segment-editor}
 
-The **Segment Editor** allows you to easily modify a segment. To edit a segment, select a segment in the [list of segments](../../../sites/administering/using/segmentation.md#accessing-segments) and click the **Edit** button.
+The **Segment Editor** allows you to easily modify a segment. To edit a segment, select a segment in the [list of segments](/help/sites/administering/using/segmentation.md#accessing-segments) and click the **Edit** button.
 
 ![](assets/segmenteditor.png)
 
 Using the components browser you can add **AND** and **OR** containers to define the segment logic, then add additional components to compare properties and values or reference scripts and other segments to define the selection criteria (see [Creating a New Segment](#creating-a-new-segment)) to define the exact scenario for selecting the segment.
 
-When the entire statement evaluates to true then the segment has resolved. In the event of multiple segments being applicable, then the **Boost** factor is also used. See [Creating a New Segment](#creating-a-new-segment) for details on the [boost factor.](../../../sites/administering/using/campaign-segmentation.md#boost-factor)
+When the entire statement evaluates to true then the segment has resolved. In the event of multiple segments being applicable, then the **Boost** factor is also used. See [Creating a New Segment](#creating-a-new-segment) for details on the [boost factor.](/help/sites/administering/using/campaign-segmentation.md#boost-factor)
 
 >[!CAUTION]
 >
@@ -50,7 +50,7 @@ When the entire statement evaluates to true then the segment has resolved. In th
 
 ### Containers {#containers}
 
-The following containers are available out-of-the-box and allow you to group comparisons and references together for boolean evaluation. They can be dragged from the components browser to the editor. See the following section [Using AND and OR Containers](../../../sites/administering/using/segmentation.md#using-and-and-or-containers) for more information.
+The following containers are available out-of-the-box and allow you to group comparisons and references together for boolean evaluation. They can be dragged from the components browser to the editor. See the following section [Using AND and OR Containers](/help/sites/administering/using/segmentation.md#using-and-and-or-containers) for more information.
 
 <table> 
  <tbody> 
@@ -100,7 +100,7 @@ The following segment comparisons are available out-of-the-box to evaluate segme
 >
 >`null < 30 // will return true`
 >
->Therefore when [creating a segment](../../../sites/administering/using/segmentation.md#creating-a-new-segment), you should select a **data type** whenever the types of compared values are known. For example:
+>Therefore when [creating a segment](/help/sites/administering/using/segmentation.md#creating-a-new-segment), you should select a **data type** whenever the types of compared values are known. For example:
 >
 >When comparing the property `profile/age`, you already know that the compared type will be **number**, so even if `profile/age` is not set, a comparison `profile/age` less-than 30 will return **false**, as you would expect.
 
@@ -116,7 +116,7 @@ The following references are available out-of-the-box to link directly to a scri
   </tr> 
   <tr> 
    <td width="125">Script Reference</td> 
-   <td width="400">Evaluate the referenced script. See the following section <a href="../../../sites/administering/using/segmentation.md#using-script-references">Using Script References</a> for more information.</td> 
+   <td width="400">Evaluate the referenced script. See the following section <a href="/help/sites/administering/using/segmentation.md#using-script-references">Using Script References</a> for more information.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,7 +125,7 @@ The following references are available out-of-the-box to link directly to a scri
 
 To define your new segment:
 
-1. After [accessing the segments](../../../sites/administering/using/segmentation.md#accessing-segments), click or tap the Create button and select **Create ContextHub Segment**.
+1. After [accessing the segments](/help/sites/administering/using/segmentation.md#accessing-segments), click or tap the Create button and select **Create ContextHub Segment**.
 
    ![](assets/chlimage_1-311.png)
 
@@ -143,10 +143,10 @@ To define your new segment:
 
    ![](assets/screen_shot_2012-02-02at103135am.png)
 
-   Always set a **Data Type** if possible to ensure that your comparisons are evaluated properly. See [Comparisons](../../../sites/administering/using/segmentation.md#comparisons) for more information.
+   Always set a **Data Type** if possible to ensure that your comparisons are evaluated properly. See [Comparisons](/help/sites/administering/using/segmentation.md#comparisons) for more information.
 
 1. Click **OK** to save your definition:
-1. Add more components as required. You can formulate boolean expressions using the container components for AND and OR comparisons (see [Using AND and Or Containers](../../../sites/administering/using/segmentation.md#using-and-and-or-containers) below). With the segment editor you can delete components not needed anymore, or drag them to new positions within the statement.
+1. Add more components as required. You can formulate boolean expressions using the container components for AND and OR comparisons (see [Using AND and Or Containers](/help/sites/administering/using/segmentation.md#using-and-and-or-containers) below). With the segment editor you can delete components not needed anymore, or drag them to new positions within the statement.
 
 ### Using AND and OR Containers {#using-and-and-or-containers}
 
@@ -217,11 +217,11 @@ this.dependOn(ContextHub.SegmentEngine.Property('profile/age'));
 
 1. Create ContextHub segment.
 1. Add **Script Reference** component in the desired place of the segment.
-1. Open the edit dialog of the **Script Reference** component. If [properly configured](../../../sites/administering/using/segmentation.md#defining-a-script-to-reference), the script should be available in the **Script name** drop-down.
+1. Open the edit dialog of the **Script Reference** component. If [properly configured](/help/sites/administering/using/segmentation.md#defining-a-script-to-reference), the script should be available in the **Script name** drop-down.
 
 ## Testing the Application of a Segment {#testing-the-application-of-a-segment}
 
-Once the segment has been defined, potential results can be tested with the help of the ** [ContextHub](../../../sites/authoring/using/ch-previewing.md).**
+Once the segment has been defined, potential results can be tested with the help of the ** [ContextHub](/help/sites/authoring/using/ch-previewing.md).**
 
 1. Preview a page
 1. Click the ContextHub icon to reveal the ContextHub toolbar
@@ -242,7 +242,7 @@ Or if it is not resolved:
 
 Such tests can also be performed on content pages and in combination with targeted content and related **Activities** and **Experiences**.
 
-If you have set up an activity and experience using the prime age group segment example above, you can easily test your segment with the activity. For details about setting up an activity, please see the related [documentation on authoring targeted content](../../../sites/authoring/using/content-targeting-touch.md).
+If you have set up an activity and experience using the prime age group segment example above, you can easily test your segment with the activity. For details about setting up an activity, please see the related [documentation on authoring targeted content](/help/sites/authoring/using/content-targeting-touch.md).
 
 1. In editing mode of a page where you have set up targeted content, you can see that the content is targeted via arrow icon on the content.
 
@@ -258,4 +258,4 @@ If you have set up an activity and experience using the prime age group segment 
 
 ## Using Your Segment {#using-your-segment}
 
-Segments are used are used to steer the actual content seen by specific target audiences. See [Managing Audiences](../../../sites/authoring/using/managing-audiences.md) for more information about audiences and segments and [Authoring Targeted Content](../../../sites/authoring/using/content-targeting-touch.md) about using audiences and segments to target content.
+Segments are used are used to steer the actual content seen by specific target audiences. See [Managing Audiences](/help/sites/authoring/using/managing-audiences.md) for more information about audiences and segments and [Authoring Targeted Content](/help/sites/authoring/using/content-targeting-touch.md) about using audiences and segments to target content.

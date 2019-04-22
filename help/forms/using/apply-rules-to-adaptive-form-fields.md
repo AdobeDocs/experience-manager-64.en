@@ -13,14 +13,14 @@ discoiquuid: 982eddba-2350-40e7-8a42-db02d28cf133
 
  ![](assets/06-apply-rules-to-adaptive-form_main.png)
 
-| This tutorial is a step in the [Create Your First Adaptive Form](../../forms/using/create-your-first-adaptive-form.md) series. Adobe recommends following the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
+| This tutorial is a step in the [Create Your First Adaptive Form](/help/forms/using/create-your-first-adaptive-form.md) series. Adobe recommends following the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|
 
 ## About the tutorial {#about-the-tutorial}
 
 You can use rules to add interactivity, business logic, and smart validations to an adaptive form. Adaptive forms have a built-in rule editor. The rule editor provides a drag-and-drop functionality, similar to guided tours. The drag-and-drop method is the fastest and easiest method to create rules. The rule editor also provides a code window for users interested in testing their coding skills or taking the rules to the next level.
 
-You can learn more about the rule editor at [Adaptive Forms rule editor](../../forms/using/rule-editor.md).
+You can learn more about the rule editor at [Adaptive Forms rule editor](/help/forms/using/rule-editor.md).
 
 By the end of the tutorial, you will learn to create rules to:
 
@@ -32,7 +32,7 @@ Interactive GIF images at the end of each section of the tutorial help you learn
 
 ## Step 1: Retrieve a customer record from the database {#retrieve-customer-record}
 
-You created a form data model by following the [create form data model](../../forms/using/create-form-data-model.md) article. Now, you can use the rule editor to invoke the Forms Data Model services to retrieve and add information to the database.
+You created a form data model by following the [create form data model](/help/forms/using/create-form-data-model.md) article. Now, you can use the rule editor to invoke the Forms Data Model services to retrieve and add information to the database.
 
 Every customer is assigned a unique Customer ID number, which helps identify relevant customer data in a database. The procedure below uses the Customer ID to retrieve information from the database:
 
@@ -100,7 +100,7 @@ You should run validation on the form to ensure that the data entered in the for
 
 Adaptive forms provide several components with built-in validations, for example, email, and numeric fields that you can use for common use cases. Use the rule editor for advanced use cases, for example, to display an error message when the database returns zero (0) records (no records).
 
-The following procedure shows how to create a rule to displays an error message if the Customer ID entered in the form does not exist in the database. The rule also brings the focus to and resets the Customer ID field. The rule uses [the dataIntegrationUtils API of the form data model service](../../forms/using/invoke-form-data-model-services.md) to check if the Customer ID exists in the database.
+The following procedure shows how to create a rule to displays an error message if the Customer ID entered in the form does not exist in the database. The rule also brings the focus to and resets the Customer ID field. The rule uses [the dataIntegrationUtils API of the form data model service](/help/forms/using/invoke-form-data-model-services.md) to check if the Customer ID exists in the database.
 
 1. Tap the **[!UICONTROL Customer ID]**field and tap the `Edit Rules` icon. The Rule Editor window opens.
 1. Tap the **[!UICONTROL + Create]**icon to add a rule. It opens the Visual Editor.

@@ -62,7 +62,7 @@ Those two versions support a list of environement variables that could be used t
 
 >[!CAUTION]
 >
->Note that some run modes, among them author and publish, need to be set before first starting AEM and can not be changed afterwards. Before setting up an AEM instance that is supposed to be used in production, please see the [run modes documentation](../../../sites/deploying/using/configure-runmodes.md) for details.
+>Note that some run modes, among them author and publish, need to be set before first starting AEM and can not be changed afterwards. Before setting up an AEM instance that is supposed to be used in production, please see the [run modes documentation](/help/sites/deploying/using/configure-runmodes.md) for details.
 
 ### Windows platform start.bat script example {#windows-platform-start-bat-script-example}
 

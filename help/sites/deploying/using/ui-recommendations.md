@@ -70,7 +70,7 @@ The following is a list of recommendations from Product Management for Adobe Exp
      <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selecting-your-ui">Selecting Your UI</a>.</li> 
     </ol> <p>Then, in a second phase:</p> 
     <ol> 
-     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="../../../sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
+     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="/help/sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ The following is a list of recommendations from Product Management for Adobe Exp
      <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selecting-your-ui">Selecting Your UI</a>.</li> 
     </ol> <p>Then, in a second phase:</p> 
     <ol> 
-     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="../../../sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
+     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="/help/sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
      <li>Configure the ContextHub (the replacement for the ClientContext) and update the page templates to use the ContextHub. Note that the ContextHub has a compatibility mode that allows loading custom ClientContext stores.</li> 
     </ol> </td> 
   </tr> 
@@ -99,31 +99,31 @@ See the Knowledge Base article, [Touch UI Authoring FAQ](https://helpx.adobe.com
 
 ## Selecting Your UI {#selecting-your-ui}
 
-See [Selecting Your UI](../../../sites/authoring/using/select-ui.md) for information about configuring your system as required.
+See [Selecting Your UI](/help/sites/authoring/using/select-ui.md) for information about configuring your system as required.
 
 ## Touch-Optimized UI Status {#touch-optimized-ui-status}
 
-For details of the enhancements made to the touch-optimized UI in the AEM 6.3 see [What's New](../../../release-notes/release-notes.md#what-s-new) in the Release Notes.
+For details of the enhancements made to the touch-optimized UI in the AEM 6.3 see [What's New](/help/release-notes/release-notes.md#what-s-new) in the Release Notes.
 
-A complete overview see the [Touch UI Feature Status](../../../release-notes/touch-ui-features-status.md) page
+A complete overview see the [Touch UI Feature Status](/help/release-notes/touch-ui-features-status.md) page
 
 ## Resources to Help {#resources-to-help}
 
 For background information on basic handling:
 
-* [Working with the Author environment](../../../sites/authoring/using/author-environment.md).
-* [Authoring Pages](../../../sites/authoring/using/page-authoring.md).
+* [Working with the Author environment](/help/sites/authoring/using/author-environment.md).
+* [Authoring Pages](/help/sites/authoring/using/page-authoring.md).
 
 For detailed development information:
 
-* [Touch-optimized UI architecture](../../../sites/developing/using/touch-ui-concepts.md).
-* Use the [Dialog Conversion tool](../../../sites/developing/using/dialog-conversion.md) to convert component Edit dialogs from the classic UI to the touch-optimized UI.  
+* [Touch-optimized UI architecture](/help/sites/developing/using/touch-ui-concepts.md).
+* Use the [Dialog Conversion tool](/help/sites/developing/using/dialog-conversion.md) to convert component Edit dialogs from the classic UI to the touch-optimized UI.  
 
-* [Structure of the touch-optimized UI](../../../sites/developing/using/touch-ui-structure.md).  
+* [Structure of the touch-optimized UI](/help/sites/developing/using/touch-ui-structure.md).  
 
-* [Customizing the consoles in the touch-optimized UI](../../../sites/developing/using/customizing-consoles-touch.md) (includes sample code).  
+* [Customizing the consoles in the touch-optimized UI](/help/sites/developing/using/customizing-consoles-touch.md) (includes sample code).  
 
-* [Customizing page authoring in the touch-optimized UI](../../../sites/developing/using/customizing-page-authoring-touch.md) (includes sample code).  
+* [Customizing page authoring in the touch-optimized UI](/help/sites/developing/using/customizing-page-authoring-touch.md) (includes sample code).  
 
 * [AEM Gem Session on touch-optimized customization](https://docs.adobe.com/content/ddc/en/gems/user-interface-customization-for-aem-6.html).
 * [Granite UI documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html).

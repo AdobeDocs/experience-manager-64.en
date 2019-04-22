@@ -13,12 +13,12 @@ discoiquuid: aff8b79f-dd4e-486e-9d59-5d09dfe34f27
 
 # Author a New Community Site for Enablement{#author-a-new-community-site-for-enablement}
 
-| **[⇐ Initial Setup](../../communities/using/enablement-setup.md)** |**[Create and Assign Enablement Resources ⇒](../../communities/using/resource.md)** |
+| **[⇐ Initial Setup](/help/communities/using/enablement-setup.md)** |**[Create and Assign Enablement Resources ⇒](/help/communities/using/resource.md)** |
 |---|---|
 
 ## Create Community Site {#create-community-site}
 
-[Community Site creation](../../communities/using/sites-console.md) employs a wizard which guides you through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
+[Community Site creation](/help/communities/using/sites-console.md) employs a wizard which guides you through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
 
 To get started creating a new community site:
 
@@ -42,7 +42,7 @@ On the **Site Template** step, enter a title, description, the name for the URL,
 * **Community Site Root**: (leave blank for default root `/content/sites`)  
 
 * **Cloud Configurations**: (leave blank if no cloud configurations are specified) provide path to the specified cloud configurations.
-* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
+* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
 * **Community Site Name**: `enable`
 
@@ -78,11 +78,11 @@ On the Settings step, before selecting `Next`, notice there are seven sections p
 
 #### USER MANAGEMENT {#user-management}
 
-It is recommended that [enablement communities](../../communities/using/overview.md#enablement-community) be private.
+It is recommended that [enablement communities](/help/communities/using/overview.md#enablement-community) be private.
 
 A community site is private when anonymous site visitors are denied access, may not self-register, and may not use social login.
 
-Ensure most checkboxes are unchecked for [User Management](../../communities/using/sites-console.md#user-management):
+Ensure most checkboxes are unchecked for [User Management](/help/communities/using/sites-console.md#user-management):
 
 * do NOT allow site visitors to self-register
 * do NOT allow anonymous site visitors to view the site
@@ -94,9 +94,9 @@ Ensure most checkboxes are unchecked for [User Management](../../communities/usi
 
 #### TAGGING {#tagging}
 
-The tags which may be applied to community content are controlled by selecting AEM namespaces previously defined through the [Tagging Console](../../sites/administering/using/tags.md#tagging-console) (such as the [Tutorial namespace](../../communities/using/enablement-setup.md#create-tutorial-tags)).
+The tags which may be applied to community content are controlled by selecting AEM namespaces previously defined through the [Tagging Console](/help/sites/administering/using/tags.md#tagging-console) (such as the [Tutorial namespace](/help/communities/using/enablement-setup.md#create-tutorial-tags)).
 
-Further, selecting Tag Namespaces for the community site limits the selection presented when defining catalogs and enablement resources. See [Tagging Enablement Resources](../../communities/using/tag-resources.md) for important information.
+Further, selecting Tag Namespaces for the community site limits the selection presented when defining catalogs and enablement resources. See [Tagging Enablement Resources](/help/communities/using/tag-resources.md) for important information.
 
 Finding namespaces is easy using type-ahead search. For example,
 
@@ -107,24 +107,24 @@ Finding namespaces is easy using type-ahead search. For example,
 
 ### ROLES {#roles}
 
-[Community member roles](../../communities/using/users.md) are assigned through the settings in the Roles section.
+[Community member roles](/help/communities/using/users.md) are assigned through the settings in the Roles section.
 
 To let a community member (or group of members) experience the site as the community manager, use the type-ahead search and select the member or group name from the options in the drop-down.
 
 For example,
 
 * type "q"
-* select [Quinn Harper](../../communities/using/enablement-setup.md#publishcreateenablementmembers)
+* select [Quinn Harper](/help/communities/using/enablement-setup.md#publishcreateenablementmembers)
 
 >[!NOTE]
 >
->[Tunnel service](../../communities/using/deploy-communities.md#tunnel-service-on-author) allows selection of members and groups existing only in the publish environment.
+>[Tunnel service](/help/communities/using/deploy-communities.md#tunnel-service-on-author) allows selection of members and groups existing only in the publish environment.
 
 ![](assets/community_roles.png)
 
 #### MODERATION {#moderation}
 
-Accept the default global settings for [moderating](../../communities/using/sites-console.md#moderation) user generated content (UGC).
+Accept the default global settings for [moderating](/help/communities/using/sites-console.md#moderation) user generated content (UGC).
 
 ![](assets/chlimage_1-287.png)
 
@@ -132,13 +132,13 @@ Accept the default global settings for [moderating](../../communities/using/site
 
 From the pull-down menu, select the Analytics cloud service framework configured for this community site.
 
-The selection seen in the screenshot, `Communities`, is the framework example from the [configuration documentation.](../../communities/using/analytics.md#aem-analytics-framework-configuration)
+The selection seen in the screenshot, `Communities`, is the framework example from the [configuration documentation.](/help/communities/using/analytics.md#aem-analytics-framework-configuration)
 
 ![](assets/chlimage_1-288.png)
 
 #### TRANSLATION {#translation}
 
-The [Translation settings](../../communities/using/sites-console.md#translation) specify whether or not UGC may be translated and into which language, if so.
+The [Translation settings](/help/communities/using/sites-console.md#translation) specify whether or not UGC may be translated and into which language, if so.
 
 * check **Allow Machine Translation**
 * use the default settings
@@ -156,7 +156,7 @@ For an enablement community, it is necessary to identify one or more Community E
     * select `Sirius Nilson`
 
 * **Marketing Cloud Org Id** 
-  (optional) The ID for an Adobe Analytics account which is necessary when including [Video Heartbeat Analytics](../../communities/using/analytics.md#video-heartbeat-analytics) in the enablement reporting.
+  (optional) The ID for an Adobe Analytics account which is necessary when including [Video Heartbeat Analytics](/help/communities/using/analytics.md#video-heartbeat-analytics) in the enablement reporting.
 
 ![](assets/chlimage_1-290.png)
 
@@ -196,7 +196,7 @@ From left to right they are:
   select the world icon to publish the community site (to localhost:4503 by default)
 
 * **Export Site** 
-  select the export icon to create a package of the community site that is both stored in [package manager](../../sites/administering/using/package-manager.md) and downloaded.  
+  select the export icon to create a package of the community site that is both stored in [package manager](/help/sites/administering/using/package-manager.md) and downloaded.  
   Note that UGC is not included in the site package.
 
 * **Delete Site** 
@@ -218,15 +218,15 @@ There will be an indication the site was published.
 
 ### Notice New Community User Groups {#notice-new-community-user-groups}
 
-Along with the new community site, new user groups are created which have the appropriate permissions set for various administrative functions. For details, visit [User Groups for Community Sites](../../communities/using/users.md#usergroupsforcommunitysites).
+Along with the new community site, new user groups are created which have the appropriate permissions set for various administrative functions. For details, visit [User Groups for Community Sites](/help/communities/using/users.md#usergroupsforcommunitysites).
 
-For this new community site, given the site name "enable" in Step 1, the new user groups that exist in the publish environment may be seen from the [Communities Members & Groups console](../../communities/using/members.md#groups-console):
+For this new community site, given the site name "enable" in Step 1, the new user groups that exist in the publish environment may be seen from the [Communities Members & Groups console](/help/communities/using/members.md#groups-console):
 
 ![](assets/chlimage_1-294.png)
 
 ### Assign Members to Community Enable Members Group {#assign-members-to-community-enable-members-group}
 
-On author, with the tunnel service enabled, it is possible to assign the [users created during Initial Setup](../../communities/using/enablement-setup.md#publishcreateenablementmembers) to the Community Members group for the newly created community site.
+On author, with the tunnel service enabled, it is possible to assign the [users created during Initial Setup](/help/communities/using/enablement-setup.md#publishcreateenablementmembers) to the Community Members group for the newly created community site.
 
 Using the Community Groups console, members can be added individually or added through membership in a group.
 
@@ -251,7 +251,7 @@ In this example, the group `Community Ski Class` is added as a member of the gro
 
 ### Configure for Authentication Error {#configure-for-authentication-error}
 
-Once a site has been configured and pushed to publish, [configure login mapping](../../communities/using/sites-console.md#configure-for-authentication-error) ( `Adobe Granite Login Selector Authentication Handler`) on the publish instance. The benefit is that when login credientials are not entered correctly, the authentication error will redisplay the community site's login page with an error message.
+Once a site has been configured and pushed to publish, [configure login mapping](/help/communities/using/sites-console.md#configure-for-authentication-error) ( `Adobe Granite Login Selector Authentication Handler`) on the publish instance. The benefit is that when login credientials are not entered correctly, the authentication error will redisplay the community site's login page with an error message.
 
 Add a `Login Page Mapping` as
 
@@ -261,7 +261,7 @@ Add a `Login Page Mapping` as
 
 When working with the publish site for demonstration purposes, it might be useful to change the default home page to the new site.
 
-To do so requires using [CRX|DE](http://localhost:4503/crx/de) Lite to edit the [resource mapping](../../sites/deploying/using/resource-mapping.md) table on publish.
+To do so requires using [CRX|DE](http://localhost:4503/crx/de) Lite to edit the [resource mapping](/help/sites/deploying/using/resource-mapping.md) table on publish.
 
 To get started
 
@@ -318,15 +318,15 @@ The '**$**' at the end of the regular expression `sling:match`string is crucial,
 
 ## Modifying the Community Site {#modifying-the-community-site}
 
-After the site has been initially created, authors may use the [Open Site icon](../../communities/using/sites-console.md#authoring-site-content) to perform standard AEM authoring activities.
+After the site has been initially created, authors may use the [Open Site icon](/help/communities/using/sites-console.md#authoring-site-content) to perform standard AEM authoring activities.
 
-In addition, administrators may use the [Edit Site icon](../../communities/using/sites-console.md#modifying-site-properties) to modify properties of the site, such as the title.
+In addition, administrators may use the [Edit Site icon](/help/communities/using/sites-console.md#modifying-site-properties) to modify properties of the site, such as the title.
 
 After any modification, remember to **Save** and re-**Publish** the site.
 
 >[!NOTE]
 >
->If not familiar with AEM, view the documentation on [basic handling](../../sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](../../sites/authoring/using/qg-page-authoring.md).
+>If not familiar with AEM, view the documentation on [basic handling](/help/sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](/help/sites/authoring/using/qg-page-authoring.md).
 
 ### Add a Catalog {#add-a-catalog}
 
@@ -357,6 +357,6 @@ Select **Save** in the upper right corner to save the changes to the community s
 
 Then re-**Publish** the site.
 
-| ** [⇐ Initial Setup](../../communities/using/enablement-setup.md)** |** [Create and Assign Enablement Resources ⇒](../../communities/using/resource.md)** |
+| ** [⇐ Initial Setup](/help/communities/using/enablement-setup.md)** |** [Create and Assign Enablement Resources ⇒](/help/communities/using/resource.md)** |
 |---|---|
 

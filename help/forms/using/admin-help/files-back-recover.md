@@ -44,7 +44,7 @@ If you changed the GDS location to a non-default location, you can determine it 
 
 In a clustered environment, the GDS typically points to a directory that is shared on the network and is read/write accessible for every cluster node.
 
-The location of the GDS may be changed during a recovery if the original location is no longer available. (See [Changing the GDS location during recovery](../../../forms/using/admin-help/recovering-aem-forms-data.md#changing-the-gds-location-during-recovery).)
+The location of the GDS may be changed during a recovery if the original location is no longer available. (See [Changing the GDS location during recovery](/help/forms/using/admin-help/recovering-aem-forms-data.md#changing-the-gds-location-during-recovery).)
 
 ### Backup options when database is used for document storage {#backup-options-when-database-is-used-for-document-storage}
 

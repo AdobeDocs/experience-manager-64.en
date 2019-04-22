@@ -13,7 +13,7 @@ discoiquuid: 940e45b4-dbf1-4207-bd4a-cf677d645fb4
 
 # Displaying components based on the template used{#displaying-components-based-on-the-template-used}
 
-When a form author creates an adaptive form using a [template](../../forms/using/template-editor.md), the form author can see and use specific components based on template policy. You can specify a template content policy that lets you choose a group of components that the form author sees at the time of form authoring.
+When a form author creates an adaptive form using a [template](/help/forms/using/template-editor.md), the form author can see and use specific components based on template policy. You can specify a template content policy that lets you choose a group of components that the form author sees at the time of form authoring.
 
 ## Changing the content policy of a template {#changing-the-content-policy-of-a-template}
 

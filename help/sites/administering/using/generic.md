@@ -15,14 +15,14 @@ discoiquuid: ad80505f-116e-43f1-8d93-ffe6e8b1ac46
 
 The AEM generic solution provides methods of managing the commerce information held within the repository (as opposed to using an external ecommerce engine). This includes:
 
-* [Products](../../../sites/administering/using/concepts.md#products)
-* [Product Variants](../../../sites/administering/using/concepts.md#product-variants)  
+* [Products](/help/sites/administering/using/concepts.md#products)
+* [Product Variants](/help/sites/administering/using/concepts.md#product-variants)  
 
-* [Catalog(s)](../../../sites/administering/using/concepts.md#catalogs)
-* [Promotions](../../../sites/administering/using/concepts.md#promotions)
-* [Vouchers](../../../sites/administering/using/concepts.md#vouchers)
-* [Orders](../../../sites/administering/using/concepts.md#shopping-cart-and-orders)
-* [Proxy Pages](../../../sites/administering/using/concepts.md#proxy-pages)
+* [Catalog(s)](/help/sites/administering/using/concepts.md#catalogs)
+* [Promotions](/help/sites/administering/using/concepts.md#promotions)
+* [Vouchers](/help/sites/administering/using/concepts.md#vouchers)
+* [Orders](/help/sites/administering/using/concepts.md#shopping-cart-and-orders)
+* [Proxy Pages](/help/sites/administering/using/concepts.md#proxy-pages)
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ The AEM generic solution provides methods of managing the commerce information h
 >
 >The following procedures apply to both Products and Product Variations.
 
-Before creating products you need to define a [scaffold](../../../sites/authoring/using/scaffolding.md). This specifies the fields you need to define the products and how they are edited.
+Before creating products you need to define a [scaffold](/help/sites/authoring/using/scaffolding.md). This specifies the fields you need to define the products and how they are edited.
 
 A scaffold is needed for each distinct product type. The appropriate scaffold is associated with the products by either:
 
@@ -68,7 +68,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Specify:
 
     * **Importer** 
-      The importer for the specific [commerce provider](../../../sites/administering/using/concepts.md#commerce-providers), by default `Geometrixx`.  
+      The importer for the specific [commerce provider](/help/sites/administering/using/concepts.md#commerce-providers), by default `Geometrixx`.  
     
     * **Source ** 
       The file you want imported; you can use the browser to select a file.  
@@ -109,7 +109,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
       `/etc/commerce/products/<*store name*>/`
     
     * **Commerce Provider** 
-      The importer for your [commerce provider](../../../sites/administering/using/concepts.md#commerce-providers); by default Geometrixx.  
+      The importer for your [commerce provider](/help/sites/administering/using/concepts.md#commerce-providers); by default Geometrixx.  
     
     * **Source File** 
       The location in the repository of the file you want imported.  
@@ -123,7 +123,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 
 >[!NOTE]
 >
->The standard product management is basic, because the Geometrixx-Outdoors product set has been kept basic. The complexity is based on the product [scaffolding](../../../sites/authoring/using/scaffolding.md), so with your own product scaffolding it is possible to achieve more sophisticated editing.
+>The standard product management is basic, because the Geometrixx-Outdoors product set has been kept basic. The complexity is based on the product [scaffolding](/help/sites/authoring/using/scaffolding.md), so with your own product scaffolding it is possible to achieve more sophisticated editing.
 
 #### Creating Product Information - Touch-optimized UI {#creating-product-information-touch-optimized-ui}
 
@@ -136,7 +136,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 
    ![](do-not-localize/chlimage_1-14.png)
 
-1. The wizard will open. Use the **Basic** and **Product Tabs** to enter the [product attributes](../../../sites/administering/using/concepts.md#product-attributes) for the new product or product variant.
+1. The wizard will open. Use the **Basic** and **Product Tabs** to enter the [product attributes](/help/sites/administering/using/concepts.md#product-attributes) for the new product or product variant.
 
    >[!NOTE]
    >
@@ -165,14 +165,14 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Using the **Products** console (via **Commerce**) navigate to your product information.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
+    * [quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions)
+    * [selection mode](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **View Product Data** icon:
 
    ![](do-not-localize/chlimage_1-15.png)
 
-1. The [product attributes](../../../sites/administering/using/concepts.md#product-attributes) will be shown. Use **Edit** and **Done** to make any changes.
+1. The [product attributes](/help/sites/administering/using/concepts.md#product-attributes) will be shown. Use **Edit** and **Done** to make any changes.
 
 ### Showing Product References {#showing-product-references}
 
@@ -324,8 +324,8 @@ The mechanism to select the image to be displayed is as follows:
 1. Using the **Products** console (via **Commerce**) navigate to your product information.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
+    * [quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions)
+    * [selection mode](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **Publish** or **Unpublish** icon as required:
 
@@ -342,7 +342,7 @@ The Search&Promote integration allows you to:
 * leverage the Remote Control feature of Search&Promote to perform on-demand or scheduled requests of the product feed
 * feed generation for different Search&Promote accounts, configured as cloud services configurations.
 
-For more information, read [Product Feed](../../../sites/administering/using/product-feed.md).
+For more information, read [Product Feed](/help/sites/administering/using/product-feed.md).
 
 ### Event Handler for Product Updates {#event-handler-for-product-updates}
 
@@ -373,7 +373,7 @@ Clicking the hotspot opens a dialog which let you choose the size and quantity o
 
 1. Navigate to the page where you want to add the component.
 1. Drag and drop the component in the page.
-1. Drag and drop an image in the component from the [assets browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser).
+1. Drag and drop an image in the component from the [assets browser](/help/sites/authoring/using/author-environment-tools.md#assets-browser).
 1. You can either:
 
     * click the component and then click Edit icon 
@@ -406,7 +406,7 @@ Clicking the hotspot opens a dialog which let you choose the size and quantity o
 
    ![](do-not-localize/chlimage_1-22.png)
 
-1. Switch to [preview](../../../sites/authoring/using/editing-content.md#previewing-pages) mode.
+1. Switch to [preview](/help/sites/authoring/using/editing-content.md#previewing-pages) mode.
 1. Click the + hotspot. A dialog opens where you can choose the size and quantity of the product you entered in **Path**. 
 
    ![](assets/chlimage_1-333.png)
@@ -510,8 +510,8 @@ To rollout a catalog:
 1. Navigate to the catalog you want to rollout.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
+    * [quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions)
+    * [selection mode](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **Rollout Changes** icon:
 
@@ -568,9 +568,9 @@ To rollout a catalog:
 
 >[!NOTE]
 >
->The following example deals with a promotion held directly in a [campaign](../../../sites/authoring/using/campaigns.md), this is used for vouchers.
+>The following example deals with a promotion held directly in a [campaign](/help/sites/authoring/using/campaigns.md), this is used for vouchers.
 >
->A promotion can also be in an [experience](../../../sites/authoring/using/campaigns.md) within a campaign.
+>A promotion can also be in an [experience](/help/sites/authoring/using/campaigns.md) within a campaign.
 >
 >For more information see [Promotions and Vouchers](#promotions).
 
@@ -655,7 +655,7 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 
    ![](do-not-localize/chlimage_1-26.png)
 
-1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs**** to enter the [information about the new order](../../../sites/administering/using/concepts.md#order-information).  
+1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs**** to enter the [information about the new order](/help/sites/administering/using/concepts.md#order-information).  
 
 1. Select **Create** to save the information.
 
@@ -666,12 +666,12 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 1. Using the **Orders** console navigate to the order.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
+    * [quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions)
+    * [selection mode](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    Select the **View Order Data** icon:
 
    ![](do-not-localize/chlimage_1-27.png)
 
-1. The [order information](../../../sites/administering/using/concepts.md#order-information) will be shown. Use **Edit** and **Done** to make any changes.
+1. The [order information](/help/sites/administering/using/concepts.md#order-information) will be shown. Use **Edit** and **Done** to make any changes.
 

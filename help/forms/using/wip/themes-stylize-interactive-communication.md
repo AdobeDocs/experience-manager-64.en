@@ -25,7 +25,7 @@ Use forms manager to:
 * Download/upload an existing theme
 * Manage dependency for the theme
 
-AEM Forms ship with form templates that are associated with themes. These themes are available to customers out-of-the-box. Themes available to customers are: Survey Theme, Simple Enrolment Theme, Advanced Enrolment Theme, and Canvas Theme corresponding to the [form templates](../../../forms/using/template-editor.md). You can use them to style components in your forms, and customize the appearance of your form. You cannot edit the out-of-the-box themes. For more information on how to get more themes, see [Reference Themes](../../../forms/using/reference-themes.md).
+AEM Forms ship with form templates that are associated with themes. These themes are available to customers out-of-the-box. Themes available to customers are: Survey Theme, Simple Enrolment Theme, Advanced Enrolment Theme, and Canvas Theme corresponding to the [form templates](/help/forms/using/template-editor.md). You can use them to style components in your forms, and customize the appearance of your form. You cannot edit the out-of-the-box themes. For more information on how to get more themes, see [Reference Themes](/help/forms/using/reference-themes.md).
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ To upload a theme:
 1. In the File Upload prompt, browse and select a theme package on your computer and click **Upload**.  
    The uploaded theme is available in the themes page.
 
-See [Importing and exporting assets to AEM Forms](../../../forms/using/import-export-forms-templates.md).
+See [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md).
 
 ### Metadata of a theme {#metadata-of-a-theme}
 
@@ -203,7 +203,7 @@ The Theme Editor lets you customize styles of the components styled in a theme. 
 
 The Theme Editor is divided in two panels:
 
-* **Canvas** - Appears on the right side. It shows a sample adaptive form in which all styling changes reflect instantly. You can also select objects directly from the canvas to look up styles associated with them, and to edit these styles. A device resolution ruler on the top governs the Canvas. Selecting a resolution breakpoint from the ruler shows the preview of the sample form for the respective resolution. Canvas is discussed in detail [below](../../../forms/using/wip/themes-stylize-interactive-communication.md#using-canvas).
+* **Canvas** - Appears on the right side. It shows a sample adaptive form in which all styling changes reflect instantly. You can also select objects directly from the canvas to look up styles associated with them, and to edit these styles. A device resolution ruler on the top governs the Canvas. Selecting a resolution breakpoint from the ruler shows the preview of the sample form for the respective resolution. Canvas is discussed in detail [below](/help/forms/using/wip/themes-stylize-interactive-communication.md#using-canvas).
 
 * **Sidebar**- Appears on the left side. It has the following items:
 
@@ -227,7 +227,7 @@ The Theme Editor is divided in two panels:
     * **Advanced:** Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap. 
     * **View CSS**: Lets you view CSS of the selected component
 
-  Also, in Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error. **These options, along with the options described above are discussed in detail [below](../../../forms/using/wip/themes-stylize-interactive-communication.md#using-rail).
+  Also, in Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error. **These options, along with the options described above are discussed in detail [below](/help/forms/using/wip/themes-stylize-interactive-communication.md#using-rail).
 
 ![Theme editor with Rail and Canvas highlighted.](assets/themes.png) **A.** Sidebar **B.** Canvas
 
@@ -294,7 +294,7 @@ As you style a component, the styles are cached and listed in the list box. In t
 
 In this example, style for the field label is changed, and when Responsive Panel Description is selected for style, a list entry is added in the asset library. The entry in the asset library can be used to change the style for Responsive Panel Description.
 
-When a style is added in the asset library, it is available for other themes and in the [style mode](../../../forms/using/inline-style-adaptive-forms.md) of the form editor. Similarly, when you use the style mode of the form editor to style a component, the style is cached and is available in themes.
+When a style is added in the asset library, it is available for other themes and in the [style mode](/help/forms/using/inline-style-adaptive-forms.md) of the form editor. Similarly, when you use the style mode of the form editor to style a component, the style is cached and is available in themes.
 
 The plus button against the asset library lets you permanently save the style with a name of that you provide. The plus button saves the style even if you do not click the Save button in the sidebar to apply the style to a component. The plus button to save a style for later use is not available in the style mode. 
 
@@ -656,10 +656,10 @@ You can see the generated CSS using the following options:
       The Theme Editor lets you create themes to style your form. You can specify styling of components in a theme, that enable consistency in look and feel among multiple forms you develop. Specifying styling information in a theme, and then applying the theme to a form is recommended.   
     
     * **Inline styling:** 
-      You can style components using the Style mode in form editor when you work with a form. Using style mode to change form component styling overrides the styling specified in the theme. If you want to change styling for certain components of a particular form, see [Inline styling of adaptive form components](../../../forms/using/inline-style-adaptive-forms.md).
+      You can style components using the Style mode in form editor when you work with a form. Using style mode to change form component styling overrides the styling specified in the theme. If you want to change styling for certain components of a particular form, see [Inline styling of adaptive form components](/help/forms/using/inline-style-adaptive-forms.md).
 
 * **Using client-side libraries** 
-  If you want to create client libraries to import styling information, see [Using Client Side Libraries](../../../sites/developing/using/clientlibs.md). After you create a client library, you can import it in your theme using the steps mentioned above. 
+  If you want to create client libraries to import styling information, see [Using Client Side Libraries](/help/sites/developing/using/clientlibs.md). After you create a client library, you can import it in your theme using the steps mentioned above. 
 
 * **Changing container panel layout width  
   **Changing container panel layout width is not recommended. When you specify width of a container panel, it becomes static and does not adapt to different displays.

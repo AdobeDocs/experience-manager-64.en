@@ -13,7 +13,7 @@ discoiquuid: cb621332-a149-4f8d-9425-fd815b033c38
 
 # Interacting with Workflows Programmatically{#interacting-with-workflows-programmatically}
 
-When [customizing and extending your workflows](../../../sites/developing/using/workflows-customizing-extending.md) you can access workflow objects:
+When [customizing and extending your workflows](/help/sites/developing/using/workflows-customizing-extending.md) you can access workflow objects:
 
 * [Using the Workflow Java API](#using-the-workflow-java-api)
 * [Obtaining Workflow Objects in ECMA Scripts](#obtaining-workflow-objects-in-ecma-scripts)
@@ -60,7 +60,7 @@ The following table provides links to the reference documentation of several key
 
 ## Obtaining Workflow Objects in ECMA Scripts {#obtaining-workflow-objects-in-ecma-scripts}
 
-As described in [Locating the Script](../../../sites/developing/using/the-basics.md#locating-the-script), AEM (via Apache Sling) provides an ECMA script engine that executes server-side ECMA scripts. The [`org.apache.sling.scripting.core.ScriptHelper`](https://sling.apache.org/apidocs/sling5/org/apache/sling/scripting/core/ScriptHelper.html) class is immediately available to your scripts as the `sling` variable.
+As described in [Locating the Script](/help/sites/developing/using/the-basics.md#locating-the-script), AEM (via Apache Sling) provides an ECMA script engine that executes server-side ECMA scripts. The [`org.apache.sling.scripting.core.ScriptHelper`](https://sling.apache.org/apidocs/sling5/org/apache/sling/scripting/core/ScriptHelper.html) class is immediately available to your scripts as the `sling` variable.
 
 The `ScriptHelper` class provides access to the `SlingHttpServletRequest` that you can use to eventually obtain the `WorkflowSession` object; for example:
 
@@ -80,7 +80,7 @@ The following actions are supported with the REST API:
 
 * start or stop a workflow service
 * create, update or delete workflow models
-* [start, suspend, resume or terminate workflow instances](../../../sites/administering/using/workflows.md#workflow-status-and-actions)
+* [start, suspend, resume or terminate workflow instances](/help/sites/administering/using/workflows.md#workflow-status-and-actions)
 * complete or delegate work items
 
 >[!NOTE]
@@ -412,7 +412,7 @@ The `uri` displayed in the results can be used as the instance `id` in other com
 
 >[!NOTE]
 >
->This `curl` command can be used with any [workflow status](../../../sites/administering/using/workflows.md#workflow-status-and-actions) in place of `RUNNING`.
+>This `curl` command can be used with any [workflow status](/help/sites/administering/using/workflows.md#workflow-status-and-actions) in place of `RUNNING`.
 
 ### How to change the Workflow Title {#how-to-change-the-workflow-title}
 
@@ -581,7 +581,7 @@ Various methods have the parameter:
 
 This parameter can be set to `true` to indicate that system workflows should be excluded from the relevant results.
 
-You [can update the OSGi configuration](../../../sites/deploying/using/configuring-osgi.md) **Adobe Granite Workflow PayloadMapCache** that specifies the workflow `Models` to be considered as system workflows. The default (runtime) workflow models are:
+You [can update the OSGi configuration](/help/sites/deploying/using/configuring-osgi.md) **Adobe Granite Workflow PayloadMapCache** that specifies the workflow `Models` to be considered as system workflows. The default (runtime) workflow models are:
 
 * `/var/workflow/models/scheduled_activation/jcr:content/model`
 * `/var/workflow/models/scheduled_deactivation/jcr:content/model`

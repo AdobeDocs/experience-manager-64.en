@@ -110,7 +110,7 @@ Do the following to configure RESTful services:
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](../../forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](/help/forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration dialog]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL RESTful Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following details for the RESTful service:
@@ -126,7 +126,7 @@ SOAP-based web services are described using [Web Services Description Language (
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](../../forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](/help/forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration dialog]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL SOAP Web Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following for the SOAP web service:
@@ -142,11 +142,11 @@ An OData service is identified by its service root URL. To configure an OData se
 
 >[!NOTE]
 >
->For step-by-step guide to configure Microsoft Dynamics 365, online or on-premises, see [Microsoft Dynamics OData Configuration](../../forms/using/ms-dynamics-odata-configuration.md).
+>For step-by-step guide to configure Microsoft Dynamics 365, online or on-premises, see [Microsoft Dynamics OData Configuration](/help/forms/using/ms-dynamics-odata-configuration.md).
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](../../forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](/help/forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration dialog]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL OData Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following details for the OData service:
@@ -162,4 +162,4 @@ An OData service is identified by its service root URL. To configure an OData se
 
 ## Next steps {#next-steps}
 
-You have configured the data sources. Next you can create a form data model or if you have already created a form data model without a data source, you can associate it with the data sources you just configured. See [Create form data model](../../forms/using/create-form-data-models.md) for details.
+You have configured the data sources. Next you can create a form data model or if you have already created a form data model without a data source, you can associate it with the data sources you just configured. See [Create form data model](/help/forms/using/create-form-data-models.md) for details.

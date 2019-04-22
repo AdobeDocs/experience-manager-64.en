@@ -22,11 +22,11 @@ This article details the steps to add information to display for each task in th
 
 You can add the information available in `task.json` sent by the server. The information can be added as plain text or you can use styles to format the information.
 
-For more information about the JSON Object description, see [this](../../forms/using/html-workspace-json-object-description.md) article.
+For more information about the JSON Object description, see [this](/help/forms/using/html-workspace-json-object-description.md) article.
 
 ## Displaying information on a task {#displaying-information-on-a-task}
 
-1. Follow the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md).
+1. Follow the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
 1. To display additional information for a task, the corresponding key-value pairs must be added within the task block of `translation.json`.
 
    For example change `/apps/ws/locales/en-US/translation.json` for English:

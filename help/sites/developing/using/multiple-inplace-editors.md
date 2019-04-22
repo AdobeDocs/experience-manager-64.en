@@ -102,7 +102,7 @@ Configuration for multiple Rich Text Editors is slightly different as you can co
 
 >[!NOTE]
 >
->For further details see [Configuring the Rich Text Editor](../../../sites/administering/using/rich-text-editor.md).
+>For further details see [Configuring the Rich Text Editor](/help/sites/administering/using/rich-text-editor.md).
 
 To have multiple RTEs you need a configuration for each in-place RTE:
 
@@ -140,4 +140,4 @@ You can find the code of this page on GitHub
 
 ## Adding an In-Place Editor {#adding-an-in-place-editor}
 
-For general information about adding an in-place editor see the document [Customizing Page Authoring](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-in-place-editor).
+For general information about adding an in-place editor see the document [Customizing Page Authoring](/help/sites/developing/using/customizing-page-authoring-touch.md#add-new-in-place-editor).

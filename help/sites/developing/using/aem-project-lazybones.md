@@ -20,5 +20,5 @@ You can find the article [here](https://helpx.adobe.com/experience-manager/using
 
 >[!NOTE]
 >
->For a comprehensive introduction to all of the recommended tools and technologies for developing on AEM, including Lazybones setup for your project, please see the [Getting Started Developing AEM Sites - WKND Tutorial](../../../sites/developing/using/getting-started.md).
+>For a comprehensive introduction to all of the recommended tools and technologies for developing on AEM, including Lazybones setup for your project, please see the [Getting Started Developing AEM Sites - WKND Tutorial](/help/sites/developing/using/getting-started.md).
 

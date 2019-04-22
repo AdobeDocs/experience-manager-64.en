@@ -15,7 +15,7 @@ Create document fragments for Interactive Communication
 
  ![](assets/05-create-form-data-model-main_small.png)
 
-| This tutorial is a step in the [Create your first Interactive Communication](../../forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
+| This tutorial is a step in the [Create your first Interactive Communication](/help/forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|
 
 Document fragments are reusable components of a correspondence that are used to compose an Interactive Communication. The document fragments are of the following types:
@@ -24,7 +24,7 @@ Document fragments are reusable components of a correspondence that are used to 
 * List - List is a group of document fragments, including text, lists, conditions, and images. 
 * Condition - Conditions enable you to define what content gets included in the Interactive Communication based on the data received from the Form Data Model.
 
-This tutorial walks you through the steps to create multiple text document fragments based on the anatomy provided in [Plan the Interactive Communication](../../forms/using/planning-interactive-communications.md) section. At the end of this tutorial, you will be able to:
+This tutorial walks you through the steps to create multiple text document fragments based on the anatomy provided in [Plan the Interactive Communication](/help/forms/using/planning-interactive-communications.md) section. At the end of this tutorial, you will be able to:
 
 * Create document fragments
 * Create variables
@@ -34,16 +34,16 @@ This tutorial walks you through the steps to create multiple text document fragm
 
 The following is the list of document fragments that are created in this tutorial:
 
-* [Bill details](../../forms/using/create-document-fragments.md#step-create-bill-details-text-document-fragment)
-* [Customer details](../../forms/using/create-document-fragments.md#step-create-customer-details-text-document-fragment)
-* [Bill summary](../../forms/using/create-document-fragments.md#step-create-bill-summary-text-document-fragment)
-* [Summary of charges](../../forms/using/create-document-fragments.md#step-create-summary-of-charges-text-document-fragment)
+* [Bill details](/help/forms/using/create-document-fragments.md#step-create-bill-details-text-document-fragment)
+* [Customer details](/help/forms/using/create-document-fragments.md#step-create-customer-details-text-document-fragment)
+* [Bill summary](/help/forms/using/create-document-fragments.md#step-create-bill-summary-text-document-fragment)
+* [Summary of charges](/help/forms/using/create-document-fragments.md#step-create-summary-of-charges-text-document-fragment)
 
-Each document fragment includes fields with static text, data received from form data model, and data entered using the Agent UI. All these fields have been depicted in the [Plan the Interactive Communication](../../forms/using/planning-interactive-communications.md) section.
+Each document fragment includes fields with static text, data received from form data model, and data entered using the Agent UI. All these fields have been depicted in the [Plan the Interactive Communication](/help/forms/using/planning-interactive-communications.md) section.
 
 While creating document fragments in this tutorial, variables are created for fields that receive data using the Agent UI.
 
-Use **FDM_Create_First_IC**, as described in the [Create form data model](../../forms/using/create-form-data-model0.md) section, as the form data model to create document fragments in this tutorial.
+Use **FDM_Create_First_IC**, as described in the [Create form data model](/help/forms/using/create-form-data-model0.md) section, as the form data model to create document fragments in this tutorial.
 
 ## Step 1: Create Bill Details text document fragment {#step-create-bill-details-text-document-fragment}
 

@@ -31,7 +31,7 @@ Asynchronous operations are handled in this manner:
 1. Work Manager stores the work item in a database table and assigns a unique identifier to the work item. The database record contains all of the information required to execute the work item. 
 1. Work Manager threads pull in work items when the threads become free. Before pulling in the work items, threads can check whether the required services are started, whether there is enough heap size to pull in the next work item, and whether there are enough CPU cycles to process the work item. Work Manager also evaluates attributes of the work item (such as its priority) when scheduling its execution.
 
-AEM forms administrators can use Health Monitor to check Work Manager statistics, such as the number of work items in the queue and their statuses. You can also use Health Monitor to pause, resume, retry, or delete work items. (See [View statistics related to Work Manager](../../../forms/using/admin-help/view-statistics-related-manager.md#view-statistics-related-to-work-manager).)
+AEM forms administrators can use Health Monitor to check Work Manager statistics, such as the number of work items in the queue and their statuses. You can also use Health Monitor to pause, resume, retry, or delete work items. (See [View statistics related to Work Manager](/help/forms/using/admin-help/view-statistics-related-manager.md#view-statistics-related-to-work-manager).)
 
 ## Configuring Work Manager throttling options {#configuring-work-manager-throttling-options}
 

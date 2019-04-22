@@ -16,12 +16,12 @@ noindex: true
 
 The following page describes the usage of multi-zone layout and covers the following topics:
 
-* [Overview](../../screens/using/multi-zone-layout-aem-screens.md#overview)
-* [Creating Multi-zone Layout](../../screens/using/multi-zone-layout-aem-screens.md#creating-multi-zone-layout)
+* [Overview](/help/screens/using/multi-zone-layout-aem-screens.md#overview)
+* [Creating Multi-zone Layout](/help/screens/using/multi-zone-layout-aem-screens.md#creating-multi-zone-layout)
 
-    * [Prerequisites](../../screens/using/multi-zone-layout-aem-screens.md#prerequisites)
-    * [Using Single Assets in one or more Zones](../../screens/using/multi-zone-layout-aem-screens.md#using-single-assets-in-one-or-more-zones)
-    * [Using Sequenced Content in one or more Zones](../../screens/using/multi-zone-layout-aem-screens.md#using-sequenced-content-in-one-or-more-zones)
+    * [Prerequisites](/help/screens/using/multi-zone-layout-aem-screens.md#prerequisites)
+    * [Using Single Assets in one or more Zones](/help/screens/using/multi-zone-layout-aem-screens.md#using-single-assets-in-one-or-more-zones)
+    * [Using Sequenced Content in one or more Zones](/help/screens/using/multi-zone-layout-aem-screens.md#using-sequenced-content-in-one-or-more-zones)
 
 ## Overview {#overview}
 

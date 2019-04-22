@@ -39,7 +39,7 @@ This is available under the English (US) branch ( `/content/geometrixx-outdoors/
 
 ### Technical Requirements - hybris Server {#technical-requirements-hybris-server}
 
-The hybris extension of the eCommerce Integration Framework has been updated to support Hybris 5 (as default), while maintaining backward compatibility with [Hybris 4](../../../sites/developing/using/hybris.md#developing-for-hybris).
+The hybris extension of the eCommerce Integration Framework has been updated to support Hybris 5 (as default), while maintaining backward compatibility with [Hybris 4](/help/sites/developing/using/hybris.md#developing-for-hybris).
 
 >[!NOTE]
 >
@@ -78,12 +78,12 @@ To install eCommerce functionality you need:
 
 To install a fully-fledged configuration (using the demonstration catalog, Geometrixx Outdoors) the basic steps are:
 
-1. [Install AEM](../../../sites/deploying/using/deploy.md).
+1. [Install AEM](/help/sites/deploying/using/deploy.md).
 1. Install the Geometrixx-all package
 
     1. ` [cq-geometrixx-all-pkg](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq60/product/cq-geometrixx-all-pkg)`
 
-1. Install the demonstration content packages using the [package manager](../../../sites/administering/using/package-manager.md):
+1. Install the demonstration content packages using the [package manager](/help/sites/administering/using/package-manager.md):
 
     1. ` [cq-hybris-content-6.3.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/cq-hybris-content)`
     1. ` [cq-geometrixx-hybris-content-6.3.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/cq-geometrixx-hybris-content)`
@@ -93,7 +93,7 @@ To install a fully-fledged configuration (using the demonstration catalog, Geome
 
     1. [Setup the Geometrixx Outdoor Store](#setup-the-geometrixx-outdoors-store).
 
-1. [Author](../../../sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
 
 >[!CAUTION]
 >
@@ -101,7 +101,7 @@ To install a fully-fledged configuration (using the demonstration catalog, Geome
 
 >[!NOTE]
 >
->For developers [API documentation](../../../sites/developing/using/ecommerce.md#api-documentation) is also available for download.
+>For developers [API documentation](/help/sites/developing/using/ecommerce.md#api-documentation) is also available for download.
 
 ### Download and Build your hybris Server {#download-and-build-your-hybris-server}
 

@@ -15,7 +15,7 @@ discoiquuid: ed8c51d2-5aac-4fe8-89e8-c175d4ea1374
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Being able to instantly alert your AEM Mobile app users with important notifications is crucial to the value of a mobile app and its marketing campaigns. Here, we describe the steps that need to be taken to allow your app to receive push notifications, and how to configure and send pushes from AEM Mobile to the app installed on the phone. Additionally, this section describes how to configure the [Deep Linking](#deeplinking) feature to your push notifications.
 
@@ -268,7 +268,7 @@ Before building and deploying to your configured mobile device, you must configu
 
 ### Step 6: Build and deploy the app {#step-build-and-deploy-the-app}
 
-***Note:** Refer also to our instructions [here](../../mobile/using/building-app-mobile-phonegap.md) on building PhoneGap applications.*
+***Note:** Refer also to our instructions [here](/help/mobile/using/building-app-mobile-phonegap.md) on building PhoneGap applications.*
 
 There are two ways to build and deploy your app using PhoneGap.
 
@@ -378,5 +378,5 @@ Once the **Push Notifications** tile displays in your dashboard, use the create 
 
 ### The Next Steps {#the-next-steps}
 
-Once you understand the details on push notifications for your app, see [AEM Mobile Content Personalization](../../mobile/using/phonegap-aem-mobile-content-personalization.md).
+Once you understand the details on push notifications for your app, see [AEM Mobile Content Personalization](/help/mobile/using/phonegap-aem-mobile-content-personalization.md).
 

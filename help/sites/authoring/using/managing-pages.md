@@ -13,17 +13,17 @@ discoiquuid: a727c57c-87a9-46c2-8d9b-1348f1ed8ac4
 
 # Creating and Organizing Pages{#creating-and-organizing-pages}
 
-This section describes how to create and manage pages with Adobe Experience Manager (AEM) so that you can then [create content](../../../sites/authoring/using/editing-content.md) on those pages.
+This section describes how to create and manage pages with Adobe Experience Manager (AEM) so that you can then [create content](/help/sites/authoring/using/editing-content.md) on those pages.
 
 >[!NOTE]
 >
->Your account needs the [appropriate access rights](../../../sites/administering/using/security.md) and [permissions](../../../sites/administering/using/security.md#permissions) to take action on pages such as create, copy, move, edit, and delete.
+>Your account needs the [appropriate access rights](/help/sites/administering/using/security.md) and [permissions](/help/sites/administering/using/security.md#permissions) to take action on pages such as create, copy, move, edit, and delete.
 >
 >If you encounter any problems we suggest you contact your system administrator.
 
 >[!NOTE]
 >
->There are a number of [keyboard shortcuts](../../../sites/authoring/using/keyboard-shortcuts.md) that you can use from the websites console that make organizing your pages more efficient.
+>There are a number of [keyboard shortcuts](/help/sites/authoring/using/keyboard-shortcuts.md) that you can use from the websites console that make organizing your pages more efficient.
 
 ## Organizing your Website {#organizing-your-website}
 
@@ -72,7 +72,7 @@ Depending on the configuration of your instance, use of `/content` might be opti
  /...
 ```
 
-This structure can be viewed From the **Sites** console, where you can [navigate through the pages of your website](../../../sites/authoring/using/basic-handling.md#product-navigation) and perform actions on the pages. You can also create new sites and [new pages](#creating-a-new-page).
+This structure can be viewed From the **Sites** console, where you can [navigate through the pages of your website](/help/sites/authoring/using/basic-handling.md#product-navigation) and perform actions on the pages. You can also create new sites and [new pages](#creating-a-new-page).
 
 From any point, you can see the upward branch from breadcrumbs in the header bar:
 
@@ -90,7 +90,7 @@ When creating a new page there are two keys fields:
 * ** [Name](#name)**:
 
     * This is used to generate the URI.  
-    * User input for this field is optional. If not specified, the name is derived from the title. See the following section [Page Name Restrictions and Best Practices](../../../sites/authoring/using/managing-pages.md#page-name-restrictions-and-best-practices) for details.
+    * User input for this field is optional. If not specified, the name is derived from the title. See the following section [Page Name Restrictions and Best Practices](/help/sites/authoring/using/managing-pages.md#page-name-restrictions-and-best-practices) for details.
 
 #### Page Name Restrictions and Best Practices {#page-name-restrictions-and-best-practices}
 
@@ -107,7 +107,7 @@ The page **Title** and **Name** can be created separately but are related:
 >
 >Also keep in mind that some browsers (e.g. older versions of IE) can only accept URLs up to a certain length, so there is also technical reason to keep page names short.
 
-When creating a new page, AEM will [validate the page name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposed by AEM and the JCR.
+When creating a new page, AEM will [validate the page name according to the conventions](/help/sites/developing/using/naming-conventions.md) imposed by AEM and the JCR.
 
 The minimum allowed characters are:
 
@@ -117,15 +117,15 @@ The minimum allowed characters are:
 * _ (underscore)
 * `-` (hyphen/minus)
 
-Full details of all characters allowed can be found in [the naming conventions](../../../sites/developing/using/naming-conventions.md).
+Full details of all characters allowed can be found in [the naming conventions](/help/sites/developing/using/naming-conventions.md).
 
 >[!NOTE]
 >
->If AEM is running on a [MongoMK persistence manager deployment](../../../sites/deploying/using/recommended-deploys.md), page names are limited to 150 characters.
+>If AEM is running on a [MongoMK persistence manager deployment](/help/sites/deploying/using/recommended-deploys.md), page names are limited to 150 characters.
 
 #### Title {#title}
 
-If you supply only a page **Title** when creating a new page, AEM will derive the page **Name** from this string and [validate the name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposed by AEM and JCR. A **Title** field containing invalid characters will be accepted, but the name derived will have the invalid characters substituted. For example:
+If you supply only a page **Title** when creating a new page, AEM will derive the page **Name** from this string and [validate the name according to the conventions](/help/sites/developing/using/naming-conventions.md) imposed by AEM and JCR. A **Title** field containing invalid characters will be accepted, but the name derived will have the invalid characters substituted. For example:
 
 | Title |Derived Name |
 |---|---|
@@ -134,7 +134,7 @@ If you supply only a page **Title** when creating a new page, AEM will derive th
 
 #### Name {#name}
 
-When you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposed by AEM and JCR. You cannot submit invalid characters in the **Name** field. When AEM detects invalid characters the field will be highlighted with an explanatory message.
+When you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites/developing/using/naming-conventions.md) imposed by AEM and JCR. You cannot submit invalid characters in the **Name** field. When AEM detects invalid characters the field will be highlighted with an explanatory message.
 
 ![](assets/screen_shot_2018-03-22at104817.png)
 
@@ -142,7 +142,7 @@ When you supply a page **Name** when creating a new page, AEM will [validate the
 >
 >You should avoid using a two-letter code as defined by ISO-639-1 as a page name, unless it is a language root.
 >
->See [Preparing Content for Translation](../../../sites/administering/using/tc-prep.md) for more information.
+>See [Preparing Content for Translation](/help/sites/administering/using/tc-prep.md) for more information.
 
 ### Templates {#templates}
 
@@ -163,11 +163,11 @@ AEM comes with several templates provided out-of-the-box. The templates availabl
 
 >[!NOTE]
 >
->If configured on your instance, [template authors can create templates with the Template Editor](../../../sites/authoring/using/templates.md).
+>If configured on your instance, [template authors can create templates with the Template Editor](/help/sites/authoring/using/templates.md).
 
 ### Components {#components}
 
-Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of [out-of-the-box components](../../../sites/authoring/using/default-components-console.md) that provide comprehensive functionality. These include:
+Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of [out-of-the-box components](/help/sites/authoring/using/default-components-console.md) that provide comprehensive functionality. These include:
 
 * Text
 * Image
@@ -175,11 +175,11 @@ Components are the elements provided by AEM so that you can add specific types o
 * Video
 * And many more
 
-Once you have created and opened a page you can [add content using the components](../../../sites/authoring/using/editing-content.md#inserting-a-component), which are available from the [component browser](../../../sites/authoring/using/author-environment-tools.md#components-browser).
+Once you have created and opened a page you can [add content using the components](/help/sites/authoring/using/editing-content.md#inserting-a-component), which are available from the [component browser](/help/sites/authoring/using/author-environment-tools.md#components-browser).
 
 >[!NOTE]
 >
->The [Components Console](../../../sites/authoring/using/default-components-console.md) give an overview of the components on your instance.
+>The [Components Console](/help/sites/authoring/using/default-components-console.md) give an overview of the components on your instance.
 
 ## Managing Pages {#managing-pages}
 
@@ -203,7 +203,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
 1. From the final stage of the wizard you can either:
 
-    * Use the three tabs to enter the [page properties](../../../sites/authoring/using/editing-page-properties.md) you want assigned to the new page, then click/tap **Create** to actually create the page.  
+    * Use the three tabs to enter the [page properties](/help/sites/authoring/using/editing-page-properties.md) you want assigned to the new page, then click/tap **Create** to actually create the page.  
     
     * Use **Back** to return to template selection.
 
@@ -216,7 +216,7 @@ Unless all pages have been created for you in advance, before you can start crea
     * **Name**:
 
         * This is used to generate the URI. If not specified, the name is derived from the title.
-        * If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposesd by AEM and JCR.  
+        * If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites/developing/using/naming-conventions.md) imposesd by AEM and JCR.  
         
         * You **cannot submit invalid characters** in the **Name** field. When AEM detects invalid characters the field will be highlighted and an explanatory message shown to indicate the characters that need removing/replacing.
 
@@ -242,7 +242,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
 >[!CAUTION]
 >
->Once a page has been created its template cannot be changed - unless you [create a launch with a new template](../../../sites/authoring/using/launches-creating.md#create-launch-with-new-template), though this will lose any content already existing.
+>Once a page has been created its template cannot be changed - unless you [create a launch with a new template](/help/sites/authoring/using/launches-creating.md#create-launch-with-new-template), though this will lose any content already existing.
 
 ### Opening a Page For Editing {#opening-a-page-for-editing}
 
@@ -252,14 +252,14 @@ After creating a page, or navigating to an existing page (in the console), you c
 1. Navigate until you find the page that you want to edit.
 1. Select your page by using either:
 
-    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [Selection mode](../../../sites/authoring/using/basic-handling.md#product-navigation) and the toolbar
+    * [Quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions)
+    * [Selection mode](/help/sites/authoring/using/basic-handling.md#product-navigation) and the toolbar
 
    And then select the **Edit** icon:
 
    ![](assets/screen_shot_2018-03-22at105355.png)
 
-1. The page will be opened and you can [edit the page](../../../sites/authoring/using/editing-content.md) as required.
+1. The page will be opened and you can [edit the page](/help/sites/authoring/using/editing-content.md) as required.
 
 >[!NOTE]
 >
@@ -272,8 +272,8 @@ You can copy a page and all of its subpages to a new location:
 1. In the **Sites** console, navigate until you find the page that you want to copy.
 1. Select your page using either:
 
-    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [Selection mode](../../../sites/authoring/using/basic-handling.md#product-navigation) and the toolbar
+    * [Quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions)
+    * [Selection mode](/help/sites/authoring/using/basic-handling.md#product-navigation) and the toolbar
 
    And then the **Copy** page icon:
 
@@ -302,7 +302,7 @@ You can copy a page and all of its subpages to a new location:
 
 >[!NOTE]
 >
->A page can only be moved to a location where the template upon which the page is based is allowed. See [Template Availability](../../../sites/developing/using/templates.md#template-availability) for more information.
+>A page can only be moved to a location where the template upon which the page is based is allowed. See [Template Availability](/help/sites/developing/using/templates.md#template-availability) for more information.
 
 The procedure to move or rename a page is basically the same and is handled by the same wizard. With this wizard you can:
 
@@ -315,8 +315,8 @@ AEM offers you the functionality to update any internal links that refer to the 
 1. Navigate until you find the page that you want to move.
 1. Select your page using either:
 
-    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [Selection mode](../../../sites/authoring/using/basic-handling.md#product-navigation) and the toolbar
+    * [Quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions)
+    * [Selection mode](/help/sites/authoring/using/basic-handling.md#product-navigation) and the toolbar
 
    And then select the **Move** page icon:
 
@@ -340,7 +340,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
 1. From the **Select Destination** stage of the wizard you can either:
 
-    * Use the [column view](../../../sites/authoring/using/basic-handling.md#column-view) to navigate to the new location for the page:
+    * Use the [column view](/help/sites/authoring/using/basic-handling.md#column-view) to navigate to the new location for the page:
 
         * Select the destination it by clicking the destination's thumbnail.  
         * Click **Next** to continue.
@@ -370,7 +370,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 ### Deleting a Page {#deleting-a-page}
 
 1. Navigate until you can see the page you want to delete.
-1. Use [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) to select the required page, then use **Delete** from the toolbar:
+1. Use [selection mode](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) to select the required page, then use **Delete** from the toolbar:
 
    ![](assets/screen_shot_2018-03-22at105622.png)
 
@@ -392,7 +392,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
 ### Locking a Page {#locking-a-page}
 
-You can [lock/unlock a page](../../../sites/authoring/using/editing-content.md#locking-a-page) from either a console or when editing an individual page. Information about whether a page is locked is also shown in both locations.
+You can [lock/unlock a page](/help/sites/authoring/using/editing-content.md#locking-a-page) from either a console or when editing an individual page. Information about whether a page is locked is also shown in both locations.
 
 ![](assets/screen_shot_2018-03-22at105713.png) ![](assets/screen_shot_2018-03-22at105720.png) 
 

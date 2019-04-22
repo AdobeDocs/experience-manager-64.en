@@ -13,11 +13,11 @@ discoiquuid: f5ab3f61-aa5a-49ae-a976-6ab7f0d11ea6
 
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
 
-Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to [page editing](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md).
+Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to [page editing](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md).
 
 >[!NOTE]
 >
->The [modifier keys](../../../sites/authoring/using/keyboard-shortcuts.md#os-specific-modifier-keys) required for AEM keyboard shortcuts vary depending on operating system.
+>The [modifier keys](/help/sites/authoring/using/keyboard-shortcuts.md#os-specific-modifier-keys) required for AEM keyboard shortcuts vary depending on operating system.
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}
 
@@ -73,12 +73,12 @@ The following shortcuts are available for the Sites, Commerce, Screens, Assets, 
   <tr>
    <td> </td> 
    <td><span class="kbd">/</span></td> 
-   <td>Invoke <a href="../../../sites/authoring/using/search.md">search</a></td> 
+   <td>Invoke <a href="/help/sites/authoring/using/search.md">search</a></td> 
   </tr>
   <tr>
    <td> </td> 
    <td><span class="kbd">Alt+&lt;Number&gt;</span></td> 
-   <td>Toggle which <a href="../../../sites/authoring/using/basic-handling.md#rail-selector">rail selector option</a> to view</td> 
+   <td>Toggle which <a href="/help/sites/authoring/using/basic-handling.md#rail-selector">rail selector option</a> to view</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -123,9 +123,9 @@ The following shortcuts are available for the Sites, Commerce, Screens, Assets, 
  </tbody>
 </table>
 
-The key combinations are listed with the Windows [modifier keys](../../../sites/authoring/using/keyboard-shortcuts.md#os-specific-modifier-keys).
+The key combinations are listed with the Windows [modifier keys](/help/sites/authoring/using/keyboard-shortcuts.md#os-specific-modifier-keys).
 
-Various keyboard shortcuts are also available for desktop users when using the [page editor](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md) to author pages.
+Various keyboard shortcuts are also available for desktop users when using the [page editor](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md) to author pages.
 
 ## OS-Specific Modifier Keys {#os-specific-modifier-keys}
 
@@ -164,7 +164,7 @@ In addition keyboard shortcuts are the same for all locales and keyboard layouts
 >
 >AEM keyboard shortcuts could interfere with screen readers, some browser features, and other accessibility tools.
 >
->Adobe recommends [disabling AEM keyboard shortcuts](../../../sites/authoring/using/keyboard-shortcuts.md#deactivating-keyboard-shortcuts) when using a screen reader.
+>Adobe recommends [disabling AEM keyboard shortcuts](/help/sites/authoring/using/keyboard-shortcuts.md#deactivating-keyboard-shortcuts) when using a screen reader.
 
 ## Deactivating Keyboard Shortcuts {#deactivating-keyboard-shortcuts}
 
@@ -174,8 +174,8 @@ For users that do not use keyboard shortcuts or have certain accessibility requi
 
 You can deactivate keyboard shortcuts in two locations:
 
-* [My Preferences](../../../sites/authoring/using/user-properties.md#my-preferences)
-* The [help menu](../../../sites/authoring/using/basic-handling.md#accessing-help)
+* [My Preferences](/help/sites/authoring/using/user-properties.md#my-preferences)
+* The [help menu](/help/sites/authoring/using/basic-handling.md#accessing-help)
 
 >[!NOTE]
 >

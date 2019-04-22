@@ -24,7 +24,7 @@ The application accesses AEM Forms server on REST endpoints to do the following:
 
 The AEM Forms server accesses AEM Forms database over JDBC. The database persists tasks, processes and their instances, users, and related information.
 
-The AEM Forms workspace is designed into modular JavaScript™ components which can be individually customized and reused in other web applications. The components are based on BackBone which is a JavaScript library that gives structure to web applications. A detailed article describing interaction of components with BackBone is [here](../../forms/using/backbone-interaction.md). The organization of components in the CRX folder structure is discussed in [this](../../forms/using/folder-structure.md) article.
+The AEM Forms workspace is designed into modular JavaScript™ components which can be individually customized and reused in other web applications. The components are based on BackBone which is a JavaScript library that gives structure to web applications. A detailed article describing interaction of components with BackBone is [here](/help/forms/using/backbone-interaction.md). The organization of components in the CRX folder structure is discussed in [this](/help/forms/using/folder-structure.md) article.
 
 Packages delivered for AEM Forms workspace:
 

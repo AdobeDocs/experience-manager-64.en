@@ -124,7 +124,7 @@ This event is triggered to indicate that page tracking has been completed. If yo
 
 Enable your CQ components to interact with the Adobe Analytics framework. Then, configure your framework so that Adobe Analytics tracks the component data.
 
-Components that interact with the Adobe Analytics framework appear in SideKick when you are editing a framework. After dragging the component to the framework, the component properties appear and you can then map them with Adobe Analytics properties. (See [Setting Up a Framework For Basic Tracking](../../../sites/administering/using/adobeanalytics-connect.md#creating-a-adobe-analytics-framework).)
+Components that interact with the Adobe Analytics framework appear in SideKick when you are editing a framework. After dragging the component to the framework, the component properties appear and you can then map them with Adobe Analytics properties. (See [Setting Up a Framework For Basic Tracking](/help/sites/administering/using/adobeanalytics-connect.md#creating-a-adobe-analytics-framework).)
 
 Components can interact with the Adobe Analytics framework when the component has a child node named `analytics`. The `analytics` node has the following properties:
 
@@ -135,8 +135,8 @@ Components can interact with the Adobe Analytics framework when the component ha
 
 The code in the component JSP adds the javascript to the page that triggers the tracking, and defines the data that is tracked. The event name and data names used in the javascript must match the corresponding values of the `analytics` node properties.
 
-* Use the data-tracking attribute to track event data when a page loads. (See [Tracking Custom Events on Page Load](../../../sites/developing/using/extending-analytics.md#tracking-custom-events-on-page-load).)
-* Use the CQ_Analytics.record function to track event data when users interact with page features. (See [Tracking Custom Events After Page Load](../../../sites/developing/using/extending-analytics.md#tracking-custom-events-after-page-load).)
+* Use the data-tracking attribute to track event data when a page loads. (See [Tracking Custom Events on Page Load](/help/sites/developing/using/extending-analytics.md#tracking-custom-events-on-page-load).)
+* Use the CQ_Analytics.record function to track event data when users interact with page features. (See [Tracking Custom Events After Page Load](/help/sites/developing/using/extending-analytics.md#tracking-custom-events-after-page-load).)
 
 When you use these data-tracking methods, the Adobe Analytics integration module automatically performs the calls to Adobe Analytics to record the events and data.
 
@@ -283,7 +283,7 @@ The content of the topnav.jsp file should appear as follows:
 
 >[!NOTE]
 >
->It is often desirable to track data from the ContextHub. For information about using javascript to obtain this information, see [Accessing Values in the ContextHub](../../../sites/developing/using/extending-analytics.md#accessing-values-in-the-contexthub).
+>It is often desirable to track data from the ContextHub. For information about using javascript to obtain this information, see [Accessing Values in the ContextHub](/help/sites/developing/using/extending-analytics.md#accessing-values-in-the-contexthub).
 
 #### Adding the Tracking Component to Sidekick {#adding-the-tracking-component-to-sidekick}
 
@@ -303,7 +303,7 @@ Add components that are enabled for tracking with the Adobe Analytics to Sidekic
 
 #### Adding the topnav Component to Your Framework {#adding-the-topnav-component-to-your-framework}
 
-Drag the topnav component to your Adobe Analytics framework and map the component variables and events to Adobe Analytics variables and events. (See [Setting Up a Framework For Basic Tracking](../../../sites/administering/using/adobeanalytics-connect.md).)
+Drag the topnav component to your Adobe Analytics framework and map the component variables and events to Adobe Analytics variables and events. (See [Setting Up a Framework For Basic Tracking](/help/sites/administering/using/adobeanalytics-connect.md).)
 
 ![](assets/chlimage_1-1.png)
 

@@ -12,7 +12,7 @@ discoiquuid: 4a51ebc4-e019-4fc5-93a1-d97f695126f5
 
 # Introduction to multi-step form sequence{#introduction-to-multi-step-form-sequence}
 
-Adaptive forms enables Form Authors to create multi-step data capture experience with great ease. It comes with built-in support for creating multiple panels and associating each panel with different navigation patterns. Form Authors can group form fields in logical sections and represent a group as a panel. The overall navigation between panels is controlled using the panel layout. Authors can choose to arrange panels in different layouts, for example, placing sequentially using the Wizard layout or in an ad-hoc manner using the Tabbed layout. For information about panel layouts, see [Layout capabilities of adaptive forms](../../forms/using/layout-capabilities-adaptive-forms.md).
+Adaptive forms enables Form Authors to create multi-step data capture experience with great ease. It comes with built-in support for creating multiple panels and associating each panel with different navigation patterns. Form Authors can group form fields in logical sections and represent a group as a panel. The overall navigation between panels is controlled using the panel layout. Authors can choose to arrange panels in different layouts, for example, placing sequentially using the Wizard layout or in an ad-hoc manner using the Tabbed layout. For information about panel layouts, see [Layout capabilities of adaptive forms](/help/forms/using/layout-capabilities-adaptive-forms.md).
 
 In a typical form filling experience, there are more steps involved than just capturing data. A complete form submission can include other steps, like signing the form digitally, verifying the information filled in the form, processing payments, and so on. It differs from case to case.
 
@@ -38,7 +38,7 @@ Let's take a use case where you need to create a sequence for fill, verify, sign
     * **Confirmation**: It contains the **Summary **component that displays a message confirming the form submission after a user signs the form and reaches the Confirmation (Summary) step in the sequence. Authors can configure the text of the Summary component, show a thank you message, show a link to the generated PDF, and so on.
 
 1. Select the layout of the root panel as **[!UICONTROL Wizard]**.
-1. Complete the remaining steps to create the form template. For more information, see [Creating a custom adaptive form template](../../forms/using/custom-adaptive-forms-templates.md).
+1. Complete the remaining steps to create the form template. For more information, see [Creating a custom adaptive form template](/help/forms/using/custom-adaptive-forms-templates.md).
 
 After you have defined the form sequence in the form template, you can use it create forms that will have the basic structure defined as the sequence in place, though you can always customize the form to suit your requirements.
 

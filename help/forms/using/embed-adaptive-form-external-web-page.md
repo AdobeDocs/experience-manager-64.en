@@ -15,7 +15,7 @@ Learn how to embed an adaptive form in an external web page
 
 AEM Forms allows form developers to seamlessly embed adaptive forms in an AEM Sites page or a web page hosted outside AEM. The embedded adaptive form is fully functional and users can fill and submit the form without leaving the page. It helps user remain in context of other elements on the web page and simultaneously interact with the form.
 
-For information about embedding an adaptive form in an AEM Sites page, see [Embed adaptive form in AEM Sites](../../forms/using/embed-adaptive-form-aem-sites.md).
+For information about embedding an adaptive form in an AEM Sites page, see [Embed adaptive form in AEM Sites](/help/forms/using/embed-adaptive-form-aem-sites.md).
 
 Read on for how to embed an adaptive form in an external web page.
 
@@ -140,7 +140,7 @@ ProxyPassReverse /content https://<AEM_Instance>/content
 
 When embedding an adaptive form in a web page, consider the following best practices:
 
-* Ensure that the styling rules defined in the web page CSS do not conflict with the form object CSS. To avoid the conflicts, you can reuse the web page CSS in the adaptive form theme using AEM client library. For information about using client library in adaptive form themes, see [Themes in AEM Forms](../../forms/using/themes.md).
+* Ensure that the styling rules defined in the web page CSS do not conflict with the form object CSS. To avoid the conflicts, you can reuse the web page CSS in the adaptive form theme using AEM client library. For information about using client library in adaptive form themes, see [Themes in AEM Forms](/help/forms/using/themes.md).
 * Make the form container in the web page use the entire window width. It ensures that the CSS rules configured for mobile devices work without any changes. If the form container does not take the entire window width, you need to write custom CSS to make the form adapt to different mobile devices. 
 * Use ` [getData](https://helpx.adobe.com/experience-manager/6-3/forms/javascript-api/GuideBridge.html)` API to get the XML or JSON representation of form data in client. 
 * Use ` [unloadAdaptiveForm](https://helpx.adobe.com/experience-manager/6-3/forms/javascript-api/GuideBridge.html)` API to unload the adaptive form from HTML DOM.

@@ -20,7 +20,7 @@ Java and Javascript APIs enable you to internationalize strings in the following
 * Javascript in client-side libraries or in page source.
 * JCR node property values used in dialogs and component configuration properties.
 
-For an overview of the internationalization and localization process, see [Internationalizing Components](../../../sites/developing/using/i18n.md).  
+For an overview of the internationalization and localization process, see [Internationalizing Components](/help/sites/developing/using/i18n.md).  
 
 ## Internationalizing Strings in Java and JSP Code {#internationalizing-strings-in-java-and-jsp-code}
 
@@ -78,7 +78,7 @@ i18n.get("Enter a search keyword");
 
 #### Using Translation Hints {#using-translation-hints}
 
-Specify the [translation hint](../../../sites/developing/using/i18n-translator.md#adding-changing-and-removing-strings) of the internationalized string to distinguish between duplicate strings in the dictionary. Use the second, optional parameter of the `get` method to provide the translation hint. The translation hint must exactly match the Comment property of the item in the dictionary.
+Specify the [translation hint](/help/sites/developing/using/i18n-translator.md#adding-changing-and-removing-strings) of the internationalized string to distinguish between duplicate strings in the dictionary. Use the second, optional parameter of the `get` method to provide the translation hint. The translation hint must exactly match the Comment property of the item in the dictionary.
 
 For example, the dicationary contains the string `Request` twice: once as a verb and once as a noun. The following code includes the translation hint as an argument in the `get` method:
 
@@ -90,7 +90,7 @@ i18n.get("Request","A noun, as in a request for a web page");
 
 Include variables in the localized string to build contextual meaning into a sentence. For example, after logging into a web application, the home page displays the message "Welcome back Administrator. You have 2 messages in your inbox." The page context determines the user name and the number of messages.
 
-[In the dictionary](../../../sites/developing/using/i18n-translator.md#adding-changing-and-removing-strings), the variables are represented in strings as bracketed indexes. Specify the values of the variables as arguments of the `get` method. The arguments are placed following the translation hint, and the indexes correspond with the order of the arguments:
+[In the dictionary](/help/sites/developing/using/i18n-translator.md#adding-changing-and-removing-strings), the variables are represented in strings as bracketed indexes. Specify the values of the variables as arguments of the `get` method. The arguments are placed following the translation hint, and the indexes correspond with the order of the arguments:
 
 ```xml
 i18n.get("Welcome back {0}. You have {1} messages.", "user name, number of messages", user.getDisplayName(), numItems); 
@@ -113,7 +113,7 @@ The `I18N` class defines a static `get` method that is useful when you need to l
 
 The Javascript API enables you to localize strings on the client. As with [Java and JSP](#internationalizing-strings-in-java-and-jsp-code) code, the Javascript API enables you to identify strings to localize, provide localization hints, and include variables in the localized strings.
 
-The `granite.utils` [client library folder](../../../sites/developing/using/clientlibs.md) provides the Javascript API. To use the API, include this client library folder on your page. Localization functions use the `Granite.I18n` namespace.
+The `granite.utils` [client library folder](/help/sites/developing/using/clientlibs.md) provides the Javascript API. To use the API, include this client library folder on your page. Localization functions use the `Granite.I18n` namespace.
 
 Before you present localized strings, you need to set the locale using the `Granite.I18n.setLocale` function. The function requires the language code of the locale as an argument:
 

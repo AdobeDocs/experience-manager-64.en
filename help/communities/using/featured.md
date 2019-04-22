@@ -17,11 +17,11 @@ discoiquuid: ee39435d-80f5-4758-ae01-1ea0d221b00b
 
 The featured content feature provides an area for signed-in site visitors (community members) in the publish environment to highlight content for
 
-* [blogs](../../communities/using/blog-feature.md)
-* [calendars](../../communities/using/calendar.md)
-* [forums](../../communities/using/forum.md)
-* [ideas](../../communities/using/ideation-feature.md)
-* [QnA](../../communities/using/working-with-qna.md)
+* [blogs](/help/communities/using/blog-feature.md)
+* [calendars](/help/communities/using/calendar.md)
+* [forums](/help/communities/using/forum.md)
+* [ideas](/help/communities/using/ideation-feature.md)
+* [QnA](/help/communities/using/working-with-qna.md)
 
 Once content is flagged as featured, it will be listed within this component, which may be placed in specific landing pages or areas that easily catches the attention of community members.
 
@@ -40,9 +40,9 @@ To add a `Featured Content` component to a page in author mode, use the componen
 
 and drag it into place on a page where the featured contentshould appear.
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-featured.md#essentials-for-client-side) are included, this is how the `Featured Content`component will appear:
+When the [required client-side libraries](/help/communities/using/essentials-featured.md#essentials-for-client-side) are included, this is how the `Featured Content`component will appear:
 
 ![](assets/chlimage_1-13.png)
 
@@ -83,6 +83,6 @@ The page containing the `Featured Content` component, will now include this post
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Featured Content](../../communities/using/essentials-featured.md) page for developers.
+More information may be found on the [Featured Content](/help/communities/using/essentials-featured.md) page for developers.
 
-For flagging content as featured, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+For flagging content as featured, see [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).

@@ -16,7 +16,7 @@ pagetitle: Components for Content Fragments
 
 >[!CAUTION]
 >
->Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../../release-notes/sp-release-notes.md).
+>Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md).
 
 ## Components for Fragment Authoring {#components-for-fragment-authoring}
 
@@ -24,7 +24,7 @@ pagetitle: Components for Content Fragments
 >
 >It is not recommended to extend or change the actual components used in the Fragment Editor as they are still subject to change.
 
-See the [Content Fragment Management API - Client-Side](../../../sites/developing/using/customizing-content-fragments.md#the-content-fragment-management-api-client-side).
+See the [Content Fragment Management API - Client-Side](/help/sites/developing/using/customizing-content-fragments.md#the-content-fragment-management-api-client-side).
 
 ## Components for Page Authoring {#components-for-page-authoring}
 
@@ -34,7 +34,7 @@ See the [Content Fragment Management API - Client-Side](../../../sites/developin
 >
 >This section details the original component delivered for use with content fragments (**Content Fragment** in the **General** group).
 
-Adobe Experience Manager (AEM) content fragments are [created and managed as page-independent assets](../../../assets/using/content-fragments.md). They allow you to create channel-neutral content, together with (possibly channel-specific) variations. [You can then use these fragments, and their variations, when authoring your content pages](../../../sites/authoring/using/content-fragments.md). You can also use an existing content fragment asset by [dragging it from the asset browser to the page](../../../sites/authoring/using/content-fragments.md#adding-a-content-fragment-to-your-page) (as for other asset based components, such as the foundation component Image). The out-of-the-box content fragment component displays only one [element](../../../assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) of the referenced content fragment. Using the component dialog you can define the [element, variation and range of fragment paragraphs](../../../assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) that you want to display on the page.
+Adobe Experience Manager (AEM) content fragments are [created and managed as page-independent assets](/help/assets/using/content-fragments.md). They allow you to create channel-neutral content, together with (possibly channel-specific) variations. [You can then use these fragments, and their variations, when authoring your content pages](/help/sites/authoring/using/content-fragments.md). You can also use an existing content fragment asset by [dragging it from the asset browser to the page](/help/sites/authoring/using/content-fragments.md#adding-a-content-fragment-to-your-page) (as for other asset based components, such as the foundation component Image). The out-of-the-box content fragment component displays only one [element](/help/assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) of the referenced content fragment. Using the component dialog you can define the [element, variation and range of fragment paragraphs](/help/assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) that you want to display on the page.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ This library adds features, specific to content fragments, to the editor. For ex
 
 ### In-Between Content {#in-between-content}
 
-The **Content Fragmen**t component allows you to drop additional components in-between the different paragraphs of the displayed [element](../../../assets/using/content-fragments.md#constituent-parts-of-a-content-fragment). Basically, the element displayed is composed of different paragraphs (each paragraph is marked by a carriage return). Between each of those paragraphs, you can insert content using other components.
+The **Content Fragmen**t component allows you to drop additional components in-between the different paragraphs of the displayed [element](/help/assets/using/content-fragments.md#constituent-parts-of-a-content-fragment). Basically, the element displayed is composed of different paragraphs (each paragraph is marked by a carriage return). Between each of those paragraphs, you can insert content using other components.
 
 From a technical viewpoint, each paragraph of the displayed element* *lives in its own parsys, and each component that you add in-between the paragraphs will be (under the hood) inserted into the parsys.
 
@@ -101,7 +101,7 @@ To use the out-of-the-box content fragment component as a blueprint for extensio
     * The `afterinsert`/ `afteredit`/ `afterdelete` listeners are used to trigger JS events. These events will be handled in the `cq.authoring.editor.plugin.cfm` client library to display the associated content in the side panel.
     
     * The `cq:dropTargets` are configured to support dragging content fragment assets.
-    * `cq:inplaceEditing` is configured to support authoring of a content fragment in the page editor. The fragment in-place editor is defined in the `cq.authoring.editor.plugin.cfm` client library and allows a quick link to open the current [element/variation](../../../assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) in the [fragment editor](../../..//assets/using/content-fragments-variations.md).
+    * `cq:inplaceEditing` is configured to support authoring of a content fragment in the page editor. The fragment in-place editor is defined in the `cq.authoring.editor.plugin.cfm` client library and allows a quick link to open the current [element/variation](/help/assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) in the [fragment editor](/help//assets/using/content-fragments-variations.md).
 
 ### Asset Rewriting Before Rendering {#asset-rewriting-before-rendering}
 

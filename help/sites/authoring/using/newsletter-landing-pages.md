@@ -25,6 +25,6 @@ To create an effective newsletter landing page, you need to do the following:
 >[!NOTE]
 >
 >Adobe is not planning to further enhance this capability (Managing Leads and Lists).  
->Recommendation is to leverage [Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to leverage [Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
-See [Creating an Effective Newsletter Landing Page (classic user interface)](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-email-landingpage.md) for more information.
+See [Creating an Effective Newsletter Landing Page (classic user interface)](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-email-landingpage.md) for more information.

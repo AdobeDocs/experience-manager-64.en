@@ -14,7 +14,7 @@ discoiquuid: 8eebfcd6-0597-44ed-b718-bf9a1baa6c12
 
 You can upload, preview, and submit attachments with HTML5 forms. By default, the attachment support is disabled. To enable the attachment support:
 
-1. Create a [custom profile](../../forms/using/custom-profile.md) with mutiselect string property `mfAttachmentOptions`.
+1. Create a [custom profile](/help/forms/using/custom-profile.md) with mutiselect string property `mfAttachmentOptions`.
 1. In the custom profile, specify properties `fileSizeLimit`, `multiSelect`, and `buttonTex`t to configure options of the file attachment widget. As required, you can also specify more custom properties.   
 
 1. In the custom profile, use the following configurations:
@@ -28,12 +28,12 @@ You can upload, preview, and submit attachments with HTML5 forms. By default, th
    >
    >In Microsoft Internet Explorer 9, users can attach files larger than the specified limit. It is a known issue.
 
-1. Use the [metadata editor](../../forms/using/manage-form-metadata.md) to select the custom profile that you have created above for HTML 5 forms. 
+1. Use the [metadata editor](/help/forms/using/manage-form-metadata.md) to select the custom profile that you have created above for HTML 5 forms. 
 1. Render your form template with custom profile and the attachments icon would appear on the forms toolbar.
 
    >[!NOTE]
    >
-   >Out of the box, the forms portal provides a custom profile with drafts and attachments capability enabled. For more information about the **Save as Draft **profile, see [Saving HTML5 forms as a draft](../../forms/using/saving-html5-form-draft.md).
+   >Out of the box, the forms portal provides a custom profile with drafts and attachments capability enabled. For more information about the **Save as Draft **profile, see [Saving HTML5 forms as a draft](/help/forms/using/saving-html5-form-draft.md).
 
 1. Click the attachment icon, an attachment selection dialog box appears. Browse and select the attachment and click **Attach**.
 
@@ -53,4 +53,4 @@ When attachments are enabled, HTML5 form submits multipart data. The mutii-part 
 >
 >For backward compatibility, if `mfAllowAttachments`option is turned off, then the HTML5 forms does not send the muti- ``part data. It sends simple data xml in **application/xml **format.
 
-If the mfAllowAttachments flag is turned on, the [submit service proxy service](../../forms/using/service-proxy.md) also posts multipart data with dataXml and attachments.
+If the mfAllowAttachments flag is turned on, the [submit service proxy service](/help/forms/using/service-proxy.md) also posts multipart data with dataXml and attachments.

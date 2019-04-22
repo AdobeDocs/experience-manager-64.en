@@ -39,7 +39,7 @@ The steps to dynamically add SCF components are:
 
 >[!NOTE]
 >
->Sideloading of [non-existing resources](../../communities/using/scf.md#add-or-include-a-communities-component) is not supported.
+>Sideloading of [non-existing resources](/help/communities/using/scf.md#add-or-include-a-communities-component) is not supported.
 
 ## Dynamically Add Component to DOM {#dynamically-add-component-to-dom}
 

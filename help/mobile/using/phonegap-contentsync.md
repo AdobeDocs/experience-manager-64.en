@@ -15,11 +15,11 @@ discoiquuid: 7941987a-2f4c-4c62-8ab2-0f6f30ceb064
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 >[!NOTE]
 >
->This document is part of the [Getting Started with AEM Mobile](../../mobile/using/getting-started-aem-mobile.md) Guide, a recommended starting point for AEM Mobile reference.
+>This document is part of the [Getting Started with AEM Mobile](/help/mobile/using/getting-started-aem-mobile.md) Guide, a recommended starting point for AEM Mobile reference.
 
 Use Content Sync to package content so that it can be used in native mobile applications. Pages that are authored in AEM can be used as app content, even when the device is offline. Furthermore, because AEM pages are based on web standards, they work cross-platform enabling you to embed them in any native wrapper. This strategy reduces develoment effort and enables you to easily update app content.
 
@@ -40,7 +40,7 @@ The following sequence of steps illustrates a typical use case for Content Sync:
 
 >[!NOTE]
 >
->To get more information on guidelines for developing Content Sync handlers ade see out of the box app handlers, See [Developing Content Sync Handlers](../../mobile/using/contentsync-app-handlers.md).
+>To get more information on guidelines for developing Content Sync handlers ade see out of the box app handlers, See [Developing Content Sync Handlers](/help/mobile/using/contentsync-app-handlers.md).
 
 ## Configuring the Content Sync Content {#configuring-the-content-sync-content}
 
@@ -71,9 +71,9 @@ When AEM is installed, members of the administrators group can download from Con
 
 The Day CQ Content Sync Manager service controls access to Content Sync. Configure this service to specify the user or group that can download from Content Sync by default.
 
-If you are [configuring the service using the Web Console](../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console), type the name of the user or group as the value of the Fallback Cache Authorizable property.
+If you are [configuring the service using the Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console), type the name of the user or group as the value of the Fallback Cache Authorizable property.
 
-If you are [configuring in the repository](../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository), use the following information about the service:
+If you are [configuring in the repository](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository), use the following information about the service:
 
 * PID: com.day.cq.contentsync.impl.ContentSyncManagerImpl
 * Property name: contentsync.fallback.authorizable
@@ -163,7 +163,7 @@ Each property can have one of the following values:
 
 * `REWRITE_RELATIVE`: rewrites the path with a relative position to the page .html file on the file system.  
 
-* `REWRITE_EXTERNAL`: rewrites the path by pointing to the resource on the server, using the AEM [Externalizer service](../../sites/developing/using/externalizer.md).
+* `REWRITE_EXTERNAL`: rewrites the path by pointing to the resource on the server, using the AEM [Externalizer service](/help/sites/developing/using/externalizer.md).
 
 The AEM service called **PathRewriterTransformerFactory** allows you to configure the specific html attributes that will be rewritten. The service can be configured in the Web console and has a configuration for each property of the `rewrite` node: `clientlibs`, `images` and `links`.
 
@@ -377,6 +377,6 @@ If a connection could not be established previously downloaded data will be disp
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Authoring for Adobe PhoneGap Enterprise with AEM](../../mobile/using/phonegap.md)
-* [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md)
+* [Authoring for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/phonegap.md)
+* [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md)
 

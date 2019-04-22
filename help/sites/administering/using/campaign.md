@@ -22,10 +22,10 @@ You can integrate this version of AEM with one of the following versions of Adob
 
 This documentation describes how to integrate AEM with Adobe Campaign. Depending on whether you have the subscription-based or on-premise solution, the integration steps will differ slightly.
 
-* [Integrating with Adobe Campaign 6.1](../../../sites/administering/using/campaignonpremise.md)
-* [Integrating with Adobe Campaign Standard](../../../sites/administering/using/campaignstandard.md)
-* [Best Practices for Email Templates](../../../sites/administering/using/best-practices-for-email-templates.md)
-* [Troubleshooting your Adobe Campaign Integration](../../../sites/administering/using/troubleshooting-campaignintegration.md)
+* [Integrating with Adobe Campaign 6.1](/help/sites/administering/using/campaignonpremise.md)
+* [Integrating with Adobe Campaign Standard](/help/sites/administering/using/campaignstandard.md)
+* [Best Practices for Email Templates](/help/sites/administering/using/best-practices-for-email-templates.md)
+* [Troubleshooting your Adobe Campaign Integration](/help/sites/administering/using/troubleshooting-campaignintegration.md)
 
 >[!NOTE]
 >

@@ -16,7 +16,7 @@ You can move forms and related assets, themes, data dictionaries, document fragm
 
 >[!NOTE]
 >
->* In AEM 6.4 Forms, the structure and paths of crx-repository has changed. If you import assets from a previous version to AEM 6.4 Forms and the form has some dependencies on the older structure, you have to manually export the dependencies. For details of changes in the structure and paths of the repository, see [Repository Restructuring in AEM 6.4](../../sites/deploying/using/repository-restructuring-in-aem64.md).
+>* In AEM 6.4 Forms, the structure and paths of crx-repository has changed. If you import assets from a previous version to AEM 6.4 Forms and the form has some dependencies on the older structure, you have to manually export the dependencies. For details of changes in the structure and paths of the repository, see [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring-in-aem64.md).
 >
 
 ## Download or upload Forms &amp; Documents assets {#download-or-upload-forms-amp-documents-assets}
@@ -25,7 +25,7 @@ AEM Forms user interface allows you to export assets from an AEM instance by dow
 
 Export and import via AEM Forms user interface is supported for all assets except for Adaptive Form templates and Adaptive Form content policies. Therefore, on exporting an adaptive form from AEM Forms UI, the related adaptive form template and content policies are not automatically exported like other related assets.
 
-For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see [Working with packages](../../sites/administering/using/package-manager.md).
+For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see [Working with packages](/help/sites/administering/using/package-manager.md).
 
 ### Download Forms &amp; Documents assets {#download-forms-amp-documents-assets}
 
@@ -69,7 +69,7 @@ To upload Forms & Documents assets:
 
 ## Downloading or uploading a theme {#downloading-or-uploading-a-theme}
 
-With AEM Forms, you can create, download, or upload themes. A theme is created like other assets such as forms, documents, and letters. You can create a theme, download it, and upload it on a separate instance to reuse it. For more information about themes, see [Themes in AEM Forms](../../forms/using/themes.md).
+With AEM Forms, you can create, download, or upload themes. A theme is created like other assets such as forms, documents, and letters. You can create a theme, download it, and upload it on a separate instance to reuse it. For more information about themes, see [Themes in AEM Forms](/help/forms/using/themes.md).
 
 ### Downloading a theme {#downloading-a-theme}
 
@@ -119,7 +119,7 @@ To share assets, such as data dictionaries, letters, and document fragments, bet
 
 Use this option to download all the Correspondence Management assets and related dependencies as a package from an AEM forms instance.
 
-For example, if Correspondence Management has a letter that uses an image and text, the downloaded package also contains the image and the text related to the letter. All the metadata properties (including custom properties) associated with the asset are also downloaded. Once you have downloaded the package (.cmp), you can [import the package to a different AEM Forms instance](../../forms/using/import-export-forms-templates.md#p-upload-forms-documents-assets-p).
+For example, if Correspondence Management has a letter that uses an image and text, the downloaded package also contains the image and the text related to the letter. All the metadata properties (including custom properties) associated with the asset are also downloaded. Once you have downloaded the package (.cmp), you can [import the package to a different AEM Forms instance](/help/forms/using/import-export-forms-templates.md#p-upload-forms-documents-assets-p).
 
 To download all the Correspondence Management assets and related dependencies as a package, complete the following steps:
 
@@ -144,7 +144,7 @@ To download all the Correspondence Management assets and related dependencies as
 
 1. Tap the **Download Exported Package** link to download the package file.
 
-   To add the assets in the package to another instance of Correspondence Management, [import the package to an AEM Forms instance](../../forms/using/import-export-forms-templates.md#p-upload-forms-documents-assets-p).
+   To add the assets in the package to another instance of Correspondence Management, [import the package to an AEM Forms instance](/help/forms/using/import-export-forms-templates.md#p-upload-forms-documents-assets-p).
 
 ### Import Document Fragments, Letters and/or Data Dictionaries into Correspondence Management {#import-document-fragments-letters-and-or-data-dictionaries-into-correspondence-management}
 
@@ -152,7 +152,7 @@ You can import assets that are exported into a .cmp file. A .cmp file can have o
 
 >[!NOTE]
 >
->While importing old Correspondence Management assets for migration, log in using an Admin account. For more information on Migrating old Correspondence Management assets, see [Migrate AEM Forms assets and documents](../../forms/using/migration-utility.md).
+>While importing old Correspondence Management assets for migration, log in using an Admin account. For more information on Migrating old Correspondence Management assets, see [Migrate AEM Forms assets and documents](/help/forms/using/migration-utility.md).
 
 1. On the data dictionary, letters, or document fragments page, tap **Create &gt; File Upload** and select the .cmp file.
 1. Correspondence Management displays the Import Assets dialog with the list of assets that are imported. Tap **Import**.
@@ -251,4 +251,4 @@ On the side panel, you can use the following to narrow down your search results:
 
 The side panel also allows you to save your search settings with names of your choice.
 
-For more information and instructions on using search, filters, saved search, and side panel, see [Search](../../sites/authoring/using/search.md).
+For more information and instructions on using search, filters, saved search, and side panel, see [Search](/help/sites/authoring/using/search.md).

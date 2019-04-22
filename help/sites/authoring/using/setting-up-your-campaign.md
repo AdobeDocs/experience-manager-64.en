@@ -24,26 +24,26 @@ Then depending on the type of experience(s) you are creating, you will need to [
 
 * If creating a Teaser:
 
-    1. [Create a teaser experience](../../../sites/authoring/using/campaigns.md).
-    1. [Add content to your teaser](../../../sites/authoring/using/campaigns.md).
-    1. [Create a Touchpoint for your Teaser](../../../sites/authoring/using/campaigns.md) (add your teaser to a content page).
+    1. [Create a teaser experience](/help/sites/authoring/using/campaigns.md).
+    1. [Add content to your teaser](/help/sites/authoring/using/campaigns.md).
+    1. [Create a Touchpoint for your Teaser](/help/sites/authoring/using/campaigns.md) (add your teaser to a content page).
 
 * If creating a Newsletter:
 
-    1. [Create a newsletter experience](../../../sites/authoring/using/campaigns.md).
-    1. [Add content to the newsletter.](../../../sites/authoring/using/campaigns.md)
-    1. [Personalize the newsletter.](../../../sites/authoring/using/campaigns.md)
-    1. [Create a compelling newsletter landing page](../../../sites/authoring/using/campaigns.md).
-    1. [Send the newsletter](../../../sites/authoring/using/campaigns.md) to subscribers or leads.
+    1. [Create a newsletter experience](/help/sites/authoring/using/campaigns.md).
+    1. [Add content to the newsletter.](/help/sites/authoring/using/campaigns.md)
+    1. [Personalize the newsletter.](/help/sites/authoring/using/campaigns.md)
+    1. [Create a compelling newsletter landing page](/help/sites/authoring/using/campaigns.md).
+    1. [Send the newsletter](/help/sites/authoring/using/campaigns.md) to subscribers or leads.
 
 * If creating an Adobe Target (formerly Test&Target) Offer:
 
-    1. [Create an Adobe Target offer experience](../../../sites/authoring/using/campaigns.md).
-    1. [Integrate with Adobe Target](../../../sites/authoring/using/target-offers.md).
+    1. [Create an Adobe Target offer experience](/help/sites/authoring/using/campaigns.md).
+    1. [Integrate with Adobe Target](/help/sites/authoring/using/target-offers.md).
 
 >[!NOTE]
 >
->See [Segmentation](../../../sites/administering/using/campaign-segmentation.md) for detailed instructions on defining your segments.
+>See [Segmentation](/help/sites/administering/using/campaign-segmentation.md) for detailed instructions on defining your segments.
 
 ## Creating a New Brand {#creating-a-new-brand}
 
@@ -88,9 +88,9 @@ Configure campaign properties that control the behavior:
 * **Priority:** The priority of this campaign relative to other campaigns. When multiple campaigns are simultaneously On, the campaign that has the highest priority controls the visitor experience. 
 * **On and Off Time:** These properties control the period of time when the campaign controls the visitor experience. The On Time property controls the time when the campaign begins to control the experience. The Off Time property controls when the campaigns stops controlling the experience.
 * **Image:** The image that represents the campaign in AEM.
-* **Cloud Services:** The Cloud Service configurations with which the campaign is integrated. (See [Integrating with Adobe Marketing Cloud](../../../sites/administering/using/marketing-cloud.md).)
+* **Cloud Services:** The Cloud Service configurations with which the campaign is integrated. (See [Integrating with Adobe Marketing Cloud](/help/sites/administering/using/marketing-cloud.md).)
 
-* **Adobe Target:** Properties that configure campaigns that are integrated with Adobe Target. (See [Integrating with Adobe Target](../../../sites/administering/using/target.md).)
+* **Adobe Target:** Properties that configure campaigns that are integrated with Adobe Target. (See [Integrating with Adobe Target](/help/sites/administering/using/target.md).)
 
 1. From **Campaigns**, select your brand. In the right pane, select your campaign and cick **Properties**.
 
@@ -104,9 +104,9 @@ Configure campaign properties that control the behavior:
 
 The procedure for creating a new experience is dependent on the type of experience:
 
-* [Creating a Teaser](../../../sites/authoring/using/campaigns.md)
-* [Creating a Newsletter](../../../sites/authoring/using/campaigns.md)
-* [Creating an Adobe Target Offer](../../../sites/authoring/using/campaigns.md)
+* [Creating a Teaser](/help/sites/authoring/using/campaigns.md)
+* [Creating a Newsletter](/help/sites/authoring/using/campaigns.md)
+* [Creating an Adobe Target Offer](/help/sites/authoring/using/campaigns.md)
 
 >[!NOTE]
 >
@@ -118,21 +118,21 @@ The procedure for creating a new experience is dependent on the type of experien
 
 Now that you have created the basic skeleton for your experience you need to continue with the following actions, dependent on the type of experience:
 
-* [Teaser](../../../sites/authoring/using/campaigns.md):
+* [Teaser](/help/sites/authoring/using/campaigns.md):
 
-    * [Connect the teaser page to visitor segments.](../../../sites/authoring/using/campaigns.md)
-    * [Create a Touchpoint for your Teaser](../../../sites/authoring/using/campaigns.md) (add your teaser to a content page).
+    * [Connect the teaser page to visitor segments.](/help/sites/authoring/using/campaigns.md)
+    * [Create a Touchpoint for your Teaser](/help/sites/authoring/using/campaigns.md) (add your teaser to a content page).
 
-* [Newsletter](../../../sites/authoring/using/campaigns.md):
+* [Newsletter](/help/sites/authoring/using/campaigns.md):
 
-    * [Add content to the newsletter.](../../../sites/authoring/using/campaigns.md)
-    * [Personalize the newsletter.](../../../sites/authoring/using/campaigns.md)
-    * [Send the newsletter](../../../sites/authoring/using/campaigns.md) to subscribers or leads.
-    * [Create a compelling newsletter landing page](../../../sites/authoring/using/campaigns.md).
+    * [Add content to the newsletter.](/help/sites/authoring/using/campaigns.md)
+    * [Personalize the newsletter.](/help/sites/authoring/using/campaigns.md)
+    * [Send the newsletter](/help/sites/authoring/using/campaigns.md) to subscribers or leads.
+    * [Create a compelling newsletter landing page](/help/sites/authoring/using/campaigns.md).
 
-* [Adobe Target Offer](../../../sites/authoring/using/campaigns.md):
+* [Adobe Target Offer](/help/sites/authoring/using/campaigns.md):
 
-    * [Integrate with Adobe Target](../../../sites/administering/using/target.md).
+    * [Integrate with Adobe Target](/help/sites/administering/using/target.md).
 
 ## Adding a New Touchpoint {#adding-a-new-touchpoint}
 
@@ -151,7 +151,7 @@ If you have existing experiences you can add a touchpoint directly from the Cale
 >[!NOTE]
 >
 >Adobe is not planning to further enhance this capability (Managing Leads).  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 In AEM MCM, you can organize and add leads either by entering them manually or importing a comma-separated list, for example, a mailing list. Additional ways to generate leads are from newsletter sign-ups or community sign-ups (if configured, those can trigger a workflow that populates leads).
 
@@ -305,7 +305,7 @@ To delete existing leads in the MCM, select the check box next to the lead and c
 >[!NOTE]
 >
 >Adobe is not planning to further enhance this capability (managing lists).  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 Lists let you organize your leads into groups. With lists, you can target your marketing campaigns to a select group of people, for example, you can send a targeted newsletter to a list. Lists are visible in the MCM, either in the Dashboard or by clicking **Lists**. Both provide you with the name of the list and the number of members.
 

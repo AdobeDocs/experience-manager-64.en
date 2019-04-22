@@ -11,7 +11,7 @@ user-guide-title: AEM 6.4 Communities User Guide
   + [Communities Sites](administer-landing.md)
   + [AEM Communities Overview](overview.md)
   + [What's New in AEM 6.4 Communities](whats-new-aem-communities.md)
-  + [AEM Communities Release Notes](../../release-notes/communities-release-notes.md)
+  + [AEM Communities Release Notes](/help/release-notes/communities-release-notes.md)
   + [Getting Started with AEM Communities for Enablement](getting-started-enablement.md)
   + [Getting Started with AEM Communities](getting-started.md)
   + [Initial Setup](setup.md)

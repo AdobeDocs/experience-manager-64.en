@@ -15,7 +15,7 @@ discoiquuid: 8c88a2ff-766f-481b-b6dc-0b3e2eed8596
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Once you are familiar with content management actions on articles, banners, and collections you can publish your content. Also you can unpublish your content.
 
@@ -51,10 +51,10 @@ The general workflow to publish/unpublish an article:
 
 Once you have learnt about creating and publishing content, See
 
-* [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
-* [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md)
+* [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-on-demand.md)
+* [Administering Content to Use AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile.md)
 
 Or still need to learn about the authoring topics, See
 
-[Authoring AEM Content for AEM Mobile On-Demand Services Apps](../../mobile/using/mobile-apps-ondemand.md)
+[Authoring AEM Content for AEM Mobile On-Demand Services Apps](/help/mobile/using/mobile-apps-ondemand.md)
 

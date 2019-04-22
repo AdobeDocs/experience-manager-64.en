@@ -57,7 +57,7 @@ Adobe Analytics [data centers](https://developer.omniture.com/en_US/content_page
 
 AEM uses the San Jose (https://api.omniture.com/admin/1.4/rest/) data center by default.
 
-Use the [Web Console to configure the OSGi bundle](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) **Adobe AEM Analytics HTTP Client**. Add the **Data Center URL** for the data center that hosts a report suite for which your AEM pages collect data. 
+Use the [Web Console to configure the OSGi bundle](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) **Adobe AEM Analytics HTTP Client**. Add the **Data Center URL** for the data center that hosts a report suite for which your AEM pages collect data. 
 
 ![](assets/aa-07.png)
 
@@ -104,7 +104,7 @@ Create a Adobe Analytics configuration so that AEM can authenticate with the Ado
     * **Shared Secret**: the Adobe Analytics shared secret for the above account
     * **Data Center**: The location of the Adobe Analytics data center that your account is associated with.  
     
-    * **Do not add tracking tag to page**: Select this option when you are using Adobe Analytics reports in the [Content Insights](../../../sites/authoring/using/content-insights.md) feature, and you are also using [Dynamic Tag Management](../../../sites/administering/using/dtm.md) (DTM) with AEM, and the DTM web property has the Adobe Analytics tool installed. In this case, selecting this option prevents two instances of the tracking code being added to pages.
+    * **Do not add tracking tag to page**: Select this option when you are using Adobe Analytics reports in the [Content Insights](/help/sites/authoring/using/content-insights.md) feature, and you are also using [Dynamic Tag Management](/help/sites/administering/using/dtm.md) (DTM) with AEM, and the DTM web property has the Adobe Analytics tool installed. In this case, selecting this option prevents two instances of the tracking code being added to pages.
     
     * **Do not track the page load event**: as appropriate  
     
@@ -123,7 +123,7 @@ Create a Adobe Analytics configuration so that AEM can authenticate with the Ado
 
 ## Configuring for the Activity Map {#configuring-for-the-activity-map}
 
-To be able to see and use the [Activity Map in the page editor](../../../sites/authoring/using/pa-using.md#analytics-visible-from-the-page-editor-activity-map), you need to configure:
+To be able to see and use the [Activity Map in the page editor](/help/sites/authoring/using/pa-using.md#analytics-visible-from-the-page-editor-activity-map), you need to configure:
 
 * Users (for both editing and/or configuring) need to be in the group:  
   `analytics-administrators`  
@@ -236,7 +236,7 @@ When a page is associated with an Adobe Analytics framework, the page sends data
 Descendents of the page inherit the association with the framework. For example, when you associate the root page of your site with a framework, all pages of the site are associated with the framework.
 
 1. From the **Sites** console, select the page you wish to set up with tracking. 
-1. Open the ** [Page Properties](../../../sites/authoring/using/editing-page-properties.md)**, either directly from the console, or the page editor.
+1. Open the ** [Page Properties](/help/sites/authoring/using/editing-page-properties.md)**, either directly from the console, or the page editor.
 1. Open the** Cloud Services** tab.  
 
 1. Use the **Add Configuration** drop down to select **Adobe Analytics** from the available options. If inheritance is place you need to disable that before the selector becomes available.
@@ -244,7 +244,7 @@ Descendents of the page inherit the association with the framework. For example,
 1. The drop down selector for **Adobe Analytics** will be appended to the options available. Use this to select the required framework configuration.  
 
 1. Select **Save & Close**.
-1. ** [Publish](../../../sites/authoring/using/publishing-pages.md)** the page to activate the page and any connected configurations/files.
+1. ** [Publish](/help/sites/authoring/using/publishing-pages.md)** the page to activate the page and any connected configurations/files.
 1. The final step is to visit the page on the publish instance and search for a keyword (e.g. aubergine) using the **Search** component.
 1. You can then check the calls made to Adobe Analytics using an appropriate tool; for example, [Adobe Marketing Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
 1. Using the example provided, the call should contain the value entered (i.e. aubergine) in eVar7 and the events list should contain event3.
@@ -253,7 +253,7 @@ Descendents of the page inherit the association with the framework. For example,
 
 When a page is associated with a Adobe Analytics framework, the number of page views can be shown in the List view of the Sites console.
 
-See [Seeing Page Analytics Data](../../../sites/authoring/using/pa-using.md) for further details.
+See [Seeing Page Analytics Data](/help/sites/authoring/using/pa-using.md) for further details.
 
 ### Configuring the Import Interval {#configuring-the-import-interval}
 
@@ -266,7 +266,7 @@ Configure the appropriate instance of the **Adobe AEM Managed Polling Configurat
 * **Enable**:  
   Enable or disable the service. By default, the service is enabled.
 
-To configure this OSGi service, you can either use the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or an [osgiConfig node in the repository](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) (the service PID is `com.day.cq.polling.importer.impl.ManagedPollConfigImpl`).  
+To configure this OSGi service, you can either use the [Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or an [osgiConfig node in the repository](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) (the service PID is `com.day.cq.polling.importer.impl.ManagedPollConfigImpl`).  
 
 ## Editing Adobe Analytics Configurations and/or Frameworks {#editing-adobe-analytics-configurations-and-or-frameworks}
 

@@ -12,7 +12,7 @@ discoiquuid: 265eee8a-364e-4edf-b2a0-f42617169944
 
 # Working with Startpoints{#working-with-startpoints}
 
-A startpoint invokes a process created in Workbench. It is associated with a form which invokes the process when the form is submitted. See [Geometrixx Finance Reference Site walkthrough](../../forms/using/finance-reference-site-walkthrough.md) to understand processes.
+A startpoint invokes a process created in Workbench. It is associated with a form which invokes the process when the form is submitted. See [Geometrixx Finance Reference Site walkthrough](/help/forms/using/finance-reference-site-walkthrough.md) to understand processes.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ To initiate a process from the AEM Forms app, you need to have a startpoint of t
 
 **To start a process defined in Workbench**
 
-1. To view the Startpoints available in the AEM Forms app, go to [Home screen](../../forms/using/home-screen.md).
+1. To view the Startpoints available in the AEM Forms app, go to [Home screen](/help/forms/using/home-screen.md).
 1. On the **[!UICONTROL Home]**screen, by default, the **[!UICONTROL All Forms]**list is displayed.
 
    The startpoint is associated with a form. Tap the startpoint associated form in the list to open it.
@@ -33,7 +33,7 @@ To initiate a process from the AEM Forms app, you need to have a startpoint of t
 
 1. Enter the details in the **[!UICONTROL Startpoint]**form.
 
-   You can add annotations to this task using the [attachment](../../forms/using/add-attachments.md) button.
+   You can add annotations to this task using the [attachment](/help/forms/using/add-attachments.md) button.
 
 1. After you fill the form, tap the **Submit** button.
 
@@ -41,6 +41,6 @@ If the app is offline, the form and its data is saved in the Outbox folder.
 
 If the app is online, the task is synchronized with the AEM Forms server and assigned to the user specified in the process.
 
-To work with the task in your task list, see [Opening a task](../../forms/using/open-task.md).
+To work with the task in your task list, see [Opening a task](/help/forms/using/open-task.md).
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

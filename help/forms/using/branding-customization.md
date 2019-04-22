@@ -94,7 +94,7 @@ Perform the following steps to customize the default app icon and the launch ima
 
 1. Build and run AEM Forms app on iOS device or iOS simulator.
 
-   For details on building the app for iOS, see [Set up the Xcode project and build the iOS app](../../forms/using/setup-xcode-project-build-installer.md).
+   For details on building the app for iOS, see [Set up the Xcode project and build the iOS app](/help/forms/using/setup-xcode-project-build-installer.md).
 
 ### For Android {#for-android-1}
 
@@ -105,7 +105,7 @@ Perform the following steps to customize the default app icon and the launch ima
 1. Update the value for the key `app_name`.
 1. Rebuild the AEM Forms app.
 
-   For details on building the app for Android, see [Set up the Eclipse project and build the Android app](../../forms/using/setup-eclipse-project-build-installer.md).
+   For details on building the app for Android, see [Set up the Eclipse project and build the Android app](/help/forms/using/setup-eclipse-project-build-installer.md).
 
 ### For Windows {#for-windows-1}
 
@@ -116,7 +116,7 @@ Perform the following steps to customize the default app icon and the launch ima
 1. Update the value in the `<name>...</name>` tag.
 1. Rebuild the AEM Forms app.
 
-   For details on building the app for Windows, see [Set up the Visual Studio project and build the Windows app](../../forms/using/setup-visual-studio-project-build-installer.md).
+   For details on building the app for Windows, see [Set up the Visual Studio project and build the Windows app](/help/forms/using/setup-visual-studio-project-build-installer.md).
 
 ## Customizing images on the login page {#customizing-images-on-the-login-page}
 

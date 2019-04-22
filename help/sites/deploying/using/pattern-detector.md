@@ -24,7 +24,7 @@ This could serve as an assessment of the development effort that is involved in 
 
 ## How to Set Up {#how-to-set-up}
 
-The Pattern detector is released as part of the new `pre-upgrade-package` for source AEM versions 6.1 to 6.3 and can be installed using the [Package Manager](../../../sites/administering/using/package-manager.md).
+The Pattern detector is released as part of the new `pre-upgrade-package` for source AEM versions 6.1 to 6.3 and can be installed using the [Package Manager](/help/sites/administering/using/package-manager.md).
 
 See these links to packages for each AEM 6 version (starting from AEM 6.1):
 

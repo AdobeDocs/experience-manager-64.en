@@ -39,6 +39,6 @@ If you delete an asset from the Author instance, the asset is also deleted from 
 
 In AEM Forms, an XFA form template can be referred by an adaptive form or another XFA form template. Also, a template can refer to a resource or another XFA template.
 
-It is not advisable to delete an XFA form that is being referred by an adaptive form, as it can corrupt the adaptive form. When an adaptive form refers to an XFA form, their fields are bound. After XFA deletion, the adaptive form cannot synchronize its fields with the XFA fields and displays an error message for such fields. To know more about the impact of referenced XFA deletion and about dirty AFs, see [Updating referenced XFA forms](../../forms/using/get-xdp-pdf-documents-aem.md#p-updating-referenced-xfa-forms-p).
+It is not advisable to delete an XFA form that is being referred by an adaptive form, as it can corrupt the adaptive form. When an adaptive form refers to an XFA form, their fields are bound. After XFA deletion, the adaptive form cannot synchronize its fields with the XFA fields and displays an error message for such fields. To know more about the impact of referenced XFA deletion and about dirty AFs, see [Updating referenced XFA forms](/help/forms/using/get-xdp-pdf-documents-aem.md#p-updating-referenced-xfa-forms-p).
 
 To delete such an XFA form, update the adaptive form and remove the bindings with the XFA fields.

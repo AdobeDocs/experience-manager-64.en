@@ -13,11 +13,11 @@ discoiquuid: 14b8758b-f164-429a-b299-33b0703f8bec
 
 # Creating and Organizing Pages{#creating-and-organizing-pages}
 
-This section describes how to create and manage pages with Adobe Experience Manager (AEM) so that you can then [create content](../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md) on those pages.
+This section describes how to create and manage pages with Adobe Experience Manager (AEM) so that you can then [create content](/help/sites/classic-ui-authoring/using/classic-page-author-edit-content.md) on those pages.
 
 >[!NOTE]
 >
->Your account needs the [appropriate access rights](../../../sites/administering/using/security.md) and [permissions](../../../sites/administering/using/security.md#permissions) to take action on pages, for example, create, copy, move, edit, delete.
+>Your account needs the [appropriate access rights](/help/sites/administering/using/security.md) and [permissions](/help/sites/administering/using/security.md#permissions) to take action on pages, for example, create, copy, move, edit, delete.
 >
 >If you encounter any problems we suggest you contact your system administrator.
 
@@ -61,7 +61,7 @@ The following shows an extract from the Geometrixx site; where, for example, the
     /...
 ```
 
-This structure can be viewed from the Websites console, which you can use to [navigate through the tree structure](../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#main-pars-text-15).
+This structure can be viewed from the Websites console, which you can use to [navigate through the tree structure](/help/sites/classic-ui-authoring/using/author-env-basic-handling.md#main-pars-text-15).
 
 ![](assets/chlimage_1-151.png) 
 
@@ -79,7 +79,7 @@ When creating a new page there are two keys fields:
     * This is used to generate the URI.  
     * User input for this field is optional. If not specified, the name is derived from the title.
 
-When creating a new page, AEM will [validate the page name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposesd by AEM and JCR.
+When creating a new page, AEM will [validate the page name according to the conventions](/help/sites/developing/using/naming-conventions.md) imposesd by AEM and JCR.
 
 Implementation and the list of characters allowed differs slightly according to UI (it is more extensive for the touch-optimized UI), but the minimum allowed is:
 
@@ -89,11 +89,11 @@ Implementation and the list of characters allowed differs slightly according to 
 * _ (underscore)
 * `-` (hyphen/minus)
 
-Use just these characters if you want to be sure of them being accepted/used (if you need full details of all characters allowed, see [the naming conventions](../../../sites/developing/using/naming-conventions.md)).
+Use just these characters if you want to be sure of them being accepted/used (if you need full details of all characters allowed, see [the naming conventions](/help/sites/developing/using/naming-conventions.md)).
 
 #### Title {#title}
 
-If you supply only a page **Title** when creating a new page, AEM will derive the page **Name** from this string and [validate the name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposed by AEM and JCR. In both UIs a **Title** field containing invalid characters will be accepted, but the name derived will have the invalid characters subsituted. For example:
+If you supply only a page **Title** when creating a new page, AEM will derive the page **Name** from this string and [validate the name according to the conventions](/help/sites/developing/using/naming-conventions.md) imposed by AEM and JCR. In both UIs a **Title** field containing invalid characters will be accepted, but the name derived will have the invalid characters subsituted. For example:
 
 | Title |Derived Name |
 |---|---|
@@ -102,7 +102,7 @@ If you supply only a page **Title** when creating a new page, AEM will derive th
 
 #### Name {#name}
 
-If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposed by AEM and JCR.
+If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites/developing/using/naming-conventions.md) imposed by AEM and JCR.
 
 In the:
 
@@ -114,7 +114,7 @@ In the:
 >
 >You should avoid using a two-letter code as defined by ISO-639-1, unless it is a language root.
 >
->See [Preparing Content for Translation](../../../sites/administering/using/tc-prep.md) for more information.
+>See [Preparing Content for Translation](/help/sites/administering/using/tc-prep.md) for more information.
 
 ### Templates {#templates}
 
@@ -135,11 +135,11 @@ AEM comes with several templates provided out-of-the-box. The templates proffere
 
 >[!NOTE]
 >
->If configured on your instance, [template authors can create templates with the Template Editor](../../../sites/classic-ui-authoring/using/classic-feature-templates.md).
+>If configured on your instance, [template authors can create templates with the Template Editor](/help/sites/classic-ui-authoring/using/classic-feature-templates.md).
 
 ### Components {#components}
 
-Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of [out-of-the-box components](../../../sites/classic-ui-authoring/using/classic-page-author-conponent-console.md) that provide comprehensive functionality; these include:
+Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of [out-of-the-box components](/help/sites/classic-ui-authoring/using/classic-page-author-conponent-console.md) that provide comprehensive functionality; these include:
 
 * Text
 * Image
@@ -147,11 +147,11 @@ Components are the elements provided by AEM so that you can add specific types o
 * Video
 * many more
 
-Once you have created and opened a page you can [add content using the components](../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#insertinganewparagraph), available from the [sidekick](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#sidekick).
+Once you have created and opened a page you can [add content using the components](/help/sites/classic-ui-authoring/using/classic-page-author-edit-content.md#insertinganewparagraph), available from the [sidekick](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#sidekick).
 
 >[!NOTE]
 >
->The [Components Console](../../../sites/classic-ui-authoring/using/classic-page-author-conponent-console.md) give an overview of the components on your instance.
+>The [Components Console](/help/sites/classic-ui-authoring/using/classic-page-author-conponent-console.md) give an overview of the components on your instance.
 
 ## Managing Pages {#managing-pages}
 
@@ -174,7 +174,7 @@ Unless all pages have been created for you in advance, before you can start crea
     * Provide a **Title**; this is displayed to the user.
     * Provide a **Name**; this is used to generate the URI. If not specified, the name will be derived from the title.
 
-        * If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](../../../sites/developing/using/naming-conventions.md) imposesd by AEM and JCR.  
+        * If you supply a page **Name** when creating a new page, AEM will [validate the name according to the conventions](/help/sites/developing/using/naming-conventions.md) imposesd by AEM and JCR.  
         
         * In the classic UI you **cannot enter invalid characters** in the **Name** field.
 
@@ -191,7 +191,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
    >[!NOTE]
    >
-   >If you would like to use unicode characters in the URLs, set the Alias ( `sling:alias`) property ([page properties](../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md)).
+   >If you would like to use unicode characters in the URLs, set the Alias ( `sling:alias`) property ([page properties](/help/sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md)).
 
 1. Click **Create** to create the page. You return to the **Websites** console where you can see an entry for the new page.
 
@@ -203,7 +203,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
 ### Opening a Page For Editing {#opening-a-page-for-editing}
 
-You can open the page to be [edited](../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#editing-a-component-content-and-properties) by one of several methods:
+You can open the page to be [edited](/help/sites/classic-ui-authoring/using/classic-page-author-edit-content.md#editing-a-component-content-and-properties) by one of several methods:
 
 * From **Websites** console, you can **double-click** the page entry to open it for editing.
 
@@ -314,7 +314,7 @@ To move or rename a page:
 
    >[!NOTE]
    >
-   >After deletion, if the page has been published you can restore the latest (or a specific) version, but this may not have exactly the same content as your last version if further modifications had been made. See [How To Restore Pages](../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#restoringpages) for further details.
+   >After deletion, if the page has been published you can restore the latest (or a specific) version, but this may not have exactly the same content as your last version if further modifications had been made. See [How To Restore Pages](/help/sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#restoringpages) for further details.
 
 >[!NOTE]
 >
@@ -322,7 +322,7 @@ To move or rename a page:
 
 ### Locking a Page {#locking-a-page}
 
-You can [lock/unlock a page](../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#locking-a-page) from either a console or when editing an individual page. Information about whether a page is locked is also shown in both locations.
+You can [lock/unlock a page](/help/sites/classic-ui-authoring/using/classic-page-author-edit-content.md#locking-a-page) from either a console or when editing an individual page. Information about whether a page is locked is also shown in both locations.
 
 ### Creating a New Folder {#creating-a-new-folder}
 

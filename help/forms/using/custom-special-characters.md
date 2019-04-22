@@ -24,8 +24,8 @@ For example, you can insert the following special characters:
 
 You can insert special characters in letters:
 
-* In the [text editor](../../forms/using/document-fragments.md#createtext)
-* In an [editable, inline module in a correspondence](../../forms/using/create-correspondence.md#managecontent)
+* In the [text editor](/help/forms/using/document-fragments.md#createtext)
+* In an [editable, inline module in a correspondence](/help/forms/using/create-correspondence.md#managecontent)
 
 ![](assets/specialcharactersinlinemodule.png)
 

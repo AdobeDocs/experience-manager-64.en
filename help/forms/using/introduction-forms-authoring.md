@@ -18,7 +18,7 @@ discoiquuid: c7a1d13e-cb61-4082-8ae7-7f5eee9e0a51
 Adaptive forms allow you to create forms that are engaging, responsive, dynamic, and adaptive. AEM Forms provides an intuitive user interface and out-of-the-box components for creating and working with adaptive forms. You can choose to create an adaptive form based on a form model or schema or without a form model. It is important to carefully choose the form model that not only suits your requirements but extends your existing infrastructural investments and assets. You get to choose from the following options to create an adaptive form:
 
 * **Using a form data model** 
-  [Data integration](../../forms/using/data-integration.md) lets you integrate entities and services from disparate data sources in to a form data model that you can use to create adaptive forms. Choose form data model if the adaptive form you are creating involves fetching and write data from and to multiple data source. 
+  [Data integration](/help/forms/using/data-integration.md) lets you integrate entities and services from disparate data sources in to a form data model that you can use to create adaptive forms. Choose form data model if the adaptive form you are creating involves fetching and write data from and to multiple data source. 
 
 * **Using an XDP Form Template** 
   It is an ideal form model if you have investments in XFA-based or XDP forms. It provides a direct way to convert your XFA-based forms into adaptive forms. Any existing XFA rules are retained in the associated adaptive forms. The resulting adaptive forms support XFA constructs, such as validations, events, properties, and patterns.
@@ -29,7 +29,7 @@ Adaptive forms allow you to create forms that are engaging, responsive, dynamic,
 * **Using none or without a form model  
   **Adaptive forms created with this option don't use any form model. The data XML generated from such forms has flat structure with fields and corresponding values.
 
-For more information about creating an adaptive form, see [Creating an adaptive form](../../forms/using/creating-adaptive-form.md).
+For more information about creating an adaptive form, see [Creating an adaptive form](/help/forms/using/creating-adaptive-form.md).
 
 ## Adaptive form authoring UI {#adaptive-form-authoring-ui}
 
@@ -105,7 +105,7 @@ The sidebar comprises the following browsers:
   </tr> 
   <tr> 
    <td>Captcha</td> 
-   <td>Adds CAPTCHA validation using Google reCAPTCHA service. For details, see <a href="../../forms/using/captcha-adaptive-forms.md" target="_blank">Using CAPTCHA in adaptive forms</a>.</td> 
+   <td>Adds CAPTCHA validation using Google reCAPTCHA service. For details, see <a href="/help/forms/using/captcha-adaptive-forms.md" target="_blank">Using CAPTCHA in adaptive forms</a>.</td> 
   </tr> 
   <tr> 
    <td>Chart</td> 
@@ -292,7 +292,7 @@ Some best practices and key points to remember when working with adaptive form c
 
 * To enable users to attach a PDF using Safari browser, ensure that **application/pdf** is added to the Supported File Types property of the File attachment component. Adaptive forms created with previous AEM Forms version may contain **.pdf** instead of **application/pdf** in the Supported File Types property.
 
-For more best practices around adaptive forms, see [Best practices for working with adaptive forms](../../forms/using/adaptive-forms-best-practices.md).
+For more best practices around adaptive forms, see [Best practices for working with adaptive forms](/help/forms/using/adaptive-forms-best-practices.md).
 
 >[!NOTE]
 >
@@ -340,7 +340,7 @@ E. **Insert**: Lets you insert a component above the selected component.
 
 F. **Paste**: Lets you paste the component you cut or copied using the options described above.
 
-G. **Edit rules**: Lets you open the rule editor. For more information, see [Rule Editor](../../forms/using/rule-editor.md).
+G. **Edit rules**: Lets you open the rule editor. For more information, see [Rule Editor](/help/forms/using/rule-editor.md).
 
 H. **Group**: Lets you select multiple components if you want to cut, copy, or paste more than one component together.
 

@@ -14,7 +14,7 @@ discoiquuid: 55667e62-a61b-4794-b292-8d54929c41ac
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 ## Page Templates for Mobile Apps {#page-templates-for-mobile-apps}
 
@@ -413,4 +413,4 @@ However, if this payload is a partial update, `package-update.json` contains onl
 
 ### The Next Steps {#the-next-steps}
 
-Once you have learnt about the Anatomy of an app, see [Single Page Applications](../../mobile/using/phonegap-single-page-applications.md).
+Once you have learnt about the Anatomy of an app, see [Single Page Applications](/help/mobile/using/phonegap-single-page-applications.md).

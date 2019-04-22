@@ -17,9 +17,9 @@ This page provides the essential information for working with the catalog featur
 
 The catalog feature, when included in a community site, allows community members to browse and select enablement resources listed in a catalog.
 
-The [ `enablement catalog` component](../../communities/using/catalog.md) allows community members to access a catalog of [enablement resources](../../communities/using/resources.md). The use of AEM tags is an important part of managing the appearance of enablement resources in a catalog.
+The [ `enablement catalog` component](/help/communities/using/catalog.md) allows community members to access a catalog of [enablement resources](/help/communities/using/resources.md). The use of AEM tags is an important part of managing the appearance of enablement resources in a catalog.
 
-See [Tagging Enablement Resources](../../communities/using/tag-resources.md).
+See [Tagging Enablement Resources](/help/communities/using/tag-resources.md).
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
@@ -30,11 +30,11 @@ See [Tagging Enablement Resources](../../communities/using/tag-resources.md).
    <td>social/enablement/components/hbs/catalog</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.enablement.hbs.breadcrumbs<br /> cq.social.enablement.hbs.catalog<br /> cq.social.enablement.hbs.resource<br /> cq.social.enablement.hbs.learningpath</td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ See [Tagging Enablement Resources](../../communities/using/tag-resources.md).
   </tr> 
   <tr> 
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/catalog.md">Catalog Feature</a></td> 
+   <td>see <a href="/help/communities/using/catalog.md">Catalog Feature</a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,16 +56,16 @@ See [Tagging Enablement Resources](../../communities/using/tag-resources.md).
 
 ### Catalog Function {#catalog-function}
 
-A community site structure that includes the [Catalog function](../../communities/using/functions.md#catalog-function), includes a configured `enablement catalog` component.
+A community site structure that includes the [Catalog function](/help/communities/using/functions.md#catalog-function), includes a configured `enablement catalog` component.
 
 ### Pre-Filters {#pre-filters}
 
 When a Catalog function has been added to a community site, it is possible to restrict the enablement resources and learning paths which appear in the catalog by specifying a pre-filter. This is done by setting properties on the instance of the catalog resource for the site.
 
-Using the example of the [Enablement Tutorial](../../communities/using/getting-started-enablement.md):
+Using the example of the [Enablement Tutorial](/help/communities/using/getting-started-enablement.md):
 
 * on author
-* using [CRXDE](../../sites/developing/using/developing-with-crxde-lite.md)
+* using [CRXDE](/help/sites/developing/using/developing-with-crxde-lite.md)
 
     * such as [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 
@@ -102,7 +102,7 @@ Using the example of the [Enablement Tutorial](../../communities/using/getting-s
 
 #### Pre-filter TagIDs {#pre-filter-tagids}
 
-The pre-filter [TagIDs](../../sites/developing/using/framework.md#tagid) must exactly match the tags applied to the enablement resources. These are visible in the `resources` folder for the site as the values of the property `se_resource-tags`.
+The pre-filter [TagIDs](/help/sites/developing/using/framework.md#tagid) must exactly match the tags applied to the enablement resources. These are visible in the `resources` folder for the site as the values of the property `se_resource-tags`.
 
 ![](assets/chlimage_1-190.png) 
 

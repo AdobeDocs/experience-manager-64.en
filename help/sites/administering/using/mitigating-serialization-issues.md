@@ -23,7 +23,7 @@ NotSoSerial is a Java level solution to a Java level problem and is not AEM spec
 
 By default, the agent will perform a blacklist check against current known vulnerable classes. This blacklist is intended to protect you from the current list of exploits that use this type of vulnerability.
 
-The blacklist and whitelist can be configured by following the instructions in the [Configuring the Agent](../../../sites/administering/using/mitigating-serialization-issues.md#configuring-the-agent) section of this article.
+The blacklist and whitelist can be configured by following the instructions in the [Configuring the Agent](/help/sites/administering/using/mitigating-serialization-issues.md#configuring-the-agent) section of this article.
 
 The agent is intended to help mitigate the latest known vulnerable classes. If your project is deserializing untrusted data, it may still be vulnerable to denial of service attacks, out of memory attacks, and unknown future deserialization exploits.  
   
@@ -133,7 +133,7 @@ In order to load the agent manually, follow the below instructions:
 
 1. Stop and restart the JVM;  
 
-1. Verify the agent's activation again by following the steps described above in [Verifying The Agent's Activation](../../../sites/administering/using/mitigating-serialization-issues.md#verifying-the-agent-s-activation).
+1. Verify the agent's activation again by following the steps described above in [Verifying The Agent's Activation](/help/sites/administering/using/mitigating-serialization-issues.md#verifying-the-agent-s-activation).
 
 ## Other Considerations {#other-considerations}
 

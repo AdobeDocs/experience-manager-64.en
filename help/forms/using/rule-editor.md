@@ -27,7 +27,7 @@ The rule editor provides an intuitive and simplified user interface to write rul
 * Invoke a form data model service and perform an operation
 * Set property of an object
 
-Rule editor replaces the scripting capabilities in AEM 6.1 Forms and earlier releases. However, your existing scripts are preserved in the new rule editor. For more information about working with existing scripts in the rule editor, see [Impact of rule editor on existing scripts](../../forms/using/rule-editor.md#p-impact-of-rule-editor-on-existing-scripts-p).
+Rule editor replaces the scripting capabilities in AEM 6.1 Forms and earlier releases. However, your existing scripts are preserved in the new rule editor. For more information about working with existing scripts in the rule editor, see [Impact of rule editor on existing scripts](/help/forms/using/rule-editor.md#p-impact-of-rule-editor-on-existing-scripts-p).
 
 Users added to the forms-power-users group can create new scripts and edit existing ones. Users in the forms-users group can use the scripts but not create or edit scripts.
 
@@ -51,11 +51,11 @@ The Show, Hide, Enable, Disable, Set Value Of, and Validate rule types in rule e
 >
 >The available rule types, including conditions and actions that you define in rule editor, also depend on the type of form object on which you are creating a rule. The rule editor displays only valid rule types and options for writing condition and action statements for a particular form object type. For example, you do not see Validate, Set Value Of, Enable, and Disable rule types for a panel object.
 
-For more information about rule types available in the rule editor, see [Available rule types in rule editor](../../forms/using/rule-editor.md#p-available-rule-types-in-rule-editor-p).
+For more information about rule types available in the rule editor, see [Available rule types in rule editor](/help/forms/using/rule-editor.md#p-available-rule-types-in-rule-editor-p).
 
 ### Guidelines for choosing a rule construct {#guidelines-for-choosing-a-rule-construct}
 
-While you can achieve most of the use cases by using any rule construct, here are some guidelines to choose one construct over another. For more information about the available rules in rule editor, see [Available rule types in rule editor](../../forms/using/rule-editor.md#p-available-rule-types-in-rule-editor-p).
+While you can achieve most of the use cases by using any rule construct, here are some guidelines to choose one construct over another. For more information about the available rules in rule editor, see [Available rule types in rule editor](/help/forms/using/rule-editor.md#p-available-rule-types-in-rule-editor-p).
 
 * A typical rule of the thumb when creating a rule is to think about it in the context of the object on which you are writing a rule. Consider that you want to hide or show the field B based on the value a user specifies in the field A. In this case, you are evaluating a condition on field A, and based on the value it returns, you are triggering an action on field B.
 
@@ -88,7 +88,7 @@ The rule editor provides the following logical operators and events using which 
 
 ## Available rule types in rule editor {#available-rule-types-in-rule-editor}
 
-The rule editor provides a set of predefined rule types that you can use to write rules. Let's look at each rule type in detail. For more information about writing rules in rule editor, see [Write rules](../../forms/using/rule-editor.md#p-write-rules-p).
+The rule editor provides a set of predefined rule types that you can use to write rules. Let's look at each rule type in detail. For more information about writing rules in rule editor, see [Write rules](/help/forms/using/rule-editor.md#p-write-rules-p).
 
 ### When {#when}
 
@@ -132,11 +132,11 @@ While writing a When rule, you can trigger the Clear Value Of action. Clear Valu
 
 In addition to form data model service, you can specify a direct WSDL URL to invoke a web service. However, a form data model service has many benefits and the recommended approach to invoke a service.
 
-For more information about configuring services in form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+For more information about configuring services in form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
 **Set value of** Computes and sets the value of the specified object. You can set the object value to a string, the value of another object, the computed value using mathematical expression or function, the value of a property of an object, or the output value from a configured form data model service. When you choose the web service option, it displays all services configured in all form data models on your AEM instance. On choosing a form data model service, additional fields appear where you can map form objects with input and output parameters for the specified service.
 
-For more information about configuring services in form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+For more information about configuring services in form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
 **Set property** Sets the value of a property of the specified object.
 
@@ -277,7 +277,7 @@ To launch the rule editor user interface:
 
    ![](assets/create-rules.png)
 
-   Any existing rules on the selected form objects are listed in this view. For information about managing existing rules, see [Manage rules](../../forms/using/rule-editor.md#p-manage-rules-p).
+   Any existing rules on the selected form objects are listed in this view. For information about managing existing rules, see [Manage rules](/help/forms/using/rule-editor.md#p-manage-rules-p).
 
 1. Tap **[!UICONTROL Create]** to write a new rule. The visual editor of the rule editor user interface opens by default when you launch the rule editor the first time.
    [ ![Rule Editor UI](assets/rule-editor-ui.png)
@@ -298,7 +298,7 @@ The Form Objects tab shows a hierarchical view of all objects contained in the a
 
 The form objects that have one or more valid rules applied are marked with a Green dot. If any of the rules applied to a form object is invalid, the form object is marked with a Yellow dot.
 
-The Functions tab includes a set of built-in functions, such as Sum Of, Min Of, Max Of, Average Of, Number Of, and Validate Form. You can use these functions to compute values in repeatable panels and table rows and use them in action and condition statements when writing rules. You can, however, create [custom functions](../../forms/using/rule-editor.md#custom-functions) too.
+The Functions tab includes a set of built-in functions, such as Sum Of, Min Of, Max Of, Average Of, Number Of, and Validate Form. You can use these functions to compute values in repeatable panels and table rows and use them in action and condition statements when writing rules. You can, however, create [custom functions](/help/forms/using/rule-editor.md#custom-functions) too.
 
 ![The Functions tab](assets/functions.png)
 
@@ -306,7 +306,7 @@ The Functions tab includes a set of built-in functions, such as Sum Of, Min Of, 
 >
 >You can perform text search on objects and functions names and titles in Forms Objects and Functions tabs.
 
-In the left tree of the form objects, you can tap the form objects to display the rules applied to each of the objects. Not only you can navigate through the rules of the various form objects, you can also copy-paste rules between the form objects. For more information, see [Copy-paste rules](../../forms/using/rule-editor.md#p-copy-paste-rules-p).
+In the left tree of the form objects, you can tap the form objects to display the rules applied to each of the objects. Not only you can navigate through the rules of the various form objects, you can also copy-paste rules between the form objects. For more information, see [Copy-paste rules](/help/forms/using/rule-editor.md#p-copy-paste-rules-p).
 
 ### C. Form objects and functions toggle <br> {#c-form-objects-and-functions-toggle-br}
 
@@ -316,7 +316,7 @@ The toggle button, when tapped, toggles the form objects and functions pane.
 
 Visual rule editor is the area in the visual editor mode of the rule editor user interface where you write rules. It allows you to select a rule type and accordingly define conditions and actions. When defining conditions and actions in a rule, you can drag-drop form objects and functions from the Form Objects and Functions pane.
 
-For more information about using visual rule editor, see [Write rules](../../forms/using/rule-editor.md#p-write-rules-p).
+For more information about using visual rule editor, see [Write rules](/help/forms/using/rule-editor.md#p-write-rules-p).
 
 ### E. Visual-code editors switcher {#e-visual-code-editors-switcher}
 
@@ -332,7 +332,7 @@ AEM Forms tracks the rule editor mode you used last to write a rule. When you la
 
 ### F. Done and cancel buttons {#f-done-and-cancel-buttons}
 
-The **[!UICONTROL Done]** button is used to save a rule. You can save an incomplete rule. However, incomplete are invalid and don't execute. Saved rules on a form object are listed when you launch the rule editor next time from the same form object. You can manage existing rules in that view. For more information, see [Manage rules](../../forms/using/rule-editor.md#p-manage-rules-p).
+The **[!UICONTROL Done]** button is used to save a rule. You can save an incomplete rule. However, incomplete are invalid and don't execute. Saved rules on a form object are listed when you launch the rule editor next time from the same form object. You can manage existing rules in that view. For more information, see [Manage rules](/help/forms/using/rule-editor.md#p-manage-rules-p).
 
 The **[!UICONTROL Cancel]** button discards any changes you made to a rule and closes the rule editor.
 
@@ -473,7 +473,7 @@ Users added to the forms-power-users group can use code editor. The rule editor 
 
 The code editor JavaScript is the expression language of adaptive forms. All the expressions are valid JavaScript expressions and use adaptive forms scripting model APIs. These expressions return values of certain types. For the complete list of adaptive forms classes, events, objects, and public APIs, see [JavaScript Library API reference for adaptive forms](https://helpx.adobe.com/aem-forms/6-2/javascript-api/index.html).
 
-For more information about guidelines to write rules in the code editor, see [Adaptive Form Expressions](../../forms/using/adaptive-form-expressions.md).
+For more information about guidelines to write rules in the code editor, see [Adaptive Form Expressions](/help/forms/using/adaptive-form-expressions.md).
 
 While writing JavaScript code in the rule editor, the following visual cues help you with the structure and syntax:
 
@@ -545,7 +545,7 @@ For example, you want to add a custom function which calculates area of a square
 
 Perform the following steps to create a client library and add it in the CRX repository.
 
-1. Create a client library. For more information, see [Using Client-Side Libraries](../../sites/developing/using/clientlibs.md). 
+1. Create a client library. For more information, see [Using Client-Side Libraries](/help/sites/developing/using/clientlibs.md). 
 1. In CRXDE, add a property `categories`with string type value as `customfunction` to the `clientlib` folder.
 
    >[!NOTE]
@@ -659,7 +659,7 @@ To copy-paste rules, do the following:
 
    ![](assets/copyrule.png)
 
-   For information about managing existing rules, see [Manage rules](../../forms/using/rule-editor.md#p-manage-rules-p).
+   For information about managing existing rules, see [Manage rules](/help/forms/using/rule-editor.md#p-manage-rules-p).
 
 1. Select the check box next to the rule title. Additional options to manage the rule appear. Tap **Copy**.
 

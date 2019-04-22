@@ -16,7 +16,7 @@ legacypath: /content/docs/en/aem/6-0/develop/mobile/responsive
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Design your web pages so that they adapt to the client viewport in which they are displayed. With responsive design, the same pages can be effectively displayed on multiple devices in both orientations. The following image demonstrates some ways in which a page can respond to changes in viewport size:
 
@@ -38,9 +38,9 @@ Develop Adobe Experience Manager (AEM) applications that generate HTML5 pages th
 
 See the following topics for information about implementing responsive design behavior:
 
-* [Media queries](../../../sites/developing/using/responsive.md#using-media-queries)
-* [Fluid grids](../../../sites/developing/using/responsive.md#developing-a-fluid-grid)
-* [Adaptive images](../../../sites/developing/using/responsive.md#using-adaptive-images)
+* [Media queries](/help/sites/developing/using/responsive.md#using-media-queries)
+* [Fluid grids](/help/sites/developing/using/responsive.md#developing-a-fluid-grid)
+* [Adaptive images](/help/sites/developing/using/responsive.md#using-adaptive-images)
 
 As you design, use Sidekick to preview your pages for various screen sizes.
 
@@ -182,9 +182,9 @@ To see an example, open the /apps/weretail/components/page/head.jsp file in CRXD
 
 To enable the device simulator to support your pages, register your page components with the MobileEmulatorProvider factory service and define the `mobile.resourceTypes` property.
 
-When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details.
+When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details.
 
-For example, to create a ` [sling:OsgiConfig](../../../sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository)` node in your application:
+For example, to create a ` [sling:OsgiConfig](/help/sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository)` node in your application:
 
 * Parent folder: `/apps/application_name/config`
 * Name: `com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider-*alias*`  
@@ -217,7 +217,7 @@ For example, the root page of the Geometrixx Media site is `/content/geometrixx-
 * Type: `String[]`
 * Value: `/etc/mobile/groups/responsive`
 
-Use the Tools conosole to [create and edit device groups](../../../sites/developing/using/groupfilters.md).
+Use the Tools conosole to [create and edit device groups](/help/sites/developing/using/groupfilters.md).
 
 >[!NOTE]
 >
@@ -289,7 +289,7 @@ Obtain the following javascript libraries and include them in a client library f
 * jquery.js (avaliable via the /etc/clientlibs/granite/jquery client library folder (category = jquery)
 * [jquery.debouncedresize.js](https://github.com/louisremi/jquery-smartresize) (a jquery event that occurs once after the window is resized)
 
-**Tip:** You can automatically concatenate multiple client library folders by [embedding](../../../sites/developing/using/clientlibs.md#embedding-code-from-other-libraries).
+**Tip:** You can automatically concatenate multiple client library folders by [embedding](/help/sites/developing/using/clientlibs.md#embedding-code-from-other-libraries).
 
 **HTML**
 
@@ -459,7 +459,7 @@ The numeric values are 0.4, 0.82, and 1.0, respectively.
 
 Use the Web Console ([http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)) or a sling:OsgiConfig node to configure the supported widths of the Adobe CQ Adaptive Image Component Servlet.
 
-For information about how to configure AEM services, see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md).
+For information about how to configure AEM services, see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md).
 
 <table> 
  <tbody> 
@@ -575,7 +575,7 @@ The following values for image quality are supported:
 * medium
 * high
 
-When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details.
+When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details.
 
 #### Specifying the image resource {#specifying-the-image-resource}
 
@@ -644,7 +644,7 @@ The `ImageReferenceModificationServlet` class overrides the `createLayer` method
 
 AEM enables you to efficiently and effectively implement fluid grids. This page explains how you can integrate your fluid grid or an existing grid implementation (such as [Bootstrap](https://twitter.github.com/bootstrap/)) into your AEM application.
 
-If you are not familiar with fluid grids, see the [Introduction to Fluid Grids](../../../sites/developing/using/responsive.md#developing-a-fluid-grid) section at the bottom of this page. This introduction provides an overview of fluid grids and guidance for designing them.
+If you are not familiar with fluid grids, see the [Introduction to Fluid Grids](/help/sites/developing/using/responsive.md#developing-a-fluid-grid) section at the bottom of this page. This introduction provides an overview of fluid grids and guidance for designing them.
 
 ### Defining the Grid Using a Page Component {#defining-the-grid-using-a-page-component}
 
@@ -770,7 +770,7 @@ When components generate a single block of content, generally the grid that the 
 
 Authors should be aware that the content block can be rendered in various sizes and relative positions. Content text should not use relative directions to refer to other content blocks.
 
-If necessary, the component should provide any CSS or javascript libraries that are required for the HTML code that it generates. Use a client library folder inside the component to generate the CSS and JS files. To expose the files, [create a dependency or embed the library](../../../sites/developing/using/clientlibs.md#creating-client-library-folders) in another client library folder below the /etc folder.
+If necessary, the component should provide any CSS or javascript libraries that are required for the HTML code that it generates. Use a client library folder inside the component to generate the CSS and JS files. To expose the files, [create a dependency or embed the library](/help/sites/developing/using/clientlibs.md#creating-client-library-folders) in another client library folder below the /etc folder.
 
 **Sub-grids**
 

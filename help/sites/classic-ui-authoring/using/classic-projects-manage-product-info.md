@@ -24,5 +24,5 @@ In particular, Creative Project streamlines the entire photo shoot workflow that
 
 >[!NOTE]
 >
->Projects are not available in classic UI. See [Projects](../../../sites/authoring/using/projects.md) in the standard authoring documentation for details.
+>Projects are not available in classic UI. See [Projects](/help/sites/authoring/using/projects.md) in the standard authoring documentation for details.
 

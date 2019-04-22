@@ -13,7 +13,7 @@ discoiquuid: 237b8cc6-158e-4c51-970d-4c9cc74f6496
 
 # Creating a Language Root Using the Classic UI{#creating-a-language-root-using-the-classic-ui}
 
-The following procedure uses the classic UI to create a language root of a site. For more information, see [Creating a Language Root](../../../sites/administering/using/tc-prep.md#creating-a-language-root).
+The following procedure uses the classic UI to create a language root of a site. For more information, see [Creating a Language Root](/help/sites/administering/using/tc-prep.md#creating-a-language-root).
 
 1. In the Websites console, in the Websites tree, select the root page of the site. ([http://localhost:4502/siteadmin#](http://localhost:4502/siteadmin#))
 1. Add a new child page that represents the language version of the site:

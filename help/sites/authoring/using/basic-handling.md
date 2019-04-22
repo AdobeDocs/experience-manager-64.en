@@ -18,7 +18,7 @@ discoiquuid: 616d42c8-2316-4c56-b89f-660903270620
 >* This page is designed to give an overview of basic handling when using the AEM author environment. It uses the **Sites** console as a basis.  
 >
 >* Some functionality is not available in all consoles and additional functionality may be available in some consoles. Specific information about the individual consoles and their related functionality will be covered in more detail on other pages.
->* Keyboard shortcuts are available throughout AEM. In particular when [using consoles](../../../sites/authoring/using/keyboard-shortcuts.md) and [editing pages](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md).  
+>* Keyboard shortcuts are available throughout AEM. In particular when [using consoles](/help/sites/authoring/using/keyboard-shortcuts.md) and [editing pages](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md).  
 >
 
 ## Getting Started {#getting-started}
@@ -29,7 +29,7 @@ AEM's user interface has been enabled for touch. A touch-enabled interface allow
 
 ### First Steps {#first-steps}
 
-Immediately after logging in you arrive on the [Navigation panel](../../../sites/authoring/using/basic-handling.md#global-navigation). This will be discussed in more detail in a following section.
+Immediately after logging in you arrive on the [Navigation panel](/help/sites/authoring/using/basic-handling.md#global-navigation). This will be discussed in more detail in a following section.
 
 ![](assets/screen_shot_2018-03-23at102603.png)
 
@@ -84,15 +84,15 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Communities</td> 
-   <td>This console allows you to create and manage <a href="../../../communities/using/sites-console.md">community sites</a> for <a href="../../../communities/using/overview.md#engagement-community">engagement</a> and <a href="../../../communities/using/overview.md#enablement-community">enablement</a>.</td> 
+   <td>This console allows you to create and manage <a href="/help/communities/using/sites-console.md">community sites</a> for <a href="/help/communities/using/overview.md#engagement-community">engagement</a> and <a href="/help/communities/using/overview.md#enablement-community">enablement</a>.</td> 
   </tr>
   <tr>
    <td>Commerce</td> 
-   <td>This allows you to manage products, product catalogs and orders related to your <a href="../../../sites/administering/using/ecommerce.md">Commerce</a> sites.</td> 
+   <td>This allows you to manage products, product catalogs and orders related to your <a href="/help/sites/administering/using/ecommerce.md">Commerce</a> sites.</td> 
   </tr>
   <tr>
    <td>Experience Fragments</td> 
-   <td>An <a href="../../../sites/authoring/using/experience-fragments.md">experience fragment</a> is a stand-alone experience that can be re-used across channels and have variations, saving the trouble of repeatedly copying and pasting experiences or parts of experiences.</td> 
+   <td>An <a href="/help/sites/authoring/using/experience-fragments.md">experience fragment</a> is a stand-alone experience that can be re-used across channels and have variations, saving the trouble of repeatedly copying and pasting experiences or parts of experiences.</td> 
   </tr>
   <tr>
    <td>Forms</td> 
@@ -100,24 +100,24 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Personalization</td> 
-   <td>This console provides a <a href="../../../sites/authoring/using/personalization.md">framework of tools for authoring targeted content and presenting personalized experiences</a>.</td> 
+   <td>This console provides a <a href="/help/sites/authoring/using/personalization.md">framework of tools for authoring targeted content and presenting personalized experiences</a>.</td> 
   </tr>
   <tr>
    <td>Projects</td> 
-   <td>The <a href="../../../sites/authoring/using/touch-ui-managing-projects.md">Projects console gives you direct access to your projects</a>. Projects are virtual dashboards. They can be used to build a team, then give that team access to resources, workflows and tasks, allowing people to work on a common goal. <br /> </td> 
+   <td>The <a href="/help/sites/authoring/using/touch-ui-managing-projects.md">Projects console gives you direct access to your projects</a>. Projects are virtual dashboards. They can be used to build a team, then give that team access to resources, workflows and tasks, allowing people to work on a common goal. <br /> </td> 
   </tr>
   <tr>
    <td>Screens</td> 
-   <td><a href="../../../screens/using/authoring-screens.md">Screens</a> will allow you to manage all your customer-facing screens, of any size and in any location.</td> 
+   <td><a href="/help/screens/using/authoring-screens.md">Screens</a> will allow you to manage all your customer-facing screens, of any size and in any location.</td> 
   </tr>
   <tr>
    <td>Sites</td> 
-   <td>The Sites consoles let you <a href="../../../sites/authoring/using/page-authoring.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
+   <td>The Sites consoles let you <a href="/help/sites/authoring/using/page-authoring.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
   </tr>
  </tbody>
 </table>
 
-1. In the Tools panel, each option in the side panel contains a range of sub-menus. The [Tools consoles](../../../sites/administering/using/tools-consoles.md) available here provide access to a number of specialized tools and consoles that help you administer your websites, digital assets and other aspects of your content repository.
+1. In the Tools panel, each option in the side panel contains a range of sub-menus. The [Tools consoles](/help/sites/administering/using/tools-consoles.md) available here provide access to a number of specialized tools and consoles that help you administer your websites, digital assets and other aspects of your content repository.
 
    ![](assets/screen_shot_2018-03-23at103406.png)
 
@@ -133,11 +133,11 @@ The header is always present at the top of the screen. While most options in the
 
   ![](assets/screen_shot_2018-03-23at103615.png)
 
-* [Search](../../../sites/authoring/using/search.md)
+* [Search](/help/sites/authoring/using/search.md)
 
   ![](do-not-localize/screen_shot_2018-03-23at103542.png)
 
-  You can also use the [shortcut key](../../../sites/authoring/using/keyboard-shortcuts.md) `/` (forward slash) to invoke search from any console.
+  You can also use the [shortcut key](/help/sites/authoring/using/keyboard-shortcuts.md) `/` (forward slash) to invoke search from any console.
 
 * [Help](#accessing-help)
 
@@ -147,7 +147,7 @@ The header is always present at the top of the screen. While most options in the
 
   ![](do-not-localize/screen_shot_2018-03-23at103552.png)
 
-* [Notifications](../../../sites/authoring/using/inbox.md)
+* [Notifications](/help/sites/authoring/using/inbox.md)
 
   ![](do-not-localize/screen_shot_2018-03-23at103558.png)
 
@@ -155,13 +155,13 @@ The header is always present at the top of the screen. While most options in the
 
   >[!NOTE]
   >
-  >Out-of-the-box AEM comes pre-loaded with administrative tasks assigned to the administrator user group. See [Your Inbox - Out-of-the-Box Administrative Tasks](../../../sites/authoring/using/inbox.md#out-of-the-box-administrative-tasks) for details.
+  >Out-of-the-box AEM comes pre-loaded with administrative tasks assigned to the administrator user group. See [Your Inbox - Out-of-the-Box Administrative Tasks](/help/sites/authoring/using/inbox.md#out-of-the-box-administrative-tasks) for details.
 
-* [User Properties](../../../sites/authoring/using/user-properties.md)
+* [User Properties](/help/sites/authoring/using/user-properties.md)
 
   ![](do-not-localize/screen_shot_2018-03-23at103603.png)
 
-* [Rail selector](../../../sites/authoring/using/basic-handling.md#rail-selector)
+* [Rail selector](/help/sites/authoring/using/basic-handling.md#rail-selector)
 
   ![](do-not-localize/screen_shot_2018-03-23at103943.png)
 
@@ -191,7 +191,7 @@ The header is always present at the top of the screen. While most options in the
 
   Once clicked, the options displayed are appropriate to the console/context.
 
-* [Views](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
+* [Views](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
   ![](do-not-localize/screen_shot_2018-03-23at104310.png)
 
@@ -211,7 +211,7 @@ There are various help resources available:
 
 * **Navigation**
 
-  The first time you navigate the system, [a series of slides introduce AEM navigation](../../../sites/authoring/using/basic-handling.md#product-navigation).
+  The first time you navigate the system, [a series of slides introduce AEM navigation](/help/sites/authoring/using/basic-handling.md#product-navigation).
 
 * **Page Editor**
 
@@ -219,9 +219,9 @@ There are various help resources available:
 
   ![](assets/chlimage_1-360.png)
 
-  Navigate this overview as you would the [product navigation overview](../../../sites/authoring/using/basic-handling.md#product-navigation) when first accessing any console.
+  Navigate this overview as you would the [product navigation overview](/help/sites/authoring/using/basic-handling.md#product-navigation) when first accessing any console.
 
-  From the [**Page Information** menu you can select **Help**](../../../sites/authoring/using/author-environment-tools.md#accessing-help) to show this again at any time.
+  From the [**Page Information** menu you can select **Help**](/help/sites/authoring/using/author-environment-tools.md#accessing-help) to show this again at any time.
 
 * **Tools Console**
 
@@ -242,8 +242,8 @@ There are various help resources available:
   >
   >    
   >    
-  >    * [Keyboard shortcuts for editing pages](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md)
-  >    * [Keyboard shortcuts for consoles](../../../sites/authoring/using/keyboard-shortcuts.md)
+  >    * [Keyboard shortcuts for editing pages](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md)
+  >    * [Keyboard shortcuts for consoles](/help/sites/authoring/using/keyboard-shortcuts.md)
   >    
   >
 
@@ -257,7 +257,7 @@ Whenever a resource is selected (e.g. a page or an asset), various actions are i
 
 The action available in the toolbar change to reflect the actions you can take on the specific items selected.
 
-How you [select a resource](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) depends on the view.
+How you [select a resource](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) depends on the view.
 
 Due to the space restrictions in some windows, the toolbar can quickly become longer than the space available. When this happens** **additional options appears. Clicking or tapping on the ellipsis (the three dots or** ...**) opens a drop down selector holding all remaining actions. For example, after selecting a page in the **Sites** console:
 
@@ -409,20 +409,20 @@ Selecting a resource in the leftmost column will display the child resources in 
     * If the page is locked, hidden or part of a livecopy.  
     * If appropriate, when you are required to take action as part of a workflow.
 
-        * Markers that indicate required actions may be related to entries in your [Inbox](../../../sites/authoring/using/inbox.md).
+        * Markers that indicate required actions may be related to entries in your [Inbox](/help/sites/authoring/using/inbox.md).
 
 * [Quick actions](#quick-actions) are also available in this view such as selection and common actions such as edit.
 
   ![](assets/screen_shot_2018-03-23at104953-1.png)
 
-* You can navigate down the tree by tapping/clicking on cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](../../../sites/authoring/using/basic-handling.md#the-header).
+* You can navigate down the tree by tapping/clicking on cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](/help/sites/authoring/using/basic-handling.md#the-header).
 
 ### List View {#list-view}
 
 ![](assets/screen_shot_2018-03-23at105824.png)
 
 * The list view lists information for each resource at the current level.
-* You can navigate down through the tree by tapping/clicking on the resource name and back up by using the [breadcrumbs in the header](../../../sites/authoring/using/basic-handling.md#the-header).  
+* You can navigate down through the tree by tapping/clicking on the resource name and back up by using the [breadcrumbs in the header](/help/sites/authoring/using/basic-handling.md#the-header).  
 
 * To easily select all items in the list, use the checkbox at the top-left of the list.
 
@@ -477,7 +477,7 @@ If content only is selected, then only the rail icon appears. When any other opt
 
 >[!NOTE]
 >
->[Keyboard shortcuts](../../../sites/authoring/using/keyboard-shortcuts.md) are available to quickly switch between rail display options.
+>[Keyboard shortcuts](/help/sites/authoring/using/keyboard-shortcuts.md) are available to quickly switch between rail display options.
 
 ### Content tree {#content-tree}
 
@@ -491,7 +491,7 @@ Using the content tree side panel in conjunction with a list view or cards view,
 >
 >Once an entry in the hierarchy view is selected, arrow keys can be used to quickly navigate the hierarchy.
 >
->Refer to the [keyboard shortcuts](../../../sites/authoring/using/keyboard-shortcuts.md) for more information.
+>Refer to the [keyboard shortcuts](/help/sites/authoring/using/keyboard-shortcuts.md) for more information.
 
 ### Timeline {#timeline}
 
@@ -506,11 +506,11 @@ The timeline column allows you to:
         * Comments
         * Annotations
         * Activities
-        * [Launches](../../../sites/authoring/using/launches.md)
-        * [Versions](../../../sites/authoring/using/working-with-page-versions.md)
-        * [Workflows](../../../sites/authoring/using/workflows-applying.md)
+        * [Launches](/help/sites/authoring/using/launches.md)
+        * [Versions](/help/sites/authoring/using/working-with-page-versions.md)
+        * [Workflows](/help/sites/authoring/using/workflows-applying.md)
 
-            * with the exception of [transient workflows](../../../sites/developing/using/workflows.md#transient-workflows) as no history information is saved for these
+            * with the exception of [transient workflows](/help/sites/developing/using/workflows.md#transient-workflows) as no history information is saved for these
 
         * and Show All
 
@@ -518,8 +518,8 @@ The timeline column allows you to:
 
 * Specific consoles have additional functionality. For example, in the Sites console you can:
 
-    * [Save a version](../../../sites/authoring/using/working-with-page-versions.md).
-    * [Start a workflow](../../../sites/authoring/using/workflows-applying.md).
+    * [Save a version](/help/sites/authoring/using/working-with-page-versions.md).
+    * [Start a workflow](/help/sites/authoring/using/workflows-applying.md).
 
 These options accessible via the chevron next to the **Comment** field.
 
@@ -527,18 +527,18 @@ These options accessible via the chevron next to the **Comment** field.
 
 ### References {#references}
 
-**References** shows any connections to the selected resource. For example, in the **Sites** console [references](../../../sites/authoring/using/author-environment-tools.md#references) for pages shows:
+**References** shows any connections to the selected resource. For example, in the **Sites** console [references](/help/sites/authoring/using/author-environment-tools.md#references) for pages shows:
 
-* [Launches](../../../sites/authoring/using/launches.md#launches-in-references-sites-console)
-* [Live copies](../../../sites/administering/using/msm-livecopy-overview.md)
-* [Language copies](../../../sites/administering/using/tc-prep.md#seeing-the-status-of-language-roots)
+* [Launches](/help/sites/authoring/using/launches.md#launches-in-references-sites-console)
+* [Live copies](/help/sites/administering/using/msm-livecopy-overview.md)
+* [Language copies](/help/sites/administering/using/tc-prep.md#seeing-the-status-of-language-roots)
 * Content references (e.g. content borrowed and/or lent by the Reference component)
 
 ![](assets/screen_shot_2018-03-23at111122.png)
 
 ### Filter {#filter}
 
-This will open a panel similar to [search](../../../sites/authoring/using/search.md) with the appropriate location filters already set, allowing you to further filter the content you wish to view.
+This will open a panel similar to [search](/help/sites/authoring/using/search.md) with the appropriate location filters already set, allowing you to further filter the content you wish to view.
 
 ![](assets/screen_shot_2018-03-23at111509.png)
 

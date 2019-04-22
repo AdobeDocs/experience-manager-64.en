@@ -18,7 +18,7 @@ discoiquuid: 9737ead9-e324-43c9-9780-7abd292f4e5b
 >* This page is designed to give an overview of basic handling when using the AEM author environment. It uses the **Sites** console as a basis.  
 >
 >* Some functionality is not available in all consoles and/or additional functionality is available in some consoles. Specific information about the individual consoles and their related functionality will be covered in more detail on other pages.
->* Keyboard shortcuts are available throughout AEM. In particular when [using consoles](../../../sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md) and [editing pages](../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md).  
+>* Keyboard shortcuts are available throughout AEM. In particular when [using consoles](/help/sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md) and [editing pages](/help/sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md).  
 >
 
 ## The Welcome Screen {#the-welcome-screen}
@@ -45,35 +45,35 @@ The main consoles are:
   </tr> 
   <tr> 
    <td><strong>Digital Assets</strong><br /> </td> 
-   <td>These consoles let you import and <a href="../../../sites/classic-ui-authoring/using/classicui-assets.md">manage digital assets</a> such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance. </td> 
+   <td>These consoles let you import and <a href="/help/sites/classic-ui-authoring/using/classicui-assets.md">manage digital assets</a> such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance. </td> 
   </tr> 
   <tr> 
    <td><strong>Launches</strong></td> 
-   <td>This helps you manage your <a href="../../../sites/classic-ui-authoring/using/classic-launches.md">launches</a>; these enable you to develop the content for a future release of one or more activated web pages.<br /> <i>Note: In the touch-optimized UI much of the same functionality is available in the Sites console, together with the References rail.</i> <i>If required, this console is available from the Tools console; select Operations, then Launches.</i></td> 
+   <td>This helps you manage your <a href="/help/sites/classic-ui-authoring/using/classic-launches.md">launches</a>; these enable you to develop the content for a future release of one or more activated web pages.<br /> <i>Note: In the touch-optimized UI much of the same functionality is available in the Sites console, together with the References rail.</i> <i>If required, this console is available from the Tools console; select Operations, then Launches.</i></td> 
   </tr> 
   <tr> 
    <td><strong>Inbox </strong></td> 
-   <td>In many cases a number of people are involved in the sub-tasks of a workflow and each person must complete their step before handing off the work to the next person. The Inbox allows you to see notifications related to such tasks. See <a href="../../../sites/administering/using/workflows.md">Working with Workflows</a>. <br /> </td> 
+   <td>In many cases a number of people are involved in the sub-tasks of a workflow and each person must complete their step before handing off the work to the next person. The Inbox allows you to see notifications related to such tasks. See <a href="/help/sites/administering/using/workflows.md">Working with Workflows</a>. <br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Tagging</strong></td> 
-   <td>The Tagging consoles let you administer tags. Tags are short names or phrases that you can use to classify and annotate pieces of content making it easier to find and organize them. For further information see <a href="../../../sites/classic-ui-authoring/using/classic-feature-tags.md">Using and Managing Tags</a>.</td> 
+   <td>The Tagging consoles let you administer tags. Tags are short names or phrases that you can use to classify and annotate pieces of content making it easier to find and organize them. For further information see <a href="/help/sites/classic-ui-authoring/using/classic-feature-tags.md">Using and Managing Tags</a>.</td> 
   </tr> 
   <tr> 
    <td><strong>Tools</strong></td> 
-   <td>The <a href="../../../sites/administering/using/tools-consoles.md">Tools consoles</a> provide access to a number of specialized tools and consoles that help you administer your websites, digital assets and other aspects of your content repository.</td> 
+   <td>The <a href="/help/sites/administering/using/tools-consoles.md">Tools consoles</a> provide access to a number of specialized tools and consoles that help you administer your websites, digital assets and other aspects of your content repository.</td> 
   </tr> 
   <tr> 
    <td><strong>Users</strong></td> 
-   <td>These consoles let you manage access rights for users and groups. For full details see <a href="../../../sites/administering/using/security.md">User Administration and Security</a>.<br /> </td> 
+   <td>These consoles let you manage access rights for users and groups. For full details see <a href="/help/sites/administering/using/security.md">User Administration and Security</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Websites</strong></td> 
-   <td>The Sites/Websites consoles let you <a href="../../../sites/classic-ui-authoring/using/classic-page-author.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, copy, move and delete website pages, start workflows, and activate (publish) pages. You can also open a page for editing.<br /> </td> 
+   <td>The Sites/Websites consoles let you <a href="/help/sites/classic-ui-authoring/using/classic-page-author.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, copy, move and delete website pages, start workflows, and activate (publish) pages. You can also open a page for editing.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Workflows</strong></td> 
-   <td>A workflow is a defined series of steps that describes the process of completing some task. In many cases a number of people are involved in a task and each person must complete their step before handing off the work to the next person. The Workflow console lets you build workflow models and managing running workflow instances. See <a href="../../../sites/administering/using/workflows.md">Working with Workflows</a>.<br /> </td> 
+   <td>A workflow is a defined series of steps that describes the process of completing some task. In many cases a number of people are involved in a task and each person must complete their step before handing off the work to the next person. The Workflow console lets you build workflow models and managing running workflow instances. See <a href="/help/sites/administering/using/workflows.md">Working with Workflows</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ The **Websites** console provides two panes for you to navigate and manage your 
 * Right pane  
   This shows the pages (at the location selected in the left pane) and can be used for taking actions.
 
-From here you can [manage your pages](../../../sites/authoring/using/managing-pages.md) using either the toolbar, a context menu or by opening a page for further actions. [](../../../sites/classic-ui-authoring/using/classic-page-author-manage-pages.md)
+From here you can [manage your pages](/help/sites/authoring/using/managing-pages.md) using either the toolbar, a context menu or by opening a page for further actions. [](/help/sites/classic-ui-authoring/using/classic-page-author-manage-pages.md)
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ On various consoles (e.g. Websites) there is also **Help** button is available, 
 
 ![](assets/chlimage_1-10.png)
 
-When editing a page the [sidekick also has a button for accessing help](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#accessing-help).
+When editing a page the [sidekick also has a button for accessing help](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#accessing-help).
 
 ## Navigating with the Websites Console {#navigating-with-the-websites-console}
 

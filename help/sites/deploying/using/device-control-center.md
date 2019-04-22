@@ -200,7 +200,7 @@ The channels could display just some images, but they could also display an appl
 
 From the Channels console, you can preview your channel on your browser.
 
-You can also open the Channel for authoring. For more information about channels, see the [Creating and Managing Channels](../../../screens/using/managing-channels.md) page.
+You can also open the Channel for authoring. For more information about channels, see the [Creating and Managing Channels](/help/screens/using/managing-channels.md) page.
 
 ### Creating a New Channel {#creating-a-new-channel}
 

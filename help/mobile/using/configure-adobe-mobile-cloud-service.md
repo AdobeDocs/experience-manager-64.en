@@ -16,7 +16,7 @@ legacypath: /content/docs/en/aem/6-1/develop/mobile-apps/apps/managing-aem-mobil
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 The **Mobile Metrics Tile** on the command center provides real-time analytics for your mobile application.
 

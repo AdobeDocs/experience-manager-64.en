@@ -230,7 +230,7 @@ A device is added to which the backed up files will be saved. You can add multip
 
 ## Back up the EMC Documentum Content Server {#back-up-the-emc-documentum-content-server}
 
-Perform the following tasks after you complete a full backup of your AEM forms data. (See [Backing up the AEM forms data](../../../forms/using/admin-help/backing-aem-forms-data.md#backing-up-the-aem-forms-data).)
+Perform the following tasks after you complete a full backup of your AEM forms data. (See [Backing up the AEM forms data](/help/forms/using/admin-help/backing-aem-forms-data.md#backing-up-the-aem-forms-data).)
 
 >[!NOTE]
 >
@@ -245,7 +245,7 @@ Perform the following tasks after you complete a full backup of your AEM forms d
 
 ## Restore the EMC Documentum Content Server {#restore-the-emc-documentum-content-server}
 
-Perform the following tasks before you restore your AEM forms data. (See [Recovering the AEM forms data](../../../forms/using/admin-help/recovering-aem-forms-data.md#recovering-the-aem-forms-data).)
+Perform the following tasks before you restore your AEM forms data. (See [Recovering the AEM forms data](/help/forms/using/admin-help/recovering-aem-forms-data.md#recovering-the-aem-forms-data).)
 
 >[!NOTE]
 >

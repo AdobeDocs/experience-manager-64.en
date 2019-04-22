@@ -21,7 +21,7 @@ This tutorial is intended for developers who are new to AEM Screens. In this tut
 
 >[!NOTE]
 >
->Before starting this tutorial, it is recommended to complete the tutorial: [Developing a Custom Component for AEM Screens](../../screens/using/developing-custom-component-tutorial-develop.md).
+>Before starting this tutorial, it is recommended to complete the tutorial: [Developing a Custom Component for AEM Screens](/help/screens/using/developing-custom-component-tutorial-develop.md).
 
 ![Custom Poster component](assets/2018-05-07_at_4_09pm.png)
 

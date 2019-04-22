@@ -91,7 +91,7 @@ Test Suites execute sequentially in the order that they appear in the console. Y
 
 ## Creating and Using a Simple Test Suite {#creating-and-using-a-simple-test-suite}
 
-The following procedure steps you through the creation and execution of a Test Suite using [We.Retail content](../../../sites/developing/using/we-retail.md), but you can easily modify the test to use a different web page.
+The following procedure steps you through the creation and execution of a Test Suite using [We.Retail content](/help/sites/developing/using/we-retail.md), but you can easily modify the test to use a different web page.
 
 For full details about creating your own Test Suites, see the [Hobbes.js API documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/test-api/index.html).
 

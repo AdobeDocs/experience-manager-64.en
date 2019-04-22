@@ -15,7 +15,7 @@ Create Print and Web templates for Interactive Communication
 
  ![](assets/07-apply-rules-to-adaptive-form_small.png)
 
-| This tutorial is a step in the [Create your first Interactive Communication](../../forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
+| This tutorial is a step in the [Create your first Interactive Communication](/help/forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|
 
 To create an Interactive Communication, you must have templates available on the AEM server for Print and Web Channels.
@@ -34,13 +34,13 @@ This tutorial walks you through the steps to create templates for Print and Web 
 
 Create and manage template for the Print channel of Interactive Communication using the following tasks:
 
-* [Create XDP template using Forms Designer](../../forms/using/create-templates-print-web.md#create-xdp-template-using-forms-designer)
-* [Upload XDP template to the AEM Forms server](../../forms/using/create-templates-print-web.md#upload-xdp-template-to-the-aem-forms-server)
-* [Create XDP template for layout fragments](../../forms/using/create-templates-print-web.md#create-xdp-template-for-layout-fragments)
+* [Create XDP template using Forms Designer](/help/forms/using/create-templates-print-web.md#create-xdp-template-using-forms-designer)
+* [Upload XDP template to the AEM Forms server](/help/forms/using/create-templates-print-web.md#upload-xdp-template-to-the-aem-forms-server)
+* [Create XDP template for layout fragments](/help/forms/using/create-templates-print-web.md#create-xdp-template-for-layout-fragments)
 
 ### Create XDP template using Forms Designer {#create-xdp-template-using-forms-designer}
 
-Based on the [use case](../../forms/using/create-your-first-interactive-communication.md) and [anatomy](../../forms/using/planning-interactive-communications.md), create the following subforms in the XDP template:
+Based on the [use case](/help/forms/using/create-your-first-interactive-communication.md) and [anatomy](/help/forms/using/planning-interactive-communications.md), create the following subforms in the XDP template:
 
 * Bill Details: Includes a document fragment
 * Customer Details: Includes a document fragment
@@ -159,16 +159,16 @@ To create a layout fragment for the Print channel of the Interactive Communicati
     
     1. Tap **Save**.
 
-   Once you have created an XDP template for layout fragment using the Forms Designer, you must [upload](../../forms/using/create-templates-print-web.md#upload-xdp-template-to-the-aem-forms-server) it to AEM Forms server so that the template is available for use while creating layout fragments.
+   Once you have created an XDP template for layout fragment using the Forms Designer, you must [upload](/help/forms/using/create-templates-print-web.md#upload-xdp-template-to-the-aem-forms-server) it to AEM Forms server so that the template is available for use while creating layout fragments.
 
 ## Create template for Web channel {#create-template-for-web-channel}
 
 Create and manage template for the Web channel of Interactive Communication using the following tasks:
 
-* [Create folder for templates](../../forms/using/create-templates-print-web.md#create-folder-for-templates)
-* [Create the template](../../forms/using/create-templates-print-web.md#create-the-template)
-* [Enable the template](../../forms/using/create-templates-print-web.md#enable-the-template)
-* [Enabling buttons in Interactive Communications](../../forms/using/create-templates-print-web.md#enabling-buttons-in-interactive-communications)
+* [Create folder for templates](/help/forms/using/create-templates-print-web.md#create-folder-for-templates)
+* [Create the template](/help/forms/using/create-templates-print-web.md#create-the-template)
+* [Enable the template](/help/forms/using/create-templates-print-web.md#enable-the-template)
+* [Enabling buttons in Interactive Communications](/help/forms/using/create-templates-print-web.md#enabling-buttons-in-interactive-communications)
 
 ### Create folder for templates {#create-folder-for-templates}
 
@@ -186,7 +186,7 @@ Execute the following steps to create a folder for the editable templates:
 
 ### Create the template {#create-the-template}
 
-Based on the [use case](../../forms/using/create-your-first-interactive-communication.md) and [anatomy](../../forms/using/planning-interactive-communications.md), create the following panels in the Web template:
+Based on the [use case](/help/forms/using/create-your-first-interactive-communication.md) and [anatomy](/help/forms/using/planning-interactive-communications.md), create the following panels in the Web template:
 
 * Bill Details: Includes a document fragment
 * Customer Details: Includes a document fragment

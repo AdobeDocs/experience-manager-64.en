@@ -15,7 +15,7 @@ discoiquuid: 0019e367-8edc-4a23-bfa4-5beda266ace6
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 ## Building AEM components that access device features {#building-aem-components-that-access-device-features}
 
@@ -29,4 +29,4 @@ For more detail on the usage of each API, I recommend taking a look at the [Cord
 
 ## The Next Steps {#the-next-steps}
 
-See [Track App Performance with Adobe Mobile Analytics](../../mobile/using/phonegap-intro-to-app-analytics.md).
+See [Track App Performance with Adobe Mobile Analytics](/help/mobile/using/phonegap-intro-to-app-analytics.md).

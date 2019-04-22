@@ -15,18 +15,18 @@ discoiquuid: 7f31c6a7-92d5-4a87-a9f0-68a82b834d5a
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 A Template is used to create a Page and defines which components can be used within the selected scope. A template is a hierarchy of nodes that has the same structure as the page to be created, but without any actual content.
 
 Each Template will present you with a selection of components available for use.
 
-* Templates are built up of [Components](../../sites/developing/using/components.md);
+* Templates are built up of [Components](/help/sites/developing/using/components.md);
 * Components use, and allow access to, Widgets and these are used to render the Content.
 
 >[!NOTE]
 >
->To learn how to develop your AEM application using CRXDE Lite, see [Developing with CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md).
+>To learn how to develop your AEM application using CRXDE Lite, see [Developing with CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md).
 
 A template is the basis of a page.
 
@@ -54,21 +54,21 @@ This node contains *a jcr:content (cq:PageContent) *node which be used as the ba
 >
 >To learn the basics for templates and components in AEM, see the resources below:
 >
->* [Templates](../../sites/developing/using/templates.md)
->* [Components](../../sites/developing/using/components.md)
+>* [Templates](/help/sites/developing/using/templates.md)
+>* [Components](/help/sites/developing/using/components.md)
 >
 
 Once you have the basic understanding of Templates and Components, See the following resources:
 
-* [Creating and Adding Templates and Components](../../mobile/using/mobile-ondemand-app-templates.md)
-* [Using Content Properties to Export Content](../../mobile/using/on-demand-content-properties-exporting.md)
-* [Best Practices](../../mobile/using/best-practices-aem-mobile.md)
-* [Developing AEM Mobile Content Services](../../mobile/using/developing-content-services.md)
+* [Creating and Adding Templates and Components](/help/mobile/using/mobile-ondemand-app-templates.md)
+* [Using Content Properties to Export Content](/help/mobile/using/on-demand-content-properties-exporting.md)
+* [Best Practices](/help/mobile/using/best-practices-aem-mobile.md)
+* [Developing AEM Mobile Content Services](/help/mobile/using/developing-content-services.md)
 
 ### Additional Resources {#additional-resources}
 
 To learn about additional topics on mobile apps, See the links below:
 
-* [Mobile with Content Sync](../../mobile/using/mobile-ondemand-contentsync.md)
-* [Testing Mobile Apps](../../mobile/using/develop-mobile-apps-testing.md)
+* [Mobile with Content Sync](/help/mobile/using/mobile-ondemand-contentsync.md)
+* [Testing Mobile Apps](/help/mobile/using/develop-mobile-apps-testing.md)
 

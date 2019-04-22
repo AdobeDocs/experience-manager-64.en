@@ -17,7 +17,7 @@ discoiquuid: 29aab96f-cf08-4c4a-8ea5-457ca69cde3c
 >
 >Adobe will not further enhance E-mail tracking of open/bounces (not deliverable) sent by the AEM SMTP service.
 >
->Adobe's recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Adobe's recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 E-mail marketing (for example, newsletters) are an important part of any marketing campaign as you use them to push content to your leads. In AEM, you can create newsletters from existing AEM content as well as add new content, specific to the newsletters.
 
@@ -31,10 +31,10 @@ In addition, AEM lets you administer the newsletter functionality, including mai
 
 This document describes the basics of creating newsletters in AEM. For more detailed information on how to work with e-mail marketing, see the following documents:
 
-* [Creating an Effective Newsletter Landing Page](../../../sites/authoring/using/newsletter-landing-pages.md)
-* [Managing Subscriptions](../../../sites/authoring/using/managing-subscriptions.md)
-* [Publishing an Email to Email Service Providers](../../../sites/authoring/using/publishing-email-newsletters.md)
-* [Tracking Bounced Emails](../../../sites/authoring/using/tracking-bounced-emails.md)
+* [Creating an Effective Newsletter Landing Page](/help/sites/authoring/using/newsletter-landing-pages.md)
+* [Managing Subscriptions](/help/sites/authoring/using/managing-subscriptions.md)
+* [Publishing an Email to Email Service Providers](/help/sites/authoring/using/publishing-email-newsletters.md)
+* [Tracking Bounced Emails](/help/sites/authoring/using/tracking-bounced-emails.md)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ This document describes the basics of creating newsletters in AEM. For more deta
 
 >[!NOTE]
 >
->Email notifications need to be configured via the osgi configuration. See [Configuring Email Notification.](../../../sites/administering/using/notification.md)
+>Email notifications need to be configured via the osgi configuration. See [Configuring Email Notification.](/help/sites/administering/using/notification.md)
 
 1. Select your new campaign in the left pane, or double-click it in the right pane.  
 
@@ -217,7 +217,7 @@ To flight test newsletters:
 >[!NOTE]
 >
 >Adobe is not planning to further enhance E-mail tracking of open/bounces (not deliverable) send by AEM SMTP service.  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 You can send out a newsletter from either the newsletter or from the list. Both procedures are described.
 

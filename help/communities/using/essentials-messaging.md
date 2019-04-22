@@ -27,7 +27,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/composemessage</p> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td style="text-align: center;"> <a href="/help/communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -40,11 +40,11 @@ This page documents the details of working with using the Messaging component to
   </tr> 
   <tr> 
    <td style="text-align: center;"><strong>properties</strong></td> 
-   <td>see <a href="../../communities/using/configure-messaging.md">Confiiguring Messaging</a></td> 
+   <td>see <a href="/help/communities/using/configure-messaging.md">Confiiguring Messaging</a></td> 
   </tr> 
   <tr> 
    <td style="text-align: center;"><strong>admin configuration</strong></td> 
-   <td><a href="../../communities/using/messaging.md">Configuring Messaging</a></td> 
+   <td><a href="/help/communities/using/messaging.md">Configuring Messaging</a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/messagebox</p> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td style="text-align: center;"> <a href="/help/communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -75,20 +75,20 @@ This page documents the details of working with using the Messaging component to
   </tr> 
   <tr> 
    <td style="text-align: center;"><strong>properties</strong></td> 
-   <td>see <a href="../../communities/using/configure-messaging.md">Confiiguring Messaging</a></td> 
+   <td>see <a href="/help/communities/using/configure-messaging.md">Confiiguring Messaging</a></td> 
   </tr> 
   <tr> 
    <td style="text-align: center;"><strong>admin configuration</strong></td> 
-   <td><a href="../../communities/using/messaging.md">Configuring Messaging</a></td> 
+   <td><a href="/help/communities/using/messaging.md">Configuring Messaging</a></td> 
   </tr> 
  </tbody> 
 </table>
 
-See also [Client-side Customizations](../../communities/using/client-customize.md)
+See also [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Configuring Messaging](../../communities/using/configure-messaging.md)
+* [Configuring Messaging](/help/communities/using/configure-messaging.md)
 
 * [Messaging client APIs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/api/package-summary.html) for SCF components
 
@@ -96,7 +96,7 @@ See also [Client-side Customizations](../../communities/using/client-customize.m
 
 * [Messaging Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 
 >[!CAUTION]
 >
@@ -114,7 +114,7 @@ See also [Client-side Customizations](../../communities/using/client-customize.m
 
 ### Community Site {#community-site}
 
-A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](../../communities/using/sites-console.md#user-management).
+A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](/help/communities/using/sites-console.md#user-management).
 
 ### Sample Code: Message Received Notification {#sample-code-message-received-notification}
 

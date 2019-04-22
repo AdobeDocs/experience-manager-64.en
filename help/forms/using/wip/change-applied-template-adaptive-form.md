@@ -18,7 +18,7 @@ Changing an adaptive form’s template updates the appearances, the layout, and 
 
    >[!NOTE]
    >
-   >You can use text strings or strings with wildcards to search for available templates. To know more, see [Searching for forms and assets](../../../forms/using/searching-forms-or-assets.md). The template search behaves similar to the asset search.
+   >You can use text strings or strings with wildcards to search for available templates. To know more, see [Searching for forms and assets](/help/forms/using/searching-forms-or-assets.md). The template search behaves similar to the asset search.
 
    ![Edit Template Wizard](assets/apply_new_template.png)
 

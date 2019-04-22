@@ -19,7 +19,7 @@ Both the components provide a window, as displayed below, to sign a form. You ca
 
 ## Configure an adaptive form to use Scribble Signature {#configure-an-adaptive-form-to-use-scribble-signature}
 
-1. Create a Document of Record option enabled or form template based adaptive form. For step-by-step information, see [Creating an adaptive form](../../forms/using/creating-adaptive-form.md).
+1. Create a Document of Record option enabled or form template based adaptive form. For step-by-step information, see [Creating an adaptive form](/help/forms/using/creating-adaptive-form.md).
 1. Drag-and-drop the **Scribble Signature** component from component browser to the adaptive form.
 1. Tap the **Configure ** ![](assets/configure.png) icon. It opens properties browser and displays properties of the Scribble Signature component. Configure properties of the Scribble Signature component. 
 1. Drag-and-drop the Signature Step component from component browser to the adaptive form.
@@ -42,11 +42,11 @@ Both the components provide a window, as displayed below, to sign a form. You ca
     * **Template message:** Specify the message to be displayed while the signature PDF is being loaded. Adobe Sign services take some time to prepare and load signature PDF.
     * **Signing Service:** Select the **Scribble Signature** option.  
     
-    * **CSS Class**: Specify CSS class of the client library, if any. It is recommended to use [themes](../../forms/using/themes.md) and [in-line styles](../../forms/using/inline-style-adaptive-forms.md) instead of CSS Class.
+    * **CSS Class**: Specify CSS class of the client library, if any. It is recommended to use [themes](/help/forms/using/themes.md) and [in-line styles](/help/forms/using/inline-style-adaptive-forms.md) instead of CSS Class.
 
    Tap the Done ![](assets/aem_6_3_forms_save.png) icon to save the changes. The Signature is configured sucessfully.
 
-   Now, when you fill a form, a PDF version of adaptive form is displayed and options to sign the PDF document are provided. For detailed information, see [Sign an adaptive form using Scribble Signature](../../forms/using/signing-forms-using-scribble.md#p-sign-an-adaptive-form-using-scribble-signature-p).
+   Now, when you fill a form, a PDF version of adaptive form is displayed and options to sign the PDF document are provided. For detailed information, see [Sign an adaptive form using Scribble Signature](/help/forms/using/signing-forms-using-scribble.md#p-sign-an-adaptive-form-using-scribble-signature-p).
 
 ## Sign an adaptive form using Scribble Signature {#sign-an-adaptive-form-using-scribble-signature}
 

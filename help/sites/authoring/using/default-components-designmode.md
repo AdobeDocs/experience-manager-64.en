@@ -19,11 +19,11 @@ In addition to these, various other components are also available. You can use D
 
 >[!NOTE]
 >
->Care must be taken when editing these components. The design settings are often an integral part of the design of the entire website, so they should only be changed by someone with the appropriate privileges and experience, often an administrator or a developer. See [Developing Components](../../../sites/developing/using/components.md) for more information.
+>Care must be taken when editing these components. The design settings are often an integral part of the design of the entire website, so they should only be changed by someone with the appropriate privileges and experience, often an administrator or a developer. See [Developing Components](/help/sites/developing/using/components.md) for more information.
 
 >[!NOTE]
 >
->Design mode is only available for static templates. Templates that are created with editable templates should be edited using the [template editor](../../../sites/authoring/using/templates.md).
+>Design mode is only available for static templates. Templates that are created with editable templates should be edited using the [template editor](/help/sites/authoring/using/templates.md).
 
 >[!NOTE]
 >
@@ -42,14 +42,14 @@ For example, the content of a product page may contain a paragraph system holdin
 
 >[!NOTE]
 >
->See [Developing Components](../../../sites/developing/using/components.md) and [Guidelines for Using Templates and Components](../../../sites/developing/using/dev-guidelines-bestpractices.md#guidelines-for-using-templates-and-components) for more information about `parsys`.
+>See [Developing Components](/help/sites/developing/using/components.md) and [Guidelines for Using Templates and Components](/help/sites/developing/using/dev-guidelines-bestpractices.md#guidelines-for-using-templates-and-components) for more information about `parsys`.
 
 >[!CAUTION]
 >
 >Editing the design using Design Mode as described in this article is the recommended way to define designs of static templates  
 
 >
->Modifying designs in CRX DE for example is not best practice and the application of such designs can vary from expected behavior. See the developer document [Page Templates - Static](../../../sites/developing/using/page-templates-static.md#how-template-designs-are-applied) for more information.
+>Modifying designs in CRX DE for example is not best practice and the application of such designs can vary from expected behavior. See the developer document [Page Templates - Static](/help/sites/developing/using/page-templates-static.md#how-template-designs-are-applied) for more information.
 
 ## Enable/Disable Components {#enable-disable-components}
 

@@ -19,5 +19,5 @@ Immerse yourself in SPA development with this multi-part tutorial leading you th
 
 For an end-to-end example of building your own single-page application that is editable with AEM starting with project setup through application routing, see the [Getting Started with the AEM SPA Editor - WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html). There are versions of the tutorial for the React and Angular frameworks.
 
-Before you begin your own SPA project for AEM however, be sure to also review the [Developing SPAs for AEM](../../../sites/developing/using/spa-architecture.md) document.  
+Before you begin your own SPA project for AEM however, be sure to also review the [Developing SPAs for AEM](/help/sites/developing/using/spa-architecture.md) document.  
 

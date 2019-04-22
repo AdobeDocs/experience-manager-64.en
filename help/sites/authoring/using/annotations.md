@@ -35,19 +35,19 @@ An annotation places a colored marker/sticky-note on the page. The annotation al
 
 ## Annotations {#annotations}
 
-A special [mode](../../../sites/authoring/using/author-environment-tools.md#page-modes) is used for creating and viewing annotations.
+A special [mode](/help/sites/authoring/using/author-environment-tools.md#page-modes) is used for creating and viewing annotations.
 
 >[!NOTE]
 >
->Don't forget that [comments](../../../sites/authoring/using/basic-handling.md#timeline) are also available for providing feedback on a page.
+>Don't forget that [comments](/help/sites/authoring/using/basic-handling.md#timeline) are also available for providing feedback on a page.
 
 >[!NOTE]
 >
 >You can annotate a variety of resources:  
 
 >
->* [Annotating assets](../../../assets/using/managing-assets-touch-ui.md#annotating)
->* [Annotating video assets](../../../assets/using/managing-video-assets.md#annotating-video-assets)
+>* [Annotating assets](/help/assets/using/managing-assets-touch-ui.md#annotating)
+>* [Annotating video assets](/help/assets/using/managing-video-assets.md#annotating-video-assets)
 >
 
 ### Annotating a Component {#annotating-a-component}

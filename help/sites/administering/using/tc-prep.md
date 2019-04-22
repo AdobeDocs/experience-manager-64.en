@@ -29,17 +29,17 @@ The sample Geometrixx Demo Site includes several language branches and uses the 
              |- zh
 ```
 
-Each language branch of a site is called a language copy. The root page of a language copy, known as the language root, identifies the language of the content in the language copy. For example, `/content/geometrixx/fr` is the language root for the French language copy. Language copies must use a [correctly-configured language root](../../../sites/administering/using/tc-prep.md#creating-a-language-root) so that the correct language is targeted when translations of a source site are performed.
+Each language branch of a site is called a language copy. The root page of a language copy, known as the language root, identifies the language of the content in the language copy. For example, `/content/geometrixx/fr` is the language root for the French language copy. Language copies must use a [correctly-configured language root](/help/sites/administering/using/tc-prep.md#creating-a-language-root) so that the correct language is targeted when translations of a source site are performed.
 
 The language copy for which you originally author site content is the language master. The language master is the source that is translated into other languages.
 
 Use the following steps to prepare your site for translation:
 
-1. Create the language root of your language master. For example, the language root of the English Geometrixx demo site is /content/geometrixx/en. Ensure that the language root is correctly configured according to the information in [Creating a Language Root](../../../sites/administering/using/tc-prep.md#creating-a-language-root).
+1. Create the language root of your language master. For example, the language root of the English Geometrixx demo site is /content/geometrixx/en. Ensure that the language root is correctly configured according to the information in [Creating a Language Root](/help/sites/administering/using/tc-prep.md#creating-a-language-root).
 1. Author the content of your language master. 
 1. Create the language root of each language copy for your site. For example, the French language copy of the Geometrixx sample site is /content/geometrixx/fr.
 
-After you prepare your content for translation, you can automatically create missing pages in your language copies and associated translation projects. (See [Creating a Translation Project](../../../sites/administering/using/tc-manage.md).) For an overview of the content translation process in AEM, see [Translating Content for Multilingual Websites](../../../sites/administering/using/translation.md).  
+After you prepare your content for translation, you can automatically create missing pages in your language copies and associated translation projects. (See [Creating a Translation Project](/help/sites/administering/using/tc-manage.md).) For an overview of the content translation process in AEM, see [Translating Content for Multilingual Websites](/help/sites/administering/using/translation.md).  
 
 ## Creating a Language Root {#creating-a-language-root}
 
@@ -53,7 +53,7 @@ To create the language root you create a page and use an ISO language code as th
 
 You can use either format, according to the structure that you have chosen for your global site.  For example, the root page of the French language copy of the Geometrixx site has `fr` as the Name property. Note that the Name property is used as the name of the page node in the repository, and therefore determines the path of the page. (http://localhost:4502/content/geometrixx/fr.html)
 
-The following procedure uses the touch-optimized UI to create a language copy of a web site. For instructions that use the Classic UI, see [Creating a Language Root Using the Classic UI](../../../sites/administering/using/tc-lroot-classic.md).
+The following procedure uses the touch-optimized UI to create a language copy of a web site. For instructions that use the Classic UI, see [Creating a Language Root Using the Classic UI](/help/sites/administering/using/tc-lroot-classic.md).
 
 1. Navigate to Sites.
 1. Click or tap the site for which you want to create a language copy.

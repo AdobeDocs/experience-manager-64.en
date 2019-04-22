@@ -15,5 +15,5 @@ discoiquuid: d4e8dcef-6870-4340-976a-194089ea4c21
 
 >[!CAUTION]
 >
->A high-level summary list of procedures has been created in the touch-optimized UI as a [quick guide to authoring pages](../../../sites/authoring/using/qg-page-authoring.md).
+>A high-level summary list of procedures has been created in the touch-optimized UI as a [quick guide to authoring pages](/help/sites/authoring/using/qg-page-authoring.md).
 

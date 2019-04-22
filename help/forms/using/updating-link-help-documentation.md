@@ -20,7 +20,7 @@ Consider the following use cases where you may want to change the default help U
 * For providing localized help in a language of your choice.
 * For providing customized help content for your customized workspace.
 
-To update the URL of the online documentation, follow the [Generic Steps of customization](../../forms/using/generic-steps-html-workspace-customization.md) and then the following steps.
+To update the URL of the online documentation, follow the [Generic Steps of customization](/help/forms/using/generic-steps-html-workspace-customization.md) and then the following steps.
 
 1. Copy the `userinfo.html` file from `/libs/ws/js/runtime/templates` to `/apps/ws/js/runtime/templates`.
 1. Change:

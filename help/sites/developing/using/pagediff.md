@@ -17,11 +17,11 @@ discoiquuid: 13e8cbef-698f-4e69-9f8c-f9bee82e9fd1
 
 Content creation is an iterative process. Authoring with efficiency requires being able to see what has changed from one iteration to another. Viewing one page version and then the other is inefficient and prone to error. An author wants to be able to compare the current page to a previous version side-by-side with the differences highlighted.
 
-The page diff allows a user to compare the current page to launches, previous versions, etc. For details of this user feature, see [Page Diff](../../../sites/authoring/using/page-diff.md).
+The page diff allows a user to compare the current page to launches, previous versions, etc. For details of this user feature, see [Page Diff](/help/sites/authoring/using/page-diff.md).
 
 ## Operation Details {#operation-details}
 
-When comparing versions of a page, the previous version that the user wishes to compare is recreated by AEM in the background in order to facilitate the diff. This is needed to be able to render the content [for side-by-side comparison](../../../sites/developing/using/pagediff.md#operation-details).
+When comparing versions of a page, the previous version that the user wishes to compare is recreated by AEM in the background in order to facilitate the diff. This is needed to be able to render the content [for side-by-side comparison](/help/sites/developing/using/pagediff.md#operation-details).
 
 This recreation operation is done by AEM internally and is transparent to the user and requires no intervention. However an administrator viewing the repository for example in CRX DE Lite would see these recreated versions within the content structure.
 

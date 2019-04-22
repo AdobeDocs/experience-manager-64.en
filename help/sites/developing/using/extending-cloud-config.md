@@ -25,8 +25,8 @@ The principles used in developing the configurations have been based on the foll
 * Configurations (e.g. properties/paragraphs) are inherited from the parent(s).
 * Referenced from analytics node(s) by path.
 * Easily extensible.
-* Has the flexibility to cater for more complex configurations, such as [Adobe Analytics](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics).
-* Support for dependencies (e.g. [Adobe Analytics](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics) plugins need a [Adobe Analytics](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics) configuration).
+* Has the flexibility to cater for more complex configurations, such as [Adobe Analytics](/help/sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics).
+* Support for dependencies (e.g. [Adobe Analytics](/help/sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics) plugins need a [Adobe Analytics](/help/sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics) configuration).
 
 ## Structure {#structure}
 
@@ -212,13 +212,13 @@ The property will then be automatically encrypted (using the `CryptoSupport` ser
 
 These services are provided by default:
 
-* [Tracker Snippets](../../../sites/administering/using/external-providers.md) (Google, WebTrends etc.)
-* [Adobe Analytics](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics)
-* [Test&Target](../../../sites/administering/using/marketing-cloud.md#integrating-with-adobe-target)
-* [Search&Promote](../../../sites/administering/using/marketing-cloud.md#integrating-with-search-promote)
-* [Scene7](../../../sites/administering/using/marketing-cloud.md#integrating-with-scene)
+* [Tracker Snippets](/help/sites/administering/using/external-providers.md) (Google, WebTrends etc.)
+* [Adobe Analytics](/help/sites/administering/using/marketing-cloud.md#integrating-with-adobe-analytics)
+* [Test&Target](/help/sites/administering/using/marketing-cloud.md#integrating-with-adobe-target)
+* [Search&Promote](/help/sites/administering/using/marketing-cloud.md#integrating-with-search-promote)
+* [Scene7](/help/sites/administering/using/marketing-cloud.md#integrating-with-scene)
 
 >[!NOTE]
 >
->See also [Creating a Custom Cloud Service](../../../sites/developing/using/extending-cloud-config-custom-cloud.md).
+>See also [Creating a Custom Cloud Service](/help/sites/developing/using/extending-cloud-config-custom-cloud.md).
 

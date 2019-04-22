@@ -18,5 +18,5 @@ The Style System allows a template author to define style classes in the content
 
 This eliminates the need to develop a custom component for each style or to customize the component dialog to enable such style functionality. It leads to more reusable components that can be quickly and easily adapted to the needs of content authors without any AEM back-end development.
 
-[Check out the documentation here.](../../../sites/authoring/using/style-system.md)  
+[Check out the documentation here.](/help/sites/authoring/using/style-system.md)  
 

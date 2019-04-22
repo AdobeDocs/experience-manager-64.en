@@ -59,7 +59,7 @@ You can activate pages in the Websites console. After you have opened a page and
 1. In the Websites console, select the page that you want to activate.
 1. Select **Activate**, either from the top menu, or the drop-down menu on the selected page item.
 
-   To activate the content of the page and all its sub-pages use the [**Tools** console](../../../sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#howtoactivateacompletesectiontreeofyourwebsite).
+   To activate the content of the page and all its sub-pages use the [**Tools** console](/help/sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#howtoactivateacompletesectiontreeofyourwebsite).
 
    ![](assets/screen_shot_2012-02-08at13817pm.png)
 
@@ -73,7 +73,7 @@ You can activate pages in the Websites console. After you have opened a page and
 
    ![](assets/chlimage_1-135.png)
 
-1. AEM WCM activates the selected content. The published page or pages appears in the [Websites console](../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console) (marked green) with information about who activated the content as well as date and time of activation.
+1. AEM WCM activates the selected content. The published page or pages appears in the [Websites console](/help/sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console) (marked green) with information about who activated the content as well as date and time of activation.
 
    ![](assets/screen_shot_2012-02-08at14335pm.png)
 
@@ -98,7 +98,7 @@ To deactivate a page:
 
    ![](assets/screen_shot_2012-02-08at14859pm.png)
 
-1. Refresh the [Websites console](../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console) and the content is marked in red, indicating that it is no longer published.
+1. Refresh the [Websites console](/help/sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console) and the content is marked in red, indicating that it is no longer published.
 
    ![](assets/screen_shot_2012-02-08at15018pm.png)
 
@@ -115,7 +115,7 @@ To schedule your activation for a later time:
 
 Activating later starts a workflow to activate this version of the page at the specified time. Conversely, deactivating later starts a workflow to deactivate this version of the page at a specific time.
 
-If you want to cancel this activation/deactivation, go to the [Workflow Console](../../../sites/administering/using/workflows-administering.md#main-pars-title-3-yjqslz-refd) to terminate the corresponding workflow.
+If you want to cancel this activation/deactivation, go to the [Workflow Console](/help/sites/administering/using/workflows-administering.md#main-pars-title-3-yjqslz-refd) to terminate the corresponding workflow.
 
 ### Deactivate Later {#deactivate-later}
 
@@ -129,15 +129,15 @@ To schedule your deactivation for a later time:
 
 **Deactivating late**r starts a workflow to deactivate this version of the page at a specific time.
 
-If you want to cancel this deactivation, go to the [Workflow Console](../../../sites/administering/using/workflows-administering.md#main-pars-title-3-yjqslz-refd) to terminate the corresponding workflow.
+If you want to cancel this deactivation, go to the [Workflow Console](/help/sites/administering/using/workflows-administering.md#main-pars-title-3-yjqslz-refd) to terminate the corresponding workflow.
 
 ## Scheduled Activation/Deactivation (On/Off Time) {#scheduled-activation-deactivation-on-off-time}
 
-You can schedule times for a page to be published/unpublished using the **On Time** and **Off Time** that can be defined in the [Page Properties](../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md).
+You can schedule times for a page to be published/unpublished using the **On Time** and **Off Time** that can be defined in the [Page Properties](/help/sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md).
 
 ### Determining Page Publication Status - Classic UI {#determining-page-publication-status-classic-ui}
 
-The status can be seen from the [Websites console](../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console). The colors indicate publication status.
+The status can be seen from the [Websites console](/help/sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console). The colors indicate publication status.
 
 ## Activating a complete section (tree) of your website {#activating-a-complete-section-tree-of-your-website}
 

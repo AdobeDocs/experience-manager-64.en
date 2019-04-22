@@ -18,30 +18,30 @@ The Communities Sites console provides access to
 * site creation
 * site editing
 * site management
-* [creating and editing nested groups](../../communities/using/groups.md) (sub-communities)
+* [creating and editing nested groups](/help/communities/using/groups.md) (sub-communities)
 
-See [Getting Started with AEM Communities](../../communities/using/getting-started.md) to experience how quickly a community site can be created in the author environment, as well as how to create community groups from the author and publish environments.
+See [Getting Started with AEM Communities](/help/communities/using/getting-started.md) to experience how quickly a community site can be created in the author environment, as well as how to create community groups from the author and publish environments.
 
 >[!NOTE]
 >
->The main Communities menus for the creation of [community sites](../../communities/using/sites-console.md), [community site templates](../../communities/using/sites.md), [community group templates](../../communities/using/tools-groups.md) and [community functions](../../communities/using/functions.md) are for use only in the author environment.
+>The main Communities menus for the creation of [community sites](/help/communities/using/sites-console.md), [community site templates](/help/communities/using/sites.md), [community group templates](/help/communities/using/tools-groups.md) and [community functions](/help/communities/using/functions.md) are for use only in the author environment.
 
 ## Prerequisites {#prerequisites}
 
 Before creating a community site, it is *required* to
 
 * ensure one or more publish instances are running
-* enable the [tunnel service](../../communities/using/deploy-communities.md#tunnel-service-on-author) to manage members and member groups
-* identify the [primary publisher](../../communities/using/deploy-communities.md#primary-publisher)
-* [configure replication](../../communities/using/deploy-communities.md#replication-agents-on-author) when primary publisher port is not the default (4503)
+* enable the [tunnel service](/help/communities/using/deploy-communities.md#tunnel-service-on-author) to manage members and member groups
+* identify the [primary publisher](/help/communities/using/deploy-communities.md#primary-publisher)
+* [configure replication](/help/communities/using/deploy-communities.md#replication-agents-on-author) when primary publisher port is not the default (4503)
 
 Best practice, to ensure the site is prepared to support many features, is to take the following steps:
 
-* install the [latest feature pack](../../communities/using/deploy-communities.md#latestfeaturepack)
-* enable [Adobe Analytics](../../communities/using/analytics.md) for AEM Communities
-* configure [email](../../communities/using/email.md)
-* identify [Community Administrators](../../communities/using/users.md#creating-community-members)
-* [enable OAuth handler](../../communities/using/social-login.md#adobe-granite-oauth-authentication-handler) for social login
+* install the [latest feature pack](/help/communities/using/deploy-communities.md#latestfeaturepack)
+* enable [Adobe Analytics](/help/communities/using/analytics.md) for AEM Communities
+* configure [email](/help/communities/using/email.md)
+* identify [Community Administrators](/help/communities/using/users.md#creating-community-members)
+* [enable OAuth handler](/help/communities/using/social-login.md#adobe-granite-oauth-authentication-handler) for social login
 
 ## Accessing Communities Sites Console {#accessing-communities-sites-console}
 
@@ -55,13 +55,13 @@ To create a new community site, select the **Create **icon.
 
 To access an existing community site, for the purpose of authoring, modifying, publishing, exporting, or adding a nested group, select the site's folder icon.
 
-For example, the following image shows the main Communities Sites console displaying the folders for two community sites: [enable](../../communities/using/getting-started-enablement.md) and [engage](../../communities/using/getting-started.md):
+For example, the following image shows the main Communities Sites console displaying the folders for two community sites: [enable](/help/communities/using/getting-started-enablement.md) and [engage](/help/communities/using/getting-started.md):
 
 ![](assets/chlimage_1-448.png) 
 
 ## Site Creation {#site-creation}
 
-The site creation console provides a step-by-step approach to assemble features of the site based on a selected [community site template](../../communities/using/sites.md) and settings.
+The site creation console provides a step-by-step approach to assemble features of the site based on a selected [community site template](/help/communities/using/sites.md) and settings.
 
 Every site created includes a login feature as site visitors are required to sign in before being able to post content, send messages, or participate in a group. Other included features are user profiles, messaging, notifications, site menu, search, theming, and branding.
 
@@ -84,7 +84,7 @@ On the Site Template panel, the Title, Description, Site Root, Base Language, Na
 * **Community Site Root **: the root path to the site.  
   The default root is `/content/sites`, but the root may be moved to any location within the web site.
 
-* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](../../sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
+* **Community Site Base Language**: (leave untouched for single language: English) use the pull down menu to choose one *or more* base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md). The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.  
 
 * **Community Site Name **: the name of the site's root page which appears in the URL
 
@@ -94,7 +94,7 @@ On the Site Template panel, the Title, Description, Site Root, Base Language, Na
     * for a valid URL, append a base language code + ".html"  
       *for example*, `http://localhost:4502/content/sites/mysight/en.html`
 
-* **Community Site Template** menu: use the pull down menu to choose an available [community site template](../../communities/using/tools.md).
+* **Community Site Template** menu: use the pull down menu to choose an available [community site template](/help/communities/using/tools.md).
 
 Select **Next**
 
@@ -149,11 +149,11 @@ The Settings panel contains several sub-panels presenting features to configure 
 >
 >Several of the Settings sub-panels allow assignment of a trusted member to moderate UGC, manage groups, or be contacts for enablement resources in the publish environment.
 >
->The convention is for publish-side [users and user groups](../../communities/using/users.md) (members and member groups) to not be duplicated in the author environment.
+>The convention is for publish-side [users and user groups](/help/communities/using/users.md) (members and member groups) to not be duplicated in the author environment.
 >
 >Thus, when creating the community site in the author environment and assigning trusted members to various roles, it is necessary to retrieve member data from the publish environment.
 >
->This is accomplished by enabling the ` [AEM Communities Publish Tunnel Service](../../communities/using/deploy-communities.md#tunnel-service-on-author)`for the author environment.
+>This is accomplished by enabling the ` [AEM Communities Publish Tunnel Service](/help/communities/using/deploy-communities.md#tunnel-service-on-author)`for the author environment.
 
 #### USER MANAGEMENT {#user-management}
 
@@ -161,7 +161,7 @@ The Settings panel contains several sub-panels presenting features to configure 
 
 >[!NOTE]
 >
->It is recommended that [enablement community sites](../../communities/using/overview.md#enablement-community) be private (contact your account representative for more information).
+>It is recommended that [enablement community sites](/help/communities/using/overview.md#enablement-community) be private (contact your account representative for more information).
 >
 >A community site is private when anonymous site visitors are denied access, may not self-register, and may not use social login.
 
@@ -181,12 +181,12 @@ The Settings panel contains several sub-panels presenting features to configure 
   Default is unchecked.
 
 * **Allow Social Logins: Facebook  
-  **If checked, allow site visitors to sign in with their Facebook account credentials. The selected [Facebook cloud configuration](../../communities/using/social-login.md#create-a-facebook-connect-cloud-service) should be configured to add users to the community site's members group once the community site is created.   
+  **If checked, allow site visitors to sign in with their Facebook account credentials. The selected [Facebook cloud configuration](/help/communities/using/social-login.md#create-a-facebook-connect-cloud-service) should be configured to add users to the community site's members group once the community site is created.   
   If unchecked, no Facebook login is presented.  
   Leave unchecked for a *private* community site. Default is unchecked.
 
 * **Allow Social Logins: Twitter** 
-  If checked, allow site visitors to sign in with their Twitter account credentials. The selected [Twitter cloud configuration](../../communities/using/social-login.md#create-a-twitter-connect-cloud-service) should be configured to add users to the community site's members group once the community site is created.  
+  If checked, allow site visitors to sign in with their Twitter account credentials. The selected [Twitter cloud configuration](/help/communities/using/social-login.md#create-a-twitter-connect-cloud-service) should be configured to add users to the community site's members group once the community site is created.  
   If unchecked, no Twitter login is presented.  
   Leave unchecked for a *private* community site. Default is unchecked.
 
@@ -194,15 +194,15 @@ The Settings panel contains several sub-panels presenting features to configure 
 >
 >**Allowing Social Logins**
 >
->While sample Facebook and Twitter configurations may exist and be selectable, for a [production environment](../../sites/administering/using/production-ready.md), it is necessary to create custom Facebook and Twitter applications. See [Social Login with Facebook and Twitter](../../communities/using/social-login.md).
+>While sample Facebook and Twitter configurations may exist and be selectable, for a [production environment](/help/sites/administering/using/production-ready.md), it is necessary to create custom Facebook and Twitter applications. See [Social Login with Facebook and Twitter](/help/communities/using/social-login.md).
 
 #### TAGGING {#tagging}
 
 ![](assets/chlimage_1-450.png)
 
-The tags which may be applied to community content are controlled by selecting Tag Namespaces previously defined through the [Tagging Console](../../sites/administering/using/tags.md#tagging-console).
+The tags which may be applied to community content are controlled by selecting Tag Namespaces previously defined through the [Tagging Console](/help/sites/administering/using/tags.md#tagging-console).
 
-In addition, selecting tag namespaces for the community site limits the selection presented when defining catalogs and resources. See [Tagging Enablement Resources](../../communities/using/tag-resources.md) for important information.
+In addition, selecting tag namespaces for the community site limits the selection presented when defining catalogs and resources. See [Tagging Enablement Resources](/help/communities/using/tag-resources.md) for important information.
 
 * text search box: start typing to identify tags allowed to be used on the site
 
@@ -210,7 +210,7 @@ In addition, selecting tag namespaces for the community site limits the selectio
 
 ![](assets/chlimage_1-451.png)
 
-The [roles of community members](../../communities/using/users.md) are assigned with these settings.
+The [roles of community members](/help/communities/using/users.md) are assigned with these settings.
 
 Finding community members is easy using type-ahead search.
 
@@ -221,7 +221,7 @@ Finding community members is easy using type-ahead search.
   Start typing to select one or more community members or member groups who are to be trusted as moderators of user generated content.
 
 * **Community Privileged Members** 
-  Start typing to select one or more community members or member groups to be given the ability to create new content when `Allow Privileged Member` has been selected for a [community function](../../communities/using/functions.md).
+  Start typing to select one or more community members or member groups to be given the ability to create new content when `Allow Privileged Member` has been selected for a [community function](/help/communities/using/functions.md).
 
 #### MODERATION {#moderation}
 
@@ -230,7 +230,7 @@ Finding community members is easy using type-ahead search.
 The global setting for moderating user generated content (UGC) is controlled by these settings. Individual components have additional settings to control moderation.
 
 * **Content is Premoderated** 
-  If checked, posted community content will not appear until approved by a moderator. Default is unchecked. For more information, see [Moderating Community Content](../../communities/using/moderate-ugc.md#premoderation).
+  If checked, posted community content will not appear until approved by a moderator. Default is unchecked. For more information, see [Moderating Community Content](/help/communities/using/moderate-ugc.md#premoderation).
 
 * **Flagging threshold before content is hidden** 
   If greater than 0, the number of times a topic or post has to be flagged before it is hidden from public view. If set to -1, the flagged topic or post is never hidden from public view. Default is 5.
@@ -240,26 +240,26 @@ The global setting for moderating user generated content (UGC) is controlled by 
 ![](assets/chlimage_1-453.png)
 
 * **Enable Analytics** 
-  Only available when Adobe Analytics has been [configured](../../communities/using/analytics.md) for Communities features.  
+  Only available when Adobe Analytics has been [configured](/help/communities/using/analytics.md) for Communities features.  
   Default is unchecked. When checked, an additional selection menu appears:
 
 ![](assets/chlimage_1-454.png)
 
 * **Cloud Config Framework Reference** 
   From the pull-down menu, select the Analytics cloud service framework configured for this community site.  
-  `Communities`is the framework example from [Analytics Configuration for Communities Features](../../communities/using/analytics.md#aem-analytics-framework-configuration) documentation.
+  `Communities`is the framework example from [Analytics Configuration for Communities Features](/help/communities/using/analytics.md#aem-analytics-framework-configuration) documentation.
 
 #### TRANSLATION {#translation}
 
 ![](assets/chlimage_1-455.png)
 
 * **Allow Machine Translation** 
-  When checked (default is unchecked), machine translation is enabled for UGC within the site. This does not affect any other content, such as page content, even if the site is setup as a multilingual site. See [Translating User Generated Content](../../communities/using/translate-ugc.md) for information on configuring a licensed translation service for AEM Communities. See [Translating Content for Multilingual Sites](../../sites/administering/using/translation.md) for a complete overview.
+  When checked (default is unchecked), machine translation is enabled for UGC within the site. This does not affect any other content, such as page content, even if the site is setup as a multilingual site. See [Translating User Generated Content](/help/communities/using/translate-ugc.md) for information on configuring a licensed translation service for AEM Communities. See [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md) for a complete overview.
 
 ![](assets/chlimage_1-456.png)
 
 * **Enable Machine Translation for selected languages** 
-  The languages enabled for machine translation default to the system setting specified by the [translation integration configuration](../../communities/using/translate-ugc.md#translation-integration-configuration). These default settings may be overridden for this site by deleting defaults and/or selecting other languages from the pull-down menu.
+  The languages enabled for machine translation default to the system setting specified by the [translation integration configuration](/help/communities/using/translate-ugc.md#translation-integration-configuration). These default settings may be overridden for this site by deleting defaults and/or selecting other languages from the pull-down menu.
 
 * **Choose translation provider** 
   By default, the service provider is a trial service using `microsoft`for demonstration only. If no translation service provider is licensed, **Allow Machine Translation** should be unchecked.
@@ -268,7 +268,7 @@ The global setting for moderating user generated content (UGC) is controlled by 
   For a website with multiple language copies, a global shared store provides a single thread of conversation, visible from each langauge copy. This is achieved by selecting one of the languages included as a language copy. Default is *No Global Shared Store*.
 
 * **Choose translation provider config** 
-  Choose a [translation integration framework](../../sites/administering/using/tc-tic.md) created for the licensed translation provider.
+  Choose a [translation integration framework](/help/sites/administering/using/tc-tic.md) created for the licensed translation provider.
 
 * **Select the translation options for your community site**
 
@@ -302,13 +302,13 @@ The global setting for moderating user generated content (UGC) is controlled by 
 
 ![](assets/chlimage_1-457.png)
 
-The `ENABLEMENT`settings are applicable when the chosen community site template includes the [assignments function](../../communities/using/functions.md#assignments-function), which is available when the enablement features are licensed and [configured](../../communities/using/enablement.md). The reference site template that includes the assignments function is `Reference Structured Learning Site Template.`
+The `ENABLEMENT`settings are applicable when the chosen community site template includes the [assignments function](/help/communities/using/functions.md#assignments-function), which is available when the enablement features are licensed and [configured](/help/communities/using/enablement.md). The reference site template that includes the assignments function is `Reference Structured Learning Site Template.`
 
 * **Enablement Managers** 
-  (required) Only members of the `Community Enablementmanagers` group are available to be selected to manage this enablement community. Enablement managers are responsible for assigning members to resources. See also [Managing Users and User Groups](../../communities/using/users.md).
+  (required) Only members of the `Community Enablementmanagers` group are available to be selected to manage this enablement community. Enablement managers are responsible for assigning members to resources. See also [Managing Users and User Groups](/help/communities/using/users.md).
 
 * **Marketing Cloud Org Id** 
-  (optional) The ID for a [Video Heartbeat Analytics](../../communities/using/analytics.md#video-heartbeat-analytics) license.
+  (optional) The ID for a [Video Heartbeat Analytics](/help/communities/using/analytics.md#video-heartbeat-analytics) license.
 
 Select **Next**.
 
@@ -347,7 +347,7 @@ The content of a site may be authored with the same tools as any other AEM websi
 
 >[!NOTE]
 >
->If not familiar with AEM, view the documentation on [basic handling](../../sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](../../sites/authoring/using/qg-page-authoring.md).
+>If not familiar with AEM, view the documentation on [basic handling](/help/sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](/help/sites/authoring/using/qg-page-authoring.md).
 
 ## Modifying Site Properties {#modifying-site-properties}
 
@@ -376,12 +376,12 @@ Instead, the [STRUCTURE](#modify-structure) of the community site may be modifie
 
 The STRUCTURE panel allows the modification of the structure initially created from the selected community site template. From the panel, it is possible to
 
-* drag-and-drop additional [community functions](../../communities/using/functions.md) into the site structure
+* drag-and-drop additional [community functions](/help/communities/using/functions.md) into the site structure
 * on an instance of a community function in the site structure:
 
     * **`gear icon`** 
       edit settings, including the display title and URL name&#42;  
-      as well as [privileged members groups](../../communities/using/users.md#privilegedmembersgroups)
+      as well as [privileged members groups](/help/communities/using/users.md#privilegedmembersgroups)
     
     * **`trashcan icon`** 
       remove (delete) functions from the site structure
@@ -403,7 +403,7 @@ The STRUCTURE panel allows the modification of the structure initially created f
 >
 >The groups function must *not *be the *first nor the only* function in the site structure.
 >
->Any other function, such as the [page function](../../communities/using/functions.md#page-function), must be included and listed first.
+>Any other function, such as the [page function](/help/communities/using/functions.md#page-function), must be included and listed first.
 
 #### Example: Adding a Catalog Function to a Community Site Structure {#example-adding-a-catalog-function-to-a-community-site-structure}
 
@@ -451,13 +451,13 @@ There will be an indication after site is successfully published.
 
 ### Publishing with Nested Groups {#publishing-with-nested-groups}
 
-After publishing a community site, it is necessary to individually publish each sub-community (nested group) created using the [Groups console](../../communities/using/groups.md).
+After publishing a community site, it is necessary to individually publish each sub-community (nested group) created using the [Groups console](/help/communities/using/groups.md).
 
 ## Exporting the Site {#exporting-the-site}
 
 ![](assets/chlimage_1-467.png)
 
-Select the export icon, on mouse hover over the site, to create a package of the community site that is both stored in [package manager](../../sites/administering/using/package-manager.md) and downloaded.  
+Select the export icon, on mouse hover over the site, to create a package of the community site that is both stored in [package manager](/help/sites/administering/using/package-manager.md) and downloaded.  
 Note that UGC is not included in the site package.
 
 ## Deleting the Site {#deleting-the-site}
@@ -479,7 +479,7 @@ For example, if the name were "engage" for a site titled "Getting Started Tutori
 
 Notice that any members assigned roles as moderators or group administrators while creating the site, will be assigned to the appropriate group as well as assigned to the members group. These groups and member assignments are created on publish when the new site is published.
 
-For details, see [Managing Users and User Groups](../../communities/using/users.md).
+For details, see [Managing Users and User Groups](/help/communities/using/users.md).
 
 >[!NOTE]
 >
@@ -487,17 +487,17 @@ For details, see [Managing Users and User Groups](../../communities/using/users.
 >
 >* community-*&lt;site-name&gt;*-*&lt;uid&gt;*-members
 >
->is created, the applied [Facebook cloud service](../../communities/using/social-login.md#createafacebookcloudservice) should be configured to add users to this group.
+>is created, the applied [Facebook cloud service](/help/communities/using/social-login.md#createafacebookcloudservice) should be configured to add users to this group.
 
 ## Configure for Authentication Error {#configure-for-authentication-error}
 
-By default, a community site will redirect to a sample login page when the user enters the wrong credentials and fails to login. This sample login will not be present on a [production server](../../sites/administering/using/production-ready.md).
+By default, a community site will redirect to a sample login page when the user enters the wrong credentials and fails to login. This sample login will not be present on a [production server](/help/sites/administering/using/production-ready.md).
 
 To correctly redirect, once a site has been configured and pushed to publish, complete these steps to get authentication failure to redirect to the community site:
 
 * on each AEM publish instance
 * first sign in with administrator privileges
-* access the [Web Console](../../sites/deploying/using/configuring-osgi.md)
+* access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 

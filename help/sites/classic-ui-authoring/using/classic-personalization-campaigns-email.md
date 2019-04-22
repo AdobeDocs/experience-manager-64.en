@@ -16,7 +16,7 @@ discoiquuid: eb72f934-4b0f-4a71-b2a2-3ddf78db8c3c
 >[!NOTE]
 >
 >Adobe is not planning to further enhance E-mail tracking of open/bounces (not deliverable) send by AEM SMTP service.  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 E-mail marketing (for example, newsletters) are an important part of any marketing campaign as you use them to push content to your leads. In AEM, you can create newsletters from existing AEM content as well as add new content, specific to the newsletters.
 
@@ -30,10 +30,10 @@ In addition, AEM lets you administer the newsletter functionality, including mai
 
 This document describes the basics of creating newsletters in AEM. For more detailed information on how to work with e-mail marketing, see the following documents:
 
-* [Creating an Effective Newsletter Landing Page](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-email-landingpage.md)
-* [Managing Subscriptions](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-email-subscriptions.md)
-* [Publishing an Email to Email Service Providers](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-email-newsletters.md)
-* [Tracking Bounced Emails](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-email-tracking-bounces.md)
+* [Creating an Effective Newsletter Landing Page](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-email-landingpage.md)
+* [Managing Subscriptions](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-email-subscriptions.md)
+* [Publishing an Email to Email Service Providers](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-email-newsletters.md)
+* [Tracking Bounced Emails](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns-email-tracking-bounces.md)
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ This document describes the basics of creating newsletters in AEM. For more deta
 
 >[!NOTE]
 >
->Email notifications need to be configured via the osgi configuration. See [Configuring Email Notification.](../../../sites/administering/using/notification.md)
+>Email notifications need to be configured via the osgi configuration. See [Configuring Email Notification.](/help/sites/administering/using/notification.md)
 
 1. Select your new campaign in the left pane, or double-click it in the right pane.  
 
@@ -61,7 +61,7 @@ This document describes the basics of creating newsletters in AEM. For more deta
 
 1. A new dialog will open immediately. Here you can enter properties for the newsletter.
 
-   The **Default Recipients List** is a mandatory field as this forms the touchpoint for the newsletter (see [Working with Lists](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#workingwithlists) for more information about lists).
+   The **Default Recipients List** is a mandatory field as this forms the touchpoint for the newsletter (see [Working with Lists](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#workingwithlists) for more information about lists).
 
    ![](assets/mcm_newnewsletterdialog.png)
 
@@ -216,7 +216,7 @@ To flight test newsletters:
 >[!NOTE]
 >
 >Adobe is not planning to further enhance E-mail tracking of open/bounces (not deliverable) send by AEM SMTP service.  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 You can send out a newsletter from either the newsletter or from the list. Both procedures are described.
 

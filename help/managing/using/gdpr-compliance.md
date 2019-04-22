@@ -38,23 +38,23 @@ Adobe is providing documentation and procedures (with APIs when available), for 
 
 ## AEM Foundation {#aem-foundation}
 
-See [Handling GDPR Requests for the AEM Foundation](../../sites/administering/using/handling-gdpr-requests-for-aem-platform.md).
+See [Handling GDPR Requests for the AEM Foundation](/help/sites/administering/using/handling-gdpr-requests-for-aem-platform.md).
 
 ## AEM Opting Into Aggregate Usage Statistics Collection {#aem-opting-into-aggregate-usage-statistics-collection}
 
-See [Aggregated Usage Statistics Collection](../../sites/deploying/using/opt-in-aggregated-usage-statistics.md).
+See [Aggregated Usage Statistics Collection](/help/sites/deploying/using/opt-in-aggregated-usage-statistics.md).
 
 ## AEM Sites {#aem-sites}
 
-See [AEM Sites - GDPR Readiness.](../../sites/administering/using/gdpr-compliance-sites.md)
+See [AEM Sites - GDPR Readiness.](/help/sites/administering/using/gdpr-compliance-sites.md)
 
 ## AEM Commerce {#aem-commerce}
 
-[See AEM Commerce - GDPR Readiness](../../sites/administering/using/gdpr-compliance-commerce.md).
+[See AEM Commerce - GDPR Readiness](/help/sites/administering/using/gdpr-compliance-commerce.md).
 
 ## AEM Mobile {#aem-mobile}
 
-See [AEM Mobile - GDPR Readiness](../../mobile/using/aem-mobile-gdpr-compliance.md).
+See [AEM Mobile - GDPR Readiness](/help/mobile/using/aem-mobile-gdpr-compliance.md).
 
 ## AEM Integration with Adobe Target & Adobe Analytics {#aem-integration-with-adobe-target-adobe-analytics}
 
@@ -76,11 +76,11 @@ Additionally, AEM Communities offers privacy by design owing to its Bulk Moderat
 
 AEM Forms includes components and workflows that capture, process, and store data to orchestrate business processes and complete digital transactions. Different components use different data stores and allow integration with custom data stores as well. The following documentation explains procedures and guidelines for accessing and handling user data to support GDPR workflows for a component.
 
-* [Forms Portal](../../forms/using/forms-portal-handling-user-data.md)
-* [Correspondence Management](../../forms/using/correspondence-management-handling-user-data.md)
-* [Integration with Adobe Sign](../../forms/using/integration-adobe-sign-handling-user-data.md)
-* [Forms-centric workflows on OSGi](../../forms/using/forms-workflow-osgi-handling-user-data.md)
-* [Forms JEE workflows](../../forms/using/forms-workflow-jee-handling-user-data.md) (AEM Forms JEE only)
-* [Document Security](../../forms/using/document-security-handling-user-data.md) (AEM Forms JEE only)
-* [User Management](../../forms/using/user-management-handling-user-data.md) (AEM Forms JEE only)
+* [Forms Portal](/help/forms/using/forms-portal-handling-user-data.md)
+* [Correspondence Management](/help/forms/using/correspondence-management-handling-user-data.md)
+* [Integration with Adobe Sign](/help/forms/using/integration-adobe-sign-handling-user-data.md)
+* [Forms-centric workflows on OSGi](/help/forms/using/forms-workflow-osgi-handling-user-data.md)
+* [Forms JEE workflows](/help/forms/using/forms-workflow-jee-handling-user-data.md) (AEM Forms JEE only)
+* [Document Security](/help/forms/using/document-security-handling-user-data.md) (AEM Forms JEE only)
+* [User Management](/help/forms/using/user-management-handling-user-data.md) (AEM Forms JEE only)
 

@@ -13,7 +13,7 @@ discoiquuid: ead74e39-3b07-488e-aeb1-fcb4aa6ff200
 
 # Analyzing Page Performance{#analyzing-page-performance}
 
-Open the [Content Insight](../../../sites/authoring/using/content-insights.md) page to analyze the performance of the page that you are authoring. Configure the reporting period to focus your analysis.
+Open the [Content Insight](/help/sites/authoring/using/content-insights.md) page to analyze the performance of the page that you are authoring. Configure the reporting period to focus your analysis.
 
 ## Opening Analytics and Recommendations for a Page {#opening-analytics-and-recommendations-for-a-page}
 
@@ -24,7 +24,7 @@ Use the following procedure to see the Analytics and Recommendations for a page:
 
    >[!NOTE]
    >
-   >Analytics and Recommendations for a page only appear if you have configured AEM to [integrate with Adobe Analytics](../../../sites/administering/using/adobeanalytics-connect.md).
+   >Analytics and Recommendations for a page only appear if you have configured AEM to [integrate with Adobe Analytics](/help/sites/administering/using/adobeanalytics-connect.md).
 
    ![](assets/screen_shot_2017-11-29at135651.png)
 
@@ -79,7 +79,7 @@ The status of the SEO recommendation indicates when the task is created but not 
 
 ![](assets/chlimage_1-253.png)
 
-When created, the task appears in the user's Tasks list. For information about tasks, see [Track Content Changes Using Task Management](../../../sites/administering/using/task-manager.md) and [Working with Tasks](../../../sites/authoring/using/task-content.md).
+When created, the task appears in the user's Tasks list. For information about tasks, see [Track Content Changes Using Task Management](/help/sites/administering/using/task-manager.md) and [Working with Tasks](/help/sites/authoring/using/task-content.md).
 
 Use the following procedure to create a task for an SEO recommendation.
 

@@ -42,7 +42,7 @@ Note that the glTF viewer's user interface is somewhat different from the standa
 
 #### See also the following: {#see-also-the-following}
 
-* [AEM 3D release notes](../../release-notes/aem3d-release-notes.md) for restrictions and limitations applicable to Dn assets and the glTF viewer.
+* [AEM 3D release notes](/help/release-notes/aem3d-release-notes.md) for restrictions and limitations applicable to Dn assets and the glTF viewer.
 * [Working with the 3D Sites component](using-the-3d-sites-component.md) for component properties specific to Adobe Dimension assets.
 * [Installing and configuring AEM 3D](install-config-3d.md) to configure the cloud-based conversion service.
 

@@ -31,9 +31,9 @@ This document provides the information about how to:
 
 For further information about how to use ContextHub audiences, see the following documentation:
 
-* [Configuring Segmentation with ContextHub](../../../sites/administering/using/segmentation.md)
-* [Managing Audiences](../../../sites/authoring/using/managing-audiences.md)
-* [Authoring Targeted Content Using Targeting Mode](../../../sites/authoring/using/content-targeting-touch.md)
+* [Configuring Segmentation with ContextHub](/help/sites/administering/using/segmentation.md)
+* [Managing Audiences](/help/sites/authoring/using/managing-audiences.md)
+* [Authoring Targeted Content Using Targeting Mode](/help/sites/authoring/using/content-targeting-touch.md)
 
 ## Creating tenant folders for ContextHub audiences {#creating-tenant-folders-for-contexthub-audiences}
 
@@ -161,7 +161,7 @@ In addition, all groups have access to common folders that are accessible to eve
 
 >[!NOTE]
 >
->See [Managing Users and Groups](../../../sites/administering/using/security.md#managing-users-and-groups) for general information on accessing the user administration and security console, creating users and groups, adding users to a group, and impersonating another user.
+>See [Managing Users and Groups](/help/sites/administering/using/security.md#managing-users-and-groups) for general information on accessing the user administration and security console, creating users and groups, adding users to a group, and impersonating another user.
 
 By default, all tenants have access to all tenant folders unless you deny them explicitly. Given the previous example, **tenants1**, **tenants2**, and **tenantsX** all have write permissions to **/etc/segmentation** because they are members of the** content-authors** group.
 
@@ -181,11 +181,11 @@ In addition, tenants cannot read tenant folders if they are denied **rep:write**
 
 After changing the rights, if you are a user in the **tenantsX** group, you see all the folders. If you are a user in the **tenants1** group, you only see folders in tenant1. If you are a user in the **tenants2** group, you only see folders in tenants 2.
 
-You can ensure that users in each tenant are seeing the correct folders by impersonating a user in each tenant. See [Impersonating another user](../../../sites/administering/using/security.md#impersonating-another-user).
+You can ensure that users in each tenant are seeing the correct folders by impersonating a user in each tenant. See [Impersonating another user](/help/sites/administering/using/security.md#impersonating-another-user).
 
 ## Creating ContextHub audiences for tenants {#creating-contexthub-audiences-for-tenants}
 
-Audiences are covered in general in detail in [Managing Audiences](../../../sites/authoring/using/managing-audiences.md). To access audiences, navigate to **Personalization** &gt; **Audiences**.
+Audiences are covered in general in detail in [Managing Audiences](/help/sites/authoring/using/managing-audiences.md). To access audiences, navigate to **Personalization** &gt; **Audiences**.
 
 Audiences can also be managed in structured folders:
 
@@ -197,24 +197,24 @@ To create an audience in a tenant folder:
 
 1. Navigate to **Personalization** &gt; **Audiences**. 
 1. Tap or click the **ContextHub** folder to open it.
-1. Tap or click **Create**. Enter a title and tap or click **Create**. See [Managing Audiences](../../../sites/authoring/using/managing-audiences.md) for additional information on creating audiences in AEM 6.2.
+1. Tap or click **Create**. Enter a title and tap or click **Create**. See [Managing Audiences](/help/sites/authoring/using/managing-audiences.md) for additional information on creating audiences in AEM 6.2.
 
 ## Selecting audiences when targeting {#selecting-audiences-when-targeting}
 
-When in targeting mode, you can select audiences from different tenants based on the privileges you have. For detailed information on targeting content, see [Authoring Targeted Content Using Targeting Mode](../../../sites/authoring/using/content-targeting-touch.md).
+When in targeting mode, you can select audiences from different tenants based on the privileges you have. For detailed information on targeting content, see [Authoring Targeted Content Using Targeting Mode](/help/sites/authoring/using/content-targeting-touch.md).
 
 1. In a page in Sites that you want to target, select **Targeting, **select an activity, and tap or click **Start Targeting**.
 1. In the **Audiences** tab, select **Add Experience Targeting**. 
 1. Select the audience from the drop-down menu of available audience folders. Only those audience folders that are available to that tenant and common folders are displayed in the drop-down menu.
-1. Select the audience and proceed with authoring targeted content as described in [Authoring Targeted Content Using Targeting Mode](../../../sites/authoring/using/content-targeting-touch.md).
+1. Select the audience and proceed with authoring targeted content as described in [Authoring Targeted Content Using Targeting Mode](/help/sites/authoring/using/content-targeting-touch.md).
 
 ## Selecting audiences for activities {#selecting-audiences-for-activities}
 
-When selecting audiences for activities in brands, you can select audiences from different tenants based on the privileges you have. For detailed information on managing activities, see [Managing Activities](../../../sites/authoring/using/activitylib.md).
+When selecting audiences for activities in brands, you can select audiences from different tenants based on the privileges you have. For detailed information on managing activities, see [Managing Activities](/help/sites/authoring/using/activitylib.md).
 
 1. Navigate to **Personalization** &gt; **Activities** and select a brand. 
 1. Select an activity and tap or click **Edit**.
 1. Select **Add Experience Targeting**. 
 1. Select the audience from the drop-down menu of available audience folders. Only those audience folders that are available to that tenant and common folders are displayed in the drop-down menu.
-1. Select the audience and proceed with managing activities as described in [Managing Activities](../../../sites/authoring/using/activitylib.md).
+1. Select the audience and proceed with managing activities as described in [Managing Activities](/help/sites/authoring/using/activitylib.md).
 

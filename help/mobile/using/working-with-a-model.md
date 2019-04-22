@@ -15,7 +15,7 @@ redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/administer-
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 A model describes a type of content and denotes what will be information will be available to the native application. This section explains the creation of new models.
 
@@ -118,7 +118,7 @@ Deleting a model will not delete entities generated from that model.
 
 Once you learn how to create models as an author, see
 
-* [Spaces and Entities](../../mobile/using/spaces-and-entities.md)
-* [Developing Models](../../mobile/using/models-in-repository.md)
-* [Content Delivery and Rendering](../../mobile/using/rendering-and-delivery.md)
+* [Spaces and Entities](/help/mobile/using/spaces-and-entities.md)
+* [Developing Models](/help/mobile/using/models-in-repository.md)
+* [Content Delivery and Rendering](/help/mobile/using/rendering-and-delivery.md)
 

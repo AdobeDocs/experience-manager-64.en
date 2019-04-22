@@ -99,7 +99,7 @@ If you must complete and submit a form later, you can save a draft copy of a for
 
 After you reopen and submit a draft form, the draft is removed from the Drafts category.
 
-Also, you can configure workspace to auto-save the information entered by a user as a draft. For more information, see [Managing Preferences](../../forms/using/getting-started-livecycle-html-workspace.md).
+Also, you can configure workspace to auto-save the information entered by a user as a draft. For more information, see [Managing Preferences](/help/forms/using/getting-started-livecycle-html-workspace.md).
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ You can add any process to your Favorites category. By setting favorites, you ca
 
 >[!NOTE]
 >
->If you usually start processes when you use AEM Forms workspace, you can set the Start Location preference to automatically display the Favorites category when you start AEM Forms workspace. For more details, see Managing Preferences in [Getting started with AEM Forms workspace](../../forms/using/getting-started-livecycle-html-workspace.md).
+>If you usually start processes when you use AEM Forms workspace, you can set the Start Location preference to automatically display the Favorites category when you start AEM Forms workspace. For more details, see Managing Preferences in [Getting started with AEM Forms workspace](/help/forms/using/getting-started-livecycle-html-workspace.md).
 
 To mark a process as favorite, select the task in its category, and click the hollow star. The star turns golden. To unmark a process as a favorite, click the golden star again.
 

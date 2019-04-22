@@ -24,22 +24,22 @@ Workflows enable you to automate Adobe Experience Manager (AEM) activities. Work
 
 The business processes that your organization has established can be represented as workflows. For example, the process of publishing website content typically includes steps such as approval and sign-off by various stakeholders. These processes can be implemented as AEM workflows and applied to content pages and assets.
 
-* [Starting Workflows](../../../sites/administering/using/workflows-starting.md)
-* [Administering Workflow Instances](../../../sites/administering/using/workflows-administering.md)
-* [Managing Access to Workflows](../../../sites/administering/using/workflows-managing.md)
+* [Starting Workflows](/help/sites/administering/using/workflows-starting.md)
+* [Administering Workflow Instances](/help/sites/administering/using/workflows-administering.md)
+* [Managing Access to Workflows](/help/sites/administering/using/workflows-managing.md)
 
 >[!NOTE]
 >
 >For further information see:
 >
->* Applying and participating in workflows: [Working with Workflows](../../../sites/authoring/using/workflows.md). 
->* Creating workflow models and extending workflow functionality: [Developing and Extending Workflows](../../../sites/developing/using/workflows.md). 
->* Improving the performance of workflows that use significant server resources: [Concurrent Workflow Processing](../../../sites/deploying/using/configuring-performance.md#concurrent-workflow-processing).
+>* Applying and participating in workflows: [Working with Workflows](/help/sites/authoring/using/workflows.md). 
+>* Creating workflow models and extending workflow functionality: [Developing and Extending Workflows](/help/sites/developing/using/workflows.md). 
+>* Improving the performance of workflows that use significant server resources: [Concurrent Workflow Processing](/help/sites/deploying/using/configuring-performance.md#concurrent-workflow-processing).
 >
 
 ## Workflow Models and Instances {#workflow-models-and-instances}
 
-[Workflow models](../../../sites/developing/using/workflows.md#model) in AEM are the representation and implementation of business processes:
+[Workflow models](/help/sites/developing/using/workflows.md#model) in AEM are the representation and implementation of business processes:
 
 * Typically they act on pages or assets to achieve a specific result. 
 * These pages and/or assets are called the workflow payload. 
@@ -50,7 +50,7 @@ When a workflow model is started (executed), a workflow instance is created. A w
 
 >[!CAUTION]
 >
->The steps performed are those defined by the workflow model *at the time the instance is generated*. See [Developing Workflows](../../../sites/developing/using/workflows.md#model) for further details.
+>The steps performed are those defined by the workflow model *at the time the instance is generated*. See [Developing Workflows](/help/sites/developing/using/workflows.md#model) for further details.
 
 Workflow instances progress through the following lifecycle:
 

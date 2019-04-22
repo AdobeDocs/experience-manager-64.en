@@ -15,7 +15,7 @@ discoiquuid: a7f31bc8-c583-439f-b2af-1dcc58f9c481
 
 This section is for the Classic UI Tagging Console.
 
-The Touch-optimized UI Tagging Console is [here](../../../sites/administering/using/tags.md#tagging-console).
+The Touch-optimized UI Tagging Console is [here](/help/sites/administering/using/tags.md#tagging-console).
 
 To access the Classic UI Tagging console :
 
@@ -154,7 +154,7 @@ The dialog looks as follows:
 
 The Tagging console uses the user language setting, so for the Animal tag, 'Animaux' is displayed for a user who sets the language to French in user properties.
 
-To add a new language to the dialog, please refer to the section [Adding a New Language to the Edit Tag Dialog](../../../sites/developing/using/building.md#adding-a-new-language-to-the-edit-tag-dialog) in the **Tagging for Developers** section.
+To add a new language to the dialog, please refer to the section [Adding a New Language to the Edit Tag Dialog](/help/sites/developing/using/building.md#adding-a-new-language-to-the-edit-tag-dialog) in the **Tagging for Developers** section.
 
 ### Displaying Tag Titles in Page Properties in a Specified Language {#displaying-tag-titles-in-page-properties-in-a-specified-language}
 
@@ -171,7 +171,7 @@ By default the tag `titles`in the page properties are displayed in the page lang
 
 By default, the Page Properties dialog displays the tag `titles`according to the page language.
 
-In general, the language of the tag is taken from the page language if the page language is available. When the [ `tag` widget](../../../sites/developing/using/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
+In general, the language of the tag is taken from the page language if the page language is available. When the [ `tag` widget](/help/sites/developing/using/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
 
 >[!NOTE]
 >

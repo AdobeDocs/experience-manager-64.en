@@ -41,9 +41,9 @@ Additionally, a web application firewall, such as [mod_security for Apache](http
 
 >[!NOTE]
 >
->ACLs for the Cloud Service Information as well as the OSGi settings required to secure your instance are automated as part of the [Production Ready Mode](../../../sites/administering/using/production-ready.md). While this means that you do not need to make the configuration changes manually, it is still recommended that you review them before you go live with your deployment.
+>ACLs for the Cloud Service Information as well as the OSGi settings required to secure your instance are automated as part of the [Production Ready Mode](/help/sites/administering/using/production-ready.md). While this means that you do not need to make the configuration changes manually, it is still recommended that you review them before you go live with your deployment.
 
-When you [integrate your AEM instance with the Adobe Marketing Cloud](../../../sites/administering/using/marketing-cloud.md) you use [Cloud Service configurations](../../../sites/developing/using/extending-cloud-config.md). Information about these configurations, together with any statistics collected are stored in the repository. We recommend that, if you are using this functionality, you review whether the default security on this information matches your requirements.
+When you [integrate your AEM instance with the Adobe Marketing Cloud](/help/sites/administering/using/marketing-cloud.md) you use [Cloud Service configurations](/help/sites/developing/using/extending-cloud-config.md). Information about these configurations, together with any statistics collected are stored in the repository. We recommend that, if you are using this functionality, you review whether the default security on this information matches your requirements.
 
 The webservicesupport module writes statistics and configuration information under:
 
@@ -57,4 +57,4 @@ With the default permissions:
 
 ## Protect against Cross-Site Request Forgery Attacks {#protect-against-cross-site-request-forgery-attacks}
 
-For more information on the security mechanisms AEM employs to mitigate CSRF attacks, see the [Sling Referrer Filter](../../../sites/administering/using/security-checklist.md#protect-against-cross-site-request-forgery) section of the Security Checklist and the [CSRF Protection Framwork documentation](../../../sites/developing/using/csrf-protection.md).  
+For more information on the security mechanisms AEM employs to mitigate CSRF attacks, see the [Sling Referrer Filter](/help/sites/administering/using/security-checklist.md#protect-against-cross-site-request-forgery) section of the Security Checklist and the [CSRF Protection Framwork documentation](/help/sites/developing/using/csrf-protection.md).  

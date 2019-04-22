@@ -24,7 +24,7 @@ With Adobe Experience Manager (AEM), you can seamlessly integrate with the follo
 * Adobe Search&Promote gives marketers the ability to control and optimize the search results on their sites.  
 * Adobe Campaign lets you manage email delivery content directly in Adobe Experience Manager.
 
-In addition, you can integrate AEM with the [creative cloud](../../../sites/administering/using/creative-cloud.md) and with [third-party services](../../../sites/administering/using/third-party-services.md).
+In addition, you can integrate AEM with the [creative cloud](/help/sites/administering/using/creative-cloud.md) and with [third-party services](/help/sites/administering/using/third-party-services.md).
 
 ## Integrating with Adobe Analytics {#integrating-with-adobe-analytics}
 
@@ -41,9 +41,9 @@ Integrating with Adobe Analytics allows you to do the following:
 * Configure complete site sections at once.
 * Track custom-defined events.
 
-For information about integrating AEM with Analytics, see [Integrating with Adobe Analytics](../../../sites/administering/using/adobeanalytics.md).
+For information about integrating AEM with Analytics, see [Integrating with Adobe Analytics](/help/sites/administering/using/adobeanalytics.md).
 
-You can also use the [Opt-in wizard](../../../sites/administering/using/opt-in.md) to easily perform the integration.
+You can also use the [Opt-in wizard](/help/sites/administering/using/opt-in.md) to easily perform the integration.
 
 ## Integrating with Adobe Target {#integrating-with-adobe-target}
 
@@ -51,9 +51,9 @@ You can also use the [Opt-in wizard](../../../sites/administering/using/opt-in.m
 
 Online consumers today have constantly evolving needs and expect relevant, even personalized content from the wide variety of sites and content sources they can choose from. To engage an online audience, it is critical that online marketers quickly identify which offers and content are relevant and compelling to their audiences. Armed with this knowledge, marketers need the capability to continually evolve their sites and to target the appropriate content to different audiences.
 
-[Integrating with Adobe Target](../../../sites/administering/using/target.md) explains how to integrate your site with Target.
+[Integrating with Adobe Target](/help/sites/administering/using/target.md) explains how to integrate your site with Target.
 
-You can also use the [Opt-in wizard](../../../sites/administering/using/opt-in.md) to easily perform the integration.
+You can also use the [Opt-in wizard](/help/sites/administering/using/opt-in.md) to easily perform the integration.
 
 ## Opting In to Analytics and Target {#opting-in-to-analytics-and-target}
 
@@ -63,7 +63,7 @@ AEM provides a simple opt-in procedure to integrate with Adobe Analytics and Ado
 
 Opt into the integration with Analytics and/or Target to enable the use of their page tracking and analysis capabilities, and personalization capabilities. When you opt in you need to provide your user account information and specify the pages that are tracked.
 
-For more information, see [Opting Into Adobe Analytics and Adobe Target.](../../../sites/administering/using/opt-in.md)
+For more information, see [Opting Into Adobe Analytics and Adobe Target.](/help/sites/administering/using/opt-in.md)
 
 ## Integrating with Scene7 {#integrating-with-scene}
 
@@ -80,13 +80,13 @@ In addition, you can view AEM assets published in Scene7 in various viewers:
 * Flash Template
 * Image Template
 
-For more information on how AEM integrates with Scene7, see the [Integrating with Scene7 documentation](../../../sites/administering/using/scene7.md).
+For more information on how AEM integrates with Scene7, see the [Integrating with Scene7 documentation](/help/sites/administering/using/scene7.md).
 
 ## Integrating with Adobe Dynamic Tag Management {#integrating-with-adobe-dynamic-tag-management}
 
 [Adobe Dynamic Tag Management](https://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html) gives marketers intuitive tools to quickly and easily manage an unlimited number of Adobe and third-party tags. You'll have more control and flexibility to optimize virtually anything online, all while reducing the dependence on IT resources.
 
-[Integrate Adobe Dynamic Tag Management](../../../sites/administering/using/dtm.md) with AEM so that you can use your Dynamic Tag Management web properties to track AEM sites.
+[Integrate Adobe Dynamic Tag Management](/help/sites/administering/using/dtm.md) with AEM so that you can use your Dynamic Tag Management web properties to track AEM sites.
 
 ## Integrating with Adobe Audience Manager {#integrating-with-adobe-audience-manager}
 
@@ -98,13 +98,13 @@ The Audience Manager integration has been removed in AEM 6.3.
 
 Adobe Search&Promote is a reliable and scalable hosted site search application, capable of scaling to millions of pages or products, for heavily visited online businesses ranging from retail to news sites. It offers unprecedented levels of marketer control and metrics-based relevance.
 
-For information about integrating AEM and Search&Promote, see [Integrating with Adobe Search&Promote](../../../sites/administering/using/search-and-promote.md).
+For information about integrating AEM and Search&Promote, see [Integrating with Adobe Search&Promote](/help/sites/administering/using/search-and-promote.md).
 
 ## Integrating with Adobe Campaign {#integrating-with-adobe-campaign}
 
 [Adobe Campaign](https://www.adobe.com/solutions/campaign-management.html) lets you manage email delivery content directly in Adobe Experience Manager.
 
-For information on how AEM integrates with Adobe Campaign, see [Integrating with Adobe Campaign](../../../sites/administering/using/campaignstandard.md).
+For information on how AEM integrates with Adobe Campaign, see [Integrating with Adobe Campaign](/help/sites/administering/using/campaignstandard.md).
 
 ## Integrating with Livefyre {#integrating-with-livefyre}
 

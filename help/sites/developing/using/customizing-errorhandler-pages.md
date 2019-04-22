@@ -28,7 +28,7 @@ System provided scripts exist (under `/libs/sling/servlet/errorhandler`) to resp
 
 >[!NOTE]
 >
->On an author instance, [CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md) is enabled by default. This always results in the response code 200. The default error handler responds by writing the full stack trace to the response.
+>On an author instance, [CQ WCM Debug Filter](/help/sites/deploying/using/osgi-configuration-settings.md) is enabled by default. This always results in the response code 200. The default error handler responds by writing the full stack trace to the response.
 >
 >On a publish instance, CQ WCM Debug Filter is *always* disabled (even if configured as enabled).
 
@@ -38,7 +38,7 @@ You can develop your own scripts to customize the pages shown by the error handl
 
 >[!NOTE]
 >
->See [Using Overlays](../../../sites/developing/using/overlays.md) for more details.
+>See [Using Overlays](/help/sites/developing/using/overlays.md) for more details.
 
 1. In the repository, copy the default script(s):
 
@@ -85,9 +85,9 @@ To handle 500 errors, the file name of the error handler script must be the same
 
 >[!CAUTION]
 >
->On an author instance, [CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md) is enabled by default. This always results in the response code 200. The default error handler responds by writing the full stack trace to the response.
+>On an author instance, [CQ WCM Debug Filter](/help/sites/deploying/using/osgi-configuration-settings.md) is enabled by default. This always results in the response code 200. The default error handler responds by writing the full stack trace to the response.
 >
->For a custom error-handler, responses with code 500 are needed - so the [CQ WCM Debug Filter needs to be disabled](../../../sites/deploying/using/osgi-configuration-settings.md). This ensures that the response code 500 is returned, which in turn triggers the correct Sling error-handler.
+>For a custom error-handler, responses with code 500 are needed - so the [CQ WCM Debug Filter needs to be disabled](/help/sites/deploying/using/osgi-configuration-settings.md). This ensures that the response code 500 is returned, which in turn triggers the correct Sling error-handler.
 >
 >On a publish instance, CQ WCM Debug Filter is *always* disabled (even if configured as enabled).
 

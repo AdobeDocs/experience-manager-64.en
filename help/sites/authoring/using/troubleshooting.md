@@ -17,11 +17,11 @@ The following section covers some issues that you might encounter when using AEM
 
 >[!NOTE]
 >
->When experiencing problems it is also worthwhile checking the list of [Known Issues](../../../release-notes/known-issues.md) for your instance (release and service packs).
+>When experiencing problems it is also worthwhile checking the list of [Known Issues](/help/release-notes/known-issues.md) for your instance (release and service packs).
 
 >[!NOTE]
 >
->Users who have administrator privileges, and who want to troubleshoot problems with AEM, can use the troubleshooting methods described in [Troubleshooting AEM (for Administrators)](../../../sites/administering/using/troubleshoot.md). If you do not have sufficient privileges, please see your system administrator about troubleshooting AEM.
+>Users who have administrator privileges, and who want to troubleshoot problems with AEM, can use the troubleshooting methods described in [Troubleshooting AEM (for Administrators)](/help/sites/administering/using/troubleshoot.md). If you do not have sufficient privileges, please see your system administrator about troubleshooting AEM.
 
 ## Old page version still on published site {#old-page-version-still-on-published-site}
 

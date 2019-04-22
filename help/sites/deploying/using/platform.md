@@ -126,8 +126,8 @@ Because Oak is designed to be backwards compatible with the JCR 1.0 standard, th
 
 For more information regarding the AEM platform, also check the articles below:
 
-* [Configuring Node Stores and Data Stores in AEM 6](../../../sites/deploying/using/data-store-config.md)
-* [Oak Queries and Indexing](../../../sites/deploying/using/queries-and-indexing.md)
-* [Storage Elements in AEM 6](../../../sites/deploying/using/storage-elements-in-aem-6.md)
-* [AEM with MongoDB](../../../sites/deploying/using/aem-with-mongodb.md)
+* [Configuring Node Stores and Data Stores in AEM 6](/help/sites/deploying/using/data-store-config.md)
+* [Oak Queries and Indexing](/help/sites/deploying/using/queries-and-indexing.md)
+* [Storage Elements in AEM 6](/help/sites/deploying/using/storage-elements-in-aem-6.md)
+* [AEM with MongoDB](/help/sites/deploying/using/aem-with-mongodb.md)
 

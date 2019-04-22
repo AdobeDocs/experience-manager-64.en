@@ -12,7 +12,7 @@ discoiquuid: 28c92e7d-2106-4333-afa6-c5528a00d7b4
 
 # E-Commerce Repository Restructuring in AEM 6.4{#e-commerce-repository-restructuring-in-aem}
 
-As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM E-Commerce Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
+As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM E-Commerce Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
 
 ## With 6.4 Upgrade {#with-upgrade}
 
@@ -30,7 +30,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>You can use a <a href="../../../sites/deploying/using/lazy-content-migration.md" target="_blank">Lazy Migration</a> task to migrate E-Commerce data.</p> <p>It performs the following steps:</p> 
+   <td><p>You can use a <a href="/help/sites/deploying/using/lazy-content-migration.md" target="_blank">Lazy Migration</a> task to migrate E-Commerce data.</p> <p>It performs the following steps:</p> 
     <ul> 
      <li>adjusts references to old location to point to new location</li> 
      <li>moves content from old location to new location</li> 

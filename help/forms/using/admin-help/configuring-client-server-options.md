@@ -69,7 +69,7 @@ Height: Minimum = 450; maximum = 800
 
 Your AEM forms environment contains one or more administrator users who have the appropriate privileges for creating users and groups. If your organization is using document security, at least one administrator must also be assigned the privilege to manage invited and local users.
 
-The administrators must also have the administration console User role in order to access administration console. (See [Creating and configuring roles](../../../forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).)
+The administrators must also have the administration console User role in order to access administration console. (See [Creating and configuring roles](/help/forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).)
 
 ### Configuring visible users and groups {#configuring-visible-users-and-groups}
 
@@ -123,7 +123,7 @@ With extended authentication enabled, users opening a policy protected document 
 
 ## Configuring offline security {#configuring-offline-security}
 
-document security provides the ability to use policy-protected documents offline without an Internet or network connection. This ability requires that the policy allow offline access, as described in [Specify the document permissions for users and groups](../../../forms/using/admin-help/creating-policies.md#specify-the-document-permissions-for-users-and-groups). Before a document having such a policy can be used offline, the recipient must open the document while online and enable offline access, by clicking Yes when prompted. The recipient may also be requested to authenticate his identity. The recipient can then use documents offline for the duration of the offline lease period that is specified in the policy.
+document security provides the ability to use policy-protected documents offline without an Internet or network connection. This ability requires that the policy allow offline access, as described in [Specify the document permissions for users and groups](/help/forms/using/admin-help/creating-policies.md#specify-the-document-permissions-for-users-and-groups). Before a document having such a policy can be used offline, the recipient must open the document while online and enable offline access, by clicking Yes when prompted. The recipient may also be requested to authenticate his identity. The recipient can then use documents offline for the duration of the offline lease period that is specified in the policy.
 
 When the offline lease period ends, the recipient must synchronize again with document security either by opening a document online or by using an Acrobat or Acrobat Reader DC extensions menu command to synchronize. (See *Acrobat Help* or the appropriate *Acrobat Reader DC extensions Help*.)
 
@@ -381,7 +381,7 @@ Before you begin, ensure that Server Auditing is enabled. See [Configuring event
 1. To configure extended usage tracking, under Enable Tracking, select Yes or No.
 1. To set the selection of the Allow collection of detailed usage data check box on the log in page, under Enable Tracking default, select Yes or No.
 
-To view the tracked events you can use the Document Events filter on the Events page. The events tracked using JavaScript are labelled as Detailed Usage Tracking. Refer to [Monitoring events](../../../forms/using/admin-help/monitoring-events.md#monitoring-events) for more information on events.
+To view the tracked events you can use the Document Events filter on the Events page. The events tracked using JavaScript are labelled as Detailed Usage Tracking. Refer to [Monitoring events](/help/forms/using/admin-help/monitoring-events.md#monitoring-events) for more information on events.
 
 ## Configure document security display settings {#configure-document-security-display-settings}
 
@@ -477,7 +477,7 @@ You can create dynamic watermark templates. These templates remain available as 
 1. Click New.
 1. In the Name box, type a name for the new watermark.
 
-   ***note**: You cannot use some special characters in the names or descriptions of watermarks or watermark elements. See the restrictions listed in [Considerations for editing policies](../../../forms/using/admin-help/creating-policies.md#considerations-for-editing-policies).*
+   ***note**: You cannot use some special characters in the names or descriptions of watermarks or watermark elements. See the restrictions listed in [Considerations for editing policies](/help/forms/using/admin-help/creating-policies.md#considerations-for-editing-policies).*
 
 1. Under Name, next to the plus sign, enter a meaningful name to the watermark element such as Header, and add a description, and expand the plus sign to display the options.
 1. Under Source, select the type of watermark as either Text or PDF.
@@ -532,7 +532,7 @@ When you delete a dynamic watermark, it is no longer available to add to a new p
 
 Users who are external to your organization can register with document security. Invited users who register and activate their accounts can log in to document security by using their email address and the password they create when they register. Registered invited users can use policy-protected documents to which they have permissions.
 
-When invited users are activated, they become local users. Local users can be configured and managed by using the Invited and Local Users area. (See [Managing invited and local user accounts](../../../forms/using/admin-help/invited-local-user-accounts.md#managing-invited-and-local-user-accounts).)
+When invited users are activated, they become local users. Local users can be configured and managed by using the Invited and Local Users area. (See [Managing invited and local user accounts](/help/forms/using/admin-help/invited-local-user-accounts.md#managing-invited-and-local-user-accounts).)
 
 Depending on the capabilities that you enable for invited users, they can also use these document security features:
 
@@ -547,7 +547,7 @@ Document security automatically generates a registration invitation email when t
 
 The registration email contains a link to a Registration page and information about how to register. After the invited user registers, document security issues an activation email with a link to an Activation page. When activated, the account remains valid until you deactivate or delete it.
 
-If you enable built-in registration, you specify your SMTP server, registration email details, access capabilities, and reset password email information only once. Before you enable built-in registration, ensure that you have created a local domain in User Management have assigned the “Document security Invite User” role to the appropriate users and groups in your organization. (See [Add a local domain](../../../forms/using/admin-help/adding-domains.md#add-a-local-domain) and [Creating and configuring roles](../../../forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).) If you do not use built-in registration, you must have your own user registration system created using the AEM forms SDK. See the help on “Developing SPIs for AEM forms” in [Programming with AEM forms](https://www.adobe.com/go/learn-aemforms-programming-63). If you do not use the Built-in Registration option, it is recommended that you configure a message in the activation email and on the client login screen to notify users about how to contact the administrator for a new password or for other information.
+If you enable built-in registration, you specify your SMTP server, registration email details, access capabilities, and reset password email information only once. Before you enable built-in registration, ensure that you have created a local domain in User Management have assigned the “Document security Invite User” role to the appropriate users and groups in your organization. (See [Add a local domain](/help/forms/using/admin-help/adding-domains.md#add-a-local-domain) and [Creating and configuring roles](/help/forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).) If you do not use built-in registration, you must have your own user registration system created using the AEM forms SDK. See the help on “Developing SPIs for AEM forms” in [Programming with AEM forms](https://www.adobe.com/go/learn-aemforms-programming-63). If you do not use the Built-in Registration option, it is recommended that you configure a message in the activation email and on the client login screen to notify users about how to contact the administrator for a new password or for other information.
 
 **Enable and configure invited user registration**
 
@@ -1032,7 +1032,7 @@ By default, while synchronizing a document for offline use, along with the infor
 
 You can increase the scalability of the document security server by limiting the information being sent to the client. The reduction in amount of information sent to client results in improved scalability, reduced response time, and better performance of the server. Perform the following steps to increase the scalability:
 
-1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually-editing-the-document-security-configuration-file).) [](../../../forms/using/admin-help/configuring-client-server-options.md#manually-editing-the-document-security-configuration-file)
+1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually-editing-the-document-security-configuration-file).) [](/help/forms/using/admin-help/configuring-client-server-options.md#manually-editing-the-document-security-configuration-file)
 1. Open the configuration file in an editor and locate the ServerSettings node. 
 1. In the ServerSettings node, set the value of the `DisableGlobalOfflineSynchronizationData`property to `true`.
 
@@ -1044,5 +1044,5 @@ You can increase the scalability of the document security server by limiting the
    >
    >By default, the value of the `DisableGlobalOfflineSynchronizationData`key is set to `false`.
 
-1. Save and import the configuration file. (See [Manually editing the document security configuration file](../../../forms/using/admin-help/configuring-client-server-options.md#manually-editing-the-document-security-configuration-file).)
+1. Save and import the configuration file. (See [Manually editing the document security configuration file](/help/forms/using/admin-help/configuring-client-server-options.md#manually-editing-the-document-security-configuration-file).)
 

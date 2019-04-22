@@ -222,13 +222,13 @@ You can edit an existing video encoding profile to take advantage of advanced vi
     </tr> 
     <tr> 
     <td><span class="code">minBitrate</span></td> 
-    <td><p>Minimum bitrate to allow for variable bitrate encodings, in Kbps (kilobits per second).</p> <p>This parameter only applies when<strong> Use Constant Bitrate</strong> is deselected in the Advanced tab when you create or edit a video encoding profile.</p> <p>See also <a href="../../assets/using/video.md#bitrate">Bitrate</a>.</p> </td> 
+    <td><p>Minimum bitrate to allow for variable bitrate encodings, in Kbps (kilobits per second).</p> <p>This parameter only applies when<strong> Use Constant Bitrate</strong> is deselected in the Advanced tab when you create or edit a video encoding profile.</p> <p>See also <a href="/help/assets/using/video.md#bitrate">Bitrate</a>.</p> </td> 
     <td><span class="code">String</span></td> 
     <td><p>Positive number, in Kbps.</p> <p>No default value.</p> </td> 
     </tr> 
     <tr> 
     <td><span class="code">maxBitrate</span></td> 
-    <td><p>Maximum bitrate to allow for variable bitrate encodings, in Kbps.</p> <p>This parameter only applies when<strong> Use Constant Bitrate</strong> is deselected in the Advanced tab when you create or edit a video encoding profile.</p> <p>See also <a href="../../assets/using/video.md#bitrate">Bitrate</a>.</p> </td> 
+    <td><p>Maximum bitrate to allow for variable bitrate encodings, in Kbps.</p> <p>This parameter only applies when<strong> Use Constant Bitrate</strong> is deselected in the Advanced tab when you create or edit a video encoding profile.</p> <p>See also <a href="/help/assets/using/video.md#bitrate">Bitrate</a>.</p> </td> 
     <td><span class="code">String</span></td> 
     <td><p>Positive number, in Kbps.</p> <p>No default value. However, the recommended value is up to two times of the encoding bitrate.</p> </td> 
     </tr> 

@@ -50,7 +50,7 @@ Each items present in the model contains a `:type` field that exposes an AEM res
 
 #### Dynamic Model to Component Mapping {#dynamic-model-to-component-mapping}
 
-For details about how the dynamic model to component mapping occurs in the Javascript SPA SDK for AEM see the article [Dynamic Model to Component Mapping for SPAs](../../../sites/developing/using/spa-dynamic-model-to-component-mapping.md).
+For details about how the dynamic model to component mapping occurs in the Javascript SPA SDK for AEM see the article [Dynamic Model to Component Mapping for SPAs](/help/sites/developing/using/spa-dynamic-model-to-component-mapping.md).
 
 ### Framework-Specific Layer {#framework-specific-layer}
 
@@ -107,7 +107,7 @@ The following entities should be implemented in accordance with the guidelines s
 
 Project components must delegate access to the fragments of a model to a Model Provider. The Model Provider is then in charge of listening for changes made to the specified fragment of the model and return the updated model to the delegating component.
 
-To do this, the Model Provider must register to the ` [PageModelManager](../../../sites/developing/using/spa-blueprint.md#pagemodelmanager)`. Then when a change occurs it receives and and pass the updated data to the delegating component. By convention, the property made available to the delegating component that will carry the fragment of model is named `cqModel`. The implementation is free to provide this property to the component but should consider aspects such as the integration with framework architecture, discoverability, and ease of use.
+To do this, the Model Provider must register to the ` [PageModelManager](/help/sites/developing/using/spa-blueprint.md#pagemodelmanager)`. Then when a change occurs it receives and and pass the updated data to the delegating component. By convention, the property made available to the delegating component that will carry the fragment of model is named `cqModel`. The implementation is free to provide this property to the component but should consider aspects such as the integration with framework architecture, discoverability, and ease of use.
 
 ### The Component HTML Decorator {#the-component-html-decorator}
 
@@ -139,11 +139,11 @@ Each component must be extended with a functionality that will decorate the oute
 
 A container is a component meant to contain and render child components. To do so, the container iterates over the `:itemsOrder`, `:items` and `:children` properties of its model.
 
-The container dynamically gets the child components from the store of the ` [ComponentMapping](../../../sites/developing/using/spa-blueprint.md#componentmapping)` library. The container then extends the child component with the Model Provider capabilities and finally instantiate it.
+The container dynamically gets the child components from the store of the ` [ComponentMapping](/help/sites/developing/using/spa-blueprint.md#componentmapping)` library. The container then extends the child component with the Model Provider capabilities and finally instantiate it.
 
 ### Page {#page}
 
-The `Page` component extends the `Container` component. A container is a component meant to contain and render child components including child pages. To do so, the container iterates over the `:itemsOrder`, `:items`, and `:children` properties of its model. The `Page` component dynamically gets the child components from the store of the [ComponentMapping](../../../sites/developing/using/spa-blueprint.md#componentmapping) library. The `Page` is responsible for instantiating child components.
+The `Page` component extends the `Container` component. A container is a component meant to contain and render child components including child pages. To do so, the container iterates over the `:itemsOrder`, `:items`, and `:children` properties of its model. The `Page` component dynamically gets the child components from the store of the [ComponentMapping](/help/sites/developing/using/spa-blueprint.md#componentmapping) library. The `Page` is responsible for instantiating child components.
 
 ### Responsive Grid {#responsive-grid}
 
@@ -178,7 +178,7 @@ For example:
 
 #### Component Mapping {#component-mapping}
 
-The underlying [Component Mapping](../../../sites/developing/using/spa-blueprint.md#componentmapping) library and its `MapTo` function can be encapsulated and extended to provide the functionalities relative to the edit configuration provided alongside the current component class.
+The underlying [Component Mapping](/help/sites/developing/using/spa-blueprint.md#componentmapping) library and its `MapTo` function can be encapsulated and extended to provide the functionalities relative to the edit configuration provided alongside the current component class.
 
 ```
 const EditConfig = {
@@ -200,7 +200,7 @@ class MyComponent extends Component {
 MapTo('component/resource/path')(MyComponent, EditConfig);
 ```
 
-In the above implementation, the project component is extended with the emptiness functionality before the being actually registered in the [Component Mapping](../../../sites/developing/using/spa-blueprint.md#componentmapping) store. This is done by encapsulating and extending the ` [ComponentMapping](/content.md#main-pars-header-906602219)` library to introduce the support of the `EditConfig` configuration object:
+In the above implementation, the project component is extended with the emptiness functionality before the being actually registered in the [Component Mapping](/help/sites/developing/using/spa-blueprint.md#componentmapping) store. This is done by encapsulating and extending the ` [ComponentMapping](/content.md#main-pars-header-906602219)` library to introduce the support of the `EditConfig` configuration object:
 
 ```
 /**
@@ -262,20 +262,20 @@ The following fragment illustrates the typical HTML representation of a page con
 
 The App owns the routing. The front end developer first needs to implement a Navigation component (mapped to an AEM navigation component). This component would render URL links to be used in conjunction with a series of routes that will display or hide fragments of content.
 
-The underlying [ `PageModelManager`](../../../sites/developing/using/spa-blueprint.md#pagemodelmanager) library and its ` [ModelRouter](../../../sites/developing/using/spa-routing.md)` module (enabled by default) are responsible for pre-fetching and providing access to the model associated with a given resource path.
+The underlying [ `PageModelManager`](/help/sites/developing/using/spa-blueprint.md#pagemodelmanager) library and its ` [ModelRouter](/help/sites/developing/using/spa-routing.md)` module (enabled by default) are responsible for pre-fetching and providing access to the model associated with a given resource path.
 
-The two entities relate to the notion of routing but the ` [ModelRouter](../../../sites/developing/using/spa-routing.md)` is only responsible for having the ` [PageModelManager](../../../sites/developing/using/spa-blueprint.md#pagemodelmanager)` loaded with a data model structured in sync with the current application state.
+The two entities relate to the notion of routing but the ` [ModelRouter](/help/sites/developing/using/spa-routing.md)` is only responsible for having the ` [PageModelManager](/help/sites/developing/using/spa-blueprint.md#pagemodelmanager)` loaded with a data model structured in sync with the current application state.
 
-See the article [SPA Model Routing](../../../sites/developing/using/spa-routing.md) for more information.
+See the article [SPA Model Routing](/help/sites/developing/using/spa-routing.md) for more information.
 
 ## SPA in Action {#spa-in-action}
 
-See how a simple SPA works and experiment with an SPA yourself by continuing on to the document [Getting Started with SPAs in AEM](../../../sites/developing/using/spa-getting-started-react.md).
+See how a simple SPA works and experiment with an SPA yourself by continuing on to the document [Getting Started with SPAs in AEM](/help/sites/developing/using/spa-getting-started-react.md).
 
 ## Further Reading {#further-reading}
 
 For more information about SPAs in AEM, see the following documents:
 
-* [SPA Authoring Overview](../../../sites/developing/using/spa-overview.md) for an overview of SPAs in AEM and the communication model  
+* [SPA Authoring Overview](/help/sites/developing/using/spa-overview.md) for an overview of SPAs in AEM and the communication model  
 
-* [Getting Started with SPAs in AEM](../../../sites/developing/using/spa-getting-started-react.md) for a guide to a simple SPA and how it works
+* [Getting Started with SPAs in AEM](/help/sites/developing/using/spa-getting-started-react.md) for a guide to a simple SPA and how it works

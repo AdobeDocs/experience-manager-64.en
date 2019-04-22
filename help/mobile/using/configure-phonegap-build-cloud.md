@@ -15,7 +15,7 @@ discoiquuid: 3c84f4ec-d89b-4ad4-802e-ee3e2d49d916
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 The **PhoneGap Build Tile** on the application dashboard provides the ability to build and distribute your PhoneGap mobile application through the Adobe PhoneGap Build Service.
 
@@ -105,6 +105,6 @@ Once you have verified that the above works, use the **PhoneGap Build** Tile to 
 
 To learn about the roles and responsibilities of an Author and Developer, see the resources below:
 
-* [Developing for Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md)
-* [Authoring for Adobe PhoneGap Enterprise in AEM](../../mobile/using/phonegap.md)
+* [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/developing-in-phonegap.md)
+* [Authoring for Adobe PhoneGap Enterprise in AEM](/help/mobile/using/phonegap.md)
 

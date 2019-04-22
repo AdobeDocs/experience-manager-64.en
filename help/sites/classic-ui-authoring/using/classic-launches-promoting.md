@@ -42,7 +42,7 @@ Use workflow models to perform bulk processing of promoted Launches pages:
 1. When authors promote Launch pages, they store them in the workflow package.
 1. Start a workflow model using the package as the payload.
 
-To start a workflow automatically when pages are promoted, [configure a workflow launcher](../../../sites/administering/using/workflows-starting.md#workflows-launchers) for the package node.
+To start a workflow automatically when pages are promoted, [configure a workflow launcher](/help/sites/administering/using/workflows-starting.md#workflows-launchers) for the package node.
 
 For example, you can automatically generate page activation requests when authors promote Launches pages. Configure a workflow launcher to start the Request Activation workflow when the package node is modified. 
 

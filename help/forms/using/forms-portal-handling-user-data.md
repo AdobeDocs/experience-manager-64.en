@@ -12,9 +12,9 @@ discoiquuid: 48f841b7-0e7f-4216-9ee8-fb6e843acaf0
 
 # Forms Portal | Handling user data{#forms-portal-handling-user-data}
 
-AEM Forms portal provides components that you can use to list adaptive forms, HTML5 forms, and other Forms assets on AEM Sites page. In addition, you can configure it to display drafts and submitted adaptive forms and HTML5 forms for a logged-in user. For more information about forms portal, see [Introduction to publishing forms on a portal](../../forms/using/introduction-publishing-forms.md).
+AEM Forms portal provides components that you can use to list adaptive forms, HTML5 forms, and other Forms assets on AEM Sites page. In addition, you can configure it to display drafts and submitted adaptive forms and HTML5 forms for a logged-in user. For more information about forms portal, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 
-When a logged-in user saves an adaptive form as draft or submits it, they are displayed in the Drafts and Submissions tabs on forms portal. The data for drafts or submitted forms is stored in the data store configured for AEM deployment. The drafts and submissions of anonymous users are not displayed on forms portal page; however, the data is stored in the configured data store. For more information, see [Configuring storage services for drafts and submissions](../../forms/using/configuring-draft-submission-storage.md).
+When a logged-in user saves an adaptive form as draft or submits it, they are displayed in the Drafts and Submissions tabs on forms portal. The data for drafts or submitted forms is stored in the data store configured for AEM deployment. The drafts and submissions of anonymous users are not displayed on forms portal page; however, the data is stored in the configured data store. For more information, see [Configuring storage services for drafts and submissions](/help/forms/using/configuring-draft-submission-storage.md).
 
 ## User data and data stores {#user-data-and-data-stores}
 

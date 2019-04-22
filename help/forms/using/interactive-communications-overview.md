@@ -32,7 +32,7 @@ Following are the key capabilities of Interactive Communications:
 
 ## Sample use case {#sample-use-case}
 
-The [Welcome kit for a credit card customer](../../forms/using/finance-reference-site-walkthrough.md#credit-card-application-walkthrough) sample use case showcases the capabilities of an Interactive Communication. 
+The [Welcome kit for a credit card customer](/help/forms/using/finance-reference-site-walkthrough.md#credit-card-application-walkthrough) sample use case showcases the capabilities of an Interactive Communication. 
 
 ## Interactive Communication creation  {#interactive-communication-creation}
 
@@ -42,34 +42,34 @@ The [Welcome kit for a credit card customer](../../forms/using/finance-reference
 
 To create an Interactive Communication, have the [building blocks](#buildingblocks) for Interactive Communication ready and then complete the following steps:
 
-1. Choose to [create an Interactive Communication](../../forms/using/create-interactive-communication.md).   
+1. Choose to [create an Interactive Communication](/help/forms/using/create-interactive-communication.md).   
 
-1. Specify the [form data model](../../forms/using/data-integration.md), prefill service, and [print and web channel templates](../../forms/using/web-channel-print-channel.md). You can choose to generate web channel from the print channel. 
+1. Specify the [form data model](/help/forms/using/data-integration.md), prefill service, and [print and web channel templates](/help/forms/using/web-channel-print-channel.md). You can choose to generate web channel from the print channel. 
 
-1. Using the [drag-and-drop interface](../../forms/using/introduction-interactive-communication-authoring.md), add document fragments, images, components to print and web channel of the Interactive Communication as required. 
+1. Using the [drag-and-drop interface](/help/forms/using/introduction-interactive-communication-authoring.md), add document fragments, images, components to print and web channel of the Interactive Communication as required. 
 1. Configure the properties for the components inserted, such as the following:
 
     1. Images
-    1. [Tables](../../forms/using/create-interactive-communication.md#tables) (Including Layout Fragments)
-    1. [Charts](../../forms/using/chart-component-interactive-communications.md)
-    1. [Document fragments](../../forms/using/create-interactive-communication.md#document-fragment-properties)
+    1. [Tables](/help/forms/using/create-interactive-communication.md#tables) (Including Layout Fragments)
+    1. [Charts](/help/forms/using/chart-component-interactive-communications.md)
+    1. [Document fragments](/help/forms/using/create-interactive-communication.md#document-fragment-properties)
 
 1. Preview print and web channels and, if required, edit the Interactive Communication. 
-1. The agent uses the Agent UI to [prepare the Interactive Communication](../../forms/using/prepare-send-interactive-communication.md) for sending it to the recipient/post process.
+1. The agent uses the Agent UI to [prepare the Interactive Communication](/help/forms/using/prepare-send-interactive-communication.md) for sending it to the recipient/post process.
 
 ### Building blocks {#buildingblocks}
 
 Following are the building blocks required for creating an Interactive Communication:
 
-* [Form data model](../../forms/using/data-integration.md)
-* [Print and web channel templates](../../forms/using/web-channel-print-channel.md)
-* [Document fragments](../../forms/using/document-fragments.md)
+* [Form data model](/help/forms/using/data-integration.md)
+* [Print and web channel templates](/help/forms/using/web-channel-print-channel.md)
+* [Document fragments](/help/forms/using/document-fragments.md)
 * Images
-* [Themes](../../forms/using/themes.md) for the Web channel
+* [Themes](/help/forms/using/themes.md) for the Web channel
 
 ## Interactive Communications Vs Correspondence Management {#interactive-communications-vs-correspondence-management}
 
-Interactive Communication is the default and recommended approach to create customer communications. To continue using the letters creating in AEM 6.3 Forms and AEM 6.2 Forms, you need to [install a compatibility package](../../forms/using/compatibility-package.md). Following is a comparison between capabilities of Interactive Communication and letter. 
+Interactive Communication is the default and recommended approach to create customer communications. To continue using the letters creating in AEM 6.3 Forms and AEM 6.2 Forms, you need to [install a compatibility package](/help/forms/using/compatibility-package.md). Following is a comparison between capabilities of Interactive Communication and letter. 
 
 <table> 
  <tbody>

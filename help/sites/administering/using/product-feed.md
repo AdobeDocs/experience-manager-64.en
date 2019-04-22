@@ -20,7 +20,7 @@ AEM integrates with [Search&Promote](https://www.adobe.com/solutions/testing-tar
 * leverage the Remote Control feature of Search&Promote to perform on-demand or scheduled requests of the product feed
 * feed generation for different Search&Promote accounts, configured as cloud services configurations.
 
-You need to have a valid acount and to [configure the connection to Search&Promote](../../../sites/administering/using/search-and-promote.md#configuring-the-connection-to-search-promote). You also have to verify that you are using the correct [data center](../../../sites/administering/using/search-and-promote.md#configuring-the-data-center) and make sure that the **Remote server URI **is configured.
+You need to have a valid acount and to [configure the connection to Search&Promote](/help/sites/administering/using/search-and-promote.md#configuring-the-connection-to-search-promote). You also have to verify that you are using the correct [data center](/help/sites/administering/using/search-and-promote.md#configuring-the-data-center) and make sure that the **Remote server URI **is configured.
 
 ## Set up the Product Feed {#set-up-the-product-feed}
 

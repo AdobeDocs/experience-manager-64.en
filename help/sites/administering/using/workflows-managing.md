@@ -38,12 +38,12 @@ Actions on workflows can be undertaken if:
 
 Workflow models inherit a default access control list (ACL) for controlling how users can interact with workflows. To customize user access for a workflow, modify the Access Control List (ACL) in the repository for the folder containing the workflow model node:
 
-* [Apply an ACL for the specific workflow model to `/var/workflow/models`](../../../sites/administering/using/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models)
-* [Create a subfolder in `/var/workflow/models` and apply the ACL to that](../../../sites/administering/using/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that)
+* [Apply an ACL for the specific workflow model to `/var/workflow/models`](/help/sites/administering/using/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models)
+* [Create a subfolder in `/var/workflow/models` and apply the ACL to that](/help/sites/administering/using/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that)
 
 >[!NOTE]
 >
->For information about using CRXDE Lite to configure ACLs, see [Access Right Management](../../../sites/administering/using/user-group-ac-admin.md#access-right-management).
+>For information about using CRXDE Lite to configure ACLs, see [Access Right Management](/help/sites/administering/using/user-group-ac-admin.md#access-right-management).
 
 ### Apply an ACL for the specific workflow model to /var/workflow/models {#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models}
 
@@ -78,7 +78,7 @@ If the workflow model is stored within `/var/workflow/models` then you can assig
 
 ### Create a subfolder in /var/workflow/models and apply the ACL to that {#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that}
 
-Your [development team can create the workflows in a sub-folder](../../../sites/developing/using/workflows-models.md#creating-a-new-workflow) of
+Your [development team can create the workflows in a sub-folder](/help/sites/developing/using/workflows-models.md#creating-a-new-workflow) of
 
 `/var/workflow/models`
 
@@ -106,7 +106,7 @@ You can then add an ACL to the folder itself.
 
    >[!NOTE]
    >
-   >As with [Apply an ACL for the specific workflow model to /var/workflow/models](../../../sites/administering/using/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models) you can include a rep:glob to limit access to a specific workflow.
+   >As with [Apply an ACL for the specific workflow model to /var/workflow/models](/help/sites/administering/using/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models) you can include a rep:glob to limit access to a specific workflow.
 
    ![](assets/wf-110.png)
 

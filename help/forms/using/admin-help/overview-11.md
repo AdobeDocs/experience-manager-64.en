@@ -22,11 +22,11 @@ Health Monitor provides critical information about the AEM forms system, such as
 
 The Health Monitor page in administration console has three tabs:
 
-* The System tab displays resource monitoring charts and information about the forms server (or node in a clustered environment). (See [View system information](../../../forms/using/admin-help/view-system-information.md#view-system-information).) 
-* The Work Manager tab displays data that is related to Work Manager, such as the number of work items in the Work Manager queue. You can filter the information by using various criteria or manage individual work items by using the operation tools. (See [View statistics related to Work Manager](../../../forms/using/admin-help/view-statistics-related-manager.md#view-statistics-related-to-work-manager).)
-* The Job Purge Scheduler tab enables you to purge obsolete records from the Job Manager database. (See [Purge records from the Job Manager database](../../../forms/using/admin-help/purge-records-job-manager-database.md#purge-records-from-the-job-manager-database).)
+* The System tab displays resource monitoring charts and information about the forms server (or node in a clustered environment). (See [View system information](/help/forms/using/admin-help/view-system-information.md#view-system-information).) 
+* The Work Manager tab displays data that is related to Work Manager, such as the number of work items in the Work Manager queue. You can filter the information by using various criteria or manage individual work items by using the operation tools. (See [View statistics related to Work Manager](/help/forms/using/admin-help/view-statistics-related-manager.md#view-statistics-related-to-work-manager).)
+* The Job Purge Scheduler tab enables you to purge obsolete records from the Job Manager database. (See [Purge records from the Job Manager database](/help/forms/using/admin-help/purge-records-job-manager-database.md#purge-records-from-the-job-manager-database).)
 
-The Health Monitor web page is populated with statistics gathered through a Gemfire API. This API automatically discovers all nodes in a cluster. It also resolves security issues that occur when gathering statistics from behind proxy servers or load balancers. Java options are available to fine-tune the Health Monitor, decreasing the impact to the performance of your AEM forms environment. (See [Fine-tuning Health Monitor performance](../../../forms/using/admin-help/fine-tuning-health-monitor-performance.md#fine-tuning-health-monitor-performance).)
+The Health Monitor web page is populated with statistics gathered through a Gemfire API. This API automatically discovers all nodes in a cluster. It also resolves security issues that occur when gathering statistics from behind proxy servers or load balancers. Java options are available to fine-tune the Health Monitor, decreasing the impact to the performance of your AEM forms environment. (See [Fine-tuning Health Monitor performance](/help/forms/using/admin-help/fine-tuning-health-monitor-performance.md#fine-tuning-health-monitor-performance).)
 
 **Access Health Monitor**
 

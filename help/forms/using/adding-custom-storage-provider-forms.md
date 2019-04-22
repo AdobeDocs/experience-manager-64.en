@@ -20,10 +20,10 @@ By default, AEM Forms stores the user data associated with the draft and submiss
 
 ## Prerequisites  {#prerequisites}
 
-* Enable F [orms portal components](../../forms/using/enabling-forms-portal-components.md) 
-* Create a [forms portal page](../../forms/using/creating-form-portal-page.md) 
-* Enable [adaptive forms for forms portal](../../forms/using/draft-submission-component.md)
-* Learn [implementation details of custom storage](../../forms/using/draft-submission-component.md#customizing-the-storage)
+* Enable F [orms portal components](/help/forms/using/enabling-forms-portal-components.md) 
+* Create a [forms portal page](/help/forms/using/creating-form-portal-page.md) 
+* Enable [adaptive forms for forms portal](/help/forms/using/draft-submission-component.md)
+* Learn [implementation details of custom storage](/help/forms/using/draft-submission-component.md#customizing-the-storage)
 
 ## Draft data service {#draft-data-service}
 

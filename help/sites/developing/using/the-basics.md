@@ -15,7 +15,7 @@ discoiquuid: 6e913190-be92-4862-a8b9-517f8bde0044
 
 >[!NOTE]
 >
->Before diving into the core concepts of AEM, Adobe recommends completing the WKND Tutorial in the [Getting Started Developing AEM Sites](../../../sites/developing/using/getting-started.md) document for an overview of the AEM development process and introduction to core concepts.
+>Before diving into the core concepts of AEM, Adobe recommends completing the WKND Tutorial in the [Getting Started Developing AEM Sites](/help/sites/developing/using/getting-started.md) document for an overview of the AEM development process and introduction to core concepts.
 
 ## Prerequisites for Developing on AEM {#prerequisites-for-developing-on-aem}
 
@@ -31,7 +31,7 @@ You will need the following skills for developing on top of AEM:
 * Working knowledge of the Experience Server (CRX), including the Content Explorer
 * For developing in the classic UI, basic knowledge of JSP (JavaServer Pages) including the ability to understand and modify simple JSP examples is also required.
 
-It is also recommended that you read and follow the [Guidelines and Best Practices](../../../sites/developing/using/dev-guidelines-bestpractices.md).
+It is also recommended that you read and follow the [Guidelines and Best Practices](/help/sites/developing/using/dev-guidelines-bestpractices.md).
 
 ## Java Content Repository {#java-content-repository}
 
@@ -147,7 +147,7 @@ The path specified by the `sling:resourceType` can be either:
 * relative, to a configuration parameter  
   Relative paths are recommended by Adobe as they increase portability.
 
-All Sling scripts are stored in subfolders of either `/apps` or `/libs`, which will be searched in this order (see [Customizing Components and Other Elements](../../../sites/developing/using/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)).
+All Sling scripts are stored in subfolders of either `/apps` or `/libs`, which will be searched in this order (see [Customizing Components and Other Elements](/help/sites/developing/using/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)).
 
 A few other points to note are:
 
@@ -191,7 +191,7 @@ Using the above example, if the `sling:resourceType` is `hr/jobs` then for:
   The default rendition is currently supported as plain text (.txt), HTML (.html) and JSON (.json), all of which will list the node's properties (suitably formatted). The default rendition for the extension .res, or requests without a request extension, is to spool the resource (where possible).
 * For http error handling (codes 403 or 404) Sling will look for a script at either:
 
-    * the location /apps/sling/servlet/errorhandler for [customized scripts](../../../sites/developing/using/customizing-errorhandler-pages.md)
+    * the location /apps/sling/servlet/errorhandler for [customized scripts](/help/sites/developing/using/customizing-errorhandler-pages.md)
     * or the location of the standard scripts /libs/sling/servlet/errorhandler/403.esp, or 404.esp respectively.
 
 If multiple scripts apply for a given request, the script with the best match is selected. The more specific a match is, the better it is; in other words, the more selector matches the better, regardless of any request extension or method name match.
@@ -303,7 +303,7 @@ This enables you to perform the following actions on any of the packages within 
 * see the current status
 * access more detailed information (e.g. symbolic name, version, location, etc) about the specific bundles
 
-See [the Web Console](../../../sites/deploying/using/configuring-web-console.md), [OSGI Configuration](../../../sites/deploying/using/configuring-osgi.md) and [OSGi Configuration Settings](../../../sites/deploying/using/osgi-configuration-settings.md) for more information.
+See [the Web Console](/help/sites/deploying/using/configuring-web-console.md), [OSGI Configuration](/help/sites/deploying/using/configuring-osgi.md) and [OSGi Configuration Settings](/help/sites/deploying/using/osgi-configuration-settings.md) for more information.
 
 ## Development Objects in the AEM Environment {#development-objects-in-the-aem-environment}
 
@@ -402,7 +402,7 @@ The following list gives an overview of the structure you will see within the re
   User and Group information.
 
 * `/libs`  
-  Libraries and definitions that belong to the core of AEM. The sub-folders in `/libs` represent the out of the box AEM features as for example search or replication. The content in `/libs` should not be modified as it affects the way AEM works. Features specific to your website should be developed under `/apps` (see [Customizing Components and Other Elements](../../../sites/developing/using/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)).
+  Libraries and definitions that belong to the core of AEM. The sub-folders in `/libs` represent the out of the box AEM features as for example search or replication. The content in `/libs` should not be modified as it affects the way AEM works. Features specific to your website should be developed under `/apps` (see [Customizing Components and Other Elements](/help/sites/developing/using/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)).
 
 * `/tmp`  
   Temporary working area.
@@ -412,7 +412,7 @@ The following list gives an overview of the structure you will see within the re
 
 ## Environments {#environments}
 
-With AEM a production environment often consists of two different types of instances: an [Author and a Publish instances](../../../sites/deploying/using/deploy.md#author-and-publish-installs).
+With AEM a production environment often consists of two different types of instances: an [Author and a Publish instances](/help/sites/deploying/using/deploy.md#author-and-publish-installs).
 
 ## The Dispatcher {#the-dispatcher}
 
@@ -422,11 +422,11 @@ The Dispatcher is Adobe's tool for both caching and/or load balancing. Further i
 
 FileVault provides your JCR repository with file system mapping and version control. It can be used to manage AEM development projects with full support for storing and versioning project code, content, configurations and so on, in standard version control systems (for example, Subversion).
 
-See the [FileVault tool](../../../sites/developing/using/ht-vlttool.md) documentation for detailed information.
+See the [FileVault tool](/help/sites/developing/using/ht-vlttool.md) documentation for detailed information.
 
 ## Workflows {#workflows}
 
-Your content is often subject to organizational processes, including steps such as approval and sign-off by various participants. These processes can be represented as workflows, [defined and developed within AEM](../../../sites/developing/using/workflows-models.md), then applied to the [appropriate content pages](../../../sites/administering/using/workflows.md) or [digital assets](../../../assets/using/assets-workflow.md) as required.
+Your content is often subject to organizational processes, including steps such as approval and sign-off by various participants. These processes can be represented as workflows, [defined and developed within AEM](/help/sites/developing/using/workflows-models.md), then applied to the [appropriate content pages](/help/sites/administering/using/workflows.md) or [digital assets](/help/assets/using/assets-workflow.md) as required.
 
 The Workflow Engine is used to manage the implementation of your workflows, and their subsequent application to your content.
 
@@ -444,4 +444,4 @@ For example, web sites are often provided in multiple languages for internationa
     * Maintain a common look and feel.
     * Focus efforts on managing the content that differs between the sites.
 
-For more information, see [Multi Site Manager](../../../sites/administering/using/msm.md).  
+For more information, see [Multi Site Manager](/help/sites/administering/using/msm.md).  

@@ -65,13 +65,13 @@ To create a new scaffold go to the **Tools** console, then **Default Page Scaffo
 
 *Go to the **Page Properties** of the new page and set the *Title Text*, *Description*, *Target Template* and *Target Path*, as described above.*
 
-*Next, you have to define the structure of the page that this scaffold will create. To do this go into * [design mode](../../../sites/authoring/using/page-authoring.md#sidekick)* on the scaffold page. A link will appear allowing you to edit the scaffold in the** dialog editor**.*
+*Next, you have to define the structure of the page that this scaffold will create. To do this go into * [design mode](/help/sites/authoring/using/page-authoring.md#sidekick)* on the scaffold page. A link will appear allowing you to edit the scaffold in the** dialog editor**.*
 
 ![](assets/cq5_dialog_editor.png)
 
 Using the dialog editor you specifiy the properties that will be created each time a new page is created using this scaffold.
 
-The dialog definition for a scaffold works similarly to that of a component (see [Components](../../../sites/developing/using/components.md)). However a few important differences apply:
+The dialog definition for a scaffold works similarly to that of a component (see [Components](/help/sites/developing/using/components.md)). However a few important differences apply:
 
 * Component dialog definitions are rendered as normal dialog boxes (as shown in the middle pane of the dialog editor, for example) while scaffold dialog definitions, though they appear as normal dialog boxes in the dialog editor, are rendered on the scaffold page as a scaffold form (as shown in the **News** scaffold above).
 * Component dialogs provide fields for only those values needed to define the content of a single specific component. A scaffold dialog must provide fields for every property in every paragraph of the page to be created.
@@ -118,7 +118,7 @@ Because we know that the text should be interpreted as a rich text we specify th
 
 >[!CAUTION]
 >
->The dialog editor allows the user to change the values of *existing* properties in the dialog definition. To add a new property, the user must use [CRXDE Lite](../../../sites/developing/using/developing-with-crxde-lite.md). For example, when a new hidden field is added to a dialog definition with the dialog editor it does not have a *value* property (i.e., a property with the name "value"). If the hidden field in question requires a default *value* property to be set then this property must be added manually with one of the CRX tools. The value cannot be added with the dialog editor itself. However, once the property is present, its value can be edited with the dialog editor.
+>The dialog editor allows the user to change the values of *existing* properties in the dialog definition. To add a new property, the user must use [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md). For example, when a new hidden field is added to a dialog definition with the dialog editor it does not have a *value* property (i.e., a property with the name "value"). If the hidden field in question requires a default *value* property to be set then this property must be added manually with one of the CRX tools. The value cannot be added with the dialog editor itself. However, once the property is present, its value can be edited with the dialog editor.
 
 The second hidden field can be seen by clicking on it like this:
 
@@ -153,7 +153,7 @@ These show that the component cannot be edited - until inheritance is canceled.
 
 >[!NOTE]
 >
->This is comparable to [inherited components when editing page content](../../../sites/authoring/using/editing-content.md#inheritedcomponentsclassicui).
+>This is comparable to [inherited components when editing page content](/help/sites/authoring/using/editing-content.md#inheritedcomponentsclassicui).
 
 Clicking on either the lock symbol or the image icon allows you to break inheritance:
 

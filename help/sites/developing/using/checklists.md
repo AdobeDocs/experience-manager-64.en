@@ -99,5 +99,5 @@ The following checklist highlights some of the main issues - please read the oth
 
 >[!NOTE]
 >
->You can also see the [Managing Projects - Best Practices Checklist](../../../managing/using/best-practices.md) for further checklists related to the entire project.
+>You can also see the [Managing Projects - Best Practices Checklist](/help/managing/using/best-practices.md) for further checklists related to the entire project.
 

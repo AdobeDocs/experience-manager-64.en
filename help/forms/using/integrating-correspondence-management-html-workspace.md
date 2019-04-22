@@ -19,7 +19,7 @@ As an example, let us consider Correspondence Management as the sample candidate
 
 ## Create Correspondence Management assets {#create-correspondence-management-assets}
 
-Start by creating a sample Correspondence Management template that is rendered in AEM Forms workspace. For more details, see [Create a letter template](../../forms/using/create-letter.md).
+Start by creating a sample Correspondence Management template that is rendered in AEM Forms workspace. For more details, see [Create a letter template](/help/forms/using/create-letter.md).
 
 Access the Correspondence Management template at its URL to verify if the Correspondence Management template can be rendered successfully. The URL has a pattern similar to `https://[server]:[port]/lc/content/cm/createcorrespondence.html?cmLetterId=encodedLetterId&cmUseTestData=1&cmPreview=0;`
 
@@ -32,7 +32,7 @@ Before executing these steps, ensure that you are a member of the following grou
 * cm-agent-users
 * Workspace Users
 
-For more information, see [Add and configure users](../../forms/using/admin-help/adding-configuring-users.md).
+For more information, see [Add and configure users](/help/forms/using/admin-help/adding-configuring-users.md).
 
 Use the following steps to create a task to render and submit a letter in AEM Workspace:
 
@@ -96,7 +96,7 @@ Use the following steps to create a task to render and submit a letter in AEM Wo
    ```
 
    [Get File](assets/dscsample.zip)
-   Download DSC: A sample DSC is available in the DSCSample.zip file attached above. Download and unzip the DSCSample.zip file. Before you use the DSC service, you need to configure it. For information, see [Configure the DSC Service](../../forms/using/add-action-button-in-create-correspondence-ui.md#p-configure-the-dsc-service-p).
+   Download DSC: A sample DSC is available in the DSCSample.zip file attached above. Download and unzip the DSCSample.zip file. Before you use the DSC service, you need to configure it. For information, see [Configure the DSC Service](/help/forms/using/add-action-button-in-create-correspondence-ui.md#p-configure-the-dsc-service-p).
 
    In the Define Activity dialog, select the appropriate activity such as getLetterInstanceInfo and click **OK**.
 

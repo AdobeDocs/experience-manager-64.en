@@ -13,7 +13,7 @@ discoiquuid: 759068fa-dc1b-4cf5-bc7b-62b8c5464831
 
 # Enable AEM to search document security protected PDF documents{#enable-aem-to-search-document-security-protected-pdf-documents}
 
-AEM search is capable of searching and locating AEM assets and performing text search on various commonly used document formats such as plain-text files, Microsoft Office documents, and PDF documents. You can also extend the native search to perform full-text search on [PDF Documents protected with AEM Document security](../../forms/using/admin-help/document-security.md). To enable AEM to perform full-text search on such documents, perform the following steps:
+AEM search is capable of searching and locating AEM assets and performing text search on various commonly used document formats such as plain-text files, Microsoft Office documents, and PDF documents. You can also extend the native search to perform full-text search on [PDF Documents protected with AEM Document security](/help/forms/using/admin-help/document-security.md). To enable AEM to perform full-text search on such documents, perform the following steps:
 
 1. Establish a secure connection
 1. Index a sample policy-protected PDF document

@@ -21,7 +21,7 @@ The App owns the routing and is then implemented by the project front end develo
 
 ## Architecture {#architecture}
 
-For a detailed description, please refer to the [PageModelManager](../../../sites/developing/using/spa-blueprint.md#pagemodelmanager) section of the SPA Blueprint document.
+For a detailed description, please refer to the [PageModelManager](/help/sites/developing/using/spa-blueprint.md#pagemodelmanager) section of the SPA Blueprint document.
 
 ## ModelRouter {#modelrouter}
 
@@ -29,7 +29,7 @@ The `ModelRouter` - when enabled - encapsulates the HTML5 History API functions 
 
 ## Manual vs Automatic Model Routing {#manual-vs-automatic-model-routing}
 
-The `ModelRouter` automates the fetching of fragments of the model. But as any automated tooling it comes with limitations. When needed the `ModelRouter` can be disabled or configured to ignore paths using meta properties (See the Meta Properties section of the [SPA Page Component](../../../sites/developing/using/spa-page-component.md) document). Front end developers can then implement their own model routing layer by requesting the `PageModelManager` to load any given fragment of model using the `getData()` function.
+The `ModelRouter` automates the fetching of fragments of the model. But as any automated tooling it comes with limitations. When needed the `ModelRouter` can be disabled or configured to ignore paths using meta properties (See the Meta Properties section of the [SPA Page Component](/help/sites/developing/using/spa-page-component.md) document). Front end developers can then implement their own model routing layer by requesting the `PageModelManager` to load any given fragment of model using the `getData()` function.
 
 >[!NOTE]
 >

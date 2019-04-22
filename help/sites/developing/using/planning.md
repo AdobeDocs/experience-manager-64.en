@@ -15,9 +15,9 @@ discoiquuid: 12268c43-93f9-42c1-8dd7-f17f9ae2219b
 
 This document describes what you need to know to plan for your test. In addition you should answer these questions before conducting your tests:
 
-* [Which Test Environments will be needed?](../../../sites/developing/using/test-environments.md)
-* [Defining your Test Cases](../../../sites/developing/using/test-cases.md)
-* [Testing - when and with whom?](../../../sites/developing/using/when-who.md)
+* [Which Test Environments will be needed?](/help/sites/developing/using/test-environments.md)
+* [Defining your Test Cases](/help/sites/developing/using/test-cases.md)
+* [Testing - when and with whom?](/help/sites/developing/using/when-who.md)
 
 ## Before You Start {#before-you-start}
 
@@ -95,7 +95,7 @@ Regression Tests are good candidates for automation (if possible) to ensure they
 
 The list of acceptance tests may contain a combination of tests from the various categories above, and are selected to verify that the project fulfils the customer's requirements
 
-See [Acceptance and Sign-Off](../../../sites/developing/using/acceptance-signoff.md) for more details.
+See [Acceptance and Sign-Off](/help/sites/developing/using/acceptance-signoff.md) for more details.
 
 ## Getting Started {#getting-started}
 
@@ -104,7 +104,7 @@ Before starting on your detailed Test Cases and Test Plan you can:
 **Define the goals** Define your high-level goals to act as a starting point for fine-tuning as testing proceeds. You will want to:
 
 * Test the functionality according to the Detailed Requirement Specification.
-* Test Performance according to the [Target Metrics](../../../managing/using/best-practices-further-reference.md#key-performance-indicators-and-target-metrics).
+* Test Performance according to the [Target Metrics](/help/managing/using/best-practices-further-reference.md#key-performance-indicators-and-target-metrics).
 
 amongst others.
 
@@ -116,4 +116,4 @@ These figures will give an indication of current traffic (volume and spread) on 
 
 **Confirm Target Metrics** Metrics are used to define quantitative measurements for the quality of the website, as they represent the performance goals to be achieved.
 
-They should be defined at the start of the project, together with the customer. See [Target Metrics](../../../sites/developing/using/planning.md) for more information.
+They should be defined at the start of the project, together with the customer. See [Target Metrics](/help/sites/developing/using/planning.md) for more information.

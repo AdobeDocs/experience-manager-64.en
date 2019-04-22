@@ -35,7 +35,7 @@ The following Profile settings on your device will affect the functioning of the
 
 * **Allow use of camera** in the **Device functionality** section
 
-If you disable **Allow use of camera**, the camera feature of the [Photograph annotation](../../forms/using/add-attachments.md) will not function. You need to enable this option to use the camera in the app.
+If you disable **Allow use of camera**, the camera feature of the [Photograph annotation](/help/forms/using/add-attachments.md) will not function. You need to enable this option to use the camera in the app.
 
 * **Require passcode on device** in the Passcode policies section
 

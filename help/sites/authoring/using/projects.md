@@ -29,10 +29,10 @@ As a user, you can do the following:
 See the following additional topics:
 
 * [Managing Projects  
-  ](../../../sites/authoring/using/touch-ui-managing-projects.md)
-* [Working with Tasks](../../../sites/authoring/using/task-content.md)
-* [Working with Project Workflows](../../../sites/authoring/using/projects-with-workflows.md)
-* [Creative Project and PIM Integration](../../../sites/authoring/using/managing-product-information.md)
+  ](/help/sites/authoring/using/touch-ui-managing-projects.md)
+* [Working with Tasks](/help/sites/authoring/using/task-content.md)
+* [Working with Project Workflows](/help/sites/authoring/using/projects-with-workflows.md)
+* [Creative Project and PIM Integration](/help/sites/authoring/using/managing-product-information.md)
 
 ## Projects Console {#projects-console}
 
@@ -75,7 +75,7 @@ You upload assets directly in the tile. In addition you can create Image Sets, S
 
 ### Asset Collections {#asset-collections}
 
-Similar to assets, you can add [asset collections](../../../assets/using/managing-collections-touch-ui.md) directly to your project. You define collections in Assets.
+Similar to assets, you can add [asset collections](/help/assets/using/managing-collections-touch-ui.md) directly to your project. You define collections in Assets.
 
 ![](assets/chlimage_1-172.png)
 
@@ -115,7 +115,7 @@ Team members can be assigned and deleted from this tile (or have their roles cha
 
 ### Translation Job {#translation-job}
 
-The Translation Job tile is where you start a translation and also where you see the status of your translations. To set up your translation, see [Creating Translation Projects](../../../assets/using/translation-projects.md).
+The Translation Job tile is where you start a translation and also where you see the status of your translations. To set up your translation, see [Creating Translation Projects](/help/assets/using/translation-projects.md).
 
 ![](assets/chlimage_1-179.png)
 
@@ -139,7 +139,7 @@ The **Landing** Pages tile lets you request a new landing page.
 
 ![](assets/chlimage_1-183.png)
 
-This workflow is described in [Create a Landing Page workflow](../../../sites/authoring/using/projects-with-workflows.md#request-landing-page-workflow).
+This workflow is described in [Create a Landing Page workflow](/help/sites/authoring/using/projects-with-workflows.md#request-landing-page-workflow).
 
 ### Emails {#emails}
 
@@ -147,7 +147,7 @@ The **Emails** tile helps you manage requests for email. It starts the Request f
 
 ![](assets/chlimage_1-184.png)
 
-More information is described in the [Request Email workflow.](../../../sites/authoring/using/projects-with-workflows.md#request-email-workflow)
+More information is described in the [Request Email workflow.](/help/sites/authoring/using/projects-with-workflows.md#request-email-workflow)
 
 ### Workflows {#workflows}
 
@@ -157,17 +157,17 @@ You can assign your project to follow certain workflows. If any workflows are ru
 
 You can assign your project to follow certain workflows. Depending on which project you choose you have different workflows available.
 
-These are described in [Working with Project Workflows.](../../../sites/authoring/using/projects-with-workflows.md)
+These are described in [Working with Project Workflows.](/help/sites/authoring/using/projects-with-workflows.md)
 
 ### Launches {#launches}
 
-The Launches tile shows any launches that have been requested with a [Request Launch workflow.](../../../sites/authoring/using/projects-with-workflows.md)
+The Launches tile shows any launches that have been requested with a [Request Launch workflow.](/help/sites/authoring/using/projects-with-workflows.md)
 
 ![](assets/chlimage_1-186.png) 
 
 ### Tasks {#tasks}
 
-Tasks let you monitor the status of any project-related tasks, including workflows. Tasks are covered in detail at [Working with Tasks](../../../sites/authoring/using/task-content.md).
+Tasks let you monitor the status of any project-related tasks, including workflows. Tasks are covered in detail at [Working with Tasks](/help/sites/authoring/using/task-content.md).
 
 ![](assets/chlimage_1-187.png) 
 
@@ -177,8 +177,8 @@ AEM ships with three different templates out of the box:
 
 * A simple project - A reference sample for any projects that do not fit into other categories (a catch-all). It includes three basic roles (Owners, Editors, and Observers) and four workflows (Project Approval, Request Launch, Request Landing Page and Request Email).
 * A media project - A reference sample project for media-related activities. It includes several media related project roles (Photographers, Editors, Copywriters, Designers, Owners and Observers). It also includes two workflows related to media content - Request Copy (for requesting and reviewing text) and Product Photo Shoot (for managing product related photography)
-* [Product Photo Shoot Project](../../../sites/authoring/using/managing-product-information.md) - A reference sample for managing eCommerce related product photography. It includes roles for Photographers, Editors, Photo Retouchers, Owners, Creative Directors, Social Media Marketers, Marketing Managers, Reviewers and Observers.
-* [A translation project](../../../sites/administering/using/translation.md) - A reference sample for managing translation related activities. It includes three basic roles (Owners, Editors, and Observers). It includes two workflows that are accessed in the Workflows user interface.
+* [Product Photo Shoot Project](/help/sites/authoring/using/managing-product-information.md) - A reference sample for managing eCommerce related product photography. It includes roles for Photographers, Editors, Photo Retouchers, Owners, Creative Directors, Social Media Marketers, Marketing Managers, Reviewers and Observers.
+* [A translation project](/help/sites/administering/using/translation.md) - A reference sample for managing translation related activities. It includes three basic roles (Owners, Editors, and Observers). It includes two workflows that are accessed in the Workflows user interface.
 
 Based on the template you select, you have different options available to you particularly around user roles and workflows.
 

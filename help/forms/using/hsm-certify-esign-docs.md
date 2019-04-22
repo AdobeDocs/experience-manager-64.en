@@ -408,4 +408,4 @@ If you have upgraded from AEM 6.0 Form or AEM 6.1 Forms, and you were using the 
 
 ```
 
-For detailed information about APIs and sample code of the DocAssurance service, see [Using AEM Document Services Programmatically](../../forms/using/aem-document-services-programmatically.md).
+For detailed information about APIs and sample code of the DocAssurance service, see [Using AEM Document Services Programmatically](/help/forms/using/aem-document-services-programmatically.md).

@@ -15,17 +15,17 @@ discoiquuid: af95c6c7-0475-4f55-88a8-ec5e39a9ddcd
 
 >[!CAUTION]
 >
->Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../../release-notes/sp-release-notes.md).
+>Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md).
 
 A content fragment extends a standard asset; see:
 
-* [Creating and Managing Content Fragments](../../../assets/using/content-fragments.md) and [Page Authoring with Content Fragments](../../../sites/authoring/using/content-fragments.md) for further information about content fragments.
+* [Creating and Managing Content Fragments](/help/assets/using/content-fragments.md) and [Page Authoring with Content Fragments](/help/sites/authoring/using/content-fragments.md) for further information about content fragments.
 
-* [Managing Assets](../../../assets/using/managing-assets-touch-ui.md) and [Customizing and Extending Assets](../../../assets/using/extending-assets.md) for further information about standard assets.
+* [Managing Assets](/help/assets/using/managing-assets-touch-ui.md) and [Customizing and Extending Assets](/help/assets/using/extending-assets.md) for further information about standard assets.
 
 ## Architecture {#architecture}
 
-The basic [constituent parts](../../../assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) of a content fragment are:
+The basic [constituent parts](/help/assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) of a content fragment are:
 
 * A *Content Fragment,*
 * consisting of one or more *Content Element*s,
@@ -35,7 +35,7 @@ Depending on the type of fragment, either models or templates are also used:
 
 >[!CAUTION]
 >
->[Content fragment models](../../../assets/using/content-fragments-models.md) are now recommended for creating all your fragments. 
+>[Content fragment models](/help/assets/using/content-fragments-models.md) are now recommended for creating all your fragments. 
 >
 >Content fragment models are used for all examples in We.Retail.
 
@@ -57,7 +57,7 @@ Depending on the type of fragment, either models or templates are also used:
   * Templates define the (basic, text-only) structure of a content fragment when it is created.
   * The template is copied to the fragment when it is created; so further changes to the template will not be reflected in existing fragments.
   * Functions to add new variations, etc., have to update the fragment accordingly.
-  * [Content fragment templates](../../../sites/developing/using/content-fragment-templates.md) operate in a different manner to that of other templating mechanisms within the AEM ecosystem (e.g. page templates, etc.). Therefore they should be considered separately.
+  * [Content fragment templates](/help/sites/developing/using/content-fragment-templates.md) operate in a different manner to that of other templating mechanisms within the AEM ecosystem (e.g. page templates, etc.). Therefore they should be considered separately.
   * When based on a template the MIME type of the content is managed on the actual content; this means that each element and variation can have a different MIME type.
 
 ## Integration with Assets {#integration-with-assets}
@@ -112,7 +112,7 @@ As with standard assets, a content fragment is held under:
 
 ### Asset Permissions {#asset-permissions}
 
-For further details see [Content Fragment - Delete Considerations](../../../assets/using/content-fragments-delete.md).
+For further details see [Content Fragment - Delete Considerations](/help/assets/using/content-fragments-delete.md).
 
 ### Feature Integration {#feature-integration}
 
@@ -126,13 +126,13 @@ For further details see [Content Fragment - Delete Considerations](../../../asse
 >
 >The [Content Fragment Core Component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) is now recommended. See [Developing Core Components](https://helpx.adobe.com/experience-manager/core-components/using/developing.html) for more details.
 
-Content fragments can be referenced from AEM pages, just as any other asset type. AEM provides the [**Content Fragment** core component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) - a [component that allows you to include content fragments on your pages](../../../sites/authoring/using/content-fragments.md#adding-a-content-fragment-to-your-page). You can also extend, this **Content Fragment** core component.
+Content fragments can be referenced from AEM pages, just as any other asset type. AEM provides the [**Content Fragment** core component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) - a [component that allows you to include content fragments on your pages](/help/sites/authoring/using/content-fragments.md#adding-a-content-fragment-to-your-page). You can also extend, this **Content Fragment** core component.
 
 * The component uses the `fragmentPath` property to reference the actual content fragment. The `fragmentPath` property is handled in the same manner as similar properties of other asset types; for example, when the content fragment is moved to another location.
 
 * The component allows you to select the variation to be displayed.
 * Additionally, a range of paragraphs can be selected to restrict the output; for example, this can be used for multi-column output.
-* The component allows [in-between content](../../../sites/developing/using/components-content-fragments.md#in-between-content):
+* The component allows [in-between content](/help/sites/developing/using/components-content-fragments.md#in-between-content):
 
   * Here the component allows you to place other assets (images, etc.) in between the paragraphs of the referenced fragment.
     * For in-between content you need to:
@@ -154,7 +154,7 @@ Content fragments can be referenced from AEM pages, just as any other asset type
 
 The backend implementation of content fragments is, for example, responsible for making instances of a fragment used on a page searchable, or for managing mixed media content. This implementation needs to know which components are used for rendering fragments and how the rendering is parameterized.
 
-The parameters for this can be configured in the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console), for the OSGi bundle **DAM Content Fragments Configuration**.
+The parameters for this can be configured in the [Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console), for the OSGi bundle **DAM Content Fragments Configuration**.
 
 * **Resource types** 
   A list of `sling:resourceTypes` can be provided to define components that are used for rendering content fragments and where the background processing should be applied to.
@@ -193,7 +193,7 @@ Content fragments can be integrated with:
 
 * **Translations**
 
-  Content Fragments are fully integrated with the [AEM translation workflow](../../../sites/administering/using/tc-manage.md). On an architectural level, this means:
+  Content Fragments are fully integrated with the [AEM translation workflow](/help/sites/administering/using/tc-manage.md). On an architectural level, this means:
 
   * The individual translations of a content fragment are actually separate fragments; for example:
 
@@ -212,14 +212,14 @@ Content fragments can be integrated with:
   >
   >The AEM translation workflow works with `/content`:
   >
-  >  * As the content fragment models reside in `/conf`, these are not included in such translations. You can [internationalize the UI strings](../../../sites/developing/using/i18n-dev.md).  
+  >  * As the content fragment models reside in `/conf`, these are not included in such translations. You can [internationalize the UI strings](/help/sites/developing/using/i18n-dev.md).  
   >  * Templates are copied to create the fragment so this is implicit.  
   >    
   >
 
 * **Metadata schemas**
 
-  * Content fragments (re)use the [metadata schemas](../../../assets/using/metadata-schemas.md), that can be defined with standard assets.
+  * Content fragments (re)use the [metadata schemas](/help/assets/using/metadata-schemas.md), that can be defined with standard assets.
     * CFM provides its own, specific schema:  
       `/libs/dam/content/schemaeditors/forms/contentfragment`  
       this can be extended if required.
@@ -516,11 +516,11 @@ If you want to set an auto save interval of 5 minutes you need to define the pro
 
 ## Content Fragment Templates {#content-fragment-templates}
 
-See [Content Fragment Templates](../../../sites/developing/using/content-fragment-templates.md) for full information.
+See [Content Fragment Templates](/help/sites/developing/using/content-fragment-templates.md) for full information.
 
 ## Components for Page Authoring {#components-for-page-authoring}
 
 For further information see
 
 * [Core Components - Content Fragment Component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) (recommended)
-* [Content Fragment Components - Components for Page Authoring](../../../sites/developing/using/components-content-fragments.md#components-for-page-authoring)
+* [Content Fragment Components - Components for Page Authoring](/help/sites/developing/using/components-content-fragments.md#components-for-page-authoring)

@@ -29,7 +29,7 @@ Features like independent authoring and lazy loading provide performance improve
 
 ## Behind the scenes {#behind-the-scenes}
 
-You can add XSD-based adaptive forms and fragments in the parent form. The structure of the parent form is same as [any adaptive form](../../forms/using/prepopulate-adaptive-form-fields.md). When you add an adaptive form as a child form, it is added as a panel in the parent form. Data of a bound child form is stored under the `data`root of the `afBoundData` section of the parent form's XML schema.
+You can add XSD-based adaptive forms and fragments in the parent form. The structure of the parent form is same as [any adaptive form](/help/forms/using/prepopulate-adaptive-form-fields.md). When you add an adaptive form as a child form, it is added as a panel in the parent form. Data of a bound child form is stored under the `data`root of the `afBoundData` section of the parent form's XML schema.
 
 For example, your customers fill an application form. First two fields of the form are name and identity. Its XML is:
 

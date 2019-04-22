@@ -52,7 +52,7 @@ If desired, your author instance can use the production libraries. Web browser p
 
 When AEM hosts the Dynamic Tag Management libraries, you can use the Dynamic Tag Management deployment hook service to automatically push library updates to AEM. Library updates are pushed when changes are made to the libraries such as when the Dynamic Tag Mangement web property properties are edited.
 
-To use the deployment hook, Dynamic Tag Management must be able to connect to the AEM instance that hosts the libaries. You must [enable access to AEM](../../../sites/administering/using/dtm.md#enabling-access-for-the-deployment-hook-service) for the Dynamic Tag Managment servers.
+To use the deployment hook, Dynamic Tag Management must be able to connect to the AEM instance that hosts the libaries. You must [enable access to AEM](/help/sites/administering/using/dtm.md#enabling-access-for-the-deployment-hook-service) for the Dynamic Tag Managment servers.
 
 In some circumstances AEM can be unreachable, such as when AEM lies behind a firewall. In these cases, you can use the AEM polling importer option to periodically retrieve the libraries. A cron job expression dictates the schedule for library downloads.
 
@@ -63,7 +63,7 @@ Enable the Dynamic Tag Management deployment hook service to access AEM so that 
 * Staging: `107.21.99.31`
 * Production: `23.23.225.112` and `204.236.240.48`
 
-Perform the configuration using either the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or a [ `sling:OsgiConfig`](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) node:
+Perform the configuration using either the [Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or a [ `sling:OsgiConfig`](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) node:
 
 * In the Web Console, use the Adobe DTM Deploy Hook Configuration item on the Configuration page.
 * For an OSGi configuration, the service PID is `com.adobe.cq.dtm.impl.servlets.DTMDeployHookServlet`.
@@ -81,7 +81,7 @@ Create a cloud configuration so that the AEM instance can authenticate with Dyna
 
 >[!NOTE]
 >
->Avoid the inclusion of two Adobe Analytics tracking codes on your pages when your DTM web property includes the Adobe Analytics tool and you are also using [Content Insight](../../../sites/authoring/using/content-insights.md). In your [Adobe Analytics cloud configuration](../../../sites/administering/using/adobeanalytics-connect.md#configuring-the-connection-to-adobe-analytics), select the Do Not Include Tracking Code option.
+>Avoid the inclusion of two Adobe Analytics tracking codes on your pages when your DTM web property includes the Adobe Analytics tool and you are also using [Content Insight](/help/sites/authoring/using/content-insights.md). In your [Adobe Analytics cloud configuration](/help/sites/administering/using/adobeanalytics-connect.md#configuring-the-connection-to-adobe-analytics), select the Do Not Include Tracking Code option.
 
 ### General Settings {#general-settings}
 
@@ -142,11 +142,11 @@ When hosting the Dynamic Tag Management libraries on AEM, AEM automatically conf
   </tr> 
   <tr> 
    <td>Domain Hint</td> 
-   <td><p>(Optional) The domain of the AEM server that is hosting the Dynamic Tag Management library. Specify a value to override the default domain that is configured for the <a href="../../../sites/developing/using/externalizer.md">Day CQ Link Externalizer service</a>.</p> <p>When connected to Dynamic Tag Management, AEM uses this value to configure the Staging HTTP Path or the Production HTTP Path of the Library Download properties for the Dynamic Tag Management web property.</p> </td> 
+   <td><p>(Optional) The domain of the AEM server that is hosting the Dynamic Tag Management library. Specify a value to override the default domain that is configured for the <a href="/help/sites/developing/using/externalizer.md">Day CQ Link Externalizer service</a>.</p> <p>When connected to Dynamic Tag Management, AEM uses this value to configure the Staging HTTP Path or the Production HTTP Path of the Library Download properties for the Dynamic Tag Management web property.</p> </td> 
   </tr> 
   <tr> 
    <td>Secure Domain Hint</td> 
-   <td><p>(Optional) The domain of the AEM server that is hosting the Dynamic Tag Management library over HTTPS. Specify a value to override the default domain that is configured for the <a href="../../../sites/developing/using/externalizer.md">Day CQ Link Externalizer service</a>.</p> <p>When connected to Dynamic Tag Management, AEM uses this value to configure the Staging HTTPS Path or the Production HTTPS Path of the Library Download properties for the Dynamic Tag Management web property.</p> </td> 
+   <td><p>(Optional) The domain of the AEM server that is hosting the Dynamic Tag Management library over HTTPS. Specify a value to override the default domain that is configured for the <a href="/help/sites/developing/using/externalizer.md">Day CQ Link Externalizer service</a>.</p> <p>When connected to Dynamic Tag Management, AEM uses this value to configure the Staging HTTPS Path or the Production HTTPS Path of the Library Download properties for the Dynamic Tag Management web property.</p> </td> 
   </tr> 
   <tr> 
    <td>Shared Secret</td> 

@@ -12,21 +12,21 @@ discoiquuid: 12ea3876-5778-4a39-a746-15d529b3bb88
 
 Run the Automated Forms Conversion service to convert PDF forms to adaptive forms
 
-AEM Forms Automated Forms Conversion service, powered by Adobe Sensei, automatically converts your PDF forms to device-friendly and responsive adaptive forms. Whether you are using non-interactive PDF forms, Acroforms, or XFA-based PDF forms, the Automated Forms Conversion service can easily convert these forms into adaptive forms. For information about the capabilities, conversion workflow, and onboarding information see [Automated Forms Conversion](../../../forms/using/wip/introduction-to-automated-form-conversion-service.md) service.
+AEM Forms Automated Forms Conversion service, powered by Adobe Sensei, automatically converts your PDF forms to device-friendly and responsive adaptive forms. Whether you are using non-interactive PDF forms, Acroforms, or XFA-based PDF forms, the Automated Forms Conversion service can easily convert these forms into adaptive forms. For information about the capabilities, conversion workflow, and onboarding information see [Automated Forms Conversion](/help/forms/using/wip/introduction-to-automated-form-conversion-service.md) service.
 
 ## Pre-requisites {#pre-requisites}
 
-* [Configure the conversion service](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md)  
+* [Configure the conversion service](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md)  
 
-* Prepare the [templates](../../../forms/using/template-editor.md) to be applied to converted forms
-* Prepare the [themes](../../../forms/using/themes.md) to be applied to converted forms
+* Prepare the [templates](/help/forms/using/template-editor.md) to be applied to converted forms
+* Prepare the [themes](/help/forms/using/themes.md) to be applied to converted forms
 
 ## Start the conversion process {#start-the-conversion-process}
 
 After you connect your AEM instance with AEM Forms Conversion Service, you can convert your print forms to adaptive forms. Perform the following steps in the listed order to convert the forms:
 
-* [Upload PDF forms to your AEM Forms server](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#upload-pdf-forms-to-your-aem-forms-server)
-* [Run the conversion](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#run-the-conversion)
+* [Upload PDF forms to your AEM Forms server](/help/forms/using/wip/convert-existing-forms-to-adaptive-forms.md#upload-pdf-forms-to-your-aem-forms-server)
+* [Run the conversion](/help/forms/using/wip/convert-existing-forms-to-adaptive-forms.md#run-the-conversion)
 * [Review and correct the converted forms](#review-and-correct-the-converted-forms)
 
 ### Upload PDF forms to your AEM Forms server {#upload-pdf-forms-to-your-aem-forms-server}
@@ -60,7 +60,7 @@ After you have uploaded the forms and configured the service, perform the follow
    >You can use only **Extract Fragment** or **Existing Fragments** at a time. You cannot use both the options simultaneously.
 
 1. In the **Output** tab of Conversion Settings dialog, specify the location to save converted forms (adaptive forms), adaptive form schema, form fragments, and form fragments schemas.
-1. Tap **[!UICONTROL Start Conversion]**. The Conversion is started. The **[!UICONTROL Conversion in Progress]** logo is displayed until the conversion is in progress. The logo is removed after the conversion is complete. You can periodically refresh the folder to check the conversion status. A status email is also sent on the [configured email address](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-242943920) on completion of conversion.
+1. Tap **[!UICONTROL Start Conversion]**. The Conversion is started. The **[!UICONTROL Conversion in Progress]** logo is displayed until the conversion is in progress. The logo is removed after the conversion is complete. You can periodically refresh the folder to check the conversion status. A status email is also sent on the [configured email address](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-242943920) on completion of conversion.
 
    On a successful conversion, the converted adaptive form and related schema are downloaded to the folder specified in the **[!UICONTROL Output]**tab of the conversion dialog. Form fragments and corresponding schema are downloaded only if the **[!UICONTROL Extract Fragment]** option is selected before starting the conversion.
 
@@ -68,16 +68,16 @@ After you have uploaded the forms and configured the service, perform the follow
 
    >[!NOTE]
    >
-   >When a secured PDF is provided, the conversion fails. On a failed conversion, the Conversion failed logo is displayed if all the input forms fail to convert or the Partially failed logo is displayed when only a few of all the input forms fail to convert. A status email is also sent on the [configured email address](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-242943920). An error is also logged to the error.log file.
+   >When a secured PDF is provided, the conversion fails. On a failed conversion, the Conversion failed logo is displayed if all the input forms fail to convert or the Partially failed logo is displayed when only a few of all the input forms fail to convert. A status email is also sent on the [configured email address](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-242943920). An error is also logged to the error.log file.
 
 ## Review and correct the converted forms {#review-and-correct-the-converted-forms}
 
-Real world forms have complex data capture requirements. Once the automated conversion is complete, customers can review the conversion quality of the form and make necessary updates to the form. AEM Forms provides a [review and correct](../../../forms/using/wip/review-correct-ui-edited.md) editor to make required changes. It allows you to improve automated identification of form fields and convert identified fields from one type to another. For example, you can help identify two-column layout of a form and change a field automatically identified as radio button to multiple choices field.
+Real world forms have complex data capture requirements. Once the automated conversion is complete, customers can review the conversion quality of the form and make necessary updates to the form. AEM Forms provides a [review and correct](/help/forms/using/wip/review-correct-ui-edited.md) editor to make required changes. It allows you to improve automated identification of form fields and convert identified fields from one type to another. For example, you can help identify two-column layout of a form and change a field automatically identified as radio button to multiple choices field.
 
 ## Previous {#previous}
 
-[Configure the Automated Forms Conversion service](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md)
+[Configure the Automated Forms Conversion service](/help/forms/using/wip/configure-the-automated-forms-conversion-service.md)
 
 ## Next {#next}
 
-[Review and correct converted forms](../../../forms/using/wip/review-correct-ui-edited.md)
+[Review and correct converted forms](/help/forms/using/wip/review-correct-ui-edited.md)

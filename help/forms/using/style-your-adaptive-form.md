@@ -70,7 +70,7 @@ The design displayed above requires changes in placeholder text and logo of your
        [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html)
     
     1. Tap logo image in the header component and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/6-2/cmppr.png) properties. In the image property, tap X to remove the existing logo image.
-    1. Tap upload, select the logo.png, and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG) to save the changes. The image was downloaded in the [Before you start](../../forms/using/style-your-adaptive-form.md#before-you-start) section.  
+    1. Tap upload, select the logo.png, and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG) to save the changes. The image was downloaded in the [Before you start](/help/forms/using/style-your-adaptive-form.md#before-you-start) section.  
     
     1. Tap header text, `We.Retail`, and tap ![](assets/aem_6_3_edit.png)** **edit. Change header text to** ** `we retail`. Apply bold formatting only to `we`in `**we **retail`.
 
@@ -90,7 +90,7 @@ The design displayed above requires changes in placeholder text and logo of your
 
 ## Step 3: Create a custom theme for your adaptive form {#step-create-a-custom-theme-for-your-adaptive-form}
 
-You can use [theme editor](../../forms/using/themes.md) to create custom themes. The theme editor is an all-powerful WYSIWYG editor. It is a visual method to apply CSS to various components of an adaptive form. It provides finer controls to style components and panels of an adaptive form.
+You can use [theme editor](/help/forms/using/themes.md) to create custom themes. The theme editor is an all-powerful WYSIWYG editor. It is a visual method to apply CSS to various components of an adaptive form. It provides finer controls to style components and panels of an adaptive form.
 
 A theme is a separate entity like adaptive forms. It contains styles (CSS) for the components and panels of an adaptive form. Styles include CSS properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme, the specified style is applied to the corresponding components of an adaptive form.
 
@@ -107,7 +107,7 @@ In this tutorial, you will style header and footer, text and numeric components,
 
 1. Tap **Create**. A theme is created and a dialog to open the form for editing appears. Tap **Open **to open the newly created theme in a new tab. The theme opens in theme editor. For styling, the theme editor uses an out-of-the-box adaptive form shipped with AEM Forms.
 
-   For information about using theme editor UI, see [About the theme editor](../../forms/using/themes.md#aboutthethemeeditor).
+   For information about using theme editor UI, see [About the theme editor](/help/forms/using/themes.md#aboutthethemeeditor).
 
 1. Tap **Theme Options** ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/6-2/theme-options.png) &gt; **Configure**. In the **Preview Form** field, select the **shipping-address-add-update-form **adaptive form, tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG), tap **Save**. Now, the theme editor is configured to use your own adaptive form instead of the default adaptive form. Tap **Cancel **to return to the theme editor.
 
@@ -140,7 +140,7 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
 
    | Property |Value |
    |---|---|
-   | image |Upload the header-style.png. The image was downloaded in the [Before you start](../../forms/using/style-your-adaptive-form.md#before-you-start) section. |
+   | image |Upload the header-style.png. The image was downloaded in the [Before you start](/help/forms/using/style-your-adaptive-form.md#before-you-start) section. |
    | Position |Right Bottom |
    | Tiling |No Repeat |
 
@@ -236,7 +236,7 @@ You can use multiple components in an adaptive form to capture data. For example
 
 ### Style the buttons {#style-the-buttons}
 
-You can use a custom theme to apply an identical style to all the buttons of the adaptive form and [inline styling](../../forms/using/inline-style-adaptive-forms.md) to apply a style to a specific button. To style the buttons:
+You can use a custom theme to apply an identical style to all the buttons of the adaptive form and [inline styling](/help/forms/using/inline-style-adaptive-forms.md) to apply a style to a specific button. To style the buttons:
 
 1. Tap the **Submit **button and tap the **Button **option. Set the following properties and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG).
 
@@ -286,7 +286,7 @@ You can use a custom theme to apply an identical style to all the buttons of the
  </tbody> 
 </table>
 
-1. [Apply the custom theme](../../forms/using/style-your-adaptive-form.md#step-apply-a-theme-to-your-adaptive-form), Global Theme, to your adaptive form. If the style does not reflect on the adaptive form, clean the browser cache and try again.
+1. [Apply the custom theme](/help/forms/using/style-your-adaptive-form.md#step-apply-a-theme-to-your-adaptive-form), Global Theme, to your adaptive form. If the style does not reflect on the adaptive form, clean the browser cache and try again.
 
    ![](assets/style-data-capture-components.png)
 

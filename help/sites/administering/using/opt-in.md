@@ -15,7 +15,7 @@ discoiquuid: de466511-d82f-4ddb-8f6a-7ca9240fdeab
 
 AEM has an opt-in procedure to help you integrate with Adobe Analytics and Adobe Target. This is available out-of-the-box, as a pre-loaded task assigned to the administrator user group.
 
-When you log in as an administrator this task (**Configuring Analytics & Targeting**) is available from the [Inbox](../../../sites/authoring/using/inbox.md#out-of-the-box-administrative-tasks). Based on the credentials you supply, it helps you configure and integrate these services.
+When you log in as an administrator this task (**Configuring Analytics & Targeting**) is available from the [Inbox](/help/sites/authoring/using/inbox.md#out-of-the-box-administrative-tasks). Based on the credentials you supply, it helps you configure and integrate these services.
 
 You have the following options for configuring the integration:
 
@@ -23,7 +23,7 @@ You have the following options for configuring the integration:
   This can be done either immediately or later, the task will remain in the Inbox until some action is taken. In either case the configuration can be done directly in the UI, or with the use of a pre-defined `.properties` file.  
 
 * Opt out of the integration.  
-  Consider this option if you prefer to [manually configure the integration](../../../sites/administering/using/marketing-cloud.md). See also [Integrating AEM with Adobe Target and Adobe Analytics using DTM](https://helpx.adobe.com/experience-manager/using/integrate-digital-marketing-solutions.html).
+  Consider this option if you prefer to [manually configure the integration](/help/sites/administering/using/marketing-cloud.md). See also [Integrating AEM with Adobe Target and Adobe Analytics using DTM](https://helpx.adobe.com/experience-manager/using/integrate-digital-marketing-solutions.html).
 
 * Configure the set up and provisioning by using a script.
 
@@ -38,7 +38,7 @@ For either option you need to provide the user account information and specify t
 
 >[!NOTE]
 >
->You can optionally provide Analytics and Target account information using a properties file that is read upon server startup. See [Providing Account Information Using a Properties File](../../../sites/administering/using/opt-in.md#providing-account-information-using-a-properties-file).
+>You can optionally provide Analytics and Target account information using a properties file that is read upon server startup. See [Providing Account Information Using a Properties File](/help/sites/administering/using/opt-in.md#providing-account-information-using-a-properties-file).
 
 When you opt into the integration, AEM performs the following tasks:
 
@@ -48,13 +48,13 @@ When you opt into the integration, AEM performs the following tasks:
 
 >[!NOTE]
 >
->AT.js is the default client library. This is configured under your [target cloud services configuration](../../../sites/administering/using/target-configuring.md#creating-a-target-cloud-configuration). 
+>AT.js is the default client library. This is configured under your [target cloud services configuration](/help/sites/administering/using/target-configuring.md#creating-a-target-cloud-configuration). 
 >
 >Adobe recommends that you use AT.js as the client library.
 
 To opt-in from the pre-loaded, out-of-the-box task:
 
-1. From your [Inbox, select and **Open** the Configure Analytics & Targeting](../../../sites/authoring/using/inbox.md#taking-action-on-an-item) task.
+1. From your [Inbox, select and **Open** the Configure Analytics & Targeting](/help/sites/authoring/using/inbox.md#taking-action-on-an-item) task.
 
    ![](assets/optin-01.png)
 
@@ -84,11 +84,11 @@ Opt out of the integration with Analytics and Target when you either:
 
 * Do not want to integrate with these products.
 * Prefer to configure the integrations manually.  
-  For information about configuring the integrations manually, see [Integrating with Adobe Analytics](../../../sites/administering/using/adobeanalytics.md) and [Integrating with Adobe Target](../../../sites/administering/using/target.md).
+  For information about configuring the integrations manually, see [Integrating with Adobe Analytics](/help/sites/administering/using/adobeanalytics.md) and [Integrating with Adobe Target](/help/sites/administering/using/target.md).
 
 To opt out you need to complete the pre-loaded task:
 
-* From your [Inbox, select and **Complete** the Configure Analytics & Targeting](../../../sites/authoring/using/inbox.md#taking-action-on-an-item) task.
+* From your [Inbox, select and **Complete** the Configure Analytics & Targeting](/help/sites/authoring/using/inbox.md#taking-action-on-an-item) task.
 
 ## Providing Account Information Using a Properties File {#providing-account-information-using-a-properties-file}
 
@@ -136,7 +136,7 @@ The following procedure describes how to opt into the integration using the prop
 
 1. Add the property values according to your Analytics and/or Target accounts.
 1. Start or restart the server, and then log in using an administrator account.
-1. Open the Configure Analytics & Targeting task as described in [Configuring the Integration](../../../sites/administering/using/opt-in.md#configuring-the-integration). Instead of requesting your account information, the wizard uses the values from the `.properties` file.
+1. Open the Configure Analytics & Targeting task as described in [Configuring the Integration](/help/sites/administering/using/opt-in.md#configuring-the-integration). Instead of requesting your account information, the wizard uses the values from the `.properties` file.
 
    Select **Add** for the appropriate service, then continue with the wizard. 
 
@@ -146,7 +146,7 @@ The following procedure describes how to opt into the integration using the prop
 
 When you configure the integration with Analytics and Target, AEM automatically creates the required cloud configurations and frameworks. For example, the Analytics cloud configuration is called Provisioned Analytics Account.
 
-You do not need to alter the cloud configurations. However, you can configure the frameworks as needed. (See [Mapping Component Data with Adobe Analytics Properties](../../../sites/administering/using/adobeanalytics-mapping.md) and [Add a Target Framework](../../../sites/administering/using/target.md).)
+You do not need to alter the cloud configurations. However, you can configure the frameworks as needed. (See [Mapping Component Data with Adobe Analytics Properties](/help/sites/administering/using/adobeanalytics-mapping.md) and [Add a Target Framework](/help/sites/administering/using/target.md).)
 
 >[!NOTE]
 >

@@ -19,7 +19,7 @@ AEM offers WebDAV support that lets you display and edit repository content. Con
 
 ## General {#general}
 
-[Detailed instructions per operating system](../../../sites/administering/using/webdav-access.md#connecting-via-webdav) are included in this document, but the essentially to connect to your repository using the WebDAV protocol, you point your WebDAV client to the following location:
+[Detailed instructions per operating system](/help/sites/administering/using/webdav-access.md#connecting-via-webdav) are included in this document, but the essentially to connect to your repository using the WebDAV protocol, you point your WebDAV client to the following location:
 
 ```xml
 http://localhost:4502
@@ -27,7 +27,7 @@ http://localhost:4502
 
 ![](assets/chlimage_1-111.png)
 
-This URL, when connected from the operating system level, provides WebDAV access to the default workspace ( `crx.default`). While being simpler for the user, it does not give them the additional flexibility of specifying workspace names, which can be accomplished using additional [WebDAV URLs](../../../sites/administering/using/webdav-access.md#webdav-urls).
+This URL, when connected from the operating system level, provides WebDAV access to the default workspace ( `crx.default`). While being simpler for the user, it does not give them the additional flexibility of specifying workspace names, which can be accomplished using additional [WebDAV URLs](/help/sites/administering/using/webdav-access.md#webdav-urls).
 
 AEM displays the repository content as follows:
 
@@ -39,7 +39,7 @@ When you use WebDAV to create and edit folders and files, AEM creates and edits 
 
 >[!NOTE]
 >
->Before setting up WebDAV, please check the [Technical Requirements](../../../sites/deploying/using/technical-requirements.md#webdav-clients).
+>Before setting up WebDAV, please check the [Technical Requirements](/help/sites/deploying/using/technical-requirements.md#webdav-clients).
 
 ## WebDAV URLs {#webdav-urls}
 
@@ -92,13 +92,13 @@ http://localhost:4502/crx/repository/staging
 
 ## Connecting via WebDAV {#connecting-via-webdav}
 
-[As mentioned above](../../../sites/administering/using/webdav-access.md#general), to connect to your repository using the WebDAV protocol, you point your WebDAV client to your repository location. However depending on your OS, the steps involved to connect your client differ and there may be configuration of the OS required.
+[As mentioned above](/help/sites/administering/using/webdav-access.md#general), to connect to your repository using the WebDAV protocol, you point your WebDAV client to your repository location. However depending on your OS, the steps involved to connect your client differ and there may be configuration of the OS required.
 
 Instructions on how to connect the following opererating systems are provided:
 
-* [Windows](../../../sites/administering/using/webdav-access.md#windows)
-* [macOS](../../../sites/administering/using/webdav-access.md#macos)
-* [Linux](../../../sites/administering/using/webdav-access.md#linux)
+* [Windows](/help/sites/administering/using/webdav-access.md#windows)
+* [macOS](/help/sites/administering/using/webdav-access.md#macos)
+* [Linux](/help/sites/administering/using/webdav-access.md#linux)
 
 ### Windows {#windows}
 
@@ -132,7 +132,7 @@ See [Microsoft Support KB 2445570](https://support.microsoft.com/kb/2445570) for
 
 #### Windows 8 Configuration {#windows-configuration}
 
-For Windows 8 you also need to change the registry entry [as described for Windows 7 and greater](../../../sites/administering/using/webdav-access.md#windows-and-greater-configuration). However, before you can do this, the Desktop Experience must be enabled in order to see the registry entry.
+For Windows 8 you also need to change the registry entry [as described for Windows 7 and greater](/help/sites/administering/using/webdav-access.md#windows-and-greater-configuration). However, before you can do this, the Desktop Experience must be enabled in order to see the registry entry.
 
 To enable the Desktop Experience, open **Server Manager**, then **Features**, then **Add Features**, then **Desktop Experience**.
 

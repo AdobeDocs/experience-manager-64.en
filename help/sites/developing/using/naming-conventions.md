@@ -13,7 +13,7 @@ discoiquuid: 198098c0-432b-4a93-a94e-2552337435dd
 
 # Naming Conventions{#naming-conventions}
 
-Nodes in the repository are subject to naming conventions of the [Java Content Repository](../../../sites/developing/using/the-basics.md#java-content-repository). However AEM imposes further conventions for the name of page nodes.
+Nodes in the repository are subject to naming conventions of the [Java Content Repository](/help/sites/developing/using/the-basics.md#java-content-repository). However AEM imposes further conventions for the name of page nodes.
 
 ## Naming Conventions for Pages {#naming-conventions-for-pages}
 

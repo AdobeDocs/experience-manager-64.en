@@ -34,7 +34,7 @@ To add a Dynamic Media component/viewer to a page:
 
    >[!NOTE]
    >
-   >See [Configuring Components in Design Mode](../../../sites/authoring/using/default-components-designmode.md) for more information.
+   >See [Configuring Components in Design Mode](/help/sites/authoring/using/default-components-designmode.md) for more information.
 
 1. Return to **Edit** mode by clicking the pencil icon in the sidekick.
 1. Drag the Dynamic Media or Interactive Media component from the **Other** group in the sidekick onto the page in the desired location.
@@ -49,7 +49,7 @@ Dynamic Media and Interactive Media are available in the sidekick under **Dynami
 
 >[!NOTE]
 >
->These components are not available by default and need to be selected in Design mode before using. [After they are made available in Design mode](../../../sites/authoring/using/default-components-designmode.md), you can add the components to your page as you would any other AEM component.
+>These components are not available by default and need to be selected in Design mode before using. [After they are made available in Design mode](/help/sites/authoring/using/default-components-designmode.md), you can add the components to your page as you would any other AEM component.
 
 ### Dynamic Media component {#dynamic-media-component}
 
@@ -59,7 +59,7 @@ The Dynamic Media component is smart - depending on whether you add an image or 
 >
 >When you add the Dynamic Media component, and **Dynamic Media Settings** is blank or you cannot add an asset properly, check the following:
 >
->* You have [enabled Dynamic Media](../../../assets/using/config-dynamic.md). Dynamic Media is disabled by default.
+>* You have [enabled Dynamic Media](/help/assets/using/config-dynamic.md). Dynamic Media is disabled by default.
 >* The image has a pyramid tiff file. Images imported before dynamic media is enabled do not have a pyramid tiff file.
 >
 

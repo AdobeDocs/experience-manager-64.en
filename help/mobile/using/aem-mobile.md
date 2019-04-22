@@ -15,7 +15,7 @@ discoiquuid: 5e1e6a51-67e1-42e3-bcb0-e16bc92c9cb3
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ discoiquuid: 5e1e6a51-67e1-42e3-bcb0-e16bc92c9cb3
 >
 >**Prerequisite:**
 >
->Before you get started with setting up your environment for AEM Mobile On-Demand Services, see [AEM Mobile Application Dashboard or the Control Center](../../mobile/using/mobile-apps-ondemand-application-dashboard.md).
+>Before you get started with setting up your environment for AEM Mobile On-Demand Services, see [AEM Mobile Application Dashboard or the Control Center](/help/mobile/using/mobile-apps-ondemand-application-dashboard.md).
 
 An ***AEM administrator*** is responsible for adding a new application to the AEM Mobile catalog, either by creating a new app using the creation wizard, or by importing an existing application. AEM administrators who create a new app using AEM Mobile's *creation wizard* typically select one of the desired app templates either from our out-of-the-box reference samples or (in most cases) a custom app template created by *AEM developers.*
 
@@ -37,21 +37,21 @@ An ***AEM administrator*** is responsible for adding a new application to the AE
 
 An AEM administrator is responsible for the following tasks while creating an app using AEM Mobile On-Demand Services:
 
-* [Setting up AEM Mobile](../../mobile/using/aem-mobile-setup.md), that covers
+* [Setting up AEM Mobile](/help/mobile/using/aem-mobile-setup.md), that covers
 
     * AEM Mobile Provisioning
     * Creating Projects for AEM Mobile
     * Configuring an AEM Mobile Connector
     * Adding AEM Mobile User Roles and Assigning Permissions
 
-* [Configuring your User and User Groups](../../mobile/using/aem-mobile-configure-users.md)
-* [Previewing with Preflight](../../mobile/using/aem-mobile-manage-ondemand-services.md)
+* [Configuring your User and User Groups](/help/mobile/using/aem-mobile-configure-users.md)
+* [Previewing with Preflight](/help/mobile/using/aem-mobile-manage-ondemand-services.md)
 * [Administering Content Services](/mobile/using/content-services.md)
 
 ## Additional Resources {#additional-resources}
 
 To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:
 
-* [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
-* [Authoring AEM Content for AEM Mobile On-Demand Services App](../../mobile/using/mobile-apps-ondemand.md)
+* [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-on-demand.md)
+* [Authoring AEM Content for AEM Mobile On-Demand Services App](/help/mobile/using/mobile-apps-ondemand.md)
 

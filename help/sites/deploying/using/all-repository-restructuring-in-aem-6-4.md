@@ -13,36 +13,36 @@ discoiquuid: 80bd707f-c02d-4616-9b45-90f6c726abea
 
 # Common Repository Restructuring in AEM 6.4{#common-repository-restructuring-in-aem}
 
-As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes potentially impacting all solutions. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
+As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes potentially impacting all solutions. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
 
 **With 6.4 Upgrade**
 
-* [Workflow Instances](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-instances)
-* [Workflow Models](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-models)
-* [Workflow Launchers](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-launchers)
-* [Workflow Scripts](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-scripts)
+* [Workflow Instances](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-instances)
+* [Workflow Models](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-models)
+* [Workflow Launchers](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-launchers)
+* [Workflow Scripts](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-scripts)
 
 **Prior to 6.5 Upgrade**
 
-* [ContextHub Configurations](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#contexthub-configurations)
-* [Classic Cloud Services Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classic-cloud-services-designs)
-* [Classic Dashboards Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classic-dashboards-designs)
-* [Classic Reports Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classic-reports-designs)
-* [Default Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#default-designs)
-* [Adobe DTM JavaScript Endpoint](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#adobe-dtm-javascript-endpoint)
-* [Adobe DTM Web-Hook Endpoint](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#adobe-dtm-web-hook-endpoint)
-* [Inbox Tasks](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#inbox-tasks)
-* [Multi-site Manager Blueprint Configurations](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#multi-site-manager-blueprint-configurations)
-* [AEM Projects Dashboard Gadget Configurations](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#aem-projects-dashboard-gadget-configurations)
-* [Replication Notification E-mail Template](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#replication-notification-e-mail-template)
-* [Tags](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#tags)
-* [Translation Cloud Services](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-cloud-services)
-* [Translation Languages](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-languages)
-* [Translation Rules](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-rules)
-* [Translation Widget Client Library](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-widget-client-library)
-* [Tree Activation Web Console](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#tree-activation-web-console)
-* [Vendor Translation Connector Cloud Services](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#vendor-translation-connector-cloud-services)
-* [Workflow Notification Email Templates](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-notification-email-templates)
+* [ContextHub Configurations](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#contexthub-configurations)
+* [Classic Cloud Services Designs](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classic-cloud-services-designs)
+* [Classic Dashboards Designs](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classic-dashboards-designs)
+* [Classic Reports Designs](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classic-reports-designs)
+* [Default Designs](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#default-designs)
+* [Adobe DTM JavaScript Endpoint](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#adobe-dtm-javascript-endpoint)
+* [Adobe DTM Web-Hook Endpoint](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#adobe-dtm-web-hook-endpoint)
+* [Inbox Tasks](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#inbox-tasks)
+* [Multi-site Manager Blueprint Configurations](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#multi-site-manager-blueprint-configurations)
+* [AEM Projects Dashboard Gadget Configurations](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#aem-projects-dashboard-gadget-configurations)
+* [Replication Notification E-mail Template](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#replication-notification-e-mail-template)
+* [Tags](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#tags)
+* [Translation Cloud Services](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-cloud-services)
+* [Translation Languages](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-languages)
+* [Translation Rules](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-rules)
+* [Translation Widget Client Library](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-widget-client-library)
+* [Tree Activation Web Console](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#tree-activation-web-console)
+* [Vendor Translation Connector Cloud Services](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#vendor-translation-connector-cloud-services)
+* [Workflow Notification Email Templates](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-notification-email-templates)
 
 ## With 6.4 Upgrade {#with-upgrade}
 
@@ -235,7 +235,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (<span class="code">/apps</span>).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the <span class="code">
        <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
         cq
@@ -274,7 +274,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
        cq
@@ -313,7 +313,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="19" id="19">
        cq
@@ -352,7 +352,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
        cq
@@ -695,7 +695,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
        cq

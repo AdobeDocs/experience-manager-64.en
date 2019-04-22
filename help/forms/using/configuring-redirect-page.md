@@ -32,5 +32,5 @@ Form authors can use the following parameters that are passed to the Thank you p
 
 * **Submit to Forms workflow**: Output parameters returned from forms workflow are passed.  
 
-* **Submit to REST endpoint**: Parameters added for in-field to parameter mapping are passed. `status` and `owner` parameters are not passed in this submit action. For more information, see [Configuring the Submit to REST endpoint submit action](../../forms/using/configuring-submit-actions.md).
+* **Submit to REST endpoint**: Parameters added for in-field to parameter mapping are passed. `status` and `owner` parameters are not passed in this submit action. For more information, see [Configuring the Submit to REST endpoint submit action](/help/forms/using/configuring-submit-actions.md).
 

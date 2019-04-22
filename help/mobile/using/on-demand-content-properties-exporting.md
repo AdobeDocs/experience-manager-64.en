@@ -15,7 +15,7 @@ discoiquuid: a3006835-b1d2-47d6-959a-cdb692e34e1e
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Apps are represented as *cq:Pages* in AEM.
 
@@ -82,7 +82,7 @@ The following table shows **App Properties and Nodes**.
 
 You can use ***Content Properties*** to create content. See the following resources for creating and exporting articles and shared resources:
 
-* [Content Properties](../../mobile/using/content-properties.md)
-* [Creating Article Export Configuration](../../mobile/using/creating-article-export-configuration.md)
-* [Creating Shared Resources Export Configuration](../../mobile/using/creating-shared-resources-export-configuration.md)
+* [Content Properties](/help/mobile/using/content-properties.md)
+* [Creating Article Export Configuration](/help/mobile/using/creating-article-export-configuration.md)
+* [Creating Shared Resources Export Configuration](/help/mobile/using/creating-shared-resources-export-configuration.md)
 

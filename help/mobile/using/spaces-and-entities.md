@@ -14,7 +14,7 @@ discoiquuid: ef568577-c74e-4fc2-b66e-eedac2948310
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 A Space is a convenient location to store entities that are exposed through the Content Services REST API. This is especially useful because an app (or any channel) can be associated with many entities. Forcing Entities to be within a Space forces the best practice of grouping an App's requirements. Optionally, you can associate an app in AEM with a small number of Spaces.
 
@@ -167,7 +167,7 @@ If entity children, which are other entities, are gathered for data modeling, th
    >You have the option to choose the **Assets Model**, **Pages Model**, or a model of entity type you created before.
    >
    >
-   >See [Creating a Model](../../mobile/using/working-with-a-model.md), to create your custom entity.
+   >See [Creating a Model](/help/mobile/using/working-with-a-model.md), to create your custom entity.
 
 1. Enter a **Title**,** Name**, **Description**, and** Tags** for the entity. Click **Create**.
 

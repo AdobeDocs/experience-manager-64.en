@@ -23,7 +23,7 @@ cURL is an open-source command-line tool used to perform URL manipulations. It s
 
 cURL is a well-established and widely-used tool for getting or sending data using the URL syntax and was originally released in 1997. The name cURL originally meant "see URL."
 
-Because of the RESTful nature of the Sling framework upon which AEM is built, most tasks can be reduced to a URL call, which can be executed with cURL. [Content manipulation tasks](../../../sites/administering/using/curl.md#common-content-manipulation-aem-curl-commands) such as activating pages, and starting workflows as well as [operational tasks](../../../sites/administering/using/curl.md#common-operational-aem-curl-commands) such as package management and managing users can be automated using cURL. In addition you can [create your own cURL](../../../sites/administering/using/curl.md#building-a-curl-ready-aem-command) commands for most tasks in AEM.
+Because of the RESTful nature of the Sling framework upon which AEM is built, most tasks can be reduced to a URL call, which can be executed with cURL. [Content manipulation tasks](/help/sites/administering/using/curl.md#common-content-manipulation-aem-curl-commands) such as activating pages, and starting workflows as well as [operational tasks](/help/sites/administering/using/curl.md#common-operational-aem-curl-commands) such as package management and managing users can be automated using cURL. In addition you can [create your own cURL](/help/sites/administering/using/curl.md#building-a-curl-ready-aem-command) commands for most tasks in AEM.
 
 >[!NOTE]
 >
@@ -205,7 +205,7 @@ curl -u admin:admin -FdeleteAuthorizable= http://localhost:4502/home/groups/t/te
 
 ### Backup {#backup}
 
-See [Backup and Restore](../../../sites/administering/using/backup-and-restore.md#automating-aem-online-backup) for details.
+See [Backup and Restore](/help/sites/administering/using/backup-and-restore.md#automating-aem-online-backup) for details.
 
 ### OSGi {#osgi}
 
@@ -272,33 +272,33 @@ curl -u admin:admin -F "cmd=clear" -F "name=publish"  http://localhost:4502/etc/
 
 #### Assign and Revoke Badges {#assign-and-revoke-badges}
 
-See [Communities Scoring and Badges](../../../communities/using/implementing-scoring.md#assign-and-revoke-badges) for details.
+See [Communities Scoring and Badges](/help/communities/using/implementing-scoring.md#assign-and-revoke-badges) for details.
 
-See [Scoring and Badges Essentials](../../../communities/using/configure-scoring.md#example-setup) for details.
+See [Scoring and Badges Essentials](/help/communities/using/configure-scoring.md#example-setup) for details.
 
 #### MSRP Reindexing {#msrp-reindexing}
 
-See [MSRP - MongoDB Storage Resource Provider](../../../communities/using/msrp.md#running-msrp-reindex-tool-using-curl-command) for details. [](../../../communities/using/msrp.md#running-msrp-reindex-tool-using-curl-command)
+See [MSRP - MongoDB Storage Resource Provider](/help/communities/using/msrp.md#running-msrp-reindex-tool-using-curl-command) for details. [](/help/communities/using/msrp.md#running-msrp-reindex-tool-using-curl-command)
 
 ### Security {#security}
 
 #### Enabling and Disabling CRX DE Lite {#enabling-and-disabling-crx-de-lite}
 
-See [Enabling CRXDE Lite in AEM](../../../sites/administering/using/enabling-crxde-lite.md) for details.
+See [Enabling CRXDE Lite in AEM](/help/sites/administering/using/enabling-crxde-lite.md) for details.
 
 ### Data Store Garbage Collection {#data-store-garbage-collection}
 
-See [Data Store Garbage Collection](../../../sites/administering/using/data-store-garbage-collection.md#automating-data-store-garbage-collection) for details.
+See [Data Store Garbage Collection](/help/sites/administering/using/data-store-garbage-collection.md#automating-data-store-garbage-collection) for details.
 
 ### Analytics and Target Integration {#analytics-and-target-integration}
 
-See [Opting Into Adobe Analytics and Adobe Target](../../../sites/administering/using/opt-in.md#configuring-the-setup-and-provisioning-via-script) for details. [](../../../sites/administering/using/opt-in.md#configuring-the-setup-and-provisioning-via-script)
+See [Opting Into Adobe Analytics and Adobe Target](/help/sites/administering/using/opt-in.md#configuring-the-setup-and-provisioning-via-script) for details. [](/help/sites/administering/using/opt-in.md#configuring-the-setup-and-provisioning-via-script)
 
 ### Single Sign On {#single-sign-on}
 
 #### Send Test Header {#send-test-header}
 
-See [Single Sign On](../../../sites/deploying/using/single-sign-on.md) for details.
+See [Single Sign On](/help/sites/deploying/using/single-sign-on.md) for details.
 
 ## Common Content Manipulation AEM cURL Commands {#common-content-manipulation-aem-curl-commands}
 
@@ -348,7 +348,7 @@ curl -u admin:admin -F cmd=copyPage -F destParentPath=/path/to/destination/paren
 
 ### Workflows {#workflows}
 
-See [Interacting with Workflows Programmatically](../../../sites/developing/using/workflows-program-interaction.md) for details.
+See [Interacting with Workflows Programmatically](/help/sites/developing/using/workflows-program-interaction.md) for details.
 
 ### Sling Content {#sling-content}
 
@@ -396,4 +396,4 @@ curl -u admin:admin -F "*=@test.properties;type=text/plain" http://localhost:450
 
 ### Asset Manipulation {#asset-manipulation}
 
-See [Assets HTTP API](../../../assets/using/mac-api-assets.md) for details.
+See [Assets HTTP API](/help/assets/using/mac-api-assets.md) for details.

@@ -13,7 +13,7 @@ discoiquuid: 5d860f05-3257-4cf7-93dd-77d226d59b39
 
 # Create custom appearances in HTML5 forms{#create-custom-appearances-in-html-forms}
 
-You can plug in custom widgets to a Mobile Forms. You can extend existing jQuery Widgets or develop your own custom widgets using appearances framework. XFA engine uses various widgets, see [Appearance framework for adaptive and HTML5 forms](../../forms/using/introduction-widgets.md) for detailed information.
+You can plug in custom widgets to a Mobile Forms. You can extend existing jQuery Widgets or develop your own custom widgets using appearances framework. XFA engine uses various widgets, see [Appearance framework for adaptive and HTML5 forms](/help/forms/using/introduction-widgets.md) for detailed information.
 
 ![An example of default and custom widget](assets/custom-widgets.jpg)
 
@@ -23,7 +23,7 @@ An example of default and custom widget
 
 ### Create a profile&nbsp; {#create-a-profile-nbsp}
 
-You can create a profile or choose an existing profile to add a custom widget. For more information on creating profiles, see [Creating custom Profile](../../forms/using/custom-profile.md).
+You can create a profile or choose an existing profile to add a custom widget. For more information on creating profiles, see [Creating custom Profile](/help/forms/using/custom-profile.md).
 
 ### Create a widget {#create-a-widget}
 
@@ -70,7 +70,7 @@ window.formBridge.registerConfig("widgetConfig" , widgetConfigObject);
 
 ### Register custom widget with XFA Scripting Engine&nbsp; {#register-custom-widget-with-xfa-scripting-engine-nbsp}
 
-When the custom widget code is ready, register the widget with the scripting engine by using `registerConfig`API for [Form Bridge](../../forms/using/form-bridge-apis.md). It takes widgetConfigObject as input.
+When the custom widget code is ready, register the widget with the scripting engine by using `registerConfig`API for [Form Bridge](/help/forms/using/form-bridge-apis.md). It takes widgetConfigObject as input.
 
 ```
 

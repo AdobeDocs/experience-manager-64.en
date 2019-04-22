@@ -19,29 +19,29 @@ Adobe Engineering and Consulting teams have developed a comprehensive set of bes
 
 Before you start your AEM development project, first review these best practices:
 
-* [Development Practices](../../../sites/developing/using/development-practices.md)
-* [Content Architecture](../../../sites/developing/using/content-architecture.md)
-* [Software Architecture](../../../sites/developing/using/software-architecture.md)
-* [Coding Tips](../../../sites/developing/using/coding-tips.md)
-* [Code Pitfalls](../../../sites/developing/using/code-pitfalls.md)
-* [JCR Interaction](../../../sites/developing/using/jcr-integration.md)
-* [OSGi Bundles](../../../sites/developing/using/osgi-bundles.md)
+* [Development Practices](/help/sites/developing/using/development-practices.md)
+* [Content Architecture](/help/sites/developing/using/content-architecture.md)
+* [Software Architecture](/help/sites/developing/using/software-architecture.md)
+* [Coding Tips](/help/sites/developing/using/coding-tips.md)
+* [Code Pitfalls](/help/sites/developing/using/code-pitfalls.md)
+* [JCR Interaction](/help/sites/developing/using/jcr-integration.md)
+* [OSGi Bundles](/help/sites/developing/using/osgi-bundles.md)
 
 ### Additional Best Practices Information {#additional-best-practices-information}
 
 The following areas have documentation available specific to developing best practices:
 
 * [Sites](#sites)
-* [Communities](../../../sites/developing/using/best-practices.md#communities)
-* [Tooling/HTL](../../../sites/developing/using/best-practices.md#tooling-htl)
+* [Communities](/help/sites/developing/using/best-practices.md#communities)
+* [Tooling/HTL](/help/sites/developing/using/best-practices.md#tooling-htl)
 
 Specific documents are described and linked to in the tables that follow.
 
 For best practices on administering, deploying and maintaining, or authoring, see one of the following:
 
-* [Administering best practices](../../../sites/administering/using/administer-best-practices.md)
-* [Authoring best practices](../../../sites/authoring/using/best-practices.md)
-* [Deploying best practices](../../../sites/deploying/using/best-practices.md)
+* [Administering best practices](/help/sites/administering/using/administer-best-practices.md)
+* [Authoring best practices](/help/sites/authoring/using/best-practices.md)
+* [Deploying best practices](/help/sites/deploying/using/best-practices.md)
 
 ## Sites {#sites}
 
@@ -51,22 +51,22 @@ Managing and authoring your website content has some best practices outlined as 
  <tbody>
   <tr>
    <td>Some of the theory behind the standard, touch-enabled UI.</td> 
-   <td><p><a href="../../../sites/developing/using/touch-ui-concepts.md">Touch-Enabled UI: Concepts</a></p> <p><a href="../../../sites/developing/using/touch-ui-structure.md">Touch-Enabled UI: Structure</a></p> </td> 
+   <td><p><a href="/help/sites/developing/using/touch-ui-concepts.md">Touch-Enabled UI: Concepts</a></p> <p><a href="/help/sites/developing/using/touch-ui-structure.md">Touch-Enabled UI: Structure</a></p> </td> 
    <td>These documents provide an overview of the concepts, and structure, of the touch-enabled UI.</td> 
   </tr>
   <tr>
    <td>Touch-Enabled UI: Customizing consoles </td> 
-   <td><a href="../../../sites/developing/using/customizing-consoles-touch.md">Customizing touch-enabled UI consoles</a></td> 
+   <td><a href="/help/sites/developing/using/customizing-consoles-touch.md">Customizing touch-enabled UI consoles</a></td> 
    <td>This document describes the best way to extend the consoles for the touch-enabled UI.</td> 
   </tr>
   <tr>
    <td>Touch-enabled UI: Customizing page authoring</td> 
-   <td><a href="../../../sites/developing/using/customizing-page-authoring-touch.md">Customizing touch-enabled UI page authoring</a></td> 
+   <td><a href="/help/sites/developing/using/customizing-page-authoring-touch.md">Customizing touch-enabled UI page authoring</a></td> 
    <td>Describes how to extend page authoring for the touch-enabled UI.</td> 
   </tr>
   <tr>
    <td>Workflows</td> 
-   <td><a href="../../../sites/developing/using/workflows-best-practices.md">Developing and Extending Workflows</a></td> 
+   <td><a href="/help/sites/developing/using/workflows-best-practices.md">Developing and Extending Workflows</a></td> 
    <td><p>Workflows enable you to automate Adobe Experience Manager (AEM) activities and can represent a large amount of the processing that occurs in an AEM environment, so it is highly recommended to plan your workflows implementations carefully.</p> </td> 
   </tr>
  </tbody>
@@ -74,13 +74,13 @@ Managing and authoring your website content has some best practices outlined as 
 
 ## Communities {#communities}
 
-[AEM Communities](../../../communities/using/overview.md) simplifies the creation and management of on-premise Communities.
+[AEM Communities](/help/communities/using/overview.md) simplifies the creation and management of on-premise Communities.
 
 Some best practices for Communities are described here:
 
-| Best practices for working with user generated content (UGC) | [Coding Guidelines](../../../communities/using/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](../../../communities/using/scf.md) (SCF). |
+| Best practices for working with user generated content (UGC) | [Coding Guidelines](/help/communities/using/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](/help/communities/using/scf.md) (SCF). |
 |---|---|---|
-| Example usage of Communities components | [Community Components Guide](../../../communities/using/components-guide.md) |An interactive development tool. |
+| Example usage of Communities components | [Community Components Guide](/help/communities/using/components-guide.md) |An interactive development tool. |
 
 ## Tooling/HTL {#tooling-htl}
 

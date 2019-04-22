@@ -7,7 +7,7 @@ user-guide: null
 
 # Table of Contents - AEM 6.4 - Release Notes {#table-of-contents}
 
-+ [General Release Notes for Adobe Experience Manager 6.4](../release-notes/release-notes.md)
++ [General Release Notes for Adobe Experience Manager 6.4](/help/release-notes/release-notes.md)
 + [Copyright, Licenses and Disclaimers](licenses.md)
 + [AEM Forms](forms.md)
 + [AEM Foundation & Repository](wcm-platform.md)

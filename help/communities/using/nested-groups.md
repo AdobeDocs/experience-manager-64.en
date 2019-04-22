@@ -13,7 +13,7 @@ discoiquuid: 955a1876-4882-4926-82e9-846bc8bb332c
 
 # Authoring Nested Groups{#authoring-nested-groups}
 
-| ** [⇐ Experience the Published Site](../../communities/using/published-site.md)** |  |
+| ** [⇐ Experience the Published Site](/help/communities/using/published-site.md)** |  |
 |---|---|
 
 ## Creating Groups on Author {#creating-groups-on-author}
@@ -27,7 +27,7 @@ On author, from global navigation
     * select the card image
     * do *not* select an icon
 
-The result is to reach the [Groups console](../../communities/using/groups.md):
+The result is to reach the [Groups console](/help/communities/using/groups.md):
 
 ![](assets/chlimage_1-53.png)
 
@@ -120,7 +120,7 @@ The `arts` group should also contain a `groups` folder, but one that is empty an
     * Template: `Reference Group`
     * Membership: select `Restricted Membership`  
       a secret group, visible only to invited members  
-      as an example, invite [demo user](../../communities/using/tutorials.md#demo-users) `emily.andrews@mailinator.com`
+      as an example, invite [demo user](/help/communities/using/tutorials.md#demo-users) `emily.andrews@mailinator.com`
 
 Refresh the page to see all three nested groups (sub-communities).
 
@@ -152,7 +152,7 @@ After publishing the main community site, it is necessary to
 
 ## Experience on Publish {#experience-on-publish}
 
-It is possible to experience the different groups when signed in, for example with the [demo users](../../communities/using/tutorials.md#demo-users) used for
+It is possible to experience the different groups when signed in, for example with the [demo users](/help/communities/using/tutorials.md#demo-users) used for
 
 * Art/History group member: emily.andrews@mailinator.com/password
 
@@ -166,8 +166,8 @@ It is possible to experience the different groups when signed in, for example wi
     * can join restricted (open) groups
     * will not see retricted (secret) groups
 
-Access the Communities [Members and Groups consoles](../../communities/using/members.md) on author to add other users to various member groups that correspond to the community groups.
+Access the Communities [Members and Groups consoles](/help/communities/using/members.md) on author to add other users to various member groups that correspond to the community groups.
 
-| ** [⇐ Experience the Published Site](../../communities/using/published-site.md)** |  |
+| ** [⇐ Experience the Published Site](/help/communities/using/published-site.md)** |  |
 |---|---|
 

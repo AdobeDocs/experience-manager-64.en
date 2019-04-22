@@ -180,7 +180,7 @@ The difference between this approach and the one explained above is that checkpo
 
 In this use case, you can perform reindexing on a cloned setup to minimize impact on the running AEM instance:
 
-1. Create checkpoint via a JMX operation. You can do this by going to the [JMX Console](../../../sites/administering/using/jmx-console.md) and search for `CheckpointManager`. Then, click on the **createCheckpoint(long p1)** operation using a high value for expiration in seconds (for example, **2592000**).
+1. Create checkpoint via a JMX operation. You can do this by going to the [JMX Console](/help/sites/administering/using/jmx-console.md) and search for `CheckpointManager`. Then, click on the **createCheckpoint(long p1)** operation using a high value for expiration in seconds (for example, **2592000**).
 1. Copy the `crx-quickstart` folder to a new machine 
 1. Perform reindex via oak-run index command  
 

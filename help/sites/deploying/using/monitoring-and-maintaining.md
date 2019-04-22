@@ -19,15 +19,15 @@ A key factor here is that to recognize potential issues you need to know how you
 
 | Check |Considerations |Comment / Actions |
 |---|---|---|
-| Backup plan. |  |See how to [Backup your Instance](../../../sites/deploying/using/monitoring-and-maintaining.md#backups). |
+| Backup plan. |  |See how to [Backup your Instance](/help/sites/deploying/using/monitoring-and-maintaining.md#backups). |
 | Disaster recovery plan. |Your company's disaster recovery guidelines. |  |
 | An error tracking system is available for reporting problems. |For example, [bugzilla](https://www.bugzilla.org/), [jira](https://www.atlassian.com/software/jira/), or one of many others. |  |
 | File systems are being monitored. |The CRX repository will "freeze" if there is insufficient free disk space. It will resume once space becomes available. |" `*ERROR* LowDiskSpaceBlocker`" messages can be seen in the log file when free space becomes low. |
-| [Log files](../../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) are being monitored. |  |  |
+| [Log files](/help/sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) are being monitored. |  |  |
 | System monitoring is (constantly) running in the background. |Including CPU, memory, disk and network usage. Using for example, iostat / vmstat / perfmon. |Logged data is visualized and can be used for tracking performance problems. Raw data is also accessible. |
-| [AEM performance is being monitored](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance). |Including [Request Counters](../../../sites/deploying/using/monitoring-and-maintaining.md#request-counters) to monitor traffic levels. |If a significant, or long term loss, of performance is seen, detailed investigation should be made. |
-| You are monitoring your [Replication Agents](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoring-your-replication-agents). `` |  |  |
-| Regularly purge workflow instances. |Repository size and workflow performance. |See [Regular Purging of Workflow Instances](../../../sites/administering/using/workflows-administering.md#regular-purging-of-workflow-instances). |
+| [AEM performance is being monitored](/help/sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance). |Including [Request Counters](/help/sites/deploying/using/monitoring-and-maintaining.md#request-counters) to monitor traffic levels. |If a significant, or long term loss, of performance is seen, detailed investigation should be made. |
+| You are monitoring your [Replication Agents](/help/sites/deploying/using/monitoring-and-maintaining.md#monitoring-your-replication-agents). `` |  |  |
+| Regularly purge workflow instances. |Repository size and workflow performance. |See [Regular Purging of Workflow Instances](/help/sites/administering/using/workflows-administering.md#regular-purging-of-workflow-instances). |
 
 ## Backups {#backups}
 
@@ -56,7 +56,7 @@ Often a full backup is taken at regular intervals (e.g. daily, weekly or monthly
 
 >[!NOTE]
 >
->For more information about backup performances, please read the [Backup Performance](../../../sites/deploying/using/configuring-performance.md#backup-performance) section.
+>For more information about backup performances, please read the [Backup Performance](/help/sites/deploying/using/configuring-performance.md#backup-performance) section.
 
 ### Backing up your software installation {#backing-up-your-software-installation}
 
@@ -69,7 +69,7 @@ To do this, you need to [back up your entire repository](#backing-up-your-reposi
 
 >[!CAUTION]
 >
->If you are operating a third-party application server, then additional folders may be in a different location and may also need to be backed up. See [How to install AEM with an Application Server](../../../sites/deploying/using/application-server-install.md) for information about installing application servers. [](/content/docs/en/aem/6-3/deploy/installing.md#installing adobe experience manager with an application server)
+>If you are operating a third-party application server, then additional folders may be in a different location and may also need to be backed up. See [How to install AEM with an Application Server](/help/sites/deploying/using/application-server-install.md) for information about installing application servers. [](/content/docs/en/aem/6-3/deploy/installing.md#installing adobe experience manager with an application server)
 
 >[!CAUTION]
 >
@@ -81,9 +81,9 @@ To do this, you need to [back up your entire repository](#backing-up-your-reposi
 
 ### Backing up your repository {#backing-up-your-repository}
 
-The [Backup and Restore](../../../sites/administering/using/backup-and-restore.md) section of the CRX documentation covers all issues related to backups of the CRX repository.
+The [Backup and Restore](/help/sites/administering/using/backup-and-restore.md) section of the CRX documentation covers all issues related to backups of the CRX repository.
 
-For full details of making an online "hot" backup see [Creating an Online Backup](../../../sites/administering/using/backup-and-restore.md#online-backup).
+For full details of making an online "hot" backup see [Creating an Online Backup](/help/sites/administering/using/backup-and-restore.md#online-backup).
 
 ## Version Purging {#version-purging}
 
@@ -93,7 +93,7 @@ This section deals with maintenance operations related to the versioning feature
 
 ### Overview {#overview}
 
-The **Purge Versions **tool is available in the ** [Tools](../../../sites/administering/using/tools-consoles.md) console** under **Versioning** or directly at: ``
+The **Purge Versions **tool is available in the ** [Tools](/help/sites/administering/using/tools-consoles.md) console** under **Versioning** or directly at: ``
 
 `https://<server>:<port>/etc/versioning/purge.html`
 
@@ -115,7 +115,7 @@ The **Purge Versions **tool is available in the ** [Tools](../../../sites/admini
 
 To purge versions of a web site, proceed as follows:
 
-1. Navigate to the ** [Tools](../../../sites/administering/using/tools-consoles.md)** **console**, select **Versioning** and double-click **Purge Versions.**
+1. Navigate to the ** [Tools](/help/sites/administering/using/tools-consoles.md)** **console**, select **Versioning** and double-click **Purge Versions.**
 1. Set the start path of the content to be purged (e.g. `/content/geometrixx-outdoors`).
 
     * If you want to only purge the node defined by your path, unselect **Recursive**.
@@ -225,9 +225,9 @@ Various log files are held on the file server where you installed AEM:
 
 ### Activating the DEBUG Log Level {#activating-the-debug-log-level}
 
-The default log level [Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings) is Information, so debug messages are not logged.
+The default log level [Apache Sling Logging Configuration](/help/sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings) is Information, so debug messages are not logged.
 
-To activate the debug log level for a Logger, set the property `org.apache.sling.commons.log.level` to debug in the repository. For example, on `/libs/sling/config/org.apache.sling.commons.log.LogManager` to configure the [global Apache Sling Logging](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings).
+To activate the debug log level for a Logger, set the property `org.apache.sling.commons.log.level` to debug in the repository. For example, on `/libs/sling/config/org.apache.sling.commons.log.LogManager` to configure the [global Apache Sling Logging](/help/sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings).
 
 >[!CAUTION]
 >
@@ -251,12 +251,12 @@ The log levels are as follows:
 
 >[!NOTE]
 >
->When working with Adobe Experience Manager there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+>When working with Adobe Experience Manager there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 In certain circumstances you may want to create a custom log file with a different log level. You can do this in the repository by:
 
 1. If not already existing, create a new configuration folder ( `sling:Folder`) for your project `/apps/<*project-name*>/config`.
-1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings):
+1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](/help/sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings):
 
     * Name: `org.apache.sling.commons.log.LogManager.factory.config-<*identifier*>` (as this is a Logger)  
       Where `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.config-MINE`  
@@ -359,7 +359,7 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >If no explicit Writer is configured the system will automatically generate an implicit Writer based on the default.
 
-   Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings):
+   Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](/help/sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings):
 
     * Name: `org.apache.sling.commons.log.LogManager.factory.writer-<*identifier*>` (as this is a Writer)  
       As with the Logger, `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.writer-MINE`
@@ -459,7 +459,7 @@ OSGi events also generate audit records which can be seen from the **Configurati
 
 ## Monitoring Your Replication Agents {#monitoring-your-replication-agents}
 
-You can monitor your [replication queues](../../../sites/deploying/using/replication.md) to detect when a queue is either down or blocked - which might in turn indicate a problem with a publishing instance or external system:
+You can monitor your [replication queues](/help/sites/deploying/using/replication.md) to detect when a queue is either down or blocked - which might in turn indicate a problem with a publishing instance or external system:
 
 * are all required queues enabled?
 * are any disabled queues still required?
@@ -510,13 +510,13 @@ Again you can develop a solution to detect all replication agents (located under
 
 ## Monitoring Performance {#monitoring-performance}
 
-[Performance Optimization](../../../sites/deploying/using/configuring-performance.md) is an interactive process which receives focus during development. After deployment it is usually reviewed after specific intervals or events.
+[Performance Optimization](/help/sites/deploying/using/configuring-performance.md) is an interactive process which receives focus during development. After deployment it is usually reviewed after specific intervals or events.
 
 Methods used while collecting information for optimization can also be used for ongoing monitoring.
 
 >[!NOTE]
 >
->Specific [configurations available to improve performance](../../../sites/deploying/using/configuring-performance.md#configuring-for-performance) can also be checked.
+>Specific [configurations available to improve performance](/help/sites/deploying/using/configuring-performance.md#configuring-for-performance) can also be checked.
 
 The following lists common performance issues which occur, together with proposals on how to spot and counteract them.
 
@@ -1100,7 +1100,7 @@ If your system is running out of memory this can be seen in various ways, includ
 
 In these cases check:
 
-* the JVM settings used to [start AEM](../../../sites/deploying/using/deploy.md#getting-started)
+* the JVM settings used to [start AEM](/help/sites/deploying/using/deploy.md#getting-started)
 * The Knowledge Base:
 
     * [Analyze Memory Problems](https://helpx.adobe.com/experience-manager/kb/AnalyzeMemoryProblems.html)
@@ -1111,14 +1111,14 @@ If your system is either running out of diskspace, or you notice disk thrashing 
 
 * Whether you have disabled collection of debug information; this can be configured in various locations, including:
 
-    * [Apache Sling JSP Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
-    * [Apache Sling Java Script Handler](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
-    * [Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
-    * [CQ HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
-    * [CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
-    * [Loggers](../../../sites/deploying/using/monitoring-and-maintaining.md#activating-the-debug-log-level) [](../../../sites/deploying/using/configuring.md#logging)
+    * [Apache Sling JSP Script Handler](/help/sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
+    * [Apache Sling Java Script Handler](/help/sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
+    * [Apache Sling Logging Configuration](/help/sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
+    * [CQ HTML Library Manager](/help/sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
+    * [CQ WCM Debug Filter](/help/sites/deploying/using/osgi-configuration-settings.md#osgi-configuration-settings)
+    * [Loggers](/help/sites/deploying/using/monitoring-and-maintaining.md#activating-the-debug-log-level) [](/help/sites/deploying/using/configuring.md#logging)
 
-* Whether and how you have configured [Version Purging](../../../sites/deploying/using/version-purging.md)
+* Whether and how you have configured [Version Purging](/help/sites/deploying/using/version-purging.md)
 * The Knowledge Base:
 
     * [Too Many Open Files](https://helpx.adobe.com/experience-manager/kb/TooManyOpenFiles.html)

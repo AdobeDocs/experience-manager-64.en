@@ -28,5 +28,5 @@ You can use either AEM or Adobe Target as the targeting engine (you must have a 
 
 >[!NOTE]
 >
->Targeting mode is not available in classic UI. See [Authoring Targeted Content Using Targeted Mode](../../../sites/authoring/using/content-targeting-touch.md) in the standard authoring documentation for details.
+>Targeting mode is not available in classic UI. See [Authoring Targeted Content Using Targeted Mode](/help/sites/authoring/using/content-targeting-touch.md) in the standard authoring documentation for details.
 

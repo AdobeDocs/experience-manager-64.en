@@ -14,7 +14,7 @@ discoiquuid: 672d5b1e-6b2f-4afe-ab04-c398e5ef45d5
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 AEM content can easily be rendered via [Sling Default Servlets](https://sling.apache.org/documentation/bundles/rendering-content-default-get-servlets.html) to render [JSON](https://sling.apache.org/documentation/bundles/rendering-content-default-get-servlets.html#default-json-rendering) and other formats.
 
@@ -222,7 +222,7 @@ This configuration extend the default to include grouping children under a child
 
 See the resources below to learn about additional topics in Content Services:
 
-* [Developing Models](../../mobile/using/models-in-repository.md)
+* [Developing Models](/help/mobile/using/models-in-repository.md)
 * [Authoring Content Services](/mobile/using/content-as-a-service.md)
 * [Administering Content Services](/mobile/using/content-services.md)
 

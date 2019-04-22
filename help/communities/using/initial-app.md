@@ -13,7 +13,7 @@ discoiquuid: f74d225e-0245-4d5a-bb93-0ee3f31557aa
 
 # Initial Sandbox Application{#initial-sandbox-application}
 
-| ** [⇐ Setup Website Structure](../../communities/using/setup-website.md)** |** [Initial Sandbox Content ⇒](../../communities/using/initial-content.md)** |
+| ** [⇐ Setup Website Structure](/help/communities/using/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/using/initial-content.md)** |
 |---|---|
 
 In this section, you will create the following:
@@ -114,6 +114,6 @@ Create the *component* that defines the content and renders any pages created ba
 
    ![](assets/chlimage_1-79.png)
 
-| ** [⇐ Setup Website Structure](../../communities/using/setup-website.md)** |** [Initial Sandbox Content ⇒](../../communities/using/initial-content.md)** |
+| ** [⇐ Setup Website Structure](/help/communities/using/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/using/initial-content.md)** |
 |---|---|
 

@@ -22,7 +22,7 @@ The installation and configuration of AEM 3D (version 3.0) involves the followin
 
 See also [Working with 3D assets](3d-assets.md).
 
-See also [AEM 3D Assets release notes](../../release-notes/aem3d-release-notes.md) for prerequisites, supported browsers, and other important release imformation.
+See also [AEM 3D Assets release notes](/help/release-notes/aem3d-release-notes.md) for prerequisites, supported browsers, and other important release imformation.
 
 See also [Working with the 3D Sites component](using-the-3d-sites-component.md).
 
@@ -62,7 +62,7 @@ See also [Advanced configuration settings](advanced-config-3d.md).
 
 >[!NOTE]
 >
->Before you proceed with the installation and configuration of AEM 3D, Adobe recommends that you deploy any applicable service packs and other related feature packs. See [AEM 3D Release Notes](../../release-notes/aem3d-release-notes.md).
+>Before you proceed with the installation and configuration of AEM 3D, Adobe recommends that you deploy any applicable service packs and other related feature packs. See [AEM 3D Release Notes](/help/release-notes/aem3d-release-notes.md).
 
 See also [Advanced Configuration Settings](advanced-config-3d.md).
 
@@ -75,7 +75,7 @@ To install the native 3D code package,
 
 1. Ensure that you have a supported browser available to access AEM.
 
-   See [System requirements](../../release-notes/aem3d-release-notes.md#system-requirements).
+   See [System requirements](/help/release-notes/aem3d-release-notes.md#system-requirements).
 
 1. Using a supported browser, log on to AEM with Administrator privileges.
 1. In AEM, click the AEM logo to access the global navigation console, then click the Tools icon and navigate to **Administration** &gt; **Deployment** &gt; **Package Share**.

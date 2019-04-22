@@ -67,7 +67,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 3</strong></td> 
    <td>Can the requests be cached?</td> 
-   <td>For more information on cacheable requests and general Dispatcher performance optimization advice, see <a href="../../../sites/deploying/using/configuring-performance.md#optimizing-performance-when-using-the-dispatcher">Dispatcher Performance Optimization</a>.</td> 
+   <td>For more information on cacheable requests and general Dispatcher performance optimization advice, see <a href="/help/sites/deploying/using/configuring-performance.md#optimizing-performance-when-using-the-dispatcher">Dispatcher Performance Optimization</a>.</td> 
   </tr> 
   <tr> 
    <td><strong>Step 4</strong></td> 
@@ -77,7 +77,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 5</strong></td> 
    <td>Is the Dispatcher trying to authenticate each request via AEM?</td> 
-   <td>Check if the dispatcher sends <span class="code">HEAD</span> requests to AEM for authentication before delivering the cached resource. You can do this by looking for <span class="code">HEAD</span> requests in the AEM <span class="code">access.log</span>. For more information, see <a href="../../../sites/deploying/using/configure-logging.md">Logging</a>.<br /> </td> 
+   <td>Check if the dispatcher sends <span class="code">HEAD</span> requests to AEM for authentication before delivering the cached resource. You can do this by looking for <span class="code">HEAD</span> requests in the AEM <span class="code">access.log</span>. For more information, see <a href="/help/sites/deploying/using/configure-logging.md">Logging</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 6</strong></td> 
@@ -92,7 +92,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 8</strong></td> 
    <td>Is the slowness reproducible with a local instance?</td> 
-   <td><br /> <p>Use <a href="../../../sites/developing/using/tough-day.md">Tough Day</a> to replicate "real world" conditions from the production instances. If this is not realistic for the slace of your development, make sure to test the production instance (or an identical staging one) in a different network context.<br /> </p> </td> 
+   <td><br /> <p>Use <a href="/help/sites/developing/using/tough-day.md">Tough Day</a> to replicate "real world" conditions from the production instances. If this is not realistic for the slace of your development, make sure to test the production instance (or an identical staging one) in a different network context.<br /> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 9</strong></td> 
@@ -117,7 +117,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 13</strong></td> 
    <td>Check hardware requirements</td> 
-   <td>Check the documentation on <a href="../../../managing/using/hardware-sizing-guidelines.md">Hardware Sizing Guidelines</a>.<br /> </td> 
+   <td>Check the documentation on <a href="/help/managing/using/hardware-sizing-guidelines.md">Hardware Sizing Guidelines</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 14</strong></td> 
@@ -127,12 +127,12 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 15</strong></td> 
    <td>Find slow requests</td> 
-   <td><p>You can check for slow requests by analysing the <span class="code">request.log</span> or by using <span class="code">rlog.jar</span>.</p> <p>For more information about using rlog.jar, see this page.</p> <p>See <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#using-rlog-jar-to-find-requests-with-long-duration-times">Using rlog.jar to find requests with long duration times</a>.<br /> </p> <p> </p> </td> 
+   <td><p>You can check for slow requests by analysing the <span class="code">request.log</span> or by using <span class="code">rlog.jar</span>.</p> <p>For more information about using rlog.jar, see this page.</p> <p>See <a href="/help/sites/deploying/using/monitoring-and-maintaining.md#using-rlog-jar-to-find-requests-with-long-duration-times">Using rlog.jar to find requests with long duration times</a>.<br /> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 16</strong></td> 
    <td>Profile server</td> 
-   <td><p>For information about profiling tools you can use with AEM, see <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#tools-for-monitoring-and-analyzing-performance">Tools for Monitoring and Analyzing Performance</a>.<br /> </p> </td> 
+   <td><p>For information about profiling tools you can use with AEM, see <a href="/help/sites/deploying/using/monitoring-and-maintaining.md#tools-for-monitoring-and-analyzing-performance">Tools for Monitoring and Analyzing Performance</a>.<br /> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 17</strong></td> 
@@ -142,37 +142,37 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 18</strong></td> 
    <td>Common scenarios of profiling</td> 
-   <td>See <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#analyzing-specific-scenarios">Analyzing Specific Scenarios</a> in the Performance Optimization section.<br /> </td> 
+   <td>See <a href="/help/sites/deploying/using/monitoring-and-maintaining.md#analyzing-specific-scenarios">Analyzing Specific Scenarios</a> in the Performance Optimization section.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 19</strong></td> 
    <td>100% CPU</td> 
-   <td><a href="../../../sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance">https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/monitoring-and-maintaining.html#MonitoringPerformance</a></td> 
+   <td><a href="/help/sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance">https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/monitoring-and-maintaining.html#MonitoringPerformance</a></td> 
   </tr> 
   <tr> 
    <td><strong>Step 20</strong></td> 
    <td>Out of memory</td> 
    <td><br /> 
     <ol> 
-     <li><a href="../../../sites/deploying/using/monitoring-and-maintaining.md#out-of-memory">Out Of Memory</a></li> 
-     <li><a href="../../../sites/deploying/using/troubleshooting.md">My application throws out-of-memory errors</a></li> 
+     <li><a href="/help/sites/deploying/using/monitoring-and-maintaining.md#out-of-memory">Out Of Memory</a></li> 
+     <li><a href="/help/sites/deploying/using/troubleshooting.md">My application throws out-of-memory errors</a></li> 
      <li><a href="https://helpx.adobe.com/experience-manager/kb/AnalyzeMemoryProblems.html">Analyze Memory Problems on Helpx.</a><br /> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 21</strong></td> 
    <td>Disk I/O</td> 
-   <td><p>See the <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#disk-i-o">Disk I/O</a> section in the Monitoring and Maintaining documentation.</p> </td> 
+   <td><p>See the <a href="/help/sites/deploying/using/monitoring-and-maintaining.md#disk-i-o">Disk I/O</a> section in the Monitoring and Maintaining documentation.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Steps 22 and 22.1</strong></td> 
    <td>Cache ratio</td> 
-   <td>See <a href="../../../sites/deploying/using/configuring-performance.md#calculating-the-dispatcher-cache-ratio">Calculating the Dispatcher Cache Ratio</a>.<br /> <br /> </td> 
+   <td>See <a href="/help/sites/deploying/using/configuring-performance.md#calculating-the-dispatcher-cache-ratio">Calculating the Dispatcher Cache Ratio</a>.<br /> <br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 23</strong></td> 
    <td>Slow queries</td> 
-   <td><a href="../../../sites/deploying/using/best-practices-for-queries-and-indexing.md">Best Practices for Queries and Indexing</a></td> 
+   <td><a href="/help/sites/deploying/using/best-practices-for-queries-and-indexing.md">Best Practices for Queries and Indexing</a></td> 
   </tr> 
   <tr> 
    <td><strong>Step 24</strong></td> 
@@ -180,7 +180,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
    <td> 
     <ul> 
      <li><a href="https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html">Performance Tuning Tips</a></li> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#configuring-for-performance">Configuring for Performance</a></li> 
+     <li><a href="/help/sites/deploying/using/configuring-performance.md#configuring-for-performance">Configuring for Performance</a></li> 
      <li><a href="https://www.slideshare.net/jukka/repository-performance-tuning">Repository Performance Tuning</a></li> 
     </ul> </td> 
   </tr> 
@@ -189,31 +189,31 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
    <td>Workflows running</td> 
    <td> 
     <ul> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#concurrent-workflow-processing">Concurrent Workflow Processing</a></li> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#configure-the-queue-for-a-specific-workflow">Configure the Queue for a Specific Workflow</a></li> 
-     <li><a href="../../../sites/administering/using/workflows-administering.md#regular-purging-of-workflow-instances">Regular Purging of Workflow Instances</a></li> 
-     <li><a href="../../../sites/developing/using/workflows.md#transient-workflows">Transient Workflows</a><br /> </li> 
+     <li><a href="/help/sites/deploying/using/configuring-performance.md#concurrent-workflow-processing">Concurrent Workflow Processing</a></li> 
+     <li><a href="/help/sites/deploying/using/configuring-performance.md#configure-the-queue-for-a-specific-workflow">Configure the Queue for a Specific Workflow</a></li> 
+     <li><a href="/help/sites/administering/using/workflows-administering.md#regular-purging-of-workflow-instances">Regular Purging of Workflow Instances</a></li> 
+     <li><a href="/help/sites/developing/using/workflows.md#transient-workflows">Transient Workflows</a><br /> </li> 
     </ul> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 26</strong></td> 
    <td>MSM Infrastructure</td> 
-   <td><p><a href="../../../sites/administering/using/msm-best-practices.md">Multi Site Manager Best Practices</a><br /> </p> </td> 
+   <td><p><a href="/help/sites/administering/using/msm-best-practices.md">Multi Site Manager Best Practices</a><br /> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 27</strong></td> 
    <td>Assets tuning</td> 
    <td> 
     <ol> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#cq-dam-asset-synchronization-service">Assets Synchronization Service</a></li> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#multiple-dam-instances">Multiple DAM Instances</a></li> 
+     <li><a href="/help/sites/deploying/using/configuring-performance.md#cq-dam-asset-synchronization-service">Assets Synchronization Service</a></li> 
+     <li><a href="/help/sites/deploying/using/configuring-performance.md#multiple-dam-instances">Multiple DAM Instances</a></li> 
      <li>Performance tuning tips articles <a href="https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html">here</a> and <a href="https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html">here</a>.<br /> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 28</strong></td> 
    <td>Unclosed sessions</td> 
-   <td><p> </p> <p><a href="../../../sites/administering/using/troubleshoot.md#checking-for-unclosed-jcr-sessions">Checking for unclosed JCR sessions</a></p> <p> </p> </td> 
+   <td><p> </p> <p><a href="/help/sites/administering/using/troubleshoot.md#checking-for-unclosed-jcr-sessions">Checking for unclosed JCR sessions</a></p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 30</strong></td> 
@@ -287,12 +287,12 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 49</strong></td> 
    <td>Shrink payload size</td> 
-   <td><a href="../../../sites/deploying/using/osgi-configuration-settings.md">Enable Gzip</a> and <a href="https://docs.adobe.com/ddc/en/gems/aem-web-performance.html">shrink the image size</a>.<br /> </td> 
+   <td><a href="/help/sites/deploying/using/osgi-configuration-settings.md">Enable Gzip</a> and <a href="https://docs.adobe.com/ddc/en/gems/aem-web-performance.html">shrink the image size</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Steps 42 and 43</strong></td> 
    <td>Keep-Alive</td> 
-   <td><p>Is the <span class="code">Keep-Alive</span> header present in the different requests to re-use connections? Otherwise, it would mean that each requests leads to another connection establishment, which introduces unnecessary overhead. (Standard HTTP request analysis in the browser)</p> <p>You can check the <a href="../../../sites/administering/using/proxy-jar.md">Proxy Server tool</a> to check for Keep-Alive connections.<br /> </p> </td> 
+   <td><p>Is the <span class="code">Keep-Alive</span> header present in the different requests to re-use connections? Otherwise, it would mean that each requests leads to another connection establishment, which introduces unnecessary overhead. (Standard HTTP request analysis in the browser)</p> <p>You can check the <a href="/help/sites/administering/using/proxy-jar.md">Proxy Server tool</a> to check for Keep-Alive connections.<br /> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 44</strong></td> 
@@ -307,7 +307,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
      <li>Concatenate resources (images, CSS sprites, JSON, etc.)<br /> </li> 
      <li>Clientlibs embedding: 
       <ol> 
-       <li><a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders">Creating Client Library Folders</a> - see heading Using embedding to minimize requests</li> 
+       <li><a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders">Creating Client Library Folders</a> - see heading Using embedding to minimize requests</li> 
       </ol> </li> 
     </ol> </td> 
   </tr> 

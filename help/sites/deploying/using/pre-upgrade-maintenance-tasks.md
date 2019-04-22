@@ -15,19 +15,19 @@ discoiquuid: 899ea120-c96d-4dbf-85da-e5d25959d10a
 
 Before beginning your upgrade, it is important to follow these maintenance tasks to ensure that the system is ready and can be rolled back should issues occur:
 
-* [Ensure Sufficient Disk Space](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#ensure-sufficient-disk-space)
-* [Fully Back Up AEM](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#fully-back-up-aem)
-* [Back Up Changes to /etc](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#backup-changes-etc)
-* [Generate The quickstart.properties File](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#generate-quickstart-properties)
-* [Configure Workflow and Audit Log Purging](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#configure-wf-audit-purging)
-* [Install, Configure, and Run The Pre-Upgrade Tasks](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#install-configure-run-pre-upgrade-tasks)
-* [Disable Custom Login Modules](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#disable-custom-login-modules)
-* [Remove Updates From The /install Directory](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#remove-updates-install-directory)
-* [Stop Any Cold Standby Instances](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#stop-tarmk-coldstandby-instance)
-* [Disable Custom Scheduled Jobs](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#disable-custom-scheduled-jobs)
-* [Execute Offline Revision Cleanup](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#execute-offline-revision-cleanup)
-* [Execute Datastore Garbage Collection](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#execute-datastore-garbage-collection)
-* [Rotate Log Files](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#rotate-log-files)
+* [Ensure Sufficient Disk Space](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#ensure-sufficient-disk-space)
+* [Fully Back Up AEM](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#fully-back-up-aem)
+* [Back Up Changes to /etc](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#backup-changes-etc)
+* [Generate The quickstart.properties File](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#generate-quickstart-properties)
+* [Configure Workflow and Audit Log Purging](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#configure-wf-audit-purging)
+* [Install, Configure, and Run The Pre-Upgrade Tasks](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#install-configure-run-pre-upgrade-tasks)
+* [Disable Custom Login Modules](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#disable-custom-login-modules)
+* [Remove Updates From The /install Directory](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#remove-updates-install-directory)
+* [Stop Any Cold Standby Instances](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#stop-tarmk-coldstandby-instance)
+* [Disable Custom Scheduled Jobs](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#disable-custom-scheduled-jobs)
+* [Execute Offline Revision Cleanup](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#execute-offline-revision-cleanup)
+* [Execute Datastore Garbage Collection](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#execute-datastore-garbage-collection)
+* [Rotate Log Files](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md#rotate-log-files)
 
 ## Ensure Sufficient Disk Space {#ensure-sufficient-disk-space}
 
@@ -35,7 +35,7 @@ When executing the upgrade, in addition to the content and code upgrade activiti
 
 ## Fully Back Up AEM {#fully-back-up-aem}
 
-AEM should be fully backed up before beginning the upgrade. Make sure to back up your repository, application installation, datastore, and Mongo instances if applicable. For more information on backing up and restoring an AEM instance, see [Backup and Restore](../../../sites/administering/using/backup-and-restore.md).
+AEM should be fully backed up before beginning the upgrade. Make sure to back up your repository, application installation, datastore, and Mongo instances if applicable. For more information on backing up and restoring an AEM instance, see [Backup and Restore](/help/sites/administering/using/backup-and-restore.md).
 
 ## Back Up Changes to /etc {#backup-changes-etc}
 
@@ -47,7 +47,7 @@ When starting AEM from the jar file, a `quickstart.properties` file will be gene
 
 ## Configure Workflow and Audit Log Purging {#configure-wf-audit-purging}
 
-The `WorkflowPurgeTask` and `com.day.cq.audit.impl.AuditLogMaintenanceTask` tasks require separate OSGi configurations and will not work without them. If they fail during pre-upgrade task execution, missing configurations is the most likely reason. Therefore, make sure to add OSGi configurations for these tasks or remove them altogether from the pre-upgrade optimization tasks list if you do not wish to run them. Documentation for configuring workflow purging tasks can be found at [Administering Workflow Instances](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-administering.html#regular purging of workflow instances) and audit log maintenance task configuration can be found at [Audit Log Maintenance in AEM 6](../../../sites/administering/using/operations-audit-log.md).
+The `WorkflowPurgeTask` and `com.day.cq.audit.impl.AuditLogMaintenanceTask` tasks require separate OSGi configurations and will not work without them. If they fail during pre-upgrade task execution, missing configurations is the most likely reason. Therefore, make sure to add OSGi configurations for these tasks or remove them altogether from the pre-upgrade optimization tasks list if you do not wish to run them. Documentation for configuring workflow purging tasks can be found at [Administering Workflow Instances](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-administering.html#regular purging of workflow instances) and audit log maintenance task configuration can be found at [Audit Log Maintenance in AEM 6](/help/sites/administering/using/operations-audit-log.md).
 
 For workflow and audit log purging on CQ 5.6 as well as audit log purging on AEM 6.0, see [Purge workflow and audit nodes](https://helpx.adobe.com/experience-manager/kb/howtopurgewf.html).
 
@@ -150,7 +150,7 @@ The list is editable. You can use the plus **(+)** and minus **(-)** buttons bes
 
 **MBean Methods**
 
-The managed bean functionality can be accessed using the [JMX Console](../../../sites/administering/using/jmx-console.md).
+The managed bean functionality can be accessed using the [JMX Console](/help/sites/administering/using/jmx-console.md).
 
 You can access the MBeans by:
 
@@ -265,7 +265,7 @@ To disable the custom modules defined in the JAAS configuration of `repository.x
 >
 >For more information, see [Authentication with the External Login Module](https://jackrabbit.apache.org/oak/docs/security/authentication/externalloginmodule.html).
 >
->For an example of `LoginModule` configuration in AEM 6, see [Configuring LDAP with AEM 6](../../../sites/administering/using/ldap-config.md).
+>For an example of `LoginModule` configuration in AEM 6, see [Configuring LDAP with AEM 6](/help/sites/administering/using/ldap-config.md).
 
 ## Remove Updates From The /install Directory {#remove-updates-install-directory}
 
@@ -297,7 +297,7 @@ If using TarMK, you should execute Offline Revision Cleanup before upgrading. Th
 >
 >This step is only necessary for instances running crx3
 
-After running revision cleanup on CRX3 instances, you should run Datastore Garbage Collection to remove any unreferenced blobs in the data store. For instructions, see the documentation on [Data Store Garbage Collection](../../../sites/administering/using/data-store-garbage-collection.md).
+After running revision cleanup on CRX3 instances, you should run Datastore Garbage Collection to remove any unreferenced blobs in the data store. For instructions, see the documentation on [Data Store Garbage Collection](/help/sites/administering/using/data-store-garbage-collection.md).
 
 ## Rotate Log Files {#rotate-log-files}
 

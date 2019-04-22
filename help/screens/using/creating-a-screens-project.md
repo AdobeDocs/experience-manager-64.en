@@ -85,6 +85,6 @@ The following steps show the creation of an applications folder to your **Applic
 
 ### The Next Steps {#the-next-steps}
 
-Once you have created your own project, see [**Channel Management**](../../screens/using/managing-channels.md) to create and manage content in your channel.
+Once you have created your own project, see [**Channel Management**](/help/screens/using/managing-channels.md) to create and manage content in your channel.
 
 Additionally, you can create your own schedule, application, location, or device.

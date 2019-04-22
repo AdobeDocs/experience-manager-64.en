@@ -42,10 +42,10 @@ Out of the box, AEM provides these templates to choose from when you create a pr
 * Product Photo Shoot Project
 * Translation Project
 
-The procedure of creating a project is the same from project to project. The difference between the types of projects includes available [user roles](../../../sites/authoring/using/projects.md) and [workflows](../../../sites/authoring/using/projects-with-workflows.md).  To create a new project:
+The procedure of creating a project is the same from project to project. The difference between the types of projects includes available [user roles](/help/sites/authoring/using/projects.md) and [workflows](/help/sites/authoring/using/projects-with-workflows.md).  To create a new project:
 
 1. In **Projects**, tap/click **Create** to open the **Create Project** wizard:
-1. Select a template. Out of the box, Simple Project, Media Project, [Translation Project](../../../sites/administering/using/tc-manage.md), and [Product Photo Shoot Product](../../../sites/authoring/using/managing-product-information.md) are available and click **Next**. 
+1. Select a template. Out of the box, Simple Project, Media Project, [Translation Project](/help/sites/administering/using/tc-manage.md), and [Product Photo Shoot Product](/help/sites/authoring/using/managing-product-information.md) are available and click **Next**. 
 
    ![](assets/chlimage_1-256.png)
 
@@ -57,7 +57,7 @@ The procedure of creating a project is the same from project to project. The dif
 
 ### Associating Resources with your Project {#associating-resources-with-your-project}
 
-As projects enable you to group resources into one entity, you want to associate resources to your project. These resources are called **Tiles**. The types of resources you can add are described in [Project Tiles](../../../sites/authoring/using/projects.md#project-tiles).
+As projects enable you to group resources into one entity, you want to associate resources to your project. These resources are called **Tiles**. The types of resources you can add are described in [Project Tiles](/help/sites/authoring/using/projects.md#project-tiles).
 
 To associate resources with your project:
 
@@ -68,7 +68,7 @@ To associate resources with your project:
 
    >[!NOTE]
    >
-   >Project tiles that can be associated with a project are described in detail in [Project tiles.](../../../sites/authoring/using/projects.md#project-tiles)
+   >Project tiles that can be associated with a project are described in detail in [Project tiles.](/help/sites/authoring/using/projects.md#project-tiles)
 
 1. Tap/click **Create**. Your resource is linked to your project and from now on you can access it from your project.
 
@@ -100,7 +100,7 @@ To add items to a Tile:
 
    ![](assets/chlimage_1-259.png)
 
-1. Add an item to the tile as you would when creating a new tile. Project tiles are described [here](../../../sites/authoring/using/projects.md#project-tiles). In this example, another workflow was added.
+1. Add an item to the tile as you would when creating a new tile. Project tiles are described [here](/help/sites/authoring/using/projects.md#project-tiles). In this example, another workflow was added.
 
    ![](assets/chlimage_1-260.png)
 

@@ -15,7 +15,7 @@ discoiquuid: 89fc3701-0472-4629-95d3-da577581a0f0
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Content Management actions are the building blocks that help to create and manage content within an application. The following actions are performed on content within the application.
 
@@ -37,20 +37,20 @@ If you think of an online magazine, the main content includes articles, ads, and
 
 The following topics describe the creation and management of content namely articles, banners, and collections. Once you learn how to create and manage the content, you can see additional topics such as uploading shared resources, publishing/unpublishing content, and previewing with Preflight.
 
-* [Managing Articles](../../mobile/using/mobile-on-demand-managing-articles.md)
-* [Managing Banners](../../mobile/using/mobile-on-demand-managing-banners.md)
-* [Managing Collections](../../mobile/using/mobile-on-demand-managing-collections.md)
-* [Uploading Shared Resources](../../mobile/using/mobile-on-demand-shared-resources.md)
-* [Publish UnPublish Content](../../mobile/using/mobile-on-demand-publishing-unpublishing.md)
+* [Managing Articles](/help/mobile/using/mobile-on-demand-managing-articles.md)
+* [Managing Banners](/help/mobile/using/mobile-on-demand-managing-banners.md)
+* [Managing Collections](/help/mobile/using/mobile-on-demand-managing-collections.md)
+* [Uploading Shared Resources](/help/mobile/using/mobile-on-demand-shared-resources.md)
+* [Publish UnPublish Content](/help/mobile/using/mobile-on-demand-publishing-unpublishing.md)
 
 >[!NOTE]
 >
->Generally, you should Preflight before publishing content. See [Previewing with Preflight](../../mobile/using/aem-mobile-manage-ondemand-services.md) for more details.
+>Generally, you should Preflight before publishing content. See [Previewing with Preflight](/help/mobile/using/aem-mobile-manage-ondemand-services.md) for more details.
 
 ### Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
-* [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md)
+* [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-on-demand.md)
+* [Administering Content to Use AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile.md)
 

@@ -14,7 +14,7 @@ discoiquuid: a9ab5a78-2add-46e1-a8f2-444d0f25f43a
 
 HTML5 forms are rendered using HTML5 capabilities and the styling of the rendered form is done using CSS. Default appearance of a HTML5 forms is similar to its PDF rendition. Developers can use custom CSS to change default appearance of HTML5 forms.
 
-This article provides step-by-step information to change style of an HTML5 form and [Introduction to Styles](../../forms/using/css-styles.md) article contains detailed information about various styling aspects of HTML5 forms. Ensure that you read Introduction to styles article before performing steps mentioned in this article.
+This article provides step-by-step information to change style of an HTML5 form and [Introduction to Styles](/help/forms/using/css-styles.md) article contains detailed information about various styling aspects of HTML5 forms. Ensure that you read Introduction to styles article before performing steps mentioned in this article.
 
 The following two images show the difference between the default and customized styles.
 
@@ -24,7 +24,7 @@ The following two images show the difference between the default and customized 
 
 1. **Choose a profile to add custom styles**
 
-   Access the CRX DE interface at the URL: **https://&lt;server&gt;:&lt;port&gt;/crx/de** and create a profile or choose an existing profile. To know how to create a profile, see [Creating a new Profile](../../forms/using/custom-profile.md)
+   Access the CRX DE interface at the URL: **https://&lt;server&gt;:&lt;port&gt;/crx/de** and create a profile or choose an existing profile. To know how to create a profile, see [Creating a new Profile](/help/forms/using/custom-profile.md)
 
 1. **Create a CSS style sheet for styling the HTML5 forms**
 
@@ -36,7 +36,7 @@ The following two images show the difference between the default and customized 
     1. From the navigation pane, open the CSS file that you have created.
     1. Define the CSS classes of the components that you want to style and add styles in those classes.
 
-   To know which CSS classes to create for a particular component in your HTML5 forms, see [Introduction to Styles](../../forms/using/css-styles.md).  
+   To know which CSS classes to create for a particular component in your HTML5 forms, see [Introduction to Styles](/help/forms/using/css-styles.md).  
 
 1. **Include the style sheet in Profile Renderer**
 

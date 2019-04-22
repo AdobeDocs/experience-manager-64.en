@@ -18,11 +18,11 @@ This often results in issues with managing the setup and production delays. For 
 
 Forms Portal reduces management overheads and production delays. It equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM).
 
-For more information about forms portal and its features, see [Introduction to publishing forms on a portal](../../forms/using/introduction-publishing-forms.md).
+For more information about forms portal and its features, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 
 ## Getting started with forms portal {#getting-started-with-forms-portal}
 
-Navigate to the published forms portal page. For more information about creating a forms portal page, see [Creating a forms portal page](../../forms/using/creating-form-portal-page.md).
+Navigate to the published forms portal page. For more information about creating a forms portal page, see [Creating a forms portal page](/help/forms/using/creating-form-portal-page.md).
 
 The Search and Lister component of roms portal displays the forms available on the Publish instance of the AEM server. This list includes all forms or the forms defined in the filter at the time of authoring the forms portal page. A forms portal page looks similar to as shown in the following image:
 
@@ -77,7 +77,7 @@ On completion of form filling, the user submits the forms by clicking the Submit
 
 >[!NOTE]
 >
->Submitted forms appear in the Submitted Forms tab only if the submit action for the adaptive form is configured as Forms Portal Submit Action. For more information about submit actions, see [Configuring the Submit action](../../forms/using/configuring-submit-actions.md).
+>Submitted forms appear in the Submitted Forms tab only if the submit action for the adaptive form is configured as Forms Portal Submit Action. For more information about submit actions, see [Configuring the Submit action](/help/forms/using/configuring-submit-actions.md).
 
 ![Drafts & submissions component](assets/draft-submission.png)
 
@@ -87,7 +87,7 @@ Drafts & submissions component
 
 There are certain forms that you need to fill and submit quite often. For example, the form for filing individual tax return is submitted every year. In such cases, while some bit of the information changes every time you fill the form, most of it like the personal and family details do not change. However, you are still required to fill the entire form again, from scratch.
 
-AEM Forms can help optimize the form filling experience and significantly reduce the time to fill and submit a form again. End-users can start a new form using data from a submitted form. This functionality is built-in in the [Drafts and Submissions component](../../forms/using/draft-submission-component.md). When you add Drafts and Submission component to your forms portal page and publish it, end-users will find an option in Submitted Forms and Draft Forms tabs to start a new form using data from a submitted form. The following image highlights that option.
+AEM Forms can help optimize the form filling experience and significantly reduce the time to fill and submit a form again. End-users can start a new form using data from a submitted form. This functionality is built-in in the [Drafts and Submissions component](/help/forms/using/draft-submission-component.md). When you add Drafts and Submission component to your forms portal page and publish it, end-users will find an option in Submitted Forms and Draft Forms tabs to start a new form using data from a submitted form. The following image highlights that option.
 
 ![](assets/start-a-new-form.png)
 

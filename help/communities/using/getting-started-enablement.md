@@ -15,19 +15,19 @@ discoiquuid: 31cc7819-cc4d-4804-9fab-005d8bef0714
 
 AEM Communities helps brands create consistent experiences across digital and in-person channels by facilitating enablement across employees and customers with a catalog of enablement resources, assigned content, and dynamic recommendations—all delivered within a social community to foster engagement.
 
-Following is a tutorial on quickly setting up an [enablement community](../../communities/using/overview.md#enablement-community) for demonstration or development purposes.
+Following is a tutorial on quickly setting up an [enablement community](/help/communities/using/overview.md#enablement-community) for demonstration or development purposes.
 
-For a tutorial on quickly setting up an [engagement community](../../communities/using/overview.md#engagement-community), visit [Getting Started with AEM Communities](../../communities/using/getting-started.md).
+For a tutorial on quickly setting up an [engagement community](/help/communities/using/overview.md#engagement-community), visit [Getting Started with AEM Communities](/help/communities/using/getting-started.md).
 
 >[!NOTE]
 >
->This tutorial assumes installation of [Communities feature pack 1](../../communities/using/deploy-communities.md#latestfeaturepack) or later.
+>This tutorial assumes installation of [Communities feature pack 1](/help/communities/using/deploy-communities.md#latestfeaturepack) or later.
 
-* [Initial Setup](../../communities/using/enablement-setup.md)
+* [Initial Setup](/help/communities/using/enablement-setup.md)
 
-* [Author a New Community Site for Enablement](../../communities/using/enablement-create-site.md)
+* [Author a New Community Site for Enablement](/help/communities/using/enablement-create-site.md)
 
-* [Create and Assign a Resource](../../communities/using/resource.md)
+* [Create and Assign a Resource](/help/communities/using/resource.md)
 
-* [Experience the Published Site](../../communities/using/enablement-published-site.md)
+* [Experience the Published Site](/help/communities/using/enablement-published-site.md)
 

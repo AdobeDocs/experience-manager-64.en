@@ -19,11 +19,11 @@ pagetitle: Foundation Components
 >
 >This section covers foundation components, which have been available with AEM for many versions and are available out-of-the-box in a standard AEM installation.
 >
->The more modern and extensible [core components](https://helpx.adobe.com/experience-manager/core-components/using/authoring.html) are also available. These are part of the [We.Retail sample content](../../../sites/developing/using/we-retail.md) and can also be [installed separately and used for development](https://helpx.adobe.com/experience-manager/core-components/using/using.html) by your administrator.
+>The more modern and extensible [core components](https://helpx.adobe.com/experience-manager/core-components/using/authoring.html) are also available. These are part of the [We.Retail sample content](/help/sites/developing/using/we-retail.md) and can also be [installed separately and used for development](https://helpx.adobe.com/experience-manager/core-components/using/using.html) by your administrator.
 
 The foundation components were designed for use when authoring content for a standard web page. They form a subset of the components available out-of-the-box for a standard installation of AEM.
 
-Some are immediately available through component browser, various others are also available by using [design mode](../../../sites/authoring/using/default-components-designmode.md) (if the page is based on a static template) or by [editing the template](../../../sites/authoring/using/templates.md) (if the page is based on an editable template).
+Some are immediately available through component browser, various others are also available by using [design mode](/help/sites/authoring/using/default-components-designmode.md) (if the page is based on a static template) or by [editing the template](/help/sites/authoring/using/templates.md) (if the page is based on an editable template).
 
 The use of foundation components is supported, but they have been superseded by core components which offer more extensibility and flexibility.
 
@@ -33,14 +33,14 @@ The use of foundation components is supported, but they have been superseded by 
 >
 >Depending on your instance you may have customized components developed explicitly for your requirements. These may even have the same name as some of the components discussed here.
 
-The components are available on the **Components** tab of the side panel of the page editor when [editing a page](../../../sites/authoring/using/editing-content.md).
+The components are available on the **Components** tab of the side panel of the page editor when [editing a page](/help/sites/authoring/using/editing-content.md).
 
 You can select a component and drag it to the required location on your page. You can then edit it using:
 
-* [Configure Properties](../../../sites/authoring/using/editing-page-properties.md)
-* [Edit Content](../../../sites/authoring/using/editing-content.md)  
+* [Configure Properties](/help/sites/authoring/using/editing-page-properties.md)
+* [Edit Content](/help/sites/authoring/using/editing-content.md)  
 
-* [Edit Content - Full Screen Mode](../../../sites/authoring/using/editing-content.md#edit-content-full-screen-mode)
+* [Edit Content - Full Screen Mode](/help/sites/authoring/using/editing-content.md#edit-content-full-screen-mode)
 
 Components are sorted according to various categories called component groups including:
 
@@ -135,7 +135,7 @@ The dialog allows you to edit properties for your instance of the Adaptive Image
 
 #### Extending the Adaptive Image Component {#extending-the-adaptive-image-component}
 
-For information about customizing the Adaptive Image component, see [Understanding the Adaptive Image Component](../../../sites/developing/using/responsive.md#using-adaptive-images).
+For information about customizing the Adaptive Image component, see [Understanding the Adaptive Image Component](/help/sites/developing/using/responsive.md#using-adaptive-images).
 
 ### Carousel {#carousel}
 
@@ -167,7 +167,7 @@ These are available in two tabs:
 
     * **Build list using** 
       There are several ways to build a page list - Child Pages, Fixed List, Search, or Advanced Search (all described below).  
-      Note that no matter which method you choose, the pages you include in your list should each already have an image associated with the page, it is this image that will be displayed in the Carousel. If there is no image for a given page under that page's Page Properties, you should associate an image with the page before beginning, as otherwise the Carousel will display a blank (or mostly blank) page. See [Editing Page Properties](../../../sites/authoring/using/editing-page-properties.md).  
+      Note that no matter which method you choose, the pages you include in your list should each already have an image associated with the page, it is this image that will be displayed in the Carousel. If there is no image for a given page under that page's Page Properties, you should associate an image with the page before beginning, as otherwise the Carousel will display a blank (or mostly blank) page. See [Editing Page Properties](/help/sites/authoring/using/editing-page-properties.md).  
       Depending on the item you choose a new panel will appear:
 
         * **Options for Child Pages**
@@ -192,7 +192,7 @@ These are available in two tabs:
 
             * **Querybuilder predicate notation** 
               You can enter a search query using Querybuilder predicate notation. For example, you can enter "fulltext=Marketing" to have all pages with "Marketing" in their content show up in the Carousel.  
-              See [QueryBuilder API](../../../sites/developing/using/querybuilder-api.md) for full discussion of query expressions and further examples.
+              See [QueryBuilder API](/help/sites/developing/using/querybuilder-api.md) for full discussion of query expressions and further examples.
 
     * **Order by** 
       Select `jcr:title`, `jcr:created`, `cq:lastModified`, or `cq:template` from the dropdown menu.  
@@ -237,7 +237,7 @@ The following show an example of chart data followed by the resulting Bar chart:
 
 ### Content Fragment {#content-fragment}
 
-[Content fragments](../../../sites/authoring/using/content-fragments.md) are created and managed as page-independent assets. You can then use these fragments, and their variations, when authoring your content pages.
+[Content fragments](/help/sites/authoring/using/content-fragments.md) are created and managed as page-independent assets. You can then use these fragments, and their variations, when authoring your content pages.
 
 ### Design Importer {#design-importer}
 
@@ -285,7 +285,7 @@ The external application is integrated into the paragraph system of the AEM page
 
 >[!NOTE]
 >
->Depending on your use case, other options are available for integration of external applications, for example. the [Integration of Portlets](../../../sites/administering/using/aem-as-portal.md).
+>Depending on your use case, other options are available for integration of external applications, for example. the [Integration of Portlets](/help/sites/administering/using/aem-as-portal.md).
 
 ### Flash {#flash}
 
@@ -325,11 +325,11 @@ The image component displays an image and accompanying text according to the spe
 
 You can upload an image, then edit and manipulate it (e.g. crop, rotate, add link/title/text).
 
-You can either drag and drop an image from the [Assets Browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser) directly onto the component or its [Configure dialog](../../../sites/authoring/using/editing-content.md#component-edit-dialog). You can also upload an image from the Configure dialog; this dialog also controls all definitions and manipulation of the image:
+You can either drag and drop an image from the [Assets Browser](/help/sites/authoring/using/author-environment-tools.md#assets-browser) directly onto the component or its [Configure dialog](/help/sites/authoring/using/editing-content.md#component-edit-dialog). You can also upload an image from the Configure dialog; this dialog also controls all definitions and manipulation of the image:
 
 ![](assets/chlimage_1-194.png)
 
-Once the image is uploaded (and not before) you can use [inplace editing](../../../sites/authoring/using/editing-content.md#edit-content) to crop/rotate the image as required:
+Once the image is uploaded (and not before) you can use [inplace editing](/help/sites/authoring/using/editing-content.md#edit-content) to crop/rotate the image as required:
 
 ![](do-not-localize/chlimage_1-14.png)
 
@@ -338,7 +338,7 @@ Once the image is uploaded (and not before) you can use [inplace editing](../../
 >The in-place editor uses the original size and aspect ratio of the image when editing. You can also specify height and width properties. Any size and aspect ratio restrictions defined in the properties are applied when you save your edit changes.  
 
 >
->Depending on your instance, minimum and maximum restrictions may also be imposed by the [design of the page](../../../sites/developing/using/designer.md); these are developed during project implementation.
+>Depending on your instance, minimum and maximum restrictions may also be imposed by the [design of the page](/help/sites/developing/using/designer.md); these are developed during project implementation.
 
 Several additional options are available in the full-screen editing mode; for example, map and zoom:
 
@@ -351,7 +351,7 @@ Several additional options are available in the full-screen editing mode; for ex
 >Internet Explorer users need to upload the image and click **Ok** then re-open the image to see the uploaded file in the preview and to be able to perform modifications (i.e. crop).  
 
 >
->See the [Supported Platforms](../../../release-notes/release-notes.md#supported-platforms) section for more information about HTML5 features used by AEM.
+>See the [Supported Platforms](/help/release-notes/release-notes.md#supported-platforms) section for more information about HTML5 features used by AEM.
 
 When an image is loaded, you can configure the following:
 
@@ -392,7 +392,7 @@ The final image (with **Title** and **Description**) may be shown as:
 
 ### Layout Container {#layout-container}
 
-This component provides a grid-paragraph system to allow you to add and position components within a [responsive grid](../../../sites/authoring/using/responsive-layout.md). This allows you to define differing content layouts based on the width of target devices, including a range of phones, tablets and the desktop.
+This component provides a grid-paragraph system to allow you to add and position components within a [responsive grid](/help/sites/authoring/using/responsive-layout.md). This allows you to define differing content layouts based on the width of target devices, including a range of phones, tablets and the desktop.
 
 ![](assets/chlimage_1-196.png)
 
@@ -432,7 +432,7 @@ The List component allows you to configure search criteria for displaying a list
 
             * **Querybuilder predicate notation  
               **You can enter a search query using Querybuilder predicate notation. For example, you can enter "fulltext=Marketing" to have all pages with "Marketing" in their content show up in the Carousel.  
-              See [QueryBuilder API](../../../sites/developing/using/querybuilder-api.md) for full discussion of query expressions and further examples.
+              See [QueryBuilder API](/help/sites/developing/using/querybuilder-api.md) for full discussion of query expressions and further examples.
 
         * **Tags  
           **Specify the **Parent page**, **Tags/Keywords** and your required match criteria.
@@ -623,7 +623,7 @@ The slideshow component then repeatedly displays each in sequence, for a short p
 
 >[!NOTE]
 >
->The **Table** component is based on the [Rich Text editor](../../../sites/authoring/using/rich-text-editor.md), as is the ** [Text](#text)** component.
+>The **Table** component is based on the [Rich Text editor](/help/sites/authoring/using/rich-text-editor.md), as is the ** [Text](#text)** component.
 >
 >It is recommended to use the **Table** component for tables, although they can also be constructed with the **Text** component.
 
@@ -661,17 +661,17 @@ When configuring the Tag Cloud component, you can specify:
 * **No links on tags** 
   Whether the tags displayed should act as links.
 
-For more information about applying tags, visit [Using Tags](../../../sites/authoring/using/tags.md).
+For more information about applying tags, visit [Using Tags](/help/sites/authoring/using/tags.md).
 
 ### Text {#text}
 
 >[!NOTE]
 >
->The **Text** component is based on the [Rich Text editor](../../../sites/authoring/using/rich-text-editor.md), as is the ** [Table](#table)** component.
+>The **Text** component is based on the [Rich Text editor](/help/sites/authoring/using/rich-text-editor.md), as is the ** [Table](#table)** component.
 >
 >It is recommended to use the **Table** component for tables, although they can also be constructed with the **Text** component.
 
-The Text component lets you enter a text block using a WYSIWYG editor, with functionality provided by the [Rich Text editor](../../../sites/authoring/using/rich-text-editor.md). A selection of icons allow you to format your text, including font characteristics, alignment, links, lists and indentation.
+The Text component lets you enter a text block using a WYSIWYG editor, with functionality provided by the [Rich Text editor](/help/sites/authoring/using/rich-text-editor.md). A selection of icons allow you to format your text, including font characteristics, alignment, links, lists and indentation.
 
 ![](assets/chlimage_1-201.png)
 
@@ -684,11 +684,11 @@ The formatted text will then be shown on the page; the actual design will depend
 
 ![](assets/dc_text_use.png)
 
-For more detailed information about the Text component and the functionality provided by the Rich Text editor, see the [Rich Text Editor](../../../sites/authoring/using/rich-text-editor.md) page.
+For more detailed information about the Text component and the functionality provided by the Rich Text editor, see the [Rich Text Editor](/help/sites/authoring/using/rich-text-editor.md) page.
 
 #### Inplace Editing {#inplace-editing}
 
-In addition to the dialog based Rich Text editing mode, AEM also provides [Inplace Editing](../../../sites/authoring/using/editing-content.md), which allows direct editing of the text as it is displayed in the layout of the page.
+In addition to the dialog based Rich Text editing mode, AEM also provides [Inplace Editing](/help/sites/authoring/using/editing-content.md), which allows direct editing of the text as it is displayed in the layout of the page.
 
 ### Text & Image {#text-image}
 
@@ -752,7 +752,7 @@ The following example shows a **Title** component being displayed; the design is
 
 The **Video** component allows you to place a predefined, out-of-the-box video element on a page.
 
-See also [Configure the Video component](../../../sites/administering/using/config-video.md) for use with HTML5 elements.
+See also [Configure the Video component](/help/sites/administering/using/config-video.md) for use with HTML5 elements.
 
 After placing an instance of the component on your page you can configure:
 
@@ -823,7 +823,7 @@ The following shows an example form. It is comprised of the **Form** component (
 
 >[!NOTE]
 >
->Information about developing and customizing your forms further is available on the [Developing Forms page](../../../sites/developing/using/developing-forms.md). This includes adding actions, constraints, preloading fields and using scripts to call a service to take action, amongst others.
+>Information about developing and customizing your forms further is available on the [Developing Forms page](/help/sites/developing/using/developing-forms.md). This includes adding actions, constraints, preloading fields and using scripts to call a service to take action, amongst others.
 
 ### Settings Common to (Many) Form Components {#settings-common-to-many-form-components}
 
@@ -962,7 +962,7 @@ This component is needed to define the start of a new form on a page. You can co
     * **Load Path** 
       The path to node properties used to load predefined values into the form fields.  
       This is an optional field that specifies the path to a node in the repository. When this node has properties that match the field names, then the appropriate fields on the form are preloaded with the value of those properties. If no match exists, then the field contains the default value.  
-      Using **Load Path** you can preload the form with values in the required fields. See [Preloading Form Values](../../../sites/developing/using/developing-forms.md#preloading-form-values).
+      Using **Load Path** you can preload the form with values in the required fields. See [Preloading Form Values](/help/sites/developing/using/developing-forms.md#preloading-form-values).
     
     * **Client Validation** 
       Indicates whether client validation is required for this form (server validation *always* occurs.). This can be achieved in conjunction with the **Forms Captcha** component.
@@ -1120,7 +1120,7 @@ You can specify various parameters including a title, description and element na
 >
 >Using **Items Load Path** you can preload the check box group list with values.
 >
->See [Preloading Form Fields with Multiple Values](../../../sites/developing/using/developing-forms.md#preloading-form-fields-with-multiple-values).
+>See [Preloading Form Fields with Multiple Values](/help/sites/developing/using/developing-forms.md#preloading-form-fields-with-multiple-values).
 
 ### Credit Card Details {#credit-card-details}
 
@@ -1140,7 +1140,7 @@ You can specify a title and items to appear in the list. Using the + and - butto
 >
 >Using **Items Load Path** you can preload the drop down list with values.
 >
->See [Preloading Form Fields with Multiple Values](../../../sites/developing/using/developing-forms.md#preloading-form-fields-with-multiple-values).
+>See [Preloading Form Fields with Multiple Values](/help/sites/developing/using/developing-forms.md#preloading-form-fields-with-multiple-values).
 
 ### File Upload {#file-upload}
 
@@ -1162,7 +1162,7 @@ This component allows you to create a hidden field. These can be used for variou
 >
 >You can also customize your form to show or hide specific form components according to the value of other fields in the form. Changing the visibility of a form field is useful when the field is needed only under specific conditions.
 >
->See [Showing and Hiding Form Components](../../../sites/developing/using/developing-forms.md#showing-and-hiding-form-components).
+>See [Showing and Hiding Form Components](/help/sites/developing/using/developing-forms.md#showing-and-hiding-form-components).
 
 ### Image Button {#image-button}
 
@@ -1213,7 +1213,7 @@ You can specify the element name together with a title and description Using the
 >
 >Using **Items Load Path** you can preload the radio group with values.
 >
->See [Preloading Form Fields with Multiple Values](../../../sites/developing/using/developing-forms.md#preloading-form-fields-with-multiple-values).
+>See [Preloading Form Fields with Multiple Values](/help/sites/developing/using/developing-forms.md#preloading-form-fields-with-multiple-values).
 
 ### Submit Button {#submit-button}
 

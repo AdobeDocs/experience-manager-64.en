@@ -31,7 +31,7 @@ The following procedure shows you how to set up the Mobile Trader application on
 1. Start a publish AEM instance that runs on port 4503.
 1. Download the Mobile Trader AIR application on your desktop. The application is available in the repository at:  
    `/etc/designs/geometrixx/clientlibs/flash/MobileTrader.air`  
-   To download this file, you can [map the repository to your local filesystem](../../sites/administering/using/webdav-access.md) by using the WebDAV server that is embedded into AEM.  
+   To download this file, you can [map the repository to your local filesystem](/help/sites/administering/using/webdav-access.md) by using the WebDAV server that is embedded into AEM.  
 
 1. Run the Mobile Trader application on your desktop by double-clicking the `MobileTrader.air` file.  
    The application connects to the AEM publish instance.  

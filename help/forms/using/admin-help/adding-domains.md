@@ -18,23 +18,23 @@ discoiquuid: d4004ffe-c981-487d-b803-dc4492ae5998
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click New Enterprise Domain.
 1. In the ID box, type a unique identifier for the domain and in the Name box, type a descriptive name for the domain. (See [Important considerations for domain names and IDs](adding-domains.md#important-considerations-for-domain-names-and-ids).)
-1. Specify whether to enable account locking. (See [Configure account-locking settings](../../../forms/using/admin-help/configure-account-locking-settings.md#configure-account-locking-settings).) By default, Enable Account Locking is selected. 
+1. Specify whether to enable account locking. (See [Configure account-locking settings](/help/forms/using/admin-help/configure-account-locking-settings.md#configure-account-locking-settings).) By default, Enable Account Locking is selected. 
 1. Click Add Authentication and, in the Authentication Provider list, select a provider, depending on the authentication mechanism your organization uses. Possible values are LDAP, Kerberos, SAML, or a custom authentication provider.
 
    If you select LDAP, you can use the LDAP server specified in your directory configuration, or you can choose different LDAP server to use for authentication. If you choose a different server, your users must exist on both LDAP servers.
 
-1. Provide any additional information required on the page. (See [Authentication settings](../../../forms/using/admin-help/configuring-authentication-providers.md#authentication-settings).) 
-1. Add a directory or a custom Service Provider Interface (SPI). (See [Adding directories or custom SPIs](../../../forms/using/admin-help/configuring-directories.md#adding-directories-or-custom-spis).)
+1. Provide any additional information required on the page. (See [Authentication settings](/help/forms/using/admin-help/configuring-authentication-providers.md#authentication-settings).) 
+1. Add a directory or a custom Service Provider Interface (SPI). (See [Adding directories or custom SPIs](/help/forms/using/admin-help/configuring-directories.md#adding-directories-or-custom-spis).)
 1. Click Finish and then click OK.
 
-After creating an enterprise domain, manually synchronize the directory or create a trigger to perform a synchronization before User Management can use it. You can then set up a directory synchronization schedule and perform manual synchronization as required. (See [Synchronizing directories](../../../forms/using/admin-help/synchronizing-directories.md#synchronizing-directories).)
+After creating an enterprise domain, manually synchronize the directory or create a trigger to perform a synchronization before User Management can use it. You can then set up a directory synchronization schedule and perform manual synchronization as required. (See [Synchronizing directories](/help/forms/using/admin-help/synchronizing-directories.md#synchronizing-directories).)
 
 ## Add a local domain {#add-a-local-domain}
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click New Local Domain.
 1. In the ID box, type a unique identifier for the domain and, in the Name box, type a descriptive name for the domain. (See [Important considerations for domain names and IDs](adding-domains.md#important-considerations-for-domain-names-and-ids).) 
-1. Specify whether to enable account locking and then click OK. (See [Configure account-locking settings](../../../forms/using/admin-help/configure-account-locking-settings.md#configure-account-locking-settings).) By default, Enable Account Locking is selected.
+1. Specify whether to enable account locking and then click OK. (See [Configure account-locking settings](/help/forms/using/admin-help/configure-account-locking-settings.md#configure-account-locking-settings).) By default, Enable Account Locking is selected.
 
 ## Add a hybrid domain {#add-a-hybrid-domain}
 
@@ -42,7 +42,7 @@ After creating an enterprise domain, manually synchronize the directory or creat
 1. Click New Hybrid Domain.
 1. In the ID box, type a unique identifier for the domain and, in the Name box, type a descriptive name for the domain. (See [Important considerations for domain names and IDs](adding-domains.md#important-considerations-for-domain-names-and-ids).) 
 1. Click Add Authentication and, in the Authentication Provider list, select a provider, depending on the authentication mechanism your organization uses. Possible values are LDAP, Kerberos, SAML, or a custom authentication provider. 
-1. Provide any additional information required on the page. (See [Authentication settings](../../../forms/using/admin-help/configuring-authentication-providers.md#authentication-settings).) 
+1. Provide any additional information required on the page. (See [Authentication settings](/help/forms/using/admin-help/configuring-authentication-providers.md#authentication-settings).) 
 1. Click OK and then click OK again.
 
 ## Important considerations for domain names and IDs {#important-considerations-for-domain-names-and-ids}
@@ -72,12 +72,12 @@ When using MySQL as your AEM forms database, the following limitations apply:
 
 ### Remove a domain that contains extended or multi-byte characters {#remove-a-domain-that-contains-extended-or-multi-byte-characters}
 
-1. Export the configuration file, as described in [Importing and exporting the configuration file](../../../forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).
+1. Export the configuration file, as described in [Importing and exporting the configuration file](/help/forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).
 1. Open the configuration file and under the Domains node, locate the node whose name attribute matches the name of the domain created with extended or multi-byte characters. Delete the entire node related to that domain.
 1. In your database, search for the domain in the edcprincipaldomainentity table:
 
     * Select `*` from edcprincipaldomainentity.
     * Find the domain name that contains extended or multi-byte characters and set its status to OBSOLETE.
 
-1. Import the updated configuration file, as described in [Importing and exporting the configuration file](../../../forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).
+1. Import the updated configuration file, as described in [Importing and exporting the configuration file](/help/forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).
 

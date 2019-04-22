@@ -13,7 +13,7 @@ discoiquuid: b6e42b9d-9e27-4f22-8543-442d03af48f3
 
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
 
-Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to [page editing](../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md).
+Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to [page editing](/help/sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md).
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ Various keyboard shortcuts are available throughout AEM. Some apply to the use o
   <tr> 
    <td>Console</td> 
    <td><strong><span class="code">Shift-Double-Click</span></strong><br /> (on required page)</td> 
-   <td>Open page in new window.<br /> <strong>Note:</strong> this is operational if the <a href="../../../sites/classic-ui-authoring/using/author-env-user-props.md">User Properties</a> are set to Single Window; if Multiple Windows then this is the default behavior.</td> 
+   <td>Open page in new window.<br /> <strong>Note:</strong> this is operational if the <a href="/help/sites/classic-ui-authoring/using/author-env-user-props.md">User Properties</a> are set to Single Window; if Multiple Windows then this is the default behavior.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Various keyboard shortcuts are also available for desktop users when using the [page editor](../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) to author pages.
+Various keyboard shortcuts are also available for desktop users when using the [page editor](/help/sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) to author pages.

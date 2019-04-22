@@ -15,5 +15,5 @@ discoiquuid: 69a20064-99c9-4ead-9cc1-4c771a87268c
 
 >[!CAUTION]
 >
->Although the Layout container component is available in the classic UI, its full functionality is only available and supported in the touch-enabled UI. Please see [Responsive Layout](../../../sites/authoring/using/responsive-layout.md) in the standard authoring documentation for further details.
+>Although the Layout container component is available in the classic UI, its full functionality is only available and supported in the touch-enabled UI. Please see [Responsive Layout](/help/sites/authoring/using/responsive-layout.md) in the standard authoring documentation for further details.
 

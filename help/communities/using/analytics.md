@@ -25,23 +25,23 @@ Further, analytics is necessary for:
 
 * in the publish environment:
 
-    * reporting on community [trends](../../communities/using/trends.md)
+    * reporting on community [trends](/help/communities/using/trends.md)
     * allow site visitors to sort by "most viewed", "most active", "most liked"
     * view counts on UGC lists
 
 * in the author environment:
 
-    * display of participation data in the [members management console](../../communities/using/members.md) (views, posts, follows, likes)
-    * trend summary, video heartbeat and videio device for enablement resource [reports](../../communities/using/reports.md)
+    * display of participation data in the [members management console](/help/communities/using/members.md) (views, posts, follows, likes)
+    * trend summary, video heartbeat and videio device for enablement resource [reports](/help/communities/using/reports.md)
 
 Supported Communities features include:
 
-* [enablement resources](../../communities/using/resources.md)
-* [forum](../../communities/using/forum.md)
-* [QnA](../../communities/using/working-with-qna.md)
-* [blog](../../communities/using/blog-feature.md)
-* [file library](../../communities/using/file-library.md)
-* [calendar](../../communities/using/calendar.md)
+* [enablement resources](/help/communities/using/resources.md)
+* [forum](/help/communities/using/forum.md)
+* [QnA](/help/communities/using/working-with-qna.md)
+* [blog](/help/communities/using/blog-feature.md)
+* [file library](/help/communities/using/file-library.md)
+* [calendar](/help/communities/using/calendar.md)
 
 This section of the documentation describes how to connect an Analytics report suite with Communities features. The basic steps are:
 
@@ -76,7 +76,7 @@ To configure Analytics for Communities features, it is necessary to work with yo
 
 Using the Adobe Marketing Cloud's [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html), Analytics report suites can be configured so that a community site may be enabled to provide reports for Communities features.
 
-By signing in to [Adobe Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) with [Company Name and Username](../../communities/using/analytics.md#prerequisites), it is possible to configure a new or existing report suite to have:
+By signing in to [Adobe Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) with [Company Name and Username](/help/communities/using/analytics.md#prerequisites), it is possible to configure a new or existing report suite to have:
 
 * [11 Conversion Variables](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) (evars)
 
@@ -134,7 +134,7 @@ To enable Video Heartbeat reporting after [configuring the Analytics report suit
 * enable [Analytics for a community site](#enable-analytics-for-a-community-site)
 * associate the `Marketing Cloud Org Id` with the community site
 
-The `Marketing Cloud Org Id` may be entered at the time of [community site creation](../../communities/using/sites-console.md#enablement) or later by [modifying](../../communities/using/sites-console.md#modifying-site-properties) the community site properties. [](#aem-analytics-cloud-service-configuration)
+The `Marketing Cloud Org Id` may be entered at the time of [community site creation](/help/communities/using/sites-console.md#enablement) or later by [modifying](/help/communities/using/sites-console.md#modifying-site-properties) the community site properties. [](#aem-analytics-cloud-service-configuration)
 
 ![](assets/chlimage_1-264.png)
 
@@ -285,10 +285,10 @@ The Analytic cloud service and framework are now complete. The Mappings will be 
 
 ### Enable for New Community Site {#enable-for-new-community-site}
 
-To add the Analytics cloud service while [creating a new community site](../../communities/using/sites-console.md):
+To add the Analytics cloud service while [creating a new community site](/help/communities/using/sites-console.md):
 
 * in step 3
-* under the [ANALYTICS tab](../../communities/using/sites-console.md#analytics):
+* under the [ANALYTICS tab](/help/communities/using/sites-console.md#analytics):
 
     * check the **Enable Analytics** checkbox
     * choose the framework from the drop-down box
@@ -297,7 +297,7 @@ To add the Analytics cloud service while [creating a new community site](../../c
 
 ### Enable for Existing Community Site {#enable-for-existing-community-site}
 
-To add the Analytics cloud service to an [existing community site](../../communities/using/sites-console.md#modifying-site-properties):
+To add the Analytics cloud service to an [existing community site](/help/communities/using/sites-console.md#modifying-site-properties):
 
 * navigate to the **Communities, Sites** console
 * select the community site's Edit Site icon
@@ -327,7 +327,7 @@ In order for Analytics tracking and import to work properly for a community site
 
 For a **customized community site** that overlays the `sitepage.hbs` script, ensure the element is present. The `siteUrl`variable will be set when rendered on the server before serving to the client.
 
-For a **generic AEM site** that includes Communities components, but is not created with the [site creation wizard](../../communities/using/sites-console.md), it is necessary to add the element. The value of the href should be the path to the site. For example, if the site path is `/content/my/company/en`, then use:
+For a **generic AEM site** that includes Communities components, but is not created with the [site creation wizard](/help/communities/using/sites-console.md), it is necessary to add the element. The value of the href should be the path to the site. For example, if the site path is `/content/my/company/en`, then use:
 
 ```xml
 <div 
@@ -342,7 +342,7 @@ For a **generic AEM site** that includes Communities components, but is not crea
 
 Analytics is automatically used for several Communities features.
 
-The author environment's [OSGi configuration](../../sites/deploying/using/configuring-osgi.md), `AEM Communities Analytics Component Configuration`, provides a listing of the components that have been instrumented for Analytics. The automatic mapping of variables is determined by the components listed.
+The author environment's [OSGi configuration](/help/sites/deploying/using/configuring-osgi.md), `AEM Communities Analytics Component Configuration`, provides a listing of the components that have been instrumented for Analytics. The automatic mapping of variables is determined by the components listed.
 
 If new custom components are created that are instrumented for Analytics, they should be added to this list of configured components.
 
@@ -358,7 +358,7 @@ Once the community site is saved with Analytics enabled and the cloud config fra
 
 If using an existing report suite that mapped any of the variables within evar1 through evar11 and event1 through event7, it will be necessary to [remap the AEM variables](#modifying-analytics-variable-mapping) and restore the original mapping.
 
-Following is an example of default mappings after following the [getting started tutorial](../../communities/using/getting-started-enablement.md):
+Following is an example of default mappings after following the [getting started tutorial](/help/communities/using/getting-started-enablement.md):
 
 ![](assets/chlimage_1-274.png) 
 
@@ -489,11 +489,11 @@ Following is an example of default mappings after following the [getting started
 **Examples for eVar values:**
 
 * *(a) [MIME type](https://www.iana.org/assignments/media-types)*: video/mp4
-* *(b) [community site title](../../communities/using/sites-console.md#step13asitetemplate)*: Geometrixx Communities
-* *(c) [community function name](../../communities/using/functions.md)*: Forum
-* *(d) [community group name](../../communities/using/creating-groups.md#creating-a-new-group)*: Hiking
+* *(b) [community site title](/help/communities/using/sites-console.md#step13asitetemplate)*: Geometrixx Communities
+* *(c) [community function name](/help/communities/using/functions.md)*: Forum
+* *(d) [community group name](/help/communities/using/creating-groups.md#creating-a-new-group)*: Hiking
 * *(e) path to community group content*: /content/sites/communities/en/groups/hiking
-* *(f) [UGC component resourceType](../../communities/using/essentials.md)*: social/forum/components/hbs/topic
+* *(f) [UGC component resourceType](/help/communities/using/essentials.md)*: social/forum/components/hbs/topic
 * *(g) UGC component title*: Hiking Topics
 * *(h) login (authorizableId)*: aaron.mcdonald@mailinator.com
 * *(i) SRP path to UGC*: /content/usergenerated/asi/.../forum/jmtz-topic3  
@@ -552,13 +552,13 @@ See sections:
 
 ### Primary Publisher {#primary-publisher}
 
-When the deployment chosen is a [publish farm](../../communities/using/topologies.md#tarmk-publish-farm), then one AEM publish instance must be identified as the primary publisher for polling Adobe Analytics for report data to write to [SRP](../../communities/using/working-with-srp.md).
+When the deployment chosen is a [publish farm](/help/communities/using/topologies.md#tarmk-publish-farm), then one AEM publish instance must be identified as the primary publisher for polling Adobe Analytics for report data to write to [SRP](/help/communities/using/working-with-srp.md).
 
 By default, the `AEM Communities Publisher Configuration` OSGi configuration identifies its publish instance as the primary publisher, such that all publish instances in a publish farm would self-identify as the primary.
 
 Therefore, it is necessary to edit the configuration on all secondary publish instances to uncheck the **Primary Publisher** checkbox.
 
-For specific instructions, see the primary publisher section of [Deploying Communities](../../communities/using/deploy-communities.md#primary-publisher).
+For specific instructions, see the primary publisher section of [Deploying Communities](/help/communities/using/deploy-communities.md#primary-publisher).
 
 >[!CAUTION]
 >
@@ -568,17 +568,17 @@ For specific instructions, see the primary publisher section of [Deploying Commu
 
 The Adobe Analytics credentials are encrypted. To faciitate the replication or transmission of encrypted analytics credentials between author and publishers, all AEM instances must share the same master encryption key.
 
-To do so, follow the instructions at [Replicate the Crypto Key](../../communities/using/deploy-communities.md#replicate-the-crypto-key).
+To do so, follow the instructions at [Replicate the Crypto Key](/help/communities/using/deploy-communities.md#replicate-the-crypto-key).
 
 ### Publish Community Site and Analytics Cloud Service {#publish-community-site-and-analytics-cloud-service}
 
-Once the Analytics cloud service has been enabled for a community site and, if necessary, the [mapping of Analytics to AEM variables has been adjusted](#mapped-analytics-to-aem-variables), it is necessary to replicate the configuration to the publish environment by [(re)publishing the community site](../../communities/using/sites-console.md#publishing-the-site).
+Once the Analytics cloud service has been enabled for a community site and, if necessary, the [mapping of Analytics to AEM variables has been adjusted](#mapped-analytics-to-aem-variables), it is necessary to replicate the configuration to the publish environment by [(re)publishing the community site](/help/communities/using/sites-console.md#publishing-the-site).
 
 ## Obtaining Reports from Analytics {#obtaining-reports-from-analytics}
 
 ### Report Management {#report-management}
 
-The author and primary publisher's [OSGi configuration](../../sites/deploying/using/configuring-osgi.md), `AEM Communities Analytics Report Management`, is used to query Analytics.
+The author and primary publisher's [OSGi configuration](/help/sites/deploying/using/configuring-osgi.md), `AEM Communities Analytics Report Management`, is used to query Analytics.
 
 On author, the queries are for real time reports.
 
@@ -588,9 +588,9 @@ The query interval defaults to 10 seconds.
 
 ### Report Importer {#report-importer}
 
-Once an Analytics enabled community site has been published, the primary publisher's [OSGi configuration](../../sites/deploying/using/configuring-osgi.md), `AEM Communities Analytics Report Importer`, may be configured to set the default polling interval for those configurations which are not individually configured in CRXDE.
+Once an Analytics enabled community site has been published, the primary publisher's [OSGi configuration](/help/sites/deploying/using/configuring-osgi.md), `AEM Communities Analytics Report Importer`, may be configured to set the default polling interval for those configurations which are not individually configured in CRXDE.
 
-The polling interval controls the frequency of requests to Adobe Analytics for data to be pulled and saved into [SRP](../../communities/using/working-with-srp.md).
+The polling interval controls the frequency of requests to Adobe Analytics for data to be pulled and saved into [SRP](/help/communities/using/working-with-srp.md).
 
 When the data may be categorized as "big data", more frequent polling may put a large load on the community site.
 
@@ -606,7 +606,7 @@ The forum topic is presently the only example of this customization:
 
 * on the primary publisher
 * sign in with administrative privileges
-* navigate to [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md)
+* navigate to [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md)
 
     * for example, [http://localhost:4503/crx/de](http://localhost:4503/crx/de)
 
@@ -638,6 +638,6 @@ Adobe Analytics provides APIs that allow you to access, export, and delete user 
 ## Resources {#resources}
 
 * Adobe Marketing Cloud: [Analytics Help and Reference](https://marketing.adobe.com/resources/help/en_US/reference/)
-* AEM: [Integrating with Adobe Analytics](../../sites/administering/using/adobeanalytics.md)
-* AEM: [Analytics with External Providers](../../sites/administering/using/external-providers.md)
+* AEM: [Integrating with Adobe Analytics](/help/sites/administering/using/adobeanalytics.md)
+* AEM: [Analytics with External Providers](/help/sites/administering/using/external-providers.md)
 

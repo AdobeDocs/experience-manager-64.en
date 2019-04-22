@@ -48,8 +48,8 @@ AEM Forms also allows you to create a form data model independent of data source
 
 Review the following to get started, understand, and implement data integration.
 
-* [Configure data sources](../../forms/using/configure-data-sources.md)
-* [Create form data model](../../forms/using/create-form-data-models.md)
-* [Work with form data model](../../forms/using/work-with-form-data-model.md)
-* [Use form data model](../../forms/using/using-form-data-model.md)
+* [Configure data sources](/help/forms/using/configure-data-sources.md)
+* [Create form data model](/help/forms/using/create-form-data-models.md)
+* [Work with form data model](/help/forms/using/work-with-form-data-model.md)
+* [Use form data model](/help/forms/using/using-form-data-model.md)
 

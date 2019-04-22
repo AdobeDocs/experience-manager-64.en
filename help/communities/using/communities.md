@@ -17,81 +17,81 @@ discoiquuid: fbfe8097-3c3f-4a05-97ad-1ce526362a26
 
 AEM Communities simplifies the creation and customizaton of community features such as forums, user groups, blogs, Q&A, calendars, comments, reviews, voting, ratings, and assignments. These features result in user generated content (UGC) being entered in the publish environment.
 
-The foundation of a [community site](../../communities/using/overview.md#communitiessites) is the [social component framework](../../communities/using/scf.md) (SCF). Creation of a community site begins with the selection of a [community site template](../../communities/using/sites-console.md) that is composed of [community functions](../../communities/using/functions.md).
+The foundation of a [community site](/help/communities/using/overview.md#communitiessites) is the [social component framework](/help/communities/using/scf.md) (SCF). Creation of a community site begins with the selection of a [community site template](/help/communities/using/sites-console.md) that is composed of [community functions](/help/communities/using/functions.md).
 
 For an overview and getting started tutorials, visit:
 
-* [AEM Communities Overview](../../communities/using/overview.md)
-* [Getting Started with AEM Communities](../../communities/using/getting-started.md)
-* [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md)
+* [AEM Communities Overview](/help/communities/using/overview.md)
+* [Getting Started with AEM Communities](/help/communities/using/getting-started.md)
+* [Getting Started with AEM Communities for Enablement](/help/communities/using/getting-started-enablement.md)
 
 >[!NOTE]
 >
->It is highly recommended to keep up-to-date with the [latest releases](../../communities/using/deploy-communities.md#latest-releases).
+>It is highly recommended to keep up-to-date with the [latest releases](/help/communities/using/deploy-communities.md#latest-releases).
 
 ## Recommended Deployments {#recommended-deployments}
 
-* [Community Content Storage](../../communities/using/working-with-srp.md): discusses the available SRP choices for a UGC common store
-* [Recommended Topologies for Communities](../../communities/using/topologies.md): discusses topologies based on use case and SRP choice
+* [Community Content Storage](/help/communities/using/working-with-srp.md): discusses the available SRP choices for a UGC common store
+* [Recommended Topologies for Communities](/help/communities/using/topologies.md): discusses topologies based on use case and SRP choice
 
 ## Social Component Framework {#social-component-framework}
 
-* [Social Component Framework](../../communities/using/scf.md): overview of framework and APIs
-* [SCF Handlebars Helpers](../../communities/using/handlebars-helpers.md): default helpers and how to write custom helpers
-* [Client-side Customization](../../communities/using/client-customize.md): customizing code that runs in browser
-* [Server-side Customization](../../communities/using/server-customize.md): customizing code that runs on server
-* [Storage Resource Provider (SRP)](../../communities/using/srp.md): overview of community content storage
-* [Coding Guidelines](../../communities/using/code-guide.md): guidelines, tips & tricks
-* [Community Components guide](../../communities/using/components-guide.md): interactive development tool
+* [Social Component Framework](/help/communities/using/scf.md): overview of framework and APIs
+* [SCF Handlebars Helpers](/help/communities/using/handlebars-helpers.md): default helpers and how to write custom helpers
+* [Client-side Customization](/help/communities/using/client-customize.md): customizing code that runs in browser
+* [Server-side Customization](/help/communities/using/server-customize.md): customizing code that runs on server
+* [Storage Resource Provider (SRP)](/help/communities/using/srp.md): overview of community content storage
+* [Coding Guidelines](/help/communities/using/code-guide.md): guidelines, tips & tricks
+* [Community Components guide](/help/communities/using/components-guide.md): interactive development tool
 
 ## Component, Function and Feature Essentials {#component-function-and-feature-essentials}
 
-AEM Communities components, functions and features provide the building blocks for [community sites](../../communities/using/sites-console.md).
+AEM Communities components, functions and features provide the building blocks for [community sites](/help/communities/using/sites-console.md).
 
-* [Component, Function and Feature Essentials](../../communities/using/essentials.md)
-* [Clientlibs for Communities Components](../../communities/using/clientlibs.md)
-* [Community Functions](../../communities/using/functions.md)
-* [Community Group Templates](../../communities/using/tools-groups.md)
-* [Community Site Templates](../../communities/using/sites.md)
+* [Component, Function and Feature Essentials](/help/communities/using/essentials.md)
+* [Clientlibs for Communities Components](/help/communities/using/clientlibs.md)
+* [Community Functions](/help/communities/using/functions.md)
+* [Community Group Templates](/help/communities/using/tools-groups.md)
+* [Community Site Templates](/help/communities/using/sites.md)
 
 ## Community Members {#community-members}
 
-* [Managing Users and User Groups](../../communities/using/users.md)
-* [Social Login with Facebook and Twitter](../../communities/using/social-login.md)
+* [Managing Users and User Groups](/help/communities/using/users.md)
+* [Social Login with Facebook and Twitter](/help/communities/using/social-login.md)
 
 ## Community Groups {#community-groups}
 
-[Community groups](../../communities/using/overview.md#communitygroups) is the concept of allowing community members to form sub-communities within the community site. Creation of a community group may occur in the publish or author environment.
+[Community groups](/help/communities/using/overview.md#communitygroups) is the concept of allowing community members to form sub-communities within the community site. Creation of a community group may occur in the publish or author environment.
 
-* [Community Group Essentials](../../communities/using/essentials-groups.md)
-* [Groups Function](../../communities/using/functions.md#groups-function)
-* [Community Group Templates](../../communities/using/tools-groups.md)
-* [Managing Users and User Groups](../../communities/using/users.md)
-* [Community Groups for Authors](../../communities/using/creating-groups.md)
+* [Community Group Essentials](/help/communities/using/essentials-groups.md)
+* [Groups Function](/help/communities/using/functions.md#groups-function)
+* [Community Group Templates](/help/communities/using/tools-groups.md)
+* [Managing Users and User Groups](/help/communities/using/users.md)
+* [Community Groups for Authors](/help/communities/using/creating-groups.md)
 
 ## Managing Data {#managing-data}
 
-* [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP API utility methods and examples
-* [Tag Essentials](../../communities/using/tag.md) - ability for community members to tag UGC and/or cataloged enablement resources
+* [SRP and UGC Essentials](/help/communities/using/srp-and-ugc.md) - SRP API utility methods and examples
+* [Tag Essentials](/help/communities/using/tag.md) - ability for community members to tag UGC and/or cataloged enablement resources
 
 ## Tutorials {#tutorials}
 
-* [Client-side tutorials](../../communities/using/tutorials.md#client-side-customization)
+* [Client-side tutorials](/help/communities/using/tutorials.md#client-side-customization)
 * 
-* [Server-side tutorials](../../communities/using/tutorials.md#server-side-customization)
+* [Server-side tutorials](/help/communities/using/tutorials.md#server-side-customization)
 * 
-* [How-To Instructions](../../communities/using/tutorials.md#how-to-instructions)
+* [How-To Instructions](/help/communities/using/tutorials.md#how-to-instructions)
 
 ## Troubleshooting {#troubleshooting}
 
-* [Troubleshooting](../../communities/using/troubleshooting.md) 
-* [Known Issues](../../release-notes/known-issues.md)
+* [Troubleshooting](/help/communities/using/troubleshooting.md) 
+* [Known Issues](/help/release-notes/known-issues.md)
 
 ## Related Communities Documentation {#related-communities-documentation}
 
-* Visit [Deploying Communities](../../communities/using/deploy-communities.md) to learn about recommended deployments and dispatcher configuration.
+* Visit [Deploying Communities](/help/communities/using/deploy-communities.md) to learn about recommended deployments and dispatcher configuration.
 
-* Visit [Administering Communities Sites](../../communities/using/administer-landing.md) to learn about creating a Community Site, configuring Community Site Templates, moderating community content, managing members, and configuring messaging.
+* Visit [Administering Communities Sites](/help/communities/using/administer-landing.md) to learn about creating a Community Site, configuring Community Site Templates, moderating community content, managing members, and configuring messaging.
 
-* Visit [Authoring Communities Components](../../communities/using/author-communities.md) to learn how to author with and configure Communities components.
+* Visit [Authoring Communities Components](/help/communities/using/author-communities.md) to learn how to author with and configure Communities components.
 

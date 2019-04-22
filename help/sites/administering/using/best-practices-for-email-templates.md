@@ -123,7 +123,7 @@ All have a **header**, a **footer** and a **body** section. Below the body secti
 
 ### Components {#components}
 
-There are currently [seven components available for use inside campaign templates](../../../sites/authoring/using/adobe-campaign-components.md). These components are all based on the Adobe markup language **HTL**.
+There are currently [seven components available for use inside campaign templates](/help/sites/authoring/using/adobe-campaign-components.md). These components are all based on the Adobe markup language **HTL**.
 
 | **Component name** |**Component path** |
 |---|---|
@@ -139,4 +139,4 @@ There are currently [seven components available for use inside campaign template
 >
 >These components are optimized for mail content; that is, they adhere to the best practices outlined in this document. Using other out-of-the-box components will usually violate these rules.
 
-These components are described in detail in [Adobe Campaign components](../../../sites/authoring/using/adobe-campaign-components.md).
+These components are described in detail in [Adobe Campaign components](/help/sites/authoring/using/adobe-campaign-components.md).

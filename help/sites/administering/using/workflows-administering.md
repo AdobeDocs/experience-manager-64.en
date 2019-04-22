@@ -17,9 +17,9 @@ The workflow console provides several tools for administering workflow instances
 
 >[!NOTE]
 >
->The [JMX console](../../../sites/administering/using/jmx-console.md#workflow-maintenance) provides additional workflow maintenance operations.
+>The [JMX console](/help/sites/administering/using/jmx-console.md#workflow-maintenance) provides additional workflow maintenance operations.
 
-A range of consoles are available for administering your workflows. Use the [global navigation](../../../sites/authoring/using/basic-handling.md#global-navigation) to open the **Tools** pane, then select **Workflow**:
+A range of consoles are available for administering your workflows. Use the [global navigation](/help/sites/authoring/using/basic-handling.md#global-navigation) to open the **Tools** pane, then select **Workflow**:
 
 * **Models**: Manage workflow definitions
 * **Instances**: View and manage running workflow instances
@@ -104,7 +104,7 @@ Configure **Adobe Granite Workflow Purge Configuration** to purge workflow insta
 
 You can also create multiple configurations of the service to purge workflow instances that satisfy different criteria. For example, create a configuration that purges the instances of a particular workflow model when they are running for much longer than the expected time. Create another configuration that purges all completed workflows after a certain number of days to minimize the size of the repository.
 
-To configure the service, you can use the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or [add an OSGi configuration to the repository](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository). The following table desribes the properties that you need for either method.
+To configure the service, you can use the [Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or [add an OSGi configuration to the repository](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository). The following table desribes the properties that you need for either method.
 
 >[!NOTE]
 >
@@ -152,7 +152,7 @@ To configure the service, you can use the [Web Console](../../../sites/deploying
 
 ## Setting the Maximum Size of the Inbox {#setting-the-maximum-size-of-the-inbox}
 
-You can set the maximum size of the inbox by configuring the **Adobe Granite Workflow Service**, using the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or [add an OSGi configuration to the repository](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository). The following table describes the property that you configure for either method.
+You can set the maximum size of the inbox by configuring the **Adobe Granite Workflow Service**, using the [Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or [add an OSGi configuration to the repository](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository). The following table describes the property that you configure for either method.
 
 >[!NOTE]
 >

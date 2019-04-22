@@ -25,7 +25,7 @@ Content is synced linearly between the primary instance and the standby instance
 >
 >The Cold Standby feature is meant to secure scenarios where high availability is required on **author** instances. For situations where high availability is required on **publish** instances using the Tar Micro Kernel, Adobe recommends using a publish farm.
 >
->For info on more available deployments, see the [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md) page.
+>For info on more available deployments, see the [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md) page.
 
 ## How it works {#how-it-works}
 
@@ -91,7 +91,7 @@ Below is the procedure that needs to be followed in order to create a setup with
     1. Create a folder called `install.primary` under `aem-primary/crx-quickstart/install`
     
     1. Create the required configurations for the prefered node store and data store under `aem-primary/crx-quickstart/install/install.primary`
-    1. Create a file called `org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService.config` in the same location and configure it accordingly. For more information on the configuration options, see [Configuration](../../../sites/deploying/using/tarmk-cold-standby.md#configuration).
+    1. Create a file called `org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService.config` in the same location and configure it accordingly. For more information on the configuration options, see [Configuration](/help/sites/deploying/using/tarmk-cold-standby.md#configuration).
     
     1. If you are using an AEM TarMK instance with an external data store, create a folder named `crx3` under `aem-primary/crx-quickstart/install` named `crx3`
     
@@ -135,7 +135,7 @@ Below is the procedure that needs to be followed in order to create a setup with
    java -jar quickstart.jar -r primary,crx3,crx3tar
    ```
 
-1. Create a new Apache Sling Logging Logger for the **org.apache.jackrabbit.oak.segment** package. Set log level to “Debug” and point its log output to a separate logfile, like */logs/tarmk-coldstandby.log*. For more information, see [Logging](../../../sites/deploying/using/configure-logging.md).
+1. Create a new Apache Sling Logging Logger for the **org.apache.jackrabbit.oak.segment** package. Set log level to “Debug” and point its log output to a separate logfile, like */logs/tarmk-coldstandby.log*. For more information, see [Logging](/help/sites/deploying/using/configure-logging.md).
 1. Go to the location of the **standby** instance and start it by running the jar. 
 1. Create the same logging configuration as for the primary. Then, stop the instance.
 1. Next, prepare the standby instance. You can do this by performing the same steps as for the primary instance:
@@ -308,7 +308,7 @@ In case the primary instance fails for any reason, you can set one of the standb
    ```
 
 1. Add the new primary to the load balancer.
-1. Create and start a new standby instance. For more info, see the procedure above on [Creating an AEM TarMK Cold Standby Setup](../../../sites/deploying/using/tarmk-cold-standby.md#creating-an-aem-tarmk-cold-standby-setup).
+1. Create and start a new standby instance. For more info, see the procedure above on [Creating an AEM TarMK Cold Standby Setup](/help/sites/deploying/using/tarmk-cold-standby.md#creating-an-aem-tarmk-cold-standby-setup).
 
 ## Applying Hotfixes to a Cold Standby Setup {#applying-hotfixes-to-a-cold-standby-setup}
 
@@ -318,16 +318,16 @@ You can do this by following the steps outlined below:
 
 1. Stop the synchronization process on the cold standby instance by going to the JMX Console and using the **org.apache.jackrabbit.oak: Status ("Standby")**bean. For more information on how to do this, see the section on [Monitoring](#monitoring).
 1. Stop the cold standby instance.
-1. Install the hotfix on the primary instance. For more details on how to install a hotfix, see [How to Work With Packages](../../../sites/administering/using/package-manager.md).
+1. Install the hotfix on the primary instance. For more details on how to install a hotfix, see [How to Work With Packages](/help/sites/administering/using/package-manager.md).
 1. Test the instance for issues after the installation. 
 1. Remove the cold standby instance by deleting its installation folder.
 1. Stop the primary instance and clone it by performing a file system copy of its entire installation folder to the location of the cold standby.
-1. Reconfigure the newly created clone to act as a cold standby instance. For additional details, see [Creating an AEM TarMK Cold Standby Setup.](../../../sites/deploying/using/tarmk-cold-standby.md#creating-an-aem-tarmk-cold-standby-setup)
+1. Reconfigure the newly created clone to act as a cold standby instance. For additional details, see [Creating an AEM TarMK Cold Standby Setup.](/help/sites/deploying/using/tarmk-cold-standby.md#creating-an-aem-tarmk-cold-standby-setup)
 1. Start both the primary and the cold standby instances.
 
 ## Monitoring {#monitoring}
 
-The feature exposes information using JMX or MBeans. Doing so you can inspect the current state of the standby and the master using the [JMX console](../../../sites/administering/using/jmx-console.md). The information can be found in an MBean of `type org.apache.jackrabbit.oak:type="Standby"`named `Status`.
+The feature exposes information using JMX or MBeans. Doing so you can inspect the current state of the standby and the master using the [JMX console](/help/sites/administering/using/jmx-console.md). The information can be found in an MBean of `type org.apache.jackrabbit.oak:type="Standby"`named `Status`.
 
 **Standby**
 
@@ -370,7 +370,7 @@ Furthermore information for up to 10 clients (standby instances) that are connec
 
 >[!NOTE]
 >
->If you run [Online Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md) on the primary instance, the manual procedure presented below is not needed. Addittionally, if you are using Online Revision Cleanup, the `cleanup ()` operation on the standby instance will pe performed automatically.
+>If you run [Online Revision Cleanup](/help/sites/deploying/using/revision-cleanup.md) on the primary instance, the manual procedure presented below is not needed. Addittionally, if you are using Online Revision Cleanup, the `cleanup ()` operation on the standby instance will pe performed automatically.
 
 >[!NOTE]
 >
@@ -378,10 +378,10 @@ Furthermore information for up to 10 clients (standby instances) that are connec
 
 Adobe recommends runing maintenance on a regular basis to prevent excessive repository growth over time. To manually perform cold standby repository maintenance, follow the steps below:
 
-1. Stop the standby process on the standby instance by going to the JMX Console and using the **org.apache.jackrabbit.oak: Status ("Standby")** bean. For more info on how to do this, see the above section on [Monitoring](../../../sites/deploying/using/tarmk-cold-standby.md#monitoring).  
+1. Stop the standby process on the standby instance by going to the JMX Console and using the **org.apache.jackrabbit.oak: Status ("Standby")** bean. For more info on how to do this, see the above section on [Monitoring](/help/sites/deploying/using/tarmk-cold-standby.md#monitoring).  
 
 1. Stop the primary AEM instance.
-1. Run the oak compaction tool on the primary instance. For more details, see [Maintaining the Repository](../../../sites/deploying/using/storage-elements-in-aem-6.md#maintaining-the-repository).
+1. Run the oak compaction tool on the primary instance. For more details, see [Maintaining the Repository](/help/sites/deploying/using/storage-elements-in-aem-6.md#maintaining-the-repository).
 1. Start the primary instance.
 1. Start the standby process on the standby instance using the same JMX bean as described in the first step.
 1. Watch the logs and wait for synchronization to complete. It is possible that substantial growth in the standby repository will be seen at this time.
@@ -395,10 +395,10 @@ As an alternative, the primary repository can be copied over to the standby manu
 
 It is important to run garbage collection on file datastore instances from time to time as otherwise, deleted binaries will remain on the filesystem, eventually filling up the drive. To run garbage collection, follow the below procedure:
 
-1. Run cold standby repository maintenance as described in the section [above](../../../sites/deploying/using/tarmk-cold-standby.md#cold-standby-repository-maintenance).
+1. Run cold standby repository maintenance as described in the section [above](/help/sites/deploying/using/tarmk-cold-standby.md#cold-standby-repository-maintenance).
 1. After the maintenance process has completed and the instances have been restarted:
 
-    * On the primary, run the data store garbage collection via the relevant JMX bean as described in [this article](../../../sites/administering/using/data-store-garbage-collection.md#running-data-store-garbage-collection-via-the-jmx-console).
+    * On the primary, run the data store garbage collection via the relevant JMX bean as described in [this article](/help/sites/administering/using/data-store-garbage-collection.md#running-data-store-garbage-collection-via-the-jmx-console).
     * On the standby, the data store garbage collection is available only via the **BlobGarbageCollection** MBean - `startBlobGC()`. The **RepositoryManagement **MBean is not available on the standby.
 
    >[!NOTE]

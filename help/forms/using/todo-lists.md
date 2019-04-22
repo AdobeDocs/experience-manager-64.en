@@ -190,7 +190,7 @@ You may be allowed to add, update, delete, or save any attachments locally.
    >You can configure workspace to periodically auto-save the information entered by a user as a draft. If auto-save is enabled and a user is working on a draft, the draft is saved periodically. In case of auto-save, the default name of the task is automatically taken. 
    >
    >
-   >For more information, see Save Draft Periodically in [Managing Preferences](../../forms/using/getting-started-livecycle-html-workspace.md).
+   >For more information, see Save Draft Periodically in [Managing Preferences](/help/forms/using/getting-started-livecycle-html-workspace.md).
 
 1. In the Save As Draft dialog, specify a unique name for the task and tap **OK**.
 

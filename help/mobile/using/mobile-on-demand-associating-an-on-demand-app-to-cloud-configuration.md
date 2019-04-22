@@ -15,7 +15,7 @@ discoiquuid: d0d29b99-53d4-4b0d-947b-39d91b381de7
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Associating an On-Demand App to a Cloud Configuration allows Adobe Experience Manager (AEM) to communicate directly with a Mobile On-Demand hosted project by establishing a two way link. By linking your app to a Mobile On-Demand project, you will be able to perform content creation, such as articles, banners, and collections within AEM, but also serve that content to Mobile On-Demand.
 
@@ -27,11 +27,11 @@ From there, publishing, previewing, and managing content becomes possible. You c
 >
 >Before you start configuring cloud configuration for your On-Demand app, you must be familiar with AEM Mobile Provisioning and Configuring AEM Mobile On-Demand Services Client. 
 >
->For details, See [Setting up AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-setup.md) in the Administering section.
+>For details, See [Setting up AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-setup.md) in the Administering section.
 
 To configure Mobile On-Demand Cloud Services, click the top gear on the top right corner of the **Manage Connection** tile from your app dashboard.
 
-You should be familiar with the app dashboard and the tiles available. See [AEM Mobile Application Dashboard](../../mobile/using/mobile-apps-ondemand-application-dashboard.md) for more details.
+You should be familiar with the app dashboard and the tiles available. See [AEM Mobile Application Dashboard](/help/mobile/using/mobile-apps-ondemand-application-dashboard.md) for more details.
 
 ### Setting Up Link to Cloud Configuration {#setting-up-link-to-cloud-configuration}
 
@@ -39,7 +39,7 @@ You should be familiar with the app dashboard and the tiles available. See [AEM 
 >
 >Ensure you have an existing On-Demand client and cloud configuration.
 >
->For details, See [Setting up AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-setup.md) in the Administering section.
+>For details, See [Setting up AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-setup.md) in the Administering section.
 
 The following steps describes setting up link to cloud configuration:
 
@@ -72,10 +72,10 @@ The following steps describes setting up link to cloud configuration:
 
 Once you have configured cloud configuration for your app, See the following resources for managing content:
 
-* [Managing Articles](../../mobile/using/mobile-on-demand-managing-articles.md)
-* [Managing Banners](../../mobile/using/mobile-on-demand-managing-banners.md)
-* [Managing Collections](../../mobile/using/mobile-on-demand-managing-collections.md)
-* [Uploading Shared Resources](../../mobile/using/mobile-on-demand-shared-resources.md)
-* [Publishing/Unpublishing the Content](../../mobile/using/mobile-on-demand-publishing-unpublishing.md)
-* [Previewing with Preflight](../../mobile/using/aem-mobile-manage-ondemand-services.md)
+* [Managing Articles](/help/mobile/using/mobile-on-demand-managing-articles.md)
+* [Managing Banners](/help/mobile/using/mobile-on-demand-managing-banners.md)
+* [Managing Collections](/help/mobile/using/mobile-on-demand-managing-collections.md)
+* [Uploading Shared Resources](/help/mobile/using/mobile-on-demand-shared-resources.md)
+* [Publishing/Unpublishing the Content](/help/mobile/using/mobile-on-demand-publishing-unpublishing.md)
+* [Previewing with Preflight](/help/mobile/using/aem-mobile-manage-ondemand-services.md)
 

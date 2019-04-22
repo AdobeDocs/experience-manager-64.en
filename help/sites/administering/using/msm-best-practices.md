@@ -35,7 +35,7 @@ MSM is a configurable framework for automating content deployment. Implementatio
 
 >[!NOTE]
 >
->You can also use the [Reference component](../../../sites/authoring/using/default-components-foundation.md#reference) to reuse a single page or paragraph. Keep in mind however:
+>You can also use the [Reference component](/help/sites/authoring/using/default-components-foundation.md#reference) to reuse a single page or paragraph. Keep in mind however:
 >
 >* MSM is more flexible and allows fine-grained control over what content is synchronized and when.
 >* [Core components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) are now recommended over the foundation components.  
@@ -43,7 +43,7 @@ MSM is a configurable framework for automating content deployment. Implementatio
 
 ## Live Copy Sources and Blueprint Configurations {#live-copy-sources-and-blueprint-configurations}
 
-Keep in mind that a live copy can be created using either [regular pages](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page) or a [blueprint configuration](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration). Both are valid use cases.
+Keep in mind that a live copy can be created using either [regular pages](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page) or a [blueprint configuration](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration). Both are valid use cases.
 
 The additional benefits of using a blueprint configuration are that they:
 
@@ -74,17 +74,17 @@ To support the nesting of components such that locally added components are main
 
 Notice that AEM has two main approaches for creating live copies:
 
-* When [creating a **Live Copy**](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page)  
+* When [creating a **Live Copy**](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page)  
   This can be considered as the more generic approach, allowing you to create live copies from any page. The content structure of a live copy exactly matches the source.
 
-* When [creating a **Site**](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration)   
+* When [creating a **Site**](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration)   
   This is a more specialized approach, primarily for creating websites with a multilingual structure.
 
 Following are a few considerations to keep in mind when creating a site:
 
-* To create a new site, you need a [blueprint configuration](../../../sites/administering/using/msm-livecopy.md#managing-blueprint-configurations). 
+* To create a new site, you need a [blueprint configuration](/help/sites/administering/using/msm-livecopy.md#managing-blueprint-configurations). 
 * To allow the selection of language paths to create in a new site, the corresponding language roots must exist in the blueprint (source). 
-* Once a [new site has been created as a live copy](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration) (using **Create**, then **Site**), the first two levels of this live copy are *shallow*. Children of the page do not belong to the live-relationship, but a roll-out will still descend if a live-relationship that matches the trigger is found.  
+* Once a [new site has been created as a live copy](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration) (using **Create**, then **Site**), the first two levels of this live copy are *shallow*. Children of the page do not belong to the live-relationship, but a roll-out will still descend if a live-relationship that matches the trigger is found.  
   It helps avoid:
 
     * manually adding languages in the blueprint (below the first level)  
@@ -108,7 +108,7 @@ MSM can assist in the creation of multilingual websites in two ways:
 
     * For example, from the French language master to country-specific sites, such as France/French, Canada/French, Switzerland/French.
 
-For more information see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md) and the [Translation Best Practices](../../../sites/administering/using/tc-bp.md).
+For more information see [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md) and the [Translation Best Practices](/help/sites/administering/using/tc-bp.md).
 
 ## Structure Changes and Rollouts {#structure-changes-and-rollouts}
 
@@ -157,7 +157,7 @@ MSM rollout configurations are highly customizable. You should be aware that aut
 
 ### onModify {#onmodify}
 
-When using the [rollout trigger](../../../sites/administering/using/msm-sync.md#rollout-triggers) `onModify` you should consider that:
+When using the [rollout trigger](/help/sites/administering/using/msm-sync.md#rollout-triggers) `onModify` you should consider that:
 
 * Automating rollouts with `onModify` triggers may have a negative impact on authoring performance as they trigger rollouts after *every* page modification. 
 
@@ -174,14 +174,14 @@ Therefore, it is recommended that you *only* use `onModify` triggers if the bene
 
 Remember that:
 
-* In addition to customizing rollout actions, MSM also allows you to customize node properties that are being rolled out. The [MSM OSGi configuration allows you to exclude node types](../../../sites/administering/using/msm-sync.md#excluding-properties-and-node-types-from-synchronization) from being copied from the source to the live copy.
+* In addition to customizing rollout actions, MSM also allows you to customize node properties that are being rolled out. The [MSM OSGi configuration allows you to exclude node types](/help/sites/administering/using/msm-sync.md#excluding-properties-and-node-types-from-synchronization) from being copied from the source to the live copy.
 
 ## Further Information {#further-information}
 
 This and the following pages cover the related issues:
 
-* [Creating and Synchronizing Live Copies](../../../sites/administering/using/msm-livecopy.md)
-* [Live Copy Overview Console](../../../sites/administering/using/msm-livecopy-overview.md)
-* [Configuring Live Copy Synchronization](../../../sites/administering/using/msm-sync.md)
-* [MSM Rollout Conflicts](../../../sites/administering/using/msm-rollout-conflicts.md)
+* [Creating and Synchronizing Live Copies](/help/sites/administering/using/msm-livecopy.md)
+* [Live Copy Overview Console](/help/sites/administering/using/msm-livecopy-overview.md)
+* [Configuring Live Copy Synchronization](/help/sites/administering/using/msm-sync.md)
+* [MSM Rollout Conflicts](/help/sites/administering/using/msm-rollout-conflicts.md)
 

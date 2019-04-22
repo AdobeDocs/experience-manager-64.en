@@ -17,7 +17,7 @@ discoiquuid: a1070d9e-fb7c-4134-b6d5-ffa2d3e9718d
 
 Authoring an adaptive form using an XML schema as its form model requires basic understanding of XML schemas. Also, it is recommended to read through the following content before this article.
 
-* [Creating an adaptive form](../../forms/using/creating-adaptive-form.md)
+* [Creating an adaptive form](/help/forms/using/creating-adaptive-form.md)
 * [XML schema](https://www.w3.org/TR/xmlschema-2/)
 
 ## Using an XML schema as form model {#using-an-xml-schema-as-form-model}

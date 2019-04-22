@@ -19,13 +19,13 @@ The ContextHub Diagnostics page provides information about the stores and UI mod
 
 >[!NOTE]
 >
->In order for diagnostic information to be returned, debug mode must be enabled, otherwise the diagnostics page will be blank. Please see [this document](../../../sites/administering/using/contexthub-config.md#debugging-contexthub) for details on how to enable debug mode.
+>In order for diagnostic information to be returned, debug mode must be enabled, otherwise the diagnostics page will be blank. Please see [this document](/help/sites/administering/using/contexthub-config.md#debugging-contexthub) for details on how to enable debug mode.
 
 ## Stores {#stores}
 
 The Stores section lists all the ContextHub stores that have been configured. Each item in the list consists of the following information:
 
-* **Title:** The [store type](../../../sites/developing/using/ch-samplestores.md) that the store is based on.
+* **Title:** The [store type](/help/sites/developing/using/ch-samplestores.md) that the store is based on.
 * **path:** The path to the repository node that holds the configuration.
 * **resourceType:** The path of the repository node where the store type is defined.
 * **clientlibs:** The categories of the client libraries that are loaded which implement the store type.
@@ -34,7 +34,7 @@ The Stores section lists all the ContextHub stores that have been configured. Ea
 
 The Modules section lists all the ContextHub UI modules that have been configured. Each item in the list consists of the following information:
 
-* **Title:** The [UI Module type](../../../sites/developing/using/ch-samplemodules.md) that the UI module is based on.
+* **Title:** The [UI Module type](/help/sites/developing/using/ch-samplemodules.md) that the UI module is based on.
 * **path:** The path to the repository node that holds the configuration.
 * **resourceType:** The path of the repository node where the UI module type is defined.
 * **clientlibs:** The categories of the client libraries that are loaded which implement the UI module type.
@@ -51,7 +51,7 @@ The Clientlibs section lists all of the client library folders that ContextHub h
 
 The URLs section contains links to ContextHub features:
 
-* **Configuration editor:** Opens the [ContextHub Configuration page](../../../sites/administering/using/contexthub-config.md) where you can configure stores, UI modes, and UI modules.
+* **Configuration editor:** Opens the [ContextHub Configuration page](/help/sites/administering/using/contexthub-config.md) where you can configure stores, UI modes, and UI modules.
 
 * **Configuration of ContextHub modules:** Opens the /etc/cloudsettings/default/contexthub.config.kernel.js file, which contains the the Javascript object representation of the ContextHub store configurations.
 * **Configuration of ContextHub UI:** Opens the /etc/cloudsettings/default/contexthub.config.ui.js file, which contains the Javascript object representation of the ContextHub UI mode configurations.

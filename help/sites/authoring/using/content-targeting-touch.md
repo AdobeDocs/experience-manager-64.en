@@ -24,11 +24,11 @@ Author targeted content using Targeting mode of AEM. Targeting mode and the Targ
 * Simulate the user experience.
 * For more customization, configure the Target component.
 
-You can use either AEM or Adobe Target as the targeting engine (you must have a valid Adobe Target account to use Adobe Target). If you are using Adobe Target, you must configure the integration first. See [instructions for integrating with Adobe Target](../../../sites/administering/using/target.md).
+You can use either AEM or Adobe Target as the targeting engine (you must have a valid Adobe Target account to use Adobe Target). If you are using Adobe Target, you must configure the integration first. See [instructions for integrating with Adobe Target](/help/sites/administering/using/target.md).
 
 ![](assets/chlimage_1-59.png)
 
-The activities and experiences that you see in Target mode reflect the [Activites console](../../../sites/authoring/using/activitylib.md):
+The activities and experiences that you see in Target mode reflect the [Activites console](/help/sites/authoring/using/activitylib.md):
 
 * Changes that you make to activities and experiences using Targeting mode are reflected in the Activities console.
 * Changes that are made in the Activities console are reflected in Targeting mode.
@@ -68,7 +68,7 @@ You can also create and manage Adobe Target activities from AEM with the option 
 
 In addition, you can manage goals and metrics for all Adobe Target activities and manage your Adobe Target audiences. Adobe Target activity reporting, including converting of winners for A/B testing is also included.
 
-When you add an activity, it also appears in the [Activities console](../../../sites/authoring/using/activitylib.md).
+When you add an activity, it also appears in the [Activities console](/help/sites/authoring/using/activitylib.md).
 
 To add an activity:
 
@@ -76,7 +76,7 @@ To add an activity:
 
    >[!NOTE]
    >
-   >It is recommended to [create brands through the activities console](../../../sites/authoring/using/activitylib.md#creating-a-brand-using-the-activities-console).
+   >It is recommended to [create brands through the activities console](/help/sites/authoring/using/activitylib.md#creating-a-brand-using-the-activities-console).
    >
    >
    >If you create a brand in any other way, make certain that the node `/campaigns/<brand>/master` exists or an error will result when you attempt to create an activity.
@@ -92,9 +92,9 @@ To add an activity:
 
     * If you select **ContextHub AEM**, the remaining fields are dimmed and not available. Click or tap **Create**. 
     
-    * If you select **Adobe Target**, you can select a configuration (by default, it is the configuration you provided when you [configured the account](../../../sites/administering/using/opt-in.md)) and Activity Type.
+    * If you select **Adobe Target**, you can select a configuration (by default, it is the configuration you provided when you [configured the account](/help/sites/administering/using/opt-in.md)) and Activity Type.
     
-    * If you are using the AEM/Adobe Campaign integration and are sending targeted content (newsletters), select **Adobe Campaign**. See [Integrating with Adobe Campaign](../../../sites/administering/using/campaign.md) for more information.
+    * If you are using the AEM/Adobe Campaign integration and are sending targeted content (newsletters), select **Adobe Campaign**. See [Integrating with Adobe Campaign](/help/sites/administering/using/campaign.md) for more information.
 
 1. In the Activity menu, select either **Experience Targeting** or **A/B Test**.
 
@@ -133,7 +133,7 @@ The Create step of content targeting involves creating experiences. During this 
 
 ### Seeing Experience Offers in Targeting Mode {#seeing-experience-offers-in-targeting-mode}
 
-After you [start the targeting process](../../../sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings), select an experience to see the offers that are provided for that experience. When you select an experience, the targeted components on the page change to show the offer for that experience.
+After you [start the targeting process](/help/sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings), select an experience to see the offers that are provided for that experience. When you select an experience, the targeted components on the page change to show the offer for that experience.
 
 >[!NOTE]
 >
@@ -155,11 +155,11 @@ The Default experience is also displayed when the visitor properties do not matc
 
 ### Custom offers and Library Offers {#custom-offers-and-library-offers}
 
-Offers that are [authored on the page](../../../sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer) and used for a single experience are called custom offers. The following image is superimposed on the content of a custom offer:
+Offers that are [authored on the page](/help/sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer) and used for a single experience are called custom offers. The following image is superimposed on the content of a custom offer:
 
 ![](assets/chlimage_1-66.png)
 
-Offers that are [added from an offer library](../../../sites/authoring/using/content-targeting-touch.md#adding-an-offer-from-an-offer-library) are superimposed with the following image:
+Offers that are [added from an offer library](/help/sites/authoring/using/content-targeting-touch.md#adding-an-offer-from-an-offer-library) are superimposed with the following image:
 
 ![](assets/chlimage_1-67.png)
 
@@ -167,7 +167,7 @@ You can save custom offers to an offer library if you decide that you want to re
 
 ### Adding and Removing Experiences Using Targeting Mode {#adding-and-removing-experiences-using-targeting-mode}
 
-Using the Create step of [the targeting process](../../../sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings), you can add and remove experiences. In addition, you can duplicate an experience and also rename it.
+Using the Create step of [the targeting process](/help/sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings), you can add and remove experiences. In addition, you can duplicate an experience and also rename it.
 
 #### Adding Experiences Using Targeting Mode {#adding-experiences-using-targeting-mode}
 
@@ -214,19 +214,19 @@ To copy experiences using Targeting Mode:
 
 Target a component to create offers for experiences. Targeted components provide the content that is used as offers for experiences.
 
-* [Target an existing component](../../../sites/authoring/using/content-targeting-touch.md#creating-a-default-offer-by-targeting-an-existing-component). The content becomes the offer of the Default Experience.
-* [Add a Target component](../../../sites/authoring/using/content-targeting-touch.md#creating-an-offer-by-adding-a-target-component), then add content to the component.
+* [Target an existing component](/help/sites/authoring/using/content-targeting-touch.md#creating-a-default-offer-by-targeting-an-existing-component). The content becomes the offer of the Default Experience.
+* [Add a Target component](/help/sites/authoring/using/content-targeting-touch.md#creating-an-offer-by-adding-a-target-component), then add content to the component.
 
 After a component is targeted, you can add offers for each experience:
 
-* [Add custom offers](../../../sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer).
-* [Add offers from a library](../../../sites/authoring/using/content-targeting-touch.md#adding-an-offer-from-an-offer-library).
+* [Add custom offers](/help/sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer).
+* [Add offers from a library](/help/sites/authoring/using/content-targeting-touch.md#adding-an-offer-from-an-offer-library).
 
 The following tools are available for working with offers:
 
-* [Add a custom offer to an offer library](../../../sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer-to-a-library).
-* [Convert a library offer to a custom offer](../../../sites/authoring/using/content-targeting-touch.md#converting-a-library-offer-to-a-custom-library).
-* [Open a library offer and edit the content](../../../sites/authoring/using/content-targeting-touch.md#editing-a-library-offer).
+* [Add a custom offer to an offer library](/help/sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer-to-a-library).
+* [Convert a library offer to a custom offer](/help/sites/authoring/using/content-targeting-touch.md#converting-a-library-offer-to-a-custom-library).
+* [Open a library offer and edit the content](/help/sites/authoring/using/content-targeting-touch.md#editing-a-library-offer).
 
 #### Creating a Default Offer By Targeting an Existing Component {#creating-a-default-offer-by-targeting-an-existing-component}
 
@@ -234,7 +234,7 @@ Target a component on the page to use it as the offer for the Default experience
 
 When you target a component, only that component can be used in the offer. You cannot remove the component from the offer or add other components to the offer.
 
-Perform the following procedure after [starting the targeting process](../../../sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings).
+Perform the following procedure after [starting the targeting process](/help/sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings).
 
 1. Click or tap the component to target. The toolbar for the component appears, similar to the following example.
 
@@ -244,17 +244,17 @@ Perform the following procedure after [starting the targeting process](../../../
 
    ![](do-not-localize/chlimage_1.png)
 
-   The component content is the offer for the Default experience. When a component is targeted, its default node will be replicated for each experience. This is needed for editing the correct content node during experience specific authoring. For these non-default experiences, either [add a custom offer](../../../sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer) or [add a library offer](../../../sites/authoring/using/content-targeting-touch.md#adding-an-offer-from-an-offer-library).
+   The component content is the offer for the Default experience. When a component is targeted, its default node will be replicated for each experience. This is needed for editing the correct content node during experience specific authoring. For these non-default experiences, either [add a custom offer](/help/sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer) or [add a library offer](/help/sites/authoring/using/content-targeting-touch.md#adding-an-offer-from-an-offer-library).
 
 #### Creating an Offer By Adding a Target Component {#creating-an-offer-by-adding-a-target-component}
 
 Add a Target component to create the offer for the Default experience. The Target component is a container for other components, and components that are placed within it become targeted. When you use the Target component, you can add several components to create an offer. Also, you can use different components in each experience to create different offers.
 
-See [Configuring Target component options](../../../sites/authoring/using/content-targeting-touch.md#configuring-target-component-options) for information on customizing this component.
+See [Configuring Target component options](/help/sites/authoring/using/content-targeting-touch.md#configuring-target-component-options) for information on customizing this component.
 
 >[!NOTE]
 >
->Offers that you create using the [Offers console](../../../sites/authoring/using/offerlib.md) can also contain several components. These offers belong to an offer library and can be used for multiple experiences.
+>Offers that you create using the [Offers console](/help/sites/authoring/using/offerlib.md) can also contain several components. These offers belong to an offer library and can be used for multiple experiences.
 
 Because the Target component is a container, it appears as a drop area for other components.
 
@@ -293,13 +293,13 @@ If editing targeted content, you must click or tap **Start Targeting **before yo
 1. Create the offer:
 
     * For the Default experience, drag components to the targeted drop area, and edit the component properties as usual to create the content for the offer.
-    * For non-default experiences, either [add a custom offer](#adding-a-custom-offer) or [add a library offer](../../../sites/authoring/using/content-targeting-touch.md#adding-an-offer-from-an-offer-library).
+    * For non-default experiences, either [add a custom offer](#adding-a-custom-offer) or [add a library offer](/help/sites/authoring/using/content-targeting-touch.md#adding-an-offer-from-an-offer-library).
 
 #### Adding a Custom Offer {#adding-a-custom-offer}
 
 Create an offer by authoring the content of a targeted component in Targeting mode. When you create a custom offer, it is used as the offer for a single experience.
 
-If you decide that the offer can be used for other experiences, you can create a custom offer and [add it to the library](../../../sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer-to-a-library). For information about using the Offers console to create a reusable offer, see [Add an Offer to an Offer Library](../../../sites/authoring/using/offerlib.md#add-an-offer-to-an-offer-library).
+If you decide that the offer can be used for other experiences, you can create a custom offer and [add it to the library](/help/sites/authoring/using/content-targeting-touch.md#adding-a-custom-offer-to-a-library). For information about using the Offers console to create a reusable offer, see [Add an Offer to an Offer Library](/help/sites/authoring/using/offerlib.md#add-an-offer-to-an-offer-library).
 
 1. Select the experience to which you are adding the offer.
 1. To reveal the component menu, click or tap the targeted component to which you are adding the offer.
@@ -318,7 +318,7 @@ If you decide that the offer can be used for other experiences, you can create a
 
 #### Adding an Offer From an Offer Library {#adding-an-offer-from-an-offer-library}
 
-Add an offer from the [offer library](../../../sites/authoring/using/offerlib.md) to an experience. You can add any offer from the library of the brand that you are currently targeting.
+Add an offer from the [offer library](/help/sites/authoring/using/offerlib.md) to an experience. You can add any offer from the library of the brand that you are currently targeting.
 
 You cannot add library offers to the Default experience.
 
@@ -355,9 +355,9 @@ You cannot add library offers to the Default experience.
 
 #### Adding a Custom Offer to a Library {#adding-a-custom-offer-to-a-library}
 
-Add a custom offer to the [offer library](../../../sites/authoring/using/offerlib.md) when you want to reuse it as the offer for multiple experiences. You can add offers to the library of the current brand that you are targeting.
+Add a custom offer to the [offer library](/help/sites/authoring/using/offerlib.md) when you want to reuse it as the offer for multiple experiences. You can add offers to the library of the current brand that you are targeting.
 
-For information about using the Offers console to create a reusable offer, see [Add an Offer to an Offer Library](../../../sites/authoring/using/offerlib.md#add-an-offer-to-an-offer-library).
+For information about using the Offers console to create a reusable offer, see [Add an Offer to an Offer Library](/help/sites/authoring/using/offerlib.md#add-an-offer-to-an-offer-library).
 
 1. Select the experience to reveal the custom offer.
 1. Click or tap the custom offer to reveal the offer menu, then click or tap the **Save Offer To Offer Library** icon.
@@ -387,7 +387,7 @@ Open a library offer from an experience in Targeted mode to edit the offer. The 
 
 ## Target: Configuring the Audiences {#target-configuring-the-audiences}
 
-The Target step of [the targeting process](../../../sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings) involves mapping audiences with the experiences that you worked with in the Create step. The Target page shows the audiences that each experience is targeting. You can specify or change the audience for each experience. If you are using Adobe Target, you can also create A/B tests that allow you to target percentage of traffic for an audience to a particular experience.
+The Target step of [the targeting process](/help/sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings) involves mapping audiences with the experiences that you worked with in the Create step. The Target page shows the audiences that each experience is targeting. You can specify or change the audience for each experience. If you are using Adobe Target, you can also create A/B tests that allow you to target percentage of traffic for an audience to a particular experience.
 
 ### If you are using AEM targeting or Adobe Target (experience targeting) ... {#if-you-are-using-aem-targeting-or-adobe-target-experience-targeting}
 
@@ -397,7 +397,7 @@ Audiences appear on the left side of the mapping diagram, and experiences appear
 
 Define an audience using a segment. The cloud configuration for the page detemines determines the segments that are availble to you. When the page is not associated with an Adobe Target cloud configuration, AEM segments are available for defining audiences. When the page is associated with an Adobe Target cloud configuration, you use Target segments.
 
-For information targeting engines, see [Targeting Engine](../../../sites/authoring/using/personalization.md#targeting-engine).
+For information targeting engines, see [Targeting Engine](/help/sites/authoring/using/personalization.md#targeting-engine).
 
 An audience must not be used by more than one experience. A warning symbol appears next to an experience when it is mapped to an audience that is mapped to another experience.
 
@@ -429,7 +429,7 @@ You can change the percentages as long as they add up to 100 percent. An audienc
 
 ## Goals & Settings: Configuring the Activity and Setting Goals {#goals-settings-configuring-the-activity-and-setting-goals}
 
-The Goals & Settings step of [the targeting process](../../../sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings) involves configuring the behavior of the brand activity. Specify when the activity starts and ends, as well as the activity priority. In addition, you also track goals. Specifically you can decide what you want to measure with your activities.
+The Goals & Settings step of [the targeting process](/help/sites/authoring/using/content-targeting-touch.md#the-targeting-process-create-target-and-goals-settings) involves configuring the behavior of the brand activity. Specify when the activity starts and ends, as well as the activity priority. In addition, you also track goals. Specifically you can decide what you want to measure with your activities.
 
 Goal Metrics are only available if you use Adobe Target for your targeting engine. You must define at least one goal metric. If you have Adobe Analytics configured and have an A4T Analytics cloud configuration, you can select whether you want the reporting source to be Adobe Target or Adobe Analytics.
 
@@ -588,7 +588,7 @@ To configure goals and settings if using Adobe Target:
 1. If you want more control over how success metrics are counted, click or tap **Advanced Settings** to access those.
 1. Click **Save**.
 
-After configuring, you can [view the performance of your activities](../../../sites/authoring/using/activitylib.md#viewing-performance-and-converting-winning-experiences-a-b-test) that use Adobe Target (either experience or A/B test targeting). In addition, with A/B test targeting, you can [convert the winners.](../../../sites/authoring/using/activitylib.md#viewing-performance-and-converting-winning-experiences-a-b-test)
+After configuring, you can [view the performance of your activities](/help/sites/authoring/using/activitylib.md#viewing-performance-and-converting-winning-experiences-a-b-test) that use Adobe Target (either experience or A/B test targeting). In addition, with A/B test targeting, you can [convert the winners.](/help/sites/authoring/using/activitylib.md#viewing-performance-and-converting-winning-experiences-a-b-test)
 
 ## Simulating an Experience {#simulating-an-experience}
 
@@ -597,10 +597,10 @@ Simulate a visitor's experience to verify that the page content appears as expec
 The following criteria determine the content that appears when simulating a visitor's experience:
 
 * The data in the user's session store (via Context Hub).
-* The [Activities that are On](../../../sites/authoring/using/activitylib.md).
-* The [rules that define the segments](../../../sites/administering/using/campaign-segmentation.md).
+* The [Activities that are On](/help/sites/authoring/using/activitylib.md).
+* The [rules that define the segments](/help/sites/administering/using/campaign-segmentation.md).
 * The content of the experiences in the Target components.
-* The [configuration of the Targeting engine](../../../sites/authoring/using/activitylib.md).
+* The [configuration of the Targeting engine](/help/sites/authoring/using/activitylib.md).
 
 If unexpected content appears on the page when you load a profile, check the configuration of each item in this list.
 
@@ -724,7 +724,7 @@ You can customize the Target component by accessing the component's options in o
  </tbody> 
 </table>
 
-   You select **Adobe Campaign** as the engine if you are integrating AEM with Adobe Campaign. See [Integrating AEM with Adobe Campaign](../../../sites/administering/using/campaign.md) for more information.
+   You select **Adobe Campaign** as the engine if you are integrating AEM with Adobe Campaign. See [Integrating AEM with Adobe Campaign](/help/sites/administering/using/campaign.md) for more information.
 
-   Select **ContextHub** as the engine if you are using ContextHub for targeting. See [Configuring ContextHub.](../../../sites/administering/using/contexthub-config.md)
+   Select **ContextHub** as the engine if you are using ContextHub for targeting. See [Configuring ContextHub.](/help/sites/administering/using/contexthub-config.md)
 

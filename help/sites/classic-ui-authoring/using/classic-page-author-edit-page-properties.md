@@ -102,7 +102,7 @@ The properties are distributed across several tabs:
 
 * **Design**
 
-  Indicate the [design](../../../sites/developing/using/designer.md) to be used for this page.
+  Indicate the [design](/help/sites/developing/using/designer.md) to be used for this page.
 
 * **Alias**
 
@@ -110,11 +110,11 @@ The properties are distributed across several tabs:
 
 * **Allowed Templates**
 
-  [Define the list of templates that will be available](../../../sites/classic-ui-authoring/using/classic-feature-templates.md#allowingatemplate) within this sub-branch.
+  [Define the list of templates that will be available](/help/sites/classic-ui-authoring/using/classic-feature-templates.md#allowingatemplate) within this sub-branch.
 
 * **Enable Closed User Group**
 
-  Enables (or disables) use of [closed user groups](../../../sites/administering/using/cug.md) (CUGs).
+  Enables (or disables) use of [closed user groups](/help/sites/administering/using/cug.md) (CUGs).
 
 * **Login Page**
 
@@ -148,31 +148,31 @@ The properties are distributed across several tabs:
 
 * **Cloud Services**
 
-  Define properties for [cloud services](../../../sites/developing/using/extending-cloud-config.md).
+  Define properties for [cloud services](/help/sites/developing/using/extending-cloud-config.md).
 
 ### Personalization {#personalization}
 
 * **Personalization**
 
-  Select a [Brand to specify a scope for Targeting](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md).
+  Select a [Brand to specify a scope for Targeting](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md).
 
 ### Permissions {#permissions}
 
 * **Permissions** (touch-optimized UI)
 
-  View the [effective permissions and add new permissions](../../../sites/administering/using/user-group-ac-admin.md).
+  View the [effective permissions and add new permissions](/help/sites/administering/using/user-group-ac-admin.md).
 
 ### Blueprint {#blueprint}
 
 * **Blueprint**
 
-  Define properties for a Blueprint page within [multi-site management](../../../sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated to the Live Copy.
+  Define properties for a Blueprint page within [multi-site management](/help/sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated to the Live Copy.
 
 ### Live Copy {#live-copy}
 
 * **Livecopy**
 
-  Define properties for a Live Copy page within [multi-site management](../../../sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated from the Blueprint.
+  Define properties for a Live Copy page within [multi-site management](/help/sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated from the Blueprint.
 
 ### Site Structure {#site-structure}
 

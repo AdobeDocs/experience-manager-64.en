@@ -13,7 +13,7 @@ discoiquuid: dbdf981f-791b-4ff7-8ca8-039d0bdc9c92
 
 # Workflow Process Reference{#workflow-process-reference}
 
-AEM provides several process steps that can be used for creating workflow models. Custom process steps can also be added for tasks not covered by the built-in steps (see [Creating Workflow Models](../../../sites/developing/using/workflows-models.md)).
+AEM provides several process steps that can be used for creating workflow models. Custom process steps can also be added for tasks not covered by the built-in steps (see [Creating Workflow Models](/help/sites/developing/using/workflows-models.md)).
 
 ## Process Characteristics {#process-characteristics}
 

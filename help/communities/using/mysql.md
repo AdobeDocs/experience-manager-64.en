@@ -26,9 +26,9 @@ Before configuring MySQL for Communities' enablement feature, be sure to
     * version 5.7 is not supported for SCORM
     * may be same server as author AEM instance
 
-* on all AEM instances, install the official [JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbc-driver-for-mysql)
+* on all AEM instances, install the official [JDBC driver for MySQL](/help/communities/using/deploy-communities.md#jdbc-driver-for-mysql)
 * install [MySQL workbench](https://dev.mysql.com/downloads/tools/workbench/)
-* on all AEM instances, install the [SCORM package](../../communities/using/enablement.md#scorm)
+* on all AEM instances, install the [SCORM package](/help/communities/using/enablement.md#scorm)
 
 ## Installing MySQL {#installing-mysql}
 
@@ -109,7 +109,7 @@ Upon opening the new Enablement connection, notice there is a test schema and de
 
 ### Obtain SQL Scripts {#obtain-sql-scripts}
 
-The SQL scripts are obtained using CRXDE Lite on the author instance. The [SCORM package](../../communities/using/deploy-communities.md#scorm) must be installed:
+The SQL scripts are obtained using CRXDE Lite on the author instance. The [SCORM package](/help/communities/using/deploy-communities.md#scorm) must be installed:
 
 1. browse to CRXDE Lite
 
@@ -193,7 +193,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 * on each author and publish AEM instance
 * signed in with administrator privileges
-* access the [web console](../../sites/deploying/using/configuring-osgi.md)
+* access the [web console](/help/sites/deploying/using/configuring-osgi.md)
 
     * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -226,7 +226,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 The OSGi configuration for **AEM Communities ScormEngine Service** configures SCORM for an enablement community's use of the MySQL server.
 
-This configuration is present when the [SCORM package](../../communities/using/deploy-communities.md#scorm-package) is installed.
+This configuration is present when the [SCORM package](/help/communities/using/deploy-communities.md#scorm-package) is installed.
 
 All publish and author instances point to the same MySQL server.
 
@@ -234,7 +234,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 * on each author and publish AEM instance
 * signed in with administrator privileges
-* access the [web console](../../sites/deploying/using/configuring-osgi.md)
+* access the [web console](/help/sites/deploying/using/configuring-osgi.md)
 
     * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -268,7 +268,7 @@ To ensure enablement courses work correctly in all browsers, it is necessary to 
 
 * on each publish AEM instance
 * signed in with administrator privileges
-* access the [web console](../../sites/deploying/using/configuring-osgi.md)
+* access the [web console](/help/sites/deploying/using/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 

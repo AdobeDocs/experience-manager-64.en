@@ -26,6 +26,6 @@ Typically:
 
 The following pages cover:
 
-* [Applying Workflows to Pages](../../../sites/classic-ui-authoring/using/classic-workflows-applying.md)
-* [Participating in Workflows](../../../sites/classic-ui-authoring/using/classic-workflows-participating.md)
+* [Applying Workflows to Pages](/help/sites/classic-ui-authoring/using/classic-workflows-applying.md)
+* [Participating in Workflows](/help/sites/classic-ui-authoring/using/classic-workflows-participating.md)
 

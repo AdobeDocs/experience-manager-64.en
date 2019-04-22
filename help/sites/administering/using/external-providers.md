@@ -17,8 +17,8 @@ Analytics can provide you with important and interesting information about how y
 
 Various out-of-the box configurations are available for integrating with the appropriate service, for example:
 
-* [Adobe Analytics](../../../sites/administering/using/adobeanalytics.md)
-* [Adobe Target](../../../sites/administering/using/target.md)
+* [Adobe Analytics](/help/sites/administering/using/adobeanalytics.md)
+* [Adobe Target](/help/sites/administering/using/target.md)
 
 You can also configure your own instance of the **Generic Analytics Snippets** to define a new service configurations.
 

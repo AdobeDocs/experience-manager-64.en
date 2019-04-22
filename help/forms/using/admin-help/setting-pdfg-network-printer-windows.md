@@ -33,7 +33,7 @@ The following steps are required to set up a PDFG Network Printer:
 ## Configure the PDFG Network Printer settings {#configure-the-pdfg-network-printer-settings}
 
 1. In administration console, click Services &gt; PDF Generator &gt; PDFG Network Printer
-1. In the Adobe PDF Settings and the Security Settings lists, select the options to apply to the generated PDF. For details on these settings, see [Configuring Adobe PDF settings](../../../forms/using/admin-help/configuring-pdf-settings.md#configuring-adobe-pdf-settings) and [Configuring security settings](../../../forms/using/admin-help/configuring-security-settings.md#configuring-security-settings). 
+1. In the Adobe PDF Settings and the Security Settings lists, select the options to apply to the generated PDF. For details on these settings, see [Configuring Adobe PDF settings](/help/forms/using/admin-help/configuring-pdf-settings.md#configuring-adobe-pdf-settings) and [Configuring security settings](/help/forms/using/admin-help/configuring-security-settings.md#configuring-security-settings). 
 1. To send the converted PDFs back to users, select the Email The Converted PDF File Back To The User option and specify the following information:
 
     * The email address to use to send PDFs to the users

@@ -18,7 +18,7 @@ To call the Adobe Search&Promote service from your website, perform the followin
 1. Specify the URL of the Cloud.
 1. Configure the connection to the Search&Promote service.
 1. Add Search&Promote components to Sidekick.
-1. Use the components to author the content. (See [Adding Search&Promote Features to a Web Page](../../../sites/authoring/using/search-and-promote.md).)
+1. Use the components to author the content. (See [Adding Search&Promote Features to a Web Page](/help/sites/authoring/using/search-and-promote.md).)
 1. Add banners to your pages. Banner images are sensitive to Search&Promote data.
 1. Generate a site map for the Search&Promote service to consume.
 
@@ -125,9 +125,9 @@ To configure the data center:
 
 ## Adding Search&Promote components to Sidekick {#adding-search-promote-components-to-sidekick}
 
-In Design mode, edit a **par** component to allow the Search&Promote components in Sidekick. (See the [Components](../../../sites/developing/using/components.md) documentation for more information.)
+In Design mode, edit a **par** component to allow the Search&Promote components in Sidekick. (See the [Components](/help/sites/developing/using/components.md) documentation for more information.)
 
-For information about using the components, see See [Adding Search&Promote Features to a Web Page](../../../sites/authoring/using/search-and-promote.md).)
+For information about using the components, see See [Adding Search&Promote Features to a Web Page](/help/sites/authoring/using/search-and-promote.md).)
 
 ## Specifying the Search&Promote service that your pages use {#specifying-the-search-promote-service-that-your-pages-use}
 
@@ -160,4 +160,4 @@ The Search&Promote integration allows you to:
 * leverage the Remote Control feature of Search&Promote to perform on-demand or scheduled requests of the product feed
 * feed generation for different Search&Promote accounts, configured as cloud services configurations.
 
-For more information, read [Product Feed](../../../sites/administering/using/product-feed.md).
+For more information, read [Product Feed](/help/sites/administering/using/product-feed.md).

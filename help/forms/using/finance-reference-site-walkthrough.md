@@ -14,7 +14,7 @@ discoiquuid: 0c1b6ad7-9d25-41dc-b1fe-a4cb9366c259
 
 ## Pre-requisites {#pre-requisites}
 
-Set up the reference sites as described in [Set up and configure AEM Forms reference sites](../../forms/using/setup-reference-sites.md).
+Set up the reference sites as described in [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).
 
 ## We.Finance Reference site scenarios {#we-finance-reference-site-scenarios}
 
@@ -99,13 +99,13 @@ Sarah clicks **[!UICONTROL Send mail]**. She receives an email with a link to re
  <p>It is recommended to review the form to understand the schema, components, rules, Form Data Models, forms workflow, and submit action used to build the form.</p> 
  <p>Also, see the following documentation for more information about features used in the credit card application adaptive form:</p> 
  <ul> 
-  <li><a href="../../forms/using/introduction-forms-authoring.md" target="_blank">Introduction to authoring adaptive forms</a></li> 
-  <li><a href="../../forms/using/adaptive-form-xml-schema-form-model.md" target="_blank">Creating adaptive forms using XML Schema</a></li> 
-  <li><a href="../../forms/using/rule-editor.md" target="_blank">Rule Editor</a></li> 
-  <li><a href="../../forms/using/themes.md" target="_blank">Themes</a></li> 
-  <li><a href="../../forms/using/data-integration.md" target="_blank">Data Integration</a></li> 
-  <li><a href="../../forms/using/working-with-adobe-sign.md" target="_blank">Using Adobe Sign in adaptive forms</a></li> 
-  <li><a href="../../forms/using/aem-forms-workflow.md" target="_blank">Forms-centric workflow on OSGi</a></li> 
+  <li><a href="/help/forms/using/introduction-forms-authoring.md" target="_blank">Introduction to authoring adaptive forms</a></li> 
+  <li><a href="/help/forms/using/adaptive-form-xml-schema-form-model.md" target="_blank">Creating adaptive forms using XML Schema</a></li> 
+  <li><a href="/help/forms/using/rule-editor.md" target="_blank">Rule Editor</a></li> 
+  <li><a href="/help/forms/using/themes.md" target="_blank">Themes</a></li> 
+  <li><a href="/help/forms/using/data-integration.md" target="_blank">Data Integration</a></li> 
+  <li><a href="/help/forms/using/working-with-adobe-sign.md" target="_blank">Using Adobe Sign in adaptive forms</a></li> 
+  <li><a href="/help/forms/using/aem-forms-workflow.md" target="_blank">Forms-centric workflow on OSGi</a></li> 
  </ul> 
 </details>
 
@@ -154,7 +154,7 @@ We.Finance receives the credit card application submitted by Sarah. A task is as
 
 When Sarah fills and submits the credit card application, a Forms Workflow triggers and a task is created in Gloria's AEM inbox.
 
-AEM Forms on OSGi provides forms-centric workflows that allow you to build adaptive forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Adobe Sign signature workflow, and so on. For more information, see [Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md).
+AEM Forms on OSGi provides forms-centric workflows that allow you to build adaptive forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Adobe Sign signature workflow, and so on. For more information, see [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md).
 
 The following image depicts the AEM workflow that processes the credit card application and generates a PDF output of the application.
 
@@ -162,7 +162,7 @@ The following image depicts the AEM workflow that processes the credit card appl
 
 #### See it yourself {#see-it-yourself-2}
 
-You can access AEM inbox for the we.finance site at https://<*hostname*>:<*PublishPort*>/content/we-finance/global/en.html. On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using `grios/password` as the username/password for Gloria Rios, and approve the credit card application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+You can access AEM inbox for the we.finance site at https://<*hostname*>:<*PublishPort*>/content/we-finance/global/en.html. On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using `grios/password` as the username/password for Gloria Rios, and approve the credit card application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](/help/forms/using/manage-applications-inbox.md).
 
 ![](assets/inbox-1.png)
 
@@ -234,7 +234,7 @@ https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/aemforms-refsite/doclink.html?
 
 You can access it on author and publish instances.
 
-The credit card statement displays promotional offers towards the end of statement. You can integrate Adobe Target with AEM Forms Interactive Communication to deliver promotional targeted offers based on specific customer segments. To configure your interactive communication to use Adobe Target for customized and targeted offers, see [create targeted experiences](../../forms/using/experience-targeting-forms.md).
+The credit card statement displays promotional offers towards the end of statement. You can integrate Adobe Target with AEM Forms Interactive Communication to deliver promotional targeted offers based on specific customer segments. To configure your interactive communication to use Adobe Target for customized and targeted offers, see [create targeted experiences](/help/forms/using/experience-targeting-forms.md).
 
 ![](do-not-localize/offers.png) 
 
@@ -242,17 +242,17 @@ The credit card statement displays promotional offers towards the end of stateme
 
 We.Finance, from time to time, reviews the performance of their credit card application to check for any issues that customers might be facing. They use this analysis to take informed decisions about the changes required in the credit card application to enhance the user experience, reduce abandonment rate of forms, and thereby improve conversion. They leverage the integration of AEM Forms with Adobe Analytics for their analysis. The following image depicts their analytics dashboard.
 
-For more information about how to interpret the analytics dashboard, see [Viewing and understanding AEM Forms analytics reports](../../forms/using/view-understand-aem-forms-analytics-reports.md).
+For more information about how to interpret the analytics dashboard, see [Viewing and understanding AEM Forms analytics reports](/help/forms/using/view-understand-aem-forms-analytics-reports.md).
 
 ![](assets/cc-analytics.png) 
 
 #### How it works {#how-it-works-5}
 
-The performance metrics for the credit card application form are tracked using Adobe Analytics. For more information about configuring Adobe Analytics and viewing reports, see [Configuring analytics for forms and documents](../../forms/using/configure-analytics-forms-documents.md).
+The performance metrics for the credit card application form are tracked using Adobe Analytics. For more information about configuring Adobe Analytics and viewing reports, see [Configuring analytics for forms and documents](/help/forms/using/configure-analytics-forms-documents.md).
 
 #### See it yourself <br> {#see-it-yourself-br}
 
-For you to view and explore the analytics report, we are providing seed data for the credit card application in the reference site. Before you use seed data, see [Configure Analytics](../../forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
+For you to view and explore the analytics report, we are providing seed data for the credit card application in the reference site. Before you use seed data, see [Configure Analytics](/help/forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
 
 1. Go to **Forms & Documents** UI at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
 
@@ -276,7 +276,7 @@ To generate analytics report with seed data:
 
 In addition to analyzing performance of the credit card application and constantly improving it, We.Finance leverages integration of AEM Forms with Target to create A/B tests. It allows them to serve different experiences of the credit card application form and identify the experience that causes better conversion rate in terms of form completion and submission.
 
-To configure Target in AEM Forms server, see [Set up and integrate Target in AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#set%20up%20and%20integrate%20target%20in%20aem%20forms).
+To configure Target in AEM Forms server, see [Set up and integrate Target in AEM Forms](/help/forms/using/ab-testing-adaptive-forms.md#set%20up%20and%20integrate%20target%20in%20aem%20forms).
 
 Perform the following steps to experience the creation of A/B test for We.Finance credit card application form:
 
@@ -393,13 +393,13 @@ It is recommended to review the form to understand the schema, components, rules
 
 Also, see the following documentation for more information about features used in the home mortgage application adaptive form:
 
-* [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md)
-* [Creating adaptive forms using XML Schema](../../forms/using/adaptive-form-xml-schema-form-model.md)
-* [Rule Editor](../../forms/using/rule-editor.md)
-* [Themes](../../forms/using/themes.md)
-* [Data Integration](../../forms/using/data-integration.md)
-* [Using Adobe Sign in adaptive forms](../../forms/using/working-with-adobe-sign.md)
-* [Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md)
+* [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md)
+* [Creating adaptive forms using XML Schema](/help/forms/using/adaptive-form-xml-schema-form-model.md)
+* [Rule Editor](/help/forms/using/rule-editor.md)
+* [Themes](/help/forms/using/themes.md)
+* [Data Integration](/help/forms/using/data-integration.md)
+* [Using Adobe Sign in adaptive forms](/help/forms/using/working-with-adobe-sign.md)
+* [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
 
 #### See it yourself {#see-it-yourself-6}
 
@@ -427,7 +427,7 @@ The task is reassigned to Gloria. She reviews the attached ID and approves the a
 
 When Sarah fills and submits the home mortgage application, a Forms Workflow triggers and a task is created in Gloria's AEM inbox. As Gloria reviews the application and requests for more information, the task is assigned to John Doe. When John Doe attaches the ID and resubmits the application, it is assigned to Gloria. This is defined in the AEM Workflow associated with the mortgage application.
 
-AEM Forms on OSGi provides forms-centric workflows that allow you to build adaptive forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Adobe Sign signature workflow, and so on. For more information, see [Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md).
+AEM Forms on OSGi provides forms-centric workflows that allow you to build adaptive forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Adobe Sign signature workflow, and so on. For more information, see [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md).
 
 The following image depicts the AEM workflow associated with the mortgage application.
 
@@ -437,7 +437,7 @@ The following image depicts the AEM workflow associated with the mortgage applic
 
 You can access the AEM inbox at https://<***hostname***>:<***AuthorP******ort***>/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using `grios/password` as the username/password for Gloria Rios and `jdoe/jdoe` for John Doe, and explore the home mortgage application workflow.
 
-For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](/help/forms/using/manage-applications-inbox.md).
 
 ### Sarah receives the welcome kit {#sarah-receives-the-welcome-kit}
 
@@ -494,17 +494,17 @@ You can access it on author and publish instances.
 
 We.Finance, from time to time, reviews the performance of their mortgage application to check for any issues that customers might be facing. They use this analysis to take informed decisions about the changes required in the mortgage application to enhance the user experience, reduce abandonment rate of forms, and thereby improve conversion. They leverage the integration of AEM Forms with Adobe Analytics for their analysis. The following image depicts their analytics dashboard.
 
-For more information about how to interpret the analytics dashboard, see [Viewing and understanding AEM Forms analytics reports](../../forms/using/view-understand-aem-forms-analytics-reports.md).
+For more information about how to interpret the analytics dashboard, see [Viewing and understanding AEM Forms analytics reports](/help/forms/using/view-understand-aem-forms-analytics-reports.md).
 
 ![](assets/mortgage-analytics.png) 
 
 #### How it works {#how-it-works-11}
 
-The performance metrics for the mortgage application form are tracked using Adobe Analytics. For more information about configuring Adobe Analytics and viewing reports, see [Configuring analytics for forms and documents](../../forms/using/configure-analytics-forms-documents.md).
+The performance metrics for the mortgage application form are tracked using Adobe Analytics. For more information about configuring Adobe Analytics and viewing reports, see [Configuring analytics for forms and documents](/help/forms/using/configure-analytics-forms-documents.md).
 
 #### See it yourself <br> {#see-it-yourself-br-1}
 
-For you to view and explore the analytics report, we are providing seed data for the mortgage application in the reference site. Before you use seed data, see [Configure Analytics](../../forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
+For you to view and explore the analytics report, we are providing seed data for the mortgage application in the reference site. Before you use seed data, see [Configure Analytics](/help/forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
 
 1. Go to **Forms & Documents** UI at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
 
@@ -527,7 +527,7 @@ To generate analytics report with seed data:
 
 In addition to analyzing performance of the mortgage application and constantly improving it, We.Finance leverages integration of AEM Forms with Target to create A/B tests. It allows them to serve different experiences of the application form and identify the experience that causes better conversion rate in terms of form completion and submission.
 
-To configure Target in AEM Forms server, see [Set up and integrate Target in AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#set%20up%20and%20integrate%20target%20in%20aem%20forms).
+To configure Target in AEM Forms server, see [Set up and integrate Target in AEM Forms](/help/forms/using/ab-testing-adaptive-forms.md#set%20up%20and%20integrate%20target%20in%20aem%20forms).
 
 Perform the following steps in the author instance to experience the creation of A/B test for We.Finance mortgage application form:
 
@@ -573,7 +573,7 @@ The We.Finance home mortgage with Microsoft Dynamics scenario involves the follo
 * Sarah Rose, a We.Finance customer
 * The Administrator of the We.Finance Microsoft Dynamics instance
 
-The Home Mortgage application walkthrough with Microsoft Dynamics demonstrates how a We.Finance customer can use the site to apply for a home mortgage when the reference site uses the Microsoft Dynamics for data integration. The walkthrough ends with the data filled in by the user being received by Microsoft Dynamics. Before you proceed with this scenario, you need to complete the [Microsoft Dynamics 365 configuration for the home mortgage workflow of the We.Finance reference site](../../forms/using/ms-dynamics-configuration-home-mortgage.md).
+The Home Mortgage application walkthrough with Microsoft Dynamics demonstrates how a We.Finance customer can use the site to apply for a home mortgage when the reference site uses the Microsoft Dynamics for data integration. The walkthrough ends with the data filled in by the user being received by Microsoft Dynamics. Before you proceed with this scenario, you need to complete the [Microsoft Dynamics 365 configuration for the home mortgage workflow of the We.Finance reference site](/help/forms/using/ms-dynamics-configuration-home-mortgage.md).
 
 ### Sarah visits We.Finance website and applies for home mortgage {#sarah-visits-we-finance-website-and-applies-for-home-mortgage-1}
 
@@ -703,13 +703,13 @@ It is recommended to review the form to understand the schema, components, rules
 
 Also, see the following documentation for more information about features used in the home insurance application adaptive form:
 
-* [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md)
-* [Creating adaptive forms using XML Schema](../../forms/using/adaptive-form-xml-schema-form-model.md)
-* [Rule Editor](../../forms/using/rule-editor.md)
-* [Themes](../../forms/using/themes.md)
-* [Data Integration](../../forms/using/data-integration.md)
-* [Using Adobe Sign in adaptive forms](../../forms/using/working-with-adobe-sign.md)
-* [Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md)
+* [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md)
+* [Creating adaptive forms using XML Schema](/help/forms/using/adaptive-form-xml-schema-form-model.md)
+* [Rule Editor](/help/forms/using/rule-editor.md)
+* [Themes](/help/forms/using/themes.md)
+* [Data Integration](/help/forms/using/data-integration.md)
+* [Using Adobe Sign in adaptive forms](/help/forms/using/working-with-adobe-sign.md)
+* [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
 
 #### See it yourself {#see-it-yourself-12}
 
@@ -733,7 +733,7 @@ Sarah receives an email with a link to the home insurance policy contract for si
 
 #### How it works {#how-it-works-16}
 
-When Sarah submits the home insurance application, a Forms Workflow triggers and a task is created in Gloria's AEM inbox. As Gloria reviews the application and approves it, the task is assigned to Frank De Costa. The flow of tasks from one persona to another is defined in the AEM Workflow associated with the insurance application. For more information about workflows, see [Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md).
+When Sarah submits the home insurance application, a Forms Workflow triggers and a task is created in Gloria's AEM inbox. As Gloria reviews the application and approves it, the task is assigned to Frank De Costa. The flow of tasks from one persona to another is defined in the AEM Workflow associated with the insurance application. For more information about workflows, see [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md).
 
 The following image depicts the AEM workflow associated with the insurance application.
 

@@ -21,7 +21,7 @@ The Adobe AEM Community team creates Developer How To articles. You can find the
 
 A Maven template to create a new AEM project as starting point to develop your own functionality is available [here](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype).
 
-Standard, touch-enabled UI code samples are available [here](../../../sites/developing/using/developing-components.md).
+Standard, touch-enabled UI code samples are available [here](/help/sites/developing/using/developing-components.md).
 
 Additional code samples are available:
 

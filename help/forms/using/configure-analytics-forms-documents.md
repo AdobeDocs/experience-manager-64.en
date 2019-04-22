@@ -16,7 +16,7 @@ AEM Forms integrates with Adobe Analytics that allows you to capture and track p
 
 >[!NOTE]
 >
->The analytics feature in AEM Forms is available as part of the AEM Forms add-on package. For information about installing the add-on package, see [Installing and configuring AEM Forms](../../forms/using/installing-configuring-aem-forms-osgi.md).
+>The analytics feature in AEM Forms is available as part of the AEM Forms add-on package. For information about installing the add-on package, see [Installing and configuring AEM Forms](/help/forms/using/installing-configuring-aem-forms-osgi.md).
 >
 >In addition to the add-on package, you need an Adobe Analytics account and administrator privileges on the AEM instance. For information about the solution, see [Adobe Analytics](https://www.adobe.com/solutions/digital-analytics.html).
 
@@ -103,7 +103,7 @@ Perform the following steps to create a report suite.
 
    >[!NOTE]
    >
-   >An event number and prop number used to configure AEM Forms analytics must be different from event number and prop number used in [AEM analytics](../../sites/administering/using/adobeanalytics.md) configuration.
+   >An event number and prop number used to configure AEM Forms analytics must be different from event number and prop number used in [AEM analytics](/help/sites/administering/using/adobeanalytics.md) configuration.
 
 1. Log out of the Adobe Marketing Cloud account.
 
@@ -195,5 +195,5 @@ Now, you can enable analytics for forms and generate an analytics report.
 
    **A.** Enable Analytics button **B.** Selected form
 
-   For detailed information on viewing forms analytics reports, see [Viewing and understanding AEM Forms analytics reports](../../forms/using/view-understand-aem-forms-analytics-reports.md)
+   For detailed information on viewing forms analytics reports, see [Viewing and understanding AEM Forms analytics reports](/help/forms/using/view-understand-aem-forms-analytics-reports.md)
 

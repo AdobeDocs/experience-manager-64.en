@@ -17,7 +17,7 @@ If you need to manage targeted content, such as activities, experiences, and off
 
 >[!NOTE]
 >
->Working with Multisite support for targeted content is an advanced feature. To use this feature, you should be familiar with [Multi Site Manager](../../../sites/administering/using/msm.md) and the [Adobe Target integration](../../../sites/administering/using/target.md) with AEM.
+>Working with Multisite support for targeted content is an advanced feature. To use this feature, you should be familiar with [Multi Site Manager](/help/sites/administering/using/msm.md) and the [Adobe Target integration](/help/sites/administering/using/target.md) with AEM.
 
 This document describes the following:
 
@@ -81,7 +81,7 @@ You could also have **multiple** brands that are used in one site, which could b
 
 >[!NOTE]
 >
->For a more technical look at this feature, see [How Multisite Management for Targeted Content is Structured](../../../sites/authoring/using/technical-multisite-targeted.md).
+>For a more technical look at this feature, see [How Multisite Management for Targeted Content is Structured](/help/sites/authoring/using/technical-multisite-targeted.md).
 
 ## Example: Targeting content based on geography {#example-targeting-content-based-on-geography}
 
@@ -110,7 +110,7 @@ After refreshing the tab, the Canadian site changes to the new image without any
 
 ![](assets/chlimage_1-274.png)
 
-The marketer would like to roll out these changes to the European region and [rolls out the live copy](../../../sites/administering/using/msm-livecopy.md) by tapping or clicking **Rollout Page**. After refreshing the tab, the Great Britain site has the new image as the Europe area inherits from the master area (after rollout).
+The marketer would like to roll out these changes to the European region and [rolls out the live copy](/help/sites/administering/using/msm-livecopy.md) by tapping or clicking **Rollout Page**. After refreshing the tab, the Great Britain site has the new image as the Europe area inherits from the master area (after rollout).
 
 ![](assets/chlimage_1-275.png)
 
@@ -122,7 +122,7 @@ At any time, you can suspend the inheritance or detach the inheritance completel
 
 >[!NOTE]
 >
->For a more technical look at this feature, see [How Multisite Management for Targeted Content is Structured](../../../sites/authoring/using/technical-multisite-targeted.md).
+>For a more technical look at this feature, see [How Multisite Management for Targeted Content is Structured](/help/sites/authoring/using/technical-multisite-targeted.md).
 
 ### Creating a new area versus creating a new area as livecopy {#creating-a-new-area-versus-creating-a-new-area-as-livecopy}
 
@@ -189,9 +189,9 @@ To create an area as a livecopy:
 
 1. In the **Rollout Configs** drop-down menu, select the appropriate configuration.
 
-   See [Installed Rollout Configurations](../../../sites/administering/using/msm-sync.md#installed-rollout-configurations) for descriptions of each option.
+   See [Installed Rollout Configurations](/help/sites/administering/using/msm-sync.md#installed-rollout-configurations) for descriptions of each option.
 
-   See [Creating and Synchronizing Live Copies](../../../sites/administering/using/msm-livecopy.md) for more information on live copies.
+   See [Creating and Synchronizing Live Copies](/help/sites/administering/using/msm-livecopy.md) for more information on live copies.
 
    >[!NOTE]
    >

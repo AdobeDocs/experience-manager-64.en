@@ -28,6 +28,6 @@ Typically:
 
 The following pages cover:
 
-* [Applying Workflows to Pages](../../../sites/authoring/using/workflows-applying.md)
-* [Participating in Workflows](../../../sites/authoring/using/workflows-participating.md)
+* [Applying Workflows to Pages](/help/sites/authoring/using/workflows-applying.md)
+* [Participating in Workflows](/help/sites/authoring/using/workflows-participating.md)
 

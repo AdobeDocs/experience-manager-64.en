@@ -15,7 +15,7 @@ discoiquuid: c3c73e67-7f85-4308-b4cd-1b42d4f3f2d9
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 This chapter describes the user roles and how to configure your users and groups to support the authoring and mangement of your mobile apps.
 
@@ -113,6 +113,6 @@ Members of the app-admins group can author application content with the same per
 
 To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:
 
-* [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
-* [Authoring AEM Content for AEM Mobile On-Demand Services App](../../mobile/using/mobile-apps-ondemand.md)
+* [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-on-demand.md)
+* [Authoring AEM Content for AEM Mobile On-Demand Services App](/help/mobile/using/mobile-apps-ondemand.md)
 

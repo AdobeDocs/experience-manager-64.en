@@ -16,17 +16,17 @@ The following Quick Starts are available for the Acrobat Reader DC Extensions se
 
 [Quick Start (SOAP mode):Applying usage rights using the Java API](#quick-start-soap-mode-applying-usage-rights-using-the-java-api)
 
-[Removing Usage Rights from PDF Documents](../../forms/developing/acrobat-reader-dc-extensions-service.md#main-pars-heading-1)
+[Removing Usage Rights from PDF Documents](/help/forms/developing/acrobat-reader-dc-extensions-service.md#main-pars-heading-1)
 
 [Quick Start (SOAP mode): Retrieving credential information using the Java API](acrobat-reader-dc-extensions-service.md#quick-start-soap-mode-retrieving-credential-information-using-the-java-api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Starts located in Programming with AEM Forms are based on the Forms server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](../../forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+***Note**: Quick Starts located in Programming with AEM Forms are based on the Forms server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
 
 ## Quick Start (SOAP mode):Applying usage rights using the Java API {#quick-start-soap-mode-applying-usage-rights-using-the-java-api}
 
-The following Java code example applies usage rights to a PDF document named *Loan.pdf*. The rights-enabled PDF document is saved as a PDF file named *LoanUsageRights.pdf*. The following usage rights are applied to this PDF document: `enabledComments`, `enabledFormFillIn`, and `enabledDigitalSignatures`. (See [Applying Usage Rights to PDF Documents](../../forms/developing/assigning-usage-rights.md).)
+The following Java code example applies usage rights to a PDF document named *Loan.pdf*. The rights-enabled PDF document is saved as a PDF file named *LoanUsageRights.pdf*. The following usage rights are applied to this PDF document: `enabledComments`, `enabledFormFillIn`, and `enabledDigitalSignatures`. (See [Applying Usage Rights to PDF Documents](/help/forms/developing/assigning-usage-rights.md).)
 
 ```as3
  /* 
@@ -138,7 +138,7 @@ The following Java code example applies usage rights to a PDF document named *Lo
 
 ## Quick Start (SOAP mode): Removing usage rights from a PDF document using the Java API {#quick-start-soap-mode-removing-usage-rights-from-a-pdf-document-using-the-java-api}
 
-The following Java code example removes usage rights from a rights-enabled PDF document named *LoanUsageRights.pdf*. (See [Removing Usage Rights from PDF Documents](../../forms/developing/assigning-usage-rights.md).)
+The following Java code example removes usage rights from a rights-enabled PDF document named *LoanUsageRights.pdf*. (See [Removing Usage Rights from PDF Documents](/help/forms/developing/assigning-usage-rights.md).)
 
 ```as3
  /* 
@@ -238,7 +238,7 @@ The following Java code example removes usage rights from a rights-enabled PDF d
 
 ## Quick Start (SOAP mode): Retrieving credential information using the Java API {#quick-start-soap-mode-retrieving-credential-information-using-the-java-api}
 
-The following Java code example retrieves information about the credential that is used to apply usage-rights to a rights-enabled PDF document named *LoanUsageRights.pdf*. (See [Retrieving Credential Information](../../forms/developing/assigning-usage-rights.md).)
+The following Java code example retrieves information about the credential that is used to apply usage-rights to a rights-enabled PDF document named *LoanUsageRights.pdf*. (See [Retrieving Credential Information](/help/forms/developing/assigning-usage-rights.md).)
 
 ```as3
  /* 

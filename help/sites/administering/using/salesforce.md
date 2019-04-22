@@ -205,7 +205,7 @@ You can load user data from Salesforce in the Client Context to use for personal
 You can build a segment that uses data from the Salesforce Client Context Store. To do this:
 
 1. Navigate to segmentation in AEM either by going to **Tools** &gt; **Segmentation** or going to [http://localhost:4502/miscadmin#/etc/segmentation](http://localhost:4502/miscadmin#/etc/segmentation).
-1. Create or update a segment to include data from Salesforce. For more information, see [Segmentation](../../../sites/administering/using/campaign-segmentation.md).
+1. Create or update a segment to include data from Salesforce. For more information, see [Segmentation](/help/sites/administering/using/campaign-segmentation.md).
 
 ## Searching Leads {#searching-leads}
 

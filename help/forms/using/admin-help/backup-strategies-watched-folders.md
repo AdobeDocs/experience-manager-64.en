@@ -23,7 +23,7 @@ This content describes how watched folders are affected by different backup and 
 * Failure
 * Preserve
 
-A user or client application first drops the file or folder in the input folder. The service operation then moves the file into the stage folder for processing. After the service performs the specified operation, it saves the modified file in the output folder. Successfully processed source files are moved to the preserve folder, and failed processing files are moved to the failure folder. When the `Preserve On Failure` attribute for the watched folder is enabled, failed processed source files are moved to the preserve folder. (See [Configuring watched folder endpoints](../../../forms/using/admin-help/configuring-watched-folder-endpoints.md#configuring-watched-folder-endpoints).)
+A user or client application first drops the file or folder in the input folder. The service operation then moves the file into the stage folder for processing. After the service performs the specified operation, it saves the modified file in the output folder. Successfully processed source files are moved to the preserve folder, and failed processing files are moved to the failure folder. When the `Preserve On Failure` attribute for the watched folder is enabled, failed processed source files are moved to the preserve folder. (See [Configuring watched folder endpoints](/help/forms/using/admin-help/configuring-watched-folder-endpoints.md#configuring-watched-folder-endpoints).)
 
 You can back up watched folders by backing up the file system.
 

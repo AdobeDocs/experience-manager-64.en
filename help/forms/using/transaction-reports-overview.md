@@ -22,9 +22,9 @@ Transaction reports in AEM Forms allow you to keep a count of all transactions t
 * Rendition of a print or a web version of an interactive communication
 * Conversion of a document from one file format to another
 
-For more information on what is considered a transaction, see [Billable APIs](../../forms/using/transaction-reports-billable-apis.md).
+For more information on what is considered a transaction, see [Billable APIs](/help/forms/using/transaction-reports-billable-apis.md).
 
-Transaction recording is disabled by default. You can [enable transaction recording](../../forms/using/viewing-and-understanding-transaction-reports.md#setting-up-transaction-reports) from AEM Web Console. You can view transaction reports on author, processing, or publish instances. View transaction reports on author or processing instances for an aggregated sum of all transactions. View transaction reports on the publish instances for a count of all transactions that take place only on that publish instance from where the report is run.
+Transaction recording is disabled by default. You can [enable transaction recording](/help/forms/using/viewing-and-understanding-transaction-reports.md#setting-up-transaction-reports) from AEM Web Console. You can view transaction reports on author, processing, or publish instances. View transaction reports on author or processing instances for an aggregated sum of all transactions. View transaction reports on the publish instances for a count of all transactions that take place only on that publish instance from where the report is run.
 
 Do not author content (Create adaptive forms, interactive communication, themes, and other authoring activities) and process documents (Use workflows, document services, and other processing activities) on the same AEM instance. Keep the transaction recording disabled for AEM Forms servers used to author content. Keep the transaction recording enabled for AEM Forms servers used to process documents. 
 
@@ -36,7 +36,7 @@ Actions like submitting a PDF Form, using Agent UI to preview an interactive com
 
 ## Supported Topology {#supported-topology}
 
-Transaction reports are available only on AEM Forms on OSGi environment. It supports author-publish, author-processing-publish, and only processing topologies. For example topologies, see [Architecture and deployment topologies for AEM Forms](../../forms/using/transaction-reports-overview.md).
+Transaction reports are available only on AEM Forms on OSGi environment. It supports author-publish, author-processing-publish, and only processing topologies. For example topologies, see [Architecture and deployment topologies for AEM Forms](/help/forms/using/transaction-reports-overview.md).
 
 The transaction count is reverse replicated from publish instances to author or processing instances. An indicative author-publish topology is displayed below:
 
@@ -56,7 +56,7 @@ The transaction count is reverse replicated from publish instances to author or 
 
 ## Related Articles {#related-articles}
 
-* [Viewing and Understanding a Transaction Reports](../../forms/using/viewing-and-understanding-transaction-reports.md)
-* [Transaction Reports Billable APIs](../../forms/using/transaction-reports-billable-apis.md)
-* [Record a transaction for custom implementations](../../forms/using/record-transaction-custom-implementation.md)
+* [Viewing and Understanding a Transaction Reports](/help/forms/using/viewing-and-understanding-transaction-reports.md)
+* [Transaction Reports Billable APIs](/help/forms/using/transaction-reports-billable-apis.md)
+* [Record a transaction for custom implementations](/help/forms/using/record-transaction-custom-implementation.md)
 

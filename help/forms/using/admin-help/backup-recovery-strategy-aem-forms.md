@@ -31,14 +31,14 @@ The AEM forms backup strategy involves two types of backups:
 
 **AEM forms specific data:** Application data exists in database, Global Document Storage (GDS), and AEM repository, and must be backed up in real time. GDS is a directory that is used to store long-lived files that are used within a process. These files may include PDFs, policies, or form templates.
 
-***Note**: If Content Services (Deprecated) is installed, also back up the Content Storage Root directory. (See [Content Storage Root directory (Content Services only)](../../../forms/using/admin-help/files-back-recover.md#content-storage-root-directory-content-services-only).)*
+***Note**: If Content Services (Deprecated) is installed, also back up the Content Storage Root directory. (See [Content Storage Root directory (Content Services only)](/help/forms/using/admin-help/files-back-recover.md#content-storage-root-directory-content-services-only).)*
 
 The database is used to store form artifacts, service configurations, process state, and database references to GDS files. If you enabled document storage in the database, persistent data and documents in the GDS are also stored in the database. The database can be backed up and recovered by using the following methods:
 
 * **Snapshot backup** mode indicates that the AEM forms system is in backup mode either indefinitely or for a specified number of minutes, after which backup mode is no longer enabled. To enter or leave snapshot backup mode, you can use one of the following options. After a recovery scenario, snapshot backup mode should not be enabled.
 
     * Use the Backup Settings page in Administration Console. To enter snapshot mode, select the Operate In Safe Backup Mode checkbox. Deselect the checkbox to exit snapshot mode.
-    * Use the LCBackupMode script (see [Back up the database, GDS, and Content Storage Root directories](../../../forms/using/admin-help/backing-aem-forms-data.md#back-up-the-database-gds-aem-repository-and-content-storage-root-directories)). To exit snapshot backup mode, in the script argument, set the `continuousCoverage` parameter to `false` or use the `leaveContinuousCoverage` option.
+    * Use the LCBackupMode script (see [Back up the database, GDS, and Content Storage Root directories](/help/forms/using/admin-help/backing-aem-forms-data.md#back-up-the-database-gds-aem-repository-and-content-storage-root-directories)). To exit snapshot backup mode, in the script argument, set the `continuousCoverage` parameter to `false` or use the `leaveContinuousCoverage` option.
     * Use the supplied Backup/Recovery API. <!-- Fix broken link(see AEM forms API Reference section on AEM Forms Help and Tutorials page).-->
 
 * **Rolling backup** mode indicates that the system is always in backup mode, with a new backup mode session being initiated as soon as the previous session is released. No time out is associated with rolling backup mode. When the LCBackupMode script or APIs are called to leave rolling backup mode, a new rolling backup mode session begins. This mode is useful for supporting continuous backups but still allowing old and unneeded documents to be cleaned out of the GDS directory. Rolling backup mode is not supported through the Backup and Recovery page. After a recovery scenario, rolling backup mode is still enabled. You can leave the continuous backup mode (rolling backup mode) by using the LCBackupMode script with the `leaveContinuousCoverage` option.
@@ -96,6 +96,6 @@ Use the `LCSetGDS`script in the `[*aem-forms root]*\sdk\misc\Foundation\SetGDSCo
 
 >[!NOTE]
 >
->This circumstance is the only one under which you should use this script to change the GDS location. To change the GDS location while AEM forms is running, use Administration Console. (See [Configure general AEM forms settings](../../../forms/using/admin-help/configure-general-aem-forms-settings.md#configure-general-aem-forms-settings)*.) *
+>This circumstance is the only one under which you should use this script to change the GDS location. To change the GDS location while AEM forms is running, use Administration Console. (See [Configure general AEM forms settings](/help/forms/using/admin-help/configure-general-aem-forms-settings.md#configure-general-aem-forms-settings)*.) *
 
 After you set the GDS path, start the forms server in maintenance mode, and use the administration console to update the remaining file system paths for the new node. After you verify that all of the necessary configurations are updated, restart and test AEM forms.

@@ -13,7 +13,7 @@ discoiquuid: fa054d30-c7dc-4b64-acf1-cbcbe8827df5
 
 # Creating and managing policies{#creating-and-managing-policies}
 
-A *policy* defines a set of confidentiality settings and users who can access a document to which the policy is applied. A *policy set* is used to group a set of policies that have a common business purpose. These policy sets are then made available to a subset of users in the system. For details about policies, see [Policies and policy-protected documents](../../../forms/using/admin-help/document-security.md#policies-and-policy-protected-documents).
+A *policy* defines a set of confidentiality settings and users who can access a document to which the policy is applied. A *policy set* is used to group a set of policies that have a common business purpose. These policy sets are then made available to a subset of users in the system. For details about policies, see [Policies and policy-protected documents](/help/forms/using/admin-help/document-security.md#policies-and-policy-protected-documents).
 
 ## Types of policies {#types-of-policies}
 
@@ -49,7 +49,7 @@ The way that you interact with policies and policy sets depends on your role wit
 
 **Administrators:** Administrators can edit any user’s personal policies. They can create shared policies. They can also create, edit, and delete policy sets, and designate policy set coordinators.
 
-For details on the various document security roles, see [About document security users](../../../forms/using/admin-help/document-security.md#about-document-security-users).
+For details on the various document security roles, see [About document security users](/help/forms/using/admin-help/document-security.md#about-document-security-users).
 
 ## Creating and editing policies {#creating-and-editing-policies}
 
@@ -241,7 +241,7 @@ The Advanced Settings area contains the following settings:
 
 **Dynamic Watermark:** Select a watermark to be dynamically displayed on the pages of a document (for example, when a recipient prints the document). Dynamic watermarks uniquely identify a document, therefore helping to ensure the confidentiality of the document and preventing copyright infringement. For example, the administrator can configure a dynamic watermark that displays the current date, the user name or identifier of the person who is using the document, or the name of the policy used to protect the document. A watermark can also display custom text or graphic elements if configured. Administrators configure the watermarks options, and administrators and users can apply them to policies.
 
-(See [Configure dynamic watermarks](../../../forms/using/admin-help/configuring-client-server-options.md#configure-dynamic-watermarks).)
+(See [Configure dynamic watermarks](/help/forms/using/admin-help/configuring-client-server-options.md#configure-dynamic-watermarks).)
 
 If you are editing a policy and the administrator deleted a configured watermark that you previously selected for this policy, a note appears on the Edit Policy page. In this case, if you are saving the edited document, select a new watermark if you want one to appear on the document.
 
@@ -253,7 +253,7 @@ Select this option if you are concerned about a document recipient writing a plu
 
 This option enables only the certified mode in Acrobat 8.0 or later; the administrator must disable access for Acrobat 7.0.
 
-(See [Configure the document security server](../../../forms/using/admin-help/configuring-client-server-options.md#configure-the-document-security-server).)
+(See [Configure the document security server](/help/forms/using/admin-help/configuring-client-server-options.md#configure-the-document-security-server).)
 
 This option does not apply to Adobe Reader.
 

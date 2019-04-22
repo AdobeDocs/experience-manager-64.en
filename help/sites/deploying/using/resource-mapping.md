@@ -45,7 +45,7 @@ The mappings form two lists that the JCR Resource Resolver evaluates (top-down) 
 These lists can be viewed (together with configuration information) under the **JCR ResourceResolver** option of the Felix console; for example, `https://<*host*>:<*port*>/system/console/jcrresolver`:
 
 * Configuration  
-  Shows the current configuration (as defined for the [Apache Sling Resource Resolver](../../../sites/deploying/using/osgi-configuration-settings.md).
+  Shows the current configuration (as defined for the [Apache Sling Resource Resolver](/help/sites/deploying/using/osgi-configuration-settings.md).
 
 * Configuration Test  
   This allows you to enter a URL or resource path. Click **Resolve** or **Map** to confirm how the system will transform the entry.  
@@ -132,5 +132,5 @@ had been requested.
 
 >[!NOTE]
 >
->You can use `/etc/map.publish` to hold the configurations for the publish environment. These must then be replicated, and the new location ( `/etc/map.publish`) configured for the **Mapping Location** of the [Apache Sling Resource Resolver](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingresourceresolver) of the publish environment.
+>You can use `/etc/map.publish` to hold the configurations for the publish environment. These must then be replicated, and the new location ( `/etc/map.publish`) configured for the **Mapping Location** of the [Apache Sling Resource Resolver](/help/sites/deploying/using/osgi-configuration-settings.md#apacheslingresourceresolver) of the publish environment.
 

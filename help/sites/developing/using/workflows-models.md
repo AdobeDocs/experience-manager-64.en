@@ -17,7 +17,7 @@ discoiquuid: 9d2dba11-0d2d-4aed-b941-c8ade9bb7bfa
 >
 >For use of the classic UI, please see the [AEM 6.3 documentation](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/workflows-models.html) for reference.
 
-You create a [workflow model](../../../sites/developing/using/workflows.md#model) to define the series of steps executed when a user starts the workflow. You can also define model properties, such as whether the workflow is transient or uses multiple resources.
+You create a [workflow model](/help/sites/developing/using/workflows.md#model) to define the series of steps executed when a user starts the workflow. You can also define model properties, such as whether the workflow is transient or uses multiple resources.
 
 When a user starts a workflow, an instance is started; this is the corresponding runtime model, created when you [Sync](#sync-your-workflow-generate-a-runtime-model) your changes.
 
@@ -53,7 +53,7 @@ To create a new workflow with the editor:
 >
 >For example, `/var/workflow/models/prototypes`
 >
->This folder can then be used for [managing access to the models in that folder](../../../sites/administering/using/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that).
+>This folder can then be used for [managing access to the models in that folder](/help/sites/administering/using/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that).
 
 ## Editing a Workflow {#editing-a-workflow}
 
@@ -63,13 +63,13 @@ You can edit any existing workflow model to:
 
 * configure workflow properties, including [stages](#configuring-workflow-stages-that-show-workflow-progress), [whether the workflow is transient](#creating-a-transient-workflow) and/or [uses multiple resources](#configuring-a-workflow-for-multi-resource-support)
 
-Editing a [**Default and/or Legacy** (out-of-the-box) workflow](#editing-a-default-or-legacy-workflow-for-the-first-time) has an additional step, to ensure that a [safe copy](../../../sites/developing/using/workflows-best-practices.md#locations-workflow-models) is taken prior to your changes being made.
+Editing a [**Default and/or Legacy** (out-of-the-box) workflow](#editing-a-default-or-legacy-workflow-for-the-first-time) has an additional step, to ensure that a [safe copy](/help/sites/developing/using/workflows-best-practices.md#locations-workflow-models) is taken prior to your changes being made.
 
 When updates to your workflow are complete you must use **Sync** to **Generate a Runtime Model**. See [Sync your Workflow](#sync-your-workflow-generate-a-runtime-model) for details.
 
 ### Sync your Workflow - Generate a Runtime Model {#sync-your-workflow-generate-a-runtime-model}
 
-**Sync** (right in the editor toolbar) generates a [runtime model](../../../sites/developing/using/workflows.md#runtime-model). The runtime model is the model actually used when a user starts a workflow. If you do not **Sync** your changes, then the changes will not be available at runtime.
+**Sync** (right in the editor toolbar) generates a [runtime model](/help/sites/developing/using/workflows.md#runtime-model). The runtime model is the model actually used when a user starts a workflow. If you do not **Sync** your changes, then the changes will not be available at runtime.
 
 When you (or any other user) make any changes to the workflow you must use **Sync** to generate a runtime model - even when individual dialogs (for example, for steps) have had their own save options.
 
@@ -81,7 +81,7 @@ Some steps have mandatory fields and/or built in validation. When these conditio
 
 ### Editing a Default or Legacy Workflow for the First Time {#editing-a-default-or-legacy-workflow-for-the-first-time}
 
-When you open a [Default and/or Legacy model](../../../sites/developing/using/workflows.md#workflow-types) for editing:
+When you open a [Default and/or Legacy model](/help/sites/developing/using/workflows.md#workflow-types) for editing:
 
 * The Steps browser is not available (left side).  
 * There is an **Edit** action available in the toolbar (right side).
@@ -98,7 +98,7 @@ Selecting **Edit** will:
 
 >[!NOTE]
 >
->See [Locations of Workflow Models](../../../sites/developing/using/workflows-best-practices.md#locations-workflow-models) for further information.
+>See [Locations of Workflow Models](/help/sites/developing/using/workflows-best-practices.md#locations-workflow-models) for further information.
 
 ![](assets/wf-22.png) 
 
@@ -112,7 +112,7 @@ When you edit a model, the available steps appear in the various groups of the *
 
 >[!NOTE]
 >
->For information about the primary step components that are installed with AEM, see [Workflow Steps Reference](../../../sites/developing/using/workflows-step-ref.md).
+>For information about the primary step components that are installed with AEM, see [Workflow Steps Reference](/help/sites/developing/using/workflows-step-ref.md).
 
 To add steps to your workflow model:
 
@@ -137,7 +137,7 @@ To add steps to your workflow model:
 
    At run time, steps are executed in the order in which they appear in the model. After adding step components, you can drag them to a different location in the model.
 
-   You can also copy, cut, paste, group or delete existing steps; as with the [page editor.](../../../sites/authoring/using/editing-content.md)
+   You can also copy, cut, paste, group or delete existing steps; as with the [page editor.](/help/sites/authoring/using/editing-content.md)
 
    Split steps can also be collapsed/expanded using the toolbar option: ![](assets/wf-collapseexpand-toolbar-icon.png)
 
@@ -157,7 +157,7 @@ You can **Configure** and customize the behavior of a workflow step using the **
 
    >[!NOTE]
    >
-   >For information about the primary step components that are installed with AEM, see [Workflow Steps Reference](../../../sites/developing/using/workflows-step-ref.md).
+   >For information about the primary step components that are installed with AEM, see [Workflow Steps Reference](/help/sites/developing/using/workflows-step-ref.md).
 
 1. Configure the **Step Properties** as required; the properties available depend on the step type, there may also be several tabs available. For example, the default **Participant Step**, present in a new workflow as `Step 1`:
 
@@ -170,7 +170,7 @@ You can **Configure** and customize the behavior of a workflow step using the **
 
 ### Creating a Transient Workflow {#creating-a-transient-workflow}
 
-You can create a [Transient](../../../sites/developing/using/workflows.md#transient-workflows) workflow model when creating a new model, or by editing an existing one:
+You can create a [Transient](/help/sites/developing/using/workflows.md#transient-workflows) workflow model when creating a new model, or by editing an existing one:
 
 1. Open the workflow model for [editing](#editing-a-workflow).
 1. Select **Workflow Model Properties** from the toolbar.
@@ -184,11 +184,11 @@ You can create a [Transient](../../../sites/developing/using/workflows.md#transi
 
 >[!NOTE]
 >
->When you run a workflow in [transient](../../../sites/developing/using/workflows.md#transient-workflows) mode AEM does not store any workflow history. Therefore, [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) does not display any information related to that workflow. [](../../../sites/authoring/using/basic-handling.md#timeline)
+>When you run a workflow in [transient](/help/sites/developing/using/workflows.md#transient-workflows) mode AEM does not store any workflow history. Therefore, [Timeline](/help/sites/authoring/using/basic-handling.md#timeline) does not display any information related to that workflow. [](/help/sites/authoring/using/basic-handling.md#timeline)
 
 ### Configuring a Workflow for Multi Resource Support {#configuring-a-workflow-for-multi-resource-support}
 
-You can configure a workflow model for [Multi Resource Support](../../../sites/developing/using/workflows.md#multi-resource-support) when creating a new model, or by editing an existing one:
+You can configure a workflow model for [Multi Resource Support](/help/sites/developing/using/workflows.md#multi-resource-support) when creating a new model, or by editing an existing one:
 
 1. Open the workflow model for [editing](#editing-a-workflow).
 1. Select **Workflow Model Properties** from the toolbar.  
@@ -203,7 +203,7 @@ You can configure a workflow model for [Multi Resource Support](../../../sites/d
 
 ### Configuring Workflow Stages (that show Workflow Progress) {#configuring-workflow-stages-that-show-workflow-progress}
 
-[Workflow Stages](../../../sites/developing/using/workflows.md#workflow-stages) help visualize the progress of a workflow when handling tasks.
+[Workflow Stages](/help/sites/developing/using/workflows.md#workflow-stages) help visualize the progress of a workflow when handling tasks.
 
 >[!CAUTION]
 >
@@ -245,7 +245,7 @@ To define **Stages** for your workflow:
 
 To export a workflow model in a package:
 
-1. Create a new package using the [Package Manager](../../../sites/administering/using/package-manager.md#package-manager):
+1. Create a new package using the [Package Manager](/help/sites/administering/using/package-manager.md#package-manager):
 
     1. Navigate to the Package Manager via **Tools**, **Deployment**, **Packages**.
     
@@ -295,13 +295,13 @@ It is a good practice when testing a workflow to use a variety of payload types;
 
 For example, test your new workflow as follows:
 
-1. [Start your workflow model](../../../sites/administering/using/workflows-starting.md) from the console.
+1. [Start your workflow model](/help/sites/administering/using/workflows-starting.md) from the console.
 1. Define the **Payload** and confirm.  
 
 1. Take actions as required so that the workflow proceeds.
 1. Monitor the log files while the workflow is running.
 
-You can also configure AEM to display **DEBUG** messages in the log files. See [Logging](../../../sites/deploying/using/configure-logging.md) for further information and when the development is finished, set the **Log Level** back to **Info**.
+You can also configure AEM to display **DEBUG** messages in the log files. See [Logging](/help/sites/deploying/using/configure-logging.md) for further information and when the development is finished, set the **Log Level** back to **Info**.
 
 ## Examples {#examples}
 
@@ -335,7 +335,7 @@ To illustrate some of the possibilities for creating a workflow, the following e
 
    >[!NOTE]
    >
-   >For emails to be sent, [the mail service and user account details need to be configured](../../../sites/administering/using/notification.md).
+   >For emails to be sent, [the mail service and user account details need to be configured](/help/sites/administering/using/notification.md).
 
 1. Confirm the updates with the tick.
 
@@ -418,7 +418,7 @@ To define an OR rule, proceed as follows:
 
 >[!NOTE]
 >
->See [Using ECMAScript](../../../sites/developing/using/workflows-customizing-extending.md#using-ecmascript).
+>See [Using ECMAScript](/help/sites/developing/using/workflows-customizing-extending.md#using-ecmascript).
 
 The following sample script returns `true` if the node is a `JCR_PATH` located under `/content/we-retail/us/en`:
 
@@ -444,4 +444,4 @@ function check() {
 
 You can customize any of the out-of-the-box workflows. To have customized behavior you overlay details of the appropriate workflow.
 
-For example, **Request for Activation**. This workflow is used for publishing pages within **Sites** and is automatically triggered when a content author does not have the appropriate replication rights. See [Customizing Page Authoring - Customizing the Request for Activation Workflow](../../../sites/developing/using/customizing-page-authoring-touch.md#customizing-the-request-for-activation-workflow) for further details.
+For example, **Request for Activation**. This workflow is used for publishing pages within **Sites** and is automatically triggered when a content author does not have the appropriate replication rights. See [Customizing Page Authoring - Customizing the Request for Activation Workflow](/help/sites/developing/using/customizing-page-authoring-touch.md#customizing-the-request-for-activation-workflow) for further details.

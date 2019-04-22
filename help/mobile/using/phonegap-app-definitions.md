@@ -15,7 +15,7 @@ discoiquuid: 860dde0b-7cb4-4668-9fac-6f954f1ec0a7
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 App definitions are a way to identify what spaces and other configurations are appropriate for the app. App definitions allows the user to add space, without having to recompile the app. The app definition is updated and that will include the information for any new spaces.
 
@@ -39,14 +39,14 @@ App definitions are a way to identify what spaces and other configurations are a
 
 Once you are familiar with App Definitions, learn more about the following authoring resources:
 
-* [Import an existing hybrid app](../../mobile/using/phonegap-import-hybrid-app.md)
-* [Create a New App using Create App Wizard](../../mobile/using/phonegap-create-new-app.md)
+* [Import an existing hybrid app](/help/mobile/using/phonegap-import-hybrid-app.md)
+* [Create a New App using Create App Wizard](/help/mobile/using/phonegap-create-new-app.md)
 * [Content Services](/mobile/using/content-as-a-service.md)
 
 ## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Adminstrator and Developer, see the resources below:
 
-* [Developing for Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md)
-* [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md)
+* [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/developing-in-phonegap.md)
+* [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md)
 

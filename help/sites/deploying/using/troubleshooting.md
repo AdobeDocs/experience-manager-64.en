@@ -29,7 +29,7 @@ The following decision tree provides guidenance to narrow down the bottleneck.
 
 ## Configuring log files and audit logs {#configuring-log-files-and-audit-logs}
 
-AEM records detailed logs that you might want to configure in order to troubleshoot installation issues. For information, see the [Working with Audit Records and Log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) section.
+AEM records detailed logs that you might want to configure in order to troubleshoot installation issues. For information, see the [Working with Audit Records and Log Files](/help/sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) section.
 
 ## Using the Verbose Option {#using-the-verbose-option}
 

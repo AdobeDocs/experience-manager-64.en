@@ -15,17 +15,17 @@ discoiquuid: 07da66ab-dd5e-4ca8-ac6d-76fc81875fd9
 
 Once your page is created (either new or as part of a launch or live copy) you can edit the content to make the updates you require.
 
-Content is added using [components](../../../sites/authoring/using/default-components-console.md) (appropriate to the content type) that can be dragged onto the page. These can then be edited in place, moved, or deleted.
+Content is added using [components](/help/sites/authoring/using/default-components-console.md) (appropriate to the content type) that can be dragged onto the page. These can then be edited in place, moved, or deleted.
 
 >[!NOTE]
 >
->Your account needs the [appropriate access rights](../../../sites/administering/using/security.md) and [permissions](../../../sites/administering/using/security.md#permissions) to edit pages.
+>Your account needs the [appropriate access rights](/help/sites/administering/using/security.md) and [permissions](/help/sites/administering/using/security.md#permissions) to edit pages.
 >
 >If you encounter any problems we suggest you contact your system administrator.
 
 >[!NOTE]
 >
->If your page and/or template has been appropriately set up, then you can use [responsive layout](../../../sites/authoring/using/responsive-layout.md) when editing.
+>If your page and/or template has been appropriately set up, then you can use [responsive layout](/help/sites/authoring/using/responsive-layout.md) when editing.
 
 >[!NOTE]
 >
@@ -41,25 +41,25 @@ The toolbar offers access to numerous options. Depending on your current context
 
 * **Toggle Side Panel**
 
-  This opens/closes the side panel, which holds the [Asset Browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser), [Component Browser](../../../sites/authoring/using/author-environment-tools.md#components-browser), and [Content Tree](../../../sites/authoring/using/author-environment-tools.md#content-tree).
+  This opens/closes the side panel, which holds the [Asset Browser](/help/sites/authoring/using/author-environment-tools.md#assets-browser), [Component Browser](/help/sites/authoring/using/author-environment-tools.md#components-browser), and [Content Tree](/help/sites/authoring/using/author-environment-tools.md#content-tree).
 
   ![](do-not-localize/screen_shot_2018-03-22at111425.png)
 
 * **Page Information**
 
-  Provides access to the [Page Information](../../../sites/authoring/using/author-environment-tools.md#page-information) menu including page details and actions that can be taken on the page including viewing and editing page information, viewing page properties, and publishing/unpublishing the page.
+  Provides access to the [Page Information](/help/sites/authoring/using/author-environment-tools.md#page-information) menu including page details and actions that can be taken on the page including viewing and editing page information, viewing page properties, and publishing/unpublishing the page.
 
   ![](do-not-localize/screen_shot_2018-03-22at111437.png)
 
 * **Emulator**
 
-  Toggles the [emulator toolbar](../../../sites/authoring/using/responsive-layout.md#selecting-a-device-to-emulate), which is used to emulate the look-and-feel of the page on another device. This is automatically toggled in layout mode.
+  Toggles the [emulator toolbar](/help/sites/authoring/using/responsive-layout.md#selecting-a-device-to-emulate), which is used to emulate the look-and-feel of the page on another device. This is automatically toggled in layout mode.
 
   ![](do-not-localize/screen_shot_2018-03-22at111442.png)
 
 * **ContextHub**
 
-  Opens the [context hub](../../../sites/authoring/using/ch-previewing.md). Only available in Preview mode.
+  Opens the [context hub](/help/sites/authoring/using/ch-previewing.md). Only available in Preview mode.
 
   ![](assets/screen_shot_2018-03-22at111543.png)
 
@@ -71,25 +71,25 @@ The toolbar offers access to numerous options. Depending on your current context
 
 * **Mode Selector**
 
-  Displays the current [mode](../../../sites/authoring/using/author-environment-tools.md#page-modes) and allows you to select another mode such as edit, layout, timewarp, or targeting.
+  Displays the current [mode](/help/sites/authoring/using/author-environment-tools.md#page-modes) and allows you to select another mode such as edit, layout, timewarp, or targeting.
 
   ![](assets/chlimage_1-243.png)
 
 * **Preview**
 
-  Enables [preview mode](../../../sites/authoring/using/editing-content.md#preview-mode). This displays the page as it will appear when published.
+  Enables [preview mode](/help/sites/authoring/using/editing-content.md#preview-mode). This displays the page as it will appear when published.
 
   ![](assets/chlimage_1-244.png)
 
 * **Annotate**
 
-  Allows you to add [annotations](../../../sites/authoring/using/annotations.md) to the page when reviewing a page. After the first annotation, the icon will switch to a number indicating the number of annotations on the page.
+  Allows you to add [annotations](/help/sites/authoring/using/annotations.md) to the page when reviewing a page. After the first annotation, the icon will switch to a number indicating the number of annotations on the page.
 
   ![](do-not-localize/screen_shot_2018-03-22at111638.png)
 
 ### Status Notification {#status-notification}
 
-If a page is part of a [workflow](../../../sites/authoring/using/workflows.md) or multiple workflows, this information is shown in a notification bar at the top of the screen when editing the page.
+If a page is part of a [workflow](/help/sites/authoring/using/workflows.md) or multiple workflows, this information is shown in a notification bar at the top of the screen when editing the page.
 
 ![](assets/screen_shot_2018-03-22at111739.png)
 
@@ -97,7 +97,7 @@ If a page is part of a [workflow](../../../sites/authoring/using/workflows.md) o
 >
 >The status bar is only visible to user accounts with appropriate privileges.
 
-The notification lists the workflow that is running against the page. If the user is involved in the current workflow step, options to [affect the workflow status](../../../sites/authoring/using/workflows-participating.md) and get more information about the workflow are also available such as:
+The notification lists the workflow that is running against the page. If the user is involved in the current workflow step, options to [affect the workflow status](/help/sites/authoring/using/workflows-participating.md) and get more information about the workflow are also available such as:
 
 * **Complete** - Opens the **Complete Workitem** dialog
 
@@ -105,7 +105,7 @@ The notification lists the workflow that is running against the page. If the use
 
 * **View details** - Opens the **Details** window of the workflow
 
-Completing and delegating workflow steps via the notification bar works as it does when [participating in workflows](../../../sites/authoring/using/workflows-participating.md) from the Notification inbox.
+Completing and delegating workflow steps via the notification bar works as it does when [participating in workflows](/help/sites/authoring/using/workflows-participating.md) from the Notification inbox.
 
 If the page is subject to multiple workflows, the number of workflows is displayed at the right end of the notification along with arrow buttons to allow you to scroll through the workflows.
 
@@ -127,10 +127,10 @@ The component placeholder is an indicator to show where a component will be posi
 
 ### Inserting a Component from the Components Browser {#inserting-a-component-from-the-components-browser}
 
-You can add a new component by using the [component browser](../../../sites/authoring/using/author-environment-tools.md#components-browser). The [component placeholder](#component-placeholder) shows you where the component will be positioned:
+You can add a new component by using the [component browser](/help/sites/authoring/using/author-environment-tools.md#components-browser). The [component placeholder](#component-placeholder) shows you where the component will be positioned:
 
-1. Make sure that your page is in [**Edit** mode](../../../sites/authoring/using/author-environment-tools.md#page-modes).
-1. Open the [component browser](../../../sites/authoring/using/author-environment-tools.md#components-browser).
+1. Make sure that your page is in [**Edit** mode](/help/sites/authoring/using/author-environment-tools.md#page-modes).
+1. Open the [component browser](/help/sites/authoring/using/author-environment-tools.md#components-browser).
 1. Drag the required component to the [required position](#component-placeholder).  
 
 1. [Edit](#edit-configure-copy-cut-delete-paste) the component.
@@ -143,7 +143,7 @@ You can add a new component by using the [component browser](../../../sites/auth
 
 You can add a new component by using the **Drag components here** box of the paragraph system:
 
-1. Make sure that your page is in [**Edit** mode](../../../sites/authoring/using/author-environment-tools.md#page-modes).
+1. Make sure that your page is in [**Edit** mode](/help/sites/authoring/using/author-environment-tools.md#page-modes).
 1. There are two ways to select and add a new component from the paragraph system:
 
     * Select the **Insert Component** option (+) from either the toolbar of an existing component or the **Drag components here** box.
@@ -160,7 +160,7 @@ You can add a new component by using the **Drag components here** box of the par
 
 ### Inserting a Component using the Assets Browser {#inserting-a-component-using-the-assets-browser}
 
-You can also add a new component to the page by dragging an asset from the [assets browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser). This will automatically create a new component of the appropriate type (and containing the asset).
+You can also add a new component to the page by dragging an asset from the [assets browser](/help/sites/authoring/using/author-environment-tools.md#assets-browser). This will automatically create a new component of the appropriate type (and containing the asset).
 
 This is valid for the following asset types (some will be dependent on page/paragraph system):
 
@@ -195,12 +195,12 @@ This is valid for the following asset types (some will be dependent on page/para
 
 >[!NOTE]
 >
->This behavior can be configured for your installation. See [Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance](../../../sites/developing/using/developing-components.md#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance) for further details.
+>This behavior can be configured for your installation. See [Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance](/help/sites/developing/using/developing-components.md#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance) for further details.
 
 To create a component by dragging one of the above asset types:
 
-1. Make sure that your page is in [**Edit** mode](../../../sites/authoring/using/author-environment-tools.md#page-modes).
-1. Open the [asset browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser).
+1. Make sure that your page is in [**Edit** mode](/help/sites/authoring/using/author-environment-tools.md#page-modes).
+1. Open the [asset browser](/help/sites/authoring/using/author-environment-tools.md#assets-browser).
 1. Drag the required asset to the required position. The [component placeholder](#component-placeholder) shows you where the component will be positioned.
 
    A component, appropriate for the asset type, will be created at the required location - it will contain the selected asset.
@@ -211,7 +211,7 @@ To create a component by dragging one of the above asset types:
 >
 >On a mobile device, the asset browser will fill the entire screen. Once you start dragging an asset, the browser will close to show the page again so you can place the asset.
 
-If when browsing the assets you find that you need to make a quick change to an asset, you can start the [asset editor](../../../assets/using/managing-assets-touch-ui.md) directly from the browser by clicking the edit icon next to the asset's name.
+If when browsing the assets you find that you need to make a quick change to an asset, you can start the [asset editor](/help/assets/using/managing-assets-touch-ui.md) directly from the browser by clicking the edit icon next to the asset's name.
 
 ![](assets/screen_shot_2018-03-22at112735.png)
 
@@ -225,13 +225,13 @@ The actual actions available to the user will be shown as appropriate and not al
 
 * **Edit**
 
-  [Dependent on the component type](../../../sites/authoring/using/default-components.md) this will allow you to [edit the content of the component](#edit-content). Often a toolbar will be provided.
+  [Dependent on the component type](/help/sites/authoring/using/default-components.md) this will allow you to [edit the content of the component](#edit-content). Often a toolbar will be provided.
 
   ![](do-not-localize/screen_shot_2018-03-22at112936.png)
 
 * **Configure**
 
-  [Dependent on the component type](../../../sites/authoring/using/default-components.md) this will allow you to edit and configure the properties of the component. Often a dialog will be opened.
+  [Dependent on the component type](/help/sites/authoring/using/default-components.md) this will allow you to edit and configure the properties of the component. Often a dialog will be opened.
 
   ![](do-not-localize/screen_shot_2018-03-22at112955.png)
 
@@ -255,7 +255,7 @@ The actual actions available to the user will be shown as appropriate and not al
 
 * **Insert component**
 
-  This opens the dialog to [add a new component](../../../sites/authoring/using/editing-content.md#inserting-a-component-from-the-paragraph-system).
+  This opens the dialog to [add a new component](/help/sites/authoring/using/editing-content.md#inserting-a-component-from-the-paragraph-system).
 
   ![](do-not-localize/screen_shot_2018-03-22at113017.png)
 
@@ -287,13 +287,13 @@ The actual actions available to the user will be shown as appropriate and not al
 
 * **Layout**
 
-  This allows you to modify the [layout](../../../sites/authoring/using/editing-content.md#edit-component-layout) of the selected component. This only applies to the selected component and does not activate the [Layout mode](../../../sites/authoring/using/author-environment-tools.md#page-modes) for the entire page.
+  This allows you to modify the [layout](/help/sites/authoring/using/editing-content.md#edit-component-layout) of the selected component. This only applies to the selected component and does not activate the [Layout mode](/help/sites/authoring/using/author-environment-tools.md#page-modes) for the entire page.
 
   ![](do-not-localize/screen_shot_2018-03-22at113044.png)
 
 * **Convert to an experience fragment variation**  
 
-  This allows you to create a new [experience fragment](../../../sites/authoring/using/experience-fragments.md) from the selected component or add it to an existing experience fragment.
+  This allows you to create a new [experience fragment](/help/sites/authoring/using/experience-fragments.md) from the selected component or add it to an existing experience fragment.
 
   ![](do-not-localize/screen_shot_2018-03-22at113033.png)
 
@@ -310,7 +310,7 @@ You can open a component to edit the content using the [Edit (pencil) icon of th
 
 The exact edit options will depend on the component. For some components [all actions will only be available in full screen mode](#edit-content-full-screen-mode). For example:
 
-* [Text component](../../../sites/authoring/using/rich-text-editor.md)
+* [Text component](/help/sites/authoring/using/rich-text-editor.md)
 
   ![](assets/screen_shot_2018-03-22at120215.png)
 
@@ -323,15 +323,15 @@ The exact edit options will depend on the component. For some components [all ac
   >Editing does not work on an empty image component.
   >
   >
-  >You must [drag or upload an image (using Configure)](../../../sites/authoring/using/default-components-foundation.md#image) before you can start to edit it.
+  >You must [drag or upload an image (using Configure)](/help/sites/authoring/using/default-components-foundation.md#image) before you can start to edit it.
 
 * Image component - full screen
 
-  [Entering full screen mode](../../../sites/authoring/using/editing-content.md#edit-content-full-screen-mode) for the image component allows for more space to edit the image as well as showing extra editing options such as **Launch Map** and **Reset Zoom**. In addition, full screen allows for crop presets to be selected.
+  [Entering full screen mode](/help/sites/authoring/using/editing-content.md#edit-content-full-screen-mode) for the image component allows for more space to edit the image as well as showing extra editing options such as **Launch Map** and **Reset Zoom**. In addition, full screen allows for crop presets to be selected.
 
   ![](assets/screen_shot_2018-03-22at120529.png)
 
-* Components constructed from more than one basic component, such as the [Text & Image foundation component](../../../sites/authoring/using/default-components-foundation.md#text-image), first ask you to confirm which set of edit options you want:
+* Components constructed from more than one basic component, such as the [Text & Image foundation component](/help/sites/authoring/using/default-components-foundation.md#text-image), first ask you to confirm which set of edit options you want:
 
   ![](assets/chlimage_1-246.png)
 
@@ -374,11 +374,11 @@ To move a paragraph component:
 
 >[!NOTE]
 >
->You can also use [Cut and Paste](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) to move a component.
+>You can also use [Cut and Paste](/help/sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) to move a component.
 
 ## Edit Component Layout {#edit-component-layout}
 
-Instead of repeatedly switching from edit to [layout mode](../../../sites/authoring/using/responsive-layout.md) to adjust a component, you can select the **Layout** action for a component to change that component's layout and save time by not having to leave the edit mode.
+Instead of repeatedly switching from edit to [layout mode](/help/sites/authoring/using/responsive-layout.md) to adjust a component, you can select the **Layout** action for a component to change that component's layout and save time by not having to leave the edit mode.
 
 1. When in **Edit** mode of the sites console, selecting a component reveals the component's toolbar.
 
@@ -396,7 +396,7 @@ Instead of repeatedly switching from edit to [layout mode](../../../sites/author
 
    ![](assets/screen_shot_2018-03-22at133843.png)
 
-   You can now modify the layout of the component as you would in [layout mode](../../../sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode).
+   You can now modify the layout of the component as you would in [layout mode](/help/sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode).
 
 1. After making the necessary layout changes, click the **Close** button in the component action menu to stop modifying the layout of the component. The component's toolbar returns to its normal edit state.
 
@@ -406,14 +406,14 @@ Instead of repeatedly switching from edit to [layout mode](../../../sites/author
 >
 >The Layout action is limited in scope to the selected component. For example, if you are editing the layout of one component and then click on another component, the standard edit toolbar (not the layout toolbar) displays for the newly selected component and the reszing handles as well as the the emulator toolbar disappear. 
 >
->If you need to edit the overall layout of the page, affecting multiple components, switch to the [layout mode](../../../sites/authoring/using/responsive-layout.md).
+>If you need to edit the overall layout of the page, affecting multiple components, switch to the [layout mode](/help/sites/authoring/using/responsive-layout.md).
 
 ## Inherited Components {#inherited-components}
 
 Inherited components can be the product of various scenarios, including:
 
-* [Multi site management](../../../sites/administering/using/msm.md)
-* [Launches](../../../sites/authoring/using/launches.md) (when based on live copy).
+* [Multi site management](/help/sites/administering/using/msm.md)
+* [Launches](/help/sites/authoring/using/launches.md) (when based on live copy).
 * Specific components such as the Inherited Paragraph System within Geometrixx.
 
 You can cancel (then re-enable) the inheritance. Depending on the component, this can be available from:
@@ -444,15 +444,15 @@ You can cancel (then re-enable) the inheritance. Depending on the component, thi
 
 ## Editing the Page Template {#editing-the-page-template}
 
-If the page is based on an [editable template](../../../sites/authoring/using/templates.md#editable-and-static-templates), you can easily switch to the [template editor](../../../sites/authoring/using/templates.md#editing-templates-template-authors) by selecting **Edit Template** in the [Page Information menu](../../../sites/authoring/using/author-environment-tools.md#page-information).
+If the page is based on an [editable template](/help/sites/authoring/using/templates.md#editable-and-static-templates), you can easily switch to the [template editor](/help/sites/authoring/using/templates.md#editing-templates-template-authors) by selecting **Edit Template** in the [Page Information menu](/help/sites/authoring/using/author-environment-tools.md#page-information).
 
-If the page is based on a [static template](../../../sites/authoring/using/templates.md#editable-and-static-templates), you can switch to [Design mode](../../../sites/authoring/using/default-components-designmode.md) using the [page mode selector](../../../sites/authoring/using/author-environment-tools.md#page-modes) on the toolbar to enable/disable components for use on the page.
+If the page is based on a [static template](/help/sites/authoring/using/templates.md#editable-and-static-templates), you can switch to [Design mode](/help/sites/authoring/using/default-components-designmode.md) using the [page mode selector](/help/sites/authoring/using/author-environment-tools.md#page-modes) on the toolbar to enable/disable components for use on the page.
 
-You can easily see which template the page is based on when selecting the page in either [Column view](../../../sites/authoring/using/basic-handling.md#column-view) or [List view](../../../sites/authoring/using/basic-handling.md#list-view).
+You can easily see which template the page is based on when selecting the page in either [Column view](/help/sites/authoring/using/basic-handling.md#column-view) or [List view](/help/sites/authoring/using/basic-handling.md#list-view).
 
 ## Live Copy Status {#live-copy-status}
 
-The [Live Copy Status page mode](../../../sites/authoring/using/author-environment-tools.md#page-modes) allows you a quick overview of the live copy status and which components are/are not inherited:
+The [Live Copy Status page mode](/help/sites/authoring/using/author-environment-tools.md#page-modes) allows you a quick overview of the live copy status and which components are/are not inherited:
 
 * Green border: Inherited
 * Pink border: Inheritance has been cancelled
@@ -463,7 +463,7 @@ For example:
 
 ## Adding Annotations {#adding-annotations}
 
-[Annotations](../../../sites/authoring/using/annotations.md) allow reviewers and other authors to provide feedback on your content. They are often used for review and validation purposes.
+[Annotations](/help/sites/authoring/using/annotations.md) allow reviewers and other authors to provide feedback on your content. They are often used for review and validation purposes.
 
 ## Previewing Pages {#previewing-pages}
 
@@ -477,7 +477,7 @@ There are two options for previewing a page:
 >
 >* Links in the content are visible, but not accessible in Edit mode. 
 >* Use either of the preview options if you want to navigate using your links.
->* Use the [keyboard shortcut](../../../sites/authoring/using/keyboard-shortcuts.md) `Ctrl-Shift-M` to switch between preview and the last selected mode.
+>* Use the [keyboard shortcut](/help/sites/authoring/using/keyboard-shortcuts.md) `Ctrl-Shift-M` to switch between preview and the last selected mode.
 >
 
 >[!NOTE]
@@ -486,7 +486,7 @@ There are two options for previewing a page:
 
 ### Preview Mode {#preview-mode}
 
-When editing content you can preview the page using the preview [mode](../../../sites/authoring/using/author-environment-tools.md#page-modes). This mode:
+When editing content you can preview the page using the preview [mode](/help/sites/authoring/using/author-environment-tools.md#page-modes). This mode:
 
 * Hides various edit mechanisms to give you a quick view of how the page will appear on publish.  
 * Allows you to use links to navigate.
@@ -498,7 +498,7 @@ When authoring, the preview mode is available using the icon at the top right of
 
 ### View as Published {#view-as-published}
 
-The **View as Published** option is available from the [Page Information](../../../sites/authoring/using/author-environment-tools.md#page-information) menu. This opens the page in a new tab, refreshes the content and shows the page exactly as it will appear in the publish environment.
+The **View as Published** option is available from the [Page Information](/help/sites/authoring/using/author-environment-tools.md#page-information) menu. This opens the page in a new tab, refreshes the content and shows the page exactly as it will appear in the publish environment.
 
 ## Locking a Page {#locking-a-page}
 
@@ -508,7 +508,7 @@ A page can be locked from either:
 
 * **Sites** console
 
-    1. Select the page with [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
+    1. Select the page with [selection mode](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
     1. Select the lock icon.
 
   ![](assets/screen_shot_2018-03-22at134928.png)
@@ -524,7 +524,7 @@ Once locked the console view information is updated and when editing a lock symb
 
 >[!CAUTION]
 >
->Locking a page can be performed when [impersonating a user](../../../sites/administering/using/security.md#impersonating-another-user). However a page locked in this way can only then be unlocked by the user who was impersonated or by the admin user.
+>Locking a page can be performed when [impersonating a user](/help/sites/administering/using/security.md#impersonating-another-user). However a page locked in this way can only then be unlocked by the user who was impersonated or by the admin user.
 >
 >Pages can not be unlocked by impersonating the user who locked the page.
 
@@ -538,7 +538,7 @@ The Page Information menu lists **Unlock** as an option and the Lock icon in the
 
 >[!CAUTION]
 >
->Locking a page can be performed when [impersonating a user](../../../sites/administering/using/security.md#impersonating-another-user). However a page locked in this way can only then be unlocked by the user who was impersonated or by the admin user.
+>Locking a page can be performed when [impersonating a user](/help/sites/administering/using/security.md#impersonating-another-user). However a page locked in this way can only then be unlocked by the user who was impersonated or by the admin user.
 >
 >Pages can not be unlocked by impersonating the user who locked the page.
 
@@ -550,7 +550,7 @@ The following icons allow you to undo or redo an action. These are shown in the 
 
 >[!NOTE]
 >
->The [keyboard shortcut](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md) `Ctrl-Z` is also availalbe to undo page edit actions.
+>The [keyboard shortcut](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md) `Ctrl-Z` is also availalbe to undo page edit actions.
 >
 >The keyboard shortcut `Ctrl-Y` is also availalbe to redo page edit actions.
 
@@ -562,7 +562,7 @@ The following icons allow you to undo or redo an action. These are shown in the 
 
 >[!NOTE]
 >
->Your system administrator can [configure various aspects of the Undo/Redo features](../../../sites/administering/using/config-undo.md) according to the requirements for your instance.
+>Your system administrator can [configure various aspects of the Undo/Redo features](/help/sites/administering/using/config-undo.md) according to the requirements for your instance.
 
 AEM stores a history of actions that you perform and the sequence in which you performed them so that you can undo multiple actions in the order that you performed them as well as redo them to re-apply one or more of the actions if necessary.
 
@@ -576,7 +576,7 @@ The behavior of the undo and redo commands is similar to that in other software 
 >
 >* Redo actions as long as you have not made a page edit since you used undo.
 >* Undo a maximum of 20 edit actions (default setting).
->* Also use [Keyboard shortcuts](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md) for undo and redo.
+>* Also use [Keyboard shortcuts](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md) for undo and redo.
 >
 
 You can use undo and redo for the following types of page changes:

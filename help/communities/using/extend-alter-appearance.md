@@ -13,7 +13,7 @@ discoiquuid: 70be208d-185b-4b27-8e01-74e62f656344
 
 # Alter the Appearance (HBS){#alter-the-appearance-hbs}
 
-| ** [⇐ Add Comment to Sample Page](../../communities/using/extend-sample-page.md)** |  |
+| ** [⇐ Add Comment to Sample Page](/help/communities/using/extend-sample-page.md)** |  |
 |---|---|
 
 Now that the components for the custom comment system in the application directory (/apps) are in place, with a resourceSuperType referencing the default comment system and the custom Model/View registered, it is possible to modify the implementation.
@@ -26,7 +26,7 @@ For a simple demonstration, a visual feature, the avatar shown of the signed-in 
 
 ## Modify the HBS Scripts {#modify-the-hbs-scripts}
 
-Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
+Using [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md):
 
 * open [/apps/custom/components/comments/comment/**comment.hbs**](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comment/comment.hbs)
 
@@ -67,7 +67,7 @@ One way to do so is
 
 ## View Modified Comment on Published Sample Page {#view-modified-comment-on-published-sample-page}
 
-[Continuing the experience](../../communities/using/extend-sample-page.md#publish-sample-page) on the publish instance, still signed in as the same user, it is now possible to refresh the page in the publish environment to view the modification to remove the avatar:
+[Continuing the experience](/help/communities/using/extend-sample-page.md#publish-sample-page) on the publish instance, still signed in as the same user, it is now possible to refresh the page in the publish environment to view the modification to remove the avatar:
 
 ![](assets/chlimage_1-81.png) 
 
@@ -77,6 +77,6 @@ Attached is a package of the custom comments application created in this tutoria
 
 [Get File](assets/sample-comment-extension-6-1-fp3.zip)
 
-| ** [⇐ Add Comment to Sample Page](../../communities/using/extend-sample-page.md)** |  |
+| ** [⇐ Add Comment to Sample Page](/help/communities/using/extend-sample-page.md)** |  |
 |---|---|
 

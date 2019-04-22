@@ -34,12 +34,12 @@ The tutorial implementation will only work as-is on AEM 6.4, however many of the
 
 * [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html)
 * [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
-* [Touch UI](../../../sites/developing/using/touch-ui-concepts.md)
+* [Touch UI](/help/sites/developing/using/touch-ui-concepts.md)
 * [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html)
-* [Editable Templates](../../../sites/developing/using/page-templates-editable.md)
+* [Editable Templates](/help/sites/developing/using/page-templates-editable.md)
 
 Please progress through the tutorial before diving into the above concepts in detail.
 
 ## Next Steps {#next-steps}
 
-Once you have completed the [tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html), consider reviewing the document [AEM Core Concepts](../../../sites/developing/using/the-basics.md) to get a better understanding of some of the underlying technologies and development paradigms of AEM.
+Once you have completed the [tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html), consider reviewing the document [AEM Core Concepts](/help/sites/developing/using/the-basics.md) to get a better understanding of some of the underlying technologies and development paradigms of AEM.

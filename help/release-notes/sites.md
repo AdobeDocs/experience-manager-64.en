@@ -125,7 +125,7 @@ See the following for AEM Sites 6.4 enhancements in detail:
 
 ## Communities Add-On {#communities-add-on}
 
-See [Communities Release Notes page](../release-notes/communities-release-notes.md)
+See [Communities Release Notes page](/help/release-notes/communities-release-notes.md)
 
 ## Screens Add-On {#screens-add-on}
 

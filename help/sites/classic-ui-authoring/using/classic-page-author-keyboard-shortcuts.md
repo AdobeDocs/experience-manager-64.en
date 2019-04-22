@@ -13,7 +13,7 @@ discoiquuid: 68fa88c5-a759-49fa-ab9b-8dc63c049d5f
 
 # Keyboard Shortcuts when Editing Pages{#keyboard-shortcuts-when-editing-pages}
 
-Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the [use of consoles](../../../sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md).
+Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the [use of consoles](/help/sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md).
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
   <tr> 
    <td> </td> 
    <td><strong><span class="code">Ctrl-Alt-c</span></strong></td> 
-   <td>Shows the <a href="../../../sites/administering/using/client-context.md">client context</a>.</td> 
+   <td>Shows the <a href="/help/sites/administering/using/client-context.md">client context</a>.</td> 
   </tr> 
   <tr> 
    <td>Rich Text Editor<br /> </td> 
@@ -144,7 +144,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
  </tbody> 
 </table>
 
-Various keyboard shortcuts are also available for desktop users when using the [consoles](../../../sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md).
+Various keyboard shortcuts are also available for desktop users when using the [consoles](/help/sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md).
 
 ## Keyboard Shortcuts for Development {#keyboard-shortcuts-for-development}
 

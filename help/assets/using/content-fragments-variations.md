@@ -15,7 +15,7 @@ discoiquuid: 1cdb2dfc-623b-44cf-9a7b-98cfabbb1d0c
 
 >[!CAUTION]
 >
->Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
+>Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](/help/release-notes/sp-release-notes.md).
 
 [Variations](content-fragments.md#constituent-parts-of-a-content-fragment) are a significant feature of content fragments, as they allow you to create and edit copies of the master content for use on specific channels, and/or scenarios.
 
@@ -251,13 +251,13 @@ Annotations:
 
 To ease the process of authoring content fragments you can add [Assets](managing-assets-touch-ui.md) (images) directly to the fragment.
 
-They will be added to the paragraph sequence of the fragment without any formatting; formatting can be done when the [fragment is used/referenced on a page](../../sites/authoring/using/content-fragments.md).
+They will be added to the paragraph sequence of the fragment without any formatting; formatting can be done when the [fragment is used/referenced on a page](/help/sites/authoring/using/content-fragments.md).
 
 >[!CAUTION]
 >
 >These assets cannot be moved or deleted on a referencing page, this must be done in the fragment editor.
 >
->However, formatting of the asset (e.g. size) must be done in the [page editor](../../sites/authoring/using/content-fragments.md). The representation of the asset in the fragment editor is purely for authoring the content flow.
+>However, formatting of the asset (e.g. size) must be done in the [page editor](/help/sites/authoring/using/content-fragments.md). The representation of the asset in the fragment editor is purely for authoring the content flow.
 
 >[!NOTE]
 >

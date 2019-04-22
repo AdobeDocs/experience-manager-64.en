@@ -14,22 +14,22 @@ legacypath: /content/docs/en/aem/6-2/develop/components/components-classic
 
 # Developing AEM Components (Classic UI){#developing-aem-components-classic-ui}
 
-The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. Due to the nature of these widgets there are some differences between how components interact with the classic UI and the [touch-enabled UI](../../../sites/developing/using/developing-components.md).
+The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. Due to the nature of these widgets there are some differences between how components interact with the classic UI and the [touch-enabled UI](/help/sites/developing/using/developing-components.md).
 
 >[!NOTE]
 >
->Many aspects of component development are common to both the classic UI and the touch-enabled UI, so **you must read [AEM Components - The Basics](../../../sites/developing/using/components-basics.md) before** using this page, which deals with the specifics of the classic UI.
+>Many aspects of component development are common to both the classic UI and the touch-enabled UI, so **you must read [AEM Components - The Basics](/help/sites/developing/using/components-basics.md) before** using this page, which deals with the specifics of the classic UI.
 
 >[!NOTE]
 >
 >Although both the HTML Template Language (HTL) and JSP can be used for developing components for the classic UI, this page illustrates development with JSP. This is solely due to the history of using JSP within the classic UI.  
 
 >
->HTL is now the recommended scripting language for AEM. See [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html) and [Developing AEM Components](../../../sites/developing/using/developing-components.md) to compare methods.
+>HTL is now the recommended scripting language for AEM. See [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html) and [Developing AEM Components](/help/sites/developing/using/developing-components.md) to compare methods.
 
 ## Structure {#structure}
 
-The basic structure of a component is covered on the page [AEM Components - The Basics](../../../sites/developing/using/components-basics.md#structure), which applies both the touch-eanbeld and classic UIs. Een if you do not need to use the settings for the touch-enabled UI in your new component, it can help to be aware of them when inheriting from existing components.
+The basic structure of a component is covered on the page [AEM Components - The Basics](/help/sites/developing/using/components-basics.md#structure), which applies both the touch-eanbeld and classic UIs. Een if you do not need to use the settings for the touch-enabled UI in your new component, it can help to be aware of them when inheriting from existing components.
 
 ## JSP Scripts {#jsp-scripts}
 
@@ -102,7 +102,7 @@ There are three methods to access content in AEM WCM:
 
 The CQ and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components.
 
-For more information, see the document [Tag Libraries](../../../sites/developing/using/taglib.md).
+For more information, see the document [Tag Libraries](/help/sites/developing/using/taglib.md).
 
 ## Using Client-Side HTML Libraries {#using-client-side-html-libraries}
 
@@ -110,27 +110,27 @@ Modern websites rely heavily on client-side processing driven by complex JavaScr
 
 To help deal with this issue, AEM provides **Client-side Library Folders**, which allow you to store your client-side code in the repository, organize it into categories and define when and how each category of code is to be served to the client. The client-side library system then takes care of producing the correct links in your final web page to load the correct code.
 
-See the document [Using Client-Side HTML Libraries](../../../sites/developing/using/clientlibs.md) for more information.
+See the document [Using Client-Side HTML Libraries](/help/sites/developing/using/clientlibs.md) for more information.
 
 ## Dialog {#dialog}
 
 Your component will need a dialog for authors to add and configure the content.
 
-See [AEM Components - The Basics](../../../sites/developing/using/components-basics.md#dialogs) for further details.
+See [AEM Components - The Basics](/help/sites/developing/using/components-basics.md#dialogs) for further details.
 
 ## Configuring the Edit Behavior {#configuring-the-edit-behavior}
 
 You can configure the edit behavir of a component. This includes attributes such as actions available for the component, characteristics of the inplace editor, and the listeners related to events on the component. The configuration is common to both the touch-enabled and classic UIs, albeit with certain, specific differences.
 
-The [edit behavior of a component is configured](../../../sites/developing/using/components-basics.md#edit-behavior) by adding a `cq:editConfig` node of type `cq:EditConfig` below the component node (of type `cq:Component`) and by adding specific properties and child nodes.
+The [edit behavior of a component is configured](/help/sites/developing/using/components-basics.md#edit-behavior) by adding a `cq:editConfig` node of type `cq:EditConfig` below the component node (of type `cq:Component`) and by adding specific properties and child nodes.
 
 ## Using and Extending ExtJS Widgets {#using-and-extending-extjs-widgets}
 
-See [Using and Extending ExtJS Widgets](../../../sites/developing/using/widgets.md) for more details.
+See [Using and Extending ExtJS Widgets](/help/sites/developing/using/widgets.md) for more details.
 
 ## Using xtypes for ExtJS Widgets {#using-xtypes-for-extjs-widgets}
 
-See [Using xtypes](../../../sites/developing/using/xtypes.md) for more details.
+See [Using xtypes](/help/sites/developing/using/xtypes.md) for more details.
 
 ## Developing New Components {#developing-new-components}
 
@@ -142,7 +142,7 @@ An example of how to develop a component is described in detail in [Extending th
 
 ### Develop a New Component (Adapt Existing Component) {#develop-a-new-component-adapt-existing-component}
 
-To develop new components for AEM based on existing component you can copy the component, create a javascript file for the new component and store it in a location accessible to AEM (see also [Customizing Components and Other Elements](../../../sites/developing/using/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)):
+To develop new components for AEM based on existing component you can copy the component, create a javascript file for the new component and store it in a location accessible to AEM (see also [Customizing Components and Other Elements](/help/sites/developing/using/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)):
 
 1. Using CRXDE Lite, create a new component folder in:
 
@@ -259,7 +259,7 @@ The following techniques are described in this exercise:
 
 >[!NOTE]
 >
->This example is based on the Geometrixx sample content, which is no longer shipped with AEM, having been replaced by We.Retail. See the document [We.Retail Reference Implementation](../../../sites/developing/using/we-retail.md#we-retail-geometrixx) for how to download and install Geometrixx.
+>This example is based on the Geometrixx sample content, which is no longer shipped with AEM, having been replaced by We.Retail. See the document [We.Retail Reference Implementation](/help/sites/developing/using/we-retail.md#we-retail-geometrixx) for how to download and install Geometrixx.
 
 #### Extending the Existing textimage Component {#extending-the-existing-textimage-component}
 

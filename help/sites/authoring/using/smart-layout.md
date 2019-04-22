@@ -76,9 +76,9 @@ Using Smart Layout follows the work flow:
 
 To use Smart Layouting to create variations targeted at the appropriate audience there are several stages:
 
-* [Create a new page with the targeting and smart layout containers, the latter holding experience fragments](../../../sites/authoring/using/smart-layout.md#create-a-page-with-containers).
-* [Create an activity](../../../sites/authoring/using/smart-layout.md#create-an-activity).
-* [Configure targeting](../../../sites/authoring/using/smart-layout.md#configure-targeting).
+* [Create a new page with the targeting and smart layout containers, the latter holding experience fragments](/help/sites/authoring/using/smart-layout.md#create-a-page-with-containers).
+* [Create an activity](/help/sites/authoring/using/smart-layout.md#create-an-activity).
+* [Configure targeting](/help/sites/authoring/using/smart-layout.md#configure-targeting).
 
 ### Create a Page with Containers {#create-a-page-with-containers}
 

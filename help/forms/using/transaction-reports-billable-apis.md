@@ -485,7 +485,7 @@ Actions like submitting a PDF Form, using Agent UI to preview an interactive com
 
 ## Related Articles {#related-articles}
 
-* [Transaction Reports Overview](../../forms/using/transaction-reports-overview.md)
-* [Viewing and Understanding a Transaction Reports](../../forms/using/viewing-and-understanding-transaction-reports.md)
-* [Record a transaction for custom implementations](../../forms/using/record-transaction-custom-implementation.md)
+* [Transaction Reports Overview](/help/forms/using/transaction-reports-overview.md)
+* [Viewing and Understanding a Transaction Reports](/help/forms/using/viewing-and-understanding-transaction-reports.md)
+* [Record a transaction for custom implementations](/help/forms/using/record-transaction-custom-implementation.md)
 

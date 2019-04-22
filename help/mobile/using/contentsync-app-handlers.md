@@ -15,7 +15,7 @@ discoiquuid: fec86f03-f81e-460a-9f84-d6304c95128c
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 See the following guidelines for developing Content Sync Handlers:
 
@@ -202,10 +202,10 @@ It is possible to have multiple mobileappconfig handlers configured each with a 
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Authoring for Adobe PhoneGap Enterprise with AEM](../../mobile/using/phonegap.md)
-* [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md)
+* [Authoring for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/phonegap.md)
+* [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md)
 
 >[!NOTE]
 >
->To get started with AEM Mobile app development, click [here](../../mobile/using/getting-started-aem-mobile.md).
+>To get started with AEM Mobile app development, click [here](/help/mobile/using/getting-started-aem-mobile.md).
 

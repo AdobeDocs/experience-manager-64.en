@@ -35,7 +35,7 @@ On each Forms workflow page in administration console, you can perform a differe
      <li><p>Configure administrator notifications</p></li>
      <li><p>Configure configuration settings for Business Activity Monitoring </p></li>
     </ul></td> 
-   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="../../../forms/using/admin-help/configuring-server-settings.md#configuring-server-settings">Configuring Server Settings</a></p></td> 
+   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="/help/forms/using/admin-help/configuring-server-settings.md#configuring-server-settings">Configuring Server Settings</a></p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e23878 " valign="top" width="NaN%"><p>forms workflow</p></td> 
@@ -45,7 +45,7 @@ On each Forms workflow page in administration console, you can perform a differe
      <li><p>View and work with process instances, operations, and tasks</p></li>
      <li><p>Suspend, terminate, and retry process instances, subprocesses, and operations</p></li>
     </ul></td> 
-   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="../../../forms/using/admin-help/processes.md#managing-processes">Managing Processes</a></p></td> 
+   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="/help/forms/using/admin-help/processes.md#managing-processes">Managing Processes</a></p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e23878 " valign="top" width="NaN%"><p>Process Search</p></td> 
@@ -53,7 +53,7 @@ On each Forms workflow page in administration console, you can perform a differe
     <ul>
      <li><p>Search for processes</p></li>
     </ul></td> 
-   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="../../../forms/using/admin-help/searching-process-instances.md#searching-for-process-instances">Searching for process instances</a></p></td> 
+   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="/help/forms/using/admin-help/searching-process-instances.md#searching-for-process-instances">Searching for process instances</a></p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e23878 " valign="top" width="NaN%"><p>Task Search</p></td> 
@@ -61,7 +61,7 @@ On each Forms workflow page in administration console, you can perform a differe
     <ul>
      <li><p>Search for tasks by user or task ID</p></li>
     </ul></td> 
-   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="../../../forms/using/admin-help/tasks.md#working-with-tasks">Working with tasks</a></p></td> 
+   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="/help/forms/using/admin-help/tasks.md#working-with-tasks">Working with tasks</a></p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e23878 " valign="top" width="NaN%"><p>Stalled Operations Errors</p></td> 
@@ -70,7 +70,7 @@ On each Forms workflow page in administration console, you can perform a differe
      <li><p>View all stalled operations and their errors</p></li>
      <li><p>Retry or terminate stalled operations</p></li>
     </ul></td> 
-   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="../../../forms/using/admin-help/stalled-operations-branches.md#working-with-stalled-operations-and-branches">Working with stalled operations and branches</a></p></td> 
+   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="/help/forms/using/admin-help/stalled-operations-branches.md#working-with-stalled-operations-and-branches">Working with stalled operations and branches</a></p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e23878 " valign="top" width="NaN%"><p>Stalled Branch Errors</p></td> 
@@ -79,7 +79,7 @@ On each Forms workflow page in administration console, you can perform a differe
      <li><p>View all stalled branches and their errors</p></li>
      <li><p>Retry stalled branches</p></li>
     </ul></td> 
-   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="../../../forms/using/admin-help/stalled-operations-branches.md#working-with-stalled-operations-and-branches">Working with stalled operations and branches</a></p></td> 
+   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="/help/forms/using/admin-help/stalled-operations-branches.md#working-with-stalled-operations-and-branches">Working with stalled operations and branches</a></p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e23878 " valign="top" width="NaN%"><p>Out of Office</p></td> 
@@ -90,7 +90,7 @@ On each Forms workflow page in administration console, you can perform a differe
      <li><p>Add an Out of Office date range </p></li>
      <li><p>Specify what to do with tasks while the user is Out of Office</p></li>
     </ul></td> 
-   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="../../../forms/using/admin-help/configuring-out-office-settings.md#configuring-out-of-office-settings">Configuring Out of Office Settings</a></p></td> 
+   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="/help/forms/using/admin-help/configuring-out-office-settings.md#configuring-out-of-office-settings">Configuring Out of Office Settings</a></p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e23878 " valign="top" width="NaN%"><p>Business Calendars</p></td> 
@@ -98,7 +98,7 @@ On each Forms workflow page in administration console, you can perform a differe
     <ul>
      <li><p>Create business calendars that define business and non-business days</p></li>
     </ul></td> 
-   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="../../../forms/using/admin-help/configuring-business-calendars.md#configuring-business-calendars">Configuring Business Calendars</a></p></td> 
+   <td class="cellrowborder" headers="d19e23884 " valign="top" width="NaN%"><p><a href="/help/forms/using/admin-help/configuring-business-calendars.md#configuring-business-calendars">Configuring Business Calendars</a></p></td> 
   </tr> 
   <tr>
    <td class="cellrowborder" headers="d19e23878 " valign="top" width="NaN%"><p>Shared Queue</p></td> 

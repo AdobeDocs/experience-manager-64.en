@@ -21,7 +21,7 @@ You can generate manual and automatic Full HD renditions. The following section 
 >
 >In case the AEM Screens video renditions do not play optimally on your device, contact the hardware vendor for the specifications of the video. This will help to get the best performance on the device and hence create your own custom video profile where you provide the appropriate parameters for FFMPEG to generate your rendition. Subsequently, use the steps below to add your custom video profile to the list of profiles.
 >
->Additionally, see [Troubleshooting Videos](../../screens/using/troubleshoot-videos.md) to debug and troubleshoot video playing in your channel.
+>Additionally, see [Troubleshooting Videos](/help/screens/using/troubleshoot-videos.md) to debug and troubleshoot video playing in your channel.
 
 Follow the steps below to automatically generate full HD renditions:
 

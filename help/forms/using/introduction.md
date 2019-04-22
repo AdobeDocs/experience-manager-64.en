@@ -35,10 +35,10 @@ Form developers can use an XFA template to render forms in PDF and HTML5 formats
 
 ## Manage HTML5 forms {#manage-html-forms}
 
-AEM also provides a unified view for listing and managing all form templates using AEM Forms UI. You can activate, deactivate, publish, and preview forms. For more information, see [Introduction to managing forms](../../forms/using/introduction-managing-forms.md).
+AEM also provides a unified view for listing and managing all form templates using AEM Forms UI. You can activate, deactivate, publish, and preview forms. For more information, see [Introduction to managing forms](/help/forms/using/introduction-managing-forms.md).
 
 ### Forms customization {#forms-customization}
 
-HTML5 forms renders form templates using standard HTML5 constructs. This makes it simple to customize and extend forms in HTML5 format using web technologies, primarily CSS, and JavaScript. You can easily customize the appearance of existing widgets, create your own custom widgets, or use custom styles in forms. For more information about creating custom widgets and customizing existing widgets, see [Plug in custom widgets with HTML5 forms](../../forms/using/custom-widgets.md).
+HTML5 forms renders form templates using standard HTML5 constructs. This makes it simple to customize and extend forms in HTML5 format using web technologies, primarily CSS, and JavaScript. You can easily customize the appearance of existing widgets, create your own custom widgets, or use custom styles in forms. For more information about creating custom widgets and customizing existing widgets, see [Plug in custom widgets with HTML5 forms](/help/forms/using/custom-widgets.md).
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -13,7 +13,7 @@ discoiquuid: f8991416-995b-4160-a705-d131e78089ee
 
 # Extending and Configuring the Design Importer for Landing Pages{#extending-and-configuring-the-design-importer-for-landing-pages}
 
-This section describes how to configure and if desired, extend the design importer for landing pages. Working with Landing Pages after import is covered in [Landing Pages.](../../../sites/authoring/using/landingpages.md)
+This section describes how to configure and if desired, extend the design importer for landing pages. Working with Landing Pages after import is covered in [Landing Pages.](/help/sites/authoring/using/landingpages.md)
 
 **Making the design importer extract your custom component**
 
@@ -94,7 +94,7 @@ Before you import the landing page, you may want to convert some of the parts of
 
 You do this by adding the `data-cq-component` to the appropriate component in the HTML file that you import.
 
-The following section describes how to edit your HTML file so that you convert certain parts of your landing pages into different editable AEM components. Components are described in detail at [Landing Pages Components](../../../sites/authoring/using/landingpages.md).
+The following section describes how to edit your HTML file so that you convert certain parts of your landing pages into different editable AEM components. Components are described in detail at [Landing Pages Components](/help/sites/authoring/using/landingpages.md).
 
 >[!NOTE]
 >
@@ -432,7 +432,7 @@ If no encoding is specified in the imported HTML, then the default encoding set 
 
 The Blank Landing Page template can be overlayed by creating a new one at: `/apps/<appName>/designimporter/templates/<templateName>`
 
-Steps for creating a new template in AEM are explained [here](../../../sites/developing/using/templates.md).
+Steps for creating a new template in AEM are explained [here](/help/sites/developing/using/templates.md).
 
 ### Referring a component from Landing page {#referring-a-component-from-landing-page}
 

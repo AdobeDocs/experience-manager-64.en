@@ -17,7 +17,7 @@ You will need to create a design for your website and in AEM, you do so by using
 
 >[!NOTE]
 >
->For more information about Web accessibility, see [AEM and the Web Accessibility Guidelines](../../../managing/using/web-accessibility.md).
+>For more information about Web accessibility, see [AEM and the Web Accessibility Guidelines](/help/managing/using/web-accessibility.md).
 
 ## Using the Designer {#using-the-designer}
 

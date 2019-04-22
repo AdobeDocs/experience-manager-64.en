@@ -21,16 +21,16 @@ This page shows creating and managing displays for Screens.
 
 **Pre-requisites**:
 
-* [Configuring and Deploying Screens](../../sites/deploying/using/configuring-screens-introduction.md)
-* [Create and Manage Screens Project](../../screens/using/creating-a-screens-project.md)
-* [Create and Manage Channels](../../screens/using/managing-channels.md)
-* [Create and Manage Locations](../../screens/using/managing-locations.md)
+* [Configuring and Deploying Screens](/help/sites/deploying/using/configuring-screens-introduction.md)
+* [Create and Manage Screens Project](/help/screens/using/creating-a-screens-project.md)
+* [Create and Manage Channels](/help/screens/using/managing-channels.md)
+* [Create and Manage Locations](/help/screens/using/managing-locations.md)
 
 ## Creating a New Display {#creating-a-new-display}
 
 >[!NOTE]
 >
->You need to create a location before creating a display. To see how to create a location, see [Create and Manage Locations](../../screens/using/managing-locations.md) for more information.
+>You need to create a location before creating a display. To see how to create a location, see [Create and Manage Locations](/help/screens/using/managing-locations.md) for more information.
 
 To create a new display in your location, follow the steps below:
 
@@ -56,7 +56,7 @@ Once you have display in position, the next step will be to create a device conf
 >
 >Once you create a display for your location, you need to assign a channel to your display to leverage the content.
 >
->See [Assign Channels](../../screens/using/channel-assignment.md)**** section to learn how to assign a channel to the display.
+>See [Assign Channels](/help/screens/using/channel-assignment.md)**** section to learn how to assign a channel to the display.
 
 ## Creating a New Device Config {#creating-a-new-device-config}
 
@@ -84,7 +84,7 @@ Once a device config is set to your display in the location, the next step will 
 >
 >As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
 >
->You should have prior understanding of creating and managing channels. See [Create and Manage Channels](../../screens/using/managing-channels.md) for more details.
+>You should have prior understanding of creating and managing channels. See [Create and Manage Channels](/help/screens/using/managing-channels.md) for more details.
 
 ![](assets/chlimage_1-9.png)
 
@@ -142,4 +142,4 @@ Additionally, click on the device config to view properties, assign a device, or
 
 Once you complete creating a display for your location, you need to assign a channel for your display.
 
-See [Assign Channels](../../screens/using/channel-assignment.md) for more details.
+See [Assign Channels](/help/screens/using/channel-assignment.md) for more details.

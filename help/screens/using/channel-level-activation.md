@@ -16,14 +16,14 @@ noindex: true
 
 Using Channel Level Activation covers the following topics:
 
-* ** [Overview](../../screens/using/channel-level-activation.md#overview)**
-* ** [Using Channel Level Activation as a Single Event Playback](../../screens/using/channel-level-activation.md#using-channel-level-activation)**
+* ** [Overview](/help/screens/using/channel-level-activation.md#overview)**
+* ** [Using Channel Level Activation as a Single Event Playback](/help/screens/using/channel-level-activation.md#using-channel-level-activation)**
 
-    * ** [Prerequisites](../../screens/using/channel-level-activation.md#prerequisites)**
-    * ** [Implementation](../../screens/using/channel-level-activation.md#implementation)  
+    * ** [Prerequisites](/help/screens/using/channel-level-activation.md#prerequisites)**
+    * ** [Implementation](/help/screens/using/channel-level-activation.md#implementation)  
       **
 
-* ** [Viewing the Results](../../screens/using/channel-level-activation.md#viewing-the-results)**
+* ** [Viewing the Results](/help/screens/using/channel-level-activation.md#viewing-the-results)**
 
 ## Overview {#overview}
 
@@ -59,9 +59,9 @@ The following image shows the **Channel Level Activation** project with **MainAd
 >
 >For additional information on how to create a project and how to create a sequence channel, please refer to resources below:
 >
->* ** [Creating and Managing Projects](../../screens/using/creating-a-screens-project.md)  
+>* ** [Creating and Managing Projects](/help/screens/using/creating-a-screens-project.md)  
 >  **
->* ** [Managing a Channel](../../screens/using/managing-channels.md)**
+>* ** [Managing a Channel](/help/screens/using/managing-channels.md)**
 >
 
 ### Implementation {#implementation}
@@ -84,7 +84,7 @@ Follow the steps below to implement the functionality:
 
    >[!NOTE]
    >
-   >To learn how to create a location, please refer to ** [Creating and Managing Locations](../../screens/using/managing-locations.md)**.
+   >To learn how to create a location, please refer to ** [Creating and Managing Locations](/help/screens/using/managing-locations.md)**.
 
 1. **Create Display under Location**
 
@@ -166,6 +166,6 @@ The player displays the content of **MainAdChannel** and exactly at 11:59 pm (as
 >To learn about AEM Screen Player, please refer to the following resources:
 >
 >* [**AEM Screens Player downloads**](https://download.macromedia.com/screens/)
->* [**Working with AEM Screens Player**](../../sites/authoring/using/working-with-screens-player.md)
+>* [**Working with AEM Screens Player**](/help/sites/authoring/using/working-with-screens-player.md)
 >
 

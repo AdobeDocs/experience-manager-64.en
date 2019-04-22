@@ -15,12 +15,12 @@ discoiquuid: 31dd8db3-ddac-429e-82f8-8c5dc4ffc186
 
 Hybrid domains require at least one authentication provider, and enterprise domains require at least one authentication provider or directory provider.
 
-If you enable SSO using SPNEGO, add a Kerberos authentication provider with SPNEGO enabled and an LDAP provider as a backup. This configuration enables user authentication with a user ID and password if SPNEGO is not working. (See [Enable SSO using SPNEGO](../../../forms/using/admin-help/enabling-single-sign-on-aem.md#enable-sso-using-spnego).)
+If you enable SSO using SPNEGO, add a Kerberos authentication provider with SPNEGO enabled and an LDAP provider as a backup. This configuration enables user authentication with a user ID and password if SPNEGO is not working. (See [Enable SSO using SPNEGO](/help/forms/using/admin-help/enabling-single-sign-on-aem.md#enable-sso-using-spnego).)
 
 ## Add an authentication provider {#add-an-authentication-provider}
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
-1. Click an existing domain in the list. If you are adding authentication for a new domain, see [Add an enterprise domain](../../../forms/using/admin-help/adding-domains.md#add-an-enterprise-domain) or [Add a hybrid domain](../../../forms/using/admin-help/adding-domains.md#add-a-hybrid-domain). 
+1. Click an existing domain in the list. If you are adding authentication for a new domain, see [Add an enterprise domain](/help/forms/using/admin-help/adding-domains.md#add-an-enterprise-domain) or [Add a hybrid domain](/help/forms/using/admin-help/adding-domains.md#add-a-hybrid-domain). 
 1. Click Add Authentication and, in the Authentication Provider list, select a provider, depending on the authentication mechanism your organization uses. 
 1. Provide any additional information required on the page. (See [Authentication settings](configuring-authentication-providers.md#authentication-settings).) 
 1. (Optional) Click Test to test the configuration.
@@ -90,7 +90,7 @@ If you are configuring authentication for an enterprise or hybrid domain and sel
 
 ### SAML settings {#saml-settings}
 
-If you are configuring authentication for an enterprise or hybrid domain and select SAML authentication, the following settings are available. For information about additional SAML settings, see [Configure SAML service provider settings](../../../forms/using/admin-help/configure-saml-service-provider-settings.md#configure-saml-service-provider-settings).
+If you are configuring authentication for an enterprise or hybrid domain and select SAML authentication, the following settings are available. For information about additional SAML settings, see [Configure SAML service provider settings](/help/forms/using/admin-help/configure-saml-service-provider-settings.md#configure-saml-service-provider-settings).
 
 **Please select a SAML Identity Provider Metadata&#xA;file to import:** Click Browse to select a SAML identity provider metadata file generated from your IDP and then click Import. Details from IDP are displayed.
 

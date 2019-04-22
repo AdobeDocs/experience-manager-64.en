@@ -15,8 +15,8 @@ discoiquuid: 046b1bf9-1ac7-4e2e-ab37-6fe5422dfa20
 
 XFA form templates or XDPs are the templates for:
 
-* [Letters](../../forms/using/create-letter.md)
-* [Print channel](../../forms/using/web-channel-print-channel.md#printchannel) of [Interactive Communications](../../forms/using/interactive-communications-overview.md)
+* [Letters](/help/forms/using/create-letter.md)
+* [Print channel](/help/forms/using/web-channel-print-channel.md#printchannel) of [Interactive Communications](/help/forms/using/interactive-communications-overview.md)
 
 * Layout Fragments
 

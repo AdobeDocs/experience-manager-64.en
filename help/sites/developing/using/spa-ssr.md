@@ -15,17 +15,17 @@ discoiquuid: 30d25772-0df7-468e-bcbd-c6fb2e962662
 
 >[!CAUTION]
 >
->Although the Single-Page Application (SPA) Editor is available as part of the [We.Retail Journal](https://github.com/adobe/aem-sample-we-retail-journal) sample content (requires [AEM 6.4 service pack 2](../../../release-notes/sp-release-notes.md)), its server side rendering features as described in this document are still considered a technical preview, available for testing and feedback but not intended for production roll out.
+>Although the Single-Page Application (SPA) Editor is available as part of the [We.Retail Journal](https://github.com/adobe/aem-sample-we-retail-journal) sample content (requires [AEM 6.4 service pack 2](/help/release-notes/sp-release-notes.md)), its server side rendering features as described in this document are still considered a technical preview, available for testing and feedback but not intended for production roll out.
 
 ## Overview {#overview}
 
-Single page applications (SPAs) can offer the user a rich, dynamic experience that reacts and behaves in familiar ways, often just like a native application. [This is achieved by relying on the client to load the content up front and then do the heavy lifting of handling user interaction](../../../sites/developing/using/spa-walkthrough.md#how-does-a-spa-work) and thus minimizing the amount of communication needed between the client and the server, making the app more reactive.
+Single page applications (SPAs) can offer the user a rich, dynamic experience that reacts and behaves in familiar ways, often just like a native application. [This is achieved by relying on the client to load the content up front and then do the heavy lifting of handling user interaction](/help/sites/developing/using/spa-walkthrough.md#how-does-a-spa-work) and thus minimizing the amount of communication needed between the client and the server, making the app more reactive.
 
 However this can lead to longer initial load times, especially if the SPA is large and rich in its content. In order to optimize load times, some of the content can be rendered server-side. Using server side rendering (SSR) can accelerate the initial load of the page and then pass further rendering on to the client.
 
 ## AEM-Driven Communication Flow {#aem-driven-communication-flow}
 
-When using SSR, the [component interaction workflow](../../../sites/developing/using/spa-overview.md#workflow) of SPAs in AEM includes a phase in which the initial content of the app is generated on a Node.js server.
+When using SSR, the [component interaction workflow](/help/sites/developing/using/spa-overview.md#workflow) of SPAs in AEM includes a phase in which the initial content of the app is generated on a Node.js server.
 
 1. The browser requests the SSR content from AEM  
 
@@ -72,7 +72,7 @@ Both models are valid and supported by AEM. However, one should consider the adv
     </ul> </td> 
    <td>
     <ul> 
-     <li>Clientlib resources required by the application such as CSS and JavaScript will need to be made available by the AEM developer via the <span class="code"><a href="../../../sites/developing/using/clientlibs.md#locating-a-client-library-folder-and-using-the-proxy-client-libraries-servlet">allowProxy</a></span> property<br /> </li> 
+     <li>Clientlib resources required by the application such as CSS and JavaScript will need to be made available by the AEM developer via the <span class="code"><a href="/help/sites/developing/using/clientlibs.md#locating-a-client-library-folder-and-using-the-proxy-client-libraries-servlet">allowProxy</a></span> property<br /> </li> 
      <li>Resources must be synched between AEM and the Node.js server</li> 
      <li>To enable authoring of the SPA, a proxy server for the Node.js instance may be necessary</li> 
     </ul> </td> 
