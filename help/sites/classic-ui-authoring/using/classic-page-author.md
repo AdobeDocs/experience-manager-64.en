@@ -15,9 +15,9 @@ discoiquuid: 3fe5b6cc-1494-43e1-add7-2f7828b676ad
 
 The following provide two types of overview to authoring with AEM:
 
-* [First Steps for Authors](../../../sites/classic-ui-authoring/using/classic-page-author-first-steps.md) - an introduction for new authors  
+* [First Steps for Authors](/help/sites/classic-ui-authoring/using/classic-page-author-first-steps.md) - an introduction for new authors  
 
-* [Quick Guide to Authoring Pages](../../../sites/classic-ui-authoring/using/classic-page-author-qg-page-authoring.md) - a quick guide (high-level) to the main actions
+* [Quick Guide to Authoring Pages](/help/sites/classic-ui-authoring/using/classic-page-author-qg-page-authoring.md) - a quick guide (high-level) to the main actions
 
 >[!NOTE]
 >
@@ -36,10 +36,10 @@ To aid you when authoring pages the author environment provides features such as
 * **In-place Editing** 
   Text and Image components can be edited directly on the webpage without opening a dialog box or an explicit save action.
 
-* ** [Sidekick](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#sidekickclassicui)** 
+* ** [Sidekick](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#sidekickclassicui)** 
   A floating "inspector" window that appears on the editable page. From here new components can be dragged onto the page and page-specific actions can be executed.
 
-* ** [Content Finder](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#thecontentfinderclassicui)** 
+* ** [Content Finder](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#thecontentfinderclassicui)** 
   On the left side of each authorable page, the content finder provides quick access to a range of assets, including digital assets (such as other images, Flash elements and documents), other pages and paragraphs. These items can be dragged to the page; for example to position assets or create links to other pages.
 
 * **Context menu** 

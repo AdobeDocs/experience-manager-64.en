@@ -13,7 +13,7 @@ discoiquuid: aa3e50f1-8f5a-489d-a42e-a928e437ab79
 
 ## Overview {#overview}
 
-AEM Forms enables form authors to further simplify and enhance the form filling experience by invoking services configured in a form data model from within an adaptive form field. To invoke a data model service, you can either create a rule in the visual editor or specify a JavaScript using the `guidelib.dataIntegrationUtils.executeOperation` API in the code editor of the [rule editor](../../forms/using/rule-editor.md).
+AEM Forms enables form authors to further simplify and enhance the form filling experience by invoking services configured in a form data model from within an adaptive form field. To invoke a data model service, you can either create a rule in the visual editor or specify a JavaScript using the `guidelib.dataIntegrationUtils.executeOperation` API in the code editor of the [rule editor](/help/forms/using/rule-editor.md).
 
 This document focuses on writing a JavaScript using the `guidelib.dataIntegrationUtils.executeOperation` API to invoke a service.
 

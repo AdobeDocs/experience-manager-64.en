@@ -16,7 +16,7 @@ discoiquuid: 295cb0a6-29db-42aa-824e-9141b37b5086
 >[!NOTE]
 >
 >Adobe is not planning to further enhance this capability (Managing Leads and Lists).  
->Recommendation is to leverage [Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to leverage [Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 Users can be asked to subscribe to **Email Service Provider's** mailing lists with the help of the** Form **component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
 

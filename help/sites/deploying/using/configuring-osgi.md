@@ -25,7 +25,7 @@ You can manage the configuration settings for such bundles by either:
 * using [configuration files](#osgi-configuration-with-configuration-files)
 * configuring [content-nodes ( `sling:OsgiConfig`) in the repository](#osgi-configuration-in-the-repository)
 
-Either method can be used though there are subtle differences, primarily in relation to [Run Modes](../../../sites/deploying/using/configure-runmodes.md):
+Either method can be used though there are subtle differences, primarily in relation to [Run Modes](/help/sites/deploying/using/configure-runmodes.md):
 
 * [Adobe CQ Web console](#osgi-configuration-with-the-web-console)
 
@@ -41,7 +41,7 @@ Either method can be used though there are subtle differences, primarily in rela
 * [content-nodes (sling:osgiConfig) in the repository](#osgi-configuration-in-the-repository)
 
     * This requires manual configuration using CRXDE Lite.
-    * Due to the naming conventions of the `sling:OsgiConfig` nodes, you can tie the configuration to a specific [run mode](../../../sites/deploying/using/configure-runmodes.md). You can even save configurations for more than one run mode in the same repository.
+    * Due to the naming conventions of the `sling:OsgiConfig` nodes, you can tie the configuration to a specific [run mode](/help/sites/deploying/using/configure-runmodes.md). You can even save configurations for more than one run mode in the same repository.
     
     * Any appropriate configurations are applied immediately (dependent on the run mode).
 
@@ -54,11 +54,11 @@ Whichever method you use, all of these configuration methods:
 
 >[!NOTE]
 >
->Details of certain important settings are listed under [OSGi Configuration Settings.](../../../sites/deploying/using/osgi-configuration-settings.md)
+>Details of certain important settings are listed under [OSGi Configuration Settings.](/help/sites/deploying/using/osgi-configuration-settings.md)
 
 ## OSGi Configuration with the Web Console {#osgi-configuration-with-the-web-console}
 
-The [Web console](../../../sites/deploying/using/configuring-web-console.md) in AEM provides a standardized interface for configuring the bundles. The **Configuration** tab is used for configuring the OSGi bundles, and is therefore the underlying mechanism for configuring AEM system parameters.
+The [Web console](/help/sites/deploying/using/configuring-web-console.md) in AEM provides a standardized interface for configuring the bundles. The **Configuration** tab is used for configuring the OSGi bundles, and is therefore the underlying mechanism for configuring AEM system parameters.
 
 Any changes made are immediately applied to the relevant OSGi configuration, no restart is required.
 
@@ -179,7 +179,7 @@ To add a new configuration to the repository you need to know the following:
 
    ![](assets/chlimage_1-141.png)
 
-1. Whether a specific [run mode](../../../sites/deploying/using/configure-runmodes.md) is required. Create the folder:
+1. Whether a specific [run mode](/help/sites/deploying/using/configure-runmodes.md) is required. Create the folder:
 
     * `config` - for all run modes
     * `config.author` - for the author environment

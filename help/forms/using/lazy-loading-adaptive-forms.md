@@ -24,15 +24,15 @@ Before you configure lazy loading of fragments in your adaptive form, it is impo
 * **Identify and create fragments** 
   You can configure only adaptive form fragments for lazy loading. A fragment is a stand-alone segment that resides outside an adaptive form and can be reused across forms. So, the first step toward implementing lazy loading is to identify logical sections in a form and convert them into fragments. You can create a fragment from scratch or save an existing form panel as fragment.  
   
-  For more information about creating fragments, see [Adaptive form fragments](../../forms/using/adaptive-form-fragments.md).
+  For more information about creating fragments, see [Adaptive form fragments](/help/forms/using/adaptive-form-fragments.md).
 
 * **Identify and mark global values** 
   Forms-based transactions involve dynamic elements to capture relevant data from users and process it to simplify form filling experience. For example, your form has field A in fragment X whose value determines the validity of field B in another fragment. In this case, if fragment X is marked for lazy loading, the value of field A must be available to validate field B even when fragment X is not loaded. To achieve this, you can mark field A as global, which ensures that its value is available for validating field B when fragment X is not loaded.  
   
-  For information about how to make a field value global, see [Configuring lazy loading](../../forms/using/lazy-loading-adaptive-forms.md#p-configuring-lazy-loading-p).
+  For information about how to make a field value global, see [Configuring lazy loading](/help/forms/using/lazy-loading-adaptive-forms.md#p-configuring-lazy-loading-p).
 
 * **Write rules to control visibility of fields** 
-  Forms include some fields and sections that are not applicable to all users and in all conditions. Forms authors and developers use visibility or show-hide rules to control their visibility based on user inputs. For example, the Office Address field is not shown to the users who choose Unemployed in the Employment Status field in a form. For more information about writing rules, see [Using rule editor](../../forms/using/rule-editor.md).  
+  Forms include some fields and sections that are not applicable to all users and in all conditions. Forms authors and developers use visibility or show-hide rules to control their visibility based on user inputs. For example, the Office Address field is not shown to the users who choose Unemployed in the Employment Status field in a form. For more information about writing rules, see [Using rule editor](/help/forms/using/rule-editor.md).  
   
   You can leverage visibility rules in the lazily loaded fragments so that conditional fields are shown only when they are required. Also, mark the conditional field global to refer to it in the visibility expression of the lazily loaded fragment.
 

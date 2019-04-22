@@ -15,7 +15,7 @@ discoiquuid: b2778086-8280-4306-bf3a-f6ec2a0e04df
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build.
 
@@ -36,8 +36,8 @@ You only need to move the files in the `/content/phonegap/content/*<application 
 
 AEM provides two methods for moving bulk content to the publish instance:
 
-* [Use the Activate Tree command](../../sites/authoring/using/publishing-pages.md) on the replication console.
-* [Create a package](../../sites/administering/using/package-manager.md) that contains the content and replicate the package.
+* [Use the Activate Tree command](/help/sites/authoring/using/publishing-pages.md) on the replication console.
+* [Create a package](/help/sites/administering/using/package-manager.md) that contains the content and replicate the package.
 
 For example, a mobile application named phonegapapp is created. The following node must be moved to the publish instance: /content/phonegap/content/phonegapapp.
 
@@ -166,4 +166,4 @@ Send your application resources to PhoneGap Build for compiling for the various 
 
 ### The Next Steps {#the-next-steps}
 
-The next step after the building process is learning about the [Structure of an app](../../mobile/using/phonegap-structure-an-app.md).
+The next step after the building process is learning about the [Structure of an app](/help/mobile/using/phonegap-structure-an-app.md).

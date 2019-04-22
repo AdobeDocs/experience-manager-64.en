@@ -12,15 +12,15 @@ discoiquuid: 61cd5751-0dc8-48e0-873e-3a64899489bb
 
 # Dynamic Media Repository Restructuring in AEM 6.4{#dynamic-media-repository-restructuring-in-aem}
 
-As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the Dynamic Media Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
+As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the Dynamic Media Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
 
 **Prior to 6.5 Upgrade**
 
-* [Custom Adaptive Video Encoding Configurations](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#custom-adaptive-video-encoding-configurations)
-* [Dynamic Media (DMS7) Cloud Configuration](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#dynamic-media-dms-cloud-configuration)
-* [Dynamic Media (DM Hybrid) Cloud Service Configuration](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#cloudserviceconfiguration)
-* [Dynamic Media - YouTube Cloud Service Configuration](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#youtubecloudserviceconfiguration)
-* [Misc](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#misc)
+* [Custom Adaptive Video Encoding Configurations](/help/sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#custom-adaptive-video-encoding-configurations)
+* [Dynamic Media (DMS7) Cloud Configuration](/help/sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#dynamic-media-dms-cloud-configuration)
+* [Dynamic Media (DM Hybrid) Cloud Service Configuration](/help/sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#cloudserviceconfiguration)
+* [Dynamic Media - YouTube Cloud Service Configuration](/help/sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#youtubecloudserviceconfiguration)
+* [Misc](/help/sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md#misc)
 
 ## Prior to 6.5 Upgrade {#prior-to-upgrade}
 

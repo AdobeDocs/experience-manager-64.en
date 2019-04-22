@@ -13,7 +13,7 @@ discoiquuid: 8fe97181-600e-42ac-af25-d5d4db248740
 
 # Create and Assign Enablement Resources{#create-and-assign-enablement-resources}
 
-| ** [⇐ Author a New Community Site for Enablement](../../communities/using/enablement-create-site.md)** |** [Experience the Published Site ⇒](../../communities/using/enablement-published-site.md)** |
+| ** [⇐ Author a New Community Site for Enablement](/help/communities/using/enablement-create-site.md)** |** [Experience the Published Site ⇒](/help/communities/using/enablement-published-site.md)** |
 |---|---|
 
 ## Add an Enablement Resource {#add-an-enablement-resource}
@@ -25,7 +25,7 @@ To add an enablement resource to the new community site:
     * for example, [http://localhost:4502/](http://localhost:4503/)
 
 * sign in as a system administrator
-* from global navigation, select **Communities, [Resources](../../communities/using/resources.md)**
+* from global navigation, select **Communities, [Resources](/help/communities/using/resources.md)**
 
 ![](assets/chlimage_1-199.png) ![](assets/chlimage_1-200.png)
 
@@ -187,6 +187,6 @@ Successful creation of the learning path returns to the Resources console with t
 
 **Publish **the learning path.
 
-| ** [⇐ Author a New Community Site for Enablement](../../communities/using/enablement-create-site.md)** |** [Experience the Published Site ⇒](../../communities/using/enablement-published-site.md)** |
+| ** [⇐ Author a New Community Site for Enablement](/help/communities/using/enablement-create-site.md)** |** [Experience the Published Site ⇒](/help/communities/using/enablement-published-site.md)** |
 |---|---|
 

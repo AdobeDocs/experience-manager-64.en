@@ -19,7 +19,7 @@ On the Adobe PDF Settings page, you can do the following tasks:
 
 * View the predefined PDF settings. (See [About the predefined PDF settings](configuring-pdf-settings.md#about-the-predefined-pdf-settings).)
 * Create a PDF setting or edit one that you created previously. (See [Add or edit PDF settings](configuring-pdf-settings.md#add-or-edit-pdf-settings).)
-* Specify default PDF settings. (See [Change the default settings](../../../forms/using/admin-help/configuring-file-type-settings.md#change-the-default-settings))
+* Specify default PDF settings. (See [Change the default settings](/help/forms/using/admin-help/configuring-file-type-settings.md#change-the-default-settings))
 * Upload a PDF settings file to the server. (See [Upload PDF settings](configuring-pdf-settings.md#upload-pdf-settings).)
 * Delete customized PDF settings. (See [Delete PDF settings](configuring-pdf-settings.md#delete-pdf-settings).)
 * Upload and download prologue and epilogue files. (See [Uploading and downloading prologue and epilogue files](configuring-pdf-settings.md#uploading-and-downloading-prologue-and-epilogue-files).)

@@ -38,9 +38,9 @@ You receive these notifications in your own Inbox where you can view them and ta
 >
 >For further information about the item types see also:
 >
->* [Projects](../../../sites/authoring/using/touch-ui-managing-projects.md)
->* [Projects - working with Tasks](../../../sites/authoring/using/task-content.md)
->* [Workflows](../../../sites/authoring/using/workflows.md)
+>* [Projects](/help/sites/authoring/using/touch-ui-managing-projects.md)
+>* [Projects - working with Tasks](/help/sites/authoring/using/task-content.md)
+>* [Workflows](/help/sites/authoring/using/workflows.md)
 >* [Forms](/help/forms/home.md)
 >
 
@@ -52,16 +52,16 @@ From any of the consoles the current number of items in your inbox is shown in t
 
 >[!NOTE]
 >
->Certain actions will also be shown in the [card view of the appropriate resource](../../../sites/authoring/using/basic-handling.md#card-view).
+>Certain actions will also be shown in the [card view of the appropriate resource](/help/sites/authoring/using/basic-handling.md#card-view).
 
 ## Out-of-the-Box Administrative Tasks  {#out-of-the-box-administrative-tasks}
 
 Out-of-the-box AEM comes pre-loaded with four tasks assigned to the administrator user group.
 
-* [Configure Analytics & Targeting](../../../sites/administering/using/opt-in.md)
-* [Apply the AEM Security Checklist](../../../sites/administering/using/security-checklist.md)
+* [Configure Analytics & Targeting](/help/sites/administering/using/opt-in.md)
+* [Apply the AEM Security Checklist](/help/sites/administering/using/security-checklist.md)
 * Enable Aggregated Usage Statistics Collection
-* [Configure HTTPS](../../../sites/deploying/using/config-ssl.md)
+* [Configure HTTPS](/help/sites/deploying/using/config-ssl.md)
 
 ## Opening the Inbox {#opening-the-inbox}
 
@@ -78,7 +78,7 @@ To open the AEM notification inbox:
 
 >[!NOTE]
 >
->The Inbox operates as a console, so use [Global Navigation](../../../sites/authoring/using/basic-handling.md#global-navigation) or [Search](../../../sites/authoring/using/search.md) to navigate to another location when you are finished.
+>The Inbox operates as a console, so use [Global Navigation](/help/sites/authoring/using/basic-handling.md#global-navigation) or [Search](/help/sites/authoring/using/search.md) to navigate to another location when you are finished.
 
 ### Inbox - List View {#inbox-list-view}
 
@@ -156,7 +156,7 @@ For both views (List and Calendar) you can define settings:
    >
    >    
    >    
-   >    * Workflow items - [Participating in Workflows](../../../sites/authoring/using/workflows-participating.md)
+   >    * Workflow items - [Participating in Workflows](/help/sites/authoring/using/workflows-participating.md)
    >    
    >
 
@@ -206,7 +206,7 @@ From the inbox you can create tasks:
 
 ## Creating a Project {#creating-a-project}
 
-For certain tasks you can create a [Project](../../../sites/authoring/using/projects.md) based on that task:
+For certain tasks you can create a [Project](/help/sites/authoring/using/projects.md) based on that task:
 
 1. Select the appropriate task, by tapping/clicking on the thumbnail.
 
@@ -235,7 +235,7 @@ For certain tasks you can create a [Project](../../../sites/authoring/using/proj
 
    >[!NOTE]
    >
-   >See [Creating a Project](../../../sites/authoring/using/touch-ui-managing-projects.md#creating-a-project) for full information.
+   >See [Creating a Project](/help/sites/authoring/using/touch-ui-managing-projects.md#creating-a-project) for full information.
 
 1. Select **Create** to confirm the action.
 

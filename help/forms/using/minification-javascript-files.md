@@ -21,7 +21,7 @@ To generate minified code for semantic changes follow these steps.
 
    >[!NOTE]
    >
-   >See [Introduction to Customizing AEM Forms workspace](../../forms/using/introduction-customizing-html-workspace.md) for more details about the packages.
+   >See [Introduction to Customizing AEM Forms workspace](/help/forms/using/introduction-customizing-html-workspace.md) for more details about the packages.
 
 1. Update paths in `main.js` located under client-html/src/main/webapp/js, for added/updated models/views.
 

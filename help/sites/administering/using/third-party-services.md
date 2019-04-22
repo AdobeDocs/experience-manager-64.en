@@ -27,13 +27,13 @@ With AEM, you can integrate with the following non-Adobe products out of the box
 * Twitter - social networking
 * YouTube - video sharing
 
-In addition, you can integrate AEM with the [marketing cloud](../../../sites/administering/using/marketing-cloud.md) and with the [creative cloud](../../../sites/administering/using/creative-cloud.md).
+In addition, you can integrate AEM with the [marketing cloud](/help/sites/administering/using/marketing-cloud.md) and with the [creative cloud](/help/sites/administering/using/creative-cloud.md).
 
 ## Integrating with Salesforce {#integrating-with-salesforce}
 
 Salesforce.com is the enterprise cloud computing company that is leading the shift to the Social Enterprise.
 
-For information about integrating your AEM site and Salesforce, see [Integrating with Salesforce](../../../sites/administering/using/salesforce.md).
+For information about integrating your AEM site and Salesforce, see [Integrating with Salesforce](/help/sites/administering/using/salesforce.md).
 
 ## Integrating with Silverpop Engage {#integrating-with-silverpop-engage}
 
@@ -43,20 +43,20 @@ For information about integrating your AEM site and Salesforce, see [Integrating
 
 Silverpop Engage provides marketing automation, email, mobile, and social.
 
-For information about integrating your AEM site and ExactTarget, see [Integrating with Silverpop Engage](../../../sites/administering/using/silverpop.md).
+For information about integrating your AEM site and ExactTarget, see [Integrating with Silverpop Engage](/help/sites/administering/using/silverpop.md).
 
 ## Integrating with ExactTarget {#integrating-with-exacttarget}
 
 ExactTarget's email marketing solutions enable organizations of all sizes to design and deliver highly-targeted, mission-critical, and fully-integrated email campaigns.
 
-For information about integrating your AEM site and ExactTarget, see [Configuring ExactTarget](../../../sites/administering/using/exacttarget.md).
+For information about integrating your AEM site and ExactTarget, see [Configuring ExactTarget](/help/sites/administering/using/exacttarget.md).
 
 ## Integrating with Facebook and Twitter {#integrating-with-facebook-and-twitter}
 
 Facebook and Twitter are popular social networking services. AEM's integration with Facebook and Twitter enables organizations to provide a Facebook or Twitter login option on owned digital properties, and then personalize the user experience based on profile information. Marketers can also combine profile information with data from additional sources, such as a customer relationship management system or a website profile, to create a unified view of the customer.
 
-See [Social Login](../../../communities/using/social-login.md) for more information.
+See [Social Login](/help/communities/using/social-login.md) for more information.
 
 ## Integrating with Other Providers {#integrating-with-other-providers}
 
-AEM lets you connect to other external providers with a [Generic Analytics Snippet.](../../../sites/administering/using/external-providers.md)
+AEM lets you connect to other external providers with a [Generic Analytics Snippet.](/help/sites/administering/using/external-providers.md)

@@ -15,7 +15,7 @@ discoiquuid: e228f1db-91ea-4ec3-86da-06d89d74bc72
 
 ## Solr for AEM Platform {#solr-for-aem-platform}
 
-An [Apache Solr](https://lucene.apache.org/solr/) installation may be shared between the [node store](../../sites/deploying/using/data-store-config.md) (Oak) and [common store](../../communities/using/working-with-srp.md) (SRP) by using different collections.
+An [Apache Solr](https://lucene.apache.org/solr/) installation may be shared between the [node store](/help/sites/deploying/using/data-store-config.md) (Oak) and [common store](/help/communities/using/working-with-srp.md) (SRP) by using different collections.
 
 If both the Oak and SRP collections are used intensively, a second Solr may be installed for performance reasons.
 
@@ -194,7 +194,7 @@ The Standard MLS files are stored in the AEM repository.
 1. [Create a collection](#create-a-collection) specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.
 1. If the configuration name was *not *provided during creation of the collection, [link this newly created collection](#link-a-collection-to-a-configuration-set) with the configuration uploaded to ZooKeeper
 
-1. For MSRP, run [MSRP Reindex Tool](../../communities/using/msrp.md#msrp-reindex-tool), unless this is a new installation
+1. For MSRP, run [MSRP Reindex Tool](/help/communities/using/msrp.md#msrp-reindex-tool), unless this is a new installation
 
 #### Standalone Mode - Standard MLS {#standalone-mode-standard-mls}
 
@@ -218,7 +218,7 @@ The Standard MLS files are stored in the AEM repository.
 
 For the SRP collection (MSRP or DSRP) to support advanced MLS, new Solr plug-ins are required in addition to a custom schema and Solr configuration. All required items are packaged into a downloadable zip file. In addition, an install script is included for use when Solr is deployed in standalone mode.
 
-To obtain the Advanced MLS package, see [AEM Advanced MLS](../../communities/using/deploy-communities.md#aem-advanced-mls) in the deploy section of the documentation.
+To obtain the Advanced MLS package, see [AEM Advanced MLS](/help/communities/using/deploy-communities.md#aem-advanced-mls) in the deploy section of the documentation.
 
 To get started with the install for either SolrCloud or standalone mode:
 

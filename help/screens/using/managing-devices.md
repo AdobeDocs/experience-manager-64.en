@@ -21,7 +21,7 @@ The Devices console allows you to access the device manager to assign your devic
 
 >[!CAUTION]
 >
->Before assigning your device, you need to register it. For more information, see [Device Registration](../../screens/using/managing-devices.md#device-assignment).
+>Before assigning your device, you need to register it. For more information, see [Device Registration](/help/screens/using/managing-devices.md#device-assignment).
 
 ## Device Assignment {#device-assignment}
 
@@ -69,5 +69,5 @@ Follow the steps below to assign a device to a display:
 
 Once you are familiar with assigning channel to a display, see the following resources:
 
-* [Monitor and troubleshoot](../../screens/using/monitoring-screens.md)
+* [Monitor and troubleshoot](/help/screens/using/monitoring-screens.md)
 

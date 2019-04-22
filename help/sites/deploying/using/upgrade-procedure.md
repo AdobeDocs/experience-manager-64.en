@@ -38,13 +38,13 @@ The assumed topology for this section consists of an Author server running on Ta
 
 1. Disable replication agents on the author  
 
-1. Run the [pre-upgrade maintenance tasks](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md).
+1. Run the [pre-upgrade maintenance tasks](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md).
 
 ### Upgrade Execution {#upgrade-execution}
 
 ![](assets/execute_upgrade.jpg)
 
-1. Run the [in-place upgrade](../../../sites/deploying/using/in-place-upgrade.md)
+1. Run the [in-place upgrade](/help/sites/deploying/using/in-place-upgrade.md)
 1. Update the dispatcher module *if needed* 
 
 1. QA validates the upgrade  
@@ -92,7 +92,7 @@ The assumed topology for this section consists of a MongoMK Author cluster with 
 
 1. Disable replication agents on the primary Author  
 
-1. Run [pre-upgrade maintenance tasks](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md) on the primary Author instance  
+1. Run [pre-upgrade maintenance tasks](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md) on the primary Author instance  
 
 1. If necessary, upgrade MongoDB on the primary Mongo instance to version 3.2 with WiredTiger
 
@@ -100,7 +100,7 @@ The assumed topology for this section consists of a MongoMK Author cluster with 
 
 ![](assets/mongo-execution.jpg)
 
-1. Run an [in-place upgrade](../../../sites/deploying/using/in-place-upgrade.md) on the primary Author  
+1. Run an [in-place upgrade](/help/sites/deploying/using/in-place-upgrade.md) on the primary Author  
 
 1. Update the Dispatcher or Web Module *if needed* 
 
@@ -152,9 +152,9 @@ The assumed topology for this section consists of two TarMK publish instances, f
 
 1. Stop traffic to the Publish 2 instance at the load balancer  
 
-1. Run [pre-upgrade maintenance](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md) on Publish 2  
+1. Run [pre-upgrade maintenance](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md) on Publish 2  
 
-1. Run an [in-place upgrade](../../../sites/deploying/using/in-place-upgrade.md) on Publish 2  
+1. Run an [in-place upgrade](/help/sites/deploying/using/in-place-upgrade.md) on Publish 2  
 
 1. Update the Dispatcher or Web Module *if needed* 
 
@@ -214,7 +214,7 @@ The assumed topology for this section consists of two TarMK publish instances, f
 
 1. Resume content authoring  
 
-1. Perform [post-upgrade checks](../../../sites/deploying/using/post-upgrade-checks-and-troubleshooting.md).
+1. Perform [post-upgrade checks](/help/sites/deploying/using/post-upgrade-checks-and-troubleshooting.md).
 
 ![](assets/final.jpg)
 

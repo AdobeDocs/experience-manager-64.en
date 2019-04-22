@@ -14,7 +14,7 @@ discoiquuid: 7ffe6317-174b-4d80-9ac6-9bfb5eed7e29
 
 ## Adaptive form data submission {#adaptive-form-data-submission}
 
-Adaptive forms provides several out-of-the-box [submit actions](../../forms/using/configuring-submit-actions.md) workflows for submitting the form data to different endpoints.
+Adaptive forms provides several out-of-the-box [submit actions](/help/forms/using/configuring-submit-actions.md) workflows for submitting the form data to different endpoints.
 
 For example, the **Email action **submit action sends an email on successful submission of an adaptive form. It can also be configured to send the form data and the PDF in the email.
 
@@ -30,7 +30,7 @@ The Email action enables an author to send email automatically to one or more re
 
 >[!NOTE]
 >
->To use the Email action, you need to configure the AEM mail service as described in [Configuring the mail service](../../sites/administering/using/notification.md#configuring-the-mail-service).
+>To use the Email action, you need to configure the AEM mail service as described in [Configuring the mail service](/help/sites/administering/using/notification.md#configuring-the-mail-service).
 
 ### Enabling Email action on an adaptive form {#enabling-email-action-on-an-adaptive-form}
 
@@ -52,7 +52,7 @@ The Email action enables an author to send email automatically to one or more re
 
    Specify the subject and the body of the email in the Subject and Email template fields, respectively.
 
-   You can also specify variable placeholders in the fields, in which case, the values of the fields are processed when the form is successfully submitted by an end user. For more information, see [Using adaptive form field names to dynamically create email content](../../forms/using/form-submission-receipt-via-email.md#p-using-adaptive-form-field-names-to-dynamically-create-email-content-p).
+   You can also specify variable placeholders in the fields, in which case, the values of the fields are processed when the form is successfully submitted by an end user. For more information, see [Using adaptive form field names to dynamically create email content](/help/forms/using/form-submission-receipt-via-email.md#p-using-adaptive-form-field-names-to-dynamically-create-email-content-p).
 
    Select Include attachments if the form includes file attachments and you want to attach these files in the email.
 

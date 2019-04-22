@@ -17,7 +17,7 @@ When you integrate with Adobe Campaign, you have components available for when w
 
 ## Adobe Campaign Newsletter Components {#adobe-campaign-newsletter-components}
 
-All the Campaign components follow the best practices outlined in [Best Practices for Email Templates](../../../sites/administering/using/best-practices-for-email-templates.md) and are based on the Adobe markup language [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html).
+All the Campaign components follow the best practices outlined in [Best Practices for Email Templates](/help/sites/administering/using/best-practices-for-email-templates.md) and are based on the Adobe markup language [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html).
 
 When you open a newsletter/email that is configured to integrate with Adobe Campaign, you should see the following components in the **Adobe Campaign Newsletter **section:
 
@@ -62,7 +62,7 @@ The image (campaign) component displays an image and accompanying text according
 
 You can upload an image, then edit and manipulate it (for example, crop, rotate, add link/title/text).
 
-You can upload an image, then edit and manipulate it (for example crop, rotate, add link/title/text). You can either drag and drop an image from the [Content Finder](../../../sites/authoring/using/author-environment-tools.md#thecontentfinderclassicui) directly onto the component or its Edit dialog. You can also double-click in the central area of the Edit dialog to browse your local file system and upload an image. The two tabs of the Edit dialog also control all definitions and manipulation of the image:
+You can upload an image, then edit and manipulate it (for example crop, rotate, add link/title/text). You can either drag and drop an image from the [Content Finder](/help/sites/authoring/using/author-environment-tools.md#thecontentfinderclassicui) directly onto the component or its Edit dialog. You can also double-click in the central area of the Edit dialog to browse your local file system and upload an image. The two tabs of the Edit dialog also control all definitions and manipulation of the image:
 
 ![](assets/chlimage_1-115.png)
 
@@ -192,7 +192,7 @@ The following example shows a Text & Image (Campaign) component being displayed.
 
 ### Text & Personalization (Campaign) {#text-personalization-campaign}
 
-The Text & Personalization (Campaign) component lets you enter a text block using a WYSIWYG editor, with functionality provided by the [Rich Text editor](../../../sites/authoring/using/rich-text-editor.md). In addition, this component lets you use context fields and personalization blocks available from Adobe Campaign; also see [Inserting Personalization](../../../sites/classic-ui-authoring/using/classic-personalization-ac-campaign.md#inserting-personalization).
+The Text & Personalization (Campaign) component lets you enter a text block using a WYSIWYG editor, with functionality provided by the [Rich Text editor](/help/sites/authoring/using/rich-text-editor.md). In addition, this component lets you use context fields and personalization blocks available from Adobe Campaign; also see [Inserting Personalization](/help/sites/classic-ui-authoring/using/classic-personalization-ac-campaign.md#inserting-personalization).
 
 The selection of icons allow you to format your text, including font characteristics, alignment, links, lists and indentation.
 
@@ -208,7 +208,7 @@ You add the text and context fields or personalization blocks to create the cont
 
 ## Adobe Campaign Form Components {#adobe-campaign-form-components}
 
-You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles. See [Creating Adobe Campaign Forms](../../../sites/classic-ui-authoring/using/classic-personalization-ac-forms.md) for more information.
+You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles. See [Creating Adobe Campaign Forms](/help/sites/classic-ui-authoring/using/classic-personalization-ac-forms.md) for more information.
 
 Each component field can be linked to an Adobe Campaign database field. The available fields differ according to the type of data they contain as described in the section [Components and Data Type](#components-and-data-type). If you extend your recipient schema in Adobe Campaign, the new fields will be available in the components whose data types match.
 

@@ -17,9 +17,9 @@ In PDF Generator, you can set up the application settings for supported file typ
 
 On the File Type Settings page, you can perform these tasks:
 
-* [Create or edit a File Type setting](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0)
+* [Create or edit a File Type setting](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0)
 * Specify which file type settings to use by default (see [Importing and exporting PDF Generator configuration files](https://helpx.adobe.com/aem-forms/6-2/admin-help/importing-exporting-pdf-generator-configuration.html))
-* [Change the default settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#change-the-default-settings)
+* [Change the default settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#change-the-default-settings)
 * [Enable PDF/A support](https://helpx.adobe.com/aem-forms/6-2/admin-help/enable-pdf-a-support.html)
 * [Delete a File Type setting](https://helpx.adobe.com/aem-forms/6-2/admin-help/enable-pdf-a-support.html)
 
@@ -46,33 +46,33 @@ Create or edit a file type setting to specify how the application handles the co
 
    [Importing and exporting PDF Generator configuration files](https://helpx.adobe.com/aem-forms/6-2/admin-help/importing-exporting-pdf-generator-configuration.html)
 
-   [Adobe PDF export settings (Windows only)](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-2)
+   [Adobe PDF export settings (Windows only)](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-2)
 
-   [HTML-to-PDF settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-3)
+   [HTML-to-PDF settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-3)
 
-   [Flash videos to PDF settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-9)
+   [Flash videos to PDF settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-9)
 
-   [XPS to PDF settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-10)
+   [XPS to PDF settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-10)
 
-   [PDF optimizer settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-11)
+   [PDF optimizer settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-11)
 
-   [Microsoft Excel settings (Windows only)](../../../forms/using/admin-help/configuring-file-type-settings1.md#microsoft-excel-settings-windows-only)
+   [Microsoft Excel settings (Windows only)](/help/forms/using/admin-help/configuring-file-type-settings1.md#microsoft-excel-settings-windows-only)
 
-   [Microsoft PowerPoint settings (Windows only)](../../../forms/using/admin-help/configuring-file-type-settings1.md#microsoft-powerpoint-settings-windows-only)
+   [Microsoft PowerPoint settings (Windows only)](/help/forms/using/admin-help/configuring-file-type-settings1.md#microsoft-powerpoint-settings-windows-only)
 
-   [Microsoft Project settings (Windows only)](../../../forms/using/admin-help/configuring-file-type-settings1.md#microsoft-project-settings-windows-only)
+   [Microsoft Project settings (Windows only)](/help/forms/using/admin-help/configuring-file-type-settings1.md#microsoft-project-settings-windows-only)
 
-   [Microsoft Word settings (Windows only)](../../../forms/using/admin-help/configuring-file-type-settings1.md#microsoft-word-settings-windows-only)
+   [Microsoft Word settings (Windows only)](/help/forms/using/admin-help/configuring-file-type-settings1.md#microsoft-word-settings-windows-only)
 
-   [Microsoft Visio settings (Windows only)](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-header-1354428557)
+   [Microsoft Visio settings (Windows only)](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-header-1354428557)
 
-   [Microsoft Publisher settings (Windows only)](../../../forms/using/admin-help/configuring-file-type-settings1.md#microsoft-publisher-settings-windows-only)
+   [Microsoft Publisher settings (Windows only)](/help/forms/using/admin-help/configuring-file-type-settings1.md#microsoft-publisher-settings-windows-only)
 
-   [AutoCAD settings (Windows only)](../../../forms/using/admin-help/configuring-file-type-settings1.md#autocad-settings-windows-only)
+   [AutoCAD settings (Windows only)](/help/forms/using/admin-help/configuring-file-type-settings1.md#autocad-settings-windows-only)
 
-   [OpenOffice settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#openoffice-settings)
+   [OpenOffice settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#openoffice-settings)
 
-   [Other applications’ settings (Windows only)](../../../forms/using/admin-help/configuring-file-type-settings1.md#other-applications-settings-windows-only)
+   [Other applications’ settings (Windows only)](/help/$1/using/admin-help/configuring-file-type-settings1.md#other-applications-settings-windows-only)
 
    To go to another section, click its link on the web page or use the **[!UICONTROL Next]**or **[!UICONTROL Previous]** buttons.
 
@@ -396,7 +396,7 @@ Select one of the following Flate compression options from the drop-down menu:
 
 ## Microsoft Excel settings (Windows only) {#microsoft-excel-settings-windows-only}
 
-These options determine how Microsoft Excel files are converted. For instructions about accessing these options, see [Create or edit file type settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0).
+These options determine how Microsoft Excel files are converted. For instructions about accessing these options, see [Create or edit file type settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0).
 
 **Try OpenOffice As Fallback Converter**: When this option is selected and a conversion using Microsoft Excel fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using OpenOffice. If the conversion using OpenOffice fails or reaches the specified time-out limit, an exception is written to the log file.
 
@@ -426,7 +426,7 @@ These options determine how Microsoft Excel files are converted. For instruction
 
 ## Microsoft PowerPoint settings (Windows only) {#microsoft-powerpoint-settings-windows-only}
 
-These options determine how Microsoft PowerPoint files are converted. For instructions about accessing these options, see [Create or edit file type settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#create-or-edit-file-type-settings).
+These options determine how Microsoft PowerPoint files are converted. For instructions about accessing these options, see [Create or edit file type settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#create-or-edit-file-type-settings).
 
 **[!UICONTROL Try OpenOffice As Fallback Converter]**: When this option is selected and a conversion using Microsoft PowerPoint fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using OpenOffice. If the conversion using OpenOffice fails or reaches the specified time-out limit, an exception is written to the log file.
 
@@ -460,7 +460,7 @@ These options determine how Microsoft PowerPoint files are converted. For instru
 
 ## Microsoft Project settings (Windows only) {#microsoft-project-settings-windows-only}
 
-These options determine how Microsoft Project files are converted. For instructions about accessing these options, see [Create or edit file type settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0).
+These options determine how Microsoft Project files are converted. For instructions about accessing these options, see [Create or edit file type settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0).
 
 1. **[!UICONTROL **Filename Extensions**:]** Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is `mpp`. Do not include a period before or a space between the extensions.
 
@@ -471,7 +471,7 @@ These options determine how Microsoft Project files are converted. For instructi
 
 ## Microsoft Word settings (Windows only) {#microsoft-word-settings-windows-only}
 
-These options determine how Microsoft Word files are converted. For instructions about accessing these options, see [Create or edit file type settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0).
+These options determine how Microsoft Word files are converted. For instructions about accessing these options, see [Create or edit file type settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0).
 
 **[!UICONTROL Try OpenOffice As Fallback Converter]**: When this option is selected and a conversion using Microsoft Word fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using OpenOffice. If the conversion using OpenOffice fails or reaches the specified time-out limit, an exception is written to the log file.
 
@@ -531,13 +531,13 @@ If a Microsoft Word style name includes a comma (,) or equal sign (=), precede t
 
 ## Microsoft Publisher settings (Windows only) {#microsoft-publisher-settings-windows-only}
 
-These options determine how Microsoft Publisher files are converted. For instructions about accessing these options, see [Create or edit file type settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0).
+These options determine how Microsoft Publisher files are converted. For instructions about accessing these options, see [Create or edit file type settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0).
 
 **[!UICONTROL Filename Extensions]**: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is `pub`. Do not include a period before or a space between the extensions.
 
 ## AutoCAD settings (Windows only) {#autocad-settings-windows-only}
 
-These options determine how AutoCAD files are converted. For instructions about accessing these options, see [Create or edit file type settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#create-or-edit-file-type-settings).
+These options determine how AutoCAD files are converted. For instructions about accessing these options, see [Create or edit file type settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#create-or-edit-file-type-settings).
 
 **[!UICONTROL Filename Extensions]**: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is `dwg`. Do not include a period before or a space between the extensions.
 
@@ -571,7 +571,7 @@ These options determine how AutoCAD files are converted. For instructions about 
 
 ## OpenOffice settings {#openoffice-settings}
 
-These options determine how OpenOffice files are converted. For instructions about accessing these options, see [Create or edit file type settings](../../../forms/using/admin-help/configuring-file-type-settings1.md#create-or-edit-file-type-settings).
+These options determine how OpenOffice files are converted. For instructions about accessing these options, see [Create or edit file type settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#create-or-edit-file-type-settings).
 
 **Try PDFMaker As Fallback Converter**: When this option is selected and a conversion using OpenOffice fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using PDFMaker. If the conversion using PDFMaker fails or reaches the specified time-out limit, an exception is written to the log file.
 
@@ -613,4 +613,4 @@ You cannot change the settings for other applications through administration con
 
 Support for these file types may need to be customized. For more information, see “Adding Support for Additional Native File Formats” in [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_62).
 
-For help on configuring a PDFG network printer, see [Setting up a PDFG network printer (Windows only)](../../../forms/using/admin-help/setting-pdfg-network-printer-windows.md).
+For help on configuring a PDFG network printer, see [Setting up a PDFG network printer (Windows only)](/help/forms/using/admin-help/setting-pdfg-network-printer-windows.md).

@@ -19,7 +19,7 @@ ContextHub provides several sample UI modules that you can use in your solutions
 * Where to find the source code so that you can open it for learning purposes.
 * How to configure the UI module.
 
-For information about adding UI modules to ContextHub, see [Adding a UI Module](../../../sites/administering/using/contexthub-config.md#adding-a-ui-module). For information about developing UI modules, see [Creating ContextHub UI Module Types](../../../sites/developing/using/ch-extend.md#creating-contexthub-ui-module-types).
+For information about adding UI modules to ContextHub, see [Adding a UI Module](/help/sites/administering/using/contexthub-config.md#adding-a-ui-module). For information about developing UI modules, see [Creating ContextHub UI Module Types](/help/sites/developing/using/ch-extend.md#creating-contexthub-ui-module-types).
 
 ## contexthub.base UI Module Type {#contexthub-base-ui-module-type}
 
@@ -65,7 +65,7 @@ Configure the contexthub.base UI module using a Javascript object in JSON format
 
 **Example**
 
-The following example configures a contexthub.base UI module to display information from a [contexthub.emulators](../../../sites/developing/using/ch-samplestores.md#granite-emulators-sample-store-candidate) store. The `template` item demonstrates how to obtain data from the store by using the key that the `storeMapping` item establishes.
+The following example configures a contexthub.base UI module to display information from a [contexthub.emulators](/help/sites/developing/using/ch-samplestores.md#granite-emulators-sample-store-candidate) store. The `template` item demonstrates how to obtain data from the store by using the key that the `storeMapping` item establishes.
 
 ```
 {
@@ -82,7 +82,7 @@ The following example configures a contexthub.base UI module to display informat
 
 ## contexthub.browserinfo UI Module Type {#contexthub-browserinfo-ui-module-type}
 
-The contexthub.browserinfo UI module displays information about the client web browser and operating system. Information is obtained from the surferinfo store, based on the [contexthub.surferinfo](../../../sites/developing/using/ch-samplestores.md#contexthub-surferinfo-sample-store-candidate) store candidate.
+The contexthub.browserinfo UI module displays information about the client web browser and operating system. Information is obtained from the surferinfo store, based on the [contexthub.surferinfo](/help/sites/developing/using/ch-samplestores.md#contexthub-surferinfo-sample-store-candidate) store candidate.
 
 ![](assets/chlimage_1-77.png)
 
@@ -103,7 +103,7 @@ Instances of the contexthub.browserinfo UI module do not require a value for the
 
 ## contexthub.datetime UI Module Type {#contexthub-datetime-ui-module-type}
 
-The contexthub.datetime UI module displays the date and time that is stored in a store named datetime that is based on the [contexthub.datetime](../../../sites/developing/using/ch-samplestores.md#contexthub-datetime-sample-store-candidate) store candidate.
+The contexthub.datetime UI module displays the date and time that is stored in a store named datetime that is based on the [contexthub.datetime](/help/sites/developing/using/ch-samplestores.md#contexthub-datetime-sample-store-candidate) store candidate.
 
 ![](assets/chlimage_1-78.png)
 
@@ -128,7 +128,7 @@ Instances of the contexthub.datetime UI module do not require a value for the De
 
 ## contexthub.device UI Module Type {#contexthub-device-ui-module-type}
 
-The contexthub.device UI Module displays the name of the client device. The module obtains information from a ContextHub store named emulators that is based on the [granite.emulators](../../../sites/developing/using/ch-samplestores.md#granite-emulators-sample-store-candidate) store candidate.
+The contexthub.device UI Module displays the name of the client device. The module obtains information from a ContextHub store named emulators that is based on the [granite.emulators](/help/sites/developing/using/ch-samplestores.md#granite-emulators-sample-store-candidate) store candidate.
 
 ![](assets/chlimage_1-79.png)
 
@@ -151,7 +151,7 @@ Instances of the contexthub.datetime UI module do not require a value for the De
 
 ## contexthub.location UI Module Type {#contexthub-location-ui-module-type}
 
-The contexthub.location UI module displays the longitude and latitude of the client. The module provides a popover that displays a Google map that you can click to change the current location. The module obtains information from a ContextHub store named geolocation that is based on the [contexthub.geolocation](../../../sites/developing/using/ch-samplestores.md#contexthub-geolocation-sample-store-candidate) store candidate.
+The contexthub.location UI module displays the longitude and latitude of the client. The module provides a popover that displays a Google map that you can click to change the current location. The module obtains information from a ContextHub store named geolocation that is based on the [contexthub.geolocation](/help/sites/developing/using/ch-samplestores.md#contexthub-geolocation-sample-store-candidate) store candidate.
 
 ![](assets/chlimage_1-80.png)
 
@@ -194,7 +194,7 @@ Instances of the contexthub.location UI module do not require a value for the De
 
 ## contexthub.screen-orientation UI Module Type {#contexthub-screen-orientation-ui-module-type}
 
-The contexthub.screen-orientation UI module displays the current screen orientation of the client. Although disabled by default, the module provides a popover that enables you to select an orientation. The module obtains information from a ContextHub store named emulators that is based on the [granite.emulators](../../../sites/developing/using/ch-samplestores.md#granite-emulators-sample-store-candidate) store candidate.
+The contexthub.screen-orientation UI module displays the current screen orientation of the client. Although disabled by default, the module provides a popover that enables you to select an orientation. The module obtains information from a ContextHub store named emulators that is based on the [granite.emulators](/help/sites/developing/using/ch-samplestores.md#granite-emulators-sample-store-candidate) store candidate.
 
 ![](assets/chlimage_1-81.png)
 
@@ -218,7 +218,7 @@ Instances of the contexthub.screen-orientation UI module do not require a value 
 
 ## contexthub.tagcloud UI Module Type {#contexthub-tagcloud-ui-module-type}
 
-The contexthub.tagcloud UI module displays information about tags. On the toolbar the UI module shows the number of tags. The popup reveals a tagcloud and a texbox for adding new tags. The UI module obtains information from a ContextHub store named tagcloud that is based on the [contexthub.tagcloud](../../../sites/developing/using/ch-samplestores.md#contexthub-tagcloud-sample-data-store) store candidate.
+The contexthub.tagcloud UI module displays information about tags. On the toolbar the UI module shows the number of tags. The popup reveals a tagcloud and a texbox for adding new tags. The UI module obtains information from a ContextHub store named tagcloud that is based on the [contexthub.tagcloud](/help/sites/developing/using/ch-samplestores.md#contexthub-tagcloud-sample-data-store) store candidate.
 
 ![](assets/chlimage_1-82.png)
 
@@ -242,7 +242,7 @@ Instances of the contexthub.tagcloud UI module do not require a value for the De
 
 ## granite.profile UI Module Type {#granite-profile-ui-module-type}
 
-The granite.profile ContextHub UI module displays the display name of the current user. The popup reveals the login name of the user and enables you to change the value of the display name. The UI module obtains information from a ContextHub store named profile that is based on the [granite.profile](../../../sites/developing/using/ch-samplestores.md#granite-profile-sample-store-candidate) store candidate.
+The granite.profile ContextHub UI module displays the display name of the current user. The popup reveals the login name of the user and enables you to change the value of the display name. The UI module obtains information from a ContextHub store named profile that is based on the [granite.profile](/help/sites/developing/using/ch-samplestores.md#granite-profile-sample-store-candidate) store candidate.
 
 ![](assets/chlimage_1-83.png)
 

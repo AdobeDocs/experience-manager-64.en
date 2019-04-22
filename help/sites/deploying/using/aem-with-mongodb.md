@@ -15,7 +15,7 @@ discoiquuid: 3c59ec8f-b72f-48dd-bac8-9817005ae210
 
 This article aims to improve knowledge on tasks and considerations needed to successfully deploy Adobe Experience Manager with MongoDB.
 
-For more deployment related information, consult the [Deploying and Maintaining](../../../sites/deploying/using/deploy.md) section of the documentation.
+For more deployment related information, consult the [Deploying and Maintaining](/help/sites/deploying/using/deploy.md) section of the documentation.
 
 ## When to use MongoDB with AEM {#when-to-use-mongodb-with-aem}
 
@@ -32,7 +32,7 @@ If the criteria are not met, then a TarMK active/standby deployment is recommend
 
 >[!NOTE]
 >
->Additional information on the sizing of author instances and the definition of concurrent users can be found in the [Hardware Sizing Guidelines](../../../managing/using/hardware-sizing-guidelines.md#authors-working-in-parallel).
+>Additional information on the sizing of author instances and the definition of concurrent users can be found in the [Hardware Sizing Guidelines](/help/managing/using/hardware-sizing-guidelines.md#authors-working-in-parallel).
 
 ### Minimal MongoDB Deployment for AEM {#minimal-mongodb-deployment-for-aem}
 
@@ -48,7 +48,7 @@ In this deployment, all the components are required for a successful implementat
 
 ### Operating Systems {#operating-systems}
 
-For a list of supported operating systems for AEM 6, see the [Technical Requirements page](../../../sites/deploying/using/technical-requirements.md).
+For a list of supported operating systems for AEM 6, see the [Technical Requirements page](/help/sites/deploying/using/technical-requirements.md).
 
 ### Environments {#environments}
 
@@ -148,7 +148,7 @@ This section deals with various steps that you should take to ensure that your A
 
 The AEM instances must be configured to use AEM with MongoMK. The basis of the MongoMK implementation in AEM is the Document Node Store.
 
-For more information how to configure Node Stores, see [Configuring Node Stores and Data Stores in AEM](../../../sites/deploying/using/data-store-config.md).
+For more information how to configure Node Stores, see [Configuring Node Stores and Data Stores in AEM](/help/sites/deploying/using/data-store-config.md).
 
 Below is an example of Document Node Store configuration for a minimal MongoDB deployment:
 
@@ -661,7 +661,7 @@ CSP allows for fine tuning of policies. However, in a complex application CSP he
 
 ### Sizing {#sizing}
 
-For more information on sizing, see the [Hardware Sizing Guidelines](../../../managing/using/hardware-sizing-guidelines.md).
+For more information on sizing, see the [Hardware Sizing Guidelines](/help/managing/using/hardware-sizing-guidelines.md).
 
 ### MongoDB Performance Optimization {#mongodb-performance-optimization}
 

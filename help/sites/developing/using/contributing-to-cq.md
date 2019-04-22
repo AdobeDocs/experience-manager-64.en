@@ -119,7 +119,7 @@ Backwards compatibility should also be kept in mind in regards to the general co
 
 **Clustering and load-balancing** To increase availability and imrpove the performance of a Production environment, it is common to combine multiple Author and/or Publish instances (into Clusters), by either making them available to different groups of users or by load-balancing them behind a Dispatcher configuration.
 
-It is also possible to combine multiple instances of the content repository to create a *high-availability* JCR solution, which can then be integrated with your AEM solution to maximize protection against hardware and software failure. See [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md#oak-cluster-with-mongomk-failover-for-high-availability-in-a-single-datacenter) for further information.
+It is also possible to combine multiple instances of the content repository to create a *high-availability* JCR solution, which can then be integrated with your AEM solution to maximize protection against hardware and software failure. See [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md#oak-cluster-with-mongomk-failover-for-high-availability-in-a-single-datacenter) for further information.
 
 **Component** In AEM, a Component is an object type, instances of which can generally be created by dragging and dropping them from, say, the Sidekick. So for example, out-of-the-box components that ship with AEM include the Text, Title, Tag Cloud, Carousel, Image, and List components, all available from the Sidekick at runtime.
 
@@ -139,7 +139,7 @@ JCR has a number of predefined node types and property types, but in general the
 
 The JavaDoc for JCR's Java API is [here](http://jackrabbit.apache.org/jcr/jcr-api.html).
 
-Before attempting to read the JavaDoc or the JCR spec itself, you might want to look at [this high-level explanation](../../../sites/developing/using/the-basics.md#java-content-repository) of JCR as implemented by Adobe Experience Services.
+Before attempting to read the JavaDoc or the JCR spec itself, you might want to look at [this high-level explanation](/help/sites/developing/using/the-basics.md#java-content-repository) of JCR as implemented by Adobe Experience Services.
 
 **Multi-Site Manager (MSM)** The MSM feature of AEM helps customers handle multilingual and multinational content, enabling them to balance centralized branding with localized content.
 

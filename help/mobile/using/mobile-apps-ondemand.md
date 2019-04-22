@@ -15,7 +15,7 @@ discoiquuid: 2ae7ea8d-fc58-4647-bc83-915d9f4b7dd8
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ discoiquuid: 2ae7ea8d-fc58-4647-bc83-915d9f4b7dd8
 >
 >**Prerequisite:**
 >
->Before working with AEM Mobile On-Demand Services and following the steps within this getting started guide, users should be familiar with [AEM](../../sites/deploying/using/deploy.md).
+>Before working with AEM Mobile On-Demand Services and following the steps within this getting started guide, users should be familiar with [AEM](/help/sites/deploying/using/deploy.md).
 
 ## AEM Mobile Author {#aem-mobile-author}
 
@@ -35,10 +35,10 @@ An AEM author is responsible for the following tasks while creating an app using
 
 **Authoring AEM Content for AEM Mobile On-Demand Services App **involves following actions:
 
-* [AEM Mobile Application Dashboard](../../mobile/using/mobile-apps-ondemand-application-dashboard.md)
-* [Application Create and Configuration Actions](../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md)
-* [Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
-* [Managing Content](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
+* [AEM Mobile Application Dashboard](/help/mobile/using/mobile-apps-ondemand-application-dashboard.md)
+* [Application Create and Configuration Actions](/help/mobile/using/mobile-apps-ondemand-application-create-configure-action.md)
+* [Cloud Configuration](/help/mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
+* [Managing Content](/help/mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
 
 To learn about **Content Services**, see [Content Services Overview](/mobile/using/content-as-a-service.md) to get started.
 
@@ -46,14 +46,14 @@ To learn about **Content Services**, see [Content Services Overview](/mobile/usi
 >
 >To learn in general about basics of templates and components in AEM, see the following resources:
 >
->* [Templates](../../sites/developing/using/templates.md)
->* [Components](../../sites/developing/using/components.md)
+>* [Templates](/help/sites/developing/using/templates.md)
+>* [Components](/help/sites/developing/using/components.md)
 >
 
 ## Additional Resources {#additional-resources}
 
 To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:
 
-* [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
-* [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md)
+* [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-on-demand.md)
+* [Administering Content to Use AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile.md)
 

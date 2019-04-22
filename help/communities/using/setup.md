@@ -13,14 +13,14 @@ discoiquuid: 0d462ad1-5619-4bb6-9609-bc8987c40a0c
 
 # Initial Setup{#initial-setup}
 
-|   |** [Author a New Community Site ⇒](../../communities/using/create-site.md)** |
+|   |** [Author a New Community Site ⇒](/help/communities/using/create-site.md)** |
 |---|---|
 
 ## Start Author and Publish Instances {#start-author-and-publish-instances}
 
 For development and demonstration purposes, it will be necessary to run one author and one publish instance.
 
-To do so, follow the basic AEM [Getting Started](../../sites/deploying/using/deploy.md#getting-started) instructions, which will result in
+To do so, follow the basic AEM [Getting Started](/help/sites/deploying/using/deploy.md#getting-started) instructions, which will result in
 
 * author environment on [localhost:4502](http://localhost:4502/)
 * publish environment on [localhost:4503](http://localhost:4503/)
@@ -39,21 +39,21 @@ For AEM Communities,
 
 >[!NOTE]
 >
->If not familiar with AEM, view the documentation on [basic handling](../../sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](../../sites/authoring/using/qg-page-authoring.md).
+>If not familiar with AEM, view the documentation on [basic handling](/help/sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](/help/sites/authoring/using/qg-page-authoring.md).
 
 ## Install Latest Communities Release {#install-latest-communities-release}
 
-This tutorial creates an [engagement community site](../../communities/using/overview.md#engagement-community) and is based on AEM Communities 6.2 feature pack version 1.10.
+This tutorial creates an [engagement community site](/help/communities/using/overview.md#engagement-community) and is based on AEM Communities 6.2 feature pack version 1.10.
 
 To ensure the latest feature pack is installed, visit:
 
-* [Latest Releases](../../communities/using/deploy-communities.md#latest-releases)
+* [Latest Releases](/help/communities/using/deploy-communities.md#latest-releases)
 
-For a tutorial that creates an [enablement community site](../../communities/using/overview.md#enablement-community), visit [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md).
+For a tutorial that creates an [enablement community site](/help/communities/using/overview.md#enablement-community), visit [Getting Started with AEM Communities for Enablement](/help/communities/using/getting-started-enablement.md).
 
 ## Configure Analytics {#configure-analytics}
 
-When [Adobe Analytics is configured for the community site](../../communities/using/analytics.md), information on community activity is available that enhances the community member's experience as well as provides feedback to administrators of the site.
+When [Adobe Analytics is configured for the community site](/help/communities/using/analytics.md), information on community activity is available that enhances the community member's experience as well as provides feedback to administrators of the site.
 
 Integration with Adobe Analytics is optional.
 
@@ -63,15 +63,15 @@ The notifications feature, available by default for all sites created using the 
 
 What is necessary is for email to be properly configured for the site.
 
-See [Configuring Email](../../communities/using/email.md).
+See [Configuring Email](/help/communities/using/email.md).
 
 ## Enable the Tunnel Service {#enable-the-tunnel-service}
 
-When creating a community site in the author environment, the tunnel service makes possible the ability to assign roles to trusted community members registered in the publish environment. The tunnel service also allows access to community members from the [Members and Groups consoles](../../communities/using/members.md) in the author environment.
+When creating a community site in the author environment, the tunnel service makes possible the ability to assign roles to trusted community members registered in the publish environment. The tunnel service also allows access to community members from the [Members and Groups consoles](/help/communities/using/members.md) in the author environment.
 
-The convention is for members and member groups created in the publish environment to *not *be recreated in the author environment. For more information see [Managing Users and User Groups](../../communities/using/users.md).
+The convention is for members and member groups created in the publish environment to *not *be recreated in the author environment. For more information see [Managing Users and User Groups](/help/communities/using/users.md).
 
-For simple instructions to enable the tunnel service on an **author** instance, see [Tunnel Service](../../communities/using/deploy-communities.md#tunnel-service-on-author).
+For simple instructions to enable the tunnel service on an **author** instance, see [Tunnel Service](/help/communities/using/deploy-communities.md#tunnel-service-on-author).
 
 ## Community Administrator Role {#community-administrator-role}
 
@@ -118,18 +118,18 @@ Scroll down to `Add User to Groups`:
 
 Before the demonstration versions of social login with Facebook and Twitter may be used, it is necessary to
 
-1. install a fix pack or [latest feature pack](../../communities/using/deploy-communities.md#latestfeaturepack) (for March 2017 Facebook API changes)
-1. [enable the OAuth provider](../../communities/using/social-login.md#adobe-granite-oauth-authentication-handler) in the publish environment
+1. install a fix pack or [latest feature pack](/help/communities/using/deploy-communities.md#latestfeaturepack) (for March 2017 Facebook API changes)
+1. [enable the OAuth provider](/help/communities/using/social-login.md#adobe-granite-oauth-authentication-handler) in the publish environment
 
 For production servers, it is necessary to create the cloud services necessary to provide social login.
 
-See [Social Login with Facebook and Twitter](../../communities/using/social-login.md).
+See [Social Login with Facebook and Twitter](/help/communities/using/social-login.md).
 
 ## Create Tutorial Tags {#create-tutorial-tags}
 
 Create tags to use for the engage and enablement tutorials, using the tag namespace of `Tutorial`.
 
-Use the [Tagging console](../../sites/administering/using/tags.md#tagging-console) to create the following tags:
+Use the [Tagging console](/help/sites/administering/using/tags.md#tagging-console) to create the following tags:
 
 * `Tutorial: Sports / Baseball`
 * `Tutorial: Sports / Gymnastics`
@@ -142,8 +142,8 @@ Use the [Tagging console](../../sites/administering/using/tags.md#tagging-consol
 
 Then follow the instructions to
 
-1. [set the tag permissions](../../sites/administering/using/tags.md#setting-tag-permissions)
-1. [publish the tags](../../sites/administering/using/tags.md#publishing-tags)
+1. [set the tag permissions](/help/sites/administering/using/tags.md#setting-tag-permissions)
+1. [publish the tags](/help/sites/administering/using/tags.md#publishing-tags)
 
 Sample package of tags created for the AEM Communities Getting Started Tutorials
 
@@ -151,12 +151,12 @@ Sample package of tags created for the AEM Communities Getting Started Tutorials
 
 ## MongoDB for UGC Common Store {#mongodb-for-ugc-common-store}
 
-It is recommended, but optional, to set [MSRP](../../communities/using/msrp.md) (MongoDB) as the [common store](../../communities/using/working-with-srp.md) to experience the flexibility of moderating all UGC from either publish and/or author environments.
+It is recommended, but optional, to set [MSRP](/help/communities/using/msrp.md) (MongoDB) as the [common store](/help/communities/using/working-with-srp.md) to experience the flexibility of moderating all UGC from either publish and/or author environments.
 
-For instructions visit [How to Setup MongoDB for Demo](../../communities/using/demo-mongo.md).
+For instructions visit [How to Setup MongoDB for Demo](/help/communities/using/demo-mongo.md).
 
-By default, the installation of the author and publish AEM instances result in user generated content (UGC) being stored in [JCR Tar storage](../../sites/deploying/using/platform.md) which is accessed using [JSRP](../../communities/using/jsrp.md). JSRP is not a common store, which means UGC is visible only on the instance on which it was entered. Typically, UGC is entered on a publish instance and would not be visible in the author environment, resulting in all moderation tasks needing to use the publish instance.
+By default, the installation of the author and publish AEM instances result in user generated content (UGC) being stored in [JCR Tar storage](/help/sites/deploying/using/platform.md) which is accessed using [JSRP](/help/communities/using/jsrp.md). JSRP is not a common store, which means UGC is visible only on the instance on which it was entered. Typically, UGC is entered on a publish instance and would not be visible in the author environment, resulting in all moderation tasks needing to use the publish instance.
 
-|   |** [Author a New Community Site⇒](../../communities/using/create-site.md)** |
+|   |** [Author a New Community Site⇒](/help/communities/using/create-site.md)** |
 |---|---|
 

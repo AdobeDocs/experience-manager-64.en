@@ -403,7 +403,7 @@ In this scenario, for Correspondence Management to be able to send an email, con
 
 To use the Correspondence Management API, download the DSCSample.jar (attached in this document as part of components.zip) and upload it to the LiveCycle server. After the DSCSample.jar file is uploaded to the LiveCycle server, the AEM server uses the DSCSample.jar file to access the renderLetter API.   
   
-For more information, see [Connecting AEM Forms with Adobe LiveCycle](../../forms/using/aem-livecycle-connector.md).
+For more information, see [Connecting AEM Forms with Adobe LiveCycle](/help/forms/using/aem-livecycle-connector.md).
 
 1. Update the AEM server URL in cmsa.properties in DSCSample.jar, which is at the following location:
 

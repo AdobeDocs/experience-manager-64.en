@@ -23,7 +23,7 @@ Extends CQ_Analytics.PersistedSessionStore.
 
 #### getRegisteredStore(name) {#getregisteredstore-name}
 
-Returns a session store of a specified name. See also [Accessing a Session Store](../../../sites/developing/using/client-context.md#accessing-session-stores).
+Returns a session store of a specified name. See also [Accessing a Session Store](/help/sites/developing/using/client-context.md#accessing-session-stores).
 
 **Parameters**
 
@@ -47,7 +47,7 @@ No returned value.
 
 ## CQ_Analytics.ClientContextUtils {#cq-analytics-clientcontextutils}
 
-Provides methods for listening for session store activation and registration. See also [Checking That a Session Store is Defined and Initialized](../../../sites/developing/using/client-context.md#checking-that-a-session-store-is-defined-and-initialized).
+Provides methods for listening for session store activation and registration. See also [Checking That a Session Store is Defined and Initialized](/help/sites/developing/using/client-context.md#checking-that-a-session-store-is-defined-and-initialized).
 
 ### Methods {#methods-1}
 
@@ -298,7 +298,7 @@ Fires events and allows other objects to listen to these events and react. Class
 
 #### addListener(event, fct, scope) {#addlistener-event-fct-scope}
 
-Registers a listener for an event. See also [Creating a Listener to React to a Session Store Update](../../../sites/developing/using/client-context.md#creating-a-listener-to-react-to-a-session-store-update).
+Registers a listener for an event. See also [Creating a Listener to React to a Session Store Update](/help/sites/developing/using/client-context.md#creating-a-listener-to-react-to-a-session-store-update).
 
 **Parameters**
 

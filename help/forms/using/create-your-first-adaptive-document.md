@@ -50,7 +50,7 @@ You will have an adaptive document similar to the following at the end of the tu
 
 ## Step 1: Create Form Data Model {#step-create-form-data-model}
 
-A form data model allows to connect an adaptive document to disparate data sources. For example, AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. A Form data model is a unified data representation schema of business entities and services available in connected data sources. You can use the form data model with an adaptive document to retrieve data from connected data sources. For more information about form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+A form data model allows to connect an adaptive document to disparate data sources. For example, AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. A Form data model is a unified data representation schema of business entities and services available in connected data sources. You can use the form data model with an adaptive document to retrieve data from connected data sources. For more information about form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
 Goals:
 
@@ -78,7 +78,7 @@ Goals:
 
 ## Step 3: Apply rules to adaptive document fields (Web channel only) {#step-apply-rules-to-adaptive-document-fields-web-channel-only}
 
-Adaptive document provides an editor to write rules on adaptive document objects. These rules define actions to trigger on document objects based on preset conditions and user actions on the document. It helps ensuring accuracy and speeds up user experience in the web version of the adaptive document. For more information about adaptive document rules and rules editor, see [rule editor](../../forms/using/rule-editor.md).
+Adaptive document provides an editor to write rules on adaptive document objects. These rules define actions to trigger on document objects based on preset conditions and user actions on the document. It helps ensuring accuracy and speeds up user experience in the web version of the adaptive document. For more information about adaptive document rules and rules editor, see [rule editor](/help/forms/using/rule-editor.md).
 
 Goals:
 
@@ -87,7 +87,7 @@ Goals:
 
 ## Step 4: Style the adaptive document (Web channel only) {#step-style-the-adaptive-document-web-channel-only}
 
-Adaptive documents provide an editor to create themes for the adaptive documents and in-line styling. A theme contains styling details for components and panels, and you can reuse a theme on web channels of different documents. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply the theme to your document, the specified style reflects on corresponding components of your document. For more information, see [Themes](../../forms/using/themes.md).
+Adaptive documents provide an editor to create themes for the adaptive documents and in-line styling. A theme contains styling details for components and panels, and you can reuse a theme on web channels of different documents. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply the theme to your document, the specified style reflects on corresponding components of your document. For more information, see [Themes](/help/forms/using/themes.md).
 
 Goals:
 

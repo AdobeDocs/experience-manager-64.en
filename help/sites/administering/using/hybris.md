@@ -111,7 +111,7 @@ The **Catalog version** ( `hybris.catalog.version`) that is imported can be conf
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
+>When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
 
 The log output provides feedback on the created pages and components and reports potential errors.
 
@@ -163,7 +163,7 @@ The structure to be generated when importing can be configured for:
 ``**Day CQ Commerce Hybris Default Import Handler** 
 `(com.adobe.cq.commerce.hybris.importer.DefaultImportHandler`)
 
-When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
+When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
 
 ## Configure the Product Attributes to Load {#configure-the-product-attributes-to-load}
 
@@ -178,7 +178,7 @@ The response parser can be configured to define the properties and attributes to
 
    >[!NOTE]
    >
-   >When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
+   >When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
 
 ## Importing the Product Data {#importing-the-product-data}
 
@@ -314,7 +314,7 @@ The parameters used by the importer can be configured for:
 **Day CQ Commerce Hybris Catalog Importer** 
 ( `com.adobe.cq.commerce.hybris.impl.importer.DefaultHybrisImporter`)
 
-When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
+When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
 
 ## Catalog Import {#catalog-import}
 
@@ -341,7 +341,7 @@ The following information has to be provided:
 
 To remove one, or more, products from the catalog:
 
-1. [Configure the for OSGi service](../../../sites/deploying/using/configuring-osgi.md) **Day CQ Commerce Hybris Catalog Importer**; see also [Configure the Catalog Importer](#configure-the-catalog-importer).
+1. [Configure the for OSGi service](/help/sites/deploying/using/configuring-osgi.md) **Day CQ Commerce Hybris Catalog Importer**; see also [Configure the Catalog Importer](#configure-the-catalog-importer).
 
    Activate the following properties:
 
@@ -350,7 +350,7 @@ To remove one, or more, products from the catalog:
 
    >[!NOTE]
    >
-   >When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
+   >When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
 
 1. Initialize the importer by performing two incremental updates (see [Catalog Import](#catalog-import)):
 
@@ -377,7 +377,7 @@ To remove one, or more, products from the catalog:
     * Select this product and change the approval status to `unapproved`
 
 1. Perform another incremental update (see [Catalog Import](#catalog-import)). The log will list the deleted product.
-1. [Rollout](../../../sites/administering/using/generic.md#rolling-out-a-catalog) the appropriate catalog. The product and product page will have been removed from within AEM.
+1. [Rollout](/help/sites/administering/using/generic.md#rolling-out-a-catalog) the appropriate catalog. The product and product page will have been removed from within AEM.
 
    For example:
 
@@ -402,18 +402,18 @@ To remove one, or more, products from the catalog:
 
 ## Add Order History Trait to the Client Context {#add-order-history-trait-to-the-client-context}
 
-To add order history to the [client context](../../../sites/developing/using/client-context.md):
+To add order history to the [client context](/help/sites/developing/using/client-context.md):
 
-1. Open the [client context design page](../../../sites/administering/using/client-context.md), by either:
+1. Open the [client context design page](/help/sites/administering/using/client-context.md), by either:
 
     * Open a page for editing, then open the client context using **Ctrl-Alt-c** (windows) or **control-option-c** (Mac). Use the pencil icon in the top left corner of the client context to **Open the ClientContext design page**.  
     
     * Navigate directly to [http://localhost:4502/etc/clientcontext/default/content.html](http://localhost:4502/etc/clientcontext/default/content.html)
 
-1. [Add the **Order History** component](../../../sites/administering/using/client-context.md#adding-a-property-component) to the **Shopping Car**t component of the client context.
+1. [Add the **Order History** component](/help/sites/administering/using/client-context.md#adding-a-property-component) to the **Shopping Car**t component of the client context.
 1. You can confirm that the client context is showing details of your order history. For example:
 
-    1. Open the [client context](../../../sites/administering/using/client-context.md).
+    1. Open the [client context](/help/sites/administering/using/client-context.md).
     1. Add an item to the cart.
     1. Complete the checkout.
     1. Check the client context.

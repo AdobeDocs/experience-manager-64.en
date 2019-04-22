@@ -72,7 +72,7 @@ To create a newsletter with targeted content:
 
    >[!NOTE]
    >
-   >[Email samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
+   >[Email samples are only available in Geometrixx](/help/sites/developing/using/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
 
 1. In the newsletter, add a Text and Personalization component. 
 1. Add text into the Text and Personalization component, such as "This is the default."

@@ -13,7 +13,7 @@ discoiquuid: 3cc7efc5-bcb2-41c9-b78b-308f6b7a298e
 
 # Configuring Undo for Page Editing{#configuring-undo-for-page-editing}
 
-The [OSGi service](../../../sites/deploying/using/configuring-osgi.md) **Day CQ WCM Undo Configuration** ( `com.day.cq.wcm.undo.UndoConfigService`) exposes several properties that control the behavior of the undo and redo commands for editing pages.
+The [OSGi service](/help/sites/deploying/using/configuring-osgi.md) **Day CQ WCM Undo Configuration** ( `com.day.cq.wcm.undo.UndoConfigService`) exposes several properties that control the behavior of the undo and redo commands for editing pages.
 
 ## Default Configuration {#default-configuration}
 
@@ -35,7 +35,7 @@ You can configure these OSGi service properties for your own instance.
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+>When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 The following lists the properties** **as displayed in the Web console, followed by the name of the corresponding OSGi parameter, together with a description and the default value (where appropriate):
 

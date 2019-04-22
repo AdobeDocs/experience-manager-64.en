@@ -198,7 +198,7 @@ Actions can be performed on a page (resource). For each page in the hierarchy, y
 
 >[!NOTE]
 >
->AEM automatically generates user groups for role-assignment (Owner, Editor, Viewer) in [Collections](../../../assets/using/managing-collections-touch-ui.md). However, manually adding ACLs for such groups can introduce security vulnerabilities within AEM. Adobe recommends that you avoid adding ACLs manually.
+>AEM automatically generates user groups for role-assignment (Owner, Editor, Viewer) in [Collections](/help/assets/using/managing-collections-touch-ui.md). However, manually adding ACLs for such groups can introduce security vulnerabilities within AEM. Adobe recommends that you avoid adding ACLs manually.
 
 ### Access Control Lists and how they are evaluated {#access-control-lists-and-how-they-are-evaluated}
 
@@ -290,7 +290,7 @@ This will simplify the maintenance, as the number of groups is much smaller than
 
   Adobe recommends that you work with Allow rather than Deny see [Best Practices](#best-practices).
 
-Before modifying either permission, be sure you understand how they work and inter-relate. See the CRX documentation to illustrate how AEM WCM [evaluates access rights](../../../sites/administering/using/user-group-ac-admin.md#how-access-rights-are-evaluated) and examples on setting up access control lists.
+Before modifying either permission, be sure you understand how they work and inter-relate. See the CRX documentation to illustrate how AEM WCM [evaluates access rights](/help/sites/administering/using/user-group-ac-admin.md#how-access-rights-are-evaluated) and examples on setting up access control lists.
 
 ### Permissions {#permissions}
 
@@ -338,7 +338,7 @@ Details are split into two parts:
 
 ### Impersonating another User {#impersonating-another-user}
 
-With the [**Impersonate** functionality](../../../sites/authoring/using/user-properties.md#user-settings) a user can work on behalf of another user.
+With the [**Impersonate** functionality](/help/sites/authoring/using/user-properties.md#user-settings) a user can work on behalf of another user.
 
 This means that a user account can specify other accounts that can operate with their account. In other words, if user-B is allowed to impersonate user-A, then user-B can take actions using the full account details of user-A.
 
@@ -348,7 +348,7 @@ This allows the impersonator accounts to complete tasks as if they were using th
 >
 >In order for impersonating to work for non-admin users, the impersonator (in the above case user-B) is required to have READ permissions in the `/home/users` path.
 >
->For more information on how to achieve this, see [Permissions in AEM](../../../sites/administering/using/security.md#permissions-in-aem).
+>For more information on how to achieve this, see [Permissions in AEM](/help/sites/administering/using/security.md#permissions-in-aem).
 
 >[!CAUTION]
 >
@@ -550,7 +550,7 @@ Use the following procedure to modify a user's password.
 
 >[!NOTE]
 >
->You cannot use the Security console to change the admin password. To change the password for the admin account, use the [Users console](../../../sites/administering/using/granite-user-group-admin.md#changing-the-password-for-an-existing-user) that Granite Operations provides. 
+>You cannot use the Security console to change the admin password. To change the password for the admin account, use the [Users console](/help/sites/administering/using/granite-user-group-admin.md#changing-the-password-for-an-existing-user) that Granite Operations provides. 
 >
 
 1. In the **Security** console, double-click the user name you want to change the password for.
@@ -659,9 +659,9 @@ To remove members from a group at a certain path:
 
 ### User Synchronization {#user-synchronization}
 
-When the deployment is a [publish farm](../../../sites/deploying/using/recommended-deploys.md#tarmk-farm), users and groups need to be synchronized among all publish nodes.
+When the deployment is a [publish farm](/help/sites/deploying/using/recommended-deploys.md#tarmk-farm), users and groups need to be synchronized among all publish nodes.
 
-To learn about user sync and how to enable it, see [User Sychronization](../../../sites/administering/using/sync.md).
+To learn about user sync and how to enable it, see [User Sychronization](/help/sites/administering/using/sync.md).
 
 ## Managing Permissions {#managing-permissions}
 

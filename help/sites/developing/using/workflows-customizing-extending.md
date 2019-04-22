@@ -20,7 +20,7 @@ Creating a custom workflow step involves the following activities:
 * Develop the workflow step component.
 * Implement the step functionality as an OSGi service or an ECMA script.
 
-You can also [interact with your workflows from your programs and scripts](../../../sites/developing/using/workflows-program-interaction.md).
+You can also [interact with your workflows from your programs and scripts](/help/sites/developing/using/workflows-program-interaction.md).
 
 ## Workflow Step Components - The Basics {#workflow-step-components-the-basics}
 
@@ -31,7 +31,7 @@ A workflow step component defines the appearance and behavior of the step when c
 * The edit dialog for configuring component properties.
 * The service or script that is executed at runtime.
 
-As with [all components](../../../sites/developing/using/components.md), workflow step components inherit from the component that is specifed for the `sling:resourceSuperType` property. The following diagram shows the hierarchy of `cq:component` nodes that form the basis of all workflow step components. The diagram also includes the **Process Step**, **Participant Step**, and **Dynamic Participant Step** components, as these are the most common (and basic) starting points for developing custom step components. 
+As with [all components](/help/sites/developing/using/components.md), workflow step components inherit from the component that is specifed for the `sling:resourceSuperType` property. The following diagram shows the hierarchy of `cq:component` nodes that form the basis of all workflow step components. The diagram also includes the **Process Step**, **Participant Step**, and **Dynamic Participant Step** components, as these are the most common (and basic) starting points for developing custom step components. 
 
 ![](assets/aem_wf_componentinherit.png)
 
@@ -58,7 +58,7 @@ The `/libs/cq/workflow/components/model/step` component is the nearest common an
 
   ![](assets/wf-22-1.png)
 
-* [cq:dialog](../../../sites/developing/using/developing-components.md#creating-and-configuring-a-dialog)
+* [cq:dialog](/help/sites/developing/using/developing-components.md#creating-and-configuring-a-dialog)
 
   A dialog with the following tabs:
 
@@ -95,7 +95,7 @@ Both `Workflow` and `WorkflowData` metadatamaps are shared over the entire workf
 
 ## Creating Custom Workflow Step Components {#creating-custom-workflow-step-components}
 
-Workflow step components can be [created in the same manner as any other component](../../../sites/developing/using/components.md).
+Workflow step components can be [created in the same manner as any other component](/help/sites/developing/using/components.md).
 
 To inherit from one of the (existing) base step components, add the following property to the `cq:Component` node:
 
@@ -131,7 +131,7 @@ Use the following procedure to specify default values for the **Title** and **De
 
    >[!NOTE]
    >
-   >For more information about the cq:editConfig node, see [Configuring the Edit Behavior of a Component](../../../sites/developing/using/developing-components.md#configuring-the-edit-behavior).
+   >For more information about the cq:editConfig node, see [Configuring the Edit Behavior of a Component](/help/sites/developing/using/developing-components.md#configuring-the-edit-behavior).
 
 1. Below the `cq:EditConfig` node, add the following node:
 
@@ -181,7 +181,7 @@ To focus the component for use in a specific workflow scenario, configure the ke
     * Name: `cq:editConfig`
     * Type: `cq:EditConfig`
 
-   For more information about the cq:editConfig node, see [Configuring the Edit Behaviour of a Component](../../../sites/developing/using/developing-components.md#configuring-the-edit-behavior).
+   For more information about the cq:editConfig node, see [Configuring the Edit Behaviour of a Component](/help/sites/developing/using/developing-components.md#configuring-the-edit-behavior).
 
 1. Below the cq:EditConfig node, add the following node:
 
@@ -204,7 +204,7 @@ To focus the component for use in a specific workflow scenario, configure the ke
 
 ### Adding Forms and Dialogs to Participant Steps {#adding-forms-and-dialogs-to-participant-steps}
 
-Customize your participant step component to provide features that are found in the [Form Participant Step](../../../sites/developing/using/workflows-step-ref.md#form-participant-step) and [Dialog Participant Step](../../../sites/developing/using/workflows-step-ref.md#dialog-participant-step) components:
+Customize your participant step component to provide features that are found in the [Form Participant Step](/help/sites/developing/using/workflows-step-ref.md#form-participant-step) and [Dialog Participant Step](/help/sites/developing/using/workflows-step-ref.md#dialog-participant-step) components:
 
 * Present a form to the user when they open the generated work item. 
 * Present a custom dialog to the user when they complete the generated work item.
@@ -216,7 +216,7 @@ Peform the following procedure on your new component (see [Creating Custom Workf
     * Name: `cq:editConfig`
     * Type: `cq:EditConfig`
 
-   For more information about the cq:editConfig node, see [Configuring the Edit Behavior of a Component](../../../sites/developing/using/components-basics.md#edit-behavior).
+   For more information about the cq:editConfig node, see [Configuring the Edit Behavior of a Component](/help/sites/developing/using/components-basics.md#edit-behavior).
 
 1. Below the cq:EditConfig node, add the following node:
 
@@ -372,13 +372,13 @@ When process steps are started during the process of a workflow, the steps send 
 
 >[!NOTE]
 >
->For information about associating your Process Step component with the service or script, see [Process Step](../../../sites/developing/using/workflows-step-ref.md#process-step) or [Overriding the Step Implementation](#overriding-the-step-implementation).
+>For information about associating your Process Step component with the service or script, see [Process Step](/help/sites/developing/using/workflows-step-ref.md#process-step) or [Overriding the Step Implementation](#overriding-the-step-implementation).
 
 ### Implementing a Process Step with a Java Class {#implementing-a-process-step-with-a-java-class}
 
 To define a process step as an OSGI service component (Java bundle):
 
-1. Create the bundle and deploy it into the OSGI container. Refer to the documentation about creating a bundle with [CRXDE Lite](../../../sites/developing/using/developing-with-crxde-lite.md) or [Eclipse](../../../sites/developing/using/howto-projects-eclipse.md).
+1. Create the bundle and deploy it into the OSGI container. Refer to the documentation about creating a bundle with [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md) or [Eclipse](/help/sites/developing/using/howto-projects-eclipse.md).
 
    >[!NOTE]
    >
@@ -549,7 +549,7 @@ You can develop a service or ECMA script that selects the participant according 
 
 >[!NOTE]
 >
->For information about associating your **Dynamic Participant Step** component with the service or script, see [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md#dynamic-participant-step) or [Overriding the Step Implementation](#persisting-and-accessing-data).
+>For information about associating your **Dynamic Participant Step** component with the service or script, see [Dynamic Participant Step](/help/sites/developing/using/workflows-step-ref.md#dynamic-participant-step) or [Overriding the Step Implementation](#persisting-and-accessing-data).
 
 ### Developing a Participant Chooser Using a Java class {#developing-a-participant-chooser-using-a-java-class}
 
@@ -651,11 +651,11 @@ function getParticipant() {
    | `jcr:mixinTypes` | `Name[]` | `mix:title` |
    | `jcr:title` | `String` |The name to appear in the edit dialog. |
 
-1. Edit the [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md#dynamic-participant-step) instance and specify the script to be used.
+1. Edit the [Dynamic Participant Step](/help/sites/developing/using/workflows-step-ref.md#dynamic-participant-step) instance and specify the script to be used.
 
 ## Handling Workflow Packages {#handling-workflow-packages}
 
-[Workflow packages](../../../sites/authoring/using/workflows-applying.md#specifying-workflow-details-in-the-create-workflow-wizard) can be passed to a workflow for processing. Workflow packages contain references to resources such as pages and assets.
+[Workflow packages](/help/sites/authoring/using/workflows-applying.md#specifying-workflow-details-in-the-create-workflow-wizard) can be passed to a workflow for processing. Workflow packages contain references to resources such as pages and assets.
 
 >[!NOTE]
 >
@@ -1025,7 +1025,7 @@ The `_cq_dialog/.content.xml` sample used in this example:
 >
 >Classic UI model editor dialogs will still work with the standard, touch-enabled UI editor.
 >
->Though AEM has a [dialog conversion](../../../sites/developing/using/dialog-conversion.md) tool if you want to upgrade your classic UI step dialogs to standard UI dialogs. After conversion there are still some manual improvements that could be done to the dialog for certain cases.  
+>Though AEM has a [dialog conversion](/help/sites/developing/using/dialog-conversion.md) tool if you want to upgrade your classic UI step dialogs to standard UI dialogs. After conversion there are still some manual improvements that could be done to the dialog for certain cases.  
 
 >
 >* In cases where an upgraded dialog is empty you can look at dialogs in `/libs` that have similar functionality as examples of how to provide a solution. For example: >

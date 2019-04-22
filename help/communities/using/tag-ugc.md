@@ -25,19 +25,19 @@ The tag namespaces and taxonomies are the same for both applications.
 
 The AEM Communities features which can be configured to allow tagging are
 
-* [Blog](../../communities/using/blog-feature.md)
-* [Calendar](../../communities/using/calendar.md)
-* [File Library](../../communities/using/file-library.md)
-* [Forum](../../communities/using/forum.md#configuretheaddedforum)
-* [Questions and Answers](../../communities/using/working-with-qna.md)
+* [Blog](/help/communities/using/blog-feature.md)
+* [Calendar](/help/communities/using/calendar.md)
+* [File Library](/help/communities/using/file-library.md)
+* [Forum](/help/communities/using/forum.md#configuretheaddedforum)
+* [Questions and Answers](/help/communities/using/working-with-qna.md)
 
 ## Administering Tags {#administering-tags}
 
-See [Administering Tags](../../sites/administering/using/tags.md#tagging-console) for creating and managing tag namespaces and taxonomies.
+See [Administering Tags](/help/sites/administering/using/tags.md#tagging-console) for creating and managing tag namespaces and taxonomies.
 
-See [Tag Essentials](../../communities/using/tag.md) for developer information.
+See [Tag Essentials](/help/communities/using/tag.md) for developer information.
 
-See [Using Social Tag Cloud](../../communities/using/tagcloud.md) for adding a Social Tag Cloud component to a page to facilitate searching for posted UGC using the tags applied.
+See [Using Social Tag Cloud](/help/communities/using/tagcloud.md) for adding a Social Tag Cloud component to a page to facilitate searching for posted UGC using the tags applied.
 
 ### Tag Permissions {#tag-permissions}
 
@@ -45,7 +45,7 @@ The default permissions are set to not allow tag namespaces to be read by everyo
 
 Because tags are applied to UGC in the publish environment, read permission needs to be enabled for community members in order for them to be able to select tags to apply.
 
-See [Setting Tag Permissions](../../sites/administering/using/tags.md#setting-tag-permissions).
+See [Setting Tag Permissions](/help/sites/administering/using/tags.md#setting-tag-permissions).
 
 The following is how it appears in CRXDE when an administrator applies read permissions to `/etc/tag/discussions` for the group `*Community Engage Members*`.
 

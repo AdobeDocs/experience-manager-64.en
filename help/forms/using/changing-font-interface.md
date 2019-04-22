@@ -15,7 +15,7 @@ discoiquuid: 487e3966-443a-408e-b5af-899fcba6fca6
 
 You can change the font displayed in AEM Forms workspace. Fonts used in a specific section of the user interface are defined in the corresponding section of the style sheet. You can change the fonts on the user interface selectively.
 
-Follow the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md) and depending on your requirements, follow the steps for customizing CSS, HTML, or both.
+Follow the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md) and depending on your requirements, follow the steps for customizing CSS, HTML, or both.
 
 1. Change or add the font-family in an existing style.  
 1. Change or add the font-family inline for the HTML element.

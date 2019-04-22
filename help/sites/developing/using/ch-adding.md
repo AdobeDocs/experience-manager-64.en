@@ -27,18 +27,18 @@ To enable the ContextHub features and to link to the ContextHub Javascript libra
 </head>
 ```
 
-Note that you also need to configure whether the ContextHub toolbar appears in Preview mode. See [Showing and Hiding the ContextHub UI](../../../sites/administering/using/contexthub-config.md#showing-and-hiding-the-contexthub-ui).
+Note that you also need to configure whether the ContextHub toolbar appears in Preview mode. See [Showing and Hiding the ContextHub UI](/help/sites/administering/using/contexthub-config.md#showing-and-hiding-the-contexthub-ui).
 
 ## About ContextHub Stores {#about-contexthub-stores}
 
 Use ContextHub stores to persist context data. ContextHub provides the following types of stores that form the basis of all store types:
 
-* [PersistedStore](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedstore)
-* [SessionStore](../../../sites/developing/using/contexthub-api.md#contexthub-store-sessionstore)
-* [JSONPStore](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore)
-* [PersistedJSONPStore](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedstore)
+* [PersistedStore](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedstore)
+* [SessionStore](/help/sites/developing/using/contexthub-api.md#contexthub-store-sessionstore)
+* [JSONPStore](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore)
+* [PersistedJSONPStore](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedstore)
 
-All store types are extensions of the [ `ContextHub.Store.Core`](../../../sites/developing/using/contexthub-api.md#contexthub-store-core) class. For information about creating a new store type, see [Creating Custom Stores](../../../sites/developing/using/ch-extend.md#creating-custom-store-candidates). For information about sample store types, see [Sample ContextHub Store Candidates](../../../sites/developing/using/ch-samplestores.md).
+All store types are extensions of the [ `ContextHub.Store.Core`](/help/sites/developing/using/contexthub-api.md#contexthub-store-core) class. For information about creating a new store type, see [Creating Custom Stores](/help/sites/developing/using/ch-extend.md#creating-custom-store-candidates). For information about sample store types, see [Sample ContextHub Store Candidates](/help/sites/developing/using/ch-samplestores.md).
 
 ### Persistence Modes {#persistence-modes}
 
@@ -87,25 +87,25 @@ The tree structure defines data items in the store as key/value pairs. In the ab
 
 ### Manipulating Objects {#manipulating-objects}
 
-ContextHub provides the [ `ContextHub.Utils.JSON.tree`](../../../sites/developing/using/contexthub-api.md#contexthub-utils-json-tree) class for manipulating Javascript objects. Use the functions of this class for manipulating Javascript objects before you add them to a store, or after you obtain them from a store. [](../../../sites/developing/using/contexthub-api.md#contexthub-utils-json-tree)
+ContextHub provides the [ `ContextHub.Utils.JSON.tree`](/help/sites/developing/using/contexthub-api.md#contexthub-utils-json-tree) class for manipulating Javascript objects. Use the functions of this class for manipulating Javascript objects before you add them to a store, or after you obtain them from a store. [](/help/sites/developing/using/contexthub-api.md#contexthub-utils-json-tree)
 
-Additionally, the [ `ContextHub.Utils.JSON`](../../../sites/developing/using/contexthub-api.md#contexthub-utils-json) class provides functions for serializing objects to stings, and deserializing strings to objects. Use this class for handling JSON data to support browsers that do not natively include the `JSON.parse` and `JSON.stringify` functions.
+Additionally, the [ `ContextHub.Utils.JSON`](/help/sites/developing/using/contexthub-api.md#contexthub-utils-json) class provides functions for serializing objects to stings, and deserializing strings to objects. Use this class for handling JSON data to support browsers that do not natively include the `JSON.parse` and `JSON.stringify` functions.
 
 ## Interacting with ContextHub Stores {#interacting-with-contexthub-stores}
 
-Use the [ `ContextHub`](../../../sites/developing/using/contexthub-api.md#ui-event-constants) Javascript object to obtain a store as a Javascript object. Once you obtain the store object you can manipulate the data that it contains. Use the [ `getAllStores`](../../../sites/developing/using/contexthub-api.md#getallstores) or the [ `getStore`](../../../sites/developing/using/contexthub-api.md#getstore-name) function to obtain the store.
+Use the [ `ContextHub`](/help/sites/developing/using/contexthub-api.md#ui-event-constants) Javascript object to obtain a store as a Javascript object. Once you obtain the store object you can manipulate the data that it contains. Use the [ `getAllStores`](/help/sites/developing/using/contexthub-api.md#getallstores) or the [ `getStore`](/help/sites/developing/using/contexthub-api.md#getstore-name) function to obtain the store.
 
 ### Accessing Store Data {#accessing-store-data}
 
-The [ `ContexHub.Store.Core`](../../../sites/developing/using/contexthub-api.md#contexthub-store-core) Javascript class defines several functions for interacting with store data. The following functions store and retrieve multiple data items that are contained in objects:
+The [ `ContexHub.Store.Core`](/help/sites/developing/using/contexthub-api.md#contexthub-store-core) Javascript class defines several functions for interacting with store data. The following functions store and retrieve multiple data items that are contained in objects:
 
-* [addAllItems](../../../sites/developing/using/contexthub-api.md#addallitems-tree-options)
-* [getTree](../../../sites/developing/using/contexthub-api.md#gettree-includeinternals)
+* [addAllItems](/help/sites/developing/using/contexthub-api.md#addallitems-tree-options)
+* [getTree](/help/sites/developing/using/contexthub-api.md#gettree-includeinternals)
 
 Individual data items are stored as a set of key/value pairs. To store and retrieve values you specify the corresponding key:
 
-* [getItem](../../../sites/developing/using/contexthub-api.md#getitem-key)
-* [setItem](../../../sites/developing/using/contexthub-api.md#setitem-key-value-options)
+* [getItem](/help/sites/developing/using/contexthub-api.md#getitem-key)
+* [setItem](/help/sites/developing/using/contexthub-api.md#setitem-key-value-options)
 
 Note that custom store candidates can define additional functions that provide access to store data.
 
@@ -113,19 +113,19 @@ Note that custom store candidates can define additional functions that provide a
 >
 >ContextHub is not by default aware of the currently logged in used on publish servers and such users are regarded by ContextHub as “Anonymous.”
 >
->You can make ContextHub aware of logged in users by loading the profile store as implemented in the [We.Retail reference site](../../../sites/developing/using/we-retail.md). Refer to the [relevant code on GitHub here](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/structure/header/clientlib/js/utilities.js).
+>You can make ContextHub aware of logged in users by loading the profile store as implemented in the [We.Retail reference site](/help/sites/developing/using/we-retail.md). Refer to the [relevant code on GitHub here](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/structure/header/clientlib/js/utilities.js).
 
 ### ContextHub Eventing {#contexthub-eventing}
 
-ContextHub includes an event framework that enables you to automatically react to store events. Each store object contains a [ `ContextHub.Utils.Eventing`](../../../sites/developing/using/contexthub-api.md#contexthub-utils-eventing) object that is available as the store's [ `eventing`](../../../sites/developing/using/contexthub-api.md#eventing) property. Use the [ `on`](../../../sites/developing/using/contexthub-api.md#on-name-handler-selector-triggerforpastevents) or [ `once`](../../../sites/developing/using/contexthub-api.md#once-name-handler-selector-triggerforpastevents) function to bind a Javascript function to a store event.
+ContextHub includes an event framework that enables you to automatically react to store events. Each store object contains a [ `ContextHub.Utils.Eventing`](/help/sites/developing/using/contexthub-api.md#contexthub-utils-eventing) object that is available as the store's [ `eventing`](/help/sites/developing/using/contexthub-api.md#eventing) property. Use the [ `on`](/help/sites/developing/using/contexthub-api.md#on-name-handler-selector-triggerforpastevents) or [ `once`](/help/sites/developing/using/contexthub-api.md#once-name-handler-selector-triggerforpastevents) function to bind a Javascript function to a store event.
 
 ## Using Context Hub to Manipulate Cookies {#using-context-hub-to-manipulate-cookies}
 
-The Context Hub Javascript API provides cross-browser support for handling browser cookies. The [ `ContextHub.Utils.Cookie`](../../../sites/developing/using/contexthub-api.md#contexthub-utils-cookie) namespace defines several functions for creating, manipulating, and deleting cookies.
+The Context Hub Javascript API provides cross-browser support for handling browser cookies. The [ `ContextHub.Utils.Cookie`](/help/sites/developing/using/contexthub-api.md#contexthub-utils-cookie) namespace defines several functions for creating, manipulating, and deleting cookies.
 
 ## Determining Resolved ContextHub Segments {#determining-resolved-contexthub-segments}
 
-The ContextHub segment engine enables you to determine which of the registered segments are resolved in the current context. Use the getResolvedSegments function of the [ `ContextHub.SegmentEngine.SegmentManager`](../../../sites/developing/using/contexthub-api.md#contexthub-segmentengine-segmentmanager) class to retrieve resolved segments. Then, use the `getName` or `getPath` function of the [ `ContextHub.SegmentEngine.Segment`](../../../sites/developing/using/contexthub-api.md#contexthub-segmentengine-segment) class to test for a segment.
+The ContextHub segment engine enables you to determine which of the registered segments are resolved in the current context. Use the getResolvedSegments function of the [ `ContextHub.SegmentEngine.SegmentManager`](/help/sites/developing/using/contexthub-api.md#contexthub-segmentengine-segmentmanager) class to retrieve resolved segments. Then, use the `getName` or `getPath` function of the [ `ContextHub.SegmentEngine.Segment`](/help/sites/developing/using/contexthub-api.md#contexthub-segmentengine-segment) class to test for a segment.
 
 ### Installed Segments {#installed-segments}
 
@@ -158,20 +158,20 @@ ContextHub segments are installed below the `/etc/segmentation/contexthub` node.
 
 The rules that are used to resolve these segments are summarized as follows:
 
-* Female or male is determined from the `gender` data item of the [profile](../../../sites/developing/using/ch-samplestores.md#granite-profile-sample-store-candidate) store.
+* Female or male is determined from the `gender` data item of the [profile](/help/sites/developing/using/ch-samplestores.md#granite-profile-sample-store-candidate) store.
 
 * Age is determined from the age data item of the profile store.
-* Season is determined from the the latitude data item of the [geolocation](../../../sites/developing/using/ch-samplestores.md#contexthub-geolocation-sample-store-candidate) store, and the month data item of the surferinfo store.
+* Season is determined from the the latitude data item of the [geolocation](/help/sites/developing/using/ch-samplestores.md#contexthub-geolocation-sample-store-candidate) store, and the month data item of the surferinfo store.
 
 ## Logging Debug Messages for ContextHub {#logging-debug-messages-for-contexthub}
 
 Configure the Adobe Granite ContextHub OSGi service (PID = `com.adobe.granite.contexthub.impl.ContextHubImpl`) to log detailed Debug messages that are useful when developing.
 
-To configure the service you can either use the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or use a [JCR node in the repository](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository):
+To configure the service you can either use the [Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or use a [JCR node in the repository](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository):
 
 * Web Console: To log Debug messages, select the Debug property.
 * JCR node: To log Debug messages, set the boolean `com.adobe.granite.contexthub.debug` property to `true`.
 
 ## See an Overview of the ContextHub Framework {#see-an-overview-of-the-contexthub-framework}
 
-ContextHub provides a [diagnostics page](../../../sites/developing/using/ch-diagnostics.md) where you can see an overview of the ContextHub framework.
+ContextHub provides a [diagnostics page](/help/sites/developing/using/ch-diagnostics.md) where you can see an overview of the ContextHub framework.

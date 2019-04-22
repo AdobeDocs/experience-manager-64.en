@@ -17,7 +17,7 @@ This page explains Previewing with Preflight app.
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 The following actions are performed on the application as a whole.
 
@@ -47,13 +47,13 @@ With the Mobile On Demand Preflight app, you can view all projects to which you 
 
 If you still need more information on authoring content, see the following resources to create and manage content in an AEM Mobile application:
 
-* [AEM Mobile Application Dashboard](../../mobile/using/mobile-apps-ondemand-application-dashboard.md)
-* [Managing Content](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
+* [AEM Mobile Application Dashboard](/help/mobile/using/mobile-apps-ondemand-application-dashboard.md)
+* [Managing Content](/help/mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
 
 ## Additional Resources {#additional-resources}
 
 To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:
 
-* [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
-* [Authoring AEM Content for AEM Mobile On-Demand Services App](../../mobile/using/mobile-apps-ondemand.md)
+* [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-on-demand.md)
+* [Authoring AEM Content for AEM Mobile On-Demand Services App](/help/mobile/using/mobile-apps-ondemand.md)
 

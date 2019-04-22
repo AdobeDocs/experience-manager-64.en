@@ -13,7 +13,7 @@ discoiquuid: da3891d3-fa07-4c88-b4ac-077926b3a674
 
 # Alter the Appearance{#alter-the-appearance}
 
-| ** [⇐ Create Nodes](../../communities/using/overlay-create-nodes.md)** |  |
+| ** [⇐ Create Nodes](/help/communities/using/overlay-create-nodes.md)** |  |
 |---|---|
 
 ## Modify the Script {#modify-the-script}
@@ -58,7 +58,7 @@ Push the overlaid comments component to the publish instance using the Replicati
 
 >[!NOTE]
 >
->A more robust form of replication would be to create a package in Package Manager and [activate](../../sites/administering/using/package-manager.md#replicating-packages) it. A package can be exported and archived.
+>A more robust form of replication would be to create a package in Package Manager and [activate](/help/sites/administering/using/package-manager.md#replicating-packages) it. A package can be exported and archived.
 
 From the global navigation, select **Tools, Deployment, Replication** and then **Activate Tree**.
 
@@ -74,6 +74,6 @@ If you logout and re-login as `aaron.mcdonald@mailinator.com/password` and refre
 
 ![](assets/chlimage_1-43.png) 
 
-| ** [⇐ Create Nodes](../../communities/using/overlay-create-nodes.md)** |  |
+| ** [⇐ Create Nodes](/help/communities/using/overlay-create-nodes.md)** |  |
 |---|---|
 

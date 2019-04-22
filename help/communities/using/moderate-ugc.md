@@ -17,21 +17,21 @@ discoiquuid: d11b8fc8-5e98-4a77-a536-d445ac88e1b3
 
 Community content, also known as user generated content (UGC), is created when a member (signed in site visitor) posts content from a published community site through interaction with one of the following community components:
 
-* [blog](../../communities/using/blog-feature.md): members post a blog article or comment
-* [calendar](../../communities/using/calendar.md): members post a calendar event or comment
-* [comments](../../communities/using/comments.md): members post a comment or reply to a comment  
+* [blog](/help/communities/using/blog-feature.md): members post a blog article or comment
+* [calendar](/help/communities/using/calendar.md): members post a calendar event or comment
+* [comments](/help/communities/using/comments.md): members post a comment or reply to a comment  
 
-* [forum](../../communities/using/forum.md): members post a new topic or reply to a topic
-* [ideation](../../communities/using/ideation-feature.md): members post an idea or comment
-* [QnA](../../communities/using/working-with-qna.md): members create a question or answer a question
-* [reviews](../../communities/using/reviews.md): members post a comment when rating an item
+* [forum](/help/communities/using/forum.md): members post a new topic or reply to a topic
+* [ideation](/help/communities/using/ideation-feature.md): members post an idea or comment
+* [QnA](/help/communities/using/working-with-qna.md): members create a question or answer a question
+* [reviews](/help/communities/using/reviews.md): members post a comment when rating an item
 
-Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments: [](../../communities/using/working-with-srp.md)
+Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments: [](/help/communities/using/working-with-srp.md)
 
-* [bulk moderation console](../../communities/using/moderation.md)  
-  The Moderation console is accessible by administrators and [community moderators](../../communities/using/users.md) in the public environment as well as by administrators in the author environment. This is possible when community content is stored in a [common store](../../communities/using/working-with-srp.md).
+* [bulk moderation console](/help/communities/using/moderation.md)  
+  The Moderation console is accessible by administrators and [community moderators](/help/communities/using/users.md) in the public environment as well as by administrators in the author environment. This is possible when community content is stored in a [common store](/help/communities/using/working-with-srp.md).
 
-* [in-context moderation](../../communities/using/in-context.md)  
+* [in-context moderation](/help/communities/using/in-context.md)  
   Moderation in the publish environment may be performed by administrators and community moderators directly on the page where the content was posted.
 
 ## Moderation Actions {#moderation-actions}
@@ -39,10 +39,10 @@ Moderation of UGC is useful for recognizing positive contributions as well as li
 The actions which can be performed on posted content (UGC) varies depending on the user identity and the environment. The table below uses the following terminology to describe the various roles according to user identity:
 
 * `Admin`  
-  a user who is a member of [community-administrators](../../communities/using/users.md) group
+  a user who is a member of [community-administrators](/help/communities/using/users.md) group
 
 * `Moderator`  
-  a member of a [community moderators](../../communities/using/users.md#publishenvironmentusersandgroups) group (has [moderator permissions](../../communities/using/in-context.md#moderatorpermissions))
+  a member of a [community moderators](/help/communities/using/users.md#publishenvironmentusersandgroups) group (has [moderator permissions](/help/communities/using/in-context.md#moderatorpermissions))
 
 * `Creator`  
   the user who posted the content
@@ -176,12 +176,12 @@ The Allow action is an option for UGC that has been Flagged, Denied or has not b
 
 ### Premoderation {#premoderation}
 
-When UGC is premoderated, the post will not appear on the published site until approved by a moderation action. During creation of a [community site](../../communities/using/sites-console.md), checking the box ` [Content is Premoderated](../../communities/using/sites-console.md#moderation)` will enable premoderation for the entire site. Once components are placed on a page, components which support moderation can be configured for premoderation using a setting in their edit dialog:
+When UGC is premoderated, the post will not appear on the published site until approved by a moderation action. During creation of a [community site](/help/communities/using/sites-console.md), checking the box ` [Content is Premoderated](/help/communities/using/sites-console.md#moderation)` will enable premoderation for the entire site. Once components are placed on a page, components which support moderation can be configured for premoderation using a setting in their edit dialog:
 
-* [comments](../../communities/using/comments.md) and [reviews](../../communities/using/reviews.md)  
+* [comments](/help/communities/using/comments.md) and [reviews](/help/communities/using/reviews.md)  
   on **User Moderation** tab, check **Pre-Moderation**
 
-* [forum](../../communities/using/forum.md), [ideation](../../communities/using/ideation-feature.md), [QnA](../../communities/using/working-with-qna.md), and [calendar](../../communities/using/calendar.md)  
+* [forum](/help/communities/using/forum.md), [ideation](/help/communities/using/ideation-feature.md), [QnA](/help/communities/using/working-with-qna.md), and [calendar](/help/communities/using/calendar.md)  
   on **Settings** tab, check **Moderated**
 
 ### Spam Detection {#spam-detection}
@@ -190,7 +190,7 @@ Spam detection is an auto-moderation functionality, which filters out undesireab
 
 `/libs/settings/community/sites/moderation/spamdetector-conf/profiles/spam_words.txt`.
 
-However, to customize or extend the default spam words create a set of words in the /apps directory following the structure of the default spam words by means of [overlay](../../communities/using/overlay-comments.md).
+However, to customize or extend the default spam words create a set of words in the /apps directory following the structure of the default spam words by means of [overlay](/help/communities/using/overlay-comments.md).
 
 A user generated post (across all the content types, for example blogs, forums, and comments) containing spam word(s) is marked with the text “This post was classified as spam” above the post.
 
@@ -230,7 +230,7 @@ To overwrite or add rules, create a set of rules in the /apps directory followin
 
 Once analyzed, the sentiment is stored with the UGC.
 
-From the [bulk moderation console](../../communities/using/moderation.md), it is possible to filter and view UGC based on whether the sentiment is negative, neutral, or positive.
+From the [bulk moderation console](/help/communities/using/moderation.md), it is possible to filter and view UGC based on whether the sentiment is negative, neutral, or positive.
 
 #### Watchwords {#watchwords}
 

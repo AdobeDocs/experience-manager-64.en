@@ -65,7 +65,7 @@ Your page can contain either a single content fragment or multiple components of
 
   >[!NOTE]
   >
-  >You can [adapt your own components](../../../sites/developing/using/json-exporter-components.md) to access and use this data.
+  >You can [adapt your own components](/help/sites/developing/using/json-exporter-components.md) to access and use this data.
 
 ### Further Information {#further-information}
 
@@ -73,7 +73,7 @@ See also:
 
 * Assets HTTP API
 
-    * [Assets HTTP API](../../../assets/using/mac-api-assets.md)
+    * [Assets HTTP API](/help/assets/using/mac-api-assets.md)
 
 * Sling Models:
 
@@ -81,7 +81,7 @@ See also:
 
 * AEM with JSON:
 
-    * [Obtaining Page Information in JSON Format](../../../sites/developing/using/pageinfo.md)
+    * [Obtaining Page Information in JSON Format](/help/sites/developing/using/pageinfo.md)
 
 ## Related Documentation {#related-documentation}
 
@@ -89,9 +89,9 @@ For further details see:
 
 * The [Content Fragments topic in the Assets user guide](https://helpx.adobe.com/experience-manager/6-4/assets/user-guide.html?topic=/experience-manager/6-4/assets/morehelp/content-fragments.ug.js)  
 
-* [Content Fragment Models](../../../assets/using/content-fragments-models.md)
-* [Authoring with Content Fragments](../../../sites/authoring/using/content-fragments.md)
-* [Enabling JSON Export for a Component](../../../sites/developing/using/json-exporter-components.md)  
+* [Content Fragment Models](/help/assets/using/content-fragments-models.md)
+* [Authoring with Content Fragments](/help/sites/authoring/using/content-fragments.md)
+* [Enabling JSON Export for a Component](/help/sites/developing/using/json-exporter-components.md)  
 
 * [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) and the [Content Fragment component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html)
 

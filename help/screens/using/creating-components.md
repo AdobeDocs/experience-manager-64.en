@@ -17,7 +17,7 @@ AEM components are used to hold, format, and render the content made available o
 
 >[!NOTE]
 >
->To learn about the details of creating AEM Components, see [Developing AEM Components](../../sites/developing/using/components-basics.md).
+>To learn about the details of creating AEM Components, see [Developing AEM Components](/help/sites/developing/using/components-basics.md).
 
 ## Authoring Channels {#authoring-channels}
 
@@ -31,7 +31,7 @@ The user does not have to take care of adding the selector to the URL while edit
 
 >[!NOTE]
 >
->To learn about the basics on developing your AEM application using CRXDE Lite, See [Developing with CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md).
+>To learn about the basics on developing your AEM application using CRXDE Lite, See [Developing with CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md).
 
 ## Rendering Components {#rendering-components}
 

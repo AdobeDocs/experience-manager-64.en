@@ -233,7 +233,7 @@ Multiply(valueArray, category) {
 
 Once you have written a custom function, do the following to make it available for use in the chart configuration:
 
-1. Add the custom function in the client library associated with the relevant Interactive Communication. For more information, see [Configuring the Submit action](../../forms/using/configuring-submit-actions.md) and [Using Client-Side Libraries](../../sites/developing/using/clientlibs.md).
+1. Add the custom function in the client library associated with the relevant Interactive Communication. For more information, see [Configuring the Submit action](/help/forms/using/configuring-submit-actions.md) and [Using Client-Side Libraries](/help/sites/developing/using/clientlibs.md).
 
 1. To display the custom function in Function drop-down, in CRXDe Lite, create an `nt:unstructured` node in the apps folder with the following properties:
 

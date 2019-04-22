@@ -22,5 +22,5 @@ This site is built using [HTL](https://helpx.adobe.com/experience-manager/htl/us
 
 >[!NOTE]
 >
->This article is a quick overview of some of the core concepts behind web site development on AEM. For a comprehensive introduction to all of the recommended tools and technologies for developing on AEM, please see the [Getting Started Developing AEM Sites - WKND Tutorial](../../../sites/developing/using/getting-started.md).
+>This article is a quick overview of some of the core concepts behind web site development on AEM. For a comprehensive introduction to all of the recommended tools and technologies for developing on AEM, please see the [Getting Started Developing AEM Sites - WKND Tutorial](/help/sites/developing/using/getting-started.md).
 

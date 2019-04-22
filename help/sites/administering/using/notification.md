@@ -15,10 +15,10 @@ discoiquuid: 6466d7b8-e308-43c5-acdc-dec15f796f64
 
 AEM sends email notifications to users who:
 
-* Have subscribed to page events, for example modification or replication. The [Notification Inbox](../../../sites/classic-ui-authoring/using/author-env-inbox.md#subscribing-to-notifications) section describes how to subscribe to such events.  
+* Have subscribed to page events, for example modification or replication. The [Notification Inbox](/help/sites/classic-ui-authoring/using/author-env-inbox.md#subscribing-to-notifications) section describes how to subscribe to such events.  
 
 * Have subscribed to forum events.
-* Have to perform a step in a workflow. The [Participant Step](../../../sites/developing/using/workflows-step-ref.md#participant-step) section describes how to trigger email notification in a workflow.
+* Have to perform a step in a workflow. The [Participant Step](/help/sites/developing/using/workflows-step-ref.md#participant-step) section describes how to trigger email notification in a workflow.
 
 Pre-requisites:
 
@@ -29,11 +29,11 @@ When a user is notified, he receives an email in the language that is defined in
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+>When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 ## Configuring the Mail Service {#configuring-the-mail-service}
 
-For AEM to be able to send emails, the **Day CQ Mail Service** needs to be properly configured. You can view the configuration in the Web console. When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+For AEM to be able to send emails, the **Day CQ Mail Service** needs to be properly configured. You can view the configuration in the Web console. When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 The following constraints apply:
 
@@ -296,7 +296,7 @@ To add a template for a new language:
 
 When Collections in AEM Assets are shared or unshared, users can receive email notifications from AEM. To configure email notifications, follow these steps.
 
-1. Configure the email service, as described above in [Configuring the Mail Service](../../../sites/administering/using/notification.md#configuring-the-mail-service).
+1. Configure the email service, as described above in [Configuring the Mail Service](/help/sites/administering/using/notification.md#configuring-the-mail-service).
 1. Log into AEM as an administrator. Click **Tools **&gt; **Operations **&gt; **Web Console** to open Web Console Configuration.
 1. Edit **Day CQ DAM Resource Collection Servlet**. Select **send email**. Click **Save**.
 

@@ -13,9 +13,9 @@ discoiquuid: df5416ec-5c63-481b-99ed-9e5a91df2432
 
 # Server-side Customization{#server-side-customization}
 
-| ** [⇐ Feature Essentials](../../communities/using/essentials.md)** |** [Client-side Customization ⇒](../../communities/using/client-customize.md)** |
+| ** [⇐ Feature Essentials](/help/communities/using/essentials.md)** |** [Client-side Customization ⇒](/help/communities/using/client-customize.md)** |
 |---|---|
-|   |** [SCF Handlebars Helpers ⇒](../../communities/using/handlebars-helpers.md)** |
+|   |** [SCF Handlebars Helpers ⇒](/help/communities/using/handlebars-helpers.md)** |
 
 ## Java APIs {#java-apis}
 
@@ -115,11 +115,11 @@ Sample code is available in the [Adobe Marketing Cloud GitHub](https://github.co
 
 ## Best Practices {#best-practices}
 
-View the [Coding Guidelines](../../communities/using/code-guide.md) section for various coding guidelines and best practices for AEM Communities developers.
+View the [Coding Guidelines](/help/communities/using/code-guide.md) section for various coding guidelines and best practices for AEM Communities developers.
 
-See also [Storage Resource Provider (SRP) for UGC](../../communities/using/srp.md) to learn about accessing user generated content.
+See also [Storage Resource Provider (SRP) for UGC](/help/communities/using/srp.md) to learn about accessing user generated content.
 
-| ** [⇐ Feature Essentials](../../communities/using/essentials.md)** |** [Client-side Customization ⇒](../../communities/using/client-customize.md)** |
+| ** [⇐ Feature Essentials](/help/communities/using/essentials.md)** |** [Client-side Customization ⇒](/help/communities/using/client-customize.md)** |
 |---|---|
-|   |** [SCF Handlebars Helpers ⇒](../../communities/using/handlebars-helpers.md)** |
+|   |** [SCF Handlebars Helpers ⇒](/help/communities/using/handlebars-helpers.md)** |
 

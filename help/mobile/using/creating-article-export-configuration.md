@@ -15,13 +15,13 @@ discoiquuid: bc681589-5d46-44cd-888d-b0722a2fd006
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 >[!CAUTION]
 >
 >**Prerequisite**:
 >
->Prior to learn about creating and modifying shared resources, see [Content Sync](../../mobile/using/mobile-ondemand-contentsync.md) to understand the basic concepts.
+>Prior to learn about creating and modifying shared resources, see [Content Sync](/help/mobile/using/mobile-ondemand-contentsync.md) to understand the basic concepts.
 
 AEM Mobile users use Content Sync to export live content to static content for use in Mobile Apps and this export occurs when content is uploaded to Mobile On-Demand Services from AEM Mobile.
 
@@ -31,7 +31,7 @@ The following resources describes exporting content from Adobe Experience Manage
 
 Articles have content that needs to be exported and uploaded. Some of this content can be shared between Articles.
 
-Use [ContentSync](../../mobile/using/mobile-ondemand-contentsync.md) to gather the content together and create a ***Shared Resources*** package.
+Use [ContentSync](/help/mobile/using/mobile-ondemand-contentsync.md) to gather the content together and create a ***Shared Resources*** package.
 
 The ContentSync configuration found at **&lt;dps-exportTemplate&gt;/dps-article&gt;** should be configured to export all the content an article required for property static rendering on device.
 

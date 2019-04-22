@@ -15,7 +15,7 @@ redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/administer-
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 A model contains a set of data types that define the properties that will ultimately be rendered by content services. A model also defines the relationships between other models in order to enforce data integrity.
 
@@ -58,7 +58,7 @@ An overlay of */libs/settings/mobileapps/models/formbuilderconfig/datatypes* wil
 
 For example, an overlay for the String data type could be added in order to change the fieldResourceType to a custom component.
 
-For more information on Sling Resource Merging see, [Using Sling Resource Merger in AEM](../../sites/developing/using/sling-resource-merger.md).
+For more information on Sling Resource Merging see, [Using Sling Resource Merger in AEM](/help/sites/developing/using/sling-resource-merger.md).
 
 ![](assets/chlimage_1-7.png)
 
@@ -78,7 +78,7 @@ You can start creating models once all the desired model types and data types ha
 
 Creating a model consists of picking an allowed model type based on the current configuration and then providing a title and description.
 
-To learn about creating and managing a model from the dashboard, see [Creating a Model](../../mobile/using/working-with-a-model.md) under authoring section for Mobile Apps.
+To learn about creating and managing a model from the dashboard, see [Creating a Model](/help/mobile/using/working-with-a-model.md) under authoring section for Mobile Apps.
 
 ### Properties of a Model {#properties-of-a-model}
 
@@ -95,7 +95,7 @@ The following table shows the properties defined for a model:
 
 >[!NOTE]
 >
->The *allowed children* and *allowed parents* properties follow the same rules as Page templates. For more information, see [Page Templates](../../sites/developing/using/page-templates-static.md).
+>The *allowed children* and *allowed parents* properties follow the same rules as Page templates. For more information, see [Page Templates](/help/sites/developing/using/page-templates-static.md).
 >
 >In reference to *Model Type* property, all models must have a super type of *mobileapps/caas/components/data/entity* but can have a sub-type which allows the content delivery to be customized. Ensuring all model types are unique may also help clients of content services to distinguish between objects in the data.
 
@@ -109,7 +109,7 @@ When the scaffolding for the model is located the model editor will render whate
 >
 >All models are Templates, so they follow all AEM Templating rules. This allows using properties such as *allowedParents*and *allowedChildren* properties. These are effective while creating new Entities based on a model. The template rules will ensure entities can only be based on certain models depending on their hierarchy.
 >
->To learn about editing a model from the dashboard, see [Creating a Model](../../mobile/using/working-with-a-model.md) under authoring section for Mobile Apps.
+>To learn about editing a model from the dashboard, see [Creating a Model](/help/mobile/using/working-with-a-model.md) under authoring section for Mobile Apps.
 
 ### System Models {#system-models}
 
@@ -129,5 +129,5 @@ Asset List: List of paths from Assets. Each asset will added as a child entity n
 
 >[!NOTE]
 >
->To learn more about using these templates for creating models from the dashboard, see [Creating a Model](../../mobile/using/working-with-a-model.md) under authoring section for Mobile Apps.
+>To learn more about using these templates for creating models from the dashboard, see [Creating a Model](/help/mobile/using/working-with-a-model.md) under authoring section for Mobile Apps.
 

@@ -22,15 +22,15 @@ This documentation describes how to work with Adobe Campaign:
 
 See the following:
 
-* [Working with Adobe Campaign Classic and Adobe Campaign Standard](../../../sites/authoring/using/campaign.md)
-* [Adobe Campaign Components](../../../sites/authoring/using/adobe-campaign-components.md)
-* [Creating Adobe Campaign Forms in AEM](../../../sites/authoring/using/adobe-campaign-forms.md)
-* [Targeting your Adobe Campaign](../../../sites/authoring/using/target-adobe-campaign.md)
+* [Working with Adobe Campaign Classic and Adobe Campaign Standard](/help/sites/authoring/using/campaign.md)
+* [Adobe Campaign Components](/help/sites/authoring/using/adobe-campaign-components.md)
+* [Creating Adobe Campaign Forms in AEM](/help/sites/authoring/using/adobe-campaign-forms.md)
+* [Targeting your Adobe Campaign](/help/sites/authoring/using/target-adobe-campaign.md)
 
-You must previously have [integrated AEM with Adobe Campaign](../../../sites/administering/using/campaign.md).
+You must previously have [integrated AEM with Adobe Campaign](/help/sites/administering/using/campaign.md).
 
 In addition, if you want to customize your integrations, see the following topics:
 
-* [Creating Custom Extensions](../../../sites/developing/using/extending-campaign-extensions.md)
-* [Creating Custom Form Mappings](../../../sites/developing/using/extending-campaign-form-mapping.md)
+* [Creating Custom Extensions](/help/sites/developing/using/extending-campaign-extensions.md)
+* [Creating Custom Form Mappings](/help/sites/developing/using/extending-campaign-form-mapping.md)
 

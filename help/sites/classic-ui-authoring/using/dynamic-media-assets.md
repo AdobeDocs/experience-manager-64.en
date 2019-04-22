@@ -17,9 +17,9 @@ discoiquuid: 2a60cacf-0551-44d4-9965-705a715d44c5
 
 Dynamic media serves interactive viewing experiences, including zoom, 360-degree spin, and video. Dynamic media uniquely incorporates the workflows of the Adobe Experience Manager digital asset management (Assets) solution to simplify and streamline the digital campaign management process.
 
-Working with Dynamic Media is not available in the classic UI. See [Working with Dynamic Media,](../../../assets/using/dynamic-media.md) which covers the touch-enabled user interface.
+Working with Dynamic Media is not available in the classic UI. See [Working with Dynamic Media,](/help/assets/using/dynamic-media.md) which covers the touch-enabled user interface.
 
 >[!NOTE]
 >
->If you are using Dynamic Media, you cannot simultaneously use automatic uploads available if [integrate Scene7 into AEM](../../../sites/administering/using/scene7.md). See [enabling Dynamic Media](../../../assets/using/config-dynamic.md#enabling-dynamic-media). Dynamic Media is disabled by default.
+>If you are using Dynamic Media, you cannot simultaneously use automatic uploads available if [integrate Scene7 into AEM](/help/sites/administering/using/scene7.md). See [enabling Dynamic Media](/help/assets/using/config-dynamic.md#enabling-dynamic-media). Dynamic Media is disabled by default.
 

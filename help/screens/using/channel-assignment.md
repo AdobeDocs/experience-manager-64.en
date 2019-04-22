@@ -25,11 +25,11 @@ This page shows assigning channel to your displays.
 
 **Pre-requisites**:
 
-* [Configuring and Deploying Screens](../../sites/deploying/using/configuring-screens-introduction.md)
-* [Create and Manage Screens Project](../../screens/using/creating-a-screens-project.md)
-* [Create and Manage Channels](../../screens/using/managing-channels.md)
-* [Create and Manage Locations](../../screens/using/managing-locations.md)
-* [Create and Manage Displays](../../screens/using/managing-displays.md)
+* [Configuring and Deploying Screens](/help/sites/deploying/using/configuring-screens-introduction.md)
+* [Create and Manage Screens Project](/help/screens/using/creating-a-screens-project.md)
+* [Create and Manage Channels](/help/screens/using/managing-channels.md)
+* [Create and Manage Locations](/help/screens/using/managing-locations.md)
+* [Create and Manage Displays](/help/screens/using/managing-displays.md)
 
 ## Assign a Channel {#assign-a-channel}
 

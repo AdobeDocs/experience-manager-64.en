@@ -19,7 +19,7 @@ AEM's internal re-indexing process collects repository data and stores it in Oak
 
 It is important to distinguish between re-indexing that takes an inappropriately long amount of time, and re-indexing that takes a long amount of time because it's indexing vast quantities of content. For example, the time it takes to index content scales with the amount of content, so large production repositories will take longer to re-index than small development repositories.
 
-See the [Best Practices on Queries and Indexing](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md) for additional information on when and how to re-index content.
+See the [Best Practices on Queries and Indexing](/help/sites/deploying/using/best-practices-for-queries-and-indexing.md) for additional information on when and how to re-index content.
 
 ## Initial Detection {#initial-detection}
 
@@ -35,11 +35,11 @@ Initial detection slow indexing requires reviewing the `IndexStats` JMX MBeans. 
 
 ## Indexing is paused after a forced shutdown {#indexing-is-paused-after-a-forced-shutdown}
 
-A forced shutdown results in AEM suspending asynchronous indexing for up to 30 minutes after the restart, and typically requires another 15 minutes to complete the first re-indexing pass, for a total of approximately 45 minutes (tying back to the [Initial Detection](../../../sites/deploying/using/troubleshooting-oak-indexes.md#initial-detection) timeframe of 45 minutes). In the event you suspect indexing is paused after a forced shutdown:
+A forced shutdown results in AEM suspending asynchronous indexing for up to 30 minutes after the restart, and typically requires another 15 minutes to complete the first re-indexing pass, for a total of approximately 45 minutes (tying back to the [Initial Detection](/help/sites/deploying/using/troubleshooting-oak-indexes.md#initial-detection) timeframe of 45 minutes). In the event you suspect indexing is paused after a forced shutdown:
 
 1. Firstly, determine if the AEM instance was shut down in a forced manner (the AEM process was forcefully killed, or a power failure occured) and subsequently restarted.
 
-    * [AEM logging](../../../sites/deploying/using/configure-logging.md) can be reviewed for this purpose.
+    * [AEM logging](/help/sites/deploying/using/configure-logging.md) can be reviewed for this purpose.
 
 1. If the forced shutdown occurred, upon restart, AEM automatically suspends re-indexing for up to 30 minutes.
 1. Wait approximately 45 minutes for AEM to resume normal asynchronous indexing operations.
@@ -103,7 +103,7 @@ To identify and fix a stuck re-indexing process, do the following:
 1. In order to identify the cause of stuck indexing the following information must be collected:
 
     * Collect 5 minutes of thread dump, one thread dump every 2 seconds.
-    * [Set DEBUG level and logs for the appenders](../../../sites/deploying/using/configure-logging.md).
+    * [Set DEBUG level and logs for the appenders](/help/sites/deploying/using/configure-logging.md).
 
         * *org.apache.jackrabbit.oak.plugins.index.AsyncIndexUpdate* 
         * *org.apache.jackrabbit.oak.plugins.index.IndexUpdate*

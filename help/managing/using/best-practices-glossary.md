@@ -13,7 +13,7 @@ discoiquuid: a063d1ba-712a-49e1-8844-75bfa6e98977
 
 # Glossary {#glossary}
 
-This glossary lists (alpabetically) details of all Deliverable documents from the [Project Checklist](../../managing/using/best-practices-checklist.md).
+This glossary lists (alpabetically) details of all Deliverable documents from the [Project Checklist](/help/managing/using/best-practices-checklist.md).
 
 ## Acceptance from Business Stakeholders {#acceptance-from-business-stakeholders}
 
@@ -40,7 +40,7 @@ Ensure that the required levels of system access have been granted to all roles.
 
 ### Adobe Security Checklist {#adobe-security-checklist}
 
-The [Adobe Security Checklist](../../sites/administering/using/security-checklist.md) is the official checklist provided to ensure that AEM is secure at installation. It contains the security measures and verification steps you need to perform to ensure the integrity of your instance. [](../../sites/administering/using/security-checklist.md)
+The [Adobe Security Checklist](/help/sites/administering/using/security-checklist.md) is the official checklist provided to ensure that AEM is secure at installation. It contains the security measures and verification steps you need to perform to ensure the integrity of your instance. [](/help/sites/administering/using/security-checklist.md)
 
 ### Adobe Support Portal Project Set Up {#adobe-support-portal-project-set-up}
 
@@ -86,7 +86,7 @@ The Customer Roadmap is comprised of high level milestones and business goals. T
 
 ### Application Architecture Definition {#application-architecture-definition}
 
-The [application architecture](../../managing/using/best-practices.md#development-preparation) should clearly define the behavior of the proposed applications.
+The [application architecture](/help/managing/using/best-practices.md#development-preparation) should clearly define the behavior of the proposed applications.
 
 It is focused on:
 
@@ -962,7 +962,7 @@ It is used with the Runbook to execute pre- and post installation steps and chec
 
 >[!NOTE]
 >
->For an example, see the [AEM Release Notes](../../release-notes/release-notes.md).
+>For an example, see the [AEM Release Notes](/help/release-notes/release-notes.md).
 
 ### Release Running on Production Environment {#release-running-on-production-environment}
 

@@ -13,7 +13,7 @@ discoiquuid: 889b5ffc-3652-47d8-b576-128f3cee513a
 
 # Creating and Managing Offers{#creating-and-managing-offers}
 
-Use the Offers console to create offers that you can [use in activity experiences](../../../sites/authoring/using/content-targeting-touch.md). Creating offers in the Offers console saves time when several experiences require the same offer:
+Use the Offers console to create offers that you can [use in activity experiences](/help/sites/authoring/using/content-targeting-touch.md). Creating offers in the Offers console saves time when several experiences require the same offer:
 
 * Create the offer once in the library and use it in multiple experieces of your brand activities. 
 * Change the offer in the library and the change affects all of the experiences that use it.
@@ -24,7 +24,7 @@ The Offers console organizes offers by brand. Each brand contains a library of o
 
 Create a brand with which your offers are associated. Open a brand in the Offers console to access its offer library where you can create folders and offers.
 
-When you create a brand using the Offers console, it also appears in the [Activities console](../../../sites/authoring/using/activitylib.md) where you can add and administer activities for the brand.
+When you create a brand using the Offers console, it also appears in the [Activities console](/help/sites/authoring/using/activitylib.md) where you can add and administer activities for the brand.
 
 1. In the Navigation console, click or tap **Personalization** &gt; **Offers**.
 

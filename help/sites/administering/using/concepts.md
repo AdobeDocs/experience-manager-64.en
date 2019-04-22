@@ -31,15 +31,15 @@ This means that:
 >
 >The eCommerce framework can be used with any eCommerce solution; including:
 >
->* [hybris](https://www.hybris.com/) - see [AEM with hybris](../../../sites/administering/using/hybris.md)
+>* [hybris](https://www.hybris.com/) - see [AEM with hybris](/help/sites/administering/using/hybris.md)
 >
->* [IBM](https://www.ibm.com/software/websphere) - see [AEM with IBM Websphere Commerce](../../../sites/administering/using/ibm-websphere.md)
+>* [IBM](https://www.ibm.com/software/websphere) - see [AEM with IBM Websphere Commerce](/help/sites/administering/using/ibm-websphere.md)
 >
->* [Elastic Path](https://www.elasticpath.com/) - see [AEM with Elastic Path](../../../sites/administering/using/elasticpath.md)
+>* [Elastic Path](https://www.elasticpath.com/) - see [AEM with Elastic Path](/help/sites/administering/using/elasticpath.md)
 >
->* [Intershop](https://www.intershop.com/) - see [AEM with Intershop](../../../sites/administering/using/intershop.md)
+>* [Intershop](https://www.intershop.com/) - see [AEM with Intershop](/help/sites/administering/using/intershop.md)
 >
->* [Demandware](https://www.demandware.com/) - see [AEM with Demandware](../../../sites/administering/using/demandware.md)
+>* [Demandware](https://www.demandware.com/) - see [AEM with Demandware](/help/sites/administering/using/demandware.md)
 >
 >* [Agility Multichannel](https://www.agilitymultichannel.com) - see [Agility PIM and AEM](https://www.agilitymultichannel.com/adobe)
 >
@@ -128,7 +128,7 @@ The framework gives you access to functionality such as:
 AEM eCommerce is implemented with an eCommerce engine:
 
 * The eCommerce integration framework has been built to allow you to easily integrate an eCommerce engine with AEM. The purpose built eCommerce engine controls product data, shopping carts, checkout and order fulfillment, while AEM controls the data display and marketing campaigns.  
-  [A reference site has already been implemented using hybris](../../../sites/administering/using/hybris.md).
+  [A reference site has already been implemented using hybris](/help/sites/administering/using/hybris.md).
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ AEM eCommerce is implemented with an eCommerce engine:
 >AEM eCommerce implemented within AEM using generic development based on JCR is:
 >
 >* A standalone, AEM-native eCommerce example to illustrate use of the API. This can be used to control product data, shopping carts and checkout in conjunction with the existing data display and marketing campaigns. In this case the product database is stored in the repository native to AEM (Adobe's implementation of [JCR](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/index.html)).  
->  The standard AEM installation contains the basics of the [generic eCommerce implemention](../../../sites/administering/using/generic.md).   
+>  The standard AEM installation contains the basics of the [generic eCommerce implemention](/help/sites/administering/using/generic.md).   
 >
 
 ### Commerce Providers {#commerce-providers}
@@ -162,7 +162,7 @@ Though usually a project will need to develop their own, customized, commerce pr
 >
 >The geometrixx importers use CSV files; there is a description of the schema accepted (with custom properties allowed) in the comments above their implementation.
 
-The ` [ProductServicesManager](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/ProductServicesManager.html)` maintains (through [OSGi](../../../sites/deploying/using/configuring.md#osgi-configuration-settings)) a list of implementations of the ` [ProductImporter](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/ProductImporter.html)` and ` [CatalogBlueprintImporter](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/CatalogBlueprintImporter.html)` interfaces. These are listed in the **Importer/Commerce Provider** dropdown field of the importer wizard (using the `commerceProvider` property as a name).
+The ` [ProductServicesManager](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/ProductServicesManager.html)` maintains (through [OSGi](/help/sites/deploying/using/configuring.md#osgi-configuration-settings)) a list of implementations of the ` [ProductImporter](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/ProductImporter.html)` and ` [CatalogBlueprintImporter](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/CatalogBlueprintImporter.html)` interfaces. These are listed in the **Importer/Commerce Provider** dropdown field of the importer wizard (using the `commerceProvider` property as a name).
 
 When a specific importer/commerce provider is available from the dropdown, any supplemental data it needs must be defined (depending on the importer type) in either:
 
@@ -295,7 +295,7 @@ A catalog groups product data together for both ease of management and represent
 
 AEM supports product content in multiple languages. When requesting data, the integration framework retrieves the language from the current tree (for example, `en_US` for pages under `/content/geometrixx-outdoors/en_US`).
 
-For a multi-lingual store, you can import your catalog for each language tree individually (or copy it by means of [MSM](../../../sites/administering/using/msm.md)).
+For a multi-lingual store, you can import your catalog for each language tree individually (or copy it by means of [MSM](/help/sites/administering/using/msm.md)).
 
 #### Catalogs for Multiple Brands {#catalogs-for-multiple-brands}
 
@@ -316,7 +316,7 @@ Depending on your implementation, you can import the product data required for y
 
 Further changes to the product data will be inevitable:
 
-* for the generic implementation these can be managed with the [product editor](../../../sites/administering/using/generic.md#editing-product-information)
+* for the generic implementation these can be managed with the [product editor](/help/sites/administering/using/generic.md#editing-product-information)
 * when using an [eCommerce engine the changes must be synchronized](#data-synchronization-with-an-ecommerce-engine-ongoing)
 
 #### Data Synchronization with an eCommerce Engine (Ongoing) {#data-synchronization-with-an-ecommerce-engine-ongoing}
@@ -327,7 +327,7 @@ When using an eCommerce engine the product data is maintained there and needs to
 
 This can depend on the type of data:
 
-* A [periodic synchronization is used together with a data feed of changes](../../../sites/developing/using/hybris.md#product-synchronization-and-publishing).  
+* A [periodic synchronization is used together with a data feed of changes](/help/sites/developing/using/hybris.md#product-synchronization-and-publishing).  
   In addition to this, you can select specific updates for an express update.
 
 * Highly volatile data, such as price information, is retrieved from the commerce engine for each page request, to ensure that it is always up to date.
@@ -371,7 +371,7 @@ For cases when products do not contain assets (images) to be imported, you can i
 
 #### Import Throttling and Batch Saves {#import-throttling-and-batch-saves}
 
-[Import throttling](../../../sites/deploying/using/scaling.md#import-throttling) and [batch saves](../../../sites/deploying/using/scaling.md#batch-saves) are two general [scaling](../../../sites/deploying/using/scaling.md) mechanisms that can help when importing large volumes of data.
+[Import throttling](/help/sites/deploying/using/scaling.md#import-throttling) and [batch saves](/help/sites/deploying/using/scaling.md#batch-saves) are two general [scaling](/help/sites/deploying/using/scaling.md) mechanisms that can help when importing large volumes of data.
 
 #### Performance Testing {#performance-testing}
 
@@ -425,7 +425,7 @@ For all implementations the following points can be kept in mind:
 
 * In your technical stack, plan very factorized content access model and services. This is a general best practice, but is even more crucial her, as you can, in optimization phases, add application caches for data that is read very often (and that you do not want to fill the bundle cache with).  
   For example, attributes management is very frequently a good candidate for caching as it concerns data that is updated through products import.
-* Consider use of [proxy pages](../../../sites/administering/using/concepts.md#proxy-pages).
+* Consider use of [proxy pages](/help/sites/administering/using/concepts.md#proxy-pages).
 
 ### Catalog Section Pages {#catalog-section-pages}
 
@@ -537,10 +537,10 @@ Promotions are not usually maintained by product information managers, but by ma
     * renderers and dialogs for promotion administration
     * sub-components for rendering and editing configuration parameters specific to the promotion handlers
 
-In AEM the promotions are also integrated into the [Campaign Management](../../../sites/authoring/using/campaigns.md):
+In AEM the promotions are also integrated into the [Campaign Management](/help/sites/authoring/using/campaigns.md):
 
-* a [campaign](../../../sites/authoring/using/campaigns.md) specifies the on/off times
-* [experiences](../../../sites/authoring/using/campaigns.md) *within* the campaign are used to group assets (teaserpages, promotions, etc) according to the audience segment they correspond to
+* a [campaign](/help/sites/authoring/using/campaigns.md) specifies the on/off times
+* [experiences](/help/sites/authoring/using/campaigns.md) *within* the campaign are used to group assets (teaserpages, promotions, etc) according to the audience segment they correspond to
 
 A promotion can be held either in an experience or directly in the campaign:
 

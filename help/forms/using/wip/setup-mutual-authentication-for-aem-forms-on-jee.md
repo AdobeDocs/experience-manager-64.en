@@ -26,7 +26,7 @@ You can use mutual authentication in AEM Form to:
 
 Configure application server and AEM Forms on JEE server to provide secure logging and secure communication between AEM Forms, Adobe Acrobat, Acrobat Reader, and Microsoft office.
 
-* [Configure application server](../../../forms/using/wip/setup-mutual-authentication-for-aem-forms-on-jee.md#configure-application-server)
+* [Configure application server](/help/forms/using/wip/setup-mutual-authentication-for-aem-forms-on-jee.md#configure-application-server)
 * [Configure AEM Forms on JEE server](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html#p-livecycle-server-configuration-p)
 
 Perform the following additional configurations to enable authenticate via a system user certificate instead of a pre-configured user name and password for Microsoft SharePoint, authenticate users using CAC cards, allow indexing protected documents, securely logging in to AEM Forms Workbench:
@@ -40,7 +40,7 @@ Perform the following additional configurations to enable authenticate via a sys
 
 Before you start,
 
-* Obtain certificates from a trusted certifying authority (CA) or create [self-signed the certificates](../../../forms/using/wip/setup-mutual-authentication-for-aem-forms-on-jee.md#use-openssl-to-create-and-sign-certificates). These certificates are required to identify the server and clients in a mutual authentication environment.  
+* Obtain certificates from a trusted certifying authority (CA) or create [self-signed the certificates](/help/forms/using/wip/setup-mutual-authentication-for-aem-forms-on-jee.md#use-openssl-to-create-and-sign-certificates). These certificates are required to identify the server and clients in a mutual authentication environment.  
 
 * Create and deploy the custom user management auth provider (AuthProvider) SPI to enable mutual authentication on the AEM Forms server. For detailed instructions, see [Server Configuration](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html#p-livecycle-server-configuration-p).
 

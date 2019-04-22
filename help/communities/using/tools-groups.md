@@ -13,17 +13,17 @@ discoiquuid: 9a862756-58e8-47c0-a4b4-5d4aaac021e4
 
 # Group Templates{#group-templates}
 
-The Group Templates console is very similar to the [Site Templates](../../communities/using/sites.md) console. Both are blueprints for a set of pre-wired pages and features which form a community site. The difference is that a site template is for the main community and a group template is for a community group, a sub-community nested within the main community.
+The Group Templates console is very similar to the [Site Templates](/help/communities/using/sites.md) console. Both are blueprints for a set of pre-wired pages and features which form a community site. The difference is that a site template is for the main community and a group template is for a community group, a sub-community nested within the main community.
 
-A community group is incorporated into a site template by including the [Groups function](../../communities/using/functions.md#groups-function) (which may not be the first nor only function in the template).
+A community group is incorporated into a site template by including the [Groups function](/help/communities/using/functions.md#groups-function) (which may not be the first nor only function in the template).
 
-As of Communities [feature pack 1](../../communities/using/deploy-communities.md#latestfeaturepack), it is possible to nest groups by including the Groups function within a group template.
+As of Communities [feature pack 1](/help/communities/using/deploy-communities.md#latestfeaturepack), it is possible to nest groups by including the Groups function within a group template.
 
 At the moment the action is taken to create a new community group, the group's template (structure) is selected. The selection depends on how the Groups function was configured when added to the site or group template.
 
 >[!NOTE]
 >
->The consoles for the creation of [community sites](../../communities/using/sites-console.md), [community site templates](../../communities/using/sites.md), [community group templates](../../communities/using/tools-groups.md) and [community functions](../../communities/using/functions.md) are for use only in the author environment.
+>The consoles for the creation of [community sites](/help/communities/using/sites-console.md), [community site templates](/help/communities/using/sites.md), [community group templates](/help/communities/using/tools-groups.md) and [community functions](/help/communities/using/functions.md) are for use only in the author environment.
 
 ## Group Templates Console {#group-templates-console}
 
@@ -31,7 +31,7 @@ In the author environment, to reach the groups templates console
 
 * from global navigation: **Tools, Communities, Group Templates**
 
-This console displays the templates from which a [community site](../../communities/using/sites-console.md) can be created and allows new group templates to be created.
+This console displays the templates from which a [community site](/help/communities/using/sites-console.md) can be created and allows new group templates to be created.
 
 ![](assets/groupstemplate.png)
 
@@ -68,7 +68,7 @@ On the Basic Info panel, a name, description and whether the template is enabled
 >
 >If working with AEM 6.1 Communities FP4 or earlier, do not add a groups function to a group template.
 >
->The nested groups feature is available as of Communities [FP1](../../communities/using/communities.md#latestfeaturepack).
+>The nested groups feature is available as of Communities [FP1](/help/communities/using/communities.md#latestfeaturepack).
 >
 >It is still not allowed to add a Groups function as the first or only function in a template.
 
@@ -76,7 +76,7 @@ On the Basic Info panel, a name, description and whether the template is enabled
 
 To add community functions, drag from the right side to the left in the order the site menu links should appear. Styles will be applied to the template during creation of the site.
 
-For example, if you want a forum, drag the forum function from the library and drop under the template builder. This will result in the forum configuration dialog opening. See the [functions console](../../communities/using/functions.md) for information about the configuration dialogs.
+For example, if you want a forum, drag the forum function from the library and drop under the template builder. This will result in the forum configuration dialog opening. See the [functions console](/help/communities/using/functions.md) for information about the configuration dialogs.
 
 Continue dragging and dropping any other community functions desired for a sub-community site (group) based on this template.
 
@@ -88,6 +88,6 @@ Once all desired functions have been dropped into the template builder area and 
 
 When viewing community groups in the main [Group Templates console](#group-templates-console), it is possible to select an existing group template for edit.
 
-Editing a group template will not affect community sites already created from the template. It is possible to directly [edit a community site](../../communities/using/sites-console.md#modify-structure)'s structure instead.
+Editing a group template will not affect community sites already created from the template. It is possible to directly [edit a community site](/help/communities/using/sites-console.md#modify-structure)'s structure instead.
 
 This process provides the same panels as [creating a group template](#creategrouptemplate).

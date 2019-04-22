@@ -34,25 +34,25 @@ In this page you will find:
 
 Once you have familiarized yourself with these basics, you will find in more advanced and detailed information in the following subpages:
 
-* [Technical Requirements](../../../sites/deploying/using/technical-requirements.md)
-* [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md)
-* [Custom Standalone Install](../../../sites/deploying/using/custom-standalone-install.md)
-* [Application Server Install](../../../sites/deploying/using/application-server-install.md)
-* [Troubleshooting](../../../sites/deploying/using/troubleshooting.md)
-* [Command Line Start and Stop](../../../sites/deploying/using/command-line-start-and-stop.md)
-* [Configuring](../../../sites/deploying/using/configuring.md)
-* [Upgrading to AEM 6.4](../../../sites/deploying/using/upgrade.md)
-* [eCommerce](../../../sites/deploying/using/ecommerce.md)
-* [Configuration How-To Articles](../../../sites/deploying/using/ht-deploy.md)
-* [Web Console](../../../sites/deploying/using/web-console.md)
-* [Troubleshooting Replication](../../../sites/deploying/using/troubleshoot-rep.md)
-* [Best Practices](../../../sites/deploying/using/best-practices.md)
-* [Deploying Communities](../../../communities/using/deploy-communities.md)
-* [Introduction to the AEM Platform](../../../sites/deploying/using/platform.md)
-* [Performance Guidelines](../../../sites/deploying/using/performance-guidelines.md)
-* [Getting Started with AEM Mobile](../../../mobile/using/getting-started-aem-mobile.md)
-* [Maintenance Release Vehicle Definitions](../../../sites/deploying/using/maintenance-release-vehicle-definitions.md)
-* [What is AEM Screens?](../../../sites/deploying/using/aem-screens-introduction.md)
+* [Technical Requirements](/help/sites/deploying/using/technical-requirements.md)
+* [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md)
+* [Custom Standalone Install](/help/sites/deploying/using/custom-standalone-install.md)
+* [Application Server Install](/help/sites/deploying/using/application-server-install.md)
+* [Troubleshooting](/help/sites/deploying/using/troubleshooting.md)
+* [Command Line Start and Stop](/help/sites/deploying/using/command-line-start-and-stop.md)
+* [Configuring](/help/sites/deploying/using/configuring.md)
+* [Upgrading to AEM 6.4](/help/sites/deploying/using/upgrade.md)
+* [eCommerce](/help/sites/deploying/using/ecommerce.md)
+* [Configuration How-To Articles](/help/sites/deploying/using/ht-deploy.md)
+* [Web Console](/help/sites/deploying/using/web-console.md)
+* [Troubleshooting Replication](/help/sites/deploying/using/troubleshoot-rep.md)
+* [Best Practices](/help/sites/deploying/using/best-practices.md)
+* [Deploying Communities](/help/communities/using/deploy-communities.md)
+* [Introduction to the AEM Platform](/help/sites/deploying/using/platform.md)
+* [Performance Guidelines](/help/sites/deploying/using/performance-guidelines.md)
+* [Getting Started with AEM Mobile](/help/mobile/using/getting-started-aem-mobile.md)
+* [Maintenance Release Vehicle Definitions](/help/sites/deploying/using/maintenance-release-vehicle-definitions.md)
+* [What is AEM Screens?](/help/sites/deploying/using/aem-screens-introduction.md)
 
 ## Basic Concepts {#basic-concepts}
 
@@ -101,9 +101,9 @@ The following sections describe both the scenarios:
 
 ### On-premise {#on-premise}
 
-You can install AEM on servers in your Corporate environment. Typical installation instances include: Development, Testing and Publishing environments. Please refer to the [Getting Started](../../../sites/deploying/using/deploy.md#getting-started) section for basic details on how to get the AEM software to install it locally.
+You can install AEM on servers in your Corporate environment. Typical installation instances include: Development, Testing and Publishing environments. Please refer to the [Getting Started](/help/sites/deploying/using/deploy.md#getting-started) section for basic details on how to get the AEM software to install it locally.
 
-To learn more about the typical on-premises deployments, refer to [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md).
+To learn more about the typical on-premises deployments, refer to [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md).
 
 ### Managed Services using Cloud Manager {#managed-services-using-cloud-manager}
 
@@ -127,11 +127,11 @@ To learn more about Cloud Manger and its resources, please refer to [**Cloud Man
 
 ### Prerequisites {#prerequisites}
 
-While production instances are usually run on dedicated machines running an officially supported OS (see [Technical Requirements](../../../sites/deploying/using/technical-requirements.md)), the Experience Manager server will actually run on any system that supports [**Java Standard Edition 8**](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+While production instances are usually run on dedicated machines running an officially supported OS (see [Technical Requirements](/help/sites/deploying/using/technical-requirements.md)), the Experience Manager server will actually run on any system that supports [**Java Standard Edition 8**](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 For purposes of familiarization and for developing on AEM it is quite common to use an instance installed on your local machine running Apple OS X or desktop versions of Microsoft Windows or Linux.
 
-On the client-side, AEM works with all modern browsers (**Microsoft Edge**, **Internet Explorer** 11, **Chrome **51+** **, **Firefox **47+, **Safari** 8+) on both desktop and tablet operating systems. See [Supported Client Platforms](../../../sites/deploying/using/technical-requirements.md#supported-client-platforms) for details.
+On the client-side, AEM works with all modern browsers (**Microsoft Edge**, **Internet Explorer** 11, **Chrome **51+** **, **Firefox **47+, **Safari** 8+) on both desktop and tablet operating systems. See [Supported Client Platforms](/help/sites/deploying/using/technical-requirements.md#supported-client-platforms) for details.
 
 ### Getting the Software {#getting-the-software}
 
@@ -143,7 +143,7 @@ The AEM software package is available in two foms:
 
 * **cq-quickstart-6.4.0.war:** A *war* file for deployment in a third-party application server.
 
-In the following section we describe the **standalone installation**. For details on installing AEM in an application server see [Application Server Install](../../../sites/deploying/using/application-server-install.md).
+In the following section we describe the **standalone installation**. For details on installing AEM in an application server see [Application Server Install](/help/sites/deploying/using/application-server-install.md).
 
 ### Default Local Install {#default-local-install}
 
@@ -221,8 +221,8 @@ You would install these two instances in, for example
 
 For more details on customizing your installation see the following:
 
-* [Custom Standalone Install](../../../sites/deploying/using/custom-standalone-install.md)
-* [Run Modes](../../../sites/deploying/using/configure-runmodes.md)
+* [Custom Standalone Install](/help/sites/deploying/using/custom-standalone-install.md)
+* [Run Modes](/help/sites/deploying/using/configure-runmodes.md)
 
 ### Unpacked Install Directory {#unpacked-install-directory}
 
@@ -277,7 +277,7 @@ This folder contains the following Unix bash shell scripts:
 
 There are also equivalent **`bat`** files for Windows. For more detailed information see:
 
-* [Command Line Start and Stop](../../../sites/deploying/using/command-line-start-and-stop.md)
+* [Command Line Start and Stop](/help/sites/deploying/using/command-line-start-and-stop.md)
 
 AEM starts and automatically redirects your web browser to the appropriate page, usually the login page; for example:
 
@@ -288,31 +288,31 @@ AEM starts and automatically redirects your web browser to the appropriate page,
 Once logged in, you have access to AEM. For further information, depending on the your role, see the following:
 
 * [Authoring](/help/sites/authoring/using/home.md) 
-* [Administering](../../../sites/administering/using/home.md)
-* [Developing](../../../sites/developing/using/home.md)
-* [Managing](../../../managing/using/manage-reference.md)
+* [Administering](/help/sites/administering/using/home.md)
+* [Developing](/help/sites/developing/using/home.md)
+* [Managing](/help/managing/using/manage-reference.md)
 
 ## Advanced Deployment {#advanced-deployment}
 
 The above section should give you a good understanding of the basics of AEM installation. However, installing a full production system of AEM can involve considerably more complexity. For full coverage of advanced installation see the following subpages:
 
-* [Technical Requirements](../../../sites/deploying/using/technical-requirements.md)
-* [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md)
-* [Custom Standalone Install](../../../sites/deploying/using/custom-standalone-install.md)
-* [Application Server Install](../../../sites/deploying/using/application-server-install.md)
-* [Troubleshooting](../../../sites/deploying/using/troubleshooting.md)
-* [Command Line Start and Stop](../../../sites/deploying/using/command-line-start-and-stop.md)
-* [Configuring](../../../sites/deploying/using/configuring.md)
-* [Upgrading to AEM 6.4](../../../sites/deploying/using/upgrade.md)
-* [eCommerce](../../../sites/deploying/using/ecommerce.md)
-* [Configuration How-To Articles](../../../sites/deploying/using/ht-deploy.md)
-* [Web Console](../../../sites/deploying/using/web-console.md)
-* [Troubleshooting Replication](../../../sites/deploying/using/troubleshoot-rep.md)
-* [Best Practices](../../../sites/deploying/using/best-practices.md)
-* [Deploying Communities](../../../communities/using/deploy-communities.md)
-* [Introduction to the AEM Platform](../../../sites/deploying/using/platform.md)
-* [Performance Guidelines](../../../sites/deploying/using/performance-guidelines.md)
-* [Getting Started with AEM Mobile](../../../mobile/using/getting-started-aem-mobile.md)
-* [Maintenance Release Vehicle Definitions](../../../sites/deploying/using/maintenance-release-vehicle-definitions.md)
-* [What is AEM Screens?](../../../sites/deploying/using/aem-screens-introduction.md)
+* [Technical Requirements](/help/sites/deploying/using/technical-requirements.md)
+* [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md)
+* [Custom Standalone Install](/help/sites/deploying/using/custom-standalone-install.md)
+* [Application Server Install](/help/sites/deploying/using/application-server-install.md)
+* [Troubleshooting](/help/sites/deploying/using/troubleshooting.md)
+* [Command Line Start and Stop](/help/sites/deploying/using/command-line-start-and-stop.md)
+* [Configuring](/help/sites/deploying/using/configuring.md)
+* [Upgrading to AEM 6.4](/help/sites/deploying/using/upgrade.md)
+* [eCommerce](/help/sites/deploying/using/ecommerce.md)
+* [Configuration How-To Articles](/help/sites/deploying/using/ht-deploy.md)
+* [Web Console](/help/sites/deploying/using/web-console.md)
+* [Troubleshooting Replication](/help/sites/deploying/using/troubleshoot-rep.md)
+* [Best Practices](/help/sites/deploying/using/best-practices.md)
+* [Deploying Communities](/help/communities/using/deploy-communities.md)
+* [Introduction to the AEM Platform](/help/sites/deploying/using/platform.md)
+* [Performance Guidelines](/help/sites/deploying/using/performance-guidelines.md)
+* [Getting Started with AEM Mobile](/help/mobile/using/getting-started-aem-mobile.md)
+* [Maintenance Release Vehicle Definitions](/help/sites/deploying/using/maintenance-release-vehicle-definitions.md)
+* [What is AEM Screens?](/help/sites/deploying/using/aem-screens-introduction.md)
 

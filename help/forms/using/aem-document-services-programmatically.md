@@ -12,11 +12,11 @@ discoiquuid: 32118d3b-54d0-4283-b489-780bdcbfc8d2
 
 # Using AEM Document Services Programmatically{#using-aem-document-services-programmatically}
 
-Client classes required to build Maven Projects using AEM Document Services are available in the [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) jar. For information around maven projects, see [how to build your AEM project using Maven](../../sites/developing/using/ht-projects-maven.md).
+Client classes required to build Maven Projects using AEM Document Services are available in the [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) jar. For information around maven projects, see [how to build your AEM project using Maven](/help/sites/developing/using/ht-projects-maven.md).
 
 >[!NOTE]
 >
->Before using the DocAssurance service APIs, [configure the DocAssurance service](../../forms/using/install-configure-document-services.md).
+>Before using the DocAssurance service APIs, [configure the DocAssurance service](/help/forms/using/install-configure-document-services.md).
 
 ## DocAssurance Service {#docassurance-service}
 
@@ -28,31 +28,31 @@ The DocAssurance service includes the following services:
 
 You can perform the following operations using the DocAssurance service:
 
-* [Add Invisible Signature](../../forms/using/aem-document-services-programmatically.md#p-adding-an-invisible-signature-field-p)  
+* [Add Invisible Signature](/help/forms/using/aem-document-services-programmatically.md#p-adding-an-invisible-signature-field-p)  
 
-* [Add Signature Field](../../forms/using/aem-document-services-programmatically.md#p-adding-a-signature-field-nbsp-p)
-* [Apply Document TimeStamp](../../forms/using/aem-document-services-programmatically.md#apply-document-timestamp)  
+* [Add Signature Field](/help/forms/using/aem-document-services-programmatically.md#p-adding-a-signature-field-nbsp-p)
+* [Apply Document TimeStamp](/help/forms/using/aem-document-services-programmatically.md#apply-document-timestamp)  
 
-* [Get Signature](../../forms/using/aem-document-services-programmatically.md#p-getting-signature-p)
-* [Get Signature Field List](../../forms/using/aem-document-services-programmatically.md#p-getting-signature-field-list-nbsp-p)
-* [Modify Signature Fields](../../forms/using/aem-document-services-programmatically.md#p-modifying-signature-fields-nbsp-p)  
+* [Get Signature](/help/forms/using/aem-document-services-programmatically.md#p-getting-signature-p)
+* [Get Signature Field List](/help/forms/using/aem-document-services-programmatically.md#p-getting-signature-field-list-nbsp-p)
+* [Modify Signature Fields](/help/forms/using/aem-document-services-programmatically.md#p-modifying-signature-fields-nbsp-p)  
 
-* [Secure Document](../../forms/using/aem-document-services-programmatically.md#p-securing-documents-p)  
+* [Secure Document](/help/forms/using/aem-document-services-programmatically.md#p-securing-documents-p)  
 
-* [Get Credential Usage Rights](../../forms/using/aem-document-services-programmatically.md#p-getting-credential-usage-rights-p)  
+* [Get Credential Usage Rights](/help/forms/using/aem-document-services-programmatically.md#p-getting-credential-usage-rights-p)  
 
-* [Get Document Usage Rights](../../forms/using/aem-document-services-programmatically.md#p-getting-document-usage-rights-p)  
+* [Get Document Usage Rights](/help/forms/using/aem-document-services-programmatically.md#p-getting-document-usage-rights-p)  
 
-* [Remove Usage Rights](../../forms/using/aem-document-services-programmatically.md#p-removing-usage-rights-p)
-* [Verify Digital Signatures](../../forms/using/aem-document-services-programmatically.md#p-verifying-digital-signatures-p)
-* [Verify Multiple Digital Signatures](../../forms/using/aem-document-services-programmatically.md#p-verifying-multiple-digital-signatures-p)
-* [Remove Digital Signatures](../../forms/using/aem-document-services-programmatically.md#p-removing-digital-signatures-p)  
+* [Remove Usage Rights](/help/forms/using/aem-document-services-programmatically.md#p-removing-usage-rights-p)
+* [Verify Digital Signatures](/help/forms/using/aem-document-services-programmatically.md#p-verifying-digital-signatures-p)
+* [Verify Multiple Digital Signatures](/help/forms/using/aem-document-services-programmatically.md#p-verifying-multiple-digital-signatures-p)
+* [Remove Digital Signatures](/help/forms/using/aem-document-services-programmatically.md#p-removing-digital-signatures-p)  
 
-* [Get Certifying Signature Field](../../forms/using/aem-document-services-programmatically.md#p-getting-certifying-signature-field-p)
-* [Get PDF Encryption Type](../../forms/using/aem-document-services-programmatically.md#p-getting-pdf-encryption-type-p)
-* [Remove Password Encryption](../../forms/using/aem-document-services-programmatically.md#p-removing-password-encryption-from-pdf-p)  
+* [Get Certifying Signature Field](/help/forms/using/aem-document-services-programmatically.md#p-getting-certifying-signature-field-p)
+* [Get PDF Encryption Type](/help/forms/using/aem-document-services-programmatically.md#p-getting-pdf-encryption-type-p)
+* [Remove Password Encryption](/help/forms/using/aem-document-services-programmatically.md#p-removing-password-encryption-from-pdf-p)  
 
-* [Remove Certificate Encryption](../../forms/using/aem-document-services-programmatically.md#p-removing-certificate-encryption-p)
+* [Remove Certificate Encryption](/help/forms/using/aem-document-services-programmatically.md#p-removing-certificate-encryption-p)
 
 >[!NOTE]
 >
@@ -3599,17 +3599,17 @@ public class RemovePKIEncryption {
 
 The Output service provides APIs to render an XDP file in .pdf, .pcl, .zpl, and .ps formats. The service supports following APIs:
 
-* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data stored on a network location, local file system, or HTTP location as literal values.  
+* ** [generatePDFOutput](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data stored on a network location, local file system, or HTTP location as literal values.  
 
-* ** [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data that are stored in an application.
-* ** [generatePDFOutputBatch](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutputbatch-p):** Merges a form design with data to create a PDF document. Optionally, generates a metadata file for each record or saves the output to a PDF file.
-* ** [generatePrintedOutput](../../forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, or ZPL output from a form design and data file stored on a network location, local file system, or HTTP location as literal values.  
+* ** [generatePDFOutput](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p):** Generates a PDF document by merging a form design with data that are stored in an application.
+* ** [generatePDFOutputBatch](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutputbatch-p):** Merges a form design with data to create a PDF document. Optionally, generates a metadata file for each record or saves the output to a PDF file.
+* ** [generatePrintedOutput](/help/forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, or ZPL output from a form design and data file stored on a network location, local file system, or HTTP location as literal values.  
 
-* ** [generatePrintedOutput](../../forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, and ZPL output from a form design and data file that are stored in an application.
+* ** [generatePrintedOutput](/help/forms/using/aem-document-services-programmatically.md#p-generateprintedoutput-p):** Generates a PCL, PostScript, and ZPL output from a form design and data file that are stored in an application.
 
 ### generatePDFOutput {#generatepdfoutput}
 
-The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generates a metadata file for each record or saves the output to a PDF file. Use the generatePDFOutput API for the form designs or data that are stored on a network location, local file system, or HTTP location as literal values. If the form design and XML data are stored in an application, use the [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p) API.
+The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generates a metadata file for each record or saves the output to a PDF file. Use the generatePDFOutput API for the form designs or data that are stored on a network location, local file system, or HTTP location as literal values. If the form design and XML data are stored in an application, use the [generatePDFOutput](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p) API.
 
 **Syntax:** `Document generatePDFOutput(String uriOrFileName, Document data, PDFOutputOptions options);`
 
@@ -3716,7 +3716,7 @@ try {
 
 ### generatePDFOutput {#generatepdfoutput-1}
 
-The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generate a metadata file for each record or save the output to a PDF file. Use the generatePrintedOutput API for the form designs or data that are stored in an application. If the form design and XML data are stored in on a network location, locally, or an HTTP location as literal values, use the [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p) API.
+The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generate a metadata file for each record or save the output to a PDF file. Use the generatePrintedOutput API for the form designs or data that are stored in an application. If the form design and XML data are stored in on a network location, locally, or an HTTP location as literal values, use the [generatePDFOutput](/help/forms/using/aem-document-services-programmatically.md#p-generatepdfoutput-p) API.
 
 **Syntax:** `Document generatePDFOutput(Document inputdocument, Document data, PDFOutputOptions options)`
 
@@ -4258,8 +4258,8 @@ String outputFolder="C:/Output";
 
 The Forms service provides APIs to import and export data to and from an interactive PDF form. An interactive PDF form is a PDF document that contains one or more fields used to display and collect information from the users. The service supports following APIs:
 
-* ** [exportData](../../forms/using/aem-document-services-programmatically.md#p-exportdata-p):** exports data from a PDF form.
-* ** [importData](../../forms/using/aem-document-services-programmatically.md#p-importdata-p):** imports data into an interactive PDF Form.
+* ** [exportData](/help/forms/using/aem-document-services-programmatically.md#p-exportdata-p):** exports data from a PDF form.
+* ** [importData](/help/forms/using/aem-document-services-programmatically.md#p-importdata-p):** imports data into an interactive PDF Form.
 
 ### exportData {#exportdata}
 

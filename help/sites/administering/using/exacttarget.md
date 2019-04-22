@@ -20,7 +20,7 @@ The integration provides you with the following features:
 * The ability to create Emails in AEM and publish them to Exact Target for distribution.
 * The ability to set action of a AEM form to create an Exact Target subscriber.
 
-After ExactTarget is configured, you can publish newsletters or emails to ExactTarget. See [Publishing Newsletters to an Email Service](../../../sites/authoring/using/campaigns.md).
+After ExactTarget is configured, you can publish newsletters or emails to ExactTarget. See [Publishing Newsletters to an Email Service](/help/sites/authoring/using/campaigns.md).
 
 ## Creating an ExactTarget Configuration {#creating-an-exacttarget-configuration}
 

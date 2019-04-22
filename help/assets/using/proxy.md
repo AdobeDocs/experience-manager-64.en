@@ -118,7 +118,7 @@ for worker specific configuration details (e.g. `/etc/cloudservices/proxy/worker
 
 >[!NOTE]
 >
->See [Indesign Server Proxy Worker configuration](indesign.md#configuring-the-proxy-worker-for-indesign-server) and [Cloud Services configuration](../../sites/developing/using/extending-cloud-config.md) for more information.
+>See [Indesign Server Proxy Worker configuration](indesign.md#configuring-the-proxy-worker-for-indesign-server) and [Cloud Services configuration](/help/sites/developing/using/extending-cloud-config.md) for more information.
 
 The following is an example of API usage:
 

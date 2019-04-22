@@ -15,11 +15,11 @@ discoiquuid: b1bd40f4-21c6-48f5-a41e-42daeaad3687
 
 >[!NOTE]
 >
->This page outlines the upgrade procedure for AEM 6.4. If you have an installation that is deployed to an application server, see [Upgrade Steps for Application Server Installations](../../../sites/deploying/using/app-server-upgrade.md).
+>This page outlines the upgrade procedure for AEM 6.4. If you have an installation that is deployed to an application server, see [Upgrade Steps for Application Server Installations](/help/sites/deploying/using/app-server-upgrade.md).
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
-Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](../../../sites/deploying/using/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the requirements for the new version of AEM. See how Pattern Detector can help you estimate the complexity of your upgarde and also see the Upgrade Scope and Requirements section of [Planning Your Upgrade](../../../sites/deploying/using/upgrade-planning.md) for more information.
+Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites/deploying/using/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites/deploying/using/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the requirements for the new version of AEM. See how Pattern Detector can help you estimate the complexity of your upgarde and also see the Upgrade Scope and Requirements section of [Planning Your Upgrade](/help/sites/deploying/using/upgrade-planning.md) for more information.
 
 ## Migration Prerequisites {#migration-prerequisites}
 
@@ -41,7 +41,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 ## Content Repository Migration {#content-repository-migration}
 
-This migration is not required if you are upgrading from AEM 6.3. For versions older than 6.3, Adobe provides a tool that can be used to migrate the repository to the new version of the Oak Segment Tar present in AEM 6.3. It is provided as part of the quickstart package and is mandatory for any upgrades that will be using TarMK. Upgrades for environments that are using MongoMK do not require repository migration. For more information on what the benefits of the new Segment Tar format are, see the [Migrating to Oak Segment Tar FAQ](../../../sites/deploying/using/revision-cleanup.md#online-revision-cleanup-frequently-asked-questions).
+This migration is not required if you are upgrading from AEM 6.3. For versions older than 6.3, Adobe provides a tool that can be used to migrate the repository to the new version of the Oak Segment Tar present in AEM 6.3. It is provided as part of the quickstart package and is mandatory for any upgrades that will be using TarMK. Upgrades for environments that are using MongoMK do not require repository migration. For more information on what the benefits of the new Segment Tar format are, see the [Migrating to Oak Segment Tar FAQ](/help/sites/deploying/using/revision-cleanup.md#online-revision-cleanup-frequently-asked-questions).
 
 The actual migration is performed using the standard AEM quickstart jar file, executed with a new `-x crx2oak` option which executes the crx2oak tool in order to simplify the upgrade and make it more robust.
 
@@ -115,7 +115,7 @@ Where `<<YOUR_PROFILE>>` and `<<ADDITIONAL_FLAGS>>` are replaced with the profil
 
 * If you are using Java 7, add the `-XX:MaxPermSize=2048m` parameter just after the `-Xmx` parameter.
 
-For additional instructions on using the crx2oak tool, see Using the [CRX2Oak Migration Tool](../../../sites/deploying/using/using-crx2oak.md). The crx2oak helper JAR can be manually upgraded if needed, by manually replacing it with newer versions after unpacking the quickstart. Its location in the AEM installation folder is: `<aem-install>/crx-quickstart/opt/extensions/crx2oak.jar`. The newest version of the CRX2Oak migration tool is available for download from the Adobe Repository at: [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/crx2oak/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/crx2oak/)
+For additional instructions on using the crx2oak tool, see Using the [CRX2Oak Migration Tool](/help/sites/deploying/using/using-crx2oak.md). The crx2oak helper JAR can be manually upgraded if needed, by manually replacing it with newer versions after unpacking the quickstart. Its location in the AEM installation folder is: `<aem-install>/crx-quickstart/opt/extensions/crx2oak.jar`. The newest version of the CRX2Oak migration tool is available for download from the Adobe Repository at: [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/crx2oak/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/crx2oak/)
 
 If the migration has completed successfully, the tool will exit with an exit code of zero. Additionally, check for WARN and ERROR messages in the `upgrade.log` file, located under `crx-quickstart/logs` in the AEM installation directory, as these could indicate non-fatal errors that occurred during the migration.
 
@@ -161,7 +161,7 @@ Where `/path/to/datastore` represents the path to your File Datastore.
 
 ### Determining the correct upgrade start command {#determining-the-correct-upgrade-start-command}
 
-To execute the upgrade, it is important to start AEM using the jar file to bring up the instance. For upgrading to 6.4, please also see other content restructuring and migration options in [Lazy Content Migration](../../../sites/deploying/using/lazy-content-migration.md) that you can choose with the upgrade command.
+To execute the upgrade, it is important to start AEM using the jar file to bring up the instance. For upgrading to 6.4, please also see other content restructuring and migration options in [Lazy Content Migration](/help/sites/deploying/using/lazy-content-migration.md) that you can choose with the upgrade command.
 
 Note that starting AEM from the start script will not start the upgrade. Most customers start AEM using the start script and have customized this start script to include switches for environment configurations such as memory settings, security certificates, etc. For this reason, we recommend following this procedure to determine the proper upgrade command:
 
@@ -187,8 +187,8 @@ Note that starting AEM from the start script will not start the upgrade. Most cu
 
 ## Deploy Upgraded Codebase {#deploy-upgraded-codebase}
 
-Once the in-place upgrade process has been completed, the updated code base should be deployed. Steps for updating the code base to work in the target version of AEM can be found in [Upgrade Code and Customizations page](../../../sites/deploying/using/upgrading-code-and-customizations.md).
+Once the in-place upgrade process has been completed, the updated code base should be deployed. Steps for updating the code base to work in the target version of AEM can be found in [Upgrade Code and Customizations page](/help/sites/deploying/using/upgrading-code-and-customizations.md).
 
 ## Perform Post-Upgrade Checks and Troubleshooting {#perform-post-upgrade-check-troubleshooting}
 
-See [Post Upgrade Checks and Troubleshooting](../../../sites/deploying/using/post-upgrade-checks-and-troubleshooting.md).
+See [Post Upgrade Checks and Troubleshooting](/help/sites/deploying/using/post-upgrade-checks-and-troubleshooting.md).

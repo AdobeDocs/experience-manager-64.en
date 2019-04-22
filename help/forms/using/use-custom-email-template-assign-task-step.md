@@ -68,4 +68,4 @@ Out of the box, Assign task step is configured to use the default template, html
 
 1. Click OK. The template is changed.
 
-An email notification also uses [metadata](../../forms/using/use-metadata-in-email-notifications.md). For example, due date, priority, workflow name, and more. You can also configure the template to use [custom metadata](../../forms/using/use-metadata-in-email-notifications.md#using-custom-metadata-in-an-email-notification). 
+An email notification also uses [metadata](/help/forms/using/use-metadata-in-email-notifications.md). For example, due date, priority, workflow name, and more. You can also configure the template to use [custom metadata](/help/forms/using/use-metadata-in-email-notifications.md#using-custom-metadata-in-an-email-notification). 

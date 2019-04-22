@@ -24,7 +24,7 @@ When you apply the workflow, you specify the following information:
 
 >[!NOTE]
 >
->AEM administrators can start workflows using [several other methods](../../../sites/administering/using/workflows-starting.md).
+>AEM administrators can start workflows using [several other methods](/help/sites/administering/using/workflows-starting.md).
 
 ## Applying Workflows {#applying-workflows}
 

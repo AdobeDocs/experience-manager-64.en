@@ -13,18 +13,18 @@ discoiquuid: 9cadec1b-f435-4fd8-b4bc-1a23a0cf11f3
 
 # Selecting your UI{#selecting-your-ui}
 
-Although the touch-enabled UI is now the standard UI and feature parity has been nearly reached with the administration and editing of sites, there may be times when the user wishes to switch to the [classic UI](../../../sites/classic-ui-authoring/using/classicui.md). There are several options for doing this.
+Although the touch-enabled UI is now the standard UI and feature parity has been nearly reached with the administration and editing of sites, there may be times when the user wishes to switch to the [classic UI](/help/sites/classic-ui-authoring/using/classicui.md). There are several options for doing this.
 
 >[!NOTE]
 >
->For details on the status of feature parity with the classic UI, see the [Touch UI Feature Parity](../../../release-notes/touch-ui-features-status.md) document.
+>For details on the status of feature parity with the classic UI, see the [Touch UI Feature Parity](/help/release-notes/touch-ui-features-status.md) document.
 
 There are various locations where you can define which UI is to be used:
 
 * [Configuring the default UI for your instance](#configuring-the-default-ui-for-your-instance)  
   This will set the default UI to be shown at user login, although the user may be able to override this and select a different UI for their account or current session.  
 
-* [Setting Classic UI Authoring for your account](../../../sites/authoring/using/select-ui.md#setting-classic-ui-authoring-for-your-account)  
+* [Setting Classic UI Authoring for your account](/help/sites/authoring/using/select-ui.md#setting-classic-ui-authoring-for-your-account)  
   This will set the UI to be used as default when editing pages, although the user can override this and select a different UI for their account or current session.  
 
 * [Switching to classic UI for the current session](#switching-to-classic-ui-for-the-current-session)  
@@ -36,23 +36,23 @@ There are various locations where you can define which UI is to be used:
 >
 >Various options for switching to the classic UI are not immediately available out-of-the-box, they must be specifically configured for your instance.
 >
->See [Enabling Access to Classic UI](../../../sites/administering/using/enable-classic-ui.md) for more information.
+>See [Enabling Access to Classic UI](/help/sites/administering/using/enable-classic-ui.md) for more information.
 
 >[!NOTE]
 >
 >Instances upgraded from a previous version will retain the classic UI for page authoring.
 >
->After upgrade, page authoring will not be automatically switched to the touch-enabled UI, but you can configure this using the the [OSGi configuration](../../../sites/deploying/using/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service). See [UI Overrides for the Editor](#ui-overrides-for-the-editor).
+>After upgrade, page authoring will not be automatically switched to the touch-enabled UI, but you can configure this using the the [OSGi configuration](/help/sites/deploying/using/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service). See [UI Overrides for the Editor](#ui-overrides-for-the-editor).
 
 ## Configuring the Default UI for Your Instance {#configuring-the-default-ui-for-your-instance}
 
-A system administrator can configure the UI that is seen at startup and login by using [Root Mapping](../../../sites/deploying/using/osgi-configuration-settings.md).
+A system administrator can configure the UI that is seen at startup and login by using [Root Mapping](/help/sites/deploying/using/osgi-configuration-settings.md).
 
 This can be overridden by user defaults or session settings.
 
 ## Setting Classic UI Authoring for Your Account {#setting-classic-ui-authoring-for-your-account}
 
-Each user can access his/her [user preferences](../../../sites/authoring/using/user-properties.md) to define if he/she wishes to use the classic UI for page authoring (instead of the default UI).
+Each user can access his/her [user preferences](/help/sites/authoring/using/user-properties.md) to define if he/she wishes to use the classic UI for page authoring (instead of the default UI).
 
 This can be overridden by session settings.
 
@@ -67,7 +67,7 @@ When using the touch-enabled UI desktop users might want to revert to the classi
   >This option for switching to the classic UI is not immediately available out-of-the-box, it must be specifically configured for your instance.
   >
   >
-  >See [Enabling Access to Classic UI](../../../sites/administering/using/enable-classic-ui.md) for more information.
+  >See [Enabling Access to Classic UI](/help/sites/administering/using/enable-classic-ui.md) for more information.
 
   If this is enabled, whenever you mouseover an applicable console, an icon appears (symbol of a monitor), tapping/clicking this will open the appropriate location in the classic UI.
 
@@ -94,7 +94,7 @@ When using the touch-enabled UI desktop users might want to revert to the classi
 >
 >This option for switching to the classic UI is not immediately available out-of-the-box, it must be specifically configured for your instance.
 >
->See [Enabling Access to Classic UI](../../../sites/administering/using/enable-classic-ui.md) for more information.
+>See [Enabling Access to Classic UI](/help/sites/administering/using/enable-classic-ui.md) for more information.
 
 If enabled, **Open the Classic UI** is available from the **Page Information** dialog:
 
@@ -120,7 +120,7 @@ The settings defined by a user or system administrator can be overriden by the s
 
     * The cookie
     * A user preference  
-    * If neither exist, it will default to the definitions set in the [OSGi configuration](../../../sites/deploying/using/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service).
+    * If neither exist, it will default to the definitions set in the [OSGi configuration](/help/sites/deploying/using/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service).
 
 >[!NOTE]
 >

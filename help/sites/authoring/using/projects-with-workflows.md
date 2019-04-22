@@ -38,7 +38,7 @@ Depending on which Project template you select, you have certain workflows avail
 
 >[!NOTE]
 >
->&#42; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](../../../sites/administering/using/tc-manage.md)
+>&#42; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](/help/sites/administering/using/tc-manage.md)
 
 The steps for starting and completing workflows are the same no matter which workflow you choose. Only the steps change.
 
@@ -46,9 +46,9 @@ You start a workflow directly in Projects (except for DAM Create Language Copy o
 
 For more information on working with workflows in AEM, see the folllowing:
 
-* [Participating in workflows](../../../sites/authoring/using/workflows-participating.md)
-* [Applying workflows to pages](../../../sites/authoring/using/workflows-applying.md)
-* [Configuring workflows](../../../sites/administering/using/workflows.md)
+* [Participating in workflows](/help/sites/authoring/using/workflows-participating.md)
+* [Applying workflows to pages](/help/sites/authoring/using/workflows-applying.md)
+* [Configuring workflows](/help/sites/administering/using/workflows.md)
 
 This section describes the workflows available for Projects. 
 
@@ -67,7 +67,7 @@ This workflow lets you request a manuscript from a user and then approve it. To 
 
 ## Product Photo Shoot workflow {#product-photo-shoot-workflow}
 
-The Product Photo Shoot workflows (both commerce and without commerce) are covered in detail in [Creative Project](../../../sites/authoring/using/managing-product-information.md).
+The Product Photo Shoot workflows (both commerce and without commerce) are covered in detail in [Creative Project](/help/sites/authoring/using/managing-product-information.md).
 
 ## Project Approval workflow {#project-approval-workflow}
 
@@ -119,4 +119,4 @@ This workflow lets you request an email. It is the same workflow that appears in
 
 ## Create (and Translate) Language Copy Workflow for Assets {#create-and-translate-language-copy-workflow-for-assets}
 
-The **Create Language Copy** and the **Create and Translate Language Copy** workflows are covered in detail in [Creating Language Copies for Assets.](../../../assets/using/translation-projects.md)
+The **Create Language Copy** and the **Create and Translate Language Copy** workflows are covered in detail in [Creating Language Copies for Assets.](/help/assets/using/translation-projects.md)

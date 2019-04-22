@@ -15,16 +15,16 @@ discoiquuid: 6911c8e3-b12c-466e-8255-5dcd09557d35
 
 >[!NOTE]
 >
->This functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../../release-notes/sp-release-notes.md) or later.
+>This functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md) or later.
 
-You can export [Experience Fragments](../../../sites/authoring/using/experience-fragments.md), created in Adobe Experience Manager (AEM), to Adobe Target. They can then be used as offers in Target activities, to test and personalize experiences at scale. This lets you combine the ease-of-use and power of AEM, with the powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in Target.
+You can export [Experience Fragments](/help/sites/authoring/using/experience-fragments.md), created in Adobe Experience Manager (AEM), to Adobe Target. They can then be used as offers in Target activities, to test and personalize experiences at scale. This lets you combine the ease-of-use and power of AEM, with the powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in Target.
 
 ## Prerequisites {#prerequisites}
 
 Various actions are required:
 
-1. You have to integrate AEM with Target. See [Integrating with Adobe Target](../../../sites/administering/using/target.md) for more information.
-1. Experience Fragments are exported from the author instance, so you need to [Configure the Link Externalizer](../../../sites/developing/using/externalizer.md) on the author instance to ensure that any links are externalized for the publish instance.
+1. You have to integrate AEM with Target. See [Integrating with Adobe Target](/help/sites/administering/using/target.md) for more information.
+1. Experience Fragments are exported from the author instance, so you need to [Configure the Link Externalizer](/help/sites/developing/using/externalizer.md) on the author instance to ensure that any links are externalized for the publish instance.
 
 ## Add the Cloud Configuration {#add-the-cloud-configuration}
 
@@ -82,7 +82,7 @@ To export an experience fragment from AEM to Target (after specifying the Cloud 
 
 >[!NOTE]
 >
->Alternatively, you can perform the export from the page editor, using comparable commands in the [Page Information](../../../sites/authoring/using/author-environment-tools.md#page-information) menu.
+>Alternatively, you can perform the export from the page editor, using comparable commands in the [Page Information](/help/sites/authoring/using/author-environment-tools.md#page-information) menu.
 
 ## Using your Experience Fragments in Target {#using-your-experience-fragments-in-target}
 

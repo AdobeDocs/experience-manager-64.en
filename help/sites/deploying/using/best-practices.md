@@ -24,15 +24,15 @@ The following areas have documentation available concerning deploying and mainta
 
 For best practices on administering, developing, or authoring, see one of the following:
 
-* [Administering best practices](../../../sites/administering/using/administer-best-practices.md)
-* [Developing best practices](../../../sites/developing/using/best-practices.md)
-* [Authoring best practices](../../../sites/authoring/using/best-practices.md)
+* [Administering best practices](/help/sites/administering/using/administer-best-practices.md)
+* [Developing best practices](/help/sites/developing/using/best-practices.md)
+* [Authoring best practices](/help/sites/authoring/using/best-practices.md)
 
 Specific documents are described and linked to in the tables that follow.
 
 ## OAK {#oak}
 
-[Oak](../../../sites/deploying/using/platform.md) is a scalable and performant hierarchical content repository that is the foundation of AEM. 
+[Oak](/help/sites/deploying/using/platform.md) is a scalable and performant hierarchical content repository that is the foundation of AEM. 
 
 <table> 
  <tbody>
@@ -68,15 +68,15 @@ Specific documents are described and linked to in the tables that follow.
 
 AEM Communities simplifies the creation and management of on-premise Communities. Best practices for AEM Communities are described here:
 
-| Community Content Persistence | [Community Content Store](../../../communities/using/working-with-srp.md) |Discusses the new shared storage feature for user generated content (UGC) and the considerations for choosing the underlying [topology](../../../communities/using/topologies.md). |
+| Community Content Persistence | [Community Content Store](/help/communities/using/working-with-srp.md) |Discusses the new shared storage feature for user generated content (UGC) and the considerations for choosing the underlying [topology](/help/communities/using/topologies.md). |
 |---|---|---|
-| Deployments for Communities | [Recommended deployments](../../../sites/deploying/using/recommended-deploys.md#considerations-for-aem-communities) |Describes the recommended deployments for Communities. |
+| Deployments for Communities | [Recommended deployments](/help/sites/deploying/using/recommended-deploys.md#considerations-for-aem-communities) |Describes the recommended deployments for Communities. |
 
 ## UI {#ui}
 
 Best practices around the user interface are described here:
 
-| Recommendations for UI selection | [User Interface Recommendations for Customers](../../../sites/deploying/using/ui-recommendations.md) |AEM currently has two UIs: classic and touch-optimized UI in the same release. Therefore customers have to make a decision about which to use during the project implementation. This document is intended to help with finding the right choice.. |
+| Recommendations for UI selection | [User Interface Recommendations for Customers](/help/sites/deploying/using/ui-recommendations.md) |AEM currently has two UIs: classic and touch-optimized UI in the same release. Therefore customers have to make a decision about which to use during the project implementation. This document is intended to help with finding the right choice.. |
 |---|---|---|
 
 ## Performance {#performance}

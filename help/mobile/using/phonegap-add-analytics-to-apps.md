@@ -15,7 +15,7 @@ discoiquuid: cd9d2bea-48d8-4a17-8544-ea25dcad69f3
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Want to build engaging and relevent experiences for your mobile application users? If you're not using the Adobe Mobile Services SDK to monitor and measure application lifecycle and usage, then on what are you basing your decisions? Where are your most loyal customers? How can you gurantee you're staying relevent and and optimizing conversions?
 

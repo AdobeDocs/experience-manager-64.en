@@ -21,7 +21,7 @@ Enable HTTP over SSL to employ more secure connections to your servers. Configur
 * **Replication agents on author:** Secure connections from the author instance to the publish. instance.
 * **Web server that hosts Dispatcher:** Secure client connections to the web server (and, indirectly, to the publish instance)
 
-For information about connecting replication agents to the publish instance using MSSL, see [Replicating Using Mutual SSL](../../../sites/deploying/using/mssl-replication.md).  
+For information about connecting replication agents to the publish instance using MSSL, see [Replicating Using Mutual SSL](/help/sites/deploying/using/mssl-replication.md).  
 
 ## Obtain or Create the Credential {#obtain-or-create-the-credential}
 

@@ -14,7 +14,7 @@ discoiquuid: 1115697c-cb7d-441a-876f-3c01761568c0
 
 ## Introduction {#introduction}
 
-Adaptive forms leverages the [appearance framework](../../forms/using/introduction-widgets.md) to help you create custom appearances for adaptive form fields and provide a different user experience. For example, replace radio buttons and check boxes with toggle buttons or use custom jQuery plugins to restrict users inputs in fields like phone numbers or email ID.
+Adaptive forms leverages the [appearance framework](/help/forms/using/introduction-widgets.md) to help you create custom appearances for adaptive form fields and provide a different user experience. For example, replace radio buttons and check boxes with toggle buttons or use custom jQuery plugins to restrict users inputs in fields like phone numbers or email ID.
 
 This document explains how to use a jQuery plugin to create these alternate experiences for adaptive form fields. In addition, it showcases an example to create a custom appearance for numeric field component to appear as a numeric stepper or slider.
 
@@ -157,7 +157,7 @@ Once the project template is created, do the following changes, as required:
     * The `getEventMap` method maps events triggered by the widget, with the events required by the adaptive form model. The default value maps standard HTML events for the default widget, and needs to be updated if an alternate event is triggered.
     * The `showDisplayValue` and `showValue` apply the display and edit picture clause and can be overridden to have an alternate behavior.
     
-    * The `getCommitValue` method is called by the adaptive forms framework when the `commit`event occurs. Generally, it is the exit event, except for the dropdown, radio button, and check box elements where it occurs on change). For more information, see [Adaptive Forms Expressions](../../forms/using/adaptive-form-expressions.md#p-value-commit-script-p).
+    * The `getCommitValue` method is called by the adaptive forms framework when the `commit`event occurs. Generally, it is the exit event, except for the dropdown, radio button, and check box elements where it occurs on change). For more information, see [Adaptive Forms Expressions](/help/forms/using/adaptive-form-expressions.md#p-value-commit-script-p).
     
     * The template file provides sample implementation for various methods. Remove methods that are not to be extended.
 

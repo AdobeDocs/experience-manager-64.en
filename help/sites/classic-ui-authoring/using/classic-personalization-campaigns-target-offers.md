@@ -33,4 +33,4 @@ discoiquuid: e26bf608-c57c-4346-88fb-32a82cfa82d2
 
 ## Integrating with Adobe Target {#integrating-with-adobe-target}
 
-See [Integrate with Adobe](../../../sites/administering/using/target.md) [Target](../../../sites/administering/using/target.md) for full details.
+See [Integrate with Adobe](/help/sites/administering/using/target.md) [Target](/help/sites/administering/using/target.md) for full details.

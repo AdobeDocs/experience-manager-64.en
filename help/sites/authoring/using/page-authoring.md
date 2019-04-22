@@ -15,13 +15,13 @@ discoiquuid: 5ca3cac1-e5f5-42b5-81ff-76d6d1848997
 
 The following provide two types of overview to authoring with AEM:
 
-* [First Steps for Authors](../../../sites/authoring/using/first-steps.md) - an introduction for new authors  
+* [First Steps for Authors](/help/sites/authoring/using/first-steps.md) - an introduction for new authors  
 
-* [Quick Guide to Authoring Pages](../../../sites/authoring/using/qg-page-authoring.md) - a quick guide (high-level) to the main actions
+* [Quick Guide to Authoring Pages](/help/sites/authoring/using/qg-page-authoring.md) - a quick guide (high-level) to the main actions
 
 >[!NOTE]
 >
->This section covers the tasks involved when authoring a content page. There are many additional features closely related to page authoring, these are covered under [Site and Page Features](../../../sites/authoring/using/site-page-features.md).
+>This section covers the tasks involved when authoring a content page. There are many additional features closely related to page authoring, these are covered under [Site and Page Features](/help/sites/authoring/using/site-page-features.md).
 
 ## Quick Overview of Features Used for Authoring Pages {#quick-overview-of-features-used-for-authoring-pages}
 
@@ -36,16 +36,16 @@ To aid you when authoring pages the author environment provides features such as
 * **In-place Editing** 
   Text and Image components can be edited directly on the webpage without opening a dialog box or an explicit save action.
 
-* **[Components Browser](../../../sites/authoring/using/author-environment-tools.md#components-browser)** 
+* **[Components Browser](/help/sites/authoring/using/author-environment-tools.md#components-browser)** 
   On the left side of an editable page a sliding browser can be opened; from here components can be dragged onto the page and then edited.
 
-* **[Asset Browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser)** 
+* **[Asset Browser](/help/sites/authoring/using/author-environment-tools.md#assets-browser)** 
   On the left side of an editable page a sliding browser can be opened; from here assets can be dragged onto the page; for example to position assets or create links to other pages.
 
 * **Component Toolbar** 
   Both a single or a slow double click/tap will reveal the appropriate toolbar (single for the inplace editing toolbar, then slow double for full toolbar).
 
-* **[Responsive Layout](../../../sites/authoring/using/responsive-layout.md)** 
+* **[Responsive Layout](/help/sites/authoring/using/responsive-layout.md)** 
   This provides a paragraph system that allows you to position components within a responsive grid.
 
 * **Search as you type** 

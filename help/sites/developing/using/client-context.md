@@ -15,7 +15,7 @@ discoiquuid: 7b97fc27-30de-4ef9-9efe-673aec50cff2
 
 >[!NOTE]
 >
->Client Context has been superseded by ContextHub in the touch UI. Please see the [related documentation](../../../sites/developing/using/contexthub.md) for details.
+>Client Context has been superseded by ContextHub in the touch UI. Please see the [related documentation](/help/sites/developing/using/contexthub.md) for details.
 
 The Client Context represents a dynamically assembled collection of user data. You can use the data to determine the content to show on a web page in a given situation (content targeting). The data is also available for web site analytics, and to any javascript on the page.
 
@@ -23,20 +23,20 @@ Client Context consists mainly of the following aspects:
 
 * The session store, that contains the user data.
 * The UI that displays the user data and provides tools for simulating the user experience.
-* A [javascript API](../../../sites/developing/using/ccjsapi.md) for interacting with session stores.
+* A [javascript API](/help/sites/developing/using/ccjsapi.md) for interacting with session stores.
 
 To create a standalone session store and add it to Client Context, or create a session store that is tied to a Context Store component. AEM installs several Context Store components that you can use right away. You can use these components as a basis for your components.
 
-For information about opening Client Context, configuring the information that it displays, and simulating the user experience, see [Client Context](../../../sites/administering/using/client-context.md).
+For information about opening Client Context, configuring the information that it displays, and simulating the user experience, see [Client Context](/help/sites/administering/using/client-context.md).
 
 ## Session Stores {#session-stores}
 
 The Client Context includes various session stores that contain user data. Store data comes from the following sources:
 
 * The client web browser.  
-* The server (see [JSONP Store](../../../sites/administering/using/client-context.md) for storing information from 3rd-party sources)
+* The server (see [JSONP Store](/help/sites/administering/using/client-context.md) for storing information from 3rd-party sources)
 
-The Client Context framework provides a [javascript API](../../../sites/developing/using/ccjsapi.md) that you can use to interact with session stores to read and write user data, and listen and react to store events. You can also create session stores for user data that you use for content targeting or other purposes.
+The Client Context framework provides a [javascript API](/help/sites/developing/using/ccjsapi.md) that you can use to interact with session stores to read and write user data, and listen and react to store events. You can also create session stores for user data that you use for content targeting or other purposes.
 
 Session store data remains on the client. The Client Context does not write data back to the server. To send data to the server, use a form or develop custom javascript.
 
@@ -73,7 +73,7 @@ Context store components can include the following items:
 * Edit dialogs for configuring component instances.
 * Javascript that initializes the session store.
 
-For a description of the installed Context Store Components that you can add to Context Store, see [Available Client Context Components](../../../sites/administering/using/client-context.md#available-client-context-components).
+For a description of the installed Context Store Components that you can add to Context Store, see [Available Client Context Components](/help/sites/administering/using/client-context.md#available-client-context-components).
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ For a description of the installed Context Store Components that you can add to 
 
 ### Targeted Content Delivery {#targeted-content-delivery}
 
-Profile information is also used for delivering [targeted content](../../../sites/authoring/using/content-targeting-touch.md).
+Profile information is also used for delivering [targeted content](/help/sites/authoring/using/content-targeting-touch.md).
 
 ![](assets/clientcontext_targetedcontentdelivery.png) ![](assets/clientcontext_targetedcontentdeliverydetail.png) 
 
@@ -134,18 +134,18 @@ Including the javascript in the personalization.stores.kernel client library cau
 
 Session stores are either created and available during a browser session, or are persisted in browser storage or cookies. The Client Context javascript API defines several classes that represent both types of data stores:
 
-* ` [CQ_Analytics.SessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-sessionstore)`: These objects reside only in the page DOM. The data is created and persisted during the lifetime of the page.
-* ` [CQ_Analytics.PerstistedSessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-persistedsessionstore)`: These objects reside in the page DOM and are persisted either in browser storage or cookies. The data is available across pages and across user sessions.
+* ` [CQ_Analytics.SessionStore](/help/sites/developing/using/ccjsapi.md#cq-analytics-sessionstore)`: These objects reside only in the page DOM. The data is created and persisted during the lifetime of the page.
+* ` [CQ_Analytics.PerstistedSessionStore](/help/sites/developing/using/ccjsapi.md#cq-analytics-persistedsessionstore)`: These objects reside in the page DOM and are persisted either in browser storage or cookies. The data is available across pages and across user sessions.
 
 The API also provides extensions of these classes that are specialized for storing JSON data or JSONP data:
 
-* Session-only objects: [CQ_Analytics.JSONStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-jsonstore) and [CQ-Analytics.JSONPStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-jsonpstore).
+* Session-only objects: [CQ_Analytics.JSONStore](/help/sites/developing/using/ccjsapi.md#cq-analytics-jsonstore) and [CQ-Analytics.JSONPStore](/help/sites/developing/using/ccjsapi.md#cq-analytics-jsonpstore).
 
-* Persisted objects: [CQ_Analytics.PersistedJSONStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-persistedjsonstore) and [CQ-Analytics.PersistedJSONPStore](../../../sites/developing/using/ccjsapi.md#cq-analyics-persistedjsonpstore).
+* Persisted objects: [CQ_Analytics.PersistedJSONStore](/help/sites/developing/using/ccjsapi.md#cq-analytics-persistedjsonstore) and [CQ-Analytics.PersistedJSONPStore](/help/sites/developing/using/ccjsapi.md#cq-analyics-persistedjsonpstore).
 
 #### Creating the Session Store Object {#creating-the-session-store-object}
 
-The javascript of your client library folder creates and initializes the session store. The session store must then be registered using Context Store Manager. The following example creates and registers a [CQ_Analytics.SessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) object.
+The javascript of your client library folder creates and initializes the session store. The session store must then be registered using Context Store Manager. The following example creates and registers a [CQ_Analytics.SessionStore](/help/sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) object.
 
 ```
 //Create the session store
@@ -161,7 +161,7 @@ if (CQ_Analytics.ClientContextMgr){
 }
 ```
 
-For storing JSON data, the following example creates and registers a [CQ_Analytics.JSONStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) object.
+For storing JSON data, the following example creates and registers a [CQ_Analytics.JSONStore](/help/sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) object.
 
 ```
 if (!CQ_Analytics.myJSONStore) {
@@ -328,7 +328,7 @@ Use javascript to interact with session stores.
 
 ### Accessing Session Stores {#accessing-session-stores}
 
-Obtain a session store object to read or write data to the store. [CQ_Analytics.ClientContextMgr](../../../sites/developing/using/ccjsapi.md#cq-analytics-clientcontextmgr) provides access to stores based on the store name. Once obtained, use the methods of the [CQ-Analytics.SessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) or [CQ-Analytics.PersistedSessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-persistedsessionstore) to interact with store data.
+Obtain a session store object to read or write data to the store. [CQ_Analytics.ClientContextMgr](/help/sites/developing/using/ccjsapi.md#cq-analytics-clientcontextmgr) provides access to stores based on the store name. Once obtained, use the methods of the [CQ-Analytics.SessionStore](/help/sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) or [CQ-Analytics.PersistedSessionStore](/help/sites/developing/using/ccjsapi.md#cq-analytics-persistedsessionstore) to interact with store data.
 
 The following example obtains the `profile` store and then retrieves the `formattedName` property from the store.
 
@@ -347,7 +347,7 @@ function getName(){
 
 Session stores fire events, so it is possible to add listeners and trigger events based on these events.
 
-The session stores are built on the `Observable` pattern. They extend [ `CQ_Analytics.Observable`](../../../sites/developing/using/ccjsapi.md#cq-analytics-observable) that provides the ` [addListener](../../../sites/developing/using/ccjsapi.md#addlistener-event-fct-scope)` method.
+The session stores are built on the `Observable` pattern. They extend [ `CQ_Analytics.Observable`](/help/sites/developing/using/ccjsapi.md#cq-analytics-observable) that provides the ` [addListener](/help/sites/developing/using/ccjsapi.md#addlistener-event-fct-scope)` method.
 
 The following example adds a listener to the `update` event of the `profile` session store.
 
@@ -375,7 +375,7 @@ Session stores are not available until they are loaded and initialized with data
 * Response times for XHR requests
 * Dynamic changes to the session store
 
-Use the [CQ_Analytics.ClientContextUtils](../../../sites/developing/using/ccjsapi.md#cq-analytics-clientcontextutils) object's [onStoreRegistered](../../../sites/developing/using/ccjsapi.md#onstoreregistered-storename-callback) and [onStoreInitialized](../../../sites/developing/using/ccjsapi.md#onstoreinitialized-storename-callback-delay) methods to access session stores only when they are available. These methods enable you to register event listeners that react to session registration and initialization events.
+Use the [CQ_Analytics.ClientContextUtils](/help/sites/developing/using/ccjsapi.md#cq-analytics-clientcontextutils) object's [onStoreRegistered](/help/sites/developing/using/ccjsapi.md#onstoreregistered-storename-callback) and [onStoreInitialized](/help/sites/developing/using/ccjsapi.md#onstoreinitialized-storename-callback-delay) methods to access session stores only when they are available. These methods enable you to register event listeners that react to session registration and initialization events.
 
 >[!CAUTION]
 >
@@ -413,7 +413,7 @@ function getName(){
 
 To prevent a property of a `PersistedSessionStore` from being persisted (i.e. exclude it from the `sessionpersistence` cookie), add the property to the non-persisted property list of the persisted session store.
 
-See ` [CQ_Analytics.PersistedSessionStore.setNonPersisted(propertyName)](../../../sites/developing/using/ccjsapi.md#setnonpersisted-name)`
+See ` [CQ_Analytics.PersistedSessionStore.setNonPersisted(propertyName)](/help/sites/developing/using/ccjsapi.md#setnonpersisted-name)`
 
 ```
 CQ_Analytics.ClientContextUtils.onStoreRegistered("surferinfo", function(store) {

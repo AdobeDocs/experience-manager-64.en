@@ -15,7 +15,7 @@ discoiquuid: 707b150b-7759-437f-9150-9f4784856754
 
 ## Introduction {#introduction}
 
-When the deployment is a [publish farm](../../../sites/deploying/using/recommended-deploys.md#tarmk-farm), members need to be able to log in and see their data on any publish node.
+When the deployment is a [publish farm](/help/sites/deploying/using/recommended-deploys.md#tarmk-farm), members need to be able to log in and see their data on any publish node.
 
 Users and user groups (user data) created in the publish environment are not needed in the author environment.
 
@@ -27,7 +27,7 @@ As of AEM 6.1, when user synchronization is enabled, user data is automatically 
 
 ## Sling Distribution {#sling-distribution}
 
-The user data, along with their [ACLs](../../../sites/administering/using/security.md), are stored in the [Oak Core](../../../sites/deploying/using/platform.md), the layer below Oak JCR, and are accessed using the [Oak API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/jackrabbit/oak/api/package-tree.html). With infrequent updates, it is reasonable for user data to be synchronized with other publish instances using [Sling Content Distribution](https://github.com/apache/sling/blob/trunk/contrib/extensions/distribution/README.md) (Sling distribution).
+The user data, along with their [ACLs](/help/sites/administering/using/security.md), are stored in the [Oak Core](/help/sites/deploying/using/platform.md), the layer below Oak JCR, and are accessed using the [Oak API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/jackrabbit/oak/api/package-tree.html). With infrequent updates, it is reasonable for user data to be synchronized with other publish instances using [Sling Content Distribution](https://github.com/apache/sling/blob/trunk/contrib/extensions/distribution/README.md) (Sling distribution).
 
 The benefits of user sync using Sling distribution, compared to traditional replication are :
 
@@ -35,7 +35,7 @@ The benefits of user sync using Sling distribution, compared to traditional repl
 
 * Sling distribution sets properties in jcr events, making it possible to act within publish-side event listeners without concern for infinite replication loops
 * Sling distribution only sends user data to non-originating publish instances, eliminating unnecessary traffic
-* [ACLs](../../../sites/administering/using/security.md) set in the user node are included in the sychronization
+* [ACLs](/help/sites/administering/using/security.md) set in the user node are included in the sychronization
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Following are the steps necessary to enable user synchronization, followed by a 
 1. Ensure the latest code has been installed:
 
 * [AEM platform updates](https://helpx.adobe.com/experience-manager/kb/aem62-available-hotfixes.html)
-* [AEM Communities updates](../../../communities/using/deploy-communities.md#latest-releases)
+* [AEM Communities updates](/help/communities/using/deploy-communities.md#latest-releases)
 
 ### 1. Apache Sling Distribution Agent - Sync Agents Factory {#apache-sling-distribution-agent-sync-agents-factory}
 
@@ -79,7 +79,7 @@ Following are the steps necessary to enable user synchronization, followed by a 
 * **on author**
 
     * sign in with administrator privileges
-    * access the [Web Console](../../../sites/deploying/using/configuring-osgi.md)
+    * access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
         * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -102,7 +102,7 @@ This authorized user will be used in step 3 to configure Sling distribution on a
 * **on each publish instance**
 
     * sign in with administrator privileges
-    * access the [Security Console](../../../sites/administering/using/security.md)
+    * access the [Security Console](/help/sites/administering/using/security.md)
 
         * for example, [http://localhost:4503/useradmin](http://localhost:4503/useradmin)
 
@@ -150,7 +150,7 @@ This authorized user will be used in step 3 to configure Sling distribution on a
 
 See also
 
-* [Access Right Management](../../../sites/administering/using/user-group-ac-admin.md#access-right-management)
+* [Access Right Management](/help/sites/administering/using/user-group-ac-admin.md#access-right-management)
 * Troubleshooting section [Modify Operation Exception During Response Processing](#modify-operation-exception-during-response-processing).
 
 ### 3. Adobe Granite Distribution - Encrypted Password Transport Secret Provider {#adobegraniteencpasswrd}
@@ -162,7 +162,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 * **on author**
 
     * sign in with administrator privileges
-    * access the [Web Console](../../../sites/deploying/using/configuring-osgi.md)
+    * access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
         * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -183,7 +183,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 * **on publish** :
 
     * sign in with administrator privileges
-    * access the [Web Console](../../../sites/deploying/using/configuring-osgi.md)
+    * access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
         * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
@@ -206,7 +206,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 * **on each publish instance** :
 
     * sign in with administrator privileges
-    * access the [Web Console](../../../sites/deploying/using/configuring-osgi.md)
+    * access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
         * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
@@ -229,7 +229,7 @@ By default, author will poll for changes every 30 seconds. To alter this interva
 * **on author**
 
     * sign in with administrator privileges
-    * access the [Web Console](../../../sites/deploying/using/configuring-osgi.md)
+    * access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
         * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -255,7 +255,7 @@ The default configuration is for a single publish instance. As the reason for en
 * **on author**
 
     * sign in with administrator privileges
-    * access the [Web Console](../../../sites/deploying/using/configuring-osgi.md)
+    * access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
         * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -289,7 +289,7 @@ If there is custom data that is desired to be synchronized across multiple publi
 * **on each publish instance** :
 
     * sign in with administrator privileges
-    * access the [Web Console](../../../sites/deploying/using/configuring-osgi.md)
+    * access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
         * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
@@ -369,7 +369,7 @@ Repeat these steps until all publish instances have an unique Sling ID.
 In order for updates to sync properly, it is necessary to modify the vault package builder for user sync :
 
 * on each AEM publish instance
-* access the [Web Console](../../../sites/deploying/using/configuring-osgi.md)
+* access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
@@ -401,13 +401,13 @@ In order for updates to sync properly, it is necessary to modify the vault packa
 
 By design, users and profiles created in the publish environment (self-registration) do not appear in the author environment.
 
-When the topology is a [publish farm](../../../sites/deploying/using/recommended-deploys.md#tarmk-farm) and user sync has been correctly configured, the *user *and *user profile* is synchronized across the publish farm using Sling distribution.
+When the topology is a [publish farm](/help/sites/deploying/using/recommended-deploys.md#tarmk-farm) and user sync has been correctly configured, the *user *and *user profile* is synchronized across the publish farm using Sling distribution.
 
 ### Users or User Groups are Created Using Security Console {#users-or-user-groups-are-created-using-security-console}
 
 By design, user data created in the publish environment does not appear in the author environment and vice versa.
 
-When the [User Administration and Security](../../../sites/administering/using/security.md) console is used to add new users in the publish environment, user sync will synchronize the new users and their group membership to other publish instances, if necessary. User sync will also synchronize user groups created through the security console.
+When the [User Administration and Security](/help/sites/administering/using/security.md) console is used to add new users in the publish environment, user sync will synchronize the new users and their group membership to other publish instances, if necessary. User sync will also synchronize user groups created through the security console.
 
 ## Troubleshooting {#troubleshooting}
 
@@ -419,13 +419,13 @@ To check the state of the distribution queue :
 
 * on author :
 
-    * using [CRXDE Lite](../../../sites/developing/using/developing-with-crxde-lite.md)
+    * using [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md)
 
         * look for entries in `/var/sling/distribution/packages`
 
             * folder nodes named with the pattern `distrpackage_*`
 
-    * using [Package Manager](../../../sites/administering/using/package-manager.md)
+    * using [Package Manager](/help/sites/administering/using/package-manager.md)
 
         * look for pending packages (not yet installed)
 
@@ -460,7 +460,7 @@ This is what is displayed when User Synchronization has not been enabled :
 
 When the diagnoistic is run from the author environment, the pass/fail results will include an [INFO] section displaying the list of configured publish instances for confirmation.
 
-Included in the list is an URL for each publish instance that will run the diagnostics for that instance. The url param `syncUser` is appended to the diagnostics URL with its value set to the *authorized sync user* created in [Step 2](../../../sites/administering/using/sync.md#createauthuser).
+Included in the list is an URL for each publish instance that will run the diagnostics for that instance. The url param `syncUser` is appended to the diagnostics URL with its value set to the *authorized sync user* created in [Step 2](/help/sites/administering/using/sync.md#createauthuser).
 
 **Note** : before launching the URL, the *authorized sync user* must already be signed into that publish instance.
 
@@ -535,18 +535,18 @@ See section [9. Unique Sling ID](#unique-sling-id)
 * on publisher on which users and user groups exist :
 
     * [if enabled, disable user sync](#how-to-take-user-sync-offline)
-    * [create a package](../../../sites/administering/using/package-manager.md#creating-a-new-package) of `/home`
+    * [create a package](/help/sites/administering/using/package-manager.md#creating-a-new-package) of `/home`
 
         * when editing the package
 
             * Filters tab : Add Filter : Root path: `/home`
             * Advanced tab : AC Handling : `Overwrite`
 
-    * [export the package](../../../sites/administering/using/package-manager.md#downloading-packages-to-your-file-system)
+    * [export the package](/help/sites/administering/using/package-manager.md#downloading-packages-to-your-file-system)
 
 * on other publish instances :
 
-    * [import the package](../../../sites/administering/using/package-manager.md#installing-packages)
+    * [import the package](/help/sites/administering/using/package-manager.md#installing-packages)
 
 To configure or enable user sync, go to step 1: [Apache Sling Distribution Agent - Sync Agents Factory](#apache-sling-distribution-agent-sync-agents-factory)
 

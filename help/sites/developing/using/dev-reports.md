@@ -13,7 +13,7 @@ discoiquuid: 50fafc64-d462-4386-93af-ce360588d294
 
 # Developing Reports{#developing-reports}
 
-CQ provides a selection of [standard reports](../../../sites/administering/using/reporting.md) most of which are based on a reporting framework.
+CQ provides a selection of [standard reports](/help/sites/administering/using/reporting.md) most of which are based on a reporting framework.
 
 Using the framework you can either extend these standard reports, or develop your own, completely new, report(s). The reporting framework integrates tightly with existing CQ5 concepts and principles so that developers can use their existing knowledge of CQ5 as a springboard for developing reports.
 
@@ -21,16 +21,16 @@ For the standard reports delivered with CQ:
 
 * These reports are built on the reporting framework:
 
-    * [Component Report](../../../sites/administering/using/reporting.md#component-report)
-    * [Page Activity Report](../../../sites/administering/using/reporting.md#page-activity-report)
-    * [User Report](../../../sites/administering/using/reporting.md#user-report)
-    * [Workflow Instance Report](../../../sites/administering/using/reporting.md#workflow-instance-report)
+    * [Component Report](/help/sites/administering/using/reporting.md#component-report)
+    * [Page Activity Report](/help/sites/administering/using/reporting.md#page-activity-report)
+    * [User Report](/help/sites/administering/using/reporting.md#user-report)
+    * [Workflow Instance Report](/help/sites/administering/using/reporting.md#workflow-instance-report)
 
 * The following reports are based on individual principles and therefore cannot be extended:
 
-    * [Disk Usage](../../../sites/administering/using/reporting.md#disk-usage)
-    * [Health Check](../../../sites/administering/using/reporting.md#health-check)
-    * [Workflow Report](../../../sites/administering/using/reporting.md#workflow-report)
+    * [Disk Usage](/help/sites/administering/using/reporting.md#disk-usage)
+    * [Health Check](/help/sites/administering/using/reporting.md#health-check)
+    * [Workflow Report](/help/sites/administering/using/reporting.md#workflow-report)
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ The query:
 
 **[!UICONTROL The key point here is that each single node returned in the result set of the query is used to generate a single row on the report (so a 1:1 relationship).]**
 
-The developer has to ensure that the query defined for a report returns a node set appropriate for that report. However, the node itself need not hold all the required information, this can also be derived from parent and/or child nodes. For example, the query used for the [User Report](../../../sites/administering/using/reporting.md#user-report) selects nodes based on the node type (in this case `rep:user`). However, most columns on this report do not take their data directly from these nodes, but from the child nodes `profile`.
+The developer has to ensure that the query defined for a report returns a node set appropriate for that report. However, the node itself need not hold all the required information, this can also be derived from parent and/or child nodes. For example, the query used for the [User Report](/help/sites/administering/using/reporting.md#user-report) selects nodes based on the node type (in this case `rep:user`). However, most columns on this report do not take their data directly from these nodes, but from the child nodes `profile`.
 
 ### Processing Queue {#processing-queue}
 
@@ -336,7 +336,7 @@ N:charting
             * `fixedRadius` ( `Double/Long`)  
               Defines a fixed radius for the pie chart.
 
-        * [for the chart type `lineseries`](../../../sites/administering/using/reporting.md#display-limits):
+        * [for the chart type `lineseries`](/help/sites/administering/using/reporting.md#display-limits):
 
             * `totals` ( `Boolean`)  
               True if an additional line showing the **Total** should be shown.  
@@ -355,7 +355,7 @@ N:charting
 
 Every report can have a configuration dialog, allowing the user to specify various parameters for the report. This dialog is accessible through the **Edit** button when the report page is open.
 
-This dialog is a standard CQ [dialog](../../../sites/developing/using/components-basics.md#dialogs) and can be configured as such (see [CQ.Dialog](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Dialog) for more information).
+This dialog is a standard CQ [dialog](/help/sites/developing/using/components-basics.md#dialogs) and can be configured as such (see [CQ.Dialog](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Dialog) for more information).
 
 An example dialog can look as follows:
 
@@ -601,7 +601,7 @@ N:definitions
           Defines the property on the resolved path where the actual value is located.
         
         * `i18n` (optional; type Boolean)  
-          Determines whether the resolved value should be *internationalized* (i.e. using [CQ5's internationalization services](../../../sites/administering/using/tc-manage.md)).
+          Determines whether the resolved value should be *internationalized* (i.e. using [CQ5's internationalization services](/help/sites/administering/using/tc-manage.md)).
 
 * `preprocessing`  
   Preprocessing is optional and can be bound (separately) to the processing phases *apply* or *applyAfter*:
@@ -910,7 +910,7 @@ N:defaults
 
 ### Events and Actions {#events-and-actions}
 
-Edit Configuration defines the necessary events for the listeners to detect and the actions to be applied after those events occurs. See the [introduction to component development](../../../sites/developing/using/components.md) for background information.
+Edit Configuration defines the necessary events for the listeners to detect and the actions to be applied after those events occurs. See the [introduction to component development](/help/sites/developing/using/components.md) for background information.
 
 The following values must be defined to ensure that all required actions are catered for:
 
@@ -1025,7 +1025,7 @@ Specifying designs for individual columns is not required. Available columns can
 
 ## Report Template {#report-template}
 
-Each report type must provide a template. These are standard [CQ Templates](../../../sites/developing/using/templates.md) and can be configured as such.
+Each report type must provide a template. These are standard [CQ Templates](/help/sites/developing/using/templates.md) and can be configured as such.
 
 The template must:
 
@@ -1286,7 +1286,7 @@ An instance of your new report can now be created:
 1. Select **Reports** in the left-hand pane.
 1. Then **New...** from the toolbar. Define a **Title** and **Name**, select your new report type (the **OSGi Report Template**) from the list of templates, then click **Create**.
 1. Your new report instance will appear in the list. Double-click this to open.
-1. Drag a component (for this example, **Bundle** in the **OSGi Report** group) from the sidekick to create the first column and [start the report definition](../../../sites/administering/using/reporting.md#the-basics-of-report-customization). [](../../../sites/administering/using/reporting.md#the-basics-of-report-customization)
+1. Drag a component (for this example, **Bundle** in the **OSGi Report** group) from the sidekick to create the first column and [start the report definition](/help/sites/administering/using/reporting.md#the-basics-of-report-customization). [](/help/sites/administering/using/reporting.md#the-basics-of-report-customization)
 
    >[!NOTE]
    >
@@ -1308,7 +1308,7 @@ An instance of your new report can now be created:
 
 This section describes advanced configuration options for the OSGi services that implement the report framework.
 
-These can be viewed using the Configuration menu of the web console (available for example at `http://localhost:4502/system/console/configMgr`). When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+These can be viewed using the Configuration menu of the web console (available for example at `http://localhost:4502/system/console/configMgr`). When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 ### Basic Service (Day CQ Reporting Configuration) {#basic-service-day-cq-reporting-configuration}
 

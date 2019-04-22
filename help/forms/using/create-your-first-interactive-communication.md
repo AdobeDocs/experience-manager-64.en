@@ -44,7 +44,7 @@ A telecom operator sends monthly bills to the customers over the email. The bill
 ## Prerequisites {#prerequisites}
 
 * Set up an AEM author instance.  
-* Install [AEM Forms add-on](../../forms/using/installing-configuring-aem-forms-osgi.md) on author instance
+* Install [AEM Forms add-on](/help/forms/using/installing-configuring-aem-forms-osgi.md) on author instance
 * Set up the MYSQL database
 * Obtain JDBC database driver (JAR file) from database provider. Examples in the tutorial are based on MySQL database and use Oracle's [MySQL JDBC database driver](https://dev.mysql.com/downloads/connector/j/5.1.html).
 
@@ -64,13 +64,13 @@ To create an anatomy for the Interactive Communication with the following modes 
 * Conditional data
 * Images
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](../../forms/using/planning-interactive-communications.md)
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](/help/forms/using/planning-interactive-communications.md)
 
 ## Step 2: Create form data model {#step-create-form-data-model}
 
 ![](assets/03-create-adaptive-form-main-image_small.png)
 
-A form data model allows you to connect an Interactive Communication to disparate data sources. For example, AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. A form data model is a unified data representation schema of business entities and services available in connected data sources. You can use the form data model with an Interactive Communication to retrieve data from connected data sources. For more information about form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+A form data model allows you to connect an Interactive Communication to disparate data sources. For example, AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. A form data model is a unified data representation schema of business entities and services available in connected data sources. You can use the form data model with an Interactive Communication to retrieve data from connected data sources. For more information about form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
 **Goals:**
 
@@ -83,7 +83,7 @@ A form data model allows you to connect an Interactive Communication to disparat
 * Edit sample data
 * Test form data model and configured services with test data
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](../../forms/using/create-form-data-model0.md)
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](/help/forms/using/create-form-data-model0.md)
 
 ## Step 3: Create document fragments {#step-create-document-fragments}
 
@@ -97,7 +97,7 @@ Document fragments are reusable components of a correspondence that are used to 
 * Create variables
 * Create and apply rules
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](../../forms/using/create-document-fragments.md)
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](/help/forms/using/create-document-fragments.md)
 
 ## Step 4: Create templates {#step-create-templates}
 
@@ -115,7 +115,7 @@ The templates for the Web channel are created in AEM. Template authors and admin
 * Upload the XDP templates to the AEM Forms Server
 * Create and enable templates for the Web channel
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](../../forms/using/create-templates-print-web.md)
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](/help/forms/using/create-templates-print-web.md)
 
 ## Step 5: Create an Interactive Communication {#step-create-an-interactive-communication}
 
@@ -134,7 +134,7 @@ Interactive Communications can be delivered through two channels: Print and Web.
 * Create a chart in Web version of Interactive Communication
 * Create hyperlinks in Web version of Interactive Communication
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](../../forms/using/create-interactive-communication0.md)
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](/help/forms/using/create-interactive-communication0.md)
 
 ## Step 6: Test your Interactive Communication {#step-test-your-interactive-communication}
 

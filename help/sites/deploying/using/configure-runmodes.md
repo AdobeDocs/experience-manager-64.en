@@ -97,7 +97,7 @@ The run mode is indicated by a suffix on the folder name. This allows you to sto
 * `config.<*run-mode*>`  
   Used for the applicable run mode; for example, config
 
-See [OSGi Configuration in the Repository](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) for further details on defining the individual configuration nodes within these folders and for creating configurations for combinations of multiple run modes.
+See [OSGi Configuration in the Repository](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) for further details on defining the individual configuration nodes within these folders and for creating configurations for combinations of multiple run modes.
 
 >[!NOTE]
 >
@@ -176,4 +176,4 @@ in the file:
 
 This is in the AEM `war` file and should be updated before deployment.
 
-See [Installing AEM with an Application Server](../../../sites/deploying/using/application-server-install.md) for further details.
+See [Installing AEM with an Application Server](/help/sites/deploying/using/application-server-install.md) for further details.

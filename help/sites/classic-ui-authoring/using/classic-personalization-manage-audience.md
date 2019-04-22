@@ -20,5 +20,5 @@ The Audiences console enables you to create, organize, and manage audiences for 
 
 >[!NOTE]
 >
->The audiences console is not available in classic UI. See [Managing Audiences](../../../sites/authoring/using/managing-audiences.md) in the standard authoring documentation for details.
+>The audiences console is not available in classic UI. See [Managing Audiences](/help/sites/authoring/using/managing-audiences.md) in the standard authoring documentation for details.
 

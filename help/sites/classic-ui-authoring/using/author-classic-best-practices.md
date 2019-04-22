@@ -23,9 +23,9 @@ The following areas have documentation available concerning best practices:
 
 For best practices on administering, deploying and maintaining, or developing, see one of the following:
 
-* [Administering best practices](../../../sites/administering/using/administer-best-practices.md)
-* [Developing best practices](../../../sites/developing/using/best-practices.md)
-* [Deploying best practices](../../../sites/deploying/using/best-practices.md)
+* [Administering best practices](/help/sites/administering/using/administer-best-practices.md)
+* [Developing best practices](/help/sites/developing/using/best-practices.md)
+* [Deploying best practices](/help/sites/deploying/using/best-practices.md)
 
 Specific documents are described and linked to in the tables that follow.
 
@@ -62,12 +62,12 @@ Best practices around Assets, including the dynamic media capability and Scene 7
 
 Managing and authoring your website content has some best practices outlined as follows:
 
-| Authoring | [Author environment and tools](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md) |Provides an overview on how to author pages. |
+| Authoring | [Author environment and tools](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md) |Provides an overview on how to author pages. |
 |---|---|---|
 
 ## Forms {#forms}
 
-| Adaptive forms | [Best practices for working with adaptive forms](../../../forms/using/adaptive-forms-best-practices.md) |Describes best practices for setting up, authoring, and customizing adaptive forms. |
+| Adaptive forms | [Best practices for working with adaptive forms](/help/forms/using/adaptive-forms-best-practices.md) |Describes best practices for setting up, authoring, and customizing adaptive forms. |
 |---|---|---|
 | HTML5 forms | [Best practices for designing HTML5 forms](/help/forms/using/best-practices-for-html5-forms.md) |Describes best practices for working on layout and design of HTML5 forms. |
 

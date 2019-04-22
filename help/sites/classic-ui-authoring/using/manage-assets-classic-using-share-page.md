@@ -16,7 +16,7 @@ legacypath: /content/docs/en/aem/6-2/author/assets/using-asset-share-pages
 
 Depending on your instance of AEM, you can use a customized version of the DAM Finder called an Asset Share page. Asset Share is a web application that you use to search for assets using queries and predicates, browse and select assets using lenses, and perform actions on selected lenses.
 
-This section describes possible ways to search for and find digital assets. However, the methods that are available to you depend on the design of your Asset Share page. (See [Creating customized Asset Share and Asset Editor pages](../../../assets/using/assets-finder-editor.md).)
+This section describes possible ways to search for and find digital assets. However, the methods that are available to you depend on the design of your Asset Share page. (See [Creating customized Asset Share and Asset Editor pages](/help/assets/using/assets-finder-editor.md).)
 
 ## Finding Assets with Asset Share {#finding-assets-with-asset-share}
 

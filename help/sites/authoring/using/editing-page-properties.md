@@ -40,7 +40,7 @@ The properties are distributed across several tabs.
     * With the drop-down functionality you can select from existing tags.
     * An x appears when you mouse-over a tag entry in the selection box, which can be used to remove that tag for this page.
 
-  For more information about tags, see [Using Tags](../../../sites/authoring/using/tags.md).
+  For more information about tags, see [Using Tags](/help/sites/authoring/using/tags.md).
 
 * **Hide in Navigation**
 
@@ -107,7 +107,7 @@ The properties are distributed across several tabs.
 
 * **Design**
 
-  Indicate the [design](../../../sites/developing/using/designer.md) to be used for this page.
+  Indicate the [design](/help/sites/developing/using/designer.md) to be used for this page.
 
 * **Alias**
 
@@ -115,20 +115,20 @@ The properties are distributed across several tabs.
 
 * **Allowed Templates**
 
-  [Define the list of templates that will be available](../../../sites/authoring/using/templates.md#enabling-and-allowing-a-template-template-author) within this sub-branch.
+  [Define the list of templates that will be available](/help/sites/authoring/using/templates.md#enabling-and-allowing-a-template-template-author) within this sub-branch.
 
 * **Authentication Requirement**
 
   Enables (or disables) use of authentication to access the page.
 
-  The requirement to have authentication can be set here along with a designated logon page. Closed user groups for the page are defined on the ** [Permissions](../../../sites/authoring/using/editing-page-properties.md#permissions)** tab.
+  The requirement to have authentication can be set here along with a designated logon page. Closed user groups for the page are defined on the ** [Permissions](/help/sites/authoring/using/editing-page-properties.md#permissions)** tab.
 
   >[!CAUTION]
   >
-  >The **[Permissions](../../../sites/authoring/using/editing-page-properties.md#permissions)** tab allows editing of CUG configurations based on the presence of the `granite:AuthenticationRequired` mixin. If page permissions are configured using deprecated CUG configurations, based on the presence of cq:cugEnabled property, a warning message will be shown under **Authentication Requirement** and the option will not be editable, nor will the [Permissions](../../../sites/authoring/using/editing-page-properties.md#permissions) be editable.
+  >The **[Permissions](/help/sites/authoring/using/editing-page-properties.md#permissions)** tab allows editing of CUG configurations based on the presence of the `granite:AuthenticationRequired` mixin. If page permissions are configured using deprecated CUG configurations, based on the presence of cq:cugEnabled property, a warning message will be shown under **Authentication Requirement** and the option will not be editable, nor will the [Permissions](/help/sites/authoring/using/editing-page-properties.md#permissions) be editable.
   >
   >
-  >In such a case the CUG permissions must be edited in the [classic UI](../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md).
+  >In such a case the CUG permissions must be edited in the [classic UI](/help/sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md).
 
 * **Login Page**
 
@@ -165,13 +165,13 @@ The properties are distributed across several tabs.
 
 * **Cloud Services**
 
-  Define properties for [cloud services](../../../sites/developing/using/extending-cloud-config.md).
+  Define properties for [cloud services](/help/sites/developing/using/extending-cloud-config.md).
 
 ### Personalization {#personalization}
 
 * **Personalization**
 
-  Select a [Brand to specify a scope for Targeting](../../../sites/authoring/using/campaigns.md).
+  Select a [Brand to specify a scope for Targeting](/help/sites/authoring/using/campaigns.md).
 
 ### Permissions {#permissions}
 
@@ -179,33 +179,33 @@ The properties are distributed across several tabs.
 
   In this tab you can:
 
-    * [Add Permissions](../../../sites/administering/using/user-group-ac-admin.md)
-    * [Edit Closed User Group](../../../sites/administering/using/cug.md#applying-your-closed-user-group-to-content-pages)  
+    * [Add Permissions](/help/sites/administering/using/user-group-ac-admin.md)
+    * [Edit Closed User Group](/help/sites/administering/using/cug.md#applying-your-closed-user-group-to-content-pages)  
     
-    * View the [Effective Permissions](../../../sites/administering/using/user-group-ac-admin.md)
+    * View the [Effective Permissions](/help/sites/administering/using/user-group-ac-admin.md)
 
   >[!CAUTION]
   >
-  >The **Permissions** tab allows editing of CUG configurations based on the presence of the `granite:AuthenticationRequired` mixin. If page permissions are configured using deprecated CUG configurations, based on the presence of `cq:cugEnabled` property, a warning message will be shown and the CUG permissions will not be editable, nor will the Authentication Requirement on the [Advanced](../../../sites/authoring/using/editing-page-properties.md#advanced) tab be editable.
+  >The **Permissions** tab allows editing of CUG configurations based on the presence of the `granite:AuthenticationRequired` mixin. If page permissions are configured using deprecated CUG configurations, based on the presence of `cq:cugEnabled` property, a warning message will be shown and the CUG permissions will not be editable, nor will the Authentication Requirement on the [Advanced](/help/sites/authoring/using/editing-page-properties.md#advanced) tab be editable.
   >
   >
-  >In such a case the CUG permissions must be edited in the [classic UI](../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md).
+  >In such a case the CUG permissions must be edited in the [classic UI](/help/sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md).
 
   >[!NOTE]
   >
-  >The Permissions tab does not allow the creation of empty CUG groups, which can be useful as a simple way to deny access to every user. To do this CRX Explorer must be used. See the document [User, Group and Access Rights Administration](../../../sites/administering/using/user-group-ac-admin.md) for more information.
+  >The Permissions tab does not allow the creation of empty CUG groups, which can be useful as a simple way to deny access to every user. To do this CRX Explorer must be used. See the document [User, Group and Access Rights Administration](/help/sites/administering/using/user-group-ac-admin.md) for more information.
 
 ### Blueprint {#blueprint}
 
 * **Blueprint**
 
-  Define properties for a Blueprint page within [multi-site management](../../../sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated to the Live Copy.
+  Define properties for a Blueprint page within [multi-site management](/help/sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated to the Live Copy.
 
 ### Live Copy {#live-copy}
 
 * **Livecopy**
 
-  Define properties for a Live Copy page within [multi-site management](../../../sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated from the Blueprint.
+  Define properties for a Live Copy page within [multi-site management](/help/sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated from the Blueprint.
 
 ### Site Structure {#site-structure}
 
@@ -217,7 +217,7 @@ You can define page properties:
 
 * From the **Sites** console:
 
-    * [Creating a new page](../../../sites/authoring/using/managing-pages.md#creating-a-new-page) (a subset of the properties)  
+    * [Creating a new page](/help/sites/authoring/using/managing-pages.md#creating-a-new-page) (a subset of the properties)  
     
     * Clicking or tapping **Properties**
 
@@ -236,8 +236,8 @@ Clicking or tapping** Properties** to define the page properties:
 
 1. Select the **Properties** option for the required page using either:
 
-    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
-    * [Selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
+    * [Quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions)
+    * [Selection mode](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
    The page properties will be shown using the appropriate tabs.
 
@@ -268,9 +268,9 @@ From the **Sites** console you can select several pages then use **View Properti
 
 >[!NOTE]
 >
->Bulk editing of properties is also available for Assets. It is very similar, but differs in a few points. See [Editing Properties of Multiple Assets](../../../assets/using/managing-multiple-assets.md) for details.
+>Bulk editing of properties is also available for Assets. It is very similar, but differs in a few points. See [Editing Properties of Multiple Assets](/help/assets/using/managing-multiple-assets.md) for details.
 >
->There is also the [Bulk Editor](../../../sites/administering/using/bulk-editor.md), which allows you to search for content from multiple pages using GQL (Google Query Language) and then edit the content directly in the bulk editor before saving your changes to the originating pages.
+>There is also the [Bulk Editor](/help/sites/administering/using/bulk-editor.md), which allows you to search for content from multiple pages using GQL (Google Query Language) and then edit the content directly in the bulk editor before saving your changes to the originating pages.
 
 You can select multiple pages for bulk editing by various methods, including:
 
@@ -329,5 +329,5 @@ Once you have entered Bulk Editing you can:
 
 >[!NOTE]
 >
->The page component can be configured to specify the fields available for bulk editing. See [Configuring your page for bulk editing of page properties](../../../sites/developing/using/bulk-editing.md).
+>The page component can be configured to specify the fields available for bulk editing. See [Configuring your page for bulk editing of page properties](/help/sites/developing/using/bulk-editing.md).
 

@@ -15,5 +15,5 @@ discoiquuid: 0717c1ff-7710-483b-8491-79bc689b15a9
 
 >[!NOTE]
 >
->Screens are not available in classic UI. See [Screens](../../../screens/using/authoring-screens.md) in the standard authoring documentation for details.
+>Screens are not available in classic UI. See [Screens](/help/screens/using/authoring-screens.md) in the standard authoring documentation for details.
 

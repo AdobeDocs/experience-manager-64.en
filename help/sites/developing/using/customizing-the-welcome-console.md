@@ -17,7 +17,7 @@ discoiquuid: 2e408acb-3802-4837-8619-688cfc3abfa7
 >
 >This page deals with the classic UI.
 >
->See [Customizing the Consoles](../../../sites/developing/using/customizing-consoles-touch.md) for details on the standard, touch-enabled UI.
+>See [Customizing the Consoles](/help/sites/developing/using/customizing-consoles-touch.md) for details on the standard, touch-enabled UI.
 
 The Welcome console provides a list of links to the various consoles and functionality within AEM.
 
@@ -67,7 +67,7 @@ For example:
 * To restrict access to **Tools**, remove read access from  
   `` `/libs/wcm/core/content/misc`
 
-See the [Security section](../../../sites/administering/using/security.md) for more information on how to set the desired permissions.
+See the [Security section](/help/sites/administering/using/security.md) for more information on how to set the desired permissions.
 
 ### Links in Sidebar (Right Pane) {#links-in-sidebar-right-pane}
 
@@ -181,7 +181,7 @@ For example:
 * To remove the link to **Packages**, remove read access from  
   `/libs/cq/core/content/welcome/features/packages`
 
-See the [Security section](../../../sites/administering/using/security.md) for more information on how to set the desired permissions.
+See the [Security section](/help/sites/administering/using/security.md) for more information on how to set the desired permissions.
 
 ### Link Selection Mechanism {#link-selection-mechanism}
 

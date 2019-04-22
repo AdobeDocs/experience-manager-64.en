@@ -16,12 +16,12 @@ This article describes the error messages that might be displayed while building
 
 The sections in this article include:
 
-* [Attachment loss for iOS users](../../forms/using/issues-aem-forms-app.md#attachment-loss-for-ios-users)
-* [HTML5 form drafts submitted by workspace users are not visible on the portal](../../forms/using/issues-aem-forms-app.md#html-form-drafts-submitted-by-workspace-users-are-not-visible-on-the-portal)
-* [HTML5 forms (not cached) fail to load in AEM Forms app](../../forms/using/issues-aem-forms-app.md#html-forms-not-cached-fail-to-load-in-aem-forms-app)
-* [AEM Forms do not sync on Windows](../../forms/using/issues-aem-forms-app.md#aem-forms-do-not-sync-on-windows)
-* [Unsupported version of Gradle](../../forms/using/issues-aem-forms-app.md#unsupported-version-of-gradle)
-* [Gradle and Android Gradle plug-in compatibility issues](../../forms/using/issues-aem-forms-app.md#gradle-and-android-gradle-plug-in-compatibility-issues)
+* [Attachment loss for iOS users](/help/forms/using/issues-aem-forms-app.md#attachment-loss-for-ios-users)
+* [HTML5 form drafts submitted by workspace users are not visible on the portal](/help/forms/using/issues-aem-forms-app.md#html-form-drafts-submitted-by-workspace-users-are-not-visible-on-the-portal)
+* [HTML5 forms (not cached) fail to load in AEM Forms app](/help/forms/using/issues-aem-forms-app.md#html-forms-not-cached-fail-to-load-in-aem-forms-app)
+* [AEM Forms do not sync on Windows](/help/forms/using/issues-aem-forms-app.md#aem-forms-do-not-sync-on-windows)
+* [Unsupported version of Gradle](/help/forms/using/issues-aem-forms-app.md#unsupported-version-of-gradle)
+* [Gradle and Android Gradle plug-in compatibility issues](/help/forms/using/issues-aem-forms-app.md#gradle-and-android-gradle-plug-in-compatibility-issues)
 
 ## Attachment loss for iOS users {#attachment-loss-for-ios-users}
 

@@ -15,7 +15,7 @@ discoiquuid: d8ee3b57-633a-425e-bf36-646f0e0bad52
 
 >[!NOTE]
 >
->[API documentation](../../../sites/developing/using/ecommerce.md#api-documentation) is also available.
+>[API documentation](/help/sites/developing/using/ecommerce.md#api-documentation) is also available.
 
 The integration framework includes an integration layer with an API. This allows you to build AEM components for eCommerce capabilities (independent of your specific eCommerce engine). It also allows you to use the internal CRX database or to plug in an eCommerce system and pull product data into AEM.
 
@@ -327,11 +327,11 @@ public class AxisFilter implements VariantFilter {
 
 * Storage
 
-    * In the AEM-generic case carts of are stored in the [ClientContext](../../../sites/administering/using/client-context.md)
+    * In the AEM-generic case carts of are stored in the [ClientContext](/help/sites/administering/using/client-context.md)
 
 **Personalization**
 
-* Personalization should always be driven through the [ClientContext](../../../sites/administering/using/client-context.md).
+* Personalization should always be driven through the [ClientContext](/help/sites/administering/using/client-context.md).
 * A ClientContext `/version/` of the cart is created in all cases:
 
     * Products should be added by using the `CommerceSession.addCartEntry()` method.

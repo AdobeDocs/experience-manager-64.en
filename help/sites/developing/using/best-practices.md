@@ -19,29 +19,29 @@ Adobe Engineering and Consulting teams have developed a comprehensive set of bes
 
 Before you start your AEM development project, first review these best practices:
 
-* [Development Practices](../../../sites/developing/using/development-practices.md)
-* [Content Architecture](../../../sites/developing/using/content-architecture.md)
-* [Software Architecture](../../../sites/developing/using/software-architecture.md)
-* [Coding Tips](../../../sites/developing/using/coding-tips.md)
-* [Code Pitfalls](../../../sites/developing/using/code-pitfalls.md)
-* [JCR Interaction](../../../sites/developing/using/jcr-integration.md)
-* [OSGi Bundles](../../../sites/developing/using/osgi-bundles.md)
+* [Development Practices](/help/sites/developing/using/development-practices.md)
+* [Content Architecture](/help/sites/developing/using/content-architecture.md)
+* [Software Architecture](/help/sites/developing/using/software-architecture.md)
+* [Coding Tips](/help/sites/developing/using/coding-tips.md)
+* [Code Pitfalls](/help/sites/developing/using/code-pitfalls.md)
+* [JCR Interaction](/help/sites/developing/using/jcr-integration.md)
+* [OSGi Bundles](/help/sites/developing/using/osgi-bundles.md)
 
 ### Additional Best Practices Information {#additional-best-practices-information}
 
 The following areas have documentation available specific to developing best practices:
 
 * [Sites](#sites)
-* [Communities](../../../sites/developing/using/best-practices.md#communities)
-* [Tooling/HTL](../../../sites/developing/using/best-practices.md#tooling-htl)
+* [Communities](/help/sites/developing/using/best-practices.md#communities)
+* [Tooling/HTL](/help/sites/developing/using/best-practices.md#tooling-htl)
 
 Specific documents are described and linked to in the tables that follow.
 
 For best practices on administering, deploying and maintaining, or authoring, see one of the following:
 
-* [Administering best practices](../../../sites/administering/using/administer-best-practices.md)
-* [Authoring best practices](../../../sites/authoring/using/best-practices.md)
-* [Deploying best practices](../../../sites/deploying/using/best-practices.md)
+* [Administering best practices](/help/sites/administering/using/administer-best-practices.md)
+* [Authoring best practices](/help/sites/authoring/using/best-practices.md)
+* [Deploying best practices](/help/sites/deploying/using/best-practices.md)
 
 ## Sites {#sites}
 
@@ -74,13 +74,13 @@ Managing and authoring your website content has some best practices outlined as 
 
 ## Communities {#communities}
 
-[AEM Communities](../../../communities/using/overview.md) simplifies the creation and management of on-premise Communities.
+[AEM Communities](/help/communities/using/overview.md) simplifies the creation and management of on-premise Communities.
 
 Some best practices for Communities are described here:
 
-| Best practices for working with user generated content (UGC) | [Coding Guidelines](../../../communities/using/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](../../../communities/using/scf.md) (SCF). |
+| Best practices for working with user generated content (UGC) | [Coding Guidelines](/help/communities/using/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](/help/communities/using/scf.md) (SCF). |
 |---|---|---|
-| Example usage of Communities components | [Community Components Guide](../../../communities/using/components-guide.md) |An interactive development tool. |
+| Example usage of Communities components | [Community Components Guide](/help/$1/using/components-guide.md) |An interactive development tool. |
 
 ## Tooling/HTL {#tooling-htl}
 

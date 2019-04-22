@@ -18,8 +18,8 @@ This article describes the error messages that might be displayed while building
 
 The error messages described in this article are:
 
-* [Unsupported version of Gradle](../../../forms/using/wip/troubleshoot-aem-forms-android-app-build-issues.md#unsupported-version-of-gradle)
-* [Gradle and Android Gradle plug-in compatibility issues](../../../forms/using/wip/troubleshoot-aem-forms-android-app-build-issues.md#gradle-and-android-gradle-plug-in-compatibility-issues)
+* [Unsupported version of Gradle](/help/forms/using/wip/troubleshoot-aem-forms-android-app-build-issues.md#unsupported-version-of-gradle)
+* [Gradle and Android Gradle plug-in compatibility issues](/help/forms/using/wip/troubleshoot-aem-forms-android-app-build-issues.md#gradle-and-android-gradle-plug-in-compatibility-issues)
 
 ## Unsupported version of Gradle {#unsupported-version-of-gradle}
 

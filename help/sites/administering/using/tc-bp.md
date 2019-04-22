@@ -37,7 +37,7 @@ Creating or expanding a global web presence can be a complex process, but with g
 * There are two approaches to creating language masters: using language copies, and using MSM/live copies.
 
     * The language copy approach is the one used by AEM's out-of-the-box translation integration framework, and therefore it's the easiest way to get started. The framework provides a user interface that makes it initially easy to propagate and translate content changes from the main language (e.g. English) master to language masters. However, as the project grows, workflow automation becomes increasingly necessary to manage the translation of the increased number of pages and/or languages.
-    * The MSM/live copy approach may be an alternative for advanced uses cases, where sites are larger and more complex. Strong governance and workflow automation are necessary from the start to handle the complex inheritance relationships between English and language masters, and to reduce the risk of overwriting existing translations. This handling can be accomplished with the help of some translation connectors. See [MSM and Multilingual Sites](../../../sites/administering/using/msm-best-practices.md#msm-and-multilingual-websites) for more information.
+    * The MSM/live copy approach may be an alternative for advanced uses cases, where sites are larger and more complex. Strong governance and workflow automation are necessary from the start to handle the complex inheritance relationships between English and language masters, and to reduce the risk of overwriting existing translations. This handling can be accomplished with the help of some translation connectors. See [MSM and Multilingual Sites](/help/sites/administering/using/msm-best-practices.md#msm-and-multilingual-websites) for more information.
 
 * If your master language has global variations, an option is to use MSM to create a live copy from the global master to use for translation. For example, if global authoring is performed in a US English master, create an International English master as a live copy and basis for translation to other languages.
 * Use MSM to create country sites from the translated language masters and to roll out content to sites sharing the same language. For example, the French language master can be rolled out to France, Belgium, and Switzerland sites.
@@ -49,7 +49,7 @@ Creating or expanding a global web presence can be a complex process, but with g
 
     * Some LSPs are both service and technology providers. There are also standalone technology providers who allow many LSPs to participate in their translation platforms.
     * The** AEM Translation Framework** supports integration with a variety of translation technology providers for both machine and human translation.
-    * Learn how to [integrate LSP connectors in your AEM system](../../../sites/administering/using/translation.md) to automate content translation, or how to manually create, export and import Translation Projects for testing and in cases where there is no LSP or translation technology provider.
+    * Learn how to [integrate LSP connectors in your AEM system](/help/sites/administering/using/translation.md) to automate content translation, or how to manually create, export and import Translation Projects for testing and in cases where there is no LSP or translation technology provider.
 
 * Choose a **translation method** that best suits the content.
 

@@ -19,6 +19,6 @@ The following topics describe how to accomplish specific AEM deployment tasks:
 * [How to Purge Workflows and the Audit Log](https://helpx.adobe.com/experience-manager/kb/howtopurgewf.html)
 
 * [Performance Tuning Tips](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html)
-* [How to Remove Features From the Welcome Screen](../../../sites/developing/using/customizing-the-welcome-console.md)
+* [How to Remove Features From the Welcome Screen](/help/sites/developing/using/customizing-the-welcome-console.md)
 * [How to Turn Off the Location Tracker Feature](https://helpx.adobe.com/experience-manager/kb/turn-off-geolocation.html)
 

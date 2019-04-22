@@ -30,7 +30,7 @@ When you start your AEM Forms app, you first need to provide your login credenti
    >    
    >
 
-When you log in to the app, you are directed to the [**Home** screen](../../forms/using/home-screen.md).
+When you log in to the app, you are directed to the [**Home** screen](/help/forms/using/home-screen.md).
 
 >[!NOTE]
 >

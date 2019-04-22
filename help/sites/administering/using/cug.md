@@ -40,7 +40,7 @@ To create a closed user group:
 
    >[!NOTE]
    >
-   >See [Managing Users and Groups](../../../sites/administering/using/security.md#managing-users-and-groups) for full information on creating and configuring users and groups.
+   >See [Managing Users and Groups](/help/sites/administering/using/security.md#managing-users-and-groups) for full information on creating and configuring users and groups.
 
 1. Select the **Groups** card from the next screen.
 
@@ -84,7 +84,7 @@ To apply the CUG to a page:
 1. Assign a **Realm** (a name for the groups of pages) if required. Leave empty to use the page title.
 1. Click **OK** to save the specification.
 
-See [Identity Management](../../../sites/administering/using/identity-management.md) for information about profiles in the publish environment and providing forms for logging in and out.
+See [Identity Management](/help/sites/administering/using/identity-management.md) for information about profiles in the publish environment and providing forms for logging in and out.
 
 ## Linking To The Realm {#linking-to-the-realm}
 

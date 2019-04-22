@@ -25,7 +25,7 @@ When you develop the jsp script of a Granite UI component, it is recommended to 
 <%@include file="/libs/granite/ui/global.jsp"%>
 ```
 
-The global also declares the [Sling library](../../../sites/developing/using/taglib.md#sling-tag-library).
+The global also declares the [Sling library](/help/sites/developing/using/taglib.md#sling-tag-library).
 
 ```xml
 <%@taglib prefix="sling" uri="https://sling.apache.org/taglibs/sling" %>
@@ -252,7 +252,7 @@ Should you use `<cq:include>` or `<sling:include>`?
 
 >[!CAUTION]
 >
->`<cq:includeClientLib>` has been deprecated since AEM 5.6. [ `<ui:includeClientLib>`](../../../sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) should be used instead. ``
+>`<cq:includeClientLib>` has been deprecated since AEM 5.6. [ `<ui:includeClientLib>`](/help/sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) should be used instead. ``
 
 The `<cq:includeClientLib>` tag Includes a AEM html client library, which can be a js, a css or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the jsp. This tag is a convenience wrapper around the `com.day.cq.widget.HtmlLibraryManager` service interface.
 

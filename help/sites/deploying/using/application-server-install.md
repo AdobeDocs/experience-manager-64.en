@@ -18,7 +18,7 @@ discoiquuid: 6fdce35d-2709-41cc-87fb-27a4b867e960
 >`JAR` and `WAR` are the file types AEM is released in. These formats are undergoing quality assurance to accomodate the support levels Adobe has committed to.
 >
 
-This section tells you how to install Adobe Experience Manager (AEM) with an application server. Consult the [Supported Platforms](../../../sites/deploying/using/technical-requirements.md#servlet-engines-application-servers) section to see the specific support levels provided for the individual application servers.
+This section tells you how to install Adobe Experience Manager (AEM) with an application server. Consult the [Supported Platforms](/help/sites/deploying/using/technical-requirements.md#servlet-engines-application-servers) section to see the specific support levels provided for the individual application servers.
 
 The installation steps of the following Application Servers are described:
 
@@ -31,7 +31,7 @@ Consult the appropriate application server documentation for more information on
 
 >[!NOTE]
 >
->If you are using Dynamic Media in a WAR deployment, please see the [dynamic media documentation](../../../assets/using/config-dynamic.md#enabling-dynamic-media).
+>If you are using Dynamic Media in a WAR deployment, please see the [dynamic media documentation](/help/assets/using/config-dynamic.md#enabling-dynamic-media).
 
 ## General Description {#general-description}
 
@@ -254,5 +254,5 @@ Before a deployment read the [General Description](#general-description) above.
 
 For information on dealing with issues that may come up during installation, see:
 
-* [Troubleshooting](../../../sites/deploying/using/troubleshooting.md)
+* [Troubleshooting](/help/sites/deploying/using/troubleshooting.md)
 

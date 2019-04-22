@@ -22,5 +22,5 @@ discoiquuid: 2933e4da-93ea-481e-84f5-06fb95344e15
 
 >[!CAUTION]
 >
->The export feature is only available in the touch-optimized UI. See [Export to CSV](../../../sites/authoring/using/csv-export.md) in the standard authoring documentation for details.
+>The export feature is only available in the touch-optimized UI. See [Export to CSV](/help/sites/authoring/using/csv-export.md) in the standard authoring documentation for details.
 

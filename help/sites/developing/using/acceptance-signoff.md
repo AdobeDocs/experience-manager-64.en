@@ -13,7 +13,7 @@ discoiquuid: d8da194f-f161-4ba7-b8cc-c2c282dc9c83
 
 # Acceptance and Sign-off{#acceptance-and-sign-off}
 
-As mentioned, [Acceptance Tests](../../../sites/developing/using/planning.md) are a special category of test used to verify that the:
+As mentioned, [Acceptance Tests](/help/sites/developing/using/planning.md) are a special category of test used to verify that the:
 
 * Project fulfils the customer's requirements.
 * Customer accepts the project.

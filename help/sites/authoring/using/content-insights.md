@@ -32,17 +32,17 @@ The Content Insight page includes reports that use Adobe SiteCatalyst, Adobe Tar
 * Target: Reports on campaign activity for which your page includes offers.
 * BrightEdge: Reports on the page features that improve the visibility of the page to search engines, and recommends features that should be implemented.
 
-See [Opening Analytics and Recommendations for a Page](../../../sites/authoring/using/ci-analyze.md#opening-analytics-and-recommendations-for-a-page). **Reporting Period**
+See [Opening Analytics and Recommendations for a Page](/help/sites/authoring/using/ci-analyze.md#opening-analytics-and-recommendations-for-a-page). **Reporting Period**
 
 Reports show data for a period of time that you control. When you adjust the reporting period, the reports automatically refresh with data for that period. Visual cues indicate the time when page versions changed, so that you can compare the performance of each version.
 
 You can also specify the granularity of the reported data, for example you can see daily, weekly, monthly, or yearly data.
 
-See [Changing the Reporting Period](../../../sites/authoring/using/ci-analyze.md#changing-the-reporting-period).
+See [Changing the Reporting Period](/help/sites/authoring/using/ci-analyze.md#changing-the-reporting-period).
 
 >[!NOTE]
 >
->The Content Insights reports require that your administrator has integrated AEM with SiteCatalyst, Target, and BrightEdge. See [Integrating with SightCatalyst](../../../sites/administering/using/adobeanalytics.md), [Integrating with Adobe Target](../../../sites/administering/using/target.md), and [Integrating with BrightEdge](../../../sites/administering/using/brightedge.md).
+>The Content Insights reports require that your administrator has integrated AEM with SiteCatalyst, Target, and BrightEdge. See [Integrating with SightCatalyst](/help/sites/administering/using/adobeanalytics.md), [Integrating with Adobe Target](/help/sites/administering/using/target.md), and [Integrating with BrightEdge](/help/sites/administering/using/brightedge.md).
 
 ## The Views Report {#the-views-report}
 
@@ -87,7 +87,7 @@ For each campaign for which the page is active, a report appears named *Campaign
 
 The SEO Recommendations report contains the results of the BrightEdge analysis for the page. The report is a checklist of page features that indicates which features the page does and does not include for maximizing the findability using search engines.
 
-The report enables you to create tasks so that improvements are made to improve page findability. Recommendations indicate that tasks have been created for implementing the recommendation. See [Assigning Tasks for SEO Recommendations](../../../sites/authoring/using/ci-analyze.md#assigning-tasks-for-seo-recommendations).
+The report enables you to create tasks so that improvements are made to improve page findability. Recommendations indicate that tasks have been created for implementing the recommendation. See [Assigning Tasks for SEO Recommendations](/help/sites/authoring/using/ci-analyze.md#assigning-tasks-for-seo-recommendations).
 
 ![](assets/chlimage_1-317.png)
 

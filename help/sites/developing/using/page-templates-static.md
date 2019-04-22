@@ -17,12 +17,12 @@ A Template is used to create a Page and defines which components can be used wit
 
 Each Template will present you with a selection of components available for use.
 
-* Templates are built up of [Components](../../../sites/developing/using/components.md);
+* Templates are built up of [Components](/help/sites/developing/using/components.md);
 * Components use, and allow access to, Widgets and these are used to render the Content.
 
 >[!NOTE]
 >
->[Editable templates](../../../sites/developing/using/page-templates-editable.md) are also available and are the recommended type of templates for most flexibility and the newest features.
+>[Editable templates](/help/sites/developing/using/page-templates-editable.md) are also available and are the recommended type of templates for most flexibility and the newest features.
 
 ## Properties and Child Nodes of a Template {#properties-and-child-nodes-of-a-template}
 
@@ -164,15 +164,15 @@ To enable an existing template for your website and you want it to be displayed 
 
 ## How Template Designs are Applied {#how-template-designs-are-applied}
 
-When styles are defined in the UI using [Design Mode](../../../sites/authoring/using/default-components-designmode.md), the design is persisted at the exact path of the content node for which the style is being defined.
+When styles are defined in the UI using [Design Mode](/help/sites/authoring/using/default-components-designmode.md), the design is persisted at the exact path of the content node for which the style is being defined.
 
 >[!CAUTION]
 >
->Adobe recommends only applying designs through [Design Mode](../../../sites/authoring/using/default-components-designmode.md).
+>Adobe recommends only applying designs through [Design Mode](/help/sites/authoring/using/default-components-designmode.md).
 >
 >Modifying designs in CRX DE for example is not best practice and the application of such designs can vary from expected behavior.
 
-If designs are only applied using Design Mode, then the following sections, [Design Path Resolution](../../../sites/developing/using/page-templates-static.md#design-path-resolution), [Decision Tree](../../../sites/developing/using/page-templates-static.md#decision-tree), and the [Example](../../../sites/developing/using/page-templates-static.md#example) are not applicable.
+If designs are only applied using Design Mode, then the following sections, [Design Path Resolution](/help/sites/developing/using/page-templates-static.md#design-path-resolution), [Decision Tree](/help/sites/developing/using/page-templates-static.md#decision-tree), and the [Example](/help/sites/developing/using/page-templates-static.md#example) are not applicable.
 
 >[!NOTE]
 >
@@ -192,7 +192,7 @@ In the last two cases, if there is more than one applicable design, use the one 
 
 ### Decision Tree {#decision-tree}
 
-This is a graphical representation of the [Design Path Resolution](../../../sites/developing/using/page-templates-static.md#design-path-resolution) logic.
+This is a graphical representation of the [Design Path Resolution](/help/sites/developing/using/page-templates-static.md#design-path-resolution) logic.
 
 ![](assets/design_path_resolution.png) 
 
@@ -277,7 +277,7 @@ To create a new template based on an existing template:
 
    >[!NOTE]
    >
-   >The list of available templates depends on the location of the new page and the restrictions on placement specified in each template. See [Template Availability](../../../sites/developing/using/templates.md#template-availability).
+   >The list of available templates depends on the location of the new page and the restrictions on placement specified in each template. See [Template Availability](/help/sites/developing/using/templates.md#template-availability).
 
 1. Change the **jcr:title** of the new template node to reflect its new role. You can also update the **jcr:description** if appropriate. Be sure to change the template availability of the page as appropriate.
 
@@ -311,14 +311,14 @@ To create a new template based on an existing template:
 >
 >All sample content pages contain `cq.shared`, so any content based on them automatically includes `cq.shared`. However, if you decide to create your own content pages from scratch without basing them on sample content, you must make sure to include the `cq.shared` namespace.
 >
->See [Using Client-Side Libraries](../../../sites/developing/using/clientlibs.md) for further information.
+>See [Using Client-Side Libraries](/help/sites/developing/using/clientlibs.md) for further information.
 
 ## Making an Existing Template Available {#making-an-existing-template-available}
 
-This example illustrates how to allow a template to be used for certain content paths. The templates that are available to the page author when creating new pages are determined by the logic defined in [Template Availability](../../../sites/developing/using/templates.md#template-availability).
+This example illustrates how to allow a template to be used for certain content paths. The templates that are available to the page author when creating new pages are determined by the logic defined in [Template Availability](/help/sites/developing/using/templates.md#template-availability).
 
 1. In CRXDE Lite, navigate to the template you want to use for your page, for example, the Newsletter template.
-1. Change the `allowedPaths` property and other properties used for [template availabillity](../../../sites/developing/using/templates.md#template-availability). For example, `allowedPaths`: `/content/geometrixx-outdoors/[^/]+(/.*)?` means that this template is allowed in any path under `/content/geometrixx-outdoors`.
+1. Change the `allowedPaths` property and other properties used for [template availabillity](/help/sites/developing/using/templates.md#template-availability). For example, `allowedPaths`: `/content/geometrixx-outdoors/[^/]+(/.*)?` means that this template is allowed in any path under `/content/geometrixx-outdoors`.
 
    ![](assets/chlimage_1-252.png)
 

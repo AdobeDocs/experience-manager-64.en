@@ -13,7 +13,7 @@ discoiquuid: 68fa88c5-a759-49fa-ab9b-8dc63c049d5f
 
 # Keyboard Shortcuts when Editing Pages{#keyboard-shortcuts-when-editing-pages}
 
-Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the [use of consoles](../../../sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md).
+Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the [use of consoles](/help/sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md).
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
  </tbody> 
 </table>
 
-Various keyboard shortcuts are also available for desktop users when using the [consoles](../../../sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md).
+Various keyboard shortcuts are also available for desktop users when using the [consoles](/help/sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md).
 
 ## Keyboard Shortcuts for Development {#keyboard-shortcuts-for-development}
 

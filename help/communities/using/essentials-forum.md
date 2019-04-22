@@ -46,7 +46,7 @@ This page provides the essential information for working with the forum feature.
  </tbody>
 </table>
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -54,25 +54,25 @@ This page provides the essential information for working with the forum feature.
 
 * [Forum Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/forum/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 
 ### Forum Function {#forum-function}
 
-A community site structure that includes the [Forum function](../../communities/using/functions.md#forum-function), includes a configured `forum` component, as well as settings affecting moderation, tagging and translation.
+A community site structure that includes the [Forum function](/help/communities/using/functions.md#forum-function), includes a configured `forum` component, as well as settings affecting moderation, tagging and translation.
 
 ### Accessing Forum Posts (UGC) {#accessing-forum-posts-ugc}
 
 UGC should be moderated using one of the standard methods for moderation.  
-See [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+See [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
-As of AEM 6.1 Communities, use of a [common store](../../communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
+As of AEM 6.1 Communities, use of a [common store](/help/communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
 See:
 
-* [Storage Resource Provider Overview](../../communities/using/srp.md) - introduction and repository usage overview
-* [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](../../communities/using/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](../../communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Storage Resource Provider Overview](/help/communities/using/srp.md) - introduction and repository usage overview
+* [SRP and UGC Essentials](/help/communities/using/srp-and-ugc.md) - SRP utility methods and examples
+* [Accessing UGC with SRP](/help/communities/using/accessing-ugc-with-srp.md) - coding guidelines
+* [SocialUtils Refactoring](/help/communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
 

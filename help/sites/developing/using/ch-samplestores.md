@@ -29,7 +29,7 @@ Store for resolved and unresolved ContextHub segments. Automatically retrieves s
 
 **Base Implementation**
 
-The aem.segmentation store candidate extends ` [ContextHub.Store.PersistedJSONPStore](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore)`.
+The aem.segmentation store candidate extends ` [ContextHub.Store.PersistedJSONPStore](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore)`.
 
 **Configuration**
 
@@ -55,7 +55,7 @@ Stores the currently resolved segments. Listens to the ContextHub SegmentManager
 
 **Base Implementation**
 
-The aem.resolvedsegments store candidate extends ` [ContextHub.Store.SessionStore](../../../sites/developing/using/contexthub-api.md#contexthub-store-sessionstore)`.
+The aem.resolvedsegments store candidate extends ` [ContextHub.Store.SessionStore](/help/sites/developing/using/contexthub-api.md#contexthub-store-sessionstore)`.
 
 **Configuration**
 
@@ -82,7 +82,7 @@ Stores current date and time information of the client.
 
 **Base Implementation**
 
-The contexthub.datetime store candidate extends ` [ContextHub.Store.PersistedStore](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedstore)`.
+The contexthub.datetime store candidate extends ` [ContextHub.Store.PersistedStore](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedstore)`.
 
 **Configuration**
 
@@ -132,7 +132,7 @@ Stores that use this store candidate have a data tree that is similar to the fol
 
 ## contexthub.generic-jsonp Sample Store Candidate {#contexthub-generic-jsonp-sample-store-candidate}
 
-Stores data from a JSONP service. For an example of a store configuration for this store candidate, see [Creating a contexthub.generic-jsonp Store](../../../sites/administering/using/contexthub-config.md#creating-a-contexthub-generic-jsonp-store).
+Stores data from a JSONP service. For an example of a store configuration for this store candidate, see [Creating a contexthub.generic-jsonp Store](/help/sites/administering/using/contexthub-config.md#creating-a-contexthub-generic-jsonp-store).
 
 **Source Location**
 
@@ -140,7 +140,7 @@ Stores data from a JSONP service. For an example of a store configuration for th
 
 **Base Implementation**
 
-The contexthub.datetime store candidate extends [ `ContextHub.Store.PersistedJSONPStore`](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore).
+The contexthub.datetime store candidate extends [ `ContextHub.Store.PersistedJSONPStore`](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore).
 
 **Configuration**
 
@@ -176,7 +176,7 @@ The contexthub.geolocation sample store candidate uses Google Maps to obtain and
 
 **Base Implementation**
 
-The contexthub.geolocation store candidate extends [ `ContextHub.Store.PersistedJSONPStore`](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore).
+The contexthub.geolocation store candidate extends [ `ContextHub.Store.PersistedJSONPStore`](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore).
 
 **Configuration**
 
@@ -234,7 +234,7 @@ Stores information about the current client environment such as the device, wind
 
 **Base Implementation**
 
-The contexthub.datetime store candidate extends [ `ContextHub.Store.PersistedStore`](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedstore).
+The contexthub.datetime store candidate extends [ `ContextHub.Store.PersistedStore`](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedstore).
 
 **Configuration**
 
@@ -301,7 +301,7 @@ The granite.tagcloud sample store candidate stores information about tag usage. 
 
 **Base Implementation**
 
-The contexthub.geolocation store candidate extends [ `ContextHub.Store.PersistedStore`](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedstore).
+The contexthub.geolocation store candidate extends [ `ContextHub.Store.PersistedStore`](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedstore).
 
 **Configuration**
 
@@ -358,7 +358,7 @@ The granite.emulators sample store candidate stores information about client dev
 
 **Base Implementation**
 
-The contexthub.geolocation store candidate extends [ `ContextHub.Store.PersistedStore`](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedstore).
+The contexthub.geolocation store candidate extends [ `ContextHub.Store.PersistedStore`](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedstore).
 
 **Configuration**
 
@@ -492,7 +492,7 @@ Stores information about the current user.
 
 **Base Implementation**
 
-The contexthub.datetime store candidate extends [ `ContextHub.Store.PersistedJSONPStore`](../../../sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore).
+The contexthub.datetime store candidate extends [ `ContextHub.Store.PersistedJSONPStore`](/help/sites/developing/using/contexthub-api.md#contexthub-store-persistedjsonpstore).
 
 **Configuration**
 

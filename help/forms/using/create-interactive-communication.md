@@ -21,10 +21,10 @@ Interactive Communications centralize and manages the creation, assembly, and de
 
 The following are the prerequisites for creating an Interactive Communication:
 
-* Set up a [Form Data Model](../../forms/using/data-integration.md) containing test data or with an actual data source, such as an instance of Microsoft® Dynamics. 
-* Ensure that you have the [Document fragments](../../forms/using/document-fragments.md).
-* Ensure that you have [Templates for print and web channel](../../forms/using/web-channel-print-channel.md).
-* Ensure that you have the required [theme](../../forms/using/themes.md) for the web channel.
+* Set up a [Form Data Model](/help/forms/using/data-integration.md) containing test data or with an actual data source, such as an instance of Microsoft® Dynamics. 
+* Ensure that you have the [Document fragments](/help/forms/using/document-fragments.md).
+* Ensure that you have [Templates for print and web channel](/help/forms/using/web-channel-print-channel.md).
+* Ensure that you have the required [theme](/help/forms/using/themes.md) for the web channel.
 
 ## Create Interactive Communication {#createic}
 
@@ -39,7 +39,7 @@ The following are the prerequisites for creating an Interactive Communication:
     * **[!UICONTROL Title]**: Enter the title of the Interactive Communication.
     * **[!UICONTROL Name*]**: The name of the Interactive Communication is derived from the title you enter. Edit it, if necessary. 
     * **[!UICONTROL Description]**: Enter a description about the Interactive Communication. 
-    * **[!UICONTROL Form Data Model*]**: Browse and select the form data model. For more information on Form Data Model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+    * **[!UICONTROL Form Data Model*]**: Browse and select the form data model. For more information on Form Data Model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
     
     * **[!UICONTROL Prefill Service]**: Select the prefill service to retrieve the data and prefill the Interactive Communication. 
     * **[!UICONTROL Post Process Type]**: You can select AEM or Forms workflow to be triggered when the Interactive Communication is submitted. Select the type of the workflow to be triggered.  
@@ -55,23 +55,23 @@ The following are the prerequisites for creating an Interactive Communication:
 
     * **[!UICONTROL Print]**: Select this option to generate the print channel of the Interactive Communication. 
     * **[!UICONTROL Print Template*:]** Browse and select an XDP as the print template.
-    * **[!UICONTROL Use Print As Master For Web Channel:]** Select this option to create the web channel in sync with the print channel. Using print channel as master for web channel ensures the content and data binding of the web channel is derived from the print channel and the changes made in the print channel are reflected in the web channel when you tap Synchronize. The authors are, however, allowed to break the inheritance for specific components in the web channel, as required. For more information, see [Synchronize Web channel with Print channel](../../forms/using/create-interactive-communication.md#synchronize). 
+    * **[!UICONTROL Use Print As Master For Web Channel:]** Select this option to create the web channel in sync with the print channel. Using print channel as master for web channel ensures the content and data binding of the web channel is derived from the print channel and the changes made in the print channel are reflected in the web channel when you tap Synchronize. The authors are, however, allowed to break the inheritance for specific components in the web channel, as required. For more information, see [Synchronize Web channel with Print channel](/help/forms/using/create-interactive-communication.md#synchronize). 
     
     * **[!UICONTROL Web:]** Select this option to generate the web channel or the responsive output of Interactive Communication. 
     * **[!UICONTROL Interactive Communication Web Template*:]** Browse and select the web template. 
-    * **[!UICONTROL Theme]** and **[!UICONTROL Select Theme*]**: Browse and select the theme to style the web channel of the Interactive Communication. For more information, see [Themes in AEM Forms](../../forms/using/themes.md).
+    * **[!UICONTROL Theme]** and **[!UICONTROL Select Theme*]**: Browse and select the theme to style the web channel of the Interactive Communication. For more information, see [Themes in AEM Forms](/help/forms/using/themes.md).
 
-   For more information on print channel and web channel, see [Print channel and web channel](../../forms/using/web-channel-print-channel.md).
+   For more information on print channel and web channel, see [Print channel and web channel](/help/forms/using/web-channel-print-channel.md).
 
-1. Tap **[!UICONTROL Create]**. The Interactive Communication is created and an alert box appears. Tap **[!UICONTROL Edit]** to start building the contents of the Interactive Communication as explained in [Add contents using Interactive Communication authoring user interface](#step2). Alternatively, you can tap **[!UICONTROL Done]** and choose to edit the Interactive Communication later. [](../../forms/using/create-interactive-communication.md#main-pars-header-741471925)
+1. Tap **[!UICONTROL Create]**. The Interactive Communication is created and an alert box appears. Tap **[!UICONTROL Edit]** to start building the contents of the Interactive Communication as explained in [Add contents using Interactive Communication authoring user interface](#step2). Alternatively, you can tap **[!UICONTROL Done]** and choose to edit the Interactive Communication later. [](/help/forms/using/create-interactive-communication.md#main-pars-header-741471925)
 
 ## Add content to the Interactive Communication {#step2}
 
 After you have created an Interactive Communication, you can use the Interactive Communication authoring interface to construct its contents.
 
-For more information on the Interactive Communication authoring interface, see [Introduction to Interactive Communication authoring](../../forms/using/introduction-interactive-communication-authoring.md).
+For more information on the Interactive Communication authoring interface, see [Introduction to Interactive Communication authoring](/help/forms/using/introduction-interactive-communication-authoring.md).
 
-1. The Interactive Communication authoring interface is launched when you Tap Edit as mentioned in [Create Interactive Communication](#createic). Alternatively, you can navigate to an existing Interactive Communication asset on AEM, select it, and tap **[!UICONTROL Edit]** to launch the Interactive Communication authoring interface. [](../../forms/using/create-interactive-communication.md#main-pars-header-1736797097)
+1. The Interactive Communication authoring interface is launched when you Tap Edit as mentioned in [Create Interactive Communication](#createic). Alternatively, you can navigate to an existing Interactive Communication asset on AEM, select it, and tap **[!UICONTROL Edit]** to launch the Interactive Communication authoring interface. [](/help/forms/using/create-interactive-communication.md#main-pars-header-1736797097)
 
    By default, the print channel of the Interactive Communication appears, unless the Interactive Communication is web-channel-only. The Print channel of the Interactive Communication displays target areas, as available in the selected XDP/print channel template. In these target areas and fields, you can add components or assets. 
 
@@ -79,7 +79,7 @@ For more information on the Interactive Communication authoring interface, see [
 
    | **Component** |**Functionality** |
    |---|---|
-   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from an form data model collection. For more information, see [Using charts in Interactive Communications](../../forms/using/chart-component-interactive-communications.md). |
+   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from an form data model collection. For more information, see [Using charts in Interactive Communications](/help/forms/using/chart-component-interactive-communications.md). |
    | Document Fragment |Allows you to add a reusable component, such as text, list, or condition, to an Interactive Communication. The added component could be either form data model-based or without a form data model. |
    | Image |Allows you to insert an image. |
 
@@ -114,7 +114,7 @@ For more information on the Interactive Communication authoring interface, see [
  </tbody> 
 </table>
 
-   For more information on document fragments, see [Document Fragments](../../forms/using/document-fragments.md). 
+   For more information on document fragments, see [Document Fragments](/help/forms/using/document-fragments.md). 
 
 1. To set up binding of variables, tap a variable and select ![](assets/configure_icon.png) (Configure) and then set up the binding properties in the Properties panel in the sidebar.
 
@@ -128,25 +128,25 @@ For more information on the Interactive Communication authoring interface, see [
 
    Example: A layout table to display gross premium, loyalty discount %, and emergency roadside assistance availability for old and the new policies.
 
-   For more information on layout fragments, see [Document Fragments](../../forms/using/document-fragments.md). 
+   For more information on layout fragments, see [Document Fragments](/help/forms/using/document-fragments.md). 
 
 1. With the print channel selected, in the **[!UICONTROL Assets]** tab apply the filter to display images. Drag-and-drop the required images to the Interactive Communication, such as for company logo.
 
    Further, manage the following in the Interactive Communication:
 
-    * [Adding and configuring charts](../../forms/using/chart-component-interactive-communications.md)
-    * [Sychronizing web channel with the print channel](../../forms/using/create-interactive-communication.md#synchronize)
+    * [Adding and configuring charts](/help/forms/using/chart-component-interactive-communications.md)
+    * [Sychronizing web channel with the print channel](/help/forms/using/create-interactive-communication.md#synchronize)
 
         * Auto sync
         * Cancel inheritance
         * Re-enable inheritance
         * Synchronize
 
-    * [Attachments and library access](../../forms/using/create-interactive-communication.md#attachmentslibrary)
-    * [XDP/Layout field properties](../../forms/using/create-interactive-communication.md#xdplayoutfieldproperties)
-    * [Add rules to components](../../forms/using/create-interactive-communication.md#rules)
+    * [Attachments and library access](/help/forms/using/create-interactive-communication.md#attachmentslibrary)
+    * [XDP/Layout field properties](/help/forms/using/create-interactive-communication.md#xdplayoutfieldproperties)
+    * [Add rules to components](/help/forms/using/create-interactive-communication.md#rules)
 
-1. Switch to **[!UICONTROL Web Channel]**. The web channel appears in the Interactive Communication editor. When you switch from the Print channel to the Web channel for the first time, the automatic synchornization takes place. For more information, see [Synchronizing web channel from the print channel](../../forms/using/create-interactive-communication.md#synchronize).
+1. Switch to **[!UICONTROL Web Channel]**. The web channel appears in the Interactive Communication editor. When you switch from the Print channel to the Web channel for the first time, the automatic synchornization takes place. For more information, see [Synchronizing web channel from the print channel](/help/forms/using/create-interactive-communication.md#synchronize).
 
    Since we are using Print as master for the web in this example, the Print channel placeholders, content, and data binding get synced to the web channel. However, you can change and customize the specific content in the web channel as required. 
 
@@ -156,7 +156,7 @@ For more information on the Interactive Communication authoring interface, see [
 
    | Components |Functionality |
    |---|---|
-   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from a form data model collection. For more information, see [Using chart component](../../forms/using/chart-component-interactive-communications.md). |
+   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from a form data model collection. For more information, see [Using chart component](/help/forms/using/chart-component-interactive-communications.md). |
    | Document Fragment |Allows you to add a reusable component, text, list, or condition, to an Interactive Communication. The reusable component you add to an Interactive Communication could be either form data model-based or without a form data model. |
    | Image |Allows you to insert an image. |
    | Panel |The Panel component is a placeholder for grouping other components together and controls how a group of components, such as accordion and tabs, are laid out in the Interactive Communication. A panel component also allows you to make a group of components repeatable for the end user, such as in multiple entries required for filling in educational credentials.  |
@@ -176,13 +176,13 @@ You can use the **Preview option **to evaluate appearance of the Interactive Com
 
    >[!NOTE]
    >
-   >The preview is populated with the specified form data model's sample data. For more information on previewing the Interactive Communication with some other data or using the prefill service, see [Use form data model](../../forms/using/using-form-data-model.md) and [Work with form data model](../../forms/using/work-with-form-data-model.md).
+   >The preview is populated with the specified form data model's sample data. For more information on previewing the Interactive Communication with some other data or using the prefill service, see [Use form data model](/help/forms/using/using-form-data-model.md) and [Work with form data model](/help/forms/using/work-with-form-data-model.md).
 
 1. For the web channel, use ![](assets/ruler.png) to view how the Interactive Communication looks on various devices.
 
    ![](assets/webchannelpreview.png)
 
-Further, you can [Prepare and send Interactive Communication using the Agent UI](../../forms/using/prepare-send-interactive-communication.md).
+Further, you can [Prepare and send Interactive Communication using the Agent UI](/help/forms/using/prepare-send-interactive-communication.md).
 
 ## Configuring properties in Interactive Communication  {#configuring-properties-in-interactive-communication}
 
@@ -245,8 +245,8 @@ To conditionalize components or content in the interactive communcation, tap the
 
 For more information, see:
 
-* [Rule Editor](../../forms/using/rule-editor.md)
-* [Introduction to Interactive Communication authoring](../../forms/using/introduction-interactive-communication-authoring.md)
+* [Rule Editor](/help/forms/using/rule-editor.md)
+* [Introduction to Interactive Communication authoring](/help/forms/using/introduction-interactive-communication-authoring.md)
 
 ## Using tables {#tables}
 

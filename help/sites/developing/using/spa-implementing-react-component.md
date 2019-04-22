@@ -23,7 +23,7 @@ Thanks to the simple and lightweight contract that is required by AEM and establ
 
 This article illustrates the example of the weather component on the We.Retail Journal sample SPA.
 
-You should be familiar with the [structure of an SPA application for AEM](../../../sites/developing/using/spa-getting-started-react.md) before reading this article.
+You should be familiar with the [structure of an SPA application for AEM](/help/sites/developing/using/spa-getting-started-react.md) before reading this article.
 
 ## The Weather Component {#the-weather-component}
 
@@ -116,4 +116,4 @@ Although a back-end component must already exist, the front-end developer can le
 
 ## Next Step {#next-step}
 
-For further information about developing SPAs for AEM see the article [Developing SPAs for AEM](../../../sites/developing/using/spa-architecture.md).
+For further information about developing SPAs for AEM see the article [Developing SPAs for AEM](/help/sites/developing/using/spa-architecture.md).

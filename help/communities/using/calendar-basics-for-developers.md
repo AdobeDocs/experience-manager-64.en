@@ -47,7 +47,7 @@ This page provides essential information on working with the calendar feature.
  </tbody>
 </table>
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -55,22 +55,22 @@ This page provides essential information on working with the calendar feature.
 
 * [Calendar Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 
 ### Calendar Function {#calendar-function}
 
-A community site structure that includes the [Calendar function](../../communities/using/functions.md#calendar-function) will have a configured c `alendar`component. The Calendar function supports identifying a [privileged member user group](../../communities/using/users.md#privileged-members-group).
+A community site structure that includes the [Calendar function](/help/communities/using/functions.md#calendar-function) will have a configured c `alendar`component. The Calendar function supports identifying a [privileged member user group](/help/communities/using/users.md#privileged-members-group).
 
 ### Accessing Calendar Posts (UGC) {#accessing-calendar-posts-ugc}
 
-As of AEM 6.1 Communities, use of a [common store](../../communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
+As of AEM 6.1 Communities, use of a [common store](/help/communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
 See:
 
-* [Storage Resource Provider Overview](../../communities/using/srp.md) - introduction and repository usage overview
-* [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](../../communities/using/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](../../communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Storage Resource Provider Overview](/help/communities/using/srp.md) - introduction and repository usage overview
+* [SRP and UGC Essentials](/help/communities/using/srp-and-ugc.md) - SRP utility methods and examples
+* [Accessing UGC with SRP](/help/communities/using/accessing-ugc-with-srp.md) - coding guidelines
+* [SocialUtils Refactoring](/help/communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
 

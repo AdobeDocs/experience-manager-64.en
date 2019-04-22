@@ -15,7 +15,7 @@ discoiquuid: 482b5eb0-1b15-4f10-a9d8-3b72dd74acf8
 
 >[!CAUTION]
 >
->With version 6.4 of AEM, the [Classic UI is deprecated](../release-notes/deprecated-removed-features.md). Adobe does not plan to make further enhancements to the Classic UI and users are encouraged to leverage the powerful new features available under the touch-enabled UI.
+>With version 6.4 of AEM, the [Classic UI is deprecated](/help/release-notes/deprecated-removed-features.md). Adobe does not plan to make further enhancements to the Classic UI and users are encouraged to leverage the powerful new features available under the touch-enabled UI.
 
 Starting with version 6.0, AEM introduced a new user interface referred to as the "touch-enabled UI" (also known simply as "touch UI") that is aligned to the Adobe Marketing Cloud and to the overall Adobe user interface guidelines. With near feature partity reached, this has become the standard UI in AEM with the legacy, desktop-oriented interface referred to as "classic UI."
 
@@ -23,7 +23,7 @@ While most capabilities are present in the touch-enabled UI, there are features 
 
 The following list shows the current status of the capabilities as implemented in AEM 6.4.
 
-For recommendations for customers that upgrade to AEM 6.4, please see [User Interface Recommendations for Customers](../sites/deploying/using/ui-recommendations.md) for details.
+For recommendations for customers that upgrade to AEM 6.4, please see [User Interface Recommendations for Customers](/help/sites/deploying/using/ui-recommendations.md) for details.
 
 >[!NOTE]
 >

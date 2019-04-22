@@ -15,7 +15,7 @@ discoiquuid: 8d14017d-d311-45e9-8aea-4a5ca46f1a07
 
 >[!NOTE]
 >
->This article describes how to create a website using JSP and based on the classic UI. Adobe recommends leveraging the latest AEM technologies for your websites as described in detail in the article [Getting Started Developing AEM Sites](../../../sites/developing/using/getting-started.md).
+>This article describes how to create a website using JSP and based on the classic UI. Adobe recommends leveraging the latest AEM technologies for your websites as described in detail in the article [Getting Started Developing AEM Sites](/help/sites/developing/using/getting-started.md).
 
 This tutorial enables you to create a fully featured website with Adobe Experience Manager (AEM). The website will be based on a generic website and is targeted primarily at web developers. All development will take place within an author environment.
 
@@ -43,7 +43,7 @@ After performing all the steps, your pages will look as follows:
 
 **Download the final result**
 
-To follow along with the tutorial rather than performing the exercises, download website-1.0.zip. This file is an AEM content package that contains the results of this tutorial. Use [Package Manager](../../../sites/administering/using/package-manager.md) to install the package to your author instance.
+To follow along with the tutorial rather than performing the exercises, download website-1.0.zip. This file is an AEM content package that contains the results of this tutorial. Use [Package Manager](/help/sites/administering/using/package-manager.md) to install the package to your author instance.
 
 **NOTE:** Installing this package will overwrite any resources on your authoring instance that you have created using this tutorial.
 
@@ -53,7 +53,7 @@ Website content package
 
 ## Installing Adobe Experience Manager {#installing-adobe-experience-manager}
 
-To install an AEM instance for developing your website, follow the instructions for setting up a [deployment environment with author and publish instances](../../../sites/deploying/using/deploy.md#author-and-publish-installs), or perform a [generic installation](../../../sites/deploying/using/deploy.md#default-local-install). The generic installation involves downloading the AEM Quickstart JAR file, placing the license.properties file in the same directory as the JAR file, and double-clicking the JAR file.
+To install an AEM instance for developing your website, follow the instructions for setting up a [deployment environment with author and publish instances](/help/sites/deploying/using/deploy.md#author-and-publish-installs), or perform a [generic installation](/help/sites/deploying/using/deploy.md#default-local-install). The generic installation involves downloading the AEM Quickstart JAR file, placing the license.properties file in the same directory as the JAR file, and double-clicking the JAR file.
 
 After you have installed AEM, access the CRXDE Lite development environment by clicking the CRXDE Lite link on the Welcome page: 
 
@@ -97,7 +97,7 @@ Sample static.css file and images
 
 1. If the mywebsite item does not appear in the table, refresh the tree or the table.  
 
-1. [Using WebDAV](../../../sites/administering/using/webdav-access.md) access to the URL at http://localhost:4502, copy the sample `static.css` file and `images` folder from the downloaded mywebsite.zip file into the `/etc/designs/mywebsite` folder. 
+1. [Using WebDAV](/help/sites/administering/using/webdav-access.md) access to the URL at http://localhost:4502, copy the sample `static.css` file and `images` folder from the downloaded mywebsite.zip file into the `/etc/designs/mywebsite` folder. 
 
    ![](assets/chlimage_1-103.png)
 
@@ -485,7 +485,7 @@ The Page component defines properties that enable you to provide subtitles for p
 
 Enhance the rendering script of the topnav component to use image links instead of hypertext for the navigation controls. The image includes the title and subtitle of the link target.
 
-This exercise demonstrates [Sling request processing](../../../sites/developing/using/the-basics.md#sling-request-processing). The topnav.jsp script is modified to call a script that dynamically generates images to use for the page navigation links. In this exercise, Sling parses the URL of image source files to determine the script to use to render the images.
+This exercise demonstrates [Sling request processing](/help/sites/developing/using/the-basics.md#sling-request-processing). The topnav.jsp script is modified to call a script that dynamically generates images to use for the page navigation links. In this exercise, Sling parses the URL of image source files to determine the script to use to render the images.
 
 For example, the source for the image link to the Products page could be http://localhost:4502/content/mywebsite/en/products.navimage.png. Sling parses this URL to determine the resource type and the script to use to render the resource:
 

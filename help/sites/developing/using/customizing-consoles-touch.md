@@ -17,7 +17,7 @@ discoiquuid: 221ed05b-855d-4dc2-9df6-12fdeabb157a
 >
 >This document describes how to customize consoles in the modern, touch-enabled UI and does not apply to the classic UI.
 
-AEM provides various mechanisms to enable you to customize the consoles (and the [page authoring functionality](../../../sites/developing/using/customizing-page-authoring-touch.md)) of your authoring instance.
+AEM provides various mechanisms to enable you to customize the consoles (and the [page authoring functionality](/help/sites/developing/using/customizing-page-authoring-touch.md)) of your authoring instance.
 
 * Clientlibs  
   Clientlibs allow you to extend the default implementation to realize new functionality, while reusing the standard functions, objects, and methods. When customizing, you can create your own clientlib under `/apps.` For example it can hold the code required for your custom component.  
@@ -31,8 +31,8 @@ These can be used in many ways to extend your AEM consoles. A small selection ar
 >
 >For further information see:
 >
->* Using and creating [clientlibs](../../../sites/developing/using/clientlibs.md).
->* Using and creating [overlays](../../../sites/developing/using/overlays.md).
+>* Using and creating [clientlibs](/help/sites/developing/using/clientlibs.md).
+>* Using and creating [overlays](/help/sites/developing/using/overlays.md).
 >* [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html) 
 >
 >This topic is also covered in the [AEM Gems](https://docs.adobe.com/content/ddc/en/gems.html) session - [User interface customization for AEM 6.0](https://docs.adobe.com/content/ddc/en/gems/user-interface-customization-for-aem-6.html).
@@ -86,7 +86,7 @@ Various packages have been made available on Github. These provide code samples 
 
 ### aem-admin-extension-new-console {#aem-admin-extension-new-console}
 
-`aem-admin-extension-new-console` is a sample package showing how to [create a new AEM 6 console](#create-a-custom-console). This package provides a UI for managing [Launches](../../../sites/authoring/using/launches.md) and adds a link in the navigation:
+`aem-admin-extension-new-console` is a sample package showing how to [create a new AEM 6 console](#create-a-custom-console). This package provides a UI for managing [Launches](/help/sites/authoring/using/launches.md) and adds a link in the navigation:
 
 CODE ON GITHUB
 
@@ -118,7 +118,7 @@ You can find the code of this page on GitHub
 
     * this can contain (according to requirements):
 
-        * the corresponding [clientlibs](../../../sites/developing/using/clientlibs.md) for custom actions and `less`/ `css` definitions
+        * the corresponding [clientlibs](/help/sites/developing/using/clientlibs.md) for custom actions and `less`/ `css` definitions
 
             * `/apps/<*yourProject*>/admin/ext/launches/clientlibs`
 
@@ -320,13 +320,13 @@ You can find the code of this page on GitHub
 
 You can restrict access to a navigation option using ACLs:
 
-1. Open the [user and/or group management](../../../sites/administering/using/security.md) and select the user/group you want to restrict access for.
+1. Open the [user and/or group management](/help/sites/administering/using/security.md) and select the user/group you want to restrict access for.
 
    >[!NOTE]
    >
-   >Avoid assigning/restricting permissions on a user-by-user basis. It is [recommended to use groups](../../../sites/administering/using/security.md#best-practices).
+   >Avoid assigning/restricting permissions on a user-by-user basis. It is [recommended to use groups](/help/sites/administering/using/security.md#best-practices).
 
-1. Remove access [permissions](../../../sites/administering/using/security.md#permissions) to the appropriate node(s) under `/libs/cq/core/content/nav/sites`. These correlate to the navigation options in the rail:
+1. Remove access [permissions](/help/sites/administering/using/security.md#permissions) to the appropriate node(s) under `/libs/cq/core/content/nav/sites`. These correlate to the navigation options in the rail:
 
     * `projects`
     * `sites`
@@ -375,7 +375,7 @@ To customize the columns in the list view:
     
     * Add your new columns - or remove existing ones.
 
-   See [Using Overlays (and the Sling Resource Merger)](../../../sites/developing/using/overlays.md) for more information.
+   See [Using Overlays (and the Sling Resource Merger)](/help/sites/developing/using/overlays.md) for more information.
 
 1. Optionally:
 
@@ -390,4 +390,4 @@ To customize the columns in the list view:
 
 When using a console, a common use case is when the user must select from resources (e.g. pages, components, assets, etc.). This can take the form of a list for example from which the author must choose an item.
 
-In order to keep the list to a reasonable size and also relevant to the use case, a filter can be implemented in the form of a custom predicate. See [this article](../../../sites/developing/using/customizing-page-authoring-touch.md#filtering-resources) for details.
+In order to keep the list to a reasonable size and also relevant to the use case, a filter can be implemented in the form of a custom predicate. See [this article](/help/sites/developing/using/customizing-page-authoring-touch.md#filtering-resources) for details.

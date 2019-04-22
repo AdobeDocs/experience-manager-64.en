@@ -12,18 +12,18 @@ discoiquuid: 1ce9a622-5968-407f-a74b-d325a2bff669
 
 # Forms Repository Restructuring in AEM 6.4{#forms-repository-restructuring-in-aem}
 
-As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM Forms Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
+As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM Forms Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
 
 **With 6.4 Upgrade**
 
-* [Misc](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#misc)
+* [Misc](/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#misc)
 
 **Prior to 6.5 Upgrade**
 
-* [Echosign Cloud Service Configuration](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#echosign-cloud-service-configuration)
-* [Recaptcha Cloud Service Configurations](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#recaptcha-cloud-service-configurations)
-* [Typekit Cloud Service Configurations](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#typekit-cloud-service-configurations)
-* [Misc](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#misc)
+* [Echosign Cloud Service Configuration](/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#echosign-cloud-service-configuration)
+* [Recaptcha Cloud Service Configurations](/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#recaptcha-cloud-service-configurations)
+* [Typekit Cloud Service Configurations](/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#typekit-cloud-service-configurations)
+* [Misc](/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#misc)
 
 ## With 6.4 Upgrade {#with-upgrade}
 
@@ -90,7 +90,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 | **Previous location** | `/etc/cloudservices/echosign` |
 |---|---|
 | **New location(s)** | `/conf/<tenant>/settings/cloudconfigs/echosign` |
-| **Restructuring guidance** |The [Lazy Content Migration](../../../sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |
+| **Restructuring guidance** |The [Lazy Content Migration](/help/sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |
 | **Notes** |N/A |
 
 ### Recaptcha Cloud Service Configurations {#recaptcha-cloud-service-configurations}
@@ -98,7 +98,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 | **Previous location** | `/etc/cloudservices/recaptcha` |
 |---|---|
 | **New location(s)** | `/conf/<tenant>/settings/cloudconfigs/recaptcha` |
-| **Restructuring guidance** |The [Lazy Content Migration](../../../sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |
+| **Restructuring guidance** |The [Lazy Content Migration](/help/sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |
 | **Notes** |N/A |
 
 ### Typekit Cloud Service Configurations {#typekit-cloud-service-configurations}
@@ -106,7 +106,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 | **Previous location** | `/etc/cloudservices/typekit` |
 |---|---|
 | **New location(s)** | `/conf/<tenant>/settings/cloudconfigs/typekit` |
-| **Restructuring guidance** |The [Lazy Content Migration](../../../sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |
+| **Restructuring guidance** |The [Lazy Content Migration](/help/sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |
 | **Notes** |N/A |
 
 ### Misc {#misc-1}
@@ -114,7 +114,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 | **Previous location** | `/etc/cloudservices/fdm` |
 |---|---|
 | **New location(s)** | `/conf/<tenant>/settings/cloudconfigs/fdm` |
-| **Restructuring guidance** |The [Lazy Content Migration](../../../sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |
+| **Restructuring guidance** |The [Lazy Content Migration](/help/sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |
 | **Notes** |N/A |
 
 | **Previous location** | `/etc/designs/fd/fp` |

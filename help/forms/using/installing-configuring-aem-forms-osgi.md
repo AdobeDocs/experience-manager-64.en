@@ -23,11 +23,11 @@ AEM Forms provides a set of forms to obtain data from end user: adaptive forms, 
 
 **HTML5 Forms** are the browser-friendly version of PDF Forms. HTML5 Forms are suitable for environments that do not support PDF plug-ins. HTML5 Forms enables the rendering of XFA-based forms on mobile devices and desktop browsers on which XFA-based PDF is not supported. These forms are best suited for tablets and desktop environments.
 
-AEM Forms is a powerful enterprise-class platform and the data capture (adaptive forms, PDF Forms, and HTML5 Forms) is only one of the capability of AEM Forms. For the complete list of capabilities, see [Introduction to AEM Forms](../../forms/using/introduction-aem-forms.md).
+AEM Forms is a powerful enterprise-class platform and the data capture (adaptive forms, PDF Forms, and HTML5 Forms) is only one of the capability of AEM Forms. For the complete list of capabilities, see [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md).
 
 ## Deployment Topology {#deployment-topology}
 
-AEM Forms add-on package is an application deployed onto AEM. You require only a minimum of one AEM Author and AEM Publish instance to run AEM Forms data capture capabilities. The following topology is suggested to run AEM Forms AEM Forms data capture capabilities. For detailed information about the topology, see [Architecture and deployment topologies for AEM Forms](../../forms/using/aem-forms-architecture-deployment.md).
+AEM Forms add-on package is an application deployed onto AEM. You require only a minimum of one AEM Author and AEM Publish instance to run AEM Forms data capture capabilities. The following topology is suggested to run AEM Forms AEM Forms data capture capabilities. For detailed information about the topology, see [Architecture and deployment topologies for AEM Forms](/help/forms/using/aem-forms-architecture-deployment.md).
 
 ![](assets/recommended-topology.png) 
 
@@ -35,10 +35,10 @@ AEM Forms add-on package is an application deployed onto AEM. You require only a
 
 Before you begin to install and configure data capture capability AEM Forms, ensure that:
 
-* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](../../sites/deploying/using/technical-requirements.md).  
+* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites/deploying/using/technical-requirements.md).  
 
 * Installation path of the AEM instance does not contain white-spaces.
-* An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least two [AEM instances (one Author and one Publish)](../../sites/deploying/using/deploy.md) to run AEM Forms data capture capabilities:
+* An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least two [AEM instances (one Author and one Publish)](/help/sites/deploying/using/deploy.md) to run AEM Forms data capture capabilities:
 
     * **Author**: An AEM instance used to create, upload, and edit content and to administer the website. Once content is ready to go live, it is replicated to the publish instance.
     * **Publish**: An AEM instance that serves the published content to the public over the internet or an internal network.
@@ -48,7 +48,7 @@ Before you begin to install and configure data capture capability AEM Forms, ens
     * 15 GB of temporary space for Microsoft Windows-based installations.
     * 6 GB of temporary space for UNIX-based installations.
 
-* Replication and reverse replication for the author and publish instances is set. For details, see [Replication](../../sites/deploying/using/replication.md).
+* Replication and reverse replication for the author and publish instances is set. For details, see [Replication](/help/sites/deploying/using/replication.md).
 * Extra requirements for UNIX-based systems: If you are using the UNIX-based operating system, install the following packages from the installation media of the respective operating system.
 
 <table> 
@@ -176,25 +176,25 @@ Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improv
 
 In a typical Adobe Sign and adaptive forms scenario, a user fills an adaptive form to** **apply for a service**. **For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, the form is sent to the service provider for further action. Service provider reviews the application and uses Adobe Sign to mark the application approved. To enable similar electronic-signature workflows, you can integrate Adobe Sign with AEM Forms.
 
-To use Adobe Sign with AEM Forms, [Integrate Adobe Sign with AEM Forms](../../forms/using/adobe-sign-integration-adaptive-forms.md).
+To use Adobe Sign with AEM Forms, [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
 
 #### Configure Adobe Analytics {#configure-adobe-analytics}
 
 AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.
 
-To use Adobe Analytics with AEM Forms, see [Configuring analytics and reports](../../forms/using/configure-analytics-forms-documents.md).
+To use Adobe Analytics with AEM Forms, see [Configuring analytics and reports](/help/forms/using/configure-analytics-forms-documents.md).
 
 #### Integrate Adobe Target {#integrate-adobe-target}
 
 Your customers are likely to abandon a form if the experience it delivers is not engaging. While it is frustrating for the customers, it can also upturn the support volume and cost for your organization. It is critical as well as challenging to identify and provide the right customer experience that increases the conversion rate. AEM forms holds the key to this problem.
 
-AEM forms integrates with Adobe Target, an Adobe Marketing Cloud solution, to deliver personalized and engaging customer experiences across multiple digital channels. To use Adobe Target to A/B test adaptive forms, [Integrate Adobe Target with AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#setupandintegratetargetinaemforms).
+AEM forms integrates with Adobe Target, an Adobe Marketing Cloud solution, to deliver personalized and engaging customer experiences across multiple digital channels. To use Adobe Target to A/B test adaptive forms, [Integrate Adobe Target with AEM Forms](/help/forms/using/ab-testing-adaptive-forms.md#setupandintegratetargetinaemforms).
 
 ## Next steps {#next-steps}
 
 You have configured an environment to use AEM Forms data capture capabilities. Now, the next steps towards using the capability are:
 
-* [Create your first adaptive form](../../forms/using/create-your-first-adaptive-form.md)
+* [Create your first adaptive form](/help/forms/using/create-your-first-adaptive-form.md)
 * [Create your first PDF form](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/designer-quickstart.pdf)
-* [Introduction to HTML5 Forms](../../forms/using/introduction.md)
+* [Introduction to HTML5 Forms](/help/forms/using/introduction.md)
 

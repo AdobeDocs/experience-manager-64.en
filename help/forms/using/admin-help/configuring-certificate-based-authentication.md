@@ -19,7 +19,7 @@ To use certificate-based authentication, import a Certificate Authority (CA) cer
 
 ## Import the CA certificate {#import-the-ca-certificate}
 
-When importing the certificate, select the Trust for Certificate Authentication and Trust for Identity options, and any other options that you require. For details about importing certificates, see [Managing certificates](../../../forms/using/admin-help/certificates.md#managing-certificates).
+When importing the certificate, select the Trust for Certificate Authentication and Trust for Identity options, and any other options that you require. For details about importing certificates, see [Managing certificates](/help/forms/using/admin-help/certificates.md#managing-certificates).
 
 ## Configuring certificate mapping {#configuring-certificate-mapping}
 

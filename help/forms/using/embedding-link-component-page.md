@@ -14,7 +14,7 @@ discoiquuid: a4a36e73-3f7a-4173-8807-931f26daa35a
 
 ## Prerequisites {#prerequisites}
 
-The link component is a member of the Document Services category. Ensure that the Document Services category is visible in the AEM components browser. If the category is not listed, follow the steps listed at [Enabling forms portal components](../../forms/using/enabling-forms-portal-components.md).
+The link component is a member of the Document Services category. Ensure that the Document Services category is visible in the AEM components browser. If the category is not listed, follow the steps listed at [Enabling forms portal components](/help/forms/using/enabling-forms-portal-components.md).
 
 ## Link Component {#link-component}
 

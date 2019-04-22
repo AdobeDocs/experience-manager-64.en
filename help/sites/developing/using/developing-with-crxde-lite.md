@@ -22,13 +22,13 @@ CRXDE Lite is recommended when you do not have direct access to the AEM server, 
 
 >[!NOTE]
 >
->By default, all AEM users can access CRXDE Lite. If desired, [configure ACLs](../../../sites/administering/using/security.md#permissions-and-acls) for the following node so that only developers can access CRX DE Lite:
+>By default, all AEM users can access CRXDE Lite. If desired, [configure ACLs](/help/sites/administering/using/security.md#permissions-and-acls) for the following node so that only developers can access CRX DE Lite:
 >
 >`/libs/granite/crxde`
 
 >[!NOTE]
 >
->It is recommended to use the [AEM Developer Tools for Eclipse](../../../sites/developing/using/aem-eclipse.md) and the [AEM HTL Brackets Extension](../../../sites/developing/using/aem-brackets.md) during project development.
+>It is recommended to use the [AEM Developer Tools for Eclipse](/help/sites/developing/using/aem-eclipse.md) and the [AEM HTL Brackets Extension](/help/sites/developing/using/aem-brackets.md) during project development.
 
 ## Getting Started with CRXDE Lite {#getting-started-with-crxde-lite}
 
@@ -257,7 +257,7 @@ It creates a dialog with the following structure:
 
 You can now adapt the dialog to your needs by modifying properties or creating new nodes.
 
-You can also use the Dialog Editor to edit a dialog. Double clicking the dialog node in CRXDE Lite will bring up the editor. More information about the Dialog Editor can be found [here](../../../sites/developing/using/dialog-editor.md).
+You can also use the Dialog Editor to edit a dialog. Double clicking the dialog node in CRXDE Lite will bring up the editor. More information about the Dialog Editor can be found [here](/help/sites/developing/using/dialog-editor.md).
 
 ### Creating a Node {#creating-a-node}
 
@@ -514,5 +514,5 @@ You can:
 
 >[!NOTE]
 >
->See [Users, Groups and Access Rights Administration](../../../sites/administering/using/user-group-ac-admin.md) for more information.
+>See [Users, Groups and Access Rights Administration](/help/sites/administering/using/user-group-ac-admin.md) for more information.
 

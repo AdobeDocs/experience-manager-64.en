@@ -19,16 +19,16 @@ For the purpose of programmatically working with tags or extending tags within a
 
 that interacts with the
 
-* [Tagging framework](../../../sites/developing/using/framework.md)
+* [Tagging framework](/help/sites/developing/using/framework.md)
 
 For related information regarding tagging, see :
 
-* [Administering Tags](../../../sites/administering/using/tags.md) for information about creating and managing tags, as well as to which content tags have been applied.
-* [Using Tags](../../../sites/authoring/using/tags.md) for information about tagging content.
+* [Administering Tags](/help/sites/administering/using/tags.md) for information about creating and managing tags, as well as to which content tags have been applied.
+* [Using Tags](/help/sites/authoring/using/tags.md) for information about tagging content.
 
 ## Overview of the Tagging API {#overview-of-the-tagging-api}
 
-The implementation of the [tagging framework](../../../sites/developing/using/framework.md) in AEM allows management of tags and tag content using the JCR API . The TagManager ensures that tags entered as values on the `cq:tags` string array property are not duplicated, it removes TagIDs pointing to non-existing tags and updates TagIDs for moved or merged tags. TagManager uses a JCR observation listener that reverts any incorrect changes. The main classes are in the [com.day.cq.tagging](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/package-summary.html) package:
+The implementation of the [tagging framework](/help/sites/developing/using/framework.md) in AEM allows management of tags and tag content using the JCR API . The TagManager ensures that tags entered as values on the `cq:tags` string array property are not duplicated, it removes TagIDs pointing to non-existing tags and updates TagIDs for moved or merged tags. TagManager uses a JCR observation listener that reverts any incorrect changes. The main classes are in the [com.day.cq.tagging](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/package-summary.html) package:
 
 * JcrTagManagerFactory - returns a JCR-based implementation of a `TagManager`. It is the reference implementation of the Tagging API.
 * `TagManager` - allows for resolving and creating tags by paths and names.
@@ -145,7 +145,7 @@ The search for tags and the tag listing work as follows:
 
 ## Tags in Different Languages {#tags-in-different-languages}
 
-As described in the documentation for administering tags, in the section [Managing Tags in Different Languages](../../../sites/administering/using/tags.md#managing-tags-in-different-languages), a tag `title`can be defined in different languages. A language sensitive property is then added to the tag node. This property has the format `jcr:title.<locale>`, e.g. `jcr:title.fr` for the French translation. `<locale>` must be a lower case ISO locale string and use "_" instead of "-", for example: `de_ch`.
+As described in the documentation for administering tags, in the section [Managing Tags in Different Languages](/help/sites/administering/using/tags.md#managing-tags-in-different-languages), a tag `title`can be defined in different languages. A language sensitive property is then added to the tag node. This property has the format `jcr:title.<locale>`, e.g. `jcr:title.fr` for the French translation. `<locale>` must be a lower case ISO locale string and use "_" instead of "-", for example: `de_ch`.
 
 When the **Animals** tag is added to the **Products** page, the value `stockphotography:animals` is added to the property `cq:tags` of the node /content/geometrixx/en/products/jcr:content. The translation is referenced from the tag node.
 
@@ -175,7 +175,7 @@ In AEM, the language can be obtained either from the page language or from the u
 
     * `slingRequest.getLocale()`
 
-`currentPage` and `slingRequest` are available in a JSP through the [&lt;cq:definedObjects&gt;](../../../sites/developing/using/taglib.md) tag.
+`currentPage` and `slingRequest` are available in a JSP through the [&lt;cq:definedObjects&gt;](/help/sites/developing/using/taglib.md) tag.
 
 For tagging, localization depends on the context as tag `titles`can be displayed in the page language, in the user language or in any other language.
 

@@ -15,7 +15,7 @@ discoiquuid: fd7bcf17-af7e-4bd6-8137-48401d9743c5
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 AEM leverages Adobe PhoneGap and Adobe Publishing Solutions, allowing you to create and manage both content-rich and utility-based cross-platform mobile applications:
 
@@ -69,24 +69,24 @@ IOS developers should be aware of an open issue with Cordova apps running on iOS
 
 ## Developing Mobile Applications in AEM {#developing-mobile-applications-in-aem}
 
-* [Starting AEM PhoneGap](../../mobile/using/starting-aem-phonegap-app.md)
-* [Building Mobile Applications](../../mobile/using/building-app-mobile-phonegap.md)
-* [Structure an App](../../mobile/using/phonegap-structure-an-app.md)
-* [Creating and Editing Apps Using the Apps Console](../../mobile/using/phonegap-apps-console.md)
-* [Single Page Applications](../../mobile/using/phonegap-single-page-applications.md)
-* [Developing Apps with PhoneGap CLI](../../mobile/using/phonegap-apps-pg-cli.md)
-* [Access Device Features](../../mobile/using/phonegap-access-device-features.md)
-* [Track App Performance with Adobe Mobile Analytics](../../mobile/using/phonegap-intro-to-app-analytics.md)
-* [Add Adobe Analytics to your Mobile Application](../../mobile/using/phonegap-add-analytics-to-apps.md)
-* [Push Notifications](../../mobile/using/phonegap-push-notifications.md)
-* [AEM Mobile content personalization](../../mobile/using/phonegap-aem-mobile-content-personalization.md)
-* [The Anatomy of an App](../../mobile/using/phonegap-apps-arch.md)
-* [Is your hybrid app ready for AEM Mobile?](../../mobile/using/phonegap-adding-content-to-imported-app.md)
+* [Starting AEM PhoneGap](/help/mobile/using/starting-aem-phonegap-app.md)
+* [Building Mobile Applications](/help/mobile/using/building-app-mobile-phonegap.md)
+* [Structure an App](/help/mobile/using/phonegap-structure-an-app.md)
+* [Creating and Editing Apps Using the Apps Console](/help/mobile/using/phonegap-apps-console.md)
+* [Single Page Applications](/help/mobile/using/phonegap-single-page-applications.md)
+* [Developing Apps with PhoneGap CLI](/help/mobile/using/phonegap-apps-pg-cli.md)
+* [Access Device Features](/help/mobile/using/phonegap-access-device-features.md)
+* [Track App Performance with Adobe Mobile Analytics](/help/mobile/using/phonegap-intro-to-app-analytics.md)
+* [Add Adobe Analytics to your Mobile Application](/help/mobile/using/phonegap-add-analytics-to-apps.md)
+* [Push Notifications](/help/mobile/using/phonegap-push-notifications.md)
+* [AEM Mobile content personalization](/help/mobile/using/phonegap-aem-mobile-content-personalization.md)
+* [The Anatomy of an App](/help/mobile/using/phonegap-apps-arch.md)
+* [Is your hybrid app ready for AEM Mobile?](/help/mobile/using/phonegap-adding-content-to-imported-app.md)
 
 ### Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Authoring for Adobe PhoneGap Enterprise with AEM](../../mobile/using/phonegap.md)
-* [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md)
+* [Authoring for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/phonegap.md)
+* [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md)
 

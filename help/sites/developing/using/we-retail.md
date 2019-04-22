@@ -29,23 +29,23 @@ As AEM's standard reference implementation, We.Retail showcases some of the most
 
 | **Feature** |**Description** |**Interested?** |
 |---|---|---|
-| [Globalized site structure](../../../sites/administering/using/tc-bp.md) |We.Retail includes language masters which are live-copied into country-specific sites. | [Try it!](../../../sites/developing/using/we-retail-globalized-site-structure.md) |
-| [Responsive layout](../../../sites/authoring/using/responsive-layout.md) |All pages feature responsive layout to adapt dynamically to screen and device size. | [Try it!](../../../sites/developing/using/we-retail-responsive-layout.md) |
-| [Editable templates](../../../sites/developing/using/page-templates-editable.md) |All pages are based on editable templates, allowing non-developers to adapt and customize the templates. | [Try it!](../../../sites/developing/using/we-retail-editable-templates.md) |
+| [Globalized site structure](/help/sites/administering/using/tc-bp.md) |We.Retail includes language masters which are live-copied into country-specific sites. | [Try it!](/help/sites/developing/using/we-retail-globalized-site-structure.md) |
+| [Responsive layout](/help/sites/authoring/using/responsive-layout.md) |All pages feature responsive layout to adapt dynamically to screen and device size. | [Try it!](/help/sites/developing/using/we-retail-responsive-layout.md) |
+| [Editable templates](/help/sites/developing/using/page-templates-editable.md) |All pages are based on editable templates, allowing non-developers to adapt and customize the templates. | [Try it!](/help/sites/developing/using/we-retail-editable-templates.md) |
 | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) |All components are based on HTL |  |
-| [eCommerce capabilities](../../../sites/developing/using/ecommerce.md) |Features a product catalog |  |
-| [Communities sites](../../../communities/using/overview.md) |Allowing visitors to join in community discussions, read blogs, and much more |  |
-| [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) |All components are based on the new core components and are more usable and user-configurable out-of-the-box | [Try it!](../../../sites/developing/using/we-retail-core-components.md) |
-| [Content Fragments](../../../assets/using/content-fragments.md) |The We.Retail Experiences section showcases the power of reusing content via content fragments. | [Try them!](../../../sites/developing/using/we-retail-content-fragments.md) |
-| [Experience Fragments](../../../sites/authoring/using/experience-fragments.md) |An Experience Fragment is a group of one or more components including content and layout that can be referenced within pages. | [Try them!](../../../sites/developing/using/we-retail-experience-fragments.md) |
+| [eCommerce capabilities](/help/sites/developing/using/ecommerce.md) |Features a product catalog |  |
+| [Communities sites](/help/communities/using/overview.md) |Allowing visitors to join in community discussions, read blogs, and much more |  |
+| [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) |All components are based on the new core components and are more usable and user-configurable out-of-the-box | [Try it!](/help/sites/developing/using/we-retail-core-components.md) |
+| [Content Fragments](/help/assets/using/content-fragments.md) |The We.Retail Experiences section showcases the power of reusing content via content fragments. | [Try them!](/help/sites/developing/using/we-retail-content-fragments.md) |
+| [Experience Fragments](/help/sites/authoring/using/experience-fragments.md) |An Experience Fragment is a group of one or more components including content and layout that can be referenced within pages. | [Try them!](/help/sites/developing/using/we-retail-experience-fragments.md) |
 
 ## Getting Started {#getting-started}
 
-We.Retail is delivered as AEM's sample content. In order to use, simply [start AEM as you normally would](../../../sites/deploying/using/deploy.md#getting-started), making sure that sample content is not disabled.
+We.Retail is delivered as AEM's sample content. In order to use, simply [start AEM as you normally would](/help/sites/deploying/using/deploy.md#getting-started), making sure that sample content is not disabled.
 
 >[!CAUTION]
 >
->We.Retail should not be installed on production instances. Production instances should be started in `nosamplecontent` [runmode](../../../sites/deploying/using/configure-runmodes.md).
+>We.Retail should not be installed on production instances. Production instances should be started in `nosamplecontent` [runmode](/help/sites/deploying/using/configure-runmodes.md).
 
 >[!CAUTION]
 >
@@ -53,11 +53,11 @@ We.Retail is delivered as AEM's sample content. In order to use, simply [start A
 
 ### Latest Version {#latest-version}
 
-Although We.Retail is distributed with the AEM release, updates to the content and its features may be made after the release. Therefore it is possible to [download the latest release from GitHub](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/releases) and then [upload](../../../sites/administering/using/package-manager.md#uploading-packages-from-your-file-system) and [install](../../../sites/administering/using/package-manager.md#installing-packages) it as a package on your AEM instance.
+Although We.Retail is distributed with the AEM release, updates to the content and its features may be made after the release. Therefore it is possible to [download the latest release from GitHub](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/releases) and then [upload](/help/sites/administering/using/package-manager.md#uploading-packages-from-your-file-system) and [install](/help/sites/administering/using/package-manager.md#installing-packages) it as a package on your AEM instance.
 
 ### First Steps {#first-steps}
 
-1. Once AEM is started (and/or We.Retail is installed), the site **We.Retail** is available in the [sites console](../../../sites/authoring/using/basic-handling.md#global-navigation).
+1. Once AEM is started (and/or We.Retail is installed), the site **We.Retail** is available in the [sites console](/help/sites/authoring/using/basic-handling.md#global-navigation).
 1. For example the following page can be opened and it should look as displayed in the [appendix](#appendix) below:
 
    `https://<server name>:<port number>/editor.html/content/we-retail/language-masters/en.html`

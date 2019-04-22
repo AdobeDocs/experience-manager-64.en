@@ -17,7 +17,7 @@ discoiquuid: 6825dcd6-fa75-4410-b6b2-e7bd4a391224
 >
 >This document describes how to customize page authoring in the modern, touch-enabled UI and does not apply to the classic UI.
 
-AEM provides various mechanisms to enable you to customize the page authoring functionality (and the [consoles](../../../sites/developing/using/customizing-consoles-touch.md)) of your authoring instance.
+AEM provides various mechanisms to enable you to customize the page authoring functionality (and the [consoles](/help/sites/developing/using/customizing-consoles-touch.md)) of your authoring instance.
 
 * Clientlibs  
   Clientlibs allow you to extend the default implementation to realize new functionality, while reusing the standard functions, objects, and methods. When customizing, you can create your own clientlib under `/apps.` The new clientlib must:
@@ -26,7 +26,7 @@ AEM provides various mechanisms to enable you to customize the page authoring fu
     * be part of the appropriate `cq.authoring.editor.sites.page.hook` category
 
 * Overlays  
-  Overlays are based on node definitions and allow you to overlay the standard functionality (in `/libs`) with your own customized functionality (in `/apps`). When creating an overlay a 1:1 copy of the original is not required, as the [sling resource merger](../../../sites/developing/using/sling-resource-merger.md) allows for inheritance.
+  Overlays are based on node definitions and allow you to overlay the standard functionality (in `/libs`) with your own customized functionality (in `/apps`). When creating an overlay a 1:1 copy of the original is not required, as the [sling resource merger](/help/sites/developing/using/sling-resource-merger.md) allows for inheritance.
 
 >[!NOTE]
 >
@@ -38,10 +38,10 @@ These can be used in many ways to extend the page authoring functionality in you
 >
 >For further information see:
 >
->* Using and creating [clientlibs](../../../sites/developing/using/clientlibs.md).
->* Using and creating [overlays](../../../sites/developing/using/overlays.md).
+>* Using and creating [clientlibs](/help/sites/developing/using/clientlibs.md).
+>* Using and creating [overlays](/help/sites/developing/using/overlays.md).
 >* [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.html) 
->* [Structure of the AEM Touch-Enabled UI](../../../sites/developing/using/touch-ui-structure.md) for details of the structural areas used for page authoring.  
+>* [Structure of the AEM Touch-Enabled UI](/help/sites/developing/using/touch-ui-structure.md) for details of the structural areas used for page authoring.  
 >
 >This topic is also covered in the [AEM Gems](https://docs.adobe.com/content/ddc/en/gems.html) session - [User interface customization for AEM 6.0](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-user-interface-customization-for-aem6.html).
 
@@ -60,13 +60,13 @@ These can be used in many ways to extend the page authoring functionality in you
 
 ## Add New Layer (Mode) {#add-new-layer-mode}
 
-When you are editing a page, there are various [modes](../../../sites/authoring/using/author-environment-tools.md#page-modes) available. These modes are implemented using [layers](../../../sites/developing/using/touch-ui-structure.md#layer). These allow access to differing types of functionality for the same page content. The standard layers are: edit, preview, annotate, developer, and targeting.
+When you are editing a page, there are various [modes](/help/sites/authoring/using/author-environment-tools.md#page-modes) available. These modes are implemented using [layers](/help/sites/developing/using/touch-ui-structure.md#layer). These allow access to differing types of functionality for the same page content. The standard layers are: edit, preview, annotate, developer, and targeting.
 
 ### Layer Example: Live Copy Status {#layer-example-live-copy-status}
 
-A standard AEM instance provides the MSM layer. This accesses data related to [multi site management](../../../sites/administering/using/msm.md) and highlights it in the layer.
+A standard AEM instance provides the MSM layer. This accesses data related to [multi site management](/help/sites/administering/using/msm.md) and highlights it in the layer.
 
-To see it in action you may edit any [We.Retail language copy](../../../sites/developing/using/we-retail-globalized-site-structure.md) page (or any other live copy page) and select the **Live Copy Status** mode.
+To see it in action you may edit any [We.Retail language copy](/help/sites/developing/using/we-retail-globalized-site-structure.md) page (or any other live copy page) and select the **Live Copy Status** mode.
 
 You can find the MSM layer definition (for reference) in:
 
@@ -102,12 +102,12 @@ You can find the code of this page on GitHub
 
 When authoring pages, the user must often select from resources (e.g. pages, components, assets, etc.). This can take the form of a list for example from which the author must choose an item.
 
-In order to keep the list to a reasonable size and also relevant to the use case, a filter can be implemented in the form of a custom predicate. For example, if the ` [pathbrowser](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html)` [Granite](../../../sites/developing/using/touch-ui-concepts.md#granite-ui) component is used to allow the user to select the path to a particular resource, the paths presented can be filtered in the following way:
+In order to keep the list to a reasonable size and also relevant to the use case, a filter can be implemented in the form of a custom predicate. For example, if the ` [pathbrowser](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html)` [Granite](/help/sites/developing/using/touch-ui-concepts.md#granite-ui) component is used to allow the user to select the path to a particular resource, the paths presented can be filtered in the following way:
 
 * Implement the custom predicate by implementing ` [com.day.cq.commons.predicate.AbstractNodePredicate](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/predicate/package-summary.html)` interface.
 * Specify a name for the predicate, and refer that name when using the `pathbrowser`.
 
-For further detail on creating a custom predicate, see [this article](../../../sites/developing/using/implementing-custom-predicate-evaluator.md).
+For further detail on creating a custom predicate, see [this article](/help/sites/developing/using/implementing-custom-predicate-evaluator.md).
 
 >[!NOTE]
 >
@@ -212,7 +212,7 @@ You can find the code of this page on GitHub
 
 #### Configuring Multiple In-Place Editors {#configuring-multiple-in-place-editors}
 
-It is possible to configure a component so that it has multiple in-place editors. When multiple in-place editors are configured, you can select the appropriate content and open the appropriate editor. See the [Configuring Multiple In-Place Editors](../../../sites/developing/using/multiple-inplace-editors.md) documentation for more information.
+It is possible to configure a component so that it has multiple in-place editors. When multiple in-place editors are configured, you can select the appropriate content and open the appropriate editor. See the [Configuring Multiple In-Place Editors](/help/sites/developing/using/multiple-inplace-editors.md) documentation for more information.
 
 ## Add a New Page Action {#add-a-new-page-action}
 
@@ -245,6 +245,6 @@ To have customized behavior upon such activation you can overlay the **Request f
    >
    >`/libs/cq/gui/content/common/managepublicationwizard`
 
-1. Update the [workflow model](../../../sites/developing/using/workflows-models.md) and related configurations/scripts as required.
-1. Remove the right to the [ `replicate` action](../../../sites/administering/using/security.md#actions) from all appropriate users for all relevant pages; to have this workflow triggered as a default action when any of the users try to publish (or replicate) a page.
+1. Update the [workflow model](/help/sites/developing/using/workflows-models.md) and related configurations/scripts as required.
+1. Remove the right to the [ `replicate` action](/help/sites/administering/using/security.md#actions) from all appropriate users for all relevant pages; to have this workflow triggered as a default action when any of the users try to publish (or replicate) a page.
 

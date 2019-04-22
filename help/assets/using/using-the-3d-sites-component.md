@@ -161,7 +161,7 @@ To preview a web page that has a 3D component:
 
 ## Publishing the page and assets {#publishing-the-page-and-assets}
 
-See [Publishing Assets](managing-assets-touch-ui.md) for information on how to publish assets. See [Publishing Pages](../../sites/authoring/using/publishing-pages.md) for information on how to publish pages.
+See [Publishing Assets](managing-assets-touch-ui.md) for information on how to publish assets. See [Publishing Pages](/help/sites/authoring/using/publishing-pages.md) for information on how to publish pages.
 
 >[!NOTE]
 >

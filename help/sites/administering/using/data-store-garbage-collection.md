@@ -30,7 +30,7 @@ Another source of recoverable garbage is packages. Package data, like everything
 
 ## How does data store garbage collection work? {#how-does-data-store-garbage-collection-work}
 
-If the repository has been configured with an external data store, [data store garbage collection will run automatically](../../../sites/administering/using/data-store-garbage-collection.md#automating-data-store-garbage-collection) as part of the Weekly Maintenance Window. The system administrator can also [run data store garbage collection manually](#running-data-store-garbage-collection) on as as-needed basis. In general, it is recommended that data store garbage collection be performed periodically, but that the following factors be taken into account in planning data store garbage collections:
+If the repository has been configured with an external data store, [data store garbage collection will run automatically](/help/sites/administering/using/data-store-garbage-collection.md#automating-data-store-garbage-collection) as part of the Weekly Maintenance Window. The system administrator can also [run data store garbage collection manually](#running-data-store-garbage-collection) on as as-needed basis. In general, it is recommended that data store garbage collection be performed periodically, but that the following factors be taken into account in planning data store garbage collections:
 
 * Data store garbage collections take time and may impact performance, so they should be planned accordingly.
 * Removal of data store garbage records does not affect normal performance, so this is not a performance optimization.
@@ -55,10 +55,10 @@ This approach works well for a single node with a private data store. However th
 
 There are three ways of running data store garbage collection, depending on the data store setup on which AEM is running:
 
-1. Via [Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md) - a garbage collection mechanism usually used for node store cleanup.  
+1. Via [Revision Cleanup](/help/sites/deploying/using/revision-cleanup.md) - a garbage collection mechanism usually used for node store cleanup.  
 
-1. Via [Data Store Garbage Collection](../../../sites/administering/using/data-store-garbage-collection.md#running-data-store-garbage-collection-via-the-operations-dashboard) - a garbage collection mechanism specific for external data stores, available on the Operations Dashboard.
-1. Via the [JMX Console](../../../sites/administering/using/jmx-console.md).
+1. Via [Data Store Garbage Collection](/help/sites/administering/using/data-store-garbage-collection.md#running-data-store-garbage-collection-via-the-operations-dashboard) - a garbage collection mechanism specific for external data stores, available on the Operations Dashboard.
+1. Via the [JMX Console](/help/sites/administering/using/jmx-console.md).
 
 If TarMK is being used as both the node store and data store, then Revision Cleanup can be used for garbage collection of both node store and data store. However if an external data store is configured such as File System Data Store, then data store garbage collection must be explicitly triggered separate from Revision Cleanup. Data store garbage collection can be triggered either via the Operations Dashboard or the JMX Console.
 
@@ -96,7 +96,7 @@ The below table shows the data store garbage collection type that needs to be us
 
 ### Running Data Store Garbage Collection via the Operations Dashboard {#running-data-store-garbage-collection-via-the-operations-dashboard}
 
-The built-in Weekly Maintenance Window, available via the [Operations Dashboard](../../../sites/administering/using/operations-dashboard.md), contains a built-in task to trigger the Data Store Garbage Collection at 1 am on Sundays.
+The built-in Weekly Maintenance Window, available via the [Operations Dashboard](/help/sites/administering/using/operations-dashboard.md), contains a built-in task to trigger the Data Store Garbage Collection at 1 am on Sundays.
 
 If you need to run data store garbage collection outside of this time, it can be triggered manually via the Operations Dashboard.
 
@@ -117,11 +117,11 @@ Before running data store garbage collection you should check that no backups ar
 
 >[!NOTE]
 >
->The Data Store Garbage Collection task will only be visible if you have configured an external file data store. See [Configuring node stores and data stores in AEM 6](../../../sites/deploying/using/data-store-config.md#file-data-store) for information on how to set up a file data store.
+>The Data Store Garbage Collection task will only be visible if you have configured an external file data store. See [Configuring node stores and data stores in AEM 6](/help/sites/deploying/using/data-store-config.md#file-data-store) for information on how to set up a file data store.
 
 ### Running Data Store Garbage Collection via the JMX Console {#running-data-store-garbage-collection-via-the-jmx-console}
 
-This section is about manually running data store garbage collection via the JMX Console. If your installation is set up without an external data store, then this does not apply to your installation. Instead see the instructions on how to run Revision cleanup under [Maintaining the Repository](../../../sites/deploying/using/storage-elements-in-aem-6.md#maintaining-the-repository).
+This section is about manually running data store garbage collection via the JMX Console. If your installation is set up without an external data store, then this does not apply to your installation. Instead see the instructions on how to run Revision cleanup under [Maintaining the Repository](/help/sites/deploying/using/storage-elements-in-aem-6.md#maintaining-the-repository).
 
 >[!NOTE]
 >
@@ -146,13 +146,13 @@ To run garbage collection:
 
 >[!NOTE]
 >
->The data store garbage colleciton task will only start if you have configured an external file data store. If an external file data store has not been configured, the task will return the message `Cannot perform operation: no service of type BlobGCMBean found` after invoking. See [Configuring node stores and data stores in AEM 6](../../../sites/deploying/using/data-store-config.md#file-data-store) for information on how to set up a file data store.
+>The data store garbage colleciton task will only start if you have configured an external file data store. If an external file data store has not been configured, the task will return the message `Cannot perform operation: no service of type BlobGCMBean found` after invoking. See [Configuring node stores and data stores in AEM 6](/help/sites/deploying/using/data-store-config.md#file-data-store) for information on how to set up a file data store.
 
 ## Automating Data Store Garbage Collection {#automating-data-store-garbage-collection}
 
 If possible, data store garbage collection should be run when there is little load on the system, for example in the morning.
 
-The built-in Weekly Maintenance Window, available via the [Operations Dashboard](../../../sites/administering/using/operations-dashboard.md), contains a built-in task to trigger the Data Store Garbage Collection at 1 am on Sundays. You should also check that no backups are running at this time. The start of the maintenance window can be customized via the dashboard as necessary.
+The built-in Weekly Maintenance Window, available via the [Operations Dashboard](/help/sites/administering/using/operations-dashboard.md), contains a built-in task to trigger the Data Store Garbage Collection at 1 am on Sundays. You should also check that no backups are running at this time. The start of the maintenance window can be customized via the dashboard as necessary.
 
 >[!NOTE]
 >
@@ -177,7 +177,7 @@ The curl command returns immediately.
 
 The data store consistency check will report any data store binaries that are missing but are still referenced. To start a consistency check, follow these steps:
 
-1. Go to the JMX console. For information on how to use the JMX console, see [this article](../../../sites/administering/using/jmx-console.md#using-the-jmx-console).
+1. Go to the JMX console. For information on how to use the JMX console, see [this article](/help/sites/administering/using/jmx-console.md#using-the-jmx-console).
 1. Search for the **BlobGarbageCollection **Mbean and click it.
 1. Click the `checkConsistency()` link.
 

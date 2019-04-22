@@ -15,7 +15,7 @@ Create an Interactive Communication using all building blocks
 
  ![style your interactive communication](assets/styleaf.png)
 
-| This tutorial is a step in the [Create your first Interactive Communication](../../forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
+| This tutorial is a step in the [Create your first Interactive Communication](/help/forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|
 
 Once you have created all the building blocks such as form data model, document fragments, templates, and themes for the web version, you can start creating an Interactive Communication.
@@ -34,13 +34,13 @@ This tutorial walks you through the steps to create interactive communications f
 
 The following is the list of resources that have already been created in this tutorial and are needed while creating the Interactive Communication for the Print channel:
 
-**Print template:** [create_first_ic_print_template](../../forms/using/create-templates-print-web.md)
+**Print template:** [create_first_ic_print_template](/help/forms/using/create-templates-print-web.md)
 
-**Form Data Model:** [FDM_Create_First_IC](../../forms/using/create-form-data-model0.md)
+**Form Data Model:** [FDM_Create_First_IC](/help/forms/using/create-form-data-model0.md)
 
-**Document Fragments:** [bill_details_first_ic, customer_details_first_ic, bill_summary_first_ic, summary_charges_first_ic](../../forms/using/create-document-fragments.md)
+**Document Fragments:** [bill_details_first_ic, customer_details_first_ic, bill_summary_first_ic, summary_charges_first_ic](/help/forms/using/create-document-fragments.md)
 
-**Layout Fragments:** [table_lf](../../forms/using/create-templates-print-web.md)
+**Layout Fragments:** [table_lf](/help/forms/using/create-templates-print-web.md)
 
 **Images:** PayNow and ValueAddedServices
 
@@ -105,11 +105,11 @@ The following is the list of resources that have already been created in this tu
 
 The following is the list of resources that have already been created in this tutorial and are needed while creating the Interactive Communication for the Web channel:
 
-**Web template:** [Create_First_IC_Web_Template](../../forms/using/create-templates-print-web.md)
+**Web template:** [Create_First_IC_Web_Template](/help/forms/using/create-templates-print-web.md)
 
-**Form Data Model:** [FDM_Create_First_IC](../../forms/using/create-form-data-model0.md)
+**Form Data Model:** [FDM_Create_First_IC](/help/forms/using/create-form-data-model0.md)
 
-**Document Fragments:** [bill_details_first_ic, customer_details_first_ic, bill_summary_first_ic, summary_charges_first_ic](../../forms/using/create-document-fragments.md)
+**Document Fragments:** [bill_details_first_ic, customer_details_first_ic, bill_summary_first_ic, summary_charges_first_ic](/help/forms/using/create-document-fragments.md)
 
 **Images:** PayNowWeb and ValueAddedServicesWeb
 
@@ -220,7 +220,7 @@ Execute the following steps to derive the Web channel content using Print channe
    A confirmation message is displayed that the Interactive Communication has been created successfully.
 
 1. Tap **Edit** to open the Interactive Communication in the right pane.
-1. Execute steps 6 - 15 of [Create Interactive Communication for Print channel](../../forms/using/create-interactive-communication0.md#create-interactive-communication-for-print-channel) section.
+1. Execute steps 6 - 15 of [Create Interactive Communication for Print channel](/help/forms/using/create-interactive-communication0.md#create-interactive-communication-for-print-channel) section.
 1. Tap the **Channels** tab from the left pane and tap **Web** to auto-generate content for the Web channel from the Print channel. 
 1. As the **Use Print as Master for Web Channel** checkbox is selected in step 4, the content and bindings are auto-generated for Web channel from the Print channel.
 
@@ -243,5 +243,5 @@ Execute the following steps to derive the Web channel content using Print channe
 
    ![](assets/ic_web_content_tree.png)
 
-1. Repeat steps 13 - 18 of [Create Interactive Communication for Web channel](../../forms/using/create-interactive-communication0.md#create-interactive-communication-for-web-channel) to insert the **Pay Now** and **Subscribe** hyperlinks in the Web channel of the Interactive Communication.
+1. Repeat steps 13 - 18 of [Create Interactive Communication for Web channel](/help/forms/using/create-interactive-communication0.md#create-interactive-communication-for-web-channel) to insert the **Pay Now** and **Subscribe** hyperlinks in the Web channel of the Interactive Communication.
 

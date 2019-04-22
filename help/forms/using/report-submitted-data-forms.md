@@ -17,7 +17,7 @@ AEM Forms provides APIs that you can use to query forms data submitted through f
 
 >[!NOTE]
 >
->Users who will invoke the APIs must be added to the reviewers group as described in [Associating submission reviewers to a form](../../forms/using/adding-reviewers-form.md).
+>Users who will invoke the APIs must be added to the reviewers group as described in [Associating submission reviewers to a form](/help/forms/using/adding-reviewers-form.md).
 
 ## GET /content/forms/portal/submission.review.json?func=getFormsForSubmissionReview <br> {#get-content-forms-portal-submission-review-json-func-getformsforsubmissionreview-br}
 

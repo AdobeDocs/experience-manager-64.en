@@ -15,7 +15,7 @@ discoiquuid: bf155d8c-c012-4cb4-89a6-ceead715630e
 
 You can render 3D assets you have manipulated and saved in AEM to create 2D images for use on your web content pages.
 
-See [Editing Your Page Content](../../../sites/authoring/using/qg-page-authoring.md#editing-your-page-content).
+See [Editing Your Page Content](/help/sites/authoring/using/qg-page-authoring.md#editing-your-page-content).
 
 ## Performance considerations when rendering 3D assets {#performance-considerations-when-rendering-d-assets}
 
@@ -39,7 +39,7 @@ To render 3D assets:
 
 1. Open a 3D asset for viewing.
 
-   See [Viewing 3D assets](../../../sites/classic-ui-authoring/using/classicui-view-3d-assets.md).
+   See [Viewing 3D assets](/help/sites/classic-ui-authoring/using/classicui-view-3d-assets.md).
 
 1. From **Adobe Experience Manager**, on the **Navigation **page, tap **Assets**.
 1. Near the upper-right corner of the page, from the View drop-down list, tap **Card View**.
@@ -52,7 +52,7 @@ To render 3D assets:
 
 1. Near the upper-right corner of the asset details page, tap the Stage Selector icon (spotlight), then select a stage name with the background and lighting that you want to apply to the 3D object.
 
-   See [About the use of stages in AEM 3D](../../../sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
+   See [About the use of stages in AEM 3D](/help/sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
 
    ![](assets/chlimage_1-14.png)
 
@@ -62,7 +62,7 @@ To render 3D assets:
 
    The default **Rapid Refine** renderer is always available. If the stage you selected is a native format, the corresponding third-party renderer is also made available in the list for you to select.
 
-   See [About the use of stages in AEM 3D](../../../sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
+   See [About the use of stages in AEM 3D](/help/sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
 
 1. Do the following:
 

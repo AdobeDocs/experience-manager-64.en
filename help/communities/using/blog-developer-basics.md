@@ -25,7 +25,7 @@ This page provides the essential information for working with the blog feature.
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-The blog feature is comprised of two main components that are available by adding the [Blog function](../../communities/using/functions.md#blog-function) or by adding the components to a page in author edit mode.
+The blog feature is comprised of two main components that are available by adding the [Blog function](/help/communities/using/functions.md#blog-function) or by adding the components to a page in author edit mode.
 
 ### Blog {#blog}
 
@@ -62,13 +62,13 @@ The blog feature is comprised of two main components that are available by addin
 
 |  **resourceType** |social/journal/components/hbs/sidebar |
 |---|---|
-|  [**includable**](../../communities/using/scf.md#add-or-include-a-communities-component) |No |
-|  [**clientllibs**](../../communities/using/clientlibs.md) |cq.social.hbs.journal_sidebar |
+|  [**includable**](/help/communities/using/scf.md#add-or-include-a-communities-component) |No |
+|  [**clientllibs**](/help/communities/using/clientlibs.md) |cq.social.hbs.journal_sidebar |
 |  **templates** | /libs/social/journal/components/hbs/sidebar/sidebar.hbs |
 |  **css** | /libs/social/journal/components/hbs/sidebar/clientlibs/sidebar.css |
-| ** properties** |see [Blog Feature](../../communities/using/blog-feature.md) |
+| ** properties** |see [Blog Feature](/help/communities/using/blog-feature.md) |
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -76,39 +76,39 @@ The blog feature is comprised of two main components that are available by addin
 
 * [Blog Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 
 ### Blog Function {#blog-function}
 
-A community site structure that includes the [Bog function](../../communities/using/functions.md#blog-function) will have configured `Blog` and `Blog Sidebar` components. The Blog function supports identifying a [privileged member user group](../../communities/using/users.md#privileged-members-group).
+A community site structure that includes the [Bog function](/help/communities/using/functions.md#blog-function) will have configured `Blog` and `Blog Sidebar` components. The Blog function supports identifying a [privileged member user group](/help/communities/using/users.md#privileged-members-group).
 
 ### Accessing Blog Entries (UGC) {#accessing-blog-entries-ugc}
 
 UGC should be moderated using one of the standard methods for moderation.  
-See [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+See [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
-As of AEM 6.1 Communities, use of a [common store](../../communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
+As of AEM 6.1 Communities, use of a [common store](/help/communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
 See:
 
-* [Storage Resource Provider Overview](../../communities/using/srp.md) - introduction and repository usage overview
-* [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](../../communities/using/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](../../communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Storage Resource Provider Overview](/help/communities/using/srp.md) - introduction and repository usage overview
+* [SRP and UGC Essentials](/help/communities/using/srp-and-ugc.md) - SRP utility methods and examples
+* [Accessing UGC with SRP](/help/communities/using/accessing-ugc-with-srp.md) - coding guidelines
+* [SocialUtils Refactoring](/help/communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
 
 ## Primary Publisher {#primary-publisher}
 
 When the deployment is a publish farm, it is necessary to identify a primary publisher that will poll for articles scheduled to be published.
 
-See [Primary Publisher](../../communities/using/deploy-communities.md#primary-publisher) for more details.
+See [Primary Publisher](/help/communities/using/deploy-communities.md#primary-publisher) for more details.
 
 ## Allowing Rich Media {#allowing-rich-media}
 
 The AEM platform blocks links from other websites to prevent XSS attacks as described in
 
-* [Protect against Cross-Site Scripting (XSS)](../../sites/developing/using/security.md#protect-against-cross-site-scripting-xss)
+* [Protect against Cross-Site Scripting (XSS)](/help/sites/developing/using/security.md#protect-against-cross-site-scripting-xss)
 
 As of AEM 6.2, the modifications previously required to be made manually are included in the default AntiSamy config file.
 

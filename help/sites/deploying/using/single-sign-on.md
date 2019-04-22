@@ -33,9 +33,9 @@ You must specify the same attribute name for both services. The attribute is inc
 
 ## Configuring SSO {#configuring-sso}
 
-To configure SSO for a AEM instance, you need to configure the [SSO Authentication Handler](../../../sites/deploying/using/osgi-configuration-settings.md#adobegranitessoauthenticationhandler):
+To configure SSO for a AEM instance, you need to configure the [SSO Authentication Handler](/help/sites/deploying/using/osgi-configuration-settings.md#adobegranitessoauthenticationhandler):
 
-1. When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+1. When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
    For example, for NTLM set:
 
@@ -76,7 +76,7 @@ To configure SSO for a AEM instance, you need to configure the [SSO Authenticati
 
 >[!NOTE]
 >
->Single Sign On is often used in conjunction with [LDAP](../../../sites/administering/using/ldap-config.md).
+>Single Sign On is often used in conjunction with [LDAP](/help/sites/administering/using/ldap-config.md).
 
 >[!NOTE]
 >

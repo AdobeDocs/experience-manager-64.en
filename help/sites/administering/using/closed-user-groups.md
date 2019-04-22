@@ -39,7 +39,7 @@ A CUG as it is known in the context of AEM consists of the following steps:
 
 The new implementation has been designed to draw a line between the authentication and the authorization elements. As of AEM 6.3, it is possible to restrict read access without explicitly adding an authentication requirement. For example, if a given instance requires authentication altogether or a given tree already resides in a subtree that requires authentication already.
 
-Equally, a given tree can be marked with an authentication requirement without changing the efective permission setup. The combinations and results are listed in the [Combining CUG Policies and the Authentication Requirement](../../../sites/administering/using/closed-user-groups.md#combining-cug-policies-and-the-authentication-requirement) section.
+Equally, a given tree can be marked with an authentication requirement without changing the efective permission setup. The combinations and results are listed in the [Combining CUG Policies and the Authentication Requirement](/help/sites/administering/using/closed-user-groups.md#combining-cug-policies-and-the-authentication-requirement) section.
 
 ## Overview {#overview}
 
@@ -117,7 +117,7 @@ The same applies for the `granite:loginPath` property. It will only be respected
 
 >[!NOTE]
 >
->Setting the login path property is optional and only needed if the tree which requires authentication cannot fall back to the default or an otherwise inherited login page. See the [Evaluation of Login Path](../../../sites/administering/using/closed-user-groups.md#evaluation-of-login-path) below.
+>Setting the login path property is optional and only needed if the tree which requires authentication cannot fall back to the default or an otherwise inherited login page. See the [Evaluation of Login Path](/help/sites/administering/using/closed-user-groups.md#evaluation-of-login-path) below.
 
 #### Registering the Authentication Requirement and Login Path With the Sling Authenticator {#registering-the-authentication-requirement-and-login-path-with-the-sling-authenticator}
 
@@ -301,7 +301,7 @@ for (AccessControlPolicy policy : acMgr.getEffectivePolicies(path) {
 
 #### Retrieve Inherited CUG Policies {#retrieve-inherited-cug-policies}
 
-Finding all nested CUGs that have been defined at a given path irrespective on whether they take effect or not. For more info, see the [Configuration Options](../../../sites/administering/using/closed-user-groups.md#configuration-options) section.
+Finding all nested CUGs that have been defined at a given path irrespective on whether they take effect or not. For more info, see the [Configuration Options](/help/sites/administering/using/closed-user-groups.md#configuration-options) section.
 
 ```java
 String path = [...]
@@ -435,7 +435,7 @@ Note however, that apart from the login paths defined with this feature there ar
 
 #### Retrieve the Inherited Auth Requirement {#retrieve-the-inherited-auth-requirement}
 
-Like with the login path, there is no public API to retrieve the inherited authentication requirements defined in the content. The following sample illustrates how to list all authentication requirements that have been defined with a given hierarchy irrespective on whether they take efect or not. For more info, see [Configuration Options](../../../sites/administering/using/closed-user-groups.md#configuration-options).
+Like with the login path, there is no public API to retrieve the inherited authentication requirements defined in the content. The following sample illustrates how to list all authentication requirements that have been defined with a given hierarchy irrespective on whether they take efect or not. For more info, see [Configuration Options](/help/sites/administering/using/closed-user-groups.md#configuration-options).
 
 >[!NOTE]
 >
@@ -491,7 +491,7 @@ Setting up CUG authorization is described in detail in the [relevant Apache Docu
 
 #### Configuring the Referrer Filter {#configuring-the-referrer-filter}
 
-You also need to configure the [Sling Referrer Filter](../../../sites/administering/using/security-checklist.md#the-sling-referrer-filter) with all hostnames that may be used to access AEM; for example, via CDN, Load Balancer, and any others.
+You also need to configure the [Sling Referrer Filter](/help/sites/administering/using/security-checklist.md#the-sling-referrer-filter) with all hostnames that may be used to access AEM; for example, via CDN, Load Balancer, and any others.
 
 If the referrer filter is not configured, then errors, similar to the following, are seen when a user tries to log in to a CUG site:
 
@@ -733,7 +733,7 @@ The import mechanism of Apache Jackrabbit FileVault has been adjusted to deal wi
 
 ### Apache Sling Content Distribution {#apache-sling-content-distribution}
 
-See the above [Apache Jackrabbit FileVault](../../../sites/administering/using/closed-user-groups.md#apache-jackrabbit-filevault) section.
+See the above [Apache Jackrabbit FileVault](/help/sites/administering/using/closed-user-groups.md#apache-jackrabbit-filevault) section.
 
 ### Adobe Granite Replication {#adobe-granite-replication}
 
@@ -864,5 +864,5 @@ Adobe provides a tool for migrating to the new CUG implementation. In order to u
 
 >[!NOTE]
 >
->If you run into issues, it is possible to set up a specific logger at **DEBUG** level on `com.day.cq.auth.impl.cug` to get the output of the migration tool. See [Logging](../../../sites/deploying/using/configure-logging.md) for more information on how to do this.
+>If you run into issues, it is possible to set up a specific logger at **DEBUG** level on `com.day.cq.auth.impl.cug` to get the output of the migration tool. See [Logging](/help/sites/deploying/using/configure-logging.md) for more information on how to do this.
 

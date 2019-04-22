@@ -29,7 +29,7 @@ It can be accessed by going to **Tools **- **Operations ** from the AEM Welcome 
 
 >[!NOTE]
 >
->In order to be able to access the Operations Dashboard, the logged in user must be part of the "Operators" user group. For more info, see documentation on [User, Group and Access Right Administration](../../../sites/administering/using/user-group-ac-admin.md).
+>In order to be able to access the Operations Dashboard, the logged in user must be part of the "Operators" user group. For more info, see documentation on [User, Group and Access Right Administration](/help/sites/administering/using/user-group-ac-admin.md).
 
 ## Health Reports {#health-reports}
 
@@ -39,7 +39,7 @@ It has several features, described below.
 
 ## Health Checks {#health-checks}
 
-The **Health Reports** are a system of cards indicating good or bad health with regard to a specific product area. These cards are visualizations of the Sling Health Checks, which aggregate data from JMX and other sources and expose processed information again as MBeans. These MBeans can also be inspected in the [JMX web console](../../../sites/administering/using/jmx-console.md), under the **org.apache.sling.healthcheck** domain.
+The **Health Reports** are a system of cards indicating good or bad health with regard to a specific product area. These cards are visualizations of the Sling Health Checks, which aggregate data from JMX and other sources and expose processed information again as MBeans. These MBeans can also be inspected in the [JMX web console](/help/sites/administering/using/jmx-console.md), under the **org.apache.sling.healthcheck** domain.
 
 The Health Reports interface can be accessed through the **Tools** - **Operations** - **Health Reports** menu on the AEM Welcome screen, or directly through the following URL:
 
@@ -449,7 +449,7 @@ Examples:
 
 >[!NOTE]
 >
->The settings in the diagnosis page do not influence what is logged to the log files and vice-versa. So, while the error log might catch INFO messages, you might not see them in the log messages UI. Also, through the UI it's possible to catch DEBUG messages from certain packages without it affecting the error log. For more information on how to configure the log files, see [Logging](../../../sites/deploying/using/configure-logging.md).
+>The settings in the diagnosis page do not influence what is logged to the log files and vice-versa. So, while the error log might catch INFO messages, you might not see them in the log messages UI. Also, through the UI it's possible to catch DEBUG messages from certain packages without it affecting the error log. For more information on how to configure the log files, see [Logging](/help/sites/deploying/using/configure-logging.md).
 
 >[!NOTE]
 >
@@ -584,11 +584,11 @@ You can also configure the timings by pressing the gear icon on any of the two m
 
 ### Revision Clean Up {#revision-clean-up}
 
-For more information on performing Revision Clean Up for AEM 6.4, [see this dedicated article](../../../sites/deploying/using/revision-cleanup.md).
+For more information on performing Revision Clean Up for AEM 6.4, [see this dedicated article](/help/sites/deploying/using/revision-cleanup.md).
 
 ### Lucene Binaries Cleanup {#lucene-binaries-cleanup}
 
-By using the Lucene Binaries Cleanup task, you can purge lucene binaries and reduce the running data store size requirement. This is because the lucene's binary churn will be re-claimed daily instead of the earlier dependency on a successful [data store garbage collection](../../../sites/administering/using/data-store-garbage-collection.md) run.
+By using the Lucene Binaries Cleanup task, you can purge lucene binaries and reduce the running data store size requirement. This is because the lucene's binary churn will be re-claimed daily instead of the earlier dependency on a successful [data store garbage collection](/help/sites/administering/using/data-store-garbage-collection.md) run.
 
 Though the maintenance task was developed to reduce Lucene related revision garbage, there are general efficiency gains when running the task:
 
@@ -599,7 +599,7 @@ You can access the Lucene Binaries Cleanup task from: **AEM &gt; Tools &gt; Oper
 
 ### Data Store Garbage Collection {#data-store-garbage-collection}
 
-For details on Data Store Garbage Collection, see the dedicated [documentation page](../../../sites/administering/using/data-store-garbage-collection.md).
+For details on Data Store Garbage Collection, see the dedicated [documentation page](/help/sites/administering/using/data-store-garbage-collection.md).
 
 ### Workflow purge {#workflow-purge}
 
@@ -610,11 +610,11 @@ Workflows can also be purged from the Maintenance Dashboard. In order to run the
 
 ### Audit Log Maintenance {#audit-log-maintenance}
 
-For Audit Log Maintenance, see the [separate documentation page.](../../../sites/administering/using/operations-audit-log.md) [](../../../sites/administering/using/operations-audit-log.md)
+For Audit Log Maintenance, see the [separate documentation page.](/help/sites/administering/using/operations-audit-log.md) [](/help/sites/administering/using/operations-audit-log.md)
 
 ### Version Purge {#version-purge}
 
-You can schedule the Version Purge maintenance task to delete old versions automatically. As a result, this minimizes the need to manually use the [Version Purge tools](../../../sites/deploying/using/version-purging.md). You can schedule and configure the Version Purge task by accessing **Tools &gt; Operations &gt; Maintenance &gt; Weekly Maintenance Window** and following these steps:
+You can schedule the Version Purge maintenance task to delete old versions automatically. As a result, this minimizes the need to manually use the [Version Purge tools](/help/sites/deploying/using/version-purging.md). You can schedule and configure the Version Purge task by accessing **Tools &gt; Operations &gt; Maintenance &gt; Weekly Maintenance Window** and following these steps:
 
 1. Click the **Add** button.
 1. Choose **Version Purge** from the drop-down menu.
@@ -685,7 +685,7 @@ Custom maintenance tasks can be implemented as OSGi services. As the maintenance
 
 Apart from the above service properties, the `process()` method of the `JobConsumer` interface needs to be implemented by adding the code that should be executed for the maintance task. The provided `JobExecutionContext` can be used to output status information, check if the job is stopped by the user and create a result (success or failed).
 
-For situations where a maintenance task should not be run on all installations (for example, run only on the publish instance), you can make the service require a configuration in order to be active by adding `@Component(policy=ConfigurationPolicy.REQUIRE)`. You can then mark the according configuration as being run mode dependent in the repository. For more information, see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md#creating-the-configuration-in-the-repository). [](../../../sites/deploying/using/configuring-osgi.md#creating-the-configuration-in-the-repository)
+For situations where a maintenance task should not be run on all installations (for example, run only on the publish instance), you can make the service require a configuration in order to be active by adding `@Component(policy=ConfigurationPolicy.REQUIRE)`. You can then mark the according configuration as being run mode dependent in the repository. For more information, see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md#creating-the-configuration-in-the-repository). [](/help/sites/deploying/using/configuring-osgi.md#creating-the-configuration-in-the-repository)
 
 Below is an example of a custom maintenance task that deletes files from a configurable temporary directory which have been modified in the last 24 hours:
 

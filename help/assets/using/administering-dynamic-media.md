@@ -18,9 +18,9 @@ legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media
 
 >[!NOTE]
 >
->This documentation describes Dynamic Media capabilites, which are integrated directly into AEM. If you are using Dynamic Media Classic (Scene7) integrated into AEM, see [Dynamic Media Classic integration documentation](../../sites/administering/using/scene7.md). 
+>This documentation describes Dynamic Media capabilites, which are integrated directly into AEM. If you are using Dynamic Media Classic (Scene7) integrated into AEM, see [Dynamic Media Classic integration documentation](/help/sites/administering/using/scene7.md). 
 >
->See [Dual Use Scenario](../../sites/administering/using/scene7.md#dual-use-scenario) for times when you may want to use AEM integrated with Dynamic Media Classic along with Dynamic Media.
+>See [Dual Use Scenario](/help/sites/administering/using/scene7.md#dual-use-scenario) for times when you may want to use AEM integrated with Dynamic Media Classic along with Dynamic Media.
 
 If you are administering dynamic media, the following topics are of interest:
 

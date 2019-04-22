@@ -35,9 +35,9 @@ To add a `Ideation` component to a page in author mode, use the component browse
 
 and drag it into place on a page where the idea should appear.
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/ideation.md#essentials-for-client-side) are included, this is how the `Ideation`component will appear:
+When the [required client-side libraries](/help/communities/using/ideation.md#essentials-for-client-side) are included, this is how the `Ideation`component will appear:
 
 ![](assets/chlimage_1-29.png)
 
@@ -91,23 +91,23 @@ Under the **Settings **tab, specify settings for ideas and comments:
   If checked, allow members to delete the comments and ideas they posted. Default is unchecked.
 
 * **Allow Following** 
-  If checked, include the following feature for idea posts, which allows members to be [notified](../../communities/using/notifications.md) of new posts. Default is unchecked.
+  If checked, include the following feature for idea posts, which allows members to be [notified](/help/communities/using/notifications.md) of new posts. Default is unchecked.
 
 * **Allow Email Subscriptions** 
-  If checked, allow members to be notified of new posts by email ([subscription](../../communities/using/subscriptions.md)). Requires `Allow Following` to be checked and [email configured](../../communities/using/email.md). Default is unchecked.
+  If checked, allow members to be notified of new posts by email ([subscription](/help/communities/using/subscriptions.md)). Requires `Allow Following` to be checked and [email configured](/help/communities/using/email.md). Default is unchecked.
 
 * **Allow Voting** 
   If checked, allow voting on the comments of an idea. Default is unchecked.
 
 * **Display Badges** 
-  If checked, display earned and assigned [badges](../../communities/using/implementing-scoring.md) with a member's idea. Default is unchecked.
+  If checked, display earned and assigned [badges](/help/communities/using/implementing-scoring.md) with a member's idea. Default is unchecked.
 
 * **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](../../communities/using/featured.md). Default is unchecked.
+  if checked, the idea is able to be identified as [featured content](/help/communities/using/featured.md). Default is unchecked.
 
 ### User Moderation tab {#user-moderation-tab}
 
-Under the **User Moderation **tab, specify how the posted ideas and comments (user generated content) are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+Under the **User Moderation **tab, specify how the posted ideas and comments (user generated content) are managed. For more information, see [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
 * **Deny Posts** 
   If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is unchecked.
@@ -181,8 +181,8 @@ Once the idea is published, other members can sign in, open the idea ( `Read Mor
 
 ### Additional Information {#additional-information}
 
-More information may be found on the [Ideation Essentials](../../communities/using/ideation.md) page for developers.
+More information may be found on the [Ideation Essentials](/help/communities/using/ideation.md) page for developers.
 
-For moderation of posted topics and comments, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+For moderation of posted topics and comments, see [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
-For tagging posted topics and comments, see [Tagging User Generated Content](../../communities/using/tag-ugc.md).
+For tagging posted topics and comments, see [Tagging User Generated Content](/help/communities/using/tag-ugc.md).

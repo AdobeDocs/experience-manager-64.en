@@ -33,7 +33,7 @@ To add a `Search` component to a page in author mode, use the component browser 
 
 and drag it into place on a page. Use of `Search`requires a second page for the `Search Results.`
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
 When the required client-side library, `cq.social.hbs.search`, is included, this is how the `Search` component will appear.
 
@@ -69,7 +69,7 @@ and drag it into place on a page. Unlike the Search component, no second page is
 
 If using Search elsewhere within the website, this one page with `Search Results` may be configured to be the `Result Page` for any or all instances of `Search`.
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
 When the required client-side library, `cq.social.hbs.search`, is included, this is how the `Search Result` component will appear:
 
@@ -93,4 +93,4 @@ Under the **Search Result Settings **tab, it is possible to specify what paths a
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Search Essentials](../../communities/using/search-implementation.md) page for developers.
+More information may be found on the [Search Essentials](/help/communities/using/search-implementation.md) page for developers.

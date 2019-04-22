@@ -12,7 +12,7 @@ discoiquuid: a976a854-4bf2-49f8-871e-28bc597ac496
 
 # Introduction to AEM Forms{#introduction-to-aem-forms}
 
-For information about latest features and enhancements in AEM Forms, see [What's new in AEM Forms](../../forms/using/whats-new.md).
+For information about latest features and enhancements in AEM Forms, see [What's new in AEM Forms](/help/forms/using/whats-new.md).
 
 ## About AEM Forms {#about-aem-forms}
 
@@ -24,7 +24,7 @@ AEM Forms leverages and extends the capabilities of your existing investments in
 
 In large enterprises, forms are often created once and reused by copying to a content management system. Keeping a large database of forms up-to-date and making them discoverable can be a considerable challenge. AEM provides a customizable Forms Portal that ensures that customers find and access forms they need across both web and mobile channels.
 
-AEM Forms provides forms management tools that not only lets you manage adaptive form, but XFA forms, PDF forms, and related assets as well. For more information, see [Introduction to managing forms](../../forms/using/introduction-managing-forms.md).
+AEM Forms provides forms management tools that not only lets you manage adaptive form, but XFA forms, PDF forms, and related assets as well. For more information, see [Introduction to managing forms](/help/forms/using/introduction-managing-forms.md).
 
 ![](do-not-localize/4th-draft.gif)
 

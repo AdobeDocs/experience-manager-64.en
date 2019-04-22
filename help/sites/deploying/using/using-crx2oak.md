@@ -22,11 +22,11 @@ It can be used to migrate data from older CQ versions based on Apache Jackrabbit
 You can download the newest version of crx2oak from the public Adobe repository at this location:  
 [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/crx2oak/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/crx2oak/)
 
-The list of changes and fixes for the newest version can be found in the [CRX2Oak Release Notes](../../../release-notes/crx2oak.md).
+The list of changes and fixes for the newest version can be found in the [CRX2Oak Release Notes](/help/release-notes/crx2oak.md).
 
 >[!NOTE]
 >
->For more information on Apache Oak and key concepts of AEM persistance, see [Introduction to the AEM Platform](../../../sites/deploying/using/platform.md).
+>For more information on Apache Oak and key concepts of AEM persistance, see [Introduction to the AEM Platform](/help/sites/deploying/using/platform.md).
 
 ## Migration Use Cases {#migration-use-cases}
 
@@ -139,7 +139,7 @@ See the [Apache Documentation](https://jackrabbit.apache.org/oak/docs/migration.
 
 * `--early-shutdown`: Shuts down the source JCR2 repository after nodes are copied and before the commit hooks are applied
 * `--fail-on-error`: Forces a failure of the migration if the nodes cannot be read from the source repository.
-* `--ldap`: Migrates LDAP users from a CQ 5.x instance to an Oak based one. In order for this to work, the Identity Provider in the Oak configuration needs to be named ldap. For more information, see the [LDAP documentation](../../../sites/administering/using/ldap-config.md).
+* `--ldap`: Migrates LDAP users from a CQ 5.x instance to an Oak based one. In order for this to work, the Identity Provider in the Oak configuration needs to be named ldap. For more information, see the [LDAP documentation](/help/sites/administering/using/ldap-config.md).
 
 * `--ldap-config:` Use this in conjunction with the `--ldap` parameter for CQ 5.x repositories that used multiple LDAP servers for authentication. You can use it to point to the CQ 5.x `ldap_login.conf` or `jaas.conf` configuration files. The format is `--ldapconfig=path/to/ldap_login.conf`.
 

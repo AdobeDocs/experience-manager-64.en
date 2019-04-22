@@ -23,7 +23,7 @@ When planning an upgrade the following areas of an implementation need to be inv
 
 ## Overview {#overview}
 
-1. **Pattern Detector** - Run the Pattern Detector as described in upgrade planning and described in detail in [this page](../../../sites/deploying/using/pattern-detector.md) to get a pattern detector report that contains more details on areas that need to be addressed in addition to the unvailable APIs/bundles in the Target version of AEM. The Pattern Detection report should give you an indication of any incompatibilities in your code, if there are none then your deployment is already 6.4 compatible, you can still choose to do new development for utilizing 6.4 functionality, but you do't need it just for maintaining compatibility. If there are incompatibilities reported then you can choose to either a) Run in compatibility mode and defer your development for new 6.4 features or compatibility, b) Decide to do development after upgrade, and move to step 2. Please see please see [Backward Compatibility in AEM 6.4](../../../sites/deploying/using/backward-compatibility.md) for more details.
+1. **Pattern Detector** - Run the Pattern Detector as described in upgrade planning and described in detail in [this page](/help/sites/deploying/using/pattern-detector.md) to get a pattern detector report that contains more details on areas that need to be addressed in addition to the unvailable APIs/bundles in the Target version of AEM. The Pattern Detection report should give you an indication of any incompatibilities in your code, if there are none then your deployment is already 6.4 compatible, you can still choose to do new development for utilizing 6.4 functionality, but you do't need it just for maintaining compatibility. If there are incompatibilities reported then you can choose to either a) Run in compatibility mode and defer your development for new 6.4 features or compatibility, b) Decide to do development after upgrade, and move to step 2. Please see please see [Backward Compatibility in AEM 6.4](/help/sites/deploying/using/backward-compatibility.md) for more details.
 
 1. **Develop Code Base for 6.4** - Create a dedicated branch or repository for the code base for the Target version. Use info from Pre-Upgrade Compatibility to plan areas of code to update.
 1. **Compile with 6.4 Uber jar** - Update code base POMs to point to 6.4 uber jar and compile code against this.
@@ -34,9 +34,9 @@ When planning an upgrade the following areas of an implementation need to be inv
 
 Before proceeding with an upgrade you should have a stable application code base that has been thoroughly tested against the target version of AEM. Based on observations made in testing there could be ways to optimize the custom code. This might include refactoring the code to avoid traversing the repository, custom indexing to optimize search, or use of unordered nodes in JCR, amongst others.
 
-In addition to the option of upgrading your code base and customizations to work with the new AEM version, 6.4 also helps manage your customizations more efficiently with the Backward Compatibility feature as described on [this page](../../../sites/deploying/using/backward-compatibility.md).
+In addition to the option of upgrading your code base and customizations to work with the new AEM version, 6.4 also helps manage your customizations more efficiently with the Backward Compatibility feature as described on [this page](/help/sites/deploying/using/backward-compatibility.md).
 
-As mentioned above and shown in the diagram below,running the [Pattern Detector](../../../sites/deploying/using/pattern-detector.md) in the first step will help you assess the overall complexity of the upgrade and whether you want to run in compatibility mode or update your customizations to use all the new AEM 6.4 features. Please see the [Backward Compatibility in AEM 6.4](../../../sites/deploying/using/backward-compatibility.md) page for more details.
+As mentioned above and shown in the diagram below,running the [Pattern Detector](/help/sites/deploying/using/pattern-detector.md) in the first step will help you assess the overall complexity of the upgrade and whether you want to run in compatibility mode or update your customizations to use all the new AEM 6.4 features. Please see the [Backward Compatibility in AEM 6.4](/help/sites/deploying/using/backward-compatibility.md) page for more details.
 [ ![](assets/screen_shot_2018-03-30at175257.png)](assets/upgrade-code-base-highlevel.png) 
 
 ## Upgrade the Code Base {#upgrade-code-base}
@@ -61,7 +61,7 @@ The AEM Uber jar includes all AEM APIs as a single dependency in your Maven proj
 
 ### Phase out use of Administrative Resource Resolver {#phase-out-use-of-administrative-resource-resolver}
 
-The use of an administrative session through `SlingRepository.loginAdministrative()` and `ResourceResolverFactory.getAdministrativeResourceResolver()` was quite prevalent in code bases prior to AEM 6.0. These methods have been deprecated for security reasons as they give too broad of a level of access. [In future versions of Sling these methods will be removed](https://sling.apache.org/documentation/the-sling-engine/service-authentication.html#deprecation-of-administrative-authentication). It is highly recommended to refactor any code to use Service Users instead. More information about Service Users and [how to phase out administrative sessions can be found here](../../../sites/administering/using/security-service-users.md#how-to-phase-out-admin-sessions).
+The use of an administrative session through `SlingRepository.loginAdministrative()` and `ResourceResolverFactory.getAdministrativeResourceResolver()` was quite prevalent in code bases prior to AEM 6.0. These methods have been deprecated for security reasons as they give too broad of a level of access. [In future versions of Sling these methods will be removed](https://sling.apache.org/documentation/the-sling-engine/service-authentication.html#deprecation-of-administrative-authentication). It is highly recommended to refactor any code to use Service Users instead. More information about Service Users and [how to phase out administrative sessions can be found here](/help/sites/administering/using/security-service-users.md#how-to-phase-out-admin-sessions).
 
 ### Queries and Oak Indexes {#queries-and-oak-indexes}
 
@@ -69,21 +69,21 @@ Any use of queries in the code base needs to be thoroughly tested as part of upg
 
 Several tools for tools for analyzing and inspecting query performance are available:
 
-* [AEM Index Tools](../../../sites/deploying/using/queries-and-indexing.md)  
+* [AEM Index Tools](/help/sites/deploying/using/queries-and-indexing.md)  
 
-* [Operations Diagnosis Tools - Query Performance](../../../sites/administering/using/operations-dashboard.md#diagnosis-tools)  
+* [Operations Diagnosis Tools - Query Performance](/help/sites/administering/using/operations-dashboard.md#diagnosis-tools)  
 
 * [Oak Utils](https://oakutils.appspot.com/). This is an open source tool that is not maintained by Adobe.
 
 ### Classic UI Authoring {#classic-ui-authoring}
 
-Classic UI authoring is still available in AEM 6.4 but is being deprecated. More information can be found [here](../../../release-notes/deprecated-removed-features.md#pre-announcement-for-next-release). If your application is currently running on the Classic UI author environment it is recommended to upgrade to AEM 6.4 and continue using the Classic UI. Migration to the Touch UI can then be planned as separate project to be completed over several development cycles. In order to use the Classic UI in AEM 6.4 several OSGi configurations are needed to be committed to the code base. More details on how to configure this can be found [here](../../../sites/administering/using/enable-classic-ui.md).
+Classic UI authoring is still available in AEM 6.4 but is being deprecated. More information can be found [here](/help/release-notes/deprecated-removed-features.md#pre-announcement-for-next-release). If your application is currently running on the Classic UI author environment it is recommended to upgrade to AEM 6.4 and continue using the Classic UI. Migration to the Touch UI can then be planned as separate project to be completed over several development cycles. In order to use the Classic UI in AEM 6.4 several OSGi configurations are needed to be committed to the code base. More details on how to configure this can be found [here](/help/../sites/administering/using//enable-classic-ui.md).
 
 ## Align with 6.4 Repository Structure {#align-repository-structure}
 
 To make upgrades easier and ensure that configurations are not overwritten during an upgrade, the repository is restructured in 6.4 to separate content from configuration.
 
-Therefore, a number of settings must be moved to no longer reside under `/etc` as had been the case in the past. To review the full set of repository restructuring concerns that must be reviewed and accomodated in the updated to AEM 6.4, see [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring-in-aem64.md).
+Therefore, a number of settings must be moved to no longer reside under `/etc` as had been the case in the past. To review the full set of repository restructuring concerns that must be reviewed and accomodated in the updated to AEM 6.4, see [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring-in-aem64.md).
 
 ## AEM Customizations  {#aem-customizations}
 
@@ -91,11 +91,11 @@ All customizations to the AEM authoring environment in the source version of AEM
 
 ### Overlays in general {#overlays-in-general}
 
-It is a common practice to extend AEM out of the box functionality by overlaying nodes and/or files under /libs with additional nodes under /apps. These overlays should be tracked in version control and tested against the target version of AEM. If a file (be it JS, JSP, HTL) is overlayed, it is recommended to leave a comment on what functionality has been augmented for easier regression testing on the target version of AEM. More information about overlays in general can be found [here](../../../sites/developing/using/overlays.md). Instructions for specific AEM overlays can be found below.
+It is a common practice to extend AEM out of the box functionality by overlaying nodes and/or files under /libs with additional nodes under /apps. These overlays should be tracked in version control and tested against the target version of AEM. If a file (be it JS, JSP, HTL) is overlayed, it is recommended to leave a comment on what functionality has been augmented for easier regression testing on the target version of AEM. More information about overlays in general can be found [here](/help/sites/developing/using/overlays.md). Instructions for specific AEM overlays can be found below.
 
 ### Upgrading Custom Search Forms {#upgrading-custom-search-forms}
 
-Custom Search Facets require some manual adjustments after the upgrade in order to function properly. For more details, see [Upgrading Custom Search Forms](../../../sites/deploying/using/upgrading-custom-search-forms.md).
+Custom Search Facets require some manual adjustments after the upgrade in order to function properly. For more details, see [Upgrading Custom Search Forms](/help/sites/deploying/using/upgrading-custom-search-forms.md).
 
 ### Assets UI Customizations {#assets-ui-customizations}
 
@@ -125,7 +125,7 @@ You can prepare customizations to the Assets UI by doing the following:
 
 ### Generating Asset IDs for Existing Assets {#generating-asset-ids-for-existing-assets}
 
-To generate asset IDs for existing assets, upgrade the assets when you upgrade your AEM instance to run AEM 6.4. This is required to enable the [Assets Insights feature](../../../assets/using/touch-ui-asset-insights.md). For more details, see [Adding Embed code](/help/assets/using/touch-ui-using-page-tracker.md#adding-embed-code).
+To generate asset IDs for existing assets, upgrade the assets when you upgrade your AEM instance to run AEM 6.4. This is required to enable the [Assets Insights feature](/help/assets/using/touch-ui-asset-insights.md). For more details, see [Adding Embed code](/help/assets/using/touch-ui-using-page-tracker.md#adding-embed-code).
 
 To upgrade assets, configure the Associate Asset IDs package in the JMX console. Depending on the number of assets in the repository, `migrateAllAssets` may take a long time. Our internal tests estimate roughly one hour for 125 thousand assets on TarMK.
 
@@ -137,11 +137,11 @@ For all other purposes, use the `migrateAllAssets()` API.
 
 ### InDesign Script Customizations {#indesign-script-customizations}
 
-Adobe recommends putting custom scripts at `/apps/settings/dam/indesign/scripts` location. More information about InDesign Script customizations can be found [here](../../../assets/using/indesign.md#configuring-the-aem-assets-workflow).
+Adobe recommends putting custom scripts at `/apps/settings/dam/indesign/scripts` location. More information about InDesign Script customizations can be found [here](/help/assets/using/indesign.md#configuring-the-aem-assets-workflow).
 
 ### Recovering ContextHub Configurations {#recovering-contexthub-configurations}
 
-ContextHub configurations are effected by an upgrade. Instructions on how to recover existing ContextHub configurations can be found [here](../../../sites/administering/using/contexthub-config.md#recovering-contexthub-configurations-after-upgrading).
+ContextHub configurations are effected by an upgrade. Instructions on how to recover existing ContextHub configurations can be found [here](/help/sites/administering/using/contexthub-config.md#recovering-contexthub-configurations-after-upgrading).
 
 ### Workflow Customizations {#workflow-customizations}
 
@@ -165,7 +165,7 @@ A comprehensive test plan should be prepared for testing upgrades. Testing the u
 
 ### Testing the Upgrade Procedure {#testing-the-upgrade-procedure}
 
-The upgrade procedure as outlined here should be tested on Dev and QA environments as documented in your customized run book (see [Planning Your Upgrade](../../../sites/deploying/using/upgrade-planning.md)). The upgrade procedure should be repeated until all steps are documented in the upgrade run book and the upgrade process is smooth.
+The upgrade procedure as outlined here should be tested on Dev and QA environments as documented in your customized run book (see [Planning Your Upgrade](/help/sites/deploying/using/upgrade-planning.md)). The upgrade procedure should be repeated until all steps are documented in the upgrade run book and the upgrade process is smooth.
 
 ### Implementation Test Areas  {#implementation-test-areas-}
 

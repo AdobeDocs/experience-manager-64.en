@@ -16,7 +16,7 @@ discoiquuid: fde9027b-9057-48c3-ae34-3f3258c5b371
 >[!NOTE]
 >
 >Adobe is not planning to further enhance E-mail tracking of open/bounces (not deliverable) send by AEM SMTP service.  
->Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 When you send a newsletter to many users, there are usually some invalid emails adresses in the list. Sending newsletters to those addresses bounce back. AEM is capable of managing those bounces and can stop sending newsletters to those adresses after the configured bounce counter is exceeded. By default, the bounce rate is set to 3 but is configurable.
 

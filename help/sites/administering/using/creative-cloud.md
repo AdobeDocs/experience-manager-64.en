@@ -13,7 +13,7 @@ discoiquuid: 61dd04d6-c225-400e-a73b-257a5eec9024
 
 # Integrating with Adobe Creative Cloud{#integrating-with-adobe-creative-cloud}
 
-Adobe Experience Manager (AEM) Assets lets you share folders containing assets with Adobe Creative Cloud users. For details on how to configure Adobe Marketing Cloud to let you share assets with Adobe Creative Cloud, see [Configuring Assets-Creative Cloud integration](../../../sites/administering/using/configure-assets-cc-integration.md).
+Adobe Experience Manager (AEM) Assets lets you share folders containing assets with Adobe Creative Cloud users. For details on how to configure Adobe Marketing Cloud to let you share assets with Adobe Creative Cloud, see [Configuring Assets-Creative Cloud integration](/help/sites/administering/using/configure-assets-cc-integration.md).
 
 1. In the Assets console, select a folder to share with Creative Cloud.
 

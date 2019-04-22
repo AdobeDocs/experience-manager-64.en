@@ -15,7 +15,7 @@ discoiquuid: 27605eb7-59b2-42d4-8cc5-02cfa52b4491
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 AEM Mobile apps are based on a blueprint that defines a page structure and properties. You can configure the following application properties:
 
@@ -51,7 +51,7 @@ Steps to creating a new app based on an app template:
 
 ![](assets/chlimage_1-158.png)
 
-Select an app template made available to you by an AEM developer. See [Structure of an AEM Mobile App](../../mobile/using/phonegap-structure-an-app.md) for developer assistance.
+Select an app template made available to you by an AEM developer. See [Structure of an AEM Mobile App](/help/mobile/using/phonegap-structure-an-app.md) for developer assistance.
 
 ![](assets/chlimage_1-159.png)
 
@@ -63,16 +63,16 @@ Fill out your new app's details as needed including optionally changing its thum
 
 See the following resources to learn more about other authoring roles:
 
-* [The Manage App Tile](../../mobile/using/phonegap-app-details-tile.md)
-* [Editing App Metadata](../../mobile/using/phonegap-editmetadata.md)
-* [App Definitions](../../mobile/using/phonegap-app-definitions.md)
-* [Import an Existing Hybrid App](../../mobile/using/phonegap-import-hybrid-app.md)
+* [The Manage App Tile](/help/mobile/using/phonegap-app-details-tile.md)
+* [Editing App Metadata](/help/mobile/using/phonegap-editmetadata.md)
+* [App Definitions](/help/mobile/using/phonegap-app-definitions.md)
+* [Import an Existing Hybrid App](/help/mobile/using/phonegap-import-hybrid-app.md)
 * [Content Services](/mobile/using/content-as-a-service.md)
 
 ## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Developing for Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md)
-* [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md)
+* [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/developing-in-phonegap.md)
+* [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md)
 

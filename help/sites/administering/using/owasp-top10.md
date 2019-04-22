@@ -45,9 +45,9 @@ In addition, AEM ships with a referrer-header based filter, which can be configu
 
 ## 6. Security Misconfiguration {#security-misconfiguration}
 
-It is impossible to guarantee that all software is always correctly configured. However, we strive to provide as much guidance as possible and make configuration as simple as possible. Furthermore, AEM ships with [integrated Security Healthchecks](../../../sites/administering/using/operations-dashboard.md) that help you monitor security configuration at a glance.
+It is impossible to guarantee that all software is always correctly configured. However, we strive to provide as much guidance as possible and make configuration as simple as possible. Furthermore, AEM ships with [integrated Security Healthchecks](/help/sites/administering/using/operations-dashboard.md) that help you monitor security configuration at a glance.
 
-Please review the [Security Checklist](../../../sites/administering/using/security-checklist.md) for more information which provides you with step by step hardening instructions.
+Please review the [Security Checklist](/help/sites/administering/using/security-checklist.md) for more information which provides you with step by step hardening instructions.
 
 ## 7. Insecure Cryptographic Storage {#insecure-cryptographic-storage}
 

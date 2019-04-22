@@ -22,7 +22,7 @@ You can also add additional tabs to the AEM Assets admin panel.
 
 >[!CAUTION]
 >
->As of AEM 6.4, Classic UI is deprecated. For announcement, see [Deprecated and Removed Features](../../release-notes/deprecated-removed-features.md). You are encouraged to use Touch-enabled UI. For customizations, see [Search Facets](search-facets.md).
+>As of AEM 6.4, Classic UI is deprecated. For announcement, see [Deprecated and Removed Features](/help/release-notes/deprecated-removed-features.md). You are encouraged to use Touch-enabled UI. For customizations, see [Search Facets](search-facets.md).
 
 ## Overlaying {#overlaying}
 
@@ -50,7 +50,7 @@ You can add additional Search tabs by configuring them in the AEM Assets Admin. 
 
 AEM Assets comes with a set of predefined predicates that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
 
-In addition to using pre-existing predicates, AEM developers can also create their own predicates using the [Query Builder API](../../sites/developing/using/querybuilder-api.md).
+In addition to using pre-existing predicates, AEM developers can also create their own predicates using the [Query Builder API](/help/sites/developing/using/querybuilder-api.md).
 
 Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html.
 

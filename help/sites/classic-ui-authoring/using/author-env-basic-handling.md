@@ -18,7 +18,7 @@ discoiquuid: 9737ead9-e324-43c9-9780-7abd292f4e5b
 >* This page is designed to give an overview of basic handling when using the AEM author environment. It uses the **Sites** console as a basis.  
 >
 >* Some functionality is not available in all consoles and/or additional functionality is available in some consoles. Specific information about the individual consoles and their related functionality will be covered in more detail on other pages.
->* Keyboard shortcuts are available throughout AEM. In particular when [using consoles](../../../sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md) and [editing pages](../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md).  
+>* Keyboard shortcuts are available throughout AEM. In particular when [using consoles](/help/sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md) and [editing pages](/help/sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md).  
 >
 
 ## The Welcome Screen {#the-welcome-screen}
@@ -87,7 +87,7 @@ The **Websites** console provides two panes for you to navigate and manage your 
 * Right pane  
   This shows the pages (at the location selected in the left pane) and can be used for taking actions.
 
-From here you can [manage your pages](../../../sites/authoring/using/managing-pages.md) using either the toolbar, a context menu or by opening a page for further actions. [](../../../sites/classic-ui-authoring/using/classic-page-author-manage-pages.md)
+From here you can [manage your pages](/help/sites/authoring/using/managing-pages.md) using either the toolbar, a context menu or by opening a page for further actions. [](/help/sites/classic-ui-authoring/using/classic-page-author-manage-pages.md)
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ On various consoles (e.g. Websites) there is also **Help** button is available, 
 
 ![](assets/chlimage_1-10.png)
 
-When editing a page the [sidekick also has a button for accessing help](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#accessing-help).
+When editing a page the [sidekick also has a button for accessing help](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#accessing-help).
 
 ## Navigating with the Websites Console {#navigating-with-the-websites-console}
 

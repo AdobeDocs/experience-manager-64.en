@@ -30,7 +30,7 @@ New instances of a report can also be created from the **Tools** console. Select
 
 >[!NOTE]
 >
->In addition to the standard AEM reports that are available out of the box, you can [develop your own (completely new) reports](../../../sites/developing/using/dev-reports.md).
+>In addition to the standard AEM reports that are available out of the box, you can [develop your own (completely new) reports](/help/sites/developing/using/dev-reports.md).
 
 ## The Basics of Report Customization {#the-basics-of-report-customization}
 
@@ -50,7 +50,7 @@ There are various formats of reports available. The following reports all use co
 >* [Health Check](#health-check) uses selection fields to specify the data you want to report on.  
 >
 >* [Disk Usage](#disk-usage) uses links to drill down through the repository structure.
->* [Workflow report](../../../sites/administering/using/reporting.md#workflow-report) gives an overview of the workflows running on your instance.
+>* [Workflow report](/help/sites/administering/using/reporting.md#workflow-report) gives an overview of the workflows running on your instance.
 >
 >So the following procedures for column configuration are not appropriate. See the descriptions of the individual reports for their details.
 
@@ -185,7 +185,7 @@ When snapshots are being collected you can:
 
 >[!NOTE]
 >
->The preconfigured reports are not perfomance intensive, but it is still recommended to use daily snapshots on a production environment. If possible run these daily snapshots at a time of day when there is not much activity on your website; this can be defined with the `Daily snapshots (repconf.hourofday)` parameter for **Day CQ Reporting Configuration**; see [OSGI Configuration](../../../sites/deploying/using/configuring-osgi.md) for more details on how to configure this.
+>The preconfigured reports are not perfomance intensive, but it is still recommended to use daily snapshots on a production environment. If possible run these daily snapshots at a time of day when there is not much activity on your website; this can be defined with the `Daily snapshots (repconf.hourofday)` parameter for **Day CQ Reporting Configuration**; see [OSGI Configuration](/help/sites/deploying/using/configuring-osgi.md) for more details on how to configure this.
 
 #### Display Limits {#display-limits}
 
@@ -409,7 +409,7 @@ Allow you to:
 
 #### Generic Column {#generic-column}
 
-The **Generic** column is available in the User Report so that you can access customized information, usually from the [user profiles](../../../sites/administering/using/identity-management.md#profiles-and-user-accounts); for example, [Favorite Color as detailed under Adding Fields to the Profile Definition](../../../sites/administering/using/identity-management.md#adding-fields-to-the-profile-definition).
+The **Generic** column is available in the User Report so that you can access customized information, usually from the [user profiles](/help/sites/administering/using/identity-management.md#profiles-and-user-accounts); for example, [Favorite Color as detailed under Adding Fields to the Profile Definition](/help/sites/administering/using/identity-management.md#adding-fields-to-the-profile-definition).
 
 The Generic column dialog will open when you either:
 

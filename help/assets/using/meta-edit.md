@@ -41,7 +41,7 @@ To edit metadata:
 
 Any changes to the metadata of an asset are written back to the original binary as part of its XMP data. This is done via AEM's Metadata write-back workflow. Changes made to the existing properties (such as `dc:title`) are overwritten and newly created properties (including custom properties like `cq:tags`) are added together with the schema.
 
-XMP write-back is supported and enabled for the platforms and file formats described in [Technical Requirements.](../../sites/deploying/using/technical-requirements.md)
+XMP write-back is supported and enabled for the platforms and file formats described in [Technical Requirements.](/help/sites/deploying/using/technical-requirements.md)
 
 ## Editing Metadata Schema {#editing-metadata-schema}
 

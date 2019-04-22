@@ -46,7 +46,7 @@ Enhanced smart tags are based on learning models of brand images and their tags.
 
 * Inability to recognize subtle differences in images. For example, slim versus regular fitted shirts. 
 * Inability to identify tags based on tiny patterns/parts of an image. For example, logos on T-shirts.
-* Tagging is supported in the locales that AEM is supported in. For a list of languages, see [Smart Content Services release notes](../../release-notes/smart-content-service-release-notes.md).
+* Tagging is supported in the locales that AEM is supported in. For a list of languages, see [Smart Content Services release notes](/help/release-notes/smart-content-service-release-notes.md).
 
 To search for assets with smart tags (regular or enhanced), use the Assets Omni-search (full-text search). There is no separate search predicate for smart tags. 
 

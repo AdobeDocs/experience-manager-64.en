@@ -13,7 +13,7 @@ discoiquuid: 83c4f18a-d7d6-4090-88c7-41a9075153b5
 
 # Create the Components{#create-the-components}
 
-|   |** [Add Comment to Sample Page ⇒](../../communities/using/extend-sample-page.md)** |
+|   |** [Add Comment to Sample Page ⇒](/help/communities/using/extend-sample-page.md)** |
 |---|---|
 
 The example of extending components uses the comment system, which is actually composed of two components
@@ -110,7 +110,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
 
 ### Copy and Modify the Default HBS Scripts {#copy-and-modify-the-default-hbs-scripts}
 
-Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
+Using [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md):
 
 * copy **comments.hbs**
 
@@ -148,7 +148,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 To avoid having to explicitly include this client library, the categories value for the default comment system's clientlib could be used ( `cq.social.author.hbs.comments`), but then this clientlib would be included for all instances of the default component as well.
 
-Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
+Using [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md):
 
 * select `/apps/custom/components/comments` node
 * select **Create Node**
@@ -218,6 +218,6 @@ One way to do so is
     * uncheck `Only Modified`
     * select `Activate`button
 
-|   |** [Add Comment to Sample Page ⇒](../../communities/using/extend-sample-page.md)** |
+|   |** [Add Comment to Sample Page ⇒](/help/communities/using/extend-sample-page.md)** |
 |---|---|
 

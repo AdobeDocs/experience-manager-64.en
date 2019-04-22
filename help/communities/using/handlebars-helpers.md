@@ -13,21 +13,21 @@ discoiquuid: 8b6c1697-d693-41f4-8337-f41658465107
 
 # SCF Handlebars Helpers{#scf-handlebars-helpers}
 
-| ** [⇐ Feature Essentials](../../communities/using/essentials.md)** |** [Server-side Customization ⇒](../../communities/using/server-customize.md)** |
+| ** [⇐ Feature Essentials](/help/communities/using/essentials.md)** |** [Server-side Customization ⇒](/help/communities/using/server-customize.md)** |
 |---|---|
-|   |** [Client-side Customization ⇒](../../communities/using/client-customize.md)** |
+|   |** [Client-side Customization ⇒](/help/communities/using/client-customize.md)** |
 
 Handlebars Helpers (helpers) are methods callable from Handlebars scripts to facilitate working with SCF components.
 
 The implementation includes a client-side and a server-side definition. It is also possible for developers to create custom helpers.
 
-The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](../../sites/developing/using/clientlibs.md):
+The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](/help/sites/developing/using/clientlibs.md):
 
 * /etc/clientlibs/social/commons/scf/helpers.js
 
 >[!NOTE]
 >
->Be sure to install the [latest Communities feature pack](../../communities/using/deploy-communities.md#latestfeaturepack).
+>Be sure to install the [latest Communities feature pack](/help/communities/using/deploy-communities.md#latestfeaturepack).
 
 ## abbreviate {#abbreviate}
 
@@ -189,7 +189,7 @@ A block helper that tests the current value of [WCM mode](https://helpx.adobe.co
 
 This helper overrides the Handlebars helper 'i18n'.
 
-See also [Internationalizing Strings in JavaScript Code](../../sites/developing/using/i18n-dev.md#internationalizing-strings-in-javascript-code).
+See also [Internationalizing Strings in JavaScript Code](/help/sites/developing/using/i18n-dev.md#internationalizing-strings-in-javascript-code).
 
 ### parameters {#parameters-5}
 
@@ -214,11 +214,11 @@ See also [Internationalizing Strings in JavaScript Code](../../sites/developing/
 
 A helper to include a component as a non-existing resource in a template.
 
-This allows the resource to be programmatically customized more easily than is possible for a resource added as a JCR node. See [Add or Include a Communities Component](../../communities/using/scf.md#add-or-include-a-communities-component).
+This allows the resource to be programmatically customized more easily than is possible for a resource added as a JCR node. See [Add or Include a Communities Component](/help/communities/using/scf.md#add-or-include-a-communities-component).
 
-Only a select few of Communities components are includable. For AEM 6.1, those that are includable are [comments](../../communities/using/essentials-comments.md), [rating](../../communities/using/rating-basics.md), [reviews](../../communities/using/reviews-basics.md), and [voting](../../communities/using/essentials-voting.md).
+Only a select few of Communities components are includable. For AEM 6.1, those that are includable are [comments](/help/communities/using/essentials-comments.md), [rating](/help/communities/using/rating-basics.md), [reviews](/help/communities/using/reviews-basics.md), and [voting](/help/communities/using/essentials-voting.md).
 
-This helper, appropriate only on the server-side, provides functionality similar to [cq:include](../../sites/developing/using/taglib.md) for JSP scripts.
+This helper, appropriate only on the server-side, provides functionality similar to [cq:include](/help/sites/developing/using/taglib.md) for JSP scripts.
 
 ### parameters {#parameters-6}
 
@@ -251,7 +251,7 @@ This will include a new comments component at `this.id` + /comments
 
 A helper that includes an AEM html client library, which can be a js, a css or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the Handlebars script.
 
-This helper, appropriate only on the server-side, provides functionality similar to [ui:includeClientLib](../../sites/developing/using/taglib.md) for JSP scripts.
+This helper, appropriate only on the server-side, provides functionality similar to [ui:includeClientLib](/help/sites/developing/using/taglib.md) for JSP scripts.
 
 ### parameters {#parameters-7}
 
@@ -489,7 +489,7 @@ Custom helpers must be implemented on the server-side as well as the client-side
 
 ### Server-side Custom Helpers {#server-side-custom-helpers}
 
-To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.html), make it an [OSGi Service](../../sites/developing/using/the-basics.md#osgi) and install it as part of an OSGi bundle.
+To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.html), make it an [OSGi Service](/help/sites/developing/using/the-basics.md#osgi) and install it as part of an OSGi bundle.
 
 For example:
 
@@ -562,11 +562,11 @@ The clientlib must:
 
 * include a dependency on `cq.social.scf`
 * load after Handlebars has been loaded
-* be [included](../../communities/using/clientlibs.md)
+* be [included](/help/communities/using/clientlibs.md)
 
 Note: the SCF helpers are defined in `/etc/clientlibs/social/commons/scf/helpers.js`.
 
-| ** [⇐ Feature Essentials](../../communities/using/essentials.md)** |** [Server-side Customization ⇒](../../communities/using/server-customize.md)** |
+| ** [⇐ Feature Essentials](/help/communities/using/essentials.md)** |** [Server-side Customization ⇒](/help/communities/using/server-customize.md)** |
 |---|---|
-|   |** [Client-side Customization ⇒](../../communities/using/client-customize.md)** |
+|   |** [Client-side Customization ⇒](/help/communities/using/client-customize.md)** |
 

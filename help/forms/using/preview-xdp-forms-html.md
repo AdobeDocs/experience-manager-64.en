@@ -48,7 +48,7 @@ To enable Designer to generate HTML preview of XDP forms, perform the following 
 
 ### Disable protected mode {#disable-protected-mode}
 
-The [protected mode](../../forms/using/get-xdp-pdf-documents-aem.md) is on, by default. Keep it enabled for the production environments. You can disable it for a development environment to preview HTML5 Forms in desinger. Perform the following steps to disable it:
+The [protected mode](/help/forms/using/get-xdp-pdf-documents-aem.md) is on, by default. Keep it enabled for the production environments. You can disable it for a development environment to preview HTML5 Forms in desinger. Perform the following steps to disable it:
 
 1. Log in to AEM Web Console as an administrator.
 

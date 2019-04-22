@@ -17,7 +17,7 @@ The author environment of AEM provides various mechanisms for searching for cont
 
 >[!NOTE]
 >
->Outside the author environment other mechanisms are also available for searching, such as the [Query Builder](../../../sites/developing/using/querybuilder-api.md) and [CRXDE Lite](../../../sites/developing/using/developing-with-crxde-lite.md).
+>Outside the author environment other mechanisms are also available for searching, such as the [Query Builder](/help/sites/developing/using/querybuilder-api.md) and [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md).
 
 ## Search Basics {#search-basics}
 
@@ -74,7 +74,7 @@ To search and filter your resources:
    >    
    >    
    >    * Depending on the resource type you have selected; for example, the Assets and Communities criteria are understandably specialized.
-   >    * Your instance as the [Search Forms](../../../sites/administering/using/search-forms.md) can be customized (appropriate to the location within AEM).
+   >    * Your instance as the [Search Forms](/help/sites/administering/using/search-forms.md) can be customized (appropriate to the location within AEM).
    >    
    >
 

@@ -20,8 +20,8 @@ WCAG 2.0 consists of a set of technology independent guidelines and success crit
 >
 >See also:
 >
->* our [Quick Guide to WCAG 2.0](../../../managing/using/qg-wcag.md) for further details
->* [Configuring the Rich Text Editor for producing accessible content](../../../sites/administering/using/rte-accessible-content.md)  
+>* our [Quick Guide to WCAG 2.0](/help/managing/using/qg-wcag.md) for further details
+>* [Configuring the Rich Text Editor for producing accessible content](/help/sites/administering/using/rte-accessible-content.md)  
 >
 
 These are graded according to three conformance levels: Level A (lowest), Level AA and Level AAA (highest). Briefly, the levels are defined as follows:
@@ -72,7 +72,7 @@ For static graphics, the basic requirement is to provide an equivalent text alte
 
 >[!NOTE]
 >
->Some out-of-the-box components, such as **Carousel** and **Slideshow** do not provide a means for adding alternate text descriptions to images. When implementing versions of these for your AEM instance, your development team will need to configure such components to support the `alt` attribute so that authors can add it to the content (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
+>Some out-of-the-box components, such as **Carousel** and **Slideshow** do not provide a means for adding alternate text descriptions to images. When implementing versions of these for your AEM instance, your development team will need to configure such components to support the `alt` attribute so that authors can add it to the content (see [Adding Support for Additional HTML Elements and Attributes](/help/sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
 The **Alt Text** field is available in the **Advanced **image properties tab of the **Image **component dialog:
 
@@ -421,7 +421,7 @@ You can make sure your web pages are given the appropriate structure by:
 
   >[!NOTE]
   >
-  >By default, these elements and attributes are not directly available, though it is possible for the system administrator to add support for these values in the **Table properties** dialog box (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
+  >By default, these elements and attributes are not directly available, though it is possible for the system administrator to add support for these values in the **Table properties** dialog box (see [Adding Support for Additional HTML Elements and Attributes](/help/sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
   When adding a **Table** you can configure **Table properties** using the dialog.
 
@@ -872,7 +872,7 @@ Similarly, the browser can render an uncommon loan word or phrase correctly if t
 >
 >It is not necessary to follow this success criterion when including names or cities in different languages, or when using loan words or phrases that have become commonplace in the default language (such as *schadenfreude* in English).
 
-To add the span element, with an appropriate language, you can manually edit your HTML markup in the source edit mode of the RTE so that it reads as above. Alternatively the `lang` attribute can be included in the RTE by a system administrator (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
+To add the span element, with an appropriate language, you can manually edit your HTML markup in the source edit mode of the RTE so that it reads as above. Alternatively the `lang` attribute can be included in the RTE by a system administrator (see [Adding Support for Additional HTML Elements and Attributes](/help/sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
 #### More Information - Language of Parts (3.1.2) {#more-information-language-of-parts}
 
@@ -913,7 +913,7 @@ Where there is a group of related controls, such as **Radio Group**, a title may
 
 ![Adding items to the radio group. The group title is 'Contact me by' - defined in the Title field.](assets/chlimage_1-24.png)
 
-However, there is no programmatic association between the group title and the radio buttons themselves. Template editors would need to wrap the title in the necessary `fieldset` and `legend` tags to create this association and this can only be done by editing the page source code. Alternatively, a system administrator can add support for these elements so that they appear in the **Field Properties** dialog (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
+However, there is no programmatic association between the group title and the radio buttons themselves. Template editors would need to wrap the title in the necessary `fieldset` and `legend` tags to create this association and this can only be done by editing the page source code. Alternatively, a system administrator can add support for these elements so that they appear in the **Field Properties** dialog (see [Adding Support for Additional HTML Elements and Attributes](/help/sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
 #### Additional Considerations for Forms {#additional-considerations-for-forms}
 

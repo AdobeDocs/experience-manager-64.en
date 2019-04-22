@@ -139,7 +139,7 @@ Select * from EdcPrincipalEntity where id='<principal_id>';
 
 Do the following to delete user management data for a principal ID from database tables.
 
-1. Delete user data from AEM repository, if applicable, as described in [Delete user data](../../forms/using/user-management-handling-user-data.md#delete-aem).
+1. Delete user data from AEM repository, if applicable, as described in [Delete user data](/help/forms/using/user-management-handling-user-data.md#delete-aem).
 1. Shut down the AEM Forms server.
 1. Run the following database commands to delete user management data for a principal ID from database tables. In the `Delete` command, replace `<principal_id>` with the principal ID of the user whose data you want to delete.
 

@@ -27,11 +27,11 @@ Multi Site Manager (MSM) enables you to use the same site content in multiple lo
 
 This and the following pages cover the related issues:
 
-* [Creating and Synchronizing Live Copies](../../../sites/administering/using/msm-livecopy.md)
-* [Live Copy Overview Console](../../../sites/administering/using/msm-livecopy-overview.md)
-* [Configuring Live Copy Synchronization](../../../sites/administering/using/msm-sync.md)
-* [MSM Rollout Conflicts](../../../sites/administering/using/msm-rollout-conflicts.md)
-* [MSM Best Practices](../../../sites/administering/using/msm-best-practices.md)
+* [Creating and Synchronizing Live Copies](/help/sites/administering/using/msm-livecopy.md)
+* [Live Copy Overview Console](/help/sites/administering/using/msm-livecopy-overview.md)
+* [Configuring Live Copy Synchronization](/help/sites/administering/using/msm-sync.md)
+* [MSM Rollout Conflicts](/help/sites/administering/using/msm-rollout-conflicts.md)
+* [MSM Best Practices](/help/sites/administering/using/msm-best-practices.md)
 
 ## Possible Scenarios {#possible-scenarios}
 
@@ -70,7 +70,7 @@ There are many use-cases for MSM and live copies, some scenerios include:
   >MSM does not translate the content. It is used to create the required structure and deploy the content.
   >
   >
-  >See [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md) if you want to extend such an example.
+  >See [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md) if you want to extend such an example.
 
 * **National - Head-Office to Regional Branches**
 
@@ -128,33 +128,33 @@ MSM is directly accessible in the UI using various options from the appropriate 
 
 * **Create Site** (**Sites**)
 
-    * MSM helps you to manage multiple websites that share common content; for example, websites are often provided for international audiences such that most of the content is common across all countries, with a subset of the content specfic to each individual country. MSM allows you to [create live copies that automatically update one or more sites based on your source site](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration). This also helps you to enforce a common base structure, use the common content across the multiple sites, maintain a common look and feel and focus efforts on managing the content that actually differs between the sites.
+    * MSM helps you to manage multiple websites that share common content; for example, websites are often provided for international audiences such that most of the content is common across all countries, with a subset of the content specfic to each individual country. MSM allows you to [create live copies that automatically update one or more sites based on your source site](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration). This also helps you to enforce a common base structure, use the common content across the multiple sites, maintain a common look and feel and focus efforts on managing the content that actually differs between the sites.
     * Requires a predefined blueprint configuration to specify the source.
     * Creates a live copy of the (predefined) source.
     * Provides the user with the **Rollout** button.
 
 * **Create Live Copy** (**Sites**)
 
-    * MSM allows you to [create an ad-hoc (one-off) live copy of an individual page or sub-branch of a website](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page); for example, duplicating a sub-branch to provide information about a new/updated version of a product.
+    * MSM allows you to [create an ad-hoc (one-off) live copy of an individual page or sub-branch of a website](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page); for example, duplicating a sub-branch to provide information about a new/updated version of a product.
     * Creates an ad-hoc live copy (no blueprint configuration required).
     * Can be used to (immediately) create a live copy of any page/branch.
     * Requires **Synchronize** (does not provide the **Rollout** button).
 
 * **View Properties** (**Sites**)
 
-    * Where appropriate, this option helps you [monitor your live copy](../../../sites/administering/using/msm-livecopy.md#monitoring-your-live-copy) by providing information on the related **Live Cop**y or **Blueprint**.
+    * Where appropriate, this option helps you [monitor your live copy](/help/sites/administering/using/msm-livecopy.md#monitoring-your-live-copy) by providing information on the related **Live Cop**y or **Blueprint**.
 
 * **References** (**Sites**)
 
-    * The [References](../../../sites/authoring/using/basic-handling.md#references) rail provides information about **Live Copies** together with access to appropriate actions.
+    * The [References](/help/sites/authoring/using/basic-handling.md#references) rail provides information about **Live Copies** together with access to appropriate actions.
 
 * **Live Copy Overview** (**Sites**)
 
-    * This console allows you to [view and manage your blueprint and its live copies](../../../sites/administering/using/msm-livecopy-overview.md).
+    * This console allows you to [view and manage your blueprint and its live copies](/help/sites/administering/using/msm-livecopy-overview.md).
 
 * **Blueprints** (**Tools** - **Sites**)
 
-    * This console allows you to [create and manage your blueprint configurations](../../../sites/administering/using/msm-livecopy.md#creating-a-blueprint-configuration).
+    * This console allows you to [create and manage your blueprint configurations](/help/sites/administering/using/msm-livecopy.md#creating-a-blueprint-configuration).
 
 >[!NOTE]
 >
@@ -260,7 +260,7 @@ As an introduction the following table provides an overview of the main terms us
 
 >[!NOTE]
 >
->See [Overview of the Java API](../../../sites/developing/using/extending-msm.md#overview-of-the-java-api) for the object names.
+>See [Overview of the Java API](/help/sites/developing/using/extending-msm.md#overview-of-the-java-api) for the object names.
 
 ## Live Copies {#live-copies}
 
@@ -304,7 +304,7 @@ The basic form of live copy has:
     * Link the live copy resource with its blueprint/source. 
     * Are used when realizing inheritance and rollout.
 
-* Changes can be [synchronized](../../../sites/administering/using/msm-livecopy.md#synchronizing-your-live-copy) according to requirements.
+* Changes can be [synchronized](/help/sites/administering/using/msm-livecopy.md#synchronizing-your-live-copy) according to requirements.
 
 ![](assets/chlimage_1-367.png) 
 
@@ -313,7 +313,7 @@ The basic form of live copy has:
 When you create a live copy in AEM you can see and navigate through the live copy branch - and use normal AEM functionality on the live copy branch. This means that you (or a process) can create new resources (pages and/or paragraphs) inside the live copy branch (e.g. `myCanadaOnlyProduct`).
 
 * Such resources have no live relationship to the source/blueprint pages and are not synchronized. 
-* Scenarios can occur that MSM handles as special cases. For example, when you (or a process) create a page with the same position and name in both the source/blueprint and live copy branches. For such situations see [MSM Rollout Conflicts](../../../sites/administering/using/msm-rollout-conflicts.md) for more information.
+* Scenarios can occur that MSM handles as special cases. For example, when you (or a process) create a page with the same position and name in both the source/blueprint and live copy branches. For such situations see [MSM Rollout Conflicts](/help/sites/administering/using/msm-rollout-conflicts.md) for more information.
 
 ![](assets/chlimage_1-368.png) 
 
@@ -349,10 +349,10 @@ The source for a live copy can be either regular pages or pages encompassed by a
 
 The source forms the blueprint for the live copy. The blueprint is defined when you either:
 
-* [Create a Blueprint configuration](../../../sites/administering/using/msm-livecopy.md#creating-a-blueprint-configuration)  
+* [Create a Blueprint configuration](/help/sites/administering/using/msm-livecopy.md#creating-a-blueprint-configuration)  
   The configuration defines (in advance) the pages to be used to create the live copy.
 
-* [Create a Live Copy of a Page](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page)  
+* [Create a Live Copy of a Page](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page)  
   The pages used to create the live copy (the source pages) are the blueprint pages.  
   The source page can be referenced by a blueprint configuration, or not.
 
@@ -360,14 +360,14 @@ The source forms the blueprint for the live copy. The blueprint is defined when 
 
 A rollout is the central MSM action that synchronizes live copies with their source. You can perform rollouts manually or they can occur automatically:
 
-* A [rollout configuration](#rollout-configurations) can be defined so that specific [events](../../../sites/administering/using/msm-sync.md#rollout-triggers) can cause a rollout to occur automatically.
-* When authoring a blueprint page you can use the [Rollout](../../../sites/administering/using/msm-livecopy.md#rolling-out-a-blueprint) command to push changes to the live copy.
+* A [rollout configuration](#rollout-configurations) can be defined so that specific [events](/help/sites/administering/using/msm-sync.md#rollout-triggers) can cause a rollout to occur automatically.
+* When authoring a blueprint page you can use the [Rollout](/help/sites/administering/using/msm-livecopy.md#rolling-out-a-blueprint) command to push changes to the live copy.
 
   **The Rollout** command is available on a blueprint page that is referenced by a blueprint configuration.
 
   ![](assets/chlimage_1-370.png)
 
-* When authoring a live copy page you can use the [Synchronize](../../../sites/administering/using/msm-livecopy.md#synchronizing-a-live-copy) command to pull changes from the source to the live copy.
+* When authoring a live copy page you can use the [Synchronize](/help/sites/administering/using/msm-livecopy.md#synchronizing-a-live-copy) command to pull changes from the source to the live copy.
 
   The **Synchronize** command is always available on the live copy page (regardless of whether the source/blueprint page is encompassed by a blueprint configuration).
 
@@ -389,11 +389,11 @@ A rollout configuration defines when and how a live copy is synchronized with th
   >
   >You can create custom actions for your instance using the Java API.
 
-Rollout configurations can be re-used, so that more than one live copy can use the same rollout configuration. Several [rollout configurations](../../../sites/administering/using/msm-sync.md#installed-rollout-configurations) are included in a standard installation.
+Rollout configurations can be re-used, so that more than one live copy can use the same rollout configuration. Several [rollout configurations](/help/sites/administering/using/msm-sync.md#installed-rollout-configurations) are included in a standard installation.
 
 ### Rollout Conflicts {#rollout-conflicts}
 
-Rollouts can become complicated, especially when authors are editing content in both the source and the live copy, so it is useful to be aware of how AEM handles any [conflicts that might occur during rollout](../../../sites/administering/using/msm-rollout-conflicts.md).
+Rollouts can become complicated, especially when authors are editing content in both the source and the live copy, so it is useful to be aware of how AEM handles any [conflicts that might occur during rollout](/help/sites/administering/using/msm-rollout-conflicts.md).
 
 ### Suspending and Cancelling Inheritance and Synchronization {#suspending-and-cancelling-inheritance-and-synchronization}
 
@@ -405,7 +405,7 @@ When editing an individual page, authors can **Cancel Inheritance** for a compon
 
 ### Detaching a Live Copy {#detaching-a-live-copy}
 
-You can also [detach a live copy](../../../sites/administering/using/msm-livecopy.md#detaching-a-live-copy) from its blueprint to remove all connections.
+You can also [detach a live copy](/help/sites/administering/using/msm-livecopy.md#detaching-a-live-copy) from its blueprint to remove all connections.
 
 >[!CAUTION]
 >
@@ -415,7 +415,7 @@ Detach permanently removes the live relationship between a live copy and its blu
 
 >[!NOTE]
 >
->See [Detaching a Live Copy](../../../sites/administering/using/msm-livecopy.md#detaching-a-live-copy) for full details; including the related impact on sub- and parent pages.
+>See [Detaching a Live Copy](/help/sites/administering/using/msm-livecopy.md#detaching-a-live-copy) for full details; including the related impact on sub- and parent pages.
 
 ## Standard Steps for Using MSM {#standard-steps-for-using-msm}
 
@@ -424,25 +424,25 @@ The following steps describe the standard procedure for using MSM to reuse conte
 1. Develop the content of the source site.
 1. Determine the rollout configuration to use.
 
-    1. MSM [installs several rollout configurations](../../../sites/administering/using/msm-sync.md#installed-rollout-configurations) that can satisfy a number of use cases.
-    1. Optionally you can [create a rollout configuration](../../../sites/administering/using/msm-sync.md#creating-a-rollout-configuration) if required.
+    1. MSM [installs several rollout configurations](/help/sites/administering/using/msm-sync.md#installed-rollout-configurations) that can satisfy a number of use cases.
+    1. Optionally you can [create a rollout configuration](/help/sites/administering/using/msm-sync.md#creating-a-rollout-configuration) if required.
 
-1. Determine where you need to [specify the rollout configurations to use](../../../sites/administering/using/msm-sync.md#specifying-the-rollout-configurations-to-use) and configure as required.
-1. If required, [create a blueprint configuration](../../../sites/administering/using/msm-livecopy.md#creating-a-blueprint-configuration) that identifies the source content of the live copy.
-1. [Create a live copy](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy). 
+1. Determine where you need to [specify the rollout configurations to use](/help/sites/administering/using/msm-sync.md#specifying-the-rollout-configurations-to-use) and configure as required.
+1. If required, [create a blueprint configuration](/help/sites/administering/using/msm-livecopy.md#creating-a-blueprint-configuration) that identifies the source content of the live copy.
+1. [Create a live copy](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy). 
 1. Make changes to the source content as required. You should employ the normal content review and approval process that your organization has established.
-1. [Roll out](../../../sites/administering/using/msm-livecopy.md#rolling-out-a-blueprint) the blueprint, or [synchronize the live copy](../../../sites/administering/using/msm-livecopy.md#synchronizing-a-live-copy) with the changes.
+1. [Roll out](/help/sites/administering/using/msm-livecopy.md#rolling-out-a-blueprint) the blueprint, or [synchronize the live copy](/help/sites/administering/using/msm-livecopy.md#synchronizing-a-live-copy) with the changes.
 
 ## Customizing MSM {#customizing-msm}
 
 MSM provides tools so that your implementation can adapt to the exceptional complexities that can exist when sharing content:
 
 * **Custom Rollout Configurations** 
-  [Create a rollout configuration](../../../sites/administering/using/msm-sync.md#creating-a-rollout-configuration) when the installed rollout configurations do not meet your requirements. You can use any available rollout trigger and synchronization action.
+  [Create a rollout configuration](/help/sites/administering/using/msm-sync.md#creating-a-rollout-configuration) when the installed rollout configurations do not meet your requirements. You can use any available rollout trigger and synchronization action.
 
 * **Custom Synchronization Actions** 
-  [Create a custom synchronization action](../../../sites/developing/using/extending-msm.md#creating-a-new-synchronization-action) when the installed actions do not meet your specific application requirements. MSM provides a Java API for creating custom synchronization actions.
+  [Create a custom synchronization action](/help/sites/developing/using/extending-msm.md#creating-a-new-synchronization-action) when the installed actions do not meet your specific application requirements. MSM provides a Java API for creating custom synchronization actions.
 
 ## Best Practices {#best-practices}
 
-The [MSM Best Practices](../../../sites/administering/using/msm-best-practices.md) page contains important information regarding your implementation.
+The [MSM Best Practices](/help/sites/administering/using/msm-best-practices.md) page contains important information regarding your implementation.

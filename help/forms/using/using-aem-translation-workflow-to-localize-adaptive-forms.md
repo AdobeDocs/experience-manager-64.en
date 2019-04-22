@@ -44,11 +44,11 @@ The machine translation service immediately translates your content in adaptive 
 
    For more information on Document of Record settings and configuration, see:
 
-   [Document of Record Template Configuration](../../forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md#p-document-of-record-template-configuration-p)
+   [Document of Record Template Configuration](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md#p-document-of-record-template-configuration-p)
 
-   [Document of Record settings](../../forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md#p-document-of-record-settings-p)
+   [Document of Record settings](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md#p-document-of-record-settings-p)
 
-1. [Customize the branding information of the document of record](../../forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md) and ensure that the browser locale is set to the same language to which you have localized the Adaptive Form using machine language. The browser locale helps localize the branding information in the document of record.
+1. [Customize the branding information of the document of record](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md) and ensure that the browser locale is set to the same language to which you have localized the Adaptive Form using machine language. The browser locale helps localize the branding information in the document of record.
 1. To view the localized document of record, tap Generate Preview. The document of record PDF is generated and opened in a new tab in your browser.
 
 ## Localizing an adaptive form and its document of record using Human Translation {#localizing-an-adaptive-form-and-its-document-of-record-using-human-translation}
@@ -59,17 +59,17 @@ For translation, a dictionary containing files in XLIFF format is shared with th
 
 Perform the following steps to localize a form and its document of record using Human Translators:
 
-1. [Connect AEM with your translation service provider](../../sites/administering/using/tc-tic.md) and [create translation integration framework configurations](../../sites/administering/using/tc-tic.md).
+1. [Connect AEM with your translation service provider](/help/sites/administering/using/tc-tic.md) and [create translation integration framework configurations](/help/sites/administering/using/tc-tic.md).
 
-2. [Associate the pages of your language master](../../sites/administering/using/tc-tic.md) with the translation service and framework configurations.
+2. [Associate the pages of your language master](/help/sites/administering/using/tc-tic.md) with the translation service and framework configurations.
 
-3. [Identify the type of content](../../sites/administering/using/tc-rules.md) to translate.
+3. [Identify the type of content](/help/sites/administering/using/tc-rules.md) to translate.
 
-4. [Prepare the content for translation](../../sites/administering/using/tc-prep.md) by authoring the language master and creating the root pages of language copies.
+4. [Prepare the content for translation](/help/sites/administering/using/tc-prep.md) by authoring the language master and creating the root pages of language copies.
 
-5. [Create translation projects](../../sites/administering/using/tc-manage.md) to gather the content to translate and to prepare the translation process.
+5. [Create translation projects](/help/sites/administering/using/tc-manage.md) to gather the content to translate and to prepare the translation process.
 
-6. Use the translation projects to [manage the content translation process](../../sites/administering/using/tc-manage.md).
+6. Use the translation projects to [manage the content translation process](/help/sites/administering/using/tc-manage.md).
 
 >[!NOTE]
 >

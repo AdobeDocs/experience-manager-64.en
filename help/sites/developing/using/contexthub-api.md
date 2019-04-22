@@ -13,7 +13,7 @@ discoiquuid: 90605f41-1861-4891-a7c8-b8b5918cd5c6
 
 # ContextHub Javascript API Reference{#contexthub-javascript-api-reference}
 
-The ContextHub Javascript API is available to your scripts when the [ContextHub component has been added to the page](../../../sites/developing/using/ch-adding.md#adding-contexthub-to-a-page-component).
+The ContextHub Javascript API is available to your scripts when the [ContextHub component has been added to the page](/help/sites/developing/using/ch-adding.md#adding-contexthub-to-a-page-component).
 
 ## ContextHub Constants {#contexthub-constants}
 
@@ -21,7 +21,7 @@ Constant values that the ContextHub Javascript API defines.
 
 ### Event Constants {#event-constants}
 
-The following table lists the names events that occur for ContextHub Stores. See also [ContextHub.Utils.Eventing](../../../sites/developing/using/contexthub-api.md#contexthub-utils-eventing).
+The following table lists the names events that occur for ContextHub Stores. See also [ContextHub.Utils.Eventing](/help/sites/developing/using/contexthub-api.md#contexthub-utils-eventing).
 
 | Constant |Description |Value |
 |---|---|---|
@@ -145,7 +145,7 @@ The base class for ContextHub stores.
 
 #### eventing {#eventing}
 
-A [ContextHub.Utils.Eventing](../../../sites/developing/using/contexthub-api.md#contexthub-utils-eventing) object. Use this object for binding functions to store events. For information about the default value and initialization, see [init(name,config)](../../../sites/developing/using/contexthub-api.md#init-name-config).
+A [ContextHub.Utils.Eventing](/help/sites/developing/using/contexthub-api.md#contexthub-utils-eventing) object. Use this object for binding functions to store events. For information about the default value and initialization, see [init(name,config)](/help/sites/developing/using/contexthub-api.md#init-name-config).
 
 #### name {#name}
 
@@ -153,7 +153,7 @@ The name of the store.
 
 #### persistence {#persistence}
 
-A ContextHub.Utils.Persistence object. For information about the default value and initialization, see ` [init(name,config)](../../../sites/developing/using/contexthub-api.md#init-name-config).`
+A ContextHub.Utils.Persistence object. For information about the default value and initialization, see ` [init(name,config)](/help/sites/developing/using/contexthub-api.md#init-name-config).`
 
 ### Functions (ContextHub.Store.Core) {#functions-contexthub-store-core}
 
@@ -169,7 +169,7 @@ Note that values can be objects.
 **Parameters**
 
 * **tree:** (Object or array) The data to add to the store.
-* **options:** (Object) An optional object of options that is passed to the setItem function. For information, see the `options` parameter of [setItem(key,value,options)](../../../sites/developing/using/contexthub-api.md#setitem-key-value-options).
+* **options:** (Object) An optional object of options that is passed to the setItem function. For information, see the `options` parameter of [setItem(key,value,options)](/help/sites/developing/using/contexthub-api.md#setitem-key-value-options).
 
 **Returns**
 
@@ -267,7 +267,7 @@ Initializes the store.
 * **config:** An object that contains configuration properties:
 
     * eventDeferring: Default value is 32.
-    * eventing: The [ContextHub.Utils.Eventing](../../../sites/developing/using/contexthub-api.md#contexthub-utils-eventing) object for this store. The default value is the ContextHub.eventing object uses.
+    * eventing: The [ContextHub.Utils.Eventing](/help/sites/developing/using/contexthub-api.md#contexthub-utils-eventing) object for this store. The default value is the ContextHub.eventing object uses.
     * persistence: The ContextHub.Utils.Persistence object for this store. The default value is the ContextHub.persistence object.
 
 #### isEventingPaused() {#iseventingpaused}
@@ -384,11 +384,11 @@ A `boolean` value:
 
 ## ContextHub.Store.JSONPStore {#contexthub-store-jsonpstore}
 
-A store that contains JSON data. The data is retrieved from an external JSONP service, or optionally from a service that returns JSON data. Specify the service details using the [ `init`](../../../sites/developing/using/contexthub-api.md#init-name-config) function when you create an instance of this class.
+A store that contains JSON data. The data is retrieved from an external JSONP service, or optionally from a service that returns JSON data. Specify the service details using the [ `init`](/help/sites/developing/using/contexthub-api.md#init-name-config) function when you create an instance of this class.
 
 The store uses in-memory persistance (Javascript variable). Store data is available only during the lifetime of the page.
 
-ContextHub.Store.JSONPStore extends [ContextHub.Store.Core](../../../sites/developing/using/contexthub-api.md#contexthub-store-core) and inherits the functions of that class.
+ContextHub.Store.JSONPStore extends [ContextHub.Store.Core](/help/sites/developing/using/contexthub-api.md#contexthub-store-core) and inherits the functions of that class.
 
 ### Functions (ContextHub.Store.JSONPStore) {#functions-contexthub-store-jsonpstore}
 
@@ -480,11 +480,11 @@ initializes the ContextHub.Store.JSONPStore object.
             * false: https://
 
         * timeout: (Number) The amount of time to wait for the JSONP service to respond before timing out, in milliseconds.
-        * ttl: The minimum amount of time in milliseconds that passes between calls to the JSONP service. (See the [queryService](../../../sites/developing/using/contexthub-api.md#queryservice-reload) function).
+        * ttl: The minimum amount of time in milliseconds that passes between calls to the JSONP service. (See the [queryService](/help/sites/developing/using/contexthub-api.md#queryservice-reload) function).
 
 #### queryService(reload) {#queryservice-reload}
 
-Queries the remote JSONP service and caches the response. If the amount of time since the previous call to this function is less than the value of `config.service.ttl`, the service is not called and the cached response is not changed. Optionally, you can force the service to be called. The `config.service.ttl`property is set when calling the [init](../../../sites/developing/using/contexthub-api.md#init-name-config) function to initialize the store.
+Queries the remote JSONP service and caches the response. If the amount of time since the previous call to this function is less than the value of `config.service.ttl`, the service is not called and the cached response is not changed. Optionally, you can force the service to be called. The `config.service.ttl`property is set when calling the [init](/help/sites/developing/using/contexthub-api.md#init-name-config) function to initialize the store.
 
 Triggers the ready event when the query is finished. If the JSONP service URL is not set, the function does nothing.
 
@@ -508,15 +508,15 @@ Resolves the given parameter.
 
 ## ContextHub.Store.PersistedJSONPStore {#contexthub-store-persistedjsonpstore}
 
-ContextHub.Store.PersistedJSONPStore extends [ContextHub.Store.JSONPStore](../../../sites/developing/using/contexthub-api.md#contexthub-store-jsonpstore) so it inherits all of the functions of that class. However, the data that is retrieved from the JSONP service is persisted according to the configuration of ContextHub persistence. (See [Persistence Modes](../../../sites/developing/using/ch-adding.md#persistence-modes).)
+ContextHub.Store.PersistedJSONPStore extends [ContextHub.Store.JSONPStore](/help/sites/developing/using/contexthub-api.md#contexthub-store-jsonpstore) so it inherits all of the functions of that class. However, the data that is retrieved from the JSONP service is persisted according to the configuration of ContextHub persistence. (See [Persistence Modes](/help/sites/developing/using/ch-adding.md#persistence-modes).)
 
 ## ContextHub.Store.PersistedStore {#contexthub-store-persistedstore}
 
-ContextHub.Store.PersistedStore extends [ContextHub.Store.Core](../../../sites/developing/using/contexthub-api.md#contexthub-store-core) so it inherits all of the functions of that class. The data in this store is persisted according to the configuration of ContextHub persistence.
+ContextHub.Store.PersistedStore extends [ContextHub.Store.Core](/help/sites/developing/using/contexthub-api.md#contexthub-store-core) so it inherits all of the functions of that class. The data in this store is persisted according to the configuration of ContextHub persistence.
 
 ## ContextHub.Store.SessionStore {#contexthub-store-sessionstore}
 
-ContextHub.Store.SessionStore extends [ContextHub.Store.Core](../../../sites/developing/using/contexthub-api.md#contexthub-store-core) so it inherits all of the functions of that class. The data in this store is persisted using in-memory persistance (Javascript object).
+ContextHub.Store.SessionStore extends [ContextHub.Store.Core](/help/sites/developing/using/contexthub-api.md#contexthub-store-core) so it inherits all of the functions of that class. The data in this store is persisted using in-memory persistance (Javascript object).
 
 ## ContextHub.UI {#contexthub-ui}
 
@@ -526,7 +526,7 @@ Manages UI modules and UI module renderers.
 
 #### registerRenderer(moduleType, renderer, dontRender) {#registerrenderer-moduletype-renderer-dontrender}
 
-Registers a UI module renderer with ContextHub. After the renderer is registered, it can be used to [create UI modules](../../../sites/administering/using/contexthub-config.md#adding-a-ui-module). Use this function when you are [extending ContextHub.UI.BaseModuleRenderer](../../../sites/developing/using/ch-extend.md#creating-contexthub-ui-module-types) to create a custom UI Module renderer.
+Registers a UI module renderer with ContextHub. After the renderer is registered, it can be used to [create UI modules](/help/sites/administering/using/contexthub-config.md#adding-a-ui-module). Use this function when you are [extending ContextHub.UI.BaseModuleRenderer](/help/sites/developing/using/ch-extend.md#creating-contexthub-ui-module-types) to create a custom UI Module renderer.
 
 **Parameters**
 
@@ -640,7 +640,7 @@ Removes a cookie. To remove the cookie, the value is set to an emtpy string and 
 
 * **key:** A `String` value that represents the key of the cookie to remove.
 
-* **options:** An object that contains property values for configuring the cookie attributes. See the ` [setItem](../../../sites/developing/using/contexthub-api.md#setitem-key-value-options)` function for information. The `expires` property has no effect.
+* **options:** An object that contains property values for configuring the cookie attributes. See the ` [setItem](/help/sites/developing/using/contexthub-api.md#setitem-key-value-options)` function for information. The `expires` property has no effect.
 
 **Returns**
 
@@ -689,9 +689,9 @@ Removes all cookies that match a given filter. Cookies are matched using the get
 
 **Parameters**
 
-* **filter:** The `filter` argument to use in the call to the ` [getKeys](../../../sites/developing/using/contexthub-api.md#getkeys-filter)` function.
+* **filter:** The `filter` argument to use in the call to the ` [getKeys](/help/sites/developing/using/contexthub-api.md#getkeys-filter)` function.
 
-* **options:** The `options` argument to use in the call to the ` [removeItem](../../../sites/developing/using/contexthub-api.md#removeitem-key-options)` function.
+* **options:** The `options` argument to use in the call to the ` [removeItem](/help/sites/developing/using/contexthub-api.md#removeitem-key-options)` function.
 
 **Returns**
 
@@ -699,7 +699,7 @@ This function does not return a value.
 
 ## ContextHub.Utils.Eventing {#contexthub-utils-eventing}
 
-Enables you to bind and unbind functions to ContextHub store events. Access ContextHub.Utils.Eventing objects for a store using the [eventing](../../../sites/developing/using/contexthub-api.md#eventing) property of the store.
+Enables you to bind and unbind functions to ContextHub store events. Access ContextHub.Utils.Eventing objects for a store using the [eventing](/help/sites/developing/using/contexthub-api.md#eventing) property of the store.
 
 ### Functions (ContextHub.Utils.Eventing) {#functions-contexthub-utils-eventing}
 
@@ -709,9 +709,9 @@ Unbinds a function from an event.
 
 **Parameters**
 
-* **name:** The [name of the event](../../../sites/developing/using/contexthub-api.md#contexthub-utils-eventing) for which you are unbinding the function.
+* **name:** The [name of the event](/help/sites/developing/using/contexthub-api.md#contexthub-utils-eventing) for which you are unbinding the function.
 
-* **selector:** The selector that identifies the bind. (See the `selector` parameter for the [on](../../../sites/developing/using/contexthub-api.md#on-name-handler-selector-triggerforpastevents) and [once](../../../sites/developing/using/contexthub-api.md#once-name-handler-selector-triggerforpastevents) functions).
+* **selector:** The selector that identifies the bind. (See the `selector` parameter for the [on](/help/sites/developing/using/contexthub-api.md#on-name-handler-selector-triggerforpastevents) and [once](/help/sites/developing/using/contexthub-api.md#once-name-handler-selector-triggerforpastevents) functions).
 
 **Returns**
 
@@ -723,7 +723,7 @@ Binds a function to an event. The function is called every time the event occurs
 
 **Parameters**
 
-* **name:** (String) The [name of the event](../../../sites/developing/using/contexthub-api.md#contexthub-utils-eventing) to which you are binding the function.
+* **name:** (String) The [name of the event](/help/sites/developing/using/contexthub-api.md#contexthub-utils-eventing) to which you are binding the function.
 
 * **handler:** (Function) The function to bind to the event.
 * **selector:** (String) A unique identifier for the bind. You need the selector to identify the bind if you want to use the `off` function to remove the bind.
@@ -765,7 +765,7 @@ Binds a function to an event. The function is called only once, for the first oc
 
 **Parameters**
 
-* **name:** (String) The [name of the event](../../../sites/developing/using/contexthub-api.md#contexthub-utils-eventing) to which you are binding the function.
+* **name:** (String) The [name of the event](/help/sites/developing/using/contexthub-api.md#contexthub-utils-eventing) to which you are binding the function.
 
 * **handler:** (Function) The function to bind to the event.
 * **selector:** (String) A unique identifier for the bind. You need the selector to identify the bind if you want to use the `off` function to remove the bind.
@@ -1056,7 +1056,7 @@ ContextHub.Utils.JSON.tree.sanitizeKey(key)
 
 #### setItem(tree, key, value) {#setitem-tree-key-value}
 
-Adds a key/value pair to the data tree of a copy of an object. For information about data trees, see [Persistence](../../../sites/developing/using/contexthub.md#persistence).
+Adds a key/value pair to the data tree of a copy of an object. For information about data trees, see [Persistence](/help/sites/developing/using/contexthub.md#persistence).
 
 **Parameters**
 
@@ -1105,7 +1105,7 @@ Returns the store types that are registered as store candidates. Either retrieve
 
 **Parameters**
 
-* **storeType:** (String) The name of the store type. See the `storeType` parameter of the [ `ContextHub.Utils.storeCandidates.registerStoreCandidate`](../../../sites/developing/using/contexthub-api.md#contexthub-utils-storecandidates) function.
+* **storeType:** (String) The name of the store type. See the `storeType` parameter of the [ `ContextHub.Utils.storeCandidates.registerStoreCandidate`](/help/sites/developing/using/contexthub-api.md#contexthub-utils-storecandidates) function.
 
 **Returns**
 
@@ -1117,7 +1117,7 @@ Returns a store type from the registered candidates. If more than one store type
 
 **Parameters**
 
-* storeType: (String) The name of the store candidate. See the `storeType` parameter of the [ `ContextHub.Utils.storeCandidates.registerStoreCandidate`](../../../sites/developing/using/contexthub-api.md#registerstorecandidate-store-storetype-priority-applies) function.
+* storeType: (String) The name of the store candidate. See the `storeType` parameter of the [ `ContextHub.Utils.storeCandidates.registerStoreCandidate`](/help/sites/developing/using/contexthub-api.md#registerstorecandidate-store-storetype-priority-applies) function.
 
 **Returns**
 
@@ -1129,7 +1129,7 @@ Returns the names of the store types that are registered as store candidates. Th
 
 **Returns**
 
-An array of string values, where each string is the storetype with which a store candidate was registered. See the `storeType` parameter of the [ `ContextHub.Utils.storeCandidates.registerStoreCandidate`](../../../sites/developing/using/contexthub-api.md#contexthub-utils-storecandidates) function.
+An array of string values, where each string is the storetype with which a store candidate was registered. See the `storeType` parameter of the [ `ContextHub.Utils.storeCandidates.registerStoreCandidate`](/help/sites/developing/using/contexthub-api.md#contexthub-utils-storecandidates) function.
 
 #### registerStoreCandidate(store, storeType, priority, applies) {#registerstorecandidate-store-storetype-priority-applies}
 

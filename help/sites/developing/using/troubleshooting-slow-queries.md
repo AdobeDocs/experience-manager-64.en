@@ -54,7 +54,7 @@ Explain **all** queries and ensure their query plans do not contain the **/&#42;
     * `*INFO* org.apache.jackrabbit.oak.query.QueryImpl Traversal query (query without index) ... ; consider creating and index`
     * This message is only logged if no index is available, and if the query potentially traverses many nodes. Messages are not logged if an index is available, but amount to traversing is small, and thus fast.
 
-* Visit the AEM [Query Performance](../../../sites/administering/using/operations-dashboard.md#query-performance) operations console and [Explain](../../../sites/administering/using/operations-dashboard.md#explain-query) slow queries looking for traversal or no index query explanations.
+* Visit the AEM [Query Performance](/help/sites/administering/using/operations-dashboard.md#query-performance) operations console and [Explain](/help/sites/administering/using/operations-dashboard.md#explain-query) slow queries looking for traversal or no index query explanations.
 
 ### Detecting Poorly Restricted Queries {#detecting-poorly-restricted-queries}
 
@@ -125,7 +125,7 @@ Similarly, without an additional index rule for the `cq:tags` property, even a f
 
 Another cause of post-index-filtering is Access Control Lists which often gets missed during development. Try to make sure that the query does not return paths that might be inaccessible to the user. This usually can be done by better content structure along with providing relevant path restriction on the query.
 
-A useful way to identify if the Lucene index is returning a lot of results to return a very small subset as query result is to enable DEBUG logs for `org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndex` and see how many documents are being loaded from the index. Number of eventual results versus the number of loaded documents shouldn't be disproportionate. For more information, see [Logging](../../../sites/deploying/using/configure-logging.md).
+A useful way to identify if the Lucene index is returning a lot of results to return a very small subset as query result is to enable DEBUG logs for `org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndex` and see how many documents are being loaded from the index. Number of eventual results versus the number of loaded documents shouldn't be disproportionate. For more information, see [Logging](/help/sites/deploying/using/configure-logging.md).
 
 #### Post-Deployment {#post-deployment-1}
 
@@ -133,7 +133,7 @@ A useful way to identify if the Lucene index is returning a lot of results to re
 
     * `*WARN* org.apache.jackrabbit.oak.spi.query.Cursors$TraversingCursor Traversed ### nodes ... consider creating an index or changing the query`
 
-* Visit the AEM [Query Performance](../../../sites/administering/using/operations-dashboard.md#query-performance) operations console and [Explain](../../../sites/administering/using/operations-dashboard.md#explain-query) slow queries looking for query plans that do not resolve query property restrictions to index property rules.
+* Visit the AEM [Query Performance](/help/sites/administering/using/operations-dashboard.md#query-performance) operations console and [Explain](/help/sites/administering/using/operations-dashboard.md#explain-query) slow queries looking for query plans that do not resolve query property restrictions to index property rules.
 
 ### Detecting Large Result Set Queries {#detecting-large-result-set-queries}
 
@@ -316,7 +316,7 @@ The following example uses Query Builder as it's the most common query language 
 
 1. ***This adjustment is Query Builder specific, and does not apply to JCR-SQL2 or XPath.***
 
-   Use [Query Builder' guessTotal](../../../sites/developing/using/querybuilder-api.md#using-p-guesstotal-to-return-the-results) when the full set of results is **not **immediately needed.
+   Use [Query Builder' guessTotal](/help/sites/developing/using/querybuilder-api.md#using-p-guesstotal-to-return-the-results) when the full set of results is **not **immediately needed.
 
     * **Unoptimized query**
 
@@ -455,19 +455,19 @@ Therefore, ensure an indexes satisfy queries, except if the combination of path 
     * A WebUI for executing XPath and JCR-SQL2 queries.
     * Located on AEM at [/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp) &gt; Tools &gt; Query...
 
-* ** [Explain Query](../../../sites/administering/using/operations-dashboard.md#explain-query)**
+* ** [Explain Query](/help/sites/administering/using/operations-dashboard.md#explain-query)**
 
     * An AEM Operations dashboard that provides a detailed explanation (Query plan, query time, and # of results) for any given XPATH or JCR-SQL2 query.
 
-* ** [Slow/Popular Queries](../../../sites/administering/using/operations-dashboard.md#query-performance)**
+* ** [Slow/Popular Queries](/help/sites/administering/using/operations-dashboard.md#query-performance)**
 
     * An AEM Operations dashboard listing the recent slow and popular queries executed on AEM.
 
-* ** [Index Manager](../../../sites/administering/using/operations-dashboard.md#the-index-manager)**
+* ** [Index Manager](/help/sites/administering/using/operations-dashboard.md#the-index-manager)**
 
     * An AEM Operations WebUI displaying the indexes on the AEM instance; facilitates understanding what indexes already exist, can be targeted or augmented.
 
-* ** [Logging](../../../sites/administering/using/operations-dashboard.md#log-messages)**
+* ** [Logging](/help/sites/administering/using/operations-dashboard.md#log-messages)**
 
     * Query Builder logging
 

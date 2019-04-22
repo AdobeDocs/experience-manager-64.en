@@ -14,13 +14,13 @@ discoiquuid: 437e6581-4eb1-4fbd-a6da-86b9c90cec89
 
 >[!CAUTION]
 >
->AEM Forms provide the [Theme Editor](../../forms/using/themes.md) capability to create and modify adaptive forms [themes](../../forms/using/themes.md). Peform the steps listed in this article, only if you have upgraded from a version that does not have [Theme Editor](../../forms/using/themes.md) and you have an existing investment in themes created using Less/CSS files (pre-theme editor method).
+>AEM Forms provide the [Theme Editor](/help/forms/using/themes.md) capability to create and modify adaptive forms [themes](/help/forms/using/themes.md). Peform the steps listed in this article, only if you have upgraded from a version that does not have [Theme Editor](/help/forms/using/themes.md) and you have an existing investment in themes created using Less/CSS files (pre-theme editor method).
 
 ## Prerequisites {#prerequisites}
 
 * Knowledge of the LESS (Leaner CSS) framework
 * How to create a client library in Adobe Experience Manager
-* [Creating an adaptive form template](../../forms/using/custom-adaptive-forms-templates.md) for using the theme you create
+* [Creating an adaptive form template](/help/forms/using/custom-adaptive-forms-templates.md) for using the theme you create
 
 ## Adaptive form theme {#adaptive-form-theme}
 
@@ -205,7 +205,7 @@ Forest Theme Sample
 
 After you have created an adaptive form theme, perform the following steps to use this theme in an adaptive form:
 
-1. To include the theme created in [to create an adaptive form theme](../../forms/using/creating-custom-adaptive-form-themes.md#p-to-create-an-adaptive-form-theme-p) section, create a custom page of type `cq:Component`.
+1. To include the theme created in [to create an adaptive form theme](/help/forms/using/creating-custom-adaptive-form-themes.md#p-to-create-an-adaptive-form-theme-p) section, create a custom page of type `cq:Component`.
 
    For example, `/apps/myAfCustomizations/myAfPages/forestPage`
 

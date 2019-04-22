@@ -14,7 +14,7 @@ discoiquuid: ec4ada04-e429-4ad4-a060-2dccac847cf0
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 AEM Mobile On-Demand provides a fully configured app template, an article template, and article components.
 
@@ -26,7 +26,7 @@ Selecting this sample template when creating a new app delivers an AEM Mobile fe
 
 >[!NOTE]
 >
->To manage your application and mobile app content from AEM Mobile Apps Control Center, see the [AEM Mobile Application Dashboard](../../mobile/using/mobile-apps-ondemand-application-dashboard.md).
+>To manage your application and mobile app content from AEM Mobile Apps Control Center, see the [AEM Mobile Application Dashboard](/help/mobile/using/mobile-apps-ondemand-application-dashboard.md).
 
 ## Creating App Templates {#creating-app-templates}
 
@@ -41,7 +41,7 @@ Steps to creating a new app based on an app template:
 1. Navigate to the AEM Mobile app catalog: *&lt;server-url&gt;/aem/apps.html/content/mobileapps*
 1. Select **Create** --&gt; **App** as shown below
 
-Once you create an app using this template, you can add articles, banners, and collections to your app. To re-visit, creation of articles, banners, and collections, See [Content Management Actions](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md).
+Once you create an app using this template, you can add articles, banners, and collections to your app. To re-visit, creation of articles, banners, and collections, See [Content Management Actions](/help/mobile/using/mobile-apps-ondemand-manage-content-ondemand.md).
 
 >[!NOTE]
 >
@@ -143,16 +143,16 @@ Once the component has already been included in an AEM page, along with a few ot
 
 >[!NOTE]
 >
->You can create a create a component in AEM and customize the same using [Developing with CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md). Once you have customized the existing component as your requirements, you can add it in your page using the **Edit** option under **Manage Articles** as shown in the figure above.
+>You can create a create a component in AEM and customize the same using [Developing with CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md). Once you have customized the existing component as your requirements, you can add it in your page using the **Edit** option under **Manage Articles** as shown in the figure above.
 
 >[!NOTE]
 >
->Refer to [Best Practices for Templates and Components Development](../../mobile/using/best-practices-aem-mobile.md) in AEM Mobile.
+>Refer to [Best Practices for Templates and Components Development](/help/mobile/using/best-practices-aem-mobile.md) in AEM Mobile.
 
 ### The Next Steps {#the-next-steps}
 
-* [Using Content Properties to Export Content](../../mobile/using/on-demand-content-properties-exporting.md)
-* [Mobile with Content Sync](../../mobile/using/mobile-ondemand-contentsync.md)
+* [Using Content Properties to Export Content](/help/mobile/using/on-demand-content-properties-exporting.md)
+* [Mobile with Content Sync](/help/mobile/using/mobile-ondemand-contentsync.md)
 
 * 
   Deploying and Maintaining  

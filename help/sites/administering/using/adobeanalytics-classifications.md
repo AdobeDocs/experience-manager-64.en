@@ -13,7 +13,7 @@ discoiquuid: 6787511a-2ce0-421a-bcfb-90d5f32ad35e
 
 # Adobe Classifications{#adobe-classifications}
 
-Adobe Classifications exports classifications data to [Adobe Analytics](../../../sites/administering/using/adobeanalytics.md) in a scheduled manner. The exporter is an implementation of a **com.adobe.cq.scheduled.exporter.Exporter**.
+Adobe Classifications exports classifications data to [Adobe Analytics](/help/sites/administering/using/adobeanalytics.md) in a scheduled manner. The exporter is an implementation of a **com.adobe.cq.scheduled.exporter.Exporter**.
 
 To configure this:
 

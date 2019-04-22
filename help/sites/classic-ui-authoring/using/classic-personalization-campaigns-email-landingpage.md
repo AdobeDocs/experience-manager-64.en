@@ -25,11 +25,11 @@ To create an effective newsletter landing page, you need to do the following:
 >[!NOTE]
 >
 >Adobe is not planning to further enhance this capability (Managing Leads and Lists).  
->Recommendation is to leverage [Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
+>Recommendation is to leverage [Adobe Campaign and the integration to AEM](/help/sites/administering/using/campaign.md).
 
 ## Creating a List for the Newsletter {#creating-a-list-for-the-newsletter}
 
-Create a list, for example, **Geometrixx Newsletter**, in MCM for the newsletter that people should subscribe to. Creating lists is described in [Creating lists](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingnewlists).
+Create a list, for example, **Geometrixx Newsletter**, in MCM for the newsletter that people should subscribe to. Creating lists is described in [Creating lists](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingnewlists).
 
 The following shows an example of a list:
 
@@ -39,7 +39,7 @@ The following shows an example of a list:
 
 Create a newsletter registration form that allows users to subscribe to tags. The sample Geometrixx web site provides a newsletter page in the Geometrixx toolbar where you can create your form.
 
-To create your own newsletter form, see information about creating forms in the [Forms documentation](../../../sites/authoring/using/default-components.md#form). The newsletter uses the tags from the Tag library. To add additional tags, see [Tag Administration](../../../sites/authoring/using/tags.md#tagadministration).
+To create your own newsletter form, see information about creating forms in the [Forms documentation](/help/sites/authoring/using/default-components.md#form). The newsletter uses the tags from the Tag library. To add additional tags, see [Tag Administration](/help/sites/authoring/using/tags.md#tagadministration).
 
 The hidden fields in the following example provide the bare minimum amount of information (e-mail); in addition, you can add more fields later but this will impact the conversion rate.
 
@@ -67,7 +67,7 @@ Submitting the request takes the user to a **Thank You** page after which they w
 
 ## Adding Teasers {#adding-teasers}
 
-Add [teasers](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#teasers) to target specific audiences. For example, you can add teasers to the Thank You page and Newsletter sign up page.
+Add [teasers](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#teasers) to target specific audiences. For example, you can add teasers to the Thank You page and Newsletter sign up page.
 
 To add teasers to make an effective newsletter landing page:
 
@@ -85,4 +85,4 @@ To add teasers to make an effective newsletter landing page:
 
 Push any changes to pages through the Newsletter functionality in the MCM. You then push updated content to subscribers.
 
-See [Sending Newsletters](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#newsletters).
+See [Sending Newsletters](/help/sites/classic-ui-authoring/using/classic-personalization-campaigns.md#newsletters).

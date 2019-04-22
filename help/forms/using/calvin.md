@@ -17,7 +17,7 @@ discoiquuid: 2daf95b6-bf72-4191-bdb7-e17e76b166f3
 
 Adaptive forms are integral to your customer interactions. It is important to test your adaptive forms with every change you make in them, such as while rolling out a new fix pack or changing a rule in the form. However, functional testing adaptive forms and every field in them may be tedious.
 
-Calvin allows you to automate testing of your adaptive forms in the web browser. Calvin utilizes [Hobbes](../../sites/developing/using/hobbes.md)'s user interface for running the tests and provides the following tools:
+Calvin allows you to automate testing of your adaptive forms in the web browser. Calvin utilizes [Hobbes](/help/sites/developing/using/hobbes.md)'s user interface for running the tests and provides the following tools:
 
 * A JavaScript API for creating tests.
 * A user interface for running tests.
@@ -267,7 +267,7 @@ The following example walks you through creation of a test suite for testing mul
    
    ```
 
-   The test case is created. Proceed to run the test case to test adaptive forms through Hobbes. For steps for running the test cases, see [Executing Tests in Testing Your UI Using Automated Tests](../../sites/developing/using/hobbes.md).
+   The test case is created. Proceed to run the test case to test adaptive forms through Hobbes. For steps for running the test cases, see [Executing Tests in Testing Your UI Using Automated Tests](/help/sites/developing/using/hobbes.md).
 
 You can also install the package in the attached file SampleTestPackage.zip to achieve the same results as by the steps explained in Example: Create a test suite for an adaptive form using Hobbes as testing framework.
 

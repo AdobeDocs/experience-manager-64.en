@@ -95,7 +95,7 @@ In general page permissions should not be replicated from the author to publish 
 
 In some cases the replication queue is blocked when trying to replicate namespace information from the author instance to the publish instance. This happens because the replication user does not have `jcr:namespaceManagement` privilege. To avoid this issue, make sure that:
 
-* The replication user (as configured under the [Transport](../../../sites/deploying/using/replication.md#replication-agents-configuration-parameters) tab&gt;User) also exists on the Publish instance.
+* The replication user (as configured under the [Transport](/help/sites/deploying/using/replication.md#replication-agents-configuration-parameters) tab&gt;User) also exists on the Publish instance.
 * The user has read and write privileges at the path where the content is installed.
 * The user has `jcr:namespaceManagement` privilege at the repository level. You can grant the privilege as follows:
 

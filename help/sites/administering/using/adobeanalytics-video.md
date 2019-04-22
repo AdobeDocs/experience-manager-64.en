@@ -19,7 +19,7 @@ There are several methods available for tracking video events, 2 of which are le
 >
 >Before you continue, make sure** **that you have a** playable video** uploaded within AEM.  
   
->To ensure that your videos play on the page, consult ** [this tutorial](../../../sites/authoring/using/default-components-foundation.md#video)** for information about how to transcode video files in AEM.
+>To ensure that your videos play on the page, consult ** [this tutorial](/help/sites/authoring/using/default-components-foundation.md#video)** for information about how to transcode video files in AEM.
 
 Use the following procedure to set up a framework for video tracking using each method.
 
@@ -31,7 +31,7 @@ Use the following procedure to set up a framework for video tracking using each 
 
 1. Set up a web page by dragging a** video component** from the sidekick and adding a playable **video as an asset** for the component
 
-1. [Create an Adobe Analytics configuration and framework](../../../sites/administering/using/adobeanalytics.md).
+1. [Create an Adobe Analytics configuration and framework](/help/sites/administering/using/adobeanalytics.md).
 
     * The examples in the sections that follow use the name **my-sc-configuration** for the configuration and** videofw** for the framework**.**
 
@@ -39,10 +39,10 @@ Use the following procedure to set up a framework for video tracking using each 
 1. From the General component category in Sidekick, drag the Video component onto the framework.  
 1. Select a tracking method:
 
-    * [Milestones](../../../sites/administering/using/adobeanalytics.md)
-    * [Non-legacy Milestones](../../../sites/administering/using/adobeanalytics.md)
-    * [Legacy Milestones](../../../sites/administering/using/adobeanalytics.md)
-    * [Legacy Seconds](../../../sites/administering/using/adobeanalytics.md)
+    * [Milestones](/help/sites/administering/using/adobeanalytics.md)
+    * [Non-legacy Milestones](/help/sites/administering/using/adobeanalytics.md)
+    * [Legacy Milestones](/help/sites/administering/using/adobeanalytics.md)
+    * [Legacy Seconds](/help/sites/administering/using/adobeanalytics.md)
 
 1. When you select a tracking method, the list of CQ variables changes accordingly. Use the sections that follow for information about how to further configure the component and map the CQ variables with Adobe Analytics properties.
 
@@ -135,7 +135,7 @@ The following table describes the default CQ variables that are provided for the
 
    For information about optimizing the mappings, see the [Measuring Video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/setup-overview.html) guide.
 
-1. [Add the framework](../../../sites/administering/using/adobeanalytics.md) to the page.
+1. [Add the framework](/help/sites/administering/using/adobeanalytics.md) to the page.
 1. To test the setup in **Preview mode**, play the video to get Adobe Analytics calls to trigger.
 
 The Adobe Analytics tracking data examples that follow apply to Milestone tracking using track offsets of 4,8,16,20, and 24, and the following mappings for the CQ variables:
@@ -273,7 +273,7 @@ eventdata.events.milestoneXX
 
    For information about optimizing the mappings, see the [Measuring Video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/setup-overview.html) guide.
 
-1. [Add the framework](../../../sites/administering/using/adobeanalytics.md) to the page.
+1. [Add the framework](/help/sites/administering/using/adobeanalytics.md) to the page.
 1. To test the setup in **Preview mode**, play the video to get Adobe Analytics calls to trigger.
 
 ## Legacy Milestones {#legacy-milestones}
@@ -376,7 +376,7 @@ When using the** legacy seconds** method, Adobe Analytics calls get triggered ev
 
    ![](assets/lseconds.png)
 
-   *The call is similar to the Legacy Milestones call above. Please see the information on pev3 ** [provided there](../../../sites/administering/using/adobeanalytics.md)**.*
+   *The call is similar to the Legacy Milestones call above. Please see the information on pev3 ** [provided there](/help/sites/administering/using/adobeanalytics.md)**.*
 
 **References used in this tutorial:**
 

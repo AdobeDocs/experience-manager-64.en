@@ -48,7 +48,7 @@ public String generateFormURL(TaskContext taskContext, String profileName);
 public Map<String, Object> renderHTMLForm (TaskContext taskContext, String profileName, Map<String,Object> runtimeMap);
 ```
 
-More information on Mobile Form profiles can be found at [Creating a custom profile](../../forms/using/custom-profile.md).
+More information on Mobile Form profiles can be found at [Creating a custom profile](/help/forms/using/custom-profile.md).
 
 ## New HTML Form Render &amp; Submit Processes {#new-html-form-render-amp-submit-processes}
 

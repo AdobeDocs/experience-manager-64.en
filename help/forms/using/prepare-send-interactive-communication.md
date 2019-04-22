@@ -71,7 +71,7 @@ In the Content tab, manage the content such as document fragments and content va
         * [Highlight parts of text](#highlightemphasize)
 
     * [Special characters](#specialcharacters)
-    * [Keyboard shortcuts](../../forms/using/keyboard-shortcuts.md)
+    * [Keyboard shortcuts](/help/forms/using/keyboard-shortcuts.md)
 
    For more information on the actions available for various document fragments in the Agent user interface, see [Actions and info available in the Agent user interface](#actionsagentui).
 
@@ -130,7 +130,7 @@ To highlight\emphasize parts of text in an editable fragment, select the text an
 
 ### Insert special characters in text {##specialcharacters}
 
-The Agent UI has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](../../forms/using/custom-special-characters.md).
+The Agent UI has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](/help/forms/using/custom-special-characters.md).
 
 #### Attachment delivery {#attachmentdelivery}
 

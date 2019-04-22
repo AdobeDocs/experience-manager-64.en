@@ -78,9 +78,9 @@ Another way to access tasks is from the Inbox. From the inbox, you can open the 
 
 ![](assets/chlimage_1-103.png)
 
-The task status is also displayed on the Task Management page, where projects are managed. (See [Track Content Changes Using Task Management](../../../sites/administering/using/task-manager.md).)
+The task status is also displayed on the Task Management page, where projects are managed. (See [Track Content Changes Using Task Management](/help/sites/administering/using/task-manager.md).)
 
-To complete a task, select the task and click **Complete**. Add information to the task and then click **Done**. See [Your Inbox](../../../sites/authoring/using/inbox.md) for more information.
+To complete a task, select the task and click **Complete**. Add information to the task and then click **Done**. See [Your Inbox](/help/sites/authoring/using/inbox.md) for more information.
 
 ![](assets/chlimage_1-104.png)
 

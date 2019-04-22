@@ -20,7 +20,7 @@ Task Management enables you to create Projects and Tasks to help manage content 
 * Create tasks to represent work to be performed on content.
 * Assign tasks to users or groups who perform the work.
 
-For information about completing tasks that are assigned to you, see [Working with Tasks](../../../sites/authoring/using/task-content.md).
+For information about completing tasks that are assigned to you, see [Working with Tasks](/help/sites/authoring/using/task-content.md).
 
 ## Creating Projects {#creating-projects}
 
@@ -45,7 +45,7 @@ After you create a project, you can populate it with tasks.
 
 ## Creating and Assigning Tasks {#creating-and-assigning-tasks}
 
-Create a task to track the work performed on a content item (page) in the repository. After creating the task, users can open the associated content from the WCM Inbox. (See [Working With Tasks](../../../sites/authoring/using/task-content.md).)
+Create a task to track the work performed on a content item (page) in the repository. After creating the task, users can open the associated content from the WCM Inbox. (See [Working With Tasks](/help/sites/authoring/using/task-content.md).)
 
 **Task assignment**
 
@@ -98,7 +98,7 @@ Use the Create Task step in a workflow to automatically create a task. The follo
 * You can specify one or more actions that the user selects upon completing the task. The action can then be used to determines the workflow route to follow.
 * You can provide a script that runs before the task is created. For example, you can manipulate the task content according to logic and runtime data.
 
-For more information, see [Create Task](../../../sites/developing/using/workflows-step-ref.md).
+For more information, see [Create Task](/help/sites/developing/using/workflows-step-ref.md).
 
 ### Modifying Tasks {#modifying-tasks}
 
@@ -124,7 +124,7 @@ The following procedures assume that you have an application folder below `/apps
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details.
+>When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details.
 
 **Configure task archival:**
 
@@ -196,7 +196,7 @@ Configure the following properties to override default values, according to the 
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for OSGi services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+>When working with AEM there are several methods of managing the configuration settings for OSGi services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 The user group that is set as the Task Administrator Group can see and change all Task Management projects and tasks. The administrators group is the default Task Administrator Group.The Task Administrator Group property of the Task Manager Adapter Factory service stores the name of the group.
 
@@ -211,7 +211,7 @@ To use a `sling:OsgiConfig` node to configure the service, use the following nod
     * Type: `String`
     * Value: The group name.
 
-For information about using `sling:OsgiConfig` nodes, see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md).
+For information about using `sling:OsgiConfig` nodes, see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md).
 
 Use the following procedure to use the Web Console to configure the service:
 

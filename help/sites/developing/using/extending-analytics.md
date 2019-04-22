@@ -16,15 +16,15 @@ discoiquuid: e0372f4a-fe7b-4526-8391-5bb345b51d70
 AEM Analytics allows you to track user interaction on your website. As a developer you may need to:
 
 * Track how visitors are interacting with your components. This can be done with [Custom events.](#custom-events)
-* [Access values in the ContextHub](../../../sites/developing/using/extending-analytics.md#accessing-values-in-the-contexthub).
+* [Access values in the ContextHub](/help/sites/developing/using/extending-analytics.md#accessing-values-in-the-contexthub).
 * [Add record callbacks](#adding-record-callbacks).
 
 >[!NOTE]
 >
->This information is basically generic, but it uses [Adobe Analytics](../../../sites/administering/using/adobeanalytics.md) for specific examples.  
+>This information is basically generic, but it uses [Adobe Analytics](/help/sites/administering/using/adobeanalytics.md) for specific examples.  
 
 >
->For general information on developing components and dialog boxes, see [Developing Components](../../../sites/developing/using/components.md).
+>For general information on developing components and dialog boxes, see [Developing Components](/help/sites/developing/using/components.md).
 
 ## Custom Events {#custom-events}
 
@@ -55,7 +55,7 @@ An example might look like:
 </span>
 ```
 
-At page load, all `data-tracking` attributes will be collected and added to the event store of the ContextHub, where they can be mapped to Adobe Analytics events. Events that are not mapped will not be tracked by Adobe Analytics. See [Connecting to Adobe Analytics](../../../sites/administering/using/adobeanalytics.md) for more details about mapping events.
+At page load, all `data-tracking` attributes will be collected and added to the event store of the ContextHub, where they can be mapped to Adobe Analytics events. Events that are not mapped will not be tracked by Adobe Analytics. See [Connecting to Adobe Analytics](/help/sites/administering/using/adobeanalytics.md) for more details about mapping events.
 
 ### Tracking Custom Events After Page Load {#tracking-custom-events-after-page-load}
 

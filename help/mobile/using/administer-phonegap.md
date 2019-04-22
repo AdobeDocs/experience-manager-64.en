@@ -15,7 +15,7 @@ discoiquuid: cd080122-7ae5-4e6e-a8f6-b95dfbb0b511
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 An ***AEM administrator*** is responsible for adding a new application to the AEM Mobile catalog, either by creating a new app using the creation wizard, or by importing an existing application. AEM administrators who create a new app using AEM Mobile's *creation wizard* typically select one of the desired app templates either from our out-of-the-box reference samples or (in most cases) a custom app template created by *AEM developers.*
 
@@ -23,25 +23,25 @@ Once you've built your mobile application using HTML5 and PhoneGap you can manag
 
 The AEM Apps Control Center allows you to build and deploy your mobile application, create and edit application metadata before publishing your mobile application, collaborately curate and frequently publish fresh and relavent content without the need to revisit the application store submission processes and, analyze application life cycle and usage metrics to improve customer conversion and brand loyalty.
 
-To build your AEM Mobile Application, see the [Building Mobile Applications](../../mobile/using/building-app-mobile-phonegap.md) page, in Developers section.
+To build your AEM Mobile Application, see the [Building Mobile Applications](/help/mobile/using/building-app-mobile-phonegap.md) page, in Developers section.
 
 To setup your environment and get started with the Control Center,
 
-1. [Configure your users and groups](../../mobile/using/configure-users-groups.md)
-1. [Set your referrer filter to allow empty](../../mobile/using/setting-referrer-filter-empty.md)
-1. [Configure your Adobe PhoneGap Build Cloud Service](../../mobile/using/configure-phonegap-build-cloud.md)
-1. [Configure your Adobe Analytics Cloud Service](../../mobile/using/configure-adobe-mobile-cloud-service.md)
+1. [Configure your users and groups](/help/mobile/using/configure-users-groups.md)
+1. [Set your referrer filter to allow empty](/help/mobile/using/setting-referrer-filter-empty.md)
+1. [Configure your Adobe PhoneGap Build Cloud Service](/help/mobile/using/configure-phonegap-build-cloud.md)
+1. [Configure your Adobe Analytics Cloud Service](/help/mobile/using/configure-adobe-mobile-cloud-service.md)
 
 For learn about content services Content Services, see [Administering Content Services](/mobile/using/content-services.md).
 
 >[!NOTE]
 >
->The *AEM Verify* is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. The* AEM Verify* is a mobile app, on your device and you connect it to the server running the quickstart to get a list of apps to view. Click [here](../../mobile/using/phonegap-mobile-quickstart.md) to view the details.
+>The *AEM Verify* is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. The* AEM Verify* is a mobile app, on your device and you connect it to the server running the quickstart to get a list of apps to view. Click [here](/help/mobile/using/phonegap-mobile-quickstart.md) to view the details.
 
 ## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Author and Developer, see the resources below:
 
-* [Developing for Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md)
-* [Authoring for Adobe PhoneGap Enterprise in AEM](../../mobile/using/phonegap.md)
+* [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/developing-in-phonegap.md)
+* [Authoring for Adobe PhoneGap Enterprise in AEM](/help/mobile/using/phonegap.md)
 

@@ -23,7 +23,7 @@ JavaScript is the expression language of adaptive forms. All the expressions are
 
 ## Best practices for expressions involving repeating panel {#best-practices-for-expressions-involving-repeating-panel}
 
-Repeating panels are instances of a panel that are added or removed dynamically, using scripting API or pre-populated data. For detailed information about using repeating panel, see [creating forms with repeatable sections](../../forms/using/creating-forms-repeatable-sections.md).
+Repeating panels are instances of a panel that are added or removed dynamically, using scripting API or pre-populated data. For detailed information about using repeating panel, see [creating forms with repeatable sections](/help/forms/using/creating-forms-repeatable-sections.md).
 
 * To create a repeating panel, in the panel dialog, open settings, and set value of the max count field to more than 1. 
 * The min count value of panel repeat settings can be one or more but cannot be more than max count value.
@@ -40,18 +40,18 @@ Repeating panels are instances of a panel that are added or removed dynamically,
 
 In adaptive forms, you can write expressions to add behaviors such as dynamic show/hide fields and panels. You can also write expressions to add calculated fields, make fields read-only, validation logic, and many more. Adaptive forms support following expressions:
 
-* ** [Access expressions](../../forms/using/adaptive-form-expressions.md#main-pars-header-4)**: to enable/disable a field.
-* ** [Calculate expressions](../../forms/using/adaptive-form-expressions.md#p-calculate-expression-p)**: to auto-compute value of a field.
-* ** [Click expression](../../forms/using/adaptive-form-expressions.md#p-click-expression-p)**: to handle actions on click event of a button. 
-* ** [Initialization Script](../../forms/using/adaptive-form-expressions.md#p-initialization-script-p):** perform an action on initialization of a field.  
+* ** [Access expressions](/help/forms/using/adaptive-form-expressions.md#main-pars-header-4)**: to enable/disable a field.
+* ** [Calculate expressions](/help/forms/using/adaptive-form-expressions.md#p-calculate-expression-p)**: to auto-compute value of a field.
+* ** [Click expression](/help/forms/using/adaptive-form-expressions.md#p-click-expression-p)**: to handle actions on click event of a button. 
+* ** [Initialization Script](/help/forms/using/adaptive-form-expressions.md#p-initialization-script-p):** perform an action on initialization of a field.  
 
-* ** [Options expression](../../forms/using/adaptive-form-expressions.md#p-options-expression-p)**: to dynamically fill a drop-down list.
+* ** [Options expression](/help/forms/using/adaptive-form-expressions.md#p-options-expression-p)**: to dynamically fill a drop-down list.
 * [**Summary expression**](#summary): to dynamically compute the title of an accordion.
-* ** [Validate expressions](../../forms/using/adaptive-form-expressions.md#p-validate-expression-p)**: to validate a field.
-* ** [Value Commit Script](../../forms/using/adaptive-form-expressions.md#p-value-commit-script-p):** to change the components of a form after the value of a field is changed.  
+* ** [Validate expressions](/help/forms/using/adaptive-form-expressions.md#p-validate-expression-p)**: to validate a field.
+* ** [Value Commit Script](/help/forms/using/adaptive-form-expressions.md#p-value-commit-script-p):** to change the components of a form after the value of a field is changed.  
 
-* ** [Visibility expression](../../forms/using/adaptive-form-expressions.md#p-visibility-expression-p)**: to control visibility of a field and panel.
-* ** [Step completion expression](../../forms/using/adaptive-form-expressions.md#p-step-completion-expression-p)**: to prevent a user from going to next step of a wizard.
+* ** [Visibility expression](/help/forms/using/adaptive-form-expressions.md#p-visibility-expression-p)**: to control visibility of a field and panel.
+* ** [Step completion expression](/help/forms/using/adaptive-form-expressions.md#p-step-completion-expression-p)**: to prevent a user from going to next step of a wizard.
 
 ### Access Expression (Enablement Expression) {#access-expression-enablement-expression}
 
@@ -111,7 +111,7 @@ The options expression is used to dynamically fill options of a drop-down list f
 
 **`marital_status.value == "married" ? ["1=One", "2=two"] : ["0=Zero"]`.**
 
-Whenever the value of **marital_status** field changes, the expression is retriggered. You can also populate the dropdown from a REST service. For detailed information, see [Dynamically populating dropdowns](../../forms/using/dynamically-populate-dropdowns.md).
+Whenever the value of **marital_status** field changes, the expression is retriggered. You can also populate the dropdown from a REST service. For detailed information, see [Dynamically populating dropdowns](/help/forms/using/dynamically-populate-dropdowns.md).
 
 ### Summary Expression {#summary}
 
@@ -194,11 +194,11 @@ To make a component mandatory, in the **Edit **dialog of the component, you can 
 
 ### Validation Patterns {#validation-patterns}
 
-There are multiple out of the box validation patterns available for a field. To select a validation pattern, in the **Edit **dialog of the component, locate the **Patterns **section and select **patterns**. You can create your own custom validation pattern in a **Pattern **text box. The validation status is returned **True **only if the data filled is compliant to the validation pattern, else **False **is returned. To write your own custom validation pattern, see [Picture clause support for HTML5 forms](../../forms/using/picture-clause-support.md).
+There are multiple out of the box validation patterns available for a field. To select a validation pattern, in the **Edit **dialog of the component, locate the **Patterns **section and select **patterns**. You can create your own custom validation pattern in a **Pattern **text box. The validation status is returned **True **only if the data filled is compliant to the validation pattern, else **False **is returned. To write your own custom validation pattern, see [Picture clause support for HTML5 forms](/help/forms/using/picture-clause-support.md).
 
 ### Validation Expressions {#validation-expressions}
 
-The validation of a field can also be computed using expressions on different fields. These expressions are written inside **Validation Script** field of the **Script** tab of **Edit** dialog of the component. The validation status of a field depends upon the value that the expression returns. For information on how to write such expressions, see [Validate Expression](../../forms/using/adaptive-form-expressions.md#p-validate-expression-p).
+The validation of a field can also be computed using expressions on different fields. These expressions are written inside **Validation Script** field of the **Script** tab of **Edit** dialog of the component. The validation status of a field depends upon the value that the expression returns. For information on how to write such expressions, see [Validate Expression](/help/forms/using/adaptive-form-expressions.md#p-validate-expression-p).
 
 ## Additional Information {#additional-information}
 
@@ -268,7 +268,7 @@ guideBridge.on("elementValueChanged", function (event, data)  {
 
 ### Creating custom patterns for a field {#creating-custom-patterns-for-a-field}
 
-As mentioned above, adaptive forms allows author to provide patterns for validation or display formats. In addition to using out of the box patterns, you can define reusable custom pattern for an adaptive form component. For example, you can define a text field or a numeric field. Once defined, you can use these patterns in all the forms for specified type of component. For example, you can create a custom pattern for a text field and use it in the text fields in their adaptive forms. You can select the custom pattern by accessing the pattern section in the edit dialog of a component. For details about Pattern definition or format, see [Picture clause support for HTML5 forms](../../forms/using/picture-clause-support.md).
+As mentioned above, adaptive forms allows author to provide patterns for validation or display formats. In addition to using out of the box patterns, you can define reusable custom pattern for an adaptive form component. For example, you can define a text field or a numeric field. Once defined, you can use these patterns in all the forms for specified type of component. For example, you can create a custom pattern for a text field and use it in the text fields in their adaptive forms. You can select the custom pattern by accessing the pattern section in the edit dialog of a component. For details about Pattern definition or format, see [Picture clause support for HTML5 forms](/help/forms/using/picture-clause-support.md).
 
 Perform the following steps to create a custom pattern for a specific field type and reuse it for other fields of the same type:
 

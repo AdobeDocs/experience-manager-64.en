@@ -84,7 +84,7 @@ To create an Experience Fragment:
 
    >[!NOTE]
    >
-   >You can use the [template editor](../../../sites/authoring/using/templates.md) to create your own template.
+   >You can use the [template editor](/help/sites/authoring/using/templates.md) to create your own template.
    >
    >
    >**Only** editable templates can be used; static templates are not fully compatible.
@@ -105,15 +105,15 @@ To create an Experience Fragment:
 
 ## Editing your Experience Fragment {#editing-your-experience-fragment}
 
-The Experience Fragment Editor offers you similar capabilities to the normal page Editor. See [Editing Page Content](../../../sites/authoring/using/editing-content.md) for more information on how to use it.
+The Experience Fragment Editor offers you similar capabilities to the normal page Editor. See [Editing Page Content](/help/sites/authoring/using/editing-content.md) for more information on how to use it.
 
 The following example procedure illustrates how to create a teaser for a product:
 
-1. Drag and drop a **Category Teaser** from the [Components Browser](../../../sites/authoring/using/author-environment-tools.md#components-browser).
+1. Drag and drop a **Category Teaser** from the [Components Browser](/help/sites/authoring/using/author-environment-tools.md#components-browser).
 
    ![](assets/xf-authoring-04.png)
 
-1. Select ** [Configure](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste)** from the component toolbar.
+1. Select ** [Configure](/help/sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste)** from the component toolbar.
 1. Add the **Asset** and define the **Properties** as required.
 1. Confirm the definitions with **Done** (tick icon).
 1. Add more components as required.
@@ -122,7 +122,7 @@ The following example procedure illustrates how to create a teaser for a product
 
 You can create variations of your Experience Fragment, depending on your needs:
 
-1. Open your fragment for [editing](../../../sites/authoring/using/experience-fragments.md#editing-your-experience-fragment).
+1. Open your fragment for [editing](/help/sites/authoring/using/experience-fragments.md#editing-your-experience-fragment).
 1. Open the **Variations** tab.
 
    ![](assets/xf-authoring-06.png)
@@ -237,5 +237,5 @@ For example:
 
 By default, Experience Fragments are delivered in the HTML format. This can be used by both AEM and third party channels alike.
 
-For export to Adobe Target, HTML is used. See [Target Integration with Experience Fragments](../../../sites/administering/using/experience-fragments-target.md) for full information.  
+For export to Adobe Target, HTML is used. See [Target Integration with Experience Fragments](/help/sites/administering/using/experience-fragments-target.md) for full information.  
 

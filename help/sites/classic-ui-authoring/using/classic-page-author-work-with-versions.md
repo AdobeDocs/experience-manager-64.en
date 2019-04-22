@@ -136,7 +136,7 @@ The calendar version is used if you have a specific day to be viewed:
 
    >[!NOTE]
    >
-   >You cannot edit the old version of the page. It is only available for viewing. If you want to restore the older version you will have to do that manually using [restore](../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#restoring-a-page-version-from-sidekick).
+   >You cannot edit the old version of the page. It is only available for viewing. If you want to restore the older version you will have to do that manually using [restore](/help/sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#restoring-a-page-version-from-sidekick).
 
 1. When you have finished viewing the page, click:
 

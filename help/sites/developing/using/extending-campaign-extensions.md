@@ -22,7 +22,7 @@ You need to have the following installed:
 * Adobe Experience Manager
 * Adobe Campaign 6.1
 
-See [Integrating AEM with Adobe Campaign 6.1](../../../sites/administering/using/campaignonpremise.md) for more information.
+See [Integrating AEM with Adobe Campaign 6.1](/help/sites/administering/using/campaignonpremise.md) for more information.
 
 ## Example 1: AEM to Adobe Campaign {#example-aem-to-adobe-campaign}
 
@@ -32,7 +32,7 @@ The standard integration between AEM and Campaign is based on JSON and JSSP (Jav
 
 >[!NOTE]
 >
->[For this example, please see Geometrixx](../../../sites/developing/using/we-retail.md), which is available from Package Share.
+>[For this example, please see Geometrixx](/help/sites/developing/using/we-retail.md), which is available from Package Share.
 
 In this example, we create a new custom JSSP file and call that from the AEM side to retrieve the result. This can be used, for example, to retrieve data from Adobe Campaign or to save data into Adobe Campaign.
 
@@ -164,7 +164,7 @@ AEM offers out of the box APIs to retrieve the objects available anywhere in the
 
 >[!NOTE]
 >
->[For this example, please see Geometrixx](../../../sites/developing/using/we-retail.md), which is available from Package Share.
+>[For this example, please see Geometrixx](/help/sites/developing/using/we-retail.md), which is available from Package Share.
 
 For each node in the explorer there is an API that is linked to it. For example for the node :
 

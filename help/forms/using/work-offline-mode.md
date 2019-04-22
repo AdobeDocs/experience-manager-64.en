@@ -16,13 +16,13 @@ The offline mode of the AEM Forms app lets you work seamlessly even if the app g
 
 You start off working on the AEM Forms app by synchronizing your app with the AEM Forms server. All the forms assigned to you are downloaded in your app. For AEM Forms on JEE, tasks are fetched in the tasks tab, and startpoints associated forms and other forms in the Forms tab. For AEM Forms on OSGi, only Forms are loaded in the Forms tab.
 
-For details on how to synchronize the app, see [Synchronizing the app](../../forms/using/sync-app.md).
+For details on how to synchronize the app, see [Synchronizing the app](/help/forms/using/sync-app.md).
 
 ## Making Forms available Offline {#making-forms-available-offline}
 
 When you synchronize your app with the AEM Forms server, the forms are downloaded to your mobile device. However, by default, the attachments associated with the form are not downloaded. This implies that if you are online, you can view the attachments. However, to ensure that you can view the attachment in the offline mode, change the default settings in your app.
 
-To ensure that the associated attachments are downloaded with each form, set Fetch attachments to ON. For details, see [Updating general settings](../../forms/using/update-general-settings.md).
+To ensure that the associated attachments are downloaded with each form, set Fetch attachments to ON. For details, see [Updating general settings](/help/forms/using/update-general-settings.md).
 
 Since downloading data on the mobile device can affect the performance of the device, by default, the Fetch attachments setting is set to OFF. The attachments are fetched to the device for any task that is downloaded from the server after the setting is updated to ON. In the offline mode, a user can then work on all tasks that are downloaded to device after setting the **Fetch attachments** options to ON.
 

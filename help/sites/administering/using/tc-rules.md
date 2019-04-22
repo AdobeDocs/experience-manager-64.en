@@ -27,7 +27,7 @@ The file applies to all translation projects.
 
 >[!NOTE]
 >
->After an upgrade to 6.4, it is recommended to move the file from /etc. See [Common Repository Restructuring in AEM 6.4](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-rules) for more details.
+>After an upgrade to 6.4, it is recommended to move the file from /etc. See [Common Repository Restructuring in AEM 6.4](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-rules) for more details.
 
 Rules include the following information:
 
@@ -38,7 +38,7 @@ For example, you can create a rule that translates the content that authors add 
 
 There is a [console](#translation-rules-ui) that has been added for configuring translation rules. The definitions in the UI will populate the file for you.
 
-For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md).
+For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md).
 
 >[!NOTE]
 >

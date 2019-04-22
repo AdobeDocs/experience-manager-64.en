@@ -15,7 +15,7 @@ discoiquuid: a5b5e40e-2457-45fe-9632-baf5008fe8bf
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 [Single-Page Applications](https://en.wikipedia.org/wiki/Single-page_application) (SPA) have reached critical mass, widely regarded as the most effective pattern for building seamless experiences with web technology. By following a SPA pattern, you can create an application that performs identically to a desktop or mobile application, but reaches a multitude of device platforms and form factors due to its foundation in open web standards.
 
@@ -82,4 +82,4 @@ There are also two components at work here: ng-product augments the scope with t
 
 ## The Next Steps {#the-next-steps}
 
-Once you have learnt about the Single Page Applications, see [Developing Apps with PhoneGap CLI](../../mobile/using/phonegap-apps-pg-cli.md).
+Once you have learnt about the Single Page Applications, see [Developing Apps with PhoneGap CLI](/help/mobile/using/phonegap-apps-pg-cli.md).

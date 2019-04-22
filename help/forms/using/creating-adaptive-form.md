@@ -31,7 +31,7 @@ Follow these steps to create an adaptive form.
    >For a default installation, the login is `admin` and the password is `admin`.
 
 1. Tap** Create** and select **Adaptive Form**.
-1. An option to select a template appears. For more information about templates, see [Adaptive form templates](../../forms/using/creating-adaptive-form.md#p-adaptive-form-templates-p). Tap a template to select it and tap Next.
+1. An option to select a template appears. For more information about templates, see [Adaptive form templates](/help/forms/using/creating-adaptive-form.md#p-adaptive-form-templates-p). Tap a template to select it and tap Next.
 1. An option to 'Add Properties' appears. Specify the values for following property fields. The Title and Name fields are mandatory:
 
     * **Title:** Specifies the display name of the form. The title helps you identify the form in the AEM Forms user interface.
@@ -42,8 +42,8 @@ Follow these steps to create an adaptive form.
 1. You can create an adaptive form based on one of following form models:
 
     * [Form data model](#fdm)
-    * [XFA form template](../../forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-an-xfa-form-template-p)
-    * [XML or JSON schema](../../forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-xml-or-json-schema-p)
+    * [XFA form template](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-an-xfa-form-template-p)
+    * [XML or JSON schema](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-xml-or-json-schema-p)
     * None or without any form model
 
    You can configure these from the **Form Model** tab on the **Add Properties** page. By default, the form model selected is **None**.
@@ -57,7 +57,7 @@ Follow these steps to create an adaptive form.
 
    Based on the type of adaptive form, the form elements present in the associated XFA form template, XML schema, or JSON schema are displayed in the **Data Model Objects** tab of the **Content Browser** in the sidebar. You can also drag-drop these elements to build your adaptive form.
 
-   For information about adaptive form authoring interface and available components, see [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md).
+   For information about adaptive form authoring interface and available components, see [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
    >[!NOTE] {grayBox="true"}
    >
@@ -65,7 +65,7 @@ Follow these steps to create an adaptive form.
 
 ## Create an adaptive form based on a form data model {#fdm}
 
-[AEM Forms data integration](../../forms/using/data-integration.md) lets you integrate multiple data sources and bring their entities and services together to create a form data model. It is an extension of JSON schema. You can use a form data model to create an adaptive form. The entities or data model objects configured in a form data model are available as data model objects for form authoring. They are bound to respective data sources and used to prefill a form and write submitted data back to the respective data sources. You can also invoke services configured in a form data model using adaptive form rules.
+[AEM Forms data integration](/help/forms/using/data-integration.md) lets you integrate multiple data sources and bring their entities and services together to create a form data model. It is an extension of JSON schema. You can use a form data model to create an adaptive form. The entities or data model objects configured in a form data model are available as data model objects for form authoring. They are bound to respective data sources and used to prefill a form and write submitted data back to the respective data sources. You can also invoke services configured in a form data model using adaptive form rules.
 
 To use a form data model for creating an adaptive form:
 
@@ -89,7 +89,7 @@ You can repurpose your XFA form templates to create adaptive forms. To repurpose
 
 >[!NOTE]
 >
->[Upload the XFA Form Template](../../forms/using/get-xdp-pdf-documents-aem.md) to AEM Forms before you start creating an adaptive form based on the form template.
+>[Upload the XFA Form Template](/help/forms/using/get-xdp-pdf-documents-aem.md) to AEM Forms before you start creating an adaptive form based on the form template.
 
 Do the following to use an XFA form template as form model for your adaptive form:
 
@@ -110,8 +110,8 @@ XML and JSON schemas represent the structure in which data is produced or consum
 
 See the following documents to understand how to design XML or JSON schema for authoring adaptive forms.
 
-* [Creating adaptive forms using XML schema](../../forms/using/adaptive-form-xml-schema-form-model.md)
-* [Creating adaptive forms using JSON schema](../../forms/using/adaptive-form-json-schema-form-model.md)
+* [Creating adaptive forms using XML schema](/help/forms/using/adaptive-form-xml-schema-form-model.md)
+* [Creating adaptive forms using JSON schema](/help/forms/using/adaptive-form-json-schema-form-model.md)
 
 Do the following to use XML or JSON schema as form model for an adaptive form:
 
@@ -143,13 +143,13 @@ Do the following to use XML or JSON schema as form model for an adaptive form:
 
 ## Adaptive form templates {#adaptive-form-templates}
 
-A template provides a basic structure and defines appearance (layouts and styles) of an adaptive form. It has pre-formatted components containing certain properties and content structure. Out of the box, AEM Forms provides some adaptive form templates. To get the complete template package including advanced templates, you need to install the AEM Forms add-on package. For more information, see [Installing AEM Forms add-on package](../../forms/using/installing-configuring-aem-forms-osgi.md).
+A template provides a basic structure and defines appearance (layouts and styles) of an adaptive form. It has pre-formatted components containing certain properties and content structure. Out of the box, AEM Forms provides some adaptive form templates. To get the complete template package including advanced templates, you need to install the AEM Forms add-on package. For more information, see [Installing AEM Forms add-on package](/help/forms/using/installing-configuring-aem-forms-osgi.md).
 
-In addition, you can use the template editor to create your own templates. For more information about working with templates, see [Adaptive form templates](../../forms/using/template-editor.md).
+In addition, you can use the template editor to create your own templates. For more information about working with templates, see [Adaptive form templates](/help/forms/using/template-editor.md).
 
 >[!NOTE]
 >
->When you open an adaptive form created using the advanced template for editing, an error message appears. The advanced template has a Signature Step component and Adobe Sign is enabled for it by default. Create and select an [Adobe Sign cloud configuration](../../forms/using/adobe-sign-integration-adaptive-forms.md) and [configure a signer](../../forms/using/working-with-adobe-sign.md#main-pars-header-1374317451) to resolve the error.
+>When you open an adaptive form created using the advanced template for editing, an error message appears. The advanced template has a Signature Step component and Adobe Sign is enabled for it by default. Create and select an [Adobe Sign cloud configuration](/help/forms/using/adobe-sign-integration-adaptive-forms.md) and [configure a signer](/help/forms/using/working-with-adobe-sign.md#main-pars-header-1374317451) to resolve the error.
 
 ## Edit Form Model properties of an adaptive form {#edit-form-model}
 

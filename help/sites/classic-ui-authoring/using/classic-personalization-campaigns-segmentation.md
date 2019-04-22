@@ -27,7 +27,7 @@ Content can then be specifically targeted to the visitor's needs and interests, 
 
 ## Using Segmentation {#using-segmentation}
 
-Segments are defined in [Configuring Segmentation](../../../sites/administering/using/campaign-segmentation.md). They are used to steer the actual content seen by a specific target audience.
+Segments are defined in [Configuring Segmentation](/help/sites/administering/using/campaign-segmentation.md). They are used to steer the actual content seen by a specific target audience.
 
 ## Segmentation terminology {#segmentation-terminology}
 
@@ -75,5 +75,5 @@ For example, combining the referring URL (as a behavioral trait) with demographi
 
 >[!NOTE]
 >
->Please see [Segmentation](../../../sites/administering/using/campaign-segmentation.md) for further information on segments in AEM.
+>Please see [Segmentation](/help/sites/administering/using/campaign-segmentation.md) for further information on segments in AEM.
 

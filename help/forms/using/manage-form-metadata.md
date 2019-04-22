@@ -18,7 +18,7 @@ Metadata allows for easier categorization and organization of assets and helps u
 
 AEM Forms, by default, provides a defined set of metadata for each asset type. Beyond the default metadata, you can add custom metadata to each of the asset types. AEM Forms also provides you with the right means of creating, managing, and exchanging all this metadata efficiently for your forms.
 
-If you're a developer or a site owner, you can customize Forms Portal, the end-user interface for AEM Forms to reflect the metadata you're using in your organization. For more information abouts Forms Portal, see [Introduction to publishing forms on a portal](../../forms/using/introduction-publishing-forms.md).
+If you're a developer or a site owner, you can customize Forms Portal, the end-user interface for AEM Forms to reflect the metadata you're using in your organization. For more information abouts Forms Portal, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 
 ## Metadata in AEM Forms&nbsp; {#metadata-in-aem-forms-nbsp}
 

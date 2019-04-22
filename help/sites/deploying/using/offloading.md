@@ -19,7 +19,7 @@ Offloading distributes processing tasks amoung Experience Manager instances in a
 
 Offloading is based on the [Apache Sling Discovery](https://sling.apache.org/documentation/bundles/discovery-api-and-impl.html) and Sling JobManager features. To use offloading, you add Experience Manager clusters to a topology and identify the job topics that the cluster process. Clusters are comprised of one or more Experience Manager instances, so that a single instance is considered to be a cluster.
 
-For information about adding instances to a topology, see [Administering Topologies](../../../sites/deploying/using/offloading.md#administering-topologies).
+For information about adding instances to a topology, see [Administering Topologies](/help/sites/deploying/using/offloading.md#administering-topologies).
 
 ### Job Distribution {#job-distribution}
 
@@ -33,7 +33,7 @@ When JobManager creates a job, the Offloading framework selects an Experience Ma
 * The cluster must include one or more instances that are running a JobConsumer that is registered for the job topic.
 * The topic must be enabled for at least one instance in the cluster.
 
-See [Configuring Topic Consumption](../../../sites/deploying/using/offloading.md#configuring-topic-consumption) for information about refining job distribution.
+See [Configuring Topic Consumption](/help/sites/deploying/using/offloading.md#configuring-topic-consumption) for information about refining job distribution.
 
 ![](assets/chlimage_1-109.png)
 
@@ -227,7 +227,7 @@ The offloading framework uses replication to transport resources between author 
 
 >[!CAUTION]
 >
->A known issue with the automatically-generated replication agents requires you to manually create new replication agents. Follow the procedure in [Problems Using the Automatically Generated Replication Agents](../../../sites/deploying/using/offloading.md#problems-using-the-automatically-generated-replication-agents) before you create the agents for Offloading.
+>A known issue with the automatically-generated replication agents requires you to manually create new replication agents. Follow the procedure in [Problems Using the Automatically Generated Replication Agents](/help/sites/deploying/using/offloading.md#problems-using-the-automatically-generated-replication-agents) before you create the agents for Offloading.
 
 Create the replication agents that transport job payloads between instances for offloading. The following illustration shows the agents that are required to offload from the author to a worker instance. The author has a Sling ID of 1 and the worker instance has a Sling ID of 2: 
 
@@ -267,7 +267,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
 ### Creating the outgoing agent {#creating-the-outgoing-agent}
 
-1. Create a** Replication Agent **on author. (See the [documention for replication agents](../../../sites/deploying/using/replication.md)). Specify any **Title**. The **Name** must follow the naming convention. 
+1. Create a** Replication Agent **on author. (See the [documention for replication agents](/help/sites/deploying/using/replication.md)). Specify any **Title**. The **Name** must follow the naming convention. 
 1. Create the agent using the following properties:
 
    | Property |Value |
@@ -281,7 +281,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
 ### Creating the reverse agent {#creating-the-reverse-agent}
 
-1. Create a** Reverse Replication Agent **on author. (See the [documention for replication agents](../../../sites/deploying/using/replication.md).) Specify any **Title. **The **Name** must follow the naming convention. 
+1. Create a** Reverse Replication Agent **on author. (See the [documention for replication agents](/help/sites/deploying/using/replication.md).) Specify any **Title. **The **Name** must follow the naming convention. 
 1. Create the agent using the following properties:
 
    | Property |Value |
@@ -294,7 +294,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
 ### Creating the outbox agent {#creating-the-outbox-agent}
 
-1. Create a **Replication Agent **on the worker instance. (See the [documention for replication agents](../../../sites/deploying/using/replication.md).) Specify any **Title**. The **Name** must be `offloading_outbox`.
+1. Create a **Replication Agent **on the worker instance. (See the [documention for replication agents](/help/sites/deploying/using/replication.md).) Specify any **Title**. The **Name** must be `offloading_outbox`.
 1. Create the agent using the following properties.
 
    | Property |Value |
@@ -318,7 +318,7 @@ By default, Experience Manager executes the DAM Update Asset workflow when a DAM
 
 >[!CAUTION]
 >
->No workflow should be transient when used with workflow offloading. For example, the DAM Update Asset workflow must not be transient when used for asset offloading. To set/unset the transient flag on a workflow, see [Transient Workflows](../../../assets/using/performance-tuning-guidelines.md#workflows).
+>No workflow should be transient when used with workflow offloading. For example, the DAM Update Asset workflow must not be transient when used for asset offloading. To set/unset the transient flag on a workflow, see [Transient Workflows](/help/assets/using/performance-tuning-guidelines.md#workflows).
 
 The following procedure assumes the following characteristics for the offloading topology:
 
@@ -336,7 +336,7 @@ The following procedure assumes the following characteristics for the offloading
     1. Open the Workflow console.
     1. Click the Launcher tab.
     1. Locate the two Launcher configurations that execute the DAM Update Asset workflow. One launcher configuration event type is Node Created, and the other type is Node Modified.
-    1. Change both event types so that they execute the DAM Update Asset Offloading workflow. (For information about launcher configurations, see [Starting Workflows When Nodes Change](../../../sites/administering/using/workflows-starting.md).)
+    1. Change both event types so that they execute the DAM Update Asset Offloading workflow. (For information about launcher configurations, see [Starting Workflows When Nodes Change](/help/sites/administering/using/workflows-starting.md).)
 
 1. On the instances that perform the background processing of DAM assets, disable the workflow launchers that execute the DAM Update Asset workflow.
 
@@ -344,7 +344,7 @@ The following procedure assumes the following characteristics for the offloading
 
 In addition to the details presented on this page, you can also read the following:
 
-* For information about using Java APIs to create jobs and job consumers, see [Creating and Consuming Jobs for Offloading](../../../sites/developing/using/dev-offloading.md).
-* For general guidelines and best practices for asset offloading, see [General Guidelines and Best Practices for Asset Offloading](../../../assets/using/assets-offloading-best-practices.md#general-guidance-and-best-practices-for-asset-offloading).
-* To know how to disable the automatic creation of offloading agents, see [Turning Off Automatic Agent Management](../../../assets/using/assets-offloading-best-practices.md#turning-off-automatic-agent-management).
+* For information about using Java APIs to create jobs and job consumers, see [Creating and Consuming Jobs for Offloading](/help/sites/developing/using/dev-offloading.md).
+* For general guidelines and best practices for asset offloading, see [General Guidelines and Best Practices for Asset Offloading](/help/assets/using/assets-offloading-best-practices.md#general-guidance-and-best-practices-for-asset-offloading).
+* To know how to disable the automatic creation of offloading agents, see [Turning Off Automatic Agent Management](/help/assets/using/assets-offloading-best-practices.md#turning-off-automatic-agent-management).
 

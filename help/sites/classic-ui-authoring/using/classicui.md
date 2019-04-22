@@ -17,7 +17,7 @@ discoiquuid: edc78306-5e83-45a4-a44b-ce0d21ff0f31
 
 The Classic UI is the desktop-oriented user interface that as been available since CQ5. The following documentation on authoring is focused on this UI.
 
-The touch-based UI is the new standard user interface for AEM, designed for use on both touch and desktop devices. Please see the [standard authoring documentation](../../../sites/authoring/using/author.md) for further information.
+The touch-based UI is the new standard user interface for AEM, designed for use on both touch and desktop devices. Please see the [standard authoring documentation](/help/sites/authoring/using/author.md) for further information.
 
 >[!NOTE]
 >
@@ -25,4 +25,4 @@ The touch-based UI is the new standard user interface for AEM, designed for use 
 
 ## Concept of Authoring (and Publishing) {#concept-of-authoring-and-publishing}
 
-Regardless of the choice of UI, there are certain concepts and ideas common to authoring, which are well-described [here in the standard authoring documentation](../../../sites/authoring/using/author.md#concept-of-authoring-and-publishing).
+Regardless of the choice of UI, there are certain concepts and ideas common to authoring, which are well-described [here in the standard authoring documentation](/help/sites/authoring/using/author.md#concept-of-authoring-and-publishing).

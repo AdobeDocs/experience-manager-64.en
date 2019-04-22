@@ -19,11 +19,11 @@ The Translation Integration Framework integrates with third-party translation se
 * Create a Translation Integration Framework configuration.
 * Associate the cloud configurations with your pages.
 
-For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md).  
+For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md).  
 
 ## Connecting to a Translation Service Provider {#connecting-to-a-translation-service-provider}
 
-Create a cloud configuration that connects AEM to your translation service provider. AEM includes the capability to connect to Microsoft Translator by default. For other translation providers, download the connector package from [Package Share](../../../sites/administering/using/package-manager.md#package-share).  
+Create a cloud configuration that connects AEM to your translation service provider. AEM includes the capability to connect to Microsoft Translator by default. For other translation providers, download the connector package from [Package Share](/help/sites/administering/using/package-manager.md#package-share).  
 The following translation vendors provide an implementation of the new API for the Translation Projects. Links to learn more about the integration and how to download from Package Share:
 
 * [Clay Tablet Technologies](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/apps/clay-tablet-translation-connector-for-aem.html) (not on PackageShare, contact vendor directly)
@@ -48,7 +48,7 @@ The following translation vendors provide an implementation of the new API for t
 >* [AEM Machine Translation](https://www.adobe.com/go/aem-machine-translation-connectors)
 >
 
-After you install a connector package, you can create a cloud configuration for the connector. Typically, you need to provide your credentials for authenticating with the translation service. For information about adding a cloud configuration for the Microsoft Translator connector, see [Integrating with Microsoft Translator](../../../sites/administering/using/tc-msconf.md).
+After you install a connector package, you can create a cloud configuration for the connector. Typically, you need to provide your credentials for authenticating with the translation service. For information about adding a cloud configuration for the Microsoft Translator connector, see [Integrating with Microsoft Translator](/help/sites/administering/using/tc-msconf.md).
 
 You can create multiple cloud configurations for the same connector if required. For example, create one configuration for each of the accounts or projects that you have with the same vendor.
 
@@ -66,9 +66,9 @@ After you create a framework configuration, you associate the cloud configuratio
 
 When different sections of your website have different translation requirements, create multiple framework configurations accordingly. For example, a multilingual website includes English, Spanish, and Japanese language copies. The site owner uses two different translation service providers for Spanish and Japanese translations. Therefore, two configurations of the framework are configured. Each configuration uses a different translation service provider.
 
-After you configure a translation integration framework, you can [associate it with the pages](../../../sites/administering/using/tc-prep.md) that use it.
+After you configure a translation integration framework, you can [associate it with the pages](/help/sites/administering/using/tc-prep.md) that use it.
 
-**Note:** For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md).
+**Note:** For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md).
 
 A single configuration of the framework controls how to translate page content, community content, and assets.
 ![](assets/chlimage_1-386.png) 
@@ -122,17 +122,17 @@ The Sites properties control how the translation of page content is performed.
 
 ### Communities Configuration Properties {#communities-configuration-properties}
 
-Communities properties control how the translation of user-generated content is performed. The translation of user-generated content always uses machine translation. For more information, see [Translating User Generated Content](../../../communities/using/translate-ugc.md).
+Communities properties control how the translation of user-generated content is performed. The translation of user-generated content always uses machine translation. For more information, see [Translating User Generated Content](/help/communities/using/translate-ugc.md).
 
 | Property |Description |
 |---|---|
 | Translation Provider |Select the translation provider to perform the translation. The provider for which cloud configurations are created appear in the list. |
 | Content Category |A category that describes the content that you are translating. The category can affect the choice of terminology and phrasing when translating content. |
-| Choose A Locale To Use As The Global Share Store |(Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](../../../communities/using/sites-console.md#translation) for the website. Choosing No Common Store will disable global translation. By default, global translation is disabled. |
+| Choose A Locale To Use As The Global Share Store |(Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](/help/communities/using/sites-console.md#translation) for the website. Choosing No Common Store will disable global translation. By default, global translation is disabled. |
 
 ### Assets Configuration Properties {#assets-configuration-properties}
 
-Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](../../../assets/using/translation-projects.md).
+Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](/help/assets/using/translation-projects.md).
 
 <table> 
  <tbody> 
@@ -198,7 +198,7 @@ When you associate a page with a cloud configuration, the descendants of the pag
 
 When required, you can override the association on a descendent page. For example, the content of a web site is mostly about clothing. However, one branch of pages describes the company. The root page of the site is associated with a Translation Integration Framework that specifies machine translation using the Clothing category. The branch that describes the company uses a framework that performs machine translation using the General category.
 
-Further, for any communities [SCF components](../../../communities/using/scf.md) on the pages, the user generated content (UGC) will include the ability for users to translate content. For more information, see [Translation of User Generated Content](../../../communities/using/translate-ugc.md).
+Further, for any communities [SCF components](/help/communities/using/scf.md) on the pages, the user generated content (UGC) will include the ability for users to translate content. For more information, see [Translation of User Generated Content](/help/communities/using/translate-ugc.md).
 
 ### Associating a Page with a Translation Provider {#associating-a-page-with-a-translation-provider}
 

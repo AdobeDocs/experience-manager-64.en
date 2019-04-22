@@ -18,7 +18,7 @@ The Drafts & Submissions component lists all the forms that are in the draft sta
 
 The Drafts & Submissions component has two tabs: Drafts and Submissions.
 
-To enable submission of an adaptive form to appear in the submissions tab, set the **Submit action** to ** [Forms Portal Submit Action](../../forms/using/configuring-submit-actions.md). Alternatively,** enable the Forms Portal Submit option. Whenever, a user submits the form, the form is added to the submissions tab.
+To enable submission of an adaptive form to appear in the submissions tab, set the **Submit action** to ** [Forms Portal Submit Action](/help/forms/using/configuring-submit-actions.md). Alternatively,** enable the Forms Portal Submit option. Whenever, a user submits the form, the form is added to the submissions tab.
 
 The drafts functionality is enabled out of the box. When a user clicks **Save** on an adaptive form, the form is added to the drafts tab.
 
@@ -92,6 +92,6 @@ When you use the Forms Portal submit action or enable the Store data in forms po
 
 Forms portal allows you to store data at local AEM repository, remote AEM repository, or to a database. AEM Forms allows you to customize the implementation of storing user data for drafts and submissions. You can override default methods to specify how draft and submissions data is stored at a storage of your choice. For example, you can store the data in a data store currently implemented in your organization.
 
-Forms portal provides out of the box services (APIs) to store data on crx-repository of local and remote AEM Forms publish instances. You can replace the default implementations, described in [Configuring storage services for drafts and submissions](../../forms/using/configuring-draft-submission-storage.md) article, with custom implementations to replace default functionality. For detailed information about the methods required in a custom implementation to store content at a secured location, see [Customizing Draft and Submission data services](../../forms/using/custom-draft-submission-data-services.md) and [Custom storage for drafts and submissions component.](../../forms/using/adding-custom-storage-provider-forms.md)
+Forms portal provides out of the box services (APIs) to store data on crx-repository of local and remote AEM Forms publish instances. You can replace the default implementations, described in [Configuring storage services for drafts and submissions](/help/forms/using/configuring-draft-submission-storage.md) article, with custom implementations to replace default functionality. For detailed information about the methods required in a custom implementation to store content at a secured location, see [Customizing Draft and Submission data services](/help/forms/using/custom-draft-submission-data-services.md) and [Custom storage for drafts and submissions component.](/help/forms/using/adding-custom-storage-provider-forms.md)
 
 AEM Forms documentation provides a [Sample for integrating drafts & submissions component with database](https://helpx.adobe.com/in/experience-manager/6-4/forms/using/integrate-draft-submission-database.html). You can use the sample implementation to develop your own custom implementation.

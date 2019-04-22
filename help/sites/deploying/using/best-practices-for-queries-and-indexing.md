@@ -17,7 +17,7 @@ Along with the transition to Oak in AEM 6, some major changes were made to the w
 
 This article will outline when to create indexes as well as when they are not needed, tricks to avoid using queries when they are not necessary, and tips for optimizing your indexes and queries to perform as optimally as possible.
 
-Additionally, make sure to read the [Oak documentation on writing queries and indexes](../../../sites/deploying/using/queries-and-indexing.md). In addition to indexes being a new concept in AEM 6, there are syntactical differences in Oak queries that need to be taken into account when migrating code from a previous AEM installation.
+Additionally, make sure to read the [Oak documentation on writing queries and indexes](/help/sites/deploying/using/queries-and-indexing.md). In addition to indexes being a new concept in AEM 6, there are syntactical differences in Oak queries that need to be taken into account when migrating code from a previous AEM installation.
 
 ## When to Use Queries {#when-to-use-queries}
 
@@ -61,7 +61,7 @@ If the data or content will change regularly, the query can be executed on a sch
 
 ## Query Optimization {#query-optimization}
 
-When running a query that is not using an index, warnings will be logged regarding node traversal. If this is a query that is going to be run often, an index should be created. To determine which index a given query is using, the [Explain Query tool](../../../sites/administering/using/operations-dashboard.md#explain-query) is recommended. For additional information, DEBUG logging can be enabled for the relevant search APIs.
+When running a query that is not using an index, warnings will be logged regarding node traversal. If this is a query that is going to be run often, an index should be created. To determine which index a given query is using, the [Explain Query tool](/help/sites/administering/using/operations-dashboard.md#explain-query) is recommended. For additional information, DEBUG logging can be enabled for the relevant search APIs.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ When running complex queries, there may be cases in which breaking down the quer
 
 AEM allows writing queries in one of three ways:
 
-* Via the [QueryBuilder APIs](../../../sites/developing/using/querybuilder-api.md) (recommended)
+* Via the [QueryBuilder APIs](/help/sites/developing/using/querybuilder-api.md) (recommended)
 * Using XPath (recommended)
 * Using SQL2
 
@@ -79,11 +79,11 @@ While all queries are converted to SQL2 before being run, the overhead of query 
 
 >[!NOTE]
 >
->When using QueryBuilder, it will determine the result count by default, which is slower in Oak as compared to previous versions of Jackrabbit. To compensate for this, you can use the [guessTotal parameter](../../../sites/developing/using/querybuilder-api.md#using-p-guesstotal-to-return-the-results).
+>When using QueryBuilder, it will determine the result count by default, which is slower in Oak as compared to previous versions of Jackrabbit. To compensate for this, you can use the [guessTotal parameter](/help/sites/developing/using/querybuilder-api.md#using-p-guesstotal-to-return-the-results).
 
 ### The Explain Query Tool {#the-explain-query-tool}
 
-As with any query language, the first step to optimizing a query is to understand how it will be executed. To enable this activity, you can use the [Explain Query tool](../../../sites/administering/using/operations-dashboard.md#explain-query) that is part of the Operations Dashboard. With this tool, a query can be plugged in and explained. A warning will be shown if the query will cause issues with a large repository as well as execution time and the indexes that will be used. The tool can also load a list of slow and popular queries that can then be explained and optimized.
+As with any query language, the first step to optimizing a query is to understand how it will be executed. To enable this activity, you can use the [Explain Query tool](/help/sites/administering/using/operations-dashboard.md#explain-query) that is part of the Operations Dashboard. With this tool, a query can be plugged in and explained. A warning will be shown if the query will cause issues with a large repository as well as execution time and the indexes that will be used. The tool can also load a list of slow and popular queries that can then be explained and optimized.
 
 ### DEBUG Logging for Queries {#debug-logging-for-queries}
 
@@ -95,7 +95,7 @@ To get some additional information about how Oak is choosing which index to use 
 
 Make sure to remove this logger when you have finished debugging your query as it will output a lot of activity and can eventually fill up your disk with log files.
 
-For more information on how to do this, see the [Logging documentation](../../../sites/deploying/using/configure-logging.md).
+For more information on how to do this, see the [Logging documentation](/help/sites/deploying/using/configure-logging.md).
 
 ### Index Statistics {#index-statistics}
 
@@ -150,7 +150,7 @@ The first question to ask when creating or optimizing indexes is whether they ar
 
 After creating an index, every time the indexed data is updated, the index must be updated as well. Since this carries performance implications for the system, indexes should only be created when they are actually required.
 
-Additionally, indexes are only useful if the data contained within the index is unique enough to warrant it. Consider an index in a book and the topics that it covers. When indexing a set of topics in a text, usually there will be hundreds or thousands of entries, which allows you to quickly jump to a subset of pages to quickly find the information that you are looking for. If that index only had two or three entries, each pointing you to several hundred pages, the index would not be very useful. This same concept applies to database indexes. If there are only a couple unique values, the index will not be very useful. That being said, an index can also become too large to be useful as well. To look at index statistics, see [Index Statistics](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md#index-statistics) above.
+Additionally, indexes are only useful if the data contained within the index is unique enough to warrant it. Consider an index in a book and the topics that it covers. When indexing a set of topics in a text, usually there will be hundreds or thousands of entries, which allows you to quickly jump to a subset of pages to quickly find the information that you are looking for. If that index only had two or three entries, each pointing you to several hundred pages, the index would not be very useful. This same concept applies to database indexes. If there are only a couple unique values, the index will not be very useful. That being said, an index can also become too large to be useful as well. To look at index statistics, see [Index Statistics](/help/sites/deploying/using/best-practices-for-queries-and-indexing.md#index-statistics) above.
 
 ### Lucene or Property Indexes? {#lucene-or-property-indexes}
 
@@ -166,7 +166,7 @@ In general, it is recommended you use Lucene indexes unless there is a compellin
 
 AEM also provides support for Solr indexing by default. This is mainly leveraged to support full text search, but it can also be used to support any type of JCR query. Solr should be considered when the AEM instances do not have the CPU capacity to handle the number of queries required in search intensive deployments like search driven websites with a high number of concurrent users. Alternately, Solr can be implemented in a crawler based approach to leverage some of the more advanced features of the platform.
 
-Solr indexes can be configured to run embedded on the AEM server for development environments or can be offloaded to a remote instance to improve search scalability on the production and staging environments. While offloading search will improve scalability, it will introduce latency and because of this, is not recommended unless required. For more info on how to configure Solr integration and how to create Solr indexes see the [Oak Queries and Indexing documentation](../../../sites/deploying/using/queries-and-indexing.md#the-solr-index).
+Solr indexes can be configured to run embedded on the AEM server for development environments or can be offloaded to a remote instance to improve search scalability on the production and staging environments. While offloading search will improve scalability, it will introduce latency and because of this, is not recommended unless required. For more info on how to configure Solr integration and how to create Solr indexes see the [Oak Queries and Indexing documentation](/help/sites/deploying/using/queries-and-indexing.md#the-solr-index).
 
 >[!NOTE]
 >
@@ -220,7 +220,7 @@ Re-indexing of Oak indexes is to be avoided unless covered by a reasons in the t
 >Prior to consulting the tables below to determine is re-indexing is useful,** always **verify:
 >
 >* the query is correct 
->* the query resolves to the expected index (using [Explain Query](../../../sites/administering/using/operations-dashboard.md#diagnosis-tools))
+>* the query resolves to the expected index (using [Explain Query](/help/sites/administering/using/operations-dashboard.md#diagnosis-tools))
 >* the indexing process has completed
 >
 
@@ -253,7 +253,7 @@ The following detail possible issues together with resolutions:
 
 * How to Resolve:
 
-    * [Re-index](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md#how-to-re-index) the lucene index  
+    * [Re-index](/help/sites/deploying/using/best-practices-for-queries-and-indexing.md#how-to-re-index) the lucene index  
     
     * Alternatively, touch (perform a benign write operation) to the missing nodes
 
@@ -366,11 +366,11 @@ The following detail possible issues together with resolutions:
 
 >[!NOTE]
 >
->In AEM 6.4, [oak-run.jar is the ONLY supported method](../../../sites/deploying/using/indexing-via-the-oak-run-jar.md#reindexingapproachdecisiontree) for re-indexing on MongoMK or RDBMK repositories.
+>In AEM 6.4, [oak-run.jar is the ONLY supported method](/help/sites/deploying/using/indexing-via-the-oak-run-jar.md#reindexingapproachdecisiontree) for re-indexing on MongoMK or RDBMK repositories.
 
 #### Re-indexing Property indexes {#re-indexing-property-indexes}
 
-* Use [oak-run.jar](../../../sites/deploying/using/oak-run-indexing-usecases.md#usecase3reindexing) to re-index the property index
+* Use [oak-run.jar](/help/sites/deploying/using/oak-run-indexing-usecases.md#usecase3reindexing) to re-index the property index
 * Set the async-reindex property to true on the property index
 
     * `[oak:queryIndexDefinition]@reindex-async=true`
@@ -381,7 +381,7 @@ The following detail possible issues together with resolutions:
 
 #### Re-indexing Lucene Property indexes {#re-indexing-lucene-property-indexes}
 
-* Use [oak-run.jar to re-index](../../../sites/deploying/using/oak-run-indexing-usecases.md#usecase3reindexing) the Lucene Property index.
+* Use [oak-run.jar to re-index](/help/sites/deploying/using/oak-run-indexing-usecases.md#usecase3reindexing) the Lucene Property index.
 * Set the async-reindex property to true on the  lucene  property index
 
     * `[oak:queryIndexDefinition]@reindex-async=true`

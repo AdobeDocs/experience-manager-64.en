@@ -23,7 +23,7 @@ A *security setting* controls the security and permissions for files that are co
 
 1. In administration console, click Services &gt; PDF Generator &gt; Security Settings.
 1. Click New or click the name of a security setting.
-1. On the New/Edit Security Setting page, complete the required information for the security setting. (See [Configuring file type settings](../../../forms/using/admin-help/configuring-file-type-settings.md#configuring-file-type-settings).)
+1. On the New/Edit Security Setting page, complete the required information for the security setting. (See [Configuring file type settings](/help/forms/using/admin-help/configuring-file-type-settings.md#configuring-file-type-settings).)
 1. Click Save and, in the dialog box that appears, type a name for the setting and then click OK.
 
 ### Security settings {#security-settings}

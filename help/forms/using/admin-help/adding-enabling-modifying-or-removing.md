@@ -26,13 +26,13 @@ Endpoints can be added only to services. An endpoint cannot exist alone; it must
 1. In the list on the Endpoints tab, select the type of endpoint to add and click Add.
 1. Depending on the endpoint type, configure additional endpoint settings.
 
-   [Watched folder endpoint settings](../../../forms/using/admin-help/configuring-watched-folder-endpoints.md#watched-folder-endpoint-settings)
+   [Watched folder endpoint settings](/help/forms/using/admin-help/configuring-watched-folder-endpoints.md#watched-folder-endpoint-settings)
 
-   [Email endpoint settings](../../../forms/using/admin-help/configuring-email-endpoints.md#email-endpoint-settings)
+   [Email endpoint settings](/help/forms/using/admin-help/configuring-email-endpoints.md#email-endpoint-settings)
 
-   [Configuring Task Manager endpoints](../../../forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints)
+   [Configuring Task Manager endpoints](/help/forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints)
 
-   [Remoting endpoint settings](../../../forms/using/admin-help/configuring-remoting-endpoints.md#remoting-endpoint-settings)
+   [Remoting endpoint settings](/help/forms/using/admin-help/configuring-remoting-endpoints.md#remoting-endpoint-settings)
 
 1. Click Add.
 

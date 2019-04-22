@@ -50,10 +50,10 @@ To edit metadata schema:
 To associate submission reviewers with an adaptive form, create a reviewer group and add users to it. Add the created reviewer group under the form submission reviewer field in the advanced properties of the form.  
 User groups let you associate different sets of submission reviewers with different adaptive forms. This feature prevents a submission review from an unauthorized user.
 
-Before you perform the following steps, see [Prerequisite](../../forms/using/adding-reviewers-form.md#prerequisite).
+Before you perform the following steps, see [Prerequisite](/help/forms/using/adding-reviewers-form.md#prerequisite).
 
 To create a group and add members to it, navigate to **Tools** &gt; **Operations** &gt; **Security** &gt; **Groups**.  
-For more information, see [User Administration and Services](../../sites/administering/using/security.md).   
+For more information, see [User Administration and Services](/help/sites/administering/using/security.md).   
 Ensure that you add the group you create as a member of the out-of-the-box user group: **forms-submission-reviewers**. This user group is shipped with AEM Forms, and it ensures that users are added as submission reviewers.
 
 To associate user groups with an adaptive form:

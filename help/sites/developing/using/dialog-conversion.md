@@ -47,7 +47,7 @@ You can find the code of this page on GitHub
 Follow these steps to install the dialog conversion tool.
 
 1. Download the package from the [Dialog Conversion Tool GitHub project](https://github.com/Adobe-Marketing-Cloud/aem-dialog-conversion/releases).
-1. Install the package on your instance. For details on package management see [How to Work With Packages](../../../sites/administering/using/package-manager.md).
+1. Install the package on your instance. For details on package management see [How to Work With Packages](/help/sites/administering/using/package-manager.md).
 
 ## Converting a Dialog {#converting-a-dialog}
 
@@ -117,11 +117,11 @@ The entry point for the conversion is the `DialogConversionServlet`, which is re
 
 The rewrite rules can be defined in two different ways, either as:
 
-* JCR node structures - [Node-Based Rewrite Rules](../../../sites/developing/using/dialog-conversion.md#node-based-rewrite-rules)  
+* JCR node structures - [Node-Based Rewrite Rules](/help/sites/developing/using/dialog-conversion.md#node-based-rewrite-rules)  
 
-* Java classes implementing a specific interface - [Java-Based Rewrite Rules](../../../sites/developing/using/dialog-conversion.md#java-based-rewrite-rules)
+* Java classes implementing a specific interface - [Java-Based Rewrite Rules](/help/sites/developing/using/dialog-conversion.md#java-based-rewrite-rules)
 
-Some are [provided out-of-the-box](#provided-rewrite-rules), but you can also define your own customized rules. [Sample rewrite rules](../../../sites/developing/using/dialog-conversion.md#sample-rewrite-rules) are also available.
+Some are [provided out-of-the-box](#provided-rewrite-rules), but you can also define your own customized rules. [Sample rewrite rules](/help/sites/developing/using/dialog-conversion.md#sample-rewrite-rules) are also available.
 
 Typically, a single dialog rewrite rule is responsible for rewriting a single dialog element, for example the pathbrowser input field.
 
@@ -293,7 +293,7 @@ public class CustomDialogRewriteRule extends AbstractDialogRewriteRule {
 
 ### Provided Rewrite Rules {#provided-rewrite-rules}
 
-The `cq-dialog-conversion-content` package contains several predefined rewrite rules. For classic UI widgets see [Using xtypes](../../../sites/developing/using/xtypes.md) for more information).
+The `cq-dialog-conversion-content` package contains several predefined rewrite rules. For classic UI widgets see [Using xtypes](/help/sites/developing/using/xtypes.md) for more information).
 
 <table> 
  <tbody> 

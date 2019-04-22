@@ -28,7 +28,7 @@ The goal of this introduction and walkthrough is to demonstrate to an AEM develo
 The walkthrough is based on standard AEM functionality and the sample We.Retail Journal app. The following requirements must be met:
 
 * [AEM version 6.4 with service pack 2 or newer  
-  ](../../../release-notes/sp-release-notes.md)
+  ](/help/release-notes/sp-release-notes.md)
 * [Install the sample We.Retail Journal app available on GitHub here.](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal)
 
 >[!CAUTION]
@@ -80,9 +80,9 @@ By rendering on the client side, page element react faster, and interactions wit
 
 >[!NOTE]
 >
->For technical details on how SPAs work in AEM, see the article [Getting Started with SPAs in AEM](../../../sites/developing/using/spa-getting-started-react.md).
+>For technical details on how SPAs work in AEM, see the article [Getting Started with SPAs in AEM](/help/sites/developing/using/spa-getting-started-react.md).
 >
->For a closer look at the design, architecture, and technical workflow of the SPA Editor, see the article [SPA Editor Overview](../../../sites/developing/using/spa-overview.md).
+>For a closer look at the design, architecture, and technical workflow of the SPA Editor, see the article [SPA Editor Overview](/help/sites/developing/using/spa-overview.md).
 
 ## Content Editing Experience with SPA {#content-editing-experience-with-spa}
 
@@ -92,7 +92,7 @@ When an SPA is built to leverage the AEM SPA Editor, the content author notices 
 >
 >The walkthrough is based on standard AEM functionality and the sample We.Retail Journal app. The following requirements must be met:
 >
->* [AEM version 6.4 with service pack 2](../../../release-notes/sp-release-notes.md)
+>* [AEM version 6.4 with service pack 2](/help/release-notes/sp-release-notes.md)
 >* [Install the sample We.Retail Journal app available on GitHub here.](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal)
 >
 
@@ -124,7 +124,7 @@ Additional authoring tools such as dragging-and-dropping additional components o
 >
 >The SPA Editor does not modify the DOM of the application. The SPA itself is responsible for the DOM.
 >
->To see how this works, continue on to the next section of this article [SPA Apps and the AEM SPA Editor](../../../sites/developing/using/spa-walkthrough.md#spa-apps-and-the-aem-spa-editor).
+>To see how this works, continue on to the next section of this article [SPA Apps and the AEM SPA Editor](/help/sites/developing/using/spa-walkthrough.md#spa-apps-and-the-aem-spa-editor).
 
 ## SPA Apps and the AEM SPA Editor {#spa-apps-and-the-aem-spa-editor}
 
@@ -154,7 +154,7 @@ Experiencing how an SPA behaves for the end user and then inspecting the SPA pag
 
 So if the page is not reloaded when navigating through the child pages, how is it loaded?
 
-The next section, [Loading an SPA Application](../../../sites/developing/using/spa-walkthrough.md#loading-an-spa-application), digs deeper into the mechanics of loading the SPA and how content can be loaded synchronously and asynchronously.
+The next section, [Loading an SPA Application](/help/sites/developing/using/spa-walkthrough.md#loading-an-spa-application), digs deeper into the mechanics of loading the SPA and how content can be loaded synchronously and asynchronously.
 
 ### Loading an SPA Application {#loading-an-spa-application}
 
@@ -211,7 +211,7 @@ The next section, [Loading an SPA Application](../../../sites/developing/using/s
 
    ![](assets/screen_shot_2018-06-07at152636.png)
 
-   The AEM SPA Editor leverages [AEM Content Services](../../../assets/using/content-fragments.md) to deliver the entire content of the page as a JSON model.
+   The AEM SPA Editor leverages [AEM Content Services](/help/assets/using/content-fragments.md) to deliver the entire content of the page as a JSON model.
 
    By implementing specific interfaces, Sling Models provide the information necessary to the SPA. The delivery of the JSON data is delegated downward to each component (from page, to paragraph, to component, etc.).
 
@@ -270,6 +270,6 @@ In the following section we will explore the contract that allows the SPA Editor
 
 Now that you understand the SPA editing experience in AEM and how a SPA relates to the SPA Editor, take a deeper dive into understanding how a SPA is built.
 
-* [Getting Started with SPAs in AEM](../../../sites/developing/using/spa-getting-started-react.md) shows how a basic SPA is built to work with the SPA Editor in AEM
-* [SPA Editor Overview](../../../sites/developing/using/spa-overview.md) goes into more depth into the communication model between AEM and the SPA.
-* [Developing SPAs for AEM](../../../sites/developing/using/spa-architecture.md) describes how to engage front-end developers to develop a SPA for AEM as well as how SPAs interact with AEM's architecture.
+* [Getting Started with SPAs in AEM](/help/sites/developing/using/spa-getting-started-react.md) shows how a basic SPA is built to work with the SPA Editor in AEM
+* [SPA Editor Overview](/help/sites/developing/using/spa-overview.md) goes into more depth into the communication model between AEM and the SPA.
+* [Developing SPAs for AEM](/help/sites/developing/using/spa-architecture.md) describes how to engage front-end developers to develop a SPA for AEM as well as how SPAs interact with AEM's architecture.

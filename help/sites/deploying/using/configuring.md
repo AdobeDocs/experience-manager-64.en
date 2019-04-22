@@ -25,23 +25,23 @@ Depending on the specific configuration these changes can be made by using eithe
 
 * **Adobe CQ Web Console** 
   This is a standard location for configuring OSGi bundles and services.   
-  See [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for further details and recommended practices.
+  See [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for further details and recommended practices.
 
 * **Repository** 
   A sub-set of OSGi configurations are available in the repository. This ensures that copying, or replicating, repository contents recreates identical configurations. You can also add your own configurations, dependent on run-mode, to the repository.  
-  See [OSGi Configuration in the Repository](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) and in particular [Adding a New Configuration to the Repository](../../../sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository) for further details.
+  See [OSGi Configuration in the Repository](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) and in particular [Adding a New Configuration to the Repository](/help/sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository) for further details.
 
 * **File system** 
   A few configuration files reside within the file system.
 
 * **AEM WCM** 
-  Various aspects can be configured within AEM WCM itself, many using the [Tools](../../../sites/administering/using/tools-consoles.md) console; for example, replication agents.
+  Various aspects can be configured within AEM WCM itself, many using the [Tools](/help/sites/administering/using/tools-consoles.md) console; for example, replication agents.
 
 >[!NOTE]
 >
 >When working with Adobe Experience Manager, there are several methods of managing the configuration settings for OSGi services (console or repository nodes).
 >
->See [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details.
+>See [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ The list gives a short overview of each configuration aspect, together with link
 
 ### Security Checklist {#security-checklist}
 
-Several key configuration issues are listed in the [Security Checklist](../../../sites/administering/using/security-checklist.md). Please ensure that you read this and take any action necessary for your installation.
+Several key configuration issues are listed in the [Security Checklist](/help/sites/administering/using/security-checklist.md). Please ensure that you read this and take any action necessary for your installation.
 
 ### Configuring the Default UI - Touch-Optimized or Classic {#configuring-the-default-ui-touch-optimized-or-classic}
 
@@ -66,11 +66,11 @@ There are two UIs available for use in AEM:
 * The Touch-optimized UI   
 * The Classic UI
 
-You can configure the UI you require using [Root Mapping](../../../sites/deploying/using/osgi-configuration-settings.md).
+You can configure the UI you require using [Root Mapping](/help/sites/deploying/using/osgi-configuration-settings.md).
 
 >[!NOTE]
 >
->Further information about selecting the UI is available under [Selecting your UI](../../../sites/authoring/using/select-ui.md).
+>Further information about selecting the UI is available under [Selecting your UI](/help/sites/authoring/using/select-ui.md).
 
 ### IPv4 and IPv6 {#ipv-and-ipv}
 
@@ -98,7 +98,7 @@ In a standard installation AEM creates a new version of a page or node whenever 
 
 These versions are never purged, so the repository size will grow over time and therefore need to be managed.
 
-See [Version Purging](../../../sites/deploying/using/version-purging.md) for full details, in particular [Version Manager](../../../sites/deploying/using/version-purging.md#version-manager) for details of how to configure AEM to purge older versions when a new version is created.
+See [Version Purging](/help/sites/deploying/using/version-purging.md) for full details, in particular [Version Manager](/help/sites/deploying/using/version-purging.md#version-manager) for details of how to configure AEM to purge older versions when a new version is created.
 
 ### Logging {#logging}
 
@@ -108,7 +108,7 @@ AEM offers you the possibility to configure:
 * request data logging; a specialized logging configuration for request information
 * specific settings for the individual services; for example, an individual log file and format for the log messages
 
-See [Logging](../../../sites/deploying/using/configure-logging.md) for full details.
+See [Logging](/help/sites/deploying/using/configure-logging.md) for full details.
 
 ### Run Modes {#run-modes}
 
@@ -118,13 +118,13 @@ This is done by defining collections of configuration parameters for each run mo
 
 All configuration settings are stored in the one repository and activated by setting the **Run Mode**.
 
-See [Run Modes](../../../sites/deploying/using/configure-runmodes.md) for full details.
+See [Run Modes](/help/sites/deploying/using/configure-runmodes.md) for full details.
 
 ### Single Sign On {#single-sign-on}
 
 Single Sign On (SSO) allows a user to access multiple systems after providing authentication credentials (such as a user name and password) once. A separate system (known as the trusted authenticator) performs the authentication and provides Experience Manager with the user credentials. Experience Manager checks and enforces the access permissions for the user (i.e. determines which resources the user is allowed to access).
 
-See [Single Sign On](../../../sites/deploying/using/single-sign-on.md) for further details.
+See [Single Sign On](/help/sites/deploying/using/single-sign-on.md) for further details.
 
 ### Resource Mapping {#resource-mapping}
 
@@ -135,39 +135,39 @@ For example, you can use these mappings to:
 * Prefix all requests with `/content` so that the internal structure is hidden from the visitors to your website.
 * Define a redirect so that all requests to the `/content/en/gateway` page of your website are redirected to `https://gbiv.com/`.
 
-See [Resource Mapping](../../../sites/deploying/using/resource-mapping.md) for further details.
+See [Resource Mapping](/help/sites/deploying/using/resource-mapping.md) for further details.
 
 ### Replication, Reverse Replication and Replication Agents {#replication-reverse-replication-and-replication-agents}
 
 Replication agents are central to AEM as the mechanism used to:
 
-* [Publish (activate)](../../../sites/authoring/using/publishing-pages.md) content from an author to a publish environment.
+* [Publish (activate)](/help/sites/authoring/using/publishing-pages.md) content from an author to a publish environment.
 * Explicitly flush content from the Dispatcher cache.
 * Return user input (for example, form input) from the publish environment to the author environment (under control of the author environment).
 
-For further details see [Replication](../../../sites/deploying/using/replication.md).
+For further details see [Replication](/help/sites/deploying/using/replication.md).
 
 ### OSGi Configuration Settings {#osgi-configuration-settings}
 
 [OSGi](https://www.osgi.org/) is a fundamental element in the technology stack of AEM. It is used to control the composite bundles of AEM and their configuration.
 
-See [OSGi configuration settings](../../../sites/deploying/using/osgi-configuration-settings.md) for a list of the various bundles that are relevant to project implementation (listed according to bundle). Not all the listed settings need adjusting, some are mentioned to help you understand how AEM operates.
+See [OSGi configuration settings](/help/sites/deploying/using/osgi-configuration-settings.md) for a list of the various bundles that are relevant to project implementation (listed according to bundle). Not all the listed settings need adjusting, some are mentioned to help you understand how AEM operates.
 
-When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 ### Configuring LDAP {#configuring-ldap}
 
 LDAP authentication is required to authenticate users stored in a (central) LDAP directory such as Active Directory. This helps reduce the effort required to manage user accounts.
 
-LDAP authentication occurs at the repository level, so it is handled directly by the repository. For further details, see [Configuring LDAP with AEM](../../../sites/administering/using/ldap-config.md).
+LDAP authentication occurs at the repository level, so it is handled directly by the repository. For further details, see [Configuring LDAP with AEM](/help/sites/administering/using/ldap-config.md).
 
-For user management within AEM (including assignment of access rights) see [User Administration and Security](../../../sites/administering/using/security.md).
+For user management within AEM (including assignment of access rights) see [User Administration and Security](/help/sites/administering/using/security.md).
 
 ### Configuring the Dispatcher {#configuring-the-dispatcher}
 
 Dispatcher is Adobe's caching and/or load balancing tool. Using the Dispatcher also helps to protect your AEM server from attack. Therefore, you can increase the security of your AEM instance by using the Dispatcher in conjunction with an enterprise-class web server.
 
-See [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html) for full details, in particular [Configuring the Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html) [](../../../sites/deploying/using/config-ssl.md) for further configuration details.
+See [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html) for full details, in particular [Configuring the Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html) [](/help/sites/deploying/using/config-ssl.md) for further configuration details.
 
 ### Configuring AEM LiveCycle Connector {#configuring-aem-livecycle-connector}
 
@@ -175,27 +175,27 @@ With the release of the AEM Doc Services and AEM Doc Security, we now have the c
 
 ### Job Offloading and Topology Administration {#job-offloading-and-topology-administration}
 
-[Offloading](../../../sites/deploying/using/offloading.md) distributes processing tasks amoung Experience Manager instances in a topology. With offloading, you can use specific Experience Manager instances for performing specific types of processing. Specialized processing enables you to maximize the usage of available server resources.
+[Offloading](/help/sites/deploying/using/offloading.md) distributes processing tasks amoung Experience Manager instances in a topology. With offloading, you can use specific Experience Manager instances for performing specific types of processing. Specialized processing enables you to maximize the usage of available server resources.
 
 Topologies are loosely-coupled Experience Manager clusters that are participating in offloading. A cluster consists of one or more Experience Manager server instances (a single instance is considered as a cluster).
 
-For more information on how to view or modify topology membership, consult the [Administering Topologies](../../../sites/deploying/using/offloading.md#administering-topologies) section.
+For more information on how to view or modify topology membership, consult the [Administering Topologies](/help/sites/deploying/using/offloading.md#administering-topologies) section.
 
 ### Configuring the Welcome Console {#configuring-the-welcome-console}
 
 The Welcome console of the classic UI provides a list of links to the various consoles and functionality within AEM.
 
-It is possible to configure the links that are visible, see [Configuring the Welcome Console](../../../sites/developing/using/customizing-the-welcome-console.md) for further details.
+It is possible to configure the links that are visible, see [Configuring the Welcome Console](/help/sites/developing/using/customizing-the-welcome-console.md) for further details.
 
 ### Configuring for Performance {#configuring-for-performance}
 
-[Performance](../../../sites/deploying/using/configuring-performance.md) is key to your project. Certain aspects of AEM (and/or the underlying repository) can be configured to optimize performance.
+[Performance](/help/sites/deploying/using/configuring-performance.md) is key to your project. Certain aspects of AEM (and/or the underlying repository) can be configured to optimize performance.
 
-See [Configuring for Performance](../../../sites/deploying/using/configuring-performance.md#configuring-for-performance) for further details.
+See [Configuring for Performance](/help/sites/deploying/using/configuring-performance.md#configuring-for-performance) for further details.
 
 ### Scaling {#scaling}
 
-Scaling a CQ installation correctly depends greatly on the details of your particular use case. A detailed discussion of solution patterns for various situations can be found in [Scaling CQ](../../../sites/deploying/using/scaling.md).
+Scaling a CQ installation correctly depends greatly on the details of your particular use case. A detailed discussion of solution patterns for various situations can be found in [Scaling CQ](/help/sites/deploying/using/scaling.md).
 
 ### Shared Data Store {#shared-data-store}
 
@@ -205,7 +205,7 @@ This "store-once, reference-many-times" feature can be extended to serve not jus
 
 Such a data store can be shared between different nodes in the same cluster, different publish and/or author instances in the same installation, or even entirely separate instances in different installations.
 
-For more information, see [Configuring Data Stores and Node Stores](../../../sites/deploying/using/data-store-config.md).
+For more information, see [Configuring Data Stores and Node Stores](/help/sites/deploying/using/data-store-config.md).
 
 ## Further Configuration Considerations {#further-configuration-considerations}
 
@@ -213,19 +213,19 @@ For more information, see [Configuring Data Stores and Node Stores](../../../sit
 
 You can enable HTTP over SSL to employ more secure connections to your servers.
 
-See [Enabling HTTP over SSL](../../../sites/deploying/using/config-ssl.md) for further details.
+See [Enabling HTTP over SSL](/help/sites/deploying/using/config-ssl.md) for further details.
 
 ### AEM Portals and Portlets {#aem-portals-and-portlets}
 
 A portal is a web application that provides personalization, single sign on, content integration from different sources, and hosts the presentation layer of information systems. The portlet component also lets you embed a portlet on the page. To access content provided by CQ5 WCM, the portal server can to be fitted with the CQ5 Portal Director Portlet. You can do this by installing, configuring, and adding the portlet to the portal page.
 
-See [Portal and Portlets](../../../sites/administering/using/aem-as-portal.md) for further details.
+See [Portal and Portlets](/help/sites/administering/using/aem-as-portal.md) for further details.
 
 ### Expiration of Static Objects {#expiration-of-static-objects}
 
 Static objects (for example, icons) do not change. Therefore the system should be configured so that they do not expire (for a reasonable period of time) and so reduce unnecessary traffic.
 
-See [Expiration of Static Objects](../../../sites/deploying/using/expiration-static-objects.md) for further details.
+See [Expiration of Static Objects](/help/sites/deploying/using/expiration-static-objects.md) for further details.
 
 ### Open FIles in the Java Process {#open-files-in-the-java-process}
 
@@ -248,25 +248,25 @@ To avoid such exceptions you need to:
 
 ### Configuring the Rich Text Editor {#configuring-the-rich-text-editor}
 
-The **Rich Text Editor** (**RTE**) provides authors with a wide range of [functionality](../../../sites/authoring/using/rich-text-editor.md) for editing their textual content; providing them with icons, selection boxes and menus for a WYSIWYG experience.
+The **Rich Text Editor** (**RTE**) provides authors with a wide range of [functionality](/help/sites/authoring/using/rich-text-editor.md) for editing their textual content; providing them with icons, selection boxes and menus for a WYSIWYG experience.
 
-See [Configuring the Rich Text Editor](../../../sites/administering/using/rich-text-editor.md) for further details.
+See [Configuring the Rich Text Editor](/help/sites/administering/using/rich-text-editor.md) for further details.
 
 ### Configuring Undo for Page Editing {#configuring-undo-for-page-editing}
 
-There are several properties that control the behavior of the undo and redo commands for editing pages. These can be configured, see [Configuring Undo for Page Editing](../../../sites/administering/using/config-undo.md) for further details.
+There are several properties that control the behavior of the undo and redo commands for editing pages. These can be configured, see [Configuring Undo for Page Editing](/help/sites/administering/using/config-undo.md) for further details.
 
 ### Configuring the Video Component {#configuring-the-video-component}
 
-The [Video component](../../../sites/authoring/using/default-components-foundation.md#video) allows you to place a predefined, out-of-the-box video element on your page.
+The [Video component](/help/sites/authoring/using/default-components-foundation.md#video) allows you to place a predefined, out-of-the-box video element on your page.
 
-For proper transcoding to occur, your adminstrator must [Install FFmpeg](../../../sites/administering/using/config-video.md#install-ffmpeg) separately. They can also [Configure your Video Profiles](../../../sites/administering/using/config-video.md#configure-video-profiles) for use with html5 elements.
+For proper transcoding to occur, your adminstrator must [Install FFmpeg](/help/sites/administering/using/config-video.md#install-ffmpeg) separately. They can also [Configure your Video Profiles](/help/sites/administering/using/config-video.md#configure-video-profiles) for use with html5 elements.
 
 ### Configuring and Customizing Reports {#configuring-and-customizing-reports}
 
 To help you monitor and analyze the state of your instance, CQ provides a selection of default reports, which can be configured for your individual requirements:
 
-See the [Basics of Report Customization](../../../sites/administering/using/reporting.md#the-basics-of-report-customization) for further details.
+See the [Basics of Report Customization](/help/sites/administering/using/reporting.md#the-basics-of-report-customization) for further details.
 
 ### Configuring Email Notification {#configuring-email-notification}
 
@@ -276,7 +276,7 @@ CQ sends email notifications to users who:
 * Have subscribed to forum events.
 * Have to perform a step in a workflow.
 
-See [Configuring Email Notification](../../../sites/administering/using/notification.md) for further details.
+See [Configuring Email Notification](/help/sites/administering/using/notification.md) for further details.
 
 ### Enabling Page Impressions {#enabling-page-impressions}
 
@@ -284,11 +284,11 @@ Page impressions are displayed in the **Impressions** column of the classic UI s
 
 * On the publish instance:
 
-    * [Day CQ WCM Page Statistics](../../../sites/deploying/using/osgi-configuration-settings.md)
+    * [Day CQ WCM Page Statistics](/help/sites/deploying/using/osgi-configuration-settings.md)
 
 * On the author instance:
 
-    * [Adobe Page Impressions Tracke](../../../sites/deploying/using/osgi-configuration-settings.md)
+    * [Adobe Page Impressions Tracke](/help/sites/deploying/using/osgi-configuration-settings.md)
 
 >[!CAUTION]
 >

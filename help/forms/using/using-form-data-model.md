@@ -15,10 +15,10 @@ discoiquuid: 7a1bfd43-39b1-478b-a294-92c78eaebbf2
 
 AEM Forms data integration lets you use disparate backend data sources to create a form data model that you can use as schema in various adaptive forms and interactive communications workflows. It requires configuring data sources and creating form data model based on data model objects and services available in data sources. For more information, see the following:
 
-* [AEM Forms Data Integration](../../forms/using/data-integration.md)
-* [Configure data sources](../../forms/using/configure-data-sources.md)
-* [Create form data model](../../forms/using/create-form-data-models.md)
-* [Work with form data model](../../forms/using/work-with-form-data-model.md)
+* [AEM Forms Data Integration](/help/forms/using/data-integration.md)
+* [Configure data sources](/help/forms/using/configure-data-sources.md)
+* [Create form data model](/help/forms/using/create-form-data-models.md)
+* [Work with form data model](/help/forms/using/work-with-form-data-model.md)
 
 A form data model is an extension of JSON schema that you can use to:
 
@@ -31,7 +31,7 @@ A form data model is an extension of JSON schema that you can use to:
 
 ## Create adaptive forms and fragments {#create-af}
 
-You can create [adaptive forms](../../forms/using/creating-adaptive-form.md) and [adaptive form fragments](../../forms/using/adaptive-form-fragments.md) based on a form data model. Do the following to use a form data model when creating an adaptive form or adaptive form fragment:
+You can create [adaptive forms](/help/forms/using/creating-adaptive-form.md) and [adaptive form fragments](/help/forms/using/adaptive-form-fragments.md) based on a form data model. Do the following to use a form data model when creating an adaptive form or adaptive form fragment:
 
 1. In Form Model tab on Add Properties screen, select **[!UICONTROL Form Data Model]** in the **[!UICONTROL Select From]** drop-down list.
 
@@ -69,17 +69,17 @@ General tab of Create Interactive Communication dialog
 
 For more information, see:
 
-[Create an interactive communication](../../forms/using/create-interactive-communication.md)
+[Create an interactive communication](/help/forms/using/create-interactive-communication.md)
 
-[Text in Interactive Communications](../../forms/using/texts-interactive-communications.md)
+[Text in Interactive Communications](/help/forms/using/texts-interactive-communications.md)
 
-[Conditions in Interactive Communications](../../forms/using/conditions-interactive-communications.md)
+[Conditions in Interactive Communications](/help/forms/using/conditions-interactive-communications.md)
 
-[List fragments](../../forms/using/lists.md)
+[List fragments](/help/forms/using/lists.md)
 
 ## Preview with sample data {#preview-ic}
 
-Form data model editor allows you to generate and edit sample data for data model objects in the form data model. You can use this data to preview and test interactive communications and adaptive forms. You must generate the sample data before previewing as described in [Work with form data model](../../forms/using/work-with-form-data-model.md#sample).
+Form data model editor allows you to generate and edit sample data for data model objects in the form data model. You can use this data to preview and test interactive communications and adaptive forms. You must generate the sample data before previewing as described in [Work with form data model](/help/forms/using/work-with-form-data-model.md#sample).
 
 To preview an interactive communication with sample form data model data:
 
@@ -109,7 +109,7 @@ Edit Properties dialog for an interactive communication
 
 ## Write submitted adaptive form data into data sources {#write-af}
 
-When a user submits a form based on a form data model, you can configure the form to write submitted data for a data model object to its data sources. To achieve this use case, AEM Forms provide [Form Data Model submit action](../../forms/using/configuring-submit-actions.md), available out-of-the-box only for adaptive forms based on a form data model. It writes submitted data for a data model object in its data source.
+When a user submits a form based on a form data model, you can configure the form to write submitted data for a data model object to its data sources. To achieve this use case, AEM Forms provide [Form Data Model submit action](/help/forms/using/configuring-submit-actions.md), available out-of-the-box only for adaptive forms based on a form data model. It writes submitted data for a data model object in its data source.
 
 To configure the Form Data Model submit action, open Adaptive Form Container properties and select **[!UICONTROL Submit using Form Data Model]** from the Submit Action drop-down under the Submission accordion. Then, browse and select a data model object from the **[!UICONTROL Name of the data model object to submit]** drop-down. Save the properties.
 
@@ -130,10 +130,10 @@ You can also submit form attachments to a data source using binary data model ob
 
 ## Invoke services in adaptive forms using rules {#invoke-services}
 
-In an adaptive form based on a form data model, you can [create rules](../../forms/using/rule-editor.md) to invoke services configured in the form data model. The **[!UICONTROL Invoke Services]** operation in a rule lists all available services in the form data model and allows you to select input and output fields for the service. You can also use the **Set Value** rule type to invoke a form data model service and set the value of a field to the output returned by the service.
+In an adaptive form based on a form data model, you can [create rules](/help/forms/using/rule-editor.md) to invoke services configured in the form data model. The **[!UICONTROL Invoke Services]** operation in a rule lists all available services in the form data model and allows you to select input and output fields for the service. You can also use the **Set Value** rule type to invoke a form data model service and set the value of a field to the output returned by the service.
 
 For example, the following rule invokes a get service that takes Employee Id as input and the values returned are populated in the corresponding Dependent Id, Last Name, First Name, and Gender fields in the form.
 
 ![](assets/invoke-service.png)
 
-In addition, you can use the `guidelib.dataIntegrationUtils.executeOperation` API to write a JavaScript in the code editor for the rule editor. For API details, see [API to invoke form data model service](../../forms/using/invoke-form-data-model-services.md).
+In addition, you can use the `guidelib.dataIntegrationUtils.executeOperation` API to write a JavaScript in the code editor for the rule editor. For API details, see [API to invoke form data model service](/help/forms/using/invoke-form-data-model-services.md).

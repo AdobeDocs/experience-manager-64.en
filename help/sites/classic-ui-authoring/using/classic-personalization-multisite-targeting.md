@@ -17,5 +17,5 @@ If you need to manage targeted content, such as activities, experiences, and off
 
 >[!NOTE]
 >
->Targeted content in multisites is not available in classic UI. See [Working with targeted Content in Multisites](../../../sites/authoring/using/multisite-support-targeted-content.md) in the standard authoring documentation for details.
+>Targeted content in multisites is not available in classic UI. See [Working with targeted Content in Multisites](/help/sites/authoring/using/multisite-support-targeted-content.md) in the standard authoring documentation for details.
 

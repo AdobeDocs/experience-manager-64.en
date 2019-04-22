@@ -23,9 +23,9 @@ To add a `Voting` component to a page in author mode, use the component browser 
 
 and drag it into place on a page, such as a position relative to the feature for users to vote on.
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-voting.md#essentials-for-client-side) are included, this is how the `Voting` component will appear.
+When the [required client-side libraries](/help/communities/using/essentials-voting.md#essentials-for-client-side) are included, this is how the `Voting` component will appear.
 
 ![](assets/chlimage_1-307.png)
 
@@ -60,4 +60,4 @@ Anonymous voting is not supported. Site visitors must register (become a member)
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Voting Essentials](../../communities/using/essentials-voting.md) page for developers.
+More information may be found on the [Voting Essentials](/help/communities/using/essentials-voting.md) page for developers.

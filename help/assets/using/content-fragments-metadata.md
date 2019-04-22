@@ -15,7 +15,7 @@ discoiquuid: 96cf7c92-af98-417f-ab60-b368e3846ef8
 
 >[!CAUTION]
 >
->Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
+>Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](/help/release-notes/sp-release-notes.md).
 
 ## Editing Properties / Meta data {#editing-properties-meta-data}
 

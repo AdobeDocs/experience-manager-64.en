@@ -15,13 +15,13 @@ discoiquuid: abfeea65-102d-4800-abeb-304d61afcc13
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
-The AEM Mobile Dashboard allows you to create, build and deploy your mobile application, create, delete and edit application metadata. Once your application is live, you can analyze application analytics including life cycle and usage metrics to improve customer conversion and brand loyalty. [](../../mobile/using/administer-phonegap.md)
+The AEM Mobile Dashboard allows you to create, build and deploy your mobile application, create, delete and edit application metadata. Once your application is live, you can analyze application analytics including life cycle and usage metrics to improve customer conversion and brand loyalty. [](/help/mobile/using/administer-phonegap.md)
 
-To build your AEM Mobile Application, see the [Building Mobile Applications](../../mobile/using/building-app-mobile-phonegap.md) page.
+To build your AEM Mobile Application, see the [Building Mobile Applications](/help/mobile/using/building-app-mobile-phonegap.md) page.
 
-To setup your environment and get started, see [Administering AEM to Use AEM PhoneGap Enterprise](../../mobile/using/administer-phonegap.md).
+To setup your environment and get started, see [Administering AEM to Use AEM PhoneGap Enterprise](/help/mobile/using/administer-phonegap.md).
 
 ## The AEM Mobile Apps Catalog {#the-aem-mobile-apps-catalog}
 
@@ -49,7 +49,7 @@ You can expand into each tile in the AEM Mobile Dashboard to view or edit detail
 
 The Manage App Tile displays your application icon, name, description, supported platforms, call home for updates URL and version information. You can drill into this tile to edit and maintain the PhoneGap Application Configuration (config.xml) and, prepare your application for submission to the varius application stores for distribution.
 
-Click [here](../../mobile/using/phonegap-app-details-tile.md) for details.
+Click [here](/help/mobile/using/phonegap-app-details-tile.md) for details.
 
 ![](assets/chlimage_1-137.png)
 
@@ -99,7 +99,7 @@ Alternatively, you can download the device source to build locally through the [
 >
 >The Metrics tile displays only after you configure the cloud service. 
 >
->See [Configure your Adobe Mobile Services Cloud Service](../../mobile/using/configure-adobe-mobile-cloud-service.md) for details.
+>See [Configure your Adobe Mobile Services Cloud Service](/help/mobile/using/configure-adobe-mobile-cloud-service.md) for details.
 
 AEM Mobile integerates with Adobe Analytics through [Adobe Mobile Services SDK](https://www.adobe.com/ca/solutions/digital-marketing/mobile-services/app-sdk.html) (AMS).
 
@@ -111,7 +111,7 @@ The Control Center **Metrics Tile** displays summary analytics pulled from AMS f
 
 The Manage Entity Content Tile allows you to add and manage app definitions. App definitions are a way to identify what spaces (and other configurations) are appropriate for the app. This way a new space can be added, without having to recompile the app. The app definition is updated and that will include the information for any new spaces.
 
-Click [here](../../mobile/using/phonegap-app-definitions.md) to create and manage your app definitions.
+Click [here](/help/mobile/using/phonegap-app-definitions.md) to create and manage your app definitions.
 
 You can drill into the manage entity content dashboard by clicking the '...' in the bottom right.
 
@@ -121,6 +121,6 @@ You can drill into the manage entity content dashboard by clicking the '...' in 
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Developing for Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md)
-* [Administering Content for Adobe PhoneGap Enterprise with AEM](../../mobile/using/administer-phonegap.md)
+* [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/developing-in-phonegap.md)
+* [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/using/administer-phonegap.md)
 

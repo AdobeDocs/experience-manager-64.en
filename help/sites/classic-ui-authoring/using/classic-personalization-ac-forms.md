@@ -39,9 +39,9 @@ The form automatically updates based on the user. See [Editing Form Content](#ed
 
 Before being able to create forms that are specific to Adobe Campaign, you must make the different templates available in your AEM application.
 
-To do this, see the [Templates documentation](../../../sites/developing/using/page-templates-static.md#templateavailability).
+To do this, see the [Templates documentation](/help/sites/developing/using/page-templates-static.md#templateavailability).
 
-First of all, check the connection between the author and publish instances and Adobe Campaign is working. See [Integrating with Adobe Campaign Standard](../../../sites/administering/using/campaignstandard.md) or [Integrating with Adobe Campaign 6.1](../../../sites/administering/using/campaignonpremise.md).
+First of all, check the connection between the author and publish instances and Adobe Campaign is working. See [Integrating with Adobe Campaign Standard](/help/sites/administering/using/campaignstandard.md) or [Integrating with Adobe Campaign 6.1](/help/sites/administering/using/campaignonpremise.md).
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ First of all, check the connection between the author and publish instances and 
 
    >[!NOTE]
    >
-   >If the template is not available, refer to the [Making a template available](../../../sites/classic-ui-authoring/using/classic-personalization-ac.md#activatingatemplate) section.
+   >If the template is not available, refer to the [Making a template available](/help/sites/classic-ui-authoring/using/classic-personalization-ac.md#activatingatemplate) section.
 
 1. Click **Create** to create the form.
 
@@ -71,13 +71,13 @@ Forms dedicated to Adobe Campaign have specific components. These components hav
 
 >[!NOTE]
 >
->If the desired template is not available, see [Making a template available](../../../sites/classic-ui-authoring/using/classic-personalization-ac.md#activatingatemplate).
+>If the desired template is not available, see [Making a template available](/help/sites/classic-ui-authoring/using/classic-personalization-ac.md#activatingatemplate).
 
-This section only details specific links to Adobe Campaign. For more information on a more general overview of how to use forms in Adobe Experience Manager, see [Editmode components](../../../sites/classic-ui-authoring/using/classic-page-author-edit-mode.md).
+This section only details specific links to Adobe Campaign. For more information on a more general overview of how to use forms in Adobe Experience Manager, see [Editmode components](/help/sites/classic-ui-authoring/using/classic-page-author-edit-mode.md).
 
 1. Navigate to the form you want to edit.
 1. In the toolbox, select **Page** &gt; **Page Properties...** then go to the **Cloud Services** tab of the pop-up window.
-1. Add the Adobe Campaign service by clicking **Add service**, and then selecting the configuration that corresponds to your Adobe Campaign instance in the service's drop down list. This configuration is carried out when setting up the connection between your instances. For more information, see [Connecting AEM to Adobe Campaign](../../../sites/administering/using/campaignonpremise.md#connecting-aem-to-adobe-campaign).
+1. Add the Adobe Campaign service by clicking **Add service**, and then selecting the configuration that corresponds to your Adobe Campaign instance in the service's drop down list. This configuration is carried out when setting up the connection between your instances. For more information, see [Connecting AEM to Adobe Campaign](/help/sites/administering/using/campaignonpremise.md#connecting-aem-to-adobe-campaign).
 
    >[!NOTE]
    >
@@ -93,7 +93,7 @@ This section only details specific links to Adobe Campaign. For more information
 
    The **Action Configuration** field lets you specify whether or not you would like to create the recipient profile in the Adobe Campaign database if it does not yet exist. To do this, check the **Create user if not existing** option.
 
-1. Add your selected components by dragging them from the toolbox and dropping them into the form. For more information on the available Adobe Campaign specific components, see [Adobe Form Components](../../../sites/classic-ui-authoring/using/classic-personalization-ac-components.md).
+1. Add your selected components by dragging them from the toolbox and dropping them into the form. For more information on the available Adobe Campaign specific components, see [Adobe Form Components](/help/sites/classic-ui-authoring/using/classic-personalization-ac-components.md).
 
    ![](assets/chlimage_1-188.png)
 

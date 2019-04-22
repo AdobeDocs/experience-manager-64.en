@@ -16,15 +16,15 @@ discoiquuid: a65d3aa1-af76-4226-bb05-c87ef0e592c1
 
 >[!NOTE]
 >
->For a successful AEM project, it is mandatory to read and follow the [Managing Projects - Best Practices Checklist](../../managing/using/best-practices.md). This will ensure high quality services.
+>For a successful AEM project, it is mandatory to read and follow the [Managing Projects - Best Practices Checklist](/help/managing/using/best-practices.md). This will ensure high quality services.
 
 Managing a project to implement Adobe Experience Manager requires planning and understanding to ensure you are aware of the issues and (related) decisions that you need to make (both before and while implementing your project).
 
 These documents describe how to manage an AEM project from start to finish. See the appropriate sections for more detailed information:
 
-* [Managing Projects - Best Practices Checklist](../../managing/using/best-practices.md)
-* [Enterprise DevOps](../../managing/using/enterprise-devops.md)
-* [Hardware Sizing Guidelines](../../managing/using/hardware-sizing-guidelines.md)
-* [AEM and the Web Accessibility Guidelines](../../managing/using/web-accessibility.md)
-* [SEO and URL Management Best Practices](../../managing/using/seo-and-url-management.md)
+* [Managing Projects - Best Practices Checklist](/help/managing/using/best-practices.md)
+* [Enterprise DevOps](/help/managing/using/enterprise-devops.md)
+* [Hardware Sizing Guidelines](/help/managing/using/hardware-sizing-guidelines.md)
+* [AEM and the Web Accessibility Guidelines](/help/managing/using/web-accessibility.md)
+* [SEO and URL Management Best Practices](/help/managing/using/seo-and-url-management.md)
 

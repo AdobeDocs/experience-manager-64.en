@@ -66,7 +66,7 @@ There are various ways that `Adaptable.adaptTo()` can be implemented:
 
 * A combination of both.
 
-For the first case, the javadocs can state what `adaptTo-targets` are possible. However, for specific subclasses such as the JCR-based Resource, often this is not possible. In the latter case, implementations of `AdapterFactory` are typically part of the private classes of a bundle and thus not exposed in a client API, nor listed in javadocs. Theoretically, it would be possible to access all `AdapterFactory` implementations from the [OSGi](../../../sites/deploying/using/configuring-osgi.md) service runtime and look at their "adaptables" (sources and targets) configurations, but not to map them to each other. In the end, this depends on the internal logic, which must be documented. Hence this reference.
+For the first case, the javadocs can state what `adaptTo-targets` are possible. However, for specific subclasses such as the JCR-based Resource, often this is not possible. In the latter case, implementations of `AdapterFactory` are typically part of the private classes of a bundle and thus not exposed in a client API, nor listed in javadocs. Theoretically, it would be possible to access all `AdapterFactory` implementations from the [OSGi](/help/sites/deploying/using/configuring-osgi.md) service runtime and look at their "adaptables" (sources and targets) configurations, but not to map them to each other. In the end, this depends on the internal logic, which must be documented. Hence this reference.
 
 ## Reference {#reference}
 

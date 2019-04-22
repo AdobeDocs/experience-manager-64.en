@@ -13,11 +13,11 @@ discoiquuid: c1515c58-7d9a-4a36-9390-f6d6b980b801
 
 # Manage Forms applications and tasks in AEM Inbox{#manage-forms-applications-and-tasks-in-aem-inbox}
 
-One of the many ways to launch or trigger a Forms-centric workflow is through applications in AEM Inbox. You need to create a workflow application to make a Forms workflow available as application in Inbox. For more information about workflow application and other ways to launch Forms workflows, see [Launch a Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md#launch).
+One of the many ways to launch or trigger a Forms-centric workflow is through applications in AEM Inbox. You need to create a workflow application to make a Forms workflow available as application in Inbox. For more information about workflow application and other ways to launch Forms workflows, see [Launch a Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md#launch).
 
 In addition, AEM Inbox consolidates notifications and tasks from various AEM components, including Forms workflows. When a forms workflow containing an Assign task step is triggered, the associated application is listed as a task in the assignee's Inbox. If the assignee is a group, the task appears in the Inbox of all group members until an individual claims or delegates the task.
 
-The Inbox user interface provides list and calendar views to view tasks. You can also configure the view settings. You can filter tasks based on various parameters. For more information about view and filters, see [Your Inbox](../../sites/authoring/using/inbox.md).
+The Inbox user interface provides list and calendar views to view tasks. You can also configure the view settings. You can filter tasks based on various parameters. For more information about view and filters, see [Your Inbox](/help/sites/authoring/using/inbox.md).
 
 In summary, Inbox allows you to create a new application and manage assigned tasks.
 
@@ -75,7 +75,7 @@ The detailed task view comprises the following sections:
 
 #### Task details {#task-details}
 
-The Task Details section displays information about the task. The information displayed depends on the configuration settings of the [Assign task step](../../sites/developing/using/workflows-step-ref.md) in the workflow. The above example displays the description, status, start date, and workflow used for the task. It also allows attaching a file to the task.
+The Task Details section displays information about the task. The information displayed depends on the configuration settings of the [Assign task step](/help/sites/developing/using/workflows-step-ref.md) in the workflow. The above example displays the description, status, start date, and workflow used for the task. It also allows attaching a file to the task.
 
 #### Form {#form}
 
@@ -83,7 +83,7 @@ The Form tab in the main content area displays the submitted form and field-leve
 
 #### Workflow details {#workflow-details}
 
-The Workflow Details tab at the top shows the progress of the task through various stages in the workflow. It shows completed, current, and pending stages for the task. The stages for a workflow are defined in the [Assign task step](../../sites/developing/using/workflows-step-ref.md) of the associated workflow.
+The Workflow Details tab at the top shows the progress of the task through various stages in the workflow. It shows completed, current, and pending stages for the task. The stages for a workflow are defined in the [Assign task step](/help/sites/developing/using/workflows-step-ref.md) of the associated workflow.
 
 In addition, the tab displays task history for each completed stage in the workflow. You can tap **[!UICONTROL View Details]** for a completed stage to know details about that stage. It displays comments, form and task attachments, status, start and end dates, and so on about the task.
 
@@ -91,7 +91,7 @@ In addition, the tab displays task history for each completed stage in the workf
 
 #### Actions toolbar {#actions-toolbar}
 
-The Actions toolbar shows all available options for the task. While Save, Reset, and Delegate are default actions, other available actions are configured in [Assign task step](../../sites/developing/using/workflows-step-ref.md). In the example above, Approve and Reject are configured in the workflow.
+The Actions toolbar shows all available options for the task. While Save, Reset, and Delegate are default actions, other available actions are configured in [Assign task step](/help/sites/developing/using/workflows-step-ref.md). In the example above, Approve and Reject are configured in the workflow.
 
 As you take action on the task, it proceeds further in the workflow.
 
@@ -106,7 +106,7 @@ AEM Inbox displays only active tasks. Completed tasks do not appear in the list.
 
 1. Tap to select a task and click **[!UICONTROL Open]**.
 
-The task opens to display the document or the adaptive form associated with the task. For adaptive form, it displays the read-only adaptive form or its PDF document of record as configured in the Form/Document tab of the [Assign Task workflow step](../../sites/developing/using/workflows-step-ref.md).
+The task opens to display the document or the adaptive form associated with the task. For adaptive form, it displays the read-only adaptive form or its PDF document of record as configured in the Form/Document tab of the [Assign Task workflow step](/help/sites/developing/using/workflows-step-ref.md).
 
 The task details section displays information such as action taken, task status, start date, and end date.
 

@@ -15,11 +15,11 @@ discoiquuid: e75ce118-3850-4440-ad58-89569cb8c8eb
 
 Once your page is created (either new or as part of a launch or live copy) you can edit the content to make the updates you require.
 
-Content is added using [components](../../../sites/classic-ui-authoring/using/classic-page-author-conponent-console.md) (appropriate to the content type) that can be dragged onto the page. These can then be edited in place, moved, or deleted.
+Content is added using [components](/help/sites/classic-ui-authoring/using/classic-page-author-conponent-console.md) (appropriate to the content type) that can be dragged onto the page. These can then be edited in place, moved, or deleted.
 
 >[!NOTE]
 >
->Your account needs the [appropriate access rights](../../../sites/administering/using/security.md) and [permissions](../../../sites/administering/using/security.md#permissions) to edit pages; for example, adding, editing or deleting components, annotating, unlocking.
+>Your account needs the [appropriate access rights](/help/sites/administering/using/security.md) and [permissions](/help/sites/administering/using/security.md#permissions) to edit pages; for example, adding, editing or deleting components, annotating, unlocking.
 >
 >If you encounter any problems we suggest you contact your system administrator.
 
@@ -43,19 +43,19 @@ Several tabs and icons are available, including:
 
 These provide access to a wide selection of functionality; including:
 
-* [selecting components](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#sidekick) 
-* [showing references](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#showing-references) 
-* [accessing the audit log](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#audit-log) 
-* [switching modes](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#page-modes) 
-* [creating](../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#creating-a-new-version), [restoring](../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#restoring-a-page-version-from-sidekick) and [comparing](../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#comparing-with-a-previous-version) versions  
+* [selecting components](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#sidekick) 
+* [showing references](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#showing-references) 
+* [accessing the audit log](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#audit-log) 
+* [switching modes](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#page-modes) 
+* [creating](/help/sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#creating-a-new-version), [restoring](/help/sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#restoring-a-page-version-from-sidekick) and [comparing](/help/sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#comparing-with-a-previous-version) versions  
 
-* [publishing](../../../sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#publishing-a-page), [unpublishing](../../../sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#unpublishing-a-page) a page
+* [publishing](/help/sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#publishing-a-page), [unpublishing](/help/sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#unpublishing-a-page) a page
 
-* [editing page properties](../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md)   
+* [editing page properties](/help/sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md)   
 
-* [scaffolding](../../../sites/authoring/using/scaffolding.md)  
+* [scaffolding](/help/sites/authoring/using/scaffolding.md)  
 
-* [client context](../../../sites/administering/using/client-context.md)
+* [client context](/help/sites/administering/using/client-context.md)
 
 ## Inserting a Component {#inserting-a-component}
 
@@ -76,13 +76,13 @@ To insert a new component:
 
 1. In both the sidekick and the **Insert New Component** toolbar you see a list of the available components (paragraph types). These may be split into various sections (for example, General, Columns, etc.), which can be expanded as required.
 
-   Depending on your production environment, these choices may differ. For complete details on components, see [Default Components](../../../sites/classic-ui-authoring/using/classic-page-author-default-components.md).
+   Depending on your production environment, these choices may differ. For complete details on components, see [Default Components](/help/sites/classic-ui-authoring/using/classic-page-author-default-components.md).
 
 1. Insert the component that you want on the page. Then double-click the paragraph, a window opens that allows you to configure your paragraph and add content.
 
 ### Inserting a Component using the Content Finder {#inserting-a-component-using-the-content-finder}
 
-You can also add a new component to the page by dragging an asset from the [Content Finder](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#the-content-finder). This will automatically create a new component of the appropriate type containing the asset.
+You can also add a new component to the page by dragging an asset from the [Content Finder](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#the-content-finder). This will automatically create a new component of the appropriate type containing the asset.
 
 This is valid for the following asset types (some will be dependent on page/paragraph system):
 
@@ -95,12 +95,12 @@ This is valid for the following asset types (some will be dependent on page/para
 
 >[!NOTE]
 >
->This behavior can be configured for your installation. See [Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance](../../../sites/developing/using/developing-components.md#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance) for further details.
+>This behavior can be configured for your installation. See [Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance](/help/sites/developing/using/developing-components.md#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance) for further details.
 
 To create a component by dragging one of the above asset types:
 
-1. Make sure that your page is in [**Edit** mode](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#page-modes).
-1. Open the [Content Finder](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#the-content-finder).
+1. Make sure that your page is in [**Edit** mode](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#page-modes).
+1. Open the [Content Finder](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#the-content-finder).
 1. Drag the required asset to the required position. The [component placeholder](#componentplaceholder) shows you where the component will be positioned.
 
    A component, appropriate for the asset type, will be created at the required location - it will contain the selected asset.
@@ -147,10 +147,10 @@ To delete a paragraph:
 
 >[!NOTE]
 >
->If you have set your [User Properties to show the Global Editing Toolbar](../../../sites/classic-ui-authoring/using/author-env-user-props.md) you can also perform certain actions on the paragraphs by using the **Copy**, **Cut**, **Paste**, **Delete** buttons available.  
+>If you have set your [User Properties to show the Global Editing Toolbar](/help/sites/classic-ui-authoring/using/author-env-user-props.md) you can also perform certain actions on the paragraphs by using the **Copy**, **Cut**, **Paste**, **Delete** buttons available.  
 
 >
->Various [keyboard shortcuts](../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) are also available.
+>Various [keyboard shortcuts](/help/sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) are also available.
 
 ## Cut/Copy/Paste a Component {#cut-copy-paste-a-component}
 
@@ -158,10 +158,10 @@ As when [Deleting a Component](#deleting-a-component) you can use the context me
 
 >[!NOTE]
 >
->If you have set your [User Properties to show the Global Editing Toolbar](../../../sites/classic-ui-authoring/using/author-env-user-props.md) you can also perform certain actions on the paragraphs by using the **Copy**, **Cut**, **Paste**, **Delete** buttons available.  
+>If you have set your [User Properties to show the Global Editing Toolbar](/help/sites/classic-ui-authoring/using/author-env-user-props.md) you can also perform certain actions on the paragraphs by using the **Copy**, **Cut**, **Paste**, **Delete** buttons available.  
 
 >
->Various [keyboard shortcuts](../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) are also available.
+>Various [keyboard shortcuts](/help/sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) are also available.
 
 >[!NOTE]
 >
@@ -171,9 +171,9 @@ As when [Deleting a Component](#deleting-a-component) you can use the context me
 
 Inherited components can be the product of various scenarios, including:
 
-* [Multi site management](../../../sites/administering/using/msm.md); also in combination with [scaffolding](../../../sites/classic-ui-authoring/using/classic-feature-scaffolding.md#scaffolding-with-msm-inheritance).
+* [Multi site management](/help/sites/administering/using/msm.md); also in combination with [scaffolding](/help/sites/classic-ui-authoring/using/classic-feature-scaffolding.md#scaffolding-with-msm-inheritance).
 
-* [Launches](../../../sites/classic-ui-authoring/using/classic-launches.md) (when based on livecopy).
+* [Launches](/help/sites/classic-ui-authoring/using/classic-launches.md) (when based on livecopy).
 * Specific components; for example the Inherited Paragraph System within Geometrixx.
 
 You can cancel (then re-enable) the inheritance. Depending on the component, this can be available from:
@@ -198,7 +198,7 @@ You can cancel (then re-enable) the inheritance. Depending on the component, thi
 
 ## Adding Annotations {#adding-annotations}
 
-[Annotations](../../../sites/classic-ui-authoring/using/classic-page-author-annotations.md) allow other authors to provide feedback on your content. This is often used for review and validation purposes.
+[Annotations](/help/sites/classic-ui-authoring/using/classic-page-author-annotations.md) allow other authors to provide feedback on your content. This is often used for review and validation purposes.
 
 ## Previewing Pages {#previewing-pages}
 
@@ -220,7 +220,7 @@ There are two icons in the bottom border of the sidekick that are important to p
 
 ## Find & Replace {#find-replace}
 
-For larger scale edits of the same phrase a ** [Find & Replace](../../../sites/classic-ui-authoring/using/author-env-search.md#find-and-replace)** menu option allows you to search for, and replace multiple instances of a string, within a section of the website.
+For larger scale edits of the same phrase a ** [Find & Replace](/help/sites/classic-ui-authoring/using/author-env-search.md#find-and-replace)** menu option allows you to search for, and replace multiple instances of a string, within a section of the website.
 
 ## Locking a Page {#locking-a-page}
 
@@ -267,7 +267,7 @@ When you undo or redo the removal, addition, or relocation of one or more paragr
 
 >[!NOTE]
 >
->Your system administrator can [configure various aspects of the Undo/Redo features](../../../sites/administering/using/config-undo.md) according to the requirements for your instance.
+>Your system administrator can [configure various aspects of the Undo/Redo features](/help/sites/administering/using/config-undo.md) according to the requirements for your instance.
 
 AEM stores a history of actions that you perform and the sequence in which you performed them. So, you undo several actions in the order that you performed them. Then, you can use redo to re-apply one or more of the actions.
 
@@ -281,7 +281,7 @@ The behavior of the undo and redo commands is similar to that in other software 
 >
 >* redo actions as long as you have not made a page edit since you used undo.
 >* undo a maximum of 20 edit actions (default setting).
->* also use [Keyboard shortcuts](../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) for undo and redo.
+>* also use [Keyboard shortcuts](/help/sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) for undo and redo.
 >
 
 You can use undo and redo for the following types of page changes:

@@ -11,7 +11,7 @@ discoiquuid: 43dc10c2-8cfc-4ca3-8ccb-9b3f268663b7
 
 # Reference adaptive form fragments{#reference-adaptive-form-fragments}
 
-[Adaptive form fragment](../../forms/using/adaptive-form-fragments.md) is a group of fields, or a panel containing a group of fields that you can use when you create a form. It lets you create a form easily and quickly. You can drag-drop an adaptive form fragment into a form using the assets browser in sidebar, and you can edit it in the form editor.
+[Adaptive form fragment](/help/forms/using/adaptive-form-fragments.md) is a group of fields, or a panel containing a group of fields that you can use when you create a form. It lets you create a form easily and quickly. You can drag-drop an adaptive form fragment into a form using the assets browser in sidebar, and you can edit it in the form editor.
 
 For adaptive forms authors, reference fragments are provided in the AEM Forms package [AEM-FORMS-6.3-REFERENCE-FRAGMENTS](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/fd/AEM-FORMS-6.3-REFERENCE-FRAGMENTS). It includes the following fragments:
 
@@ -26,7 +26,7 @@ For adaptive forms authors, reference fragments are provided in the AEM Forms pa
 * Terms & Conditions
 * Terms & Conditions with Scribble
 
-When you install the package, a Reference Fragments folder containing reference fragments is created under Forms & Documents. For installing a package, see [How to Work With Packages](../../sites/administering/using/package-manager.md).
+When you install the package, a Reference Fragments folder containing reference fragments is created under Forms & Documents. For installing a package, see [How to Work With Packages](/help/sites/administering/using/package-manager.md).
 
 ![All fragments listed](assets/ootb-frags.png)
 

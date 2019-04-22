@@ -41,4 +41,4 @@ All We.Retail pages use the Layout Container component to implement responsive d
 
 ## Further Information {#further-information}
 
-For further information, refer to the authoring document [Responsive Layout](../../../sites/authoring/using/responsive-layout.md) or the administrator document [Configuring Layout Container and Layout Mode](../../../sites/administering/using/configuring-responsive-layout.md) for complete technical details.
+For further information, refer to the authoring document [Responsive Layout](/help/sites/authoring/using/responsive-layout.md) or the administrator document [Configuring Layout Container and Layout Mode](/help/sites/administering/using/configuring-responsive-layout.md) for complete technical details.

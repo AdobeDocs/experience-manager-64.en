@@ -81,7 +81,7 @@ Below you will find a list of areas that are impacted in a typical AEM Upgrade p
  </tbody>
 </table>
 
-It is important to ensure that you are running a supported operating system, Java runtime, httpd and Dispatcher version. For more information, see the [AEM 6.4 Technical Requirements page](../../../sites/deploying/using/technical-requirements.md). Upgrading these components will need to be accounted for in your project plan and should take place before upgrading AEM.
+It is important to ensure that you are running a supported operating system, Java runtime, httpd and Dispatcher version. For more information, see the [AEM 6.4 Technical Requirements page](/help/sites/deploying/using/technical-requirements.md). Upgrading these components will need to be accounted for in your project plan and should take place before upgrading AEM.
 
 ## Project Phases {#project-phases}
 
@@ -93,7 +93,7 @@ With any new release, there are potential changes to the UI and user workflows t
 
 ![](assets/screen_shot_2018-04-04at121206.png)
 
-New features in AEM 6.4 can be found in [the AEM section of adobe.com](../../../release-notes/release-notes.md). Make sure to note any changes to UIs or product features that are commonly used in your organization. As you look through the new features, also take note of any that can be of value to your organization. After looking through what has changed in AEM 6.4, develop a training plan for your authors. This could involve leveraging freely available resources like the helpx feature videos or formal training offered through [Adobe Digital Learning Services](https://www.adobe.com/training.html).
+New features in AEM 6.4 can be found in [the AEM section of adobe.com](/help/release-notes/release-notes.md). Make sure to note any changes to UIs or product features that are commonly used in your organization. As you look through the new features, also take note of any that can be of value to your organization. After looking through what has changed in AEM 6.4, develop a training plan for your authors. This could involve leveraging freely available resources like the helpx feature videos or formal training offered through [Adobe Digital Learning Services](https://www.adobe.com/training.html).
 
 ### Creating a Test Plan {#creating-a-test-plan}
 
@@ -113,25 +113,25 @@ Review the Technical Requirements for AEM 6.4 and ensure that your current hardw
 
 **Monitoring and Maintenance:**
 
-[Operations Dashboard](../../../sites/administering/using/operations-dashboard.md)
+[Operations Dashboard](/help/sites/administering/using/operations-dashboard.md)
 
-[Assets Monitoring Best Practices](../../../assets/using/assets-monitoring-best-practices.md)
+[Assets Monitoring Best Practices](/help/assets/using/assets-monitoring-best-practices.md)
 
-[Monitoring Server Resources Using the JMX Console](../../../sites/administering/using/jmx-console.md)
+[Monitoring Server Resources Using the JMX Console](/help/sites/administering/using/jmx-console.md)
 
-[Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md)
+[Revision Cleanup](/help/sites/deploying/using/revision-cleanup.md)
 
 **Backup/Restore and Disaster Recovery:**
 
-[Backup and Restore](../../../sites/administering/using/backup-and-restore.md)
+[Backup and Restore](/help/sites/administering/using/backup-and-restore.md)
 
-[Performance & Scalability](../../../sites/deploying/using/performance.md)
+[Performance & Scalability](/help/sites/deploying/using/performance.md)
 
-[How to Run AEM with TarMK Cold Standby](../../../sites/deploying/using/tarmk-cold-standby.md)
+[How to Run AEM with TarMK Cold Standby](/help/sites/deploying/using/tarmk-cold-standby.md)
 
 #### Content Restructuring Considerations {#content-restructuring-considerations}
 
-AEM 6.4 has introduced changes to the repository structure that will help in making upgrades more seamless. The changes involve moving content out of the /etc folder to folders including /libs, /apps, and /content, based on whether Adobe or a customer owns the content, thus limiting the chances of overwriting content during releases. The repository restructuring has been done in such a way that it should not require code changes at the time of 6.4 upgrade, although it’s recommended to review the details at [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring-in-aem64.md) while planning an upgrade.
+AEM 6.4 has introduced changes to the repository structure that will help in making upgrades more seamless. The changes involve moving content out of the /etc folder to folders including /libs, /apps, and /content, based on whether Adobe or a customer owns the content, thus limiting the chances of overwriting content during releases. The repository restructuring has been done in such a way that it should not require code changes at the time of 6.4 upgrade, although it’s recommended to review the details at [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring-in-aem64.md) while planning an upgrade.
 
 ### Assessing Upgrade Complexity {#assessing-upgrade-complexity}
 
@@ -139,11 +139,11 @@ Due to the wide variety in the amount and nature of customizations that our cust
 
 There are two approaches you can take to assessing the complexity of the upgrade, a preliminary phase can just use the newly introduced Pattern Detector which is available to be run on your AEM 6.1, 6.2 and 6.3 instances. The pattern detector is the easiest way to assess the overall complexity of the upgrade to be expected using reported patterns. The pattern detector report includes patterns for identifying unavailable APIs that are in use by the custom codebase(this was done using pre-upgrade compatiblity checks in 6.3).
 
-After the initial assessment, a more comprehensive next step could be to perform an upgrade on a test instance and perform some basic smoke testing. Adobe also provides some . Additionally, the list of [Deprecated and Removed Features](../../../release-notes/deprecated-removed-features.md) should be reviewed not only for the version that you are upgrading to, but also for any versions between your source and target versions. For example, if upgrading from AEM 6.2 to 6.4, it is important to review the AEM 6.3 deprecated and removed features in addition to those for AEM 6.4.
+After the initial assessment, a more comprehensive next step could be to perform an upgrade on a test instance and perform some basic smoke testing. Adobe also provides some . Additionally, the list of [Deprecated and Removed Features](/help/release-notes/deprecated-removed-features.md) should be reviewed not only for the version that you are upgrading to, but also for any versions between your source and target versions. For example, if upgrading from AEM 6.2 to 6.4, it is important to review the AEM 6.3 deprecated and removed features in addition to those for AEM 6.4.
 
 ![](assets/screen_shot_2018-04-04at120912.png)
 
-The Pattern Detector introduced in 6.4 should give you a fairly accurate estimate of what to expect during an upgrade for most cases. However, for more complex customizations and deployments where you have incompatible changes you can upgrade a development instance to AEM 6.4 according to the instructions in [Performing an In-Place Upgrade](../../../sites/deploying/using/in-place-upgrade.md). Once complete, perform some high-level smoke testing on this environment. The goal of this exercise is not to exhaustively complete the test case inventory and produce a formal inventory of defects but to give us a rough estimate of the amount of work that will be required to upgrade the code for 6.4 compatibility. When combined with the [Pattern Detection](../../../sites/deploying/using/pattern-detector.md) and the architectural changes that were determined in the previous section, a rough estimate can be provided to the project management team for planning the upgrade.
+The Pattern Detector introduced in 6.4 should give you a fairly accurate estimate of what to expect during an upgrade for most cases. However, for more complex customizations and deployments where you have incompatible changes you can upgrade a development instance to AEM 6.4 according to the instructions in [Performing an In-Place Upgrade](/help/sites/deploying/using/in-place-upgrade.md). Once complete, perform some high-level smoke testing on this environment. The goal of this exercise is not to exhaustively complete the test case inventory and produce a formal inventory of defects but to give us a rough estimate of the amount of work that will be required to upgrade the code for 6.4 compatibility. When combined with the [Pattern Detection](/help/sites/deploying/using/pattern-detector.md) and the architectural changes that were determined in the previous section, a rough estimate can be provided to the project management team for planning the upgrade.
 
 ### Building the Upgrade and Rollback Runbook {#building-the-upgrade-and-rollback-runbook}
 
@@ -151,7 +151,7 @@ While Adobe has documented the process for upgrading an AEM instance, each custo
 
 ![](assets/runbook-diagram.png)
 
-We have provided upgrade and rollback procedures in [Upgrade Procedure](../../../sites/deploying/using/upgrade-procedure.md) as well as step-by-step instructions for applying the upgrade in Performing an [In-Place Upgrade](../../../sites/deploying/using/in-place-upgrade.md). These instructions should be reviewed and taken into consideration with your system architecture, customizations, and downtime tolerance to determine the appropriate switch-over and rollback procedures that you will be executing during the upgrade. Any changes to architecture or server sizes should be included when drafting your customized runbook. It is important to note that this should be treated as a first draft. As your team completes their QA and development cycles and deploys the upgrade to the staging environment, it is likely that the need for some additional steps may be required. Ideally, this document should contain enough information such that if it were handed to a member of your operations staff, they would be able to complete the upgrade completely from the information contained within.
+We have provided upgrade and rollback procedures in [Upgrade Procedure](/help/sites/deploying/using/upgrade-procedure.md) as well as step-by-step instructions for applying the upgrade in Performing an [In-Place Upgrade](/help/sites/deploying/using/in-place-upgrade.md). These instructions should be reviewed and taken into consideration with your system architecture, customizations, and downtime tolerance to determine the appropriate switch-over and rollback procedures that you will be executing during the upgrade. Any changes to architecture or server sizes should be included when drafting your customized runbook. It is important to note that this should be treated as a first draft. As your team completes their QA and development cycles and deploys the upgrade to the staging environment, it is likely that the need for some additional steps may be required. Ideally, this document should contain enough information such that if it were handed to a member of your operations staff, they would be able to complete the upgrade completely from the information contained within.
 
 ### Developing a Project Plan {#developing-a-project-plan}
 
@@ -179,7 +179,7 @@ A comprehensive project plan should include:
 
 ### Performing Development and QA {#performing-development-and-qa}
 
-We have provided procedures for [Upgrading Code and Customizations](../../../sites/deploying/using/upgrading-code-and-customizations.md) to be compatible with AEM 6.4. As this iterative process is executed, changes should be made to the runbook as needed. Also see [Backward Compatibility in AEM 6.4](../../../sites/deploying/using/backward-compatibility.md) on information on how your customizations can stay backward compatible in most cases without requiring development immediately after upgrade.
+We have provided procedures for [Upgrading Code and Customizations](/help/sites/deploying/using/upgrading-code-and-customizations.md) to be compatible with AEM 6.4. As this iterative process is executed, changes should be made to the runbook as needed. Also see [Backward Compatibility in AEM 6.4](/help/sites/deploying/using/backward-compatibility.md) on information on how your customizations can stay backward compatible in most cases without requiring development immediately after upgrade.
 
 ![](assets/screen_shot_2018-04-04at154829.png)
 
@@ -195,7 +195,7 @@ This step is vital as it is the only time that you are able to validate the step
 
 ### Performing the Upgrade {#performing-the-upgrade}
 
-Once final sign off has been received from all stakeholders, it is time to execute on the runbook procedures that have been defined. We have provided steps for upgrade and rollback in [Upgrade Procedure](../../../sites/deploying/using/upgrade-procedure.md) and installation steps in Performing an [In-Place Upgrade](../../../sites/deploying/using/in-place-upgrade.md) as a reference point.
+Once final sign off has been received from all stakeholders, it is time to execute on the runbook procedures that have been defined. We have provided steps for upgrade and rollback in [Upgrade Procedure](/help/sites/deploying/using/upgrade-procedure.md) and installation steps in Performing an [In-Place Upgrade](/help/sites/deploying/using/in-place-upgrade.md) as a reference point.
 
 ![](assets/perform-upgrade.png)
 

@@ -13,4 +13,4 @@ discoiquuid: 427439e0-2b52-4191-9b5b-5d9a486c5dc5
 
 # Target offers{#target-offers}
 
-See [Integrate with Adobe](../../../sites/administering/using/target.md) [Target](../../../sites/administering/using/target.md) for full details.
+See [Integrate with Adobe](/help/sites/administering/using/target.md) [Target](/help/sites/administering/using/target.md) for full details.

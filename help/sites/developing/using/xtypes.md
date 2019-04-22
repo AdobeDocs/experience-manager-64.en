@@ -26,7 +26,7 @@ To find out in which components a given xtype is used in AEM, you can use the fo
 >
 >This page describes the usage of ExtJS xtypes within the classic UI. 
 >
->Adobe recommends that you leverage the stndard, modern, [touch-enabled UI](../../../sites/developing/using/touch-ui-concepts.md) based on [Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui) and [Granite UI](../../../sites/developing/using/touch-ui-concepts.md#granite-ui-foundation-components).
+>Adobe recommends that you leverage the stndard, modern, [touch-enabled UI](/help/sites/developing/using/touch-ui-concepts.md) based on [Coral UI](/help/sites/developing/using/touch-ui-concepts.md#coral-ui) and [Granite UI](/help/sites/developing/using/touch-ui-concepts.md#granite-ui-foundation-components).
 
 ## xtypes {#xtypes}
 

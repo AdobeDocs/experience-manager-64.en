@@ -21,23 +21,23 @@ For example, business processes for creating and publishing web pages include ap
 
 Key aspects are covered below, while the following pages cover further details:
 
-* [Creating Workflow Models](../../../sites/developing/using/workflows-models.md)
-* [Extending Workflow Functionality](../../../sites/developing/using/workflows-customizing-extending.md)
-* [Interacting with Workflows Programmatically](../../../sites/developing/using/workflows-program-interaction.md)
-* [Workflow Step Reference](../../../sites/developing/using/workflows-step-ref.md)
-* [Workflow Process Reference](../../../sites/developing/using/workflows-process-ref.md)
-* [Workflow Best Practices](../../../sites/developing/using/workflows-best-practices.md)
+* [Creating Workflow Models](/help/sites/developing/using/workflows-models.md)
+* [Extending Workflow Functionality](/help/sites/developing/using/workflows-customizing-extending.md)
+* [Interacting with Workflows Programmatically](/help/sites/developing/using/workflows-program-interaction.md)
+* [Workflow Step Reference](/help/sites/developing/using/workflows-step-ref.md)
+* [Workflow Process Reference](/help/sites/developing/using/workflows-process-ref.md)
+* [Workflow Best Practices](/help/sites/developing/using/workflows-best-practices.md)
 
 >[!NOTE]
 >
 >For information about:
 >
->* Participating in workflows, see [Using Workflows](../../../sites/authoring/using/workflows.md). 
->* Administering workflows and workflow instances, see [Administering Workflows](../../../sites/administering/using/workflows.md).
+>* Participating in workflows, see [Using Workflows](/help/sites/authoring/using/workflows.md). 
+>* Administering workflows and workflow instances, see [Administering Workflows](/help/sites/administering/using/workflows.md).
 >* For an end-to-end Community Article see [Modifying Digital Assets using Adobe Experience Manager Workflows.](https://helpx.adobe.com/experience-manager/using/modify_asset_workflow.html)
 >* See the [Ask the AEM Experts Webinar on Workflows](https://bit.ly/ATACE218).
 >* For an end-to-end Community Article see [Creating a custom Adobe Experience Manager 6.3 Dynamic Participant step](https://helpx.adobe.com/experience-manager/using/dynamic-steps-aem63.html).
->* Changes to the locations of information see [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring-in-aem64.md) and [Workflow Best Practices - Locations](../../../sites/developing/using/workflows-best-practices.md#locations).  
+>* Changes to the locations of information see [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring-in-aem64.md) and [Workflow Best Practices - Locations](/help/sites/developing/using/workflows-best-practices.md#locations).  
 >
 
 ## Model {#model}
@@ -48,13 +48,13 @@ A `WorkflowModel` represents a definition (model) of a workflow. It is made of `
 
 Workflow models are versioned. When you run a workflow instance it will use (and keep) the runtime model of the workflow (as available at the time the workflow was started).
 
-A runtime model is [generated when **Sync** is triggered in the workflow model editor](../../../sites/developing/using/workflows-models.md#sync-your-workflow-generate-a-runtime-model).
+A runtime model is [generated when **Sync** is triggered in the workflow model editor](/help/sites/developing/using/workflows-models.md#sync-your-workflow-generate-a-runtime-model).
 
 Edits to the workflow model that occur, and/or runtime models that are generated, *after* the specific instance was started will not be applied to that instance.
 
 >[!CAUTION]
 >
->The steps performed are those as defined by the [runtime model](../../../sites/developing/using/workflows-models.md#sync-your-workflow-generate-a-runtime-model); this is generated at the time the **Sync** action is triggered in the workflow model editor.
+>The steps performed are those as defined by the [runtime model](/help/sites/developing/using/workflows-models.md#sync-your-workflow-generate-a-runtime-model); this is generated at the time the **Sync** action is triggered in the workflow model editor.
 >
 >If the workflow model is changed after this point in time (without **Sync** being triggered), then the runtime instance will not reflect those changes. Only runtime models generated after the update will reflect the changes. The exceptions are the underlying ECMA scripts, which are held only once so changes to these are taken.
 
@@ -138,7 +138,7 @@ Transient workflows were introduced for loading a large number of assets, where 
 
 >[!NOTE]
 >
->See [Creating a Transient Workflow](../../../sites/developing/using/workflows-models.md#creating-a-transient-workflow) for further details.
+>See [Creating a Transient Workflow](/help/sites/developing/using/workflows-models.md#creating-a-transient-workflow) for further details.
 
 >[!CAUTION]
 >
@@ -159,7 +159,7 @@ Transient workflows were introduced for loading a large number of assets, where 
 
 >[!NOTE]
 >
->See [Best Practices for Assets](../../../assets/using/performance-tuning-guidelines.md#transient-workflows) for further information about how Transient Workflows impact Asset performance.
+>See [Best Practices for Assets](/help/assets/using/performance-tuning-guidelines.md#transient-workflows) for further information about how Transient Workflows impact Asset performance.
 
 ### Multi Resource Support {#multi-resource-support}
 
@@ -169,7 +169,7 @@ If **Multi Resource Support** is not activated for your workflow model and multi
 
 >[!NOTE]
 >
->See [Configuring a Workflow for Multi Resource Support](../../../sites/developing/using/workflows-models.md#configuring-a-workflow-for-multi-resource-support) for further details.
+>See [Configuring a Workflow for Multi Resource Support](/help/sites/developing/using/workflows-models.md#configuring-a-workflow-for-multi-resource-support) for further details.
 
 ### Workflow Stages {#workflow-stages}
 
@@ -179,7 +179,7 @@ As the individual step names can be specific and technical, the stage names can 
 
 For example, for a workflow with six steps and four stages:
 
-1. You can [configure Workflow Stages (that show Workflow Progress) and then assign the appropriate stage to each step in your workflow](../../../sites/developing/using/workflows-models.md#configuring-workflow-stages-that-show-workflow-progress):
+1. You can [configure Workflow Stages (that show Workflow Progress) and then assign the appropriate stage to each step in your workflow](/help/sites/developing/using/workflows-models.md#configuring-workflow-stages-that-show-workflow-progress):
 
     * Multiple stage names can be created.
     * Then an individual stage name is assigned to each step (a stage name can be assigned to one or more steps).
@@ -193,14 +193,14 @@ For example, for a workflow with six steps and four stages:
    | Step 5 |Complete |
    | Step 6 |Complete |
 
-1. When the workflow is run, the user can view the progress according to the Stage names (instead of the step names). The workflow progress will be displayed in the [**WORKFLOW INFO** tab of the task details window of the workitem](../../../sites/authoring/using/workflows-participating.md#opening-a-workflow-item-to-view-details-and-take-actions) listed in the ** [Inbox](../../../sites/authoring/using/inbox.md)**.
+1. When the workflow is run, the user can view the progress according to the Stage names (instead of the step names). The workflow progress will be displayed in the [**WORKFLOW INFO** tab of the task details window of the workitem](/help/sites/authoring/using/workflows-participating.md#opening-a-workflow-item-to-view-details-and-take-actions) listed in the ** [Inbox](/help/sites/authoring/using/inbox.md)**.
 
 ### Workflows and Forms {#workflows-and-forms}
 
-Typically, workflows are used to process form submissions in AEM. This can be with the [core components form components](https://helpx.adobe.com/experience-manager/core-components/using/form-container.html) available in a standard AEM instance, or with the [AEM Forms solution](../../../forms/using/aem-forms-workflow.md).
+Typically, workflows are used to process form submissions in AEM. This can be with the [core components form components](https://helpx.adobe.com/experience-manager/core-components/using/form-container.html) available in a standard AEM instance, or with the [AEM Forms solution](/help/forms/using/aem-forms-workflow.md).
 
 When creating a new form, the form submission can be easily associated with a workflow model; for example to store the content in a particular location of the repository or to notify a user about the form submission and its content.
 
 ### Workflows and Translation {#workflows-and-translation}
 
-Workflows are also an integral part of the [Translation](../../../sites/administering/using/translation.md) process. 
+Workflows are also an integral part of the [Translation](/help/sites/administering/using/translation.md) process. 

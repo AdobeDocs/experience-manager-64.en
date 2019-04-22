@@ -21,7 +21,7 @@ Social login is the capability to present a site visitor the option to sign in w
 
 To include social login, it is *required *to create custom Facebook and Twitter applications.
 
-While the we-retail sample provides sample Facebook and Twitter apps and cloud services, they are not available on a [production website](../../sites/administering/using/production-ready.md).
+While the we-retail sample provides sample Facebook and Twitter apps and cloud services, they are not available on a [production website](/help/sites/administering/using/production-ready.md).
 
 The required steps are:
 
@@ -147,7 +147,7 @@ This provider will require editing to:
 If editing is necessary, on each AEM publish instance:
 
 1. Sign in with administrator privileges.
-1. Navigate to the [Web Console](../../sites/deploying/using/configuring-osgi.md). For example, http://localhost:4503/system/console/configMgr.
+1. Navigate to the [Web Console](/help/sites/deploying/using/configuring-osgi.md). For example, http://localhost:4503/system/console/configMgr.
 1. Locate AEM Communities Facebook OAuth Provider.
 1. Select the pencil icon to open for edit.
 
@@ -281,7 +281,7 @@ The AEM Communities configuration extends the [Adobe Granite OAuth Application a
 If editing is necessary, on each AEM publish instance:
 
 1. Sign in with administrator privileges.
-1. Navigate to the [Web Console](../../sites/deploying/using/configuring-osgi.md).  
+1. Navigate to the [Web Console](/help/sites/deploying/using/configuring-osgi.md).  
    For example, http://localhost:4503/system/console/configMgr.
 1. Locate AEM Communities Twitter OAuth Provider.
 1. Select the pencil icon to open for edit.
@@ -352,7 +352,7 @@ The `Adobe Granite OAuth Authentication Handler` is not enabled by default and *
 To enable the authentication handler on publish, simply open the OSGi config and save it:
 
 * sign in with administrator privileges
-* navigate to the [Web Console](../../sites/deploying/using/configuring-osgi.md)  
+* navigate to the [Web Console](/help/sites/deploying/using/configuring-osgi.md)  
   for example, http://localhost:4503/system/console/configMgr
 
 * Locate `Adobe Granite OAuth Authentication Handler`
@@ -375,7 +375,7 @@ When a cloud service for Facebook or Twitter is created, an instance of `*Adobe 
 To locate the created instance for a Facebook or Twitter app:
 
 1. Sign in with administrator privileges.
-1. Navigate to the [Web Console](../../sites/deploying/using/configuring-osgi.md).
+1. Navigate to the [Web Console](/help/sites/deploying/using/configuring-osgi.md).
 
    For example, http://localhost:4503/system/console/configMgr.
 
@@ -427,7 +427,7 @@ If traversal warnings are seen in the logs, it is recommended to add this index.
 
 On an author instance, signed in with administrative privileges:
 
-1. From global navigation: select **Tools, [CRX/DE Lite](../../sites/developing/using/developing-with-crxde-lite.md).**
+1. From global navigation: select **Tools, [CRX/DE Lite](/help/sites/developing/using/developing-with-crxde-lite.md).**
 1. Create an index named ntBaseLucene-oauth from a copy of ntBaseLucene:
 
     * under node /oak:index
@@ -455,12 +455,12 @@ On an author instance, signed in with administrative privileges:
 
     * Select **Save All.**
 
-**&#42;** For the **name** oauthid-*123*, replace *123* with the Facebook ***App ID*** or Twitter ***Consumer (API) Key*** that is the value of the **Client ID** in the [Adobe Granite OAuth Application and Provider](../../communities/using/social-login.md#adobe-granite-oauth-application-and-provider)configuration.
+**&#42;** For the **name** oauthid-*123*, replace *123* with the Facebook ***App ID*** or Twitter ***Consumer (API) Key*** that is the value of the **Client ID** in the [Adobe Granite OAuth Application and Provider](/help/communities/using/social-login.md#adobe-granite-oauth-application-and-provider)configuration.
 
 ![](assets/chlimage_1-492.png)
 
-For additional information and tools, refer to [Oak Queries and Indexing](../../sites/deploying/using/queries-and-indexing.md).
+For additional information and tools, refer to [Oak Queries and Indexing](/help/sites/deploying/using/queries-and-indexing.md).
 
 ## Dispatcher Configuration {#dispatcher-configuration}
 
-See [Configuring Dispatcher for Communities](../../communities/using/dispatcher.md).
+See [Configuring Dispatcher for Communities](/help/communities/using/dispatcher.md).

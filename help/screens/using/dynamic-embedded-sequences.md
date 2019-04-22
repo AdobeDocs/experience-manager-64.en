@@ -45,7 +45,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 >***Dynamic Embedded Sequences*** lets you display location-specific content whereas ***Embedded Sequences*** only display general slide show of the content. Additionally, while setting up Dynamic Embedded Sequences, you need to configure the channel using channel role and name. Please refer to the steps below for practical implementation.  
 
 >
->To learn more about implementing embedded sequences, please refer to [**Embedded Sequences**](../../screens/using/embedded-sequences.md) in AEM Screens.
+>To learn more about implementing embedded sequences, please refer to [**Embedded Sequences**](/help/screens/using/embedded-sequences.md) in AEM Screens.
 
 The following example provides a solution by focusing on the following key terms:
 
@@ -55,7 +55,7 @@ The following example provides a solution by focusing on the following key terms
 
 >[!NOTE]
 >
->To learn more about channel assignment, see ** [Channel Assignment](../../screens/using/channel-assignment.md) **under Authoring section in AEM Screens documentation.
+>To learn more about channel assignment, see ** [Channel Assignment](/help/screens/using/channel-assignment.md) **under Authoring section in AEM Screens documentation.
 
 ## Using Dynamic Embedded Sequence {#using-dynamic-embedded-sequence}
 
@@ -84,9 +84,9 @@ You can download the following resources (images and add these to assets) and fu
 >
 >For additional information on how to create a project and how to create a sequence channel, please refer to resources below:
 >
->* ** [Creating and Managing Projects](../../screens/using/creating-a-screens-project.md)  
+>* ** [Creating and Managing Projects](/help/screens/using/creating-a-screens-project.md)  
 >  **
->* ** [Managing a Channel](../../screens/using/managing-channels.md)**
+>* ** [Managing a Channel](/help/screens/using/managing-channels.md)**
 >
 
 Implementing Dynamic Embedded Sequence in an AEM Screens project involves three major tasks:
@@ -118,7 +118,7 @@ Follow the steps below to implement the functionality:
 
    >[!NOTE]
    >
-   >To learn how to create a location, please refer to ** [Creating and Managing Locations](../../screens/using/managing-locations.md)**.
+   >To learn how to create a location, please refer to ** [Creating and Managing Locations](/help/screens/using/managing-locations.md)**.
 
 1. **Create two Locations and a Channel under each location folder.**
 
@@ -291,7 +291,7 @@ Once you have the set up for channels and display complete, please launch the AE
 >To learn about AEM Screen Player, please refer to the following resources:
 >
 >* [**AEM Screens player downloads**](https://download.macromedia.com/screens/)
->* [**Working with AEM Screens Player**](../../sites/authoring/using/working-with-screens-player.md)
+>* [**Working with AEM Screens Player**](/help/sites/authoring/using/working-with-screens-player.md)
 >
 
 The following output confirms your channel content in AEM Screens player, depending on the display path.
@@ -444,5 +444,5 @@ Follow the steps below to create groups, users and modify the ACLs as per the pe
 
 >[!NOTE]
 >
->To learn in detail about setting up permissions, please refer to [**Setting up ACLs**](../../screens/using/setting-up-acls.md) in AEM Screens Developer documentation.
+>To learn in detail about setting up permissions, please refer to [**Setting up ACLs**](/help/screens/using/setting-up-acls.md) in AEM Screens Developer documentation.
 

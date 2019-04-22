@@ -29,7 +29,7 @@ http://localhost:4502/libs/wcm/core/content/pageinfo.json?path=/content/we-retai
 >* Native Mobile Applications 
 >* Other channels and touch-points external to AEM
 >
->See the document [JSON Exporter for Content Services](../../../sites/developing/using/json-exporter.md).
+>See the document [JSON Exporter for Content Services](/help/sites/developing/using/json-exporter.md).
 
 ## Page Information Providers {#page-information-providers}
 
@@ -44,7 +44,7 @@ Page components can be associated with one or more `com.day.cq.wcm.api.PageInfoP
 
 >[!NOTE]
 >
->Similar to PageInfoProviders, use ListInfoProviders to update lists of information in JSON format. (See [Customizing the Websites Administration Console](../../../sites/developing/using/customizing-siteadmin.md).)
+>Similar to PageInfoProviders, use ListInfoProviders to update lists of information in JSON format. (See [Customizing the Websites Administration Console](/help/sites/developing/using/customizing-siteadmin.md).)
 
 ## Default Page Information Providers {#default-page-information-providers}
 
@@ -491,7 +491,7 @@ The service applies the cumulative result of all filters. For example, the follo
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for such services. See [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details.
+>When working with AEM there are several methods of managing the configuration settings for such services. See [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details.
 
 For example, to configure the service using CRXDE Lite:
 

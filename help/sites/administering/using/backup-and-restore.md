@@ -27,7 +27,7 @@ If you need to backup and/or recover a small amount of content, which is lost, a
 * Either you can fetch the data from another system via a package
 * or you restore the backup on a temporary system, create a content package and deploy it on the system, where this content is missing.
 
-For details, see [Package Backup](../../../sites/administering/using/backup-and-restore.md#package-backup) below.
+For details, see [Package Backup](/help/sites/administering/using/backup-and-restore.md#package-backup) below.
 
 ## Timing {#timing}
 
@@ -74,7 +74,7 @@ An online backup of your repository lets you create, download, and delete backup
 
 >[!CAUTION]
 >
->Do not run AEM Online Backup concurrently with [Datastore Garbage Collection](../../../sites/administering/using/data-store-garbage-collection.md) or [Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md#how-to-run-offline-revision-cleanup). It will negatively affect the system performance.
+>Do not run AEM Online Backup concurrently with [Datastore Garbage Collection](/help/sites/administering/using/data-store-garbage-collection.md) or [Revision Cleanup](/help/sites/deploying/using/revision-cleanup.md#how-to-run-offline-revision-cleanup). It will negatively affect the system performance.
 
 When starting a backup you can specify a **Target Path** and/or a **Delay**.
 
@@ -189,7 +189,7 @@ curl -u admin:admin -X POST http://localhost:4502/system/console/jmx/com.adobe.g
 
 >[!NOTE]
 >
->A backup can also be triggered [using the MBeans provided by AEM](../../../sites/administering/using/jmx-console.md).
+>A backup can also be triggered [using the MBeans provided by AEM](/help/sites/administering/using/jmx-console.md).
 
 ### Filesystem Snapshot Backup {#filesystem-snapshot-backup}
 
@@ -247,7 +247,7 @@ You can restore a backup as follows:
 
 To back up and restore content, you can use one of the Package Manager, which uses the Content Package format to back up and restore content. The Package Manager provides more flexibility in defining and managing packages.
 
-For details on the features and tradeoffs of each of these individual content package formats, see [How to Work With Packages](../../../sites/administering/using/package-manager.md).
+For details on the features and tradeoffs of each of these individual content package formats, see [How to Work With Packages](/help/sites/administering/using/package-manager.md).
 
 ### Scope of Backup {#scope-of-backup}
 

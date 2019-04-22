@@ -17,26 +17,26 @@ discoiquuid: 0225a543-0fad-488b-8b0b-8b3512d44fbe
 
 A Rich Text Editor (RTE) provides the ability to enter text with markup.
 
-For Communities components, while similar to the [rich text editor in the author environment](../../sites/authoring/using/rich-text-editor.md), it affects text entered in the publish environment.
+For Communities components, while similar to the [rich text editor in the author environment](/help/sites/authoring/using/rich-text-editor.md), it affects text entered in the publish environment.
 
 ![](assets/chlimage_1-410.png) 
 
 ## Enabling Rich Text Editor {#enabling-rich-text-editor}
 
-Communities components that allow user generated content (UGC) can be enabled to allow RTE. Depending on whether the component was added to a page or included within a [function](../../communities/using/functions.md), RTE may or may not be enabled by default.
+Communities components that allow user generated content (UGC) can be enabled to allow RTE. Depending on whether the component was added to a page or included within a [function](/help/communities/using/functions.md), RTE may or may not be enabled by default.
 
-If not enabled, simply enter [author edit mode](../../communities/using/sites-console.md#authoring-site-content), select the component for edit, and select the `Rich Text Editor` checkbox.
+If not enabled, simply enter [author edit mode](/help/communities/using/sites-console.md#authoring-site-content), select the component for edit, and select the `Rich Text Editor` checkbox.
 
 RTE is available for the following Communities components:
 
-* [blog](../../communities/using/blog-feature.md)
-* [calendar](../../communities/using/calendar.md)
-* [comments](../../communities/using/comments.md)
-* [filelibrary](../../communities/using/file-library.md)
-* [forum](../../communities/using/forum.md)
-* [messaging](../../communities/using/configure-messaging.md)
-* [QnA](../../communities/using/working-with-qna.md)
-* [reviews](../../communities/using/reviews.md)
+* [blog](/help/communities/using/blog-feature.md)
+* [calendar](/help/communities/using/calendar.md)
+* [comments](/help/communities/using/comments.md)
+* [filelibrary](/help/communities/using/file-library.md)
+* [forum](/help/communities/using/forum.md)
+* [messaging](/help/communities/using/configure-messaging.md)
+* [QnA](/help/communities/using/working-with-qna.md)
+* [reviews](/help/communities/using/reviews.md)
 
 ## Customization {#customization}
 

@@ -18,17 +18,17 @@ This section provides some examples on how to create your own components for AEM
 
 For the underlying concepts see:
 
-* [AEM Components - the Basics](../../../sites/developing/using/components-basics.md)
-* [Developing AEM Components](../../../sites/developing/using/developing-components.md)
+* [AEM Components - the Basics](/help/sites/developing/using/components-basics.md)
+* [Developing AEM Components](/help/sites/developing/using/developing-components.md)
 
-For information about the classic UI see [AEM Components for the Classic UI](../../../sites/developing/using/developing-components-classic.md).
+For information about the classic UI see [AEM Components for the Classic UI](/help/sites/developing/using/developing-components-classic.md).
 
 >[!NOTE]
 >
 >To help you analyze, test and debug your components, AEM provides:
 >
->* [Developer Mode](../../../sites/developing/using/developer-mode.md)
->* a [framework for automating tests, based on the Hobbes.js library](../../../sites/developing/using/hobbes.md)  
+>* [Developer Mode](/help/sites/developing/using/developer-mode.md)
+>* a [framework for automating tests, based on the Hobbes.js library](/help/sites/developing/using/hobbes.md)  
 >
 
 ## Code Sample - How to Customize Dialog Fields {#code-sample-how-to-customize-dialog-fields}
@@ -50,11 +50,11 @@ You can find the code of this page on GitHub
 
 New actions can be added to component toolbars using the edit layer of the page editor.
 
-Details, together with links to the code sample, are under [Add New Action to a Component Toolbar](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-action-to-a-component-toolbar).
+Details, together with links to the code sample, are under [Add New Action to a Component Toolbar](/help/sites/developing/using/customizing-page-authoring-touch.md#add-new-action-to-a-component-toolbar).
 
 ### Customizing and Extending Content Fragments {#customizing-and-extending-content-fragments}
 
 You may want to extend the standard Content Fragment component to add features.
 
-Details are under [Customizing and Extending Content Fragments](../../../sites/developing/using/customizing-content-fragments.md).  
+Details are under [Customizing and Extending Content Fragments](/help/sites/developing/using/customizing-content-fragments.md).  
 

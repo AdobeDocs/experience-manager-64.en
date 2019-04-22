@@ -84,7 +84,7 @@ The connector supports the following:
 
 ### Standard installation {#standard-installation}
 
-AEM Package Share is used to distribute product features, examples, and hot fixes. For details, see the [Package Share documentation](../../../sites/administering/using/package-manager.md#package-share).
+AEM Package Share is used to distribute product features, examples, and hot fixes. For details, see the [Package Share documentation](/help/sites/administering/using/package-manager.md#package-share).
 
 To access Package Share on the AEM Welcome page, tap/click **Tools** and then select **Package Share**. You require a valid Adobe ID that includes your company email address. In addition, after logging in to your account, apply for Package Share access.
 
@@ -147,7 +147,7 @@ To whitelist bundles in AEM, perform the following steps:
 >
 >If you configure multiple workspaces, specify the name of the default workspace in the Default Workspace Name parameter.
 
-For additional information around authentication-related parameters, see [Authentication](../../../sites/administering/using/sharepoint-connector.md#configuring-authentication).
+For additional information around authentication-related parameters, see [Authentication](/help/sites/administering/using/sharepoint-connector.md#configuring-authentication).
 
 ### Verifying the Sharepoint setup {#verifying-the-sharepoint-setup}
 

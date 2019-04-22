@@ -27,7 +27,7 @@ You can opt into usage statistics collection by using either the Touch UI or the
 
 >[!NOTE]
 >
->You can also opt-out at anytime by either using the [Web Console](../../../sites/deploying/using/opt-in-aggregated-usage-statistics.md#opt-in-by-using-the-web-console) or by not selecting the opt-in option on the AEM opt-in screen.
+>You can also opt-out at anytime by either using the [Web Console](/help/sites/deploying/using/opt-in-aggregated-usage-statistics.md#opt-in-by-using-the-web-console) or by not selecting the opt-in option on the AEM opt-in screen.
 
 ## Opt-in by using the Touch UI {#opt-in-by-using-the-touch-ui}
 

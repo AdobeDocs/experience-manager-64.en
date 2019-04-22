@@ -14,7 +14,7 @@ discoiquuid: 842d3a5a-8e09-4a21-b9a2-a8f4f5b699bd
 
 ## Prerequisites {#prerequisites}
 
-[Managing form metadata](../../forms/using/manage-form-metadata.md)
+[Managing form metadata](/help/forms/using/manage-form-metadata.md)
 
 Working knowledge of HTML and CSS
 

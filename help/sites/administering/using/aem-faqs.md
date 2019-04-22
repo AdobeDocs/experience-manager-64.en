@@ -46,8 +46,8 @@ Create a language root at `/content/geometrixx` with name as `fr_LU` (and title 
 
 For details, refer to the additional resources below:
 
-* [Preparing content for translation](../../../sites/administering/using/tc-prep.md)
-* [Managing translation projects](../../../sites/administering/using/tc-manage.md)
+* [Preparing content for translation](/help/sites/administering/using/tc-prep.md)
+* [Managing translation projects](/help/sites/administering/using/tc-manage.md)
 
 ### How to audit AEM capabilities such as, login attempts and ACL or permission changes? {#how-to-audit-aem-capabilities-such-as-login-attempts-and-acl-or-permission-changes}
 
@@ -74,7 +74,7 @@ Also, if the developers want to export a tree of components they can also implem
 
 ### How to disable AEM 6.4 survey pop-up? {#how-to-disable-aem-survey-pop-up}
 
-You can opt into usage statistics collection by using either the Touch UI or the Web Console. For detailed instructions, see [Opting into aggregated usage statistics collection](../../../sites/deploying/using/opt-in-aggregated-usage-statistics.md).
+You can opt into usage statistics collection by using either the Touch UI or the Web Console. For detailed instructions, see [Opting into aggregated usage statistics collection](/help/sites/deploying/using/opt-in-aggregated-usage-statistics.md).
 
 ### Is there a good resource that highlights the key features for upgrading to AEM 6.4? {#is-there-a-good-resource-that-highlights-the-key-features-for-upgrading-to-aem}
 
@@ -90,7 +90,7 @@ Oak exposes a set of lucene-provides analyzer configuration elements for use in 
 
 Re-indexing should always be approached with proper consideration on its impact to AEM's overall performance, and performed during periods of low activity or maintenance windows.
 
-Please refer to the [Best Practices for Queries and Indexing](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md) to understand the reasons for re-indexing.
+Please refer to the [Best Practices for Queries and Indexing](/help/sites/deploying/using/best-practices-for-queries-and-indexing.md) to understand the reasons for re-indexing.
 
 ### Do we support minified JS libs in Design Importer? {#do-we-support-minified-js-libs-in-design-importer}
 
@@ -131,7 +131,7 @@ To setup and configure Asset Insights for Experience Manager deployed via Adobe 
 
 ### How to customize admin consoles? {#how-to-customize-admin-consoles}
 
-AEM provides various mechanisms to enable you to customize the consoles and the page authoring functionality of your authoring instance. To learn how to create a custom console and customize a default view for a console, please refer to [Customizing the Consoles](../../../sites/developing/using/customizing-consoles-touch.md).
+AEM provides various mechanisms to enable you to customize the consoles and the page authoring functionality of your authoring instance. To learn how to create a custom console and customize a default view for a console, please refer to [Customizing the Consoles](/help/sites/developing/using/customizing-consoles-touch.md).
 
 ### What is the difference between CoralUI 2 and CoralUI 3-based components? {#what-is-the-difference-between-coralui-and-coralui-based-components}
 

@@ -15,8 +15,8 @@ discoiquuid: 3350bb2d-78a7-45e2-9816-0277a40d3986
 
 This section describes topics about developing components for use with content targeting.
 
-* For information about connecting with Adobe Target, see [Integrating With Adobe Target](../../../sites/administering/using/target.md).
-* For information about authoring targeted content, see [Authoring Targeted Content Using Targeting Mode](../../../sites/authoring/using/content-targeting-touch.md).
+* For information about connecting with Adobe Target, see [Integrating With Adobe Target](/help/sites/administering/using/target.md).
+* For information about authoring targeted content, see [Authoring Targeted Content Using Targeting Mode](/help/sites/authoring/using/content-targeting-touch.md).
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ For example, if you want to use the [Marketing Cloud ID service](https://marketi
 1. For the Custom mbox.js property, click Browse and select the file.
 1. To apply the changes, enter the password for your Adobe Target account, click Re-connect To Target, and click OK when the connection is successful. Then, click OK on the Edit Component dialog box.
 
-Your Target configuration includes a custom mbox.js file, [the required code in the head section](../../../sites/developing/using/target.md#the-head-section) of your page adds the file to the client library framework instead of a reference to the testandtarget.js library.
+Your Target configuration includes a custom mbox.js file, [the required code in the head section](/help/sites/developing/using/target.md#the-head-section) of your page adds the file to the client library framework instead of a reference to the testandtarget.js library.
 
 ## Disabling the Target Command for Components {#disabling-the-target-command-for-components}
 
@@ -244,7 +244,7 @@ The code on the rendered HTML page that creates the mbox is similar to the follo
 </script>
 ```
 
-The values of each parameter are different for each order. Therefore, you require a component that generates the code based on the properties of the purchase. The CQ [eCommerce Integration Framework](../../../sites/administering/using/ecommerce.md) enables you to integrate with your product catalogue and implement a shopping cart and checkout page.
+The values of each parameter are different for each order. Therefore, you require a component that generates the code based on the properties of the purchase. The CQ [eCommerce Integration Framework](/help/sites/administering/using/ecommerce.md) enables you to integrate with your product catalogue and implement a shopping cart and checkout page.
 
 The Geometrixx Outdoors sample displays the following confirmation page when a visitor purchases products:
 
@@ -311,13 +311,13 @@ When the component is included in the checkout page in the previous example, the
 
 ## Understanding the Target Component {#understanding-the-target-component}
 
-The Target component enables authors to create dynamic mboxes from CQ content components. (See [Content Targeting](../../../sites/authoring/using/content-targeting-touch.md).) The Target component is located at /libs/cq/personalization/components/target.
+The Target component enables authors to create dynamic mboxes from CQ content components. (See [Content Targeting](/help/sites/authoring/using/content-targeting-touch.md).) The Target component is located at /libs/cq/personalization/components/target.
 
 The target.jsp script accesses the page properties to determine the targeting engine to use for the component, and then executes the appropriate script:
 
 * Adobe Target: /libs/cq/personalization/components/target/engine_tnt.jsp  
-* [Adobe Target with AT.JS](../../../sites/administering/using/target.md): /libs/cq/personalization/components/target/engine_atjs.jsp
-* [Adobe Campaign](../../../sites/authoring/using/target-adobe-campaign.md): /libs/cq/personalization/components/target/engine_cq_campaign.jsp
+* [Adobe Target with AT.JS](/help/sites/administering/using/target.md): /libs/cq/personalization/components/target/engine_atjs.jsp
+* [Adobe Campaign](/help/sites/authoring/using/target-adobe-campaign.md): /libs/cq/personalization/components/target/engine_cq_campaign.jsp
 * Client-side Rules/ContextHub: /libs/cq/personalization/components/target/engine_cq.jsp
 
 ### The Creation of Mboxes {#the-creation-of-mboxes}

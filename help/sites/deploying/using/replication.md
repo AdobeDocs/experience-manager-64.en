@@ -15,17 +15,17 @@ discoiquuid: 6fe1c5c5-deb7-4405-82e4-23e0f90e2bd8
 
 Replication agents are central to Adobe Experience Manager (AEM) as the mechanism used to:
 
-* [Publish (activate)](../../../sites/authoring/using/publishing-pages.md#publishing-pages) content from an author to a publish environment.
+* [Publish (activate)](/help/sites/authoring/using/publishing-pages.md#publishing-pages) content from an author to a publish environment.
 * Explicitly flush content from the Dispatcher cache.
 * Return user input (for example, form input) from the publish environment to the author environment (under control of the author environment).
 
-Requests are [queued](../../../sites/deploying/using/osgi-configuration-settings.md) to the appropriate agent for processing.
+Requests are [queued](/help/sites/deploying/using/osgi-configuration-settings.md) to the appropriate agent for processing.
 
 >[!NOTE]
 >
 >User data (users, user groups, and user profiles) are not replicated between author and publish instances.
 >
->For multiple publish instances, user data is Sling distributed when [User Synchronization](../../../sites/administering/using/sync.md) is enabled.
+>For multiple publish instances, user data is Sling distributed when [User Synchronization](/help/sites/administering/using/sync.md) is enabled.
 
 ## Replicating from Author to Publish {#replicating-from-author-to-publish}
 
@@ -34,7 +34,7 @@ Replication, to a publish instance or dispatcher, takes place in several steps:
 * the author requests that certain content be published (activated); this can be initiated by a manual request, or by automatic triggers which have been preconfigured.
 * the request is passed to the appropriate default replication agent; an environment can have several default agents which will always be selected for such actions.
 * the replication agent "packages" the content and places it in the replication queue.
-* in the Websites tab the [colored status indicator](../../../sites/authoring/using/publishing-pages.md#determining-publication-status) is set for the individual pages.
+* in the Websites tab the [colored status indicator](/help/sites/authoring/using/publishing-pages.md#determining-publication-status) is set for the individual pages.
 * the content is lifted from the queue and transported to the publish environment using the configured protocol; usually this is HTTP.
 * a servlet in the publish environment receives the request and publishes the received content; the default servlet is `http://localhost:4503/bin/receive`.  
 
@@ -52,13 +52,13 @@ Reverse replication uses an agent in the publish environment which references th
 
 In other cases, such as for Communities features (for example, forums, blogs, comments, and reviews), the amount of user generated content (UGC) being entered in the publish environment is difficult to efficiently synchronize across AEM instances using replicaiton.
 
-AEM [Communities](../../../communities/using/overview.md) never uses replication for UGC. Instead, the deployment for Communities requires a common store for UGC (see [Community Content Storage](../../../communities/using/working-with-srp.md)).
+AEM [Communities](/help/communities/using/overview.md) never uses replication for UGC. Instead, the deployment for Communities requires a common store for UGC (see [Community Content Storage](/help/communities/using/working-with-srp.md)).
 
 ## Replication - Out of the Box {#replication-out-of-the-box}
 
 The Geometrixx website that is included in a standard installation of AEM can be used to illustrate replication.
 
-To follow this example and use the default replication agents you need to [Install AEM](../../../sites/deploying/using/deploy.md) with:
+To follow this example and use the default replication agents you need to [Install AEM](/help/sites/deploying/using/deploy.md) with:
 
 * the author environment on port `4502`
 * the publish environment on port `4503`
@@ -186,7 +186,7 @@ When configuring a replication agent from the Tools console, four tabs are avail
 
 * **Alias update**
 
-  Selecting this option enables alias or vanity path invalidation requests to Dispatcher. Also, see [Configuring a Dispatcher Flush Agent](../../../sites/deploying/using/replication.md#configuring-a-dispatcher-flush-agent).
+  Selecting this option enables alias or vanity path invalidation requests to Dispatcher. Also, see [Configuring a Dispatcher Flush Agent](/help/sites/deploying/using/replication.md#configuring-a-dispatcher-flush-agent).
 
 ### Transport {#transport}
 
@@ -342,7 +342,7 @@ These settings are used to define triggers for automated replication:
 
 ## Configuring your Replication Agents {#configuring-your-replication-agents}
 
-For information about connecting replication agents to the publish instance using MSSL, see [Replicating Using Mutual SSL](../../../sites/deploying/using/mssl-replication.md).
+For information about connecting replication agents to the publish instance using MSSL, see [Replicating Using Mutual SSL](/help/sites/deploying/using/mssl-replication.md).
 
 ### Configuring your Replication Agents from the Author Environment {#configuring-your-replication-agents-from-the-author-environment}
 
@@ -382,7 +382,7 @@ As the publish environment is usually in the DMZ, to get content back to the aut
 
 >[!NOTE]
 >
->For AEM [Communities](../../../communities/using/overview.md), replication is not used for user generated content on a publish instance. See [Community Content Storage](../../../communities/using/working-with-srp.md).
+>For AEM [Communities](/help/communities/using/overview.md), replication is not used for user generated content on a publish instance. See [Community Content Storage](/help/communities/using/working-with-srp.md).
 
 To do this you need:
 
@@ -402,7 +402,7 @@ If you want to use reverse replication then ensure that this agent is activated.
 >
 >Only content is replicated - user data is not (users, user groups, and user profiles).
 >
->To synchronize user data across multiple publish instances, enable [User Synchronization](../../../sites/administering/using/sync.md).
+>To synchronize user data across multiple publish instances, enable [User Synchronization](/help/sites/administering/using/sync.md).
 
 Upon installation a default agent is already configured for replication of content to a publish instance running on port 4503 of the localhost.
 
@@ -552,7 +552,7 @@ To monitor a replication agent:
 
 ### Additional Resources {#additional-resources}
 
-For details about troubleshooting, you can read the [Troubleshooting Replication](../../../sites/deploying/using/troubleshoot-rep.md) page.
+For details about troubleshooting, you can read the [Troubleshooting Replication](/help/sites/deploying/using/troubleshoot-rep.md) page.
 
 For additional information, Adobe has a series of Knowledge Base articles related to replication:
 

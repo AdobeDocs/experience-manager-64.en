@@ -14,4 +14,4 @@ discoiquuid: 9955bf12-a91b-43cb-a9e6-c1efc04ad075
 
 # Site and Page Features{#site-and-page-features}
 
-In addition to [authoring your page](../../../sites/authoring/using/page-authoring.md) to create and add content, there are a range of features you can use to help you build and optimize the content of your website:
+In addition to [authoring your page](/help/sites/authoring/using/page-authoring.md) to create and add content, there are a range of features you can use to help you build and optimize the content of your website:

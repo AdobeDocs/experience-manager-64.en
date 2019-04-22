@@ -54,9 +54,9 @@ After the first successful conversion, the conversion service overlays the sourc
 
 ### Before you start {#before-you-start}
 
-* Review and Correct editor does not support fragments. Do not use the editor to review conversions that had the **Extract Fragment** option enabled during conversions. You can use the [adaptive form editor](../../../forms/using/wip/review-correct-ui-edited.md#open-adaptive-forms-editor) for such conversions.  
+* Review and Correct editor does not support fragments. Do not use the editor to review conversions that had the **Extract Fragment** option enabled during conversions. You can use the [adaptive form editor](/help/forms/using/wip/review-correct-ui-edited.md#open-adaptive-forms-editor) for such conversions.  
 
-* Review and Correct editor does not support tables. So, the tables are not displayed in the editor. You can use [adaptive form editor](../../../forms/using/wip/review-correct-ui-edited.md#open-adaptive-forms-editor) to fix table-related issues.
+* Review and Correct editor does not support tables. So, the tables are not displayed in the editor. You can use [adaptive form editor](/help/forms/using/wip/review-correct-ui-edited.md#open-adaptive-forms-editor) to fix table-related issues.
 * Review and Correct editor does not have undo action. Use the Save button only for permanently saving the changes.
 
 ### Start the review {#start-the-review}
@@ -89,7 +89,7 @@ After making required changes, tap the **[!UICONTROL Save & Convert]** button to
 
 ![](assets/save-and-convert.png)
 
-After performing the basic checks, you can review the form to fix issues specific to your organization. These issues can be related to adding missing fields, changing layout, fixing tables in adaptive form editor, and more. You can view the [Use the Review and Correct editor tools](../../../forms/using/wip/review-correct-ui-edited.md#use-the-review-and-correct-editor-tools) section to learn about all the tools the editor provides to fix such issues.
+After performing the basic checks, you can review the form to fix issues specific to your organization. These issues can be related to adding missing fields, changing layout, fixing tables in adaptive form editor, and more. You can view the [Use the Review and Correct editor tools](/help/forms/using/wip/review-correct-ui-edited.md#use-the-review-and-correct-editor-tools) section to learn about all the tools the editor provides to fix such issues.
 
 You can also work on recognizing identical issues which occur in almost all of your forms and report such patterns to Adobe. Use the Review and Correct editor until the desired experience is achieved.
 
@@ -97,16 +97,16 @@ You can also work on recognizing identical issues which occur in almost all of y
 
 With Review and Correct editor, you can:
 
-* [Add a component to the form](../../../forms/using/wip/review-correct-ui-edited.md#add-a-component-to-the-form)  
+* [Add a component to the form](/help/forms/using/wip/review-correct-ui-edited.md#add-a-component-to-the-form)  
 
-* [Change type a component](../../../forms/using/wip/review-correct-ui-edited.md#change-type-a-component)  
+* [Change type a component](/help/forms/using/wip/review-correct-ui-edited.md#change-type-a-component)  
 
-* [Create or remove a panel](../../../forms/using/wip/review-correct-ui-edited.md#create-or-remove-a-panel)
-* [Delete a panel or component](../../../forms/using/wip/review-correct-ui-edited.md#delete-a-panel-or-component)
-* [Set properties of a component](../../../forms/using/wip/review-correct-ui-edited.md#set-properties-of-a-component)
-* [Send a form for conversion](../../../forms/using/wip/review-correct-ui-edited.md#send-a-form-for-conversion)  
+* [Create or remove a panel](/help/forms/using/wip/review-correct-ui-edited.md#create-or-remove-a-panel)
+* [Delete a panel or component](/help/forms/using/wip/review-correct-ui-edited.md#delete-a-panel-or-component)
+* [Set properties of a component](/help/forms/using/wip/review-correct-ui-edited.md#set-properties-of-a-component)
+* [Send a form for conversion](/help/forms/using/wip/review-correct-ui-edited.md#send-a-form-for-conversion)  
 
-* [Open adaptive forms editor](../../../forms/using/wip/review-correct-ui-edited.md#open-adaptive-forms-editor)
+* [Open adaptive forms editor](/help/forms/using/wip/review-correct-ui-edited.md#open-adaptive-forms-editor)
 
 ### Add a component to the form {#add-a-component-to-the-form}
 
@@ -140,7 +140,7 @@ The conversion service aggregates related components and content of print forms 
 
 The conversion service can create panels that have components with no relationship to other or leaves a relative component out of the panel. You can use the group or ungroup tools to fix such panels:
 
-* To remove a panel, select the panel, and tap ungroup ![](assets/ungroup.svg). The panel is removed and the child components of the panel are merged to parent component. You can also use the [delete component](../../../forms/using/wip/review-correct-ui-edited.md#delete-a-panel-or-component) option to delete a panel and its children.  
+* To remove a panel, select the panel, and tap ungroup ![](assets/ungroup.svg). The panel is removed and the child components of the panel are merged to parent component. You can also use the [delete component](/help/forms/using/wip/review-correct-ui-edited.md#delete-a-panel-or-component) option to delete a panel and its children.  
 
 * To create a panel, use the Ctrl key (on Windows or Linux) or Control key (on Mac) to select related components, and tap ![](assets/group.jpg) to create a panel. Open the properties browser to specify properties of the panel.
 
@@ -163,7 +163,7 @@ Tap **Save** button to save the modifications or use the **Save & Convert** butt
 
 Once you have made all the required changes in Review and Correct editor, you can resend the form for conversion. To send the form for conversion, tap **[!UICONTROL Save & Convert]**. The **[!UICONTROL Sent for conversion label]**is applied to the folder containing the source document and the updated source form is uploaded to conversion service running on Adobe I/O.
 
-Depending on the complexity of the form, the conversion service can take some time to convert the form. After the conversion is complete the converted adaptive form and related assets is downloaded to your machine. You can review the form in the editor after the conversion is complete and open the adaptive form in [adaptive form editor](../../../forms/using/wip/review-correct-ui-edited.md#open-adaptive-forms-editor) for the final set of fixes, if required.
+Depending on the complexity of the form, the conversion service can take some time to convert the form. After the conversion is complete the converted adaptive form and related assets is downloaded to your machine. You can review the form in the editor after the conversion is complete and open the adaptive form in [adaptive form editor](/help/forms/using/wip/review-correct-ui-edited.md#open-adaptive-forms-editor) for the final set of fixes, if required.
 
 If you resend a form for conversion after updating the form in adaptive form editor, all the changes made in adaptive form are lost.
 
@@ -177,4 +177,4 @@ To open the form with adaptive forms editor, tap the ![](../assets/properties.pn
 
 ## Previous {#previous}
 
-[Use Automated Forms Conversion service](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md)
+[Use Automated Forms Conversion service](/help/forms/using/wip/convert-existing-forms-to-adaptive-forms.md)

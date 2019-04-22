@@ -15,9 +15,9 @@ discoiquuid: 95ab2e54-0f8d-49e0-ad20-774875f6f80a
 
 As Granite incorporates the CRX Repository implementation of the JCR API Specification it has its own user and group administration.
 
-These accounts are the underlying basis of the [AEM accounts](../../../sites/administering/using/security.md) and any account changes made with the Granite administration will be reflected if/when the accounts are accessed from the [AEM Users console](../../../sites/administering/using/security.md#accessing-user-administration-with-the-security-console) (e.g. `http://localhost:4502/useradmin`). From the AEM Users console you can also manage the privileges and other AEM specifics.
+These accounts are the underlying basis of the [AEM accounts](/help/sites/administering/using/security.md) and any account changes made with the Granite administration will be reflected if/when the accounts are accessed from the [AEM Users console](/help/sites/administering/using/security.md#accessing-user-administration-with-the-security-console) (e.g. `http://localhost:4502/useradmin`). From the AEM Users console you can also manage the privileges and other AEM specifics.
 
-Granite user and group administration consoles are both available from the ** [Tools](../../../sites/administering/using/tools-consoles.md)** console of the touch-optimized UI:
+Granite user and group administration consoles are both available from the ** [Tools](/help/sites/administering/using/tools-consoles.md)** console of the touch-optimized UI:
 
 ![](assets/chlimage_1-72.png)
 

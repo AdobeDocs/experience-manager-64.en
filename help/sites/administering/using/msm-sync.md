@@ -36,7 +36,7 @@ Each rollout configuration uses a rollout trigger that causes the rollout to occ
 
 >[!NOTE]
 >
->Use of the On Modification trigger can impact performance. See [MSM best practices](../../../sites/administering/using/msm-best-practices.md#onmodify) for more information.
+>Use of the On Modification trigger can impact performance. See [MSM best practices](/help/sites/administering/using/msm-best-practices.md#onmodify) for more information.
 
 ### Installed Rollout Configurations {#installed-rollout-configurations}
 
@@ -115,7 +115,7 @@ The following table lists the rollout configurations that are installed with AEM
 
 ### Installed Synchronization Actions {#installed-synchronization-actions}
 
-The following table lists the synchronization actions that are installed with AEM. If the installed actions do not meet your requirements, you can [Create a New Synchronization Action](../../../sites/developing/using/extending-msm.md#creating-a-new-synchronization-action).
+The following table lists the synchronization actions that are installed with AEM. If the installed actions do not meet your requirements, you can [Create a New Synchronization Action](/help/sites/developing/using/extending-msm.md#creating-a-new-synchronization-action).
 
 <table> 
  <tbody> 
@@ -246,10 +246,10 @@ The following table lists the synchronization actions that are installed with AE
 
 ### Creating a Rollout Configuration {#creating-a-rollout-configuration}
 
-You can [create a rollout configuration](../../../sites/developing/using/extending-msm.md#creating-a-new-rollout-configuration) when the installed rollout configurations do not meet your application requirements:
+You can [create a rollout configuration](/help/sites/developing/using/extending-msm.md#creating-a-new-rollout-configuration) when the installed rollout configurations do not meet your application requirements:
 
-* [Create the rollout configuration](../../../sites/developing/using/extending-msm.md#create-the-rollout-configuration).
-* [Add synchronization actions to the rollout configuration](../../../sites/developing/using/extending-msm.md#add-synchronization-actions-to-the-rollout-configuration).
+* [Create the rollout configuration](/help/sites/developing/using/extending-msm.md#create-the-rollout-configuration).
+* [Add synchronization actions to the rollout configuration](/help/sites/developing/using/extending-msm.md#add-synchronization-actions-to-the-rollout-configuration).
 
 The new rollout configuration is then available to you when setting rollout configurations on a blueprint or live copy page.
 
@@ -257,7 +257,7 @@ The new rollout configuration is then available to you when setting rollout conf
 
 You can configure several OSGi services that support corresponding synchronization actions so that they do not affect specific node types and properties. For example, many properties and subnodes related to the internal functioning of AEM should not be included in a live copy. Only the content that is relevent to the user of the page should be copied.
 
-When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 The following table lists the synchronization actions for which you can specify the nodes to exclude. The table provides the names of the services to configure using the Web Console and the PID for configuring using a repository node.
 
@@ -302,7 +302,7 @@ The following table describes the properties that you can configure:
 
 >[!NOTE]
 >
->In the touch-enabled UI see also [Configuring MSM Locks on Page Properties)](../../../sites/developing/using/extending-msm.md).
+>In the touch-enabled UI see also [Configuring MSM Locks on Page Properties)](/help/sites/developing/using/extending-msm.md).
 
 #### CQ MSM Content Update Action - Exclusions {#cq-msm-content-update-action-exclusions}
 
@@ -328,7 +328,7 @@ For example, if you want the page **Title** to be included in the changes consid
 
 You can configure several OSGi services that support corresponding synchronization actions related to updating references.
 
-When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 The following table lists the synchronization actions for which you can specify the reference update. The table provides the names of the services to configure using the Web Console and the PID for configuring using a repository node.
 
@@ -355,10 +355,10 @@ MSM enables you to specify sets of rollout configurations that are used generall
 
 The following list of locations where you can specify the rollout configurations to use describes how MSM determines which rollout configurations to use for a live copy:
 
-* ** [Live copy page properties](../../../sites/administering/using/msm-sync.md#setting-the-rollout-configurations-for-a-live-copy-page):** When a live copy page is configured to use one or more rollout configurations, MSM uses those rollout configurations.
-* ** [Blueprint page properties](../../../sites/administering/using/msm-sync.md#setting-the-rollout-configuration-for-a-blueprint-page):** When a live copy is based on a blueprint, and the live copy page is not configured with a rollout configuration, the rollout configuration that is associated with the blueprint source page is used.
+* ** [Live copy page properties](/help/sites/administering/using/msm-sync.md#setting-the-rollout-configurations-for-a-live-copy-page):** When a live copy page is configured to use one or more rollout configurations, MSM uses those rollout configurations.
+* ** [Blueprint page properties](/help/sites/administering/using/msm-sync.md#setting-the-rollout-configuration-for-a-blueprint-page):** When a live copy is based on a blueprint, and the live copy page is not configured with a rollout configuration, the rollout configuration that is associated with the blueprint source page is used.
 * **Live copy parent page properties:** When neither the live copy page nor the blueprint source page are configured with a rollout configuration, the rollout configuration that applies to the live copy page's parent page is used. 
-* ** [System default](../../../sites/administering/using/msm-sync.md#setting-the-system-default-rollout-configuration):** When the rollout configuration of the live copy's parent page cannot be determined, the system default rollout configuration is used.
+* ** [System default](/help/sites/administering/using/msm-sync.md#setting-the-system-default-rollout-configuration):** When the rollout configuration of the live copy's parent page cannot be determined, the system default rollout configuration is used.
 
 For example, a blueprint uses the We.Retail Reference Site as source content. A site is created from the blueprint. Each item in the following list describes a different scenario regarding the use of rollout configurations:
 
@@ -370,7 +370,7 @@ For example, a blueprint uses the We.Retail Reference Site as source content. A 
 
 Configure a live copy page with the rollout configurations to use when the source page is rolled out. Child pages inherit the configuration by default. When you configure the rollout configuration to use, you are overriding the configuration that the live copy page inherits from its parent.
 
-You can also configure the rollout configurations for a live copy page when you [create the live copy](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page).
+You can also configure the rollout configurations for a live copy page when you [create the live copy](/help/sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page).
 
 1. Use the **Sites** console to select the live copy page.  
 
@@ -410,7 +410,7 @@ Specify a rollout configuration to use as the sytem default. To specify the defa
 * **Day CQ WCM Live Relationship Manager** 
   the service PID is `com.day.cq.wcm.msm.impl.LiveRelationshipManagerImpl`
 
-Configure the service using either the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or a [repository node](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository).
+Configure the service using either the [Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or a [repository node](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository).
 
 * In the web console, the name of the property to configure is Default rollout config. 
 * Using a repository node, the name of the property to configure is `liverelationshipmgr.relationsconfig.default`.

@@ -15,23 +15,23 @@ discoiquuid: 5c0fec99-7b1e-45d6-a115-e498d288e9e1
 
 >[!NOTE]
 >
->This documentation describes how to integrate AEM with Adobe Campaign Standard, the subscription-based solution. If you are using Adobe Campaign 6.1, see [Integrating with Adobe Campaign 6.1](../../../sites/administering/using/campaignonpremise.md) for those instructions.
+>This documentation describes how to integrate AEM with Adobe Campaign Standard, the subscription-based solution. If you are using Adobe Campaign 6.1, see [Integrating with Adobe Campaign 6.1](/help/sites/administering/using/campaignonpremise.md) for those instructions.
 
 Adobe Campaign lets you manage email delivery content and forms directly in Adobe Experience Manager.
 
 To use both solutions together at the same, you must first configure them to connect to one another. This involves configuration steps in both Adobe Campaign and Adobe Experience Manager. These steps are described in detail in this document.
 
-Working with Adobe Campaign in AEM includes the ability to send email and forms via Adobe Campaign and is described at [Working with Adobe Campaign](../../../sites/authoring/using/campaign.md).
+Working with Adobe Campaign in AEM includes the ability to send email and forms via Adobe Campaign and is described at [Working with Adobe Campaign](/help/sites/authoring/using/campaign.md).
 
 In addition, the following topics may be of interest when integrating AEM with [Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/en/home.html):
 
-* [Best practices for email templates](../../../sites/administering/using/best-practices-for-email-templates.md)
-* [Troubleshooting your Adobe Campaign integration](../../../sites/administering/using/troubleshooting-campaignintegration.md)
+* [Best practices for email templates](/help/sites/administering/using/best-practices-for-email-templates.md)
+* [Troubleshooting your Adobe Campaign integration](/help/sites/administering/using/troubleshooting-campaignintegration.md)
 
 If you are extending your integration with Adobe Campaign, you may want to see the following pages:
 
-* [Creating Custom Extensions](../../../sites/developing/using/extending-campaign-extensions.md)
-* [Creating Custom Form Mappings](../../../sites/developing/using/extending-campaign-form-mapping.md)
+* [Creating Custom Extensions](/help/sites/developing/using/extending-campaign-extensions.md)
+* [Creating Custom Form Mappings](/help/sites/developing/using/extending-campaign-form-mapping.md)
 
 ## Configuring Adobe Campaign {#configuring-adobe-campaign}
 
@@ -50,8 +50,8 @@ Configuring Adobe Campaign involves the following:
 
 Make sure you have the following elements beforehand:
 
-* [An AEM authoring instance](../../../sites/deploying/using/deploy.md#getting-started)
-* [An AEM publishing instance](../../../sites/deploying/using/deploy.md#author-and-publish-installs)
+* [An AEM authoring instance](/help/sites/deploying/using/deploy.md#getting-started)
+* [An AEM publishing instance](/help/sites/deploying/using/deploy.md#author-and-publish-installs)
 * [An Adobe Campaign instance](https://docs.adobe.com/content/docs/en/campaign/ACS.html)
 
 >[!CAUTION]
@@ -179,7 +179,7 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 
    >[!NOTE]
    >
-   >After you [create your email and publish it](../../../sites/authoring/using/campaign.md), you need to re-publish the configuration onto your publish instance.
+   >After you [create your email and publish it](/help/sites/authoring/using/campaign.md), you need to re-publish the configuration onto your publish instance.
 
    ![](assets/chlimage_1-130.png)
 
@@ -188,14 +188,14 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 >If the connection fails, make sure you check the following:
 >
 >* You may encounter a certificate problem when using a secure connection to an Adobe Campaign instance (https). You will have to add the Adobe Campaign instance certificate to the **cacerts **file of your JDK.
->* In addition, see [Troubleshooting your AEM/Adobe Campaign Integration](../../../sites/administering/using/troubleshooting-campaignintegration.md).
+>* In addition, see [Troubleshooting your AEM/Adobe Campaign Integration](/help/sites/administering/using/troubleshooting-campaignintegration.md).
 >
 
 ### Configuring the externalizer {#configuring-the-externalizer}
 
-You need to [configure the externalizer](../../../sites/developing/using/externalizer.md) in AEM on your author instance. The Externalizer is an OSGi service that lets you transform a resource path into an external and absolute URL. This service provides a central place to configure those external URLs and build them.
+You need to [configure the externalizer](/help/sites/developing/using/externalizer.md) in AEM on your author instance. The Externalizer is an OSGi service that lets you transform a resource path into an external and absolute URL. This service provides a central place to configure those external URLs and build them.
 
-See [Configure the externalizer](../../../sites/developing/using/externalizer.md) for general instructions. For the Adobe Campaign integration, make sure you configure the publish server at `https://*<host>:<port>*/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl` not point to `localhost:4503` but to a server that is reachable by the Adobe Campaign console.
+See [Configure the externalizer](/help/sites/developing/using/externalizer.md) for general instructions. For the Adobe Campaign integration, make sure you configure the publish server at `https://*<host>:<port>*/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl` not point to `localhost:4503` but to a server that is reachable by the Adobe Campaign console.
 
 If it points to `localhost:4503` or another server that Adobe Campaign cannot reach, your images will not appear on the Adobe Campaign console.
 

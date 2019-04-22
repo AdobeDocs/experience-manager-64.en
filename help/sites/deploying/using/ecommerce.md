@@ -21,17 +21,17 @@ AEM generic eCommerce is available as part of a standard installation and provid
 
 ## Deploying Other Implementations {#deploying-other-implementations}
 
-* [hybris](../../../sites/deploying/using/hybris.md)
-* [Elastic Path](../../../sites/deploying/using/elasticpath.md)
-* [Intershop](../../../sites/deploying/using/intershop.md)
-* [IBM Websphere Commerce](../../../sites/deploying/using/ibm-websphere.md)
-* [Demandware](../../../sites/deploying/using/demandware.md)
-* [Magento](../../../sites/deploying/using/magento.md)
-* [Digital River](../../../sites/deploying/using/digital-river.md)
+* [hybris](/help/sites/deploying/using/hybris.md)
+* [Elastic Path](/help/sites/deploying/using/elasticpath.md)
+* [Intershop](/help/sites/deploying/using/intershop.md)
+* [IBM Websphere Commerce](/help/sites/deploying/using/ibm-websphere.md)
+* [Demandware](/help/sites/deploying/using/demandware.md)
+* [Magento](/help/sites/deploying/using/magento.md)
+* [Digital River](/help/sites/deploying/using/digital-river.md)
 
 >[!NOTE]
 >
->For information about concepts and administering eCommerce implementations, see [Administering eCommerce](../../../sites/administering/using/ecommerce.md).
+>For information about concepts and administering eCommerce implementations, see [Administering eCommerce](/help/sites/administering/using/ecommerce.md).
 >
->For information about extending eCommerce capabilities, see [Developing eCommerce](../../../sites/developing/using/ecommerce.md).
+>For information about extending eCommerce capabilities, see [Developing eCommerce](/help/sites/developing/using/ecommerce.md).
 

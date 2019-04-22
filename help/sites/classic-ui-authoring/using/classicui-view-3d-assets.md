@@ -19,7 +19,7 @@ The interactive 3D viewer is available from the asset details page in AEM. The v
 
 Besides using the default stages in AEM 3D, you can also use stages that you have created in a third-party application and uploaded into AEM.
 
-See [About the use of stages in AEM 3D](../../../sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
+See [About the use of stages in AEM 3D](/help/sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ In addition, the capabilities of the client computer-such as a workstation, note
 To view 3D assets:
 
 1. Make sure you have uploaded 3D assets into AEM.  
-   See [About the uploading and processing of 3D assets in AEM](../../../sites/classic-ui-authoring/using/classicui-upload-proc-3d.md).
+   See [About the uploading and processing of 3D assets in AEM](/help/sites/classic-ui-authoring/using/classicui-upload-proc-3d.md).
 1. From **Adobe Experience Manager**, on the **Navigation** page, tap **Assets**.
 1. Near the upper-right corner of the page, from the View drop-down list, tap **Card View**.
 
@@ -94,20 +94,20 @@ To view 3D assets:
    ![](do-not-localize/chlimage_1-2.png)
 
    Stages provide the environment-background, ground plane, and lighting-in which the 3D model is viewed.  
-   See [About the use of stages in AEM 3D](../../../sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
+   See [About the use of stages in AEM 3D](/help/sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
 
     * Near the upper-right corner of the asset details page, tap the Camera Selector icon, then select a camera view that you want to apply to the 3D asset.
 
    ![](do-not-localize/chlimage_1-3.png)
 
    Stages often provide pre-defined cameras. You can re-select the current camera to restore it to its pre-defined settings.  
-   See [About the use of stages in AEM 3D](../../../sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
+   See [About the use of stages in AEM 3D](/help/sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
 
 1. In the upper-right corner of the page, tap **Save**.
 1. Do one of the following:
 
     * Render the 3D asset.  
-      See [Rendering 3D assets](../../../sites/classic-ui-authoring/using/classicui-rendering-3d.md).
+      See [Rendering 3D assets](/help/sites/classic-ui-authoring/using/classicui-rendering-3d.md).
     
     * In the upper-right corner of the page, tap **Close **to return to the Assets page.
 

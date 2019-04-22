@@ -14,9 +14,9 @@ discoiquuid: f5d6d9bd-4f36-4a4f-8008-15fb853a9219
 
 Perform the following steps in the recommended sequence to build the Android app for AEM Forms.
 
-1. [Download the AEM Forms App Source Code Package](../../forms/using/setup-eclipse-project-build-installer.md#main-pars-header-277929160)
-1. [Set the environment variables](../../forms/using/setup-eclipse-project-build-installer.md#main-pars-header-111803610)
-1. [Build standard AEM Forms app](../../forms/using/setup-eclipse-project-build-installer.md#main-pars-heading-0)
+1. [Download the AEM Forms App Source Code Package](/help/forms/using/setup-eclipse-project-build-installer.md#main-pars-header-277929160)
+1. [Set the environment variables](/help/forms/using/setup-eclipse-project-build-installer.md#main-pars-header-111803610)
+1. [Build standard AEM Forms app](/help/forms/using/setup-eclipse-project-build-installer.md#main-pars-heading-0)
 
 ## Download the AEM Forms App Source Code Package {#download-android-zip}
 
@@ -46,8 +46,8 @@ Set the following environment variables before starting the build process for th
 
 Once you have saved the adobe-lc-mobileworkspace-src-&lt;version&gt;.zip file on the local file system and set the environment variables, build standard AEM Forms Android app using any of the following options:
 
-* [Build AEM Forms app using Android Studio](../../forms/using/setup-eclipse-project-build-installer.md#main-pars-header-1347434739)
-* [Generate .apk file using Android Studio](../../forms/using/setup-eclipse-project-build-installer.md#main-pars-header-0)
+* [Build AEM Forms app using Android Studio](/help/forms/using/setup-eclipse-project-build-installer.md#main-pars-header-1347434739)
+* [Generate .apk file using Android Studio](/help/forms/using/setup-eclipse-project-build-installer.md#main-pars-header-0)
 
 ### Build AEM Forms app using Android Studio {#using-android-studio}
 
@@ -64,9 +64,9 @@ Perform the following steps to build AEM Forms app using Android Studio:
 1. Select the Android device from the Connected Devices section on the Select Deployment Target dialog box and click OK.  
    Once you have built the development environment successfully, you can now apply customizations on the app. Use the following articles to customize the app:
 
-    * [Branding Customization](../../forms/using/branding-customization.md)
-    * [Theme Customization](../../forms/using/theme-customization.md)
-    * [Gesture Customization](../../forms/using/gesture-customization.md)
+    * [Branding Customization](/help/forms/using/branding-customization.md)
+    * [Theme Customization](/help/forms/using/theme-customization.md)
+    * [Gesture Customization](/help/forms/using/gesture-customization.md)
 
    After applying appropriate customizations to your app, you can generate the .apk file for distribution.
 

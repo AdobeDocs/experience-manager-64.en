@@ -18,13 +18,13 @@ The AEM interface displays the options, such as to create or edit an asset type,
 
 Although CRX allows you to configure the access rights for both user and groups accounts, this article is about role or user group based access rights.
 
-For more information on groups, permissions, access control lists, and managing users and groups, see [User Administration and Security](../../sites/administering/using/security.md).
+For more information on groups, permissions, access control lists, and managing users and groups, see [User Administration and Security](/help/sites/administering/using/security.md).
 
 ## Managing Permissions {#managing-permissions}
 
 1. Ensure that the user for which you want to manage the permissions is added to the relevant user group.
 
-   For example, the user John Doe is added to the groups `agents` and `cm-creditcard`. For more information, see Adding Users or Groups to a Group. For more information, see [Managing Users and User Groups](../../communities/using/users.md).
+   For example, the user John Doe is added to the groups `agents` and `cm-creditcard`. For more information, see Adding Users or Groups to a Group. For more information, see [Managing Users and User Groups](/help/communities/using/users.md).
 
    ![]()
 

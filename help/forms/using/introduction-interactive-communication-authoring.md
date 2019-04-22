@@ -14,12 +14,12 @@ discoiquuid: 565bfb42-6099-49f4-83ba-b1f0c129aab7
 
 An introduction to the various user interface elements you can use to author Interactive Communication
 
-The user interface for authoring [Interactive Communication](../../forms/using/interactive-communications-overview.md) is intuitive and provides the following for authoring print and web channel of the Interactive Communication:
+The user interface for authoring [Interactive Communication](/help/forms/using/interactive-communications-overview.md) is intuitive and provides the following for authoring print and web channel of the Interactive Communication:
 
 * WYSIWYG drag-and-drop document editor
 * Integrated repository for assets - the assets uploaded to and created on the server are available in the Asset browser of Interactive Communication authoring interface
 
-When you [create a new or edit an existing Interactive Communication](../../forms/using/create-interactive-communication.md), you use the following user interface elements:
+When you [create a new or edit an existing Interactive Communication](/help/forms/using/create-interactive-communication.md), you use the following user interface elements:
 
 * [Sidebar](#sidebar)
 * [Page toolbar](#page-toolbar)  

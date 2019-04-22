@@ -14,7 +14,7 @@ discoiquuid: 102718cb-592a-4a5c-89a6-ad4d56f3d547
 
 ## Prerequisite {#prerequisite}
 
-Knowledge of layouts, which enables you to create/use a custom layout. See [Changing Panel Layout](../../forms/using/layout-capabilities-adaptive-forms.md).
+Knowledge of layouts, which enables you to create/use a custom layout. See [Changing Panel Layout](/help/forms/using/layout-capabilities-adaptive-forms.md).
 
 ## Adaptive Form Panel Layout component {#adaptive-form-panel-layout-component}
 

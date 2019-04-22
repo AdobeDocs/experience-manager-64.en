@@ -15,7 +15,7 @@ discoiquuid: c8672774-6911-497d-837b-1e5953c4226a
 
 After preparing content for translation, you need to complete the language structure by creating missing language copies, and create translation projects.
 
-Translation projects enable you to manage the translation of AEM content. A translation project is a type of AEM [project](../../../sites/authoring/using/projects.md) that contains resources that are to be translated into other languages. These resources are the pages and assets of the [language copies](../../../sites/administering/using/tc-prep.md) that are created from the language master.
+Translation projects enable you to manage the translation of AEM content. A translation project is a type of AEM [project](/help/sites/authoring/using/projects.md) that contains resources that are to be translated into other languages. These resources are the pages and assets of the [language copies](/help/sites/administering/using/tc-prep.md) that are created from the language master.
 
 When resources are added to a translation project, a translation job is created for them. Jobs provide commands and status information that you use to manage the human translation and machine translation workflows that execute on the resources.
 
@@ -85,7 +85,7 @@ After translating, you can [review the translation](#reviewing-and-promoting-upd
 1. Select Language Copies, and then select the language copies for which you are translating the source pages.
 1. Click or tap Create & Translate and then configure the translation job:
 
-    * Use the Languages drop-down to select a language copy for which you want to translate. Select additional languages as required. Languages that appear in the list correspond with the [language roots that you have created](../../../sites/administering/using/tc-prep.md#creating-a-language-root).
+    * Use the Languages drop-down to select a language copy for which you want to translate. Select additional languages as required. Languages that appear in the list correspond with the [language roots that you have created](/help/sites/administering/using/tc-prep.md#creating-a-language-root).
     * To translate the page that you selected and all child pages, select Select All Sub-Pages. To translate only the selected page that you selected, clear the option. 
     * For Project, select Create New Translation Project.
     * Type a name for the project.
@@ -193,7 +193,7 @@ Your dictionary is now in your translation job.
 
 >[!NOTE]
 >
->For more information about i18n dictionaries, read [Using Translator to Manage Dictionaries](../../../sites/developing/using/i18n-translator.md).
+>For more information about i18n dictionaries, read [Using Translator to Manage Dictionaries](/help/sites/developing/using/i18n-translator.md).
 
 ## Adding Tags to a Translation Job {#adding-tags-to-a-translation-job}
 
@@ -217,7 +217,7 @@ Your tags are now added in your translation job.
 
 ## Seeing Translation Project Details {#seeing-translation-project-details}
 
-The Translation Summary tile contains the properties that are configured for a translation project. In addition to the generic [project information](../../../sites/authoring/using/projects.md#project-info), the Translation tab contains translation-specific properties:
+The Translation Summary tile contains the properties that are configured for a translation project. In addition to the generic [project information](/help/sites/authoring/using/projects.md#project-info), the Translation tab contains translation-specific properties:
 
 * Source Language: The language of the pages that are being translated.
 * Target Language: The language into which the pages are being translated.
@@ -366,7 +366,7 @@ When content is translated for an existing language copy, review the translation
 To compare Language Copies to the language Master:
 
 1. In the **Sites** console, navigate to the language copy you want to compare.
-1. Open the ** [References](../../../sites/authoring/using/basic-handling.md#references)** panel.
+1. Open the ** [References](/help/sites/authoring/using/basic-handling.md#references)** panel.
 1. Under the **Copies** heading select **Language Copies.**
 1. Select your specific language copy and then you can either click **Compare to Master **or **Compare to Previous **if applicable.
 
@@ -374,7 +374,7 @@ To compare Language Copies to the language Master:
 
 1. The two pages (launch and source) will be opened side-by-side.
 
-   For full information about using this feature see [Page Diff](../../../sites/authoring/using/page-diff.md).
+   For full information about using this feature see [Page Diff](/help/sites/authoring/using/page-diff.md).
 
 ## Completing and Archiving Translation Jobs {#completing-and-archiving-translation-jobs}
 
@@ -388,7 +388,7 @@ Archive a translation job after it is complete and you no longer need to see job
 
 ## Creating the Structure of a Language Copy {#creating-the-structure-of-a-language-copy}
 
-Populate your language copy so that it contains content from the master language that you are translating. Before you populate your language copy, you must have [created the language root](../../../sites/administering/using/tc-prep.md#creating-a-language-root) of the language copy.
+Populate your language copy so that it contains content from the master language that you are translating. Before you populate your language copy, you must have [created the language root](/help/sites/administering/using/tc-prep.md#creating-a-language-root) of the language copy.
 
 1. Use the Sites console to select the language root of the master language that you are using as the source. For example, to translate the English pages of the Geometrixx Demo Site, select Content &gt; Geometrixx Demo Site &gt; English.
 1. On the toolbar, click or tap References.
@@ -412,7 +412,7 @@ Populate your language copy so that it contains content from the master language
 
 You can manually create a translation project if you prefer to use the Projects console.
 
-When you manually create a translation project, you must provide values for the following translation-related properties in addition to the [basic properties](../../../sites/authoring/using/touch-ui-managing-projects.md#creating-a-project):
+When you manually create a translation project, you must provide values for the following translation-related properties in addition to the [basic properties](/help/sites/authoring/using/touch-ui-managing-projects.md#creating-a-project):
 
 * **Name:** Project name.
 * **Source Language:** The language of the source content.

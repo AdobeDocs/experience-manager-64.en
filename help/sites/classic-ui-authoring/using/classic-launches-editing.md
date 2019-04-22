@@ -46,7 +46,7 @@ After you create a launch you can change the launch name and the date of the lau
         
         * **Production Ready**
 
-      See [Launches - the Order of Events](../../../sites/authoring/using/launches.md#launches-the-order-of-events) for information about the purpose and interaction of these fields.
+      See [Launches - the Order of Events](/help/sites/authoring/using/launches.md#launches-the-order-of-events) for information about the purpose and interaction of these fields.
     
     * In the **Image** tab, you can upload an image file.
 

@@ -19,7 +19,7 @@ When AEM Communities uses JSRP as its storage option (the default), community co
 
 Because of the simplicity of deployment, JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance.
 
-See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](../../communities/using/topologies.md).
+See also [Characteristics of SRP Options](/help/communities/using/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](/help/communities/using/topologies.md).
 
 ## Configuration {#configuration}
 
@@ -27,7 +27,7 @@ See also [Characteristics of SRP Options](../../communities/using/working-with-s
 
 By default, JSRP is the storage option for UGC.
 
-The [Storage Configuration console](../../communities/using/srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
+The [Storage Configuration console](/help/communities/using/srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
 
 In the author environment, to reach the Storage Configuration console
 
@@ -56,8 +56,8 @@ While JSRP is the default configuration, to ensure the identical configuration i
 
 For information regarding *users*, *user profiles* and *user groups*, often entered in the publish environment, visit
 
-* [User Synchronization](../../communities/using/sync.md)
-* [Managing Users and User Groups](../../communities/using/users.md)
+* [User Synchronization](/help/communities/using/sync.md)
+* [Managing Users and User Groups](/help/communities/using/users.md)
 
 ## Troubleshooting {#troubleshooting}
 

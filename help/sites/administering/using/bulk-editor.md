@@ -24,11 +24,11 @@ The Bulk Editor allows for very efficient editing when the visual page context i
 >
 >You can also import content into the repository, but by default this is disabled for the Bulk Editor as available in the **Tools** console.
 
-This section describes how to work with the bulk editor in the **Tools** console. Typically, administrators use the bulk editor to search and edit multiple items. This is done by populating the table using a GQL query and then by selecting the content items to work on. Authors generally use the bulk editor as part of a customized bulk editor application accessible through the [product listing](../../../sites/authoring/using/default-components.md) component.
+This section describes how to work with the bulk editor in the **Tools** console. Typically, administrators use the bulk editor to search and edit multiple items. This is done by populating the table using a GQL query and then by selecting the content items to work on. Authors generally use the bulk editor as part of a customized bulk editor application accessible through the [product listing](/help/sites/authoring/using/default-components.md) component.
 
 >[!CAUTION]
 >
->With the [deprecation of the Classic UI](../../../release-notes/deprecated-removed-features.md) in AEM 6.4, the Bulk Editor has also been deprecated and thus Adobe does not plan to further enhance the Bulk Editor.
+>With the [deprecation of the Classic UI](/help/release-notes/deprecated-removed-features.md) in AEM 6.4, the Bulk Editor has also been deprecated and thus Adobe does not plan to further enhance the Bulk Editor.
 
 ## Example Use Case for the Bulk Editor {#example-use-case-for-the-bulk-editor}
 

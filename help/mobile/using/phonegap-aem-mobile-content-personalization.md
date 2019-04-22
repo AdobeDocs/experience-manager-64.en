@@ -15,11 +15,11 @@ discoiquuid: c9c818dc-c5c4-4a96-94fe-9dc9fe75705b
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 >[!NOTE]
 >
->This document is part of the [Getting Started with AEM Mobile](../../mobile/using/getting-started-aem-mobile.md) Guide, a recommended starting point for AEM Mobile reference.
+>This document is part of the [Getting Started with AEM Mobile](/help/mobile/using/getting-started-aem-mobile.md) Guide, a recommended starting point for AEM Mobile reference.
 
 The AEM Mobile content personalization feature allows [AEM Authors](#author) to personalize mobile app content by leveraging [Adobe Target](https://www.adobe.com/ca/marketing-cloud/testing-targeting.html). This allows the delivery of targeted offers to mobile application users. Adobe Experience Manager Mobile provides the ability to create, target, and deliver content that will provide the user with content that is specific for their own individual tastes.
 
@@ -37,7 +37,7 @@ This article will guide you through the process used to configure the [AEM Mobil
 
 The assumption going forward is that the AEM Mobile Hybrid Reference Application has been successfully deployed and accessible via the AEM Mobile Dashboard.
 
-Before authors can generate targeted content within an applications, your AEM instance needs to be [configured with the Adobe Target Cloud Service.](../../mobile/using/aem-mobile-configuring-cloud-service.md)
+Before authors can generate targeted content within an applications, your AEM instance needs to be [configured with the Adobe Target Cloud Service.](/help/mobile/using/aem-mobile-configuring-cloud-service.md)
 
 ### Permissions {#permissions}
 
@@ -107,7 +107,7 @@ Once the Administrator has configured the two cloud services and the developer h
 
 Authoring targeted content within an AEM Mobile app follows a similar procedure to authoring AEM Sites:
 
-See here for a complete overview on [Authoring targeted content in AEM](../../sites/authoring/using/personalization.md)
+See here for a complete overview on [Authoring targeted content in AEM](/help/sites/authoring/using/personalization.md)
 
 ## For Developers {#for-developers}
 
@@ -279,7 +279,7 @@ For each mbox an attribute of **cq-targeting** is added allowing application dev
 1. [Manage my app's content](/content/docs/en/aem/6-3/develop/mobile-apps/manage-my-apps-content.md)
 1. [Build my application](/content/docs/en/aem/6-3/author/authoring-mobile-apps/build-app-through-adobe-phonegap-build-cloud-service.md)
 1. [Track my app's performance with Adobe Mobile Analytics](/content/docs/en/aem/6-3/develop/mobile-apps/apps/intro-to-app-analytics.md)
-1. [Deliver a personalized app experience with Adobe Target](../../mobile/using/phonegap-aem-mobile-content-personalization.md)
+1. [Deliver a personalized app experience with Adobe Target](/help/mobile/using/phonegap-aem-mobile-content-personalization.md)
 
 **[Send important messages to my users](/content/docs/en/aem/6-3/develop/mobile-apps/apps/push-notifications.md) {#send-important-messages-to-my-users}**
 

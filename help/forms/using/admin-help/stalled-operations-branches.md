@@ -77,4 +77,4 @@ When this situation occurs, the state of the process and task does not change at
 
 If the escalation user is deleted before the task is generated (before the Assign Task operation executes), the process stalls or the InvalidPrincipal exception event is thrown.
 
-To prevent this problem, when you delete a user, search for tasks belonging to that user and deal with them accordingly. (See [Working with tasks](../../../forms/using/admin-help/tasks.md#working-with-tasks).)
+To prevent this problem, when you delete a user, search for tasks belonging to that user and deal with them accordingly. (See [Working with tasks](/help/forms/using/admin-help/tasks.md#working-with-tasks).)

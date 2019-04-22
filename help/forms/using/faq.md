@@ -19,7 +19,7 @@ There are some frequently asked questions (FAQ) about layout, scripting support,
 
 1. Why do barcodes and signature field in not appear in my form?
 
-   Answer: Barcodes and signatures fields are not relevant in HTML or mobile scenarios. These fields appear as a non-interactive area. However, AEM Forms Designer provides a new signature scribble field that can be used instead of signature field. One can also add a [custom widget](../../forms/using/custom-widgets.md) for barcodes and integrate it.
+   Answer: Barcodes and signatures fields are not relevant in HTML or mobile scenarios. These fields appear as a non-interactive area. However, AEM Forms Designer provides a new signature scribble field that can be used instead of signature field. One can also add a [custom widget](/help/forms/using/custom-widgets.md) for barcodes and integrate it.
 
 1. Is Rich Text supported for the XFA Text Field?
 
@@ -162,18 +162,18 @@ There are some frequently asked questions (FAQ) about layout, scripting support,
 
    Answer:
 
-    * There is limited support for xfa.connectionSet script. For connectionSet, only server-side invocation of web service is supported. For detailed information, see [Scripting Support](../../forms/using/scripting-support.md).
+    * There is limited support for xfa.connectionSet script. For connectionSet, only server-side invocation of web service is supported. For detailed information, see [Scripting Support](/help/forms/using/scripting-support.md).
     * There is no support for $record and $data in client side scripts. However, if the scripts are written in a formReady, layoutReady block, the scripts still work because these events run on the server side.
     * XFA Draw element-specific scripts such as changing the Draw text (or Caption text in case of fields) are not supported.
 
 1. Are there any limitations in using formCalc?
 
-   Answer: Only a subset of the formCalc scripts is currently implemented. For detailed information, see [Scripting Support](../../forms/using/scripting-support.md).
+   Answer: Only a subset of the formCalc scripts is currently implemented. For detailed information, see [Scripting Support](/help/forms/using/scripting-support.md).
 
 1. Is there any recommended naming convention and are there any reserved keywords to avoid?
 
     * In AEM Forms Designer, it is recommended not to begin the name of an object (such as a subform or a text field) with an underscore (_). To use underscore at the beginning of the name, add a prefix after the underscore, *_&lt;prefix&gt;&lt;objectname&gt;. *
-    * All HTML5 forms APIs are reserved keywords. For custom APIs/functions, use a name that is not identical to [HTML5 forms APIs](../../forms/using/scripting-support.md).
+    * All HTML5 forms APIs are reserved keywords. For custom APIs/functions, use a name that is not identical to [HTML5 forms APIs](/help/forms/using/scripting-support.md).
 
 1. Do HTML5 forms support floating fields?
 
@@ -199,6 +199,6 @@ There are some frequently asked questions (FAQ) about layout, scripting support,
 
 1. Are there any reserved keywords in HTML5 forms?
 
-   Answer: All HTML5 forms APIs are reserved keywords. For custom APIs/functions, use a name that is not identical to [HTML5 forms APIs](../../forms/using/scripting-support.md). Apart from reserved keywords, if you use object names that begin with an underscore (_), it is recommended to add a unique prefix after the underscore. Adding a prefix helps avoid any possible conflict with HTML5 forms internal APIs. For example, `_fpField1`
+   Answer: All HTML5 forms APIs are reserved keywords. For custom APIs/functions, use a name that is not identical to [HTML5 forms APIs](/help/forms/using/scripting-support.md). Apart from reserved keywords, if you use object names that begin with an underscore (_), it is recommended to add a unique prefix after the underscore. Adding a prefix helps avoid any possible conflict with HTML5 forms internal APIs. For example, `_fpField1`
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

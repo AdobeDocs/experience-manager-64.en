@@ -12,7 +12,7 @@ discoiquuid: e0608649-bd49-4f40-bc1b-821c9b208883
 
 # Integrating Form Bridge with custom portal for HTML5 forms{#integrating-form-bridge-with-custom-portal-for-html-forms}
 
-FormBridge is a HTML5 forms bridge API that allows you to interact with a form. For the FormBridge API reference, see [FormBridge API reference](../../forms/using/form-bridge-apis.md).
+FormBridge is a HTML5 forms bridge API that allows you to interact with a form. For the FormBridge API reference, see [FormBridge API reference](/help/forms/using/form-bridge-apis.md).
 
 You can use the FormBridge API to get or set the values of form fields from the HTML page and submit the form. For example, you can use API to build a wizard-like experience.
 
@@ -27,7 +27,7 @@ An existing HTML application can leverage the FormBridge API to interact with a 
     1. Log in with administrator credentials.
     1. Create a profile or choose an existing profile.
 
-       For details on how to create a profile, see [Creating a new Profile](../../forms/using/custom-profile.md).
+       For details on how to create a profile, see [Creating a new Profile](/help/forms/using/custom-profile.md).
 
 1. **Modify the HTML Profile**
 

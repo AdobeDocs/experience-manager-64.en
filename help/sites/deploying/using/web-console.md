@@ -39,7 +39,7 @@ The **Configuration** tab is used for configuring the OSGi bundles, and is there
 
 >[!NOTE]
 >
->See [OSGi Configuration with the Web Console](../../../sites/deploying/using/configuring-osgi.md) for further details.
+>See [OSGi Configuration with the Web Console](/help/sites/deploying/using/configuring-osgi.md) for further details.
 
 The **Configuration** tab can be accessed by either:
 

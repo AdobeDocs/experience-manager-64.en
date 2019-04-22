@@ -14,7 +14,7 @@ discoiquuid: 25a6d702-9995-4c63-99d8-3e5d710bb0c4
 
 ## Pre-requisite {#pre-requisite}
 
-Set up your We.Gov reference site as described in the [Set up and configure AEM Forms reference sites](../../forms/using/setup-reference-sites.md).
+Set up your We.Gov reference site as described in the [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).
 
 ## Reference site scenario {#reference-site-scenario}
 
@@ -206,7 +206,7 @@ When Sarah fills and submits the child support application, a PDF or Document of
 
 ### See it yourself {#see-it-yourself-2}
 
-Open page `https://<***hostname***>:<*PublishP****ort***>/content/we-gov/en.html.`On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using grios/password as the username/password for Gloria Rios. The child support application appears. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+Open page `https://<***hostname***>:<*PublishP****ort***>/content/we-gov/en.html.`On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using grios/password as the username/password for Gloria Rios. The child support application appears. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](/help/forms/using/manage-applications-inbox.md).
 
 ![Gloria's inbox in We.Gov refsite](assets/gloria-inbox.png)
 
@@ -325,11 +325,11 @@ We.Gov, from time to time, reviews the performance of their child support servic
 
 ### How it works {#how-it-works-7}
 
-The performance metrics for the child support services application form are tracked using Adobe Analytics. For more information about configuring Adobe Analytics and viewing reports, see [Configuring analytics for forms and documents](../../forms/using/configure-analytics-forms-documents.md).
+The performance metrics for the child support services application form are tracked using Adobe Analytics. For more information about configuring Adobe Analytics and viewing reports, see [Configuring analytics for forms and documents](/help/forms/using/configure-analytics-forms-documents.md).
 
 ### See it yourself {#see-it-yourself-7}
 
-For you to view and explore the analytics report, we are providing seed data for the child support services application in the reference site. Before you use seed data, see [Configure Analytics](../../forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
+For you to view and explore the analytics report, we are providing seed data for the child support services application in the reference site. Before you use seed data, see [Configure Analytics](/help/forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
 
 1. Go to **Forms & Documents** UI at https://&lt;*hostname*&gt;:&lt;*AuthorPort*&gt;/aem/forms.html/content/dam/formsanddocuments.
 

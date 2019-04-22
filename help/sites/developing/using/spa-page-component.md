@@ -21,7 +21,7 @@ The page component for an SPA doesn't provide the HTML elements of its child com
 
 ## Page Model Management {#page-model-management}
 
-The resolution and the management of the page model is delegated to a provided [ `PageModelManager`](../../../sites/developing/using/spa-blueprint.md#pagemodelmanager) module. The SPA must interact with the `PageModelManager` module when it initializes to fetch the initial page model and register for model updates - mostly produced when the author is editing the page via the Page Editor. The `PageModelManager` is accessible by SPA project as a npm package. Being an interpreter between AEM and the SPA, the `PageModelManager` is meant to accompany the SPA.
+The resolution and the management of the page model is delegated to a provided [ `PageModelManager`](/help/sites/developing/using/spa-blueprint.md#pagemodelmanager) module. The SPA must interact with the `PageModelManager` module when it initializes to fetch the initial page model and register for model updates - mostly produced when the author is editing the page via the Page Editor. The `PageModelManager` is accessible by SPA project as a npm package. Being an interpreter between AEM and the SPA, the `PageModelManager` is meant to accompany the SPA.
 
 To allow the page to be authored, a client library named `cq.authoring.pagemodel.messaging` must be added to provide a communication channel between the SPA and the page editor. If the SPA page component inherits from the page wcm/core component then there are the following options to make the `cq.authoring.pagemodel.messaging` client library category available:
 
@@ -72,11 +72,11 @@ The meta resource properties that describe the SPA content:
 ## Meta Properties {#meta-properties}
 
 * `cq:wcmmode`: WCM mode of the editors (e.g. page, template)
-* `cq:pagemodel_root_url`: URL of the root model of the App. Crucial when directly accessing a child page since the child page model is a fragment of the app root model. The ` [PageModelManager](../../../sites/developing/using/spa-page-component.md)` then systematically recomposes the application initial model as entering the application from its root entry point.
+* `cq:pagemodel_root_url`: URL of the root model of the App. Crucial when directly accessing a child page since the child page model is a fragment of the app root model. The ` [PageModelManager](/help/sites/developing/using/spa-page-component.md)` then systematically recomposes the application initial model as entering the application from its root entry point.
 
-* `cq:pagemodel_router`: Enable or disable the ` [ModelRouter](../../../sites/developing/using/spa-routing.md)` of the `PageModelManager` library
+* `cq:pagemodel_router`: Enable or disable the ` [ModelRouter](/help/sites/developing/using/spa-routing.md)` of the `PageModelManager` library
 
-* `cq:pagemodel_route_filters`: Comma separated list or regular expressions to provide routes the ` [ModelRouter](../../../sites/developing/using/spa-routing.md)` must ignore.
+* `cq:pagemodel_route_filters`: Comma separated list or regular expressions to provide routes the ` [ModelRouter](/help/sites/developing/using/spa-routing.md)` must ignore.
 
 ## Page Editor Overlay Synchronization {#page-editor-overlay-synchronization}
 

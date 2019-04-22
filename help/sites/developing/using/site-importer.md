@@ -13,4 +13,4 @@ discoiquuid: a287293e-fbdf-4ba4-abd6-ac61fa07448a
 
 # Site Importer{#site-importer}
 
-The Site Importer has been removed in AEM 6.3. It is available on Package Share when downloading the geometrixx sample pack. See the [AEM 6.2 documentation](../../../sites/developing/using/site-importer.md) for information on using this feature.
+The Site Importer has been removed in AEM 6.3. It is available on Package Share when downloading the geometrixx sample pack. See the [AEM 6.2 documentation](/help/sites/developing/using/site-importer.md) for information on using this feature.

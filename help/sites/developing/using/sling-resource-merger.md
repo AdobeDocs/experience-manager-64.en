@@ -17,7 +17,7 @@ discoiquuid: ec712ba0-0fd6-4bb8-93d6-07d09127df58
 
 The Sling Resource Merger provides services to access and merge resources. It provides diff (differencing) mechanisms for both:
 
-* ** [Overlays](../../../sites/developing/using/overlays.md)** of resources using the [configured search paths](../../../sites/developing/using/overlays.md#configuring-the-search-paths).
+* ** [Overlays](/help/sites/developing/using/overlays.md)** of resources using the [configured search paths](/help/sites/developing/using/overlays.md#configuring-the-search-paths).
 
 * **Overrides** of component dialogs for the touch-enabled UI ( `cq:dialog`), using the resource type hierarchy (by means of the property `sling:resourceSuperType`).
 
@@ -246,10 +246,10 @@ Some examples are covered:
 
 * Overlay:
 
-    * [Customizing the Consoles](../../../sites/developing/using/customizing-consoles-touch.md)
-    * [Customizing Page Authoring](../../../sites/developing/using/customizing-page-authoring-touch.md)
+    * [Customizing the Consoles](/help/sites/developing/using/customizing-consoles-touch.md)
+    * [Customizing Page Authoring](/help/sites/developing/using/customizing-page-authoring-touch.md)
 
 * Override:
 
-    * [Configuring your Page Properties](../../../sites/developing/using/page-properties-views.md#configuring-your-page-properties)
+    * [Configuring your Page Properties](/help/sites/developing/using/page-properties-views.md#configuring-your-page-properties)
 

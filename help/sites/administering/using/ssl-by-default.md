@@ -35,7 +35,7 @@ A service user called **ssl-service **has been created for this feature. Once yo
 
    >[!NOTE]
    >
-   >For info on how to generate a private key and a certificate to use with the wizard, see [this procedure](../../../sites/administering/using/ssl-by-default.md#generating-a-private-key-certificate-pair-to-use-with-the-wizard) below.
+   >For info on how to generate a private key and a certificate to use with the wizard, see [this procedure](/help/sites/administering/using/ssl-by-default.md#generating-a-private-key-certificate-pair-to-use-with-the-wizard) below.
 
 1. Lastly, specify the HTTPS hostname and the TCP port for the HTTPS listener.
 

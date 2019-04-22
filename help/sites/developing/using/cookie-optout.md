@@ -24,7 +24,7 @@ Use this feature to make sure that your pages comply with your users' consent re
 
 Configure the Adobe Granite Opt-Out Service to specify how cookies are used on your web pages. The following table describes the properties that you can configure.
 
-To configure the service, you can use the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or [add an OSGi configuration to the repository](../../../sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository). The following table desribes the properties that you need for either method. For an OSGi configuration, the service PID is `com.adobe.granite.optout`.
+To configure the service, you can use the [Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or [add an OSGi configuration to the repository](/help/sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository). The following table desribes the properties that you need for either method. For an OSGi configuration, the service PID is `com.adobe.granite.optout`.
 
 | Property Name (Web Console) |OSGi Property Name |Description |
 |---|---|---|
@@ -41,7 +41,7 @@ Use client-side javascript to call Adobe Granite Opt-Out Service to verify that 
 * Determine whether the web browser contains a cookie that indicates the user does not consent to the use of cookies for tracking.
 * Determine whether a specific cookie can be used.
 
-The granite.utils [client library folder](../../../sites/developing/using/clientlibs.md#referencing-client-side-libraries) provides the Granite.OptOutUtil object. Add the following code to your page head JSP to include a link to the javascript library:
+The granite.utils [client library folder](/help/sites/developing/using/clientlibs.md#referencing-client-side-libraries) provides the Granite.OptOutUtil object. Add the following code to your page head JSP to include a link to the javascript library:
 
 `<ui:includeClientLib categories="granite.utils" />`
 

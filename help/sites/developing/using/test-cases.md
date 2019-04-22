@@ -48,7 +48,7 @@ When testing CQ5 a few specific details are of particular interest:
 
 Author and Publish Environments
 
-Although, covered in [CQ Environments](../../../sites/developing/using/the-basics.md#environments) it is worth highlighting a deciding factor of CQ5 with regard to testing.
+Although, covered in [CQ Environments](/help/sites/developing/using/the-basics.md#environments) it is worth highlighting a deciding factor of CQ5 with regard to testing.
 
 You must consider CQ5 as two applications:
 

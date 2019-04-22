@@ -37,7 +37,7 @@ The default cache settings for AEM Forms may not be good enough to achieve optim
 
 >[!NOTE]
 >
->If you use AEM Dispatcher to cache adaptive forms, it also caches adaptive form which contains forms with pre-filled data. If such forms are served from AEM Dispatcher cache, it may lead to serving pre-filled or stale data to the users. So, use AEM Dispatcher to cache adaptive forms which do not use pre-filled data. Moreover, a dispatcher cache does not auto-invalidate cached fragments. So, do not use it to cache form fragments. For such forms and fragments, use [Adaptive forms cache](../../forms/using/configure-adaptive-forms-cache.md).
+>If you use AEM Dispatcher to cache adaptive forms, it also caches adaptive form which contains forms with pre-filled data. If such forms are served from AEM Dispatcher cache, it may lead to serving pre-filled or stale data to the users. So, use AEM Dispatcher to cache adaptive forms which do not use pre-filled data. Moreover, a dispatcher cache does not auto-invalidate cached fragments. So, do not use it to cache form fragments. For such forms and fragments, use [Adaptive forms cache](/help/forms/using/configure-adaptive-forms-cache.md).
 
 ## JVM parameters {#jvm-parameters}
 

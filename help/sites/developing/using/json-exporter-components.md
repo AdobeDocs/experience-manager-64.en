@@ -21,7 +21,7 @@ The JSON Export is based on [Sling Models](https://sling.apache.org/documentatio
 
 This means that the component must have a Sling Model if it needs to export JSON. Therefore you will need to follow these two steps to enable JSON export on any component.
 
-* [Define a Sling Model for the component](../../../sites/developing/using/json-exporter-components.md#define-a-sling-model-for-the-component)
+* [Define a Sling Model for the component](/help/sites/developing/using/json-exporter-components.md#define-a-sling-model-for-the-component)
 * [Annotate the Sling Model interface](#annotate-the-sling-model-interface)
 
 ## Define a Sling Model for the Component {#define-a-sling-model-for-the-component}
@@ -79,8 +79,8 @@ For further details see:
 
 * The [Content Fragments topic in the Assets user guide](https://helpx.adobe.com/experience-manager/6-4/assets/user-guide.html?topic=/experience-manager/6-4/assets/morehelp/content-fragments.ug.js)  
 
-* [Content Fragment Models](../../../assets/using/content-fragments-models.md)
-* [Authoring with Content Fragments](../../../sites/authoring/using/content-fragments.md)
-* [JSON Exporter for Content Services](../../../sites/developing/using/json-exporter.md)
+* [Content Fragment Models](/help/assets/using/content-fragments-models.md)
+* [Authoring with Content Fragments](/help/sites/authoring/using/content-fragments.md)
+* [JSON Exporter for Content Services](/help/sites/developing/using/json-exporter.md)
 * [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) and the [Content Fragment component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html)
 

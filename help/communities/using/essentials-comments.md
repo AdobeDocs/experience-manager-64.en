@@ -48,7 +48,7 @@ The comments component establishes a comment system such that each individual po
  </tbody>
 </table>
 
-[Client-side Customizations](../../communities/using/client-customize.md)
+[Client-side Customizations](/help/communities/using/client-customize.md)
 
 ### One Instance Per Page {#one-instance-per-page}
 
@@ -56,12 +56,12 @@ Pagination and the use of URLs for caching and linking require that the URL be u
 
 Other features already include the comment system. These are:
 
-* [Blog](../../communities/using/blog-developer-basics.md)
-* [Calendar](../../communities/using/calendar-basics-for-developers.md)
-* [File Library](../../communities/using/essentials-file-library.md)
-* [Forum](../../communities/using/essentials-forum.md)
-* [QnA](../../communities/using/qna-essentials.md)
-* [Reviews](../../communities/using/reviews-basics.md)
+* [Blog](/help/communities/using/blog-developer-basics.md)
+* [Calendar](/help/communities/using/calendar-basics-for-developers.md)
+* [File Library](/help/communities/using/essentials-file-library.md)
+* [Forum](/help/communities/using/essentials-forum.md)
+* [QnA](/help/communities/using/qna-essentials.md)
+* [Reviews](/help/communities/using/reviews-basics.md)
 
 ### Flag Reason List {#flag-reason-list}
 
@@ -77,21 +77,21 @@ This applies to any component which extends a comment system.
 
 * [Comments Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/comments/endpoints/package-summary.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 
 ### Accessing Posted Comments (UGC) {#accessing-posted-comments-ugc}
 
 UGC should be moderated using one of the standard methods for moderation.  
-See [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+See [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
-As of AEM 6.1 Communities, use of a [common store](../../communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
+As of AEM 6.1 Communities, use of a [common store](/help/communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
 See:
 
-* [Storage Resource Provider Overview](../../communities/using/srp.md) - introduction and repository usage overview
-* [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](../../communities/using/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](../../communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Storage Resource Provider Overview](/help/communities/using/srp.md) - introduction and repository usage overview
+* [SRP and UGC Essentials](/help/communities/using/srp-and-ugc.md) - SRP utility methods and examples
+* [Accessing UGC with SRP](/help/communities/using/accessing-ugc-with-srp.md) - coding guidelines
+* [SocialUtils Refactoring](/help/communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
 

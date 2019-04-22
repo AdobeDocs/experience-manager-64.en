@@ -34,7 +34,7 @@ Unless stated otherwise, most of the adjustments that need to be done after the 
 You can change the property by doing the following:
 
 1. Open CRXDE Lite by going to `https://server:port/crx/de/index.jsp`
-1. Browse to the location of the node that needs to be adjusted, as specified in the List of [Custom Search Forms](../../../sites/deploying/using/upgrading-custom-search-forms.md#list-of-custom-search-forms) below.
+1. Browse to the location of the node that needs to be adjusted, as specified in the List of [Custom Search Forms](/help/sites/deploying/using/upgrading-custom-search-forms.md#list-of-custom-search-forms) below.
 1. Click the node. In the right properties pane, click and modify the **sling:resourceType** property.
 1. Finally, save the changes by pressing the **Save All** button.
 

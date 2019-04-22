@@ -24,15 +24,15 @@ Integrate your AEM sites with Adobe Target to personalize content in your pages:
 
 To integrate with Target, perform the following tasks:
 
-1. [Perform prerequisite tasks](../../../sites/administering/using/target-requirements.md): Register with Adobe Target and configure certain aspects of the AEM author instance. Your Adobe Target account must have **approver **level permissions at a minimum. In addition, you must secure the activity settings on the publish node so that it is inaccessible to users.
+1. [Perform prerequisite tasks](/help/sites/administering/using/target-requirements.md): Register with Adobe Target and configure certain aspects of the AEM author instance. Your Adobe Target account must have **approver **level permissions at a minimum. In addition, you must secure the activity settings on the publish node so that it is inaccessible to users.
 
 1. Either:
 
-    1. [Opt into Adobe Target](../../../sites/administering/using/opt-in.md): The opt-in wizard takes your Target account information and creates an Adobe Target cloud configuration and a Target Framework. The wizard also associates your sites with the Target Framework. If the wizard cannot connect to target, refer to the [connection trouble shooting](../../../sites/administering/using/target-configuring.md#troubleshooting-target-connection-problems) section. You can then [Modify the default cloud configurations](../../../sites/administering/using/target-configuring.md#modifying-the-opt-in-wizard-configurations): If necessary, modify the cloud configuration and framework that the opt-in wizard created. For example, modify the framework to send additional context data to Target. If you want to use Adobe Analytics as a reporting source for Adobe Target, you need to modify the cloud configuration to point to the A4T configuration.
+    1. [Opt into Adobe Target](/help/sites/administering/using/opt-in.md): The opt-in wizard takes your Target account information and creates an Adobe Target cloud configuration and a Target Framework. The wizard also associates your sites with the Target Framework. If the wizard cannot connect to target, refer to the [connection trouble shooting](/help/sites/administering/using/target-configuring.md#troubleshooting-target-connection-problems) section. You can then [Modify the default cloud configurations](/help/sites/administering/using/target-configuring.md#modifying-the-opt-in-wizard-configurations): If necessary, modify the cloud configuration and framework that the opt-in wizard created. For example, modify the framework to send additional context data to Target. If you want to use Adobe Analytics as a reporting source for Adobe Target, you need to modify the cloud configuration to point to the A4T configuration.
     
-    1. [Manually Integrate with Adobe Target](../../../sites/administering/using/target-configuring.md#manually-integrating-with-adobe-target).
+    1. [Manually Integrate with Adobe Target](/help/sites/administering/using/target-configuring.md#manually-integrating-with-adobe-target).
 
-1. [Configure Activities](../../../sites/authoring/using/activitylib.md): Associate your Activities with the Target cloud configuration.
+1. [Configure Activities](/help/sites/authoring/using/activitylib.md): Associate your Activities with the Target cloud configuration.
 
 >[!NOTE]
 >
@@ -50,9 +50,9 @@ To integrate with Target, perform the following tasks:
 >
 >You must secure the activity settings node **cq:ActivitySettings** on the publish instance so that it is inaccessible to normal users. The activity settings node should only be accessible to the service handling the activity synchronization to Adobe Target.
 >
->See [Prerequisites for Integrating with Adobe Target](../../../sites/administering/using/target-requirements.md#securing-the-activity-settings-node) for detailed information.
+>See [Prerequisites for Integrating with Adobe Target](/help/sites/administering/using/target-requirements.md#securing-the-activity-settings-node) for detailed information.
 
-When the integration is complete, you can [author targeted content](../../../sites/authoring/using/content-targeting-touch.md) that sends visitor data to Adobe Target. Note that page components require specific code to enable content targeting. (See [Developing for Targeted Content](../../../sites/developing/using/target.md).)
+When the integration is complete, you can [author targeted content](/help/sites/authoring/using/content-targeting-touch.md) that sends visitor data to Adobe Target. Note that page components require specific code to enable content targeting. (See [Developing for Targeted Content](/help/sites/developing/using/target.md).)
 
 >[!NOTE]
 >
@@ -63,8 +63,8 @@ When the integration is complete, you can [author targeted content](../../../sit
 Integrating AEM with Adobe Target requires knowlege of Adobe Target, AEM Activities management, and AEM Audiences management. You should be familiar with the following information:
 
 * Adobe Target (See the [Adobe Target documentation](https://marketing.adobe.com/resources/help/en_US/target/)).
-* AEM Activities console (See [Managing Activities](../../../sites/authoring/using/activitylib.md)).
-* AEM Audiences (See [Managing Audiences](../../../sites/authoring/using/managing-audiences.md)).
+* AEM Activities console (See [Managing Activities](/help/sites/authoring/using/activitylib.md)).
+* AEM Audiences (See [Managing Audiences](/help/sites/authoring/using/managing-audiences.md)).
 
 >[!NOTE]
 >

@@ -15,7 +15,7 @@ discoiquuid: a8b1f7df-e36f-4d02-883a-72120fea7046
 
 # Migrate AEM Forms assets and documents{#migrate-aem-forms-assets-and-documents}
 
-The Migration utility converts the [Adaptive Forms assets](../../forms/using/introduction-forms-authoring.md), [cloud configrurations](../../sites/developing/using/extending-cloud-config.md), and [Correspondence Management assets](../../forms/using/cm-overview.md) from the format used in the earlier versions to the format used in AEM 6.4 Forms. When you run migration utility, the following are migrated:
+The Migration utility converts the [Adaptive Forms assets](/help/forms/using/introduction-forms-authoring.md), [cloud configrurations](/help/sites/developing/using/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in AEM 6.4 Forms. When you run migration utility, the following are migrated:
 
 * Custom components for adaptive forms
 * Adaptive forms and correspondence management Templates
@@ -28,7 +28,7 @@ The Migration utility converts the [Adaptive Forms assets](../../forms/using/int
 
 ## Approach to migration {#approach-to-migration}
 
-You can [upgrade](../../forms/using/upgrade.md) to the latest version of AEM Forms 6.4 from AEM Forms 6.3 or 6.2 or perform a fresh installation. Depending on whether you upgraded your previous installation or performed a fresh install, you need to do one of the following:
+You can [upgrade](/help/forms/using/upgrade.md) to the latest version of AEM Forms 6.4 from AEM Forms 6.3 or 6.2 or perform a fresh installation. Depending on whether you upgraded your previous installation or performed a fresh install, you need to do one of the following:
 
 **In case of in-place upgrade**
 
@@ -40,7 +40,7 @@ Then you need to update the assets and documents by [running the Migration utili
 
 If it is an out of place (fresh) installation, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT) (includes the Correspondence Management Compatibility package).
 
-Then you need to import your asset package (zip or cmp) on the new setup and then update the assets and documents by [running the Migration utility](#runningmigrationutility). Due to [backward compatibility-related](../../sites/deploying/using/backward-compatibility.md) changes, locations of a few folders in crx-repository are changed. Manually export and import dependencies (custom libraries and assets) from previous setup to fresh environment.
+Then you need to import your asset package (zip or cmp) on the new setup and then update the assets and documents by [running the Migration utility](#runningmigrationutility). Due to [backward compatibility-related](/help/sites/deploying/using/backward-compatibility.md) changes, locations of a few folders in crx-repository are changed. Manually export and import dependencies (custom libraries and assets) from previous setup to fresh environment.
 
 ## Read before you proceed with the migration {##prerequisites}
 
@@ -174,15 +174,15 @@ When you run the Migration Utility for the first time, a log is created with the
 
 ### Housekeeping tasks after running the migration utility {#housekeepingtasks}
 
-After running the Migration utility, take care of the following housekeeping tasks: [](../../forms/using/import-export-forms-templates.md)
+After running the Migration utility, take care of the following housekeeping tasks: [](/help/forms/using/import-export-forms-templates.md)
 
 1. Ensure that XFA version of layouts and fragment layouts is 3.3 or later. If you are using layouts and fragment layouts of an older version, then there could be issues in rendering the letter. To update version of an older XFA to the latest version, complete the following steps:
 
-    1. [Download the XFA as a zip file](../../forms/using/import-export-forms-templates.md#p-import-and-export-assets-in-correspondence-management-p) from the Forms user interface. 
+    1. [Download the XFA as a zip file](/help/forms/using/import-export-forms-templates.md#p-import-and-export-assets-in-correspondence-management-p) from the Forms user interface. 
     1. Extract the file.
     1. Open the XFA file in the latest Designer and save it. The version of the XFA gets updated to the latest one.
     1. Upload the XFA in the Forms user interface.
 
 1. Publish all the assets that were published in the previous system before migration. The migration utility updates the assets only on the author instance and to update the assets on the publish instance (s) you need to publish the assets.
-1. In AEM Forms 6.4, some of the rights of the forms users groups are changed. If you want any of your users to be able to upload XDPs and Adaptive Forms containing scripts or use code editor, you need to add them to forms-power-users group. Similarly, template-authors can no longer use the code editor in Rule Editor. For users to be able to use code editor, add them to af-template-script-writers group. For instructions on adding users to groups, see [Managing Users and User Groups](../../communities/using/users.md).
+1. In AEM Forms 6.4, some of the rights of the forms users groups are changed. If you want any of your users to be able to upload XDPs and Adaptive Forms containing scripts or use code editor, you need to add them to forms-power-users group. Similarly, template-authors can no longer use the code editor in Rule Editor. For users to be able to use code editor, add them to af-template-script-writers group. For instructions on adding users to groups, see [Managing Users and User Groups](/help/communities/using/users.md).
 

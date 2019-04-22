@@ -17,7 +17,7 @@ The Adobe Analytics framework determines the information that is tracked with Ad
 
 ## About the Generated javascript for Frameworks {#about-the-generated-javascript-for-frameworks}
 
-When a page is associated with a Adobe Analytics framework, and the page includes [references to the Analytics module](../../../sites/administering/using/adobeanalytics.md), a analytics.sitecatalyst.js file is automatically generated for the page.
+When a page is associated with a Adobe Analytics framework, and the page includes [references to the Analytics module](/help/sites/administering/using/adobeanalytics.md), a analytics.sitecatalyst.js file is automatically generated for the page.
 
 The javascript in the page creates an `s_gi`object (that the s_code.js Adobe Analytics library defines) and assigns values to its properties. The name of the object instance is `s`. The code examples that are presented in this section makes several references to this `s` variable.
 
@@ -117,11 +117,11 @@ The code that you add is appended to the analytics.sitecatalyst.js file. Therefo
 
 `s.prop10= 'CONSTANT';`
 
-The code in the [analytics.sitecatalyst.js](../../../sites/developing/using/extending-analytics-components.md) file (which includes the content of the Adobe Analytics `s-code.js` file) contains the following code:
+The code in the [analytics.sitecatalyst.js](/help/sites/developing/using/extending-analytics-components.md) file (which includes the content of the Adobe Analytics `s-code.js` file) contains the following code:
 
 `if (s.usePlugins) s.doPlugins(s)`
 
-The following procedure demonstrates how to use the javascript box to customize Adobe Analytics tracking. If your javascript needs to use Adobe Analytics plugins, [integrate them](../../../sites/administering/using/adobeanalytics.md) into AEM.
+The following procedure demonstrates how to use the javascript box to customize Adobe Analytics tracking. If your javascript needs to use Adobe Analytics plugins, [integrate them](/help/sites/administering/using/adobeanalytics.md) into AEM.
 
 1. Add the following javascript code to the box so that `s.doPlugins` is executed:
 
@@ -167,7 +167,7 @@ For example, the following values are generated in Adobe Analytics:
 
 ### Adding Global Custom Code for All Adobe Analytics Frameworks {#adding-global-custom-code-for-all-adobe-analytics-frameworks}
 
-Provide custom javascript code that is integrated into all Adobe Analytics frameworks. When a page's Adobe Analytics framework contains no custom [free-form javascript](../../../sites/administering/using/adobeanalytics.md), the javascript that the /libs/cq/analytics/components/sitecatalyst/config.js.jsp script generates is appended to the [analytics.sitecatalyst.js](../../../sites/administering/using/adobeanalytics.md) file. By default, the script has no effect because it is commented out. The code also sets `s.usePlugins` to `false`:
+Provide custom javascript code that is integrated into all Adobe Analytics frameworks. When a page's Adobe Analytics framework contains no custom [free-form javascript](/help/sites/administering/using/adobeanalytics.md), the javascript that the /libs/cq/analytics/components/sitecatalyst/config.js.jsp script generates is appended to the [analytics.sitecatalyst.js](/help/sites/administering/using/adobeanalytics.md) file. By default, the script has no effect because it is commented out. The code also sets `s.usePlugins` to `false`:
 
 ```
 /* Plugin Config */
@@ -184,7 +184,7 @@ Code in the analytics.sitecatalyst.js file (which includes the content of the Ad
 
 if (s.usePlugins) s.doPlugins(s)
 
-Therefore, your javascript should set `s.usePlugins` to `true` so that any code in the `s_doPlugins` function is executed. To customize the code, overlay the config.js.jsp file with one that uses your own javascript. If your javascript needs to use Adobe Analytics plugins, [integrate them](../../../sites/administering/using/adobeanalytics.md) into AEM.
+Therefore, your javascript should set `s.usePlugins` to `true` so that any code in the `s_doPlugins` function is executed. To customize the code, overlay the config.js.jsp file with one that uses your own javascript. If your javascript needs to use Adobe Analytics plugins, [integrate them](/help/sites/administering/using/adobeanalytics.md) into AEM.
 
 >[!NOTE]
 >

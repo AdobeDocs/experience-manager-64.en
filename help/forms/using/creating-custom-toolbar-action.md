@@ -14,7 +14,7 @@ discoiquuid: b80a2bfe-6f57-4229-a9ee-1ec87f3c3306
 
 ## Prerequisites {#prerequisite}
 
-Before you create a custom toolbar action, make yourself familiar with [Using Client Side Libraries](../../sites/developing/using/clientlibs.md) and [Developing with CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md).
+Before you create a custom toolbar action, make yourself familiar with [Using Client Side Libraries](/help/sites/developing/using/clientlibs.md) and [Developing with CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md).
 
 ## What is an action <br> {#what-is-an-action-br}
 

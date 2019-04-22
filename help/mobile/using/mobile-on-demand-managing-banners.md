@@ -15,7 +15,7 @@ discoiquuid: fb1abaa0-9c02-4f20-aa7c-073def067452
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Content Management actions are the building blocks that help to create and manage content within an application. The following actions are performed on content within the application.
 
@@ -129,9 +129,9 @@ The general workflow to delete a banner:
 
 One you learn about managing banners, see
 
-* [Managing Articles](../../mobile/using/mobile-on-demand-managing-articles.md)
-* [Managing Collections](../../mobile/using/mobile-on-demand-managing-collections.md)
-* [Uploading Shared Resources](../../mobile/using/mobile-on-demand-shared-resources.md)
-* [Publishing/Unpublishing the Content](../../mobile/using/mobile-on-demand-publishing-unpublishing.md)
-* [Previewing with Preflight](../../mobile/using/aem-mobile-manage-ondemand-services.md)
+* [Managing Articles](/help/mobile/using/mobile-on-demand-managing-articles.md)
+* [Managing Collections](/help/mobile/using/mobile-on-demand-managing-collections.md)
+* [Uploading Shared Resources](/help/mobile/using/mobile-on-demand-shared-resources.md)
+* [Publishing/Unpublishing the Content](/help/mobile/using/mobile-on-demand-publishing-unpublishing.md)
+* [Previewing with Preflight](/help/mobile/using/aem-mobile-manage-ondemand-services.md)
 

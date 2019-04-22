@@ -13,9 +13,9 @@ discoiquuid: 780d1a2d-38f1-4115-a9bd-f466aa3774dd
 
 # Configuring ContextHub{#configuring-contexthub}
 
-ContextHub is a framework for storing, manipulating, and presenting context data. For more detail on ContextHub, please see the [developer documentation](../../../sites/developing/using/contexthub.md). ContextHub replaces [Client Context](../../../sites/administering/using/client-context.md) in the touch UI.
+ContextHub is a framework for storing, manipulating, and presenting context data. For more detail on ContextHub, please see the [developer documentation](/help/sites/developing/using/contexthub.md). ContextHub replaces [Client Context](/help/sites/administering/using/client-context.md) in the touch UI.
 
-Configure the [ContextHub](../../../sites/developing/using/contexthub.md) toolbar to control whether it appears in Preview mode, to create ContextHub stores, and add UI modules using the Touch-Optimized UI.
+Configure the [ContextHub](/help/sites/developing/using/contexthub.md) toolbar to control whether it appears in Preview mode, to create ContextHub stores, and add UI modules using the Touch-Optimized UI.
 
 ## Disabling ContextHub {#disabling-contexthub}
 
@@ -35,9 +35,9 @@ or
 
 ## Showing and Hiding the ContextHub UI {#showing-and-hiding-the-contexthub-ui}
 
-Configure the Adobe Granite ContextHub OSGi service to show or hide the [ContextHub UI](../../../sites/authoring/using/ch-previewing.md) on your pages. The PID of this service is `com.adobe.granite.contexthub.impl.ContextHubImpl.`
+Configure the Adobe Granite ContextHub OSGi service to show or hide the [ContextHub UI](/help/sites/authoring/using/ch-previewing.md) on your pages. The PID of this service is `com.adobe.granite.contexthub.impl.ContextHubImpl.`
 
-To configure the service you can either use the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or use a [JCR node in the repository](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository):
+To configure the service you can either use the [Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or use a [JCR node in the repository](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository):
 
 * **Web Console:** To show the UI, select the Show UI property. To hide the UI, clear the Hide UI property.
 * **JCR node:** To show the UI, set the boolean `com.adobe.granite.contexthub.show_ui` property to `true`. To hide the UI, set the property to `false`.
@@ -81,20 +81,20 @@ Add a UI mode to group related ContextHub modules. When you create the UI mode, 
 
 Add a ContextHub UI module to a UI mode so that it appears in the ContextHub toolbar for previewing page content. When you add a UI module, you are creating an instance of a module type that is registered with ContextHub. To add a UI module, you must know the name of the associated module type.
 
-AEM provides a base UI module type as well several sample UI Module types upon which you can base a UI module. The following table provides a brief description of each one. For information about developing a custom UI module, see [Creating ContextHub UI Modules](../../../sites/developing/using/ch-extend.md#creating-contexthub-ui-module-types).
+AEM provides a base UI module type as well several sample UI Module types upon which you can base a UI module. The following table provides a brief description of each one. For information about developing a custom UI module, see [Creating ContextHub UI Modules](/help/sites/developing/using/ch-extend.md#creating-contexthub-ui-module-types).
 
 The UI module properties include a detail configuration where you can provide values for module-specific properties. You provide the detail configuration in JSON format. The Module Type column in the table provides links to information about the JSON code required for each UI module type.
 
 | Module Type |Description |Store |
 |---|---|---|
-| [contexthub.base](../../../sites/developing/using/ch-samplemodules.md#contexthub-base-ui-module-type) |A generic UI module type |Configured in the UI module properties |
-| [contexthub.browserinfo](../../../sites/developing/using/ch-samplemodules.md#contexthub-browserinfo-ui-module-type) |Displays information about the browser |surferinfo |
-| [contexthub.datetime](../../../sites/developing/using/ch-samplemodules.md#contexthub-datetime-ui-module-type) |Displays date and time information |datetime |
-| [contexthub.device](../../../sites/developing/using/ch-samplemodules.md#contexthub-device-ui-module-type) |Display the client device |emulators |
-| [contexthub.location](../../../sites/developing/using/ch-samplemodules.md#contexthub-location-ui-module-type) |Displays the latitude and longitude of the client, as well as the location on a map. Enables you to change the location. |geolocation |
-| [contexthub.screen-orientation](../../../sites/developing/using/ch-samplemodules.md#contexthub-screen-orientation-ui-module-type) |Displays the screen orientation of the device (landscape or portrait) |emulators |
-| [contexthub.tagcloud](../../../sites/developing/using/ch-samplemodules.md#contexthub-tagcloud-ui-module-type) |Displays statistics about page tags |tagcloud |
-| [granite.profile](../../../sites/developing/using/ch-samplemodules.md#granite-profile-ui-module-type) |Displays the profile information for the current user, including authorizableID, displayName and familyName. You can change the value of displayName and familyName. |profile |
+| [contexthub.base](/help/sites/developing/using/ch-samplemodules.md#contexthub-base-ui-module-type) |A generic UI module type |Configured in the UI module properties |
+| [contexthub.browserinfo](/help/sites/developing/using/ch-samplemodules.md#contexthub-browserinfo-ui-module-type) |Displays information about the browser |surferinfo |
+| [contexthub.datetime](/help/sites/developing/using/ch-samplemodules.md#contexthub-datetime-ui-module-type) |Displays date and time information |datetime |
+| [contexthub.device](/help/sites/developing/using/ch-samplemodules.md#contexthub-device-ui-module-type) |Display the client device |emulators |
+| [contexthub.location](/help/sites/developing/using/ch-samplemodules.md#contexthub-location-ui-module-type) |Displays the latitude and longitude of the client, as well as the location on a map. Enables you to change the location. |geolocation |
+| [contexthub.screen-orientation](/help/sites/developing/using/ch-samplemodules.md#contexthub-screen-orientation-ui-module-type) |Displays the screen orientation of the device (landscape or portrait) |emulators |
+| [contexthub.tagcloud](/help/sites/developing/using/ch-samplemodules.md#contexthub-tagcloud-ui-module-type) |Displays statistics about page tags |tagcloud |
+| [granite.profile](/help/sites/developing/using/ch-samplemodules.md#granite-profile-ui-module-type) |Displays the profile information for the current user, including authorizableID, displayName and familyName. You can change the value of displayName and familyName. |profile |
 
 1. On the Experience Manager rail, click or tap Tools &gt; Sites &gt; ContextHub.
 1. Click or tap the Configuration Container to which you want to add a UI module.
@@ -115,7 +115,7 @@ The UI module properties include a detail configuration where you can provide va
 
 ## Creating a ContextHub Store {#creating-a-contexthub-store}
 
-Create a Context Hub store to persist user data and access the data as needed. ContextHub stores are based on registered store candidates. When you create the store, you need the value of the storeType with which the store candidate was registered. (See [Creating Custom Store Candidates](../../../sites/developing/using/ch-extend.md#creating-custom-store-candidates).)
+Create a Context Hub store to persist user data and access the data as needed. ContextHub stores are based on registered store candidates. When you create the store, you need the value of the storeType with which the store candidate was registered. (See [Creating Custom Store Candidates](/help/sites/developing/using/ch-extend.md#creating-custom-store-candidates).)
 
 ### Detailed Store Configuration {#detailed-store-configuration}
 
@@ -129,15 +129,15 @@ AEM provides the following sample store candidates upon which you can base a sto
 
 | Store Type |Description |
 |---|---|
-| [aem.segmentation](../../../sites/developing/using/ch-samplestores.md#aem-segmentation-sample-store-candidate) |Store for resolved and unresolved ContextHub segments. Automatically retrieves segments from the ContextHub SegmentManager |
-| [aem.resolvedsegments](../../../sites/developing/using/ch-samplestores.md#aem-resolvedsegments-sample-store-candidate) |Stores the currently resolved segments. Listens to the ContextHub SegmentManager service to automatically update the store |
-| [contexthub.geolocation](../../../sites/developing/using/ch-samplestores.md#contexthub-geolocation-sample-store-candidate) |Stores the latitude and longitude of the browser location. |
-| [contexthub.datetime](../../../sites/developing/using/ch-samplestores.md#contexthub-datetime-sample-store-candidate) |Stores the current date, time, and season for the browser location |
-| [granite.emulators](../../../sites/developing/using/ch-samplestores.md#granite-emulators-sample-store-candidate) |Defines properties and capabilities for a number of devices, and detects the current client device |
-| [contexthub.generic-jsonp](../../../sites/developing/using/ch-samplestores.md#contexthub-generic-jsonp-sample-store-candidate) |Retrieves and stores data from a JSONP service |
-| [granite.profile](../../../sites/developing/using/ch-samplestores.md#granite-profile-sample-store-candidate) |Stores profile data for the current user |
-| [contexthub.surferinfo](../../../sites/developing/using/ch-samplestores.md#contexthub-surferinfo-sample-store-candidate) |Stores information about the client, such as device information, browser type, and window orientation |
-| [contexthub.tagcloud](../../../sites/developing/using/ch-samplestores.md#contexthub-tagcloud-sample-data-store) |Stores page tags and tag counts |
+| [aem.segmentation](/help/sites/developing/using/ch-samplestores.md#aem-segmentation-sample-store-candidate) |Store for resolved and unresolved ContextHub segments. Automatically retrieves segments from the ContextHub SegmentManager |
+| [aem.resolvedsegments](/help/sites/developing/using/ch-samplestores.md#aem-resolvedsegments-sample-store-candidate) |Stores the currently resolved segments. Listens to the ContextHub SegmentManager service to automatically update the store |
+| [contexthub.geolocation](/help/sites/developing/using/ch-samplestores.md#contexthub-geolocation-sample-store-candidate) |Stores the latitude and longitude of the browser location. |
+| [contexthub.datetime](/help/sites/developing/using/ch-samplestores.md#contexthub-datetime-sample-store-candidate) |Stores the current date, time, and season for the browser location |
+| [granite.emulators](/help/sites/developing/using/ch-samplestores.md#granite-emulators-sample-store-candidate) |Defines properties and capabilities for a number of devices, and detects the current client device |
+| [contexthub.generic-jsonp](/help/sites/developing/using/ch-samplestores.md#contexthub-generic-jsonp-sample-store-candidate) |Retrieves and stores data from a JSONP service |
+| [granite.profile](/help/sites/developing/using/ch-samplestores.md#granite-profile-sample-store-candidate) |Stores profile data for the current user |
+| [contexthub.surferinfo](/help/sites/developing/using/ch-samplestores.md#contexthub-surferinfo-sample-store-candidate) |Stores information about the client, such as device information, browser type, and window orientation |
+| [contexthub.tagcloud](/help/sites/developing/using/ch-samplestores.md#contexthub-tagcloud-sample-data-store) |Stores page tags and tag counts |
 
 1. On the Experience Manager rail, click or tap Tools &gt; Sites &gt; ContextHub.
 1. Click or tap the default configuration container.
@@ -173,9 +173,9 @@ A contexthub.generic-jsonp store is configured so that it stores data for the se
 
 The contexthub.generic-jsonp sample store candidate enables you to retrieve data from a JSONP service or a web servcie that returns JSON data. For this store candidate, use the store configuration to provide details about the JSONP service to use.
 
-The [init](../../../sites/developing/using/contexthub-api.md#init-name-config) function of the `ContextHub.Store.JSONPStore` Javascript class defines a `config` object that initializes this store candidate. The `config` object contains a `service` object that includes details about the JSONP service. To configure the store, you provide the `service` object in JSON format as the value for the Detail Configuration property.
+The [init](/help/sites/developing/using/contexthub-api.md#init-name-config) function of the `ContextHub.Store.JSONPStore` Javascript class defines a `config` object that initializes this store candidate. The `config` object contains a `service` object that includes details about the JSONP service. To configure the store, you provide the `service` object in JSON format as the value for the Detail Configuration property.
 
-To save data from the MD5 service of the jsontest.com site, use the procedure in [Creating a ContextHub Store](../../../sites/administering/using/contexthub-config.md#creating-a-contexthub-store) using the following properties:
+To save data from the MD5 service of the jsontest.com site, use the procedure in [Creating a ContextHub Store](/help/sites/administering/using/contexthub-config.md#creating-a-contexthub-store) using the following properties:
 
 * **Configuration Title:** md5
 * **Store Type:** contexthub.generic-jsonp
@@ -205,7 +205,7 @@ Add a UI module to the ContextHub toolbar to display the data that is stored in 
 
 ![](assets/chlimage_1-323.png)
 
-Use the procecure in [Adding a UI Module](../../../sites/administering/using/contexthub-config.md#adding-a-ui-module) to add the UI module to an existing UI Mode, such as the sample Perona UI Mode. For the UI Module, use the following property values:
+Use the procecure in [Adding a UI Module](/help/sites/administering/using/contexthub-config.md#adding-a-ui-module) to add the UI module to an existing UI Mode, such as the sample Perona UI Mode. For the UI Module, use the following property values:
 
 * **UI Module Title:** MD5
 * **Module Type:** contexthub.base
@@ -253,7 +253,7 @@ This is useful for your publish instance, where you don't want any debug informa
 
 ## Recovering ContextHub Configurations After Upgrading {#recovering-contexthub-configurations-after-upgrading}
 
-When an [upgrade to AEM](../../../sites/deploying/using/upgrade.md) is performed, the ContextHub configurations are backed up and stored in a safe location. During the upgrade, the default ContextHub configurations are installed, replacing the existing configurations. The backup is required to preserve any changes or additions that you have made.
+When an [upgrade to AEM](/help/sites/deploying/using/upgrade.md) is performed, the ContextHub configurations are backed up and stored in a safe location. During the upgrade, the default ContextHub configurations are installed, replacing the existing configurations. The backup is required to preserve any changes or additions that you have made.
 
 ContextHub configurations are stored below the /etc/cloudsettings/default node, in a folder named contexthub. After an upgrade, the backup is stored below a node named /etc/cloudsettings/default-pre-upgrade_*yyyymmdd*_*xxxxxxx*, in a folder named contexthub. The yyyymmdd part of the node name is the date when the upgrade was performed.
 

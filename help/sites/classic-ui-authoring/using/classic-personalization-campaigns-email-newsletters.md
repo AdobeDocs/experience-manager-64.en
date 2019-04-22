@@ -17,7 +17,7 @@ You can publish newsletters to e-mail services such as ExactTarget and Silverpop
 
 >[!NOTE]
 >
->You need to configure the service provider before you can create and publish an email. See [Configuring ExactTarget](../../../sites/administering/using/exacttarget.md) and [Configuring Silverpop Engage](../../../sites/administering/using/silverpop.md) for more information.
+>You need to configure the service provider before you can create and publish an email. See [Configuring ExactTarget](/help/sites/administering/using/exacttarget.md) and [Configuring Silverpop Engage](/help/sites/administering/using/silverpop.md) for more information.
 
 To publish your email to the email service provider, you need to perform the following steps:
 
@@ -111,7 +111,7 @@ The **Email Tools** component for ExactTarget can add more email functionality t
 You can add personalized fields in an email by adding the **Text and Personalization** component to the page:
 
 1. Open the e-mail to be published to your e-mail service.
-1. To enable personalization field from your email service, add the framework configuration while configuring the email service. See [configuring Silverpop Engage](../../../sites/administering/using/silverpop.md) and [configuring Exact Target](../../../sites/administering/using/exacttarget.md) for more information.
+1. To enable personalization field from your email service, add the framework configuration while configuring the email service. See [configuring Silverpop Engage](/help/sites/administering/using/silverpop.md) and [configuring Exact Target](/help/sites/administering/using/exacttarget.md) for more information.
 1. nAdd the component **Text & Personalization** from the sidekick. This component is the part of newsletter group. Open this component in the edit mode.
 
    ![](assets/chlimage_1-110.png)

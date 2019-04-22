@@ -226,7 +226,7 @@ To grant users the right to create, modify, upload, and install packages, you mu
 * **/etc/packages** (full rights excluding delete)
 * the node that contains the package contents
 
-See [Setting permissions](../../../sites/administering/using/security.md) for instructions on changing permissions.
+See [Setting permissions](/help/sites/administering/using/security.md) for instructions on changing permissions.
 
 ### Creating a New Package {#creating-a-new-package}
 
@@ -768,7 +768,7 @@ To avoid this issue, you can access Package Share from an IPv4 network, download
 
 Package Share is currently unavailable if your company runs an http proxy that requires authentication.
 
-Package Share is only available when your AEM server has access to the Internet without authentication being required. To configure the proxy for all services that use the http client (including package share) use the [OSGi configuration of the Day Commons HTTP Client 3.1 bundle](../../../sites/deploying/using/osgi-configuration-settings.md).
+Package Share is only available when your AEM server has access to the Internet without authentication being required. To configure the proxy for all services that use the http client (including package share) use the [OSGi configuration of the Day Commons HTTP Client 3.1 bundle](/help/sites/deploying/using/osgi-configuration-settings.md).
 
 ### Inside Package Share {#inside-package-share}
 

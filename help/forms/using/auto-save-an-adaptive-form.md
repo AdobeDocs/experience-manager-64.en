@@ -36,7 +36,7 @@ For an adaptive form, the auto save option is not enabled out of the box. You ca
     * Specify a time interval if you select **Time based **trigger.
     * Specify an event name if you select** Event based** trigger.
 
-   You can also create and add your own custom strategy to the list. For details, see [Implement a custom strategy to autosave the forms](../../forms/using/auto-save-an-adaptive-form.md#p-implement-a-custom-strategy-to-enable-autosave-for-adaptive-forms-p).
+   You can also create and add your own custom strategy to the list. For details, see [Implement a custom strategy to autosave the forms](/help/forms/using/auto-save-an-adaptive-form.md#p-implement-a-custom-strategy-to-enable-autosave-for-adaptive-forms-p).
 
 1. (Time-based autosave only) Perform the following steps to configure options for the Time-based autosave.
 
@@ -59,7 +59,7 @@ For an adaptive form, the auto save option is not enabled out of the box. You ca
 
 You can implement a custom event to trigger the autosave functionality. Perform the following steps to create and implement the custom event:
 
-1. Create client library and client library folders. For detailed steps, see the [Using Client-Side Libraries document](../../sites/developing/using/clientlibs.md).
+1. Create client library and client library folders. For detailed steps, see the [Using Client-Side Libraries document](/help/sites/developing/using/clientlibs.md).
 
    For example, the following script uses the custom `emailFocusChange`event to trigger the autosave functionality:
 

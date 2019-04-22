@@ -12,7 +12,7 @@ discoiquuid: 607b2242-d81c-4e7a-9e56-e6dabffccbb6
 
 # Writing custom Submit action for adaptive forms{#writing-custom-submit-action-for-adaptive-forms}
 
-Adaptive forms require Submit actions to process user-specified data. A Submit action determines the task performed on the data that you submit using an adaptive form. Adobe Experience Manager (AEM) includes [OOTB Submit actions](../../forms/using/configuring-submit-actions.md) that demonstrate custom tasks you can perform using the user-submitted data. For example, you can perform tasks, such as sending email or storing the data.
+Adaptive forms require Submit actions to process user-specified data. A Submit action determines the task performed on the data that you submit using an adaptive form. Adobe Experience Manager (AEM) includes [OOTB Submit actions](/help/forms/using/configuring-submit-actions.md) that demonstrate custom tasks you can perform using the user-submitted data. For example, you can perform tasks, such as sending email or storing the data.
 
 ## Workflow for a Submit action {#workflow-for-a-submit-action}
 
@@ -22,7 +22,7 @@ The flowchart depicts the workflow for a Submit action that is triggered when yo
 
 ### XML data format {#xml-data-format}
 
-The XML data is sent to the servlet using the **`jcr:data`** request parameter. Submit actions can access the parameter to process the data. The following code describes the format of the XML data. The fields that are bound to the Form model appear in the **`afBoundData`** section. Unbound fields appear in the `afUnoundData`** **section. For more information about the format of the `data.xml` file, see [Introduction to prepopulating adaptive form fields](../../forms/using/prepopulate-adaptive-form-fields.md).
+The XML data is sent to the servlet using the **`jcr:data`** request parameter. Submit actions can access the parameter to process the data. The following code describes the format of the XML data. The fields that are bound to the Form model appear in the **`afBoundData`** section. Unbound fields appear in the `afUnoundData`** **section. For more information about the format of the `data.xml` file, see [Introduction to prepopulating adaptive form fields](/help/forms/using/prepopulate-adaptive-form-fields.md).
 
 ```xml
 <?xml ?>
@@ -76,7 +76,7 @@ If the action doesn't provide a forward path, the Submit servlet redirects the b
 
 >[!NOTE]
 >
->An author provides the Redirect URL (using the Thank You Page Configuration). [OOTB Submit Actions](../../forms/using/configuring-submit-actions.md) use the Redirect URL to redirect the browser from the resource that the forward path references. 
+>An author provides the Redirect URL (using the Thank You Page Configuration). [OOTB Submit Actions](/help/forms/using/configuring-submit-actions.md) use the Redirect URL to redirect the browser from the resource that the forward path references. 
 >
 >You can write a custom Submit action that forwards a request to a resource or servlet. Adobe recommends that the script that performs resource handling for the forward path redirect the request to the Redirect URL when the processing completes.
 

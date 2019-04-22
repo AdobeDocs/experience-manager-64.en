@@ -41,16 +41,16 @@ You can edit a page with the page editor. For example:
 
 When editing a page, **Help** can be accessed from:
 
-* the [**Page Information**](../../../sites/authoring/using/editing-page-properties.md#page-properties) selector; this will show the introductory slides (as shown the first time you access the editor).
-* the [configuration](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) dialog for specific components (using the ? icon in the dialog toolbar); this will show context sensitive help.
+* the [**Page Information**](/help/sites/authoring/using/editing-page-properties.md#page-properties) selector; this will show the introductory slides (as shown the first time you access the editor).
+* the [configuration](/help/sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) dialog for specific components (using the ? icon in the dialog toolbar); this will show context sensitive help.
 
-Further [help-related resources are available from consoles](../../../sites/authoring/using/basic-handling.md#accessing-help).
+Further [help-related resources are available from consoles](/help/sites/authoring/using/basic-handling.md#accessing-help).
 
 ## Components Browser {#components-browser}
 
 The components browser shows all components that are available for use on your current page. These can be dragged to the appropriate location, then edited to add your content.
 
-The components browser is a tab within the side panel (together with the [assets browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser) and [content tree](../../../sites/authoring/using/author-environment-tools.md#content-tree)). To open (or close) the side panel use the icon at the top left of the toolbar:
+The components browser is a tab within the side panel (together with the [assets browser](/help/sites/authoring/using/author-environment-tools.md#assets-browser) and [content tree](/help/sites/authoring/using/author-environment-tools.md#content-tree)). To open (or close) the side panel use the icon at the top left of the toolbar:
 
 ![](do-not-localize/screen_shot_2018-03-22at141659.png)
 
@@ -96,13 +96,13 @@ The actual appearance and handling is dependent on the device type you are using
 
   ![](assets/screen_shot_2018-03-22at141929.png)
 
-  For even more information about the components available to you see the [Component Console](../../../sites/authoring/using/default-components-console.md).
+  For even more information about the components available to you see the [Component Console](/help/sites/authoring/using/default-components-console.md).
 
 ## Assets Browser {#assets-browser}
 
 The assets browser shows all assets that are available for direct use on your current page.
 
-The assets browser is a tab within the side panel along with the [components browse](../../../sites/authoring/using/author-environment-tools.md#components-browser)r and [content tree](../../../sites/authoring/using/author-environment-tools.md#content-tree). To open or close the side panel use the icon at the top left of the toolbar:
+The assets browser is a tab within the side panel along with the [components browse](/help/sites/authoring/using/author-environment-tools.md#components-browser)r and [content tree](/help/sites/authoring/using/author-environment-tools.md#content-tree). To open or close the side panel use the icon at the top left of the toolbar:
 
 ![](do-not-localize/screen_shot_2018-03-22at141659-1.png)
 
@@ -120,13 +120,13 @@ To add an asset to your page, select and drag to the required location. This can
 
     * For example, you can drag an asset of type image onto an Image component.
 
-* A [placeholder](../../../sites/authoring/using/editing-content.md#component-placeholder) in the paragraph system to create a new component of the appropriate type.
+* A [placeholder](/help/sites/authoring/using/editing-content.md#component-placeholder) in the paragraph system to create a new component of the appropriate type.
 
     * For example, you can drag an asset of type image onto the parargraph system to create an Image component.
 
 >[!NOTE]
 >
->This is available for specific assets and component types. See [Inserting a Component using the Assets Browser](../../../sites/authoring/using/editing-content.md#inserting-a-component-using-the-assets-browser) for more details.
+>This is available for specific assets and component types. See [Inserting a Component using the Assets Browser](/help/sites/authoring/using/editing-content.md#inserting-a-component-using-the-assets-browser) for more details.
 
 From the top toolbar of the assets browser you can filter the assets by:
 
@@ -159,7 +159,7 @@ The actual appearance and handling is dependent on the device type you are using
 
   ![](assets/screen_shot_2018-03-22at142337.png)
 
-If you need to quickly make a change to an asset, you can start the [asset editor](../../../assets/using/managing-assets-touch-ui.md) directly from the asset browser by clicking the edit icon shown next to the asset's name.
+If you need to quickly make a change to an asset, you can start the [asset editor](/help/assets/using/managing-assets-touch-ui.md) directly from the asset browser by clicking the edit icon shown next to the asset's name.
 
 ![](do-not-localize/screen_shot_2018-03-22at142448.png) 
 
@@ -197,7 +197,7 @@ If the component you click in the tree is editable a wrench icon will appear to 
 
 ## Fragments - Associated Content Browser {#fragments-associated-content-browser}
 
-If your page contains Content Fragments then you will also have access to the [browser for Associated Content](../../../sites/authoring/using/content-fragments.md#using-associated-content).
+If your page contains Content Fragments then you will also have access to the [browser for Associated Content](/help/sites/authoring/using/content-fragments.md#using-associated-content).
 
 ## References {#references}
 
@@ -214,18 +214,18 @@ Open the required console, then navigate to the required resource and open **Ref
 
 ![](assets/screen_shot_2018-03-22at153653.png)
 
-[Select your required resource](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) to show a list of references types relevant to that resource:
+[Select your required resource](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources) to show a list of references types relevant to that resource:
 
 ![](assets/screen_shot_2018-03-22at153731.png)
 
 Select the appropriate reference type for more information. In certain situations further actions are available when you select a specific reference, including:
 
 * Instances of the Reference component (e.g. navigate to referencing/referenced page)  
-* [References to Product pages](../../../sites/administering/using/generic.md#showing-product-references) (available from the Commerce-Products console)
-* [Launches](../../../sites/authoring/using/launches.md)
-* [Live Copies](../../../sites/administering/using/msm.md) displays the paths of all live copies that are based on the selected resource.
-* [Blueprint](../../../sites/administering/using/msm-best-practices.md)
-* [Languages Copies](../../../sites/administering/using/tc-manage.md#creating-translation-projects-using-the-references-panel)
+* [References to Product pages](/help/sites/administering/using/generic.md#showing-product-references) (available from the Commerce-Products console)
+* [Launches](/help/sites/authoring/using/launches.md)
+* [Live Copies](/help/sites/administering/using/msm.md) displays the paths of all live copies that are based on the selected resource.
+* [Blueprint](/help/sites/administering/using/msm-best-practices.md)
+* [Languages Copies](/help/sites/administering/using/tc-manage.md#creating-translation-projects-using-the-references-panel)
 
 For example, you can fix a broken reference within a Reference component:
 
@@ -233,13 +233,13 @@ For example, you can fix a broken reference within a Reference component:
 
 ## Events - Timeline {#events-timeline}
 
-For appropriate resources (e.g. pages from the **Sites** console, or assets from the **Assets** console) the [timeline can be used to show the recent activity on any selected items](../../../sites/authoring/using/basic-handling.md#timeline).
+For appropriate resources (e.g. pages from the **Sites** console, or assets from the **Assets** console) the [timeline can be used to show the recent activity on any selected items](/help/sites/authoring/using/basic-handling.md#timeline).
 
 Open the required console, then navigate to the required resource and open **Timeline**, using:
 
 ![](assets/screen_shot_2018-03-22at153952.png)
 
-[Select your required resource](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources), then either **Show All** or **Activities** to list any recent actions on the selected resources:
+[Select your required resource](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources), then either **Show All** or **Activities** to list any recent actions on the selected resources:
 
 ![](assets/screen_shot_2018-03-22at154130.png) 
 
@@ -249,22 +249,22 @@ The Page Information (equalizer icon) opens a menu that also provides details ab
 
 ![](assets/screen_shot_2018-03-22at154210.png)
 
-* [Open Properties](../../../sites/authoring/using/editing-page-properties.md)
-* [Rollout Page](../../../sites/administering/using/msm.md#msm-from-the-ui)
-* [Start Workflow](../../../sites/authoring/using/workflows-applying.md#starting-a-workflow-from-the-page-editor)
-* [Lock Page](../../../sites/authoring/using/editing-content.md#locking-a-page)
-* [Publish Page](../../../sites/authoring/using/publishing-pages.md#publishing-pages)
-* [Unpublish Page](../../../sites/authoring/using/publishing-pages.md#unpublishing-pages)
-* [View as Published](../../../sites/authoring/using/editing-content.md#view-as-published)
-* [View in Admin](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
-* [Help](../../../sites/authoring/using/basic-handling.md#accessing-help)
+* [Open Properties](/help/sites/authoring/using/editing-page-properties.md)
+* [Rollout Page](/help/sites/administering/using/msm.md#msm-from-the-ui)
+* [Start Workflow](/help/sites/authoring/using/workflows-applying.md#starting-a-workflow-from-the-page-editor)
+* [Lock Page](/help/sites/authoring/using/editing-content.md#locking-a-page)
+* [Publish Page](/help/sites/authoring/using/publishing-pages.md#publishing-pages)
+* [Unpublish Page](/help/sites/authoring/using/publishing-pages.md#unpublishing-pages)
+* [View as Published](/help/sites/authoring/using/editing-content.md#view-as-published)
+* [View in Admin](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
+* [Help](/help/sites/authoring/using/basic-handling.md#accessing-help)
 
 For example, when appropriate, **Page Information** also has the options:
 
-* [Promote Launch](../../../sites/authoring/using/launches-promoting.md) if the page is a launch.
-* [Edit Template](../../../sites/authoring/using/templates.md) if the page is based on an [editable template](../../../sites/authoring/using/templates.md#editable-and-static-templates)
+* [Promote Launch](/help/sites/authoring/using/launches-promoting.md) if the page is a launch.
+* [Edit Template](/help/sites/authoring/using/templates.md) if the page is based on an [editable template](/help/sites/authoring/using/templates.md#editable-and-static-templates)
 
-* [Open in Classic UI](../../../sites/authoring/using/select-ui.md#switching-to-classic-ui-when-editing-a-page) if this options has been [enabled by an administrator](../../../sites/administering/using/enable-classic-ui-editor.md)
+* [Open in Classic UI](/help/sites/authoring/using/select-ui.md#switching-to-classic-ui-when-editing-a-page) if this options has been [enabled by an administrator](/help/sites/administering/using/enable-classic-ui-editor.md)
 
 In addition, **Page Information** can provide access to analytics and recommendations, when appropriate.
 
@@ -272,22 +272,22 @@ In addition, **Page Information** can provide access to analytics and recommenda
 
 There are various modes when editing a page allowing for different actions:
 
-* [Edit](../../../sites/authoring/using/editing-content.md) - the mode to use when editing the page content.
-* [Layout](../../../sites/authoring/using/responsive-layout.md) - allows you to create and edit your responsive layout dependent on device (if the page is based on a layout container)  
+* [Edit](/help/sites/authoring/using/editing-content.md) - the mode to use when editing the page content.
+* [Layout](/help/sites/authoring/using/responsive-layout.md) - allows you to create and edit your responsive layout dependent on device (if the page is based on a layout container)  
 
-* [Scaffolding](../../../sites/authoring/using/scaffolding.md) - help you to create a large set of pages that share the same structure but have differing content.
-* [Developer](../../../sites/developing/using/developer-mode.md) - allows you to perform various actions (requires privileges). These include inspecting the technical details of a page and its components.  
+* [Scaffolding](/help/sites/authoring/using/scaffolding.md) - help you to create a large set of pages that share the same structure but have differing content.
+* [Developer](/help/sites/developing/using/developer-mode.md) - allows you to perform various actions (requires privileges). These include inspecting the technical details of a page and its components.  
 
-* [Design](../../../sites/authoring/using/default-components-designmode.md) - allows you to enable/disable components for use on a page and to configure the design of the component (if the page is based on a [static template](../../../sites/authoring/using/templates.md#editable-and-static-templates)).
+* [Design](/help/sites/authoring/using/default-components-designmode.md) - allows you to enable/disable components for use on a page and to configure the design of the component (if the page is based on a [static template](/help/sites/authoring/using/templates.md#editable-and-static-templates)).
 
-* [Targeting](../../../sites/authoring/using/content-targeting-touch.md) - increase content relevance through targeting and measuring across all channels.
-* [Activity Map](../../../sites/authoring/using/pa-using.md) - shows Analytics data for the page.  
+* [Targeting](/help/sites/authoring/using/content-targeting-touch.md) - increase content relevance through targeting and measuring across all channels.
+* [Activity Map](/help/sites/authoring/using/pa-using.md) - shows Analytics data for the page.  
 
-* [Timewarp](../../../sites/authoring/using/working-with-page-versions.md#timewarp) - allows you to view a pages state at a particular point in time.
-* [Live Copy Status](../../../sites/authoring/using/editing-content.md#live-copy-status) - allows a quick overview of the live copy status and which components are/are not inherited.
-* [Preview](../../../sites/authoring/using/editing-content.md#previewing-pages) - used to view the page as it will be shown on the publish environment; or to navigate using links in the content.  
+* [Timewarp](/help/sites/authoring/using/working-with-page-versions.md#timewarp) - allows you to view a pages state at a particular point in time.
+* [Live Copy Status](/help/sites/authoring/using/editing-content.md#live-copy-status) - allows a quick overview of the live copy status and which components are/are not inherited.
+* [Preview](/help/sites/authoring/using/editing-content.md#previewing-pages) - used to view the page as it will be shown on the publish environment; or to navigate using links in the content.  
 
-* [Annotate](../../../sites/authoring/using/annotations.md) - used to add or view annotations on the page.
+* [Annotate](/help/sites/authoring/using/annotations.md) - used to add or view annotations on the page.
 
 You can access these using the icons in the top right corner. The actual icon will change to reflect the mode you are currently using:
 
@@ -298,28 +298,28 @@ You can access these using the icons in the top right corner. The actual icon wi
 >* Depending on the characteristics of the page, some modes my not be available.
 >* Access to some modes require the appropriate permissions/privileges.
 >* Developer mode is not available on mobile devices due to space restrictions.
->* There is a [keyboard shortcut](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md) ( `Ctrl-Shift-M`) to toggle between **Preview** and the currently selected mode (e.g. **Edit**, **Layout**, etc).
+>* There is a [keyboard shortcut](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md) ( `Ctrl-Shift-M`) to toggle between **Preview** and the currently selected mode (e.g. **Edit**, **Layout**, etc).
 >
 
 ## Path Selection {#path-selection}
 
-Often when authoring it is necessary to select another resource such as when defining a link to another page or resource or selecting an image. To easily select a path, [path fields](../../../sites/authoring/using/author-environment-tools.md#path-fields) offer auto-complete and the [path browser](../../../sites/authoring/using/author-environment-tools.md#path-browser) allows for more robust selection.
+Often when authoring it is necessary to select another resource such as when defining a link to another page or resource or selecting an image. To easily select a path, [path fields](/help/sites/authoring/using/author-environment-tools.md#path-fields) offer auto-complete and the [path browser](/help/sites/authoring/using/author-environment-tools.md#path-browser) allows for more robust selection.
 
 ### Path Fields {#path-fields}
 
-The example used here to illustrate is the image component. For more information about using and editing components see [Components for Page Authoring](../../../sites/authoring/using/default-components.md).
+The example used here to illustrate is the image component. For more information about using and editing components see [Components for Page Authoring](/help/sites/authoring/using/default-components.md).
 
 Path fields have auto-complete and look-ahead funtionality now to make locating a resource easier. Simply start typing in the path field and the AEM will offer matching paths as you type.
 
 ![](assets/screen_shot_2018-03-22at154403.png)
 
-Clicking the **Open Selection Dialog** button in the path field opens the [path browser](../../../sites/authoring/using/author-environment-tools.md#path-browser) dialog to allow for more detailed selection options.
+Clicking the **Open Selection Dialog** button in the path field opens the [path browser](/help/sites/authoring/using/author-environment-tools.md#path-browser) dialog to allow for more detailed selection options.
 
 ![](do-not-localize/screen_shot_2018-03-22at154427.png) 
 
 ### Path Browser {#path-browser}
 
-The path browser is organized like the [column view](../../../sites/authoring/using/basic-handling.md#column-view) of the sites console, allowing for more detailed selection of resources.
+The path browser is organized like the [column view](/help/sites/authoring/using/basic-handling.md#column-view) of the sites console, allowing for more detailed selection of resources.
 
 ![](assets/screen_shot_2018-03-22at154521.png)
 
@@ -345,4 +345,4 @@ To narrow your search, you can reveal the filter options and filter your results
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}
 
-Various [keyboard shortcuts](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md) are available.
+Various [keyboard shortcuts](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md) are available.

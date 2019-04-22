@@ -108,7 +108,7 @@ If you selected the Enable referral option in the Directory settings, set the Ba
 
 ***Note**: Do not include the user’s DN in this setting. To synchronize a particular user, use the Search Filter setting.*
 
-Although Base DN is a mandatory setting in administration console, some directory servers such as IBM Domino Enterprise Server may require an empty BaseDN. To specify an empty Base DN, export the config.xml file, edit the setting in the config.xml file, and then reimport it. (See [Importing and exporting the configuration file](../../../forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
+Although Base DN is a mandatory setting in administration console, some directory servers such as IBM Domino Enterprise Server may require an empty BaseDN. To specify an empty Base DN, export the config.xml file, edit the setting in the config.xml file, and then reimport it. (See [Importing and exporting the configuration file](/help/forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
 
 **Search Filter:** (Mandatory) The search filter to use to find the record that is associated with the user. You can perform a one-level search or a sub-level search. (See Search Filter Syntax or RFC 2254.) Additional information for the Microsoft AD schema, see Active Directory Schema.
 
@@ -160,7 +160,7 @@ The amount of space used to display the name of the business calendar key in the
 
 **Base DN:** (Mandatory) Base distinguished name of the directory.
 
-Although Base DN is a mandatory setting in administration console, some directory servers such as IBM Domino Enterprise Server require an empty BaseDN. To specify an empty Base DN, export the config.xml file, edit the setting in the config.xml file, and then reimport it. (See [Importing and exporting the configuration file](../../../forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
+Although Base DN is a mandatory setting in administration console, some directory servers such as IBM Domino Enterprise Server require an empty BaseDN. To specify an empty Base DN, export the config.xml file, edit the setting in the config.xml file, and then reimport it. (See [Importing and exporting the configuration file](/help/forms/using/admin-help/importing-exporting-configuration-file.md#importing-and-exporting-the-configuration-file).)
 
 **Search Filter:** (Mandatory) The search filter to use to find the record that is associated with the group. You can perform a one-level search or a sub-level search.
 

@@ -21,21 +21,21 @@ For further information see the [GDPR page at the Adobe Privacy Center](https://
 
 >[!NOTE]
 >
->See [AEM GDPR Readiness](../../../managing/using/gdpr-compliance.md) for further details.
+>See [AEM GDPR Readiness](/help/managing/using/gdpr-compliance.md) for further details.
 
 ## Author Server {#author-server}
 
-User accounts and UGC content on the author server are covered in the [Platform GDPR documentation](../../../managing/using/gdpr-compliance.md).
+User accounts and UGC content on the author server are covered in the [Platform GDPR documentation](/help/managing/using/gdpr-compliance.md).
 
 ## Publish Server {#publish-server}
 
-User accounts used to authenticate visitors on the site, and UGC content on the publish server are covered in the [Platform GDPR documentation](../../../managing/using/gdpr-compliance.md).
+User accounts used to authenticate visitors on the site, and UGC content on the publish server are covered in the [Platform GDPR documentation](/help/managing/using/gdpr-compliance.md).
 
 By default AEM Sites components do not store form-data entered by visitors on the  publish  server. It is recommended to forward the data to a third party system, or Adobe Campaign for further processing.
 
 ## Opt-In/Opt-Out {#opt-in-opt-out}
 
-AEM has a [cookie opt-out service](../../../sites/developing/using/cookie-optout.md ) that can be used for managing the opt-in/opt-out for users.
+AEM has a [cookie opt-out service](/help/sites/developing/using/cookie-optout.md ) that can be used for managing the opt-in/opt-out for users.
 
 ## Enhanced Insights by Analytics {#enhanced-insights-by-analytics}
 
@@ -51,7 +51,7 @@ For further information on managing GDPR data subject requests related to Adobe 
 
 ## ContextHub {#contexthub}
 
-AEM provides an optional data layer with [ContextHub](../../../sites/developing/using/contexthub.md). This keeps visitor-specific data in the browser, to be used for rules-based personalization.
+AEM provides an optional data layer with [ContextHub](/help/sites/developing/using/contexthub.md). This keeps visitor-specific data in the browser, to be used for rules-based personalization.
 
 By default, this visitor-data is not stored in AEM; AEM sends rules to the data layer to make personalization decisions in the browser.
 

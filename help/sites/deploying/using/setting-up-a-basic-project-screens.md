@@ -26,7 +26,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    Additionally, AEM Screens is also available in [iTunes App Store](https://itunes.apple.com/us/app/aem-screens/id1169641856?mt=8) and [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&hl=en).
 
-   See [Installing and Configuring Screens](../../../sites/deploying/using/configuring-screens-introduction.md) for more details.
+   See [Installing and Configuring Screens](/help/sites/deploying/using/configuring-screens-introduction.md) for more details.
 
 1. **Creating a new project**
 
@@ -42,7 +42,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![](assets/chlimage_1-125.png)
 
-   See [Creating and Managing projects in Screens](../../../sites/authoring/using/creating-a-screens-project.md) for more details.
+   See [Creating and Managing projects in Screens](/help/sites/authoring/using/creating-a-screens-project.md) for more details.
 
 1. **Creating a new channel**
 
@@ -63,7 +63,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![](assets/chlimage_1-127.png)
 
-   See [Channel Management](../../../screens/using/managing-channels.md) for more details on creating and managing channels.
+   See [Channel Management](/help/screens/using/managing-channels.md) for more details on creating and managing channels.
 
 1. **Creating a new location**
 
@@ -195,8 +195,8 @@ Once you have added the above configurations, the player should automatically sh
 
 For in-depth understanding for all the modules for Screens, see the resources below:
 
-1. [Installing and Configuring Screens](../../../sites/deploying/using/configuring-screens-introduction.md)
-1. [Screens Project Creation](../../../sites/authoring/using/creating-a-screens-project.md)
+1. [Installing and Configuring Screens](/help/sites/deploying/using/configuring-screens-introduction.md)
+1. [Screens Project Creation](/help/sites/authoring/using/creating-a-screens-project.md)
 1. [Device Assignment](/help/screens/using/managing-devices.md)
 1. Application Management
 1. Channel Management

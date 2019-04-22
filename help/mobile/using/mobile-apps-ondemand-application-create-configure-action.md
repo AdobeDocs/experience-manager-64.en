@@ -15,7 +15,7 @@ discoiquuid: ccafd49a-5c8a-44eb-9b0c-37070560bb52
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 ## Creating an On-Demand Application {#creating-an-on-demand-application}
 
@@ -27,7 +27,7 @@ The details of your app can be viewed in the Dashboard or AEM Mobile Control Cen
 >
 >The Dashboard is a series of useful tiles which give an overview of the app's content, metadata, and AEM Mobile On-Demand connection status.
 >
->See [AEM Mobile Application Dashboard](../../mobile/using/mobile-apps-ondemand-application-dashboard.md) for details.
+>See [AEM Mobile Application Dashboard](/help/mobile/using/mobile-apps-ondemand-application-dashboard.md) for details.
 
 **To create an on-demand app:**
 
@@ -59,22 +59,22 @@ You must have an existing mobile app template (or an app installed that has an a
 
 Once you create an On-Demand app from the application dashboard, the next step is to associate your app to the cloud configuration.
 
-See [Associating your app to the Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md) for more details.
+See [Associating your app to the Cloud Configuration](/help/mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md) for more details.
 
 ### Getting Ahead {#getting-ahead}
 
-Once you are familiar with creating an on-demand application and thus associating that app to a cloud configuration, see [Content Management Actions](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md).
+Once you are familiar with creating an on-demand application and thus associating that app to a cloud configuration, see [Content Management Actions](/help/mobile/using/mobile-apps-ondemand-manage-content-ondemand.md).
 
 **Content Management Actions** involes creation and management of following content:
 
-* [Managing Articles](../../mobile/using/mobile-on-demand-managing-articles.md)
-* [Managing Banners](../../mobile/using/mobile-on-demand-managing-banners.md)
-* [Managing Collections](../../mobile/using/mobile-on-demand-managing-collections.md)
-* [Uploading Shared Resources](../../mobile/using/mobile-on-demand-shared-resources.md)
-* [Publish UnPublish Content](../../mobile/using/mobile-on-demand-publishing-unpublishing.md)
+* [Managing Articles](/help/mobile/using/mobile-on-demand-managing-articles.md)
+* [Managing Banners](/help/mobile/using/mobile-on-demand-managing-banners.md)
+* [Managing Collections](/help/mobile/using/mobile-on-demand-managing-collections.md)
+* [Uploading Shared Resources](/help/mobile/using/mobile-on-demand-shared-resources.md)
+* [Publish UnPublish Content](/help/mobile/using/mobile-on-demand-publishing-unpublishing.md)
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 
-* [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
-* [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md)
+* [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-on-demand.md)
+* [Administering Content to Use AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile.md)
 

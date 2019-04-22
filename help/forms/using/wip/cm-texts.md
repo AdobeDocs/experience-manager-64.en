@@ -40,7 +40,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    The default spellchecker in your browser checks spelling in the Text editor. To manage the spelling and grammar checking, you can edit your browser's spellchecker settings or install browser plugins/addons to check spelling and grammar.
 
-   You can also use the various keyboard shortcuts in the text editor to manage, edit, and format text. For more information on [Text Editor](../../../forms/using/keyboard-shortcuts.md#p-formatting-p) keyboard shortcuts in Correspondence Management Keyboard Shortcuts. 
+   You can also use the various keyboard shortcuts in the text editor to manage, edit, and format text. For more information on [Text Editor](/help/forms/using/keyboard-shortcuts.md#p-formatting-p) keyboard shortcuts in Correspondence Management Keyboard Shortcuts. 
 
 1. A text editor opens, enter the text. Use the toolbar at the top of the page to format the text, insert conditions, link, and page breaks.  
 
@@ -93,7 +93,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    ![](assets/specialcharacters.png)
 
-   Correspondence Management has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](../../../forms/using/custom-special-characters.md). 
+   Correspondence Management has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](/help/forms/using/custom-special-characters.md). 
 
 1. To highlight\emphasize parts of text in an editable inline module, select the text and tap Highlight Color.
 
@@ -121,7 +121,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
    Placeholder element values in the CCR view populated from the Data Dictionary variables as specified in the sample data file
 
-1. You can use inline conditions and repeat to make your letter highly contextual and well structured. For more information on inline condition and repeat, see [Inline conditions and repeat in letters](../../../forms/using/cm-inline-condition.md).
+1. You can use inline conditions and repeat to make your letter highly contextual and well structured. For more information on inline condition and repeat, see [Inline conditions and repeat in letters](/help/forms/using/cm-inline-condition.md).
 1. Tap **Save**.
 
 ### Searching and replacing text {#searchingandreplacingtext}

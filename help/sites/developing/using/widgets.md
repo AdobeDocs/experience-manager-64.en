@@ -19,7 +19,7 @@ Adobe Experience Manager (AEM) uses the [ExtJS](https://www.sencha.com/) widgets
 
 These widgets are included within AEM and, in addition to being used by AEM itself, can be used by any website built using AEM.
 
-For a complete reference of all the available widgets in AEM you can refer to the [widget API documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html) or to the [list of existing xtypes](../../../sites/developing/using/xtypes.md). In addition, many examples showing how to use the ExtJS framework are available on the [Sencha](https://www.sencha.com/products/extjs/examples/) site, the owner of the framework.
+For a complete reference of all the available widgets in AEM you can refer to the [widget API documentation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html) or to the [list of existing xtypes](/help/sites/developing/using/xtypes.md). In addition, many examples showing how to use the ExtJS framework are available on the [Sencha](https://www.sencha.com/products/extjs/examples/) site, the owner of the framework.
 
 This page gives some insights about how to use and extend widgets. It first describes how to [include client-sided code in a page](#including-the-client-sided-code-in-a-page). It then describes some sample components that have been created to illustrate some basic use and extension. Those components are available in the **Using ExtJS Widgets** package on **Package Share**.
 
@@ -37,7 +37,7 @@ The package includes examples of:
 
 >[!NOTE]
 >
->This page describes the usage of widgets within the classic UI. Adobe recommends that you leverage the modern, [touch-enabled UI](../../../sites/developing/using/touch-ui-concepts.md) based on [Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui) and [Granite UI](../../../sites/developing/using/touch-ui-concepts.md#granite-ui-foundation-components).
+>This page describes the usage of widgets within the classic UI. Adobe recommends that you leverage the modern, [touch-enabled UI](/help/sites/developing/using/touch-ui-concepts.md) based on [Coral UI](/help/sites/developing/using/touch-ui-concepts.md#coral-ui) and [Granite UI](/help/sites/developing/using/touch-ui-concepts.md#granite-ui-foundation-components).
 
 ## Including the Client-Sided Code in a Page {#including-the-client-sided-code-in-a-page}
 
@@ -95,7 +95,7 @@ To include the client library in the page component jsp:
 * to only include javascript code:  
   `<ui:includeClientLib js="<category-name>"/>`
 
-For more details refer to the description of the [&lt;ui:includeClientLib&gt;](../../../sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) tag.
+For more details refer to the description of the [&lt;ui:includeClientLib&gt;](/help/sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) tag.
 
 In some cases a client library should only be available in author mode and should be excluded in publish mode. It can be achieved as follows:
 
@@ -122,7 +122,7 @@ To follow the tutorials on this page, install the package called **Using ExtJS W
 
 >[!NOTE]
 >
->The examples on this page are based on the Geometrixx sample content, which is no longer shipped with AEM, having been replaced by We.Retail. See the document [We.Retail Reference Implementation](../../../sites/developing/using/we-retail.md#we-retail-geometrixx) for how to download and install Geometrixx.
+>The examples on this page are based on the Geometrixx sample content, which is no longer shipped with AEM, having been replaced by We.Retail. See the document [We.Retail Reference Implementation](/help/sites/developing/using/we-retail.md#we-retail-geometrixx) for how to download and install Geometrixx.
 
 ### Basic Dialogs {#basic-dialogs}
 
@@ -152,10 +152,10 @@ The component displays as follows:
 
 The **Full** dialog displays a window with three tabs, each tab having two text fields. It is the default dialog of the **Dialog Basics** component. Its characteristics are:
 
-* Is defined by a node: node type = `cq:Dialog`, xtype = ` [dialog](../../../sites/developing/using/xtypes.md#dialog)`.
+* Is defined by a node: node type = `cq:Dialog`, xtype = ` [dialog](/help/sites/developing/using/xtypes.md#dialog)`.
 
 * Displays 3 tabs (node type = `cq:Panel`).
-* Each tab has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](../../../sites/developing/using/xtypes.md#textfield)`).  
+* Each tab has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](/help/sites/developing/using/xtypes.md#textfield)`).  
 
 * Is defined by the node:  
   `/apps/extjstraining/components/dialogbasics/full`
@@ -171,9 +171,9 @@ The dialog displays as follows:
 
 The **Single Panel** dialog displays a window with one tab that has two text fields. Its characteristics are:
 
-* Displays 1 tab (node type = `cq:Dialog`, xtype = ` [panel](../../../sites/developing/using/xtypes.md#panel)`)
+* Displays 1 tab (node type = `cq:Dialog`, xtype = ` [panel](/help/sites/developing/using/xtypes.md#panel)`)
 
-* The tab has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](../../../sites/developing/using/xtypes.md#textfield)`)  
+* The tab has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](/help/sites/developing/using/xtypes.md#textfield)`)  
 
 * Is defined by the node:  
   `/apps/extjstraining/components/dialogbasics/singlepanel`
@@ -203,10 +203,10 @@ To use the Single Panel dialog:
 
 The **Multi Panel** dialog has the same display as the **Full** dialog but it is built differently. Its characteristics are:
 
-* Is defined by a node (node type = `cq:Dialog`, xtype = ` [tabpanel](../../../sites/developing/using/xtypes.md#tabpanel)`).
+* Is defined by a node (node type = `cq:Dialog`, xtype = ` [tabpanel](/help/sites/developing/using/xtypes.md#tabpanel)`).
 
 * Displays 3 tabs (node type = `cq:Panel`).
-* Each tab has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](../../../sites/developing/using/xtypes.md#textfield)`).
+* Each tab has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](/help/sites/developing/using/xtypes.md#textfield)`).
 
 * Is defined by the node:  
   `/apps/extjstraining/components/dialogbasics/multipanel`
@@ -231,12 +231,12 @@ To use the Multi Panel dialog:
 
 The **Rich** dialog displays a window with two tabs. The first tab has a text field, a drop-down menu and a collapsible textarea. The second tab has a field set with four text fields and a collapsible field set with two text fields. Its characteristics are:
 
-* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](../../../sites/developing/using/xtypes.md#dialog)`).  
+* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](/help/sites/developing/using/xtypes.md#dialog)`).  
 
 * Displays 2 tabs (node type = `cq:Panel`).
-* The first tab has a ` [dialogfieldset](../../../sites/developing/using/xtypes.md#dialogfieldset)` widget with a ` [textfield](../../../sites/developing/using/xtypes.md#textfield)` and a ` [selection](../../../sites/developing/using/xtypes.md#selection)` widget with 3 options, and a collapsible ` [dialogfieldset](../../../sites/developing/using/xtypes.md#dialogfieldset)` with a ` [textarea](../../../sites/developing/using/xtypes.md#textarea)` widget.
+* The first tab has a ` [dialogfieldset](/help/sites/developing/using/xtypes.md#dialogfieldset)` widget with a ` [textfield](/help/sites/developing/using/xtypes.md#textfield)` and a ` [selection](/help/sites/developing/using/xtypes.md#selection)` widget with 3 options, and a collapsible ` [dialogfieldset](/help/sites/developing/using/xtypes.md#dialogfieldset)` with a ` [textarea](/help/sites/developing/using/xtypes.md#textarea)` widget.
 
-* The second tab has a ` [dialogfieldset](../../../sites/developing/using/xtypes.md#dialogfieldset)` widget with 4 ` [textfield](../../../sites/developing/using/xtypes.md#textfield)` widgets, and a collapsible `dialogfieldset` with 2 ` [textfield](../../../sites/developing/using/xtypes.md#textfield)` widgets.
+* The second tab has a ` [dialogfieldset](/help/sites/developing/using/xtypes.md#dialogfieldset)` widget with 4 ` [textfield](/help/sites/developing/using/xtypes.md#textfield)` widgets, and a collapsible `dialogfieldset` with 2 ` [textfield](/help/sites/developing/using/xtypes.md#textfield)` widgets.
 
 * Is defined by the node:  
   `/apps/extjstraining/components/dialogbasics/rich`
@@ -277,10 +277,10 @@ The **Switch Tabs** dialog displays a window with two tabs. The first tab has a 
 
 Its main characteristics are:
 
-* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](../../../sites/developing/using/xtypes.md#dialog)`).  
+* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](/help/sites/developing/using/xtypes.md#dialog)`).  
 
 * Displays 2 tabs (node type = `cq:Panel`): 1 selection tab, the 2nd tab depends on the selection in the 1st tab (3 options).
-* Has 3 optional tabs (node type = `cq:Panel`), each one has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](../../../sites/developing/using/xtypes.md#textfield)`). Only one optional tab is displayed at a time.  
+* Has 3 optional tabs (node type = `cq:Panel`), each one has 2 textfields (node type = `cq:Widget`, xtype = ` [textfield](/help/sites/developing/using/xtypes.md#textfield)`). Only one optional tab is displayed at a time.  
 
 * Is defined by the `switchtabs` node at:  
   `/apps/extjstraining/components/dynamicdialogs/switchtabs`
@@ -328,11 +328,11 @@ The **Arbitrary** dialog displays a window with one tab. The tab has two fields:
 
 Its main characteristics are:
 
-* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](../../../sites/developing/using/xtypes.md#dialog)`).  
+* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](/help/sites/developing/using/xtypes.md#dialog)`).  
 
-* Displays 1 tabpanel widget (node type = `cq:Widget`, xtype = ` [tabpanel](../../../sites/developing/using/xtypes.md#tabpanel)`) with 1 panel (node type = `cq:Panel`)
+* Displays 1 tabpanel widget (node type = `cq:Widget`, xtype = ` [tabpanel](/help/sites/developing/using/xtypes.md#tabpanel)`) with 1 panel (node type = `cq:Panel`)
 
-* The panel has a smartfile widget (node type = `cq:Widget`, xtype = ` [smartfile](../../../sites/developing/using/xtypes.md#smartfile)`) and an ownerdraw widget (node type = `cq:Widget`, xtype = ` [ownerdraw](../../../sites/developing/using/xtypes.md#ownerdraw)`)
+* The panel has a smartfile widget (node type = `cq:Widget`, xtype = ` [smartfile](/help/sites/developing/using/xtypes.md#smartfile)`) and an ownerdraw widget (node type = `cq:Widget`, xtype = ` [ownerdraw](/help/sites/developing/using/xtypes.md#ownerdraw)`)
 
 * Is defined by the `arbitrary` node at:  
   `/apps/extjstraining/components/dynamicdialogs/arbitrary`
@@ -372,11 +372,11 @@ The **Toggle Fields** dialog displays a window with one tab. The tab has a check
 
 Its main characteristics are:
 
-* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](../../../sites/developing/using/xtypes.md#dialog)`).  
+* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](/help/sites/developing/using/xtypes.md#dialog)`).  
 
-* Displays 1 tabpanel widget (node type = `cq:Widget`, xtype = ` [tabpanel](../../../sites/developing/using/xtypes.md#textpanel)`) with 1 panel (node type = `cq:Panel`).
+* Displays 1 tabpanel widget (node type = `cq:Widget`, xtype = ` [tabpanel](/help/sites/developing/using/xtypes.md#textpanel)`) with 1 panel (node type = `cq:Panel`).
 
-* The panel has a selection/checkbox widget (node type = `cq:Widget`, xtype = ` [selection](../../../sites/developing/using/xtypes.md#selection)`, type = ` [checkbox](../../../sites/developing/using/xtypes.md#checkbox)`) and a collapsible dialogfieldset widget (node type = `cq:Widget`, xtype = ` [dialogfieldset](../../../sites/developing/using/xtypes.md#dialogfieldset)`) that is hidden by default, with 2 textfield widgets (node type = `cq:Widget`, xtype = ` [textfield](../../../sites/developing/using/xtypes.md#textfield)`).
+* The panel has a selection/checkbox widget (node type = `cq:Widget`, xtype = ` [selection](/help/sites/developing/using/xtypes.md#selection)`, type = ` [checkbox](/help/sites/developing/using/xtypes.md#checkbox)`) and a collapsible dialogfieldset widget (node type = `cq:Widget`, xtype = ` [dialogfieldset](/help/sites/developing/using/xtypes.md#dialogfieldset)`) that is hidden by default, with 2 textfield widgets (node type = `cq:Widget`, xtype = ` [textfield](/help/sites/developing/using/xtypes.md#textfield)`).
 
 * Is defined by the `togglefields` node at:  
   `/apps/extjstraining/components/dynamicdialogs/togglefields`
@@ -433,11 +433,11 @@ The **Custom Multifield** widget based dialog displays a window with one tab. Th
 
 The **Custom Multifield** widget based dialog:
 
-* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](../../../sites/developing/using/xtypes.md#dialog)`).  
+* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](/help/sites/developing/using/xtypes.md#dialog)`).  
 
-* Displays 1 tabpanel widget (node type = `cq:Widget`, xtype = ` [tabpanel](../../../sites/developing/using/xtypes.md#tabpanel)`) containing a panel (node type = `cq:Widget`, xtype = ` [panel](../../../sites/developing/using/xtypes.md#panel)`).  
+* Displays 1 tabpanel widget (node type = `cq:Widget`, xtype = ` [tabpanel](/help/sites/developing/using/xtypes.md#tabpanel)`) containing a panel (node type = `cq:Widget`, xtype = ` [panel](/help/sites/developing/using/xtypes.md#panel)`).  
 
-* The panel has a `multifield` widget (node type = `cq:Widget`, xtype = ` [multifield](../../../sites/developing/using/xtypes.md#multifield)`).
+* The panel has a `multifield` widget (node type = `cq:Widget`, xtype = ` [multifield](/help/sites/developing/using/xtypes.md#multifield)`).
 
 * The `multifield` widget has a fieldconfig (node type = `nt:unstructured`, xtype = `ejstcustom`, optionsProvider = `Ejst.x3.provideOptions`) that is based on the custom xtype ' `ejstcustom`':
 
@@ -486,9 +486,9 @@ The custom **Treebrowse** widget based dialog displays a window with one tab con
 
 The custom treebrowse dialog:
 
-* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](../../../sites/developing/using/xtypes.md#dialog)`).  
+* Is defined by a node (node type = `cq:Dialog`, xtype = ` [dialog](/help/sites/developing/using/xtypes.md#dialog)`).  
 
-* Displays 1 tabpanel widget (node type = `cq:Widget`, xtype = ` [tabpanel](../../../sites/developing/using/xtypes.md#tabpanel)`) containing a panel (node type = `cq:Widget`, xtype = ` [panel](../../../sites/developing/using/xtypes.md#panel)`).  
+* Displays 1 tabpanel widget (node type = `cq:Widget`, xtype = ` [tabpanel](/help/sites/developing/using/xtypes.md#tabpanel)`) containing a panel (node type = `cq:Widget`, xtype = ` [panel](/help/sites/developing/using/xtypes.md#panel)`).  
 
 * The panel has a custom widget (node type = `cq:Widget`, xtype = `ejstbrowse`)
 
@@ -645,9 +645,9 @@ The javascript code embedded in the component jsp:
 The component dialog:
 
 * Displays 1 tab with 2 fields to set the size (width and heigth) of the tree overview window and 1 field to dock/undock the window
-* Is defined by a node (node type = `cq:Dialog`, xtype = ` [panel](../../../sites/developing/using/xtypes.md#panel)`).  
+* Is defined by a node (node type = `cq:Dialog`, xtype = ` [panel](/help/sites/developing/using/xtypes.md#panel)`).  
 
-* The panel has a sizefield widget (node type = `cq:Widget`, xtype = ` [sizefield](../../../sites/developing/using/xtypes.md#sizefield)`) and a selection widget (node type = `cq:Widget`, xtype = ` [selection](../../../sites/developing/using/xtypes.md#selection)`, type = `radio`) with 2 options (true/false)  
+* The panel has a sizefield widget (node type = `cq:Widget`, xtype = ` [sizefield](/help/sites/developing/using/xtypes.md#sizefield)`) and a selection widget (node type = `cq:Widget`, xtype = ` [selection](/help/sites/developing/using/xtypes.md#selection)`, type = `radio`) with 2 options (true/false)  
 
 * Is defined by the dialog node at:  
   `/apps/extjstraining/components/treeoverview/dialog`  

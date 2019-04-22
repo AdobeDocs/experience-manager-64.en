@@ -28,7 +28,7 @@ AEM is shipped with various mechanisms to help you manage your repository:
 * the [Version Manager](#version-manager)  
   This can be configured to purge old versions when new versions are created.  
 
-* the [Purge Versions](../../../sites/deploying/using/monitoring-and-maintaining.md#version-purging) tool  
+* the [Purge Versions](/help/sites/deploying/using/monitoring-and-maintaining.md#version-purging) tool  
   This is used as part of monitoring and maintaining your repository.  
   It allows you to intervene to remove old versions of a node, or a hierarchy of nodes, according to these parameters:
 
@@ -38,7 +38,7 @@ AEM is shipped with various mechanisms to help you manage your repository:
     * The maximum age of any version kept in the repository.  
       When the age of a version exceeds this value, it is purged from the repository.
 
-* the [Version Purge maintenance task](../../../sites/administering/using/operations-dashboard.md#automated-maintenance-tasks). You can schedule the Version Purge maintenance task to delete old versions automatically. As a result, this minimizes the need to manually use the Version Purge tools.
+* the [Version Purge maintenance task](/help/sites/administering/using/operations-dashboard.md#automated-maintenance-tasks). You can schedule the Version Purge maintenance task to delete old versions automatically. As a result, this minimizes the need to manually use the Version Purge tools.
 
 >[!CAUTION]
 >
@@ -120,4 +120,4 @@ For example, when defining the maximum AND minimum number of versions to retain 
 
 ## Purge Versions Tool {#purge-versions-tool}
 
-The [Purge Versions](../../../sites/deploying/using/monitoring-and-maintaining.md#purgeversionstool) tool is intended for purging the versions of a node or a hierarchy of nodes in your repository. Its primary purpose is to help you reduce the size of your repository by removing old versions of your nodes.
+The [Purge Versions](/help/sites/deploying/using/monitoring-and-maintaining.md#purgeversionstool) tool is intended for purging the versions of a node or a hierarchy of nodes in your repository. Its primary purpose is to help you reduce the size of your repository by removing old versions of your nodes.

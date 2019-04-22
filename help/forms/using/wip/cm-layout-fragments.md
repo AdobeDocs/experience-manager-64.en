@@ -13,13 +13,13 @@ discoiquuid: ef250bc5-2aac-4ab1-a1d9-71d8d98dcd18
 
 ## Layout Fragments {#layoutfragments}
 
-A layout fragment is based on XDPs created in Designer. For creating layout fragments, you need to create the XDPs and [upload them to AEM Forms](../../../forms/using/import-export-forms-templates.md).
+A layout fragment is based on XDPs created in Designer. For creating layout fragments, you need to create the XDPs and [upload them to AEM Forms](/help/forms/using/import-export-forms-templates.md).
 
 One or more layout fragments can form parts of a letter and define the graphical layout of those parts. A layout fragment can contain typical form fields, such as Address and Reference Number, and empty subforms that denote target areas. In addition, layout fragments allow you to create tables and insert them in letters.
 
 A common use case is to locate reusable layout patterns in Letters and create layout fragments for them. For example, the salutation, address, and subject part of the letter, which appears in the same order multiple letters. Another example could be a table similar number of rows and columns used in multiple letters.
 
-You can create a layout fragment based on an existing XDP. A layout fragment can either be made up of fields and target areas or one or more tables. The tables in a layout can be static or dynamic. An XDP is created in Designer and [uploaded to AEM Forms](../../../forms/using/import-export-forms-templates.md). An XDP can form the structure either of a layout fragment or of a letter. More information on [Layout Design](../../../forms/using/layout-design-details.md).
+You can create a layout fragment based on an existing XDP. A layout fragment can either be made up of fields and target areas or one or more tables. The tables in a layout can be static or dynamic. An XDP is created in Designer and [uploaded to AEM Forms](/help/forms/using/import-export-forms-templates.md). An XDP can form the structure either of a layout fragment or of a letter. More information on [Layout Design](/help/forms/using/layout-design-details.md).
 
 Using fragments that are bound to target areas allows the letter to be changed at the time of authoring. Layout fragment with different dimensions can be created and the appropriate fragment can be bound to the target area. Layout fragments also allow you to customize some of the table properties:
 
@@ -89,7 +89,7 @@ For a detailed example of using static and dynamic tables in layout fragments, s
 
 ### Upload an XDP to Correspondence Management {#upload-an-xdp-to-correspondence-management}
 
-For instructions on uploading/importing an XDP to Correspondence Management, see [Importing and exporting assets to AEM Forms](../../../forms/using/import-export-forms-templates.md).
+For instructions on uploading/importing an XDP to Correspondence Management, see [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md).
 
 ### Best practices/tips and tricks {#best-practices-tips-and-tricks}
 
@@ -117,7 +117,7 @@ If the finished letter created in the Create Correspondence user interface is us
 
 #### Date formats in Designer and Asset Configuration Manager {#date-formats-in-designer-and-asset-configuration-manager}
 
-While designing a layout in Designer, ensure that the formats for date fields match the date formats specified in Data Display Formats in [Correspondence Management Configuration Properties](../../../forms/using/cm-configuration-properties.md). For more information, see “Formatting field values and using patterns” in Designer Help.
+While designing a layout in Designer, ensure that the formats for date fields match the date formats specified in Data Display Formats in [Correspondence Management Configuration Properties](/help/forms/using/cm-configuration-properties.md). For more information, see “Formatting field values and using patterns” in Designer Help.
 
 #### Capturing date ranges {#capturing-date-ranges}
 
@@ -165,7 +165,7 @@ This example shows how you can create a dynamic and a static table, bind the dyn
 
    Then select DD and export sample data. The XML file you get contains Employee data and three instances for Nominee_details (by default 3 instances are downloaded. You can add or delete according to your requirement). Update the values and then import test data in DD. The CMP file is the package and it has the DD in it. So, import the DD to Correspondence Management.
 
-   For more information on working with Data Dictionary and test data, see [Data Dictionary](../../../forms/using/data-dictionary.md#p-working-with-test-data-p).
+   For more information on working with Data Dictionary and test data, see [Data Dictionary](/help/forms/using/data-dictionary.md#p-working-with-test-data-p).
 
    ![Data dictionary structure](assets/dd.jpeg)
 
@@ -201,7 +201,7 @@ This example shows how you can create a dynamic and a static table, bind the dyn
 
 1. Create a letter using both the layout fragments in it. When you insert the dynamic XDP in the letter, set the binding of its fields to the Data Dictionary's collection elements.
 
-   For more information on creating Letters and Letter templates, see [Create Letter](../../../forms/using/create-letter.md).
+   For more information on creating Letters and Letter templates, see [Create Letter](/help/forms/using/create-letter.md).
 
 1. Save the letter and preview it. When you preview the letter, the values from the Data Dictionary show in the letter. For the dynamic table, there are three rows. This is because the test data has three records for these rows.
 

@@ -15,9 +15,9 @@ discoiquuid: 80118cd1-73e1-4675-bbdf-85d66d150abc
 
 >[!NOTE]
 >
->For general guidelines about performance, read the [Performance Guidelines](../../../sites/deploying/using/performance-guidelines.md) page.
+>For general guidelines about performance, read the [Performance Guidelines](/help/sites/deploying/using/performance-guidelines.md) page.
 >
->For more information about troubleshooting and fixing performance issues, also see the [Performance tree](../../../sites/deploying/using/performance-tree.md).
+>For more information about troubleshooting and fixing performance issues, also see the [Performance tree](/help/sites/deploying/using/performance-tree.md).
 >
 >Additionallty, you can review a Knowlege Base article on [Performance Tuning Tips.](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html)
 
@@ -35,7 +35,7 @@ This environment contains content which you make available to your users. Here t
 
 >[!NOTE]
 >
->* After configuring for performance optimization, follow the procedures in [Tough Day](../../../sites/developing/using/tough-day.md) to test the environment under heavy load.
+>* After configuring for performance optimization, follow the procedures in [Tough Day](/help/sites/developing/using/tough-day.md) to test the environment under heavy load.
 >* See also [Performance tuning tips](https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html).
 >
 
@@ -153,7 +153,7 @@ To improve performance you can consider the following:
 
 Performance (or the lack of it) is one of the first things that your users notice, so as with any application with a user interface, performance is of key importance. To optimize the performance of your CQ installation you need to monitor various attributes of the instance and its behavior.
 
-For information about how to perform performance monitoriing, see [Monitoring Performance](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance).
+For information about how to perform performance monitoriing, see [Monitoring Performance](/help/sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance).
 
 The problems that cause performance issues are often difficult to track down, even when their effects are easy to see.
 
@@ -208,8 +208,8 @@ Starting in AEM 6.0, Adobe Experience Manager uses an Oak based repository archi
 
 You can find the updated indexing information here:
 
-* [Best Practices for Queries and Indexing](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md)
-* [Queries and Indexing](../../../sites/deploying/using/queries-and-indexing.md )
+* [Best Practices for Queries and Indexing](/help/sites/deploying/using/best-practices-for-queries-and-indexing.md)
+* [Queries and Indexing](/help/sites/deploying/using/queries-and-indexing.md )
 
 ### Concurrent Workflow Processing {#concurrent-workflow-processing}
 
@@ -224,17 +224,17 @@ The workflow engine uses Apache Sling job queues for handling and scheduling wor
 
 Configure these services to limit the maximum number of concurrently running workflow processes.
 
-**Note:** Configuring these job queues affects all workflows unless you have created a job queue for a specific workflow model (see [Configure the Queue for a Specific Workflow Model](../../../sites/deploying/using/configuring-performance.md#configure-the-queue-for-a-specific-workflow) below).
+**Note:** Configuring these job queues affects all workflows unless you have created a job queue for a specific workflow model (see [Configure the Queue for a Specific Workflow Model](/help/sites/deploying/using/configuring-performance.md#configure-the-queue-for-a-specific-workflow) below).
 
 **Configuration in the Repository **
 
-If you are configuring the services [using a sling:OsgiConfig node](../../../sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository), you need to find the PID of the existing services, for example: org.apache.sling.event.jobs.QueueConfiguration.370aad73-d01b-4a0b-abe4-20198d85f705. You can discover the PID using the Web Console.
+If you are configuring the services [using a sling:OsgiConfig node](/help/sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository), you need to find the PID of the existing services, for example: org.apache.sling.event.jobs.QueueConfiguration.370aad73-d01b-4a0b-abe4-20198d85f705. You can discover the PID using the Web Console.
 
 You need to configure the property named queue.maxparallel.
 
 **Configuration in the Web Console**
 
-To configure these services [using the Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console), locate the existing configuration items below the Apache Sling Job Queue Configuration service factory.
+To configure these services [using the Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console), locate the existing configuration items below the Apache Sling Job Queue Configuration service factory.
 
 You need to configure the property named Maximum Parallel Jobs.
 
@@ -265,13 +265,13 @@ The following procedure creates a job queue for a workflow, using the DAM Update
 
 1. Create one job queue for each of these topics. To create a job queue, create a factory configuration for the Apache Sling Job Queue factory service.
 
-   The factory configurations are similar to the Granite Workflow Queue described in [Concurrent Workflow Processing](../../../sites/deploying/using/configuring-performance.md#concurrent-workflow-processing), except the Topics property matches the topic of your workflow jobs.
+   The factory configurations are similar to the Granite Workflow Queue described in [Concurrent Workflow Processing](/help/sites/deploying/using/configuring-performance.md#concurrent-workflow-processing), except the Topics property matches the topic of your workflow jobs.
 
 ### CQ5 DAM Asset Synchronization Service {#cq-dam-asset-synchronization-service}
 
 The `AssetSynchronizationService` is used to synchronize assets from mounted repositories (including LiveLink, Documentum, amongst others). By default this makes a regular check every 300 seconds (5 minutes), so if you do not use mounted repositories, you can disable this service.
 
-This is done by [configuring the OSGi service](../../../sites/deploying/using/configuring-osgi.md) **CQ DAM Asset Synchronization Service** to set the **Synchronization period** ( `scheduler.period`) to (a minimum of) 1 year (defined in seconds).
+This is done by [configuring the OSGi service](/help/sites/deploying/using/configuring-osgi.md) **CQ DAM Asset Synchronization Service** to set the **Synchronization period** ( `scheduler.period`) to (a minimum of) 1 year (defined in seconds).
 
 ### Multiple DAM instances {#multiple-dam-instances}
 
@@ -503,7 +503,7 @@ The cache ratio formula estimates the percentage of requests handled by the cach
 
 * The total number of requests. This information is available in the Apache `access.log`. For more details, see the [official Apache documentation](https://httpd.apache.org/docs/2.4/logs.html#accesslog).
 
-* The number of requests the Publish instance served. This information is available in the `request.log` of the instance. For further details, see [Interpreting the request.log](../../../sites/deploying/using/monitoring-and-maintaining.md#interpreting-the-request-log) and [Finding the log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#finding-the-log-files).
+* The number of requests the Publish instance served. This information is available in the `request.log` of the instance. For further details, see [Interpreting the request.log](/help/sites/deploying/using/monitoring-and-maintaining.md#interpreting-the-request-log) and [Finding the log Files](/help/sites/deploying/using/monitoring-and-maintaining.md#finding-the-log-files).
 
 The formula to calculate the cache ratio is:
 
@@ -511,7 +511,7 @@ The formula to calculate the cache ratio is:
 
 For example, if the total number of requests is 129491 and the number of requests served by the Publish instance is 58959 the cache ratio is: **(129491 - 58959)/129491= 54.5%**.
 
-If you don't have a one to one publisher/dispatcher pairing, you will need to add requests from all dispatchers and publishers together to get an accurate measurement. See also [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md).
+If you don't have a one to one publisher/dispatcher pairing, you will need to add requests from all dispatchers and publishers together to get an accurate measurement. See also [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md).
 
 >[!NOTE]
 >
@@ -748,6 +748,6 @@ The actual impact of application throughput of an ongoing backup does depend on 
 
 ### References {#references}
 
-* [Administering - Backup and Restore](../../../sites/administering/using/backup-and-restore.md)
-* [Managing - Capacity and Volume](../../../managing/using/best-practices-further-reference.md#capacity-and-volume)
+* [Administering - Backup and Restore](/help/sites/administering/using/backup-and-restore.md)
+* [Managing - Capacity and Volume](/help/managing/using/best-practices-further-reference.md#capacity-and-volume)
 

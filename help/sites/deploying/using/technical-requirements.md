@@ -37,11 +37,11 @@ Minimum requirements for running Adobe Experience Manager:
 
 >[!NOTE]
 >
->* Digital asset use cases need more base memory. See [Deploying and Maintaining](../../../sites/deploying/using/deploy.md#default-local-install) for details.
->* [AEM Forms add-on package](../../../forms/using/installing-configuring-aem-forms-osgi.md) requires 15 GB of temporary space.  
+>* Digital asset use cases need more base memory. See [Deploying and Maintaining](/help/sites/deploying/using/deploy.md#default-local-install) for details.
+>* [AEM Forms add-on package](/help/forms/using/installing-configuring-aem-forms-osgi.md) requires 15 GB of temporary space.  
 >
 
-Please see the [Hardware Sizing Guidelines](../../../managing/using/hardware-sizing-guidelines.md) for further information.
+Please see the [Hardware Sizing Guidelines](/help/managing/using/hardware-sizing-guidelines.md) for further information.
 
 ### Support Levels {#support-levels}
 
@@ -226,13 +226,13 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 
 >[!NOTE]
 >
->See [Deploying Communities](../../../communities/using/deploy-communities.md) for additional information regarding the AEM Communities capability.
+>See [Deploying Communities](/help/communities/using/deploy-communities.md) for additional information regarding the AEM Communities capability.
 
 >[!NOTE]
 >
 >MongoDB is third-party software and is not included in the AEM licensing package. For more information see the [MongoDB licensing policy](https://www.mongodb.org/about/licensing/) page.
 >
->In order to get the most of your AEM deployment with MongoDB, Adobe recommends licensing the MongoDB Enterprise version in order to benefit from professional support. See [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md#prerequisites-and-recommendations-when-deploying-aem-with-mongomk) for more information.
+>In order to get the most of your AEM deployment with MongoDB, Adobe recommends licensing the MongoDB Enterprise version in order to benefit from professional support. See [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md#prerequisites-and-recommendations-when-deploying-aem-with-mongomk) for more information.
 >
 >The license includes a standard replica set, which is composed of one primary and two secondary instances that can be used for either the author or the publish deployments.
 >
@@ -313,9 +313,9 @@ Adobe Experience Manager works with the following server platforms:
 1. AEM Assets: Please see the section [Support for XMP metadata write-back](#requirements-for-aem-assets-xmp-metadata-write-back)
 1. AEM Assets: No support for Dynamic Media Imaging. Dynamic Media Video is supported.  
 1. AEM Forms is supported only on Ubuntu 16.04 LTS.
-1. AEM Assets: No support for [Raw file transformation](../../../assets/using/camera-raw.md)
+1. AEM Assets: No support for [Raw file transformation](/help/assets/using/camera-raw.md)
 1. AEM Forms: No support for production environment
-1. AEM Assets: No support for [enhanced PDF Rasterizer](../../../assets/using/aem-pdf-rasterizer.md)
+1. AEM Assets: No support for [enhanced PDF Rasterizer](/help/assets/using/aem-pdf-rasterizer.md)
 1. AEM Forms: Not supported
 
 ### Virtual & Cloud Computing Environments {#virtual-cloud-computing-environments}
@@ -475,7 +475,7 @@ This means that when an IP address needs to be specified you can select (as requ
 
 ### Requirements for AEM Dynamic Media Add-on {#requirements-for-aem-dynamic-media-add-on}
 
-AEM Dynamic Media is disabled by default. See [Enabling Dynamic Media](../../../assets/using/config-dynamic.md#enabling-dynamic-media).
+AEM Dynamic Media is disabled by default. See [Enabling Dynamic Media](/help/assets/using/config-dynamic.md#enabling-dynamic-media).
 
 With Dynamic Media enabled, the following additional system requirements apply:
 >[!NOTE]
@@ -644,4 +644,4 @@ The AEM Screens Player Version 3.3.x supports following operating systems:
 
 ### Copyright, Licenses and Disclaimers {#copyright-licenses-and-disclaimers}
 
-[Copyright, Licenses and Disclaimers](../../../release-notes/licenses.md)
+[Copyright, Licenses and Disclaimers](/help/release-notes/licenses.md)

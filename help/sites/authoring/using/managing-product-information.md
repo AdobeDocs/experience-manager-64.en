@@ -24,7 +24,7 @@ In particular, you can use Creative Project to streamline the following tasks in
 
 >[!NOTE]
 >
->See [Project User Roles for information](../../../sites/authoring/using/projects.md#user-roles-in-a-project) on assigning user roles and workflows to certain types of users.
+>See [Project User Roles for information](/help/sites/authoring/using/projects.md#user-roles-in-a-project) on assigning user roles and workflows to certain types of users.
 
 ## Exploring Product Photo Shoot workflows  {#exploring-product-photo-shoot-workflows}
 
@@ -344,7 +344,7 @@ This task moves the approved assets to the production-ready folder to make them 
 
 ## Viewing DAM Asset Metadata {#viewing-dam-asset-metadata}
 
-After you approve, the assets are linked to the corresponding products. The [Properties Page](../../../assets/using/managing-assets-touch-ui.md#editing-properties) of the approved assets now has an additional **Product Data **(linked product information) tab. This tab displays the product details, SKU number, and other product-related details linking the asset. Tap/click the **Edit** icon to update an asset property. The product-related information remains read-only.
+After you approve, the assets are linked to the corresponding products. The [Properties Page](/help/assets/using/managing-assets-touch-ui.md#editing-properties) of the approved assets now has an additional **Product Data **(linked product information) tab. This tab displays the product details, SKU number, and other product-related details linking the asset. Tap/click the **Edit** icon to update an asset property. The product-related information remains read-only.
 
 Tap/click the link that appears to navigate to the respective product detail page in the product console with which asset is associated.
 
@@ -397,7 +397,7 @@ You can customize the Project Photo Shoot workflows based on requirements. This 
 
    >[!NOTE]
    >
-   >For details around scripting in workflow steps, see [Defining a Rule for an OR Split](../../../sites/developing/using/workflows-models.md).
+   >For details around scripting in workflow steps, see [Defining a Rule for an OR Split](/help/sites/developing/using/workflows-models.md).
 
    ![](assets/chlimage_1-166.png)
 

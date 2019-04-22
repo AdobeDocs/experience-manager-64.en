@@ -20,7 +20,7 @@ This component has the tools necessary to render the drag and drop interface of 
 
 ## Locations {#locations}
 
-Models are saved and created under `/conf`, under a folder that has the [Content Fragment Models property](../../../assets/using/content-fragments-models.md#enable-content-fragment-models) enabled. This setting can also be seen in the **Configuration Properties**, accessible from the **Configuration Browser**.
+Models are saved and created under `/conf`, under a folder that has the [Content Fragment Models property](/help/assets/using/content-fragments-models.md#enable-content-fragment-models) enabled. This setting can also be seen in the **Configuration Properties**, accessible from the **Configuration Browser**.
 
 1. Navigate to the browser via **Tools**, **General**, **Configuration Browser** 
    For example, `http://localhost:4502/libs/granite/configurations/content/view.html/conf`
@@ -30,7 +30,7 @@ Models are saved and created under `/conf`, under a folder that has the [Content
 
 In the models console, all folders with the **Content Fragment Models** property will appear. Navigate via **Tools**, **Assets**, **Content Fragment Models**; for example, `http://localhost:4502/libs/dam/cfm/models/console/content/models.html/conf`.
 
-A user can [create a content fragment model](../../../assets/using/content-fragments-models.md#creating-a-content-fragment-model) using the **Create Model** wizard (using **Create** from the console).
+A user can [create a content fragment model](/help/assets/using/content-fragments-models.md#creating-a-content-fragment-model) using the **Create Model** wizard (using **Create** from the console).
 
 >[!CAUTION]
 >
@@ -82,7 +82,7 @@ The **Content Fragment Model Editor** has two parts:
     * Shows a list of data types that can be dragged and instantiated. 
     * For the out-of-the-box model editor the list is present at:  
       `/libs/settings/dam/cfm/models/formbuilderconfig/datatypes`  
-      This node contains all the data types currently supported in the model editor. For more information on how to configure the data types, see [Customizing Data Types for Content Fragment Models](../../../sites/developing/using/customizing-content-fragment-model-data-types.md).
+      This node contains all the data types currently supported in the model editor. For more information on how to configure the data types, see [Customizing Data Types for Content Fragment Models](/help/sites/developing/using/customizing-content-fragment-model-data-types.md).
     
     * All rendered data types have two script tags that, when instantiated, will form the view (the component rendered on the left side) and the **Properties** tab, which defines the properties that a user can define for a given component.
 
@@ -92,7 +92,7 @@ The **Content Fragment Model Editor** has two parts:
 >
 >This is because the content of `/libs` is overwritten the next time you upgrade your instance (and may be overwritten when you apply either a hotfix or feature pack).
 
-The properties on the right side define a form that is submitted directly into JCR under `/conf`; see the path in the example [Structure of a Model](../../../sites/developing/using/customizing-content-fragment-models.md#structure-of-a-model).
+The properties on the right side define a form that is submitted directly into JCR under `/conf`; see the path in the example [Structure of a Model](/help/sites/developing/using/customizing-content-fragment-models.md#structure-of-a-model).
 
 When a data type is instantiated, HTML inputs are created for every property the component needs to be rendered in a content fragment. For example, these include:
 

@@ -13,7 +13,7 @@ discoiquuid: 2c1be479-9f44-4348-b074-a08af8df51fa
 
 ## Create correspondence in the Create Correspondence user interface {#create-correspondence-in-the-create-correspondence-user-interface}
 
-After a [letter template is created in Correspondence Management](../../forms/using/create-letter.md), the end user/agent/claim adjustor can open the letter in the Create Correspondence user interface and create a correspondence by entering data, setting up content, and managing attachments. Finally, the claim adjustor or agent can manage the content in the preview mode and submit the letter.
+After a [letter template is created in Correspondence Management](/help/forms/using/create-letter.md), the end user/agent/claim adjustor can open the letter in the Create Correspondence user interface and create a correspondence by entering data, setting up content, and managing attachments. Finally, the claim adjustor or agent can manage the content in the preview mode and submit the letter.
 
 ### Preview a correspondence {#preview-a-correspondence}
 
@@ -30,16 +30,16 @@ Select the letter to preview using the following steps:
 
    >[!NOTE]
    >
-   >If a data dictionary is not associated with the letter, the letter preview opens. Otherwise, if the letter is data dictionary based, Correspondence Management displays Preview and Custom options in the Preview menu and you can select one of the two options. You can also associate test data with a Data Dictionary. When the [Data Dictionary has associated test data](../../forms/using/data-dictionary.md#p-working-with-test-data-p), then on selecting the preview option, the normal preview opens with the test data populated.
+   >If a data dictionary is not associated with the letter, the letter preview opens. Otherwise, if the letter is data dictionary based, Correspondence Management displays Preview and Custom options in the Preview menu and you can select one of the two options. You can also associate test data with a Data Dictionary. When the [Data Dictionary has associated test data](/help/forms/using/data-dictionary.md#p-working-with-test-data-p), then on selecting the preview option, the normal preview opens with the test data populated.
 
 1. To be able to render a correspondence while previewing it, you should either be an administrator or a part of one of the following groups:
 
     * forms-users (to preview on author instance)
     * cm-agent-users (for rendition on publish instance)
 
-   If you do not the required permissions, request the admin for the appropriate access. For more information on creating and adding users to groups, see [Adding Users or Groups to a Group](../../sites/administering/using/security.md). If you try to render a correspondence without having the appropriate permissions, the 404 error page appears.
+   If you do not the required permissions, request the admin for the appropriate access. For more information on creating and adding users to groups, see [Adding Users or Groups to a Group](/help/sites/administering/using/security.md). If you try to render a correspondence without having the appropriate permissions, the 404 error page appears.
 
-1. If you've selected **Preview **&gt; **Custom**, a dialog opens. In the dialog, select a data file, corresponding to the data dictionary, to preview the letter with and then select **Preview**. A data file is created based on a data dictionary for a specific letter. For more information on the data file, see [Data Dictionary](../../forms/using/data-dictionary.md#p-working-with-test-data-p).
+1. If you've selected **Preview **&gt; **Custom**, a dialog opens. In the dialog, select a data file, corresponding to the data dictionary, to preview the letter with and then select **Preview**. A data file is created based on a data dictionary for a specific letter. For more information on the data file, see [Data Dictionary](/help/forms/using/data-dictionary.md#p-working-with-test-data-p).
 
    ![Preview letter](assets/8_previewcustomdatafile.png)
 
@@ -82,7 +82,7 @@ In the content tab, manage the content such as document fragments and content va
 
    In the Content or Data tab, by tapping Highlight Selected Modules ( ![](assets/highlightselectedmodulesincontentccr.png)) on upper left of the HTML letter preview, you can disable or enable functionality to go to the content/data module when the relevant text, paragraph, or data field is selected in the letter preview.
 
-   For more information on the actions available for various modules in the Create Correspondence user interface, see [Actions and info available in the Create Correspondence user interface](../../forms/using/create-letter.md#main-pars-header-9).
+   For more information on the actions available for various modules in the Create Correspondence user interface, see [Actions and info available in the Create Correspondence user interface](/help/forms/using/create-letter.md#main-pars-header-9).
 
 1. To locate content modules, use the Find field. Enter full or partial name or title of the content module to search for it in the correspondence. 
 1. Tap the Display icon ( ![](assets/display.png)) in front of a list, text, condition, or target area to show or hide it in the letter. 
@@ -92,7 +92,7 @@ In the content tab, manage the content such as document fragments and content va
 
    The default spellchecker in your browser checks spelling in the Text editor. To manage the spelling and grammar checking, you can edit your browser's spellchecker settings or install browser plugins/addons to check spelling and grammar.
 
-   You can also use the various keyboard shortcuts in the text editor to manage, edit, and format text. For more information on [Text Editor](../../forms/using/keyboard-shortcuts.md#correspondence-management) keyboard shortcuts in Correspondence Management Keyboard Shortcuts. 
+   You can also use the various keyboard shortcuts in the text editor to manage, edit, and format text. For more information on [Text Editor](/help/forms/using/keyboard-shortcuts.md#correspondence-management) keyboard shortcuts in Correspondence Management Keyboard Shortcuts. 
 
    ![](assets/5_edittextmodule.png)
 
@@ -128,7 +128,7 @@ In the content tab, manage the content such as document fragments and content va
 
    ![](assets/specialcharacters-1.png)
 
-   Correspondence Management has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](../../forms/using/custom-special-characters.md). 
+   Correspondence Management has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](/help/forms/using/custom-special-characters.md). 
 
 1. To highlight\emphasize parts of text in an editable inline module, select the text and tap Highlight Color.
 
@@ -230,7 +230,7 @@ You can make layout and content related changes to ensure the letter looks the w
 
    By tapping Highlight Selected Modules in Content ( ![](assets/highlightselectedmodulesincontentccr.png)), you can disable or enable functionality to highlight the content module in Content tab when the relevant text, paragraph, or data field is tapped in the letter preview.
 
-   For more information on the actions available for various modules in the Create Correspondence user interface, see [Actions and info available in the Create Correspondence user interface](../../forms/using/create-letter.md#main-pars-header-9).
+   For more information on the actions available for various modules in the Create Correspondence user interface, see [Actions and info available in the Create Correspondence user interface](/help/forms/using/create-letter.md#main-pars-header-9).
 
 1. To add a page break to the letter, tap where you want to insert a page break and select Page Break Before or Page Break After ( ![](assets/pagebreakbeforeafter.png)).
 
@@ -242,11 +242,11 @@ You can make layout and content related changes to ensure the letter looks the w
 
    ![Explicit page break](assets/8_pagebreak.png)
 
-1. To save the letter as a draft, which you can continue working on later, tap Save As Draft. To use this option, your letter needs to be [published](../../forms/using/publishing-unpublishing-forms.md#publishanasset). For more information, see Draft Instance under [Saving drafts and submitting letter instances](#savingdrafts).
+1. To save the letter as a draft, which you can continue working on later, tap Save As Draft. To use this option, your letter needs to be [published](/help/forms/using/publishing-unpublishing-forms.md#publishanasset). For more information, see Draft Instance under [Saving drafts and submitting letter instances](#savingdrafts).
 
    ![](assets/saveasdraft.png)
 
-   The Draft Letter Name dialog appears with the letter instance id. You can, optionally edit this ID. Make a note of the letter Id and then tap **Done**. You can later use this ID to [reload the draft letter](../../forms/using/submit-letter-topostprocess.md#main-pars-header-1).
+   The Draft Letter Name dialog appears with the letter instance id. You can, optionally edit this ID. Make a note of the letter Id and then tap **Done**. You can later use this ID to [reload the draft letter](/help/forms/using/submit-letter-topostprocess.md#main-pars-header-1).
 
 1. To preview the letter as a flattened PDF with the exact layout and page breaks as it will be submitted, tap ( ![](assets/preview.png)) Preview.
 
@@ -264,7 +264,7 @@ You can make layout and content related changes to ensure the letter looks the w
 
    After making the required changes, you can either submit the letter from the HTML5 preview or tap Preview again to review the flattened PDF output.
 
-   For information on differences between HTML5 forms and PDF forms, see [Feature differentiation between HTML5 forms and PDF forms](../../forms/using/feature-differentiation-html5-forms-pdf-forms.md).
+   For information on differences between HTML5 forms and PDF forms, see [Feature differentiation between HTML5 forms and PDF forms](/help/forms/using/feature-differentiation-html5-forms-pdf-forms.md).
 
 ## Saving drafts and submitting letter instances {#savingdrafts}
 
@@ -272,7 +272,7 @@ When a letter is rendered in the Create Correspondence user interface, you can s
   
 There are two types of letter instances that can be saved: Draft instance and Submit instance.
 
-* **Draft Instance**: Draft instance captures the current state of the letter you are previewing. To save a draft instance, first ensure that the letter and all the assets the letter references are in Published state. For information on publishing a letter, see [Publish an asset](../../forms/using/publishing-unpublishing-forms.md#publishanasset). You need to Publish a letter before you could save it as a draft, because when you publish a letter, you create a version of the letter, its dependent assets, and data at that point. The published version of a letter cannot be edited by you or another user and can be restored later without any unexpected discrepancies from the published version. You can return to this instance later and continue from where you left.
+* **Draft Instance**: Draft instance captures the current state of the letter you are previewing. To save a draft instance, first ensure that the letter and all the assets the letter references are in Published state. For information on publishing a letter, see [Publish an asset](/help/forms/using/publishing-unpublishing-forms.md#publishanasset). You need to Publish a letter before you could save it as a draft, because when you publish a letter, you create a version of the letter, its dependent assets, and data at that point. The published version of a letter cannot be edited by you or another user and can be restored later without any unexpected discrepancies from the published version. You can return to this instance later and continue from where you left.
 
 * **Submit Instance**: Submit instances captures the state of letter as it is submitted. Submit instance stores the PDF state of the letter instance after it is post processed along with the data entered by user in the Create Correspondence user interface.
 
@@ -339,7 +339,7 @@ Following are the benefits and functionality available in HTML and PDF preview.
 
 For information on scripting support in PDF forms, see [Scripting Support](https://help.adobe.com/en_US/livecycle/11.0/ScriptingSupport/index.html).
 
-For more information on scripting support in HTML5 forms, see [Scripting support for HTML5 forms](../../forms/using/scripting-support.md).
+For more information on scripting support in HTML5 forms, see [Scripting support for HTML5 forms](/help/forms/using/scripting-support.md).
 
 ### Change rendition mode of letter {#changerenditionmode}
 

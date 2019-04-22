@@ -22,7 +22,7 @@ For an explanation of SAML, see [Security Assertion Markup Language (SAML) V2.0 
 1. In the Service Provider Base URL box, type the base URL for your forms server (for example, `https://AEMformsserver:8080`).
 1. (Optional) To enable AEM forms to send signed authentication requests to the IDP, perform the following tasks:
 
-    * Use Trust Manager to import a credential in PKCS #12 format with Document Signing Credential selected as the Trust Store Type. (See [Managing local credentials](../../../forms/using/admin-help/local-credentials.md#managing-local-credentials).)
+    * Use Trust Manager to import a credential in PKCS #12 format with Document Signing Credential selected as the Trust Store Type. (See [Managing local credentials](/help/forms/using/admin-help/local-credentials.md#managing-local-credentials).)
     * In the Service Provider Credential Key Alias list, select the alias you assigned to the credential in Trust Store.
     * Click Export to save the URL contents to a file and then import that file into your IDP.
 

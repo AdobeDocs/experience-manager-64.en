@@ -52,7 +52,7 @@ Each `cq:ClientLibraryFolder` is populated with a set of JS and/or CSS files, al
 * `dependencies`: This is a list of other client library categories on which this library folder depends. For example, given two `cq:ClientLibraryFolder` nodes `F` and `G`, if a file in `F` requires another file in `G` in order to function properly, then at least one of the `categories` of `G` should be among the `dependencies` of `F`.
 
 * `embed`: Used to embed code from other libraries. If node F embeds nodes G and H, the resulting HTML will be a concetration of content from nodes G and H.
-* `allowProxy`: If a client library is located under `/apps`, this property allows acces to it via proxy servlet. See [Locating a Client Library Folder and Using the Proxy Client Libraries Servlet](../../../sites/developing/using/clientlibs.md#locating-a-client-library-folder-and-using-the-proxy-client-libraries-servlet) below.
+* `allowProxy`: If a client library is located under `/apps`, this property allows acces to it via proxy servlet. See [Locating a Client Library Folder and Using the Proxy Client Libraries Servlet](/help/sites/developing/using/clientlibs.md#locating-a-client-library-folder-and-using-the-proxy-client-libraries-servlet) below.
 
 ## Referencing Client-Side Libraries {#referencing-client-side-libraries}
 
@@ -91,11 +91,11 @@ The generated HTML page contains the following code:
 <script type="text/javascript" src="/etc/clientlibs/foundation/jquery.js"></script>
 ```
 
-For complete information, including attributes for filtering JS, CSS, or theme libraries, see [ui:includeClientLib](../../../sites/developing/using/taglib.md#amp-lt-ui-includeclientlib).
+For complete information, including attributes for filtering JS, CSS, or theme libraries, see [ui:includeClientLib](/help/sites/developing/using/taglib.md#amp-lt-ui-includeclientlib).
 
 >[!CAUTION]
 >
->`<cq:includeClientLib>`, which in the past was commonly used to include client libraries, has been deprecated since AEM 5.6. [ `<ui:includeClientLib>`](../../../sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) should be used instead as detailed above.
+>`<cq:includeClientLib>`, which in the past was commonly used to include client libraries, has been deprecated since AEM 5.6. [ `<ui:includeClientLib>`](/help/sites/developing/using/taglib.md#amp-lt-ui-includeclientlib) should be used instead as detailed above.
 
 ## Creating Client Library Folders {#creating-client-library-folders}
 
@@ -113,7 +113,7 @@ Client library folders contain the following items:
 
 ![](assets/clientlibarch.png)
 
-For information about requirements that are specific to client libraries for widgets, see [Using and Extending Widgets](../../../sites/developing/using/widgets.md).
+For information about requirements that are specific to client libraries for widgets, see [Using and Extending Widgets](/help/sites/developing/using/widgets.md).
 
 The web client must have permissions to access the `cq:ClientLibraryFolder` node. You can also expose libraries from secured areas of the repository (see Embedding Code From Other Libraries, below).
 
@@ -405,7 +405,7 @@ AEM provides several tools for debugging and testing client library folders.
 
 To trace the origin of embedded code, or to ensure that embedded client libraries are producing the expected results, you can see the names of the files that are being embedded at runtime. To see the file names, append the `debugClientLibs=true` parameter to the URL of your web page. The library that is generated contains `@import` statements instead of the embedded code.
 
-In the example in the previous [Embedding Code From Other Libraries](../../../sites/developing/using/clientlibs.md#embedding-code-from-other-libraries) section, the `/etc/client/libraries/myclientlibs/publicmain` client library folder embeds the `/apps/myapp/clientlib` client library folder. Appending the parameter to the web page produces the following link in the web page's source code:
+In the example in the previous [Embedding Code From Other Libraries](/help/sites/developing/using/clientlibs.md#embedding-code-from-other-libraries) section, the `/etc/client/libraries/myclientlibs/publicmain` client library folder embeds the `/apps/myapp/clientlib` client library folder. Appending the parameter to the web page produces the following link in the web page's source code:
 
 ```xml
 <link rel="stylesheet" href="/etc/clientlibs/mycientlibs/publicmain.css">
@@ -455,4 +455,4 @@ The HTML Library Manager service processes `cq:ClientLibraryFolder` tags and gen
 * Improve performance: Remove whitespace and compress libraries. 
 * Improve readability: Include whitespace and do not compress.
 
-For information about configuring the service, see [AEM HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md).
+For information about configuring the service, see [AEM HTML Library Manager](/help/sites/deploying/using/osgi-configuration-settings.md).

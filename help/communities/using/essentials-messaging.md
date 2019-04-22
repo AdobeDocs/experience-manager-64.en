@@ -84,11 +84,11 @@ This page documents the details of working with using the Messaging component to
  </tbody> 
 </table>
 
-See also [Client-side Customizations](../../communities/using/client-customize.md)
+See also [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Configuring Messaging](../../communities/using/configure-messaging.md)
+* [Configuring Messaging](/help/communities/using/configure-messaging.md)
 
 * [Messaging client APIs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/api/package-summary.html) for SCF components
 
@@ -96,7 +96,7 @@ See also [Client-side Customizations](../../communities/using/client-customize.m
 
 * [Messaging Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 
 >[!CAUTION]
 >
@@ -114,7 +114,7 @@ See also [Client-side Customizations](../../communities/using/client-customize.m
 
 ### Community Site {#community-site}
 
-A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](../../communities/using/sites-console.md#user-management).
+A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](/help/communities/using/sites-console.md#user-management).
 
 ### Sample Code: Message Received Notification {#sample-code-message-received-notification}
 

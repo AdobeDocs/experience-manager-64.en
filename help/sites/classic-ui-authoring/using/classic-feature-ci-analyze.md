@@ -15,5 +15,5 @@ discoiquuid: c1b01e74-7457-47bf-b42f-d3e0f10a8ddf
 
 >[!NOTE]
 >
->Content Insight and the ability to use it to analyze page performance is only available from the touch-optimized UI. See [Analyzing Page Performance](../../../sites/authoring/using/ci-analyze.md) and [Content Insight](../../../sites/authoring/using/content-insights.md) in the standard authoring documentation for details.
+>Content Insight and the ability to use it to analyze page performance is only available from the touch-optimized UI. See [Analyzing Page Performance](/help/sites/authoring/using/ci-analyze.md) and [Content Insight](/help/sites/authoring/using/content-insights.md) in the standard authoring documentation for details.
 

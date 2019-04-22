@@ -13,9 +13,9 @@ discoiquuid: f8d85d72-0215-4680-a334-e37a530fba58
 
 # Social Graph Essentials{#social-graph-essentials}
 
-The ability for a Community member to follow [activities](../../communities/using/essentials-activities.md) as well as be followed is established through two components:
+The ability for a Community member to follow [activities](/help/communities/using/essentials-activities.md) as well as be followed is established through two components:
 
-The `follow`component must be associated with another resource, and this association is already established for existing Communities members and features in a [community site](../../communities/using/overview.md#communitiessites).
+The `follow`component must be associated with another resource, and this association is already established for existing Communities members and features in a [community site](/help/communities/using/overview.md#communitiessites).
 
 The `following`component lists the members that are either following the current member or are being followed by the current member. This social graph of the relationships between members is included in the user profile established for a community site.
 
@@ -69,11 +69,11 @@ The `following`component lists the members that are either following the current
 
 |  **resourceType** |social/socialgraph/components/hbs/following |
 |---|---|
-|  [**includable**](../../communities/using/scf.md#add-or-include-a-communities-component) |No |
+|  [**includable**](/help/communities/using/scf.md#add-or-include-a-communities-component) |No |
 |  **templates** | /libs/social/socialgraph/components/hbs/following/following.hbs |
 |  **css** | /libs/social/socialgraph/components/hbs/following/clientlibs/following.css |
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -81,5 +81,5 @@ The `following`component lists the members that are either following the current
 
 * [Social Graph Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/endpoint/package-frame.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 

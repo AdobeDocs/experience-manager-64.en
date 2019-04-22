@@ -20,18 +20,18 @@ The integration framework includes an integration layer with an API. This allows
 
 For more information, see:
 
-* [Developing (generic)](../../../sites/developing/using/generic.md)
-* [Developing with hybris](../../../sites/developing/using/hybris.md)
+* [Developing (generic)](/help/sites/developing/using/generic.md)
+* [Developing with hybris](/help/sites/developing/using/hybris.md)
 
 >[!NOTE]
 >
->Since the eCommerce framework can be used with any eCommerce solution, see [Developing (generic)](../../../sites/developing/using/generic.md) for more information about developing possibilities with Intershop, Elastic Path or IBM Websphere Commerce.
+>Since the eCommerce framework can be used with any eCommerce solution, see [Developing (generic)](/help/sites/developing/using/generic.md) for more information about developing possibilities with Intershop, Elastic Path or IBM Websphere Commerce.
 
 >[!NOTE]
 >
->To use the integration framework with external eCommerce providers, you first need to install the required packages. For more information, see [Deploying eCommerce](../../../sites/deploying/using/ecommerce.md).
+>To use the integration framework with external eCommerce providers, you first need to install the required packages. For more information, see [Deploying eCommerce](/help/sites/deploying/using/ecommerce.md).
 >
->For information about concepts and administering eCommerce implementations, see [Administering eCommerce](../../../sites/administering/using/ecommerce.md).
+>For information about concepts and administering eCommerce implementations, see [Administering eCommerce](/help/sites/administering/using/ecommerce.md).
 
 ## API Documentation {#api-documentation}
 

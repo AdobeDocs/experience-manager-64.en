@@ -21,8 +21,8 @@ Workflow models consist of a series of steps of various types. According to the 
 >
 >For module specific steps see also:
 >
->* [AEM Forms Workflow Step Reference](../../../forms/using/aem-forms-workflow-step-reference.md)
->* [Processing Assets Using Media Handlers and Workflows](../../../assets/using/media-handlers.md)
+>* [AEM Forms Workflow Step Reference](/help/forms/using/aem-forms-workflow-step-reference.md)
+>* [Processing Assets Using Media Handlers and Workflows](/help/assets/using/media-handlers.md)
 >
 
 ## Step Properties {#step-properties}
@@ -40,7 +40,7 @@ A combination of the following properties are available for most workflow step c
   A description of the step.
 
 * **Workflow Stage  
-  **A drop down selector to apply a [Stage](../../../sites/developing/using/workflows.md#workflow-stages) to the step.  
+  **A drop down selector to apply a [Stage](/help/sites/developing/using/workflows.md#workflow-stages) to the step.  
 
 * **Timeout** 
   The period after which the step will be "timed out".  
@@ -68,7 +68,7 @@ The following properties are available for many workflow step components, on the
     * If you assign the step to a specific user, then only this user can take action on the step.  
     * If you assign the step to an entire group, then when the workflow reaches this step all users in this group will have the action in their **Workflow Inbox**.  
     
-    * See [Participating in Workflows](../../../sites/authoring/using/workflows-participating.md) for more information.
+    * See [Participating in Workflows](/help/sites/authoring/using/workflows-participating.md) for more information.
 
 ## AND Split {#and-split}
 
@@ -219,7 +219,7 @@ To configure the split:
 
   >[!NOTE]
   >
-  >See [Defining a Rule for an OR Split](../../../sites/developing/using/workflows-models.md#example-defining-a-rule-for-an-or-split).
+  >See [Defining a Rule for an OR Split](/help/sites/developing/using/workflows-models.md#example-defining-a-rule-for-an-or-split).
 
 * Add workflow steps to the branches as required.
 
@@ -248,7 +248,7 @@ To configure the step, edit and use the following tabs:
 
 >[!NOTE]
 >
->Some properties need to be configured to enable email notifications. You can also customize the email template or add an email template for a new language. See [Configuring Email Notification](../../../sites/administering/using/notification.md) to configure email notifications in AEM.
+>Some properties need to be configured to enable email notifications. You can also customize the email template or add an email template for a new language. See [Configuring Email Notification](/help/sites/administering/using/notification.md) to configure email notifications in AEM.
 
 ### Dialog Participant Step {#dialog-participant-step}
 
@@ -319,7 +319,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
    >[!NOTE]
    >
-   >For further information see [Creating and Configuring a Dialog](../../../sites/developing/using/developing-components.md#creating-and-configuring-a-dialog).
+   >For further information see [Creating and Configuring a Dialog](/help/sites/developing/using/developing-components.md#creating-and-configuring-a-dialog).
 
 1. **Dialog Path Property**
 
@@ -502,7 +502,7 @@ To configure the step, you specify the group or user to assign the work item to,
 
 >[!CAUTION]
 >
->This section deals with the [Forms section of Foundation Components for Page Authoring](../../../sites/authoring/using/default-components-foundation.md#form).
+>This section deals with the [Forms section of Foundation Components for Page Authoring](/help/sites/authoring/using/default-components-foundation.md#form).
 
 #### Form Participant Step - Configuration {#form-participant-step-configuration}
 
@@ -580,9 +580,9 @@ To configure the step, edit and use the following tabs:
 
     * **Process**: The process implementation to execute. Use the drop-down menu to select the ECMAScript or OSGi service. For information about:
 
-        * The standard ECMAScripts and OSGi services, see [Built-In Processes for Process Steps](../../../sites/developing/using/workflows-process-ref.md).
-        * Creating ECMAScripts for a Process step, see [Implementing a Process Step with an ECMAScript](../../../sites/developing/using/workflows-customizing-extending.md#using-ecmascript).
-        * Creating OSGi services for a Process step, see [Implementing a Process Step with a Java Class](../../../sites/developing/using/workflows-customizing-extending.md#implementing-a-process-step-with-a-java-class).
+        * The standard ECMAScripts and OSGi services, see [Built-In Processes for Process Steps](/help/sites/developing/using/workflows-process-ref.md).
+        * Creating ECMAScripts for a Process step, see [Implementing a Process Step with an ECMAScript](/help/sites/developing/using/workflows-customizing-extending.md#using-ecmascript).
+        * Creating OSGi services for a Process step, see [Implementing a Process Step with a Java Class](/help/sites/developing/using/workflows-customizing-extending.md#implementing-a-process-step-with-a-java-class).
 
     * **Handler Advance**: Select this option to automatically advance the workflow to the next step after execution. If not selected, the implementation script must handle workflow advancement.
     * **Arguments**: Arguments to be passed to the process.

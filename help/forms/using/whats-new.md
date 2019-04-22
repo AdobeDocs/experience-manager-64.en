@@ -41,7 +41,7 @@ Using interactive communication, you can author and edit both print and web docu
 
 Click to enlarge
 
-](assets/printweb_2-1.png) For more information, see [Interactive Communications Overview](../../forms/using/interactive-communications-overview.md).
+](assets/printweb_2-1.png) For more information, see [Interactive Communications Overview](/help/forms/using/interactive-communications-overview.md).
 
 ### WYSIWYG Document Editor {#wysiwyg-document-editor}
 
@@ -51,13 +51,13 @@ To create an Interactive communication or edit an existing one, business users c
 
 ![](assets/drag-n-drop-lf.png)
 
-For more information, see [Introduction to authoring Interactive Communication](../../forms/using/introduction-interactive-communication-authoring.md).
+For more information, see [Introduction to authoring Interactive Communication](/help/forms/using/introduction-interactive-communication-authoring.md).
 
 ### Auto generate web version from print content in interactive communication {#auto-generate-web-version-from-print-content-in-interactive-communication}
 
 Authors can auto generate web document content from print documents to author, preview, and edit both print and web documents in the same editor. Interactive communication authors can create once and publish to all channels. Interactive communication authors can use the same document fragments in the print and web channel to prevent duplication of effort.
 
-For more information, see [Print channel and web channel](../../forms/using/web-channel-print-channel.md).
+For more information, see [Print channel and web channel](/help/forms/using/web-channel-print-channel.md).
 
 ### Use themes to style web channel of interactive communication {#use-themes-to-style-web-channel-of-interactive-communication}
 
@@ -65,13 +65,13 @@ Interactive communication supports themes. You can create themes and apply them 
 
 AEM Forms includes an out of the box theme for Interactive Communications. Using a theme, you can also customize how an interactive communication looks on a device.
 
-For more information, see [Themes in AEM Forms](../../forms/using/themes.md).
+For more information, see [Themes in AEM Forms](/help/forms/using/themes.md).
 
 ### Enhanced Agent interface {#enhanced-agent-interface}
 
 The Agent user interface now supports print and web preview of the interactive communication. From the same Agent user interface, you can choose to edit print channel and preview web channel of your multi-channel interactive communication. Fields, variables, FDM elements, and document fragments in the print channel can be configured to be modified by the agent in the Agent user interface. Form data model support allows you to generate previews with prefilled sample data.
 
-For more information, see [Prepare and send Interactive Communication using the Agent UI](../../forms/using/prepare-send-interactive-communication.md).
+For more information, see [Prepare and send Interactive Communication using the Agent UI](/help/forms/using/prepare-send-interactive-communication.md).
 
 ### Present information in charts {#present-information-in-charts}
 
@@ -79,7 +79,7 @@ Interactive communication supports charts in web and the print channel for riche
 
 ![](assets/chart-2.png) ![](assets/chart.png)
 
-For more information, see [Using charts in Interactive Communications](../../forms/using/chart-component-interactive-communications.md).
+For more information, see [Using charts in Interactive Communications](/help/forms/using/chart-component-interactive-communications.md).
 
 ### Out-of-the-box data connectors to prefill documents {#out-of-the-box-data-connectors-to-prefill-documents}
 
@@ -87,7 +87,7 @@ Interactive communication provides data integration with business tools to conne
 
 ![](assets/fdm_ad.png)
 
-For more information, see [Use form data model](../../forms/using/using-form-data-model.md).
+For more information, see [Use form data model](/help/forms/using/using-form-data-model.md).
 
 ### Enhanced document fragment editor {#enhanced-document-fragment-editor}
 
@@ -100,8 +100,8 @@ You can now use FDM elements and rules within document fragments of interactive 
 
 For more information, see:
 
-* [Texts in Interactive Communications](../../forms/using/texts-interactive-communications.md)
-* [Conditions in Interactive Communications](../../forms/using/conditions-interactive-communications.md)
+* [Texts in Interactive Communications](/help/forms/using/texts-interactive-communications.md)
+* [Conditions in Interactive Communications](/help/forms/using/conditions-interactive-communications.md)
 
 ### Compatibility package for existing assets {#compatibility-package-for-existing-assets}
 
@@ -111,7 +111,7 @@ By default, letter assets from the previous versions of AEM Forms are not suppor
 
 ![](do-not-localize/data-integeration-1.png)
 
-[AEM Forms data integration](../../forms/using/data-integration.md) lets you configure disparate data sources; such as databases, RESTful or SOAP-based web services, and OData services; to create a form data model that you can use to bind data, prefill, and invoke services in adaptive forms and documents.
+[AEM Forms data integration](/help/forms/using/data-integration.md) lets you configure disparate data sources; such as databases, RESTful or SOAP-based web services, and OData services; to create a form data model that you can use to bind data, prefill, and invoke services in adaptive forms and documents.
 
 There are several new features and enhancements in data integration in this release.
 
@@ -121,7 +121,7 @@ Business users and form authors can now create a form data model including its e
 
 Similarly, you can create entities and child properties in an existing form data model and bind them to corresponding entities and properties in a data source later.
 
-For more information, see [Create form data model](../../forms/using/create-form-data-models.md).
+For more information, see [Create form data model](/help/forms/using/create-form-data-models.md).
 
 ### Create computed properties {#create-computed-properties}
 
@@ -129,7 +129,7 @@ Forms authors and developers can create computed properties in form data model. 
 
 A computed property resides locally in a form data model and does not exist in a data source. You can use computed properties in adaptive forms and interactive communications.
 
-For more information, see [Work with form data model](../../forms/using/work-with-form-data-model.md).
+For more information, see [Work with form data model](/help/forms/using/work-with-form-data-model.md).
 
 ### Preview forms and documents with sample data {#preview-forms-and-documents-with-sample-data}
 
@@ -137,7 +137,7 @@ Form data model lets you generate sample data for properties of all entities in 
 
 The sample data is a set of random values that change every time you generate it. However, you can edit and save the sample data that persists even if you regenerate it. For example, if you edit and save the sample data for First Name and Last Name properties and later add another property or entity in the form data model and regenerate the sample data, the First Name and Last Name properties will show the saved values while the values for other properties are regenerated.
 
-For details, see [Use form data model](../../forms/using/using-form-data-model.md).
+For details, see [Use form data model](/help/forms/using/using-form-data-model.md).
 
 ### Refresh data source definitions {#refresh-data-source-definitions}
 
@@ -145,7 +145,7 @@ Any update in data source entities or properties does not automatically reflect 
 
 ### Configure data sources using Touch user interface {#configure-data-sources-using-touch-user-interface}
 
-With this release, the cloud services configuration for data sources is available in Touch user interface. Also, the location to configure cloud services has changed to **[!UICONTROL Tools > Cloud Services > Data Sources]**. See [Configure data sources](../../forms/using/configure-data-sources.md).
+With this release, the cloud services configuration for data sources is available in Touch user interface. Also, the location to configure cloud services has changed to **[!UICONTROL Tools > Cloud Services > Data Sources]**. See [Configure data sources](/help/forms/using/configure-data-sources.md).
 
 ## Adaptive Forms {#adaptive-forms}
 
@@ -165,7 +165,7 @@ There are several enhancements to the lazy loading feature in this release:
 
 ![](assets/aem-forms-workflow-on-osgi-.png)
 
-With Forms-Centric AEM Workflows capability, you can rapidly build and deploy workflows for various tasks on the OSGi stack. You are no longer required to install the Process Management capability available on JEE stack, simplifying deployment and eliminating application server and infrastructure costs. For more information, see [Forms-centric workflows on OSGi](../../forms/using/aem-forms-workflow.md).
+With Forms-Centric AEM Workflows capability, you can rapidly build and deploy workflows for various tasks on the OSGi stack. You are no longer required to install the Process Management capability available on JEE stack, simplifying deployment and eliminating application server and infrastructure costs. For more information, see [Forms-centric workflows on OSGi](/help/forms/using/aem-forms-workflow.md).
 
 Following are the enhancements in Forms-Centric AEM Workflows:·
 
@@ -177,7 +177,7 @@ Following are the enhancements in Forms-Centric AEM Workflows:·
 
 ![](assets/aem-forms-app.png)
 
-AEM Forms app allows field workers to synchronize their mobile devices with an AEM Forms server and work on their forms. The application works seamlessly when the device is offline by saving data locally on the device and synchronizing the data with the server when the device is back online. For more information, see [AEM Forms app](../../forms/using/aem-forms-app.md).
+AEM Forms app allows field workers to synchronize their mobile devices with an AEM Forms server and work on their forms. The application works seamlessly when the device is offline by saving data locally on the device and synchronizing the data with the server when the device is back online. For more information, see [AEM Forms app](/help/forms/using/aem-forms-app.md).
 
 Following are the improvements in AEM Forms app:
 
@@ -190,7 +190,7 @@ Following are the improvements in AEM Forms app:
 
 Using document security, you can safely distribute any information that you have saved in a supported format. Document security ensures that only authorized users can use your documents. The following are the major changes in document security:
 
-* Document security provides a [Portable Protection Library (PPL)](../../forms/using/document-security-offerings.md) to protect a document locally, without sending the document to AEM Forms server. Only security credentials and policy details travel over the network to AEM Forms server. AEM 6.4 Forms has introduced Portable Protection Library (PPL) in an OSGi bundle format. Now, you can directly install the PPL library on an AEM Forms server and use the capabilities of AEM and PPL in conjunction with each other.
+* Document security provides a [Portable Protection Library (PPL)](/help/forms/using/document-security-offerings.md) to protect a document locally, without sending the document to AEM Forms server. Only security credentials and policy details travel over the network to AEM Forms server. AEM 6.4 Forms has introduced Portable Protection Library (PPL) in an OSGi bundle format. Now, you can directly install the PPL library on an AEM Forms server and use the capabilities of AEM and PPL in conjunction with each other.
 * Document security C++ SDK and C++ PPL library can be compiled with Microsoft Visual Studio 2013. The previously supported version was Microsoft Visual Studio 2010.
 
 ## Supported Platforms {#supported-platforms}

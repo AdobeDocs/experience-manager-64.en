@@ -17,19 +17,19 @@ Tally is an abstract class providing a standard method of collecting feedback fr
 
 A custom tally component can be created by extending the abstract tally class.
 
-[Liking](../../communities/using/essentials-liking.md) is an implementation of tally that is simple form of expressing a positive opinion.
+[Liking](/help/communities/using/essentials-liking.md) is an implementation of tally that is simple form of expressing a positive opinion.
 
-[Voting](../../communities/using/essentials-voting.md) is an implementation of tally that is simple form of expressing a positive or negative opinion.
+[Voting](/help/communities/using/essentials-voting.md) is an implementation of tally that is simple form of expressing a positive or negative opinion.
 
-[Rating](../../communities/using/rating-basics.md) is an implementation of tally that uses a star system for expressing a range of opinions from positive to negative.
+[Rating](/help/communities/using/rating-basics.md) is an implementation of tally that uses a star system for expressing a range of opinions from positive to negative.
 
-As of AEM 6.1, the [poll](../../communities/using/poll-basics.md) component is not currently available.
+As of AEM 6.1, the [poll](/help/communities/using/poll-basics.md) component is not currently available.
 
-[Reviews](../../communities/using/reviews-basics.md) is an SCF component that is a hybrid of [comments](../../communities/using/essentials-comments.md) and [rating](../../communities/using/rating-basics.md).
+[Reviews](/help/communities/using/reviews-basics.md) is an SCF component that is a hybrid of [comments](/help/communities/using/essentials-comments.md) and [rating](/help/communities/using/rating-basics.md).
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
@@ -37,21 +37,21 @@ As of AEM 6.1, the [poll](../../communities/using/poll-basics.md) component is n
 
 * [Tally Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary.html)
 
-* [Server-side Customizations](../../communities/using/server-customize.md)
+* [Server-side Customizations](/help/communities/using/server-customize.md)
 
 ### Accessing Posted Tallies (UGC) {#accessing-posted-tallies-ugc}
 
 UGC should be moderated using one of the standard methods for moderation.  
-See [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+See [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
-As of AEM 6.1 Communities, use of a [common store](../../communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
+As of AEM 6.1 Communities, use of a [common store](/help/communities/using/working-with-srp.md) for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
 See:
 
-* [Storage Resource Provider Overview](../../communities/using/srp.md) - introduction and repository usage overview
-* [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) - SRP utility methods and examples
-* [Accessing UGC with SRP](../../communities/using/accessing-ugc-with-srp.md) - coding guidelines
-* [SocialUtils Refactoring](../../communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
+* [Storage Resource Provider Overview](/help/communities/using/srp.md) - introduction and repository usage overview
+* [SRP and UGC Essentials](/help/communities/using/srp-and-ugc.md) - SRP utility methods and examples
+* [Accessing UGC with SRP](/help/communities/using/accessing-ugc-with-srp.md) - coding guidelines
+* [SocialUtils Refactoring](/help/communities/using/socialutils.md) - mapping deprecated utility methods to current SRP utility methods
 

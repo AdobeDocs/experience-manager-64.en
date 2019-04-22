@@ -23,15 +23,15 @@ Conditions perform computations on data values provided by the form data model/D
 
 For more information, see:
 
-* [Create an Interactive Communication](../../forms/using/create-interactive-communication.md)
-* [Correspondence Management Overview](../../forms/using/cm-overview.md)
-* [Text in Interactive Communications](../../forms/using/texts-interactive-communications.md)
+* [Create an Interactive Communication](/help/forms/using/create-interactive-communication.md)
+* [Correspondence Management Overview](/help/forms/using/cm-overview.md)
+* [Text in Interactive Communications](/help/forms/using/texts-interactive-communications.md)
 
 ### Example: Using rules to conditionalize inline text in Interactive Communication {#example-using-rules-to-conditionalize-inline-text-in-interactive-communication}
 
 To conditionalize a sentence, paragraph, or string of text in an Interactive Communication, you can create a rule in the appropriate text document fragment. The following example uses a rule to display a toll free number only to the US recipients of the Interactive Communication.
 
-For more information, see Create rule in text in [Texts in Interactive Communications](../../forms/using/texts-interactive-communications.md).
+For more information, see Create rule in text in [Texts in Interactive Communications](/help/forms/using/texts-interactive-communications.md).
 
 Once you include the text fragment in an Interactive Communication and Agent uses the Agent UI to prepare an Interactive Communication, the (form data model) data for the recipients is evaluated and the text is shown only to the recipients in the US.
 
@@ -64,7 +64,7 @@ You can insert inline condition in a letter by inserting the inline condition in
    
    ```
 
-   For more information on creating the expression, see **Creating expressions and remote functions with expression builder** in [Expression Builder](../../forms/using/expression-builder.md). The value specified in the expression must be supported for the element in the data dictionary. For more information, see [Data Dictionary](../../forms/using/data-dictionary.md).
+   For more information on creating the expression, see **Creating expressions and remote functions with expression builder** in [Expression Builder](/help/forms/using/expression-builder.md). The value specified in the expression must be supported for the element in the data dictionary. For more information, see [Data Dictionary](/help/forms/using/data-dictionary.md).
 
    Once the condition is inserted, you can hover over the handle on the left of the condition to view the condition. You can tap the handle to view the pop-up menu of the condition, which allows you to edit or remove the condition.
 
@@ -81,7 +81,7 @@ You can insert inline condition in a letter by inserting the inline condition in
     * A sample XML data file created based on the relevant data dictionary while previewing the letter with sample data.
     * An XML data file attached to the relevant data dictionary.
 
-   For more information, see [Data Dictionary](../../forms/using/data-dictionary.md).
+   For more information, see [Data Dictionary](/help/forms/using/data-dictionary.md).
 
    ![](assets/5_letteroutput.png)
 

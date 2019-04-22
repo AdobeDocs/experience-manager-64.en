@@ -13,7 +13,7 @@ discoiquuid: 45efff93-2fe5-4313-83a0-0e23a540da93
 
 # Components Overview{#components-overview}
 
-This page provides an overview of Adobe Experience Manager (AEM) components such as those [used for page authoring](../../../sites/authoring/using/default-components-foundation.md).
+This page provides an overview of Adobe Experience Manager (AEM) components such as those [used for page authoring](/help/sites/authoring/using/default-components-foundation.md).
 
 ## What Exactly is a Component? {#what-exactly-is-a-component}
 
@@ -46,7 +46,7 @@ Each AEM component:
 
 ## Out-of-the-Box Components Within AEM {#out-of-the-box-components-within-aem}
 
-AEM comes with a variety of [out-of-the-box components](../../../sites/authoring/using/default-components.md) that provide comprehensive functionality including:
+AEM comes with a variety of [out-of-the-box components](/help/sites/authoring/using/default-components.md) that provide comprehensive functionality including:
 
 * Paragraph System ( `parsys`)
 * Page ( `responsivegrid` - touch-enabled UI only)  
@@ -55,16 +55,16 @@ AEM comes with a variety of [out-of-the-box components](../../../sites/authoring
 * Image, with accompanying text
 * Toolbar
 
-The components provided and their usage within the [sample We.Retail websites](../../../sites/developing/using/we-retail.md) provided illustrate how to implement and use components. The components are provided with all source code and can be used as is or as starting points for modified or extended components.
+The components provided and their usage within the [sample We.Retail websites](/help/sites/developing/using/we-retail.md) provided illustrate how to implement and use components. The components are provided with all source code and can be used as is or as starting points for modified or extended components.
 
 ### Core Components and Foundation Components {#core-components-and-foundation-components}
 
 There are two sets of Adobe-provided AEM components available:
 
 * [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html)
-* [Foundation Components](../../../sites/authoring/using/default-components-foundation.md)
+* [Foundation Components](/help/sites/authoring/using/default-components-foundation.md)
 
-**Core Components** were introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. The [We.Retail reference site](../../../sites/developing/using/we-retail.md) illustrates how the core components can be used and represent the current best-practices of component development.
+**Core Components** were introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. The [We.Retail reference site](/help/sites/developing/using/we-retail.md) illustrates how the core components can be used and represent the current best-practices of component development.
 
 **Foundation Components** have been available with AEM for many versions and are available out-of-the-box in a standard AEM installation. Although still supported, most have been deprecated, are no longer enhanced, and are based on legacy technologies.
 
@@ -74,7 +74,7 @@ There are two sets of Adobe-provided AEM components available:
 
 ### Viewing Available Components {#viewing-available-components}
 
-For an overview of all of the available components in your AEM instance, use the [Components Console](../../../sites/authoring/using/default-components-console.md).
+For an overview of all of the available components in your AEM instance, use the [Components Console](/help/sites/authoring/using/default-components-console.md).
 
 Alternatively, you can also use CRXDE Lite to get a list of all the components available in the repository.
 
@@ -91,21 +91,21 @@ Alternatively, you can also use CRXDE Lite to get a list of all the components a
 
 The following pages provide more detailed information about developing these (and other) components:
 
-* [AEM Components - The Basics](../../../sites/developing/using/components-basics.md)
-* [Developing AEM Components](../../../sites/developing/using/developing-components.md)
-* [Developing AEM Components - Code Samples](../../../sites/developing/using/developing-components-samples.md)
-* [Configuring Multiple In-Place Editors](../../../sites/developing/using/multiple-inplace-editors.md)
-* [Developer Mode](../../../sites/developing/using/developer-mode.md)
-* [Testing Your UI](../../../sites/developing/using/hobbes.md)
-* [Components for Content Fragments](../../../sites/developing/using/components-content-fragments.md)
-* [Obtaining Page Information in JSON Format](../../../sites/developing/using/pageinfo.md)
-* [Internationalizing Components](../../../sites/developing/using/i18n.md)
+* [AEM Components - The Basics](/help/sites/developing/using/components-basics.md)
+* [Developing AEM Components](/help/sites/developing/using/developing-components.md)
+* [Developing AEM Components - Code Samples](/help/sites/developing/using/developing-components-samples.md)
+* [Configuring Multiple In-Place Editors](/help/sites/developing/using/multiple-inplace-editors.md)
+* [Developer Mode](/help/sites/developing/using/developer-mode.md)
+* [Testing Your UI](/help/sites/developing/using/hobbes.md)
+* [Components for Content Fragments](/help/sites/developing/using/components-content-fragments.md)
+* [Obtaining Page Information in JSON Format](/help/sites/developing/using/pageinfo.md)
+* [Internationalizing Components](/help/sites/developing/using/i18n.md)
 * [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html)
-* [Using Hide Conditions](../../../sites/developing/using/hide-conditions.md)
+* [Using Hide Conditions](/help/sites/developing/using/hide-conditions.md)
 * Classic UI
 
-    * [AEM Components (Classic UI)](../../../sites/developing/using/developing-components-classic.md)
-    * [Using and Extending Widgets (Classic UI)](../../../sites/developing/using/widgets.md)
-    * [Using xtypes (Classic UI)](../../../sites/developing/using/xtypes.md)
-    * [Developing Forms (Classic UI)](../../../sites/developing/using/developing-forms.md)
+    * [AEM Components (Classic UI)](/help/sites/developing/using/developing-components-classic.md)
+    * [Using and Extending Widgets (Classic UI)](/help/sites/developing/using/widgets.md)
+    * [Using xtypes (Classic UI)](/help/sites/developing/using/xtypes.md)
+    * [Developing Forms (Classic UI)](/help/sites/developing/using/developing-forms.md)
 

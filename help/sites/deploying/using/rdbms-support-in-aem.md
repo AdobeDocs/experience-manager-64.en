@@ -27,7 +27,7 @@ For more information on the implementation details, please see the [RDBDocumentS
 
 ## Supported Databases {#supported-databases}
 
-For more information on the level of Relational Database support in AEM, please see the [Technical Requirements page](../../../sites/deploying/using/technical-requirements.md).
+For more information on the level of Relational Database support in AEM, please see the [Technical Requirements page](/help/sites/deploying/using/technical-requirements.md).
 
 ## Configuration Steps {#configuration-steps}
 
@@ -52,7 +52,7 @@ Once the bundles are in place, follow the below steps in order to configure AEM 
 
    >[!NOTE]
    >
-   >For detailed information on the data source configuration for each supported database, see [Data Source Configuration Options](../../../sites/deploying/using/rdbms-support-in-aem.md#data-source-configuration-options).
+   >For detailed information on the data source configuration for each supported database, see [Data Source Configuration Options](/help/sites/deploying/using/rdbms-support-in-aem.md#data-source-configuration-options).
 
 1. Next, prepare the JDBC OSGi bundles to be used with AEM:
 
@@ -74,7 +74,7 @@ The following configuration options are available:
 
 * `datasource.name:` The data source name. The default is `oak`.
 
-* `url:` The URL string of the database that needs to be used with JDBC. Each database type has its own URL string format. For more info, see [URL String Formats](../../../sites/deploying/using/rdbms-support-in-aem.md#url-string-formats) below.  
+* `url:` The URL string of the database that needs to be used with JDBC. Each database type has its own URL string format. For more info, see [URL String Formats](/help/sites/deploying/using/rdbms-support-in-aem.md#url-string-formats) below.  
 
 * `driverClassName:` The JDBC driver class name. This will differ depending on the database you want to use and subsequently, the driver that is needed to connect to it. Below are the class names for all the databases supported by AEM:
 

@@ -17,8 +17,8 @@ discoiquuid: 0f977264-fe58-4478-bd38-aca5c75f36aa
 
 AEM provides:
 
-* a [framework for testing component UI](../../../sites/developing/using/hobbes.md). 
-* [a mechanism for testing and debugging components](../../../sites/developing/using/developer-mode.md).
+* a [framework for testing component UI](/help/sites/developing/using/hobbes.md). 
+* [a mechanism for testing and debugging components](/help/sites/developing/using/developer-mode.md).
 
 The following are two Open Source Testing tools:
 

@@ -15,7 +15,7 @@ discoiquuid: 958461b0-4cbb-452b-88ea-9b98ada14750
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Content Management actions are the building blocks that help to create and manage content within an application. The following actions are performed on content within the application.
 
@@ -31,11 +31,11 @@ Content Management actions are the building blocks that help to create and manag
 
 Typically, content such as articles are required to have the same look and feel across all authors and even apps. Making scripts, css and fonts available to all is therefore essential. This operation sends such shared resources to Mobile On-Demand which can then be consumed as needed.
 
-Once you configure and associate your app to a Cloud Configuration, you can upload your shared resources. For detailed steps on associating your app to a cloud configuration, click [here](../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md).
+Once you configure and associate your app to a Cloud Configuration, you can upload your shared resources. For detailed steps on associating your app to a cloud configuration, click [here](/help/mobile/using/mobile-apps-ondemand-application-create-configure-action.md).
 
 >[!NOTE]
 >
->Shared Resources uses ContentSync to collect all the different resources. See [Mobile with ContentSync](../../mobile/using/mobile-ondemand-contentsync.md) for more details.
+>Shared Resources uses ContentSync to collect all the different resources. See [Mobile with ContentSync](/help/mobile/using/mobile-ondemand-contentsync.md) for more details.
 
 Follow these steps to upload your shared resources for an article:
 
@@ -50,10 +50,10 @@ Follow these steps to upload your shared resources for an article:
 
 Once you have learnt about creating and publishing content, See
 
-* [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
-* [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md)
+* [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile-on-demand.md)
+* [Administering Content to Use AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile.md)
 
 Or still need to learn about the authoring topics, See
 
-[Authoring AEM Content for AEM Mobile On-Demand Services Apps](../../mobile/using/mobile-apps-ondemand.md)
+[Authoring AEM Content for AEM Mobile On-Demand Services Apps](/help/mobile/using/mobile-apps-ondemand.md)
 

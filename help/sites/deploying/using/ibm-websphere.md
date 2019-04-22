@@ -20,7 +20,7 @@ This is available under the English (US) branch ( `/content/geometrixx-outdoors/
 
 >[!NOTE]
 >
->To run the Geometrixx Outdoors store with WebSphere Commerce, [the Geometrixx Outdoors products and catalog data must be loaded into WebSphere Commerce](../../../sites/deploying/using/setup.md).
+>To run the Geometrixx Outdoors store with WebSphere Commerce, [the Geometrixx Outdoors products and catalog data must be loaded into WebSphere Commerce](/help/sites/deploying/using/setup.md).
 
 ## Technical Requirements {#technical-requirements}
 
@@ -56,8 +56,8 @@ To install eCommerce functionality you need:
 
 To install AEM with a Websphere Commerce integration configuration (using the demonstration catalog, Geometrixx Outdoors), the basic steps are:
 
-1. [Install AEM](../../../sites/deploying/using/deploy.md).
-1. Install the demonstration content packages using the [package manager](../../../sites/administering/using/package-manager.md):
+1. [Install AEM](/help/sites/deploying/using/deploy.md).
+1. Install the demonstration content packages using the [package manager](/help/sites/administering/using/package-manager.md):
 
     1. 
     
@@ -68,11 +68,11 @@ To install AEM with a Websphere Commerce integration configuration (using the de
     
     1. `cq-6.3.0-featurepack-6709`
 
-1. [Author](../../../sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
 
 >[!NOTE]
 >
->To download the packages, navigate to [Package Share](../../../sites/administering/using/package-manager.md#package-share).
+>To download the packages, navigate to [Package Share](/help/sites/administering/using/package-manager.md#package-share).
 
 AEM needs to be configured to connect to the WebSphere Commerce server instance, which is our demo WebSphere Commerce Server running the Geometrixx Outdoors eSite.
 

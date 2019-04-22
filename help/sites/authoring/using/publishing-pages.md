@@ -13,7 +13,7 @@ discoiquuid: 8f2714bc-9d6c-4e6f-97a1-3b4f977348c5
 
 # Publishing Pages{#publishing-pages}
 
-Once you have created and reviewed your content on the author environment, the goal is to [make it available on your public website](../../../sites/authoring/using/author.md#concept-of-authoring-and-publishing) (your publish environment).
+Once you have created and reviewed your content on the author environment, the goal is to [make it available on your public website](/help/sites/authoring/using/author.md#concept-of-authoring-and-publishing) (your publish environment).
 
 This is referred to as publishing a page. When you want to remove a page from the publish environment is referred to as unpublishing. When publishing and unpublishing the page remains available on the author environment for further changes until you delete it.
 
@@ -38,7 +38,7 @@ You can also publish/unpublish a page immediately or at a predefined date/time i
 >If you do not have the required privileges for publishing a specific page:
 >
 >* A workflow will be triggered to notify the appropriate person of your request to publish.
->* This [workflow may have been customized](../../../sites/developing/using/workflows-models.md) by your development team.
+>* This [workflow may have been customized](/help/sites/developing/using/workflows-models.md) by your development team.
 >* A message will be displayed briefly to notify you that the workflow was triggered.
 >
 
@@ -46,8 +46,8 @@ You can also publish/unpublish a page immediately or at a predefined date/time i
 
 Depending on your location, you can publish:
 
-* [From the page editor](../../../sites/authoring/using/publishing-pages.md#publishing-from-the-editor)
-* [From the sites console](../../../sites/authoring/using/publishing-pages.md#publishing-from-the-console)
+* [From the page editor](/help/sites/authoring/using/publishing-pages.md#publishing-from-the-editor)
+* [From the sites console](/help/sites/authoring/using/publishing-pages.md#publishing-from-the-console)
 
 ### Publishing from the Editor {#publishing-from-the-editor}
 
@@ -84,8 +84,8 @@ If you are editing a page, it can be published directly from the editor.
 
 In the sites console there are two options for publishing:
 
-* [Quick Publish](../../../sites/authoring/using/publishing-pages.md#quick-publish)
-* [Manage Publication](../../../sites/authoring/using/publishing-pages.md#manage-publication)
+* [Quick Publish](/help/sites/authoring/using/publishing-pages.md#quick-publish)
+* [Manage Publication](/help/sites/authoring/using/publishing-pages.md#manage-publication)
 
 #### Quick Publish {#quick-publish}
 
@@ -124,7 +124,7 @@ To publish or unpublish a page using Manage Publication:
 
    Publishing later starts a workflow to publish the selected page or pages at the specified time. Conversely, unpublishing later starts a workflow to unpublish the selected page or pages at a specific time.
 
-   If you want to cancel a publish/unpublish later, go to the [Workflow Console](../../../sites/administering/using/workflows.md) to terminate the corresponding workflow.
+   If you want to cancel a publish/unpublish later, go to the [Workflow Console](/help/sites/administering/using/workflows.md) to terminate the corresponding workflow.
 
    ![](assets/chlimage_1-52.png)
 
@@ -136,7 +136,7 @@ To publish or unpublish a page using Manage Publication:
 
    You can use the **Add Content** button to add additional pages to the list of pages to be published in case you neglected to select one before starting the Manage Publication wizard.
 
-   Clicking the Add Content button starts the [path browser](../../../sites/authoring/using/author-environment-tools.md#path-browser) to allow content selection.
+   Clicking the Add Content button starts the [path browser](/help/sites/authoring/using/author-environment-tools.md#path-browser) to allow content selection.
 
    Select the required pages and then click **Select** to add the content to the wizard or **Cancel **to cancel the selection and return to the wizard.
 
@@ -184,12 +184,12 @@ To publish or unpublish a page using Manage Publication:
 
    >[!NOTE]
    >
-   >The **Workflows** step will be shown based on what rights your user may or may not have. See the [previous note on this page](../../../sites/authoring/using/publishing-pages.md) regarding publishing privileges as well as [Managing Access to Workflows](../../../sites/administering/using/workflows-managing.md) and [Applying Workflows to Pages](../../../sites/authoring/using/workflows-applying.md) for details.
+   >The **Workflows** step will be shown based on what rights your user may or may not have. See the [previous note on this page](/help/sites/authoring/using/publishing-pages.md) regarding publishing privileges as well as [Managing Access to Workflows](/help/sites/administering/using/workflows-managing.md) and [Applying Workflows to Pages](/help/sites/authoring/using/workflows-applying.md) for details.
 
    The resources are grouped by the workflows triggered and each given options to:
 
     * Define the title of the workflow.
-    * Keep the workflow package, provided that the workflow has [multi-resourse support](../../../sites/developing/using/workflows-models.md#configuring-a-workflow-for-multi-resource-support).
+    * Keep the workflow package, provided that the workflow has [multi-resourse support](/help/sites/developing/using/workflows-models.md#configuring-a-workflow-for-multi-resource-support).
     * Define a title of the workflow package if the option to keep the workflow package was chosen.
 
    Click **Publish** or **Publish Later **to complete the publication.
@@ -200,18 +200,18 @@ To publish or unpublish a page using Manage Publication:
 
 Unpublishing a page will remove it from your publish environment so that it is no longer available to your readers.
 
-In a [manner similar to publishing](../../../sites/authoring/using/publishing-pages.md#publishing-pages), one or more pages can be unpublished:
+In a [manner similar to publishing](/help/sites/authoring/using/publishing-pages.md#publishing-pages), one or more pages can be unpublished:
 
-* [From the page editor](../../../sites/authoring/using/publishing-pages.md#unpublishing-from-the-editor)
-* [From the sites console](../../../sites/authoring/using/publishing-pages.md#unpublishing-from-the-console)
+* [From the page editor](/help/sites/authoring/using/publishing-pages.md#unpublishing-from-the-editor)
+* [From the sites console](/help/sites/authoring/using/publishing-pages.md#unpublishing-from-the-console)
 
 ### Unpublishing from the Editor {#unpublishing-from-the-editor}
 
-When editing a page, if you wish to unpublish that page, select **Unpublish Page** in the **Page Information** menu, much as you would [publish the page](../../../sites/authoring/using/publishing-pages.md#publishing-from-the-editor).
+When editing a page, if you wish to unpublish that page, select **Unpublish Page** in the **Page Information** menu, much as you would [publish the page](/help/sites/authoring/using/publishing-pages.md#publishing-from-the-editor).
 
 ### Unpublishing from the Console {#unpublishing-from-the-console}
 
-Just as you [use the Manage Publication option to publish](../../../sites/authoring/using/publishing-pages.md#manage-publication), you can also use it to unpublish.
+Just as you [use the Manage Publication option to publish](/help/sites/authoring/using/publishing-pages.md#manage-publication), you can also use it to unpublish.
 
 1. Select the page or pages in the sites console and click on the **Manage Publication** button.
 1. The **Manage Publication** wizard starts. In the first step, **Options**, select to **Unpublish** instead of the default option of **Publish**.
@@ -220,15 +220,15 @@ Just as you [use the Manage Publication option to publish](../../../sites/author
 
    Just as publishing later starts a workflow to publish this version of the page at the specified time, deactivating later starts a workflow to unpublish the selected page or pages at a specific time.
 
-   If you want to cancel a publish/unpublish later, go to the [Workflow Console](../../../sites/administering/using/workflows.md) to terminate the corresponding workflow.
+   If you want to cancel a publish/unpublish later, go to the [Workflow Console](/help/sites/administering/using/workflows.md) to terminate the corresponding workflow.
 
-1. To complete the unpublication, continue through the wizard as you would to [publish the page](../../../sites/authoring/using/publishing-pages.md#manage-publication).
+1. To complete the unpublication, continue through the wizard as you would to [publish the page](/help/sites/authoring/using/publishing-pages.md#manage-publication).
 
 ## Publishing and Unpublishing a Tree {#publishing-and-unpublishing-a-tree}
 
 When you have entered or updated a considerable number of content pages - all of which are resident under the same root page - it can be easier to publish the entire tree in one action.
 
-You can use the [Manage Publication](../../../sites/authoring/using/publishing-pages.md#manage-publication) option on the sites console to do this.
+You can use the [Manage Publication](/help/sites/authoring/using/publishing-pages.md#manage-publication) option on the sites console to do this.
 
 1. In the sites console, select the root page of the tree you wish to publish or unpublish and select **Manage Publication**.
 1. The **Manage Publication** wizard starts. Choose to publish or unpublish and when it should occur and select **Next** to continue.
@@ -257,17 +257,17 @@ You can use the [Manage Publication](../../../sites/authoring/using/publishing-p
 
 You can detemine the publication status of a page:
 
-* In the [resource overview information on the sites console](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
+* In the [resource overview information on the sites console](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)
 
   ![](assets/screen_shot_2018-03-21at154336.png)
 
-  The publication status is shown in [card](../../../sites/authoring/using/basic-handling.md#card-view), [column](../../../sites/authoring/using/basic-handling.md#column-view), and [list](../../../sites/authoring/using/basic-handling.md#list-view) views in the sites console.
+  The publication status is shown in [card](/help/sites/authoring/using/basic-handling.md#card-view), [column](/help/sites/authoring/using/basic-handling.md#column-view), and [list](/help/sites/authoring/using/basic-handling.md#list-view) views in the sites console.
 
-* In the [timeline](../../../sites/authoring/using/basic-handling.md#timeline)
+* In the [timeline](/help/sites/authoring/using/basic-handling.md#timeline)
 
   ![](assets/screen_shot_2018-03-21at154420.png)
 
-* In the [Page Information menu](../../../sites/authoring/using/author-environment-tools.md#page-information) when editing a page
+* In the [Page Information menu](/help/sites/authoring/using/author-environment-tools.md#page-information) when editing a page
 
   ![](assets/screen_shot_2018-03-21at154456.png)
 

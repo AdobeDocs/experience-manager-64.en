@@ -35,7 +35,7 @@ Check that you have configured the **aemserver** operator in Adobe Campaign.
 
 Check the HTML source and validate that you can open the URL from the client machine. If the URL has localhost:4503 in it, then change the configuration of Day CQ Link Externalizer on your author instance to point to a publish instance that can be reached from the Adobe Campaign console machine.
 
-See [Configuring the Externalizer.](../../../sites/administering/using/campaignstandard.md#configuring-the-externalizer)
+See [Configuring the Externalizer.](/help/sites/administering/using/campaignstandard.md#configuring-the-externalizer)
 
 ## If you cannot connect from AEM to Adobe Campaign {#if-you-cannot-connect-from-aem-to-adobe-campaign}
 
@@ -129,4 +129,4 @@ When creating a mail template for Adobe Campaign, you must include the property 
 
 ## If you get the error "com.day.cq.mcm.campaign.servlets.util.ParameterMapper" in your logs {#if-you-get-the-error-com-day-cq-mcm-campaign-servlets-util-parametermapper-in-your-logs}
 
-When using your custom template, you get the error "com.day.cq.mcm.campaign.servlets.util.ParameterMapper" in your logs. In this event, be sure to install Featurepack 6576 from [Package Share](../../../sites/administering/using/package-manager.md#package-share). This is an issue where if the acMapping property is set to a value other than recipient.firstName, a blank value is created on the Adobe Campaign Manager side. 
+When using your custom template, you get the error "com.day.cq.mcm.campaign.servlets.util.ParameterMapper" in your logs. In this event, be sure to install Featurepack 6576 from [Package Share](/help/sites/administering/using/package-manager.md#package-share). This is an issue where if the acMapping property is set to a value other than recipient.firstName, a blank value is created on the Adobe Campaign Manager side. 

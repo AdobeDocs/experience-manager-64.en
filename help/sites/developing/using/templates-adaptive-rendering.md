@@ -34,7 +34,7 @@ Remember when setting up your device groups:
 
 ## Configuration {#configuration}
 
-Adaptive rendering selectors can be configured for existing device groups or to [groups that you have created yourself.](../../../sites/developing/using/mobile.md#device-groups)
+Adaptive rendering selectors can be configured for existing device groups or to [groups that you have created yourself.](/help/sites/developing/using/mobile.md#device-groups)
 
 For this example, we are going to configure the existing device group **Smart Phones** to have an adaptive rendering selector as part of the **Experience Page** template within We.Retail.
 
@@ -68,7 +68,7 @@ For this example, we are going to configure the existing device group **Smart Ph
 
    ![](assets/chlimage_1-160.png)
 
-Now when using the [emulator](../../../sites/authoring/using/responsive-layout.md#layout-definitions-device-emulation-and-breakpoints) in the page editor (such as when [modifying the layout](../../../sites/authoring/using/responsive-layout.md)) and you choose a device of the configured device group, the page will be rendered with a selector as part of the URL.
+Now when using the [emulator](/help/sites/authoring/using/responsive-layout.md#layout-definitions-device-emulation-and-breakpoints) in the page editor (such as when [modifying the layout](/help/sites/authoring/using/responsive-layout.md)) and you choose a device of the configured device group, the page will be rendered with a selector as part of the URL.
 
 In our example, when editing a page based on the **Experience Page** template, and choosing iPhone 4 in the emulator, the page is rendered including the selector as `arctic-surfing-in-lofoten.smart.html` instead of `arctic-surfing-in-lofoten.html`
 

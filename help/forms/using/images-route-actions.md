@@ -12,7 +12,7 @@ discoiquuid: 10158c13-47b4-43e3-ac47-690f3cbab158
 
 # Customize images used in route actions{#customize-images-used-in-route-actions}
 
-To customize the images used in route actions, perform the steps described in [Generic Steps of customization](../../forms/using/generic-steps-html-workspace-customization.md) followed by the steps described in this article.
+To customize the images used in route actions, perform the steps described in [Generic Steps of customization](/help/forms/using/generic-steps-html-workspace-customization.md) followed by the steps described in this article.
 
 ## Images for route actions {#images-for-route-actions}
 
@@ -41,7 +41,7 @@ To customize the images used in route actions, perform the steps described in [G
 
 ## Task List task action popup {#task-list-task-action-popup}
 
-1. Create a task list action popup, see [Building AEM Forms workspace code](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3). It requires to use the dev package.
+1. Create a task list action popup, see [Building AEM Forms workspace code](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3). It requires to use the dev package.
 
 1. Copy `/libs/ws/js/runtime/templates/task.html` to `/apps/ws/js/runtime/templates/task.html`.
 

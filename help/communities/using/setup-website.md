@@ -13,7 +13,7 @@ discoiquuid: d18c0ece-4c4f-499c-ac94-a9aaa7f883c4
 
 # Setup Website Structure{#setup-website-structure}
 
-| [**⇐ Create An SCF Sandbox**](../../communities/using/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](../../communities/using/initial-app.md)** |
+| [**⇐ Create An SCF Sandbox**](/help/communities/using/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](/help/communities/using/initial-app.md)** |
 |---|---|
 
 To setup your website, the instructions below describe the folders to create in the following locations:
@@ -121,8 +121,8 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
 
 The /content directory in the respository is where the website content resides. The paths under /content comprise the paths of the URL for browser requests.
 
-*After *the [page template](../../communities/using/initial-app.md#createthepagetemplate) is created as part of the initial application, the initial page content can be created based on the template.... [**⇒**](../../communities/using/initial-app.md)
+*After *the [page template](/help/communities/using/initial-app.md#createthepagetemplate) is created as part of the initial application, the initial page content can be created based on the template.... [**⇒**](/help/communities/using/initial-app.md)
 
-| [**⇐ Create An SCF Sandbox**](../../communities/using/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](../../communities/using/initial-app.md)** |
+| [**⇐ Create An SCF Sandbox**](/help/communities/using/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](/help/communities/using/initial-app.md)** |
 |---|---|
 

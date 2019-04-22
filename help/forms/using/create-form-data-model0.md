@@ -15,7 +15,7 @@ Create form data model for Interactive Communication
 
  ![](assets/04-create-form-data-model-main.png)
 
-| This tutorial is a step in the [Create your first Interactive Communication](../../forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
+| This tutorial is a step in the [Create your first Interactive Communication](/help/forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
 |---|
 
 ## About the tutorial {#about-the-tutorial}
@@ -26,11 +26,11 @@ For more information about form data integration and form data model, see [AEM F
 
 This tutorial walks you through the steps to prepare, create, configure, and associate a form data model with an interactive communication. At the end of this tutorial, you will be able to:
 
-* [Set up the database](../../forms/using/create-form-data-model0.md#step-set-up-the-database)
-* [Configure MySQL database as data source](../../forms/using/create-form-data-model0.md#step-configure-mysql-database-as-data-source)
-* [Create form data model](../../forms/using/create-form-data-model0.md#step-create-form-data-model)
-* [Configure form data model](../../forms/using/create-form-data-model0.md#step-configure-form-data-model)
-* [Test form data model](../../forms/using/create-form-data-model0.md#step-test-form-data-model-and-services)
+* [Set up the database](/help/forms/using/create-form-data-model0.md#step-set-up-the-database)
+* [Configure MySQL database as data source](/help/forms/using/create-form-data-model0.md#step-configure-mysql-database-as-data-source)
+* [Create form data model](/help/forms/using/create-form-data-model0.md#step-create-form-data-model)
+* [Configure form data model](/help/forms/using/create-form-data-model0.md#step-configure-form-data-model)
+* [Test form data model](/help/forms/using/create-form-data-model0.md#step-test-form-data-model-and-services)
 
 The form data model looks similar to the following:
 
@@ -42,7 +42,7 @@ The form data model looks similar to the following:
 
 Before you begin, ensure that you have the following:
 
-* MySQL database with sample data as stated in the [Set up the database](../../forms/using/create-form-data-model0.md#step-set-up-the-database) section.
+* MySQL database with sample data as stated in the [Set up the database](/help/forms/using/create-form-data-model0.md#step-set-up-the-database) section.
 * OSGi bundle for MySQL JDBC driver as explained in [Bundling the JDBC Database Driver](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/jdbc.html#bundling-the-jdbc-database-driver)
 
 ## Step 1: Set up the database {#step-set-up-the-database}
@@ -160,7 +160,7 @@ A computed property is the one whose value is computed based on a rule or an exp
 Based on the use case, create the **usagecharges** child computed property in the **bills** data model object using the following mathematical expression:
 
 * usage charges = call charges + conference call charges + SMS charges + mobile internet charges + roaming national + roaming international + VAS (all these properties exist in the bills data model object)  
-  For more information on the **usagecharges** child computed property, see [Plan the Interactive Communication](../../forms/using/planning-interactive-communications.md).
+  For more information on the **usagecharges** child computed property, see [Plan the Interactive Communication](/help/forms/using/planning-interactive-communications.md).
 
 Execute the following steps to create computed child properties for bills data model object:
 

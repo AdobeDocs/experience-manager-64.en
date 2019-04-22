@@ -42,7 +42,7 @@ The device registration process is done on 2 separate machines:
 
    >[!NOTE]
    >
-   >To get more information on creating a new project for Screens in the AEM dashboard, see [Create and Manage Screens Project](../../screens/using/creating-a-screens-project.md).
+   >To get more information on creating a new project for Screens in the AEM dashboard, see [Create and Manage Screens Project](/help/screens/using/creating-a-screens-project.md).
 
 1. Tap/click the **Device Manager** button in the action bar.
 
@@ -86,7 +86,7 @@ The device registration process is done on 2 separate machines:
 
    >[!NOTE]
    >
-   >To learn more about creating and managing a display for your Screens project, please refer to [Creating and Managing Displays](../../screens/using/managing-displays.md).
+   >To learn more about creating and managing a display for your Screens project, please refer to [Creating and Managing Displays](/help/screens/using/managing-displays.md).
 
 ### Assigning Device to a Display {#assigning-device-to-a-display}
 
@@ -132,4 +132,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Additional Resources {#additional-resources}
 
-To learn about AEM Screens Player, see [AEM Screens Player](../../sites/authoring/using/working-with-screens-player.md).
+To learn about AEM Screens Player, see [AEM Screens Player](/help/sites/authoring/using/working-with-screens-player.md).

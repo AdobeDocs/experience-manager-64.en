@@ -22,7 +22,7 @@ Create a configuration for the Microsoft Translator cloud service to use your Mi
 | Workspace ID |(Optional) The ID of your customized Microsoft Translator engine to use. |
 | Subscription Key |Your Microsoft Subscription Key for Microsoft Translator. |
 
-After you create the configuration, you need to [activate it](../../../sites/administering/using/tc-msconf.md#activating-the-translator-service-configurations).
+After you create the configuration, you need to [activate it](/help/sites/administering/using/tc-msconf.md#activating-the-translator-service-configurations).
 
 The following procedure uses the touch-optimized UI to create a Microsoft Translator configuration.
 
@@ -73,7 +73,7 @@ Microsoft Translation configuration pages provide a convenient link to the Micro
 
 ## Activating the Translator Service Configurations {#activating-the-translator-service-configurations}
 
-You need to activate your cloud service configurations to support translated content that is replicated to the publish instance. Use the method of [activating a complete section (tree)](../../../sites/authoring/using/publishing-pages.md#publishing-and-unpublishing-a-tree) to activate the repository nodes that store the Microsoft Translator or third-party cloud service configurations. The nodes are located below the following parent nodes:
+You need to activate your cloud service configurations to support translated content that is replicated to the publish instance. Use the method of [activating a complete section (tree)](/help/sites/authoring/using/publishing-pages.md#publishing-and-unpublishing-a-tree) to activate the repository nodes that store the Microsoft Translator or third-party cloud service configurations. The nodes are located below the following parent nodes:
 
 * Microsoft Translation Service: /etc/cloudservices/msft-translation
 * Third-party Translation: /etc/cloudservices/machine-translation

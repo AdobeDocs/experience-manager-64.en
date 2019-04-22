@@ -34,8 +34,8 @@ You can open the Live Copy Overview from the:
 
 The **Live Copy Overview** can be opened from the **References** side panel of the **Sites** console:
 
-1. In the **Sites** console, [navigate to your blueprint page and select it](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
-1. Open the ** [References](../../../sites/authoring/using/basic-handling.md#references)** panel and select **Live Copies**.
+1. In the **Sites** console, [navigate to your blueprint page and select it](/help/sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
+1. Open the ** [References](/help/sites/authoring/using/basic-handling.md#references)** panel and select **Live Copies**.
 
    ![](assets/chlimage_1-359.png)
 
@@ -68,7 +68,7 @@ The **Live Copy Overview** can be opened when viewing properties of a blueprint 
 The **Live Copy Overview** can also be used to peform actions on the live copy:
 
 1. Open the **Live Copy Overview**.
-1. Select the required blueprint or live copy page - the toolbar will be updated to show the available actions. The [actions](../../../sites/administering/using/msm.md#terms-used) available depend on whether you select a [blueprint](#actions-for-a-blueprint-page) or [live copy](#actions-for-a-live-copy-page) page:
+1. Select the required blueprint or live copy page - the toolbar will be updated to show the available actions. The [actions](/help/sites/administering/using/msm.md#terms-used) available depend on whether you select a [blueprint](#actions-for-a-blueprint-page) or [live copy](#actions-for-a-live-copy-page) page:
 
 ### Actions for a Blueprint Page {#actions-for-a-blueprint-page}
 
@@ -80,7 +80,7 @@ When you select a blueprint page, the following actions are available:
 
     * Open the blueprint page for editing.
 
-* [Rollout](../../../sites/administering/using/msm.md#rollout-and-synchronize)
+* [Rollout](/help/sites/administering/using/msm.md#rollout-and-synchronize)
 
     * Perform a rollout to push changes from the source to the livecopy.
 
@@ -98,23 +98,23 @@ When you select a live copy page, the following actions are available:
 
     * View information about the status and inheritance.
 
-* [Synchronize](../../../sites/administering/using/msm.md#rollout-and-synchronize)
+* [Synchronize](/help/sites/administering/using/msm.md#rollout-and-synchronize)
 
     * Synchronize a live copy to pull changes from the source to the livecopy.
 
-* [Reset](../../../sites/administering/using/msm-livecopy.md#resetting-a-live-copy-page)
+* [Reset](/help/sites/administering/using/msm-livecopy.md#resetting-a-live-copy-page)
 
     * Reset a live copy page to remove all inheritance cancellations and return the page to the same state as the source page.
 
-* [Suspend](../../../sites/administering/using/msm.md#suspending-and-cancelling-inheritance-and-synchronization)
+* [Suspend](/help/sites/administering/using/msm.md#suspending-and-cancelling-inheritance-and-synchronization)
 
     * Temporarily deactivates the live relationship between a live copy and its blueprint page.
 
-* [Resume](../../../sites/administering/using/msm-livecopy.md#resuming-inheritance-for-a-page)
+* [Resume](/help/sites/administering/using/msm-livecopy.md#resuming-inheritance-for-a-page)
 
     * Resume allows you to reinstate a suspended relationship.
 
-* [Detach](../../../sites/administering/using/msm.md#detaching-a-live-copy)
+* [Detach](/help/sites/administering/using/msm.md#detaching-a-live-copy)
 
     * Permanently removes the live relationship between a live copy and its blueprint page.
 

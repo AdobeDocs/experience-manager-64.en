@@ -14,7 +14,7 @@ discoiquuid: cc97a926-d893-46a9-8aea-b56cbee5df01
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 >[!NOTE]
 >
@@ -22,19 +22,19 @@ discoiquuid: cc97a926-d893-46a9-8aea-b56cbee5df01
 
 >[!NOTE]
 >
->Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with [AEM](../../sites/deploying/using/deploy.md). 
+>Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with [AEM](/help/sites/deploying/using/deploy.md). 
 >
->To Set up your environment for AEM Mobile On-Demand Services, see [AEM Mobile Application Dashboard or the Control Center](../../mobile/using/mobile-apps-ondemand-application-dashboard.md).
+>To Set up your environment for AEM Mobile On-Demand Services, see [AEM Mobile Application Dashboard or the Control Center](/help/mobile/using/mobile-apps-ondemand-application-dashboard.md).
 
 An **AEM developer** extends and creates custom web templates and components to enable the *AEM Author *to create beautiful and engaging mobile experiences. These templates and components are not only optimized for the mobile app world; but communicate both to the device and to the AEM server (any remote server) to omni-channel service end-points. AEM's built-in content editor is used by *AEM Authors* to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.
 
 An AEM developer is responsible for the following tasks while creating an app using AEM Mobile On-Demand Services:
 
-* [App Templates and Components](../../mobile/using/app-templates-and-components1.md)
-* [Mobile with Content Sync](../../mobile/using/mobile-ondemand-contentsync.md)
-* [Content Properties and Content Exporting](../../mobile/using/on-demand-content-properties-exporting.md)
+* [App Templates and Components](/help/mobile/using/app-templates-and-components1.md)
+* [Mobile with Content Sync](/help/mobile/using/mobile-ondemand-contentsync.md)
+* [Content Properties and Content Exporting](/help/mobile/using/on-demand-content-properties-exporting.md)
 
-See [Developing AEM Mobile Content Services](../../mobile/using/developing-content-services.md) for developing Content Services.
+See [Developing AEM Mobile Content Services](/help/mobile/using/developing-content-services.md) for developing Content Services.
 
 >[!NOTE]
 >
@@ -44,6 +44,6 @@ See [Developing AEM Mobile Content Services](../../mobile/using/developing-conte
 
 To learn about the roles and responsibilities of an Administrator and an Author, see the resources below:
 
-* [Authoring AEM Content for AEM Mobile On-Demand Services App](../../mobile/using/mobile-apps-ondemand.md)
-* [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md)
+* [Authoring AEM Content for AEM Mobile On-Demand Services App](/help/mobile/using/mobile-apps-ondemand.md)
+* [Administering Content to Use AEM Mobile On-Demand Services](/help/mobile/using/aem-mobile.md)
 

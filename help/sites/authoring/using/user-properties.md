@@ -15,9 +15,9 @@ discoiquuid: 6afbc889-c613-40e6-8a25-1570dff32d60
 
 AEM provides you with the capability to configure your account and certain aspects of the author environment.
 
-Using the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the [header](../../../sites/authoring/using/basic-handling.md#the-header) and the associated [My Preferences](#my-preferences) dialog, you can modify your user options such as.
+Using the [User](/help/sites/authoring/using/user-properties.md#user-settings) option in the [header](/help/sites/authoring/using/basic-handling.md#the-header) and the associated [My Preferences](#my-preferences) dialog, you can modify your user options such as.
 
-Begin by accessing the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the header.
+Begin by accessing the [User](/help/sites/authoring/using/user-properties.md#user-settings) option in the header.
 
 ## User Settings {#user-settings}
 
@@ -25,13 +25,13 @@ The **User** settings dialog gives you access to:
 
 * Impersonate as
 
-    * With the [Impersonate as](../../../sites/administering/using/security.md#impersonating-another-user) functionality a user can work on behalf of another user.
+    * With the [Impersonate as](/help/sites/administering/using/security.md#impersonating-another-user) functionality a user can work on behalf of another user.
 
 * Profile
 
-    * Offers a convenient link to your [user settings](../../../sites/administering/using/security.md))
+    * Offers a convenient link to your [user settings](/help/sites/administering/using/security.md))
 
-* [My Preferences](../../../sites/authoring/using/user-properties.md#my-preferences)
+* [My Preferences](/help/sites/authoring/using/user-properties.md#my-preferences)
 
     * Specify various preference settings unique to your user
 
@@ -39,7 +39,7 @@ The **User** settings dialog gives you access to:
 
 ## My Preferences {#my-preferences}
 
-The **My Preferences** dialog is access via the [User](../../../sites/authoring/using/user-properties.md#user-settings) option in the header.
+The **My Preferences** dialog is access via the [User](/help/sites/authoring/using/user-properties.md#user-settings) option in the header.
 
 Each user can set certain properties for himself or herself.
 
@@ -95,8 +95,8 @@ Each user can set certain properties for himself or herself.
 
   AEM supports a number of keyboard shortcuts that make authoring more efficient.
 
-    * [Keyboard shortcuts for editing pages](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md)
-    * [Keyboard shortcuts for consoles](../../../sites/authoring/using/keyboard-shortcuts.md)
+    * [Keyboard shortcuts for editing pages](/help/sites/authoring/using/page-authoring-keyboard-shortcuts.md)
+    * [Keyboard shortcuts for consoles](/help/sites/authoring/using/keyboard-shortcuts.md)
 
   This option enables keyboard shortcuts. By default they are enabled, but can be disabled for example if a user has certain accessibility requirements.
 

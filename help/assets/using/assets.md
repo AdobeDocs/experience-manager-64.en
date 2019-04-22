@@ -72,7 +72,7 @@ Assets managed within CQ DAM can then be accessed via the content finder of WCM:
 
 >[!NOTE]
 >
->The basic GUI handling is the same as the rest of WCM - see [Overview of the GUI Console](../../sites/authoring/using/page-authoring.md) for full details.
+>The basic GUI handling is the same as the rest of WCM - see [Overview of the GUI Console](/help/sites/authoring/using/page-authoring.md) for full details.
 
 ### Digital Asset Management versus Image Component {#digital-asset-management-versus-image-component}
 
@@ -85,7 +85,7 @@ When determining whether to put an image into AEM Assets or use CQ's image compo
 
 An asset is a digital document, image, video, or audio (or part thereof) that can have multiple renditions and can have sub-assets (for example, layers in a photoshop file, slides in a powerpoint file, pages in a pdf, files in a ZIP).
 
-An asset is essentially a binary plus metadata plus renditions plus sub-assets. See the [DAM Performance Guide](../../sites/deploying/using/assets-performance-sizing.md) for detailed information.
+An asset is essentially a binary plus metadata plus renditions plus sub-assets. See the [DAM Performance Guide](/help/sites/deploying/using/assets-performance-sizing.md) for detailed information.
 
 >[!CAUTION]
 >

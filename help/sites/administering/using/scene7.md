@@ -17,11 +17,11 @@ discoiquuid: f55e68c3-3309-4400-bef9-fd3afa6e2b5f
 
 To use Scene7, you need to configure the cloud configuration so that Scene7 and AEM Assets can interact with one another. This document describes how to configure AEM and Scene7.
 
-For information on using all the Scene7 components on a page and working with video, see [Using Scene7.](../../../assets/using/scene7.md)
+For information on using all the Scene7 components on a page and working with video, see [Using Scene7.](/help/assets/using/scene7.md)
 
 >[!NOTE]
 >
->* Scene7's DHTML viewer platform officially reached end-of-life on January 31, 2014. For more information see the [DHTML viewer end-of-life FAQ](../../../sites/administering/using/dhtml-viewer-endoflifefaqs.md).
+>* Scene7's DHTML viewer platform officially reached end-of-life on January 31, 2014. For more information see the [DHTML viewer end-of-life FAQ](/help/sites/administering/using/dhtml-viewer-endoflifefaqs.md).
 >* Before configuring Scene7 to work with AEM, see [Best Practices](#best-practices-for-integrating-scene-with-aem) for integrating Scene7 with AEM.
 >* If you are using Scene7 with a custom proxy configuration, you need to configure both HTTP Client proxy configurations as some functionalities of AEM are using the 3.x APIs and some others the 4.x APIs. 3.x is configured with [http://localhost:4502/system/console/configMgr/com.day.commons.httpclient](http://localhost:4502/system/console/configMgr/com.day.commons.httpclient) and 4.x is configured with [http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator](http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator).
 >
@@ -36,7 +36,7 @@ Use the following criteria to determine which solution to choose:
 
 * If you are a **new** AEM customer who has rich media delivery needs, select the [Dynamic Media option](#aem-dynamic-media). This option makes the most sense if you do not have an existing S7 account and many assets stored in that system.
 
-* In certain cases, you may want to use both solutions. The [dual-use scenario](../../../sites/administering/using/scene7.md#dual-use-scenario) describes that scenario.
+* In certain cases, you may want to use both solutions. The [dual-use scenario](/help/sites/administering/using/scene7.md#dual-use-scenario) describes that scenario.
 
 ### AEM/Scene7 point-to-point integration {#aem-scene-point-to-point-integration}
 
@@ -45,7 +45,7 @@ When you work with assets in this solution, you do one of the following:
 * Upload assets directly to Scene7 and then access via the **Scene7** content browser for page authoring or
 * Upload to AEM Assets and then enable automatic publishing to S7; you access via **Assets** content browser for page authoring
 
-The components you use for this integration are found in the **Scene7** component area in [Design mode.](../../../sites/authoring/using/author-environment-tools.md#page-modes)  
+The components you use for this integration are found in the **Scene7** component area in [Design mode.](/help/sites/authoring/using/author-environment-tools.md#page-modes)  
 
 ### AEM Dynamic Media {#aem-dynamic-media}
 
@@ -58,7 +58,7 @@ When you work with assets in this solution, you follow this workflow:
 1. Build image-based sets directly within AEM.
 1. If applicable, add interactivity to images or videos.
 
-The components you use for Dynamic Media are found in the **Dynamic Media** component area in [Design mode](../../../sites/authoring/using/author-environment-tools.md#page-modes). They include the following:
+The components you use for Dynamic Media are found in the **Dynamic Media** component area in [Design mode](/help/sites/authoring/using/author-environment-tools.md#page-modes). They include the following:
 
 * **Dynamic Media** - The **Dynamic Media** component is smart - depending on whether you add an image or a video, you have various options. The component supports image presets, image-based viewers such as image sets, spin sets, mixed media sets, and video. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
 
@@ -148,15 +148,15 @@ To use Dynamic Media and Scene7 simultaneously:
  </tbody> 
 </table>
 
-1. Optional (please see use case table) - Set up the [Dynamic Media cloud configuration](../../../assets/using/config-dynamic.md) and [enable the Dynamic Media server](../../../assets/using/config-dynamic.md).
+1. Optional (please see use case table) - Set up the [Dynamic Media cloud configuration](/help/assets/using/config-dynamic.md) and [enable the Dynamic Media server](/help/assets/using/config-dynamic.md).
 1. Optional (please see use case table) -- If you choose to enable Automatic Upload from Assets to Scene7, then you need to add the following:
 
     1. Set up automatic upload to Scene7.
     1. Add the **Scene7 upload** step after all the Dynamic Media workflow steps *at the end of* **Dam Update Asset** workflow ( `https://<server>:<host>/cf#/etc/workflow/models/dam/update_asset.html)`
     
     1. (Optional) Restrict Scene7 asset upload by MIME type in [https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl](http://localhost:4502/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl). Asset MIME types not in this list will not be uploaded to Scene7 server.
-    1. (Optional) Set up video in Scene7 configuration. You can enable video encoding for either or both Dynamic Media and Scene7 simultaneously. Dynamic renditions are used for preview and playback locally in AEM instance, whereas Scene7 video renditions are generated and stored on Scene7 servers. When setting up video encoding services for both Dynamic Media and Scene7, apply a [video processing profile](../../../assets/using/video-profiles.md) to the Scene7 asset folder.
-    1. (Optional) [Configure Secure preview in Scene7](../../../sites/administering/using/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene).
+    1. (Optional) Set up video in Scene7 configuration. You can enable video encoding for either or both Dynamic Media and Scene7 simultaneously. Dynamic renditions are used for preview and playback locally in AEM instance, whereas Scene7 video renditions are generated and stored on Scene7 servers. When setting up video encoding services for both Dynamic Media and Scene7, apply a [video processing profile](/help/assets/using/video-profiles.md) to the Scene7 asset folder.
+    1. (Optional) [Configure Secure preview in Scene7](/help/sites/administering/using/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene).
 
 #### Limitations {#limitations}
 
@@ -528,7 +528,7 @@ To configure the adhoc folder:
 
 ### Configuring universal presets {#configuring-universal-presets}
 
-To configure Universal Presets for the video component, see [Video](../../../assets/using/s7-video.md).
+To configure Universal Presets for the video component, see [Video](/help/assets/using/s7-video.md).
 
 ## Enabling MIME type-based Assets/Scene7 upload job parameter support {#enabling-mime-type-based-assets-scene-upload-job-parameter-support}
 
@@ -543,7 +543,7 @@ Specifically, you configure the accepted file format by MIME type in the OSGi (O
 1. Under the Name column, find and tap **Adobe CQ Scene7 Asset MIME type Service** to edit the configuration.
 1. In the Mime Type Mapping area, tap any plus sign (+) to add a MIME type.
 
-   See [Supported MIME types](../../../assets/using/assets-formats.md#supported-mime-types).
+   See [Supported MIME types](/help/assets/using/assets-formats.md#supported-mime-types).
 
 1. In the text field, type the new MIME type name.
 
@@ -594,7 +594,7 @@ If you are having trouble integrating AEM with Scene7, see the following scenari
 
 **If your video assets do not play in AEM:**
 
-* Ensure that you used the correct video component. Scene7 video component is different than the foundation Video component. See [Foundation Video Component versus Scene7 Video Component](../../../assets/using/s7-video.md).
+* Ensure that you used the correct video component. Scene7 video component is different than the foundation Video component. See [Foundation Video Component versus Scene7 Video Component](/help/assets/using/s7-video.md).
 
 **If new or modified assets in AEM do not automatically upload to Scene7:**
 

@@ -17,7 +17,7 @@ discoiquuid: ccddb2cd-8e67-43aa-a495-8996ad349761
 
 OSGi "*provides the standardized primitives that allow applications to be constructed from small, reusable and collaborative components. These components can be composed into an application and deployed*".
 
-This allows easy management of bundles as they can be stopped, installed, started individually. The interdependencies are handled automatically. Each OSGi Component (see the [OSGi Specification](https://www.osgi.org/Specifications/HomePage)) is contained in one of the various bundles. When working with AEM there are several methods of managing the configuration settings for such bundles; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
+This allows easy management of bundles as they can be stopped, installed, started individually. The interdependencies are handled automatically. Each OSGi Component (see the [OSGi Specification](https://www.osgi.org/Specifications/HomePage)) is contained in one of the various bundles. When working with AEM there are several methods of managing the configuration settings for such bundles; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for more details and the recommended practices.
 
 The following OSGi configuration settings (listed according to bundle) are relevant to project implementation. Not all the listed settings need adjusting, some are mentioned to help you understand how AEM operates.
 
@@ -49,7 +49,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 
 **CRX Sling Client Repository** Configure access to the underlying content repository.
 
-* The **Admin Password** should be changed after installation to ensure the [security](../../../sites/administering/using/security-checklist.md) of your instance.
+* The **Admin Password** should be changed after installation to ensure the [security](/help/sites/administering/using/security-checklist.md) of your instance.
 
 * Other changes should not be necessary and care must be taken as they can affect access to the repository.
 
@@ -64,7 +64,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 >Be sure to configure the following:
 >
 >**User Name** and **Password**, the credentials for accessing the Apache Felix Web Management Console itself.  
->The password must be changed after the initial installation to ensure the [security](../../../sites/administering/using/security-checklist.md) of your instance.
+>The password must be changed after the initial installation to ensure the [security](/help/sites/administering/using/security-checklist.md) of your instance.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 * **Logger Name** and **Log Format** to configure the location and format of request and access logging (default: `request.log`). This log file is essential when analyzing performance or debugging functionality related to the web chain.  
   This is paired with the Apache Sling Request Logger.
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](/help/sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Eventing Thread Pool** Configure:
 
@@ -96,7 +96,7 @@ For further information see [AEM Logging](../../../sites/deploying/using/configu
 
 >[!NOTE]
 >
->This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](../../../sites/administering/using/production-ready.md).
+>This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](/help/sites/administering/using/production-ready.md).
 
 **Apache Sling Java Script Handler** Configure settings for the compilation of .java files as scripts (servlets).
 
@@ -133,7 +133,7 @@ In particular for production instances:
 
 >[!NOTE]
 >
->This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](../../../sites/administering/using/production-ready.md).
+>This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](/help/sites/administering/using/production-ready.md).
 
 **Apache Sling Logging Configuration** Configure:
 
@@ -143,7 +143,7 @@ In particular for production instances:
 
 * **Message Pattern** defines the format of the log messages.
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md#global-logging) and [Sling Logging](https://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](/help/sites/deploying/using/configure-logging.md#global-logging) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Logging Logger Configuration (Factory Configuration)** Configure:
 
@@ -155,7 +155,7 @@ For further information see [AEM Logging](../../../sites/deploying/using/configu
 * Such configurations are helpful during development; for example, to log TRACE messages for a specific service in a specific log file.
 * Such configurations are helpful in a production environment; for example, to have messages about a specific service logged to an individual log file for easier monitoring.
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](/help/sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Logging Writer Configuration (Factory Configuration)** Configure:
 
@@ -167,7 +167,7 @@ For further information see [AEM Logging](../../../sites/deploying/using/configu
 * Such configurations are helpful during development; for example, to log TRACE messages for a specific service in a specific log file.
 * Such configurations are helpful in a production environment; for example, to have messages about a specific service logged to an individual log file for easier monitoring.
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](/help/sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Main Servlet** Configure:
 
@@ -185,7 +185,7 @@ The referrer filter service is an OSGi service that allows you to configure:
 * whether an empty referrer header is allowed  
 * and a white list of servers to be allowed in addition to the server host.
 
-See the [Security Checklist - Issues with Cross-Site Request Forgery](../../../sites/administering/using/security-checklist.md#protect-against-cross-site-request-forgery) for further details.
+See the [Security Checklist - Issues with Cross-Site Request Forgery](/help/sites/administering/using/security-checklist.md#protect-against-cross-site-request-forgery) for further details.
 
 >[!NOTE]
 >
@@ -200,7 +200,7 @@ See the [Security Checklist - Issues with Cross-Site Request Forgery](../../../s
 
 This is paired with the Apache Sling Customizable Request Data Logger.
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](/help/sites/deploying/using/configure-logging.md) and [Sling Logging](https://sling.apache.org/site/logging.html).
 
 **Apache Sling Resource Resolver Factory** Configure central aspects of Sling resource resolution:
 
@@ -280,11 +280,11 @@ When creating a new configuration, do not make changes to the factory configurat
 
 >[!NOTE]
 >
->This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](../../../sites/administering/using/production-ready.md).
+>This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](/help/$1/using/production-ready.md).
 
 **Day CQ HTTP Header Authentication Handler** System wide settings for the basic authentication method of the HTTP request.
 
-When using [closed user groups](../../../sites/administering/using/cug.md) you can configure (amongst others):
+When using [closed user groups](/help/sites/administering/using/cug.md) you can configure (amongst others):
 
 * **HTTP Realm**
 * The **Default Login Page**
@@ -311,7 +311,7 @@ When using [closed user groups](../../../sites/administering/using/cug.md) you c
 
 * **Target Path** to define where a request to " `/`" will be redirected to.
 
-There are [two UIs](../../../sites/authoring/using/author-environment.md) available in AEM:
+There are [two UIs](/help/sites/authoring/using/author-environment.md) available in AEM:
 
 * the touch-optimized UI has been introduced  
 * and the classic UI is still fully operational
@@ -377,7 +377,7 @@ Various configuration properties are available:
 
 >[!NOTE]
 >
->This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](../../../sites/administering/using/production-ready.md).
+>This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](/help/sites/administering/using/production-ready.md).
 
 **Day CQ WCM Link Checker Configurator** Configure:
 
@@ -397,7 +397,7 @@ Various configuration properties are available:
 
 >[!NOTE]
 >
->See [Page Impressions](../../../sites/deploying/using/configuring.md#enabling-page-impressions) for more information.
+>See [Page Impressions](/help/sites/deploying/using/configuring.md#enabling-page-impressions) for more information.
 
 **Day CQ WCM Page Statistics** For a publish instance configure:
 
@@ -407,7 +407,7 @@ Various configuration properties are available:
 
 >[!NOTE]
 >
->See [Page Impressions](../../../sites/deploying/using/configuring.md#enabling-page-impressions) for more information.
+>See [Page Impressions](/help/sites/deploying/using/configuring.md#enabling-page-impressions) for more information.
 
 **Day CQ WCM Version Manager** Control if, and how, versions are managed in your system:
 
@@ -421,7 +421,7 @@ Various configuration properties are available:
 
 * **Max Number Versions**, the maximum number of versions to keep
 
-See [Version Purging](../../../sites/deploying/using/version-purging.md) for more information.
+See [Version Purging](/help/sites/deploying/using/version-purging.md) for more information.
 
 **Day CQ Workflow Email Notification Service** Configure the email settings for notifications sent by a workflow.
 
@@ -446,7 +446,7 @@ The following properties only apply if HTTPS is enabled.
 * **Key Password**, Password to unlock the secret key in the Keystore. 
 * **Client Certificate**, Requirement for the Client to provide a valid certifcate. Defaults to none.
 
-See also [Enabling HTTP Over SSL](../../../sites/deploying/using/config-ssl.md) for details on the SSL-related options and a complete description on how to enable HTTPS for CQSE.
+See also [Enabling HTTP Over SSL](/help/sites/deploying/using/config-ssl.md) for details on the SSL-related options and a complete description on how to enable HTTPS for CQSE.
 
 **CQ Rewriter HTML Parser Factory**
 

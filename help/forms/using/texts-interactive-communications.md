@@ -34,7 +34,7 @@ The text document fragment in Interactive Communication supports the following t
     * **[!UICONTROL Name]**: The unique name for the text, within a folder. No two document fragments (text, condition, or list) in any state can exist with the same name in a folder. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
     
     * **[!UICONTROL Description]**: Type a description of the text.
-    * **`[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the text based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]`** field appears. Browse and select a form data model. While creating text and condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on Form Data Model, see [Data Integration](../../forms/using/data-integration.md). 
+    * **`[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the text based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]`** field appears. Browse and select a form data model. While creating text and condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on Form Data Model, see [Data Integration](/help/forms/using/data-integration.md). 
     
     * **[!UICONTROL Tags]**: Optionally, to create custom tag enter value in text field and press Enter. When you save this text, the newly added tags get created.
 
@@ -52,10 +52,10 @@ The text document fragment in Interactive Communication supports the following t
         * [Copy paste formatted text from other applications](#paste)
         * [Highlight parts of text](#highlight)
 
-    * [Repeat](../../forms/using/cm-inline-condition.md)
+    * [Repeat](/help/forms/using/cm-inline-condition.md)
     * [Special characters](#special)
     * [Searching and replacing text](#search)
-    * [Keyboard shortcuts](../../forms/using/keyboard-shortcuts.md)
+    * [Keyboard shortcuts](/help/forms/using/keyboard-shortcuts.md)
 
 1. Tap **[!UICONTROL Save]**.
 
@@ -73,7 +73,7 @@ You can edit an existing text document fragment using the following steps. You c
 
 ## Personalizing a text document fragment using form data model properties {#formdatamodel}
 
-You can personalize text document fragments by inserting the form data model properties. By inserting form data model properties in text, you can fetch and populate recipient-specific data from the associated data source while previewing an Interactive Communication. For more information on form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
+You can personalize text document fragments by inserting the form data model properties. By inserting form data model properties in text, you can fetch and populate recipient-specific data from the associated data source while previewing an Interactive Communication. For more information on form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
 If you have specified a form data model while creating a text, the properties in the form data model appear in the left pane of the text editor. The specified form data model should be same for the text document fragment as well as the Interactive Communication that includes it. 
 
@@ -81,7 +81,7 @@ If you have specified a form data model while creating a text, the properties in
 
 * To insert an FDM property into text, place the cursor where you want to insert the property, then select the **`[A]`** property in the left pane by tapping on it, and tap **`[B]`** **[!UICONTROL Add Selected]**. You can also just double-tap the property to insert it at the **`[C]`** cursor position. Form data model properties are highlighted in a brownish background color. 
 
-* To allow the agents to edit an FDM property's value in the agent UI while [Prepare and send Interactive Communication](../../forms/using/prepare-send-interactive-communication.md) using the Agent UI, tap the **`[D]`** lock icon for that property and ensure it is in an unlocked state. The default state of the property is locked and an agent cannot edit the property in the Agent UI. 
+* To allow the agents to edit an FDM property's value in the agent UI while [Prepare and send Interactive Communication](/help/forms/using/prepare-send-interactive-communication.md) using the Agent UI, tap the **`[D]`** lock icon for that property and ensure it is in an unlocked state. The default state of the property is locked and an agent cannot edit the property in the Agent UI. 
 
 *
 
@@ -97,7 +97,7 @@ You can use variables instead of form data model properties when:
 * Text document fragment does not have a form data model at the time of its creation. You can insert variables and later bind them to the form data model properties at the time of creation of the Interactive Communication.
 * You need to bind and retrieve text from a text document fragment. Only those text document fragments can be bound to variables should not have that have no variables within.
 
-While creating or editing a text document fragment, you can create and insert variables. The variables you create appear in the Data tab of the Agent UI. The agent specifies the values for the variables while [Prepare and send Interactive Communication using the Agent UI](../../forms/using/prepare-send-interactive-communication.md).
+While creating or editing a text document fragment, you can create and insert variables. The variables you create appear in the Data tab of the Agent UI. The agent specifies the values for the variables while [Prepare and send Interactive Communication using the Agent UI](/help/forms/using/prepare-send-interactive-communication.md).
 
 ### Create variables {#create-variables}
 
@@ -243,7 +243,7 @@ If required, insert special characters in the document fragment. For example, yo
 
 ![](assets/specialcharacters-2.png)
 
-Text editor has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](../../forms/using/custom-special-characters.md).
+Text editor has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](/help/forms/using/custom-special-characters.md).
 
 ## Searching and replacing text {#search}
 

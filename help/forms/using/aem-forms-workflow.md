@@ -25,9 +25,9 @@ You can use AEM Workflows to rapidly build adaptive forms-based workflows. These
 
 With Forms-centric workflow on OSGi, you can rapidly build and deploy workflows for various tasks on the OSGi stack, without having to install the full-fledged Process Management capability on JEE stack. The development and management of workflows uses the familiar AEM Workflow and AEM Inbox capabilities. Workflows form the basis of automating real-world business processes that span multiple software systems, networks, departments, and even organizations.
 
-Once set up, these workflows can be triggered manually to complete a defined process or run programmatically when users submit a form or [correspondence management](../../forms/using/cm-overview.md) letter. With this enhanced AEM Workflow capabilities, AEM Forms offers two distinct, yet similar, capabilities. As part of your deployment strategy, you need to decide which one works for you. See a [comparison](../../forms/using/capabilities-osgi-jee-workflows.md) of the Forms-centric AEM Workflows on OSGi and Process Management on JEE. Moreover, for the deployment topology see, [Architecture and deployment topologies for AEM Forms](../../forms/using/aem-forms-architecture-deployment.md).
+Once set up, these workflows can be triggered manually to complete a defined process or run programmatically when users submit a form or [correspondence management](/help/forms/using/cm-overview.md) letter. With this enhanced AEM Workflow capabilities, AEM Forms offers two distinct, yet similar, capabilities. As part of your deployment strategy, you need to decide which one works for you. See a [comparison](/help/forms/using/capabilities-osgi-jee-workflows.md) of the Forms-centric AEM Workflows on OSGi and Process Management on JEE. Moreover, for the deployment topology see, [Architecture and deployment topologies for AEM Forms](/help/forms/using/aem-forms-architecture-deployment.md).
 
-Forms-centric workflow on OSGi extends [AEM Inbox](../../sites/authoring/using/inbox.md) and provides extra components (steps) for AEM Workflow editor to add support for AEM Forms-centric workflows. The extended AEM Inbox has functionalities similar to [AEM Forms Workspace](../../forms/using/introduction-html-workspace.md). Along with managing human-centric workflows (Approval, Review, and so on), you can use AEM workflows to automate [document services](../../sites/developing/using/workflows-step-ref.md)-related operations (for example, Generate PDF) and electronically signing (Adobe Sign) documents.
+Forms-centric workflow on OSGi extends [AEM Inbox](/help/sites/authoring/using/inbox.md) and provides extra components (steps) for AEM Workflow editor to add support for AEM Forms-centric workflows. The extended AEM Inbox has functionalities similar to [AEM Forms Workspace](/help/forms/using/introduction-html-workspace.md). Along with managing human-centric workflows (Approval, Review, and so on), you can use AEM workflows to automate [document services](/help/sites/developing/using/workflows-step-ref.md)-related operations (for example, Generate PDF) and electronically signing (Adobe Sign) documents.
 
 The following diagram depicts end-to-end procedure to create, run, and monitor a Forms-centric workflow on OSGi.
 
@@ -38,13 +38,13 @@ The following diagram depicts end-to-end procedure to create, run, and monitor a
 * A workflow is a representation of a real-world business process. Keep your real-world business process and list of the participants of the business process ready. Also, keep the collateral (adaptive forms, PDF Documents, and more) ready before start creating a workflow.
 * A workflow can have multiple stages. These stages are displayed in the AEM Inbox and help report progress of the workflow. Divide your business process into logical stages.
 * You can configure the assign task step of AEM Workflows to send email notifications to the users or assignees. So, [enable email notifications](#configure-email-service).
-* A workflow can also use Adobe sign for digital signatures. If you plan to use Adobe Sign in a workflow, the [configure Adobe Sign for AEM Forms](../../forms/using/adobe-sign-integration-adaptive-forms.md) before using it in a workflow.
+* A workflow can also use Adobe sign for digital signatures. If you plan to use Adobe Sign in a workflow, the [configure Adobe Sign for AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md) before using it in a workflow.
 
 ## Create a workflow model {#create-a-workflow-model}
 
-A workflow model consists of logic and flow of a business process. It is made up of a series of the steps. These steps are AEM components. You can extend workflow steps with parameters and scripts to provide more functionality and control, as required. AEM Forms provides a few steps in addition to AEM steps available out of the box. For a detailed list of AEM and AEM Forms steps, see [AEM Workflow Step Reference](/help/sites/developing/using/workflows-step-ref.md) and [Forms-centric workflow on OSGi - Step Reference](../../forms/using/aem-forms-workflow.md).
+A workflow model consists of logic and flow of a business process. It is made up of a series of the steps. These steps are AEM components. You can extend workflow steps with parameters and scripts to provide more functionality and control, as required. AEM Forms provides a few steps in addition to AEM steps available out of the box. For a detailed list of AEM and AEM Forms steps, see [AEM Workflow Step Reference](/help/sites/developing/using/workflows-step-ref.md) and [Forms-centric workflow on OSGi - Step Reference](/help/forms/using/aem-forms-workflow.md).
 
-AEM provides an intuitive user interface to create a workflow model using the provided workflow steps. For step-by-step instructions to create a workflow model, see [Creating Workflow Models](../../sites/developing/using/workflows-models.md). The following example provides step-by-step instructions to create a workflow model for an approval and review workflow:
+AEM provides an intuitive user interface to create a workflow model using the provided workflow steps. For step-by-step instructions to create a workflow model, see [Creating Workflow Models](/help/sites/developing/using/workflows-models.md). The following example provides step-by-step instructions to create a workflow model for an approval and review workflow:
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    The assign task component assigns the task, created by workflow, to a user or group. Along with assigning the task, you can use the component to specify an adaptive form or a non-interactive PDF for the task. The adaptive form is required to accept input from users and non-interactive PDF or a read-only adaptive form is used for review only workflows.
 
-   You can also use the step to control the behavior of the task. For example, creating an automatic document of record, assign the task to a specific user or group, the path of the submitted data, the path of data to be pre-populated, and default actions. For detailed information about the options of the assign task step, see [Forms-centric workflow on OSGi - Step Reference](../../forms/using/aem-forms-workflow.md) document.
+   You can also use the step to control the behavior of the task. For example, creating an automatic document of record, assign the task to a specific user or group, the path of the submitted data, the path of data to be pre-populated, and default actions. For detailed information about the options of the assign task step, see [Forms-centric workflow on OSGi - Step Reference](/help/forms/using/aem-forms-workflow.md) document.
 
    ![](assets/workflow-editor.png)
 
@@ -124,7 +124,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    For the complete set of values of all the fields of the assign task steps, document of record step, and sign document step configured for example mortgage application, import the example package, available for download in the starting of this section.
 
-   The workflow model is ready. You can launch the workflow through various methods. For details, see [Launch a Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md#main-pars-header).
+   The workflow model is ready. You can launch the workflow through various methods. For details, see [Launch a Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md#main-pars-header).
 
    ![](assets/workflow-editor-mortgage.png)
 
@@ -202,21 +202,21 @@ You can launch or trigger a Forms-centric workflow by:
 
 ### Submitting an application from AEM Inbox {#inbox}
 
-The workflow application you created is available as an application in Inbox. Users who are members of workflow-users group can fill and submit the application that triggers the associated workflow. For information about using AEM Inbox to submit applications and manage tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+The workflow application you created is available as an application in Inbox. Users who are members of workflow-users group can fill and submit the application that triggers the associated workflow. For information about using AEM Inbox to submit applications and manage tasks, see [Manage Forms applications and tasks in AEM Inbox](/help/forms/using/manage-applications-inbox.md).
 
 ### Submitting an application from AEM Forms App {#afa}
 
-The AEM Forms app syncs with an AEM Forms server and allows you to make changes to the form data, tasks, workflow applications, and saved information (drafts/templates) in your account. For more information, see [AEM Forms app](../../forms/using/aem-forms-app.md) and related articles.
+The AEM Forms app syncs with an AEM Forms server and allows you to make changes to the form data, tasks, workflow applications, and saved information (drafts/templates) in your account. For more information, see [AEM Forms app](/help/forms/using/aem-forms-app.md) and related articles.
 
 ### Submitting an adaptive form {#af}
 
-You can configure the submit actions of an adaptive form to start a workflow on submission of the adaptive form. Adaptive forms provides the **Invoke an AEM Workflow** submit action to start a workflow on submission of an adaptive form. For detailed information about the submit action, see [Configuring the Submit action](../../forms/using/configuring-submit-actions.md). To submit an Adaptive form through the AEM Forms app, enable Sync With AEM Forms App in the adaptive form properties.
+You can configure the submit actions of an adaptive form to start a workflow on submission of the adaptive form. Adaptive forms provides the **Invoke an AEM Workflow** submit action to start a workflow on submission of an adaptive form. For detailed information about the submit action, see [Configuring the Submit action](/help/forms/using/configuring-submit-actions.md). To submit an Adaptive form through the AEM Forms app, enable Sync With AEM Forms App in the adaptive form properties.
 
-You can configure an adaptive form to sync, submit, and trigger a workflow from AEM Forms app. For details, see [working with a form](../../forms/using/working-with-form.md).
+You can configure an adaptive form to sync, submit, and trigger a workflow from AEM Forms app. For details, see [working with a form](/help/forms/using/working-with-form.md).
 
 ### Using a watched folder {#watched}
 
-An administrator (a member of fd-administrators group) can configure a network folder to run a pre-configured workflow when a user places a file (such as a PDF file) in the folder. After the workflow completes, it can save the result file to a specified output folder. Such a folder is known as [Watched Folder](../../forms/using/watched-folder-in-aem-forms.md). Perform the following procedure to configure a watched folder to launch a workflow:
+An administrator (a member of fd-administrators group) can configure a network folder to run a pre-configured workflow when a user places a file (such as a PDF file) in the folder. After the workflow completes, it can save the result file to a specified output folder. Such a folder is known as [Watched Folder](/help/forms/using/watched-folder-in-aem-forms.md). Perform the following procedure to configure a watched folder to launch a workflow:
 
 1. On your AEM author instance, go to ![](assets/tools.png) **> **[!UICONTROL Forms]**&gt; Configure Watched Folder.** A list of already configured watched folders is displayed.
 1. Tap **[!UICONTROL New]**. A list of fields is displayed. Specify a value for the following fields to configure a Watched Folder for a workflow:
@@ -256,11 +256,11 @@ An administrator (a member of fd-administrators group) can configure a network f
    |---|---|
    | Payload Mapper Filter |When you create a watched folder, it creates a folder structure in the crx-repository. The folder structure can serve as a payload to the workflow. You can write a script to map an AEM Workflow to accept inputs from the watched folder structure. An out of the box implementation is available and listed in the Payload Mapper Filter. If you do not have a custom implementation, select the default implementation. |
 
-   The Advanced tab contains more fields. Most of these fields contain a default value. To learn about all the fields, see the [Create or Configure a watched folder](../../forms/using/creating-configure-watched-folder.md) article.
+   The Advanced tab contains more fields. Most of these fields contain a default value. To learn about all the fields, see the [Create or Configure a watched folder](/help/forms/using/creating-configure-watched-folder.md) article.
 
 ### Submitting an interactive communication or a letter {#letter}
 
-You can associate and execute a Forms-centric workflow on OSGi on submission of an interactive communication or a letter. In correspondence management workflows are used for post processing interactive communications and letters. For example, emailing, printing, faxing, or archiving final letters. For detailed steps, see [Post processing of interactive communications and letters](../../forms/using/submit-letter-topostprocess.md).
+You can associate and execute a Forms-centric workflow on OSGi on submission of an interactive communication or a letter. In correspondence management workflows are used for post processing interactive communications and letters. For example, emailing, printing, faxing, or archiving final letters. For detailed steps, see [Post processing of interactive communications and letters](/help/forms/using/submit-letter-topostprocess.md).
 
 ## Additional Configurations {#additional-configurations}
 
@@ -274,4 +274,4 @@ You can use the Assign Task and Send Email steps of AEM Workflows to send an ema
 
 ### Purge workflow instances {#purge-workflow-instances}
 
-Minimizing the number of workflow instances increases the performance of the workflow engine, so you can regularly purge completed or running workflow instances from the repository. For detailed information see, [Regular Purging of Workflow Instances](../../sites/administering/using/workflows-administering.md#regular-purging-of-workflow-instances).
+Minimizing the number of workflow instances increases the performance of the workflow engine, so you can regularly purge completed or running workflow instances from the repository. For detailed information see, [Regular Purging of Workflow Instances](/help/sites/administering/using/workflows-administering.md#regular-purging-of-workflow-instances).

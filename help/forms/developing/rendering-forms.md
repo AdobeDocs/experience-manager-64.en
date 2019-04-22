@@ -24,7 +24,7 @@ When an end-user requests a form, a client application sends the request to the 
 
 Depending upon the type of client application, you can write the form to a client web browser or save the form as a PDF file. A web-based application can write the form to web browser. A desktop application can save the form as a PDF file. To demonstrate how to write out to a web browser and to a PDF file, the quick starts located in the *Rendering Forms* section are organized in the following manner:
 
-* The Java API strongly typed (SOAP mode) examples are a Java servlet. [](../../forms/developing/creating-web-applications-renders-forms.md)
+* The Java API strongly typed (SOAP mode) examples are a Java servlet. [](/help/forms/developing/creating-web-applications-renders-forms.md)
 * The web service (Java Base64) examples are a Java servlet.
 * The web service (MTOM) examples are a console application (not all quick starts have a MTOM example).
 

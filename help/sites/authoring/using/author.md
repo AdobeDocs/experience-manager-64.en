@@ -17,7 +17,7 @@ discoiquuid: 72ee013a-7a60-41ee-9421-2846e4c6bc68
 >
 >Authoring by default is performed in the standard, touch-enabled AEM UI, which is the focus of this authoring documentation.
 >
->For an explanation of the differences between the standard UI and the classic UI, see [Working with the Author Environment](../../../sites/authoring/using/author-environment.md).
+>For an explanation of the differences between the standard UI and the classic UI, see [Working with the Author Environment](/help/sites/authoring/using/author-environment.md).
 >
 >If you are looking for authoring documentation for the classic UI, see [Authoring in the Classic UI User Guide](/help/sites/classic-ui-authoring/using/home.md).
 
@@ -47,7 +47,7 @@ On the author environment the functionality of AEM is made available through two
 
 ### Author Environment {#author-environment}
 
-The author works in what is known as the ** [author environment](../../../sites/authoring/using/author-environment.md)**. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.
+The author works in what is known as the ** [author environment](/help/sites/authoring/using/author-environment.md)**. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ When ready, the AEM site's content is published to the **publish environment**. 
 
 Usually, the publish environment is located inside the demilitarized zone; in other words, available to the internet, but no longer under the full protection of the internal network.
 
-When the AEM site is a [community site](../../../communities/using/overview.md), or includes [Communities components](../../../communities/using/author-communities.md), signed-in site visitors (members) may interact with Communities features. For example, they may post to a forum, post a comment, or follow other members. Members may be granted permission to perform activites normally limited to the author environment, such as create new pages (community groups), blog articles, and moderate other members' posts.
+When the AEM site is a [community site](/help/communities/using/overview.md), or includes [Communities components](/help/communities/using/author-communities.md), signed-in site visitors (members) may interact with Communities features. For example, they may post to a forum, post a comment, or follow other members. Members may be granted permission to perform activites normally limited to the author environment, such as create new pages (community groups), blog articles, and moderate other members' posts.
 
 >[!NOTE]
 >

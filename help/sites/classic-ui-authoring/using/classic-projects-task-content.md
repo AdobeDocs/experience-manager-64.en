@@ -19,5 +19,5 @@ Tasks are also used in projects to determine the level of completeness of curren
 
 >[!NOTE]
 >
->Projects are not available in classic UI. See [Projects](../../../sites/authoring/using/projects.md) in the standard authoring documentation for details.
+>Projects are not available in classic UI. See [Projects](/help/sites/authoring/using/projects.md) in the standard authoring documentation for details.
 

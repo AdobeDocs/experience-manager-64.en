@@ -65,7 +65,7 @@ In the process instance list, for each process instance, AEM Forms workspace sho
 
 To display the `description` property of the process instance in the process instance card, perform the following steps.
 
-1. Follow the [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md).
+1. Follow the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
 1. Do the following:
 
     1. Copy /libs/ws/js/runtime/templates/processinstance.html to/apps/ws/js/runtime/templates/, if it does not exist. Click **Save All**.

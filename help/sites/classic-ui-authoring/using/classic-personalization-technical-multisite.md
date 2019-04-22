@@ -15,5 +15,5 @@ discoiquuid: 9740c93e-0f6d-40b8-a969-7f3212a4acaf
 
 >[!NOTE]
 >
->Multisite management for targeted content is not available in classic UI. See [How Multisite Management for Targeted Content is Structured](../../../sites/authoring/using/technical-multisite-targeted.md) in the standard authoring documentation for details.
+>Multisite management for targeted content is not available in classic UI. See [How Multisite Management for Targeted Content is Structured](/help/sites/authoring/using/technical-multisite-targeted.md) in the standard authoring documentation for details.
 

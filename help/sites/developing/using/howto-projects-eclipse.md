@@ -17,7 +17,7 @@ This guide describes how to use Eclipse for developing AEM based projects.
 
 >[!NOTE]
 >
->Adobe now provides the [AEM Development Tools for Eclipse](../../../sites/developing/using/aem-eclipse.md) which helps you to develop AEM solutions with Eclipse.
+>Adobe now provides the [AEM Development Tools for Eclipse](/help/sites/developing/using/aem-eclipse.md) which helps you to develop AEM solutions with Eclipse.
 
 ## Overview {#overview}
 
@@ -42,7 +42,7 @@ Install Eclipse following the [Installation Instructions](https://wiki.eclipse.o
 
 ## Set up your AEM project based on Maven {#set-up-your-aem-project-based-on-maven}
 
-Next, set up your project using Maven as described in [How-To Build AEM Projects using Apache Maven](../../../sites/developing/using/ht-projects-maven.md).
+Next, set up your project using Maven as described in [How-To Build AEM Projects using Apache Maven](/help/sites/developing/using/ht-projects-maven.md).
 
 ## Prepare JSP Support for Eclipse {#prepare-jsp-support-for-eclipse}
 
@@ -53,12 +53,12 @@ Eclipse can also provide support in working with JSP, e.g.
 
 For that to work:
 
-1. Follow the instructions on [How-To Work with JSPs](../../../sites/developing/using/ht-projects-maven.md#how-to-work-with-jsps) in [How-To Build AEM Projects using Apache Maven](../../../sites/developing/using/ht-projects-maven.md).
+1. Follow the instructions on [How-To Work with JSPs](/help/sites/developing/using/ht-projects-maven.md#how-to-work-with-jsps) in [How-To Build AEM Projects using Apache Maven](/help/sites/developing/using/ht-projects-maven.md).
 1. Add the following to the &lt;build /&gt; section in your content module's POM.
 
    Eclipse's Maven support plugin, m2e, does not provide support for the maven-jspc-plugin, and this configuration tells m2e to ignore the plugin and the related task of cleaning up the temporary compilation results.
 
-   This is not a problem: as noted in [How-To Work with JSPs](../../../sites/developing/using/ht-projects-maven.md#how-to-work-with-jsps), the maven-jspc-plugin in this setup is only used to validate that JSPs compile as part of the build process. Eclipse already reports any problems in JSPs and does not rely on this Maven plugin to be able to do so.
+   This is not a problem: as noted in [How-To Work with JSPs](/help/sites/developing/using/ht-projects-maven.md#how-to-work-with-jsps), the maven-jspc-plugin in this setup is only used to validate that JSPs compile as part of the build process. Eclipse already reports any problems in JSPs and does not rely on this Maven plugin to be able to do so.
 
    **myproject/content/pom.xml**
 

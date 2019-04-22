@@ -35,13 +35,13 @@ When upgrading to AEM 6.4, a large subset of the content under /etc will be dupl
 
 While planning for an upgrade to AEM 6.4, the following per-solution pages should be referenced in order to assess the work effort:
 
-* [Repository restructuring common to all AEM solutions](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md)
-* [AEM Sites repository restructuring](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md)
-* [AEM Assets repository restructuring](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md)
-* [AEM Assets Dynamic Media repository restructuring](../../../sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md)
-* [AEM Forms repository restructuring](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md)
-* [AEM Communities repository restructuring](../../../sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md)
-* [AEM Commerce repository restructuring](../../../sites/deploying/using/ecommerce-repository-restructuring-in-aem-6-4.md)
+* [Repository restructuring common to all AEM solutions](/help/sites/deploying/using/all-repository-restructuring-in-aem-6-4.md)
+* [AEM Sites repository restructuring](/help/sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md)
+* [AEM Assets repository restructuring](/help/sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md)
+* [AEM Assets Dynamic Media repository restructuring](/help/sites/deploying/using/dynamicmedia-repository-restructuring-in-aem-6-4.md)
+* [AEM Forms repository restructuring](/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md)
+* [AEM Communities repository restructuring](/help/sites/deploying/using/communities-repository-restructuring-in-aem-6-4.md)
+* [AEM Commerce repository restructuring](/help/sites/deploying/using/ecommerce-repository-restructuring-in-aem-6-4.md)
 
 Each page contains two sections corresponding to the urgency of the necessary changes. Anything under the "With 6.4 Upgrade" section should be tackled as part of the AEM 6.4 upgrade project. Anything under the "Prior to 6.5 Upgrade" can be optionally deferred until post-upgrade.
 

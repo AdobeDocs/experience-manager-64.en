@@ -13,11 +13,11 @@ discoiquuid: 08bdade7-fdad-445d-80fe-8fc06596dace
 
 # Implementing a Custom Predicate Evaluator for the Query Builder{#implementing-a-custom-predicate-evaluator-for-the-query-builder}
 
-This section describes how to extend the [Query Builder](../../../sites/developing/using/querybuilder-api.md) by implementing a custom predicate evaluator.
+This section describes how to extend the [Query Builder](/help/sites/developing/using/querybuilder-api.md) by implementing a custom predicate evaluator.
 
 ## Overview {#overview}
 
-The [Query Builder](../../../sites/developing/using/querybuilder-api.md) offers an easy way of querying the content repository. CQ ships with a set of predicate evaluators that helps you deal with your data.
+The [Query Builder](/help/sites/developing/using/querybuilder-api.md) offers an easy way of querying the content repository. CQ ships with a set of predicate evaluators that helps you deal with your data.
 
 However you might want to simplify your queries by implementing a custom predicate evaluator that hides some complexity and ensures a better semantic.
 
@@ -32,7 +32,7 @@ A custom predicate could also perform other things not directly possible with XP
 
 >[!NOTE]
 >
->You can find examples of queries in the [Query Builder](../../../sites/developing/using/querybuilder-api.md) section.
+>You can find examples of queries in the [Query Builder](/help/sites/developing/using/querybuilder-api.md) section.
 
 CODE ON GITHUB
 
@@ -100,7 +100,7 @@ Grouping replication metadata predicates with a custom predicate evaluator helps
 
 >[!NOTE]
 >
->The set up of new AEM projects using maven is documented by [How to Build AEM Projects using Apache Maven](../../../sites/developing/using/ht-projects-maven.md).
+>The set up of new AEM projects using maven is documented by [How to Build AEM Projects using Apache Maven](/help/sites/developing/using/ht-projects-maven.md).
 
 First you need to update the Maven dependencies of your project. The `PredicateEvaluator` is part of the `cq-search` artifact so it needs to be added to your Maven pom file.
 

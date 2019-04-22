@@ -48,8 +48,8 @@ In contrast to pinning a post to the top of a forum, this feature allows for con
  </tbody>
 </table>
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ### File Library Function {#file-library-function}
 
-A community site structure that includes the [Featured Content function](../../communities/using/functions.md#featured-content-function), includes a configured `featured content` component.
+A community site structure that includes the [Featured Content function](/help/communities/using/functions.md#featured-content-function), includes a configured `featured content` component.

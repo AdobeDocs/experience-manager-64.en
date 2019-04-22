@@ -14,9 +14,9 @@ pagetitle: Community Groups Console
 
 # Community Groups Console{#community-groups-console}
 
-The Groups console provides access to creating community groups when a community site's [template structure](../../communities/using/sites-console.md#step1) includes the [groups function](../../communities/using/functions.md#groups-function).
+The Groups console provides access to creating community groups when a community site's [template structure](/help/communities/using/sites-console.md#step1) includes the [groups function](/help/communities/using/functions.md#groups-function).
 
-* Groups may be nested within other groups. This happens when the [structure of the new group](../../communities/using/tools-groups.md) contains the groups function.
+* Groups may be nested within other groups. This happens when the [structure of the new group](/help/communities/using/tools-groups.md) contains the groups function.
 * For the author environment only, there is a group creation wizard similar to the site creation wizard.
 * Whether or not members may create groups from the publish environment is configurable when adding a Groups function to a community site structure or community group structure.
 
@@ -34,9 +34,9 @@ Several facets of community groups are:
 
 >[!NOTE]
 >
->This Groups console, only accessible from the Communities Sites console, is not to be confused with the member [Groups console](../../communities/using/members.md) for managing member groups. 
+>This Groups console, only accessible from the Communities Sites console, is not to be confused with the member [Groups console](/help/communities/using/members.md) for managing member groups. 
 >
->Member groups are user groups registered in the publish environment and accessed from the author environment using the [tunnel service](../../communities/using/deploy-communities.md#tunnel-service-on-author).
+>Member groups are user groups registered in the publish environment and accessed from the author environment using the [tunnel service](/help/communities/using/deploy-communities.md#tunnel-service-on-author).
 
 ## Group Creation {#group-creation}
 
@@ -48,7 +48,7 @@ To access the Groups console:
 * select an instance of a community site within the folder
 
     * the structure of the community site must include a groups function
-    * these screen shots are from the Getting Started tutorial after [creating groups on publish](../../communities/using/published-site.md)
+    * these screen shots are from the Getting Started tutorial after [creating groups on publish](/help/communities/using/published-site.md)
 
 ![](assets/chlimage_1-133.png)
 
@@ -82,7 +82,7 @@ From this Groups console, it is possible to author new groups.
     * for a valid URL, append ".html"  
       *for example*, `http://localhost:4502/content/sites/mysight/en/mygroup.html`
 
-* **Community Group Template** menu: use the pull down menu to choose an available [community group template](../../communities/using/tools.md).
+* **Community Group Template** menu: use the pull down menu to choose an available [community group template](/help/communities/using/tools.md).
 
 ### Step 2: Design {#step-design}
 
@@ -139,7 +139,7 @@ The membership setting allows for selection of one of the three ways to secure a
   if selected, the community group is an open group. Community site members may view the contents of the group, but must join the group before being able to post content. Members join by selecting the `Join` button in the publish environment. Default is not selected.
 
 * Restricted Membership  
-  if selected, the community group is a secret group. Community members must be explicitly invited. Invited members are entered in the search box. Members may be added later using the [Members and Groups consoles](../../communities/using/members.md) the author environment. Default is not selected.
+  if selected, the community group is a secret group. Community members must be explicitly invited. Invited members are entered in the search box. Members may be added later using the [Members and Groups consoles](/help/communities/using/members.md) the author environment. Default is not selected.
 
 #### THUMBNAIL {#thumbnail}
 
@@ -167,7 +167,7 @@ When the process completes, the card for the new sub-community site (group) is d
 
 >[!NOTE]
 >
->The group gets created in all the languages, as specified in [Step 1: Community Group Template](../../communities/using/groups.md#step1communitygrouptemplate) in Additional Available Community Group Languages, in the Community Groups console of the respective community sites.
+>The group gets created in all the languages, as specified in [Step 1: Community Group Template](/help/communities/using/groups.md#step1communitygrouptemplate) in Additional Available Community Group Languages, in the Community Groups console of the respective community sites.
 
 ## Authoring Group Content {#authoring-group-content}
 
@@ -202,12 +202,12 @@ Instead, the [STRUCTURE](#modify-structure) of the sub-community may be modified
 
 The STRUCTURE panel allows the modification of the structure initially created from the community group template selected when creating the sub-community site from either the author or publish environment. From the panel, it is possible to
 
-* drag-and-drop additional [community functions](../../communities/using/functions.md) into the site structure
+* drag-and-drop additional [community functions](/help/communities/using/functions.md) into the site structure
 * on an instance of a community function in the site structure:
 
     * **`gear icon`** 
       edit settings, including the display title and URL name&#42;  
-      as well as p [rivileged members groups](../../communities/using/users.md#privilegedmembersgroups)
+      as well as p [rivileged members groups](/help/communities/using/users.md#privilegedmembersgroups)
     
     * **`trashcan icon`** 
       remove (delete) functions from the site structure
@@ -225,7 +225,7 @@ The STRUCTURE panel allows the modification of the structure initially created f
 >
 >The groups function must *not *be the *first nor the only* function in the site structure.
 >
->Any other function, such as the [page function](../../communities/using/functions.md#page-function), must be included and listed first.
+>Any other function, such as the [page function](/help/communities/using/functions.md#page-function), must be included and listed first.
 
 #### Example: Adding a Calendar Function to a Sub-Community (Group) Structure {#example-adding-a-calendar-function-to-a-sub-community-group-structure}
 

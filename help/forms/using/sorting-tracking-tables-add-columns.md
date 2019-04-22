@@ -109,7 +109,7 @@ The remaining attributes in the task model available for display in the task tab
  </tbody> 
 </table>
 
-For the following customizations in the task table, you need to do semantic changes in the source code. See [Introduction to Customizing AEM Forms workspace](../../forms/using/introduction-customizing-html-workspace.md) fo how you can make semantic changes using workspace SDK and build a minified package from the changed source.
+For the following customizations in the task table, you need to do semantic changes in the source code. See [Introduction to Customizing AEM Forms workspace](/help/forms/using/introduction-customizing-html-workspace.md) fo how you can make semantic changes using workspace SDK and build a minified package from the changed source.
 
 ## Changing table columns and their order {#changing-table-columns-and-their-order}
 

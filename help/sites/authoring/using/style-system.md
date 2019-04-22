@@ -41,7 +41,7 @@ Using the style system generally takes the following form.
 
 1. The HTML developer implements the corresponding CSS code (and optionally JS code) for each of the visual variations so that they look as defined.
 
-1. The AEM developer places the provided CSS (and optional JS) in a [Client Library](../../../sites/developing/using/clientlibs.md) and deploys it.  
+1. The AEM developer places the provided CSS (and optional JS) in a [Client Library](/help/sites/developing/using/clientlibs.md) and deploys it.  
 
 1. The AEM developer or template author configures the page templates and edits the policy of each styled component, adding the defined CSS classes, giving user-friendly names to each style, and indicating which styles can be combined.
 
@@ -57,7 +57,7 @@ The following diagram illustrates the architecture of the style system.
 
 ## Use {#use}
 
-To demonstrate the feature, styles need to be created for a component. Using [We.Retail](../../../sites/developing/using/we-retail.md)'s implementation of the core component's [list component](https://helpx.adobe.com/experience-manager/core-components/using/list.html) as a basis, you can install the attached package containing styles in order to explore the feature's functionality.
+To demonstrate the feature, styles need to be created for a component. Using [We.Retail](/help/sites/developing/using/we-retail.md)'s implementation of the core component's [list component](https://helpx.adobe.com/experience-manager/core-components/using/list.html) as a basis, you can install the attached package containing styles in order to explore the feature's functionality.
 
 Style system demo package
 
@@ -69,13 +69,13 @@ Style system demo package
 >
 >This package will be needed only until We.Retail provides a built-in example and best practice implementation.
 
-The following sections [As a Content Author](../../../sites/authoring/using/style-system.md#as-a-content-author) and [As a Template Author](../../../sites/authoring/using/style-system.md#as-a-template-author) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
+The following sections [As a Content Author](/help/sites/authoring/using/style-system.md#as-a-content-author) and [As a Template Author](/help/sites/authoring/using/style-system.md#as-a-template-author) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
 
 If you wish to use the style system for your own components do the following:
 
-1. Install the CSS as client libraries as discussed in the section [Overview](../../../sites/authoring/using/style-system.md#overview).
-1. Configure the CSS classes that you wish to make available to your content authors as described in the section [As a Template Author](../../../sites/authoring/using/style-system.md#as-a-template-author).
-1. Content authors can then use the styles as described in the section [As a Content Author](../../../sites/authoring/using/style-system.md#as-a-content-author).
+1. Install the CSS as client libraries as discussed in the section [Overview](/help/sites/authoring/using/style-system.md#overview).
+1. Configure the CSS classes that you wish to make available to your content authors as described in the section [As a Template Author](/help/sites/authoring/using/style-system.md#as-a-template-author).
+1. Content authors can then use the styles as described in the section [As a Content Author](/help/sites/authoring/using/style-system.md#as-a-content-author).
 
 ### As a Content Author {#as-a-content-author}
 
@@ -90,7 +90,7 @@ If you wish to use the style system for your own components do the following:
 
    >[!NOTE]
    >
-   >In this example, the **Layout** styles (**Block** and **Grid**) are mutually exclusive, while the **Display** options (**Image** or **Date**) can be combined. This can be [configured in the template as the template author](../../../sites/authoring/using/style-system.md#as-a-template-author).
+   >In this example, the **Layout** styles (**Block** and **Grid**) are mutually exclusive, while the **Display** options (**Image** or **Date**) can be combined. This can be [configured in the template as the template author](/help/sites/authoring/using/style-system.md#as-a-template-author).
 
 ### As a Template Author {#as-a-template-author}
 
@@ -115,7 +115,7 @@ If you wish to use the style system for your own components do the following:
 
 >[!CAUTION]
 >
->The CSS classes (as well as any necessary Javascript) configured as style properties of a component's policy must be deployed as [Client Libraries](../../../sites/developing/using/clientlibs.md) in order to work.
+>The CSS classes (as well as any necessary Javascript) configured as style properties of a component's policy must be deployed as [Client Libraries](/help/sites/developing/using/clientlibs.md) in order to work.
 
 ## Setup {#setup}
 

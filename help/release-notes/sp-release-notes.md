@@ -216,7 +216,7 @@ Some of the key highlights of AEM 6.4.4.0 are:
 
 >[!NOTE]
 >
->AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on](../release-notes/sp-release-notes.md#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](../release-notes/sp-release-notes.md#forms-jee-installer).
+>AEM Service Pack does not include fixes for AEM Forms. They are delivered using a separate Forms add-on package. In addition, a cumulative installer is released that includes fixes for AEM Forms on JEE. For more information, see [Install AEM Forms add-on](/help/release-notes/sp-release-notes.md#install-aem-forms-add-on-package) and [Install AEM Forms JEE installer](/help/release-notes/sp-release-notes.md#forms-jee-installer).
 
 The key highlights for AEM 6.4.4.0 forms are:
 
@@ -1407,7 +1407,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 >
 >For customers with Feature Packs installed on AEM 6.4. Optional Feature Packs provided by Adobe have dependencies on the release version and service pack. If you have any Feature Pack installed, please contact the AEM Customer Care team to validate the compatibility of those feature packs with this service pack for AEM 6.4.
 
-* AEM 6.4.4.0 requires AEM 6.4. Please visit [upgrade documentation](../sites/deploying/using/upgrade.md) for detailed instructions. 
+* AEM 6.4.4.0 requires AEM 6.4. Please visit [upgrade documentation](/help/sites/deploying/using/upgrade.md) for detailed instructions. 
 * The Service Pack download is available on Adobe Package Share, which you can access directly from the AEM 6.4 instance.
 * On a deployment with MongoDB and multiple instances, AEM 6.4.4.0 has to be installed on one of the Author instances using the Package Manager.
 * Before installing the service pack, ensure to:
@@ -1449,7 +1449,7 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
 1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.11 or higher (Use Web Console: /system/console/bundles).
 
-To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](../sites/deploying/using/technical-requirements.md).
+To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](/help/sites/deploying/using/technical-requirements.md).
 
 >[!Note]
 >On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-4 Installed successfully."**
@@ -1512,7 +1512,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 The Uber Jar for AEM 6.4.4.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.3/).
 
-To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](../sites/developing/using/ht-projects-maven.md) and include the following dependency in your project POM:
+To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](/help/sites/developing/using/ht-projects-maven.md) and include the following dependency in your project POM:
 
 ```shell
 <dependency>
@@ -1559,7 +1559,7 @@ List of Content Packages included in AEM 6.4.4.0
 
 ## Helpful resources {#helpful-resources}
 
-* [AEM 6.4 release notes](../release-notes/release-notes.md)
+* [AEM 6.4 release notes](/help/release-notes/release-notes.md)
 * [AEM product page](https://www.adobe.com/solutions/web-experience-management.html)
 * [AEM developer support](https://docs.adobe.com/content/ddc/en.html)
 * [AEM 6.4 documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)

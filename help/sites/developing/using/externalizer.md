@@ -61,7 +61,7 @@ To define a domain mapping for the **Externalizer** service:
 
 >[!NOTE]
 >
->Adobe recommends that you [add the configuration to the repository](../../../sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository).
+>Adobe recommends that you [add the configuration to the repository](/help/sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository).
 
 ## Using the Externalizer service {#using-the-externalizer-service}
 

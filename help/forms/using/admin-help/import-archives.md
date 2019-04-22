@@ -34,12 +34,12 @@ Use the archives tab to import and manage LCAs that were created in workbench.
 1. If you click Configure, the Configure Endpoints page appears, where you can make any changes that you require:
 
     * To rename an endpoint or edit its description, click it. 
-    * To add a Task Manager endpoint, click Add TaskManager. For details about the Task Manager settings, see [Configuring Task Manager endpoints](../../../forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints). 
-    * To add a Watched Folder endpoint, click Add WatchedFolder. For details about the Watched Folder settings, see [Watched folder endpoint settings](../../../forms/using/admin-help/configuring-watched-folder-endpoints.md#watched-folder-endpoint-settings).
-    * To add an Email endpoint, click Add Email. For details about the Email settings, see [Email endpoint settings](../../../forms/using/admin-help/configuring-email-endpoints.md#email-endpoint-settings).
+    * To add a Task Manager endpoint, click Add TaskManager. For details about the Task Manager settings, see [Configuring Task Manager endpoints](/help/forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints). 
+    * To add a Watched Folder endpoint, click Add WatchedFolder. For details about the Watched Folder settings, see [Watched folder endpoint settings](/help/forms/using/admin-help/configuring-watched-folder-endpoints.md#watched-folder-endpoint-settings).
+    * To add an Email endpoint, click Add Email. For details about the Email settings, see [Email endpoint settings](/help/forms/using/admin-help/configuring-email-endpoints.md#email-endpoint-settings).
     * To add an EJB endpoint, click Add EJB and specify a name and description for the endpoint.
     * To add a SOAP endpoint, click Add SOAP and specify a name and description for the endpoint.
-    * To add a Remoting endpoint, click Add Remoting. For details about the Remoting settings, see [Remoting endpoint settings](../../../forms/using/admin-help/configuring-remoting-endpoints.md#remoting-endpoint-settings).
+    * To add a Remoting endpoint, click Add Remoting. For details about the Remoting settings, see [Remoting endpoint settings](/help/forms/using/admin-help/configuring-remoting-endpoints.md#remoting-endpoint-settings).
     * To add a REST endpoint, click Add REST and specify a name and description for the endpoint. Note the REST invocation URL displayed on the Add REST Endpoint page.
     * To remove an endpoint, select the checkbox next to it and click Remove.
 
@@ -101,12 +101,12 @@ Use the archives tab to import and manage LCAs that were created in workbench.
 1. The Configure Endpoints page appears, where you can make any changes that you require:
 
     * To rename an endpoint or edit its description, click it. 
-    * To add a Task Manager endpoint, click Add TaskManager. For details about the Task Manager settings, see [Configuring Task Manager endpoints](../../../forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints). 
-    * To add a Watched Folder endpoint, click Add WatchedFolder. For details about the Watched Folder settings, see [Watched folder endpoint settings](../../../forms/using/admin-help/configuring-watched-folder-endpoints.md#watched-folder-endpoint-settings).
-    * To add an Email endpoint, click Add Email. For details about the Email settings, see [Email endpoint settings](../../../forms/using/admin-help/configuring-email-endpoints.md#email-endpoint-settings).
+    * To add a Task Manager endpoint, click Add TaskManager. For details about the Task Manager settings, see [Configuring Task Manager endpoints](/help/forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints). 
+    * To add a Watched Folder endpoint, click Add WatchedFolder. For details about the Watched Folder settings, see [Watched folder endpoint settings](/help/forms/using/admin-help/configuring-watched-folder-endpoints.md#watched-folder-endpoint-settings).
+    * To add an Email endpoint, click Add Email. For details about the Email settings, see [Email endpoint settings](/help/forms/using/admin-help/configuring-email-endpoints.md#email-endpoint-settings).
     * To add an EJB endpoint, click Add EJB and specify a name and description for the endpoint.
     * To add a SOAP endpoint, click Add SOAP and specify a name and description for the endpoint.
-    * To add a Remoting endpoint, click Add Remoting. For details about the Remoting settings, see [Remoting endpoint settings](../../../forms/using/admin-help/configuring-remoting-endpoints.md#remoting-endpoint-settings).
+    * To add a Remoting endpoint, click Add Remoting. For details about the Remoting settings, see [Remoting endpoint settings](/help/forms/using/admin-help/configuring-remoting-endpoints.md#remoting-endpoint-settings).
     * To add a REST endpoint, click Add REST and specify a name and description for the endpoint. Note the REST invocation URL displayed on the Add REST Endpoint page.
     * To remove an endpoint, select the checkbox next to it and click Remove.
 

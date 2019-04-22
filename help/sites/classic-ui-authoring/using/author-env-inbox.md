@@ -18,7 +18,7 @@ You can receive notifications from various areas of AEM such as notification abo
 You receive these notifications in two inboxes, which are separated by the type of notifications:
 
 * An inbox where you can see the notifications you receive as a result of subscriptions is described in the following section.
-* A specialized inbox for workflow items is described in the [Participating in Workflows](../../../sites/classic-ui-authoring/using/classic-workflows-participating.md) document.
+* A specialized inbox for workflow items is described in the [Participating in Workflows](/help/sites/classic-ui-authoring/using/classic-workflows-participating.md) document.
 
 ## Viewing Your Notifications {#viewing-your-notifications}
 
@@ -68,7 +68,7 @@ To subscribe to notifications:
 
    >[!NOTE]
    >
-   >A few settings need to be configured in order to be notified by email. It is also possible to customize the email template or to add an email template for a new language. Please refer to [Configuring Email Notification](../../../sites/administering/using/notification.md#configuringemailnotification) to configure email notifications in AEM.
+   >A few settings need to be configured in order to be notified by email. It is also possible to customize the email template or to add an email template for a new language. Please refer to [Configuring Email Notification](/help/sites/administering/using/notification.md#configuringemailnotification) to configure email notifications in AEM.
 
 1. Select the page actions for which to be notified:
 

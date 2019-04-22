@@ -76,10 +76,10 @@ Once the adaptive form is generated, you can review and make corrections to the 
 
 You can perform the following operations on the converted print form and modify the relative properties:
 
-1. [Add new component](../../../forms/using/wip/review-correct-ui.md#add-new-component)
-1. [Transform existing component](../../../forms/using/wip/review-correct-ui.md#transform-component)
-1. [Ungroup and group components](../../../forms/using/wip/review-correct-ui.md#ungroup-and-group-components)
-1. [Delete component](../../../forms/using/wip/review-correct-ui.md#delete-component)
+1. [Add new component](/help/forms/using/wip/review-correct-ui.md#add-new-component)
+1. [Transform existing component](/help/forms/using/wip/review-correct-ui.md#transform-component)
+1. [Ungroup and group components](/help/forms/using/wip/review-correct-ui.md#ungroup-and-group-components)
+1. [Delete component](/help/forms/using/wip/review-correct-ui.md#delete-component)
 
 ### Add new component {#add-new-component}
 
@@ -111,7 +111,7 @@ You can see from the illustration that the section **Date of birth** is a **date
 
    ![](assets/img5.png)
 
-1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](../../../forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
+1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
 
 ### Transform component {#transform-component}
 
@@ -151,11 +151,11 @@ You can see from the illustration that the section **Gender** is a multiple-choi
 
    ![](assets/img8.png)
 
-1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](../../../forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
+1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
 
 ### Delete component {#delete-component}
 
-There is a possibility that the transformation results for a component are not as per the expectations and require numerous manual interventions. For example, a component and its content both are not extracted correctly. In such cases, it is recommended to **delete** the component and [add new component](../../../forms/using/wip/review-correct-ui.md#add-new-component) to redefine the properties.
+There is a possibility that the transformation results for a component are not as per the expectations and require numerous manual interventions. For example, a component and its content both are not extracted correctly. In such cases, it is recommended to **delete** the component and [add new component](/help/forms/using/wip/review-correct-ui.md#add-new-component) to redefine the properties.
 
 **To delete an existing component:**
 
@@ -193,7 +193,7 @@ To merge the relative component within the panel, you must ungroup the panel and
 
    ![](assets/img17.png)
 
-1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](../../../forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
+1. Tap **[!UICONTROL **Save**]**button to save the modifications in your AEM instance. You can call the Automated Forms Conversion service to begin reconversion once all the modifications are applied. See [Call Automated Forms Conversion service for reconversion](/help/forms/using/wip/review-correct-ui.md#call-automated-forms-conversion-service-for-reconversion) for details.
 
 ## Call Automated Forms Conversion service for reconversion {#call-automated-forms-conversion-service-for-reconversion}
 
@@ -215,4 +215,4 @@ The conversion service updates the adaptive form, schema, and data fragments bas
 
 Currently, the Automated Forms Conversion service does not support data fragments and multicolumn tables. There is a possibility that the service may fail to perform conversions in case there exist any data fragments in the input print form. For multicolumn tables, the quality and accuracy of conversion may not meet the user expectations.
 
-These corrections can be applied from the adaptive form editor. The Automated Forms Conversion service allows you to continue with your corrections and launch the adaptive form editor from within the Review and Correct UI. See [Launch adaptive form editor for corrections](../../../forms/using/wip/review-correct-ui.md#launch-adaptive-form-editor-from-review-and-correct-ui) for details.
+These corrections can be applied from the adaptive form editor. The Automated Forms Conversion service allows you to continue with your corrections and launch the adaptive form editor from within the Review and Correct UI. See [Launch adaptive form editor for corrections](/help/forms/using/wip/review-correct-ui.md#launch-adaptive-form-editor-from-review-and-correct-ui) for details.

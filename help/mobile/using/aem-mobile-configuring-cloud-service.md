@@ -15,11 +15,11 @@ discoiquuid: 8cd6480f-cb4f-40dd-a444-8ba463b78604
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 >[!NOTE]
 >
->This document is part of the [Getting Started with AEM Mobile](../../mobile/using/getting-started-aem-mobile.md) Guide, a recommended starting point for AEM Mobile reference.
+>This document is part of the [Getting Started with AEM Mobile](/help/mobile/using/getting-started-aem-mobile.md) Guide, a recommended starting point for AEM Mobile reference.
 
 There's a number of steps that need to come together before content authors can start to generate targeted content for mobile apps: There's getting the right set of permissions for users and groups, creating cloud services, configuring the application for the activity, and finally generating the content.
 

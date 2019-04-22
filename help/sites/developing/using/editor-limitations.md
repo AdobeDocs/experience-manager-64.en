@@ -21,9 +21,9 @@ An author may encounter the following functional limitations when using the edit
 
 ### Links Not Active {#links-not-active}
 
-When [editing a page](../../../sites/authoring/using/editing-content.md), links are not active.
+When [editing a page](/help/sites/authoring/using/editing-content.md), links are not active.
 
-* [Switch to **Preview** mode](../../../sites/authoring/using/editing-content.md#preview-mode) to navigate using the links in your content.
+* [Switch to **Preview** mode](/help/sites/authoring/using/editing-content.md#preview-mode) to navigate using the links in your content.
 
 ## CSS Limitations {#css-limitations}
 

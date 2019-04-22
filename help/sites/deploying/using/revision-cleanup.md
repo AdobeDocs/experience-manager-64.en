@@ -25,9 +25,9 @@ The revision cleanup process consists of three phases: **estimation**, **compact
 
 For more details regarding Revision Cleanup, see the following links:
 
-* [How to Run Online Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup)
-* [Online Revision Cleanup Frequently Asked Questions](../../../sites/deploying/using/revision-cleanup.md#online-revision-cleanup-frequently-asked-questions)
-* [How to Run Offline Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md#how-to-run-offline-revision-cleanup)
+* [How to Run Online Revision Cleanup](/help/sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup)
+* [Online Revision Cleanup Frequently Asked Questions](/help/sites/deploying/using/revision-cleanup.md#online-revision-cleanup-frequently-asked-questions)
+* [How to Run Offline Revision Cleanup](/help/sites/deploying/using/revision-cleanup.md#how-to-run-offline-revision-cleanup)
 
 Additionally, you can also read the [official Oak documentation.](https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html)
 
@@ -88,7 +88,7 @@ The two charts below, present results from internal laboratory testing that illu
 
 ### How To Configure Full and Tail Compaction {#how-to-configure-full-and-tail-compaction}
 
-The default configuration runs tail compaction on week days and full compaction on Sundays. The default configuration can be changed by using the new configuration value `full.gc.days` of the `RevisionCleanupTask` [maintenance task](../../../sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup).
+The default configuration runs tail compaction on week days and full compaction on Sundays. The default configuration can be changed by using the new configuration value `full.gc.days` of the `RevisionCleanupTask` [maintenance task](/help/sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup).
 
 When you configure the `full.gc.days` value be aware that full compaction will run during the day(s) defined in the value and tail compaction will run during the days that are not defined in the value. For example, if you configure full compaction to run on Sunday then tail compaction will run Monday to Saturday. If, for example, you configure full compaction to run every day of the week then tail compaction will not run at all.
 
@@ -507,7 +507,7 @@ The error.log will be verbose if there are incidents during the online revision 
 |   |TarMK GC #2: estimation interrupted: ${REASON}. Skipping compaction. |The estimation phase terminated prematurely. Some examples of events that could interrupt the estimation phase: not enough memory or disk space on the host system. |Depends on the given reason. |
 | Compaction |TarMK GC #2: compaction paused |As long as the compaction phase is paused by configuration, neither the estimation phase nor the compaction phase will be executed. |Enable online revision cleanup. |
 |   |TarMK GC #2: compaction cancelled: ${REASON}. |The compaction phase terminated prematurely. Some examples of events that could interrupt the compaction phase: not enough memory or disk space on the host system. Moreover, compaction can also be cancelled by shutting down the system or by explicitly cancelling it via administrative interfaces such as the Maintenance Window within the Operations Dashobard. |Depends on the given reason. |
-|   |TarMK GC #2: compaction failed in 32.902 min (1974140 ms), after 5 cycles |This message doesn’t mean that there was an unrecoverable error, but only that compaction was terminated after a certain amount of attempts. Also, read the [following paragraph](https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#how-does-compaction-works-with-concurrent-writes). |Read the following [Oak documentation](https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#how-does-compaction-works-with-concurrent-writes), and the last question of the [Running Online Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md#running-online-revision-cleanup) section. |
+|   |TarMK GC #2: compaction failed in 32.902 min (1974140 ms), after 5 cycles |This message doesn’t mean that there was an unrecoverable error, but only that compaction was terminated after a certain amount of attempts. Also, read the [following paragraph](https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#how-does-compaction-works-with-concurrent-writes). |Read the following [Oak documentation](https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#how-does-compaction-works-with-concurrent-writes), and the last question of the [Running Online Revision Cleanup](/help/sites/deploying/using/revision-cleanup.md#running-online-revision-cleanup) section. |
 | Cleanup |TarMK GC #2: cleanup interrupted |Cleanup has been cancelled by shutting down the repository. No impact on consistency is expected. Also, disk space is most likely not reclaimed to full extent. It will be reclaimed during next revision cleanup cycle. |Investigate why repository has been shut down and going forward try to avoid shutting down the repository during maintenance windows. |
 
 ## How to Run Offline Revision Cleanup {#how-to-run-offline-revision-cleanup}
@@ -527,7 +527,7 @@ Adobe provides a tool called **Oak-run** for performing revision cleanup. It can
 
 The tool is a runnable jar that can be manually run to compact the repository. The process is called offline revision cleanup because the repository needs to be shut down in order to properly run the tool. Make sure to plan the cleanup in accordance with your maintenance window.
 
-For tips on how to increase the performance of the cleanup process, see [Increasing the Performance of Offline Revision Cleanup](../../../sites/deploying/using/revision-cleanup.md#increasing-the-performance-of-offline-revision-cleanup).
+For tips on how to increase the performance of the cleanup process, see [Increasing the Performance of Offline Revision Cleanup](/help/sites/deploying/using/revision-cleanup.md#increasing-the-performance-of-offline-revision-cleanup).
 
 >[!NOTE]
 >
@@ -569,7 +569,7 @@ The list includes several command line parameters, as described below:
 
 * **-Dcompaction-progress-log**. The number of compacted nodes that will be logged. The default value is 150000,** **which means that the first 150000 compacted nodes will be logged during the operation. Use this in conjunction with the next parameter documented below.
 
-* **-Dtar.PersistCompactionMap. **Set this parameter to true to use disk space instead of heap memory for compaction map persistance. Requires the oak-run tool **versions 1.4** and higher. For further details, see question 3 in the [Offline Revision Cleanup Frequently Asked Questions](../../../sites/deploying/using/revision-cleanup.md#offline-revision-cleanup-frequently-asked-questions) section. **This parameter has been removed in Oak version 1.6 and has no effect.**
+* **-Dtar.PersistCompactionMap. **Set this parameter to true to use disk space instead of heap memory for compaction map persistance. Requires the oak-run tool **versions 1.4** and higher. For further details, see question 3 in the [Offline Revision Cleanup Frequently Asked Questions](/help/sites/deploying/using/revision-cleanup.md#offline-revision-cleanup-frequently-asked-questions) section. **This parameter has been removed in Oak version 1.6 and has no effect.**
 
 * ** --force. **Force compaction and ignore a non matching segment store version.
 

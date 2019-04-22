@@ -80,7 +80,7 @@ During policy set creation, you can use the Back button to return to the previou
 
 1. Click Save.
 
-You can now add policies to your policy set. (See [Creating and editing policies](../../../forms/using/admin-help/creating-policies.md#creating-and-editing-policies).)
+You can now add policies to your policy set. (See [Creating and editing policies](/help/forms/using/admin-help/creating-policies.md#creating-and-editing-policies).)
 
 ## Edit a policy set {#edit-a-policy-set}
 
@@ -98,7 +98,7 @@ You can now add policies to your policy set. (See [Creating and editing policies
 1. On the Policies tab, search for policies to add to the policy set and create new policies:
 
     * To search for a policy, select Policy ID or Policy Name, type the corresponding value, select the number of items to display, and click Find. 
-    * For details about creating a new policy, see [Creating and editing policies](../../../forms/using/admin-help/creating-policies.md#creating-and-editing-policies).
+    * For details about creating a new policy, see [Creating and editing policies](/help/forms/using/admin-help/creating-policies.md#creating-and-editing-policies).
 
 ## Delete a policy set {#delete-a-policy-set}
 

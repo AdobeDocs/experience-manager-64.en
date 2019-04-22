@@ -13,15 +13,15 @@ discoiquuid: 68799110-8183-40fe-be4f-2a7c7a7b3018
 
 # eCommerce{#ecommerce}
 
-* [Concepts](../../../sites/administering/using/concepts.md)
-* [Administering (generic)](../../../sites/administering/using/generic.md)
-* [hybris](../../../sites/administering/using/hybris.md)
-* [Elastic Path](../../../sites/administering/using/elasticpath.md)
-* [Intershop](../../../sites/administering/using/intershop.md)
-* [IBM Websphere Commerce](../../../sites/administering/using/ibm-websphere.md)
-* [Demandware](../../../sites/administering/using/demandware.md)
-* [Magento](../../../sites/administering/using/magento.md)
-* [Digital River](../../../sites/administering/using/digital-river.md)
+* [Concepts](/help/sites/administering/using/concepts.md)
+* [Administering (generic)](/help/sites/administering/using/generic.md)
+* [hybris](/help/sites/administering/using/hybris.md)
+* [Elastic Path](/help/sites/administering/using/elasticpath.md)
+* [Intershop](/help/sites/administering/using/intershop.md)
+* [IBM Websphere Commerce](/help/sites/administering/using/ibm-websphere.md)
+* [Demandware](/help/sites/administering/using/demandware.md)
+* [Magento](/help/sites/administering/using/magento.md)
+* [Digital River](/help/sites/administering/using/digital-river.md)
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ The implementation allows real-time access to product information. This can be u
 
 >[!NOTE]
 >
->To use the integration framework with external eCommerce providers, you first need to install the required packages. For more information, see [Deploying eCommerce](../../../sites/deploying/using/ecommerce.md).
+>To use the integration framework with external eCommerce providers, you first need to install the required packages. For more information, see [Deploying eCommerce](/help/sites/deploying/using/ecommerce.md).
 >
->For information about extending eCommerce capabilities, see [Developing eCommerce](../../../sites/developing/using/ecommerce.md).
+>For information about extending eCommerce capabilities, see [Developing eCommerce](/help/sites/developing/using/ecommerce.md).
 
 ## Main Features {#main-features}
 
@@ -112,7 +112,7 @@ AEM eCommerce provides:
 
 ## The Framework {#the-framework}
 
-The [Concepts](../../../sites/administering/using/concepts.md) section covers the framework in more detail, but the following provides a high-level, high-speed view of the framework:
+The [Concepts](/help/sites/administering/using/concepts.md) section covers the framework in more detail, but the following provides a high-level, high-speed view of the framework:
 
 ### What? {#what}
 

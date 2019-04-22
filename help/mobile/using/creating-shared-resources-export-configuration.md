@@ -15,13 +15,13 @@ discoiquuid: 1edf6c76-ccb1-40b6-bdf6-924f1461cd28
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 >[!CAUTION]
 >
 >**Prerequisite**:
 >
->Prior to learn about creating and modifying shared resources, see [Content Sync](../../mobile/using/mobile-ondemand-contentsync.md) to understand the basic concepts.
+>Prior to learn about creating and modifying shared resources, see [Content Sync](/help/mobile/using/mobile-ondemand-contentsync.md) to understand the basic concepts.
 
 AEM Mobile users use Content Sync to export live content to static content for use in Mobile Apps and this export occurs when content is uploaded to Mobile On-Demand Services from AEM Mobile.
 

@@ -13,7 +13,7 @@ discoiquuid: 6fc2751e-f42a-4519-bc8c-695057f21b69
 
 # The Checklist - Further Reference{#the-checklist-further-reference}
 
-This page provides further details to elaborate on and/or augment the documents and principles covered by the [Managing Projects - Best Practices Checklist](../../managing/using/best-practices.md).
+This page provides further details to elaborate on and/or augment the documents and principles covered by the [Managing Projects - Best Practices Checklist](/help/managing/using/best-practices.md).
 
 ## AEM - What will you be using? {#aem-what-will-you-be-using}
 
@@ -27,22 +27,22 @@ When implementing AEM (particularly for the first time) you will need to review 
 
 Consider the features of AEM that you will be using, and the impact on your design; for example:
 
-* [Commerce](../../sites/administering/using/ecommerce.md)
-* [Screens](../../sites/deploying/using/aem-screens-introduction.md)
-* [Assets](../../assets/using/assets.md)
-* [Tags](../../sites/administering/using/tags.md)
-* [Multi Site Management and Translation](../../sites/administering/using/msm-and-translation.md)
+* [Commerce](/help/sites/administering/using/ecommerce.md)
+* [Screens](/help/sites/deploying/using/aem-screens-introduction.md)
+* [Assets](/help/assets/using/assets.md)
+* [Tags](/help/sites/administering/using/tags.md)
+* [Multi Site Management and Translation](/help/sites/administering/using/msm-and-translation.md)
 * [Forms](/help/forms/home.md)
-* [Communities](../../communities/using/deploy-communities.md)
+* [Communities](/help/communities/using/deploy-communities.md)
 * [Livefyre](https://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/livefyre-for-adobe-experience-manager/)
 
-In addition check the [Release Notes](../../release-notes/release-notes.md), for the various versions of AEM, to see when any new features were added.
+In addition check the [Release Notes](/help/release-notes/release-notes.md), for the various versions of AEM, to see when any new features were added.
 
 ### Integrations {#integrations}
 
 AEM can be integrated with other Adobe products and/or third party services. These can increase the power and functionality at your disposal.
 
-See [Solutions Integration](../../sites/administering/using/integration.md) for full information.
+See [Solutions Integration](/help/sites/administering/using/integration.md) for full information.
 
 ## Migrate or Upgrade? {#migrate-or-upgrade}
 
@@ -53,8 +53,8 @@ A major consideration is whether you want to either:
 
 When moving from a previous version to the current version there are two options:
 
-* Use the [Package Manager](../../sites/administering/using/package-manager.md) to export all content and application code from the old system to the new one.
-* [Upgrade](../../sites/deploying/using/upgrade.md) the old system in-place. This is the recommended choice in most cases.
+* Use the [Package Manager](/help/sites/administering/using/package-manager.md) to export all content and application code from the old system to the new one.
+* [Upgrade](/help/sites/deploying/using/upgrade.md) the old system in-place. This is the recommended choice in most cases.
 
 ## Basic Ground Rules {#basic-ground-rules}
 
@@ -62,7 +62,7 @@ As with any project it is critical to establish ground-rules as soon as possible
 
 >[!NOTE]
 >
->These points are generic, the [Best Practices Checklist](../../managing/using/best-practices.md) deals with specifics in relation to AEM.
+>These points are generic, the [Best Practices Checklist](/help/managing/using/best-practices.md) deals with specifics in relation to AEM.
 
 * **Roles**
 
@@ -223,7 +223,7 @@ There are several performance factors which can be evaluated:
 
 * response times for search requests
 
-This section can be read in conjunction with [Performance Optimization](../../sites/deploying/using/configuring-performance.md) that expands the technical details of actually measuring the performance.
+This section can be read in conjunction with [Performance Optimization](/help/sites/deploying/using/configuring-performance.md) that expands the technical details of actually measuring the performance.
 
 #### Response times for individual pages {#response-times-for-individual-pages}
 
@@ -279,7 +279,7 @@ There are several mechanisms you can use to monitor the response times:
 
 * **Monitoring response times with the AEM request.log**
 
-  A good starting point for performance analysis is the request log. Amongst other information, you can use this to see the response times of individual requests. See [Performance Optimization](../../sites/deploying/using/configuring-performance.md) for more details.
+  A good starting point for performance analysis is the request log. Amongst other information, you can use this to see the response times of individual requests. See [Performance Optimization](/help/sites/deploying/using/configuring-performance.md) for more details.
 
 * **Monitoring response times with HTML comments**
 
@@ -311,15 +311,15 @@ These should be planned and integrated from the very start of your project. Mech
 
 * **Monitoring search response times with the AEM request.log**
 
-  Again the request.log can be used to monitor the response times for search requests; see [Performance Optimization](../../sites/deploying/using/configuring-performance.md) for more details.
+  Again the request.log can be used to monitor the response times for search requests; see [Performance Optimization](/help/sites/deploying/using/configuring-performance.md) for more details.
 
 * **Programmed mechanisms for measuring search response times**
 
-  To customize the information you collect about search requests, and their performance, it is recommended to include information collection in your project source code; see [Performance Optimization](../../sites/deploying/using/configuring-performance.md) for more details.
+  To customize the information you collect about search requests, and their performance, it is recommended to include information collection in your project source code; see [Performance Optimization](/help/sites/deploying/using/configuring-performance.md) for more details.
 
 ### Concurrency {#concurrency}
 
-Your website will be made available to a number of users/visitors, on both the author and publish environments. The numbers are often more than you used when testing, but also fluctuating and difficult to predict. Your website will need to be designed for an average number of concurrent users/visitors without noticing a negative performance impact. Again the `request.log` can be used to make concurrency tests; see [Performance Optimization](../../sites/deploying/using/configuring-performance.md) for more details.
+Your website will be made available to a number of users/visitors, on both the author and publish environments. The numbers are often more than you used when testing, but also fluctuating and difficult to predict. Your website will need to be designed for an average number of concurrent users/visitors without noticing a negative performance impact. Again the `request.log` can be used to make concurrency tests; see [Performance Optimization](/help/sites/deploying/using/configuring-performance.md) for more details.
 
 Targets for the number of concurrent users, are dependent on the environment type:
 
@@ -369,7 +369,7 @@ However, it is preferable to have a small set of accurate, core metrics that fun
 
 Security is crucial and an ever-increasing challenge. It ***must*** be considered and planned from the earliest stages of your project.
 
-The [Security Checklist](../../sites/administering/using/security-checklist.md) details steps that you should take to ensure that your AEM installation is secure when deployed. Other security aspects are covered under [Security (when developing)](../../sites/developing/using/security.md) and [User Administration and Security](../../sites/administering/using/security.md).
+The [Security Checklist](/help/sites/administering/using/security-checklist.md) details steps that you should take to ensure that your AEM installation is secure when deployed. Other security aspects are covered under [Security (when developing)](/help/sites/developing/using/security.md) and [User Administration and Security](/help/sites/administering/using/security.md).
 
 ## Parallel and Iterative Tasks {#parallel-and-iterative-tasks}
 
@@ -378,7 +378,7 @@ The [Security Checklist](../../sites/administering/using/security-checklist.md) 
 >The following:
 >
 >* Offers an overview related to the *first* implemention of an AEM project.
->* Is intended as an abstract overview; see the [Project Checklist](../../managing/using/best-practices.md) for specific phases/milestones/tasks.
+>* Is intended as an abstract overview; see the [Project Checklist](/help/managing/using/best-practices.md) for specific phases/milestones/tasks.
 >* Any time scales are theoretical.
 >
 
@@ -403,7 +403,7 @@ For all aspects it is recommended to use an iterative approach:
 
 >[!NOTE]
 >
->See the [Project Checklist](../../managing/using/best-practices.md) for examples of tasks which you should perform (or assess) during the life-cycle of your project.
+>See the [Project Checklist](/help/managing/using/best-practices.md) for examples of tasks which you should perform (or assess) during the life-cycle of your project.
 
 Some points to note for each category are:
 
@@ -566,17 +566,17 @@ The following list is provided to inform you of tools that can be used. It is in
 
 In addition, the following sections are of particular interest:
 
-* [Getting Started](../../sites/deploying/using/deploy.md#getting-started)
-* [Technical Requirements](../../sites/deploying/using/technical-requirements.md)
-* [Monitoring and Maintaining your Instance](../../sites/deploying/using/monitoring-and-maintaining.md)
+* [Getting Started](/help/sites/deploying/using/deploy.md#getting-started)
+* [Technical Requirements](/help/sites/deploying/using/technical-requirements.md)
+* [Monitoring and Maintaining your Instance](/help/sites/deploying/using/monitoring-and-maintaining.md)
 
 ### Best Practices {#best-practices}
 
 Adobe provides further Best Practices for all phases and audiences:
 
-* [Deploying](../../sites/deploying/using/best-practices.md)
-* [Authoring](../../sites/authoring/using/best-practices.md)
-* [Administering](../../sites/administering/using/administer-best-practices.md)
-* [Developing](../../sites/developing/using/best-practices.md)
-* [Project Management](../../managing/using/best-practices.md)
+* [Deploying](/help/sites/deploying/using/best-practices.md)
+* [Authoring](/help/sites/authoring/using/best-practices.md)
+* [Administering](/help/sites/administering/using/administer-best-practices.md)
+* [Developing](/help/sites/developing/using/best-practices.md)
+* [Project Management](/help/managing/using/best-practices.md)
 

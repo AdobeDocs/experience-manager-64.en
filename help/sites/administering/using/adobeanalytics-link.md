@@ -250,7 +250,7 @@ Ad-hoc link tracking enables you to track download links, external links, togeth
 
 To enable ad-hoc link tracking you need to:
 
-* [Associate the page that contains the **Text** component with the framework](../../../sites/administering/using/adobeanalytics-connect.md#associating-a-page-with-a-adobe-analytics-framework).
+* [Associate the page that contains the **Text** component with the framework](/help/sites/administering/using/adobeanalytics-connect.md#associating-a-page-with-a-adobe-analytics-framework).
 * [Configure the Adobe Analytics framework to enable ad-hoc link tracking](#enabling-ad-hoc-link-tracking).
 * [Configure Link Tracking for a Text component](#configuring-link-tracking-for-a-text-component).
 
@@ -301,7 +301,7 @@ Configure your Adobe Analytics framework to enable ad-hoc link tracking.
 Before you can configure ad-hoc link tracking for **Text** components themselves, the following configurations must have already been implemented:
 
 * The [Adobe Analytics framework is configured to enable ad-hoc link tracking](#enabling-ad-hoc-link-tracking).
-* The [page that contains the **Text** component is associated with the framework](../../../sites/administering/using/adobeanalytics-connect.md#associating-a-page-with-a-adobe-analytics-framework).
+* The [page that contains the **Text** component is associated with the framework](/help/sites/administering/using/adobeanalytics-connect.md#associating-a-page-with-a-adobe-analytics-framework).
 
 Use the following procedure to configure link tracking for a **Text** component:
 

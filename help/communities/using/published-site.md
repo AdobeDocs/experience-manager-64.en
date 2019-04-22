@@ -13,7 +13,7 @@ discoiquuid: 4dc54701-68b9-49dd-a212-b0b53330c1c0
 
 # Experience the Published Site{#experience-the-published-site}
 
-| ** [⇐ Author a New Community Site](../../communities/using/create-site.md)** |** [Authoring Nested Groups ⇒](../../communities/using/nested-groups.md)** |
+| ** [⇐ Author a New Community Site](/help/communities/using/create-site.md)** |** [Authoring Nested Groups ⇒](/help/communities/using/nested-groups.md)** |
 |---|---|
 
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}
@@ -72,7 +72,7 @@ To protect your community site's content from access by anonymous users through 
 
 ## Trusted Community Member {#trusted-community-member}
 
-This experience assumes [Aaron McDonald](../../communities/using/tutorials.md#demo-users) was assigned the roles of [community manager and moderator](../../communities/using/create-site.md#roles). If not, return to the author environment to [modify the site settings](../../communities/using/sites-console.md#modifying-site-properties) and select Aaron McDonald as both community manager and moderator.
+This experience assumes [Aaron McDonald](/help/communities/using/tutorials.md#demo-users) was assigned the roles of [community manager and moderator](/help/communities/using/create-site.md#roles). If not, return to the author environment to [modify the site settings](/help/communities/using/sites-console.md#modifying-site-properties) and select Aaron McDonald as both community manager and moderator.
 
 In the upper right corner, select `Log in`, and sign with username "aaron.mcdonald@mailinator.com" and password "password". Notice the ability to sign in with Twitter or Facebook credentials.
 
@@ -82,7 +82,7 @@ Once signed in, notice there is a new menu item, `Administration`, which appears
 
 ![](assets/chlimage_1-313.png)
 
-Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](../../communities/using/sites.md#edit-site-template) console or when modifying site properties in the author environment:
+Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](/help/communities/using/sites.md#edit-site-template) console or when modifying site properties in the author environment:
 
 ![](assets/chlimage_1-314.png)
 
@@ -90,8 +90,8 @@ Notice the Calendar page is the home page because the chosen Reference Site Temp
 >
 >For more information on Communities components and functions, visit
 >
->* [Communities Components](../../communities/using/author-communities.md) (for authors)
->* [Component, Function, and Feature Essentials](../../communities/using/essentials.md) (for developers)
+>* [Communities Components](/help/communities/using/author-communities.md) (for authors)
+>* [Component, Function, and Feature Essentials](/help/communities/using/essentials.md) (for developers)
 >
 
 ## Forum link {#forum-link}
@@ -110,7 +110,7 @@ Since Aaron is a group administrator, selecting the Groups link will allow Aaron
 
 This is an example where a group is created in the publish environment.
 
-Groups may also be created in the author environment and managed within the community site in the author environment (the [Community Groups console](../../communities/using/groups.md)). The experience of [creating groups on author](../../communities/using/nested-groups.md) is next in this tutorial.
+Groups may also be created in the author environment and managed within the community site in the author environment (the [Community Groups console](/help/communities/using/groups.md)). The experience of [creating groups on author](/help/communities/using/nested-groups.md) is next in this tutorial.
 
 ![](assets/chlimage_1-316.png)
 
@@ -154,7 +154,7 @@ As an example, add two n `ew groups.`
 
 * a refresh of the page may be necessary before both groups are displayed
 * this template does *not *include the groups function, so no further nesting of groups will be possible
-* on author, the [Groups console](../../communities/using/groups.md) provides a third choice - a `Public Group` (optional membership)
+* on author, the [Groups console](/help/communities/using/groups.md) provides a third choice - a `Public Group` (optional membership)
 
 Once both groups are created, select the Baseball group, an open group, and notice its links:
 
@@ -164,7 +164,7 @@ The group's links are displayed below the main site's links and results in the f
 
 ![](assets/chlimage_1-319.png)
 
-On author - with administrative privileges, navigate to the [Communities Groups console](../../communities/using/members.md) and add Weston McCall to the `Community Engage Gymnastics <uid> Members` group.
+On author - with administrative privileges, navigate to the [Communities Groups console](/help/communities/using/members.md) and add Weston McCall to the `Community Engage Gymnastics <uid> Members` group.
 
 Continuing on publish, log out as Aaron McDonald, and view the groups in the Sports Group as an anonymous site visitor:
 
@@ -183,15 +183,15 @@ Log in as Weston McCall (weston.mccall@dodgit.com / password), and navigate to t
 
 View the basic web page included in the site by selecting the Web Page link. The standard AEM authoring tools may be used to add content to this page in the author environment.
 
-For example, go to **author** instance, open the `engage` folder in the [Communities Sites console](../../communities/using/sites-console.md), select the **Open Site** icon to enter author edit mode. Then select preview mode to select the `Web Page`link, then select edit mode to add Title and Text components. Last, re-publish either just the page or the entire site.
+For example, go to **author** instance, open the `engage` folder in the [Communities Sites console](/help/communities/using/sites-console.md), select the **Open Site** icon to enter author edit mode. Then select preview mode to select the `Web Page`link, then select edit mode to add Title and Text components. Last, re-publish either just the page or the entire site.
 
 ![](assets/chlimage_1-321.png) 
 
 ## Administration Link {#administration-link}
 
-When the community member has moderation privileges, then the Administration link will be visible and selecting it will display the community content posted and allow it to be [moderated](../../communities/using/moderate-ugc.md) in a manner similar to the [moderation console](../../communities/using/moderation.md) in the author environment.
+When the community member has moderation privileges, then the Administration link will be visible and selecting it will display the community content posted and allow it to be [moderated](/help/communities/using/moderate-ugc.md) in a manner similar to the [moderation console](/help/communities/using/moderation.md) in the author environment.
 
-Use the browser's back button to return to the published site. Most consoles are not accessible from global navigation in the publish environment. [](../../communities/using/moderate-ugc.md)
+Use the browser's back button to return to the published site. Most consoles are not accessible from global navigation in the publish environment. [](/help/communities/using/moderate-ugc.md)
 
 ![](assets/chlimage_1-322.png) 
 
@@ -216,6 +216,6 @@ If the member forgets their login id, it is possible to recover is using their e
 
 ![](assets/chlimage_1-326.png)
 
-| ** [⇐ Author a New Community Site](../../communities/using/create-site.md)** |** [Authoring Nested Groups ⇒](../../communities/using/nested-groups.md)** |
+| ** [⇐ Author a New Community Site](/help/communities/using/create-site.md)** |** [Authoring Nested Groups ⇒](/help/communities/using/nested-groups.md)** |
 |---|---|
 

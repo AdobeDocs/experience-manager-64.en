@@ -15,7 +15,7 @@ discoiquuid: 32143da1-09c8-45ce-b50d-32adf6efe383
 
 AEM 3D (Adobe Experience Manager 3D) lets you upload, manage, view, and render 3D content. Support for viewing and rendering is optimized for individual objects.
 
-See also [AEM 3D Release Notes](../../release-notes/aem3d-release-notes.md).
+See also [AEM 3D Release Notes](/help/release-notes/aem3d-release-notes.md).
 
 See also [Installing and configuring AEM 3D](install-config-3d.md).
 

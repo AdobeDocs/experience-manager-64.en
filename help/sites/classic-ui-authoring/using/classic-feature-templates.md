@@ -30,5 +30,5 @@ The template editor allows your (template) authors to:
 
 >[!CAUTION]
 >
->The **Templates** console and editor are only available with the touch-enabled UI. Pages and templates created with the **Templates** console are not meant to be used with the classic UI and such use is not supported. See [Creating Page Templates](../../../sites/authoring/using/templates.md) in the standard authoring documentation for details.
+>The **Templates** console and editor are only available with the touch-enabled UI. Pages and templates created with the **Templates** console are not meant to be used with the classic UI and such use is not supported. See [Creating Page Templates](/help/sites/authoring/using/templates.md) in the standard authoring documentation for details.
 

@@ -17,7 +17,7 @@ Learn how to create form data models with or without configured data sources.
 
 AEM Forms data integration provides an intuitive user interface to create and work with form data models. A form data model relies on data sources for exchange of data; however, you can create a form data model with or without a data source. There are two approaches to create a from data model depending on whether you have configured data sources:
 
-* **Using preconfigured data sources**: If you have configured data sources as described in [Configure data sources](../../forms/using/configure-data-sources.md), you can select them while creating a form data model. It brings all data model objects, properties, and services from the selected data sources available for use in the form data model.
+* **Using preconfigured data sources**: If you have configured data sources as described in [Configure data sources](/help/forms/using/configure-data-sources.md), you can select them while creating a form data model. It brings all data model objects, properties, and services from the selected data sources available for use in the form data model.
 
 * **Without data sources**: If you have not configured data sources for your form data model, you can still create it without data sources. You can use the form data model to author adaptive forms and interactive communication and test them using sample data. When data sources are available, you can bind the form data model with data sources, which will automatically reflect in the associated adaptive forms and interactive communications.
 
@@ -27,7 +27,7 @@ AEM Forms data integration provides an intuitive user interface to create and wo
 
 ## Create form data model {#data-sources}
 
-Ensure that you have configured the data sources you intend to use in the form data model as described in [Configure data sources](../../forms/using/configure-data-sources.md). Do the following to create a form data model based on configured data sources:
+Ensure that you have configured the data sources you intend to use in the form data model as described in [Configure data sources](/help/forms/using/configure-data-sources.md). Do the following to create a form data model based on configured data sources:
 
 1. In AEM author instance, navigate to **[!UICONTROL Forms > Data Integrations]**.
 1. Tap **[!UICONTROL Create > Form Data Model]**.
@@ -58,7 +58,7 @@ Let us review the different components of the form data model editor UI.
 
 **F. Add Selected** Adds selected data model objects and services to the form data model.
 
-For more information about form data model editor and how you can work with it to edit and configure form data model, see [Work with form data model](../../forms/using/work-with-form-data-model.md).
+For more information about form data model editor and how you can work with it to edit and configure form data model, see [Work with form data model](/help/forms/using/work-with-form-data-model.md).
 
 ## Update data sources {#update}
 
@@ -88,4 +88,4 @@ Do the following to add or update data sources to an existing form data model.
 
 You now have a form data model with data sources added to it. Next, you can edit the form data model to add and configure data model objects and services, add associations between data model objects, edit properties, add custom data model objects and properties, generate sample data, and so on.
 
-For more information, see [Work with form data model](../../forms/using/work-with-form-data-model.md).
+For more information, see [Work with form data model](/help/forms/using/work-with-form-data-model.md).

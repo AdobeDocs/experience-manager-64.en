@@ -46,8 +46,8 @@ This page provides the essential information for working with the ideation featu
  </tbody>
 </table>
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ### Ideation Function {#ideation-function}
 
-A community site structure that includes the [Ideation function](../../communities/using/functions.md#ideation-function), includes a configured `ideation` component.
+A community site structure that includes the [Ideation function](/help/communities/using/functions.md#ideation-function), includes a configured `ideation` component.

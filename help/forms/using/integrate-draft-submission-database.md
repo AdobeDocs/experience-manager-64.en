@@ -320,7 +320,7 @@ The following zip contains `FormsPortalSampleDataServiceImpl` and `FormsPortalSa
 
 Database implementation of Forms Portal uses additional metadata table. The table has a composite primary key based on Key and id columns of the table. MySQL allows primary keys up to the length of 255 characters. You can use the following client-side validation script to verify the length of filename attached to the file widget. The validation is run when a file is attached. The script provided in the following procedure displays a message, when the filename is larger than 150 (including extension). You can modify the script to check it for a different number of characters.
 
-Perform the following steps to create [a client library](../../sites/developing/using/clientlibs.md) and use the script:
+Perform the following steps to create [a client library](/help/sites/developing/using/clientlibs.md) and use the script:
 
 1. Log in to CRXDE and navigate to /etc/clientlibs/
 1. Create a node of type **cq:ClientLibraryFolder** and provide name of the node. For example, `validation`.

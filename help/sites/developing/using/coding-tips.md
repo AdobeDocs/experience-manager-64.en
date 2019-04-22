@@ -79,7 +79,7 @@ While paths in the JCR should not contain spaces, the presence of them should no
 
 ### Use the XSS API and/or HTL to protect against cross-site scripting attacks {#use-the-xss-api-and-or-htl-to-protect-against-cross-site-scripting-attacks}
 
-AEM provides an XSS API to easily clean parameters and ensure safety from cross-site scripting attacks. Additionally, HTL has these protections built directly into the templating language. An API cheat sheet is available for download at [Development - Guidelines and Best Practices](../../../sites/developing/using/dev-guidelines-bestpractices.md).
+AEM provides an XSS API to easily clean parameters and ensure safety from cross-site scripting attacks. Additionally, HTL has these protections built directly into the templating language. An API cheat sheet is available for download at [Development - Guidelines and Best Practices](/help/sites/developing/using/dev-guidelines-bestpractices.md).
 
 ### Implement appropriate logging {#implement-appropriate-logging}
 

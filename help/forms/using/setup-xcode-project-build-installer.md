@@ -71,7 +71,7 @@ For detailed information about Code Signing and adding devices to the iOS Provis
 1. Click **AEM Forms**, under **TARGETS**, select **AEM Forms**. Select the **Build Settings **tab, locate the **Code Signing Entitlement** section, and in Debug and Release fields do one of the following:
 
     * Leave the fields unspecified to build a standard Mobile Workspace app
-    * Specify the fields to as explained in [Building a Secure AEM Forms app for iOS](../../forms/using/building-secure-mobile-workspace-app.md) to build a secure AEM Forms app.
+    * Specify the fields to as explained in [Building a Secure AEM Forms app for iOS](/help/forms/using/building-secure-mobile-workspace-app.md) to build a secure AEM Forms app.
 
 1. In the **Build Settings** tab, click **All** and then click **Combined**.
 1. From the **Settings** list, expand **Code Signing**. 

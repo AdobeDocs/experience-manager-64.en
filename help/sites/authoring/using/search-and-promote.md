@@ -20,9 +20,9 @@ To integrate Search&Promote capabilities in your web site, use the Search&Promot
 * Search refinement
 * Banners
 
-Note that you can use Search&Promote capabilities only if your AEM administrator has enabled them. See [Integrating with Adobe Search&Promote](../../../sites/administering/using/search-and-promote.md).
+Note that you can use Search&Promote capabilities only if your AEM administrator has enabled them. See [Integrating with Adobe Search&Promote](/help/sites/administering/using/search-and-promote.md).
 
 >[!NOTE]
 >
->Details on adding Search&Promote features to your page are available in the classic UI authoring documentation. See [Adding Search & Promote Features to Your Page](../../../sites/classic-ui-authoring/using/classic-feature-search-promote.md) for more information.
+>Details on adding Search&Promote features to your page are available in the classic UI authoring documentation. See [Adding Search & Promote Features to Your Page](/help/sites/classic-ui-authoring/using/classic-feature-search-promote.md) for more information.
 

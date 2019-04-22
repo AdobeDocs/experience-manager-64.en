@@ -15,7 +15,7 @@ discoiquuid: 7449f99e-77d7-4c0f-96d5-b67d5e1f124a
 
 This page provides the essential information for working with the leaderboard feature.
 
-Prior to including the leaderboard component on a page, it is necessary to configure [Communities Scoring and Badges](../../communities/using/implementing-scoring.md). See also [Scoring and Badges Essentials](../../communities/using/configure-scoring.md).
+Prior to including the leaderboard component on a page, it is necessary to configure [Communities Scoring and Badges](/help/communities/using/implementing-scoring.md). See also [Scoring and Badges Essentials](/help/communities/using/configure-scoring.md).
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
@@ -48,8 +48,8 @@ Prior to including the leaderboard component on a page, it is necessary to confi
  </tbody>
 </table>
 
-* [Client-side Customizations](../../communities/using/client-customize.md)
+* [Client-side Customizations](/help/communities/using/client-customize.md)
 
 ### File Library Function {#file-library-function}
 
-A community site structure that includes the [Leaderboard function](../../communities/using/functions.md#leaderboard-function), includes a configured `leaderboard` component.
+A community site structure that includes the [Leaderboard function](/help/communities/using/functions.md#leaderboard-function), includes a configured `leaderboard` component.

@@ -16,8 +16,8 @@ legacypath: /content/docs/en/aem/6-0/deploy/upgrade/microkernels-in-aem-6-0
 
 In this article, we will cover:
 
-* [Overview of Storage in AEM 6](../../../sites/deploying/using/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
-* [Maintaining the Repository](../../../sites/deploying/using/storage-elements-in-aem-6.md#maintaining-the-repository)
+* [Overview of Storage in AEM 6](/help/sites/deploying/using/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
+* [Maintaining the Repository](/help/sites/deploying/using/storage-elements-in-aem-6.md#maintaining-the-repository)
 
 ## Overview of Storage in AEM 6 {#overview-of-storage-in-aem}
 
@@ -80,7 +80,7 @@ AEM 6 can be configured to run with MongoDB storage by following the below proce
     
     * `customBlobStore`: Boolean value indicating that a custom data store will be used. The default is false.
 
-1. Create a configuration file with the PID of the data store you wish to use and edit the file in order to set the configuration options. For more info, please see [Configuring Node Stores and Data Stores](../../../sites/deploying/using/data-store-config.md).  
+1. Create a configuration file with the PID of the data store you wish to use and edit the file in order to set the configuration options. For more info, please see [Configuring Node Stores and Data Stores](/help/sites/deploying/using/data-store-config.md).  
 
 1. Start the AEM 6 jar with a MongoDB storage backend by running:
 
@@ -123,4 +123,4 @@ Red Hat Linux uses a memory management algorithm called Transparent Huge Pages (
 
 ## Maintaining the Repository {#maintaining-the-repository}
 
-Each update to the repository creates a new content revision. As a result, with each update the size of the repository grows. To avoid uncontrolled repository growth, old revisions need to be be cleaned up to free disk resources. This maintenance functionality is called Revision Cleanup. The Revision Cleanup mechanism will reclaim disk space by removing obsolete data from the repository. For further details about Revision Cleanup, read the [Revision Cleanup page](../../../sites/deploying/using/revision-cleanup.md).
+Each update to the repository creates a new content revision. As a result, with each update the size of the repository grows. To avoid uncontrolled repository growth, old revisions need to be be cleaned up to free disk resources. This maintenance functionality is called Revision Cleanup. The Revision Cleanup mechanism will reclaim disk space by removing obsolete data from the repository. For further details about Revision Cleanup, read the [Revision Cleanup page](/help/sites/deploying/using/revision-cleanup.md).

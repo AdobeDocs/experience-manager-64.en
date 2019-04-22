@@ -13,11 +13,11 @@ discoiquuid: 202d7dba-2b34-431d-b10f-87775632807f
 
 # Site Templates{#site-templates}
 
-The Site Templates console is very similar to the [Group Templates](../../communities/using/tools-groups.md) console, which is focused on functions of interest to Community groups.
+The Site Templates console is very similar to the [Group Templates](/help/communities/using/tools-groups.md) console, which is focused on functions of interest to Community groups.
 
 >[!NOTE]
 >
->The consoles for the creation of [community sites](../../communities/using/sites-console.md), [community site templates](../../communities/using/sites.md), [community group templates](../../communities/using/tools-groups.md) and [community functions](../../communities/using/functions.md) are for use only in the author environment.
+>The consoles for the creation of [community sites](/help/communities/using/sites-console.md), [community site templates](/help/communities/using/sites.md), [community group templates](/help/communities/using/tools-groups.md) and [community functions](/help/communities/using/functions.md) are for use only in the author environment.
 
 ## Site Templates Console {#site-templates-console}
 
@@ -25,7 +25,7 @@ In the author environment, to reach the community sites console
 
 * from global navigation: **Tools, Communities, Site Templates**
 
-This console displays the templates from which a [community site](../../communities/using/sites-console.md) can be created and allows new site templates to be created.
+This console displays the templates from which a [community site](/help/communities/using/sites-console.md) can be created and allows new site templates to be created.
 
 ![](assets/chlimage_1-18.png)
 
@@ -62,7 +62,7 @@ On the Basic Info panel, a name, description and whether the template is enabled
 
 To add community functions, drag from the right side to the left in the order the site menu links should appear. Styles will be applied to the template during creation of the site.
 
-For example, if you want a home page, drag the Page function from the library and drop under the template builder. This will result in the page configuration dialog opening. See the [functions console](../../communities/using/functions.md) for information about the configuration dialogs.
+For example, if you want a home page, drag the Page function from the library and drop under the template builder. This will result in the page configuration dialog opening. See the [functions console](/help/communities/using/functions.md) for information about the configuration dialogs.
 
 Continue dragging and dropping any other community functions desired for a community site based on this template.
 
@@ -72,7 +72,7 @@ The page function provides an empty page. The groups function provides the abili
 >
 >The groups function must *not *be the *first nor the only* function in the site structure.
 >
->Any other function, such as the [page function](../../communities/using/functions.md#page-function), must be included and listed first.
+>Any other function, such as the [page function](/help/communities/using/functions.md#page-function), must be included and listed first.
 
 ![](assets/chlimage_1-22.png)
 

@@ -15,7 +15,7 @@ Creating and editing condition fragments to be used in Interactive Communication
 
 ## Overview {#overview}
 
-Condition is a document fragment that you can include in an Interactive Communication. The other document fragments are [text](../../forms/using/texts-interactive-communications.md), list, and layout fragment. Conditions enable you to define one or more contextual assets that get included in an Interactive Communication based on the supplied data and rules.
+Condition is a document fragment that you can include in an Interactive Communication. The other document fragments are [text](/help/forms/using/texts-interactive-communications.md), list, and layout fragment. Conditions enable you to define one or more contextual assets that get included in an Interactive Communication based on the supplied data and rules.
 
 Examples:
 
@@ -41,7 +41,7 @@ The assets in the conditions that are rendered based on the applied rules and th
     * **[!UICONTROL Name]**: The unique name for the condition, within a folder. No two document fragments (text, condition, or list) in any state can exist with the same name within a folder. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
     
     * **[!UICONTROL Description]**: Type a description of the document fragment.
-    * **[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the condition based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]** field appears. Browse and select a form data model. While creating condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on form data model, see [Data Integration](../../forms/using/data-integration.md). 
+    * **[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the condition based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]** field appears. Browse and select a form data model. While creating condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on form data model, see [Data Integration](/help/forms/using/data-integration.md). 
     
     * **[!UICONTROL Tags]**: Optionally, to create custom tag enter value in text field and tap Enter. When you save this condition, the newly added tags get created.
 

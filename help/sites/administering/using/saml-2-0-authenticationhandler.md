@@ -32,7 +32,7 @@ This handler stores the encrypted SAML response message in the user-node ( `user
 
 ## Configuring The SAML 2.0 Authentication Handler {#configuring-the-saml-authentication-handler}
 
-The [Web console](../../../sites/deploying/using/configuring-osgi.md) provides access to the [SAML](http://saml.xml.org/saml-specifications) 2.0 Authentication Handler configuration called **Adobe Granite SAML 2.0 Authentication Handler**. The following properties can be set.
+The [Web console](/help/sites/deploying/using/configuring-osgi.md) provides access to the [SAML](http://saml.xml.org/saml-specifications) 2.0 Authentication Handler configuration called **Adobe Granite SAML 2.0 Authentication Handler**. The following properties can be set.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ The [Web console](../../../sites/deploying/using/configuring-osgi.md) provides a
 
 >[!NOTE]
 >
->SAML assertions are signed and may optionally be encrypted. In order for this to work you have to provide at least the public certificate of the Indentity Provider in the TrustStore. See [Adding the IdP certificate to the TrustStore](../../../sites/administering/using/saml-2-0-authenticationhandler.md#add-the-idp-certificate-to-the-aem-truststore) section for more information.
+>SAML assertions are signed and may optionally be encrypted. In order for this to work you have to provide at least the public certificate of the Indentity Provider in the TrustStore. See [Adding the IdP certificate to the TrustStore](/help/sites/administering/using/saml-2-0-authenticationhandler.md#add-the-idp-certificate-to-the-aem-truststore) section for more information.
 
 **Path** Repository path for which this authentication handler should be used by Sling. If this is empty, the authentication handler will be disabled.
 
@@ -56,7 +56,7 @@ The [Web console](../../../sites/deploying/using/configuring-osgi.md) provides a
 
 >[!CAUTION]
 >
->The Identity Provider hostname must be added to the **Apache Sling Referrer Filter** OSGi configuration. See the [Web console](../../../sites/deploying/using/configuring-osgi.md) section for more information.
+>The Identity Provider hostname must be added to the **Apache Sling Referrer Filter** OSGi configuration. See the [Web console](/help/sites/deploying/using/configuring-osgi.md) section for more information.
 
 **Service Provider Entity ID** ID which uniquely identifies this service provider with the identity provider. If this property is empty the authentication handler is disabled.
 

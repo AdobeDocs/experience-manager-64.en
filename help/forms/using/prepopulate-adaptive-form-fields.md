@@ -23,11 +23,11 @@ An adaptive form can have mix of bound and unbound fields. Bound fields are fiel
 
 You can prefill both bound and unbound fields of an adaptive form. The prefill data contains the afBoundData and afUnBoundData sections to prefill both bound and unbound fields of an adaptive form. The `afBoundData` section contains the prefill data for bound fields and panels. This data must be compliant with the associated form model schema:
 
-* For adaptive forms using the [XFA form template](../../forms/using/prepopulate-adaptive-form-fields.md), use the prefill XML compliant with the data schema of the XFA template.
-* For adaptive forms using [XML schema](../../forms/using/prepopulate-adaptive-form-fields.md#main-pars-header-3), use the prefill XML compliant with the XML schema structure.
-* For adaptive forms using [JSON schema](../../forms/using/prepopulate-adaptive-form-fields.md#json-schema-based-adaptive-forms), use the prefill JSON compliant with the JSON schema.
+* For adaptive forms using the [XFA form template](/help/forms/using/prepopulate-adaptive-form-fields.md), use the prefill XML compliant with the data schema of the XFA template.
+* For adaptive forms using [XML schema](/help/forms/using/prepopulate-adaptive-form-fields.md#main-pars-header-3), use the prefill XML compliant with the XML schema structure.
+* For adaptive forms using [JSON schema](/help/forms/using/prepopulate-adaptive-form-fields.md#json-schema-based-adaptive-forms), use the prefill JSON compliant with the JSON schema.
 * For adaptive forms using FDM schema, use the prefill JSON compliant with FDM schema.
-* For adaptive forms with [no form model](../../forms/using/prepopulate-adaptive-form-fields.md#p-adaptive-form-with-no-form-model-p), there is no bound data. Every field is an unbound field and is prefilled using the unbound XML.
+* For adaptive forms with [no form model](/help/forms/using/prepopulate-adaptive-form-fields.md#p-adaptive-form-with-no-form-model-p), there is no bound data. Every field is an unbound field and is prefilled using the unbound XML.
 
 ### Sample Prefill XML structure {#sample-prefill-xml-structure}
 
@@ -141,7 +141,7 @@ For fields whose model is XML schema, the data is prefilled in the `afBoundData`
 
 ## JSON schema-based adaptive forms {#json-schema-based-adaptive-forms}
 
-For adaptive forms based on JSON schema, the structure of prefill JSON and submitted JSON is described below. For more information, see [Creating adaptive forms using JSON schema](../../forms/using/adaptive-form-json-schema-form-model.md).
+For adaptive forms based on JSON schema, the structure of prefill JSON and submitted JSON is described below. For more information, see [Creating adaptive forms using JSON schema](/help/forms/using/adaptive-form-json-schema-form-model.md).
 
 * **Prefill JSON structure**: The prefill JSON must be compliant with the associated JSON Schema. Optionally, it can be wrapped into the /afData/afBoundData Object if you want to prefill unbound fields as well.
 * **Submitted JSON structure**: if no prefill JSON is used, the submitted JSON contains data for both bound and unbound fields in afData** **wrapper tag. If the prefill JSON is used, the submitted JSON has the same structure as the prefill JSON. If the prefill JSON starts with the afData root object, the output JSON has the same format. If the prefill JSON does not have afData/afBoundData wrapper and instead starts directly from the schema root object such as user, the submitted JSON also starts with the user object.
@@ -296,7 +296,7 @@ http://localhost:4502/content/forms/af/xml.html?wcmmode=disabled&dataRef=http://
 http://localhost:4502/content/forms/af/abc.html?wcmmode=disabled&dataRef=service://[SERVICE_NAME]/[IDENTIFIER]
 ```
 
-* SERVICE_NAME refers to the name of the OSGI prefill service. Refer [Create and run a prefill service](../../forms/using/prepopulate-adaptive-form-fields.md#create-and-run-a-prefill-service).
+* SERVICE_NAME refers to the name of the OSGI prefill service. Refer [Create and run a prefill service](/help/forms/using/prepopulate-adaptive-form-fields.md#create-and-run-a-prefill-service).
 * IDENTIFIER refers to any metadata required by the OSGI prefill service to fetch the prefill data. An identifier to the logged-in user is an example of metadata that could be used.
 
 >[!NOTE]
@@ -343,7 +343,7 @@ You can use custom prefill service for the scenarios, where you constantly read 
 The prefill service is an OSGi service and is packaged through OSGi bundle. You create the OSGi bundle, upload, and install it to AEM Forms bundles. Before you get started with creating the bundle:
 
 * [Download the AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
-* [Download the boilerplate package](../../forms/using/prepopulate-adaptive-form-fields.md#main-pars-download-section-711716493)  
+* [Download the boilerplate package](/help/forms/using/prepopulate-adaptive-form-fields.md#main-pars-download-section-711716493)  
 
 * Place the data (prefill data) file in the crx-repository. You can place the file at any location in the \contents folder of crx-repository.
 

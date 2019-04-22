@@ -58,7 +58,7 @@ You can also use the component to control the behavior of the task. For example,
 
 * **User or Group:** The task is assigned to selected user or group. The option is available when the **To a specific user or group option** is selected in the Assign options field. The field lists all the users and groups of the workflow-users group.
 
-* **Notify Assignee by Email:** Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user. Before using the option, enable the notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](../../forms/using/aem-forms-workflow.md)
+* **Notify Assignee by Email:** Select this option to send email notifications to the assignee. These notifications are sent when a task is assigned to a user. Before using the option, enable the notifications from AEM Web Console. For step-by-step instructions, see [configure email notifications for the assign task step](/help/forms/using/aem-forms-workflow.md)
 
 * **HTML Email Template**: Select email template for the notification email. To edit a template, modify the file located at /libs/fd/dashboard/templates/email/htmlEmailTemplate.txt in crx-repository.
 * **Allow Delegation To:** AEM Inbox provides an option to the logged in user to delegate the assigned workflow to another user. You are allowed to delegate within the same group or to the workflow user of another group. If the task is assigned to a single user and the **allow delegation to members of the assignee group** option is selected, then it is not possible to delegate the task to another user or group.
@@ -82,7 +82,7 @@ You can also use the component to control the behavior of the task. For example,
 
 Use the email step to send an email, for example an email with a document of record, link of an adaptive form, link of an interactive communication, or with an attached PDF document. Send Email step supports [HTML email](https://en.wikipedia.org/wiki/HTML_email). HTML emails are responsive and adapt to the recipients' email client and screen size. You can use an HTML email template to define appearance, color-scheme, and behavior of the of the email.
 
-The email step uses Day CQ Mail Service to send emails. Before using the email step, ensure that the [email service](../../forms/using/aem-forms-workflow.md) is configured. The email step has the following properties:
+The email step uses Day CQ Mail Service to send emails. Before using the email step, ensure that the [email service](/help/forms/using/aem-forms-workflow.md) is configured. The email step has the following properties:
 
 **Title:** Title of the step helps identify the step in the workflow editor.
 
@@ -128,7 +128,7 @@ If you specify the path of a folder, for example, attachments, all the files dir
 
 ## Invoke Form Data Model Service step {#invoke-form-data-model-service-step}
 
-You can use [AEM Forms Data Integration](../../forms/using/data-integration.md) to configure and connect to disparate data sources. These data sources can be a database, web service, REST service, OData service, and CRM solution. AEM Forms Data Integration allows you to create a form data model encompassing various services to perform data retrieval, addition, updating operations on the configured database. You can use the **Invoke Data Model Service step** to select a form data model (FDM) and use the services of the FDM to retrieve, update, or add data to disparate data sources.
+You can use [AEM Forms Data Integration](/help/forms/using/data-integration.md) to configure and connect to disparate data sources. These data sources can be a database, web service, REST service, OData service, and CRM solution. AEM Forms Data Integration allows you to create a form data model encompassing various services to perform data retrieval, addition, updating operations on the configured database. You can use the **Invoke Data Model Service step** to select a form data model (FDM) and use the services of the FDM to retrieve, update, or add data to disparate data sources.
 
 To explain inputs for fields of the step, the following database table and JSON file are used as an example :
 
@@ -213,7 +213,7 @@ The Sign Document step enables you to use Adobe Sign to sign documents. The Sign
 
 * **Agreement Name:** Specify the title of the agreement. The agreement name becomes part of the subject and body text of the email sent to the signers.
 * **Locale:** Specify the language for the email and verification options.
-* **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](../../forms/using/adobe-sign-integration-adaptive-forms.md). 
+* **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md). 
 
 * **Document to be Signed:** You can choose a document from a location relative to the payload, use payload as the document, or specify an absolute path of the document.
 * **Days Until Deadline: **A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field.** **The number of days are counted after the documented is assigned to a user for signing.

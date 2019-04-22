@@ -25,7 +25,7 @@ Below you will find a list of use cases that can be leveraged when performing in
 
 >[!NOTE]
 >
->For more detailed information regarding this scenario, see [Use Case 1 - Index Consistency Check](../../../sites/deploying/using/oak-run-indexing-usecases.md#usercase1indexconsistencycheck).
+>For more detailed information regarding this scenario, see [Use Case 1 - Index Consistency Check](/help/sites/deploying/using/oak-run-indexing-usecases.md#usercase1indexconsistencycheck).
 
 * `oak-run.jar`quickly determines if lucene oak indexes are corrupt.
 * It is safe to run on an in-use AEM instance for consistency check levels 1 and 2.
@@ -36,7 +36,7 @@ Below you will find a list of use cases that can be leveraged when performing in
 
 >[!NOTE]
 >
->For more detailed information regarding this scenario, see [Use Case 2 - Index Statistics](../../../sites/deploying/using/oak-run-indexing-usecases.md#usecase2indexstatistics)
+>For more detailed information regarding this scenario, see [Use Case 2 - Index Statistics](/help/sites/deploying/using/oak-run-indexing-usecases.md#usecase2indexstatistics)
 
 * `oak-run.jar` dumps all index definitions, important index stats and index contents for offline analysis.  
 
@@ -54,11 +54,11 @@ This diagram is a decision tree for when to use the various re-indexing approach
 
 >[!NOTE]
 >
->For more detailed information regarding this scenario, see [Use Case 3 - Reindexing](../../../sites/deploying/using/oak-run-indexing-usecases.md#usecase3reindexing).
+>For more detailed information regarding this scenario, see [Use Case 3 - Reindexing](/help/sites/deploying/using/oak-run-indexing-usecases.md#usecase3reindexing).
 
 ### Text Pre-extraction for SegmentNodeStore and DocumentNodeStore {#textpre-extraction}
 
-[Text pre-extraction](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md#how-to-perform-text-pre-extraction) (a feature that has existed with AEM 6.3) can be used to reduce the time to re-index. Text pre-extraction can be used in conjunction with all re-indexing approaches.
+[Text pre-extraction](/help/sites/deploying/using/best-practices-for-queries-and-indexing.md#how-to-perform-text-pre-extraction) (a feature that has existed with AEM 6.3) can be used to reduce the time to re-index. Text pre-extraction can be used in conjunction with all re-indexing approaches.
 
 Depending on the `oak-run.jar` indexing approach there will be various steps on either side of the Perform Re-index step in the diagram below.
 
@@ -72,7 +72,7 @@ Depending on the `oak-run.jar` indexing approach there will be various steps on 
 
 >[!NOTE]
 >
->For more detailed information regarding this scenario, see [Reindex - DocumentNodeStore](../../../sites/deploying/using/oak-run-indexing-usecases.md#reindexdocumentnodestore).
+>For more detailed information regarding this scenario, see [Reindex - DocumentNodeStore](/help/sites/deploying/using/oak-run-indexing-usecases.md#reindexdocumentnodestore).
 
 This is the recommended method for reindexing MongoMK (and RDBMK) AEM installations. No other method should be used.
 
@@ -84,7 +84,7 @@ This process needs to be executed only against a single AEM instance in the clus
 
 >[!NOTE]
 >
->For more detailed information regarding this scenario, see [Reindex - SegmentNodeStore](../../../sites/deploying/using/oak-run-indexing-usecases.md#reindexsegmentnodestore).
+>For more detailed information regarding this scenario, see [Reindex - SegmentNodeStore](/help/sites/deploying/using/oak-run-indexing-usecases.md#reindexsegmentnodestore).
 
 * ** Cold Standby considerations (TarMK)**
 
@@ -98,7 +98,7 @@ This process needs to be executed only against a single AEM instance in the clus
 
 >[!NOTE]
 >
->For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore](../../../sites/deploying/using/oak-run-indexing-usecases.md#onlinereindexsegmentnodestore).
+>For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore](/help/sites/deploying/using/oak-run-indexing-usecases.md#onlinereindexsegmentnodestore).
 
 This is the method used before te introudction of the new indexing capabilities of oak-run.jar. It can done by setting the `reindex=true` property on the Oak index.
 
@@ -110,7 +110,7 @@ This approach can be used if the time and performance effects to index are accep
 
 >[!NOTE]
 >
->For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore - The AEM Instance is Running](../../../sites/deploying/using/oak-run-indexing-usecases.md#onlinereindexsegmentnodestoretheaeminstanceisrunning).
+>For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore - The AEM Instance is Running](/help/sites/deploying/using/oak-run-indexing-usecases.md#onlinereindexsegmentnodestoretheaeminstanceisrunning).
 
 Online-reindexing of TarMK is faster than the Online TarkMK reindexing decribed above. However, it also requires execution during a maintenance window, with the methion that the window will be shorter, and more steps are required to perform the re-indexing.
 
@@ -124,7 +124,7 @@ Online-reindexing of TarMK is faster than the Online TarkMK reindexing decribed 
 
 >[!NOTE]
 >
->For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore - The AEM Instance is Shut Down](../../../sites/deploying/using/oak-run-indexing-usecases.md#onlinereindexsegmentnodestoreaeminstanceisdown).
+>For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore - The AEM Instance is Shut Down](/help/sites/deploying/using/oak-run-indexing-usecases.md#onlinereindexsegmentnodestoreaeminstanceisdown).
 
 Offline re-indexing of TarMK is the simplest `oak-run.jar` based re-indexing approach for TarMK as it requires a single `oak-run.jar` comment. However, it requires the AEM instance to be shutdown.
 
@@ -138,7 +138,7 @@ Offline re-indexing of TarMK is the simplest `oak-run.jar` based re-indexing app
 
 >[!NOTE]
 >
->For more detailed information regarding this scenario, see [Out of Band Reindex - SegmentNodeStore](../../../sites/deploying/using/oak-run-indexing-usecases.md#outofbandreindexsegmentnodestore).
+>For more detailed information regarding this scenario, see [Out of Band Reindex - SegmentNodeStore](/help/sites/deploying/using/oak-run-indexing-usecases.md#outofbandreindexsegmentnodestore).
 
 Out-of-band re-indexing minimizes the impact of re-indexing on in-use AEM instances.
 
@@ -152,7 +152,7 @@ Out-of-band re-indexing minimizes the impact of re-indexing on in-use AEM instan
 
 >[!NOTE]
 >
->For more detailed information about this scenario, see [Use Case 4 - Updating Index Definitions](../../../sites/deploying/using/oak-run-indexing-usecases.md#usecase4updatingindexdefinitions).
+>For more detailed information about this scenario, see [Use Case 4 - Updating Index Definitions](/help/sites/deploying/using/oak-run-indexing-usecases.md#usecase4updatingindexdefinitions).
 
 ### Creating and Updating index definitions on TarMK using ACS Ensure Index {#creatingandupdatingindexdefinitionsontarmkusingacsensureindex}
 

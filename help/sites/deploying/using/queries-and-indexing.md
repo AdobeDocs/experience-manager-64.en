@@ -16,7 +16,7 @@ legacypath: /content/docs/en/aem/6-0/deploy/upgrade/queries-and-indexing
 
 >[!NOTE]
 >
->This article is about configuring indexes in AEM 6. For best practices on optimizing query and indexing performance, see [Best Practices for Queries and Indexing](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md).
+>This article is about configuring indexes in AEM 6. For best practices on optimizing query and indexing performance, see [Best Practices for Queries and Indexing](/help/sites/deploying/using/best-practices-for-queries-and-indexing.md).
 
 ## Introduction {#introduction}
 
@@ -413,7 +413,7 @@ AEM 6.1 also integrates two indexing tools present in AEM 6.0 as part of the Ado
 
 You can now reach them by going to **Tools - Operations - Dashboard - Diagnosis** from the AEM Welcome screen.
 
-For more information on how to use them, see the [Operations Dashboard documentation](../../../sites/administering/using/operations-dashboard.md).
+For more information on how to use them, see the [Operations Dashboard documentation](/help/sites/administering/using/operations-dashboard.md).
 
 #### Creating Property Indexes via OSGi {#creating-property-indexes-via-osgi}
 
@@ -431,7 +431,7 @@ This section presents a set of recommendations on what needs to be done in order
 
 #### Preparing Debugging Info for Analysis {#preparing-debugging-info-for-analysis}
 
-The easiest way to get required information for the query being executed is via the [Explain Query tool](../../../sites/administering/using/operations-dashboard.md#explain-query). This will enable you to collect the precise information that is needed to debug a slow query without the need to consult the log level information. This is desirable if you know the query that is being debugged.
+The easiest way to get required information for the query being executed is via the [Explain Query tool](/help/sites/administering/using/operations-dashboard.md#explain-query). This will enable you to collect the precise information that is needed to debug a slow query without the need to consult the log level information. This is desirable if you know the query that is being debugged.
 
 If this is not possible for any reason, you can gather the indexing logs in a single file and use it to troubleshoot your particular problem.
 

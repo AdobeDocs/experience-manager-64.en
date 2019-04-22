@@ -30,6 +30,6 @@ Out of the box, forms portal components are not available for use. To make the c
 
 >[!NOTE]
 >
->You can also enable specific components from these categories by selecting the components. For more information about the components and their usage, see [Creating a form portal page](../../forms/using/creating-form-portal-page.md) and [Embedding link component in a page](../../forms/using/embedding-link-component-page.md).
+>You can also enable specific components from these categories by selecting the components. For more information about the components and their usage, see [Creating a form portal page](/help/forms/using/creating-form-portal-page.md) and [Embedding link component in a page](/help/forms/using/embedding-link-component-page.md).
 
 Now, the Document Services and Document Services Predicates component categories are available in the components browser. The components are enabled for all the pages that use the same template.

@@ -20,7 +20,7 @@ AEM Forms lets you change the title of a folder. The title is not the same as th
 
 You can create a folder in AEM Forms in one of the following ways:
 
-* Upload a ZIP file containing assets in the desired folder structure (See, [Getting XDP and PDF documents in AEM Forms](../../forms/using/get-xdp-pdf-documents-aem.md))  
+* Upload a ZIP file containing assets in the desired folder structure (See, [Getting XDP and PDF documents in AEM Forms](/help/forms/using/get-xdp-pdf-documents-aem.md))  
 
 * Create a new empty folder
 

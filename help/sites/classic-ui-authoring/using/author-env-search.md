@@ -17,7 +17,7 @@ The author environment of AEM provides various mechanisms for searching for cont
 
 >[!NOTE]
 >
->Outside the author environment other mechanisms are also available for searching, such as the [Query Builder](../../../sites/developing/using/querybuilder-api.md) and [CRXDE Lite](../../../sites/developing/using/developing-with-crxde-lite.md).
+>Outside the author environment other mechanisms are also available for searching, such as the [Query Builder](/help/sites/developing/using/querybuilder-api.md) and [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md).
 
 ## Search Basics {#search-basics}
 
@@ -34,7 +34,7 @@ The search panel lets you search across all your website pages. It contains fiel
 
 >[!NOTE]
 >
->When your instance is configured for [Lucene search](../../../sites/deploying/using/queries-and-indexing.md) you can use the following in **Fulltext**:
+>When your instance is configured for [Lucene search](/help/sites/deploying/using/queries-and-indexing.md) you can use the following in **Fulltext**:
 >
 >* [Wildcards](https://lucene.apache.org/core/5_3_1/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Wildcard_Searches)
 >* [Boolean Operators](https://lucene.apache.org/core/5_3_1/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Boolean_operators)  

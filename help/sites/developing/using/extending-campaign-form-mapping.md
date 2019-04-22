@@ -24,7 +24,7 @@ You need to have the following installed:
 * Adobe Experience Manager
 * Adobe Campaign Classic
 
-See [Integrating AEM with Adobe Campaign Classic](../../../sites/administering/using/campaignonpremise.md) for more information.
+See [Integrating AEM with Adobe Campaign Classic](/help/sites/administering/using/campaignonpremise.md) for more information.
 
 ## Creating Custom Form Mappings {#creating-custom-form-mappings}
 

@@ -227,7 +227,7 @@ The third approach is currently the preferred processing technique.
 
 Within workflow process implementations the corresponding user session that triggered the workflow is usually lost. This leads to workflow processes often using administrative sessions to perform their work.
 
-In order to fix these issues, it is recommended that the same approaches mentioned in [Processing Events, Replication Preprocessors and Jobs](../../../sites/administering/using/security-service-users.md#processing-events-replication-preprocessors-and-jobs) be used.
+In order to fix these issues, it is recommended that the same approaches mentioned in [Processing Events, Replication Preprocessors and Jobs](/help/sites/administering/using/security-service-users.md#processing-events-replication-preprocessors-and-jobs) be used.
 
 ## Sling POST Processors and Deleted Pages {#sling-post-processors-and-deleted-pages}
 

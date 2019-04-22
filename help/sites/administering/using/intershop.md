@@ -126,7 +126,7 @@ The parameters used by the importer can be configured for:
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
+>When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
 
 ## Configure the Product Attributes to Load {#configure-the-product-attributes-to-load}
 
@@ -141,5 +141,5 @@ The parameters used by the parser can be configured for:
 
 >[!NOTE]
 >
->When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
+>When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
 

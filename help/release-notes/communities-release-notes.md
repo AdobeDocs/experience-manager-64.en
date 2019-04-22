@@ -13,9 +13,9 @@ discoiquuid: 55a0b70e-5212-408b-8560-6e758bd8bb10
 
 # AEM Communities Release Notes{#aem-communities-release-notes}
 
-This section provides information on the improvements to AEM Communities since the 6.3 release. To learn about the new features in greater detail, see [What's New in AEM 6.4 Communities](../communities/using/whats-new-aem-communities.md).
+This section provides information on the improvements to AEM Communities since the 6.3 release. To learn about the new features in greater detail, see [What's New in AEM 6.4 Communities](/help/communities/using/whats-new-aem-communities.md).
 
-To obtain the latest release, see the [Deploying Communities](../communities/using/deploy-communities.md#latest-releases) section of the documentation.
+To obtain the latest release, see the [Deploying Communities](/help/communities/using/deploy-communities.md#latest-releases) section of the documentation.
 
 ## Main improvements {#main-improvements}
 

@@ -15,57 +15,57 @@ discoiquuid: d0249609-2a9c-4d3b-92ee-dbc5fbdeaac6
 
 ## Prerequisites {#prerequisites}
 
-* [AEM 6.4 Platform](../../sites/deploying/using/deploy.md)
+* [AEM 6.4 Platform](/help/sites/deploying/using/deploy.md)
 
 * AEM Communities license
 
 * Optional licenses for:
 
-    * [Adobe Analytics for Communities features](../../communities/using/analytics.md)
-    * [MongoDB for MSRP](../../communities/using/msrp.md)
-    * [Adobe Cloud for ASRP](../../communities/using/asrp.md)
+    * [Adobe Analytics for Communities features](/help/communities/using/analytics.md)
+    * [MongoDB for MSRP](/help/communities/using/msrp.md)
+    * [Adobe Cloud for ASRP](/help/communities/using/asrp.md)
 
 ## Installation Checklist {#installation-checklist}
 
-**For the [AEM platform](../../sites/deploying/using/deploy.md#what-is-aem)**
+**For the [AEM platform](/help/sites/deploying/using/deploy.md#what-is-aem)**
 
 * install latest [AEM 6.4 Updates](#aem-updates)
 
 * if not using the default ports (4502, 4503), then [configure replication agents](#replication-agents-on-author)
 * [replicate the crypto key](#replicate-the-crypto-key)
-* if supporting globalization, [setup automated translation](../../sites/administering/using/translation.md)  
+* if supporting globalization, [setup automated translation](/help/sites/administering/using/translation.md)  
   
   (sample setup is provided for development)
 
-**For the [Communities capability](../../communities/using/overview.md)**
+**For the [Communities capability](/help/communities/using/overview.md)**
 
-* if deploying a [publish farm](../../sites/deploying/using/recommended-deploys.md#tarmk-farm), [identify the primary publisher](#primary-publisher)
+* if deploying a [publish farm](/help/sites/deploying/using/recommended-deploys.md#tarmk-farm), [identify the primary publisher](#primary-publisher)
 
 * [enable the tunnel service](#tunnel-service-on-author)
-* [enable social login](../../communities/using/social-login.md#adobe-granite-oauth-authentication-handler)
-* [configure Adobe Analytics](../../communities/using/analytics.md)
-* setup a [default email service](../../communities/using/email.md)
-* identify the choice for [shared UGC storage](../../communities/using/working-with-srp.md) (**SRP**)
+* [enable social login](/help/communities/using/social-login.md#adobe-granite-oauth-authentication-handler)
+* [configure Adobe Analytics](/help/communities/using/analytics.md)
+* setup a [default email service](/help/communities/using/email.md)
+* identify the choice for [shared UGC storage](/help/communities/using/working-with-srp.md) (**SRP**)
 
-    * if MongoDB SRP [(MSRP)](../../communities/using/msrp.md)
+    * if MongoDB SRP [(MSRP)](/help/communities/using/msrp.md)
 
-        * [install and configure MongoDB](../../communities/using/msrp.md#mongodb-configuration)
-        * [configure Solr](../../communities/using/solr.md)
-        * [select MSRP](../../communities/using/srp-config.md)
+        * [install and configure MongoDB](/help/communities/using/msrp.md#mongodb-configuration)
+        * [configure Solr](/help/communities/using/solr.md)
+        * [select MSRP](/help/communities/using/srp-config.md)
 
-    * if relational database SRP [(DSRP)](../../communities/using/dsrp.md)
+    * if relational database SRP [(DSRP)](/help/communities/using/dsrp.md)
 
         * [install the JDBC driver for MySQL](#jdbc-driver-for-mysql)
-        * [install and configure MySQL for DSRP](../../communities/using/dsrp-mysql.md)
-        * [configure Solr](../../communities/using/solr.md)
-        * [select DSRP](../../communities/using/srp-config.md)
+        * [install and configure MySQL for DSRP](/help/communities/using/dsrp-mysql.md)
+        * [configure Solr](/help/communities/using/solr.md)
+        * [select DSRP](/help/communities/using/srp-config.md)
 
-    * if Adobe SRP [(ASRP)](../../communities/using/asrp.md)
+    * if Adobe SRP [(ASRP)](/help/communities/using/asrp.md)
 
         * work with your account representative for provisioning
-        * [select ASRP](../../communities/using/srp-config.md)
+        * [select ASRP](/help/communities/using/srp-config.md)
 
-    * if JCR SRP [(JSRP)](../../communities/using/jsrp.md)
+    * if JCR SRP [(JSRP)](/help/communities/using/jsrp.md)
 
         * not a shared UGC store:
 
@@ -74,16 +74,16 @@ discoiquuid: d0249609-2a9c-4d3b-92ee-dbc5fbdeaac6
 
         * default is JSRP
 
-  **For the ** [**enablement feature**](../../communities/using/overview.md#enablement-community)
+  **For the ** [**enablement feature**](/help/communities/using/overview.md#enablement-community)
 
-    * [install and configure FFmpeg](../../communities/using/ffmpeg.md)
+    * [install and configure FFmpeg](/help/communities/using/ffmpeg.md)
     * [install the JDBC driver for MySQL](#jdbc-driver-for-mysql)
     * [install AEM Communities SCORM-Engine](#scorm-package)
-    * [install and configure MySQL for enablement](../../communities/using/mysql.md)
+    * [install and configure MySQL for enablement](/help/communities/using/mysql.md)
 
 ## Latest Releases {#latest-releases}
 
-AEM 6.4 Communities GA ships with Communities package. To know about updates to AEM 6.4 [Communities](../../release-notes/release-notes.md#experience-manager-communities), refer [AEM 6.4 Release Notes](../../release-notes/release-notes.md#release-information).
+AEM 6.4 Communities GA ships with Communities package. To know about updates to AEM 6.4 [Communities](/help/release-notes/release-notes.md#experience-manager-communities), refer [AEM 6.4 Release Notes](/help/release-notes/release-notes.md#release-information).
 
 ### AEM 6.4 Updates {#aem-updates}
 
@@ -99,8 +99,8 @@ As on AEM 6.4 and beyond, AEM Communities features and hotfixes are part of AEM 
 
 Two Communities features use a MySQL database:
 
-* for [enablement](../../communities/using/enablement.md): recording SCORM activities and learners
-* for [DSRP](../../communities/using/dsrp.md): storing user generated content (UGC)
+* for [enablement](/help/communities/using/enablement.md): recording SCORM activities and learners
+* for [DSRP](/help/communities/using/dsrp.md): storing user generated content (UGC)
 
 The MySQL connector must be obtained and installed separately.
 
@@ -127,7 +127,7 @@ The necessary steps are:
 
 1. repeat steps 3 and 4 on all author and publish instances
 
-Further information on installing bundles is found on the [Web Console](../../sites/deploying/using/configuring-web-console.md#bundles) page.
+Further information on installing bundles is found on the [Web Console](/help/sites/deploying/using/configuring-web-console.md#bundles) page.
 
 #### Example: Installed MySQL Connector Bundle {#example-installed-mysql-connector-bundle}
 
@@ -137,7 +137,7 @@ Further information on installing bundles is found on the [Web Console](../../si
 
 Shareable Content Object Reference Model (SCORM) is a collection of standards and specifications for e-learning. SCORM also defines how content may be packaged into a transferable ZIP file.
 
-The AEM Communities SCORM engine is required for the [enablement](../../communities/using/overview.md#enablement-community) feature. Scorm packages supported on AEM Communities 6.4 version are:
+The AEM Communities SCORM engine is required for the [enablement](/help/communities/using/overview.md#enablement-community) feature. Scorm packages supported on AEM Communities 6.4 version are:
 
 * ** [  cq -social-  scorm -package, version 1.2.11](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-pkg)**. This SCORM package is supported by all AEM 6.4 Communities versions.
 
@@ -189,7 +189,7 @@ As installed, all enablement activity is verbosely logged to the system console.
 
 If desired, the log level can be set to WARN for the `RusticiSoftware.*` package.
 
-For working with logs, see [Working with Audit Records and Log Files](../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files).
+For working with logs, see [Working with Audit Records and Log Files](/help/sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files).
 
 ### AEM Advanced MLS {#aem-advanced-mls}
 
@@ -202,7 +202,7 @@ The advanced MLS download (also known as 'phasetwo') is available from the Adobe
     * version 1.2.40, April 6, 2016
     * download AEM-SOLR-MLS-phasetwo-1.2.40.zip
 
-For details and installation information, visit [Solr Configuration](../../communities/using/solr.md) for SRP.
+For details and installation information, visit [Solr Configuration](/help/communities/using/solr.md) for SRP.
 
 ### About Links to Package Share {#about-links-to-package-share}
 
@@ -223,29 +223,29 @@ Alternatively, accessing the package using package share from the local AEM inst
 
 Once in the local AEM instance's package repository, use package manager to install the package.
 
-For more information, visit [How to Work With Packages](../../sites/administering/using/package-manager.md#package-share).
+For more information, visit [How to Work With Packages](/help/sites/administering/using/package-manager.md#package-share).
 
 ## Recommended Deployments {#recommended-deployments}
 
-In AEM Communities, a common store is used to store user generated content (UGC) and is often referred to as the [storage resource provider (SRP)](../../communities/using/working-with-srp.md). The recommended deployment centers on choosing an SRP option for the common store.
+In AEM Communities, a common store is used to store user generated content (UGC) and is often referred to as the [storage resource provider (SRP)](/help/communities/using/working-with-srp.md). The recommended deployment centers on choosing an SRP option for the common store.
 
-The common store supports moderation of, and analytics on, UGC in the publish environment while eliminating the need for [replication](../../communities/using/sync.md) of UGC.
+The common store supports moderation of, and analytics on, UGC in the publish environment while eliminating the need for [replication](/help/communities/using/sync.md) of UGC.
 
-* [Community Content Store](../../communities/using/working-with-srp.md): discusses the SRP storage options for AEM communities
+* [Community Content Store](/help/communities/using/working-with-srp.md): discusses the SRP storage options for AEM communities
 
-* [Recommended Topologies](../../communities/using/topologies.md): discusses the topology to use depending on use case and SRP choice
+* [Recommended Topologies](/help/communities/using/topologies.md): discusses the topology to use depending on use case and SRP choice
 
 ## Upgrading {#upgrading}
 
 When upgrading to the AEM 6.4 platform from previous versions of AEM, it is important to read Upgrading to AEM 6.4.
 
-In addition to upgrading the platform, read [Upgrading to AEM Communities 6.4](../../communities/using/upgrade.md) to learn about Communities changes.
+In addition to upgrading the platform, read [Upgrading to AEM Communities 6.4](/help/communities/using/upgrade.md) to learn about Communities changes.
 
 ## Configurations {#configurations}
 
 ### Primary Publisher {#primary-publisher}
 
-When the deployment chosen is a [publish farm](../../communities/using/topologies.md#tarmk-publish-farm), then one AEM publish instance must be identified as the **`primary publisher`** for activities which should not occur on all instances, such as features that rely on **notifications **or **Adobe Analytics**.
+When the deployment chosen is a [publish farm](/help/communities/using/topologies.md#tarmk-publish-farm), then one AEM publish instance must be identified as the **`primary publisher`** for activities which should not occur on all instances, such as features that rely on **notifications **or **Adobe Analytics**.
 
 By default, the `AEM Communities Publisher Configuration` OSGi configuration is configured with the **`Primary Publisher`** checkbox checked, such that all publish instances in a publish farm would self-identify as the primary.
 
@@ -256,7 +256,7 @@ Therefore, it is necessary to **edit the configuration on all secondary publish 
 For all other (secondary) publish instances in a publish farm:
 
 * sign in with administrator privileges
-* access the [web console](../../sites/deploying/using/configuring-osgi.md)
+* access the [web console](/help/sites/deploying/using/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 
@@ -269,7 +269,7 @@ For all other (secondary) publish instances in a publish farm:
 
 Replication is used for site content created in the publish environment, such as community groups, as well as managing members and member groups from the author environment using the [tunnel service](#tunnel-service-on-author).
 
-For the primary publisher, ensure the [Replication Agent Config](../../sites/deploying/using/replication.md) correctly identifies the publish server and authorized user. The default authorized user, `admin,` already has the appropriate permissions (is a member of `Communities Administrators`).
+For the primary publisher, ensure the [Replication Agent Config](/help/sites/deploying/using/replication.md) correctly identifies the publish server and authorized user. The default authorized user, `admin,` already has the appropriate permissions (is a member of `Communities Administrators`).
 
 In order for some other user to have the appropriate permissions, they must be added as a member to the `administrators` user group (also a member of `Communities Administrators`).
 
@@ -303,7 +303,7 @@ The following images show the results of changing the port from 4503 to 6103 by:
 
 ### Tunnel Service on Author {#tunnel-service-on-author}
 
-When using the author environment to [create sites](../../communities/using/sites-console.md), [modify site properties](../../communities/using/sites-console.md#modifying-site-properties) or [manage community members](../../communities/using/members.md), it is necessary to access members (users) registered in the publish environment, not users registered on author.
+When using the author environment to [create sites](/help/communities/using/sites-console.md), [modify site properties](/help/communities/using/sites-console.md#modifying-site-properties) or [manage community members](/help/communities/using/members.md), it is necessary to access members (users) registered in the publish environment, not users registered on author.
 
 The tunnel service provides this access using the replication agent on author.
 
@@ -314,7 +314,7 @@ To enable the tunnel service:
 * if publisher is not localhost:4503 or transport user is not `admin`,  
   then [configure the replication agent](#replication-agents-on-author)
 
-* access the [Web Console](../../sites/deploying/using/configuring-osgi.md)
+* access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
     * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
 
@@ -327,7 +327,7 @@ To enable the tunnel service:
 
 ### Replicate the Crypto Key {#replicate-the-crypto-key}
 
-There are two features of AEM Communities that require all AEM server instances to use the same encryption keys. These are [Analytics](../../communities/using/analytics.md) and [ASRP](../../communities/using/asrp.md).
+There are two features of AEM Communities that require all AEM server instances to use the same encryption keys. These are [Analytics](/help/communities/using/analytics.md) and [ASRP](/help/communities/using/asrp.md).
 
 As of AEM 6.3, the key material is stored in the file system and no longer in the repository.
 
@@ -374,7 +374,7 @@ Having the key material stored in the repository, as was the case for AEM 6.2 an
 
 With the key material stored in the repository, the manner for replicating the crypto key from author to other instances is as follows:
 
-Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
+Using [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md):
 
 * browse to [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 * select `/etc/key`
@@ -387,7 +387,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md):
 
 #### Refresh the Granite Crypto Bundle {#refresh-the-granite-crypto-bundle}
 
-* on each publish instance, access the [Web Console](../../sites/deploying/using/configuring-osgi.md)
+* on each publish instance, access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
 
     * for example, [https://&lt;server&gt;:&lt;port&gt;/system/console/bundles](http://localhost:4503/system/console/bundles)
 
@@ -428,14 +428,14 @@ If using a Dispatcher, see:
 
 * AEM's [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html) documentation
 * [Installing Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html)
-* [Configuring Dispatcher for Communities](../../communities/using/dispatcher.md)
-* [Known Issues](../../communities/using/troubleshooting.md#dispatcher-refetch-fails)
+* [Configuring Dispatcher for Communities](/help/communities/using/dispatcher.md)
+* [Known Issues](/help/communities/using/troubleshooting.md#dispatcher-refetch-fails)
 
 ## Related Communities Documentation {#related-communities-documentation}
 
-* Visit [Administering Communities Sites](../../communities/using/administer-landing.md) to learn about creating a community site, configuring community site templates, moderating community content, managing members, and configuring messaging.
+* Visit [Administering Communities Sites](/help/communities/using/administer-landing.md) to learn about creating a community site, configuring community site templates, moderating community content, managing members, and configuring messaging.
 
-* Visit [Developing Communities](../../communities/using/communities.md) to learn about the social component framework (SCF) and customizing Communities components and features.
+* Visit [Developing Communities](/help/communities/using/communities.md) to learn about the social component framework (SCF) and customizing Communities components and features.
 
-* Visit [Authoring Communities Components](../../communities/using/author-communities.md) to learn how to author with and configure Communities components.
+* Visit [Authoring Communities Components](/help/communities/using/author-communities.md) to learn how to author with and configure Communities components.
 

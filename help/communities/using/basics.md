@@ -17,25 +17,25 @@ discoiquuid: 21714581-7645-4b47-a9b0-9f1424013240
 
 The authoring section of the documentation describes adding Communities features to AEM sites in author edit mode, as well as describing component configurations.
 
-Components may be explored using an AEM instance and the interactive [Community Components guide](../../communities/using/components-guide.md).
+Components may be explored using an AEM instance and the interactive [Community Components guide](/help/communities/using/components-guide.md).
 
 ## Accessing Communities Components {#accessing-communities-components}
 
 When authoring page content, if the underlying template permits changes to the design of the page, it is possible to enable components that are not already available in the components browser as part of the site design.
 
-The available Communities components are listed [here](../../communities/using/author-communities.md#available-communities-components).
+The available Communities components are listed [here](/help/communities/using/author-communities.md#available-communities-components).
 
 >[!NOTE]
 >
->For general authoring information, view the [quick guide to authoring pages](../../sites/authoring/using/qg-page-authoring.md).
+>For general authoring information, view the [quick guide to authoring pages](/help/sites/authoring/using/qg-page-authoring.md).
 >
->If not familiar with AEM, view the documentation on [basic handling](../../sites/authoring/using/basic-handling.md).
+>If not familiar with AEM, view the documentation on [basic handling](/help/sites/authoring/using/basic-handling.md).
 
 ### Entering Design Mode {#entering-design-mode}
 
 If a **Communities** component is not found in the components browser (sidekick), it will be necessary to enter `Design Mode` to add other Communities components. [Required client-side libraries](#required-clientlibs) (clientlibs) may also need to be added.
 
-For details, see [Configuring Components in Design Mode](../../sites/authoring/using/default-components-designmode.md).
+For details, see [Configuring Components in Design Mode](/help/sites/authoring/using/default-components-designmode.md).
 
 Following are images of selecting a few Communities components and viewing them in the components browser:
 
@@ -47,9 +47,9 @@ The selected components are now available in the components browser:
 
 ## Required Clientlibs {#required-clientlibs}
 
-[Client-side libraries](../../sites/developing/using/clientlibs.md) (clientlibs) are required for the proper functioning (JavaScript) and styling (CSS) of a component.
+[Client-side libraries](/help/sites/developing/using/clientlibs.md) (clientlibs) are required for the proper functioning (JavaScript) and styling (CSS) of a component.
 
-When adding a Communities component to a page, if the result is an error or an unexpected appearance, the first thing to try is adding the required clientlibs for the Communities component. For details, see [Clientlibs for Communities Components](../../communities/using/clientlibs.md).
+When adding a Communities component to a page, if the result is an error or an unexpected appearance, the first thing to try is adding the required clientlibs for the Communities component. For details, see [Clientlibs for Communities Components](/help/communities/using/clientlibs.md).
 
 ### Example: initially placed reviews without client libraries ... {#example-initially-placed-reviews-without-client-libraries}
 
@@ -63,25 +63,25 @@ When adding a Communities component to a page, if the result is an error or an u
 
 Many Communities features may be configured to allow members to tag content entered (posted) in the publish environment.
 
-If tagging is allowed, the community site's configuration may be set to limit the namespaces presented to members in the publish environment. See the [Community Sites console](../../communities/using/sites-console.md#tagging).
+If tagging is allowed, the community site's configuration may be set to limit the namespaces presented to members in the publish environment. See the [Community Sites console](/help/communities/using/sites-console.md#tagging).
 
-Features which allow tagging: [blog](../../communities/using/blog-feature.md), [calendar](../../communities/using/calendar.md), [file library](../../communities/using/file-library.md), [forum](../../communities/using/forum.md)
+Features which allow tagging: [blog](/help/communities/using/blog-feature.md), [calendar](/help/communities/using/calendar.md), [file library](/help/communities/using/file-library.md), [forum](/help/communities/using/forum.md)
 
-Features which use tags: [catalog](../../communities/using/catalog.md), [search](../../communities/using/search.md), [social tag cloud](../../communities/using/tagcloud.md)
+Features which use tags: [catalog](/help/communities/using/catalog.md), [search](/help/communities/using/search.md), [social tag cloud](/help/communities/using/tagcloud.md)
 
 For authoring information:
 
-* [Using Tags](../../sites/authoring/using/tags.md)
+* [Using Tags](/help/sites/authoring/using/tags.md)
 
 For administrative information:
 
-* Creating tag namespaces (taxonomy): [Administering Tags](../../sites/administering/using/tags.md)
-* Community Site configuration: see [TAGGING](../../communities/using/sites-console.md#tagging)
-* [Tagging User Generated Content](../../sites/authoring/using/tags.md)
-* [Tagging Enablement Resources](../../communities/using/tag-resources.md)
+* Creating tag namespaces (taxonomy): [Administering Tags](/help/sites/administering/using/tags.md)
+* Community Site configuration: see [TAGGING](/help/communities/using/sites-console.md#tagging)
+* [Tagging User Generated Content](/help/sites/authoring/using/tags.md)
+* [Tagging Enablement Resources](/help/communities/using/tag-resources.md)
 
 For developer information:
 
-* [AEM Tagging Framework](../../sites/developing/using/framework.md)
-* [Tagging Essentials](../../communities/using/tag.md)
+* [AEM Tagging Framework](/help/sites/developing/using/framework.md)
+* [Tagging Essentials](/help/communities/using/tag.md)
 

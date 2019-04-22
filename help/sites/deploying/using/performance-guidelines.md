@@ -15,10 +15,10 @@ discoiquuid: 9ccbc39e-aea7-455e-8639-9193abc1552f
 
 This page provides general guidelines on how to optimize the performance of your AEM deployment. If you are new to AEM, please go over the following pages before you start reading the performance guidelines:
 
-* [AEM Basic Concepts](../../../sites/deploying/using/deploy.md#basic-concepts)
-* [Overview of Storage in AEM 6.3](../../../sites/deploying/using/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
-* [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md)
-* [Technical Requirements](../../../sites/deploying/using/technical-requirements.md)
+* [AEM Basic Concepts](/help/sites/deploying/using/deploy.md#basic-concepts)
+* [Overview of Storage in AEM 6.3](/help/sites/deploying/using/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
+* [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md)
+* [Technical Requirements](/help/sites/deploying/using/technical-requirements.md)
 
 Illustrated below are the deployment options available for AEM (scroll to view all the options):
 
@@ -275,17 +275,17 @@ The AEM platform consists of the following components:
 
 ![](assets/chlimage_1.png)
 
-For more information on the AEM platform, see [What is AEM](../../../sites/deploying/using/deploy.md#what-is-aem).
+For more information on the AEM platform, see [What is AEM](/help/sites/deploying/using/deploy.md#what-is-aem).
 
 ### The AEM Architecture {#the-aem-architecture}
 
-There are three important building blocks to an AEM deployment. The **Author Instance** which is used by content authors, editors, and approvers to create and review content. When the content is approved, it is published to a second instance type named the **Publish Instance** from where it is accessed by the end users. The third building block is the **Dispatcher** which is a module that handles caching and URL filtering and is installed on the webserver. For additional information about the AEM architecture, see [Typical Deployment Scenarios](../../../sites/deploying/using/deploy.md#typical-deployment-scenarios).
+There are three important building blocks to an AEM deployment. The **Author Instance** which is used by content authors, editors, and approvers to create and review content. When the content is approved, it is published to a second instance type named the **Publish Instance** from where it is accessed by the end users. The third building block is the **Dispatcher** which is a module that handles caching and URL filtering and is installed on the webserver. For additional information about the AEM architecture, see [Typical Deployment Scenarios](/help/sites/deploying/using/deploy.md#typical-deployment-scenarios).
 
 ![](assets/chlimage_1-1.png) 
 
 ### Micro Kernels {#micro-kernels}
 
-Micro Kernels act as persistence managers in AEM. There are three types of Micro Kernels used with AEM: TarMK, MongoDB, and Relational Database (under restricted support). Choosing one to fit your needs depends on the purpose of your instance and the deployment type you are considering. For additional information about Micro Kernels, see the [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md) page.
+Micro Kernels act as persistence managers in AEM. There are three types of Micro Kernels used with AEM: TarMK, MongoDB, and Relational Database (under restricted support). Choosing one to fit your needs depends on the purpose of your instance and the deployment type you are considering. For additional information about Micro Kernels, see the [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md) page.
 
 ![](assets/chlimage_1-2.png) 
 
@@ -307,7 +307,7 @@ In AEM, binary data can be stored independently from content nodes. The location
 
 When dealing with large number of binaries, it is recommended that an external data store be used instead of the default node stores in order to maximize performance. For example, if your project requires a large number of media assets, storing them under the File or Azure/S3 Data Store will make accessing them faster than storing them directly inside a MongoDB.
 
-For further details on the available configuration options, see [Configuring Node and Data Stores](../../../sites/deploying/using/data-store-config.md).
+For further details on the available configuration options, see [Configuring Node and Data Stores](/help/sites/deploying/using/data-store-config.md).
 
 >[!NOTE]
 >
@@ -315,11 +315,11 @@ For further details on the available configuration options, see [Configuring Nod
 >
 >For recommendations on how to deploy AEM on Azure or AWS, outside of Adobe Managed Services, we strongly recommend working directly with the cloud provider or one of our partners supporting the deployment of AEM in the cloud environment of your choice. The selected cloud provider or partner is responsible for the sizing specifications, design and implementation of the architecture they will support to meet your specific performance, load, scalability, and security requirements.
 >
->For additional details also see the [technical requirements](../../../sites/deploying/using/technical-requirements.md#supported-platforms) page.
+>For additional details also see the [technical requirements](/help/sites/deploying/using/technical-requirements.md#supported-platforms) page.
 
 ### Search {#search}
 
-Listed in this section are the custom index providers used with AEM. To know more about indexing, see [Oak Queries and Indexing](../../../sites/deploying/using/queries-and-indexing.md).
+Listed in this section are the custom index providers used with AEM. To know more about indexing, see [Oak Queries and Indexing](/help/sites/deploying/using/queries-and-indexing.md).
 
 >[!NOTE]
 >
@@ -356,7 +356,7 @@ You should develop for AEM aiming for **performance and scalability**. Presented
     * a ServiceTracker
     * direct access to the OSGi service registry
 
-For further details about developing on AEM, read [Developing - The Basics](../../../sites/developing/using/the-basics.md). For additional best practices, see [Development Best Practices](../../../sites/developing/using/best-practices.md).
+For further details about developing on AEM, read [Developing - The Basics](/help/sites/developing/using/the-basics.md). For additional best practices, see [Development Best Practices](/help/sites/developing/using/best-practices.md).
 
 ### Benchmark Scenarios {#benchmark-scenarios}
 
@@ -364,7 +364,7 @@ For further details about developing on AEM, read [Developing - The Basics](../.
 >
 >All the benchmark tests displayed on this page have been performed in a laboratory setting.
 
-The testing scenarios detailed below are used for the benchmark sections of the TarMK, MongoMk and TarMK vs MongoMk chapters. To see which scenario was used for a particular benchmark test, read the Scenario field from the [Technical Specifications](../../../sites/deploying/using/performance-guidelines.md#tarmk-performance-benchmark) table.
+The testing scenarios detailed below are used for the benchmark sections of the TarMK, MongoMk and TarMK vs MongoMk chapters. To see which scenario was used for a particular benchmark test, read the Scenario field from the [Technical Specifications](/help/sites/deploying/using/performance-guidelines.md#tarmk-performance-benchmark) table.
 
 **Single Product Scenario**
 
@@ -394,13 +394,13 @@ This chapter gives general performance guidelines for TarMK specifying the minim
 
 Adobe recommends TarMK to be the default persistence technology used by customers in all deployment scenarios, for both the AEM Author and Publish instances.
 
-For more information about TarMK, see [Deployment Scenarios](../../../sites/deploying/using/recommended-deploys.md#deployment-scenarios) and [Tar Storage](../../../sites/deploying/using/storage-elements-in-aem-6.md#tar-storage).
+For more information about TarMK, see [Deployment Scenarios](/help/sites/deploying/using/recommended-deploys.md#deployment-scenarios) and [Tar Storage](/help/sites/deploying/using/storage-elements-in-aem-6.md#tar-storage).
 
 ### TarMK Minimum Architecture Guidelines {#tarmk-minimum-architecture-guidelines}
 
 >[!NOTE]
 >
->The minimum architecture guidelines presented below are for production enviroments and high traffic sites. These are **not **the [minimum specifications](../../../sites/deploying/using/technical-requirements.md#prerequisites)** **needed to run AEM.
+>The minimum architecture guidelines presented below are for production enviroments and high traffic sites. These are **not **the [minimum specifications](/help/sites/deploying/using/technical-requirements.md#prerequisites)** **needed to run AEM.
 
 To establish good performance when using TarMK, you should start from the following architecture:
 
@@ -511,7 +511,7 @@ The benchmark tests were performed on the following specifications:
 
 The primary reason for choosing the MongoMK persistence backend over TarMK is to scale the instances horizontally. This means having two or more active author instances running at all times and using MongoDB as the persistence storage system. The need to run more than one author instance results generally from the fact that the CPU and memory capacity of a single server, supporting all concurrent authoring activities, is no longer sustainable.
 
-For more information about TarMK, see [Deployment Scenarios](../../../sites/deploying/using/recommended-deploys.md#deployment-scenarios) and [Mongo Storage](../../../sites/deploying/using/storage-elements-in-aem-6.md#mongo-storage).
+For more information about TarMK, see [Deployment Scenarios](/help/sites/deploying/using/recommended-deploys.md#deployment-scenarios) and [Mongo Storage](/help/sites/deploying/using/storage-elements-in-aem-6.md#mongo-storage).
 
 ### MongoMK Minimum Architecture Guidelines {#mongomk-minimum-architecture-guidelines}
 
@@ -623,7 +623,7 @@ The basic rule that needs to be taken into account when choosing between the two
 
 The primary reason for choosing the MongoMK persistence backend over TarMK is to scale the instances horizontally. This means having two or more active author instances running at all times and using MongoDB as the persistence storage system. The need to run more than one author instance generally results from the fact that the CPU and memory capacity of a single server, supporting all concurrent authoring activities, is no longer sustainable.
 
-For further details on TarMK vs MongoMK, see [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md#microkernels-which-one-to-use).
+For further details on TarMK vs MongoMK, see [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md#microkernels-which-one-to-use).
 
 ### TarMK vs MongoMk Guidelines {#tarmk-vs-mongomk-guidelines}
 
@@ -631,7 +631,7 @@ For further details on TarMK vs MongoMK, see [Recommended Deployments](../../../
 
 * Purpose-built for content management applications
 * Files are always consistent and can be backed up using any file-based backup tool
-* Provides a failover mechanism - see [Cold Standby](../../../sites/deploying/using/tarmk-cold-standby.md) for more details
+* Provides a failover mechanism - see [Cold Standby](/help/sites/deploying/using/tarmk-cold-standby.md) for more details
 * Provides high performance and reliable data storage with minimal operational overhead
 * Lower TCO (total cost of ownership)
 
@@ -847,4 +847,4 @@ The guidelines presented on this page can be summarized as follows:
 
 * **Customizing workflow can substantially improve the performance**, for example, removing the video step in the “Update Asset” workflow, disabling listeners which are not used, etc.
 
-For more details, also read the [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md) page.
+For more details, also read the [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md) page.

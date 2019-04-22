@@ -21,7 +21,7 @@ This page describes creating live copy of a channel, viewing properties, checkin
 
 >[!NOTE]
 >
->To learn more about Live Copy Sources and Blueprint Configurations, see [MSM Best Practices](../../sites/administering/using/msm-best-practices.md). [](../../sites/administering/using/msm-best-practices.md)
+>To learn more about Live Copy Sources and Blueprint Configurations, see [MSM Best Practices](/help/sites/administering/using/msm-best-practices.md). [](/help/sites/administering/using/msm-best-practices.md)
 
 ## Creating a Live Copy {#creating-a-live-copy}
 

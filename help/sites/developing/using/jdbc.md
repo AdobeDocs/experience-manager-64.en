@@ -90,7 +90,7 @@ Add a configuration for the JDBC Connections Pool service that uses the JDBC dri
 
 JDBC Connections Pool ( `com.day.commons.datasource.jdbcpool.JdbcPoolService`) is a factory service. If you require connections that use different properties, for example read-only or read/write access, create multiple configurations.
 
-When working with CQ there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details.
+When working with CQ there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites/deploying/using/configuring-osgi.md) for full details.
 
 The following properties are available to configure a pooled connection service. The property names are listed as they appear in the Web Console. The corresponding name for a `sling:OsgiConfig` node appears in parentheses. Example values are shown for an HSQLDB server and a database that has an alias of `mydb`:
 

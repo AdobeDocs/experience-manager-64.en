@@ -17,11 +17,11 @@ The following section covers some issues that you may encounter when using AEM, 
 
 >[!NOTE]
 >
->If you are troubleshooting authoring issues in AEM, see [Troubleshooting for Authors.](../../../sites/authoring/using/troubleshooting.md)
+>If you are troubleshooting authoring issues in AEM, see [Troubleshooting for Authors.](/help/sites/authoring/using/troubleshooting.md)
 
 >[!NOTE]
 >
->When experiencing problems it is also worthwhile checking the list of [Known Issues](../../../release-notes/known-issues.md) for your instance (release and service packs).
+>When experiencing problems it is also worthwhile checking the list of [Known Issues](/help/release-notes/known-issues.md) for your instance (release and service packs).
 
 ## Troubleshooting scenarios for Administrators {#troubleshooting-scenarios-for-administrators}
 
@@ -58,7 +58,7 @@ The following table provides an overview of problems administrators may need to 
 
 ## Installation Issues {#installation-issues}
 
-See [Common Installation Issues](../../../sites/deploying/using/troubleshooting.md#common-installation-issues) for information about the following troubleshooting scenarios:
+See [Common Installation Issues](/help/sites/deploying/using/troubleshooting.md#common-installation-issues) for information about the following troubleshooting scenarios:
 
 * Double-clicking the Quickstart jar has no effect or the JAR file with another program (such as archive manager).
 * Applications running on CRX throw out-of-memory errors.

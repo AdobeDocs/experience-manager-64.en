@@ -17,7 +17,7 @@ The core components are modern, flexible components featuring easy extensibility
 
 ## Trying it out {#trying-it-out}
 
-1. Start AEM with the We.Retail sample content and open the [Components Console](../../../sites/authoring/using/default-components-console.md).
+1. Start AEM with the We.Retail sample content and open the [Components Console](/help/sites/authoring/using/default-components-console.md).
 
    **Global Navigation -&gt; Tools -&gt; Components**
 
@@ -52,7 +52,7 @@ The core components are modern, flexible components featuring easy extensibility
 
 1. On the Thank You page, select the text component and in the edit menu of the component click the Cancel Inheritance icon.
 
-   [We.Retail has a globalized site structure](../../../sites/developing/using/we-retail-globalized-site-structure.md) where content is pushed from language masters to [live copies through a mechanism called inheritance](../../../sites/administering/using/msm.md). For this reason, inheritance must be cancelled in order to allow a user to manually edit text.
+   [We.Retail has a globalized site structure](/help/sites/developing/using/we-retail-globalized-site-structure.md) where content is pushed from language masters to [live copies through a mechanism called inheritance](/help/sites/administering/using/msm.md). For this reason, inheritance must be cancelled in order to allow a user to manually edit text.
 
    ![](assets/chlimage_1-167.png)
 
@@ -83,4 +83,4 @@ The core components are modern, flexible components featuring easy extensibility
 
 For further information on the core components, see the authoring document [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) for an overview of the capabilities of the core components and the developer document [Developing Core Components](https://helpx.adobe.com/experience-manager/core-components/using/developing.html) for a technical overview.
 
-Also you may wish to further investigate [editable templates](../../../sites/developing/using/we-retail-editable-templates.md). Refer to the authoring document [Creating Page Templates](../../../sites/authoring/using/templates.md) or the developer document Page [Templates - Editable](../../../sites/developing/using/page-templates-editable.md) for complete details on editable templates.
+Also you may wish to further investigate [editable templates](/help/sites/developing/using/we-retail-editable-templates.md). Refer to the authoring document [Creating Page Templates](/help/sites/authoring/using/templates.md) or the developer document Page [Templates - Editable](/help/sites/developing/using/page-templates-editable.md) for complete details on editable templates.

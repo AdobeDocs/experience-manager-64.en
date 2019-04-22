@@ -19,7 +19,7 @@ The SPA Editor offers a comprehensive solution for supporting SPAs within AEM. T
 
 >[!NOTE]
 >
->The Single-Page Application (SPA) Editor feature requires [AEM 6.4 service pack 2](../../../release-notes/sp-release-notes.md) or newer.
+>The Single-Page Application (SPA) Editor feature requires [AEM 6.4 service pack 2](/help/release-notes/sp-release-notes.md) or newer.
 >
 >The SPA Editor is the recommended solution for projects that require SPA framework based client-side rendering (e.g. React or Angular).
 
@@ -33,8 +33,8 @@ SPA support in AEM introduces a thin JS layer that interacts with the SPA JS cod
 
 For further details about SPAs in AEM, see the following documents:
 
-* [SPA Blueprint](../../../sites/developing/using/spa-blueprint.md) for the technical requirements of an SPA
-* [Getting Started with SPAs in AEM](../../../sites/developing/using/spa-getting-started-react.md) for a quick tour of a simple SPA
+* [SPA Blueprint](/help/sites/developing/using/spa-blueprint.md) for the technical requirements of an SPA
+* [Getting Started with SPAs in AEM](/help/sites/developing/using/spa-getting-started-react.md) for a quick tour of a simple SPA
 
 ## Design {#design}
 
@@ -179,7 +179,7 @@ This is a more detailed overview focusing on the authoring experience.
 
 ## Requirements & Limitations {#requirements-limitations}
 
-To enable the author to use the page editor to edit the content of an SPA, your SPA application must be implemented to interact with the AEM SPA Editor SDK. Please see the [Getting Started with SPAs in AEM](../../../sites/developing/using/spa-getting-started-react.md) document for minimum that you need to know to get yours running.
+To enable the author to use the page editor to edit the content of an SPA, your SPA application must be implemented to interact with the AEM SPA Editor SDK. Please see the [Getting Started with SPAs in AEM](/help/sites/developing/using/spa-getting-started-react.md) document for minimum that you need to know to get yours running.
 
 ### Supported Frameworks {#supported-frameworks}
 
@@ -192,7 +192,7 @@ Previous versions of these frameworks may work with the AEM SPA Editor SDK, but 
 
 ### Additional Frameworks {#additional-frameworks}
 
-Additional SPA frameworks can be implemented to work with the AEM SPA Editor SDK. Please see the [SPA Blueprint](../../../sites/developing/using/spa-blueprint.md) document for the requirements that a framework must fulfill in order to create a framework-specific layer composed of modules, components, and services to work with the AEM SPA Editor.
+Additional SPA frameworks can be implemented to work with the AEM SPA Editor SDK. Please see the [SPA Blueprint](/help/sites/developing/using/spa-blueprint.md) document for the requirements that a framework must fulfill in order to create a framework-specific layer composed of modules, components, and services to work with the AEM SPA Editor.
 
 ### Limitations {#limitations}
 

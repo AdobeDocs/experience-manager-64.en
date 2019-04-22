@@ -19,7 +19,7 @@ Granite UI provides a range of components designed to be used in forms; these ar
 
 >[!NOTE]
 >
->These Granite UI form fields are of particular interest as they are used for [component dialogs](../../../sites/developing/using/developing-components.md).
+>These Granite UI form fields are of particular interest as they are used for [component dialogs](/help/sites/developing/using/developing-components.md).
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ For examples, see:
 
 * `cqgems/customizingfield/components/colorpicker`
 
-    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
+    * provided by the [Code Sample](/help/sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
 
 * `granite/ui/components/foundation/form`
 

@@ -19,7 +19,7 @@ AEM forms supports RSA and DSA credentials up to 4096 bits in standard PKCS12 fo
 
 You can import and export any number of credentials. If you want to replace an expired credential using the same alias, delete the credential and then import the new credential with the same alias.
 
-For information and instructions related to Acrobat Reader DC extensions, see [Configuring credentials for use with Acrobat Reader DC extensions](../../../forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md#configuring-credentials-for-use-with-acrobat-reader-dc-extensions).
+For information and instructions related to Acrobat Reader DC extensions, see [Configuring credentials for use with Acrobat Reader DC extensions](/help/forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md#configuring-credentials-for-use-with-acrobat-reader-dc-extensions).
 
 ## Import a credential {#import-a-credential}
 

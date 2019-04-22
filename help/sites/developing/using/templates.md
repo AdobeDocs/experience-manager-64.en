@@ -16,16 +16,16 @@ legacypath: /content/docs/en/aem/6-1/develop/the-basics/templates
 
 Templates are used at various points in AEM:
 
-* When [creating a page you need to select a template](#templates-pages); this will be used as the base for the new page. The template defines the structure of the resultant page, any initial content and the [components](../../../sites/authoring/using/default-components.md) that can be used (design properties).
+* When [creating a page you need to select a template](#templates-pages); this will be used as the base for the new page. The template defines the structure of the resultant page, any initial content and the [components](/help/sites/authoring/using/default-components.md) that can be used (design properties).
 
 * When [creating a Content Fragment you also need to select a template](#templates-content-fragments). This template defines the structure, initial elements and variations.
 
 The following templates are covered in detail:
 
-* [Page Templates - Editable](../../../sites/developing/using/page-templates-editable.md)
-* [Page Templates - Static](../../../sites/developing/using/page-templates-static.md)
-* [Content Fragment Templates](../../../sites/developing/using/content-fragment-templates.md)
-* [Adaptive Template Rendering](../../../sites/developing/using/templates-adaptive-rendering.md)
+* [Page Templates - Editable](/help/sites/developing/using/page-templates-editable.md)
+* [Page Templates - Static](/help/sites/developing/using/page-templates-static.md)
+* [Content Fragment Templates](/help/sites/developing/using/content-fragment-templates.md)
+* [Adaptive Template Rendering](/help/sites/developing/using/templates-adaptive-rendering.md)
 
 ## Templates - Pages {#templates-pages}
 
@@ -33,7 +33,7 @@ AEM now offers two basic types of templates for creating pages:
 
 >[!NOTE]
 >
->When using a template to [create a new page](../../../sites/authoring/using/managing-pages.md#creating-a-new-page) there is no visible difference (to the page author) and no indication of the type of template being used.
+>When using a template to [create a new page](/help/sites/authoring/using/managing-pages.md#creating-a-new-page) there is no visible difference (to the page author) and no indication of the type of template being used.
 
 ### Editable Templates {#editable-templates}
 
@@ -41,7 +41,7 @@ Editable templates are now cosidered best practices for developing with AEM 6.4.
 
 The advantages of Editable Templates:
 
-* Can be [created](../../../sites/authoring/using/templates.md#creating-a-new-template-template-author) and [edited](../../../sites/authoring/using/templates.md#editing-a-template-structure-template-author) by your authors.
+* Can be [created](/help/sites/authoring/using/templates.md#creating-a-new-template-template-author) and [edited](/help/sites/authoring/using/templates.md#editing-a-template-structure-template-author) by your authors.
 
 * Have been introduced to allow you to define the following for any pages created with the template:
 
@@ -52,7 +52,7 @@ The advantages of Editable Templates:
 * After the new page is created a dynamic connection is maintained between the page and the template; this means that changes to the template structure will be reflected on any pages created with that template (changes to the initial content will not be reflected).  
 * Uses content policies (edited from the template editor) to persist the design properties (does not use Design mode within the page editor).
 * Are stored under `/conf`
-* See [Editable Templates](../../../sites/developing/using/page-templates-editable.md) for further information.
+* See [Editable Templates](/help/sites/developing/using/page-templates-editable.md) for further information.
 
 >[!NOTE]
 >
@@ -66,9 +66,9 @@ Static Templates:
 * These templates have been available for several versions of AEM. 
 * A static template is a hierarchy of nodes that has the same structure as the page to be created, but without any actual content.
 * Are copied to create the new page, no dynamic connection exists after this.
-* Uses [Design Mode](../../../sites/authoring/using/default-components-designmode.md) to persist design properties.
+* Uses [Design Mode](/help/sites/authoring/using/default-components-designmode.md) to persist design properties.
 * Are stored under `/apps`
-* See [Static Templates](../../../sites/developing/using/page-templates-static.md) for further information.
+* See [Static Templates](/help/sites/developing/using/page-templates-static.md) for further information.
 
 >[!NOTE]
 >
@@ -132,4 +132,4 @@ If you want to add more constraints, for example regarding the template hierarch
 
 ## Templates - Content Fragments {#templates-content-fragments}
 
-See [Content Fragment Templates](../../../sites/developing/using/content-fragment-templates.md) for full information.
+See [Content Fragment Templates](/help/sites/developing/using/content-fragment-templates.md) for full information.

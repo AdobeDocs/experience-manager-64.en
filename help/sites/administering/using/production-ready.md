@@ -19,9 +19,9 @@ The new runmode will not only automatically configure the instance to adhere to 
 
 >[!NOTE]
 >
->Since, due to practical reasons, the AEM Production Ready Mode will only cover a majority of tasks needed to secure an instance, it is highly recommended you consult the [Security Checklist](../../../sites/administering/using/security-checklist.md) before going live with your production environment.
+>Since, due to practical reasons, the AEM Production Ready Mode will only cover a majority of tasks needed to secure an instance, it is highly recommended you consult the [Security Checklist](/help/sites/administering/using/security-checklist.md) before going live with your production environment.
 >
->Also, note that running AEM in Production Ready Mode will effectively disable access to CRXDE Lite. If you need it for debugging purposes, see [Enabling CRXDE Lite in AEM](../../../sites/administering/using/enabling-crxde-lite.md).
+>Also, note that running AEM in Production Ready Mode will effectively disable access to CRXDE Lite. If you need it for debugging purposes, see [Enabling CRXDE Lite in AEM](/help/sites/administering/using/enabling-crxde-lite.md).
 
 ![](assets/chlimage_1-83.png)
 

@@ -14,7 +14,7 @@ discoiquuid: 3d65cc6b-5721-472f-a805-588d50f3571b
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
 
 Mobile Apps should be able to use any and all content in AEM as needed to deliver the targeted app experience.
 

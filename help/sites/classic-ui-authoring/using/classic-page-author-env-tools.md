@@ -33,7 +33,7 @@ There is a separate page editor with the classic UI, using the content finder an
 
 Various **Help** resources can be directly accessed from within AEM:
 
-As well as accessing [help from the console toolbars](../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#accessing-help), you can also access the help from the sidekick (using the ? icon) when editing a page:
+As well as accessing [help from the console toolbars](/help/sites/classic-ui-authoring/using/author-env-basic-handling.md#accessing-help), you can also access the help from the sidekick (using the ? icon) when editing a page:
 
 ![](do-not-localize/sidekick-collapsed-2.png)
 
@@ -60,11 +60,11 @@ You can use the content finder to locate a range of resources. Where appropriate
 * [Images](#finding-images)
 * [Documents](#finding-documents)
 * [Movies](#finding-movies)
-* [Scene 7 Media Browser](../../../sites/administering/using/scene7.md#scene7contentbrowser)
-* [](#products) [Pages](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#finding-pages)  
+* [Scene 7 Media Browser](/help/sites/administering/using/scene7.md#scene7contentbrowser)
+* [](#products) [Pages](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#finding-pages)  
 
 * [Paragraphs](#referencing-paragraphs-from-other-pages)
-* [Products](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#products)
+* [Products](/help/sites/classic-ui-authoring/using/classic-page-author-env-tools.md#products)
 * Or to [browse the website by repository structure](#the-content-finder)
 
 With all options you can [search for specific items](#the-content-finder).
@@ -168,12 +168,12 @@ To show direct page references:
 
 In certain situations further actions are available from Sidekick, including:
 
-* [Launches](../../../sites/classic-ui-authoring/using/classic-launches.md)
-* [Live Copies](../../../sites/administering/using/msm.md)  
+* [Launches](/help/sites/classic-ui-authoring/using/classic-launches.md)
+* [Live Copies](/help/sites/administering/using/msm.md)  
 
-* [Blueprint](../../../sites/administering/using/msm-best-practices.md)
+* [Blueprint](/help/sites/administering/using/msm-best-practices.md)
 
-Other [inter-page relationships can be seen in the Websites console](../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console).
+Other [inter-page relationships can be seen in the Websites console](/help/sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console).
 
 ## Audit Log {#audit-log}
 
@@ -183,7 +183,7 @@ The **Audit Log** can be accessed from the **Information** tab of the sidekick. 
 
 ## Page Information {#page-information}
 
-The Website console also [provides information about the current status of the page](../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console) such as publication, modification, locked, livecopy, etc.
+The Website console also [provides information about the current status of the page](/help/sites/classic-ui-authoring/using/author-env-basic-handling.md#page-information-on-the-websites-console) such as publication, modification, locked, livecopy, etc.
 
 ## Page Modes {#page-modes}
 
@@ -193,13 +193,13 @@ When editing a page with the classic UI there are various modes that can be acce
 
 The row of icons at the bottom of the Sidekick are used to switch modes for working with the pages:
 
-* [Edit](../../../sites/classic-ui-authoring/using/classic-page-author-edit-mode.md)  
+* [Edit](/help/sites/classic-ui-authoring/using/classic-page-author-edit-mode.md)  
   This is the default mode and allows you to edit the page, adding or deleting components and making other changes.
 
-* [Preview](../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#previewing-pages)  
+* [Preview](/help/sites/classic-ui-authoring/using/classic-page-author-edit-content.md#previewing-pages)  
   This mode allows you to preview the page as if it were appearing on your website in its final form.
 
-* [Design](../../../sites/classic-ui-authoring/using/classic-page-author-design-mode.md#main-pars-procedure-0)  
+* [Design](/help/sites/classic-ui-authoring/using/classic-page-author-design-mode.md#main-pars-procedure-0)  
   In this mode, you have the possibility to edit the design of the page by configuring the components accessible.
 
 >[!NOTE]
@@ -207,12 +207,12 @@ The row of icons at the bottom of the Sidekick are used to switch modes for work
 >Other options are also available:  
 
 >
->* [Scaffolding](../../../sites/classic-ui-authoring/using/classic-feature-scaffolding.md)
->* [Client Context](../../../sites/administering/using/client-context.md)
+>* [Scaffolding](/help/sites/classic-ui-authoring/using/classic-feature-scaffolding.md)
+>* [Client Context](/help/sites/administering/using/client-context.md)
 >* Websites - will open the Websites console.
 >* Reload - will refresh the page.  
 >
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}
 
-Various [keyboard shortcuts](../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) are available.
+Various [keyboard shortcuts](/help/sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md) are available.

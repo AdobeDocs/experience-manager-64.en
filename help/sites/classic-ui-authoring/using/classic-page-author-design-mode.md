@@ -20,7 +20,7 @@ In addition to these, various other components are also available. You can use D
 
 >[!NOTE]
 >
->Care must be taken when editing these components. The design settings are often an integral part of the design of the entire website, so they should only be changed by someone with the appropriate privileges (and experience), often an administrator or developer. See [Developing Components](../../../sites/developing/using/components.md) for more information.
+>Care must be taken when editing these components. The design settings are often an integral part of the design of the entire website, so they should only be changed by someone with the appropriate privileges (and experience), often an administrator or developer. See [Developing Components](/help/sites/developing/using/components.md) for more information.
 
 This actually involves adding, or removing, the components allowed in the paragraph system for the page. The paragraph system ( `parsys`) is a compound component that contains all other paragraph components. The paragraph system allows authors to add components of different types to a page as it contains all other paragraph components. Each paragraph type is represented as a component.
 
@@ -33,7 +33,7 @@ For example, the content of a product page may contain a paragraph system holdin
 
 >[!NOTE]
 >
->See [Developing Components](../../../sites/developing/using/components.md#paragraphsystem) and [Guidelines for Using Templates and Components](../../../sites/developing/using/dev-guidelines-bestpractices.md#guidelines-for-using-templates-and-components) for more information about `parsys`.
+>See [Developing Components](/help/sites/developing/using/components.md#paragraphsystem) and [Guidelines for Using Templates and Components](/help/sites/developing/using/dev-guidelines-bestpractices.md#guidelines-for-using-templates-and-components) for more information about `parsys`.
 
 ## Enable/Disable Components {#enable-disable-components}
 

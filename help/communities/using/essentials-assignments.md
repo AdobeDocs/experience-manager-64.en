@@ -13,7 +13,7 @@ discoiquuid: 796781e6-5cab-4ea1-b484-0945bc8febbf
 
 # Assignments Essentials{#assignments-essentials}
 
-This page provides the essential information for working with the assignments feature of [enablement community](../../communities/using/overview.md#enablement-community) sites.
+This page provides the essential information for working with the assignments feature of [enablement community](/help/communities/using/overview.md#enablement-community) sites.
 
 The assignments feature is the ability to assign enablement resources and learning paths to members of enablement communities.
 
@@ -78,7 +78,7 @@ The only possible Combinations of Completion and Success Status are:
 
 ### Assignments Function {#assignments-function}
 
-A community site structure that includes the [Assignments function](../../communities/using/functions.md#assignments-function), includes a configured ` [assignments](../../communities/using/assignments.md)` component.
+A community site structure that includes the [Assignments function](/help/communities/using/functions.md#assignments-function), includes a configured ` [assignments](/help/communities/using/assignments.md)` component.
 
 ### Reference APIs {#reference-apis}
 

@@ -28,15 +28,15 @@ When administering workflows you can start them using a variety of methods:
 >
 >Other methods are also available to authors; for full details see:
 >
->* [Applying Workflows to Pages](../../../sites/authoring/using/workflows-applying.md)
->* [How to apply workflows to DAM assets](../../../assets/using/assets-workflow.md)
+>* [Applying Workflows to Pages](/help/sites/authoring/using/workflows-applying.md)
+>* [How to apply workflows to DAM assets](/help/assets/using/assets-workflow.md)
 >* [AEM Forms](https://helpx.adobe.com/aem-forms/6-2/aem-workflows-submit-process-form.html)
->* [Translation Projects](../../../sites/administering/using/tc-manage.md)
+>* [Translation Projects](/help/sites/administering/using/tc-manage.md)
 >
 
 ## Workflow Models {#workflow-models}
 
-You can start a workflow [based on one of the models](../../../sites/administering/using/workflows.md#workflow-models-and-instances) listed on the Workflow Models console. The only mandatory information is the payload, though a title and/or comment can be added as well.
+You can start a workflow [based on one of the models](/help/sites/administering/using/workflows.md#workflow-models-and-instances) listed on the Workflow Models console. The only mandatory information is the payload, though a title and/or comment can be added as well.
 
 ## Workflows Launchers {#workflows-launchers}
 
@@ -87,7 +87,7 @@ A workflow package:
 
    >[!NOTE]
    >
-   >The ** [Transient](../../../sites/developing/using/workflows.md#transient-workflows)** indicator shows workflows for which the workflow history will not be persisted.
+   >The ** [Transient](/help/sites/developing/using/workflows.md#transient-workflows)** indicator shows workflows for which the workflow history will not be persisted.
 
 1. Select **Start Workflow** from the toolbar. 
 1. The Run Workflow dialog will open, allowing you to specify:

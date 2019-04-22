@@ -17,7 +17,7 @@ discoiquuid: d23acb18-6761-4290-9e7a-a434582791bd
 
 When AEM Communities is configured to use a relational database as its common store, user generated content (UGC) is accessible from all author and publish instances without the need for synchronization nor replication.
 
-See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](../../communities/using/topologies.md).
+See also [Characteristics of SRP Options](/help/communities/using/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](/help/communities/using/topologies.md).
 
 ## Requirements {#requirements}
 
@@ -30,7 +30,7 @@ See also [Characteristics of SRP Options](../../communities/using/working-with-s
 
 A MySQL installation may be shared between enablement features and common store (DSRP) within the same connections pool by using different database (schema) names and also different connections (server:port).
 
-For installation and configuration details, see [MySQL Configuration for DSRP](../../communities/using/dsrp-mysql.md).
+For installation and configuration details, see [MySQL Configuration for DSRP](/help/communities/using/dsrp-mysql.md).
 
 ### Solr Configuration {#solr-configuration}
 
@@ -40,11 +40,11 @@ If both the Oak and SRP collections are used intensively, a second Solr may be i
 
 For production environments, SolrCloud mode provides improved performance over standalone mode (a single, local Solr setup).
 
-For installation and configuration details, see [Solr Configuration for SRP](../../communities/using/solr.md).
+For installation and configuration details, see [Solr Configuration for SRP](/help/communities/using/solr.md).
 
 ### Select DSRP {#select-dsrp}
 
-The [Storage Configuration console](../../communities/using/srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
+The [Storage Configuration console](/help/communities/using/srp-config.md) allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.
 
 On author, to access the Storage Configuration console
 
@@ -64,17 +64,17 @@ On author, to access the Storage Configuration console
 
     * **JDBC datasource name** 
       name given to MySQL connection  
-      must be the same as entered in [JDBC OSGi configuration](../../communities/using/dsrp-mysql.md#configurejdbcconnections)  
+      must be the same as entered in [JDBC OSGi configuration](/help/communities/using/dsrp-mysql.md#configurejdbcconnections)  
       *default*: communities
     
     * **Database name** 
-      name given to schema in [init_schema.sql](../../communities/using/dsrp-mysql.md#obtain-the-sql-script) script  
+      name given to schema in [init_schema.sql](/help/communities/using/dsrp-mysql.md#obtain-the-sql-script) script  
       *default*: communities
 
 * **SolrConfiguration**
 
     * ** [Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
-      Leave this value blank if running Solr using the internal ZooKeeper. Else, when running in [SolrCloud mode](../../communities/using/solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the URI for the ZooKeeper, such as *my.server.com:80* 
+      Leave this value blank if running Solr using the internal ZooKeeper. Else, when running in [SolrCloud mode](/help/communities/using/solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the URI for the ZooKeeper, such as *my.server.com:80* 
       *default*: * &lt;blank&gt;*
     
     * **Solr URL** 
@@ -106,12 +106,12 @@ To make the identical configuration available in the publish environment:
 
 For information regarding *users*, *user profiles* and *user groups*, often entered in the publish environment, visit
 
-* [User Synchronization](../../communities/using/sync.md)
-* [Managing Users and User Groups](../../communities/using/users.md)
+* [User Synchronization](/help/communities/using/sync.md)
+* [Managing Users and User Groups](/help/communities/using/users.md)
 
 ## Reindexing Solr for DSRP {#reindexing-solr-for-dsrp}
 
-To reindex DSRP Solr, follow the documentation for [reindexing MSRP](../../communities/using/msrp.md#msrp-reindex-tool), however when reindexing for DSRP, use this URL instead: **/services/social/datastore/rdb/reindex**
+To reindex DSRP Solr, follow the documentation for [reindexing MSRP](/help/communities/using/msrp.md#msrp-reindex-tool), however when reindexing for DSRP, use this URL instead: **/services/social/datastore/rdb/reindex**
 
 For example, a curl command to re-index DSRP would look like this:
 

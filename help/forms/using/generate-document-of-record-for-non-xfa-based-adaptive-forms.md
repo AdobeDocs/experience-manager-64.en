@@ -28,10 +28,10 @@ This article explains how you can generate a document of record for adaptive for
 
 When you create an adaptive form, you can select a form model. Your options are:
 
-* [Form Templates](../../forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-an-xfa-form-template-p)  
+* [Form Templates](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-an-xfa-form-template-p)  
   Lets you select an XFA template for your adaptive form. When you select an XFA template, you can use the associated XDP file for document of record as described above.
 
-* [XML Schema](../../forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-xml-or-json-schema-p)  
+* [XML Schema](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-xml-or-json-schema-p)  
   Lets you select an XML schema definition for your adaptive form. When you select an XML schema for your adaptive form, you can:
 
     * Associate an XFA template for document of record. Ensure that associated XFA template uses the same XML schema as your adaptive form
@@ -384,5 +384,5 @@ Keep in mind the following considerations and limitations when working on docume
 * document of record is used for printing purpose only.   
 * Content binding in document of record generated for XML Schema based adaptive form is not supported. 
 * Content binding in document of record generated for XML Schema based adaptive form is not supported.   
-* Localized version of document of record is created on demand for a locale when the user requests the rendering of the document of record. Localization of document of record occurs along with localization of adaptive form. For more information on localization of document of record and adaptive forms see [Using AEM translation workflow to localize adaptive forms and document of record](../../forms/using/using-aem-translation-workflow-to-localize-adaptive-forms.md).
+* Localized version of document of record is created on demand for a locale when the user requests the rendering of the document of record. Localization of document of record occurs along with localization of adaptive form. For more information on localization of document of record and adaptive forms see [Using AEM translation workflow to localize adaptive forms and document of record](/help/forms/using/using-aem-translation-workflow-to-localize-adaptive-forms.md).
 

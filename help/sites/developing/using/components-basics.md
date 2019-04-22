@@ -34,7 +34,7 @@ Before starting to actually configure/code your component you should ask:
 * Do you need to create your component from scratch, or can you inherit the basics from an existing component?
 
     * There is no need to reinvent the wheel.
-    * There are several mechanisms provided by AEM to allow you to inherit and extend details from another component definition including override, overlay, and the [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md).
+    * There are several mechanisms provided by AEM to allow you to inherit and extend details from another component definition including override, overlay, and the [Sling Resource Merger](/help/sites/developing/using/sling-resource-merger.md).
 
 * Will your component require logic to select/manipulate the content?
 
@@ -46,19 +46,19 @@ Before starting to actually configure/code your component you should ask:
 
 * What security aspects should I take into consideration?
 
-    * See [Security Checklist - Development Best Practices](../../../sites/administering/using/security-checklist.md#development-best-practices) for further details.
+    * See [Security Checklist - Development Best Practices](/help/sites/administering/using/security-checklist.md#development-best-practices) for further details.
 
 ### Touch-Enabled vs Classic UI {#touch-enabled-vs-classic-ui}
 
 Before any serious discussion starts about developing components you need to know which UI your authors will be using:
 
 * **Touch-Enabled UI** 
-  [The standard user interface](../../../sites/developing/using/touch-ui-concepts.md) that was introduced in AEM 5.6.0 as a preview and extended in 6.x. It is based on the unified user experience for the Adobe Marketing Cloud, using the underlying technologies of [Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui) and [Granite UI](../../../sites/developing/using/touch-ui-concepts.md#granite-ui).  
+  [The standard user interface](/help/sites/developing/using/touch-ui-concepts.md) that was introduced in AEM 5.6.0 as a preview and extended in 6.x. It is based on the unified user experience for the Adobe Marketing Cloud, using the underlying technologies of [Coral UI](/help/sites/developing/using/touch-ui-concepts.md#coral-ui) and [Granite UI](/help/sites/developing/using/touch-ui-concepts.md#granite-ui).  
 
 * **Classic UI** 
   User interface based on ExtJS technology that was introduced with CQ 5.1.
 
-See [UI Interface Recommendations for Customers](../../../sites/deploying/using/ui-recommendations.md) for more details.
+See [UI Interface Recommendations for Customers](/help/sites/deploying/using/ui-recommendations.md) for more details.
 
 Components can be implemented to support the touch-enabled UI, the classic UI or both. When looking at a standard instance you will also see out-of-the-box components that were originally designed for the classic UI, or the touch-enabled UI, and/or both.
 
@@ -86,12 +86,12 @@ Both HTL and JSP can be used for developing components for both the classic and 
 
 To create your own components for the appropriate UI see (after reading this page):
 
-* [AEM Components for the Touch-Enabled UI](../../../sites/developing/using/developing-components.md)
-* [AEM Components for the Classic UI](../../../sites/developing/using/developing-components-classic.md)
+* [AEM Components for the Touch-Enabled UI](/help/sites/developing/using/developing-components.md)
+* [AEM Components for the Classic UI](/help/sites/developing/using/developing-components-classic.md)
 
 A quick way to get started is to copy an existing component and then make the changes you want. To learn how to create your own components and add them to the paragraph system see:
 
-* [Developing Components](../../../sites/developing/using/developing-components-samples.md) (focused on the touch-enabled UI)
+* [Developing Components](/help/sites/developing/using/developing-components-samples.md) (focused on the touch-enabled UI)
 
 ### Moving Components to the Publish Instance {#moving-components-to-the-publish-instance}
 
@@ -99,8 +99,8 @@ The components that render content must be deployed on the same AEM instance as 
 
 Use the following tools to move your components to the publish instance:
 
-* [Use Package Manager](../../../sites/administering/using/package-manager.md) to add your components to a package and move them to another AEM instance.
-* [Use the Activate Tree replication tool](../../../sites/authoring/using/publishing-pages.md#manage-publication) to replicate the components.
+* [Use Package Manager](/help/sites/administering/using/package-manager.md) to add your components to a package and move them to another AEM instance.
+* [Use the Activate Tree replication tool](/help/sites/authoring/using/publishing-pages.md#manage-publication) to replicate the components.
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Use the following tools to move your components to the publish instance:
     * The paragraph system is a key part of a website as it manages a list of paragraphs. It is used to hold and structure the individual components that hold the actual content.
     * You can create, move, copy, and delete paragraphs in the paragraph system.
     * You can also select the components to be available for use within a specific paragraph system.
-    * There are various paragraph systems available within a standard instance (e.g. `parsys`, ` [responsivegrid](../../../sites/authoring/using/responsive-layout.md)`).
+    * There are various paragraph systems available within a standard instance (e.g. `parsys`, ` [responsivegrid](/help/sites/authoring/using/responsive-layout.md)`).
 
 ## Structure {#structure}
 
@@ -185,7 +185,7 @@ The definition of a component can be broken down as follows:
 
     * Touch UI
 
-        * See the section [Component Icon in Touch UI](../../../sites/developing/using/components-basics.md#component-icon-in-touch-ui) for details.
+        * See the section [Component Icon in Touch UI](/help/sites/developing/using/components-basics.md#component-icon-in-touch-ui) for details.
 
 * **Vital Child Nodes**:
 
@@ -245,7 +245,7 @@ If none of the above properties ( `cq:icon`, `abbreviation`, `cq:icon.png` or `c
 
 To cancel the inheritance of icons from super components, setting an empty `abbreviation` property on the component will revert to the default behavior.
 
-The [Component Console](../../../sites/authoring/using/default-components-console.md#component-details) displays how the icon for a particular component is defined.
+The [Component Console](/help/sites/authoring/using/default-components-console.md#component-details) displays how the icon for a particular component is defined.
 
 #### SVG Icon Example {#svg-icon-example}
 
@@ -456,7 +456,7 @@ Dialog definitions are specific to the UI:
 >[!NOTE]
 >
 >* For compatibility purposes the touch-enabled UI can use the definition of a classic UI dialog, when no dialog has been defined for the touch-enabled UI.
->* The [Dialog Conversion Tool](../../../sites/developing/using/dialog-conversion.md) is also provided to help you extend/convert components that only have dialogs defined for the classic UI.
+>* The [Dialog Conversion Tool](/help/sites/developing/using/dialog-conversion.md) is also provided to help you extend/convert components that only have dialogs defined for the classic UI.
 >
 
 * Touch-Enabled UI ``
@@ -507,7 +507,7 @@ Dialog definitions are specific to the UI:
 
 Design dialogs are very similar to the dialogs used to edit and configure content, but they provide the interface for authors to configure and provide design details for that component.
 
-[Design dialogs are available in Design Mode](../../../sites/authoring/using/default-components-designmode.md), though they are not needed for all components e.g. **Title** and **Image** both have design dialogs, whereas **Text** does not.
+[Design dialogs are available in Design Mode](/help/sites/authoring/using/default-components-designmode.md), though they are not needed for all components e.g. **Title** and **Image** both have design dialogs, whereas **Text** does not.
 
 The design dialog for the paragraph system (e.g. parsys) is a special case as it allows the user to specific other components to be available for selection (from the components browser or sidekick) on the page.
 
@@ -515,7 +515,7 @@ The design dialog for the paragraph system (e.g. parsys) is a special case as it
 
 Once a component has been defined it must be made available for use. To make a component available for use in a paragraph system you can either:
 
-1. Open [Design Mode](../../../sites/authoring/using/default-components-designmode.md) for a page and enable the required component.
+1. Open [Design Mode](/help/sites/authoring/using/default-components-designmode.md) for a page and enable the required component.
 1. Add the required component(s) to the `components` property of your template definition under:
 
    `/etc/designs/<*yourProject*>/jcr:content/<*yourTemplate*>/par`
@@ -883,7 +883,7 @@ The following sample configuration defines a new button (with a separator for th
 
 >[!NOTE]
 >
->See [Add New Action to a Component Toolbar](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-action-to-a-component-toolbar) as an example for the touch-enabled UI.
+>See [Add New Action to a Component Toolbar](/help/sites/developing/using/customizing-page-authoring-touch.md#add-new-action-to-a-component-toolbar) as an example for the touch-enabled UI.
 
 ### cq:formParameters {#cq-formparameters}
 

@@ -26,14 +26,14 @@ This catalog is available under the English (US) branch ( `/content/geometrixx-o
 
 To install AEM with an Elastic Path integration configuration (using the demonstration catalog, Geometrixx Outdoors), the basic steps are:
 
-1. [Install AEM](../../../sites/deploying/using/deploy.md) and any other pre-requisite packages (see [https://docs.elasticpath.com/display/EP611DEV/System+Requirements](https://docs.elasticpath.com/display/EP611DEV/System+Requirements) for details).
-1. Install the latest demonstration content packages using the [Package Manager](../../../sites/administering/using/package-manager.md#package-manager) in the following order:
+1. [Install AEM](/help/sites/deploying/using/deploy.md) and any other pre-requisite packages (see [https://docs.elasticpath.com/display/EP611DEV/System+Requirements](https://docs.elasticpath.com/display/EP611DEV/System+Requirements) for details).
+1. Install the latest demonstration content packages using the [Package Manager](/help/sites/administering/using/package-manager.md#package-manager) in the following order:
 
     1. `ep-cortex-java-bindings`
     1. `ep-aem-integration`
     1. `cq-geometrixx-ep-content`
 
-1. [Author](../../../sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
+1. [Author](/help/sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
 
 >[!NOTE]
 >

@@ -50,11 +50,11 @@ This can be done by copying and overlaying the existing definition. In other wor
 
 >[!NOTE]
 >
->See [Using Overlays](../../../sites/developing/using/overlays.md) for more details.
+>See [Using Overlays](/help/sites/developing/using/overlays.md) for more details.
 
 For example:
 
-* [Customizing a Component](../../../sites/developing/using/components.md)  
+* [Customizing a Component](/help/sites/developing/using/components.md)  
   This involved overlaying a component definition:
 
     * Create a new component folder in `/apps/<website-name>/components/<MyComponent>` by copying an existing component:
@@ -65,7 +65,7 @@ For example:
             
             * to `/apps/myProject/components/text`
 
-* [Customizing pages shown by the Error Handler](../../../sites/developing/using/customizing-errorhandler-pages.md#how-to-customize-pages-shown-by-the-error-handler)  
+* [Customizing pages shown by the Error Handler](/help/sites/developing/using/customizing-errorhandler-pages.md#how-to-customize-pages-shown-by-the-error-handler)  
   This case involves overlaying a servlet:
 
     * In the repository, copy the default script(s):
@@ -105,14 +105,14 @@ For rendering content, use navigational access to the content tree instead of pe
 
 >[!NOTE]
 >
->If you use the [Query Builder](../../../sites/developing/using/querybuilder-api.md), you use JCR Queries, as the Query Builder generates JCR Queries under the hood.
+>If you use the [Query Builder](/help/sites/developing/using/querybuilder-api.md), you use JCR Queries, as the Query Builder generates JCR Queries under the hood.
 >
 
 ## Security Considerations {#security-considerations}
 
 >[!NOTE]
 >
->It is also worthwhile referencing the [security checklist](../../../sites/administering/using/security-checklist.md).
+>It is also worthwhile referencing the [security checklist](/help/sites/administering/using/security-checklist.md).
 
 ### JCR (Repository) Sessions {#jcr-repository-sessions}
 
@@ -155,11 +155,11 @@ This applies to information that is confidential to the system (like configurati
 
 Error pages can be customized for AEM. This is advisable so that the instance does not reveal sling traces on internal server errors.
 
-See [Customizing Error Pages shown by the Error Handler](../../../sites/developing/using/customizing-errorhandler-pages.md) for full details.
+See [Customizing Error Pages shown by the Error Handler](/help/sites/developing/using/customizing-errorhandler-pages.md) for full details.
 
 ### Open Files in the Java Process {#open-files-in-the-java-process}
 
-Because AEM can access a large number of files it is recommended that the number of [open files for a Java process](../../../sites/deploying/using/configuring.md#open-files-in-the-java-process) be explicitly configured for AEM.
+Because AEM can access a large number of files it is recommended that the number of [open files for a Java process](/help/sites/deploying/using/configuring.md#open-files-in-the-java-process) be explicitly configured for AEM.
 
 To minimize this issue development should ensure that any file opened is correctly closed as soon as (meaningfully) possible.  
 

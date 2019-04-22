@@ -31,7 +31,7 @@ The following types of endpoints can be added to services. Not all services supp
 
 **SOAP:** Enables a client application developed using the AEM forms programming APIs to invoke the service using SOAP mode. A SOAP endpoint is automatically created for each activated service.
 
-***note**: Security can be removed from document security documents when the SOAP endpoint is used while viewing the documents in Adobe Acrobat or Adobe Reader. For details on how to disable SOAP enpoints on your LCRM documents, see [Disable SOAP endpoints for document security documents](../../../forms/using/admin-help/configuring-client-server-options.md#disable-soap-endpoints-for-document-security-documents)*
+***note**: Security can be removed from document security documents when the SOAP endpoint is used while viewing the documents in Adobe Acrobat or Adobe Reader. For details on how to disable SOAP enpoints on your LCRM documents, see [Disable SOAP endpoints for document security documents](/help/forms/using/admin-help/configuring-client-server-options.md#disable-soap-endpoints-for-document-security-documents)*
 
 **EJB:** Enables a client application developed using the AEM forms programming APIs to invoke the service using Enterprise JavaBeans (EJB) mode. An EJB endpoint is automatically created for each activated service.
 

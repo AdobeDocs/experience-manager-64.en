@@ -13,21 +13,21 @@ discoiquuid: a420b0b1-65f4-4103-a7c9-263657c7870f
 
 # Tutorials{#tutorials}
 
-These are examples to help in learning and working with AEM 6.1 Communities [social component framework (SCF)](../../communities/using/scf.md).
+These are examples to help in learning and working with AEM 6.1 Communities [social component framework (SCF)](/help/communities/using/scf.md).
 
 ## Client-Side Customization {#client-side-customization}
 
-See also [SCF client-side customization](../../communities/using/client-customize.md). [](../../communities/using/client-customize.md)
+See also [SCF client-side customization](/help/communities/using/client-customize.md). [](/help/communities/using/client-customize.md)
 
-* [Community Components guide](../../communities/using/components-guide.md)
+* [Community Components guide](/help/communities/using/components-guide.md)
 
-* [Overlay Comments Component](../../communities/using/overlay-comments.md)
+* [Overlay Comments Component](/help/communities/using/overlay-comments.md)
 
-* [Extend Comments Component](../../communities/using/extend-comments.md)
+* [Extend Comments Component](/help/communities/using/extend-comments.md)
 
 ## Server-Side Customization {#server-side-customization}
 
-See also [SCF server-side customization](../../communities/using/server-customize.md).
+See also [SCF server-side customization](/help/communities/using/server-customize.md).
 
 Sample code is available in the [Adobe Marketing Cloud GitHub](https://github.com/Adobe-Marketing-Cloud) repository:
 
@@ -42,21 +42,21 @@ Sample code is available in the [Adobe Marketing Cloud GitHub](https://github.co
 * [AEM Communities Todo MVC](https://github.com/Adobe-Marketing-Cloud/aem-communities-todomvc-sample)  
   ToDo MVC Demostrates how to develop an SCF+SRP component from scratch
 
-* [Getting Started with AEM Communities](../../communities/using/getting-started.md)
+* [Getting Started with AEM Communities](/help/communities/using/getting-started.md)
 
-* [HowTo Setup MongoDB for Demo](../../communities/using/demo-mongo.md)
+* [HowTo Setup MongoDB for Demo](/help/communities/using/demo-mongo.md)
 
-* [Create an SCF Sandbox](../../communities/using/an-scf-sandbox.md)
+* [Create an SCF Sandbox](/help/communities/using/an-scf-sandbox.md)
 
-* [Create a Sample Page](../../communities/using/create-sample-page.md)
+* [Create a Sample Page](/help/communities/using/create-sample-page.md)
 
 ## Demo Users {#demo-users}
 
-The Geometrixx samples package includes demo users. There is often a difference in experience between being a visitor (not logged in) or a member (logged in) and, as long as the Geometrixx samples packages remain installed, you may use these users to simulate a logged in state when exploring with the [Community Components guide](../../communities/using/components-guide.md).
+The Geometrixx samples package includes demo users. There is often a difference in experience between being a visitor (not logged in) or a member (logged in) and, as long as the Geometrixx samples packages remain installed, you may use these users to simulate a logged in state when exploring with the [Community Components guide](/help/communities/using/components-guide.md).
 
 For a full list of the demo users, navigate using the Rail to **Tools &gt; Operations &gt; Security &gt; Users**. Or use the Classic UI [security console](http://localhost:4502/useradmin) for managing users and groups.
 
-If a [community ste has been created](../../communities/using/getting-started.md), it is possible to assign demo users to its [community user groups](../../communities/using/users.md).
+If a [community ste has been created](/help/communities/using/getting-started.md), it is possible to assign demo users to its [community user groups](/help/communities/using/users.md).
 
 *** user id* / *password:***
 

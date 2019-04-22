@@ -22,9 +22,9 @@ The following areas have documentation available concerning best practices:
 
 For best practices on authoring, deploying and maintaining, or developing, see one of the following:
 
-* [Authoring best practices](../../../sites/authoring/using/best-practices.md)
-* [Developing best practices](../../../sites/developing/using/best-practices.md)
-* [Deploying best practices](../../../sites/deploying/using/best-practices.md)
+* [Authoring best practices](/help/sites/authoring/using/best-practices.md)
+* [Developing best practices](/help/sites/developing/using/best-practices.md)
+* [Deploying best practices](/help/sites/deploying/using/best-practices.md)
 
 Specific documents are described and linked to in the tables that follow. 
 

@@ -88,7 +88,7 @@ $.ajax({
 
 ## Related Articles {#related-articles}
 
-* [Transaction Reports Overview](../../forms/using/transaction-reports-overview.md)
-* [Viewing and Understanding a Transaction Reports](../../forms/using/viewing-and-understanding-transaction-reports.md)
-* [Transaction Reports Billable APIs](../../forms/using/transaction-reports-billable-apis.md)
+* [Transaction Reports Overview](/help/forms/using/transaction-reports-overview.md)
+* [Viewing and Understanding a Transaction Reports](/help/forms/using/viewing-and-understanding-transaction-reports.md)
+* [Transaction Reports Billable APIs](/help/forms/using/transaction-reports-billable-apis.md)
 

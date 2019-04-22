@@ -30,9 +30,9 @@ To add a `Calendar` component to a page in author mode, use the component browse
 
 and drag it into place on a page, such as a position relative to the feature for users to review.
 
-For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
+For necessary information, visit [Communities Components Basics](/help/communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/calendar-basics-for-developers.md#essentials-for-client-side) are included, this is how the `Calendar` component will appear.
+When the [required client-side libraries](/help/communities/using/calendar-basics-for-developers.md#essentials-for-client-side) are included, this is how the `Calendar` component will appear.
 
 ![](assets/chlimage_1-112.png)
 
@@ -95,9 +95,9 @@ Under the **Settings **tab, specify whether or not to allow tags to be applied t
   Defines the number of days added to the current date in order to compute the "To" value of the calendar event listing page filter. Default number is 30.
 
 * **Allow Featured Content** 
-  if checked, the idea is able to be identified as [featured content](../../communities/using/featured.md). Default is unchecked.
+  if checked, the idea is able to be identified as [featured content](/help/communities/using/featured.md). Default is unchecked.
 
-Under the **User Moderation **tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+Under the **User Moderation **tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
 #### User Moderation tab {#user-moderation-tab}
 
@@ -134,7 +134,7 @@ Under the **Tag field** tab, the tags which may be applied, if allowed under the
 
 >[!NOTE]
 >
->Visit [Administering Tags](../../sites/administering/using/tags.md) to learn how to add a new tag namespace (taxonomy).
+>Visit [Administering Tags](/help/sites/administering/using/tags.md) to learn how to add a new tag namespace (taxonomy).
 
 #### Translation tab {#translation-tab}
 
@@ -153,13 +153,13 @@ Other abilities depend on whether the site visitor is a moderator, administrator
 
 ### Moderators and Administrators {#moderators-and-administrators}
 
-When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](../../communities/using/moderate-ugc.md) (as permitted by the configuration of the component) on all calendar events and comments posted to an event.
+When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](/help/communities/using/moderate-ugc.md) (as permitted by the configuration of the component) on all calendar events and comments posted to an event.
 
 ![](assets/chlimage_1-115.png)
 
 ### Members {#members}
 
-When the signed in user is a community member or [privileged member](../../communities/using/users.md#privileged-members-group) (depending on configuration), they are able to select `New Event` to create and post a new calendar event.
+When the signed in user is a community member or [privileged member](/help/communities/using/users.md#privileged-members-group) (depending on configuration), they are able to select `New Event` to create and post a new calendar event.
 
 Specifically, they may
 
@@ -179,10 +179,10 @@ Site visitors who are not signed in may only read posted calendar events, transl
 
 ## Additional Information {#additional-information}
 
-More information may be found on the [Calendar Essentials](../../communities/using/calendar-basics-for-developers.md) page for developers.
+More information may be found on the [Calendar Essentials](/help/communities/using/calendar-basics-for-developers.md) page for developers.
 
-For moderation of calendar events and comments, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
+For moderation of calendar events and comments, see [Moderating User Generated Content](/help/communities/using/moderate-ugc.md).
 
-For tagging calendar events and comments, see [Tagging User Generated Content](../../communities/using/tag-ugc.md).
+For tagging calendar events and comments, see [Tagging User Generated Content](/help/communities/using/tag-ugc.md).
 
-For translation of calendar events and comments, see [Translating User Generated Content](../../communities/using/translate-ugc.md).
+For translation of calendar events and comments, see [Translating User Generated Content](/help/communities/using/translate-ugc.md).

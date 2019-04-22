@@ -21,11 +21,11 @@ To localize AEM Forms workspace user interface to language of your choice:
 * Localize collapsed categories, queues, and processes.
 * Localize Date Picker
 
-Before performing above steps, ensure that you follow the steps listed at [Generic steps for AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md).
+Before performing above steps, ensure that you follow the steps listed at [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
 
 >[!NOTE]
 >
->To change the language of the login screen of AEM Forms workspace, see [Creating a new login screen](../../forms/using/creating-new-login-screen.md).
+>To change the language of the login screen of AEM Forms workspace, see [Creating a new login screen](/help/forms/using/creating-new-login-screen.md).
 
 ## Localizing text {#localizing-text}
 
@@ -43,7 +43,7 @@ Perform the following steps to add support for a language *New* and the browser 
 
 ## Localizing collapsed categories, queues, and processes {#localizing-collapsed-categories-queues-and-processes}
 
-AEM Forms workspace uses images to display headers of categories, queues, and processes. You require development package to localize these headers. For detailed information about creating development package, see [Building AEM Forms workspace code.](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
+AEM Forms workspace uses images to display headers of categories, queues, and processes. You require development package to localize these headers. For detailed information about creating development package, see [Building AEM Forms workspace code.](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
 
 In the following steps, it is assumed that the new localized image files are *Categories_nw.png*, *Queue_nw.png*, and *Processes_nw.png*. The recommended width of the images is 19px.
 
@@ -72,7 +72,7 @@ Perform the following steps to localize the images:
    }
    ```
 
-1. Perform all the semantic changes listed in the [Workspace Customization](../../forms/using/introduction-customizing-html-workspace.md) article.
+1. Perform all the semantic changes listed in the [Workspace Customization](/help/forms/using/introduction-customizing-html-workspace.md) article.
 1. Navigate to the *js/runtime/utility* folder and open the* usersession.js* file for editing.
 1. Locate the code listed in orignal code block and add condition *lang !== 'nw'* to the if statement:
 
@@ -103,7 +103,7 @@ Perform the following steps to localize the images:
 
 ## Localizing Date Picker {#localizing-date-picker}
 
-You require development package to localize the *datepicker *API. For detailed information about creating development package, see [Building AEM Forms workspace code](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3).
+You require development package to localize the *datepicker *API. For detailed information about creating development package, see [Building AEM Forms workspace code](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3).
 
 1. Download and extract the [jQuery UI Package](https://jqueryui.com/download/all/), navigate to *&lt;extracted jquery UI package&gt;*\jquery-ui-1.10.2.zip\jquery-ui-1.10.2\ui\i18n.
 1. Copy the jquery.ui.datepicker-nw.js file for locale code nw to apps/ws/js/libs/jqueryui and make locale specific changes to the file. 

@@ -30,9 +30,9 @@ You can also enable SSO by using SPNEGO. (See [Enable SSO using SPNEGO](enabling
 1. Set the remaining options on the page as required and click OK:
 
     * **SSO type:** (Mandatory) Select HTTP Header to enable SSO using HTTP headers.
-    * **HTTP header for user’s identifier:** (Mandatory) Name of the header whose value contains the logged-in user’s unique identifier. User Management uses this value to find the user in the User Management database. The value obtained from this header should match the unique identifier of the user who is synchronized from the LDAP directory. (See [User settings](../../../forms/using/admin-help/adding-configuring-users.md#user-settings).) 
+    * **HTTP header for user’s identifier:** (Mandatory) Name of the header whose value contains the logged-in user’s unique identifier. User Management uses this value to find the user in the User Management database. The value obtained from this header should match the unique identifier of the user who is synchronized from the LDAP directory. (See [User settings](/help/forms/using/admin-help/adding-configuring-users.md#user-settings).) 
     * **Identifier value maps to user’s User ID instead of user’s unique identifier:** Maps the user’s unique identifier value to the User ID. Select this option if the user’s unique identifier is a binary value that cannot be easily propagated through HTTP headers (for example, objectGUID if you are synchronizing users from Active Directory).
-    * **HTTP header for domain:** (Not mandatory) Name of the header whose value contains the domain name. Use this setting only if no single HTTP header uniquely identifies the user. Use this setting for cases where multiple domains exist and the unique identifier is unique only within a domain. In this case, specify the header name in this text box and specify domain mapping for the multiple domains in the Domain mapping box. (See [Editing and converting existing domains](../../../forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains).)
+    * **HTTP header for domain:** (Not mandatory) Name of the header whose value contains the domain name. Use this setting only if no single HTTP header uniquely identifies the user. Use this setting for cases where multiple domains exist and the unique identifier is unique only within a domain. In this case, specify the header name in this text box and specify domain mapping for the multiple domains in the Domain mapping box. (See [Editing and converting existing domains](/help/forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains).)
     * **Domain mapping:** (Mandatory) Specifies mapping for multiple domains in the format *header value=domain name*.
 
       For example, consider a situation where the HTTP header for a domain is domainName, and it can have values of domain1, domain2, or domain3. In this case, use domain mapping to map the domainName values to User Management domain names. Each mapping must be on a different line:
@@ -45,7 +45,7 @@ You can also enable SSO by using SPNEGO. (See [Enable SSO using SPNEGO](enabling
 
 ### Configure allowed referers {#configure-allowed-referers}
 
-For the steps to configure allowed referers, see [Configure allowed referers](../../../forms/using/admin-help/preventing-csrf-attacks.md#configure-allowed-referers).
+For the steps to configure allowed referers, see [Configure allowed referers](/help/forms/using/admin-help/preventing-csrf-attacks.md#configure-allowed-referers).
 
 ## Enable SSO using SPNEGO {#enable-sso-using-spnego}
 
@@ -61,7 +61,7 @@ You can also enable SSO by using HTTP headers. (See [Enable SSO using HTTP heade
 1. In Active Directory, create a user who represents the AEM forms server. (See [Create a user account](enabling-single-sign-on-aem.md#create-a-user-account).) If you are configuring more than one domain to use SPNEGO, ensure that the passwords for each of these users is different. If the passwords are not different, SPNEGO SSO does not work.
 1. Map the service principal name. (See [Map a Service Principal Name (SPN)](enabling-single-sign-on-aem.md#map-a-service-principal-name-spn).)
 1. Configure the domain controller. (See [Prevent Kerberos integrity-check failures](enabling-single-sign-on-aem.md#prevent-kerberos-integrity-check-failures).)
-1. Add or edit an enterprise domain as described in [Adding domains](../../../forms/using/admin-help/adding-domains.md#adding-domains) or [Editing and converting existing domains](../../../forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains). When you create or edit the enterprise domain, perform these tasks:
+1. Add or edit an enterprise domain as described in [Adding domains](/help/forms/using/admin-help/adding-domains.md#adding-domains) or [Editing and converting existing domains](/help/forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains). When you create or edit the enterprise domain, perform these tasks:
 
     * Add or edit a directory that contains your Active Directory information. 
     * Add LDAP as an authentication provider.

@@ -24,5 +24,5 @@ The project workflows available out of the box include the following:
 
 >[!NOTE]
 >
->Projects are not available in classic UI. See [Projects](../../../sites/authoring/using/projects.md) in the standard authoring documentation for details.
+>Projects are not available in classic UI. See [Projects](/help/sites/authoring/using/projects.md) in the standard authoring documentation for details.
 

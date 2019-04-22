@@ -18,7 +18,7 @@ You can protect documents by using policies. The confidentiality settings you sp
 
 The policies are stored on Document Security server; you apply the policies to documents through your client application. When you apply a policy to a document, the confidentiality settings specified in the policy protect the information that the document contains. You can distribute the policy-protected document to recipients who are authorized by the policy.
 
-Document security also provides clients, viewers, and indexers to protect documents, view protected documents, and index protected documents. For detailed information about document security, see [about document security](../../forms/using/admin-help/document-security.md).
+Document security also provides clients, viewers, and indexers to protect documents, view protected documents, and index protected documents. For detailed information about document security, see [about document security](/help/forms/using/admin-help/document-security.md).
 
 ## Deployment Topology  {#deployment-topology}
 
@@ -35,7 +35,7 @@ The following diagram shows the typical architecture for AEM Forms Document Secu
 Perform the following steps to install and configure AEM Forms on JEE:
 
 1. Download the AEM 6.4 Forms on JEE installer from the [Adobe Licensing Website (LWS)](https://licensing.adobe.com/). You require a valid Maintenance & Support contract to download the installer.
-1. Read the [AEM Forms on JEE Supported Platforms document](../../forms/using/aem-forms-jee-supported-platforms.md) and ensure that have the software, hardware, operating systems, application server, databases, JDKs, and other infrastructure ready to install AEM Forms on JEE.
+1. Read the [AEM Forms on JEE Supported Platforms document](/help/forms/using/aem-forms-jee-supported-platforms.md) and ensure that have the software, hardware, operating systems, application server, databases, JDKs, and other infrastructure ready to install AEM Forms on JEE.
 1. (Non-Turnkey installs only) Read the [Preparing to install AEM Forms single server](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64) or [Preparing to install AEM Forms server cluster](https://www.adobe.com/go/learn_aemforms_prepareInstallcluster_64) and ready your environment to install and configure AEM Forms on JEE.
 1. Depending on your environment and application server, choose one of the following documents and follow the instructions to complete the installation
 
