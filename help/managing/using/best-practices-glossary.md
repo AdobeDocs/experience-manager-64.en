@@ -962,7 +962,7 @@ It is used with the Runbook to execute pre- and post installation steps and chec
 
 >[!NOTE]
 >
->For an example, see the [AEM Release Notes](../../release-notes.md).
+>For an example, see the [AEM Release Notes](../../release-notes/release-notes.md).
 
 ### Release Running on Production Environment {#release-running-on-production-environment}
 

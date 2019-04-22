@@ -93,7 +93,7 @@ With any new release, there are potential changes to the UI and user workflows t
 
 ![](assets/screen_shot_2018-04-04at121206.png)
 
-New features in AEM 6.4 can be found in [the AEM section of adobe.com](../../../release-notes.md). Make sure to note any changes to UIs or product features that are commonly used in your organization. As you look through the new features, also take note of any that can be of value to your organization. After looking through what has changed in AEM 6.4, develop a training plan for your authors. This could involve leveraging freely available resources like the helpx feature videos or formal training offered through [Adobe Digital Learning Services](https://www.adobe.com/training.html).
+New features in AEM 6.4 can be found in [the AEM section of adobe.com](../../../release-notes/release-notes.md). Make sure to note any changes to UIs or product features that are commonly used in your organization. As you look through the new features, also take note of any that can be of value to your organization. After looking through what has changed in AEM 6.4, develop a training plan for your authors. This could involve leveraging freely available resources like the helpx feature videos or formal training offered through [Adobe Digital Learning Services](https://www.adobe.com/training.html).
 
 ### Creating a Test Plan {#creating-a-test-plan}
 

@@ -103,7 +103,7 @@ See [Selecting Your UI](../../../sites/authoring/using/select-ui.md) for informa
 
 ## Touch-Optimized UI Status {#touch-optimized-ui-status}
 
-For details of the enhancements made to the touch-optimized UI in the AEM 6.3 see [What's New](../../../release-notes.md#what-s-new) in the Release Notes.
+For details of the enhancements made to the touch-optimized UI in the AEM 6.3 see [What's New](../../../release-notes/release-notes.md#what-s-new) in the Release Notes.
 
 A complete overview see the [Touch UI Feature Status](../../../release-notes/touch-ui-features-status.md) page
 

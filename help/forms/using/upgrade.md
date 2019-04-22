@@ -55,7 +55,7 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
     1. Install the latest service pack and patches for AEM 6.2 Forms or AEM 6.3 Forms. For details, see:
 
         * [AEM 6.2 release notes](https://helpx.adobe.com/experience-manager/6-2/release-notes.html)
-        * [AEM 6.3 release notes](../../release-notes.md)
+        * [AEM 6.3 release notes](https://helpx.adobe.com/experience-manager/6-3/release-notes.html)
         * [AEM Sustenance Hub](https://helpx.adobe.com/experience-manager/aem-releases-updates.html)
 
     1. Prepare the source instance for the upgrade. For detailed steps, see [Upgrading to AEM 6.4](../../sites/deploying/using/upgrade.md#preparing%20the%20source%20instance).
