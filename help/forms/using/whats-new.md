@@ -16,7 +16,7 @@ Summary of new features and enhancements in AEM 6.4 Forms.
 
 AEM Forms includes several new features and enhancements that further streamline creation, management, and user experiences with adaptive forms and interactive communications.
 
-Read on for quick introduction to new features and enhancements. Visit documentation for resources offering details. Also, see AEM 6.4 Forms [release notes](../../release-notes/forms.md). For complete AEM 6.4 Forms documentation, visit [AEM 6.4 Forms User Guide](/help/forms/home.md).
+Read on for quick introduction to new features and enhancements. Visit documentation for resources offering details. Also, see AEM 6.4 Forms [release notes](/help/release-notes/forms.md). For complete AEM 6.4 Forms documentation, visit [AEM 6.4 Forms User Guide](/help/forms/home.md).
 
 ## Interactive Communications {#interactive-communications}
 
