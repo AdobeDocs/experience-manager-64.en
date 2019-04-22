@@ -269,7 +269,7 @@ New integration with [Adobe Dimension CC](https://www.adobe.com/products/dimensi
 
 See [Working with 3D assets](assets/using/3d-assets.md) documentation to learn more.
 
-![](do-not-localize/3d.png)
+![](assets/do-not-localize/3d.png)
 
 ### Experience Manager Forms {#experience-manager-forms}
 
