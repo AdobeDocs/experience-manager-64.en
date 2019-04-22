@@ -39,7 +39,7 @@ discoiquuid: 2be468e7-2b4e-4e04-881b-b9bdd1f55e57
   </tr>
   <tr>
    <th>Feature Packs</th> 
-   <td>For a list of available Feature Packs visit <a href="release-notes/feature-packs-release-notes.md">AEM 6.4 Feature Packs</a></td> 
+   <td>For a list of available Feature Packs visit <a href="feature-packs-release-notes.md">AEM 6.4 Feature Packs</a></td> 
   </tr>
  </tbody>
 </table>
