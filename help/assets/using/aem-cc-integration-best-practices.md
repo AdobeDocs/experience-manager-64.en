@@ -80,46 +80,46 @@ The following table provides a concise summary of when to use which solution or 
    <th width="201">Other Solutions</th> 
   </tr> 
   <tr> 
-   <td height="21">Share smaller number <a href="../../assets/using/aem-cc-integration-best-practices.md#main-pars-text-541977675">[1]</a> of DAM assets with Creative user</td> 
+   <td height="21">Share smaller number <a href="/help/assets/using/aem-cc-integration-best-practices.md#main-pars-text-541977675">[1]</a> of DAM assets with Creative user</td> 
    <td style="text-align: center;">✔✔</td> 
    <td style="text-align: center;">✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td height="43">Share larger number <a href="../../assets/using/aem-cc-integration-best-practices.md#main-pars-text-541977675">[2]</a> of DAM assets with Creative user</td> 
+   <td height="43">Share larger number <a href="/help/assets/using/aem-cc-integration-best-practices.md#main-pars-text-541977675">[2]</a> of DAM assets with Creative user</td> 
    <td style="text-align: center;">✔✔</td> 
    <td style="text-align: center;">✘</td> 
-   <td width="201"><p><a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Brand Portal</a></p> <p><a href="../../assets/using/assets-finder-editor.md">Asset Share</a></p> </td> 
+   <td width="201"><p><a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Brand Portal</a></p> <p><a href="/help/assets/using/assets-finder-editor.md">Asset Share</a></p> </td> 
   </tr> 
   <tr> 
    <td height="21">Share DAM assets with users who have access to DAM</td> 
    <td style="text-align: center;">✔✔</td> 
    <td style="text-align: center;">✔</td> 
-   <td><a href="../../assets/using/link-sharing.md">Link Share</a></td> 
+   <td><a href="/help/assets/using/link-sharing.md">Link Share</a></td> 
   </tr> 
   <tr> 
    <td height="43">Share DAM assets with users who don't have access to DAM</td> 
    <td style="text-align: center;">✘</td> 
    <td style="text-align: center;">✔✔</td> 
-   <td width="201"><p><a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Brand Portal</a></p> <p><a href="../../assets/using/assets-finder-editor.md">Asset Share</a></p> </td> 
+   <td width="201"><p><a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Brand Portal</a></p> <p><a href="/help/assets/using/assets-finder-editor.md">Asset Share</a></p> </td> 
   </tr> 
   <tr> 
    <td height="21">Save smaller number/volume of assets to DAM</td> 
    <td style="text-align: center;">✔✔</td> 
    <td style="text-align: center;">✔</td> 
-   <td width="201"><a href="../../assets/using/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></td> 
+   <td width="201"><a href="/help/assets/using/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></td> 
   </tr> 
   <tr> 
-   <td height="64">Save larger number of assets to DAM <a href="../../assets/using/aem-cc-integration-best-practices.md#main-pars-text-541977675">[3]</a></td> 
+   <td height="64">Save larger number of assets to DAM <a href="/help/assets/using/aem-cc-integration-best-practices.md#main-pars-text-541977675">[3]</a></td> 
    <td style="text-align: center;">✔✔</td> 
    <td style="text-align: center;">✘</td> 
-   <td width="201"><p><a href="../../assets/using/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></p> <p>Custom script / tool </p> </td> 
+   <td width="201"><p><a href="/help/assets/using/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></p> <p>Custom script / tool </p> </td> 
   </tr> 
   <tr> 
    <td height="21">Migrate huge number of assets to DAM<br /> <br /> </td> 
    <td style="text-align: center;">✘<br /> <br /> </td> 
    <td style="text-align: center;">✘<br /> <br /> </td> 
-   <td><a href="../../assets/using/assets-migration-guide.md">Migration Guide</a></td> 
+   <td><a href="/help/assets/using/assets-migration-guide.md">Migration Guide</a></td> 
   </tr> 
   <tr> 
    <td height="21">Quickly open an asset on desktop</td> 

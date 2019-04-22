@@ -70,7 +70,7 @@ The following is a list of recommendations from Product Management for Adobe Exp
      <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selecting-your-ui">Selecting Your UI</a>.</li> 
     </ol> <p>Then, in a second phase:</p> 
     <ol> 
-     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="../../../sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
+     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="/help/sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ The following is a list of recommendations from Product Management for Adobe Exp
      <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selecting-your-ui">Selecting Your UI</a>.</li> 
     </ol> <p>Then, in a second phase:</p> 
     <ol> 
-     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="../../../sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
+     <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="/help/sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
      <li>Configure the ContextHub (the replacement for the ClientContext) and update the page templates to use the ContextHub. Note that the ContextHub has a compatibility mode that allows loading custom ClientContext stores.</li> 
     </ol> </td> 
   </tr> 

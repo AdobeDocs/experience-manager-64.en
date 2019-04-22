@@ -51,22 +51,22 @@ Managing and authoring your website content has some best practices outlined as 
  <tbody>
   <tr>
    <td>Some of the theory behind the standard, touch-enabled UI.</td> 
-   <td><p><a href="../../../sites/developing/using/touch-ui-concepts.md">Touch-Enabled UI: Concepts</a></p> <p><a href="../../../sites/developing/using/touch-ui-structure.md">Touch-Enabled UI: Structure</a></p> </td> 
+   <td><p><a href="/help/sites/developing/using/touch-ui-concepts.md">Touch-Enabled UI: Concepts</a></p> <p><a href="/help/sites/developing/using/touch-ui-structure.md">Touch-Enabled UI: Structure</a></p> </td> 
    <td>These documents provide an overview of the concepts, and structure, of the touch-enabled UI.</td> 
   </tr>
   <tr>
    <td>Touch-Enabled UI: Customizing consoles </td> 
-   <td><a href="../../../sites/developing/using/customizing-consoles-touch.md">Customizing touch-enabled UI consoles</a></td> 
+   <td><a href="/help/sites/developing/using/customizing-consoles-touch.md">Customizing touch-enabled UI consoles</a></td> 
    <td>This document describes the best way to extend the consoles for the touch-enabled UI.</td> 
   </tr>
   <tr>
    <td>Touch-enabled UI: Customizing page authoring</td> 
-   <td><a href="../../../sites/developing/using/customizing-page-authoring-touch.md">Customizing touch-enabled UI page authoring</a></td> 
+   <td><a href="/help/sites/developing/using/customizing-page-authoring-touch.md">Customizing touch-enabled UI page authoring</a></td> 
    <td>Describes how to extend page authoring for the touch-enabled UI.</td> 
   </tr>
   <tr>
    <td>Workflows</td> 
-   <td><a href="../../../sites/developing/using/workflows-best-practices.md">Developing and Extending Workflows</a></td> 
+   <td><a href="/help/sites/developing/using/workflows-best-practices.md">Developing and Extending Workflows</a></td> 
    <td><p>Workflows enable you to automate Adobe Experience Manager (AEM) activities and can represent a large amount of the processing that occurs in an AEM environment, so it is highly recommended to plan your workflows implementations carefully.</p> </td> 
   </tr>
  </tbody>
@@ -80,7 +80,7 @@ Some best practices for Communities are described here:
 
 | Best practices for working with user generated content (UGC) | [Coding Guidelines](/help/communities/using/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](/help/communities/using/scf.md) (SCF). |
 |---|---|---|
-| Example usage of Communities components | [Community Components Guide](/help/$1/using/components-guide.md) |An interactive development tool. |
+| Example usage of Communities components | [Community Components Guide](/help/communities/using/components-guide.md) |An interactive development tool. |
 
 ## Tooling/HTL {#tooling-htl}
 

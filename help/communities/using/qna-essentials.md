@@ -24,11 +24,11 @@ This page provides the essential information for working with the questions and 
    <td>social/qna/components/hbs/qnaforum</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component">includable</a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component">includable</a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md">clientllibs</a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md">clientllibs</a></td> 
    <td>cq.ckeditor<br /> cq.social.hbs.voting<br /> cq.social.hbs.qna</td> 
   </tr>
   <tr>
@@ -41,7 +41,7 @@ This page provides the essential information for working with the questions and 
   </tr>
   <tr>
    <td> properties</td> 
-   <td>see <a href="../../communities/using/working-with-qna.md">Q&amp;A Forum Feature</a></td> 
+   <td>see <a href="/help/communities/using/working-with-qna.md">Q&amp;A Forum Feature</a></td> 
   </tr>
  </tbody>
 </table>

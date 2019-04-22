@@ -73,12 +73,12 @@ The following shortcuts are available for the Sites, Commerce, Screens, Assets, 
   <tr>
    <td> </td> 
    <td><span class="kbd">/</span></td> 
-   <td>Invoke <a href="../../../sites/authoring/using/search.md">search</a></td> 
+   <td>Invoke <a href="/help/sites/authoring/using/search.md">search</a></td> 
   </tr>
   <tr>
    <td> </td> 
    <td><span class="kbd">Alt+&lt;Number&gt;</span></td> 
-   <td>Toggle which <a href="../../../sites/authoring/using/basic-handling.md#rail-selector">rail selector option</a> to view</td> 
+   <td>Toggle which <a href="/help/sites/authoring/using/basic-handling.md#rail-selector">rail selector option</a> to view</td> 
   </tr>
   <tr>
    <td> </td> 

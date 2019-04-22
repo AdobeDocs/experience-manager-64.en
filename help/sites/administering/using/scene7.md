@@ -93,7 +93,7 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>New to Sites and Dynamic Media</td> 
    <td>Upload assets to AEM and use AEM Dynamic Media component to author assets on Sites pages</td> 
    <td><p>On</p> <p>(See step 3)</p> </td> 
-   <td><a href="../../../assets/using/adding-dynamic-media-assets-to-pages.md">On</a></td> 
+   <td><a href="/help/assets/using/adding-dynamic-media-assets-to-pages.md">On</a></td> 
    <td>Off</td> 
    <td>Off</td> 
   </tr> 
@@ -101,8 +101,8 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>In retail and are new to Sites and Dynamic Media</td> 
    <td>Upload NON-product assets to AEM for management and delivery. Upload PRODUCT assets to Scene7 and use Scene7 content browser in AEM and component to author Product Detail Pages on Sites.</td> 
    <td><p>On</p> <p>(See step 3)</p> </td> 
-   <td><a href="../../../assets/using/adding-dynamic-media-assets-to-pages.md">On</a></td> 
-   <td><a href="../../../assets/using/scene7.md#scene-content-browser">On</a></td> 
+   <td><a href="/help/assets/using/adding-dynamic-media-assets-to-pages.md">On</a></td> 
+   <td><a href="/help/assets/using/scene7.md#scene-content-browser">On</a></td> 
    <td>Off</td> 
   </tr> 
   <tr> 
@@ -117,8 +117,8 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>New to Dynamic Media and Templating</td> 
    <td>Use Dynamic Media for imaging and video. Author image templates in Scene7 and use Scene7 content finder to include templates in Sites pages.</td> 
    <td><p>On</p> <p>(See step 3)</p> </td> 
-   <td><a href="../../../assets/using/adding-dynamic-media-assets-to-pages.md">On</a></td> 
-   <td><a href="../../../assets/using/scene7.md#scene-content-browser">On</a></td> 
+   <td><a href="/help/assets/using/adding-dynamic-media-assets-to-pages.md">On</a></td> 
+   <td><a href="/help/assets/using/scene7.md#scene-content-browser">On</a></td> 
    <td>Off</td> 
   </tr> 
   <tr> 
@@ -126,7 +126,7 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>Upload assets to Scene7 and use AEM Scene7 content browser to search and author assets on Sites pages</td> 
    <td>Off</td> 
    <td>Off</td> 
-   <td><a href="../../../assets/using/scene7.md#scene-content-browser">On</a></td> 
+   <td><a href="/help/assets/using/scene7.md#scene-content-browser">On</a></td> 
    <td>Off</td> 
   </tr> 
   <tr> 
@@ -134,7 +134,7 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>Upload assets to DAM and automatically publish to Scene7 for delivery. Use AEM Scene7 content browser to search and author assets on Sites pages.</td> 
    <td>Off</td> 
    <td>Off</td> 
-   <td><a href="../../../assets/using/scene7.md#scene-content-browser">On</a></td> 
+   <td><a href="/help/assets/using/scene7.md#scene-content-browser">On</a></td> 
    <td><p><a href="#configuringautouploadingfromaemassets">On</a></p> <p>(See step 4)</p> </td> 
   </tr> 
   <tr> 

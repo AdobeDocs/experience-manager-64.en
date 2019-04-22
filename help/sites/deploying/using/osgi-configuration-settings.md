@@ -280,7 +280,7 @@ When creating a new configuration, do not make changes to the factory configurat
 
 >[!NOTE]
 >
->This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](/help/$1/using/production-ready.md).
+>This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](/help/sites/administering/using/production-ready.md).
 
 **Day CQ HTTP Header Authentication Handler** System wide settings for the basic authentication method of the HTTP request.
 

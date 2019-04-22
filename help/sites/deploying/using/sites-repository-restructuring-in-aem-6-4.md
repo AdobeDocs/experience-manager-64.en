@@ -56,7 +56,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
     </ol> <p>The following QueryBuilder query locates all references to ContextHub Segments in the Previous Locations.<br /> <br /> <code class="code">path=/content
        property=cq:segments
        property.operation=like
-       property.value=/etc/segmentation/contexthub/%</code><br /> <br /> This can be executed via <a href="../../../sites/developing/using/querybuilder-api.md" target="_blank">AEM QueryBuilder Debugger UI</a>. Note that this is a traversing query, so do not run it against production, and ensure traversal limits adjusted as needed.</p> </td> 
+       property.value=/etc/segmentation/contexthub/%</code><br /> <br /> This can be executed via <a href="/help/sites/developing/using/querybuilder-api.md" target="_blank">AEM QueryBuilder Debugger UI</a>. Note that this is a traversing query, so do not run it against production, and ensure traversal limits adjusted as needed.</p> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
@@ -87,7 +87,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any custom use of these Client Libraries should reference the Client Library by category, and not by path:</p> 
     <ol> 
-     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
+     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="/help/sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet.
       <ul> 
        <li><span class="code">/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/appmeasurement.js</span></li> 
@@ -129,7 +129,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (<span class="code">/apps</span>).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the cq:designPath property.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
      <li>Update AEM Dispatcher rules to allow serving of Client Libraries via the <span class="code">/etc.clientlibs/</span> proxy servlet.</li> 
@@ -353,7 +353,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (<span class="code">/apps</span>).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a class="external-link" data-ext-link-init="true" target="_blank"></a><a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a class="external-link" data-ext-link-init="true" target="_blank"></a><a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the <span class="code">cq:designPath</span> property via <strong>AEM &gt; Sites &gt; Custom Site Pages &gt; Page Properties &gt; Advanced Tab &gt; Design Field</strong>.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the <span class="code">/etc.clientlibs/</span> proxy servlet.</li> 
@@ -385,7 +385,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any custom use of these Client Libraries should reference the Client Library by category, and not by path.</p> 
     <ol> 
-     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
+     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="/help/sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet:</li> 
     </ol> 
     <ul> 
@@ -418,7 +418,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any custom use of these Client Libraries should reference the Client Library by category, and not by path.</p> 
     <ol> 
-     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
+     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="/help/sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet:</li> 
     </ol> 
     <ul> 
@@ -463,7 +463,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any custom use of these Client Libraries should reference the Client Library by category, and not by path.</p> 
     <ol> 
-     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
+     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="/help/sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet.</li> 
     </ol> 
     <ul> 

@@ -81,7 +81,7 @@ To add the 3D viewer component to a web page:
     </tr> 
     <tr> 
     <td>Stage Name</td> 
-    <td><p>Select a 3D Stage from the list of available stages. The stage provides background and lighting.</p> <p>See <a href="../../assets/using/about-the-use-of-stages-in-aem-3d.md" target="_blank">About the use of stages in AEM 3D Sites</a>.</p> </td> 
+    <td><p>Select a 3D Stage from the list of available stages. The stage provides background and lighting.</p> <p>See <a href="/help/assets/using/about-the-use-of-stages-in-aem-3d.md" target="_blank">About the use of stages in AEM 3D Sites</a>.</p> </td> 
     <td>Ignored for Adobe Dimension assets.</td> 
     </tr> 
     <tr> 

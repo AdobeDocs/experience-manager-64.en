@@ -38,11 +38,11 @@ A * [social graph](/help/communities/using/essentials-socialgraph.md)* captures 
    <td>social/activitystreams/components/hbs/activitystreams</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.activitystreams</td> 
   </tr>
   <tr>
@@ -55,7 +55,7 @@ A * [social graph](/help/communities/using/essentials-socialgraph.md)* captures 
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/activities.md">Activity Streams Feature</a></td> 
+   <td>see <a href="/help/communities/using/activities.md">Activity Streams Feature</a></td> 
   </tr>
  </tbody>
 </table>

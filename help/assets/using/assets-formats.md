@@ -121,7 +121,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td colspan="12"> </td> 
   </tr>
   <tr>
-   <td><a href="../../assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>AI</strong></a></td> 
+   <td><a href="/help/assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>AI</strong></a></td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;">x</td> 
    <td> </td> 
@@ -181,7 +181,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Adobe PDF"><a href="../../assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>PDF</strong></a></td> 
+   <td title="Adobe PDF"><a href="/help/assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>PDF</strong></a></td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;">x</td> 
@@ -331,7 +331,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Adobe In Design"><strong><a href="../../assets/using/managing-image-presets.md#indesign-indd-file-format">INDD</a></strong></td> 
+   <td title="Adobe In Design"><strong><a href="/help/assets/using/managing-image-presets.md#indesign-indd-file-format">INDD</a></strong></td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;"> </td> 

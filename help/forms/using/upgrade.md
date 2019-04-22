@@ -232,7 +232,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
      <ul> 
       <li>In AEM Forms, Adaptive Forms, Correspondence Management, HTML5 Forms, Forms Portal, HTML Workspace, Process Reporting, and Forms centric workflows on OSGi capabilities use Content Repository. If you plan to use AEM Forms for these capabilities, then Content Repository is required.</li> 
       <li>You do not require Content Repository for AEM Forms Document Security.</li> 
-     </ul> <p>Moreover, repository type of LiveCycle and AEM Forms are different. For available repository types and related information, see <a href="../../forms/using/choosing-persistence-type-for-aem-forms.md">Choosing a persistence type for an AEM Forms installation</a>. </p> </li> 
+     </ul> <p>Moreover, repository type of LiveCycle and AEM Forms are different. For available repository types and related information, see <a href="/help/forms/using/choosing-persistence-type-for-aem-forms.md">Choosing a persistence type for an AEM Forms installation</a>. </p> </li> 
     <li><p>Create a backup of LiveCycle ES3 database, Global Data Storage (GDS), and Content Repository (not required for document security). If you're upgrading to MongoMK or RDBMK persistence, export LiveCycle ES3 correspondence management assets as an archive.</p> </li> 
     <li><p>Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the <a href="/help/forms/using/aem-forms-jee-supported-platforms.md" target="_blank">Supported Platform Combinations</a> document.</p> <p>If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.<br /> </p> 
      <note type="note"> 
@@ -252,14 +252,14 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
     <li><p>(Not required for AEM Forms document security module) Upgrade and import the CRX repository to AEM 6.4 Forms server.</p> 
      <note type="note"> 
       <ul> 
-       <li>After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see <a href="../../sites/administering/using/granite-user-group-admin.md">Changing the Password for an Existing User</a>.</li> 
+       <li>After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see <a href="/help/sites/administering/using/granite-user-group-admin.md">Changing the Password for an Existing User</a>.</li> 
       </ul> 
      </note></li>   
    </ol></li> 
   <li><p>Perform the post-deployment tasks to verify login credentials, configure document services, correspondence management, document security, and more depending on your use case.</p> </li> 
   <li><p>Verify that the server is upgraded successfully:<br /> </p> <p>Perform a few routine operations on upgraded AEM Forms server to ensure that the server is upgraded successfully. You can fill and submit a few migrated forms or protect documents to ensure a successful upgrade.<br /> </p> 
    <note type="note"> 
-    <p>In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see <a href="../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md" target="_blank">Forms Repository Restructuring in AEM 6.4</a>.</p> 
+    <p>In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see <a href="/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md" target="_blank">Forms Repository Restructuring in AEM 6.4</a>.</p> 
    </note></li> 
  </ol> 
  <p><strong>Depending on your existing environment and application server, choose one of the following documents and follow the detailed instructions:</strong></p> 

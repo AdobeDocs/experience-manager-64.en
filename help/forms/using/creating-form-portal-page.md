@@ -63,7 +63,7 @@ The **Edit **dialog includes several tabs that provide configuration options des
   <tr> 
    <td><span class="uicontrol"><strong>Asset Folders</strong></span></td> 
    <td>Add Item</td> 
-   <td>Configures the folders where assets are uploaded using AEM Forms UI. By default, it lists all uploaded assets. For more information about AEM Forms UI, see <a href="../../forms/using/introduction-managing-forms.md" target="_blank">Introduction to managing forms</a>.</td> 
+   <td>Configures the folders where assets are uploaded using AEM Forms UI. By default, it lists all uploaded assets. For more information about AEM Forms UI, see <a href="/help/forms/using/introduction-managing-forms.md" target="_blank">Introduction to managing forms</a>.</td> 
   </tr> 
   <tr> 
    <td style="text-align: center;"><p style="text-align: left;"><span class="uicontrol"><strong>Display</strong></span></p> </td> 

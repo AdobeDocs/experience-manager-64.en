@@ -520,11 +520,11 @@ The following list is provided to inform you of tools that can be used. It is in
    <td>AEM</td> 
    <td><p>AEM itself provides a range of mechanisms to help you monitor, test, investigate and debug your application; including:</p> 
     <ul> 
-     <li><a href="../../sites/developing/using/developer-mode.md">Developer Mode</a></li> 
-     <li>The <a href="../../sites/developing/using/hobbes.md">Testing Console</a></li> 
-     <li><a href="../../sites/administering/using/operations-dashboard.md">Operations Dashboard</a></li> 
-     <li><a href="../../sites/authoring/using/content-insights.md">Content Insight</a></li> 
-     <li>The <a href="../../sites/authoring/using/author-environment-tools.md#content-tree">Content Tree</a></li> 
+     <li><a href="/help/sites/developing/using/developer-mode.md">Developer Mode</a></li> 
+     <li>The <a href="/help/sites/developing/using/hobbes.md">Testing Console</a></li> 
+     <li><a href="/help/sites/administering/using/operations-dashboard.md">Operations Dashboard</a></li> 
+     <li><a href="/help/sites/authoring/using/content-insights.md">Content Insight</a></li> 
+     <li>The <a href="/help/sites/authoring/using/author-environment-tools.md#content-tree">Content Tree</a></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -549,11 +549,11 @@ The following list is provided to inform you of tools that can be used. It is in
   </tr> 
   <tr> 
    <td>Eclipse</td> 
-   <td><p>Eclipse is an Open Source IDE, composed of various projects. These are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle.</p> <p>See <a href="../../sites/developing/using/howto-projects-eclipse.md">How to Develop AEM Projects Using Eclipse</a> for more information.</p> </td> 
+   <td><p>Eclipse is an Open Source IDE, composed of various projects. These are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle.</p> <p>See <a href="/help/sites/developing/using/howto-projects-eclipse.md">How to Develop AEM Projects Using Eclipse</a> for more information.</p> </td> 
   </tr> 
   <tr> 
    <td>IntelliJ</td> 
-   <td><p>A professional (and therefore liable to licensing costs) IDE offering a comprehensive range of features. </p> <p>See <a href="../../sites/developing/using/ht-intellij.md">How to Develop AEM Projects using IntelliJ IDEA</a> for more information.</p> </td> 
+   <td><p>A professional (and therefore liable to licensing costs) IDE offering a comprehensive range of features. </p> <p>See <a href="/help/sites/developing/using/ht-intellij.md">How to Develop AEM Projects using IntelliJ IDEA</a> for more information.</p> </td> 
   </tr> 
   <tr> 
    <td>Maven</td> 

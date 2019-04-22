@@ -116,7 +116,7 @@ The following references are available out-of-the-box to link directly to a scri
   </tr> 
   <tr> 
    <td width="125">Script Reference</td> 
-   <td width="400">Evaluate the referenced script. See the following section <a href="../../../sites/administering/using/segmentation.md#using-script-references">Using Script References</a> for more information.</td> 
+   <td width="400">Evaluate the referenced script. See the following section <a href="/help/sites/administering/using/segmentation.md#using-script-references">Using Script References</a> for more information.</td> 
   </tr> 
  </tbody> 
 </table>

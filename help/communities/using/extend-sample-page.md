@@ -13,7 +13,7 @@ discoiquuid: 7185fb13-46a2-4fa3-aa21-a51e63cdb9be
 
 # Add Comment to Sample Page{#add-comment-to-sample-page}
 
-| ** [⇐ Create the Components](/help/communities/using/extend-create-components.md)** |** [Alter the Appearance ⇒](/help/communities/using/extend-alter-appearance.md)** |
+| **[⇐ Create the Components](/help/communities/using/extend-create-components.md)** | ** [Alter the Appearance ⇒](/help/communities/using/extend-alter-appearance.md)** |
 |---|---|
 
 Now that the components for the custom comment system are in place in the application directory (/apps), it is possible to make use of the extended component. The instance of the comment system in a website to be affected must set its resourceType to be the custom comment system and include all necessary client libraries.
@@ -58,7 +58,7 @@ After the custom component is added to the page, it is also necessary to (re) [p
 
 ### Publish: Alt Comment on Sample Page {#publish-alt-comment-on-sample-page}
 
-After publishing both the custom application and the sample page, it should be possible to enter a comment. When signed in, either with a [demo user](/help/$1/using/tutorials.md#demo-users) or admin, it should be possible to post a comment.
+After publishing both the custom application and the sample page, it should be possible to enter a comment. When signed in, either with a [demo user](/help/communities/using/tutorials.md#demo-users) or admin, it should be possible to post a comment.
 
 Here is aaron.mcdonald@mailinator.com posting a comment:
 

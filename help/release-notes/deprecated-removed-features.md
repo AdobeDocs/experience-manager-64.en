@@ -199,7 +199,7 @@ This section is used to pre-announce changes in future release, that are not dep
   <tr>
    <td>Foundation</td> 
    <td>UI Framework</td> 
-   <td>Adobe is planning to deprecate the Coral UI 2 components in 2019. Coral UI 3 was introduced with AEM 6.2, and AEM 6.4 is fully based on Coral 3. Adobe recommends customers and partners that have build custom UIs with Coral 2 to refactored them to Coral 3. Adobe is providing a tool to convert Coral 2 dialogs to Coral 3 - <a href="../sites/developing/using/dialog-conversion.md">Read more</a>.</td> 
+   <td>Adobe is planning to deprecate the Coral UI 2 components in 2019. Coral UI 3 was introduced with AEM 6.2, and AEM 6.4 is fully based on Coral 3. Adobe recommends customers and partners that have build custom UIs with Coral 2 to refactored them to Coral 3. Adobe is providing a tool to convert Coral 2 dialogs to Coral 3 - <a href="/help/sites/developing/using/dialog-conversion.md">Read more</a>.</td> 
   </tr>
  </tbody>
 </table>

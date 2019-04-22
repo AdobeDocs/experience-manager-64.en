@@ -232,7 +232,7 @@ The table below includes an additional column named "Configuration Type" to expl
      <li>Still loaded on the page (if the given path is selected in <strong>Page Properties &gt; Personalization &gt; Segments Path</strong>).</li> 
      <li>Can be used for content targetting.</li> 
     </ul> </td> 
-   <td>You can use the <a href="../../../sites/deploying/using/upgrading-code-and-customizations.md" target="_blank">Segments Migration Tool</a> to migrate to the new location.</td> 
+   <td>You can use the <a href="/help/sites/deploying/using/upgrading-code-and-customizations.md" target="_blank">Segments Migration Tool</a> to migrate to the new location.</td> 
   </tr> 
   <tr> 
    <td>AEM Communities</td> 
@@ -304,7 +304,7 @@ The table below includes an additional column named "Configuration Type" to expl
    <td><span class="code">/conf/global/settings/community/srpc/defaultconfiguration</span></td> 
    <td>global</td> 
    <td>These configurations are backwards compatible. If the old paths are detected they will be used. Otherwise, the new paths will take precedence.</td> 
-   <td><p>Lazy Content Migration Task is available in the form of <span class="code">CQ64CommunitiesConfigsCleanupTask</span>.</p> <p>For more info, see the <a href="../../../sites/deploying/using/lazy-content-migration.md" target="_blank">Lazy Migration documentation</a>.</p> </td> 
+   <td><p>Lazy Content Migration Task is available in the form of <span class="code">CQ64CommunitiesConfigsCleanupTask</span>.</p> <p>For more info, see the <a href="/help/sites/deploying/using/lazy-content-migration.md" target="_blank">Lazy Migration documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>AEM Communities</td> 
@@ -376,7 +376,7 @@ The table below includes an additional column named "Configuration Type" to expl
    <td><p><span class="code">/libs/settings/cloudsettings</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudsettings</span></p> </td> 
    <td>tenant-aware</td> 
    <td><p>Existing entries under <span class="code">/etc</span> remain in place on upgrading the instance.</p> <p>Accessing the cloud settings UI after the upgrade will copy over the existing cloud settings to the new repository structure while preserving the existing content for backward compatibility.</p> </td> 
-   <td><p>Content models are the same, only the location has been changed to align with context-aware configurations.</p> <p>The <a href="../../../sites/deploying/using/lazy-content-migration.md">Lazy Migration task</a> covering these cloud settings will perform the following actions:</p> 
+   <td><p>Content models are the same, only the location has been changed to align with context-aware configurations.</p> <p>The <a href="/help/sites/deploying/using/lazy-content-migration.md">Lazy Migration task</a> covering these cloud settings will perform the following actions:</p> 
     <ul> 
      <li>Copy existing cloud settings in <span class="code">/etc/cloudsettings</span> to <span class="code">/conf/global/settings/cloudsettings</span></li> 
      <li>Remove all children of <span class="code">/etc/cloudsettings</span></li> 

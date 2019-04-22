@@ -72,7 +72,7 @@ Create or edit a file type setting to specify how the application handles the co
 
    [OpenOffice settings](/help/forms/using/admin-help/configuring-file-type-settings1.md#openoffice-settings)
 
-   [Other applications’ settings (Windows only)](/help/$1/using/admin-help/configuring-file-type-settings1.md#other-applications-settings-windows-only)
+   [Other applications’ settings (Windows only)](#other-applications-settings-windows-only)
 
    To go to another section, click its link on the web page or use the **[!UICONTROL Next]**or **[!UICONTROL Previous]** buttons.
 

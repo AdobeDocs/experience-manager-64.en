@@ -95,12 +95,12 @@ Perform the following steps in the recommended sequence to set up and configure 
    <td>Deploy reference sites packages on AEM Forms author instance.</td> 
   </tr> 
   <tr> 
-   <td><a href="../../forms/using/setup-reference-sites.md#optional-import-sample-data-into-microsoft-dynamics">Import sample data into Microsoft Dynamics</a></td> 
+   <td><a href="/help/forms/using/setup-reference-sites.md#optional-import-sample-data-into-microsoft-dynamics">Import sample data into Microsoft Dynamics</a></td> 
    <td>Author and Publish</td> 
    <td>Import sample data for credit card application, home mortgage application, and home insurance application walkthrough</td> 
   </tr> 
   <tr> 
-   <td><a href="../../forms/using/setup-reference-sites.md#configure-oauth-cloud-service-for-microsoft-dynamics">Configure OAuth cloud service for Microsoft Dynamics</a></td> 
+   <td><a href="/help/forms/using/setup-reference-sites.md#configure-oauth-cloud-service-for-microsoft-dynamics">Configure OAuth cloud service for Microsoft Dynamics</a></td> 
    <td>Author and Publish</td> 
    <td>Configure the OAuth cloud service in AEM Forms to enable communication between AEM Forms and Microsoft Dynamics. </td> 
   </tr> 

@@ -27,7 +27,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/composemessage</p> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td style="text-align: center;"> <a href="/help/communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -40,11 +40,11 @@ This page documents the details of working with using the Messaging component to
   </tr> 
   <tr> 
    <td style="text-align: center;"><strong>properties</strong></td> 
-   <td>see <a href="../../communities/using/configure-messaging.md">Confiiguring Messaging</a></td> 
+   <td>see <a href="/help/communities/using/configure-messaging.md">Confiiguring Messaging</a></td> 
   </tr> 
   <tr> 
    <td style="text-align: center;"><strong>admin configuration</strong></td> 
-   <td><a href="../../communities/using/messaging.md">Configuring Messaging</a></td> 
+   <td><a href="/help/communities/using/messaging.md">Configuring Messaging</a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/messagebox</p> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td style="text-align: center;"> <a href="/help/communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -75,11 +75,11 @@ This page documents the details of working with using the Messaging component to
   </tr> 
   <tr> 
    <td style="text-align: center;"><strong>properties</strong></td> 
-   <td>see <a href="../../communities/using/configure-messaging.md">Confiiguring Messaging</a></td> 
+   <td>see <a href="/help/communities/using/configure-messaging.md">Confiiguring Messaging</a></td> 
   </tr> 
   <tr> 
    <td style="text-align: center;"><strong>admin configuration</strong></td> 
-   <td><a href="../../communities/using/messaging.md">Configuring Messaging</a></td> 
+   <td><a href="/help/communities/using/messaging.md">Configuring Messaging</a></td> 
   </tr> 
  </tbody> 
 </table>

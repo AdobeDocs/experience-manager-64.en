@@ -98,7 +98,7 @@ To update the properties in the example adaptive form, click the link (labeled `
 
 >[!NOTE]
 >
->The label AF Numeric Field did not get changed because you had overridden this property from the component properties dialog, as described in [Add content to adaptive forms](/help/$1/using/synchronizing-adaptive-forms-xfa.md#p-add-content-to-adaptive-form-br-p).
+>The label AF Numeric Field did not get changed because you had overridden this property from the component properties dialog, as described in [Add content to adaptive forms](#p-add-content-to-adaptive-form-br-p).
 
 ### Adding new fields from XDP file to adaptive form &nbsp; {#adding-new-fields-from-xdp-file-to-adaptive-form-nbsp}
 

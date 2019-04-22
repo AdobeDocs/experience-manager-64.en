@@ -37,22 +37,22 @@ Best practices around Assets, including the dynamic media capability and Scene 7
  <tbody>
   <tr>
    <td>File Formats</td> 
-   <td><a href="../../../assets/using/assets-file-format-best-practices.md">Assets File formats Best Practices</a></td> 
+   <td><a href="/help/assets/using/assets-file-format-best-practices.md">Assets File formats Best Practices</a></td> 
    <td>Describes best practices around file support within AEM Assets.</td> 
   </tr>
   <tr>
    <td>Video Encoding</td> 
-   <td><a href="../../../assets/using/video.md#best-practices-for-encoding-videos">Encoding best practices</a></td> 
+   <td><a href="/help/assets/using/video.md#best-practices-for-encoding-videos">Encoding best practices</a></td> 
    <td>Describes best practice tips around encoding source video files.</td> 
   </tr>
   <tr>
    <td>Dynamic Imaging</td> 
-   <td><a href="../../../assets/using/best-practices-for-optimizing-the-quality-of-your-images.md">Dynamic Imaging best practices</a></td> 
+   <td><a href="/help/assets/using/best-practices-for-optimizing-the-quality-of-your-images.md">Dynamic Imaging best practices</a></td> 
    <td><p>Describes how to sharpen an image for best results and the best way to optimize the quality of your images if you're using the Dynamic Media functionality or are integrating with Scene7. </p> </td> 
   </tr>
   <tr>
    <td>Mulltilingual Assets</td> 
-   <td><a href="../../../assets/using/best-practices-for-translating-assets-efficiently.md">Translation best practices</a></td> 
+   <td><a href="/help/assets/using/best-practices-for-translating-assets-efficiently.md">Translation best practices</a></td> 
    <td>Describes best practices around translating AEM assets efficiently.</td> 
   </tr>
  </tbody>

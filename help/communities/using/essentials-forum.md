@@ -24,11 +24,11 @@ This page provides the essential information for working with the forum feature.
    <td>social/forum/components/hbs/forum<br /> social/forum/components/hbs/topic<br /> social/forum/components/hbs/post</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.ckeditor<br /> cq.social.hbs.voting<br /> cq.social.hbs.forum</td> 
   </tr>
   <tr>
@@ -41,7 +41,7 @@ This page provides the essential information for working with the forum feature.
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/forum.md">Forum Feature</a></td> 
+   <td>see <a href="/help/communities/using/forum.md">Forum Feature</a></td> 
   </tr>
  </tbody>
 </table>

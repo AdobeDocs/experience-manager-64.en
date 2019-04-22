@@ -462,7 +462,7 @@ For good performance, you should follow the settings guidelines presented below.
    <td>Data Store = S3 Datastore</td> 
    <td><p><span class="code">maxCachedBinarySize</span></p> <p><span class="code">cacheSizeInMB</span></p> </td> 
    <td><p>1048576 (1MB) or smaller</p> <p>2-10% of max heap size</p> </td> 
-   <td>See also <a href="../../../sites/deploying/using/data-store-config.md#data-store-configurations">Data Store Configurations</a>.</td> 
+   <td>See also <a href="/help/sites/deploying/using/data-store-config.md#data-store-configurations">Data Store Configurations</a>.</td> 
   </tr> 
   <tr> 
    <td>DAM Update Asset workflow</td> 
@@ -572,7 +572,7 @@ For good performance, you should follow the settings guidelines presented below.
    <td>Data Store = S3 Datastore</td> 
    <td><p><span class="code">maxCachedBinarySize</span></p> <p><span class="code">cacheSizeInMB</span></p> </td> 
    <td><p>1048576 (1MB) or smaller</p> <p>2-10% of max heap size</p> </td> 
-   <td>See also <a href="../../../sites/deploying/using/data-store-config.md#data-store-configurations">Data Store Configurations</a>.</td> 
+   <td>See also <a href="/help/sites/deploying/using/data-store-config.md#data-store-configurations">Data Store Configurations</a>.</td> 
   </tr> 
   <tr> 
    <td>DocumentNodeStoreService</td> 

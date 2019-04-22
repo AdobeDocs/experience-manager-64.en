@@ -252,7 +252,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
       </ul> </li> 
      <li>if "advanced", specifies the scoring engine based on quality and quantity 
       <ul> 
-       <li>requires an <a href="../../communities/using/advanced.md">additional package</a></li> 
+       <li>requires an <a href="/help/communities/using/advanced.md">additional package</a></li> 
       </ul> </li> 
      <li>default is "basic"</li> 
     </ul> </td> 
@@ -348,7 +348,7 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
   <tr> 
    <td style="text-align: center;">badgingType</td> 
    <td style="text-align: center;">String</td> 
-   <td style="text-align: left;"><em>(optional)</em> Identifies the scoring engine as either "basic" or "advanced". If the advanced scoring engine is desired, see <a href="../../communities/using/advanced.md">Advanced Scoring and Badges</a>. The default is "basic".</td> 
+   <td style="text-align: left;"><em>(optional)</em> Identifies the scoring engine as either "basic" or "advanced". If the advanced scoring engine is desired, see <a href="/help/communities/using/advanced.md">Advanced Scoring and Badges</a>. The default is "basic".</td> 
   </tr> 
   <tr> 
    <td style="text-align: center;"> 

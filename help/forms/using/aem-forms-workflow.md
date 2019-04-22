@@ -167,11 +167,11 @@ The application is the adaptive form associated with the workflow. When an appli
   </tr> 
   <tr> 
    <td>Prefill Service</td> 
-   <td>Select a <a href="../../forms/using/prepopulate-adaptive-form-fields.md#aem-forms-custom-prefill-service" target="_blank">prefill service</a> for the adaptive form.<br /> </td> 
+   <td>Select a <a href="/help/forms/using/prepopulate-adaptive-form-fields.md#aem-forms-custom-prefill-service" target="_blank">prefill service</a> for the adaptive form.<br /> </td> 
   </tr> 
   <tr> 
    <td>Workflow Model</td> 
-   <td>Select a <a href="../../forms/using/aem-forms-workflow.md#create-a-workflow-model">workflow model</a> for the application. A workflow model consists of logic and flow of the business process. </td> 
+   <td>Select a <a href="/help/forms/using/aem-forms-workflow.md#create-a-workflow-model">workflow model</a> for the application. A workflow model consists of logic and flow of the business process. </td> 
   </tr> 
   <tr> 
    <td>Data File Path</td> 

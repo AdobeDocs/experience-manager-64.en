@@ -26,11 +26,11 @@ Prior to including the leaderboard component on a page, it is necessary to confi
    <td>social/gamification/components/hbs/leaderboard</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.gamification.hbs.leaderboard</td> 
   </tr>
   <tr>
@@ -43,7 +43,7 @@ Prior to including the leaderboard component on a page, it is necessary to confi
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/enabling-leaderboard.md">Leaderboard Feature</a></td> 
+   <td>see <a href="/help/communities/using/enabling-leaderboard.md">Leaderboard Feature</a></td> 
   </tr>
  </tbody>
 </table>

@@ -107,7 +107,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs, perform the following actions to align to the latest model:</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location under <span class="code">/apps</span>.</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the <span class="code">cq:designPath</span> property via <strong>AEM &gt; DAM Admin &gt; Asset Share Page &gt; Page Properties &gt; Advanced Tab &gt; Design Field</strong>.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category. This requires updating Page implementation code.</li> 
      <li>Update the Dispatcher rules to allow serving of Client Libraries via the <span class="code">/etc.clientlibs/</span> proxy servlet.</li> 

@@ -136,7 +136,7 @@ Whenever data is to be installed on or fetched from publishers, then the author 
  <p>On AEM author instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
-  <li>Access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a>.<br /> For example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</li> 
+  <li>Access the <a href="/help/sites/deploying/using/configuring-osgi.md">Web Console</a>.<br /> For example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Adobe Granite Distribution - Encrypted Password Transport Secret Provider.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify property 
    <g class="gr_ gr_122 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" data-gr-id="122" id="122">
@@ -148,7 +148,7 @@ Whenever data is to be installed on or fetched from publishers, then the author 
     <g class="gr_ gr_13 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" data-gr-id="13" id="13">
       publishUser 
     </g>.</strong></li> 
-  <li>Set the username and password to the <a href="../../sites/administering/using/sync.md#createauthorizeduser">authorized user</a>.<br /> For example, <strong> 
+  <li>Set the username and password to the <a href="/help/sites/administering/using/sync.md#createauthorizeduser">authorized user</a>.<br /> For example, <strong> 
     <g class="gr_ gr_163 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="163" id="163">
       usersync 
     </g>-admin</strong></li> 
@@ -220,7 +220,7 @@ The author polls publishers every 30 seconds (default). If any packages are pres
  <p>On AEM author instance:</p> 
  <ol> 
   <li>sign in with administrator privileges.</li> 
-  <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a>,<br /> for example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a></li> 
+  <li>access the <a href="/help/sites/deploying/using/configuring-osgi.md">Web Console</a>,<br /> for example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a></li> 
   <li>Locate <strong>Apache Sling Distribution Trigger - Scheduled Triggers Factory</strong></li> 
  </ol> 
  <ul> 
@@ -250,7 +250,7 @@ For issues in Sling distribution where there is a discrepancy in subscriptions a
  <p>On each AEM publish instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
-  <li>Access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console.<br /> </a>For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+  <li>Access the <a href="/help/sites/deploying/using/configuring-osgi.md">Web Console.<br /> </a>For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
   <li>Locate <strong>AEM Communities User Sync Listener.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon)<br /> Verify Name: <strong> 
     <g class="gr_ gr_37 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="37" id="37">
@@ -313,7 +313,7 @@ User synchronization can stop if `rep:cache `nodes are synced across publishers.
  <summary>To ensure that updates are synced properly across publishers</summary> 
  <p>On each AEM publish instance:</p> 
  <ol> 
-  <li>Access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a><br /> for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+  <li>Access the <a href="/help/sites/deploying/using/configuring-osgi.md">Web Console</a><br /> for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
   <li>Locate the <strong>Apache Sling Distribution Packaging - Vault Package Builder Factory<br /> </strong>Builder name: socialpubsync-vlt.</li> 
   <li>Select the edit icon.</li> 
   <li>Add two Package Filters: 

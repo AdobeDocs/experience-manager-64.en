@@ -75,17 +75,17 @@ In Card View only, the processing status and progression is displayed as a progr
   <tr> 
    <td>4</td> 
    <td>Creating ground shadow</td> 
-   <td>Optional. Lets you generate an ambient occlusion drop shadow on the ground plane beneath the 3D object. See <a href="../../assets/using/advanced-config-3d.md">Advanced configuration settings</a> to enable or disable this processing.</td> 
+   <td>Optional. Lets you generate an ambient occlusion drop shadow on the ground plane beneath the 3D object. See <a href="/help/assets/using/advanced-config-3d.md">Advanced configuration settings</a> to enable or disable this processing.</td> 
   </tr> 
   <tr> 
    <td>5<br /> </td> 
    <td>Creating lightmaps</td> 
-   <td>Optional. Lets you increase the quality of the interactive preview and expedite rendering with the default renderer. See <a href="../../assets/using/advanced-config-3d.md">Advanced configuration settings</a> to enable or disable this processing.</td> 
+   <td>Optional. Lets you increase the quality of the interactive preview and expedite rendering with the default renderer. See <a href="/help/assets/using/advanced-config-3d.md">Advanced configuration settings</a> to enable or disable this processing.</td> 
   </tr> 
   <tr> 
    <td>6<br /> </td> 
    <td>Creating animation</td> 
-   <td>Optional. Lets you render a simple animation that is then used as a visual thumbnail in Card View. See <a href="../../assets/using/advanced-config-3d.md">Advanced configuration settings</a> to enable or disable this processing.</td> 
+   <td>Optional. Lets you render a simple animation that is then used as a visual thumbnail in Card View. See <a href="/help/assets/using/advanced-config-3d.md">Advanced configuration settings</a> to enable or disable this processing.</td> 
   </tr> 
   <tr> 
    <td>7<br /> </td> 

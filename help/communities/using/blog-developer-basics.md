@@ -36,11 +36,11 @@ The blog feature is comprised of two main components that are available by addin
    <td>social/journal/components/hbs/journal</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.ckeditor<br /> cq.social.hbs.voting<br /> cq.social.hbs.journal</td> 
   </tr>
   <tr>
@@ -53,7 +53,7 @@ The blog feature is comprised of two main components that are available by addin
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/blog-feature.md">Blog Feature</a></td> 
+   <td>see <a href="/help/communities/using/blog-feature.md">Blog Feature</a></td> 
   </tr>
  </tbody>
 </table>

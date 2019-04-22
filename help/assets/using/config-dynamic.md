@@ -992,7 +992,7 @@ Table of Manifest settings and their default values:
   <tr> 
    <td>thumbnailtime</td> 
    <td>1%,11%,21%,31%,41%,51%,61%,71%,81%,91%</td> 
-   <td>These values represent a snapshot of video playtime and are passed to <a href="https://encoding.com/">encoding.com</a>. See <a href="../../assets/using/video.md#about-video-thumbnails">About video thumbnails</a> for more information.</td> 
+   <td>These values represent a snapshot of video playtime and are passed to <a href="https://encoding.com/">encoding.com</a>. See <a href="/help/assets/using/video.md#about-video-thumbnails">About video thumbnails</a> for more information.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1316,11 +1316,11 @@ See [Delivering Dynamic Media Assets](delivering-dynamic-media-assets.md).
   </tr> 
   <tr> 
    <td>Copy an image URL</td> 
-   <td><p>The Copy URL dialog box displays a URL similar to following (URL is for demonstration purposes only):</p> <p><span class="code">https://IMAGESERVICEPUBLISHNODE/is/image/content/dam/path/to/Image.jpg?$preset$</span></p> <p>Where <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="../../assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
+   <td><p>The Copy URL dialog box displays a URL similar to following (URL is for demonstration purposes only):</p> <p><span class="code">https://IMAGESERVICEPUBLISHNODE/is/image/content/dam/path/to/Image.jpg?$preset$</span></p> <p>Where <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="/help/assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Copy a viewer URL</td> 
-   <td><p>The Copy URL dialog box displays a URL similar to the following (URL is for demonstration purposes only):</p> <p><span class="code">https://PUBLISHNODE/etc/dam/viewers/s7viewers/html5/BasicZoomViewer.html?asset=/content/dam/path/to/Image.jpg&amp;config=/conf/global/settings/dam/dm/presets/viewer/Zoom_dark&amp;serverUrl=https://IMAGESERVICEPUBLISHNODE/is/image/&amp;contentRoot=%2F</span></p> <p>Where <span class="code">PUBLISHNODE</span> refers to the regular AEM publish node and <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="../../assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
+   <td><p>The Copy URL dialog box displays a URL similar to the following (URL is for demonstration purposes only):</p> <p><span class="code">https://PUBLISHNODE/etc/dam/viewers/s7viewers/html5/BasicZoomViewer.html?asset=/content/dam/path/to/Image.jpg&amp;config=/conf/global/settings/dam/dm/presets/viewer/Zoom_dark&amp;serverUrl=https://IMAGESERVICEPUBLISHNODE/is/image/&amp;contentRoot=%2F</span></p> <p>Where <span class="code">PUBLISHNODE</span> refers to the regular AEM publish node and <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="/help/assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Copy a viewer's embed code</td> 
@@ -1342,7 +1342,7 @@ See [Delivering Dynamic Media Assets](delivering-dynamic-media-assets.md).
        "config" : "/conf/global/settings/dam/dm/presets/viewer/Zoom_dark",
        "asset" : "/content/dam/path/to/Image.jpg" }
        }).init();
-       &lt;/script&gt;</code></p> <p>Where <span class="code">PUBLISHNODE</span> refers to the regular AEM publish node and <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="../../assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
+       &lt;/script&gt;</code></p> <p>Where <span class="code">PUBLISHNODE</span> refers to the regular AEM publish node and <span class="code">IMAGESERVICEPUBLISHNODE</span> refers to the Image Service URL.</p> <p>See also <a href="/help/assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

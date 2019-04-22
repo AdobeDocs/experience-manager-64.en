@@ -44,11 +44,11 @@ Tagging of UGC may be enabled when configuring a [community site](/help/communit
    <td>social/commons/components/hbs/tagcloud</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.tagcloud</td> 
   </tr>
   <tr>
@@ -61,7 +61,7 @@ Tagging of UGC may be enabled when configuring a [community site](/help/communit
   </tr>
   <tr>
    <td><strong>properties</strong></td> 
-   <td>see <a href="../../communities/using/tagcloud.md">Using Social Tag Cloud</a></td> 
+   <td>see <a href="/help/communities/using/tagcloud.md">Using Social Tag Cloud</a></td> 
   </tr>
  </tbody>
 </table>

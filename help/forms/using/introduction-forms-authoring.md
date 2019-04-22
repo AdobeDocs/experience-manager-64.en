@@ -105,7 +105,7 @@ The sidebar comprises the following browsers:
   </tr> 
   <tr> 
    <td>Captcha</td> 
-   <td>Adds CAPTCHA validation using Google reCAPTCHA service. For details, see <a href="../../forms/using/captcha-adaptive-forms.md" target="_blank">Using CAPTCHA in adaptive forms</a>.</td> 
+   <td>Adds CAPTCHA validation using Google reCAPTCHA service. For details, see <a href="/help/forms/using/captcha-adaptive-forms.md" target="_blank">Using CAPTCHA in adaptive forms</a>.</td> 
   </tr> 
   <tr> 
    <td>Chart</td> 

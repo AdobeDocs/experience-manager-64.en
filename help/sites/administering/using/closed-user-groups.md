@@ -525,7 +525,7 @@ The following two OSGi components have been introduced to define authentication 
      <li><span class="code">cugSupportedPaths</span></li> 
      <li><span class="code">cugEnabled</span></li> 
      <li><span class="code">confgurationRanking</span></li> 
-    </ul> <p>Also, see <a href="../../../sites/administering/using/closed-user-groups.md#configuration-options" target="_blank">Configuration Options</a> below.</p> </td> 
+    </ul> <p>Also, see <a href="/help/sites/administering/using/closed-user-groups.md#configuration-options" target="_blank">Configuration Options</a> below.</p> </td> 
   </tr> 
   <tr> 
    <td>Confguration Policy</td> 

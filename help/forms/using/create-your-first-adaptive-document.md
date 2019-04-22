@@ -38,11 +38,11 @@ You will have an adaptive document similar to the following at the end of the tu
    <td>
     <ul> 
      <li>Setup AEM author instance. </li> 
-     <li>Install AEM Forms add-on. For detailed information see, <a href="../../forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">Install and configure AEM Forms</a>.</li> 
+     <li>Install AEM Forms add-on. For detailed information see, <a href="/help/forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">Install and configure AEM Forms</a>.</li> 
      <li>Obtain JDBC database driver (JAR file) from database provider. Examples in the tutorial are based on MySQL database and use Oracle's MySQL JDBC database driver. </li> 
      <li>Setup a database containing customer data. A database is essential to create an adaptive document. This tutorial uses a database to display form data model and persistence capabilities of AEM Forms. </li> 
-     <li>Create/import and enable <a href="../../forms/using/web-channel-print-channel.md">Templates for print and web channel</a>.</li> 
-     <li>Ensure you have the <a href="../../forms/using/document-fragments.md">Document fragments based on the FDM</a>.</li> 
+     <li>Create/import and enable <a href="/help/forms/using/web-channel-print-channel.md">Templates for print and web channel</a>.</li> 
+     <li>Ensure you have the <a href="/help/forms/using/document-fragments.md">Document fragments based on the FDM</a>.</li> 
     </ul> </td> 
   </tr>
  </tbody>

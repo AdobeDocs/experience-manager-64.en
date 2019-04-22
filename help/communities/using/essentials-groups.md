@@ -28,7 +28,7 @@ As of Communities [feature pack 1](/help/communities/using/deploy-communities.md
    <td>social/group/components/hbs/communitygroupmemberlist</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.communitygroups</td> 
   </tr>
   <tr>
@@ -41,7 +41,7 @@ As of Communities [feature pack 1](/help/communities/using/deploy-communities.md
   </tr>
   <tr>
    <td><strong>properties</strong></td> 
-   <td>see <a href="../../communities/using/creating-groups.md">Community Group</a></td> 
+   <td>see <a href="/help/communities/using/creating-groups.md">Community Group</a></td> 
   </tr>
  </tbody>
 </table>
@@ -55,7 +55,7 @@ As of Communities [feature pack 1](/help/communities/using/deploy-communities.md
    <td>social/group/components/hbs/communitygroups</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.communitygroups</td> 
   </tr>
   <tr>

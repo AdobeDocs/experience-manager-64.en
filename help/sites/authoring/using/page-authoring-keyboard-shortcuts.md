@@ -31,17 +31,17 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
   <tr>
    <td>Any Edit Window Mode<br /> </td> 
    <td><span class="code">Ctrl-Shift-m</span></td> 
-   <td>Toggle between <a href="../../../sites/authoring/using/author-environment-tools.md#page-modes"><strong>Preview</strong> and the currently selected mode</a> (e.g. <strong>Edit</strong>, <strong>Layout</strong>, etc).*</td> 
+   <td>Toggle between <a href="/help/sites/authoring/using/author-environment-tools.md#page-modes"><strong>Preview</strong> and the currently selected mode</a> (e.g. <strong>Edit</strong>, <strong>Layout</strong>, etc).*</td> 
   </tr>
   <tr>
    <td><strong>Edit</strong> mode</td> 
    <td><span class="code">Ctrl-z</span></td> 
-   <td><a href="../../../sites/authoring/using/editing-content.md#undoing-and-redoing-page-edits">Undo last change</a>.</td> 
+   <td><a href="/help/sites/authoring/using/editing-content.md#undoing-and-redoing-page-edits">Undo last change</a>.</td> 
   </tr>
   <tr>
    <td> </td> 
    <td><span class="code">Ctrl-y</span></td> 
-   <td><a href="../../../sites/authoring/using/editing-content.md#undoing-and-redoing-page-edits">Redo last change</a>.</td> 
+   <td><a href="/help/sites/authoring/using/editing-content.md#undoing-and-redoing-page-edits">Redo last change</a>.</td> 
   </tr>
   <tr>
    <td> </td> 

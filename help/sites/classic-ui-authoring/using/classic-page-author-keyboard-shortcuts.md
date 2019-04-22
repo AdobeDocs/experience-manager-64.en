@@ -94,7 +94,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
   <tr> 
    <td> </td> 
    <td><strong><span class="code">Ctrl-Alt-c</span></strong></td> 
-   <td>Shows the <a href="../../../sites/administering/using/client-context.md">client context</a>.</td> 
+   <td>Shows the <a href="/help/sites/administering/using/client-context.md">client context</a>.</td> 
   </tr> 
   <tr> 
    <td>Rich Text Editor<br /> </td> 

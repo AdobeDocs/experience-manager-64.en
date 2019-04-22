@@ -24,11 +24,11 @@ This page provides the essential information for working with the ideation featu
    <td>social/ideation/components/hbs/ideation</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.voting<br /> cq.social.hbs.liking<br /> cq.social.hbs.ideation</td> 
   </tr>
   <tr>
@@ -41,7 +41,7 @@ This page provides the essential information for working with the ideation featu
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/ideation-feature.md">Ideation Feature</a></td> 
+   <td>see <a href="/help/communities/using/ideation-feature.md">Ideation Feature</a></td> 
   </tr>
  </tbody>
 </table>

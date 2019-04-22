@@ -177,7 +177,7 @@ You can perform several operations on adaptive form fragments using the AEM Form
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>View Properties</p> </td> 
-   <td valign="top" width="406"><p>Opens the Properties panel. From the Properties panel, you can view and edit properties, generate a preview, and upload a thumbnail image for the selected fragment. For more information, see <a href="../../forms/using/manage-form-metadata.md" target="_blank">Managing metadata</a>.<br /> <br /> </p> </td> 
+   <td valign="top" width="406"><p>Opens the Properties panel. From the Properties panel, you can view and edit properties, generate a preview, and upload a thumbnail image for the selected fragment. For more information, see <a href="/help/forms/using/manage-form-metadata.md" target="_blank">Managing metadata</a>.<br /> <br /> </p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>Copy</p> </td> 
@@ -189,11 +189,11 @@ You can perform several operations on adaptive form fragments using the AEM Form
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>Preview</p> </td> 
-   <td valign="top" width="406"><p>Provides options to preview the fragment as an HTML or a custom preview by merging data from an XML file with the fragment. For more information, see <a href="../../forms/using/previewing-forms.md" target="_blank">Previewing a form</a>.<br /> <br /> </p> </td> 
+   <td valign="top" width="406"><p>Provides options to preview the fragment as an HTML or a custom preview by merging data from an XML file with the fragment. For more information, see <a href="/help/forms/using/previewing-forms.md" target="_blank">Previewing a form</a>.<br /> <br /> </p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>Start Review / Manage Review</p> </td> 
-   <td valign="top" width="406"><p>Allows initiating and managing a review of the selected fragment. For more information, see <a href="../../forms/using/create-reviews-forms.md" target="_blank">Creating and managing reviews</a>.<br /> <br /> </p> </td> 
+   <td valign="top" width="406"><p>Allows initiating and managing a review of the selected fragment. For more information, see <a href="/help/forms/using/create-reviews-forms.md" target="_blank">Creating and managing reviews</a>.<br /> <br /> </p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>Create Dictionary</p> </td> 

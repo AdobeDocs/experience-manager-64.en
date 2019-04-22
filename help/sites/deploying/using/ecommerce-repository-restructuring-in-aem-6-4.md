@@ -30,7 +30,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>You can use a <a href="../../../sites/deploying/using/lazy-content-migration.md" target="_blank">Lazy Migration</a> task to migrate E-Commerce data.</p> <p>It performs the following steps:</p> 
+   <td><p>You can use a <a href="/help/sites/deploying/using/lazy-content-migration.md" target="_blank">Lazy Migration</a> task to migrate E-Commerce data.</p> <p>It performs the following steps:</p> 
     <ul> 
      <li>adjusts references to old location to point to new location</li> 
      <li>moves content from old location to new location</li> 

@@ -36,7 +36,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply to the use o
   <tr> 
    <td>Console</td> 
    <td><strong><span class="code">Shift-Double-Click</span></strong><br /> (on required page)</td> 
-   <td>Open page in new window.<br /> <strong>Note:</strong> this is operational if the <a href="../../../sites/classic-ui-authoring/using/author-env-user-props.md">User Properties</a> are set to Single Window; if Multiple Windows then this is the default behavior.</td> 
+   <td>Open page in new window.<br /> <strong>Note:</strong> this is operational if the <a href="/help/sites/classic-ui-authoring/using/author-env-user-props.md">User Properties</a> are set to Single Window; if Multiple Windows then this is the default behavior.</td> 
   </tr> 
  </tbody> 
 </table>

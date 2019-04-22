@@ -100,11 +100,11 @@ For more information on the Interactive Communication authoring interface, see [
    <td><strong>Example purpose</strong></td> 
   </tr> 
   <tr> 
-   <td><a href="../../forms/using/texts-interactive-communications.md" target="_blank">Text</a></td> 
+   <td><a href="/help/forms/using/texts-interactive-communications.md" target="_blank">Text</a></td> 
    <td>Text for adding address, recipient's email, and body text of the letter </td> 
   </tr> 
   <tr> 
-   <td><a href="../../forms/using/conditions-interactive-communications.md" target="_blank">Condition</a></td> 
+   <td><a href="/help/forms/using/conditions-interactive-communications.md" target="_blank">Condition</a></td> 
    <td>Condition to add the appropriate header image to the communication based on the type of the policy: Standard or Premium. <br /> </td> 
   </tr> 
   <tr> 

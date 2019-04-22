@@ -109,25 +109,25 @@ See also [Integrating AEM 3D with Autodesk Maya](/help/assets/using/integrate-ma
    <td>MA, MB</td> 
    <td>Native Autodesk Maya</td> 
    <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="../assets/using/integrate-maya-with-3d.md" target="_blank">Integrating AEM 3D with Autodesk Maya</a>.</td> 
+   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/using/integrate-maya-with-3d.md" target="_blank">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>
   <tr>
    <td>JT</td> 
    <td>Siemens PLM Open CAD</td> 
    <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="../assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
+   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>
   <tr>
    <td>*</td> 
-   <td><p>Additional 3D input formats supported by Autodesk Maya can be enabled.</p> <p>See <a href="../assets/using/integrate-maya-with-3d.md#enabling-additional-formats-supported-by-maya" target="_blank">Enabling Additional Formats Supported by Maya</a>.</p> </td> 
+   <td><p>Additional 3D input formats supported by Autodesk Maya can be enabled.</p> <p>See <a href="/help/assets/using/integrate-maya-with-3d.md#enabling-additional-formats-supported-by-maya" target="_blank">Enabling Additional Formats Supported by Maya</a>.</p> </td> 
    <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="../assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
+   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>
   <tr>
    <td>MAX</td> 
    <td>Native Autodesk 3ds Max</td> 
    <td>Windows only</td> 
-   <td>Autodesk 3ds Max is required on the author node to enable this file format. See <a href="../assets/using/integrating-aem-3d-with-autodesk-3ds-max.md">Integrating AEM 3D with Autodesk 3ds Max</a>.</td> 
+   <td>Autodesk 3ds Max is required on the author node to enable this file format. See <a href="/help/assets/using/integrating-aem-3d-with-autodesk-3ds-max.md">Integrating AEM 3D with Autodesk 3ds Max</a>.</td> 
   </tr>
  </tbody>
 </table>

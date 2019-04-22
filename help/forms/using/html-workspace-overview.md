@@ -70,7 +70,7 @@ The mapping between various types of customizations in both the workspaces is as
     </ol> </td> 
    <td>
     <ol> 
-     <li><a href="../../forms/using/changing-locale-user-interface.md">Changing AEM Forms workspace Locale</a></li> 
+     <li><a href="/help/forms/using/changing-locale-user-interface.md">Changing AEM Forms workspace Locale</a></li> 
     </ol> </td> 
   </tr>
   <tr>
@@ -82,8 +82,8 @@ The mapping between various types of customizations in both the workspaces is as
     </ol> </td> 
    <td>
     <ol> 
-     <li><a href="../../forms/using/changing-organization-logo-branding.md">Changing Organization Logo</a> </li> 
-     <li><a href="../../forms/using/changing-color-scheme-interface.md">Changing Color Scheme</a></li> 
+     <li><a href="/help/forms/using/changing-organization-logo-branding.md">Changing Organization Logo</a> </li> 
+     <li><a href="/help/forms/using/changing-color-scheme-interface.md">Changing Color Scheme</a></li> 
     </ol> </td> 
   </tr>
   <tr>
@@ -96,8 +96,8 @@ The mapping between various types of customizations in both the workspaces is as
     </ol> </td> 
    <td>
     <ol> 
-     <li><a href="../../forms/using/description-reusable-components.md">Working with Reusable components</a></li> 
-     <li><a href="../../forms/using/creating-new-login-screen.md">Creating a new Login screen</a></li> 
+     <li><a href="/help/forms/using/description-reusable-components.md">Working with Reusable components</a></li> 
+     <li><a href="/help/forms/using/creating-new-login-screen.md">Creating a new Login screen</a></li> 
      <li>Approval Container is deprecated.</li> 
     </ol> </td> 
   </tr>

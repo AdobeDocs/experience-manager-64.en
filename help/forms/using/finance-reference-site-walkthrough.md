@@ -99,13 +99,13 @@ Sarah clicks **[!UICONTROL Send mail]**. She receives an email with a link to re
  <p>It is recommended to review the form to understand the schema, components, rules, Form Data Models, forms workflow, and submit action used to build the form.</p> 
  <p>Also, see the following documentation for more information about features used in the credit card application adaptive form:</p> 
  <ul> 
-  <li><a href="../../forms/using/introduction-forms-authoring.md" target="_blank">Introduction to authoring adaptive forms</a></li> 
-  <li><a href="../../forms/using/adaptive-form-xml-schema-form-model.md" target="_blank">Creating adaptive forms using XML Schema</a></li> 
-  <li><a href="../../forms/using/rule-editor.md" target="_blank">Rule Editor</a></li> 
-  <li><a href="../../forms/using/themes.md" target="_blank">Themes</a></li> 
-  <li><a href="../../forms/using/data-integration.md" target="_blank">Data Integration</a></li> 
-  <li><a href="../../forms/using/working-with-adobe-sign.md" target="_blank">Using Adobe Sign in adaptive forms</a></li> 
-  <li><a href="../../forms/using/aem-forms-workflow.md" target="_blank">Forms-centric workflow on OSGi</a></li> 
+  <li><a href="/help/forms/using/introduction-forms-authoring.md" target="_blank">Introduction to authoring adaptive forms</a></li> 
+  <li><a href="/help/forms/using/adaptive-form-xml-schema-form-model.md" target="_blank">Creating adaptive forms using XML Schema</a></li> 
+  <li><a href="/help/forms/using/rule-editor.md" target="_blank">Rule Editor</a></li> 
+  <li><a href="/help/forms/using/themes.md" target="_blank">Themes</a></li> 
+  <li><a href="/help/forms/using/data-integration.md" target="_blank">Data Integration</a></li> 
+  <li><a href="/help/forms/using/working-with-adobe-sign.md" target="_blank">Using Adobe Sign in adaptive forms</a></li> 
+  <li><a href="/help/forms/using/aem-forms-workflow.md" target="_blank">Forms-centric workflow on OSGi</a></li> 
  </ul> 
 </details>
 

@@ -26,11 +26,11 @@ In contrast to pinning a post to the top of a forum, this feature allows for con
    <td>social/commons/components/hbs/featuredcontent</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td> <i>default</i></td> 
   </tr>
   <tr>
@@ -43,7 +43,7 @@ In contrast to pinning a post to the top of a forum, this feature allows for con
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/featured.md">Featured Content</a></td> 
+   <td>see <a href="/help/communities/using/featured.md">Featured Content</a></td> 
   </tr>
  </tbody>
 </table>

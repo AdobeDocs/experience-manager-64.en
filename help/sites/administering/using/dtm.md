@@ -142,11 +142,11 @@ When hosting the Dynamic Tag Management libraries on AEM, AEM automatically conf
   </tr> 
   <tr> 
    <td>Domain Hint</td> 
-   <td><p>(Optional) The domain of the AEM server that is hosting the Dynamic Tag Management library. Specify a value to override the default domain that is configured for the <a href="../../../sites/developing/using/externalizer.md">Day CQ Link Externalizer service</a>.</p> <p>When connected to Dynamic Tag Management, AEM uses this value to configure the Staging HTTP Path or the Production HTTP Path of the Library Download properties for the Dynamic Tag Management web property.</p> </td> 
+   <td><p>(Optional) The domain of the AEM server that is hosting the Dynamic Tag Management library. Specify a value to override the default domain that is configured for the <a href="/help/sites/developing/using/externalizer.md">Day CQ Link Externalizer service</a>.</p> <p>When connected to Dynamic Tag Management, AEM uses this value to configure the Staging HTTP Path or the Production HTTP Path of the Library Download properties for the Dynamic Tag Management web property.</p> </td> 
   </tr> 
   <tr> 
    <td>Secure Domain Hint</td> 
-   <td><p>(Optional) The domain of the AEM server that is hosting the Dynamic Tag Management library over HTTPS. Specify a value to override the default domain that is configured for the <a href="../../../sites/developing/using/externalizer.md">Day CQ Link Externalizer service</a>.</p> <p>When connected to Dynamic Tag Management, AEM uses this value to configure the Staging HTTPS Path or the Production HTTPS Path of the Library Download properties for the Dynamic Tag Management web property.</p> </td> 
+   <td><p>(Optional) The domain of the AEM server that is hosting the Dynamic Tag Management library over HTTPS. Specify a value to override the default domain that is configured for the <a href="/help/sites/developing/using/externalizer.md">Day CQ Link Externalizer service</a>.</p> <p>When connected to Dynamic Tag Management, AEM uses this value to configure the Staging HTTPS Path or the Production HTTPS Path of the Library Download properties for the Dynamic Tag Management web property.</p> </td> 
   </tr> 
   <tr> 
    <td>Shared Secret</td> 

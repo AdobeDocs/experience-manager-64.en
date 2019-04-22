@@ -30,11 +30,11 @@ See [Tagging Enablement Resources](/help/communities/using/tag-resources.md).
    <td>social/enablement/components/hbs/catalog</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.enablement.hbs.breadcrumbs<br /> cq.social.enablement.hbs.catalog<br /> cq.social.enablement.hbs.resource<br /> cq.social.enablement.hbs.learningpath</td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ See [Tagging Enablement Resources](/help/communities/using/tag-resources.md).
   </tr> 
   <tr> 
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/catalog.md">Catalog Feature</a></td> 
+   <td>see <a href="/help/communities/using/catalog.md">Catalog Feature</a></td> 
   </tr> 
  </tbody> 
 </table>

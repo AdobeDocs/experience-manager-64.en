@@ -74,7 +74,7 @@ There may be cases however when this is not entirely necessary. The following ta
    <th><strong>Disadvantages</strong></th> 
   </tr>
   <tr>
-   <td>AEM is used as a headless CMS without using the <a href="../../../sites/developing/using/spa-reference-materials.md">SPA Editor SDK framework.</a></td> 
+   <td>AEM is used as a headless CMS without using the <a href="/help/sites/developing/using/spa-reference-materials.md">SPA Editor SDK framework.</a></td> 
    <td>The front end developer has full control over the app.</td> 
    <td><p>Content authors cannot leverage AEM's content authoring experience.</p> <p>The code is neither portable nor reusable if it contains static references or routing.</p> <p>Does not allow use of the template editor so the front end developer must maintain editable templates via the JCR.</p> </td> 
   </tr>

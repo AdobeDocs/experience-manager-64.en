@@ -84,15 +84,15 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Communities</td> 
-   <td>This console allows you to create and manage <a href="../../../communities/using/sites-console.md">community sites</a> for <a href="../../../communities/using/overview.md#engagement-community">engagement</a> and <a href="../../../communities/using/overview.md#enablement-community">enablement</a>.</td> 
+   <td>This console allows you to create and manage <a href="/help/communities/using/sites-console.md">community sites</a> for <a href="/help/communities/using/overview.md#engagement-community">engagement</a> and <a href="/help/communities/using/overview.md#enablement-community">enablement</a>.</td> 
   </tr>
   <tr>
    <td>Commerce</td> 
-   <td>This allows you to manage products, product catalogs and orders related to your <a href="../../../sites/administering/using/ecommerce.md">Commerce</a> sites.</td> 
+   <td>This allows you to manage products, product catalogs and orders related to your <a href="/help/sites/administering/using/ecommerce.md">Commerce</a> sites.</td> 
   </tr>
   <tr>
    <td>Experience Fragments</td> 
-   <td>An <a href="../../../sites/authoring/using/experience-fragments.md">experience fragment</a> is a stand-alone experience that can be re-used across channels and have variations, saving the trouble of repeatedly copying and pasting experiences or parts of experiences.</td> 
+   <td>An <a href="/help/sites/authoring/using/experience-fragments.md">experience fragment</a> is a stand-alone experience that can be re-used across channels and have variations, saving the trouble of repeatedly copying and pasting experiences or parts of experiences.</td> 
   </tr>
   <tr>
    <td>Forms</td> 
@@ -100,19 +100,19 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Personalization</td> 
-   <td>This console provides a <a href="../../../sites/authoring/using/personalization.md">framework of tools for authoring targeted content and presenting personalized experiences</a>.</td> 
+   <td>This console provides a <a href="/help/sites/authoring/using/personalization.md">framework of tools for authoring targeted content and presenting personalized experiences</a>.</td> 
   </tr>
   <tr>
    <td>Projects</td> 
-   <td>The <a href="../../../sites/authoring/using/touch-ui-managing-projects.md">Projects console gives you direct access to your projects</a>. Projects are virtual dashboards. They can be used to build a team, then give that team access to resources, workflows and tasks, allowing people to work on a common goal. <br /> </td> 
+   <td>The <a href="/help/sites/authoring/using/touch-ui-managing-projects.md">Projects console gives you direct access to your projects</a>. Projects are virtual dashboards. They can be used to build a team, then give that team access to resources, workflows and tasks, allowing people to work on a common goal. <br /> </td> 
   </tr>
   <tr>
    <td>Screens</td> 
-   <td><a href="../../../screens/using/authoring-screens.md">Screens</a> will allow you to manage all your customer-facing screens, of any size and in any location.</td> 
+   <td><a href="/help/screens/using/authoring-screens.md">Screens</a> will allow you to manage all your customer-facing screens, of any size and in any location.</td> 
   </tr>
   <tr>
    <td>Sites</td> 
-   <td>The Sites consoles let you <a href="../../../sites/authoring/using/page-authoring.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
+   <td>The Sites consoles let you <a href="/help/sites/authoring/using/page-authoring.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
   </tr>
  </tbody>
 </table>

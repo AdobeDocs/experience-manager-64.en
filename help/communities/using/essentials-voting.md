@@ -28,11 +28,11 @@ Anonymous posting of a vote is not supported. Site visitors must register and si
    <td>social/tally/components/hbs/voting</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientlibs</strong></a></td> 
+   <td> <a href="/help/communities/using/client-customize.md#clientlibs-for-scf"><strong>clientlibs</strong></a></td> 
    <td> cq.social.hbs.voting</td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Anonymous posting of a vote is not supported. Site visitors must register and si
   </tr> 
   <tr> 
    <td><strong>properties</strong></td> 
-   <td><p>see <a href="../../communities/using/voting.md">Using Voting</a></p> </td> 
+   <td><p>see <a href="/help/communities/using/voting.md">Using Voting</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

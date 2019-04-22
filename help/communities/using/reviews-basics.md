@@ -30,11 +30,11 @@ Anonymous posting of a review is not supported. Site visitors must register and 
    <td>social/reviews/components/hbs/reviews</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.reviews</td> 
   </tr>
   <tr>
@@ -47,7 +47,7 @@ Anonymous posting of a review is not supported. Site visitors must register and 
   </tr>
   <tr>
    <td><strong>properties</strong></td> 
-   <td>see <a href="../../communities/using/reviews.md">Using Reviews</a></td> 
+   <td>see <a href="/help/communities/using/reviews.md">Using Reviews</a></td> 
   </tr>
  </tbody>
 </table>

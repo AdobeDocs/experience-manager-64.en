@@ -24,11 +24,11 @@ This page provides the essential information for working with the file library f
    <td>social/filelibrary/components/hbs/filelibrary</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.ckeditor<br /> cq.social.hbs.voting<br /> cq.social.hbs.filelibrary</td> 
   </tr>
   <tr>
@@ -41,7 +41,7 @@ This page provides the essential information for working with the file library f
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/file-library.md">File Library Feature</a></td> 
+   <td>see <a href="/help/communities/using/file-library.md">File Library Feature</a></td> 
   </tr>
  </tbody>
 </table>

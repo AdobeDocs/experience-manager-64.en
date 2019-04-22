@@ -15,12 +15,12 @@ discoiquuid: f8766420-a74c-4bbc-95d0-8452fb98663f
   <li>The service can convert non-interactive PDF forms into adaptive forms. It has limited support for AcroForms and XFA-based PDF forms. The service does not support scanned forms.<br /> </li> 
   <li>The service converts only English-languag forms to adaptive forms. You can translate converted adaptive forms to another language using <a href="https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/using-aem-translation-workflow-to-localize-adaptive-forms.html">AEM translation workflow</a>.</li> 
  </ul> 
- <p>We are regularly adding support for other source types. Keep the <a href="../../../forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md">What’s supported</a> section on your watchlist for a regular update on newly added features and capabilities.</p> 
+ <p>We are regularly adding support for other source types. Keep the <a href="/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md">What’s supported</a> section on your watchlist for a regular update on newly added features and capabilities.</p> 
 </details>
 
 <details> 
  <summary>Can the service produce an XDP instead of an adaptive form? </summary> 
- <p>The service does not produce an XDP output for the time being. We are regularly adding features and to the service. Keep the <a href="../../../forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md">What’s supported</a> section on your watchlist for a regular update on newly added features and capabilities.</p> 
+ <p>The service does not produce an XDP output for the time being. We are regularly adding features and to the service. Keep the <a href="/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md">What’s supported</a> section on your watchlist for a regular update on newly added features and capabilities.</p> 
 </details>
 
 <details> 
@@ -35,7 +35,7 @@ discoiquuid: f8766420-a74c-4bbc-95d0-8452fb98663f
 
 <details> 
  <summary>Can the service convert scanned paper forms and colored forms to adaptive forms?</summary> 
- <p>The service can convert non-interactive PDF forms to adaptive forms. It has limited support for AcroForms and XFA-based PDF forms. Scanned forms and colored forms are not supported for the time being. We are regularly adding features and to the service. Keep the <a href="../../../forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md">What’s supported</a> section on your watchlist for a regular update on newly added features and capabilities.</p> 
+ <p>The service can convert non-interactive PDF forms to adaptive forms. It has limited support for AcroForms and XFA-based PDF forms. Scanned forms and colored forms are not supported for the time being. We are regularly adding features and to the service. Keep the <a href="/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md">What’s supported</a> section on your watchlist for a regular update on newly added features and capabilities.</p> 
 </details>
 
 <details> 
@@ -57,12 +57,12 @@ discoiquuid: f8766420-a74c-4bbc-95d0-8452fb98663f
 
 <details> 
  <summary>Does the service identify and use fonts of source PDF in output adaptive forms?</summary> 
- <p>Adaptive forms use <a href="../../../forms/using/themes.md">themes to style a form</a>. The service uses the fonts and font styles specified in the theme applied during the conversion. You can change fonts and font styles of the theme to provide a distinct look and feel to the fonts of an adaptive form.</p> 
+ <p>Adaptive forms use <a href="/help/forms/using/themes.md">themes to style a form</a>. The service uses the fonts and font styles specified in the theme applied during the conversion. You can change fonts and font styles of the theme to provide a distinct look and feel to the fonts of an adaptive form.</p> 
 </details>
 
 <details> 
  <summary>Some form objects are not converted to adaptive form components. How to resolve the issue?</summary> 
- <p>Automated Forms Conversion service is trained on a large set of forms. However, there are some fields and styles in PDF forms which are easily visible to the human eye but difficult to understand for the service. The service can fail to identify such fields. You can use the <a href="../../../forms/using/wip/review-correct-ui-edited.md" target="_blank">Review and Correct</a> editor to help identify missing or incorrectly identified fields. For example, if a choice group is identified as a panel or a text box is not identified. You can use the Review and Correct editor make improvements and regenerate the adaptive form to get an output closer to the desired experience.</p> 
+ <p>Automated Forms Conversion service is trained on a large set of forms. However, there are some fields and styles in PDF forms which are easily visible to the human eye but difficult to understand for the service. The service can fail to identify such fields. You can use the <a href="/help/forms/using/wip/review-correct-ui-edited.md" target="_blank">Review and Correct</a> editor to help identify missing or incorrectly identified fields. For example, if a choice group is identified as a panel or a text box is not identified. You can use the Review and Correct editor make improvements and regenerate the adaptive form to get an output closer to the desired experience.</p> 
 </details>
 
 <details> 
@@ -80,7 +80,7 @@ discoiquuid: f8766420-a74c-4bbc-95d0-8452fb98663f
 
 <details> 
  <summary>Where should the header and footers be placed?</summary> 
- <p>Place header and footer in adaptive forms template. If your form has header and footer, the service detects and replaces these header and footer during the conversion with header and footer available in adaptive form template. If any extra header or footer is included in the adaptive form, you can use the <a href="../../../forms/using/wip/review-correct-ui-edited.md">Review and Correct</a> editor to fix or remove such header or footer.</p> 
+ <p>Place header and footer in adaptive forms template. If your form has header and footer, the service detects and replaces these header and footer during the conversion with header and footer available in adaptive form template. If any extra header or footer is included in the adaptive form, you can use the <a href="/help/forms/using/wip/review-correct-ui-edited.md">Review and Correct</a> editor to fix or remove such header or footer.</p> 
 </details>
 
 <details> 

@@ -148,7 +148,7 @@ In some cases, alternating between the tail and full compaction modes delays the
    <td><p>In AEM 6.3 changes to the storage format were needed, especially for improving the performance and efficacy of Online Revision Cleanup. These changes are not backwards compatible, and repositories created with the old Oak Segment (AEM 6.2 and previous) must be migrated.</p> <p>Additional benefits of changing the storage format:</p> 
     <ul> 
      <li>Better scalability (optimized segment size).</li> 
-     <li>Faster <a href="../../../sites/administering/using/data-store-garbage-collection.md" target="_blank">Data Store Garbage Collection</a>.<br /> </li> 
+     <li>Faster <a href="/help/sites/administering/using/data-store-garbage-collection.md" target="_blank">Data Store Garbage Collection</a>.<br /> </li> 
      <li>Ground work for future enhancements.</li> 
     </ul> </td> 
    <td> </td> 
@@ -190,7 +190,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>How to best estimate the duration of the migration?</strong></td> 
-   <td>Migration performance can be greatly improved if <a href="../../../sites/deploying/using/revision-cleanup.md#how-to-run-offline-revision-cleanup">offline revision cleanup</a> is executed prior to the migration. All customers are advised to execute it as a pre-requisite of the upgrade process. In general, the duration of the migration should be similar to the duration of the offline revision cleanup task, assuming that the offline revision cleanup task has been executed before the migration.</td> 
+   <td>Migration performance can be greatly improved if <a href="/help/sites/deploying/using/revision-cleanup.md#how-to-run-offline-revision-cleanup">offline revision cleanup</a> is executed prior to the migration. All customers are advised to execute it as a pre-requisite of the upgrade process. In general, the duration of the migration should be similar to the duration of the offline revision cleanup task, assuming that the offline revision cleanup task has been executed before the migration.</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -212,7 +212,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>How can I configure the start time of the Online Revision Cleanup maintenance task ?</strong></td> 
-   <td>See the <a href="../../../sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup">How to run Online Revision Cleanup</a> section. </td> 
+   <td>See the <a href="/help/sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup">How to run Online Revision Cleanup</a> section. </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -232,7 +232,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>Why does the first Online Revision Cleanup not reclaim any space when run after the Offline Revision Cleanup ?</strong></td> 
-   <td><p>Offline Revision Cleanup is reclaiming everything but the latest generation compared to latest two generations for Online Revision Cleanup. In the case of a fresh repository, Online Revision Cleanup will not reclaim any space when executed for the first time after the Offline Revision Cleanup because there is no generation old enough to be reclaimed.</p> <p>Aditionally, read the "Running Online Revision Cleanup after Offline Revision Cleanup" section of <a href="../../../sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup">this chapter</a>.</p> </td> 
+   <td><p>Offline Revision Cleanup is reclaiming everything but the latest generation compared to latest two generations for Online Revision Cleanup. In the case of a fresh repository, Online Revision Cleanup will not reclaim any space when executed for the first time after the Offline Revision Cleanup because there is no generation old enough to be reclaimed.</p> <p>Aditionally, read the "Running Online Revision Cleanup after Offline Revision Cleanup" section of <a href="/help/sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup">this chapter</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>Are there any prerequisites before running Online Revision Cleanup?</strong></td> 
-   <td><p>Online Revision Cleanup is available only with AEM 6.3 and later releases. Also, if you are using an older version of AEM you need to migrate to the new <a href="../../../sites/deploying/using/revision-cleanup.md#migrating-to-oak-segment-tar">Oak Segment Tar</a>.</p> </td> 
+   <td><p>Online Revision Cleanup is available only with AEM 6.3 and later releases. Also, if you are using an older version of AEM you need to migrate to the new <a href="/help/sites/deploying/using/revision-cleanup.md#migrating-to-oak-segment-tar">Oak Segment Tar</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -341,7 +341,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>Is Offline Revision Cleanup able to free more disk space than Online Revision Cleanup?</strong></td> 
-   <td><p>Offline Revision Cleanup can immediately remove old revisions while Online Revision Cleanup needs to account for old revisions still being referenced by the application stack. The former can thus remove garbage more aggressively than the latter where the effect is amortised over the course of a few garbage collection cycles.</p> <p>Aditionally, read the "Running Online Revision Cleanup after Offline Revision Cleanup" section of <a href="../../../sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup">this chapter</a>.</p> </td> 
+   <td><p>Offline Revision Cleanup can immediately remove old revisions while Online Revision Cleanup needs to account for old revisions still being referenced by the application stack. The former can thus remove garbage more aggressively than the latter where the effect is amortised over the course of a few garbage collection cycles.</p> <p>Aditionally, read the "Running Online Revision Cleanup after Offline Revision Cleanup" section of <a href="/help/sites/deploying/using/revision-cleanup.md#how-to-run-online-revision-cleanup">this chapter</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -380,7 +380,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>Where can we find the statistics of the last Online Revision Cleanup executions ?</strong></td> 
-   <td><p>Status, progress and statistics are exposed via JMX (<span class="code">SegmentRevisionGarbageCollection</span> MBean). For more details about the <span class="code">SegmentRevisionGarbageCollection</span> MBean, read the <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">following paragraph</a>.</p> <p>Progress can be tracked via the <span class="code">EstimatedRevisionGCCompletion</span> attribute of the <span class="code">SegmentRevisionGarbageCollection MBean.</span></p> <p>You can obtain a reference of the MBean using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are only available since the last system start. External monitoring tooling could be leveraged to keep the data beyond AEM uptime. See <a href="../../../sites/administering/using/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> </td> 
+   <td><p>Status, progress and statistics are exposed via JMX (<span class="code">SegmentRevisionGarbageCollection</span> MBean). For more details about the <span class="code">SegmentRevisionGarbageCollection</span> MBean, read the <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">following paragraph</a>.</p> <p>Progress can be tracked via the <span class="code">EstimatedRevisionGCCompletion</span> attribute of the <span class="code">SegmentRevisionGarbageCollection MBean.</span></p> <p>You can obtain a reference of the MBean using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are only available since the last system start. External monitoring tooling could be leveraged to keep the data beyond AEM uptime. See <a href="/help/sites/administering/using/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -399,7 +399,7 @@ In some cases, alternating between the tail and full compaction modes delays the
       <ul> 
        <li>There are many failure conditions, all of them are marked by WARN or ERROR log messages staring with "TarMK GC”.</li> 
       </ul> </li> 
-    </ul> <p>Also, see the <a href="../../../sites/deploying/using/revision-cleanup.md#troubleshooting-based-on-error-messages">Troubleshooting Based on Error Messages</a> section below.</p> </td> 
+    </ul> <p>Also, see the <a href="/help/sites/deploying/using/revision-cleanup.md#troubleshooting-based-on-error-messages">Troubleshooting Based on Error Messages</a> section below.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -411,24 +411,24 @@ In some cases, alternating between the tail and full compaction modes delays the
    <td><strong>How to check the integrity of the repository after Online Revision Cleanup has completed?</strong></td> 
    <td><p>A repository integrity check is not needed after the Online Revision Cleanup. </p> <p>However, you can perform the following actions to check the repository status after cleanup:</p> 
     <ul> 
-     <li>A repository <a href="../../../sites/deploying/using/consistency-check.md" target="_blank">traversal check</a></li> 
+     <li>A repository <a href="/help/sites/deploying/using/consistency-check.md" target="_blank">traversal check</a></li> 
      <li>Use the oak-run tool after the cleanup process has completed to check for inconsistencies. For further info on how to do this, check the <a href="https://github.com/apache/jackrabbit-oak/blob/trunk/oak-doc/src/site/markdown/nodestore/segment/overview.md#check" target="_blank">Apache Documentation.</a> You do not need to shut down AEM to run the tool.</li> 
     </ul> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>How to detect if Online Revision Cleanup has failed and what are the steps to recover?</strong></td> 
-   <td>Failure conditions are marked by WARN or ERROR log messages starting with "TarMK GC”. Also, see the <a href="../../../sites/deploying/using/revision-cleanup.md#troubleshooting-based-on-error-messages">Troubleshooting Based on Error Messages</a> section below.</td> 
+   <td>Failure conditions are marked by WARN or ERROR log messages starting with "TarMK GC”. Also, see the <a href="/help/sites/deploying/using/revision-cleanup.md#troubleshooting-based-on-error-messages">Troubleshooting Based on Error Messages</a> section below.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><strong>What information is exposed in the Revision Cleanup Health Check? How and when do they contribute to the colour coded status levels? </strong></td> 
-   <td><p>The Revision Clean-up Health Check is part of the <a href="../../../sites/administering/using/operations-dashboard.md#health-reports" target="_blank">Operations Dashboard</a>.<br /> </p> <p>The status will be <strong>GREEN</strong> if the last execution of the Online Revision Cleanup maintenance task has completed succesfully.</p> <p>It will be <strong>YELLOW</strong> if the Online Revision Cleanup maintenance task was cancelled once.<br /> </p> <p>It will be <strong>RED</strong> if the Online Revision Cleanup maintenance task was cancelled three times in a row. <strong>In this case manual interaction is required</strong> or Online Revision Clean-up is likely to fail again. For more information, read the <a href="../../../sites/deploying/using/revision-cleanup.md#troubleshooting-online-revision-cleanup">Troubleshooting</a> section below.<br /> </p> <p>Also note that the Health Check status will be reset after a system restart. So a freshly restarted instance will show a green status on the Revision Cleanup Health Check. External monitoring tooling could be leveraged to keep the data beyond AEM uptime. See <a href="../../../sites/administering/using/operations-dashboard.md#monitoring-with-nagios">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> </td> 
+   <td><p>The Revision Clean-up Health Check is part of the <a href="/help/sites/administering/using/operations-dashboard.md#health-reports" target="_blank">Operations Dashboard</a>.<br /> </p> <p>The status will be <strong>GREEN</strong> if the last execution of the Online Revision Cleanup maintenance task has completed succesfully.</p> <p>It will be <strong>YELLOW</strong> if the Online Revision Cleanup maintenance task was cancelled once.<br /> </p> <p>It will be <strong>RED</strong> if the Online Revision Cleanup maintenance task was cancelled three times in a row. <strong>In this case manual interaction is required</strong> or Online Revision Clean-up is likely to fail again. For more information, read the <a href="/help/sites/deploying/using/revision-cleanup.md#troubleshooting-online-revision-cleanup">Troubleshooting</a> section below.<br /> </p> <p>Also note that the Health Check status will be reset after a system restart. So a freshly restarted instance will show a green status on the Revision Cleanup Health Check. External monitoring tooling could be leveraged to keep the data beyond AEM uptime. See <a href="/help/sites/administering/using/operations-dashboard.md#monitoring-with-nagios">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><p><strong>How to monitor Automatic Cleanup on a standby instance?</strong></p> </td> 
-   <td><p>Status, progress and statistics are exposed via JMX by using the <span class="code">SegmentRevisionGarbageCollection</span> MBean. See also the following <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">Oak documentation</a>. </p> <p>You can obtain a reference of the MBean by using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are available only since the last system start. External monitoring tooling could be leveraged to keep the data beyond the AEM uptime. Also, see See <a href="../../../sites/administering/using/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> <p>The log files can also be used to check the status, progress and statistics of the Automatic Cleanup.</p> </td> 
+   <td><p>Status, progress and statistics are exposed via JMX by using the <span class="code">SegmentRevisionGarbageCollection</span> MBean. See also the following <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">Oak documentation</a>. </p> <p>You can obtain a reference of the MBean by using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are available only since the last system start. External monitoring tooling could be leveraged to keep the data beyond the AEM uptime. Also, see See <a href="/help/sites/administering/using/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> <p>The log files can also be used to check the status, progress and statistics of the Automatic Cleanup.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -604,12 +604,12 @@ In addition to the methods presented above, you can also trigger the revision cl
    <td> 
     <ul> 
      <li><strong>Oak revision:</strong> Oak organizes all the content in a large tree hierarchy that consists of nodes and properties. Each snapshot or revision of this content tree is immutable, and changes to the tree are expressed as a sequence of new revisions. Typically, each content modification triggers a new revision. See also <a href="https://jackrabbit.apache.org/dev/ngp.html" target="_blank" title="Follow link">https://jackrabbit.apache.org/dev/ngp.html</a>.</li> 
-     <li><strong>Page Version:</strong> Versioning creates a "snapshot" of a page at a specific point in time. Typically, a new version is created when a page is activated. For more information, see <a href="../../../sites/authoring/using/working-with-page-versions.md" target="_blank">Working with Page Versions</a>.</li> 
+     <li><strong>Page Version:</strong> Versioning creates a "snapshot" of a page at a specific point in time. Typically, a new version is created when a page is activated. For more information, see <a href="/help/sites/authoring/using/working-with-page-versions.md" target="_blank">Working with Page Versions</a>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td><strong>How to speed up the Offline Revision Cleanup task if it does not complete within 8 hours ?</strong></td> 
-   <td>If the revision task does not complete within 8 hours and the <a href="../../../sites/administering/using/operations-dashboard.md#diagnosis-tools" target="_blank">thread dumps</a> reveal that the main hotspot is <span class="code">InMemoryCompactionMap.findEntry</span>, use the following parameter with the oak-run tool <strong>versions 1.4 </strong>or higher: <span class="code">-Dtar.PersistCompactionMap=true</span>. Be aware that the <span class="code">-Dtar.PersistCompactionMap</span> parameter has been removed in Oak version 1.6.</td> 
+   <td>If the revision task does not complete within 8 hours and the <a href="/help/sites/administering/using/operations-dashboard.md#diagnosis-tools" target="_blank">thread dumps</a> reveal that the main hotspot is <span class="code">InMemoryCompactionMap.findEntry</span>, use the following parameter with the oak-run tool <strong>versions 1.4 </strong>or higher: <span class="code">-Dtar.PersistCompactionMap=true</span>. Be aware that the <span class="code">-Dtar.PersistCompactionMap</span> parameter has been removed in Oak version 1.6.</td> 
   </tr> 
  </tbody> 
 </table>

@@ -1186,7 +1186,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
        <td>For a pop-up video viewer experience</td> 
        <td> 
        <ol> 
-       <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
+       <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="/help/assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
        <li>From the drop-down menu, then tap <strong>Viewers</strong>.</li> 
        <li>In the left rail, tap the video viewer preset name. A preview of the video is opened in a separate page.</li> 
        <li>In the left rail, at the bottom, tap <strong>URL</strong>.</li> 
@@ -1198,7 +1198,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
        <td>For an embedded video viewer experience<br /> </td> 
        <td> 
        <ol> 
-       <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
+       <li>Navigate to the <i>published </i>video asset that you want to associate with the chapter file that you uploaded. Remember that URLs are only available to copy <i>after</i> you have first <i>published</i> the assets. See <a href="/help/assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></li> 
        <li>From the drop-down menu, then tap <strong>Viewers</strong>.</li> 
        <li>In the left rail, tap the video viewer preset name. A preview of the video is opened in a separate page.</li> 
        <li>In the left rail, at the bottom, tap <strong>Embed</strong>.</li> 

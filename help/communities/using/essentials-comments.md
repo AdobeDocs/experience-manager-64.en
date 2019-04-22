@@ -26,11 +26,11 @@ The comments component establishes a comment system such that each individual po
    <td> social/commons/components/hbs/comments</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>Clientlibs</strong></a></td> 
+   <td> <a href="/help/communities/using/client-customize.md#clientlibs-for-scf"><strong>Clientlibs</strong></a></td> 
    <td>cq.ckeditor<br /> cq.social.hbs.comments<br /> cq.social.hbs.voting</td> 
   </tr>
   <tr>
@@ -43,7 +43,7 @@ The comments component establishes a comment system such that each individual po
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td> see <a href="../../communities/using/comments.md">Using Comments</a></td> 
+   <td> see <a href="/help/communities/using/comments.md">Using Comments</a></td> 
   </tr>
  </tbody>
 </table>

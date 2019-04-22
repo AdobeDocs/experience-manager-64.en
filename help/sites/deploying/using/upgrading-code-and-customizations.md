@@ -77,7 +77,7 @@ Several tools for tools for analyzing and inspecting query performance are avail
 
 ### Classic UI Authoring {#classic-ui-authoring}
 
-Classic UI authoring is still available in AEM 6.4 but is being deprecated. More information can be found [here](/help/release-notes/deprecated-removed-features.md#pre-announcement-for-next-release). If your application is currently running on the Classic UI author environment it is recommended to upgrade to AEM 6.4 and continue using the Classic UI. Migration to the Touch UI can then be planned as separate project to be completed over several development cycles. In order to use the Classic UI in AEM 6.4 several OSGi configurations are needed to be committed to the code base. More details on how to configure this can be found [here](/help/../sites/administering/using//enable-classic-ui.md).
+Classic UI authoring is still available in AEM 6.4 but is being deprecated. More information can be found [here](/help/release-notes/deprecated-removed-features.md#pre-announcement-for-next-release). If your application is currently running on the Classic UI author environment it is recommended to upgrade to AEM 6.4 and continue using the Classic UI. Migration to the Touch UI can then be planned as separate project to be completed over several development cycles. In order to use the Classic UI in AEM 6.4 several OSGi configurations are needed to be committed to the code base. More details on how to configure this can be found [here](/help/sites/administering/using/enable-classic-ui.md).
 
 ## Align with 6.4 Repository Structure {#align-repository-structure}
 

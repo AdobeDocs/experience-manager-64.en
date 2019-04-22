@@ -26,11 +26,11 @@ The assignments feature is the ability to assign enablement resources and learni
    <td>social/enablement/components/hbs/myassigned</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
    <td>cq.social.enablement.hbs.breadcrumbs<br /> cq.social.enablement.hbs.myassigned<br /> cq.social.enablement.hbs.resource<br /> cq.social.enablement.hbs.learningpath</td> 
   </tr>
   <tr>
@@ -43,7 +43,7 @@ The assignments feature is the ability to assign enablement resources and learni
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/assignments.md">Assignments Feature</a></td> 
+   <td>see <a href="/help/communities/using/assignments.md">Assignments Feature</a></td> 
   </tr>
  </tbody>
 </table>

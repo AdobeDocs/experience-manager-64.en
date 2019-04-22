@@ -235,7 +235,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (<span class="code">/apps</span>).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the <span class="code">
        <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
         cq
@@ -274,7 +274,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
        cq
@@ -313,7 +313,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="19" id="19">
        cq
@@ -352,7 +352,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
        cq
@@ -695,7 +695,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites/dep
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites/developing/using/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
        cq

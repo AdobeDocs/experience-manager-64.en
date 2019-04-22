@@ -24,11 +24,11 @@ This page provides essential information on working with the calendar feature.
    <td>social/calendar/components/hbs/calendar</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
+   <td> <a href="/help/communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
+   <td> <a href="/help/communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.calendar</td> 
   </tr>
   <tr>
@@ -42,7 +42,7 @@ This page provides essential information on working with the calendar feature.
   </tr>
   <tr>
    <td><strong> properties</strong></td> 
-   <td>see <a href="../../communities/using/calendar.md">Using Calendars</a></td> 
+   <td>see <a href="/help/communities/using/calendar.md">Using Calendars</a></td> 
   </tr>
  </tbody>
 </table>
