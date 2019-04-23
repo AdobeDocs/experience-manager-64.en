@@ -33,4 +33,4 @@ Develop page templates and components that are optimized for viewing using mobil
 
 ## Developing Mobile Apps {#developing-mobile-apps}
 
-Develop mobile applications that use AEM pages as the application interface. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. Content Sync enables you to create versioned archives of pages for bundling with apps. To learn more about Content Sync, click [here](/help/mobile/using/phonegap-contentsync.md).
+Develop mobile applications that use AEM pages as the application interface. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. Content Sync enables you to create versioned archives of pages for bundling with apps. To learn more about Content Sync, click [here](/help/mobile/phonegap-contentsync.md).

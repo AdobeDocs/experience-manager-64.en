@@ -106,7 +106,7 @@ If the user, uploading the movie files does not have delete permissions under as
 
 Adobe Experience Manager (AEM) 6.4 currently lets you upload up to 2 GB of assets at a time.
 
-For additional information on maximum number of assets that can be operated with AEM 6.4, see [Assets sizing guide](/help/assets/using/assets-sizing-guide.md).
+For additional information on maximum number of assets that can be operated with AEM 6.4, see [Assets sizing guide](/help/assets/assets-sizing-guide.md).
 
 ### What are the default settings for OOTB configurations while creating Language Copy? {#what-are-the-default-settings-for-ootb-configurations-while-creating-language-copy}
 

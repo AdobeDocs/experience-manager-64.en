@@ -159,7 +159,7 @@ Transient workflows were introduced for loading a large number of assets, where 
 
 >[!NOTE]
 >
->See [Best Practices for Assets](/help/assets/using/performance-tuning-guidelines.md#transient-workflows) for further information about how Transient Workflows impact Asset performance.
+>See [Best Practices for Assets](/help/assets/performance-tuning-guidelines.md#transient-workflows) for further information about how Transient Workflows impact Asset performance.
 
 ### Multi Resource Support {#multi-resource-support}
 

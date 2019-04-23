@@ -396,4 +396,4 @@ curl -u admin:admin -F "*=@test.properties;type=text/plain" http://localhost:450
 
 ### Asset Manipulation {#asset-manipulation}
 
-See [Assets HTTP API](/help/assets/using/mac-api-assets.md) for details.
+See [Assets HTTP API](/help/assets/mac-api-assets.md) for details.

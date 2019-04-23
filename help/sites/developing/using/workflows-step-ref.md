@@ -22,7 +22,7 @@ Workflow models consist of a series of steps of various types. According to the 
 >For module specific steps see also:
 >
 >* [AEM Forms Workflow Step Reference](/help/forms/using/aem-forms-workflow-step-reference.md)
->* [Processing Assets Using Media Handlers and Workflows](/help/assets/using/media-handlers.md)
+>* [Processing Assets Using Media Handlers and Workflows](/help/assets/media-handlers.md)
 >
 
 ## Step Properties {#step-properties}

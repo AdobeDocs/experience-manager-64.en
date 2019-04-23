@@ -24,7 +24,7 @@ This guide covers all AEM Developing tasks, such as
 | [Administering Guide](/help/sites/administering/using/home.md) | This guide |
 | [Authoring Guide](/help/sites/authoring/using/home.md) | This guide |
 | [Classic UI Authoring Guide](/help/sites/classic-ui-authoring/using/home.md) | This guide  |
-| [Screens User Guide](/help/screens/using/home.md) | This guide |
+| [Screens User Guide](/help/screens/home.md) | This guide |
 | [Deploying User Guide](/help/sites/developing/using/home.md) | This guide  |
 | [Developing User Guide](/help/sites/deploying/using/home.md)|T his guide|
 | [Managing User Guide](home.md)|This guide |

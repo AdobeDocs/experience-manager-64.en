@@ -19,7 +19,7 @@ discoiquuid: 8c399a27-abdb-41fb-bd76-f30d22f1d68f
 
 >[!CAUTION]
 >
->[Content fragment models](/help/assets/using/content-fragments-models.md) are now recommended for creating all your fragments. 
+>[Content fragment models](/help/assets/content-fragments-models.md) are now recommended for creating all your fragments. 
 >
 >Content fragment models are used for all examples in We.Retail.
 

@@ -19,13 +19,13 @@ discoiquuid: af95c6c7-0475-4f55-88a8-ec5e39a9ddcd
 
 A content fragment extends a standard asset; see:
 
-* [Creating and Managing Content Fragments](/help/assets/using/content-fragments.md) and [Page Authoring with Content Fragments](/help/sites/authoring/using/content-fragments.md) for further information about content fragments.
+* [Creating and Managing Content Fragments](/help/assets/content-fragments.md) and [Page Authoring with Content Fragments](/help/sites/authoring/using/content-fragments.md) for further information about content fragments.
 
-* [Managing Assets](/help/assets/using/managing-assets-touch-ui.md) and [Customizing and Extending Assets](/help/assets/using/extending-assets.md) for further information about standard assets.
+* [Managing Assets](/help/assets/managing-assets-touch-ui.md) and [Customizing and Extending Assets](/help/assets/extending-assets.md) for further information about standard assets.
 
 ## Architecture {#architecture}
 
-The basic [constituent parts](/help/assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) of a content fragment are:
+The basic [constituent parts](/help/assets/content-fragments.md#constituent-parts-of-a-content-fragment) of a content fragment are:
 
 * A *Content Fragment,*
 * consisting of one or more *Content Element*s,
@@ -35,7 +35,7 @@ Depending on the type of fragment, either models or templates are also used:
 
 >[!CAUTION]
 >
->[Content fragment models](/help/assets/using/content-fragments-models.md) are now recommended for creating all your fragments. 
+>[Content fragment models](/help/assets/content-fragments-models.md) are now recommended for creating all your fragments. 
 >
 >Content fragment models are used for all examples in We.Retail.
 
@@ -112,7 +112,7 @@ As with standard assets, a content fragment is held under:
 
 ### Asset Permissions {#asset-permissions}
 
-For further details see [Content Fragment - Delete Considerations](/help/assets/using/content-fragments-delete.md).
+For further details see [Content Fragment - Delete Considerations](/help/assets/content-fragments-delete.md).
 
 ### Feature Integration {#feature-integration}
 
@@ -219,7 +219,7 @@ Content fragments can be integrated with:
 
 * **Metadata schemas**
 
-  * Content fragments (re)use the [metadata schemas](/help/assets/using/metadata-schemas.md), that can be defined with standard assets.
+  * Content fragments (re)use the [metadata schemas](/help/assets/metadata-schemas.md), that can be defined with standard assets.
     * CFM provides its own, specific schema:  
       `/libs/dam/content/schemaeditors/forms/contentfragment`  
       this can be extended if required.

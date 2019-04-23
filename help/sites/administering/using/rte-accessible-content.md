@@ -22,7 +22,7 @@ AEM supports both:
 >
 >See also:
 >
->* our [Quick Guide to WCAG 2.0](/help/managing/using/qg-wcag.md) for further details
+>* our [Quick Guide to WCAG 2.0](/help/managing/qg-wcag.md) for further details
 >* [Creating accessible content (WCAG 2.0 conformance)](/help/sites/authoring/using/creating-accessible-content.md)  
 >
 

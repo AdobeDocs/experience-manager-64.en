@@ -29,7 +29,7 @@ When administering workflows you can start them using a variety of methods:
 >Other methods are also available to authors; for full details see:
 >
 >* [Applying Workflows to Pages](/help/sites/authoring/using/workflows-applying.md)
->* [How to apply workflows to DAM assets](/help/assets/using/assets-workflow.md)
+>* [How to apply workflows to DAM assets](/help/assets/assets-workflow.md)
 >* [AEM Forms](https://helpx.adobe.com/aem-forms/6-2/aem-workflows-submit-process-form.html)
 >* [Translation Projects](/help/sites/administering/using/tc-manage.md)
 >

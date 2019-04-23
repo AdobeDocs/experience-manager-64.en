@@ -18,15 +18,15 @@ AEM-6.4-DynamicMedia-3D version 3.1.0 (October 10, 2018)
 
 The AEM 3D feature pack enables support for 3D content in AEM Assets. It provides capabilities to upload, manage, preview, and render 3D assets. Support for viewing and rendering is optimized for individual objects (rather than complex scenes with multiple objects).
 
-AEM 3D supports Adobe Dimension (Dn) and glTF asset types. The implementation for these asset types is substantially different from that for traditional 3D types described in this documentation. See [Working with Adobe Dimension assets](/help/assets/using/working-dimension-assets.md).
+AEM 3D supports Adobe Dimension (Dn) and glTF asset types. The implementation for these asset types is substantially different from that for traditional 3D types described in this documentation. See [Working with Adobe Dimension assets](/help/assets/working-dimension-assets.md).
 
 Also included are server-side integrations with Autodesk® Maya® (Windows only). When you install and configure Maya on the same server as AEM you enable support for native Maya file formats, including high-quality rendering with the NVIDIA® mental ray® Standalone plug-in for Maya. Installing and configuring 3ds Max on the server enables support for the native .max file format.
 
-See [Integrating with Autodesk Maya](/help/assets/using/integrate-maya-with-3d.md).
+See [Integrating with Autodesk Maya](/help/assets/integrate-maya-with-3d.md).
 
-See also [Installing and configuring AEM 3D Assets](/help/assets/using/install-config-3d.md) and [Advanced configuration settings](/help/assets/using/advanced-config-3d.md).
+See also [Installing and configuring AEM 3D Assets](/help/assets/install-config-3d.md) and [Advanced configuration settings](/help/assets/advanced-config-3d.md).
 
-See also [Working with 3D assets](/help/assets/using/3d-assets.md).
+See also [Working with 3D assets](/help/assets/3d-assets.md).
 
 ## System requirements {#system-requirements}
 
@@ -57,13 +57,13 @@ Other browsers may not support interactive viewing of 3D content in AEM. Only Go
 * Mass storage - High bandwidth SSD storage is recommended.  
   On upload, 3D assets are converted to a proprietary format for fast, interactive viewing. Depending on the type of 3D asset, storage space of 2-3x the size of the uploaded 3D asset is required.
 
-See also [Working with 3D assets](/help/assets/using/3d-assets.md).
+See also [Working with 3D assets](/help/assets/3d-assets.md).
 
 ## Installing and configuring AEM 3D {#installing-and-configuring-aem-d}
 
-See [Installing and configuring AEM 3D](/help/assets/using/install-config-3d.md).
+See [Installing and configuring AEM 3D](/help/assets/install-config-3d.md).
 
-See also [Integrating AEM 3D with Autodesk Maya](/help/assets/using/integrate-maya-with-3d.md) and [Integrating AEM 3D with Autodesk 3ds Max](/help/assets/using/integrating-aem-3d-with-autodesk-3ds-max.md).
+See also [Integrating AEM 3D with Autodesk Maya](/help/assets/integrate-maya-with-3d.md) and [Integrating AEM 3D with Autodesk 3ds Max](/help/assets/integrating-aem-3d-with-autodesk-3ds-max.md).
 
 ## Supported 3D File Formats {#supported-d-file-formats}
 
@@ -109,25 +109,25 @@ See also [Integrating AEM 3D with Autodesk Maya](/help/assets/using/integrate-ma
    <td>MA, MB</td> 
    <td>Native Autodesk Maya</td> 
    <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/using/integrate-maya-with-3d.md" target="_blank">Integrating AEM 3D with Autodesk Maya</a>.</td> 
+   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/integrate-maya-with-3d.md" target="_blank">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>
   <tr>
    <td>JT</td> 
    <td>Siemens PLM Open CAD</td> 
    <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
+   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>
   <tr>
    <td>*</td> 
-   <td><p>Additional 3D input formats supported by Autodesk Maya can be enabled.</p> <p>See <a href="/help/assets/using/integrate-maya-with-3d.md#enabling-additional-formats-supported-by-maya" target="_blank">Enabling Additional Formats Supported by Maya</a>.</p> </td> 
+   <td><p>Additional 3D input formats supported by Autodesk Maya can be enabled.</p> <p>See <a href="/help/assets/integrate-maya-with-3d.md#enabling-additional-formats-supported-by-maya" target="_blank">Enabling Additional Formats Supported by Maya</a>.</p> </td> 
    <td>Windows only</td> 
-   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
+   <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="/help/assets/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>
   <tr>
    <td>MAX</td> 
    <td>Native Autodesk 3ds Max</td> 
    <td>Windows only</td> 
-   <td>Autodesk 3ds Max is required on the author node to enable this file format. See <a href="/help/assets/using/integrating-aem-3d-with-autodesk-3ds-max.md">Integrating AEM 3D with Autodesk 3ds Max</a>.</td> 
+   <td>Autodesk 3ds Max is required on the author node to enable this file format. See <a href="/help/assets/integrating-aem-3d-with-autodesk-3ds-max.md">Integrating AEM 3D with Autodesk 3ds Max</a>.</td> 
   </tr>
  </tbody>
 </table>

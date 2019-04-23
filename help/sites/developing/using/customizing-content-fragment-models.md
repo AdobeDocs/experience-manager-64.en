@@ -20,7 +20,7 @@ This component has the tools necessary to render the drag and drop interface of 
 
 ## Locations {#locations}
 
-Models are saved and created under `/conf`, under a folder that has the [Content Fragment Models property](/help/assets/using/content-fragments-models.md#enable-content-fragment-models) enabled. This setting can also be seen in the **Configuration Properties**, accessible from the **Configuration Browser**.
+Models are saved and created under `/conf`, under a folder that has the [Content Fragment Models property](/help/assets/content-fragments-models.md#enable-content-fragment-models) enabled. This setting can also be seen in the **Configuration Properties**, accessible from the **Configuration Browser**.
 
 1. Navigate to the browser via **Tools**, **General**, **Configuration Browser** 
    For example, `http://localhost:4502/libs/granite/configurations/content/view.html/conf`
@@ -30,7 +30,7 @@ Models are saved and created under `/conf`, under a folder that has the [Content
 
 In the models console, all folders with the **Content Fragment Models** property will appear. Navigate via **Tools**, **Assets**, **Content Fragment Models**; for example, `http://localhost:4502/libs/dam/cfm/models/console/content/models.html/conf`.
 
-A user can [create a content fragment model](/help/assets/using/content-fragments-models.md#creating-a-content-fragment-model) using the **Create Model** wizard (using **Create** from the console).
+A user can [create a content fragment model](/help/assets/content-fragments-models.md#creating-a-content-fragment-model) using the **Create Model** wizard (using **Create** from the console).
 
 >[!CAUTION]
 >

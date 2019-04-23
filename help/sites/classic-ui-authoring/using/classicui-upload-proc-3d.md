@@ -15,7 +15,7 @@ discoiquuid: 0be4a856-951b-4cb6-8103-8004052c63a0
 
 Use standard upload or sync mechanisms to bring 3D assets and their associated referenced files into AEM Assets.
 
-See [Uploading Assets](/help/assets/using/managing-assets-touch-ui.md#uploading-assets).
+See [Uploading Assets](/help/assets/managing-assets-touch-ui.md#uploading-assets).
 
 Adobe recommends that you upload all referenced files before-or at the same time-you upload the primary 3D model file. However, this is not a requirement.
 

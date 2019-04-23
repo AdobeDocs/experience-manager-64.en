@@ -144,9 +144,9 @@ In addition, AEM 6.4 introduces new features powered by Adobe Sensei, enhancemen
 * Smart Crop automatically provides non-destructive cropping of images to preserve the point of interest for responsive design. You can preview cropped suggestions and manually adjust them, if necessary.   
 * This feature also enables automated swatch generation for product imagery. Automated swatch generation helps to add color swatches, pattern swatches, or both to product images automatically.
 
-See [Image Profiles](/help/assets/using/image-profiles.md) documentation to learn more.
+See [Image Profiles](/help/assets/image-profiles.md) documentation to learn more.
 
-See also [Adding Dynamic Media Assets to Pages](/help/assets/using/adding-dynamic-media-assets-to-pages.md) documentation to learn more about using Smart Crop with the Dynamic Media component.
+See also [Adding Dynamic Media Assets to Pages](/help/assets/adding-dynamic-media-assets-to-pages.md) documentation to learn more about using Smart Crop with the Dynamic Media component.
 
 ### Smart Imaging {#smart-imaging}
 
@@ -154,12 +154,12 @@ See also [Adding Dynamic Media Assets to Pages](/help/assets/using/adding-dynami
 * Images are automatically converted to different formats based on browser capabilities.
 * Image quality settings are determined in the browser and applied respectively. This intelligence keeps image loading performance acceptable for limited bandwidth and slow connection speeds.
 
-See [Smart Imaging](/help/assets/using/imaging-faq.md) documentation to learn more.
+See [Smart Imaging](/help/assets/imaging-faq.md) documentation to learn more.
 
 ### Emerging Media &amp; Viewer Enhancements {#emerging-media-amp-viewer-enhancements}
 
 * New viewers are supported, providing better, immersive experiences for the user.
-* Panoramic Viewer helps engage the user and provide ability to better experience room scenes, properites, locations, and landscapes. See [Panoramic Images](/help/assets/using/panoramic-images.md) documentation to learn.  
+* Panoramic Viewer helps engage the user and provide ability to better experience room scenes, properites, locations, and landscapes. See [Panoramic Images](/help/assets/panoramic-images.md) documentation to learn.  
 
 * VR Viewer provides immersive experience for properites, locations, and landscapes.
 * Vertical Image Viewer optimized for product imagery.
@@ -169,4 +169,4 @@ See [Smart Imaging](/help/assets/using/imaging-faq.md) documentation to learn mo
 
 Integration with [Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introducted.
 
-See [Working with 3D assets](/help/assets/using/3d-assets.md) documentation to learn more.
+See [Working with 3D assets](/help/assets/3d-assets.md) documentation to learn more.

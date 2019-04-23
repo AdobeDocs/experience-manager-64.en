@@ -181,6 +181,6 @@ For example, if an asset is uploaded from an AEM Assets (on premises) instance, 
 
 When you are done configuring the integration, understand the best practices of usage at the following links:
 
-* [AEM and Creative Cloud Integration Best Practices](/help/assets/using/aem-cc-integration-best-practices.md)
-* [AEM to Creative Cloud Folder Sharing Best Practices](/help/assets/using/aem-cc-folder-sharing-best-practices.md)
+* [AEM and Creative Cloud Integration Best Practices](/help/assets/aem-cc-integration-best-practices.md)
+* [AEM to Creative Cloud Folder Sharing Best Practices](/help/assets/aem-cc-folder-sharing-best-practices.md)
 

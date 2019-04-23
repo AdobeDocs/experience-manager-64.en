@@ -131,9 +131,9 @@ Full list of changes in [AEM Sites and Add-ons](sites.md).
 
 The introduction of Fluid Experiences at the start of 2017, backed by Content Fragments, Experience Fragments and Content Services were the start to evolve to a multi-channel-first content management. AEM 6.4 extends each of the areas significantly:
 
-**[Content Fragments](/help/assets/using/content-fragments.md)**
+**[Content Fragments](/help/assets/content-fragments.md)**
 
-New in 6.4 are a visual [content model](/help/assets/using/content-fragments-models.md) editor and a new [configurable component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) to provide flexible HTML output and JSON to include in Content Services.
+New in 6.4 are a visual [content model](/help/assets/content-fragments-models.md) editor and a new [configurable component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) to provide flexible HTML output and JSON to include in Content Services.
 
 **Experience Fragments**
 
@@ -153,7 +153,7 @@ Recommended tutorial to learn on how to best leverage the new component model: [
 
 Delivering a consistent message across all marketing channels including Digital Signage and kiosk networks is what AEM Screens stands for. AEM 6.4 adds support to run the Signage Player on Microsoft Windows and Google Chrome OS hardware. Further, enhancements to remote device management and schedules (groups of channels) are available.
 
-For more information on the Screens updates, see [AEM Screens User Guide](/help/screens/using/home.md).
+For more information on the Screens updates, see [AEM Screens User Guide](/help/screens/home.md).
 
 ### Experience Manager Communities {#experience-manager-communities}
 
@@ -217,17 +217,17 @@ Improvements introduced since the AEM 6.3 release include the ability to upload 
 
 **Adobe Sensei Services**
 
-New capabilities include Enhanced Smart Tags, with the ability to learn customer business taxonomy, automatically tag digital assets with customer-specific tags and Smart Translation Search, which improves discoverability in multiple languages by translating search terms on the fly. To learn more about this feature, see [Enhanced Smart Tags](/help/assets/using/enhanced-smart-tags.md).
+New capabilities include Enhanced Smart Tags, with the ability to learn customer business taxonomy, automatically tag digital assets with customer-specific tags and Smart Translation Search, which improves discoverability in multiple languages by translating search terms on the fly. To learn more about this feature, see [Enhanced Smart Tags](/help/assets/enhanced-smart-tags.md).
 
 ![](assets/enhanced_smart_tags2.png)
 
 **Metadata**
 
-Various enhancements include the ability to import and export metadata simultaneously for large numbers of assets and advanced metadata constructs, such as [Cascading Metadata](/help/assets/using/cascading-metadata.md).
+Various enhancements include the ability to import and export metadata simultaneously for large numbers of assets and advanced metadata constructs, such as [Cascading Metadata](/help/assets/cascading-metadata.md).
 
 **Reports**
 
-Asset reporting underwent a big overhaul in AEM 6.4 with new reporting framework, user experience, and more OOTB reports for customer usecases. To learn how to generate various reports, see [Asset Reports](/help/assets/using/asset-reports.md).
+Asset reporting underwent a big overhaul in AEM 6.4 with new reporting framework, user experience, and more OOTB reports for customer usecases. To learn how to generate various reports, see [Asset Reports](/help/assets/asset-reports.md).
 
 **User Experience**
 
@@ -245,15 +245,15 @@ AEM 6.4 includes many new features and enhancements to Dynamic Media. The full l
 
 Smart Crop, powered by Adobe Sensei, automatically provides non-destructive cropping of images, preserving the point of interest for responsive design. You can preview cropped image suggestions and manually adjust them, if necessary. This feature also enables automated swatch generation for product imagery.
 
-See [Image Profiles](/help/assets/using/image-profiles.md) documentation to learn more about using Smart Crop.
+See [Image Profiles](/help/assets/image-profiles.md) documentation to learn more about using Smart Crop.
 
-See [Adding Dynamic Media Assets to Pages](/help/assets/using/adding-dynamic-media-assets-to-pages.md) to learn more about working with Smart Crop in the Dynamic Media component.
+See [Adding Dynamic Media Assets to Pages](/help/assets/adding-dynamic-media-assets-to-pages.md) to learn more about working with Smart Crop in the Dynamic Media component.
 
 **Smart Imaging**
 
 Smart imaging leverages each user's unique viewing characteristics to automatically serve images optimized for their experience, resulting in better pefromance and engagement.
 
-See [Smart Imaging](/help/assets/using/imaging-faq.md) documentation to learn more.
+See [Smart Imaging](/help/assets/imaging-faq.md) documentation to learn more.
 
 ![](assets/smart_crop.png)
 
@@ -261,13 +261,13 @@ See [Smart Imaging](/help/assets/using/imaging-faq.md) documentation to learn mo
 
 New viewers, including Panoramic and VR, let you provide more immersive experiences.
 
-See [Panoramic Images](/help/assets/using/panoramic-images.md) documentation to learn more.
+See [Panoramic Images](/help/assets/panoramic-images.md) documentation to learn more.
 
 **3D Assets**
 
 New integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html), a Creative Cloud application for authoring 3D experiences.
 
-See [Working with 3D assets](/help/assets/using/3d-assets.md) documentation to learn more.
+See [Working with 3D assets](/help/assets/3d-assets.md) documentation to learn more.
 
 ![](assets/do-not-localize/3d.png)
 
@@ -328,9 +328,9 @@ This process of prioritization has yielded more than 500 customer focused change
 
 * Adobe Experience Manager Desktop App ([read more](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html) and [download](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html))
 
-* Package to add enhanced PDF Rasterizer ([read more](/help/assets/using/aem-pdf-rasterizer.md) and [download](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/assets/aem-assets-pdf-rasterizer-pkg))
+* Package to add enhanced PDF Rasterizer ([read more](/help/assets/aem-pdf-rasterizer.md) and [download](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/assets/aem-assets-pdf-rasterizer-pkg))
 
-* Package to add extended RAW image support ([read more](/help/assets/using/camera-raw.md))
+* Package to add extended RAW image support ([read more](/help/assets/camera-raw.md))
 
 **Forms**
 

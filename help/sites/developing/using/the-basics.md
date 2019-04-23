@@ -426,7 +426,7 @@ See the [FileVault tool](/help/sites/developing/using/ht-vlttool.md) documentati
 
 ## Workflows {#workflows}
 
-Your content is often subject to organizational processes, including steps such as approval and sign-off by various participants. These processes can be represented as workflows, [defined and developed within AEM](/help/sites/developing/using/workflows-models.md), then applied to the [appropriate content pages](/help/sites/administering/using/workflows.md) or [digital assets](/help/assets/using/assets-workflow.md) as required.
+Your content is often subject to organizational processes, including steps such as approval and sign-off by various participants. These processes can be represented as workflows, [defined and developed within AEM](/help/sites/developing/using/workflows-models.md), then applied to the [appropriate content pages](/help/sites/administering/using/workflows.md) or [digital assets](/help/assets/assets-workflow.md) as required.
 
 The Workflow Engine is used to manage the implementation of your workflows, and their subsequent application to your content.
 

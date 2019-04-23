@@ -159,7 +159,7 @@ The actual appearance and handling is dependent on the device type you are using
 
   ![](assets/screen_shot_2018-03-22at142337.png)
 
-If you need to quickly make a change to an asset, you can start the [asset editor](/help/assets/using/managing-assets-touch-ui.md) directly from the asset browser by clicking the edit icon shown next to the asset's name.
+If you need to quickly make a change to an asset, you can start the [asset editor](/help/assets/managing-assets-touch-ui.md) directly from the asset browser by clicking the edit icon shown next to the asset's name.
 
 ![](do-not-localize/screen_shot_2018-03-22at142448.png) 
 

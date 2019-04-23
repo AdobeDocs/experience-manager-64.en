@@ -50,7 +50,7 @@ Once you have familiarized yourself with these basics, you will find in more adv
 * [Deploying Communities](/help/communities/deploy-communities.md)
 * [Introduction to the AEM Platform](/help/sites/deploying/using/platform.md)
 * [Performance Guidelines](/help/sites/deploying/using/performance-guidelines.md)
-* [Getting Started with AEM Mobile](/help/mobile/using/getting-started-aem-mobile.md)
+* [Getting Started with AEM Mobile](/help/mobile/getting-started-aem-mobile.md)
 * [Maintenance Release Vehicle Definitions](/help/sites/deploying/using/maintenance-release-vehicle-definitions.md)
 * [What is AEM Screens?](/help/sites/deploying/using/aem-screens-introduction.md)
 
@@ -290,7 +290,7 @@ Once logged in, you have access to AEM. For further information, depending on th
 * [Authoring](/help/sites/authoring/using/home.md) 
 * [Administering](/help/sites/administering/using/home.md)
 * [Developing](/help/sites/developing/using/home.md)
-* [Managing](/help/managing/using/manage-reference.md)
+* [Managing](/help/managing/manage-reference.md)
 
 ## Advanced Deployment {#advanced-deployment}
 
@@ -312,7 +312,7 @@ The above section should give you a good understanding of the basics of AEM inst
 * [Deploying Communities](/help/communities/deploy-communities.md)
 * [Introduction to the AEM Platform](/help/sites/deploying/using/platform.md)
 * [Performance Guidelines](/help/sites/deploying/using/performance-guidelines.md)
-* [Getting Started with AEM Mobile](/help/mobile/using/getting-started-aem-mobile.md)
+* [Getting Started with AEM Mobile](/help/mobile/getting-started-aem-mobile.md)
 * [Maintenance Release Vehicle Definitions](/help/sites/deploying/using/maintenance-release-vehicle-definitions.md)
 * [What is AEM Screens?](/help/sites/deploying/using/aem-screens-introduction.md)
 

@@ -125,7 +125,7 @@ You can prepare customizations to the Assets UI by doing the following:
 
 ### Generating Asset IDs for Existing Assets {#generating-asset-ids-for-existing-assets}
 
-To generate asset IDs for existing assets, upgrade the assets when you upgrade your AEM instance to run AEM 6.4. This is required to enable the [Assets Insights feature](/help/assets/using/touch-ui-asset-insights.md). For more details, see [Adding Embed code](/help/assets/using/touch-ui-using-page-tracker.md#adding-embed-code).
+To generate asset IDs for existing assets, upgrade the assets when you upgrade your AEM instance to run AEM 6.4. This is required to enable the [Assets Insights feature](/help/assets/touch-ui-asset-insights.md). For more details, see [Adding Embed code](/help/assets/touch-ui-using-page-tracker.md#adding-embed-code).
 
 To upgrade assets, configure the Associate Asset IDs package in the JMX console. Depending on the number of assets in the repository, `migrateAllAssets` may take a long time. Our internal tests estimate roughly one hour for 125 thousand assets on TarMK.
 
@@ -137,7 +137,7 @@ For all other purposes, use the `migrateAllAssets()` API.
 
 ### InDesign Script Customizations {#indesign-script-customizations}
 
-Adobe recommends putting custom scripts at `/apps/settings/dam/indesign/scripts` location. More information about InDesign Script customizations can be found [here](/help/assets/using/indesign.md#configuring-the-aem-assets-workflow).
+Adobe recommends putting custom scripts at `/apps/settings/dam/indesign/scripts` location. More information about InDesign Script customizations can be found [here](/help/assets/indesign.md#configuring-the-aem-assets-workflow).
 
 ### Recovering ContextHub Configurations {#recovering-contexthub-configurations}
 

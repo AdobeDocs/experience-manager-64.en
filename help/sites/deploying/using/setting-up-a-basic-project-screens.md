@@ -63,7 +63,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![](assets/chlimage_1-127.png)
 
-   See [Channel Management](/help/screens/using/managing-channels.md) for more details on creating and managing channels.
+   See [Channel Management](/help/screens/managing-channels.md) for more details on creating and managing channels.
 
 1. **Creating a new location**
 
@@ -197,7 +197,7 @@ For in-depth understanding for all the modules for Screens, see the resources be
 
 1. [Installing and Configuring Screens](/help/sites/deploying/using/configuring-screens-introduction.md)
 1. [Screens Project Creation](/help/sites/authoring/using/creating-a-screens-project.md)
-1. [Device Assignment](/help/screens/using/managing-devices.md)
+1. [Device Assignment](/help/screens/managing-devices.md)
 1. Application Management
 1. Channel Management
 1. Device Management

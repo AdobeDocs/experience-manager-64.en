@@ -17,7 +17,7 @@ discoiquuid: f55e68c3-3309-4400-bef9-fd3afa6e2b5f
 
 To use Scene7, you need to configure the cloud configuration so that Scene7 and AEM Assets can interact with one another. This document describes how to configure AEM and Scene7.
 
-For information on using all the Scene7 components on a page and working with video, see [Using Scene7.](/help/assets/using/scene7.md)
+For information on using all the Scene7 components on a page and working with video, see [Using Scene7.](/help/assets/scene7.md)
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>New to Sites and Dynamic Media</td> 
    <td>Upload assets to AEM and use AEM Dynamic Media component to author assets on Sites pages</td> 
    <td><p>On</p> <p>(See step 3)</p> </td> 
-   <td><a href="/help/assets/using/adding-dynamic-media-assets-to-pages.md">On</a></td> 
+   <td><a href="/help/assets/adding-dynamic-media-assets-to-pages.md">On</a></td> 
    <td>Off</td> 
    <td>Off</td> 
   </tr> 
@@ -101,8 +101,8 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>In retail and are new to Sites and Dynamic Media</td> 
    <td>Upload NON-product assets to AEM for management and delivery. Upload PRODUCT assets to Scene7 and use Scene7 content browser in AEM and component to author Product Detail Pages on Sites.</td> 
    <td><p>On</p> <p>(See step 3)</p> </td> 
-   <td><a href="/help/assets/using/adding-dynamic-media-assets-to-pages.md">On</a></td> 
-   <td><a href="/help/assets/using/scene7.md#scene-content-browser">On</a></td> 
+   <td><a href="/help/assets/adding-dynamic-media-assets-to-pages.md">On</a></td> 
+   <td><a href="/help/assets/scene7.md#scene-content-browser">On</a></td> 
    <td>Off</td> 
   </tr> 
   <tr> 
@@ -117,8 +117,8 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>New to Dynamic Media and Templating</td> 
    <td>Use Dynamic Media for imaging and video. Author image templates in Scene7 and use Scene7 content finder to include templates in Sites pages.</td> 
    <td><p>On</p> <p>(See step 3)</p> </td> 
-   <td><a href="/help/assets/using/adding-dynamic-media-assets-to-pages.md">On</a></td> 
-   <td><a href="/help/assets/using/scene7.md#scene-content-browser">On</a></td> 
+   <td><a href="/help/assets/adding-dynamic-media-assets-to-pages.md">On</a></td> 
+   <td><a href="/help/assets/scene7.md#scene-content-browser">On</a></td> 
    <td>Off</td> 
   </tr> 
   <tr> 
@@ -126,7 +126,7 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>Upload assets to Scene7 and use AEM Scene7 content browser to search and author assets on Sites pages</td> 
    <td>Off</td> 
    <td>Off</td> 
-   <td><a href="/help/assets/using/scene7.md#scene-content-browser">On</a></td> 
+   <td><a href="/help/assets/scene7.md#scene-content-browser">On</a></td> 
    <td>Off</td> 
   </tr> 
   <tr> 
@@ -134,7 +134,7 @@ To use Dynamic Media and Scene7 simultaneously:
    <td>Upload assets to DAM and automatically publish to Scene7 for delivery. Use AEM Scene7 content browser to search and author assets on Sites pages.</td> 
    <td>Off</td> 
    <td>Off</td> 
-   <td><a href="/help/assets/using/scene7.md#scene-content-browser">On</a></td> 
+   <td><a href="/help/assets/scene7.md#scene-content-browser">On</a></td> 
    <td><p><a href="#configuringautouploadingfromaemassets">On</a></p> <p>(See step 4)</p> </td> 
   </tr> 
   <tr> 
@@ -148,14 +148,14 @@ To use Dynamic Media and Scene7 simultaneously:
  </tbody> 
 </table>
 
-1. Optional (please see use case table) - Set up the [Dynamic Media cloud configuration](/help/assets/using/config-dynamic.md) and [enable the Dynamic Media server](/help/assets/using/config-dynamic.md).
+1. Optional (please see use case table) - Set up the [Dynamic Media cloud configuration](/help/assets/config-dynamic.md) and [enable the Dynamic Media server](/help/assets/config-dynamic.md).
 1. Optional (please see use case table) -- If you choose to enable Automatic Upload from Assets to Scene7, then you need to add the following:
 
     1. Set up automatic upload to Scene7.
     1. Add the **Scene7 upload** step after all the Dynamic Media workflow steps *at the end of* **Dam Update Asset** workflow ( `https://<server>:<host>/cf#/etc/workflow/models/dam/update_asset.html)`
     
     1. (Optional) Restrict Scene7 asset upload by MIME type in [https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl](http://localhost:4502/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl). Asset MIME types not in this list will not be uploaded to Scene7 server.
-    1. (Optional) Set up video in Scene7 configuration. You can enable video encoding for either or both Dynamic Media and Scene7 simultaneously. Dynamic renditions are used for preview and playback locally in AEM instance, whereas Scene7 video renditions are generated and stored on Scene7 servers. When setting up video encoding services for both Dynamic Media and Scene7, apply a [video processing profile](/help/assets/using/video-profiles.md) to the Scene7 asset folder.
+    1. (Optional) Set up video in Scene7 configuration. You can enable video encoding for either or both Dynamic Media and Scene7 simultaneously. Dynamic renditions are used for preview and playback locally in AEM instance, whereas Scene7 video renditions are generated and stored on Scene7 servers. When setting up video encoding services for both Dynamic Media and Scene7, apply a [video processing profile](/help/assets/video-profiles.md) to the Scene7 asset folder.
     1. (Optional) [Configure Secure preview in Scene7](/help/sites/administering/using/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene).
 
 #### Limitations {#limitations}
@@ -528,7 +528,7 @@ To configure the adhoc folder:
 
 ### Configuring universal presets {#configuring-universal-presets}
 
-To configure Universal Presets for the video component, see [Video](/help/assets/using/s7-video.md).
+To configure Universal Presets for the video component, see [Video](/help/assets/s7-video.md).
 
 ## Enabling MIME type-based Assets/Scene7 upload job parameter support {#enabling-mime-type-based-assets-scene-upload-job-parameter-support}
 
@@ -543,7 +543,7 @@ Specifically, you configure the accepted file format by MIME type in the OSGi (O
 1. Under the Name column, find and tap **Adobe CQ Scene7 Asset MIME type Service** to edit the configuration.
 1. In the Mime Type Mapping area, tap any plus sign (+) to add a MIME type.
 
-   See [Supported MIME types](/help/assets/using/assets-formats.md#supported-mime-types).
+   See [Supported MIME types](/help/assets/assets-formats.md#supported-mime-types).
 
 1. In the text field, type the new MIME type name.
 
@@ -594,7 +594,7 @@ If you are having trouble integrating AEM with Scene7, see the following scenari
 
 **If your video assets do not play in AEM:**
 
-* Ensure that you used the correct video component. Scene7 video component is different than the foundation Video component. See [Foundation Video Component versus Scene7 Video Component](/help/assets/using/s7-video.md).
+* Ensure that you used the correct video component. Scene7 video component is different than the foundation Video component. See [Foundation Video Component versus Scene7 Video Component](/help/assets/s7-video.md).
 
 **If new or modified assets in AEM do not automatically upload to Scene7:**
 
