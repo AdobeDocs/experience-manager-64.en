@@ -53,7 +53,7 @@ The following pages provide links to some of additional, important information a
 
 * [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) - The Core Components offer flexible and feature-rich authoring functionality, which provide essential content types to create pages.  
 
-* [Communities](/help/communities/using/author-communities.md) - Components provide interactive features for a website, such as forums and comments. Many of these components are included when a [Community Site](/help/communities/using/overview.md) is created.  
+* [Communities](/help/communities/author-communities.md) - Components provide interactive features for a website, such as forums and comments. Many of these components are included when a [Community Site](/help/communities/overview.md) is created.  
 
 * [eCommerce](/help/sites/administering/using/ecommerce.md) - The eCommerce functionality within AEM also includes a range of components. Actual use can depend on the commerce engine being used.
 

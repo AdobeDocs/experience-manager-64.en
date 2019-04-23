@@ -19,7 +19,7 @@ discoiquuid: cda3b321-8f6a-4867-abbf-e2e6898b9373
 
 The author environment allows for:
 
-* [Authoring](/help/sites/authoring/using/author.md) (including [page authoring](/help/sites/authoring/using/page-authoring.md), [managing assets](/help/assets/using/home.md), [communities](/help/communities/using/author-communities.md))  
+* [Authoring](/help/sites/authoring/using/author.md) (including [page authoring](/help/sites/authoring/using/page-authoring.md), [managing assets](/help/assets/using/home.md), [communities](/help/communities/author-communities.md))  
 
 * [Administering](/help/sites/administering/using/home.md) tasks you need when generating and maintaining the content on your website
 

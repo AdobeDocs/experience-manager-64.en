@@ -34,7 +34,7 @@ As AEM's standard reference implementation, We.Retail showcases some of the most
 | [Editable templates](/help/sites/developing/using/page-templates-editable.md) |All pages are based on editable templates, allowing non-developers to adapt and customize the templates. | [Try it!](/help/sites/developing/using/we-retail-editable-templates.md) |
 | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) |All components are based on HTL |  |
 | [eCommerce capabilities](/help/sites/developing/using/ecommerce.md) |Features a product catalog |  |
-| [Communities sites](/help/communities/using/overview.md) |Allowing visitors to join in community discussions, read blogs, and much more |  |
+| [Communities sites](/help/communities/overview.md) |Allowing visitors to join in community discussions, read blogs, and much more |  |
 | [Core Components](https://helpx.adobe.com/experience-manager/core-components/user-guide.html) |All components are based on the new core components and are more usable and user-configurable out-of-the-box | [Try it!](/help/sites/developing/using/we-retail-core-components.md) |
 | [Content Fragments](/help/assets/using/content-fragments.md) |The We.Retail Experiences section showcases the power of reusing content via content fragments. | [Try them!](/help/sites/developing/using/we-retail-content-fragments.md) |
 | [Experience Fragments](/help/sites/authoring/using/experience-fragments.md) |An Experience Fragment is a group of one or more components including content and layout that can be referenced within pages. | [Try them!](/help/sites/developing/using/we-retail-experience-fragments.md) |

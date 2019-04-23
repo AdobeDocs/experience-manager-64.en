@@ -23,9 +23,9 @@ In Adobe Experience Manager (AEM), a tag can be a property of
 
 In addition to pages and assets, tags are used for AEM Communities features
 
-* user generated content (see [Tagging UGC)](/help/communities/using/tag-ugc.md)  
+* user generated content (see [Tagging UGC)](/help/communities/tag-ugc.md)  
 
-* Enablement Resources (see [Tagging Enablement Resources](/help/communities/using/functions.md#catalog-function))
+* Enablement Resources (see [Tagging Enablement Resources](/help/communities/functions.md#catalog-function))
 
 ## Tag Features {#tag-features}
 

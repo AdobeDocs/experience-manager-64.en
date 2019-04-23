@@ -79,7 +79,7 @@ When ready, the AEM site's content is published to the **publish environment**. 
 
 Usually, the publish environment is located inside the demilitarized zone; in other words, available to the internet, but no longer under the full protection of the internal network.
 
-When the AEM site is a [community site](/help/communities/using/overview.md), or includes [Communities components](/help/communities/using/author-communities.md), signed-in site visitors (members) may interact with Communities features. For example, they may post to a forum, post a comment, or follow other members. Members may be granted permission to perform activites normally limited to the author environment, such as create new pages (community groups), blog articles, and moderate other members' posts.
+When the AEM site is a [community site](/help/communities/overview.md), or includes [Communities components](/help/communities/author-communities.md), signed-in site visitors (members) may interact with Communities features. For example, they may post to a forum, post a comment, or follow other members. Members may be granted permission to perform activites normally limited to the author environment, such as create new pages (community groups), blog articles, and moderate other members' posts.
 
 >[!NOTE]
 >

@@ -723,4 +723,4 @@ $ mvn -PautoInstallPackagePublish -PintegrationServer install
 
 When licensed for the AEM Communities capability, an additional API jar is necessary.
 
-For details, see [Using Maven for Communities](/help/communities/using/maven.md)
+For details, see [Using Maven for Communities](/help/communities/maven.md)

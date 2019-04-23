@@ -158,9 +158,9 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>Site visitors have different interests and objectives when they come to a site. Understanding these goals and fulfilling the expectations is an important success factor for online marketing. Segmentation helps to achieve this by analyzing and characterizing a visitor's details.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/communities/using/working-with-srp.md">socialconfig</a></td> 
+   <td width="200"><a href="/help/communities/working-with-srp.md">socialconfig</a></td> 
    <td> </td> 
-   <td>Default SRP configuration. See <a href="/help/communities/using/srp-config.md">Storage Configuration</a> console.</td> 
+   <td>Default SRP configuration. See <a href="/help/communities/srp-config.md">Storage Configuration</a> console.</td> 
   </tr> 
   <tr> 
    <td width="200">taskmanagement</td> 
@@ -185,7 +185,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
   <tr> 
    <td width="200">watchwords</td> 
    <td> </td> 
-   <td>Deprecated. See <a href="/help/communities/using/moderate-ugc.md#watchwords">Moderating Community Content</a></td> 
+   <td>Deprecated. See <a href="/help/communities/moderate-ugc.md#watchwords">Moderating Community Content</a></td> 
   </tr> 
   <tr> 
    <td width="200"><a href="/help/sites/administering/using/workflows.md">Workflow</a></td> 

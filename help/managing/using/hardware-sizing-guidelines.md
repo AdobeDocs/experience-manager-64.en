@@ -325,6 +325,6 @@ User generated content (UGC) submitted members is stored separately from page co
 For the UGC store, it is necessary to choose a storage resource provider (SRP), which influences the chosen deployment.  
 See
 
-* [Community Content Storage](/help/communities/using/working-with-srp.md)
-* [Recommended Topologies for Communities](/help/communities/using/topologies.md)
+* [Community Content Storage](/help/communities/working-with-srp.md)
+* [Recommended Topologies for Communities](/help/communities/topologies.md)
 

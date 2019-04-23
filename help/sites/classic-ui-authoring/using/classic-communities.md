@@ -19,5 +19,5 @@ When AEM Communities is licensed, in addition to creating community sites, it is
 
 >[!NOTE]
 >
->AEM Communities components are not available in classic UI. Please see [Communities Components](/help/communities/using/author-communities.md) in the standard authoring documentation for details.
+>AEM Communities components are not available in classic UI. Please see [Communities Components](/help/communities/author-communities.md) in the standard authoring documentation for details.
 

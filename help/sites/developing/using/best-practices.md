@@ -74,13 +74,13 @@ Managing and authoring your website content has some best practices outlined as 
 
 ## Communities {#communities}
 
-[AEM Communities](/help/communities/using/overview.md) simplifies the creation and management of on-premise Communities.
+[AEM Communities](/help/communities/overview.md) simplifies the creation and management of on-premise Communities.
 
 Some best practices for Communities are described here:
 
-| Best practices for working with user generated content (UGC) | [Coding Guidelines](/help/communities/using/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](/help/communities/using/scf.md) (SCF). |
+| Best practices for working with user generated content (UGC) | [Coding Guidelines](/help/communities/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](/help/communities/scf.md) (SCF). |
 |---|---|---|
-| Example usage of Communities components | [Community Components Guide](/help/communities/using/components-guide.md) |An interactive development tool. |
+| Example usage of Communities components | [Community Components Guide](/help/communities/components-guide.md) |An interactive development tool. |
 
 ## Tooling/HTL {#tooling-htl}
 

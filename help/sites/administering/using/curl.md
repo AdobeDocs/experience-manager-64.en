@@ -272,13 +272,13 @@ curl -u admin:admin -F "cmd=clear" -F "name=publish"  http://localhost:4502/etc/
 
 #### Assign and Revoke Badges {#assign-and-revoke-badges}
 
-See [Communities Scoring and Badges](/help/communities/using/implementing-scoring.md#assign-and-revoke-badges) for details.
+See [Communities Scoring and Badges](/help/communities/implementing-scoring.md#assign-and-revoke-badges) for details.
 
-See [Scoring and Badges Essentials](/help/communities/using/configure-scoring.md#example-setup) for details.
+See [Scoring and Badges Essentials](/help/communities/configure-scoring.md#example-setup) for details.
 
 #### MSRP Reindexing {#msrp-reindexing}
 
-See [MSRP - MongoDB Storage Resource Provider](/help/communities/using/msrp.md#running-msrp-reindex-tool-using-curl-command) for details. [](/help/communities/using/msrp.md#running-msrp-reindex-tool-using-curl-command)
+See [MSRP - MongoDB Storage Resource Provider](/help/communities/msrp.md#running-msrp-reindex-tool-using-curl-command) for details. [](/help/communities/msrp.md#running-msrp-reindex-tool-using-curl-command)
 
 ### Security {#security}
 
