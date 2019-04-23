@@ -186,7 +186,7 @@ Finally, upload the **localhostprivate.der** as the Private Key and **localhost.
 
 >[!NOTE]
 >
->See [Using cURL with AEM](https://helpx.adobe.com/experience-manager/6-4/sites-administering/curl.html) for a centralized list of useful cURL commands in AEM.
+>See [Using cURL with AEM](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/curl.html) for a centralized list of useful cURL commands in AEM.
 
 You can also automate the SSL configuration by using the cURL tool. You can do this by posting the configuration parameters to this URL:
 

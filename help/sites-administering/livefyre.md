@@ -47,7 +47,7 @@ AEM 6.4 comes with Livefyre feature package 1.2.6 pre-installed. This package on
 
    Your Livefyre-AEM package is now installed. Before you can begin using the integration features, you must Configure AEM to use Livefyre.
 
-   For more information on packages, see [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-3/sites-administering/package-manager.html).
+   For more information on packages, see [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/package-manager.html).
 
    For more information and release notes on feature packs, see [Feature Packs](https://helpx.adobe.com/experience-manager/6-3/release-notes/feature-packs-release-notes.html).
 
@@ -72,7 +72,7 @@ Configure AEM to use your organization's Livefyre license credentials, allowing 
 
    >[!NOTE]
    >
-   >Folders must have Cloud Configurations enabled in their properites before Livefyre configurations can be added to them. Configuration folders are created and managed in the Configuration Browser. 
+   >Folders must have Cloud Configurations enabled in their properties before Livefyre configurations can be added to them. Configuration folders are created and managed in the Configuration Browser. 
    >
    >
    >You cannot create a name for a configuration—it is referenced by the path of the folder it is in. You can only have one configuration per folder.
@@ -102,7 +102,7 @@ The default authentication integration may not be perfect for every site. To bes
 
    For more information on customizing an Auth Delegate, see [Identity Integration](https://answers.livefyre.com/developers/identity-integration/).
 
-   For more information on AEM Clientlibs, see [Using Client-Side Libraries](https://helpx.adobe.com/experience-manager/6-3/sites-developing/clientlibs.html).
+   For more information on AEM Clientlibs, see [Using Client-Side Libraries](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ## Use Livefyre with AEM Sites {#use-livefyre-with-aem-sites}
 
@@ -110,7 +110,7 @@ The default authentication integration may not be perfect for every site. To bes
 
 Before adding Livefyre components to a page within Sites, you must enable Livefyre for the page by either inheriting a Livefyre cloud configuration from a parent page or by adding the configuration directly to the page. Refer to your implementation for how to include cloud services on your site.
 
-Once Livefyre is enabled for the page, containers must be configured to allow Livefyre components. See [Configuring Components in Design Mode](https://helpx.adobe.com/experience-manager/6-3/sites-authoring/default-components-designmode.html) for instructions on how to enable different components.
+Once Livefyre is enabled for the page, containers must be configured to allow Livefyre components. See [Configuring Components in Design Mode](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/default-components-designmode.html) for instructions on how to enable different components.
 
 >[!NOTE]
 >
@@ -125,14 +125,14 @@ Once Livefyre is enabled for the page, containers must be configured to allow Li
 
    If embedding an existing app, AEM asks you to select the App. If creating a new App, the App will need to be populated before any content appears. The App will be created in the Livefyre site and network selected when Livefyre cloud configuration was enabled for the page.
 
-   For more information on inserting components, see [Editing Page Content](https://helpx.adobe.com/experience-manager/6-3/sites-authoring/editing-content.html).
+   For more information on inserting components, see [Editing Page Content](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/editing-content.html).
 
 ### Edit a Livefyre Component for an AEM Page. {#edit-a-livefyre-component-for-an-aem-page}
 
 You can only configure and edit a Livefyre component in Livefyre Studio. From AEM:
 
 1. Click the Livefyre component to configure.
-1. Click the **Configure **icon (wrench) to open the configuration dialog.
+1. Click the **Configure** icon (wrench) to open the configuration dialog.
 1. Click **To edit this component, go to Livefyre Studio**.
 1. Edit the App in Livefyre Studio.
 
