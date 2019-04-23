@@ -33,7 +33,7 @@ These can be used in many ways to extend your AEM consoles. A small selection ar
 >
 >* Using and creating [clientlibs](/help/sites-developing/clientlibs.md).
 >* Using and creating [overlays](/help/sites-developing/overlays.md).
->* [Granite](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/granite-ui/api/index.html) 
+>* [Granite](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html) 
 >
 >This topic is also covered in the [AEM Gems](https://docs.adobe.com/content/ddc/en/gems.html) session - [User interface customization for AEM 6.0](https://docs.adobe.com/content/ddc/en/gems/user-interface-customization-for-aem-6.html).
 
@@ -379,7 +379,7 @@ To customize the columns in the list view:
 
 1. Optionally:
 
-    * If you want to plug additional data, you need to write a ` [PageInforProvider](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider.html)` with a   
+    * If you want to plug additional data, you need to write a ` [PageInforProvider](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider.html)` with a   
       `pageInfoProviderType` property.
 
    For example, see the class/bundle attached (from GitHub) below.

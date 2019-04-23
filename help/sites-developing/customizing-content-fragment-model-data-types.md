@@ -56,7 +56,7 @@ Each node under `/items` has properties that define how that data type should be
 All of the following properties must be present for the data type to be present in the model editor:
 
 * `fieldIcon`  
-  [CoralUI icon](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/coral-ui/coralui3/Coral.Icon.html#availableicons) to represent the data type in the model editor UI. 
+  [CoralUI icon](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon.html#availableicons) to represent the data type in the model editor UI. 
 
 * ` [fieldProperties](#fieldproperties)`  
   An array that represents the configuration properties for each data type.  
