@@ -137,7 +137,7 @@ Install and deploy AEM Forms as described in [Installing and configuring AEM For
 
 ## Configure SSL {#ssl}
 
-SSL configuration is required to communicate with Adobe Sign servers. For detailed steps, see [Enabling HTTP Over SSL](/help/sites/administering/using/ssl-by-default.md).
+SSL configuration is required to communicate with Adobe Sign servers. For detailed steps, see [Enabling HTTP Over SSL](/help/sites-administering/ssl-by-default.md).
 
 >[!CAUTION]
 >
@@ -145,7 +145,7 @@ SSL configuration is required to communicate with Adobe Sign servers. For detail
 
 ## Configure Day CQ Link Externalizer configuration {#externalizer}
 
-In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](/help/sites/developing/using/externalizer.md).
+In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](/help/sites-developing/externalizer.md).
 
 >[!CAUTION]
 >
@@ -168,7 +168,7 @@ Perform the following steps on both author and publish instances:
 
 ## Configure Day CQ Mail Service {#cqmail}
 
-Reference site implementation requires emails to be sent to sample users when they fill and submit forms. Configuring Day CQ Mail Service lets you provide SMTP service details to send automated emails to customers. See [Configuring Email Notifications](/help/sites/administering/using/notification.md).
+Reference site implementation requires emails to be sent to sample users when they fill and submit forms. Configuring Day CQ Mail Service lets you provide SMTP service details to send automated emails to customers. See [Configuring Email Notifications](/help/sites-administering/notification.md).
 
 Perform the following steps to configure mail service on the publish instance:
 
@@ -214,7 +214,7 @@ Install the following reference sites packages using package share.
 * [AEM-FORMS-6.4-FSI-REF-SITE](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-FSI-REF-SITE)
 * [AEM-FORMS-6.4-GOV-REF-SITE](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-GOV-REF-SITE )
 
-To learn more about how to use packages and package share, see [How to Work With Packages](/help/sites/administering/using/package-manager.md).
+To learn more about how to use packages and package share, see [How to Work With Packages](/help/sites-administering/package-manager.md).
 
 After you have installed the packages and started the author and publish instances, visit the following URLs in your browser:
 

@@ -33,7 +33,7 @@ The AEM Communities features which can be configured to allow tagging are
 
 ## Administering Tags {#administering-tags}
 
-See [Administering Tags](/help/sites/administering/using/tags.md#tagging-console) for creating and managing tag namespaces and taxonomies.
+See [Administering Tags](/help/sites-administering/tags.md#tagging-console) for creating and managing tag namespaces and taxonomies.
 
 See [Tag Essentials](/help/communities/tag.md) for developer information.
 
@@ -45,7 +45,7 @@ The default permissions are set to not allow tag namespaces to be read by everyo
 
 Because tags are applied to UGC in the publish environment, read permission needs to be enabled for community members in order for them to be able to select tags to apply.
 
-See [Setting Tag Permissions](/help/sites/administering/using/tags.md#setting-tag-permissions).
+See [Setting Tag Permissions](/help/sites-administering/tags.md#setting-tag-permissions).
 
 The following is how it appears in CRXDE when an administrator applies read permissions to `/etc/tag/discussions` for the group `*Community Engage Members*`.
 

@@ -15,7 +15,7 @@ discoiquuid: 724e09c2-3df3-4080-a0d4-ee2ede483791
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 >[!CAUTION]
 >
@@ -31,5 +31,5 @@ AEM Mobile offers multiple methods for creating apps. The three different ways t
 
 >[!NOTE]
 >
->If you are new to Adobe Experience Manager, you may want to walk through [Getting Started with AEM](/help/sites/deploying/using/deploy.md).
+>If you are new to Adobe Experience Manager, you may want to walk through [Getting Started with AEM](/help/sites-deploying/deploy.md).
 

@@ -15,7 +15,7 @@ discoiquuid: c9c818dc-c5c4-4a96-94fe-9dc9fe75705b
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ Once the Administrator has configured the two cloud services and the developer h
 
 Authoring targeted content within an AEM Mobile app follows a similar procedure to authoring AEM Sites:
 
-See here for a complete overview on [Authoring targeted content in AEM](/help/sites/authoring/using/personalization.md)
+See here for a complete overview on [Authoring targeted content in AEM](/help/sites-authoring/personalization.md)
 
 ## For Developers {#for-developers}
 

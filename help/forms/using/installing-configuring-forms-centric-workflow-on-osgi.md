@@ -44,7 +44,7 @@ AEM Forms Forms-centric workflow on OSGi runs AEM Inbox and AEM Workflow Model c
 
 Before you begin to install and configure Forms-centric workflow on OSGi, ensure that:
 
-* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites/deploying/using/technical-requirements.md).  
+* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites-deploying/technical-requirements.md).  
 
 * Installation path of the AEM instance does not contain white-spaces.
 * An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least one AEM instance (Author or Processing) to run Forms-centric workflow on OSGi:
@@ -187,6 +187,6 @@ To use Adobe Sign with AEM Forms, [Integrate Adobe Sign with AEM Forms](/help/fo
 You have configured an environment to use Forms-centric workflow on OSGi capabilities. Now, the steps toward using the capability are:
 
 * [Using Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
-* [Workflow Step Reference](/help/sites/developing/using/workflows-step-ref.md)
+* [Workflow Step Reference](/help/sites-developing/workflows-step-ref.md)
 * [Post processing of letters and interactive communications](/help/forms/using/submit-letter-topostprocess.md)
 

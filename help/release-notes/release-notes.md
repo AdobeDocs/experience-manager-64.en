@@ -72,22 +72,22 @@ The Quickstart uses Eclipse Jetty 9.3.22 as servlet engine.
 
 Various enhancements have been made to the UI to make it more productive and easier to use.
 
-* [New Content Tree rail](/help/sites/authoring/using/basic-handling.md#content-tree) to quickly navigate a hierarchy. In combination with the list view, this restores the Classic UI interaction model.
+* [New Content Tree rail](/help/sites-authoring/basic-handling.md#content-tree) to quickly navigate a hierarchy. In combination with the list view, this restores the Classic UI interaction model.
 * Improved scrolling experience in card and list view of large folders. 
-* [Improved interaction with the search results](/help/sites/authoring/using/search.md) - the back button restores the prior search result.
-* [Additional keyboard shortcuts](/help/sites/authoring/using/keyboard-shortcuts.md), for most common actions, such as to open a particular rail, to edit, move and delete item, or to open properties.
-* [Ability to disable keyboard shortcuts](/help/sites/authoring/using/user-properties.md) (enable/disable in Preferences). 
-* [Stop showing time stamps across all UI](/help/sites/authoring/using/user-properties.md) relative after 7 days (set default in Preferences).
+* [Improved interaction with the search results](/help/sites-authoring/search.md) - the back button restores the prior search result.
+* [Additional keyboard shortcuts](/help/sites-authoring/keyboard-shortcuts.md), for most common actions, such as to open a particular rail, to edit, move and delete item, or to open properties.
+* [Ability to disable keyboard shortcuts](/help/sites-authoring/user-properties.md) (enable/disable in Preferences). 
+* [Stop showing time stamps across all UI](/help/sites-authoring/user-properties.md) relative after 7 days (set default in Preferences).
 
-See the [Authoring documentation](/help/sites/authoring/using/home.md) for more information on these features.
+See the [Authoring documentation](/help/sites-authoring/home.md) for more information on these features.
 
 >[!CAUTION]
 >
->Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has the Classic UI included, and customers upgrading from earlier releases can keep using it as is. Note that Classic UI remains fully supported while being deprecated. [Read more](/help/sites/deploying/using/ui-recommendations.md).
+>Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has the Classic UI included, and customers upgrading from earlier releases can keep using it as is. Note that Classic UI remains fully supported while being deprecated. [Read more](/help/sites-deploying/ui-recommendations.md).
 
 #### Content Repository {#content-repository}
 
-* Faster and more efficient compaction by Online Revision Cleanup. Internal tests show that the new tail compaction is up to 10 times faster and can reclaim more disk space with less IOPS compared to AEM 6.3. This results in less performance impact while the Online Revision Cleanup is running. For more information, please see [the documentation page](/help/sites/deploying/using/revision-cleanup.md#full-and-tail-compaction-modes).  
+* Faster and more efficient compaction by Online Revision Cleanup. Internal tests show that the new tail compaction is up to 10 times faster and can reclaim more disk space with less IOPS compared to AEM 6.3. This results in less performance impact while the Online Revision Cleanup is running. For more information, please see [the documentation page](/help/sites-deploying/revision-cleanup.md#full-and-tail-compaction-modes).  
 
 * Continuous Revision Cleanup for MongoMK replaces scheduled cleanup maintenance
 * Improved efficiency for Revision Cleanup on Document Nodestores
@@ -103,25 +103,25 @@ See the [Authoring documentation](/help/sites/authoring/using/home.md) for more 
 
 * Reduced Lucene related repository growth for an overall improved system performance
 
-For more information, please visit [this documentation page](/help/sites/deploying/using/indexing-via-the-oak-run-jar.md).
+For more information, please visit [this documentation page](/help/sites-deploying/indexing-via-the-oak-run-jar.md).
 
 #### Monitoring {#monitoring}
 
-* A new [System Overview](/help/sites/administering/using/operations-dashboard.md#system-overview) provides a snapshot view on all performance-related system status & activities 
-* A new set of [Health Checks](/help/sites/administering/using/operations-dashboard.md#health-checks) around Indexing, Queries and Maintenance
+* A new [System Overview](/help/sites-administering/operations-dashboard.md#system-overview) provides a snapshot view on all performance-related system status & activities 
+* A new set of [Health Checks](/help/sites-administering/operations-dashboard.md#health-checks) around Indexing, Queries and Maintenance
 
 #### Projects and Workflows {#projects-and-workflows}
 
-* All-new [Workflow Editor to create and edit workflow models](/help/sites/developing/using/workflows-models.md).
+* All-new [Workflow Editor to create and edit workflow models](/help/sites-developing/workflows-models.md).
 
 ![](assets/screen_shot_2018-04-04at71143am.png)
 
 #### Upgrade from earlier version {#upgrade-from-earlier-version}
 
-* [Backward Compatibility](/help/sites/deploying/using/backward-compatibility.md): Backward compatible features in 6.4, helps your custom code remain compatible in most cases and reduces upgrade effort.
-* [Upgrade Complexity Assessment](/help/sites/deploying/using/pattern-detector.md): New Pattern Detector tool to assess the complexity of your upgrades, before you upgrade.
-* [Repository Restructuring](/help/sites/deploying/using/repository-restructuring-in-aem64.md): significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices
-* For more general information regarding Upgrades, please see the [this page](/help/sites/deploying/using/upgrade.md) for more details.
+* [Backward Compatibility](/help/sites-deploying/backward-compatibility.md): Backward compatible features in 6.4, helps your custom code remain compatible in most cases and reduces upgrade effort.
+* [Upgrade Complexity Assessment](/help/sites-deploying/pattern-detector.md): New Pattern Detector tool to assess the complexity of your upgrades, before you upgrade.
+* [Repository Restructuring](/help/sites-deploying/repository-restructuring-in-aem64.md): significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices
+* For more general information regarding Upgrades, please see the [this page](/help/sites-deploying/upgrade.md) for more details.
 
 ### Experience Manager Sites {#experience-manager-sites}
 
@@ -287,7 +287,7 @@ More details on [AEM Forms](forms.md) release notes page. Also, see the [Summary
 
 You can integrate Livefyre with your AEM 6.4 instance. Information on how to integrate Livefyre with AEM is located here:
 
-* [Integrating Livefyre](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
+* [Integrating Livefyre](https://helpx.adobe.com/experience-manager/6-4/sites-administering/livefyre.html)
 
 ### Leverage Customer Focused Development {#leverage-customer-focused-development}
 
@@ -304,15 +304,15 @@ This process of prioritization has yielded more than 500 customer focused change
 * Standalone Quickstart: cq-quickstart-6.4.0.jar
 * Application Server Quickstart: cq-quickstart-6.4.0.war
 * Dispatcher 4.3.1 or newer for various web servers and platforms ([download link](https://helpx.adobe.com/experience-manager/dispatcher/release-notes.html))
-* Plug-in for Eclipse IDE ([read more and download](/help/sites/developing/using/aem-eclipse.md))  
+* Plug-in for Eclipse IDE ([read more and download](/help/sites-developing/aem-eclipse.md))  
 
-* Extension for Brackets Code Editor ([read more and download](/help/sites/developing/using/aem-brackets.md))
+* Extension for Brackets Code Editor ([read more and download](/help/sites-developing/aem-brackets.md))
 * Maven/Gradle dependencies ([download link](https://repo.adobe.com/nexus/content/repositories/releases/com/adobe/aem/uber-jar/6.1.0/))
 
 **Sites**
 
 * Core Components ([GitHub project](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components))
-* We.Retail Reference implementation ([read more](/help/sites/developing/using/we-retail.md))
+* We.Retail Reference implementation ([read more](/help/sites-developing/we-retail.md))
 * Project Blueprint Archetype ([GitHub project](https://github.com/Adobe-Marketing-Cloud/aem-project-archetype))
 * AEM Screens Players for various target platforms ([download](https://download.macromedia.com/screens/))
 * Smart Content Language Models. English is pre-installed - more languages can be downloaded
@@ -322,7 +322,7 @@ This process of prioritization has yielded more than 500 customer focused change
     * [Italian](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-it)
     * [French](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-fr)
 
-* [Dialog Conversion Tool](/help/sites/developing/using/dialog-conversion.md) to migrate Classic UI components to Coral 3
+* [Dialog Conversion Tool](/help/sites-developing/dialog-conversion.md) to migrate Classic UI components to Coral 3
 
 **Assets**
 
@@ -364,13 +364,13 @@ Experience Manager 6.4 has been certified for GB18030-2005 CITS to use the Chine
 
 ## Install & Update {#install-update}
 
-See [installation instructions](/help/sites/deploying/using/custom-standalone-install.md) for setup requirements.
+See [installation instructions](/help/sites-deploying/custom-standalone-install.md) for setup requirements.
 
-Please see [upgrade documentation](/help/sites/deploying/using/upgrade.md) for detailed instructions.
+Please see [upgrade documentation](/help/sites-deploying/upgrade.md) for detailed instructions.
 
 ## Supported Platforms {#supported-platforms}
 
-Please find the complete matrix of supported platforms incl. Support-Level on [AEM 6.4 Technical Requirements](/help/sites/deploying/using/technical-requirements.md)
+Please find the complete matrix of supported platforms incl. Support-Level on [AEM 6.4 Technical Requirements](/help/sites-deploying/technical-requirements.md)
 
 Oak MicroKernel for  
 Oak MicroKernel for  

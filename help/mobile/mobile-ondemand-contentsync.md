@@ -15,7 +15,7 @@ discoiquuid: 8fb70ca4-86fc-477d-9773-35b84d5e85a8
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 Use Content Sync to package content so that it can be used in native mobile applications. Pages that are authored in AEM can be used as app content, even when the device is offline. Furthermore, because AEM pages are based on web standards, they work cross-platform enabling you to embed them in any native wrapper. This strategy reduces development effort and enables you to easily update app content.
 
@@ -72,9 +72,9 @@ When AEM is installed, members of the administrators group can download from Con
 
 The Day CQ Content Sync Manager service controls access to Content Sync. Configure this service to specify the user or group that can download from Content Sync by default.
 
-If you are [configuring the service using the Web Console](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console), type the name of the user or group as the value of the Fallback Cache Authorizable property.
+If you are [configuring the service using the Web Console](/help/sites-deploying/configuring-osgi.md#osgi-configuration-with-the-web-console), type the name of the user or group as the value of the Fallback Cache Authorizable property.
 
-If you are [configuring in the repository](/help/sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository), use the following information about the service:
+If you are [configuring in the repository](/help/sites-deploying/configuring-osgi.md#osgi-configuration-in-the-repository), use the following information about the service:
 
 * PID: com.day.cq.contentsync.impl.ContentSyncManagerImpl
 * Property name: contentsync.fallback.authorizable
@@ -164,7 +164,7 @@ Each property can have one of the following values:
 
 * `REWRITE_RELATIVE`: rewrites the path with a relative position to the page .html file on the file system.  
 
-* `REWRITE_EXTERNAL`: rewrites the path by pointing to the resource on the server, using the AEM [Externalizer service](/help/sites/developing/using/externalizer.md).
+* `REWRITE_EXTERNAL`: rewrites the path by pointing to the resource on the server, using the AEM [Externalizer service](/help/sites-developing/externalizer.md).
 
 The AEM service called **PathRewriterTransformerFactory** allows you to configure the specific html attributes that will be rewritten. The service can be configured in the Web console and has a configuration for each property of the `rewrite` node: `clientlibs`, `images` and `links`.
 

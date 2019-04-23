@@ -15,7 +15,7 @@ discoiquuid: 9890d045-cead-4d70-b797-95319284e0d8
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 The AEM mobile application development process recognizes that users of different expertise contribute to the development of mobile applications. The following process map illustrates the general order in which content authors and application developers perform tasks.
 
@@ -328,7 +328,7 @@ Populate the list using the results of a keyword search. The search is performed
 
 **Advanced Search**
 
-Populate the list using a [Querybuilder](/help/sites/developing/using/querybuilder-api.md) query.
+Populate the list using a [Querybuilder](/help/sites-developing/querybuilder-api.md) query.
 
 ### Image {#image}
 

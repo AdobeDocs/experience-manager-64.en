@@ -41,7 +41,7 @@ The following events can be configured to be recorded:
 
 ## Configuring AEM Assets Events Recording {#configuring-aem-assets-events-recording}
 
-The [Web console](/help/sites/deploying/using/configuring-osgi.md) provides access to the AEM Assets Event Recorder tuning. To configure the AEM Assets Event Recorder, proceed as follows:
+The [Web console](/help/sites-deploying/configuring-osgi.md) provides access to the AEM Assets Event Recorder tuning. To configure the AEM Assets Event Recorder, proceed as follows:
 
 1. Navigate to the **Web console** 
 
@@ -57,5 +57,5 @@ The [Web console](/help/sites/deploying/using/configuring-osgi.md) provides acce
 
 ## Reading recorded events {#reading-recorded-events}
 
-The recorded events are stored as activities. You can read them programmatically by using the [ActivityManager API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ActivityManager.html).  
+The recorded events are stored as activities. You can read them programmatically by using the [ActivityManager API](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/granite/activitystreams/ActivityManager.html).  
 

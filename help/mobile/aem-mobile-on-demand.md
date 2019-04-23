@@ -14,7 +14,7 @@ discoiquuid: cc97a926-d893-46a9-8aea-b56cbee5df01
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ discoiquuid: cc97a926-d893-46a9-8aea-b56cbee5df01
 
 >[!NOTE]
 >
->Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with [AEM](/help/sites/deploying/using/deploy.md). 
+>Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with [AEM](/help/sites-deploying/deploy.md). 
 >
 >To Set up your environment for AEM Mobile On-Demand Services, see [AEM Mobile Application Dashboard or the Control Center](/help/mobile/mobile-apps-ondemand-application-dashboard.md).
 

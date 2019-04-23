@@ -15,7 +15,7 @@ discoiquuid: 2ecf05ed-4e56-4e0b-89cf-5161741f9001
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 For developers, the best place to start is to take a look at the Adobe Expererience Manager Mobile Starterkit in github
 
@@ -38,8 +38,8 @@ The developers can use this example as a starting point for trying out an AEM Mo
 
 AEM *Templates* and *Components* enable line of business owners to create custom experiences. Both *Templates *and *Components* are available out-of-the-box or can be custom developed by you, the developer either by extending existing components or creating greenfield (advanced). *Templates* and *Components* are what allow the AEM Author to drag-and-dropped to create engaging and relevent experiences.
 
-1. [Creating Components](/help/sites/developing/using/components.md)
-1. [Creating Templates](/help/sites/developing/using/templates.md)
+1. [Creating Components](/help/sites-developing/components.md)
+1. [Creating Templates](/help/sites-developing/templates.md)
 
 Once you have a solid understanding of the above two steps, jump into:
 

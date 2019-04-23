@@ -117,7 +117,7 @@ If you use this option, assets to be translated are copied to the language root 
 
    ![](assets/chlimage_1-73.png)
 
-   For more details around job statuses, see [Monitoring the Status of a Translation Job](/help/sites/administering/using/tc-manage.md#monitoring-the-status-of-a-translation-job).
+   For more details around job statuses, see [Monitoring the Status of a Translation Job](/help/sites-administering/tc-manage.md#monitoring-the-status-of-a-translation-job).
 
 1. Navigate to the Assets UI, and open the Properties page for each of the translated assets to view the translated metadata.
 
@@ -189,7 +189,7 @@ If you use this option, the translation workflow runs for assets that you add to
 
    ![](assets/chlimage_1-83.png)
 
-   For more details, see [Monitoring the Status of a Translation Job](/help/sites/administering/using/tc-manage.md#monitoring-the-status-of-a-translation-job).
+   For more details, see [Monitoring the Status of a Translation Job](/help/sites-administering/tc-manage.md#monitoring-the-status-of-a-translation-job).
 
 1. After the translation completes, the status changes to Ready to Review. Navigate to the Assets UI, and open the Properties page for each of the translated assets to view the translated metadata.
 
@@ -247,7 +247,7 @@ If you use this option, a translation project is created for the set of assets f
 
    ![](assets/chlimage_1-93.png)
 
-   For more details around job statuses, see [Monitoring the Status of a Translation Job](/help/sites/administering/using/tc-manage.md#monitoring-the-status-of-a-translation-job).
+   For more details around job statuses, see [Monitoring the Status of a Translation Job](/help/sites-administering/tc-manage.md#monitoring-the-status-of-a-translation-job).
 
 1. Navigate to the Assets UI, and open the Properties page for each of the translated assets to view the translated metadata.
 

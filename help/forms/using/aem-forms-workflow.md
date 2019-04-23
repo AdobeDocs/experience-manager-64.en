@@ -27,7 +27,7 @@ With Forms-centric workflow on OSGi, you can rapidly build and deploy workflows 
 
 Once set up, these workflows can be triggered manually to complete a defined process or run programmatically when users submit a form or [correspondence management](/help/forms/using/cm-overview.md) letter. With this enhanced AEM Workflow capabilities, AEM Forms offers two distinct, yet similar, capabilities. As part of your deployment strategy, you need to decide which one works for you. See a [comparison](/help/forms/using/capabilities-osgi-jee-workflows.md) of the Forms-centric AEM Workflows on OSGi and Process Management on JEE. Moreover, for the deployment topology see, [Architecture and deployment topologies for AEM Forms](/help/forms/using/aem-forms-architecture-deployment.md).
 
-Forms-centric workflow on OSGi extends [AEM Inbox](/help/sites/authoring/using/inbox.md) and provides extra components (steps) for AEM Workflow editor to add support for AEM Forms-centric workflows. The extended AEM Inbox has functionalities similar to [AEM Forms Workspace](/help/forms/using/introduction-html-workspace.md). Along with managing human-centric workflows (Approval, Review, and so on), you can use AEM workflows to automate [document services](/help/sites/developing/using/workflows-step-ref.md)-related operations (for example, Generate PDF) and electronically signing (Adobe Sign) documents.
+Forms-centric workflow on OSGi extends [AEM Inbox](/help/sites-authoring/inbox.md) and provides extra components (steps) for AEM Workflow editor to add support for AEM Forms-centric workflows. The extended AEM Inbox has functionalities similar to [AEM Forms Workspace](/help/forms/using/introduction-html-workspace.md). Along with managing human-centric workflows (Approval, Review, and so on), you can use AEM workflows to automate [document services](/help/sites-developing/workflows-step-ref.md)-related operations (for example, Generate PDF) and electronically signing (Adobe Sign) documents.
 
 The following diagram depicts end-to-end procedure to create, run, and monitor a Forms-centric workflow on OSGi.
 
@@ -42,9 +42,9 @@ The following diagram depicts end-to-end procedure to create, run, and monitor a
 
 ## Create a workflow model {#create-a-workflow-model}
 
-A workflow model consists of logic and flow of a business process. It is made up of a series of the steps. These steps are AEM components. You can extend workflow steps with parameters and scripts to provide more functionality and control, as required. AEM Forms provides a few steps in addition to AEM steps available out of the box. For a detailed list of AEM and AEM Forms steps, see [AEM Workflow Step Reference](/help/sites/developing/using/workflows-step-ref.md) and [Forms-centric workflow on OSGi - Step Reference](/help/forms/using/aem-forms-workflow.md).
+A workflow model consists of logic and flow of a business process. It is made up of a series of the steps. These steps are AEM components. You can extend workflow steps with parameters and scripts to provide more functionality and control, as required. AEM Forms provides a few steps in addition to AEM steps available out of the box. For a detailed list of AEM and AEM Forms steps, see [AEM Workflow Step Reference](/help/sites-developing/workflows-step-ref.md) and [Forms-centric workflow on OSGi - Step Reference](/help/forms/using/aem-forms-workflow.md).
 
-AEM provides an intuitive user interface to create a workflow model using the provided workflow steps. For step-by-step instructions to create a workflow model, see [Creating Workflow Models](/help/sites/developing/using/workflows-models.md). The following example provides step-by-step instructions to create a workflow model for an approval and review workflow:
+AEM provides an intuitive user interface to create a workflow model using the provided workflow steps. For step-by-step instructions to create a workflow model, see [Creating Workflow Models](/help/sites-developing/workflows-models.md). The following example provides step-by-step instructions to create a workflow model for an approval and review workflow:
 
 >[!NOTE]
 >
@@ -274,4 +274,4 @@ You can use the Assign Task and Send Email steps of AEM Workflows to send an ema
 
 ### Purge workflow instances {#purge-workflow-instances}
 
-Minimizing the number of workflow instances increases the performance of the workflow engine, so you can regularly purge completed or running workflow instances from the repository. For detailed information see, [Regular Purging of Workflow Instances](/help/sites/administering/using/workflows-administering.md#regular-purging-of-workflow-instances).
+Minimizing the number of workflow instances increases the performance of the workflow engine, so you can regularly purge completed or running workflow instances from the repository. For detailed information see, [Regular Purging of Workflow Instances](/help/sites-administering/workflows-administering.md#regular-purging-of-workflow-instances).

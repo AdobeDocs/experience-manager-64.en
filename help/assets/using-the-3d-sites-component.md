@@ -19,7 +19,7 @@ After you have added your 3D component, you can [view the 3D asset in that compo
 
 ## Adding the 3D component to the page template {#adding-the-d-component-to-the-page-template}
 
-You must enable the 3D component in the page before you can place it on a page. See [Editing templates](/help/sites/authoring/using/templates.md#editing-a-template-layout-template-author) for detailed information on enabling components in templates.
+You must enable the 3D component in the page before you can place it on a page. See [Editing templates](/help/sites-authoring/templates.md#editing-a-template-layout-template-author) for detailed information on enabling components in templates.
 
 Adding the 3D component to the page template:
 
@@ -161,7 +161,7 @@ To preview a web page that has a 3D component:
 
 ## Publishing the page and assets {#publishing-the-page-and-assets}
 
-See [Publishing Assets](managing-assets-touch-ui.md) for information on how to publish assets. See [Publishing Pages](/help/sites/authoring/using/publishing-pages.md) for information on how to publish pages.
+See [Publishing Assets](managing-assets-touch-ui.md) for information on how to publish assets. See [Publishing Pages](/help/sites-authoring/publishing-pages.md) for information on how to publish pages.
 
 >[!NOTE]
 >

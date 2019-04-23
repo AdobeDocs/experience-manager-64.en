@@ -59,17 +59,17 @@ For translation, a dictionary containing files in XLIFF format is shared with th
 
 Perform the following steps to localize a form and its document of record using Human Translators:
 
-1. [Connect AEM with your translation service provider](/help/sites/administering/using/tc-tic.md) and [create translation integration framework configurations](/help/sites/administering/using/tc-tic.md).
+1. [Connect AEM with your translation service provider](/help/sites-administering/tc-tic.md) and [create translation integration framework configurations](/help/sites-administering/tc-tic.md).
 
-2. [Associate the pages of your language master](/help/sites/administering/using/tc-tic.md) with the translation service and framework configurations.
+2. [Associate the pages of your language master](/help/sites-administering/tc-tic.md) with the translation service and framework configurations.
 
-3. [Identify the type of content](/help/sites/administering/using/tc-rules.md) to translate.
+3. [Identify the type of content](/help/sites-administering/tc-rules.md) to translate.
 
-4. [Prepare the content for translation](/help/sites/administering/using/tc-prep.md) by authoring the language master and creating the root pages of language copies.
+4. [Prepare the content for translation](/help/sites-administering/tc-prep.md) by authoring the language master and creating the root pages of language copies.
 
-5. [Create translation projects](/help/sites/administering/using/tc-manage.md) to gather the content to translate and to prepare the translation process.
+5. [Create translation projects](/help/sites-administering/tc-manage.md) to gather the content to translate and to prepare the translation process.
 
-6. Use the translation projects to [manage the content translation process](/help/sites/administering/using/tc-manage.md).
+6. Use the translation projects to [manage the content translation process](/help/sites-administering/tc-manage.md).
 
 >[!NOTE]
 >

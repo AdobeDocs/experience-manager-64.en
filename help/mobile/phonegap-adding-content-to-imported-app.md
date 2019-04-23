@@ -16,7 +16,7 @@ pagetitle: Is your hybrid app ready for AEM Mobile?
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 So you've imported your Hybrid PhoneGap or Cordova app into AEM, now what? Likely you will want to add authorable content to your app. To accomplish this task you will need a general understanding of the structure of an AEM app. An app in AEM is commonly divided into two parts. The 'shell' and 'content'. The 'shell' comprises of the static parts of your app; such as the PhoneGap configuration files, the app framework, and the navigation controls. The contents of the archive that you imported are stored as part of the shell. In the context of this document, the shell is all the non-AEM authored content of your Hybrid PhoneGap app built by the app developer.
 

@@ -67,7 +67,7 @@ Identify the custom template by adding a `page-template` property to the configu
 
 Be sure to** Save All** and replicate custom code to all AEM instances (custom code is not included when the community site content is published from the console).
 
-The recommended practice for replicating custom code is to [create a package](/help/sites/administering/using/package-manager.md#creating-a-new-package) and deploy it on all instances.
+The recommended practice for replicating custom code is to [create a package](/help/sites-administering/package-manager.md#creating-a-new-package) and deploy it on all instances.
 
 ## Exporting a Community Site {#exporting-a-community-site}
 
@@ -124,7 +124,7 @@ This only removes user generated content (entered on publish) and not authored c
 
 ### Community User Groups {#community-user-groups}
 
-On all author and publish instances, from the [security console](/help/sites/administering/using/security.md), locate and remove the [user groups](/help/communities/users.md) that are:
+On all author and publish instances, from the [security console](/help/sites-administering/security.md), locate and remove the [user groups](/help/communities/users.md) that are:
 
 * prefixed with `community`
 * followed by [unique site id](#community-unique-site-id)

@@ -17,12 +17,12 @@ Adobe Experience Manager (AEM) forms can help you transform complex transactions
 
 This document provides guidelines and recommendations that forms administrator, authors, and developers can benefit from when working with AEM Forms, especially adaptive forms component. It discusses best practices right from setting up a forms development project to configuring, customizing, authoring, and optimizing AEM Forms. These best practices collectively contribute to the overall performance of AEM Forms ecosystem.
 
-In addition, here are some recommended reads for general AEM best practices: [](/help/sites/deploying/using/best-practices.md)
+In addition, here are some recommended reads for general AEM best practices: [](/help/sites-deploying/best-practices.md)
 
-* [Best practices: Deploying and maintaining AEM](/help/sites/deploying/using/best-practices.md)
-* [Best practices: Authoring content](/help/sites/authoring/using/best-practices.md)
-* [Best practices: Administering AEM](/help/sites/administering/using/administer-best-practices.md)
-* [Best practices: Developing solutions](/help/sites/developing/using/best-practices.md)
+* [Best practices: Deploying and maintaining AEM](/help/sites-deploying/best-practices.md)
+* [Best practices: Authoring content](/help/sites-authoring/best-practices.md)
+* [Best practices: Administering AEM](/help/sites-administering/administer-best-practices.md)
+* [Best practices: Developing solutions](/help/sites-developing/best-practices.md)
 
 ## Set up and configure AEM Forms {#set-up-and-configure-aem-forms}
 
@@ -35,11 +35,11 @@ A simplified and standardized project structure can significantly reduce develop
     * Use the maven `archetype:generate` command to generate the initial structure.
     * Use maven `eclipse:eclipse` command to generate the eclipse project files and import the project into eclipse.
 
-For more information, see [How to Build AEM Projects using Apache Maven](/help/sites/developing/using/ht-projects-maven.md).
+For more information, see [How to Build AEM Projects using Apache Maven](/help/sites-developing/ht-projects-maven.md).
 
-* The FileVault tool or VLT helps you map the content of a CRX or AEM instance to your file system. It provides change control management operations, such as check-in and check-out of the AEM project content. See [How to use the VLT Tool](/help/sites/developing/using/ht-vlttool.md).  
+* The FileVault tool or VLT helps you map the content of a CRX or AEM instance to your file system. It provides change control management operations, such as check-in and check-out of the AEM project content. See [How to use the VLT Tool](/help/sites-developing/ht-vlttool.md).  
 
-* If you use Eclipse-integrated development environment, you can use AEM Developer tools for seamless integration of Eclipse IDE with AEM instances to create AEM applications. For details, see [AEM developer tools for Eclipse](/help/sites/developing/using/aem-eclipse.md).
+* If you use Eclipse-integrated development environment, you can use AEM Developer tools for seamless integration of Eclipse IDE with AEM instances to create AEM applications. For details, see [AEM developer tools for Eclipse](/help/sites-developing/aem-eclipse.md).
 
 ### Planning for authoring environment {#planning-for-authoring-environment}
 
@@ -73,7 +73,7 @@ For more information, see [Create an adaptive form](/help/forms/using/creating-a
 * Adaptive forms provide panel layouts, such as responsive, tabbed, accordions, and wizard, to control how form components are laid out in a panel. You can create custom panel layouts and make them available for use by form authors. For more information, see [Creating custom layout components for adaptive forms](/help/forms/using/custom-layout-components-forms.md).
 * You can also customize specific adaptive form components like fields and panel layout.
 
-    * Use the [Overlay](/help/sites/developing/using/overlays.md) functionality of AEM to modify a copy of a component. It is not recommended to modify default components.
+    * Use the [Overlay](/help/sites-developing/overlays.md) functionality of AEM to modify a copy of a component. It is not recommended to modify default components.
     * To customize the layout of out-of-the-box adaptive form components in /libs, [create custom layout components](/help/forms/using/custom-layout-components-forms.md) in addition to the [default layouts](/help/forms/using/layout-capabilities-adaptive-forms.md).
     
     * Introduce custom interactivities by creating custom widgets or appearances. It is not recommended to modify default components. For more information, see [Appearance framework](/help/forms/using/introduction-widgets.md).
@@ -273,10 +273,10 @@ Some best practices to configure AEM to improve the overall performance are as f
 
 * Enable HTML via web server compression module. For more information, see [Performance tuning of AEM Forms server](/help/forms/using/performance-tuning-aem-forms.md).
 * Increase calls per request configuration for large forms. See [Optimizing performance of large and complex forms](/help/forms/using/adaptive-forms-best-practices.md#optimizing-performance-of-large-and-complex-forms).
-* Create [custom error pages shown by error handler](https://helpx.adobe.com/experience-manager/6-2/sites/developing/using/customizing-errorhandler-pages.html).
+* Create [custom error pages shown by error handler](https://helpx.adobe.com/experience-manager/6-2/sites-developing/customizing-errorhandler-pages.html).
 * Secure AEM Forms server.
 
-    * Use `nosamplecontent` run mode to ensure there are no sample content and sample users deployed on the production server. See [Running AEM in Production Ready Mode](/help/sites/administering/using/production-ready.md).
+    * Use `nosamplecontent` run mode to ensure there are no sample content and sample users deployed on the production server. See [Running AEM in Production Ready Mode](/help/sites-administering/production-ready.md).
 
 * Keep the heap size to a minimum of 8 GB. For other settings, see [Performance tuning of AEM Forms server](/help/forms/using/performance-tuning-aem-forms.md).
 * Use service user sessions instead of admin sessions for executing service-level tasks. For more information, see [Service authentication](https://sling.apache.org/documentation/the-sling-engine/service-authentication.html).

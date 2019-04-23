@@ -46,7 +46,7 @@ For more information on AEM Forms app working with AEM Forms server, see [Conard
 
 ### Standalone forms or AEM Forms app with servers without AEM Forms Workflow {#standalone-forms-or-aem-forms-app-with-servers-without-aem-forms-workflow}
 
-An AEM Forms server not using AEM Forms Workflow is AEM Forms on OSGi or a standalone mobile form or adaptive form. AEM Forms app works with your AEM Forms implementation on [OSGi](/help/sites/deploying/using/configuring-osgi.md). Forms you enable and publish for AEM Forms app are available in your app.
+An AEM Forms server not using AEM Forms Workflow is AEM Forms on OSGi or a standalone mobile form or adaptive form. AEM Forms app works with your AEM Forms implementation on [OSGi](/help/sites-deploying/configuring-osgi.md). Forms you enable and publish for AEM Forms app are available in your app.
 
 The forms are downloaded on your app, and are available offline. For example, you are running a banking firm, and a customer fills an application on your site. The application is an adaptive form that accepts information from your customers, and stores it for review. The administrator reviews the form, and creates a verification form in AEM author instance. The admin enables syncing of the form with AEM Forms app, and publishes it. If the verification form is available in AEM Forms app, your field agent can use a mobile device to verify your customer's details. The mobile device syncs with the server, and the verification form is loaded in the app. Your field agent can visit your customer, verify the details, save data as draft, or submit the verification form. The form is synced with the server whenever the app is online.
 

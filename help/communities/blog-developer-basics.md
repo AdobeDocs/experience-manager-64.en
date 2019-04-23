@@ -72,9 +72,9 @@ The blog feature is comprised of two main components that are available by addin
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Blog API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/api/package-summary.html)
+* [Blog API](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/journal/client/api/package-summary.html)
 
-* [Blog Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/endpoints/package-summary.html)
+* [Blog Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/journal/client/endpoints/package-summary.html)
 
 * [Server-side Customizations](/help/communities/server-customize.md)
 
@@ -108,7 +108,7 @@ See [Primary Publisher](/help/communities/deploy-communities.md#primary-publishe
 
 The AEM platform blocks links from other websites to prevent XSS attacks as described in
 
-* [Protect against Cross-Site Scripting (XSS)](/help/sites/developing/using/security.md#protect-against-cross-site-scripting-xss)
+* [Protect against Cross-Site Scripting (XSS)](/help/sites-developing/security.md#protect-against-cross-site-scripting-xss)
 
 As of AEM 6.2, the modifications previously required to be made manually are included in the default AntiSamy config file.
 

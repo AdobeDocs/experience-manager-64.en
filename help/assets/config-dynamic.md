@@ -35,7 +35,7 @@ Learn more about working with [video](video.md) in Dynamic Media.
 >* s7access.log
 >* ImageServing.log
 >
->They are documented in [Monitoring and Maintaining your AEM instance](/help/sites/deploying/using/monitoring-and-maintaining.md).
+>They are documented in [Monitoring and Maintaining your AEM instance](/help/sites-deploying/monitoring-and-maintaining.md).
 
 Hybrid publishing and delivery is a core feature of the Dynamic Media addition to Adobe Experience Manager. Hybrid publishing lets you deliver Dynamic Media assets, such as images, sets and video, from the cloud instead of from the AEM publish nodes.
 
@@ -141,7 +141,7 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 ## Enabling Dynamic Media {#enabling-dynamic-media}
 
-[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable dynamic media by using the **dynamicmedia** run mode as you would, for example, **publish** run mode. Before enabling, make sure to review the [technical requirements.](/help/sites/deploying/using/technical-requirements.md#requirements-for-aem-dynamic-media-add-on)
+[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable dynamic media by using the **dynamicmedia** run mode as you would, for example, **publish** run mode. Before enabling, make sure to review the [technical requirements.](/help/sites-deploying/technical-requirements.md#requirements-for-aem-dynamic-media-add-on)
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 By enabling Dynamic Media, the dynamic media features will be available in the UI and every uploaded image asset receives a *cqdam.pyramid.tiff* rendition that is used for fast delivery of dynamic image renditions. Those PTIFFs have significant advantages including (1) the ability to manage only a single master image and generate infinite renditions on-the-fly without any additional storage and (2) the ability to use interactive visualization such as zoom, pan, spin, and so on.
 
-If you want to use Dynamic Media Classic (Scene7) in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](/help/sites/administering/using/scene7.md#aem-scene-integration-versus-dynamic-media). Dynamic Media is disabled unless you enable dynamic media by way of the runmode.
+If you want to use Dynamic Media Classic (Scene7) in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](/help/sites-administering/scene7.md#aem-scene-integration-versus-dynamic-media). Dynamic Media is disabled unless you enable dynamic media by way of the runmode.
 
 To enable dynamic media, you must enable the dynamic media runmode either from the command line or from the quickstart file name.
 
@@ -196,7 +196,7 @@ To enable dynamic media:
 
 ### If you installed AEM to a different port or context path ... {#if-you-installed-aem-to-a-different-port-or-context-path}
 
-If you are deploying [AEM to an application server](/help/sites/deploying/using/application-server-install.md) and have Dynamic Media enabled, you need to configure the **self** domain in the externalizer. Otherwise, thumbnail generation for assets will not work properly for dynamic media assets.
+If you are deploying [AEM to an application server](/help/sites-deploying/application-server-install.md) and have Dynamic Media enabled, you need to configure the **self** domain in the externalizer. Otherwise, thumbnail generation for assets will not work properly for dynamic media assets.
 
 In addition, if you run quickstart on a different port or context path, you also have to change the **self** domain.
 
@@ -204,15 +204,15 @@ When Dynamic Media is enabled, the static thumbnail renditions for image assets 
 
 In AEM:
 
-* The **self** domain in the [externalizer](/help/sites/developing/using/externalizer.md) is used to retrieve both the port number and context path.
+* The **self** domain in the [externalizer](/help/sites-developing/externalizer.md) is used to retrieve both the port number and context path.
 
 * If no **self** domain is configured, the port number and context path are retrieved from the Jetty HTTP service.
 
-In an AEM QuickStart WAR deployment, the port number and context path cannot be derived, therefore you must configure a **self** domain. See [externalizer documentation](/help/sites/developing/using/externalizer.md) on how to configure the **self** domain.
+In an AEM QuickStart WAR deployment, the port number and context path cannot be derived, therefore you must configure a **self** domain. See [externalizer documentation](/help/sites-developing/externalizer.md) on how to configure the **self** domain.
 
 >[!NOTE]
 >
->In an [AEM Quickstart stand-alone deployment](/help/sites/deploying/using/deploy.md), a **self** domain generally does not need to be configured because the port number and context path can be auto-configured. However, if all network interfaces are turned off, you need to configure the **self** domain.
+>In an [AEM Quickstart stand-alone deployment](/help/sites-deploying/deploy.md), a **self** domain generally does not need to be configured because the port number and context path can be auto-configured. However, if all network interfaces are turned off, you need to configure the **self** domain.
 
 ## Disabling Dynamic Media  {#disabling-dynamic-media}
 
@@ -1025,7 +1025,7 @@ To install feature pack 12445:
 
 1. Navigate to [Package Share](https://www.adobeaemcloud.com/content/packageshare.html) and download either `cq-6.3.0-featurepack-12445`.
 
-   See [How to Work with Packages](/help/sites/administering/using/package-manager.md) for more information on using Package Share and Packages in AEM.
+   See [How to Work with Packages](/help/sites-administering/package-manager.md) for more information on using Package Share and Packages in AEM.
 
 1. Install the feature pack.
 

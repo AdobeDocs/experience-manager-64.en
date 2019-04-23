@@ -20,7 +20,7 @@ discoiquuid: f2ac3d66-cc79-498f-83fb-dd96feb88de2
 
 For development and demonstration purposes, it will be necessry to run one author and one publish instance.
 
-Follow the basic AEM [Getting Started](/help/sites/deploying/using/deploy.md#getting-started) instructions which will result in
+Follow the basic AEM [Getting Started](/help/sites-deploying/deploy.md#getting-started) instructions which will result in
 
 * author environment on [localhost:4502](http://localhost:4502/)
 * publish environment on [localhost:4503](http://localhost:4503/)
@@ -42,7 +42,7 @@ For AEM Communities,
 
 >[!NOTE]
 >
->If not familiar with AEM, view the documentation on [basic handling](/help/sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](/help/sites/authoring/using/qg-page-authoring.md).
+>If not familiar with AEM, view the documentation on [basic handling](/help/sites-authoring/basic-handling.md) and a [quick guide to authoring pages](/help/sites-authoring/qg-page-authoring.md).
 
 ## Install Latest Communities Release {#install-latest-communities-release}
 
@@ -80,7 +80,7 @@ For simple instructions to enable the tunnel service, see [Tunnel Service](/help
 
 Create tags to use for the engage and enablement tutorials, using the tag namespace of `Tutorial`.
 
-Use the [Tagging console](/help/sites/administering/using/tags.md#tagging-console) to create the following tags:
+Use the [Tagging console](/help/sites-administering/tags.md#tagging-console) to create the following tags:
 
 * `Tutorial: Sports / Baseball`
 * `Tutorial: Sports / Gymnastics`
@@ -93,8 +93,8 @@ Use the [Tagging console](/help/sites/administering/using/tags.md#tagging-consol
 
 Then follow the instructions to
 
-1. [set the tag permissions](/help/sites/administering/using/tags.md#setting-tag-permissions)
-1. [publish the tags](/help/sites/administering/using/tags.md#publishing-tags)
+1. [set the tag permissions](/help/sites-administering/tags.md#setting-tag-permissions)
+1. [publish the tags](/help/sites-administering/tags.md#publishing-tags)
 
 Sample package of tags created for the AEM Communities Getting Started Tutorials
 

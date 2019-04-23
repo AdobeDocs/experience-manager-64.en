@@ -22,7 +22,7 @@ For example, you want all form authors to have certain text boxes, navigation bu
 
 ## Working with templates {#working-with-templates}
 
-You can access template editor from the Tools menu by navigating to **Adobe Experience Manager &gt; Tools &gt; Templates**. Here, the templates are organized in folders enabled for editable templates. AEM provides a global folder to organize templates. However, it is not enabled by default. You can request your Administrator to enable the global folder or create a new folder for templates. For more information on how to create folders, see [Template Folders](/help/sites/developing/using/page-templates-editable.md).
+You can access template editor from the Tools menu by navigating to **Adobe Experience Manager &gt; Tools &gt; Templates**. Here, the templates are organized in folders enabled for editable templates. AEM provides a global folder to organize templates. However, it is not enabled by default. You can request your Administrator to enable the global folder or create a new folder for templates. For more information on how to create folders, see [Template Folders](/help/sites-developing/page-templates-editable.md).
 
 Once you tap to open a folder, you will find a Create button that allows creating a new template for adaptive forms.
 
@@ -186,5 +186,5 @@ Perform the following steps to show and hide templates:
 
 * When you modify properties of the form in template editor, do not use the BindReference property.
 * If you want to add a breakpoint, create it when you author an adaptive form template.   
-  For more information on breakpoints, see [Responsive Layout](/help/sites/authoring/using/responsive-layout.md).
+  For more information on breakpoints, see [Responsive Layout](/help/sites-authoring/responsive-layout.md).
 

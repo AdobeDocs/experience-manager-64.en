@@ -44,7 +44,7 @@ In addition to these, observe the following guidelines for the backup/restore pr
 * (Optional) Back up the Content Storage Root directory by using an available operating system or a third-party backup and utility. (See [Content Storage Root location (stand-alone environment)](/help/forms/using/admin-help/files-back-recover.md#content-storage-root-location-stand-alone-environment) or [Content Storage Root location (clustered environment)](/help/forms/using/admin-help/files-back-recover.md#content-storage-root-location-clustered-environment).)
 * Back up   author  and publish instances (  crx -repository backup).
 
-  To back up the Correspondence Management Solution environment, perform the steps on the author and publish instances as described in [Backup and Restore](/help/sites/administering/using/backup-and-restore.md).
+  To back up the Correspondence Management Solution environment, perform the steps on the author and publish instances as described in [Backup and Restore](/help/sites-administering/backup-and-restore.md).
 
   Consider the following points when backing up the author and publish instances:
 

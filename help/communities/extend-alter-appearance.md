@@ -26,7 +26,7 @@ For a simple demonstration, a visual feature, the avatar shown of the signed-in 
 
 ## Modify the HBS Scripts {#modify-the-hbs-scripts}
 
-Using [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md):
+Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md):
 
 * open [/apps/custom/components/comments/comment/**comment.hbs**](http://localhost:4502/crx/de/index.jsp#/apps/custom/components/comments/comment/comment.hbs)
 

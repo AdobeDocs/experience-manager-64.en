@@ -32,7 +32,7 @@ The correspondence management module has the following configurations:
 
 The Asset Composer configuration provides options to configure core correspondence management capabilities such as asset (text, image, list, condition, and letter template) creation and document rendering. To configure available capabilities, navigate to AEM Web Console Configuration and open the **Asset Composer Configurations** option. The [Correspondence Management Configuration Properties](/help/forms/using/cm-configuration-properties.md) article also lists all the properties of the configuration.
 
-For detailed steps to edit a configuration, see configuration section in [Web Console](/help/sites/deploying/using/web-console.md) documentation.
+For detailed steps to edit a configuration, see configuration section in [Web Console](/help/sites-deploying/web-console.md) documentation.
 
 ### AEM Forms Analytics Configuration {#aem-forms-analytics-configuration}
 

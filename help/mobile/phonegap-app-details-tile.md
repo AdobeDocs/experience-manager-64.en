@@ -15,7 +15,7 @@ discoiquuid: a87834c9-247c-49fa-9978-a969230db91c
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 The **Manage App** Tile on the App Dashboard provides the ability to modify details about the Application. To open the Details page click on the Manage App tile's details link. From within the Manage App page you can edit the PhoneGap Application Configuration (config.xml) settings and prepare your application for submission to the various application stores.
 

@@ -56,7 +56,7 @@ AEM Forms add-on package is an application deployed onto AEM. Generally, you req
 
 Before you begin to install and configure AEM Forms document services, ensure that:
 
-* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites/deploying/using/technical-requirements.md).  
+* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites-deploying/technical-requirements.md).  
 
 * Installation path of the AEM instance does not contain white-spaces.
 * An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. Generally, you require only one AEM instance (author or publish) to run AEM Forms document services:

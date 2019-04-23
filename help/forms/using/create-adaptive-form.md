@@ -163,9 +163,9 @@ A submit action is triggered when a user taps the Submit button on an adaptive f
 
 Using the following steps, you can configure email submit action and demo submit action of the form:
 
-1. Configure the email server. For details, see [Configuring Email Notification](/help/sites/administering/using/notification.md).
+1. Configure the email server. For details, see [Configuring Email Notification](/help/sites-administering/notification.md).
 
-   /content/help/en/experience-manager/6-4/sites/administering/using/notification.html 
+   /content/help/en/experience-manager/6-4/sites-administering/notification.html 
 
 1. Tap **Form Container** in the Content browser and tap ![](assets/cmppr.png). The properties browser opens on the left. 
 1. Go to **Submission **&gt; **Submit Action**. Select **Send Email**. Specify the following values and tap ![](assets/aem_6_3_forms_save.png).

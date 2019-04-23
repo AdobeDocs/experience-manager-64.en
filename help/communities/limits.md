@@ -35,7 +35,7 @@ To reach this OSGi configuration:
 
 * on the primary publisher
 * sign in with administrator privileges
-* access the [Web Console](/help/sites/deploying/using/configuring-osgi.md)
+* access the [Web Console](/help/sites-deploying/configuring-osgi.md)
 
     * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr)
 

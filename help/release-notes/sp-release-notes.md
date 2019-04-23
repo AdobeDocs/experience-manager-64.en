@@ -563,7 +563,7 @@ The key highlights for AEM 6.4.4.0 forms are:
   <li>The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.7.</li> 
   <li>Added support for HTML Template Language (HTL) Specification 1.4 features</li> 
   <li>Added support for MongoDB Enterprise 3.6.</li> 
-  <li>The Sites Page Editor adds support for in-context editing and composition with client-side components build in React or Angular in combination with <a href="/help/sites/developing/using/spa-walkthrough.md">AEM's SPA Editor JS SDK</a>. </li> 
+  <li>The Sites Page Editor adds support for in-context editing and composition with client-side components build in React or Angular in combination with <a href="/help/sites-developing/spa-walkthrough.md">AEM's SPA Editor JS SDK</a>. </li> 
   <li>Content Fragments enhancements: added the capability to annotate in text fields, and side-by-side comparison of versions.</li> 
   <li>Added <a href="/help/assets/aem-assets-adobe-stock.md" target="_blank">integration with Adobe Stock</a> so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see <a href="https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html">https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html</a>.</li> 
   <li>Assets added support for dynamic conditional 
@@ -645,7 +645,7 @@ The key highlights for AEM 6.4.4.0 forms are:
   <li>ON/OFF time is stored in crx/de but doesn't fetch the same in page properties UI console. NPR-25154: Hotfix for CQ-4243431</li> 
   <li>Styles System breaks dialog's initial properties values. NPR-25648: Hotfix for CQ-4250073</li> 
   <li>When defining a cq:tagName property in a cq:htmlTag node, the tag name is not considered if the component is included via JSP. NPR-24154: Hotfix for CQ-4244120</li> 
-  <li>For a nested parsys components, always the first (with least nested path) satisfying design is applied from multiple available components. For more information, see <a href="/help/sites/developing/using/page-templates-static.md">Design Path Resolution</a>. NPR-24973: Hotfix for CQ-4246276</li> 
+  <li>For a nested parsys components, always the first (with least nested path) satisfying design is applied from multiple available components. For more information, see <a href="/help/sites-developing/page-templates-static.md">Design Path Resolution</a>. NPR-24973: Hotfix for CQ-4246276</li> 
   <li>When pasting text into an RTE component, a pop-up dialog is displayed, but not rendered properly. NPR-24895: Hotfix for CQ-4245901</li> 
   <li>[RTE] Performance issues with mandatory field indicator. NPR-24894: Hotfix for CQ-4241895</li> 
   <li>[Page component] Adding a component to Parsys gets cropped off from right and comes out the device frame width. NPR-25536: Hotfix for CQ-4238224</li> 
@@ -969,10 +969,10 @@ The key highlights for AEM 6.4.4.0 forms are:
  </ul> 
  <h4>Sites</h4> 
  <ul> 
-  <li>Allow editing a content fragment without delete permissions. For more information, see <a href="/help/sites/developing/using/customizing-content-fragments.md#asset-permissions">Customizing and Extending Content Fragments</a>. NPR-25793: Hotfix for CQ-4248750</li> 
+  <li>Allow editing a content fragment without delete permissions. For more information, see <a href="/help/sites-developing/customizing-content-fragments.md#asset-permissions">Customizing and Extending Content Fragments</a>. NPR-25793: Hotfix for CQ-4248750</li> 
   <li>Added the capability to annotate Content Fragments. For more information, see <a href="/help/assets/content-fragments-variations.md#annotating-a-content-fragment" target="_blank">Variations-Authoring Fragments</a>. NPR-25188: Hotfix for CQ-4235336</li> 
   <li>Versioning: Compare Content Fragments Side-by-Side. For more information, see <a href="/help/assets/content-fragments-managing.md#comparing-fragment-versions">Managing Content Fragments</a>. NPR-25187: Hotfix for CQ-4237412</li> 
-  <li>Image Editor enhancements backported to AEM 6.4.2.0. For more information, see <a href="/help/sites/developing/using/image-editor.md">Image Editor</a>. NPR-24467</li> 
+  <li>Image Editor enhancements backported to AEM 6.4.2.0. For more information, see <a href="/help/sites-developing/image-editor.md">Image Editor</a>. NPR-24467</li> 
  </ul> 
  <h3>OSGI Bundles and Content Packages Included</h3> 
  <div> 
@@ -1381,7 +1381,7 @@ The key highlights for AEM 6.4.4.0 forms are:
  </ul> 
  <h4>Sites</h4> 
  <ul> 
-  <li>[Page Authoring] Image Editor enhancements. For more information, see <a href="/help/sites/developing/using/image-editor.md">Image Editor</a>. NPR-24267: Hotfix for CQ-4245502</li> 
+  <li>[Page Authoring] Image Editor enhancements. For more information, see <a href="/help/sites-developing/image-editor.md">Image Editor</a>. NPR-24267: Hotfix for CQ-4245502</li> 
  </ul> 
  <h3>OSGI bundles and content packages included</h3> 
  <p>The following text documents the list of OSGI bundles and content packages included in the CFP.</p> 
@@ -1400,14 +1400,14 @@ The key highlights for AEM 6.4.4.0 forms are:
 >[!NOTE]
 >
 >For successful installation of AEM 6.4.4.0 on the instance, it is strongly recommended to upgrade the version of com.adobe.granite.oak.s3connector to 1.8.3 for the customers who are on the older version of s3 connector.
->The process of upgrading the com.adobe.granite.oak.s3connector is available at [https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html](https://helpx.adobe.com/in/experience-manager/6-4/sites/deploying/using/data-store-config.html).
+>The process of upgrading the com.adobe.granite.oak.s3connector is available at [https://helpx.adobe.com/in/experience-manager/6-4/sites-deploying/data-store-config.html](https://helpx.adobe.com/in/experience-manager/6-4/sites-deploying/data-store-config.html).
 >Download the latest version of com.adobe.granite.oak.s3connector from: [https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/)
 
 >[!CAUTION]
 >
 >For customers with Feature Packs installed on AEM 6.4. Optional Feature Packs provided by Adobe have dependencies on the release version and service pack. If you have any Feature Pack installed, please contact the AEM Customer Care team to validate the compatibility of those feature packs with this service pack for AEM 6.4.
 
-* AEM 6.4.4.0 requires AEM 6.4. Please visit [upgrade documentation](/help/sites/deploying/using/upgrade.md) for detailed instructions. 
+* AEM 6.4.4.0 requires AEM 6.4. Please visit [upgrade documentation](/help/sites-deploying/upgrade.md) for detailed instructions. 
 * The Service Pack download is available on Adobe Package Share, which you can access directly from the AEM 6.4 instance.
 * On a deployment with MongoDB and multiple instances, AEM 6.4.4.0 has to be installed on one of the Author instances using the Package Manager.
 * Before installing the service pack, ensure to:
@@ -1449,7 +1449,7 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
 1. The OSGI bundle org.apache.jackrabbit.oak-core is on version 1.8.11 or higher (Use Web Console: /system/console/bundles).
 
-To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](/help/sites/deploying/using/technical-requirements.md).
+To determine the certified platform for running with this release of AEM Sites and Assets, see [Technical Requirements](/help/sites-deploying/technical-requirements.md).
 
 >[!Note]
 >On successful installation of the package, an >informational message appears indicating that the content >package has installed successfully,  such as **"Content Package AEM-6.4-Service-Pack-4 Installed successfully."**
@@ -1512,7 +1512,7 @@ The count for shared Queue doesnot refresh, by default, for other users when a u
 
 The Uber Jar for AEM 6.4.4.0 is available in the [Adobe Public Maven repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/aem/uber-jar/6.4.3/).
 
-To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](/help/sites/developing/using/ht-projects-maven.md) and include the following dependency in your project POM:
+To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](/help/sites-developing/ht-projects-maven.md) and include the following dependency in your project POM:
 
 ```shell
 <dependency>

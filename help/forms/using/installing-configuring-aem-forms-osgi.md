@@ -35,10 +35,10 @@ AEM Forms add-on package is an application deployed onto AEM. You require only a
 
 Before you begin to install and configure data capture capability AEM Forms, ensure that:
 
-* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites/deploying/using/technical-requirements.md).  
+* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites-deploying/technical-requirements.md).  
 
 * Installation path of the AEM instance does not contain white-spaces.
-* An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least two [AEM instances (one Author and one Publish)](/help/sites/deploying/using/deploy.md) to run AEM Forms data capture capabilities:
+* An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least two [AEM instances (one Author and one Publish)](/help/sites-deploying/deploy.md) to run AEM Forms data capture capabilities:
 
     * **Author**: An AEM instance used to create, upload, and edit content and to administer the website. Once content is ready to go live, it is replicated to the publish instance.
     * **Publish**: An AEM instance that serves the published content to the public over the internet or an internal network.
@@ -48,7 +48,7 @@ Before you begin to install and configure data capture capability AEM Forms, ens
     * 15 GB of temporary space for Microsoft Windows-based installations.
     * 6 GB of temporary space for UNIX-based installations.
 
-* Replication and reverse replication for the author and publish instances is set. For details, see [Replication](/help/sites/deploying/using/replication.md).
+* Replication and reverse replication for the author and publish instances is set. For details, see [Replication](/help/sites-deploying/replication.md).
 * Extra requirements for UNIX-based systems: If you are using the UNIX-based operating system, install the following packages from the installation media of the respective operating system.
 
 <table> 

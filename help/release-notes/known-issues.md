@@ -58,7 +58,7 @@ If you are using Edge as browser:
 * **Tooling - CRX DE Lite:** Node property not displayed after renaming the node (GRANITE-7160)
 * **UI:** Pulldown "more..." doesn't showing all elements when opened at a popover element on IE and Firefox (GRANITE-16326)
 * **UI:** Info tooltip gets hidden when using fixed columns layout with 2 side-by-side columns (GRANITE-16869)
-* **UI:** Unhandled error when impersonating as a user that does not exist (GRANITE-23228). Workaround by [implementing an error handler](/help/sites/developing/using/customizing-errorhandler-pages.md) to customize error message.  
+* **UI:** Unhandled error when impersonating as a user that does not exist (GRANITE-23228). Workaround by [implementing an error handler](/help/sites-developing/customizing-errorhandler-pages.md) to customize error message.  
 
 * **Omnisearch:** Searches with backslash cause exception (GRANITE-11769)
 * **Omnisearch:** Open "View Settings" in list view cause search filter to change (GRANITE-16524)

@@ -216,10 +216,10 @@ Once you have installed and configured Screens player, follow the topics below t
 1. [Create and Manage Locations](/help/screens/managing-locations.md)
 1. [Create and Manage Displays](/help/screens/managing-displays.md)
 1. [Assign Channels](/help/screens/channel-assignment.md)
-1. [Manage Devices](https://chl-auth/content/help/en/experience-manager/6-4/sites/authoring/using/managing-devices.html)
+1. [Manage Devices](https://chl-auth/content/help/en/experience-manager/6-4/sites-authoring/managing-devices.html)
 1. [Registering a Device](/help/screens/device-registration.md)
 1. [Assign Devices](/help/screens/managing-devices.md)
-1. [Create and Manage Schedules](https://chl-author.corp./content/help/en/experience-manager/6-4/sites/authoring/using/managing-schedules.html)
-1. [AEM Screens Player](https://chl-author.corp.ad/content/help/en/experience-manager/6-4/sites/authoring/using/working-with-screens-player.html)  
+1. [Create and Manage Schedules](https://chl-author.corp./content/help/en/experience-manager/6-4/sites-authoring/managing-schedules.html)
+1. [AEM Screens Player](https://chl-author.corp.ad/content/help/en/experience-manager/6-4/sites-authoring/working-with-screens-player.html)  
 1. [Troubleshoot Device Control Center](/help/screens/monitoring-screens.md)
 

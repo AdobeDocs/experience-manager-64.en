@@ -40,7 +40,7 @@ Using the style system generally takes the following form.
 
 1. The HTML developer implements the corresponding CSS code (and optionally JS code) for each of the visual variation to look as defined.  
 
-1. The AEM developer places the provided CSS (and optional JS) in a [Client Library](/help/sites/developing/using/clientlibs.md) and deploys it.  
+1. The AEM developer places the provided CSS (and optional JS) in a [Client Library](/help/sites-developing/clientlibs.md) and deploys it.  
 
 1. The AEM developer or template author configures the page templates and edits the policy of each styled component with the defined CSS classes, defining user-friendly names for each style, and defining which styles can be combined.  
 
@@ -52,17 +52,17 @@ Actually implementing the styles only requires deployment on AEM and selection w
 
 The following diagram illustrates the architecture of the style system.
 
-![](/help/sites/authoring/using/assets/aem-style-system.png) 
+![](/help/sites-authoring/assets/aem-style-system.png) 
 
 ## Use {#use}
 
 [Feature pack 18678](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-18678) for AEM 6.3 is required to enable the style system feature and can be downloaded from Package Share.
 
-To demonstrate the feature, styles need to be created for a component. Using [We.Retail](/help/sites/developing/using/we-retail.md)'s implementation of core component's [list component](https://helpx.adobe.com/experience-manager/core-components-v2/using/core-components-v1-authoring-list.html) as a basis, you can install the attached package containing styles in order to explore the feature's functionality.
+To demonstrate the feature, styles need to be created for a component. Using [We.Retail](/help/sites-developing/we-retail.md)'s implementation of core component's [list component](https://helpx.adobe.com/experience-manager/core-components-v2/using/core-components-v1-authoring-list.html) as a basis, you can install the attached package containing styles in order to explore the feature's functionality.
 
 Style system demo package
 
-[Get File](/help/sites/authoring/using/assets/package_-_style_systemdemo.zip)
+[Get File](/help/sites-authoring/assets/package_-_style_systemdemo.zip)
 The following sections [As a Content Author](/help/release-notes/style-system-fp.md#as-a-content-author) and [As a Template Author](#as-a-template-author) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
 
 If you wish to use the style system for your own components follow these steps:
@@ -76,11 +76,11 @@ If you wish to use the style system for your own components follow these steps:
 1. After installing the style system demo package, navigate to We.Retail's English language master home page at `http://localhost:4502/sites.html/content/we-retail/language-masters/en` and edit the page.
 1. Select the **List** component at the bottom or the top of the parsys. Do not confuse it with the **Articles List** component.
 
-   ![](/help/sites/authoring/using/assets/screen_shot_2017-11-15at162032.png)
+   ![](/help/sites-authoring/assets/screen_shot_2017-11-15at162032.png)
 
 1. Tap or click the **Styles** button on the toolbar of the **List **component to open the style menu and change the appearance of the component.
 
-   ![](/help/sites/authoring/using/assets/screen_shot_2017-11-15at162358.png)
+   ![](/help/sites-authoring/assets/screen_shot_2017-11-15at162358.png)
 
    >[!NOTE]
    >
@@ -90,11 +90,11 @@ If you wish to use the style system for your own components follow these steps:
 
 1. While editing We.Retail's English language master home page at `http://localhost:4502/sites.html/content/we-retail/language-masters/en`, edit the template of the page via **Page Information -&gt; Edit Template**.
 
-   ![](/help/sites/authoring/using/assets/screen_shot_2017-11-15at162922.png)
+   ![](/help/sites-authoring/assets/screen_shot_2017-11-15at162922.png)
 
 1. Edit the policy of the **List** component by tapping or clicking the **Policy** button of the component. Do not confuse this with the **Article List** component.
 
-   ![](/help/sites/authoring/using/assets/screen_shot_2017-11-15at163133.png)
+   ![](/help/sites-authoring/assets/screen_shot_2017-11-15at163133.png)
 
 1. On the Styles tab of the properties, you can see how the styles have been configured.
 
@@ -109,7 +109,7 @@ If you wish to use the style system for your own components follow these steps:
 
 >[!CAUTION]
 >
->The CSS classes (as well as any necessary Javascript) configured as style properties of a components policy must be deployed as [Client Libraries](/help/sites/developing/using/clientlibs.md) in order to work.
+>The CSS classes (as well as any necessary Javascript) configured as style properties of a components policy must be deployed as [Client Libraries](/help/sites-developing/clientlibs.md) in order to work.
 
 ## Setup {#setup}
 

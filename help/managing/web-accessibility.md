@@ -27,10 +27,10 @@ Creating accessible websites and content with AEM impact:
 
 The following pages and section provide information and guidelines:
 
-* [Configuring the Rich Text Editor for Producing Accessible Sites](/help/sites/administering/using/rte-accessible-content.md)  
+* [Configuring the Rich Text Editor for Producing Accessible Sites](/help/sites-administering/rte-accessible-content.md)  
   Guidelines on how administrators can configure AEM for producing accessible content.
 
-* [Creating Accessible Content (WCAG 2.0 Conformance)](/help/sites/authoring/using/creating-accessible-content.md)  
+* [Creating Accessible Content (WCAG 2.0 Conformance)](/help/sites-authoring/creating-accessible-content.md)  
   The WCAG 2.0 Guidelines provide a list of success criteria for Level A and Level AA conformance levels. This page details the success criteria covered by AEM, together with how to meet them when generating content.  
 
 * [Quick Guide to WCAG 2.0](/help/managing/qg-wcag.md)  
@@ -55,7 +55,7 @@ Specific aspects of WCAG 2.0 are highlighted in our [quick guide to WCAG 2.0](/h
 
 WCAG 2.0 provides [guidelines (with related success criteria) covering the accessibility levels](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html).
 
-These, as they relate to AEM, are covered under [Level A and AA Conformance](/help/sites/authoring/using/creating-accessible-content.md). When creating your site, you should determine the overall level to which you would like your site to conform.
+These, as they relate to AEM, are covered under [Level A and AA Conformance](/help/sites-authoring/creating-accessible-content.md). When creating your site, you should determine the overall level to which you would like your site to conform.
 
 >[!NOTE]
 >

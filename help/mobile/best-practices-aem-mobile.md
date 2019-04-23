@@ -15,7 +15,7 @@ discoiquuid: a0647696-72c3-409b-85ba-9275d8f99cff
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 Building an AEM Mobile On-Demand Services App is different than building an app that runs in the Cordova (or PhoneGap) shell directly. The developers should be familiar with the:
 

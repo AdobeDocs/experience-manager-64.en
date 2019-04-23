@@ -75,7 +75,7 @@ A proxy worker is a processor responsible for handling a job and creating a resu
 
 ### Client API {#client-api}
 
-`[JobService](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service (`JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
+`[JobService](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/index.html)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service (`JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
 
 The following is an example of API usage:
 
@@ -104,7 +104,7 @@ The following is an example of API usage:
 
 >[!NOTE]
 >
->Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.html).
+>Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.html).
 
 Both proxy and proxy worker configurations are available via cloud services configurations as accessible from the AEM Assets **Tools** console or under:
 
@@ -118,7 +118,7 @@ for worker specific configuration details (e.g. `/etc/cloudservices/proxy/worker
 
 >[!NOTE]
 >
->See [Indesign Server Proxy Worker configuration](indesign.md#configuring-the-proxy-worker-for-indesign-server) and [Cloud Services configuration](/help/sites/developing/using/extending-cloud-config.md) for more information.
+>See [Indesign Server Proxy Worker configuration](indesign.md#configuring-the-proxy-worker-for-indesign-server) and [Cloud Services configuration](/help/sites-developing/extending-cloud-config.md) for more information.
 
 The following is an example of API usage:
 

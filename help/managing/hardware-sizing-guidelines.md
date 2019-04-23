@@ -71,7 +71,7 @@ Additionally the environments may vary, ranging from a single-server system runn
 
 The sections below provide guidance on how to calculate hardware requirements, taking various considerations into account. For large systems we suggest that you perform a simple set of in-house benchmark tests on a reference configuration.
 
-Performance optimization is a fundamental task that needs to be performed before any benchmarking for a specific project can be done. Please make sure to apply the advice provided in the [Performance Optimization documentation](/help/sites/deploying/using/configuring-performance.md) before performing any benchmark tests and using their results for any hardware sizing calculations.
+Performance optimization is a fundamental task that needs to be performed before any benchmarking for a specific project can be done. Please make sure to apply the advice provided in the [Performance Optimization documentation](/help/sites-deploying/configuring-performance.md) before performing any benchmark tests and using their results for any hardware sizing calculations.
 
 Hardware sizing requirements for advanced use cases need to be based on a detailed performance assessment of the project. Characteristics of advanced use cases requiring exceptional hardware resources include combinations of:
 
@@ -108,7 +108,7 @@ A fail-safe website is deployed on at least two separate systems. If one system 
 
 **System resources scalability**
 
-While all systems are running, an increased computational performance is available. That additional performance is not necessarily linear with the number of cluster nodes as the relationship is highly dependent on the technical environment; please see the [Cluster documentation](/help/sites/deploying/using/recommended-deploys.md) for more information.
+While all systems are running, an increased computational performance is available. That additional performance is not necessarily linear with the number of cluster nodes as the relationship is highly dependent on the technical environment; please see the [Cluster documentation](/help/sites-deploying/recommended-deploys.md) for more information.
 
 The estimation of how many cluster nodes are necessary is based on the basic requirements and specific use-cases of the particular web project:
 
@@ -177,7 +177,7 @@ You can calculate the number of computers (or CPUs) required for the author envi
 
 This formula can serve as a general guideline for scaling CPUs when authors are performing basic operations with AEM. It assumes that the system and the application are optimized. However, the formula will not hold true for advanced features such as MSM or Assets (see the sections below).
 
-Please also see the additional comments on [Parallelization](/help/managing/hardware-sizing-guidelines.md#parallelization-of-aem-instances) and [Performance Optimization](/help/sites/deploying/using/configuring-performance.md).
+Please also see the additional comments on [Parallelization](/help/managing/hardware-sizing-guidelines.md#parallelization-of-aem-instances) and [Performance Optimization](/help/sites-deploying/configuring-performance.md).
 
 ### Hardware Recommendations {#hardware-recommendations}
 
@@ -299,7 +299,7 @@ Allocate at least 16GB of heap and configure the DAM Update Asset workflow to us
 
 >[!NOTE]
 >
->See also the [Assets Performance Guide](/help/sites/deploying/using/assets-performance-sizing.md).
+>See also the [Assets Performance Guide](/help/sites-deploying/assets-performance-sizing.md).
 
 ### Multi-Site Manager {#multi-site-manager}
 

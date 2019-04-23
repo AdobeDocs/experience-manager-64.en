@@ -25,7 +25,7 @@ You can view AEM assets published in Scene7 in various viewers:
 
 You can publish digital assets directly from AEM to Scene7 and you can publish digital assets from Scene7 to AEM.  
 
-This document describes how to publish digital assets from AEM to Scene7 and vice versa. Viewers are also described in detail. For information on configuring AEM for Scene7, see [Integrating Scene7 with AEM](/help/sites/administering/using/scene7.md).  
+This document describes how to publish digital assets from AEM to Scene7 and vice versa. Viewers are also described in detail. For information on configuring AEM for Scene7, see [Integrating Scene7 with AEM](/help/sites-administering/scene7.md).  
 
 See also [Adding Image Maps](image-maps.md).  
 
@@ -41,9 +41,9 @@ For more information on using video components with AEM, see the following:
 
 You can publish digital assets to Scene7 as follows:
 
-* [In the classic user interface from the Assets console](/help/sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishing-from-the-assets-console)
-* [In the classic user interface from an asset](/help/sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishing-from-an-asset)
-* [In the classic user interface from outside the the CQ Target folder](/help/sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishing-assets-from-outside-the-cq-target-folder)
+* [In the classic user interface from the Assets console](/help/sites-classic-ui-authoring/manage-assets-classic-s7.md#publishing-from-the-assets-console)
+* [In the classic user interface from an asset](/help/sites-classic-ui-authoring/manage-assets-classic-s7.md#publishing-from-an-asset)
+* [In the classic user interface from outside the the CQ Target folder](/help/sites-classic-ui-authoring/manage-assets-classic-s7.md#publishing-assets-from-outside-the-cq-target-folder)
 
 >[!NOTE]
 >
@@ -105,15 +105,15 @@ To add a Scene7 component/viewer to a page in the touch-optimized UI:
 
 Responsive design for your assets means that your assets adapts depending on where it is displayed. With responsive design, the same assets can be effectively displayed on multiple devices.
 
-See also [Responsive Design for Web Pages](/help/sites/developing/using/responsive.md).
+See also [Responsive Design for Web Pages](/help/sites-developing/responsive.md).
 
 To add an interactive viewing experience to a responsive site in the touch-optimized UI:
 
-1. Log in to AEM, and ensure that you have [configured Adobe Scene7 Cloud Services](/help/sites/administering/using/scene7.md#configuring-scene-integration) and that Scene7 components are available.
+1. Log in to AEM, and ensure that you have [configured Adobe Scene7 Cloud Services](/help/sites-administering/scene7.md#configuring-scene-integration) and that Scene7 components are available.
 
    >[!NOTE]
    >
-   >If Scene7 WCM components are not available, be sure [to enable them by way of Design mode](/help/sites/authoring/using/default-components-designmode.md).
+   >If Scene7 WCM components are not available, be sure [to enable them by way of Design mode](/help/sites-authoring/default-components-designmode.md).
 
 1. In a website with the Scene7 components enabled, drag an **Image** component to the page.
 1. Select the component and tap or click the configuration icon.
@@ -259,13 +259,13 @@ When using an adaptive video set with the Scene7 video component, the component 
 
 The Scene7 content browser lets you view content from Scene7 directly in AEM. To access the content browser, in the Content Finder, select **Scene7** in the touch-optimized user interface or the **S7** icon in the classic user interface. Functionality is identical between both user interfaces.
 
-If you have multiple configurations, AEM by default displays the [default configuration](/help/sites/administering/using/scene7.md#configuring-a-default-configuration). You can select different configurations directly in the Scene7 content browser in the drop-down menu.
+If you have multiple configurations, AEM by default displays the [default configuration](/help/sites-administering/scene7.md#configuring-a-default-configuration). You can select different configurations directly in the Scene7 content browser in the drop-down menu.
 
 >[!NOTE]
 >
 >* Assets located in the ad-hoc folder will not appear in the Scene7 content browser.
->* When [Secure Preview is enabled](/help/sites/administering/using/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene), both published and unpublished assets on Scene7 do appear in the Scene7 content browser.
->* If you do not see **Scene7 **or the** S7 **icon as an option in the content browser, you need to [configure Scene7 to work with AEM](/help/sites/administering/using/scene7.md).
+>* When [Secure Preview is enabled](/help/sites-administering/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene), both published and unpublished assets on Scene7 do appear in the Scene7 content browser.
+>* If you do not see **Scene7 **or the** S7 **icon as an option in the content browser, you need to [configure Scene7 to work with AEM](/help/sites-administering/scene7.md).
 >
 >* For video, the Scene7 content browser supports: >
 >    * Adaptive Video Sets: container of all video renditions needed for seamless playback across multiple screens

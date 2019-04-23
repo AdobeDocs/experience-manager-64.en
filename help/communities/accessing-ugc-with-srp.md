@@ -25,7 +25,7 @@ Before a community site is created, the [storage resource provider (SRP)](/help/
 
 ## About UGC Storage {#about-ugc-storage}
 
-What is important to know about storage of UGC is, when a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's [node store](/help/sites/deploying/using/data-store-config.md) (JCR).
+What is important to know about storage of UGC is, when a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's [node store](/help/sites-deploying/data-store-config.md) (JCR).
 
 While there may be nodes in JCR which shadow the UGC to provide useful metadata, these nodes are not to be confused with the actual UGC.
 
@@ -60,7 +60,7 @@ Methods to avoid:
 
 ### Use Search Collections {#use-search-collections}
 
-Different SRPs can have different native query languages. It is recommended to use methods from the [com.adobe.cq.social.ugc.api](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary.html) package to invoke the appropriate query language.
+Different SRPs can have different native query languages. It is recommended to use methods from the [com.adobe.cq.social.ugc.api](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary.html) package to invoke the appropriate query language.
 
 For more information, see [Search Essentials](/help/communities/search-implementation.md).
 

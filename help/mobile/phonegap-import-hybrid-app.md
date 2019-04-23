@@ -16,7 +16,7 @@ redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/phonegap-ad
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 ## The Hybrid App Sample {#the-hybrid-app-sample}
 

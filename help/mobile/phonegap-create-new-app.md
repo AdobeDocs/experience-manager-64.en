@@ -15,7 +15,7 @@ discoiquuid: 27605eb7-59b2-42d4-8cc5-02cfa52b4491
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 AEM Mobile apps are based on a blueprint that defines a page structure and properties. You can configure the following application properties:
 

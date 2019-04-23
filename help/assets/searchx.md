@@ -50,9 +50,9 @@ You can add additional Search tabs by configuring them in the AEM Assets Admin. 
 
 AEM Assets comes with a set of predefined predicates that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
 
-In addition to using pre-existing predicates, AEM developers can also create their own predicates using the [Query Builder API](/help/sites/developing/using/querybuilder-api.md).
+In addition to using pre-existing predicates, AEM developers can also create their own predicates using the [Query Builder API](/help/sites-developing/querybuilder-api.md).
 
-Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html.
+Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/widgets-api/index.html.
 
 The best practice is to copy an existing predicate and adjust it. Sample predicates are located in **/libs/cq/search/components/predicates**.
 

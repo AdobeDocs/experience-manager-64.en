@@ -24,7 +24,7 @@ Using Experience Fragments covers the following topics:
 
 An ***Experience Fragment*** is a group of one or more components including content and layout that can be referenced within pages. Experience fragments can contain any component, such as, one or multiple components that can contain anything within a paragraph system, that will be referenced into the complete experience or requested by a third endpoint.
 
-To learn more about Experience Fragments, click [here](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/experience-fragments.html).
+To learn more about Experience Fragments, click [here](https://helpx.adobe.com/experience-manager/6-3/sites-authoring/experience-fragments.html).
 
 ## Using Experience Fragments in AEM Screens {#using-experience-fragments-in-aem-screens}
 
@@ -61,7 +61,7 @@ A **TestChannel** will be added to your **DemoProject**.
 
 >[!NOTE]
 >
->To learn in detail about creating a project and creating a channel, see [Creating a Project](https://chl-author.corp./content/help/en/experience-manager/6-4/sites/authoring/using/creating-a-screens-project.html) and [Managing Channels](https://chl-/content/help/en/experience-manager/6-4/sites/authoring/using/managing-channels.html) respectively.
+>To learn in detail about creating a project and creating a channel, see [Creating a Project](https://chl-author.corp./content/help/en/experience-manager/6-4/sites-authoring/creating-a-screens-project.html) and [Managing Channels](https://chl-/content/help/en/experience-manager/6-4/sites-authoring/managing-channels.html) respectively.
 
 ### Creating an Experience Fragment {#creating-an-experience-fragment}
 
@@ -150,7 +150,7 @@ Since the Experience Fragment, we created is a live copy from the **Sites** page
 
 >[!NOTE]
 >
->For more information on Live Copy, see [Reusing Content: Multi Site Manager and Live Copy](https://content/help/en/experience-manager/6-4/sites/administering/using/msm.html).
+>For more information on Live Copy, see [Reusing Content: Multi Site Manager and Live Copy](https://content/help/en/experience-manager/6-4/sites-administering/msm.html).
 
 Follow the steps below to propagate changes from the Master channel to your destination channel:
 

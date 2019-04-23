@@ -81,7 +81,7 @@ Follow the instructions at [Replicate the Crypto Key](/help/communities/deploy-c
 
 ### Externalize Links {#externalize-links}
 
-For correct profile and profile image links, be sure to properly [Configure the Link Externalizer](/help/sites/developing/using/externalizer.md).
+For correct profile and profile image links, be sure to properly [Configure the Link Externalizer](/help/sites-developing/externalizer.md).
 
 Be sure to set the domains to be URLs that are routable from the Data Center URL (ASRP endpoint).
 

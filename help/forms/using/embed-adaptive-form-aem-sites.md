@@ -29,9 +29,9 @@ In AEM Sites page, you can add an adaptive form or interactive communication usi
 
 ## Prerequisites {#prerequisites}
 
-To embed an adaptive form or interactive communication in an AEM sites page that uses an editable template, ensure that the AEM Form component is configured as an allowed component in the associated template. For more information, see **Policy & Properties (Layout Container)** section in [Creating Page Templates](/help/sites/authoring/using/templates.md).
+To embed an adaptive form or interactive communication in an AEM sites page that uses an editable template, ensure that the AEM Form component is configured as an allowed component in the associated template. For more information, see **Policy & Properties (Layout Container)** section in [Creating Page Templates](/help/sites-authoring/templates.md).
 
-In case of a Sites page using a static template, you need to configure it in the paragraph system of the site page. See [Configuring Components in Design Mode](/help/sites/authoring/using/default-components-designmode.md) for more information.
+In case of a Sites page using a static template, you need to configure it in the paragraph system of the site page. See [Configuring Components in Design Mode](/help/sites-authoring/default-components-designmode.md) for more information.
 
 ## Embedding an adaptive form or interactive communication {#af-component}
 

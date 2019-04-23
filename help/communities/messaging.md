@@ -104,8 +104,8 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 
 ## Troubleshooting {#troubleshooting}
 
-One way to troubleshoot problems is to enable [debugging messages in the log.](/help/sites/administering/using/troubleshooting.md)
+One way to troubleshoot problems is to enable [debugging messages in the log.](/help/sites-administering/troubleshooting.md)
 
-See also [Loggers and Writers for Individual Services](/help/sites/deploying/using/configure-logging.md#loggers-and-writers-for-individual-services).
+See also [Loggers and Writers for Individual Services](/help/sites-deploying/configure-logging.md#loggers-and-writers-for-individual-services).
 
 The package to monitor is `com.adobe.cq.social.messaging`. 

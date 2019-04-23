@@ -165,4 +165,4 @@ Author can configure custom javascript library per adaptive form. In the library
 
 As a part of AEM security and hardening guidelines, configure custom error pages such as 404.jsp and 500.jsp. These handlers are called, when on submitting a form 404 or 500 errors appear. The handlers are also called when these error codes are triggered on the Publish node.
 
-For more information, see [Customizing Pages shown by the Error Handler](/help/sites/developing/using/customizing-errorhandler-pages.md).
+For more information, see [Customizing Pages shown by the Error Handler](/help/sites-developing/customizing-errorhandler-pages.md).

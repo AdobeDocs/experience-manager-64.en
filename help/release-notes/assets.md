@@ -70,7 +70,7 @@ Admin Tools Improvements
 
 Catalogs
 
-* Improved user experience, alignement with Templates UI. For more information, see [Catalog Producer](/help/sites/administering/using/catalog-producer.md).
+* Improved user experience, alignement with Templates UI. For more information, see [Catalog Producer](/help/sites-administering/catalog-producer.md).
 
 ## Metadata {#metadata}
 
@@ -124,7 +124,7 @@ AEM 6.4 includes a set of features that support various tiered storage preferenc
 * The ability for users to select and later change storage class at will, and define rules for storage of assets from one class to another or manage the lifecycle of their assets.
 * The ability for users to lower their storage cost by selecting a different AWS or Azure.
 
-For an overview of supported platforms, please refer to the [Technical Requirements Documentation](/help/sites/deploying/using/technical-requirements.md).
+For an overview of supported platforms, please refer to the [Technical Requirements Documentation](/help/sites-deploying/technical-requirements.md).
 
 ## Closed User Group {#closed-user-group}
 

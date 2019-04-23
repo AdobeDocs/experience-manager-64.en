@@ -24,7 +24,7 @@ In this section, you create the following pages which all use the [page template
 
         * SCF Play - child of the main page on which to play
 
-Although this tutorial does not delve into [language copies](/help/sites/administering/using/tc-prep.md), it is designed so the root page may implement detection of the preferred language for the user through the HTML header, and redirect to the appropriate main page for the language. The convention is to use the two-letter country code for the node name of the page, e.g., "en" for English, "fr" for French, and so on.
+Although this tutorial does not delve into [language copies](/help/sites-administering/tc-prep.md), it is designed so the root page may implement detection of the preferred language for the user through the HTML header, and redirect to the appropriate main page for the language. The convention is to use the two-letter country code for the node name of the page, e.g., "en" for English, "fr" for French, and so on.
 
 ## Create First Pages {#create-first-pages}
 
@@ -36,7 +36,7 @@ Now that there is a [page template](/help/communities/initial-app.md#createthepa
 
    ![](assets/chlimage_1-36.png)
 
-   The ability to switch to the classic UI must be [enabled by an administrator](/help/sites/administering/using/enable-classic-ui.md).
+   The ability to switch to the classic UI must be [enabled by an administrator](/help/sites-administering/enable-classic-ui.md).
 
 1. From the [classic UI Welcome page](http://localhost:4502/welcome.html), select **Websites**.
 

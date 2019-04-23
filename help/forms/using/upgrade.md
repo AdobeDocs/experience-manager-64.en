@@ -58,13 +58,13 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
         * [AEM 6.3 release notes](https://helpx.adobe.com/experience-manager/6-3/release-notes.html)
         * [AEM Sustenance Hub](https://helpx.adobe.com/experience-manager/aem-releases-updates.html)
 
-    1. Prepare the source instance for the upgrade. For detailed steps, see [Upgrading to AEM 6.4](/help/sites/deploying/using/upgrade.md#preparing%20the%20source%20instance).
-    1. Download the [AEM 6.4 QuickStart](/help/sites/deploying/using/deploy.md#getting%20the%20software).
+    1. Prepare the source instance for the upgrade. For detailed steps, see [Upgrading to AEM 6.4](/help/sites-deploying/upgrade.md#preparing%20the%20source%20instance).
+    1. Download the [AEM 6.4 QuickStart](/help/sites-deploying/deploy.md#getting%20the%20software).
     1. **(Unix/Linux-based installations only)** If you are using UNIX or Linux as the underlying operating system, open the terminal window, navigate to the folder containing crx-quickstart, and run the following command:
 
        `chmod -R 755 ../crx-quickstart`
     
-    1. Upgrade your AEM instance to AEM 6.3. For step by step instructions, see [Upgrading to AEM 6.4](/help/sites/deploying/using/upgrade.md).
+    1. Upgrade your AEM instance to AEM 6.3. For step by step instructions, see [Upgrading to AEM 6.4](/help/sites-deploying/upgrade.md).
 
        Before continuing with the next steps, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &lt;crx-repository&gt;/error.log file.
 
@@ -138,7 +138,7 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 
    >[!NOTE]
    >
-   >In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM 6.4](/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md).
+   >In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM 6.4](/help/sites-deploying/forms-repository-restructuring-in-aem-6-4.md).
 
 Direct upgrade path from **AEM 6.0 Forms** and **AEM 6.1 Forms** to AEM 6.4 Forms is not available. Perform an intermediate [upgrade to AEM 6.2 Forms](/help/forms/using/upgrade.md) or [upgrade to AEM 6.3 Forms](/help/forms/using/upgrade.md) and then upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 Forms.
 
@@ -200,7 +200,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
        >
        >    
        >    
-       >    * After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see [Changing the Password for an Existing User](/help/sites/administering/using/granite-user-group-admin.md).
+       >    * After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see [Changing the Password for an Existing User](/help/sites-administering/granite-user-group-admin.md).
        >    
        >
 
@@ -211,7 +211,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
 
    >[!NOTE]
    >
-   >In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM 6.4](/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md).
+   >In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM 6.4](/help/sites-deploying/forms-repository-restructuring-in-aem-6-4.md).
 
 **Depending on your existing environment and application server, choose one of the following documents and follow the detailed instructions:**
 
@@ -252,14 +252,14 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
     <li><p>(Not required for AEM Forms document security module) Upgrade and import the CRX repository to AEM 6.4 Forms server.</p> 
      <note type="note"> 
       <ul> 
-       <li>After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see <a href="/help/sites/administering/using/granite-user-group-admin.md">Changing the Password for an Existing User</a>.</li> 
+       <li>After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see <a href="/help/sites-administering/granite-user-group-admin.md">Changing the Password for an Existing User</a>.</li> 
       </ul> 
      </note></li>   
    </ol></li> 
   <li><p>Perform the post-deployment tasks to verify login credentials, configure document services, correspondence management, document security, and more depending on your use case.</p> </li> 
   <li><p>Verify that the server is upgraded successfully:<br /> </p> <p>Perform a few routine operations on upgraded AEM Forms server to ensure that the server is upgraded successfully. You can fill and submit a few migrated forms or protect documents to ensure a successful upgrade.<br /> </p> 
    <note type="note"> 
-    <p>In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see <a href="/help/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md" target="_blank">Forms Repository Restructuring in AEM 6.4</a>.</p> 
+    <p>In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see <a href="/help/sites-deploying/forms-repository-restructuring-in-aem-6-4.md" target="_blank">Forms Repository Restructuring in AEM 6.4</a>.</p> 
    </note></li> 
  </ol> 
  <p><strong>Depending on your existing environment and application server, choose one of the following documents and follow the detailed instructions:</strong></p> 

@@ -47,7 +47,7 @@ The developers are responsible for developing and customizing the proposed proje
 * realize the design 
 * develop the necessary services and scripts to implement the required functionality
 
-The configuration of the [development](/help/sites/developing/using/best-practices.md) environment can be dependent on various factors, though it is usually comprised of:
+The configuration of the [development](/help/sites-developing/best-practices.md) environment can be dependent on various factors, though it is usually comprised of:
 
 * An integrated development system with version control to provide an integrated code-base. This is used to merge and consolidate code from the individual development environments used by each developer. 
 * A personal environment for each developer; usually resident on their local machine. At apppropriate intervals the code is synchronized with the version control system
@@ -56,7 +56,7 @@ Depending on the scale of your system, the development environment can have both
 
 ### Quality Assurance {#quality-assurance}
 
-This environment is used by the quality assurance team to comprehensively [test](/help/sites/developing/using/test-plan.md) your new system; both design and function. It should have both author and publish environments, with suitable content, and provide all necessary services to enable a complete suite of tests.
+This environment is used by the quality assurance team to comprehensively [test](/help/sites-developing/test-plan.md) your new system; both design and function. It should have both author and publish environments, with suitable content, and provide all necessary services to enable a complete suite of tests.
 
 ### Staging {#staging}
 
@@ -68,7 +68,7 @@ The staging environment should be a mirror of the production environment - confi
 
 ### Production - Author and Publish {#production-author-and-publish}
 
-The production environment consists of the environments needed to actually [author and publish](/help/sites/authoring/using/author.md#concept-of-authoring-and-publishing) your implementation.
+The production environment consists of the environments needed to actually [author and publish](/help/sites-authoring/author.md#concept-of-authoring-and-publishing) your implementation.
 
 A production environment consists of at least one author instance and one publish instance:
 
@@ -134,7 +134,7 @@ Production content should be moved from the production environment to the stagin
 Content can transferred:
 
 * Between the different environments - by exporting and importing packages. 
-* Between different instances - by directly replicating ([AEM replication](/help/sites/deploying/using/replication.md)) the content (using a HTTP, or HTTPS, connection).
+* Between different instances - by directly replicating ([AEM replication](/help/sites-deploying/replication.md)) the content (using a HTTP, or HTTPS, connection).
 
 ![](assets/chlimage_1-1.png)
 

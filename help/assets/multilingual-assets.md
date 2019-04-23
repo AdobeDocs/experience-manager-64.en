@@ -23,12 +23,12 @@ Machine translation: The machine translation service immediately translates the 
 
 Translating assets includes the following:
 
-1. [Connecting AEM with the translation service provider](/help/sites/administering/using/tc-tic.md#connecting-to-a-translation-service-provider)
-1. [Creating translation integration framework configurations](/help/sites/administering/using/tc-tic.md)
+1. [Connecting AEM with the translation service provider](/help/sites-administering/tc-tic.md#connecting-to-a-translation-service-provider)
+1. [Creating translation integration framework configurations](/help/sites-administering/tc-tic.md)
 1. [Preparing assets for translation](preparing-assets-for-translation.md)
 1. [Applying translation cloud services to folders](transition-cloud-services.md)
 1. [Create translation projects](translation-projects.md)
 
-If your translation service provider does not provide a connector to integrate with AEM, use an [alternative process](/help/sites/administering/using/tc-manage.md#exporting-a-translation-job).
+If your translation service provider does not provide a connector to integrate with AEM, use an [alternative process](/help/sites-administering/tc-manage.md#exporting-a-translation-job).
 
 Also see, [Creating translation projects for content fragments](creating-translation-projects-for-content-fragments.md).

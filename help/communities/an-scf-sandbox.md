@@ -19,7 +19,7 @@ Another useful tool for developers is the [Community Components guide](/help/com
 
 The exercise of creating a website can be useful for understanding the structure of an AEM website which may include Communities features, while also providing simple pages on which to explore working with the [social component framework (SCF)](/help/communities/scf.md).
 
-This tutorial is primarily for developers, new to AEM, who are interested in using SCF components. It walks through the creation of An SCF Sandbox site, similar to the tutorial for [How to Create a Fully Featured Internet Website](/help/sites/developing/using/website.md) which focuses on site structures, such as navigation, logo, search, toolbar, and listing child pages.
+This tutorial is primarily for developers, new to AEM, who are interested in using SCF components. It walks through the creation of An SCF Sandbox site, similar to the tutorial for [How to Create a Fully Featured Internet Website](/help/sites-developing/website.md) which focuses on site structures, such as navigation, logo, search, toolbar, and listing child pages.
 
 Development takes place on an author instance, while experimenting with the site is best on a publish instance.
 
@@ -44,14 +44,14 @@ This tutorial assumes you have one AEM author and one AEM publish instance insta
 
 Following are some helpful links for developers new to the AEM platform:
 
-* [Getting Started](/help/sites/deploying/using/deploy.md#getting-started) - for deploying AEM instances
+* [Getting Started](/help/sites-deploying/deploy.md#getting-started) - for deploying AEM instances
 
-    * [The Basics](/help/sites/developing/using/the-basics.md) - for developers of websites and features
-    * [First Steps for Authors](/help/sites/authoring/using/first-steps.md) - for authoring page content
+    * [The Basics](/help/sites-developing/the-basics.md) - for developers of websites and features
+    * [First Steps for Authors](/help/sites-authoring/first-steps.md) - for authoring page content
 
 ## Using CRXDE Lite Development Environment {#using-crxde-lite-development-environment}
 
-AEM developers spend much of their time in the [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md) development environment on an author instance. CRXDE Lite provides a less restricted access to the CRX repository. Classic UI tools and touch-enabled UI consoles provide more structured access to specific portions of the CRX repository.
+AEM developers spend much of their time in the [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md) development environment on an author instance. CRXDE Lite provides a less restricted access to the CRX repository. Classic UI tools and touch-enabled UI consoles provide more structured access to specific portions of the CRX repository.
 
 After signing in with administrative privileges, there are various ways to access CRXDE Lite:
 

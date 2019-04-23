@@ -57,7 +57,7 @@ The [site creation wizard](/help/communities/sites-console.md):
     * search:  
       ability to search within the community site
     * language switching:  
-      ability to select a language for a [multillingual site](/help/sites/administering/using/translation.md)
+      ability to select a language for a [multillingual site](/help/sites-administering/translation.md)
     
     * administration:  
       access for authorized members to moderate and manage users within the community site

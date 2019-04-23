@@ -175,16 +175,16 @@ Planning the development is key to ensure that your project is built on a solid 
 
   The system architecture defines the conceptual view of your system; including (amongst other information):
 
-    * [System structure](/help/sites/deploying/using/recommended-deploys.md#deployment-scenarios) for all required environments
+    * [System structure](/help/sites-deploying/recommended-deploys.md#deployment-scenarios) for all required environments
     * Sub-systems
     * Third party systems
     * Interfaces; hardware, software and human interaction
-    * Servers for each environment; see the [Technical Requirements](/help/sites/deploying/using/technical-requirements.md) and [Hardware Sizing Guidelines](/help/managing/hardware-sizing-guidelines.md)
+    * Servers for each environment; see the [Technical Requirements](/help/sites-deploying/technical-requirements.md) and [Hardware Sizing Guidelines](/help/managing/hardware-sizing-guidelines.md)
     
     * Processes for each environment; for example, deployment and maintenance requirements
     * Maintenance activities (Datastore GC, TarPM optimization, etc.)
     * [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html) caching 
-    * [Clustering](/help/sites/deploying/using/recommended-deploys.md#deployment-scenarios) Publish/Authorshare 
+    * [Clustering](/help/sites-deploying/recommended-deploys.md#deployment-scenarios) Publish/Authorshare 
     * Performance for the client-side (JS minify, concat, css sprites, total number of http requests, and others)
 
 * **Application Architecture**
@@ -209,12 +209,12 @@ Planning the development is key to ensure that your project is built on a solid 
 
   System integration requires you to plan (then implement):
 
-    * How all the sub-systems and [solution integrations](/help/sites/administering/using/integration.md) will be brought together to operate as one coherent system
+    * How all the sub-systems and [solution integrations](/help/sites-administering/integration.md) will be brought together to operate as one coherent system
     * How any third party systems will be integrated; together with any special considerations, such as offline/online, client-side/browser-side or fallover handling when a third party system is down
 
 * **Test Concept**
 
-  Before starting development you should draw up an in-depth and comprehensive concept of all [testing](/help/sites/developing/using/planning.md) requirements for your project.
+  Before starting development you should draw up an in-depth and comprehensive concept of all [testing](/help/sites-developing/planning.md) requirements for your project.
 
   This should include (amongst others):
 
@@ -254,7 +254,7 @@ On a similar basis the operations must be properly planned to ensure you have th
     * For users with minimal privileges, workflows should be defined 
     * Users in the `editor` group should not have `admin` rights nor be part of the `administrators` group
 
-  For more information, see [User Administration and Security](/help/sites/administering/using/security.md).
+  For more information, see [User Administration and Security](/help/sites-administering/security.md).
 
 * **Monitoring and Maintenance**
 
@@ -263,7 +263,7 @@ On a similar basis the operations must be properly planned to ensure you have th
     * What needs monitoring
     * Maintenance tasks; both regular and for special cases
 
-  See also [Monitoring and Maintenance](/help/sites/deploying/using/monitoring-and-maintaining.md) for more information.
+  See also [Monitoring and Maintenance](/help/sites-deploying/monitoring-and-maintaining.md) for more information.
 
 * **Migration**
 
@@ -284,7 +284,7 @@ Development is a crucial phase that requires more than just coding.
   Plan and document your development environment, including:
 
     * Architecture
-    * [Development tools](/help/sites/developing/using/dev-tools.md)
+    * [Development tools](/help/sites-developing/dev-tools.md)
 
         * A typical environment consists of**:**
 
@@ -296,7 +296,7 @@ Development is a crucial phase that requires more than just coding.
             * a build artifact repository manager; such as Archiva/Nexus
 
     * Third party software integration/dependencies
-    * [Solution integration/dependencies](/help/sites/administering/using/integration.md)
+    * [Solution integration/dependencies](/help/sites-administering/integration.md)
     * Deployment cadence
 
 * **Test System**
@@ -317,12 +317,12 @@ Development is a crucial phase that requires more than just coding.
     * Deployment cadence
     * Third party software integration/dependencies
     * Security setup
-    * Baseline performance verified by running the [Tough Day tests](/help/sites/developing/using/tough-day.md) on the production setup
-    * Requirements for performance tests; see [Best Practices for Quality Assurance](/help/sites/deploying/using/configuring-performance.md#best-practices-for-quality-assurance)
+    * Baseline performance verified by running the [Tough Day tests](/help/sites-developing/tough-day.md) on the production setup
+    * Requirements for performance tests; see [Best Practices for Quality Assurance](/help/sites-deploying/configuring-performance.md#best-practices-for-quality-assurance)
 
 * **Integration**
 
-  Plan, document and test all aspects of the system and [solution integration](/help/sites/administering/using/integration.md), including:
+  Plan, document and test all aspects of the system and [solution integration](/help/sites-administering/integration.md), including:
 
     * An automated testing strategy
     * Automated processes to [move applications from development to test, then production](/help/managing/enterprise-devops.md#code-movement)
@@ -349,7 +349,7 @@ Development is a crucial phase that requires more than just coding.
 
 ### Performance and Testing {#performance-and-testing}
 
-Once the new application is available it will need to undergo stringent testing, both for functionality and [performance](/help/sites/deploying/using/configuring-performance.md).
+Once the new application is available it will need to undergo stringent testing, both for functionality and [performance](/help/sites-deploying/configuring-performance.md).
 
 >[!NOTE]
 >
@@ -361,7 +361,7 @@ Once the new application is available it will need to undergo stringent testing,
 
 * **End-User Acceptance Test**
 
-  [User acceptance testing](/help/sites/developing/using/acceptance-signoff.md) (UAT) is crucial to ensure that:
+  [User acceptance testing](/help/sites-developing/acceptance-signoff.md) (UAT) is crucial to ensure that:
 
     * The solution fulfills the user/customer requirements
     * The customer/users accept the solution (function, design and performance)
@@ -374,10 +374,10 @@ Once the new application is available it will need to undergo stringent testing,
 
   For more information about performance testing, see:
 
-    * [Performance Testing](/help/sites/deploying/using/configuring-performance.md)
-    * [How to plan and run testing](/help/sites/developing/using/planning.md)  
+    * [Performance Testing](/help/sites-deploying/configuring-performance.md)
+    * [How to plan and run testing](/help/sites-developing/planning.md)  
     
-    * [Basic Performance Guidelines](/help/sites/deploying/using/configuring-performance.md#basic-performance-guidelines)
+    * [Basic Performance Guidelines](/help/sites-deploying/configuring-performance.md#basic-performance-guidelines)
 
   >[!NOTE]
   >
@@ -423,7 +423,7 @@ Rollout of your new application needs careful planning to ensure a smooth Go Liv
 
   To ensure the security of your solution, perform specific penetration tests, together with a wider range of security tests.
 
-  See the [Security Checklist](/help/sites/administering/using/security-checklist.md) for more details.
+  See the [Security Checklist](/help/sites-administering/security-checklist.md) for more details.
 
 ### Go Live {#go-live}
 
@@ -601,24 +601,24 @@ Deliverables are often used as **Required Documents** for either the current or 
 For best practices on deploying, administering, developing, or authoring, see the following:
 
 * [Other Best Practices and Guidelines related to Managing an AEM project](/help/managing/manage-reference.md)
-* [Deploying and Maintaining best practices](/help/sites/deploying/using/best-practices.md)
-* [Administering best practices](/help/sites/administering/using/administer-best-practices.md)
-* [Developing best practices](/help/sites/developing/using/best-practices.md)
-* [Authoring best practices](/help/sites/authoring/using/best-practices.md)
+* [Deploying and Maintaining best practices](/help/sites-deploying/best-practices.md)
+* [Administering best practices](/help/sites-administering/administer-best-practices.md)
+* [Developing best practices](/help/sites-developing/best-practices.md)
+* [Authoring best practices](/help/sites-authoring/best-practices.md)
 
 ## Key Documentation Areas {#key-documentation-areas}
 
 * AEM Documentation  
   In addition, the following sections of AEM documentation are of particular interest (however, this list is not exhaustive):
 
-    * [Security](/help/sites/developing/using/security.md)
-    * [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md)
+    * [Security](/help/sites-developing/security.md)
+    * [Recommended Deployments](/help/sites-deploying/recommended-deploys.md)
     * [Enterprise DevOps](/help/managing/enterprise-devops.md)
     * [Hardware sizing](/help/managing/hardware-sizing-guidelines.md)
     * Concepts of AEM:
 
-        * [Developing - the basics](/help/sites/developing/using/the-basics.md)
-        * [MSM concepts](/help/sites/administering/using/msm.md)
+        * [Developing - the basics](/help/sites-developing/the-basics.md)
+        * [MSM concepts](/help/sites-administering/msm.md)
         * [HTML Template Language (HTL)](https://helpx.adobe.com/experience-manager/htl/user-guide.html)
 
 * Related Documentation
