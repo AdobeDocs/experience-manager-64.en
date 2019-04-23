@@ -21,7 +21,7 @@ Content Fragments are stored as **Assets**, so are primarily managed from the **
 
 >[!NOTE]
 >
->Content fragments are then used with authoring pages; see [Page Authoring with Content Fragments](/help/sites/authoring/using/content-fragments.md).
+>Content fragments are then used with authoring pages; see [Page Authoring with Content Fragments](/help/sites-authoring/content-fragments.md).
 
 ## Creating Content Fragments {#creating-content-fragments}
 
@@ -31,7 +31,7 @@ Content Fragments are stored as **Assets**, so are primarily managed from the **
 
 >[!NOTE]
 >
->See [Developing Content Fragments](/help/sites/developing/using/customizing-content-fragments.md) for further information on templates; used for simple content fragments.
+>See [Developing Content Fragments](/help/sites-developing/customizing-content-fragments.md) for further information on templates; used for simple content fragments.
 
 ### Creating a Content Fragment {#creating-a-content-fragment}
 
@@ -43,7 +43,7 @@ The method of creating a content fragment is (basically) the same for both simpl
 
     * This can be a:
 
-        * [Template](/help/sites/developing/using/content-fragment-templates.md) - for example **Simple Fragment**
+        * [Template](/help/sites-developing/content-fragment-templates.md) - for example **Simple Fragment**
         
         * [Model](content-fragments-models.md) - used to create a fragment that requires structured content; for example the **Airport** model
 
@@ -77,7 +77,7 @@ The method of creating a content fragment is (basically) the same for both simpl
 In the **Assets** console a range of actions are available for your content fragments, either:
 
 * From the toolbar; after selection of your fragment all appropriate actions are available.
-* As [quick actions](/help/sites/authoring/using/basic-handling.md#quick-actions); a subset of actions available for the individual fragment cards.
+* As [quick actions](/help/sites-authoring/basic-handling.md#quick-actions); a subset of actions available for the individual fragment cards.
 
 ![](assets/cfm-6420-17.png)
 
@@ -121,7 +121,7 @@ To open your fragment for editing:
 
 >[!CAUTION]
 >
->To edit a content fragment you need [the appropriate permissions](/help/sites/developing/using/customizing-content-fragments.md#asset-permissions). Please contact your system administrator if you are experiencing issues.
+>To edit a content fragment you need [the appropriate permissions](/help/sites-developing/customizing-content-fragments.md#asset-permissions). Please contact your system administrator if you are experiencing issues.
 
 1. Use the **Assets** console to navigate to the location of your content fragment.
 1. Open the fragment for editing, by either:
@@ -170,7 +170,7 @@ The editor has two options:
 
   >[!CAUTION]
   >
-  >To edit a content fragment you need [the appropriate permissions](/help/sites/developing/using/customizing-content-fragments.md#asset-permissions). Please contact your system administrator if you are experiencing issues.
+  >To edit a content fragment you need [the appropriate permissions](/help/sites-developing/customizing-content-fragments.md#asset-permissions). Please contact your system administrator if you are experiencing issues.
 
   >[!NOTE]
   >
@@ -309,7 +309,7 @@ You can revert to a specific version of your fragment:
 Content Fragments must be published for use in the publish enviroment. They can be published:
 
 * After creation; from the **Assets** console.
-* When you [publish a page that uses the fragment](/help/sites/authoring/using/content-fragments.md#publishing); the fragment will be listed in the page references.
+* When you [publish a page that uses the fragment](/help/sites-authoring/content-fragments.md#publishing); the fragment will be listed in the page references.
 
 >[!CAUTION]
 >

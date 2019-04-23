@@ -35,7 +35,7 @@ To upload the template, you need to be a member of the forms-user group. Use the
 
 ## Web channel {#web-channel}
 
-Template Authors and Administrators can create, edit, and enable web templates. To allow other users to author web templates, you need to give them rights. For more information, see [User, Group and Access Rights Administration](/help/sites/administering/using/user-group-ac-admin.md).
+Template Authors and Administrators can create, edit, and enable web templates. To allow other users to author web templates, you need to give them rights. For more information, see [User, Group and Access Rights Administration](/help/sites-administering/user-group-ac-admin.md).
 
 ### Authoring Web Channel Template {#authoring-web-channel-template}
 
@@ -43,7 +43,7 @@ To create a web channel template, you need to first create a Template folder. On
 
 To author a web channel template Complete the following steps:
 
-1. Create a Template folder to keep your Interactive Communication web templates, if you do not already have one. For more information, see Template Folders in [Page Templates - Editable](/help/sites/developing/using/page-templates-editable.md).
+1. Create a Template folder to keep your Interactive Communication web templates, if you do not already have one. For more information, see Template Folders in [Page Templates - Editable](/help/sites-developing/page-templates-editable.md).
 
     1. Tap **[!UICONTROL Tools]** ![](assets/tools-1.png) > **[!UICONTROL Configuration Browser]**. **[!UICONTROL]**
     1. In the Configuration Browser page, tap **[!UICONTROL Create]**. 
@@ -66,7 +66,7 @@ To author a web channel template Complete the following steps:
     
        ![](assets/webchanneltemplate.png)    
     
-       When creating or editing a template, there are various aspects that a Template Author can define. Creating or editing a template is similar to page authoring. For more information, see Editing Templates - Template Authors in [Creating Page Templates](/help/sites/authoring/using/templates.md).
+       When creating or editing a template, there are various aspects that a Template Author can define. Creating or editing a template is similar to page authoring. For more information, see Editing Templates - Template Authors in [Creating Page Templates](/help/sites-authoring/templates.md).
 
 1. To allow usage of this template for Interactive Communication creation, enable the template.
 

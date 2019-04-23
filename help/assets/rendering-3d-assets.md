@@ -15,7 +15,7 @@ discoiquuid: 5b044519-d034-4f05-98c5-f1b299a3ea37
 
 You can render 3D assets you have manipulated and saved in AEM to create 2D images for use on your web content pages.
 
-See [Editing Your Page Content](/help/sites/authoring/using/qg-page-authoring.md#editing-your-page-content).
+See [Editing Your Page Content](/help/sites-authoring/qg-page-authoring.md#editing-your-page-content).
 
 ## Performance considerations when rendering 3D assets {#performance-considerations-when-rendering-d-assets}
 

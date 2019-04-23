@@ -91,7 +91,7 @@ On author, to access the Storage Configuration console:
 
 >[!NOTE]
 >
->The mongoDB database, which defaults to the name `communities`, should not be set to the name of a database being used for [node stores or data (binary) stores](/help/sites/deploying/using/data-store-config.md). See also [Storage Elements in AEM 6](/help/sites/deploying/using/storage-elements-in-aem-6.md).
+>The mongoDB database, which defaults to the name `communities`, should not be set to the name of a database being used for [node stores or data (binary) stores](/help/sites-deploying/data-store-config.md). See also [Storage Elements in AEM 6](/help/sites-deploying/storage-elements-in-aem-6.md).
 
 ### MongoDB Replica Set {#mongodb-replica-set}
 
@@ -269,6 +269,6 @@ If an attempt to make a secured connection to the MongoDB server fails due to a 
 
 ## Resources {#resources}
 
-* [AEM with MongoDB](/help/sites/deploying/using/aem-with-mongodb.md)
+* [AEM with MongoDB](/help/sites-deploying/aem-with-mongodb.md)
 * [MongoDB Documentation](https://docs.mongodb.org/)
 

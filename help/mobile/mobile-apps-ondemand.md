@@ -15,7 +15,7 @@ discoiquuid: 2ae7ea8d-fc58-4647-bc83-915d9f4b7dd8
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ discoiquuid: 2ae7ea8d-fc58-4647-bc83-915d9f4b7dd8
 >
 >**Prerequisite:**
 >
->Before working with AEM Mobile On-Demand Services and following the steps within this getting started guide, users should be familiar with [AEM](/help/sites/deploying/using/deploy.md).
+>Before working with AEM Mobile On-Demand Services and following the steps within this getting started guide, users should be familiar with [AEM](/help/sites-deploying/deploy.md).
 
 ## AEM Mobile Author {#aem-mobile-author}
 
@@ -46,8 +46,8 @@ To learn about **Content Services**, see [Content Services Overview](/mobile/usi
 >
 >To learn in general about basics of templates and components in AEM, see the following resources:
 >
->* [Templates](/help/sites/developing/using/templates.md)
->* [Components](/help/sites/developing/using/components.md)
+>* [Templates](/help/sites-developing/templates.md)
+>* [Components](/help/sites-developing/components.md)
 >
 
 ## Additional Resources {#additional-resources}

@@ -89,7 +89,7 @@ To skin a component:
 1. Identify the elements that you want to change (example - composer area, toolbar buttons, message font, etc).
 1. Identify the CSS class/rules that affect these elements.
 1. Create a stylesheet file (.css).
-1. Include the stylesheet in a client library folder ([clientlibs](#clientlibs-for-scf)) for your site and make sure it is included from your templates and pages with [ui:includeClientLib](/help/sites/developing/using/clientlibs.md).
+1. Include the stylesheet in a client library folder ([clientlibs](#clientlibs-for-scf)) for your site and make sure it is included from your templates and pages with [ui:includeClientLib](/help/sites-developing/clientlibs.md).
 
 1. Redefine the CSS classes and rules that you have identified (#2) in your style sheet and add styles.
 
@@ -144,7 +144,7 @@ Script tags in SCF scripts should not be removed when overlaying or overriding c
 
 ## Clientlibs for SCF {#clientlibs-for-scf}
 
-The use of [client-side libraries](/help/sites/developing/using/clientlibs.md) (clientlibs), provides a means of organizing and optimizing the Javascript and CSS used to render content on the client.
+The use of [client-side libraries](/help/sites-developing/clientlibs.md) (clientlibs), provides a means of organizing and optimizing the Javascript and CSS used to render content on the client.
 
 The clientlibs for SCF follow a very specific naming pattern for two variants, which vary only by the presence of 'author' in the category name:
 

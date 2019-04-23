@@ -43,7 +43,7 @@ This standard defines a data model and application programming interface ([JCR A
 One implementation of JCR is the AEM repository, OAK.
 
 **Apache Jackrabbit Oak (OAK)** 
-[OAK](/help/sites/deploying/using/platform.md) is an implementation of JCR 2.0 that is a data storage system specifically designed for content-centric applications. It is a type of hierarchical database designed for unstructured and semi-structured data. The repository stores not only the user-facing content but also all code, templates and internal data used by the application. The UI for accessing content is [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md).
+[OAK](/help/sites-deploying/platform.md) is an implementation of JCR 2.0 that is a data storage system specifically designed for content-centric applications. It is a type of hierarchical database designed for unstructured and semi-structured data. The repository stores not only the user-facing content but also all code, templates and internal data used by the application. The UI for accessing content is [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md).
 
 Both JCR and OAK are typically used to refer to the AEM repository.
 

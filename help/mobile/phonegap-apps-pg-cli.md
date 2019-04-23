@@ -15,7 +15,7 @@ discoiquuid: 4a034e15-3394-4be3-9e8e-bc894668946a
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 At any given time, as a developer you can run your app on a device or within a emulator, provided you've configured your development environment.
 

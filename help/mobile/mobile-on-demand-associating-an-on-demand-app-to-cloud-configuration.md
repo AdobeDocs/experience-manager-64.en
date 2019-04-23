@@ -15,7 +15,7 @@ discoiquuid: d0d29b99-53d4-4b0d-947b-39d91b381de7
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 Associating an On-Demand App to a Cloud Configuration allows Adobe Experience Manager (AEM) to communicate directly with a Mobile On-Demand hosted project by establishing a two way link. By linking your app to a Mobile On-Demand project, you will be able to perform content creation, such as articles, banners, and collections within AEM, but also serve that content to Mobile On-Demand.
 

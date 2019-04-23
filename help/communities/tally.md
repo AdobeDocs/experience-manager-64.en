@@ -33,9 +33,9 @@ As of AEM 6.1, the [poll](/help/communities/poll-basics.md) component is not cur
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Tally APIs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary.html)
+* [Tally APIs](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary.html)
 
-* [Tally Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary.html)
+* [Tally Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary.html)
 
 * [Server-side Customizations](/help/communities/server-customize.md)
 

@@ -191,4 +191,4 @@ A processing cluster runs in the author mode but do not use it for development a
 
 ### USE AEM best practices to secure an AEM Forms environment {#use-aem-best-practices-to-secure-an-aem-forms-environment}
 
-This document provide instructions specific to AEM Forms environment. You should take to ensure that your underlying AEM installation is secure when deployed. For detailed instructions, see [AEM Security Checklist](/help/sites/administering/using/security-checklist.md) documentation.****
+This document provide instructions specific to AEM Forms environment. You should take to ensure that your underlying AEM installation is secure when deployed. For detailed instructions, see [AEM Security Checklist](/help/sites-administering/security-checklist.md) documentation.****

@@ -65,7 +65,7 @@ When a Catalog function has been added to a community site, it is possible to re
 Using the example of the [Enablement Tutorial](/help/communities/getting-started-enablement.md):
 
 * on author
-* using [CRXDE](/help/sites/developing/using/developing-with-crxde-lite.md)
+* using [CRXDE](/help/sites-developing/developing-with-crxde-lite.md)
 
     * such as [https://&lt;server&gt;:&lt;port&gt;/crx/de](http://localhost:4502/crx/de)
 
@@ -102,15 +102,15 @@ Using the example of the [Enablement Tutorial](/help/communities/getting-started
 
 #### Pre-filter TagIDs {#pre-filter-tagids}
 
-The pre-filter [TagIDs](/help/sites/developing/using/framework.md#tagid) must exactly match the tags applied to the enablement resources. These are visible in the `resources` folder for the site as the values of the property `se_resource-tags`.
+The pre-filter [TagIDs](/help/sites-developing/framework.md#tagid) must exactly match the tags applied to the enablement resources. These are visible in the `resources` folder for the site as the values of the property `se_resource-tags`.
 
 ![](assets/chlimage_1-190.png) 
 
 ### Reference APIs {#reference-apis}
 
-* [Enablement API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/api/package-summary.html)
+* [Enablement API](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/enablement/client/api/package-summary.html)
 
-* [Reporting API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/api/package-summary.html)
+* [Reporting API](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/api/package-summary.html)
 
-* [Reporting Analytics API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/analytics/api/package-summary.html)
+* [Reporting Analytics API](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/analytics/api/package-summary.html)
 

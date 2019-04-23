@@ -29,7 +29,7 @@ The architecture for AEM Forms includes the following components:
     * **Form rendition and submission frontend**: An end user facing interface for use by the end users of the AEM Forms (for example, citizens accessing a government website). This provides form rendition (display form in a web browser) and submission functionalities.
     * **REST APIs**: JSPs and servlets export a subset of forms services for remote consumption by HTTP-based clients, such as the forms mobile SDK.
 
-**AEM Forms on OSGi:** An AEM Forms on OSGi environment is standard AEM Author or AEM Publish with AEM Forms package deployed on it. You can run AEM Forms on OSGi in a [single server environment, Farm, and clustered setups](/help/sites/deploying/using/recommended-deploys.md). Cluster setup is available only for AEM Author instances.
+**AEM Forms on OSGi:** An AEM Forms on OSGi environment is standard AEM Author or AEM Publish with AEM Forms package deployed on it. You can run AEM Forms on OSGi in a [single server environment, Farm, and clustered setups](/help/sites-deploying/recommended-deploys.md). Cluster setup is available only for AEM Author instances.
 
 **AEM Forms on JEE:** AEM Forms on JEE is AEM Forms server running on JEE stack. It has AEM Author with AEM Forms add-on packages and additional AEM Forms JEE capabilities co-deployed on a single JEE stack running on an application server. You can run AEM Forms on JEE in single-server and clustered setups. AEM Forms on JEE is required only to run document security, process management, and for LiveCycle customers upgrading to AEM Forms. Here are a few additional scenarios to use AEM Forms on JEE:
 

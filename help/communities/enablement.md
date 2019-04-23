@@ -30,7 +30,7 @@ Installation of:
   MySQL is a relational database primarily used for SCORM tracking and reporting data for Enablement, as well as tables for tracking video progress. The SCORM for enablement feature pack requires the MySQL JDBC driver.
 
 * **FFmpeg** 
-  FFmpeg is a solution for converting and streaming audio and video and, when installed, is used for proper transcoding of [Video Assets](/help/sites/authoring/using/default-components-foundation.md#video). For enablement communities, it is used in the author environment to obtain metadata for uploaded resources as well as generate a thumbnail to display when listing the resource.
+  FFmpeg is a solution for converting and streaming audio and video and, when installed, is used for proper transcoding of [Video Assets](/help/sites-authoring/default-components-foundation.md#video). For enablement communities, it is used in the author environment to obtain metadata for uploaded resources as well as generate a thumbnail to display when listing the resource.
 
 Setup of:
 

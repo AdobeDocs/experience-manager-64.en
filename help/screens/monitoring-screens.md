@@ -89,7 +89,7 @@ The **PREFERENCES** panel allows the user to change preferences for **Admin UI**
 
 >[!NOTE]
 >
->To learn more on these option, See [AEM Screens Player](/help/sites/authoring/using/working-with-screens-player.md).
+>To learn more on these option, See [AEM Screens Player](/help/sites-authoring/working-with-screens-player.md).
 
 ![](assets/chlimage_1-61.png)
 

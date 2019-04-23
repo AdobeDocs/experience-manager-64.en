@@ -21,7 +21,7 @@ This page shows creating and managing displays for Screens.
 
 **Pre-requisites**:
 
-* [Configuring and Deploying Screens](/help/sites/deploying/using/configuring-screens-introduction.md)
+* [Configuring and Deploying Screens](/help/sites-deploying/configuring-screens-introduction.md)
 * [Create and Manage Screens Project](/help/screens/creating-a-screens-project.md)
 * [Create and Manage Channels](/help/screens/managing-channels.md)
 * [Create and Manage Locations](/help/screens/managing-locations.md)

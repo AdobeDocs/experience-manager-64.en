@@ -15,7 +15,7 @@ discoiquuid: c614a7ff-0d13-4407-bda0-c0a402a13dcd
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 An AEM Mobile project involves a diverse set of content types including pages, JavaScript and CSS client libraries, reusable AEM components, Content Sync configurations, and PhoneGap app shell content. Basing your new AEM Mobile app on the [Starter Kit](https://github.com/Adobe-Marketing-Cloud-Apps/aem-phonegap-starter-kit) is a good way to get all the different types of content into our recommended structure to ease both portability and maintainability over the long term.
 

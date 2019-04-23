@@ -71,7 +71,7 @@ Any changes to this behavior should be made in a customized script (either overr
 
 To help debug scoring and badging, a custom log file can be setup. The contents of this log file may then be provided to customer support if problems are encountered with the feature.
 
-For detailed instructions, visit [Create a Custom Log File](/help/sites/deploying/using/monitoring-and-maintaining.md#create-a-custom-log-file).
+For detailed instructions, visit [Create a Custom Log File](/help/sites-deploying/monitoring-and-maintaining.md#create-a-custom-log-file).
 
 To quickly setup a slinglog file:
 
@@ -116,11 +116,11 @@ To see log entries
 
 It is possible to view the UGC related to scoring and badging when the chosen SRP is either JSRP or MSRP, but not ASRP. (If not familiar with these terms, see [Community Content Storage](/help/communities/working-with-srp.md) and [Storage Resource Provider Overview](/help/communities/srp.md).)
 
-The descriptions for accessing scoring and badging data use JSRP, as the UGC is easily accessible using [CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md).
+The descriptions for accessing scoring and badging data use JSRP, as the UGC is easily accessible using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md).
 
 **JSRP on author**: experimenting in the author environment results in UGC that is only visible from the author environment.
 
-**JSRP on publish**: similarly, if testing on the publish environment, it will be necessary to access CRXDE Lite with administrative privileges on a publish instance. If the publish instance is running in [production mode](/help/sites/administering/using/production-ready.md) (nosamplecontent runmode), it will be necessary to [enable CRXDE Lite](/help/sites/administering/using/enabling-crxde-lite.md).
+**JSRP on publish**: similarly, if testing on the publish environment, it will be necessary to access CRXDE Lite with administrative privileges on a publish instance. If the publish instance is running in [production mode](/help/sites-administering/production-ready.md) (nosamplecontent runmode), it will be necessary to [enable CRXDE Lite](/help/sites-administering/enabling-crxde-lite.md).
 
 The base location of UGC on JSRP is `/content/usergenerated/asi/jcr/`.
 

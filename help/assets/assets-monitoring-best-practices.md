@@ -42,7 +42,7 @@ You should perform live monitoring during the performance testing phase of your 
 
 * Java Flight Recorder (JFR): A commercial tool from Oracle that you can use freely in non-production environments. For more details, see [How to Use Java Flight Recorder to Diagnose CQ Runtime Problems](https://cq-ops.tumblr.com/post/73865704329/how-to-use-java-flight-recorder-to-diagnose-cq).
 * AEM error.log file: You can investigate the AEM error.log file for details of errors logged in the system. Use the command `tail -F quickstart/logs/error.log` to identify errors that you should investigate.
-* [Workflow console](/help/sites/administering/using/workflows.md): Leverage the workflow console to monitor workflows that lag behind or get stuck.
+* [Workflow console](/help/sites-administering/workflows.md): Leverage the workflow console to monitor workflows that lag behind or get stuck.
 
 Typically, you use these tools together to obtain a comprehensive idea about the performance of your AEM instance.
 
@@ -107,7 +107,7 @@ Threads
 
 **AEM monitoring**
 
-AEM also exposes a set of statistics and operations through JMX. These can help assess system health and identify potential problems before they impact users. For more information, see [documentation](/help/sites/administering/using/jmx-console.md) on AEM JMX MBeans.
+AEM also exposes a set of statistics and operations through JMX. These can help assess system health and identify potential problems before they impact users. For more information, see [documentation](/help/sites-administering/jmx-console.md) on AEM JMX MBeans.
 
 Here are some baseline parameters that you can monitor for AEM:
 
@@ -132,7 +132,7 @@ Session counter
 
 Health Checks
 
-Health checks that are available in the [operations dashboard](/help/sites/administering/using/operations-dashboard.md#health-reports) have corresponding JMX MBeans for monitoring. However, you can write custom health checks to expose additional system statistics.
+Health checks that are available in the [operations dashboard](/help/sites-administering/operations-dashboard.md#health-reports) have corresponding JMX MBeans for monitoring. However, you can write custom health checks to expose additional system statistics.
 
 Here are some out-of-the-box health checks that are helpful to monitor:
 
@@ -188,10 +188,10 @@ Here are some out-of-the-box health checks that are helpful to monitor:
 
 In the process of monitoring, if you encounter issues, here are some troubleshooting tasks that you can perform to resolve common issues with AEM instances:
 
-* If using TarMK, run Tar compaction often. For more details, see [Maintaining the Repository](/help/sites/deploying/using/storage-elements-in-aem-6.md#maintaining-the-repository).
+* If using TarMK, run Tar compaction often. For more details, see [Maintaining the Repository](/help/sites-deploying/storage-elements-in-aem-6.md#maintaining-the-repository).
 * Check `OutOfMemoryError` logs. For more information, see [Analyze memory problems](https://helpx.adobe.com/experience-manager/kb/AnalyzeMemoryProblems.html).
 
-* Check the logs for any references to unindexed queries, tree traversals, or index traversals. These indicate unindexed queries or inadequately indexed queries. For For best practices on optimizing query and indexing performance, see [Best Practices for Queries and Indexing](/help/sites/deploying/using/best-practices-for-queries-and-indexing.md).
+* Check the logs for any references to unindexed queries, tree traversals, or index traversals. These indicate unindexed queries or inadequately indexed queries. For For best practices on optimizing query and indexing performance, see [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md).
 * Use the workflow console to verify that your workflows perform as expected. If possible, condense multiple workflows into a single workflow. 
 * Revisit live monitoring, and look for additional bottlenecks or high consumers of any specific resources.
 * Investigate the egress points from the client network and the ingress points to the AEM instance network, including the dispatcher. Frequently, these are bottleneck areas. For more information, see [Assets network considerations](assets-network-considerations.md).

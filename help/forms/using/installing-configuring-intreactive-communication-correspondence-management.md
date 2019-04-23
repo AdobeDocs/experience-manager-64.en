@@ -32,7 +32,7 @@ AEM Forms Interactive Communications run admin, authoring, and agent user interf
 
 Before you begin to install and configure interactive communication and correspondence management capabilities of AEM Forms, ensure that:
 
-* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites/deploying/using/technical-requirements.md).  
+* Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see [technical requirements](/help/sites-deploying/technical-requirements.md).  
 
 * Installation path of the AEM instance does not contain white-spaces.
 * An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least one AEM instances (Author or Processing) to run AEM Forms interactive communication and correspondence management capabilities:

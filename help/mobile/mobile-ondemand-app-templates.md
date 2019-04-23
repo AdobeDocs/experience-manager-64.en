@@ -14,7 +14,7 @@ discoiquuid: ec4ada04-e429-4ad4-a060-2dccac847cf0
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 AEM Mobile On-Demand provides a fully configured app template, an article template, and article components.
 
@@ -143,7 +143,7 @@ Once the component has already been included in an AEM page, along with a few ot
 
 >[!NOTE]
 >
->You can create a create a component in AEM and customize the same using [Developing with CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md). Once you have customized the existing component as your requirements, you can add it in your page using the **Edit** option under **Manage Articles** as shown in the figure above.
+>You can create a create a component in AEM and customize the same using [Developing with CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md). Once you have customized the existing component as your requirements, you can add it in your page using the **Edit** option under **Manage Articles** as shown in the figure above.
 
 >[!NOTE]
 >

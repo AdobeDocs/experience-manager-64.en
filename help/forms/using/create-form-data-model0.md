@@ -43,7 +43,7 @@ The form data model looks similar to the following:
 Before you begin, ensure that you have the following:
 
 * MySQL database with sample data as stated in the [Set up the database](/help/forms/using/create-form-data-model0.md#step-set-up-the-database) section.
-* OSGi bundle for MySQL JDBC driver as explained in [Bundling the JDBC Database Driver](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/jdbc.html#bundling-the-jdbc-database-driver)
+* OSGi bundle for MySQL JDBC driver as explained in [Bundling the JDBC Database Driver](https://helpx.adobe.com/experience-manager/6-3/sites-developing/jdbc.html#bundling-the-jdbc-database-driver)
 
 ## Step 1: Set up the database {#step-set-up-the-database}
 

@@ -18,7 +18,7 @@ The AEM interface displays the options, such as to create or edit an asset type,
 
 Although CRX allows you to configure the access rights for both user and groups accounts, this article is about role or user group based access rights.
 
-For more information on groups, permissions, access control lists, and managing users and groups, see [User Administration and Security](/help/sites/administering/using/security.md).
+For more information on groups, permissions, access control lists, and managing users and groups, see [User Administration and Security](/help/sites-administering/security.md).
 
 ## Managing Permissions {#managing-permissions}
 

@@ -15,7 +15,7 @@ discoiquuid: 8c88a2ff-766f-481b-b6dc-0b3e2eed8596
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 Once you are familiar with content management actions on articles, banners, and collections you can publish your content. Also you can unpublish your content.
 

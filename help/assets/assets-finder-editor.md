@@ -208,7 +208,7 @@ To add predicates:
     | **Path Predicate** |Lets users define the path and subfolders, if desired. |
     | **Property Predicate** |The site owner specifies a property to search for, e.g. tiff:ImageLength and the user can then enter a value, e.g. 800. This returns all images that are 800 pixels high. Useful predicate if your property can have arbitrary values.  |
 
-    For more information, see the [predicate javadocs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.html).
+    For more information, see the [predicate javadocs](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/day/cq/search/eval/package-summary.html).
 
 1. To configure the predicate further, double-click it. For example, when you open the Path Predicate, you need to assign the root path.
 
@@ -288,7 +288,7 @@ To add asset editor components:
 
 #### Metadata Form and Text Field - Configuring the View Metadata Component {#metadata-form-and-text-field-configuring-the-view-metadata-component}
 
-The Metadata Form is a form that includes a start and end action. In between, you enter **Text** fields. See [Forms](/help/sites/authoring/using/default-components.md) for more information on working with forms.
+The Metadata Form is a form that includes a start and end action. In between, you enter **Text** fields. See [Forms](/help/sites-authoring/default-components.md) for more information on working with forms.
 
 1. Create a start action by clicking **Edit** in the Start area of the form. You can enter a Box title, if desired. By default, the Box title is **Metadata**. Select the Client Validation check box if you want the java-script client code for validation generated.
 

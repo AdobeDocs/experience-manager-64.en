@@ -177,7 +177,7 @@ The [Community Components Guide](/help/communities/components-guide.md) allows i
 
 `{{include this.id path="comments" resourceType="social/commons/components/hbs/comments"}}`
 
-**When using JSP**, a resource is included using the tag [cq:include](/help/sites/developing/using/taglib.md#lt-cq-include):
+**When using JSP**, a resource is included using the tag [cq:include](/help/sites-developing/taglib.md#lt-cq-include):
 
 ```
 <cq:include path="votes" 

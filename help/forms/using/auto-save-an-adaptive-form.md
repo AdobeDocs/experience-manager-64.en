@@ -59,7 +59,7 @@ For an adaptive form, the auto save option is not enabled out of the box. You ca
 
 You can implement a custom event to trigger the autosave functionality. Perform the following steps to create and implement the custom event:
 
-1. Create client library and client library folders. For detailed steps, see the [Using Client-Side Libraries document](/help/sites/developing/using/clientlibs.md).
+1. Create client library and client library folders. For detailed steps, see the [Using Client-Side Libraries document](/help/sites-developing/clientlibs.md).
 
    For example, the following script uses the custom `emailFocusChange`event to trigger the autosave functionality:
 

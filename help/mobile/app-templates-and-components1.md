@@ -15,18 +15,18 @@ discoiquuid: 7f31c6a7-92d5-4a87-a9f0-68a82b834d5a
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 A Template is used to create a Page and defines which components can be used within the selected scope. A template is a hierarchy of nodes that has the same structure as the page to be created, but without any actual content.
 
 Each Template will present you with a selection of components available for use.
 
-* Templates are built up of [Components](/help/sites/developing/using/components.md);
+* Templates are built up of [Components](/help/sites-developing/components.md);
 * Components use, and allow access to, Widgets and these are used to render the Content.
 
 >[!NOTE]
 >
->To learn how to develop your AEM application using CRXDE Lite, see [Developing with CRXDE Lite](/help/sites/developing/using/developing-with-crxde-lite.md).
+>To learn how to develop your AEM application using CRXDE Lite, see [Developing with CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md).
 
 A template is the basis of a page.
 
@@ -54,8 +54,8 @@ This node contains *a jcr:content (cq:PageContent) *node which be used as the ba
 >
 >To learn the basics for templates and components in AEM, see the resources below:
 >
->* [Templates](/help/sites/developing/using/templates.md)
->* [Components](/help/sites/developing/using/components.md)
+>* [Templates](/help/sites-developing/templates.md)
+>* [Components](/help/sites-developing/components.md)
 >
 
 Once you have the basic understanding of Templates and Components, See the following resources:

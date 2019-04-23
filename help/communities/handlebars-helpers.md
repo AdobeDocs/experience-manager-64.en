@@ -21,7 +21,7 @@ Handlebars Helpers (helpers) are methods callable from Handlebars scripts to fac
 
 The implementation includes a client-side and a server-side definition. It is also possible for developers to create custom helpers.
 
-The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](/help/sites/developing/using/clientlibs.md):
+The custom SCF helpers delivered with AEM Communities are defined in the [client libarry](/help/sites-developing/clientlibs.md):
 
 * /etc/clientlibs/social/commons/scf/helpers.js
 
@@ -165,7 +165,7 @@ A helper to return content depending on an equality conditional.
 
 ## if-wcm-mode {#if-wcm-mode}
 
-A block helper that tests the current value of [WCM mode](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.html) against a string separated list of modes.
+A block helper that tests the current value of [WCM mode](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.html) against a string separated list of modes.
 
 ### parameters {#parameters-4}
 
@@ -173,7 +173,7 @@ A block helper that tests the current value of [WCM mode](https://helpx.adobe.co
   (optional) The string to translate. Required if no default provided.
 
 * **mode**: String  
-  (optional) A comma separated list of [WCM modes](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.html) to test if set.
+  (optional) A comma separated list of [WCM modes](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.html) to test if set.
 
 ### example {#example-2}
 
@@ -189,7 +189,7 @@ A block helper that tests the current value of [WCM mode](https://helpx.adobe.co
 
 This helper overrides the Handlebars helper 'i18n'.
 
-See also [Internationalizing Strings in JavaScript Code](/help/sites/developing/using/i18n-dev.md#internationalizing-strings-in-javascript-code).
+See also [Internationalizing Strings in JavaScript Code](/help/sites-developing/i18n-dev.md#internationalizing-strings-in-javascript-code).
 
 ### parameters {#parameters-5}
 
@@ -218,7 +218,7 @@ This allows the resource to be programmatically customized more easily than is p
 
 Only a select few of Communities components are includable. For AEM 6.1, those that are includable are [comments](/help/communities/essentials-comments.md), [rating](/help/communities/rating-basics.md), [reviews](/help/communities/reviews-basics.md), and [voting](/help/communities/essentials-voting.md).
 
-This helper, appropriate only on the server-side, provides functionality similar to [cq:include](/help/sites/developing/using/taglib.md) for JSP scripts.
+This helper, appropriate only on the server-side, provides functionality similar to [cq:include](/help/sites-developing/taglib.md) for JSP scripts.
 
 ### parameters {#parameters-6}
 
@@ -251,7 +251,7 @@ This will include a new comments component at `this.id` + /comments
 
 A helper that includes an AEM html client library, which can be a js, a css or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the Handlebars script.
 
-This helper, appropriate only on the server-side, provides functionality similar to [ui:includeClientLib](/help/sites/developing/using/taglib.md) for JSP scripts.
+This helper, appropriate only on the server-side, provides functionality similar to [ui:includeClientLib](/help/sites-developing/taglib.md) for JSP scripts.
 
 ### parameters {#parameters-7}
 
@@ -489,7 +489,7 @@ Custom helpers must be implemented on the server-side as well as the client-side
 
 ### Server-side Custom Helpers {#server-side-custom-helpers}
 
-To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.html), make it an [OSGi Service](/help/sites/developing/using/the-basics.md#osgi) and install it as part of an OSGi bundle.
+To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.html), make it an [OSGi Service](/help/sites-developing/the-basics.md#osgi) and install it as part of an OSGi bundle.
 
 For example:
 

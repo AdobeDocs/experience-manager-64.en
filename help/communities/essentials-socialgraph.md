@@ -60,7 +60,7 @@ The `following`component lists the members that are either following the current
        <li><i>true </i>- the <span class="code">following</span> component will list the members who the currently signed-in member <span class="code">follows</span></li> 
        <li><i>false </i>- the <span class="code">following</span> component will list the members who <span class="code">follow </span>the currently signed-in member</li> 
       </ul> </li> 
-    </ul> <p>Defaults to <i>true</i> if the property is missing. Currently, it is not possible to set this property using the edit dialog in author mode. The property must be added to an instance of the <span class="code">following </span>node using <a href="/help/sites/developing/using/developing-with-crxde-lite.md">CRXDE|Lite</a>.</p> </td> 
+    </ul> <p>Defaults to <i>true</i> if the property is missing. Currently, it is not possible to set this property using the edit dialog in author mode. The property must be added to an instance of the <span class="code">following </span>node using <a href="/help/sites-developing/developing-with-crxde-lite.md">CRXDE|Lite</a>.</p> </td> 
   </tr>
  </tbody>
 </table>
@@ -77,9 +77,9 @@ The `following`component lists the members that are either following the current
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Social Graph API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/api/package-frame.html)
+* [Social Graph API](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/graph/client/api/package-frame.html)
 
-* [Social Graph Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/endpoint/package-frame.html)
+* [Social Graph Endpoints](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/graph/client/endpoint/package-frame.html)
 
 * [Server-side Customizations](/help/communities/server-customize.md)
 

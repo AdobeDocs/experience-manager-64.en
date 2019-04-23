@@ -33,11 +33,11 @@ For more information, see [Assets made compatible with AEM Forms 6.4 by installi
 
 After performing an upgrade, do the following to install the AEMFD compatibility package and make your assets compatible with 6.4:
 
-Ensure that you have [AEM Compatibility package](/help/sites/deploying/using/backward-compatibility.md) pre-installed.
+Ensure that you have [AEM Compatibility package](/help/sites-deploying/backward-compatibility.md) pre-installed.
 
 1. Install the [Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT).
 
-   For more information on uploading and installing the package, see [How to work with packages](/help/sites/administering/using/package-manager.md).
+   For more information on uploading and installing the package, see [How to work with packages](/help/sites-administering/package-manager.md).
 
 1. After the logs are stabilized, restart the server. 
 1. Use the migration utility for making your assets compatible with 6.4.

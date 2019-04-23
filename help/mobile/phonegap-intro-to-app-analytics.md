@@ -15,7 +15,7 @@ discoiquuid: 377548fa-987a-4a59-84a3-067a3541b6b2
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 You want to drive higher customer conversions and loyalty.
 

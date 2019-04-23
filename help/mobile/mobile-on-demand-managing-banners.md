@@ -15,7 +15,7 @@ discoiquuid: fb1abaa0-9c02-4f20-aa7c-073def067452
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 Content Management actions are the building blocks that help to create and manage content within an application. The following actions are performed on content within the application.
 

@@ -68,9 +68,9 @@ In addition to using pre-existing actions, AEM developers can also create their 
 
 ### Adding a custom action {#adding-a-custom-action}
 
-Creating custom actions requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html).
+Creating custom actions requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/widgets-api/index.html).
 
-The best practice is to copy an existing action and adjust it. Sample actions are located in **/libs/cq/dam/assetshare/components/actions**. See also [Developing components](/help/sites/developing/using/developing-components-samples.md).
+The best practice is to copy an existing action and adjust it. Sample actions are located in **/libs/cq/dam/assetshare/components/actions**. See also [Developing components](/help/sites-developing/developing-components-samples.md).
 
 #### Example: Create a simple action {#example-create-a-simple-action}
 

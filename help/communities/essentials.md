@@ -63,7 +63,7 @@ Following are links to essential information for Communities components, functio
 
 ## Javadocs {#javadocs}
 
-The [online javadocs](/help/sites/developing/using/reference-materials.md) reflect the APIs available in the AEM 6.3 release.  
+The [online javadocs](/help/sites-developing/reference-materials.md) reflect the APIs available in the AEM 6.3 release.  
 Communities APIs are in `com.adobe.cq.social.*` packages.
 
 For each [feature pack](/help/communities/deploy-communities.md#latestfeaturepack), a javadoc jar is made available. For more information, visit [Using Maven for Communities](/help/communities/maven.md#javadocs).

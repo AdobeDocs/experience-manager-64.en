@@ -27,5 +27,5 @@ See also [Configuring Dynamic Media - Scene7 mode](https://helpx.adobe.com/exper
 
 1. When you receive Feature Pack 18912 from Adobe support, install it.
 
-   See [How to Work with Packages](/help/sites/administering/using/package-manager.md) for more information on using Package Share and packages in AEM.
+   See [How to Work with Packages](/help/sites-administering/package-manager.md) for more information on using Package Share and packages in AEM.
 

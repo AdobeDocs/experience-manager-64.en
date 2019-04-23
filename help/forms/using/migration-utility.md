@@ -15,7 +15,7 @@ discoiquuid: a8b1f7df-e36f-4d02-883a-72120fea7046
 
 # Migrate AEM Forms assets and documents{#migrate-aem-forms-assets-and-documents}
 
-The Migration utility converts the [Adaptive Forms assets](/help/forms/using/introduction-forms-authoring.md), [cloud configrurations](/help/sites/developing/using/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in AEM 6.4 Forms. When you run migration utility, the following are migrated:
+The Migration utility converts the [Adaptive Forms assets](/help/forms/using/introduction-forms-authoring.md), [cloud configrurations](/help/sites-developing/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in AEM 6.4 Forms. When you run migration utility, the following are migrated:
 
 * Custom components for adaptive forms
 * Adaptive forms and correspondence management Templates
@@ -40,7 +40,7 @@ Then you need to update the assets and documents by [running the Migration utili
 
 If it is an out of place (fresh) installation, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT) (includes the Correspondence Management Compatibility package).
 
-Then you need to import your asset package (zip or cmp) on the new setup and then update the assets and documents by [running the Migration utility](#runningmigrationutility). Due to [backward compatibility-related](/help/sites/deploying/using/backward-compatibility.md) changes, locations of a few folders in crx-repository are changed. Manually export and import dependencies (custom libraries and assets) from previous setup to fresh environment.
+Then you need to import your asset package (zip or cmp) on the new setup and then update the assets and documents by [running the Migration utility](#runningmigrationutility). Due to [backward compatibility-related](/help/sites-deploying/backward-compatibility.md) changes, locations of a few folders in crx-repository are changed. Manually export and import dependencies (custom libraries and assets) from previous setup to fresh environment.
 
 ## Read before you proceed with the migration {##prerequisites}
 

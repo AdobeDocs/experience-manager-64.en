@@ -37,7 +37,7 @@ Requiring a common store results in the following recommended topologies.
 
 >[!NOTE]
 >
->For more information on the AEM platform, see [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md) and [Introduction to the AEM Platform](/help/sites/deploying/using/data-store-config.md).
+>For more information on the AEM platform, see [Recommended Deployments](/help/sites-deploying/recommended-deploys.md) and [Introduction to the AEM Platform](/help/sites-deploying/data-store-config.md).
 
 ## For Production {#for-production}
 
@@ -47,13 +47,13 @@ Two examples:
 
 1) If the expected volume of UGC is high and a local MongoDB instance is possible, then the choice would be [MSRP](/help/communities/msrp.md).
 
-2) For optimal performance for page content, the choice of a [publish farm](/help/sites/deploying/using/recommended-deploys.md#tarmk-farm) and [ASRP](/help/communities/asrp.md) would provide optimal scaling of UGC with relatively straightforward operations.
+2) For optimal performance for page content, the choice of a [publish farm](/help/sites-deploying/recommended-deploys.md#tarmk-farm) and [ASRP](/help/communities/asrp.md) would provide optimal scaling of UGC with relatively straightforward operations.
 
 For both, the deployment may be based on any OAK microkernel.
 
 To choose the appropriate common store, carefully consider the unique [characteristics](/help/communities/working-with-srp.md#srpoptionscharacteristics) of each.
 
-For more details on Oak microkernals, visit [Recommended Deployments](/help/sites/deploying/using/recommended-deploys.md).
+For more details on Oak microkernals, visit [Recommended Deployments](/help/sites-deploying/recommended-deploys.md).
 
 ### TarMK Publish Farm {#tarmk-publish-farm}
 
@@ -142,9 +142,9 @@ If choosing [ASRP](/help/communities/asrp.md), [DSRP](/help/communities/dsrp.md)
 * UGC [common store](/help/communities/working-with-srp.md)  
   Describes the storage of community content separate from site content
 
-* [Node Stores and Data Stores](/help/sites/deploying/using/data-store-config.md)  
+* [Node Stores and Data Stores](/help/sites-deploying/data-store-config.md)  
   Basically, site content is stored in a node store. For Assets, a data store can be configured to store binary data. For Communities, a common store must be configured to select the SRP.
 
-* [Storage Elements in AEM 6.3](/help/sites/deploying/using/storage-elements-in-aem-6.md)  
+* [Storage Elements in AEM 6.3](/help/sites-deploying/storage-elements-in-aem-6.md)  
   Describes the two node storage implementations: Tar and MongoDB.
 

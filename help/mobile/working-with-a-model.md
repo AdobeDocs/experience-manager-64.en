@@ -15,7 +15,7 @@ redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/administer-
 
 >[!NOTE]
 >
->Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites/developing/using/spa-overview.md).
+>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
 A model describes a type of content and denotes what will be information will be available to the native application. This section explains the creation of new models.
 

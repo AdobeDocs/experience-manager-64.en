@@ -16,7 +16,7 @@ discoiquuid: 6cf54a08-d429-4a58-8429-a1cb784448d1
 
 Adobe Target integrated with AEM lets you create experiences customized for a target audience. With Adobe Target, you can create A/B tests, measure user response, and generate customized web content for targeted users. You can integrate Adobe Target with AEM Forms to target image components of adaptive forms and interactive communications.
 
-Configure Adobe Target in AEM to use it with adaptive forms and interactive communications, see [Creating a Target Configuration in AEM](/help/sites/administering/using/target.md) and [Add a Framework](/help/sites/administering/using/target.md).
+Configure Adobe Target in AEM to use it with adaptive forms and interactive communications, see [Creating a Target Configuration in AEM](/help/sites-administering/target.md) and [Add a Framework](/help/sites-administering/target.md).
 
 >[!NOTE]
 >

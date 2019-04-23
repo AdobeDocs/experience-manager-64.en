@@ -659,7 +659,7 @@ You can see the generated CSS using the following options:
       You can style components using the Style mode in form editor when you work with a form. Using style mode to change form component styling overrides the styling specified in the theme. If you want to change styling for certain components of a particular form, see [Inline styling of adaptive form components](/help/forms/using/inline-style-adaptive-forms.md).
 
 * **Using client-side libraries** 
-  If you want to create client libraries to import styling information, see [Using Client Side Libraries](/help/sites/developing/using/clientlibs.md). After you create a client library, you can import it in your theme using the steps mentioned above. 
+  If you want to create client libraries to import styling information, see [Using Client Side Libraries](/help/sites-developing/clientlibs.md). After you create a client library, you can import it in your theme using the steps mentioned above. 
 
 * **Changing container panel layout width  
   **Changing container panel layout width is not recommended. When you specify width of a container panel, it becomes static and does not adapt to different displays.

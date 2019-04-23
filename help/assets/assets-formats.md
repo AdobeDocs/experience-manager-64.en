@@ -611,7 +611,7 @@ Mime types are available in CRXDE Lite at the following path:
 
 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`
 
-See also [Enabling MIME type-based Assets/Scene7 upload job parameter support](/help/sites/administering/using/scene7.md#enabling-mime-type-based-assets-scene-upload-job-parameter-support).
+See also [Enabling MIME type-based Assets/Scene7 upload job parameter support](/help/sites-administering/scene7.md#enabling-mime-type-based-assets-scene-upload-job-parameter-support).
 
 <table> 
  <tbody>

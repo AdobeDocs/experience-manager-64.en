@@ -16,7 +16,7 @@ You can move forms and related assets, themes, data dictionaries, document fragm
 
 >[!NOTE]
 >
->* In AEM 6.4 Forms, the structure and paths of crx-repository has changed. If you import assets from a previous version to AEM 6.4 Forms and the form has some dependencies on the older structure, you have to manually export the dependencies. For details of changes in the structure and paths of the repository, see [Repository Restructuring in AEM 6.4](/help/sites/deploying/using/repository-restructuring-in-aem64.md).
+>* In AEM 6.4 Forms, the structure and paths of crx-repository has changed. If you import assets from a previous version to AEM 6.4 Forms and the form has some dependencies on the older structure, you have to manually export the dependencies. For details of changes in the structure and paths of the repository, see [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring-in-aem64.md).
 >
 
 ## Download or upload Forms &amp; Documents assets {#download-or-upload-forms-amp-documents-assets}
@@ -25,7 +25,7 @@ AEM Forms user interface allows you to export assets from an AEM instance by dow
 
 Export and import via AEM Forms user interface is supported for all assets except for Adaptive Form templates and Adaptive Form content policies. Therefore, on exporting an adaptive form from AEM Forms UI, the related adaptive form template and content policies are not automatically exported like other related assets.
 
-For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see [Working with packages](/help/sites/administering/using/package-manager.md).
+For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see [Working with packages](/help/sites-administering/package-manager.md).
 
 ### Download Forms &amp; Documents assets {#download-forms-amp-documents-assets}
 
@@ -251,4 +251,4 @@ On the side panel, you can use the following to narrow down your search results:
 
 The side panel also allows you to save your search settings with names of your choice.
 
-For more information and instructions on using search, filters, saved search, and side panel, see [Search](/help/sites/authoring/using/search.md).
+For more information and instructions on using search, filters, saved search, and side panel, see [Search](/help/sites-authoring/search.md).

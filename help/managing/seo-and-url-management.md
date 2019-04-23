@@ -384,7 +384,7 @@ Make sure to check the additional resources section that follows for instruction
 
 For more information, please see the following additional resources:
 
-* [Resource Mapping](/help/sites/deploying/using/resource-mapping.md)
+* [Resource Mapping](/help/sites-deploying/resource-mapping.md)
 * [https://moz.com/blog/seo-cheat-sheet-anatomy-of-a-url](https://moz.com/blog/seo-cheat-sheet-anatomy-of-a-url)
 * [https://moz.com/blog/15-seo-best-practices-for-structuring-urls](https://moz.com/blog/15-seo-best-practices-for-structuring-urls)
 * [https://mysiteauditor.com/blog/top-10-most-important-seo-tips-for-url-optimization/](https://mysiteauditor.com/blog/top-10-most-important-seo-tips-for-url-optimization/)

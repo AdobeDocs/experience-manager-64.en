@@ -129,7 +129,7 @@ Under the **Sort Settings **tab, specify how the posted comments are sorted when
 
 By changing the Comment Resource Type, the comment system will no longer generate an instance of a comment using the default, but rather one that has been customized (extended) by developers.
 
-Once the custom resource types is known, enter [Design Mode](/help/sites/authoring/using/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
+Once the custom resource types is known, enter [Design Mode](/help/sites-authoring/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
 
 Under the **Resource Types **tab, specify the custom resourceType for new instances of the `Comments or Voting`components:
 

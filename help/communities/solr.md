@@ -15,7 +15,7 @@ discoiquuid: e228f1db-91ea-4ec3-86da-06d89d74bc72
 
 ## Solr for AEM Platform {#solr-for-aem-platform}
 
-An [Apache Solr](https://lucene.apache.org/solr/) installation may be shared between the [node store](/help/sites/deploying/using/data-store-config.md) (Oak) and [common store](/help/communities/working-with-srp.md) (SRP) by using different collections.
+An [Apache Solr](https://lucene.apache.org/solr/) installation may be shared between the [node store](/help/sites-deploying/data-store-config.md) (Oak) and [common store](/help/communities/working-with-srp.md) (SRP) by using different collections.
 
 If both the Oak and SRP collections are used intensively, a second Solr may be installed for performance reasons.
 

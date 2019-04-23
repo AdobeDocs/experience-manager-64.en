@@ -23,7 +23,7 @@ This section describes how to manage and edit video assets.
 
 ## Uploading and Previewing Video Assets {#uploading-and-previewing-video-assets}
 
-Adobe Experience Manager Assets generates previews for video assets with the extension **.mp4**. If the format of the asset is not **mp4**, install the FFmpeg pack to generate a preview. See [FFmpeg installation instructions](/help/sites/authoring/using/default-components-foundation.md#video). FFmpeg creates video renditions of type **ogg** and **mp4**. You can preview these renditions in the Adobe Experience Manager Assets user interface.
+Adobe Experience Manager Assets generates previews for video assets with the extension **.mp4**. If the format of the asset is not **mp4**, install the FFmpeg pack to generate a preview. See [FFmpeg installation instructions](/help/sites-authoring/default-components-foundation.md#video). FFmpeg creates video renditions of type **ogg** and **mp4**. You can preview these renditions in the Adobe Experience Manager Assets user interface.
 
 1. In the Digital Assets folder (or sub-folders), navigate to the location where you want to add digital assets.
 1. To upload the asset, tap **Create** from the toolbar, then choose **Files**. Alternatively, drop it directly in the assets area. See [Uploading assets](managing-assets-touch-ui.md#uploading-assets) for details around the upload operation.
