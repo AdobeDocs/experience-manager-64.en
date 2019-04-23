@@ -359,7 +359,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 
 >[!NOTE]
 >
->On Mac OS X: The change of local network drive protocol from WebDAV to SMB1 results in a different local path to the same asset in the repository. This might impact links to files placed in CC applications via "Place" command. See the [documentation](https://helpx.adobe.com/experience-manager/6-3/sites-administering/aem-desktop-app.html) for more information.
+>On Mac OS X: The change of local network drive protocol from WebDAV to SMB1 results in a different local path to the same asset in the repository. This might impact links to files placed in CC applications via "Place" command. See the [documentation](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/aem-desktop-app.html) for more information.
 
 ### File handling (since 1.3) {#file-handling-since}
 
@@ -432,7 +432,7 @@ For detailed instructions, see [install and configure AEM Desktop app](https://h
 
 * [Adobe Experience Manager Product Page](https://www.adobe.com/solutions/web-experience-management.html)
 * [AEM Documentation](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [AEM Desktop App Documentation](https://helpx.adobe.com/experience-manager/6-3/sites-administering/aem-desktop-app.html)
+* [AEM Desktop App Documentation](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/aem-desktop-app.html)
 * [AEM Desktop App Best Practices](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html)
 
 ## Compatibility matrix and prequisites {#compatibility-matrix-and-prequisites}

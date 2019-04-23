@@ -161,7 +161,7 @@ This issue can have multiple causes:
 You can try the following solutions:
 
 * Make sure the customer code loading the DTM-like libraries (which in turn load the Target libraries) is executed synchronously in the [page head](/help/sites-developing/target.md#enabling-targeting-with-adobe-target-on-your-pages).
-* if the site is configured to use DTM to deliver Target libraries ensure that the **Clientlib delivered by DTM** option is checked in the [Target configuration](https://helpx.adobe.com/experience-manager/6-3/sites-administering/target-configuring.html) for the site.
+* if the site is configured to use DTM to deliver Target libraries ensure that the **Clientlib delivered by DTM** option is checked in the [Target configuration](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/target-configuring.html) for the site.
 
 ### A default offer is always displayed instead of correct offer when using AT.js 1.3+ {#a-default-offer-is-always-displayed-instead-of-correct-offer-when-using-at-js}
 

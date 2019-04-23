@@ -41,7 +41,7 @@ Conversion Manager package provides AEM cloud service configurations and Review 
 
 ## Configure email notification {#configure-email-notification}
 
-Configure the ** [Day CQ Mail Service](https://helpx.adobe.com/experience-manager/6-4/sites-administering/notification.html#ConfiguringtheMailService)** and specify an email address in the profile of a [forms user](https://helpx.adobe.com/experience-manager/6-4/forms/using/forms-groups-privileges-tasks.html). Emails are sent to specified email address on successful completion or failure of a conversion. To specify an email address for a user:
+Configure the ** [Day CQ Mail Service](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/notification.html#ConfiguringtheMailService)** and specify an email address in the profile of a [forms user](https://helpx.adobe.com/experience-manager/6-4/forms/using/forms-groups-privileges-tasks.html). Emails are sent to specified email address on successful completion or failure of a conversion. To specify an email address for a user:
 
 1. On your AEM Forms instance, tap **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Tools]**> **[!UICONTROL Security]** > **[!UICONTROL Users]**.
 1. Select the user designated to run the service and tap **[!UICONTROL Properties]**. The Edit User Settings page opens. 

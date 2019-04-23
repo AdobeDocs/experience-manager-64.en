@@ -126,7 +126,7 @@ Modifications to the content structure in a blueprint/source tree are reflected 
 
 >[!NOTE]
 >
->This will work only with the [On Rollout trigger](https://helpx.adobe.com/experience-manager/6-3/sites-administering/msm-sync.html#rollout-triggers).
+>This will work only with the [On Rollout trigger](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/msm-sync.html#rollout-triggers).
 
 * Create a custom rollout configuration:
 

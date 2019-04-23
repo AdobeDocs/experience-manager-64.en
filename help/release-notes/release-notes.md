@@ -287,7 +287,7 @@ More details on [AEM Forms](forms.md) release notes page. Also, see the [Summary
 
 You can integrate Livefyre with your AEM 6.4 instance. Information on how to integrate Livefyre with AEM is located here:
 
-* [Integrating Livefyre](https://helpx.adobe.com/experience-manager/6-4/sites-administering/livefyre.html)
+* [Integrating Livefyre](https://https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
 ### Leverage Customer Focused Development {#leverage-customer-focused-development}
 

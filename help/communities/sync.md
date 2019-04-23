@@ -108,7 +108,7 @@ Author instance pings the exporter endpoint of publishers. Whenever a user is cr
  <p>On AEM author instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
-  <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites-deploying/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</li> 
+  <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Apache Sling Distribution Agent - Sync Agents Factory.</strong> 
    <ul> 
     <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify name: <strong> 
@@ -165,7 +165,7 @@ This configuration is used to configure the data you want to sync across publish
  <p>On AEM publish instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
-  <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites-deploying/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+  <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Apache Sling Distribution Agent - Queue Agents Factory.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify Name: 
    <g class="gr_ gr_20 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="20" id="20">
@@ -191,7 +191,7 @@ If changing the membership of a group in one publisher does not update its membe
  <p>On each AEM publish instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
-  <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites-deploying/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+  <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Adobe Granite Distribution - Diff Observer Factory.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify <strong>agent name: 
     <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="19" id="19">
