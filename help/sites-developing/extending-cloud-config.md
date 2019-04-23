@@ -132,7 +132,7 @@ propertyname
 
 ### API {#api}
 
-For reference documentation on the API see [com.day.cq.wcm.webservicesupport](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/day/cq/wcm/webservicesupport/package-summary.html).
+For reference documentation on the API see [com.day.cq.wcm.webservicesupport](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/webservicesupport/package-summary.html).
 
 ### CQ Integration {#cq-integration}
 

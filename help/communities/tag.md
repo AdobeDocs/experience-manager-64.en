@@ -70,9 +70,9 @@ Tagging of UGC may be enabled when configuring a [community site](/help/communit
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Social Tag Cloud API](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/commons/tagcloud/api/package-summary.html)
+* [Social Tag Cloud API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/tagcloud/api/package-summary.html)
 
-* [Social Tag Manager](https://helpx.adobe.com/experience-manager/6-4/sites-developing/reference-materials/javadoc/com/adobe/cq/social/commons/tagging/package-summary.html)
+* [Social Tag Manager](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/tagging/package-summary.html)
 
 * [Server-side Customizations](/help/communities/server-customize.md)
 
