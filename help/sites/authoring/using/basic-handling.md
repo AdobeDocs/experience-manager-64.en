@@ -108,7 +108,7 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Screens</td> 
-   <td><a href="/help/screens/using/authoring-screens.md">Screens</a> will allow you to manage all your customer-facing screens, of any size and in any location.</td> 
+   <td><a href="/help/screens/authoring-screens.md">Screens</a> will allow you to manage all your customer-facing screens, of any size and in any location.</td> 
   </tr>
   <tr>
    <td>Sites</td> 

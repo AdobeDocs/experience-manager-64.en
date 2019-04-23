@@ -117,7 +117,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 13</strong></td> 
    <td>Check hardware requirements</td> 
-   <td>Check the documentation on <a href="/help/managing/using/hardware-sizing-guidelines.md">Hardware Sizing Guidelines</a>.<br /> </td> 
+   <td>Check the documentation on <a href="/help/managing/hardware-sizing-guidelines.md">Hardware Sizing Guidelines</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 14</strong></td> 

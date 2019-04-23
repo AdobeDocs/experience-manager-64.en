@@ -15,11 +15,11 @@ discoiquuid: 8c747892-c5ba-4288-b5e7-75fd40d92f5c
 
 >[!NOTE]
 >
->The following documentation focuses on the classic UI. For information about authoring in the modern, touch-based UI, see the [standard Authoring documentation](/help/assets/using/assets.md).
+>The following documentation focuses on the classic UI. For information about authoring in the modern, touch-based UI, see the [standard Authoring documentation](/help/assets/assets.md).
 
 The author environment allows you to perform tasks related to:
 
-* [Authoring](/help/sites/authoring/using/author.md) (including [page authoring](/help/sites/authoring/using/page-authoring.md) and [managing assets](/help/assets/using/assets.md))  
+* [Authoring](/help/sites/authoring/using/author.md) (including [page authoring](/help/sites/authoring/using/page-authoring.md) and [managing assets](/help/assets/assets.md))  
 
 * [Administering](/help/sites/administering/using/administer-best-practices.md) tasks you need when generating and maintaining the content on your website
 

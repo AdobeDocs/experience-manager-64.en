@@ -36,12 +36,12 @@ Best practices around Assets, including the dynamic media capability and Scene 7
  <tbody>
   <tr>
    <td>Best practices in different areas around Assets to enhance system stability and performance under load</td> 
-   <td><a href="/help/assets/using/best-practices-for-assets.md">Best Practices for Assets</a></td> 
+   <td><a href="/help/assets/best-practices-for-assets.md">Best Practices for Assets</a></td> 
    <td>Includes links to best practices guides in different areas around Assets. After reviewing them, you will have the knowledge and tools to build and manage an enterprise asset management system.</td> 
   </tr>
   <tr>
    <td>How to organize your content (folder hierarchy)</td> 
-   <td><a href="/help/assets/using/best-practices-for-file-management.md">Best practices for file management</a></td> 
+   <td><a href="/help/assets/best-practices-for-file-management.md">Best practices for file management</a></td> 
    <td>Much of processing profiles is folder based as video, metadata, image processing are always applied to folders. This best practice document describes how to define and set up your folder hierarchy as the hierarchy has a significant impact on how content is processed. </td> 
   </tr>
   <tr>
@@ -51,8 +51,8 @@ Best practices around Assets, including the dynamic media capability and Scene 7
   </tr>
   <tr>
    <td>Image preset options</td> 
-   <td>Understanding <a href="/help/assets/using/managing-image-presets.md#understanding-image-presets">image presets</a> and <a href="/help/assets/using/managing-image-presets.md#image-preset-options">image preset best practices</a></td> 
-   <td>As part of the documentation on <a href="/help/assets/using/managing-image-presets.md">Managing Image presets</a>, these topics describe what image presets are and best practices around selecting image preset options.</td> 
+   <td>Understanding <a href="/help/assets/managing-image-presets.md#understanding-image-presets">image presets</a> and <a href="/help/assets/managing-image-presets.md#image-preset-options">image preset best practices</a></td> 
+   <td>As part of the documentation on <a href="/help/assets/managing-image-presets.md">Managing Image presets</a>, these topics describe what image presets are and best practices around selecting image preset options.</td> 
   </tr>
   <tr>
    <td>Dynamic Media versus direct integration with Scene7</td> 

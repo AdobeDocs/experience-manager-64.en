@@ -12,7 +12,7 @@ noindex: true
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Data Types for Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-data-types-for-content-fragment-models}
 
-[Content fragments](/help/assets/using/content-fragments.md) are based on [content fragment models](/help/assets/using/content-fragments-models.md). These models are built up from [elements](/help/assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) of different data types.
+[Content fragments](/help/assets/content-fragments.md) are based on [content fragment models](/help/assets/content-fragments-models.md). These models are built up from [elements](/help/assets/content-fragments.md#constituent-parts-of-a-content-fragment) of different data types.
 
 Various data types are available out-of-the-box, including single-line text, multi-line rich text, numerical fields, boolean selectors, dropdown menu options, date and time, and others. AEM users can select data types based on the editorial intent of the corresponding fragment(s). This allows you to cater for simple text models through to complex models with various different kinds of content, and the associated fragment authoring experience.
 

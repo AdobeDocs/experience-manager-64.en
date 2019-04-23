@@ -749,5 +749,5 @@ The actual impact of application throughput of an ongoing backup does depend on 
 ### References {#references}
 
 * [Administering - Backup and Restore](/help/sites/administering/using/backup-and-restore.md)
-* [Managing - Capacity and Volume](/help/managing/using/best-practices-further-reference.md#capacity-and-volume)
+* [Managing - Capacity and Volume](/help/managing/best-practices-further-reference.md#capacity-and-volume)
 

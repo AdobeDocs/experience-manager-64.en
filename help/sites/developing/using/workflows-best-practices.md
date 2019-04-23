@@ -42,7 +42,7 @@ The advantages can include:
 
 ### Tuning DAM Workflows {#tuning-dam-workflows}
 
-For performance tuning guidelines for DAM workflows, see the [AEM Assets Performance Tuning Guide](/help/assets/using/performance-tuning-guidelines.md).
+For performance tuning guidelines for DAM workflows, see the [AEM Assets Performance Tuning Guide](/help/assets/performance-tuning-guidelines.md).
 
 ### Configure the Maximum Number of Concurrent Workflows {#configure-the-maximum-number-of-concurrent-workflows}
 

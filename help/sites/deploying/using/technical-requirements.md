@@ -41,7 +41,7 @@ Minimum requirements for running Adobe Experience Manager:
 >* [AEM Forms add-on package](/help/forms/using/installing-configuring-aem-forms-osgi.md) requires 15 GB of temporary space.  
 >
 
-Please see the [Hardware Sizing Guidelines](/help/managing/using/hardware-sizing-guidelines.md) for further information.
+Please see the [Hardware Sizing Guidelines](/help/managing/hardware-sizing-guidelines.md) for further information.
 
 ### Support Levels {#support-levels}
 
@@ -313,9 +313,9 @@ Adobe Experience Manager works with the following server platforms:
 1. AEM Assets: Please see the section [Support for XMP metadata write-back](#requirements-for-aem-assets-xmp-metadata-write-back)
 1. AEM Assets: No support for Dynamic Media Imaging. Dynamic Media Video is supported.  
 1. AEM Forms is supported only on Ubuntu 16.04 LTS.
-1. AEM Assets: No support for [Raw file transformation](/help/assets/using/camera-raw.md)
+1. AEM Assets: No support for [Raw file transformation](/help/assets/camera-raw.md)
 1. AEM Forms: No support for production environment
-1. AEM Assets: No support for [enhanced PDF Rasterizer](/help/assets/using/aem-pdf-rasterizer.md)
+1. AEM Assets: No support for [enhanced PDF Rasterizer](/help/assets/aem-pdf-rasterizer.md)
 1. AEM Forms: Not supported
 
 ### Virtual & Cloud Computing Environments {#virtual-cloud-computing-environments}
@@ -475,7 +475,7 @@ This means that when an IP address needs to be specified you can select (as requ
 
 ### Requirements for AEM Dynamic Media Add-on {#requirements-for-aem-dynamic-media-add-on}
 
-AEM Dynamic Media is disabled by default. See [Enabling Dynamic Media](/help/assets/using/config-dynamic.md#enabling-dynamic-media).
+AEM Dynamic Media is disabled by default. See [Enabling Dynamic Media](/help/assets/config-dynamic.md#enabling-dynamic-media).
 
 With Dynamic Media enabled, the following additional system requirements apply:
 >[!NOTE]

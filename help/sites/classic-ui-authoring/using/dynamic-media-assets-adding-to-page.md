@@ -59,7 +59,7 @@ The Dynamic Media component is smart - depending on whether you add an image or 
 >
 >When you add the Dynamic Media component, and **Dynamic Media Settings** is blank or you cannot add an asset properly, check the following:
 >
->* You have [enabled Dynamic Media](/help/assets/using/config-dynamic.md). Dynamic Media is disabled by default.
+>* You have [enabled Dynamic Media](/help/assets/config-dynamic.md). Dynamic Media is disabled by default.
 >* The image has a pyramid tiff file. Images imported before dynamic media is enabled do not have a pyramid tiff file.
 >
 

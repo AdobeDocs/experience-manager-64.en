@@ -75,7 +75,7 @@ You upload assets directly in the tile. In addition you can create Image Sets, S
 
 ### Asset Collections {#asset-collections}
 
-Similar to assets, you can add [asset collections](/help/assets/using/managing-collections-touch-ui.md) directly to your project. You define collections in Assets.
+Similar to assets, you can add [asset collections](/help/assets/managing-collections-touch-ui.md) directly to your project. You define collections in Assets.
 
 ![](assets/chlimage_1-172.png)
 
@@ -115,7 +115,7 @@ Team members can be assigned and deleted from this tile (or have their roles cha
 
 ### Translation Job {#translation-job}
 
-The Translation Job tile is where you start a translation and also where you see the status of your translations. To set up your translation, see [Creating Translation Projects](/help/assets/using/translation-projects.md).
+The Translation Job tile is where you start a translation and also where you see the status of your translations. To set up your translation, see [Creating Translation Projects](/help/assets/translation-projects.md).
 
 ![](assets/chlimage_1-179.png)
 

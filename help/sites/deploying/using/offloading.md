@@ -318,7 +318,7 @@ By default, Experience Manager executes the DAM Update Asset workflow when a DAM
 
 >[!CAUTION]
 >
->No workflow should be transient when used with workflow offloading. For example, the DAM Update Asset workflow must not be transient when used for asset offloading. To set/unset the transient flag on a workflow, see [Transient Workflows](/help/assets/using/performance-tuning-guidelines.md#workflows).
+>No workflow should be transient when used with workflow offloading. For example, the DAM Update Asset workflow must not be transient when used for asset offloading. To set/unset the transient flag on a workflow, see [Transient Workflows](/help/assets/performance-tuning-guidelines.md#workflows).
 
 The following procedure assumes the following characteristics for the offloading topology:
 
@@ -345,6 +345,6 @@ The following procedure assumes the following characteristics for the offloading
 In addition to the details presented on this page, you can also read the following:
 
 * For information about using Java APIs to create jobs and job consumers, see [Creating and Consuming Jobs for Offloading](/help/sites/developing/using/dev-offloading.md).
-* For general guidelines and best practices for asset offloading, see [General Guidelines and Best Practices for Asset Offloading](/help/assets/using/assets-offloading-best-practices.md#general-guidance-and-best-practices-for-asset-offloading).
-* To know how to disable the automatic creation of offloading agents, see [Turning Off Automatic Agent Management](/help/assets/using/assets-offloading-best-practices.md#turning-off-automatic-agent-management).
+* For general guidelines and best practices for asset offloading, see [General Guidelines and Best Practices for Asset Offloading](/help/assets/assets-offloading-best-practices.md#general-guidance-and-best-practices-for-asset-offloading).
+* To know how to disable the automatic creation of offloading agents, see [Turning Off Automatic Agent Management](/help/assets/assets-offloading-best-practices.md#turning-off-automatic-agent-management).
 

@@ -25,7 +25,7 @@ Because of this, manual adjustments are required after an upgrade in order for t
 
 This applies to new Search Forms as well as default Forms that have been customized.
 
-For more information, see the documentation on [Search Facets](/help/assets/using/search-facets.md).
+For more information, see the documentation on [Search Facets](/help/assets/search-facets.md).
 
 ## Changing the resourceType property {#changing-the-resourcetype-property}
 

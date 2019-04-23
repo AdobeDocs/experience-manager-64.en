@@ -73,7 +73,7 @@ See also:
 
 * Assets HTTP API
 
-    * [Assets HTTP API](/help/assets/using/mac-api-assets.md)
+    * [Assets HTTP API](/help/assets/mac-api-assets.md)
 
 * Sling Models:
 
@@ -89,7 +89,7 @@ For further details see:
 
 * The [Content Fragments topic in the Assets user guide](https://helpx.adobe.com/experience-manager/6-4/assets/user-guide.html?topic=/experience-manager/6-4/assets/morehelp/content-fragments.ug.js)  
 
-* [Content Fragment Models](/help/assets/using/content-fragments-models.md)
+* [Content Fragment Models](/help/assets/content-fragments-models.md)
 * [Authoring with Content Fragments](/help/sites/authoring/using/content-fragments.md)
 * [Enabling JSON Export for a Component](/help/sites/developing/using/json-exporter-components.md)  
 

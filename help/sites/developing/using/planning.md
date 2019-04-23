@@ -104,7 +104,7 @@ Before starting on your detailed Test Cases and Test Plan you can:
 **Define the goals** Define your high-level goals to act as a starting point for fine-tuning as testing proceeds. You will want to:
 
 * Test the functionality according to the Detailed Requirement Specification.
-* Test Performance according to the [Target Metrics](/help/managing/using/best-practices-further-reference.md#key-performance-indicators-and-target-metrics).
+* Test Performance according to the [Target Metrics](/help/managing/best-practices-further-reference.md#key-performance-indicators-and-target-metrics).
 
 amongst others.
 

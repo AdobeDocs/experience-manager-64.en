@@ -19,7 +19,7 @@ WCAG 2.0 consists of a set of technology independent guidelines and success crit
 >
 >See also:
 >
->* our [Quick Guide to WCAG 2.0](/help/managing/using/qg-wcag.md) for further details
+>* our [Quick Guide to WCAG 2.0](/help/managing/qg-wcag.md) for further details
 >* [Configuring the Rich Text Editor for producing accessible content](/help/sites/administering/using/rte-accessible-content.md)  
 >
 

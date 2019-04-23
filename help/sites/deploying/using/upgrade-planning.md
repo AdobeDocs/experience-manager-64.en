@@ -115,7 +115,7 @@ Review the Technical Requirements for AEM 6.4 and ensure that your current hardw
 
 [Operations Dashboard](/help/sites/administering/using/operations-dashboard.md)
 
-[Assets Monitoring Best Practices](/help/assets/using/assets-monitoring-best-practices.md)
+[Assets Monitoring Best Practices](/help/assets/assets-monitoring-best-practices.md)
 
 [Monitoring Server Resources Using the JMX Console](/help/sites/administering/using/jmx-console.md)
 

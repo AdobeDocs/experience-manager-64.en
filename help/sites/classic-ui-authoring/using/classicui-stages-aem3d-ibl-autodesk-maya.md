@@ -65,7 +65,7 @@ discoiquuid: 00f7ed25-276b-42c2-ae4c-11de357a9ec6
 
 1. Upload the scene and the IBL PTIFF into AEM and wait for upload processing to complete.
 
-   See [Uploading Assets](/help/assets/using/managing-assets-touch-ui.md#uploading-assets).
+   See [Uploading Assets](/help/assets/managing-assets-touch-ui.md#uploading-assets).
 
 1. Resolve any file dependencies.
 

@@ -79,7 +79,7 @@ The Smart Content Service is available for following locales:
 ## Links {#links}
 
 * [Adobe Experience Manager Product Page on adobe.com](https://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Enhanced Smart Tags Documentation](/help/assets/using/enhanced-smart-tags.md)
+* [Enhanced Smart Tags Documentation](/help/assets/enhanced-smart-tags.md)
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 

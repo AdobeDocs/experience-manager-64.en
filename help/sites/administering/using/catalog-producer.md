@@ -19,7 +19,7 @@ With the Adobe Experience Manager (AEM) Assets Catalog Producer, you can create 
 
 ## Integrating with InDesign server {#integrating-with-indesign-server}
 
-As part of the integration process, configure the **DAM Update Asset** workflow, which is suited for integration with InDesign. In addition, configure a proxy worker for the InDesign server. For details, see [Integrating AEM Assets with InDesign Server](/help/assets/using/indesign.md).
+As part of the integration process, configure the **DAM Update Asset** workflow, which is suited for integration with InDesign. In addition, configure a proxy worker for the InDesign server. For details, see [Integrating AEM Assets with InDesign Server](/help/assets/indesign.md).
 
 >[!NOTE]
 >
