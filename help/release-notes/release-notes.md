@@ -163,21 +163,21 @@ AEM 6.4 adds many new features and enhancements to Communities. Full list of cha
 
 **Automatic spam detection**
 
-New spam detection engine has been provided to filter out unwanted user generated content on community sites and groups. Once enabled from system/console/configMgr, it marks a piece of user generated content as spam based on a pre-defined set of spam words. To know more about spam detection engine, refer [automoderating community user generating content](/help/communities/using/moderate-ugc.md#spam-detection).
+New spam detection engine has been provided to filter out unwanted user generated content on community sites and groups. Once enabled from system/console/configMgr, it marks a piece of user generated content as spam based on a pre-defined set of spam words. To know more about spam detection engine, refer [automoderating community user generating content](/help/communities/moderate-ugc.md#spam-detection).
 
 ![](assets/spamdetection.png)
 
 **New filters for QnA**
 
-New filters, named Answered and Not Answered, have been added to bulk moderation console to filter QnA questions. To know how the Answered and Unanswered status filters work, refer [bulk moderating user generated content](/help/communities/using/moderation.md#main-pars-note-521961797).
+New filters, named Answered and Not Answered, have been added to bulk moderation console to filter QnA questions. To know how the Answered and Unanswered status filters work, refer [bulk moderating user generated content](/help/communities/moderation.md#main-pars-note-521961797).
 
 **Bookmark moderation filters**
 
-Ability to bookmark the pre-defined moderation filters on moderation console has been provided. These filters are appended toward the end of the URL string, therefore can be shared, reused and revisited later. Know how to bookmark filters in [bulk moderation console](/help/communities/using/moderation.md#main-pars-note-429176623).
+Ability to bookmark the pre-defined moderation filters on moderation console has been provided. These filters are appended toward the end of the URL string, therefore can be shared, reused and revisited later. Know how to bookmark filters in [bulk moderation console](/help/communities/moderation.md#main-pars-note-429176623).
 
 #### Delete UGC and user profiles {#delete-ugc-and-user-profiles}
 
-AEM 6.4 Communities exposes [out-of-the-box APIs](/help/communities/using/user-ugc-management-service.md) and sample [servlet](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet) to enable end users have control over their data. These APIs also enable data processing and data controlling organizations to serve EU GDPR compliance requests.
+AEM 6.4 Communities exposes [out-of-the-box APIs](/help/communities/user-ugc-management-service.md) and sample [servlet](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet) to enable end users have control over their data. These APIs also enable data processing and data controlling organizations to serve EU GDPR compliance requests.
 
 #### Enhancements to Site and Group Management {#enhancements-to-site-and-group-management}
 
@@ -189,11 +189,11 @@ Capability to create multi-lingual groups in single operation has been provided.
 
 **Delete community sites and groups in a click [](https://helpx.adobe.com/experience-manager/6-4/communities/using/groups.html#main-pars_header_591c)**
 
-Delete icon is now available on respective sites and groups, while navigating from global navigation. Using this icon deletes all the items and content associated with the site or group, and removes all the user associations. To know more about this functionality, refer [managing community sites](/help/communities/using/create-site.md#main-pars-text-fe17) and [managing community groups](/help/communities/using/groups.md#main-pars-text-5e8c).
+Delete icon is now available on respective sites and groups, while navigating from global navigation. Using this icon deletes all the items and content associated with the site or group, and removes all the user associations. To know more about this functionality, refer [managing community sites](/help/communities/create-site.md#main-pars-text-fe17) and [managing community groups](/help/communities/groups.md#main-pars-text-5e8c).
 
 #### Enhancements to Enablement {#enhancements-to-enablement}
 
-Assignment and Catalog functions are now available within groups. This enables learning content to be created, managed and published for a specific set of targeted community members. To know more about enabling community groups, refer [managing enablement resources](/help/communities/using/resource.md). [](/help/communities/using/resource.md)
+Assignment and Catalog functions are now available within groups. This enables learning content to be created, managed and published for a specific set of targeted community members. To know more about enabling community groups, refer [managing enablement resources](/help/communities/resource.md). [](/help/communities/resource.md)
 
 ![](assets/assignmentcatalog.png)
 

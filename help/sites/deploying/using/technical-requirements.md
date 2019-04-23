@@ -226,7 +226,7 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 
 >[!NOTE]
 >
->See [Deploying Communities](/help/communities/using/deploy-communities.md) for additional information regarding the AEM Communities capability.
+>See [Deploying Communities](/help/communities/deploy-communities.md) for additional information regarding the AEM Communities capability.
 
 >[!NOTE]
 >

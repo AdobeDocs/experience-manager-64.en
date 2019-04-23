@@ -122,13 +122,13 @@ The Sites properties control how the translation of page content is performed.
 
 ### Communities Configuration Properties {#communities-configuration-properties}
 
-Communities properties control how the translation of user-generated content is performed. The translation of user-generated content always uses machine translation. For more information, see [Translating User Generated Content](/help/communities/using/translate-ugc.md).
+Communities properties control how the translation of user-generated content is performed. The translation of user-generated content always uses machine translation. For more information, see [Translating User Generated Content](/help/communities/translate-ugc.md).
 
 | Property |Description |
 |---|---|
 | Translation Provider |Select the translation provider to perform the translation. The provider for which cloud configurations are created appear in the list. |
 | Content Category |A category that describes the content that you are translating. The category can affect the choice of terminology and phrasing when translating content. |
-| Choose A Locale To Use As The Global Share Store |(Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](/help/communities/using/sites-console.md#translation) for the website. Choosing No Common Store will disable global translation. By default, global translation is disabled. |
+| Choose A Locale To Use As The Global Share Store |(Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](/help/communities/sites-console.md#translation) for the website. Choosing No Common Store will disable global translation. By default, global translation is disabled. |
 
 ### Assets Configuration Properties {#assets-configuration-properties}
 
@@ -198,7 +198,7 @@ When you associate a page with a cloud configuration, the descendants of the pag
 
 When required, you can override the association on a descendent page. For example, the content of a web site is mostly about clothing. However, one branch of pages describes the company. The root page of the site is associated with a Translation Integration Framework that specifies machine translation using the Clothing category. The branch that describes the company uses a framework that performs machine translation using the General category.
 
-Further, for any communities [SCF components](/help/communities/using/scf.md) on the pages, the user generated content (UGC) will include the ability for users to translate content. For more information, see [Translation of User Generated Content](/help/communities/using/translate-ugc.md).
+Further, for any communities [SCF components](/help/communities/scf.md) on the pages, the user generated content (UGC) will include the ability for users to translate content. For more information, see [Translation of User Generated Content](/help/communities/translate-ugc.md).
 
 ### Associating a Page with a Translation Provider {#associating-a-page-with-a-translation-provider}
 

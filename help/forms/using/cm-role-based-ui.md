@@ -24,7 +24,7 @@ For more information on groups, permissions, access control lists, and managing 
 
 1. Ensure that the user for which you want to manage the permissions is added to the relevant user group.
 
-   For example, the user John Doe is added to the groups `agents` and `cm-creditcard`. For more information, see Adding Users or Groups to a Group. For more information, see [Managing Users and User Groups](/help/communities/using/users.md).
+   For example, the user John Doe is added to the groups `agents` and `cm-creditcard`. For more information, see Adding Users or Groups to a Group. For more information, see [Managing Users and User Groups](/help/communities/users.md).
 
    ![]()
 

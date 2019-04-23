@@ -19,7 +19,7 @@ AEM provides a console for managing the various translations of texts used in co
 
 Use the translator tool to manage English strings and their translations. The dictionaries are created in the repository, for example /apps/myproject/i18n.
 
-Note that the Translator tool and the dictionaries that you manage are for presenting component UI in different languages. If you want to translate page or user generated content, see [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md) and [Translation of User Generated Content](/help/communities/using/translate-ugc.md).
+Note that the Translator tool and the dictionaries that you manage are for presenting component UI in different languages. If you want to translate page or user generated content, see [Translating Content for Multilingual Sites](/help/sites/administering/using/translation.md) and [Translation of User Generated Content](/help/communities/translate-ugc.md).
 
 >[!CAUTION]
 >

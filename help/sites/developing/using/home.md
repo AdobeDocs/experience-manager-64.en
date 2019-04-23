@@ -20,7 +20,7 @@ This guide covers all AEM Developing tasks, such as
 | [Release Notes](home.md)|This guide|
 | [Assets User Guide](home.md) | This guide  |
 | [Forms User Guide](/help/forms/home.md) | This guide |
-| [Communities User Guide](/help/communities/using/home.md) | This guide  |
+| [Communities User Guide](/help/communities/home.md) | This guide  |
 | [Administering Guide](/help/sites/administering/using/home.md) | This guide |
 | [Authoring Guide](/help/sites/authoring/using/home.md) | This guide |
 | [Classic UI Authoring Guide](/help/sites/classic-ui-authoring/using/home.md) | This guide  |

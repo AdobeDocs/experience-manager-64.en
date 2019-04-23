@@ -55,7 +55,7 @@ For information about integrating your AEM site and ExactTarget, see [Configurin
 
 Facebook and Twitter are popular social networking services. AEM's integration with Facebook and Twitter enables organizations to provide a Facebook or Twitter login option on owned digital properties, and then personalize the user experience based on profile information. Marketers can also combine profile information with data from additional sources, such as a customer relationship management system or a website profile, to create a unified view of the customer.
 
-See [Social Login](/help/communities/using/social-login.md) for more information.
+See [Social Login](/help/communities/social-login.md) for more information.
 
 ## Integrating with Other Providers {#integrating-with-other-providers}
 

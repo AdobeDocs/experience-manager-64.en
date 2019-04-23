@@ -70,7 +70,7 @@ Following are the steps necessary to enable user synchronization, followed by a 
 1. Ensure the latest code has been installed:
 
 * [AEM platform updates](https://helpx.adobe.com/experience-manager/kb/aem62-available-hotfixes.html)
-* [AEM Communities updates](/help/communities/using/deploy-communities.md#latest-releases)
+* [AEM Communities updates](/help/communities/deploy-communities.md#latest-releases)
 
 ### 1. Apache Sling Distribution Agent - Sync Agents Factory {#apache-sling-distribution-agent-sync-agents-factory}
 

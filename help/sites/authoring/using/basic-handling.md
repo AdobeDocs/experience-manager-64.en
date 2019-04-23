@@ -84,7 +84,7 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Communities</td> 
-   <td>This console allows you to create and manage <a href="/help/communities/using/sites-console.md">community sites</a> for <a href="/help/communities/using/overview.md#engagement-community">engagement</a> and <a href="/help/communities/using/overview.md#enablement-community">enablement</a>.</td> 
+   <td>This console allows you to create and manage <a href="/help/communities/sites-console.md">community sites</a> for <a href="/help/communities/overview.md#engagement-community">engagement</a> and <a href="/help/communities/overview.md#enablement-community">enablement</a>.</td> 
   </tr>
   <tr>
    <td>Commerce</td> 

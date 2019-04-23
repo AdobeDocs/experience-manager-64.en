@@ -33,7 +33,7 @@ Consider the features of AEM that you will be using, and the impact on your desi
 * [Tags](/help/sites/administering/using/tags.md)
 * [Multi Site Management and Translation](/help/sites/administering/using/msm-and-translation.md)
 * [Forms](/help/forms/home.md)
-* [Communities](/help/communities/using/deploy-communities.md)
+* [Communities](/help/communities/deploy-communities.md)
 * [Livefyre](https://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/livefyre-for-adobe-experience-manager/)
 
 In addition check the [Release Notes](/help/release-notes/release-notes.md), for the various versions of AEM, to see when any new features were added.
