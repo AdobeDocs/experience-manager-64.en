@@ -31,7 +31,7 @@ Using any one of these templates allows you to create an intuitive and interacti
 
 >[!NOTE]
 >
->To learn in-depth about creating channels and displays, see [Managing Channels](/help/screens/managing-channels.md) and [Managing Displays](/sites-authoring/managing-displays.md) respectively in Authoring Screens.
+>To learn in-depth about creating channels and displays, see [Managing Channels](/help/screens/managing-channels.md) and <!-- FAIL [Managing Displays](/sites-authoring/managing-displays.md)--> respectively in Authoring Screens.
 
 ## Use Case Description {#use-case-description}
 

@@ -64,11 +64,11 @@ While creating a new project, different functions may overlap depending on your 
 1. [Create and Manage Locations](managing-locations.md)
 1. [Create and Manage Displays](managing-displays.md)
 1. [Assign Channels](channel-assignment.md)
-1. [Manage Devices](managing-devices.html)
-1. [Create and Manage Schedules](managing-schedules.html)
-1. [AEM Screens Player](working-with-screens-player.html)  
+1. <!-- FAIL [Manage Devices](managing-devices.html)-->
+1. <!-- FAIL [Create and Manage Schedules](managing-schedules.html)-->
+1. <!-- FAIL [AEM Screens Player](working-with-screens-player.html)-->  
 1. [Troubleshoot Device Control Center](monitoring-screens.md)
 
 ### Related Resources {#related-resources}
 
-View [Understanding AEM Screens](screens-concepts-feature-video-understand.html), as an additional resource including videos to introduce different areas of an AEM Screens project.  
+View <!-- FAIL [Understanding AEM Screens](screens-concepts-feature-video-understand.html),--> as an additional resource including videos to introduce different areas of an AEM Screens project.  

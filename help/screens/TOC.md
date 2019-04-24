@@ -44,7 +44,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Multi-zone Layout](multi-zone-layout-aem-screens.md)
     + [Video Renditions](generating-renditions.md)
     + [Using Dynamic Embedded Sequence](dynamic-embedded-sequences.md)
-    + [Configuring Author and Publish](author-and-pubblish.md)
+    + [Configuring Author and Publish](author-and-publish.md)
 + Developing {developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -54,7 +54,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Use Case Examples {use-case-examples}
     + [Emergency Channels](emergency-channel.md)
-    + [Data Triggered Asset Change](data-trigerred-asset-change.md)
+    <!-- FAIL + [Data Triggered Asset Change](data-trigerred-asset-change.md)-->
 + Troubleshooting {troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)
