@@ -41,7 +41,7 @@ Members of the app-author group are responsible for authoring AEM mobile applica
 
    Add app-authors to the Authors group
 
-1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](/libs/granite/security/content/useradmin.md).
+1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](http://localhost:4502/libs/granite/security/content/useradmin.md).
 
    ![](assets/chlimage_1-168.png)
 
