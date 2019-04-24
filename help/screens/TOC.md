@@ -44,7 +44,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Multi-zone Layout](multi-zone-layout-aem-screens.md)
     + [Video Renditions](generating-renditions.md)
     + [Using Dynamic Embedded Sequence](dynamic-embedded-sequences.md)
-    + [Configuring Author and Publish](author-and-pubblish.md)
+    + [Configuring Author and Publish](author-and-publish.md)
 + Developing {developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)

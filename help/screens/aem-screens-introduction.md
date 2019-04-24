@@ -71,4 +71,4 @@ While creating a new project, different functions may overlap depending on your 
 
 ### Related Resources {#related-resources}
 
-View [Understanding AEM Screens](screens-concepts-feature-video-understand.html), as an additional resource including videos to introduce different areas of an AEM Screens project.  
+View <!-- FAIL [Understanding AEM Screens](screens-concepts-feature-video-understand.html),--> as an additional resource including videos to introduce different areas of an AEM Screens project.  
