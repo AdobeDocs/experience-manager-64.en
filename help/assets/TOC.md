@@ -77,8 +77,10 @@ user-guide-title: AEM 6.4 Assets User Guide
     + [Managing Content Fragments](content-fragments-managing.md)
     + [Content Fragment Models](content-fragments-models.md)
     + [Variations - Authoring Fragment Content](content-fragments-variations.md)
-    + [Associated Content](content-fragments-assoc-content.md)
+    + [Content Fragment Associated Content](content-fragments-assoc-content.md)
     + [Metadata - Fragment Properties](content-fragments-metadata.md)
+    + [Content Fragments - Delete Considerations](content-fragments-delete.md)
+    + [Content Fragments - Markdown](content-fragments-markdown.md)
 + Managing Assets {#managing}
     + [Asset Selector](asset-selector.md)
     + [Creating Translation Projects for Content Fragments](creating-translation-projects-for-content-fragments.md)
