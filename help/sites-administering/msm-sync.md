@@ -209,7 +209,7 @@ The following table lists the synchronization actions that are installed with AE
   </tr> 
   <tr> 
    <td>VersionCopyAction</td> 
-   <td>If the source page has been published at least once, update the live copy using the version that is published. </td> 
+   <td>If the blueprint/source page has been published at least once, creates a live copy page using the version that is published. Note: this action is only available for creating a live copy page based on a published source page, not for updating an existing live copy page. </td> 
    <td> </td> 
   </tr> 
   <tr> 
