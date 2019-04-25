@@ -88,14 +88,23 @@ To create an Experience Fragment:
    >
    >
    >**Only** editable templates can be used; static templates are not fully compatible.
+   >
+   > To create an experience fragment template that is detected by the Create Experience Fragment wizard, you must follow one of these rule sets:
+   > * **Both:**
+   > The resource type of the template (the initial node) must inherit from: cq/experience-fragments/components/xfpage
+   > **And:** 
+   > the name of the template must begin with: 
+   > experience-fragments
+   > This allows users to create experience fragments in /content/experience-fragments as the cq:allowedTemplates property of this folder includes all the templates that have names beginning with experience-fragment. Customers can update this property to include their own naming scheme or template locations.
+   > * Add the template details manually in cq:allowedTemplates on the /content/experience-fragment node.
 
-1. Enter the **Properties** for your **Experience Fragment**.
+2. Enter the **Properties** for your **Experience Fragment**.
 
    A **Title** is mandatory. If the **Name** is left blank it will be derived from the **Title**.
 
    ![](assets/xf-authoring-03.png)
 
-1. Click **Create**.
+3. Click **Create**.
 
    A message will be displayed. Select:
 
