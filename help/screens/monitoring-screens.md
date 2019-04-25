@@ -51,7 +51,7 @@ Check the **Device Details** panel to view the device IP, Storage usage, firmwar
 
 ![](assets/chlimage_1-55.png)
 
-Additionally, click **Clear cache** and **Update** to clear the cache of your device and update the [firmware](/help/screens/screens-glossary.md) version respectively from this panel.
+Additionally, click **Clear cache** and **Update** to clear the cache of your device and update the [firmware](screens-glossary.md) version respectively from this panel.
 
 Also, click the **...** from the top right corner of the **Device Details** panel to restart or refresh the status of your player.
 
@@ -71,7 +71,7 @@ Click **Properties** to view the **Device Properties** dialog box. You can edit 
 
 >[!NOTE]
 >
->To learn more about the events associated with device's automatic or manual updates, see the section ***Automatic versus Manual Updates from the Device Dashboard*** in [Managing Channels](/help/screens/managing-channels.md).
+>To learn more about the events associated with device's automatic or manual updates, see the section ***Automatic versus Manual Updates from the Device Dashboard*** in [Managing Channels](managing-channels.md).
 
 ![](assets/chlimage_1-59.png) 
 
@@ -89,7 +89,7 @@ The **PREFERENCES** panel allows the user to change preferences for **Admin UI**
 
 >[!NOTE]
 >
->To learn more on these option, See [AEM Screens Player](/help/sites-authoring/working-with-screens-player.md).
+>To learn more on these option, See [AEM Screens Player](working-with-screens-player.md).
 
 ![](assets/chlimage_1-61.png)
 
@@ -133,4 +133,4 @@ It is recommended to deploy the Player hardware and OS in a way that allows remo
 
 #### Additional Resources {#additional-resources}
 
-See [Video Playback Configuration and Troubleshooting](/help/screens/troubleshoot-videos.md) to debug and troubleshoot videos playing in your channel.
+See [Video Playback Configuration and Troubleshooting](troubleshoot-videos.md) to debug and troubleshoot videos playing in your channel.

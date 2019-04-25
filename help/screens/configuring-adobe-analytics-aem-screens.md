@@ -24,8 +24,8 @@ This section covers the following topics:
 
 * **Sequencing in Adobe Analytics with AEM Screens**
 * **Sending Custom Events Using Offline Adobe Analytics**
-* **Request Mapping  
-  **
+* **Request Mapping** 
+  
 
 ## Sequencing in Adobe Analytics with AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 

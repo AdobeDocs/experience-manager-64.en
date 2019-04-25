@@ -23,7 +23,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Adobe Analytics Integration with AEM Screens](adobe-analytics-integration-aem-screens.md)
     + [Transitioning from ContentSync to SmartSync](smartsync.md)
     + [Author and Publish Architectural Overview](author-publish-architecture-overview.md)
-+ Authoring {authoring}
++ Authoring {#authoring}
     + [Creating and Managing Projects](creating-a-screens-project.md)
     + [Creating and Managing Channels](managing-channels.md)
     + [Creating and Managing Displays](managing-displays.md)
@@ -45,20 +45,20 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
     + [Video Renditions](generating-renditions.md)
     + [Using Dynamic Embedded Sequence](dynamic-embedded-sequences.md)
     + [Configuring Author and Publish](author-and-publish.md)
-+ Developing {developing}
++ Developing {#developing}
     + [REST APIs](rest-api.md)
     + [Developing a Custom Component for AEM Screens](developing-custom-component-tutorial-develop.md)
     + [Offline Channels](offline-channels.md)
     + [Extending an AEM Screens Component](extending-component-tutorial-develop.md)
     + [Creating Components](creating-components.md)
     + [Configuring Adobe Analytics with AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Use Case Examples {use-case-examples}
++ Use Case Examples {#use-case-examples}
     + [Emergency Channels](emergency-channel.md)
-    <!-- FAIL + [Data Triggered Asset Change](data-trigerred-asset-change.md)-->
-+ Troubleshooting {troubleshooting}
+    + [Data Triggered Asset Change](data-trigerred-asset-change.md)
++ Troubleshooting {#troubleshooting}
     + [AEM Screens FAQs](aem-screens-faqs.md)
     + [Troubleshooting Device Control Center](monitoring-screens.md)
     + [Video Playback Configuration](troubleshoot-videos.md)
-+ Release Notes {release-notes}
++ Release Notes {#release-notes}
     + [Release Notes for Feature Pack 201809](screens-release-notes.md)
     + [Release Notes for Feature Pack 201812](release-notes-fp-201812.md)

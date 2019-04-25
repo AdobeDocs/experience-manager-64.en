@@ -16,12 +16,11 @@ noindex: true
 
 The following page describes the usage of multi-zone layout and covers the following topics:
 
-* [Overview](/help/screens/multi-zone-layout-aem-screens.md#overview)
-* [Creating Multi-zone Layout](/help/screens/multi-zone-layout-aem-screens.md#creating-multi-zone-layout)
-
-    * [Prerequisites](/help/screens/multi-zone-layout-aem-screens.md#prerequisites)
-    * [Using Single Assets in one or more Zones](/help/screens/multi-zone-layout-aem-screens.md#using-single-assets-in-one-or-more-zones)
-    * [Using Sequenced Content in one or more Zones](/help/screens/multi-zone-layout-aem-screens.md#using-sequenced-content-in-one-or-more-zones)
+* Overview
+* Creating Multi-zone Layout
+* Prerequisites
+* Using Single Assets in one or more Zones
+* Using Sequenced Content in one or more Zones
 
 ## Overview {#overview}
 
@@ -107,7 +106,7 @@ If you want the zones to display sequence of images or content and a static imag
     
     1. Click **Edit** from the action bar to open the editor.  
     
-    1. Drag and drop the **Embedded Sequence **component to two of the zones, as shown in the figure below.
+    1. Drag and drop the **Embedded Sequence** component to two of the zones, as shown in the figure below.
 
    ![](assets/new.gif)
 

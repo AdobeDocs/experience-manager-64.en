@@ -23,13 +23,13 @@ The Release Date for AEM Screens Feature Pack 201812 is January 16, 2019.
 ### What's New {#what-s-new}
 
 * **Text Overlay on Assets in Channel**:  
-  Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Please refer to [**Text Overlay**](/help/screens/text-overlay.md) to learn more.
+  Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Please refer to [**Text Overlay**](text-overlay.md) to learn more.
 
 * **Multi-asset Scheduling**:  
-  Multi-asset Scheduling allows the user to select multiple assets and apply a playback schedule to all selected assets. Please refer to **Multi-Asset Scheduling **section in** [Asset Scheduling](/help/screens/asset-level-scheduling.md)** to learn more.
+  Multi-asset Scheduling allows the user to select multiple assets and apply a playback schedule to all selected assets. Please refer to **Multi-Asset Scheduling **section in** [Asset Scheduling](asset-level-scheduling.md)** to learn more.
 
 * **Multi-zone Layout**:  
-  Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images, and text that can be combined in a single screen. Please refer to ** [Multi-zone Layout](/help/screens/multi-zone-layout-aem-screens.md)** to learn more.
+  Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images, and text that can be combined in a single screen. Please refer to ** [Multi-zone Layout](multi-zone-layout-aem-screens.md)** to learn more.
 
 * **Smart Syncing of Assets to Players**
 * **Author/Publish deployment (Hardening)**

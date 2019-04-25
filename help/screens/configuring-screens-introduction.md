@@ -15,11 +15,10 @@ discoiquuid: a94d0891-d75f-482e-8d2a-e0cbf953a9de
 
 This page shows how to install and configure the Screens players on your devices and covers the following topics:
 
-* [Installing AEM Screens Player](/help/screens/configuring-screens-introduction.md#installing-aem-screens-player)
-* [Server Configuration](/help/screens/configuring-screens-introduction.md#server-configuration)
-* [Hardware Selection Guidelines for Player Device](#hardware-selection-guidelines-for-player-device)  
-
-* [The Next Steps](/help/screens/configuring-screens-introduction.md#the-next-steps)
+* Installing AEM Screens Player
+* Server Configuration
+* Hardware Selection Guidelines for Player Device
+* The Next Steps
 
 ## Installing AEM Screens Player {#installing-aem-screens-player}
 
@@ -41,10 +40,10 @@ To download **AEM Screens Player**, visit the [**AEM 6.4 Player Downloads**](htt
 
 Refer to the following topics for an in-depth information:
 
-* To download Android Player, visit **Google Play**. To learn about implementing Android Watchdog, please refer to ** [Implementing Android player](/help/screens/implementing-android-player.md)**.
+* To download Android Player, visit **Google Play**. To learn about implementing Android Watchdog, please refer to ** [Implementing Android player](implementing-android-player.md)**.
 
-* To implement Chrome OS Player, please refer to <!-- FAIL [**Chrome Management Console**](/screens/using/implementing-chrome-os-player.html?cq_ck=1513900475345) for more information. -->
-* To configure AEM Screens Windows player, please refer to [**Implementing Windows Player**](/help/screens/implementing-windows-player.md).
+* To implement Chrome OS Player, please refer to [Chrome Management Console](implementing-chrome-os-player.md) for more information.
+* To configure AEM Screens Windows player, please refer to [Implementing Windows Player](implementing-windows-player.md).
 
 ## Server Configuration {#server-configuration}
 
@@ -211,15 +210,15 @@ The following table summarizes the hardware configurations with typical use case
 
 Once you have installed and configured Screens player, follow the topics below to get started:
 
-1. [Create and Manage Screens Project](/help/screens/creating-a-screens-project.md)
-1. [Create and Manage Channels](/help/screens/managing-channels.md)
-1. [Create and Manage Locations](/help/screens/managing-locations.md)
-1. [Create and Manage Displays](/help/screens/managing-displays.md)
-1. [Assign Channels](/help/screens/channel-assignment.md)
-1. [Manage Devices](https://chl-auth/content/help/en/experience-manager/6-4/sites-authoring/managing-devices.html)
-1. [Registering a Device](/help/screens/device-registration.md)
-1. [Assign Devices](/help/screens/managing-devices.md)
-1. [Create and Manage Schedules](https://chl-author.corp./content/help/en/experience-manager/6-4/sites-authoring/managing-schedules.html)
-1. [AEM Screens Player](https://chl-author.corp.ad/content/help/en/experience-manager/6-4/sites-authoring/working-with-screens-player.html)  
-1. [Troubleshoot Device Control Center](/help/screens/monitoring-screens.md)
+1. [Create and Manage Screens Project](creating-a-screens-project.md)
+1. [Create and Manage Channels](managing-channels.md)
+1. [Create and Manage Locations](managing-locations.md)
+1. [Create and Manage Displays](managing-displays.md)
+1. [Assign Channels](channel-assignment.md)
+1. [Manage Devices](managing-devices.md)
+1. [Registering a Device](device-registration.md)
+1. [Assign Devices](managing-devices.md)
+1. [Create and Manage Schedules](managing-schedules.md)
+1. [AEM Screens Player](working-with-screens-player.md)  
+1. [Troubleshoot Device Control Center](monitoring-screens.md)
 
