@@ -261,6 +261,15 @@ For more information see the [SPA Blueprint document](/help/sites-developing/spa
 >
 >By default you receive the entire model of the component when using the `withModel` function.
 
+## Sharing Information Between SPA Components {sharing-information-between-spa-components}
+
+It is regularly necessary for components within a single-page application to share information. There are several recommended ways of doing this, listed as follows in increasing order of complexity.
+
+* **Option 1:** Centralize the logic and broadcast to the necessary components for example by using React Context.
+* **Option 2:** Share component states by using a state library such as Redux.
+* **Option 3:** Leverage the object hierarchy by customizing and extending the container component.
+
+
 ## Next Steps {#next-steps}
 
 For a step-by-step guide to creating your own SPA, see the [Getting Started with the AEM SPA Editor - WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).

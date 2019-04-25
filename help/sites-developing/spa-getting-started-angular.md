@@ -270,6 +270,14 @@ Finally the image can be rendered in `image.component.html`.
 <img [src]="src" [alt]="alt" [title]="title"/>
 ```
 
+## Sharing Information Between SPA Components {sharing-information-between-spa-components}
+
+It is regularly necessary for components within a single-page application to share information. There are several recommended ways of doing this, listed as follows in increasing order of complexity.
+
+* **Option 1:** Centralize the logic and broadcast to the necessary components for example by using a util class as a pure  object-oriented solution.
+* **Option 2:** Share component states by using a state library such as NgRx.
+* **Option 3:** Leverage the object hierarchy by customizing and extending the container component.
+
 ## Next Steps {#next-steps}
 
 For a step-by-step guide to creating your own SPA, see the [Getting Started with the AEM SPA Editor - WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).
