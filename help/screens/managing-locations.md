@@ -19,9 +19,9 @@ This page shows creating and managing locations for Screens.
 
 **Pre-requisites**:
 
-* [Configuring and Deploying Screens](/help/sites-deploying/configuring-screens-introduction.md)
-* [Creating and Managing Screens Project](/help/screens/creating-a-screens-project.md)
-* [Creating and Managing Channels](/help/screens/managing-channels.md)
+* [Configuring and Deploying Screens](configuring-screens-introduction.md)
+* [Creating and Managing Screens Project](creating-a-screens-project.md)
+* [Creating and Managing Channels](managing-channels.md)
 
 ## Creating a New Location {#creating-a-new-location}
 
@@ -55,4 +55,4 @@ To edit/access the properties of a location:
 
 Once you create a location, you have to create a new display for your location.
 
-See [Creating and Managing Displays](/help/screens/managing-displays.md) for more details.
+See [Creating and Managing Displays](managing-displays.md) for more details.

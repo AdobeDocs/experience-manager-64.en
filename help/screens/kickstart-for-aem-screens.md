@@ -23,9 +23,9 @@ The following steps allow you to create a sample project for Screens and publish
 
    AEM Screens is also available in **Google Play**.
 
-   For implementation of Chrome OS Player, see <!-- FAIL [**Chrome Management Console**](/screens/using/implementing-chrome-os-player.html?cq_ck=1513900475345) for more information. -->
+   For implementation of Chrome OS Player, see [Chrome Management Console](implementing-chrome-os-player.md) for more information.
 
-   See [Installing and Configuring Screens](/help/sites-deploying/configuring-screens-introduction.md) for more details.
+   See [Installing and Configuring Screens](configuring-screens-introduction.md) for more details.
 
    >[!NOTE]
    >
@@ -45,7 +45,7 @@ The following steps allow you to create a sample project for Screens and publish
    >    
    >    
    >
-   >To learn more about the preceding steps in details, refer to the ***Prerequisites*** section in [Configuring and Deploying AEM Screens](/help/screens/configuring-screens-introduction.md).
+   >To learn more about the preceding steps in details, refer to the ***Prerequisites*** section in [Configuring and Deploying AEM Screens](configuring-screens-introduction.md).
 
 1. **Creating a new project**
 
@@ -66,7 +66,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![](assets/screen_shot_2019-03-04at85952am.png)
 
-   See [Create and Manage Screens Project](/help/screens/creating-a-screens-project.md) for more details.
+   See [Create and Manage Screens Project](creating-a-screens-project.md) for more details.
 
 1. **Creating a new channel**
 
@@ -87,7 +87,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![](assets/screen_shot_2019-03-04at90346am.png)
 
-   See [Channel Management](/help/screens/managing-channels.md) for more details on creating and managing channels.
+   See [Channel Management](managing-channels.md) for more details on creating and managing channels.
 
 1. **Adding Content to a Channel**
 
@@ -144,7 +144,7 @@ The following steps allow you to create a sample project for Screens and publish
     
     1. Click **Create**.
 
-   A new display (*TestDisplay*) is added to your location *TestLocation)*, as shown in the figure below.
+   A new display *TestDisplay* is added to your location *TestLocation*, as shown in the figure below.
 
    ![](assets/screen_shot_2019-03-04at91341am.png)
 
@@ -171,7 +171,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![](assets/chlimage_1-65.png)
 
-   See [Create and Manage Schedules](https://chl-author.corp./content/help/en/experience-manager/6-4/sites-authoring/managing-schedules.html) to get detailed information on schedules.
+   See [Create and Manage Schedules](managing-schedules.html) to get detailed information on schedules.
 
 1. **Assigning a channel**
 
@@ -197,7 +197,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![](assets/screen_shot_2019-03-04at92423am.png)
 
-   To learn more about **Channel Assignment** dialog box and the properties associated with it, see [Channel Assignment.](/help/screens/channel-assignment.md)
+   To learn more about **Channel Assignment** dialog box and the properties associated with it, see [Channel Assignment.](channel-assignment.md)
 
 1. **Adding Schedule to a Channel**
 
@@ -230,7 +230,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    >[!NOTE]
    >
-   >If you are using AEM Screens Player as a ChromeOS extension, refer to the query under ***How to Install ChromeOS player as Chrome Browser Plugin*** in [AEM Screens FAQs](/help/screens/aem-screens-faqs.md) page.
+   >If you are using AEM Screens Player as a ChromeOS extension, refer to the query under ***How to Install ChromeOS player as Chrome Browser Plugin*** in [AEM Screens FAQs](aem-screens-faqs.md) page.
 
    ![](assets/screen_shot_2019-03-04at94604am.png)
 
@@ -283,22 +283,21 @@ Once you have added the above configurations, the player should automatically sh
 
 ![](assets/screen_shot_2019-03-04at95334am.png)
 
-See [AEM Screens Player](https://chl-author.corp.ad/content/help/en/experience-manager/6-4/sites-authoring/working-with-screens-player.html), to get more detailed information on AEM Screens player.
+See [AEM Screens Player](working-with-screens-player.md), to get more detailed information on AEM Screens player.
 
 ### Additional Resources {#additional-resources}
 
 For in-depth understanding for all the modules for Screens, see the resources below:
 
-1. [Install and Configure Screens](/help/sites-deploying/configuring-screens-introduction.md)
-1. [Create and Manage Screens Project](/help/screens/creating-a-screens-project.md)
-1. [Assign Devices](/help/screens/managing-devices.md)
-1. [Create and Manage Channels](/help/screens/managing-channels.md)
-1. [Create and Manage Locations](/help/screens/managing-locations.md)
-1. [Create and Manage Displays](/help/screens/managing-displays.md)
-1. [Assign Channels](/help/screens/channel-assignment.md)
-1. [Manage Devices](https://chl-auth/content/help/en/experience-manager/6-4/sites-authoring/managing-devices.html)
-1. [Create and Manage Schedules](https://chl-author.corp./content/help/en/experience-manager/6-4/sites-authoring/managing-schedules.html)
-1. [AEM Screens Player](https://chl-author.corp.ad/content/help/en/experience-manager/6-4/sites-authoring/working-with-screens-player.html)  
-
-1. [Troubleshoot Device Control Center](/help/screens/monitoring-screens.md)
+1. [Install and Configure Screens](configuring-screens-introduction.md)
+1. [Create and Manage Screens Project](creating-a-screens-project.md)
+1. [Assign Devices](managing-devices.md)
+1. [Create and Manage Channels](managing-channels.md)
+1. [Create and Manage Locations](managing-locations.md)
+1. [Create and Manage Displays](managing-displays.md)
+1. [Assign Channels](channel-assignment.md)
+1. [Manage Devices](managing-devices.md)
+1. [Create and Manage Schedules](managing-schedules.md)
+1. [AEM Screens Player](working-with-screens-player.md)  
+1. [Troubleshoot Device Control Center](monitoring-screens.md)
 
