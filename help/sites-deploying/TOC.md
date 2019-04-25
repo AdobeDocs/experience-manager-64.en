@@ -27,8 +27,6 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Oak-run.jar Indexing Use Cases](oak-run-indexing-usecases.md)
     + [Troubleshooting Oak Indexes](troubleshooting-oak-indexes.md)
     + [Opting Into Aggregated Usage Statistics Collection](opt-in-aggregated-usage-statistics.md)
-    + [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)
-    + [Device Control Center](device-control-center.md)
     + [Maintenance Release Vehicle Definitions](maintenance-release-vehicle-definitions.md)
     + [Troubleshooting](troubleshooting.md)
 + Configuring AEM {#configuring}
@@ -97,6 +95,8 @@ user-guide-title: AEM 6.4 Deploying Guide
    + [User Interface Recommendations for Customers](ui-recommendations.md)
    + [Performance & Scalability](performance.md)
 + Deleted section Remove duplicates and move others to sections above {#deleted}
+    + [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)<!--+to be removed-->
+    + [Device Control Center](device-control-center.md)<!--+to be removed-->
     + [Performance](performance-lp.md) <!--+deactivated on helpx-->
     + [Scaling](scaling.md) <!--+deactivated on helpx-->
     + [(Redirect)Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
