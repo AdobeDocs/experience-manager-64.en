@@ -100,13 +100,13 @@ To create an Experience Fragment:
    > **OR**
    > Add the template details manually in cq:allowedTemplates on the /content/experience-fragment node.
 
-2. Enter the **Properties** for your **Experience Fragment**.
+1. Enter the **Properties** for your **Experience Fragment**.
 
    A **Title** is mandatory. If the **Name** is left blank it will be derived from the **Title**.
 
    ![](assets/xf-authoring-03.png)
 
-3. Click **Create**.
+1. Click **Create**.
 
    A message will be displayed. Select:
 
