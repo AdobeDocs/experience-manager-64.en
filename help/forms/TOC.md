@@ -14,17 +14,17 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Introduction to managing forms](using/introduction-managing-forms.md)
   + [Introduction to authoring adaptive forms](using/introduction-forms-authoring.md)
   + [Interactive Communications overview](using/interactive-communications-overview.md)
-  + [Tutorials] {#tutorials}
+  + Tutorials {#tutorials}
     + [Tutorial: Create your first adaptive form](https://helpx.adobe.com/experience-manager/6-3/forms/using/create-your-first-adaptive-form.html)
     + [Tutorial: Create your first Interactive Communication](using/create-your-first-interactive-communication.md)
 + Installation {#install-aem-forms}
   + [Architecture and deployment topologies for AEM Forms](using/aem-forms-architecture-deployment.md)
   + [Choosing a persistence type for an AEM Forms installation](using/choosing-persistence-type-for-aem-forms.md)
-  + [OSGi] {#osgi-installation}
+  + OSGi {#osgi-installation}
     + [Technical requirements](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)
     + [Install and configure data capture capabilities](using/installing-configuring-aem-forms-osgi.md)
     + [Install and configure document services](using/install-configure-document-services.md)
-  + [JEE] {#jee-installation}
+  + JEE {#jee-installation}
     + [Supported platforms for AEM forms on JEE](using/AEM-forms-JEE-supported-platforms.md)
     + [Preparing to install AEM Forms single server](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64)
     + [Preparing to install AEM Forms server cluster](http://www.adobe.com/go/learn_aemforms_prepareInstallcluster_64)
@@ -41,8 +41,8 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Upgrade to AEM Forms 6.4](using/upgrade.md)
   + [Migrate AEM Forms assets and documents](using/migration-utility.md)
   + [Compatibility Package](using/compatibility-package.md)
-  + [OSGi] {#osgi-upgrade}
-  + [JEE] {#jee-upgrade}
+  + OSGi {#osgi-upgrade}
+  + JEE {#jee-upgrade}
     + [Prepare to upgrade AEM Forms](http://www.adobe.com/go/learn_aemforms_prepareupgrade_64)
     + [Upgrade checklist and planning](http://www.adobe.com/go/learn_aemforms_upgrade_checklist_64)
     + [Upgrading to AEM Forms on JEE for JBoss](http://www.adobe.com/go/learn_aemforms_upgradeJBoss_64)
