@@ -99,7 +99,7 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Demandware](demandware.md)
     + [Digital River](digital-river.md)
     + [AEM Commerce - GDPR Readiness](gdpr-compliance-commerce.md)
-+ Integration {#Integration}
++ Integration {#integration}
     + [Integrating with Third-Party Services](third-party-services.md)
     + [Integrating with Adobe Analytics](adobeanalytics.md)
     + [Integrating with Salesforce](salesforce.md)

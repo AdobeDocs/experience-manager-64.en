@@ -45,7 +45,7 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Offloading Jobs](offloading.md)
     + [Single Sign On](single-sign-on.md)
     + [Resource Mapping](resource-mapping.md)
-    + [Enabling HTTP Over SSL](ssl-by-default.md)
+    + [Enabling HTTP Over SSL](/help/sites-administering/ssl-by-default.md)
     + [Consistency and Traversal Checks](consistency-check.md)
     + [Performance Guidelines](performance-guidelines.md)
     + [Performance Optimization](configuring-performance.md)
