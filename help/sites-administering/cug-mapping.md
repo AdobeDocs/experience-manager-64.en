@@ -1,8 +1,8 @@
 ---
-title: Custom User Group Mapping in AEM 6.3
-seo-title: Custom User Group Mapping in AEM 6.3
-description: Lear how Custom User Group Mapping works in AEM.
-seo-description: Lear how Custom User Group Mapping works in AEM.
+title: Custom User Group Mapping in AEM 6.4
+seo-title: Custom User Group Mapping in AEM 6.4
+description: Learn how Custom User Group Mapping works in AEM.
+seo-description: Learn how Custom User Group Mapping works in AEM.
 page-status-flag: de-activated
 uuid: 08b220ea-2df2-4d32-9d2f-82c32cf2d849
 contentOwner: User
@@ -12,7 +12,7 @@ content-type: reference
 discoiquuid: 3c2e952f-185e-451c-8abb-324b44b10ee3
 ---
 
-# Custom User Group Mapping in AEM 6.3{#custom-user-group-mapping-in-aem}
+# Custom User Group Mapping in AEM 6.4 {#custom-user-group-mapping-in-aem}
 
 ## Comparison of JCR Content related to CUG {#comparison-of-jcr-content-related-to-cug}
 
@@ -20,7 +20,7 @@ discoiquuid: 3c2e952f-185e-451c-8abb-324b44b10ee3
  <tbody> 
   <tr> 
    <td><strong>Older AEM Versions</strong></td> 
-   <td><strong>AEM 6.3</strong></td> 
+   <td><strong>AEM 6.4</strong></td> 
    <td><strong>Comments</strong></td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ discoiquuid: 3c2e952f-185e-451c-8abb-324b44b10ee3
  <tbody> 
   <tr> 
    <td><strong>Older AEM Versions</strong></td> 
-   <td><strong>AEM 6.3</strong></td> 
+   <td><strong>AEM 6.4</strong></td> 
    <td><strong>Comments</strong></td> 
   </tr> 
   <tr> 
@@ -129,4 +129,3 @@ discoiquuid: 3c2e952f-185e-451c-8abb-324b44b10ee3
   </tr> 
  </tbody> 
 </table>
-

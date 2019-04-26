@@ -18,7 +18,7 @@ discoiquuid: 920e9702-82f7-4495-a84e-22a1c8b0d559
 
 Get up and running with a simple digital signage experience, using [Kickstart for AEM Screens](kickstart-for-aem-screens.md).
 
-### Overview {#overview}
+## Overview {#overview}
 
 **AEM Screens** is built on the solid foundation of ***AEM Sites*** and enables marketers and IT personnel to create and manage experiences on multiple digital screens that impact in-store/in-venue goals for building brand and driving demand. Integration of AEM Screens with Sites allows you to re-use already existing content and effectively deliver a coherent and consistent customer solution. This provides a streamlined workflow to create dedicated digital experiences that are highly cost-effective and usable. It further helps to influence brand perception and impact decisions leading to upliftment in purchase and engagement.
 
@@ -28,13 +28,13 @@ Creating and managing an application using Screens is simple and intuitive. An *
 
 *To understand the key terminologies associated with AEM Screens, see [Glossary](screens-glossary.md).*
 
-### Architecture of Screens Player {#architecture-of-screens-player}
+## Architecture of Screens Player {#architecture-of-screens-player}
 
 The following diagram shows the general architecture of the AEM Screens player:
 
 ![](assets/chlimage_1-40.png) 
 
-### Create a Digital Signage Experience in 5 minutes {#create-a-digital-signage-experience-in-minutes}
+## Create a Digital Signage Experience in 5 minutes {#create-a-digital-signage-experience-in-minutes}
 
 To create a demo Screens project and publish your content in Screens player, see [Kickstart for AEM Screens](kickstart-for-aem-screens.md).
 
