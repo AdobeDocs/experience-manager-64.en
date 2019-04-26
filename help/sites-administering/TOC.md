@@ -67,7 +67,7 @@ user-guide-title: AEM 6.4 Administering User Guide
     + [Mitigating serialization issues in AEM](mitigating-serialization-issues.md)
     + [User Synchronization](sync.md)
     + [Encapsulated Token Support](encapsulated-token.md)
-    + [Single Sign On](/help/sites/deploying/using/single-sign-on.md)
+    + [Single Sign On](single-sign-on.md)
     + [How to Audit User Management Operations in AEM](audit-user-management-operations.md)
     + [SSL By Default](ssl-by-default.md)
     + [SAML 2.0 Authentication Handler](saml-2-0-authenticationhandler.md)
