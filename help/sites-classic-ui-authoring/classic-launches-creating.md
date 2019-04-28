@@ -16,7 +16,7 @@ legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 
 Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page:
 
-* The title appears in the [Sidekick](/help/sites-classic-ui-authoring/author-env-basic-handling.md#sidekick), from where authors can access them to work on them.
+* The title appears in the **Sidekick**, from where authors can access them to work on them.
 * The child pages of the source page are included in the launch by default. You can use only the source page if desired. 
 * By default, [Live Copy](/help/sites-administering/msm.md) automatically updates the launch pages as the source pages change. You can specify that a static copy is created to prevent automatic changes.
 
@@ -27,8 +27,8 @@ Optionally, you can specify the **Launch Date** (and time) to define when the la
 The following procedure creates a launch.
 
 1. Open the Website administration page ([http://localhost:4502/siteadmin](http://localhost:4502/siteadmin)). 
-1. Click **New...** then **New Launch...**.
-1. In the **Create Launch** dialog, specify values for the following properties:
+2. Click **New...** then **New Launch...**.
+3. In the **Create Launch** dialog, specify values for the following properties:
 
     * **Launch Title**: The name of the Launch. The name should be meaningful for authors.
     * **Source Page**: The path to the page for which to create the launch. By default, all child pages are included.
@@ -39,7 +39,7 @@ The following procedure creates a launch.
 
    ![](assets/chlimage_1-99.png)
 
-1. Click **Create**.
+4. Click **Create**.
 
 ## Deleting a Launch {#deleting-a-launch}
 
