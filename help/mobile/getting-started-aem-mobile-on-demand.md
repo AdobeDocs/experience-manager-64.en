@@ -93,9 +93,9 @@ An AEM author must understand the following topics, while creating an app using 
 
 * [AEM Mobile Application Dashboard](/help/mobile/mobile-apps-ondemand-application-dashboard.md)
 * [Application Create and Configuration Actions](/help/mobile/mobile-apps-ondemand-application-create-configure-action.md)
-* [Cloud Configuration](/help/mobile/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
+* [Cloud Configuration](/help/mobile/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
 * [Managing Content](/help/mobile/mobile-apps-ondemand-manage-content-ondemand.md)
-* [Content Services Overview](/mobile/using/content-as-a-service.md)
+* [Content Services Overview](/help/mobile/develop-content-as-a-service.md)
 
 To get started with an Author's roles and responsibilities, See [Authoring AEM Content for AEM Mobile On-Demand Services App](/help/mobile/mobile-apps-ondemand.md).
 

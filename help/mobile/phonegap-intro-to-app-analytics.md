@@ -19,7 +19,7 @@ discoiquuid: 377548fa-987a-4a59-84a3-067a3541b6b2
 
 You want to drive higher customer conversions and loyalty.
 
-You want to deliver relevent and engaging experiences to your customers.
+You want to deliver relevant and engaging experiences to your customers.
 
 What is your AEM Mobile app doing for your marketing campaigns?
 
@@ -52,7 +52,7 @@ Finally, [AEM Administrators](#administrators)* *learn to:
 
 **Prerequisite:** AEM administrators need to configure the Adobe Mobile Services cloud config, [as discussed below](#amscloudserviceconfig).
 
-Developers are responsible for [adding analytics to an AEM Mobile app](/content/docs/en/aem/6-3/develop/mobile-apps/apps/add-analytics-to-apps.md) as necessary to track, report and understand how you users engage with your mobile app content and to measure key lifecycle metrics such as launches, time in app, and crash rate.
+Developers are responsible for [adding analytics to an AEM Mobile app](/help/mobile/phonegap-add-analytics-to-apps.md) as necessary to track, report and understand how you users engage with your mobile app content and to measure key lifecycle metrics such as launches, time in app, and crash rate.
 
 ## For Administrators - Configure the Adobe Mobile Services Cloud Service {#for-administrators-configure-the-adobe-mobile-services-cloud-service}
 
@@ -104,9 +104,9 @@ Now that the mobile app has access to the ADBMobileConfig.json file it has the k
 
 ## What's Next? {#what-s-next}
 
-1. [Start my AEM Mobile app experience](/content/docs/en/aem/6-3/develop/mobile-apps/starting-a-new-aem-mobile-app.md)
-1. [Manage my app's content](/content/docs/en/aem/6-3/develop/mobile-apps/manage-my-apps-content.md)
-1. [Build my application](/content/docs/en/aem/6-3/author/authoring-mobile-apps/build-app-through-adobe-phonegap-build-cloud-service.md)
+1. [Start my AEM Mobile app experience](/help/mobile/starting-aem-phonegap-app.md)
+1. [Manage my app's content](/help/mobile/phonegap-manage-app-content.md)
+1. [Build my application](/help/mobile/building-app-mobile-phonegap.md)
 1. [Track my app's performance with Adobe Mobile Analytics](/help/mobile/phonegap-intro-to-app-analytics.md)
-1. [Deliver a personalized app experience with Adobe Target](/content/docs/en/aem/6-3/develop/mobile-apps/apps/aem-mobile-content-personalization.md)
-1. [Send important messages to my users](/content/docs/en/aem/6-3/develop/mobile-apps/apps/push-notifications.md)
+1. [Deliver a personalized app experience with Adobe Target](/help/mobile/phonegap-aem-mobile-content-personalization.md)
+1. [Send important messages to my users](/help/mobile/phonegap-push-notifications.md)

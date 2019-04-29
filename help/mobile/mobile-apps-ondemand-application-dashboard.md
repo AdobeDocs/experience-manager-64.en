@@ -11,7 +11,7 @@ topic-tags: authoring-on-demand-services-app
 discoiquuid: 42a38399-f5a7-4d2f-aa6a-d409a7ec60f7
 ---
 
-# AEM Mobile Application Dashboard{#aem-mobile-application-dashboard}
+# AEM Mobile Application Dashboard {#aem-mobile-application-dashboard}
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ The **Manage Connection** tile displays the AEM Mobile On-Demand Services connec
 >
 >Click the gear in the top right to setup a Mobile On-Demand Cloud configuration.
 >
->See [Configuring Mobile On-Demand Services](/help/mobile/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md) for details.
+>See [Configuring Mobile On-Demand Services](/help/mobile/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md) for details.
 
 ![](assets/chlimage_1-56.png) 
 

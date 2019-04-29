@@ -67,7 +67,7 @@ See the following resources to learn more about other authoring roles:
 * [Editing App Metadata](/help/mobile/phonegap-editmetadata.md)
 * [App Definitions](/help/mobile/phonegap-app-definitions.md)
 * [Import an Existing Hybrid App](/help/mobile/phonegap-import-hybrid-app.md)
-* [Content Services](/mobile/using/content-as-a-service.md)
+* [Content Services](/help/mobile/develop-content-as-a-service.md)
 
 ## Additional Resources {#additional-resources}
 

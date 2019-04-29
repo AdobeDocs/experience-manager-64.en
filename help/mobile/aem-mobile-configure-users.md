@@ -17,7 +17,7 @@ discoiquuid: c3c73e67-7f85-4308-b4cd-1b42d4f3f2d9
 >
 >Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
-This chapter describes the user roles and how to configure your users and groups to support the authoring and mangement of your mobile apps.
+This chapter describes the user roles and how to configure your users and groups to support the authoring and management of your mobile apps.
 
 ## AEM Mobile Application Users and Group Administration {#aem-mobile-application-users-and-group-administration}
 
@@ -41,7 +41,7 @@ Members of the app-author group are responsible for authoring AEM mobile applica
 
    Add app-authors to the Authors group
 
-1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](/libs/granite/security/content/useradmin.md).
+1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](http://localhost:4502/libs/granite/security/content/useradmin.md).
 
    ![](assets/chlimage_1-168.png)
 

@@ -40,7 +40,7 @@ See the following resources to learn more about other authoring roles:
 * [Editing App Metadata](/help/mobile/phonegap-editmetadata.md)
 * [App Definitions](/help/mobile/phonegap-app-definitions.md)
 * [Creating a New App using Create App Wizard](/help/mobile/phonegap-create-new-app.md)
-* [Content Services](/mobile/using/content-as-a-service.md) [](/mobile/using/content-as-a-service.md)
+* [Content Services](/help/mobile/develop-content-as-a-service.md) [](/help/mobile/develop-content-as-a-service.md)
 
 ### Additional Resources {#additional-resources}
 
