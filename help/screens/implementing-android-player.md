@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: e6ec1641-4323-4c79-b932-b857feb1df21
 ---
 
-# Implementing Android Player{#implementing-android-player}
+# Implementing Android Player {#implementing-android-player}
 
 A ***Watchdog*** is a solution to recover the player from crashes. An application needs to register itself with the watchdog service and then periodically send messages to the service that it is alive. In case the watchdog service does not receive a keep-alive message within a stipulated time, the service attempts to reboot the device for a clean recovery (if it has the sufficient privileges) or restart the application.
 

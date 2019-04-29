@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 ---
 
-# Implementing Chrome OS Player{#implementing-chrome-os-player}
+# Implementing Chrome OS Player {#implementing-chrome-os-player}
 
 This section describes how to implement the Chrome OS Player using the Chrome Management Console.
 
@@ -46,14 +46,14 @@ Follow the steps below to enable the Kiosk mode:
    >
    >A recently published app may take about 15 minutes to appear in this list.
 
-1. Select **AEM Screens Player **from the **Auto Launch Kiosk App **dropdown.
+1. Select **AEM Screens Player** from the **Auto Launch Kiosk App** dropdown.
 
    It may take a few minutes depending on the network for the changes to take effect. A reboot is recommended.
 
 #### Checking Remote Device Status {#checking-remote-device-status}
 
 1. Log in to the Chrome Developer Console.
-1. Browse to **Device management **→ **Chrome Devices** and select the device you wish to control.
+1. Browse to **Device management** → **Chrome Devices** and select the device you wish to control.
 
 1. Click **System Activity and troubleshooting**.
 1. Check the **Reboot Device** and **Screen Capture** properties of the device. You can also check the device status and health information.

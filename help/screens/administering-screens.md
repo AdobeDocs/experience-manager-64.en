@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 7903e83b-427f-445a-a257-6aa2c4261632
 ---
 
-# Administering Screens{#administering-screens}
+# Administering Screens {#administering-screens}
 
 An AEM Screens ***Administrator*** or the ***Technician*** is responsible for installation of the physical devices, setting up the hardware, and configuring the Screens player for initial use. In some organizations, the role may expand to a system administrator who is responsible for assigning accounts, scheduling test sessions before deployment or may even be running tests for newly created channels or storing configurations.
 
@@ -25,4 +25,3 @@ An AEM Screens administrator is responsible for the following tasks:
 * [Implementing Chrome OS Player](implementing-chrome-os-player.md)
 * [Implementing Android Player](implementing-android-player.md)
 * [Implementing Windows 10 Player](implementing-windows-player.md)
-
