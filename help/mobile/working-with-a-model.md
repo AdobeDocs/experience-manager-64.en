@@ -25,7 +25,7 @@ A model describes a type of content and denotes what will be information will be
 >
 >Models can only be created under nodes that have been enabled by the Configuration Browser. The Configuration Browser also allows permissions to be defined so different users may only have access to the creation of models under certain configurations.
 >
->See, **Enabling Data Models** in ** [Administering Content Services](/mobile/using/content-services.md)** for detailed steps.
+>See, **Enabling Data Models** in ** [Administering Content Services](help/mobile/developing-content-services.md)** for detailed steps.
 
 1.
 

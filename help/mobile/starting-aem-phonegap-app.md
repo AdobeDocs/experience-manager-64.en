@@ -50,7 +50,7 @@ Once you have a solid understanding of the above two steps, jump into:
 ## The Next Steps {#the-next-steps}
 
 1. [Start my AEM Mobile app experience](/help/mobile/starting-aem-phonegap-app.md)
-1. [Manage my app's content](help/mobile/phonegap-manage-app-content.md)
+1. [Manage my app's content](/help/mobile/phonegap-manage-app-content.md)
 1. [Build my application](/help/mobile/building-app-mobile-phonegap.md)
 1. [Track my app's performance with Adobe Mobile Analytics](/help/mobile/phonegap-intro-to-app-analytics.md)
 1. [Deliver a personalized app experience with Adobe Target](/help/mobile/phonegap-aem-mobile-content-personalization.md)

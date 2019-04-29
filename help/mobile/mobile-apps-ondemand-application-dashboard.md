@@ -131,7 +131,7 @@ The following image shows the **Manage Collections** tile in AEM Mobile Applicat
 Once you are familiar with the application dashboard, see the following resources to create a mobile app:
 
 * [Application Create and Configuration Actions](/help/mobile/mobile-apps-ondemand-application-create-configure-action.md)
-* [Associating an On-Demand App to a Cloud Configuration](/help/mobile/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
+* [Associating an On-Demand App to a Cloud Configuration](/help/mobile/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
 * [Content Management Actions](/help/mobile/mobile-apps-ondemand-manage-content-ondemand.md)
 
 ### Additional Resources {#additional-resources}
