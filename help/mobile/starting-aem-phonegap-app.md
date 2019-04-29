@@ -11,13 +11,13 @@ topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 2ecf05ed-4e56-4e0b-89cf-5161741f9001
 ---
 
-# Starting AEM PhoneGap{#starting-aem-phonegap}
+# Starting AEM PhoneGap {#starting-aem-phonegap}
 
 >[!NOTE]
 >
 >Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
-For developers, the best place to start is to take a look at the Adobe Expererience Manager Mobile Starterkit in github
+For developers, the best place to start is to take a look at the Adobe Experience Manager Mobile Starterkit in github
 
 https://github.com/Adobe-Marketing-Cloud-Apps/aem-phonegap-starter-kit
 
@@ -50,7 +50,7 @@ Once you have a solid understanding of the above two steps, jump into:
 ## The Next Steps {#the-next-steps}
 
 1. [Start my AEM Mobile app experience](/help/mobile/starting-aem-phonegap-app.md)
-1. **[Manage my app's content](/content/docs/en/aem/6-3/author/authoring-mobile-apps/phonegap/manage-my-apps-content.md)** 
+1. [Manage my app's content](/help/mobile/phonegap-manage-app-content.md)
 1. [Build my application](/help/mobile/building-app-mobile-phonegap.md)
 1. [Track my app's performance with Adobe Mobile Analytics](/help/mobile/phonegap-intro-to-app-analytics.md)
 1. [Deliver a personalized app experience with Adobe Target](/help/mobile/phonegap-aem-mobile-content-personalization.md)

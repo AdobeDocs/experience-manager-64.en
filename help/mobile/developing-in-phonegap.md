@@ -28,9 +28,9 @@ The following resources will help you get started with AEM Mobile using Adobe Ph
 * [Mobile with Content Sync](/help/mobile/phonegap-contentsync.md)
 * [Page Templates](/help/mobile/phonegap-apps-arch-page-templates.md)
 
-* [AEM Mobile Content Services: An Overview](/mobile/using/content-as-a-service.md)
+* [AEM Mobile Content Services: An Overview](/help/mobile/develop-content-as-a-service.md)
 
-    * To enable Content Services and Data Models, see [Administering Content Services](/mobile/using/content-services.md)
+    * To enable Content Services and Data Models, see [Administering Content Services](/help/mobile/developing-content-services.md)
     * To learn about Creating Models, see [Developing Models](/help/mobile/models-in-repository.md)
     * To learn about Rendering and Delivery, see [Rendering and Delivery of Content Services](/help/mobile/rendering-and-delivery.md)
 

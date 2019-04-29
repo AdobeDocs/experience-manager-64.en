@@ -34,7 +34,7 @@ For the first time user, who has not configured content services to work with sp
 >
 >Check the **Enable AEM Content Services** to work with Spaces and enable it in your AEM Mobile application dashboard.
 >
->See [Administering Content Services](/mobile/using/content-services.md) for more details.
+>See [Administering Content Services](/help/mobile/developing-content-services.md) for more details.
 
 Once you configure Spaces in dashboard, follow these steps to create Spaces:
 

@@ -11,7 +11,7 @@ topic-tags: developing-on-demand-services-app
 discoiquuid: a0647696-72c3-409b-85ba-9275d8f99cff
 ---
 
-# Best Practices{#best-practices}
+# Best Practices {#best-practices}
 
 >[!NOTE]
 >
@@ -84,5 +84,5 @@ The following guidelines will help experienced AEM developers for sites, who wan
 To understand more on the other two roles and responsibilities, see the resources below:
 
 * [Administrator](/help/mobile/aem-mobile.md)
-* [Author](/content/docs/en/aem/6-3/author/authoring-mobile-apps/mobile-on-demand.md)
+* [Author](/help/mobile/aem-mobile-on-demand.md)
 

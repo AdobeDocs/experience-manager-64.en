@@ -41,7 +41,7 @@ Once you are familiar with App Definitions, learn more about the following autho
 
 * [Import an existing hybrid app](/help/mobile/phonegap-import-hybrid-app.md)
 * [Create a New App using Create App Wizard](/help/mobile/phonegap-create-new-app.md)
-* [Content Services](/mobile/using/content-as-a-service.md)
+* [Content Services](/help/mobile/develop-content-as-a-service.md)
 
 ## Additional Resources {#additional-resources}
 
