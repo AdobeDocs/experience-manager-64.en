@@ -11,8 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 discoiquuid: 920e9702-82f7-4495-a84e-22a1c8b0d559
 ---
 
-# What is AEM Screens?{#what-is-aem-screens}
-
+# What is AEM Screens? {#what-is-aem-screens}
 
 **AEM (Adobe Experience Manager) Screens** - *a Digital Signage Solution *that allows you to publish dynamic and interactive digital experiences and interactions involving different types of screens in conjunction with a comprehensive digital marketing platform.
 
