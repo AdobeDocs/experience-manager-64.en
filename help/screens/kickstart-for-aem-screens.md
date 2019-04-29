@@ -171,7 +171,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![](assets/chlimage_1-65.png)
 
-   See [Create and Manage Schedules](managing-schedules.html) to get detailed information on schedules.
+   See [Create and Manage Schedules](managing-schedules.md) to get detailed information on schedules.
 
 1. **Assigning a channel**
 
