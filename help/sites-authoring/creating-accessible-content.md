@@ -346,7 +346,7 @@ You can make sure your web pages are given the appropriate structure by:
 
 * **Using headings:**
 
-  As long as you have the accessibility features of the RTE enabled (see [Configuring RTE for Producing Accessible Sites](/help/administering/using/rte-accessible-content.md)), AEM offers 3 levels of page heading. You can use these to identify sections and subsections of content. Heading 1 is the highest level of heading, Heading 3 the lowest. The system administrator can configure the system to allow the use of more heading levels.
+  As long as you have the accessibility features of the RTE enabled (see [Configuring RTE for Producing Accessible Sites](/help/sites-administering/rte-accessible-content.md)), AEM offers 3 levels of page heading. You can use these to identify sections and subsections of content. Heading 1 is the highest level of heading, Heading 3 the lowest. The system administrator can configure the system to allow the use of more heading levels.
 
   The following image demonstrates an example of the different types of headings.
 

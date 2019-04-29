@@ -292,11 +292,11 @@ Exact details of how to create audio-described video are beyond the scope of thi
 
 #### Purpose - Captions (Live) (1.2.4) {#purpose-captions-live}
 
-This success criterion is identical to [Captions (Pre-Recorded)](#captionsprerecorded) in that it addresses accessibility barriers experienced by people who are deaf or hearing-impaired, except that this success criterion deals with live presentations such as webcasts.
+This success criterion is identical to [Captions (Pre-Recorded)](#captions-pre-recorded) in that it addresses accessibility barriers experienced by people who are deaf or hearing-impaired, except that this success criterion deals with live presentations such as webcasts.
 
 #### How to Meet - Captions (Live) (1.2.4) {#how-to-meet-captions-live}
 
-Follow the guidance provided for [Captions (Pre-Recorded)](#captionsprerecorded) above. However, due to the live nature of the media, caption provision has to be created as quickly as possible and in response to what is happening. Therefore, you should consider using real time captioning or speech-to-text tools.
+Follow the guidance provided for [Captions (Pre-Recorded)](#captions-pre-recorded) above. However, due to the live nature of the media, caption provision has to be created as quickly as possible and in response to what is happening. Therefore, you should consider using real time captioning or speech-to-text tools.
 
 Detailed instructions are beyond the scope of this document, but the following resources provide helpful information:
 
@@ -316,11 +316,11 @@ Detailed instructions are beyond the scope of this document, but the following r
 
 #### Purpose - Audio Description (Pre-Recorded) (1.2.5) {#purpose-audio-description-pre-recorded}
 
-This success criterion is identical to [Audio Description or Media Alternative (Pre-Recorded)](#audiodescriptionormediaalternativeprerecorded), except that authors must provide a much more detailed audio description to conform to Level AA.
+This success criterion is identical to [Audio Description or Media Alternative (Pre-Recorded)](#audio-description-or-media-alternative-pre-recorded), except that authors must provide a much more detailed audio description to conform to Level AA.
 
 #### How to Meet - Audio Description (Pre-Recorded) (1.2.5) {#how-to-meet-audio-description-pre-recorded}
 
-Follow the guidance provided for [Audio Description or Media Alternative (Pre-Recorded)](#audiodescriptionormediaalternativeprerecorded).
+Follow the guidance provided for [Audio Description or Media Alternative (Pre-Recorded)](#audio-description-or-media-alternative-pre-recorded).
 
 #### More Information - Audio Description (Pre-Recorded) (1.2.5) {#more-information-audio-description-pre-recorded}
 
@@ -361,7 +361,7 @@ You can make sure your web pages are given the appropriate structure by:
 
 * **Using headings:**
 
-  As long as you have the accessibility features of the RTE enabled (see [AEM and Accessibility](#adobeexperiencemanagerandaccessibility)), AEM offers 3 levels of page heading. You can use these to identify sections and subsections of content. Heading 1 is the highest level of heading, Heading 3 the lowest. The system administrator can configure the system to allow the use of more heading levels.
+  As long as you have the accessibility features of the RTE enabled (see [AEM and Accessibility](/help/sites-administering/rte-accessible-content.md)), AEM offers 3 levels of page heading. You can use these to identify sections and subsections of content. Heading 1 is the highest level of heading, Heading 3 the lowest. The system administrator can configure the system to allow the use of more heading levels.
 
   The following image demonstrates an example of the different types of headings.
 
@@ -654,10 +654,10 @@ If images of text must be used, use CSS to replace the images of text with equiv
 
 Points to note are:
 
-1. For requirements related to flickering or flashing content, refer to [Do not Design Content in a Way that is Known to Cause Seizures (2.3)](#donotdesigncontentinawaythatisknowntocauseseizures23).
-1. Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the web page (whether it is used to meet other success criteria or not) must meet this success criterion. See [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5).
-1. Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.
-1. An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.
+1. For requirements related to flickering or flashing content, refer to [Do not Design Content in a Way that is Known to Cause Seizures (2.3)](#seizures).
+2. Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the web page (whether it is used to meet other success criteria or not) must meet this success criterion. See [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5).
+3. Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.
+4. An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.
 
 #### Purpose - Pause, Stop, Hide (2.2.2) {#purpose-pause-stop-hide}
 
@@ -840,7 +840,7 @@ In AEM, the default language of your page is set when creating the page, but may
 
 #### Purpose - Language of Parts (3.1.2) {#purpose-language-of-parts}
 
-The purpose of this success criterion is similar to the success criterion [Language of Page](#languageofpage), except that it applies to web pages containing content in multiple languages on a single page (for example, because of quotations or uncommon loan words).
+The purpose of this success criterion is similar to the success criterion [Language of Page](#language-of-page), except that it applies to web pages containing content in multiple languages on a single page (for example, because of quotations or uncommon loan words).
 
 Pages applying this success criterion allow:
 
@@ -876,7 +876,7 @@ To add the span element, with an appropriate language, you can manually edit you
 
 #### More Information - Language of Parts (3.1.2) {#more-information-language-of-parts}
 
-* [Understanding Success Criterion 3.1.2](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.htm)
+* [Understanding Success Criterion 3.1.2](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html)
 * [How to meet Success Criterion 3.1.2](https://www.w3.org/WAI/WCAG20/quickref/#qr-meaning-other-lang-id)
 
 ### Help Users Avoid and Correct Mistakes (3.3) {#help-users-avoid-and-correct-mistakes}
