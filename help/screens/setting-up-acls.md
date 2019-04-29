@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 ---
 
-# Setting up ACLs{#setting-up-acls}
+# Setting up ACLs {#setting-up-acls}
 
 The following section explains how to segregate projects using ACLs so that each individual or team handles their own project.
 
