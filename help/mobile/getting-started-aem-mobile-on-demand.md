@@ -64,7 +64,7 @@ An AEM administrator is responsible for the following tasks while creating an ap
 * [Setting up AEM Mobile](/help/mobile/aem-mobile-setup.md)
 * [Configuring your User and User Groups](/help/mobile/aem-mobile-configure-users.md)
 * [Previewing with Preflight](/help/mobile/aem-mobile-manage-ondemand-services.md)
-* [Administering Content Services](help/mobile/developing-content-services.md)
+* [Administering Content Services](/help/mobile/developing-content-services.md)
 
 To get started with an Administrator's roles and responsibilities, See [Administering Content to Use AEM Mobile On-Demand Services](/help/mobile/aem-mobile.md).
 
@@ -77,7 +77,7 @@ An AEM developer is responsible for the following tasks while creating an app us
 * [App Templates and Components](/help/mobile/app-templates-and-components1.md)
 * [Mobile with Content Sync](/help/mobile/mobile-ondemand-contentsync.md)
 * [Content Properties and Exporting Content](/help/mobile/on-demand-content-properties-exporting.md)
-* [Developing AEM Mobile Content Services](/help/mobile/developing-content-services.md)
+* [Developing AEM Mobile Content Services](//help/mobile/developing-content-services.md)
 
 To get started with Developer's roles and responsibilities, See [Developing AEM Content for AEM Mobile On-Demand Services](/help/mobile/aem-mobile-on-demand.md).
 
