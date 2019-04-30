@@ -35,8 +35,8 @@ If you make subsequent modifications to the original asset or folder in AEM Asse
     
     * From the toolbar, select **Manage Publication**.
 
-    1. Then from the **Action** select **Publish to Brand Portal, **and from **Scheduling** select **Now**. Tap/ click **Next.**
-    1. Within **Scope**, confirm your selection and tap/ click **Publish to Brand Portal**.
+1. Then from the **Action** select **Publish to Brand Portal**, and from **Scheduling** select **Now**. Tap **Next.**
+1. Within **Scope**, confirm your selection and tap **Publish to Brand Portal**.
 
    A message appears stating that the folder has been queued up for publishing to Brand Portal. Log in to the Brand Portal interface to see the published folder.
 
@@ -44,14 +44,14 @@ If you make subsequent modifications to the original asset or folder in AEM Asse
 
    To schedule the publish to Brand Portal workflow of asset folders to a later date or time:
 
-    1. Once you have selected assets/ folders to publish, select **Manage Publication **from the tool bar at the top.
-    1. On** Manage Publication** page, select **Publish to Brand Portal **from **Action** and select** Later **from **Scheduling**.
+    1. Once you have selected assets/folders to publish, select **Manage Publication** from the tool bar at the top.
+    1. On **Manage Publication** page, select **Publish to Brand Portal** from **Action** and select **Later** from **Scheduling**.
     
        ![](assets/publishlaterbp.png)
 
-    1. Select an **Activation date **and specify time. Tap/ click **Next**.
-    1. Confirm your selection in **Scope**. Tap/ click **Next**.
-    1. Specify a Workflow title under **Workflows**. Tap/ click **Publish Later**.
+    1. Select an **Activation date** and specify time. Tap **Next**.
+    1. Confirm your selection in **Scope**. Tap **Next**.
+    1. Specify a Workflow title under **Workflows**. Tap **Publish Later**.
     
        ![](assets/manageschedulepub.png)
 
@@ -71,9 +71,9 @@ You have the option to unpublish folders from Brand Portal quickly or schedule i
 
    To quickly unpublish the desired folder from Brand Portal:
 
-    1. On **Manage Publication** page, from **Action **select **Unpublish from Brand Portal **and from **Scheduling** select **Now**.  
+    1. On **Manage Publication** page, from **Action** select **Unpublish from Brand Portal** and from **Scheduling** select **Now**.  
        Tap/ click **Next.**
-    1. Within **Scope**, confirm your selection and tap/ click **Unpublish from Brand Portal**.
+    1. Within **Scope**, confirm your selection and tap **Unpublish from Brand Portal**.
 
    ![](assets/confirm-unpublish.png)
 
@@ -81,11 +81,11 @@ You have the option to unpublish folders from Brand Portal quickly or schedule i
 
    To schedule the publishing of a folder from Brand Portal to a later date and time:
 
-    1. On **Manage Publication** page, from **Action **select **Unpublish from Brand Portal **and from **Scheduling** select **Later.**
+    1. On **Manage Publication** page, from **Action** select **Unpublish from Brand Portal** and from **Scheduling** select **Later.**
     1. 
-    1. Select an **Activation date **and specify the time. Tap/ click **Next**.
-    1. Within **Scope**, confirm your selection and tap/ click **Next**.
-    1. Specify a **Workflow title** under **Workflows**. Tap/ click **Unpublish Later.**
+    1. Select an **Activation date** and specify the time. Tap **Next**.
+    1. Within **Scope**, confirm your selection and tap **Next**.
+    1. Specify a **Workflow title** under **Workflows**. Tap **Unpublish Later.**
     
        ![](assets/unpublishworkflows.png)
 
