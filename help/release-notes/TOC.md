@@ -10,7 +10,7 @@ user-guide-title: AEM 6.4 Release Notes
 + [General Release Notes for Adobe Experience Manager 6.4](/help/release-notes/release-notes.md)
 + [Copyright, Licenses and Disclaimers](licenses.md)
 + [AEM Forms](forms.md)
-+ [AEM Foundation & Repository](wcm-platform.md)
++ [AEM Foundation and Repository](wcm-platform.md)
 + [Deprecated and Removed Features](deprecated-removed-features.md)
 + [Integrating with Livefyre](livefyre.md)
 + [AEM Sites Release Notes](sites.md)
