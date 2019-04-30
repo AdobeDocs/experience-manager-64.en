@@ -4,7 +4,6 @@ seo-title: Bulk Offline Update
 description: Follow this page to learn how you can update all the channels in bulk.
 seo-description: Follow this page to learn how you can update all the channels in bulk.
 uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
-admitteddomains: @adobe.com;@caesars.com
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
@@ -14,6 +13,8 @@ noindex: true
 ---
 
 # Bulk Offline Update{#bulk-offline-update}
+
+<!--Removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
 This section covers the following topics on Bulk Offline Update:
 
