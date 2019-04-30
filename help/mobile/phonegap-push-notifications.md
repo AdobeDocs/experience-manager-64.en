@@ -58,7 +58,7 @@ While an AEM Administrator will:
 
 Go to the Apple page [here](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)to become familiar with the Apple Push Notification Service.
 
-To use APNS you will need a **Certificate** file (a .cer file), a push** Private Key** (a .p12 file) and a **Private Key Password** from Apple. Instructions on how to do that can be found [here](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ProvisioningDevelopment.html).
+To use APNS you will need a **Certificate** file (a .cer file), a push **Private Key** (a .p12 file) and a **Private Key Password** from Apple. Instructions on how to do that can be found [here](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ProvisioningDevelopment.html).
 
 #### Using the Google Cloud Messaging (GCM) service {#using-the-google-cloud-messaging-gcm-service}
 
@@ -74,7 +74,7 @@ The following steps shows a different method of creating GCM API Keys:
 
 1. Log into google and go to the [Google's Developer page](https://developers.google.com/mobile/add?platform=android&cntapi=gcm). 
 1. Choose your app from the list (or create a new one).
-1. Under Android Package Name, enter your app id, i.e. "com.adobe.cq.mobile.weretail.outdoorsapp". (If that does not work, try again with "test.test").
+1. Under Android Package Name, enter your app id, i.e. `com.adobe.cq.mobile.weretail.outdoorsapp`. (If that does not work, try again with "test.test".)
 1. Click **Continue To Choose and configure services**
 1. Select Cloud Messaging, and then click **Enable Google Cloud Messaging**.
 1. The new Server API Key and (new or existing) Sender ID will then be displayed.
@@ -114,7 +114,7 @@ Follow these steps to set up Amazon SNS for push notifications:
 1. **Create Access Key and ID**
 
     1. Click on your login name on the upper right of the screen, and choose Security Credentials from the menu.
-    1. Click on Access Keys, and in the space below, click** Create New Access Key**.
+    1. Click on Access Keys, and in the space below, click **Create New Access Key**.
     1. Click **Show Access Key**, and copy and save the Access Key ID and Secret Access Key shown. If you choose the option to download the keys, you will get a csv file that contains those same values.
     1. Other security related certificates, and some other, can be managed on this page.
 
@@ -132,7 +132,7 @@ Follow these steps to set up Amazon SNS for push notifications:
 1. **Create a Topic**
 
     1. Click **Create Topic** and choose a topic name. Record all fields such as Topic ARN, Topic Owner, Region, Display name.
-    1. Click **Other Topic Actions** -&gt; **Edit Topic Policy**. Under **Allow these users to subscribe to this topic**, select **Everyone.**
+    1. Click **Other Topic Actions** > **Edit Topic Policy**. Under **Allow these users to subscribe to this topic**, select **Everyone.**
     
     1. Click **Update Policy**.
 
@@ -166,14 +166,14 @@ Follow these steps to set up Amazon SNS for push notifications:
     1. Click "Edit Policy". Replace the contents of the Policy Document with this snippet of JSON:
 
     <table> 
- <tbody> 
-  <tr> 
-   <td><p> </p> <p>{</p> <p> "Version": "2012-10-17",</p> <p> "Statement": [</p> <p> {</p> <p> "Action": [</p> <p> "mobileanalytics:PutEvents",</p> <p> "cognito-sync:*",</p> <p> "SNS:CreatePlatformEndpoint",</p> <p> "SNS:Subscribe"</p> <p> ],</p> <p> "Effect": "Allow",</p> <p> "Resource": [</p> <p> "*"</p> <p> ]</p> <p> }</p> <p> ]</p> <p>}</p> <p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <tbody> 
+     <tr> 
+     <td><p> </p> <p>{</p> <p> "Version": "2012-10-17",</p> <p> "Statement": [</p> <p> {</p> <p> "Action": [</p> <p> "mobileanalytics:PutEvents",</p> <p> "cognito-sync:*",</p> <p> "SNS:CreatePlatformEndpoint",</p> <p> "SNS:Subscribe"</p> <p> ],</p> <p> "Effect": "Allow",</p> <p> "Resource": [</p> <p> "*"</p> <p> ]</p> <p> }</p> <p> ]</p> <p>}</p> <p> </p> </td> 
+     </tr> 
+    </tbody> 
+    </table>
 
-    1. Click on** Apply Policy**
+    1. Click on **Apply Policy**
 
 #### Using the Pushwoosh messaging service {#using-the-pushwoosh-messaging-service}
 
@@ -193,7 +193,7 @@ To use Pushwoosh:
 
     1. For Android support, you need to provide your GCM API key.
     1. When configuring the app, choose Cordova as the framework.
-    1. For iOS support you need to provide the Certificate file (.cer), Push Certificate (.p12) and private key password; these should have been obtained from Apple's APNS site. ** **For Framework, choose Cordova. 
+    1. For iOS support you need to provide the Certificate file (.cer), Push Certificate (.p12) and private key password; these should have been obtained from Apple's APNS site. For Framework, choose Cordova. 
     1. Pushwoosh will generate an App Id for that app, in the form "XXXXX-XXXXX", where each X is a hexadecimal value (0 through F).
 
 >[!NOTE]
@@ -206,8 +206,8 @@ To use Pushwoosh:
 
 Create two content nodes (one in app-config and one in app-config-dev) called notificationsConfig:
 
-* /content/&lt;your app&gt;/shell/jcr:content/pge-app/app-config-dev/notificationsConfig
-* /content/&lt;your app&gt;/shell/jcr:content/pge-app/app-config/notificationsConfig
+* /content/`<your app>`/shell/jcr:content/pge-app/app-config-dev/notificationsConfig
+* /content/`<your app>`/shell/jcr:content/pge-app/app-config/notificationsConfig
 
 With these properties (.content.xml files) :  
 &lt;jcr:root xmlns:jcr=" [https://www.jcp.org/jcr/1.0](https://www.jcp.org/jcr/1.0)" xmlns:nt=" [https://www.jcp.org/jcr/nt/1.0](https://www.jcp.org/jcr/nt/1.0)"  
@@ -242,7 +242,7 @@ In CRXDE Lite:
 
 >[!NOTE]
 >
->*For push notifications, you need to test on an actual device, as emulators are not able to receive push notifications. *
+>*For push notifications, you need to test on an actual device, as emulators are not able to receive push notifications.*
 
 #### IOS {#ios}
 
@@ -268,11 +268,11 @@ Before building and deploying to your configured mobile device, you must configu
 
 ### Step 6: Build and deploy the app {#step-build-and-deploy-the-app}
 
-***Note:** Refer also to our instructions [here](/help/mobile/building-app-mobile-phonegap.md) on building PhoneGap applications.*
+**Note:** Refer also to our instructions [here](/help/mobile/building-app-mobile-phonegap.md) on building PhoneGap applications.
 
 There are two ways to build and deploy your app using PhoneGap.
 
-***Note:** For push notification testing, emulators will not suffice because push notifications use a distinct protocol between the push provider (Apple or Google) and the device. Current Mac/PC hardware and emulators do not support this.*
+**Note:** For push notification testing, emulators will not suffice because push notifications use a distinct protocol between the push provider (Apple or Google) and the device. Current Mac/PC hardware and emulators do not support this.
 
 1. *PhoneGap Build* is a service offered by PhoneGap that will build your app for you on their servers, and allow you to download it to your device directly. Refer to the [PhoneGap Build documentation](https://build.phonegap.com/) to learn how to set up and use PhoneGap Build.
 
@@ -291,7 +291,7 @@ To create a new notification and send it, follow these steps.
 1. Send the notification
 
     * In the Apps dashboard, find the Push Notifications tile.
-    * Select the notification, or click on the details button on the bottom right (**. . .**), to show the list of notifications. This list also indicates if a notification is ready to be sent, has already been sent, or if an error occurred during sending.
+    * Select the notification, or click on the details button on the bottom right (`**. . .**`), to show the list of notifications. This list also indicates if a notification is ready to be sent, has already been sent, or if an error occurred during sending.
     * Select the checkbox for one notification (only) and click the "Send Notification" button above the list. You will have one chance to "Cancel" or "Send" the notification on the dialog that appears.
 
 1. Dealing with the results
@@ -307,7 +307,7 @@ For AMS Push Notifications, notifications must be composed and sent from the AMS
 
 >[!NOTE]
 >
->*Push notifications are not guaranteed delivery; they are more like announcements. A best effort is made to make sure everyone hears it but they are not a guaranteed delivery mechanism. Also, the time to deliver a push can vary from less *than *a second to up to half an hour.*
+>*Push notifications are not guaranteed delivery; they are more like announcements. A best effort is made to make sure everyone hears it but they are not a guaranteed delivery mechanism. Also, the time to deliver a push can vary from less than a second to up to half an hour.*
 
 ### Configuring Deep Linking with Push Notifications {#configuring-deep-linking-with-push-notifications}
 
