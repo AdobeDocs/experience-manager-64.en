@@ -30,12 +30,12 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [Developing AEM Components - Code Samples](developing-components-samples.md)
 <!-- 
 + Headless Experience Management{#headless}
-    + [Headless and Hybrid with AEM](LINK)
+    + [Headless and Hybrid with AEM](https://www.adobe.com)
     + [Enabling JSON Export for a Component](json-exporter-components.md)
-    + [Single Page Applications](LINK)
-    + [HTTP API](LINK)
-    + [Content Fragments](LINK)
-    + [Experience Fragments](LINK)-->
+    + [Single Page Applications](https://www.adobe.com)
+    + [HTTP API](https://www.adobe.com)
+    + [Content Fragments](https://www.adobe.com)
+    + [Experience Fragments](https://www.adobe.com)-->
 + Single Page Applications{#spas}
     + [SPA Introduction and Walkthrough](spa-walkthrough.md)
     + [SPA WKND Tutorial](spa-wknd.md)
