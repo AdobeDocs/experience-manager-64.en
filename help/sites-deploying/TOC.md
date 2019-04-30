@@ -95,12 +95,27 @@ user-guide-title: AEM 6.4 Deploying Guide
    + [User Interface Recommendations for Customers](ui-recommendations.md)
    + [Performance & Scalability](performance.md)
 + Deleted section Remove duplicates and move others to sections above {#deleted}
-    + [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md) <!-- to be removed -->
-    + [Device Control Center](device-control-center.md) <!-- to be removed -->
-    + [Performance](performance-lp.md) <!-- deactivated on helpx -->
-    + [Scaling](scaling.md) <!-- deactivated on helpx -->
-    + [(Redirect)Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
-    <!-- [Performance Guidelines PDF](DO-NOT-DELETE-performance-guidelines-pdf.md) commented out for link check -->
-    + [(Redirect)Kickstart Guide](kickstart-for-aem-screens.md)
-    + [(Redirect)Glossary](screens-glossary.md)
-    + [(Redirect)What is AEM Screens?](aem-screens-introduction.md)  
+    + [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)
+    + [Device Control Center](device-control-center.md)
+    + [Performance](performance-lp.md)
+    + [Scaling](scaling.md)
+
+<!-- 
+
+To be removed:
+[Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)
+[Device Control Center](device-control-center.md)
+
+Deactivated on helpx:
+[Performance](performance-lp.md)
+[Scaling](scaling.md)
+
+Commented out for link check:
+[Performance Guidelines PDF](DO-NOT-DELETE-performance-guidelines-pdf.md)
+
+Redirects:
+    [(Redirect)Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
+    [(Redirect)Kickstart Guide](kickstart-for-aem-screens.md)
+    [(Redirect)Glossary](screens-glossary.md)
+    [(Redirect)What is AEM Screens?](aem-screens-introduction.md)  
+-->
