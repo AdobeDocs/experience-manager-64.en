@@ -4,7 +4,6 @@ seo-title: Asset Level Scheduling
 description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. 
 seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. 
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
-admitteddomains: @adobe.com;@caesars.com
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
@@ -14,6 +13,8 @@ noindex: true
 ---
 
 # Asset Level Scheduling{#asset-level-scheduling}
+
+<!--removed from TOC: admitteddomains: @adobe.com;@caesars.com-->
 
 This section describes asset level scheduling for the assets used in Channels.
 

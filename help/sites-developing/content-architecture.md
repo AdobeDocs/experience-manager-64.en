@@ -1,8 +1,8 @@
 ---
 title: Content Architecture
 seo-title: Content Architecture
-description: "Tips for architecting your content (hint: everything is content)"
-seo-description: "Tips for architecting your content (hint: everything is content)"
+description: Tips for architecting your content (hint - everything is content)
+seo-description: Tips for architecting your content in Adobe Experience Manager (AEM). (hint - everything is content)
 uuid: fef2bf0f-70ec-4621-8479-a62b7e1fbc07
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
