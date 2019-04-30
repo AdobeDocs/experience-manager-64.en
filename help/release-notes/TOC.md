@@ -1,16 +1,16 @@
 ---
 cloud: experience-cloud
 product: adobe
-archtype: end-user
-user-guide: null
+audience: end-user
+user-guide-title: AEM 6.4 Release Notes
 ---
 
-# Table of Contents - AEM 6.4 - Release Notes {#table-of-contents}
+# AEM 6.4 Release Notes {#release-notes}
 
 + [General Release Notes for Adobe Experience Manager 6.4](/help/release-notes/release-notes.md)
 + [Copyright, Licenses and Disclaimers](licenses.md)
 + [AEM Forms](forms.md)
-+ [AEM Foundation & Repository](wcm-platform.md)
++ [AEM Foundation and Repository](wcm-platform.md)
 + [Deprecated and Removed Features](deprecated-removed-features.md)
 + [Integrating with Livefyre](livefyre.md)
 + [AEM Sites Release Notes](sites.md)
@@ -27,5 +27,7 @@ user-guide: null
 + [Style System](style-system-fp.md)
 + [AEM 3D Release Notes](aem3d-release-notes.md)
 
-<!-- + [REDIRECT AEM 6.4.1.0 Release Notes](sp1-release-notes.md) -->
-<!-- + [AEM 6.4.2.0 Release Notes](sp2-release-notes.md) -->
+<!--
+[REDIRECT AEM 6.4.1.0 Release Notes](sp1-release-notes.md)
+[AEM 6.4.2.0 Release Notes](sp2-release-notes.md) 
+-->
