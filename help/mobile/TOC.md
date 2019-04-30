@@ -28,7 +28,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
     + [AEM Mobile On-Demand](aem-mobile.md)
     + [AEM Mobile SetUp](aem-mobile-setup.md)
     + [Configure Your Users and User Groups](configure-users-groups.md)
-    [Previewing with Preflight](aem-mobile-manage-ondemand-services.md)
+    + [Previewing with Preflight](aem-mobile-manage-ondemand-services.md)
 + Authoring Adobe PhoneGap Enterprise {#author-phonegap}
     + [PhoneGap](developing-in-phonegap.md)
     + [Import an existing hybrid app](phonegap-import-hybrid-app.md)
