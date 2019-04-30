@@ -28,7 +28,8 @@ user-guide-title: AEM 6.4 Developing User Guide
     + [AEM Components - The Basics](components-basics.md)
     + [Developing AEM Components](developing-components.md)
     + [Developing AEM Components - Code Samples](developing-components-samples.md)
-<!-- + Headless Experience Management{#headless}
+<!-- 
++ Headless Experience Management{#headless}
     + [Headless and Hybrid with AEM](LINK)
     + [Enabling JSON Export for a Component](json-exporter-components.md)
     + [Single Page Applications](LINK)
