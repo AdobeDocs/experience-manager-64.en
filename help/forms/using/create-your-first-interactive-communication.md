@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Create your first Interactive Communication"
+title: Tutorial - Create your first Interactive Communication
 seo-title: Create your first Interactive Communication
 description: Learn to create your first Interactive Communication.
 seo-description: Learn to create your first Interactive Communication.
