@@ -4,8 +4,9 @@ product: Adobe Experience Manager
 audience: end-user
 user-guide-title: AEM 6.4 Forms User Guide
 ---
-# Table of Contents - AEM 6.4 - Forms User Guide {#table-of-contents}
+# AEM 6.4 - Forms User Guide {#forms}
 
++ [AEM Forms User Guide overview](home.md)
 + Release Notes/New Features {#release-notes-new-features}
   + [Releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
   + [New Features](using/whats-new.md)

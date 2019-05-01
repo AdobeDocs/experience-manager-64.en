@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
 
 # AEM 6.4 Mobile User Guide {#mobile}
 
++ [Mobile User Guide overview](home.md)
 + Introduction to AEM Mobile {#introduction}
     + [Getting Started with AEM Mobile](getting-started-aem-mobile.md)
     + [AEM Mobile On-Demand](getting-started-aem-mobile-on-demand.md)

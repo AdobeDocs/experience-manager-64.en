@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 Developing User Guide
 
 # AEM 6.4 Developing User Guide {#developing}
 
++ [Developing User Guide overview](home.md)
 + Introduction for Developers{#introduction}
     + [Getting Started Developing AEM Sites - WKND Tutorial](getting-started.md)
     + [AEM Core Concepts](the-basics.md)

@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 Administering User Guide
 
 # AEM 6.4 Administering User Guide {#administering}
 
++ [Administering User Guide overview](home.md) 
 + Sites Features {#introduction}
     + [Reusing Content: Multi Site Manager and Live Copy](msm.md)
     + [Live Copy Overview Console](msm-livecopy-overview.md)

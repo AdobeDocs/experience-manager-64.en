@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 Authoring User Guide
 
 # AEM 6.4 Authoring User Guide {#authoring}
 
++ [Authoring User Guide overview](home.md)
 + Essential tasks, tools and concepts for AEM Authoring {#essentials}
     + [First Steps for Authors](first-steps.md)
     + [Authoring Pages](page-authoring.md)

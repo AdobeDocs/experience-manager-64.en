@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 Assets User Guide
 
 # AEM 6.4 Assets User Guide {#assets}
 
++ [Assets User Guide](home.md)
 + Introduction to AEM Assets {#introduction}
     + [Managing Assets with the Touch-Optimized UI](managing-assets-touch-ui.md)
     + [Working with Content Fragments](content-fragments.md)

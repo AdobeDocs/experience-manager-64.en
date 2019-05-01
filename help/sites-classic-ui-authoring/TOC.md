@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 Classic UI Authoring User Guide
 
 # AEM 6.4 Classic UI Authoring User Guide {#classic-ui}
 
++ [Classic UI Authoring Guide overview](home.md)
 + Introduction to Classic UI Authoring {#introduction}
     + [Authoring in the Classic UI](classicui.md)
     + [Working with the Author Environment](author-env.md)
