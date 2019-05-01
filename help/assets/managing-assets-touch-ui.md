@@ -120,7 +120,7 @@ Dynamic Media enables batch uploading of assets via FTP server. If you intend to
 
 >[!NOTE]
 >
->To upload assets by way of FTP in Dynamic Media - Scene7 mode, you must install feature pack 18912 on your AEM author instances. Contact Adobe Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](help/assets/bulk-ingest-migrate.md).
+>To upload assets by way of FTP in Dynamic Media - Scene7 mode, you must install feature pack 18912 on your AEM author instances. Contact Adobe Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
 If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
 
 **To upload assets using FTP**

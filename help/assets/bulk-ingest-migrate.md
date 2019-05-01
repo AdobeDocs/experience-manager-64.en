@@ -5,6 +5,9 @@ description: Feature pack 18912 lets you either bulk ingest assets by way of FTP
 seo-description: Feature pack 18912 lets you either bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic to Dynamic Media in AEM. This optional feature pack is available from Adobe support.
 uuid: 316d77e3-3d61-4cf0-8955-726ee54e268c
 contentOwner: rbrough
+products: SG_EXPERIENCEMANAGER/6.4/ASSETS
+topic-tags: dynamic-media
+content-type: reference
 discoiquuid: 6198e613-a867-49a8-b9a5-a05e7889821c
 ---
 
