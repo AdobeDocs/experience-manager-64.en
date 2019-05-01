@@ -100,6 +100,13 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Device Control Center](device-control-center.md)
     + [Performance](performance-lp.md)
     + [Scaling](scaling.md)
++ Missing TOC files that need to be linked to - please fix {#missing}
+    + [webconsole](web-console.md)
+    + [aemscreensintro](aem-screens-introduction.md)
+    + [repository-restructuring-in-aem64](repository-restructuring-in-aem64.md)
+    + [config-ssl](config-ssl.md)
+    + [configuring-screens-introduction](configuring-screens-introduction.md)
+
 
 <!-- 
 

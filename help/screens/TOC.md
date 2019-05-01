@@ -63,3 +63,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
 + Release Notes {#release-notes}
     + [Release Notes for Feature Pack 201809](screens-release-notes.md)
     + [Release Notes for Feature Pack 201812](release-notes-fp-201812.md)
++ Missing {#missing}
+    + [authoring-screens](authoring-screens.md)
+    + [developing-screens](developing-screens.md)
+    + [administering-screens](administering-screens.md)
