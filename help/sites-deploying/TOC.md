@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 Deploying Guide
 
 # AEM 6.4 Deploying User Guide {#deploying}
 
++ [Deploying User Guide](home.md)
 + Introduction to the AEM Platform {#introduction}
     + [Introduction to the AEM Platform](platform.md)
     + [Technical Requirements](technical-requirements.md)

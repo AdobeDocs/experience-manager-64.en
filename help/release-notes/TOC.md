@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 Release Notes
 
 # AEM 6.4 Release Notes {#release-notes}
 
++ [Release notes overview](home.md)
 + [General Release Notes for Adobe Experience Manager 6.4](/help/release-notes/release-notes.md)
 + [Copyright, Licenses and Disclaimers](licenses.md)
 + [AEM Forms](forms.md)

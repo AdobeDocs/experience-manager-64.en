@@ -7,6 +7,7 @@ user-guide-title: Adobe Experience Manager Screens 6.4 Help
 
 # AEM 6.4 Screens User Guide {#screens}
 
++ [Screens Overview](home.md)
 + Getting Started {#getting-started}
     + [What is AEM Screens?](aem-screens-introduction.md)
     + [AEM Screens Overview Video](screens-concepts-feature-video-understand.md)

@@ -7,6 +7,7 @@ user-guide-title: AEM 6.4 Communities User Guide
 
 # AEM 6.4 Communities User Guide {#communities}
 
++ [Communities User Guide overview](home.md)
 + Introduction to AEM Communities {#introduction}
   + [Communities Sites](administer-landing.md)
   + [AEM Communities Overview](overview.md)
