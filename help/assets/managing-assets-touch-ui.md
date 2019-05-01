@@ -25,6 +25,10 @@ This article describes how to manage and edit assets using the Adobe Experience 
 
 You can upload various types of assets (including images, PDF files, RAW files, and so on) from your local folder or a network drive to AEM Assets.
 
+   >[!NOTE]
+   >
+   >In Dynamic Media - Scene7 mode, you can only upload assets whose file sizes are 2 GB or less.
+
 You can choose to upload assets to folders with or without a processing profile assigned to them.
 
 For folders that have a processing profile assigned, the profile name appears on the thumbnail in the card view. In the list view, the profile name appears in the **Processing Profile** column. See [Processing Profiles](processing-profiles.md).
@@ -112,16 +116,21 @@ Dynamic Media enables batch uploading of assets via FTP server. If you intend to
 
 >[!NOTE]
 >
->If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic (Scene7), are used.
+>In Dynamic Media - Scene7 mode, you can only upload assets whose file sizes are 2 GB or less.
+
+>[!NOTE]
+>
+>To upload assets by way of FTP in Dynamic Media - Scene7 mode, you must install feature pack 18912 on your AEM author instances. Contact Adobe Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](help/assets/bulk-ingest-migrate.md).
+If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
 
 **To upload assets using FTP**
 
 1. Using your choice of FTP client, log in to the FTP server using the FTP user name and password that you received from the provisioning email. In the FTP client, upload files or folders to the FTP server. 
-1. [Log in to Dynamic Media Classic (S7)](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials received from the provisioning email. On the Global Navigation Bar, tap/click **Upload**.  
+1. [Log in to Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials received from the provisioning email. On the Global Navigation Bar, tap/click **Upload**.  
 
-1. On the Upload page, near the upper-left corner, click the **Via FTP** tab.
+1. On the Upload page, near the upper-left corner, tap the **Via FTP** tab.
 1. On the left side of the page, choose an FTP folder to upload files from; on the right side of the page, choose a destination folder.
-1. Near the lower-right corner of the page, click **Job Options** and then set the options you want based on the assets in the folder you selected.
+1. Near the lower-right corner of the page, tap **Job Options** and then set the options you want based on the assets in the folder you selected.
 
    See [Upload Job Options](#upload-job-options).
 
@@ -129,11 +138,11 @@ Dynamic Media enables batch uploading of assets via FTP server. If you intend to
    >
    >When you upload assets via FTP, the upload job options you set in Dynamic Media Classic (S7) take precedent over asset processing parameters set in AEM.
 
-1. In the lower-right corner of the Upload Job Options dialog box, click **Save** 
-1. In the lower-right corner of the Upload page, click **Submit Upload**.
+1. In the lower-right corner of the Upload Job Options dialog box, tap **Save** 
+1. In the lower-right corner of the Upload page, tap **Submit Upload**.
 
-   To view the progress of the upload, on the Global Navigation Bar, click **Jobs**. The Jobs page displays the progress of the upload. You can continue working in AEM and return to the Jobs page in Dynamic Media Classic (S7) at any time to review an in-progress job.  
-   To cancel an upload job in progress, tap/click Cancel next to the Duration time.
+   To view the progress of the upload, on the Global Navigation Bar, tap **Jobs**. The Jobs page displays the progress of the upload. You can continue working in AEM and return to the Jobs page in Dynamic Media Classic at any time to review an in-progress job.  
+   To cancel an upload job in progress, tap **Cancel** next to the Duration time.
 
 #### Upload Job Options {#upload-job-options}
 
@@ -167,7 +176,7 @@ Dynamic Media enables batch uploading of assets via FTP server. If you intend to
   <tr> 
    <td>Job Options<br /> </td> 
    <td> </td> 
-   <td><p>Tap/click Job Options to open the Upload Job Options dialog box and choose options that affect the entire upload job. These options are the same for all file types.</p> <p>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose Setup &gt; Application Setup. Tap/click the Default Upload Options button to open the Upload Job Options dialog box. </p> </td> 
+   <td><p>Tap Job Options to open the Upload Job Options dialog box and choose options that affect the entire upload job. These options are the same for all file types.</p> <p>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose **Setup** &gt; **Application Setup**. Tap the **Default Upload Options** button to open the Upload Job Options dialog box. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
