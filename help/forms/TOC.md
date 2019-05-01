@@ -354,3 +354,27 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Designer FormCalc reference](http://www.adobe.com/go/learn_aemforms_formCalc_64)
 + Hardening AEM Forms Environment {#hardening-aem-forms-environment}
   + [Hardening and Securing AEM forms on OSGi environment](using/hardening-securing-aem-forms-environment.md)
++ Missing files - must be unlinked before deleting {#missing}
+  + [form bridge api](/help/forms/using/form-bridge-apis.md)
+  + [capabilities-osgi-jee-workflows](/help/forms/using/capabilities-osgi-jee-workflows.md)
+  + [configuring-watched-folder-endpoints](/help/forms/using/admin-help/configuring-watched-folder-endpoints.md)
+  + [gov-reference-site-walkthrough](/help/forms/using/gov-reference-site-walkthrough.md)
+  + [finance-reference-site-walkthrough](/help/forms/using/finance-reference-site-walkthrough.md)
+  + [setup-reference-sites](/help/forms/using/setup-reference-sites.md)
+  + [creating-configuring-roles](/help/forms/using/admin-help/creating-configuring-roles.md)
+  + [adding-domains](/help/forms/using/admin-help/adding-domains.md)
+  + [planning-interactive-communications](/help/forms/using/planning-interactive-communications.md)
+  + [create-form-data-model0](/help/forms/using/create-form-data-model0.md)
+  + [create-document-fragments](/help/forms/using/create-document-fragments.md)
+  + [create-templates-print-web](/help/forms/using/create-templates-print-web.md)
+  + [create-interactive-communication0](/help/forms/using/create-interactive-communication0.md)
+  + [lists](/help/forms/using/lists.md)
+  + [create-your-first-adaptive-form](/help/forms/using/create-your-first-adaptive-form.md)
+  + [scribble-signature](/help/forms/using/scribble-signature.md)
+  + [use-metadata-in-email-notifications](/help/forms/using/use-metadata-in-email-notifications.md)
+  + [adding-configuring-users](/help/forms/using/admin-help/adding-configuring-users.md)
+  + [creating-custom-adaptive-form-themes](/help/forms/using/creating-custom-adaptive-form-themes.md)
+  + [synchronizing-adaptive-forms-xfa](/help/forms/using/synchronizing-adaptive-forms-xfa.md)
+  + [aem-forms-workflow-step-reference](/help/forms/using/aem-forms-workflow-step-reference.md)
+
+

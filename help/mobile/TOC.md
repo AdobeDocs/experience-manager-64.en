@@ -123,6 +123,8 @@ user-guide-title: AEM 6.4 Mobile User Guide
     + [Configure Your Users and User Groups](aem-mobile-configure-users.md)
     + [App definitions](phonegap-app-definitions.md)
     + [AEM Mobile On-Demand](getting-started-aem-mobile-on-demand.md)
++ Missing - should be either not linked to if removed or kept in TOC {#missing}
+    + [mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
 
 <!--
 
