@@ -7,7 +7,7 @@ user-guide-title: AEM 6.4 Managing User Guide
 
 # AEM 6.4 Managing User Guide {#managing}
 
-+ Managing User Guide (home.md)
++ [Managing User Guide](home.md)
 + Managing - Best Practices Checklist {#managing-best-practices-checklist}
     + [Managing Projects - Best Practices Checklist](best-practices.md)
     + [The Checklist](best-practices-checklist.md)
