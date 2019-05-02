@@ -386,6 +386,11 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [create-adpative-form](/help/forms/using/create-adaptive-form.md)
   + [user-mgmt](/help/forms/using/user-management-handling-user-data.md)
   + [jee](/help/forms/using/forms-workflow-jee-handling-user-data.md)
+  + [portal-handling](/help/forms/using/forms-portal-handling-user-data.md)
+  + [create-form](/help/forms/using/create-form-data-model.md)
+  + [style](/help/forms/using/style-your-adaptive-form.md)
+  + [configuring](/help/forms/using/admin-help/configuring-directories.md)
+  + [correspondence](/help/forms/using/correspondence-management-handling-user-data.md)
 
 
 
