@@ -60,7 +60,7 @@ In the Content tab, manage the content such as document fragments and content va
 
    ![](assets/contentmodulefocus.png)
 
-   In the Content or Data tab, by tapping Highlight Selected Modules In Content ( ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/HighlightSelectedModulesinContentCCR.png)) on upper left of the preview, you can disable or enable functionality to go to the document fragment when the relevant text, paragraph, or data field is tapped/selected in the preview.
+   In the Content or Data tab, by tapping Highlight Selected Modules In Content ( ![](assets/HighlightSelectedModulesinContentCCR.png)) on upper left of the preview, you can disable or enable functionality to go to the document fragment when the relevant text, paragraph, or data field is tapped/selected in the preview.
 
    The fragments that are allowed to be edited by the agent while creating the Interactive Communication have the Edit Selected Content ( ![](assets/iconeditselectedcontent.png)) icon. Tap the Edit Selected Content icon to launch the fragment in edit mode and make changes in it. Use the following options for formatting and managing text:
 
@@ -75,7 +75,7 @@ In the Content tab, manage the content such as document fragments and content va
 
    For more information on the actions available for various document fragments in the Agent user interface, see [Actions and info available in the Agent user interface](#actionsagentui).
 
-1. To add a page break to the print output of the Interactive Communication, place the cursor where you want to insert a page break and select Page Break Before or Page Break After ( ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/PageBreakBeforeAfter.png)).
+1. To add a page break to the print output of the Interactive Communication, place the cursor where you want to insert a page break and select Page Break Before or Page Break After ( ![](assets/PageBreakBeforeAfter.png)).
 
    An explicit page break placeholder gets inserted in the Interactive Communication. To view how an explicit page break affects the Interactive Communication, see the print preview. 
 
@@ -91,7 +91,7 @@ In the Content tab, manage the content such as document fragments and content va
 
    ![](assets/attachmentsagentui.png)
 
-1. Tap the Library Access ( ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/LibraryAccess.png)) icon to access Content Library to insert DAM assets as attachments.
+1. Tap the Library Access ( ![](assets/LibraryAccess.png)) icon to access Content Library to insert DAM assets as attachments.
 
    >[!NOTE]
    >

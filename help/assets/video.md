@@ -428,7 +428,7 @@ Resolution and data rate are two integrally linked factors that determine video 
 
 The 640 x 480 file has four times more pixels per frame. To achieve the same data rate for these two example resolutions, you apply four times the compression to the 640 x 480 file, which can reduce the quality of the video. Therefore, a video data rate of 250 Kbps produces high-quality viewing at a 320 x 240 resolution, but not at a 640 x 480 resolution.
 
-![](https://help.adobe.com/en_US/scene7/using/images/tip_help.png)In general, the higher data rate you use, the better your video looks, and the higher resolution you use, the higher data rate you need to maintain viewing quality (compared to lower resolutions).
+![](assets/tip_help.png) In general, the higher data rate you use, the better your video looks, and the higher resolution you use, the higher data rate you need to maintain viewing quality (compared to lower resolutions).
 
 Because resolution and data rate are linked, you have two options when encoding video:
 
