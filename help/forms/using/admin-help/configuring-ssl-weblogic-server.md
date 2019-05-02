@@ -181,7 +181,7 @@ Configure WebLogic so that it uses the Custom Identity keystore and Custom Trust
 
 1. Under Trust, specify the following values:
 
-   **Custom Trust Keystore File Name**: *[appserverdomain]*/adobe/*[server]*/ads-ca.jks, where *[appserverdomain] *is the actual path
+   **Custom Trust Keystore File Name**: `*[appserverdomain]*/adobe/*[server]*/ads-ca.jks`, where `*[appserverdomain]*` is the actual path
 
    **Custom Trust Keystore Type**: JKS
 

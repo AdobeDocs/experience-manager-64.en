@@ -101,7 +101,7 @@ Each application server has a separate set of instructions to enable mutual auth
 
 1. Add certificates to AEM truststore and keystore:
 
-    1. Login to https://[server]:[port]/lc/libs/granite/security/content/useradmin.html as an administrator.
+    1. Login to `https://[server]:[port]/lc/libs/granite/security/content/useradmin.html` as an administrator.
     1. Tap **[!UICONTROL Administrator]**. The **Edit User Settings** page opens.
     1. Tap **[!UICONTROL Create trustStore]** and set an access password for trustStore. For more information, see [Add the IdP Certificate to the AEM TrustStore](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/saml-2-0-authenticationhandler.html#add-the-idp-certificate-to-the-aem-truststore).
     1. Tap **[!UICONTROL Create keyStore]** and set a password for keyStore. For more information, see [Add the Service Provider key and certificate chain to the AEM keystore](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/saml-2-0-authenticationhandler.html#add-the-service-provider-key-and-certificate-chain-to-the-aem-keystore).

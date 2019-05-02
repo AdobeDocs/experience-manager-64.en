@@ -18,7 +18,7 @@ By default, the synchronization scheduler runs after every 3 minutes to synchron
 
 Perform the following steps to change the interval of the synchronization scheduler:
 
-1. Log in to AEM Configuration Manager. The URL of Configuration Manager is https://[Server]:[Port]/lc/system/console/configMgr  
+1. Log in to AEM Configuration Manager. The URL of Configuration Manager is `https://[Server]:[Port]/lc/system/console/configMgr`  
 
 1. Locate and open the **FormsManagerConfiguration **bundle.   
 
@@ -29,7 +29,7 @@ Perform the following steps to change the interval of the synchronization schedu
 
 You can use the **Synchronize Assets from Repository **option to manually synchronize the assets. Perform the following steps to manually synchronize the assets:
 
-1. Log in to AEM Forms. The default URL is https://[Server]:[Port]/lc/aem/forms/.
+1. Log in to AEM Forms. The default URL is `https://[Server]:[Port]/lc/aem/forms/`.
 
    ![AEM Forms user interface](assets/aem_forms_ui.png)
 

@@ -101,7 +101,7 @@ Use the following steps to create a task to render and submit a letter in AEM Wo
    In the Define Activity dialog, select the appropriate activity such as getLetterInstanceInfo and click **OK**.
 
 1. Deploy the application. If prompted check-in and save the assets.
-1. Log in to the AEM forms workspace at https://[server]:[port]/lc/content/ws.
+1. Log in to the AEM forms workspace at `https://[server]:[port]/lc/content/ws`.
 1. Open the task you had added, CMRenderer. The Correspondence Management letter appears.
 
    ![](assets/cminworkspace.png)

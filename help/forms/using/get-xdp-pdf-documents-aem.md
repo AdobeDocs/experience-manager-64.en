@@ -60,7 +60,7 @@ AEM Forms server allows you to run JavaScript code. A malicious JavaScript code 
 
 The protected mode is on, by default. If necessary, you can disable the protected mode:
 
-1. Log in to AEM Web Console as an administrator. The URL is https://[server]:[port]/system/console/configMgr
+1. Log in to AEM Web Console as an administrator. The URL is `https://[server]:[port]/system/console/configMgr`
 1. Open Mobile Forms Configurations for editing.
 1. Deselect the Protected Mode option and click **Save**. The protected mode is disabled.
 

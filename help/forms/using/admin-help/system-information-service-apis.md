@@ -26,7 +26,7 @@ The system information service provides a set of REST APIs to retrieve informati
  <tbody>
   <tr>
    <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.properties</p></td> 
-   <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>https://[server]:[port]/rest/services/SystemInfo.properties</p></td> 
+   <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>https://[server]:[port]/rest/services/SystemInfo.properties`</p></td> 
    <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>This API is a wrapper for <a href="https://docs.oracle.com/javase/6/docs/api/java/lang/System.html#getProperties()">system.getProperties</a> Java API. It retrieves configuration of the current working environment. </p></td> 
   </tr> 
   <tr>

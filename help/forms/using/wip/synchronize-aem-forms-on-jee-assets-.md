@@ -26,7 +26,7 @@ It ensures all the assets that are added via either AEM Forms management user in
 
 By default, the synchronization scheduler runs after every 3 minutes. You can perform the following steps to change the interval of the synchronization scheduler:
 
-1. Log in to AEM Configuration Manager. The URL of Configuration Manager is https://[Server]:[Port]/lc/system/console/configMgr.Step text
+1. Log in to AEM Configuration Manager. The URL of Configuration Manager is `https://[Server]:[Port]/lc/system/console/configMgr.Step text`
 1. Locate and open **FormsManager AddOn Configuration**.
 1. Change the value of the **Synchronization Scheduler Frequency** option. The unit of the frequency is minutes. To configure the scheduler to run after every 60 minutes, change the value to 60.
 

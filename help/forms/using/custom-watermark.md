@@ -18,7 +18,7 @@ In the Create Correspondence UI, agent users preview the correspondence in final
 
 To prevent unauthorized use of this data, organizations can impose a watermark on the preview PDF. The default watermark is "PREVIEW", which appears across the PDF.
 
-To enable the watermark in preview PDF, select the **[!UICONTROL Apply Watermark]** During Preview option in **[!UICONTROL Correspondence Management Configurations]** at https://[server]:[port]/system/console/configMgr.
+To enable the watermark in preview PDF, select the **[!UICONTROL Apply Watermark]** During Preview option in **[!UICONTROL Correspondence Management Configurations]** at `https://[server]:[port]/system/console/configMgr`.
 
 ![](assets/default-watermark.png)
 
