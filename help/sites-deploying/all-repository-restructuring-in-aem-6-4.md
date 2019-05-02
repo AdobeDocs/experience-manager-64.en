@@ -52,11 +52,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/workflow/models</span></td> 
+   <td><code>/etc/workflow/models</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/workflow/models</span></p> <p><span class="code">/conf/global/settings/workflow/models</span></p> <p><span class="code">/var/workflow/models</span></p> </td> 
+   <td><p><code>/libs/settings/workflow/models</code></p> <p><code>/conf/global/settings/workflow/models</code></p> <p><code>/var/workflow/models</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -77,8 +77,8 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
       <ol> 
        <li>For example, export:
         <ul> 
-         <li><span class="code">/config/settings/workflow/models/dam/my_workflow_model</span><br /> and </li> 
-         <li><span class="code">/var/workflow/models/dam/my_workflow_model</span></li> 
+         <li><code>/config/settings/workflow/models/dam/my_workflow_model</code><br /> and </li> 
+         <li><code>/var/workflow/models/dam/my_workflow_model</code></li> 
         </ul> </li> 
       </ol> </li> 
     </ol> </td> 
@@ -87,9 +87,9 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
    <td><strong>Notes</strong></td> 
    <td><p>Workflow Model resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/conf/global/settings/workflow/models</span></li> 
-     <li><span class="code">/libs/settings/workflow/models</span></li> 
-     <li><span class="code">/etc/workflow/models</span></li> 
+     <li><code>/conf/global/settings/workflow/models</code></li> 
+     <li><code>/libs/settings/workflow/models</code></li> 
+     <li><code>/etc/workflow/models</code></li> 
     </ol> <p>Thus, any customizations of AEM-provided Workflow Models persisted in the Previous location must be moved to /conf/global/settings/workflow/models if they are to be retained, otherwise they will be superseded by the AEM-provided Workflow Model definition in /libs/settings/workflow/models.</p> </td> 
   </tr>
  </tbody>
@@ -101,11 +101,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/workflow/instances</span></td> 
+   <td><code>/etc/workflow/instances</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/var/workflow/instances</span></td> 
+   <td><code>/var/workflow/instances</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -127,27 +127,27 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/workflow/launcher/config</span></td> 
+   <td><code>/etc/workflow/launcher/config</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/workflow/launcher/config</span></p> <p><span class="code">/conf/global/settings/workflow/launcher/config</span></p> </td> 
+   <td><p><code>/libs/settings/workflow/launcher/config</code></p> <p><code>/conf/global/settings/workflow/launcher/config</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Any new or modified Workflow Launchers must be migrated to <span class="code">/conf/global/workflow/launcher/config</span>.</p> 
+   <td><p>Any new or modified Workflow Launchers must be migrated to <code>/conf/global/workflow/launcher/config</code>.</p> 
     <ol> 
-     <li>Copy any new or modified Workflow Launcher configurations from the Previous Location to New Location (<span class="code">/conf/global</span>).</li> 
+     <li>Copy any new or modified Workflow Launcher configurations from the Previous Location to New Location (<code>/conf/global</code>).</li> 
     </ol> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
    <td><p>Workflow Launcher resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/conf/global/settings/workflow/launcher</span></li> 
-     <li><span class="code">/libs/settings/workflow/launcher</span></li> 
-     <li><span class="code">/etc/workflow/launcher</span></li> 
-    </ol> <p>Thus, any customizations of AEM-provided Workflow Launcher persisted in the Previous location must be moved to the New Location (<span class="code">/conf/global/settings/workflow/launcher</span> if they are to be retained, otherwise they will be superseded by the AEM-provided Workflow Launcher definition in <span class="code">/libs/settings/workflow/launcher</span>.</p> </td> 
+     <li><code>/conf/global/settings/workflow/launcher</code></li> 
+     <li><code>/libs/settings/workflow/launcher</code></li> 
+     <li><code>/etc/workflow/launcher</code></li> 
+    </ol> <p>Thus, any customizations of AEM-provided Workflow Launcher persisted in the Previous location must be moved to the New Location (<code>/conf/global/settings/workflow/launcher</code> if they are to be retained, otherwise they will be superseded by the AEM-provided Workflow Launcher definition in <code>/libs/settings/workflow/launcher</code>.</p> </td> 
   </tr>
  </tbody>
 </table>
@@ -158,11 +158,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/workflow/scripts</span></td> 
+   <td><code>/etc/workflow/scripts</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/workflow/scripts</span></p> <p><span class="code">/apps/workflow/scripts</span></p> </td> 
+   <td><p><code>/libs/workflow/scripts</code></p> <p><code>/apps/workflow/scripts</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -170,7 +170,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
     <ol> 
      <li>Copy any new or modified Workflow Scripts from the Previous Location to the New Location.<br /> 
       <ul> 
-       <li><span class="code">/apps/workflow/scripts</span> should be maintained in SCM.</li> 
+       <li><code>/apps/workflow/scripts</code> should be maintained in SCM.</li> 
       </ul> </li> 
      <li>Update any references to the Workflow Scripts at the Previous Location in Workflow Models to point to the New Locations.</li> 
     </ol> </td> 
@@ -193,11 +193,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/cloudsettings</span></td> 
+   <td><code>/etc/cloudsettings</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/cloudsettings</span></p> <p><span class="code">/conf/global/settings/cloudsettings</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudsettings</span></p> </td> 
+   <td><p><code>/libs/settings/cloudsettings</code></p> <p><code>/conf/global/settings/cloudsettings</code></p> <p><code>/conf/&lt;tenant&gt;/settings/cloudsettings</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -224,18 +224,18 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/designs/cloudservices</span></td> 
+   <td><code>/etc/designs/cloudservices</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/wcm/designs/cloudservices</span></p> <p><span class="code">/apps/settings/wcm/designs/cloudservices</span></p> </td> 
+   <td><p><code>/libs/settings/wcm/designs/cloudservices</code></p> <p><code>/apps/settings/wcm/designs/cloudservices</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
-     <li>Copy the designs from the Previous Location to the New Location (<span class="code">/apps</span>).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Copy the designs from the Previous Location to the New Location (<code>/apps</code>).</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the <span class="code">
        <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
         cq
@@ -247,7 +247,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 
     <ul> 
-     <li>Do not move author-able Designs out of <span class="code">/etc</span>.</li> 
+     <li>Do not move author-able Designs out of <code>/etc</code>.</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -263,18 +263,18 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/designs/dashboards</span></td> 
+   <td><code>/etc/designs/dashboards</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/wcm/designs/dashboards</span></p> <p><span class="code">/apps/settings/wcm/designs/dashboards</span></p> </td> 
+   <td><p><code>/libs/settings/wcm/designs/dashboards</code></p> <p><code>/apps/settings/wcm/designs/dashboards</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
        cq
@@ -286,7 +286,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 
     <ul> 
-     <li>Do not move author-able Designs out of <span class="code">/etc</span>.</li> 
+     <li>Do not move author-able Designs out of <code>/etc</code>.</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -302,18 +302,18 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/designs/reports</span></td> 
+   <td><code>/etc/designs/reports</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/wcm/designs/reports</span></p> <p><span class="code">/apps/settings/wcm/designs/reports</span></p> </td> 
+   <td><p><code>/libs/settings/wcm/designs/reports</code></p> <p><code>/apps/settings/wcm/designs/reports</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="19" id="19">
        cq
@@ -325,7 +325,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 
     <ul> 
-     <li>Do not move author-able Designs out of <span class="code">/etc</span>.</li> 
+     <li>Do not move author-able Designs out of <code>/etc</code>.</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -341,18 +341,18 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/designs/default</span></td> 
+   <td><code>/etc/designs/default</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/wcm/designs/default</span></p> <p><span class="code">/apps/settings/wcm/designs/default</span></p> </td> 
+   <td><p><code>/libs/settings/wcm/designs/default</code></p> <p><code>/apps/settings/wcm/designs/default</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
        cq
@@ -364,7 +364,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 
     <ul> 
-     <li>Do not move author-able Designs out of <span class="code">/etc</span>.</li> 
+     <li>Do not move author-able Designs out of <code>/etc</code>.</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -380,11 +380,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/clientlibs/dtm</span></td> 
+   <td><code>/etc/clientlibs/dtm</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/var/cq/dtm/clientlibs</span></td> 
+   <td><code>/var/cq/dtm/clientlibs</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -403,11 +403,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/dtm-hook</span></td> 
+   <td><code>/etc/dtm-hook</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/var/cq/dtm/web-hook</span></td> 
+   <td><code>/var/cq/dtm/web-hook</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -426,11 +426,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/taskmanagement</span></td> 
+   <td><code>/etc/taskmanagement</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/var/taskmanagement</span></td> 
+   <td><code>/var/taskmanagement</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -453,18 +453,18 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong><em></em>Previous location</strong></td> 
-   <td><span class="code">/etc/blueprints</span></td> 
+   <td><code>/etc/blueprints</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/msm</span></p> <p><span class="code">/apps/msm</span></p> </td> 
+   <td><p><code>/libs/msm</code></p> <p><code>/apps/msm</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td>
     <ol> 
-     <li>Copy custom configurations from <span class="code">/etc/blueprints</span> to <span class="code">/apps/msm</span>.</li> 
-     <li>Remove <span class="code">/etc/blueprints</span>.</li> 
+     <li>Copy custom configurations from <code>/etc/blueprints</code> to <code>/apps/msm</code>.</li> 
+     <li>Remove <code>/etc/blueprints</code>.</li> 
     </ol> </td> 
   </tr>
   <tr>
@@ -480,19 +480,19 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/projects/dashboard/gadgets</span></td> 
+   <td><code>/etc/projects/dashboard/gadgets</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/cq/core/content/projects/dashboard/gadgets</span></p> <p><span class="code">/apps/cq/core/content/projects/dashboard/gadgets</span></p> </td> 
+   <td><p><code>/libs/cq/core/content/projects/dashboard/gadgets</code></p> <p><code>/apps/cq/core/content/projects/dashboard/gadgets</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Any new or modified AEM Projects Dashboard Gadget Configurations must be migrated to the new location (<span class="code">/apps</span>).</p> 
+   <td><p>Any new or modified AEM Projects Dashboard Gadget Configurations must be migrated to the new location (<code>/apps</code>).</p> 
     <ol> 
-     <li>Copy any new or modified AEM Projects Dashboard Gadget Configurations from the previous location to the new location (<span class="code">/apps</span>).
+     <li>Copy any new or modified AEM Projects Dashboard Gadget Configurations from the previous location to the new location (<code>/apps</code>).
       <ol> 
-       <li>Do not copy unmodified AEM Projects Dashboard Gadget Configurations as these now exist in the new location (<span class="code">/libs</span>).</li> 
+       <li>Do not copy unmodified AEM Projects Dashboard Gadget Configurations as these now exist in the new location (<code>/libs</code>).</li> 
       </ol> </li> 
      <li>Update any AEM Projects templates that reference the Previous Location to point to the appropriate new location.</li> 
     </ol> </td> 
@@ -510,17 +510,17 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/notification/email/default/com.day.cq.replication</span></td> 
+   <td><code>/etc/notification/email/default/com.day.cq.replication</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/notification-templates/com.day.cq.replication</span></p> <p><span class="code">/apps/settings/notification-templates/com.day.cq.replication</span></p> </td> 
+   <td><p><code>/libs/settings/notification-templates/com.day.cq.replication</code></p> <p><code>/apps/settings/notification-templates/com.day.cq.replication</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Any new or modified Replication Notification E-mail Templates must be migrated to the new location (<span class="code">/apps</span>)</p> 
+   <td><p>Any new or modified Replication Notification E-mail Templates must be migrated to the new location (<code>/apps</code>)</p> 
     <ol> 
-     <li>Copy any new or modified Replication Notification E-mail Templates from the previous location to new location (<span class="code">/apps</span>).</li> 
+     <li>Copy any new or modified Replication Notification E-mail Templates from the previous location to new location (<code>/apps</code>).</li> 
      <li>Remove any migrated Replication Notification E-mail Templates from the previous location.</li> 
     </ol> </td> 
   </tr>
@@ -528,10 +528,10 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
    <td><strong>Notes</strong></td> 
    <td><p>The only supported new Replication Notification E-mail Templates are to support new locales.</p> <p>Replication Notification E-mail Template resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/etc/notification/email/default/com.day.cq.replication</span></li> 
+     <li><code>/etc/notification/email/default/com.day.cq.replication</code></li> 
      <li><code class="code">/apps/settings/notification-templates/com.day.cq.replication
         </code></li> 
-     <li><span class="code">/libs/settings/notification-templates/com.day.cq.replication</span></li> 
+     <li><code>/libs/settings/notification-templates/com.day.cq.replication</code></li> 
     </ol> </td> 
   </tr>
  </tbody>
@@ -543,15 +543,15 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/tags</span></td> 
+   <td><code>/etc/tags</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/content/cq:tags</span></td> 
+   <td><code>/content/cq:tags</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>All Tags must be migrated to <span class="code">/content/cq:tags</span>.</p> 
+   <td><p>All Tags must be migrated to <code>/content/cq:tags</code>.</p> 
     <ol> 
      <li>Copy all Tags from the Previous Location to the New Location.</li> 
      <li>Remove all Tags from the Previous Location.</li> 
@@ -560,7 +560,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
-   <td><p>Restarting the Day Communique Tagging OSGi bundle will only register the New Location as the tag root if the Previous Location is empty.</p> <p>References to the Previous Location will continue to work after migrating to New Location for all functionality that leverages AEM's TagManager API for tag resolution.</p> <p>Any custom code that explicitly references the path <span class="code">/etc/tags</span> must be updated to <span class="code">/content/
+   <td><p>Restarting the Day Communique Tagging OSGi bundle will only register the New Location as the tag root if the Previous Location is empty.</p> <p>References to the Previous Location will continue to work after migrating to New Location for all functionality that leverages AEM's TagManager API for tag resolution.</p> <p>Any custom code that explicitly references the path <code>/etc/tags</code> must be updated to <span class="code">/content/
       <g class="gr_ gr_14 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="14" id="14">
        cq
       </g>
@@ -577,20 +577,20 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/cloudservices/translation</span></td> 
+   <td><code>/etc/cloudservices/translation</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/cloudconfigs/translation/translationcfg</span></p> <p><span class="code">/apps/settings/cloudconfigs/translation/translationcfg</span></p> <p><span class="code">/conf/global/settings/cloudconfigs/translation/translationcfg</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/translation/translationcfg</span></p> </td> 
+   <td><p><code>/libs/settings/cloudconfigs/translation/translationcfg</code></p> <p><code>/apps/settings/cloudconfigs/translation/translationcfg</code></p> <p><code>/conf/global/settings/cloudconfigs/translation/translationcfg</code></p> <p><code>/conf/&lt;tenant&gt;/settings/cloudconfigs/translation/translationcfg</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Any new Translation Cloud Services must be migrated to the new location (<span class="code">/apps</span>, <span class="code">/conf/global</span> or <span class="code">/conf/&lt;tenant&gt;</span>).</p> 
+   <td><p>Any new Translation Cloud Services must be migrated to the new location (<code>/apps</code>, <code>/conf/global</code> or <code>/conf/&lt;tenant&gt;</code>).</p> 
     <ol> 
      <li>Migrate existing configurations in the previous location to the new location.
       <ul> 
        <li>Manually recreate new Translation Cloud Services configurations via the AEM authoring UI at <strong>Tools &gt; Cloud Services &gt; Translation Cloud Services</strong>.<br /> OR </li> 
-       <li>Copy any new Translation Cloud Services configurations from the Previous Location to the New Location (<span class="code">/apps</span>, <span class="code">/conf/global</span> or <span class="code">/conf/&lt;tenant&gt;</span>).</li> 
+       <li>Copy any new Translation Cloud Services configurations from the Previous Location to the New Location (<code>/apps</code>, <code>/conf/global</code> or <code>/conf/&lt;tenant&gt;</code>).</li> 
       </ul> </li> 
      <li>Associate the applicable AEM configurations with the AEM content hierarchies.
       <ol> 
@@ -607,10 +607,10 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
    <td><strong>Notes</strong></td> 
    <td><p>Translation Cloud Services resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/translations/translationcfg</span></li> 
-     <li><span class="code">/conf/global/settings/cloudconfigs/translations/translationcfg</span></li> 
-     <li><span class="code">/apps/settings/cloudconfigs/translations/translationcfg</span></li> 
-     <li><span class="code">/libs/settings/cloudconfigs/translations/translationcfg</span></li> 
+     <li><code>/conf/&lt;tenant&gt;/settings/cloudconfigs/translations/translationcfg</code></li> 
+     <li><code>/conf/global/settings/cloudconfigs/translations/translationcfg</code></li> 
+     <li><code>/apps/settings/cloudconfigs/translations/translationcfg</code></li> 
+     <li><code>/libs/settings/cloudconfigs/translations/translationcfg</code></li> 
     </ol> <p>Migrated Translation Cloud Services must be compatible with AEM 6.4.</p> </td> 
   </tr>
  </tbody>
@@ -622,26 +622,26 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/translation/supportedLanguages</span></td> 
+   <td><code>/etc/translation/supportedLanguages</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/translation/supportedLanguages</span></p> <p><span class="code">/apps/settings/translation/supportedLanguages</span></p> </td> 
+   <td><p><code>/libs/settings/translation/supportedLanguages</code></p> <p><code>/apps/settings/translation/supportedLanguages</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Any new or modified Translation Language definitions require a migration of all Translation Language definitions to the new location (<span class="code">/apps</span>).</p> 
+   <td><p>Any new or modified Translation Language definitions require a migration of all Translation Language definitions to the new location (<code>/apps</code>).</p> 
     <ol> 
-     <li>If any additions or modifications have been made to the Translation Language definitions, then copy all Translation Language definitions from the previous location to the new location (<span class="code">/apps</span>).</li> 
+     <li>If any additions or modifications have been made to the Translation Language definitions, then copy all Translation Language definitions from the previous location to the new location (<code>/apps</code>).</li> 
     </ol> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
    <td><p>Translation Language path resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/etc/translation/supportedLanguages</span></li> 
-     <li><span class="code">/apps/settings/translation/supportedLanguage</span></li> 
-     <li><span class="code">/libs/settings/translation/supportedLanguages</span></li> 
+     <li><code>/etc/translation/supportedLanguages</code></li> 
+     <li><code>/apps/settings/translation/supportedLanguage</code></li> 
+     <li><code>/libs/settings/translation/supportedLanguages</code></li> 
     </ol> <p>This resolution does not support a merging overlay, meaning the resolved path must contain all Supported Languages, and will not inherit Supported Languages from higher-order resolutions.</p> </td> 
   </tr>
  </tbody>
@@ -653,26 +653,26 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/workflow/models/translation/translation_rules.xml</span></td> 
+   <td><code>/etc/workflow/models/translation/translation_rules.xml</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/translation/rules/translation_rules.xml</span></p> <p><span class="code">/apps/settings/translation/rules/translation_rules.xml</span></p> <p><span class="code">/conf/global/settings/translation/rules/translation_rules.xml</span></p> </td> 
+   <td><p><code>/libs/settings/translation/rules/translation_rules.xml</code></p> <p><code>/apps/settings/translation/rules/translation_rules.xml</code></p> <p><code>/conf/global/settings/translation/rules/translation_rules.xml</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>A modified Translation Rules XML file must be migrated to the new location (<span class="code">/apps</span>, or <span class="code">/conf/global</span>).</p> <p>1. Copy the modified Translation Rules XML file from the previous location to the new location.</p> </td> 
+   <td><p>A modified Translation Rules XML file must be migrated to the new location (<code>/apps</code>, or <code>/conf/global</code>).</p> <p>1. Copy the modified Translation Rules XML file from the previous location to the new location.</p> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
    <td><p>Replication Translation Rules XML resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/conf/global/settings/translation/rules/translation_rules.xml</span></li> 
+     <li><code>/conf/global/settings/translation/rules/translation_rules.xml</code></li> 
      <li><code class="code">/apps/settings/translation/rules/translation_rules.xml
         </code></li> 
      <li><code class="code">/etc/workflow/models/translation/translation_rules.xml
         </code></li> 
-     <li><span class="code">/libs/settings/translation/rules/translation_rules.xml</span></li> 
+     <li><code>/libs/settings/translation/rules/translation_rules.xml</code></li> 
     </ol> </td> 
   </tr>
  </tbody>
@@ -684,18 +684,18 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/designs/translation/translationwidget</span></td> 
+   <td><code>/etc/designs/translation/translationwidget</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/wcm/designs/translation/translationwidget</span></p> <p><span class="code">/apps/settings/wcm/designs/translation/translationwidget</span></p> </td> 
+   <td><p><code>/libs/settings/wcm/designs/translation/translationwidget</code></p> <p><code>/apps/settings/wcm/designs/translation/translationwidget</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the 
       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
        cq
@@ -707,7 +707,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 
     <ul> 
-     <li>Do not move author-able Designs out of <span class="code">/etc</span>.</li> 
+     <li>Do not move author-able Designs out of <code>/etc</code>.</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -731,22 +731,22 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/cloudservices/&lt;vendor&gt;</span></td> 
+   <td><code>/etc/cloudservices/&lt;vendor&gt;</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/cloudconfigs/translation/&lt;vendor&gt;</span></p> <p><code class="code">/apps/settings/cloudconfigs/translation/&lt;vendor&gt;
+   <td><p><code>/libs/settings/cloudconfigs/translation/&lt;vendor&gt;</code></p> <p><code class="code">/apps/settings/cloudconfigs/translation/&lt;vendor&gt;
        </code></p> <p><code class="code">/conf/global/settings/cloudconfigs/translation/&lt;vendor&gt;
-       </code></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/translation/&lt;vendor&gt;</span></p> </td> 
+       </code></p> <p><code>/conf/&lt;tenant&gt;/settings/cloudconfigs/translation/&lt;vendor&gt;</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Any new Vendor Translation Connector Cloud Services must be migrated to the new location (<span class="code">/apps</span>, <span class="code">/conf/global</span> or <span class="code">/conf/&lt;tenant&gt;</span>).</p> 
+   <td><p>Any new Vendor Translation Connector Cloud Services must be migrated to the new location (<code>/apps</code>, <code>/conf/global</code> or <code>/conf/&lt;tenant&gt;</code>).</p> 
     <ol> 
      <li>Migrate existing configurations in the Previous Location to the New Location.
       <ul> 
        <li>Manually create net-new Vendor Translation Connector Cloud Services configurations via the <strong>AEM authoring UI at Tools &gt; Cloud Services &gt; Translation Cloud Services</strong>.<br /> OR </li> 
-       <li>Copy any new Vendor Translation Connector Cloud Services configurations from previous location to the new location (<span class="code">/apps</span>, <span class="code">/conf/global </span>or <span class="code">/conf/&lt;tenant&gt;</span>).</li> 
+       <li>Copy any new Vendor Translation Connector Cloud Services configurations from previous location to the new location (<code>/apps</code>, <code>/conf/global </code>or <code>/conf/&lt;tenant&gt;</code>).</li> 
       </ul> </li> 
      <li>Associate the applicable AEM configurations with the AEM content hierarchies.
       <ol> 
@@ -763,10 +763,10 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
    <td><strong>Notes</strong></td> 
    <td><p>Translation Cloud Services resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/translations/&lt;vendor&gt;</span></li> 
-     <li><span class="code">/conf/global/settings/cloudconfigs/translations/&lt;vendor&gt;</span></li> 
-     <li><span class="code">/apps/settings/cloudconfigs/translations/&lt;vendor&gt;</span></li> 
-     <li><span class="code">/libs/settings/cloudconfigs/translations/&lt;vendor&gt;</span></li> 
+     <li><code>/conf/&lt;tenant&gt;/settings/cloudconfigs/translations/&lt;vendor&gt;</code></li> 
+     <li><code>/conf/global/settings/cloudconfigs/translations/&lt;vendor&gt;</code></li> 
+     <li><code>/apps/settings/cloudconfigs/translations/&lt;vendor&gt;</code></li> 
+     <li><code>/libs/settings/cloudconfigs/translations/&lt;vendor&gt;</code></li> 
     </ol> </td> 
   </tr>
  </tbody>
@@ -778,15 +778,15 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/workflow/notification</span></td> 
+   <td><code>/etc/workflow/notification</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/workflow/notification</span></p> <p><span class="code">/conf/global/settings/workflow/notification</span></p> </td> 
+   <td><p><code>/libs/settings/workflow/notification</code></p> <p><code>/conf/global/settings/workflow/notification</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Any modified Workflow Notification Email Templates must be migrated to the New Location (<span class="code">/conf/global</span>).</p> 
+   <td><p>Any modified Workflow Notification Email Templates must be migrated to the New Location (<code>/conf/global</code>).</p> 
     <ol> 
      <li>Copy any modified Workflow Notification Email Templates from the previous location to the new location.</li> 
      <li>Remove migrated Workflow Notification Email Templates from the previous location.</li> 
@@ -796,9 +796,9 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
    <td><strong>Notes</strong></td> 
    <td><p>Workflow Notification Email Template resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/etc/workflow/notification</span></li> 
-     <li><span class="code">/conf/global/settings/workflow/notification</span></li> 
-     <li><span class="code">/libs/settings/workflow/notification</span></li> 
+     <li><code>/etc/workflow/notification</code></li> 
+     <li><code>/conf/global/settings/workflow/notification</code></li> 
+     <li><code>/libs/settings/workflow/notification</code></li> 
     </ol> </td> 
   </tr>
  </tbody>
@@ -810,11 +810,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/workflow/packages</span></td> 
+   <td><code>/etc/workflow/packages</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/var/workflow/packages</span></td> 
+   <td><code>/var/workflow/packages</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 

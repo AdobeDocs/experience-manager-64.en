@@ -174,12 +174,12 @@ Dynamic Media supports the delivery of static assets, which are additional asset
       <td><strong>Protocol selector to use</strong></td> 
       </tr> 
       <tr> 
-      <td><p>HTTP</p> <p>If you are using HTTP (non-secure video delivery), be sure you change <span class="code">https</span> to <span class="code">http</span> in the Video Service URL value you copied earlier.</p> </td> 
-      <td><span class="code">public/</span></td> 
+      <td><p>HTTP</p> <p>If you are using HTTP (non-secure video delivery), be sure you change <code>https</code> to <code>http</code> in the Video Service URL value you copied earlier.</p> </td> 
+      <td><code>public/</code></td> 
       </tr> 
       <tr> 
       <td>HTTPS</td> 
-      <td><span class="code">public-ssl/</span></td> 
+      <td><code>public-ssl/</code></td> 
       </tr> 
     </tbody> 
    </table>

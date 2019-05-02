@@ -81,12 +81,9 @@ When a workflow fails, AEM provides the **Failures** console to allow you to inv
 * **Open History** 
   Shows details of the workflow history.
 
-* **Retry Step  
-  **Executes the Script Step component instance again. Use the Retry Step command after you have fixed the cause of the original errror. For example, retry the step after you fix a bug in the script that the Process Step executes.
-* **Terminate  
-  **Terminate the workflow if the error has caused an irreconsilable situation for the workflow. For example, the workflow can rely on environmental conditions such as information in the respository that are no longer valid for the workflow intance.
-* **Terminate and Retry  
-  **Similar to **Terminate** except that a new workflow instance is started using the original payload, title, and description.
+* **Retry Step** Executes the Script Step component instance again. Use the Retry Step command after you have fixed the cause of the original errror. For example, retry the step after you fix a bug in the script that the Process Step executes.
+* **Terminate** Terminate the workflow if the error has caused an irreconsilable situation for the workflow. For example, the workflow can rely on environmental conditions such as information in the respository that are no longer valid for the workflow intance.
+* **Terminate and Retry** Similar to **Terminate** except that a new workflow instance is started using the original payload, title, and description.
 
 To investigate failures, then resume or terminate the workflow afterwards, use the following steps:
 

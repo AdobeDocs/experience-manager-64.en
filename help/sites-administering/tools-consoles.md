@@ -55,7 +55,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
   <tr> 
    <td width="200">DAM - Health Checker<br /> </td> 
    <td> </td> 
-   <td>Compares <span class="code">/var/dam</span> and <span class="code">/content/dam</span> and checks for<br /> any inconsistencies. Any files/folders listed can then be synchronized or deleted. Node types for folder comparison are configurable in the web console.</td> 
+   <td>Compares <code>/var/dam</code> and <code>/content/dam</code> and checks for<br /> any inconsistencies. Any files/folders listed can then be synchronized or deleted. Node types for folder comparison are configurable in the web console.</td> 
   </tr> 
   <tr> 
    <td width="200">DAM - Adobe Indesign<br /> </td> 

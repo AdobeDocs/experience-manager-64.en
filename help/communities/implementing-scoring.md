@@ -205,7 +205,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
    <th style="text-align: left;"> Value Description</th> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><i><span class="code">VERB</span></i></td> 
+   <td style="text-align: center;"><i><code>VERB</code></i></td> 
    <td style="text-align: center;">Long</td> 
    <td style="text-align: left;"> 
     <ul> 
@@ -219,7 +219,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
     </ul> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><span class="code">topics</span></td> 
+   <td style="text-align: center;"><code>topics</code></td> 
    <td style="text-align: center;">String[]</td> 
    <td style="text-align: left;"> 
     <ul> 
@@ -230,7 +230,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
     </ul> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><span class="code">forOwner</span></td> 
+   <td style="text-align: center;"><code>forOwner</code></td> 
    <td style="text-align: center;">Boolean</td> 
    <td style="text-align: left;"> 
     <ul> 
@@ -241,7 +241,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
     </ul> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><span class="code">scoringType</span></td> 
+   <td style="text-align: center;"><code>scoringType</code></td> 
    <td style="text-align: center;">String</td> 
    <td style="text-align: left;"> 
     <ul> 
@@ -343,7 +343,7 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
      <li>number = score</li> 
      <li>| = the vertical line char (U+007C)</li> 
      <li>path = full path to badge image resource</li> 
-    </ul> The strings must be ordered so that the numbers are increasing in value and no whitespace should appear between the number and path.<br /> Example entry:<br /> <span class="code">80|/etc/community/badging/images/gold-badge/jcr:content/gold.png</span></td> 
+    </ul> The strings must be ordered so that the numbers are increasing in value and no whitespace should appear between the number and path.<br /> Example entry:<br /> <code>80|/etc/community/badging/images/gold-badge/jcr:content/gold.png</code></td> 
   </tr> 
   <tr> 
    <td style="text-align: center;">badgingType</td> 

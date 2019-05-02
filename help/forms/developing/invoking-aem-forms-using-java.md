@@ -888,35 +888,35 @@ Determine the MIME type of a `com.adobe.idp.Document` object by invoking the `co
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/pdf</span></p></td> 
+   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/pdf</code></p></td> 
    <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>PDF document</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/vnd.adobe.xdp+xml</span></p></td> 
+   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/vnd.adobe.xdp+xml</code></p></td> 
    <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>XML Data Packaging (XDP), which is used for exported XML Forms Architecture (XFA) forms</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">text/xml</span></p></td> 
+   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>text/xml</code></p></td> 
    <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Bookmarks, attachments, or other XML documents</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/vnd.fdf</span></p></td> 
+   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/vnd.fdf</code></p></td> 
    <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Forms Data Format (FDF), which is used for exported Acrobat forms</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/vnd.adobe.xfdf</span></p></td> 
+   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/vnd.adobe.xfdf</code></p></td> 
    <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>XML Forms Data Format (XFDF), which is used for exported Acrobat forms</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/rdf+xml</span></p></td> 
+   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/rdf+xml</code></p></td> 
    <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Rich data format and XML</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/octet-stream</span></p></td> 
+   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/octet-stream</code></p></td> 
    <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Generic data format</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">NULL</span></p></td> 
+   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>NULL</code></p></td> 
    <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Unspecified MIME type</p></td> 
   </tr> 
  </tbody> 

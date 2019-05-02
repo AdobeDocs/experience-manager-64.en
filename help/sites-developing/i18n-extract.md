@@ -75,15 +75,15 @@ When used within a pattern, the / character indicates a subdirectory and the &#4
    <th>Effect</th> 
   </tr> 
   <tr> 
-   <td><span class="code">{ /include "*" }</span></td> 
+   <td><code>{ /include "*" }</code></td> 
    <td>Include all files.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">{ /exclude "*.pdf" }</span></td> 
+   <td><code>{ /exclude "*.pdf" }</code></td> 
    <td>Exclude all PDF files.</td> 
   </tr> 
   <tr> 
-   <td><span class="code"> { /exclude "*/pom.xml" }</span></td> 
+   <td><code> { /exclude "*/pom.xml" }</code></td> 
    <td>Exclude POM files.</td> 
   </tr> 
   <tr> 

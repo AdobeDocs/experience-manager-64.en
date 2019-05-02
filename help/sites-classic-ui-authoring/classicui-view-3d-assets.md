@@ -60,7 +60,7 @@ To view 3D assets:
   </tr> 
   <tr> 
    <td><p>Zoom</p> <p>or</p> <p>Persp</p> </td> 
-   <td><p>Tap or click to toggle between Zoom and Perspective modes.</p> <p>Or, press and hold down the <span class="code">ALT/OPTION</span> key during the action to temporarily toggle to Perspective<br /> mode. Release the key to revert to Zoom mode.</p> 
+   <td><p>Tap or click to toggle between Zoom and Perspective modes.</p> <p>Or, press and hold down the <code>ALT/OPTION</code> key during the action to temporarily toggle to Perspective<br /> mode. Release the key to revert to Zoom mode.</p> 
     <ul> 
      <li><strong>Zoom</strong>-Dolly in and out behavior which moves the camera closer or further away from the asset<br /> that you are viewing. Zoom is the default behavior for the scroll wheel on a mouse (if available0, for two-finger pinch gestures on mobile devices, or when you hold down the Shift key while dragging up or down using the left mouse button.</li> 
      <li><strong>Perspective</strong>-Changes the focal length (also known as field-of-view) of the camera while maintaining the relative size of the asset in the view. Perspective is the alternate behavior for the scroll wheel (if available), for two-finger pinch gestures on mobile devices, or when you hold down the Shift key while dragging up or down using the left mouse button.</li> 
@@ -68,7 +68,7 @@ To view 3D assets:
   </tr> 
   <tr> 
    <td><p>Orbit</p> <p>or</p> <p>Pan</p> </td> 
-   <td><p>Tap or click to toggle between Orbit and Pan modes.</p> <p>Or, press and hold the <span class="code">ALT/OPTION</span> key during the action to temporarily toggle to Pan mode. Release the key to revert to Orbit mode.</p> 
+   <td><p>Tap or click to toggle between Orbit and Pan modes.</p> <p>Or, press and hold the <code>ALT/OPTION</code> key during the action to temporarily toggle to Pan mode. Release the key to revert to Orbit mode.</p> 
     <ul> 
      <li><strong>Orbit</strong>- Moves the viewing camera on a sphere centered on a target point which is located near the center of the 3D asset be default. Orbit is the default behavior for a left-button drag or a single touch drag on mobile devices.</li> 
      <li><strong>Pan</strong>-Moves the camera in the viewing plane. The target point is moved correspondingly, so subsequent orbit actions will move the camera around a new target point. Pan is the alternate behavior for the left-button drag and single touch drag.</li> 

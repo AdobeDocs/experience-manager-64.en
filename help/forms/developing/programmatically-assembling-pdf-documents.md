@@ -122,18 +122,18 @@ The following table summarizes some of the key values and object types that can 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><span class="code"><i>documentName</i></span></p></td> 
-   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><span class="code">com.adobe.idp.Document</span></p></td> 
+   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><code><i>documentName</i></code></p></td> 
+   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><code>com.adobe.idp.Document</code></p></td> 
    <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains the resultant documents that are specified in a DDX resultant element</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><span class="code"><i>documentName</i></span></p></td> 
-   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><span class="code">Exception</span></p></td> 
+   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><code><i>documentName</i></code></p></td> 
+   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><code>Exception</code></p></td> 
    <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains any exception for the document</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><span class="code">OutputMapConstants.LOG_NAME</span></p></td> 
-   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><span class="code">com.adobe.idp.Documen</span></p></td> 
+   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><code>OutputMapConstants.LOG_NAME</code></p></td> 
+   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><code>com.adobe.idp.Documen</code></p></td> 
    <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains the job log</p></td> 
   </tr> 
  </tbody> 

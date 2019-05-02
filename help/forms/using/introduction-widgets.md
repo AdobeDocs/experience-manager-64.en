@@ -216,7 +216,7 @@ All custom widgets should conform to the above specifications. To use the featur
    <td>Deletes an option from the list.</td> 
   </tr>
   <tr>
-   <td>clearItems:<span class="code"> function()</span></td> 
+   <td>clearItems:<code> function()</code></td> 
    <td>Clears all the options from the list.</td> 
   </tr>
  </tbody>

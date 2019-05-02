@@ -306,8 +306,8 @@ The key highlights for AEM 6.4.4.0 forms are:
 
 ## Hotfixes and Feature Packs included in previous Service Packs {#hotfixes-and-feature-packs-included-in-previous-service-packs}
 
-<details> 
- <summary>AEM 6.4.3.0</summary> 
+<div class="details"> 
+ <h3 class="summary">AEM 6.4.3.0</h3> 
 <p>AEM 6.4.3.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in <strong>April 2018.</strong></p> 
  <p>It is also cumulative which means that 6.4.3.0 includes all AEM 6.4 service packs release before it.</p> 
  <p>Some of the key highlights of AEM 6.4.3.0 are:</p> 
@@ -552,10 +552,10 @@ The key highlights for AEM 6.4.4.0 forms are:
   <p> List of Content Packages included in AEM 6.4.3.0</p> 
   <p><a alt="content-package-list-6430.txt" href="assets/content-package-list-6430.txt" status="changing">Get File</a></p> 
  </div> 
-</details>
+</div>
 
-<details> 
- <summary>AEM 6.4.2.0</summary> 
+<div class="details"> 
+ <h3 class="summary">AEM 6.4.2.0</h3> 
  <p>AEM 6.4.2.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in <strong>April 2018.</strong></p> 
  <p>It is also cumulative which means that 6.4.2.0 includes all AEM 6.4 service packs release before it.</p> 
  <p>Some of the key highlights of AEM 6.4.2.0 are:</p> 
@@ -981,10 +981,10 @@ The key highlights for AEM 6.4.4.0 forms are:
   <p> List of Content Packages included in AEM 6.4.2.0</p> 
   <p><a alt="6_4_2_0content-package-list.txt" href="assets/6_4_2_0content-package-list.txt" status="changing">Get File</a></p> 
  </div> 
-</details>
+</div>
 
-<details> 
- <summary>AEM 6.4.1.0</summary> 
+<div class="details"> 
+ <h3 class="summary">AEM 6.4.1.0</h3> 
  <p>AEM 6.4.1.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in <strong>April 2018.</strong></p> 
  <p>AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the service pack are:</p> 
  <ul> 
@@ -1391,7 +1391,7 @@ The key highlights for AEM 6.4.4.0 forms are:
   <p> List of Content Packages included in AEM 6.4.1.0</p> 
   <p><a alt="6_4_1_0_content-package-list.txt" href="assets/6_4_1_0_content-package-list.txt" status="changing">Get File</a></p> 
  </div> 
-</details>
+</div>
 
 ## Install 6.4.4.0 {#install}
 

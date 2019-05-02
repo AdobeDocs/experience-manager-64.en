@@ -276,17 +276,17 @@ A component is a node of type `cq:Component` and has the following properties an
   </tr> 
   <tr> 
    <td>.<br /> </td> 
-   <td><span class="code">cq:Component</span></td> 
-   <td>Current component. A component is of node type <span class="code">cq:Component</span>.<br /> </td> 
+   <td><code>cq:Component</code></td> 
+   <td>Current component. A component is of node type <code>cq:Component</code>.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">componentGroup</span></td> 
-   <td><span class="code">String</span></td> 
-   <td>Group under which the component can be selected in the Components browser (touch-enabled UI) or Sidekick (classic UI).<br /> A value of <span class="code">.hidden</span> is used for components that are not available for selection from the UI such as the actual paragraph systems.</td> 
+   <td><code>componentGroup</code></td> 
+   <td><code>String</code></td> 
+   <td>Group under which the component can be selected in the Components browser (touch-enabled UI) or Sidekick (classic UI).<br /> A value of <code>.hidden</code> is used for components that are not available for selection from the UI such as the actual paragraph systems.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:isContainer</span></td> 
-   <td><span class="code">String</span></td> 
+   <td><code>cq:isContainer</code></td> 
+   <td><code>String</code></td> 
    <td>Indicates whether the component is a container component and therefore can contain other components such as a paragraph system.</td> 
   </tr> 
   <tr> 
@@ -295,28 +295,28 @@ A component is a node of type `cq:Component` and has the following properties an
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:dialog</span></td> 
-   <td><span class="code">nt:unstructured</span><br /> </td> 
+   <td><code>cq:dialog</code></td> 
+   <td><code>nt:unstructured</code><br /> </td> 
    <td>Definition of the edit dialog for the touch-enabled UI.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">dialog</span></td> 
-   <td><span class="code">cq:Dialog</span></td> 
+   <td><code>dialog</code></td> 
+   <td><code>cq:Dialog</code></td> 
    <td>Definition of the edit dialog for the classic UI.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:design_dialog</span></td> 
-   <td><span class="code">nt:unstructured</span></td> 
+   <td><code>cq:design_dialog</code></td> 
+   <td><code>nt:unstructured</code></td> 
    <td>Definition of the design dialog for the touch-enabled UI.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">design_dialog</span></td> 
-   <td><span class="code">cq:Dialog </span></td> 
+   <td><code>design_dialog</code></td> 
+   <td><code>cq:Dialog </code></td> 
    <td>Definition of the design dialog for the classic UI.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">dialogPath</span></td> 
-   <td><span class="code">String</span></td> 
+   <td><code>dialogPath</code></td> 
+   <td><code>String</code></td> 
    <td>Path to a dialog to cover the case when the component does not have a dialog node.<br /> </td> 
   </tr> 
   <tr> 
@@ -325,64 +325,64 @@ A component is a node of type `cq:Component` and has the following properties an
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:cellName</span></td> 
-   <td><span class="code">String</span></td> 
+   <td><code>cq:cellName</code></td> 
+   <td><code>String</code></td> 
    <td>If set, this property is taken as Cell ID. For more information, please refer to the Knowledge Base article <a href="https://helpx.adobe.com/experience-manager/kb/DesigneCellId.html">How are Design Cell IDs built</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:childEditConfig</span></td> 
-   <td><span class="code">cq:EditConfig</span></td> 
+   <td><code>cq:childEditConfig</code></td> 
+   <td><code>cq:EditConfig</code></td> 
    <td>When the component is a container, as for example a paragraph system, this drives the edit configuration of the child nodes.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:editConfig</span></td> 
-   <td><span class="code">cq:EditConfig</span></td> 
+   <td><code>cq:editConfig</code></td> 
+   <td><code>cq:EditConfig</code></td> 
    <td><a href="#edit-behavior">Edit configuration of the component</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:htmlTag</span></td> 
-   <td><span class="code">nt:unstructured </span></td> 
+   <td><code>cq:htmlTag</code></td> 
+   <td><code>nt:unstructured </code></td> 
    <td>Returns additional tag attributes that are added to the surrounding html tag. Enables addition of attributes to the automatically generated divs.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:noDecoration</span></td> 
-   <td><span class="code">Boolean</span></td> 
+   <td><code>cq:noDecoration</code></td> 
+   <td><code>Boolean</code></td> 
    <td>If true, the component is not rendered with automatically generated div and css classes.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:template</span></td> 
-   <td><span class="code">nt:unstructured</span></td> 
+   <td><code>cq:template</code></td> 
+   <td><code>nt:unstructured</code></td> 
    <td>If found, this node will be used as a content template when the component is added from the Components Browser or Sidekick.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">cq:templatePath</span></td> 
-   <td><span class="code">String</span></td> 
-   <td>Path to a node to use as a content template when the component is added from the Components browser or Sidekick. This must be an absolute path, not relative to the component node.<br /> Unless you want to reuse content already available elsewhere, this is not required and <span class="code">cq:template</span> is sufficient (see below).</td> 
+   <td><code>cq:templatePath</code></td> 
+   <td><code>String</code></td> 
+   <td>Path to a node to use as a content template when the component is added from the Components browser or Sidekick. This must be an absolute path, not relative to the component node.<br /> Unless you want to reuse content already available elsewhere, this is not required and <code>cq:template</code> is sufficient (see below).</td> 
   </tr> 
   <tr> 
-   <td><span class="code">jcr:created</span></td> 
-   <td><span class="code">Date</span></td> 
+   <td><code>jcr:created</code></td> 
+   <td><code>Date</code></td> 
    <td>Date of creation of the component.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">jcr:description</span></td> 
-   <td><span class="code">String</span></td> 
+   <td><code>jcr:description</code></td> 
+   <td><code>String</code></td> 
    <td>Description of the component.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">jcr:title</span></td> 
-   <td><span class="code">String</span></td> 
+   <td><code>jcr:title</code></td> 
+   <td><code>String</code></td> 
    <td>Title of the component.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">sling:resourceSuperType</span></td> 
-   <td><span class="code">String</span></td> 
+   <td><code>sling:resourceSuperType</code></td> 
+   <td><code>String</code></td> 
    <td>When set, the component inherits from this component.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">virtual</span></td> 
-   <td><span class="code">sling:Folder</span></td> 
-   <td>Enables creation of virtual components. To see an example, please look at the contact component at:<br /> <span class="code">/libs/foundation/components/profile/form/contact</span></td> 
+   <td><code>virtual</code></td> 
+   <td><code>sling:Folder</code></td> 
+   <td>Enables creation of virtual components. To see an example, please look at the contact component at:<br /> <code>/libs/foundation/components/profile/form/contact</code></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -390,18 +390,18 @@ A component is a node of type `cq:Component` and has the following properties an
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">&lt;breadcrumb.jsp&gt;</span></td> 
-   <td><span class="code">nt:file</span><br /> </td> 
+   <td><code>&lt;breadcrumb.jsp&gt;</code></td> 
+   <td><code>nt:file</code><br /> </td> 
    <td>Script file.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">icon.png</span></td> 
-   <td><span class="code">nt:file</span></td> 
+   <td><code>icon.png</code></td> 
+   <td><code>nt:file</code></td> 
    <td>Icon of the component, appears next to the Title in Sidekick.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">thumbnail.png</span></td> 
-   <td><span class="code">nt:file</span></td> 
+   <td><code>thumbnail.png</code></td> 
+   <td><code>nt:file</code></td> 
    <td>Optional thumbnail that is shown while the component is dragged into place from Sidekick.<br /> </td> 
   </tr> 
  </tbody> 
@@ -649,7 +649,7 @@ The `cq:actions` property ( `String array`) defines one or several actions that 
    <td style="text-align: center;"><strong>Description</strong></td> 
   </tr> 
   <tr> 
-   <td><span class="code">text:&lt;some text&gt;</span></td> 
+   <td><code>text:&lt;some text&gt;</code></td> 
    <td>Displays the static text value &lt;some text&gt;<br /> Only visible in classic UI. The touch-enabled UI does not display actions in a contextual menu, so this is not applicable.</td> 
   </tr> 
   <tr> 
@@ -657,19 +657,19 @@ The `cq:actions` property ( `String array`) defines one or several actions that 
    <td>Adds a spacer.<br /> Only visible in classic UI. The touch-enabled UI does not display actions in a contextual menu, so this is not applicable.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">edit</span></td> 
+   <td><code>edit</code></td> 
    <td>Adds a button to edit the component.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">delete</span></td> 
+   <td><code>delete</code></td> 
    <td>Adds a button to delete the component</td> 
   </tr> 
   <tr> 
-   <td><span class="code">insert</span></td> 
+   <td><code>insert</code></td> 
    <td>Adds a button to insert a new component before the current one</td> 
   </tr> 
   <tr> 
-   <td><span class="code">copymove</span></td> 
+   <td><code>copymove</code></td> 
    <td>Adds a button to copy and cut the component.</td> 
   </tr> 
  </tbody> 
@@ -704,15 +704,15 @@ The `cq:layout` property ( `String`) defines how the component can be edited in 
    <td style="text-align: center;"><strong>Description</strong></td> 
   </tr> 
   <tr> 
-   <td><span class="code">rollover</span></td> 
-   <td>Default value. The component edition is accessible "on mouse over" through clicks and/or context menu.<br /> For advanced use, note that the corresponding client side object is: <span class="code">CQ.wcm.EditRollover</span>.</td> 
+   <td><code>rollover</code></td> 
+   <td>Default value. The component edition is accessible "on mouse over" through clicks and/or context menu.<br /> For advanced use, note that the corresponding client side object is: <code>CQ.wcm.EditRollover</code>.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">editbar</span></td> 
-   <td>The component edition is accessible through a toolbar.<br /> For advanced use, note that the corresponding client side object is: <span class="code">CQ.wcm.EditBar</span>.</td> 
+   <td><code>editbar</code></td> 
+   <td>The component edition is accessible through a toolbar.<br /> For advanced use, note that the corresponding client side object is: <code>CQ.wcm.EditBar</code>.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">auto</span></td> 
+   <td><code>auto</code></td> 
    <td>The choice is left to the client side code.</td> 
   </tr> 
  </tbody> 
@@ -743,16 +743,16 @@ The component can be linked to an edit dialog. The `cq:dialogMode` property ( `S
    <td style="text-align: center;"><strong>Description</strong></td> 
   </tr> 
   <tr> 
-   <td><span class="code">floating</span></td> 
+   <td><code>floating</code></td> 
    <td>The dialog is floating.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">inline</span></td> 
+   <td><code>inline</code></td> 
    <td>(default value). The dialog is anchored over the component.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">auto</span></td> 
-   <td>If the component width is smaller than the client side <span class="code">CQ.themes.wcm.EditBase.INLINE_MINIMUM_WIDTH</span> value, the dialog is floating, otherwise it is inline.</td> 
+   <td><code>auto</code></td> 
+   <td>If the component width is smaller than the client side <code>CQ.themes.wcm.EditBase.INLINE_MINIMUM_WIDTH</code> value, the dialog is floating, otherwise it is inline.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -826,15 +826,15 @@ The node of type `cq:DropTargetConfig` needs to have the following properties:
    <td style="text-align: center;"><strong>Property Value<br /> </strong></td> 
   </tr> 
   <tr> 
-   <td><span class="code">accept</span></td> 
+   <td><code>accept</code></td> 
    <td>Regex applied to the asset mime type to validate if dropping is allowed.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">groups</span></td> 
+   <td><code>groups</code></td> 
    <td>Array of drop target groups. Each group must match the group type that is defined in the content finder extension and that is attached to the assets.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">propertyName</span></td> 
+   <td><code>propertyName</code></td> 
    <td>Name of the property that will be updated after a valid drop.</td> 
   </tr> 
  </tbody> 
@@ -908,16 +908,16 @@ The `cq:inplaceEditing` node (node type `cq:InplaceEditingConfig`) defines an in
    <td style="text-align: center;"><strong>Property Value<br /> </strong></td> 
   </tr> 
   <tr> 
-   <td><span class="code">active</span></td> 
-   <td>(<span class="code">boolean</span>) True to enable the inplace editing of the component.</td> 
+   <td><code>active</code></td> 
+   <td>(<code>boolean</code>) True to enable the inplace editing of the component.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">configPath</span></td> 
-   <td>(<span class="code">String</span>) Path of the editor configuration. The configuration can be specified by a configuration node.</td> 
+   <td><code>configPath</code></td> 
+   <td>(<code>String</code>) Path of the editor configuration. The configuration can be specified by a configuration node.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">editorType</span></td> 
-   <td><p>(<span class="code">String</span>) Editor type. The available types are:</p> 
+   <td><code>editorType</code></td> 
+   <td><p>(<code>String</code>) Editor type. The available types are:</p> 
     <ul> 
      <li>plaintext: to be used for non HTML content.<br /> </li> 
      <li>title: is an enhanced plaintext editor that converts graphical titles into a plaintext before editing begins. Used by the Geometrixx title component.<br /> </li> 
@@ -948,62 +948,62 @@ The `cq:listeners` node (node type `cq:EditListenersConfig`) defines what happen
    <td style="text-align: center;"><p><strong>Default Value</strong></p> <p>(Classic UI Only)</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">beforedelete</span></td> 
+   <td><code>beforedelete</code></td> 
    <td>The handler is triggered before the component is removed.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">beforeedit</span></td> 
+   <td><code>beforeedit</code></td> 
    <td>The handler is triggered before the component is edited.</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">beforecopy</span></td> 
+   <td><code>beforecopy</code></td> 
    <td>The handler is triggered before the component is copied.</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">beforemove</span></td> 
+   <td><code>beforemove</code></td> 
    <td>The handler is triggered before the component is moved.</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">beforeinsert</span></td> 
+   <td><code>beforeinsert</code></td> 
    <td>The handler is triggered before the component is inserted.<br /> Only operational for the touch-enabled UI.</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">beforechildinsert</span></td> 
+   <td><code>beforechildinsert</code></td> 
    <td>The handler is triggered before the component is inserted inside another component (containers only).</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">afterdelete</span></td> 
+   <td><code>afterdelete</code></td> 
    <td>The handler is triggered after the component is removed.</td> 
-   <td><span class="code">REFRESH_SELF</span></td> 
+   <td><code>REFRESH_SELF</code></td> 
   </tr> 
   <tr> 
-   <td><span class="code">afteredit</span></td> 
+   <td><code>afteredit</code></td> 
    <td>The handler is triggered after the component is edited.</td> 
-   <td><span class="code">REFRESH_SELF</span></td> 
+   <td><code>REFRESH_SELF</code></td> 
   </tr> 
   <tr> 
-   <td><span class="code">aftercopy</span></td> 
+   <td><code>aftercopy</code></td> 
    <td>The handler is triggered after the component is copied.</td> 
-   <td><span class="code">REFRESH_SELF</span></td> 
+   <td><code>REFRESH_SELF</code></td> 
   </tr> 
   <tr> 
-   <td><span class="code">afterinsert</span></td> 
+   <td><code>afterinsert</code></td> 
    <td>The handler is triggered after the component is inserted.</td> 
-   <td><span class="code">REFRESH_INSERTED</span></td> 
+   <td><code>REFRESH_INSERTED</code></td> 
   </tr> 
   <tr> 
-   <td><span class="code">aftermove</span></td> 
+   <td><code>aftermove</code></td> 
    <td>The handler is triggered after the component is moved.</td> 
-   <td><span class="code">REFRESH_SELFMOVED</span></td> 
+   <td><code>REFRESH_SELFMOVED</code></td> 
   </tr> 
   <tr> 
-   <td><span class="code">afterchildinsert</span></td> 
+   <td><code>afterchildinsert</code></td> 
    <td>The handler is triggered after the component is inserted inside another component (containers only).</td> 
    <td> </td> 
   </tr> 

@@ -26,7 +26,7 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>func<br /> </td> 
-   <td><p>Specifies the function to call. To search forms, set value of the <span class="code">func </span>attribute to <span class="code">searchForms</span>.</p> <p>For example, <code class="code">
+   <td><p>Specifies the function to call. To search forms, set value of the <code>func </code>attribute to <code>searchForms</code>.</p> <p>For example, <code class="code">
        URLParameterBuilder entityBuilder=new URLParameterBuilder ();
        entityBuilder.add("func", "searchForms");</code></p> <p><strong>Note:</strong> <em>This parameter is mandatory.</em><br /> </p> </td> 
   </tr> 
@@ -36,7 +36,7 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>cutPoints<br /> </td> 
-   <td><p style="word-break: break-word;">Specifies the properties to fetch with the assets. You can use asterisk (*) to fetch all the properties at once. Use the pipe (|) operator to specify multiple properties. </p> <p style="word-break: break-word;">For example, <span class="code">cutPoints=propertyName1|propertyName2|propertyName3</span></p> <p style="word-break: break-word;"><strong>Note</strong>: </p> 
+   <td><p style="word-break: break-word;">Specifies the properties to fetch with the assets. You can use asterisk (*) to fetch all the properties at once. Use the pipe (|) operator to specify multiple properties. </p> <p style="word-break: break-word;">For example, <code>cutPoints=propertyName1|propertyName2|propertyName3</code></p> <p style="word-break: break-word;"><strong>Note</strong>: </p> 
     <ul> 
      <li><em>Properties such as id, path, and name are always fetched. </em></li> 
      <li><em>Every asset has a different set of properties. Properties such as formUrl, pdfUrl, and guideUrl do not depend on the cutpoints attribute. These properties depend on the asset type and are fetched accordingly. </em></li> 
@@ -109,7 +109,7 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>includeXdp</td> 
-   <td>Specifies whether to retrieve the binary content or not. The <span class="code">includeXdp</span> attribute is applicable for assets of type <span class="code">FORM</span>, <span class="code">PDFFORM</span>, and <span class="code">PRINTFORM</span>.</td> 
+   <td>Specifies whether to retrieve the binary content or not. The <code>includeXdp</code> attribute is applicable for assets of type <code>FORM</code>, <code>PDFFORM</code>, and <code>PRINTFORM</code>.</td> 
   </tr> 
   <tr> 
    <td>assetType</td> 

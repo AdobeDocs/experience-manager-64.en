@@ -59,20 +59,20 @@ The URL for the WebDAV server has the following structure:
     <nobr>
      <strong>URL Component</strong>
     </nobr></td> 
-   <td><span class="code">https://&lt;host&gt;:&lt;port&gt;</span></td> 
-   <td><span class="code">/&lt;crx-webapp-path&gt;</span></td> 
-   <td><span class="code">/repository</span></td> 
-   <td><span class="code">/&lt;workspace&gt;</span></td> 
+   <td><code>https://&lt;host&gt;:&lt;port&gt;</code></td> 
+   <td><code>/&lt;crx-webapp-path&gt;</code></td> 
+   <td><code>/repository</code></td> 
+   <td><code>/&lt;workspace&gt;</code></td> 
   </tr>
   <tr>
    <td>
     <nobr>
      <strong>Example</strong>
     </nobr></td> 
-   <td><span class="code">http://localhost:4502</span></td> 
-   <td><span class="code">/crx</span></td> 
-   <td><span class="code">/repository</span></td> 
-   <td><span class="code">/crx.default</span></td> 
+   <td><code>http://localhost:4502</code></td> 
+   <td><code>/crx</code></td> 
+   <td><code>/repository</code></td> 
+   <td><code>/crx.default</code></td> 
   </tr>
   <tr>
    <td><strong>Description</strong></td> 

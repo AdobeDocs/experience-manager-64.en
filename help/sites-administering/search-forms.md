@@ -532,15 +532,15 @@ The following table lists the permissions required to perform edit, delete, and 
   </tr> 
   <tr> 
    <td>Edit </td> 
-   <td>Read, Write permissions on the <span class="code">/apps </span>node.</td> 
+   <td>Read, Write permissions on the <code>/apps </code>node.</td> 
   </tr> 
   <tr> 
    <td>Delete</td> 
-   <td>Read, Write, Delete permissions on the <span class="code">/apps</span> node</td> 
+   <td>Read, Write, Delete permissions on the <code>/apps</code> node</td> 
   </tr> 
   <tr> 
    <td>Preview</td> 
-   <td>Read, Write, Delete permissions on the <span class="code">/var/dam/content</span> node.<br /> Read, Write permissions on the <span class="code">/apps</span> node.</td> 
+   <td>Read, Write, Delete permissions on the <code>/var/dam/content</code> node.<br /> Read, Write permissions on the <code>/apps</code> node.</td> 
   </tr> 
  </tbody> 
 </table>

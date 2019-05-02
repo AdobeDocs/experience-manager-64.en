@@ -22,11 +22,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><p><span class="code">/etc/commerce/products</span></p> <p><span class="code">/etc/commerce/orders</span></p> <p><span class="code">/etc/commerce/collections</span></p> <p><span class="code">/etc/commerce/classifications</span></p> <p><span class="code">/etc/commerce/shipping-methods</span></p> <p><span class="code">/etc/commerce/payment-methods</span></p> </td> 
+   <td><p><code>/etc/commerce/products</code></p> <p><code>/etc/commerce/orders</code></p> <p><code>/etc/commerce/collections</code></p> <p><code>/etc/commerce/classifications</code></p> <p><code>/etc/commerce/shipping-methods</code></p> <p><code>/etc/commerce/payment-methods</code></p> </td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/var/commerce/products</span></p> <p><span class="code">/var/commerce/orders</span></p> <p><span class="code">/var/commerce/collections</span></p> <p><span class="code">/var/commerce/classifications</span></p> <p><span class="code">/var/commerce/shipping-methods</span></p> <p><span class="code">/var/commerce/payment-methods</span></p> </td> 
+   <td><p><code>/var/commerce/products</code></p> <p><code>/var/commerce/orders</code></p> <p><code>/var/commerce/collections</code></p> <p><code>/var/commerce/classifications</code></p> <p><code>/var/commerce/shipping-methods</code></p> <p><code>/var/commerce/payment-methods</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -42,7 +42,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>/etc/commerce/orders<br /> </li> 
      <li>/etc/commerce/payment-methods<br /> </li> 
      <li>/etc/commerce/shipping-methods<br /> </li> 
-    </ul> <p>For larger catalogs it is recommanded to run the commerce migration task individually by passing the following Java system property to AEM:</p> <p><span class="code">propertyname: com.adobe.upgrade.forcemigration</span></p> <p><span class="code">property value: com.day.cq.compat.codeupgrade.impl.cq64.CQ64CommerceMigrationTask</span></p> <p>After migration AEM needs a restart.</p> </td> 
+    </ul> <p>For larger catalogs it is recommanded to run the commerce migration task individually by passing the following Java system property to AEM:</p> <p><code>propertyname: com.adobe.upgrade.forcemigration</code></p> <p><code>property value: com.day.cq.compat.codeupgrade.impl.cq64.CQ64CommerceMigrationTask</code></p> <p>After migration AEM needs a restart.</p> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 

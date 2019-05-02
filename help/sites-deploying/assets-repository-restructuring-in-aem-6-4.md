@@ -63,23 +63,23 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/notification/email/default</span></td> 
+   <td><code>/etc/notification/email/default</code></td> 
   </tr> 
   <tr> 
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/dam/notification</span></p> <p><span class="code">/apps/settings/dam/notification</span></p> </td> 
+   <td><p><code>/libs/settings/dam/notification</code></p> <p><code>/apps/settings/dam/notification</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>If the e-mail templates were modified by the customer, then perform the following actions in order to align with the new repository structure:</p> 
     <ol> 
-     <li>The <span class="code">/libs/settings/dam/notification</span> e-mail template should be copied from <strong><span class="code">/etc/notification/email/default</span></strong> to <strong><span class="code">/apps/settings/notification/email/default</span></strong> 
+     <li>The <code>/libs/settings/dam/notification</code> e-mail template should be copied from <strong><code>/etc/notification/email/default</code></strong> to <strong><code>/apps/settings/notification/email/default</code></strong> 
       <ol> 
-       <li>Because the destination is in<strong> <span class="code">/apps</span></strong> this change should be persisted in SCM.</li> 
+       <li>Because the destination is in<strong> <code>/apps</code></strong> this change should be persisted in SCM.</li> 
       </ol> </li> 
-     <li>Remove the folder: <strong><span class="code">/etc/dam/notification/email/default</span></strong> after the e-mail templates within it have been moved.<br /> 
+     <li>Remove the folder: <strong><code>/etc/dam/notification/email/default</code></strong> after the e-mail templates within it have been moved.<br /> 
       <ol> 
-       <li>If no updates were made to the e-mail template under<strong> <span class="code">/etc/notification/email/default</span></strong>, the folder can be removed as the orginal e-mail template exists under <strong><span class="code">/libs/settings/notification/email/default</span></strong> as part of AEM 6.4 install.</li> 
+       <li>If no updates were made to the e-mail template under<strong> <code>/etc/notification/email/default</code></strong>, the folder can be removed as the orginal e-mail template exists under <strong><code>/libs/settings/notification/email/default</code></strong> as part of AEM 6.4 install.</li> 
       </ol> </li> 
     </ol> </td> 
   </tr> 
@@ -96,22 +96,22 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/designs/assetshare</span></td> 
+   <td><code>/etc/designs/assetshare</code></td> 
   </tr> 
   <tr> 
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/wcm/designs/assetshare</span></p> <p><span class="code">/apps/settings/wcm/designs/assetshare</span></p> </td> 
+   <td><p><code>/libs/settings/wcm/designs/assetshare</code></p> <p><code>/apps/settings/wcm/designs/assetshare</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs, perform the following actions to align to the latest model:</p> 
     <ol> 
-     <li>Copy the designs from the Previous Location to the New Location under <span class="code">/apps</span>.</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
-     <li>Update references to the Previous Location in the <span class="code">cq:designPath</span> property via <strong>AEM &gt; DAM Admin &gt; Asset Share Page &gt; Page Properties &gt; Advanced Tab &gt; Design Field</strong>.</li> 
+     <li>Copy the designs from the Previous Location to the New Location under <code>/apps</code>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
+     <li>Update references to the Previous Location in the <code>cq:designPath</code> property via <strong>AEM &gt; DAM Admin &gt; Asset Share Page &gt; Page Properties &gt; Advanced Tab &gt; Design Field</strong>.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category. This requires updating Page implementation code.</li> 
-     <li>Update the Dispatcher rules to allow serving of Client Libraries via the <span class="code">/etc.clientlibs/</span> proxy servlet.</li> 
-    </ol> <p>For any Designs that are not managed in SCM, and modified run-time via Design Dialogs, do not move authorable designs out of <span class="code">/etc</span>.</p> </td> 
+     <li>Update the Dispatcher rules to allow serving of Client Libraries via the <code>/etc.clientlibs/</code> proxy servlet.</li> 
+    </ol> <p>For any Designs that are not managed in SCM, and modified run-time via Design Dialogs, do not move authorable designs out of <code>/etc</code>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Notes</strong></td> 
@@ -126,29 +126,29 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/dam/workflow/notification/email/downloadasset</span></td> 
+   <td><code>/etc/dam/workflow/notification/email/downloadasset</code></td> 
   </tr> 
   <tr> 
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/dam/workflownotification/email/downloadasset</span></p> <p><span class="code">/apps/settings/dam/workflownotification/email/downloadasset</span></p> </td> 
+   <td><p><code>/libs/settings/dam/workflownotification/email/downloadasset</code></p> <p><code>/apps/settings/dam/workflownotification/email/downloadasset</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>If the e-mail templates (<strong>downloadasset</strong> or <strong>transientworkflowcompleted</strong>) have been modified, then follow the below procedure in order to align to the new structure:</p> 
     <ol> 
-     <li>The updated e-mail template should be copied from <strong><span class="code">/etc/dam/workflow/notification/email/downloadasset</span></strong> to <strong><span class="code">/apps/settings/dam/workflow/notification/email/downloadasset</span></strong> 
+     <li>The updated e-mail template should be copied from <strong><code>/etc/dam/workflow/notification/email/downloadasset</code></strong> to <strong><code>/apps/settings/dam/workflow/notification/email/downloadasset</code></strong> 
       <ol> 
-       <li>Because the destination is in<strong> <span class="code">/apps</span></strong> this change should be persisted in SCM.</li> 
+       <li>Because the destination is in<strong> <code>/apps</code></strong> this change should be persisted in SCM.</li> 
       </ol> </li> 
-     <li>Remove the folder: <span class="code">/etc/dam/workflow/notification/email/downloadasset </span>after the e-mail templates within it have been moved.<br /> 
+     <li>Remove the folder: <code>/etc/dam/workflow/notification/email/downloadasset </code>after the e-mail templates within it have been moved.<br /> 
       <ol> 
-       <li>If no updates were made to the e-mail template under<strong> <span class="code">/etc</span></strong>, the folder can be removed as the orginal e-mail template exists under <strong><span class="code">/libs/settings/dam/workflownotification/email/downloadasset</span></strong> as part of AEM 6.4 install.</li> 
+       <li>If no updates were made to the e-mail template under<strong> <code>/etc</code></strong>, the folder can be removed as the orginal e-mail template exists under <strong><code>/libs/settings/dam/workflownotification/email/downloadasset</code></strong> as part of AEM 6.4 install.</li> 
       </ol> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td><strong>Notes</strong></td> 
-   <td>While <span class="code">/conf/global/settings/dam/workflownotification/email/downloadasset</span> is technically supported for look-up (takes precedence before /apps via usual Sling CAConfig lookup, but after <span class="code">/etc</span>) the template could be placed in <span class="code">/conf/global/settings/dam/workflownotification/email/downloadasset</span>. However, this is not recommended as there is no runtime UI to facilitate the editting of the e-mail template.</td> 
+   <td>While <code>/conf/global/settings/dam/workflownotification/email/downloadasset</code> is technically supported for look-up (takes precedence before /apps via usual Sling CAConfig lookup, but after <code>/etc</code>) the template could be placed in <code>/conf/global/settings/dam/workflownotification/email/downloadasset</code>. However, this is not recommended as there is no runtime UI to facilitate the editting of the e-mail template.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -167,29 +167,29 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/dam/adhocassetshare</span></td> 
+   <td><code>/etc/dam/adhocassetshare</code></td> 
   </tr> 
   <tr> 
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/dam/adhocassetshare</span></p> <p><span class="code">/apps/settings/dam/adhocassetshare</span></p> </td> 
+   <td><p><code>/libs/settings/dam/adhocassetshare</code></p> <p><code>/apps/settings/dam/adhocassetshare</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>If the e-mail template was modified by the customer, then to align with the new repository structure:</p> 
     <ol> 
-     <li>The updated e-mail template should be copied from <strong><span class="code">/etc/dam/adhocassetshare</span></strong> to <strong><span class="code">/apps/settings/dam/adhocassetshare</span></strong> 
+     <li>The updated e-mail template should be copied from <strong><code>/etc/dam/adhocassetshare</code></strong> to <strong><code>/apps/settings/dam/adhocassetshare</code></strong> 
       <ol> 
-       <li>Because the destination is in<strong> <span class="code">/apps</span></strong> this change should be persisted in SCM.</li> 
+       <li>Because the destination is in<strong> <code>/apps</code></strong> this change should be persisted in SCM.</li> 
       </ol> </li> 
-     <li>Remove the folder: <strong><span class="code">/etc/dam/adhocassetshare</span></strong> after the e-mail templates within it have been moved.<br /> 
+     <li>Remove the folder: <strong><code>/etc/dam/adhocassetshare</code></strong> after the e-mail templates within it have been moved.<br /> 
       <ol> 
-       <li>If no updates were made to the e-mail template under<strong> <span class="code">/etc</span></strong>, the folder can be removed as the orginal e-mail template exists under <strong><span class="code">/libs/settings/dam/adhocassetshare</span></strong> as part of AEM 6.4 install.</li> 
+       <li>If no updates were made to the e-mail template under<strong> <code>/etc</code></strong>, the folder can be removed as the orginal e-mail template exists under <strong><code>/libs/settings/dam/adhocassetshare</code></strong> as part of AEM 6.4 install.</li> 
       </ol> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td><strong>Notes</strong></td> 
-   <td>While <span class="code">/conf/global/settings/dam/adhocassetshare</span> is technically supported for look-up (it takes precedence before <span class="code">/apps</span> via usual Sling CAConfig lookup, but after <span class="code">/etc</span>), the template can be placed in <span class="code">/conf/global/settings/dam/adhocassetshare</span>. However, this is not recommended as there is no runtime UI to facilitate the editting of the e-mail template</td> 
+   <td>While <code>/conf/global/settings/dam/adhocassetshare</code> is technically supported for look-up (it takes precedence before <code>/apps</code> via usual Sling CAConfig lookup, but after <code>/etc</code>), the template can be placed in <code>/conf/global/settings/dam/adhocassetshare</code>. However, this is not recommended as there is no runtime UI to facilitate the editting of the e-mail template</td> 
   </tr> 
  </tbody> 
 </table>
@@ -200,30 +200,30 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/dam/indesign/scripts</span></td> 
+   <td><code>/etc/dam/indesign/scripts</code></td> 
   </tr> 
   <tr> 
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/dam/indesign</span></p> <p><span class="code">/apps/settings/dam/indesign</span></p> </td> 
+   <td><p><code>/libs/settings/dam/indesign</code></p> <p><code>/apps/settings/dam/indesign</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>To Align with the new repository structure:</p> 
     <ol> 
-     <li>Copy all custom or modified scripts from <strong><span class="code">/etc/dam/indesign/scripts</span></strong> to <strong><span class="code">/apps/settings/dam/indesign/scripts</span></strong><br /> 
+     <li>Copy all custom or modified scripts from <strong><code>/etc/dam/indesign/scripts</code></strong> to <strong><code>/apps/settings/dam/indesign/scripts</code></strong><br /> 
       <ol> 
-       <li>Only copy new or modified scripts as unmodified scripts provided by AEM will be available via <strong><span class="code">/libs/settings</span></strong> in AEM 6.4</li> 
+       <li>Only copy new or modified scripts as unmodified scripts provided by AEM will be available via <strong><code>/libs/settings</code></strong> in AEM 6.4</li> 
       </ol> </li> 
      <li>Locate all Workflow Models that use the Media Extraction Process WF Step and 
       <ol> 
-       <li>For each instance of the Workflow Step, update the paths in config to point explicitly at the proper scripts under<strong> <span class="code">/apps/settings/dam/indesign/scripts</span></strong> or <strong><span class="code">/libs/settings/dam/indesign/scripts</span></strong> as appropriate.</li> 
+       <li>For each instance of the Workflow Step, update the paths in config to point explicitly at the proper scripts under<strong> <code>/apps/settings/dam/indesign/scripts</code></strong> or <strong><code>/libs/settings/dam/indesign/scripts</code></strong> as appropriate.</li> 
       </ol> </li> 
-     <li>Remove<strong> <span class="code">/etc/dam/indesign/scripts</span></strong> entirely.</li> 
+     <li>Remove<strong> <code>/etc/dam/indesign/scripts</code></strong> entirely.</li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td><strong>Notes</strong></td> 
-   <td>It is recommended customized scripts be stored under <span class="code">/apps</span>, since that is the location where code should be stored.</td> 
+   <td>It is recommended customized scripts be stored under <code>/apps</code>, since that is the location where code should be stored.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -234,18 +234,18 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/dam/video</span></td> 
+   <td><code>/etc/dam/video</code></td> 
   </tr> 
   <tr> 
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/dam/video</span></p> <p><span class="code">/apps/settings/dam/video</span></p> </td> 
+   <td><p><code>/libs/settings/dam/video</code></p> <p><code>/apps/settings/dam/video</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Project level customizations need to be cut and pasted under equivalent <span class="code">/apps</span> or <span class="code">/conf</span> paths as applicable.</p> <p>To align with the AEM 6.4 repository structure:</p> 
+   <td><p>Project level customizations need to be cut and pasted under equivalent <code>/apps</code> or <code>/conf</code> paths as applicable.</p> <p>To align with the AEM 6.4 repository structure:</p> 
     <ol> 
-     <li>Copy any modified video configurations from <span class="code">/etc/dam/video</span> to <span class="code">/apps/settings/dam/video</span></li> 
-     <li>Remove <span class="code">/etc/dam/video</span></li> 
+     <li>Copy any modified video configurations from <code>/etc/dam/video</code> to <code>/apps/settings/dam/video</code></li> 
+     <li>Remove <code>/etc/dam/video</code></li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -261,19 +261,19 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/dam/presets/viewer</span></td> 
+   <td><code>/etc/dam/presets/viewer</code></td> 
   </tr> 
   <tr> 
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/dam/dm/presets/viewer</span></p> <p><span class="code">/conf/global/settings/dam/dm/presets/viewer</span></p> </td> 
+   <td><p><code>/libs/settings/dam/dm/presets/viewer</code></p> <p><code>/conf/global/settings/dam/dm/presets/viewer</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For the out of the box Viewer Preset, it will only available in the new location.</p> <p>For the Custom Viewer preset:</p> 
     <ul> 
-     <li>you will have to run a migration script to move the node from <span class="code">/etc</span> to <span class="code">/conf</span>. The script is located at <em>https://serveraddress:serverport/libs/settings/dam/dm/presets.migratedmcontent.json</em></li> 
+     <li>you will have to run a migration script to move the node from <code>/etc</code> to <code>/conf</code>. The script is located at <em>https://serveraddress:serverport/libs/settings/dam/dm/presets.migratedmcontent.json</em></li> 
      <li>or you can edit the configuration and they will be auto-saved to the new location.</li> 
-    </ul> <p>Note that you do not have to adjust their copyURL/embed code to point to <span class="code">/conf</span>. The existing request to <span class="code">/etc</span> will be re-routed to the correct content from <span class="code">/conf</span>.</p> </td> 
+    </ul> <p>Note that you do not have to adjust their copyURL/embed code to point to <code>/conf</code>. The existing request to <code>/etc</code> will be re-routed to the correct content from <code>/conf</code>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Notes</strong></td> 
@@ -288,15 +288,15 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody> 
   <tr> 
    <td><strong>Previous location</strong></td> 
-   <td><p><span class="code">/etc/clientlibs/foundation/asseteditor</span></p> <p><span class="code">/etc/clientlibs/foundation/assetshare</span></p> <p><span class="code">/etc/clientlibs/foundation/assetinsights</span></p> </td> 
+   <td><p><code>/etc/clientlibs/foundation/asseteditor</code></p> <p><code>/etc/clientlibs/foundation/assetshare</code></p> <p><code>/etc/clientlibs/foundation/assetinsights</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/libs/dam/clientlibs</span></td> 
+   <td><code>/libs/dam/clientlibs</code></td> 
   </tr> 
   <tr> 
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Adjust any references to point to the new resources under <span class="code">/libs</span> using the <span class="code">/etc.clientlibs/</span> allow proxy prefix.</p> <p>Finally, clean up by removing the folders for the migrated clientlibs from <span class="code">/etc/clientlibs/foundation/</span></p> </td> 
+   <td><p>Adjust any references to point to the new resources under <code>/libs</code> using the <code>/etc.clientlibs/</code> allow proxy prefix.</p> <p>Finally, clean up by removing the folders for the migrated clientlibs from <code>/etc/clientlibs/foundation/</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Notes</strong></td> 

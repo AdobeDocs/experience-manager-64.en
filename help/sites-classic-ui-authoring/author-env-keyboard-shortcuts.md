@@ -35,7 +35,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply to the use o
   </tr> 
   <tr> 
    <td>Console</td> 
-   <td><strong><span class="code">Shift-Double-Click</span></strong><br /> (on required page)</td> 
+   <td><strong><code>Shift-Double-Click</code></strong><br /> (on required page)</td> 
    <td>Open page in new window.<br /> <strong>Note:</strong> this is operational if the <a href="/help/sites-classic-ui-authoring/author-env-user-props.md">User Properties</a> are set to Single Window; if Multiple Windows then this is the default behavior.</td> 
   </tr> 
  </tbody> 

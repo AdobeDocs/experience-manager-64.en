@@ -103,8 +103,8 @@ The default values in the configuration are for a single publish instance. As us
 
 Author instance pings the exporter endpoint of publishers. Whenever a user is created or updated on specific publishers (n), the Author gets the content from their exporter endpoints and [pushes the content](/help/communities/sync.md#main-pars-image-1413756164) to other publishers (n-1, that is apart from the publishers from which the content is fetched).
 
-<details> 
- <summary>To configure Apache Sling Sync Agents configuration</summary> 
+<div class="details"> 
+ <h3 class="summary">To configure Apache Sling Sync Agents configuration</h3> 
  <p>On AEM author instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
@@ -121,7 +121,7 @@ Author instance pings the exporter endpoint of publishers. Whenever a user is cr
    </ul> </li> 
  </ol> 
  <img imageRotate="0" src="assets/sync-agent-fact.png" /> 
-</details>
+</div>
 
 ### Adobe Granite Distribution - Encrypted Password Transport Secret Provider {#adobe-granite-distribution-encrypted-password-transport-secret-provider}
 
@@ -131,8 +131,8 @@ The [authorized user created](/help/sites-administering/sync.md#createauthuser) 
 
 Whenever data is to be installed on or fetched from publishers, then the author connects with the publishers using the credentials (user name and password) set in this configuration.
 
-<details> 
- <summary>To connect author with publishers using authorized user</summary> 
+<div class="details"> 
+ <h3 class="summary">To connect author with publishers using authorized user</h3> 
  <p>On AEM author instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
@@ -154,14 +154,14 @@ Whenever data is to be installed on or fetched from publishers, then the author 
     </g>-admin</strong></li> 
  </ol> 
  <img imageRotate="0" src="assets/granite-paswrd-trans.png" /> 
-</details>
+</div>
 
 ### Apache Sling Distribution Agent - Queue Agents Factory {#apache-sling-distribution-agent-queue-agents-factory}
 
 This configuration is used to configure the data you want to sync across publishers. When data is created/ updated in paths specified in **Allowed Roots**, the "var/community/distribution/diff" gets activated and the created replicator fetches the data from a publisher and installs it on other publishers.
 
-<details> 
- <summary>To configure the data (node paths) to synchronize</summary> 
+<div class="details"> 
+ <h3 class="summary">To configure the data (node paths) to synchronize</h3> 
  <p>On AEM publish instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
@@ -179,15 +179,15 @@ This configuration is used to configure the data you want to sync across publish
    </g> instance.</li> 
  </ol> 
  <img imageRotate="0" src="assets/queue-agents-fact.png" /> 
-</details>
+</div>
 
 ### Adobe Granite Distribution - Diff Observer Factory {#adobe-granite-distribution-diff-observer-factory}
 
 This configuration syncs group membership across publishers.   
 If changing the membership of a group in one publisher does not update its membership on other publishers, then ensure that **ref:members ** is  added to **looked properties names**.
 
-<details> 
- <summary>To ensure member synchronization</summary> 
+<div class="details"> 
+ <h3 class="summary">To ensure member synchronization</h3> 
  <p>On each AEM publish instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
@@ -207,7 +207,7 @@ If changing the membership of a group in one publisher does not update its membe
    </g> for propertyName in <strong>looked properties names</strong>, and Save.</li> 
  </ol> 
  <img imageRotate="0" src="assets/diff-obs.png" /> 
-</details>
+</div>
 
 ### Apache Sling Distribution Trigger - Scheduled Triggers Factory {#apache-sling-distribution-trigger-scheduled-triggers-factory}
 
@@ -215,8 +215,8 @@ This configuration allows you to configure the polling interval (after which pub
 
 The author polls publishers every 30 seconds (default). If any packages are present at the folder */var/sling/distribution/packages/  socialpubsync -  vlt /shared*, then it will fetch those packages and install them on other publishers.
 
-<details> 
- <summary>To alter the polling interval</summary> 
+<div class="details"> 
+ <h3 class="summary">To alter the polling interval</h3> 
  <p>On AEM author instance:</p> 
  <ol> 
   <li>sign in with administrator privileges.</li> 
@@ -234,7 +234,7 @@ The author polls publishers every 30 seconds (default). If any packages are pres
   <li>set the Interval in Seconds to the desired interval, and save.</li> 
  </ul> 
  <img imageRotate="0" src="assets/scheduled-trigger.png" /> 
-</details>
+</div>
 
 ### AEM Communities User Sync Listener {#aem-communities-user-sync-listener}
 
@@ -245,8 +245,8 @@ For issues in Sling distribution where there is a discrepancy in subscriptions a
 * IgnorableNodes
 * DistributedFolders
 
-<details> 
- <summary>To sync subscriptions, follows, and notifications</summary> 
+<div class="details"> 
+ <h3 class="summary">To sync subscriptions, follows, and notifications</h3> 
  <p>On each AEM publish instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
@@ -276,7 +276,7 @@ For issues in Sling distribution where there is a discrepancy in subscriptions a
    </g> (since we use sticky sessions, we need not sync this node to different publishers)</li> 
  </ol> 
  <img imageRotate="0" src="assets/user-sync-listner.png" /> 
-</details>
+</div>
 
 ### Unique Sling ID {#unique-sling-id}
 
@@ -284,8 +284,8 @@ AEM author instance uses Sling ID to identify from where the data is coming and 
 
 Make sure all the publishers in a publish farm have a unique Sling ID. If the Sling ID is the same for multiple publish instances in a publish farm, then user synchronization will fail. As the author won't know where to fetch the package from and where to install the package.
 
-<details> 
- <summary>To ensure unique Sling ID of publishers in the publish farm</summary> 
+<div class="details"> 
+ <h3 class="summary">To ensure unique Sling ID of publishers in the publish farm</h3> 
  <p>On each publish instance:</p> 
  <ol> 
   <li>Browse to <a href="http://localhost:4503/system/console/status-slingsettings">https://<em>host:port</em>/system/console/status-slingsettings</a>.</li> 
@@ -295,12 +295,12 @@ Make sure all the publishers in a publish farm have a unique Sling ID. If the Sl
  <p>If the Sling ID of a publish instance matches the Sling ID of any other publish instance, then:</p> 
  <ol> 
   <li>Stop one of the publish instances that has a matching Sling ID.</li> 
-  <li>In the <span class="code">crx-quickstart/launchpad/felix</span> directory, search for and delete the file named <em>sling.id.file.<br /> </em>for example, on a Linux system:<em><br /> rm -i $(find . -type f -name sling.id.file)<br /> </em>for example, on a Windows system:<br /> use windows explorer and search for <em>sling.id.file</em></li> 
+  <li>In the <code>crx-quickstart/launchpad/felix</code> directory, search for and delete the file named <em>sling.id.file.<br /> </em>for example, on a Linux system:<em><br /> rm -i $(find . -type f -name sling.id.file)<br /> </em>for example, on a Windows system:<br /> use windows explorer and search for <em>sling.id.file</em></li> 
   <li>Start the publish instance. On startup it will be assigned a new Sling ID. </li> 
   <li>Validate that the <strong>Sling ID</strong> is now unique.</li> 
  </ol> 
  <p>Repeat these steps until all publish instances have an unique Sling ID.</p> 
-</details>
+</div>
 
 ### Vault Package Builder Factory {#vault-package-builder-factory}
 
@@ -309,8 +309,8 @@ In **/home/users**, a **&#42;/rep:cache **node is created. It is a cache which i
 
 User synchronization can stop if `rep:cache `nodes are synced across publishers.
 
-<details> 
- <summary>To ensure that updates are synced properly across publishers</summary> 
+<div class="details"> 
+ <h3 class="summary">To ensure that updates are synced properly across publishers</h3> 
  <p>On each AEM publish instance:</p> 
  <ol> 
   <li>Access the <a href="/help/sites-deploying/configuring-osgi.md">Web Console</a><br /> for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
@@ -331,7 +331,7 @@ User synchronization can stop if `rep:cache `nodes are synced across publishers.
    </ul> </li> 
  </ol> 
  <img imageRotate="0" src="assets/vault-package-builder-factory.png" /> 
-</details>
+</div>
 
 ## Troubleshoot Sling distribution in AEM Communities {#troubleshoot-sling-distribution-in-aem-communities}
 

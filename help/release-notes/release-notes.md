@@ -193,7 +193,7 @@ Delete icon is now available on respective sites and groups, while navigating fr
 
 #### Enhancements to Enablement {#enhancements-to-enablement}
 
-Assignment and Catalog functions are now available within groups. This enables learning content to be created, managed and published for a specific set of targeted community members. To know more about enabling community groups, refer [managing enablement resources](/help/communities/resource.md). [](/help/communities/resource.md)
+Assignment and Catalog functions are now available within groups. This enables learning content to be created, managed and published for a specific set of targeted community members. To know more about enabling community groups, refer [managing enablement resources](/help/communities/resource.md).
 
 ![](assets/assignmentcatalog.png)
 

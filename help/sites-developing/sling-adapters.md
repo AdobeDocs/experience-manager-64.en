@@ -94,7 +94,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/ValueMap.html">ValueMap</a></td> 
-   <td>Returns a convenient-to-use map of the properties, if this is a JCR-node-based resource (or other resource supporting value maps). Can also be achieved (more simply) by using<br /> <span class="code"><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/ResourceUtil.html#getvaluemap%28org.apache.sling.api.resource.resource%29">ResourceUtil.getValueMap(Resource)</a></span> (handles null case, etc.).</td> 
+   <td>Returns a convenient-to-use map of the properties, if this is a JCR-node-based resource (or other resource supporting value maps). Can also be achieved (more simply) by using<br /> <code><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/ResourceUtil.html#getvaluemap%28org.apache.sling.api.resource.resource%29">ResourceUtil.getValueMap(Resource)</a></code> (handles null case, etc.).</td> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/inherit/InheritanceValueMap.html">InheritanceValueMap</a></td> 
@@ -106,7 +106,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
   </tr> 
   <tr> 
    <td><a href="https://java.sun.com/j2se/1.5.0/docs/api/java/io/InputStream.html">InputStream</a></td> 
-   <td>Returns the binary content of a "file"<span class="code"></span> resource (if this is a JCR-node-based resource and the node type is <span class="code">nt:file</span> or <span class="code">nt:resource</span>; if this is a bundle resource; file content if this is a file system resource) or the data of a binary JCR property<br /> resource.</td> 
+   <td>Returns the binary content of a "file"<code></span> resource (if this is a JCR-node-based resource and the node type is <span class="code">nt:file</code> or <code>nt:resource</code>; if this is a bundle resource; file content if this is a file system resource) or the data of a binary JCR property<br /> resource.</td> 
   </tr> 
   <tr> 
    <td><a href="https://java.sun.com/j2se/1.5.0/docs/api/java/net/URL.html">URL</a></td> 
@@ -126,7 +126,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
   </tr> 
   <tr> 
    <td><a href="https://jackrabbit.apache.org/api/2.8/org/apache/jackrabbit/api/security/user/Authorizable.html">Authorizable</a><br /> (Jackrabbit)<br /> </td> 
-   <td>If this is a an authorizable resource (from the<br /> <span class="code">AuthorizableResourceProvider</span> in <span class="code">org.apache.sling.jackrabbit.usermanager</span>, under <span class="code">/system/userManager</span>).</td> 
+   <td>If this is a an authorizable resource (from the<br /> <code>AuthorizableResourceProvider</code> in <code>org.apache.sling.jackrabbit.usermanager</code>, under <code>/system/userManager</code>).</td> 
   </tr> 
   <tr> 
    <td><a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html">String</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Boolean.html">Boolean</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Long.html">Long</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Double.html">Double</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html">Calendar</a><br /> <a href="https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Value.html">Value</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html">String[]</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Boolean.html">Boolean[]</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/lang/Long.html">Long[]</a><br /> <a href="https://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html">Calendar[]</a><br /> <a href="https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Value.html">Value[]</a></td> 
@@ -138,23 +138,23 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page.html">Page</a></td> 
-   <td>If this is a JCR-node-based resource and the node is a <span class="code">cq:Page</span> (or <span class="code">cq:PseudoPage</span>).</td> 
+   <td>If this is a JCR-node-based resource and the node is a <code>cq:Page</code> (or <code>cq:PseudoPage</code>).</td> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/components/Component.html">Component</a></td> 
-   <td>If this is a <span class="code">cq:Component</span> node resource.</td> 
+   <td>If this is a <code>cq:Component</code> node resource.</td> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/designer/Design.html">Design</a></td> 
-   <td>If this is a design node (<span class="code">cq:Page</span>, typically under<br /> /etc/designs).</td> 
+   <td>If this is a design node (<code>cq:Page</code>, typically under<br /> /etc/designs).</td> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Template.html">Template</a></td> 
-   <td>If this is a <span class="code">cq:Template</span> node resource.</td> 
+   <td>If this is a <code>cq:Template</code> node resource.</td> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/msm/Blueprint.html">Blueprint</a></td> 
-   <td>If this is a <span class="code">cq:Page</span> node resource (more specific checks possible in the future).</td> 
+   <td>If this is a <code>cq:Page</code> node resource (more specific checks possible in the future).</td> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/Asset.html">Asset</a></td> 
@@ -166,11 +166,11 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/tagging/Tag.html">Tag</a></td> 
-   <td>If this is a <span class="code">cq:Tag</span> node resource.</td> 
+   <td>If this is a <code>cq:Tag</code> node resource.</td> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/preferences/Preferences.html">Preferences</a></td> 
-   <td>If this is a <span class="code">cq:Preferences</span> node resource for a valid user/group.</td> 
+   <td>If this is a <code>cq:Preferences</code> node resource for a valid user/group.</td> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/security/profile/Profile.html">Profile</a></td> 
@@ -210,11 +210,11 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/contentsync/config/package-summary.html">Config</a></td> 
-   <td>If this is a <span class="code">cq:ContentSyncConfig</span> node resource.</td> 
+   <td>If this is a <code>cq:ContentSyncConfig</code> node resource.</td> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/contentsync/config/package-summary.html">ConfigEntry</a></td> 
-   <td>If this is below a <span class="code">cq:ContentSyncConfig</span> node resource.</td> 
+   <td>If this is below a <code>cq:ContentSyncConfig</code> node resource.</td> 
   </tr> 
  </tbody> 
 </table>

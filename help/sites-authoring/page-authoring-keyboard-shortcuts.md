@@ -30,57 +30,57 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
   </tr>
   <tr>
    <td>Any Edit Window Mode<br /> </td> 
-   <td><span class="code">Ctrl-Shift-m</span></td> 
+   <td><code>Ctrl-Shift-m</code></td> 
    <td>Toggle between <a href="/help/sites-authoring/author-environment-tools.md#page-modes"><strong>Preview</strong> and the currently selected mode</a> (e.g. <strong>Edit</strong>, <strong>Layout</strong>, etc).*</td> 
   </tr>
   <tr>
    <td><strong>Edit</strong> mode</td> 
-   <td><span class="code">Ctrl-z</span></td> 
+   <td><code>Ctrl-z</code></td> 
    <td><a href="/help/sites-authoring/editing-content.md#undoing-and-redoing-page-edits">Undo last change</a>.</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td><span class="code">Ctrl-y</span></td> 
+   <td><code>Ctrl-y</code></td> 
    <td><a href="/help/sites-authoring/editing-content.md#undoing-and-redoing-page-edits">Redo last change</a>.</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td><strong><span class="code">Ctrl-Click</span></strong></td> 
+   <td><strong><code>Ctrl-Click</code></strong></td> 
    <td>Select multiple paragraphs.</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td><strong><span class="code">Ctrl-C</span></strong></td> 
+   <td><strong><code>Ctrl-C</code></strong></td> 
    <td>Copy selected paragraph(s).</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td><strong><span class="code">Ctrl-X</span></strong></td> 
+   <td><strong><code>Ctrl-X</code></strong></td> 
    <td>Cut selected paragraph(s).<strong><br /> Note:</strong> The cut paragraph will not disappear until it has been pasted to the new location.</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td><strong><span class="code">Ctrl-V</span></strong><br /> </td> 
+   <td><strong><code>Ctrl-V</code></strong><br /> </td> 
    <td>Paste paragraph(s) from clipboard.<br /> </td> 
   </tr>
   <tr>
    <td> </td> 
-   <td><strong><span class="code">Ctrl-Backspace</span></strong></td> 
+   <td><strong><code>Ctrl-Backspace</code></strong></td> 
    <td>Delete selected paragraph(s).</td> 
   </tr>
   <tr>
    <td><strong>Edit</strong> mode - Rich Text Editor<br /> </td> 
-   <td><strong><span class="code">Ctrl-B</span></strong><br /> </td> 
+   <td><strong><code>Ctrl-B</code></strong><br /> </td> 
    <td>Bold</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td><strong><span class="code">Ctrl-I</span></strong><br /> </td> 
+   <td><strong><code>Ctrl-I</code></strong><br /> </td> 
    <td>Italic<br /> </td> 
   </tr>
   <tr>
    <td> </td> 
-   <td><strong><span class="code">Ctrl-U</span></strong><br /> </td> 
+   <td><strong><code>Ctrl-U</code></strong><br /> </td> 
    <td>Underline</td> 
   </tr>
  </tbody>

@@ -30,11 +30,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/dam/video/dynamicmedia</span></td> 
+   <td><code>/etc/dam/video/dynamicmedia</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/conf/global/settings/dam/dm/presets/video/jcr:content</span></td> 
+   <td><code>/conf/global/settings/dam/dm/presets/video/jcr:content</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -53,11 +53,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/cloudservices/dmscene7</span></td> 
+   <td><code>/etc/cloudservices/dmscene7</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/conf/global/settings/cloudservices/dmscene7</span></td> 
+   <td><code>/conf/global/settings/cloudservices/dmscene7</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -80,11 +80,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/cloudservices/dynamicmediaservices</span></td> 
+   <td><code>/etc/cloudservices/dynamicmediaservices</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/conf/global/settings/dam/dm/cloudservices/dynamicmediaservices</span></td> 
+   <td><code>/conf/global/settings/dam/dm/cloudservices/dynamicmediaservices</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -103,15 +103,15 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/cloudservices/youtube</span></td> 
+   <td><code>/etc/cloudservices/youtube</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/libs/settings/dam/dm/youtube</span></td> 
+   <td><code>/libs/settings/dam/dm/youtube</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>1. Unpublish all videos from YouTube<br /> 2. Create the YouTube Configuration using the new TouchUI (from <span class="code">/conf</span>) including copying all the Channels from the old location<br /> 3. Publish all videos back to YouTube.</p> <p>This will result in new YouTube URLs. If you do not unpublish prior to creating a new TouchUI YouTube config, then you will have multiple YouTube URLs listed under Properties because the recreated Channels will publish again if given the chance. This means you'll have useless URLs listed under Properties.</p> </td> 
+   <td><p>1. Unpublish all videos from YouTube<br /> 2. Create the YouTube Configuration using the new TouchUI (from <code>/conf</code>) including copying all the Channels from the old location<br /> 3. Publish all videos back to YouTube.</p> <p>This will result in new YouTube URLs. If you do not unpublish prior to creating a new TouchUI YouTube config, then you will have multiple YouTube URLs listed under Properties because the recreated Channels will publish again if given the chance. This means you'll have useless URLs listed under Properties.</p> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
@@ -126,11 +126,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/dam/imageserver/macros</span></td> 
+   <td><code>/etc/dam/imageserver/macros</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/conf/global/settings/dam/dm/presets/macro</span></td> 
+   <td><code>/conf/global/settings/dam/dm/presets/macro</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -147,11 +147,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/dam/presets/analytics</span></td> 
+   <td><code>/etc/dam/presets/analytics</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/libs/settings/dam/dm/analytics</span></td> 
+   <td><code>/libs/settings/dam/dm/analytics</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 

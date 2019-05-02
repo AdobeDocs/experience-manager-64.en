@@ -41,19 +41,19 @@ The following table provides links to the reference documentation of several key
   </tr> 
   <tr> 
    <td>Accessing a workflow<br /> </td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/WorkflowSession.html"><span class="code">WorkflowSession</span></a><br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/WorkflowSession.html"><code>WorkflowSession</code></a><br /> </td> 
   </tr> 
   <tr> 
    <td>Executing and querying a workflow instance<br /> </td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow.html"><span class="code">Workflow</span></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkItem.html"><span class="code">WorkItem</span></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData.html"><span class="code">WorkflowData</span></a><br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow.html"><code>Workflow</code></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkItem.html"><code>WorkItem</code></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData.html"><code>WorkflowData</code></a><br /> </td> 
   </tr> 
   <tr> 
    <td>Managing a workflow model<br /> </td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowModel.html"><span class="code">WorkflowModel</span></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowNode.html"><span class="code">WorkflowNode</span></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowTransition.html"><span class="code">WorkflowTransition</span></a><br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowModel.html"><code>WorkflowModel</code></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowNode.html"><code>WorkflowNode</code></a><br /> <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowTransition.html"><code>WorkflowTransition</code></a><br /> </td> 
   </tr> 
   <tr> 
    <td>Information for a node that is in the workflow (or not) </td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.html"><span class="code">WorkflowStatus</span></a></td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.html"><code>WorkflowStatus</code></a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,12 +106,12 @@ The following HTTP request methods apply to:
    <td>Actions</td> 
   </tr> 
   <tr> 
-   <td><span class="code">GET</span></td> 
+   <td><code>GET</code></td> 
    <td>Lists the available workflow instances.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">POST</span></td> 
-   <td><p>Creates a new workflow instance. The parameters are:<br /> - <span class="code">model</span>: the ID (URI) of the respective workflow model<br /> - <span class="code">payloadType</span>: containing the type of the payload (for example <span class="code">JCR_PATH</span> or URL).<br /> The payload is sent as parameter <span class="code">payload</span>. A <span class="code">201</span> (<span class="code">CREATED</span>) response is sent back with a location header containing the URL of the new workflow instance resource.</p> </td> 
+   <td><code>POST</code></td> 
+   <td><p>Creates a new workflow instance. The parameters are:<br /> - <code>model</code>: the ID (URI) of the respective workflow model<br /> - <code>payloadType</code>: containing the type of the payload (for example <code>JCR_PATH</code> or URL).<br /> The payload is sent as parameter <code>payload</code>. A <code>201</code> (<code>CREATED</code>) response is sent back with a location header containing the URL of the new workflow instance resource.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -139,12 +139,12 @@ The following HTTP request methods apply to:
    <td>Actions</td> 
   </tr> 
   <tr> 
-   <td><span class="code">GET</span></td> 
+   <td><code>GET</code></td> 
    <td>Gets the instances data (definition and metadata) including the link to the respective workflow model.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">POST</span></td> 
-   <td>Changes the state of the instance. The new state is sent as the parameter <span class="code">state</span> and must have one of the following values: <span class="code">RUNNING</span>, <span class="code">SUSPENDED</span>, or <span class="code">ABORTED</span>.<br /> If the new state is not reachable (for example when suspending a terminated instance) a <span class="code">409</span> (<span class="code">CONFLICT</span>) response is sent back to the client.</td> 
+   <td><code>POST</code></td> 
+   <td>Changes the state of the instance. The new state is sent as the parameter <code>state</code> and must have one of the following values: <code>RUNNING</code>, <code>SUSPENDED</code>, or <code>ABORTED</code>.<br /> If the new state is not reachable (for example when suspending a terminated instance) a <code>409</code> (<code>CONFLICT</code>) response is sent back to the client.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -162,12 +162,12 @@ The following HTTP request methods apply to: ``
    <td>Actions</td> 
   </tr> 
   <tr> 
-   <td><span class="code">GET</span></td> 
+   <td><code>GET</code></td> 
    <td>Lists the available workflow models.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">POST</span></td> 
-   <td>Creates a new workflow model. If the parameter <span class="code">title</span> is sent, a new model is created with the specified title. Attaching a JSON model definition as parameter <span class="code">model</span> creates a new workflow model according to the provided definition.<br /> A <span class="code">201</span> response (<span class="code">CREATED</span>) is sent back with a location header containing the URL of the new workflow model resource.<br /> The same happens when a model definition is attached as a file parameter called <span class="code">modelfile</span>.<br /> In both the cases of the <span class="code">model</span> and <span class="code">modelfile</span> parameters, an additional parameter called <span class="code">type</span> is required to define the serialization format. New serialization formats can be integrated using the OSGI API. A standard JSON serializer is delivered with the workflow engine. Its type is JSON. See below for an example of the format.</td> 
+   <td><code>POST</code></td> 
+   <td>Creates a new workflow model. If the parameter <code>title</code> is sent, a new model is created with the specified title. Attaching a JSON model definition as parameter <code>model</code> creates a new workflow model according to the provided definition.<br /> A <code>201</code> response (<code>CREATED</code>) is sent back with a location header containing the URL of the new workflow model resource.<br /> The same happens when a model definition is attached as a file parameter called <code>modelfile</code>.<br /> In both the cases of the <code>model</code> and <code>modelfile</code> parameters, an additional parameter called <code>type</code> is required to define the serialization format. New serialization formats can be integrated using the OSGI API. A standard JSON serializer is delivered with the workflow engine. Its type is JSON. See below for an example of the format.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -247,20 +247,20 @@ The following HTTP request methods apply to:
    <td>Actions</td> 
   </tr> 
   <tr> 
-   <td><span class="code">GET</span></td> 
-   <td>Gets the <span class="code">HEAD</span> version of the model (definition and metadata).</td> 
+   <td><code>GET</code></td> 
+   <td>Gets the <code>HEAD</code> version of the model (definition and metadata).</td> 
   </tr> 
   <tr> 
-   <td><span class="code">PUT</span></td> 
-   <td>Updates the <span class="code">HEAD</span> version of the model (creates a new version).<br /> The complete model definition for the new version of the model must be added as a parameter called <span class="code">model</span>. Additionally a <span class="code">type</span> parameter is needed as when creating new models and needs to have the value <span class="code">JSON</span>.<br /> </td> 
+   <td><code>PUT</code></td> 
+   <td>Updates the <code>HEAD</code> version of the model (creates a new version).<br /> The complete model definition for the new version of the model must be added as a parameter called <code>model</code>. Additionally a <code>type</code> parameter is needed as when creating new models and needs to have the value <code>JSON</code>.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">POST</span></td> 
-   <td>Same behaviour as with PUT. Needed because AEM widgets do not support <span class="code">PUT</span> operations.</td> 
+   <td><code>POST</code></td> 
+   <td>Same behaviour as with PUT. Needed because AEM widgets do not support <code>PUT</code> operations.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">DELETE</span></td> 
-   <td>Deletes the model. In order to solve firewall/proxy issues a <span class="code">POST</span> that contains an <span class="code">X-HTTP-Method-Override</span> header entry with value <span class="code">DELETE</span> will also be accepted as <span class="code">DELETE</span> request.</td> 
+   <td><code>DELETE</code></td> 
+   <td>Deletes the model. In order to solve firewall/proxy issues a <code>POST</code> that contains an <code>X-HTTP-Method-Override</code> header entry with value <code>DELETE</code> will also be accepted as <code>DELETE</code> request.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -366,12 +366,12 @@ The following HTTP request methods apply to: ``
    <td>Actions</td> 
   </tr> 
   <tr> 
-   <td><span class="code">GET</span></td> 
+   <td><code>GET</code></td> 
    <td>Lists the work items that are in the inbox of the user, who is identified by the HTTP authentication headers.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">POST</span></td> 
-   <td>Completes the work item whose URI is sent as the parameter <span class="code">item</span> and advances the according workflow instance to the next node(s), that is defined by the parameter <span class="code">route</span> or <span class="code">backroute</span> in case of going a step back.<br /> If the parameter <span class="code">delegatee</span> is sent, the work item identified by the parameter <span class="code">item</span> is delegated to the specified participant.</td> 
+   <td><code>POST</code></td> 
+   <td>Completes the work item whose URI is sent as the parameter <code>item</code> and advances the according workflow instance to the next node(s), that is defined by the parameter <code>route</code> or <code>backroute</code> in case of going a step back.<br /> If the parameter <code>delegatee</code> is sent, the work item identified by the parameter <code>item</code> is delegated to the specified participant.</td> 
   </tr> 
  </tbody> 
 </table>
