@@ -376,5 +376,16 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [creating-custom-adaptive-form-themes](/help/forms/using/creating-custom-adaptive-form-themes.md)
   + [synchronizing-adaptive-forms-xfa](/help/forms/using/synchronizing-adaptive-forms-xfa.md)
   + [aem-forms-workflow-step-reference](/help/forms/using/aem-forms-workflow-step-reference.md)
+  + [forms-workflow-osgi-handling-user-data](/help/forms/using/forms-workflow-osgi-handling-user-data.md)
+  + [starting-stopping-services](/help/forms/using/admin-help/starting-stopping-services.md)
+  + [adding-enabling-modifying](/help/forms/using/admin-help/adding-enabling-modifying-or-removing.md)
+  + [enabling-single-sign-on](/help/forms/using/admin-help/enabling-single-sign-on-aem.md)
+  + [saml](/help/forms/using/admin-help/configure-saml-service-provider-settings.md)
+  + [importing-exporting-config-file](/help/forms/using/admin-help/importing-exporting-configuration-file.md)
+  + [editing-converting-existing-domains](/help/forms/using/admin-help/editing-converting-existing-domains.md)
+  + [create-adpative-form](/help/forms/using/create-adaptive-form.md)
+  + [user-mgmt](/help/forms/using/user-management-handling-user-data.md)
+  + [jee](/help/forms/using/forms-workflow-jee-handling-user-data.md)
+
 
 
