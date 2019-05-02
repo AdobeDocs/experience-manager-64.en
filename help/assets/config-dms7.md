@@ -53,13 +53,13 @@ For all upgrades, either with or without the compatibility package, you can copy
 
 `curl -u admin:admin http://localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets`
 
-## Installing Feature Pack 18912 {#installing-feature-pack}
+## Installing feature pack 18912 for bulk asset migration {#installing-feature-pack}
 
-The installation of Feature Pack 18912 is optional.
+The installation of feature pack 18912 is _optional_.
 
-Feature Pack 18912 lets you bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic (Scene7), or both. It is available from Adobe support.
+Feature pack 18912 lets you either bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic to Dynamic Media on AEM. It is available from Adobe support.
 
-See [Installing Feature Pack 18912](bulk-ingest-migrate.md) for more information.
+See [Installing feature pack 18912 for bulk asset migration](bulk-ingest-migrate.md) for more information.
 
 ## Configuring Dynamic Media Cloud Services {#configuring-dynamic-media-cloud-services}
 
