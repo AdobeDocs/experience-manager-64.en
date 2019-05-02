@@ -580,19 +580,19 @@ The values of the **Process Arguments** must be separated by a comma and must no
  <tbody> 
   <tr> 
    <td> Argument-Format</td> 
-   <td>Description <br /> </td> 
+   <td>Description</td> 
   </tr> 
   <tr> 
    <td> mime:&lt;mime-type&gt;</td> 
-   <td><p>Optional argument. The process is applied if the asset has the same mime-type as the one of the argument.<br /> </p> <p>Several mime-types can be defined.<br /> </p> </td> 
+   <td><p>Optional argument. The process is applied if the asset has the same mime-type as the one of the argument.</p> <p>Several mime-types can be defined.</p> </td> 
   </tr> 
   <tr> 
-   <td> tn:&lt;width&gt;:&lt;heigth&gt;</td> 
+   <td> tn:&lt;width&gt;:&lt;height&gt;</td> 
    <td><p>Optional argument. The process creates a thumbnail with the dimensions defined in the argument.</p> <p>Several thumbnails can be defined.<br /> </p> </td> 
   </tr> 
   <tr> 
-   <td> cmd: &lt;command&gt;<br /> </td> 
-   <td><p>Defines the command that will be executed. The syntax depends on the command line tool.</p> <p>Only one command can be defined.</p> <p>The following variables can be used to create the command:<br /> </p> <p><span class="code">${filename}</span>: name of the input file, e.g. original.jpg<br /> <span class="code">${file}</span>: full path name of the input file, e.g. /tmp/cqdam0816.tmp/original.jpg<br /> <span class="code">${directory}</span>: directory of the input file, e.g. /tmp/cqdam0816.tmp.<br /> <span class="code">${basename}</span>: name of the input file without its extension, e.g. original<br /> <span class="code">${extension}</span>: extension of the input file, e.g. jpg<br /> </p> </td> 
+   <td> cmd: &lt;command&gt;</td> 
+   <td><p>Defines the command that will be executed. The syntax depends on the command line tool.</p> <p>Only one command can be defined.</p> <p>The following variables can be used to create the command:<br/></p> <p><span class="code">${filename}</span>: name of the input file, e.g. original.jpg<br/><span class="code">${file}</span>: full path name of the input file, e.g. /tmp/cqdam0816.tmp/original.jpg<br/><span class="code">${directory}</span>: directory of the input file, e.g. /tmp/cqdam0816.tmp.<br/> <span class="code">${basename}</span>: name of the input file without its extension, e.g. original<br/> <span class="code">${extension}</span>: extension of the input file, e.g. jpg<br/></p></td> 
   </tr> 
  </tbody> 
 </table>

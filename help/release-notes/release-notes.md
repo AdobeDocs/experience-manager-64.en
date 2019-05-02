@@ -181,13 +181,13 @@ AEM 6.4 Communities exposes [out-of-the-box APIs](/help/communities/user-ugc-man
 
 #### Enhancements to Site and Group Management {#enhancements-to-site-and-group-management}
 
-**Create multi-locale groups in single step**
+**Create multi-locale groups in a single step**
 
-Capability to create multi-lingual groups in single operation has been provided. To create such groups, users can navigate to Group Collection of the desired communities site from the Sites console. Create a group, and specify the desired languages in Community Group Template page. To know more about this functionality, refer [community groups console](https://helpx.adobe.com/experience-manager/6-4/communities/using/groups.html#main-pars_title_262161330).
+Capability to create multi-lingual groups in single operation has been provided. To create such groups, users can navigate to Group Collection of the desired communities site from the Sites console. Create a group, and specify the desired languages in Community Group Template page. To know more about this functionality, refer [community groups console](/help/communities/groups.md).
 
 ![](assets/multilingualgroup.png)
 
-**Delete community sites and groups in a click [](https://helpx.adobe.com/experience-manager/6-4/communities/using/groups.html#main-pars_header_591c)**
+**[Delete community sites and groups in a click](/help/communities/groups.md)**
 
 Delete icon is now available on respective sites and groups, while navigating from global navigation. Using this icon deletes all the items and content associated with the site or group, and removes all the user associations. To know more about this functionality, refer [managing community sites](/help/communities/create-site.md#main-pars-text-fe17) and [managing community groups](/help/communities/groups.md#main-pars-text-5e8c).
 

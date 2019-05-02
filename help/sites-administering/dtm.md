@@ -50,20 +50,20 @@ If desired, your author instance can use the production libraries. Web browser p
 
 ### Using the Dynamic Tag Management Deployment Hook {#using-the-dynamic-tag-management-deployment-hook}
 
-When AEM hosts the Dynamic Tag Management libraries, you can use the Dynamic Tag Management deployment hook service to automatically push library updates to AEM. Library updates are pushed when changes are made to the libraries such as when the Dynamic Tag Mangement web property properties are edited.
+When AEM hosts the Dynamic Tag Management libraries, you can use the Dynamic Tag Management deployment hook service to automatically push library updates to AEM. Library updates are pushed when changes are made to the libraries such as when the Dynamic Tag Management web property properties are edited.
 
-To use the deployment hook, Dynamic Tag Management must be able to connect to the AEM instance that hosts the libaries. You must [enable access to AEM](/help/sites-administering/dtm.md#enabling-access-for-the-deployment-hook-service) for the Dynamic Tag Managment servers.
+To use the deployment hook, Dynamic Tag Management must be able to connect to the AEM instance that hosts the libaries. You must [enable access to AEM](/help/sites-administering/dtm.md#enabling-access-for-the-deployment-hook-service) for the Dynamic Tag Management servers.
 
 In some circumstances AEM can be unreachable, such as when AEM lies behind a firewall. In these cases, you can use the AEM polling importer option to periodically retrieve the libraries. A cron job expression dictates the schedule for library downloads.
 
 ## Enabling Access for the Deployment Hook Service {#enabling-access-for-the-deployment-hook-service}
 
-Enable the Dynamic Tag Management deployment hook service to access AEM so that the service can update the AEM-hosted libraries. Specify the the IP address of Dynamic Tag Management servers that udpate the staging and production libraries as required:
+Enable the Dynamic Tag Management deployment hook service to access AEM so that the service can update the AEM-hosted libraries. Specify the the IP address of Dynamic Tag Management servers that update the staging and production libraries as required:
 
 * Staging: `107.21.99.31`
 * Production: `23.23.225.112` and `204.236.240.48`
 
-Perform the configuration using either the [Web Console](/help/sites-deploying/configuring-osgi.md#osgi-configuration-with-the-web-console) or a [ `sling:OsgiConfig`](/help/sites-deploying/configuring-osgi.md#osgi-configuration-in-the-repository) node:
+Perform the configuration using either the [Web Console](/help/sites-deploying/configuring-osgi.md#osgi-configuration-with-the-web-console) or a [`sling:OsgiConfig`](/help/sites-deploying/configuring-osgi.md#osgi-configuration-in-the-repository) node:
 
 * In the Web Console, use the Adobe DTM Deploy Hook Configuration item on the Configuration page.
 * For an OSGi configuration, the service PID is `com.adobe.cq.dtm.impl.servlets.DTMDeployHookServlet`.
@@ -154,7 +154,7 @@ When hosting the Dynamic Tag Management libraries on AEM, AEM automatically conf
   </tr> 
   <tr> 
    <td>Enable<a name="polling"></a> Polling Importer</td> 
-   <td><p>(Optional) Select to periodically download and install the Dynamic Tag Management library to ensure you are using an updated version. When selected, Dynamic Tag Mangement does not send HTTP POST requests to the Deploy Hook URL.</p> <p>AEM automatically configures the Deploy Hook URL property of the Library Download properties for the Dynamic Tag Management web property. When selected, the property is configured with no value. When not selected, the property is confgured with the URL of your Dynanic Tag Management configuration.</p> <p>Enable polling importer when the Dynamic Tag Management deploy hook cannot connect to AEM, for example when AEM is behind a firewall.</p> </td> 
+   <td><p>(Optional) Select to periodically download and install the Dynamic Tag Management library to ensure you are using an updated version. When selected, Dynamic Tag Management does not send HTTP POST requests to the Deploy Hook URL.</p> <p>AEM automatically configures the Deploy Hook URL property of the Library Download properties for the Dynamic Tag Management web property. When selected, the property is configured with no value. When not selected, the property is configured with the URL of your Dynamic Tag Management configuration.</p> <p>Enable polling importer when the Dynamic Tag Management deploy hook cannot connect to AEM, for example when AEM is behind a firewall.</p> </td> 
   </tr> 
   <tr> 
    <td>Schedule Expression</td> 
@@ -197,7 +197,7 @@ The following procedure uses the touch-optimized UI to configure the integration
 1. On the rail, click Tools &gt; Operations &gt; Cloud &gt; Cloud Services.
 1. In the Dynamic Tag Management area, one of the following links appear for adding a configuration:
 
-    * Click Configure Now if this is the first configuraiton that you are adding.
+    * Click Configure Now if this is the first configuration that you are adding.
     * Click Show Configurations and then click the + link beside Available Configurations if one or more configurations have been created.
 
    ![](assets/chlimage_1-354.png)
@@ -242,9 +242,9 @@ Manually download the Dynamic Tag Management libraries to immediately update the
 
 ## Associating a Dynamic Tag Management Configuration With Your Site {#associating-a-dynamic-tag-management-configuration-with-your-site}
 
-Associate your Dynamic Tag Management configuration with the pages of your web site so that AEM adds the required script to the pages. Associate the root page of your site with the configuration. All descendents of that page inherit the association. If required, you can override the association on a descendent page.
+Associate your Dynamic Tag Management configuration with the pages of your web site so that AEM adds the required script to the pages. Associate the root page of your site with the configuration. All descendants of that page inherit the association. If required, you can override the association on a descendant page.
 
-Use the following procedure to associate a page and the decsendents with a Dynamic Tag Management configuration.
+Use the following procedure to associate a page and the descendants with a Dynamic Tag Management configuration.
 
 1. Open the root page of your site in the classic UI.
 1. Use Sidekick to open the page properties.
@@ -254,7 +254,7 @@ Use the following procedure to associate a page and the decsendents with a Dynam
 
 1. Use the Dynamic Tag Management drop-down menu to select your configuration, and then click OK.
 
-Use the following procedure to override the inherited configuration association for a page. The override affects the page and all of the page descendents.
+Use the following procedure to override the inherited configuration association for a page. The override affects the page and all of the page descendants.
 
 1. Open the page in the classic UI.
 1. Use Sidekick to open the page properties.
