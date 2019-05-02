@@ -302,9 +302,7 @@ The plus button against the asset library lets you permanently save the style wi
 
 When you provide a custom name for a style, the style is tied to a theme and is no longer available to other themes. To delete a saved style:
 
-1. On the CANVAS toolbar, click **Theme Options ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/6-2/theme-options.png)
-
-   **&gt;** Manage Styles.**
+1. On the CANVAS toolbar, click **Theme Options** ![](assets/theme-options.png) > **Manage Styles**.
 1. In the Manage Styles dialog, select a saved style, click **Delete**. 
 
    ![Delete the saved style](assets/manage-styles.png)
@@ -323,11 +321,11 @@ When you create a theme, it is created with a form that is shipped with the Them
 
 To replace the current form in Theme Editor Canvas:
 
-1. In the THEME EDITOR panel, click **Theme Options** ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/6-2/theme-options.png) &gt; **Configure**. 
+1. In the THEME EDITOR panel, click **Theme Options** ![](assets/theme-options.png) > **Configure**. 
 
 1. In the Edit Configuration dialog, click **Browse** ![](assets/browse.png).
 
-1. In the Select Path screen, select your form and click **Confirm ** ![](../assets/check-button.png).
+1. In the Select Path screen, select your form and click **Confirm** ![](../assets/check-button.png).
 
 ### Redo/Undo {#redo-undo}
 

@@ -26,7 +26,7 @@ Out of the box, forms portal components are not available for use. To make the c
 1. For the pages using a dynamic template, perform the following steps:
 
     1. In the page header, tap ![](assets/properties.png) &gt; **Edit Template** to open the template of the page.
-    1. Tap Layout Container and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/FeedManagement.png). In the **Allowed Components **tab, enable the **Document Services and Document Services Predicates **options, and tap ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG).
+    1. Tap Layout Container and tap ![](assets/FeedManagement.png). In the **Allowed Components **tab, enable the **Document Services and Document Services Predicates **options, and tap ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG).
 
 >[!NOTE]
 >

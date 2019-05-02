@@ -220,7 +220,7 @@ Execute the following steps to create a template for the Web channel in the **Cr
 
    ![](assets/content_tree_root_panel.png)
 
-1. Select the panel and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/experience-manager/6-4/forms/using/configure_icon.png) (Configure).
+1. Select the panel and tap ![](assets/configure_icon.png) (Configure).
 1. In the Properties pane:
 
     1. Specify **billdetails** in the Name field.

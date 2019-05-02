@@ -74,7 +74,7 @@ Goals:
 * Layout fields of an adaptive form to display information to the customer
 * Create rules to retrieve and display information from form data model to adaptive document.
 
-<!--![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)-->
+<!--![](assets/see-the-guide-sm.png)-->
 
 ## Step 3: Apply rules to adaptive document fields (Web channel only) {#step-apply-rules-to-adaptive-document-fields-web-channel-only}
 
