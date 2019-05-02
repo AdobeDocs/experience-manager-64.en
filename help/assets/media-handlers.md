@@ -40,7 +40,7 @@ The following media handlers are available within AEM Assets and handle the most
    <td>text/plain</td> 
   </tr> 
   <tr> 
-   <td><a>PdfHandler</a></td> 
+   <td>PdfHandler</td> 
    <td><p>com.day.cq.dam.handler.standard.pdf.PdfHandler</p> </td> 
    <td><p>application/pdf<br /> application/illustrator</p> </td> 
   </tr> 
@@ -50,17 +50,17 @@ The following media handlers are available within AEM Assets and handle the most
    <td>image/jpeg</td> 
   </tr> 
   <tr> 
-   <td><a>Mp3Handler</a></td> 
+   <td>Mp3Handler</td> 
    <td><p>com.day.cq.dam.handler.standard.mp3.Mp3Handler</p> </td> 
    <td><p>audio/mpeg</p> </td> 
   </tr> 
   <tr> 
-   <td><a>ZipHandler</a></td> 
+   <td>ZipHandler</td> 
    <td><p>com.day.cq.dam.handler.standard.zip.ZipHandler</p> </td> 
    <td><p>application/java-archive</p> <p>application/zip</p> </td> 
   </tr> 
   <tr> 
-   <td><a>PictHandler</a></td> 
+   <td>PictHandler</td> 
    <td><p>com.day.cq.dam.handler.standard.pict.PictHandler</p> </td> 
    <td><p>image/pict</p> </td> 
   </tr> 
@@ -592,7 +592,7 @@ The values of the **Process Arguments** must be separated by a comma and must no
   </tr> 
   <tr> 
    <td> cmd: &lt;command&gt;</td> 
-   <td><p>Defines the command that will be executed. The syntax depends on the command line tool.</p> <p>Only one command can be defined.</p> <p>The following variables can be used to create the command:<br/></p> <p><span class="code">${filename}</span>: name of the input file, e.g. original.jpg<br/><span class="code">${file}</span>: full path name of the input file, e.g. /tmp/cqdam0816.tmp/original.jpg<br/><span class="code">${directory}</span>: directory of the input file, e.g. /tmp/cqdam0816.tmp.<br/> <span class="code">${basename}</span>: name of the input file without its extension, e.g. original<br/> <span class="code">${extension}</span>: extension of the input file, e.g. jpg<br/></p></td> 
+   <td><p>Defines the command that will be executed. The syntax depends on the command line tool.</p> <p>Only one command can be defined.</p> <p>The following variables can be used to create the command:<br/></p> <p><code>${filename}</code>: name of the input file, e.g. original.jpg<br/><code>${file}</code>: full path name of the input file, e.g. /tmp/cqdam0816.tmp/original.jpg<br/><code>${directory}</code>: directory of the input file, e.g. /tmp/cqdam0816.tmp.<br/> <code>${basename}</code>: name of the input file without its extension, e.g. original<br/> <code>${extension}</code>: extension of the input file, e.g. jpg<br/></p></td> 
   </tr> 
  </tbody> 
 </table>

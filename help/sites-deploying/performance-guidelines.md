@@ -436,43 +436,43 @@ For good performance, you should follow the settings guidelines presented below.
   </tr> 
   <tr> 
    <td>Sling Job Queues</td> 
-   <td><span class="code">queue.maxparallel</span></td> 
+   <td><code>queue.maxparallel</code></td> 
    <td>Set value to half of the number of CPU cores. </td> 
    <td>By default the number of concurrent threads per job queue is equal to the number of CPU cores.</td> 
   </tr> 
   <tr> 
    <td>Granite Transient Workflow Queue</td> 
-   <td><span class="code">Max Parallel</span></td> 
+   <td><code>Max Parallel</code></td> 
    <td>Set value to half of the number of CPU cores</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>JVM parameters</td> 
-   <td><p><span class="code">Doak.queryLimitInMemory</span></p> <p><span class="code">Doak.queryLimitReads</span></p> <p><span class="code">Dupdate.limit</span></p> <p><span class="code">Doak.fastQuerySize</span></p> </td> 
+   <td><p><code>Doak.queryLimitInMemory</code></p> <p><code>Doak.queryLimitReads</code></p> <p><code>Dupdate.limit</code></p> <p><code>Doak.fastQuerySize</code></p> </td> 
    <td><p>500000</p> <p>100000</p> <p>250000</p> <p>True</p> </td> 
    <td>Add these JVM parameters in the AEM start script to prevent expansive queries from overloading the systems.</td> 
   </tr> 
   <tr> 
    <td>Lucene index configuration</td> 
-   <td><p><span class="code">CopyOnRead</span></p> <p><span class="code">CopyOnWrite</span></p> <p><span class="code">Prefetch Index Files</span></p> </td> 
+   <td><p><code>CopyOnRead</code></p> <p><code>CopyOnWrite</code></p> <p><code>Prefetch Index Files</code></p> </td> 
    <td><p>Enabled</p> <p>Enabled</p> <p>Enabled</p> </td> 
    <td>For more details on the available parameters, see <a href="https://jackrabbit.apache.org/oak/docs/query/lucene.html">this page</a>.</td> 
   </tr> 
   <tr> 
    <td>Data Store = S3 Datastore</td> 
-   <td><p><span class="code">maxCachedBinarySize</span></p> <p><span class="code">cacheSizeInMB</span></p> </td> 
+   <td><p><code>maxCachedBinarySize</code></p> <p><code>cacheSizeInMB</code></p> </td> 
    <td><p>1048576 (1MB) or smaller</p> <p>2-10% of max heap size</p> </td> 
    <td>See also <a href="/help/sites-deploying/data-store-config.md#data-store-configurations">Data Store Configurations</a>.</td> 
   </tr> 
   <tr> 
    <td>DAM Update Asset workflow</td> 
-   <td><span class="code">Transient Workflow</span></td> 
+   <td><code>Transient Workflow</code></td> 
    <td>checked</td> 
    <td>This workflow manages the update of assets.</td> 
   </tr> 
   <tr> 
    <td>DAM MetaData Writeback</td> 
-   <td><span class="code">Transient Workflow</span></td> 
+   <td><code>Transient Workflow</code></td> 
    <td>checked</td> 
    <td>This workflow manages XMP write-back to the original binary and sets the last modified date in JCR.</td> 
   </tr> 
@@ -546,43 +546,43 @@ For good performance, you should follow the settings guidelines presented below.
   </tr> 
   <tr> 
    <td>Sling Job Queues</td> 
-   <td><span class="code">queue.maxparallel</span></td> 
+   <td><code>queue.maxparallel</code></td> 
    <td>Set value to half of the number of CPU cores. </td> 
    <td>By default the number of concurrent threads per job queue is equal to the number of CPU cores.</td> 
   </tr> 
   <tr> 
    <td>Granite Transient Workflow Queue</td> 
-   <td><span class="code">Max Parallel</span></td> 
+   <td><code>Max Parallel</code></td> 
    <td>Set value to half of the number of CPU cores.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>JVM parameters</td> 
-   <td><p><span class="code">Doak.queryLimitInMemory</span></p> <p><span class="code">Doak.queryLimitReads</span></p> <p><span class="code">Dupdate.limit</span></p> <p><span class="code">Doak.fastQuerySize</span></p> <p><span class="code">Doak.mongo.maxQueryTimeMS</span></p> </td> 
+   <td><p><code>Doak.queryLimitInMemory</code></p> <p><code>Doak.queryLimitReads</code></p> <p><code>Dupdate.limit</code></p> <p><code>Doak.fastQuerySize</code></p> <p><code>Doak.mongo.maxQueryTimeMS</code></p> </td> 
    <td><p>500000</p> <p>100000</p> <p>250000</p> <p>True</p> <p>60000</p> </td> 
    <td>Add these JVM parameters in the AEM start script to prevent expansive queries from overloading the systems.</td> 
   </tr> 
   <tr> 
    <td>Lucene index configuration</td> 
-   <td><p><span class="code">CopyOnRead</span></p> <p><span class="code">CopyOnWrite</span></p> <p><span class="code">Prefetch Index Files</span></p> </td> 
+   <td><p><code>CopyOnRead</code></p> <p><code>CopyOnWrite</code></p> <p><code>Prefetch Index Files</code></p> </td> 
    <td><p>Enabled</p> <p>Enabled</p> <p>Enabled</p> </td> 
    <td>For more details on available parameters, see <a href="https://jackrabbit.apache.org/oak/docs/query/lucene.html">this page</a>.</td> 
   </tr> 
   <tr> 
    <td>Data Store = S3 Datastore</td> 
-   <td><p><span class="code">maxCachedBinarySize</span></p> <p><span class="code">cacheSizeInMB</span></p> </td> 
+   <td><p><code>maxCachedBinarySize</code></p> <p><code>cacheSizeInMB</code></p> </td> 
    <td><p>1048576 (1MB) or smaller</p> <p>2-10% of max heap size</p> </td> 
    <td>See also <a href="/help/sites-deploying/data-store-config.md#data-store-configurations">Data Store Configurations</a>.</td> 
   </tr> 
   <tr> 
    <td>DocumentNodeStoreService</td> 
-   <td><p><span class="code">cache</span></p> <p><span class="code">nodeCachePercentage</span></p> <p><span class="code">childrenCachePercentage</span></p> <p><span class="code">diffCachePercentage</span></p> <p><span class="code">docChildrenCachePercentage</span></p> <p><span class="code">prevDocCachePercentage</span></p> <p><span class="code">persistentCache</span></p> </td> 
+   <td><p><code>cache</code></p> <p><code>nodeCachePercentage</code></p> <p><code>childrenCachePercentage</code></p> <p><code>diffCachePercentage</code></p> <p><code>docChildrenCachePercentage</code></p> <p><code>prevDocCachePercentage</code></p> <p><code>persistentCache</code></p> </td> 
    <td><p>2048</p> <p>35 (25)</p> <p>20 (10)</p> <p>30 (5)</p> <p>10 (3)</p> <p>4 (4)</p> <p>./cache,size=2048,binary=0,-compact,-compress</p> </td> 
    <td><p>The default size of the cache is set to 256 MB.</p> <p>Has impact on the time it takes to perform cache invalidation.</p> </td> 
   </tr> 
   <tr> 
    <td>oak-observation</td> 
-   <td><p><span class="code">thread pool</span></p> <p><span class="code">length</span></p> </td> 
+   <td><p><code>thread pool</code></p> <p><code>length</code></p> </td> 
    <td><p>min &amp; max = 20</p> <p>50000</p> </td> 
    <td> </td> 
   </tr> 

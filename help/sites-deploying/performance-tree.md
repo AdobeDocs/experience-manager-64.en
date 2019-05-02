@@ -77,7 +77,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 5</strong></td> 
    <td>Is the Dispatcher trying to authenticate each request via AEM?</td> 
-   <td>Check if the dispatcher sends <span class="code">HEAD</span> requests to AEM for authentication before delivering the cached resource. You can do this by looking for <span class="code">HEAD</span> requests in the AEM <span class="code">access.log</span>. For more information, see <a href="/help/sites-deploying/configure-logging.md">Logging</a>.<br /> </td> 
+   <td>Check if the dispatcher sends <code>HEAD</code> requests to AEM for authentication before delivering the cached resource. You can do this by looking for <code>HEAD</code> requests in the AEM <code>access.log</code>. For more information, see <a href="/help/sites-deploying/configure-logging.md">Logging</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 6</strong></td> 
@@ -127,7 +127,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 15</strong></td> 
    <td>Find slow requests</td> 
-   <td><p>You can check for slow requests by analysing the <span class="code">request.log</span> or by using <span class="code">rlog.jar</span>.</p> <p>For more information about using rlog.jar, see this page.</p> <p>See <a href="/help/sites-deploying/monitoring-and-maintaining.md#using-rlog-jar-to-find-requests-with-long-duration-times">Using rlog.jar to find requests with long duration times</a>.<br /> </p> <p> </p> </td> 
+   <td><p>You can check for slow requests by analysing the <code>request.log</code> or by using <code>rlog.jar</code>.</p> <p>For more information about using rlog.jar, see this page.</p> <p>See <a href="/help/sites-deploying/monitoring-and-maintaining.md#using-rlog-jar-to-find-requests-with-long-duration-times">Using rlog.jar to find requests with long duration times</a>.<br /> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 16</strong></td> 
@@ -292,7 +292,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Steps 42 and 43</strong></td> 
    <td>Keep-Alive</td> 
-   <td><p>Is the <span class="code">Keep-Alive</span> header present in the different requests to re-use connections? Otherwise, it would mean that each requests leads to another connection establishment, which introduces unnecessary overhead. (Standard HTTP request analysis in the browser)</p> <p>You can check the <a href="/help/sites-administering/proxy-jar.md">Proxy Server tool</a> to check for Keep-Alive connections.<br /> </p> </td> 
+   <td><p>Is the <code>Keep-Alive</code> header present in the different requests to re-use connections? Otherwise, it would mean that each requests leads to another connection establishment, which introduces unnecessary overhead. (Standard HTTP request analysis in the browser)</p> <p>You can check the <a href="/help/sites-administering/proxy-jar.md">Proxy Server tool</a> to check for Keep-Alive connections.<br /> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 44</strong></td> 

@@ -35,12 +35,12 @@ Depending on the data store persistence configured for your AEM deployment, draf
   <tr>
    <td valign="top" width="98"><p>Default</p> </td> 
    <td valign="top" width="315"><p>AEM repository of publish instance and author instances specified in reverse replication configuration</p> </td> 
-   <td valign="top" width="234"><p><span class="code">/content/apps/cm/letterInstances/[yyyy]/[mm]/[dd]/[node-id]/[letter-instance-name]/</span><br /> </p> </td> 
+   <td valign="top" width="234"><p><code>/content/apps/cm/letterInstances/[yyyy]/[mm]/[dd]/[node-id]/[letter-instance-name]/</code><br /> </p> </td> 
   </tr>
   <tr>
    <td valign="top" width="98"><p>Remote</p> </td> 
    <td valign="top" width="315"><p>AEM repository of the remote processing author instance</p> </td> 
-   <td valign="top" width="234"><p><span class="code">/content/apps/cm/letterInstances/[yyyy]/[mm]/[dd]/[node-id]/[letter-instance-name]/</span></p> </td> 
+   <td valign="top" width="234"><p><code>/content/apps/cm/letterInstances/[yyyy]/[mm]/[dd]/[node-id]/[letter-instance-name]/</code></p> </td> 
   </tr>
  </tbody>
 </table>

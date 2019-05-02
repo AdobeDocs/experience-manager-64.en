@@ -41,17 +41,17 @@ Depending on the configured data store persistence, drafts and submitted forms d
   <tr> 
    <td valign="top" width="98"><p>Default</p> </td> 
    <td valign="top" width="315"><p>AEM repository of author and publish instances</p> </td> 
-   <td valign="top" width="234"><p><span class="code">/content/forms/fp/</span></p> </td> 
+   <td valign="top" width="234"><p><code>/content/forms/fp/</code></p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="98"><p>Remote</p> </td> 
    <td valign="top" width="315"><p>AEM repository of author and remote AEM instances</p> </td> 
-   <td valign="top" width="234"><p><span class="code">/content/forms/fp/</span></p> </td> 
+   <td valign="top" width="234"><p><code>/content/forms/fp/</code></p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="98"><p>Database</p> </td> 
    <td valign="top" width="315"><p>AEM repository of author instance and database tables</p> </td> 
-   <td valign="top" width="234">Database tables <span class="code">data</span>, <span class="code">metadata</span>, and <span class="code">additionalmetadata</span></td> 
+   <td valign="top" width="234">Database tables <code>data</code>, <code>metadata</code>, and <code>additionalmetadata</code></td> 
   </tr> 
  </tbody> 
 </table>

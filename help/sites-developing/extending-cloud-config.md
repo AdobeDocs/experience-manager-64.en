@@ -171,7 +171,7 @@ The property will then be automatically encrypted (using the `CryptoSupport` ser
   </tr> 
   <tr> 
    <td>componentReference</td> 
-   <td>Reference path to a component to be automatically included in the page.<br /> This is used for additional functionality and JS inclusions.<br /> This includes the component on the page where<br /> <span class="code"> cq/cloudserviceconfigs/components/servicecomponents</span><br /> is included (normally before the <span class="code">body</span> tag).<br /> In case the of Analytics and Target we use this to include additional functionality, such as JavaScript calls to track visitor behavior.</td> 
+   <td>Reference path to a component to be automatically included in the page.<br /> This is used for additional functionality and JS inclusions.<br /> This includes the component on the page where<br /> <code> cq/cloudserviceconfigs/components/servicecomponents</code><br /> is included (normally before the <code>body</code> tag).<br /> In case the of Analytics and Target we use this to include additional functionality, such as JavaScript calls to track visitor behavior.</td> 
   </tr> 
   <tr> 
    <td>description</td> 

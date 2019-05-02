@@ -61,15 +61,15 @@ The API structure specifies the following details about the service operation.
    <th>Description</th> 
   </tr> 
   <tr> 
-   <td><span class="code">forDataModelId</span></td> 
+   <td><code>forDataModelId</code></td> 
    <td>Specify the repository path to the form data model including its name</td> 
   </tr> 
   <tr> 
-   <td><span class="code">operationName</span></td> 
+   <td><code>operationName</code></td> 
    <td>Specify the name of the service operation to execute</td> 
   </tr> 
   <tr> 
-   <td><span class="code">input</span></td> 
+   <td><code>input</code></td> 
    <td>Map one or more form objects to the input arguments for the service operation</td> 
   </tr> 
   <tr> 

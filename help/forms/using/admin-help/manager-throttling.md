@@ -46,27 +46,27 @@ You can configure throttling for Work Manager, so that work items are scheduled 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.work-manager.queue-refill-interval</span></td> 
-   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the time interval, in milliseconds, that Work Manager uses when checking for new items in its queue.</p><p>The value for this option is an integer. The default value is <span class="code">1000</span> milliseconds (1 second). </p><p>If the volume of asynchronous invocations is low, you can increase this value. For example, you could increase it to somewhere between 2000 and 5000 (2 to 5 seconds). </p><p>If the volume of asynchronous invocations is high, the default value should be sufficient, but you can use a lower value if necessary. Decreasing this value too much (for example, below 50, which results in a poll frequency of 20 times per second) causes a substantial overhead on the system.</p></td> 
+   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><code> adobe.work-manager.queue-refill-interval</code></td> 
+   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the time interval, in milliseconds, that Work Manager uses when checking for new items in its queue.</p><p>The value for this option is an integer. The default value is <code>1000</code> milliseconds (1 second). </p><p>If the volume of asynchronous invocations is low, you can increase this value. For example, you could increase it to somewhere between 2000 and 5000 (2 to 5 seconds). </p><p>If the volume of asynchronous invocations is high, the default value should be sufficient, but you can use a lower value if necessary. Decreasing this value too much (for example, below 50, which results in a poll frequency of 20 times per second) causes a substantial overhead on the system.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.workmanager.debug-mode-enabled</span></td> 
-   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Set this option to <span class="code">true</span> to enable debug mode, or to false to disable it. </p><p>In debug mode, messages regarding Work Manager policy violations and Work Manager pause/resume actions are logged. Set this option to true only when troubleshooting.</p></td> 
+   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><code> adobe.workmanager.debug-mode-enabled</code></td> 
+   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Set this option to <code>true</code> to enable debug mode, or to false to disable it. </p><p>In debug mode, messages regarding Work Manager policy violations and Work Manager pause/resume actions are logged. Set this option to true only when troubleshooting.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.workmanager.memory-control.enabled</span></td> 
-   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Set this option to <span class="code">true</span> to enable throttling based on the memory-control settings described below, or to <span class="code">false</span> to disable throttling.</p></td> 
+   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><code> adobe.workmanager.memory-control.enabled</code></td> 
+   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Set this option to <code>true</code> to enable throttling based on the memory-control settings described below, or to <code>false</code> to disable throttling.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.workmanager.memory-control.high-limit</span></td> 
-   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the maximum percentage of memory that can be in use before Work Manager throttles incoming jobs.</p><p>The default value for this option is <span class="code">95</span>. This value should be fine for most systems. Increase it only if your system needs to push through to its maximum capacity. But note that as you increase this value, the risk of Out of Memory issues also increases.</p><p>If you are running AEM forms in a clustered environment, you may want to set the memory control limit settings differently on different nodes of the cluster. For example, you could have a lower high-limit on nodes A and B, which are programmed in your load balancer for interactive work. And you could have higher high-limits set on nodes C and D, which are not used by the load balancer, but reserved for asynchronous work.</p></td> 
+   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><code> adobe.workmanager.memory-control.high-limit</code></td> 
+   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the maximum percentage of memory that can be in use before Work Manager throttles incoming jobs.</p><p>The default value for this option is <code>95</code>. This value should be fine for most systems. Increase it only if your system needs to push through to its maximum capacity. But note that as you increase this value, the risk of Out of Memory issues also increases.</p><p>If you are running AEM forms in a clustered environment, you may want to set the memory control limit settings differently on different nodes of the cluster. For example, you could have a lower high-limit on nodes A and B, which are programmed in your load balancer for interactive work. And you could have higher high-limits set on nodes C and D, which are not used by the load balancer, but reserved for asynchronous work.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.workmanager.memory-control.low-limit</span></td> 
-   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the maximum percentage of memory that can be in use before Work Manager stops throttling incoming jobs.</p><p>The default value for this option is <span class="code">20</span>. This value should be fine for most systems.</p></td> 
+   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><code> adobe.workmanager.memory-control.low-limit</code></td> 
+   <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the maximum percentage of memory that can be in use before Work Manager stops throttling incoming jobs.</p><p>The default value for this option is <code>20</code>. This value should be fine for most systems.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code">Dadobe.workmanager.allocate.max-batch-size</span></td> 
+   <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><code>Dadobe.workmanager.allocate.max-batch-size</code></td> 
    <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the maximum batch size for workmanager. The default batch size is 10.</p><p>If the status of a process in the workmanager is not updated even after the task is complete, then set the batch size to 1.</p></td> 
   </tr> 
  </tbody> 

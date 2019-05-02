@@ -40,11 +40,11 @@ The following table explains the steps in the diagram.
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>Data is submitted to the <span class="code">HandleData</span> Java Servlet as XML data.</p></td> 
+   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>Data is submitted to the <code>HandleData</code> Java Servlet as XML data.</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>The <span class="code">HandleData</span> Java Servlet contains application logic to retrieve the data.</p></td> 
+   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>The <code>HandleData</code> Java Servlet contains application logic to retrieve the data.</p></td> 
   </tr> 
  </tbody> 
 </table>

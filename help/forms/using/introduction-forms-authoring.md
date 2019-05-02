@@ -137,7 +137,7 @@ The sidebar comprises the following browsers:
   </tr> 
   <tr> 
    <td>Email</td> 
-   <td><p>Adds a field to capture email address. The Email component, by default, validates email addresses using the following regular expression.</p> <p><span class="code">^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$</span></p> </td> 
+   <td><p>Adds a field to capture email address. The Email component, by default, validates email addresses using the following regular expression.</p> <p><code>^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$</code></p> </td> 
   </tr> 
   <tr> 
    <td>File attachment</td> 
@@ -235,9 +235,9 @@ The sidebar comprises the following browsers:
    <td>Telephone</td> 
    <td><p>Adds a field to capture telephone number. The Telephone component allows authors to configure one of following phone number types. Each type is associated with a default regular expression for validation.</p> 
     <ul> 
-     <li>Type International is validated by <span class="code">^[+][0-9]{0,14}$</span>.</li> 
-     <li>Type USPhoneNumber is validated by <span class="code">{'+1 ('999') '999-9999}</span>.</li> 
-     <li>Type UKPhoneNumber is validated by <span class="code">text{'+'99 999 999 9999}</span>.</li> 
+     <li>Type International is validated by <code>^[+][0-9]{0,14}$</code>.</li> 
+     <li>Type USPhoneNumber is validated by <code>{'+1 ('999') '999-9999}</code>.</li> 
+     <li>Type UKPhoneNumber is validated by <code>text{'+'99 999 999 9999}</code>.</li> 
      <li>Type Custom does not provide a default validation pattern. It takes the value of the last selected phone number type. You can also specify your own custom validation pattern.</li> 
     </ul> </td> 
   </tr> 

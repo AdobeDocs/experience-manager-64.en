@@ -89,7 +89,7 @@ The primary 3D model file contains the actual 3D model geometry and definitions 
   </tr> 
   <tr> 
    <td>Embed Media</td> 
-   <td>Both options are supported. If embedded is selected, AEM 3D extracts the embedded media to an adjacent folder that has the same name as the model file with <span class="code">.fbm</span> appended to it.</td> 
+   <td>Both options are supported. If embedded is selected, AEM 3D extracts the embedded media to an adjacent folder that has the same name as the model file with <code>.fbm</code> appended to it.</td> 
   </tr> 
   <tr> 
    <td>FBX File Format - Type</td> 

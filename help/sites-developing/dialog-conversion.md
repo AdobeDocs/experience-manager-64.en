@@ -303,22 +303,22 @@ The `cq-dialog-conversion-content` package contains several predefined rewrite r
    <td><strong>Granite UI / Coral 3 Replacement</strong></td> 
   </tr> 
   <tr> 
-   <td><span class="code">com.adobe.cq.dialogconversion.rules.CqDialogRewriteRule</span></td> 
-   <td>Node of type <span class="code">cq:Dialog</span>, handles different substructures</td> 
-   <td><p>A <span class="code">granite/ui/components/foundation/container</span> using either a <span class="code">fixedcolumns</span> or <span class="code">tabs</span> layout</p> <p>The actual components of the dialog are copied over and are rewritten in subsequent passes of the algorithm.</p> </td> 
+   <td><code>com.adobe.cq.dialogconversion.rules.CqDialogRewriteRule</code></td> 
+   <td>Node of type <code>cq:Dialog</code>, handles different substructures</td> 
+   <td><p>A <code>granite/ui/components/foundation/container</code> using either a <code>fixedcolumns</code> or <code>tabs</code> layout</p> <p>The actual components of the dialog are copied over and are rewritten in subsequent passes of the algorithm.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">com.adobe.cq.dialogconversion.rules.IncludeRule</span></td> 
-   <td>xtype = <span class="code">cqinclude</span></td> 
+   <td><code>com.adobe.cq.dialogconversion.rules.IncludeRule</code></td> 
+   <td>xtype = <code>cqinclude</code></td> 
    <td>The referenced node is copied to the Granite UI / Coral 3 dialog and (possibly) subsequently rewritten by the algorithm.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">com.adobe.cq.dialogconversion.rules.MultifieldRewriteRule</span></td> 
-   <td>xtype = <span class="code">multifield</span></td> 
-   <td><p>A <span class="code">granite/ui/components/coral/foundation/form/multifield</span></p> <p>The <span class="code">fieldConfig</span> child node (if any) is rewritten separately, thus not limiting the supported components.</p> </td> 
+   <td><code>com.adobe.cq.dialogconversion.rules.MultifieldRewriteRule</code></td> 
+   <td>xtype = <code>multifield</code></td> 
+   <td><p>A <code>granite/ui/components/coral/foundation/form/multifield</code></p> <p>The <code>fieldConfig</code> child node (if any) is rewritten separately, thus not limiting the supported components.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">/libs/cq/dialogconversion/rules/classic</span></td> 
+   <td><code>/libs/cq/dialogconversion/rules/classic</code></td> 
    <td><code class="code">button
       checkbox
       colorfield
@@ -343,7 +343,7 @@ The `cq-dialog-conversion-content` package contains several predefined rewrite r
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">/libs/cq/dialogconversion/rules/coral2</span></td> 
+   <td><code>/libs/cq/dialogconversion/rules/coral2</code></td> 
    <td><code class="code">actionfield
       autocomplete
       button

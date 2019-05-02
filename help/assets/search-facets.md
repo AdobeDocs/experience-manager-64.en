@@ -190,7 +190,7 @@ Similar to the way you add a Property predicate or an Options predicate, you can
   </tr> 
   <tr> 
    <td width="19%"><p>Fulltext</p> </td> 
-   <td width="48%">Search predicate to perform full text search on an entire asset node. It is mapped with the <span class="code">jcr</span>:<span class="code">contains</span> operator. You can specify a relative path if you want to perform a full text search on a specific part of the asset node.</td> 
+   <td width="48%">Search predicate to perform full text search on an entire asset node. It is mapped with the <code>jcr</code>:<code>contains</code> operator. You can specify a relative path if you want to perform a full text search on a specific part of the asset node.</td> 
    <td width="31%"> 
     <ul> 
      <li>Label</li> 
@@ -365,15 +365,15 @@ If you are not assigned an administrator role, here is a list of permissions you
   </tr> 
   <tr> 
    <td>Edit </td> 
-   <td>Read and Write permissions on the <span class="code">/apps</span> node in CRX<br /> </td> 
+   <td>Read and Write permissions on the <code>/apps</code> node in CRX<br /> </td> 
   </tr> 
   <tr> 
    <td>Delete</td> 
-   <td>Read, Write, and Delete permissions on the <span class="code">/apps</span> node in CRX</td> 
+   <td>Read, Write, and Delete permissions on the <code>/apps</code> node in CRX</td> 
   </tr> 
   <tr> 
    <td>Preview</td> 
-   <td>Read, Write, and Delete permissions on the <span class="code">/var/dam/content</span> node in CRX. Also, Read and Write permissions on <span class="code">/apps</span> node.</td> 
+   <td>Read, Write, and Delete permissions on the <code>/var/dam/content</code> node in CRX. Also, Read and Write permissions on <code>/apps</code> node.</td> 
   </tr> 
  </tbody> 
 </table>

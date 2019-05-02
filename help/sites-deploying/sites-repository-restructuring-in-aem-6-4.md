@@ -41,18 +41,18 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/segmentation/contexthub</span></td> 
+   <td><code>/etc/segmentation/contexthub</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/apps/settings/wcm/segments</span><br /> </p> <p><span class="code">/conf/settings/settings/wcm/segments</span><br /> </p> <p><span class="code">/conf/&lt;tenant&gt;/settings/wcm/segments</span></p> </td> 
+   <td><p><code>/apps/settings/wcm/segments</code><br /> </p> <p><code>/conf/settings/settings/wcm/segments</code><br /> </p> <p><code>/conf/&lt;tenant&gt;/settings/wcm/segments</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>If any new or modified ContextHub Segments are intended to be edited in source control rather than being edited in AEM, they must be migrated to the new location:</p> 
     <ol> 
-     <li>Copy any new or modified ContextHub Segments from the previous location to the appropriate new location (/<span class="code">apps</span>, <span class="code">/conf/global</span> or <span class="code">/conf/&lt;tenant&gt;</span>)</li> 
-     <li>Update references to ContextHub Segments in the previous location to the migrated ContextHub Segments in the new locations (<span class="code">/apps</span>, <span class="code">/conf/global</span>, <span class="code">/conf/&lt;tenant&gt;</span>).</li> 
+     <li>Copy any new or modified ContextHub Segments from the previous location to the appropriate new location (/<code>apps</code>, <code>/conf/global</code> or <code>/conf/&lt;tenant&gt;</code>)</li> 
+     <li>Update references to ContextHub Segments in the previous location to the migrated ContextHub Segments in the new locations (<code>/apps</code>, <code>/conf/global</code>, <code>/conf/&lt;tenant&gt;</code>).</li> 
     </ol> <p>The following QueryBuilder query locates all references to ContextHub Segments in the Previous Locations.<br /> <br /> <code class="code">path=/content
        property=cq:segments
        property.operation=like
@@ -60,7 +60,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
-   <td><p>ContextHub Segments persisted to the previous location display as read-only in <strong>AEM &gt; Personalization &gt; Audiences</strong>.</p> <p>If ContextHub Segments are to be editable in AEM, they must be migrated to the new location (<span class="code">/conf/global</span> or <span class="code">/conf/&lt;tenant&gt;</span>). Any new ContentHub Segments segments created in AEM are persisted to the new location (<span class="code">/conf/global</span> or <span class="code">/conf/&lt;tenant&gt;</span>).</p> <p>AEM Sites Page Properties only allow either the Previous Location (<span class="code">/etc</span>) or a single new location (<span class="code">/apps</span>, <span class="code">/conf/global</span> or <span class="code">/conf/&lt;tenant&gt;</span>) to be selected, thus ContextHub Segments must be migrated accordingly.</p> <p>Any unused ContextHub Segments from AEM reference sites can be removed and not migrated to the New Location:</p> 
+   <td><p>ContextHub Segments persisted to the previous location display as read-only in <strong>AEM &gt; Personalization &gt; Audiences</strong>.</p> <p>If ContextHub Segments are to be editable in AEM, they must be migrated to the new location (<code>/conf/global</code> or <code>/conf/&lt;tenant&gt;</code>). Any new ContentHub Segments segments created in AEM are persisted to the new location (<code>/conf/global</code> or <code>/conf/&lt;tenant&gt;</code>).</p> <p>AEM Sites Page Properties only allow either the Previous Location (<code>/etc</code>) or a single new location (<code>/apps</code>, <code>/conf/global</code> or <code>/conf/&lt;tenant&gt;</code>) to be selected, thus ContextHub Segments must be migrated accordingly.</p> <p>Any unused ContextHub Segments from AEM reference sites can be removed and not migrated to the New Location:</p> 
     <ul> 
      <li>/etc/segmentation/geometrixx/</li> 
      <li>/etc/segmentation/geometrixx-outdoors</li> 
@@ -77,11 +77,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><p><span class="code">/etc/clientlibs/foundation/sitecatalyst</span></p> </td> 
+   <td><p><code>/etc/clientlibs/foundation/sitecatalyst</code></p> </td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/libs/cq/analytics/clientlibs/analytics</span></td> 
+   <td><code>/libs/cq/analytics/clientlibs/analytics</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -90,23 +90,23 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="/help/sites-developing/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet.
       <ul> 
-       <li><span class="code">/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/appmeasurement.js</span></li> 
-       <li><span class="code">/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/plugins.js</span></li> 
-       <li><span class="code">/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/sitecatalyst.js</span></li> 
-       <li><span class="code">/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/tracking.js</span></li> 
-       <li><span class="code">/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/util.js</span></li> 
+       <li><code>/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/appmeasurement.js</code></li> 
+       <li><code>/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/plugins.js</code></li> 
+       <li><code>/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/sitecatalyst.js</code></li> 
+       <li><code>/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/tracking.js</code></li> 
+       <li><code>/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/util.js</code></li> 
       </ul> </li> 
     </ol> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
-   <td><p>Editing of these Client Libraries was never supported.</p> <p>To obtain the Client Library categories, visit each <span class="code">cq:ClientLIbraryFolder</span> node via CRXDELite and inspect the categories property.</p> 
+   <td><p>Editing of these Client Libraries was never supported.</p> <p>To obtain the Client Library categories, visit each <code>cq:ClientLIbraryFolder</code> node via CRXDELite and inspect the categories property.</p> 
     <ul> 
-     <li><span class="code">/libs/cq/analytics/clientlibs/sitecatalyst/appmeasurement</span></li> 
-     <li><span class="code">/libs/cq/analytics/clientlibs/sitecatalyst/plugins</span></li> 
-     <li><span class="code">/libs/cq/analytics/clientlibs/sitecatalyst/sitecatalyst</span></li> 
-     <li><span class="code">/libs/cq/analytics/clientlibs/sitecatalyst/tracking</span></li> 
-     <li><span class="code">/libs/cq/analytics/clientlibs/sitecatalyst/util</span></li> 
+     <li><code>/libs/cq/analytics/clientlibs/sitecatalyst/appmeasurement</code></li> 
+     <li><code>/libs/cq/analytics/clientlibs/sitecatalyst/plugins</code></li> 
+     <li><code>/libs/cq/analytics/clientlibs/sitecatalyst/sitecatalyst</code></li> 
+     <li><code>/libs/cq/analytics/clientlibs/sitecatalyst/tracking</code></li> 
+     <li><code>/libs/cq/analytics/clientlibs/sitecatalyst/util</code></li> 
     </ul> </td> 
   </tr>
  </tbody>
@@ -118,24 +118,24 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/designs/wordDesign</span></td> 
+   <td><code>/etc/designs/wordDesign</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/wcm/designs/wordDesign</span></p> <p><span class="code">/apps/settings/wcm/designs/wordDesign</span></p> </td> 
+   <td><p><code>/libs/settings/wcm/designs/wordDesign</code></p> <p><code>/apps/settings/wcm/designs/wordDesign</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
-     <li>Copy the designs from the Previous Location to the New Location (<span class="code">/apps</span>).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
+     <li>Copy the designs from the Previous Location to the New Location (<code>/apps</code>).</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the cq:designPath property.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
-     <li>Update AEM Dispatcher rules to allow serving of Client Libraries via the <span class="code">/etc.clientlibs/</span> proxy servlet.</li> 
+     <li>Update AEM Dispatcher rules to allow serving of Client Libraries via the <code>/etc.clientlibs/</code> proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs:</p> 
     <ul> 
-     <li>Do not move author-able Designs out of <span class="code">/etc</span>.</li> 
+     <li>Do not move author-able Designs out of <code>/etc</code>.</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -151,17 +151,17 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><p><span class="code">/etc/mobile</span></p> </td> 
+   <td><p><code>/etc/mobile</code></p> </td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/mobile</span></p> <p><span class="code">/apps/settings/mobile</span></p> <p><span class="code">/conf/global/settings/mobile</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/mobile</span></p> </td> 
+   <td><p><code>/libs/settings/mobile</code></p> <p><code>/apps/settings/mobile</code></p> <p><code>/conf/global/settings/mobile</code></p> <p><code>/conf/&lt;tenant&gt;/settings/mobile</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td>Any new Mobile Device Emulator Configurations must be migrated to the New Location.
     <ol> 
-     <li>Copy any new Mobile Device Emulator Configurations from the Previous Location to the new location (<span class="code">/apps</span>, <span class="code">/conf/global</span>, <span class="code">/conf/&lt;tenant&gt;</span>).</li> 
+     <li>Copy any new Mobile Device Emulator Configurations from the Previous Location to the new location (<code>/apps</code>, <code>/conf/global</code>, <code>/conf/&lt;tenant&gt;</code>).</li> 
      <li>For any AEM Sites Pages that depend on these Mobile Device Emulator Configurations, update the Page's <span class="code">
        <g class="gr_ gr_26 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="26" id="26">
         jcr
@@ -185,11 +185,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
    <td><strong>Notes</strong></td> 
    <td><p>Mobile Device Emulator Configurations resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/conf/&lt;tenant&gt;/settings/mobile</span></li> 
-     <li><span class="code">/conf/global/settings/mobile</span></li> 
-     <li><span class="code">/apps/settings/mobile</span></li> 
-     <li><span class="code">/libs/settings/mobile</span></li> 
-     <li><span class="code">/etc/mobile</span></li> 
+     <li><code>/conf/&lt;tenant&gt;/settings/mobile</code></li> 
+     <li><code>/conf/global/settings/mobile</code></li> 
+     <li><code>/apps/settings/mobile</code></li> 
+     <li><code>/libs/settings/mobile</code></li> 
+     <li><code>/etc/mobile</code></li> 
     </ol> </td> 
   </tr>
  </tbody>
@@ -201,23 +201,23 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/blueprints</span></td> 
+   <td><code>/etc/blueprints</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/apps/msm</span> (Customer Blueprint configurations)</p> <p><span class="code">/libs/msm</span> (Out Of the Box Blueprint configurations for Screens, Commerce)</p> </td> 
+   <td><p><code>/apps/msm</code> (Customer Blueprint configurations)</p> <p><code>/libs/msm</code> (Out Of the Box Blueprint configurations for Screens, Commerce)</p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
-   <td><p>Any new or modified Multi-site Manager Blueprint Configurations must be migrated to the New Location (<span class="code">/apps</span>).</p> 
+   <td><p>Any new or modified Multi-site Manager Blueprint Configurations must be migrated to the New Location (<code>/apps</code>).</p> 
     <ol> 
-     <li>Copy any new or modified Multi-site Manager Blueprint Configurations from the Previous Location to the New Location (<span class="code">/apps</span>).</li> 
+     <li>Copy any new or modified Multi-site Manager Blueprint Configurations from the Previous Location to the New Location (<code>/apps</code>).</li> 
      <li>Remove any migrated Multi-site Manager Blueprint Configurations from the Previous Location.</li> 
     </ol> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
-   <td><p>All AEM provided Multi-site Manager Blueprint Configurations exist in the New Location in <span class="code">/libs</span>.</p> <p>Content does not reference the Multi-site Manager Blue Configurations therefore there are not content references to adjust.</p> </td> 
+   <td><p>All AEM provided Multi-site Manager Blueprint Configurations exist in the New Location in <code>/libs</code>.</p> <p>Content does not reference the Multi-site Manager Blue Configurations therefore there are not content references to adjust.</p> </td> 
   </tr>
  </tbody>
 </table>
@@ -228,18 +228,18 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><p><span class="code">/etc/msm/rolloutConfigs</span></p> </td> 
+   <td><p><code>/etc/msm/rolloutConfigs</code></p> </td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/msm/wcm/rolloutconfigs</span></p> <p><span class="code">/apps/msm/wcm/rolloutconfigs</span></p> </td> 
+   <td><p><code>/libs/msm/wcm/rolloutconfigs</code></p> <p><code>/apps/msm/wcm/rolloutconfigs</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any new or modified Multi-site Manager Rollout Configurations must be migrated to the New Location.</p> 
     <ol> 
-     <li>Copy any new or modified Multi-site Manager Rollout Configurations from the Previous Location to the new location (<span class="code">/apps</span>).</li> 
-     <li>Update any references on AEM Pages to Multi-site Manager Rollout Configurations in the Previous Location, to point to their counterparts in the New Locations (<span class="code">/libs</span> or <span class="code">/apps</span>).</li> 
+     <li>Copy any new or modified Multi-site Manager Rollout Configurations from the Previous Location to the new location (<code>/apps</code>).</li> 
+     <li>Update any references on AEM Pages to Multi-site Manager Rollout Configurations in the Previous Location, to point to their counterparts in the New Locations (<code>/libs</code> or <code>/apps</code>).</li> 
     </ol> <p>Remove migrated Multi-site Manager Rollout Configurations from the Previous Location.</p> </td> 
   </tr>
   <tr>
@@ -255,26 +255,26 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><p><span class="code">/etc/notification/email/default/com.day.cq.wcm.core.page</span></p> </td> 
+   <td><p><code>/etc/notification/email/default/com.day.cq.wcm.core.page</code></p> </td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/libs/settings/notification-templates/com.day.cq.wcm.core.page</span></p> <p><span class="code">/apps/settings/notification-templates/com.day.cq.wcm.core.page</span></p> </td> 
+   <td><p><code>/libs/settings/notification-templates/com.day.cq.wcm.core.page</code></p> <p><code>/apps/settings/notification-templates/com.day.cq.wcm.core.page</code></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>The only supported new Page Event Notification E-mail Templates are to support new locales.</p> <p>Page Event E-mail Template resolution occurs in the following order:</p> 
     <ol> 
-     <li><span class="code">/etc/notification/email/default/com.day.cq.wcm.core.page</span></li> 
-     <li><span class="code">/apps/settings/notification-templates/com.day.cq.wcm.core.page</span></li> 
-     <li><span class="code">/libs/settings/notification-templates/com.day.cq.wcm.core.page</span></li> 
+     <li><code>/etc/notification/email/default/com.day.cq.wcm.core.page</code></li> 
+     <li><code>/apps/settings/notification-templates/com.day.cq.wcm.core.page</code></li> 
+     <li><code>/libs/settings/notification-templates/com.day.cq.wcm.core.page</code></li> 
     </ol> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
-   <td><p>Any new or modified Page Event Notification E-mail Templates must be migrated to the new location under <span class="code">/apps</span>:</p> 
+   <td><p>Any new or modified Page Event Notification E-mail Templates must be migrated to the new location under <code>/apps</code>:</p> 
     <ol> 
-     <li>Copy any new or modified Page Event Notification E-mail Templates from the Previous Location to the new location (<span class="code">/apps</span>).</li> 
+     <li>Copy any new or modified Page Event Notification E-mail Templates from the Previous Location to the new location (<code>/apps</code>).</li> 
      <li>Remove any migrated Page Event Notification E-mail Templates from the Previous Location.</li> 
     </ol> </td> 
   </tr>
@@ -287,7 +287,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/scaffolding</span></td> 
+   <td><code>/etc/scaffolding</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
@@ -316,11 +316,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/clientlibs/wcm/foundation/grid/grid_base.less</span></td> 
+   <td><code>/etc/clientlibs/wcm/foundation/grid/grid_base.less</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/libs/wcm/foundation/clientlibs/grid/grid_base.less</span></td> 
+   <td><code>/libs/wcm/foundation/clientlibs/grid/grid_base.less</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -331,7 +331,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
-   <td>Referencing a non-existing <span class="code">grid_base.less</span> file results in the Layout Mode of the Page and Template Editor not working, and a disruption of page layout.</td> 
+   <td>Referencing a non-existing <code>grid_base.less</code> file results in the Layout Mode of the Page and Template Editor not working, and a disruption of page layout.</td> 
   </tr>
  </tbody>
 </table>
@@ -342,24 +342,24 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><span class="code">/etc/designs/&lt;custom-site&gt;</span></td> 
+   <td><code>/etc/designs/&lt;custom-site&gt;</code></td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/apps/settings/wcm/designs/&lt;custom-site&gt;</span></td> 
+   <td><code>/apps/settings/wcm/designs/&lt;custom-site&gt;</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
-     <li>Copy the designs from the Previous Location to the New Location (<span class="code">/apps</span>).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a class="external-link" data-ext-link-init="true" target="_blank"></a><a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
-     <li>Update references to the Previous Location in the <span class="code">cq:designPath</span> property via <strong>AEM &gt; Sites &gt; Custom Site Pages &gt; Page Properties &gt; Advanced Tab &gt; Design Field</strong>.</li> 
+     <li>Copy the designs from the Previous Location to the New Location (<code>/apps</code>).</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a class="external-link" data-ext-link-init="true" target="_blank"></a><a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
+     <li>Update references to the Previous Location in the <code>cq:designPath</code> property via <strong>AEM &gt; Sites &gt; Custom Site Pages &gt; Page Properties &gt; Advanced Tab &gt; Design Field</strong>.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
-     <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the <span class="code">/etc.clientlibs/</span> proxy servlet.</li> 
+     <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the <code>/etc.clientlibs/</code> proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs:</p> 
     <ul> 
-     <li>Do not move author-able Designs out of <span class="code">/etc</span>.</li> 
+     <li>Do not move author-able Designs out of <code>/etc</code>.</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -375,11 +375,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><p><span class="code">/etc/clientlibs/foundation/searchpromote</span></p> </td> 
+   <td><p><code>/etc/clientlibs/foundation/searchpromote</code></p> </td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/libs/cq/searchpromote/clientlibs/searchpromote</span></td> 
+   <td><code>/libs/cq/searchpromote/clientlibs/searchpromote</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -389,14 +389,14 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet:</li> 
     </ol> 
     <ul> 
-     <li><span class="code">/etc.clientlibs/cq/searchpromote/clientlibs/searchpromotei.js</span></li> 
+     <li><code>/etc.clientlibs/cq/searchpromote/clientlibs/searchpromotei.js</code></li> 
     </ul> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
    <td><p>Editing of these Client Libraries was never supported.</p> <p>To obtain the Client Library categories, visit each cq:ClientLIbraryFolder node via CRXDELite and inspect the categories property:</p> 
     <ul> 
-     <li><span class="code">/libs/cq/searchpromote/clientlibs/searchpromote</span></li> 
+     <li><code>/libs/cq/searchpromote/clientlibs/searchpromote</code></li> 
     </ul> </td> 
   </tr>
  </tbody>
@@ -408,11 +408,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><p><span class="code">/etc/clientlibs/foundation/target</span></p> </td> 
+   <td><p><code>/etc/clientlibs/foundation/target</code></p> </td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/libs/cq/testandtarget/clientlibs/testandtarget</span></td> 
+   <td><code>/libs/cq/testandtarget/clientlibs/testandtarget</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -422,26 +422,26 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet:</li> 
     </ol> 
     <ul> 
-     <li><span class="code">/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/testandtarget.js</span></li> 
-     <li><span class="code">/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/atjs.js</span></li> 
-     <li><span class="code">/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/atjs-integration.js</span></li> 
-     <li><span class="code">/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/init.js</span></li> 
-     <li><span class="code">/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/mbox.js</span></li> 
-     <li><span class="code">/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/parameters.js</span></li> 
-     <li><span class="code">/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/util.js</span></li> 
+     <li><code>/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/testandtarget.js</code></li> 
+     <li><code>/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/atjs.js</code></li> 
+     <li><code>/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/atjs-integration.js</code></li> 
+     <li><code>/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/init.js</code></li> 
+     <li><code>/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/mbox.js</code></li> 
+     <li><code>/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/parameters.js</code></li> 
+     <li><code>/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/util.js</code></li> 
     </ul> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
    <td><p>Editing of these Client Libraries was never supported.</p> <p>To obtain the Client Library categories, visit each cq:ClientLIbraryFolder node via CRXDELite and inspect the categories property:</p> 
     <ul> 
-     <li><span class="code">/libs/cq/testandtarget/clientlibs/testandtarget/testandtarget</span></li> 
-     <li><span class="code">/libs/cq/testandtarget/clientlibs/testandtarget/atjs</span></li> 
-     <li><span class="code">/libs/cq/testandtarget/clientlibs/testandtarget/atjs-integration</span></li> 
-     <li><span class="code">/libs/cq/testandtarget/clientlibs/testandtarget/init</span></li> 
-     <li><span class="code">/libs/cq/testandtarget/clientlibs/testandtarget/mbox</span></li> 
-     <li><span class="code">/libs/cq/testandtarget/clientlibs/testandtarget/parameters</span></li> 
-     <li><span class="code">/libs/cq/testandtarget/clientlibs/testandtarget/util</span></li> 
+     <li><code>/libs/cq/testandtarget/clientlibs/testandtarget/testandtarget</code></li> 
+     <li><code>/libs/cq/testandtarget/clientlibs/testandtarget/atjs</code></li> 
+     <li><code>/libs/cq/testandtarget/clientlibs/testandtarget/atjs-integration</code></li> 
+     <li><code>/libs/cq/testandtarget/clientlibs/testandtarget/init</code></li> 
+     <li><code>/libs/cq/testandtarget/clientlibs/testandtarget/mbox</code></li> 
+     <li><code>/libs/cq/testandtarget/clientlibs/testandtarget/parameters</code></li> 
+     <li><code>/libs/cq/testandtarget/clientlibs/testandtarget/util</code></li> 
     </ul> </td> 
   </tr>
  </tbody>
@@ -453,11 +453,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
  <tbody>
   <tr>
    <td><strong>Previous location</strong></td> 
-   <td><p><span class="code">/etc/clientlibs/wcm/foundation</span></p> </td> 
+   <td><p><code>/etc/clientlibs/wcm/foundation</code></p> </td> 
   </tr>
   <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><span class="code">/libs/wcm/foundation/clientlibs</span></td> 
+   <td><code>/libs/wcm/foundation/clientlibs</code></td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 
@@ -467,17 +467,17 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet.</li> 
     </ol> 
     <ul> 
-     <li><span class="code">/etc.clientlibs/wcm/foundation/clientlibs/accessibility.css</span></li> 
-     <li><span class="code">/etc.clientlibs/wcm/foundation/clientlibs/main.css</span></li> 
-     <li><span class="code">/etc.clientlibs/wcm/foundation/clientlibs/main.js</span></li> 
+     <li><code>/etc.clientlibs/wcm/foundation/clientlibs/accessibility.css</code></li> 
+     <li><code>/etc.clientlibs/wcm/foundation/clientlibs/main.css</code></li> 
+     <li><code>/etc.clientlibs/wcm/foundation/clientlibs/main.js</code></li> 
     </ul> </td> 
   </tr>
   <tr>
    <td><strong>Notes</strong></td> 
-   <td><p>Editing of these Client Libraries was never supported.</p> <p>To obtain the Client Library categories, visit each <span class="code">cq:ClientLIbraryFolder</span> node via CRXDELite and inspect the categories property:</p> 
+   <td><p>Editing of these Client Libraries was never supported.</p> <p>To obtain the Client Library categories, visit each <code>cq:ClientLIbraryFolder</code> node via CRXDELite and inspect the categories property:</p> 
     <ul> 
-     <li><span class="code">/libs/wcm/foundation/clientlibs/accessibility</span></li> 
-     <li><span class="code">/libs/wcm/foundation/clientlibs/main</span></li> 
+     <li><code>/libs/wcm/foundation/clientlibs/accessibility</code></li> 
+     <li><code>/libs/wcm/foundation/clientlibs/main</code></li> 
     </ul> </td> 
   </tr>
  </tbody>

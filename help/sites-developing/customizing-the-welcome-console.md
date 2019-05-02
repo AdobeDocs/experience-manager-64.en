@@ -87,31 +87,31 @@ There are three sections (spaced slightly apart) provided by default:
   </tr> 
   <tr> 
    <td width="150"> Cloud Services</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/resources/cloudservices</span></td> 
+   <td><code>/libs/cq/core/content/welcome/resources/cloudservices</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Workflows</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/resources/workflows</span></td> 
+   <td><code>/libs/cq/core/content/welcome/resources/workflows</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Task Management</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/resources/taskmanager</span></td> 
+   <td><code>/libs/cq/core/content/welcome/resources/taskmanager</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Replication</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/resources/replication</span></td> 
+   <td><code>/libs/cq/core/content/welcome/resources/replication</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Reports</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/resources/reports</span></td> 
+   <td><code>/libs/cq/core/content/welcome/resources/reports</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Publications</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/resources/publishingadmin</span></td> 
+   <td><code>/libs/cq/core/content/welcome/resources/publishingadmin</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Manuscripts</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/resources/manuscriptsadmin</span></td> 
+   <td><code>/libs/cq/core/content/welcome/resources/manuscriptsadmin</code></td> 
   </tr> 
   <tr> 
    <td width="150"><strong>Documentation and Reference</strong></td> 
@@ -119,11 +119,11 @@ There are three sections (spaced slightly apart) provided by default:
   </tr> 
   <tr> 
    <td width="150"> Documentation</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/docs/docs</span></td> 
+   <td><code>/libs/cq/core/content/welcome/docs/docs</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Developer Resources</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/docs/dev</span></td> 
+   <td><code>/libs/cq/core/content/welcome/docs/dev</code></td> 
   </tr> 
   <tr> 
    <td width="150"><strong>Features</strong></td> 
@@ -131,31 +131,31 @@ There are three sections (spaced slightly apart) provided by default:
   </tr> 
   <tr> 
    <td width="150"> CRXDE Lite</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/features/crxde</span></td> 
+   <td><code>/libs/cq/core/content/welcome/features/crxde</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Packages</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/features/packages</span></td> 
+   <td><code>/libs/cq/core/content/welcome/features/packages</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Package Share</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/features/share</span></td> 
+   <td><code>/libs/cq/core/content/welcome/features/share</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Clustering</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/features/cluster</span></td> 
+   <td><code>/libs/cq/core/content/welcome/features/cluster</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Backup</td> 
-   <td><span class="code">/libs/cq/core/content/welcome/features/backup</span></td> 
+   <td><code>/libs/cq/core/content/welcome/features/backup</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Web Console<br /> </td> 
-   <td><span class="code">/libs/cq/core/content/welcome/features/config</span></td> 
+   <td><code>/libs/cq/core/content/welcome/features/config</code></td> 
   </tr> 
   <tr> 
    <td width="150"> Web Console Status Dump<br /> </td> 
-   <td><span class="code">/libs/cq/core/content/welcome/features/statusdump</span></td> 
+   <td><code>/libs/cq/core/content/welcome/features/statusdump</code></td> 
   </tr> 
  </tbody> 
 </table>

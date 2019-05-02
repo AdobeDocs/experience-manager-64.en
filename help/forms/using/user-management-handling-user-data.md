@@ -44,37 +44,37 @@ User management stores user data in the following database tables:
    <td>Description</td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcPrincipalEntity</span></td> 
+   <td><code>EdcPrincipalEntity</code></td> 
    <td><p>Stores information about principal entities. A principal can be a user, a group, or a role.</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcPrincipalUserEntity</span></td> 
+   <td><code>EdcPrincipalUserEntity</code></td> 
    <td>Stores personally identifiable information (PII) of users. It contains an entry for every user from local, enterprise, and hybrid domains.</td> 
   </tr> 
   <tr> 
-   <td><p><span class="code">EdcPrincipalLocalAccountEntity</span></p> <p><code class="code">EdcPrincipalLocalAccount
+   <td><p><code>EdcPrincipalLocalAccountEntity</code></p> <p><code class="code">EdcPrincipalLocalAccount
        </code>(Oracle and MS SQL databases)</p> </td> 
    <td>Stores data only for local users.</td> 
   </tr> 
   <tr> 
-   <td><p><span class="code">EdcPrincipalEmailAliasEntity</span></p> <p><code class="code">EdcPrincipalEmailAliasEn 
+   <td><p><code>EdcPrincipalEmailAliasEntity</code></p> <p><code class="code">EdcPrincipalEmailAliasEn 
        </code>(Oracle and MS SQL databases)</p> </td> 
    <td>Contains entries of all users from local, enterprise, and hybrid domains. It contains user email IDs.</td> 
   </tr> 
   <tr> 
-   <td><p><span class="code">EdcPrincipalGrpCtmntEntity</span></p> <p><span class="code">EdcPrincipalGrpCtmntEnti</span><br /> (Oracle and MS SQL databases)</p> </td> 
+   <td><p><code>EdcPrincipalGrpCtmntEntity</code></p> <p><code>EdcPrincipalGrpCtmntEnti</code><br /> (Oracle and MS SQL databases)</p> </td> 
    <td>Stores the mapping between users and groups.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcPrincipalRoleEntity</span></td> 
+   <td><code>EdcPrincipalRoleEntity</code></td> 
    <td>Stores the mapping between roles and principal for both users and groups.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcPriResPrmEntity</span></td> 
+   <td><code>EdcPriResPrmEntity</code></td> 
    <td>Stores the mapping between principal and permissions for both users and groups.</td> 
   </tr> 
   <tr> 
-   <td><p><span class="code">EdcPrincipalMappingEntity</span></p> <p><span class="code">EdcPrincipalMappingEntit</span><br /> (Oracle and MS SQL databases)</p> </td> 
+   <td><p><code>EdcPrincipalMappingEntity</code></p> <p><code>EdcPrincipalMappingEntit</code><br /> (Oracle and MS SQL databases)</p> </td> 
    <td>Stores old and new attribute values corresponding to a principal.<br /> </td> 
   </tr> 
  </tbody> 

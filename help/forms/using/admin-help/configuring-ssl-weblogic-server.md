@@ -38,8 +38,8 @@ The keytool command is typically located in the Java jre/bin directory and must 
    <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The alias of the keystore.</p></td> 
    <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"> 
     <ul> 
-     <li><p>Custom Identity keystore: <span class="code">ads-credentials</span></p></li> 
-     <li><p>Custom Trust keystore: <span class="code">bedrock</span></p></li> 
+     <li><p>Custom Identity keystore: <code>ads-credentials</code></p></li> 
+     <li><p>Custom Trust keystore: <code>bedrock</code></p></li> 
     </ul></td> 
   </tr> 
   <tr> 
@@ -52,14 +52,14 @@ The keytool command is typically located in the Java jre/bin directory and must 
    <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The location and name of the keystore file.</p><p>The location can include the absolute path of the file. Or, it can be relative to the current directory of the command prompt where the keytool command is entered.</p></td> 
    <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"> 
     <ul> 
-     <li><p>Custom Identity keystore: <span class="code">[</span><i>appserverdomain]</i><span class="code">/adobe/</span><i>[server name]</i><span class="code">/ads-ssl.jks</span></p></li> 
-     <li><p>Custom Trust keystore: <span class="code">[</span><i>appserverdomain]</i><span class="code">/adobe/</span><i>[server name]</i><span class="code">/ads-ca.jks</span></p></li> 
+     <li><p>Custom Identity keystore: <code>[</code><i>appserverdomain]</i><code>/adobe/</code><i>[server name]</i><code>/ads-ssl.jks</code></p></li> 
+     <li><p>Custom Trust keystore: <code>[</code><i>appserverdomain]</i><code>/adobe/</code><i>[server name]</i><code>/ads-ca.jks</code></p></li> 
     </ul></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-file</p></td> 
    <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The location and name of the certificate file.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><span class="code"> ads-ca.cer</span></td> 
+   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><code> ads-ca.cer</code></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-validity</p></td> 
@@ -78,19 +78,19 @@ The keytool command is typically located in the Java jre/bin directory and must 
   <tr> 
    <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-keypass</p></td> 
    <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The password that protects the private key of the key pair.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><p>Use the same password that you used for the <span class="code">-storepass</span> option. The key password must be at least six characters.</p></td> 
+   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><p>Use the same password that you used for the <code>-storepass</code> option. The key password must be at least six characters.</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-dname</p></td> 
    <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The distinguished name that identifies the person who owns the keystore.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><p><span class="code">"CN=</span><span class="code">[User name]</span><span class="code">,OU=</span><span class="code">[Group Name]</span><span class="code">, O=</span><span class="code">[Company Name]</span><span class="code">, L=</span><span class="code">[City Name]</span><span class="code">, S=</span><span class="code">[State or province]</span><span class="code">, C=</span><span class="code">[Country Code]</span><span class="code">"</span></p> 
+   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><p><code>"CN=</code><code>[User name]</code><code>,OU=</code><code>[Group Name]</code><code>, O=</code><code>[Company Name]</code><code>, L=</code><code>[City Name]</code><code>, S=</code><code>[State or province]</code><code>, C=</code><code>[Country Code]</code><code>"</code></p> 
     <ul> 
-     <li><p><span class="code"><i>[User name]</i></span> is the identification of the user who owns the keystore.</p></li> 
-     <li><p><span class="code"><i>[Group Name]</i></span> is the identification of the corporate group that the keystore owner belongs to.</p></li> 
-     <li><p><span class="code"><i>[Company Name]</i></span> is your organization’s name.</p></li> 
-     <li><p><span class="code"><i>[City Name]</i></span> is the city where your organization is located.</p></li> 
-     <li><p><span class="code"><i>[State or province]</i></span> is the state or province where your organization is located.</p></li> 
-     <li><p><span class="code"><i>[Country Code]</i></span> is the two-letter code for the country where your organization is located.</p></li> 
+     <li><p><code><i>[User name]</i></code> is the identification of the user who owns the keystore.</p></li> 
+     <li><p><code><i>[Group Name]</i></code> is the identification of the corporate group that the keystore owner belongs to.</p></li> 
+     <li><p><code><i>[Company Name]</i></code> is your organization’s name.</p></li> 
+     <li><p><code><i>[City Name]</i></code> is the city where your organization is located.</p></li> 
+     <li><p><code><i>[State or province]</i></code> is the state or province where your organization is located.</p></li> 
+     <li><p><code><i>[Country Code]</i></code> is the two-letter code for the country where your organization is located.</p></li> 
     </ul></td> 
   </tr> 
  </tbody> 

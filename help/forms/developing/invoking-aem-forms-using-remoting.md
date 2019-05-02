@@ -928,7 +928,7 @@ The following table lists the controls that are part of this client application.
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e5779 " valign="top" width="NaN%"><p>txtCustId</p></td> 
-   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer identifier value to which the new account belongs. This text box is populated by the return value of the Customer service’s <span class="code">createCustomer</span> operation. </p></td> 
+   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer identifier value to which the new account belongs. This text box is populated by the return value of the Customer service’s <code>createCustomer</code> operation. </p></td> 
   </tr> 
  </tbody> 
 </table>

@@ -405,7 +405,7 @@ You can make sure your web pages are given the appropriate structure by:
   Additionally, accessible tables make use of the following elements and attributes:
 
     * The `<caption>` element is used to provide a visible caption for the table. Captions by default appear centred above the table, but can be positioned appropriately using CSS. The caption is programmatically associated with the table, thus it is a useful method for providing an introduction to content.
-    * The `<summary>` element assists non-sighted users to more easily understand the information presented within a table, by providing a synopsis of what a sighted user can see. This is particularly useful where complex or unconventional table layouts are used (this attribute is not displayed in the browser, it is only read out to assistive technologies).
+    * The `<h3 class="summary">` element assists non-sighted users to more easily understand the information presented within a table, by providing a synopsis of what a sighted user can see. This is particularly useful where complex or unconventional table layouts are used (this attribute is not displayed in the browser, it is only read out to assistive technologies).
     * The `scope` attribute of the `<th>` element is used to indicate whether a cell represents a header for a particular row, or for a particular column. A similar approach is to use the header and id attributes in complex tables, where data cells may be associated with one or more headers.
 
   >[!NOTE]

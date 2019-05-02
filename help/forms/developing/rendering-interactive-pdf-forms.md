@@ -40,19 +40,19 @@ The following table describes the steps in this diagram.
  <tbody> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">GetLoanForm</span> Java Servlet is invoked from an HTML page. </p></td> 
+   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <code>GetLoanForm</code> Java Servlet is invoked from an HTML page. </p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">GetLoanForm</span> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Render an interactive PDF form using the Java API</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <code>GetLoanForm</code> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Render an interactive PDF form using the Java API</a>.)</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>After the user fills the loan form and clicks the submit button, data is submitted to the <span class="code">HandleData</span> Java Servlet. (See <i>“Loan form”</i>.)</p></td> 
+   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>After the user fills the loan form and clicks the submit button, data is submitted to the <code>HandleData</code> Java Servlet. (See <i>“Loan form”</i>.)</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <span class="code">HandleData</span> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Handling Submitted Forms</a>.)</p></td> 
+   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <code>HandleData</code> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Handling Submitted Forms</a>.)</p></td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>5</p></td> 

@@ -47,9 +47,9 @@ You can fine-tune the appearance of the IBL stage with the following stage prope
    <td>IBL Sun Details</td> 
    <td><p>Lets you adjust the direction and strength of the supplemental light source that simulates the sun. <span class="diff-html-added">This light source increases the lighting brightness and causes the object to cast a drop-shadow onto the ground plane. Shadow casting is supported when rendering with Rapid Refine and for previewing with Google Chrome; however, it is currently not supported by other browsers.</span></p> 
     <ul> 
-     <li><strong>lat</strong> - The vertical position of the sun light source (<span class="code">0.0</span>-<span class="code">1.0</span>).<br /> A setting of <span class="code">0.0</span> is at the horizon (vertical center of the Diffuse Lighting Environment Image); <span class="code">1.0</span> is at the zenith (top edge of the Diffuse Lighting Environment Image).</li> 
-     <li><strong>long</strong> - The horizontal position of the sun light source (<span class="code">0.0</span>-<span class="code">1.0</span>).<br /> A setting of 0.0 corresponds to the left; 1.0 corresponds to the right edge of the Diffuse Lighting Environment Image.<br /> </li> 
-     <li><strong>bright</strong> - The brightness of the sun light source. Increase this value to brighten the sunlight source; decrease this value to darken. <br /> A setting of <span class="code">0</span> turns off supplemental lighting and disables cast shadows. The parameter does not affect environment reflections.<br /> </li> 
+     <li><strong>lat</strong> - The vertical position of the sun light source (<code>0.0</code>-<code>1.0</code>).<br /> A setting of <code>0.0</code> is at the horizon (vertical center of the Diffuse Lighting Environment Image); <code>1.0</code> is at the zenith (top edge of the Diffuse Lighting Environment Image).</li> 
+     <li><strong>long</strong> - The horizontal position of the sun light source (<code>0.0</code>-<code>1.0</code>).<br /> A setting of 0.0 corresponds to the left; 1.0 corresponds to the right edge of the Diffuse Lighting Environment Image.<br /> </li> 
+     <li><strong>bright</strong> - The brightness of the sun light source. Increase this value to brighten the sunlight source; decrease this value to darken. <br /> A setting of <code>0</code> turns off supplemental lighting and disables cast shadows. The parameter does not affect environment reflections.<br /> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

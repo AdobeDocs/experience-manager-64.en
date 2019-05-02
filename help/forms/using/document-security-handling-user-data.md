@@ -28,47 +28,47 @@ The following table maps how document security organizes data in database tables
    <td>Description</td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcPrincipalKeyEntity</span></td> 
+   <td><code>EdcPrincipalKeyEntity</code></td> 
    <td>Stores information about principal keys for the users. The keys are used in offline document security workflows.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcAuditEntity</span></td> 
+   <td><code>EdcAuditEntity</code></td> 
    <td>Stores information about auditing event like user events, document events, and policy events.</td> 
   </tr> 
   <tr> 
-   <td><p><span class="code">EdcLicenseEntity</span></p> </td> 
+   <td><p><code>EdcLicenseEntity</code></p> </td> 
    <td>Stores record of a protected document. It stores license details for every protected document.</td> 
   </tr> 
   <tr> 
-   <td><p><span class="code">EdcDocumentEntity</span></p> </td> 
+   <td><p><code>EdcDocumentEntity</code></p> </td> 
    <td>Stores document name for every license created in the system.</td> 
   </tr> 
   <tr> 
-   <td><p><span class="code">EdcRevokationEntity</span></p> </td> 
+   <td><p><code>EdcRevokationEntity</code></p> </td> 
    <td>Stores information about revocation and reinstatement of protected documents.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcMyPolicyListEntity</span></td> 
+   <td><code>EdcMyPolicyListEntity</code></td> 
    <td>Stores information about users who can create personal policies that appear under the My Policies tab on the Policies page. </td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcPolicyEntity</span></td> 
+   <td><code>EdcPolicyEntity</code></td> 
    <td>Stores information about policies. Each policy corresponds to a row in this table.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcPolicyXmlEntity</span></td> 
+   <td><code>EdcPolicyXmlEntity</code></td> 
    <td>Stores XML files for active policies. A policy XML<sup> </sup>contains references to principal IDs of users associated with the policy. Policy XML is stored as a Blob object.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcPolicyArchiveEntity</span></td> 
+   <td><code>EdcPolicyArchiveEntity</code></td> 
    <td>Stores information about archived policies. An archived policy contains its policy XML stored as a Blob object.</td> 
   </tr> 
   <tr> 
-   <td><p><span class="code">EdcPolicySetPrincipalEntity</span></p> <p><span class="code">EdcPolicySetPrincipalEnt</span><br /> (Oracle and MS SQL databases)</p> </td> 
+   <td><p><code>EdcPolicySetPrincipalEntity</code></p> <p><code>EdcPolicySetPrincipalEnt</code><br /> (Oracle and MS SQL databases)</p> </td> 
    <td>Stores the mapping between policy set and users.</td> 
   </tr> 
   <tr> 
-   <td><span class="code">EdcInvitedUserEntity</span></td> 
+   <td><code>EdcInvitedUserEntity</code></td> 
    <td>Stores information about invited User.</td> 
   </tr> 
  </tbody> 

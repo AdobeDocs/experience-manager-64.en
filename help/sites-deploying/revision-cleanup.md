@@ -375,12 +375,12 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>How to check if the Online Revision Cleanup has completed successfully?</strong></td> 
-   <td><p>You can check if the Online Revision Cleanup has completed successfully by checking the logs.</p> <p>For example, "<span class="code">TarMK GC #{}: compaction completed in {} ({} ms), after {} cycles</span>" means the compaction step completed successfully unless preceded by the message "<span class="code">TarMK GC #{}: compaction gave up compacting concurrent commits after {} cycles</span>", which means there was too much concurrent load.</p> <p>Correspondingly there is a message "<span class="code">TarMK GC #{}: cleanup completed in {} ({} ms</span>" for the successful completion of the cleanup step.</p> </td> 
+   <td><p>You can check if the Online Revision Cleanup has completed successfully by checking the logs.</p> <p>For example, "<code>TarMK GC #{}: compaction completed in {} ({} ms), after {} cycles</code>" means the compaction step completed successfully unless preceded by the message "<code>TarMK GC #{}: compaction gave up compacting concurrent commits after {} cycles</code>", which means there was too much concurrent load.</p> <p>Correspondingly there is a message "<code>TarMK GC #{}: cleanup completed in {} ({} ms</code>" for the successful completion of the cleanup step.</p> </td> 
    <td><p> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Where can we find the statistics of the last Online Revision Cleanup executions ?</strong></td> 
-   <td><p>Status, progress and statistics are exposed via JMX (<span class="code">SegmentRevisionGarbageCollection</span> MBean). For more details about the <span class="code">SegmentRevisionGarbageCollection</span> MBean, read the <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">following paragraph</a>.</p> <p>Progress can be tracked via the <span class="code">EstimatedRevisionGCCompletion</span> attribute of the <span class="code">SegmentRevisionGarbageCollection MBean.</span></p> <p>You can obtain a reference of the MBean using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are only available since the last system start. External monitoring tooling could be leveraged to keep the data beyond AEM uptime. See <a href="/help/sites-administering/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> </td> 
+   <td><p>Status, progress and statistics are exposed via JMX (<code>SegmentRevisionGarbageCollection</code> MBean). For more details about the <code>SegmentRevisionGarbageCollection</code> MBean, read the <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">following paragraph</a>.</p> <p>Progress can be tracked via the <code>EstimatedRevisionGCCompletion</code> attribute of the <code>SegmentRevisionGarbageCollection MBean.</code></p> <p>You can obtain a reference of the MBean using the <code>ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</code>.</p> <p>Note that the statistics are only available since the last system start. External monitoring tooling could be leveraged to keep the data beyond AEM uptime. See <a href="/help/sites-administering/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -389,11 +389,11 @@ In some cases, alternating between the tail and full compaction modes delays the
     <ul> 
      <li>Online Revision Cleanup has started / stopped 
       <ul> 
-       <li>Online Revision Cleanup is composed of three phases: estimation, compaction and cleanup. Estimation can force compaction and cleanup to skip if the repository does not contain enough garbage. In the latest version of AEM, the message "<span class="code">TarMK GC #{}: estimation started</span>” marks the start of estimation, "<span class="code">TarMK GC #{}: compaction started, strategy={}</span>” marks the start of compaction and "T<span class="code">arMK GC #{}: cleanup started. Current repository size is {} ({} bytes</span>” marks the start of cleanup.</li> 
+       <li>Online Revision Cleanup is composed of three phases: estimation, compaction and cleanup. Estimation can force compaction and cleanup to skip if the repository does not contain enough garbage. In the latest version of AEM, the message "<code>TarMK GC #{}: estimation started</code>” marks the start of estimation, "<code>TarMK GC #{}: compaction started, strategy={}</code>” marks the start of compaction and "T<code>arMK GC #{}: cleanup started. Current repository size is {} ({} bytes</code>” marks the start of cleanup.</li> 
       </ul> </li> 
      <li>Disk space gained by the revision cleanup 
       <ul> 
-       <li>Space is reclaimed only when the cleanup phase completes. The completion of the cleanup phase is marked by the log message "T<span class="code">arMK GC #{}: cleanup completed in {} ({} ms</span>". Post cleanup size is {} ({} bytes) and space reclaimed {} ({} bytes). Compaction map weight/depth is {}/{} ({} bytes/{}).”.</li> 
+       <li>Space is reclaimed only when the cleanup phase completes. The completion of the cleanup phase is marked by the log message "T<code>arMK GC #{}: cleanup completed in {} ({} ms</code>". Post cleanup size is {} ({} bytes) and space reclaimed {} ({} bytes). Compaction map weight/depth is {}/{} ({} bytes/{}).”.</li> 
       </ul> </li> 
      <li>A problem occured during the revision cleanup 
       <ul> 
@@ -404,7 +404,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><strong>How to check how much space was reclaimed after Online Revision Cleanup has completed?</strong></td> 
-   <td>There is a message in the log at the end of the cleanup cycle: "<span class="code">TarMK GC #3: cleanup completed</span>" that includes the size of the repository and the amount of reclaimed garbage.</td> 
+   <td>There is a message in the log at the end of the cleanup cycle: "<code>TarMK GC #3: cleanup completed</code>" that includes the size of the repository and the amount of reclaimed garbage.</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -428,7 +428,7 @@ In some cases, alternating between the tail and full compaction modes delays the
   </tr> 
   <tr> 
    <td><p><strong>How to monitor Automatic Cleanup on a standby instance?</strong></p> </td> 
-   <td><p>Status, progress and statistics are exposed via JMX by using the <span class="code">SegmentRevisionGarbageCollection</span> MBean. See also the following <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">Oak documentation</a>. </p> <p>You can obtain a reference of the MBean by using the <span class="code">ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</span>.</p> <p>Note that the statistics are available only since the last system start. External monitoring tooling could be leveraged to keep the data beyond the AEM uptime. Also, see See <a href="/help/sites-administering/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> <p>The log files can also be used to check the status, progress and statistics of the Automatic Cleanup.</p> </td> 
+   <td><p>Status, progress and statistics are exposed via JMX by using the <code>SegmentRevisionGarbageCollection</code> MBean. See also the following <a href="https://jackrabbit.apache.org/oak/docs/nodestore/segment/overview.html#monitoring-via-jmx" target="_blank">Oak documentation</a>. </p> <p>You can obtain a reference of the MBean by using the <code>ObjectName org.apache.jackrabbit.oak:name="Segment node store revision garbage collection",type="SegmentRevisionGarbageCollection”</code>.</p> <p>Note that the statistics are available only since the last system start. External monitoring tooling could be leveraged to keep the data beyond the AEM uptime. Also, see See <a href="/help/sites-administering/operations-dashboard.md#monitoring-with-nagios" target="_blank">the AEM documentation for attaching health checks to Nagios as an example for an external monitoring tool</a>.</p> <p>The log files can also be used to check the status, progress and statistics of the Automatic Cleanup.</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -465,7 +465,7 @@ In some cases, alternating between the tail and full compaction modes delays the
      <li>First, check the log entries<br /> </li> 
      <li>Depending on the information in the logs, take appropriate action: 
       <ul> 
-       <li>If the logs show five missed compact cycles and a timeout on the <span class="code">forceCompact</span> cycle, schedule the maintenance window to a quiet time when the amount of repository writes is low. You can check repository writes in the repositoy metrics monitoring tool located at <em>https://serveraddress:serverport/libs/granite/operations/content/monitoring/page.html</em></li> 
+       <li>If the logs show five missed compact cycles and a timeout on the <code>forceCompact</code> cycle, schedule the maintenance window to a quiet time when the amount of repository writes is low. You can check repository writes in the repositoy metrics monitoring tool located at <em>https://serveraddress:serverport/libs/granite/operations/content/monitoring/page.html</em></li> 
        <li>If the cleanup stopped at the end of the maintenance window, make sure the configuration of the maintenance window in the Maintenance Tasks user interface is big enough</li> 
        <li>If available heap memory is not sufficient, make sure instance has enough memory.</li> 
        <li>In case of a late reaction, the segmentstore might grow too much for Online Revision Cleanup to complete even within a longer maintenance window. For example, if there was no successful Online Revision Cleanup completed in the last week then it is recommended to plan an offline maintenance and to execute Offline Revision Cleanup in order to bring the segmenstore back to a manageable size.</li> 
@@ -484,8 +484,8 @@ In some cases, alternating between the tail and full compaction modes delays the
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>What is causing <span class="code">SegmentNotFoundException</span> instances to be logged in the <span class="code">error.log</span> and how can I recover?</strong></td> 
-   <td><p>A <span class="code">SegmentNotFoundException</span> is logged by the TarMK when it tries to access a storage unit (a segment) that it can not find. There are three scenarios that could cause this issue:</p> 
+   <td><strong>What is causing <code>SegmentNotFoundException</code> instances to be logged in the <code>error.log</code> and how can I recover?</strong></td> 
+   <td><p>A <code>SegmentNotFoundException</code> is logged by the TarMK when it tries to access a storage unit (a segment) that it can not find. There are three scenarios that could cause this issue:</p> 
     <ol> 
      <li>An application that circumvents the recommended access mechanisms (like Sling and the JCR API) and uses a lower level API/SPI to access the repository and then exceeds the retention time of a segment. That is, it keeps a reference to an entity longer than the retention time allowed by the Online Revision Cleanup (24 hours by default). This case is transient and doesn't lead to data corruption. To recover, the oak-run tool should be used to confirm the transient nature of the exception (the oak-run check should not report any errors). In order to do this the instance needs to be taken offline and restarted afterwards.</li> 
      <li>An external event caused the corruption of the data on the disk. This can be a disk failure, out of disk space or an accidental modification of the required data files. In this case, the instance needs to be taken offline and repaired using the oak-run check. For more details on how to perform the oak-run check, read the following <a href="https://github.com/apache/jackrabbit-oak/blob/trunk/oak-doc/src/site/markdown/nodestore/segment/overview.md#check" target="_blank">Apache documentation</a>.</li> 
@@ -609,7 +609,7 @@ In addition to the methods presented above, you can also trigger the revision cl
   </tr> 
   <tr> 
    <td><strong>How to speed up the Offline Revision Cleanup task if it does not complete within 8 hours ?</strong></td> 
-   <td>If the revision task does not complete within 8 hours and the <a href="/help/sites-administering/operations-dashboard.md#diagnosis-tools" target="_blank">thread dumps</a> reveal that the main hotspot is <span class="code">InMemoryCompactionMap.findEntry</span>, use the following parameter with the oak-run tool <strong>versions 1.4 </strong>or higher: <span class="code">-Dtar.PersistCompactionMap=true</span>. Be aware that the <span class="code">-Dtar.PersistCompactionMap</span> parameter has been removed in Oak version 1.6.</td> 
+   <td>If the revision task does not complete within 8 hours and the <a href="/help/sites-administering/operations-dashboard.md#diagnosis-tools" target="_blank">thread dumps</a> reveal that the main hotspot is <code>InMemoryCompactionMap.findEntry</code>, use the following parameter with the oak-run tool <strong>versions 1.4 </strong>or higher: <code>-Dtar.PersistCompactionMap=true</code>. Be aware that the <code>-Dtar.PersistCompactionMap</code> parameter has been removed in Oak version 1.6.</td> 
   </tr> 
  </tbody> 
 </table>

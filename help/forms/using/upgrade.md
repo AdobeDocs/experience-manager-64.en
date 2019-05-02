@@ -220,8 +220,8 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
 * [Upgrade from LiveCycle ES4 SP1 to AEM 6.4 Forms for WebSphere](assets/upgrade-websphere-livecycle.pdf)
 * [Upgrade from LiveCycle ES4 SP1 to AEM 6.4 Forms using JBoss Turnkey](assets/upgrade-turnkey-livecycle.pdf)
 
-<details> 
- <summary>LiveCycle ES3 &gt; AEM 6.4 Forms on JEE</summary> 
+<div class="details"> 
+ <h3 class="summary">LiveCycle ES3 &gt; AEM 6.4 Forms on JEE</h3> 
  <p>Upgrading LiveCycle ES3 to AEM 6.4 Forms on JEE is an out-of-place upgrade, as it involves migrating assets and data from previous versions to the fresh instances (new versions) of supported application servers, operating systems, and databases. </p> 
  <p>Following is an overview of the procedure to upgrade an existing LiveCycle ES3 server to AEM 6.4 Forms. For detailed instructions, see the documents listed at the end of the procedure.</p> 
  <ol> 
@@ -269,7 +269,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
   <li><a href="assets/upgrade-websphere-livecycle-es3.pdf" target="_blank">Upgrade from LiveCycle ES3 to AEM 6.4 Forms for WebSphere</a></li> 
   <li><a href="assets/upgrade-turnkey-livecycle-es3.pdf" target="_blank">Upgrade from LiveCycle ES3 to AEM 6.4 Forms using JBoss Turnkey</a></li> 
  </ul> 
-</details>
+</div>
 
 Download the [AEM 6.3 QuickStart](https://docs.adobe.com/docs/en/aem/6-3/deploy.html#Getting%20the%20software).
 

@@ -64,9 +64,9 @@ Configure adaptive form properties for Adobe Sign for an existing or a new adapt
 
 Perform the following steps to create an adaptive form for Adobe Sign:
 
-1. Navigate to ****[!UICONTROL Adobe Experience Manager]**** > ****[!UICONTROL Forms]**** > ****[!UICONTROL Forms & Documents]****. 
-1. Tap ****[!UICONTROL Create]**** and select ****[!UICONTROL Adaptive Form]****. A list of templates appear. Select the template and tap ****[!UICONTROL Next]****.
-1. In the ****[!UICONTROL Basic]**** tab:
+1. Navigate to **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**. 
+1. Tap **[!UICONTROL Create]** and select **[!UICONTROL Adaptive Form]**. A list of templates appear. Select the template and tap **[!UICONTROL Next]**.
+1. In the **[!UICONTROL Basic]** tab:
 
     1. Specify the **Name** and **Title** for the adaptive form.
     
@@ -74,7 +74,7 @@ Perform the following steps to create an adaptive form for Adobe Sign:
 
 1. In the **[!UICONTROL Form Model]** tab, select one of the following options:
 
-    * Select the** **[!UICONTROL Associate form template as the Document of Record template]**** option and select a Document of Record template. If you use a form template based adaptive form, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the adaptive form.  
+    * Select the** **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. If you use a form template based adaptive form, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the adaptive form.  
     
     * Select the **[!UICONTROL Generate Document of Record]** option. If you use a Document of Record option enabled adaptive form, then the document sent for signing displays all the fields of the adaptive form.
 
@@ -84,12 +84,12 @@ Perform the following steps to create an adaptive form for Adobe Sign:
 
 Perform the following steps to use Adobe Sign in an existing adaptive form:
 
-1. Navigate to ****[!UICONTROL Adobe Experience Manager]**** > **[!UICONTROL **Forms**]**> ****[!UICONTROL Forms & Documents]****. 
+1. Navigate to **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL **Forms**]**> **[!UICONTROL Forms & Documents]**. 
 1. Select the adaptive form and tap **[!UICONTROL Properties]**.
-1. In the ****[!UICONTROL Basic]**** tab, select the [configuration container](/help/forms/using/adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-with-aem-forms) created while configuring Adobe Sign with AEM Forms.
+1. In the **[!UICONTROL Basic]** tab, select the [configuration container](/help/forms/using/adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-with-aem-forms) created while configuring Adobe Sign with AEM Forms.
 1. In the **[!UICONTROL Form Mode]**l tab, select one of the following options:
 
-    * Select the** **[!UICONTROL Associate form template as the Document of Record template]**** option and select a Document of Record template. If you use a form template based adaptive form, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the adaptive form.  
+    * Select the **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. If you use a form template based adaptive form, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the adaptive form.  
     
     * Select the **[!UICONTROL Generate Document of Record]** option. If you use a Document of Record option enabled adaptive form, then the document sent for signing displays all the fields of the adaptive form.
 
@@ -109,13 +109,8 @@ Perform the following steps to add fields to an adaptive form and customize vari
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * Using Adobe Sign block is not mandatory to use Adobe Sign in an adaptive form. If you do not use Adobe Sign block and add fields for the signers, then the default signature field is displayed at the bottom of the signing documents.   
-   >    * Use Adobe Sign block only for those adptive forms which automatically generate Document of Record. If you are using a custom XDP for generating Document of Record or a form template based adaptive form, Adobe Sign block is not required. 
-   >    
-   >
+   >* Using Adobe Sign block is not mandatory to use Adobe Sign in an adaptive form. If you do not use Adobe Sign block and add fields for the signers, then the default signature field is displayed at the bottom of the signing documents.   
+   >* Use Adobe Sign block only for those adptive forms which automatically generate Document of Record. If you are using a custom XDP for generating Document of Record or a form template based adaptive form, Adobe Sign block is not required. 
 
 1. Select the **Adobe Sign Block** component and tap the **Edit ** ![](assets/aem_6_3_edit.png) icon. It displays options to add fields and format appearance of a field. 
 
@@ -129,7 +124,7 @@ Perform the following steps to add fields to an adaptive form and customize vari
 
    ![](assets/adobe-sign-block-fields-options.png)
 
-   It is mandatory to provide a unique name for a field. You can also select the required option to mark a field mandatory. In addition to the **Name **and **Required **option, some Adobe Sign field have more options. For example, mask and multi-line. Moreover, specify a unique names for each Adobe Sign field whether the fields reside in same or different Adobe Sign blocks.
+   It is mandatory to provide a unique name for a field. You can also select the required option to mark a field mandatory. In addition to the **Name** and **Required** option, some Adobe Sign field have more options. For example, mask and multi-line. Moreover, specify a unique names for each Adobe Sign field whether the fields reside in same or different Adobe Sign blocks.
 
 ### Enable Adobe Sign for an adaptive form {#enableadobsignforanadaptiveform}
 
@@ -281,14 +276,8 @@ Perform the following steps to configure the Signature Step component:
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * When you drag-and-drop the ****[!UICONTROL Signature Step]**** component to the form, the **[!UICONTROL  **Is the signer and the person filling the form same?**]**** **option is automatically set to **Yes**. It is required to keep the form working.   
-   >    
-   >    * Adobe Sign enabled adaptive forms do not support using Submit button on the section or panel using the Signature Step component. You can add a summary step after the Signature step for the manual submission or an automatic submission is triggered after the interval set using the [Adobe Sign Configuration Service](/help/forms/using/adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-scheduler-to-sync-the-signing-status). 
-   >    
-   >
+   >* When you drag-and-drop the **[!UICONTROL Signature Step]** component to the form, the **[!UICONTROL  **Is the signer and the person filling the form same?**]** **option is automatically set to **Yes**. It is required to keep the form working.
+   >* Adobe Sign enabled adaptive forms do not support using Submit button on the section or panel using the Signature Step component. You can add a summary step after the Signature step for the manual submission or an automatic submission is triggered after the interval set using the [Adobe Sign Configuration Service](/help/forms/using/adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-scheduler-to-sync-the-signing-status).
 
 ### Configure the thank you page or summary step component {#configure-the-thank-you-page-or-summary-step-component}
 
