@@ -148,9 +148,9 @@ To improve the performance, you can direct the antivirus software to exclude the
 
 * **(AEM Forms on JEE only)** Global Document Storage (GDS) directory. The default location is:
 
-    * (JBoss) [appserver root]/server/[server]/svcnative/DocumentStorage
-    * (WebLogic) [appserverdomain]/[server]/adobe/LiveCycleServer/DocumentStorage
-    * (WebSphere) [appserver root]/installedApps/adobe/[server]/DocumentStorage
+    * (JBoss) `[appserver root]/server/[server]/svcnative/DocumentStorage`
+    * (WebLogic) `[appserverdomain]/[server]/adobe/LiveCycleServer/DocumentStorage`
+    * (WebSphere) `[appserver root]/installedApps/adobe/[server]/DocumentStorage`
 
 * **(AEM Forms on JEE only)** AEM Forms server logs and temporary directory. The default location is:
 
@@ -159,7 +159,7 @@ To improve the performance, you can direct the antivirus software to exclude the
 
 >[!NOTE]
 >
->* If you are using a different location for GDS and temporary directory, open [AdminUI](https://[server]:[port]/adminui), navigate to **Home &gt; Settings &gt; Core System Settings &gt; Core Configurations** to confirm the location in use.
+>* If you are using a different location for GDS and temporary directory, open the AdminUI at `https://[server]:[port]/adminui)`, navigate to **Home &gt; Settings &gt; Core System Settings &gt; Core Configurations** to confirm the location in use.
 >
 >* If the AEM Forms server performs slow even after excluding the suggested directories, then exclude the Java executable file (java.exe) also.   
 >

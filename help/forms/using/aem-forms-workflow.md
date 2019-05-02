@@ -70,7 +70,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
 1. Enable email notifications. You can configure Forms-centric workflow on OSGi to send email notifications to the users or assignees. Perform the following configurations to enable email notifications:
 
-    1. Go to AEM configuration manager at https://[server]:[port]/system/console/configMgr.
+    1. Go to AEM configuration manager at `https://[server]:[port]/system/console/configMgr`.
     1. Open the **[!UICONTROL Day CQ Mail Service]** configuration. Specify a value for the ****[!UICONTROL SMTP server host name]****, ****[!UICONTROL SMTP server port,]**** and ****[!UICONTROL "From" address]** **fields. Click **[!UICONTROL Save]**.
     1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration. In the **[!UICONTROL Domains]**field, specify the actual hostname/IP address and port number for local, author, and publish instances. Click **[!UICONTROL Save]**.
 

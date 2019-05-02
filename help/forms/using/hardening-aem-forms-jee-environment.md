@@ -275,7 +275,7 @@ When AEM Forms on JEE is installed, a single default user account is configured 
 
 In addition, it is recommended to change the default password for CRX Administrator by performing the following steps:
 
-1. Log into https://[server]:[port]/lc/libs/granite/security/content/useradmin.html using the default username/password.
+1. Log into `https://[server]:[port]/lc/libs/granite/security/content/useradmin.html` using the default username/password.
 1. Type Administrator in the search field and click **Go**.
 1. Select **Administrator** from the search result and click the **Edit** icon at the lower right of the user interface.
 1. Specify the new password in the **New Password** field and the old password in the **Your Password** field.

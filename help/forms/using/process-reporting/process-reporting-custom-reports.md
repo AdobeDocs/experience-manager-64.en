@@ -27,7 +27,7 @@ Before adding any custom report, perform the following template procedure:
 
 CRX QueryBuilder REST interface exposes the functionality of the Asset Share Query Builder through a Java API and a REST API. Learn how to use [CRX QueryBuilder REST interface](https://docs.adobe.com/docs/en/cq/current/dam/customizing_and_extendingcq5dam/query_builder.html), before performing the following steps:
 
-1. Browse to the URL https://[server]:[port]/lc/bin/querybuilder.json  
+1. Browse to the URL `https://[server]:[port]/lc/bin/querybuilder.json`
 
 1. Create a query based on the Process Reporting storage node structure and node properties.
 

@@ -118,7 +118,7 @@ One of the key features of AEM Apps is the ability to have a mobile application 
 
 The Content Update Server URL property is the URL that must point to a publish instance; either directly or through the dispatcher or CDN. The format of the URL is simply:
 
-https://[hostname]:[port]
+`https://[hostname]:[port]`
 
 >[!NOTE]
 >

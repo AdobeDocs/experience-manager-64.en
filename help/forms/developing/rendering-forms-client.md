@@ -126,7 +126,7 @@ Render a form at the client by using the Forms API (Java):
 
 [Rendering Forms at the Client](/help/forms/developing/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering-forms-at-the-client)
 
-[Quick Start (SOAP mode): Rendering a form at the client using the Java API](/help/forms/developing/forms-service-api-quick-starts.md##quick-start-soap-mode-rendering-a-form-at-the-client-using-the-java-api)
+[Quick Start (SOAP mode): Rendering a form at the client using the Java API](/help/forms/developing/forms-service-api-quick-starts.md#quick-start-soap-mode-rendering-a-form-at-the-client-using-the-java-api)
 
 [Including AEM Forms Java library files](/help/forms/developing/invoking-aem-forms-using-java.md#including-aem-forms-java-library-files)
 

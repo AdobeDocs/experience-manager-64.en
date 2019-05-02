@@ -48,7 +48,7 @@ Assembler service lets you combine, rearrange, and augment PDF and XDP documents
 
 Assembler service depends on the Reader Extensions service, Signature service, Forms service, and Output service. Perform the following steps to ensure that above mentioned services are configured:
 
-1. Open AEM Bundles Web Console as an administrator. The default URL is https://[server]:[port]&gt;/system/console/bundles. 
+1. Open AEM Bundles Web Console as an administrator. The default URL is `https://[server]:[port]&gt;/system/console/bundles`. 
 1. Search the services/bundles listed below and ensure that these services are up and running:
 
 <table> 

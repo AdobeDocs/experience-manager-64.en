@@ -39,7 +39,7 @@ If the portal has the Letter template name at hand, then the URL could be
 
 ## Inline data-based invocation {#inline-data-based-invocation}
 
-Another (and a more secure) way to call the Create Correspondence application could be to simply hit the URL at https://[server]:[port]/[contextPath]/aem/forms/createcorrespondence.html, while sending the parameters and data to call the Create Correspondence application as a POST request (hiding them from the end user). This also means that you can now pass along the XML data for the Create Correspondence application inline (as part of the same request, using the cmData parameter), which was not possible/ideal in the previous approach.
+Another (and a more secure) way to call the Create Correspondence application could be to simply hit the URL at `https://[server]:[port]/[contextPath]/aem/forms/createcorrespondence.html`, while sending the parameters and data to call the Create Correspondence application as a POST request (hiding them from the end user). This also means that you can now pass along the XML data for the Create Correspondence application inline (as part of the same request, using the cmData parameter), which was not possible/ideal in the previous approach.
 
 ### Parameters for specifying letter {#parameters-for-specifying-letter}
 

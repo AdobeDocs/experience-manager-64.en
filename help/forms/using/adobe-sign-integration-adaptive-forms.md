@@ -80,7 +80,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
    Tap **[!UICONTROL Create]** to create the Adobe Sign configuration.
 
-1. Open AEM Web Console. The URL is https://[server]:[port]/system/console/configMgr
+1. Open AEM Web Console. The URL is `https://[server]:[port]/system/console/configMgr`
 1. Open **Forms Common Configuration Service.**
 1. In the **Allow **field**, **select** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms**, and click **Save. **Author instance is configured to use Adobe Sign.
 1. On the [Publish](/help/sites-deploying/deploy.md) instance, log in and open the following URL:
