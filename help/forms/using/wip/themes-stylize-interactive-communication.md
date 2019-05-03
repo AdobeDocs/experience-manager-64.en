@@ -245,7 +245,7 @@ Certain components like text box, numeric box, radio button, and check box are c
 
 Click **EXPAND ALL** in the sidebar to view, select, and style categorized components that are not visible upfront.
 
-### Styling panel layouts <br> {#styling-panel-layouts-br}
+### Styling panel layouts {#styling-panel-layouts-br}
 
 Themes in AEM Forms support styling of elements in the layout of panels in your forms. Styling of elements in out-of-the-box layouts and custom layouts is supported.
 
@@ -302,7 +302,7 @@ The plus button against the asset library lets you permanently save the style wi
 
 When you provide a custom name for a style, the style is tied to a theme and is no longer available to other themes. To delete a saved style:
 
-1. On the CANVAS toolbar, click **Theme Options** ![](assets/theme-options.png) > **Manage Styles**.
+1. On the CANVAS toolbar, click **Theme Options** ![](../assets/theme-options.png) > **Manage Styles**.
 1. In the Manage Styles dialog, select a saved style, click **Delete**. 
 
    ![Delete the saved style](assets/manage-styles.png)
@@ -321,7 +321,7 @@ When you create a theme, it is created with a form that is shipped with the Them
 
 To replace the current form in Theme Editor Canvas:
 
-1. In the THEME EDITOR panel, click **Theme Options** ![](assets/theme-options.png) > **Configure**. 
+1. In the THEME EDITOR panel, click **Theme Options** ![](../assets/theme-options.png) > **Configure**. 
 
 1. In the Edit Configuration dialog, click **Browse** ![](assets/browse.png).
 
@@ -627,7 +627,7 @@ You can see the generated CSS using the following options:
 
 * **View CSS** option in the sidebar: When you select a component in the Theme, you can see the VIEW CSS option in the sidebar. It shows the generated CSS, including CSS for `::before` and `::after` pseudo elements.
 
-* **View Theme CSS** option in the canvas toolbar: In the Canvas Toolbar, click ** ![](../assets/theme-options.png) &gt; View Theme CSS**. You can see the entire theme CSS generated from the properties you define in the Theme Editor.
+* **View Theme CSS** option in the canvas toolbar: In the Canvas Toolbar, click ![](../assets/theme-options.png) &gt; View Theme CSS**. You can see the entire theme CSS generated from the properties you define in the Theme Editor.
 
 ## Troubleshooting, recommendations, and best practices {#troubleshooting-recommendations-and-best-practices}
 
