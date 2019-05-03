@@ -475,7 +475,7 @@ To see the effect of the Test Bundle, create a component that uses the Java meth
 
 ### Exporting and Importing Node Types {#exporting-and-importing-node-types}
 
-With CRXDE Lite you can import and/or export node type definitions in CND (Compact Namespace and Node Type Definition) notation.
+With CRXDE Lite you can import and/or export node type definitions in [CND (Compact Namespace and Node Type Definition) notation](http://jackrabbit.apache.org/jcr/node-type-notation.html).
 
 To export a node type definition:
 
