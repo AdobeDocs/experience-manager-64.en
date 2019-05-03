@@ -68,7 +68,7 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 
    Alternatively, four buttons appear when you move your pointer over the form or interactive communication icon without selecting it. You can tap the **Edit** button that appears, to open the form in edit mode. 
 
-1. In the page toolbar, tap **Page Information** ![](assets/theme-options.png) &gt; **Open Properties**. 
+1. In the page toolbar, tap **Page Information** ![](assets/theme-options.png) > **Open Properties**. 
 1. In the General tab, choose a configuration for the **Adobe Target** field. Tap **Save & Close**.
 
 ## Applying created activity to an adaptive form image or an interactive communication image {#applying-created-activity-to-an-adaptive-form-image-or-an-interactive-communication-image}
