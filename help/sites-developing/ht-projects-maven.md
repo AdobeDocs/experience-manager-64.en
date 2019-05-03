@@ -451,69 +451,6 @@ Below dependencies need to be added to the `content` modules's POM.
 >
 >The `com.adobe.granite.xssprotection` artifact is not included in the cq-quickstart-product-dependencies POM and requires full Maven coordinates as obtained from the Dependency Finder.
 
-#### myproject/content/pom.xml {#myproject-content-pom-xml}
-
-```xml
-<dependency>
-    <groupId>org.apache.sling</groupId>
-    <artifactId>org.apache.sling.jcr.jcr-wrapper</artifactId>
-    <!-- javax.jcr -->
-</dependency>
-<dependency>
-    <groupId>org.apache.sling</groupId>
-    <artifactId>org.apache.sling.api</artifactId>
-</dependency>
-<dependency>
-    <groupId>com.day.cq</groupId>
-    <artifactId>cq-commons</artifactId>
-    <!-- com.day.cq.commons -->
-</dependency>
-<dependency>
-    <groupId>com.day.cq.wcm</groupId>
-    <artifactId>cq-wcm-commons</artifactId>
-    <!-- com.day.cq.wcm.commons -->
-</dependency>
-<dependency>
-    <groupId>com.day.cq.wcm</groupId>
-    <artifactId>cq-wcm-api</artifactId>
-    <!-- com.day.cq.wcm.api -->
-</dependency>
-<dependency>
-    <groupId>com.day.commons</groupId>
-    <artifactId>day-commons-jstl</artifactId>
-    <!-- javax.servlet.jsp.jstl.core -->
-</dependency>
-<dependency>
-    <groupId>com.day.cq.wcm</groupId>
-    <artifactId>cq-wcm-taglib</artifactId>
-    <!-- com.day.cq.wcm.tags -->
-</dependency>
-<dependency>
-    <groupId>org.apache.sling</groupId>
-    <artifactId>org.apache.sling.scripting.jsp.taglib</artifactId>
-    <!-- org.apache.sling.scripting.jsp.taglib -->
-</dependency>
-<dependency>
-    <groupId>com.adobe.granite</groupId>
-    <artifactId>com.adobe.granite.xssprotection</artifactId>
-    <!-- com.adobe.granite.xss -->
-</dependency>
-<dependency>
-    <groupId>com.day.cq.wcm</groupId>
-    <artifactId>cq-wcm-core</artifactId>
-    <!-- com.day.cq.wcm.core.components -->
-</dependency>
-<dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-lang3</artifactId>
-    <!-- org.apache.commons.lang3 -->
-</dependency>
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-api</artifactId>
-</dependency>
-```
-
 #### Compiling JSPs as part of the Maven Compile Phase {#compiling-jsps-as-part-of-the-maven-compile-phase}
 
 To compile JSPs in Maven's `compile` phase, we use Apache Sling's [Maven JspC Plugin](https://sling.apache.org/documentation/development/jspc.html) as shown below:
