@@ -42,26 +42,21 @@ However, automating test cases is a significant investment, so certain aspects s
 * Only really feasible for big projects.
 * Good when multiple releases are being generated either for testing or in the long term release plan.
 
-## Testing specific aspects of CQ5 {#testing-specific-aspects-of-cq}
+## Testing specific aspects {#testing-specific-aspects}
 
-When testing CQ5 a few specific details are of particular interest:
+When testing AEM a few specific details are of particular interest:
 
 Author and Publish Environments
 
-Although, covered in [CQ Environments](/help/sites-developing/the-basics.md#environments) it is worth highlighting a deciding factor of CQ5 with regard to testing.
+Although, covered in [Environments](/help/sites-developing/the-basics.md#environments) it is worth highlighting a deciding factor of AEM with regard to testing.
 
-You must consider CQ5 as two applications:
+You must consider AEM as two applications:
 
-* the *Author* environment
-
+* the **Author** environment
   This instance allows authors to input, and publish, content.
-
   This has a small(er), predictable set of users, for whom specific functionality and performance is crucial.
-
-* the *Publish* environment
-
+* the **Publish** environment
   This instance presents the website in its published form for access from visitors.
-
   This usually has a larger set of users, where the volume of traffic is not always 100% predictable. Performance is still crucial - when responding to requests. Caching and load-balancing must also be considered.
 
 Although the same software as such, they:
@@ -80,25 +75,24 @@ When testing personalization each individual use case should be repeated using m
 
 Caching must also be checked for correct behavior.
 
-The Dispatcher
+**The Dispatcher**
 
 Most projects will install the Dispatcher for caching and load balancing.
 
 Testing is difficult (caching occurs at various levels and in various locations) and must be made on a black-box basis. Key aspects to test for are:
 
-* Accuracy; ensure that content updates are seen by the website visitor.
-* Continuity; ensure that the website is still available when one server is shut down.
-
+* **Accuracy**; ensure that content updates are seen by the website visitor.
+* **Continuity**; ensure that the website is still available when one server is shut down.
 * **Clusters** Clusters are used to provide:
-* **Failover**If one server fails, then other servers in the cluster will take over processing.
-  **Performance**
-
-* Load balancing with full failover increases the performance of a cluster.
+* **Failover**
+  If one server fails, then other servers in the cluster will take over processing.
+* **Performance**
+  Load balancing with full failover increases the performance of a cluster.
 
 When used for a customer project the cluster must be tested to confirm correct operation of the configuration.
 
 ## Testing third-party software {#testing-third-party-software}
 
-Any third-party software interfaced to CQ5 will be referenced in the Detailed Requirement Specifications.
+Any third-party software interfaced to AEM will be referenced in the Detailed Requirement Specifications.
 
 Any tests required (dependent on the defined scope) must be analyzed and clean test obtained.
