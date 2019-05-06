@@ -103,7 +103,7 @@ user-guide-title: AEM 6.4 Forms User Guide
   + [Adding and configuring users](using/admin-help/adding-configuring-users.md)
   + [Starting and stopping services](using/admin-help/starting-stopping-services.md)
   + [Adding, enabling, modifying, or removing endpoints](using/admin-help/adding-enabling-modifying-or-removing.md)
-  + [Enabling single sign-on in AEM forms](using/admin-help/enabling-single-sign-on-aem)
+  + [Enabling single sign-on in AEM forms](using/admin-help/enabling-single-sign-on-aem.md)
   + [Configure SAML service provider settings](using/admin-help/configure-saml-service-provider-settings.md)
   + [Importing and exporting the configuration file](using/admin-help/importing-exporting-configuration-file.md)
   + [Editing and converting existing domains](using/admin-help/editing-converting-existing-domains.md)
