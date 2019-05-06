@@ -153,7 +153,7 @@ When hosting the Dynamic Tag Management libraries on AEM, AEM automatically conf
    <td><p>(Optional) The shared secret to use for decrypting the download. Obtain this value from the Shared Secret field of the Library Download page of Dynamic Tag Management.</p> <p><strong>Note:</strong> You must have the <a href="https://www.openssl.org/docs/apps/openssl.html">OpenSSL</a> libraries installed on the computer where AEM is installed so that AEM can decrypt the downloaded libraries.</p> </td> 
   </tr> 
   <tr> 
-   <td>Enable<a name="polling"></a> Polling Importer</td> 
+   <td>Enable Polling Importer</td> 
    <td><p>(Optional) Select to periodically download and install the Dynamic Tag Management library to ensure you are using an updated version. When selected, Dynamic Tag Management does not send HTTP POST requests to the Deploy Hook URL.</p> <p>AEM automatically configures the Deploy Hook URL property of the Library Download properties for the Dynamic Tag Management web property. When selected, the property is configured with no value. When not selected, the property is configured with the URL of your Dynamic Tag Management configuration.</p> <p>Enable polling importer when the Dynamic Tag Management deploy hook cannot connect to AEM, for example when AEM is behind a firewall.</p> </td> 
   </tr> 
   <tr> 

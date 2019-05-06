@@ -62,7 +62,6 @@ For example:
         * For example, to customize the Text component copy:
 
             * from `/libs/foundation/components/text`  
-            
             * to `/apps/myProject/components/text`
 
 * [Customizing pages shown by the Error Handler](/help/sites-developing/customizing-errorhandler-pages.md#how-to-customize-pages-shown-by-the-error-handler)  
@@ -81,10 +80,8 @@ For example:
 >
 >For configuration and other changes:
 >
->1. copy the item in `/libs` to `/apps`  
->
+>1. copy the item in `/libs` to `/apps`
 >1. make any changes within `/apps`
->
 
 ## When to use JCR Queries and when not to use them {#when-to-use-jcr-queries-and-when-not-to-use-them}
 
@@ -162,4 +159,3 @@ See [Customizing Error Pages shown by the Error Handler](/help/sites-developing/
 Because AEM can access a large number of files it is recommended that the number of [open files for a Java process](/help/sites-deploying/configuring.md#open-files-in-the-java-process) be explicitly configured for AEM.
 
 To minimize this issue development should ensure that any file opened is correctly closed as soon as (meaningfully) possible.  
-
