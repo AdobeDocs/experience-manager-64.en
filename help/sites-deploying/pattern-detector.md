@@ -24,13 +24,7 @@ This could serve as an assessment of the development effort that is involved in 
 
 ## How to Set Up {#how-to-set-up}
 
-The Pattern detector is released as part of the new `pre-upgrade-package` for source AEM versions 6.1 to 6.3 and can be installed using the [Package Manager](/help/sites-administering/package-manager.md).
-
-See these links to packages for each AEM 6 version (starting from AEM 6.1):
-
-* [AEM 6.1](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/pre-upgrade-package-cq61)
-* [AEM 6.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/pre-upgrade-package-cq62)
-* [AEM 6.3](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/pre-upgrade-package-cq63)
+The Pattern Detector is released separately as a [one package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/compatpack/pd-all-aem65)  working on any source AEM versions from 6.1 to 6.5 targeting AEM 6.5 upgrade. It can be installed using the [Package Manager](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
 
 ## How to Use {#how-to-use}
 
