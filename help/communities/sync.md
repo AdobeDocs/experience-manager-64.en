@@ -112,9 +112,9 @@ Author instance pings the exporter endpoint of publishers. Whenever a user is cr
   <li>Locate <strong>Apache Sling Distribution Agent - Sync Agents Factory.</strong> 
    <ul> 
     <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify name: <strong> 
-      <g class="gr_ gr_26 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="26" id="26">
+      <code>
         socialpubsync 
-      </g>.</strong></li> 
+      </code>.</strong></li> 
     <li>Select the <strong>Enabled </strong>checkbox.</li> 
     <li>Select <strong>Use Multiple queues.</strong></li> 
     <li>Specify <strong>Exporter Endpoints</strong> and <strong>Importer Endpoints </strong>(you can add more exporter and importer endpoints).<br /> These endpoints define where you want to get the content from and where you want to push the content. Author fetches the content from the specified exporter endpoint and pushes the content to the publishers (other than the publisher from which it fetched the content).</li> 
@@ -139,19 +139,19 @@ Whenever data is to be installed on or fetched from publishers, then the author 
   <li>Access the <a href="/help/sites-deploying/configuring-osgi.md">Web Console</a>.<br /> For example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Adobe Granite Distribution - Encrypted Password Transport Secret Provider.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify property 
-   <g class="gr_ gr_122 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" data-gr-id="122" id="122">
+   <code>
      name: 
-   </g> <strong> 
-    <g class="gr_ gr_15 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="15" id="15">
+   </code> <strong> 
+    <code>
       socialpubsync 
-    </g>- 
-    <g class="gr_ gr_13 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" data-gr-id="13" id="13">
+    </code>- 
+    <code>
       publishUser 
-    </g>.</strong></li> 
+    </code>.</strong></li> 
   <li>Set the username and password to the <a href="/help/sites-administering/sync.md#createauthorizeduser">authorized user</a>.<br /> For example, <strong> 
-    <g class="gr_ gr_163 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="163" id="163">
+    <code>
       usersync 
-    </g>-admin</strong></li> 
+    </code>-admin</strong></li> 
  </ol> 
  <img imageRotate="0" src="assets/granite-paswrd-trans.png" /> 
 </div>
@@ -168,15 +168,15 @@ This configuration is used to configure the data you want to sync across publish
   <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Apache Sling Distribution Agent - Queue Agents Factory.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify Name: 
-   <g class="gr_ gr_20 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="20" id="20">
+   <code>
      socialpubsync 
-   </g>-reverse.</li> 
+   </code>-reverse.</li> 
   <li>Select the <strong>Enabled</strong> checkbox and save.</li> 
   <li> Specify the node paths that are to be replicated in <strong>Allowed roots</strong>.</li> 
   <li>Repeat<strong> </strong>for each 
-   <g class="gr_ gr_21 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="21" id="21">
+   <code>
      publish 
-   </g> instance.</li> 
+   </code> instance.</li> 
  </ol> 
  <img imageRotate="0" src="assets/queue-agents-fact.png" /> 
 </div>
@@ -194,17 +194,17 @@ If changing the membership of a group in one publisher does not update its membe
   <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Adobe Granite Distribution - Diff Observer Factory.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify <strong>agent name: 
-    <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="19" id="19">
+    <code>
       socialpubsync 
-    </g>-reverse</strong>.</li> 
+    </code>-reverse</strong>.</li> 
   <li>Select the <strong>Enabled </strong>checkbox.</li> 
   <li>Specify <strong>rep 
-    <g class="gr_ gr_25 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="25" id="25">
+    <code>
 :members 
-    </g> </strong>as 
-   <g class="gr_ gr_24 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="24" id="24">
+    </code> </strong>as 
+   <code>
      description 
-   </g> for propertyName in <strong>looked properties names</strong>, and Save.</li> 
+   </code> for propertyName in <strong>looked properties names</strong>, and Save.</li> 
  </ol> 
  <img imageRotate="0" src="assets/diff-obs.png" /> 
 </div>
@@ -225,12 +225,12 @@ The author polls publishers every 30 seconds (default). If any packages are pres
  </ol> 
  <ul> 
   <li>select the existing configuration to open for edit (pencil icon)<br /> Verify 
-   <g class="gr_ gr_13 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" data-gr-id="13" id="13">
+   <code>
      Name: 
-   </g> <strong> 
-    <g class="gr_ gr_12 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="12" id="12">
+   </code> <strong> 
+    <code>
       socialpubsync 
-    </g>-scheduled-trigger</strong></li> 
+    </code>-scheduled-trigger</strong></li> 
   <li>set the Interval in Seconds to the desired interval, and save.</li> 
  </ul> 
  <img imageRotate="0" src="assets/scheduled-trigger.png" /> 
@@ -253,27 +253,27 @@ For issues in Sling distribution where there is a discrepancy in subscriptions a
   <li>Access the <a href="/help/sites-deploying/configuring-osgi.md">Web Console.<br /> </a>For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
   <li>Locate <strong>AEM Communities User Sync Listener.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon)<br /> Verify Name: <strong> 
-    <g class="gr_ gr_37 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="37" id="37">
+    <code>
       socialpubsync 
-    </g>-scheduled-trigger</strong></li> 
+    </code>-scheduled-trigger</strong></li> 
   <li>Set the following <strong> 
-    <g class="gr_ gr_34 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="34" id="34">
+    <code>
       NodeTypes 
-    </g></strong>:<br /> rep:User<br /> 
-   <g class="gr_ gr_35 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="35" id="35">
+    </code></strong>:<br /> rep:User<br /> 
+   <code>
      nt 
-   </g>:unstructured<br /> 
-   <g class="gr_ gr_36 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="36" id="36">
+   </code>:unstructured<br /> 
+   <code>
      nt 
-   </g>:resource<br /> rep:ACL<br /> sling:Folder<br /> sling:OrderedFolder<br /> The node types specified in this property will synchronize, and the notifications info (blogs and configurations followed) are synced between different publishers.</li> 
+   </code>:resource<br /> rep:ACL<br /> sling:Folder<br /> sling:OrderedFolder<br /> The node types specified in this property will synchronize, and the notifications info (blogs and configurations followed) are synced between different publishers.</li> 
   <li>Add all the folders to synchronize in <strong>DistributedFolders</strong>. For example,<br /> segments/scoring<br /> social/relationships<br /> activities</li> 
   <li>Set the<strong> 
-    <g class="gr_ gr_33 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="33" id="33">
+    <code>
       ignorablenodes 
-    </g></strong> to:<br /> .tokens<br /> system<br /> rep 
-   <g class="gr_ gr_61 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="61" id="61">
+    </code></strong> to:<br /> .tokens<br /> system<br /> rep 
+   <code>
 :cache 
-   </g> (since we use sticky sessions, we need not sync this node to different publishers)</li> 
+   </code> (since we use sticky sessions, we need not sync this node to different publishers)</li> 
  </ol> 
  <img imageRotate="0" src="assets/user-sync-listner.png" /> 
 </div>
@@ -324,9 +324,9 @@ User synchronization can stop if `rep:cache `nodes are synced across publishers.
   <li>Policy handling 
    <ul> 
     <li>to overwrite existing rep 
-     <g class="gr_ gr_93 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="93" id="93">
+     <code>
 :policy 
-     </g> nodes with new ones, add a third Package Filter:<br /> /home/users|<strong>+</strong>.*/rep:policy</li> 
+     </code> nodes with new ones, add a third Package Filter:<br /> /home/users|<strong>+</strong>.*/rep:policy</li> 
     <li>to prevent policies from being distributed, set<br /> Acl Handling: IGNORE</li> 
    </ul> </li> 
  </ol> 

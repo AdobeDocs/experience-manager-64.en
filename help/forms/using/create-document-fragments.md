@@ -58,9 +58,9 @@ The Bill Details document fragment includes the following fields:
 
 Execute the following steps to create variables for fields with Agent UI as the data source, create static text, and use form data model elements in the document fragment:
 
-1. Select **Forms** &gt; **Document Fragments**.   
+1. Select **Forms** > **Document Fragments**.   
 
-1. Select **Create** &gt; **Text**.
+1. Select **Create** > **Text**.
 1. Specify the following information:
 
     1. Enter **bill_details_first_ic** as the name in the **Title** field. The title gets auto-populated in the **Name** field.
@@ -104,7 +104,7 @@ Execute the following steps to create variables for fields with Agent UI as the 
 
    ![](assets/bill_details_customerplan_fdm.png)
 
-1. Click **Save **to create the Bill Details text document fragment.
+1. Click **Save** to create the Bill Details text document fragment.
 
 ## Step 2: Create Customer Details text document fragment {#step-create-customer-details-text-document-fragment}
 
@@ -123,8 +123,8 @@ The Customer Details document fragment includes the following fields:
 
 Execute the following steps to create variables for fields with Agent UI as the data source, create static text, and use form data model elements in the document fragment:
 
-1. Select **Forms** &gt; **Document Fragments**. 
-1. Select **Create** &gt; **Text**.
+1. Select **Forms** > **Document Fragments**. 
+1. Select **Create** > **Text**.
 1. Specify the following information:
 
     1. Enter **customer_details_first_ic** as the name in the **Title** field. The title gets auto-populated in the **Name** field.
@@ -147,8 +147,8 @@ Execute the following steps to create variables for fields with Agent UI as the 
     * Statecode: Number type
     * Numberconnections: Number type
 
-1. Select the **Data Model Objects** tab, place the cursor in the right pane, and double-click the **customer** &gt; **name** property.
-1. Press Enter to move the cursor to the next line and double-click the **customer** &gt; **address** property.
+1. Select the **Data Model Objects** tab, place the cursor in the right pane, and double-click the **customer** > **name** property.
+1. Press Enter to move the cursor to the next line and double-click the **customer** > **address** property.
 1. Create static text for the following fields using the right pane:
 
     * Mobile Number
@@ -162,14 +162,14 @@ Execute the following steps to create variables for fields with Agent UI as the 
 
 1. Place the cursor next to the **Mobile Number** field and double-click the **customer** &gt; **mobilenum** property.
 1. Place the cursor next to the **Alternate Contact Number** field and double-click the** customer** &gt; **alternatemobilenumber** property.
-1. Place the cursor next to the **Relationship Number** field and double-click the **customer** &gt; **relationshipnumber** property.
+1. Place the cursor next to the **Relationship Number** field and double-click the **customer** > **relationshipnumber** property.
 1. Select the **Variables** tab, place the cursor next to the **Place of Supply** field and double-click the **Placesupply** variable.
 1. Place the cursor next to the **State Code** field and double-click the **Statecode** variable.
 1. Place the cursor next to the **Number of Connections** field and double-click the **Numberconnections** variable.
 
    ![](assets/customer_details_df2.png)
 
-1. Click **Save **to create the Customer Details text document fragment.
+1. Click **Save** to create the Customer Details text document fragment.
 
 ## Step 3: Create Bill Summary text document fragment {#step-create-bill-summary-text-document-fragment}
 
@@ -186,8 +186,8 @@ The Bill Summary document fragment includes the following fields:
 
 Execute the following steps to create variables for fields with Agent UI as the data source, create static text, and use form data model elements in the document fragment:
 
-1. Select **Forms** &gt; **Document Fragments**. 
-1. Select **Create** &gt; **Text**.
+1. Select **Forms** > **Document Fragments**. 
+1. Select **Create** > **Text**.
 1. Specify the following information:
 
     1. Enter **bill_summary_first_ic** as the name in the **Title** field. The title gets auto-populated in the **Name** field.
@@ -280,15 +280,15 @@ Execute the following steps to create static text and use form data model elemen
    ![](assets/summary_charges_static.png)
 
 1. Select the **Data Model Objects** tab.
-1. Place the cursor next to the **Call Charges** field and double-click the **bills** &gt; **callcharges **property.
-1. Place the cursor next to the **Conference** **Call Charges** field and double-click the **bills** &gt; **confcallcharges **property.
-1. Place the cursor next to the **SMS Charges** field and double-click the **bills** &gt; **smscharges **property.
-1. Place the cursor next to the **Mobile Internet Charges** field and double-click the **bills** &gt; **internetcharges **property.
-1. Place the cursor next to the **National Roaming Charges** field and double-click the **bills** &gt; **roamingnational **property.
-1. Place the cursor next to the **International Roaming Charges** field and double-click the **bills** &gt; **roamingintnl **property.
-1. Place the cursor next to the **Value Added Services Charges** field and double-click the **bills** &gt; **vas **property.
-1. Place the cursor next to the **Total Charges** field and double-click the **bills** &gt; **usagecharges **property.
-1. Place the cursor next to the **TOTAL PAYABLE** field and double-click the **bills** &gt; **usagecharges **property.
+1. Place the cursor next to the **Call Charges** field and double-click the **bills** &gt; **callcharges** property.
+1. Place the cursor next to the **Conference** **Call Charges** field and double-click the **bills** &gt; **confcallcharges** property.
+1. Place the cursor next to the **SMS Charges** field and double-click the **bills** &gt; **smscharges** property.
+1. Place the cursor next to the **Mobile Internet Charges** field and double-click the **bills** &gt; **internetcharges** property.
+1. Place the cursor next to the **National Roaming Charges** field and double-click the **bills** &gt; **roamingnational** property.
+1. Place the cursor next to the **International Roaming Charges** field and double-click the **bills** &gt; **roamingintnl** property.
+1. Place the cursor next to the **Value Added Services Charges** field and double-click the **bills** &gt; **vas** property.
+1. Place the cursor next to the **Total Charges** field and double-click the **bills** &gt; **usagecharges** property.
+1. Place the cursor next to the **TOTAL PAYABLE** field and double-click the **bills** &gt; **usagecharges** property.
 
    ![](assets/summary_charges_static_fdm.png)
 
@@ -304,5 +304,5 @@ Execute the following steps to create static text and use form data model elemen
 
    ![](assets/create_rules_caption.gif)
 
-1. Click **Save **to create the Summary of charges text document fragment.
+1. Click **Save** to create the Summary of charges text document fragment.
 
