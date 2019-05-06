@@ -422,4 +422,4 @@ user-guide-title: AEM 6.4 Forms User Guide
     + [15](/help/forms/using/apply-rules-to-adaptive-form-fields.md)
     + [16](/help/forms/using/integration-adobe-sign-handling-user-data.md)
     + [17](/help/forms/using/document-security-handling-user-data.md)
-    
+    + [18](/help/forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md)
