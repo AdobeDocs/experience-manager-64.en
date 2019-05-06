@@ -113,6 +113,14 @@ The properties are distributed across several tabs.
 
   Specify an alias to be used with this page.
 
+  >[!NOTE]
+  >
+  > Alias sets the `sling:alias` property to define an alias name for the resource (this only impacts the resource, not the path).
+  >
+  >For example: if you define an alias of `latin-lang` for the node `/content/we-retail/spanish` node, then this page can be accessed via `/content/we-retail/latin-language`
+  >
+  >For further details see [Localized page names under SEO and URL Management Best Practices](/help/managing/seo-and-url-management.md)
+
 * **Allowed Templates**
 
   [Define the list of templates that will be available](/help/sites-authoring/templates.md#enabling-and-allowing-a-template-template-author) within this sub-branch.
