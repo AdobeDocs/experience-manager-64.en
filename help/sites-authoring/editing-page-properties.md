@@ -119,7 +119,7 @@ The properties are distributed across several tabs.
   >
   >For example: if you define an alias of `latin-lang` for the node `/content/we-retail/spanish` node, then this page can be accessed via `/content/we-retail/latin-language`
   >
-  >For further details see [Localized page names under SEO and URL Management Best Practices](/help/managing/seo-and-url-management.md)
+  >For further details see [Localized page names under SEO and URL Management Best Practices](/help/managing/seo-and-url-management.md#localized-page-names)
 
 * **Allowed Templates**
 
