@@ -468,7 +468,7 @@ The tabs provide access to various configurations:
   </tr> 
   <tr> 
    <td>Impersonators</td> 
-   <td>Lets another user impersonate the account. Useful when you need a user to act on behalf of another user. See <a href="#impersonating-another-user">Imperso</a><a name="Impersonating Users"></a>nating Users.</td> 
+   <td>Lets another user impersonate the account. Useful when you need a user to act on behalf of another user. See <a href="#impersonating-another-user">Impersonating Users</a>.</td> 
   </tr> 
   <tr> 
    <td>Preferences</td> 

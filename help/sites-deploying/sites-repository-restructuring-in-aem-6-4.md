@@ -353,7 +353,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
    <td><p>For any Designs that are managed in SCM, and not written to at run-time via Design Dialogs.</p> 
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location (<code>/apps</code>).</li> 
-     <li>Convert any CSS, JavaScript and static resources in the Design to a <a class="external-link" data-ext-link-init="true" target="_blank"></a><a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
+     <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the <code>cq:designPath</code> property via <strong>AEM &gt; Sites &gt; Custom Site Pages &gt; Page Properties &gt; Advanced Tab &gt; Design Field</strong>.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the <code>/etc.clientlibs/</code> proxy servlet.</li> 
