@@ -63,8 +63,8 @@ A container is the top- `` level component. Other panels and fields lie under th
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>guideContainerNode</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>guideContainerNode</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,24 +72,24 @@ A container is the top- `` level component. Other panels and fields lie under th
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="195"><p><strong>Variables Description</strong></p> </td> 
-   <td valign="top" width="126"><p><strong>Variables Description</strong></p> </td> 
+   <td><p><strong>Variables Description</strong></p> </td> 
+   <td><p><strong>Variables Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="195"><p><code>container-bgColor</code></p> </td> 
-   <td valign="top" width="126"><p>Background color of the container</p> </td> 
+   <td><p><code>container-bgColor</code></p> </td> 
+   <td><p>Background color of the container</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="195"><p><code>container-padding</code></p> </td> 
-   <td valign="top" width="126"><p>Padding for the container</p> </td> 
+   <td><p><code>container-padding</code></p> </td> 
+   <td><p>Padding for the container</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="195"><p><code>container-margin</code></p> </td> 
-   <td valign="top" width="126"><p>Margin for the container</p> </td> 
+   <td><p><code>container-margin</code></p> </td> 
+   <td><p>Margin for the container</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="195"><p><code>container-fontColor</code></p> </td> 
-   <td valign="top" width="126"><p>Font color for the container</p> </td> 
+   <td><p><code>container-fontColor</code></p> </td> 
+   <td><p>Font color for the container</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,8 +103,8 @@ Fields include labels, widgets, Help description (both Long and Short descriptio
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>guideFieldNode</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>guideFieldNode</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -112,20 +112,20 @@ Fields include labels, widgets, Help description (both Long and Short descriptio
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>field-padding</code><strong></strong></p> </td> 
-   <td valign="top" width="308"><p>Padding for the field</p> </td> 
+   <td><p><code>field-padding</code><strong></strong></p> </td> 
+   <td><p>Padding for the field</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>field-error-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color of the error message of field</p> </td> 
+   <td><p><code>field-error-font-color</code></p> </td> 
+   <td><p>Font color of the error message of field</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>field-error-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Font size of the error message of field</p> </td> 
+   <td><p><code>field-error-font-size</code></p> </td> 
+   <td><p>Font size of the error message of field</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,8 +137,8 @@ The HTML element **label** used for the field includes the classes **left** or *
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>guideFieldLabel</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>guideFieldLabel</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -146,28 +146,28 @@ The HTML element **label** used for the field includes the classes **left** or *
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>label-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for the field label</p> </td> 
+   <td><p><code>label-font-color</code></p> </td> 
+   <td><p>Font color for the field label</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>label-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Font size for the field label</p> </td> 
+   <td><p><code>label-font-size</code></p> </td> 
+   <td><p>Font size for the field label</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>label-line-height</code></p> </td> 
-   <td valign="top" width="308">CSS line height property for the field label </td> 
+   <td><p><code>label-line-height</code></p> </td> 
+   <td>CSS line height property for the field label </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>label-font-weight</code></p> </td> 
-   <td valign="top" width="308">CSS font weight property for the field label </td> 
+   <td><p><code>label-font-weight</code></p> </td> 
+   <td>CSS font weight property for the field label </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>label-margin</code></p> </td> 
-   <td valign="top" width="308"><p>Margin for the field label</p> </td> 
+   <td><p><code>label-margin</code></p> </td> 
+   <td><p>Margin for the field label</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -181,8 +181,8 @@ Depending on their type, widgets also include classes. Commonly, widgets include
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>guideFieldWidget</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>guideFieldWidget</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -190,88 +190,88 @@ Depending on their type, widgets also include classes. Commonly, widgets include
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables <span class="code"></span></strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables <span class="code"></span></strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-bg-color</code></p> </td> 
-   <td valign="top" width="308">Background color for the widgets (Doesn't work for check box and radio button)</td> 
+   <td><p><code>widgets-bg-color</code></p> </td> 
+   <td>Background color for the widgets (Doesn't work for check box and radio button)</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border color for the widgets</p> </td> 
+   <td><p><code>widgets-border-color</code></p> </td> 
+   <td><p>Border color for the widgets</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-border-thickness</code></p> </td> 
-   <td valign="top" width="308"><p>Border size for the widgets</p> </td> 
+   <td><p><code>widgets-border-thickness</code></p> </td> 
+   <td><p>Border size for the widgets</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-border-radius</code></p> </td> 
-   <td valign="top" width="308"><p>Border radius for the widgets</p> </td> 
+   <td><p><code>widgets-border-radius</code></p> </td> 
+   <td><p>Border radius for the widgets</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-border-type</code></p> </td> 
-   <td valign="top" width="308"><p>Border type for the widgets</p> </td> 
+   <td><p><code>widgets-border-type</code></p> </td> 
+   <td><p>Border type for the widgets</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widget-border-focus-type</code></p> </td> 
-   <td valign="top" width="308"><p>Focus type for widget borders</p> </td> 
+   <td><p><code>widget-border-focus-type</code></p> </td> 
+   <td><p>Focus type for widget borders</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-border</code></p> </td> 
-   <td valign="top" width="308"><p>Consolidated border style of widgets</p> </td> 
+   <td><p><code>widgets-border</code></p> </td> 
+   <td><p>Consolidated border style of widgets</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Color of the text inside the widget</p> </td> 
+   <td><p><code>widgets-font-color</code></p> </td> 
+   <td><p>Color of the text inside the widget</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Size of the text inside the widget</p> </td> 
+   <td><p><code>widgets-font-size</code></p> </td> 
+   <td><p>Size of the text inside the widget</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-line-height</code></p> </td> 
-   <td valign="top" width="308">CSS lineheight property for the widget </td> 
+   <td><p><code>widgets-line-height</code></p> </td> 
+   <td>CSS lineheight property for the widget </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-padding</code></p> </td> 
-   <td valign="top" width="308"><p>CSS padding property for the widget</p> </td> 
+   <td><p><code>widgets-padding</code></p> </td> 
+   <td><p>CSS padding property for the widget</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-focus-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border color when the widget is in focus</p> </td> 
+   <td><p><code>widgets-focus-border-color</code></p> </td> 
+   <td><p>Border color when the widget is in focus</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-mandatory-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border color of the widget for the mandatory fields</p> </td> 
+   <td><p><code>widgets-mandatory-border-color</code></p> </td> 
+   <td><p>Border color of the widget for the mandatory fields</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-mandatory-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color of the widget for the mandatory fields</p> </td> 
+   <td><p><code>widgets-mandatory-bg-color</code></p> </td> 
+   <td><p>Background color of the widget for the mandatory fields</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-disabled-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the widget when the field is disabled</p> </td> 
+   <td><p><code>widgets-disabled-bg-color</code></p> </td> 
+   <td><p>Background color for the widget when the field is disabled</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-disabled-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for the widget when the field is disabled</p> </td> 
+   <td><p><code>widgets-disabled-font-color</code></p> </td> 
+   <td><p>Font color for the widget when the field is disabled</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-disabled-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border Color for the widget when the field is disabled</p> </td> 
+   <td><p><code>widgets-disabled-border-color</code></p> </td> 
+   <td><p>Border Color for the widget when the field is disabled</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widget-height</code></p> </td> 
-   <td valign="top" width="308">Height of the widget (Doesn't work for checkbox and radio button)</td> 
+   <td><p><code>widget-height</code></p> </td> 
+   <td>Height of the widget (Doesn't work for checkbox and radio button)</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>checkbutton-height</code></p> </td> 
-   <td valign="top" width="308"><p>Height for check box and radio button.</p> </td> 
+   <td><p><code>checkbutton-height</code></p> </td> 
+   <td><p>Height for check box and radio button.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>listboxwidget-height</code></p> </td> 
-   <td valign="top" width="308"><p>Maximum height for a multi-select dropdown</p> </td> 
+   <td><p><code>listboxwidget-height</code></p> </td> 
+   <td><p>Maximum height for a multi-select dropdown</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -287,36 +287,36 @@ An author can specify the Help content in the fields using Short and Long descri
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-help-long-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color of the widgets' long Help</p> </td> 
+   <td><p><code>widgets-help-long-bg-color</code></p> </td> 
+   <td><p>Background color of the widgets' long Help</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-help-long-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border color of the widgets' long Help</p> </td> 
+   <td><p><code>widgets-help-long-border-color</code></p> </td> 
+   <td><p>Border color of the widgets' long Help</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-help-long-border-indicator-color</code></p> </td> 
-   <td valign="top" width="308"><p>Left indicator border color of the widgets' long Help</p> </td> 
+   <td><p><code>widgets-help-long-border-indicator-color</code></p> </td> 
+   <td><p>Left indicator border color of the widgets' long Help</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-help-short-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color of the widgets' short Help</p> </td> 
+   <td><p><code>widgets-help-short-bg-color</code></p> </td> 
+   <td><p>Background color of the widgets' short Help</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-help-short-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color of the widgets' short Help</p> </td> 
+   <td><p><code>widgets-help-short-color</code></p> </td> 
+   <td><p>Font color of the widgets' short Help</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-help-short-tooltip-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color of the widgets' short tool tip Help</p> </td> 
+   <td><p><code>widgets-help-short-tooltip-bg-color</code></p> </td> 
+   <td><p>Background color of the widgets' short tool tip Help</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>widgets-help-short-tooltip-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color of the widgets' short tool tip Help</p> </td> 
+   <td><p><code>widgets-help-short-tooltip-color</code></p> </td> 
+   <td><p>Font color of the widgets' short tool tip Help</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -328,16 +328,16 @@ The Terms and Conditions (TnC `` ``) widget lets you specify terms and condition
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><code>tnc-unvisited</code></td> 
-   <td valign="top" width="308">Font color of unvisited tnc link.</td> 
+   <td><code>tnc-unvisited</code></td> 
+   <td>Font color of unvisited tnc link.</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><code>tnc-visited</code></td> 
-   <td valign="top" width="308">Font color of visited tnc link.</td> 
+   <td><code>tnc-visited</code></td> 
+   <td>Font color of visited tnc link.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,16 +367,16 @@ HTML code for button:
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>CSS Class</strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>CSS Class</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>iconButton-icon</code></p> </td> 
-   <td valign="top" width="308"><p>Provides icons for button</p> </td> 
+   <td><p><code>iconButton-icon</code></p> </td> 
+   <td><p>Provides icons for button</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>iconButton-label</code></p> </td> 
-   <td valign="top" width="308"><p>Styles button label/caption</p> </td> 
+   <td><p><code>iconButton-label</code></p> </td> 
+   <td><p>Styles button label/caption</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -384,88 +384,88 @@ HTML code for button:
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables <span class="code"></span></strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables <span class="code"></span></strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-border-size</code></p> </td> 
-   <td valign="top" width="308"><p>Border size for the buttons</p> </td> 
+   <td><p><code>button-border-size</code></p> </td> 
+   <td><p>Border size for the buttons</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-border-type</code></p> </td> 
-   <td valign="top" width="308"><p>Border type</p> </td> 
+   <td><p><code>button-border-type</code></p> </td> 
+   <td><p>Border type</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-padding</code></p> </td> 
-   <td valign="top" width="308"><p>CSS padding property for the button</p> </td> 
+   <td><p><code>button-padding</code></p> </td> 
+   <td><p>CSS padding property for the button</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Font size for the button</p> </td> 
+   <td><p><code>button-font-size</code></p> </td> 
+   <td><p>Font size for the button</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-background-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the button</p> </td> 
+   <td><p><code>button-background-color</code></p> </td> 
+   <td><p>Background color for the button</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color of the button</p> </td> 
+   <td><p><code>button-font-color</code></p> </td> 
+   <td><p>Font color of the button</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border color of the button</p> </td> 
+   <td><p><code>button-border-color</code></p> </td> 
+   <td><p>Border color of the button</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-large-padding</code></p> </td> 
-   <td valign="top" width="308"><p>Padding for the large buttons (buttons with class .buttonlarge)</p> </td> 
+   <td><p><code>button-large-padding</code></p> </td> 
+   <td><p>Padding for the large buttons (buttons with class .buttonlarge)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-large-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Font size for large buttons</p> </td> 
+   <td><p><code>button-large-font-size</code></p> </td> 
+   <td><p>Font size for large buttons</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-small-padding</code></p> </td> 
-   <td valign="top" width="308"><p>Padding for the small buttons (buttons with class .buttonsmall)</p> </td> 
+   <td><p><code>button-small-padding</code></p> </td> 
+   <td><p>Padding for the small buttons (buttons with class .buttonsmall)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-small-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Font size for small buttons</p> </td> 
+   <td><p><code>button-small-font-size</code></p> </td> 
+   <td><p>Font size for small buttons</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-info-background-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for informative buttons (buttons with class .buttoninformative)</p> </td> 
+   <td><p><code>button-info-background-color</code></p> </td> 
+   <td><p>Background color for informative buttons (buttons with class .buttoninformative)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-info-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for informative buttons</p> </td> 
+   <td><p><code>button-info-font-color</code></p> </td> 
+   <td><p>Font color for informative buttons</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-info-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border color for informative buttons</p> </td> 
+   <td><p><code>button-info-border-color</code></p> </td> 
+   <td><p>Border color for informative buttons</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-warning-background-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for warning styled buttons (buttons with class .buttonwarning)</p> </td> 
+   <td><p><code>button-warning-background-color</code></p> </td> 
+   <td><p>Background color for warning styled buttons (buttons with class .buttonwarning)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-warning-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for warning styled buttons</p> </td> 
+   <td><p><code>button-warning-font-color</code></p> </td> 
+   <td><p>Font color for warning styled buttons</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-warning-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border color for warning styled buttons</p> </td> 
+   <td><p><code>button-warning-border-color</code></p> </td> 
+   <td><p>Border color for warning styled buttons</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-alert-background-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for alert buttons (buttons with class .buttonalert)</p> </td> 
+   <td><p><code>button-alert-background-color</code></p> </td> 
+   <td><p>Background color for alert buttons (buttons with class .buttonalert)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-alert-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for alert buttons</p> </td> 
+   <td><p><code>button-alert-font-color</code></p> </td> 
+   <td><p>Font color for alert buttons</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>button-alert-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border color for alert buttons</p> </td> 
+   <td><p><code>button-alert-border-color</code></p> </td> 
+   <td><p>Border color for alert buttons</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -477,8 +477,8 @@ For the widgets, a questionMark is displayed when an author adds a long descript
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>guideHelpQuestionMark</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>guideHelpQuestionMark</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -486,16 +486,16 @@ For the widgets, a questionMark is displayed when an author adds a long descript
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>questionmark-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Color of the icon</p> </td> 
+   <td><p><code>questionmark-font-color</code></p> </td> 
+   <td><p>Color of the icon</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>questionmark-hover-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Color of the icon when mouse is hovered over it</p> </td> 
+   <td><p><code>questionmark-hover-font-color</code></p> </td> 
+   <td><p>Color of the icon when mouse is hovered over it</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -507,20 +507,20 @@ You can change the color theme for header and body rows in a table by using the 
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>table-header-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the header row. The default value is <code>#333</code>.<br /> </p> </td> 
+   <td><p><code>table-header-bg-color</code></p> </td> 
+   <td><p>Background color for the header row. The default value is <code>#333</code>.<br /> </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>table-odd-row-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the odd body row. The default value is <code>rgb(255, 255, 255)</code>.</p> </td> 
+   <td><p><code>table-odd-row-bg-color</code></p> </td> 
+   <td><p>Background color for the odd body row. The default value is <code>rgb(255, 255, 255)</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>table-even-row-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the even body row. The default value is <code>#eee</code>.</p> </td> 
+   <td><p><code>table-even-row-bg-color</code></p> </td> 
+   <td><p>Background color for the even body row. The default value is <code>#eee</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -532,32 +532,32 @@ The File Attachment widget of adaptive forms lets you upload files. You can also
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>fileItemPadding</code></p> </td> 
-   <td valign="top" width="308"><p>Padding for the files displayed in the widget</p> </td> 
+   <td><p><code>fileItemPadding</code></p> </td> 
+   <td><p>Padding for the files displayed in the widget</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>fileItemBackground</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the file item</p> </td> 
+   <td><p><code>fileItemBackground</code></p> </td> 
+   <td><p>Background color for the file item</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>fileItemBorderColor</code></p> </td> 
-   <td valign="top" width="308"><p>Border color for the top border</p> </td> 
+   <td><p><code>fileItemBorderColor</code></p> </td> 
+   <td><p>Border color for the top border</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>fileItemColor</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for the file item</p> </td> 
+   <td><p><code>fileItemColor</code></p> </td> 
+   <td><p>Font color for the file item</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>filePreviewIconColor</code></p> </td> 
-   <td valign="top" width="308"><p>Color for the Preview icon (Bootstrap icon) in the widget</p> </td> 
+   <td><p><code>filePreviewIconColor</code></p> </td> 
+   <td><p>Color for the Preview icon (Bootstrap icon) in the widget</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>fileItemCommentHeight</code></p> </td> 
-   <td valign="top" width="308"><p>Height of comment for the file item</p> </td> 
+   <td><p><code>fileItemCommentHeight</code></p> </td> 
+   <td><p>Height of comment for the file item</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -569,24 +569,24 @@ There are four types of navigator tabs. These include tabs on the left, top, in 
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Naviagator</strong></p> </td> 
-   <td valign="top" width="308"><p><strong>CSS class</strong></p> </td> 
+   <td><p><strong>Naviagator</strong></p> </td> 
+   <td><p><strong>CSS class</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>Accordion</code></p> </td> 
-   <td valign="top" width="308"><p>.accordion-navigators</p> </td> 
+   <td><p><code>Accordion</code></p> </td> 
+   <td><p>.accordion-navigators</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs on the left</code></p> </td> 
-   <td valign="top" width="308"><p>.tab-navigators-vertical</p> </td> 
+   <td><p><code>tabs on the left</code></p> </td> 
+   <td><p>.tab-navigators-vertical</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs on the top</code></p> </td> 
-   <td valign="top" width="308"><p>.tab-navigators</p> </td> 
+   <td><p><code>tabs on the top</code></p> </td> 
+   <td><p>.tab-navigators</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>Wizard</code></p> </td> 
-   <td valign="top" width="308"><p>.wizard-navigators</p> </td> 
+   <td><p><code>Wizard</code></p> </td> 
+   <td><p>.wizard-navigators</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -686,16 +686,16 @@ Additionally, there are classes to style tab navigators (both left and top) base
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>CSS Class</strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>CSS Class</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>nested_true</code></p> </td> 
-   <td valign="top" width="308"><p>Tab navigators (left and top) that have nested/child/sub navigators</p> </td> 
+   <td><p><code>nested_true</code></p> </td> 
+   <td><p>Tab navigators (left and top) that have nested/child/sub navigators</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>nested_false</code></p> </td> 
-   <td valign="top" width="308"><p>Tab navigators (left and top) that don't have nested/child/sub navigators</p> </td> 
+   <td><p><code>nested_false</code></p> </td> 
+   <td><p>Tab navigators (left and top) that don't have nested/child/sub navigators</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -705,8 +705,8 @@ The guideNavIcon class provides a default icon to tab navigators (both left and 
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>guideNavIcon</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>guideNavIcon</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -718,164 +718,164 @@ The guideNavIcon class provides a default icon to tab navigators (both left and 
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Tab Navigators</strong></p> </td> 
-   <td valign="top" width="308"><p> </p> </td> 
+   <td><p><strong>Tab Navigators</strong></p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>navigator-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the entire tab navigator</p> </td> 
+   <td><p><code>navigator-bg-color</code></p> </td> 
+   <td><p>Background color for the entire tab navigator</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the tab</p> </td> 
+   <td><p><code>tabs-bg-color</code></p> </td> 
+   <td><p>Background color for the tab</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for the tab</p> </td> 
+   <td><p><code>tabs-font-color</code></p> </td> 
+   <td><p>Font color for the tab</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-hover-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the tab on hover</p> </td> 
+   <td><p><code>tabs-hover-bg-color</code></p> </td> 
+   <td><p>Background color for the tab on hover</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-hover-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for the tab on hover</p> </td> 
+   <td><p><code>tabs-hover-font-color</code></p> </td> 
+   <td><p>Font color for the tab on hover</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-active-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color when the panel is in focus (active)</p> </td> 
+   <td><p><code>tabs-active-bg-color</code></p> </td> 
+   <td><p>Background color when the panel is in focus (active)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-active-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color when the panel is in focus</p> </td> 
+   <td><p><code>tabs-active-font-color</code></p> </td> 
+   <td><p>Font color when the panel is in focus</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-completed-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color when the completion expression of the panel returns true</p> </td> 
+   <td><p><code>tabs-completed-bg-color</code></p> </td> 
+   <td><p>Background color when the completion expression of the panel returns true</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-completed-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color when the completion expression of the panel returns true</p> </td> 
+   <td><p><code>tabs-completed-font-color</code></p> </td> 
+   <td><p>Font color when the completion expression of the panel returns true</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-stepped-bg-color</code></p> </td> 
-   <td valign="top" width="308">Background color when the panel has been in focus once but the completion expression returns false </td> 
+   <td><p><code>tabs-stepped-bg-color</code></p> </td> 
+   <td>Background color when the panel has been in focus once but the completion expression returns false </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-stepped-font-color</code></p> </td> 
-   <td valign="top" width="308">Font color when the panel has been in focus once but the completion expression returns false </td> 
+   <td><p><code>tabs-stepped-font-color</code></p> </td> 
+   <td>Font color when the panel has been in focus once but the completion expression returns false </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Border color for the tab</p> </td> 
+   <td><p><code>tabs-border-color</code></p> </td> 
+   <td><p>Border color for the tab</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Font size for the tab</p> </td> 
+   <td><p><code>tabs-font-size</code></p> </td> 
+   <td><p>Font size for the tab</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-padding</code></p> </td> 
-   <td valign="top" width="308"><p>Padding for the tab</p> </td> 
+   <td><p><code>tabs-padding</code></p> </td> 
+   <td><p>Padding for the tab</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-margin</code></p> </td> 
-   <td valign="top" width="308"><p>Margin for the tab</p> </td> 
+   <td><p><code>tabs-margin</code></p> </td> 
+   <td><p>Margin for the tab</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-vertical-margin</code></p> </td> 
-   <td valign="top" width="308"><p>Margin for the vertical tabs</p> </td> 
+   <td><p><code>tabs-vertical-margin</code></p> </td> 
+   <td><p>Margin for the vertical tabs</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-border-thickness</code></p> </td> 
-   <td valign="top" width="308"><p>Border size for the tabs</p> </td> 
+   <td><p><code>tabs-border-thickness</code></p> </td> 
+   <td><p>Border size for the tabs</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>tabs-min-height</code></p> </td> 
-   <td valign="top" width="308"><p>Minimum height of the tabs</p> </td> 
+   <td><p><code>tabs-min-height</code></p> </td> 
+   <td><p>Minimum height of the tabs</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>heirarichal-indent</code></p> </td> 
-   <td valign="top" width="308"><p>Indentation for the nested tabs</p> </td> 
+   <td><p><code>heirarichal-indent</code></p> </td> 
+   <td><p>Indentation for the nested tabs</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Wizard Navigators</strong></p> </td> 
-   <td valign="top" width="308"><p> </p> </td> 
+   <td><p><strong>Wizard Navigators</strong></p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-navigator-bg-color</code></p> </td> 
-   <td valign="top" width="308">Background color for entire wizard navigator</td> 
+   <td><p><code>wizard-navigator-bg-color</code></p> </td> 
+   <td>Background color for entire wizard navigator</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background Color for the wizard</p> </td> 
+   <td><p><code>wizard-tabs-bg-color</code></p> </td> 
+   <td><p>Background Color for the wizard</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for the wizard</p> </td> 
+   <td><p><code>wizard-tabs-font-color</code></p> </td> 
+   <td><p>Font color for the wizard</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-active-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color when the panel is in focus (active)</p> </td> 
+   <td><p><code>wizard-tabs-active-bg-color</code></p> </td> 
+   <td><p>Background color when the panel is in focus (active)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-active-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color when the panel is in focus (focused)</p> </td> 
+   <td><p><code>wizard-tabs-active-font-color</code></p> </td> 
+   <td><p>Font color when the panel is in focus (focused)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-completed-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color when the completion expression of the panel returns true</p> </td> 
+   <td><p><code>wizard-tabs-completed-bg-color</code></p> </td> 
+   <td><p>Background color when the completion expression of the panel returns true</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-completed-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color when the completion expression of the panel returns true</p> </td> 
+   <td><p><code>wizard-tabs-completed-font-color</code></p> </td> 
+   <td><p>Font color when the completion expression of the panel returns true</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-stepped-bg-color</code></p> </td> 
-   <td valign="top" width="308">Background color when the panel has been in focus once but completion expression returns false</td> 
+   <td><p><code>wizard-tabs-stepped-bg-color</code></p> </td> 
+   <td>Background color when the panel has been in focus once but completion expression returns false</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-stepped-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color when the panel has been focused once but completion expression returns false</p> </td> 
+   <td><p><code>wizard-tabs-stepped-font-color</code></p> </td> 
+   <td><p>Font color when the panel has been focused once but completion expression returns false</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-border-color</code></p> </td> 
-   <td valign="top" width="308"><p>Color for the wizard</p> </td> 
+   <td><p><code>wizard-tabs-border-color</code></p> </td> 
+   <td><p>Color for the wizard</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Font size for the wizard</p> </td> 
+   <td><p><code>wizard-tabs-font-size</code></p> </td> 
+   <td><p>Font size for the wizard</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-padding</code></p> </td> 
-   <td valign="top" width="308"><p>Padding for the wizard</p> </td> 
+   <td><p><code>wizard-tabs-padding</code></p> </td> 
+   <td><p>Padding for the wizard</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-tabs-border-thickness</code></p> </td> 
-   <td valign="top" width="308"><p>Border size for the wizard</p> </td> 
+   <td><p><code>wizard-tabs-border-thickness</code></p> </td> 
+   <td><p>Border size for the wizard</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-nav-bullet-border</code></p> </td> 
-   <td valign="top" width="308"><p>Border color of the wizard navigator bullet (prefixing the caption/label)</p> </td> 
+   <td><p><code>wizard-nav-bullet-border</code></p> </td> 
+   <td><p>Border color of the wizard navigator bullet (prefixing the caption/label)</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-progress-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color of the wizard navigator progress bar</p> </td> 
+   <td><p><code>wizard-progress-bg-color</code></p> </td> 
+   <td><p>Background color of the wizard navigator progress bar</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>wizard-progress-color</code></p> </td> 
-   <td valign="top" width="308"><p>Fill color for the progress bar</p> </td> 
+   <td><p><code>wizard-progress-color</code></p> </td> 
+   <td><p>Fill color for the progress bar</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Accordion Navigators</strong></p> </td> 
-   <td valign="top" width="308"><p> </p> </td> 
+   <td><p><strong>Accordion Navigators</strong></p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>accordion-tabs-padding</code></p> </td> 
-   <td valign="top" width="308"><p>Padding for accordion</p> </td> 
+   <td><p><code>accordion-tabs-padding</code></p> </td> 
+   <td><p>Padding for accordion</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -887,8 +887,8 @@ A Panel includes an optional toolbar and its content.
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>guidePanelNode</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>guidePanelNode</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -896,40 +896,40 @@ A Panel includes an optional toolbar and its content.
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>panel-background-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the panel</p> </td> 
+   <td><p><code>panel-background-color</code></p> </td> 
+   <td><p>Background color for the panel</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>panel-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Font size for the panel text</p> </td> 
+   <td><p><code>panel-font-size</code></p> </td> 
+   <td><p>Font size for the panel text</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>panel-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for the panel text<br /> </p> </td> 
+   <td><p><code>panel-font-color</code></p> </td> 
+   <td><p>Font color for the panel text<br /> </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>panel-padding</code></p> </td> 
-   <td valign="top" width="308"><p>Padding inside the panel</p> </td> 
+   <td><p><code>panel-padding</code></p> </td> 
+   <td><p>Padding inside the panel</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>panel-description-font-size</code></p> </td> 
-   <td valign="top" width="308"><p>Font size of panel's description</p> </td> 
+   <td><p><code>panel-description-font-size</code></p> </td> 
+   <td><p>Font size of panel's description</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>panel-description-padding</code></p> </td> 
-   <td valign="top" width="308"><p>Padding of panel's description</p> </td> 
+   <td><p><code>panel-description-padding</code></p> </td> 
+   <td><p>Padding of panel's description</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>panel-help-bg-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the panel's help</p> </td> 
+   <td><p><code>panel-help-bg-color</code></p> </td> 
+   <td><p>Background color for the panel's help</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>panel-help-border-indicator-color</code></p> </td> 
-   <td valign="top" width="308"><p>Indicator border color for the panel's help</p> </td> 
+   <td><p><code>panel-help-border-indicator-color</code></p> </td> 
+   <td><p>Indicator border color for the panel's help</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -947,8 +947,8 @@ These variables influence the header bar that is visible on a mobile device or s
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>guide-header-bar</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>guide-header-bar</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -956,20 +956,20 @@ These variables influence the header bar that is visible on a mobile device or s
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>headerbar-background-color</code></p> </td> 
-   <td valign="top" width="308"><p>Background color for the header bar</p> </td> 
+   <td><p><code>headerbar-background-color</code></p> </td> 
+   <td><p>Background color for the header bar</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>headerbar-font-color</code></p> </td> 
-   <td valign="top" width="308"><p>Font color for the text inside header bar</p> </td> 
+   <td><p><code>headerbar-font-color</code></p> </td> 
+   <td><p>Font color for the text inside header bar</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>headerbar-padding</code></p> </td> 
-   <td valign="top" width="308"><p>Padding for header bar</p> </td> 
+   <td><p><code>headerbar-padding</code></p> </td> 
+   <td><p>Padding for header bar</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -981,8 +981,8 @@ These variables influence the Scroll indicator, which is an orange arrow that ap
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>mobileScrollIndicator</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>mobileScrollIndicator</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -990,24 +990,24 @@ These variables influence the Scroll indicator, which is an orange arrow that ap
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>scrollIndicatorBottom</code></p> </td> 
-   <td valign="top" width="308"><p>Fixed position of scrollindicator from bottom</p> </td> 
+   <td><p><code>scrollIndicatorBottom</code></p> </td> 
+   <td><p>Fixed position of scrollindicator from bottom</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>scrollIndicatorRight</code></p> </td> 
-   <td valign="top" width="308"><p>Fixed position of scrollindicator from right</p> </td> 
+   <td><p><code>scrollIndicatorRight</code></p> </td> 
+   <td><p>Fixed position of scrollindicator from right</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>scrollIndicatorWidth</code></p> </td> 
-   <td valign="top" width="308"><p>Width of scrollindicator</p> </td> 
+   <td><p><code>scrollIndicatorWidth</code></p> </td> 
+   <td><p>Width of scrollindicator</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>scrollIndicatorHeight</code></p> </td> 
-   <td valign="top" width="308"><p>Height of scrollindicator</p> </td> 
+   <td><p><code>scrollIndicatorHeight</code></p> </td> 
+   <td><p>Height of scrollindicator</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1019,8 +1019,8 @@ These variables in the following table influence the mobile fixed toolbar layout
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="121"><p><strong>CSS class </strong></p> </td> 
-   <td valign="top" width="151"><p><code>mobileToolbar</code></p> </td> 
+   <td><p><strong>CSS class </strong></p> </td> 
+   <td><p><code>mobileToolbar</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1028,40 +1028,40 @@ These variables in the following table influence the mobile fixed toolbar layout
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Variables </strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>mobileToolbarBottom</code></p> </td> 
-   <td valign="top" width="308"><p>Fixed position of toolbar, on mobile device, from bottom</p> </td> 
+   <td><p><code>mobileToolbarBottom</code></p> </td> 
+   <td><p>Fixed position of toolbar, on mobile device, from bottom</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>mobileToolbarTop</code></p> </td> 
-   <td valign="top" width="308"><p>Fixed position of toolbar, on mobile device, from top</p> </td> 
+   <td><p><code>mobileToolbarTop</code></p> </td> 
+   <td><p>Fixed position of toolbar, on mobile device, from top</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>mobileToolbarLeft</code></p> </td> 
-   <td valign="top" width="308"><p>Fixed position of toolbar, on mobile device, from left</p> </td> 
+   <td><p><code>mobileToolbarLeft</code></p> </td> 
+   <td><p>Fixed position of toolbar, on mobile device, from left</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>mobileToolbarRight</code></p> </td> 
-   <td valign="top" width="308"><p>Fixed position of toolbar, on mobile device, from right</p> </td> 
+   <td><p><code>mobileToolbarRight</code></p> </td> 
+   <td><p>Fixed position of toolbar, on mobile device, from right</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>mobileButtonIconTopMargin</code></p> </td> 
-   <td valign="top" width="308"><p>Fixed position of toolbar's buttons' icon, from top</p> </td> 
+   <td><p><code>mobileButtonIconTopMargin</code></p> </td> 
+   <td><p>Fixed position of toolbar's buttons' icon, from top</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>mobileButtonIconWidth</code></p> </td> 
-   <td valign="top" width="308"><p>Width of toolbar's buttons' icon on mobile device</p> </td> 
+   <td><p><code>mobileButtonIconWidth</code></p> </td> 
+   <td><p>Width of toolbar's buttons' icon on mobile device</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>mobileButtonIconHeight</code></p> </td> 
-   <td valign="top" width="308"><p>Height of toolbar's buttons' icon on mobile device</p> </td> 
+   <td><p><code>mobileButtonIconHeight</code></p> </td> 
+   <td><p>Height of toolbar's buttons' icon on mobile device</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="308"><p><code>mobilefixedtoolbarbgcolor</code></p> </td> 
-   <td valign="top" width="308"><p>Background color of toolbar on mobile device</p> </td> 
+   <td><p><code>mobilefixedtoolbarbgcolor</code></p> </td> 
+   <td><p>Background color of toolbar on mobile device</p> </td> 
   </tr> 
  </tbody> 
 </table>

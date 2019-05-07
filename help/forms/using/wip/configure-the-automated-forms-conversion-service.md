@@ -75,11 +75,11 @@ Create a cloud service configuration to connect your AEM Instance to the convers
    <td>Location of the thumbnail for the configuration. </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="96"><p>Service URL</p> </td> 
+   <td><p>Service URL</p> </td> 
    <td>Specify the <a href="https://flmorch-va7.cloud.adobe.io/">https://flmorch-va7.cloud.adobe.io</a> URL in the service URL field. </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="96"><p>Template</p> </td> 
+   <td><p>Template</p> </td> 
    <td>Specify the default template to be applied to converted forms. You can always specify a different template before starting the conversion.</td> 
   </tr> 
   <tr> 
@@ -87,8 +87,8 @@ Create a cloud service configuration to connect your AEM Instance to the convers
    <td>Specify the default theme to be applied to converted forms. You can always specify a different theme before starting the conversion.</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="96"><p>Existing Fragments</p> </td> 
-   <td valign="top" width="456"><p>Specify the location of existing fragments, if any.</p> </td> 
+   <td><p>Existing Fragments</p> </td> 
+   <td><p>Specify the location of existing fragments, if any.</p> </td> 
   </tr> 
  </tbody> 
 </table>

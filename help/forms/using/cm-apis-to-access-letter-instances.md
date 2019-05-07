@@ -25,22 +25,22 @@ Correspondence Management exposes APIs to fetch letter instances through the Let
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top"><p><strong>Method</strong></p> </td> 
-   <td valign="top"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Method</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
  </tbody> 
  <tbody> 
   <tr> 
-   <td valign="top"><p>getAllLetterInstances</p> </td> 
-   <td valign="top"><p>Fetches letter instances based on the input query parameter. To fetch all letter instances, pass the query parameter as null.</p> </td> 
+   <td><p>getAllLetterInstances</p> </td> 
+   <td><p>Fetches letter instances based on the input query parameter. To fetch all letter instances, pass the query parameter as null.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>getLetterInstance</p> </td> 
-   <td valign="top"><p>Fetches the specified letter instance based on letter instance Id.</p> </td> 
+   <td><p>getLetterInstance</p> </td> 
+   <td><p>Fetches the specified letter instance based on letter instance Id.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>letterInstanceExists</p> </td> 
-   <td valign="top"><p>Checks if a LetterInstance exists by the given name. </p> </td> 
+   <td><p>letterInstanceExists</p> </td> 
+   <td><p>Checks if a LetterInstance exists by the given name. </p> </td> 
   </tr> 
  </tbody> 
 </table>

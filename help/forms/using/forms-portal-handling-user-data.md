@@ -34,24 +34,24 @@ Depending on the configured data store persistence, drafts and submitted forms d
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="98"><p><strong>Persistence type</strong></p> </td> 
-   <td valign="top" width="315"><p><strong>Data store</strong></p> </td> 
-   <td valign="top" width="234"><p><strong>Location</strong></p> </td> 
+   <td><p><strong>Persistence type</strong></p> </td> 
+   <td><p><strong>Data store</strong></p> </td> 
+   <td><p><strong>Location</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="98"><p>Default</p> </td> 
-   <td valign="top" width="315"><p>AEM repository of author and publish instances</p> </td> 
-   <td valign="top" width="234"><p><code>/content/forms/fp/</code></p> </td> 
+   <td><p>Default</p> </td> 
+   <td><p>AEM repository of author and publish instances</p> </td> 
+   <td><p><code>/content/forms/fp/</code></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="98"><p>Remote</p> </td> 
-   <td valign="top" width="315"><p>AEM repository of author and remote AEM instances</p> </td> 
-   <td valign="top" width="234"><p><code>/content/forms/fp/</code></p> </td> 
+   <td><p>Remote</p> </td> 
+   <td><p>AEM repository of author and remote AEM instances</p> </td> 
+   <td><p><code>/content/forms/fp/</code></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="98"><p>Database</p> </td> 
-   <td valign="top" width="315"><p>AEM repository of author instance and database tables</p> </td> 
-   <td valign="top" width="234">Database tables <code>data</code>, <code>metadata</code>, and <code>additionalmetadata</code></td> 
+   <td><p>Database</p> </td> 
+   <td><p>AEM repository of author instance and database tables</p> </td> 
+   <td>Database tables <code>data</code>, <code>metadata</code>, and <code>additionalmetadata</code></td> 
   </tr> 
  </tbody> 
 </table>

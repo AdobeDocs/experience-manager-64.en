@@ -112,8 +112,8 @@ Consider the following examples of Quickview URLs and their resulting hotspot va
 <table> 
      <tbody> 
       <tr> 
-       <td valign="top" width="22.271714922048996%"><p>Single SKU, found in the query string.</p> </td> 
-       <td valign="top" width="77.728285077951%"><p>The recorded Quickview URLs include the following:</p> 
+       <td><p>Single SKU, found in the query string.</p> </td> 
+       <td><p>The recorded Quickview URLs include the following:</p> 
         <ul> 
          <li><p><code>https://server/json?productId=866558&amp;source=100</code></p> </li> 
          <li><p><code>https://server/json?productId=1196184&amp;source=100</code></p> </li> 
@@ -122,8 +122,8 @@ Consider the following examples of Quickview URLs and their resulting hotspot va
         </ul> <p>The only variable part in the URL is the value of the productId= query string parameter, and it is clearly a SKU value. Therefore, our hotspots only need SKU fields populated with values like <strong><code>866558</code></strong>, <strong><code>1196184</code></strong>, <strong><code>1081492</code></strong>, <strong><code>1898294</code></strong>.</p> </td> 
       </tr> 
       <tr> 
-       <td valign="top" width="22.271714922048996%"><p>Single SKU, found in the URL path.</p> </td> 
-       <td valign="top" width="77.728285077951%"><p>The recorded Quickview URLs include the following:</p> 
+       <td><p>Single SKU, found in the URL path.</p> </td> 
+       <td><p>The recorded Quickview URLs include the following:</p> 
         <ul> 
          <li><p><code>https://server/product/6422350843</code></p> </li> 
          <li><p><code>https://server/product/1607745002</code></p> </li> 
@@ -131,8 +131,8 @@ Consider the following examples of Quickview URLs and their resulting hotspot va
         </ul> <p>The variable part is in the last portion of the path, and it becomes the SKU value of the hotspots: <strong><code>6422350843</code></strong>, <strong><code>1607745002</code></strong>, <strong><code>0086724882</code></strong>.</p> </td> 
       </tr> 
       <tr> 
-       <td valign="top" width="22.271714922048996%"><p>SKU and category ID in the query string.</p> </td> 
-       <td valign="top" width="77.728285077951%"><p>The recorded Quickview URLs include the following:</p> 
+       <td><p>SKU and category ID in the query string.</p> </td> 
+       <td><p>The recorded Quickview URLs include the following:</p> 
         <ul> 
          <li><p><code>https://server/quickView/product/?category=1100004&amp;prodId=305466</code></p> </li> 
          <li><p><code>https://server/quickView/product/?category=1100004&amp;prodId=310181</code></p> </li> 
@@ -431,24 +431,24 @@ Using our previous Quickview URL examples, you can see, in the following example
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="17.035775127768314%"><p>Single SKU, found in the query string</p> </td> 
-   <td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
+   <td><p>Single SKU, found in the query string</p> </td> 
+   <td><code class="code">s7interactiveimageviewer.setHandlers({
       "quickViewActivate": function(inData) {
       var quickViewUrl = "https://server/json?productId=" + inData.sku + "&amp;amp;source=100";
       },
       });</code></td> 
   </tr> 
   <tr> 
-   <td valign="top" width="17.035775127768314%"><p>Single SKU, found in the URL path</p> </td> 
-   <td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
+   <td><p>Single SKU, found in the URL path</p> </td> 
+   <td><code class="code">s7interactiveimageviewer.setHandlers({
       "quickViewActivate": function(inData) {
       var quickViewUrl = "https://server/product/" + inData.sku;
       },
       });</code></td> 
   </tr> 
   <tr> 
-   <td valign="top" width="17.035775127768314%"><p>SKU and category ID in the query string</p> </td> 
-   <td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
+   <td><p>SKU and category ID in the query string</p> </td> 
+   <td><code class="code">s7interactiveimageviewer.setHandlers({
       "quickViewActivate": function(inData) {
       var quickViewUrl = "https://server/quickView/product/?category=" + inData.categoryId + "&amp;amp;prodId=" + inData.sku;
       },

@@ -332,54 +332,54 @@ The following table lists the capabilities of AEM Inbox and AEM Forms app:
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="69"><p><strong>Actions</strong></p> </td> 
-   <td valign="top" width="61"><p><strong>AEM Inbox</strong></p> </td> 
-   <td valign="top" width="64"><p><strong>AEM Forms App</strong></p> </td> 
+   <td><p><strong>Actions</strong></p> </td> 
+   <td><p><strong>AEM Inbox</strong></p> </td> 
+   <td><p><strong>AEM Forms App</strong></p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Starting a form application</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Starting a form application</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Submitting tasks</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Submitting tasks</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Delegating tasks</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Not Supported</p> </td> 
+   <td><p>Delegating tasks</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Not Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Tracking tasks history and task summary</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Not Supported</p> </td> 
+   <td><p>Tracking tasks history and task summary</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Not Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Adding task level attachments</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Adding task level attachments</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Viewing task level attachments</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Viewing task level attachments</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Adding field level attachments</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Adding field level attachments</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Displaying the calendar view</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Not Supported</p> </td> 
+   <td><p>Displaying the calendar view</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Not Supported</p> </td> 
   </tr>
   <tr>
-   <td valign="top" width="69"><p>Adding comments</p> </td> 
-   <td valign="top" width="61"><p>Supported</p> </td> 
-   <td valign="top" width="64"><p>Supported</p> </td> 
+   <td><p>Adding comments</p> </td> 
+   <td><p>Supported</p> </td> 
+   <td><p>Supported</p> </td> 
   </tr>
  </tbody>
 </table>

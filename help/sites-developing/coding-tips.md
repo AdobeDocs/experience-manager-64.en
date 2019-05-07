@@ -43,16 +43,16 @@ Ideally, names should reveal their intention. A common code test for when names 
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="245"><p><strong>Unclear</strong></p> </td> 
-   <td valign="top" width="245"><p><strong>Clear</strong></p> </td> 
+   <td><p><strong>Unclear</strong></p> </td> 
+   <td><p><strong>Clear</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="245"><p>int d; //elapsed time in days</p> </td> 
-   <td valign="top" width="245"><p>int elapsedTimeInDays;</p> </td> 
+   <td><p>int d; //elapsed time in days</p> </td> 
+   <td><p>int elapsedTimeInDays;</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="245"><p>//get tagged images<br /> public List getItems() {}</p> </td> 
-   <td valign="top" width="245"><p>public List getTaggedImages() {}</p> </td> 
+   <td><p>//get tagged images<br /> public List getItems() {}</p> </td> 
+   <td><p>public List getTaggedImages() {}</p> </td> 
   </tr> 
  </tbody> 
 </table>

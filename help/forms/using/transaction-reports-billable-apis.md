@@ -38,7 +38,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -105,7 +105,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -130,7 +130,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -149,7 +149,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -192,7 +192,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -217,7 +217,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -242,7 +242,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -261,7 +261,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -302,7 +302,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -321,7 +321,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -344,7 +344,7 @@ All the submission events of adaptive forms, HTML5 Forms, and form set are accou
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="15%"><p>Use Case</p> </td> 
+   <td><p>Use Case</p> </td> 
    <td width="15%">Description</td> 
    <td width="15%">Transaction report category</td> 
    <td>Additional Information</td> 
@@ -367,7 +367,7 @@ All the submission events of adaptive forms, HTML5 Forms, and form set are accou
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="15%"><p>Use Case</p> </td> 
+   <td><p>Use Case</p> </td> 
    <td width="15%">Description </td> 
    <td width="15%">Transaction report category</td> 
    <td>Additional Information</td> 
@@ -386,7 +386,7 @@ All the submission events of adaptive forms, HTML5 Forms, and form set are accou
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td width="15%">Description</td> 
    <td width="15%">Transaction report category</td> 
    <td>Additional Information</td> 
@@ -413,7 +413,7 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -434,7 +434,7 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -455,7 +455,7 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>Use case</p> </td> 
+   <td><p>Use case</p> </td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
   </tr>

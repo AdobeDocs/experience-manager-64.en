@@ -248,7 +248,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 34</strong></td> 
    <td>Upgrade dispatcher version</td> 
-   <td><p>You can download the latest Dispatcher version at this location:</p> <p><a href="https://helpx.adobe.com/experience-manager/dispatcher/release-notes.html" title="Follow link">https://helpx.adobe.com/experience-manager/dispatcher/release-notes.html</a></p> </td> 
+   <td><p>You can download the latest Dispatcher version at this location:</p> <p><a href="https://helpx.adobe.com/experience-manager/dispatcher/release-notes.html">Follow link</a></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 35</strong></td> 

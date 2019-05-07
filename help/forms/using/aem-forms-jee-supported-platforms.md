@@ -187,22 +187,22 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
   <tr> 
    <td>MySQL</td> 
    <td><p>MySQL Connector/J 5.7</p> <p>mysql-connector-java-5.1.30-bin.jar(version 5.1.30)</p> </td> 
-   <td valign="top"><p>Supplied with AEM Forms on JEE installation</p> </td> 
+   <td><p>Supplied with AEM Forms on JEE installation</p> </td> 
   </tr> 
   <tr> 
    <td>Microsoft SQL Server<br /> </td> 
    <td><p>Microsoft® SQL Server JDBC driver 6.2.1.0<br /> </p> <p>sqljdbc6.jar</p> </td> 
-   <td valign="top"><p>Supplied with AEM Forms on JEE installation.</p> </td> 
+   <td><p>Supplied with AEM Forms on JEE installation.</p> </td> 
   </tr> 
   <tr> 
    <td>Oracle</td> 
    <td><p>Oracle Database 12.1.0.2.0 JDBC driver</p> <p>ojdbc7.jar (version 12.1.0.2.0)<br /> </p> </td> 
-   <td valign="top"><p>Supplied with AEM Forms on JEE installation.</p> </td> 
+   <td><p>Supplied with AEM Forms on JEE installation.</p> </td> 
   </tr> 
   <tr> 
    <td>IBM DB2</td> 
    <td><p>IBM® DB2 Universal JDBC driver 4.16.53 (db2jcc4.jar)</p> </td> 
-   <td valign="top"><p>Download the driver from <a href="https://www-01.ibm.com/support/docview.wss?uid=swg21363866" target="_blank">IBM Website</a></p> </td> 
+   <td><p>Download the driver from <a href="https://www-01.ibm.com/support/docview.wss?uid=swg21363866" target="_blank">IBM Website</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,14 +212,14 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="25%"><p><strong> Platform</strong></p> </td> 
-   <td valign="top" width="25%"><p><strong>Support Level</strong></p> </td> 
-   <td valign="top" width="25%"><p><strong>Supported Patch Definitions</strong></p> </td> 
+   <td><p><strong> Platform</strong></p> </td> 
+   <td><p><strong>Support Level</strong></p> </td> 
+   <td><p><strong>Supported Patch Definitions</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Oracle WebLogic Server 12.2.1 (12c R2) <sup>[1] [2] [4] [8]</sup></p> </td> 
-   <td valign="top"><p>A: Supported</p> </td> 
-   <td valign="top" width="401"><p>Service pack and critical updates</p> </td> 
+   <td><p>Oracle WebLogic Server 12.2.1 (12c R2) <sup>[1] [2] [4] [8]</sup></p> </td> 
+   <td><p>A: Supported</p> </td> 
+   <td><p>Service pack and critical updates</p> </td> 
   </tr> 
   <tr> 
    <td>IBM® WebSphere® Application Server 9.0 <sup>[2] [6]</sup><br /> </td> 
@@ -227,9 +227,9 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
    <td>Service pack and critical updates</td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>JBoss® Enterprise Application Platform (EAP) 7.0.6 <sup>[1] [4] [5] [7] [8][11]</sup></p> </td> 
-   <td valign="top"><p>A: Supported</p> </td> 
-   <td valign="top" width="401"><p>Patches and cumulative patches for the supported EAP version<br /> </p> </td> 
+   <td><p>JBoss® Enterprise Application Platform (EAP) 7.0.6 <sup>[1] [4] [5] [7] [8][11]</sup></p> </td> 
+   <td><p>A: Supported</p> </td> 
+   <td><p>Patches and cumulative patches for the supported EAP version<br /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -267,12 +267,12 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
   <tr> 
    <td><p>Red Hat Enterprise Linux 7 (Kernel 3.x)</p> </td> 
    <td><p>A: Supported</p> </td> 
-   <td valign="top"><p>Minor releases, cumulative updates, and critical updates</p> </td> 
+   <td><p>Minor releases, cumulative updates, and critical updates</p> </td> 
   </tr> 
   <tr> 
    <td><p>SUSE® Linux® Enterprise Server 12</p> </td> 
    <td><p>A: Supported</p> </td> 
-   <td valign="top"><p>Service packs, cumulative patches, and critical security updates</p> </td> 
+   <td><p>Service packs, cumulative patches, and critical security updates</p> </td> 
   </tr> 
   <tr> 
    <td>Oracle Linux® 7 Update 3</td> 
@@ -312,7 +312,7 @@ You can run AEM Forms on JEE on a physical machine or a virtual environment. How
   <tr> 
    <td width="40%"><p>Microsoft® Windows® 10</p> </td> 
    <td>E: Expected to work</td> 
-   <td valign="middle" width="40%"><p>Service pack and critical updates</p> </td> 
+   <td><p>Service pack and critical updates</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,20 +367,20 @@ In addition, consider the following points while choosing software for Adobe AEM
    <td>Maintenance release and fix packs</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="52%"><p>Microsoft® Active Directory 2012</p> </td> 
-   <td valign="top" width="47%"><p>Updates provided with operating system</p> </td> 
+   <td><p>Microsoft® Active Directory 2012</p> </td> 
+   <td><p>Updates provided with operating system</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="52%"><p>Microsoft Active Directory Lightweight Directory Services 2012</p> </td> 
-   <td valign="top" width="47%"><p>Updates provided with operating system</p> </td> 
+   <td><p>Microsoft Active Directory Lightweight Directory Services 2012</p> </td> 
+   <td><p>Updates provided with operating system</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="52%"><p>IBM® Tivoli Directory Server 6.4</p> </td> 
-   <td valign="top" width="47%"><p>Feature packs and interim fixes</p> </td> 
+   <td><p>IBM® Tivoli Directory Server 6.4</p> </td> 
+   <td><p>Feature packs and interim fixes</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="52%">IBM Lotus Domino 8.5.0</td> 
-   <td valign="top" width="47%">Maintenance release and fix packs</td> 
+   <td>IBM Lotus Domino 8.5.0</td> 
+   <td>Maintenance release and fix packs</td> 
   </tr> 
   <tr> 
    <td>Novell eDirectory 8.8.7</td> 
@@ -677,7 +677,7 @@ For additional reuirements see:
   <tr> 
    <td><p>Google Chrome 46+</p> </td> 
    <td><p>A: Supported</p> </td> 
-   <td valign="top"><p>All updates</p> </td> 
+   <td><p>All updates</p> </td> 
   </tr> 
   <tr> 
    <td>Apple Safari 11.x</td> 
@@ -687,7 +687,7 @@ For additional reuirements see:
   <tr> 
    <td><p>Google Chrome and Firefox on MAC OS X</p> </td> 
    <td><p>A: Supported</p> </td> 
-   <td valign="top"><p>All updates</p> </td> 
+   <td><p>All updates</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -714,8 +714,8 @@ For additional reuirements see:
    <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
-   <td valign="middle" width="40%"><p>Chrome on Android™ 4.1.2 and above</p> </td> 
-   <td valign="middle" width="40%"><p>All updates</p> </td> 
+   <td><p>Chrome on Android™ 4.1.2 and above</p> </td> 
+   <td><p>All updates</p> </td> 
   </tr> 
   <tr> 
    <td>Safari on iOS 11.0 and above</td> 
@@ -762,8 +762,8 @@ AEM Forms app is available on the following platforms:
    <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
-   <td valign="middle" width="40%"><p>Flash Player latest version</p> </td> 
-   <td valign="middle" width="40%"><p>Minor versions and updates</p> </td> 
+   <td><p>Flash Player latest version</p> </td> 
+   <td><p>Minor versions and updates</p> </td> 
   </tr> 
  </tbody> 
 </table>

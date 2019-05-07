@@ -109,14 +109,14 @@ The command line arguments for Imaging Transcoding Library can include the follo
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="126"><p><strong>Package Version</strong></p> </td> 
-   <td valign="top" width="168"><p><strong>Package Share Link</strong></p> </td> 
-   <td valign="top" width="330"><p><strong>Supported Platforms</strong></p> </td> 
+   <td><p><strong>Package Version</strong></p> </td> 
+   <td><p><strong>Package Share Link</strong></p> </td> 
+   <td><p><strong>Supported Platforms</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="126"><p>1.4<br /> </p> </td> 
-   <td valign="top" width="168"><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg">Imaging transcoding library package</a></td> 
-   <td valign="top" width="330"><p>RHEL 7, CentOS7</p> </td> 
+   <td><p>1.4<br /> </p> </td> 
+   <td><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg">Imaging transcoding library package</a></td> 
+   <td><p>RHEL 7, CentOS7</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,7 +126,7 @@ The command line arguments for Imaging Transcoding Library can include the follo
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="168"><p>TBD</p> </td> 
+   <td><p>TBD</p> </td> 
   </tr> 
  </tbody> 
 </table>

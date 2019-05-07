@@ -81,7 +81,7 @@ Where `<<YOUR_PROFILE>>` and `<<ADDITIONAL_FLAGS>>` are replaced with the profil
    <td><code>-T mongo-uri=mongo://mongo-host:mongo-port -T mongo-db=mongo-database-name</code></td> 
   </tr> 
   <tr> 
-   <td><span class="inline-comment-marker" data-ref="f44022c9-bcfa-4d04-86a1-7dffe87d094d">TarMK or crx2 with <code>S3DataStore</code></span></td> 
+   <td>TarMK or crx2 with <code>S3DataStore</code></td> 
    <td>TarMK</td> 
    <td>segment-custom-ds</td> 
    <td>See Troubleshooting section below</td> 
@@ -100,6 +100,8 @@ Where `<<YOUR_PROFILE>>` and `<<ADDITIONAL_FLAGS>>` are replaced with the profil
   </tr> 
  </tbody> 
 </table>
+
+<!--please check above table-->
 
 **Where:**
 

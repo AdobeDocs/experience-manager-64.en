@@ -106,7 +106,7 @@ This approach can be used if the time and performance effects to index are accep
 
 ![](assets/6.png) 
 
-### Online Re-Indexing TarMK using oak-run.jar {#onlinere-indexingtarmkusingoak-run.jar}
+### Online Re-Indexing TarMK using oak-run.jar {#onlinere-indexingtarmkusingoak-run-jar}
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Online-reindexing of TarMK is faster than the Online TarkMK reindexing decribed 
 
 ![](assets/7.png) 
 
-### Offline Re-Indexing TarMK using oak-run.jar {#offlinere-indexingtarmkusingoak-run.jar}
+### Offline Re-Indexing TarMK using oak-run.jar {#offlinere-indexingtarmkusingoak-run-jar}
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Offline re-indexing of TarMK is the simplest `oak-run.jar` based re-indexing app
 
 ![](assets/8.png) 
 
-### Out-of-band Re-Indexing TarMK using oak-run.jar  {#out-of-bandre-indexingtarmkusingoak-run.jar-}
+### Out-of-band Re-Indexing TarMK using oak-run.jar  {#out-of-bandre-indexingtarmkusingoak-run-jar}
 
 >[!NOTE]
 >
@@ -164,13 +164,13 @@ This allows shipping index definition via content package which later results in
 
 For more info, see the [ACS Ensure Index documentation](https://adobe-consulting-services.github.io/acs-aem-commons/features/ensure-oak-index/index.html) for details.
 
-### Creating and Updating index definitions on TarMK using oak-run.jar {#creatingandupdatingindexdefinitionsontarmkusingoak-run.jar}
+### Creating and Updating index definitions on TarMK using oak-run.jar {#creatingandupdatingindexdefinitionsontarmkusingoak-run-jar}
 
 If the time or performance impact of re-indexing using non `oak-run.jar` methods is too high, the following `oak-run.jar` based approach can be used to import and re-index Lucene Index definitions in a TarMK based AEM installation.
 
 ![](assets/10.png) 
 
-### Creating and Updating Index Definitions on MonogMK using oak-run.jar {#creatingandupdatingindexdefinitionsonmonogmkusingoak-run.jar}
+### Creating and Updating Index Definitions on MonogMK using oak-run.jar {#creatingandupdatingindexdefinitionsonmonogmkusingoak-run-jar}
 
 If the time or performance impact of re-indexing using non `oak-run.jar` methods is too high, the following `oak-run.jar` based approach can be used to import and re-index Lucene Index definitions in MongoMK based AEM installations.
 

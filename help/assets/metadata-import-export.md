@@ -36,20 +36,20 @@ In other words, you can use a single CSV file to simultaneously update the metad
     <td style="font-weight: normal" valign="top" width="295"><p>Number of assets in a batch for which metadata is to be imported. Default value is 50. Maximum value is 100.</p> </td> 
     </tr>
     <tr>
-    <td valign="top" width="295"><p>Field Separator</p> </td> 
-    <td valign="top" width="295"><p>Default value is Comma. You can specify any other character.</p> </td> 
+    <td><p>Field Separator</p> </td> 
+    <td><p>Default value is Comma. You can specify any other character.</p> </td> 
     </tr>
     <tr>
-    <td valign="top" width="295"><p>Multi value Delimiter</p> </td> 
-    <td valign="top" width="295"><p>Separator for metadata values. Default value is |.</p> </td> 
+    <td><p>Multi value Delimiter</p> </td> 
+    <td><p>Separator for metadata values. Default value is |.</p> </td> 
     </tr>
     <tr>
-    <td valign="top" width="295"><p>Launch Workflows</p> </td> 
-    <td valign="top" width="295"><p>False by default. When set to <em>true</em> and default Launcher settings are in effect for the DAM Metadata WriteBack Workflow (that writes metadata to the binary XMP data). Enabling launch workflows slows the system down. </p> </td> 
+    <td><p>Launch Workflows</p> </td> 
+    <td><p>False by default. When set to <em>true</em> and default Launcher settings are in effect for the DAM Metadata WriteBack Workflow (that writes metadata to the binary XMP data). Enabling launch workflows slows the system down. </p> </td> 
     </tr>
     <tr>
-    <td valign="top" width="295"><p>Asset Path Column Name</p> </td> 
-    <td valign="top" width="295"><p>Defines the column name for the CSV file with assets.</p> </td> 
+    <td><p>Asset Path Column Name</p> </td> 
+    <td><p>Defines the column name for the CSV file with assets.</p> </td> 
     </tr>
     </tbody>
    </table>

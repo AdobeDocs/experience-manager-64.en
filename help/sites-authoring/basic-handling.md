@@ -76,7 +76,7 @@ The options available on these panels are described below.
  <tbody>
   <tr>
    <td><strong>Console</strong></td> 
-   <td valign="top"><strong>Purpose</strong></td> 
+   <td><strong>Purpose</strong></td> 
   </tr>
   <tr>
    <td>Assets<br /> </td> 
