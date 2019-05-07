@@ -70,7 +70,7 @@ To get you up and running quickly:
 
 1. [Add hotspots or image maps to an image banner.](#adding-hotspots-or-image-maps-to-an-image-banner)
 
-   Add one or more hotspots or image maps to an image banner and associate each one with an action such as a link or a Quickview. After you add hotspots or image maps, you finish this task by publishing the carousel set. Publishing creates the embed code that you can use to copy and apply to your website landing page.
+   Add one or more hotspots or image maps to an image banner and associate each one with an action such as a link, a Quickview, or an Experience Fragment. After you add hotspots or image maps, you finish this task by publishing the carousel set. Publishing creates the embed code that you can use to copy and apply to your website landing page.
 
    See [(Optional) Previewing Carousel Banners](#optional-previewing-carousel-banners) - Optional. If desired, you can view a representation of your carousel set and test its interactivity.
 
@@ -205,7 +205,7 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
 1. (Optional) Do any of the following:
 
     * If necessary, drag slide's to re-order images in the the set list.
-    * To delete an image, select the image, then tap **Delete Slide **on the toolbar.  
+    * To delete an image, select the image, then tap **Delete Slide** on the toolbar.  
     
     * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list, then select a preset to apply to the set at once.
 
@@ -217,9 +217,6 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
    >[!NOTE]
    >
    >For carousel banners, the following may be things you want to adjust:
-   >
-   >    
-   >    
    >    * Duration that an image displays. By default, each image displays for 9 seconds.
    >    * Animation. By default, each slide transition is a fade. You can change that to a slide transition.
    >    * Style of the buttons. Users can rotate through the banners by tapping each dot or number. You can change where the set indicator buttons appear (and if they are numeric or a dotted style) and how large they are.
@@ -237,6 +234,10 @@ You can add hotspots or image maps to a banner using the Carousel Set editor.
 When you add hotspots or image maps, you can define them as a Quickview pop-up display, as a hyperlink, or an Experience Fragment.
 
 See [Experience Fragment](/help/sites-authoring/experience-fragments.md).
+
+  >[!NOTE]
+  >
+  >Be aware that the social media sharing tools in Carousel Banner are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
 
 As you add hotspots or image maps to an image, remember to save your work. Undo and Redo options, near the upper-right corner of the page, are supported during your current creation/editing session.
 
@@ -259,7 +260,7 @@ To add hotspots to an image banner:
 1. From Assets, navigate to the carousel set you want to make interactive.
 1. Select the carousel set and click or tap **Edit**. The Carousel Viewer Editor opens.
 1. Select the slide you want to make interactive.
-1. Near the upper-left corner of the page, tap or click **Hotspot **or** Image Map**.
+1. Near the upper-left corner of the page, tap or click **Hotspot** or **Image Map**.
 1. Do either of the following:
 
     * For hotspots: On the image, tap a location where you want the hotspot to appear.
@@ -267,9 +268,9 @@ To add hotspots to an image banner:
 
    If necessary, drag the hotspot or the image map to a new location. Add additional hotspots or image maps as necessary.
 
-   To delete a hotspot or image map, tap the **Actions** tab. Under the **Maps & Hotspots** heading, from the **Selected Type** drop-down menu, select the name of the hotspot or image map you want to remove. Tap the** Trash **icon next to the menu, then tap **Delete**.
+   To delete a hotspot or image map, tap the **Actions** tab. Under the **Maps & Hotspots** heading, from the **Selected Type** drop-down menu, select the name of the hotspot or image map you want to remove. Tap the **Trash** icon next to the menu, then tap **Delete**.
 
-1. In the Name text field, type the name of the hotspot or the image map. This name also appears in the **Maps & Hotspot** drop-down list. Providing a name makes it easy to identify the hotspot or image map if you decide to make changes to it in the future. 
+1. In the Name text field, type the name of the hotspot or the image map. This name also appears in the **Maps & Hotspot** drop-down list. Providing a name makes it easy to identify the hotspot or image map if you decide to make changes to it in the future.
 1. Do one of the following in the **Actions** tab:
 
     * Tap **Quickview**.
@@ -280,14 +281,12 @@ To add hotspots to an image banner:
             * See [Identifying hotspot variables](#identifying-hotspot-and-image-map-variables) as you may want to define these variables. 
             * Then, manually enter the SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the quick view template so that the system knows to associate the tapped hotspot with a particular SKU's quick view.
             * (Optional) If there are other variables within the quick view that you need to use to further identify a product, tap **Add Generic Variable**. In the text field, specify an additional variable. For example, category=Mens is an added variable.  
-            
             * See [Working with Selectors](working-with-selectors.md) for more information.
 
     * Tap **Hyperlink**.
 
         * If you are an AEM Sites customer, tap or click the Site Selector icon (folder) to navigate to a URL.  
           **Note**: The URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
-        
         * If you are a standalone customer, in the HREF text field, specify the full URL path to a linked web page.
 
    Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.
@@ -296,11 +295,11 @@ To add hotspots to an image banner:
 
     * Tap **Experience Fragment**.
 
-        * If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap Select in the upper-right corner of the page to return to the Hotspot management page.  
+        * If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap the Experience Fragment you want to use, then tap **Select** in the upper-right corner of the page to return to the Hotspot management page.  
           See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
-        
+         **Note**: Be aware that the social media sharing tools in Carousel Banner are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
         * Specify the width and height of the Experience Fragment as it will appear on the banner.
-
+  
    ![](assets/experience_fragment-carouselbanner.png)
 
    You can also preview what the carousel banner will look like. See [(Optional) Previewing Carousel Banners](#optional-previewing-carousel-banners).
@@ -338,14 +337,14 @@ To edit a Carousel Set:
 
 1. To edit the Carousel Set, do any of the following:
 
-    * To add a slide, click the Add Slide icon** **then navigate to the asset you want to add to that slide and tap or click the checkmark.
+    * To add a slide, tap the **Add Slide** icon then navigate to the asset you want to add to that slide and tap or click the checkmark.
     * To reorder slides, drag an slide to a new location (select the reorder icon to move items).
     * To add a hotspot or image map, click the hotspot or image map icons and see [adding hotspots and image maps](#adding-hotspots-or-image-maps-to-an-image-banner).
     * To edit the appearance or behavior of the carousel set, tap the **Appearance** tab or **Behavior** tab, then set the options you want.  
     
     * To edit hotspots or image maps, on the appropriate slide, select a hotspot or image map and make changes as necessary under the **Actions** tab.
     * To delete an slide, select it, then tap **Delete Slide** on the toolbar.
-    * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list**,** then select a viewer preset.  
+    * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list, then select a viewer preset.  
     
     * To delete an entire Carousel Set, navigate to the Carousel Set, select it, then tap **Delete**.
 
