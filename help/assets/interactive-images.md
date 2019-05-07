@@ -43,8 +43,8 @@ Interactive Images steps:
    However, if you use AEM Sites, or AEM eCommerce, or both, then this step is not necessary.  
    See [eCommerce concepts in AEM Assets](/help/sites-administering/concepts.md).  
 
-1. **(Optional) Creating an Interactive Image viewer preset **- Customize the graphic image that is used to represent hotspots. Creating your own Interactive Image viewer preset is not required if you intend to use the out-of-the-box Interactive Image viewer preset named `Shoppable_Banner` instead.** 
-   **See [(Optional) Creating an Interactive Image viewer preset](managing-viewer-presets.md#creating-a-new-viewer-preset).  
+1. **(Optional) Creating an Interactive Image viewer preset** - Customize the graphic image that is used to represent hotspots. Creating your own Interactive Image viewer preset is not required if you intend to use the out-of-the-box Interactive Image viewer preset named `Shoppable_Banner` instead. 
+   See [(Optional) Creating an Interactive Image viewer preset](managing-viewer-presets.md#creating-a-new-viewer-preset).  
 
 1. **Uploading an image banner** - Upload image banners that you want to make interactive.  
    See [Uploading an image banner](#uploading-an-image-banner).  
@@ -184,7 +184,7 @@ When you create a custom Interactive Image viewer preset, you can determine the 
 
 After you save the viewer preset, it is automatically activated (turned on) on the Viewer Preset list page in AEM Assets. This functionality means that it is visible in the Interactive Media component and whenever you view an asset. However, to *deliver *an interactive banner with this viewer preset, you must *publish *your viewer preset as well (this is true for custom or out-of-box viewer presets).
 
-To create an Interactive Image viewer preset:
+**To create an Interactive Image viewer preset**:
 
 1. In the left rail, tap **Tools** &gt; **Assets** &gt; **Viewer Presets**.
 1. Near the upper-right corner of the page, tap **Create**.
@@ -210,7 +210,7 @@ To create an Interactive Image viewer preset:
 
 If you have already uploaded the images that you want to use, advance to the next step, [Adding hotspots to an image banner](#adding-hotspots-to-an-image-banner).
 
-To upload an image banner:
+**To upload an image banner**:
 
 1. Upload image banners that you want to make interactive.
 
@@ -225,6 +225,10 @@ You can add hotspots to an image banner using the editor on the Hotspot Manageme
 When you add hotspots, you can define them as a Quickview pop-up display, as a hyperlink, or an Experience Fragment.
 
 See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
+
+>[!NOTE]
+>
+>Be aware that the social media sharing tools in Interactive Image are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
 
 Undo and Redo options, near the upper-right corner of the page, are supported during your current creation/editing session.
 
@@ -244,51 +248,48 @@ See [(Optional) Previewing interactive images](#optional-previewing-interactive-
 >
 >If you are editing interactive images with hotspots and crop the image, your hotspots are removed.
 
-To add hotspots to an image banner:
+**To add hotspots to an image banner**:
 
 1. In the Assets view, navigate to the image banner that you want to make interactive.
 1. Do one of the following:
 
     * Hover on the image, then tap **Selec**t (checkmark icon). On the toolbar, tap **Edit**.  
-    
     * Hover on the image, then tap **More actions** (three dots icon) &gt; **Edit**.
-    
     * Tap the image to open it in the Detail View page. On the toolbar, tap **Edit**.
 
 1. Near the upper-left corner of the page, tap **Add Hotspot** (finger tap icon) to open the Hotspot management page.
 1. Near the upper-left corner of the page, tap **Hotspot**.
-1.
-
-    1. Near the upper-left corner of the Hotspot Management page, tap **Hotspot**.
-    1. On the image, tap a location where you want the hotspot to appear. If necessary, drag the hotspot to adjust its location.
-    1. Add additional hotspots as necessary by repeating steps a and b.
-    1. (Optional) To delete a hotspot, select it on the image, then tap **Delete **(garbage can icon) under the **Hotspots** heading.
+1.  a. Near the upper-left corner of the Hotspot Management page, tap **Hotspot**.
+    b. On the image, tap a location where you want the hotspot to appear. If necessary, drag the hotspot to adjust its location.
+    c. Add additional hotspots as necessary by repeating steps a and b.
+    d. (Optional) To delete a hotspot, select it on the image, then tap **Delete** (garbage can icon) under the **Hotspots** heading.
 
 1. In the Name text field, type the name of the hotspot. This name also appears in the Selected Hotspot drop-down list.
 1. Do one of the following:
 
-    * Tap or click **Quickview**.
+    * Tap **Quickview**.
 
-        * If you are an AEM Sites or eCommerce customer, tap or click the Product Picker icon (magnifying glass) to open the Select Product page. Tap or click the product you want to use, then tap **Select **in the upper-right corner of the page to return to the Hotspot management page.
+        * If you are an AEM Sites or eCommerce customer, tap or click the Product Picker icon (magnifying glass) to open the Select Product page. Tap the product you want to use, then tap **Select** in the upper-right corner of the page to return to the Hotspot management page.
         * If you are *not* an AEM Sites or eCommerce customer
 
             * See [Identifying hotspot variables](#optional-identifying-hotspot-variables); you will need to define these variables. 
             * Then, manually enter the SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped hotspot with a particular SKU's Quickview.
             * (Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap **Add Generic Variable**. In the text field, specify an additional variable. For example, `category=Mens` is an added variable.
 
-    * Tap or click **Hyperlink**.
+    * Tap **Hyperlink**.
 
         * If you are an AEM Sites customer, tap or click the Site Selector icon (folder) to navigate to a URL. Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
         * If you are a standalone customer, in the HREF text field, specify the full URL path to a linked web page.
 
-   Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.
+        Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.
 
-   See [Working with Selectors](working-with-selectors.md) for more information.
+        See [Working with Selectors](working-with-selectors.md) for more information.
 
-    * Tap or click **Experience Fragment**.
+    * Tap **Experience Fragment**.
 
-        * If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap Select in the upper-right corner of the page to return to the Hotspot management page.  
+        * If you are an AEM Sites customer, tap the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap Select in the upper-right corner of the page to return to the Hotspot management page.  
           See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
+          **Note**: Be aware that the social media sharing tools in Interactive Image are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
 
         * Specify the width and height of the Experience Fragment as it will appear on the banner.
 
@@ -318,7 +319,7 @@ To preview interactive images:
 
 1. In the Assets view, navigate to an existing interactive image that you have created and tap to open it in Preview.
 1. Near the upper-left corner of the Preview page, in the Content drop-down list, tap **Viewers**.
-1. In the Viewers list, tap **Shoppable_Banner **or the name of the interactive image viewer preset you have created.
+1. In the Viewers list, tap **Shoppable_Banner** or the name of the interactive image viewer preset you have created.
 1. Tap hotspots on the image to test their associated actions.
 
 ## Publishing interactive image assets {#publishing-interactive-image-assets}

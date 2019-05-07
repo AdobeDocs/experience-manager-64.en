@@ -68,9 +68,8 @@ Interactive video steps:
    • Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](/help/sites-administering/concepts.md).  
 
 1. **(Optional) Creating an Interactive Video viewer preset** - Customize the appearance and behavior of various components that make up the player such as the video scrubber and the interactive thumbnails.  
-   Creating your own Interactive Video viewer preset is not required if you intend to use the out-of-the-box Interactive Video viewer presets `Shoppable_Video_Light` or `Shoppable_Video_Dark` instead.** 
-   **See [Creating a New Viewer Preset](managing-viewer-presets.md#creating-a-new-viewer-preset) (this is optional) and [Special considerations for creating an Interactive Viewer preset](managing-viewer-presets.md#special-considerations-for-creating-an-interactive-viewer-preset).** 
-   **
+   Creating your own Interactive Video viewer preset is not required if you intend to use the out-of-the-box Interactive Video viewer presets `Shoppable_Video_Light` or `Shoppable_Video_Dark` instead. 
+   See [Creating a New Viewer Preset](managing-viewer-presets.md#creating-a-new-viewer-preset) (this is optional) and [Special considerations for creating an Interactive Viewer preset](managing-viewer-presets.md#special-considerations-for-creating-an-interactive-viewer-preset).
 
 1. **Uploading a video and its associated image assets** - Upload a video and associated images that you want to make interactive.  
    See [Uploading a video and its associated thumbnail assets](#uploading-a-video-and-its-associated-thumbnail-assets).  
@@ -419,14 +418,13 @@ To add interactivty to your video:
       </tr> 
       <tr> 
       <td>To associate the selected thumbnail image with an Experience Fragment</td> 
-      <td><p>Under Action Type, tap <strong>Experience Fragment</strong>, then do the following:</p> 
+      <td><p>Under Action Type, tap <strong>Experience Fragment</strong>, then do the following:<p> 
        <ul> 
        <li>If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap <strong>Select </strong>in the upper-right corner of the page to return to the Actions panel on the previous page.<br /> See <a href="/help/sites-authoring/experience-fragments.md">Experience Fragments</a>.</li> 
-       </ul> 
+      </ul> 
        <ul> 
-       <li>Specify the width and height of the Experience Fragment as it will appear on the video.</li> 
-       </ul> </td> 
-      </tr> 
+       <li>Specify the width and height of the Experience Fragment as it will appear on the video.</li>
+       </ul><strong>Note</strong>: Be aware that the social media sharing tools in Interactive Video are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.</p></tr>< 
       <tr> 
       <td>To edit an action already assigned to a thumbnail image</td> 
       <td>Within a timeline segment, tap a thumbnail image that has a chain link to the right of its text label. The chain link indicates that an action is assigned to it. Tap the <strong>Actions</strong> tab to make your changes.</td> 
