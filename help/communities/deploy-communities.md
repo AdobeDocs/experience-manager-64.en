@@ -167,16 +167,8 @@ Existing SCORM installations can be upgraded to [**cq-social-scorm-package, vers
   <li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg" target="_blank">cq-social-scorm-package, version 2.2.2</a>.</strong></p> </li> 
   <li><p>Download the package from <code>/libs/social/config/scorm/ScormEngine.zip </code>and extract the same.</p> </li> 
   <li><p>Go to <strong>Installer</strong> folder of the extracted directory.</p> </li> 
-  <li><p>Update <strong>SystemDatabaseConnectionString</strong> with your 
-    <g class="gr_ gr_3 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="3" id="3">
-      scorm 
-    </g> 
-    <g class="gr_ gr_4 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="4" id="4">
-      db 
-    </g> connection 
-    <g class="gr_ gr_5 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="5" id="5">
-      url 
-    </g> in file <strong>EngineInstall.xml</strong>.<br /> </p> </li> 
+  <li><p>Update <strong>SystemDatabaseConnectionString</strong> with your <code>scorm db connection
+      url </code> in file <strong>EngineInstall.xml</strong>.<br /> </p> </li> 
   <li><p>Run mysql schema upgrade tool in Installer folder with the command:</p> <p><code>java -Dlogback.configurationFile=logback.xml -cp "lib/*" RusticiSoftware.ScormContentPlayer.Logic.Upgrade.ConsoleApp EngineInstall.xml</code></p> </li> 
   <li><p>Monitor <code>engine_upgrade.log</code> file for any kind of error and schema upgrade status.</p> </li> 
   <li><p>Add <code>/content/communities/scorm/RecordResults</code> in<strong> Excluded Paths</strong> property in CSRF filter from <code>https://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</code> on publishers.</p> </li> 

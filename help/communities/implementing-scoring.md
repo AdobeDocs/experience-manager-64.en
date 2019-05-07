@@ -352,9 +352,9 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
   </tr> 
   <tr> 
    <td style="text-align: center;"> 
-    <g class="gr_ gr_16 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="16" id="16">
+    <code>
       scoringRules 
-    </g></td> 
+    </code></td> 
    <td style="text-align: center;">String[]</td> 
    <td style="text-align: left;">(<em>optional</em>) A multi-value string to restrict the badging rule to scoring events identified by the scoring rules</td> 
   </tr> 

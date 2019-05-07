@@ -87,7 +87,9 @@ Before you begin using AEM Forms Automated Forms Conversion service, review the 
 * [Source folder](/help/forms/using/wip/convert-existing-forms-to-adaptive-forms.md#upload-pdf-forms-to-your-aem-forms-server) should not have more than 15 forms and 50 pages in total. The size of the source folder should not exceed 10 MB. Do not create sub-folders in the source folder. 
 * PDF Forms with the dynamic layout, dotted outline, and filled or colored fields are not supported.
 * Images and text inside the images are not identified. Manually add images to converted forms.  
-* Only simple tables, with empty fields, proper headers, and clear boundaries are supported. Complex tables like borderless tables, nested tables, table with colored rows, and tables with placeholder values are not supported. Use [adaptive form editor](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/review-correct-ui-edited.html#main-pars_header_1182718738) to add or modify complex tables, after the conversion.  
+* Only simple tables, with empty fields, proper headers, and clear boundaries are supported. Complex tables like borderless tables, nested tables, table with colored rows, and tables with placeholder values are not supported. Use [adaptive form editor](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/review-correct-ui-edited.html#main-pars_header_1182718738) to add or modify complex tables, after the conversion.
+
+<!--fix above link-->
 
 * Review and Correct editor does not support form fragments and tables. Use [adaptive form editor](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/review-correct-ui-edited.html#main-pars_header_1182718738) to fix conversions that had the **Extract Fragment** or **Existing Fragments** option enabled during conversions and fix table-related issues.  
 

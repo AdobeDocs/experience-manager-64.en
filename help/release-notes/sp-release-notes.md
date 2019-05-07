@@ -567,45 +567,45 @@ The key highlights for AEM 6.4.4.0 forms are:
   <li>Content Fragments enhancements: added the capability to annotate in text fields, and side-by-side comparison of versions.</li> 
   <li>Added <a href="/help/assets/aem-assets-adobe-stock.md" target="_blank">integration with Adobe Stock</a> so that users can search, preview, save and license Adobe Stock assets directly from AEM user interface. For more detailed information, see <a href="https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html">https://helpx.adobe.com/experience-manager/kt/assets/using/stock-assets-feature-video-use.html</a>.</li> 
   <li>Assets added support for dynamic conditional 
-   <g class="gr_ gr_33 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" data-gr-id="33" id="33">
+   <code>
      metaschema and the a 
-   </g>Ability to set a metadata schema for asset folders. </li> 
+   </code>Ability to set a metadata schema for asset folders. </li> 
   <li>Added configuration in each component to enable/disable the folder thumbnail creation/update functionality.</li> 
   <li>Image Editor enhancements on page authoring.</li> 
   <li>Regression fix in Communities for 
-   <g class="gr_ gr_36 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="36" id="36">
+   <code>
      scoring 
-   </g> event not getting handled properly in case of selected answer getting deleted. </li> 
+   </code> event not getting handled properly in case of selected answer getting deleted. </li> 
   <li>Revised the maximum search results limit for 
-   <g class="gr_ gr_32 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" data-gr-id="32" id="32">
+   <code>
      solr 
-   </g> to MAX_INT-10000.</li> 
+   </code> to MAX_INT-10000.</li> 
   <li>Transaction Flush job is started only on the first call to 
-   <g class="gr_ gr_34 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling ins-del multiReplace" data-gr-id="34" id="34">
+   <code>
      storeTransaction 
-   </g>.</li> 
+   </code>.</li> 
   <li>"Select All" button is now available in Card View and Column View.</li> 
   <li>Accessibility improvements in 
-   <g class="gr_ gr_57 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="57" id="57">
+   <code>
      CoralUI 
-   </g>.</li> 
+   </code>.</li> 
   <li>Improved Coral.Keys handling.</li> 
   <li>Updated moment.js to 2.22.2</li> 
   <li>Updated jquery- 
-   <g class="gr_ gr_58 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="58" id="58">
+   <code>
      ui 
-   </g> to 1.12.1</li> 
-  <li>Introduced <tt>foundation- 
-    <g class="gr_ gr_59 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="59" id="59">
+   </code> to 1.12.1</li> 
+  <li>Introduced foundation- 
+    <code>
       workflowstatus 
-    </g></tt> 
-   <g class="gr_ gr_59 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling" data-gr-id="59" id="59">
+    </code> 
+   <code>
      component 
-   </g>.</li> 
+   </code>.</li> 
   <li>Updated GCC to 
-   <g class="gr_ gr_60 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" data-gr-id="60" id="60">
+   <code>
      latest 
-   </g> version.</li> 
+   </code> version.</li> 
   <li>Move SAML to new external IDP synchronization.</li> 
  </ul> 
  <h3>Assets</h3> 
@@ -633,15 +633,15 @@ The key highlights for AEM 6.4.4.0 forms are:
  <h3>Sites</h3> 
  <ul> 
   <li>Query of 
-   <g class="gr_ gr_133 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="133" id="133">
+   <code>
      datasource 
-   </g>.jsp on AEM 6.2 is different from AEM 6.4. NPR-24968: Hotfix for CQ-4244235</li> 
+   </code>.jsp on AEM 6.2 is different from AEM 6.4. NPR-24968: Hotfix for CQ-4244235</li> 
   <li>[Classic UI] Unable to add tags to pages. NPR-25255, NPR-25612: Hotfix for CQ-4249615</li> 
   <li>HTML Template Language Specification 1.4 features backported to AEM 6.4.2.0 NPR-24585</li> 
   <li>Wrong inheritance on 
-   <g class="gr_ gr_148 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" data-gr-id="148" id="148">
+   <code>
      local 
-   </g> component after copying a live copy page. NPR-25920: Hotfix for CQ-4236737, CQ-4248957</li> 
+   </code> component after copying a live copy page. NPR-25920: Hotfix for CQ-4236737, CQ-4248957</li> 
   <li>ON/OFF time is stored in crx/de but doesn't fetch the same in page properties UI console. NPR-25154: Hotfix for CQ-4243431</li> 
   <li>Styles System breaks dialog's initial properties values. NPR-25648: Hotfix for CQ-4250073</li> 
   <li>When defining a cq:tagName property in a cq:htmlTag node, the tag name is not considered if the component is included via JSP. NPR-24154: Hotfix for CQ-4244120</li> 
@@ -778,9 +778,9 @@ The key highlights for AEM 6.4.4.0 forms are:
  <ul> 
   <li>Proactive Foundation UI Backports. NPR-24344, NPR-24345, NPR-25176, NPR-25095, NPR-24332, NPR-25653, NPR-25932, NPR-25935, NPR-25976 </li> 
   <li>[Design Importer] Importing a page does not import the js, 
-   <g class="gr_ gr_17 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="17" id="17">
+   <code>
      css 
-   </g>. NPR-25203: Hotfix for Granite-22236</li> 
+   </code>. NPR-25203: Hotfix for Granite-22236</li> 
   <li>Proactive Foundation UI Backports to improve the stability of the product. NPR-24334</li> 
  </ul> 
  <h3>MAC - Test &amp; Target Integration</h3> 
@@ -1227,21 +1227,21 @@ The key highlights for AEM 6.4.4.0 forms are:
   <li>Enhanced input in Web Services Description Language (WSDL). Hotfix for CQ-4244133</li> 
   <li>Basic authentication testing for WSDL results in different error for same configuration in AEM 6.3 and AEM 6.4. Hotfix for CQ-4244132</li> 
   <li>Request to include ValueUtil in client- 
-   <g class="gr_ gr_27 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="27" id="27">
+   <code>
      sdk 
-   </g> and 
-   <g class="gr_ gr_30 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="30" id="30">
+   </code> and 
+   <code>
      javadocs 
-   </g>. Hotfix for CQ-4242803</li> 
+   </code>. Hotfix for CQ-4242803</li> 
   <li>[FDM Cloud Config] Unable to configure 
-   <g class="gr_ gr_29 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="29" id="29">
+   <code>
      SOAP based 
-   </g> Authentication from cloud configuration. Hotfix for CQ-4238462</li> 
+   </code> Authentication from cloud configuration. Hotfix for CQ-4238462</li> 
   <li>Dermis - Add missing packages in Javadocs. Hotfix for CQ-4242815</li> 
   <li>WSDLInvokerParams to be included in Forms Add-On client 
-   <g class="gr_ gr_28 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="28" id="28">
+   <code>
      sdk 
-   </g>. NPR-23381: Hotfix for CQ-4240233</li> 
+   </code>. NPR-23381: Hotfix for CQ-4240233</li> 
  </ul> 
  <h4>Adaptive Forms</h4> 
  <ul> 
@@ -1516,7 +1516,7 @@ To use Uber Jar in a Maven project, refer to the article, [How to use Uber jar](
 
 ```shell
 <dependency>
-      <groupId>com.adobe.aem</groupId>
+      <code>com.adobe.aem</groupId>
       <artifactId>uber-jar</artifactId>
       <version>6.4.4</version>
       <classifier>apis</classifier>

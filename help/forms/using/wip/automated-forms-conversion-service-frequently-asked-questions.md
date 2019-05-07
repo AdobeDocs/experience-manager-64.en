@@ -18,6 +18,8 @@ discoiquuid: f8766420-a74c-4bbc-95d0-8452fb98663f
  <p>We are regularly adding support for other source types. Keep the <a href="/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md">What’s supported</a> section on your watchlist for a regular update on newly added features and capabilities.</p> 
 </div>
 
+<!--fix above link with chl-author-preview-->
+
 <div class="details"> 
  <h3 class="summary">Can the service produce an XDP instead of an adaptive form? </h3> 
  <p>The service does not produce an XDP output for the time being. We are regularly adding features and to the service. Keep the <a href="/help/forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md">What’s supported</a> section on your watchlist for a regular update on newly added features and capabilities.</p> 

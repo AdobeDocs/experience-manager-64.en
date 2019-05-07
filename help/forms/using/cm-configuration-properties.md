@@ -245,18 +245,18 @@ Correspondence Management has the following configuration properties:
   <tr> 
    <td valign="top" width="NaN%"><p>Letter Cache Size</p> </td> 
    <td valign="top" width="NaN%"><p>Specify the Maximum number of letters to be kept in cache.</p> <p>Changing this value will result in clean-up of 
-     <g class="gr_ gr_107 gr-alert gr_gramm undefined Grammar only-ins replaceWithoutSep" data-gr-id="107">
+     <code>
        in-memory 
-     </g> cache.</p> </td> 
+     </code> cache.</p> </td> 
    <td valign="top" width="NaN%"><p>100</p> </td> 
    <td valign="top" width="NaN%"><p>Any numeric value</p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="NaN%"><p>Enable Letter Cache</p> </td> 
    <td valign="top" width="NaN%"><p>Enable/Disable the letter cache.</p> <p>Changing this value will result in clean-up of 
-     <g class="gr_ gr_110 gr-alert gr_gramm undefined Grammar only-ins replaceWithoutSep" data-gr-id="110">
+     <code>
        in-memory 
-     </g> cache.</p> </td> 
+     </code> cache.</p> </td> 
    <td valign="top" width="NaN%"><p>true</p> </td> 
    <td valign="top" width="NaN%"><p>true / false</p> </td> 
   </tr> 
@@ -293,9 +293,9 @@ Correspondence Management has the following configuration properties:
   <tr> 
    <td><p>Debug Directory </p> <p> </p> </td> 
    <td>File system folder location for debugging. If the directory does not 
-    <g class="gr_ gr_106 gr-alert gr_gramm undefined Grammar multiReplace" data-gr-id="106">
+    <code>
       exists 
-    </g>, no debug dumps will be generated.</td> 
+    </code>, no debug dumps will be generated.</td> 
    <td>acm.debugDirectory</td> 
    <td> </td> 
   </tr> 
