@@ -37,7 +37,7 @@ In this sample orchestration, an employee submits a leave application form. The 
        <table>
        <tbody>
        <tr>
-           <td style="width:50%;">
+           <td>
                <h3>Employee Name: <%= currentNode.ename %></h3>
                <h3>Employee ID: <%= currentNode.eid %></h3>
                <h3>Leave duration: <%= currentNode.duration %> days</h3>

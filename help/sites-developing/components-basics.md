@@ -645,8 +645,8 @@ The `cq:actions` property ( `String array`) defines one or several actions that 
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Property Value</strong></td> 
-   <td style="text-align: center;"><strong>Description</strong></td> 
+   <td><strong>Property Value</strong></td> 
+   <td><strong>Description</strong></td> 
   </tr> 
   <tr> 
    <td><code>text:&lt;some text&gt;</code></td> 
@@ -700,8 +700,8 @@ The `cq:layout` property ( `String`) defines how the component can be edited in 
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Property Value</strong></td> 
-   <td style="text-align: center;"><strong>Description</strong></td> 
+   <td><strong>Property Value</strong></td> 
+   <td><strong>Description</strong></td> 
   </tr> 
   <tr> 
    <td><code>rollover</code></td> 
@@ -739,8 +739,8 @@ The component can be linked to an edit dialog. The `cq:dialogMode` property ( `S
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Property Value</strong></td> 
-   <td style="text-align: center;"><strong>Description</strong></td> 
+   <td><strong>Property Value</strong></td> 
+   <td><strong>Description</strong></td> 
   </tr> 
   <tr> 
    <td><code>floating</code></td> 
@@ -822,8 +822,8 @@ The node of type `cq:DropTargetConfig` needs to have the following properties:
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Property Name</strong></td> 
-   <td style="text-align: center;"><strong>Property Value<br /> </strong></td> 
+   <td><strong>Property Name</strong></td> 
+   <td><strong>Property Value<br /> </strong></td> 
   </tr> 
   <tr> 
    <td><code>accept</code></td> 
@@ -904,8 +904,8 @@ The `cq:inplaceEditing` node (node type `cq:InplaceEditingConfig`) defines an in
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Property Name</strong></td> 
-   <td style="text-align: center;"><strong>Property Value<br /> </strong></td> 
+   <td><strong>Property Name</strong></td> 
+   <td><strong>Property Value<br /> </strong></td> 
   </tr> 
   <tr> 
    <td><code>active</code></td> 
@@ -943,9 +943,9 @@ The `cq:listeners` node (node type `cq:EditListenersConfig`) defines what happen
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Property Name</strong></td> 
-   <td style="text-align: center;"><strong>Property Value<br /> </strong></td> 
-   <td style="text-align: center;"><p><strong>Default Value</strong></p> <p>(Classic UI Only)</p> </td> 
+   <td><strong>Property Name</strong></td> 
+   <td><strong>Property Value<br /> </strong></td> 
+   <td><p><strong>Default Value</strong></p> <p>(Classic UI Only)</p> </td> 
   </tr> 
   <tr> 
    <td><code>beforedelete</code></td> 

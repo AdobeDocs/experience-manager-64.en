@@ -273,7 +273,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
    | Property |Value |
    |---|---|
    | Settings > Serialization Type |Default |
-   | Transport >Transport URI |https://*<ip of target instance>*:*<port>*/bin/receive?sling:authRequestLogin=1 |
+   | Transport >Transport URI |https://*`<ip of target instance>`*:*`<port>`*`/bin/receive?sling:authRequestLogin=1` |
    | Transport >Transport User |Replication user on target instance |
    | Transport >Transport Passoword |Replication user password on target instance |
    | Extended > HTTP Method |POST |
@@ -287,7 +287,7 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
    | Property |Value |
    |---|---|
    | Settings > Serialization Type |Default |
-   | Transport >Transport URI |https://*<ip of target instance>*:*<port>*/bin/receive?sling:authRequestLogin=1 |
+   | Transport >Transport URI |https://*`<ip of target instance>`*:*`<port>`*`/bin/receive?sling:authRequestLogin=1` |
    | Transport >Transport User |Replication user on target instance |
    | Transport >Transport Passoword |Replication user password on target instance |
    | Extended > HTTP Method |GET |

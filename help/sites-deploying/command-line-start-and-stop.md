@@ -22,8 +22,8 @@ Those two versions support a list of environement variables that could be used t
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Environment variable </strong></td> 
-   <td style="text-align: center;"><strong>Description </strong></td> 
+   <td><strong>Environment variable </strong></td> 
+   <td><strong>Description </strong></td> 
   </tr> 
   <tr> 
    <td>CQ_PORT</td> 

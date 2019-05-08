@@ -26,15 +26,15 @@ The service would start identifying and assigning correct fields or panels to th
   </tr>
   <tr>
    <td><p><strong>Pattern</strong></p> <p>Service does not convert colored PDF forms to adaptive form.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use black and white or grayscale PDF forms. </p> </td> 
-   <td style="text-align: left;"> <img src="assets/coloured-form.png" /></td> 
+   <td> <img src="assets/coloured-form.png" /></td> 
   </tr>
   <tr>
    <td><p><strong>Pattern</strong></p> <p>Service does not convert filled PDF forms to adaptive form.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use empty adaptive forms.</p> </td> 
-   <td style="text-align: left;"><img src="assets/pre-filled-form.png" /></td> 
+   <td><img src="assets/pre-filled-form.png" /></td> 
   </tr>
   <tr>
    <td><p><strong>Pattern</strong></p> <p>Service can fail to recognize text and fields in a dense form.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Increase the width between text and fields of a dense form before starting the conversion.</p> </td> 
-   <td style="text-align: left;"><img src="assets/dense%20form.png" /></td> 
+   <td><img src="assets/dense%20form.png" /></td> 
   </tr>
   <tr>
    <td><p><strong>Pattern</strong></p> <p>Service does not support scanned forms.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Do not use scanned forms. </p> </td> 

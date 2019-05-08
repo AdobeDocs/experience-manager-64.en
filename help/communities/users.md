@@ -186,25 +186,25 @@ There are four separate consoles available only in the author environment:
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>console</strong></td> 
-   <td style="text-align: center;">Tools, Security,<br /> Users</td> 
-   <td style="text-align: center;">Tools, Security,<br /> Groups</td> 
-   <td style="text-align: center;">Communities,<br /> Members</td> 
-   <td style="text-align: center;">Communities,<br /> Groups</td> 
+   <td><strong>console</strong></td> 
+   <td>Tools, Security,<br /> Users</td> 
+   <td>Tools, Security,<br /> Groups</td> 
+   <td>Communities,<br /> Members</td> 
+   <td>Communities,<br /> Groups</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong>manages</strong></td> 
-   <td style="text-align: center;">users on author</td> 
-   <td style="text-align: center;">user groups on author</td> 
-   <td style="text-align: center;">members on publish</td> 
-   <td style="text-align: center;">member groups on publish</td> 
+   <td><strong>manages</strong></td> 
+   <td>users on author</td> 
+   <td>user groups on author</td> 
+   <td>members on publish</td> 
+   <td>member groups on publish</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong>requires</strong></td> 
-   <td style="text-align: center;">admin permission</td> 
-   <td style="text-align: center;">admin permission</td> 
-   <td style="text-align: center;">admin permission,<br /> tunnel service,<br /> user sync for publish farm</td> 
-   <td style="text-align: center;">admin permission,<br /> tunnel service,<br /> user sync for publish farm</td> 
+   <td><strong>requires</strong></td> 
+   <td>admin permission</td> 
+   <td>admin permission</td> 
+   <td>admin permission,<br /> tunnel service,<br /> user sync for publish farm</td> 
+   <td>admin permission,<br /> tunnel service,<br /> user sync for publish farm</td> 
   </tr> 
  </tbody> 
 </table>

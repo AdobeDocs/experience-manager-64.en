@@ -1083,7 +1083,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
   <tr> 
    <td>pagecontent</td> 
    <td>Retrieves types of form design objects from a specified page of a form.</td> 
-   <td style="text-align: center;">None</td> 
+   <td>None</td> 
   </tr> 
   <tr> 
    <td>absPageCount</td> 
@@ -1114,9 +1114,9 @@ FormCalc is an XFA-specific language for creating e-form centric logic and calcu
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;" width="30%"><strong>Category </strong></td> 
-   <td style="text-align: center;" width="40%"><strong>Description </strong></td> 
-   <td style="text-align: center;"><strong>Sample </strong></td> 
+   <td><strong>Category </strong></td> 
+   <td><strong>Description </strong></td> 
+   <td><strong>Sample </strong></td> 
   </tr> 
   <tr> 
    <td>Simple Expression</td> 

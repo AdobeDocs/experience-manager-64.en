@@ -19,8 +19,8 @@ In the process instance list, for each process instance, AEM Forms workspace sho
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr> 
   <tr> 
    <td>description</td> 

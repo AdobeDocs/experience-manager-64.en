@@ -721,7 +721,8 @@ For further details on TarMK vs MongoMK, see [Recommended Deployments](/help/sit
   </tr> 
   <tr> 
    <td>Scenario</td> 
-   <td colspan="2" width="462"><p><br /> Single Product: Assets / 30 concurrent threads per run</p> </td> 
+   <td><p><br /> Single Product: Assets / 30 concurrent threads per run</p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -807,7 +808,9 @@ For further details on TarMK vs MongoMK, see [Recommended Deployments](/help/sit
   </tr> 
   <tr> 
    <td>Scenario</td> 
-   <td colspan="2" width="462"><p><br /> <br /> Vertical use case: Media / 2000 concurrent threads</p> </td> 
+   <td><p><br /> <br /> Vertical use case: Media / 2000 concurrent threads</p> </td>
+   <td></td>
+   <td></td>
   </tr> 
  </tbody> 
 </table>

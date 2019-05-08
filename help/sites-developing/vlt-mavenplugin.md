@@ -77,12 +77,12 @@ The parameters in the following table are common to all goals except when noted 
    <th>Goals</th> 
   </tr> 
   <tr> 
-   <td style="text-align: left;">failOnError</td> 
-   <td style="text-align: left;">boolean</td> 
-   <td style="text-align: left;">No</td> 
-   <td style="text-align: left;">false</td> 
-   <td style="text-align: left;">A value of <code>true</code> causes the build to fail when an error occurs. A value of <code>false</code> causes the build to ignore the error.</td> 
-   <td style="text-align: left;">All goals except package.</td> 
+   <td>failOnError</td> 
+   <td>boolean</td> 
+   <td>No</td> 
+   <td>false</td> 
+   <td>A value of <code>true</code> causes the build to fail when an error occurs. A value of <code>false</code> causes the build to ignore the error.</td> 
+   <td>All goals except package.</td> 
   </tr> 
   <tr> 
    <td>name</td> 

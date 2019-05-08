@@ -113,31 +113,32 @@ This conflict handler gives precedence to the blueprint. The live copy page `/b`
 
     * `bp-level-1` is rolled out to the livecopy.
 
+**After Rollout**
+
 <table> 
- <caption>
-   After Rollout 
- </caption> 
  <tbody> 
   <tr> 
-   <td style="text-align: left;" valign="top"><strong>blueprint after rollout</strong></td> 
-   <td colspan="2" style="text-align: left;" valign="top" width="30%"><strong>live copy after rollout</strong><br /> </td> 
-   <td style="text-align: left;" valign="top" width="30%"><strong>live copy after rollout</strong><br /> <br /> <br /> </td> 
-   <td style="text-align: left;" valign="top" width="30%"><strong>publish after rollout</strong><br /> <br /> </td> 
+   <td><strong>blueprint after rollout</strong></td> 
+   <td><strong>live copy after rollout</strong><br /> </td> 
+   <td></td>
+   <td><strong>live copy after rollout</strong><br /> <br /> <br /> </td> 
+   <td><strong>publish after rollout</strong><br /> <br /> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: left;" valign="top"><code>b</code></td> 
-   <td colspan="2" style="text-align: left;" valign="top"><code>b</code><br /> <br /> (has the content of the blueprint page b that was rolled out)<br /> </td> 
-   <td style="text-align: left;" valign="top"><code>b_msm_moved</code><br /> <br /> (has the content of the page b that was manually created in the live copy branch)</td> 
-   <td style="text-align: left;" valign="top"><code>b</code><br /> <br /> (no change; contains the content of the original page b that was manually created in the live copy branch and is now called b_msm_moved)<br /> </td> 
+   <td><code>b</code></td> 
+   <td><code>b</code><br /> <br /> (has the content of the blueprint page b that was rolled out)<br /> </td> 
+   <td></td>
+   <td><code>b_msm_moved</code><br /> <br /> (has the content of the page b that was manually created in the live copy branch)</td> 
+   <td><code>b</code><br /> <br /> (no change; contains the content of the original page b that was manually created in the live copy branch and is now called b_msm_moved)<br /> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: left;" valign="top"><code> /bp-level-1</code></td> 
-   <td style="text-align: left;" valign="top"><code class="code"> /bp-level-1
+   <td><code> /bp-level-1</code></td> 
+   <td><code class="code"> /bp-level-1
       
       </code></td> 
-   <td style="text-align: left;" valign="top"><code> /lc-level-1</code><br /> <br /> (no change)</td> 
-   <td style="text-align: left;" valign="top"><code> </code></td> 
-   <td style="text-align: left;" valign="top"><code> /lc-level-1</code><br /> <br /> (no change)</td> 
+   <td><code> /lc-level-1</code><br /> <br /> (no change)</td> 
+   <td><code> </code></td> 
+   <td><code> /lc-level-1</code><br /> <br /> (no change)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -178,19 +179,19 @@ In this case the live copy effectively takes precedence. The blueprint page `/b`
  </caption> 
  <tbody> 
   <tr> 
-   <td style="text-align: left;" valign="top"><strong>blueprint after rollout</strong></td> 
-   <td style="text-align: left;" valign="top" width="40%"><strong>live copy after rollout</strong><br /> <br /> <br /> </td> 
-   <td style="text-align: left;" valign="top" width="40%"><strong>publish after rollout</strong><br /> <br /> </td> 
+   <td><strong>blueprint after rollout</strong></td> 
+   <td><strong>live copy after rollout</strong><br /> <br /> <br /> </td> 
+   <td><strong>publish after rollout</strong><br /> <br /> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: left;" valign="top"><code>b</code></td> 
-   <td style="text-align: left;" valign="top"><code>b</code><br /> <br /> (no change; has the content of the page b that was manually created in the live copy branch)</td> 
-   <td style="text-align: left;" valign="top"><code>b</code><br /> <br /> (no change; contains the content of the page b that was manually created in the live copy branch)<br /> </td> 
+   <td><code>b</code></td> 
+   <td><code>b</code><br /> <br /> (no change; has the content of the page b that was manually created in the live copy branch)</td> 
+   <td><code>b</code><br /> <br /> (no change; contains the content of the page b that was manually created in the live copy branch)<br /> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: left;" valign="top"><code> /bp-level-1</code><br /> </td> 
-   <td style="text-align: left;" valign="top"><code> /lc-level-1</code><br /> <br /> (no change)</td> 
-   <td style="text-align: left;" valign="top"><code> /lc-level-1</code><br /> <br /> (no change)</td> 
+   <td><code> /bp-level-1</code><br /> </td> 
+   <td><code> /lc-level-1</code><br /> <br /> (no change)</td> 
+   <td><code> /lc-level-1</code><br /> <br /> (no change)</td> 
   </tr> 
  </tbody> 
 </table>

@@ -56,74 +56,74 @@ The actions which can be performed on posted content (UGC) varies depending on t
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"><strong>Admin</strong></td> 
-   <td style="text-align: center;"><strong>Moderator</strong></td> 
-   <td style="text-align: center;"><strong>Creator</strong></td> 
-   <td style="text-align: center;"><strong>Member</strong></td> 
-   <td style="text-align: center;"><strong>Visitor</strong></td> 
-   <td style="text-align: center;"><strong>Event<br /> Triggered</strong></td> 
-   <td style="text-align: center;" width="65%"><strong>Premoderated</strong></td> 
+   <td> </td> 
+   <td><strong>Admin</strong></td> 
+   <td><strong>Moderator</strong></td> 
+   <td><strong>Creator</strong></td> 
+   <td><strong>Member</strong></td> 
+   <td><strong>Visitor</strong></td> 
+   <td><strong>Event<br /> Triggered</strong></td> 
+   <td><strong>Premoderated</strong></td> 
   </tr>
   <tr>
-   <td style="text-align: center;"><strong>Edit/<br /> Delete</strong></td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td><strong>Edit/<br /> Delete</strong></td> 
+   <td>X</td> 
+   <td>X</td> 
+   <td>X</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr>
   <tr>
-   <td style="text-align: center;"><strong>Cut</strong></td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td><strong>Cut</strong></td> 
+   <td>X</td> 
+   <td>X</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr>
   <tr>
-   <td style="text-align: center;"><strong>Deny</strong></td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;"> </td> 
+   <td><strong>Deny</strong></td> 
+   <td>X</td> 
+   <td>X</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>X</td> 
+   <td> </td> 
   </tr>
   <tr>
-   <td style="text-align: center;"><strong>Close/<br /> Reopen</strong></td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;">X<br /> </td> 
+   <td><strong>Close/<br /> Reopen</strong></td> 
+   <td>X</td> 
+   <td>X</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>X</td> 
+   <td>X<br /> </td> 
   </tr>
   <tr>
-   <td style="text-align: center;"><strong>Flag/<br /> Unflag</strong></td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: left;"> </td> 
+   <td><strong>Flag/<br /> Unflag</strong></td> 
+   <td>X</td> 
+   <td>X</td> 
+   <td> </td> 
+   <td>X</td> 
+   <td> </td> 
+   <td>X</td> 
+   <td> </td> 
   </tr>
   <tr>
-   <td style="text-align: center;"><strong>Allow</strong></td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;">X</td> 
-   <td style="text-align: center;">X</td> 
+   <td><strong>Allow</strong></td> 
+   <td>X</td> 
+   <td>X</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>X</td> 
+   <td>X</td> 
   </tr>
  </tbody>
 </table>

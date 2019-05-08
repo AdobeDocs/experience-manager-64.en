@@ -4444,34 +4444,34 @@ The GeneratePDFService provides APIs to convert various file formats such as .do
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;" width="40%"><strong>API</strong></td> 
-   <td style="text-align: center;" valign="top" width="98"><p><strong>Microsoft Windows </strong></p> </td> 
-   <td style="text-align: center;"><strong>Linux </strong></td> 
+   <td><strong>API</strong></td> 
+   <td><p><strong>Microsoft Windows </strong></p> </td> 
+   <td><strong>Linux </strong></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">createPDF</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
+   <td>createPDF</td> 
+   <td><strong>✓</strong></td> 
+   <td><strong>✓</strong></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">exportPDF</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
+   <td>exportPDF</td> 
+   <td><strong>✓</strong></td> 
+   <td><strong>✓</strong></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">optimizePDF</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;">✖</td> 
+   <td>optimizePDF</td> 
+   <td><strong>✓</strong></td> 
+   <td>✖</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">exportPDF</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;">✖</td> 
+   <td>exportPDF</td> 
+   <td><strong>✓</strong></td> 
+   <td>✖</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">OCR PDF (searchable PDF)</td> 
-   <td style="text-align: center;"><strong>✓</strong></td> 
-   <td style="text-align: center;">✖</td> 
+   <td>OCR PDF (searchable PDF)</td> 
+   <td><strong>✓</strong></td> 
+   <td>✖</td> 
   </tr> 
  </tbody> 
 </table>
