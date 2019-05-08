@@ -41,7 +41,7 @@ As mentioned above and shown in the diagram below,running the [Pattern Detector]
 
 ## Upgrade the Code Base {#upgrade-code-base}
 
-### Create a Dedicated Branch for 6.4 Code in Version Control {#create-a-dedicated-branch-for-6.3-code-in-version-control}
+### Create a Dedicated Branch for 6.4 Code in Version Control {#create-a-dedicated-branch-for-6-4-code-in-version-control}
 
 All code and configurations required for your AEM implementation should be managed using some form of version control. A dedicated branch in version control should be created for managing any changes needed for the code base in the target version of AEM. Iterative testing of the code base against the target version of AEM and subsequent bug fixes will be managed in this branch.
 

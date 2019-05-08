@@ -38,7 +38,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -105,7 +105,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -130,7 +130,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -149,7 +149,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -192,7 +192,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -217,7 +217,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -242,7 +242,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -261,7 +261,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -302,7 +302,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -321,7 +321,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
@@ -344,15 +344,15 @@ All the submission events of adaptive forms, HTML5 Forms, and form set are accou
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="15%"><p>Use Case</p> </td> 
-   <td width="15%">Description</td> 
-   <td width="15%">Transaction report category</td> 
+   <td><p>Use Case</p> </td> 
+   <td>Description</td> 
+   <td>Transaction report category</td> 
    <td>Additional Information</td> 
   </tr>
   <tr>
    <td>Submitting an adaptive form</td> 
    <td>Submits an adaptive form to configured submit action. </td> 
-   <td width="20%">Forms Submitted</td> 
+   <td>Forms Submitted</td> 
    <td>
     <ul> 
      <li>Successful submissions account for single or two transactions. The number of transactions counted depends upon the type of submit action used for submission. For example, sending PDF through email submit action accounts for two counts of transactions. One transaction for form submission and another for PDF generated using the Document of Record (DOR) service. </li> 
@@ -367,13 +367,13 @@ All the submission events of adaptive forms, HTML5 Forms, and form set are accou
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="15%"><p>Use Case</p> </td> 
-   <td width="15%">Description </td> 
-   <td width="15%">Transaction report category</td> 
+   <td><p>Use Case</p> </td> 
+   <td>Description </td> 
+   <td>Transaction report category</td> 
    <td>Additional Information</td> 
   </tr>
   <tr>
-   <td width="30%">Submitting an HTML5 Form</td> 
+   <td>Submitting an HTML5 Form</td> 
    <td>Submits an HTML5 Form to submit URL configured in the form.</td> 
    <td>Forms Submitted</td> 
    <td> </td> 
@@ -386,13 +386,13 @@ All the submission events of adaptive forms, HTML5 Forms, and form set are accou
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
-   <td width="15%">Description</td> 
-   <td width="15%">Transaction report category</td> 
+   <td><p>API</p> </td> 
+   <td>Description</td> 
+   <td>Transaction report category</td> 
    <td>Additional Information</td> 
   </tr>
   <tr>
-   <td width="30%">Submitting a form set</td> 
+   <td>Submitting a form set</td> 
    <td>Submits form set to the submit URL configured in the form set.</td> 
    <td>Forms Submitted</td> 
    <td>
@@ -413,13 +413,13 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
   </tr>
   <tr>
-   <td width="30%">Rendering a web channel</td> 
+   <td>Rendering a web channel</td> 
    <td>Opens the web version of an interactive communication.</td> 
    <td>Documents Rendered</td> 
    <td>
@@ -434,13 +434,13 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>API</p> </td> 
+   <td><p>API</p> </td> 
    <td>Description</td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
   </tr>
   <tr>
-   <td width="30%"><a href="https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/fd/ccm/channels/print/api/model/PrintChannel.html" target="_blank">render</a> (convert to PDF)</td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/fd/ccm/channels/print/api/model/PrintChannel.html" target="_blank">render</a> (convert to PDF)</td> 
    <td>Generates the PDF version of an interactive communication.</td> 
    <td>Documents Rendered</td> 
    <td>
@@ -455,12 +455,12 @@ Assign task and document services steps of Form-centric AEM Workflows on OSGi an
 <table> 
  <tbody>
   <tr>
-   <td valign="top" width="121"><p>Use case</p> </td> 
+   <td><p>Use case</p> </td> 
    <td>Transaction report category</td> 
    <td>Additional Information</td> 
   </tr>
   <tr>
-   <td width="30%">Submitting an Assign Task step</td> 
+   <td>Submitting an Assign Task step</td> 
    <td>Forms Submitted</td> 
    <td>
     <div> 

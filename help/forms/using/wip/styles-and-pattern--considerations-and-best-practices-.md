@@ -21,8 +21,8 @@ The service would start identifying and assigning correct fields or panels to th
 <table> 
  <tbody>
   <tr>
-   <td width="30%">Known patterns and resolution</td> 
-   <td width="70%">Example</td> 
+   <td>Known patterns and resolution</td> 
+   <td>Example</td> 
   </tr>
   <tr>
    <td><p><strong>Pattern</strong></p> <p>Service does not convert colored PDF forms to adaptive form.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use black and white or grayscale PDF forms. </p> </td> 
@@ -56,8 +56,8 @@ The service would start identifying and assigning correct fields or panels to th
 <table> 
  <tbody>
   <tr>
-   <td width="30%">Pattern</td> 
-   <td width="70%">Example</td> 
+   <td>Pattern</td> 
+   <td>Example</td> 
   </tr>
   <tr>
    <td><p><strong>Pattern</strong></p> <p>Choice group options with shapes other than box or circle are not converted to corresponding adaptive form components. </p> <p> </p> <p><strong>Resolution</strong></p> <p>Change choice options shapes to box or circle or use Review and Correct editor to identify the shapes.</p> </td> 
@@ -71,12 +71,12 @@ The service would start identifying and assigning correct fields or panels to th
 <table> 
  <tbody>
   <tr>
-   <td width="30%">Pattern</td> 
-   <td width="70%">Example</td> 
+   <td>Pattern</td> 
+   <td>Example</td> 
   </tr>
   <tr>
-   <td width="25%"><p><strong>Pattern</strong></p> <p>Service does not identify fields without clear borders.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use Review and Correct editor to identify such fields.</p> <p> </p> <p> </p> </td> 
-   <td width="50%"><br /> <img src="assets/fields-without-clear-borders.png" /></td> 
+   <td><p><strong>Pattern</strong></p> <p>Service does not identify fields without clear borders.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use Review and Correct editor to identify such fields.</p> <p> </p> <p> </p> </td> 
+   <td><br /> <img src="assets/fields-without-clear-borders.png" /></td> 
   </tr>
   <tr>
    <td><p><strong>Pattern</strong></p> <p>Service leaves some form fields with captions at the bottom or right unidentified.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use Review and Correct editor to identify such fields</p> </td> 
@@ -98,8 +98,8 @@ The service would start identifying and assigning correct fields or panels to th
 <table> 
  <tbody>
   <tr>
-   <td width="30%">Pattern</td> 
-   <td width="70%">Example</td> 
+   <td>Pattern</td> 
+   <td>Example</td> 
   </tr>
   <tr>
    <td><p><strong>Pattern</strong></p> <p>Lists containing form fields are merged or not converted to corresponding adaptive form components</p> <p><strong>Resolution</strong></p> <p>Use forms fields with clear boundaries or use Review and Correct editor to fix such issues.</p> </td> 

@@ -25,228 +25,228 @@ Illustrated below are the deployment options available for AEM (scroll to view a
 <table> 
  <tbody> 
   <tr> 
-   <td height="13" width="104"><p><strong>AEM</strong></p> <p><strong>Product</strong></p> </td> 
-   <td width="106"><p><strong>Topology</strong></p> </td> 
-   <td width="82"><p><strong>Operating System</strong></p> </td> 
-   <td width="87"><p><strong>Application Server</strong></p> </td> 
-   <td width="56"><p><strong>JRE</strong></p> </td> 
-   <td width="64"><p><strong>Security</strong></p> </td> 
-   <td width="106"><p><strong>Micro Kernel</strong></p> </td> 
-   <td width="73"><p><strong>Datastore</strong></p> </td> 
-   <td width="65"><p><strong>Indexing</strong></p> </td> 
-   <td width="65"><p><strong>Web Server</strong></p> </td> 
-   <td width="69"><p><strong>Browser</strong></p> </td> 
-   <td width="82"><p><strong>Marketing Cloud</strong></p> </td> 
+   <td><p><strong>AEM</strong></p> <p><strong>Product</strong></p> </td> 
+   <td><p><strong>Topology</strong></p> </td> 
+   <td><p><strong>Operating System</strong></p> </td> 
+   <td><p><strong>Application Server</strong></p> </td> 
+   <td><p><strong>JRE</strong></p> </td> 
+   <td><p><strong>Security</strong></p> </td> 
+   <td><p><strong>Micro Kernel</strong></p> </td> 
+   <td><p><strong>Datastore</strong></p> </td> 
+   <td><p><strong>Indexing</strong></p> </td> 
+   <td><p><strong>Web Server</strong></p> </td> 
+   <td><p><strong>Browser</strong></p> </td> 
+   <td><p><strong>Marketing Cloud</strong></p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Sites</p> </td> 
-   <td width="106"><p>Non-HA</p> </td> 
-   <td width="82"><p>Windows</p> </td> 
-   <td width="87"><p>CQSE</p> </td> 
-   <td width="56"><p>Oracle</p> </td> 
-   <td width="64"><p>LDAP</p> </td> 
-   <td width="106"><p>Tar</p> </td> 
-   <td width="73"><p>Segment</p> </td> 
-   <td width="65"><p>Property</p> </td> 
-   <td width="65"><p>Apache</p> </td> 
-   <td width="69"><p>Edge</p> </td> 
-   <td width="82"><p>Target</p> </td> 
+   <td><p>Sites</p> </td> 
+   <td><p>Non-HA</p> </td> 
+   <td><p>Windows</p> </td> 
+   <td><p>CQSE</p> </td> 
+   <td><p>Oracle</p> </td> 
+   <td><p>LDAP</p> </td> 
+   <td><p>Tar</p> </td> 
+   <td><p>Segment</p> </td> 
+   <td><p>Property</p> </td> 
+   <td><p>Apache</p> </td> 
+   <td><p>Edge</p> </td> 
+   <td><p>Target</p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Assets</p> </td> 
-   <td width="106"><p>Publish-HA</p> </td> 
-   <td width="82"><p>Solaris</p> </td> 
-   <td width="87"><p>WebLogic</p> </td> 
-   <td width="56"><p>IBM</p> </td> 
-   <td width="64"><p>SAML</p> </td> 
-   <td width="106"><p>MongoDB</p> </td> 
-   <td width="73"><p>File</p> </td> 
-   <td width="65"><p>Lucene</p> </td> 
-   <td width="65"><p>IIS</p> </td> 
-   <td width="69"><p>IE</p> </td> 
-   <td width="82"><p>Analytics</p> </td> 
+   <td><p>Assets</p> </td> 
+   <td><p>Publish-HA</p> </td> 
+   <td><p>Solaris</p> </td> 
+   <td><p>WebLogic</p> </td> 
+   <td><p>IBM</p> </td> 
+   <td><p>SAML</p> </td> 
+   <td><p>MongoDB</p> </td> 
+   <td><p>File</p> </td> 
+   <td><p>Lucene</p> </td> 
+   <td><p>IIS</p> </td> 
+   <td><p>IE</p> </td> 
+   <td><p>Analytics</p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Communities</p> </td> 
-   <td width="106"><p>Author-CS</p> </td> 
-   <td width="82"><p>Red Hat</p> </td> 
-   <td width="87"><p>WebSphere</p> </td> 
-   <td width="56"><p>HP</p> </td> 
-   <td width="64"><p>Oauth</p> </td> 
-   <td width="106"><p>RDB/Oracle</p> </td> 
-   <td width="73"><p>S3/Azure</p> </td> 
-   <td width="65"><p>Solr</p> </td> 
-   <td width="65"><p>iPlanet</p> </td> 
-   <td width="69"><p>FireFox</p> </td> 
-   <td width="82"><p>Campaign</p> </td> 
+   <td><p>Communities</p> </td> 
+   <td><p>Author-CS</p> </td> 
+   <td><p>Red Hat</p> </td> 
+   <td><p>WebSphere</p> </td> 
+   <td><p>HP</p> </td> 
+   <td><p>Oauth</p> </td> 
+   <td><p>RDB/Oracle</p> </td> 
+   <td><p>S3/Azure</p> </td> 
+   <td><p>Solr</p> </td> 
+   <td><p>iPlanet</p> </td> 
+   <td><p>FireFox</p> </td> 
+   <td><p>Campaign</p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Forms</p> </td> 
-   <td width="106"><p>Author-Offload</p> </td> 
-   <td width="82"><p>HP-UX</p> </td> 
-   <td width="87"><p>Tomcat</p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p>RDB/DB2</p> </td> 
-   <td width="73"><p>MongoDB</p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p>Chrome</p> </td> 
-   <td width="82"><p>Social</p> </td> 
+   <td><p>Forms</p> </td> 
+   <td><p>Author-Offload</p> </td> 
+   <td><p>HP-UX</p> </td> 
+   <td><p>Tomcat</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p>RDB/DB2</p> </td> 
+   <td><p>MongoDB</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p>Chrome</p> </td> 
+   <td><p>Social</p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Mobile</p> </td> 
-   <td width="106"><p>Author-Cluster</p> </td> 
-   <td width="82"><p>IBM AIX</p> </td> 
-   <td width="87"><p>JBoss</p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p>RDB/MySQL</p> </td> 
-   <td width="73"><p>RDBMS</p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p>Safari</p> </td> 
-   <td width="82"><p>Audience</p> </td> 
+   <td><p>Mobile</p> </td> 
+   <td><p>Author-Cluster</p> </td> 
+   <td><p>IBM AIX</p> </td> 
+   <td><p>JBoss</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p>RDB/MySQL</p> </td> 
+   <td><p>RDBMS</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p>Safari</p> </td> 
+   <td><p>Audience</p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Multi-site</p> </td> 
-   <td width="106"><p>ASRP</p> </td> 
-   <td width="82"><p>SUSE</p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p>RDB/SQLServer</p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p>Assets</p> </td> 
+   <td><p>Multi-site</p> </td> 
+   <td><p>ASRP</p> </td> 
+   <td><p>SUSE</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p>RDB/SQLServer</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p>Assets</p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Commerce</p> </td> 
-   <td width="106"><p>MSRP</p> </td> 
-   <td width="82"><p>Apple OS</p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p>Activation</p> </td> 
+   <td><p>Commerce</p> </td> 
+   <td><p>MSRP</p> </td> 
+   <td><p>Apple OS</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p>Activation</p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Dynamic Media</p> </td> 
-   <td width="106"><p>JSRP</p> </td> 
-   <td width="82"><p> </p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p>Mobile</p> </td> 
+   <td><p>Dynamic Media</p> </td> 
+   <td><p>JSRP</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p>Mobile</p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Brand Portal</p> </td> 
-   <td width="106"><p>J2E</p> </td> 
-   <td width="82"><p> </p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
+   <td><p>Brand Portal</p> </td> 
+   <td><p>J2E</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>AoD</p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
+   <td><p>AoD</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>LiveFyre</p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
+   <td><p>LiveFyre</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Screens</p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
+   <td><p>Screens</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Doc Security</p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
+   <td><p>Doc Security</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Process Mgt</p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
+   <td><p>Process Mgt</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td width="104"><p>Desktop App</p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
-   <td width="87"><p> </p> </td> 
-   <td width="56"><p> </p> </td> 
-   <td width="64"><p> </p> </td> 
-   <td width="106"><p> </p> </td> 
-   <td width="73"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="65"><p> </p> </td> 
-   <td width="69"><p> </p> </td> 
-   <td width="82"><p> </p> </td> 
+   <td><p>Desktop App</p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
+   <td><p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -722,7 +722,7 @@ For further details on TarMK vs MongoMK, see [Recommended Deployments](/help/sit
   <tr> 
    <td>Scenario</td> 
    <td colspan="2" width="462"><p><br /> Single Product: Assets / 30 concurrent threads per run</p> </td> 
-   <td width="462"> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

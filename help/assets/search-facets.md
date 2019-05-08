@@ -184,14 +184,14 @@ Similar to the way you add a Property predicate or an Options predicate, you can
 <table> 
  <tbody> 
   <tr> 
-   <td width="19%"><p><strong>Predicate Name</strong></p> </td> 
-   <td width="48%"><p><strong>Description</strong></p> </td> 
-   <td width="31%"><p><strong>Properties</strong></p> </td> 
+   <td><p><strong>Predicate Name</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Properties</strong></p> </td> 
   </tr> 
   <tr> 
-   <td width="19%"><p>Fulltext</p> </td> 
-   <td width="48%">Search predicate to perform full text search on an entire asset node. It is mapped with the <code>jcr</code>:<code>contains</code> operator. You can specify a relative path if you want to perform a full text search on a specific part of the asset node.</td> 
-   <td width="31%"> 
+   <td><p>Fulltext</p> </td> 
+   <td>Search predicate to perform full text search on an entire asset node. It is mapped with the <code>jcr</code>:<code>contains</code> operator. You can specify a relative path if you want to perform a full text search on a specific part of the asset node.</td> 
+   <td> 
     <ul> 
      <li>Label</li> 
      <li>Placeholder</li> 
@@ -210,9 +210,9 @@ Similar to the way you add a Property predicate or an Options predicate, you can
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="19%"><p>Path</p> </td> 
-   <td width="48%"><p>Use it to filter results on location. You can specify different paths as options.</p> </td> 
-   <td width="31%"> 
+   <td><p>Path</p> </td> 
+   <td><p>Use it to filter results on location. You can specify different paths as options.</p> </td> 
+   <td> 
     <ul> 
      <li>Label</li> 
      <li>Path</li> 
@@ -220,9 +220,9 @@ Similar to the way you add a Property predicate or an Options predicate, you can
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="19%"><p>Publish Status</p> </td> 
-   <td width="48%"><p>Search predicate to search assets based on their publish status</p> </td> 
-   <td width="31%"> 
+   <td><p>Publish Status</p> </td> 
+   <td><p>Search predicate to search assets based on their publish status</p> </td> 
+   <td> 
     <ul> 
      <li>Label</li> 
      <li>Property name</li> 
@@ -231,8 +231,8 @@ Similar to the way you add a Property predicate or an Options predicate, you can
   </tr> 
   <tr> 
    <td><p>Relative Date</p> </td> 
-   <td width="48%"><p>Search predicate to search assets based on the relative date of their creation. For example, you can configure options, such as 2 months ago, 3 weeks ago, and so on. </p> </td> 
-   <td width="31%"> 
+   <td><p>Search predicate to search assets based on the relative date of their creation. For example, you can configure options, such as 2 months ago, 3 weeks ago, and so on. </p> </td> 
+   <td> 
     <ul> 
      <li>Label</li> 
      <li>Property name</li> 
@@ -241,8 +241,8 @@ Similar to the way you add a Property predicate or an Options predicate, you can
   </tr> 
   <tr> 
    <td><p>Range</p> </td> 
-   <td width="48%"><p>Search predicate to search assets that lie within a specified range. In the Search panel, you can specify minimum and maximum values for the range.</p> </td> 
-   <td width="31%"> 
+   <td><p>Search predicate to search assets that lie within a specified range. In the Search panel, you can specify minimum and maximum values for the range.</p> </td> 
+   <td> 
     <ul> 
      <li>Label</li> 
      <li>Property name</li> 
@@ -251,8 +251,8 @@ Similar to the way you add a Property predicate or an Options predicate, you can
   </tr> 
   <tr> 
    <td><p>Date Range</p> </td> 
-   <td width="48%"><p>Search predicate to search assets created within a specified range for a date property. In the Search panel, you can specify Start and End dates using date pickers.</p> </td> 
-   <td width="31%"> 
+   <td><p>Search predicate to search assets created within a specified range for a date property. In the Search panel, you can specify Start and End dates using date pickers.</p> </td> 
+   <td> 
     <ul> 
      <li>Label</li> 
      <li>Placeholder</li> 
@@ -264,8 +264,8 @@ Similar to the way you add a Property predicate or an Options predicate, you can
   </tr> 
   <tr> 
    <td><p>Date</p> </td> 
-   <td width="48%"><p>Search predicate for a slider-based search of assets based on a date property.</p> </td> 
-   <td width="31%"> 
+   <td><p>Search predicate for a slider-based search of assets based on a date property.</p> </td> 
+   <td> 
     <ul> 
      <li>Label</li> 
      <li>Property name</li> 
@@ -274,8 +274,8 @@ Similar to the way you add a Property predicate or an Options predicate, you can
   </tr> 
   <tr> 
    <td><p>File Size</p> </td> 
-   <td width="48%"><p>Search predicate to search assets based on their size. It is a silder-based predicate where you select the slider options from a configurable node. The default options are defined at /libs/dam/options/predicates/filesize in the CRX repository. File size is provided in bytes.</p> </td> 
-   <td width="31%"> 
+   <td><p>Search predicate to search assets based on their size. It is a silder-based predicate where you select the slider options from a configurable node. The default options are defined at /libs/dam/options/predicates/filesize in the CRX repository. File size is provided in bytes.</p> </td> 
+   <td> 
     <ul> 
      <li>Label</li> 
      <li>Property name</li> 

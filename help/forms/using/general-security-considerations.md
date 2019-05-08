@@ -47,7 +47,7 @@ For security information about operating systems that AEM Forms on JEE supports,
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e209 " valign="top" width="NaN%"><p>Microsoft Windows Server® 2012 </p> </td> 
-   <td valign="top" width="NaN%"><p><a href="https://blogs.technet.com/b/secguide/archive/2014/08/13/security-baselines-for-windows-8-1-windows-server-2012-r2-and-internet-explorer-11-final.aspx" target="_blank">Windows Server 2012 Security Guide</a></p> </td> 
+   <td><p><a href="https://blogs.technet.com/b/secguide/archive/2014/08/13/security-baselines-for-windows-8-1-windows-server-2012-r2-and-internet-explorer-11-final.aspx" target="_blank">Windows Server 2012 Security Guide</a></p> </td> 
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e209 " valign="top" width="NaN%"><p>Microsoft Windows Server® 2016 </p> </td> 

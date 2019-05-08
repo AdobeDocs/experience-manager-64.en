@@ -114,9 +114,9 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   <tr>
    <td><strong>Notes</strong></td> 
    <td>Any explicit path references in 
-    <g class="gr_ gr_26 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep" data-gr-id="26" id="26">
+    <code>
      custom
-    </g> code to the Previous Location should also take into account the New Location. It is recommended that this code is refactored to use the AEM Workflow APIs.</td> 
+    </code> code to the Previous Location should also take into account the New Location. It is recommended that this code is refactored to use the AEM Workflow APIs.</td> 
   </tr>
  </tbody>
 </table>
@@ -178,9 +178,9 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   <tr>
    <td><strong>Notes</strong></td> 
    <td><p>AEM 6.4 SP1, when it is released, makes it so this restructuring can be deferred until 6.5 
-     <g class="gr_ gr_18 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="18" id="18">
+     <code>
       upgrade
-     </g>.</p> <p>If upgrading to AEM 6.4 prior to AEM 6.4 SP1 being released, this restructuring should be performed as part of the upgrade project. Without doing so, editing and saving Workflow Steps referencing scripts in the Previous Location will remove the Workflow Script reference from the Workflow Step entirely, and only Workflow Scripts in New Locations will be available in the script selection drop-down.</p> </td> 
+     </code>.</p> <p>If upgrading to AEM 6.4 prior to AEM 6.4 SP1 being released, this restructuring should be performed as part of the upgrade project. Without doing so, editing and saving Workflow Steps referencing scripts in the Previous Location will remove the Workflow Script reference from the Workflow Step entirely, and only Workflow Scripts in New Locations will be available in the script selection drop-down.</p> </td> 
   </tr>
  </tbody>
 </table>
@@ -237,12 +237,12 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Copy the designs from the Previous Location to the New Location (<code>/apps</code>).</li> 
      <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the <span class="code">
-       <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
+       <code>
         cq
-       </g>:
-       <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="19" id="19">
+       </code>:
+       <code>
         designPath
-       </g></span> property.</li> 
+       </code></span> property.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 
@@ -276,12 +276,12 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
      <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the 
-      <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
+      <code>
        cq
-      </g>:
-      <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="19" id="19">
+      </code>:
+      <code>
        designPath
-      </g> property.</li> 
+      </code> property.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 
@@ -315,12 +315,12 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
      <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the 
-      <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="19" id="19">
+      <code>
        cq
-      </g>:
-      <g class="gr_ gr_20 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="20" id="20">
+      </code>:
+      <code>
        designPath
-      </g> property.</li> 
+      </code> property.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 
@@ -354,12 +354,12 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
      <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the 
-      <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
+      <code>
        cq
-      </g>:
-      <g class="gr_ gr_20 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="20" id="20">
+      </code>:
+      <code>
        designPath
-      </g> property.</li> 
+      </code> property.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 
@@ -561,12 +561,12 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   <tr>
    <td><strong>Notes</strong></td> 
    <td><p>Restarting the Day Communique Tagging OSGi bundle will only register the New Location as the tag root if the Previous Location is empty.</p> <p>References to the Previous Location will continue to work after migrating to New Location for all functionality that leverages AEM's TagManager API for tag resolution.</p> <p>Any custom code that explicitly references the path <code>/etc/tags</code> must be updated to <span class="code">/content/
-      <g class="gr_ gr_14 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="14" id="14">
+      <code>
        cq
-      </g>
-      <g class="gr_ gr_16 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="16" id="16">
+      </code>
+      <code>
        :tags
-      </g></span>, or preferably rewritten to leverage the TagManager Java API, in tandem with this migration.</p> </td> 
+      </code></span>, or preferably rewritten to leverage the TagManager Java API, in tandem with this migration.</p> </td> 
   </tr>
  </tbody>
 </table>
@@ -697,12 +697,12 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Copy the designs from the Previous Location to the New Location (/apps).</li> 
      <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/help/sites-developing/clientlibs.md#creating-client-library-folders" target="_blank">Client Library</a> with <code>allowProxy = true</code>.</li> 
      <li>Update references to the Previous Location in the 
-      <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="18" id="18">
+      <code>
        cq
-      </g>:
-      <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="19" id="19">
+      </code>:
+      <code>
        designPath
-      </g> property.</li> 
+      </code> property.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category (this requires updating Page implementation code).</li> 
      <li>Update AEM Dispatcher rules to allow the serving of Client Libraries via the /etc.clientlibs/.. proxy servlet.</li> 
     </ol> <p>For any Designs that NOT managed in SCM, and modified run-time via Design Dialogs.</p> 

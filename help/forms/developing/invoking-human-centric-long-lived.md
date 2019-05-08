@@ -376,10 +376,10 @@ The following HTML code represents the index.html file that was created during s
  <table> 
      <TBODY> 
          <TR> 
-             <TD width="172"><img src="financeCorpLogo.jpg" width="172" height="62"></TD> 
-             <TD width="314"><FONT size="+2"><strong>Java Loan Application Page</strong></FONT></TD> 
-             <TD width="10"> </TD> 
-             <TD width="123"> </TD> 
+             <td><img src="financeCorpLogo.jpg" width="172" height="62"></TD> 
+             <td><FONT size="+2"><strong>Java Loan Application Page</strong></FONT></TD> 
+             <td> </TD> 
+             <td> </TD> 
          </TR> 
           
      </TBODY> 
@@ -388,20 +388,20 @@ The following HTML code represents the index.html file that was created during s
         <table> 
           <TBODY> 
                 <TR> 
-                      <TD width="114"><LABEL for="name">Name: </LABEL></TD> 
-                  <TD width="166"><INPUT type="text" name="name"></TD> 
-                  <TD width="267"><input type="submit" value="Submit Application"></TD> 
+                      <td><LABEL for="name">Name: </LABEL></TD> 
+                  <td><INPUT type="text" name="name"></TD> 
+                  <td><input type="submit" value="Submit Application"></TD> 
                   </TR> 
             <TR> 
-                  <TD width="114"> <LABEL for="phone">Phone/Email: </LABEL></TD> 
-              <TD width="166"><INPUT type="text" name="phone"></TD> 
-                  <TD width="267"></TD> 
+                  <td> <LABEL for="phone">Phone/Email: </LABEL></TD> 
+              <td><INPUT type="text" name="phone"></TD> 
+                  <td></TD> 
               </TR> 
   
             <TR> 
-                  <TD width="114"><LABEL for="amount">Amount: </LABEL></TD> 
-              <TD width="166"><INPUT type="text" name="amount"></TD> 
-                 <TD width="267"></TD> 
+                  <td><LABEL for="amount">Amount: </LABEL></TD> 
+              <td><INPUT type="text" name="amount"></TD> 
+                 <td></TD> 
              </TR> 
           </TBODY> 
  </TABLE> 

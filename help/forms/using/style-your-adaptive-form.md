@@ -149,7 +149,7 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
 <table> 
  <tbody> 
   <tr> 
-   <td width="20%">Margin</td> 
+   <td>Margin</td> 
    <td>Value</td> 
   </tr> 
   <tr> 
@@ -180,7 +180,7 @@ You can use multiple components in an adaptive form to capture data. For example
  <tbody> 
   <tr> 
    <td>Accordion</td> 
-   <td width="40%">Property</td> 
+   <td>Property</td> 
    <td>Value</td> 
   </tr> 
   <tr> 
@@ -312,7 +312,7 @@ Some styles apply to only a specific component. Such components are styled in ad
 <table> 
  <tbody> 
   <tr> 
-   <td width="40%">Accordion</td> 
+   <td>Accordion</td> 
    <td>Property</td> 
    <td>Value</td> 
   </tr> 
@@ -401,8 +401,8 @@ Some styles apply to only a specific component. Such components are styled in ad
 <table> 
  <tbody> 
   <tr> 
-   <td width="40%">Accordion</td> 
-   <td width="40%">Property</td> 
+   <td>Accordion</td> 
+   <td>Property</td> 
    <td>Value</td> 
   </tr> 
   <tr> 

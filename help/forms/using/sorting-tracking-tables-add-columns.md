@@ -27,84 +27,84 @@ The remaining attributes in the task model available for display in the task tab
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="161"><p>actionInstanceId</p> </td> 
-   <td valign="top" width="172"><p>isOpenFullScreen</p> </td> 
-   <td valign="top" width="144"><p>reminderCount</p> </td> 
+   <td><p>actionInstanceId</p> </td> 
+   <td><p>isOpenFullScreen</p> </td> 
+   <td><p>reminderCount</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>classOfTask</p> </td> 
-   <td valign="top" width="172"><p>isOwner</p> </td> 
-   <td valign="top" width="144"><p>routeList</p> </td> 
+   <td><p>classOfTask</p> </td> 
+   <td><p>isOwner</p> </td> 
+   <td><p>routeList</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>consultGroupId</p> </td> 
-   <td valign="top" width="172"><p>isRouteSelectionRequired</p> </td> 
-   <td valign="top" width="144"><p>savedFormCount</p> </td> 
+   <td><p>consultGroupId</p> </td> 
+   <td><p>isRouteSelectionRequired</p> </td> 
+   <td><p>savedFormCount</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>contentType</p> </td> 
-   <td valign="top" width="172"><p>isShowAttachments</p> </td> 
-   <td valign="top" width="144"><p>serializedImageTicket</p> </td> 
+   <td><p>contentType</p> </td> 
+   <td><p>isShowAttachments</p> </td> 
+   <td><p>serializedImageTicket</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>createTime</p> </td> 
-   <td valign="top" width="172"><p>isStartTask</p> </td> 
-   <td valign="top" width="144"><p>serviceName</p> </td> 
+   <td><p>createTime</p> </td> 
+   <td><p>isStartTask</p> </td> 
+   <td><p>serviceName</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>creationId</p> </td> 
-   <td valign="top" width="172"><p>isVisible</p> </td> 
-   <td valign="top" width="144"><p>serviceTitle</p> </td> 
+   <td><p>creationId</p> </td> 
+   <td><p>isVisible</p> </td> 
+   <td><p>serviceTitle</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>currentAssignment</p> </td> 
-   <td valign="top" width="172"><p>nextReminder</p> </td> 
-   <td valign="top" width="144"><p>showACLActions</p> </td> 
+   <td><p>currentAssignment</p> </td> 
+   <td><p>nextReminder</p> </td> 
+   <td><p>showACLActions</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>deadline</p> </td> 
-   <td valign="top" width="172"><p>numForms</p> </td> 
-   <td valign="top" width="144"><p>showDirectActions</p> </td> 
+   <td><p>deadline</p> </td> 
+   <td><p>numForms</p> </td> 
+   <td><p>showDirectActions</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>description</p> </td> 
-   <td valign="top" width="172"><p>numFormsToBeSaved</p> </td> 
-   <td valign="top" width="144"><p>status</p> </td> 
+   <td><p>description</p> </td> 
+   <td><p>numFormsToBeSaved</p> </td> 
+   <td><p>status</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>displayName</p> </td> 
-   <td valign="top" width="172"><p>outOfOfficeUserId</p> </td> 
-   <td valign="top" width="144"><p>summaryUrl</p> </td> 
+   <td><p>displayName</p> </td> 
+   <td><p>outOfOfficeUserId</p> </td> 
+   <td><p>summaryUrl</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>forwardGroupId</p> </td> 
-   <td valign="top" width="172"><p>outOfOfficeUserName</p> </td> 
-   <td valign="top" width="144"><p>supportsSave</p> </td> 
+   <td><p>forwardGroupId</p> </td> 
+   <td><p>outOfOfficeUserName</p> </td> 
+   <td><p>supportsSave</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>isApprovalUI</p> </td> 
-   <td valign="top" width="172"><p>priority</p> </td> 
-   <td valign="top" width="144"><p>taskACL</p> </td> 
+   <td><p>isApprovalUI</p> </td> 
+   <td><p>priority</p> </td> 
+   <td><p>taskACL</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>isCustomUI</p> </td> 
-   <td valign="top" width="172"><p>processInstanceId</p> </td> 
-   <td valign="top" width="144"><p>taskFormType</p> </td> 
+   <td><p>isCustomUI</p> </td> 
+   <td><p>processInstanceId</p> </td> 
+   <td><p>taskFormType</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>isDefaultImage</p> </td> 
-   <td valign="top" width="172"><p>processInstanceStatus</p> </td> 
-   <td valign="top" width="144"><p>taskUserInfo</p> </td> 
+   <td><p>isDefaultImage</p> </td> 
+   <td><p>processInstanceStatus</p> </td> 
+   <td><p>taskUserInfo</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>isLocked</p> </td> 
-   <td valign="top" width="172"><p>processVariables</p> </td> 
-   <td valign="top" width="144"> </td> 
+   <td><p>isLocked</p> </td> 
+   <td><p>processVariables</p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>isMustOpenToComplete</p> </td> 
-   <td valign="top" width="172"><p>readerSubmitOptions</p> </td> 
-   <td valign="top" width="144"> </td> 
+   <td><p>isMustOpenToComplete</p> </td> 
+   <td><p>readerSubmitOptions</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

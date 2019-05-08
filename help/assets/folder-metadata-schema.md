@@ -62,40 +62,40 @@ The **[!UICONTROL Build Form]** tab lists form items that you use in your folder
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top"><p><strong>Component Name</strong></p> </td> 
-   <td valign="top"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Component Name</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Section Header</p> </td> 
-   <td valign="top"><p> Add a section heading for a list of common components.</p> </td> 
+   <td><p>Section Header</p> </td> 
+   <td><p> Add a section heading for a list of common components.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Single Line Text</p> </td> 
-   <td valign="top"><p> Add a single-line text property. It is stored as a string.</p> </td> 
+   <td><p>Single Line Text</p> </td> 
+   <td><p> Add a single-line text property. It is stored as a string.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Multi Value Text</p> </td> 
-   <td valign="top"><p> Add a multi value text property. It is stored as a string array.</p> </td> 
+   <td><p>Multi Value Text</p> </td> 
+   <td><p> Add a multi value text property. It is stored as a string array.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Number</p> </td> 
-   <td valign="top"><p> Add a number component.</p> </td> 
+   <td><p>Number</p> </td> 
+   <td><p> Add a number component.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Date</p> </td> 
-   <td valign="top"><p> Add a date component.</p> </td> 
+   <td><p>Date</p> </td> 
+   <td><p> Add a date component.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Dropdown</p> </td> 
-   <td valign="top"><p> Add a drop-down list.</p> </td> 
+   <td><p>Dropdown</p> </td> 
+   <td><p> Add a drop-down list.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Standard Tags</p> </td> 
-   <td valign="top"><p> Add a tag. </p> </td> 
+   <td><p>Standard Tags</p> </td> 
+   <td><p> Add a tag. </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Hidden Field</p> </td> 
-   <td valign="top"><p> Add a hidden field. It is sent as a POST parameter when the asset is saved.</p> </td> 
+   <td><p>Hidden Field</p> </td> 
+   <td><p> Add a hidden field. It is sent as a POST parameter when the asset is saved.</p> </td> 
   </tr> 
  </tbody> 
 </table>

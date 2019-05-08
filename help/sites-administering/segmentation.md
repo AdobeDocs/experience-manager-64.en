@@ -55,12 +55,12 @@ The following containers are available out-of-the-box and allow you to group com
 <table> 
  <tbody> 
   <tr> 
-   <td width="125">Container AND<br /> </td> 
-   <td width="400">The boolean AND operator<br /> </td> 
+   <td>Container AND<br /> </td> 
+   <td>The boolean AND operator<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125">Container OR<br /> </td> 
-   <td width="400">The boolean OR operator</td> 
+   <td>Container OR<br /> </td> 
+   <td>The boolean OR operator</td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,24 +72,24 @@ The following segment comparisons are available out-of-the-box to evaluate segme
 <table> 
  <tbody> 
   <tr> 
-   <td width="125">Property-Value<br /> </td> 
-   <td width="400">Compares a property of a store to a defined value<br /> </td> 
+   <td>Property-Value<br /> </td> 
+   <td>Compares a property of a store to a defined value<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125">Property-Property</td> 
-   <td width="400">Compares one property of a store to another property<br /> </td> 
+   <td>Property-Property</td> 
+   <td>Compares one property of a store to another property<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125">Property-Segment Reference</td> 
-   <td width="400">Compares a property of a store to another referenced segment<br /> </td> 
+   <td>Property-Segment Reference</td> 
+   <td>Compares a property of a store to another referenced segment<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125">Property-Script Reference</td> 
-   <td width="400">Compares a property of a store to the results of a script<br /> </td> 
+   <td>Property-Script Reference</td> 
+   <td>Compares a property of a store to the results of a script<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125">Segment Reference-Script Reference</td> 
-   <td width="400">Compares a referenced segment to the results of a script<br /> </td> 
+   <td>Segment Reference-Script Reference</td> 
+   <td>Compares a referenced segment to the results of a script<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,12 +111,12 @@ The following references are available out-of-the-box to link directly to a scri
 <table> 
  <tbody> 
   <tr> 
-   <td width="125">Segment Reference<br /> </td> 
-   <td width="400">Evaluate the referenced segment</td> 
+   <td>Segment Reference<br /> </td> 
+   <td>Evaluate the referenced segment</td> 
   </tr> 
   <tr> 
-   <td width="125">Script Reference</td> 
-   <td width="400">Evaluate the referenced script. See the following section <a href="/help/sites-administering/segmentation.md#using-script-references">Using Script References</a> for more information.</td> 
+   <td>Script Reference</td> 
+   <td>Evaluate the referenced script. See the following section <a href="/help/sites-administering/segmentation.md#using-script-references">Using Script References</a> for more information.</td> 
   </tr> 
  </tbody> 
 </table>

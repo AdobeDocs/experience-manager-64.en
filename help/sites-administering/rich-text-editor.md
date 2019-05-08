@@ -49,39 +49,39 @@ Authors can create and edit textual content in AEM using the different modes of 
 <table> 
  <tbody> 
   <tr> 
-   <th style="text-align: center;" valign="middle">Editing mode</th> 
+   <th>Editing mode</th> 
    <th>Editing area</th> 
    <th>Recommended features to be enabled<br /> </th> 
-   <th style="text-align: center;" valign="middle">Touch UI</th> 
-   <th style="text-align: center;" valign="middle">Classic UI</th> 
+   <th>Touch UI</th> 
+   <th>Classic UI</th> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">Inline</td> 
+   <td>Inline</td> 
    <td>In-place editing for quick, minor edits; Format without opening a dialog box</td> 
    <td>Minimal RTE features</td> 
-   <td style="text-align: center;">Y</td> 
-   <td style="text-align: center;">Y</td> 
+   <td>Y</td> 
+   <td>Y</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">RTE full screen</td> 
+   <td>RTE full screen</td> 
    <td>Covers entire page<br /> </td> 
    <td>All the required RTE features<br /> </td> 
-   <td style="text-align: center;">Y</td> 
-   <td style="text-align: center;">N<br /> </td> 
+   <td>Y</td> 
+   <td>N<br /> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">Dialog</td> 
+   <td>Dialog</td> 
    <td>Dialog box on top of the page content but does not cover the entire page</td> 
    <td>All the required RTE features in Classic UI; judiciously enable features in Touch UI<br /> </td> 
-   <td style="text-align: center;">Y</td> 
-   <td style="text-align: center;">Y</td> 
+   <td>Y</td> 
+   <td>Y</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">Dialog full screen<br /> </td> 
+   <td>Dialog full screen<br /> </td> 
    <td>Same as Full screen mode; contains fields of the dialog alongside RTE<br /> </td> 
    <td>All the required RTE features</td> 
-   <td style="text-align: center;">Y</td> 
-   <td style="text-align: center;">N</td> 
+   <td>Y</td> 
+   <td>N</td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,84 +144,84 @@ The following table lists the current plug-ins, showing:
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="100"><p>Plug-in ID<br /> <br /> </p> </td> 
-   <td valign="top" width="100"><p>features<br /> <br /> </p> </td> 
-   <td valign="top" width="200"><p>Description<br /> <br /> </p> </td> 
+   <td><p>Plug-in ID<br /> <br /> </p> </td> 
+   <td><p>features<br /> <br /> </p> </td> 
+   <td><p>Description<br /> <br /> </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>edit</p> </td> 
-   <td valign="top" width="100"><p>cut<br /> copy<br /> paste-default<br /> paste-plaintext<br /> paste-wordhtml</p> </td> 
-   <td valign="top" width="200"><p><a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Cut, copy and, the three paste modes</a>.</p> </td> 
+   <td><p>edit</p> </td> 
+   <td><p>cut<br /> copy<br /> paste-default<br /> paste-plaintext<br /> paste-wordhtml</p> </td> 
+   <td><p><a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Cut, copy and, the three paste modes</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FindReplacePlugin">findreplace</a></p> </td> 
-   <td valign="top" width="100"><p>find<br /> replace</p> </td> 
-   <td valign="top" width="200"><p>Find and replace.</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FindReplacePlugin">findreplace</a></p> </td> 
+   <td><p>find<br /> replace</p> </td> 
+   <td><p>Find and replace.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FormatPlugin">format</a></p> </td> 
-   <td valign="top" width="100"><p>bold<br /> italic<br /> underline</p> </td> 
-   <td valign="top" width="200"><p><a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Basic text formatting</a>.</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FormatPlugin">format</a></p> </td> 
+   <td><p>bold<br /> italic<br /> underline</p> </td> 
+   <td><p><a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Basic text formatting</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ImagePlugin">image</a></p> </td> 
-   <td valign="top" width="100"><p>image</p> </td> 
-   <td valign="top" width="200"><p>Set some image properties such as alignment and alt text. Basic support to drag and drop images from Content Finder works without this plug-in.</p> <p><em>Note</em>: The authoring behavior may vary with the browser. For example, Mozilla Firefox provides re-sizing capabilities but Google Chrome does not.</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ImagePlugin">image</a></p> </td> 
+   <td><p>image</p> </td> 
+   <td><p>Set some image properties such as alignment and alt text. Basic support to drag and drop images from Content Finder works without this plug-in.</p> <p><em>Note</em>: The authoring behavior may vary with the browser. For example, Mozilla Firefox provides re-sizing capabilities but Google Chrome does not.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.KeyPlugin">keys</a></p> </td> 
-   <td valign="top"><p> </p> </td> 
-   <td valign="top"><p>To define this value, see <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#tabsize" target="_blank">tab size</a>.</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.KeyPlugin">keys</a></p> </td> 
+   <td><p> </p> </td> 
+   <td><p>To define this value, see <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#tabsize" target="_blank">tab size</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.JustifyPlugin">justify</a></p> </td> 
-   <td valign="top" width="100"><p>justifyleft<br /> justifycenter<br /> justifyright</p> </td> 
-   <td valign="top" width="200"><p>Paragraph alignment.</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.JustifyPlugin">justify</a></p> </td> 
+   <td><p>justifyleft<br /> justifycenter<br /> justifyright</p> </td> 
+   <td><p>Paragraph alignment.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.LinkPlugin">links</a></p> </td> 
-   <td valign="top" width="100"><p>modifylink<br /> unlink<br /> anchor</p> </td> 
-   <td valign="top" width="200"><p><a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#linkstyles" target="_blank">Hyperlinks and anchors</a>.</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.LinkPlugin">links</a></p> </td> 
+   <td><p>modifylink<br /> unlink<br /> anchor</p> </td> 
+   <td><p><a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#linkstyles" target="_blank">Hyperlinks and anchors</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ListPlugin">lists</a></p> </td> 
-   <td valign="top"><p>ordered<br /> unordered<br /> indent<br /> outdent</p> </td> 
-   <td valign="top"><p>This plug-in controls both <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#indentmargin" target="_blank">indentation and lists</a>; including nested lists.</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ListPlugin">lists</a></p> </td> 
+   <td><p>ordered<br /> unordered<br /> indent<br /> outdent</p> </td> 
+   <td><p>This plug-in controls both <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#indentmargin" target="_blank">indentation and lists</a>; including nested lists.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.MiscToolsPlugin">misctools</a></p> </td> 
-   <td valign="top" width="100"><p>specialchars<br /> sourceedit</p> </td> 
-   <td valign="top" width="200">Miscellaneous tools allow authors to enter <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#spchar" target="_blank">special characters</a> or edit the HTML source. Also, you can add a whole <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#definerangechar" target="_blank">range of special characters</a> if you want to define your own list.</td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.MiscToolsPlugin">misctools</a></p> </td> 
+   <td><p>specialchars<br /> sourceedit</p> </td> 
+   <td>Miscellaneous tools allow authors to enter <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#spchar" target="_blank">special characters</a> or edit the HTML source. Also, you can add a whole <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#definerangechar" target="_blank">range of special characters</a> if you want to define your own list.</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>Paraformat</p> </td> 
-   <td valign="top" width="100"><p>paraformat</p> </td> 
-   <td valign="top" width="200">The default paragraph formats are Paragraph, Heading 1, Heading 2, and Heading 3 (&lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt;). You can <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#paraformats" target="_blank">add more paragraph formats</a> or extend the list.</td> 
+   <td><p>Paraformat</p> </td> 
+   <td><p>paraformat</p> </td> 
+   <td>The default paragraph formats are Paragraph, Heading 1, Heading 2, and Heading 3 (&lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt;). You can <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#paraformats" target="_blank">add more paragraph formats</a> or extend the list.</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>spellcheck</p> </td> 
-   <td valign="top" width="100"><p>checktext</p> </td> 
-   <td valign="top" width="200"><p><a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#adddict" target="_blank">Language aware spell checker</a>.</p> </td> 
+   <td><p>spellcheck</p> </td> 
+   <td><p>checktext</p> </td> 
+   <td><p><a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#adddict" target="_blank">Language aware spell checker</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>styles</p> </td> 
-   <td valign="top" width="100"><p>styles</p> </td> 
-   <td valign="top" width="200">Support for styling using a CSS class. <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#textstyles" target="-blank">Add new text styles</a> if you want to add (or extend) your own range of styles for use with text.</td> 
+   <td><p>styles</p> </td> 
+   <td><p>styles</p> </td> 
+   <td>Support for styling using a CSS class. <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#textstyles" target="-blank">Add new text styles</a> if you want to add (or extend) your own range of styles for use with text.</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>subsuperscript</p> </td> 
-   <td valign="top" width="100"><p>subscript<br /> superscript</p> </td> 
-   <td valign="top" width="200"><p>Extensions to the basic formats, adding sub- and super-script.</p> </td> 
+   <td><p>subsuperscript</p> </td> 
+   <td><p>subscript<br /> superscript</p> </td> 
+   <td><p>Extensions to the basic formats, adding sub- and super-script.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>table</p> </td> 
-   <td valign="top" width="100"><p>table<br /> removetable<br /> insertrow<br /> removerow<br /> insertcolumn<br /> removecolumn<br /> cellprops<br /> mergecells<br /> splitcell<br /> selectrow<br /> selectcolumns</p> </td> 
-   <td valign="top" width="200">See <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#tablestyles" target="_blank">configure table styles</a>, if you want to add your own styles for either entire tables or individual cells.</td> 
+   <td><p>table</p> </td> 
+   <td><p>table<br /> removetable<br /> insertrow<br /> removerow<br /> insertcolumn<br /> removecolumn<br /> cellprops<br /> mergecells<br /> splitcell<br /> selectrow<br /> selectcolumns</p> </td> 
+   <td>See <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#tablestyles" target="_blank">configure table styles</a>, if you want to add your own styles for either entire tables or individual cells.</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="100"><p>undo</p> </td> 
-   <td valign="top" width="100"><p>undo<br /> redo</p> </td> 
-   <td valign="top" width="200">History size of <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#undohistory" target="_blank">undo and redo</a> operations.</td> 
+   <td><p>undo</p> </td> 
+   <td><p>undo<br /> redo</p> </td> 
+   <td>History size of <a href="/help/sites-administering/configure-rich-text-editor-plug-ins.md#undohistory" target="_blank">undo and redo</a> operations.</td> 
   </tr> 
  </tbody> 
 </table>

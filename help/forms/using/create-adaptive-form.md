@@ -80,7 +80,7 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
 <table> 
  <tbody> 
   <tr> 
-   <td width="25%">Property</td> 
+   <td>Property</td> 
    <td>Text Box 1<br /> </td> 
    <td>Text Box 2<br /> </td> 
    <td>Text Box 3</td> 
@@ -135,7 +135,7 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
 <table> 
  <tbody> 
   <tr> 
-   <td width="25%">Property</td> 
+   <td>Property</td> 
    <td>Value</td> 
   </tr> 
   <tr> 

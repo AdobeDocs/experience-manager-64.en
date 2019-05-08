@@ -46,24 +46,24 @@ You can use the `applyUsageRights`Java API to apply usage rights to policy-prote
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="132"><p><strong>Parameter</strong></p> </td> 
-   <td valign="top" width="492"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Parameter</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="132"><p>inputFile</p> </td> 
-   <td valign="top" width="492"><p>Specify InputStream that represents the PDF document to which usage rights are to be applied. You can use LiveCycle Rights Management or AEM Forms document security protected documents.</p> </td> 
+   <td><p>inputFile</p> </td> 
+   <td><p>Specify InputStream that represents the PDF document to which usage rights are to be applied. You can use LiveCycle Rights Management or AEM Forms document security protected documents.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="132"><p>certFile</p> </td> 
-   <td valign="top" width="492"><p>Specify File object that represents a .jks file. The .jks file is a keystore file. It points to a certificate that grants usage rights.</p> </td> 
+   <td><p>certFile</p> </td> 
+   <td><p>Specify File object that represents a .jks file. The .jks file is a keystore file. It points to a certificate that grants usage rights.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="132"><p>credentialPassword</p> </td> 
-   <td valign="top" width="492"><p>Specify password of the keystore. </p> </td> 
+   <td><p>credentialPassword</p> </td> 
+   <td><p>Specify password of the keystore. </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="132"><p>usageRights</p> </td> 
-   <td valign="top" width="492"><p>Specifies an object of type <a href="https://help.adobe.com/en_US/livecycle/11.0/ProgramLC/javadoc/com/adobe/livecycle/readerextensions/client/UsageRights.html" target="_blank">UsageRights</a>. The usageRights object represents individual rights that can be applied to a policy-protected PDF document.</p> </td> 
+   <td><p>usageRights</p> </td> 
+   <td><p>Specifies an object of type <a href="https://help.adobe.com/en_US/livecycle/11.0/ProgramLC/javadoc/com/adobe/livecycle/readerextensions/client/UsageRights.html" target="_blank">UsageRights</a>. The usageRights object represents individual rights that can be applied to a policy-protected PDF document.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,12 +77,12 @@ You can use the `getDocumentUsageRights`Java API to retrieve the reader extensio
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="132"><p><strong>Parameter</strong></p> </td> 
-   <td valign="top" width="492"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Parameter</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="132"><p>inDoc</p> </td> 
-   <td valign="top" width="492"><p>Specify InputStream that represents the PDF document from which usage rights are to be retrieved. You can use LiveCycle Rights Management or AEM Forms document security protected documents.</p> </td> 
+   <td><p>inDoc</p> </td> 
+   <td><p>Specify InputStream that represents the PDF document from which usage rights are to be retrieved. You can use LiveCycle Rights Management or AEM Forms document security protected documents.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,12 +143,12 @@ You can use the `removeUsageRights`Java API to remove usage rights from a policy
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top" width="132"><p><strong>Parameter</strong></p> </td> 
-   <td valign="top" width="492"><p><strong>Description</strong></p> </td> 
+   <td><p><strong>Parameter</strong></p> </td> 
+   <td><p><strong>Description</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="132"><p> </p> <p>inputFile</p> </td> 
-   <td valign="top" width="492">Specify InputStream that represents the PDF document from which usage<br /> rights are to be removed. You can use LiveCycle Rights Management or AEM Forms document security protected documents.</td> 
+   <td><p> </p> <p>inputFile</p> </td> 
+   <td>Specify InputStream that represents the PDF document from which usage<br /> rights are to be removed. You can use LiveCycle Rights Management or AEM Forms document security protected documents.</td> 
   </tr> 
  </tbody> 
 </table>

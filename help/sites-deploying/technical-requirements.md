@@ -553,12 +553,12 @@ x86
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="35%"><p><strong>Product</strong></p> </th> 
-   <th valign="middle" width="64%"><p><strong>Supported Formats for Conversion to PDF</strong></p> </th> 
+   <th><p><strong>Product</strong></p> </th> 
+   <th><p><strong>Supported Formats for Conversion to PDF</strong></p> </th> 
   </tr> 
   <tr> 
-   <td valign="top" width="35%"><p><a href="https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html">Acrobat 2017 classic track</a></p> </td> 
-   <td valign="top" width="64%"><p>XPS, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, DWG, DXF, and DWF</p> </td> 
+   <td><p><a href="https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html">Acrobat 2017 classic track</a></p> </td> 
+   <td><p>XPS, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, DWG, DXF, and DWF</p> </td> 
   </tr> 
   <tr> 
    <td>Microsoft® Project 2016</td> 
@@ -589,8 +589,8 @@ x86
    <td>ODT, ODP, ODS, ODG, ODF, SXW, SXI, SXC, SXD, XLS, XLSX, DOC, DOCX, PPT, PPTX, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, RTF, and TXT</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="35%"><p>OpenOffice 3.4</p> </td> 
-   <td valign="top" width="64%"><p>ODT, ODP, ODS, ODG, ODF, SXW, SXI, SXC, SXD, XLS, XLSX, DOC, DOCX, PPT, PPTX, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, RTF, and TXT</p> </td> 
+   <td><p>OpenOffice 3.4</p> </td> 
+   <td><p>ODT, ODP, ODS, ODG, ODF, SXW, SXI, SXC, SXD, XLS, XLSX, DOC, DOCX, PPT, PPTX, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, RTF, and TXT</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -317,24 +317,24 @@ The following table shows common types of printers and their resolution measured
    <th><p><strong>Image resolution</strong></p> </th> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>300 dpi (laser printer)</p> </td> 
-   <td valign="top" width="NaN%"><p>60 lpi</p> </td> 
-   <td valign="top" width="NaN%"><p>120 ppi</p> </td> 
+   <td><p>300 dpi (laser printer)</p> </td> 
+   <td><p>60 lpi</p> </td> 
+   <td><p>120 ppi</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>600 dpi (laser printer)</p> </td> 
-   <td valign="top" width="NaN%"><p>85 lpi</p> </td> 
-   <td valign="top" width="NaN%"><p>170 ppi</p> </td> 
+   <td><p>600 dpi (laser printer)</p> </td> 
+   <td><p>85 lpi</p> </td> 
+   <td><p>170 ppi</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>1200 dpi (imagesetter)</p> </td> 
-   <td valign="top" width="NaN%"><p>120 lpi</p> </td> 
-   <td valign="top" width="NaN%"><p>240 ppi</p> </td> 
+   <td><p>1200 dpi (imagesetter)</p> </td> 
+   <td><p>120 lpi</p> </td> 
+   <td><p>240 ppi</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="NaN%"><p>2400 dpi (imagesetter)</p> </td> 
-   <td valign="top" width="NaN%"><p>150 lpi</p> </td> 
-   <td valign="top" width="NaN%"><p>300 ppi</p> </td> 
+   <td><p>2400 dpi (imagesetter)</p> </td> 
+   <td><p>150 lpi</p> </td> 
+   <td><p>300 ppi</p> </td> 
   </tr> 
  </tbody> 
 </table>

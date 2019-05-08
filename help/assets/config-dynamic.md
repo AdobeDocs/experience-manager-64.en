@@ -66,9 +66,9 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 <table> 
  <tbody> 
   <tr> 
-   <td width="20%"><strong>Scenario</strong></td> 
-   <td width="25%"><strong>How it Works</strong></td> 
-   <td width="55%"><strong>Configuration Steps</strong></td> 
+   <td><strong>Scenario</strong></td> 
+   <td><strong>How it Works</strong></td> 
+   <td><strong>Configuration Steps</strong></td> 
   </tr> 
   <tr> 
    <td>Deliver ONLY images in production</td> 

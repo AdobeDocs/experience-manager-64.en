@@ -666,13 +666,13 @@ See each table row for any supported extensibility model. Content in this sectio
   <tr> 
    <td>AEM Forms</td> 
    <td><span class="code">/etc/ 
-     <g class="gr_ gr_205 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="205" id="205">
+     <code>
        aep 
-     </g></span></td> 
+     </code></span></td> 
    <td><span class="code">/var/ 
-     <g class="gr_ gr_206 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="206" id="206">
+     <code>
        fd 
-     </g>/content/annotations</span></td> 
+     </code>/content/annotations</span></td> 
    <td>Legacy Correspondence Management annotation files. Not meant to be directly consumed. Will be cleaned up after upgrade using a cleanup filter.</td> 
    <td>Legacy location cleaned-up post-upgrade using a cleanup filter.</td> 
   </tr> 
@@ -680,19 +680,19 @@ See each table row for any supported extensibility model. Content in this sectio
    <td>All</td> 
    <td><code>/etc/tags</code></td> 
    <td><span class="code">/content/ 
-     <g class="gr_ gr_202 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="202" id="202">
+     <code>
        cq 
-     </g> 
-     <g class="gr_ gr_209 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="209" id="209">
+     </code> 
+     <code>
        :tags 
-     </g></span></td> 
+     </code></span></td> 
    <td>The Tag Manager API supports both the legacy and the new location. When the JCR Tag Manager Factory OSGi Component starts, it detects if it is running on an upgraded instance or a legacy one, and uses the appropriate location.<br /> </td> 
    <td><p>In order to properly align with the new model:</p> 
     <ol> 
      <li>Replace the references to the old model (<code>/etc/tags</code>) with the new one (<span class="code">/content/ 
-       <g class="gr_ gr_201 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="201" id="201">
+       <code>
          cq 
-       </g>:tags</span>) by using the <code>tagID.</code></li> 
+       </code>:tags</span>) by using the <code>tagID.</code></li> 
      <li>Log in to CRXDE Lite</li> 
      <li>Move the tags from <code>/etc/tags</code> to <code>/content/cq:tags</code></li> 
      <li>Restart the OSGi Component <code class="code">com.day.cq.tagging.impl.JcrTagManagerFactoryImpl.

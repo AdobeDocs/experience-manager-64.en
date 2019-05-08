@@ -51,28 +51,28 @@ Notice the change in text box style as shown in the following image after applyi
 <table> 
  <tbody> 
   <tr> 
-   <td width="161"><p>Selector</p> </td> 
-   <td width="123"><p>CSS property</p> </td> 
-   <td width="104"><p>Value</p> </td> 
-   <td width="227"><p>Effect</p> </td> 
+   <td><p>Selector</p> </td> 
+   <td><p>CSS property</p> </td> 
+   <td><p>Value</p> </td> 
+   <td><p>Effect</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>Field</p> </td> 
-   <td valign="top" width="123"><p>border</p> </td> 
-   <td valign="top" width="104"><p>Border width =2px</p> <p>Border style=Solid</p> <p>Border color=#1111</p> </td> 
-   <td valign="top" width="227"><p>Creates a Black 2px wide border around the field</p> </td> 
+   <td><p>Field</p> </td> 
+   <td><p>border</p> </td> 
+   <td><p>Border width =2px</p> <p>Border style=Solid</p> <p>Border color=#1111</p> </td> 
+   <td><p>Creates a Black 2px wide border around the field</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>Text box</p> </td> 
-   <td valign="top" width="123"><p>background-color</p> </td> 
-   <td valign="top" width="104"><p>#6495ED</p> </td> 
-   <td valign="top" width="227"><p>Changes the background color to CornflowerBlue (#6495ED)</p> <p>Note: You can specify a color name or its hex code in the value field.</p> </td> 
+   <td><p>Text box</p> </td> 
+   <td><p>background-color</p> </td> 
+   <td><p>#6495ED</p> </td> 
+   <td><p>Changes the background color to CornflowerBlue (#6495ED)</p> <p>Note: You can specify a color name or its hex code in the value field.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>Label</p> </td> 
-   <td valign="top" width="123"><p>Dimenstions &amp; Position &gt; width</p> </td> 
-   <td valign="top" width="104"><p>100px</p> </td> 
-   <td valign="top" width="227"><p>Fixes the width as 100px for the label</p> </td> 
+   <td><p>Label</p> </td> 
+   <td><p>Dimenstions &amp; Position &gt; width</p> </td> 
+   <td><p>100px</p> </td> 
+   <td><p>Fixes the width as 100px for the label</p> </td> 
   </tr> 
   <tr> 
    <td>Field Help Icon</td> 
@@ -81,10 +81,10 @@ Notice the change in text box style as shown in the following image after applyi
    <td>Changes the color of the help icon face.</td> 
   </tr> 
   <tr> 
-   <td valign="top" width="161"><p>Long description</p> </td> 
-   <td valign="top" width="123"><p>text-align</p> </td> 
-   <td valign="top" width="104"><p>center</p> </td> 
-   <td valign="top" width="227"><p>Aligns the long description for help to center</p> </td> 
+   <td><p>Long description</p> </td> 
+   <td><p>text-align</p> </td> 
+   <td><p>center</p> </td> 
+   <td><p>Aligns the long description for help to center</p> </td> 
   </tr> 
  </tbody> 
 </table>

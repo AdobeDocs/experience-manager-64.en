@@ -82,79 +82,79 @@ There are three sections (spaced slightly apart) provided by default:
 <table> 
  <tbody> 
   <tr> 
-   <td width="150"><strong>Resources</strong></td> 
+   <td><strong>Resources</strong></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="150"> Cloud Services</td> 
+   <td> Cloud Services</td> 
    <td><code>/libs/cq/core/content/welcome/resources/cloudservices</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Workflows</td> 
+   <td> Workflows</td> 
    <td><code>/libs/cq/core/content/welcome/resources/workflows</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Task Management</td> 
+   <td> Task Management</td> 
    <td><code>/libs/cq/core/content/welcome/resources/taskmanager</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Replication</td> 
+   <td> Replication</td> 
    <td><code>/libs/cq/core/content/welcome/resources/replication</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Reports</td> 
+   <td> Reports</td> 
    <td><code>/libs/cq/core/content/welcome/resources/reports</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Publications</td> 
+   <td> Publications</td> 
    <td><code>/libs/cq/core/content/welcome/resources/publishingadmin</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Manuscripts</td> 
+   <td> Manuscripts</td> 
    <td><code>/libs/cq/core/content/welcome/resources/manuscriptsadmin</code></td> 
   </tr> 
   <tr> 
-   <td width="150"><strong>Documentation and Reference</strong></td> 
+   <td><strong>Documentation and Reference</strong></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="150"> Documentation</td> 
+   <td> Documentation</td> 
    <td><code>/libs/cq/core/content/welcome/docs/docs</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Developer Resources</td> 
+   <td> Developer Resources</td> 
    <td><code>/libs/cq/core/content/welcome/docs/dev</code></td> 
   </tr> 
   <tr> 
-   <td width="150"><strong>Features</strong></td> 
+   <td><strong>Features</strong></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td width="150"> CRXDE Lite</td> 
+   <td> CRXDE Lite</td> 
    <td><code>/libs/cq/core/content/welcome/features/crxde</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Packages</td> 
+   <td> Packages</td> 
    <td><code>/libs/cq/core/content/welcome/features/packages</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Package Share</td> 
+   <td> Package Share</td> 
    <td><code>/libs/cq/core/content/welcome/features/share</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Clustering</td> 
+   <td> Clustering</td> 
    <td><code>/libs/cq/core/content/welcome/features/cluster</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Backup</td> 
+   <td> Backup</td> 
    <td><code>/libs/cq/core/content/welcome/features/backup</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Web Console<br /> </td> 
+   <td> Web Console<br /> </td> 
    <td><code>/libs/cq/core/content/welcome/features/config</code></td> 
   </tr> 
   <tr> 
-   <td width="150"> Web Console Status Dump<br /> </td> 
+   <td> Web Console Status Dump<br /> </td> 
    <td><code>/libs/cq/core/content/welcome/features/statusdump</code></td> 
   </tr> 
  </tbody> 

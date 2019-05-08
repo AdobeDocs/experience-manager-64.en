@@ -76,7 +76,7 @@ AEM Communities simplifies the creation and management of on-premise Communities
 
 Best practices around the user interface are described here:
 
-| Recommendations for UI selection | [User Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md) |AEM currently has two UIs: classic and touch-optimized UI in the same release. Therefore customers have to make a decision about which to use during the project implementation. This document is intended to help with finding the right choice.. |
+| Recommendations for UI selection | [User Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md) |AEM currently has two UIs: classic and touch-optimized UI in the same release. Therefore customers have to make a decision about which to use during the project implementation. This document is intended to help with finding the right choice. |
 |---|---|---|
 
 ## Performance {#performance}

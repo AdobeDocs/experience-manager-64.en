@@ -163,22 +163,22 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
     <ol> 
      <li>Copy any new Mobile Device Emulator Configurations from the Previous Location to the new location (<code>/apps</code>, <code>/conf/global</code>, <code>/conf/&lt;tenant&gt;</code>).</li> 
      <li>For any AEM Sites Pages that depend on these Mobile Device Emulator Configurations, update the Page's <span class="code">
-       <g class="gr_ gr_26 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="26" id="26">
+       <code>
         jcr
-       </g>
-       <g class="gr_ gr_34 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="34" id="34">
+       </code>
+       <code>
         :content
-       </g></span> node: <br /> <span class="code">[cq:Page]/jcr:content@cq:
-       <g class="gr_ gr_24 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="24" id="24">
+       </code></span> node: <br /> <span class="code">[cq:Page]/jcr:content@cq:
+       <code>
         deviceGroups
-       </g> = String[ mobile/groups/responsive ]</span></li> 
+       </code> = String[ mobile/groups/responsive ]</span></li> 
      <li>For any Editable Templates that depend on these Mobile Device Emulator Configurations, update the Editable Templates, pointing the <span class="code">
-       <g class="gr_ gr_27 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="27" id="27">
+       <code>
         cq
-       </g>:
-       <g class="gr_ gr_25 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="25" id="25">
+       </code>:
+       <code>
         deviceGroups
-       </g></span> to the New Location.</li> 
+       </code></span> to the New Location.</li> 
     </ol> </td> 
   </tr>
   <tr>
@@ -292,12 +292,12 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   <tr>
    <td><strong>New location(s)</strong></td> 
    <td><p><span class="code">/libs/settings/
-      <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="8" id="8">
+      <code>
        wcm
-      </g>/template-types/scaffolding/scaffolding</span></p> <p><span class="code">/apps/settings/
-      <g class="gr_ gr_9 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="9" id="9">
+      </code>/template-types/scaffolding/scaffolding</span></p> <p><span class="code">/apps/settings/
+      <code>
        wcm
-      </g>/template-types/scaffolding/scaffolding</span></p> </td> 
+      </code>/template-types/scaffolding/scaffolding</span></p> </td> 
   </tr>
   <tr>
    <td><strong>Restructuring guidance</strong></td> 

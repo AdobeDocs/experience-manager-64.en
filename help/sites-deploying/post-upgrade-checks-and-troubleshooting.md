@@ -163,17 +163,17 @@ Next, check for any Javascript errors that can be tracked down to custom added e
 
 Finally, check for misconfiguration that Javascript might not be able to deal with. This is usually the case with improperly deactivated extensions.
 
-### Malfunctioning Custom Components, Templates or UI Extensions {#malfunctioning-custom-components,-templates-or-ui-extensions}
+### Malfunctioning Custom Components, Templates or UI Extensions {#malfunctioning-custom-components-templates-or-ui-extensions}
 
 In most cases, the root causes for these issues are the same as for bundles that are not started or packages not being installed with the only difference that the issues start occurng when first using the components.
 
 The way to deal with erroneous custom code is to first perfom smoke tests in order to identify the cause. Once you find it, look at the recommendations in this [link] section of the article for ways of fixing them.
 
-### Missing Customizations Under /etc {#missing-customizations-under-/etc}
+### Missing Customizations Under etc {#missing-customizations-under-etc}
 
 `/apps` and `/libs` are handled well by the upgrade, but changes under `/etc` may be need to be manually restored from `/var/upgrade/PreUpgradeBackup` after upgrading. Make sure to check this location for any content that needs to be manually merged.
 
-### Analyzing the error.log and upgrade.log {#analyzing-the-error.log-and-upgrade.log}
+### Analyzing the error.log and upgrade.log {#analyzing-the-error-log-and-upgrade-log}
 
 In most situations the logs need to be consulted for errors in order to find the cause of a problem. However, in case of upgrades it is also necessary to monitor dependency issues as old bundles might not be upgraded properly.
 

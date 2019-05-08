@@ -83,32 +83,32 @@ Use a field if you want to capture module data or data dictionary element data i
 <table> 
  <tbody> 
   <tr> 
-   <td valign="top"><p><strong>Use a subform when</strong></p> </td> 
-   <td valign="top"><p><strong>Use a text field when</strong></p> </td> 
+   <td><p><strong>Use a subform when</strong></p> </td> 
+   <td><p><strong>Use a text field when</strong></p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>It contains a combination of elements, such as a Last Name and First Name</p> </td> 
-   <td valign="top"><p>It contains a single element, such as a Policy Number.</p> </td> 
+   <td><p>It contains a combination of elements, such as a Last Name and First Name</p> </td> 
+   <td><p>It contains a single element, such as a Policy Number.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>It includes multiple paragraphs</p> </td> 
-   <td valign="top"><p>Text is wrapped and justified</p> </td> 
+   <td><p>It includes multiple paragraphs</p> </td> 
+   <td><p>Text is wrapped and justified</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Repeating, optional, and conditional data groups are bound to subforms, to reduce the risk of design errors that could occur if scripts are used to achieve the same results</p> </td> 
-   <td valign="top"><p>Elements such as your organization’s logo and address appear on all pages of a letter/Interactive Communication. In this case, create form fields for those elements and place them on the master page. If you set the field binding to "No Data Binding", the no fields appear as relatable fields in the Letter/Interactive Communication Editor. If you want to relate some type of content to these fields, they must have binding.</p> <p>If your company address contains more than one line of data, use text field with the "Allow Multiple Lines" option to represent the address on the layout.</p> <p>If a text field's data type is set to plain text, the plain text version of the module output is used instead of the rich text version (all formatting is discarded). To preserve the formatting, set the text field’s data type to rich text.</p> </td> 
+   <td><p>Repeating, optional, and conditional data groups are bound to subforms, to reduce the risk of design errors that could occur if scripts are used to achieve the same results</p> </td> 
+   <td><p>Elements such as your organization’s logo and address appear on all pages of a letter/Interactive Communication. In this case, create form fields for those elements and place them on the master page. If you set the field binding to "No Data Binding", the no fields appear as relatable fields in the Letter/Interactive Communication Editor. If you want to relate some type of content to these fields, they must have binding.</p> <p>If your company address contains more than one line of data, use text field with the "Allow Multiple Lines" option to represent the address on the layout.</p> <p>If a text field's data type is set to plain text, the plain text version of the module output is used instead of the rich text version (all formatting is discarded). To preserve the formatting, set the text field’s data type to rich text.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Text is flowed</p> </td> 
-   <td valign="top"><p>Text fields and image fields are used on master pages. Master pages cannot use subforms as target areas.</p> </td> 
+   <td><p>Text is flowed</p> </td> 
+   <td><p>Text fields and image fields are used on master pages. Master pages cannot use subforms as target areas.</p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>Objects are grouped and organized without binding the subform to a data element</p> </td> 
-   <td valign="top"><p> </p> </td> 
+   <td><p>Objects are grouped and organized without binding the subform to a data element</p> </td> 
+   <td><p> </p> </td> 
   </tr> 
   <tr> 
-   <td valign="top"><p>There is a text field inside the subform. The subform can grow and not overwrite other objects below it on the layout.</p> </td> 
-   <td valign="top"><p>You need easy access to its data in the post process.</p> </td> 
+   <td><p>There is a text field inside the subform. The subform can grow and not overwrite other objects below it on the layout.</p> </td> 
+   <td><p>You need easy access to its data in the post process.</p> </td> 
   </tr> 
  </tbody> 
 </table>

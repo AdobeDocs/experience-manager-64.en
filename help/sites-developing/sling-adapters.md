@@ -77,7 +77,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
 <table> 
  <tbody> 
   <tr> 
-   <td width="120"><a href="https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html">Node</a></td> 
+   <td><a href="https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html">Node</a></td> 
    <td>If this is a JCR-node-based resource or a JCR property referencing a node.</td> 
   </tr> 
   <tr> 
@@ -224,7 +224,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
 <table> 
  <tbody> 
   <tr> 
-   <td width="120"><a href="https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Session.html">Session</a></td> 
+   <td><a href="https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Session.html">Session</a></td> 
    <td>The request's JCR session, if this is a JCR-based resource resolver (default).</td> 
   </tr> 
   <tr> 
@@ -295,7 +295,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 <table> 
  <tbody> 
   <tr> 
-   <td width="120"><a href="https://java.sun.com/j2se/1.5.0/docs/api/org/xml/sax/ContentHandler.html">ContentHandler</a><br /> (XML)</td> 
+   <td><a href="https://java.sun.com/j2se/1.5.0/docs/api/org/xml/sax/ContentHandler.html">ContentHandler</a><br /> (XML)</td> 
    <td>If this is a sling rewriter response.</td> 
   </tr> 
  </tbody> 
@@ -308,7 +308,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 <table> 
  <tbody> 
   <tr> 
-   <td width="120"><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.html">Resource</a><br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.html">Resource</a><br /> </td> 
    <td>Resource of the page.</td> 
   </tr> 
   <tr> 
@@ -339,7 +339,7 @@ No targets yet, but implements Adaptable and could be used as source in a custom
 <table> 
  <tbody> 
   <tr> 
-   <td width="120"><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.html">Resource</a><a href="https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html"><br /> </a></td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.html">Resource</a><a href="https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/Node.html"><br /> </a></td> 
    <td>Resource of the template.</td> 
   </tr> 
   <tr> 
