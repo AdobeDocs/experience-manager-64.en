@@ -153,7 +153,7 @@ For more information how to configure Node Stores, see [Configuring Node Stores 
 Below is an example of Document Node Store configuration for a minimal MongoDB deployment:
 
 ```xml
-# org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService.cfg
+# org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService.config
 #MongoDB server details
 mongodburi=mongodb://aem:aempassword@mongodbserver1.customer.com:27000,mongodbserver2.customer.com:27000
   
@@ -191,7 +191,7 @@ The Data Store is used to store files of a size larger than a threshold. Below t
 Here is a typical Data Store configuration for a minimal AEM deployment with MongoDB:
 
 ```xml
-# org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.cfg
+# org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.config
 # The minimum size of an object that should be stored in this data store.
 minRecordLength=4096
 path=/datastore
