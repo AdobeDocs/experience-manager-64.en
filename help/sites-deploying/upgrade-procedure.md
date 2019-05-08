@@ -91,7 +91,7 @@ The assumed topology for this section consists of a MongoMK Author cluster with 
 1. Update the Dispatcher or Web Module *if needed* 
 1. QA validates the upgrade
 
-### If Successful {#successful}
+### If Successful {#successful-1}
 
 ![](assets/mongo-secondaries.jpg)
 
@@ -135,7 +135,7 @@ The assumed topology for this section consists of two TarMK publish instances, f
 1. Copy the Publish 2 instance  
 1. Start Publish 2
 
-### If Successful {#successful}
+### If Successful {#successful-2}
 
 ![](assets/upgrade-publish1.png)
 

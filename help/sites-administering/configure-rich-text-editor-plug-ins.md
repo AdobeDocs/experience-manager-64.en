@@ -305,7 +305,7 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 1. Navigate to the root node of your text component, for example `/apps/<*myProject*>/components/text`.
 1. Add the property `externalStyleSheets` to the parent node of `<*rtePlugins-node*>`:
 
-    * **Name ** `externalStyleSheets`  
+    * **Name** `externalStyleSheets`  
     
     * **Type** `String[]` (multi-string; click **Multi** in CRXDE)  
     
@@ -574,15 +574,9 @@ Styles are typically applied on text, but a separate set of Styles can also be a
    >
    >If you do not want to enable all table features you can create the `features` property as:
    >
-   >    
-   >    
-   >    * **Type** `String[]`
-   >    
-   >    * **Value**(s) one, or both, of the following, as required:
-   >    * 
-   >    
-   >    
+   >* **Type** `String[]`
    >
+   >* **Value**(s) one, or both, of the following, as required:
 
 1. Define the location of CSS style sheets to refer those. See [Specifying the location of your style sheet](#locationofstylesheet) as this is the same as when defining [styles for text](#textstyles). The location may be defined if you defined other styles.
 1. Under the `table` node create the following new nodes (as required):
@@ -777,24 +771,14 @@ To configure how links are added in AEM from another program, define the HTML ru
    >
    >The `../items/text` node has the property:
    >
-   >    
-   >    
-   >    * **Name** `xtype`
-   >    
-   >    * **Type** `String`
-   >    
-   >    * **Value** `richtext`
-   >    
-   >    
-   >    
+   >* **Name** `xtype`
+   >* **Type** `String`
+   >* **Value** `richtext`
+   >
    >The location of the `../items/text` node can vary, depending on the structure of your dialog; two examples include:
    >
-   >    
-   >    
-   >    * `/apps/<*myProject*>/components/text/dialog/items/text`
-   >    * `/apps/<*myProject*>/components/text/dialog/items/panel/items/text`
-   >    
-   >
+   >* `/apps/<*myProject*>/components/text/dialog/items/text`
+   >* `/apps/<*myProject*>/components/text/dialog/items/panel/items/text`
 
 1. Under `htmlRules`, create a new node.
 
@@ -804,7 +788,7 @@ To configure how links are added in AEM from another program, define the HTML ru
 
 1. Under the `links` node define the properties as required:
 
-    * ****CSS style for internal links:
+    * CSS style for internal links:
 
         * **Name** `cssInternal`  
         
@@ -812,7 +796,7 @@ To configure how links are added in AEM from another program, define the HTML ru
         
         * **Value **the name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
 
-    * **** CSS style for external links
+    * CSS style for external links
 
         * **Name** `cssExternal`  
         
