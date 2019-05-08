@@ -37,7 +37,7 @@ The assumed topology for this section consists of an Author server running on Ta
 1. Disable replication agents on the author  
 1. Run the [pre-upgrade maintenance tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md).
 
-### Upgrade Execution {#upgrade-execution}
+### Upgrade Execution {#upgrade-execution-1}
 
 ![](assets/execute_upgrade.jpg)
 
@@ -121,7 +121,7 @@ The assumed topology for this section consists of two TarMK publish instances, f
 
 ![](assets/tarmk-pub-farmv5.png)
 
-### Upgrade Execution {#execution}
+### Upgrade Execution {#execution-upgrade}
 
 ![](assets/upgrade-publish2.png)
 

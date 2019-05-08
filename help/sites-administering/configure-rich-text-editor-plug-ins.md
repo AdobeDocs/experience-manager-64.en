@@ -70,9 +70,9 @@ After activating a plug-in, follow these guidelines to configure `features` prop
  <tbody> 
   <tr> 
    <td><strong> </strong></td> 
-   <th scope="row" style="text-align: center;" valign="middle"><strong>Enable all features<br /> </strong></th> 
-   <th scope="row" style="text-align: center;" valign="middle"><strong>Enable a few specific features</strong></th> 
-   <th scope="row" style="text-align: center;" valign="middle"><strong>Disable all features<br /> </strong></th> 
+   <th><strong>Enable all features<br /> </strong></th> 
+   <th><strong>Enable a few specific features</strong></th> 
+   <th><strong>Disable all features<br /> </strong></th> 
   </tr> 
   <tr> 
    <td><strong>Name</strong></td> 

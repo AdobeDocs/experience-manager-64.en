@@ -92,7 +92,7 @@ The sidebar comprises the following browsers:
 <table> 
  <tbody> 
   <tr> 
-   <th width="150"><strong>Component</strong></th> 
+   <th><strong>Component</strong></th> 
    <th><strong>Functionality</strong></th> 
   </tr> 
   <tr> 

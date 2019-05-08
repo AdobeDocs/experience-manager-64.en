@@ -42,10 +42,9 @@ In the following sections we use the example of a new page `b`, created in both 
 
     * Activated on publish as `/b`, together with the child page.
 
+**Before Rollout**
+
 <table> 
- <caption>
-   Before Rollout 
- </caption> 
  <tbody> 
   <tr> 
    <td><strong>blueprint before rollout</strong></td> 
@@ -58,9 +57,7 @@ In the following sections we use the example of a new page `b`, created in both 
    <td><code>b</code><br /> <br /> (contains the content of the page b that was manually created in the live copy branch)</td> 
   </tr> 
   <tr> 
-   <td><code class="code"> /bp-level-1
-
-      </code></td> 
+   <td><code> /bp-level-1</code></td> 
    <td><code> /lc-level-1</code><br /> <br /> (manually created in live copy branch)<br /> </td> 
    <td><code> /lc-level-1</code><br /> <br /> (contains the content of the page<br /> child-level-1 that was manually created in the live copy branch)</td> 
   </tr> 

@@ -69,9 +69,9 @@ The following table lists 3rd party libraries used within CRX, together with the
   <tr> 
    <td>Filename</td> 
    <td> 
-    <nobr>
+    <code>
       License 
-    </nobr></td> 
+    </code></td> 
   </tr> 
   <tr> 
    <td>commons-codec-1.3.jar</td> 

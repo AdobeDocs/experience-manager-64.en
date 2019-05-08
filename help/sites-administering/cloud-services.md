@@ -14,7 +14,7 @@ noindex: true
 
 ## Introduction {#introduction}
 
-In previous versions of AEM, cloud services were located under Tools &gt; Deployment. With AEM 6.4, there is a new menu tab called Cloud Services, at the same level as Tools. The tab allows customers to create and configure out-of-the-box integrations, both internal and external. There is also a new location structure that allows for a layered approach, providing more flexibility for defining cloud services configurations.
+In previous versions of AEM, cloud services were located under Tools > Deployment. With AEM 6.4, there is a new menu tab called Cloud Services, at the same level as Tools. The tab allows customers to create and configure out-of-the-box integrations, both internal and external. There is also a new location structure that allows for a layered approach, providing more flexibility for defining cloud services configurations.
 
 ## Structure {#structure}
 
@@ -32,7 +32,7 @@ The following screenshot exemplifies how the structure looks for we-retail cloud
 >
 >Any pre-existing cloud service already configured under /etc will continue to exist and work without any change.
 
-## Cloud Services {#cloud-services}
+## Cloud Services {#cloud-services-1}
 
 With AEM 6.4, we have a new menu tab called Cloud Services, at the same level as Tools. It includes the following cards:
 

@@ -246,7 +246,7 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
  <tbody> 
   <tr> 
    <th><p><strong> Platform</strong></p> </th> 
-   <th width="30%"><p><strong>Support level</strong></p> </th> 
+   <th><p><strong>Support level</strong></p> </th> 
    <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
@@ -305,7 +305,7 @@ You can run AEM Forms on JEE on a physical machine or a virtual environment. How
 <table> 
  <tbody> 
   <tr> 
-   <th width="40%"><p><strong>Platform (Base Version)</strong></p> </th> 
+   <th><p><strong>Platform (Base Version)</strong></p> </th> 
    <th>Support Level</th> 
    <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 

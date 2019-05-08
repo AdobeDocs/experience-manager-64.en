@@ -75,9 +75,9 @@ The following table provides a concise summary of when to use which solution or 
  <tbody> 
   <tr> 
    <th>Use Case </th> 
-   <th width="127">Desktop App</th> 
-   <th width="167">Folder Sharing</th> 
-   <th width="201">Other Solutions</th> 
+   <th>Desktop App</th> 
+   <th>Folder Sharing</th> 
+   <th>Other Solutions</th> 
   </tr> 
   <tr> 
    <td>Share smaller number <a href="/help/assets/aem-cc-integration-best-practices.md#main-pars-text-541977675">[1]</a> of DAM assets with Creative user</td> 

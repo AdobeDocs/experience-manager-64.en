@@ -89,8 +89,8 @@ This section lists various keyboards and accessibility shortcuts that you can us
  <tbody>
   <tr>
    <th><strong>Operation</strong></th> 
-   <th width="25%"><strong>Shortcut on Windows</strong></th> 
-   <th width="25%"><strong>Shortcut on Mac OS</strong><br /> </th> 
+   <th><strong>Shortcut on Windows</strong></th> 
+   <th><strong>Shortcut on Mac OS</strong><br /> </th> 
   </tr>
   <tr>
    <td><p>Select current word</p> </td> 
@@ -240,8 +240,8 @@ This section lists various keyboards and accessibility shortcuts that you can us
  <tbody>
   <tr>
    <th><strong>Operation</strong></th> 
-   <th width="33%"><strong>Shortcut on Windows </strong></th> 
-   <th width="33%"><strong>Shortcut on Mac OS</strong><br /> </th> 
+   <th><strong>Shortcut on Windows </strong></th> 
+   <th><strong>Shortcut on Mac OS</strong><br /> </th> 
   </tr>
   <tr>
    <td><p>Undo </p> </td> 
@@ -263,7 +263,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
   <tr>
    <th><p><strong>Operation</strong></p> </th> 
    <th><p><strong>Shortcut on Windows</strong></p> </th> 
-   <th width="30%"><strong>Shortcut on Mac OS</strong></th> 
+   <th><strong>Shortcut on Mac OS</strong></th> 
   </tr>
   <tr>
    <td><p>Increase the font size </p> </td> 
@@ -285,7 +285,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
   <tr>
    <th><strong>Operation</strong></th> 
    <th><strong>Shortcut on Windows</strong></th> 
-   <th width="30%"><strong>Shortcut on Mac OS</strong></th> 
+   <th><strong>Shortcut on Mac OS</strong></th> 
   </tr>
   <tr>
    <td><p>Delete word to left of cursor</p> </td> 
@@ -306,8 +306,8 @@ This section lists various keyboards and accessibility shortcuts that you can us
  <tbody>
   <tr>
    <th><strong>Operation</strong></th> 
-   <th width="30%"><strong>Shortcut on Windows<br /> </strong></th> 
-   <th width="30%"><strong>Shortcut on Mac OS</strong></th> 
+   <th><strong>Shortcut on Windows<br /> </strong></th> 
+   <th><strong>Shortcut on Mac OS</strong></th> 
   </tr>
   <tr>
    <td><p>Paste text </p> </td> 
