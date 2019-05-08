@@ -130,9 +130,7 @@ This conflict handler gives precedence to the blueprint. The live copy page `/b`
   </tr> 
   <tr> 
    <td><code> /bp-level-1</code></td> 
-   <td><code class="code"> /bp-level-1
-      
-      </code></td> 
+   <td><code class="code"> /bp-level-1</code></td> 
    <td><code> /lc-level-1</code><br /> <br /> (no change)</td> 
    <td><code> </code></td> 
    <td><code> /lc-level-1</code><br /> <br /> (no change)</td> 
