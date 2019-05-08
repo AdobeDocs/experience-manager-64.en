@@ -128,7 +128,7 @@ To highlight\emphasize parts of text in an editable fragment, select the text an
 
 ![](assets/pastedtext.png) 
 
-### Insert special characters in text {##specialcharacters}
+### Insert special characters in text {#specialcharacters}
 
 The Agent UI has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](/help/forms/using/custom-special-characters.md).
 
