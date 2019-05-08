@@ -59,7 +59,7 @@ Create a cloud service configuration to connect your AEM Instance to the convers
 <table> 
  <tbody> 
   <tr> 
-   <td width="30%">Field</td> 
+   <td>Field</td> 
    <td>Description</td> 
   </tr> 
   <tr> 

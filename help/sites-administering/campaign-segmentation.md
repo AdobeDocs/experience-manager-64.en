@@ -45,12 +45,12 @@ The following logic containers are available out-of-the-box and allow you to con
 <table> 
  <tbody> 
   <tr> 
-   <td width="125"> AND Container<br /> </td> 
-   <td width="400"> The boolean AND operator.<br /> </td> 
+   <td> AND Container<br /> </td> 
+   <td> The boolean AND operator.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125"> OR Container<br /> </td> 
-   <td width="400"> The boolean OR operator.</td> 
+   <td> OR Container<br /> </td> 
+   <td> The boolean OR operator.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,40 +62,40 @@ The following segment traits are available out-of-the-box; they can be dragged f
 <table> 
  <tbody> 
   <tr> 
-   <td width="125"> IP Range<br /> </td> 
-   <td width="400">Defines a range of IP addresses that the visitor can have.<br /> </td> 
+   <td> IP Range<br /> </td> 
+   <td>Defines a range of IP addresses that the visitor can have.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125"> Page Hits<br /> </td> 
-   <td width="400">How often the page has been requested. <br /> </td> 
+   <td> Page Hits<br /> </td> 
+   <td>How often the page has been requested. <br /> </td> 
   </tr> 
   <tr> 
-   <td width="125"> Page Property<br /> </td> 
-   <td width="400">Any property of the visited page.<br /> </td> 
+   <td> Page Property<br /> </td> 
+   <td>Any property of the visited page.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125"> Referral Keywords<br /> </td> 
-   <td width="400">Keywords to match with information from the referring website. <br /> </td> 
+   <td> Referral Keywords<br /> </td> 
+   <td>Keywords to match with information from the referring website. <br /> </td> 
   </tr> 
   <tr> 
-   <td width="125"> Script</td> 
-   <td width="400">Javascript expression to be evaluated.<br /> </td> 
+   <td> Script</td> 
+   <td>Javascript expression to be evaluated.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125"> Segment Reference <br /> </td> 
-   <td width="400">Reference to another segment definition.<br /> </td> 
+   <td> Segment Reference <br /> </td> 
+   <td>Reference to another segment definition.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125"> Tag Cloud<br /> </td> 
-   <td width="400">Tags to be matched with those from the pages visited.<br /> </td> 
+   <td> Tag Cloud<br /> </td> 
+   <td>Tags to be matched with those from the pages visited.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125"> User Age<br /> </td> 
-   <td width="400">As taken from the user profile.<br /> </td> 
+   <td> User Age<br /> </td> 
+   <td>As taken from the user profile.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="125"> User Property<br /> </td> 
-   <td width="400">Any other information that is available in the user profile. </td> 
+   <td> User Property<br /> </td> 
+   <td>Any other information that is available in the user profile. </td> 
   </tr> 
  </tbody> 
 </table>

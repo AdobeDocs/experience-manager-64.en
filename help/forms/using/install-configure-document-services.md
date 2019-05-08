@@ -87,19 +87,19 @@ If you are using the UNIX-based operating system, install the following packages
 <table> 
  <tbody> 
   <tr> 
-   <td width="25%"> 
+   <td> 
     <ul> 
      <li>expat</li> 
     </ul> </td> 
-   <td width="25%"> 
+   <td> 
     <ul> 
      <li>libxcb</li> 
     </ul> </td> 
-   <td width="25%"> 
+   <td> 
     <ul> 
      <li>freetype</li> 
     </ul> </td> 
-   <td width="25%"> 
+   <td> 
     <ul> 
      <li>libXau</li> 
     </ul> </td> 

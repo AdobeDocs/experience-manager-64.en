@@ -181,7 +181,7 @@ More details about the nodes and their properties are:
   </tr> 
   <tr> 
    <td><code>initialContentType</code></td> 
-   <td width="150"><p><code>String</code></p> <p>optional</p> <p>default: <code>text/html</code></p> </td> 
+   <td><p><code>String</code></p> <p>optional</p> <p>default: <code>text/html</code></p> </td> 
    <td><p>Initial content type of the element; only used if <code>precreateElements</code><i> = </i><code>true</code>; currently supported:</p> 
     <ul> 
      <li><code>text/html</code></li> 

@@ -42,7 +42,7 @@ You can configure an external firewall to allow a certain AEM Forms URLs to acce
 <table> 
  <tbody>
   <tr>
-   <td width="50%">Component</td> 
+   <td>Component</td> 
    <td>URI</td> 
   </tr>
   <tr>
@@ -96,7 +96,7 @@ You can configure the internal firewall to allow certain AEM Forms components (F
 <table> 
  <tbody>
   <tr>
-   <td width="50%">Host<br /> </td> 
+   <td>Host<br /> </td> 
    <td>URI</td> 
   </tr>
   <tr>

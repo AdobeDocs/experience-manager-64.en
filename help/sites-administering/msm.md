@@ -172,7 +172,7 @@ As an introduction the following table provides an overview of the main terms us
    <td><strong>Further details</strong></td> 
   </tr> 
   <tr> 
-   <td width="150"><strong>Source</strong></td> 
+   <td><strong>Source</strong></td> 
    <td>The original pages.</td> 
    <td>Synonymous with Blueprints and/or Blueprint pages.</td> 
   </tr> 

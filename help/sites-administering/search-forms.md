@@ -88,23 +88,23 @@ The following predicates are available, dependent on the configuration:
    <th width="30%">Settings</th> 
   </tr> 
   <tr> 
-   <td width="10%">Analytics </td> 
-   <td width="40%">Search/filter capabilities in the Sites browser when showing analytics powered data. Analytics search filters load up to match the mapped customized analytics columns.</td> 
-   <td width="30%"> 
+   <td>Analytics </td> 
+   <td>Search/filter capabilities in the Sites browser when showing analytics powered data. Analytics search filters load up to match the mapped customized analytics columns.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Description</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Asset Last Modified </td> 
-   <td width="40%">Date the asset was last modified.<br /> </td> 
-   <td width="30%">A customized predicate, based on the Date Predicate.</td> 
+   <td>Asset Last Modified </td> 
+   <td>Date the asset was last modified.<br /> </td> 
+   <td>A customized predicate, based on the Date Predicate.</td> 
   </tr> 
   <tr> 
-   <td width="10%">Components </td> 
-   <td width="40%">Allows an author to search/filter for pages that have a specific component on it. For example an image gallery.<br /> </td> 
-   <td width="30%"> 
+   <td>Components </td> 
+   <td>Allows an author to search/filter for pages that have a specific component on it. For example an image gallery.<br /> </td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Placeholder</li> 
@@ -114,9 +114,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Date </td> 
-   <td width="40%">Slider-based search of assets based on a date property.</td> 
-   <td width="30%"> 
+   <td>Date </td> 
+   <td>Slider-based search of assets based on a date property.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -124,9 +124,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Date Range </td> 
-   <td width="40%">Search assets created within a specified range for a date property. In the Search panel, you can specify Start and End dates.</td> 
-   <td width="30%"> 
+   <td>Date Range </td> 
+   <td>Search assets created within a specified range for a date property. In the Search panel, you can specify Start and End dates.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Placeholder</li> 
@@ -137,9 +137,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Expiry Status </td> 
-   <td width="40%">Search assets based on expiry status.</td> 
-   <td width="30%"> 
+   <td>Expiry Status </td> 
+   <td>Search assets based on expiry status.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -147,9 +147,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">File Size </td> 
-   <td width="40%">Search assets based on their size.</td> 
-   <td width="30%"> 
+   <td>File Size </td> 
+   <td>Search assets based on their size.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -158,9 +158,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Fulltext </td> 
-   <td width="40%">Search predicate for full-text searches.</td> 
-   <td width="30%"> 
+   <td>Fulltext </td> 
+   <td>Search predicate for full-text searches.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Placeholder</li> 
@@ -169,9 +169,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Hidden Filter</td> 
-   <td width="40%">A filter on property and value, not visible to the user.</td> 
-   <td width="30%"> 
+   <td>Hidden Filter</td> 
+   <td>A filter on property and value, not visible to the user.</td> 
+   <td> 
     <ul> 
      <li>Property Name</li> 
      <li>Property Value</li> 
@@ -179,9 +179,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Options </td> 
-   <td width="40%"><p>The options are content nodes created by the user.</p> <p>See <a href="#addinganoptionspredicate">Adding an Options Predicate</a> for more information.</p> </td> 
-   <td width="30%"> 
+   <td>Options </td> 
+   <td><p>The options are content nodes created by the user.</p> <p>See <a href="#addinganoptionspredicate">Adding an Options Predicate</a> for more information.</p> </td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>JSON Path</li> 
@@ -192,9 +192,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Options Property </td> 
-   <td width="40%">Search on a property of the option.</td> 
-   <td width="30%"> 
+   <td>Options Property </td> 
+   <td>Search on a property of the option.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -204,9 +204,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Page Status </td> 
-   <td width="40%">Search pages according to their status.</td> 
-   <td width="30%"> 
+   <td>Page Status </td> 
+   <td>Search pages according to their status.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Publish Property Name</li> 
@@ -215,9 +215,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Path </td> 
-   <td width="40%">Search assets located under a specific path.</td> 
-   <td width="30%"> 
+   <td>Path </td> 
+   <td>Search assets located under a specific path.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Add Search Path</li> 
@@ -225,14 +225,14 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Property </td> 
-   <td width="40%">Search on a specified property.</td> 
-   <td width="30%">none</td> 
+   <td>Property </td> 
+   <td>Search on a specified property.</td> 
+   <td>none</td> 
   </tr> 
   <tr> 
-   <td width="10%">Publish Status </td> 
-   <td width="40%">Search assets based on their publish status</td> 
-   <td width="30%"> 
+   <td>Publish Status </td> 
+   <td>Search assets based on their publish status</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -240,9 +240,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Range </td> 
-   <td width="40%">Search resources that lie within a specified range. In the Search panel, you can specify minimum and maximum values for the range.</td> 
-   <td width="30%"> 
+   <td>Range </td> 
+   <td>Search resources that lie within a specified range. In the Search panel, you can specify minimum and maximum values for the range.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name</li> 
@@ -250,9 +250,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Range Options </td> 
-   <td width="40%">A specific search predicate for Assets and the same as common Slider Predicate. Is still available due to backward compatibilty issues.</td> 
-   <td width="30%"> 
+   <td>Range Options </td> 
+   <td>A specific search predicate for Assets and the same as common Slider Predicate. Is still available due to backward compatibilty issues.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -261,9 +261,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Rating </td> 
-   <td width="40%">Search assets according to their rating.<br /> </td> 
-   <td width="30%"> 
+   <td>Rating </td> 
+   <td>Search assets according to their rating.<br /> </td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -272,9 +272,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Relative Date </td> 
-   <td width="40%">Search assets based on the relative date of their creation<br /> </td> 
-   <td width="30%"> 
+   <td>Relative Date </td> 
+   <td>Search assets based on the relative date of their creation<br /> </td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -283,9 +283,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Slider Range </td> 
-   <td width="40%">A common search predicate extending the range predicate with the slider capability. The value of the property searched on must be between the slider limits.</td> 
-   <td width="30%"> 
+   <td>Slider Range </td> 
+   <td>A common search predicate extending the range predicate with the slider capability. The value of the property searched on must be between the slider limits.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -293,9 +293,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Tag </td> 
-   <td width="40%">Search assets based on tags. You can configure the Path property to populate various tags in the Tags list.</td> 
-   <td width="30%"> 
+   <td>Tag </td> 
+   <td>Search assets based on tags. You can configure the Path property to populate various tags in the Tags list.</td> 
+   <td> 
     <ul> 
      <li>Field Label</li> 
      <li>Property Name*</li> 
@@ -304,9 +304,9 @@ The following predicates are available, dependent on the configuration:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="10%">Tags </td> 
-   <td width="40%">Search based on tags.</td> 
-   <td width="30%"> 
+   <td>Tags </td> 
+   <td>Search based on tags.</td> 
+   <td> 
     <ul> 
      <li>Placeholder</li> 
      <li>Property Name*</li> 

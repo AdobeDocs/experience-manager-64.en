@@ -102,7 +102,7 @@ The following HTTP request methods apply to:
 <table> 
  <tbody> 
   <tr> 
-   <td width="20%">HTTP request method</td> 
+   <td>HTTP request method</td> 
    <td>Actions</td> 
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ The following HTTP request methods apply to:
 <table> 
  <tbody> 
   <tr> 
-   <td width="20%">HTTP request method</td> 
+   <td>HTTP request method</td> 
    <td>Actions</td> 
   </tr> 
   <tr> 
@@ -158,7 +158,7 @@ The following HTTP request methods apply to: ``
 <table> 
  <tbody> 
   <tr> 
-   <td width="20%">HTTP request method</td> 
+   <td>HTTP request method</td> 
    <td>Actions</td> 
   </tr> 
   <tr> 
@@ -243,7 +243,7 @@ The following HTTP request methods apply to:
 <table> 
  <tbody> 
   <tr> 
-   <td width="20%">HTTP request method</td> 
+   <td>HTTP request method</td> 
    <td>Actions</td> 
   </tr> 
   <tr> 
@@ -362,7 +362,7 @@ The following HTTP request methods apply to: ``
 <table> 
  <tbody> 
   <tr> 
-   <td width="20%">HTTP request method</td> 
+   <td>HTTP request method</td> 
    <td>Actions</td> 
   </tr> 
   <tr> 

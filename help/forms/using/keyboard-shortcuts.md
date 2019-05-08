@@ -266,7 +266,7 @@ This section lists various keyboards and accessibility shortcuts that you can us
    <th width="30%"><strong>Shortcut on Mac OS</strong></th> 
   </tr>
   <tr>
-   <td width="217"><p>Increase the font size </p> </td> 
+   <td><p>Increase the font size </p> </td> 
    <td><p>Ctrl+Shift+&gt;</p> </td> 
    <td>Ctrl+Shift+&gt;</td> 
   </tr>
@@ -338,17 +338,17 @@ This section lists various keyboards and accessibility shortcuts that you can us
   </tr>
   <tr>
    <td><p>Make letters bold</p> </td> 
-   <td width="250"><p>Ctrl+Alt+B / Ctrl+B</p> </td> 
+   <td><p>Ctrl+Alt+B / Ctrl+B</p> </td> 
    <td>Command+B</td> 
   </tr>
   <tr>
    <td><p>Make letters italic</p> </td> 
-   <td width="250"><p>Ctrl+Alt+I / Ctrl+I </p> </td> 
+   <td><p>Ctrl+Alt+I / Ctrl+I </p> </td> 
    <td>Command+I</td> 
   </tr>
   <tr>
    <td><p>Underline letters </p> </td> 
-   <td width="250"><p>Ctrl+Alt+U / Ctrl+U</p> </td> 
+   <td><p>Ctrl+Alt+U / Ctrl+U</p> </td> 
    <td>Command+U</td> 
   </tr>
  </tbody>

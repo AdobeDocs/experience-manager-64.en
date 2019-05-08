@@ -86,7 +86,7 @@ The parameters in the following table are common to all goals except when noted 
   </tr> 
   <tr> 
    <td>name</td> 
-   <td width="5">String</td> 
+   <td>String</td> 
    <td>build: Yes<br /> install: No<br /> rm: Yes</td> 
    <td>Build: No default.<br /> install: The value of the artifactId property of the Maven project.</td> 
    <td>The name of the package to act on.</td> 
@@ -94,7 +94,7 @@ The parameters in the following table are common to all goals except when noted 
   </tr> 
   <tr> 
    <td>password</td> 
-   <td width="5">String</td> 
+   <td>String</td> 
    <td>Yes</td> 
    <td>admin</td> 
    <td>The password used for authentication with the CRX server.</td> 
@@ -102,7 +102,7 @@ The parameters in the following table are common to all goals except when noted 
   </tr> 
   <tr> 
    <td>serverId</td> 
-   <td width="5">String</td> 
+   <td>String</td> 
    <td>No</td> 
    <td></td> 
    <td>The server ID from which to retrieve the user name and password for authentication.</td> 
@@ -110,7 +110,7 @@ The parameters in the following table are common to all goals except when noted 
   </tr> 
   <tr> 
    <td>targetURL</td> 
-   <td width="5">String</td> 
+   <td>String</td> 
    <td>Yes</td> 
    <td>http://localhost:4502/<br /> crx/packmgr/<br /> service.jsp</td> 
    <td>The URL of the HTTP service API of the CRX package manager.</td> 
@@ -118,7 +118,7 @@ The parameters in the following table are common to all goals except when noted 
   </tr> 
   <tr> 
    <td>timeout</td> 
-   <td width="5">int</td> 
+   <td>int</td> 
    <td>No</td> 
    <td>5</td> 
    <td>The connection timeout for communicating with the package manager service, in seconds.</td> 
@@ -126,7 +126,7 @@ The parameters in the following table are common to all goals except when noted 
   </tr> 
   <tr> 
    <td>useProxy</td> 
-   <td width="5">boolean</td> 
+   <td>boolean</td> 
    <td>No</td> 
    <td>true</td> 
    <td>Determines whether to use proxy configurations from the Maven settings file. A value of <code>true</code> causes the use of the first active proxy configuration found to proxy requests to the package manager. A value of false causes no proxy to be used.</td> 
@@ -134,7 +134,7 @@ The parameters in the following table are common to all goals except when noted 
   </tr> 
   <tr> 
    <td>userId</td> 
-   <td width="5">String</td> 
+   <td>String</td> 
    <td>Yes</td> 
    <td>admin</td> 
    <td>The user name to authenticate with the CRX server.</td> 
@@ -142,7 +142,7 @@ The parameters in the following table are common to all goals except when noted 
   </tr> 
   <tr> 
    <td>verbose</td> 
-   <td width="5">boolean</td> 
+   <td>boolean</td> 
    <td>No</td> 
    <td>false</td> 
    <td>Enables or disables verbose logging. A value of <code>true</code> enables verbose logging.</td> 

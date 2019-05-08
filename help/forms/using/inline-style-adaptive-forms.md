@@ -51,10 +51,10 @@ Notice the change in text box style as shown in the following image after applyi
 <table> 
  <tbody> 
   <tr> 
-   <td width="161"><p>Selector</p> </td> 
-   <td width="123"><p>CSS property</p> </td> 
-   <td width="104"><p>Value</p> </td> 
-   <td width="227"><p>Effect</p> </td> 
+   <td><p>Selector</p> </td> 
+   <td><p>CSS property</p> </td> 
+   <td><p>Value</p> </td> 
+   <td><p>Effect</p> </td> 
   </tr> 
   <tr> 
    <td><p>Field</p> </td> 

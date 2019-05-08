@@ -48,9 +48,9 @@ In the following sections we use the example of a new page `b`, created in both 
  </caption> 
  <tbody> 
   <tr> 
-   <td width="30%"><strong>blueprint before rollout</strong></td> 
-   <td width="30%"><strong>live copy before rollout</strong></td> 
-   <td width="40%"><strong>publish before rollout</strong></td> 
+   <td><strong>blueprint before rollout</strong></td> 
+   <td><strong>live copy before rollout</strong></td> 
+   <td><strong>publish before rollout</strong></td> 
   </tr> 
   <tr> 
    <td><code>b</code><br /> <br /> (created in blueprint branch, ready for rollout)<br /> </td> 

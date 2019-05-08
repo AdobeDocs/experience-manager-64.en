@@ -307,10 +307,10 @@ You can run AEM Forms on JEE on a physical machine or a virtual environment. How
   <tr> 
    <th width="40%"><p><strong>Platform (Base Version)</strong></p> </th> 
    <th>Support Level</th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
-   <td width="40%"><p>Microsoft® Windows® 10</p> </td> 
+   <td><p>Microsoft® Windows® 10</p> </td> 
    <td>E: Expected to work</td> 
    <td><p>Service pack and critical updates</p> </td> 
   </tr> 
@@ -355,8 +355,8 @@ In addition, consider the following points while choosing software for Adobe AEM
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="52%"><p><strong>Product (Base Version)</strong></p> </th> 
-   <th valign="middle" width="47%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Product (Base Version)</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
    <td>Oracle Unified Directory (OUD) 11g Release 2</td> 
@@ -440,8 +440,8 @@ AEM Forms App now supports the Apache Cordova. Following are the platform-specif
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="35%"><p><strong>Product</strong></p> </th> 
-   <th valign="middle" width="64%"><p><strong>Supported Formats for Conversion to PDF</strong></p> </th> 
+   <th><p><strong>Product</strong></p> </th> 
+   <th><p><strong>Supported Formats for Conversion to PDF</strong></p> </th> 
   </tr> 
   <tr> 
    <td><a href="https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html">Acrobat 2017 classic track</a></td> 
@@ -578,8 +578,8 @@ For additional reuirements see:
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="40%"><p><strong>Platform</strong></p> </th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Platform</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
    <td><p>Microsoft® Windows® 10</p> <p>(Enterprise, Pro, Basic)</p> </td> 
@@ -634,8 +634,8 @@ For additional reuirements see:
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="40%"><p><strong>Acrobat and Adobe Reader (Base)</strong></p> </th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Acrobat and Adobe Reader (Base)</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
    <td>Acrobat 2017 (Classic track)</td> 
@@ -710,8 +710,8 @@ For additional reuirements see:
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="40%"><p><strong>Browser (Base)</strong></p> </th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Browser (Base)</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
    <td><p>Chrome on Android™ 4.1.2 and above</p> </td> 
@@ -758,8 +758,8 @@ AEM Forms app is available on the following platforms:
 <table> 
  <tbody> 
   <tr> 
-   <th valign="middle" width="40%"><p><strong>Flash Player (Base)</strong></p> </th> 
-   <th valign="middle" width="40%"><p><strong>Supported Patch Definitions</strong></p> </th> 
+   <th><p><strong>Flash Player (Base)</strong></p> </th> 
+   <th><p><strong>Supported Patch Definitions</strong></p> </th> 
   </tr> 
   <tr> 
    <td><p>Flash Player latest version</p> </td> 

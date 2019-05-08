@@ -49,39 +49,39 @@ Authors can create and edit textual content in AEM using the different modes of 
 <table> 
  <tbody> 
   <tr> 
-   <th style="text-align: center;" valign="middle">Editing mode</th> 
+   <th>Editing mode</th> 
    <th>Editing area</th> 
    <th>Recommended features to be enabled<br /> </th> 
-   <th style="text-align: center;" valign="middle">Touch UI</th> 
-   <th style="text-align: center;" valign="middle">Classic UI</th> 
+   <th>Touch UI</th> 
+   <th>Classic UI</th> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">Inline</td> 
+   <td>Inline</td> 
    <td>In-place editing for quick, minor edits; Format without opening a dialog box</td> 
    <td>Minimal RTE features</td> 
-   <td style="text-align: center;">Y</td> 
-   <td style="text-align: center;">Y</td> 
+   <td>Y</td> 
+   <td>Y</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">RTE full screen</td> 
+   <td>RTE full screen</td> 
    <td>Covers entire page<br /> </td> 
    <td>All the required RTE features<br /> </td> 
-   <td style="text-align: center;">Y</td> 
-   <td style="text-align: center;">N<br /> </td> 
+   <td>Y</td> 
+   <td>N<br /> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">Dialog</td> 
+   <td>Dialog</td> 
    <td>Dialog box on top of the page content but does not cover the entire page</td> 
    <td>All the required RTE features in Classic UI; judiciously enable features in Touch UI<br /> </td> 
-   <td style="text-align: center;">Y</td> 
-   <td style="text-align: center;">Y</td> 
+   <td>Y</td> 
+   <td>Y</td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;">Dialog full screen<br /> </td> 
+   <td>Dialog full screen<br /> </td> 
    <td>Same as Full screen mode; contains fields of the dialog alongside RTE<br /> </td> 
    <td>All the required RTE features</td> 
-   <td style="text-align: center;">Y</td> 
-   <td style="text-align: center;">N</td> 
+   <td>Y</td> 
+   <td>N</td> 
   </tr> 
  </tbody> 
 </table>

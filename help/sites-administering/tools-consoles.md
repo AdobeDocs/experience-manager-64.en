@@ -28,167 +28,167 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <th>Purpose</th> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/msm.md">MSM Control Center</a></td> 
+   <td><a href="/help/sites-administering/msm.md">MSM Control Center</a></td> 
    <td> </td> 
    <td>Centralized point for managing your multiple sites.</td> 
   </tr> 
   <tr> 
-   <td width="200">Client Context Configurations<br /> </td> 
+   <td>Client Context Configurations<br /> </td> 
    <td> </td> 
    <td>The <a href="/help/sites-developing/client-context.md">Client Context</a> represents a dynamically assembled collection of user data. The default and marketing cloud configurations are held here.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="200">Cloud Services Configurations<br /> </td> 
+   <td>Cloud Services Configurations<br /> </td> 
    <td> </td> 
    <td>Holds configurations related to <a href="/help/sites-administering/marketing-cloud.md">Integrating with the Adobe Marketing Cloud</a>.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/ecommerce.md">Commerce</a></td> 
+   <td><a href="/help/sites-administering/ecommerce.md">Commerce</a></td> 
    <td> </td> 
    <td>Provides access to importers and various product data.</td> 
   </tr> 
   <tr> 
-   <td width="200">DAM - Digital Rights Management<br /> </td> 
+   <td>DAM - Digital Rights Management<br /> </td> 
    <td> </td> 
    <td>Provides access to digital rights information and licences.</td> 
   </tr> 
   <tr> 
-   <td width="200">DAM - Health Checker<br /> </td> 
+   <td>DAM - Health Checker<br /> </td> 
    <td> </td> 
    <td>Compares <code>/var/dam</code> and <code>/content/dam</code> and checks for<br /> any inconsistencies. Any files/folders listed can then be synchronized or deleted. Node types for folder comparison are configurable in the web console.</td> 
   </tr> 
   <tr> 
-   <td width="200">DAM - Adobe Indesign<br /> </td> 
+   <td>DAM - Adobe Indesign<br /> </td> 
    <td> </td> 
    <td>Scripts for use in conjunction with Adobe Indesign.</td> 
   </tr> 
   <tr> 
-   <td width="200">DAM - Video Profiles<br /> </td> 
+   <td>DAM - Video Profiles<br /> </td> 
    <td> </td> 
    <td>Configurable profiles for ffmpeg transcodings.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/dashboards.md">Dashboards</a></td> 
+   <td><a href="/help/sites-administering/dashboards.md">Dashboards</a></td> 
    <td> </td> 
    <td>Allows you to create reporting dashboards; these provide a customizable way to define pages that display consolidated data.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-developing/designer.md">Designs</a></td> 
+   <td><a href="/help/sites-developing/designer.md">Designs</a></td> 
    <td> </td> 
    <td>Holds the list of designs defined, including the graphics and css files to be used.</td> 
   </tr> 
   <tr> 
-   <td width="200">Custom Documentation</td> 
+   <td>Custom Documentation</td> 
    <td> </td> 
    <td>Used when extending the documentation and online help.</td> 
   </tr> 
   <tr> 
-   <td width="200">Form Submissions</td> 
+   <td>Form Submissions</td> 
    <td> </td> 
    <td>Holds the list of form submissions received.</td> 
   </tr> 
   <tr> 
-   <td width="200">Importers - <a href="/help/sites-administering/bulk-editor.md">Bulk Editor</a></td> 
+   <td>Importers - <a href="/help/sites-administering/bulk-editor.md">Bulk Editor</a></td> 
    <td> </td> 
    <td>Lets you search for items and edit them in bulk. You can also export and import content (in bulk) into the repository.</td> 
   </tr>
   <tr> 
-   <td width="200">Importer - Feed Importer</td> 
+   <td>Importer - Feed Importer</td> 
    <td> </td> 
    <td><p>The feed importer is a framework to repeatedly import content from external sources into your repository. The idea of the feed importer is to poll a remote resource at a specified interval, to parse it, and to create nodes in the content repository that represent the content of the remote resource.</p> </td> 
   </tr> 
   <tr> 
-   <td width="200">Importers - <a href="/help/sites-developing/site-importer.md">Site Importer</a></td> 
+   <td>Importers - <a href="/help/sites-developing/site-importer.md">Site Importer</a></td> 
    <td> </td> 
    <td>The site importer helps you take an existing website and set up the basis for a prototype, a proof of concept project and a new development new project.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/external-link-checker.md">External Linkchecker</a></td> 
+   <td><a href="/help/sites-administering/external-link-checker.md">External Linkchecker</a></td> 
    <td> </td> 
    <td>Scans all content pages within your AEM instance and checks any external links. A list of valid and invalid links displays.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-authoring/mobile.md">Mobile</a></td> 
+   <td><a href="/help/sites-authoring/mobile.md">Mobile</a></td> 
    <td> </td> 
    <td>Helps you create websites designed for mobile devices.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/msm.md">MSM</a></td> 
+   <td><a href="/help/sites-administering/msm.md">MSM</a></td> 
    <td> </td> 
    <td>Handles multilingual and multinational content, helping you balance centralized branding with localized content.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/notification.md">Notification</a></td> 
+   <td><a href="/help/sites-administering/notification.md">Notification</a></td> 
    <td> </td> 
    <td>Notification templates.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/package-manager.md">Packages</a></td> 
+   <td><a href="/help/sites-administering/package-manager.md">Packages</a></td> 
    <td> </td> 
    <td>An alternative link to the Package Manager that shows the packages that have been loaded for AEM WCM. Similar to the information shown in CRX's Package Manager.</td> 
   </tr> 
   <tr> 
-   <td width="200">Replication - <a href="/help/sites-deploying/configuring.md#replication-reverse-replication-and-replication-agents">Replication Agents</a></td> 
+   <td>Replication - <a href="/help/sites-deploying/configuring.md#replication-reverse-replication-and-replication-agents">Replication Agents</a></td> 
    <td> </td> 
    <td>Used to replicate data from author to publish when publishing pages, or with reverse replication to return user comments from the publish environment to author.</td> 
   </tr> 
   <tr> 
-   <td width="200">Importers - <a href="/help/sites-authoring/publishing-pages.md#publishing-and-unpublishing-a-tree">Activate Tree</a></td> 
+   <td>Importers - <a href="/help/sites-authoring/publishing-pages.md#publishing-and-unpublishing-a-tree">Activate Tree</a></td> 
    <td> </td> 
    <td>From the Websites tab you can activate the individual pages. When you have entered, or updated, a considerable number of content pages - all of which are resident under the same root page - it can be easier to activate the entire tree in one action. You can also perform a Dry Run to emulate an activation and highlight which pages would be activated.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/reporting.md">Reports</a></td> 
+   <td><a href="/help/sites-administering/reporting.md">Reports</a></td> 
    <td> </td> 
    <td>AEM provides a range of customized reports, allows you to create customized reports and/or develop your own.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-authoring/scaffolding.md">Default Page Scaffolding</a></td> 
+   <td><a href="/help/sites-authoring/scaffolding.md">Default Page Scaffolding</a></td> 
    <td> </td> 
    <td>With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.</td> 
   </tr> 
   <tr> 
-   <td width="200">Security - <a href="/help/sites-administering/notification.md">Self-Service Configuration </a> </td> 
+   <td>Security - <a href="/help/sites-administering/notification.md">Self-Service Configuration </a> </td> 
    <td> </td> 
    <td>Lets you configure the emails that users automatically receive when they create an account or reset a password and to confirm a password that has been reset.</td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/campaign-segmentation.md">Segmentation</a></td> 
+   <td><a href="/help/sites-administering/campaign-segmentation.md">Segmentation</a></td> 
    <td> </td> 
    <td>Site visitors have different interests and objectives when they come to a site. Understanding these goals and fulfilling the expectations is an important success factor for online marketing. Segmentation helps to achieve this by analyzing and characterizing a visitor's details.<br /> </td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/communities/working-with-srp.md">socialconfig</a></td> 
+   <td><a href="/help/communities/working-with-srp.md">socialconfig</a></td> 
    <td> </td> 
    <td>Default SRP configuration. See <a href="/help/communities/srp-config.md">Storage Configuration</a> console.</td> 
   </tr> 
   <tr> 
-   <td width="200">taskmanagement</td> 
+   <td>taskmanagement</td> 
    <td> </td> 
    <td>No active functionality related to this entry.</td> 
   </tr> 
   <tr> 
-   <td width="200">tenants</td> 
+   <td>tenants</td> 
    <td> </td> 
    <td>No active functionality related to this entry.</td> 
   </tr> 
   <tr> 
-   <td width="200">Versioning - <a href="/help/sites-deploying/version-purging.md">Purge Versions</a></td> 
+   <td>Versioning - <a href="/help/sites-deploying/version-purging.md">Purge Versions</a></td> 
    <td> </td> 
    <td>Allows you to purge page versions as required.</td> 
   </tr> 
   <tr> 
-   <td width="200">Virtual Repositories</td> 
+   <td>Virtual Repositories</td> 
    <td> </td> 
    <td>You can set up a Virtual Repository using the workspace mount feature to provide JCR-enabled content applications with simplified access to JCR content infrastructure based on CRX and the JCR Connectors.</td> 
   </tr> 
   <tr> 
-   <td width="200">watchwords</td> 
+   <td>watchwords</td> 
    <td> </td> 
    <td>Deprecated. See <a href="/help/communities/moderate-ugc.md#watchwords">Moderating Community Content</a></td> 
   </tr> 
   <tr> 
-   <td width="200"><a href="/help/sites-administering/workflows.md">Workflow</a></td> 
+   <td><a href="/help/sites-administering/workflows.md">Workflow</a></td> 
    <td> </td> 
    <td>Workflows control a series of actions on pages or digital assets that support any editorial process.</td> 
   </tr> 

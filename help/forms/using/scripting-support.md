@@ -25,8 +25,8 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
    <th>Exception</th> 
   </tr> 
   <tr> 
-   <td width="30%"><code>prevText </code></td> 
-   <td width="40%">Specifies the content of the field before it changes in response to the actions of a user. This value can be recalled, similar to an undo feature.</td> 
+   <td><code>prevText </code></td> 
+   <td>Specifies the content of the field before it changes in response to the actions of a user. This value can be recalled, similar to an undo feature.</td> 
    <td><p>Does not work for drop-downs and list boxes. <code>PrevText </code>does not work correctly for the following cases:</p> 
     <ul> 
      <li>On typing some special character keys (for example $, (,), &amp;, @, and more) in Numeric fields on the iPad, and </li> 
@@ -88,8 +88,8 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
    <th>Exception</th> 
   </tr> 
   <tr> 
-   <td width="30%"><code>apptype</code></td> 
-   <td width="40%">Returns the application type of the host. Available only for client applications.</td> 
+   <td><code>apptype</code></td> 
+   <td>Returns the application type of the host. Available only for client applications.</td> 
    <td>Returns <code>HTML 5</code>.</td> 
   </tr> 
   <tr> 
@@ -170,8 +170,8 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
    <th><strong><span>Exception</span></strong></th> 
   </tr> 
   <tr> 
-   <td width="30%"><code>presence</code></td> 
-   <td width="40%">Controls the participation of the associated object in different phases of processing. If the object is a container, the contents of the container inherit whatever restrictions this control applies.</td> 
+   <td><code>presence</code></td> 
+   <td>Controls the participation of the associated object in different phases of processing. If the object is a container, the contents of the container inherit whatever restrictions this control applies.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
@@ -402,8 +402,8 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
    <th>Exception</th> 
   </tr> 
   <tr> 
-   <td width="30%">instanceIndex</td> 
-   <td width="40%">Specifies the index of the object, relative to the other instantiated instances.</td> 
+   <td>instanceIndex</td> 
+   <td>Specifies the index of the object, relative to the other instantiated instances.</td> 
    <td>None</td> 
   </tr> 
   <tr> 
@@ -504,8 +504,8 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
     </ul> </td> 
   </tr> 
   <tr> 
-   <td width="30%">name</td> 
-   <td width="40%">Specifies the name of this node.</td> 
+   <td>name</td> 
+   <td>Specifies the name of this node.</td> 
    <td>Setting the name using scripts is not allowed in HTML.</td> 
   </tr> 
   <tr> 
