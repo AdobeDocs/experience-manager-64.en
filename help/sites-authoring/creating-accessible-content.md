@@ -459,7 +459,7 @@ You can make sure your web pages are given the appropriate structure by:
       <td headers="p p2">10%</td>
       <td headers="p pf">15%</td>
      </tr>
-    </table>
+  </table>
   ```
 
   To achieve this in AEM you must add the markup directly using the source edit mode.

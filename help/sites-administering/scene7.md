@@ -78,8 +78,10 @@ To use Dynamic Media and Scene7 simultaneously:
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td colspan="2"><strong>Dynamic Media</strong></td> 
-   <td colspan="2"><strong>Scene7 Integration</strong></td> 
+   <td><strong>Dynamic Media</strong></td> 
+   <td> </td> 
+   <td><strong>Scene7 Integration</strong></td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td><strong>If you are ...</strong></td> 

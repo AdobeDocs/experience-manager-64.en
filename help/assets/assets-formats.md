@@ -93,13 +93,24 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 ## Supported Document Formats {#supported-document-formats}
 
-<!-- table with merged cells - fix -->
+<!-- table below with merged cells. pls check -->
 
 <table> 
  <tbody>
   <tr>
-   <th colspan="8" style="text-align: center;">Asset Management Features</th> 
-   <th colspan="5" style="text-align: center;">Dynamic Media Features</th> 
+   <th>Asset Management Features</th> 
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th>Dynamic Media Features</th> 
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
   </tr>
   <tr>
    <th> </th> 
@@ -118,7 +129,18 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <th>Format</th> 
-   <td colspan="12"> </td> 
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
   </tr>
   <tr>
    <td><a href="/help/assets/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>AI</strong></a></td> 
@@ -452,7 +474,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
  <tbody>
   <tr></tr>
   <tr>
-   <th colspan="6" style="text-align: center;">Features</th> 
+   <th>Features</th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
    <th> </th> 
   </tr>
   <tr>
@@ -466,7 +493,9 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <th>Formats</th> 
-   <td colspan="3"> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -526,7 +555,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 <table> 
  <tbody>
   <tr>
-   <th colspan="6" style="text-align: center;">Features</th> 
+   <th>Features</th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
    <th> </th> 
   </tr>
   <tr>
@@ -540,7 +574,10 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <th>Formats</th> 
-   <td colspan="4"> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr>
