@@ -674,24 +674,24 @@ The following table illustrates the size of data volumes that are used in the ba
   </tr> 
   <tr> 
    <td>Base install</td> 
-   <td style="text-align: right;">69,610</td> 
-   <td style="text-align: right;">562</td> 
-   <td style="text-align: right;">256</td> 
-   <td style="text-align: right;">237</td> 
+   <td>69,610</td> 
+   <td>562</td> 
+   <td>256</td> 
+   <td>237</td> 
   </tr> 
   <tr> 
    <td>Small content for incremental back-up</td> 
    <td><br type="_moz" /> </td> 
-   <td style="text-align: right;">+100</td> 
-   <td style="text-align: right;">+2</td> 
-   <td style="text-align: right;">+2</td> 
+   <td>+100</td> 
+   <td>+2</td> 
+   <td>+2</td> 
   </tr> 
   <tr> 
    <td>Large content for full back-up</td> 
    <td><br type="_moz" /> </td> 
-   <td style="text-align: right;">+10,000</td> 
-   <td style="text-align: right;">+100</td> 
-   <td style="text-align: right;">+100</td> 
+   <td>+10,000</td> 
+   <td>+100</td> 
+   <td>+100</td> 
   </tr> 
  </tbody> 
 </table>

@@ -68,16 +68,17 @@ Specific documents are described and linked to in the tables that follow.
 
 AEM Communities simplifies the creation and management of on-premise Communities. Best practices for AEM Communities are described here:
 
-| Community Content Persistence | [Community Content Store](/help/communities/working-with-srp.md) |Discusses the new shared storage feature for user generated content (UGC) and the considerations for choosing the underlying [topology](/help/communities/topologies.md). |
-|---|---|---|
-| Deployments for Communities | [Recommended deployments](/help/sites-deploying/recommended-deploys.md#considerations-for-aem-communities) |Describes the recommended deployments for Communities. |
+[Community Content Store](/help/communities/working-with-srp.md) - Discusses the new shared storage feature for user generated content (UGC) and the considerations for choosing the underlying [topology](/help/communities/topologies.md).
+
+[Recommended deployments for communities](/help/sites-deploying/recommended-deploys.md#considerations-for-aem-communities) - Describes the recommended deployments for Communities. |
 
 ## UI {#ui}
 
 Best practices around the user interface are described here:
 
-| Recommendations for UI selection | [User Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md) |AEM currently has two UIs: classic and touch-optimized UI in the same release. Therefore customers have to make a decision about which to use during the project implementation. This document is intended to help with finding the right choice. |
-|---|---|---|
+[User Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md)
+
+AEM currently has two UIs: classic and touch-optimized UI in the same release. Therefore customers have to make a decision about which to use during the project implementation. This document is intended to help with finding the right choice. 
 
 ## Performance {#performance}
 

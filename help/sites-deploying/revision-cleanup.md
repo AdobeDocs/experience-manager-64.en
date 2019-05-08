@@ -569,9 +569,9 @@ The list includes several command line parameters, as described below:
 
 * **-Dcompaction-progress-log**. The number of compacted nodes that will be logged. The default value is 150000,** **which means that the first 150000 compacted nodes will be logged during the operation. Use this in conjunction with the next parameter documented below.
 
-* **-Dtar.PersistCompactionMap. **Set this parameter to true to use disk space instead of heap memory for compaction map persistance. Requires the oak-run tool **versions 1.4** and higher. For further details, see question 3 in the [Offline Revision Cleanup Frequently Asked Questions](/help/sites-deploying/revision-cleanup.md#offline-revision-cleanup-frequently-asked-questions) section. **This parameter has been removed in Oak version 1.6 and has no effect.**
+* **-Dtar.PersistCompactionMap.** Set this parameter to true to use disk space instead of heap memory for compaction map persistance. Requires the oak-run tool **versions 1.4** and higher. For further details, see question 3 in the [Offline Revision Cleanup Frequently Asked Questions](/help/sites-deploying/revision-cleanup.md#offline-revision-cleanup-frequently-asked-questions) section. **This parameter has been removed in Oak version 1.6 and has no effect.**
 
-* ** --force. **Force compaction and ignore a non matching segment store version.
+* **--force.** Force compaction and ignore a non matching segment store version.
 
 >[!CAUTION]
 >
@@ -603,7 +603,7 @@ In addition to the methods presented above, you can also trigger the revision cl
    <td><strong>What is the difference between a revision and a page version?</strong></td> 
    <td> 
     <ul> 
-     <li><strong>Oak revision:</strong> Oak organizes all the content in a large tree hierarchy that consists of nodes and properties. Each snapshot or revision of this content tree is immutable, and changes to the tree are expressed as a sequence of new revisions. Typically, each content modification triggers a new revision. See also <a href="https://jackrabbit.apache.org/dev/ngp.html" target="_blank" title="Follow link">https://jackrabbit.apache.org/dev/ngp.html</a>.</li> 
+     <li><strong>Oak revision:</strong> Oak organizes all the content in a large tree hierarchy that consists of nodes and properties. Each snapshot or revision of this content tree is immutable, and changes to the tree are expressed as a sequence of new revisions. Typically, each content modification triggers a new revision. See also <a href="https://jackrabbit.apache.org/dev/ngp.html" target="_blank"> Follow link</a>.</li> 
      <li><strong>Page Version:</strong> Versioning creates a "snapshot" of a page at a specific point in time. Typically, a new version is created when a page is activated. For more information, see <a href="/help/sites-authoring/working-with-page-versions.md" target="_blank">Working with Page Versions</a>.</li> 
     </ul> </td> 
   </tr> 

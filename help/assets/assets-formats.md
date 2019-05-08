@@ -93,13 +93,24 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 ## Supported Document Formats {#supported-document-formats}
 
-<!-- table with merged cells - fix -->
+<!-- table below with merged cells. pls check -->
 
 <table> 
  <tbody>
   <tr>
-   <th colspan="8" style="text-align: center;">Asset Management Features</th> 
-   <th colspan="5" style="text-align: center;">Dynamic Media Features</th> 
+   <th>Asset Management Features</th> 
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th>Dynamic Media Features</th> 
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
   </tr>
   <tr>
    <th> </th> 
@@ -118,31 +129,42 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <th>Format</th> 
-   <td colspan="12"> </td> 
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
+   <th></th>
   </tr>
   <tr>
    <td><a href="/help/assets/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>AI</strong></a></td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
-   <td style="text-align: center;"> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr>
   <tr>
    <td title="Microsoft Word">DOC</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -152,12 +174,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td>DOCX</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -167,12 +189,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="OpenDocument Text">ODT</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -182,27 +204,27 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="Adobe PDF"><a href="/help/assets/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>PDF</strong></a></td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr>
   <tr>
    <td title="HTML Hypertext">HTML</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -212,12 +234,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="Rich Text Format">RTF</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -227,12 +249,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="Plain Text Format">TXT</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -242,12 +264,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="Microsoft Excel">XLS</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -257,10 +279,10 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td>XLSX</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -272,12 +294,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="Open Document Spreadsheet">ODS</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -287,12 +309,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="Microsoft Powerpoint">PPT</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x<br /> </td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x<br /> </td> 
+   <td>x</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -302,12 +324,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td>PPTX</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -317,12 +339,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="Open Document Presentation">ODP</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -332,14 +354,14 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="Adobe In Design"><strong><a href="/help/assets/managing-image-presets.md#indesign-indd-file-format">INDD</a></strong></td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -347,12 +369,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="Adobe Postscript">PS</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -362,12 +384,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td title="QuarkXPress">QXP</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;"> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -377,11 +399,11 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <td>EPUB</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;"> </td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td> </td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -452,7 +474,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
  <tbody>
   <tr></tr>
   <tr>
-   <th colspan="6" style="text-align: center;">Features</th> 
+   <th>Features</th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
    <th> </th> 
   </tr>
   <tr>
@@ -466,55 +493,57 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <th>Formats</th> 
-   <td colspan="3"> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr>
   <tr>
    <td title="Compressed TAR">TGZ</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x<br /> </td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x<br /> </td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
   </tr>
   <tr>
    <td title="Java archive">JAR</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x<br /> </td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x<br /> </td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
   </tr>
   <tr>
    <td title="Roshal archive">RAR</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x<br /> </td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x<br /> </td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
   </tr>
   <tr>
    <td title="Tape archive">TAR</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x<br /> </td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x<br /> </td> 
+   <td>x</td> 
+   <td>x</td> 
    <td> </td> 
   </tr>
   <tr>
    <td title="ZIP archive">ZIP*</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x<br /> </td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x<br /> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr>
  </tbody>
 </table>
@@ -526,7 +555,12 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 <table> 
  <tbody>
   <tr>
-   <th colspan="6" style="text-align: center;">Features</th> 
+   <th>Features</th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
+   <th> </th> 
    <th> </th> 
   </tr>
   <tr>
@@ -540,54 +574,57 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
   </tr>
   <tr>
    <th>Formats</th> 
-   <td colspan="4"> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr>
   <tr>
    <td title="Other file formats">*</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x<br /> </td> 
-   <td style="text-align: center;">x<br /> </td> 
-   <td style="text-align: center;">x<br /> </td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x<br /> </td> 
+   <td>x<br /> </td> 
+   <td>x<br /> </td> 
    <td> </td> 
   </tr>
   <tr>
    <td>SVG</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x<br /> </td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x<br /> </td> 
+   <td>x</td> 
   </tr>
   <tr>
    <td>CSS</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr>
   <tr>
    <td>VTT</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr>
   <tr>
    <td>XML</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr>
   <tr>
    <td>Javascript (when configured with own delivery domain)</td> 
@@ -596,7 +633,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td style="text-align: center;">x</td> 
+   <td>x</td> 
   </tr>
  </tbody>
 </table>

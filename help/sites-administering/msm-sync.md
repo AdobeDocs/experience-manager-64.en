@@ -120,7 +120,7 @@ The following table lists the synchronization actions that are installed with AE
 <table> 
  <tbody> 
   <tr> 
-   <th scope="col" width="100">Action Name</th> 
+   <th>Action Name</th> 
    <th>Description</th> 
    <th>Properties<br /> </th> 
   </tr> 

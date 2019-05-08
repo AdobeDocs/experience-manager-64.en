@@ -22,8 +22,8 @@ The following table lists the preview options available for different types of s
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Asset type</strong><br /> </td> 
-   <td style="text-align: center;"><strong>Available preview options</strong><br /> </td> 
+   <td><strong>Asset type</strong><br /> </td> 
+   <td><strong>Available preview options</strong><br /> </td> 
   </tr>
   <tr>
    <td>Document</td> 

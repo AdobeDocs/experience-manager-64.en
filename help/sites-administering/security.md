@@ -210,15 +210,13 @@ Access Control Lists are made up of the individual permissions and are used to d
 >
 >There are ACLs that are included with the samples. It is recommended that you review and determine what is appropriate for your applications. To review the ACLs that are included, go to **CRXDE **and select the **Access Control** tab for the following nodes:
 >
->`/etc/cloudservices/facebookconnect/geometrixx-outdoorsfacebookapp`: Allows everyone read access.  
-  
->`/etc/cloudservices/twitterconnect/geometrixx-outdoors-twitter-app`: Allows everyone read access.  
-  
+>`/etc/cloudservices/facebookconnect/geometrixx-outdoorsfacebookapp`: Allows everyone read access. 
+>`/etc/cloudservices/twitterconnect/geometrixx-outdoors-twitter-app`: Allows everyone read access.
 >`/home/users/geometrixx-outdoors`: Allows everyone read access for `*/profile*` and  
 >`*/social/relationships/following/*`.
 >
->Your custom application may set access for other relationships, such as `*/social/relationships/friend/*` or `*/social/relationships/pending-following/*`.  
-  
+>Your custom application may set access for other relationships, such as `*/social/relationships/friend/*` or `*/social/relationships/pending-following/*`. 
+>
 >When you create ACLs specific to communities, members joining those communities may be granted additional permissions. For example, this could be the case when users join the communities at `/content/geometrixx-outdoors/en/community/hiking` or `/content/geometrixx-outdoors/en/community/winter-sports`.
 
 ### Permission States {#permission-states}
@@ -231,7 +229,7 @@ Access Control Lists are made up of the individual permissions and are used to d
 >
 >For backwards compatibility reasons, the tests for actions does not take the special treatment of nodes defining **jcr:content** into account.
 
-| **Action ** |**Description ** |
+| **Action** |**Description** |
 |---|---|
 | Allow (Check mark) |AEM WCM allows the user to perform the action on this page or on any child pages. |
 | Deny (No checkmark) |AEM WCM does not allow the user to perform the action on this page nor on any child pages. |
@@ -280,10 +278,9 @@ The following are recommendations about managing access control lists:
 
 * Do not assign permissions directly to users. Assign them only to groups.
 
-This will simplify the maintenance, as the number of groups is much smaller than the number of users, and also less volatile.
+  This will simplify the maintenance, as the number of groups is much smaller than the number of users, and also less volatile.
 
 * If you want a group/user to be able only to modify pages, do not grant them create or deny rights. Only grant them modify and read rights.
-
 * Use Deny sparingly. As far as possible use only Allow.
 
   Using deny can cause unexpected effects if the permissions are applied in a different order than the order expected. If a user is a member of more than one group, the Deny statements from one group may cancel the Allow statement from another group or vice versa. It is hard to keep an overview when this happens and can easily lead to unforeseen results, whereas Allow assignments do not cause such conflicts.
@@ -338,7 +335,7 @@ Details are split into two parts:
 
 ### Impersonating another User {#impersonating-another-user}
 
-With the [**Impersonate** functionality](/help/sites-authoring/user-properties.md#user-settings) a user can work on behalf of another user.
+With the [Impersonate functionality](/help/sites-authoring/user-properties.md#user-settings) a user can work on behalf of another user.
 
 This means that a user account can specify other accounts that can operate with their account. In other words, if user-B is allowed to impersonate user-A, then user-B can take actions using the full account details of user-A.
 
@@ -805,4 +802,3 @@ The registration of new (custom) privileges is itself protected by a built-in pr
 >[!NOTE]
 >
 >While the implementation takes care of validating and evaluating custom privileges, it cannot enforce them unless they are aggregates of built-in privileges.
-

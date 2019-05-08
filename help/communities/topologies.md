@@ -67,32 +67,32 @@ When the topology is a publish farm, relevant topics of importance are
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;">MicroKernel</td> 
-   <td style="text-align: center;">SITE CONTENT<br /> REPOSITORY</td> 
-   <td style="text-align: center;">USER GENERATED CONTENT<br /> REPOSITORY</td> 
-   <td style="text-align: center;">STORAGE RESOURCE PROVIDER</td> 
-   <td style="text-align: center;">COMMON STORE </td> 
+   <td>MicroKernel</td> 
+   <td>SITE CONTENT<br /> REPOSITORY</td> 
+   <td>USER GENERATED CONTENT<br /> REPOSITORY</td> 
+   <td>STORAGE RESOURCE PROVIDER</td> 
+   <td>COMMON STORE </td> 
   </tr>
   <tr>
-   <td style="text-align: center;">any</td> 
-   <td style="text-align: center;">JCR</td> 
-   <td style="text-align: center;">MySQL</td> 
-   <td style="text-align: center;">DSRP</td> 
-   <td style="text-align: center;">Yes</td> 
+   <td>any</td> 
+   <td>JCR</td> 
+   <td>MySQL</td> 
+   <td>DSRP</td> 
+   <td>Yes</td> 
   </tr>
   <tr>
-   <td style="text-align: center;">any</td> 
-   <td style="text-align: center;">JCR</td> 
-   <td style="text-align: center;">MongoDB</td> 
-   <td style="text-align: center;">MSRP</td> 
-   <td style="text-align: center;">Yes</td> 
+   <td>any</td> 
+   <td>JCR</td> 
+   <td>MongoDB</td> 
+   <td>MSRP</td> 
+   <td>Yes</td> 
   </tr>
   <tr>
-   <td style="text-align: center;">any</td> 
-   <td style="text-align: center;">JCR</td> 
-   <td style="text-align: center;">Adobe on-demand<br /> storage</td> 
-   <td style="text-align: center;">ASRP</td> 
-   <td style="text-align: center;">Yes</td> 
+   <td>any</td> 
+   <td>JCR</td> 
+   <td>Adobe on-demand<br /> storage</td> 
+   <td>ASRP</td> 
+   <td>Yes</td> 
   </tr>
  </tbody>
 </table>
@@ -102,25 +102,25 @@ When the topology is a publish farm, relevant topics of importance are
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;">Deployment</td> 
-   <td style="text-align: center;">SITE CONTENT<br /> REPOSITORY</td> 
-   <td style="text-align: center;">USER GENERATED CONTENT<br /> REPOSITORY</td> 
-   <td style="text-align: center;">STORAGE RESOURCE PROVIDER</td> 
-   <td style="text-align: center;">COMMON STORE </td> 
+   <td>Deployment</td> 
+   <td>SITE CONTENT<br /> REPOSITORY</td> 
+   <td>USER GENERATED CONTENT<br /> REPOSITORY</td> 
+   <td>STORAGE RESOURCE PROVIDER</td> 
+   <td>COMMON STORE </td> 
   </tr>
   <tr>
-   <td style="text-align: center;">TarMK Farm (default)</td> 
-   <td style="text-align: center;">JCR</td> 
-   <td style="text-align: center;">JCR</td> 
-   <td style="text-align: center;">JSRP</td> 
-   <td style="text-align: center;">No<br /> </td> 
+   <td>TarMK Farm (default)</td> 
+   <td>JCR</td> 
+   <td>JCR</td> 
+   <td>JSRP</td> 
+   <td>No<br /> </td> 
   </tr>
   <tr>
-   <td style="text-align: center;">Oak Cluster</td> 
-   <td style="text-align: center;">JCR</td> 
-   <td style="text-align: center;">JCR</td> 
-   <td style="text-align: center;">JSRP</td> 
-   <td style="text-align: center;">Yes<br /> for publish environment only</td> 
+   <td>Oak Cluster</td> 
+   <td>JCR</td> 
+   <td>JCR</td> 
+   <td>JSRP</td> 
+   <td>Yes<br /> for publish environment only</td> 
   </tr>
  </tbody>
 </table>

@@ -32,8 +32,8 @@ In other words, you can use a single CSV file to simultaneously update the metad
    <table> 
     <tbody>
     <tr>
-    <td style="font-weight: normal" valign="top" width="295"><p>Batch Size</p> </td> 
-    <td style="font-weight: normal" valign="top" width="295"><p>Number of assets in a batch for which metadata is to be imported. Default value is 50. Maximum value is 100.</p> </td> 
+    <td><p>Batch Size</p> </td> 
+    <td><p>Number of assets in a batch for which metadata is to be imported. Default value is 50. Maximum value is 100.</p> </td> 
     </tr>
     <tr>
     <td><p>Field Separator</p> </td> 

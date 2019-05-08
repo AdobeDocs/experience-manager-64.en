@@ -21,9 +21,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Client Only</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Client Only</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr>
   <tr>
    <td>name</td> 
@@ -86,9 +86,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;">Property<br /> </td> 
-   <td style="text-align: center;">Client Only<br /> </td> 
-   <td style="text-align: center;">Comments<br /> </td> 
+   <td>Property<br /> </td> 
+   <td>Client Only<br /> </td> 
+   <td>Comments<br /> </td> 
   </tr>
   <tr>
    <td>classOfTask</td> 
@@ -385,9 +385,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Client Only</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Client Only</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr>
   <tr>
    <td>isDefault <br type="_moz" /> </td> 
@@ -429,9 +429,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Property</strong><br type="_moz" /> </td> 
-   <td style="text-align: center;"><strong>Client Only</strong><br type="_moz" /> </td> 
-   <td style="text-align: center;"><strong>Comments</strong><br type="_moz" /> </td> 
+   <td><strong>Property</strong><br type="_moz" /> </td> 
+   <td><strong>Client Only</strong><br type="_moz" /> </td> 
+   <td><strong>Comments</strong><br type="_moz" /> </td> 
   </tr>
   <tr>
    <td>dateRanges<br type="_moz" /> </td> 
@@ -488,9 +488,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Client Only</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Client Only</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr>
   <tr>
    <td>description<br type="_moz" /> </td> 
@@ -550,9 +550,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Client Only</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Client Only</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr>
   <tr>
    <td>processMajorVersion<br type="_moz" /> </td> 
@@ -589,9 +589,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Client Only</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Client Only</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr>
   <tr>
    <td>assignmentCreateTime<br type="_moz" /> </td> 
@@ -633,9 +633,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Client Only</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Client Only</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr>
   <tr>
    <td>canAddAttachments<br type="_moz" /> </td> 
@@ -677,9 +677,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Client Only</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Client Only</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr>
   <tr>
    <td>creationDate<br type="_moz" /> </td> 
@@ -766,9 +766,9 @@ JSON objects used in AEM Forms workspace are described below.
 <table> 
  <tbody>
   <tr>
-   <td style="text-align: center;"><strong>Property</strong></td> 
-   <td style="text-align: center;"><strong>Client Only</strong></td> 
-   <td style="text-align: center;"><strong>Comments</strong></td> 
+   <td><strong>Property</strong></td> 
+   <td><strong>Client Only</strong></td> 
+   <td><strong>Comments</strong></td> 
   </tr>
   <tr>
    <td>address<br type="_moz" /> </td> 

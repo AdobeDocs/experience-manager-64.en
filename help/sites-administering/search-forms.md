@@ -83,9 +83,9 @@ The following predicates are available, dependent on the configuration:
 <table> 
  <tbody> 
   <tr> 
-   <th width="10%">Predicate</th> 
-   <th width="40%">Purpose</th> 
-   <th width="30%">Settings</th> 
+   <th>Predicate</th> 
+   <th>Purpose</th> 
+   <th>Settings</th> 
   </tr> 
   <tr> 
    <td>Analytics </td> 

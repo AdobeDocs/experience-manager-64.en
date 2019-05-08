@@ -101,7 +101,7 @@ More details about the nodes and their properties are:
 <table> 
  <tbody> 
   <tr> 
-   <th scope="row">Name</th> 
+   <th>Name</th> 
    <th>Type</th> 
    <th>Value</th> 
   </tr> 
@@ -143,7 +143,7 @@ More details about the nodes and their properties are:
 <table> 
  <tbody> 
   <tr> 
-   <th scope="row">Name</th> 
+   <th>Name</th> 
    <th>Type</th> 
    <th>Value</th> 
   </tr> 
@@ -160,7 +160,7 @@ More details about the nodes and their properties are:
 <table> 
  <tbody> 
   <tr> 
-   <th scope="row">Name</th> 
+   <th>Name</th> 
    <th>Type</th> 
    <th>Value</th> 
   </tr> 
@@ -202,7 +202,7 @@ More details about the nodes and their properties are:
 <table> 
  <tbody> 
   <tr> 
-   <th scope="row">Name</th> 
+   <th>Name</th> 
    <th>Type</th> 
    <th>Value</th> 
   </tr> 
@@ -219,7 +219,7 @@ More details about the nodes and their properties are:
 <table> 
  <tbody> 
   <tr> 
-   <th scope="row">Name</th> 
+   <th>Name</th> 
    <th>Type</th> 
    <th>Value</th> 
   </tr> 

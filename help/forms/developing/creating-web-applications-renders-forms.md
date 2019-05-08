@@ -336,7 +336,7 @@ The following HTML code is located in the index.html file that was created durin
  <form name="myform" action="https://[server]:[port]/FragmentsWebApplication/RenderFormFragment" method="post"> 
       <table> 
       <tr> 
-        <th width="344" scope="col">Forms Fragment Web Client</th> 
+        <th>Forms Fragment Web Client</th> 
       </tr> 
       <tr> 
         <td> 

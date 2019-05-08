@@ -24,7 +24,7 @@ You will have an adaptive document similar to the following at the end of the tu
 <table> 
  <tbody>
   <tr>
-   <th width="20%">You will learn</th> 
+   <th>You will learn</th> 
    <th>
     <ul> 
      <li>Creating an adaptive document and form data model.</li> 

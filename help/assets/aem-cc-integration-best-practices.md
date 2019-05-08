@@ -75,62 +75,62 @@ The following table provides a concise summary of when to use which solution or 
  <tbody> 
   <tr> 
    <th>Use Case </th> 
-   <th width="127">Desktop App</th> 
-   <th width="167">Folder Sharing</th> 
-   <th width="201">Other Solutions</th> 
+   <th>Desktop App</th> 
+   <th>Folder Sharing</th> 
+   <th>Other Solutions</th> 
   </tr> 
   <tr> 
    <td>Share smaller number <a href="/help/assets/aem-cc-integration-best-practices.md#main-pars-text-541977675">[1]</a> of DAM assets with Creative user</td> 
-   <td style="text-align: center;">✔✔</td> 
-   <td style="text-align: center;">✔</td> 
+   <td>✔✔</td> 
+   <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Share larger number <a href="/help/assets/aem-cc-integration-best-practices.md#main-pars-text-541977675">[2]</a> of DAM assets with Creative user</td> 
-   <td style="text-align: center;">✔✔</td> 
-   <td style="text-align: center;">✘</td> 
+   <td>✔✔</td> 
+   <td>✘</td> 
    <td><p><a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Brand Portal</a></p> <p><a href="/help/assets/assets-finder-editor.md">Asset Share</a></p> </td> 
   </tr> 
   <tr> 
    <td>Share DAM assets with users who have access to DAM</td> 
-   <td style="text-align: center;">✔✔</td> 
-   <td style="text-align: center;">✔</td> 
+   <td>✔✔</td> 
+   <td>✔</td> 
    <td><a href="/help/assets/link-sharing.md">Link Share</a></td> 
   </tr> 
   <tr> 
    <td>Share DAM assets with users who don't have access to DAM</td> 
-   <td style="text-align: center;">✘</td> 
-   <td style="text-align: center;">✔✔</td> 
+   <td>✘</td> 
+   <td>✔✔</td> 
    <td><p><a href="https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html">Brand Portal</a></p> <p><a href="/help/assets/assets-finder-editor.md">Asset Share</a></p> </td> 
   </tr> 
   <tr> 
    <td>Save smaller number/volume of assets to DAM</td> 
-   <td style="text-align: center;">✔✔</td> 
-   <td style="text-align: center;">✔</td> 
+   <td>✔✔</td> 
+   <td>✔</td> 
    <td><a href="/help/assets/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></td> 
   </tr> 
   <tr> 
    <td>Save larger number of assets to DAM <a href="/help/assets/aem-cc-integration-best-practices.md#main-pars-text-541977675">[3]</a></td> 
-   <td style="text-align: center;">✔✔</td> 
-   <td style="text-align: center;">✘</td> 
+   <td>✔✔</td> 
+   <td>✘</td> 
    <td><p><a href="/help/assets/managing-assets-touch-ui.md#uploading-assets">Web UI Upload</a></p> <p>Custom script / tool </p> </td> 
   </tr> 
   <tr> 
    <td>Migrate huge number of assets to DAM<br /> <br /> </td> 
-   <td style="text-align: center;">✘<br /> <br /> </td> 
-   <td style="text-align: center;">✘<br /> <br /> </td> 
+   <td>✘<br /> <br /> </td> 
+   <td>✘<br /> <br /> </td> 
    <td><a href="/help/assets/assets-migration-guide.md">Migration Guide</a></td> 
   </tr> 
   <tr> 
    <td>Quickly open an asset on desktop</td> 
-   <td style="text-align: center;">✔✔</td> 
-   <td style="text-align: center;">✘</td> 
+   <td>✔✔</td> 
+   <td>✘</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Quickly open and change asset on desktop</td> 
-   <td style="text-align: center;">✔✔</td> 
-   <td style="text-align: center;">✘</td> 
+   <td>✔✔</td> 
+   <td>✘</td> 
    <td> </td> 
   </tr> 
  </tbody> 

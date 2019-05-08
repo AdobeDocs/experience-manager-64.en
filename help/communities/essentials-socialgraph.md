@@ -50,7 +50,7 @@ The `following`component lists the members that are either following the current
    <td>see <a href="/help/communities/socialgraph.md">Using Social Graph</a></td> 
   </tr>
   <tr>
-   <td style="vertical-align: top;"><strong> optional<br /> property</strong></td> 
+   <td><strong> optional<br /> property</strong></td> 
    <td>
     <ul> 
      <li>Name: <strong><code>outgoing</code></strong></li> 

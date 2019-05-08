@@ -292,10 +292,10 @@ The following table identifies the mobile viewer gestures that are supported on 
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Gesture</strong></td> 
-   <td style="text-align: center;"><strong>Flyout Zoom</strong></td> 
-   <td style="text-align: center;"><strong>Zoom</strong></td> 
-   <td style="text-align: center;"><strong>Spin</strong></td> 
+   <td><strong>Gesture</strong></td> 
+   <td><strong>Flyout Zoom</strong></td> 
+   <td><strong>Zoom</strong></td> 
+   <td><strong>Spin</strong></td> 
   </tr> 
   <tr> 
    <td><p><strong>Drag</strong></p> </td> 

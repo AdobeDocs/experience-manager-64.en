@@ -21,8 +21,8 @@ To search forms using the REST API, send a GET request to the server at `https:/
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong>Attribute name<br /> </strong></td> 
-   <td style="text-align: center;"><strong>Description<br /> </strong></td> 
+   <td><strong>Attribute name<br /> </strong></td> 
+   <td><strong>Description<br /> </strong></td> 
   </tr> 
   <tr> 
    <td>func<br /> </td> 

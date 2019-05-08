@@ -69,10 +69,10 @@ After activating a plug-in, follow these guidelines to configure `features` prop
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong> </strong></td> 
-   <th scope="row" style="text-align: center;" valign="middle"><strong>Enable all features<br /> </strong></th> 
-   <th scope="row" style="text-align: center;" valign="middle"><strong>Enable a few specific features</strong></th> 
-   <th scope="row" style="text-align: center;" valign="middle"><strong>Disable all features<br /> </strong></th> 
+   <td><strong> </strong></td> 
+   <th><strong>Enable all features<br /> </strong></th> 
+   <th><strong>Enable a few specific features</strong></th> 
+   <th><strong>Disable all features<br /> </strong></th> 
   </tr> 
   <tr> 
    <td><strong>Name</strong></td> 

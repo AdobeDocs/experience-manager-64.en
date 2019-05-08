@@ -367,121 +367,121 @@ Following is an example of default mappings after following the [getting started
 <table> 
  <tbody> 
   <tr> 
-   <td style="text-align: center;"><strong> </strong></td> 
-   <td style="text-align: center;"><strong>Enablement<br /> Resource<br /> Type</strong></td> 
-   <td style="text-align: center;"><strong>Site<br /> Title</strong></td> 
-   <td style="text-align: center;"><strong>Function<br /> Type</strong></td> 
-   <td style="text-align: center;"><strong>Group<br /> Title</strong></td> 
-   <td style="text-align: center;"><strong>Group<br /> Path</strong></td> 
-   <td style="text-align: center;"><strong>UGC<br /> Type</strong></td> 
-   <td style="text-align: center;"><strong>UGC<br /> Title</strong></td> 
-   <td style="text-align: center;"><strong>User<br /> (Member)</strong></td> 
-   <td style="text-align: center;"><strong>UGC<br /> Path</strong></td> 
-   <td style="text-align: center;"><strong>Site<br /> Path</strong></td> 
+   <td><strong> </strong></td> 
+   <td><strong>Enablement<br /> Resource<br /> Type</strong></td> 
+   <td><strong>Site<br /> Title</strong></td> 
+   <td><strong>Function<br /> Type</strong></td> 
+   <td><strong>Group<br /> Title</strong></td> 
+   <td><strong>Group<br /> Path</strong></td> 
+   <td><strong>UGC<br /> Type</strong></td> 
+   <td><strong>UGC<br /> Title</strong></td> 
+   <td><strong>User<br /> (Member)</strong></td> 
+   <td><strong>UGC<br /> Path</strong></td> 
+   <td><strong>Site<br /> Path</strong></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong> </strong></td> 
-   <td style="text-align: center;"><strong>eVar1</strong></td> 
-   <td style="text-align: center;"><strong>eVar2</strong></td> 
-   <td style="text-align: center;"><strong>eVar3</strong></td> 
-   <td style="text-align: center;"><strong>eVar4</strong></td> 
-   <td style="text-align: center;"><strong>eVar5</strong></td> 
-   <td style="text-align: center;"><strong>eVar6</strong></td> 
-   <td style="text-align: center;"><strong>eVar7</strong></td> 
-   <td style="text-align: center;"><strong>eVar8</strong></td> 
-   <td style="text-align: center;"><strong>eVar9</strong></td> 
-   <td style="text-align: center;"><strong>eVar10</strong></td> 
+   <td><strong> </strong></td> 
+   <td><strong>eVar1</strong></td> 
+   <td><strong>eVar2</strong></td> 
+   <td><strong>eVar3</strong></td> 
+   <td><strong>eVar4</strong></td> 
+   <td><strong>eVar5</strong></td> 
+   <td><strong>eVar6</strong></td> 
+   <td><strong>eVar7</strong></td> 
+   <td><strong>eVar8</strong></td> 
+   <td><strong>eVar9</strong></td> 
+   <td><strong>eVar10</strong></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong>event1<br /> Resource Play</strong></td> 
-   <td style="text-align: center;"><i>(a)</i></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>(i)</i></td> 
-   <td style="text-align: center;"><i>-</i></td> 
+   <td><strong>event1<br /> Resource Play</strong></td> 
+   <td><i>(a)</i></td> 
+   <td><i>-</i></td> 
+   <td><i>-</i></td> 
+   <td><i>-</i></td> 
+   <td><i>-</i></td> 
+   <td><i>-</i></td> 
+   <td><i>-</i></td> 
+   <td><i>-</i></td> 
+   <td><i>(i)</i></td> 
+   <td><i>-</i></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong>event2<br /> SCFView</strong></td> 
-   <td style="text-align: center;"><i>(a)</i></td> 
-   <td style="text-align: center;"><i>(b)</i></td> 
-   <td style="text-align: center;"><i>(c)</i></td> 
-   <td style="text-align: center;"><i>(d)</i></td> 
-   <td style="text-align: center;"><i>(e)</i></td> 
-   <td style="text-align: center;"><i>(f)</i></td> 
-   <td style="text-align: center;"><i>(g)</i></td> 
-   <td style="text-align: center;"><i>(h)</i></td> 
-   <td style="text-align: center;"><i>(i)</i></td> 
-   <td style="text-align: center;"><i>(j)</i></td> 
+   <td><strong>event2<br /> SCFView</strong></td> 
+   <td><i>(a)</i></td> 
+   <td><i>(b)</i></td> 
+   <td><i>(c)</i></td> 
+   <td><i>(d)</i></td> 
+   <td><i>(e)</i></td> 
+   <td><i>(f)</i></td> 
+   <td><i>(g)</i></td> 
+   <td><i>(h)</i></td> 
+   <td><i>(i)</i></td> 
+   <td><i>(j)</i></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong>event3<br /> SCFCreate (Post)</strong></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>(b)</i></td> 
-   <td style="text-align: center;"><i>(c)</i></td> 
-   <td style="text-align: center;"><i>(d)</i></td> 
-   <td style="text-align: center;"><i>(e)</i></td> 
-   <td style="text-align: center;"><i>(f)</i></td> 
-   <td style="text-align: center;"><i>(g)</i></td> 
-   <td style="text-align: center;"><i>(h)</i></td> 
-   <td style="text-align: center;"><i>(i)</i></td> 
-   <td style="text-align: center;"><i>(j)</i></td> 
+   <td><strong>event3<br /> SCFCreate (Post)</strong></td> 
+   <td><i>-</i></td> 
+   <td><i>(b)</i></td> 
+   <td><i>(c)</i></td> 
+   <td><i>(d)</i></td> 
+   <td><i>(e)</i></td> 
+   <td><i>(f)</i></td> 
+   <td><i>(g)</i></td> 
+   <td><i>(h)</i></td> 
+   <td><i>(i)</i></td> 
+   <td><i>(j)</i></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong>event4<br /> SCFFollow</strong></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>(b)</i></td> 
-   <td style="text-align: center;"><i>(c)</i></td> 
-   <td style="text-align: center;"><i>(d)</i></td> 
-   <td style="text-align: center;"><i>(e)</i></td> 
-   <td style="text-align: center;"><i>(f)</i></td> 
-   <td style="text-align: center;"><i>(g)</i></td> 
-   <td style="text-align: center;"><i>(h)</i></td> 
-   <td style="text-align: center;"><i>(i)</i></td> 
-   <td style="text-align: center;"><i>(j)</i></td> 
+   <td><strong>event4<br /> SCFFollow</strong></td> 
+   <td><i>-</i></td> 
+   <td><i>(b)</i></td> 
+   <td><i>(c)</i></td> 
+   <td><i>(d)</i></td> 
+   <td><i>(e)</i></td> 
+   <td><i>(f)</i></td> 
+   <td><i>(g)</i></td> 
+   <td><i>(h)</i></td> 
+   <td><i>(i)</i></td> 
+   <td><i>(j)</i></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong>event5<br /> SCFVoteUp</strong></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>(b)</i></td> 
-   <td style="text-align: center;"><i>(c)</i></td> 
-   <td style="text-align: center;"><i>(d)</i></td> 
-   <td style="text-align: center;"><i>(e)</i></td> 
-   <td style="text-align: center;"><i>(f)</i></td> 
-   <td style="text-align: center;"><i>(g)</i></td> 
-   <td style="text-align: center;"><i>(h)</i></td> 
-   <td style="text-align: center;"><i>(i)</i></td> 
-   <td style="text-align: center;"><i>(j)</i></td> 
+   <td><strong>event5<br /> SCFVoteUp</strong></td> 
+   <td><i>-</i></td> 
+   <td><i>(b)</i></td> 
+   <td><i>(c)</i></td> 
+   <td><i>(d)</i></td> 
+   <td><i>(e)</i></td> 
+   <td><i>(f)</i></td> 
+   <td><i>(g)</i></td> 
+   <td><i>(h)</i></td> 
+   <td><i>(i)</i></td> 
+   <td><i>(j)</i></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong>event6<br /> SCFVoteDown</strong></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>(b)</i></td> 
-   <td style="text-align: center;"><i>(c)</i></td> 
-   <td style="text-align: center;"><i>(d)</i></td> 
-   <td style="text-align: center;"><i>(e)</i></td> 
-   <td style="text-align: center;"><i>(f)</i></td> 
-   <td style="text-align: center;"><i>(g)</i></td> 
-   <td style="text-align: center;"><i>(h)</i></td> 
-   <td style="text-align: center;"><i>(i)</i></td> 
-   <td style="text-align: center;"><i>(j)</i></td> 
+   <td><strong>event6<br /> SCFVoteDown</strong></td> 
+   <td><i>-</i></td> 
+   <td><i>(b)</i></td> 
+   <td><i>(c)</i></td> 
+   <td><i>(d)</i></td> 
+   <td><i>(e)</i></td> 
+   <td><i>(f)</i></td> 
+   <td><i>(g)</i></td> 
+   <td><i>(h)</i></td> 
+   <td><i>(i)</i></td> 
+   <td><i>(j)</i></td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"><strong>event7<br /> SCFRate</strong></td> 
-   <td style="text-align: center;"><i>-</i></td> 
-   <td style="text-align: center;"><i>(b)</i></td> 
-   <td style="text-align: center;"><i>(c)</i></td> 
-   <td style="text-align: center;"><i>(d)</i></td> 
-   <td style="text-align: center;"><i>(e)</i></td> 
-   <td style="text-align: center;"><i>(f)</i></td> 
-   <td style="text-align: center;"><i>(g)</i></td> 
-   <td style="text-align: center;"><i>(h)</i></td> 
-   <td style="text-align: center;"><i>(i)</i></td> 
-   <td style="text-align: center;"><i>(j)</i></td> 
+   <td><strong>event7<br /> SCFRate</strong></td> 
+   <td><i>-</i></td> 
+   <td><i>(b)</i></td> 
+   <td><i>(c)</i></td> 
+   <td><i>(d)</i></td> 
+   <td><i>(e)</i></td> 
+   <td><i>(f)</i></td> 
+   <td><i>(g)</i></td> 
+   <td><i>(h)</i></td> 
+   <td><i>(i)</i></td> 
+   <td><i>(j)</i></td> 
   </tr> 
  </tbody> 
 </table>
