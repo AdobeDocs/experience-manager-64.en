@@ -178,7 +178,7 @@ The properties are distributed across several tabs:
 
 * Provide links to pages that provide site-wide functionality, such as **Signup Page**, **Offline Page**, amongst others.
 
-## Editing Page Properties {#editing-page-properties}
+## Editing Page Properties {#editing-page-properties-2}
 
 ### Editing Page Properties for a Specific Page {#editing-page-properties-for-a-specific-page}
 

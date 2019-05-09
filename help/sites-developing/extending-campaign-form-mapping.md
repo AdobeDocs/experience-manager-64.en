@@ -26,7 +26,7 @@ You need to have the following installed:
 
 See [Integrating AEM with Adobe Campaign Classic](/help/sites-administering/campaignonpremise.md) for more information.
 
-## Creating Custom Form Mappings {#creating-custom-form-mappings}
+## Creating Custom Form Mappings {#creating-custom-form-mappings-2}
 
 In order to create custom form mappings, you need to follow these high-level steps, which are described in detail in the following sections:
 

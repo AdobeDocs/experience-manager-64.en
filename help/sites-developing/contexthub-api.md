@@ -64,7 +64,7 @@ The following table lists the names of events that occur for the ContextHub UI.
 | ContextHub.Constants.EVENT_UI_INITIALIZED |Fired when UI container gets initialized |ui-initialized |
 | ContextHub.Constants.ACTIVE_UI_MODE |Indicates active UI mode |/_/active-ui-mode |
 
-## ContextHub Javascript API Reference {#contexthub-javascript-api-reference}
+## ContextHub Javascript API Reference {#contexthub-javascript-api-reference-2}
 
 The ContextHub object provides access to all stores.
 

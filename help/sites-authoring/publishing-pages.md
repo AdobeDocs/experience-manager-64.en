@@ -42,7 +42,7 @@ You can also publish/unpublish a page immediately or at a predefined date/time i
 >* A message will be displayed briefly to notify you that the workflow was triggered.
 >
 
-## Publishing Pages {#publishing-pages}
+## Publishing Pages {#publishing-pages-2}
 
 Depending on your location, you can publish:
 
