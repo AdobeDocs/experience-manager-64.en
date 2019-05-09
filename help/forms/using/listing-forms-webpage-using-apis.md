@@ -32,7 +32,7 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>appPath<br /> </td> 
-   <td><p style="word-break: break-word;">Specifies the application path to search for forms. By default, the appPath attribute searches all the applications available at the root node level.<br /> </p> <p style="word-break: break-word;">You can specify multiple application paths in a single search query. Separate multiple paths with pipe (|) character. </p> </td> 
+   <td><p>Specifies the application path to search for forms. By default, the appPath attribute searches all the applications available at the root node level.<br /> </p> <p>You can specify multiple application paths in a single search query. Separate multiple paths with pipe (|) character. </p> </td> 
   </tr> 
   <tr> 
    <td>cutPoints<br /> </td> 
