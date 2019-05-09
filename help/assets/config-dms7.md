@@ -29,11 +29,13 @@ With the new architecture, AEM is responsible for master assets and synchs with 
 
 ## Enabling Dynamic Media in Scene7 mode {#enabling-dynamic-media-in-scene-mode}
 
-[Dynamic media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable it.
+[Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable it.
 
-Dynamic Media - Scene7 mode is for Author only.
+>[NOTE]
+>
+> Dynamic Media - Scene7 mode is for the AEM Author instance only. As such, you must configure `runmode=dynamicmedia_scene7`on the AEM Author instance, ***not*** the AEM Publish instance.
 
-To enable dynamic media, you must startup AEM using the **dynamicmedia_scene7** runmode from the command line by entering the folllowing in a terminal window (example port used is 4502):
+To enable Dynamic Media, you must startup AEM using the `dynamicmedia_scene7` runmode from the command line by entering the folllowing in a terminal window (example port used is 4502):
 
 ```shell
 java -Xms4096m -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar -gui -r author,dynamicmedia_scene7 -p 4502
