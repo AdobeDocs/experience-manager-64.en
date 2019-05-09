@@ -214,7 +214,7 @@ To configure which formats are allowed when pasting text into AEM from another p
   <tr> 
    <td>fallbackBlockTag</td> 
    <td>String</td> 
-   <td><p>Defines the block tag used for any blocks having a block tag not included in allowBlockTags.</p> <p>p suffices in most cases.</p> </td> 
+   <td><p>Defines the block tag used for any blocks having a block tag not included in allowBlockTags.</p> <p> p suffices in most cases.</p> </td> 
   </tr> 
   <tr> 
    <td>table</td> 
@@ -371,7 +371,7 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 
 ## Configure the paragraph formats {#paraformats}
 
-Any text authored in RTE is placed within a block tag, the default being <p>. By enabling the `paraformat` plug-in, you specify additional block tags that can be assigned to paragraphs, using a drop-down selection list. Paragraph formats determine the paragraph type by assigning the correct block tag. The author can select and assign them using the Format selector. The example block tags include, amongst others, the standard paragraph &lt;p&gt; and headings &lt;h1&gt;, &lt;h2&gt;, and so on.
+Any text authored in RTE is placed within a block tag, the default being `<p>`. By enabling the `paraformat` plug-in, you specify additional block tags that can be assigned to paragraphs, using a drop-down selection list. Paragraph formats determine the paragraph type by assigning the correct block tag. The author can select and assign them using the Format selector. The example block tags include, amongst others, the standard paragraph &lt;p&gt; and headings &lt;h1&gt;, &lt;h2&gt;, and so on.
 
 >[!CAUTION]
 >
@@ -395,7 +395,7 @@ First enable the paraformat plug-in:
 1. In your component, navigate to the node `<*rtePlugins-node*>/paraformat`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `paraformat` node:
 
-    * **Name ** `features`  
+    * **Name** `features`  
     
     * **Type** `String`
     

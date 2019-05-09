@@ -31,7 +31,7 @@ When you [create a new or edit an existing Interactive Communication](/help/form
 
 **A.** Sidebar **B.** Page toolbar **C.** Content area
 
-## Sidebar {##sidebar}
+## Sidebar {#sidebar}
 
 [ ![Sidebar](assets/sidebar-comps.png)
 

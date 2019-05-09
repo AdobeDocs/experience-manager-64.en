@@ -73,7 +73,7 @@ Perform the following steps to identify process instance IDs for a workflow init
 
 1. Follow the instructions in [Purge user data from workflow instances based on process instance IDs](/help/forms/using/forms-workflow-jee-handling-user-data.md#purge) section to delete user data for identified process instance IDs.
 
-### Identify process instance IDs when user data is stored in primitive variables {##primitive}
+### Identify process instance IDs when user data is stored in primitive variables {#primitive}
 
 A workflow can be designed such that the user data is captured in a variable that gets stored as a blob in the database. In such cases, you can query user data only if it is stored in one of the following primitive-type variables:
 

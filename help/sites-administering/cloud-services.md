@@ -38,7 +38,7 @@ With AEM 6.4, we have a new menu tab called Cloud Services, at the same level as
 
 * **Legacy Cloud Services** - this is the card that was in Legacy versions under Tools > Deployment. Customers will need to access it for any cloud service that hasn't been provided as an independent card under the same menu tab. Any cloud services created using this card will appear under `/etc/cloudservices`. Note that as of 6.4, some cloud services under this card will no longer be editable, instead assuming that new cloud services will be created with the new paradigm. 
 
-* **An assortment of independent cloud services cards - **Context aware configurations allow for a layered approach where customers can include configurations in /libs/settings, /apps/settings, /conf/global/settings, and /conf/<tenant>/settings. For example, /libs/settings is overridden by new properties in /apps/settings, which is overridden by /conf/global/settings and so on. Note that run-mode specific settings are supported with this layered approach as well (for example `/apps/settings.author`).
+* **An assortment of independent cloud services cards**- Context aware configurations allow for a layered approach where customers can include configurations in /libs/settings, /apps/settings, /conf/global/settings, and `/conf/<tenant>/settings`. For example, /libs/settings is overridden by new properties in /apps/settings, which is overridden by /conf/global/settings and so on. Note that run-mode specific settings are supported with this layered approach as well (for example `/apps/settings.author`).
 
 ### Creating Cloud Service Configurations {#creating-cloud-service-configurations}
 

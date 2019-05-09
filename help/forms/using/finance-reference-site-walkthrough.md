@@ -62,7 +62,7 @@ Open the following URL on the publish instance to trigger a newsletter email. En
 
 ### Sarah finds the offer interesting and chooses to apply {#sarah-finds-the-offer-interesting-and-chooses-to-apply}
 
-Sarah decides to apply for the credit card and taps **Apply Now **button on the email. It takes Sarah to the credit card application on We.Finance portal. The application form is organized in sections using a card layout.
+Sarah decides to apply for the credit card and taps **Apply Now** button on the email. It takes Sarah to the credit card application on We.Finance portal. The application form is organized in sections using a card layout.
 
 Sarah selects a credit card from the available options and clicks **[!UICONTROL Continue]**.
 
@@ -81,7 +81,7 @@ Sarah clicks **[!UICONTROL Send mail]**. She receives an email with a link to re
 <div class="details"> 
  <h3 class="summary">Sarah accesses the credit card application from her mobile device</h3> 
  <p>If Sarah is accessing the credit card application from her mobile device, the responsive application opens in a view optimized for mobile devices. In this view, the application form is renders as one section at a time. It allows Sarah to view and provide information progressively as she navigates the application.</p> 
- <img alt="Filling the credit card application on mobile device" imageRotate="0" src="assets/form-on-mobile.png" title="Filling the credit card application on mobile device" /> 
+ <img alt="Filling the credit card application on mobile device" src="assets/form-on-mobile.png" title="Filling the credit card application on mobile device" /> 
 </div>
 
 <div class="details"> 

@@ -72,7 +72,7 @@ However, you cannot identify or the results may be ambiguous when identifying wo
 * **Workflow triggered through a watched folder**: A workflow instance cannot be identified using its initiator if the workflow is triggered by a watched folder. In this case, the user information is encoded in the stored data.
 * **Workflow initiated from publish AEM instance**: All workflow instances are created using a service user when adaptive forms, interactive communications, or letters are submitted from AEM publish instance. In these cases, the user name of the logged-in user is not captured in the workflow instance data.
 
-### Access user data {##access}
+### Access user data {#access}
 
 To identify and access user data stored for a workflow instance, perform the following steps:
 

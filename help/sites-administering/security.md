@@ -60,7 +60,7 @@ The following tables list each item together with:
   <tr> 
    <td><p>admin</p> <p>Default password: admin</p> </td> 
    <td>User</td> 
-   <td><p>System administration account and member of the administrator group, with full access rights.</p> <p>This account is used for the connection between AEM WCM and CRX.</p> <p>If you accidentally delete this account, it will be re-created upon repository restart (in the default setup).</p> <p>The admin account is a requirement of the AEM platform. As a consequence, this account cannot be deleted.<br /> </p> </td> 
+   <td><p>System administration account and member of the administrator group, with full access rights.</p> <p>This account is used for the connection between AEM WCM and CRX.</p> <p>If you accidentally delete this account, it will be re-created upon repository restart (in the default setup).</p> <p>The admin account is a requirement of the AEM platform. As a consequence, this account cannot be deleted.</p> </td> 
    <td><p>Adobe strongly recommends that the password for this user account be changed from the default.</p> <p>Preferably upon installation, though it can be done afterwards.</p> <p>Note: This account is not to be confused with the admin account of the CQ Servlet Engine.</p> </td> 
   </tr> 
   <tr> 
@@ -73,13 +73,13 @@ The following tables list each item together with:
    <td><p>author</p> <p>Default password: author</p> </td> 
    <td>User</td> 
    <td><p>A author account allowed to write to /content. Encompasses contributor and surfer privileges.</p> <p>Can be used as a webmaster as it has access to the entire /content tree.</p> <p>This is not a built-in user, but another geometrixx demo user</p> </td> 
-   <td><p>Adobe recommends that either the account is deleted completely, or the password changed from the default.<br /> </p> <p>Preferably upon installation, though it can be done afterwards.</p> </td> 
+   <td><p>Adobe recommends that either the account is deleted completely, or the password changed from the default.</p> <p>Preferably upon installation, though it can be done afterwards.</p> </td> 
   </tr> 
   <tr> 
    <td>administrators</td> 
    <td>Group</td> 
    <td><p>Group that gives administrator rights to all its members. Only admin is allowed to edit this group.</p> <p>Has full access rights.</p> </td> 
-   <td>If you set a 'deny-everyone' on a node, the administrators will<br /> only have access if it is enabled again for that group.</td> 
+   <td>If you set a 'deny-everyone' on a node, the administrators will only have access if it is enabled again for that group.</td> 
   </tr> 
   <tr> 
    <td>content-authors</td> 
@@ -114,7 +114,7 @@ The following tables list each item together with:
   <tr> 
    <td>user-administrators</td> 
    <td>Group</td> 
-   <td>Authorizes user administration, that is, the right to create users and groups.<br /> </td> 
+   <td>Authorizes user administration, that is, the right to create users and groups.</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -126,8 +126,7 @@ The following tables list each item together with:
   <tr> 
    <td>workflow-users</td> 
    <td>Group</td> 
-   <td><p>A user participating in a workflow must be member of group workflow-users. This gives him or her full access to: /etc/workflow/instances so that he or she can update the workflow instance.</p> <p>The group is included in the standard installation, but you must manually add your users to the group.</p> </td> 
-   <td> </td> 
+   <td><p>A user participating in a workflow must be member of group workflow-users. This gives him or her full access to: /etc/workflow/instances so that he or she can update the workflow instance.</p> <p>The group is included in the standard installation, but you must manually add your users to the group.</p> </td>  
   </tr> 
  </tbody> 
 </table>
@@ -171,7 +170,7 @@ Actions can be performed on a page (resource). For each page in the hierarchy, y
    <td><p>The user can:</p> 
     <ul> 
      <li>create a new page or child page.</li> 
-    </ul> <p>If <strong>modify</strong> is denied the subtrees below jcr:content are specifically excluded because the creation of jcr:content and its child nodes are considered a page modification. This only applies to nodes defining a jcr:content child node.<br /> </p> </td> 
+    </ul> <p>If <strong>modify</strong> is denied the subtrees below jcr:content are specifically excluded because the creation of jcr:content and its child nodes are considered a page modification. This only applies to nodes defining a jcr:content child node.</p> </td> 
   </tr> 
   <tr> 
    <td>Delete</td> 
@@ -231,7 +230,7 @@ Access Control Lists are made up of the individual permissions and are used to d
 
 | **Action** |**Description** |
 |---|---|
-| Allow (Check mark) |AEM WCM allows the user to perform the action on this page or on any child pages. |
+| Allow (Checkmark) |AEM WCM allows the user to perform the action on this page or on any child pages. |
 | Deny (No checkmark) |AEM WCM does not allow the user to perform the action on this page nor on any child pages. |
 
 The permissions are also applied to any child pages.
@@ -244,7 +243,7 @@ For an action at a given path:
  <tbody> 
   <tr> 
    <td>* (asterisk)</td> 
-   <td>There is at least one local entry (either effective or ineffective). These wildcard ACLs are defined in CRX.<br /> </td> 
+   <td>There is at least one local entry (either effective or ineffective). These wildcard ACLs are defined in CRX.</td> 
   </tr> 
   <tr> 
    <td>! (exclamation mark)</td> 
@@ -326,7 +325,7 @@ Details are split into two parts:
    <td>Lower part</td> 
    <td><p>Shows the grid of users and groups that does the following:</p> 
     <ul> 
-     <li>Declares an entry for the given path AND<br /> </li> 
+     <li>Declares an entry for the given path AND</li> 
      <li>Is the given authorizable OR is a group</li> 
     </ul> </td> 
   </tr> 
@@ -458,7 +457,7 @@ The tabs provide access to various configurations:
    <td>Permissions</td> 
    <td><p>You can allocate permissions to a user or group. Lets you control the following:</p> 
     <ul> 
-     <li>Permissions related to particular pages/nodes. See <a href="#setting-permissions">Setting Permissions</a>.<br /> </li> 
+     <li>Permissions related to particular pages/nodes. See <a href="#setting-permissions">Setting Permissions</a>.</li> 
      <li>Permissions related to creating and deleting pages and hierarchy modification. ??? lets you <a href="#settingprivileges">allocate privileges</a>, such as hierarchy modification, which lets you create and delete pages, </li> 
      <li>Permissions related to <a href="#setting-replication-privileges">replication privileges</a> (usually from author to publish) according to a path.</li> 
     </ul> </td> 

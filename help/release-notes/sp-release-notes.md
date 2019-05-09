@@ -1464,7 +1464,7 @@ which will copy new viewer presets to /conf location.
 
 ### Install AEM forms add-on package {#install-aem-forms-add-on-package}
 
-#### Install AEM forms add-on {##installaemformsaddon}
+#### Install AEM forms add-on {#installaemformsaddon}
 
 >[!NOTE]
 >

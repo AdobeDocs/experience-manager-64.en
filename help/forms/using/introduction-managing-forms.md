@@ -104,7 +104,7 @@ AEM tools panel contains tools for various components. To navigate to AEM Forms-
 
 * **Export Correspondence Management Assets:** You can download all the Correspondence Management assets and related dependencies as a package from an AEM forms instance. For detailed steps, see [Importing and exporting assets to AEM Forms](/help/forms/using/import-export-forms-templates.md#importandexportassetsincorrespondencemanagement)
 
-## Common elements of user interface {##commonelements}
+## Common elements of user interface {#commonelements}
 
 * **Left rail:** You can click the left rail icon ![](assets/railleftpng.png) to reveal Timeline and References capabilities of AEM Forms.
 

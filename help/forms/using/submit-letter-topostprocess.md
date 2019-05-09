@@ -24,7 +24,7 @@ To associate post processes with letters or interactive communications, you firs
 
 1. **AEM Workflow:** AEM workflows can also be used as post processes for submitted letters. Instructions for setting up [AEM Workflow](/help/forms/using/aem-forms-workflow.md).
 
-## Forms Workflow {##formsworkflow}
+## Forms Workflow {#formsworkflow}
 
 1. In AEM, open Adobe Experience Manager Web Console Configuration for your server using the following URL: `https://<server>:<port>/<contextpath>/system/console/configMgr`
 
@@ -114,7 +114,7 @@ In the CCR user interface, complete the following steps to associate a post proc
 1. Tap **Save**.
 1. After configuring the letter with the Post Process, publish the letter and optionally on the publish instance, specify the processing URL in AEM DS Settings service. This ensures that the post process is run on the processing instance.
 
-## Reload a draft letter instance&nbsp; {##reloaddraft}
+## Reload a draft letter instance&nbsp; {#reloaddraft}
 
 A draft letter instance can be reloaded in user interface by using the following url:
 
