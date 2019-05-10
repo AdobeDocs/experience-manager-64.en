@@ -21,17 +21,13 @@ The goal for this multi-part tutorial is to teach a developer who is new to AEM 
 
 ## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-The tutorial is available [here](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html) or click the image below.
+The tutorial is available [here](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) or click the image below.
 
-[![click image](assets/screen_shot_2018-11-23at152453.png)](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html)
-
-The WKND Developer Tutorial guides you through creating an AEM project using the latest technologies and best practices.
-
-](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html)
+[![click image](assets/screen_shot_2018-11-23at152453.png)](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## Core Concepts {#core-concepts}
 
-The tutorial implementation will only work as-is on AEM 6.4, however many of the topics apply to all versions of AEM. The site will be implemented using:
+The tutorial implementation works as-is on AEM 6.4.2+, however many of the topics apply to all versions of AEM. The site will be implemented using:
 
 * [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html)
 * [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
