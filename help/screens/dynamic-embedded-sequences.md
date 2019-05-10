@@ -37,27 +37,24 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 >[!NOTE]
 >
 >**Embedded Sequences versus Dynamic Embedded Sequences** 
-
 >
 >A Dynamic Embedded Sequence is similar to an embedded sequence but allows the user to follow a hierarchy where changes/updates made to one channel is propagated to other one in relation. It follows parent-child hierarchy and also includes assets like images or videos.  
-
 >
 >***Dynamic Embedded Sequences*** lets you display location-specific content whereas ***Embedded Sequences*** only display general slide show of the content. Additionally, while setting up Dynamic Embedded Sequences, you need to configure the channel using channel role and name. Please refer to the steps below for practical implementation.  
-
 >
 >To learn more about implementing embedded sequences, please refer to [**Embedded Sequences**](/help/screens/embedded-sequences.md) in AEM Screens.
 
 The following example provides a solution by focusing on the following key terms:
 
-* a ***main sequence channel ***for the global sequence
-* ***dynamic embedded sequence* **components for each locally customizable part of the sequence
-* ***individual sequence channels ***in the respective locations with a *role* in the display that matches the ***dynamic embedded sequence component*'s *role***
+* a ***main sequence channel*** for the global sequence
+* ***dynamic embedded sequence*** components for each locally customizable part of the sequence
+* ***individual sequence channels***vin the respective locations with a *role* in the display that matches the **dynamic embedded sequence component's *role*.**
 
 >[!NOTE]
 >
 >To learn more about channel assignment, see ** [Channel Assignment](/help/screens/channel-assignment.md) **under Authoring section in AEM Screens documentation.
 
-## Using Dynamic Embedded Sequence {#using-dynamic-embedded-sequence}
+## Using Dynamic Embedded Sequence {#using-dynamic-embedded-sequence-2}
 
 The following section explains the creation of a Dynamic Embedded Sequence in an AEM Screens channel.
 

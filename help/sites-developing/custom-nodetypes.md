@@ -580,7 +580,7 @@ For CQ 5.4 add to the end of list:
 
 ### cq:AllowsUserContent {#cq-allowsusercontent}
 
-**Description** Adds a cq:userContent subnode that can be modified by users; each user will have their own cq:userContent/<userid> subnode, that typically has the mixin cq:UserTaggable.
+**Description** Adds a cq:userContent subnode that can be modified by users; each user will have their own cq:userContent/`<userid>` subnode, that typically has the mixin cq:UserTaggable.
 
 **Definition** [cq:AllowsUserContent] mixin + cq:userContent (nt:unstructured)
 

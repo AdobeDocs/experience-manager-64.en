@@ -61,7 +61,7 @@ Follow the steps below to use bulk offline update for an AEM Screens project:
 
 1. Add the following properties:
 
-   **Project Path** Specify the path of your AEM Screens project. The path is usually /content/screens/<Name of your project>.
+   **Project Path** Specify the path of your AEM Screens project. The path is usually `/content/screens/<Name of your project>`.
 
    *For example*, /content/screens/we-retail. You can find this path in the URL by selecting any project under AEM Screens (do not click the icon).
 

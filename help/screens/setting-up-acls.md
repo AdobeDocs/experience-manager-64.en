@@ -61,12 +61,12 @@ The following table summarizes the path with the permissions at the project leve
 
 | **Path** |**Permission** |**Description** |
 |---|---|---|
-| /apps/<project> |READ |Provides access to project files (if applicable) |
-| /content/dam/<project> |ALL |Provides access to store the projects assets such as images or video in DAM |
-| /content/screens/<project> |ALL |Removes access to all other projects under /content/screens |
-| /content/screens/svc |READ |Provides access to the registration service |
-| /libs/screens |READ |Provides access to DCC |
-| /var/contentsync/content/screens/ |ALL |Allows to update offline content for the project |
+| `/apps/<project>` |READ |Provides access to project files (if applicable) |
+| `/content/dam/<project>` |ALL |Provides access to store the projects assets such as images or video in DAM |
+| `/content/screens/<project>` |ALL |Removes access to all other projects under /content/screens |
+| `/content/screens/svc` |READ |Provides access to the registration service |
+| `/libs/screens` |READ |Provides access to DCC |
+| `/var/contentsync/content/screens/` |ALL |Allows to update offline content for the project |
 
 >[!NOTE]
 >

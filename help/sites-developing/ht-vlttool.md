@@ -495,7 +495,7 @@ vlt export http://localhost:4502/crx /apps/geometrixx myproject
 
 ### Import {#import}
 
-Imports the local file system (starting at <local-path> to the vault file system at <uri>. You can specify a <jcr-path>as import root. If `--sync` is specified, the imported files are automatically put under vault control.
+Imports the local file system (starting at `<local-path>` to the vault file system at `<uri>`. You can specify a `<jcr-path>` as import root. If `--sync` is specified, the imported files are automatically put under vault control.
 
 #### Syntax {#syntax-1}
 
