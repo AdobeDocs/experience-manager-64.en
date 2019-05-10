@@ -27,7 +27,7 @@ The tutorial is available [here](https://docs.adobe.com/content/help/en/experien
 
 ## Core Concepts {#core-concepts}
 
-The tutorial implementation works as-is on AEM 6.4.2+, however many of the topics apply to all versions of AEM. The site will be implemented using:
+The tutorial implementation leverages many powerful features of AEM. The site will be implemented using:
 
 * [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html)
 * [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
