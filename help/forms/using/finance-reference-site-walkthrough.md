@@ -81,7 +81,7 @@ Sarah clicks **[!UICONTROL Send mail]**. She receives an email with a link to re
 <div class="details"> 
  <h3 class="summary">Sarah accesses the credit card application from her mobile device</h3> 
  <p>If Sarah is accessing the credit card application from her mobile device, the responsive application opens in a view optimized for mobile devices. In this view, the application form is renders as one section at a time. It allows Sarah to view and provide information progressively as she navigates the application.</p> 
- <img alt="Filling the credit card application on mobile device" src="assets/form-on-mobile.png" title="Filling the credit card application on mobile device" /> 
+ <img src="assets/form-on-mobile.png"/> 
 </div>
 
 <div class="details"> 
@@ -117,14 +117,6 @@ Sarah clicks **[!UICONTROL Send mail]**. She receives an email with a link to re
  <p><code>https://&amp;lt;host&amp;gt;:&amp;lt;AuthorPort&amp;gt;/editor.html/content/dam/formsanddocuments-themes/we-Finance/we-Finance-Theme-A/jcr:content</code></p> 
  <p>You can review the We.Finance Template at:</p> 
  <p><code>https://&amp;lt;host&amp;gt;:&amp;lt;AuthorPort&amp;gt;/editor.html/conf/we-finance/settings/wcm/templates/we-finance-template/structure.html</code></p> 
-</div>
-
-<div class="details"> 
- <h3 class="summary">Item Title</h3> 
-</div>
-
-<div class="details"> 
- <h3 class="summary">Item Title</h3> 
 </div>
 
 ### Sarah resumes and submits the application {#sarah-resumes-and-submits-the-application}

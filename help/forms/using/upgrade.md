@@ -75,7 +75,7 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 1. Install AEM Forms add-on package. The steps are listed below:
 
     1. Log in to the AEM server as an administrator and open the package share. The default URL of the package share is `https://[server]:[port]/crx/packageshare`.
-    1. In package share, search **AEM 6.4 Forms add-on packages**, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded **appears next to the package.
+    1. In package share, search **AEM 6.4 Forms add-on packages**, click the package applicable to your operating system, and click **Download**. Read and accept the license agreement and click **OK**. The download starts. Once downloaded, the word **Downloaded** appears next to the package.
 
        Alternately, you can also use the hyperlinks listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) to manually download a package.
     
@@ -120,8 +120,7 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 
       If you had Adobe Sign configured in the previous version of AEM Forms, then reconfigure Adobe Sign from AEM Cloud services. For more details, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
     
-    * **(If upgrading from AEM 6.2 Forms or previous versions only) Reconfigure analytics and reports  
-      **
+    * **(If upgrading from AEM 6.2 Forms or previous versions only) Reconfigure analytics and reports**
 
       In AEM 6.4 Forms, traffic variable for source and success event for impression are not available. So, when you upgrade from AEM 6.2 Forms or previous versions, AEM Forms stops sending data to Adobe Analytics server and analytics reports for adaptive forms are not available. Moreover, AEM 6.4 Forms introduces traffic variable for the version of form analytics and success event for the amount of time spent on a field. So, reconfigure analytics and reports for your AEM Forms environment. For detailed steps, see [Configuring analytics and reports](/help/forms/using/configure-analytics-forms-documents.md).
 
@@ -185,8 +184,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
 
 1. Perform the upgrade:
 
-    1. 
-       Install AEM 6.4 Forms on JEE on a new server by running the installation program. The installer places all of the required files onto your computer, within one installation directory structure.  
+    1. Install AEM 6.4 Forms on JEE on a new server by running the installation program. The installer places all of the required files onto your computer, within one installation directory structure.  
     1. After installation is complete, run the **Configuration Manager **to configure various AEM Forms modules and set appropriate configurations. Along with configuring settings, it allows to specify the path of Global Data Storage (GDS) and crx-repository.
 
        >[!NOTE]
@@ -197,12 +195,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
 
        >[!NOTE]
        >
-       >
-       >    
-       >    
-       >    * After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see [Changing the Password for an Existing User](/help/sites-administering/granite-user-group-admin.md).
-       >    
-       >
+       >* After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see [Changing the Password for an Existing User](/help/sites-administering/granite-user-group-admin.md).
 
 1. Perform the post-deployment tasks to verify login credentials, configure document services, correspondence management, document security, and more depending on your use case.
 1. Verify that the server is upgraded successfully:
@@ -234,10 +227,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
       <li>You do not require Content Repository for AEM Forms Document Security.</li> 
      </ul> <p>Moreover, repository type of LiveCycle and AEM Forms are different. For available repository types and related information, see <a href="/help/forms/using/choosing-persistence-type-for-aem-forms.md">Choosing a persistence type for an AEM Forms installation</a>. </p> </li> 
     <li><p>Create a backup of LiveCycle ES3 database, Global Data Storage (GDS), and Content Repository (not required for document security). If you're upgrading to MongoMK or RDBMK persistence, export LiveCycle ES3 correspondence management assets as an archive.</p> </li> 
-    <li><p>Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the <a href="/help/forms/using/aem-forms-jee-supported-platforms.md" target="_blank">Supported Platform Combinations</a> document.</p> <p>If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.<br /> </p> 
-     <note type="note"> 
-      <p>If you are using RDBMK persistence format, use single database for both repository persistence and document services running on AEM Forms on JEE.</p> 
-     </note></li> 
+    <li><p>Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the <a href="/help/forms/using/aem-forms-jee-supported-platforms.md" target="_blank">Supported Platform Combinations</a> document.</p> <p>If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.<br /> </p> <p><strong>NOTE:</strong> If you are using RDBMK persistence format, use single database for both repository persistence and document services running on AEM Forms on JEE.</p> </li> 
    </ol></li> 
   <li><p>Perform the upgrade:</p> 
    <ol> 
@@ -246,21 +236,18 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
        Install AEM 6.4 Forms on JEE on a new server by running the installation program. The installer places all of the required files onto your computer, within one installation directory structure. 
      </div> </li> 
     <li><p>After installation is complete, run the <strong>Configuration Manager </strong>to configure various AEM Forms modules and set appropriate configurations. Along with configuring settings, it allows to specify the path of Global Data Storage (GDS) and crx-repository. </p> 
-     <note type="note"> 
-      <p>On the Upgrade Task Selection screen, select the <strong>Upgrade from Adobe Experience Manager Forms 6.2.0</strong> option. The <strong>Upgrade from Adobe Experience Manager Forms 6.2.0</strong> option allows the configuration manager to upgrade from LiveCycle ES3 to AEM 6.4 Forms.<br /> </p> 
-     </note></li> 
-    <li><p>(Not required for AEM Forms document security module) Upgrade and import the CRX repository to AEM 6.4 Forms server.</p> 
-     <note type="note"> 
-      <ul> 
+     <p>NOTE: On the Upgrade Task Selection screen, select the <strong>Upgrade from Adobe Experience Manager Forms 6.2.0</strong> option. The <strong>Upgrade from Adobe Experience Manager Forms 6.2.0</strong> option allows the configuration manager to upgrade from LiveCycle ES3 to AEM 6.4 Forms.<br /> </p> 
+     </li> 
+    <li><p>NOTE: (Not required for AEM Forms document security module) Upgrade and import the CRX repository to AEM 6.4 Forms server.</p> 
+     <ul> 
        <li>After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see <a href="/help/sites-administering/granite-user-group-admin.md">Changing the Password for an Existing User</a>.</li> 
       </ul> 
-     </note></li>   
+     </li>   
    </ol></li> 
   <li><p>Perform the post-deployment tasks to verify login credentials, configure document services, correspondence management, document security, and more depending on your use case.</p> </li> 
   <li><p>Verify that the server is upgraded successfully:<br /> </p> <p>Perform a few routine operations on upgraded AEM Forms server to ensure that the server is upgraded successfully. You can fill and submit a few migrated forms or protect documents to ensure a successful upgrade.<br /> </p> 
-   <note type="note"> 
-    <p>In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see <a href="/help/sites-deploying/forms-repository-restructuring-in-aem-6-4.md" target="_blank">Forms Repository Restructuring in AEM 6.4</a>.</p> 
-   </note></li> 
+   <p>NOTE: In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see <a href="/help/sites-deploying/forms-repository-restructuring-in-aem-6-4.md" target="_blank">Forms Repository Restructuring in AEM 6.4</a>.</p> 
+   </li> 
  </ol> 
  <p><strong>Depending on your existing environment and application server, choose one of the following documents and follow the detailed instructions:</strong></p> 
  <ul> 
@@ -302,11 +289,10 @@ Migration involves moving only assets (PDF, XDP, images, adaptive forms, corresp
 
       Moreover, AEM 6.3 Forms release has introduced many new Adobe Sign features. For step-by-step information to use Adobe Sign, see [Using Adobe Sign in an adaptive form](/help/forms/using/working-with-adobe-sign.md).
     
-    * **Reconfigure analytics and reports  
-      **
+    * **Reconfigure analytics and reports**
 
       In AEM 6.3 Forms, traffic variable for source and success event for impression are not available. So, when you upgrade to AEM 6.3 Forms, AEM Forms stops sending data to Adobe Analytics server and analytics reports for adaptive forms are not available. Moreover, AEM 6.3 Forms introduces traffic variable for the version of form analytics and success event for the amount of time spent on a field. So, reconfigure analytics and reports for your AEM Forms environment. For detailed steps, see [Configuring analytics and reports](/help/forms/using/configure-analytics-forms-documents.md).
 
       Methods to calculate average fill time for forms and average read time for have changed. So, when you upgrade to AEM 6.3 forms, older data (data from previous AEM Forms release) for these metrics is available only in Adobe Analytics. It is not visible in AEM Forms analytics reports. For these metrics, AEM Forms analytics reports display data which is captured after performing the upgrade.
 
-[TBD]
+`[TBD]`

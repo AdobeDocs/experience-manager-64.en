@@ -24,8 +24,6 @@ Correspondence Management has the following configuration properties:
    <th><p><strong>Default</strong></p> </th> 
    <th><p><strong>Acceptable values</strong></p> </th> 
   </tr> 
- </tbody> 
- <tbody> 
   <tr> 
    <td><p>Indentation</p> </td> 
    <td>Indentation on modules<p> </p> </td> 
@@ -244,19 +242,13 @@ Correspondence Management has the following configuration properties:
   </tr> 
   <tr> 
    <td><p>Letter Cache Size</p> </td> 
-   <td><p>Specify the Maximum number of letters to be kept in cache.</p> <p>Changing this value will result in clean-up of 
-     <code>
-       in-memory 
-     </code> cache.</p> </td> 
+   <td><p>Specify the Maximum number of letters to be kept in cache.</p> <p>Changing this value will result in clean-up of <code>in-memory</code> cache.</p> </td> 
    <td><p>100</p> </td> 
    <td><p>Any numeric value</p> </td> 
   </tr> 
   <tr> 
    <td><p>Enable Letter Cache</p> </td> 
-   <td><p>Enable/Disable the letter cache.</p> <p>Changing this value will result in clean-up of 
-     <code>
-       in-memory 
-     </code> cache.</p> </td> 
+   <td><p>Enable/Disable the letter cache.</p> <p>Changing this value will result in clean-up of <code>in-memory </code> cache.</p> </td> 
    <td><p>true</p> </td> 
    <td><p>true / false</p> </td> 
   </tr> 
@@ -292,13 +284,9 @@ Correspondence Management has the following configuration properties:
   </tr> 
   <tr> 
    <td><p>Debug Directory </p> <p> </p> </td> 
-   <td>File system folder location for debugging. If the directory does not 
-    <code>
-      exists 
-    </code>, no debug dumps will be generated.</td> 
+   <td>File system folder location for debugging. If the directory does not <code>exists</code>, no debug dumps will be generated.</td> 
    <td>acm.debugDirectory</td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
-
