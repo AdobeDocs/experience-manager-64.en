@@ -470,14 +470,14 @@ response.setCharacterEncoding("utf-8");
                     processName = "All";
                 }
             %>
-            var lineSeprator = "<td class='seprator'>----------------</td>";
+            var lineSeprator = "<td>----------------</td>";
             var tableEnder = "<tr>" + lineSeprator + lineSeprator + lineSeprator + "</tr>";
  
-            var tableColHeader = "<td class='colHead colNum'>Running</td>";
-            tableColHeader += "<td class='colHead  colNum'>Complete</td></tr>";
+            var tableColHeader = "<td>Running</td>";
+            tableColHeader += "<td>Complete</td></tr>";
             tableColHeader += tableEnder;
  
-            var monthly = "<table><tr><td class='colHead colStr'>Month</td>";
+            var monthly = "<table><tr><td>Month</td>";
             monthly += tableColHeader;
  
             <%
@@ -487,16 +487,16 @@ response.setCharacterEncoding("utf-8");
                     Long[] frequencies = monthlyMap.get(key);
             %>
  
-            monthly += "<tr><td class='colStr'> <%= key %> </td>";
-            monthly += "<td class='colNum'> <%= frequencies[0] %> </td>";
-            monthly += "<td class='colNum'> <%= frequencies[1] %> </td></tr>";
+            monthly += "<tr><td> <%= key %> </td>";
+            monthly += "<td> <%= frequencies[0] %> </td>";
+            monthly += "<td> <%= frequencies[1] %> </td></tr>";
             <%
                 }
             %>
  
             monthly += tableEnder;
  
-            var quaterly = "<table><tr><td class='colHead colStr'>Quater</td>";
+            var quaterly = "<table><tr><td>Quater</td>";
             quaterly += tableColHeader;
  
             <%
@@ -506,16 +506,16 @@ response.setCharacterEncoding("utf-8");
                     Long[] frequencies = quaterMap.get(key);
             %>
  
-            quaterly += "<tr><td class='colStr'> <%= key %> </td>";
-            quaterly += "<td class='colNum'> <%= frequencies[0] %> </td>";
-            quaterly += "<td class='colNum'> <%= frequencies[1] %> </td></tr>";
+            quaterly += "<tr><td> <%= key %> </td>";
+            quaterly += "<td> <%= frequencies[0] %> </td>";
+            quaterly += "<td> <%= frequencies[1] %> </td></tr>";
             <%
                 }
             %>
  
             quaterly += tableEnder;
  
-            var yearly = "<table><tr><td class='colHead colStr'>Year</td>";
+            var yearly = "<table><tr><td>Year</td>";
             yearly += tableColHeader;
  
             <%
@@ -525,9 +525,9 @@ response.setCharacterEncoding("utf-8");
                     Long[] frequencies = yearMap.get(key);
             %>
  
-            yearly += "<tr><td class='colStr'> <%= key %> </td>";
-            yearly += "<td class='colNum'> <%= frequencies[0] %> </td>";
-            yearly += "<td class='colNum'> <%= frequencies[1] %> </td></tr>";
+            yearly += "<tr><td> <%= key %> </td>";
+            yearly += "<td> <%= frequencies[0] %> </td>";
+            yearly += "<td> <%= frequencies[1] %> </td></tr>";
             <%
                 }
             %>

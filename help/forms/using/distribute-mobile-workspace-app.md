@@ -29,7 +29,7 @@ An MDM solution along with Mobile Application Management, allows you to manage i
 
 The MDM administrator can upload both ipa and apk files to the MDM server and control the users who can access the ipa or apk files. The administrator can also control the profile setting corresponding to each application.
 
-## Profile settings affecting the AEM Forms app <br> {#profile-settings-affecting-the-aem-forms-app-br}
+## Profile settings affecting the AEM Forms app {#profile-settings-affecting-the-aem-forms-app-br}
 
 The following Profile settings on your device will affect the functioning of the AEM Forms app on you device:
 

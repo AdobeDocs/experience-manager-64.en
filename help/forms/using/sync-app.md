@@ -13,7 +13,7 @@ discoiquuid: dae1ce32-702e-4cf0-b3c6-976551208d09
 
 # Synchronizing the app{#synchronizing-the-app}
 
-## Synchronizing the app {#synchronizing-the-app}
+## Synchronizing the app {#synchronizing-the-app-1}
 
 The forms in your app are downloaded from the AEM Forms server. The forms are downloaded under Tasks and Forms tabs. Drafts created from forms are downloaded in the drafts tab, and drafts created from tasks are downloaded in the tasks tab. For a standalone form on OSGi server, forms and drafts are downloaded in Forms and Draft tabs respectively.
 

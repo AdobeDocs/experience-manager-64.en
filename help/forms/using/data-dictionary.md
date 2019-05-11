@@ -339,7 +339,7 @@ A data dictionary can also include computed elements. A computed data dictionary
 
 A computed DDE PersonFullName can be associated with an EL concatenation expression such as ${PersonFirstName} ${PersonLastName}.
 
-## Data type mapping between XSD and data dictionary <br> {#data-type-mapping-between-xsd-and-data-dictionary-br}
+## Data type mapping between XSD and data dictionary {#data-type-mapping-between-xsd-and-data-dictionary-br}
 
 Exporting an XSD requires specific data mapping, which is detailed in the following table. The DDI column indicates the type of the DDE value as available in the DDI.
 

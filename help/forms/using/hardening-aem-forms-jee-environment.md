@@ -45,22 +45,22 @@ The following table describes common processes that reduce network security vuln
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e799" valign="top" width="NaN%"><p>Issue</p> </th> 
-   <th class="cellrowborder" id="d19e802" valign="top" width="NaN%"><p>Description</p> </th> 
+   <th><p>Issue</p> </th> 
+   <th><p>Description</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e799 " valign="top" width="NaN%"><p>Demilitarized zones (DMZs)</p> </td> 
-   <td class="cellrowborder" headers="d19e802 " valign="top" width="NaN%"><p>Deploy forms servers within a demilitarized zone (DMZ). Segmentation should exist in at least two levels with the application server used to run AEM Forms on JEE placed behind the inner firewall. Separate the external network from the DMZ that contains the web servers, which in turn must be separated from the internal network. Use firewalls to implement the layers of separation. Categorize and control the traffic that passes through each network layer to ensure that only the absolute minimum of required data is allowed.</p> </td> 
+   <td><p>Demilitarized zones (DMZs)</p> </td> 
+   <td><p>Deploy forms servers within a demilitarized zone (DMZ). Segmentation should exist in at least two levels with the application server used to run AEM Forms on JEE placed behind the inner firewall. Separate the external network from the DMZ that contains the web servers, which in turn must be separated from the internal network. Use firewalls to implement the layers of separation. Categorize and control the traffic that passes through each network layer to ensure that only the absolute minimum of required data is allowed.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e799 " valign="top" width="NaN%"><p>Private IP addresses</p> </td> 
-   <td class="cellrowborder" headers="d19e802 " valign="top" width="NaN%"><p>Use Network Address Translation (NAT) with RFC 1918 private IP addresses on AEM Forms application server. Assign private IP addresses (10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16) to make it more difficult for an attacker to route traffic to and from a NAT'd internal host through the Internet.</p> </td> 
+   <td><p>Private IP addresses</p> </td> 
+   <td><p>Use Network Address Translation (NAT) with RFC 1918 private IP addresses on AEM Forms application server. Assign private IP addresses (10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16) to make it more difficult for an attacker to route traffic to and from a NAT'd internal host through the Internet.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e799 " valign="top" width="NaN%"><p>Firewalls</p> </td> 
-   <td class="cellrowborder" headers="d19e802 " valign="top" width="NaN%"><p>Use the following criteria to select a firewall solution:</p> 
+   <td><p>Firewalls</p> </td> 
+   <td><p>Use the following criteria to select a firewall solution:</p> 
     <ul> 
      <li><p>Implement firewalls that support proxy servers and/or <em>stateful inspection</em> instead of simple packet-filtering solutions.</p> </li> 
      <li><p>Use a firewall that supports a <em>deny all services except those explicitly permitted</em> security paradigms.</p> </li> 
@@ -68,8 +68,8 @@ The following table describes common processes that reduce network security vuln
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e799 " valign="top" width="NaN%"><p>Database ports</p> </td> 
-   <td class="cellrowborder" headers="d19e802 " valign="top" width="NaN%"><p>Do not use default listening ports for databases (MySQL - 3306, Oracle - 1521, MS SQL - 1433). For information about changing database ports, see your database documentation.</p> <p>Using a different database port affects the overall AEM Forms on JEE configuration. If you change default ports, you must make corresponding modifications in other areas of configuration, such as the data sources for AEM Forms on JEE.</p> <p>For information about configuring data sources in AEM Forms on JEE, see Install and Upgrade AEM Forms on JEE or Upgrading to AEM Forms on JEE for your application server at <a href="/help/forms/using/introduction-aem-forms.md" target="_blank">AEM Forms user guide</a>.</p> </td> 
+   <td><p>Database ports</p> </td> 
+   <td><p>Do not use default listening ports for databases (MySQL - 3306, Oracle - 1521, MS SQL - 1433). For information about changing database ports, see your database documentation.</p> <p>Using a different database port affects the overall AEM Forms on JEE configuration. If you change default ports, you must make corresponding modifications in other areas of configuration, such as the data sources for AEM Forms on JEE.</p> <p>For information about configuring data sources in AEM Forms on JEE, see Install and Upgrade AEM Forms on JEE or Upgrading to AEM Forms on JEE for your application server at <a href="/help/forms/using/introduction-aem-forms.md" target="_blank">AEM Forms user guide</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,22 +81,22 @@ The following table describes some potential approaches to minimizing security v
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e879" valign="top" width="NaN%"><p>Issue</p></th> 
-   <th class="cellrowborder" id="d19e882" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Issue</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e879 " valign="top" width="NaN%"><p>Security patches</p></td> 
-   <td class="cellrowborder" headers="d19e882 " valign="top" width="NaN%"><p>There is an increased risk that an unauthorized user may gain access to the application server if vendor security patches and upgrades are not applied in a timely fashion. Test security patches before you apply them to production servers.</p><p>Also, create policies and procedures to check for and install patches on a regular basis.</p></td> 
+   <td><p>Security patches</p></td> 
+   <td><p>There is an increased risk that an unauthorized user may gain access to the application server if vendor security patches and upgrades are not applied in a timely fashion. Test security patches before you apply them to production servers.</p><p>Also, create policies and procedures to check for and install patches on a regular basis.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e879 " valign="top" width="NaN%"><p>Virus protection software</p></td> 
-   <td class="cellrowborder" headers="d19e882 " valign="top" width="NaN%"><p>Virus scanners can identify infected files by scanning for a signature or watching for unusual behavior. Scanners keep their virus signatures in a file, which is usually stored on the local hard drive. Because new viruses are discovered often, you should frequently update this file for the virus scanner to identify all current viruses.</p></td> 
+   <td><p>Virus protection software</p></td> 
+   <td><p>Virus scanners can identify infected files by scanning for a signature or watching for unusual behavior. Scanners keep their virus signatures in a file, which is usually stored on the local hard drive. Because new viruses are discovered often, you should frequently update this file for the virus scanner to identify all current viruses.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e879 " valign="top" width="NaN%"><p>Network Time Protocol (NTP)</p></td> 
-   <td class="cellrowborder" headers="d19e882 " valign="top" width="NaN%"><p>For forensic analysis, keep accurate time on the forms servers. Use NTP to synchronize the time on all systems that are connected directly to the Internet.</p></td> 
+   <td><p>Network Time Protocol (NTP)</p></td> 
+   <td><p>For forensic analysis, keep accurate time on the forms servers. Use NTP to synchronize the time on all systems that are connected directly to the Internet.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,34 +110,34 @@ This section describes techniques you can use during the AEM Forms installation 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e931" valign="top" width="NaN%"><p>Issue</p> </th> 
-   <th class="cellrowborder" id="d19e934" valign="top" width="NaN%"><p>Description</p> </th> 
+   <th><p>Issue</p> </th> 
+   <th><p>Description</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e931 " valign="top" width="NaN%"><p>Privileges</p> </td> 
-   <td class="cellrowborder" headers="d19e934 " valign="top" width="NaN%"><p>Use the least number of privileges necessary to install the software. Log in to your computer by using an account that is not in the Administrators group. On Windows, you can use the Run As command to run the AEM Forms on JEE installer as an administrative user. On UNIX and Linux systems, use a command such as <code>sudo</code> to install the software.</p> </td> 
+   <td><p>Privileges</p> </td> 
+   <td><p>Use the least number of privileges necessary to install the software. Log in to your computer by using an account that is not in the Administrators group. On Windows, you can use the Run As command to run the AEM Forms on JEE installer as an administrative user. On UNIX and Linux systems, use a command such as <code>sudo</code> to install the software.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e931 " valign="top" width="NaN%"><p>Software source</p> </td> 
-   <td class="cellrowborder" headers="d19e934 " valign="top" width="NaN%"><p>Do not download or run AEM Forms on JEE from untrusted sources.</p> <p>Malicious programs can contain code to violate security in several ways, including data theft, modification and deletion, and denial of service. Install AEM Forms on JEE from the Adobe DVD or only from a trusted source.</p> </td> 
+   <td><p>Software source</p> </td> 
+   <td><p>Do not download or run AEM Forms on JEE from untrusted sources.</p> <p>Malicious programs can contain code to violate security in several ways, including data theft, modification and deletion, and denial of service. Install AEM Forms on JEE from the Adobe DVD or only from a trusted source.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e931 " valign="top" width="NaN%"><p>Disk partitions</p> </td> 
-   <td class="cellrowborder" headers="d19e934 " valign="top" width="NaN%"><p>Place AEM Forms on JEE on a dedicated disk partition. Disk segmentation is a process that keeps specific data on your server on separate physical disks for added security. Arranging data in this way reduces the risk of directory traversal attacks. Plan to create a partition that is separate from the system partition on which you can install the AEM Forms on JEE content directory. (On Windows, the system partition contains the system32 directory, or boot partition.)</p> </td> 
+   <td><p>Disk partitions</p> </td> 
+   <td><p>Place AEM Forms on JEE on a dedicated disk partition. Disk segmentation is a process that keeps specific data on your server on separate physical disks for added security. Arranging data in this way reduces the risk of directory traversal attacks. Plan to create a partition that is separate from the system partition on which you can install the AEM Forms on JEE content directory. (On Windows, the system partition contains the system32 directory, or boot partition.)</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e931 " valign="top" width="NaN%"><p>Components</p> </td> 
-   <td class="cellrowborder" headers="d19e934 " valign="top" width="NaN%"><p>Evaluate existing services and disable or uninstall any that are not required. Do not install unnecessary components and services.</p> <p>The default installation of an application server might include services that are not necessary for your use. You should disable all unnecessary services prior to deployment to minimize points of entry for an attack. For example, on JBoss, you can comment out unnecessary services in the META-INF/jboss-service.xml descriptor file.</p> </td> 
+   <td><p>Components</p> </td> 
+   <td><p>Evaluate existing services and disable or uninstall any that are not required. Do not install unnecessary components and services.</p> <p>The default installation of an application server might include services that are not necessary for your use. You should disable all unnecessary services prior to deployment to minimize points of entry for an attack. For example, on JBoss, you can comment out unnecessary services in the META-INF/jboss-service.xml descriptor file.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e931 " valign="top" width="NaN%"><p>Cross-domain policy file</p> </td> 
-   <td class="cellrowborder" headers="d19e934 " valign="top" width="NaN%"><p>The presence of a <code>crossdomain.xml</code> file on the server may immediately weaken that server. It is recommended that you make the list of domains as restrictive as possible. Do not place the <code>crossdomain.xml</code> file that was used during development into production when using Guides <em>(deprecated)</em>. For a guide that uses web services, if the service is on the same server that served up the guide, a <code>crossdomain.xml</code> file is not needed at all. But if the service is on another server, or if clusters are involved, the presence of a <code>crossdomain.xml</code> file would be needed. Refer to <a href="https://kb2.adobe.com/cps/142/tn_14213.html">https://kb2.adobe.com/cps/142/tn_14213.html</a>, for more information on the crossdomain.xml file.</p> </td> 
+   <td><p>Cross-domain policy file</p> </td> 
+   <td><p>The presence of a <code>crossdomain.xml</code> file on the server may immediately weaken that server. It is recommended that you make the list of domains as restrictive as possible. Do not place the <code>crossdomain.xml</code> file that was used during development into production when using Guides <em>(deprecated)</em>. For a guide that uses web services, if the service is on the same server that served up the guide, a <code>crossdomain.xml</code> file is not needed at all. But if the service is on another server, or if clusters are involved, the presence of a <code>crossdomain.xml</code> file would be needed. Refer to <a href="https://kb2.adobe.com/cps/142/tn_14213.html">https://kb2.adobe.com/cps/142/tn_14213.html</a>, for more information on the crossdomain.xml file.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e931 " valign="top" width="NaN%"><p>Operating System security settings</p> </td> 
-   <td class="cellrowborder" headers="d19e934 " valign="top" width="NaN%"><p>If you need to use 192-bit or 256-bit XML encryption on Solaris platforms, ensure that you install <code>pkcs11_softtoken_extra.so</code> instead of <code>pkcs11_softtoken.so</code>.</p> </td> 
+   <td><p>Operating System security settings</p> </td> 
+   <td><p>If you need to use 192-bit or 256-bit XML encryption on Solaris platforms, ensure that you install <code>pkcs11_softtoken_extra.so</code> instead of <code>pkcs11_softtoken.so</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -301,22 +301,22 @@ The following table describes some techniques for securing your application serv
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e1347" valign="top" width="NaN%"><p>Issue</p> </th> 
-   <th class="cellrowborder" id="d19e1350" valign="top" width="NaN%"><p>Description</p> </th> 
+   <th><p>Issue</p> </th> 
+   <th><p>Description</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1347 " valign="top" width="NaN%"><p>Application server administrative console</p> </td> 
-   <td class="cellrowborder" headers="d19e1350 " valign="top" width="NaN%"><p>After you install, configure, and deploy AEM Forms on JEE on your application server, you should disable access to the application server administrative consoles. See your application server documentation for details.</p> </td> 
+   <td><p>Application server administrative console</p> </td> 
+   <td><p>After you install, configure, and deploy AEM Forms on JEE on your application server, you should disable access to the application server administrative consoles. See your application server documentation for details.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1347 " valign="top" width="NaN%"><p>Application server cookie settings</p> </td> 
-   <td class="cellrowborder" headers="d19e1350 " valign="top" width="NaN%"><p>Application cookies are controlled by the application server. When deploying the application, the application server administrator can specify cookie preferences on a server-wide or application-specific basis. By default, the server settings take preference.</p> <p>All session cookies generated by your application server should include the <code>HttpOnly</code> attribute. For example, when using the JBoss Application Server, you can modify the SessionCookie element to <code>httpOnly="true"</code> in the <code>WEB-INF/web.xml</code> file.</p> <p>You can restrict cookies to be sent using HTTPS-only. As a result, they are not sent unencrypted over HTTP. Application server administrators should enable secure cookies for the server on a global basis. For example, when using the JBoss Application Server, you can modify the connector element to <code>secure=true</code> in the <code>server.xml</code> file.</p> <p>See your application server documentation for more details on cookie settings.</p> </td> 
+   <td><p>Application server cookie settings</p> </td> 
+   <td><p>Application cookies are controlled by the application server. When deploying the application, the application server administrator can specify cookie preferences on a server-wide or application-specific basis. By default, the server settings take preference.</p> <p>All session cookies generated by your application server should include the <code>HttpOnly</code> attribute. For example, when using the JBoss Application Server, you can modify the SessionCookie element to <code>httpOnly="true"</code> in the <code>WEB-INF/web.xml</code> file.</p> <p>You can restrict cookies to be sent using HTTPS-only. As a result, they are not sent unencrypted over HTTP. Application server administrators should enable secure cookies for the server on a global basis. For example, when using the JBoss Application Server, you can modify the connector element to <code>secure=true</code> in the <code>server.xml</code> file.</p> <p>See your application server documentation for more details on cookie settings.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1347 " valign="top" width="NaN%"><p>Directory browsing</p> </td> 
-   <td class="cellrowborder" headers="d19e1350 " valign="top" width="NaN%"><p>When someone requests a page that does not exist or requests the name of a director (the request string ends with a forward slash (/)), the application server should not return the contents of that directory. To prevent this, you can disable directory browsing on your application server. You should do this for the administration console application and for other applications running on your server.</p> <p>For JBoss, set the value of the listings initialization parameter of the <code>DefaultServlet</code> property to <code>false</code> in the web.xml file, as shown by this example:</p> <p>&lt;servlet&gt;</p> <p>&lt;servlet-name&gt;default&lt;/servlet-name&gt;</p> <p>&lt;servlet-class&gt;</p> <p>org.apache.catalina.servlets.DefaultServlet</p> <p>&lt;/servlet-class&gt;</p> <p>&lt;init-param&gt;</p> <p>&lt;param-name&gt;listings&lt;/param-name&gt;</p> <p>&lt;param-value&gt;false&lt;/param-value&gt;</p> <p>&lt;/init-param&gt;</p> <p>&lt;load-on-startup&gt;1&lt;/load-on-startup&gt;</p> <p>&lt;/servlet&gt;</p> <p>For WebSphere, set the <code>directoryBrowsingEnabled</code> property in the ibm-web-ext.xmi file to <code>false</code>.</p> <p>For WebLogic, set the index-directories properties in the weblogic.xml file to <code>false</code>, as shown by this example:</p> <p>&lt;container-descriptor&gt;</p> <p>&lt;index-directory-enabled&gt;false</p> <p>&lt;/index-directory-enabled&gt;</p> <p>&lt;/container-descriptor&gt;</p> </td> 
+   <td><p>Directory browsing</p> </td> 
+   <td><p>When someone requests a page that does not exist or requests the name of a director (the request string ends with a forward slash (/)), the application server should not return the contents of that directory. To prevent this, you can disable directory browsing on your application server. You should do this for the administration console application and for other applications running on your server.</p> <p>For JBoss, set the value of the listings initialization parameter of the <code>DefaultServlet</code> property to <code>false</code> in the web.xml file, as shown by this example:</p> <p>&lt;servlet&gt;</p> <p>&lt;servlet-name&gt;default&lt;/servlet-name&gt;</p> <p>&lt;servlet-class&gt;</p> <p>org.apache.catalina.servlets.DefaultServlet</p> <p>&lt;/servlet-class&gt;</p> <p>&lt;init-param&gt;</p> <p>&lt;param-name&gt;listings&lt;/param-name&gt;</p> <p>&lt;param-value&gt;false&lt;/param-value&gt;</p> <p>&lt;/init-param&gt;</p> <p>&lt;load-on-startup&gt;1&lt;/load-on-startup&gt;</p> <p>&lt;/servlet&gt;</p> <p>For WebSphere, set the <code>directoryBrowsingEnabled</code> property in the ibm-web-ext.xmi file to <code>false</code>.</p> <p>For WebLogic, set the index-directories properties in the weblogic.xml file to <code>false</code>, as shown by this example:</p> <p>&lt;container-descriptor&gt;</p> <p>&lt;index-directory-enabled&gt;false</p> <p>&lt;/index-directory-enabled&gt;</p> <p>&lt;/container-descriptor&gt;</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -416,18 +416,18 @@ This table describes auditing and logging techniques you can use to reduce your 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e1871" valign="top" width="NaN%"><p>Issue</p> </th> 
-   <th class="cellrowborder" id="d19e1874" valign="top" width="NaN%"><p>Description</p> </th> 
+   <th><p>Issue</p> </th> 
+   <th><p>Description</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1871 " valign="top" width="NaN%"><p>Log file ACLs</p> </td> 
-   <td class="cellrowborder" headers="d19e1874 " valign="top" width="NaN%"><p>Set appropriate AEM Forms on JEE log file access control lists (ACLs).</p> <p>Setting the appropriate credentials helps prevent attackers from deleting the files.</p> <p>The security permissions on the log file directory should be Full Control for Administrators and SYSTEM groups. The AEM Forms user account should have Read and Write permissions only.</p> </td> 
+   <td><p>Log file ACLs</p> </td> 
+   <td><p>Set appropriate AEM Forms on JEE log file access control lists (ACLs).</p> <p>Setting the appropriate credentials helps prevent attackers from deleting the files.</p> <p>The security permissions on the log file directory should be Full Control for Administrators and SYSTEM groups. The AEM Forms user account should have Read and Write permissions only.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1871 " valign="top" width="NaN%"><p>Log file redundancy</p> </td> 
-   <td class="cellrowborder" headers="d19e1874 " valign="top" width="NaN%"><p>If resources permit, send logs to another server in real time that is not accessible by the attacker (write only) by using Syslog, Tivoli, Microsoft Operations Manager (MOM) Server, or another mechanism.</p> <p>Protecting logs this way helps prevent tampering. Also, storing logs in a central repository aids in correlation and monitoring (for example, if multiple forms servers are in use and a password-guessing attack is taking place across multiple computers where each computer is queried for a password).</p> </td> 
+   <td><p>Log file redundancy</p> </td> 
+   <td><p>If resources permit, send logs to another server in real time that is not accessible by the attacker (write only) by using Syslog, Tivoli, Microsoft Operations Manager (MOM) Server, or another mechanism.</p> <p>Protecting logs this way helps prevent tampering. Also, storing logs in a central repository aids in correlation and monitoring (for example, if multiple forms servers are in use and a password-guessing attack is taking place across multiple computers where each computer is queried for a password).</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -449,174 +449,174 @@ Certain URLs are highlighted as end-user-facing web applications. You should avo
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e1988" valign="top" width="NaN%"><p>Root URL</p> </th> 
-   <th class="cellrowborder" id="d19e1991" valign="top" width="NaN%"><p>Purpose and/or associated web application</p> </th> 
-   <th class="cellrowborder" id="d19e1994" valign="top" width="NaN%"><p>Web-based interface</p> </th> 
-   <th class="cellrowborder" id="d19e1997" valign="top" width="NaN%"><p>End-user access</p> </th> 
+   <th><p>Root URL</p> </th> 
+   <th><p>Purpose and/or associated web application</p> </th> 
+   <th><p>Web-based interface</p> </th> 
+   <th><p>End-user access</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/ReaderExtensions/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions end-user web application for applying usage rights to PDF documents</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>Yes</p> </td> 
+   <td><p>/ReaderExtensions/*</p> </td> 
+   <td><p>Acrobat Reader DC extensions end-user web application for applying usage rights to PDF documents</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>Yes</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/edc/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Rights Management end-user web application</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>Yes</p> </td> 
+   <td><p>/edc/*</p> </td> 
+   <td><p>Rights Management end-user web application</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>Yes</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/edcws/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Web service URL for Rights Management</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>No</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>Yes</p> </td> 
+   <td><p>/edcws/*</p> </td> 
+   <td><p>Web service URL for Rights Management</p> </td> 
+   <td><p>No</p> </td> 
+   <td><p>Yes</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/pdfgui/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>PDF Generator administration web application</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>Yes</p> </td> 
+   <td><p>/pdfgui/*</p> </td> 
+   <td><p>PDF Generator administration web application</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>Yes</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/workspace/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Workspace end-user web application</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>Yes</p> </td> 
+   <td><p>/workspace/*</p> </td> 
+   <td><p>Workspace end-user web application</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>Yes</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/workspace-server/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Workspace servlets and data services that the Workspace client application requires</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>Yes</p> </td> 
+   <td><p>/workspace-server/*</p> </td> 
+   <td><p>Workspace servlets and data services that the Workspace client application requires</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>Yes</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/adobe-bootstrapper/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Servlet for bootstrapping the AEM Forms on JEE repository</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>No</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/adobe-bootstrapper/*</p> </td> 
+   <td><p>Servlet for bootstrapping the AEM Forms on JEE repository</p> </td> 
+   <td><p>No</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/soap/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Information page for forms server web services</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>No</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/soap/*</p> </td> 
+   <td><p>Information page for forms server web services</p> </td> 
+   <td><p>No</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/soap/services/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Web service URL for all forms server services</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>No</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/soap/services/*</p> </td> 
+   <td><p>Web service URL for all forms server services</p> </td> 
+   <td><p>No</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/edc/admin/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Rights Management administration web application</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/edc/admin/*</p> </td> 
+   <td><p>Rights Management administration web application</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/adminui/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Administration Console home page</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/adminui/*</p> </td> 
+   <td><p>Administration Console home page</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/TruststoreComponent/</p> <p>secured/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Trust Store Management administration pages</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/TruststoreComponent/</p> <p>secured/*</p> </td> 
+   <td><p>Trust Store Management administration pages</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/FormsIVS/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Forms IVS application for testing and debugging form rendering</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/FormsIVS/*</p> </td> 
+   <td><p>Forms IVS application for testing and debugging form rendering</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/OutputIVS/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Output IVS application for testing and debugging output service</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/OutputIVS/*</p> </td> 
+   <td><p>Output IVS application for testing and debugging output service</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/rmws/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>REST URL for Rights Management</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>No</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>Yes</p> </td> 
+   <td><p>/rmws/*</p> </td> 
+   <td><p>REST URL for Rights Management</p> </td> 
+   <td><p>No</p> </td> 
+   <td><p>Yes</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/OutputAdmin/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Output administration pages</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/OutputAdmin/*</p> </td> 
+   <td><p>Output administration pages</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/FormServer/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Forms web application files</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/FormServer/*</p> </td> 
+   <td><p>Forms web application files</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/FormServer/GetImage</p> <p>Servlet</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Used for fetching JavaScript during HTML transformation</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>No</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/FormServer/GetImage</p> <p>Servlet</p> </td> 
+   <td><p>Used for fetching JavaScript during HTML transformation</p> </td> 
+   <td><p>No</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/FormServerAdmin/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Forms administration pages</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/FormServerAdmin/*</p> </td> 
+   <td><p>Forms administration pages</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/repository/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>URL for WebDAV (debugging) access</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/repository/*</p> </td> 
+   <td><p>URL for WebDAV (debugging) access</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/AACComponent/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Applications and Services user interface</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/AACComponent/*</p> </td> 
+   <td><p>Applications and Services user interface</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/WorkspaceAdmin/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Workspace administration pages</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/WorkspaceAdmin/*</p> </td> 
+   <td><p>Workspace administration pages</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/rest/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Rest support pages</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/rest/*</p> </td> 
+   <td><p>Rest support pages</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/CoreSystemConfig/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>AEM Forms on JEE Core Configuration settings page</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/CoreSystemConfig/*</p> </td> 
+   <td><p>AEM Forms on JEE Core Configuration settings page</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/um/</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>User Management authentication</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>No</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>Yes</p> </td> 
+   <td><p>/um/</p> </td> 
+   <td><p>User Management authentication</p> </td> 
+   <td><p>No</p> </td> 
+   <td><p>Yes</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/um/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>User Management administration interface</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>No</p> </td> 
+   <td><p>/um/*</p> </td> 
+   <td><p>User Management administration interface</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>No</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e1988 " valign="top" width="NaN%"><p>/DoumentManager/*</p> </td> 
-   <td class="cellrowborder" headers="d19e1991 " valign="top" width="NaN%"><p>Uploading and downloading of documents that are to be processed when accessing remoting endpoints, SOAP WSDL endpoints, and the Java SDK over SOAP transport or EJB transport with HTTP documents enabled.</p> </td> 
-   <td class="cellrowborder" headers="d19e1994 " valign="top" width="NaN%"><p>Yes</p> </td> 
-   <td class="cellrowborder" headers="d19e1997 " valign="top" width="NaN%"><p>Yes</p> </td> 
+   <td><p>/DoumentManager/*</p> </td> 
+   <td><p>Uploading and downloading of documents that are to be processed when accessing remoting endpoints, SOAP WSDL endpoints, and the Java SDK over SOAP transport or EJB transport with HTTP documents enabled.</p> </td> 
+   <td><p>Yes</p> </td> 
+   <td><p>Yes</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -779,22 +779,22 @@ When you configure a secure network architecture as described in the previous se
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e2732" valign="top" width="NaN%"><p>Protocol</p> </th> 
-   <th class="cellrowborder" id="d19e2735" valign="top" width="NaN%"><p>Use</p> </th> 
+   <th><p>Protocol</p> </th> 
+   <th><p>Use</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>HTTP</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"> 
+   <td><p>HTTP</p> </td> 
+   <td> 
     <ul> 
      <li><p>Browser displays Configuration Manager and end-user web applications</p> </li> 
      <li><p>All SOAP connections</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>SOAP</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"> 
+   <td><p>SOAP</p> </td> 
+   <td> 
     <ul> 
      <li><p>Web service client applications, such as .NET applications</p> </li> 
      <li><p>Adobe Reader® uses SOAP for AEM Forms on JEE server web services</p> </li> 
@@ -804,48 +804,48 @@ When you configure a secure network architecture as described in the previous se
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>RMI</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"><p>AEM Forms on JEE SDK calls when used in Enterprise JavaBeans (EJB) mode</p> </td> 
+   <td><p>RMI</p> </td> 
+   <td><p>AEM Forms on JEE SDK calls when used in Enterprise JavaBeans (EJB) mode</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>IMAP / POP3</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"> 
+   <td><p>IMAP / POP3</p> </td> 
+   <td> 
     <ul> 
      <li><p>Email-based input to a service (Email endpoint)</p> </li> 
      <li><p>User task notifications over email</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>UNC File IO</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"><p>AEM Forms on JEE monitoring of watched folders for input to a service (watched folder endpoint)</p> </td> 
+   <td><p>UNC File IO</p> </td> 
+   <td><p>AEM Forms on JEE monitoring of watched folders for input to a service (watched folder endpoint)</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>LDAP</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"> 
+   <td><p>LDAP</p> </td> 
+   <td> 
     <ul> 
      <li><p>Synchronizations of organizational user and group information in a directory</p> </li> 
      <li><p>LDAP authentication for interactive users</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>JDBC</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"> 
+   <td><p>JDBC</p> </td> 
+   <td> 
     <ul> 
      <li><p>Query and procedure calls made to an external database during execution of a process using the JDBC service</p> </li> 
      <li><p>Internal access AEM Forms on JEE repository</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>WebDAV</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"><p>Enables remote browsing of the AEM Forms on JEE design-time repository (forms, fragments, and so on) by any WebDAV client</p> </td> 
+   <td><p>WebDAV</p> </td> 
+   <td><p>Enables remote browsing of the AEM Forms on JEE design-time repository (forms, fragments, and so on) by any WebDAV client</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>AMF</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"><p>Adobe Flash applications, where AEM Forms on JEE server services are configured with a Remoting endpoint</p> </td> 
+   <td><p>AMF</p> </td> 
+   <td><p>Adobe Flash applications, where AEM Forms on JEE server services are configured with a Remoting endpoint</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2732 " valign="top" width="NaN%"><p>JMX</p> </td> 
-   <td class="cellrowborder" headers="d19e2735 " valign="top" width="NaN%"><p>AEM Forms on JEE exposes MBeans for monitoring using JMX</p> </td> 
+   <td><p>JMX</p> </td> 
+   <td><p>AEM Forms on JEE exposes MBeans for monitoring using JMX</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -863,18 +863,18 @@ This section describes the default ports (and alternate configuration ranges) fo
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e2868" valign="top" width="NaN%"><p>Purpose</p> </th> 
-   <th class="cellrowborder" id="d19e2871" valign="top" width="NaN%"><p>Port</p> </th> 
+   <th><p>Purpose</p> </th> 
+   <th><p>Port</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2868 " valign="top" width="NaN%"><p>Access to web applications</p> </td> 
-   <td class="cellrowborder" headers="d19e2871 " valign="top" width="NaN%"><p>[JBOSS_Root]/standalone/configuration/lc_[database].xml</p> <p>HTTP/1.1 Connector port 8080</p> <p>AJP 1.3 Connector port 8009</p> <p>SSL/TLS Connector port 8443</p> </td> 
+   <td><p>Access to web applications</p> </td> 
+   <td><p>[JBOSS_Root]/standalone/configuration/lc_[database].xml</p> <p>HTTP/1.1 Connector port 8080</p> <p>AJP 1.3 Connector port 8009</p> <p>SSL/TLS Connector port 8443</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2868 " valign="top" width="NaN%"><p>CORBA support</p> </td> 
-   <td class="cellrowborder" headers="d19e2871 " valign="top" width="NaN%"><p>[JBoss root]/server/all/conf/jacorb.properties</p> <p>OAPort 3528</p> <p>OASSLPort 3529</p> </td> 
+   <td><p>CORBA support</p> </td> 
+   <td><p>[JBoss root]/server/all/conf/jacorb.properties</p> <p>OAPort 3528</p> <p>OASSLPort 3529</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,14 +884,14 @@ This section describes the default ports (and alternate configuration ranges) fo
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e2953" valign="top" width="NaN%"><p>Purpose</p> </th> 
-   <th class="cellrowborder" id="d19e2956" valign="top" width="NaN%"><p>Port</p> </th> 
+   <th><p>Purpose</p> </th> 
+   <th><p>Port</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2953 " valign="top" width="NaN%"><p>Access to web applications</p> </td> 
-   <td class="cellrowborder" headers="d19e2956 " valign="top" width="NaN%"> 
+   <td><p>Access to web applications</p> </td> 
+   <td> 
     <ul> 
      <li><p>Admin Server listen port: default is 7001</p> </li> 
      <li><p>Admin Server SSL listen port: default is 7002</p> </li> 
@@ -899,8 +899,8 @@ This section describes the default ports (and alternate configuration ranges) fo
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e2953 " valign="top" width="NaN%"><p>WebLogic administration ports not required for access to AEM Forms on JEE</p> </td> 
-   <td class="cellrowborder" headers="d19e2956 " valign="top" width="NaN%"> 
+   <td><p>WebLogic administration ports not required for access to AEM Forms on JEE</p> </td> 
+   <td> 
     <ul> 
      <li><p>Managed Server listen port: Configurable from 1 to 65534</p> </li> 
      <li><p>Managed Server SSL listen port: Configurable from 1 to 65534</p> </li> 

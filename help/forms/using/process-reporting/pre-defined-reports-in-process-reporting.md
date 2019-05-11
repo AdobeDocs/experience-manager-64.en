@@ -26,7 +26,7 @@ AEM Forms Process Reporting ships with the following *out-of-the-box* reports:
 
 The Long Running Processes report displays the AEM Forms processes that have taken more than a specified time to complete.
 
-### To execute a Long Running Process report <br> {#to-execute-a-long-running-process-report-br}
+### To execute a Long Running Process report {#to-execute-a-long-running-process-report-br}
 
 1. To view the list of pre-defined reports in Process Reporting, on the **Process Reporting** tree view, click the **Reports **node.
 1. Click the **Long Running Processes** report node.
@@ -57,11 +57,11 @@ The Long Running Processes report displays the AEM Forms processes that have tak
     * **Change legend color**: Select and change the color of the report legend
     * **Export to CSV**: Export and download the data from the report to a comma-separated file
 
-## Process Duration report <br> {#process-duration-report-br}
+## Process Duration report {#process-duration-report-br}
 
 The Process Duration report displays the number of instances of a Forms process by number of days that each instance has run.
 
-### To execute a Process Duration report <br> {#to-execute-a-process-duration-report-br}
+### To execute a Process Duration report {#to-execute-a-process-duration-report-br}
 
 1. To view the pre-defined reports in Process Reporting, on the **Process Reporting** tree view, click the **Reports **node.
 1. Click the **Processes Duration** report node.
@@ -92,7 +92,7 @@ The Process Duration report displays the number of instances of a Forms process 
 
 The Workflow Volume report displays the number of currently running and completed instances of an AEM Forms process by calendar day.
 
-### To execute a Workflow Volume report <br> {#to-execute-a-workflow-volume-report-br}
+### To execute a Workflow Volume report {#to-execute-a-workflow-volume-report-br}
 
 1. To view the pre-defined reports in Process Reporting, on the **Process Reporting **tree view, click the **Reports **node.
 1. Click the **Workflow Volume** report node.

@@ -16,7 +16,7 @@ discoiquuid: e78f539a-109c-444c-8e52-be2260c3509f
 
 The localization of adaptive forms relies on two types of locale dictionaries:
 
-**Form-specific dictionary** Contains strings used in adaptive forms. For example, labels, field names, error messages, help descriptions, and so on. It is managed as a set of XLIFF files for each locale and you can access it at https://<host>:<port>/libs/cq/i18n/translator.html.
+**Form-specific dictionary** Contains strings used in adaptive forms. For example, labels, field names, error messages, help descriptions, and so on. It is managed as a set of XLIFF files for each locale and you can access it at https://`<host>`:`<port>`/libs/cq/i18n/translator.html.
 
 **Global dictionaries** There are two global dictionaries, managed as JSON objects, in AEM client library. These dictionaries contain default error messages, month names, currency symbols, date and time patterns, and so on. You can find these dictionaries in CRXDe Lite at /libs/fd/xfaforms/clientlibs/I18N. These locations contains separate folders for each locale. Because global dictionaries are usually not updated frequently, keeping separate JavaScript files for each locale enables browsers to cache them and reduce network bandwidth usage when accessing different adaptive forms on same server.
 
@@ -50,7 +50,7 @@ To add support for a new locale at adaptive forms runtime:
 1. [Add locale support for the dictionary](/help/forms/using/supporting-new-language-localization.md#p-add-locale-support-for-the-dictionary-br-p)
 1. [Restart the server](/help/forms/using/supporting-new-language-localization.md#p-restart-the-server-p)
 
-### Add a locale to the Guide Localization service <br> {#add-a-locale-to-the-guide-localization-service-br}
+### Add a locale to the Guide Localization service {#add-a-locale-to-the-guide-localization-service-br}
 
 1. Go to `https://[server]:[port]/system/console/configMgr`.
 1. Click to edit the **Guide Localization Service** component.
@@ -58,7 +58,7 @@ To add support for a new locale at adaptive forms runtime:
 
 ![GuideLocalizationSevice](assets/configservice.png) 
 
-### Add XFA client library for a locale <br> {#add-xfa-client-library-for-a-locale-br}
+### Add XFA client library for a locale {#add-xfa-client-library-for-a-locale-br}
 
 Create a node of type `cq:ClientLibraryFolder` under `etc/<folderHierarchy>`, with category `xfaforms.I18N.<locale>`, and add the following files to the client library:
 
@@ -72,7 +72,7 @@ I18N.js
 /etc/clientlibs/fd/xfaforms/I18N/LogMessages.js
 ```
 
-### Add adaptive form client library for a locale <br> {#add-adaptive-form-client-library-for-a-locale-br}
+### Add adaptive form client library for a locale {#add-adaptive-form-client-library-for-a-locale-br}
 
 Create a node of type `cq:ClientLibraryFolder` under `etc/<folderHierarchy>`, with category as `guides.I18N.<locale>` and and dependencies as `xfaforms.3rdparty`, `xfaforms.I18N.<locale>` and `guide.common`. ``
 
@@ -89,7 +89,7 @@ i18n.js
 LogMessages.js
 ```
 
-### Add locale support for the dictionary <br> {#add-locale-support-for-the-dictionary-br}
+### Add locale support for the dictionary {#add-locale-support-for-the-dictionary-br}
 
 Perform this step only if the `<locale>` you are adding is not among `en`, `de`, `es`, `fr`, `it`, `pt-br`, `zh-tn`, `zh-tw`, `ja`, `ko-kr`.
 

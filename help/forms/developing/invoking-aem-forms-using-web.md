@@ -52,86 +52,86 @@ The following table lists service WSDL definitions (assuming that AEM Forms is d
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e9268" valign="top" width="NaN%"><p>Service</p></th> 
-   <th class="cellrowborder" id="d19e9271" valign="top" width="NaN%"><p>WSDL definition</p></th> 
+   <th><p>Service</p></th> 
+   <th><p>WSDL definition</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Assembler</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ AssemblerService?wsdl</code></p></td> 
+   <td><p>Assembler</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ AssemblerService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Back and Restore</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/BackupService?wsdl</code></p></td> 
+   <td><p>Back and Restore</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/BackupService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>barcoded forms</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ BarcodedFormsService?wsdl</code></p></td> 
+   <td><p>barcoded forms</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ BarcodedFormsService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Convert PDF</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ ConvertPDFService?wsdl</code></p></td> 
+   <td><p>Convert PDF</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ ConvertPDFService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Distiller</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ DistillerService?wsdl</code></p></td> 
+   <td><p>Distiller</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ DistillerService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>DocConverter </p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/DocConverterService?WSDL</code></p></td> 
+   <td><p>DocConverter </p></td> 
+   <td><p><code>http://localhost:8080/soap/services/DocConverterService?WSDL</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>DocumentManagement</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/DocumentManagementService?WSDL</code></p></td> 
+   <td><p>DocumentManagement</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/DocumentManagementService?WSDL</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Encryption </p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/EncryptionService?wsdl</code></p></td> 
+   <td><p>Encryption </p></td> 
+   <td><p><code>http://localhost:8080/soap/services/EncryptionService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Forms</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/FormsService?wsdl</code></p></td> 
+   <td><p>Forms</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/FormsService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Form Data Integration</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/FormDataIntegration?wsdl</code></p></td> 
+   <td><p>Form Data Integration</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/FormDataIntegration?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Generate PDF</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ GeneratePDFService?wsdl</code></p></td> 
+   <td><p>Generate PDF</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ GeneratePDFService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Generate 3D PDF</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/Generate3dPDFService?WSDL</code></p></td> 
+   <td><p>Generate 3D PDF</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/Generate3dPDFService?WSDL</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Output</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ OutputService?wsdl</code></p></td> 
+   <td><p>Output</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ OutputService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>PDF Utilities </p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ PDFUtilityService?wsdl</code></p></td> 
+   <td><p>PDF Utilities </p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ PDFUtilityService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ ReaderExtensionsService?wsdl</code></p></td> 
+   <td><p>Acrobat Reader DC extensions</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ ReaderExtensionsService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Repository</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ RepositoryService?wsdl</code></p></td> 
+   <td><p>Repository</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ RepositoryService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Rights Management </p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ RightsManagementService?wsdl</code></p></td> 
+   <td><p>Rights Management </p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ RightsManagementService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>Signature </p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ SignatureService?wsdl</code></p></td> 
+   <td><p>Signature </p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ SignatureService?wsdl</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9268 " valign="top" width="NaN%"><p>XMP Utilities</p></td> 
-   <td class="cellrowborder" headers="d19e9271 " valign="top" width="NaN%"><p><code>http://localhost:8080/soap/services/ XMPUtilityService?wsdl</code></p></td> 
+   <td><p>XMP Utilities</p></td> 
+   <td><p><code>http://localhost:8080/soap/services/ XMPUtilityService?wsdl</code></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -264,78 +264,78 @@ The following table lists Java data types and shows the corresponding web servic
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e9837" valign="top" width="NaN%"><p>Java data type</p></th> 
-   <th class="cellrowborder" id="d19e9840" valign="top" width="NaN%"><p>Web service data type</p></th> 
+   <th><p>Java data type</p></th> 
+   <th><p>Web service data type</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.lang.byte[]</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>xsd:base64Binary</code></p></td> 
+   <td><p><code>java.lang.byte[]</code></p></td> 
+   <td><p><code>xsd:base64Binary</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.lang.Boolean</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>xsd:boolean</code></p></td> 
+   <td><p><code>java.lang.Boolean</code></p></td> 
+   <td><p><code>xsd:boolean</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.util.Date</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p>The <code>DATE</code> type, which is defined in a service WSDL as follows:</p><p><code>&lt;complexType name="DATE"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="date" </code><code>type="xsd:dateTime" /&gt; </code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="calendar" </code><code>type="xsd:dateTime" /&gt; </code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p>If a AEM Forms service operation takes a <code>java.util.Date</code> value as input, the SOAP client application must pass the date in the <code>DATE.date</code> field. Setting the <code>DATE.calendar</code> field in this case causes a runtime exception. If the service returns a <code>java.util.Date</code>, the date is retuned in the <code>DATE.date</code> field.</p></td> 
+   <td><p><code>java.util.Date</code></p></td> 
+   <td><p>The <code>DATE</code> type, which is defined in a service WSDL as follows:</p><p><code>&lt;complexType name="DATE"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="date" </code><code>type="xsd:dateTime" /&gt; </code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="calendar" </code><code>type="xsd:dateTime" /&gt; </code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p>If a AEM Forms service operation takes a <code>java.util.Date</code> value as input, the SOAP client application must pass the date in the <code>DATE.date</code> field. Setting the <code>DATE.calendar</code> field in this case causes a runtime exception. If the service returns a <code>java.util.Date</code>, the date is retuned in the <code>DATE.date</code> field.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.util.Calendar</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p>The <code>DATE</code> type, which is defined in a service WSDL as follows:</p><p><code>&lt;complexType name="DATE"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="date" </code><code>type="xsd:dateTime" /&gt; </code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="calendar" </code><code>type="xsd:dateTime" /&gt; </code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p>If a AEM Forms service operation takes a <code>java.util.Calendar</code> value as input, the SOAP client application must pass the date in the <code>DATE.caledendar</code> field. Setting the <code>DATE.date</code> field in this case causes a run-time exception. If the service returns a <code>java.util.Calendar</code>, then the date is returned in the <code>DATE.calendar</code> field. </p></td> 
+   <td><p><code>java.util.Calendar</code></p></td> 
+   <td><p>The <code>DATE</code> type, which is defined in a service WSDL as follows:</p><p><code>&lt;complexType name="DATE"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="date" </code><code>type="xsd:dateTime" /&gt; </code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="calendar" </code><code>type="xsd:dateTime" /&gt; </code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p>If a AEM Forms service operation takes a <code>java.util.Calendar</code> value as input, the SOAP client application must pass the date in the <code>DATE.caledendar</code> field. Setting the <code>DATE.date</code> field in this case causes a run-time exception. If the service returns a <code>java.util.Calendar</code>, then the date is returned in the <code>DATE.calendar</code> field. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.math.BigDecimal</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>xsd:decimal</code></p></td> 
+   <td><p><code>java.math.BigDecimal</code></p></td> 
+   <td><p><code>xsd:decimal</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>com.adobe.idp.Document</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>BLOB</code></p></td> 
+   <td><p><code>com.adobe.idp.Document</code></p></td> 
+   <td><p><code>BLOB</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.lang.Double</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>xsd:double</code></p></td> 
+   <td><p><code>java.lang.Double</code></p></td> 
+   <td><p><code>xsd:double</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.lang.Float</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>xsd:float</code></p></td> 
+   <td><p><code>java.lang.Float</code></p></td> 
+   <td><p><code>xsd:float</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.lang.Integer</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>xsd:int</code></p></td> 
+   <td><p><code>java.lang.Integer</code></p></td> 
+   <td><p><code>xsd:int</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.util.List</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>MyArrayOf_xsd_anyType</code></p></td> 
+   <td><p><code>java.util.List</code></p></td> 
+   <td><p><code>MyArrayOf_xsd_anyType</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.lang.Long</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>xsd:long</code></p></td> 
+   <td><p><code>java.lang.Long</code></p></td> 
+   <td><p><code>xsd:long</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.util.Map</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p>The <code>apachesoap:Map</code>, which is defined in a service WSDL as follows:</p><p><code>&lt;schema elementFormDefault="qualified" targetNamespace="https://xml.apache.org/xml-soap" xmlns="https://www.w3.org/2001/XMLSchema"&gt;</code></p><p><code>&lt;complexType name="mapItem"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element name="key" nillable="true" type="xsd:anyType"/&gt;</code></p><p><code>&lt;element name="value" nillable="true" type="xsd:anyType"/&gt;</code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p><code>&lt;complexType name="Map"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="unbounded" minOccurs="0" name="item" </code><code>type="apachesoap:mapItem"/&gt;</code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p><code>&lt;/schema&gt;</code></p><p>The Map is represented as a sequence of key/value pairs.</p></td> 
+   <td><p><code>java.util.Map</code></p></td> 
+   <td><p>The <code>apachesoap:Map</code>, which is defined in a service WSDL as follows:</p><p><code>&lt;schema elementFormDefault="qualified" targetNamespace="https://xml.apache.org/xml-soap" xmlns="https://www.w3.org/2001/XMLSchema"&gt;</code></p><p><code>&lt;complexType name="mapItem"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element name="key" nillable="true" type="xsd:anyType"/&gt;</code></p><p><code>&lt;element name="value" nillable="true" type="xsd:anyType"/&gt;</code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p><code>&lt;complexType name="Map"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="unbounded" minOccurs="0" name="item" </code><code>type="apachesoap:mapItem"/&gt;</code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p><code>&lt;/schema&gt;</code></p><p>The Map is represented as a sequence of key/value pairs.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.lang.Object</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>$1</code></p></td> 
+   <td><p><code>java.lang.Object</code></p></td> 
+   <td><p><code>$1</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.lang.Short</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>xsd:short</code></p></td> 
+   <td><p><code>java.lang.Short</code></p></td> 
+   <td><p><code>xsd:short</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>java.lang.String</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p><code>xsd:string</code></p></td> 
+   <td><p><code>java.lang.String</code></p></td> 
+   <td><p><code>xsd:string</code></p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>org.w3c.dom.Document</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p>The XML type, which is defined in a service WSDL as follows:</p><p><code>&lt;complexType name="XML"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="document" </code><code>type="xsd:string" /&gt; </code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="element" </code><code>type="xsd:string" /&gt; </code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p>If an AEM Forms service operation accepts an <code>org.w3c.dom.Document</code> value, pass the XML data in the <code>XML.document</code> field.</p><p>Setting the <code>XML.element</code> field causes a runtime exception. If the service returns an <code>org.w3c.dom.Document</code>, then the XML data is returned in the <code>XML.document</code> field.</p></td> 
+   <td><p><code>org.w3c.dom.Document</code></p></td> 
+   <td><p>The XML type, which is defined in a service WSDL as follows:</p><p><code>&lt;complexType name="XML"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="document" </code><code>type="xsd:string" /&gt; </code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="element" </code><code>type="xsd:string" /&gt; </code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p>If an AEM Forms service operation accepts an <code>org.w3c.dom.Document</code> value, pass the XML data in the <code>XML.document</code> field.</p><p>Setting the <code>XML.element</code> field causes a runtime exception. If the service returns an <code>org.w3c.dom.Document</code>, then the XML data is returned in the <code>XML.document</code> field.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e9837 " valign="top" width="NaN%"><p><code>org.w3c.dom.Element</code></p></td> 
-   <td class="cellrowborder" headers="d19e9840 " valign="top" width="NaN%"><p>The XML type, which is defined in a service WSDL as follows:</p><p><code>&lt;complexType name="XML"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="document" </code><code>type="xsd:string" /&gt; </code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="element" </code><code>type="xsd:string" /&gt; </code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p>If an AEM Forms service operation takes an <code>org.w3c.dom.Element</code> as input, pass the XML data in the <code>XML.element</code> field.</p><p>Setting the <code>XML.document</code> field causes a runtime exception. If the service returns an <code>org.w3c.dom.Element</code>, then the XML data is retuned in the <code>XML.element</code> field.</p></td> 
+   <td><p><code>org.w3c.dom.Element</code></p></td> 
+   <td><p>The XML type, which is defined in a service WSDL as follows:</p><p><code>&lt;complexType name="XML"&gt;</code></p><p><code>&lt;sequence&gt;</code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="document" </code><code>type="xsd:string" /&gt; </code></p><p><code>&lt;element maxOccurs="1" minOccurs="0" name="element" </code><code>type="xsd:string" /&gt; </code></p><p><code>&lt;/sequence&gt;</code></p><p><code>&lt;/complexType&gt;</code></p><p>If an AEM Forms service operation takes an <code>org.w3c.dom.Element</code> as input, pass the XML data in the <code>XML.element</code> field.</p><p>Setting the <code>XML.document</code> field causes a runtime exception. If the service returns an <code>org.w3c.dom.Element</code>, then the XML data is retuned in the <code>XML.element</code> field.</p></td> 
   </tr> 
  </tbody> 
 </table>

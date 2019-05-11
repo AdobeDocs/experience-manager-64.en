@@ -45,7 +45,7 @@ You can create a folder in AEM Forms in one of the following ways:
 
    If a folder exists with the name specified, the submission fails with an error. You can view the error message by hovering over the error ![](assets/aem6forms_error_alert.png) icon that appears beside the name field.
 
-### Edit the folder title <br> {#edit-the-folder-title-br}
+### Edit the folder title {#edit-the-folder-title-br}
 
 1. Select the folder whose title you want to edit.
 1. Click the edit ![](assets/aem6forms_edit.png) icon in the toolbar.  

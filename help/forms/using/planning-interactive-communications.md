@@ -15,8 +15,7 @@ Plan the anatomy for your Interactive Communication
 
  ![](assets/02-create-adaptive-form-main-image.png)
 
-| This tutorial is a step in the [Create your first Interactive Communication](/help/forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
-|---|
+This tutorial is a step in the [Create your first Interactive Communication](/help/forms/using/create-your-first-interactive-communication.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
 The first step in planning an Interactive Communication is to finalize the content of the Interactive Communication. Subject matter experts from departments such as legal, finance, support, or marketing can help you in finalizing the content. After the content is finalized, you must analyze it to identify the various asset types that are required to create the Interactive Communication.
 

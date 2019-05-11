@@ -63,26 +63,26 @@ The following table describes the steps in this diagram.
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e69369" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e69372" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e69369 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e69372 " valign="top" width="NaN%"><p>A user purchases items from a web-based online store. </p></td> 
+   <td><p>1</p></td> 
+   <td><p>A user purchases items from a web-based online store. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e69369 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e69372 " valign="top" width="NaN%"><p>After the user finishes purchasing items and clicks the Submit button, an in-memory XML data source is created. Purchased items and user information are placed into the in-memory XML data source. </p></td> 
+   <td><p>2</p></td> 
+   <td><p>After the user finishes purchasing items and clicks the Submit button, an in-memory XML data source is created. Purchased items and user information are placed into the in-memory XML data source. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e69369 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e69372 " valign="top" width="NaN%"><p>The XML data source is used to prepopulate a purchase order form (an example of this form is shown following this table). </p></td> 
+   <td><p>3</p></td> 
+   <td><p>The XML data source is used to prepopulate a purchase order form (an example of this form is shown following this table). </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e69369 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e69372 " valign="top" width="NaN%"><p>The purchase order form is rendered to the client web browser. </p></td> 
+   <td><p>4</p></td> 
+   <td><p>The purchase order form is rendered to the client web browser. </p></td> 
   </tr> 
  </tbody> 
 </table>

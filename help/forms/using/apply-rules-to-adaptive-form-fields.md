@@ -13,8 +13,7 @@ discoiquuid: 982eddba-2350-40e7-8a42-db02d28cf133
 
  ![](assets/06-apply-rules-to-adaptive-form_main.png)
 
-| This tutorial is a step in the [Create Your First Adaptive Form](/help/forms/using/create-your-first-adaptive-form.md) series. Adobe recommends following the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
-|---|
+This tutorial is a step in the [Create Your First Adaptive Form](/help/forms/using/create-your-first-adaptive-form.md) series. Adobe recommends following the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
 ## About the tutorial {#about-the-tutorial}
 

@@ -16,7 +16,7 @@ Learn how to configure Adobe Sign for AEM Forms
 
 Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 
-In a typical Adobe Sign and adaptive forms scenario, a user fills an adaptive form to** **apply for a service**. **For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, the form is sent to the service provider for further action. Service provider reviews the application and uses Adobe Sign to mark the application approved. To enable similar electronic-signature workflows, you can integrate Adobe Sign with AEM Forms.
+In a typical Adobe Sign and adaptive forms scenario, a user fills an adaptive form to** **apply for a service**. For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, the form is sent to the service provider for further action. Service provider reviews the application and uses Adobe Sign to mark the application approved. To enable similar electronic-signature workflows, you can integrate Adobe Sign with AEM Forms.
 
 To use Adobe Sign with AEM Forms, configure Adobe Sign in AEM Cloud Services:
 
@@ -24,7 +24,7 @@ To use Adobe Sign with AEM Forms, configure Adobe Sign in AEM Cloud Services:
 
 You require the following to integrate Adobe Sign with AEM Forms:
 
-* An active [Adobe Sign developer account.](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html)
+* An active [Adobe Sign developer account](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
 * An [SSL enabled](/help/sites-administering/ssl-by-default.md) AEM Forms server.
 * An [Adobe Sign API application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobeio/adobeio-documentation/master/sign/gstarted/create_app.md).
 * Credentials (Client ID and Client Secret) of Adobe Sign API application.
@@ -36,7 +36,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 1. On AEM Forms author instance, navigate to **Tools ![](assets/hammer.png) &gt; General &gt; Configuration Browser**.
 1. On the **[!UICONTROL Configuration Browser]** page, tap **[!UICONTROL Create]**.
 1. In the **[!UICONTROL Create Configuration]** dialog, specify a **[!UICONTROL Title]** for the configuration, enable **[!UICONTROL Cloud Configurations]**, and tap **[!UICONTROL Create]**. It creates a configuration container for cloud services.
-1. Navigate to **Tools ![](assets/hammer.png) &gt; Cloud Services &gt; Adobe Sign** and select the configuration container you created in the above step.
+1. Navigate to **Tools** ![](assets/hammer.png) &gt; **Cloud Services** &gt; **Adobe Sign** and select the configuration container you created in the above step.
 
    >[!NOTE]
    >
@@ -52,21 +52,21 @@ After prerequisites are in place, perform the following steps to configure Adobe
     1. Open a browser window and sign in to the Adobe Sign developer account.
     1. Select the application configured for AEM Forms, and tap Configure OAuth for Application.
     1. In the **Redirect URL** box, add the HTTPS URL copied in the previous step and click **Save**.
-    
     1. Enable the following OAuth settings for the Adobe Sign application and click **Save**.
 
     * aggrement_read
-    * aggrement_write   
+    * aggrement_write
     * aggrement_send
     * widget_write
     * workflow_read
 
    For step-by-step information to configure OAuth settings for an Adobe Sign application and obtain the keys, see [Configure oAuth settings for the application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobeio/adobeio-documentation/master/sign/gstarted/configure_oauth.md) developer documentation.
+
    ![OAuth Config](assets/oauth_config.png)
 
 1. Go back to the **Create Adobe Sign Configuration** page. In the **[!UICONTROL Settings]** tab, the **!UICONTROL OAuth URL]** field mentions the following default URL:
 
-   https://secure.na1.echosign.com/public/oauth
+   `https://secure.na1.echosign.com/public/oauth`
 
    where:
 
@@ -82,7 +82,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 1. Open AEM Web Console. The URL is `https://[server]:[port]/system/console/configMgr`
 1. Open **Forms Common Configuration Service.**
-1. In the **Allow **field**, **select** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms**, and click **Save. **Author instance is configured to use Adobe Sign.
+1. In the **Allow **field**, **select** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms**, and click **Save.** Author instance is configured to use Adobe Sign.
 1. On the [Publish](/help/sites-deploying/deploy.md) instance, log in and open the following URL:
 
    `https://<server-name>:<port>/libs/granite/configurations/content/view.html/conf`

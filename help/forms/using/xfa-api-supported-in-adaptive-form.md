@@ -23,7 +23,7 @@ When an adaptive form is created based on an XDP file, the properties, events, a
 
 This article lists supported XFA events, properties, and validations honored in adaptive forms and explains how to override them in adaptive forms.
 
-## Supported XFA elements and their mapping in adaptive forms <br> {#supported-xfa-elements-and-their-mapping-in-adaptive-forms-br}
+## Supported XFA elements and their mapping in adaptive forms {#supported-xfa-elements-and-their-mapping-in-adaptive-forms-br}
 
 ### Fields {#fields}
 

@@ -29,22 +29,22 @@ The following table explains the steps in the diagram.
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e67713" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e67716" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>A user fills in an interactive form and clicks the form’s Submit button.</p></td> 
+   <td><p>1</p></td> 
+   <td><p>A user fills in an interactive form and clicks the form’s Submit button.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>Data is submitted to the <code>HandleData</code> Java Servlet as XML data.</p></td> 
+   <td><p>2</p></td> 
+   <td><p>Data is submitted to the <code>HandleData</code> Java Servlet as XML data.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>The <code>HandleData</code> Java Servlet contains application logic to retrieve the data.</p></td> 
+   <td><p>3</p></td> 
+   <td><p>The <code>HandleData</code> Java Servlet contains application logic to retrieve the data.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,26 +77,26 @@ The following table describes the steps in this diagram.
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e67796" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e67799" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>A web page contains a link that accesses a Java Servlet that invokes the Forms service.</p></td> 
+   <td><p>1</p></td> 
+   <td><p>A web page contains a link that accesses a Java Servlet that invokes the Forms service.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>The Forms service renders an interactive PDF form to the client web browser.</p></td> 
+   <td><p>2</p></td> 
+   <td><p>The Forms service renders an interactive PDF form to the client web browser.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>The user fills in an interactive form and clicks a submit button. The form is submitted back to the Forms service as PDF data. This option is set in Designer.</p></td> 
+   <td><p>3</p></td> 
+   <td><p>The user fills in an interactive form and clicks a submit button. The form is submitted back to the Forms service as PDF data. This option is set in Designer.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>The Forms service saves the PDF data as a PDF file. </p></td> 
+   <td><p>4</p></td> 
+   <td><p>The Forms service saves the PDF data as a PDF file. </p></td> 
   </tr> 
  </tbody> 
 </table>

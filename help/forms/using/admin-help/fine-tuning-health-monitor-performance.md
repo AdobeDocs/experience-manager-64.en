@@ -18,41 +18,41 @@ Collecting the system statistics that populate Health Monitor has some impact on
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e27593" valign="top" width="NaN%"><p>Property</p></th> 
-   <th class="cellrowborder" id="d19e27596" valign="top" width="NaN%"><p>Purpose</p></th> 
-   <th class="cellrowborder" id="d19e27599" valign="top" width="NaN%"><p>Default value</p></th> 
+   <th><p>Property</p></th> 
+   <th><p>Purpose</p></th> 
+   <th><p>Default value</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e27593 " valign="top" width="NaN%"><p>adobe.healthmonitor.enabled</p></td> 
-   <td class="cellrowborder" headers="d19e27596 " valign="top" width="NaN%"><p>Turn on or off Health Monitor thread</p></td> 
-   <td class="cellrowborder" headers="d19e27599 " valign="top" width="NaN%"><p>true</p></td> 
+   <td><p>adobe.healthmonitor.enabled</p></td> 
+   <td><p>Turn on or off Health Monitor thread</p></td> 
+   <td><p>true</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e27593 " valign="top" width="NaN%"><p>adobe.cache.statistics-enabled</p></td> 
-   <td class="cellrowborder" headers="d19e27596 " valign="top" width="NaN%"><p>Turn on or off Gemfire caching</p></td> 
-   <td class="cellrowborder" headers="d19e27599 " valign="top" width="NaN%"><p>true</p></td> 
+   <td><p>adobe.cache.statistics-enabled</p></td> 
+   <td><p>Turn on or off Gemfire caching</p></td> 
+   <td><p>true</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e27593 " valign="top" width="NaN%"><p>adobe.healthmonitor.refresh-interval</p></td> 
-   <td class="cellrowborder" headers="d19e27596 " valign="top" width="NaN%"><p>The interval in milliseconds after which the Health Monitor thread collects the statistics</p></td> 
-   <td class="cellrowborder" headers="d19e27599 " valign="top" width="NaN%"><p>10 minutes (600,000 milliseconds)</p></td> 
+   <td><p>adobe.healthmonitor.refresh-interval</p></td> 
+   <td><p>The interval in milliseconds after which the Health Monitor thread collects the statistics</p></td> 
+   <td><p>10 minutes (600,000 milliseconds)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e27593 " valign="top" width="NaN%"><p>adobe.cache.multicast-port</p></td> 
-   <td class="cellrowborder" headers="d19e27596 " valign="top" width="NaN%"><p>The multicast port used to communicate with other members of the distributed system. If set to zero, multicast is disabled for both member discovery and distribution. </p><p>Note: Select different multicast addresses and ports for different distributed systems. Do not use different addresses only.</p></td> 
-   <td class="cellrowborder" headers="d19e27599 " valign="top" width="NaN%"><p>No default value. Valid values range from 0 to 65535.</p></td> 
+   <td><p>adobe.cache.multicast-port</p></td> 
+   <td><p>The multicast port used to communicate with other members of the distributed system. If set to zero, multicast is disabled for both member discovery and distribution. </p><p>Note: Select different multicast addresses and ports for different distributed systems. Do not use different addresses only.</p></td> 
+   <td><p>No default value. Valid values range from 0 to 65535.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e27593 " valign="top" width="NaN%"><p>statistic-sample-rate</p></td> 
-   <td class="cellrowborder" headers="d19e27596 " valign="top" width="NaN%"><p>The rate in milliseconds at which statistics are sampled. Operating system statistics are only updated when a sample is taken.</p></td> 
-   <td class="cellrowborder" headers="d19e27599 " valign="top" width="NaN%"><p>600000</p></td> 
+   <td><p>statistic-sample-rate</p></td> 
+   <td><p>The rate in milliseconds at which statistics are sampled. Operating system statistics are only updated when a sample is taken.</p></td> 
+   <td><p>600000</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e27593 " valign="top" width="NaN%"><p>adobe.workmanager.healthmonitor.enabled</p></td> 
-   <td class="cellrowborder" headers="d19e27596 " valign="top" width="NaN%"><p>This property enables or disables Work Manager statistic collection, such as job or work item count.</p></td> 
-   <td class="cellrowborder" headers="d19e27599 " valign="top" width="NaN%"><p>true</p></td> 
+   <td><p>adobe.workmanager.healthmonitor.enabled</p></td> 
+   <td><p>This property enables or disables Work Manager statistic collection, such as job or work item count.</p></td> 
+   <td><p>true</p></td> 
   </tr> 
  </tbody> 
 </table>

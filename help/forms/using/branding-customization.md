@@ -129,19 +129,19 @@ Ensure that you have following images:
 <table> 
  <tbody> 
   <tr> 
-   <th class="row-nocellborder" valign="top" width="NaN%"><p>Description</p> </th> 
-   <th class="row-nocellborder" valign="top" width="NaN%"><p>Size</p> </th> 
-   <th class="cellrowborder" valign="top" width="NaN%"><p>Filename</p> </th> 
+   <th><p>Description</p> </th> 
+   <th><p>Size</p> </th> 
+   <th><p>Filename</p> </th> 
   </tr> 
   <tr> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>Logo</p> </td> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>72 x 72 pixel</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>LC-logo.png</p> </td> 
+   <td><p>Logo</p> </td> 
+   <td><p>72 x 72 pixel</p> </td> 
+   <td><p>LC-logo.png</p> </td> 
   </tr> 
   <tr> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>Background image (Portrait)</p> </td> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>1280 x 989 pixel</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>Landing_bg.jpeg</p> </td> 
+   <td><p>Background image (Portrait)</p> </td> 
+   <td><p>1280 x 989 pixel</p> </td> 
+   <td><p>Landing_bg.jpeg</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -184,14 +184,14 @@ Ensure that you have following image:
 <table> 
  <tbody> 
   <tr> 
-   <th class="row-nocellborder" valign="top" width="NaN%"><p>Description</p> </th> 
-   <th class="row-nocellborder" valign="top" width="NaN%"><p>Size</p> </th> 
-   <th class="cellrowborder" valign="top" width="NaN%"><p>Filename</p> </th> 
+   <th><p>Description</p> </th> 
+   <th><p>Size</p> </th> 
+   <th><p>Filename</p> </th> 
   </tr> 
   <tr> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>Logo</p> </td> 
-   <td class="row-nocellborder" valign="top" width="NaN%"><p>72 x 72 pixel</p> </td> 
-   <td class="cellrowborder" valign="top" width="NaN%"><p>aem_icon.png</p> </td> 
+   <td><p>Logo</p> </td> 
+   <td><p>72 x 72 pixel</p> </td> 
+   <td><p>aem_icon.png</p> </td> 
   </tr> 
  </tbody> 
 </table>

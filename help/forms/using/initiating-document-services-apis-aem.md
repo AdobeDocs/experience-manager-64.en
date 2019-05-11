@@ -12,7 +12,7 @@ discoiquuid: 8b85bdc7-3864-49c9-81b0-cf15b8e986d9
 
 # Initiate Document Services APIs from AEM Workflow {#initiate-document-services-apis-from-aem-workflow}
 
-## Assembler <br> {#assembler}
+## Assembler {#assembler}
 
 AEM Forms provides custom workflows to invoke the following Assembler service APIs:
 

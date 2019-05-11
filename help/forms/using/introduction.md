@@ -17,7 +17,7 @@ HTML5 forms generates documents based on standard HTML5 constructs. You can view
 
 ![](do-not-localize/mobile_form_on_an_ipad_date_14.png)
 
-## Key capabilities of HTML5 forms <br> {#key-capabilities-of-html-forms-br}
+## Key capabilities of HTML5 forms {#key-capabilities-of-html-forms-br}
 
 * Renders existing XFA forms in HTML5 supported on all compatible browsers.
 * Leverages standard XFA form design capabilities to target forms for mobile devices.

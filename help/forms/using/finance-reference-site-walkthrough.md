@@ -81,7 +81,7 @@ Sarah clicks **[!UICONTROL Send mail]**. She receives an email with a link to re
 <div class="details"> 
  <h3 class="summary">Sarah accesses the credit card application from her mobile device</h3> 
  <p>If Sarah is accessing the credit card application from her mobile device, the responsive application opens in a view optimized for mobile devices. In this view, the application form is renders as one section at a time. It allows Sarah to view and provide information progressively as she navigates the application.</p> 
- <img alt="Filling the credit card application on mobile device" src="assets/form-on-mobile.png" title="Filling the credit card application on mobile device" /> 
+ <img src="assets/form-on-mobile.png"/> 
 </div>
 
 <div class="details"> 
@@ -117,14 +117,6 @@ Sarah clicks **[!UICONTROL Send mail]**. She receives an email with a link to re
  <p><code>https://&amp;lt;host&amp;gt;:&amp;lt;AuthorPort&amp;gt;/editor.html/content/dam/formsanddocuments-themes/we-Finance/we-Finance-Theme-A/jcr:content</code></p> 
  <p>You can review the We.Finance Template at:</p> 
  <p><code>https://&amp;lt;host&amp;gt;:&amp;lt;AuthorPort&amp;gt;/editor.html/conf/we-finance/settings/wcm/templates/we-finance-template/structure.html</code></p> 
-</div>
-
-<div class="details"> 
- <h3 class="summary">Item Title</h3> 
-</div>
-
-<div class="details"> 
- <h3 class="summary">Item Title</h3> 
 </div>
 
 ### Sarah resumes and submits the application {#sarah-resumes-and-submits-the-application}
@@ -251,7 +243,7 @@ For more information about how to interpret the analytics dashboard, see [Viewin
 
 The performance metrics for the credit card application form are tracked using Adobe Analytics. For more information about configuring Adobe Analytics and viewing reports, see [Configuring analytics for forms and documents](/help/forms/using/configure-analytics-forms-documents.md).
 
-#### See it yourself <br> {#see-it-yourself-br}
+#### See it yourself {#see-it-yourself-br}
 
 For you to view and explore the analytics report, we are providing seed data for the credit card application in the reference site. Before you use seed data, see [Configure Analytics](/help/forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
 
@@ -503,7 +495,7 @@ For more information about how to interpret the analytics dashboard, see [Viewin
 
 The performance metrics for the mortgage application form are tracked using Adobe Analytics. For more information about configuring Adobe Analytics and viewing reports, see [Configuring analytics for forms and documents](/help/forms/using/configure-analytics-forms-documents.md).
 
-#### See it yourself <br> {#see-it-yourself-br-1}
+#### See it yourself {#see-it-yourself-br-1}
 
 For you to view and explore the analytics report, we are providing seed data for the mortgage application in the reference site. Before you use seed data, see [Configure Analytics](/help/forms/using/setup-reference-sites.md#configureanalytics). Perform the following steps in author instance to view the report with the seed data:
 

@@ -268,7 +268,7 @@ Styling custom layouts from the Theme Editor involves:
 * Defining the CSS properties that can be applied on these components
 * Define the styling for these components interactively from the user interface
 
-### Different styles for different screen sizes <br> {#different-styles-for-different-screen-sizes-br}
+### Different styles for different screen sizes {#different-styles-for-different-screen-sizes-br}
 
 Desktop and mobile layouts can have slightly or entirely different styles. For mobile devices, tablet and phone share similar layouts except for component sizes.
 
@@ -558,7 +558,7 @@ The example below shows masked and unmasked styles in a theme.
 
 ![Masked and unmasked stylings](assets/mask2.png) 
 
-## Applying a theme to a form <br> {#applying-a-theme-to-a-form-br}
+## Applying a theme to a form {#applying-a-theme-to-a-form-br}
 
 To apply a theme to an adaptive form:
 

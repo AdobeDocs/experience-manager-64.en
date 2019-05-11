@@ -22,7 +22,7 @@ Adobe Experience Manager Forms can use credentials stored on an HSM or etoken to
 1. Create an alias for the HSM or etoken device in AEM Web Console.
 1. Use the DocAssurance Service APIs to sign or certify the documents with digital keys stored on the device.
 
-## Before you configure the HSM or etoken devices with AEM Forms <br> {#configurehsmetoken}
+## Before you configure the HSM or etoken devices with AEM Forms {#configurehsmetoken}
 
 * Install [AEM Forms add-on](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) package.
 * Install and configure HSM or etoken client software on the same computer as AEM server. The client software is required to communicate with the HSM and etoken devices.
@@ -89,7 +89,7 @@ Perform the following steps to setup certificates:
 >
 >On moving to production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential.
 
-## Create an alias for the device <br> {#configuredeviceinaemconsole}
+## Create an alias for the device {#configuredeviceinaemconsole}
 
 The alias contains all the parameters that an HSM or etoken requires. Perform the instructions listed below to create an alias for each HSM or etoken credential that eSign or Digital Signatures uses :
 

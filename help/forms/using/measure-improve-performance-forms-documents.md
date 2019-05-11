@@ -12,7 +12,7 @@ discoiquuid: 6b62b280-d101-410a-ba8c-02940f766c32
 
 # Measure and improve effectiveness and conversion of forms{#measure-and-improve-effectiveness-and-conversion-of-forms}
 
-## The challenge <br> {#the-challenge-br}
+## The challenge {#the-challenge-br}
 
 Organizations are increasingly empowering and encouraging their customers to transact using digital self-services across multiple channels. However, in absence of one-to-one feedback mechanism, it becomes challenging to measure success and experiment with digital forms to enhance customer experience and increase conversions.
 
@@ -50,7 +50,7 @@ Let's get down to the details of how you can measure the performance and improve
 
 ### Workflow steps {#workflow-steps}
 
-#### Step 1: Configure Analytics and Target in AEM Forms <br> {#step-configure-analytics-and-target-in-aem-forms-br}
+#### Step 1: Configure Analytics and Target in AEM Forms {#step-configure-analytics-and-target-in-aem-forms-br}
 
 **Configure Analytics**
 
@@ -68,7 +68,7 @@ For detailed steps, see [Configuring analytics and reports for adaptive forms](/
 
 To create and run A/B tests for your adaptive forms, configure Target in AEM Forms as described in [Set up and integrate Target in AEM Forms](/help/forms/using/ab-testing-adaptive-forms.md#p-set-up-and-integrate-target-in-aem-forms-p).
 
-#### Step 2: View analytics report <br> {#step-view-analytics-report-br}
+#### Step 2: View analytics report {#step-view-analytics-report-br}
 
 As your customers access and interact with forms on which you have enabled Analytics, their interactions are captured in highly secured Analytics databases. The databases are segmented by clients and accessible via secure connections.
 

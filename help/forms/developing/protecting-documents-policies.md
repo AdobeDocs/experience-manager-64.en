@@ -1294,71 +1294,71 @@ The following table lists key and value pairs that are required when creating a 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e49370" valign="top" width="NaN%"><p>Key Name</p></th> 
-   <th class="cellrowborder" id="d19e49373" valign="top" width="NaN%"><p>Description</p></th> 
-   <th class="cellrowborder" id="d19e49376" valign="top" width="NaN%"><p>Value</p></th> 
+   <th><p>Key Name</p></th> 
+   <th><p>Description</p></th> 
+   <th><p>Value</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:IS_USERNAME_ENABLED</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies if the user name of the user opening the document is part of the watermark.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_USERNAME_ENABLED</code></p></td> 
+   <td><p>Specifies if the user name of the user opening the document is part of the watermark.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:IS_USERID_ENABLED</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies if the identification of the user opening the document is part of the watermark.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_USERID_ENABLED</code></p></td> 
+   <td><p>Specifies if the identification of the user opening the document is part of the watermark.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:IS_CURRENTDATE_ENABLED</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies if the current date is part of the watermark.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_CURRENTDATE_ENABLED</code></p></td> 
+   <td><p>Specifies if the current date is part of the watermark.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:IS_CUSTOMTEXT_ENABLED</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>If this value is true, then the value of the custom text must be specified using <code>WaterBackCmd:SRCTEXT</code>.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_CUSTOMTEXT_ENABLED</code></p></td> 
+   <td><p>If this value is true, then the value of the custom text must be specified using <code>WaterBackCmd:SRCTEXT</code>.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:OPACITY</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the opacity of the watermark. The default value is 0.5 if it is not specified.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>A value between 0.0 and 1.0.</p></td> 
+   <td><p><code>WaterBackCmd:OPACITY</code></p></td> 
+   <td><p>Specifies the opacity of the watermark. The default value is 0.5 if it is not specified.</p></td> 
+   <td><p>A value between 0.0 and 1.0.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:ROTATION</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the rotation of the watermark. The default value is 0 degrees.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>A value between 0 and 359.</p></td> 
+   <td><p><code>WaterBackCmd:ROTATION</code></p></td> 
+   <td><p>Specifies the rotation of the watermark. The default value is 0 degrees.</p></td> 
+   <td><p>A value between 0 and 359.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:SCALE</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>If this value is specified, then <code>WaterBackCmd:IS_SIZE_ENABLED</code> must be present and the value must be true. If this attribute is not specified, the default behavior is fit to page.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>A value greater than 0.0 and less than or equal to 1.0.</p></td> 
+   <td><p><code>WaterBackCmd:SCALE</code></p></td> 
+   <td><p>If this value is specified, then <code>WaterBackCmd:IS_SIZE_ENABLED</code> must be present and the value must be true. If this attribute is not specified, the default behavior is fit to page.</p></td> 
+   <td><p>A value greater than 0.0 and less than or equal to 1.0.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:HORIZ_ALIGN</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the watermark’s horizontal alignment. The default value is center.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>left, center, or right</p></td> 
+   <td><p><code>WaterBackCmd:HORIZ_ALIGN</code></p></td> 
+   <td><p>Specifies the watermark’s horizontal alignment. The default value is center.</p></td> 
+   <td><p>left, center, or right</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:VERT_ALIGN</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the watermark’s vertical alignment. The default value is center.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>top, center, or bottom</p></td> 
+   <td><p><code>WaterBackCmd:VERT_ALIGN</code></p></td> 
+   <td><p>Specifies the watermark’s vertical alignment. The default value is center.</p></td> 
+   <td><p>top, center, or bottom</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:IS_USE_BACKGROUND</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies if the watermark is a background. The default value is false.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_USE_BACKGROUND</code></p></td> 
+   <td><p>Specifies if the watermark is a background. The default value is false.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:IS_SIZE_ENABLED</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>True if a custom scale is specified. If this value is true, SCALE must also be specified. If this value is false, then the default is fit to page.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:IS_SIZE_ENABLED</code></p></td> 
+   <td><p>True if a custom scale is specified. If this value is true, SCALE must also be specified. If this value is false, then the default is fit to page.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e49370 " valign="top" width="NaN%"><p><code>WaterBackCmd:SRCTEXT</code></p></td> 
-   <td class="cellrowborder" headers="d19e49373 " valign="top" width="NaN%"><p>Specifies the custom text for a watermark. If this value is present, then <code>WaterBackCmd:IS_CUSTOMTEXT_ENABLED</code> must also be present and set to true.</p></td> 
-   <td class="cellrowborder" headers="d19e49376 " valign="top" width="NaN%"><p>True or False</p></td> 
+   <td><p><code>WaterBackCmd:SRCTEXT</code></p></td> 
+   <td><p>Specifies the custom text for a watermark. If this value is present, then <code>WaterBackCmd:IS_CUSTOMTEXT_ENABLED</code> must also be present and set to true.</p></td> 
+   <td><p>True or False</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1729,198 +1729,198 @@ Search for events by using the Rights Management API (web service):
     <table> 
     <thead align="left"> 
     <tr> 
-    <th class="cellrowborder" id="d19e50725" valign="top" width="NaN%"><p>Event type</p></th> 
-    <th class="cellrowborder" id="d19e50728" valign="top" width="NaN%"><p>Value</p></th> 
+    <th><p>Event type</p></th> 
+    <th><p>Value</p></th> 
     </tr> 
     </thead> 
     <tbody> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>ALL_EVENTS</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>999</p></td> 
+    <td><p><code>ALL_EVENTS</code></p></td> 
+    <td><p>999</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_CHANGE_PASSWORD_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1000</p></td> 
+    <td><p><code>USER_CHANGE_PASSWORD_EVENT</code></p></td> 
+    <td><p>1000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_REGISTER_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1001</p></td> 
+    <td><p><code>USER_REGISTER_EVENT</code></p></td> 
+    <td><p>1001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_PREREGISTER_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1002</p></td> 
+    <td><p><code>USER_PREREGISTER_EVENT</code></p></td> 
+    <td><p>1002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_ACTIVATE_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1003</p></td> 
+    <td><p><code>USER_ACTIVATE_EVENT</code></p></td> 
+    <td><p>1003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_DEACTIVATE_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1004</p></td> 
+    <td><p><code>USER_DEACTIVATE_EVENT</code></p></td> 
+    <td><p>1004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_AUTHENTICATE_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1005</p></td> 
+    <td><p><code>USER_AUTHENTICATE_EVENT</code></p></td> 
+    <td><p>1005</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_AUTHENTICATE_DENY_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1006</p></td> 
+    <td><p><code>USER_AUTHENTICATE_DENY_EVENT </code></p></td> 
+    <td><p>1006</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_ACCOUNT_LOCK_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1007</p></td> 
+    <td><p><code>USER_ACCOUNT_LOCK_EVENT</code></p></td> 
+    <td><p>1007</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_DELETE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1008</p></td> 
+    <td><p><code>USER_DELETE_EVENT </code></p></td> 
+    <td><p>1008</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>USER_UPDATE_PROFILE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>1009</p></td> 
+    <td><p><code>USER_UPDATE_PROFILE_EVENT </code></p></td> 
+    <td><p>1009</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_VIEW_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2000</p></td> 
+    <td><p><code>DOCUMENT_VIEW_EVENT </code></p></td> 
+    <td><p>2000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_PRINT_LOW_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2001</p></td> 
+    <td><p><code>DOCUMENT_PRINT_LOW_EVENT </code></p></td> 
+    <td><p>2001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_PRINT_HIGH_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2002</p></td> 
+    <td><p><code>DOCUMENT_PRINT_HIGH_EVENT </code></p></td> 
+    <td><p>2002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_SIGN_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2003</p></td> 
+    <td><p><code>DOCUMENT_SIGN_EVENT </code></p></td> 
+    <td><p>2003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_ADD_ANNOTATION_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2004</p></td> 
+    <td><p><code>DOCUMENT_ADD_ANNOTATION_EVENT </code></p></td> 
+    <td><p>2004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_FORM_FILL_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2005</p></td> 
+    <td><p><code>DOCUMENT_FORM_FILL_EVENT </code></p></td> 
+    <td><p>2005</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_CLOSE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2006</p></td> 
+    <td><p><code>DOCUMENT_CLOSE_EVENT </code></p></td> 
+    <td><p>2006</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_MODIFY_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2007</p></td> 
+    <td><p><code>DOCUMENT_MODIFY_EVENT </code></p></td> 
+    <td><p>2007</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_CHANGE_SECURITY_HANDLER_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2008</p></td> 
+    <td><p><code>DOCUMENT_CHANGE_SECURITY_HANDLER_EVENT </code></p></td> 
+    <td><p>2008</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_SWITCH_POLICY_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2009</p></td> 
+    <td><p><code>DOCUMENT_SWITCH_POLICY_EVENT </code></p></td> 
+    <td><p>2009</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_REVOKE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2010</p></td> 
+    <td><p><code>DOCUMENT_REVOKE_EVENT </code></p></td> 
+    <td><p>2010</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>$1</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2011</p></td> 
+    <td><p><code>$1</code></p></td> 
+    <td><p>2011</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_SECURE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2012</p></td> 
+    <td><p><code>DOCUMENT_SECURE_EVENT </code></p></td> 
+    <td><p>2012</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_UNKNOWN_CLIENT_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2013</p></td> 
+    <td><p><code>DOCUMENT_UNKNOWN_CLIENT_EVENT </code></p></td> 
+    <td><p>2013</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DOCUMENT_CHANGE_REVOKE_URL_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>2014</p></td> 
+    <td><p><code>DOCUMENT_CHANGE_REVOKE_URL_EVENT </code></p></td> 
+    <td><p>2014</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>POLICY_CHANGE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3000</p></td> 
+    <td><p><code>POLICY_CHANGE_EVENT </code></p></td> 
+    <td><p>3000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>POLICY_ENABLE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3001</p></td> 
+    <td><p><code>POLICY_ENABLE_EVENT </code></p></td> 
+    <td><p>3001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>POLICY_DISABLE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3002</p></td> 
+    <td><p><code>POLICY_DISABLE_EVENT </code></p></td> 
+    <td><p>3002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>POLICY_CREATE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3003</p></td> 
+    <td><p><code>POLICY_CREATE_EVENT </code></p></td> 
+    <td><p>3003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>POLICY_DELETE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3004</p></td> 
+    <td><p><code>POLICY_DELETE_EVENT </code></p></td> 
+    <td><p>3004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>POLICY_CHANGE_OWNER_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>3005</p></td> 
+    <td><p><code>POLICY_CHANGE_OWNER_EVENT </code></p></td> 
+    <td><p>3005</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>SERVER_CLIENT_SYNC_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4000</p></td> 
+    <td><p><code>SERVER_CLIENT_SYNC_EVENT </code></p></td> 
+    <td><p>4000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>SERVER_SYNC_DIR_INFO_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4001</p></td> 
+    <td><p><code>SERVER_SYNC_DIR_INFO_EVENT </code></p></td> 
+    <td><p>4001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>SERVER_SYNC_DIR_COMPLETE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4002</p></td> 
+    <td><p><code>SERVER_SYNC_DIR_COMPLETE_EVENT </code></p></td> 
+    <td><p>4002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>SERVER_VERSION_MISMATCH_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4003</p></td> 
+    <td><p><code>SERVER_VERSION_MISMATCH_EVENT </code></p></td> 
+    <td><p>4003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>SERVER_CONFIG_CHANGE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4004</p></td> 
+    <td><p><code>SERVER_CONFIG_CHANGE_EVENT </code></p></td> 
+    <td><p>4004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>SERVER_ENABLE_OFFLINE_ACCESS_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>4005</p></td> 
+    <td><p><code>SERVER_ENABLE_OFFLINE_ACCESS_EVENT </code></p></td> 
+    <td><p>4005</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>ADMIN_ADD_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5000</p></td> 
+    <td><p><code>ADMIN_ADD_EVENT </code></p></td> 
+    <td><p>5000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>ADMIN_DELETE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5001</p></td> 
+    <td><p><code>ADMIN_DELETE_EVENT </code></p></td> 
+    <td><p>5001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>ADMIN_EDIT_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5002</p></td> 
+    <td><p><code>ADMIN_EDIT_EVENT </code></p></td> 
+    <td><p>5002</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>ADMIN_ACTIVATE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5003</p></td> 
+    <td><p><code>ADMIN_ACTIVATE_EVENT </code></p></td> 
+    <td><p>5003</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>ADMIN_DEACTIVATE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>5004</p></td> 
+    <td><p><code>ADMIN_DEACTIVATE_EVENT </code></p></td> 
+    <td><p>5004</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>ERROR_DIRECTORY_SERVICE_EVENT </code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>6000</p></td> 
+    <td><p><code>ERROR_DIRECTORY_SERVICE_EVENT </code></p></td> 
+    <td><p>6000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>CREATED_POLICYSET_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7000</p></td> 
+    <td><p><code>CREATED_POLICYSET_EVENT</code></p></td> 
+    <td><p>7000</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>DELETED_POLICYSET_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7001</p></td> 
+    <td><p><code>DELETED_POLICYSET_EVENT</code></p></td> 
+    <td><p>7001</p></td> 
     </tr> 
     <tr> 
-    <td class="cellrowborder" headers="d19e50725 " valign="top" width="NaN%"><p><code>MODIFIED_POLICYSET_EVENT</code></p></td> 
-    <td class="cellrowborder" headers="d19e50728 " valign="top" width="NaN%"><p>7002</p></td> 
+    <td><p><code>MODIFIED_POLICYSET_EVENT</code></p></td> 
+    <td><p>7002</p></td> 
     </tr> 
     </tbody> 
     </table>

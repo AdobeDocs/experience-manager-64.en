@@ -16,7 +16,7 @@ discoiquuid: b80a2bfe-6f57-4229-a9ee-1ec87f3c3306
 
 Before you create a custom toolbar action, make yourself familiar with [Using Client Side Libraries](/help/sites-developing/clientlibs.md) and [Developing with CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md).
 
-## What is an action <br> {#what-is-an-action-br}
+## What is an action {#what-is-an-action-br}
 
 An adaptive form provides a toolbar that lets a form author configure a set of options. These options are defined as actions for the adaptive form. Click the Edit button in the Toolbar for Panel to set the actions supported by adaptive forms.
 
@@ -24,7 +24,7 @@ An adaptive form provides a toolbar that lets a form author configure a set of o
 
 Besides the set of actions provided by default, you can create custom actions in the toolbar. For example, you can add an action to enable the user to review all the adaptive form fields before a form is submitted.
 
-## Steps to create a custom action in an adaptive form <br> {#steps}
+## Steps to create a custom action in an adaptive form {#steps}
 
 To illustrate the creation of a custom toolbar action, the following steps guide you to create a button for end users to review all the adaptive form fields before submitting a filled form.
 
@@ -67,28 +67,28 @@ To illustrate the creation of a custom toolbar action, the following steps guide
                <div class="modal-body">
                    <div class="modal-list">
                        <table>
-                           <tr class="name">
-                               <td class="reviewlabel col-md-3 active">
+                           <tr>
+                               <td>
                                    <label>Your Name is: </label>
                                </td>
                            </tr>
-                           <tr class="pan">
-                               <td class="reviewlabel col-md-3 active">
+                           <tr>
+                               <td>
                                    <label>Your Pan Number is: </label>
                                </td>
                            </tr>
-                           <tr class="dob">
-                               <td class="reviewlabel col-md-3 active">
+                           <tr>
+                               <td>
                                    <label>Your Date Of Birth is: </label>
                                </td>
                            </tr>
-                           <tr class="80cdeclaration">
-                               <td class="reviewlabel col-md-3 active">
+                           <tr>
+                               <td>
                                    <label>Your Total 80C Declaration Amount is: </label>
                                </td>
                            </tr>
-                           <tr class="rentpaid">
-                               <td class="reviewlabel col-md-3 active">
+                           <tr>
+                               <td>
                                    <label>Your Total HRA Amount is: </label>
                                </td>
                            </tr>

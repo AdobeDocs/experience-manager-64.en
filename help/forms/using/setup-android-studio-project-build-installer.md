@@ -36,7 +36,7 @@ The following image displays the directory structure of the `android`folder in t
 
 ![Directory structure of the android folder in src](assets/android-folder.png) 
 
-## Build standard AEM Forms app <br> {#set-up-the-xcode-project}
+## Build standard AEM Forms app {#set-up-the-xcode-project}
 
 1. Perform the following steps to set up a project in Android™ Studio and provide a signing identity:
 

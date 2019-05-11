@@ -12,8 +12,7 @@ discoiquuid: 55c08940-8c25-4938-8e49-25bce20aaf22
 
  ![](assets/02-create-adaptive-form-main-image.png)
 
-| This tutorial is a step in the [Create Your First Adaptive Form](/help/forms/using/create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case. |
-|---|
+This tutorial is a step in the [Create Your First Adaptive Form](/help/forms/using/create-your-first-adaptive-form.md) series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.
 
 ## About the tutorial {#about-the-tutorial}
 
@@ -30,11 +29,7 @@ It is easier to create and manage forms when a proper process is followed. In th
 
 You will have a form similar to the following by end of article:  
 
-[ ![](do-not-localize/form-preview-mobile.gif)
-
-The adaptive form in action.
-
-](assets/form-preview-mobile.gif) 
+[ ![](do-not-localize/form-preview-mobile.gif)](assets/form-preview-mobile.gif) 
 
 ## Step 1: Create the adaptive form {#step-create-the-adaptive-form}
 
@@ -170,34 +165,13 @@ Using the following steps, you can configure email submit action and demo submit
 1. Tap **Form Container** in the Content browser and tap ![](assets/cmppr.png). The properties browser opens on the left. 
 1. Go to **Submission **&gt; **Submit Action**. Select **Send Email**. Specify the following values and tap ![](assets/aem_6_3_forms_save.png).
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>Property</td> 
-   <td>Value</td> 
-  </tr> 
-  <tr> 
-   <td>From</td> 
-   <td>donotreply@weretail.com</td> 
-  </tr> 
-  <tr> 
-   <td>To</td> 
-   <td>${customer_Email}<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>Subject</td> 
-   <td>Acknowledgement: You have added shipping address on We.Retail website.</td> 
-  </tr> 
-  <tr> 
-   <td>Email Template</td> 
-   <td><p>Hi ${customer_Name},</p> <p>The following address is added as the shipping address for your account:<br /> ${customer_Name},<br /> ${customer_Shipping_Address},<br /> ${customer_State},<br /> ${customer_ZIPCode}</p> <p>Regards,<br /> We.Retail</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Include attachments</td> 
-   <td>Enabled</td> 
-  </tr> 
- </tbody> 
-</table>
+   |Property|Value|
+   |--- |--- |
+   |From|`donotreply@weretail.com`|
+   |To|`${customer_Email}`|
+   |Subject|Acknowledgement: You have added shipping address on We.Retail website.|
+   |Email Template|Hi `${customer_Name}`, The following address is added as the shipping address for your account: <br>`${customer_Name}`, `${customer_Shipping_Address}`, `${customer_State}`, `${customer_ZIPCode}`<br> Regards, We.Retail|
+   |Include attachments|Enabled|
 
    Your form is ready. Now, you can preview the form and test the functionality. If you have used the name mentioned the tutorial and accessing the form on the machine running AEM Forms server, then the form is available at [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html).
 

@@ -115,26 +115,26 @@ The following table summarizes some of the key values and object types that can 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e105266" valign="top" width="NaN%"><p>Key value</p></th> 
-   <th class="cellrowborder" id="d19e105269" valign="top" width="NaN%"><p>Object type</p></th> 
-   <th class="cellrowborder" id="d19e105272" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Key value</p></th> 
+   <th><p>Object type</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><code><i>documentName</i></code></p></td> 
-   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><code>com.adobe.idp.Document</code></p></td> 
-   <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains the resultant documents that are specified in a DDX resultant element</p></td> 
+   <td><p><code><i>documentName</i></code></p></td> 
+   <td><p><code>com.adobe.idp.Document</code></p></td> 
+   <td><p>Contains the resultant documents that are specified in a DDX resultant element</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><code><i>documentName</i></code></p></td> 
-   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><code>Exception</code></p></td> 
-   <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains any exception for the document</p></td> 
+   <td><p><code><i>documentName</i></code></p></td> 
+   <td><p><code>Exception</code></p></td> 
+   <td><p>Contains any exception for the document</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><code>OutputMapConstants.LOG_NAME</code></p></td> 
-   <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><code>com.adobe.idp.Documen</code></p></td> 
-   <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains the job log</p></td> 
+   <td><p><code>OutputMapConstants.LOG_NAME</code></p></td> 
+   <td><p><code>com.adobe.idp.Documen</code></p></td> 
+   <td><p>Contains the job log</p></td> 
   </tr> 
  </tbody> 
 </table>

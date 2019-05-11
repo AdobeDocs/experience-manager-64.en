@@ -120,11 +120,11 @@ For the following customizations in the task table, you need to do semantic chan
        <thead>
            <tr>
                <!-- put the column headings in order here, for example-->
-               <th class="taskName"><%= $.t('history.fixedTaskTableHeader.taskName')%></th>
-               <th class="taskInstructions"><%= $.t('history.fixedTaskTableHeader.taskInstructions')%></th>
-               <th class="taskRoute"><%= $.t('history.fixedTaskTableHeader.taskRoute')%></th>
-               <th class="taskCreateTime"><%= $.t('history.fixedTaskTableHeader.taskCreateTime')%></th>
-               <th class="taskCompleteTime"><%= $.t('history.fixedTaskTableHeader.taskCompleteTime')%></th>
+               <th><%= $.t('history.fixedTaskTableHeader.taskName')%></th>
+               <th><%= $.t('history.fixedTaskTableHeader.taskInstructions')%></th>
+               <th><%= $.t('history.fixedTaskTableHeader.taskRoute')%></th>
+               <th><%= $.t('history.fixedTaskTableHeader.taskCreateTime')%></th>
+               <th><%= $.t('history.fixedTaskTableHeader.taskCompleteTime')%></th>
            </tr>
        </thead>
    </table>
@@ -134,13 +134,13 @@ For the following customizations in the task table, you need to do semantic chan
    <table>
        <tbody>
            <%_.each(obj, function(task){%>
-           <tr class="taskRow">
+           <tr>
                <!-- Put the task attributes in the order of headings, for example -->
-               <td class="taskName"><%= task.stepName %></td>
-               <td class="taskInstructions"><%= task.instructions %></td>
-               <td class="taskRoute"><%= !task.selectedRoute?'':(task.selectedRoute=='null'?'Default':task.selectedRoute) %></td>
-               <td class="taskCreateTime"><%= task.createTime?task.formattedCreateTime:'' %></td>
-               <td class="taskCompleteTime"><%= task.completeTime? task.formattedCompleteTime:'' %></td>
+               <td><%= task.stepName %></td>
+               <td><%= task.instructions %></td>
+               <td><%= !task.selectedRoute?'':(task.selectedRoute=='null'?'Default':task.selectedRoute) %></td>
+               <td><%= task.createTime?task.formattedCreateTime:'' %></td>
+               <td><%= task.completeTime? task.formattedCompleteTime:'' %></td>
            </tr>
            <%});%>
        </tbody>

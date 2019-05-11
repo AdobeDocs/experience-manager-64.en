@@ -68,119 +68,119 @@ The following table lists the JAR files that are required to invoke AEM Forms se
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e6626" valign="top" width="NaN%"><p>File</p></th> 
-   <th class="cellrowborder" id="d19e6629" valign="top" width="NaN%"><p>Description</p></th> 
-   <th class="cellrowborder" id="d19e6632" valign="top" width="NaN%"><p>Location</p></th> 
+   <th><p>File</p></th> 
+   <th><p>Description</p></th> 
+   <th><p>Location</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-livecycle-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Must always be included in a Java client application’s class path.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-livecycle-client.jar</p></td> 
+   <td><p>Must always be included in a Java client application’s class path.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-usermanager-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Must always be included in a Java client application’s class path.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-usermanager-client.jar</p></td> 
+   <td><p>Must always be included in a Java client application’s class path.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-utilities.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Must always be included in a Java client application’s class path.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk//client-libs/&lt;app server&gt;</p></td> 
+   <td><p>adobe-utilities.jar</p></td> 
+   <td><p>Must always be included in a Java client application’s class path.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk//client-libs/&lt;app server&gt;</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-applicationmanager-client-sdk.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Application Manager service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-applicationmanager-client-sdk.jar</p></td> 
+   <td><p>Required to invoke the Application Manager service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-assembler-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Assembler service. </p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-assembler-client.jar</p></td> 
+   <td><p>Required to invoke the Assembler service. </p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-backup-restore-client-sdk.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Backup and Restore service API.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-backup-restore-client-sdk.jar</p></td> 
+   <td><p>Required to invoke the Backup and Restore service API.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-barcodedforms-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the barcoded forms service. </p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-barcodedforms-client.jar</p></td> 
+   <td><p>Required to invoke the barcoded forms service. </p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-convertpdf-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Convert PDF service. </p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-convertpdf-client.jar</p></td> 
+   <td><p>Required to invoke the Convert PDF service. </p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-distiller-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Distiller service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-distiller-client.jar</p></td> 
+   <td><p>Required to invoke the Distiller service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-docconverter-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the DocConverter service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-docconverter-client.jar</p></td> 
+   <td><p>Required to invoke the DocConverter service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-contentservices-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Document Management service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-contentservices-client.jar</p></td> 
+   <td><p>Required to invoke the Document Management service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-encryption-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Encryption service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-encryption-client.jar</p></td> 
+   <td><p>Required to invoke the Encryption service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-forms-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Forms service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-forms-client.jar</p></td> 
+   <td><p>Required to invoke the Forms service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-formdataintegration-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Form Data Integration service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-formdataintegration-client.jar</p></td> 
+   <td><p>Required to invoke the Form Data Integration service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-generatepdf-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Generate PDF service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-generatepdf-client.jar</p></td> 
+   <td><p>Required to invoke the Generate PDF service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-generate3dpdf-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Generate 3D PDF service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-generate3dpdf-client.jar</p></td> 
+   <td><p>Required to invoke the Generate 3D PDF service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-jobmanager-client-sdk.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Job Manager service. </p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-jobmanager-client-sdk.jar</p></td> 
+   <td><p>Required to invoke the Job Manager service. </p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-output-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Output service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-output-client.jar</p></td> 
+   <td><p>Required to invoke the Output service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-pdfutility-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the PDF Utilities or XMP Utilities service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-pdfutility-client.jar</p></td> 
+   <td><p>Required to invoke the PDF Utilities or XMP Utilities service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-reader-extensions-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Acrobat Reader DC extensions service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-reader-extensions-client.jar</p></td> 
+   <td><p>Required to invoke the Acrobat Reader DC extensions service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-repository-client.jar</p><p>commons-codec-1.3.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Repository service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p><p>&lt;<i>install directory</i>&gt;/sdk/client-libs\thirdparty</p></td> 
+   <td><p>adobe-repository-client.jar</p><p>commons-codec-1.3.jar</p></td> 
+   <td><p>Required to invoke the Repository service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p><p>&lt;<i>install directory</i>&gt;/sdk/client-libs\thirdparty</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"> 
+   <td> 
     <ul> 
      <li><p>adobe-rightsmanagement-client.jar</p></li> 
      <li><p>namespace.jar</p></li> 
@@ -191,23 +191,23 @@ The following table lists the JAR files that are required to invoke AEM Forms se
      <li><p>relaxngDatatype.jar</p></li> 
      <li><p>xsdlib.jar</p></li> 
     </ul></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Rights Management service.</p><p>If AEM Forms is deployed on JBoss, include all these files. </p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p><p>JBoss-specific lib directory</p></td> 
+   <td><p>Required to invoke the Rights Management service.</p><p>If AEM Forms is deployed on JBoss, include all these files. </p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p><p>JBoss-specific lib directory</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-signatures-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Signature service.</p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-signatures-client.jar</p></td> 
+   <td><p>Required to invoke the Signature service.</p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-taskmanager-client-sdk.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Task Manager service. </p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-taskmanager-client-sdk.jar</p></td> 
+   <td><p>Required to invoke the Task Manager service. </p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-truststore-client.jar</p></td> 
-   <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Trust Store service. </p></td> 
-   <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+   <td><p>adobe-truststore-client.jar</p></td> 
+   <td><p>Required to invoke the Trust Store service. </p></td> 
+   <td><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,14 +219,14 @@ The following table lists the JAR files that are dependant upon the connection m
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e7012" valign="top" width="NaN%"><p>File</p> </th> 
-   <th class="cellrowborder" id="d19e7015" valign="top" width="NaN%"><p>Description</p> </th> 
-   <th class="cellrowborder" id="d19e7018" valign="top" width="NaN%"><p>Location</p> </th> 
+   <th><p>File</p> </th> 
+   <th><p>Description</p> </th> 
+   <th><p>Location</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e7012 " valign="top" width="NaN%"> 
+   <td> 
     <ul> 
      <li><p>activation.jar</p> </li> 
      <li><p>axis.jar</p> </li> 
@@ -248,31 +248,31 @@ The following table lists the JAR files that are dependant upon the connection m
      <li>xercesImpl.jar<br /> </li> 
      <li>commons-httpclient-3.1.jar</li> 
     </ul> <p> </p> </td> 
-   <td class="cellrowborder" headers="d19e7015 " valign="top" width="NaN%"><p>if AEM Forms is invoked using the SOAP mode, include these JAR files.</p> </td> 
-   <td class="cellrowborder" headers="d19e7018 " valign="top" width="NaN%"><p>&lt;<em>install directory</em>&gt;/sdk/client-libs/thirdparty</p> </td> 
+   <td><p>if AEM Forms is invoked using the SOAP mode, include these JAR files.</p> </td> 
+   <td><p>&lt;<em>install directory</em>&gt;/sdk/client-libs/thirdparty</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e7012 " valign="top" width="NaN%"><p> jboss-client.jar</p> </td> 
-   <td class="cellrowborder" headers="d19e7015 " valign="top" width="NaN%"><p>if AEM Forms is deployed on JBoss Application Server, include this JAR file.</p> <p>Required classes will not be found by the classloader if jboss-client.jar and the referenced jars are not co-located.</p> </td> 
-   <td class="cellrowborder" headers="d19e7018 " valign="top" width="NaN%"><p>JBoss client lib directory</p> <p>If you deploy your client application on the same J2EE application server, you do not need to include this file.</p> </td> 
+   <td><p> jboss-client.jar</p> </td> 
+   <td><p>if AEM Forms is deployed on JBoss Application Server, include this JAR file.</p> <p>Required classes will not be found by the classloader if jboss-client.jar and the referenced jars are not co-located.</p> </td> 
+   <td><p>JBoss client lib directory</p> <p>If you deploy your client application on the same J2EE application server, you do not need to include this file.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e7012 " valign="top" width="NaN%"><p>wlclient.jar</p> </td> 
-   <td class="cellrowborder" headers="d19e7015 " valign="top" width="NaN%"><p>if AEM Forms is deployed on BEA WebLogic Server®, then include this JAR file.</p> </td> 
-   <td class="cellrowborder" headers="d19e7018 " valign="top" width="NaN%"><p>WebLogic-specific lib directory</p> <p>If you deploy your client application on the same J2EE application server, you do not need to include this file.</p> </td> 
+   <td><p>wlclient.jar</p> </td> 
+   <td><p>if AEM Forms is deployed on BEA WebLogic Server®, then include this JAR file.</p> </td> 
+   <td><p>WebLogic-specific lib directory</p> <p>If you deploy your client application on the same J2EE application server, you do not need to include this file.</p> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e7012 " valign="top" width="NaN%"> 
+   <td> 
     <ul> 
      <li><p>com.ibm.ws.admin.client_6.1.0.jar</p> </li> 
      <li><p>com.ibm.ws.webservices.thinclient_6.1.0.jar</p> </li> 
     </ul> </td> 
-   <td class="cellrowborder" headers="d19e7015 " valign="top" width="NaN%"> 
+   <td> 
     <ul> 
      <li><p>if AEM Forms is deployed on WebSphere Application Server, include these JAR files.</p> </li> 
      <li><p>(com.ibm.ws.webservices.thinclient_6.1.0.jar is required for web service invocation).</p> </li> 
     </ul> </td> 
-   <td class="cellrowborder" headers="d19e7018 " valign="top" width="NaN%"><p>WebSphere-specific lib directory (<em>[WAS_HOME]</em>/runtimes)</p> <p>If you deploy your client application on the same J2EE application server, you do not have to include these files.</p> </td> 
+   <td><p>WebSphere-specific lib directory (<em>[WAS_HOME]</em>/runtimes)</p> <p>If you deploy your client application on the same J2EE application server, you do not have to include these files.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -284,18 +284,18 @@ The following table specifies invoking scenarios and lists the required JAR file
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e7174" valign="top" width="NaN%"><p>Services</p> </th> 
-   <th class="cellrowborder" id="d19e7177" valign="top" width="NaN%"><p>Invocation mode</p> </th> 
-   <th class="cellrowborder" id="d19e7180" valign="top" width="NaN%"><p>J2EE application server</p> </th> 
-   <th class="cellrowborder" id="d19e7183" valign="top" width="NaN%"><p>Required JAR files</p> </th> 
+   <th><p>Services</p> </th> 
+   <th><p>Invocation mode</p> </th> 
+   <th><p>J2EE application server</p> </th> 
+   <th><p>Required JAR files</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e7174 " valign="top" width="NaN%"><p>Forms service</p> </td> 
-   <td class="cellrowborder" headers="d19e7177 " valign="top" width="NaN%"><p>EJB</p> </td> 
-   <td class="cellrowborder" headers="d19e7180 " valign="top" width="NaN%"><p>JBoss</p> </td> 
-   <td class="cellrowborder" headers="d19e7183 " valign="top" width="NaN%"> 
+   <td><p>Forms service</p> </td> 
+   <td><p>EJB</p> </td> 
+   <td><p>JBoss</p> </td> 
+   <td> 
     <ul> 
      <li><p>adobe-livecycle-client.jar</p> </li> 
      <li><p>adobe-usermanager-client.jar</p> </li> 
@@ -309,10 +309,10 @@ The following table specifies invoking scenarios and lists the required JAR file
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e7174 " valign="top" width="NaN%"><p>Forms service</p> <p>Acrobat Reader DC extensions service</p> <p>Signature service</p> </td> 
-   <td class="cellrowborder" headers="d19e7177 " valign="top" width="NaN%"><p>EJB</p> </td> 
-   <td class="cellrowborder" headers="d19e7180 " valign="top" width="NaN%"><p>JBoss</p> </td> 
-   <td class="cellrowborder" headers="d19e7183 " valign="top" width="NaN%"> 
+   <td><p>Forms service</p> <p>Acrobat Reader DC extensions service</p> <p>Signature service</p> </td> 
+   <td><p>EJB</p> </td> 
+   <td><p>JBoss</p> </td> 
+   <td> 
     <ul> 
      <li><p>adobe-livecycle-client.jar</p> </li> 
      <li><p>adobe-usermanager-client.jar</p> </li> 
@@ -328,10 +328,10 @@ The following table specifies invoking scenarios and lists the required JAR file
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e7174 " valign="top" width="NaN%"><p>Forms service</p> </td> 
-   <td class="cellrowborder" headers="d19e7177 " valign="top" width="NaN%"><p>SOAP</p> </td> 
-   <td class="cellrowborder" headers="d19e7180 " valign="top" width="NaN%"><p>WebLogic</p> </td> 
-   <td class="cellrowborder" headers="d19e7183 " valign="top" width="NaN%"> 
+   <td><p>Forms service</p> </td> 
+   <td><p>SOAP</p> </td> 
+   <td><p>WebLogic</p> </td> 
+   <td> 
     <ul> 
      <li><p>adobe-livecycle-client.jar</p> </li> 
      <li><p>adobe-usermanager-client.jar</p> </li> 
@@ -357,10 +357,10 @@ The following table specifies invoking scenarios and lists the required JAR file
     </ul> </td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e7174 " valign="top" width="NaN%"><p>Forms service</p> <p>Acrobat Reader DC extensions service</p> <p>Signature service</p> </td> 
-   <td class="cellrowborder" headers="d19e7177 " valign="top" width="NaN%"><p>SOAP</p> </td> 
-   <td class="cellrowborder" headers="d19e7180 " valign="top" width="NaN%"><p>WebLogic</p> </td> 
-   <td class="cellrowborder" headers="d19e7183 " valign="top" width="NaN%"> 
+   <td><p>Forms service</p> <p>Acrobat Reader DC extensions service</p> <p>Signature service</p> </td> 
+   <td><p>SOAP</p> </td> 
+   <td><p>WebLogic</p> </td> 
+   <td> 
     <ul> 
      <li><p>adobe-livecycle-client.jar</p> </li> 
      <li><p>adobe-usermanager-client.jar</p> </li> 
@@ -882,42 +882,42 @@ Determine the MIME type of a `com.adobe.idp.Document` object by invoking the `co
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e8457" valign="top" width="NaN%"><p>MIME type</p></th> 
-   <th class="cellrowborder" id="d19e8460" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>MIME type</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/pdf</code></p></td> 
-   <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>PDF document</p></td> 
+   <td><p><code>application/pdf</code></p></td> 
+   <td><p>PDF document</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/vnd.adobe.xdp+xml</code></p></td> 
-   <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>XML Data Packaging (XDP), which is used for exported XML Forms Architecture (XFA) forms</p></td> 
+   <td><p><code>application/vnd.adobe.xdp+xml</code></p></td> 
+   <td><p>XML Data Packaging (XDP), which is used for exported XML Forms Architecture (XFA) forms</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>text/xml</code></p></td> 
-   <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Bookmarks, attachments, or other XML documents</p></td> 
+   <td><p><code>text/xml</code></p></td> 
+   <td><p>Bookmarks, attachments, or other XML documents</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/vnd.fdf</code></p></td> 
-   <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Forms Data Format (FDF), which is used for exported Acrobat forms</p></td> 
+   <td><p><code>application/vnd.fdf</code></p></td> 
+   <td><p>Forms Data Format (FDF), which is used for exported Acrobat forms</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/vnd.adobe.xfdf</code></p></td> 
-   <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>XML Forms Data Format (XFDF), which is used for exported Acrobat forms</p></td> 
+   <td><p><code>application/vnd.adobe.xfdf</code></p></td> 
+   <td><p>XML Forms Data Format (XFDF), which is used for exported Acrobat forms</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/rdf+xml</code></p></td> 
-   <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Rich data format and XML</p></td> 
+   <td><p><code>application/rdf+xml</code></p></td> 
+   <td><p>Rich data format and XML</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>application/octet-stream</code></p></td> 
-   <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Generic data format</p></td> 
+   <td><p><code>application/octet-stream</code></p></td> 
+   <td><p>Generic data format</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><code>NULL</code></p></td> 
-   <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Unspecified MIME type</p></td> 
+   <td><p><code>NULL</code></p></td> 
+   <td><p>Unspecified MIME type</p></td> 
   </tr> 
  </tbody> 
 </table>
