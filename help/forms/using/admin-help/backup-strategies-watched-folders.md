@@ -40,66 +40,66 @@ The following table describes the file manipulation of five sample files (file1,
 <table>
  <thead align="left">
   <tr>
-   <th class="cellrowborder" id="d19e31195" valign="top" width="NaN%"><p>Folder</p></th> 
-   <th class="cellrowborder" id="d19e31198" valign="top" width="NaN%"><p>T1</p></th> 
-   <th class="cellrowborder" id="d19e31201" valign="top" width="NaN%"><p>T2</p></th> 
-   <th class="cellrowborder" id="d19e31204" valign="top" width="NaN%"><p>T3</p></th> 
-   <th class="cellrowborder" id="d19e31207" valign="top" width="NaN%"><p>T4</p></th> 
-   <th class="cellrowborder" id="d19e31210" valign="top" width="NaN%"><p>T5</p></th> 
-   <th class="cellrowborder" id="d19e31213" valign="top" width="NaN%"><p>T6</p></th> 
-   <th class="cellrowborder" id="d19e31216" valign="top" width="NaN%"><p>T7</p></th> 
+   <th><p>Folder</p></th> 
+   <th><p>T1</p></th> 
+   <th><p>T2</p></th> 
+   <th><p>T3</p></th> 
+   <th><p>T4</p></th> 
+   <th><p>T5</p></th> 
+   <th><p>T6</p></th> 
+   <th><p>T7</p></th> 
   </tr> 
  </thead> 
  <tbody>
   <tr>
-   <td class="cellrowborder" headers="d19e31195 " valign="top" width="NaN%"><p>Input</p></td> 
-   <td class="cellrowborder" headers="d19e31198 " valign="top" width="NaN%"><p>file1, file2, file3, file4</p></td> 
-   <td class="cellrowborder" headers="d19e31201 " valign="top" width="NaN%"><p>file2, file3, file4</p></td> 
-   <td class="cellrowborder" headers="d19e31204 " valign="top" width="NaN%"><p>file3, file4</p></td> 
-   <td class="cellrowborder" headers="d19e31207 " valign="top" width="NaN%"><p>file4</p></td> 
-   <td class="cellrowborder" headers="d19e31210 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31213 " valign="top" width="NaN%"><p>file5</p></td> 
-   <td class="cellrowborder" headers="d19e31216 " valign="top" width="NaN%"><p>empty</p></td> 
+   <td><p>Input</p></td> 
+   <td><p>file1, file2, file3, file4</p></td> 
+   <td><p>file2, file3, file4</p></td> 
+   <td><p>file3, file4</p></td> 
+   <td><p>file4</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>file5</p></td> 
+   <td><p>empty</p></td> 
   </tr> 
   <tr>
-   <td class="cellrowborder" headers="d19e31195 " valign="top" width="NaN%"><p>Stage</p></td> 
-   <td class="cellrowborder" headers="d19e31198 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31201 " valign="top" width="NaN%"><p>file1</p></td> 
-   <td class="cellrowborder" headers="d19e31204 " valign="top" width="NaN%"><p>file2</p></td> 
-   <td class="cellrowborder" headers="d19e31207 " valign="top" width="NaN%"><p>file3</p></td> 
-   <td class="cellrowborder" headers="d19e31210 " valign="top" width="NaN%"><p>file4</p></td> 
-   <td class="cellrowborder" headers="d19e31213 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31216 " valign="top" width="NaN%"><p>file5</p></td> 
+   <td><p>Stage</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>file1</p></td> 
+   <td><p>file2</p></td> 
+   <td><p>file3</p></td> 
+   <td><p>file4</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>file5</p></td> 
   </tr> 
   <tr>
-   <td class="cellrowborder" headers="d19e31195 " valign="top" width="NaN%"><p>Output</p></td> 
-   <td class="cellrowborder" headers="d19e31198 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31201 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31204 " valign="top" width="NaN%"><p>file1_out</p></td> 
-   <td class="cellrowborder" headers="d19e31207 " valign="top" width="NaN%"><p>file1_out, file2_out</p></td> 
-   <td class="cellrowborder" headers="d19e31210 " valign="top" width="NaN%"><p>file1_out, file2_out</p></td> 
-   <td class="cellrowborder" headers="d19e31213 " valign="top" width="NaN%"><p>file1_out, file2_out, file4_out</p></td> 
-   <td class="cellrowborder" headers="d19e31216 " valign="top" width="NaN%"><p>file1_out, file2_out, file4_out</p></td> 
+   <td><p>Output</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>file1_out</p></td> 
+   <td><p>file1_out, file2_out</p></td> 
+   <td><p>file1_out, file2_out</p></td> 
+   <td><p>file1_out, file2_out, file4_out</p></td> 
+   <td><p>file1_out, file2_out, file4_out</p></td> 
   </tr> 
   <tr>
-   <td class="cellrowborder" headers="d19e31195 " valign="top" width="NaN%"><p>Failure</p></td> 
-   <td class="cellrowborder" headers="d19e31198 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31201 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31204 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31207 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31210 " valign="top" width="NaN%"><p>file3_fail, file3 </p></td> 
-   <td class="cellrowborder" headers="d19e31213 " valign="top" width="NaN%"><p>file3_fail, file3 </p></td> 
-   <td class="cellrowborder" headers="d19e31216 " valign="top" width="NaN%"><p>file3_fail, file3 </p></td> 
+   <td><p>Failure</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>file3_fail, file3 </p></td> 
+   <td><p>file3_fail, file3 </p></td> 
+   <td><p>file3_fail, file3 </p></td> 
   </tr> 
   <tr>
-   <td class="cellrowborder" headers="d19e31195 " valign="top" width="NaN%"><p>Preserve</p></td> 
-   <td class="cellrowborder" headers="d19e31198 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31201 " valign="top" width="NaN%"><p>empty</p></td> 
-   <td class="cellrowborder" headers="d19e31204 " valign="top" width="NaN%"><p>file1 </p></td> 
-   <td class="cellrowborder" headers="d19e31207 " valign="top" width="NaN%"><p>file1, file2 </p></td> 
-   <td class="cellrowborder" headers="d19e31210 " valign="top" width="NaN%"><p>file1, file2 </p></td> 
-   <td class="cellrowborder" headers="d19e31213 " valign="top" width="NaN%"><p>file1, file2, file4 </p></td> 
-   <td class="cellrowborder" headers="d19e31216 " valign="top" width="NaN%"><p>file1, file2, file4 </p></td> 
+   <td><p>Preserve</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>empty</p></td> 
+   <td><p>file1 </p></td> 
+   <td><p>file1, file2 </p></td> 
+   <td><p>file1, file2 </p></td> 
+   <td><p>file1, file2, file4 </p></td> 
+   <td><p>file1, file2, file4 </p></td> 
   </tr> 
  </tbody> 
 </table>

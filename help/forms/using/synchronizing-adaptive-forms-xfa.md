@@ -47,7 +47,7 @@ The package contains the following assets:
 
 1. `sample-xfa-af`: The adaptive form based on the sample-form.xdp file. This adaptive form, however, does not include any fields. In the next step, we will add content to this adaptive form.
 
-### Add content to adaptive form <br> {#add-content-to-adaptive-form-br}
+### Add content to adaptive form {#add-content-to-adaptive-form-br}
 
 1. Navigate to https://&lt;server&gt;:&lt;port&gt;/aem/forms.html. Enter your credentials if asked.
 1. Open the sample-af-xfa for editing in author mode.

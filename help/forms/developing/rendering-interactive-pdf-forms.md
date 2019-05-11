@@ -33,30 +33,30 @@ The following table describes the steps in this diagram.
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e61770" valign="top" width="NaN%"><p>Step</p></th> 
-   <th class="cellrowborder" id="d19e61773" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Step</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>1</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <code>GetLoanForm</code> Java Servlet is invoked from an HTML page. </p></td> 
+   <td><p>1</p></td> 
+   <td><p>The <code>GetLoanForm</code> Java Servlet is invoked from an HTML page. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>2</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <code>GetLoanForm</code> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Render an interactive PDF form using the Java API</a>.)</p></td> 
+   <td><p>2</p></td> 
+   <td><p>The <code>GetLoanForm</code> Java Servlet uses the Forms service Client API to render the loan form to the client web browser. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Render an interactive PDF form using the Java API</a>.)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>3</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>After the user fills the loan form and clicks the submit button, data is submitted to the <code>HandleData</code> Java Servlet. (See <i>“Loan form”</i>.)</p></td> 
+   <td><p>3</p></td> 
+   <td><p>After the user fills the loan form and clicks the submit button, data is submitted to the <code>HandleData</code> Java Servlet. (See <i>“Loan form”</i>.)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>4</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>The <code>HandleData</code> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Handling Submitted Forms</a>.)</p></td> 
+   <td><p>4</p></td> 
+   <td><p>The <code>HandleData</code> Java Servlet uses the Forms service Client API to process the form submission and retrieve form data. The data is then stored in an enterprise database. (See <a href="/help/forms/developing/rendering-interactive-pdf-forms.md">Handling Submitted Forms</a>.)</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e61770 " valign="top" width="NaN%"><p>5</p></td> 
-   <td class="cellrowborder" headers="d19e61773 " valign="top" width="NaN%"><p>A confirmation form is rendered back to the web browser. Data such as the user’s first and last name is merged with the form before it is rendered. (See <a href="/help/forms/developing/prepopulating-forms-flowable-layouts.md">Prepopulating Forms with Flowable Layouts</a>.)</p></td> 
+   <td><p>5</p></td> 
+   <td><p>A confirmation form is rendered back to the web browser. Data such as the user’s first and last name is merged with the form before it is rendered. (See <a href="/help/forms/developing/prepopulating-forms-flowable-layouts.md">Prepopulating Forms with Flowable Layouts</a>.)</p></td> 
   </tr> 
  </tbody> 
 </table>

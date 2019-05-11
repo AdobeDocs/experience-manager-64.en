@@ -45,96 +45,96 @@ The following table lists the certificate profiles that you may encounter when a
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e12660" valign="top" width="NaN%"><p>Profile code</p></th> 
-   <th class="cellrowborder" id="d19e12663" valign="top" width="NaN%"><p>Type</p></th> 
-   <th class="cellrowborder" id="d19e12666" valign="top" width="NaN%"><p>Validity period</p></th> 
-   <th class="cellrowborder" id="d19e12669" valign="top" width="NaN%"><p>Deployment type</p></th> 
+   <th><p>Profile code</p></th> 
+   <th><p>Type</p></th> 
+   <th><p>Validity period</p></th> 
+   <th><p>Deployment type</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P1</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>SAP Production</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+   <td><p>P1</p></td> 
+   <td><p>SAP Production</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P2</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>SAP Internal Test</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>2 years</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Evaluation and test</p></td> 
+   <td><p>P2</p></td> 
+   <td><p>SAP Internal Test</p></td> 
+   <td><p>2 years</p></td> 
+   <td><p>Evaluation and test</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P3</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions, Production</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+   <td><p>P3</p></td> 
+   <td><p>Acrobat Reader DC extensions, Production</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P4</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions, Internal Adobe Use</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>2 years</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+   <td><p>P4</p></td> 
+   <td><p>Acrobat Reader DC extensions, Internal Adobe Use</p></td> 
+   <td><p>2 years</p></td> 
+   <td><p>Production</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P5</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions, Partner Integration</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>2 years</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Evaluation and test</p></td> 
+   <td><p>P5</p></td> 
+   <td><p>Acrobat Reader DC extensions, Partner Integration</p></td> 
+   <td><p>2 years</p></td> 
+   <td><p>Evaluation and test</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P6</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions, Evaluation</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>60 days</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Evaluation</p></td> 
+   <td><p>P6</p></td> 
+   <td><p>Acrobat Reader DC extensions, Evaluation</p></td> 
+   <td><p>60 days</p></td> 
+   <td><p>Evaluation</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P8</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Forms, Production</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+   <td><p>P8</p></td> 
+   <td><p>Forms, Production</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P9</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Adobe Acrobat 7.x, Production</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+   <td><p>P9</p></td> 
+   <td><p>Adobe Acrobat 7.x, Production</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I10</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Forms; may be used by OEMs</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+   <td><p>I10</p></td> 
+   <td><p>Forms; may be used by OEMs</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production and evaluation</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I11</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Forms; may be used by OEMs</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+   <td><p>I11</p></td> 
+   <td><p>Forms; may be used by OEMs</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production and evaluation</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I12</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Signature only; may be used by OEMs</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+   <td><p>I12</p></td> 
+   <td><p>Signature only; may be used by OEMs</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production and evaluation</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I13</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Offline Commenting only; may be used by OEMs</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+   <td><p>I13</p></td> 
+   <td><p>Offline Commenting only; may be used by OEMs</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production and evaluation</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I14</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Commenting only; may be used by OEMs</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+   <td><p>I14</p></td> 
+   <td><p>Commenting only; may be used by OEMs</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production and evaluation</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I15</p></td> 
-   <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Full permissions; may be used by OEMs</p></td> 
-   <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
-   <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+   <td><p>I15</p></td> 
+   <td><p>Full permissions; may be used by OEMs</p></td> 
+   <td><p>Max</p></td> 
+   <td><p>Production and evaluation</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,58 +160,58 @@ The permitted Acrobat Reader DC extensions usage rights consist of one or more s
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e12897" valign="top" width="NaN%"><p>Usage rights element</p></th> 
-   <th class="cellrowborder" id="d19e12900" valign="top" width="NaN%"><p>Capability enabled in Adobe Reader when viewing a rights-enabled PDF document</p></th> 
+   <th><p>Usage rights element</p></th> 
+   <th><p>Capability enabled in Adobe Reader when viewing a rights-enabled PDF document</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>FormFillInAndSave</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Fill in form fields and save files locally.</p></td> 
+   <td><p>FormFillInAndSave</p></td> 
+   <td><p>Fill in form fields and save files locally.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>FormImportExport</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Import and export form data as FDF, XFDF, XML, and XDP files.</p></td> 
+   <td><p>FormImportExport</p></td> 
+   <td><p>Import and export form data as FDF, XFDF, XML, and XDP files.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>FormAddDelete</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Add, change, or delete fields and field properties on the PDF form.</p></td> 
+   <td><p>FormAddDelete</p></td> 
+   <td><p>Add, change, or delete fields and field properties on the PDF form.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>SubmitStandalone</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Submit data, by email or offline, to a server when it is not running in a browser session.</p></td> 
+   <td><p>SubmitStandalone</p></td> 
+   <td><p>Submit data, by email or offline, to a server when it is not running in a browser session.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>SpawnTemplate</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Create pages from template pages within the same PDF form.</p></td> 
+   <td><p>SpawnTemplate</p></td> 
+   <td><p>Create pages from template pages within the same PDF form.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>Signing</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Digitally sign and save PDF documents, and clear digital signatures.</p></td> 
+   <td><p>Signing</p></td> 
+   <td><p>Digitally sign and save PDF documents, and clear digital signatures.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>AnnotModify</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Create and modify document annotations such as comments.</p></td> 
+   <td><p>AnnotModify</p></td> 
+   <td><p>Create and modify document annotations such as comments.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>AnnotImportExport</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Save annotations such as comments in a separate data file and load comments from a file.</p></td> 
+   <td><p>AnnotImportExport</p></td> 
+   <td><p>Save annotations such as comments in a separate data file and load comments from a file.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>BarcodePlaintext</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Print a document with form data barcoded in an unencrypted form that does not require licensed server software to decode.</p></td> 
+   <td><p>BarcodePlaintext</p></td> 
+   <td><p>Print a document with form data barcoded in an unencrypted form that does not require licensed server software to decode.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>AnnotOnline</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Upload and download annotations such as comments to and from an online document review and comment server.</p></td> 
+   <td><p>AnnotOnline</p></td> 
+   <td><p>Upload and download annotations such as comments to and from an online document review and comment server.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>FormOnline</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Connect to web services or databases that are defined within a PDF form.</p></td> 
+   <td><p>FormOnline</p></td> 
+   <td><p>Connect to web services or databases that are defined within a PDF form.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>EFModif</p></td> 
-   <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Modify embedded file objects associated with the PDF document.</p></td> 
+   <td><p>EFModif</p></td> 
+   <td><p>Modify embedded file objects associated with the PDF document.</p></td> 
   </tr> 
  </tbody> 
 </table>

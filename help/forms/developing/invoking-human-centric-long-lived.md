@@ -518,34 +518,34 @@ The following table lists the controls that are part of this ASP.NET application
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e14504" valign="top" width="NaN%"><p>Control name</p></th> 
-   <th class="cellrowborder" id="d19e14507" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Control name</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>TextBoxName</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>Specifies the customer’s first and last name. </p></td> 
+   <td><p>TextBoxName</p></td> 
+   <td><p>Specifies the customer’s first and last name. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>TextBoxPhone</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>Specifies the customer’s phone or email address. </p></td> 
+   <td><p>TextBoxPhone</p></td> 
+   <td><p>Specifies the customer’s phone or email address. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>TextBoxAmount</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>Specifies the loan amount.</p></td> 
+   <td><p>TextBoxAmount</p></td> 
+   <td><p>Specifies the loan amount.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>Button1</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>Represents the Submit Application button.</p></td> 
+   <td><p>Button1</p></td> 
+   <td><p>Represents the Submit Application button.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>LabelJobID</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>A Label control that specifies the value of the invocation identifier value.</p></td> 
+   <td><p>LabelJobID</p></td> 
+   <td><p>A Label control that specifies the value of the invocation identifier value.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e14504 " valign="top" width="NaN%"><p>LabelStatus</p></td> 
-   <td class="cellrowborder" headers="d19e14507 " valign="top" width="NaN%"><p>A Label control that specifies the value of the job status. This value is retrieved by invoking the Job Manager service. </p></td> 
+   <td><p>LabelStatus</p></td> 
+   <td><p>A Label control that specifies the value of the job status. This value is retrieved by invoking the Job Manager service. </p></td> 
   </tr> 
  </tbody> 
 </table>

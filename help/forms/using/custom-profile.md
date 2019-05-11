@@ -14,7 +14,7 @@ discoiquuid: 9cd22244-9aa6-4b5f-96cf-c9cb3d6f9c8a
 
 A profile is a resource node in [Apache Sling](https://sling.apache.org/). It represents custom version of HTML5 forms rendition service. You can use the HTML5 forms Rendition service to customize appearance, behavior, and interactions of the HTML5 forms. A profile node exists in the `/content` folder in the JCR repository. You can place the node directly under the `/content` folder or any subfolder of the `/content` folder.
 
-The profile node has the **sling:resourceSuperType **property and the default value is **xfaforms/profile**. The render script for the node is at /libs/xfaforms/profile.
+The profile node has the **sling:resourceSuperType** property and the default value is **xfaforms/profile**. The render script for the node is at /libs/xfaforms/profile.
 
 The Sling scripts are JSP scripts. These JSP scripts serve as containers for putting together the HTML for requested form and the required JS / CSS artifacts. These Sling scripts are also referred as **Profile Renderer scripts. **The profile renderer calls the Forms OSGi service to render the requested form.
 
@@ -22,7 +22,7 @@ The profile script is in html.jsp and html.POST.jsp for GET and POST requests. Y
 
 A profile contains various modules. The modules are formRuntime.jsp, config.jsp, toolbar.jsp, formBody.jsp, nav_footer.jsp, and footer.jsp.
 
-## formRuntime.jsp <br> {#formruntime-jsp-br}
+## formRuntime.jsp {#formruntime-jsp-br}
 
 The formRuntime.jsp modules contains references of the client libraries. It also depicts methods to extract locale information from the request and include the localized messages in the request. You can include own custom javascript libs or styles in the formRuntime.jsp.
 

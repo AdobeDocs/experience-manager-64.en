@@ -1416,74 +1416,74 @@ To retrieve a document to print, you use the `generatePrintedOutput` method. The
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e30883" valign="top" width="NaN%"><p>Print format </p></th> 
-   <th class="cellrowborder" id="d19e30886" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Print format </p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>DPL </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a dpl203.xdc by default or custom xdc output stream.</p></td> 
+   <td><p>DPL </p></td> 
+   <td><p>Creates a dpl203.xdc by default or custom xdc output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>DPL300DPI </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a DPL 300 DPI output stream.</p></td> 
+   <td><p>DPL300DPI </p></td> 
+   <td><p>Creates a DPL 300 DPI output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>DPL406DPI </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a DPL 400 DPI output stream.</p></td> 
+   <td><p>DPL406DPI </p></td> 
+   <td><p>Creates a DPL 400 DPI output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>DPL600DPI </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a DPL 600 DPI output stream.</p></td> 
+   <td><p>DPL600DPI </p></td> 
+   <td><p>Creates a DPL 600 DPI output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>GenericColorPCL </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a Generic Color PCL (5c) output stream.</p></td> 
+   <td><p>GenericColorPCL </p></td> 
+   <td><p>Creates a Generic Color PCL (5c) output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>GenericPSLevel3 </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a Generic PostScript Level 3 output stream.</p></td> 
+   <td><p>GenericPSLevel3 </p></td> 
+   <td><p>Creates a Generic PostScript Level 3 output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>IPL </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a Custom IPL output stream.</p></td> 
+   <td><p>IPL </p></td> 
+   <td><p>Creates a Custom IPL output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>IPL300DPI </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a IPL 300 DPI output stream.</p></td> 
+   <td><p>IPL300DPI </p></td> 
+   <td><p>Creates a IPL 300 DPI output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>IPL400DPI </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a IPL 400 DPI output stream.</p></td> 
+   <td><p>IPL400DPI </p></td> 
+   <td><p>Creates a IPL 400 DPI output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>PCL </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a Generic Monochrome PCL (5e) output stream.</p></td> 
+   <td><p>PCL </p></td> 
+   <td><p>Creates a Generic Monochrome PCL (5e) output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>PostScript </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a Generic PostScript Level 2 output stream.</p></td> 
+   <td><p>PostScript </p></td> 
+   <td><p>Creates a Generic PostScript Level 2 output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>TPCL </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a Custom TPCL output stream.</p></td> 
+   <td><p>TPCL </p></td> 
+   <td><p>Creates a Custom TPCL output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>TPCL305DPI </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a TPCL 305 DPI output stream.</p></td> 
+   <td><p>TPCL305DPI </p></td> 
+   <td><p>Creates a TPCL 305 DPI output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>TPCL600DPI </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a TPCL 600 DPI output stream.</p></td> 
+   <td><p>TPCL600DPI </p></td> 
+   <td><p>Creates a TPCL 600 DPI output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>ZPL </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a ZPL 203 DPI output stream.</p></td> 
+   <td><p>ZPL </p></td> 
+   <td><p>Creates a ZPL 203 DPI output stream.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e30883 " valign="top" width="NaN%"><p>ZPL300DPI </p></td> 
-   <td class="cellrowborder" headers="d19e30886 " valign="top" width="NaN%"><p>Creates a ZPL 300 DPI output stream.</p></td> 
+   <td><p>ZPL300DPI </p></td> 
+   <td><p>Creates a ZPL 300 DPI output stream.</p></td> 
   </tr> 
  </tbody> 
 </table>

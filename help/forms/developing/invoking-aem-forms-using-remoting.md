@@ -893,42 +893,42 @@ The following table lists the controls that are part of this client application.
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e5779" valign="top" width="NaN%"><p>Control name</p></th> 
-   <th class="cellrowborder" id="d19e5782" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Control name</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e5779 " valign="top" width="NaN%"><p>txtFirst</p></td> 
-   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer’s first name. </p></td> 
+   <td><p>txtFirst</p></td> 
+   <td><p>Specifies the customer’s first name. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e5779 " valign="top" width="NaN%"><p>txtLast</p></td> 
-   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer’s last name. </p></td> 
+   <td><p>txtLast</p></td> 
+   <td><p>Specifies the customer’s last name. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e5779 " valign="top" width="NaN%"><p>txtPhone</p></td> 
-   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer’s phone number.</p></td> 
+   <td><p>txtPhone</p></td> 
+   <td><p>Specifies the customer’s phone number.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e5779 " valign="top" width="NaN%"><p>txtStreet</p></td> 
-   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer’s street name.</p></td> 
+   <td><p>txtStreet</p></td> 
+   <td><p>Specifies the customer’s street name.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e5779 " valign="top" width="NaN%"><p>txtState</p></td> 
-   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer’s state. </p></td> 
+   <td><p>txtState</p></td> 
+   <td><p>Specifies the customer’s state. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e5779 " valign="top" width="NaN%"><p>txtZIP</p></td> 
-   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer’s zip code. </p></td> 
+   <td><p>txtZIP</p></td> 
+   <td><p>Specifies the customer’s zip code. </p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e5779 " valign="top" width="NaN%"><p>txtCity</p></td> 
-   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer’s city.</p></td> 
+   <td><p>txtCity</p></td> 
+   <td><p>Specifies the customer’s city.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e5779 " valign="top" width="NaN%"><p>txtCustId</p></td> 
-   <td class="cellrowborder" headers="d19e5782 " valign="top" width="NaN%"><p>Specifies the customer identifier value to which the new account belongs. This text box is populated by the return value of the Customer service’s <code>createCustomer</code> operation. </p></td> 
+   <td><p>txtCustId</p></td> 
+   <td><p>Specifies the customer identifier value to which the new account belongs. This text box is populated by the return value of the Customer service’s <code>createCustomer</code> operation. </p></td> 
   </tr> 
  </tbody> 
 </table>

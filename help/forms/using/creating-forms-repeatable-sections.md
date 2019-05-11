@@ -19,7 +19,7 @@ You can use one of the following methods to create repeatable panels:
 
 ## Using Instance Manager via scripts&nbsp; {#using-instance-manager-via-scripts-nbsp}
 
-1. In the edit mode, select a panel, then tap ![](assets/cmppr.png). In the sidebar, under Properties, enable **Make Panel Repeatable**. Specify values for the ****[!UICONTROL Maximum]**** and **[!UICONTROL **Minimum**]** fields.
+1. In the edit mode, select a panel, then tap ![](assets/cmppr.png). In the sidebar, under Properties, enable **Make Panel Repeatable**. Specify values for the **[!UICONTROL Maximum]** and **[!UICONTROL Minimum]** fields.
 
    The Maximum field specifies the maximum number of times a panel can appear on the page. You can specify -1 in the Maximum Count field to allow the panel to appear for infinite number of times.
 
@@ -39,9 +39,9 @@ You can use one of the following methods to create repeatable panels:
         1. In the rule area, under WHEN, select state **is clicked**.
         1. Under THEN:
 
-            * To create an add panel button, select** Add Instance, **and drag-drop the panel using ![](assets/toggle-side-panel.png) or select it using **Drop object or select here.** 
+            * To create an add panel button, select **Add Instance**, and drag-drop the panel using ![](assets/toggle-side-panel.png) or select it using **Drop object or select here.** 
             
-            * To create a delete panel button, select Remove Instance, and drag-drop the panel using ![](assets/toggle-side-panel.png) or select it using **Drop object or select here.**
+            * To create a delete panel button, select **Remove Instance**, and drag-drop the panel using ![](assets/toggle-side-panel.png) or select it using **Drop object or select here.**
 
        Select **Code Editor** in the Form Objects and Functions row. Click **Edit Rules** and in the code area:
 
@@ -117,7 +117,7 @@ Attached .zip file contains a sample repeatable sub form.
 
 [Get File](assets/samplerepeatablesubform.zip)
 
-## Using repeat settings of an XML Schema (XSD) <br> {#using-repeat-settings-of-an-xml-schema-xsd-br}
+## Using repeat settings of an XML Schema (XSD) {#using-repeat-settings-of-an-xml-schema-xsd-br}
 
 You can create repeatable panels from an XML Schema and from the minOccours & maxOccurs property of any complex type element. For detailed information about XML Schema, see [Create adaptive forms using XML Schema as Form Model](/help/forms/using/adaptive-form-xml-schema-form-model.md).
 
@@ -166,4 +166,3 @@ In the following code, the `SampleType`panel uses the minOccours & maxOccurs pro
 >[!NOTE]
 >
 >For non-accordian layout, use adaptive form button components to add and remove instances.
-

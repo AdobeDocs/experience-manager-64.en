@@ -27,63 +27,63 @@ The keytool command is typically located in the Java jre/bin directory and must 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e16199" valign="top" width="NaN%"><p>Keytool option</p></th> 
-   <th class="cellrowborder" id="d19e16202" valign="top" width="NaN%"><p>Description</p></th> 
-   <th class="cellrowborder" id="d19e16205" valign="top" width="NaN%"><p>Option value</p></th> 
+   <th><p>Keytool option</p></th> 
+   <th><p>Description</p></th> 
+   <th><p>Option value</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-alias</p></td> 
-   <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The alias of the keystore.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"> 
+   <td><p>-alias</p></td> 
+   <td><p>The alias of the keystore.</p></td> 
+   <td> 
     <ul> 
      <li><p>Custom Identity keystore: <code>ads-credentials</code></p></li> 
      <li><p>Custom Trust keystore: <code>bedrock</code></p></li> 
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-keyalg</p></td> 
-   <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The algorithm to use to generate the key pair.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><p>RSA</p><p>You can use a different algorithm, depending on your company’s policy.</p></td> 
+   <td><p>-keyalg</p></td> 
+   <td><p>The algorithm to use to generate the key pair.</p></td> 
+   <td><p>RSA</p><p>You can use a different algorithm, depending on your company’s policy.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-keystore</p></td> 
-   <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The location and name of the keystore file.</p><p>The location can include the absolute path of the file. Or, it can be relative to the current directory of the command prompt where the keytool command is entered.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"> 
+   <td><p>-keystore</p></td> 
+   <td><p>The location and name of the keystore file.</p><p>The location can include the absolute path of the file. Or, it can be relative to the current directory of the command prompt where the keytool command is entered.</p></td> 
+   <td> 
     <ul> 
      <li><p>Custom Identity keystore: <code>[</code><i>appserverdomain]</i><code>/adobe/</code><i>[server name]</i><code>/ads-ssl.jks</code></p></li> 
      <li><p>Custom Trust keystore: <code>[</code><i>appserverdomain]</i><code>/adobe/</code><i>[server name]</i><code>/ads-ca.jks</code></p></li> 
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-file</p></td> 
-   <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The location and name of the certificate file.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><code> ads-ca.cer</code></td> 
+   <td><p>-file</p></td> 
+   <td><p>The location and name of the certificate file.</p></td> 
+   <td><code> ads-ca.cer</code></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-validity</p></td> 
-   <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The number of days that the certificate is considered valid.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><p>3650</p><p>You can use a different value, depending on your company’s policy.</p></td> 
+   <td><p>-validity</p></td> 
+   <td><p>The number of days that the certificate is considered valid.</p></td> 
+   <td><p>3650</p><p>You can use a different value, depending on your company’s policy.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-storepass</p></td> 
-   <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The password that protects the contents of the keystore. </p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"> 
+   <td><p>-storepass</p></td> 
+   <td><p>The password that protects the contents of the keystore. </p></td> 
+   <td> 
     <ul> 
      <li><p>Custom Identity keystore: The keystore password must correspond with the SSL credential password that was specified for the Trust Store component of the Administration Console.</p></li> 
      <li><p>Custom Trust keystore: Use the same password that you used for the Custom Identity keystore.</p></li> 
     </ul></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-keypass</p></td> 
-   <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The password that protects the private key of the key pair.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><p>Use the same password that you used for the <code>-storepass</code> option. The key password must be at least six characters.</p></td> 
+   <td><p>-keypass</p></td> 
+   <td><p>The password that protects the private key of the key pair.</p></td> 
+   <td><p>Use the same password that you used for the <code>-storepass</code> option. The key password must be at least six characters.</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e16199 " valign="top" width="NaN%"><p>-dname</p></td> 
-   <td class="cellrowborder" headers="d19e16202 " valign="top" width="NaN%"><p>The distinguished name that identifies the person who owns the keystore.</p></td> 
-   <td class="cellrowborder" headers="d19e16205 " valign="top" width="NaN%"><p><code>"CN=</code><code>[User name]</code><code>,OU=</code><code>[Group Name]</code><code>, O=</code><code>[Company Name]</code><code>, L=</code><code>[City Name]</code><code>, S=</code><code>[State or province]</code><code>, C=</code><code>[Country Code]</code><code>"</code></p> 
+   <td><p>-dname</p></td> 
+   <td><p>The distinguished name that identifies the person who owns the keystore.</p></td> 
+   <td><p><code>"CN=</code><code>[User name]</code><code>,OU=</code><code>[Group Name]</code><code>, O=</code><code>[Company Name]</code><code>, L=</code><code>[City Name]</code><code>, S=</code><code>[State or province]</code><code>, C=</code><code>[Country Code]</code><code>"</code></p> 
     <ul> 
      <li><p><code><i>[User name]</i></code> is the identification of the user who owns the keystore.</p></li> 
      <li><p><code><i>[Group Name]</i></code> is the identification of the corporate group that the keystore owner belongs to.</p></li> 

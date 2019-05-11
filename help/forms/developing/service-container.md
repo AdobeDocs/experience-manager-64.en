@@ -21,26 +21,26 @@ The following table describes the different ways in which you can programmatical
 <table>
  <thead align="left">
   <tr>
-   <th class="cellrowborder" id="d19e4697" valign="top" width="NaN%"><p>Invocation method</p></th> 
-   <th class="cellrowborder" id="d19e4700" valign="top" width="NaN%"><p>Description</p></th> 
+   <th><p>Invocation method</p></th> 
+   <th><p>Description</p></th> 
   </tr> 
  </thead> 
  <tbody>
   <tr>
-   <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>Remote integration</p></td> 
-   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>Remote integration provides the ability for Flex clients to invoke service operations. (See <a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting">Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting</a>.)</p></td> 
+   <td><p>Remote integration</p></td> 
+   <td><p>Remote integration provides the ability for Flex clients to invoke service operations. (See <a href="/help/forms/developing/invoking-aem-forms-using-remoting.md#invoking-aem-forms-using-remoting">Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting</a>.)</p></td> 
   </tr> 
   <tr>
-   <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>Java API</p></td> 
-   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>A Java API can invoke an AEM Forms service. The Java API is organized into client libraries and the Java Invocation API. (See <a href="/help/forms/developing/invoking-aem-forms-using-java.md#invoking-aem-forms-using-the-java-api">Invoking AEM Forms using the Java API</a>.)</p></td> 
+   <td><p>Java API</p></td> 
+   <td><p>A Java API can invoke an AEM Forms service. The Java API is organized into client libraries and the Java Invocation API. (See <a href="/help/forms/developing/invoking-aem-forms-using-java.md#invoking-aem-forms-using-the-java-api">Invoking AEM Forms using the Java API</a>.)</p></td> 
   </tr> 
   <tr>
-   <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>Web services</p></td> 
-   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>AEM Forms supports web service standards such as SOAP/HTTP. A service can be exposed as a web service, with the WSDL complying to web service standards defined by W3C.</p><p>A service can be invoked from any web service stack, including the .NET Framework and Sun™ Web Services SDK. (See <a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-web-services">Invoking AEM Forms using Web Services</a>.)</p></td> 
+   <td><p>Web services</p></td> 
+   <td><p>AEM Forms supports web service standards such as SOAP/HTTP. A service can be exposed as a web service, with the WSDL complying to web service standards defined by W3C.</p><p>A service can be invoked from any web service stack, including the .NET Framework and Sun™ Web Services SDK. (See <a href="/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-web-services">Invoking AEM Forms using Web Services</a>.)</p></td> 
   </tr> 
   <tr>
-   <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>REST requests</p></td> 
-   <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>AEM Forms supports REST requests. A service can be invoked directly from an HTML page. (See <a href="/help/forms/developing/invoking-aem-forms-using-rest.md#invoking-aem-forms-using-rest-requests">Invoking AEM Forms using REST Requests</a>.)</p></td> 
+   <td><p>REST requests</p></td> 
+   <td><p>AEM Forms supports REST requests. A service can be invoked directly from an HTML page. (See <a href="/help/forms/developing/invoking-aem-forms-using-rest.md#invoking-aem-forms-using-rest-requests">Invoking AEM Forms using REST Requests</a>.)</p></td> 
   </tr> 
  </tbody> 
 </table>

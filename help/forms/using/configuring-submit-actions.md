@@ -15,7 +15,7 @@ discoiquuid: fea76f90-22d5-4836-9901-a35229401eb0
 
 A submit action is triggered when a user clicks the Submit button on an adaptive form. You can configure the submit action on adaptive form. Adaptive forms provide a few out of the box submit actions. You can copy and extend the default submit actions to create you own submit action. However, based on your requirements, you can write and register your own submit action to process data in the submitted form.
 
-You can configure a submit action in the **Submission **section of the Adaptive Form Container properties, in the sidebar.
+You can configure a submit action in the **Submission** section of the Adaptive Form Container properties, in the sidebar.
 
 ![Configure Submit Action](assets/thank-you-setting.png)
 
@@ -37,8 +37,7 @@ The default submit actions available with adaptive forms are:
 
 >[!NOTE]
 >
->Ensure that the [AEM_Installation_Directory]\crx-quickstart\temp\datamanager\ASM folder   
->exists. The directory is required to temporarily store attachments. If the directory does not exist, create it.
+>Ensure that the [AEM_Installation_Directory]\crx-quickstart\temp\datamanager\ASM folder exists. The directory is required to temporarily store attachments. If the directory does not exist, create it.
 
 >[!CAUTION]
 >
@@ -89,7 +88,7 @@ In this example, `data` stores the XML data, and `att` stores attachment data.
 
 ## Send Email {#send-email}
 
-The **Send Email **submit action** **sends an email to one or more recipients on successful submission of the form. The email generated can contain form data in a predefined format.
+The **Send Email** submit action sends an email to one or more recipients on successful submission of the form. The email generated can contain form data in a predefined format.
 
 >[!NOTE]
 >
@@ -97,7 +96,7 @@ The **Send Email **submit action** **sends an email to one or more recipients on
 
 ## Send PDF via Email {#send-pdf-via-email}
 
-The **Send PDF via Email **submit action sends an email with a PDF containing form data, to one or more recipients on successful submission of the form.
+The **Send PDF via Email** submit action sends an email with a PDF containing form data, to one or more recipients on successful submission of the form.
 
 **Note:** *This submit action is available for XFA-based adaptive forms and XSD-based adaption forms that have the Document of Record template.*
 
@@ -133,7 +132,7 @@ Typically, in any online data capture system, developers place some javascript v
 
 The server-side revalidation feature provides the ability to also run the validations that an adaptive forms author has provided while designing an adaptive form on the server. It prevents any possible compromise of data submissions and business rules violations represented in terms of form validations.
 
-### What to validate on Server? <br> {#what-to-validate-on-server-br}
+### What to validate on Server? {#what-to-validate-on-server-br}
 
 All out of the box (OOTB) field validations of an adaptive form thate are rerun at the server are:
 
@@ -141,7 +140,7 @@ All out of the box (OOTB) field validations of an adaptive form thate are rerun 
 * Validation Picture Clause
 * Validation Expression
 
-### Enabling Server-side Validation <br> {#enabling-server-side-validation-br}
+### Enabling Server-side Validation {#enabling-server-side-validation-br}
 
 Use the **Revalidate on server** under** **Adaptive Form Container in the sidebar to enable or disable server-side validation for the current form. 
 
@@ -151,7 +150,7 @@ Enabling Server-Side Validation
 
 If end-user bypass those validations and submit the forms, the server again performs the validation. If the validation fails at server end, then the submit transaction is stopped. The end user is presented with the orignal form again. The captured data and submitted data are presented to the user as an error.
 
-### Supporting Custom functions in Validation Expressions <br> {#supporting-custom-functions-in-validation-expressions-br}
+### Supporting Custom functions in Validation Expressions {#supporting-custom-functions-in-validation-expressions-br}
 
 At times, in case of **complex validation rules**, the exact validation script reside in custom functions and author calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form author can configure the name of AEM client library under the **Basic** tab of Adaptive Form Container properties as shown below.
 

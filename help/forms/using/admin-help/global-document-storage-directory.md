@@ -24,41 +24,41 @@ AEM forms application data resides in the GDS directory and the AEM forms databa
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e29288" valign="top" width="NaN%"><p>AEM forms Data</p></th> 
-   <th class="cellrowborder" id="d19e29291" valign="top" width="NaN%"><p>Database</p></th> 
-   <th class="cellrowborder" id="d19e29294" valign="top" width="NaN%"><p>GDS</p></th> 
+   <th><p>AEM forms Data</p></th> 
+   <th><p>Database</p></th> 
+   <th><p>GDS</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Application data (users, roles, processes, policies, endpoints, events, and so on.)</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>Yes</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>No</p></td> 
+   <td><p>Application data (users, roles, processes, policies, endpoints, events, and so on.)</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Deployed service containers</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>Yes</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>No</p></td> 
+   <td><p>Deployed service containers</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Document Manager </p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>No</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>Yes</p></td> 
+   <td><p>Document Manager </p></td> 
+   <td><p>No</p></td> 
+   <td><p>Yes</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Forms Repository</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>Yes</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>No</p></td> 
+   <td><p>Forms Repository</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>System configuration</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>Yes</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>No</p></td> 
+   <td><p>System configuration</p></td> 
+   <td><p>Yes</p></td> 
+   <td><p>No</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e29288 " valign="top" width="NaN%"><p>Watched folders</p></td> 
-   <td class="cellrowborder" headers="d19e29291 " valign="top" width="NaN%"><p>No</p></td> 
-   <td class="cellrowborder" headers="d19e29294 " valign="top" width="NaN%"><p>Yes</p></td> 
+   <td><p>Watched folders</p></td> 
+   <td><p>No</p></td> 
+   <td><p>Yes</p></td> 
   </tr> 
  </tbody> 
 </table>

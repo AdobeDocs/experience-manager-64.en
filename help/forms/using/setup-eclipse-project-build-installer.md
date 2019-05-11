@@ -42,7 +42,7 @@ Set the following environment variables before starting the build process for th
 * Set the `ANDROID_SDK_ROOT` system environment variable to the SDK location for Android. For example, C:\Users\&lt;username&gt;\AppData\Local\Android\Sdk
 * Set the `Path` system environment variable to include the platform-tools and tools folder locations for Android. For example, C:\Users\&lt;username&gt;\AppData\Local\Android\Sdk\platform-tools and C:\Users\&lt;username&gt;\AppData\Local\Android\Sdk\tools.
 
-## Build standard AEM Forms app <br> {#set-up-the-xcode-project}
+## Build standard AEM Forms app {#set-up-the-xcode-project}
 
 Once you have saved the adobe-lc-mobileworkspace-src-&lt;version&gt;.zip file on the local file system and set the environment variables, build standard AEM Forms Android app using any of the following options:
 

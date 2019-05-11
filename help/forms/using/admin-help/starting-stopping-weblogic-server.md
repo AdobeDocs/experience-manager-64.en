@@ -18,26 +18,26 @@ Several procedures require you to start or stop the instance of WebLogic Server 
 <table> 
  <thead align="left"> 
   <tr> 
-   <th class="cellrowborder" id="d19e28849" valign="top" width="NaN%"><p>Activity</p></th> 
-   <th class="cellrowborder" id="d19e28852" valign="top" width="NaN%"><p>Required WebLogic state</p></th> 
+   <th><p>Activity</p></th> 
+   <th><p>Required WebLogic state</p></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28849 " valign="top" width="NaN%"><p>Creating a WebLogic domain</p></td> 
-   <td class="cellrowborder" headers="d19e28852 " valign="top" width="NaN%"><p>Stopped</p></td> 
+   <td><p>Creating a WebLogic domain</p></td> 
+   <td><p>Stopped</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28849 " valign="top" width="NaN%"><p>Creating a WebLogic managed server</p></td> 
-   <td class="cellrowborder" headers="d19e28852 " valign="top" width="NaN%"><p>Running</p></td> 
+   <td><p>Creating a WebLogic managed server</p></td> 
+   <td><p>Running</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28849 " valign="top" width="NaN%"><p>Increasing the server thread count</p></td> 
-   <td class="cellrowborder" headers="d19e28852 " valign="top" width="NaN%"><p>Running</p></td> 
+   <td><p>Increasing the server thread count</p></td> 
+   <td><p>Running</p></td> 
   </tr> 
   <tr> 
-   <td class="cellrowborder" headers="d19e28849 " valign="top" width="NaN%"><p>Deploying AEM forms products</p></td> 
-   <td class="cellrowborder" headers="d19e28852 " valign="top" width="NaN%"><p>Running</p></td> 
+   <td><p>Deploying AEM forms products</p></td> 
+   <td><p>Running</p></td> 
   </tr> 
  </tbody> 
 </table>

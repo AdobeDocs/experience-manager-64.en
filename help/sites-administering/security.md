@@ -419,59 +419,20 @@ The left tree lists all the users and groups currently in the system. You can se
 
 The tabs provide access to various configurations:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Tab<a href="#setting-permissions"></a></strong></td> 
-   <td><strong>Description </strong></td> 
-  </tr> 
-  <tr> 
-   <td>Filter box</td> 
-   <td>A mechanism for filtering the users and/or groups listed. See <a href="#filtering-users-and-groups">Filtering Users and Groups</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Hide Users</td> 
-   <td>A toggle switch which will hide all users listed, leaving only groups. See <a href="#hiding-users-and-groups">Hiding Users and Groups</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Hide Groups</td> 
-   <td>A toggle switch which will hide all groups listed, leaving only users. See <a href="#hiding-users-and-groups">Hiding Users and Groups</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Edit</td> 
-   <td>A menu allowing you to create and delete as well activate and deactivate users or groups. See <a href="#creating-users-and-groups">Creating Users and Groups</a> and <a href="#deleting-users-and-groups">Deleting Users and Groups</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Properties</td> 
-   <td>Lists information about the user or group that can include email information, a description, and name information. Also allows you to change a user's password. See <a href="#creating-users-and-groups">Creating Users and Groups</a>, <a href="#modifying-user-and-group-properties">Modifying User and Group Properties</a> and <a href="#changing-a-user-password">Changing a User Password</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Groups</td> 
-   <td>Lists all groups that the selected user or group belongs to. You can assign the selected user or groups to additional groups or remove them from groups. See <a href="#adding-users-or-groups-to-a-group">Groups</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Members</td> 
-   <td>Available for groups only. Lists the members of a particular group. See <a href="#members-adding-users-or-groups-to-a-group">Members</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Permissions</td> 
-   <td><p>You can allocate permissions to a user or group. Lets you control the following:</p> 
-    <ul> 
-     <li>Permissions related to particular pages/nodes. See <a href="#setting-permissions">Setting Permissions</a>.</li> 
-     <li>Permissions related to creating and deleting pages and hierarchy modification. ??? lets you <a href="#settingprivileges">allocate privileges</a>, such as hierarchy modification, which lets you create and delete pages, </li> 
-     <li>Permissions related to <a href="#setting-replication-privileges">replication privileges</a> (usually from author to publish) according to a path.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Impersonators</td> 
-   <td>Lets another user impersonate the account. Useful when you need a user to act on behalf of another user. See <a href="#impersonating-another-user">Impersonating Users</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>Preferences</td> 
-   <td>Sets <a href="#setting-user-and-group-preferences">preferences for the group or user</a>. For example, language preferences.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- ??? in table below. -->
+
+|Tab|Description|
+|--- |--- |
+|Filter box|A mechanism for filtering the users and/or groups listed. See [Filtering Users and Groups](#filtering-users-and-groups).|
+|Hide Users|A toggle switch which will hide all users listed, leaving only groups. See [Hiding Users and Groups](#hiding-users-and-groups).|
+|Hide Groups|A toggle switch which will hide all groups listed, leaving only users. See [Hiding Users and Groups](#hiding-users-and-groups).|
+|Edit|A menu allowing you to create and delete as well activate and deactivate users or groups. See [Creating Users and Groups](#creating-users-and-groups) and [Deleting Users and Groups](#deleting-users-and-groups).|
+|Properties|Lists information about the user or group that can include email information, a description, and name information. Also allows you to change a user's password. See [Creating Users and Groups](#creating-users-and-groups), [Modifying User and Group Properties](#modifying-user-and-group-properties) and [Changing a User Password](#changing-a-user-password).|
+|Groups|Lists all groups that the selected user or group belongs to. You can assign the selected user or groups to additional groups or remove them from groups. See [Groups](#adding-users-or-groups-to-a-group).|
+|Members|Available for groups only. Lists the members of a particular group. See [Members](#members-adding-users-or-groups-to-a-group).|
+|Permissions|You can allocate permissions to a user or group. Lets you control the following:<ul><li>Permissions related to particular pages/nodes. See [Setting Permissions](#setting-permissions). </li><li>Permissions related to creating and deleting pages and hierarchy modification. ??? lets you [allocate privileges](#settingprivileges), such as hierarchy modification, which lets you create and delete pages,</li><li>Permissions related to [replication privileges](#setting-replication-privileges) (usually from author to publish) according to a path.</li></ul>|
+|Impersonators|Lets another user impersonate the account. Useful when you need a user to act on behalf of another user. See [Impersonating Users](#impersonating-another-user).|
+|Preferences|Sets [preferences for the group or user](#setting-user-and-group-preferences). For example, language preferences.|
 
 ### Filtering Users and Groups {#filtering-users-and-groups}
 
@@ -713,22 +674,11 @@ There are two different types of path search:
 
 In the search box, you can do the following:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>Right arrow key<br /> </td> 
-   <td>Selects a sub-node in the search result</td> 
-  </tr> 
-  <tr> 
-   <td>Down arrow key </td> 
-   <td>Starts the search again. </td> 
-  </tr> 
-  <tr> 
-   <td>Enter (Return) key </td> 
-   <td>Selects a subnode and loads it in the treegrid</td> 
-  </tr> 
- </tbody> 
-</table>
+|Action | What it does|
+|--- |--- |
+|Right arrow key|Selects a sub-node in the search result|
+|Down arrow key|Starts the search again.|
+|Enter (Return) key|Selects a subnode and loads it in the treegrid|
 
 * FullText search - If the search string does not start with a "/" then a fulltext search is executed on all the nodes under the path "/content."
 

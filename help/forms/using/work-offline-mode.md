@@ -26,7 +26,7 @@ To ensure that the associated attachments are downloaded with each form, set Fet
 
 Since downloading data on the mobile device can affect the performance of the device, by default, the Fetch attachments setting is set to OFF. The attachments are fetched to the device for any task that is downloaded from the server after the setting is updated to ON. In the offline mode, a user can then work on all tasks that are downloaded to device after setting the **Fetch attachments** options to ON.
 
-## Configuring offline service for AEM Forms app <br> {#configuring-offline-service-for-aem-forms-app-br}
+## Configuring offline service for AEM Forms app {#configuring-offline-service-for-aem-forms-app-br}
 
 AEM Forms app offline service identifies the resources used in a form. AEM Forms app relies on this service to obtain information about form dependencies. Information about form dependencies is required to enable offline functionalities. The AEM Forms app offline service caches the paths or URLs of the resources used in a form. The cache is updated based on the changes in the form and the validity period configured for the offline service. Caching paths or URLs of the resources used in a form improves server-side performance.
 

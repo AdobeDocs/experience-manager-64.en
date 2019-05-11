@@ -51,7 +51,7 @@ The Panel layouts are available at `/libs/fd/af/layouts/panel` location.
 
 List of panel layouts in adaptive forms
 
-### Responsive - everything on one page without navigation <br> {#responsive-everything-on-one-page-without-navigation-br}
+### Responsive - everything on one page without navigation {#responsive-everything-on-one-page-without-navigation-br}
 
 Use this panel layout to create a responsive layout that adjusts to the screen size of your device without any need for specialized navigation.
 

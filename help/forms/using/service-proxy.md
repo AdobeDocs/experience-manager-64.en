@@ -14,7 +14,7 @@ discoiquuid: 2791c9a1-38a2-4154-8bea-2f7c564b46c8
 
 HTML5 forms Service Proxy is a configuration to register a proxy for the submission service. To configure Service Proxy, specify the URL of submission service through request parameter *submissionServiceProxy*.
 
-## Benefits of Service Proxy <br> {#benefits-of-service-proxy-br}
+## Benefits of Service Proxy {#benefits-of-service-proxy-br}
 
 The service proxy eliminates following:
 
@@ -23,7 +23,7 @@ The service proxy eliminates following:
 * The submission is two-step process. To submit the form data, submission requires at least two journeys to server. Thus, increases load on the server.  
 * HTML5 forms send data in the POST request instead of PDF request. For workflow involving both PDF and HTML5 forms, two different methods of processing the submissions are required.
 
-## Topologies <br> {#topologies-br}
+## Topologies {#topologies-br}
 
 HTML5 forms can use following topologies to connect to the AEM servers.
 
