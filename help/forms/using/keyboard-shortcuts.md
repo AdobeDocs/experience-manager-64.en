@@ -207,9 +207,9 @@ This section lists various keyboards and accessibility shortcuts that you can us
 <table> 
  <tbody>
   <tr>
-   <th height="20" valign="middle"><p><strong>Operation</strong></p> </th> 
-   <th height="20" valign="middle"><p><strong>Shortcut on Windows<br /> </strong></p> </th> 
-   <th height="20" valign="middle"><strong>Shortcut on Mac OS</strong></th> 
+   <th><p><strong>Operation</strong></p> </th> 
+   <th><p><strong>Shortcut on Windows<br /> </strong></p> </th> 
+   <th><strong>Shortcut on Mac OS</strong></th> 
   </tr>
   <tr>
    <td><p>Make a paragraph center aligned</p> </td> 
