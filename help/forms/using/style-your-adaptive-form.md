@@ -124,7 +124,7 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
 
 1. Navigate the **Header** &gt; **Text** option in the Selectors panel. The Selectors panel is on the left of the theme editor. If the panel is not visible, tap ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/6-2/toggle-side-panel.png) Toggle Side Panel.  
 
-1. Set the following properties in the** Text** accordion and tap ![](assets/aem_6_3_forms_save.png). 
+1. Set the following properties in the **Text** accordion and tap ![](assets/aem_6_3_forms_save.png). 
 
    | Property |Value |
    |---|---|
@@ -158,7 +158,7 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
      <li>Top: 1.5rem</li> 
      <li>Bottom: -35px</li> 
      <li>Left: 1rem<strong><br /> </strong></li> 
-    </ul> <p><strong>Tip:</strong> Tap the <strong><img height="18" src="assets/link.png" width="18" /></strong>link icon to provide different value to each field.<br /> </p> </td> 
+    </ul> <p><strong>Tip:</strong> Tap the <img src="assets/link.png"> link icon to provide different value to each field.<br /> </p> </td> 
   </tr> 
   <tr> 
    <td>Height</td> 

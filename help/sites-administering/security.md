@@ -360,34 +360,13 @@ This allows the impersonator accounts to complete tasks as if they were using th
 
 The following describes best practices when working with permissions and privileges:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td>Rule</td> 
-   <td>Reason</td> 
-  </tr> 
-  <tr> 
-   <td><i>Use Groups</i></td> 
-   <td><p>Avoid assigning access rights on a user-by-user basis. There are several reasons for this:</p> <p>* You have many more users than groups, so groups simplify the structure.</p><p>* Groups help provide an overview over all accounts.</p> </li> <li><p>Inheritance is simpler with groups.</p> <p>* Users come and go. Groups are long-term.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><i>Be Positive</i></td> 
-   <td><p>Always use Allow statements to specify the group’s rights (wherever possible). Avoid using a Deny statement.</p> <p>Groups are evaluated in order, and the order may be defined differently per user.</p> <p>In other words: You may have little control over the order in which the statements are implemented and evaluated. If you use only Allow statements, the order does not matter.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><i>Keep It Simple</i></td> 
-   <td><p>Investing some time and thought when configuring a new installation will be well repaid.</p> <p>Applying a clear structure will simplify the ongoing maintenance and administration, ensuring that both your current colleagues and/or future successors can easily understand what is being implemented.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><i>Test</i></td> 
-   <td>Use a test installation to practice and ensure that you understand the relationships between the various users and groups.</td> 
-  </tr> 
-  <tr> 
-   <td><i>Default Users/Groups</i></td> 
-   <td>Always update the Default Users and Groups immediately after installation to help prevent any security issues.</td> 
-  </tr> 
- </tbody> 
-</table>
+|Rule|Reason|
+|--- |--- |
+|*Use Groups*|Avoid assigning access rights on a user-by-user basis. There are several reasons for this:<ul><li>You have many more users than groups, so groups simplify the structure.</li><li>Groups help provide an overview over all accounts.</li> <li>Inheritance is simpler with groups.</li><li>Users come and go. Groups are long-term.</li></ul>|
+|*Be Positive*|Always use Allow statements to specify the group’s rights (wherever possible). Avoid using a Deny statement. Groups are evaluated in order, and the order may be defined differently per user. In other words: You may have little control over the order in which the statements are implemented and evaluated. If you use only Allow statements, the order does not matter.|
+|*Keep It Simple*|Investing some time and thought when configuring a new installation will be well repaid. Applying a clear structure will simplify the ongoing maintenance and administration, ensuring that both your current colleagues and/or future successors can easily understand what is being implemented.|
+|*Test*|Use a test installation to practice and ensure that you understand the relationships between the various users and groups.|
+|*Default Users/Groups*|Always update the Default Users and Groups immediately after installation to help prevent any security issues.|
 
 ## Managing Users and Groups {#managing-users-and-groups}
 
