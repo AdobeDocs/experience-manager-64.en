@@ -368,7 +368,7 @@ The following describes best practices when working with permissions and privile
   </tr> 
   <tr> 
    <td><i>Use Groups</i></td> 
-   <td><p>Avoid assigning access rights on a user-by-user basis. There are several reasons for this:</p> <p>* You have many more users than groups, so groups simplify the structure.</p><p>* Groups help provide an overview over all accounts.</p> </li> <li><p>Inheritance is simpler with groups.</p> <p>* Users come and go. Groups are long-term.</p> </td> 
+   <td><p>Avoid assigning access rights on a user-by-user basis. There are several reasons for this:</p><ul><li>You have many more users than groups, so groups simplify the structure.</li><li>Groups help provide an overview over all accounts.</li> <li>Inheritance is simpler with groups.</li><li>Users come and go. Groups are long-term.</li></ul></td> 
   </tr> 
   <tr> 
    <td><i>Be Positive</i></td> 
