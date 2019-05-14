@@ -13,8 +13,8 @@ discoiquuid: 955a1876-4882-4926-82e9-846bc8bb332c
 
 # Authoring Nested Groups{#authoring-nested-groups}
 
-<!--One row table| ** [⇐ Experience the Published Site](/help/communities/published-site.md)** |  |
-|---|---|-->
+<!--One row table`| ** [⇐ Experience the Published Site](/help/communities/published-site.md)** |  |
+|---|---|`-->
 
 ## Creating Groups on Author {#creating-groups-on-author}
 
@@ -168,6 +168,6 @@ It is possible to experience the different groups when signed in, for example wi
 
 Access the Communities [Members and Groups consoles](/help/communities/members.md) on author to add other users to various member groups that correspond to the community groups.
 
-<!--One row table| ** [⇐ Experience the Published Site](/help/communities/published-site.md)** |  |
-|---|---|-->
+<!--One row table`| ** [⇐ Experience the Published Site](/help/communities/published-site.md)** |  |
+|---|---|`-->
 

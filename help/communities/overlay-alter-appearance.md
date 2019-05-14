@@ -13,8 +13,8 @@ discoiquuid: da3891d3-fa07-4c88-b4ac-077926b3a674
 
 # Alter the Appearance {#alter-the-appearance}
 
-<!--One row table| ** [⇐ Create Nodes](/help/communities/overlay-create-nodes.md)** |  |
-|---|---|-->
+<!--One row table`| ** [⇐ Create Nodes](/help/communities/overlay-create-nodes.md)** |  |
+|---|---|`-->
 
 ## Modify the Script {#modify-the-script}
 
@@ -74,6 +74,6 @@ If you logout and re-login as `aaron.mcdonald@mailinator.com/password` and refre
 
 ![](assets/chlimage_1-43.png) 
 
-<!--One row table| ** [⇐ Create Nodes](/help/communities/overlay-create-nodes.md)** |  |
-|---|---|-->
+<!--One row table`| ** [⇐ Create Nodes](/help/communities/overlay-create-nodes.md)** |  |
+|---|---|`-->
 

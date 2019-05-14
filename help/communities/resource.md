@@ -13,8 +13,8 @@ discoiquuid: 8fe97181-600e-42ac-af25-d5d4db248740
 
 # Create and Assign Enablement Resources{#create-and-assign-enablement-resources}
 
-<!--One row table| ** [⇐ Author a New Community Site for Enablement](/help/communities/enablement-create-site.md)** |** [Experience the Published Site ⇒](/help/communities/enablement-published-site.md)** |
-|---|---|-->
+<!--One row table`| ** [⇐ Author a New Community Site for Enablement](/help/communities/enablement-create-site.md)** |** [Experience the Published Site ⇒](/help/communities/enablement-published-site.md)** |
+|---|---|`-->
 
 ## Add an Enablement Resource {#add-an-enablement-resource}
 
@@ -187,6 +187,6 @@ Successful creation of the learning path returns to the Resources console with t
 
 **Publish** the learning path.
 
-<!--One row table| ** [⇐ Author a New Community Site for Enablement](/help/communities/enablement-create-site.md)** |** [Experience the Published Site ⇒](/help/communities/enablement-published-site.md)** |
-|---|---|-->
+<!--One row table`| ** [⇐ Author a New Community Site for Enablement](/help/communities/enablement-create-site.md)** |** [Experience the Published Site ⇒](/help/communities/enablement-published-site.md)** |
+|---|---|`-->
 

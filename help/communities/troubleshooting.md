@@ -13,8 +13,8 @@ discoiquuid: cdb2d80a-2fbf-4ee6-b89b-b5d74e6d3bfc
 
 # Troubleshooting {#troubleshooting}
 
-<!--One row table| ** [⇐ Social Component Framework](/help/communities/scf.md)** |** [Feature Essentials ⇒](/help/communities/essentials.md)** |
-|---|---|-->
+<!--One row table`| ** [⇐ Social Component Framework](/help/communities/scf.md)** |** [Feature Essentials ⇒](/help/communities/essentials.md)** |
+|---|---|`-->
 
 This section contains common concerns and known issues.
 
@@ -91,6 +91,6 @@ Upgrading AEM 5.6.1 GA to latest cq-socialcommunities-pkg-1.4.x or to AEM 6.0 re
 14.11.2013 20:52:40.717 ERROR [OsgiInstallerImpl] com.adobe.cq.social.cq-social-commons [CommentListProvider] Failed creating the component instance; see log for reason
 ```
 
-<!--One row table| ** [⇐ Social Component Framework](/help/communities/scf.md)** |** [Feature Essentials ⇒](/help/communities/essentials.md)** |
-|---|---|-->
+<!--One row table`| ** [⇐ Social Component Framework](/help/communities/scf.md)** |** [Feature Essentials ⇒](/help/communities/essentials.md)** |
+|---|---|`-->
 
