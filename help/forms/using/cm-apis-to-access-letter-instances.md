@@ -135,9 +135,9 @@ Check if a Letter Instance exists by the given name
 
 **Syntax**: `public Boolean letterInstanceExists(String letterInstanceName) throws ICCException;`
 
-| **Parameter** |**Description** |
+| **Parameter** | **Description** |
 |---|---|
-| letterInstanceName |Name of letter instance that you want to check if it exists. |
+| letterInstanceName | Name of letter instance that you want to check if it exists. |
 
 ```java
 @Reference
