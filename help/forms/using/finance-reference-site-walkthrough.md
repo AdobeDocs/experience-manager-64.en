@@ -81,13 +81,13 @@ Sarah clicks **[!UICONTROL Send mail]**. She receives an email with a link to re
 
 <!--Theses sections used to be an accordion until converted to straight Markdown. When accordions are enabled, revert-->
 
-### Sarah accesses the credit card application from her mobile device
+### Sarah accesses the credit card application from her mobile device {#a-sarah-access}
 
 If Sarah is accessing the credit card application from her mobile device, the responsive application opens in a view optimized for mobile devices. In this view, the application form is renders as one section at a time. It allows Sarah to view and provide information progressively as she navigates the application.
 
 ![](assets/form-on-mobile.png)
 
-### How it works
+### How it works {#a-how-it-works}
 
 The **Apply Now** button directs Sarah to the credit card application. The application is an adaptive form, which you can review in the authoring instances at `https://[host]:[Port]/editor.html/content/forms/af/we-finance/cc-app.html`.
 
@@ -113,7 +113,7 @@ Also, see the following documentation for more information about features used i
 * [Using Adobe Sign in adaptive forms](/help/forms/using/working-with-adobe-sign.md)
 * [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
 
-### See it yourself
+### See it yourself {#a-see-it-yourself}
 
 When logged in as Sarah Rose, click the **Apply now** button on the credit card application. Fill in some details, explore various adaptive form components, and click **Save my progress** to receive an email with a **Resume** button that links to the draft application. Ensure that you specify your email ID in the application form to receive the email.
 

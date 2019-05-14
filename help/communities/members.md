@@ -62,8 +62,7 @@ Selecting the `Export CSV` link results in downloading all members as a list of 
 
 The column headers are
 
-| Screen Name |Last Name |First Name |Status |Views |Posts |Follows |Likes |
-|---|---|---|---|---|---|---|---|
+`| Screen Name |Last Name |First Name |Status |Views |Posts |Follows |Likes |`
 
 ## Create New Member {#create-new-member}
 

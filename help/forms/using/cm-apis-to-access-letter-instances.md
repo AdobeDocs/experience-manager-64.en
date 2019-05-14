@@ -22,28 +22,11 @@ Correspondence Management provides you APIs using which you can build the listin
 
 Correspondence Management exposes APIs to fetch letter instances through the LetterInstanceService service.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><p><strong>Method</strong></p> </td> 
-   <td><p><strong>Description</strong></p> </td> 
-  </tr> 
- </tbody> 
- <tbody> 
-  <tr> 
-   <td><p>getAllLetterInstances</p> </td> 
-   <td><p>Fetches letter instances based on the input query parameter. To fetch all letter instances, pass the query parameter as null.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>getLetterInstance</p> </td> 
-   <td><p>Fetches the specified letter instance based on letter instance Id.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>letterInstanceExists</p> </td> 
-   <td><p>Checks if a LetterInstance exists by the given name. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Method|Description|
+|--- |--- |
+|getAllLetterInstances|Fetches letter instances based on the input query parameter. To fetch all letter instances, pass the query parameter as null.|
+|getLetterInstance|Fetches the specified letter instance based on letter instance Id.|
+|letterInstanceExists|Checks if a LetterInstance exists by the given name.|
 
 >[!NOTE]
 >
@@ -135,9 +118,9 @@ Check if a Letter Instance exists by the given name
 
 **Syntax**: `public Boolean letterInstanceExists(String letterInstanceName) throws ICCException;`
 
-| **Parameter** |**Description** |
+| **Parameter** | **Description** |
 |---|---|
-| letterInstanceName |Name of letter instance that you want to check if it exists. |
+| letterInstanceName | Name of letter instance that you want to check if it exists. |
 
 ```java
 @Reference

@@ -11,7 +11,7 @@ topic-tags: authoring-on-demand-services-app
 discoiquuid: 958461b0-4cbb-452b-88ea-9b98ada14750
 ---
 
-# Uploading Shared Resources{#uploading-shared-resources}
+# Uploading Shared Resources {#uploading-shared-resources}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Content Management actions are the building blocks that help to create and manag
 >
 >You must associate a Mobile On-Demand connection first.
 
-## Uploading Shared Resources {#uploading-shared-resources}
+## Uploading Shared Resources {#uploading-shared-resources-1}
 
 Typically, content such as articles are required to have the same look and feel across all authors and even apps. Making scripts, css and fonts available to all is therefore essential. This operation sends such shared resources to Mobile On-Demand which can then be consumed as needed.
 

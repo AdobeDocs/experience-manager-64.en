@@ -277,32 +277,11 @@ When you encode a video file, use a source video file of the highest possible qu
 
 The following table describes the recommended size, aspect ratio, and minimum bit rate that your source video files should have before you encode them:
 
-<table> 
- <tbody> 
-  <tr> 
-   <th><p>Size</p> </th> 
-   <th><p>Aspect ratio</p> </th> 
-   <th><p>Minimum bit rate</p> </th> 
-  </tr> 
- </tbody> 
- <tbody> 
-  <tr> 
-   <td><p>1024 X 768</p> </td> 
-   <td><p>4:3</p> </td> 
-   <td><p>4500 kbps for most videos.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>1280 X 720</p> </td> 
-   <td><p>16:9</p> </td> 
-   <td><p>3000 - 6000 kbps, depending on the amount of motion in the video.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>1920 X 1080</p> </td> 
-   <td><p>16:9</p> </td> 
-   <td><p>6000 - 8000 kbps, depending on the amount of motion in the video.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Size|Aspect ratio|Minimum bit rate|
+|--- |--- |--- |
+|1024 X 768|4:3|4500 kbps for most videos.|
+|1280 X 720|16:9|3000 - 6000 kbps, depending on the amount of motion in the video.|
+|1920 X 1080|16:9|6000 - 8000 kbps, depending on the amount of motion in the video.|
 
 ### Obtaining a file's metadata {#obtaining-a-file-s-metadata}
 
@@ -322,32 +301,12 @@ To determine the aspect ratio of a video file, obtain the file’s metadata and 
 
 The following table describes how formula results translate to common aspect ratio choices:
 
-<table> 
- <tbody> 
-  <tr> 
-   <th><p>Formula result</p> </th> 
-   <th><p>Aspect ratio</p> </th> 
-  </tr> 
- </tbody> 
- <tbody> 
-  <tr> 
-   <td><p>1.33</p> </td> 
-   <td><p>4:3</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>0.75</p> </td> 
-   <td><p>3:4</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>1.78</p> </td> 
-   <td><p>16:9</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>0.56</p> </td> 
-   <td><p>9:16</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Formula result|Aspect ratio|
+|--- |--- |
+|1.33|4:3|
+|0.75|3:4|
+|1.78|16:9|
+|0.56|9:16|
 
 For example, a video that is 1440 width x 1080 height has an aspect ratio of 1440/1080, or 1.33. In this case you choose a video encoding preset with a 4:3 aspect ratio to encode the video file.
 

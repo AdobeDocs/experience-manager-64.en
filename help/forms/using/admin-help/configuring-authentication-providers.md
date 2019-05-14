@@ -80,7 +80,7 @@ If you are configuring authentication for an enterprise or hybrid domain and sel
 
 **KDC Host:** Fully qualified host name or IP address of the Active Directory server that is used for authentication.
 
-**Service User:** If you are using Active Directory 2003, this value is the mapping created for the service principal in the form HTTP/<server name>. If you are using Active Directory 2008, this value is the login ID of the service principal. For example, assume that the service principal is named um spnego, the user ID is spnegodemo, and the mapping is HTTP/example.corp.yourcompany.com. With Active Directory 2003, you set Service User to HTTP/example.corp.yourcompany.com. With Active Directory 2008, you set Service User to spnegodemo. (See Enable SSO using SPNEGO.)
+**Service User:** If you are using Active Directory 2003, this value is the mapping created for the service principal in the form `HTTP/<server name>`. If you are using Active Directory 2008, this value is the login ID of the service principal. For example, assume that the service principal is named um spnego, the user ID is spnegodemo, and the mapping is HTTP/example.corp.yourcompany.com. With Active Directory 2003, you set Service User to HTTP/example.corp.yourcompany.com. With Active Directory 2008, you set Service User to spnegodemo. (See Enable SSO using SPNEGO.)
 
 **Service Realm:** Domain name for Active Directory
 

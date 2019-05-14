@@ -15,7 +15,7 @@ discoiquuid: 4a73a973-fccf-466b-b4a0-47652a14a080
 The following APIs are used in AEM Forms workspace.
 
 <table> 
- <tbody style="font-size: 75%;">
+ <tbody>
   <tr>
    <td><strong>Javascript Method</strong></td> 
    <td><strong>Service Name</strong></td> 

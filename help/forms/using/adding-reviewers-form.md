@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 7c39383b-b430-40a1-9bcb-f5aaccb616ad
 ---
 
-# Associating submission reviewers with a form{#associating-submission-reviewers-with-a-form}
+# Associating submission reviewers with a form {#associating-submission-reviewers-with-a-form}
 
 When you create a form, you can specify users who review the submissions of the form via forms portal and provide feedback. Your organization can collect feedback and rework on the submitted forms.
 
@@ -45,7 +45,7 @@ To edit metadata schema:
 
    The submission reviewer group field in the Advanced properties of your adaptive form is enabled with the name you specify under Field Label.
 
-## Associating submission reviewers with a form {#associating-submission-reviewers-with-a-form}
+## Associating submission reviewers with a form {#associating-submission-reviewers-with-a-form-1}
 
 To associate submission reviewers with an adaptive form, create a reviewer group and add users to it. Add the created reviewer group under the form submission reviewer field in the advanced properties of the form.  
 User groups let you associate different sets of submission reviewers with different adaptive forms. This feature prevents a submission review from an unauthorized user.

@@ -13,16 +13,13 @@ discoiquuid: cd4f53ee-537b-4f10-a64f-474ba2c44576
 
 # Create Nodes{#create-nodes}
 
-| ** [⇐ Create Comments Page](/help/communities/overlay-create-comments-page.md)** |** [Alter the Appearance⇒](/help/communities/overlay-alter-appearance.md)** |
-|---|---|
-
 Overlay the comment system with a custom version by copying the minimal number of files necessary from /libs into /apps and modifying them in /apps.
 
 >[!CAUTION]
 >
 >The contents of the /libs folder are never edited because any re-install or upgrade may delete or replace the /libs folder while the contents of the /apps folder is left untouched.
 
-Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md)** **on an author instance, begin by creating a path in the /apps folder which is idential to the path to the overlaid components in the /libs folder.
+Using [CRXDE Lite](/help/sites-developing/developing-with-crxde-lite.md) on an author instance, begin by creating a path in the /apps folder which is identical to the path to the overlaid components in the /libs folder.
 
 The path being duplicated is
 
@@ -122,7 +119,4 @@ The overlay's own `Type`(property `sling:resourceType`) must be a relative self-
 * select **Save All**
 
 ![](assets/chlimage_1-4.png) 
-
-| ** [⇐ Create Comments Page](/help/communities/overlay-create-comments-page.md)** |** [Alter the Appearance⇒](/help/communities/overlay-alter-appearance.md)** |
-|---|---|
 

@@ -12,7 +12,7 @@ discoiquuid: 63dd7d4a-c97e-4949-a4d1-3861e1248ff3
 legacypath: /content/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/drm
 ---
 
-# Digital Rights Management in Assets{#digital-rights-management-in-assets}
+# Digital Rights Management in Assets {#digital-rights-management-in-assets}
 
 Digital assets are often associated with a license, which specifies their terms and duration of use. Because Adobe Experience Manager (AEM) Assets is fully integrated with the AEM platform, you can efficiently manage asset expiration information and asset states. You can also associate licensing information with assets.
 
@@ -164,7 +164,7 @@ The Assets console of Adobe Experience Manager (AEM) Assets can display various 
 
    ![](assets/chlimage_1-166.png)
 
-## Digital Rights Management in Assets {#digital-rights-management-in-assets}
+## Digital Rights Management in Assets {#digital-rights-management-in-assets-1}
 
 This feature enforces the acceptance of the license agreement before you can download a licensed asset from Adobe Experience Manager (AEM) Assets.
 

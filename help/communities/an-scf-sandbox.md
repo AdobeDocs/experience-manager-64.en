@@ -79,7 +79,3 @@ If not logged in, you will be unable to navigate the JCR repository or perform a
 ***When in doubt, re-login!***
 
 ![](assets/chlimage_1-352.png) 
-
-|   |**[Setup Website Structure ⇒](/help/communities/setup-website.md)** |
-|---|---|
-

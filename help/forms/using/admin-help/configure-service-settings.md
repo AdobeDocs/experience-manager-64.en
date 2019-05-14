@@ -345,11 +345,11 @@ The following settings are available for the JMS service.
 
 **Provider URL:** The URL of the JNDI service provider. The default value is based on the JBoss Application Server. The following URL are default values for the application servers that AEM forms supports:
 
-**JBoss:** <server name>:1099
+**JBoss:** `<server name>:1099`
 
-**WebLogic:** <server name>:7001
+**WebLogic:** `<server name>:7001`
 
-**WebSphere:** <server name>:2809
+**WebSphere:** `<server name>:2809`
 
 **JNDI Username:** The user name of the account to use for authenticating with the JNDI service provider that is used for looking up queue and topic names. The default value is guest.
 
@@ -381,7 +381,7 @@ The following settings are available for the LDAP service.
 
 **Initial Context Factory:** The Java class to use as the context factory. This class is used to create a connection to the LDAP server. The default value is com.sun.jndi.ldap.LdapCtxFactory, which is appropriate for most LDAP servers.
 
-**Provider URL:** The URL to use to connect to the LDAP service. The format of the value is ldap://server name:port
+**Provider URL:** The URL to use to connect to the LDAP service. The format of the value is `ldap://server name:port`
 
 *server name* is the name of the computer that hosts the LDAP server
 

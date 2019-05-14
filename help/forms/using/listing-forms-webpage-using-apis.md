@@ -36,7 +36,7 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>cutPoints<br /> </td> 
-   <td><p style="word-break: break-word;">Specifies the properties to fetch with the assets. You can use asterisk (*) to fetch all the properties at once. Use the pipe (|) operator to specify multiple properties. </p> <p style="word-break: break-word;">For example, <code>cutPoints=propertyName1|propertyName2|propertyName3</code></p> <p style="word-break: break-word;"><strong>Note</strong>: </p> 
+   <td><p>Specifies the properties to fetch with the assets. You can use asterisk (*) to fetch all the properties at once. Use the pipe (|) operator to specify multiple properties. </p> <p>For example, <code>cutPoints=propertyName1|propertyName2|propertyName3</code></p> <p><strong>Note</strong>: </p> 
     <ul> 
      <li><em>Properties such as id, path, and name are always fetched. </em></li> 
      <li><em>Every asset has a different set of properties. Properties such as formUrl, pdfUrl, and guideUrl do not depend on the cutpoints attribute. These properties depend on the asset type and are fetched accordingly. </em></li> 
@@ -65,11 +65,11 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>statements</td> 
-   <td><p style="word-break: break-word;">Specifies the list of statements. The queries are executes on the list of the statements specified in the JSON format. </p> <p style="word-break: break-word;">For example,</p> <p style="word-break: break-word;"><code class="code">JSONArray statementArray=new JSONArray();
+   <td><p>Specifies the list of statements. The queries are executes on the list of the statements specified in the JSON format. </p> <p>For example,</p> <p><code class="code">JSONArray statementArray=new JSONArray();
        JSONObject statement=new JSONObject();
        statement.put("name", "title");
        statement.put("value", "SimpleSurveyAF");
-       statement.put("operator", "EQ"); statementArray.put(statement);</code></p> <p style="word-break: break-word;">In the above example, </p> 
+       statement.put("operator", "EQ"); statementArray.put(statement);</code></p> <p>In the above example, </p> 
     <ul> 
      <li><strong>name</strong>: specifies the name of the property to search for.</li> 
      <li><strong>value</strong>: specifies the value of the property to search for.</li> 
@@ -92,7 +92,7 @@ To search forms using the REST API, send a GET request to the server at `https:/
   </tr> 
   <tr> 
    <td>orderings<br /> </td> 
-   <td><p style="word-break: break-word;">Specifies the order criteria for the search results. The criteria is defined in the JSON format. You can sort search results on more than one field. The results are sorted in the order as the fields appear in the query.</p> <p style="word-break: break-word;">For example,</p> <p style="word-break: break-word;">To retrieve query results ordered by title property in the ascending order, add following parameter: </p> <p style="word-break: break-word;"><code class="code">JSONArray orderingsArray=new JSONArray();
+   <td><p>Specifies the order criteria for the search results. The criteria is defined in the JSON format. You can sort search results on more than one field. The results are sorted in the order as the fields appear in the query.</p> <p>For example,</p> <p>To retrieve query results ordered by title property in the ascending order, add following parameter: </p> <p><code class="code">JSONArray orderingsArray=new JSONArray();
        JSONObject orderings=new JSONObject();
        orderings.put("name", "title");
        orderings.put("criteria", "ASC");

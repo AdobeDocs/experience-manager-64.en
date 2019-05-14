@@ -11,10 +11,7 @@ content-type: reference
 discoiquuid: f74d225e-0245-4d5a-bb93-0ee3f31557aa
 ---
 
-# Initial Sandbox Application{#initial-sandbox-application}
-
-| ** [⇐ Setup Website Structure](/help/communities/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/initial-content.md)** |
-|---|---|
+# Initial Sandbox Application {#initial-sandbox-application}
 
 In this section, you will create the following:
 
@@ -113,7 +110,3 @@ Create the *component* that defines the content and renders any pages created ba
    >**The correspondence between the path to the playpage component and the sling:resourceType property of the playpage template is crucial to the correct functioning of the website.**
 
    ![](assets/chlimage_1-79.png)
-
-| ** [⇐ Setup Website Structure](/help/communities/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/initial-content.md)** |
-|---|---|
-

@@ -11,13 +11,13 @@ topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: f45d8a9b-14d6-468f-a44c-3933e962922c
 ---
 
-# Page Templates for Mobile Apps{#page-templates-for-mobile-apps}
+# Page Templates for Mobile Apps {#page-templates-for-mobile-apps}
 
 >[!NOTE]
 >
 >Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
-## Page Templates for Mobile Apps {#page-templates-for-mobile-apps}
+## Page Templates for Mobile Apps {#page-templates-for-mobile-apps-1}
 
 Page components that you create for your app are based on the /libs/mobileapps/components/angular/ng-page component ([open in CRXDE Lite on a local server](http://localhost:4502/crx/de/index.jsp#/libs/mobileapps/components/angular/ng-page)). This component contains the following JSP scripts that your component either inherits or overrides:
 

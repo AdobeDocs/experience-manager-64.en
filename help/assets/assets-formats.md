@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 8519f029-3dd1-4325-9758-e6b5b530a0ee
 ---
 
-# Assets Supported Formats{#assets-supported-formats}
+# Assets Supported Formats {#assets-supported-formats}
 
 The following tables describes all the formats supported by AEM Assets as well as features supported for each format.
 
@@ -158,7 +158,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Microsoft Word">DOC</td> 
+   <td>DOC</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -188,7 +188,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="OpenDocument Text">ODT</td> 
+   <td>ODT</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -203,7 +203,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Adobe PDF"><a href="/help/assets/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>PDF</strong></a></td> 
+   <td><a href="/help/assets/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>PDF</strong></a></td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -218,7 +218,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td>x</td> 
   </tr>
   <tr>
-   <td title="HTML Hypertext">HTML</td> 
+   <td>HTML</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -233,7 +233,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Rich Text Format">RTF</td> 
+   <td>RTF</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -248,7 +248,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Plain Text Format">TXT</td> 
+   <td>TXT</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -263,7 +263,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Microsoft Excel">XLS</td> 
+   <td>XLS</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -293,7 +293,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Open Document Spreadsheet">ODS</td> 
+   <td>ODS</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -308,7 +308,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Microsoft Powerpoint">PPT</td> 
+   <td>PPT</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -338,7 +338,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Open Document Presentation">ODP</td> 
+   <td>ODP</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x</td> 
@@ -353,7 +353,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Adobe In Design"><strong><a href="/help/assets/managing-image-presets.md#indesign-indd-file-format">INDD</a></strong></td> 
+   <td ><strong><a href="/help/assets/managing-image-presets.md#indesign-indd-file-format">INDD</a></strong></td> 
    <td>x</td> 
    <td>x</td> 
    <td> </td> 
@@ -368,7 +368,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Adobe Postscript">PS</td> 
+   <td>PS</td> 
    <td>x</td> 
    <td>x</td> 
    <td> </td> 
@@ -383,7 +383,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="QuarkXPress">QXP</td> 
+   <td>QXP</td> 
    <td>x</td> 
    <td>x</td> 
    <td> </td> 
@@ -501,7 +501,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Compressed TAR">TGZ</td> 
+   <td>TGZ</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x<br /> </td> 
@@ -510,7 +510,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Java archive">JAR</td> 
+   <td>JAR</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x<br /> </td> 
@@ -519,7 +519,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Roshal archive">RAR</td> 
+   <td>RAR</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x<br /> </td> 
@@ -528,7 +528,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Tape archive">TAR</td> 
+   <td>TAR</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x<br /> </td> 
@@ -537,7 +537,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="ZIP archive">ZIP*</td> 
+   <td>ZIP*</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x<br /> </td> 
@@ -582,7 +582,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Other file formats">*</td> 
+   <td>*</td> 
    <td>x</td> 
    <td>x</td> 
    <td>x<br /> </td> 

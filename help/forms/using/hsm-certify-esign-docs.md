@@ -70,7 +70,7 @@ Perform the following steps to setup certificates:
 1. On the **Edit User Settings** page, click **Manage KeyStore**.  
 
 1. On KeyStore Management dialog, expand the **Add Private Key from Key Store file** option and provide an alias. The alias is used to perform the Reader Extensions operation.
-1. To upload the certificate file, click **Select Key Store File** and upload a <filename> `.pfx` file. 
+1. To upload the certificate file, click **Select Key Store File** and upload a `.pfx` file. 
 1. Add the **Key Store Password**,** Private Key Password**, and **Private Key Alias **that is associated with the certificate to the respective fields. Click **Submit**.
 
    >[!NOTE]

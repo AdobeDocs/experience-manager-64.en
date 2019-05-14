@@ -11,7 +11,7 @@ topic-tags: administering-on-demand-services-app
 discoiquuid: c08729f6-1512-4aee-82bb-7cc05749a72f
 ---
 
-# Previewing with Preflight{#previewing-with-preflight}
+# Previewing with Preflight {#previewing-with-preflight}
 
 This page explains Previewing with Preflight app.
 
@@ -27,7 +27,7 @@ With the Mobile On Demand Preflight app, you can view all projects to which you 
 >
 >The Preflight app is similar to the PhoneGap Enterprise viewer in nature.
 
-## Previewing with Preflight {#previewing-with-preflight}
+## Previewing with Preflight {#previewing-with-preflight-1}
 
 1. From Mobile, choose your Mobile On-Demand app from the catalog.
 1. Click the ellipsis (...) from the **Manage Articles** (or Banners/Collections) tile.
