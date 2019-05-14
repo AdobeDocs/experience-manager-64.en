@@ -13,9 +13,6 @@ discoiquuid: e8f28cd5-7950-4aab-bf62-3d4ed3d33cbd
 
 # Initial Sandbox Content{#initial-sandbox-content}
 
-<!--One row table`| ** [⇐ Initial Sandbox Application](/help/communities/initial-app.md)** |** [Develop Sandbox Application ⇒](/help/communities/develop-app.md)** |
-|---|---|`-->
-
 In this section, you create the following pages which all use the [page template](/help/communities/initial-app.md#createthepagetemplate):
 
 * SCF Sandbox Site, which will redirect to the English version of the main page
@@ -107,7 +104,4 @@ The respository should appear as follows:
 >[!NOTE]
 >
 >The use of cq:designPath is optional and is unrelated to the [use of clientlibs](/help/communities/develop-app.md#includeclientlibsintemplate), which are essentially required as the SCF components use [clientlibs](/help/communities/client-customize.md#clientlibs-for-scf) to manage their JS and CSS.
-
-<!--One row table`| ** [⇐ Initial Sandbox Application](/help/communities/initial-app.md)** |** [Develop Sandbox Application ⇒](/help/communities/develop-app.md)** |
-|---|---|`-->
 

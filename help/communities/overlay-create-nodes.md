@@ -13,9 +13,6 @@ discoiquuid: cd4f53ee-537b-4f10-a64f-474ba2c44576
 
 # Create Nodes{#create-nodes}
 
-<!--One row table`| ** [⇐ Create Comments Page](/help/communities/overlay-create-comments-page.md)** |** [Alter the Appearance⇒](/help/communities/overlay-alter-appearance.md)** |
-|---|---|`-->
-
 Overlay the comment system with a custom version by copying the minimal number of files necessary from /libs into /apps and modifying them in /apps.
 
 >[!CAUTION]
@@ -122,7 +119,4 @@ The overlay's own `Type`(property `sling:resourceType`) must be a relative self-
 * select **Save All**
 
 ![](assets/chlimage_1-4.png) 
-
-<!--One row table`| ** [⇐ Create Comments Page](/help/communities/overlay-create-comments-page.md)** |** [Alter the Appearance⇒](/help/communities/overlay-alter-appearance.md)** |
-|---|---|`-->
 

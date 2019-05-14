@@ -13,18 +13,15 @@ discoiquuid: da3891d3-fa07-4c88-b4ac-077926b3a674
 
 # Alter the Appearance {#alter-the-appearance}
 
-<!--One row table`| ** [⇐ Create Nodes](/help/communities/overlay-create-nodes.md)** |  |
-|---|---|`-->
-
 ## Modify the Script {#modify-the-script}
 
 The comment.hbs script is responsible for creating the overall HTML for each comment.
 
 To not display the avatar next to each posted comment:
 
-1. copy** ** `comment.hbs`from `libs`to `apps`
+1. copy `comment.hbs`from `libs`to `apps`
 
-    1. select** ** `/libs/social/commons/components/hbs/comments/comment/comment.hbs`
+    1. select `/libs/social/commons/components/hbs/comments/comment/comment.hbs`
     
     1. select **Copy**
     1. select `/apps/social/commons/components/hbs/comments/comment`
@@ -73,7 +70,4 @@ If you login to the publish instance as an administrator, e.g., http://localhost
 If you logout and re-login as `aaron.mcdonald@mailinator.com/password` and refresh the page, you will observe that the posted comment no longer displays with an avatar, instead a simple 'xxx' is displayed.
 
 ![](assets/chlimage_1-43.png) 
-
-<!--One row table`| ** [⇐ Create Nodes](/help/communities/overlay-create-nodes.md)** |  |
-|---|---|`-->
 

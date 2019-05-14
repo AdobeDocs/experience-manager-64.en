@@ -13,9 +13,6 @@ discoiquuid: 0d462ad1-5619-4bb6-9609-bc8987c40a0c
 
 # Initial Setup {#initial-setup}
 
-<!--One row table`|   |**[Author a New Community Site ⇒](/help/communities/create-site.md)** |
-|---|---|`-->
-
 ## Start Author and Publish Instances {#start-author-and-publish-instances}
 
 For development and demonstration purposes, it will be necessary to run one author and one publish instance.
@@ -156,7 +153,3 @@ It is recommended, but optional, to set [MSRP](/help/communities/msrp.md) (Mongo
 For instructions visit [How to Setup MongoDB for Demo](/help/communities/demo-mongo.md).
 
 By default, the installation of the author and publish AEM instances result in user generated content (UGC) being stored in [JCR Tar storage](/help/sites-deploying/platform.md) which is accessed using [JSRP](/help/communities/jsrp.md). JSRP is not a common store, which means UGC is visible only on the instance on which it was entered. Typically, UGC is entered on a publish instance and would not be visible in the author environment, resulting in all moderation tasks needing to use the publish instance.
-
-<!--One row table `|   |** [Author a New Community Site⇒](/help/communities/create-site.md)** |
-|---|---|`-->
-

@@ -13,9 +13,6 @@ discoiquuid: aff8b79f-dd4e-486e-9d59-5d09dfe34f27
 
 # Author a New Community Site for Enablement{#author-a-new-community-site-for-enablement}
 
-<!--One row table`| **[⇐ Initial Setup](/help/communities/enablement-setup.md)** |**[Create and Assign Enablement Resources ⇒](/help/communities/resource.md)** |
-|---|---|`-->
-
 ## Create Community Site {#create-community-site}
 
 [Community Site creation](/help/communities/sites-console.md) employs a wizard which guides you through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
@@ -356,7 +353,3 @@ Use the Position Icon to move the Catalog function to the second position, after
 Select **Save** in the upper right corner to save the changes to the community site.
 
 Then re-**Publish** the site.
-
-<!--One row table`| ** [⇐ Initial Setup](/help/communities/enablement-setup.md)** |** [Create and Assign Enablement Resources ⇒](/help/communities/resource.md)** |
-|---|---|`-->
-

@@ -13,9 +13,6 @@ discoiquuid: f2ac3d66-cc79-498f-83fb-dd96feb88de2
 
 # Initial Setup for Enablement {#initial-setup-for-enablement}
 
-<!--One row table`|   |** [Author a New Community Site for Enablement ⇒](/help/communities/enablement-create-site.md)** |
-|---|---|`-->
-
 ## Start Author and Publish Instances {#start-author-and-publish-instances}
 
 For development and demonstration purposes, it will be necessry to run one author and one publish instance.
@@ -213,7 +210,4 @@ Scroll down to `Add User to Groups`:
 * select **Save**
 
 ![](assets/chlimage_1-419.png)
-
-<!--One row table`|   |** [Author a New Community Site for Enablement ⇒](/help/communities/enablement-create-site.md)** |
-|---|---|`-->
 

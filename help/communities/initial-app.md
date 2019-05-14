@@ -13,9 +13,6 @@ discoiquuid: f74d225e-0245-4d5a-bb93-0ee3f31557aa
 
 # Initial Sandbox Application {#initial-sandbox-application}
 
-<!--One row table`| ** [⇐ Setup Website Structure](/help/communities/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/initial-content.md)** |
-|---|---|`-->
-
 In this section, you will create the following:
 
 * The ** [template](#createthepagetemplate) **that will be used to create content pages in the example website
@@ -113,7 +110,3 @@ Create the *component* that defines the content and renders any pages created ba
    >**The correspondence between the path to the playpage component and the sling:resourceType property of the playpage template is crucial to the correct functioning of the website.**
 
    ![](assets/chlimage_1-79.png)
-
-<!--One row table`| ** [⇐ Setup Website Structure](/help/communities/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/initial-content.md)** |
-|---|---|`-->
-
