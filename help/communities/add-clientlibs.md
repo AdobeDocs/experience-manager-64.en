@@ -13,8 +13,8 @@ discoiquuid: c84040b0-7850-4960-b676-ffa0a74c8cb2
 
 # Add Clientlibs{#add-clientlibs}
 
-<!--One row table| **[⇐ Develop Sandbox Application](/help/communities/develop-app.md)** |**[Develop Sandbox Content ⇒](/help/communities/develop-content.md)** |
-|---|---|-->
+<!--One row table`| **[⇐ Develop Sandbox Application](/help/communities/develop-app.md)** |**[Develop Sandbox Content ⇒](/help/communities/develop-content.md)** |
+|---|---|`-->
 
 ## Add a ClientLibraryFolder (clientlibs) {#add-a-clientlibraryfolder-clientlibs}
 
@@ -184,6 +184,5 @@ To create a package:
 
 Now you can select **Download **to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.  
 
-<!--One row table| **[⇐ Develop Sandbox Application](/help/communities/develop-app.md)** |**[Develop Sandbox Content ⇒](/help/communities/develop-content.md)** |
-|---|---|-->
+<!--One row table **[⇐ Develop Sandbox Application](/help/communities/develop-app.md)** **[Develop Sandbox Content ⇒](/help/communities/develop-content.md)**-->
 
