@@ -112,8 +112,8 @@ Perform the following steps to create a report suite.
 Cloud Service configuration is information about your Adobe Analytics account. The configuration enables Adobe Experience Manager (AEM) to connect to Adobe Analytics. Create a separate configuration for each Analytics account that you use.
 
 1. Log in to your AEM author instance as an administrator.
-1. In the top-left corner, click **Adobe Experience Manager &gt; Tools ![](assets/tools.png)&gt; Deployment &gt; Cloud Services**.
-1. Locate **Adobe Analytics** icon. Click** Show Configurations** and then proceed to click **[+]** to add new configuration.
+1. In the top-left corner, click **Adobe Experience Manager** &gt; **Tools** ![](assets/tools.png)&gt; **Deployment** &gt; **Cloud Services**.
+1. Locate **Adobe Analytics** icon. Click **Show Configurations** and then proceed to click **[+]** to add new configuration.
 
    If you are a first-time user, click **Configure now**. 
 
@@ -151,7 +151,7 @@ An Adobe Analytics framework is a set of mappings between Adobe Analytics variab
 
    ![](assets/information_to_send_to_report_suite.png)
 
-1. Drag a **Form Analytics component** from the **other **category from SideKick onto the framework. 
+1. Drag a **Form Analytics component** from the **other** category from SideKick onto the framework. 
 1. To map Analytics variables with variables that are defined in the component, drag a variable from AEM Content Finder onto a field on the tracking component.
 
    ![Mapping AEM variables with Adobe Analytics variables](assets/analytics.png)

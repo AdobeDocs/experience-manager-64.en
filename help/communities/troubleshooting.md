@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: cdb2d80a-2fbf-4ee6-b89b-b5d74e6d3bfc
 ---
 
-# Troubleshooting{#troubleshooting}
+# Troubleshooting {#troubleshooting}
 
-| ** [⇐ Social Component Framework](/help/communities/scf.md)** |** [Feature Essentials ⇒](/help/communities/essentials.md)** |
-|---|---|
+<!--One row table| ** [⇐ Social Component Framework](/help/communities/scf.md)** |** [Feature Essentials ⇒](/help/communities/essentials.md)** |
+|---|---|-->
 
 This section contains common concerns and known issues.
 
@@ -28,7 +28,7 @@ Using Dispatcher 4.1.6 or later will resolve this issue.
 
 ### Cannot Access Forum Post After Upgrading from CQ 5.4 {#cannot-access-forum-post-after-upgrading-from-cq}
 
-If a forum was created on CQ 5.4 and topics posted , and then the site was upgraded to AEM 5.6.1 or later, attempting to view the existing posts may result in an error on the page:
+If a forum was created on CQ 5.4 and topics posted, and then the site was upgraded to AEM 5.6.1 or later, attempting to view the existing posts may result in an error on the page:
 
 illegal pattern character "'a'  
 Cannot serve request to /content/demoforums/forum-test.html on this server
@@ -86,11 +86,11 @@ These warnings can be safely ignored.
 Upgrading AEM 5.6.1 GA to latest cq-socialcommunities-pkg-1.4.x or to AEM 6.0 results in errors in the log file during startup for a condition which will resolve itself as evidenced by the error not being seen upon restart.
 
 ```xml
-14.11.2013 20:52:39.453 ERROR [Apche Sling JCR Resource Event Queue Processor for path '/'] com.adobe.cq.social.storage.index.impl.IndexService Error occured while processing event java.util.ConcurrentModificationException
+14.11.2013 20:52:39.453 ERROR [Apache Sling JCR Resource Event Queue Processor for path '/'] com.adobe.cq.social.storage.index.impl.IndexService Error occurred while processing event java.util.ConcurrentModificationException
 14.11.2013 20:52:40.716 ERROR [OsgiInstallerImpl] com.adobe.cq.social.cq-social-commons [CommentListProvider] Error during instantiation of the implementation object (java.lang.NoClassDefFoundError: com/adobe/cq/social/storage/index/IndexElementFactory) java.lang.NoClassDefFoundError: com/adobe/cq/social/storage/index/IndexElementFactory
 14.11.2013 20:52:40.717 ERROR [OsgiInstallerImpl] com.adobe.cq.social.cq-social-commons [CommentListProvider] Failed creating the component instance; see log for reason
 ```
 
-| ** [⇐ Social Component Framework](/help/communities/scf.md)** |** [Feature Essentials ⇒](/help/communities/essentials.md)** |
-|---|---|
+<!--One row table| ** [⇐ Social Component Framework](/help/communities/scf.md)** |** [Feature Essentials ⇒](/help/communities/essentials.md)** |
+|---|---|-->
 

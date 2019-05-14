@@ -13,8 +13,8 @@ discoiquuid: d18c0ece-4c4f-499c-ac94-a9aaa7f883c4
 
 # Setup Website Structure{#setup-website-structure}
 
-| [**⇐ Create An SCF Sandbox**](/help/communities/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](/help/communities/initial-app.md)** |
-|---|---|
+<!--One row table| [**⇐ Create An SCF Sandbox**](/help/communities/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](/help/communities/initial-app.md)** |
+|---|---|-->
 
 To setup your website, the instructions below describe the folders to create in the following locations:
 
@@ -46,7 +46,7 @@ The /apps directory in the repository contains the code with implements the beha
 
 The /apps directory is protected and not publicly accessible as are the /content and /etc/designs directories.
 
-1. Create** /apps/an-scf-sandbox **folder.
+1. Create **/apps/an-scf-sandbox** folder.
 
    Using **CRXDE Lite**, in the explorer pane
 
@@ -60,7 +60,7 @@ The /apps directory is protected and not publicly accessible as are the /content
     
     1. click **OK**
 
-1. Create **components **subfolder.
+1. Create **components** subfolder.
 
     1. select the **/apps/an-scf-sandbox** folder
     1. click **Create** &gt; **Create Folder**
@@ -123,6 +123,6 @@ The /content directory in the respository is where the website content resides. 
 
 *After *the [page template](/help/communities/initial-app.md#createthepagetemplate) is created as part of the initial application, the initial page content can be created based on the template.... [**⇒**](/help/communities/initial-app.md)
 
-| [**⇐ Create An SCF Sandbox**](/help/communities/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](/help/communities/initial-app.md)** |
-|---|---|
+<!--One row table| [**⇐ Create An SCF Sandbox**](/help/communities/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](/help/communities/initial-app.md)** |
+|---|---|-->
 

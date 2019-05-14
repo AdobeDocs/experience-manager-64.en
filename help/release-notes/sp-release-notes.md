@@ -294,13 +294,13 @@ The key highlights for AEM 6.4.4.0 forms are:
 >
 >For AEM Forms customers, it is essential to install AEM Forms add-on package after installing any AEM Service Pack, Cumulative Fix Pack, or Feature Pack.
 
-### Sites {#sites}
+### Sites {#sites-1}
 
 * Content Fragments versioning compare difference improvements for AEM 6.4.  NPR-26760: FP for CQ-4248839
 * Content Fragments variation difference improvements for AEM 6.4.  NPR-27866: FP for CQ-4248839
 * Enabled feature in OSGI configuration "AEM Workflow Withdraw Feature Flag". The withdraw action should terminate the workflow instance after setting the flag. NPR-26451: Hotfix for CQ-4259090
 
-### Platform {#platform}
+### Platform {#platform-1}
 
 * Enhance Query Builder Facet Extraction leverage Oak API for 6.4. NPR-26674: FP for CQ-4230337
 
@@ -308,7 +308,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 
 <!--Theses sections used to be an accordion until converted to straight Markdown. When accordions are enabled, revert-->
 
-### AEM 6.4.3.0
+### AEM 6.4.3.0 {#aem-6-4-3-0}
 
 AEM 6.4.3.0 is an important update that includes performance, stability, security and key customer fixes and enhancements released since the general availability of AEM 6.4 in **April 2018.**
 
@@ -325,7 +325,7 @@ Some of the key highlights of AEM 6.4.3.0 are:
 *   Improved handling of placeholder items (Card View and List View) during selection.
 *   Added Adobe IMS Authentication and Admin Console Support for Managed Services.
 
-### Assets
+### Assets {#assets-1}
 
 *   The DAM Update Asset workflow does not extract references from INDD files if the IDS Decouple option is enabled. NPR-26243; Hotfix for CQ-4250933
 *   The success message is not displayed when assets are published with Assets Bulk Editor. NPR-26252; Hotfix for CQ-4251688.
@@ -342,7 +342,7 @@ Some of the key highlights of AEM 6.4.3.0 are:
 *   Metadata Editor page contains Null Pointer Exception for invalid item parameter. NPR-26169; Hotfix for CQ-4241368.
 *   If a drop-down has a choice rule and a required rule applied to it, the required rule cannot be satisfied in the metadata editor. NPR-27479; Hotfix of CQ-4251428
 
-### Sites
+### Sites {#sites-2}
 
 *   A user can control the rich text editor features in the in-line full screen mode using content policies, but cannot control the Edit Dialog rich text editor features with content policies. NPR-26750: Hotfix for CQ-4241130
 *   Rich text editor becomes un-usable when switched from full screen to floating dialog. The floating view contains two rich text editors. NPR-25589: Hotfix for CQ-4206008
@@ -365,23 +365,23 @@ Some of the key highlights of AEM 6.4.3.0 are:
 *   When data-sly-use is used with classes with identical name, non-compliable code is produced. NPR-27282: Hotfix for Sling-7581
 *   Post upgrade SP installation, the sites have blank blueprint rollout configuration. NPR-27609: Hotfix for CQ-4257078
 
-### DAM - Brand Portal
+### DAM - Brand Portal {#dam-brandportal}
 
 *   Tag predicates are not published when metadata schema form is published to Brand Portal. Hotfix for CQ-4256218
 *   When a third-level folder is published from AEM to Brand Portal, without publishing the parent folders, the folder name changes. Hotfix for CQ-4255423
 *   The path browser predicate is published from AEM Assets to Brand Portal as expected. However, the published path at BP remains /content/dam, which must be updated. Hotfix for CQ-4256240
 
-### DAM - Creative Cloud
+### DAM - Creative Cloud {#dam-creative-cloud-1}
 
 *   "Search Adobe Assets" Icon is missing from the AEM main navigation. Hotfix for CQ-4254343
 
-### DAM - DM Client
+### DAM - DM Client {#dam-dm-client}
 
 *   After ingesting videos into a folder associated with the AVS Video Processing Profile, the browser window refreshes over and over again. Hotfix for CQ-4253563
 *   YouTube Publish fails when using an Ad Hoc Tag that includes uppercase characters. Hotfix for CQ-4252477
 *   When an annotation is created in an asset like PDF, the UI starts an infinite page refresh loop. NPR-27052: Hotfix for CQ-4255396
 
-### DAM - DM Services
+### DAM - DM Services {#dam-dm-services}
 
 *   Dynamic Media does not use the configured proxy for some types of assets. NPR-10727; Hotfix for CQ-4244871
 
@@ -401,19 +401,19 @@ Some of the key highlights of AEM 6.4.3.0 are:
 *   Package manager activity logs should be extracted in a separate log file. NPR-27323: Hotfix for Granite-14866
 *   Package validator does not report overlays in CFP. NPR-27119: Hotfix for GRANITE-22825
 
-### Projects
+### Projects {#projects-1}
 
 *   ACP API mishandles paging with only subdirectory children. NPR-27617: Hotfix for CQ-4258639
 
-### OAK
+### OAK {#oak}
 
 *   Unable to login to the repository after installing AEM 6.4 Service Pack 2. NPR-27171: Hotfix for Granite-23317
 
-### Replication
+### Replication {#replication-1}
 
 *   Audit Log remains open with active sessions which keep on constantly increasing with ~750 each day. NPR-27062: Hotfix for CQ-4241350
 
-### Communities
+### Communities {#communities-1}
 
 *   Forum posts and replies are added on top of the second page and when refreshed, the post moves to the correct location on top of the first page. NPR-27342: Hotfix for CQ-4247338
 *   Links to all the resources drop the context path (/aempublish) after scrolling. NPR-26982: Hotfix for CQ-4254345
@@ -447,11 +447,11 @@ Some of the key highlights of AEM 6.4.3.0 are:
 *   User Subscription limit is limited to 1000. NPR-27614: Hotfix for CQ-4254689
 *   Editing a site and editing roles in the role settings throw Null Pointer Exception. NPR-27377; Hotfix for CQ-4255909
 
-### Translation
+### Translation {#translation-1}
 
 *   Translation preview does not work with the we.retail sample content. NPR-26727: Hotfix for CQ-4241179
 
-### UI - Foundation
+### UI - Foundation {#foundation}
 
 *   A NullPointerException is returned when attempting to download configurations after upgrading to AEM 6.4. NPR-27310: Hotfix for Granite-23573
 *   Proactive Backport for granite.platform.login fixes. NPR-26941
@@ -463,22 +463,22 @@ Some of the key highlights of AEM 6.4.3.0 are:
 *   Proactive Backport for granite.ui.commons fixes. NPR-26753
 *   Proactive Foundation UI Backports. NPR-26248
 
-### Integration
+### Integration {#integration-1}
 
 *   Modifications in AEM experiences created through the targeting engine are not published. NPR-24869: Hotfix for CQ-4247832
 *   Cannot create multiple activities and experiences if their names include Japanese characters. NPR-27271: Hotfix for CQ-4256857
 *   Update Launch API endpoint. NPR-26790: Hotfix for CQ-4254380
 *   \[Personalization\] BrandsRetriever walks the entire tree. NPR-27060: Hotfix for CQ-4255790
 
-### WCM - Admin UI
+### WCM - Admin UI {#wcm-admin-ui}
 
 *   Added HTTP test for publishing/unpublishing a page with references and an UI test for Live Copy. Hotfix for CQ-4256894
 
-### WCM - Page Editor
+### WCM - Page Editor {#wcm-page-editor}
 
 *   Edit toolbar gets disabled for components on the first edit. Hotfix for CQ-4253270
 
-### Forms
+### Forms {#forms-1}
 
 The key highlights for AEM 6.4.3.0 forms are:
 

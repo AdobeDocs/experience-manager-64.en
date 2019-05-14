@@ -80,6 +80,6 @@ If not logged in, you will be unable to navigate the JCR repository or perform a
 
 ![](assets/chlimage_1-352.png) 
 
-|   |**[Setup Website Structure ⇒](/help/communities/setup-website.md)** |
-|---|---|
+<!--One row table|   |**[Setup Website Structure ⇒](/help/communities/setup-website.md)** |
+|---|---|-->
 

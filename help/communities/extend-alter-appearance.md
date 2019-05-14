@@ -13,8 +13,8 @@ discoiquuid: 70be208d-185b-4b27-8e01-74e62f656344
 
 # Alter the Appearance (HBS){#alter-the-appearance-hbs}
 
-| ** [⇐ Add Comment to Sample Page](/help/communities/extend-sample-page.md)** |  |
-|---|---|
+<!--One row table| ** [⇐ Add Comment to Sample Page](/help/communities/extend-sample-page.md)** |  |
+|---|---|-->
 
 Now that the components for the custom comment system in the application directory (/apps) are in place, with a resourceSuperType referencing the default comment system and the custom Model/View registered, it is possible to modify the implementation.
 
@@ -77,6 +77,5 @@ Attached is a package of the custom comments application created in this tutoria
 
 [Get File](assets/sample-comment-extension-6-1-fp3.zip)
 
-| ** [⇐ Add Comment to Sample Page](/help/communities/extend-sample-page.md)** |  |
-|---|---|
-
+<!--One row table| ** [⇐ Add Comment to Sample Page](/help/communities/extend-sample-page.md)** |  |
+|---|---|-->

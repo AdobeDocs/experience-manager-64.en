@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: 7185fb13-46a2-4fa3-aa21-a51e63cdb9be
 ---
 
-# Add Comment to Sample Page{#add-comment-to-sample-page}
+# Add Comment to Sample Page {#add-comment-to-sample-page}
 
-| **[⇐ Create the Components](/help/communities/extend-create-components.md)** | ** [Alter the Appearance ⇒](/help/communities/extend-alter-appearance.md)** |
-|---|---|
+<!--One row table| **[⇐ Create the Components](/help/communities/extend-create-components.md)** | ** [Alter the Appearance ⇒](/help/communities/extend-alter-appearance.md)** |
+|---|---|-->
 
 Now that the components for the custom comment system are in place in the application directory (/apps), it is possible to make use of the extended component. The instance of the comment system in a website to be affected must set its resourceType to be the custom comment system and include all necessary client libraries.
 
@@ -66,6 +66,6 @@ Here is aaron.mcdonald@mailinator.com posting a comment:
 
 Now that it appears the extended component is working correctly with the default appearance, it is time to modify the appearance.
 
-| ** [⇐ Create the Components](/help/communities/extend-create-components.md)** |** [Alter the Appearance ⇒](/help/communities/extend-alter-appearance.md)** |
-|---|---|
+<!--One row table| ** [⇐ Create the Components](/help/communities/extend-create-components.md)** |** [Alter the Appearance ⇒](/help/communities/extend-alter-appearance.md)** |
+|---|---|-->
 

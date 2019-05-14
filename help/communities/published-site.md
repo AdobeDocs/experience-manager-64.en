@@ -13,7 +13,7 @@ discoiquuid: 4dc54701-68b9-49dd-a212-b0b53330c1c0
 
 # Experience the Published Site{#experience-the-published-site}
 
-| ** [⇐ Author a New Community Site](/help/communities/create-site.md)** |** [Authoring Nested Groups ⇒](/help/communities/nested-groups.md)** |
+<!--One row table| ** [⇐ Author a New Community Site](/help/communities/create-site.md)** |** [Authoring Nested Groups ⇒](/help/communities/nested-groups.md)** |-->
 |---|---|
 
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}
@@ -216,6 +216,6 @@ If the member forgets their login id, it is possible to recover is using their e
 
 ![](assets/chlimage_1-326.png)
 
-| ** [⇐ Author a New Community Site](/help/communities/create-site.md)** |** [Authoring Nested Groups ⇒](/help/communities/nested-groups.md)** |
-|---|---|
+<!--One row table| ** [⇐ Author a New Community Site](/help/communities/create-site.md)** |** [Authoring Nested Groups ⇒](/help/communities/nested-groups.md)** |
+|---|---|-->
 

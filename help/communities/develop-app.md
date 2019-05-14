@@ -13,8 +13,8 @@ discoiquuid: 910229a3-38b1-44f1-9c09-55f8fd6cbb1d
 
 # Develop Sandbox Application{#develop-sandbox-application}
 
-| ** [⇐ Initial Sandbox Content](/help/communities/initial-content.md)** |** [Add Clientlibs ⇒](/help/communities/add-clientlibs.md)** |
-|---|---|
+<!--One row table| ** [⇐ Initial Sandbox Content](/help/communities/initial-content.md)** |** [Add Clientlibs ⇒](/help/communities/add-clientlibs.md)** |
+|---|---|-->
 
 In this section, now that the template has been setup in the [initial application](/help/communities/initial-app.md) section, and the initial pages established in the [initial content](/help/communities/initial-content.md) section, the application can be developed using foundation scripts including the ability to enable authoring with Communities components. At the end of this section, the website will be functional.
 
@@ -178,9 +178,8 @@ Change the browser URL to the root page: [http://localhost:4502/editor.html/cont
 
 Once the site is published, browsing to the root page on a publish instance will redirect to the english page.  
 
-| The last step before playing with the communities SCF components is to add a Client Library Folder (clientlibs) .... ** [⇒](/help/communities/add-clientlibs.md)** |
-|---|
+The last step before playing with the communities SCF components is to add a Client Library Folder (clientlibs) .... **[⇒](/help/communities/add-clientlibs.md)** 
 
-| ** [⇐ Initial Sandbox Content](/help/communities/initial-content.md)** |** [Add Clientlibs ⇒](/help/communities/add-clientlibs.md)** |
-|---|---|
+<!--One row table| ** [⇐ Initial Sandbox Content](/help/communities/initial-content.md)** |** [Add Clientlibs ⇒](/help/communities/add-clientlibs.md)** |
+|---|---|-->
 

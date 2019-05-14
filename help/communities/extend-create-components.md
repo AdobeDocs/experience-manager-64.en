@@ -13,8 +13,8 @@ discoiquuid: 83c4f18a-d7d6-4090-88c7-41a9075153b5
 
 # Create the Components{#create-the-components}
 
-|   |** [Add Comment to Sample Page ⇒](/help/communities/extend-sample-page.md)** |
-|---|---|
+<!--One row table|   |** [Add Comment to Sample Page ⇒](/help/communities/extend-sample-page.md)** |
+|---|---|-->
 
 The example of extending components uses the comment system, which is actually composed of two components
 
@@ -218,6 +218,6 @@ One way to do so is
     * uncheck `Only Modified`
     * select `Activate`button
 
-|   |** [Add Comment to Sample Page ⇒](/help/communities/extend-sample-page.md)** |
-|---|---|
+<!--One row table|   |** [Add Comment to Sample Page ⇒](/help/communities/extend-sample-page.md)** |
+|---|---|-->
 

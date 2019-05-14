@@ -13,8 +13,8 @@ discoiquuid: f2ac3d66-cc79-498f-83fb-dd96feb88de2
 
 # Initial Setup for Enablement {#initial-setup-for-enablement}
 
-|   |** [Author a New Community Site for Enablement ⇒](/help/communities/enablement-create-site.md)** |
-|---|---|
+<!--One row table|   |** [Author a New Community Site for Enablement ⇒](/help/communities/enablement-create-site.md)** |
+|---|---|-->
 
 ## Start Author and Publish Instances {#start-author-and-publish-instances}
 
@@ -214,6 +214,6 @@ Scroll down to `Add User to Groups`:
 
 ![](assets/chlimage_1-419.png)
 
-|   |** [Author a New Community Site for Enablement ⇒](/help/communities/enablement-create-site.md)** |
-|---|---|
+<!--One row table|   |** [Author a New Community Site for Enablement ⇒](/help/communities/enablement-create-site.md)** |
+|---|---|-->
 

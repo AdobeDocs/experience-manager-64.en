@@ -25,7 +25,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
    <th>Exception</th> 
   </tr> 
   <tr> 
-   <td><code>prevText </code></td> 
+   <td><code>prevText</code></td> 
    <td>Specifies the content of the field before it changes in response to the actions of a user. This value can be recalled, similar to an undo feature.</td> 
    <td><p>Does not work for drop-downs and list boxes. <code>PrevText </code>does not work correctly for the following cases:</p> 
     <ul> 
@@ -95,7 +95,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
   <tr> 
    <td><code>name</code></td> 
    <td>Returns the name of the current application.</td> 
-   <td>Returns the browser name and its version. For example, in Chrome browser, the value returned is <code>Chrome &lt;version&gt;. </code></td> 
+   <td>Returns the browser name and its version. For example, in Chrome browser, the value returned is <code>Chrome &lt;version&gt;.</code></td> 
   </tr> 
   <tr> 
    <td><code>numPages</code></td> 
@@ -391,6 +391,7 @@ JavaScript, FormCalc properties, and methods supported in HTML5 forms are as lis
 
 | Property |Description |Exception |
 |---|---|---|
+| NA | NA | NA |
 
 ## Subform {#subform}
 

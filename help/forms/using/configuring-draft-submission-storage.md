@@ -44,9 +44,6 @@ Data is reverse replicated to configured author instance.
 
 <table> 
  <tbody>
-  <tr></tr>
- </tbody>
- <tbody>
   <tr>
    <th>Property</th> 
    <th>Value</th> 
@@ -75,9 +72,6 @@ Data is reverse replicated to configured author instance.
 Data is pushed directly to configured remote instance
 
 <table> 
- <tbody>
-  <tr></tr>
- </tbody>
  <tbody>
   <tr>
    <th>Property</th> 

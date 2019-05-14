@@ -12,7 +12,7 @@ discoiquuid: e401816d-eba5-4833-a3bd-e2e45bc3b19e
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets
 ---
 
-# Managing Image Presets{#managing-image-presets}
+# Managing Image Presets {#managing-image-presets}
 
 Image Presets enable AEM Assets to dynamically deliver images at different sizes, in different formats, or with other image properties that are generated dynamically. Each Image Preset represents a predefined collection of sizing and formatting commands for displaying images. When you create an Image Preset, you choose a size for image delivery. You also choose formatting commands so that the appearance of the image is optimized when the image is delivered for viewing.
 
@@ -36,7 +36,7 @@ Images that are reduced in size when they are delivered dynamically can lose sha
 
 Administrators can create Image Presets. To create an image preset, you can start from scratch or you can start from an existing one and save it under a new name.
 
-## Managing Image Presets {#managing-image-presets}
+## Managing Image Presets {#managing-image-presets-1}
 
 You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **Assets **&gt;** Image Presets**.
 

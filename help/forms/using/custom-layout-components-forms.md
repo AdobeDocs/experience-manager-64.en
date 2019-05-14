@@ -26,11 +26,7 @@ The Adaptive Form Panel Layout component controls the way adaptive form componen
 1. Copy a panel layout from the location `/libs/fd/af/layouts/panel` (for example, `tabbedPanelLayout`) to `/apps` (for example, `/apps/af-custom-layout`).
 1. Rename the layout you copied to `customPanelLayout`. Change the properties of the nodes `qtip` and `jcr:description`. For example, change them to `Custom layout - Toggle tabs`.
 
-   |  
-   qtip   |
-   |---|
-
-   ![Custom Panel Layout CRX DE Snapshot](assets/custom.png)
+![Custom Panel Layout CRX DE Snapshot](assets/custom.png)
 
    >[!NOTE]
    >

@@ -11,7 +11,7 @@ topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: fd7bcf17-af7e-4bd6-8137-48401d9743c5
 ---
 
-# Developing Mobile Applications in AEM{#developing-mobile-applications-in-aem}
+# Developing Mobile Applications in AEM {#developing-mobile-applications-in-aem}
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ IOS developers should be aware of an open issue with Cordova apps running on iOS
 >
 >For more detail on “App Transport Security”, see the following section of [Apple’s iOS9 prerelease docs](https://developer.apple.com/library/prerelease/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS9.html#//apple_ref/doc/uid/TP40016198-SW14) and this [Stack Overflow discussion](https://stackoverflow.com/questions/30751053/ios9-ats-what-about-html5-based-apps/).
 
-## Developing Mobile Applications in AEM {#developing-mobile-applications-in-aem}
+## Developing Mobile Applications in AEM {#developing-mobile-applications-in-aem-1}
 
 * [Starting AEM PhoneGap](/help/mobile/starting-aem-phonegap-app.md)
 * [Building Mobile Applications](/help/mobile/building-app-mobile-phonegap.md)

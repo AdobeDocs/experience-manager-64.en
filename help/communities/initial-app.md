@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: f74d225e-0245-4d5a-bb93-0ee3f31557aa
 ---
 
-# Initial Sandbox Application{#initial-sandbox-application}
+# Initial Sandbox Application {#initial-sandbox-application}
 
-| ** [⇐ Setup Website Structure](/help/communities/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/initial-content.md)** |
-|---|---|
+<!--One row table| ** [⇐ Setup Website Structure](/help/communities/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/initial-content.md)** |
+|---|---|-->
 
 In this section, you will create the following:
 
@@ -114,6 +114,6 @@ Create the *component* that defines the content and renders any pages created ba
 
    ![](assets/chlimage_1-79.png)
 
-| ** [⇐ Setup Website Structure](/help/communities/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/initial-content.md)** |
-|---|---|
+<!--One row table| ** [⇐ Setup Website Structure](/help/communities/setup-website.md)** |** [Initial Sandbox Content ⇒](/help/communities/initial-content.md)** |
+|---|---|-->
 

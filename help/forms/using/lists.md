@@ -11,7 +11,7 @@ discoiquuid: 7bdf1f06-c298-4695-bad1-e402cf472086
 
 # Document Fragments{#document-fragments}
 
-## Document Fragments {#document-fragments}
+## Document Fragments {#document-fragments-1}
 
 Document fragments are reusable parts/components of a correspondence using which you can compose letters/correspondence. The document fragments are of the following types:
 

@@ -17,7 +17,7 @@ discoiquuid: cfc7ad16-965e-4075-bc4d-5630abeaba55
 >
 >Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).
 
-## Page Templates for Mobile Apps {#page-templates-for-mobile-apps}
+## Page Templates for Mobile Apps {#page-templates-for-mobile-apps-1}
 
 Page components that you create for your app are based on the /libs/mobileapps/components/angular/ng-page component ([open in CRXDE Lite on a local server](http://localhost:4502/crx/de/index.jsp#/libs/mobileapps/components/angular/ng-page)). This component contains the following JSP scripts that your component either inherits or overrides:
 

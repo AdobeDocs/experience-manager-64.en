@@ -13,8 +13,8 @@ discoiquuid: aff8b79f-dd4e-486e-9d59-5d09dfe34f27
 
 # Author a New Community Site for Enablement{#author-a-new-community-site-for-enablement}
 
-| **[⇐ Initial Setup](/help/communities/enablement-setup.md)** |**[Create and Assign Enablement Resources ⇒](/help/communities/resource.md)** |
-|---|---|
+<!--One row table| **[⇐ Initial Setup](/help/communities/enablement-setup.md)** |**[Create and Assign Enablement Resources ⇒](/help/communities/resource.md)** |
+|---|---|-->
 
 ## Create Community Site {#create-community-site}
 
@@ -357,6 +357,6 @@ Select **Save** in the upper right corner to save the changes to the community s
 
 Then re-**Publish** the site.
 
-| ** [⇐ Initial Setup](/help/communities/enablement-setup.md)** |** [Create and Assign Enablement Resources ⇒](/help/communities/resource.md)** |
-|---|---|
+<!--One row table| ** [⇐ Initial Setup](/help/communities/enablement-setup.md)** |** [Create and Assign Enablement Resources ⇒](/help/communities/resource.md)** |
+|---|---|-->
 

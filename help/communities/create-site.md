@@ -13,8 +13,8 @@ discoiquuid: bf182bb7-e305-45be-aadb-d71efd70f8cb
 
 # Author a New Community Site{#author-a-new-community-site}
 
-| ** [⇐ Initial Setup](/help/communities/setup.md)** |** [Experience the Published Site ⇒](/help/communities/published-site.md)** |
-|---|---|
+<!--One row table| ** [⇐ Initial Setup](/help/communities/setup.md)** |** [Experience the Published Site ⇒](/help/communities/published-site.md)** |
+|---|---|-->
 
 ## Create a New Community Site {#create-a-new-community-site}
 
@@ -335,6 +335,6 @@ After any modification, remember to **Save** and re-**Publish** the site.
 >
 >If not familiar with AEM, view the documentation on [basic handling](/help/sites-authoring/basic-handling.md) and a [quick guide to authoring pages](/help/sites-authoring/qg-page-authoring.md).
 
-| ** [⇐ Initial Setup](/help/communities/setup.md)** |** [Experience the Published Site ⇒](/help/communities/published-site.md)** |
-|---|---|
+<!--One row table| ** [⇐ Initial Setup](/help/communities/setup.md)** |** [Experience the Published Site ⇒](/help/communities/published-site.md)** |
+|---|---|-->
 
