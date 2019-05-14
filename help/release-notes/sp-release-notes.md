@@ -508,7 +508,7 @@ The key highlights for AEM 6.4.3.0 forms are:
 *   Table names are displayed instead of the title of the FDM association in the Data Sources section of Print channel. Hotfix for CQ-4253669
 *   The isUseXFABullets() function is not disabled in PrintChannelRenderOptions class and is available in client SDK. Hotfix for CQ-4246583, CQ-4252700
 
-#### Correspondence Management {#correspondence-management}
+#### Correspondence Management {#correspondence-management-1}
 
 *   Javadocs for 6.4 does not contain the com.adobe.dbforms.\* package and the corresponding classes. Hotfix for CQ-4253200
 *   CCR UI displays a default junk value for the date field in case there is no input from the test data XML. Hotfix for CQ-4252041
