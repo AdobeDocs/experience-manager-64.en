@@ -10,7 +10,7 @@ topic-tags: develop
 discoiquuid: 7d494c2e-d457-4d52-89be-a77ffa07eb88
 ---
 
-# Integrate Adobe Sign with AEM Forms{#integrate-adobe-sign-with-aem-forms}
+# Integrate Adobe Sign with AEM Forms {#integrate-adobe-sign-with-aem-forms}
 
 Learn how to configure Adobe Sign for AEM Forms
 
@@ -33,7 +33,7 @@ You require the following to integrate Adobe Sign with AEM Forms:
 
 After prerequisites are in place, perform the following steps to configure Adobe Sign with AEM Forms on the Author instance:
 
-1. On AEM Forms author instance, navigate to **Tools ![](assets/hammer.png) &gt; General &gt; Configuration Browser**.
+1. On AEM Forms author instance, navigate to **Tools** ![](assets/hammer.png) &gt; **General** &gt; **Configuration Browser**.
 1. On the **[!UICONTROL Configuration Browser]** page, tap **[!UICONTROL Create]**.
 1. In the **[!UICONTROL Create Configuration]** dialog, specify a **[!UICONTROL Title]** for the configuration, enable **[!UICONTROL Cloud Configurations]**, and tap **[!UICONTROL Create]**. It creates a configuration container for cloud services.
 1. Navigate to **Tools** ![](assets/hammer.png) &gt; **Cloud Services** &gt; **Adobe Sign** and select the configuration container you created in the above step.
@@ -82,7 +82,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 1. Open AEM Web Console. The URL is `https://[server]:[port]/system/console/configMgr`
 1. Open **Forms Common Configuration Service.**
-1. In the **Allow **field**, **select** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms**, and click **Save.** Author instance is configured to use Adobe Sign.
+1. In the **Allow** field, select **All users** - All the users, anonymous or logged in, can preview attachments, verify and sign forms, and click **Save.** Author instance is configured to use Adobe Sign.
 1. On the [Publish](/help/sites-deploying/deploy.md) instance, log in and open the following URL:
 
    `https://<server-name>:<port>/libs/granite/configurations/content/view.html/conf`

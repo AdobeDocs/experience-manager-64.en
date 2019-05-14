@@ -9,7 +9,7 @@ topic-tags: author
 discoiquuid: 377d804d-4a75-4c93-8125-d2660cf56418
 ---
 
-# Previewing a form{#previewing-a-form}
+# Previewing a form {#previewing-a-form}
 
 ## Overview {#overview}
 
@@ -44,7 +44,7 @@ The following table lists the preview options available for different types of s
  </tbody>
 </table>
 
-## Previewing a form {#previewing-a-form}
+## Previewing a form {#previewing-a-form-1}
 
 1. Select an asset you want to preview, and click Preview ![](assets/aem6forms_preview.png) in the actions toolbar.
 
