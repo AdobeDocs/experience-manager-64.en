@@ -11,7 +11,7 @@ topic-tags: personalization
 discoiquuid: d53ef3e2-14ca-4444-b563-be67be15c040
 ---
 
-# Creating Adobe Campaign Forms in AEM{#creating-adobe-campaign-forms-in-aem}
+# Creating Adobe Campaign Forms in AEM {#creating-adobe-campaign-forms-in-aem}
 
 AEM lets you create and use forms that interact with Adobe Campaign on your website. Specific fields can be inserted into your forms and mapped to the Adobe Campaign database.
 
@@ -47,7 +47,7 @@ First of all, check the connection between the author and publish instances and 
 
 >[!NOTE]
 >
->Make sure the **acMapping **property on the page's **jcr:content** node is set to **mapRecipient** or **profile** when using Adobe Campaign Classic or Adobe Campaign Standard, respectively
+>Make sure the **acMapping** property on the page's **jcr:content** node is set to **mapRecipient** or **profile** when using Adobe Campaign Classic or Adobe Campaign Standard, respectively
 >
 
 1. In AEM, in Sites, navigate to where you want to create a new page.
@@ -85,7 +85,7 @@ This section only details specific links to Adobe Campaign. For more information
 
    ![](assets/chlimage_1-46.png)
 
-1. Click the **Advanced** tab and select the type of form it is - **Subscribe, Unsubscribe, **or** Save Profile **and click** OK.** You can only have one type per form.
+1. Click the **Advanced** tab and select the type of form it is - **Subscribe, Unsubscribe,** or **Save Profile** and click **OK.** You can only have one type per form.
 
     * **Adobe Campaign: Save profile**: lets you create or update a recipient in Adobe Campaign (default value).
     * **Adobe Campaign: Subscribe to Services**: lets you manage the subscriptions of a recipient in Adobe Campaign.
@@ -99,9 +99,9 @@ This section only details specific links to Adobe Campaign. For more information
    ![](assets/chlimage_1-47.png)
 
 1. Add components to the form as needed, such as a Text field, Date field, Checkbox field, Option field, and so on. See [Adobe Campaign Form Components](/help/sites-authoring/adobe-campaign-components.md) for more information on each component.
-1. Click the Configuration icon to open the component. For example, in **Text Field (Campaign) **component, change the title and text.
+1. Click the Configuration icon to open the component. For example, in **Text Field (Campaign)** component, change the title and text.
 
-   Click** Adobe Campaign** to map the form field to an Adobe Campaign metadata variable. When you submit the form, the mapped field is updated in Adobe Campaign. Only fields with matching types are available in the variable picker (for example, string variables for text fields).
+   Click **Adobe Campaign** to map the form field to an Adobe Campaign metadata variable. When you submit the form, the mapped field is updated in Adobe Campaign. Only fields with matching types are available in the variable picker (for example, string variables for text fields).
 
    ![](assets/chlimage_1-48.png)
 
@@ -125,13 +125,13 @@ After you create a form and edit form content, you may want to manually test tha
 >
 >Although in this procedure you enter the epk number manually, in practice, users would get a link to this page (whether to unsubscribe, subscribe, or update your profile) within a newsletter. Based on the user, the epk automatically updates.
 >
->To create that link, you use the variable** Main resource identifier **(Adobe Campaign Standard) or **Encrypted identifier** (Adobe Campaign Classic) (for example, in a **Text & Personalization (Campaign)** component), which links to the epk in Adobe Campaign.
+>To create that link, you use the variable **Main resource identifier**(Adobe Campaign Standard) or **Encrypted identifier** (Adobe Campaign Classic) (for example, in a **Text & Personalization (Campaign)** component), which links to the epk in Adobe Campaign.
 
 To do this, you need to manually get the EPK of an Adobe Campaign profile and then append it to the URL:
 
 1. To get the encrypted primarly key (EPK) of an Adobe Campaign profile:
 
-    * In Adobe Campaign Standard - Navigate to **Profiles and Audiences** &gt; **Profiles**, which** **lists the existing profiles. Make sure the table displays the **Main Resource Identifier** field in a column (This can be configured by clicking/tapping **Configure list**). Copy the main resource identifier of the desired profile.
+    * In Adobe Campaign Standard - Navigate to **Profiles and Audiences** &gt; **Profiles**, which lists the existing profiles. Make sure the table displays the **Main Resource Identifier** field in a column (This can be configured by clicking/tapping **Configure list**). Copy the main resource identifier of the desired profile.
     
     * In Adobe Campaign Classic, go to **Profiles and Targets** &gt;  **Recipients**, which lists the existing profiles. Make sure the table displays the **Encrypted identifier** field in a column (This can be configured by right-clicking on an entry and selecting **Configure list...**). Copy the encrypted identifier of the desired profile.
 

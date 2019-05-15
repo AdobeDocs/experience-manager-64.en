@@ -89,9 +89,9 @@ Use the following procedure to add variables to the list:
 
 1. On your Adobe Analytics framework page, expand the **General Analytics Settings** area.
 1. Below the list of variables, click Add Item to add a new variable to the list.
-1. In the left-hand cell, enter a name** **for the variable, for example `prop10`.
+1. In the left-hand cell, enter a name for the variable, for example `prop10`.
 
-1. In the right-hand column, enter a value** **for the variable, for example `CONSTANT`.
+1. In the right-hand column, enter a value for the variable, for example `CONSTANT`.
 
 1. To remove a variable, click the (-) button next to the variable.
 

@@ -287,7 +287,7 @@ You can select multiple pages for bulk editing by various methods, including:
 
 ![](assets/screen_shot_2018-03-22at100039.png)
 
-After selecting the pages and then clicking or tapping the **Properties **option,** **the bulk properties will be shown:
+After selecting the pages and then clicking or tapping the **Properties** option, the bulk properties will be shown:
 
 ![](assets/screen_shot_2018-03-22at100114.png)
 

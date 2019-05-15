@@ -142,7 +142,7 @@ All out of the box (OOTB) field validations of an adaptive form thate are rerun 
 
 ### Enabling Server-side Validation {#enabling-server-side-validation-br}
 
-Use the **Revalidate on server** under** **Adaptive Form Container in the sidebar to enable or disable server-side validation for the current form. 
+Use the **Revalidate on server** under Adaptive Form Container in the sidebar to enable or disable server-side validation for the current form. 
 
 ![Enabling Server-Side Validation](assets/revalidate-on-server.png)
 

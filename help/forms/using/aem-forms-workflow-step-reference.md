@@ -38,12 +38,12 @@ You can also use the component to control the behavior of the task. For example,
 * **Adaptive Form Path**: Specify the path of the adaptive form. The field is available when you use the an adaptive form or read-only adaptive form option in the Type field in conjunction with absolute path option the Use Adaptive Form field.
 * **PDF Path: **Specify the path of a non-interactive PDF document. The field is available when you choose a non-interactive PDF document in the Type field. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/PDF/credit-card.pdf. The path does not exist in crx-repository. An administrator creates the path before using it. You require a Document of Record option enabled or form template based adaptive forms for using the PDF Path option.
 * **For completed task, render the adaptive form as**: When a task is marked complete, you can render the adaptive form as a read-only adaptive form or a PDF document. You require a Document of Record option enabled or form template based adaptive forms for rendering the adaptive form as Document of Record.
-* **Information to be pre-populated: **The following fields listed below serve as inputs to the task:** **
+* **Information to be pre-populated:** The following fields listed below serve as inputs to the task: 
 
     * **Data File Path:** Path of input data file (.json or .xml). The path is always relative to the payload. For example, the file contains the data submitted for the form through an AEM Inbox application. An example path is [Payload_Directory]/workflow/data.
     * **Attachment Path: **Attachments available at the location are attached to the form associated with the task. The path is always relative to the payload. An example path is [Payload_Directory]/attachments/
 
-* **Submitted information: **The following fields listed below serve as output locations to the task:** **
+* **Submitted information:** The following fields listed below serve as output locations to the task: 
 
     * **Data File Path:** Path of data file (.json or .xml). The data file contains information submitted through the associated form. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/data, where data is a file.
     * **Attachment Path: **Path to save the form attachments provide in a task.
@@ -216,17 +216,17 @@ The Sign Document step enables you to use Adobe Sign to sign documents. The Sign
 * **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md). 
 
 * **Document to be Signed:** You can choose a document from a location relative to the payload, use payload as the document, or specify an absolute path of the document.
-* **Days Until Deadline: **A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field.** **The number of days are counted after the documented is assigned to a user for signing.
+* **Days Until Deadline:** A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field. The number of days are counted after the documented is assigned to a user for signing.
 
-* **Reminder Email Frequency: **You can send a reminder email at daily or weekly interval. The week is counted from the day the documented is assigned to a user for signing.
+* **Reminder Email Frequency:** You can send a reminder email at daily or weekly interval. The week is counted from the day the documented is assigned to a user for signing.
 * **Signature Process:** You can choose to sign a document in a sequential or a parallel order. In sequential order, one signer receives the document at a time for signing. After the first signer completes signing the document, then the document is sent to the second signer, and so on. In parallel order, multiple signers can sign a document at a time.  
 
 * **Redirection URL:** Specify a redirection URL. After the document is signed, you can redirect the assignee to a URL. Usually, this URL contains a thank you message or further instructions.
-* **Workflow Stage: **A workflow can have multiple stages. These stages are displayed in the AEM Inbox. You can define these stages in the properties of the model (Sidekick &gt; Page &gt; Page Properties &gt; Stages).
-* **Select Signers: **Specify the method to choose signers for the document. You can dynamically assign the workflow to a user or a group or manually add details of a signer.
+* **Workflow Stage:** A workflow can have multiple stages. These stages are displayed in the AEM Inbox. You can define these stages in the properties of the model (Sidekick &gt; Page &gt; Page Properties &gt; Stages).
+* **Select Signers:** Specify the method to choose signers for the document. You can dynamically assign the workflow to a user or a group or manually add details of a signer.
 * **Script or service to select signers:** The option is available only if the Dynamically option is selected in the Select Signers field. You can specify an ECMAScript or a service to choose signers and verification options for a document.  
 
-* **Signer Details: **The option is available only if the Manually option is selected in the Select Signers field. Specify email address and choose an optional verification mechanism. Before selecting a 2-step verification mechanism, ensure that the corresponding verification option is enabled for the configured Adobe Sign account.
+* **Signer Details:** The option is available only if the Manually option is selected in the Select Signers field. Specify email address and choose an optional verification mechanism. Before selecting a 2-step verification mechanism, ensure that the corresponding verification option is enabled for the configured Adobe Sign account.
 * **Status Variable:** An Adobe Sign enabled document stores signing status of the document in a variable. Specify the name of the status variable (adobeSignStatus). A status variable of an instance is available in CRXDE at /etc/workflow/instances/&lt;server&gt;/&lt;date-time&gt;/&lt;instance of workflow model&gt;/workItems/&lt;node&gt;/metaData contains status of a variable.
 * **Signed Document Path:** Specify the location to keep signed documents. You can choose to overwrite the payload file or place the signed document at a location within the payload directory.
 

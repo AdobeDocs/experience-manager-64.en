@@ -58,7 +58,7 @@ Use the following procedure to map CQ component variables with Adobe Analytics r
    >
    >    
    >    
-   >    * `eVars` and `props` are mapped to CQ variables beginning with either** ** `pagedata.X`** **or `eventdata.X`   
+   >    * `eVars` and `props` are mapped to CQ variables beginning with either  `pagedata.X` or `eventdata.X`   
    >    
    >    * whereas events should be mapped to variables starting with `eventdata.events.X`
    >    
@@ -113,9 +113,9 @@ The list can be manipulated in the following ways:
 1. When in **AEM view**, the list can be filtered depending on what variable type is selected using the 3 filter buttons:
 
     * If* no button* is selected, the list shows the full list.
-    * If the **Traffic*** **button*** is selected, the list will only show the variables belonging to the Traffic section
+    * If the **Traffic** button is selected, the list will only show the variables belonging to the Traffic section
     
-    * If the **Conversion*** **button*** is selected, the list will only show the variables belonging to the Conversion section. 
+    * If the **Conversion** button is selected, the list will only show the variables belonging to the Conversion section. 
     
     * If the **Events** button is selected, the list will only show the variables belonging to the Events section.
 

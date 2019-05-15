@@ -38,7 +38,7 @@ You will have a form similar to the following by end of article:
 
 1. An option to **Add Properties** appears. The **Title **and **Name **fields are mandatory:
 
-    * **Title:** Specify `Add new or update shipping address`** **in the Title field. The title field specifies the display name of the form. The title helps you identify the form in the AEM Forms user interface.  
+    * **Title:** Specify `Add new or update shipping address` in the Title field. The title field specifies the display name of the form. The title helps you identify the form in the AEM Forms user interface.  
     
     * **Name:** Specify `shipping-address-add-update-form` in the Name field. The Name field specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
 
@@ -53,15 +53,15 @@ You will have a form similar to the following by end of article:
 AEM Forms provides many components to display information on an adaptive form. Header and Footer components help provide a consistent look and feel to a form. A header typically includes the logo of a corporation, the title of the form, and summary. A footer typically includes copyright information and links to other pages.
 
 1. Tap ![](assets/toggle-side-panel.png) &gt; ![](assets/treeexpandall.png). The component browser opens. Drag the **Header** component from component browser to the adaptive form. 
-1. Tap **Logo**. The toolbar appears. Tap ![](assets/aem_6_3_edit.png)** **on the toolbar, type **We.Retail**, and tap ![](assets/aem_6_3_forms_save.png).  
+1. Tap **Logo**. The toolbar appears. Tap ![](assets/aem_6_3_edit.png) on the toolbar, type **We.Retail**, and tap ![](assets/aem_6_3_forms_save.png).  
 
-1. Tap Image. The toolbar appears. Tap ![](assets/cmppr.png). The properties browser opens on the left of the screen. **Browse **and upload the logo image. Tap ![](assets/aem_6_3_forms_save.png). The image appears on the header.
+1. Tap Image. The toolbar appears. Tap ![](assets/cmppr.png). The properties browser opens on the left of the screen. **Browse** and upload the logo image. Tap ![](assets/aem_6_3_forms_save.png). The image appears on the header.
 
    You can tap Get file to download the logo used in this article if you don't have one.
 
    [Get File](assets/logo.png)
 
-1. Drag the **Footer **component from ![](assets/treeexpandall.png) to the adaptive form. At this stage, the form looks like the following: 
+1. Drag the **Footer** component from ![](assets/treeexpandall.png) to the adaptive form. At this stage, the form looks like the following: 
 
    ![](assets/adaptive-form-with-headers-and-footers.png)
 
@@ -107,7 +107,7 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
  </tbody> 
 </table>
 
-1. Drag a** Numeric Box** component before the footer component. Open properties of the component, set values listed in the below table, Tap ![](assets/aem_6_3_forms_save.png).
+1. Drag a **Numeric Box** component before the footer component. Open properties of the component, set values listed in the below table, Tap ![](assets/aem_6_3_forms_save.png).
 
    | Property |Value |
    |---|---|
@@ -117,7 +117,7 @@ Components are building blocks of an adaptive form. AEM Forms provides many comp
    | Required Field |Enabled |
    | Display Pattern Type |No Pattern |
 
-1. Drag an **Email **component before the footer component. Open properties of the component, set values listed in the below table, and tap ![](assets/aem_6_3_forms_save.png).
+1. Drag an **Email** component before the footer component. Open properties of the component, set values listed in the below table, and tap ![](assets/aem_6_3_forms_save.png).
 
    | Property |Value |
    |---|---|
@@ -177,7 +177,7 @@ Using the following steps, you can configure email submit action and demo submit
 
 ## Step 5: Preview and submit the adaptive form {#step-preview-and-submit-the-adaptive-form}
 
-You can use the **Preview option **to evaluate appearance and behavior of a form. You can submit a form in preview mode and also check validations applied on a form. For example, if an error is displayed when a mandatory field is left empty.
+You can use the **Preview option** to evaluate appearance and behavior of a form. You can submit a form in preview mode and also check validations applied on a form. For example, if an error is displayed when a mandatory field is left empty.
 
 Adaptive forms also provide an option to Emulate experience of a form for various devices. For example, iPhone, iPad, and Desktop. You can use both **Preview** and **Emulator** ![](assets/ruler.png) options in conjunction with each other to preview a form for devices of different screen sizes.
 

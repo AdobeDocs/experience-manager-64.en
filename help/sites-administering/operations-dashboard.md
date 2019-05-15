@@ -101,7 +101,7 @@ Creating an individual Health Check involves two steps: implementing a Sling Hea
 
    The following properties should be set on the new node:
 
-    * **Name:** `sling:resourceType`** **
+    * **Name:** `sling:resourceType` 
 
         * **Type:** `String`
         
@@ -173,7 +173,7 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
 
    With the following properties:
 
-    * **Name:** `sling:resourceType`** **
+    * **Name:** `sling:resourceType` 
 
         * **Type:** `String`
         
@@ -709,7 +709,7 @@ This will add a corresponding resource at /apps/granite/operations/config/mainte
 
 ## System Overview {#system-overview}
 
-The **System Overview Dashboard **displays** **a high-level overview of the configuration, hardware and health of the AEM instance. This means that system health status is transparent and all the information is aggregated in a single dashboard.
+The **System Overview Dashboard** displays a high-level overview of the configuration, hardware and health of the AEM instance. This means that system health status is transparent and all the information is aggregated in a single dashboard.
 
 >[!NOTE]
 >
@@ -725,7 +725,7 @@ To access the System Overview Dashboard, navigate to **Tools &gt; Operations &gt
 
 The table below, describes all the informations displayed in the System Overview Dashboard. Keep in mind that when there is no relevant information to show (for example, backup is not in progress, there are no health checks that are critical) the respective section will display the "No Entries" message.
 
-You can also download a `JSON` file summarizing the dashboard information by clicking the **Download **button in the upper right-hand corner of the dashboard.The `JSON` endpoint is `/libs/granite/operations/content/systemoverview/export.json` and it can be used in a `curl` script for external monitoring.
+You can also download a `JSON` file summarizing the dashboard information by clicking the **Download** button in the upper right-hand corner of the dashboard.The `JSON` endpoint is `/libs/granite/operations/content/systemoverview/export.json` and it can be used in a `curl` script for external monitoring.
 
 <table> 
  <tbody> 

@@ -226,7 +226,7 @@ To create a component with CRXDE Lite:
 
 1. Enter the **Label**, **Title**, **Description**, **Super Resource Type** and **Group** of the component. Click **Next**.
 
-1. This step is optional: set the component properties **Is Container,** **No Decoration**, **Cell Name** and **Dialog Path**. Click **Next**.
+1. This step is optional: set the component properties **Is Container, No Decoration**, **Cell Name** and **Dialog Path**. Click **Next**.
 
 1. This step is optional: set the component property **Allowed Parents**. Click **Next**.
 

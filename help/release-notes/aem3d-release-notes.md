@@ -164,7 +164,7 @@ Version 3.1
 
 ### General {#general}
 
-* **Resolve Dependencies** **shortcut** - This shortcut is available in the Card View on 3D assets. Asset cards in the Card View show the "Unresolved Dependencies" banner. The shortcut opens the **Basic Properties** tab instead of the **Dependencies** tab. Workaround: manually navigate to the Dependencies tab.
+* **Resolve Dependencies shortcut** - This shortcut is available in the Card View on 3D assets. Asset cards in the Card View show the "Unresolved Dependencies" banner. The shortcut opens the **Basic Properties** tab instead of the **Dependencies** tab. Workaround: manually navigate to the Dependencies tab.
 
 * **Stage selector not available** - 3D assets that include lights are automatically tagged by AEM as 3D stages. No Stages selector is available for stages in the Detail view. To mark a 3D asset as a 3D object, navigate to **Basic Properties**, change **Asset Class** to **3D Object**, then click **Save**.
 

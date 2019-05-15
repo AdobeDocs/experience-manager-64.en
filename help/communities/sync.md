@@ -43,7 +43,7 @@ For detailed, step-by-step instructions, on how to enable synchronization across
 
 ![](assets/sling-dist-workflow.png)
 
-&#42; ** vlt  package**: is a zip file of all the changes done on a publisher, which need to be distributed across publishers.** **Changes on a publisher generate events that are picked by the change event listener. This creates a vlt package that contains all the changes.
+&#42; ** vlt  package**: is a zip file of all the changes done on a publisher, which need to be distributed across publishers. Changes on a publisher generate events that are picked by the change event listener. This creates a vlt package that contains all the changes.
 
 &#42;&#42; **distribution package**: contains distribution information for Sling. That is information about where the content needs to be distributed, and when was it distributed last.
 

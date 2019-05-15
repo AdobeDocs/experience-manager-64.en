@@ -13,7 +13,7 @@ discoiquuid: b3cb8f12-197e-4f5e-bd7d-70b55e76b0ca
 
 # Create Comments Page{#create-comments-page}
 
-**[⇐ Overlay Comments Component](/help/communities/overlay-comments.md)** **[Create Nodes ⇒](/help/communities/overlay-create-nodes.md)**
+**[⇐ Overlay Comments Component](/help/communities/overlay-comments.md) [Create Nodes ⇒](/help/communities/overlay-create-nodes.md)**
 
 ## Comments Page {#comments-page}
 
@@ -25,4 +25,4 @@ View the page on the author instance:
 
 ![](assets/chlimage_1-125.png)
 
-**[⇐ Overlay Comments Component](/help/communities/overlay-comments.md)** **[Create Nodes ⇒](/help/communities/overlay-create-nodes.md)**
+**[⇐ Overlay Comments Component](/help/communities/overlay-comments.md) [Create Nodes ⇒](/help/communities/overlay-create-nodes.md)**

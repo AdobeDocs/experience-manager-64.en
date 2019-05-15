@@ -583,7 +583,7 @@ See this post on [securely deploying MongoDB](https://blogs.adobe.com/security/2
 
 ### Choosing the Operating System for the Dispatcher {#choosing-the-operating-system-for-the-dispatcher}
 
-In order to properly serve your MongoDB deployment, the operating system that will host the dispatcher must be running **Apache httpd** **version 2.4 or higher.**
+In order to properly serve your MongoDB deployment, the operating system that will host the dispatcher must be running **Apache httpd version 2.4 or higher.**
 
 Also, make sure that the all libraries used in your build are up to date in order to minimize security implications.
 

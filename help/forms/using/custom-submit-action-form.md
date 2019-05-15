@@ -22,7 +22,7 @@ The flowchart depicts the workflow for a Submit action that is triggered when yo
 
 ### XML data format {#xml-data-format}
 
-The XML data is sent to the servlet using the **`jcr:data`** request parameter. Submit actions can access the parameter to process the data. The following code describes the format of the XML data. The fields that are bound to the Form model appear in the **`afBoundData`** section. Unbound fields appear in the `afUnoundData`** **section. For more information about the format of the `data.xml` file, see [Introduction to prepopulating adaptive form fields](/help/forms/using/prepopulate-adaptive-form-fields.md).
+The XML data is sent to the servlet using the **`jcr:data`** request parameter. Submit actions can access the parameter to process the data. The following code describes the format of the XML data. The fields that are bound to the Form model appear in the **`afBoundData`** section. Unbound fields appear in the `afUnoundData` section. For more information about the format of the `data.xml` file, see [Introduction to prepopulating adaptive form fields](/help/forms/using/prepopulate-adaptive-form-fields.md).
 
 ```xml
 <?xml ?>
@@ -90,9 +90,9 @@ A Submit action is a sling:Folder that includes the following:
 
     * **guideComponentType** of type String and value **fd/af/components/guidesubmittype**
     
-    * **guideDataModel **of type String that specifies the type of adaptive form for which the Submit action is applicable. **xfa** is supported for XFA-based adaptive forms while **xsd **is supported** **for XSD-based adaptive forms. **basic** is supported for adaptive forms that do not use XDP or XSD. To display the action on multiple types of adaptive forms, add the corresponding strings. Separate each string by a comma. For example, to make an action visible on XFA- and XSD-based adaptive forms, specify the values **xfa** and **xsd** respectively.  
+    * **guideDataModel** of type String that specifies the type of adaptive form for which the Submit action is applicable. **xfa** is supported for XFA-based adaptive forms while **xsd** is supported for XSD-based adaptive forms. **basic** is supported for adaptive forms that do not use XDP or XSD. To display the action on multiple types of adaptive forms, add the corresponding strings. Separate each string by a comma. For example, to make an action visible on XFA- and XSD-based adaptive forms, specify the values **xfa** and **xsd** respectively.  
     
-    * **jcr:description **of type String. The value of this property is displayed in the Submit action list in the Submit Actions Tab of the Adaptive Form Edit dialog. The OOTB actions are present in the CRX repository at the location **/libs/fd/af/components/guidesubmittype**.
+    * **jcr:description** of type String. The value of this property is displayed in the Submit action list in the Submit Actions Tab of the Adaptive Form Edit dialog. The OOTB actions are present in the CRX repository at the location **/libs/fd/af/components/guidesubmittype**.
 
 ## Creating a custom Submit action {#creating-a-custom-submit-action}
 
@@ -118,11 +118,11 @@ Perform the following steps to create a custom Submit action that saves the data
 
    Add the following properties in the store_and_email node:
 
-    * **guideComponentType **of type **String** and value **fd/af/components/guidesubmittype**
+    * **guideComponentType** of type **String** and value **fd/af/components/guidesubmittype**
     
-    * **guideDataModel** of type **String **and value **xfa, xsd, basic**
+    * **guideDataModel** of type **String** and value **xfa, xsd, basic**
     
-    * **jcr:description **of type **String **and value **Store and Email Action**
+    * **jcr:description** of type **String** and value **Store and Email Action**
 
 1. Open any adaptive form. Click the **Edit** button next to **Start** to open the **Edit** dialog of the adaptive form container. The new action is displayed in the **Submit Actions** Tab. Selecting the **Store and Email Action **displays the configuration added in the dialog node.
 

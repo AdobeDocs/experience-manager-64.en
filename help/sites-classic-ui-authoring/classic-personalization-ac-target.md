@@ -28,7 +28,7 @@ Setting up segmentation includes creating segments, a brand, campaign, and exper
 To create segments:
 
 1. Open the [segmentation console](http://localhost:4502/miscadmin#/etc/segmentation) at **&lt;host&gt;:&lt;port&gt;/miscadmin#/etc/segmentation**.
-1. Create a new page and enter a title - for example, **AC Segments **- and select the **Segment** **(Adobe Campaign)** template.
+1. Create a new page and enter a title - for example, **AC Segments **- and select the **Segment (Adobe Campaign)** template.
 1. Select the created page in the tree view on the left-hand side.
 1. Create a segment, for example targeting male users, by creating a new page under the segment you created called Male and select the **Segment (Adobe Campaign)** template.
 1. Open the created segment page and drag and drop a **Segment ID** from the sidekick onto the page.

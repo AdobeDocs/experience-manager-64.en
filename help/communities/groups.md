@@ -73,7 +73,7 @@ From this Groups console, it is possible to author new groups.
 * **Community Group Root**: the root path to the group.  
   The default root is the parent site, but the root may be moved to any location within the web site. It is not recommended to change it.
 
-* **Additional Available Community Group Languages(s) **menu:** **use the pull down menu to select the available community group language(s). The menu displays all the language(s) in which the parent community site is created. Users can select among these languages to create groups in multiple locales in this single step. Same group gets created in multiple specified languages in the Groups console of the respective community sites.  
+* **Additional Available Community Group Languages(s)** menu: use the pull down menu to select the available community group language(s). The menu displays all the language(s) in which the parent community site is created. Users can select among these languages to create groups in multiple locales in this single step. Same group gets created in multiple specified languages in the Groups console of the respective community sites.  
 
 * **Community Group Name**: the name of the group's root page which appears in the URL
 

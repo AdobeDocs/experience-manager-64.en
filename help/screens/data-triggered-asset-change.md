@@ -106,7 +106,7 @@ Follow the steps below to set up a project showcasing data triggered asset chang
 
 1. **Switching to Targeting Mode**
 
-    1. Navigate to **DataTriggerAsset** --&gt; **Channels** --&gt; **DataTrigger **and** **click** Edit** from the action bar.  
+    1. Navigate to **DataTriggerAsset** &gt; **Channels** &gt; **DataTrigger** and click **Edit** from the action bar.  
     
     1. Select **Targeting** from the menu bar under **Edit**.
 

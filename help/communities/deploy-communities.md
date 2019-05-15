@@ -141,7 +141,7 @@ The AEM Communities SCORM engine is required for the [enablement](/help/communit
 
 * **[ cq -social-  scorm -package, version 1.2.11](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-pkg)**. This SCORM package is supported by all AEM 6.4 Communities versions.
 
-* **[ cq -social-  scorm -package, version 2.2.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg) **includes** ** [SCORM 2017.1](https://rusticisoftware.com/blog/scorm-engine-2017-released/)** **engine. This SCORM package is supported AEM 6.4.2.x Communities onwards.
+* **[ cq -social-  scorm -package, version 2.2.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg)** includes [SCORM 2017.1](https://rusticisoftware.com/blog/scorm-engine-2017-released/) engine. This SCORM package is supported AEM 6.4.2.x Communities onwards.
 
 For a new installation of SCORM engine, the package containing [SCORM 2017.1](https://rusticisoftware.com/blog/scorm-engine-2017-released/) (which is [  cq -social-  scorm -package, version 2.2.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg)) should be used. So that you are able to play learning resources supported by SCORM 2017.
 

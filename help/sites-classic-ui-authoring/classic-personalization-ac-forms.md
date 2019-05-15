@@ -118,13 +118,13 @@ After you create a form and edit form content, you may want to manually test tha
 >
 >Although in this procedure you enter the epk number manually, in practice, users would get a link to this page (whether to unsubscribe, subscribe, or update your profile) within a newsletter. Based on the user, the epk automatically updates.
 >
->To create that link, you use the variable** Main resource identifier **(Adobe Campaign Standard) or **Encrypted identifier** (Adobe Campaign 6.1) (for example, in a **Text & Personalization (Campaign)** component), which links to the epk in Adobe Campaign.
+>To create that link, you use the variable **Main resource identifier**(Adobe Campaign Standard) or **Encrypted identifier** (Adobe Campaign 6.1) (for example, in a **Text & Personalization (Campaign)** component), which links to the epk in Adobe Campaign.
 
 To do this, you need to manually get the EPK of an Adobe Campaign profile and then append it to the URL:
 
 1. To get the encrypted primarly key (EPK) of an Adobe Campaign profile:
 
-    * In Adobe Campaign Standard - Navigate to **Profiles and Audiences** &gt; **Profiles**, which** **lists the existing profiles. Make sure the table displays the **Main Resource Identifier** field in a column (This can be configured by clicking/tapping **Configure list**). Copy the main resource identifier of the desired profile.
+    * In Adobe Campaign Standard - Navigate to **Profiles and Audiences** &gt; **Profiles**, which lists the existing profiles. Make sure the table displays the **Main Resource Identifier** field in a column (This can be configured by clicking/tapping **Configure list**). Copy the main resource identifier of the desired profile.
     
     * In Adobe Campaign 6.11, go to **Profiles and Targets** &gt;  **Recipients**, which lists the existing profiles. Make sure the table displays the **Encrypted identifier** field in a column (This can be configured by right-clicking on an entry and selecting **Configure list...**). Copy the encrypted identifier of the desired profile.
 

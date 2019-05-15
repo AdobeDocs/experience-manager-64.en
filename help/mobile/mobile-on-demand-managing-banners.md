@@ -21,7 +21,7 @@ Content Management actions are the building blocks that help to create and manag
 
 ## Banners Overview {#banners-overview}
 
-Banners** **represent typically graphical promotional links.
+Banners represent typically graphical promotional links.
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Banners have numerous properties such as titles, descriptions, images. This acti
 The general workflow to view/edit an article:
 
 1. From Mobile, choose your Mobile On-Demand app from the catalog.
-1. Choose a banner from the **Manage** **Banners** tile.
+1. Choose a banner from the **Manage Banners** tile.
 
 1. Select **Properties** from the action bar.
 1. View all available meta data for that article.

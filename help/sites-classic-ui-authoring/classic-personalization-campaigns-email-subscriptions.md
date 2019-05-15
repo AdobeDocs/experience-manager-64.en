@@ -18,7 +18,7 @@ discoiquuid: 295cb0a6-29db-42aa-824e-9141b37b5086
 >Adobe is not planning to further enhance this capability (Managing Leads and Lists).  
 >Recommendation is to leverage [Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).
 
-Users can be asked to subscribe to **Email Service Provider's** mailing lists with the help of the** Form **component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
+Users can be asked to subscribe to **Email Service Provider's** mailing lists with the help of the **Form** component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
 
 ## Applying Email Service configuration to a page {#applying-email-service-configuration-to-a-page}
 
@@ -40,11 +40,11 @@ To create a sign-up form and configure it for subscriptions to Email Service Pro
 1. Open the AEM page that the user will visit.
 1. Apply the Email Service Provider's configuration to the page.  
 
-1. Add a **Form** component to the page by dragging the component from the sidekick. If the component is not available, switch to design mode and enable **Form **group.
-1. Click **Edit** in the **Start of Form **bar and navigate to the **Advanced **tab**.**
-1. In the** Form** drop-down menu, select **E-mail Service: Create Subscriber and add to list.**
+1. Add a **Form** component to the page by dragging the component from the sidekick. If the component is not available, switch to design mode and enable **Form** group.
+1. Click **Edit** in the **Start of Form** bar and navigate to the **Advanced** tab.
+1. In the **Form** drop-down menu, select **E-mail Service: Create Subscriber** and add to list.
 1. At the bottom of the dialog box, open the **Action Configuration** drop-down, which allows you to select one or more subscription lists.
-1. In the **Select** **list**, select the list you want users to subscribe to. You can add multiple lists by using the plus button (**Add Item**).
+1. In the **Select list**, select the list you want users to subscribe to. You can add multiple lists by using the plus button (**Add Item**).
 
    ![](assets/chlimage_1-10.jpeg)
 
@@ -53,7 +53,7 @@ To create a sign-up form and configure it for subscriptions to Email Service Pro
    >Your dialog box may differ depending on the e-mail service provider.
 
 1. In the **Form** tab, select the thank you page you want users to go to after they submit the form (If left blank, the form redisplays upon submission.) Click **OK**. An **Email id** component appears in the Form, which allows you to create a form where users can submit their email addresses to subscribe or unsubscribe from a mailing list.
-1. Add the **Submit** button component from the **Form **section in sidekick.
+1. Add the **Submit** button component from the **Form** section in sidekick.
 
    The form is ready. Publish the page configured in the steps above along with the **thank you** page to the publish instance. Any potential subscribers who visit the page can fill the form and subscribe to the list provided in the configuration.
 

@@ -280,7 +280,7 @@ Execute the following steps to create static text and use form data model elemen
 
 1. Select the **Data Model Objects** tab.
 1. Place the cursor next to the **Call Charges** field and double-click the **bills** &gt; **callcharges** property.
-1. Place the cursor next to the **Conference** **Call Charges** field and double-click the **bills** &gt; **confcallcharges** property.
+1. Place the cursor next to the **Conference Call Charges** field and double-click the **bills** &gt; **confcallcharges** property.
 1. Place the cursor next to the **SMS Charges** field and double-click the **bills** &gt; **smscharges** property.
 1. Place the cursor next to the **Mobile Internet Charges** field and double-click the **bills** &gt; **internetcharges** property.
 1. Place the cursor next to the **National Roaming Charges** field and double-click the **bills** &gt; **roamingnational** property.
@@ -291,7 +291,7 @@ Execute the following steps to create static text and use form data model elemen
 
    ![](assets/summary_charges_static_fdm.png)
 
-1. Select the text in the **Value Added Services Charges** row and tap **Create Rule **to create a condition based on which the row is displayed in the Interactive Communication:
+1. Select the text in the **Value Added Services Charges** row and tap **Create Rule** to create a condition based on which the row is displayed in the Interactive Communication:
 1. On the **Create Rule** pop-up window:
 
     1. Select **Data Models and Variables** and then **bills** &gt; **callcharges**.

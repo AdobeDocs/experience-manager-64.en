@@ -41,20 +41,20 @@ Conversion Manager package provides AEM cloud service configurations and Review 
 
 ## Configure email notification {#configure-email-notification}
 
-Configure the ** [Day CQ Mail Service](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/notification.html#ConfiguringtheMailService)** and specify an email address in the profile of a [forms user](https://helpx.adobe.com/experience-manager/6-4/forms/using/forms-groups-privileges-tasks.html). Emails are sent to specified email address on successful completion or failure of a conversion. To specify an email address for a user:
+Configure the **[Day CQ Mail Service](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/notification.html#ConfiguringtheMailService)** and specify an email address in the profile of a [forms user](https://helpx.adobe.com/experience-manager/6-4/forms/using/forms-groups-privileges-tasks.html). Emails are sent to specified email address on successful completion or failure of a conversion. To specify an email address for a user:
 
 1. On your AEM Forms instance, tap **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Tools]**> **[!UICONTROL Security]** > **[!UICONTROL Users]**.
 1. Select the user designated to run the service and tap **[!UICONTROL Properties]**. The Edit User Settings page opens. 
-1. Specify an email address in the **[!UICONTROL Email]**field and Tap **[!UICONTROL Save]**. The emails are sent to specified email address on successful completion or failure of the conversion.
+1. Specify an email address in the **[!UICONTROL Email]** field and Tap **[!UICONTROL Save]**. The emails are sent to specified email address on successful completion or failure of the conversion.
 
 ## Configure the cloud service {#configure-the-cloud-service}
 
 Create a cloud service configuration to connect your AEM Instance to the conversion service. It also allows you to specify a template, theme, and form fragments for a conversion. You can create multiple cloud service configurations separate for each set of forms. For example, you can have a separate configuration for sales department forms and a separate one for customer support forms. Perform the following steps to create a cloud service configuration:
 
 1. On your AEM Forms instance, tap **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Tools]**> **[!UICONTROL Cloud Services]** > **[!UICONTROL Automate Forms Conversion Configuration]**.
-1. Tap the **[!UICONTROL **Global**]**folder and tap ****[!UICONTROL Create]****. The page to create Automated Forms Conversion configuration appears. The configuration is created in the Global folder. You can also create the configuration in a different folder that already exists or create a new folder for your configurations.   
+1. Tap the **[!UICONTROL Global]** folder and tap **[!UICONTROL Create]**. The page to create Automated Forms Conversion configuration appears. The configuration is created in the Global folder. You can also create the configuration in a different folder that already exists or create a new folder for your configurations.   
 
-1. In the **[!UICONTROL Basic]**tab of the **[!UICONTROL Create Automated Forms Conversion Configuration]** page, specify a value for the following fields:
+1. In the **[!UICONTROL Basic]** tab of the **[!UICONTROL Create Automated Forms Conversion Configuration]** page, specify a value for the following fields:
 
 <table> 
  <tbody> 
@@ -104,7 +104,7 @@ Create a cloud service configuration to connect your AEM Instance to the convers
 
    ![](assets/service-configuration-advanced.png)
 
-1. Tap** **[!UICONTROL Save & Close]****. The cloud configuration is created. Your AEM Forms instance is ready to start converting legacy forms to adaptive forms.
+1. Tap **[!UICONTROL Save & Close]**. The cloud configuration is created. Your AEM Forms instance is ready to start converting legacy forms to adaptive forms.
 
 ## Previous {#previous}
 

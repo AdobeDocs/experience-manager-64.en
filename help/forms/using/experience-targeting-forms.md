@@ -28,17 +28,17 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 
    `https://<hostname>:<port>/libs/cq/personalization/touch-ui/content/v2/activities.html`
 
-1. In the Activities page, tap **Create > Create Brand**. `` 
+1. In the Activities page, tap **Create > Create Brand**. 
 1. You are asked to choose a template and enter properties.  
    Select a template, tap **Next.** Enter the title of your brand in the Properties section, and tap **Create.** 
    Your brand is now listed in the Activities page. 
 1. Tap your brand in the Activities page. 
-1. In Master Area of your brand, tap **Create &gt;** **Create Activity**.  
+1. In Master Area of your brand, tap **Create** &gt; **Create Activity**.  
    When you create an activity, you specify its details, target, and settings.
 
    The Details section includes name, targeting engine, and objective. When you select Adobe Target as the targeting engine, you get Target cloud configuration option enabled. Choose your Target cloud configuration, choose Activity type, provide the objective of the activity, and tap **Next**. Interactive Communication supports only Experience Targeting Activity type.
 
-   The Target section lets you add audience experience and name it. Click **Add Experience** to enable the **Select Audience** and **Name Experience** options. Tap **Select Audience **to see a list of audiences and their source. Select an audience from the Audience Name list. Tap **Add Experience** to name the experience, and tap **Next**.
+   The Target section lets you add audience experience and name it. Click **Add Experience** to enable the **Select Audience** and **Name Experience** options. Tap **Select Audience** to see a list of audiences and their source. Select an audience from the Audience Name list. Tap **Add Experience** to name the experience, and tap **Next**.
 
    The Goals & Settings section lets you schedule and prioritize your activity. Set the start date, end date, and priority of the activity, goal metric, additional metric and tap **Save**.
 
@@ -64,7 +64,7 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 
 1. To enable target framework for adaptive forms, navigate to your form or interactive communication, and open it in edit mode.
 
-   To open a form or interactive communication in edit mode, tap **Select, **and then tap **Open**.
+   To open a form or interactive communication in edit mode, tap **Select** and then tap **Open**.
 
    Alternatively, four buttons appear when you move your pointer over the form or interactive communication icon without selecting it. You can tap the **Edit** button that appears, to open the form in edit mode. 
 

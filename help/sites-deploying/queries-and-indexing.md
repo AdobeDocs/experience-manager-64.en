@@ -86,7 +86,7 @@ The Property Index is generally useful for queries that have property constraint
 
 The Property Index has the following configuration options:
 
-* The **type** property** **will specify the type of index, and in this case it must be set to **property**
+* The **type** property will specify the type of index, and in this case it must be set to **property**
 
 * The **propertyNames** property indicates the list of the properties that will be stored in the index. In case it is missing, the node name will be used as a property name reference value. In this example, the **jcr:uuid** property whose job is to expose the unique identifier (UUID) of its node is added to the index.
 

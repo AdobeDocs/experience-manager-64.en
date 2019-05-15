@@ -53,7 +53,7 @@ Complete the following steps to add a custom property to all the asset types and
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
        ![Overlay node](assets/cmmetapropertiesoverlaynode.png)
 
@@ -158,7 +158,7 @@ Using the following procedure, you can add a tab with a field to all your assets
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.
 
@@ -260,7 +260,7 @@ Using the following procedure, you can add a tab with a field to all your assets
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder is created. Click **Save All**.
 
@@ -331,7 +331,7 @@ To add a property to an asset type, complete the following steps:
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.
 
@@ -433,7 +433,7 @@ By default, the custom properties added to new tabs are visible only on the prop
 
    **Location:** /apps/
 
-   **Match** **Node Types:** Selected
+   **Match Node Types:** Selected
 
    Depending on the type of asset, following needs to be the path:
 
@@ -506,7 +506,7 @@ Complete the following steps to display the custom property in the Correspondenc
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.
 
@@ -545,7 +545,7 @@ Complete the following steps to display the custom property in the Correspondenc
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.
 
@@ -718,7 +718,7 @@ To allow indexing of custom properties, complete the following steps:
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.  
 
@@ -753,7 +753,7 @@ To allow indexing of custom properties, complete the following steps:
 
        **Location:** /apps/
 
-       **Match** **Node Types:** Selected
+       **Match Node Types:** Selected
     
     1. Click **OK**. The folder structure is created in the apps folder.  
 

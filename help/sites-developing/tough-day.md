@@ -280,7 +280,7 @@ Tough Day 2 can run in one of the following modes: **normal** and **constant loa
 
 The **normal** run mode has two parameters:
 
-* `concurrency`** **- concurrency represents the number of threads that Tough Day 2 will create for test execution. On these threads, tests will be executed until either the duration has run out or there are no more tests to execute.
+* `concurrency` - concurrency represents the number of threads that Tough Day 2 will create for test execution. On these threads, tests will be executed until either the duration has run out or there are no more tests to execute.
 
 * `waittime` - the wait time between two consecutive test executions on the same thread. The value must be expressed in milliseconds.
 
@@ -360,7 +360,7 @@ Tough Day 2 currently reports 9 test metrics that you can evaluate. Metrics with
 | 99.9p&#42; |99.9 percentile. |
 | Real Throughput &#42; |Number of runs divided by the elapsed execution time. |
 
-These metrics are written with the help of publishers** **that can be added with the `add` parameter (similarly to adding tests). Currently, there are two options:
+These metrics are written with the help of publishers that can be added with the `add` parameter (similarly to adding tests). Currently, there are two options:
 
 * **CSVPublisher** - the output is a CSV file.
 * **ConsolePublisher** - the output is displayed in the console.

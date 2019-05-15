@@ -71,7 +71,7 @@ To integrate AEM 3D with Autodesk 3ds Max:
 
 ## Testing the integration of AEM 3D with Autodesk 3ds Max {#testing-the-integration-of-aem-d-with-autodesk-ds-max}
 
-1. Open AEM Assets, then upload the .MAX file located in `sample-3D-content/models`** **to the **test3d** folder.
+1. Open AEM Assets, then upload the .MAX file located in `sample-3D-content/models` to the **test3d** folder.
 
    Note that sample-3D-content.zip was previously downloaded for validating the basic 3D functionality.
 

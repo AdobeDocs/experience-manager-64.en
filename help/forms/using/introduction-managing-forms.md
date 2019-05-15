@@ -41,7 +41,7 @@ Forms & Documents provides options to create an Interactive Communication, adapt
 
 The create button is the starting point of the process of creating or uploading AEM Forms asset. It provides you options to create:
 
-* **Interactive Communication**:** **An Interactive Communication is a personalized, interactive, and device friendly HTML-based digital correspondence, statement, or document. Interactive Communications are responsive in nature and change layout and design automatically based on user device and settings. For detailed information, see [Interactive Communications Overview](/help/forms/using/interactive-communications-overview.md)**.
+* **Interactive Communication**: An Interactive Communication is a personalized, interactive, and device friendly HTML-based digital correspondence, statement, or document. Interactive Communications are responsive in nature and change layout and design automatically based on user device and settings. For detailed information, see [Interactive Communications Overview](/help/forms/using/interactive-communications-overview.md).
 
 * **Adaptive form:** An adaptive form is an engaging and responsive form. You can author an adaptive form to dynamically adapt to user inputs by adding or removing form sections based on user response, device, or work environment. The [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md) article provides detailed information about the adaptive forms.
 

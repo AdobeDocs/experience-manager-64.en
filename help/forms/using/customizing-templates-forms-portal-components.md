@@ -137,7 +137,7 @@ Support for localization, sorting, and using configuration properties on the use
 
 *Note:*
 
-1. For the delete option in the Drafts section under the Drafts & Submissions component, name the CSS class "__FP_deleteDraft." In addition, include the attribute "draftID" with the value **${draftID}**, which is** **the draft id of corresponding draft.
+1. For the delete option in the Drafts section under the Drafts & Submissions component, name the CSS class "__FP_deleteDraft." In addition, include the attribute "draftID" with the value **${draftID}**, which is the draft id of corresponding draft.
 
 1. While creating links to open drafts and submissions, you can specify **${path}.html **as the value of the **href** attribute for the anchor tag.
 
@@ -145,13 +145,13 @@ Support for localization, sorting, and using configuration properties on the use
 
 ***A**. *Container element
 
-***B.*** "path"** **metadata with a fixed hierarchy to obtain the thumbnail stored for each form.
+***B.*** "path" metadata with a fixed hierarchy to obtain the thumbnail stored for each form.
 
 **C. **Data-repeatable attribute used for the template section for each form
 
 ***D.** *To localize "Apply" string
 
-***E.** *Using the configuration property pdfLinkText** **
+***E.** *Using the configuration property pdfLinkText 
 
 ***F.*** Using the "pdfUrl" metadata
 

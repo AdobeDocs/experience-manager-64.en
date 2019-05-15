@@ -206,7 +206,7 @@ The `sling:alias` property allows you to have our cake and eat it too. `sling:al
 
 This would allow the AEM translation tools such as the multi-site manager to continue to maintain a relationship between:
 
-* `/en/home`** **
+* `/en/home` 
 
 * `/es/home`
 
@@ -231,7 +231,7 @@ In a standard AEM installation:
 
 Mapping definitions can be added in this location to map inbound requests, rewrite URLs on pages in AEM, or both.
 
-To create a new mapping, create a new `sling:Mapping`** **node in this location under `/http` or `/https`. Based on the `sling:match` and `sling:internalRedirect` properties that are set on this node, AEM will redirect all traffic for the matched URL to the value specified in the `internalRedirect` property.
+To create a new mapping, create a new `sling:Mapping` node in this location under `/http` or `/https`. Based on the `sling:match` and `sling:internalRedirect` properties that are set on this node, AEM will redirect all traffic for the matched URL to the value specified in the `internalRedirect` property.
 
 While this is the approach that is documented in the official AEM and Sling documentation, the regular expression support provided by this implementation is limited in scope when compared to the options that are available to us by using the `SlingResourceResolver` directly. Additionally, implementing mappings in this way can lead to issues with dispatcher cache invalidation.
 
@@ -358,7 +358,7 @@ Disallow: /
 
 Alternately, on a live environment, you could choose to disallow certain paths that you do not want indexed.
 
-The caveat with placing the `robots.txt`** **file at the site root is that dispatcher flush requests may clear this file out and URL mappings will likely place the site root somewhere different than the `DOCROOT` as defined in the Apache HTTP Server configuration. For this reason, it is common to place this file on the author instance at the site root and replicate it to the publish instance.
+The caveat with placing the `robots.txt` file at the site root is that dispatcher flush requests may clear this file out and URL mappings will likely place the site root somewhere different than the `DOCROOT` as defined in the Apache HTTP Server configuration. For this reason, it is common to place this file on the author instance at the site root and replicate it to the publish instance.
 
 ### Building an XML sitemap on AEM {#building-an-xml-sitemap-on-aem}
 

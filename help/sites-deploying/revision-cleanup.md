@@ -567,7 +567,7 @@ The list includes several command line parameters, as described below:
 
 * **-Dcompress-interval**. Number of compaction map entries to keep until compressing the current map. The default is 1000000. You should increase this value to an even higher number for faster throughput, if enough heap memory is available. **This parameter has been removed in Oak version 1.6 and has no effect.**
 
-* **-Dcompaction-progress-log**. The number of compacted nodes that will be logged. The default value is 150000,** **which means that the first 150000 compacted nodes will be logged during the operation. Use this in conjunction with the next parameter documented below.
+* **-Dcompaction-progress-log**. The number of compacted nodes that will be logged. The default value is 150000, which means that the first 150000 compacted nodes will be logged during the operation. Use this in conjunction with the next parameter documented below.
 
 * **-Dtar.PersistCompactionMap.** Set this parameter to true to use disk space instead of heap memory for compaction map persistance. Requires the oak-run tool **versions 1.4** and higher. For further details, see question 3 in the [Offline Revision Cleanup Frequently Asked Questions](/help/sites-deploying/revision-cleanup.md#offline-revision-cleanup-frequently-asked-questions) section. **This parameter has been removed in Oak version 1.6 and has no effect.**
 

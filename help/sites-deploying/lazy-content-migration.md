@@ -29,7 +29,7 @@ As this typically also requires adjusting application this activity should be pe
 
 Below is the full list of `CodeUpgradeTasks` introduced in 6.4:
 
-| **Name** |**Relevant** **for AEM versions prior to** |**Migration** **Type** |**Details** |
+| **Name** |**Relevant for AEM versions prior to** |**Migration Type** |**Details** |
 |---|---|---|---|
 | `Cq561ProjectContentUpgrade` |< 5.6.1 |Immediate |  |
 | `Cq60MSMContentUpgrade` |< 6.0 |Immediate |Detects all `LiveRelationShips` from `VersionStorage` that have been deleted and add exclusion property to parent |

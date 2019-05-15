@@ -37,7 +37,7 @@ AEM realizes responsive layout for your pages using a combination of mechanisms:
 * [**Layout Container**](#adding-a-layout-container-and-its-content-edit-mode) component  
   This component is available in the [component browser](/help/sites-authoring/author-environment-tools.md#components-browser) and provides a grid-paragraph system to allow you to add and position components within a responsive grid. It can also be set as the default paragraph system on your page.  
 
-* [**Layout** **Mode**](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)  
+* [**Layout Mode**](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)  
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
 * [**Emulator**](#selecting-a-device-to-emulate) 

@@ -55,7 +55,7 @@ The tool converts dialogs by creating a corresponding Granite UI / Coral 3 dialo
 
 Use the following steps to convert one or more dialogs:
 
-1. Open the **Dialog Conversion** console, accessible from **Global Navigation -&gt; Tools -&gt;** **Operations**:
+1. Open the **Dialog Conversion** console, accessible from **Global Navigation** -&gt; **Tools** -&gt; **Operations**:
 
    `https://<*hostname*>:<*port*>/libs/cq/dialogconversion/content/console.html`
 

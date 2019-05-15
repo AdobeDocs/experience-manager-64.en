@@ -28,7 +28,7 @@ The Release Date for AEM Screens Feature Pack 201809 is October 01, 2018.
 * **Bulk Update Offline Content**: Allows you to update all the channel in bulk and avoids the hassle of navigating to a particular channel and update the content. Please refer to [Bulk Offline Update](/help/screens/bulk-offline-update.md) to learn more.  
 
 * **Bulk publish channels to publish instances**
-* **Enhanced Player Logging Mechanism**: You can specify the number of maximum log files for an AEM Screens player. Please refer to [Working with an AEM Screens Player](/help/screens/working-with-screens-player.md)** **for more details.  
+* **Enhanced Player Logging Mechanism**: You can specify the number of maximum log files for an AEM Screens player. Please refer to [Working with an AEM Screens Player](/help/screens/working-with-screens-player.md) for more details.  
 
 * **Author / Publish deployment (Hardening)**
 

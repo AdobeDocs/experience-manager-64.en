@@ -43,7 +43,7 @@ Analytics data is stored in customer-specific repositories called report suites.
 Perform the following steps to create a report suite.
 
 1. Log in at [https://sc.omniture.com/login/](https://sc.omniture.com/login/ ) 
-1. In the Marketing Cloud, select **Admin** &gt;** Admin Console** &gt;  **Report** **Suites**. 
+1. In the Marketing Cloud, select **Admin** &gt;** Admin Console** &gt;  **Report Suites**. 
 1. Select **Create New** &gt; **Report Suite** in the Report Suite Manager.
 
    ![Create new Report Suite](assets/newreportsuite.png)

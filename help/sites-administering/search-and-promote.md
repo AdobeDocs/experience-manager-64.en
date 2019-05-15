@@ -72,7 +72,7 @@ Configure one or more connections to Search&Promote so that your web pages can i
 
    >[!NOTE]
    >
-   >In order to get this information **yourself,** first** **you need to log into 
+   >In order to get this information **yourself,** first you need to log into 
    >
    >
    >[https://searchandpromote.omniture.com/center/](https://searchandpromote.omniture.com/center/)

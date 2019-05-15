@@ -32,7 +32,7 @@ AEM Forms app offline service identifies the resources used in a form. AEM Forms
 
 To configure the server-side offline component of AEM Forms app:
 
-1. In the author instance, navigate to **Adobe Experience Manager &gt;** **Tools &gt; Forms &gt; Configure Forms App Offline Service**.  
+1. In the author instance, navigate to **Adobe Experience Manager** &gt;**Tools** &gt; **Forms** &gt; **Configure Forms App Offline Service**.  
    URL: `https://<server>:<port>/<context-path>/libs/fd/workspace-offline/gui/content/config.html`
 
 1. Under General Settings, you can perform the following:

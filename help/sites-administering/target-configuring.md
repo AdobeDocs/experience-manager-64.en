@@ -32,7 +32,7 @@ The following property values are used in the Provisioned Target Configuration c
 * **E-Mail:** As entered in the Opt-in wizard.
 * **Password:** As entered in the Opt-in wizard.
 * **API Type:** REST
-* **Synchronize Segments From Adobe Target:** Selected.** **
+* **Synchronize Segments From Adobe Target:** Selected. 
 
 * **Client library:** mbox.js.
 * **Use DTM to deliver client library:** Not selected. Select this option if you [use DTM](/help/sites-administering/dtm.md) or another tag management system to host the mbox.js or AT.js file. Adobe recommends that you use DTM rather than AEM to deliver the library.

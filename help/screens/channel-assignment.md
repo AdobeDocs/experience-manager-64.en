@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 6303a1fd-8ee7-4565-a0c7-9295a2cd9306
 ---
 
-# Channel Assignment{#channel-assignment}
+# Channel Assignment {#channel-assignment}
 
 This section covers the following topics:
 
@@ -35,19 +35,19 @@ This page shows assigning channel to your displays.
 
 Follow the steps below to assign a channel to a display:
 
-1. Navigate to the required display, for example, **DemoProject*** *--&gt; **Locations** --&gt; **SanJose** --&gt; **StoreDisplay**.
+1. Navigate to the required display, for example, **DemoProject** &gt; **Locations** &gt; **SanJose** &gt; **StoreDisplay**.
 
    ![](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tap/click **Assign Channel **in the action bar
+1. Tap/click **Assign Channel** in the action bar
 
    Or,
 
-   Tap/click **Dashboard **and** **click** +Assign Channel **from the** ASSIGNED CHANNNELS **panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard**and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
    ![](assets/screen_shot_2018-08-23at25938pm.png)
 
-   You can configure the following properties from the **Channel Assignment **dialog box:
+   You can configure the following properties from the **Channel Assignment** dialog box:
 
    **Channel Role**:
 

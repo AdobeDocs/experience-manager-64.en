@@ -164,7 +164,7 @@ The **Build Form** tab lists form items that you use in your schema form. The **
 
 To edit the properties of a metadata component on the form, click the component and edit all or a subset of the following properties in the **Settings** tab.
 
-**Field Label**:** **The name of the metadata property that is displayed on the properties page for the asset.
+**Field Label**: The name of the metadata property that is displayed on the properties page for the asset.
 
 **Map to Property**: This property specifies the relative path/name to the asset node where it is saved in the CRX repository. It starts with "**./**" because indicating that the path is under the asset's node.
 
@@ -283,7 +283,7 @@ AEM Assets maps the following MIME types and schema forms:
 
 The Metadata Schema feature is available to administrators only. However, administrators can provide access to non administrators by modifying some permissions.
 
-The non administrator should have **Create, Modify**,** **and **Delete** permissions on the */conf* folder.
+The non administrator should have **Create, Modify**, and **Delete** permissions on the */conf* folder.
 
 ## Applying folder-specific metadata {#applying-folder-specific-metadata}
 

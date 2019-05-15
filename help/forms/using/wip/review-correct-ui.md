@@ -121,7 +121,7 @@ You can change an existing component if the conversion service is unable to corr
 |---|---|
 | **Text** |Field and Choice Group |
 | **Field** |Text and Choice Group |
-| **Choice** **Group** |Text and Panel |
+| **Choice Group** |Text and Panel |
 
 >[!NOTE]
 >

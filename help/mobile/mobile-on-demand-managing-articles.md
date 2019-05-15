@@ -87,7 +87,7 @@ Content like articles, banners, etc have numerous properties such as titles, des
 The general workflow to view/edit an article:
 
 1. From Mobile, choose your Mobile On-Demand app from the catalog.
-1. Choose an article from the **Manage** **Articles** tile.
+1. Choose an article from the **Manage Articles** tile.
 
 1. Select **View Properties** from the action bar.
 1. View all available meta data for that article.

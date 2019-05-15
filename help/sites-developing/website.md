@@ -67,7 +67,7 @@ After you have installed AEM, access the CRXDE Lite development environment by c
 
 Use CRXDE Lite to create the mywebsite application structure in the repository:
 
-1. In the tree on the left side of CRXDE Lite, right-click the **`/apps`** folder and click **Create** > **Create** **Folder**. In the **Create Folder **dialog, type `mywebsite` as the folder name and click **OK**.
+1. In the tree on the left side of CRXDE Lite, right-click the **`/apps`** folder and click **Create** > **Create Folder**. In the **Create Folder **dialog, type `mywebsite` as the folder name and click **OK**.
 1. Right-click the **`/apps/mywebsite`** folder and click **Create** > **Create Folder**. In the **Create Folder** dialog, type `components` as the folder name and click **OK**.
 1. Right-click the **`/apps/mywebsite`** folder and click **Create** > **Create Folder**. In the** Create Folder **dialog, type `templates` as the folder name and click **OK**.
 

@@ -53,7 +53,7 @@ Starting a new AEM Mobile app experience requires a cohesion of roles before it 
 
 ### Understanding the AEM Mobile Application Dashboard {#understanding-the-aem-mobile-application-dashboard}
 
-Before understanding the roles and responsibilities, the user should have throrough knowledge of **AEM Mobile Control Center** or the **Application** **Dashboard**. Click [here](/help/mobile/mobile-apps-ondemand-application-dashboard.md) for an in-depth understanding.
+Before understanding the roles and responsibilities, the user should have throrough knowledge of **AEM Mobile Control Center** or the **Application Dashboard**. Click [here](/help/mobile/mobile-apps-ondemand-application-dashboard.md) for an in-depth understanding.
 
 ### AEM Administrator {#aem-administrator}
 

@@ -223,7 +223,7 @@ To import leads from a comma-separated list:
    >    
    >
 
-1. In the **Tools** menu, select **Import** **Leads**.  
+1. In the **Tools** menu, select **Import Leads**.  
 
 1. Enter the information as described in Sample Data. The following fields can be imported: email,familyName,givenName,gender,aboutMe,city,country,phoneNumber,postalCode,region,streetAddress
 

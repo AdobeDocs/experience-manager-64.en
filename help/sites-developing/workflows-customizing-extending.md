@@ -388,7 +388,7 @@ To define a process step as an OSGI service component (Java bundle):
    >
    >The package name needs to be added to the `<*Private-Package*>` section of the `maven-bundle-plugin` configuration.
 
-1. Add the SCR property `process.label`** ** and set the value as you require. This will be the name which your process step is listed as when using the generic **Process Step** component. See the example below.
+1. Add the SCR property `process.label`  and set the value as you require. This will be the name which your process step is listed as when using the generic **Process Step** component. See the example below.
 1. In the **Models** editor, add the process step to the workflow using the generic **Process Step** component.
 1. In the edit dialog (of the **Process Step**), go to the **Process** tab and select your process implementation. 
 1. If you use arguments in your code, set the **Process Arguments**. For example: false.

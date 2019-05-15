@@ -259,7 +259,7 @@ The action available in the toolbar change to reflect the actions you can take o
 
 How you [select a resource](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources) depends on the view.
 
-Due to the space restrictions in some windows, the toolbar can quickly become longer than the space available. When this happens** **additional options appears. Clicking or tapping on the ellipsis (the three dots or** ...**) opens a drop down selector holding all remaining actions. For example, after selecting a page in the **Sites** console:
+Due to the space restrictions in some windows, the toolbar can quickly become longer than the space available. When this happens additional options appears. Clicking or tapping on the ellipsis (the three dots or **...**) opens a drop down selector holding all remaining actions. For example, after selecting a page in the **Sites** console:
 
 ![](assets/screen_shot_2018-03-23at104827.png)
 

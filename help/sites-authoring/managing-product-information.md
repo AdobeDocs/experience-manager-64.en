@@ -67,7 +67,7 @@ A Product Photo Shoot project includes the following out-of-the-box workflows:
 * Product Photo Shoot (Commerce Integration) Workflow
 * Product Photo Shoot Workflow
 
-Use the Product Photo Shoot (Commerce Integration) workflow** **to map image assets with the products in AEM. This workflow leverages Commerce Integration to link the approved images to the existing product data at the location */etc/commerce*.
+Use the Product Photo Shoot (Commerce Integration) workflow to map image assets with the products in AEM. This workflow leverages Commerce Integration to link the approved images to the existing product data at the location */etc/commerce*.
 
 The Product Photo Shoot (Commerce Integration) workflow includes the following tasks:
 
@@ -77,7 +77,7 @@ The Product Photo Shoot (Commerce Integration) workflow includes the following t
 * Review and Approve
 * Move to Production Task
 
-If product information isn’t available in AEM, use the Product Photo Shoot workflow** **to map image assets with the products based on the details you upload in a CSV file. The CSV file must contain basic product information, such as product ID, category, and description. The workflow fetches approved assets for the products.
+If product information isn’t available in AEM, use the Product Photo Shoot workflow to map image assets with the products based on the details you upload in a CSV file. The CSV file must contain basic product information, such as product ID, category, and description. The workflow fetches approved assets for the products.
 
 This workflow includes the following tasks:
 
@@ -203,7 +203,7 @@ The **Create Shot List **task enables the project owner to select products for w
 
    ![](assets/chlimage_1-148.png)
 
-   To edit the existing data or add new data, tap/click **Edit** from the toolbar. Only the **Product **and **Description** fields** **are editable.
+   To edit the existing data or add new data, tap/click **Edit** from the toolbar. Only the **Product **and **Description** fields are editable.
 
    ![](assets/chlimage_1-149.png)
 
@@ -231,7 +231,7 @@ A product can belong to a particular category. The product category can be liste
 
 >[!NOTE]
 >
->The name of images to be uploaded should start with "**&lt;ProductId&gt;_"** where Product ID is referenced from the **Id** field in the *shotlist.csv* file. For example, for a product in the shot list with **Id** **397122**, you can upload files with names** 397122_highcontrast.jpg**, **397122_lowlight.png**, and so on.
+>The name of images to be uploaded should start with "**&lt;ProductId&gt;_"** where Product ID is referenced from the **Id** field in the *shotlist.csv* file. For example, for a product in the shot list with **Id 397122**, you can upload files with names** 397122_highcontrast.jpg**, **397122_lowlight.png**, and so on.
 
 1. In the project folder, tap/click the ellipses in the [Tasks Card](#tracking-project-progress) to view the list of tasks in the workflow.
 1. Select the **Upload Shot List** task, and then tap/click the **Open** icon from the toolbar.
@@ -338,7 +338,7 @@ This task moves the approved assets to the production-ready folder to make them 
 
    ![](assets/chlimage_1-162.png)
 
-   Tap/click **Move to Production**.** **Close the confirmation message. The assets are moved to the mentioned path and a spin set is authomatically created for the approved assets for each product based on the folder hierarchy.
+   Tap/click **Move to Production**. Close the confirmation message. The assets are moved to the mentioned path and a spin set is authomatically created for the approved assets for each product based on the folder hierarchy.
 
 1. Tap/click the **Complete** icon from the toolbar. The workflow completes as the last step is marked complete.
 
@@ -359,7 +359,7 @@ You can customize the Project Photo Shoot workflows based on requirements. This 
    ![](assets/chlimage_1-163.png)
 
 1. Open the **Role Based Task** step.
-1. In the **Task **tab, provide a name** **for the Task that will display in the **Task** List. You may also assign the task to a role, set the default priority, provide a description, and specify a time when the task is due. 
+1. In the **Task** tab, provide a name for the Task that will display in the **Task** List. You may also assign the task to a role, set the default priority, provide a description, and specify a time when the task is due. 
 
    ![](assets/chlimage_1-164.png)
 

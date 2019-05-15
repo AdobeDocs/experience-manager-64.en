@@ -37,7 +37,7 @@ You can configure these OSGi service properties for your own instance.
 >
 >When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](/help/sites-deploying/configuring-osgi.md) for more details and the recommended practices.
 
-The following lists the properties** **as displayed in the Web console, followed by the name of the corresponding OSGi parameter, together with a description and the default value (where appropriate):
+The following lists the properties as displayed in the Web console, followed by the name of the corresponding OSGi parameter, together with a description and the default value (where appropriate):
 
 * **Enable** 
   ( `cq.wcm.undo.enabled`)

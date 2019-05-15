@@ -29,7 +29,7 @@ To not display the avatar next to each posted comment:
 
 1. open the overlaid `comment.hbs`
 
-    * double-click on node** ** `comment.hbs`in `/apps/social/commons/components/hbs/comments/comment folder`
+    * double-click on node  `comment.hbs`in `/apps/social/commons/components/hbs/comments/comment folder`
 
 1. find the following lines and either delete or comment them out:
 
@@ -59,7 +59,7 @@ Push the overlaid comments component to the publish instance using the Replicati
 
 From the global navigation, select **Tools, Deployment, Replication** and then **Activate Tree**.
 
-For the Start Path enter `/apps/social/commons`** **and select **Activate**.
+For the Start Path enter `/apps/social/commons` and select **Activate**.
 
 ![](assets/chlimage_1-42.png) 
 

@@ -124,7 +124,7 @@ The conversion service can create some fields of incorrect type. For example, in
 
 ![](assets/convert.png)
 
-Select the field to convert, tap ![](assets/transform.png)** **and tap a field type. The field is converted to selected field type. A field can be converted only to types listed in the following table. A panel component can only be ungrouped, not transformed. 
+Select the field to convert, tap ![](assets/transform.png) and tap a field type. The field is converted to selected field type. A field can be converted only to types listed in the following table. A panel component can only be ungrouped, not transformed. 
 
 | **Component** |**Converts to** |
 |---|---|
