@@ -333,32 +333,12 @@ When you choose a video encoding preset, take into account the target end userâ€
 
 This table describes the data rate of typical connection speeds.
 
-<table> 
- <tbody> 
-  <tr> 
-   <th><p>Speed (Kbps)</p> </th> 
-   <th><p>Connection type</p> </th> 
-  </tr> 
- </tbody> 
- <tbody> 
-  <tr> 
-   <td><p>256</p> </td> 
-   <td><p>Dial-up connection.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>800</p> </td> 
-   <td><p>Typical mobile connection. For this connection, target a data rate in the range of 400 to a maximum of 800 for 3G experiences.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>2000</p> </td> 
-   <td><p>Typical broadband desktop connection. For this connection, target a data rate in the 800-2000 Kbps range, with most targets averaging 1200-1500 Kbps.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>5000</p> </td> 
-   <td><p>Typical high-broadband connection. Encoding in this upper range is not recommended because video delivery at this speed is not available to most consumers.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Speed (Kbps) |Connection type |
+|--- |--- |
+|256|Dial-up connection.|
+|800|Typical mobile connection. For this connection, target a data rate in the range of 400 to a maximum of 800 for 3G experiences.|
+|2000|Typical broadband desktop connection. For this connection, target a data rate in the 800-2000 Kbps range, with most targets averaging 1200-1500 Kbps.|
+|5000|Typical high-broadband connection. Encoding in this upper range is not recommended because video delivery at this speed is not available to most consumers.|
 
 ### Resolution {#resolution}
 

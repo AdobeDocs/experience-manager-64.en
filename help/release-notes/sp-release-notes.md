@@ -288,7 +288,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 * Unable to submit PDF Forms in HTML Workspace. NPR-28058: Hotfix for CQ-4260373 
 * Customer data gets printed in info logs using Invoke FDM Service Forms Workflow. Hotfix for CQ-4260385
 
-## Feature Packs Included {#feature-packs-included}
+## Feature Packs Included {#feature-packs-included-sites}
 
 >[!NOTE]
 >
@@ -547,7 +547,7 @@ The key highlights for AEM 6.4.3.0 forms are:
 
 *   Added JBoss 7.1.4 support for AEM Forms 6.4. NPR-27331; Hotfix for CQ-4255601
 
-### Feature Packs included {#feature-packs-included}
+### Feature Packs included {#feature-packs-included-osgi}
 
 *   Enabled support for an array/list of objects with Dynamic Entity Substitution. NPR-26590: Hotfix for CQ-4254655
 
@@ -1346,7 +1346,7 @@ The key highlights for AEM Forms are:
 *   Add PDF/UA support to XML forms generated via Designer and Output Service. NPR-23022
 *   inline Hyperlinks defined in Designer do not get tagged nor they have alternate text when saved as PDF from Designer. NPR-23023
 
-### Feature Packs Included {#feature-packs-included-7}
+### Feature Packs Included {#feature-packs-included-assets}
 
 #### Assets {#assets-7}
 

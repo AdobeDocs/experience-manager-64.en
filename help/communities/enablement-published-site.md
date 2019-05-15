@@ -13,8 +13,7 @@ discoiquuid: 26715b94-e2ea-4da7-a0e2-3e5a367ac1cd
 
 # Experience the Published Site{#experience-the-published-site}
 
-| **[⇐ Create and Assign Enablement Resources](/help/communities/resource.md)** |  |
-|---|---|
+**[⇐ Create and Assign Enablement Resources](/help/communities/resource.md)**
 
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}
 
@@ -255,6 +254,4 @@ For reports on views:
 
 ![](assets/chlimage_1-446.png)
 
-| ** [⇐ Create and Assign Enablement Resources](/help/communities/resource.md)** |  |
-|---|---|
-
+**[⇐ Create and Assign Enablement Resources](/help/communities/resource.md)**

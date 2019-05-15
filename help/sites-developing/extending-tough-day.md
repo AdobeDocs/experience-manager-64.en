@@ -12,7 +12,7 @@ noindex: true
 
 # Extending Tough Day{#extending-tough-day}
 
-## Extending Tough Day 2 {#extending-tough-day}
+## Extending Tough Day 2 {#extending-tough-day-two}
 
 Add text here.
 
