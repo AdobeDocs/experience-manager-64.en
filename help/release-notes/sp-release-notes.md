@@ -224,7 +224,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 
 ### Forms add-on package {#forms-add-on-package}
 
-#### Adobe Sign integration {#adobe-sign-integration}
+#### Adobe Sign integration {#adobe-sign-int}
 
 * AEM 6.4 Forms Client SDK does not contain adobesign-recipent package. NPR-27735: Hotfix for CQ-4259372
 
@@ -269,7 +269,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 * On using the updatepolicy service, the cannot coerse object error occurs. NPR-28751: Hotfix for CQ-4252287
 * Signature Build failing with older version of commons-pkg. Hotfix for  CQ-4265535
 
-#### Forms - Foundation JEE {#forms-foundation-jee}
+#### Forms - Foundation JEE {#forms-foun-jee}
 
 * When AEM Forms is inatlled on IBM WebSphere, creating a Form Data Model based on SOAP fails. NPR-27923:  Hotfix for CQ-4251134
 * SRT tool of PDF Generator fails to detect installed version of Adobe Acrobat. NPR-27971
@@ -278,11 +278,11 @@ The key highlights for AEM 6.4.4.0 forms are:
 
 * Some JPEG images in an XDP template do not render properly.  NPR-26702: Hotfix for LC-3917457
 
-#### Forms - OBSOLETE {#forms-obsolete}
+#### Forms - OBSOLETE {#forms-obsolete-new}
 
 * The paper capture service crashes while processing  TIFF files. NPR-28079:  Hotfix for CQ-4240649
 
-#### Forms - Workflow {forms-workflow}
+#### Forms - Workflow {forms-new-workflow}
 
 * HTML5 Forms with default submit process in an.lca do not work on JBoss 7. NPR-28675: Hotfix for CQ-4243928
 * Unable to submit PDF Forms in HTML Workspace. NPR-28058: Hotfix for CQ-4260373 
@@ -514,11 +514,11 @@ The key highlights for AEM 6.4.3.0 forms are:
 *   CCR UI displays a default junk value for the date field in case there is no input from the test data XML. Hotfix for CQ-4252041
 *   If a letter contains a list module, the space between bullet and text is lost while generating PDF from the letter. Hotfix for CQ-4250588
 
-#### Forms Manager {#forms-manager}
+#### Forms Manager {#forms-manager-seven}
 
 *   Enabled support for allowedPaths property on Adaptive forms templates. NPR-26598: Hotfix for CQ-4255892
 
-#### Forms - Workflow {#forms-workflow}
+#### Forms - Workflow {#forms-wkflw}
 
 *   If braces are included in the task name while executing the Forms workflow, an exception is displayed in the logs. Hotfix for CQ-4256626
 *   Unable to open a Search template in AEM Forms workspace. Hotfix for CQ-4255651
@@ -768,7 +768,7 @@ Some of the key highlights of AEM 6.4.2.0 are:
 
 *   Content Fragments annotations, and side-by-side comparison of Content Fragment versions. Hotfix for CQ-4247148
 
-### DAM - General
+### DAM - General {#dam-gen}
 
 *   “Checked out by" filter not working correctly within search. Hotfix for CQ-4247070
 *   On performing asset update workflow, the asset language copy and its thumbnail becomes blank. Hotfix for CQ-4250641
@@ -779,17 +779,17 @@ Some of the key highlights of AEM 6.4.2.0 are:
 *   WebdriverIO Tests not running in release/640 branch of CQ/dam. Hotfix for CQ-4252749
 *   Links to moved assets are not refactored if link is published. Hotfix for CQ-4245756
 
-### DAM - Viewers
+### DAM - Viewers {#dam-vwrs}
 
 *   Intermittent error on loading video with new viewers 5.10.1. Hotfix for CQ-4250562
 
-### DAM-Brand Portal
+### DAM-Brand Portal {#dam-brand-prtl}
 
 *   Unpublish collection from Brand Portal is failing with error. Hotfix for CQ-4245990
 *   Unable to unpublish image presets from Brand Portal. Hotfix for CQ-4246140
 *   Subassets of a multi page pdf file do not get published when an asset is published. Hotfix for CQ-4245162
 
-### DAM - DMClient
+### DAM - DMClient {#dam-dmclient-new}
 
 *   When publishing a video asset to YouTube, the tags that result in YouTube include the tag's full path. Hotfix for CQ-4245549
 *   \[Opt-out and Opt-In upgrades\] Issue with Viewer CSS redirect. Hotfix for CQ-4247854
@@ -893,7 +893,7 @@ The key highlights for AEM 6.4.2.0 forms are:
 *   \[Template Editor\] Basic template shows header / footer additional drag drop areas and the screen flickers on opening Web Channel. Hotfix for CQ-4253323
 *   Auto-generated components do not get highlighted on selecting from the Content tree. Hotfix for CQ-4246178
 
-#### Document Services {#doc-services}
+#### Document Services {#doc-services-one}
 
 *   \[Form Service\] OSGI lacks support for XFAF. NPR-25181, Hotfix for CQ-4251313
 *   The characters in the heading of the assembled PDF file are coming to be garbled. NPR-25113: Hotfix for CQ-4244682
@@ -917,12 +917,12 @@ The key highlights for AEM 6.4.2.0 forms are:
 
 ### Forms JEE Installer {#forms-jee-install}
 
-#### PDFG Service
+#### PDFG Service {#pdfg-serv}
 
 *   The create/modify function of security settings does not work. NPR-24769: Hotfix for CQ-4246927
 *   Optimize PDFs by selectively unembedding fonts via single API call. NPR-23287
 
-#### Document Services {#doc-services}
+#### Document Services {#doc-services-two}
 
 *   Output Service does not provide the correct tags for accessibility Reader. NPR-24438, NPR-24439, NPR-24440, NPR-24441: Hotfix for CQ-4243849, CQ-4243845, CQ-4243852, CQ-4243853
 
@@ -1369,9 +1369,9 @@ List of Content Packages included in AEM 6.4.1.0
 
 [Get File](assets/6_4_1_0_content-package-list.txt)
 
-## Install 6.4.4.0 {#install}
+## Install 6.4.4.0 {#install-what-new}
 
-### Setup requirements {#setup-requirements}
+### Setup requirements {#setup-requirements-new}
 
 >[!NOTE]
 >
@@ -1407,7 +1407,7 @@ Perform the following steps to install the Service Pack on an existing AEM 6.4 i
 >
 >Therefore, it is recommended to wait for error logs to stabilize before accessing the instance. The user has to wait for specific logs related to uninstallation of updater bundle before being ensured that the installations is successful. It generally happens on Safari but can intermittently happen on any browser.
 
-### Automatic installation {#automatic-installation}
+### Automatic installation {#auto-installation}
 
 There are two ways to automatically install AEM 6.4.4.0 into a running instance:
 
@@ -1419,7 +1419,7 @@ B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/e
 >
 >AEM 6.4.4.0 does not support Bootstrap installation.
 
-### Validate installation {#validate-installation}
+### Validate installation {#validate-install}
 
 1. The Product Information page (*/system/console/  productinfo *) should now show the updated version string "Adobe Experience Manager, Version 6.4.4.0" under Installed Products.
 1. All  OSGI  bundles are either ACTIVE or FRAGMENT in the OSGI Console (Use Web Console: /system/console/bundles).
@@ -1541,7 +1541,7 @@ List of Content Packages included in AEM 6.4.4.0
 * [AEM 6.4 documentation](https://helpx.adobe.com/support/experience-manager/6-4.html)
 * Subscribe to [Adobe Priority Product Updates](https://www.adobe.com/subscription/priority-product-update.html)
 
-## Restricted Sites {#restricted-sites}
+## Restricted Sites {#restricted-sites-new}
 
 These sites are only available to customers. If you are a customer and need access, please contact your Adobe account manager.
 
