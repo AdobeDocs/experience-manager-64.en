@@ -62,12 +62,10 @@ Best practices around Assets, including the dynamic media capability and Scene 7
 
 Managing and authoring your website content has some best practices outlined as follows:
 
-| Authoring | [Author environment and tools](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md) |Provides an overview on how to author pages. |
-|---|---|---|
+Authoring: [Author environment and tools](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md) - Provides an overview on how to author pages.
 
 ## Forms {#forms}
 
-| Adaptive forms | [Best practices for working with adaptive forms](/help/forms/using/adaptive-forms-best-practices.md) |Describes best practices for setting up, authoring, and customizing adaptive forms. |
-|---|---|---|
-| HTML5 forms | [Best practices for designing HTML5 forms](/help/forms/using/best-practices-for-html5-forms.md) |Describes best practices for working on layout and design of HTML5 forms. |
+Adaptive forms: [Best practices for working with adaptive forms](/help/forms/using/adaptive-forms-best-practices.md) - Describes best practices for setting up, authoring, and customizing adaptive forms.
 
+HTML5 forms: [Best practices for designing HTML5 forms](/help/forms/using/best-practices-for-html5-forms.md) - Describes best practices for working on layout and design of HTML5 forms.

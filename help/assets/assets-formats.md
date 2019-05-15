@@ -29,12 +29,12 @@ The following legend describes the level of support AEM Assets offers for a feat
 
 ## Supported Raster Image Formats {#supported-raster-image-formats}
 
-<!-- This table is messed up. The 2 rows are from spans, but it should be a 12-row table. Is it necessary to distinguish Asset Management Features from Dynamic Media Features? -->
+<!-- Check this table on stage. The EPS link might cause bad table width. Consider moving EPS link outside the table. -->
 
-| Asset Management Features |Dynamic Media Features |
-|---|---|
+| Asset Management Features |||||||Dynamic Media Features |||||
+|---|---|---|---|---|---|---|---|---|---|---|---|
 |   |Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
-| Format |  |
+| Format ||||||||||||
 | PNG |x |x |x |x |x |x |x |x |x |x |x |
 | GIF |x |x |x |x |x |  |x |x |x |x |x |
 | TIFF |x |x |x |x |  |x |x |x |x |x |x |
@@ -428,23 +428,23 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 |Storage |Metadata management |Metadata extraction |Thumbnail generation |FFMPEG transcoding |
 |---|---|---|---|---|
 | Format |  |
-| AAC |x |x |  |- |&#42; |
-| MIDI |x |x |  |- |&#42; |
-| 3GP |x |x |  |- |&#42; |
-| MP3 |x |x |x |- |&#42; |
-| MPG |x |x |  |- |&#42; |
-| OGA |x |x |  |- |&#42; |
-| OGG |x |x |  |- |&#42; |
-| RA |x |x |  |- |&#42; |
-| WAV |x |x |  |- |&#42; |
-| WMA |x |x |  |- |&#42; |
-| DVI |x |x |  |&#42; |&#42; |
-| FLV |x |x |  |&#42; |&#42; |
-| M4V |x |x |  |&#42; |&#42; |
-| MPEG |x |x |  |&#42; |&#42; |
-| OGV |x |x |  |&#42; |&#42; |
-| MOV |x |x |  |&#42; |&#42; |
-| WMV |x |x |  |&#42; |&#42; |
+| AAC |x |x |  |- |* |
+| MIDI |x |x |  |- |* |
+| 3GP |x |x |  |- |* |
+| MP3 |x |x |x |- |* |
+| MPG |x |x |  |- |* |
+| OGA |x |x |  |- |* |
+| OGG |x |x |  |- |* |
+| RA |x |x |  |- |* |
+| WAV |x |x |  |- |* |
+| WMA |x |x |  |- |* |
+| DVI |x |x |  |* |* |
+| FLV |x |x |  |* |* |
+| M4V |x |x |  |* |* |
+| MPEG |x |x |  |* |* |
+| OGV |x |x |  |* |* |
+| MOV |x |x |  |* |* |
+| WMV |x |x |  |* |* |
 | SWF |x |x |  |  |  |
 
 ## Supported Input Video Formats for Dynamic Media Transcoding {#supported-input-video-formats-for-dynamic-media-transcoding}
@@ -464,7 +464,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 | .mts |AVCHD |H264/AVC |  |
 | .mkv |Matroska |H264/AVC |  |
 | .r3d .rm |Red Raw Video |MJPEG 2000 |  |
-| .ram .rm |RealVideo |&#42;&#42;UNSUPPORTED&#42;&#42; |Real G2 (RV20), Real 8 (RV30), Real 10 (RV40) |
+| .ram .rm |RealVideo |**UNSUPPORTED** |Real G2 (RV20), Real 8 (RV30), Real 10 (RV40) |
 | .flac |Native Flac |Free lossless audio codec |  |
 | .mj2 |Motion JPEG2000 |Motion JPEG 2000 codec |  |
 
@@ -472,16 +472,6 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 <table> 
  <tbody>
-  <tr></tr>
-  <tr>
-   <th>Features</th> 
-   <th> </th> 
-   <th> </th> 
-   <th> </th> 
-   <th> </th> 
-   <th> </th> 
-   <th> </th> 
-  </tr>
   <tr>
    <th> </th> 
    <th>Storage</th> 
@@ -492,7 +482,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <th>Dynamic Media Delivery</th> 
   </tr>
   <tr>
-   <th>Formats</th> 
+   <td>Formats</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -548,7 +538,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
  </tbody>
 </table>
 
-**&#42;** The ZIP archives created using Deflate64 algorithm have limited support in AEM. Archive and unarchive operations are not supported. However, operations like uploading, browsing, and downloading are supported.
+**\*** The ZIP archives created using Deflate64 algorithm have limited support in AEM. Archive and unarchive operations are not supported. However, operations like uploading, browsing, and downloading are supported.
 
 ## Other Supported Formats {#other-supported-formats}
 

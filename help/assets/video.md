@@ -333,32 +333,12 @@ When you choose a video encoding preset, take into account the target end userâ€
 
 This table describes the data rate of typical connection speeds.
 
-<table> 
- <tbody> 
-  <tr> 
-   <th><p>Speed (Kbps)</p> </th> 
-   <th><p>Connection type</p> </th> 
-  </tr> 
- </tbody> 
- <tbody> 
-  <tr> 
-   <td><p>256</p> </td> 
-   <td><p>Dial-up connection.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>800</p> </td> 
-   <td><p>Typical mobile connection. For this connection, target a data rate in the range of 400 to a maximum of 800 for 3G experiences.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>2000</p> </td> 
-   <td><p>Typical broadband desktop connection. For this connection, target a data rate in the 800-2000 Kbps range, with most targets averaging 1200-1500 Kbps.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>5000</p> </td> 
-   <td><p>Typical high-broadband connection. Encoding in this upper range is not recommended because video delivery at this speed is not available to most consumers.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Speed (Kbps) |Connection type |
+|--- |--- |
+|256|Dial-up connection.|
+|800|Typical mobile connection. For this connection, target a data rate in the range of 400 to a maximum of 800 for 3G experiences.|
+|2000|Typical broadband desktop connection. For this connection, target a data rate in the 800-2000 Kbps range, with most targets averaging 1200-1500 Kbps.|
+|5000|Typical high-broadband connection. Encoding in this upper range is not recommended because video delivery at this speed is not available to most consumers.|
 
 ### Resolution {#resolution}
 
@@ -366,24 +346,10 @@ This table describes the data rate of typical connection speeds.
 
 Resolution and data rate are two integrally linked factors that determine video quality. To maintain the same video quality, the higher the number of pixels in a video file (the higher the resolution), the higher the data rate must be. For example, consider the number of pixels per frame in a 320 x 240 resolution and a 640 x 480 resolution video file:
 
-<table> 
- <tbody> 
-  <tr> 
-   <th><p>Resolution</p> </th> 
-   <th><p>Pixels per frame</p> </th> 
-  </tr> 
- </tbody> 
- <tbody> 
-  <tr> 
-   <td><p>320 x 240</p> </td> 
-   <td><p>76,800</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>640 x 480</p> </td> 
-   <td><p>307,200</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Resolution |Pixels per frame |
+|--- |--- |
+|320 x 240|76,800|
+|640 x 480|307,200|
 
 The 640 x 480 file has four times more pixels per frame. To achieve the same data rate for these two example resolutions, you apply four times the compression to the 640 x 480 file, which can reduce the quality of the video. Therefore, a video data rate of 250 Kbps produces high-quality viewing at a 320 x 240 resolution, but not at a 640 x 480 resolution.
 
@@ -396,47 +362,14 @@ Because resolution and data rate are linked, you have two options when encoding 
 
 When you choose (or create) a video encoding preset for your master video file, use this table to target the correct resolution:
 
-<table> 
- <tbody> 
-  <tr> 
-   <th><p>Resolution</p> </th> 
-   <th><p>Height (pixels)</p> </th> 
-   <th><p>Screen size</p> </th> 
-  </tr> 
- </tbody> 
- <tbody> 
-  <tr> 
-   <td><p>240p</p> </td> 
-   <td><p>240</p> </td> 
-   <td><p>Tiny screen</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>300p</p> </td> 
-   <td><p>300</p> </td> 
-   <td><p>Small screen typically for mobile devices</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>360p</p> </td> 
-   <td><p>360</p> </td> 
-   <td><p>Small screen</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>480p</p> </td> 
-   <td><p>480</p> </td> 
-   <td><p>Medium screen</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>720p</p> </td> 
-   <td><p>720</p> </td> 
-   <td><p>Large screen</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>1080p</p> </td> 
-   <td><p>1080</p> </td> 
-   <td><p>High-definition large screen</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Resolution |Height (pixels) |Screen size |
+|--- |--- |--- |
+|240p|240|Tiny screen|
+|300p|300|Small screen typically for mobile devices|
+|360p|360|Small screen|
+|480p|480|Medium screen|
+|720p|720|Large screen|
+|1080p|1080|High-definition large screen|
 
 ### Fps (Frames per second) {#fps-frames-per-second}
 
@@ -461,9 +394,7 @@ As an example, suppose that your source video is 1920 x 1080. In the following t
    <th><p>Width x Height</p> </th> 
    <th><p>Width Ratio</p> </th> 
    <th><p>Height Ratio</p> </th> 
-  </tr> 
- </tbody> 
- <tbody> 
+  </tr>
   <tr> 
    <td><p>Source</p> </td> 
    <td><p>1920 x 1080</p> </td> 
