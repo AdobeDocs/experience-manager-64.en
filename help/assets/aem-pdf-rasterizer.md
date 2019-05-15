@@ -59,7 +59,7 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 
    **-d**: Flag to enable smooth rendering of text, vector artwork, and images. Creates better quality images. However, including this parameter causes the command to run slowly and increase the size of images.
 
-   `-p`: Page number. Default value is all pages. '&#42;' denotes all pages.
+   `-p`: Page number. Default value is all pages. '*' denotes all pages.
 
    **-s**: Maximum image dimension (height or width). This is converted to DPI for each page. If pages are of different size, each page can potentially scale by different amount. The default is actual page size.
 
@@ -92,7 +92,7 @@ Thumbnails and previews generated using PDF Rasterizer are better in quality com
 
    **-d**: Flag to enable smooth rendering of text, vector artwork, and images. Creates better quality images. However, including this parameter causes the command to run slowly and increase the size of images.
 
-   **-p**: Page number. Default value is all pages. '&#42;' denotes all pages.
+   **-p**: Page number. Default value is all pages. '*' denotes all pages.
 
    **-s**: Maximum image dimension (height or width). This is converted to DPI for each page. If pages are of different size, each page can potentially scale by different amount. The default is actual page size.
 

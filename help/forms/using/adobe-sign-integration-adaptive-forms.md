@@ -95,7 +95,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 An Adobe Sign enabled adaptive form is submitted only after all the signers complete the signing process. By default, the Adobe Sign Scheduler services is scheduled to check (poll) signer response after every 24 hours. You can change the default interval for your environment. Perform the following steps to change the default interval:
 
-1. Log in to AEM Forms server with admin credentials and navigate to **Tools **&gt; **Operations **&gt; **Web Console**.
+1. Log in to AEM Forms server with admin credentials and navigate to **Tools** &gt;  **Operations** &gt;  **Web Console**.
 
    You can also open the following URL in a browser window:  
    `https://[localhost]:[port]/system/console/configMgr` 

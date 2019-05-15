@@ -24,7 +24,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 
 ## Create text {#create-text}
 
-1. Select **Forms **&gt; **Document Fragments**.  
+1. Select **Forms** &gt;  **Document Fragments**.  
 
 1. Tap **Create** &gt; **Text. **Or select a text asset and tap **Edit**.
 1. Specify the following information for the text:

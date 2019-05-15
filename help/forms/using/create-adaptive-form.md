@@ -33,7 +33,7 @@ You will have a form similar to the following by end of article:
 
 ## Step 1: Create the adaptive form {#step-create-the-adaptive-form}
 
-1. Log in to the AEM author instance and navigate to **Adobe Experience Manager** &gt; **Forms **&gt;** Forms & Documents**. The default URL is [http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments). 
+1. Log in to the AEM author instance and navigate to **Adobe Experience Manager** &gt; **Forms** &gt; ** Forms & Documents**. The default URL is [http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments). 
 1. Tap **Create **and select **Adaptive Form**. An option to select a template appears. Tap the **Blank** template to select it and tap **Next**.  
 
 1. An option to **Add Properties** appears. The **Title **and **Name **fields are mandatory:
@@ -163,7 +163,7 @@ Using the following steps, you can configure email submit action and demo submit
    /content/help/en/experience-manager/6-4/sites-administering/notification.html 
 
 1. Tap **Form Container** in the Content browser and tap ![](assets/cmppr.png). The properties browser opens on the left. 
-1. Go to **Submission **&gt; **Submit Action**. Select **Send Email**. Specify the following values and tap ![](assets/aem_6_3_forms_save.png).
+1. Go to **Submission** &gt;  **Submit Action**. Select **Send Email**. Specify the following values and tap ![](assets/aem_6_3_forms_save.png).
 
    |Property|Value|
    |--- |--- |

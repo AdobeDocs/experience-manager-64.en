@@ -56,7 +56,7 @@ To upload Forms & Documents assets:
 
 1. Log in to the AEM Forms instance.
 1. Tap Experience Manager ![](assets/adobeexperiencemanager.png) icon &gt; navigation ![](assets/compass.png) icon&gt; Forms&gt; Forms & Documents. 
-1. Tap **Create **&gt;** File Upload**. An upload forms or package dialog appears.
+1. Tap **Create** &gt; ** File Upload**. An upload forms or package dialog appears.
 1. In the dialog box, browse and select the package or the archive to import. You can also select PDF document, XSDs, images, stylesheets, and XDP forms. Tap **Open**.
 
    On the dialog box, verify the details of assets being uploaded, and tap **Upload**.
@@ -94,7 +94,7 @@ To upload a theme:
 
 1. Log in to the AEM Forms instance.
 1. Tap Experience Manager ![](assets/adobeexperiencemanager.png) icon &gt; navigation ![](assets/compass.png) icon&gt; Forms&gt; Themes. 
-1. click **Create **&gt; **File Upload**. In the File Upload prompt, browse and select a theme package on your computer and click **Upload**. The theme is uploaded.
+1. click **Create** &gt;  **File Upload**. In the File Upload prompt, browse and select a theme package on your computer and click **Upload**. The theme is uploaded.
 
 ## Import and export assets in Correspondence Management {#import-and-export-assets-in-correspondence-management}
 

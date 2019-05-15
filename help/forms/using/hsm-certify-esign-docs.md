@@ -63,7 +63,7 @@ Perform the following steps to setup certificates:
 
 1. Log in to AEM Author instance as an administrator.  
 
-1. Click** Adobe Experience Manager** on Global Navigation Bar. Go to **Tools **&gt; **Security **&gt; **Users**. 
+1. Click** Adobe Experience Manager** on Global Navigation Bar. Go to **Tools** &gt;  **Security** &gt;  **Users**. 
 1. Click the **name** field of the user account. The **Edit User Settings** page opens. 
 1. On the AEM Author instance, certificates reside in a KeyStore. If you have not created a KeyStore earlier, click **Create KeyStore** and set a new password for the KeyStore. If the server already contains a KeyStore, skip this step.  
 

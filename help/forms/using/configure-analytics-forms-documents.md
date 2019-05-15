@@ -43,7 +43,7 @@ Analytics data is stored in customer-specific repositories called report suites.
 Perform the following steps to create a report suite.
 
 1. Log in at [https://sc.omniture.com/login/](https://sc.omniture.com/login/ ) 
-1. In the Marketing Cloud, select **Admin** &gt;** Admin Console **&gt; **Report** **Suites**. 
+1. In the Marketing Cloud, select **Admin** &gt;** Admin Console** &gt;  **Report** **Suites**. 
 1. Select **Create New** &gt; **Report Suite** in the Report Suite Manager.
 
    ![Create new Report Suite](assets/newreportsuite.png)
@@ -67,7 +67,7 @@ Perform the following steps to create a report suite.
 
 1. Click **Create Report** Suite. You should see the page refresh with a message that your report suite has been successfully created.  
 
-1. Select the newly created Report Suite. Navigate to **Edit Settings** &gt; **General **&gt; **General Account Settings**.
+1. Select the newly created Report Suite. Navigate to **Edit Settings** &gt; **General** &gt;  **General Account Settings**.
 
    ![General Account Settings](assets/geographic_settings.png)
 
@@ -87,7 +87,7 @@ Perform the following steps to create a report suite.
     * **panelTitle**: Title of the form panel.
     * **analyticsVersion**: Version of form analytics.
 
-1. Navigate to **Edit Settings** &gt; **Conversion **&gt; **Sucess Events**. Define and enable the following success events: 
+1. Navigate to **Edit Settings** &gt; **Conversion** &gt;  **Sucess Events**. Define and enable the following success events: 
 
    | Sucess Event |Type |
    |---|---|

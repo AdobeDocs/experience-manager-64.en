@@ -37,7 +37,7 @@ A list is a group of related content that can be used in a letter template as a 
 
 1. Select **Forms** &gt; **Document Fragments**.  
 
-1. Select **Create **&gt; **List**.  
+1. Select **Create** &gt;  **List**.  
 
 1. Specify the following information for the list:
 

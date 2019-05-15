@@ -60,7 +60,7 @@ The [protected mode](/help/forms/using/get-xdp-pdf-documents-aem.md) is on, by d
 
 ### Provide details of AEM Forms server {#provide-details-of-aem-forms-server}
 
-1. In Designer, go to **Tools **&gt; **Options**.
+1. In Designer, go to **Tools** &gt;  **Options**.
 1. In the Options window, select **Server Options** page, provide the following details, and click **OK**.
 
     * **Server URL**: AEM Forms server URL.  

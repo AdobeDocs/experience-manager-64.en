@@ -88,8 +88,8 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **To create a web project:**
 
-1. Start Eclipse and click **File **&gt; **New Project**.
-1. In the **New Project** dialog box, select **Web **&gt;** Dynamic Web Project**.
+1. Start Eclipse and click **File** &gt;  **New Project**.
+1. In the **New Project** dialog box, select **Web** &gt; ** Dynamic Web Project**.
 1. Type `FragmentsWebApplication` for the name of your project and then click **Finish**.
 
 **To add required JAR files to your project:**
@@ -100,7 +100,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **To add a Java servlet to your project:**
 
-1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New **&gt; **Other**. 
+1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New** &gt;  **Other**. 
 1. Expand the **Web** folder, select **Servlet**, and then click **Next**. 
 1. In the Create Servlet dialog box, type `RenderFormFragment` for the name of the servlet and then click **Finish**.
 
@@ -370,7 +370,7 @@ To deploy the Java servlet that invokes the Forms service, package your web appl
 
 **To package a web application to a WAR file:**
 
-1. From the **Project Explorer** window, right-click the `FragmentsWebApplication` project and select **Export **&gt;** WAR file**.
+1. From the **Project Explorer** window, right-click the `FragmentsWebApplication` project and select **Export** &gt; ** WAR file**.
 1. In the **Web module** text box, type `FragmentsWebApplication` for the name of the Java project. 
 1. In the **Destination** text box, type `FragmentsWebApplication.war`**for the**file name, specify the location for your WAR file, and then click Finish.
 

@@ -57,7 +57,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >
    >If a shared asset is moved to a different location, its link stops working. Recreate the link and re-share with the users.
 
-1. From the web console, open the** ** **[!UICONTROL Day CQ Link Externalizer]** configuration and modify the following properties in the **[!UICONTROL Domains]** field with the values mentioned against each:
+1. From the web console, open the **[!UICONTROL Day CQ Link Externalizer]** configuration and modify the following properties in the **[!UICONTROL Domains]** field with the values mentioned against each:
 
     * local 
     * author
@@ -135,7 +135,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 
 ## Configure Day CQ mail service {#configure-day-cq-mail-service}
 
-1. Click or tap the AEM logo, and then navigate to **Tools** &gt; **Operations **&gt; **Web Console**.
+1. Click or tap the AEM logo, and then navigate to **Tools** &gt; **Operations** &gt;  **Web Console**.
 1. From the list of services, locate **Day CQ Mail Service**.
 1. Click the **Edit** icon beside the service, and configure the following parameters for **Day CQ Mail Service** with the details mentioned against their names:
 

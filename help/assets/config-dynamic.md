@@ -284,7 +284,7 @@ You need to set up replication authentication on author in order to replicate im
 To set up authentication:
 
 1. Contact Customer Care for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account. 
-1. In AEM, tap the AEM logo to access the global navigation console, then tap **Tools **&gt; **Security** &gt; **Users**.
+1. In AEM, tap the AEM logo to access the global navigation console, then tap **Tools** &gt;  **Security** &gt; **Users**.
 1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
 
    ![](assets/dm-replication.png)
@@ -323,7 +323,7 @@ To set up authentication:
 
 To configure the replication agent:
 
-1. In AEM, tap the AEM logo to access the global navigation console, then tap **Tools **&gt; **Deployment** &gt; **Replication **&gt; **Agents on author**.
+1. In AEM, tap the AEM logo to access the global navigation console, then tap **Tools** &gt;  **Deployment** &gt; **Replication** &gt;  **Agents on author**.
 1. On the Agents on author page, tap **Dynamic Media Hybrid Image Replication (s7delivery)**.
 1. Tap **Edit**.
 1. Tap the **Settings** tab, then enter the following:
@@ -486,7 +486,7 @@ Replicate log example:
 
 To fix this issue:
 
-1. In AEM, click **Tools **&gt; **General **&gt; **CRXDE Lite**.
+1. In AEM, click **Tools** &gt;  **General** &gt;  **CRXDE Lite**.
 
    `localhost:4502/crx/de/index.jsp`
 
@@ -535,7 +535,7 @@ As part of the configuration, you need to enter a registration ID, video service
 
 To configure dynamic media cloud services:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools **&gt; **Cloud Services** &gt; **Dynamic Media Configuration (Pre-6.3)**.
+1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt;  **Cloud Services** &gt; **Dynamic Media Configuration (Pre-6.3)**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, select **global**, then click **Create**.
 1. In the **Create Dynamic Media Configuration** dialog box, in the Title field, type a title.
 1. If you are configuring Dynamic Media for video,
@@ -740,7 +740,7 @@ If you are using Dynamic Media for (1) imaging in production **or** (2) imaging 
 
 If you are using Dynamic Media for video-only, follow these steps to set up asset filters for replication:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt;** Deployment** &gt; **Replication **&gt; **Agents on author**.
+1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt;** Deployment** &gt; **Replication** &gt;  **Agents on author**.
 1. On the Agents on author page, tap **Default Agent (publish)**.
 1. Tap **Edit**.
 1. In the **Agent Settings** dialog box, in the **Settings** tab, check **Enabled** to turn on the agent.
@@ -757,7 +757,7 @@ This sets up the AEM publish instance to deliver the video poster image as well 
 
 If you are using Dynamic Media for imaging in non-production deployments, follow these steps to set up asset filters for replication:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt; **Deployment** &gt; **Replication **&gt; **Agents on author**.
+1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt; **Deployment** &gt; **Replication** &gt;  **Agents on author**.
 1. On the Agents on author page, tap **Default Agent (publish)**.
 1. Tap **Edit**.
 1. In the **Agent Settings** dialog box, in the **Settings** tab, check **Enabled** to turn on the agent.
@@ -786,7 +786,7 @@ This sets up the AEM publish instance to deliver the images to your non-producti
 
 To optionally customize asset filters for replication:
 
-1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt; **General **&gt; **CRXDE Lite**.
+1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt; **General** &gt;  **CRXDE Lite**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
    ![](assets/chlimage_1-511.png)
@@ -852,8 +852,8 @@ Configuring the Dynamic Media Image Server involves editing the Adobe CQ Scene7 
 
 To configure Dynamic Media Image Server settings:
 
-1. In the upper-left corner of AEM, tap or click **Adobe Experience Manager** to access the global navigation console, then tap **Tools **&gt; **Operations **&gt; **Web Console**.
-1. On the Adobe Experience Manager Web Console Configuration page, click or tap **OSGi **&gt; **Configuration **to list all the bundles that are currently running within AEM.
+1. In the upper-left corner of AEM, tap or click **Adobe Experience Manager** to access the global navigation console, then tap **Tools** &gt;  **Operations** &gt;  **Web Console**.
+1. On the Adobe Experience Manager Web Console Configuration page, click or tap **OSGi** &gt;  **Configuration **to list all the bundles that are currently running within AEM.
 
    The Dynamic Media Delivery Servers are found under the following names in the list:
 

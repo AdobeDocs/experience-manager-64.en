@@ -114,7 +114,7 @@ When you are done creating the video profile, you apply it to a folder or multip
 
 **To create a video encoding profile for adaptive streaming**:
 
-1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
+1. Tap or click the AEM logo and navigate to **Tools** &gt;  **Assets** &gt;  **Video Profiles.**
 1. Click or tap **Create** to add a new video profile.  
 
 1. Enter a name and description for the profile.
@@ -163,7 +163,7 @@ When you are done creating the video profile, you apply it to a folder or multip
 
 **To create a video encoding profile for progressive streaming:**
 
-1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
+1. Tap or click the AEM logo and navigate to **Tools** &gt;  **Assets** &gt;  **Video Profiles.**
 1. Click or tap **Create** to add a new video profile.
 1. Enter a name and description for the profile.
 1. Clear the **Encode for adaptive streaming **check box.
@@ -191,7 +191,7 @@ You can edit an existing video encoding profile to take advantage of advanced vi
 
 **To use custom-added video encoding parameters**:
 
-1. Tap or click the AEM logo, then navigate to **Tools **&gt; **General** &gt; **CRXDE Lite**.
+1. Tap or click the AEM logo, then navigate to **Tools** &gt;  **General** &gt; **CRXDE Lite**.
 1. From the CRXDE Lite page, in the Explorer panel on the left, navigate to the following:
 
    `/conf/global/settings/dam/dm/presets/video/*name_of_video_encoding_profile_to_edit*`
@@ -263,7 +263,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 **To edit a video encoding profile**:
 
-1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
+1. Tap or click the AEM logo and navigate to **Tools** &gt;  **Assets** &gt;  **Video Profiles.**
 1. On the Video Profiles page, check one video profile name.
 1. On the toolbar, tap **Edit**.
 1. On the Video Encoding Profile page, edit the name and description, as desired.
@@ -277,7 +277,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 ### Copying a video encoding profile {#copying-a-video-encoding-profile}
 
-1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
+1. Tap or click the AEM logo and navigate to **Tools** &gt;  **Assets** &gt;  **Video Profiles.**
 1. On the Video Profiles page, check one video profile name.
 1. On the toolbar, tap **Copy**.
 1. On the Video Encoding Profile page, enter a new name for the profile.
@@ -292,7 +292,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 ### Deleting a video encoding profile {#deleting-a-video-encoding-profile}
 
-1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
+1. Tap or click the AEM logo and navigate to **Tools** &gt;  **Assets** &gt;  **Video Profiles.**
 1. On the Video Profiles page, check one or more video profile names.
 1. On the toolbar, tap **Delete**.
 1. Tap **OK**.
@@ -317,7 +317,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 #### Applying Video Profiles to Folders from Profiles user interface {#applying-video-profiles-to-folders-from-profiles-user-interface}
 
-1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
+1. Tap or click the AEM logo and navigate to **Tools** &gt;  **Assets** &gt;  **Video Profiles.**
 1. Select the video profile that you want to apply to a folder or multiple folders.
 1. Tap/click **Apply Profile to Folder(s) **and select the folder or multiple folders you want use to receive the newly uploaded assets and tap** Apply**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
@@ -347,7 +347,7 @@ You can remove a video profile from a folder from within the **Tools** menu or i
 
 ### Removing Video Profiles from Folders via Profiles user interface {#removing-video-profiles-from-folders-via-profiles-user-interface}
 
-1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
+1. Tap or click the AEM logo and navigate to **Tools** &gt;  **Assets** &gt;  **Video Profiles.**
 1. Select the video profile that you want to remove from a folder or multiple folders.
 1. Tap/click **Remove Profile from Folder(s) **and select the folder or multiple folders you want use to remove the profile from and tap **Remove**.
 

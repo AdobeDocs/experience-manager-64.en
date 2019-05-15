@@ -119,7 +119,7 @@ When logged in as Sarah Rose, click the **Apply now** button on the credit card 
 
 Review the We.Finance Theme available at:
 
-`https://&lt;host&gt;:&lt;AuthorPort&gt;/editor.html/content/dam/formsanddocuments-themes/we-Finance/we-Finance-Theme-A/jcr:content`
+`https://<host>:<AuthorPort>/editor.html/content/dam/formsanddocuments-themes/we-Finance/we-Finance-Theme-A/jcr:content`
 
 You can review the We.Finance Template at:
 

@@ -223,7 +223,7 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 **To configure asset processing**:
 
-1. In AEM, tap the AEM logo to access the global navigation console, then tap the Tools (hammer) icon and navigate to **General **&gt; **CRXDE Lite**.
+1. In AEM, tap the AEM logo to access the global navigation console, then tap the Tools (hammer) icon and navigate to **General** &gt;  **CRXDE Lite**.
 1. In the left rail, navigate to the following:
 
    `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`

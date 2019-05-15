@@ -38,7 +38,7 @@ The assets available in the Workbench have more priority over the assets availab
 
 Perform the following steps to manually sync the assets:
 
-1. Log in to AEM Forms. On the top-left corner, tap **Adobe Experience Manager** &gt; **Forms **&gt; **Forms & Documents**.
+1. Log in to AEM Forms. On the top-left corner, tap **Adobe Experience Manager** &gt; **Forms** &gt;  **Forms & Documents**.
 1. Tap **Create **and select **Files from Workbench**.   
    The synchronization process starts synchronizing assets between AEM Forms user interface and Workbench.
 

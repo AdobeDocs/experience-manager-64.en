@@ -86,8 +86,8 @@ AEM Forms provides an intuitive user interface to [create a form data mode](/hel
 
 Do the following to create form data model:
 
-1. In AEM author instance, navigate to **Forms **&gt; **Data Integration**s.
-1. Tap **Create **&gt; **Form Data Model**.
+1. In AEM author instance, navigate to **Forms** &gt;  **Data Integration**s.
+1. Tap **Create** &gt;  **Form Data Model**.
 1. In the Create Form Data Model dialog, specify a **name **for the form data model. For example, **customer-shipping-billing-details**. Tap **Next**.
 1. The select datasource screen lists all configured data sources. Select **WeRetailMySQL** data source and tap **Create**.
 
@@ -111,7 +111,7 @@ Do the following to configure the form data model:
 
    ![](assets/default-fdm.png)
 
-1. Expand the WeRailMySQL data source tree. Select the following data model objects and services from **weretail** **&gt; customerdetails** schema to form data model:
+1. Expand the WeRailMySQL data source tree. Select the following data model objects and services from **weretail**** &gt;  customerdetails** schema to form data model:
 
     * **Data model objects**:
 

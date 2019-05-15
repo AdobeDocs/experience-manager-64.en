@@ -63,7 +63,7 @@ Perform the following steps to change the publishing schedule:
 1. Restart the AEM Forms server instance.
 
 1. Stop the AEM Forms server instance.
-1. Log in to the WebSphere Administrative Console. In the navigation tree, click **Servers **&gt; **Application servers** and then, in the right pane, click the server name.  
+1. Log in to the WebSphere Administrative Console. In the navigation tree, click **Servers** &gt;  **Application servers** and then, in the right pane, click the server name.  
 
 1. Under Server Infrastructure, click **Java and Process Management** &gt; **Process Definition**.  
 
@@ -84,7 +84,7 @@ Perform the following steps to change the publishing schedule:
 
 1. Under Change Center, click **Lock & Edit**.  
 
-1. Under Domain Structure, click **Environment **&gt; **Servers **and, in the right pane, click the managed server name.  
+1. Under Domain Structure, click **Environment** &gt;  **Servers **and, in the right pane, click the managed server name.  
 
 1. On the next screen, click the **Configuration **tab &gt; **Server Start** tab.  
 
@@ -111,7 +111,7 @@ You can use the Administration console to configure the root (**default**: `/con
 #### To configure the Process Reporting repository locations {#to-configure-the-process-reporting-repository-locations}
 
 1. Log in to** Administration Console** with administrator credentials. The default URL of Administration Console is `https://[server]:[port]/adminui`
-1. Navigate to **Home **&gt; **Services **&gt; **Applications and Services** &gt;** Service Management** and open the **ProcessDataStorageProvider** service.
+1. Navigate to **Home** &gt;  **Services** &gt;  **Applications and Services** &gt;** Service Management** and open the **ProcessDataStorageProvider** service.
 
    ![](assets/process-data-storage-service.png)
 
@@ -170,7 +170,7 @@ The ProcessDataPublisher service imports process data from the AEM Forms databas
 
    The default URL is `https://[server]:port]/adminui/`.
 
-1. Navigate to **Home **&gt; **Services **&gt; **Applications and Services** &gt;** Service Management** and open the **ProcessDataPublisher** service.
+1. Navigate to **Home** &gt;  **Services** &gt;  **Applications and Services** &gt;** Service Management** and open the **ProcessDataPublisher** service.
 
 ![](assets/processdatapublisherservice-1.png)
 

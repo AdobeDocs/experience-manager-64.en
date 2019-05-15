@@ -297,6 +297,6 @@ To add a template for a new language:
 When Collections in AEM Assets are shared or unshared, users can receive email notifications from AEM. To configure email notifications, follow these steps.
 
 1. Configure the email service, as described above in [Configuring the Mail Service](/help/sites-administering/notification.md#configuring-the-mail-service).
-1. Log into AEM as an administrator. Click **Tools **&gt; **Operations **&gt; **Web Console** to open Web Console Configuration.
+1. Log into AEM as an administrator. Click **Tools** &gt;  **Operations** &gt;  **Web Console** to open Web Console Configuration.
 1. Edit **Day CQ DAM Resource Collection Servlet**. Select **send email**. Click **Save**.
 

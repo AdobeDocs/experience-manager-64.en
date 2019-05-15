@@ -861,9 +861,9 @@ This procedure explains how to update the Generate PDF service configuration fil
 
 **Update the Generate PDF service configuration file**
 
-1. Select **Home **&gt;** Services **&gt;** Adobe PDF Generator**&gt;** Configuration Files**, and then select **Export Configuration**. 
+1. Select **Home** &gt; ** Services** &gt; ** Adobe PDF Generator**&gt;** Configuration Files**, and then select **Export Configuration**. 
 1. Modify the `filetype-settings` element in the native2pdfconfig.xml file, as needed. 
-1. Select **Home **&gt;** Services **&gt;** Adobe PDF Generator**&gt;** Configuration Files**, and then select **Import Configuration**. The configuration data is imported into the Generate PDF service, replacing previous settings.
+1. Select **Home** &gt; ** Services** &gt; ** Adobe PDF Generator**&gt;** Configuration Files**, and then select **Import Configuration**. The configuration data is imported into the Generate PDF service, replacing previous settings.
 
 >[!NOTE]
 >
