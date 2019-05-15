@@ -274,7 +274,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 * When AEM Forms is inatlled on IBM WebSphere, creating a Form Data Model based on SOAP fails. NPR-27923:  Hotfix for CQ-4251134
 * SRT tool of PDF Generator fails to detect installed version of Adobe Acrobat. NPR-27971
 
-#### Forms - Designer {#forms-designer}
+#### Forms - Designer {#forms-designer-design}
 
 * Some JPEG images in an XDP template do not render properly.  NPR-26702: Hotfix for LC-3917457
 
@@ -1341,7 +1341,7 @@ The key highlights for AEM Forms are:
 
 *   Manage Action Profile Prepare data process fails when default render process configuration is set to HTML. Hotfix for CQ-4244292
 
-#### Forms Designer {#forms-designer}
+#### Forms Designer {#forms-designer-pdf}
 
 *   Add PDF/UA support to XML forms generated via Designer and Output Service. NPR-23022
 *   inline Hyperlinks defined in Designer do not get tagged nor they have alternate text when saved as PDF from Designer. NPR-23023

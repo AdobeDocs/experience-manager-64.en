@@ -39,15 +39,14 @@ To configure the feed importer for tracking bounced emails:
 
    All configurations need information about the following in the polling URL:
 
-   |username|The username to use for connecting|
-   |password|The password to use for connecting|
+   `username`: The username to use for connecting
+   `password`: The password to use for connecting
 
    In addition, depending on the protocol, you can configure certain settings.
 
    **POP3 configuration properties:**
 
-   | pop3.leave.on.server |Defines whether to leave messages on server or not. Set to true to leave messages on server, false otherwise. Defaults to true. |
-   |---|---|
+   `pop3.leave.on.server`: Defines whether to leave messages on server or not. Set to true to leave messages on server, false otherwise. Defaults to true. 
 
    **POP3 examples:**
 
@@ -94,4 +93,3 @@ To configure the newsletter service:
 
     * Writes an activity to the users hidden stream upon successful sending of a newsletter.
     * Writes an activity if a bounce is detected and the users bounce counter changes.
-

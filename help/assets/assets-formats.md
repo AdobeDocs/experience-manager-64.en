@@ -472,16 +472,6 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
 
 <table> 
  <tbody>
-  <tr></tr>
-  <tr>
-   <th>Features</th> 
-   <th> </th> 
-   <th> </th> 
-   <th> </th> 
-   <th> </th> 
-   <th> </th> 
-   <th> </th> 
-  </tr>
   <tr>
    <th> </th> 
    <th>Storage</th> 
@@ -492,7 +482,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <th>Dynamic Media Delivery</th> 
   </tr>
   <tr>
-   <th>Formats</th> 
+   <td>Formats</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
