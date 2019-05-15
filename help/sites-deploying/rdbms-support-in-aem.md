@@ -35,7 +35,13 @@ The repository is created by configuring the `DocumentNodeStoreService` OSGi ser
 
 In order for it to work, a data source needs to be configured with AEM. This is done via the `org.apache.sling.datasource.DataSourceFactory.config` file. The JDBC drivers for the respective database need to be provided separately as OSGi bundles inside the local configuration.
 
-For steps on creating OSGi bundles for JDBC drivers, please see this [documentation](https://sling.apache.org/documentation/bundles/datasource-providers.html#convert-driver-jars-to-bundle) on the Apache Sling website.
+For steps on creating OSGi bundles for JDBC drivers, please see this [documentation](https://wiki.eclipse.org/Create_and_Export_MySQL_JDBC_driver_bundle) on the Apache Sling website.
+
+>[!NOTE]
+>
+>Some of the SQL drivers are already packaged as OSGi bundles.
+>
+>If this is the case, then just copy the jar file to install-path/crx-quickstart/install/9.
 
 Once the bundles are in place, follow the below steps in order to configure AEM with RDB persistence:
 
