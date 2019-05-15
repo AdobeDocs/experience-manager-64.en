@@ -17,7 +17,7 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 
 ## Adding a metadata profile {#adding-a-metadata-profile}
 
-1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Metadata Profiles**, and then tap or click **Create**.
+1. Tap or click the AEM logo and navigate to **Tools** &gt;  **Assets** &gt;  **Metadata Profiles**, and then tap or click **Create**.
 1. Enter a title for the Metadata Profile, for example Sample Metadata, and click **Submit**. The Edit Form for the Metadata Profile is displayed. 
 
    ![](assets/chlimage_1-480.png)
@@ -158,7 +158,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 To apply a metadata profile to folders from the Profiles user interface:
 
-1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Metadata Profiles.**
+1. Tap or click the AEM logo and navigate to **Tools** &gt;  **Assets** &gt;  **Metadata Profiles.**
 1. Select the metadata profile that you want to apply to a folder or multiple folders.
 
    ![](assets/chlimage_1-490.png)

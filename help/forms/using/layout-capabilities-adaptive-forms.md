@@ -113,7 +113,7 @@ Tabs appearing on the top of a panel
 
 Mobile layouts allow for user-friendly navigation on the mobile devices with relatively smaller screens. Mobile layouts use either tabbed or wizard styles for form navigation. Applying a Mobile Layout provides a single layout for the entire form.
 
-This layout controls navigation using a navigation bar and a navigation menu. The navigation bar shows **&lt;** and **&gt;** icon to indicate **next** and **previous** navigation steps in the form.
+This layout controls navigation using a navigation bar and a navigation menu. The navigation bar shows **&lt;** and** &gt; ** icon to indicate **next** and **previous** navigation steps in the form.
 
 The Mobile Layouts are available at `/libs/fd/af/layouts/mobile/` location. The following mobile layouts are available in adaptive forms, by default.
 

@@ -31,9 +31,9 @@ Using Channel Level Activation covers the following topics:
 
 The following example provides a solution by focusing on the following key terms:
 
-* a ***main sequence channel ***for the global sequence
-* a*** single event channel ***that runs only once at a set time 
-* a*** set schedule and priority ***for the single playback event that occurs inside the main sequence channel
+* a ***main sequence channel*** for the global sequence
+* a ***single event channel*** that runs only once at a set time 
+* a ***set schedule and priority*** for the single playback event that occurs inside the main sequence channel
 
 ## Using Channel Level Activation {#using-channel-level-activation}
 
@@ -51,7 +51,7 @@ Before you start implementing this functionality, please make sure you have the 
 
 * Add relevant assets to both the channels
 
-The following image shows the **Channel Level Activation** project with **MainAdChannel **and** ** **TargetedSinglePlay **channels in **Channels** folder.
+The following image shows the **Channel Level Activation** project with **MainAdChannel** and **TargetedSinglePlay** channels in **Channels** folder.
 
 ![](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -59,9 +59,9 @@ The following image shows the **Channel Level Activation** project with **MainAd
 >
 >For additional information on how to create a project and how to create a sequence channel, please refer to resources below:
 >
->* ** [Creating and Managing Projects](/help/screens/creating-a-screens-project.md)  
->  **
->* ** [Managing a Channel](/help/screens/managing-channels.md)**
+>* [Creating and Managing Projects](/help/screens/creating-a-screens-project.md)  
+>
+>* [Managing a Channel](/help/screens/managing-channels.md)
 >
 
 ### Implementation {#implementation}
@@ -69,10 +69,8 @@ The following image shows the **Channel Level Activation** project with **MainAd
 Implementing Channel Level Activation in an AEM Screens project involves three major tasks:
 
 1. **Setting up Project taxonomy including Channels, Locations, and Displays**
-1. **Assigning Channels to Display  
-   **
-1. **Setting up a Schedule and Priority   
-   **
+1. **Assigning Channels to Display**
+1. **Setting up a Schedule and Priority**
 
 Follow the steps below to implement the functionality:
 
@@ -84,15 +82,15 @@ Follow the steps below to implement the functionality:
 
    >[!NOTE]
    >
-   >To learn how to create a location, please refer to ** [Creating and Managing Locations](/help/screens/managing-locations.md)**.
+   >To learn how to create a location, please refer to **[Creating and Managing Locations](/help/screens/managing-locations.md)**.
 
 1. **Create Display under Location**
 
-    1. Navigate to **Channel Level Activation** --&gt; **Locations** --&gt; **Region**.  
+    1. Navigate to **Channel Level Activation** > **Locations** > **Region**.  
     
     1. Select **Region **and click **+ Create** from the action bar.
     
-    1. Select **Display** from the wizard and create a display titled as** RegionDisplay.**
+    1. Select **Display** from the wizard and create a display titled as **RegionDisplay.**
 
    ![](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -100,19 +98,13 @@ Follow the steps below to implement the functionality:
 
    For **MainAdChannel:**
 
-    1. Navigate to **Channel Level Activation** --&gt; **Locations** --&gt; **Region** --&gt; **RegionDisplay** and click **Assign Channel** from the action bar.
-    
-    1. **Channel Assignment** dialog box opens.  
-    
+    1. Navigate to **Channel Level Activation** > **Locations** > **Region** > **RegionDisplay** and click **Assign Channel** from the action bar.
+    1. **Channel Assignment** dialog box opens.
     1. Select **Reference Channel**.. by path.
-    1. Select the **Channel Path** as **Channel Level Activation*** --&gt; ***Channels*** --&gt; ***MainAdChannel***.* 
-    
+    1. Select the **Channel Path** as **Channel Level Activation** --&gt; ***Channels*** --&gt; ***MainAdChannel***.
     1. The **Channel Role** is populated as **mainadchannel**.
-    
     1. Select the **Priority** as **1**.  
-    
-    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.* 
-       *
+    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.**
     
     1. Click **Save**.
 

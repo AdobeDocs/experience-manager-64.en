@@ -109,7 +109,7 @@ Dynamic Media supports the delivery of static assets, which are additional asset
         * `https://*<server_name>*/is/content/*<company_name>*/*<static_asset_filename>*.*<extension>*`  
           For example, `https://aem.com/is/content/adobe/image.gif`.
 
-    * click **Asset **&gt; **Dynamic Renditions**, then click on a dynamic rendition of the static asset and copy the URL.  
+    * click **Asset** &gt;  **Dynamic Renditions**, then click on a dynamic rendition of the static asset and copy the URL.  
       Change the copied URL to use `is/content` in the path instead of `is/image/`.
 
 ## Obtaining a video URL for a published video rendition {#obtaining-a-video-url-for-a-published-video-rendition}

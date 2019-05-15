@@ -20,7 +20,7 @@ Assets workflow offloader lets you enable multiple instances of Adobe Experience
 Use Configuration Manager to add the URL for the leader instance and the host names of offloader instances for connection requests on the leader instance.
 
 1. Tap/click the AEM logo, and choose **Tools** &gt; **Operations** &gt; **Web Console** to open Configuration Manager.
-1. From the Web Console, select **Sling **&gt; **Topology Management**.
+1. From the Web Console, select **Sling** &gt;  **Topology Management**.
 
    ![](assets/chlimage_1-44.png)
 

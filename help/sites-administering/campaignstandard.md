@@ -62,7 +62,7 @@ Make sure you have the following elements beforehand:
 
 The **aemserver** user must be configured in Adobe Campaign. The **aemserver** is a technical user that will be used to connect the AEM server to Adobe Campaign.
 
-Go to **Administration **&gt; **Users & Security **&gt; **Users**, and select the **aemserver** user. Click it to open the user settings.
+Go to **Administration** &gt;  **Users & Security** &gt;  **Users**, and select the **aemserver** user. Click it to open the user settings.
 
 * You have to set a password for this user. This cannot be done through the UI. This configuration must be done in REST by a technical administrator.
 * You can assign specific roles to this user, such as **deliveryPrepare**, which allows the user to create and edit deliveries.

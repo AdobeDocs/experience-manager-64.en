@@ -50,7 +50,7 @@ Configure Adobe Target in AEM to use it with adaptive forms and interactive comm
 
 1. To enable target, edit the .jsp file to include client libraries that your adaptive forms template uses.
 
-   For example, in the out-of-the-box implementation, click **Tools **&gt; **CRXDE Lite**.
+   For example, in the out-of-the-box implementation, click **Tools** &gt;  **CRXDE Lite**.
 
    In the CRXDE Lite address bar, type /libs/fd/af/components/page/base/head.jsp to edit the head.jsp file.
 

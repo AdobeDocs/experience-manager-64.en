@@ -54,7 +54,7 @@ Once you have saved the adobe-lc-mobileworkspace-src-&lt;version&gt;.zip file on
 Perform the following steps to build AEM Forms app using Android Studio:
 
 1. Launch the Android Studio application on your machine.
-1. Click** Open an existing Android Studio project**. If the dialog box to open an existing project does not appear automatically, select **File **&gt;** Open**.
+1. Click** Open an existing Android Studio project**. If the dialog box to open an existing project does not appear automatically, select **File** &gt; ** Open**.
 1. Navigate to *adobe-lc-mobileworkspace-src-&lt;version&gt;.zip/android* on the local file system and click **OK**.  
    The **android** option is displayed in the left pane.
 

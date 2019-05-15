@@ -52,7 +52,7 @@ A public certificate allows you to authenticate your profile on Adobe I/O.
 
    ![AEM Smart Content Service dialog to provide content service URL](assets/aem_scs.png)
 
-1. Tap/click** ** **[!UICONTROL Download Public Certificate for OAuth Integration]**, and download the public certificate file `AEM-SmartTags.crt`.
+1. Tap/click **[!UICONTROL Download Public Certificate for OAuth Integration]**, and download the public certificate file `AEM-SmartTags.crt`.
 
    ![A representation of the settings created for the smart tagging service](assets/download_link.png)
 

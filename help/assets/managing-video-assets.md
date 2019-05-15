@@ -52,7 +52,7 @@ Perform the following steps to configure a higher file size limit (for example 3
 1. In AEM, tap **Tools** &gt; **General** &gt; **CRXDE Lite**.
 1. In the CRXDE Lite page, in the directory window on the left, navigate to */libs/dam/gui/content/assets/jcr:content/actions/selection/create/items/fileupload*.
 
-   You may need to touch the **&gt;&gt;** icon to see the directory window.
+   You may need to touch the** &gt; &gt;** icon to see the directory window.
 
 1. From the toolbar, tap the **Overlay Node…** button. Alternatively, select **Overlay Node...** from the context menu.
 1. In the **Overlay Node** dialog, tap **OK**.

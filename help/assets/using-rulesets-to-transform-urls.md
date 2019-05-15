@@ -70,7 +70,7 @@ See also [Using 'asset' instead of 'is' image in a rule set](https://helpx.adobe
     * In the bottom right corner of the page, click **Submit Upload**.
     * On the Global Navigation bar, click **Jobs** to check the status of the upload job. When the Status column on the Job page says Upload Done, continue to the next steps.
 
-1. On the navigation bar near the top of the page, click **Setup** &gt; **Application Setup** &gt; **Publish Setup **&gt; **Image Server.**
+1. On the navigation bar near the top of the page, click **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt;  **Image Server.**
 1. On the Image Server Publish page, under the **Catalog Management** group, locate **Rule Set Definition File Path**, then click **Select**.
 1. On the Select Rule Set Definition File (XML) page, browse to your rule set file, then in the lower-right corner of the page, click **Select**.
 1. In the lower-right corner of the Setup page, click **Close**.

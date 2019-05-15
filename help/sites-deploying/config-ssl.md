@@ -94,7 +94,7 @@ Configure the Apache Felix Jetty-based HTTP service to use SSL, employing your c
 1. Open CRXDE Lite and select the `/apps` folder. Click **Create** > **Create Folder** to create a folder named `system` ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
 1. Below the system folder create a folder named `config.author`.
 1. Select the `/apps/system/config.author` node.
-1. Click **Create **&gt; **Create Node** and enter the following properties:
+1. Click **Create** &gt;  **Create Node** and enter the following properties:
 
     * **Name**: `org.apache.felix.http`
     
@@ -152,7 +152,7 @@ If you want all users to connect over SSL, redirect traffic to the URL that uses
 The following example redirects traffic to `localhost:4502` to `http://localhost:5433`. To configure the redirect, create a `sling:mapping` node. Use a node name that matches requested URL. Add a `sling:redirect` property to specify the URL for redirection.
 
 1. Open CRXDE Lite in your web browser ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
-1. Click the `/etc/map/http`** **folder and click **Create **&gt; **Create Node**:
+1. Click the `/etc/map/http`** **folder and click **Create** &gt;  **Create Node**:
 
     * **Name**: `localhost.4502`
     

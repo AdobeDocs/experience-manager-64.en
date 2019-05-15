@@ -38,7 +38,7 @@ Administrators can create Image Presets. To create an image preset, you can star
 
 ## Managing Image Presets {#managing-image-presets-1}
 
-You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **Assets **&gt;** Image Presets**.
+You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **Assets** &gt; ** Image Presets**.
 
 ![](assets/chlimage_1-494.png)
 

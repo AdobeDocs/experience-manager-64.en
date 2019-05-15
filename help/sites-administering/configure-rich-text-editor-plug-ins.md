@@ -595,8 +595,7 @@ Styles are typically applied on text, but a separate set of Styles can also be a
 
 1. Create a new node (under the `tableStyles` or `cellStyles` node as appropriate) to represent an individual style:
 
-    * **Name** ** **you can specify the name, but it should reflect the style. ``
-    
+    * **Name** you can specify the name, but it should reflect the style.
     * **Type** `nt:unstructured`
 
 1. On this node create the properties:
@@ -604,18 +603,14 @@ Styles are typically applied on text, but a separate set of Styles can also be a
     * To define the CSS style to be referenced
 
         * **Name** `cssName`
-        
         * **Type** `String`
-        
         * **Value **the name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
 
     * To define a descriptive text to appear in the drop-down selector
 
         * **Name** `text`
-        
         * **Type** `String`
-        
-        * **Value **the text to appear in the selection list
+        * **Value** the text to appear in the selection list
 
 1. Save all changes.
 

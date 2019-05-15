@@ -103,8 +103,8 @@ AEM Forms provide an intuitive user interface to [create a form data mode](https
 
 Do the following to create form data model:
 
-1. In AEM author instance, navigate to **Forms **&gt; **Data Integrations**.
-1. Tap **Create **&gt; **Form Data Model**.
+1. In AEM author instance, navigate to **Forms** &gt;  **Data Integrations**.
+1. Tap **Create** &gt;  **Form Data Model**.
 1. In the Create Form Data Model wizard, specify a **name **for the form data model. For example, **FDM_Create_First_IC**. Tap **Next**.
 1. The select datasource screen lists all configured data sources. Select **MySQL** data source and tap **Create**.
 

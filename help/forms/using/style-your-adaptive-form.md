@@ -97,7 +97,7 @@ In this tutorial, you will style header and footer, text and numeric components,
 
 ### Create a theme {#create-a-theme}
 
-1. Log in to the AEM author instance and navigate to **Adobe Experience Manager** &gt; **Forms **&gt;** Themes**. The default URL is [http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-themes](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-themes). 
+1. Log in to the AEM author instance and navigate to **Adobe Experience Manager** &gt; **Forms** &gt; ** Themes**. The default URL is [http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-themes](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-themes). 
 1. Tap **[!UICONTROL Create]**and select **[!UICONTROL Theme]**. The Create Theme page with the fields required to create a theme appears. The Title and Name fields are mandatory:
 
     * **Title:** Specify a title of the theme. For example, **Global Theme.** The title helps you identify the theme from the list of themes.

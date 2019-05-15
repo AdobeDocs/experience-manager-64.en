@@ -41,7 +41,7 @@ To get you up and running quickly with Mixed Media Sets, follow these steps:
 
    Administrators can create or modify Mixed Media Set Viewer Presets. To see your mixed media with a viewer preset, select the mixed media set, and in the left-rail drop-down menu, select **Viewers**.
 
-   See **Tools** &gt; **Assets **&gt; **Viewer Presets** to create or edit viewer presets.
+   See **Tools** &gt; **Assets** &gt;  **Viewer Presets** to create or edit viewer presets.
 
    See [Adding and editing viewer presets.](managing-viewer-presets.md)
 

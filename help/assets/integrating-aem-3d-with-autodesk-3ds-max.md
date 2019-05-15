@@ -33,7 +33,7 @@ To integrate AEM 3D with Autodesk 3ds Max:
    >
    >To avoid access denied issues, install 3ds Max using the same admin user account as AEM.
 
-1. In 3ds Max, click **Customize **&gt; **Plug-in Manager**.
+1. In 3ds Max, click **Customize** &gt;  **Plug-in Manager**.
 
    Locate **`FBXMAX.DLU`** and verify that its **Status** is "loaded".
 

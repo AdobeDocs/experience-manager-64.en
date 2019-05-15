@@ -62,7 +62,7 @@ Automated Forms Conversion service supports the following components and field t
 **To access the Review and Correct UI:**
 
 1. Log in to the AEM Forms instance.
-1. Tap **Adobe Experience Manager** &gt; **Navigation **&gt; **Forms** &gt; **Forms & Documents**.
+1. Tap **Adobe Experience Manager** &gt; **Navigation** &gt;  **Forms** &gt; **Forms & Documents**.
 1. Tap the folder which contains the converted form.
 1. Select the PDF form and tap ****[!UICONTROL Review Conversions]****. The Review and Correct UI opens in a new tab.
 

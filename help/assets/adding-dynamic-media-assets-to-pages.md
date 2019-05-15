@@ -32,7 +32,7 @@ Adding the Dynamic Media or Interactive Media component to a page is the same as
 >To avoid this issue, ensure that AEM Sites users have the necessary permissions to access the assets.
 
 1. In AEM, open the page where you want to add the Dynamic Media or Interactive Media component.
-1. In the left pane, click the **Components icon **and filter for Dynamic Media.** **If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](/help/sites-authoring/templates.md#editing-templates-template-authors) for more information. 
+1. In the left pane, click the **Components icon** and filter for **Dynamic Media**. If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](/help/sites-authoring/templates.md#editing-templates-template-authors) for more information. 
 
    ![](assets/chlimage_1-537.png)
 

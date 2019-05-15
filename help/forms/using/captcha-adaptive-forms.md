@@ -46,7 +46,7 @@ To implement the reCAPTCHA service in AEM Forms:
 
 1. Configure the cloud service for reCAPTCHA.
 
-    1. On your AEM author instance, go to ![](assets/tools.png) **&gt; Cloud Services**.
+    1. On your AEM author instance, go to ![](assets/tools.png)** &gt;  Cloud Services**.
     1. Tap **[!UICONTROL reCAPTCHA]**. The Configurations page opens. Select the configuration container created in the previous step and tap **[!UICONTROL Create]**.
     1. Specify Name, Site key, and Secret Key for reCAPTCHA service and tap **[!UICONTROL Create]** to create the cloud service configuration.
     1. In the Edit Component dialog, specify the site and secret keys obtained in step 1. Tap **Save Settings** and then tap **OK** to complete the configuration.

@@ -60,7 +60,7 @@ Transactions are cached in-memory before being stored to the repository. By defa
 
 Reverse replication copies transaction data to the default outbox of the author instances. You can place transaction data in a custom outbox. Perform the following steps to specify a custom outbox:
 
-1. Log in to author instances as an administrator. Go to **Tools **&gt; **Operations **&gt; **Web Console**.
+1. Log in to author instances as an administrator. Go to **Tools** &gt;  **Operations** &gt;  **Web Console**.
 1. Locate and open the **Forms Transaction Repository Storage Provider **service.
 1. Specify the name of the custom outbox the **Outboxes** field. Click **Save**. An outbox with the specified name is created on all the author instances.
 
@@ -69,7 +69,7 @@ Reverse replication copies transaction data to the default outbox of the author 
 You can view transaction reports on author or publish instances. The transaction report on the author instance provides an aggregated sum of all the transactions that take place on the configured author and publish instances. The transaction report on the publish instance provides a count of transactions that take place only on the underlying publish instance. Perform the following steps to view the report:
 
 1. Log in to the AEM Forms server at `https://[hostname]:[port]`.
-1. Navigate to **Tools **&gt; **Forms **&gt; **View Transaction Report**.
+1. Navigate to **Tools** &gt;  **Forms** &gt;  **View Transaction Report**.
 
 ## Understanding the report {#understanding-the-report}
 

@@ -214,7 +214,7 @@ In this section, you create the following pages which all use the contentpage te
 
    ![](assets/chlimage_1-109.png)
 
-1. In the folder tree, select the **Websites** folder and then click **New **&gt; **New Page**.
+1. In the folder tree, select the **Websites** folder and then click **New** &gt;  **New Page**.
 1. In the** Create Page** window, enter the following:
 
     * Title: `My Website`
@@ -510,7 +510,7 @@ In this exercise, Sling matches these URLs to the /apps/mywebsite/components/con
    ```
 
 1. Save the changes.
-1. Right-click the `/apps/mywebsite/components/contentpage` node and click **Create **&gt; **Create File**.
+1. Right-click the `/apps/mywebsite/components/contentpage` node and click **Create** &gt;  **Create File**.
 1. In the **Create File** window, as **Name**, type `navimage.png.java`.
 
    The .java file name extension indicates to Sling that the Apache Sling Scripting Java Support should be used to compile the script and create a servlet.

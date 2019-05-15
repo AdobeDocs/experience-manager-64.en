@@ -485,7 +485,7 @@ For good performance, you should follow the settings guidelines presented below.
 
 The benchmark tests were performed on the following specifications:
 
-| ** ** |**Author Node** |
+| |**Author Node** |
 |---|---|
 | Server |Bare metal hardware (HP) |
 | Operating System |RedHat Linux |
@@ -595,7 +595,7 @@ For good performance, you should follow the settings guidelines presented below.
 
 The benchmark tests were performed on the following specifications:
 
-| ** ** |**Author node** |**MongoDB node** |
+| |**Author node** |**MongoDB node** |
 |---|---|---|
 | Server |Bare metal hardware (HP) |Bare metal hardware (HP) |
 | Operating System |RedHat Linux |RedHat Linux |
