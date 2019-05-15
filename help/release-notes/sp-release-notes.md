@@ -523,7 +523,7 @@ The key highlights for AEM 6.4.3.0 forms are:
 *   If braces are included in the task name while executing the Forms workflow, an exception is displayed in the logs. Hotfix for CQ-4256626
 *   Unable to open a Search template in AEM Forms workspace. Hotfix for CQ-4255651
 
-#### Mobile Forms {#mobile-forms}
+#### Mobile Forms {#mobile-forms-one}
 
 *   The exit notification does not display while exiting the date field in AEM Forms rendered as HTML in Internet Explorer or Chrome. NPR-26483: Hotfix for CQ-4239352
 *   Dates contained in the XML when processing begins causes the forms to throw up a validation error when the user tries to leave the form. NPR-26787: Hotfix for CQ-4251211
@@ -857,7 +857,7 @@ The key highlights for AEM 6.4.2.0 forms are:
 *   When a call to a web service is made an HTML5 form opened within the client, it fails and an error message is returned. NPR-26048: Hotfix for CQ-4244716
 *   Issue while calling service in AEM forms Windows app 6.3. NPR-26468: Hotfix for CQ-4252341
 
-#### Mobile Forms {#mobile-forms}
+#### Mobile Forms {#mobile-forms-two}
 
 *   \[Formset\] SSN and Mobile field validation issue when previewed. NPR-24458: Hotfix for CQ-4244983
 *   Data is not shown with prefilling of multi-line fields in HTML preview. NPR-24549: Hotfix for CQ-4244212
