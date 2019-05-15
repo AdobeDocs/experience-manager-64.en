@@ -64,7 +64,7 @@ You can use one of the following methods to establish the secure connection:
 1. Open AEM Web Console. The URL is `https://[server]:[port]/system/console/configMgr`.
 1. Locate and open the **Adobe LiveCycle Client SDK** Bundle. Specify value for the following properties:
 
-    * **Server URL**:** **Specify HTTPS URL of AEM Forms on JEE server. To enable communication over https, restart the AEM server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE keystore file&gt; parameter.
+    * **Server URL**: Specify HTTPS URL of AEM Forms on JEE server. To enable communication over https, restart the AEM server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE keystore file&gt; parameter.
     
     * **Enable 2-way SSL**: Enable the Enable 2-way SSL option.
     * **KeyStore File URL**: Specify the URL of the keystore file.

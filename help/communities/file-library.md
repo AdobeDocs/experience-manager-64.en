@@ -59,7 +59,7 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
   Maximum number of characters that may be entered into the text box. Default is 4096 characters.
 
 * **Allowed File Types** 
-  A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed. Default is none specified such that** **all file types are allowed.
+  A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed. Default is none specified such that all file types are allowed.
 
 * **Rich Text Editor** 
   If checked, comments may be entered with markup. Default is unchecked.

@@ -84,7 +84,7 @@ This release extends and replaces the previous versions of the Experience Manage
 AEM Desktop is compatible with the following operating systems:
 
 * Mac OS X 10.10 or later, with latest bug fixes.
-* Windows** **7 and Windows 10 with the latest service packs and bug fixes.
+* Windows 7 and Windows 10 with the latest service packs and bug fixes.
 
 Adobe strongly recommends using the latest version of AEM Desktop to avail the latest functionality, the most recent bug fixes, and the best possible performance.
 

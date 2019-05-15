@@ -91,7 +91,7 @@ Create the *component* that defines the content and renders any pages created ba
     * Label: **playpage**
     * Title: **An SCF Sandbox Play Component**
     * Description: **This is the component which renders content for An SCF Sandbox page.**
-    * Super Type** **: *&lt;leave blank&gt;*
+    * Super Type: *&lt;leave blank&gt;*
     
     * Group:
 

@@ -85,7 +85,7 @@ Under the **Reviews **tab, specify how reviews are handled.
   Maximum number of characters that may be entered into the text box. Default is 4096 characters.
 
 * **Allowed File Types** 
-  Relevant only if **Allow File Uploads** is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed. Default is none specified such that** **all file types are allowed.
+  Relevant only if **Allow File Uploads** is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed. Default is none specified such that all file types are allowed.
 
 * **Rich Text Editor** 
   If checked, posts may be entered with markup. Default is unchecked.

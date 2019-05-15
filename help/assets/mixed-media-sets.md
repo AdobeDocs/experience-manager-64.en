@@ -105,7 +105,7 @@ To create a Mixed Media Set:
 
    ![](assets/chlimage_1-352.png)
 
-   If you want to add thumbnails, click the **+** **thumbnail** icon next to the image and navigate to the thumbnail you want. When done selecting all the thumbnail images click **Save.**
+   If you want to add thumbnails, click the **+ thumbnail** icon next to the image and navigate to the thumbnail you want. When done selecting all the thumbnail images click **Save.**
 
    >[!NOTE]
    >

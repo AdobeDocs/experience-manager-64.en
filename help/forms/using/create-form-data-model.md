@@ -55,12 +55,12 @@ Do the following to configure your MySQL database:
 
     1. Tap **Install/Update**. An **Upload / Install Bundles** dialog appears.  
 
-    1. Tap** Choose File **to browse and select the MySQL JDBC driver OSGi bundle. Select **Start Bundle** and **Refresh Packages**,** **and tap **Install or Update**. Ensure that the Oracle Corporation's JDBC Driver for MySQL is active. The driver is installed.
+    1. Tap **Choose File** to browse and select the MySQL JDBC driver OSGi bundle. Select **Start Bundle** and **Refresh Packages**, and tap **Install or Update**. Ensure that the Oracle Corporation's JDBC Driver for MySQL is active. The driver is installed.
 
 1. Configure MySQL database as a data source:
 
     1. Go to AEM web console at [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
-    1. Locate **Apache Sling Connection Pooled DataSource **configuration. Tap to open the configuration in edit mode.
+    1. Locate **Apache Sling Connection Pooled DataSource** configuration. Tap to open the configuration in edit mode.
     1. In the configuration dialog, specify the following details:
 
         * **Datasource name:** You can specify any name. For example, specify **WeRetailMySQL**. 
@@ -88,7 +88,7 @@ Do the following to create form data model:
 
 1. In AEM author instance, navigate to **Forms** &gt;  **Data Integration**s.
 1. Tap **Create** &gt;  **Form Data Model**.
-1. In the Create Form Data Model dialog, specify a **name **for the form data model. For example, **customer-shipping-billing-details**. Tap **Next**.
+1. In the Create Form Data Model dialog, specify a **name** for the form data model. For example, **customer-shipping-billing-details**. Tap **Next**.
 1. The select datasource screen lists all configured data sources. Select **WeRetailMySQL** data source and tap **Create**.
 
    ![](assets/data-source-selection.png)
@@ -111,7 +111,7 @@ Do the following to configure the form data model:
 
    ![](assets/default-fdm.png)
 
-1. Expand the WeRailMySQL data source tree. Select the following data model objects and services from **weretail**** &gt;  customerdetails** schema to form data model:
+1. Expand the WeRailMySQL data source tree. Select the following data model objects and services from **weretail** &gt;  **customerdetails** schema to form data model:
 
     * **Data model objects**:
 
@@ -189,7 +189,7 @@ Do the following to configure the form data model:
         
         * **Output type**: Select **BOOLEAN**.  
         
-        * **Arguments**: Select argument named **ID **and **customerdetails**.
+        * **Arguments**: Select argument named **ID** and **customerdetails**.
 
        Tap **Done**. The **update** service to update customer details in the MySQL database is configured.
     

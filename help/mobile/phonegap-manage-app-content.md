@@ -37,9 +37,9 @@ Finally, administrators strategically publish the updated app content.
 
 Here, content can be created, edited and deleted in AEM Mobile in much the same way you would within AEM Sites.
 
-The **Manage** **Page** **Content tile** displays the number of pages of managed content and last modified for a particular payload. You can drill-into content to create, copy, move, delete and update pages by clicking on each record in the tile.
+The **Manage Page Content tile** displays the number of pages of managed content and last modified for a particular payload. You can drill-into content to create, copy, move, delete and update pages by clicking on each record in the tile.
 
-Once content has been updated, administrators can publish a content update payload Over-the-Air (OTA) to customers through the **Manage** **Content Packages tile.**
+Once content has been updated, administrators can publish a content update payload Over-the-Air (OTA) to customers through the **Manage Content Packages tile.**
 
 ![](assets/chlimage_1-161.png)
 

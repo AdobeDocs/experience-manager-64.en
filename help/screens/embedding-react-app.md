@@ -93,7 +93,7 @@ Follow the steps below to integrate the SPA with Adobe Analytics with offline ca
 
 1. Configure Adobe Analytics in AEM Screens.
 
-   Refer to [Configuring Adobe Analytics with AEM Screens](/help/screens/configuring-adobe-analytics-aem-screens.md) to learn how to** **perform sequencing in Adobe Analytics with AEM Screens and send custom events using offline Adobe Analytics.
+   Refer to [Configuring Adobe Analytics with AEM Screens](/help/screens/configuring-adobe-analytics-aem-screens.md) to learn how to perform sequencing in Adobe Analytics with AEM Screens and send custom events using offline Adobe Analytics.
 
 1. Edit your react app in the IDE/editor of your choice (especially the text component or other component which you wish to start emitting events).
 1. On the click event or other event that you wish to capture for your component, add the analytics information using the standard data model.

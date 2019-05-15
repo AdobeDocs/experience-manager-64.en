@@ -28,9 +28,8 @@ The following are the prerequisites for creating an Interactive Communication:
 
 ## Create Interactive Communication {#createic}
 
-1. Log in to the AEM author instance and navigate to **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**. **[!UICONTROL   
-   ]**
-1. Tap ****[!UICONTROL Create]** **and select ****[!UICONTROL Interactive Communication]****. Create Interactive Communication page appears. 
+1. Log in to the AEM author instance and navigate to **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
+1. Tap **[!UICONTROL Create]** and select **[!UICONTROL Interactive Communication]**. Create Interactive Communication page appears. 
 
    ![](assets/create-interactive-communication.png)
 

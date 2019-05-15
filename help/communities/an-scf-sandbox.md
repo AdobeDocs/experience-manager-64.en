@@ -59,7 +59,7 @@ After signing in with administrative privileges, there are various ways to acces
 
    ![](assets/chlimage_1-350.png)
 
-1. From the** ** [classic UI wecome page](http://localhost:4502/welcome.html), scroll down and click **CRXDE Lite** in the right panel.
+1. From the [classic UI wecome page](http://localhost:4502/welcome.html), scroll down and click **CRXDE Lite** in the right panel.
 
    ![](assets/chlimage_1-351.png)
 

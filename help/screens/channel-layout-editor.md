@@ -80,7 +80,7 @@ The following use case describes creating multi-zones in a channel.
     
     1. Enter **Title** for your display location (enter the title as **Split Display)**.
     
-    1. Under the **Display** tab, choose the details of the Layout. Choose the **Resolution** as** Full HD**. Choose the **Number of Devices Horizontally** as 1** **and the **Number of Devices Vertically** as **1**.
+    1. Under the **Display** tab, choose the details of the Layout. Choose the **Resolution** as **Full HD**. Choose the **Number of Devices Horizontally** as 1 and the **Number of Devices Vertically** as **1**.
     
     1. Click **Create**.
 

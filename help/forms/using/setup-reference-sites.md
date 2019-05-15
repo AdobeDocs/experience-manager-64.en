@@ -187,7 +187,7 @@ The email templates for We.Finance reference site contain personalized links in 
 
 1. Copy `/libs/cq/xssprotection/config.xml` to `/apps/cq/xssprotection/config.xml`.
 1. Open `/apps/cq/xssprotection/config.xml`.
-1. In the `common-regexps` section, modify the `onsiteURL`** **entry as follows and save the file.
+1. In the `common-regexps` section, modify the `onsiteURL` entry as follows and save the file.
 
    `<regexp name="onsiteURL" value="([\p{L}\p{N}\\\.\#@\$\{\}%\+&;\-_~,\?=/!\*\(\)]*|\#(\w)+)"/>`
 
@@ -309,10 +309,10 @@ Do the following on the publish instance to allow access to anonymous users:
 Do the following on both author and publish instances:
 
 1. Go to CRXDE at `https://[server]:[port]/crx/de/index.jsp`.
-1. Navigate to** **/conf/global/settings/cloudconfigs/fdm/roi-rest/jcr:content/swaggerFile** **and open the swagger file.
+1. Navigate to **/conf/global/settings/cloudconfigs/fdm/roi-rest/jcr:content/swaggerFile** and open the swagger file.
 1. Update the host and port settings as per your environment.
 1. Save the settings.
-1. (**Author instance only**) Go to **Tools **> **Cloud Services** > **Data Sources **> **global. **Select** roi-rest **and tap** Properties.** Tap **Authentication Settings** and set **Authentication Type** to** Basic Authentication**. Specify `admin`/ `admin`as the username/password to access the service. Tap **Save & Close**.
+1. (**Author instance only**) Go to **Tools** > **Cloud Services** > **Data Sources** > **global.** Select **roi-rest** and tap **Properties.** Tap **Authentication Settings** and set **Authentication Type** to **Basic Authentication**. Specify `admin`/ `admin`as the username/password to access the service. Tap **Save & Close**.
 
 ## Integrate with Marketing Cloud {#integrate-with-marketing-cloud}
 
@@ -353,8 +353,8 @@ The reference site showcases the integration of AEM Forms with Adobe Target that
 
 To experience the integration in the reference site, do the following to configure Target in AEM:
 
-1. Start the author quickstart with the jvm argument `-Dabtesting.enabled=true` to enable A/B testing on the server.** 
-   Note**: If the AEM instance is running on JBoss, which is started as a service from Turnkey installation, add the `-Dabtesting.enabled=true` parameter in the following entry in the `jboss\bin\standalone.conf.bat` file, :  
+1. Start the author quickstart with the jvm argument `-Dabtesting.enabled=true` to enable A/B testing on the server. 
+   **Note**: If the AEM instance is running on JBoss, which is started as a service from Turnkey installation, add the `-Dabtesting.enabled=true` parameter in the following entry in the `jboss\bin\standalone.conf.bat` file, :  
    `set "JAVA_OPTS=%JAVA_OPTS% -Dadobeidp.serverName=server1 -Dfile.encoding=utf8 -Djava.net.preferIPv4Stack=true -Dabtesting.enabled=true"`   
 
 1. Access https://&lt;*hostname*&gt;:&lt;*port*&gt;/libs/cq/core/content/tools/cloudservices.html.

@@ -129,7 +129,7 @@ To configure the 3D asset ingestion workflow:
 1. Upload all files from `sample-3D-content/images` to the `test3d` folder.
 1. Wait for the upload and processing to complete. You may need to refresh your browser.
 
-   Upload the three `.fbx` files from `sample-3D-content/`** **to the `test3d` folder.
+   Upload the three `.fbx` files from `sample-3D-content/` to the `test3d` folder.
 
    Do not upload the .ma model files yet.
 

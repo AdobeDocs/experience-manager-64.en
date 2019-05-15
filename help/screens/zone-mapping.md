@@ -168,7 +168,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
     
     1. Navigate to the **Device Config** tab and fill in the **Mapping** and **Template** fields. Enter *{"a1":"${display.channel}/left", "a2": "${display.channel}/right"}* in the **Mapping** field and template as *grid-2x1*. 
     
-    1. Click **Save** **& Close** and reload the player.
+    1. Click **Save & Close** and reload the player.
 
    >[!NOTE]
    >

@@ -15,7 +15,7 @@ discoiquuid: 8774c38a-abd2-4dc2-868e-d6760c96f3f6
 
 The Components console allows you to browse through all components defined for your instance and view key information for each component.
 
-It can be accessed from **Tools -&gt;** **General -&gt;** **Components**. In the console, card and list view are available. Because there is no tree structure for components, column view is not available.
+It can be accessed from **Tools** -&gt; **General** -&gt; **Components**. In the console, card and list view are available. Because there is no tree structure for components, column view is not available.
 
 ![](assets/chlimage_1-301.png)
 

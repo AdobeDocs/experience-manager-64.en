@@ -82,7 +82,7 @@ Collections have numerous properties such as titles, descriptions, images. This 
 The general workflow to view/edit a collection:
 
 1. From Mobile, choose your Mobile On-Demand app from the catalog.
-1. Choose a collection from the **Manage** **Collections** tile.
+1. Choose a collection from the **Manage Collections** tile.
 
 1. Select **Properties** from the action bar.
 1. View all available meta data for that article.

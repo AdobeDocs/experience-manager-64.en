@@ -138,7 +138,7 @@ You can edit the following Dynamic Media Settings by clicking **Edit** in the co
 
 >[!NOTE]
 >
->By default, the Dynamic Media video component is adaptive. If you want to make it a fixed size, set it in the component with the **Width** and **Height **in** **the** Advanced **tab.
+>By default, the Dynamic Media video component is adaptive. If you want to make it a fixed size, set it in the component with the **Width** and **Height** in the **Advanced** tab.
 
 **Viewer preset** Select an existing video viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets.
 

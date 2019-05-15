@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 88ee8573-58c4-42cd-8e36-2ea4a0d654e4
 ---
 
-# Messaging Feature{#messaging-feature}
+# Messaging Feature {#messaging-feature}
 
-In addtion to the publicly visible interactions which occur in forums and comments, the messaging feature of** **AEM Communities enables community members to interact with one another more privately.
+In addtion to the publicly visible interactions which occur in forums and comments, the messaging feature of AEM Communities enables community members to interact with one another more privately.
 
 This feature may be included when a [community site](/help/communities/overview.md#communitiessites) is created.
 

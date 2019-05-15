@@ -230,7 +230,7 @@ To create an Asset Editor page:
 
 1. In the **Websites** tab, navigate to the place where you want to create an asset editor page and click **New**.
 
-1. Select **Geometrixx** **Asset Editor** and click **Create**. The new page is created and the page is listed in the **Websites** tab.
+1. Select **Geometrixx Asset Editor** and click **Create**. The new page is created and the page is listed in the **Websites** tab.
 
 ![](assets/screen_shot_2012-04-23at15858pm.png)
 
@@ -344,7 +344,7 @@ The Tags component is a component where users can assign existing tags to an ass
 
 ![](assets/screen_shot_2012-04-23at25031pm.png)
 
-Double-click the Tags component to open the tags dialog where you can change the title from Tags, if desired, and where you can select the allocated namespaces. To make this field editable, clear the **Hide Edit** **button** check box. By default, tags are editable.
+Double-click the Tags component to open the tags dialog where you can change the title from Tags, if desired, and where you can select the allocated namespaces. To make this field editable, clear the **Hide Edit** button check box. By default, tags are editable.
 
 ![](assets/screen_shot_2012-04-23at24731pm.png)
 

@@ -105,7 +105,7 @@ Below is the procedure that needs to be followed in order to create a setup with
 
    Below you'll find sample configurations for the primary instance:
 
-   **Sample of** **org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.config**
+   **Sample of org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.config**
 
    ```xml
    org.apache.sling.installer.configuration.persist=B"false"

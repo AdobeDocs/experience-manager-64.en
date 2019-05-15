@@ -55,7 +55,7 @@ After the reviewer completes the review (approves or rejects assets), you receiv
 
    ![](assets/notification.png)
 
-1. In the **Review** **Task** page, examine the details of the review task, and then tap/click **Review**.
+1. In the **Review Task** page, examine the details of the review task, and then tap/click **Review**.
 1. In the **Review Task** page, select assets, and tap/click the **Approve**/**Reject** icon to approve or reject, as appropriate.
 
    ![](assets/review_task.png)

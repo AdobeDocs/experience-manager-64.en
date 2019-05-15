@@ -83,7 +83,7 @@ To map landing page components to Adobe Analytics:
 </table>
 
 1. Map these exposed attributes with any Adobe Analytics variables from the content finder. The framework is now ready to use. 
-1. You can now create a new landing page or open an existing landing page with existing CTA components and click **Cloud Services** tab in **Page Properties** from the sidekick (in the touch-optimized UI, select **Open Properties **and** **click** Cloud Services**) and configure the framework to use with landing page. Select the framework from the drop-down list.
+1. You can now create a new landing page or open an existing landing page with existing CTA components and click **Cloud Services** tab in **Page Properties** from the sidekick (in the touch-optimized UI, select **Open Properties** and click **Cloud Services**) and configure the framework to use with landing page. Select the framework from the drop-down list.
 
    ![](assets/chlimage_1-25.png)
 

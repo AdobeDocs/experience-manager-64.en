@@ -817,7 +817,7 @@ Forms are built up from several different components:
 * **Profile Components** 
   Profile components relate to visitor profiles used for social collaboration and other areas where visitor personalization is required.
 
-The following shows an example form. It is comprised of the **Form** component (start and end), with two **Form** **Text** fields used for input, a **General** **Text** field used for the lead-in text and a **Submit** button.
+The following shows an example form. It is comprised of the **Form** component (start and end), with two **Form Text** fields used for input, a **General Text** field used for the lead-in text and a **Submit** button.
 
 ![](assets/dc_form.png)
 

@@ -51,9 +51,9 @@ After you have uploaded the forms and configured the service, perform the follow
 
 1. In the **[!UICONTROL **General**]**tab of the Conversion Settings dialog:
 
-    * Select a** **[!UICONTROL Cloud Configuration]****. Template and Theme options are automatically filled on selecting the configuration. You can specify a different template or a theme, if required.
-    * Select the ****[!UICONTROL Extract Fragment]**** option to allow the conversion service to identify, extract, and download form fragments for converted forms.
-    * Specify the location of ****[!UICONTROL Existing Fragments]****, if required. Conversion service uses the Form Fragments available at the specified location in converted forms, wherever applicable.
+    * Select a **[!UICONTROL Cloud Configuration]**. Template and Theme options are automatically filled on selecting the configuration. You can specify a different template or a theme, if required.
+    * Select the **[!UICONTROL Extract Fragment]** option to allow the conversion service to identify, extract, and download form fragments for converted forms.
+    * Specify the location of **[!UICONTROL Existing Fragments]**, if required. Conversion service uses the Form Fragments available at the specified location in converted forms, wherever applicable.
 
    >[!NOTE]
    >

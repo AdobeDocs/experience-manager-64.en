@@ -71,6 +71,6 @@ To create an ExactTarget configuration in Tools:
 
 To add multiple configurations:
 
-1. On the welcome page, click **Cloud Services** and click **ExactTarget**. Click on **Show Configurations **button** **which appears if one or more ExactTarget configurations is available. All available configurations are listed.
+1. On the welcome page, click **Cloud Services** and click **ExactTarget**. Click on **Show Configurations** button which appears if one or more ExactTarget configurations is available. All available configurations are listed.
 1. Click the **+** sign next to Available configurations. This opens the **Create Configurations** window. Follow the previous configuration procedure to create a new configuration.
 

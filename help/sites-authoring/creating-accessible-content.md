@@ -193,7 +193,7 @@ Inserting multimedia, specifically Flash content, into your AEM web pages is sim
 
 >[!NOTE]
 >
->When you use multimedia with informational content,** **you must also create links to alternatives. For example, to include a text transcript, create an HTML page to display the transcript and then add a link next to or underneath the audio content.
+>When you use multimedia with informational content, you must also create links to alternatives. For example, to include a text transcript, create an HTML page to display the transcript and then add a link next to or underneath the audio content.
 
 #### More Information - Audio-only and Video-only (Pre-recorded) (1.2.1) {#more-information-audio-only-and-video-only-pre-recorded}
 
@@ -253,7 +253,7 @@ There are two approaches that can be adopted to meet this success criterion. Eit
     * During pauses in the existing dialogue, provide information about changes in the scene that are not presented as part of the existing audio track;
     * Provide an new, additional and optional audio track containing the original soundtrack, but also including extra audio information about changes in the scene.
 
-        * This allows users to switch between the existing audio track (which *does not* contain an audio description) and the new audio track (which *does*** **contain an audio description).
+        * This allows users to switch between the existing audio track (which *does not* contain an audio description) and the new audio track (which *does* contain an audio description).
         
         * This prevents disruption to users who do not need the additional description.
 
@@ -587,7 +587,7 @@ People with certain visual impairments may be unable to distinguish between cert
 
 Make sure that the text contrasts sufficiently with its background. Contrast ratios depend on the size and style of the text in question:
 
-* For text less than 18-point (or 14-point bold) in size, the contrast ratio between text/images of text and the background should be at least** **4.5:1.
+* For text less than 18-point (or 14-point bold) in size, the contrast ratio between text/images of text and the background should be at least 4.5:1.
 * For text that is at least 18-point (or 14-point bold) in size, the contrast ratio should be at least 3:1.
 * If a background is patterned, then the background around any text should be shaded so that the 4.5:1 or 3:1 ratio is maintained.
 
@@ -767,7 +767,7 @@ John Smith’s publications
 >
 >The above snippet is an illustration, it is recommended to use the **Image** component.
 
-While it’s advisable to provide link text that identifies the purpose of the link without needing additional context, it is recognized that this is not always possible. Context free links can** **be used in the following cases, HTML examples of which can be found in [How to Meet Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-refs).
+While it’s advisable to provide link text that identifies the purpose of the link without needing additional context, it is recognized that this is not always possible. Context free links can be used in the following cases, HTML examples of which can be found in [How to Meet Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG20/quickref/#qr-navigation-mechanisms-refs).
 
 * Where the link text is part of a list of closely related links and when the list item enclosing the link provides enough context.
 * Where the purpose of a link can be clearly identified from the *preceding* (not the following) paragraph text.

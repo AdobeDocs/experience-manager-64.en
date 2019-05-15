@@ -95,7 +95,7 @@ From the **Sites** page:
 
    ![](assets/chlimage_1-18.png)
 
-From within the newsletter/email in authoring, you might not be able to select the Adobe Campaign cloud service configuration in **Page** **Properties** due to a layout issue. You can use the workaround described here:
+From within the newsletter/email in authoring, you might not be able to select the Adobe Campaign cloud service configuration in **Page Properties** due to a layout issue. You can use the workaround described here:
 
 1. In AEM select the email page and click **Edit**. Click **Open Properties**.
 
@@ -118,7 +118,7 @@ To edit email content:
 
    ![](assets/chlimage_1-20.png)
 
-1. If you would like to change the subject of the email or add plain text for those users who will not view the email in HTML, select **Email** and add a subject and text. Select the page icon to auto-generate a plain text version from HTML. Click** **the** **check mark when finished.
+1. If you would like to change the subject of the email or add plain text for those users who will not view the email in HTML, select **Email** and add a subject and text. Select the page icon to auto-generate a plain text version from HTML. Click the check mark when finished.
 
    You can personalize the newsletter by using Adobe Campaign personalization fields. To add a personalization field, open the personalization field picker by clicking on the button displaying the Adobe Campaign logo. You can then choose from all the fields that are available for this newsletter.
 
@@ -128,7 +128,7 @@ To edit email content:
 
    ![](assets/chlimage_1-21.png)
 
-1. Open the components panel on left side of screen and select **Adobe Campaign** **Newsletter** from the drop-down menu to find those components. 
+1. Open the components panel on left side of screen and select **Adobe Campaign Newsletter** from the drop-down menu to find those components. 
 
    ![](assets/chlimage_1-22.png)
 

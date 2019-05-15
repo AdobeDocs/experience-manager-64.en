@@ -38,7 +38,7 @@ Before uploading an asset, ensure that it is in a [format](assets-formats.md) th
 1. In the Assets UI, navigate to the location where you want to add digital assets.
 1. To upload the assets, do one of the following:
 
-    * On the toolbar, tap the **Create** **[!UICONTROL]** icon. Then, on the menu, then tap **Files**. You can rename the file in the presented dialog if needed.  
+    * On the toolbar, tap the **Create [!UICONTROL]** icon. Then, on the menu, then tap **Files**. You can rename the file in the presented dialog if needed.  
     
     * In a browser that supports HTML5, drag the assets directly on the Assets UI. The dialog to rename file is not displayed.
 

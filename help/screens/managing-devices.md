@@ -60,7 +60,7 @@ Follow the steps below to assign a device to a display:
 >[!NOTE]
 >
 >Every time the first device is added to a new Screens project, a user group is created.  
->For instance, if the project node name is *we-retail*,** **then the user group name is *screens-we-retail-devices*.  
+>For instance, if the project node name is *we-retail*, then the user group name is *screens-we-retail-devices*.  
 >This group will be added as a member of the **Contributors** group, as shown in the figure below:
 
 ![](assets/chlimage_1-39.png)

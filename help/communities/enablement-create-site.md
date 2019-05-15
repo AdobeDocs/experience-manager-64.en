@@ -22,7 +22,7 @@ To get started creating a new community site:
 Using the [author instance](http://localhost:4502/)
 
 * sign in with administrator privileges
-* navigate to **Communities,** **Sites**
+* navigate to **Communities, Sites**
 
 * select **Create**
 

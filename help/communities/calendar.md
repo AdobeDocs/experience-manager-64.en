@@ -74,7 +74,7 @@ Under the **Settings **tab, specify whether or not to allow tags to be applied t
   Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.
 
 * **Max Attach Image File Size** 
-  Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152** **(2 Mb).
+  Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152 (2 Mb).
 
 * **Allowed Cover Image Types** 
   A comma separated list of image file extensions with the "dot" separater. Default is `.jpg,.jpeg,.png,.gif,.bmp`.
@@ -83,7 +83,7 @@ Under the **Settings **tab, specify whether or not to allow tags to be applied t
   If checked, allow replies to comments posted to the calendar event. Default is checked.
 
 * **Allow Users to Delete Comments and Events** 
-  If checked, allow members to delete the comments and calendar events they posted. Default is** **checked.
+  If checked, allow members to delete the comments and calendar events they posted. Default is checked.
 
 * **Allow Voting** 
   If checked, include the Voting feature with a calendar event. Default is checked.

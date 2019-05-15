@@ -17,7 +17,7 @@ Explore the GQL full-text search feature in AEM Assets. Use it to search for ass
 
 The GQL full-text search feature lets you search for assets based on specific metadata, such as title, description, author, and so on.
 
-To search for an asset based on its metadata, for example title, specify the metadata keyword** **followed by its value in the search panel. The GQL full-text search feature will fetch only those assets whose metadata exactly match with the corresponding value you enter.
+To search for an asset based on its metadata, for example title, specify the metadata keyword followed by its value in the search panel. The GQL full-text search feature will fetch only those assets whose metadata exactly match with the corresponding value you enter.
 
 For example, to search for assets that have the title "Target," perform these steps:
 

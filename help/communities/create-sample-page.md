@@ -29,7 +29,7 @@ The major difference is this tutorial will create a new community site template 
 
 To get started, create a simple [community site template](/help/communities/sites.md).
 
-From global navigation on an author instance select **Tools, Communities,** **Site Templates**.
+From global navigation on an author instance select **Tools, Communities, Site Templates**.
 
 ![](assets/chlimage_1-82.png)
 

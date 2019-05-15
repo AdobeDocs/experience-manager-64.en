@@ -20,7 +20,7 @@ The Adobe Experience Manager (AEM) Assets Home page provides a rich and personal
 The Assets Home page is disabled by default. To enable it, perform the following steps:
 
 1. Go to Configuration Manager *https://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
-1. Open the **Day CQ DAM Event** **Recorder** service.
+1. Open the **Day CQ DAM Event Recorder** service.
 1. Select the **Enable this service** to enable activity recording.
 
    ![](assets/chlimage_1-250.png)

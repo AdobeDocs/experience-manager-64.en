@@ -173,14 +173,14 @@ Using the Create step of [the targeting process](/help/sites-authoring/content-t
 
 To add an experience:
 
-1. To add an experience, click or tap **+** **Add Experience Targeting **that appears below existing experiences in the **Audiences** pane.
+1. To add an experience, click or tap **+ Add Experience Targeting** that appears below existing experiences in the **Audiences** pane.
 1. Select and audience. By default, that name is the name of the experience. You can type another name, if desired. Click or tap **OK**.
 
 #### Removing Experiences Using Targeting Mode {#removing-experiences-using-targeting-mode}
 
 To delete an experience:
 
-1. Click or tap the arrow** **next to the experience name.
+1. Click or tap the arrow next to the experience name.
 
    ![](assets/chlimage_1-68.png)
 
@@ -190,24 +190,24 @@ To delete an experience:
 
 To rename experiences using Targeting Mode:
 
-1. Click or tap the arrow** **next to the experience name.
-1. Click **Rename Experience **and type in the new name.
-1. Click** **or tap somewhere else on the screen to save the changes.
+1. Click or tap the arrow next to the experience name.
+1. Click **Rename Experience** and type in the new name.
+1. Click or tap somewhere else on the screen to save the changes.
 
 #### Editing Audiences Using Targeting Mode {#editing-audiences-using-targeting-mode}
 
 To edit the audiences using Targeting Mode:
 
-1. Click or tap the arrow** **next to the experience name.
-1. Click **Edit Audience **and select a new audience.
+1. Click or tap the arrow next to the experience name.
+1. Click **Edit Audience** and select a new audience.
 1. Click **OK**.
 
 #### Duplicating Experiences Using Targeting Mode {#duplicating-experiences-using-targeting-mode}
 
 To copy experiences using Targeting Mode:
 
-1. Click or tap the arrow** **next to the experience name.
-1. Click **Duplicate **and choose the audience.
+1. Click or tap the arrow next to the experience name.
+1. Click **Duplicate** and choose the audience.
 1. Rename the experience, if desired, and click **OK**.
 
 ### Creating Offers Using Targeting Mode {#creating-offers-using-targeting-mode}

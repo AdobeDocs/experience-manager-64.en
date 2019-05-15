@@ -17,19 +17,19 @@ There are several methods available for tracking video events, 2 of which are le
 
 >[!NOTE]
 >
->Before you continue, make sure** **that you have a** playable video** uploaded within AEM.  
+>Before you continue, make sure that you have a **playable video** uploaded within AEM.  
   
->To ensure that your videos play on the page, consult ** [this tutorial](/help/sites-authoring/default-components-foundation.md#video)** for information about how to transcode video files in AEM.
+>To ensure that your videos play on the page, consult **[this tutorial](/help/sites-authoring/default-components-foundation.md#video)** for information about how to transcode video files in AEM.
 
 Use the following procedure to set up a framework for video tracking using each method.
 
 >[!NOTE]
 >
->For new implementations, it is recommended that you **do not use** the legacy options for video tracking. Please use the **Milestones **method instead.
+>For new implementations, it is recommended that you **do not use** the legacy options for video tracking. Please use the **Milestones** method instead.
 
 ## Common steps {#common-steps}
 
-1. Set up a web page by dragging a** video component** from the sidekick and adding a playable **video as an asset** for the component
+1. Set up a web page by dragging a **video component** from the sidekick and adding a playable **video as an asset** for the component
 
 1. [Create an Adobe Analytics configuration and framework](/help/sites-administering/adobeanalytics.md).
 

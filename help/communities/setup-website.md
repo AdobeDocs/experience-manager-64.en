@@ -51,9 +51,9 @@ The /apps directory is protected and not publicly accessible as are the /content
     
     1. right-click **Create**... or pull down the **Create...** menu
     
-    1. select **Create** **Folder...** .
+    1. select **Create Folder...** .
     
-    1. in the **Create Folder **dialog, enter **an-scf-sandbox**
+    1. in the **Create Folder** dialog, enter **an-scf-sandbox**
     
     1. click **OK**
 
@@ -61,23 +61,16 @@ The /apps directory is protected and not publicly accessible as are the /content
 
     1. select the **/apps/an-scf-sandbox** folder
     1. click **Create** &gt; **Create Folder**
-    
     1. in the **Create Folder** dialog, enter **components**
-    
     1. click **OK**
 
-1. Create **templates **subfolder.
+1. Create **templates** subfolder.
 
-    1. select the **/apps/an-scf-sandbox **folder
+    1. select the **/apps/an-scf-sandbox** folder
     1. click **Create** &gt; **Create Folder**
-    
     1. in the **Create Folder** dialog, enter **templates**
-    
     1. click **OK**
-
-1.
-
-    1. re-select /apps/**an-scf-sandbox**
+    1. re-select **/apps/an-scf-sandbox**
     1. select **Save All**
 
    As with any editing process, save often. If you run into problems with entering data, it may be either because your login has timed out or you need to save previous edits.

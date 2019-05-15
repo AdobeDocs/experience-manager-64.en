@@ -152,7 +152,7 @@ To work with 3D components with touchpad devices:
 
 1. Use a one-finger drag while holding the (left) touchpad button down to move ("orbit") the viewpoint ("camera") around the object. You can view the object from any direction.  
 
-1. Use a two-finger drag down or up with touchpad buttons up to move the camera closer to or farther away from the object. This action is similar to zooming in or out and allows inspecting details on the object. Alternatively, click and hold the **Zoom** **In** or **Zoom Out** buttons to move the camera closer or farther away from the object.  
+1. Use a two-finger drag down or up with touchpad buttons up to move the camera closer to or farther away from the object. This action is similar to zooming in or out and allows inspecting details on the object. Alternatively, click and hold the **Zoom In** or **Zoom Out** buttons to move the camera closer or farther away from the object.  
 
 1. Use a one-finger drag while holding the **ALT/option** key and the (left) touchpad button to pan the camera. This action moves the camera laterally to let you look at different parts of the object while zoomed in. Alternatively, click the **Orbit/Pan Toggle** button to toggle to **Pan** mode, then use a one-finger drag while holding the (left) button to pan the camera. Click the **Orbit/Pan Toggle **button again to revert to **Orbit** mode.  
 

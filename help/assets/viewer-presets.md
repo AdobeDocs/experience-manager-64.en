@@ -44,7 +44,7 @@ To apply any applicable viewer preset to an asset:
    >    
    >
 
-1. Select a viewer** **from the left pane to apply it to the asset as seen in the right pane. You can also [copy the URL to share](linking-urls-to-yourwebapplication.md) with others users.
+1. Select a viewer from the left pane to apply it to the asset as seen in the right pane. You can also [copy the URL to share](linking-urls-to-yourwebapplication.md) with others users.
 
 ## Obtaining Viewer Preset URLs {#obtaining-viewer-preset-urls}
 

@@ -60,7 +60,7 @@ A public certificate allows you to authenticate your profile on Adobe I/O.
 
 To use Smart Content Service APIs, create an integration in Adobe I/O to generate API Key, Technical Account Id, Organization Id, and Client Secret.
 
-1. Access** ** [https://console.adobe.io](https://console.adobe.io/).
+1. Access [https://console.adobe.io](https://console.adobe.io/).
 1. From the **[!UICONTROL Integrations]** page, select your organization.
 1. Tap/click **[!UICONTROL New Integration]**.
 1. On the **[!UICONTROL Create a new integration]** page, select **[!UICONTROL Access an API]**. Tap/click **[!UICONTROL Continue]**.

@@ -47,7 +47,7 @@ Returns the version number of the Scripting library
 **isConnected()** Checks if Form State has been initialized
 
 * **Input**: None
-* **Output:** **True **if the XFA Form State has been initialized
+* **Output**: **True** if the XFA Form State has been initialized
 
 * **Errors**: None
 
@@ -216,7 +216,7 @@ if(a.errors) {
 
 * **Input:**
 
-    * **som:** Array** **containing** **Som expressions of the fields whose value has to be set  
+    * **som:** Array containing Som expressions of the fields whose value has to be set  
     
     * **property**: Property whose value has to be set  
     

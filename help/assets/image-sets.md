@@ -126,7 +126,7 @@ To create an Image Set:
 
    >[!NOTE]
    >
-   >When creating the image set, you can change the image set thumbnail or allow AEM to select the thumbnail automatically based on the assets in the image set. To select a thumbnail, click **Change thumbnail **and select any image (you can navigate to other folders to find images as well). If you have selected a thumbnail and then decide that you want AEM to generate one from the image set, select **Switch to** **Automatic thumbnail**.
+   >When creating the image set, you can change the image set thumbnail or allow AEM to select the thumbnail automatically based on the assets in the image set. To select a thumbnail, click **Change thumbnail **and select any image (you can navigate to other folders to find images as well). If you have selected a thumbnail and then decide that you want AEM to generate one from the image set, select **Switch to Automatic thumbnail**.
 
 1. Do either one of the following:
 
@@ -148,7 +148,7 @@ To create an Image Set:
 
    ![](assets/spin_set_assets.png)
 
-   If you want to change a thumbnail or swatch, click the **+** **thumbnail** icon next to the image and navigate to the thumbnail or swatch you want. When done selecting all the images click **Save.**
+   If you want to change a thumbnail or swatch, click the **+ thumbnail** icon next to the image and navigate to the thumbnail or swatch you want. When done selecting all the images click **Save.**
 
 1. (Optional) Do any of the following:
 

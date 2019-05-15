@@ -87,7 +87,7 @@ The handler should be used on AEM App Shell ContentSync Config (node with pge-ty
 
 * ***type - String - mobilecontentpackageslisting***
 * ***path** - **String*** - Path to an app shell (node with pge-type=app-instance).
-* ***targetRootDirectory - String*** -** **the prefix to add to paths as a target root for content update for this handler.
+* ***targetRootDirectory - String*** - the prefix to add to paths as a target root for content update for this handler.
 * ***order - Long* -** Order for ContentSync to execute this handler. This number should be set higher than all other handlers such as 100. It should be run after traditional content handlers.
 
 >[!NOTE]
@@ -122,7 +122,7 @@ This handler should be used on a AEM App Shell ContentSync config (node with pge
 
 * ***type - String* - **widgetconfig
 * ***path** - **String*** - Path to any app shell child node (node with pge-type=[app-instance]).
-* ***targetRootDirectory - String*** -** **the prefix to add to paths as a target root for content update for this handler.
+* ***targetRootDirectory - String*** - the prefix to add to paths as a target root for content update for this handler.
 * ***targetIconDirectory - String*** - ****the directory to place the icons for the app
 
 **mobileADBMobileConfigJSON** Include the ADBMobileConfig.JSON file if the AMS cloudservice was configured.

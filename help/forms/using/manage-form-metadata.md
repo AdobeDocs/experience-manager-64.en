@@ -244,7 +244,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 1. Navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. 
 
-1. Click **[!UICONTROL forms]**** **from the listed schema forms.  
+1. Click **[!UICONTROL forms]** from the listed schema forms.  
 
 1. From the list that opens, click the asset type for which you want to add custom metadata.
 

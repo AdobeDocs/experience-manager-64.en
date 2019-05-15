@@ -400,7 +400,7 @@ For more information about TarMK, see [Deployment Scenarios](/help/sites-deployi
 
 >[!NOTE]
 >
->The minimum architecture guidelines presented below are for production enviroments and high traffic sites. These are **not **the [minimum specifications](/help/sites-deploying/technical-requirements.md#prerequisites)** **needed to run AEM.
+>The minimum architecture guidelines presented below are for production enviroments and high traffic sites. These are **not **the [minimum specifications](/help/sites-deploying/technical-requirements.md#prerequisites) needed to run AEM.
 
 To establish good performance when using TarMK, you should start from the following architecture:
 

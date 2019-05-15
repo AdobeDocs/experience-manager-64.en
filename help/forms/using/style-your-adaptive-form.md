@@ -173,7 +173,7 @@ Header and footer provide a consistent and distinctive look to an adaptive form.
 
 You can use multiple components in an adaptive form to capture data. For example, text box and numeric box. You can provide identical style to all the data capture components or separate style for each component. In this tutorial, an identical style is applied to numeric boxes (Customer ID, ZIP Code) and text boxes (Customer ID, Name, Shipping Address, State, Email). To style the data capture components:
 
-1. Tap the Customer ID field and tap the **Field Widget **option. Set the following properties** **and tap ![](assets/aem_6_3_forms_save.png).
+1. Tap the Customer ID field and tap the **Field Widget** option. Set the following properties and tap ![](assets/aem_6_3_forms_save.png).
 
 <table> 
  <tbody> 

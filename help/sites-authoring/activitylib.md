@@ -170,7 +170,7 @@ To view activity performance and convert winning experiences:
 
    ![](assets/chlimage_1-239.png)
 
-1. Click or tap the **Push winner **link** **to push that experience as the default experience.
+1. Click or tap the **Push winner link** to push that experience as the default experience.
 
    Converting the winner does the following:
 

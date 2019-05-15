@@ -76,10 +76,10 @@ Under the **Settings **tab, specify settings for topics (questions) and replies 
   Relevant only if `Allow File Uploads` is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).
 
 * **Allowed File Types** 
-  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that** **all file types are allowed.
+  Relevant only if `Allow File Uploads` is checked. A comma separated list of file extensions with the "dot" separater. For example: .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.
 
 * **Max Attach Image File Size** 
-  Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152** **(2 Mb).
+  Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152 (2 Mb).
 
 * **Allow Following** 
   If checked, include the following feature for forum posts, which allows members to be [notified](/help/communities/notifications.md) of new posts. Default is unchecked.
@@ -94,7 +94,7 @@ Under the **Settings **tab, specify settings for topics (questions) and replies 
   If checked, allow replies to comments posted to the question. Default is unchecked.
 
 * **Allow Users to Delete Comments and Topics** 
-  If checked, allow members to delete the comments and questions they posted. Default is** **unchecked.
+  If checked, allow members to delete the comments and questions they posted. Default is unchecked.
 
 * **Allow Voting** 
   If checked, include the Voting feature with a question. Default is unchecked.

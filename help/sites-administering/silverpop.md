@@ -66,7 +66,7 @@ To create a Silverpop configuration in Tools:
 
 To add multiple configurations:
 
-1. On the welcome page, click **Cloud Services** and click **Silverpop Engage**. Click on **Show Configurations **button** **which appears if one or more Silverpop configurations is available. All available configurations are listed.
+1. On the welcome page, click **Cloud Services** and click **Silverpop Engage**. Click on **Show Configurations**button which appears if one or more Silverpop configurations is available. All available configurations are listed.
 1. Click the **+** sign next to Available configurations. This opens the **Create Configurations** window. Follow the previous configuration procedure to create a new configuration.
 
 ### Configuring API end points for connecting to Silverpop {#configuring-api-end-points-for-connecting-to-silverpop}

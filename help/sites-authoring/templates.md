@@ -150,7 +150,7 @@ A template folder should be created for your project to hold your project-specif
 
 ### Creating a New Template - Template Author {#creating-a-new-template-template-author}
 
-1. Open the **Templates Console** (via **Tools -&gt;** **General**) then navigate to the required folder.
+1. Open the **Templates Console** (via **Tools** -&gt; **General**) then navigate to the required folder.
 
    >[!NOTE]
    >

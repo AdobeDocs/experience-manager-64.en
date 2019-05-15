@@ -39,12 +39,12 @@ You can also use the component to control the behavior of the task. For example,
 
 * **PDF Path:** Specify the path of a non-interactive PDF document. The field is available when you choose a non-interactive PDF document in the Type field. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/PDF/credit-card.pdf. The path does not exist in crx-repository. An administrator creates the path before using it. You require a Document of Record option enabled or form template based adaptive forms for using the PDF Path option.
 * **For completed task, render the adaptive form as**: When a task is marked complete, you can render the adaptive form as a read-only adaptive form or a PDF document. You require a Document of Record option enabled or form template based adaptive forms for rendering the adaptive form as Document of Record.
-* **Information to be pre-populated:** The following fields listed below serve as inputs to the task:** **
+* **Information to be pre-populated:** The following fields listed below serve as inputs to the task: 
 
     * **Data File Path:** Path of input data file (.json or .xml). The path is always relative to the payload. For example, the file contains the data submitted for the form through an AEM Inbox application. An example path is [Payload_Directory]/workflow/data.
     * **Attachment Path:** Attachments available at the location are attached to the form associated with the task. The path is always relative to the payload. An example path is [Payload_Directory]/attachments/
 
-* **Submitted information:** The following fields listed below serve as output locations to the task:** **
+* **Submitted information:** The following fields listed below serve as output locations to the task: 
 
     * **Data File Path:** Path of data file (.json or .xml). The data file contains information submitted through the associated form. The path is always relative to the payload. For example, [Payload_Directory]/Workflow/data, where data is a file.
     * **Attachment Path:** Path to save the form attachments provide in a task.
@@ -215,7 +215,7 @@ The Sign Document step enables you to use Adobe Sign to sign documents. The Sign
 * **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md). 
 
 * **Document to be Signed:** You can choose a document from a location relative to the payload, use payload as the document, or specify an absolute path of the document.
-* **Days Until Deadline:** A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field.** **The number of days are counted after the documented is assigned to a user for signing.
+* **Days Until Deadline:** A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field. The number of days are counted after the documented is assigned to a user for signing.
 
 * **Reminder Email Frequency:** You can send a reminder email at daily or weekly interval. The week is counted from the day the documented is assigned to a user for signing.
 * **Signature Process:** You can choose to sign a document in a sequential or a parallel order. In sequential order, one signer receives the document at a time for signing. After the first signer completes signing the document, then the document is sent to the second signer, and so on. In parallel order, multiple signers can sign a document at a time.  

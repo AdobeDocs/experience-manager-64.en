@@ -68,22 +68,20 @@ Click to enlarge
 
 The sidebar comprises the following browsers:
 
-* **Content** **browser** 
+* **Content browser** 
   In the content browser, you can see
 
-    * **Form Objects  
-      **Shows object hierarchy of the Form. Author can navigate to specific form component by tapping that element in Form Object Tree. Author can search objects and rearrange them from this tree.** 
-      **
-    
-    * **Data Model Objects  
-      **Lets you see the form model hierarchy.  
+    * **Form Objects**  
+      Shows object hierarchy of the Form. Author can navigate to specific form component by tapping that element in Form Object Tree. Author can search objects and rearrange them from this tree.
+    * **Data Model Objects**  
+      Lets you see the form model hierarchy.  
       It allows you to drag and drop form-model elements on the adaptive form. The added elements automatically get converted into form components while retaining their original properties. You can see data model objects when your form uses XML schema, JSON schema, or XDP template.
 
 * **Properties browser  
   **Lets you edit the properties of a component. Properties change according to a component. To see properties of the adaptive form container:  
   Select a component, then tap ![](assets/field-level.png) &gt; **Adaptive Form Container**, and then tap ![](assets/cmppr.png).
 
-* **Assets** **browser** 
+* **Assets browser** 
   Segregates different types content such as images, documents, pages, movies, and so on.
 
 * **Components browser** 
@@ -369,7 +367,7 @@ The adaptive form page is the actual form. It is like any other WCM page modeled
 
 The content structure typically contains the following primary components:
 
-* **guideContainer**: The root of an adaptive form, which is marked as **Start of adaptive form **in the adaptive form UI. In** **this component, you can specify:
+* **guideContainer**: The root of an adaptive form, which is marked as **Start of adaptive form** in the adaptive form UI. In this component, you can specify:
 
     * *Mobile Layout of the adaptive form*: Defines the appearance of the form on mobile devices.
     * *Thank You page*: Defines the page where the user is redirected after submitting the form.

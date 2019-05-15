@@ -44,7 +44,7 @@ Perform the following steps to create a watched folder:
 
         * For Workflow, specify the workflow model to be executed. For example, /etc/workflow/models/&lt;workflow_name&gt;/jcr:content/model
         * For Script, specify JCR path of the script to be executed. For example, /etc/watchfolder/test/testScript.ecma
-        * For Service, specify the filter used for locating an OSGi service. The service is registered as an implementation of com.adobe.aemfd.watchfolder.service.api.ContentProcessor Interface.** **For example, the following code is a custom implementation of the ContentProcessor interface with a custom (foo=bar) property.
+        * For Service, specify the filter used for locating an OSGi service. The service is registered as an implementation of com.adobe.aemfd.watchfolder.service.api.ContentProcessor Interface. For example, the following code is a custom implementation of the ContentProcessor interface with a custom (foo=bar) property.
 
    >[!NOTE]
    >

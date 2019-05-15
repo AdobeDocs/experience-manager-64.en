@@ -284,7 +284,7 @@ The [Synchronize action is also available from the Live Copy Overview](/help/sit
 
 1. Open the [Live Copy Overview](/help/sites-administering/msm-livecopy-overview.md#using-the-live-copy-overview) and select a Live Copy Page.
 1. Select **Synchronize** from the toolbar.
-1. Confirm the **Rollout** action in the** **dialog after specifying whether you want to include:
+1. Confirm the **Rollout** action in the dialog after specifying whether you want to include:
 
     * **Page and Sub Pages**
     * **Page Only**

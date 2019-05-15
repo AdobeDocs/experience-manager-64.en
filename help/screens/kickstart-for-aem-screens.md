@@ -244,7 +244,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    ![](assets/screen_shot_2019-03-04at94738am.png)
 
-   Enter **Title** and click **Register **and** **the device will be registered.
+   Enter **Title** and click **Register**and the device will be registered.
 
    Click **Finish** to complete the device registration step.
 

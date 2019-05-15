@@ -74,7 +74,7 @@ Perform the following steps to create an adaptive form for Adobe Sign:
 
 1. In the **[!UICONTROL Form Model]** tab, select one of the following options:
 
-    * Select the** **[!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. If you use a form template based adaptive form, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the adaptive form.  
+    * Select the [!UICONTROL Associate form template as the Document of Record template]** option and select a Document of Record template. If you use a form template based adaptive form, then the documents sent for signing display only those fields which are based on the associated form template. It does not display all the fields of the adaptive form.  
     
     * Select the **[!UICONTROL Generate Document of Record]** option. If you use a Document of Record option enabled adaptive form, then the document sent for signing displays all the fields of the adaptive form.
 
@@ -276,7 +276,7 @@ Perform the following steps to configure the Signature Step component:
 
    >[!NOTE]
    >
-   >* When you drag-and-drop the **[!UICONTROL Signature Step]** component to the form, the **[!UICONTROL  **Is the signer and the person filling the form same?**]** **option is automatically set to **Yes**. It is required to keep the form working.
+   >* When you drag-and-drop the **[!UICONTROL Signature Step]** component to the form, the **[!UICONTROL Is the signer and the person filling the form same?]** option is automatically set to **Yes**. It is required to keep the form working.
    >* Adobe Sign enabled adaptive forms do not support using Submit button on the section or panel using the Signature Step component. You can add a summary step after the Signature step for the manual submission or an automatic submission is triggered after the interval set using the [Adobe Sign Configuration Service](/help/forms/using/adobe-sign-integration-adaptive-forms.md#configure-adobe-sign-scheduler-to-sync-the-signing-status).
 
 ### Configure the thank you page or summary step component {#configure-the-thank-you-page-or-summary-step-component}

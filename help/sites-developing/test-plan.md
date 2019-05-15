@@ -15,5 +15,28 @@ discoiquuid: 3a8302e8-bc61-402c-a9f2-5db3dfa6dd6d
 
 The individual test cases will then be amalgamated into your Test Plan, which will also define:
 
-**Priorities**
-**Iterations** **Tester** **Summary or Overview** 
+## Priorities
+
+Certain tests will have more significance than others, so it is advisable to indicate their priority.
+
+For example, certain tests can affect a Go / No-Go decision, and therefore must be confirmed with every interim release tested.
+
+## Iterations
+
+If your project uses any form of development iteration (involving multiple releases being made available) then you may need or want an indication of the results for each iteration. This can be used to indicate:
+
+* which tests will be covered in which iteration.
+* the results seen for tests repeated in various iterations. 
+* that priority tests and tests on basic features are repeated at regular intervals.
+
+## Tester 
+
+At some point you can assign either the appropriate test team, or a specific test person (possibly dependent on availability and/or experience).
+
+## Summary or Overview** 
+
+For reporting purposes you will want to provide an overview of the testing results:
+
+* Percentage of tests already covered.
+* Percentage success/failure.
+* Specific figures related to the priority tests.

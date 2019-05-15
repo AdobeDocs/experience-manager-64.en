@@ -99,7 +99,7 @@ Once the application has been created, locate the **App ID** and **App Secret** 
 The [Adobe Granite OAuth Application and Provider](https://chl-author.corp.adobe.com/content/help/en/experience-manager/6-4/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance, instantiated by creating a cloud service configuration, identifies the Facebook application and the member group(s) to which the new users are added.
 
 1. On the AEM author instance, sign in with administrator privileges.
-1. From global navigation, select **Tools, Cloud Services,** **Facebook Social login configuration.**
+1. From global navigation, select **Tools, Cloud Services, Facebook Social login configuration.**
 1. Select the configuration **context path**.  
    **Context path** should be the same as the cloud configuration path that you have selected while creating/editing a community site.
 1. Check if your context path is enabled to create cloud services below it.

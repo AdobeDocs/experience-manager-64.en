@@ -30,7 +30,7 @@ When you create a brand using the Offers console, it also appears in the [Activi
 
    ![](assets/chlimage_1-306.png)
 
-1. Click or tap **Create** and then **Create** **Brand**.
+1. Click or tap **Create** and then **Create Brand**.
 1. Select the brand template and click or tap **Next**.
 1. Type a title for the brand as you want it to appear in the Offers and Activities consoles. Optionally, type or select one or more tags to associate with the brand.
 1. Click or tap **Create**.

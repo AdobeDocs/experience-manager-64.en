@@ -79,7 +79,7 @@ If you have specified a form data model while creating a text, the properties in
 
 ![](assets/insertfdmelementtext.png)
 
-* To insert an FDM property into text, place the cursor where you want to insert the property, then select the **`[A]`** property in the left pane by tapping on it, and tap **`[B]`** **[!UICONTROL Add Selected]**. You can also just double-tap the property to insert it at the **`[C]`** cursor position. Form data model properties are highlighted in a brownish background color. 
+* To insert an FDM property into text, place the cursor where you want to insert the property, then select the **`[A]`** property in the left pane by tapping on it, and tap **`[B]`** [!UICONTROL Add Selected]. You can also just double-tap the property to insert it at the **`[C]`** cursor position. Form data model properties are highlighted in a brownish background color. 
 
 * To allow the agents to edit an FDM property's value in the agent UI while [Prepare and send Interactive Communication](/help/forms/using/prepare-send-interactive-communication.md) using the Agent UI, tap the **`[D]`** lock icon for that property and ensure it is in an unlocked state. The default state of the property is locked and an agent cannot edit the property in the Agent UI. 
 

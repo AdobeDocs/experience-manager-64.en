@@ -34,9 +34,9 @@ HTML Workspace provides some adaptive form-specific controls in addition to cont
 
 1. To **attach **files use Task attachments, as was the case in Mobile Forms. Any File Attachment type button of adaptive form is hidden.  
 
-1. To save** **an adaptive form, click **Save**, as was the case in Mobile Forms. Any Save type button of adaptive form is hidden.  
+1. To save an adaptive form, click **Save**, as was the case in Mobile Forms. Any Save type button of adaptive form is hidden.  
 
-1. To submit** **an adaptive form, use the **Submit** button or route actions available, as was the case in Mobile Forms. Any Submit type button of adaptive form is hidden.  
+1. To submit an adaptive form, use the **Submit** button or route actions available, as was the case in Mobile Forms. Any Submit type button of adaptive form is hidden.  
 
 1. **Adaptive Form Global toolbar visibility**: If process designer hides the global/top-level toolbar, the toolbar, and the buttons don't appear on adaptive forms.  
 

@@ -170,7 +170,7 @@ The following steps allow you to create a sample project for Screens and publish
    You will need to validate the code by verifying the code from the web browser.
 
     1. Click Validate to navigate to **Device Registration** screen.
-    1. Enter **Title** and click **Register **and** **the device will be registered as shown in the figure below:
+    1. Enter **Title** and click **Register** and the device will be registered as shown in the figure below:
 
    ![](assets/chlimage_1-136.png)
 

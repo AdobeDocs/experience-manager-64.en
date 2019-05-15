@@ -131,7 +131,7 @@ In this tutorial, you learn how to manage your assets by creating folders and up
 
    ![](assets/screen_shot_2018-01-24at143735.png)
 
-   In **Column View** and **List** **View**, you can tap or click the asset to select it and a toolbar appears where you can select additional actions.
+   In **Column View** and **List View**, you can tap or click the asset to select it and a toolbar appears where you can select additional actions.
 
    ![](assets/screen_shot_2018-01-24at143914.png)
 
@@ -139,7 +139,7 @@ In this tutorial, you learn how to manage your assets by creating folders and up
 
    ![](assets/screen_shot_2018-01-24at144653.png)
 
-   Notice how the selected image changes color and has a check mark on it. When an assets is selected the toolbar expands with additional options. Click the** **three dots menu to see more action items.
+   Notice how the selected image changes color and has a check mark on it. When an assets is selected the toolbar expands with additional options. Click the three dots menu to see more action items.
 
    ![](assets/screen_shot_2018-01-24at144748.png)
 
@@ -164,7 +164,7 @@ For more information, see the following topics:
 
 In this tutorial, you learn how to work with individual assets, including using viewer presets, zooming in, and viewing and editing metadata properties, and viewing the timeline.
 
-1. Navigate to **Assets** &gt; **Files** &gt; **My New Folder**, which you created in [Managing Assets](#managing-assets),** **and select an asset.
+1. Navigate to **Assets** &gt; **Files** &gt; **My New Folder**, which you created in [Managing Assets](#managing-assets), and select an asset.
 
    Open the asset. Open the drop-down menu on the left to select an overview, timeline, renditions, and viewers. All the editing toolbars for the image above and below the image. Here is where you preview the image.
 

@@ -198,7 +198,7 @@ In particular, the following types of authentication are available:
 The AEM JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0. supports Claims-based authentication (which is suggested by Microsoft), which operates in the following modes:
 
 * **Basic/NTLM authentication**: The connector first tries to connect using basic authentication. If not available, it switches to NTLM-based authentication.
-* **Forms-based authentication**:** **Sharepoint validates users based on credentials that users type in a login form (typically a web page). The system issues a token for authenticated requests that contains a key for reestablishing the identity for subsequent requests.
+* **Forms-based authentication**: Sharepoint validates users based on credentials that users type in a login form (typically a web page). The system issues a token for authenticated requests that contains a key for reestablishing the identity for subsequent requests.
 
 **Configuring Forms Based Authentication**
 

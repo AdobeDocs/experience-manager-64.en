@@ -92,7 +92,7 @@ The **Checkbox List Facet, Dropdown Facet,** and** Link List Facet** components 
 
 * **Facet Name**: The name of the facet that is used for filters.
 
-The **Checkbox List Facet** component displays a list of facets with an accompanying checkbox. Use a **Checkbox List Facet** so that users can view a subset of results that include items from multiple facets. For example, the** **Brand facet is appropriate because several brands supply the same type of product.
+The **Checkbox List Facet** component displays a list of facets with an accompanying checkbox. Use a **Checkbox List Facet** so that users can view a subset of results that include items from multiple facets. For example, the Brand facet is appropriate because several brands supply the same type of product.
 
 A check box appears for each facet that is associated with a search result. When a user selects a check box, the page reloads with an updated result set. All checkboxes remain on the page so that customers can add or remove facets to the filter at any time:
 

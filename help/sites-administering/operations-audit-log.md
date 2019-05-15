@@ -27,7 +27,7 @@ There are three types of Audit Log Purge options:
 1. [DAM Audit Log Purging](/help/sites-administering/operations-audit-log.md#configure-dam-audit-log-purging)
 1. [Replication Audit Log Puring](/help/sites-administering/operations-audit-log.md#configure-replication-audit-log-purging)
 
-Each can be configured by creating rules in the AEM Web Console. After they have been configured, you can trigger them by going to **Tools - Operations - Maintenance** **-** **Weekly Maintenance Window **and running the **AuditLog Maintenance Task**.
+Each can be configured by creating rules in the AEM Web Console. After they have been configured, you can trigger them by going to **Tools - Operations - Maintenance - Weekly Maintenance Window** and running the **AuditLog Maintenance Task**.
 
 ## Configure Page Audit Log Purging {#configure-page-audit-log-purging}
 
@@ -35,7 +35,7 @@ Follow these steps in order to configure Audit Log Purging:
 
 1. Go to the Web Console Admin by pointing your browser to `http://localhost:4502/system/console/configMgr/`  
 
-1. Search for an item called **Pages** **audit Log Purge rule** and click it.
+1. Search for an item called **Pages audit Log Purge rule** and click it.
 
    ![](assets/chlimage_1-365.png)
 

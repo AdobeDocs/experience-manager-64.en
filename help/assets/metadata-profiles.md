@@ -28,7 +28,7 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 
    Edit the following properties for the **Description** component:
 
-    * **Field Label**:** **The display name of the metadata property. It is only for the user reference.
+    * **Field Label**: The display name of the metadata property. It is only for the user reference.
     
     * **Map to Property**: The value of this property provides the relative path/name to the asset node where it is saved in the repository. The value should always start with "**./**" because it indicates that the path is under the asset's node.
 
@@ -133,7 +133,7 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
 
    ![](assets/chlimage_1-488.png)
 
-1. Click **Delete** **Metadata Profiles **in the toolbar.
+1. Click **Delete Metadata Profiles** in the toolbar.
 1. In the dialog, click **Delete** to confirm the delete operation. The metadata profile is deleted from the list.
 
 ## Applying a metadata profile to folders {#applying-a-metadata-profile-to-folders}

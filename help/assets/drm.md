@@ -90,7 +90,7 @@ In addition, if a glitch or error prevents the scheduler from detecting expired 
 To enable the Assets console to display the referencing compound assets along with the expired subassets, configure an **Adobe CQ DAM Expiry Notification** workflow in AEM Configuration Manager.
 
 1. Open AEM Configuration Manager.
-1. Choose **Adobe CQ DAM Expiry Notification**. By default, **Time based Scheduler** is selected, which schedules a job to check at a specific time whether an asset has expired subassets.** **After the job completes, assets that have expired subassets and referenced assets are displayed as expired in search results.
+1. Choose **Adobe CQ DAM Expiry Notification**. By default, **Time based Scheduler** is selected, which schedules a job to check at a specific time whether an asset has expired subassets. After the job completes, assets that have expired subassets and referenced assets are displayed as expired in search results.
 
    ![](assets/chlimage_1-154.png)
 

@@ -355,10 +355,10 @@ You can configure the following:
 
 #### Constraints {#constraints}
 
-* **Required  
-  **Select this check box to make this component required; that is, users must enter a value.
-* **Required Message  
-  **Optionally, add a message stating that the field is required.
+* **Required**  
+  Select this check box to make this component required; that is, users must enter a value.
+* **Required Message**  
+  Optionally, add a message stating that the field is required.
 
 ![](assets/chlimage_1-120.png) 
 
@@ -385,11 +385,11 @@ Use the date field to allow recipients to a date; for example you may want the r
 
 In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
-* **Constraints - Constraint **drop-down  
-  You can select - **None** or **Date - **to add the constraint of a date or no constraint. If you select date, the answer users enter into the field must be in a date format. 
+* **Constraints - Constraint** drop-down  
+  You can select - **None** or **Date**- to add the constraint of a date or no constraint. If you select date, the answer users enter into the field must be in a date format. 
 
-* **Constraint Message  
-  **In addition, you can add a constraint message so users know how to properly format their answers.
+* **Constraint Message**  
+  In addition, you can add a constraint message so users know how to properly format their answers.
 * **Styling - Width** 
   Adjust the width of the field by clicking or tapping the **+** and **-** icons or entering a number.
 
@@ -405,8 +405,8 @@ Each form displaying and modifying Adobe Campaign profile data **must** include 
 
 You can configure the following in the Encrypted Primary Key (Campaign) component:
 
-* **Title and Text - Element Name  
-  **Defaults to encryptedPK. You only need to change the element name when it conflicts with the name of another element on the form. No two form fields can have the same element name.
+* **Title and Text - Element Name**  
+  Defaults to encryptedPK. You only need to change the element name when it conflicts with the name of another element on the form. No two form fields can have the same element name.
 * **Adobe Campaign - URL parameter** 
   Add the URL parameter for the EPK. For example, you can use the value **epk**.
 
@@ -428,8 +428,8 @@ The Hidden Reconciliation Key (Campaign) component allows you to add hidden fiel
 
 You can configure the following in the Hidden Reconciliation Key (Campaign) component:
 
-* **Title and Text - Element Name  
-  **Defaults to reconcilKey. You only need to change the element name when it conflicts with the name of another element on the form. No two form fields can have the same element name.
+* **Title and Text - Element Name**  
+  Defaults to reconcilKey. You only need to change the element name when it conflicts with the name of another element on the form. No two form fields can have the same element name.
 * **Adobe Campaign - Mapping** 
   Map to an Adobe Campaign personalization field.
 
@@ -443,11 +443,11 @@ Use the numeric field to allow recipients to enter numbers, for example their ag
 
 In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
-* **Constraints - Constraint **drop-down  
-  You can select - **None** or **Numeric - **to add the constraint of either a number or no constraint. If you select number, the answer users enter into the field must be numeric. 
+* **Constraints - Constraint** drop-down  
+  You can select - **None** or **Numeric** - to add the constraint of either a number or no constraint. If you select number, the answer users enter into the field must be numeric. 
 
-* **Constraint Message  
-  **In addition, you can add a constraint message so users know how to properly format their answers.
+* **Constraint Message**  
+  In addition, you can add a constraint message so users know how to properly format their answers.
 * **Styling - Width** 
   Adjust the width of the field by clicking or tapping the **+** and **-** icons or entering a number.
 
@@ -469,7 +469,7 @@ The following example shows an Option Field (Campaign) component being displayed
 
 ### Subscriptions Checklist (Campaign) {#subscriptions-checklist-campaign}
 
-Use the **Subscriptions Checklist (Campaign) **component to modify the subscriptions associated with an Adobe Campaign profile.
+Use the **Subscriptions Checklist (Campaign)** component to modify the subscriptions associated with an Adobe Campaign profile.
 
 When added to a form, this component displays all available subscriptions as check boxes and lets the user select the desired subscriptions. When users submit the form, this component subscribes the user to or unsubscribes the user from the selected services depending on the form action type (**Adobe Campaign: Subscribe to Services** or **Adobe Campaign: Unsubscribe from Services**).
 
@@ -489,11 +489,11 @@ The Text Field (Campaign) component that lets you enter string type data, such a
 
 In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
-* **Constraints - Constraint **drop-down  
-  You can select - **None,** **Email, **or** Name (no umlauts) - **to add the constraint of either an email address, name, or no constraint. If you select email, the answer users enter into the field must be an email address. If you select name, it must be a name (umlauts are not allowed). 
+* **Constraints - Constraint** drop-down  
+  You can select - **None, Email,** or **Name (no umlauts)**- to add the constraint of either an email address, name, or no constraint. If you select email, the answer users enter into the field must be an email address. If you select name, it must be a name (umlauts are not allowed). 
 
-* **Constraint Message  
-  **In addition, you can add a constraint message so users know how to properly format their answers.
+* **Constraint Message**  
+  In addition, you can add a constraint message so users know how to properly format their answers.
 * **Styling - Width** 
   Adjust the width of the field by clicking or tapping the **+** and **-** icons or entering a number.
 

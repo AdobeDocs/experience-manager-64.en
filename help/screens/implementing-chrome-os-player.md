@@ -74,7 +74,7 @@ Follow the steps below to configure various options of the player:
 1. Click the application **AEM Screens Player**.
 1. Click **Kiosk settings** and select select your org (*if using a test environment*).
 
-1. Click on **upload configuration file **and upload the configuration policy (*Json file*).
+1. Click on **upload configuration file** and upload the configuration policy (*Json file*).
 
 1. Click **Save**. You must reboot the device to sync the policy.
 
@@ -122,5 +122,5 @@ The following table summarizes the policies with their functions.
 
 >[!NOTE]
 >
->Policy configurations are strictly enforced and are not manually overridden at the player's admin UI. To allow manual player configuration for a particular policy, do not specify the policy in the ***policy*** ***configuration, ***for example, if you want to allow manual configuration for reboot schedule, do not specify the key ***rebootSchedule*** in the policy configuration.
+>Policy configurations are strictly enforced and are not manually overridden at the player's admin UI. To allow manual player configuration for a particular policy, do not specify the policy in the ***policy  configuration,*** for example, if you want to allow manual configuration for reboot schedule, do not specify the key ***rebootSchedule*** in the policy configuration.
 

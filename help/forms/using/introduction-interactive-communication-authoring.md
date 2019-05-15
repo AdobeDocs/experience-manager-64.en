@@ -33,27 +33,24 @@ When you [create a new or edit an existing Interactive Communication](/help/form
 
 ## Sidebar {#sidebar}
 
-[ ![Sidebar](assets/sidebar-comps.png)
+![Sidebar](assets/sidebar-comps.png)
 
-Click to enlarge
-
-](assets/sidebar-comps-1.png) **A.** Channel browser **B.** Content browser **C.** Properties browser **D.** Asset browser **E.** Components browser **F.** Data Sources browser - Data Model **G.** Data Sources browser - Master Content
+[Click to enlarge](assets/sidebar-comps-1.png) 
+**A.** Channel browser **B.** Content browser **C.** Properties browser **D.** Asset browser **E.** Components browser **F.** Data Sources browser - Data Model **G.** Data Sources browser - Master Content
 
 The sidebar includes the following:
 
-* **Channel browser  
-  **
+* **Channel browser**
+  The Channel browser helps you switch between the print and web channels of the Interactive Communication. Based on the channel you have selected in the channel browser, the browsers, such as Content and Components display the options.
 
-The Channel browser helps you switch between the print and web channels of the Interactive Communication. Based on the channel you have selected in the channel browser, the browsers, such as Content and Components display the options.
-
-* **Content** **browser** 
+* **Content browser** 
   In the content browser, you can see object hierarchy of the document for the selected channel. Author can navigate to specific component by tapping that element in Document Object Tree. Author can search objects in the web channel and rearrange them from this tree.
 
 * **Properties browser  
   **Lets you edit the properties of a component. Properties change according to the component. For example, to see properties of the document container:  
   Select a component, then tap ![](assets/field-level.png) &gt; **Document Container**, and then tap ![](assets/cmppr.png).
 
-* **Assets** **browser** 
+* **Assets browser** 
   Segregates different types of content such as layout fragments, images, documents, pages, videos. Author can drag-and-drop assets into the Interactive Communication. 
 
 * **Components browser** 

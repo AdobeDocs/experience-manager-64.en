@@ -303,7 +303,7 @@ To set up authentication:
 
 1. On the **Edit User Settings For dynamic-media-replication** page, expand the **Add Private Key from KeyStore file **area and add the following (see the images that follow):
 
-    * In the** New Alias** field, enter** **the name of an alias that you will later use in the replication configuration; for example, **replication**.
+    * In the **New Alias** field, enter the name of an alias that you will later use in the replication configuration; for example, **replication**.
     
     * Tap **KeyStore File**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **Open**.  
     
@@ -334,7 +334,7 @@ To configure the replication agent:
 
     * **Key Store Alias** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#setting-up-authentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#setting-up-authentication).)
 
-    * **Key Store Password** - This is the KeyStore password that was created when you clicked/tapped **Create KeyStore**. Adobe does not provide this password. See** **step 5 of [Setting up Authentication](#setting-up-authentication).
+    * **Key Store Password** - This is the KeyStore password that was created when you clicked/tapped **Create KeyStore**. Adobe does not provide this password. See step 5 of [Setting up Authentication](#setting-up-authentication).
 
    The following image shows the replication agent with sample data:
 
@@ -540,7 +540,7 @@ To configure dynamic media cloud services:
 1. In the **Create Dynamic Media Configuration** dialog box, in the Title field, type a title.
 1. If you are configuring Dynamic Media for video,
 
-    * In the **Registration** **ID** field, type your registration ID.
+    * In the **Registration ID** field, type your registration ID.
     
     * In the **Video Service URL** field, enter the video service URL for the Dynamic Media Gateway.
 
@@ -589,8 +589,8 @@ Make sure that the Video Analytics preset package from the first Author node is 
 
 1. Do any one of the following to verify and, if necessary, debug the package installation:
 
-    * **Check the Video Analytics preset by way of the JCR  
-      **To check the Video Analytics preset by way of the JCR, you must have access to CRXDE Lite.  
+    * **Check the Video Analytics preset by way of the JCR** 
+      To check the Video Analytics preset by way of the JCR, you must have access to CRXDE Lite.  
   
       AEM - In CRXDE Lite, navigate to /conf/global/settings/  
       dam/dm/presets/analytics/jcr:content/userdata  
@@ -599,8 +599,8 @@ Make sure that the Video Analytics preset package from the first Author node is 
   
       If you do not have access to CRXDE Lite on the Author node, you can check the preset through the Publish server.
 
-    * **Check the Video Analytics preset through the Image Server  
-      **You can validate the Video Analytics preset directly by making an Image Server req=userdata request.  
+    * **Check the Video Analytics preset through the Image Server**  
+      You can validate the Video Analytics preset directly by making an Image Server req=userdata request.  
       For example, to see the Analytics preset on the Author node, you can make the following request:  
   
       `http://localhost:4502/is/image/conf/global/settings/dam/dm/presets/analytics?req=userdata`  

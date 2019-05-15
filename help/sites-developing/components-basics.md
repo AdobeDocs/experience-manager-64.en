@@ -854,7 +854,7 @@ The following configuration is taken from the Download component. It enables any
 
 ### cq:actionConfigs (Classic UI Only) {#cq-actionconfigs-classic-ui-only}
 
-The `cq:actionConfigs` node (node type `nt:unstructured`) defines a list of new actions that are appended to the list defined by the `cq:actions` property. Each child node of `cq:actionConfigs`** **defines a new action by defining a widget.
+The `cq:actionConfigs` node (node type `nt:unstructured`) defines a list of new actions that are appended to the list defined by the `cq:actions` property. Each child node of `cq:actionConfigs` defines a new action by defining a widget.
 
 The following sample configuration defines a new button (with a separator for the classic UI):
 
