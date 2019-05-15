@@ -228,7 +228,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 
 * AEM 6.4 Forms Client SDK does not contain adobesign-recipent package. NPR-27735: Hotfix for CQ-4259372
 
-#### Adaptive Forms {#adaptive-forms}
+#### Adaptive Forms {#adaptive-forms-one}
 
 * When an adaptive form is created with a blank template, customers are not able to child panels to the root panel of the form.. NPR-28758: Hotfix for CQ-4264157
 * When the value of the year field of date component is 9999, the validation script fails. NPR-28580: Hotfix for  CQ-4262620
@@ -898,7 +898,7 @@ The key highlights for AEM 6.4.2.0 forms are:
 *   \[Form Service\] OSGI lacks support for XFAF. NPR-25181, Hotfix for CQ-4251313
 *   The characters in the heading of the assembled PDF file are coming to be garbled. NPR-25113: Hotfix for CQ-4244682
 
-#### Adaptive Forms {#adaptive-forms}
+#### Adaptive Forms {#adaptive-forms-two}
 
 *   Submit Action as Send Mail throws an exception with CC/BC fields blank. NPR-25019: Hotfix for CQ-4243039
 *   Unable to use the OOTB AEM Form component due to inefficient query. NPR-25065: Hotfix for CQ-4247256
