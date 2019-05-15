@@ -16,6 +16,7 @@ discoiquuid: 3a8302e8-bc61-402c-a9f2-5db3dfa6dd6d
 The individual test cases will then be amalgamated into your Test Plan, which will also define:
 
 ## Priorities
+
 Certain tests will have more significance than others, so it is advisable to indicate their priority.
 
 For example, certain tests can affect a Go / No-Go decision, and therefore must be confirmed with every interim release tested.
