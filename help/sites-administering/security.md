@@ -60,7 +60,7 @@ The following tables list each item together with:
   <tr> 
    <td><p>admin</p> <p>Default password: admin</p> </td> 
    <td>User</td> 
-   <td><p>System administration account and member of the administrator group, with full access rights.</p> <p>This account is used for the connection between AEM WCM and CRX.</p> <p>If you accidentally delete this account, it will be re-created upon repository restart (in the default setup).</p> <p>The admin account is a requirement of the AEM platform. As a consequence, this account cannot be deleted.</p> </td> 
+   <td><p>System administration account with full access rights.</p> <p>This account is used for the connection between AEM WCM and CRX.</p> <p>If you accidentally delete this account, it will be re-created upon repository restart (in the default setup).</p> <p>The admin account is a requirement of the AEM platform. As a consequence, this account cannot be deleted.</p> </td> 
    <td><p>Adobe strongly recommends that the password for this user account be changed from the default.</p> <p>Preferably upon installation, though it can be done afterwards.</p> <p>Note: This account is not to be confused with the admin account of the CQ Servlet Engine.</p> </td> 
   </tr> 
   <tr> 
