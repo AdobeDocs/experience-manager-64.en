@@ -71,7 +71,7 @@ Navigate to the OSGi console `/system/console/bundles` and look to see if any bu
 
 ### Verify Oak Version {#verify-oak-version}
 
-Following the upgrade you should see that Oak version has been updated to **1.6.1**. To verify the Oak version navigate to the OSGi console and look at the version associated with Oak bundles: Oak Core, Oak Commons, Oak Segment Tar.
+Following the upgrade you should see that Oak version has been updated to **1.8.2**. To verify the Oak version navigate to the OSGi console and look at the version associated with Oak bundles: Oak Core, Oak Commons, Oak Segment Tar.
 
 ### Inspect PreUpgradeBackup folder {#inspect-preupgradebackup-folder}
 
