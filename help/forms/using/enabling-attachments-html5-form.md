@@ -22,7 +22,7 @@ You can upload, preview, and submit attachments with HTML5 forms. By default, th
     * **multiSelect **-&gt; true or false (true by default)
     * **fileSizeLimit **-&gt; value_in_mb (say 5) (2 MBs by default)
     * **buttonText **-&gt; Button text for pop-up window ("Attach" by default) 
-    * **accept **-&gt; file types to accept ("audio/&#42;, video/&#42;, image/&#42;, text/&#42;, .pdf" by default)
+    * **accept **-&gt; file types to accept ("audio/&ast;, video/&ast;, image/&ast;, text/&ast;, .pdf" by default)
 
    >[!NOTE]
    >

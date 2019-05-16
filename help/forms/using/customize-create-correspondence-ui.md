@@ -102,7 +102,7 @@ Use the following steps to create the required folder structure in the /apps bra
 
 Upload your custom logo file to CRX. Standard HTML rules govern the rendering of the logo. The image file formats supported are according to the browser you are using to access AEM Forms. All the browsers support JPEG, GIF, and PNG. For more information, see the browser-specific documentation on the supported image formats.
 
-* The default dimensions of the logo image are 48 px &#42; 48 px. Ensure that your image is similar to this size or bigger than 48 px &#42; 48 px.
+* The default dimensions of the logo image are 48 px &ast; 48 px. Ensure that your image is similar to this size or bigger than 48 px &ast; 48 px.
 * If the height of your logo image is more than 50 px, Create Correspondence user interface scales down the image to a maximum height of 50 px as this is the height of the header. While scaling the image down, Create Correspondence user interface maintains the aspect ratio of your image. 
 * The Create Correspondence User Interface does not scale up your image if it is small, so ensure you use a logo image at least 48 px in height and sufficient width for clarity.
 

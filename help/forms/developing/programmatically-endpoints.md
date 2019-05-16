@@ -322,7 +322,7 @@ The following list specifies configuration values that are set when programmatic
 * **userName**: The user name used when invoking a target service from the Watched Folder. This value is mandatory. The default value is SuperAdmin.
 * **domainName**: The user’s domain. This value is mandatory. The default value is DefaultDom. 
 * **batchSize**: The number of files or folders to be picked up per scan. Use this value to prevent an overload on the system; scanning too many files at one time can result in a crash. The default value is 2.
-* **waitTime**: The time, in milliseconds, to wait before scanning a folder or file after creation. For example, if wait time is 36,000,000 milliseconds (one hour) and the file was created one minute ago, this file is picked up after 59 or more minutes have passed. This attribute is useful to ensure that a file or folder is completely copied to the input folder. For example, if you have a large file to process and the file takes ten minutes to download, set the wait time to 10&#42;60 &#42;1000 milliseconds. This setting prevents the watched folder from scanning the file if it has not been waiting for ten minutes. The default value is 0.
+* **waitTime**: The time, in milliseconds, to wait before scanning a folder or file after creation. For example, if wait time is 36,000,000 milliseconds (one hour) and the file was created one minute ago, this file is picked up after 59 or more minutes have passed. This attribute is useful to ensure that a file or folder is completely copied to the input folder. For example, if you have a large file to process and the file takes ten minutes to download, set the wait time to 10&ast;60 &ast;1000 milliseconds. This setting prevents the watched folder from scanning the file if it has not been waiting for ten minutes. The default value is 0.
 * **excludeFilePattern**: The pattern that a watched folder uses to determine which files and folders to scan and pick up. Any file or folder that has this pattern will not be scanned for processing. This setting is useful when the input is a folder that contains multiple files. The contents of the folder can be copied into a folder that has a name that will be picked up by the watched folder. This step prevents the watched folder from picking up a folder for processing before the folder is completely copied into the input folder. For example, if the excludeFilePattern value is `data*`, all files and folders that match `data*` are not picked up. This includes files and folders named `data1`, `data2`, and so on. Additionally, the pattern can be supplemented with wildcard patterns to specify file patterns. The watched folder modifies the regular expression to support wildcard patterns such as `*.*` and `*.pdf`. These wildcard patterns are not supported by regular expressions. 
 * **includeFilePattern**: The pattern that the watched folder uses to determine which folders and files to scan and pick up. For example, if this value is `*`, all files and folders that match `input*` are picked up. This includes files and folders named `input1`, `input2`, and so on. The default value is `*`. This value indicates all files and folders. Additionally, the pattern can be supplemented with wildcard patterns to specify file patterns. The watched folder modifies the regular expression to support wildcard patterns such as `*.*` and `*.pdf`. These wildcard patterns are not supported by regular expressions. This value is a mandatory.
 * **resultFolderName**: The folder where the saved results are stored. This location can be an absolute or a relative directory path. If the results do not appear in this folder, check the failure folder. Read-only files are not processed and will be saved in the failure folder. The default value is `result/%Y/%M/%D/`. This is the results folder inside the watched folder.
@@ -420,7 +420,7 @@ Add a Watched Folder endpoint by using the AEM Forms Java API:
     * A string value that specifies the name of the input parameter. For example, the name of the input parameter for the EncryptDocument service is `InDoc`. 
     * A string value that specifies the data type of the input parameter. For example, the data type of the `InDoc` input parameter is `com.adobe.idp.Document`. 
     * A string value that specifies the mapping type. For example, you can specify `variable`.
-    * A string value that specifies the mapping type value. For example, you can specify &#42;.pdf as the file pattern.
+    * A string value that specifies the mapping type value. For example, you can specify &ast;.pdf as the file pattern.
 
    >[!NOTE]
    >
@@ -557,7 +557,7 @@ The following configuration values are set when programmatically adding an Email
 * **userName**: The user name used when invoking a target service from email. The default value is `SuperAdmin`. 
 * **domainName**: A mandatory configuration value. The default value is `DefaultDom`. 
 * **domainPattern**: Specifies the domain patterns of incoming email that the provider accepts. For example, if `adobe.com` is used, only email from adobe.com is processed, email from other domains is ignored.
-* **filePattern**: Specifies the incoming file attachment patterns that the provider accepts. This includes files that have specific file name extensions (&#42;.dat, &#42;.xml), files that have specific names (data), and files that have composite expressions in the name and extension (&#42;.[dD][aA][Tt]). The default value is `*`.
+* **filePattern**: Specifies the incoming file attachment patterns that the provider accepts. This includes files that have specific file name extensions (&ast;.dat, &ast;.xml), files that have specific names (data), and files that have composite expressions in the name and extension (&ast;.[dD][aA][Tt]). The default value is `*`.
 * **recipientSuccessfulJob**: An email address to which messages are sent to indicate successful jobs. By default, a successful job message is always sent to the sender. If you type `sender`, email results are sent to the sender. Up to 100 recipients are supported. Specify additional recipients with email addresses, each one separated by a comma. To turn off this option, leave this value blank. In some cases, you may want to trigger a process and do not want an email notification of the result. The default value is `sender`. 
 * **recipientFailedJob**: An email address to which messages are sent to indicate failed jobs. By default, a failed job message is always sent to the sender. If you type `sender`, email results are sent to the sender. Up to 100 recipients are supported. Specify additional recipients with email addresses, each one separated by a comma. To turn off this option, leave this value blank. The default value is `sender`. 
 * **inboxHost**: The inbox host name or IP address for the email provider to scan.
@@ -665,7 +665,7 @@ Add an Email endpoint by using the Java API:
     * A string value that specifies the name of the input parameter. For example, the name of the input parameter for the EncryptDocument service is `InDoc`. 
     * A string value that specifies the data type of the input parameter. For example, the data type of the `InDoc` input parameter is `com.adobe.idp.Document`. 
     * A string value that specifies the mapping type. For example, you can specify `variable`.
-    * A string value that specifies the mapping type value. For example, you can specify &#42;.pdf as the file pattern.
+    * A string value that specifies the mapping type value. For example, you can specify &ast;.pdf as the file pattern.
 
    >[!NOTE]
    >
@@ -792,7 +792,7 @@ To create a Remoting endpoint for a service, specify the following values:
 * **Description**: Specifies the description of the endpoint.
 * **Name**: Specifies the name of the endpoint. 
 * **Service identifier value**: Specifies the service to which the endpoint belongs. For example, to add a Remoting endpoint to the process that is introduced in this section (a process becomes a service when it is activated within Workbench), specify `EncryptDocument`.
-* **Operation name**: Specifies the name of the operation that is invoked by using the endpoint. When creating a Remoting endpoint, specify a wildcard character (&#42;).
+* **Operation name**: Specifies the name of the operation that is invoked by using the endpoint. When creating a Remoting endpoint, specify a wildcard character (&ast;).
 
 **Create a Remoting endpoint**
 
@@ -830,7 +830,7 @@ Add a Remoting endpoint by using the Java API:
     * Specify the description of the endpoint by invoking the `CreateEndpointInfo` object’s `setDescription` method and passing a string value that describes the endpoint.
     * Specify the name of the endpoint by invoking the `CreateEndpointInfo` object’s `setName` method and passing a string value that specifies the name.
     * Specify the service to which the endpoint belongs by invoking the `CreateEndpointInfo` object’s `setServiceId` method and passing a string value that specifies the service name.
-    * Specify the operation that is invoked by the `CreateEndpointInfo` object’s `setOperationName` method and passing a string value that specifies the operation name. For a Remoting endpoint, specify a wildcard character (&#42;).
+    * Specify the operation that is invoked by the `CreateEndpointInfo` object’s `setOperationName` method and passing a string value that specifies the operation name. For a Remoting endpoint, specify a wildcard character (&ast;).
 
 1. Create a Remoting endpoint.
 

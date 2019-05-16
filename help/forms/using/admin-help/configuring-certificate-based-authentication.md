@@ -51,7 +51,7 @@ When you test a certificate, User Management uploads the certificate checks to e
    You can use the following characters in the regex:
 
     * . (any character) 
-    * &#42; (0 or more occurrences)
+    * &ast; (0 or more occurrences)
     * () (specify the group in brackets)
     * \ (used to escape a regex character to a regular character)
     * $n (used to refer to the nth group)
@@ -60,21 +60,21 @@ When you test a certificate, User Management uploads the certificate checks to e
 
     * To extract "Alex Pink" from "Alex Pink (Authentication)"
 
-      **Regex:** (.&#42;) \(Authentication\) 
+      **Regex:** (.&ast;) \(Authentication\) 
     
     * To extract "Alex Pink" from "Alex (Authentication) Pink"
 
-      **Regex:** (.&#42;)\(Authentication\) (.&#42;)
+      **Regex:** (.&ast;)\(Authentication\) (.&ast;)
     
     * To extract "Pink Alex" from "Alex (Authentication) Pink"
 
-      **Regex:** (.&#42;)\(Authentication\) (.&#42;)
+      **Regex:** (.&ast;)\(Authentication\) (.&ast;)
 
       Custom Order: $2 $1 (return second group, concatenated to first group, captured by whitespace character)
     
     * To extract "apink@sampleorg.com" from "smtp:apink@sampleorg.com"
 
-      **Regex:** smtp:(.&#42;)
+      **Regex:** smtp:(.&ast;)
 
    For details on using regular expressions, see [Java tutorial about regular expressions](https://java.sun.com/docs/books/tutorial/essential/regex/). 
 

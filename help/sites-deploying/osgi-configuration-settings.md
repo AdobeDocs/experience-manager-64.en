@@ -110,7 +110,7 @@ Certain settings can affect performance, these should be disabled where possible
 
 **Apache Sling JCR Installer** These parameters probably do not need configuration, but can be useful to know when developing or debugging. For example the installation folder(s) can be useful for checking in/out or creating a package.
 
-* **Installation folders name regexp** and **Max hierarchy depth of install folders** - specify where, and to which depth, repository folders are searched for resources to be installed. When a wildcard is used (as in .&#42;/install) all appropriate matches will be searched, for example, `/libs/sling/install` and `/libs/cq/core/install`.  
+* **Installation folders name regexp** and **Max hierarchy depth of install folders** - specify where, and to which depth, repository folders are searched for resources to be installed. When a wildcard is used (as in .&ast;/install) all appropriate matches will be searched, for example, `/libs/sling/install` and `/libs/cq/core/install`.  
 
 * **Search Path**, list of paths that jcrinstall searches for resources to be installed, together with a number indicating the weighting factor for that path.
 

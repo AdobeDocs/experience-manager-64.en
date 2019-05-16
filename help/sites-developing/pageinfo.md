@@ -487,7 +487,7 @@ The service applies the cumulative result of all filters. For example, the follo
 
 ```
 
-+/etc/workflow/packages/Editions(/.&#42;)?
++/etc/workflow/packages/Editions(/.&ast;)?
 
 >[!NOTE]
 >

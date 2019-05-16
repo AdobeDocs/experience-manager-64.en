@@ -126,7 +126,7 @@ Properties of contained entities are a subset of the full set of properties of e
 
 ### Create a Folder {#create-a-folder}
 
-Creates a new `sling`: `OrderedFolder` at the given path. If a &#42; is given instead of a node name the servlet will use the parameter name as node name. Accepted as request data is either a Siren representation of the new folder or a set of name-value pairs, encoded as `application/www-form-urlencoded` or `multipart`/ `form`- `data`, useful for creating a folder directly from an HTML form. Additionally, properties of the folder can be specified as URL query parameters.
+Creates a new `sling`: `OrderedFolder` at the given path. If a &ast; is given instead of a node name the servlet will use the parameter name as node name. Accepted as request data is either a Siren representation of the new folder or a set of name-value pairs, encoded as `application/www-form-urlencoded` or `multipart`/ `form`- `data`, useful for creating a folder directly from an HTML form. Additionally, properties of the folder can be specified as URL query parameters.
 
 The operation will fail with a `500` response code if the parent node of the given path does not exist. If the folder already exists a `409` response code is returned.
 
@@ -159,7 +159,7 @@ POST /api/assets/* -F"name=myfolder" -F"title=My Folder"
 
 ### Create an Asset {#create-an-asset}
 
-Creates a DAM asset at the given path with the given file. If a &#42; is given instead of a node name the servlet will use the parameter name or the file name as node name.
+Creates a DAM asset at the given path with the given file. If a &ast; is given instead of a node name the servlet will use the parameter name or the file name as node name.
 
 **Parameters**
 

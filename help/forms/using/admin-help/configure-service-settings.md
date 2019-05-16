@@ -62,11 +62,11 @@ The following settings are available for the barcoded forms service.
 
 The Central Migration Bridge service ( `CentralMigrationBridge`) invokes a subset of Adobe Central Pro Output Server (Central) functionality, which includes the JFMERGE, JFTRANS, and XMLIMPORT commands. Central Migration Bridge service operations allow you to reuse the following Central assets in AEM forms:
 
-* template design (&#42;.ifd) 
-* output templates (&#42;.mdf) 
-* data files (&#42;.dat files) 
-* preamble files (&#42;.pre files) 
-* data definition files (&#42;.tdf)
+* template design (&ast;.ifd) 
+* output templates (&ast;.mdf) 
+* data files (&ast;.dat files) 
+* preamble files (&ast;.pre files) 
+* data definition files (&ast;.tdf)
 
 The following setting is available for the Central Migration Bridge service.
 

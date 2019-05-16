@@ -371,7 +371,7 @@ Dependent on the predicate a selection of settings are available for configurati
 * **Publish and Live Copy Property Name(s)** 
   The labels for the publish and live copy checkboxes for the Sites specific predicate.
 
-* The &#42; on the field labels in the **Settings** tab means the fields are required and if left blank an error message will appear
+* The &ast; on the field labels in the **Settings** tab means the fields are required and if left blank an error message will appear
 
 ## Configuring Your Search Forms {#configuring-your-search-forms}
 

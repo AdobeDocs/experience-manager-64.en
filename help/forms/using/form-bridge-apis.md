@@ -87,12 +87,12 @@ Returns the version number of the Scripting library
     * **configName:** Name of the configuration to override
 
         * **widgetConfig:** Allows the user to override the default widgets in the form with custom widgets. The configuration is overridden as follows:  
-          *formBridge.registerConfig("widgetConfig":{/&#42;configuration&#42;/})*
+          *formBridge.registerConfig("widgetConfig":{/&ast;configuration&ast;/})*
         
         * ***pagingConfig:** Allows the user to override the default behavior of rendering only the first page. The configuration is overridden as follows:  
           **window.formBridge.registerConfig("pagingConfig":{pagingDisabled: <true | false>, shrinkPageDisabled: <true | false> }). *
         
-        * ****LoggingConfig:** Allows the user to override the level of logging, disable logging for a category, or whether to display the logs console or send to server. The configuration can be overridden as follows:**
+        * **LoggingConfig:** Allows the user to override the level of logging, disable logging for a category, or whether to display the logs console or send to server. The configuration can be overridden as follows:**
         * *formBridge.registerConfig{  
           **"LoggerConfig" : {  
         * *{  

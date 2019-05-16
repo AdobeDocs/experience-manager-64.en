@@ -80,7 +80,7 @@ For forms workflow to receive and handle incoming email messages from users, you
 
 **Domain Pattern:** The domain name pattern that is used to filter incoming emails. For example, if adobe.com is used, only email from adobe.com will be processed; email from other domains is ignored.
 
-**File Pattern:** The incoming file attachment patterns that the provider accepts. This includes files that have specific extensions (&#42;.dat, &#42;.xml), specific names (data), and composite expressions in the name and extension (&#42;.[dD][aA][Tt]). The default value is &#42;.&#42;.
+**File Pattern:** The incoming file attachment patterns that the provider accepts. This includes files that have specific extensions (&ast;.dat, &ast;.xml), specific names (data), and composite expressions in the name and extension (&ast;.[dD][aA][Tt]). The default value is &ast;.&ast;.
 
 **Successful Job’s Recipients:** One or more email addresses that are used to send emails to indicate successful jobs. By default, a successful job message is always sent to the sender of the initial job. Up to 100 recipients are supported. To turn off this setting, leave this field blank.
 
@@ -158,7 +158,7 @@ Use the following settings to configure an email endpoint.
 
 **Domain Pattern:** Specifies the domain patterns of incoming email that the provider accepts. For example, if adobe.com is used, only email from adobe.com is processed; email from other domains is ignored.
 
-**File Pattern:** Specifies the incoming file attachment patterns that the provider accepts. This includes files that have specific extensions (&#42;.dat, &#42;.xml), specific names (data), or composite expressions in the name and extension (&#42;.[dD][aA][Tt]).
+**File Pattern:** Specifies the incoming file attachment patterns that the provider accepts. This includes files that have specific extensions (&ast;.dat, &ast;.xml), specific names (data), or composite expressions in the name and extension (&ast;.[dD][aA][Tt]).
 
 **Successful Job’s Recipients:** An email address to which messages are sent to indicate successful jobs. By default, a successful job message is always sent to the sender. If you type sender, email results are sent to the sender. Up to 100 recipients are supported. Specify additional recipients with email addresses, separated by commas (,).
 
@@ -226,7 +226,7 @@ The default value is asynchronous.
 
 **Literal:** The email uses the value that is entered in the field as it is displayed.
 
-**Variable:** You can map a string from the email subject, body, header, or sender's email address. To do this, use one of the following keywords: %SUBJECT%, %BODY%, %HEADER%, or %SENDER%. For example, if you use %SUBJECT%, the email subject content is used as the input parameter. To pick up attachments, enter a file pattern that the email endpoint can use to select the attached documents. For example, entering &#42;.pdf selects any attached document that has a .pdf filename extension. Entering &#42; selects any attached document. Entering example.pdf selects any attached document named example.pdf.
+**Variable:** You can map a string from the email subject, body, header, or sender's email address. To do this, use one of the following keywords: %SUBJECT%, %BODY%, %HEADER%, or %SENDER%. For example, if you use %SUBJECT%, the email subject content is used as the input parameter. To pick up attachments, enter a file pattern that the email endpoint can use to select the attached documents. For example, entering &ast;.pdf selects any attached document that has a .pdf filename extension. Entering &ast; selects any attached document. Entering example.pdf selects any attached document named example.pdf.
 
 **Output Parameter Mappings:** Used to configure the output of the service and operation. The following characters in the output parameter mapping values are expanded in the attachment filename:
 

@@ -343,22 +343,22 @@ Tough Day 2 outputs both test metrics and logs. For further details, read the fo
 
 ### Test Metrics {#test-metrics}
 
-Tough Day 2 currently reports 9 test metrics that you can evaluate. Metrics with the **&#42;** symbol are reported only after successful runs:
+Tough Day 2 currently reports 9 test metrics that you can evaluate. Metrics with the **&ast;** symbol are reported only after successful runs:
 
 | **Name** |**Description** |
 |---|---|
 | Timestamp |Timestamp of the last finished test run. |
 | Passed |Number of successful runs. |
 | Failed |Number of failed runs. |
-| Min&#42; |Lowest duration of test execution. |
-| Max&#42; |Highest duration of test execution. |
-| Median&#42; |Computed median duration of all test executions. |
-| Average&#42; |Computed average duration of all test executions. |
-| StdDev&#42; |The standard deviation. |
-| 90p&#42; |90 percentile. |
-| 99p&#42; |99 percentile. |
-| 99.9p&#42; |99.9 percentile. |
-| Real Throughput &#42; |Number of runs divided by the elapsed execution time. |
+| Min&ast; |Lowest duration of test execution. |
+| Max&ast; |Highest duration of test execution. |
+| Median&ast; |Computed median duration of all test executions. |
+| Average&ast; |Computed average duration of all test executions. |
+| StdDev&ast; |The standard deviation. |
+| 90p&ast; |90 percentile. |
+| 99p&ast; |99 percentile. |
+| 99.9p&ast; |99.9 percentile. |
+| Real Throughput &ast; |Number of runs divided by the elapsed execution time. |
 
 These metrics are written with the help of publishers that can be added with the `add` parameter (similarly to adding tests). Currently, there are two options:
 

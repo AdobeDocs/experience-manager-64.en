@@ -118,9 +118,9 @@ You can configure the internal firewall to allow certain AEM Forms components (F
 
 By default, assets available on the publish nodes are accessible to everyone. Read-only access is enabled for all the assets. It is required to enable anonymous access. If you plan to restrict form view and submit access only to authenticated users, then use a common group to allow only authenticated users to have read-only access to the assets available on the publish nodes. The following locations/directories contain forms assets which require hardening (read only access for authenticated users):
 
-* /content/&#42;
-* /etc.clientlibs/fd/&#42;
-* /libs/fd/&#42;
+* /content/&ast;
+* /etc.clientlibs/fd/&ast;
+* /libs/fd/&ast;
 
 ## Securely handle forms data  {#securely-handle-forms-data}
 
@@ -191,4 +191,4 @@ A processing cluster runs in the author mode but do not use it for development a
 
 ### USE AEM best practices to secure an AEM Forms environment {#use-aem-best-practices-to-secure-an-aem-forms-environment}
 
-This document provide instructions specific to AEM Forms environment. You should take to ensure that your underlying AEM installation is secure when deployed. For detailed instructions, see [AEM Security Checklist](/help/sites-administering/security-checklist.md) documentation.****
+This document provide instructions specific to AEM Forms environment. You should take to ensure that your underlying AEM installation is secure when deployed. For detailed instructions, see [AEM Security Checklist](/help/sites-administering/security-checklist.md) documentation.

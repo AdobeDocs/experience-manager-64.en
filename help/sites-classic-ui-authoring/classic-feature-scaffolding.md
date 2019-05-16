@@ -79,7 +79,7 @@ The dialog definition for a scaffold works similarly to that of a component (see
 
 A look at the example **News** scaffold dialog in the dialog editor helps to explain how this works. Go into design mode on the scaffold page and click the dialog editor link.
 
-Now, click on the dialog field **Dialog &gt; Tab Panel &gt; Text &gt; Tex****t**, like this:
+Now, click on the dialog field **Dialog &gt; Tab Panel &gt; Text &gt; Text**, like this:
 
 ![](assets/textedit.png)
 

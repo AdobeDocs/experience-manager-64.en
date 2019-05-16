@@ -132,7 +132,7 @@ The following options determine how image files are converted to PDF. For instru
 
 ## Adobe PDF export settings (Windows only) {#adobe-pdf-export-settings-windows-only}
 
-The Export File Type setting in the Adobe PDF export settings section is used for converting a PDF file to another format. The default is HTML 4.01 with cascading style sheets (CSS) 1.0(&#42;.htm, &#42;.html).
+The Export File Type setting in the Adobe PDF export settings section is used for converting a PDF file to another format. The default is HTML 4.01 with cascading style sheets (CSS) 1.0(&ast;.htm, &ast;.html).
 
 For instructions about accessing this setting, see [Create or edit file type settings](configuring-file-type-settings.md#create-or-edit-file-type-settings).
 

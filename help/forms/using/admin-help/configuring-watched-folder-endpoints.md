@@ -138,7 +138,7 @@ When files are dropped into the watched folder, it lists the files in the input,
 
 **Wait Time:** The time, in milliseconds, to wait before you scan a folder or file after it is created. For example, if the wait time is 3,600,000 milliseconds (one hour) and the file was created one minute ago, this file will be picked up after 59 or more minutes have passed. The default value is 0.
 
-This setting is useful to ensure that a file or folder is completely copied to the input folder. For example, if you have a large file to process and the file takes ten minutes to download, set the wait time to 10&#42;60 &#42;1000 milliseconds. This prevents the watched folder from scanning the file if it is not ten minutes old.
+This setting is useful to ensure that a file or folder is completely copied to the input folder. For example, if you have a large file to process and the file takes ten minutes to download, set the wait time to 10&ast;60 &ast;1000 milliseconds. This prevents the watched folder from scanning the file if it is not ten minutes old.
 
 **Exclude File Pattern:** A semi-colon (;) delimited list of patterns that a watched folder uses to determine which files and folders to scan and pick up. Any file or folder with this pattern will not be scanned for processing.
 
@@ -146,29 +146,29 @@ This setting is useful when the input is a folder with multiple files. The conte
 
 You can use file patterns to exclude:
 
-* Files with specific filename extensions; for example, &#42;.dat, &#42;.xml, .pdf, &#42;.&#42;
-* Files with specific names; for example, data.&#42; would exclude files and folders named *data1*, *data2*, and so on.
+* Files with specific filename extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast;
+* Files with specific names; for example, data.&ast; would exclude files and folders named *data1*, *data2*, and so on.
 * Files with composite expressions in the name and extension, as in these examples:
 
     * Data[0-9][0-9][0-9].[dD][aA][tT]
-    * &#42;.[dD][Aa][Tt]
-    * &#42;.[Xx][Mm][Ll]
+    * &ast;.[dD][Aa][Tt]
+    * &ast;.[Xx][Mm][Ll]
 
 For more information about file patterns, see [About file patterns](configuring-watched-folder-endpoints.md#about-file-patterns).
 
-**Include File Pattern:** (Mandatory) A semi-colon (;) delimited list of patterns that the watched folder uses to determine which folders and files to scan and pick up. For example, if the Include File Pattern is input&#42;, all files and folders that match input&#42; are picked up. This includes files and folders named input1, input2, and so on.
+**Include File Pattern:** (Mandatory) A semi-colon (;) delimited list of patterns that the watched folder uses to determine which folders and files to scan and pick up. For example, if the Include File Pattern is input&ast;, all files and folders that match input&ast; are picked up. This includes files and folders named input1, input2, and so on.
 
-The default value is &#42; and indicates all files and folders.
+The default value is &ast; and indicates all files and folders.
 
 You can use file patterns to include:
 
-* Files with specific filename extensions; for example, &#42;.dat, &#42;.xml, .pdf, &#42;.&#42;
-* Files with specific names; for example, data.&#42; would include files and folders named *data1*, *data2*, and so on.
+* Files with specific filename extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast;
+* Files with specific names; for example, data.&ast; would include files and folders named *data1*, *data2*, and so on.
 * Files with composite expressions in the name and extension, as in these examples:
 
     * Data[0-9][0-9][0-9].[dD][aA][tT]
-    * &#42;.[dD][Aa][Tt]
-    * &#42;.[Xx][Mm][Ll]
+    * &ast;.[dD][Aa][Tt]
+    * &ast;.[Xx][Mm][Ll]
 
 For more information about file patterns, see [About file patterns](configuring-watched-folder-endpoints.md#about-file-patterns).
 
@@ -217,7 +217,7 @@ A value of -1 days indicates to never delete the results folder. The default val
 
 **Literal:** The watched folder uses the value entered in the field as it is displayed. All basic Java types are supported. For example, if an API uses input such as String, long, int, and Boolean, the string is converted to the proper type and the service is invoked.
 
-**Variable:** The value entered is a file pattern that the watched folder uses to pick the input. For example, in the case of the encrypt password service, where the input document must be a PDF file, the user can use &#42;.pdf as the file pattern. The watched folder will pick up all files in the watched folder that match this pattern and invoke the service for each file. When a variable is used, all input files are converted to documents. Only APIs that use Document as the input type are supported.
+**Variable:** The value entered is a file pattern that the watched folder uses to pick the input. For example, in the case of the encrypt password service, where the input document must be a PDF file, the user can use &ast;.pdf as the file pattern. The watched folder will pick up all files in the watched folder that match this pattern and invoke the service for each file. When a variable is used, all input files are converted to documents. Only APIs that use Document as the input type are supported.
 
 **Output Parameter Mappings:** Used to configure the outputs of the service and operation. The settings available depend on which service is using the watched folder endpoint.
 
@@ -229,13 +229,13 @@ Watched Folder output can be a single document, a list of documents, or a map of
 
 Administrators can specify the type of file that can invoke a service. Multiple file patterns can be established for each watched folder. A file pattern can be one of the following file properties:
 
-* Files with specific file name extensions; for example, &#42;.dat, &#42;.xml, .pdf, &#42;.&#42;
-* Files with specific names; for example, data.&#42;
+* Files with specific file name extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast;
+* Files with specific names; for example, data.&ast;
 * Files with composite expressions in the name and extension, as in these examples:
 
     * Data[0-9][0-9][0-9].[dD][aA][tT]
-    * &#42;.[dD][Aa][Tt]
-    * &#42;.[Xx][Mm][Ll]
+    * &ast;.[dD][Aa][Tt]
+    * &ast;.[Xx][Mm][Ll]
 
 The administrator can define the file pattern of the output folder in which to store the results. For the output folders (result, preserve, and failure), the administrator can specify any of these file patterns:
 
@@ -358,11 +358,11 @@ Here are some tips and tricks when configuring the Watched Folder endpoint:
 * If you have a watched folder on Windows that is processing image files, specify values for the Include File Pattern or Exclude File Pattern option to prevent the Windows auto-generated Thumbs.db file from being polled by the watched folder.
 * If a cron expression is specified, the repeat interval is ignored. The cron expression usage is based on the Quartz open source job-scheduling system, version 1.4.0.
 * The batch size is the number of files or folders that will be picked up in each scan of the watched folder. If the batch size is set to two and ten files or folders are dropped in the watched folder input folder, only two will be picked up in each scan. In the next scan, which will happen after the time specified in the repeat interval, the next two files will be picked up.
-* For file patterns, administrators can specify regular expressions with added support of wild card patterns to specify file patterns. Watched Folder modifies the regular expression to support wild card patterns such as &#42;.&#42; or &#42;.pdf. These wild card patterns are not supported by the regular expressions.
+* For file patterns, administrators can specify regular expressions with added support of wild card patterns to specify file patterns. Watched Folder modifies the regular expression to support wild card patterns such as &ast;.&ast; or &ast;.pdf. These wild card patterns are not supported by the regular expressions.
 * Watched Folder scans the input folder for the input and does not know if the source file or folder is completely copied to the input folder before it starts processing the file or folder. To ensure that the source file or folder is completely copied to the input folder of the watched folder before the file or folder is picked up, do these tasks:
 
-    * Use Wait time, which is the time in milliseconds that Watched Folder waits from the last modified time. Use this feature if you have large files to process. For example, if a file takes 10 minutes to download, specify the wait time as 10&#42;60 &#42;1000 milliseconds. This will prevent Watched Folder from picking up the file if it is not as old as 10 minutes.
-    * Use exclude file pattern and include file pattern. For example, if the exclude file pattern is `ex*` and the include file pattern is `in*`, Watched Folder will pick up the files that start with "in" and will not pick up the files that start with "ex". To copy large files or folders, first rename the file or folder so that the name starts with "ex". After the file or folder named "ex" is completely copied to the watched folder, rename it to "in&#42;".
+    * Use Wait time, which is the time in milliseconds that Watched Folder waits from the last modified time. Use this feature if you have large files to process. For example, if a file takes 10 minutes to download, specify the wait time as 10&ast;60 &ast;1000 milliseconds. This will prevent Watched Folder from picking up the file if it is not as old as 10 minutes.
+    * Use exclude file pattern and include file pattern. For example, if the exclude file pattern is `ex*` and the include file pattern is `in*`, Watched Folder will pick up the files that start with "in" and will not pick up the files that start with "ex". To copy large files or folders, first rename the file or folder so that the name starts with "ex". After the file or folder named "ex" is completely copied to the watched folder, rename it to "in&ast;".
 
 * Use purge duration to keep the result folder clean. Watched Folder cleans up all the files that are older than the duration mentioned in the purge duration. The duration is in days.
 * When adding a Watched Folder endpoint, after selecting the operation name, the input parameter mapping is populated. For each input of the operation, one input parameter mapping field is generated. Here are examples of input parameter mappings:
@@ -381,7 +381,7 @@ Here are some tips and tricks when configuring the Watched Folder endpoint:
 
     * Workaround 1
 
-    1. Specify a pattern for Exclude File Pattern, such as temp&#42;.ps.
+    1. Specify a pattern for Exclude File Pattern, such as temp&ast;.ps.
 
       2. Copy files that begin with temp (for example, temp1.ps) to the watched folder.
 

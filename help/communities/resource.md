@@ -42,7 +42,7 @@ Fill in the basic information for the Resource:
 * **Site Name**:  
   set to the name of the selected community site: Enablement Tutorial
 
-* **Resource Name&#42;**: Ski Lesson 1
+* **Resource Name&ast;**: Ski Lesson 1
 * **Tags**: Tutorial: Sports / Skiing
 * **Show in Catalog**: On
 * **Description**: Sliding on snow for beginners
@@ -78,7 +78,7 @@ Upload a Resource. If a video resource, either upload a custom image to display 
 * **Resource Author** 
   *(Optional)* Leave blank.
 
-* **Resource Contact&#42;** 
+* **Resource Contact&ast;** 
   *(Required)* Use the pulldown menu to select member `Quinn Harper`.
 
 * **Resource Expert** 
@@ -173,7 +173,7 @@ On the Add Resources panel
 * **Add Assignees** 
   Use the pulldown menu to select the `Community Ski Class` group, which should included members `Riley Taylor` and `Sidney Croft.`
 
-* **Learning Path Contact&#42;** 
+* **Learning Path Contact&ast;** 
   *(Required)* Use the pulldown menu to select member `Quinn Harper`.
 
 * select **Create**

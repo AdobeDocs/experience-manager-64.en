@@ -203,7 +203,7 @@ Several JobConsumer implementations are installed with Experience Manager. The t
 | Job topic |Service PID |Description |
 |---|---|---|
 | / |org.apache.sling.event.impl.jobs.deprecated.EventAdminBridge |Installed with Apache Sling. Processes jobs that the OSGi event admin generates, for backward compatibility. |
-| com/day/cq/replication/job/&#42; |com.day.cq.replication.impl.AgentManagerImpl |A replication agent that replicates job payloads. |
+| com/day/cq/replication/job/&ast; |com.day.cq.replication.impl.AgentManagerImpl |A replication agent that replicates job payloads. |
 | com/adobe/granite/workflow/offloading |com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer |Processes jobs that the DAM Update Asset Offloader workflow generates. |
 
 ### Disabling and Enabling Topics For an Instance {#disabling-and-enabling-topics-for-an-instance}
@@ -218,7 +218,7 @@ Use Web Console or a `sling:OsgiConfig` node to configure the following properti
 
 | Property Name in Web Console |OSGi ID |Description |
 |---|---|---|
-| Topic Whitelist |job.consumermanager.whitelist |A list of topics that the local JobManager service processes. The default value of &#42; causes all topics to be sent to the registered TopicConsumer service. |
+| Topic Whitelist |job.consumermanager.whitelist |A list of topics that the local JobManager service processes. The default value of &ast; causes all topics to be sent to the registered TopicConsumer service. |
 | Topic Blacklist |job.consumermanager.blacklist |A list of topics that the local JobManager service does not process.  |
 
 ## Creating Replication Agents For Offloading {#creating-replication-agents-for-offloading}

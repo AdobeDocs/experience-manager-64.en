@@ -400,7 +400,7 @@ Implementation:
 * jQuery plugin, tied to specific DOM element(s)
 * Using `data-*` attributes to customize behavior
 
-An extract of example markup (note the options specified as data-&#42; attributes):
+An extract of example markup (note the options specified as data-&ast; attributes):
 
 ```xml
 <ul data-column-width="220" data-layout="card" class="cards">

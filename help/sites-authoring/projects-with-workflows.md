@@ -33,12 +33,12 @@ Depending on which Project template you select, you have certain workflows avail
 | Request Launch |x |  |  |  |
 | Request Landing Page |x |  |  |  |
 | Request Email |x |  |  |  |
-| DAM Create Language Copy&#42; |  |  |  |x |
-| DAM Create and Translate Language Copy&#42; |  |  |  |x |
+| DAM Create Language Copy&ast; |  |  |  |x |
+| DAM Create and Translate Language Copy&ast; |  |  |  |x |
 
 >[!NOTE]
 >
->&#42; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](/help/sites-administering/tc-manage.md)
+>&ast; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](/help/sites-administering/tc-manage.md)
 
 The steps for starting and completing workflows are the same no matter which workflow you choose. Only the steps change.
 
@@ -91,7 +91,7 @@ This workflow lets you request a launch.
 
    ![](assets/chlimage_1-325.png)
 
-1. Click **Create**. The workflow starts. The workflow appears in the **Workflows** list (click ellipses** ... **on the **Workflows **tile**** to access this list).
+1. Click **Create**. The workflow starts. The workflow appears in the **Workflows** list (click ellipses **...** on the **Workflows** tile to access this list).
 
 ## Request Landing Page workflow {#request-landing-page-workflow}
 

@@ -43,9 +43,9 @@ In AEM 6.3, by default, when a traversal of 100,000 is reached, the query fails 
 
 #### During Development {#during-development}
 
-Explain **all** queries and ensure their query plans do not contain the **/&#42; traverse** explanation in them. Example traversing query plan:
+Explain **all** queries and ensure their query plans do not contain the **/&ast; traverse** explanation in them. Example traversing query plan:
 
-* **PLAN:** [nt:unstructured] as [a] /&#42; traverse "/content//&#42;" where ([a].[unindexedProperty] = 'some value') and (isdescendantnode([a], [/content])) &#42;/
+* **PLAN:** [nt:unstructured] as [a] /&ast; traverse "/content//&ast;" where ([a].[unindexedProperty] = 'some value') and (isdescendantnode([a], [/content])) &ast;/
 
 #### Post-Deployment {#post-deployment}
 
@@ -85,7 +85,7 @@ Before adding the cq:tags index rule
 
 * **Query plan**
 
-    * [cq:Page] as [a] /&#42; lucene:cqPageLucene(/oak:index/cqPageLucene) &#42;:&#42; where [a].[jcr:content/cq:tags] = 'my:tag' &#42;/
+    * [cq:Page] as [a] /&ast; lucene:cqPageLucene(/oak:index/cqPageLucene) &ast;:&ast; where [a].[jcr:content/cq:tags] = 'my:tag' &ast;/
 
 This query resolves to the `cqPageLucene` index, but because no property index rule exists for `jcr:content` or `cq:tags`, when this restriction is evaluated, every record in the `cqPageLucene` index is checked to determine a match. This means that if the index contains 1 million `cq:Page` nodes, then 1 million records are checked to determine the result set.
 
@@ -113,7 +113,7 @@ After adding the cq:tags index rule
 
 * **Query plan**
 
-    * [cq:Page] as [a] /&#42; lucene:cqPageLucene(/oak:index/cqPageLucene) jcr:content/cq:tags:my:tag where [a].[jcr:content/cq:tags] = 'my:tag' &#42;/
+    * [cq:Page] as [a] /&ast; lucene:cqPageLucene(/oak:index/cqPageLucene) jcr:content/cq:tags:my:tag where [a].[jcr:content/cq:tags] = 'my:tag' &ast;/
 
 The addition of the indexRule for `jcr:content/cq:tags` in the `cqPageLucene` index allows `cq:tags` data to be stored in an optimized way.
 

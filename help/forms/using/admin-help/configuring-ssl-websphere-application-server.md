@@ -66,7 +66,7 @@ For enabling SSL, WebSphere needs access to a user account in the local OS user 
 1. Under Administrative security, select **Administrative user roles**.
 1. Click Add and do the following:
 
-    1. Type **&#42;** in the search box and click search.
+    1. Type **&ast;** in the search box and click search.
     1. Click **Administrator** under roles.
     1. Add the newly created user to Mapped to role and map it to Administrator.
 

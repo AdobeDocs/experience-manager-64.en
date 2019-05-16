@@ -35,12 +35,12 @@ Analyse CQ access.log extrapolating various informations and producing a MarkDow
 
 ## Usage {#usage}
 
-`./analyse-access.sh access.log.2013-&#42;`
+`./analyse-access.sh access.log.2013-&ast;`
 
 you can provide additional custom paths to analyse on the command line
 
-`/analyse-access.sh access.log.2013-&#42; /my/custom/path/1 /my/custom/path/2`
+`/analyse-access.sh access.log.2013-&ast; /my/custom/path/1 /my/custom/path/2`
 
 you can save the output by a simple piping
 
-`./analyse-access.sh access.log.2013-&#42; | tee yr2013.md`
+`./analyse-access.sh access.log.2013-&ast; | tee yr2013.md`

@@ -206,7 +206,7 @@ The STRUCTURE panel allows the modification of the structure initially created f
 * on an instance of a community function in the site structure:
 
     * **`gear icon`** 
-      edit settings, including the display title and URL name&#42;  
+      edit settings, including the display title and URL name&ast;  
       as well as p [rivileged members groups](/help/communities/users.md#privilegedmembersgroups)
     
     * **`trashcan icon`** 
@@ -217,7 +217,7 @@ The STRUCTURE panel allows the modification of the structure initially created f
 
 >[!CAUTION]
 >
->&#42; While the display title may be changed without side-effects, it is not recommended to edit the URL name of a community function belonging to a community site.
+>&ast; While the display title may be changed without side-effects, it is not recommended to edit the URL name of a community function belonging to a community site.
 >
 >For example, renaming the URL will not move existing UGC, thus having the effect of 'losing' UGC.
 

@@ -35,10 +35,10 @@ AEM realizes responsive layout for your pages using a combination of mechanisms:
         * Both.  
           You can have the layout container as standard for the page, while allowing the user to add further layout containers within this; for example, to achieve column control.
 
-* ** [Layout Mode](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)** 
+* **[Layout Mode](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)** 
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
-* [**Emulator**](/help/sites-authoring/responsive-layout.md#selecting-a-device-to-emulate)**** 
+* [**Emulator**](/help/sites-authoring/responsive-layout.md#selecting-a-device-to-emulate) 
   This allows you to create and edit responsive websites that rearrange the layout according to device/window size by resizing components interactively. The user can then see how the content will be rendered using the Emulator.
 
 >[!CAUTION]

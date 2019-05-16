@@ -258,7 +258,7 @@ A template can be made available or unavailable for certain page branches.
 
    The path can be explicit or use patterns. For example:
 
-   `/conf/<*your-folder*>/settings/wcm/templates/.&#42;`
+   `/conf/<*your-folder*>/settings/wcm/templates/.&ast;`
 
    The order of the paths is irrelevant, all paths will be scanned and any templates retrieved.
 

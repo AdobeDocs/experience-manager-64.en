@@ -114,7 +114,7 @@ The following lists the properties as displayed in the Web console, followed by 
 * **Good components** 
   ( `cq.wcm.undo.whitelist`)
 
-    * **Description**: A list of components that you want to be affected by undo and redo commands. Add component paths to this list when they function correctly with undo/redo. Append an asterisk (&#42;) to specify a group of components:
+    * **Description**: A list of components that you want to be affected by undo and redo commands. Add component paths to this list when they function correctly with undo/redo. Append an asterisk (&ast;) to specify a group of components:
 
         * The following value specifies the foundation text component:  
           `foundation/components/text`

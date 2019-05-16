@@ -837,7 +837,7 @@ To configure how links are added in AEM from another program, define the HTML ru
                 * `manual`: not applicable in this context
                 * `blank`: not applicable in this context
 
-        * ****The target for internal links:
+        * The target for internal links:
 
             * **Name** `targetInternal`  
             
@@ -845,7 +845,7 @@ To configure how links are added in AEM from another program, define the HTML ru
             
             * **Value **the target for internal links (only use when the `` mode is `auto`)
 
-        * ****The target for external links:
+        * The target for external links:
 
             * **Name** `targetExternal`
             
