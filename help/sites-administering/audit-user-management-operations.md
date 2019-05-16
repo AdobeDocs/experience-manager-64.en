@@ -75,3 +75,12 @@ If configured correctly, the output should look like this:
 19.05.2017 15:44:10.405 *INFO* [0:0:0:0:0:0:0:1 [1495197850401] POST /home/users/3/35XVpVtLRx4a5J9gKrVG.rw.userprops.html HTTP/1.1] com.adobe.granite.security.user.internal.audit.AuditAuthorizableAction Password for User 'john' was changed
 ```
 
+## Classic UI
+
+In the Classic UI, information about CRUD operations recorded in the audit log relating to adding and deleting users is limited to the ID of the user affected and when the changed happened.
+
+For example:
+
+```
+10.05.2019 18:01:09.123 INFO [0:0:0:0:0:0:0:1 [1557491469096] POST /libs/cq/security/authorizables/POST HTTP/1.1] com.adobe.granite.security.user.internal.audit.AuditAuthorizableAction User 'test' was created
+```
