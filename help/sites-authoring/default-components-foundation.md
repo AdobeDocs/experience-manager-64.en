@@ -76,11 +76,11 @@ You can use image files of the following file name extensions with the Adaptive 
 * .jpg
 * .jpeg
 * .png
-* .gif &#42;&#42;
+* .gif &ast;&ast;
 
 >[!CAUTION]
 >
->&#42;&#42; Animated .gif files are not supported in AEM for adaptive renditions.
+>&ast;&ast; Animated .gif files are not supported in AEM for adaptive renditions.
 
 #### Images Sizes and Quality {#images-sizes-and-quality}
 

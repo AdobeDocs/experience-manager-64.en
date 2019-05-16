@@ -39,7 +39,7 @@ You can create a folder in AEM Forms in one of the following ways:
    >
    >By default, the value of name field is automatically populated from the title. The name can only contain alphanumeric characters, or the hyphen (-) and underscore (_) special characters. Any other special characters entered in the title are automatically replaced with a hyphen and you are prompted to confirm the new name. You can choose to continue with suggested name or edit it further.
 
-1. Click **[!UICONTROL Submit]****.**
+1. Click **[!UICONTROL Submit].**
 
    A new folder with the title you defined is displayed at the current location in the asset listing.
 
@@ -52,5 +52,5 @@ You can create a folder in AEM Forms in one of the following ways:
 
 1. Enter the new title. The text field is prepopulated with the current value of folder title. You can change it to a new value.  
 
-1. Click **[!UICONTROL Submit]****.**
+1. Click **[!UICONTROL Submit].**
 

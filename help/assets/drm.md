@@ -94,7 +94,7 @@ To enable the Assets console to display the referencing compound assets along wi
 
    ![](assets/chlimage_1-154.png)
 
-1. To run the job periodically, clear the **Time Based Scheduler Rule** field and modify the time in seconds in the **Periodic Scheduler** field. For example, the example expression '0 0 0 &#42; &#42; ?' triggers the job at 00 hrs.
+1. To run the job periodically, clear the **Time Based Scheduler Rule** field and modify the time in seconds in the **Periodic Scheduler** field. For example, the example expression '0 0 0 &ast; &ast; ?' triggers the job at 00 hrs.
 1. Select **send email** to receive emails when an asset expires.
 
    >[!NOTE]
@@ -181,7 +181,7 @@ An asset is considered protected if either of these conditions are fulfilled:
 >
 >The location */etc/dam/drm/licences* used for storing licenses in earlier releases of AEM is deprecated.
 >
->If you create or modify licence pages, or port them from previous AEM releases, Adobe recommends that you store them under */apps/settings/dam/drm/licenses* or */conf/&#42;/settings/dam/drm/licenses*.
+>If you create or modify licence pages, or port them from previous AEM releases, Adobe recommends that you store them under */apps/settings/dam/drm/licenses* or */conf/&ast;/settings/dam/drm/licenses*.
 
 ### Downloading DRM assets {#downloading-drm-assets}
 

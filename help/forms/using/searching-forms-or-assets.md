@@ -22,7 +22,7 @@ Click ![](assets/aem6forms_search.png), to show or hide the search panel.
 
 A basic search is the default search, run without specifying any filters. A full text search on metadata properties is conducted by AEM Forms.
 
-To run a basic search, enter the search query in the text field and hit return. You can also enter the wildcard character (&#42;) to match any number of characters.
+To run a basic search, enter the search query in the text field and hit return. You can also enter the wildcard character (&ast;) to match any number of characters.
 
 Adobe Experience Manager searches for the entered text in metadata properties and returns the corresponding results. If you type more than one word, the search operation matches the complete text for searching.
 
@@ -32,7 +32,7 @@ Note the following points about the basic search:
 * If you type more than one word, the search operation matches the complete text for searching.
 * Search is not case sensitive. For example, when you type `geometrixx`, assets with titles `Geometrixx`, `GEOMETRIXX`, and `GeoMetRixx` are displayed in the search results.
 
-* Partial matches of a word are not supported. To search by using partial strings, use &#42; wildcard. However, if the search query matches a complete word, the corresponding form or asset is displayed.
+* Partial matches of a word are not supported. To search by using partial strings, use &ast; wildcard. However, if the search query matches a complete word, the corresponding form or asset is displayed.
 * Extra spaces are respected and are not trimmed during search. For example, `My form` is not the same search query as `My form`.
 
 * If the data and display values of the fields in metadata properties are different, you cannot use display values as search parameters. For example, you cannot search based on a status, such as Modified or Published, since these properties are stored in a different format.

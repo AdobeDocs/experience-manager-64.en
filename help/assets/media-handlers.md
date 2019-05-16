@@ -151,7 +151,7 @@ The following methods need to be implemented:
 
 Here is an example template:
 
-package my.own.stuff; /&#42;&#42; &#42; @scr.component inherit="true" &#42; @scr.service &#42;/ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts }
+package my.own.stuff; /&ast;&ast; &ast; @scr.component inherit="true" &ast; @scr.service &ast;/ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts }
 
 The interface and classes include:
 
@@ -177,7 +177,7 @@ The following methods need to be implemented:
 
 Here is an example template:
 
-package my.own.stuff; /&#42;&#42; &#42; @scr.component inherit="true" &#42; @scr.service &#42;/ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts }
+package my.own.stuff; /&ast;&ast; &ast; @scr.component inherit="true" &ast; @scr.service &ast;/ public class MyMediaHandler extends com.day.cq.dam.core.AbstractAssetHandler { // implement the relevant parts }
 
 The interface and classes include:
 

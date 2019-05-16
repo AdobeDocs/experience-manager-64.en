@@ -49,7 +49,7 @@ Check this by going to /etc/replication/agents.author.html then click on the rep
     1. Click on "Content Explorer".
     1. In the "Content Explorer" window click on the magnifying glass button on the top right of the window and a search dialog will pop up.
     1. Select the "XPath" radio button.
-    1. In the "Query" box enter this query /jcr:root/var/eventing/jobs//element(&#42;,slingevent:Job) order by @slingevent:created
+    1. In the "Query" box enter this query /jcr:root/var/eventing/jobs//element(&ast;,slingevent:Job) order by @slingevent:created
     1. Click "Search"
     1. In the results the top items are the latest sling eventing jobs. Click on each one and find the stuck replications that match what shows up in the top of the queue.
 

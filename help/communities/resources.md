@@ -128,7 +128,7 @@ When the resource is part of a course, a learning path, members should only be a
 * **Site Name** 
   (*readonly*) The community site to which the resource is being added.
 
-* **Resource Name&#42;** 
+* **Resource Name&ast;** 
   (*required*) The display name for the resource. A valid node name is created from the display name.
 
 * **Tags** 
@@ -235,7 +235,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 * **Resource Author** 
   *(Optional)* The author of the enablement resource. Use the pulldown menu to select from the users who are members of the [members group](#members-group).
 
-* **Resource Contact&#42;** 
+* **Resource Contact&ast;** 
   *(Required)* A person the member can contact regarding the enablement resource. Use the pulldown menu to select from the users who are members of the [members group](#members-group).
 
 * **Resource Expert** 
@@ -341,7 +341,7 @@ For enablement resources included in a learning path, the assignments should onl
 * **Add Enrollments** 
   Use the pulldown menu to select from the members and member groups (listed in bold face) who are members of the community site's [members group](#members-group). It is not necessary to add assignments when first creating the learning path. The learning path properties can be modified to add learners at a later time. 
 
-* **Learning Path Contact&#42;** 
+* **Learning Path Contact&ast;** 
   *(Required)* A person the member can contact regarding the learning path. Use the pulldown menu to select from the users who are members of the community site's [members group](#members-group).
 
 * select **Create**

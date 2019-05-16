@@ -127,7 +127,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 1. From the Project Explorer window, right-click the `InvokePreLoanProcess` project and select **New** &gt; **Other**. 
 1. Expand the **Web** folder, select **HTML**, and click **Next**. 
-1. In the New HTML****dialog box, type `index.html` for the filename and then click **Finish**.
+1. In the New HTML dialog box, type `index.html` for the filename and then click **Finish**.
 
 >[!NOTE]
 >

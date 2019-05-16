@@ -266,7 +266,7 @@ Following are some configuration details specific for community members and memb
 
     * set the following properties:
 
-        * **User auto membership**&#42;: `community-*<site name>-<uid>*-members`
+        * **User auto membership**&ast;: `community-*<site name>-<uid>*-members`
         
         * **User Path Prefix**: `/community`
         
@@ -278,7 +278,7 @@ Following are some configuration details specific for community members and memb
 
 This results in users automatically being assigned to the community site's members group and the repository location being `/home/users/community` and `/home/groups/community`, so that they inherit the appropriate permissions to see one another's profile.
 
-&#42; The `User auto membership` value should be the `rep:authorizableId` property, not the `givenName` (display name) from the profile.
+&ast; The `User auto membership` value should be the `rep:authorizableId` property, not the `givenName` (display name) from the profile.
 
 ## Synchronizing Users Among AEM Instances {#synchronizing-users-among-aem-instances}
 

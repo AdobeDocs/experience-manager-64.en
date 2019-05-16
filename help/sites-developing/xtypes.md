@@ -74,7 +74,7 @@ browsefield
 [CQ.form.BrowseField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.BrowseField)  
 **Deprecated: Use [CQ.form.PathField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.PathField) instead** 
   
-&#42;
+&ast;
 
 bulkeditor  
 [CQ.wcm.BulkEditor](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.wcm.BulkEditor)  
@@ -150,7 +150,7 @@ A grouped, ordered selection of available Components.
 
 componentstyles  
 [CQ.form.ComponentStyles](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.ComponentStyles)  
-&#42;
+&ast;
 
 compositefield  
 [CQ.form.CompositeField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.CompositeField)  
@@ -284,7 +284,7 @@ The FindReplaceDialog is a dialog for finding and replacing tokens in a page and
 
 flash  
 [CQ.Ext.FlashComponent](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.FlashComponent)  
-&#42;
+&ast;
 
 grid  
 [CQ.Ext.grid.GridPanel](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.grid.GridPanel)
@@ -462,7 +462,7 @@ pathcompletion
 [CQ.form.PathCompletion](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.PathCompletion)  
 **Deprecated: Use [CQ.form.PathField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.PathField) instead** 
   
-&#42;
+&ast;
 
 pathfield  
 [CQ.form.PathField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.PathField)
@@ -614,7 +614,7 @@ tableedit
 [CQ.form.TableEdit](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.TableEdit)  
 **Deprecated: Use [CQ.form.TableEdit2](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.TableEdit2) instead.** 
   
-&#42;
+&ast;
 
 tableedit2  
 [CQ.form.TableEdit2](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.TableEdit2)
@@ -651,7 +651,7 @@ Basic text field. Can be used as a direct replacement for traditional text input
 
 thumbnail  
 [CQ.form.Thumbnail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.Thumbnail)  
-&#42;
+&ast;
 
 timefield  
 [CQ.Ext.form.TimeField](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Ext.form.TimeField)  

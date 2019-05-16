@@ -572,9 +572,9 @@ You can restrict registration with document security for certain external users 
 
 The following settings are located in the Email Restriction Filter area of the Invited User Registration page.
 
-**Exclusion:** Type the email address of a user or group to exclude. To exclude multiple users or groups, type each email address on a new line. To exclude all users who belong to a particular domain, enter a wildcard and the domain name. For example, to exclude all users in the example.com domain, enter &#42;.example.com.
+**Exclusion:** Type the email address of a user or group to exclude. To exclude multiple users or groups, type each email address on a new line. To exclude all users who belong to a particular domain, enter a wildcard and the domain name. For example, to exclude all users in the example.com domain, enter &ast;.example.com.
 
-**Inclusion:** Type the email address of a user or group to include. To include multiple users or groups, type each email address on a new line. To include all users who belong to a particular domain, enter a wildcard and the domain name. For example, to include all users in the example.com domain, enter &#42;.example.com.
+**Inclusion:** Type the email address of a user or group to include. To include multiple users or groups, type each email address on a new line. To include all users who belong to a particular domain, enter a wildcard and the domain name. For example, to include all users in the example.com domain, enter &ast;.example.com.
 
 ### Server and registration account parameters {#server-and-registration-account-parameters}
 

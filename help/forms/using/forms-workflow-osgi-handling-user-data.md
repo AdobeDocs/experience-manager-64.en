@@ -84,11 +84,11 @@ To identify and access user data stored for a workflow instance, perform the fol
 
     * Execute the following if the workflow initiator is known:
 
-   `SELECT &#42; FROM [cq:Workflow] AS s WHERE ISDESCENDANTNODE([path-to-workflow-instances]) and s.[initiator]='*initiator-ID*'`
+   `SELECT &ast; FROM [cq:Workflow] AS s WHERE ISDESCENDANTNODE([path-to-workflow-instances]) and s.[initiator]='*initiator-ID*'`
 
     * Execute the following if the user whose data you are finding is the current workflow assignee:
 
-   `SELECT &#42; FROM [cq:WorkItem] AS s WHERE ISDESCENDANTNODE([path-to-workflow-instances]) and s.[assignee]='*assignee-id*'`
+   `SELECT &ast; FROM [cq:WorkItem] AS s WHERE ISDESCENDANTNODE([path-to-workflow-instances]) and s.[assignee]='*assignee-id*'`
 
    The query returns the location of all workflow instances for the specified workflow initiator or the current workflow assignee.
 

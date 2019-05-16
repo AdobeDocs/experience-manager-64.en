@@ -344,7 +344,7 @@ Add a user-agent as a regular expression below /apps/wcm/mobile/devicespecs/wurf
 1. In **CRXDE Lite**, create a node below /apps/wcm/mobile/devicespecs/regexp, e.g. apple_ipad_ver1.
 1. Add the following properties to the node:
 
-    * **regexp**: regular expression defining user-agents, e.g.: .&#42;Mozilla.&#42;iPad.&#42;AppleWebKit.&#42;Safari.&#42;
+    * **regexp**: regular expression defining user-agents, e.g.: .&ast;Mozilla.&ast;iPad.&ast;AppleWebKit.&ast;Safari.&ast;
     * **deviceId**: the device ID as defined in the wurfl.xml, e.g.: apple_ipad_ver1
 
 The above configuration causes devices for which the User-Agent matches the supplied regular expression to be mapped to the apple_ipad_ver1 WURFL™ device ID, if it exists.

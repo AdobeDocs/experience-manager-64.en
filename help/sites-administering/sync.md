@@ -510,9 +510,9 @@ The authorized user should explicitly have the following privileges and restrict
 
 | **path** |**jcr:all** |**rep:glob** |
 |---|---|---|
-| /home |X |&#42;/activities/&#42; |
-| /home/users |X |&#42;/activities/&#42; |
-| /home/groups |X |&#42;/activities/&#42; |
+| /home |X |&ast;/activities/&ast; |
+| /home/users |X |&ast;/activities/&ast; |
+| /home/groups |X |&ast;/activities/&ast; |
 
 As a member of the `administrators` group, the authorized user should have the following privileges on all publish instances :
 

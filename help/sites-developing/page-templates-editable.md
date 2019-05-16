@@ -584,7 +584,7 @@ Page policies allow you to define the [content policy](#content-policies) for th
 
    For example, with a value of:
 
-   `/conf/<*your-folder*>/settings/wcm/templates/.&#42;`
+   `/conf/<*your-folder*>/settings/wcm/templates/.&ast;`
 
 ## Resultant Content Pages {#resultant-content-pages}
 

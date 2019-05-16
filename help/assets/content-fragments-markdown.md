@@ -123,7 +123,7 @@ You can have nested block quotes. For example:
 
 You can create both ordered and unordered lists.
 
-To create an unordered list, use the &#42; symbol before the items in the list. For example:
+To create an unordered list, use the &ast; symbol before the items in the list. For example:
 
 `* item in list`  
 `* item in list`  

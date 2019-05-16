@@ -99,7 +99,7 @@ The email step uses Day CQ Mail Service to send emails. Before using the email s
 
 * **Workflow Metadata:** Use the option when the value to use is saved in a workflow metadata property. After selecting the option, enter the metadata property name in the empty text box below the Workflow Metadata option. For example, emailAddress.
 * **Asset URL:** Use the option to embed a web link of an interactive communication to the email. After selecting the option, browse and choose the interactive communication to embed. The asset can reside on the author or the publish server.
-* **Image:** Use the option to embed an image to the email. After selecting the option, browse and choose the image. The image option is available only for the image tags (&lt;img src="&#42;"/&gt;) available in the email template.
+* **Image:** Use the option to embed an image to the email. After selecting the option, browse and choose the image. The image option is available only for the image tags (&lt;img src="&ast;"/&gt;) available in the email template.
 
 **Sender’s / Recipient's Email Address:** Select the **Literal **option to manually specify an email address or select the ** Retrieve from Workflow metadata** option to retrieve the email address from a metadata property. You can also specify a list of metadata property arrays for the** Retrieve from Workflow metadata** option.
 
@@ -199,7 +199,7 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
     * **Map input fields from input JSON:** Specify path of a JSON file to obtain input value of some service arguments from the JSON file. Path of the JSON file can be relative to the payload or an absolute path.
 
 * **Input for services &gt; Provide input data using a JSON file:** Select the option to obtain values for all the arguments from a JSON file.
-* **Input JSON File Path**:**** Path of the JSON file containing values for all the service arguments. Path of the JSON file can be** relative to the payload** or an** absolute path**.
+* **Input JSON File Path**: Path of the JSON file containing values for all the service arguments. Path of the JSON file can be **relative to the payload** or an **absolute path**.
 
 * **JSON Dot Notation:** Leave the field blank to use all the objects of the specified JSON file as input for service arguments. To read a specific JSON object from the specified JSON file as input for service arguments, specify dot notation for the JSON object, for example, If you have a JSON similar to the one listed at the start of the section, specify insurance.customerDetails to provide all the details of a customer as input to the service.
 * **Output of service &gt; Map and write output values to metadata:** Select the option to save the output values as properties of the workflow instance metadata node in crx-repository. Specify the name of the metadata property and select the corresponding service output attribute to be mapped with metadata property, for example, map the phone_number returned by output service with the phone_number property of workflow metadata.

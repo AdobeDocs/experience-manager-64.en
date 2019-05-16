@@ -297,7 +297,7 @@ Perform the following steps to experience the creation of A/B test for We.Financ
 
 1. Now open the form in chrome browser several times using the following url:  
    https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/cc-app/jcr:content?wcmmode=disabled*** 
-   Note:**** Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
+   Note: Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
    You will see experience A and B of the form at random.
 
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.
@@ -434,7 +434,7 @@ The following image depicts the AEM workflow associated with the mortgage applic
 
 #### See it yourself {#see-it-yourself-7}
 
-You can access the AEM inbox at https://<***hostname***>:<***AuthorP******ort***>/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using `grios/password` as the username/password for Gloria Rios and `jdoe/jdoe` for John Doe, and explore the home mortgage application workflow.
+You can access the AEM inbox at https://<***hostname***>:<***AuthorPort***>/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using `grios/password` as the username/password for Gloria Rios and `jdoe/jdoe` for John Doe, and explore the home mortgage application workflow.
 
 For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](/help/forms/using/manage-applications-inbox.md).
 
@@ -548,7 +548,7 @@ Perform the following steps in the author instance to experience the creation of
 
 1. Now open the form in chrome browser several times using the following url:  
    https://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/hm-app/jcr:content?wcmmode=disabled** 
-   ****** Note:*** Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
+   **Note:** Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
    You will see experience A and B of the form at random.
 
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.

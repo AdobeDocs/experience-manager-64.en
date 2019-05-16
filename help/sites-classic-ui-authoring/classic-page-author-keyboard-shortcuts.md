@@ -17,7 +17,7 @@ Various keyboard shortcuts are available throughout AEM. Some apply when editing
 
 >[!NOTE]
 >
->In the following tables, for the key combinations in the **Shortcut &#42; **column, both Ctrl and Command keys work on macOS.
+>In the following tables, for the key combinations in the **Shortcut &ast; **column, both Ctrl and Command keys work on macOS.
 
 >[!NOTE]
 >

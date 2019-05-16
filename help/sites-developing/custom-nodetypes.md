@@ -33,7 +33,7 @@ In addition to these. CQ provides a range of custom node types.
 * @prop cq:category
 * @prop cq:properties
 
-**Definition** [cq:AuditEvent] - &#42; (undefined) - &#42; (undefined) multiple + &#42; (nt:base) = nt:base multiple version - cq:time (date) - cq:userid (string) - cq:path (string) - cq:type (string) - cq:category (string) - cq:properties (binary)
+**Definition** [cq:AuditEvent] - &ast; (undefined) - &ast; (undefined) multiple + &ast; (nt:base) = nt:base multiple version - cq:time (date) - cq:userid (string) - cq:path (string) - cq:type (string) - cq:category (string) - cq:properties (binary)
 
 ## Comment {#comment}
 
@@ -50,7 +50,7 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** Defines the nodetype of a commentattachment node
 
-**Definition** [cq:CommentAttachment] > nt:file - &#42; (undefined) - &#42; (undefined) multiple
+**Definition** [cq:CommentAttachment] > nt:file - &ast; (undefined) - &ast; (undefined) multiple
 
 ### cq:CommentContent {#cq-commentcontent}
 
@@ -84,7 +84,7 @@ In addition to these. CQ provides a range of custom node types.
 * @node jcr:content  
   Primary content of the page.
 
-**Definition** [cq:Page] > nt:hierarchyNode orderable + jcr:content (nt:base) = nt:unstructured copy primary + &#42; (nt:base) = nt:base version
+**Definition** [cq:Page] > nt:hierarchyNode orderable + jcr:content (nt:base) = nt:unstructured copy primary + &ast; (nt:base) = nt:base version
 
 ### cq:PseudoPage {#cq-pseudopage}
 
@@ -151,7 +151,7 @@ In addition to these. CQ provides a range of custom node types.
 * @prop ranking  
   Position within the list of templates in the create page dialog.
 
-**Definition** [cq:Template] > nt:hierarchyNode, mix:title - &#42; (undefined) - &#42; (undefined) multiple + &#42; (nt:base) = nt:base multiple version + jcr:content (nt:base) copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy + workflows (nt:base) copy - allowedParents (string) multiple - allowedChildren (string) multiple - ranking (long)
+**Definition** [cq:Template] > nt:hierarchyNode, mix:title - &ast; (undefined) - &ast; (undefined) multiple + &ast; (nt:base) = nt:base multiple version + jcr:content (nt:base) copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy + workflows (nt:base) copy - allowedParents (string) multiple - allowedChildren (string) multiple - ranking (long)
 
 ### cq:Component {#cq-component}
 
@@ -197,7 +197,7 @@ In addition to these. CQ provides a range of custom node types.
 * @node cq:infoProviders   
   Contains subnodes, each of which has a property `className` that refers to a `PageInfoProvider`.
 
-**Definition** [cq:Component] > nt:folder, mix:title, sling:ResourceSuperType - &#42; (undefined) - &#42; (undefined) multiple + &#42; (nt:base) = nt:base multiple version + dialog (nt:base) = nt:unstructured copy - dialogPath (string) + design_dialog (nt:base) = nt:unstructured copy - cq:cellName (string) - cq:isContainer (boolean) - cq:noDecoration (boolean) + cq:editConfig (cq:EditConfig) = cq:EditConfig copy + cq:childEditConfig (cq:EditConfig) = cq:EditConfig copy + cq:htmlTag (nt:base) = nt:unstructured copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy - allowedParents (string) multiple - allowedChildren (string) multiple + virtual (nt:base) = sling:Folder copy - componentGroup (string) + cq:infoProviders (nt:base) = nt:unstructured copy
+**Definition** [cq:Component] > nt:folder, mix:title, sling:ResourceSuperType - &ast; (undefined) - &ast; (undefined) multiple + &ast; (nt:base) = nt:base multiple version + dialog (nt:base) = nt:unstructured copy - dialogPath (string) + design_dialog (nt:base) = nt:unstructured copy - cq:cellName (string) - cq:isContainer (boolean) - cq:noDecoration (boolean) + cq:editConfig (cq:EditConfig) = cq:EditConfig copy + cq:childEditConfig (cq:EditConfig) = cq:EditConfig copy + cq:htmlTag (nt:base) = nt:unstructured copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy - allowedParents (string) multiple - allowedChildren (string) multiple + virtual (nt:base) = sling:Folder copy - componentGroup (string) + cq:infoProviders (nt:base) = nt:unstructured copy
 
 ### cq:ComponentMixin {#cq-componentmixin}
 
@@ -275,7 +275,7 @@ In addition to these. CQ provides a range of custom node types.
 * @prop componentGroup   
   Name of the component group for the component drag and drop.
 
-**Definition** [cq:VirtualComponent] > nt:folder, mix:title - &#42; (undefined) - &#42; (undefined) multiple + &#42; (nt:base) = nt:base multiple version + cq:editConfig (cq:EditConfig) = cq:EditConfig copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy - allowedParents (string) multiple - allowedChildren (string) multiple - componentGroup (string)
+**Definition** [cq:VirtualComponent] > nt:folder, mix:title - &ast; (undefined) - &ast; (undefined) multiple + &ast; (nt:base) = nt:base multiple version + cq:editConfig (cq:EditConfig) = cq:EditConfig copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy - allowedParents (string) multiple - allowedChildren (string) multiple - componentGroup (string)
 
 ### cq:EditListenersConfig {#cq-editlistenersconfig}
 
@@ -298,7 +298,7 @@ In addition to these. CQ provides a range of custom node types.
 * @prop aftermove   
   Fires after components have been moved in this container.
 
-**Definition** [cq:EditListenersConfig] - &#42; (undefined) - &#42; (undefined) multiple + &#42; (nt:base) = nt:base multiple version - aftercreate (string) - afteredit (string) - afterdelete (string) - afterinsert (string) - afterremove (string) - aftermove (string)
+**Definition** [cq:EditListenersConfig] - &ast; (undefined) - &ast; (undefined) multiple + &ast; (nt:base) = nt:base multiple version - aftercreate (string) - afteredit (string) - afterdelete (string) - afterinsert (string) - afterremove (string) - aftermove (string)
 
 ## DAM {#dam}
 
@@ -312,7 +312,7 @@ In addition to these. CQ provides a range of custom node types.
 
 **Description** DAM asset.
 
-**Definition** [dam:Asset] > nt:hierarchyNode + jcr:content (dam:AssetContent) = dam:AssetContent copy primary + &#42; (nt:base) = nt:base version
+**Definition** [dam:Asset] > nt:hierarchyNode + jcr:content (dam:AssetContent) = dam:AssetContent copy primary + &ast; (nt:base) = nt:base version
 
 ### dam:Thumbnail {#dam-thumbnail}
 
@@ -340,10 +340,10 @@ In addition to these. CQ provides a range of custom node types.
   csd standard attribute, copy of the cq:csd property of the page node
 * @prop timestampe (long) mandatory copy  
   Timestamp of last version modification, generally checkin time.
-* @prop &#42; (string) copy  
+* @prop &ast; (string) copy  
   Additional attributes, versioned with the parent node.
 
-**Definition** [cq:Cq4PageAttributes] > nt:base - created (long) mandatory copy - csd (string) mandatory copy - timestampe (long) mandatory copy - &#42; (string) copy
+**Definition** [cq:Cq4PageAttributes] > nt:base - created (long) mandatory copy - csd (string) mandatory copy - timestampe (long) mandatory copy - &ast; (string) copy
 
 ### cq:Cq4ContentPage {#cq-cq-contentpage}
 
@@ -422,10 +422,10 @@ The items in a "cq:Cq4ContentPage" are:
   Defines if the relationship is available for children.
 * @prop cq:syncTrigger   
   Defines when is triggered the sync.
-* @node &#42; LiveSyncAction   
+* @node &ast; LiveSyncAction   
   Actions to perform on sync
 
-**Definition** [cq:LiveSync] > cq:LiveRelationship mixin orderable + &#42; (cq:LiveSyncAction) = cq:LiveSyncAction + cq:LiveSyncConfig (nt:base) = cq:LiveSyncConfig
+**Definition** [cq:LiveSync] > cq:LiveRelationship mixin orderable + &ast; (cq:LiveSyncAction) = cq:LiveSyncAction + cq:LiveSyncConfig (nt:base) = cq:LiveSyncConfig
 
 ### cq:LiveSyncCancelled {#cq-livesynccancelled}
 
@@ -451,7 +451,7 @@ The items in a "cq:Cq4ContentPage" are:
 
 **Description** Live Sync configuration.
 
-**Definition** [cq:LiveSyncConfig] - cq:master (string) mandatory - cq:isDeep (boolean) - cq:trigger (string) /&#42;&#42; deprecated &#42;&#42;/
+**Definition** [cq:LiveSyncConfig] - cq:master (string) mandatory - cq:isDeep (boolean) - cq:trigger (string) /&ast;&ast; deprecated &ast;&ast;/
 
 For CQ 5.4 add to the end of list:
 
@@ -505,9 +505,9 @@ For CQ 5.4 add to the end of list:
 **Description** Defines an application privilege ACL.
 
 * @prop cq:isPathDependent
-* @node &#42; ACEs
+* @node &ast; ACEs
 
-**Definition** [cq:PrivilegeAcl] > cq:ApplicationPrivilege mixin orderable - cq:isPathDependent (boolean) + &#42; (cq:PrivilegeAce) = cq:PrivilegeAce
+**Definition** [cq:PrivilegeAcl] > cq:ApplicationPrivilege mixin orderable - cq:isPathDependent (boolean) + &ast; (cq:PrivilegeAce) = cq:PrivilegeAce
 
 ### cq:PrivilegeAce {#cq-privilegeace}
 
@@ -529,9 +529,9 @@ For CQ 5.4 add to the end of list:
 **Description** Defines an application privilege ACL.
 
 * @prop cq:isPathDependent
-* @node &#42; ACEs
+* @node &ast; ACEs
 
-**Definition** [cq:PrivilegeAcl] > cq:ApplicationPrivilege mixin orderable - cq:isPathDependent (boolean) + &#42; (cq:PrivilegeAce) = cq:PrivilegeAce
+**Definition** [cq:PrivilegeAcl] > cq:ApplicationPrivilege mixin orderable - cq:isPathDependent (boolean) + &ast; (cq:PrivilegeAce) = cq:PrivilegeAce
 
 ### cq:PrivilegeAce {#cq-privilegeace-1}
 
@@ -556,7 +556,7 @@ For CQ 5.4 add to the end of list:
 
 **Description** Defines a single tag, but can also contain tags, thus creating a taxonomy
 
-**Definition** [cq:Tag] > nt:base, mix:title - sling:resourceType (String) - &#42; (undefined) multiple - &#42; (undefined) + &#42; (nt:base) = cq:Tag version
+**Definition** [cq:Tag] > nt:base, mix:title - sling:resourceType (String) - &ast; (undefined) multiple - &ast; (undefined) + &ast; (nt:base) = cq:Tag version
 
 ### cq:Taggable {#cq-taggable}
 
@@ -598,7 +598,7 @@ For CQ 5.4 add to the end of list:
 
 **Description** Can be modified by users.
 
-**Definition** [cq:UserContent] > nt:unstructured // userids + &#42; (cq:UserData) // other content + &#42; (nt:base)
+**Definition** [cq:UserContent] > nt:unstructured // userids + &ast; (cq:UserData) // other content + &ast; (nt:base)
 
 ### cq:UserData {#cq-userdata}
 
@@ -624,7 +624,7 @@ For CQ 5.4 add to the end of list:
 
 **Description** Widget collection.
 
-**Definition** [cq:WidgetCollection] > nt:unstructured orderable + &#42; (cq:Widget) = cq:Widget copy
+**Definition** [cq:WidgetCollection] > nt:unstructured orderable + &ast; (cq:Widget) = cq:Widget copy
 
 ### cq:Dialog {#cq-dialog}
 
@@ -656,7 +656,7 @@ For CQ 5.4 add to the end of list:
 
 **Description** Wiki topic.
 
-**Definition** [wiki:Topic] > nt:unstructured, nt:hierarchyNode, mix:versionable, mix:lockable + &#42; (wiki:Topic) version + wiki:attachments (nt:folder) = nt:folder version + wiki:properties (wiki:Properties) = wiki:Properties copy - wiki:text (string) mandatory primary - wiki:lastModified (date) mandatory - wiki:lastModifiedBy (string) mandatory - wiki:topicName - wiki:topicTitle - wiki:lockedBy - wiki:logMessage (string) - wiki:quietSave (boolean)
+**Definition** [wiki:Topic] > nt:unstructured, nt:hierarchyNode, mix:versionable, mix:lockable + &ast; (wiki:Topic) version + wiki:attachments (nt:folder) = nt:folder version + wiki:properties (wiki:Properties) = wiki:Properties copy - wiki:text (string) mandatory primary - wiki:lastModified (date) mandatory - wiki:lastModifiedBy (string) mandatory - wiki:topicName - wiki:topicTitle - wiki:lockedBy - wiki:logMessage (string) - wiki:quietSave (boolean)
 
 ### wiki:User {#wiki-user}
 
@@ -668,7 +668,7 @@ For CQ 5.4 add to the end of list:
 
 **Description** Wiki properties.
 
-**Definition** [wiki:Properties] - wiki:isGlobal (boolean) - &#42; (undefined)
+**Definition** [wiki:Properties] - wiki:isGlobal (boolean) - &ast; (undefined)
 
 ## Workflow {#workflow}
 
@@ -676,7 +676,7 @@ For CQ 5.4 add to the end of list:
 
 **Description** Represents a workflow instance.
 
-**Definition** [cq:Workflow] > nt:base, mix:referenceable - modelId (String) - modelVersion (String) - startTime (Date) - endTime (Date) - initiator (String) - &#42; (undefined) - &#42; (undefined) multiple - sling:resourceType (String) = "cq/workflow/components/instance" mandatory autocreated + workflowStack (nt:unstructured) + wait (nt:unstructured) + orTab (nt:unstructured) + data (cq:WorkflowData) + history (nt:unstructured) + metaData (nt:unstructured) + workItems (nt:unstructured)
+**Definition** [cq:Workflow] > nt:base, mix:referenceable - modelId (String) - modelVersion (String) - startTime (Date) - endTime (Date) - initiator (String) - &ast; (undefined) - &ast; (undefined) multiple - sling:resourceType (String) = "cq/workflow/components/instance" mandatory autocreated + workflowStack (nt:unstructured) + wait (nt:unstructured) + orTab (nt:unstructured) + data (cq:WorkflowData) + history (nt:unstructured) + metaData (nt:unstructured) + workItems (nt:unstructured)
 
 ### cq:WorkItem {#cq-workitem}
 
@@ -688,13 +688,13 @@ For CQ 5.4 add to the end of list:
 
 **Description** Payload.
 
-**Definition** [cq:Payload] - path (Path) - uuid (String) - jcr:url (String) - binary (Binary) - javaObject (String) - &#42; (undefined) - &#42; (undefined) multiple
+**Definition** [cq:Payload] - path (Path) - uuid (String) - jcr:url (String) - binary (Binary) - javaObject (String) - &ast; (undefined) - &ast; (undefined) multiple
 
 ### cq:WorkflowData {#cq-workflowdata}
 
 **Description** Workflow data.
 
-**Definition** [cq:WorkflowData] - &#42; (undefined) - &#42; (undefined) multiple + payload (cq:Payload) + metaData (nt:unstructured) copy
+**Definition** [cq:WorkflowData] - &ast; (undefined) - &ast; (undefined) multiple + payload (cq:Payload) + metaData (nt:unstructured) copy
 
 ### cq:WorkflowModel {#cq-workflowmodel}
 
@@ -706,7 +706,7 @@ For CQ 5.4 add to the end of list:
 
 **Description** Workflow node.
 
-**Definition** [cq:WorkflowNode] orderable - title (String) - description (String) - maxIdleTime (long) - type (String) - &#42; (undefined) - &#42; (undefined) multiple + metaData (nt:unstructured) copy + timeoutConfiguration (nt:unstructured) copy
+**Definition** [cq:WorkflowNode] orderable - title (String) - description (String) - maxIdleTime (long) - type (String) - &ast; (undefined) - &ast; (undefined) multiple + metaData (nt:unstructured) copy + timeoutConfiguration (nt:unstructured) copy
 
 ### cq:WorkflowTransition {#cq-workflowtransition}
 
@@ -742,4 +742,4 @@ For CQ 5.4 add to the end of list:
 
 **Description** Workflow launcher.
 
-**Definition** [cq:WorkflowLauncher] - nodetype (String) - glob (String) - eventType (Long) - description (String) - condition (String) - workflow (String) - &#42; (undefined) - &#42; (undefined) multiple
+**Definition** [cq:WorkflowLauncher] - nodetype (String) - glob (String) - eventType (Long) - description (String) - condition (String) - workflow (String) - &ast; (undefined) - &ast; (undefined) multiple

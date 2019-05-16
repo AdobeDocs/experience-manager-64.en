@@ -65,7 +65,7 @@ The wizard will create an entry with this structure:
 >
 >All data types dragged and dropped in a model editor, and as such instantiated, **must** have the `name` property input by the user. 
 >
->This is seen as **Property Name &#42;** in the **Properties** tab of model editor.
+>This is seen as **Property Name &ast;** in the **Properties** tab of model editor.
 
 ## Structure of the Model Editor {#structure-of-the-model-editor}
 
@@ -96,7 +96,7 @@ The properties on the right side define a form that is submitted directly into J
 
 When a data type is instantiated, HTML inputs are created for every property the component needs to be rendered in a content fragment. For example, these include:
 
-* **Property Name &#42;** ( `name`) - acts as an identifier for components
+* **Property Name &ast;** ( `name`) - acts as an identifier for components
 
 * **Render As** ( `metaType`) - type the component is to be rendered as
 

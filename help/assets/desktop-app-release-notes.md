@@ -59,7 +59,7 @@ This release extends and replaces the previous versions of the Experience Manage
 
 >[!NOTE]
 >
->Compatibility (&#42;) - Availability of buttons in Touch UI for new Desktop App 1.4 features - Folder Upload, Edit action:
+>Compatibility (&ast;) - Availability of buttons in Touch UI for new Desktop App 1.4 features - Folder Upload, Edit action:
 >
 >* AEM 6.3 - available
 >* AEM 6.2 SP1 - available with CFP8

@@ -301,7 +301,7 @@ To help prevent DoS misuse you can:
 >
 >This mitigation should be performed only on AEM environments that are not using Forms.
 
-Since AEM does not provide out of the box indexes for the `FormChooserServlet`, using form selectors in queries will trigger a costly repository traversal, usually grinding the AEM instance to a halt. Form selectors can be detected by the presence of the **&#42;.form.&#42;** string in queries.
+Since AEM does not provide out of the box indexes for the `FormChooserServlet`, using form selectors in queries will trigger a costly repository traversal, usually grinding the AEM instance to a halt. Form selectors can be detected by the presence of the **&ast;.form.&ast;** string in queries.
 
 In order to mitigate this, please follow the below steps:
 

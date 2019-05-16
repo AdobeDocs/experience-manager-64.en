@@ -440,7 +440,7 @@ On an author instance, signed in with administrative privileges:
 1. Modify the properties of node ntBaseLucene-oauth:
 
     * **indexPath**: /oak:index/ntBaseLucene-oauth
-    * **name**: oauthid-123**&#42;**
+    * **name**: oauthid-123**&ast;**
     
     * **reindex**: true
     * **reindexCount**: 1
@@ -448,14 +448,14 @@ On an author instance, signed in with administrative privileges:
 1. Under node /oak:index/ntBaseLucene-oauth/indexRules/nt:base/properties:
 
     * Delete all child nodes, except for cqTags.
-    * Rename cqTags to oauthid-123**&#42;.**
-    * Modify the properties of node oauthid-123**&#42;**:
+    * Rename cqTags to oauthid-123**&ast;.**
+    * Modify the properties of node oauthid-123**&ast;**:
 
-        * **name**: oauthid-123**&#42;**
+        * **name**: oauthid-123**&ast;**
 
     * Select **Save All.**
 
-**&#42;** For the **name** oauthid-*123*, replace *123* with the Facebook ***App ID*** or Twitter ***Consumer (API) Key*** that is the value of the **Client ID** in the [Adobe Granite OAuth Application and Provider](/help/communities/social-login.md#adobe-granite-oauth-application-and-provider)configuration.
+**&ast;** For the **name** oauthid-*123*, replace *123* with the Facebook ***App ID*** or Twitter ***Consumer (API) Key*** that is the value of the **Client ID** in the [Adobe Granite OAuth Application and Provider](/help/communities/social-login.md#adobe-granite-oauth-application-and-provider)configuration.
 
 ![](assets/chlimage_1-492.png)
 

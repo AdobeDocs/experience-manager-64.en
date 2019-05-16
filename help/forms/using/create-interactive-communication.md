@@ -274,7 +274,7 @@ You can add dynamic tables in Interactive Communication using layout fragments. 
 
         * **[!UICONTROL Name]**: JCR node name.
         * **[!UICONTROL Title]**: Enter a title that will be visible in the Interactive Communication editor. 
-        * **[!UICONTROL Binding Type]**&#42;: Select one of the following binding types for the field.
+        * **[!UICONTROL Binding Type]**&ast;: Select one of the following binding types for the field.
 
             * **[!UICONTROL None]**
             * **[!UICONTROL Data model object]**: A form data model propert's value is populated in the field.

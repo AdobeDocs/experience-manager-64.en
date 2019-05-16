@@ -172,7 +172,7 @@ An Adobe Analytics framework is a set of mappings between Adobe Analytics variab
     * **SiteCatalyst Framework**: Select the framework/configuration that you defined in the Set up a framework for tracking section.
     * **Field time tracking baseline**: Specify the duration, in seconds, after which the field visit must be tracked. The default value is 0. When the value is greater than 0 (zero), two separate tracking events are sent to Adobe Analytics server. The first event instructs the analytics server to stop tracking the exited field. The second event is sent after the specified duration elapses. The second event instructs the analytics server to start tracking the visited field. Using two separate events helps accurately measure time spent on a field. When the value is 0 (zero), single tracking event is sent to Adobe Analytics server.  
     
-    * **Analytics report sync cron**: Specify cron expression for fetching reports from Adobe Analytics. The default value is 0 0 2 ? &#42; &#42;.  
+    * **Analytics report sync cron**: Specify cron expression for fetching reports from Adobe Analytics. The default value is 0 0 2 ? &ast; &ast;.  
     
     * **Fetch report timeout:** Specify the duration, in seconds, to wait for server to respond to the analytics report. The default time is 120 seconds.
 

@@ -139,7 +139,7 @@ In the Basic tab, you can configure the following properties:
 
 **X-axis > Title** Specifies the title for the x-axis.
 
-**X-axis > Data Model Object &#42;** Specify the name of the form data model collection item to be plotted on x-axis.
+**X-axis > Data Model Object &ast;** Specify the name of the form data model collection item to be plotted on x-axis.
 
 **X-axis > Function** Specifies the statistical/custom function to use for computing the values on x-axis. For more information about functions, see Use functions in chart and Example 2: Application of sum and mean functions in a line chart.
 
@@ -147,7 +147,7 @@ In the Basic tab, you can configure the following properties:
 
 **Y-axis > Title** Specifies the title for the y-axis.
 
-**Y-axis > Data Model Object &#42;** Specifies the form data model collection item to be plotted on y-axis. In the Print channel, the data model object for the Y-axis should be of type Number.
+**Y-axis > Data Model Object &ast;** Specifies the form data model collection item to be plotted on y-axis. In the Print channel, the data model object for the Y-axis should be of type Number.
 
 **Y-axis > Function** Specifies the statistical/custom function to use for computing the values on y-axis. For more information about functions, see Use functions in chart and Example 2: Application of sum and mean functions in a line chart.
 

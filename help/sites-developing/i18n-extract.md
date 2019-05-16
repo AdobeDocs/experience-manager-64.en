@@ -63,10 +63,10 @@ The pattern part of a rule is used to match the names of the files to include or
 | Prefix |Effect |
 |---|---|
 | / |Indicates a JCR path. Therefore, this prefix matches files below the jcr_root directory. |
-| &#42; |Indicates a regular file on the file system. |
+| &ast; |Indicates a regular file on the file system. |
 | none |No prefix, or a pattern that begins with a folder or file name, indicates a regular file on the file system. |
 
-When used within a pattern, the / character indicates a subdirectory and the &#42; character matches all. The following table lists several example rules.
+When used within a pattern, the / character indicates a subdirectory and the &ast; character matches all. The following table lists several example rules.
 
 <table> 
  <tbody> 

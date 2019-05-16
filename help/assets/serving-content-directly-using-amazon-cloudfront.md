@@ -80,7 +80,7 @@ You require the AWS CloudFront key to configure the feature. If you do not have 
 
         * `Distribution ID`: The id of the cloudfront distribution
         * `Event type`: origin-request
-        * `Path pattern`: &#42;
+        * `Path pattern`: &ast;
 
     * Enable triggers and replicate.
 

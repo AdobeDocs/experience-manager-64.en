@@ -516,7 +516,7 @@ Publishing videos to YouTube requires that you have one or more channels. If you
 
 >[!CAUTION]
 >
->Be sure you have already set up one or more channels in YouTube &#42;before&#42; you add channels under YouTube Settings in AEM (see [Setting up YouTube in AEM](#setting-up-youtube-in-aem) below). If you fail to do this, you are not given any warning of no existing channels. However, Google authentication still occurs when you add a channel, but there is not an option to choose which channel the video is sent.
+>Be sure you have already set up one or more channels in YouTube &ast;before&ast; you add channels under YouTube Settings in AEM (see [Setting up YouTube in AEM](#setting-up-youtube-in-aem) below). If you fail to do this, you are not given any warning of no existing channels. However, Google authentication still occurs when you add a channel, but there is not an option to choose which channel the video is sent.
 
 To create a YouTube channel:
 

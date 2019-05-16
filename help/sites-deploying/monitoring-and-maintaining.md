@@ -146,7 +146,7 @@ The **Dry Run** and **Purge** processes list all the nodes that have been proces
 Moreover the console provides useful information about the versions:
 
 * `V 1.0`: the version number.
-* `V 1.0.1`&#42;: the star indicates that the version is the current one.  
+* `V 1.0.1`&ast;: the star indicates that the version is the current one.  
 
 * `Thu Mar 15 2012 08:37:32 GMT+0100`: the date of the version.
 

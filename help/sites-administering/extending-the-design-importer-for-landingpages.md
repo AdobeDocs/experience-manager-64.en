@@ -459,7 +459,7 @@ Use of CSS selectors similar to following ones is not recommended for use with e
 This is due to the fact that additional html elements like &lt;div&gt; tag are added to the generated Html after the import.
 
 * Scripts relying on the structure similar to above also are not recommended for use with elements marked for conversion to AEM components.
-* Use of styles on the markup tags for component conversion like &lt;div data-cq-component=”&#42;”&gt; is not recommended.
+* Use of styles on the markup tags for component conversion like &lt;div data-cq-component=”&ast;”&gt; is not recommended.
 * The design layout should follow best practices from HTML5 Boilerplate. Read more on: [https://html5boilerplate.com/](https://html5boilerplate.com/).
 
 ## Configuring OSGI modules {#configuring-osgi-modules}

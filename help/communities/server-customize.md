@@ -39,7 +39,7 @@ All SocialCollectionComponent classes must implement the interface com.adobe.cq.
 
 ### SocialComponentFactory Interface {#socialcomponentfactory-interface}
 
-A SocialComponentFactory (factory) registers a SocialComponent with the framework. The factory provides a means of letting the framework know what SocialComponents are available for a given resourceType and their priority ranking&#42; when multiple SocialComponents are identified.
+A SocialComponentFactory (factory) registers a SocialComponent with the framework. The factory provides a means of letting the framework know what SocialComponents are available for a given resourceType and their priority ranking&ast; when multiple SocialComponents are identified.
 
 A SocialComponentFactory is responsible for creating an instance of the selected SocialComponent making it possible to inject all dependencies needed by the SocialComponent from the factory using DI practices.
 
@@ -47,7 +47,7 @@ A SocialComponentFactory is an OSGi service and has access to other OSGi service
 
 All SocialComponentFactory classes must implement the interface `com.adobe.cq.social.scf.SocialComponentFactory`
 
-&#42; An implementation of SocialComponentFactory.getPriority() method should return the highest value in order for the factory to be used for the given resourceType as returned by getResourceType().
+&ast; An implementation of SocialComponentFactory.getPriority() method should return the highest value in order for the factory to be used for the given resourceType as returned by getResourceType().
 
 ### SocialComponentFactoryManager Interface {#socialcomponentfactorymanager-interface}
 

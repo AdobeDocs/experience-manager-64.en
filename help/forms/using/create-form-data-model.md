@@ -71,7 +71,7 @@ Do the following to configure your MySQL database:
         * **Password:** Password of the database. It is required to enable JDBC driver to establish a connection with the database.
         * **Test on Borrow:** Enable the **Test on Borrow** option.   
         * **Test on Return:** Enable the **Test on Return** option.   
-        * **Validation Query:** Specify a SQL SELECT query to validate connections from the pool. The query must return at least one row. For example, **select &#42; from customerdetails**.
+        * **Validation Query:** Specify a SQL SELECT query to validate connections from the pool. The query must return at least one row. For example, **select &ast; from customerdetails**.
         * **Transaction Isolation**: Set the value to **READ_COMMITTED**.
 
        Leave other properties with default [values](https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html) and tap **Save**.

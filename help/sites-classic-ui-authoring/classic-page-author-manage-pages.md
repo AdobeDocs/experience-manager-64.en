@@ -98,7 +98,7 @@ If you supply only a page **Title** when creating a new page, AEM will derive th
 | Title |Derived Name |
 |---|---|
 | Schön |schoen.html |
-| SC%&&#42;ç+ |sc---c-.html |
+| SC%&&ast;ç+ |sc---c-.html |
 
 #### Name {#name}
 

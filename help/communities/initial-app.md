@@ -52,14 +52,14 @@ In this exercise, all pages are based on one simple template.
 
 1. "Allowed Paths" refers to the paths of pages which use this template, such that the template is listed for the **New Page** dialog.
 
-   To add a path, click the plus button** '+' **and type /content(/.&#42;)? in the text box that appears. If using copy/paste, ensure there are no leading or trailing spaces.
+   To add a path, click the plus button** '+' **and type /content(/.&ast;)? in the text box that appears. If using copy/paste, ensure there are no leading or trailing spaces.
 
    Note: the value of the allowed path property is a *regular expression.* Content pages that have a path that matches the expression can use the template. In this case, the regular expression matches the path of the **/content ** folder and all its subpages.
 
    When an author creates a page below `/content`, the `playpage`template titled "An SCF Sandbox Page Template" appears in a list of available templates to use.
 
    After the root page is created from the template, access to the template could be restricted to this website by modifying the property to include the root path in the regular expression, i.e..  
-   **/content/an-scf-sandbox(/.&#42;)?**
+   **/content/an-scf-sandbox(/.&ast;)?**
 
    ![](assets/chlimage_1-76.png)
 

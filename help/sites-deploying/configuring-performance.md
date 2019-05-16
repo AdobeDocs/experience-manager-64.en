@@ -244,8 +244,8 @@ Create a job queue for a specific workflow model so that you can configure job h
 
 When workflow models execute, they create Sling jobs for a specific topic. By default, the topic matches the topics that are configured for the general Granite Workflow Queue, or the Granite Workflow External Process Job Queue:
 
-* com/adobe/granite/workflow/job&#42;
-* com/adobe/granite/workflow/external/job&#42;
+* com/adobe/granite/workflow/job&ast;
+* com/adobe/granite/workflow/external/job&ast;
 
 Actual job topics that worflow models generate include model-specific suffix. For example, the DAM Update Asset workflow model generates jobs with the following topic:
 
@@ -425,7 +425,7 @@ When devising these tests it should be remembered that not all scenarios will oc
 
 |  Error Scenario |Error Type |#Users |Tx/sec (Expected) |Tx/sec (Tested) |Description  |
 |---|---|---|---|---|---|
-| Search component overload |Search on global wildcard (asterisk) |10 |1 |  |Only &#42;&#42;&#42; are searched. |
+| Search component overload |Search on global wildcard (asterisk) |10 |1 |  |Only &ast;&ast;&ast; are searched. |
 |   |Stop word |20 |2 |  |Searching for a stop word. |
 |   |Empty string |10 |1 |  |Searching for an empty string. |
 |   |Special characters |10 |1 |  |Searching for special characters. |

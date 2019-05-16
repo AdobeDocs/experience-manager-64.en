@@ -197,7 +197,7 @@ These, in conjunction with standard functionality, enable you to:
         * type: `String[]`
         * value: a list of the child nodes (as defined in `/libs`) to hide/ignore
 
-       The wildcard &#42; can be used to hid/ignore all child nodes.
+       The wildcard &ast; can be used to hid/ignore all child nodes.
 
 * **Reorder nodes**
 

@@ -187,7 +187,7 @@ On a standard installation (author or publish) everyone has read access to the e
 
 These access rights are defined by the following wildcard ACL:
 
-/home everyone allow jcr:read rep:glob = &#42;/profile&#42;
+/home everyone allow jcr:read rep:glob = &ast;/profile&ast;
 
 That allows:
 

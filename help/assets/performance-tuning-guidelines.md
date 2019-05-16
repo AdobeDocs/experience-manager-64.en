@@ -209,7 +209,7 @@ In addition, set the path of ImageMagick's temporary folder in the *configure.xm
 
 >[!NOTE]
 >
->The ImageMagick policy.xml and configure.xml files may be found under /usr/lib64/ImageMagick-&#42;/config/ instead of /etc/ImageMagick/. Refer to the [ImageMagick documentation](https://www.imagemagick.org/script/resources.php) for details on the configuration file locations.
+>The ImageMagick policy.xml and configure.xml files may be found under /usr/lib64/ImageMagick-&ast;/config/ instead of /etc/ImageMagick/. Refer to the [ImageMagick documentation](https://www.imagemagick.org/script/resources.php) for details on the configuration file locations.
 
 #### Sub-asset generation and page extraction {#sub-asset-generation-and-page-extraction}
 
