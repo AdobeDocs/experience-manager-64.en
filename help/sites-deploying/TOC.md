@@ -125,5 +125,6 @@ Redirects:
     [(Redirect)Configuring and Deploying AEM Screens](configuring-screens-introduction.md)
     [(Redirect)Kickstart Guide](kickstart-for-aem-screens.md)
     [(Redirect)Glossary](screens-glossary.md)
-    [(Redirect)What is AEM Screens?](aem-screens-introduction.md)  
+    [(Redirect)What is AEM Screens?](aem-screens-introduction.md)
+    [(Enabling HTTP Over SSL)](config-ssl.md) redirect to /content/help/en/experience-manager/6-4/sites-administering/ssl-by-default
 -->
