@@ -58,7 +58,7 @@ Whichever method you use, all of these configuration methods:
 
 ## OSGi Configuration with the Web Console {#osgi-configuration-with-the-web-console}
 
-The [Web console](/help/sites-deploying/configuring-web-console.md) in AEM provides a standardized interface for configuring the bundles. The **Configuration** tab is used for configuring the OSGi bundles, and is therefore the underlying mechanism for configuring AEM system parameters.
+The [Web console](/help/sites-deploying/web-console.md) in AEM provides a standardized interface for configuring the bundles. The **Configuration** tab is used for configuring the OSGi bundles, and is therefore the underlying mechanism for configuring AEM system parameters.
 
 Any changes made are immediately applied to the relevant OSGi configuration, no restart is required.
 
