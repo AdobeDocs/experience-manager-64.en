@@ -25,10 +25,10 @@ Any SPA project on AEM should leverage the [Maven Archetype for SPA Starter Kit]
 
 Developing single page applications on AEM assumes that the front-end developer observes standard best practices when creating an SPA. If as a front end developer you follow these general best practices as well as few AEM-specific principles, your SPA will be functional with [AEM and its content-authoring capabilities](/help/sites-developing/spa-walkthrough.md#content-editing-experience-with-spa).
 
-* ** [Portability](/help/sites-developing/spa-architecture.md#portability) -** As with any components, the components should be built to be as portable as possible. The SPA should be built with portably and reusable components, avoiding static paths that refer to the content structure.
-* ** [AEM Drives Site Structure](/help/sites-developing/spa-architecture.md#aem-drives-site-structure) - **The front-end developer creates components and owns their internal structure, but relies on AEM to define the content structure of the site.
-* ** [Dynamic Rendering](/help/sites-developing/spa-architecture.md#dynamic-rendering) -** All rendering should be dynamic.
-* ** [Dynamic Routing](#dynamic-routing) -** The SPA is responsible for the routing and AEM listens to it and fetches the component data based on it. Any routing should be dynamic as well.
+* **[Portability](/help/sites-developing/spa-architecture.md#portability) -** As with any components, the components should be built to be as portable as possible. The SPA should be built with portably and reusable components, avoiding static paths that refer to the content structure.
+* **[AEM Drives Site Structure](/help/sites-developing/spa-architecture.md#aem-drives-site-structure) - **The front-end developer creates components and owns their internal structure, but relies on AEM to define the content structure of the site.
+* **[Dynamic Rendering](/help/sites-developing/spa-architecture.md#dynamic-rendering) -** All rendering should be dynamic.
+* **[Dynamic Routing](#dynamic-routing) -** The SPA is responsible for the routing and AEM listens to it and fetches the component data based on it. Any routing should be dynamic as well.
 
 If you keep these principles in mind as you develop your SPA, it will be as flexible and as future proof as possible while enabling all supported AEM authoring functionality.
 

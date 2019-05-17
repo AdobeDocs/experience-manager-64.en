@@ -129,7 +129,7 @@ The properties are distributed across several tabs.
 
   Enables (or disables) use of authentication to access the page.
 
-  The requirement to have authentication can be set here along with a designated logon page. Closed user groups for the page are defined on the ** [Permissions](/help/sites-authoring/editing-page-properties.md#permissions)** tab.
+  The requirement to have authentication can be set here along with a designated logon page. Closed user groups for the page are defined on the **[Permissions](/help/sites-authoring/editing-page-properties.md#permissions)** tab.
 
   >[!CAUTION]
   >

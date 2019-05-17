@@ -13,9 +13,9 @@ discoiquuid: 24b6d1d2-c118-4a25-959f-2783961c4ae3
 
 # Client-side Customization{#client-side-customization}
 
-| ** [⇐ Feature Essentials](/help/communities/essentials.md)** |** [Server-side Customization ⇒](/help/communities/server-customize.md)** |
+| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Server-side Customization ⇒](/help/communities/server-customize.md)** |
 |---|---|
-|   |** [SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
+|   |**[SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
 
 To customize the appearance and/or behavior of an AEM Communities component on the client-side, there are several approaches.
 
@@ -212,7 +212,7 @@ Every site is different in how they manage client libraries. Various factors inc
 * Short Time to First Page: Maybe the desire is for the first page to load quickly. In this case, the Javascript is in multiple small files to be referenced only where needed.
 * A balance between first page load and subsequent downloads.
 
-| ** [⇐ Feature Essentials](/help/communities/essentials.md)** |** [Server-side Customization ⇒](/help/communities/server-customize.md)** |
+| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Server-side Customization ⇒](/help/communities/server-customize.md)** |
 |---|---|
-|   |** [SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
+|   |**[SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
 

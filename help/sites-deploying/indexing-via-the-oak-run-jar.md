@@ -86,7 +86,7 @@ This process needs to be executed only against a single AEM instance in the clus
 >
 >For more detailed information regarding this scenario, see [Reindex - SegmentNodeStore](/help/sites-deploying/oak-run-indexing-usecases.md#reindexsegmentnodestore).
 
-* ** Cold Standby considerations (TarMK)**
+* **Cold Standby considerations (TarMK)**
 
     * There are no special consideration for Cold Standby; the Cold Standby instances will sync changes as usual.
 

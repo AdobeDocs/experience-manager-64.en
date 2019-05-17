@@ -193,7 +193,7 @@ For example, for a workflow with six steps and four stages:
    | Step 5 |Complete |
    | Step 6 |Complete |
 
-1. When the workflow is run, the user can view the progress according to the Stage names (instead of the step names). The workflow progress will be displayed in the [**WORKFLOW INFO** tab of the task details window of the workitem](/help/sites-authoring/workflows-participating.md#opening-a-workflow-item-to-view-details-and-take-actions) listed in the ** [Inbox](/help/sites-authoring/inbox.md)**.
+1. When the workflow is run, the user can view the progress according to the Stage names (instead of the step names). The workflow progress will be displayed in the [**WORKFLOW INFO** tab of the task details window of the workitem](/help/sites-authoring/workflows-participating.md#opening-a-workflow-item-to-view-details-and-take-actions) listed in the **[Inbox](/help/sites-authoring/inbox.md)**.
 
 ### Workflows and Forms {#workflows-and-forms}
 

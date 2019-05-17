@@ -38,7 +38,7 @@ Administrators can create Image Presets. To create an image preset, you can star
 
 ## Managing Image Presets {#managing-image-presets-1}
 
-You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **Assets** &gt; ** Image Presets**.
+You manage your image presets in AEM by tapping the AEM logo to access the global navigation console and then tapping the Tools icon and navigating to **Assets** &gt; **Image Presets**.
 
 ![](assets/chlimage_1-494.png)
 
@@ -235,8 +235,7 @@ Creating an image preset lets you apply those settings to any images when previe
 If you intend to support the ingestion of AI, PDF, and EPS files so that you can generate dynamic rendition of these file formats, you may want to review the following information before you create image presets.  
 See [Adobe Illustrator (AI), Postscript (EPS), and PDF file formats](#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats).
 
-If you intend to support the ingestion of INDD files so that you can generate dynamic rendition of this file format, you may want to review the following information before you create image presets.  
-See [InDesign (INDD) file format](#indesign-indd-file-format).
+If you intend to support the ingestion of INDD files so that you can generate dynamic rendition of this file format, you may want to review the following information before you create image presets.  See [InDesign (INDD) file format](#indesign-indd-file-format).
 
 To create an image preset:
 

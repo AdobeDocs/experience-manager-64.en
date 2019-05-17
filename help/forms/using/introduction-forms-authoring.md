@@ -300,11 +300,11 @@ For more best practices around adaptive forms, see [Best practices for working w
 
 The page toolbar on the top provides options that let you preview the form, change form properties, and edit form layout. You can preview the form when you author it, and make changes accordingly. In the page toolbar, you see:
 
-* **Toggle Side Panel ** ![](assets/toggle-side-panel.png): Lets you show or hide Sidebar.
+* **Toggle Side Panel** ![](assets/toggle-side-panel.png): Lets you show or hide Sidebar.
 
 * **Page information** ![](assets/theme-options.png): Lets you view page properties, publish/unpublish a form, start a form workflow, and open the form in classic UI.  
 
-* **Emulator ** ![](assets/ruler.png): Lets you emulate the look of your form for different display sizes such as tablets and phones.
+* **Emulator** ![](assets/ruler.png): Lets you emulate the look of your form for different display sizes such as tablets and phones.
 
 * **Edit**: Lets you select other modes such as: **Edit, Style, Developer, **and** Design**.
 

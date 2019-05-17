@@ -88,7 +88,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
 1. Prepare the upgraded AEM instance for AEM 6.3 Forms.
 
-    1. Copy the [AEM_installation_directory]\crx-repository\archived-versions\[time-stamp]\fonts\fonts directory to [AEM_installation_directory]\crx-repository. 
+    1. Copy the `[AEM_installation_directory]\crx-repository\archived-versions\[time-stamp]\fonts\fonts directory to [AEM_installation_directory]\crx-repository.` 
     1. Open CRXDE Lite, navigate to /libs/fd/signatures/install, delete the **[!UICONTROL aemfd-signatures-bootdelegated-libs-pkg]** package, and click **[!UICONTROL Save All]**.
     1. Shut down the AEM server.
     1. Download AEM Forms add-on package from AEM Package Share.
@@ -97,7 +97,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
     
     1. Extract the downloaded AEM Forms add-on package.
 
-       Copy the core-common-pkg-&lt;version&gt;.zip file from [extracted-aem-forms-add-on-package]\jcr_root\etc\packages\day\cq60\fd\[adobe-aemds-common-pkg-version.zip]\jcr_root\etc\packages\day\cq60\fd to [AEM-Installation-Directory]\crx-quickstart\install directory
+       Copy the core-common-pkg-&lt;version&gt;.zip file from `[extracted-aem-forms-add-on-package]\jcr_root\etc\packages\day\cq60\fd\[adobe-aemds-common-pkg-version.zip]\jcr_root\etc\packages\day\cq60\fd` to `[AEM-Installation-Directory]\crx-quickstart\install directory`
     
     1. AEM Forms requires RSA and BouncyCastle libraries to be installed with AEM Forms add-on package. Perform the following steps to boot delegate these libraries:
 
@@ -140,8 +140,8 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
     1. Stop the AEM instance and delete the following files:
 
-        * [AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcmail-jdk15-1.35
-        * [AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcprov-jdk15-1.35
+        * `[AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcmail-jdk15-1.35`
+        * `[AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcprov-jdk15-1.35`
 
     1. Start the AEM instance.
 

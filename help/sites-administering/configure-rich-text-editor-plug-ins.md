@@ -286,7 +286,7 @@ This is done by enabling the styles plug-in.
 1. In your component, navigate to the node `<*rtePlugins-node*>/styles`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `styles` node:
 
-    * **Name ** `features`  
+    * **Name** `features`  
     
     * **Type** `String`
     

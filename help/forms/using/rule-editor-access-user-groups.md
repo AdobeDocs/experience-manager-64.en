@@ -22,7 +22,7 @@ AEM Forms allows you to limit rule editor access to users based on their role or
 ## Specify user groups that can access rule editor {#specify-user-groups-that-can-access-rule-editor}
 
 1. Log in to AEM Forms as an administrator.
-1. In the author instance, click ** ![](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![](assets/hammer.png) &gt; Operations &gt; Web Console. **The Web Console opens in a new window.
+1. In the author instance, click ![](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![](assets/hammer.png) &gt; Operations &gt; Web Console. **The Web Console opens in a new window.
 
    ![](assets/1.png)
 

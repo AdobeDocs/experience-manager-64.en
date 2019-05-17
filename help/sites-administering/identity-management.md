@@ -196,7 +196,7 @@ That allows:
 
 If such access is not appropriate for your installation you can change these default settings.
 
-This can be done using the ** [Access Control](/help/sites-administering/user-group-ac-admin.md#access-right-management)** tab:
+This can be done using the **[Access Control](/help/sites-administering/user-group-ac-admin.md#access-right-management)** tab:
 
 ![](assets/aclmanager.png)  
 

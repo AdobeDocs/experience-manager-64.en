@@ -74,7 +74,7 @@ discoiquuid: d0249609-2a9c-4d3b-92ee-dbc5fbdeaac6
 
         * default is JSRP
 
-  **For the ** [**enablement feature**](/help/communities/overview.md#enablement-community)
+  For the **[enablement feature](/help/communities/overview.md#enablement-community)**
 
     * [install and configure FFmpeg](/help/communities/ffmpeg.md)
     * [install the JDBC driver for MySQL](#jdbc-driver-for-mysql)

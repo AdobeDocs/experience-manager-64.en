@@ -128,9 +128,9 @@ The folder structure on your AEM instance in this example looks something like t
 
 * **/etc/segmentation**
 
-    * ** /contexthub/**
+    * **/contexthub/**
 
-        * **/common **-- this is a folder for common audiences  
+        * **/common**-- this is a folder for common audiences  
         
         * **/emptyCommonFolder** -- this is an empty folder for common audiences
         * **/tenants1** -- this is a folder for audiences available to users in the group tenants1

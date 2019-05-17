@@ -40,7 +40,7 @@ To download **AEM Screens Player**, visit the [**AEM 6.4 Player Downloads**](htt
 
 Refer to the following topics for an in-depth information:
 
-* To download Android Player, visit **Google Play**. To learn about implementing Android Watchdog, please refer to ** [Implementing Android player](implementing-android-player.md)**.
+* To download Android Player, visit **Google Play**. To learn about implementing Android Watchdog, please refer to **[Implementing Android player](implementing-android-player.md)**.
 
 * To implement Chrome OS Player, please refer to [Chrome Management Console](implementing-chrome-os-player.md) for more information.
 * To configure AEM Screens Windows player, please refer to [Implementing Windows Player](implementing-windows-player.md).

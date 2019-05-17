@@ -221,7 +221,7 @@ this.dependOn(ContextHub.SegmentEngine.Property('profile/age'));
 
 ## Testing the Application of a Segment {#testing-the-application-of-a-segment}
 
-Once the segment has been defined, potential results can be tested with the help of the ** [ContextHub](/help/sites-authoring/ch-previewing.md).**
+Once the segment has been defined, potential results can be tested with the help of the **[ContextHub](/help/sites-authoring/ch-previewing.md).**
 
 1. Preview a page
 1. Click the ContextHub icon to reveal the ContextHub toolbar

@@ -48,7 +48,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
    ii. **application**: Schema form for assets with MIME type "application", for example *application*/ *pdf*, *application*/ *zip*, and so on.  
    a. **pdf**: Schema form for assets with sub type pdf.  
 
-   iii. ** video**: Schema form for assets with MIME type "video", such as *video*/ *avi*, *video*/ *mp4* and so on.
+   iii. **video**: Schema form for assets with MIME type "video", such as *video*/ *avi*, *video*/ *mp4* and so on.
 
     * **collection**: Schema form for collections
     * **contentfragment:** Schema form for content fragments
@@ -218,11 +218,11 @@ Instead of specifying properties for the options in the **Settings** tab, you ca
 
 ### Adding/deleting a tab in the schema form {#adding-deleting-a-tab-in-the-schema-form}
 
-The schema editor lets you add or delete a tab. The **default **schema form includes the **Basic**, **Advanced** , **IPTC**, and **IPTC Extension** tabs, by default.
+The schema editor lets you add or delete a tab. The **default** schema form includes the **Basic**, **Advanced** , **IPTC**, and **IPTC Extension** tabs, by default.
 
 ![](assets/chlimage_1-181.png)
 
-Click **+** to add a new tab on a schema form. By default, the new tab has the name "Unnamed-1." You can modify the name from the **Settings **tab.
+Click **+** to add a new tab on a schema form. By default, the new tab has the name "Unnamed-1." You can modify the name from the **Settings** tab.
 
 Click **X** to delete a tab.
 
@@ -250,7 +250,7 @@ AEM Assets provides default forms for various MIME types out of the box. However
 
 ### Adding new forms for MIME types {#adding-new-forms-for-mime-types}
 
-Create a new form under the appropriate form type. For example, to add a new template for the **image/png** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png.**"**
+Create a new form under the appropriate form type. For example, to add a new template for the **image/png** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png."
 
 ### Using an existing schema template for various MIME types {#using-an-existing-schema-template-for-various-mime-types}
 
@@ -261,7 +261,7 @@ In this case, create a new node at */etc/dam/metadataeditor/mimetypemappings* in
 | **Name** |**Description** |**Type** |**Value** |
 |---|---|---|---|
 | exposedmimetype |Name of the existing form to be mapped  |String |image/jpeg |
-| mimetypes |List of MIME types that use the form defined in the **exposedmimetype **attribute |String[] |image/png |
+| mimetypes |List of MIME types that use the form defined in the **exposedmimetype** attribute |String[] |image/png |
 
 AEM Assets maps the following MIME types and schema forms:
 

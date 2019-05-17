@@ -239,14 +239,14 @@ This is one location where the period for collecting snapshots for [Historic dat
     * **manually refresh data** 
       This option can be used to prevent delays caused by automatic refresh operations when there is a large volume of data.  
       Selecting this indicates that the report data must be manually refreshed when any aspect of the report configuration has changed. It also means that as soon as you change any aspect of the configuration the report table will be blanked out.  
-      When this is selected the ** [Load data](#load-data)** button will be displayed (next to **Edit** on the report). **Load data** will load the data and refresh the report data shown.
+      When this is selected the **[Load data](#load-data)** button will be displayed (next to **Edit** on the report). **Load data** will load the data and refresh the report data shown.
 
 * **Snapshots** 
   You can define how often snapshots are to be made; daily, hourly or not at all.
 
 ### Load data {#load-data}
 
-The **Load data** button is only visible when **manually refresh data** has been selected from ** [Edit](#edit-report)**.
+The **Load data** button is only visible when **manually refresh data** has been selected from **[Edit](#edit-report)**.
 
 ![](assets/chlimage_1-65.png)
 

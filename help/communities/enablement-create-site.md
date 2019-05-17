@@ -271,10 +271,10 @@ To get started
 
     * select **Create Node**
 
-        * **Name **localhost.4503  
-          (do *not *use ':')
+        * **Name** localhost.4503  
+          (do *not* use `:`)
         
-        * **Type ** [sling:Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
+        * **Type** [sling:Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)
 
 1. with newly created `localhost.4503` node selected
 
@@ -282,7 +282,7 @@ To get started
 
         * **Name** sling:match
         * **Type** String
-        * **Value** localhost.4503/$  
+        * **Value** localhost.4503/\$  
           (must end with '$' char)
 
     * add property
@@ -333,7 +333,7 @@ If not, the catalog function can easily be added. This would allow other members
 
 If the site structure does already contain the catalog feature, its Title can be changed.
 
-To modify the site's structure, navigate to the **Communities, Sites** console, open the `enable` folder, and select the **Edit Site **icon to access the properties of `Enablement Tutorial`.
+To modify the site's structure, navigate to the **Communities, Sites** console, open the `enable` folder, and select the **Edit Site** icon to access the properties of `Enablement Tutorial`.
 
 Select the STRUCTURE panel to add a Catalog or modify an existing Catalog:
 

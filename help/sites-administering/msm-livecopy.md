@@ -232,7 +232,7 @@ Roll out a blueprint page to push content changes to live copies. A **Rollout** 
 
 #### Roll Out a Blueprint from the Reference Rail {#roll-out-a-blueprint-from-the-reference-rail}
 
-1. In the **Sites** console, select the page in the blueprint and open the ** [References](/help/sites-authoring/basic-handling.md#references)** panel (from the toolbar). 
+1. In the **Sites** console, select the page in the blueprint and open the **[References](/help/sites-authoring/basic-handling.md#references)** panel (from the toolbar). 
 1. Select the **Blueprint** option from the list, to show the blueprints associated with this page.
 1. Select the required blueprint from the list.
 1. Click or tap **Rollout**.
@@ -544,7 +544,7 @@ The [Reset action is also available from the Live Copy Overview](/help/sites-adm
 To track the changes you have made, you can view the blueprint page in **References** and compare it with its live copy page:
 
 1. In the **Sites** console, [navigate to a blueprint or live copy page and select it](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources).
-1. Open the ** [References](/help/sites-authoring/basic-handling.md#references)** panel and select:
+1. Open the **[References](/help/sites-authoring/basic-handling.md#references)** panel and select:
 
     * **Blueprint** (when a live copy page selected)
     * **Live Copies** (when a blueprint page selected)

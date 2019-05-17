@@ -154,7 +154,7 @@ To improve the performance, you can direct the antivirus software to exclude the
 
 * **(AEM Forms on JEE only)** AEM Forms server logs and temporary directory. The default location is:
 
-    * Server logs - [AEM Forms installation directory]\Adobe\AEM forms\[app-server]\server\all\logs
+    * Server logs - `[AEM Forms installation directory]\Adobe\AEM forms\[app-server]\server\all\logs`
     * Temp directory - [AEM Forms installation directory]\temp
 
 >[!NOTE]

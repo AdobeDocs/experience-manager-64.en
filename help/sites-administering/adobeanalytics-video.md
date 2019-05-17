@@ -376,7 +376,7 @@ When using the** legacy seconds** method, Adobe Analytics calls get triggered ev
 
    ![](assets/lseconds.png)
 
-   *The call is similar to the Legacy Milestones call above. Please see the information on pev3 ** [provided there](/help/sites-administering/adobeanalytics.md)**.*
+   *The call is similar to the Legacy Milestones call above. Please see the information on pev3 **[provided there](/help/sites-administering/adobeanalytics.md)**.*
 
 **References used in this tutorial:**
 

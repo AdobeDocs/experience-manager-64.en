@@ -38,7 +38,7 @@ The following lists out-of-the-box app handlers:
 
 * ***deep - Boolean*** - Optional boolean property determining if child pages should be included, as well. The default value is *true.*
 
-* ***includeImages - Boolean* - **Optional boolean property determining if images should be included. The default value is *true*.
+* ***includeImages - Boolean*** - Optional boolean property determining if images should be included. The default value is *true*.
 
     * By default, only image components with a resource type of foundation/components/image are considered for inclusion.
 

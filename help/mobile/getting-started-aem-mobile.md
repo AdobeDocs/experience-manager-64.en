@@ -25,9 +25,9 @@ Adobe Experience Manager (AEM) Mobile is part of the Adobe Experience Manager mu
 
 AEM Mobile offers multiple methods for creating apps. The three different ways that you can create apps are:
 
-* ** [Using On-Demand Services with AEM](/help/mobile/getting-started-aem-mobile-on-demand.md)**
-* ** [Using On-Demand Services without AEM](https://helpx.adobe.com/digital-publishing-solution/topics.html)**
-* ** [Using Adobe PhoneGap Enterprise with AEM](/help/mobile/getting-started-aem-mobile-phonegap.md)**
+* **[Using On-Demand Services with AEM](/help/mobile/getting-started-aem-mobile-on-demand.md)**
+* **[Using On-Demand Services without AEM](https://helpx.adobe.com/digital-publishing-solution/topics.html)**
+* **[Using Adobe PhoneGap Enterprise with AEM](/help/mobile/getting-started-aem-mobile-phonegap.md)**
 
 >[!NOTE]
 >
