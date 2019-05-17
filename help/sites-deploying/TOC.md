@@ -36,7 +36,7 @@ user-guide-title: AEM 6.4 Deploying Guide
     + [Configuring OSGi](configuring-osgi.md)
     + [OSGi Configuration Settings](osgi-configuration-settings.md)
     + [Run Modes](configure-runmodes.md)
-    + [Web Console](configuring-web-console.md)
+    + [Web Console](web-console.md)
     + [Replication](replication.md)
     + [Replicating Using Mutual SSL](mssl-replication.md)
     + [Troubleshooting Replication](troubleshoot-rep.md)
@@ -113,6 +113,8 @@ user-guide-title: AEM 6.4 Deploying Guide
 To be removed:
 [Quickstart for AEM Screens](setting-up-a-basic-project-screens.md)
 [Device Control Center](device-control-center.md)
+[repository-restructuring-in-aem64](repository-restructuring-in-aem64.md)
+[Web Console] (configuring-web-console.md)
 
 Deactivated on helpx:
 [Performance](performance-lp.md)
