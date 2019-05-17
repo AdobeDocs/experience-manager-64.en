@@ -93,11 +93,11 @@ After you create a query, use the options in the upper right corner of the **Cre
 
 * **Run**: Execute the current query to see and / or verify the results. In this case, you do not need to save the query before executing the query. You can verify the results, make changes if required, and then save the query when you are satisfied with the output.  
 
-* **Save**: Save the filter. The filter can then be viewed and executed from the **My Filters **panel.
+* **Save**: Save the filter. The filter can then be viewed and executed from the **My Filters** panel.
 
 ### Options in My Filters panel {#options-in-my-filters-panel}
 
-Use the options in the **My Filters** panel to **Add ** ![](assets/lc_pr_add_filter.png), **Edit ** ![](assets/lc_pr_delete_filter.png), or **Delete ** ![](assets/lc_pr_edit_filter.png)an ad-hoc query.
+Use the options in the **My Filters** panel to **Add** ![](assets/lc_pr_add_filter.png), **Edit** ![](assets/lc_pr_delete_filter.png), or **Delete** ![](assets/lc_pr_edit_filter.png)an ad-hoc query.
 
 ![](assets/my_filters_options.png)
 

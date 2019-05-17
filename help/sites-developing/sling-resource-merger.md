@@ -17,7 +17,7 @@ discoiquuid: ec712ba0-0fd6-4bb8-93d6-07d09127df58
 
 The Sling Resource Merger provides services to access and merge resources. It provides diff (differencing) mechanisms for both:
 
-* ** [Overlays](/help/sites-developing/overlays.md)** of resources using the [configured search paths](/help/sites-developing/overlays.md#configuring-the-search-paths).
+* **[Overlays](/help/sites-developing/overlays.md)** of resources using the [configured search paths](/help/sites-developing/overlays.md#configuring-the-search-paths).
 
 * **Overrides** of component dialogs for the touch-enabled UI ( `cq:dialog`), using the resource type hierarchy (by means of the property `sling:resourceSuperType`).
 

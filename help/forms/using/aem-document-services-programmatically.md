@@ -4258,8 +4258,8 @@ String outputFolder="C:/Output";
 
 The Forms service provides APIs to import and export data to and from an interactive PDF form. An interactive PDF form is a PDF document that contains one or more fields used to display and collect information from the users. The service supports following APIs:
 
-* ** [exportData](/help/forms/using/aem-document-services-programmatically.md#p-exportdata-p):** exports data from a PDF form.
-* ** [importData](/help/forms/using/aem-document-services-programmatically.md#p-importdata-p):** imports data into an interactive PDF Form.
+* **[exportData](/help/forms/using/aem-document-services-programmatically.md#p-exportdata-p):** exports data from a PDF form.
+* **[importData](/help/forms/using/aem-document-services-programmatically.md#p-importdata-p):** imports data into an interactive PDF Form.
 
 ### exportData {#exportdata}
 

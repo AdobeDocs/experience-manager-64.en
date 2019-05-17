@@ -45,7 +45,7 @@ Models are used to determine how entities are created. They define what is avail
 >A model exists outside of an app as more than one app can use it. 
 >
 
-See ** [Models](/help/mobile/working-with-a-model.md)** to create and manage models in the dashboard and repository.
+See **[Models](/help/mobile/working-with-a-model.md)** to create and manage models in the dashboard and repository.
 
 ### Entities in Content Model {#entities-in-content-model}
 
@@ -55,7 +55,7 @@ In the case of existing AEM content, an entity is generated using a model and th
 
 Changes to the referenced content of an entity, will result in a change to the entity. For example, if a *cq:page* is updated, then any entities that are based on that page will be updated as well.
 
-See ** [Working with Entities](/help/mobile/spaces-and-entities.md)** to create custom entities from models.
+See **[Working with Entities](/help/mobile/spaces-and-entities.md)** to create custom entities from models.
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ A user has three general classifications of entities. One is for internal use on
 
 A service end point will be provided to the space so the native client library can request a list of the contents of a space. This "listing" will be returned as a JSON object.
 
-See ** [Spaces and Entities](/help/mobile/spaces-and-entities.md)** for creating and publishing spaces.
+See **[Spaces and Entities](/help/mobile/spaces-and-entities.md)** for creating and publishing spaces.
 
 >[!NOTE]
 >
@@ -89,4 +89,4 @@ See ** [Spaces and Entities](/help/mobile/spaces-and-entities.md)** for creating
 
 Folders allow users to organize entities as required and facilitates finer ACL control. Spaces can include folders to help further organize space's content and assets. A user can create their own hierarchy under a space.
 
-See ** [Working with Folders in a Space](/help/mobile/spaces-and-entities.md)** to create and manage folders within a space.
+See **[Working with Folders in a Space](/help/mobile/spaces-and-entities.md)** to create and manage folders within a space.

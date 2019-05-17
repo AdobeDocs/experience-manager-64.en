@@ -85,8 +85,7 @@ Select the fragment to reveal the toolbar with applicable actions:
 
 * **Download**
 
-    * Save the fragment as a ZIP file; you can define whether to include Elements, Variations, Metadata. ** 
-      **
+    * Save the fragment as a ZIP file; you can define whether to include Elements, Variations, Metadata.
 
 * **Create**
 * **Checkout**
@@ -232,9 +231,9 @@ In addition to the standard options, [Timeline](managing-assets-touch-ui.md#time
 * View information about versions, comments, and annotations
 * Actions for Versions
 
-    * ** [Revert to this Version](#reverting-to-a-version)** (select an existing fragment, then a specific version)  
+    * **[Revert to this Version](#reverting-to-a-version)** (select an existing fragment, then a specific version)  
     
-    * ** [Compare to Current](#comparing-fragment-versions)** (select an existing fragment, then a specific version)  
+    * **[Compare to Current](#comparing-fragment-versions)** (select an existing fragment, then a specific version)  
     
     * Add a **Label** and/or **Comment** (select an existing fragment, then a specific version)  
     

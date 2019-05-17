@@ -35,10 +35,10 @@ To aid you when authoring pages the author environment provides features such as
 * **In-place Editing** 
   Text and Image components can be edited directly on the webpage without opening a dialog box or an explicit save action.
 
-* ** [Sidekick](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#sidekickclassicui)** 
+* **[Sidekick](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#sidekickclassicui)** 
   A floating "inspector" window that appears on the editable page. From here new components can be dragged onto the page and page-specific actions can be executed.
 
-* ** [Content Finder](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#thecontentfinderclassicui)** 
+* **[Content Finder](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#thecontentfinderclassicui)** 
   On the left side of each authorable page, the content finder provides quick access to a range of assets, including digital assets (such as other images, Flash elements and documents), other pages and paragraphs. These items can be dragged to the page; for example to position assets or create links to other pages.
 
 * **Context menu** 

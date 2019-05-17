@@ -244,7 +244,7 @@ After creating your brand and campaign you can create and set up your teaser exp
     * **Campaign Path** 
       Path to the campaign page that holds the individual teaser page; segments determine exactly which teaser is shown.
     
-    * ** [Strategy](/help/sites-classic-ui-authoring/classic-personalization-campaigns.md#strategies)** 
+    * **[Strategy](/help/sites-classic-ui-authoring/classic-personalization-campaigns.md#strategies)** 
       Method used for selection when multiple segments resolve successfully.
 
    ![](assets/chlimage_1-5.png)

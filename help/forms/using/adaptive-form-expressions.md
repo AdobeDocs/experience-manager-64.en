@@ -40,18 +40,18 @@ Repeating panels are instances of a panel that are added or removed dynamically,
 
 In adaptive forms, you can write expressions to add behaviors such as dynamic show/hide fields and panels. You can also write expressions to add calculated fields, make fields read-only, validation logic, and many more. Adaptive forms support following expressions:
 
-* ** [Access expressions](/help/forms/using/adaptive-form-expressions.md#main-pars-header-4)**: to enable/disable a field.
-* ** [Calculate expressions](/help/forms/using/adaptive-form-expressions.md#p-calculate-expression-p)**: to auto-compute value of a field.
-* ** [Click expression](/help/forms/using/adaptive-form-expressions.md#p-click-expression-p)**: to handle actions on click event of a button. 
-* ** [Initialization Script](/help/forms/using/adaptive-form-expressions.md#p-initialization-script-p):** perform an action on initialization of a field.  
+* **[Access expressions](/help/forms/using/adaptive-form-expressions.md#main-pars-header-4)**: to enable/disable a field.
+* **[Calculate expressions](/help/forms/using/adaptive-form-expressions.md#p-calculate-expression-p)**: to auto-compute value of a field.
+* **[Click expression](/help/forms/using/adaptive-form-expressions.md#p-click-expression-p)**: to handle actions on click event of a button. 
+* **[Initialization Script](/help/forms/using/adaptive-form-expressions.md#p-initialization-script-p):** perform an action on initialization of a field.  
 
-* ** [Options expression](/help/forms/using/adaptive-form-expressions.md#p-options-expression-p)**: to dynamically fill a drop-down list.
+* **[Options expression](/help/forms/using/adaptive-form-expressions.md#p-options-expression-p)**: to dynamically fill a drop-down list.
 * [**Summary expression**](#summary): to dynamically compute the title of an accordion.
-* ** [Validate expressions](/help/forms/using/adaptive-form-expressions.md#p-validate-expression-p)**: to validate a field.
-* ** [Value Commit Script](/help/forms/using/adaptive-form-expressions.md#p-value-commit-script-p):** to change the components of a form after the value of a field is changed.  
+* **[Validate expressions](/help/forms/using/adaptive-form-expressions.md#p-validate-expression-p)**: to validate a field.
+* **[Value Commit Script](/help/forms/using/adaptive-form-expressions.md#p-value-commit-script-p):** to change the components of a form after the value of a field is changed.  
 
-* ** [Visibility expression](/help/forms/using/adaptive-form-expressions.md#p-visibility-expression-p)**: to control visibility of a field and panel.
-* ** [Step completion expression](/help/forms/using/adaptive-form-expressions.md#p-step-completion-expression-p)**: to prevent a user from going to next step of a wizard.
+* **[Visibility expression](/help/forms/using/adaptive-form-expressions.md#p-visibility-expression-p)**: to control visibility of a field and panel.
+* **[Step completion expression](/help/forms/using/adaptive-form-expressions.md#p-step-completion-expression-p)**: to prevent a user from going to next step of a wizard.
 
 ### Access Expression (Enablement Expression) {#access-expression-enablement-expression}
 

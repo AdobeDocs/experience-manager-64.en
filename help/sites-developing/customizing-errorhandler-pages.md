@@ -64,7 +64,7 @@ You can develop your own scripts to customize the pages shown by the error handl
 
 HTTP 500 errors are caused by server side exceptions.
 
-* ** [500 Internal Server Error](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)** 
+* **[500 Internal Server Error](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)** 
   The server encountered an unexpected condition which prevented it from fulfilling the request.
 
 When request processing results in an exception, the Apache Sling framework (that CQ is built on):

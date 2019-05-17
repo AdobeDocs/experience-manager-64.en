@@ -52,7 +52,7 @@ The following example provides a solution by focusing on the following key terms
 
 >[!NOTE]
 >
->To learn more about channel assignment, see ** [Channel Assignment](/help/screens/channel-assignment.md) **under Authoring section in AEM Screens documentation.
+>To learn more about channel assignment, see **[Channel Assignment](/help/screens/channel-assignment.md) **under Authoring section in AEM Screens documentation.
 
 ## Using Dynamic Embedded Sequence {#using-dynamic-embedded-sequence-2}
 
@@ -81,9 +81,9 @@ You can download the following resources (images and add these to assets) and fu
 >
 >For additional information on how to create a project and how to create a sequence channel, please refer to resources below:
 >
->* ** [Creating and Managing Projects](/help/screens/creating-a-screens-project.md)  
+>* **[Creating and Managing Projects](/help/screens/creating-a-screens-project.md)  
 >  **
->* ** [Managing a Channel](/help/screens/managing-channels.md)**
+>* **[Managing a Channel](/help/screens/managing-channels.md)**
 >
 
 Implementing Dynamic Embedded Sequence in an AEM Screens project involves three major tasks:
@@ -115,7 +115,7 @@ Follow the steps below to implement the functionality:
 
    >[!NOTE]
    >
-   >To learn how to create a location, please refer to ** [Creating and Managing Locations](/help/screens/managing-locations.md)**.
+   >To learn how to create a location, please refer to **[Creating and Managing Locations](/help/screens/managing-locations.md)**.
 
 1. **Create two Locations and a Channel under each location folder.**
 

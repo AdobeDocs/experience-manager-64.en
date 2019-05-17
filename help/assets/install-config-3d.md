@@ -43,8 +43,8 @@ See also [Advanced configuration settings](advanced-config-3d.md).
 
 1. Use the link appropriate for your operating system to download **FBX SDK version 2016.1.2**
 
-    * **Windows  
-      ** [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe)  
+    * **Windows**  
+      [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe)  
     
     * **OS X** 
       [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_clang_mac.pkg.tgz](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_clang_mac.pkg.tgz)  
@@ -95,7 +95,7 @@ To install the native 3D code package,
 To configure the 3D asset ingestion workflow:
 
 1. In AEM, click the AEM logo to access the global navigation console, then click the Tools icon and navigate to **Workflow** &gt; **Models**.
-1. On the Workflow Models page, hover over the **DAM Update Asset **workflow, and when the check mark appears, select it.  
+1. On the Workflow Models page, hover over the **DAM Update Asset** workflow, and when the check mark appears, select it.  
 
 1. On the toolbar, click **Edit**.
 1. On the DAM Update Asset screen, in the AEM floating panel, click the Plus icon to the right of Workflow to expand the list. Select **Process Step** in the list.
@@ -145,7 +145,7 @@ To configure the 3D asset ingestion workflow:
 
 1. You will now learn how to resolve file dependencies.
 
-   On the "Unresolved Dependencies" banner for the `stage-helipad.fbx` card, click the Exclamation Point icon to navigate to the asset's properties and open the **Dependencies **tab.
+   On the "Unresolved Dependencies" banner for the `stage-helipad.fbx` card, click the Exclamation Point icon to navigate to the asset's properties and open the **Dependencies** tab.
 
    ![](assets/chlimage_1-372.png)
 
@@ -206,7 +206,7 @@ To configure suoport for Adobe Dimension assets:
 
     1. Navigate to `/libs/settings/dam/v3D/services/dncr` and set the `clientId` property to the new value.
     
-    1. Navigate to `/libs/settings/dam/v3D/services/aws` and set the `accountId`**, ** `customerId`, `identityPoolId`, and `userPoolId` properties to the new values.
+    1. Navigate to `/libs/settings/dam/v3D/services/aws` and set the `accountId`, `customerId`, `identityPoolId`, and `userPoolId` properties to the new values.
     
     1. Load the new password value into the `encryptedPassword` property. This value is automatically encrypted when you tap **Save All**.
     

@@ -63,7 +63,7 @@ Because HTL is the preferred technology for developing AEM sites, HTL should be 
 In HTL, client libraries are loaded through a helper template provided by AEM, which can be accessed through [ `data-sly-use`](https://helpx.adobe.com/experience-manager/htl/using/block-statements.html#use). Three templates are available in this file, which can be called through [ `data-sly-call`](https://helpx.adobe.com/experience-manager/htl/using/block-statements.html#template-call):
 
 * **css** - Loads only the CSS files of the referenced client libraries.
-* **js ** - Loads only the JavaScript files of the referenced client libraries.
+* **js** - Loads only the JavaScript files of the referenced client libraries.
 * **all** - Loads all the files of the referenced client libraries (both CSS and JavaScript).
 
 Each helper template expects a `categories` option for referencing the desired client libraries. That option can be either an array of string values, or a string containing a comma separated values list.

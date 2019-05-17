@@ -343,7 +343,7 @@ The theme is either created using the out-of-the-box form, or using a form or in
 
 In the Canvas toolbar, you see:
 
-* **Toggle Side Panel ** ![](assets/toggle-side-panel.png): Lets you show or hide sidebar.
+* **Toggle Side Panel** ![](assets/toggle-side-panel.png): Lets you show or hide sidebar.
 
 * **Theme Options** ![](assets/theme-options.png): Provides three options
 
@@ -352,7 +352,7 @@ In the Canvas toolbar, you see:
     * Manage Styles: Provides options to manage text and image styles  
     * Help: Runs an image guided tour of the Theme Editor.
 
-* **Emulator ** ![](assets/ruler.png): Emulates the look of your theme for different display sizes. A display size is treated as a breakpoint in the emulator. You can select a breakpoint and specify a style for it. For example, Desktop and Tablet are two breakpoints. You can specify different styles for each breakpoint.
+* **Emulator** ![](assets/ruler.png): Emulates the look of your theme for different display sizes. A display size is treated as a breakpoint in the emulator. You can select a breakpoint and specify a style for it. For example, Desktop and Tablet are two breakpoints. You can specify different styles for each breakpoint.
 
 When you select a component in the Canvas, you see the component toolbar on top of it. The component toolbar lets you select components, or switch to generic components. For example, you select a numeric text box in a panel. You see the following options in the component toolbar:
 
@@ -493,7 +493,7 @@ You can now use fonts available in a web-service in an adaptive form or interact
 
 Perform the following steps to configure Typekit in AEM:
 
-1. In the author instance, click ** ![](assets/adobeexperiencemanager.png)Adobe Experience Manager &gt; Tools ![](assets/hammer.png) &gt; Deployment &gt; Cloud Services**.
+1. In the author instance, click ![](assets/adobeexperiencemanager.png)**Adobe Experience Manager** &gt; **Tools** ![](assets/hammer.png) &gt; Deployment &gt; **Cloud Services**.
 1. On the **Cloud Services** page, navigate to **Third Party Services** &gt;  **Typekit,** and click **Configure Now** under Typekit. If a configuration is already available, click the **+** button to create a new instance. 
 1. On the **Create Configuration** dialog, specify a title for the configuration and click **Create**.
 
@@ -565,7 +565,7 @@ To apply a theme to an interactive communication:
 1. In the edit mode, select a component, then click ![](assets/field-level.png) &gt;**Document Container**, and then click ![](assets/cmppr.png).  
    You can edit properties of your form in the sidebar.
 
-1. In the sidebar, under** Basic**, select your theme from the **Theme** drop-down and click **Done** ![](assets/check-button.png)
+1. In the sidebar, under **Basic**, select your theme from the **Theme** drop-down and click **Done** ![](assets/check-button.png)
 
 ### Change theme of a form at runtime {#change-theme-of-a-form-at-runtime}
 
@@ -623,7 +623,7 @@ You can see the generated CSS using the following options:
 
 * **View CSS** option in the sidebar: When you select a component in the Theme, you can see the VIEW CSS option in the sidebar. It shows the generated CSS, including CSS for `::before` and `::after` pseudo elements.
 
-* **View Theme CSS** option in the canvas toolbar: In the Canvas Toolbar, click ** ![](assets/theme-options.png) &gt; View Theme CSS**. You can see the entire theme CSS generated from the properties you define in the Theme Editor.
+* **View Theme CSS** option in the canvas toolbar: In the Canvas Toolbar, click ![](assets/theme-options.png) &gt; **View Theme CSS**. You can see the entire theme CSS generated from the properties you define in the Theme Editor.
 
 ## Troubleshooting, recommendations, and best practices {#troubleshooting-recommendations-and-best-practices}
 
@@ -631,7 +631,7 @@ You can see the generated CSS using the following options:
   When you edit a theme, you can browse and add assets (such as images) from other themes. For example, you are editing the background of a page. For example, when you select **Page** ![](assets/edit-button.png)&gt; **Background** &gt; Add &gt; **Image**, you see a dialog that lets you browse and add images in other theme. 
 
 * You can face issues with your current theme if an asset is added from another theme, and the other theme is moved or deleted. It is recommended that you avoid browsing and adding assets from other themes.  
-* **Using base clientlib, theme editor, and inline styling **
+* **Using base clientlib, theme editor, and inline styling**
 
     * **Base clientlib**:  
       Base client library contains styling information. To use styling information in client-side libraries in themes.

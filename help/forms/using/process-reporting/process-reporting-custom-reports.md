@@ -18,7 +18,7 @@ You can use REST interface of QueryBuilder or create an OSGi service using Query
 
 Before adding any custom report, perform the following template procedure:
 
-1. Data used in custom reports must be available in Process Reporting. To ensure the availability of data, schedule a cron job or use ** [Sync](https://helpx.adobe.com/livecycle/help/process-reporting/install-start-process-reporting.html#Process%20Reporting%20Home%20screen)** option on the Process Reporting UI.
+1. Data used in custom reports must be available in Process Reporting. To ensure the availability of data, schedule a cron job or use **[Sync](https://helpx.adobe.com/livecycle/help/process-reporting/install-start-process-reporting.html#Process%20Reporting%20Home%20screen)** option on the Process Reporting UI.
 1. The URL request (encapsulating the desired query) must return an appropriate query result object. To create a query, you can use REST interface of [QueryBuilder](https://docs.adobe.com/docs/en/cq/current/dam/customizing_and_extendingcq5dam/query_builder.html) to create an OSGi service using QueryBuilder API. You can create dynamic or static queries.  
 
 1. Create a custom user interface to display the results. You can create a stand-alone user interface or integrate result with existing Process Reporting UI.

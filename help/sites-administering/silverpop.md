@@ -98,7 +98,7 @@ To configure the API end points :
 
 1. To change the existing API End points (Engage 1 to 6), click each of them one-by-one and replace the values as follows:
 
-   | ** Node Name** |** Exisiting End Point Value** |** New End Point Value** |
+   | **Node Name** |**Existing End Point Value** |**New End Point Value** |
    |---|---|---|
    | sp-e1 |https://api.engage1.silverpop.com/XMLAPI |https://api1.silverpop.com |
    | sp-e2 |https://api.engage2.silverpop.com/XMLAPI |https://api2.silverpop.com |

@@ -45,7 +45,7 @@ Search & Lister Component in a page with Grid layout
 
 The List pane is an area where your forms are listed. The Search & Lister component provides various configuration options that you can use to control the display of forms in the List pane.
 
-To configure the List pane, tap the Search and Lister component and then tap ![](assets/settings_icon.png). The **[!UICONTROL ** Edit Component**]** dialog opens. 
+To configure the List pane, tap the Search and Lister component and then tap ![](assets/settings_icon.png). The **[!UICONTROL Edit Component]** dialog opens. 
 
 ![List pane in edit mode](assets/edit-list.png)
 

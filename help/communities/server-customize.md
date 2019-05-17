@@ -13,9 +13,9 @@ discoiquuid: df5416ec-5c63-481b-99ed-9e5a91df2432
 
 # Server-side Customization{#server-side-customization}
 
-| ** [⇐ Feature Essentials](/help/communities/essentials.md)** |** [Client-side Customization ⇒](/help/communities/client-customize.md)** |
+| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Client-side Customization ⇒](/help/communities/client-customize.md)** |
 |---|---|
-|   |** [SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
+|   |**[SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
 
 ## Java APIs {#java-apis}
 
@@ -119,7 +119,7 @@ View the [Coding Guidelines](/help/communities/code-guide.md) section for variou
 
 See also [Storage Resource Provider (SRP) for UGC](/help/communities/srp.md) to learn about accessing user generated content.
 
-| ** [⇐ Feature Essentials](/help/communities/essentials.md)** |** [Client-side Customization ⇒](/help/communities/client-customize.md)** |
+| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Client-side Customization ⇒](/help/communities/client-customize.md)** |
 |---|---|
-|   |** [SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
+|   |**[SCF Handlebars Helpers ⇒](/help/communities/handlebars-helpers.md)** |
 

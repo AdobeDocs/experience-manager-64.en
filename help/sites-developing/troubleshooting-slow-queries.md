@@ -455,19 +455,19 @@ Therefore, ensure an indexes satisfy queries, except if the combination of path 
     * A WebUI for executing XPath and JCR-SQL2 queries.
     * Located on AEM at [/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp) &gt; Tools &gt; Query...
 
-* ** [Explain Query](/help/sites-administering/operations-dashboard.md#explain-query)**
+* **[Explain Query](/help/sites-administering/operations-dashboard.md#explain-query)**
 
     * An AEM Operations dashboard that provides a detailed explanation (Query plan, query time, and # of results) for any given XPATH or JCR-SQL2 query.
 
-* ** [Slow/Popular Queries](/help/sites-administering/operations-dashboard.md#query-performance)**
+* **[Slow/Popular Queries](/help/sites-administering/operations-dashboard.md#query-performance)**
 
     * An AEM Operations dashboard listing the recent slow and popular queries executed on AEM.
 
-* ** [Index Manager](/help/sites-administering/operations-dashboard.md#the-index-manager)**
+* **[Index Manager](/help/sites-administering/operations-dashboard.md#the-index-manager)**
 
     * An AEM Operations WebUI displaying the indexes on the AEM instance; facilitates understanding what indexes already exist, can be targeted or augmented.
 
-* ** [Logging](/help/sites-administering/operations-dashboard.md#log-messages)**
+* **[Logging](/help/sites-administering/operations-dashboard.md#log-messages)**
 
     * Query Builder logging
 
@@ -489,11 +489,11 @@ Therefore, ensure an indexes satisfy queries, except if the combination of path 
 
 ### Community Supported {#community-supported}
 
-* ** [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index)**
+* **[Oak Index Definition Generator](https://oakutils.appspot.com/generate/index)**
 
     * Generate optimal Lucence Property Index from XPath or JCR-SQL2 query statements.
 
-* ** [AEM Chrome Plug-in](https://chrome.google.com/webstore/detail/aem-chrome-plug-in/ejdcnikffjleeffpigekhccpepplaode?hl=en-US)**
+* **[AEM Chrome Plug-in](https://chrome.google.com/webstore/detail/aem-chrome-plug-in/ejdcnikffjleeffpigekhccpepplaode?hl=en-US)**
 
     * Google Chrome web browser extension that exposes per-request log data, including executed queries and their query plans, in the browser's dev tools console.
     * Requires [Sling Log Tracer 1.0.2+](https://sling.apache.org/downloads.cgi) to be installed and enabled on AEM.

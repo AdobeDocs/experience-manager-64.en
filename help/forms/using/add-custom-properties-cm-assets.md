@@ -686,7 +686,7 @@ To allow indexing of custom properties, complete the following steps:
     1. Click the new node you have created (here location). CRX displays the node's properties. 
     1. Add the following properties to the node (here location):
 
-       | **Name ** |**Type** |**Value** |
+       | **Name** |**Type** |**Value** |
        |---|---|---|
        | analyzed |String |true |
        | name |String |extendedProperties/location (or the name of the property you want to add to search) |

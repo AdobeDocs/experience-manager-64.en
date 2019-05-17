@@ -49,7 +49,7 @@ You can use the camera of your mobile device or saved pictures in your device to
 
        Take a photograph. Then tap the **Use** ![](assets/use-pic.png) button.
 
-       Or tap the **Retake ** ![](assets/retake.png) button to retake the photograph.
+       Or tap the **Retake** ![](assets/retake.png) button to retake the photograph.
     
     1. If you select **Gallery**.
 

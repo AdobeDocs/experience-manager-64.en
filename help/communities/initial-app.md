@@ -15,8 +15,8 @@ discoiquuid: f74d225e-0245-4d5a-bb93-0ee3f31557aa
 
 In this section, you will create the following:
 
-* The ** [template](#createthepagetemplate) **that will be used to create content pages in the example website
-* The [**component** and **script**](#create-the-template-s-rendering-component) that will be used to render the website pages
+* The **[template](#createthepagetemplate)** that will be used to create content pages in the example website
+* The **[component and script](#create-the-template-s-rendering-component)** that will be used to render the website pages
 
 ## Create the Content Template {#create-the-content-template}
 
@@ -35,7 +35,7 @@ In this exercise, all pages are based on one simple template.
     * Title: **An SCF Sandbox Play Template**
     * Description: **An SCF Sandbox template for play pages** 
     
-    * Resource Type:** an-scf-sandbox/components/playpage**
+    * Resource Type: **an-scf-sandbox/components/playpage**
     * Ranking: &lt;leave as default&gt;
 
    The Label is used for the node name.
@@ -52,9 +52,9 @@ In this exercise, all pages are based on one simple template.
 
 1. "Allowed Paths" refers to the paths of pages which use this template, such that the template is listed for the **New Page** dialog.
 
-   To add a path, click the plus button** '+' **and type /content(/.&ast;)? in the text box that appears. If using copy/paste, ensure there are no leading or trailing spaces.
+   To add a path, click the plus button **'+'** and type /content(/.&ast;)? in the text box that appears. If using copy/paste, ensure there are no leading or trailing spaces.
 
-   Note: the value of the allowed path property is a *regular expression.* Content pages that have a path that matches the expression can use the template. In this case, the regular expression matches the path of the **/content ** folder and all its subpages.
+   Note: the value of the allowed path property is a *regular expression.* Content pages that have a path that matches the expression can use the template. In this case, the regular expression matches the path of the **/content** folder and all its subpages.
 
    When an author creates a page below `/content`, the `playpage`template titled "An SCF Sandbox Page Template" appears in a list of available templates to use.
 
@@ -67,7 +67,7 @@ In this exercise, all pages are based on one simple template.
 
    Click **Next** in the **Allowed Parents** panel.
 
-   Click **Next **in the **Allowed Children** panels.
+   Click **Next** in the **Allowed Children** panels.
 
    click **OK**.
 
@@ -81,12 +81,12 @@ In this exercise, all pages are based on one simple template.
 
 Create the *component* that defines the content and renders any pages created based on the [playpage template](#createthepagetemplate).
 
-1. In CRXDE Lite, right-click **`/apps/an-scf-sandbox/components` **and click **Create** &gt; **Component**.
+1. In CRXDE Lite, right-click **`/apps/an-scf-sandbox/components`** and click **Create** &gt; **Component**.
 1. By setting the node's name (Label) to *playpage*, the path to the component is  
    `/apps/an-scf-sandbox/components/playpage`  
    which corresponds to the Resource Type of the playpage template (optionally minus the initial **`/apps/`** part of the path).
 
-   In the** Create Component** dialog, type the following property values:
+   In the **Create Component** dialog, type the following property values:
 
     * Label: **playpage**
     * Title: **An SCF Sandbox Play Component**

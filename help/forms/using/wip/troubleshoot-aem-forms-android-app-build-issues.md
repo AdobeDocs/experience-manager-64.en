@@ -27,7 +27,7 @@ The error messages described in this article are:
 
 The error message is displayed when you are using an unsupported version of Gradle and you select **Build APK** option from the **Build** menu on the Android Studio user interface.
 
-**Resolution:** Click **Fix Gradle wrapper and re-import project ** to resolve the issue.
+**Resolution:** Click **Fix Gradle wrapper and re-import project** to resolve the issue.
 
 ![](assets/gradle_unsupported_version.png) 
 

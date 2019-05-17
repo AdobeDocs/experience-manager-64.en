@@ -60,9 +60,9 @@ Only when signed in as an administrator, or as a member with ` [moderator permis
 
 Setting aside the left navigation rail (which appears on author, but not on publish), the moderation UI has following main areas:
 
-* ** [top navigation bar](#top-navigation-bar)**
-* ** [toolbar](#toolbar)** 
-* ** [content area](#content-area)**
+* **[top navigation bar](#top-navigation-bar)**
+* **[toolbar](#toolbar)** 
+* **[content area](#content-area)**
 
 ### Top Navigation Bar {#top-navigation-bar}
 
@@ -110,9 +110,9 @@ The side-panel icon opens the filter rail. The filter rail, which appears to the
 
 The filters within each category are **OR**ed together, and the filters in different categories are **AND**ed together.
 
-For example, if you check both **Question** and **Answer**, you will see content that is either a **Question ***or* an **Answer**.
+For example, if you check both **Question** and **Answer**, you will see content that is either a **Question** *or* an **Answer**.
 
-However if you check **Question** and **Pending**, you will only see content that is a **Question **and is **Pending**.
+However if you check **Question** and **Pending**, you will only see content that is a **Question** and is **Pending**.
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ Status limits the referenced UGC displayed to posts of the selected status, whic
 
 Flagging limits the referenced UGC displayed to posts which are flagged or hidden.
 
-Once a piece of content is flagged, it remains flagged until you unflag that single piece of content by selecting the **Flag **button once again. Note that there are no flagging levels, such as important or followup.
+Once a piece of content is flagged, it remains flagged until you unflag that single piece of content by selecting the **Flag** button once again. Note that there are no flagging levels, such as important or followup.
 
 ![](assets/chlimage_1-476.png)
 
@@ -290,7 +290,7 @@ When working with a single post, the Allow icon will appear when the post has be
 
 ![](assets/chlimage_1-482.png)
 
-The **Deny **moderation action is only available for content that is moderated, and does not appear on unmoderated content except in multi-selection mode.
+The **Deny** moderation action is only available for content that is moderated, and does not appear on unmoderated content except in multi-selection mode.
 
 Content that is not moderated is always approved.
 

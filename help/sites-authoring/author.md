@@ -47,7 +47,7 @@ On the author environment the functionality of AEM is made available through two
 
 ### Author Environment {#author-environment}
 
-The author works in what is known as the ** [author environment](/help/sites-authoring/author-environment.md)**. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.
+The author works in what is known as the **[author environment](/help/sites-authoring/author-environment.md)**. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.
 
 >[!NOTE]
 >
@@ -97,4 +97,4 @@ When the AEM site is a [community site](/help/communities/overview.md), or inclu
 
 ### Dispatcher {#dispatcher}
 
-To optimize performance for visitors to your website, the ** [dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html)** implements load balancing and caching.
+To optimize performance for visitors to your website, the **[dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html)** implements load balancing and caching.

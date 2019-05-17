@@ -69,12 +69,12 @@ This structure can be viewed from the Websites console, which you can use to [na
 
 When creating a new page there are two keys fields:
 
-* ** [Title](#title)**:
+* **[Title](#title)**:
 
     * This is displayed to the user in the console and shown at the top of the page content when editing.  
     * This field is mandatory.
 
-* ** [Name](#name)**:
+* **[Name](#name)**:
 
     * This is used to generate the URI.  
     * User input for this field is optional. If not specified, the name is derived from the title.

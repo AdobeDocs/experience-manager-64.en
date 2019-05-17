@@ -292,9 +292,9 @@ While the syncing of user groups through user sync will be included in a future 
 
 When discussing groups, there are two distinct topics:
 
-* ** [community groups](/help/communities/overview.md#communitygroups)** 
+* **[community groups](/help/communities/overview.md#communitygroups)** 
   These are sub-communities which may be created in the publish environment for a community site which supports creation of community groups. Creation of a community group results in more pages added to the website and are managed in a manner similar to their parent community site. For more information visit [Community Group Essentials](/help/communities/essentials-groups.md) for developers and [Community Group](/help/communities/creating-groups.md) for authors.
 
-* ** [member groups](/help/sites-administering/security.md)** 
+* **[member groups](/help/sites-administering/security.md)** 
   These are groups to which members may belong and are managed through the Groups console. Much of the discussion on this page has been devoted to member groups. The member groups automatically created for a community site, which are prefixed with * `Community`*, may be referred to as a community group, therefore the context of the discussion must be considered.
 

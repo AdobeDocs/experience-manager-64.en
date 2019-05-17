@@ -87,7 +87,7 @@ A workflow package:
 
    >[!NOTE]
    >
-   >The ** [Transient](/help/sites-developing/workflows.md#transient-workflows)** indicator shows workflows for which the workflow history will not be persisted.
+   >The **[Transient](/help/sites-developing/workflows.md#transient-workflows)** indicator shows workflows for which the workflow history will not be persisted.
 
 1. Select **Start Workflow** from the toolbar. 
 1. The Run Workflow dialog will open, allowing you to specify:

@@ -21,7 +21,7 @@ Both the components provide a window, as displayed below, to sign a form. You ca
 
 1. Create a Document of Record option enabled or form template based adaptive form. For step-by-step information, see [Creating an adaptive form](/help/forms/using/creating-adaptive-form.md).
 1. Drag-and-drop the **Scribble Signature** component from component browser to the adaptive form.
-1. Tap the **Configure ** ![](assets/configure.png) icon. It opens properties browser and displays properties of the Scribble Signature component. Configure properties of the Scribble Signature component. 
+1. Tap the **Configure** ![](assets/configure.png) icon. It opens properties browser and displays properties of the Scribble Signature component. Configure properties of the Scribble Signature component. 
 1. Drag-and-drop the Signature Step component from component browser to the adaptive form.
 
    >[!NOTE]

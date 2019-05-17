@@ -277,11 +277,11 @@ To create a new package definition:
 
    Click **OK** after you are finished editing the settings.
 
-1. Add ** [Screenshots](#package-screenshots)** to the package as required. One instance is available when the package is created, add more if required by using **Package Screenshot** from sidekick.
+1. Add **[Screenshots](#package-screenshots)** to the package as required. One instance is available when the package is created, add more if required by using **Package Screenshot** from sidekick.
 
    Add the actual image by double-clicking the image component in the **Screenshots** area, adding an image, and clicking **OK**.
 
-1. Define the ** [Package Filters](#package-filters)** by dragging instances of the **Filter Definition** from the sidekick, then double-clicking to open for editing:
+1. Define the **[Package Filters](#package-filters)** by dragging instances of the **Filter Definition** from the sidekick, then double-clicking to open for editing:
 
    ![](assets/packagesfilter.png)
 
@@ -336,7 +336,7 @@ A major use case for rewrap is when preparing a package for the package share. F
 
 1. Open the package definition from **Package Manager** (click on the package icon or name).  
 
-1. Click **Edit** and update the ** [Package Settings](#package-settings)** as required. Click **OK** to save.  
+1. Click **Edit** and update the **[Package Settings](#package-settings)** as required. Click **OK** to save.  
 
 1. Click **Rewrap**, a dialog will ask for confirmation.
 

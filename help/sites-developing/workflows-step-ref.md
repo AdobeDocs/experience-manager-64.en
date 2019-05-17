@@ -371,7 +371,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
 ### Dynamic Participant Step {#dynamic-participant-step}
 
-The **Dynamic Participant Step** component is similar to ** [Participant Step](#participant-step)** with the difference that the participant is selected automatically at run time.
+The **Dynamic Participant Step** component is similar to **[Participant Step](#participant-step)** with the difference that the participant is selected automatically at run time.
 
 To configure the step, you select a **Participant Chooser** that identifies the participant to assign the work item to, together with a dialog.
 

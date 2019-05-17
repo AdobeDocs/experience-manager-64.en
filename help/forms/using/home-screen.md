@@ -34,7 +34,7 @@ Click to enlarge
 
 ![General Settings](assets/gen-settings.png)
 
-You can change the default Home screen of the app either from the ** [General Settings](/help/forms/using/update-general-settings.md)** of the app, or from the **Preference **tab on HTML Workspace.
+You can change the default Home screen of the app either from the **[General Settings](/help/forms/using/update-general-settings.md)** of the app, or from the **Preference **tab on HTML Workspace.
 
 The change made to Home screen setting on the app effects the Home screen for the current logged or the user on the current mobile device.
 

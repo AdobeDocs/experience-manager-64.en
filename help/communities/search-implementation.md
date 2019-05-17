@@ -140,7 +140,7 @@ The suffix is for query languages which use a schema:
 
 Solr is an example of a query language which uses a schema.
 
-| **Suffix ** |**Data Type ** |
+| **Suffix** |**Data Type** |
 |---|---|
 | _b |*Boolean* |
 | _dt |*Calendar* |
@@ -151,7 +151,7 @@ Solr is an example of a query language which uses a schema.
 
 **Notes:**
 
-* *Text* is a tokenized string, *String *is not. Use *Text* for fuzzy (more like this) searches.
+* *Text* is a tokenized string, *String* is not. Use *Text* for fuzzy (more like this) searches.
 
 * For multi-valued types, add ‘s’ to the suffix, for example:
 
