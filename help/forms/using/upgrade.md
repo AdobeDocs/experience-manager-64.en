@@ -89,8 +89,8 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 
     1. Stop the AEM instance and delete the following files:
 
-        * [AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcmail-jdk15-1.35
-        * [AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcprov-jdk15-1.35
+        * `[AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcmail-jdk15-1.35`
+        * `[AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcprov-jdk15-1.35`
 
     1. Start the AEM instance.
 
