@@ -85,7 +85,7 @@ Some of the key highlights of AEM 6.4.4.0 are:
 * Multifield file upload does not show drop zone. NPR-28676: Hotfix for CQ-4263516
 * 'Invalid recursion selector value' error while migrating a component from AEM 6.0 to AEM 6.2. NPR-28609: Hotfix for CQ-4241258 
 * Rich Text Editor in dialog is flickering when popover of a plugin is higher than text area, hence, blocking any further authoring. NPR-27579: Hotfix for CQ-4257440
-* [Classic UI] cq:action editannotate does not work. NPR-28232: Hotfix for CQ-4257703
+* \[Classic UI\] cq:action editannotate does not work. NPR-28232: Hotfix for CQ-4257703
 * Removing tags from the tags filter  asset search panel of the page editor doesn't refresh the list properly. NPR-27983: Hotfix for CQ-4245567
 * If the multifield number values are empty, clicking Save will result in infinite loading prompt without actually ever completing.  NPR-28400, NPR-28393: Hotfix for CQ-4244058, CQ-4244349
 * With just read permission, users/groups are not able to select an XF and have no option to view the XF and its page properties. NPR-28341: Hotfix for CQ-4260412
@@ -1204,9 +1204,9 @@ The key highlights for AEM Forms are:
 
 *   An error is generated when providing null as a value to an optional field. NPR-24397
 *   WSDL invoking is failing when element has different namespace other than global namespace. NPR-24281
-*   \[FDM WSDL\] Getting DermisException: Excepted list data in case of property type array. NPR-24265
-*   \[FDM WSDL\] Getting DermisException: java.lang.Exception: createSOAPParam: Invalid Params. NPR-24264
-*   \[FDM Client SDK\] Unable to do testing of pre/post preprocessor and custom submit action. Hotfix for CQ-4238469
+*   &lsqb;FDM WSDL&rsqb; Getting DermisException: Excepted list data in case of property type array. NPR-24265
+*   &lsqb;FDM WSDL&rsqb; Getting DermisException: java.lang.Exception: createSOAPParam: Invalid Params. NPR-24264
+*   &lsqb;FDM Client SDK&rsqb; Unable to do testing of pre/post preprocessor and custom submit action. Hotfix for CQ-4238469
 *   Fixes for Javadoc issues in Dermis. Hotfix for CQ-4244250
 *   Enhanced input in Web Services Description Language (WSDL). Hotfix for CQ-4244133
 *   Basic authentication testing for WSDL results in different error for same configuration in AEM 6.3 and AEM 6.4. Hotfix for CQ-4244132
@@ -1222,7 +1222,7 @@ The key highlights for AEM Forms are:
 *   Test case for deep copy of guideContext. Hotfix for CQ-4242924
 *   Proof type field is missing on executing the UAT3 on latest upgraded server. Hotfix for CQ-4243120
 *   On upgraded server, the submitted form is missing the State/Province/Region and Country values that were present on pre-upgrade server. Hotfix for CQ-4241444
-*   \[ExpressionEditor\] Error while navigating to Verify stage during form submission. Hotfix for CQ-4241384
+*   &lsqb;ExpressionEditor&rsqb; Error while navigating to Verify stage during form submission. Hotfix for CQ-4241384
 *   Values are missing in verify stage on pre-upgrade and upgraded server for submitted form. Hotfix for CQ-4241896
 *   Quit and save button at the bottom of the page are not working. Hotfix for CQ-4240112
 *   Contact number missing on the upgraded set-up. Hotfix for CQ-4239870
@@ -1234,11 +1234,11 @@ The key highlights for AEM Forms are:
 *   State field is not being populated in Mobile form rendition. Hotfix for CQ-4240597
 *   Remove reference usage of components in templates from anti-pattern list. Hotfix for CQ-4239217
 *   HTML5 Numeric Box set as a Float or Decimal gives different validation results in different browsers. NPR-23528: Hotfix for CQ-4244097
-*   \[Image upload\] Image not getting displayed in DOR preview. Hotfix for CQ-4243178
+*   &lsqb;Image upload&rsqb; Image not getting displayed in DOR preview. Hotfix for CQ-4243178
 *   JEE server throws an error on trying to submit the Adaptive Form with ‘Email PDF’ and ‘Include attachments’. Hotfix for CQ-4239894
 *   Chart is not plotted at runtime using table/panel. Hotfix for CQ-4240010
 *   Adaptive Form submission is not working and no change in transaction count due to failure of submission. Hotfix for CQ-4246125
-*   \[Image choice\] Document of record options are not visible. Hotfix for CQ-4236976
+*   &lsqb;Image choice&rsqb; Document of record options are not visible. Hotfix for CQ-4236976
 *   Template editor UI is not stable. Hotfix for CQ-4241497
 *   AFs are not shown using assets tab of side panel while is shown using browse option for AEM form component property dialog. Hotfix for CQ-4236751
 *   Workflow ID generated for form conversion should be available in generated Adaptive Form. Hotfix for CQ-4240014
