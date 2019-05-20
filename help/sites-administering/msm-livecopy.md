@@ -388,7 +388,7 @@ When selected, the dialog will be shown. You can select a synchronization, if re
 
 #### Resume a Live Copy Page from the Live Copy Overview {#resume-a-live-copy-page-from-the-live-copy-overview}
 
-The [Resume action is also available from the Live Copy Overview](/help/sites-administering/msm-livecopy-overview.md#using-the-live-copy-overview), when a Live Copy page is selected. [](/help/sites-administering/msm-livecopy-overview.md#using-the-live-copy-overview)
+The [Resume action is also available from the Live Copy Overview](/help/sites-administering/msm-livecopy-overview.md#using-the-live-copy-overview), when a Live Copy page is selected.
 
 1. Open the [Live Copy Overview](/help/sites-administering/msm-livecopy-overview.md#using-the-live-copy-overview) and select a Live Copy Page that has been suspended; will be shown as **INHERITANCE CANCELLED**.
 1. Select **Resume** from the toolbar.

@@ -87,7 +87,7 @@ The tree structure defines data items in the store as key/value pairs. In the ab
 
 ### Manipulating Objects {#manipulating-objects}
 
-ContextHub provides the [ `ContextHub.Utils.JSON.tree`](/help/sites-developing/contexthub-api.md#contexthub-utils-json-tree) class for manipulating Javascript objects. Use the functions of this class for manipulating Javascript objects before you add them to a store, or after you obtain them from a store. [](/help/sites-developing/contexthub-api.md#contexthub-utils-json-tree)
+ContextHub provides the [ `ContextHub.Utils.JSON.tree`](/help/sites-developing/contexthub-api.md#contexthub-utils-json-tree) class for manipulating Javascript objects. Use the functions of this class for manipulating Javascript objects before you add them to a store, or after you obtain them from a store.
 
 Additionally, the [ `ContextHub.Utils.JSON`](/help/sites-developing/contexthub-api.md#contexthub-utils-json) class provides functions for serializing objects to stings, and deserializing strings to objects. Use this class for handling JSON data to support browsers that do not natively include the `JSON.parse` and `JSON.stringify` functions.
 

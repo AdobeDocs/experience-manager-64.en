@@ -170,8 +170,7 @@ You can customize your app for:
 For more information on setting up a AEM Forms app project for customization, see:
 
 * [Set up environment for AEM Forms app](/help/forms/using/setup-environment-mobile-workspace.md)
-* [](https://helpx.stage.adobe.com/content/help/en/aem-forms/6-1/mobile-workspace/setup-xcode-project-build-installer.html) [Set up Visual Studio project and build Windows app](/help/forms/using/setup-visual-studio-project-build-installer.md)
-
+* [Set up Visual Studio project and build Windows app](/help/forms/using/setup-visual-studio-project-build-installer.md)
 * [Set up Xcode project and build iOS app](/help/forms/using/setup-xcode-project-build-installer.md)
 * [Set up Eclipse project and build Android app](/help/forms/using/setup-eclipse-project-build-installer.md)
 

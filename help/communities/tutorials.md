@@ -17,7 +17,7 @@ These are examples to help in learning and working with AEM 6.1 Communities [soc
 
 ## Client-Side Customization {#client-side-customization}
 
-See also [SCF client-side customization](/help/communities/client-customize.md). [](/help/communities/client-customize.md)
+See also [SCF client-side customization](/help/communities/client-customize.md).
 
 * [Community Components guide](/help/communities/components-guide.md)
 

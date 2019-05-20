@@ -30,7 +30,7 @@ AEM allows you to easily personalize your users' experience. It also allows you 
 
 The [Audiences](/help/sites-authoring/managing-audiences.md) console is used to manage segments for ContextHub or Client Context as well as audiences for your Adobe Target account. This documentation covers managing segments for ContextHub. For [Client Context segments](/help/sites-administering/campaign-segmentation.md) and Adobe Target segments, please see the relevant documentation.
 
-To access your segments, in global navigation select **Navigation &gt; Personalization &gt; Audiences**. [](/help/sites-administering/campaign-segmentation.md)
+To access your segments, in global navigation select **Navigation &gt; Personalization &gt; Audiences**.
 
 ![](assets/chlimage_1-310.png) 
 

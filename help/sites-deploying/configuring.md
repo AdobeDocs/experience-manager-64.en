@@ -167,7 +167,7 @@ For user management within AEM (including assignment of access rights) see [User
 
 Dispatcher is Adobe's caching and/or load balancing tool. Using the Dispatcher also helps to protect your AEM server from attack. Therefore, you can increase the security of your AEM instance by using the Dispatcher in conjunction with an enterprise-class web server.
 
-See [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html) for full details, in particular [Configuring the Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html) [](/help/sites-administering/ssl-by-default.md) for further configuration details.
+See [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html) for full details, in particular [Configuring the Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html) for further configuration details.
 
 ### Configuring AEM LiveCycle Connector {#configuring-aem-livecycle-connector}
 

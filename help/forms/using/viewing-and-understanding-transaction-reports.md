@@ -23,7 +23,7 @@ Transaction reports feature is available as part of the AEM forms add-on package
 * Enable reverse replication on all the publish instances
 * Enable transaction reports
 * Provide rights to view a transaction report
-* (Optional) Configure Transaction Flush Period and Outboxes [](/help/forms/using/installing-configuring-aem-forms-osgi.md)
+* (Optional) Configure Transaction Flush Period and Outboxes
 
 >[!NOTE]
 >

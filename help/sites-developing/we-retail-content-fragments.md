@@ -34,7 +34,7 @@ For the full documentation on creating, managing, using and developing content f
 >* **Content Fragments** are editorial content, primarily text and related images. They are pure content, without design and layout.
 >* **Experience Fragments** are fully laid out content; a fragment of a web page.  
 >
->Experience Fragments can contain content in the form of Content Fragments, but not the other way around. [](/help/sites-authoring/experience-fragments.md)
+>Experience Fragments can contain content in the form of Content Fragments, but not the other way around.
 
 ## Where to Find Content Fragments in We.Retail {#where-to-find-content-fragments-in-we-retail}
 

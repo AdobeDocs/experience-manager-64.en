@@ -87,7 +87,7 @@ The **Websites** console provides two panes for you to navigate and manage your 
 * Right pane  
   This shows the pages (at the location selected in the left pane) and can be used for taking actions.
 
-From here you can [manage your pages](/help/sites-authoring/managing-pages.md) using either the toolbar, a context menu or by opening a page for further actions. [](/help/sites-classic-ui-authoring/classic-page-author-manage-pages.md)
+From here you can [manage your pages](/help/sites-authoring/managing-pages.md) using either the toolbar, a context menu or by opening a page for further actions.
 
 >[!NOTE]
 >

@@ -17,7 +17,7 @@ pagetitle: Administering Magento
 ## Registration {#registration}
 
 You can create a registration form using the [foundation form component](/help/sites-authoring/default-components-foundation.md#form) and add the necessary fields.  
-Make sure you select **Magento Registration** as the action type. [](/help/sites-authoring/default-components-foundation.md#form)
+Make sure you select **Magento Registration** as the action type.
 
 ## Product/Catalog Import {#product-catalog-import}
 

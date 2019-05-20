@@ -1032,7 +1032,7 @@ By default, while synchronizing a document for offline use, along with the infor
 
 You can increase the scalability of the document security server by limiting the information being sent to the client. The reduction in amount of information sent to client results in improved scalability, reduced response time, and better performance of the server. Perform the following steps to increase the scalability:
 
-1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually-editing-the-document-security-configuration-file).) [](/help/forms/using/admin-help/configuring-client-server-options.md#manually-editing-the-document-security-configuration-file)
+1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually-editing-the-document-security-configuration-file).)
 1. Open the configuration file in an editor and locate the ServerSettings node. 
 1. In the ServerSettings node, set the value of the `DisableGlobalOfflineSynchronizationData`property to `true`.
 

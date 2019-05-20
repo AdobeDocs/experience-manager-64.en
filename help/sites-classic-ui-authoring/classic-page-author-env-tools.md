@@ -61,8 +61,7 @@ You can use the content finder to locate a range of resources. Where appropriate
 * [Documents](#finding-documents)
 * [Movies](#finding-movies)
 * [Scene 7 Media Browser](/help/sites-administering/scene7.md#scene7contentbrowser)
-* [](#products) [Pages](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#finding-pages)  
-
+* [Pages](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#finding-pages)  
 * [Paragraphs](#referencing-paragraphs-from-other-pages)
 * [Products](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#products)
 * Or to [browse the website by repository structure](#the-content-finder)

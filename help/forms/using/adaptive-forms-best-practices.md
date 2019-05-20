@@ -17,7 +17,7 @@ Adobe Experience Manager (AEM) forms can help you transform complex transactions
 
 This document provides guidelines and recommendations that forms administrator, authors, and developers can benefit from when working with AEM Forms, especially adaptive forms component. It discusses best practices right from setting up a forms development project to configuring, customizing, authoring, and optimizing AEM Forms. These best practices collectively contribute to the overall performance of AEM Forms ecosystem.
 
-In addition, here are some recommended reads for general AEM best practices: [](/help/sites-deploying/best-practices.md)
+In addition, here are some recommended reads for general AEM best practices:
 
 * [Best practices: Deploying and maintaining AEM](/help/sites-deploying/best-practices.md)
 * [Best practices: Authoring content](/help/sites-authoring/best-practices.md)
