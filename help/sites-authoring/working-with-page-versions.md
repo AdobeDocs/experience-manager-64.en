@@ -135,12 +135,6 @@ To do this:
 * When navigating to a page that has been deleted this will also be rendered - as long as the old versions of the page are still available in the repository.
 * If no published version is found, then Timewarp will revert to the current state of the page on the author environment (this is to prevent an error/404 page, which would prevent browsing).
 
->[!NOTE]
->
->If versions are removed from the repository then Timewarp cannot show the correct view.
->
->If elements (such as code, css, assets/images, etc) for rendering the website have changed, the view will differ from what it originally was, as those items are not versioned in the repository.
-
 ### Using Timewarp {#using-timewarp}
 
 Timewarp is a [mode](/help/sites-authoring/author-environment-tools.md#page-modes) of the page editor. To start it, simply switch it as you would any other mode.
@@ -157,15 +151,16 @@ Timewarp is a [mode](/help/sites-authoring/author-environment-tools.md#page-mode
 
    ![](assets/screen_shot_2018-03-21at155544.png)
 
->[!NOTE]
->
->Timewarp will only work fully if you have previously published the page. If not, timewarp will show the current page on the author environment.
+### Timewarp Limitations
 
->[!NOTE]
->
->If you navigate to a page that has been removed/deleted from the repository it will be rendered properly if old versions of the page are still available in the repository.
+Timewarp makes a best effort to reproduce a page at a selected point in time. However because of the complexities of the continuous authoring of content in AEM, this is not always possible. These limitations should be kept in mind as you use Timewarp.
 
->[!NOTE]
->
->You cannot edit the old version of the page. It is only available for viewing. If you want to restore the older version you will have to do that manually using [restore](/help/sites-authoring/working-with-page-versions.md#reverting-to-a-page-version).
+* **Timewarp works based on published pages** - Timewarp will only work fully if you have previously published the page. If not, timewarp will show the current page on the author environment.
+* **Timewarp uses page versions** - If you navigate to a page that has been removed/deleted from the repository it will be rendered properly if old versions of the page are still available in the repository.
+* **Removed versions affect Timewarp** - If versions are removed from the repository then Timewarp cannot show the correct view.
+* **Timewarp is read-only** - You cannot edit the old version of the page. It is only available for viewing. If you want to restore the older version you will have to do that manually using restore.
+* **Timewarp is only based on page content** - If elements (such as code, css, assets/images, etc) for rendering the website have changed, the view will differ from what it originally was, as those items are not versioned in the repository.
 
+>[!CAUTION]
+>
+> Timewarp is designed as a tool to assit authors with understanding and creating their content. It is not intended as an audit log or for legal purposes.
