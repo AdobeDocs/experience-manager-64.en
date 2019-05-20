@@ -13,9 +13,9 @@ discoiquuid: 8b6c1697-d693-41f4-8337-f41658465107
 
 # SCF Handlebars Helpers{#scf-handlebars-helpers}
 
-| ** [⇐ Feature Essentials](/help/communities/essentials.md)** |** [Server-side Customization ⇒](/help/communities/server-customize.md)** |
+| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Server-side Customization ⇒](/help/communities/server-customize.md)** |
 |---|---|
-|   |** [Client-side Customization ⇒](/help/communities/client-customize.md)** |
+|   |**[Client-side Customization ⇒](/help/communities/client-customize.md)** |
 
 Handlebars Helpers (helpers) are methods callable from Handlebars scripts to facilitate working with SCF components.
 
@@ -566,7 +566,7 @@ The clientlib must:
 
 Note: the SCF helpers are defined in `/etc/clientlibs/social/commons/scf/helpers.js`.
 
-| ** [⇐ Feature Essentials](/help/communities/essentials.md)** |** [Server-side Customization ⇒](/help/communities/server-customize.md)** |
+| **[⇐ Feature Essentials](/help/communities/essentials.md)** |**[Server-side Customization ⇒](/help/communities/server-customize.md)** |
 |---|---|
-|   |** [Client-side Customization ⇒](/help/communities/client-customize.md)** |
+|   |**[Client-side Customization ⇒](/help/communities/client-customize.md)** |
 

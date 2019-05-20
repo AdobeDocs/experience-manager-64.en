@@ -108,7 +108,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 **Create a web project**
 
 1. Start Eclipse and click **File** &gt;  **New Project**.
-1. In the **New Project** dialog box, select **Web** &gt; ** Dynamic Web Project**.
+1. In the **New Project** dialog box, select **Web** &gt; **Dynamic Web Project**.
 1. Type `InvokePreLoanProcess` for the name of your project and then click **Finish**.
 
 **Add required JAR files to your project**
@@ -127,7 +127,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 1. From the Project Explorer window, right-click the `InvokePreLoanProcess` project and select **New** &gt; **Other**. 
 1. Expand the **Web** folder, select **HTML**, and click **Next**. 
-1. In the New HTML****dialog box, type `index.html` for the filename and then click **Finish**.
+1. In the New HTML dialog box, type `index.html` for the filename and then click **Finish**.
 
 >[!NOTE]
 >
@@ -422,7 +422,7 @@ The following illustration shows the Eclipse project’s content, which is packa
 
 **Package a web application to a WAR file:**
 
-1. From the **Project Explorer** window, right-click the `InvokePreLoanProcess` project and select **Export** &gt; ** WAR file**.
+1. From the **Project Explorer** window, right-click the `InvokePreLoanProcess` project and select **Export** &gt; **WAR file**.
 1. In the **Web module** text box, type `InvokePreLoanProcess` for the name of the Java project. 
 1. In the **Destination** text box, type `PreLoanProcess.war`**for the**filename, specify the location for your WAR file, and then click Finish.
 

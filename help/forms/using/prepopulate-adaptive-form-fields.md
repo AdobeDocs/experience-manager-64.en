@@ -239,7 +239,7 @@ To enable prefill service, specify the Default Prefill Service Configuration in 
 
 1. Enter the data location or a regex (regular expression) for the **Data files locations**. Examples of valid Data files locations are:
 
-    * file:///C:/Users/public/Document/Prefill/.&#42;
+    * file:///C:/Users/public/Document/Prefill/.&ast;
     * http://localhost:8000/somesamplexmlfile.xml
 
    >[!NOTE]

@@ -32,7 +32,7 @@ You can set which columns appear in the search results.
 
 ### Search for a task using a search template {#search-for-a-task-using-a-search-template}
 
-1. On the Tracking page, in the list on the left, select **Search ****Templates** and select a search template.
+1. On the Tracking page, in the list on the left, select **Search Templates** and select a search template.
 1. If the template supports search parameters, To narrow the search parameters, fill the template fields and then click **Search**. Displays a list of all tasks that you participated in, which match the search criteria.
 
 ## View process details {#view-process-details}

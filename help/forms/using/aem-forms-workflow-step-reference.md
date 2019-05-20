@@ -98,13 +98,13 @@ The email step uses Day CQ Mail Service to send emails. Before using the email s
 
 * **Workflow Metadata:** Use the option when the value to use is saved in a workflow metadata property. After selecting the option, enter the metadata property name in the empty text box below the Workflow Metadata option. For example, emailAddress.
 * **Asset URL:** Use the option to embed a web link of an interactive communication to the email. After selecting the option, browse and choose the interactive communication to embed. The asset can reside on the author or the publish server.
-* **Image:** Use the option to embed an image to the email. After selecting the option, browse and choose the image. The image option is available only for the image tags (&lt;img src="&#42;"/&gt;) available in the email template.
+* **Image:** Use the option to embed an image to the email. After selecting the option, browse and choose the image. The image option is available only for the image tags (&lt;img src="&ast;"/&gt;) available in the email template.
 
-**Sender’s / Recipient's Email Address:** Select the **Literal **option to manually specify an email address or select the ** Retrieve from Workflow metadata** option to retrieve the email address from a metadata property. You can also specify a list of metadata property arrays for the** Retrieve from Workflow metadata** option.
+**Sender’s / Recipient's Email Address:** Select the **Literal** option to manually specify an email address or select the **Retrieve from Workflow metadata** option to retrieve the email address from a metadata property. You can also specify a list of metadata property arrays for the **Retrieve from Workflow metadata** option.
 
 **File Attachment Path:** The asset available at the specified location is attached to the email. The path of the asset can be relative to the payload or absolute path. An example path is [Payload_Directory]/attachments/
 
-**File Name: **Name of the email attachment file. The Email Step changes the original file name of the attachment to the specified file name. The name can be specified manually or retrieved from a workflow metadata property. Use the **Literal** option when you know the exact value to specify. Use the **Retrieve from a Workflow Metadata** option when the value to use is saved in a workflow metadata property.
+**File Name:** Name of the email attachment file. The Email Step changes the original file name of the attachment to the specified file name. The name can be specified manually or retrieved from a workflow metadata property. Use the **Literal** option when you know the exact value to specify. Use the **Retrieve from a Workflow Metadata** option when the value to use is saved in a workflow metadata property.
 
 ## Generate Document of Record step {#generate-document-of-record-step}
 
@@ -118,7 +118,7 @@ The Document of Record step has the following properties:
 
 **Input Data Path:** Path of the input data for the adaptive form. You can keep the data at a location relative to the payload or specify an absolute path of the data. The input data is merged with the adaptive form to create a document of record.
 
-**Input Attachement Path:**Input Attachment Path: Path of the attachments. These attachments are included in the Document of Record. You can keep the attachments at a location relative to the payload or specify an absolute path of the attachments.
+**Input Attachement Path:** Input Attachment Path: Path of the attachments. These attachments are included in the Document of Record. You can keep the attachments at a location relative to the payload or specify an absolute path of the attachments.
 
 If you specify the path of a folder, for example, attachments, all the files directly available in the folder are attached to Document of Record. If any files are available in the folders directly available in the specified attachment path, the files are included in Document of Record as attachments. If there are any folders in directly available folders, those are skipped.
 

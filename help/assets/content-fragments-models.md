@@ -86,7 +86,7 @@ The content fragment model effectively defines the structure of the resulting co
 
    >[!NOTE]
    >
-   >When a field as **Required**, the **Label** indicated in the left pane will be marked with an asterix (**&#42;**).
+   >When a field as **Required**, the **Label** indicated in the left pane will be marked with an asterix (**&ast;**).
 
    ![](assets/cfm-6420-12.png)
 

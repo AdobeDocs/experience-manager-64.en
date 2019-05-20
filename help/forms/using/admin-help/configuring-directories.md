@@ -84,7 +84,7 @@ When you add a directory to a domain, specify the following directory settings.
 
 **User:** Authentication is required. In the Name box, specify the name of the user record that can access the directory. It is best to enter the full distinguished name (DN) of the user account, such as cn=Jane Doe, ou=user, dc=can, dc=com. In the Password box, specify the associated password. These settings are required when you select User as the Binding option.
 
-**Name:** Name that can be used to connect to the LDAP database when anonymous access is not enabled. For Active Directory 2003, specify [domain name]\[userid]. For Sun™ One, eDirectory or IBM Tivoli Directory Server, specify the fully qualified name of the user, such as uid=lcuser,ou=it,o=company.com.
+**Name:** Name that can be used to connect to the LDAP database when anonymous access is not enabled. For Active Directory 2003, specify `[domain name]\[userid]`. For Sun™ One, eDirectory or IBM Tivoli Directory Server, specify the fully qualified name of the user, such as uid=lcuser,ou=it,o=company.com.
 
 **Password:** Password that corresponds with the name you specified to connect to the LDAP database when anonymous access is not enabled.
 

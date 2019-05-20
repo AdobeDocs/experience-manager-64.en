@@ -26,7 +26,7 @@ The following steps allow you to create a sample project for Screens and publish
 
    Additionally, AEM Screens is also available in [iTunes App Store](https://itunes.apple.com/us/app/aem-screens/id1169641856?mt=8) and [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&hl=en).
 
-   See [Installing and Configuring Screens](/help/sites-deploying/configuring-screens-introduction.md) for more details.
+   See [Installing and Configuring Screens](/help/screens/configuring-screens-introduction.md) for more details.
 
 1. **Creating a new project**
 
@@ -195,7 +195,7 @@ Once you have added the above configurations, the player should automatically sh
 
 For in-depth understanding for all the modules for Screens, see the resources below:
 
-1. [Installing and Configuring Screens](/help/sites-deploying/configuring-screens-introduction.md)
+1. [Installing and Configuring Screens](/help/screens/configuring-screens-introduction.md)
 1. [Screens Project Creation](/help/sites-authoring/creating-a-screens-project.md)
 1. [Device Assignment](/help/screens/managing-devices.md)
 1. Application Management

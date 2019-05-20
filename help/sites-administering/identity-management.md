@@ -187,7 +187,7 @@ On a standard installation (author or publish) everyone has read access to the e
 
 These access rights are defined by the following wildcard ACL:
 
-/home everyone allow jcr:read rep:glob = &#42;/profile&#42;
+/home everyone allow jcr:read rep:glob = &ast;/profile&ast;
 
 That allows:
 
@@ -196,7 +196,7 @@ That allows:
 
 If such access is not appropriate for your installation you can change these default settings.
 
-This can be done using the ** [Access Control](/help/sites-administering/user-group-ac-admin.md#access-right-management)** tab:
+This can be done using the **[Access Control](/help/sites-administering/user-group-ac-admin.md#access-right-management)** tab:
 
 ![](assets/aclmanager.png)  
 

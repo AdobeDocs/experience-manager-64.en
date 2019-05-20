@@ -77,7 +77,7 @@ Together with the JSON export capabilities of AEM core components, this structur
 
 >[!NOTE]
 >
->**Content Fragments** and ** [Experience Fragments](/help/sites-authoring/experience-fragments.md)** are different features within AEM:
+>**Content Fragments** and **[Experience Fragments](/help/sites-authoring/experience-fragments.md)** are different features within AEM:
 >
 >* **Content Fragments** are editorial content, primarily text and related images. They are pure content, without design and layout.
 >* **Experience Fragments** are fully laid out content; a fragment of a web page.  
@@ -235,7 +235,7 @@ The content fragment assets are made up of the following parts (either directly 
         * Every content fragment has one instance of Master.
         * Master cannot be deleted.
 
-    * Master is accessible in the fragment editor under ** [Variations](content-fragments-variations.md)**.
+    * Master is accessible in the fragment editor under **[Variations](content-fragments-variations.md)**.
     * Master is not a variation as such, but is the basis of all variations.
 
 * **Variations**

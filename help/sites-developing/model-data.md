@@ -208,7 +208,7 @@ It is true that some nodes need a stable identification throughout their live cy
 
 Keep also in mind that items can be identified by path, and as much as "symlinks" make way more sense for most users than hardlinks in a unix filesystem, a path makes a sense for most applications to refer to a target node.
 
-More importantly, it is &#42;&#42;mix&#42;&#42;:referenceable which means that it can be applied to a node at the point in time when you actually need to reference it.
+More importantly, it is &ast;&ast;mix&ast;&ast;:referenceable which means that it can be applied to a node at the point in time when you actually need to reference it.
 
 So let's say just because you would like to be able to potentially reference a node of type "Document" does not mean that your "Document" nodetype has to extend from mix:referenceable in a static fashion since it can be added to any instance of the "Document" dynamically.
 

@@ -89,31 +89,31 @@ You can configure the following properties for a Watched Folder.
 * **excludeFilePattern (String)**: A semi-colon (;) delimited list of patterns that a Watched Folder uses to determine which files and folders to scan and pick up. Any file or folder with this pattern is not scanned for processing. This setting is useful when the input is a folder with multiple files. The contents of the folder can be copied into a folder with a name that are picked up by the Watched Folder. This prevents the Watched Folder from picking up a folder for processing before the folder is completely copied into the input folder. The default value is null.   
   You can use [file patterns](/help/forms/using/watched-folder-in-aem-forms.md#p-file-and-folder-patterns-p) to exclude:
 
-    * Files with specific filename extensions; for example, &#42;.dat, &#42;.xml, .pdf, &#42;.&#42; 
-    * Files with specific names; for example, data&#42; would exclude files and folders named data1, data2, and so on.
+    * Files with specific filename extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast; 
+    * Files with specific names; for example, data&ast; would exclude files and folders named data1, data2, and so on.
     * Files with composite expressions in the name and extension, as in these examples:
 
         * Data[0-9][0-9][0-9].[dD][aA][tT]
-        * &#42;.[dD][Aa][Tt]
-        * &#42;.[Xx][Mm][Ll]
+        * &ast;.[dD][Aa][Tt]
+        * &ast;.[Xx][Mm][Ll]
 
 For more information about file patterns, see [About file patterns](/help/forms/using/watched-folder-in-aem-forms.md#p-file-and-folder-patterns-p).
 
-* **includeFilePattern (String)**: A semi-colon (;) delimited list of patterns that the Watched Folder uses to determine which folders and files to scan and pick up. For example, if the IncludeFilePattern is input&#42;, all files and folders that match input&#42; are picked up. This includes files and folders named input1, input2, and so on. The default value is &#42; and indicates all files and folders. You can use file patterns to include:
+* **includeFilePattern (String)**: A semi-colon (;) delimited list of patterns that the Watched Folder uses to determine which folders and files to scan and pick up. For example, if the IncludeFilePattern is input&ast;, all files and folders that match input&ast; are picked up. This includes files and folders named input1, input2, and so on. The default value is &ast; and indicates all files and folders. You can use file patterns to include:
 
-    * Files with specific filename extensions; for example, &#42;.dat, &#42;.xml, .pdf, &#42;.&#42;
-    * Files with specific names; for example, data.&#42; would include files and folders named data1, data2, and so on.
+    * Files with specific filename extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast;
+    * Files with specific names; for example, data.&ast; would include files and folders named data1, data2, and so on.
 
 * Files with composite expressions in the name and extension, as in these examples:
 
     * Data[0-9][0-9][0-9].[dD][aA][tT]
 
-        * &#42;.[dD][Aa][Tt]
-        * &#42;.[Xx][Mm][Ll]
+        * &ast;.[dD][Aa][Tt]
+        * &ast;.[Xx][Mm][Ll]
 
 For more information about file patterns, see [About file patterns](/help/forms/using/watched-folder-in-aem-forms.md#p-file-and-folder-patterns-p)
 
-* **waitTime (Long)**: The time, in milliseconds, to wait before you scan a folder or file after it is created. For example, if the wait time is 3,600,000 milliseconds (one hour) and the file was created one minute ago, this file will be picked up after 59 or more minutes have passed. The default value is 0. This setting is useful to ensure that a file or folder is completely copied to the input folder. For example, if you have a large file to process and the file takes ten minutes to download, set the wait time to 10&#42;60 &#42;1000 milliseconds. This prevents the Watched Folder from scanning the file if it is not ten minutes old.
+* **waitTime (Long)**: The time, in milliseconds, to wait before you scan a folder or file after it is created. For example, if the wait time is 3,600,000 milliseconds (one hour) and the file was created one minute ago, this file will be picked up after 59 or more minutes have passed. The default value is 0. This setting is useful to ensure that a file or folder is completely copied to the input folder. For example, if you have a large file to process and the file takes ten minutes to download, set the wait time to 10&ast;60 &ast;1000 milliseconds. This prevents the Watched Folder from scanning the file if it is not ten minutes old.
 * **purgeDuration (Long)**: Files and folders in the result folder are purged when they are older than this value. This value is measured in days. This setting is useful in ensuring that the result folder does not become full. A value of -1 days indicates to never delete the results folder. The default value is -1.
 * **resultFolderName (String)**: The folder where the saved results are stored. If the results do not appear in this folder, check the failure folder. Read-only files are not processed and are saved in the failure folder. This value can be an absolute or relative path with the following file patterns:
 
@@ -557,13 +557,13 @@ Output from the first conversion would go to \path\result. Input for the second 
 
 Administrators can specify the type of file that can invoke a service. Multiple file patterns can be established for each Watched Folder. A file pattern can be one of the following file properties:
 
-* Files with specific file name extensions; for example, &#42;.dat, &#42;.xml, .pdf, &#42;.&#42;
-* Files with specific names; for example, data.&#42;
+* Files with specific file name extensions; for example, &ast;.dat, &ast;.xml, .pdf, &ast;.&ast;
+* Files with specific names; for example, data.&ast;
 * Files with composite expressions in the name and extension, as in these examples:
 
     * Data[0-9][0-9][0-9].[dD][aA][tT]
-    * &#42;.[dD][Aa][Tt]
-    * &#42;.[Xx][Mm][Ll]
+    * &ast;.[dD][Aa][Tt]
+    * &ast;.[Xx][Mm][Ll]
 
 * The administrator can define the file pattern of the output folder in which to store the results. For the output folders (result, preserve, and failure), the administrator can specify any of these file patterns:
 * %Y = year (full)  

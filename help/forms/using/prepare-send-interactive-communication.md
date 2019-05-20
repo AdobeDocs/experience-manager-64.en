@@ -42,7 +42,7 @@ While preparing the Interactive Communication using the Agent UI, the agent mana
 
 ### Enter Data {#enter-data}
 
-1. In the Data tab, enter the data for variables, form data model properties, and print template (XDP) fields, as required. Fill up all the mandatory fields marked with an asterisk (&#42;) to enable the **Submit** button.
+1. In the Data tab, enter the data for variables, form data model properties, and print template (XDP) fields, as required. Fill up all the mandatory fields marked with an asterisk (&ast;) to enable the **Submit** button.
 
    Tap a data field value in the Interactive Communication preview to highlight the corresponding data field in the Data tab or vice versa.
 

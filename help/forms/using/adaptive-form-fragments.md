@@ -117,7 +117,7 @@ Perform the following steps to show complete fragments in forms:
 The adaptive form fragments you create appear in the Adaptive Form Fragments tab of the AEM content finder. To insert an adaptive form fragment in an adaptive form:
 
 1. Open the adaptive form, in edit mode, in which you want to insert an adaptive form fragment.
-1. Click **Assets ** ![](assets/assets-browser.png) in the sidebar. In the assets browser, select **Adaptive Form Fragments **from the drop-down**. **
+1. Click **Assets** ![](assets/assets-browser.png) in the sidebar. In the assets browser, select **Adaptive Form Fragments** from the drop-down. 
 
    You can also choose to display all adaptive form fragments or filter based on their form model - Form Template, XML Schema, or Basic.
 
@@ -229,7 +229,7 @@ To localize an adaptive form that contains adaptive form fragments, you need to 
 * You cannot edit an adaptive form fragment, which is inserted by reference, from within an adaptive form. To edit, you either edit the stand-alone adaptive form fragment or embed the fragment in the adaptive form.
 * When you publish an adaptive form, you need to publish the standalone adaptive form fragments inserted by reference in the adaptive form.
 * When you republish an updated adaptive form fragment, the changes reflect in the published instances of the adaptive form in which the fragment is used.
-* Adaptive form containing the Verify component does not support anonymous users. Also, it is not reommended to use the Verify component in an adaptive form fragment.  
+* Adaptive form containing the Verify component does not support anonymous users. Also, it is not recommended to use the Verify component in an adaptive form fragment.  
 * (**Mac only**) To ensure that the form fragments functionality works perfectly in all the scenarios, add the following entry to the /private/etc/hosts file:  
   `127.0.0.1 <Host machine>`** 
   Host machine**: The Apple Mac machine on which AEM Forms is deployed.

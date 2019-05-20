@@ -65,7 +65,7 @@ For Correspondence Management assets:
 
 Run the Migration utility before making any changes in the assets or creating assets. We recommend that you do not run the utility after making any changes or creating assets. Make sure that the Correspondence Management or Adaptive Forms Assets user interface is not open while the migration process is running.
 
-When you run the Migration Utility for the first time, a log is created with the following path and name: \[aem-installation-directory]\cq-quickstart\logs\aem-forms-migration.log. This log keeps getting updated with Correspondence Management and Adaptive Forms migration info, such as moving of assets.
+When you run the Migration Utility for the first time, a log is created with the following path and name: `\[aem-installation-directory]\cq-quickstart\logs\aem-forms-migration.log`. This log keeps getting updated with Correspondence Management and Adaptive Forms migration info, such as moving of assets.
 
 >[!NOTE]
 >

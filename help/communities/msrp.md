@@ -72,11 +72,11 @@ On author, to access the Storage Configuration console:
 
 * **SolrConfiguration**
 
-    * ** [Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
+    * **[Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
       When running in [SolrCloud mode](/help/communities/solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the `HOST:PORT` for the ZooKeeper, such as *my.server.com:2181* 
       For a ZooKeeper Ensemble, enter comma-separated `HOST:PORT` values, such as *host1:2181,host2:2181* 
       Leave blank if running Solr in standalone mode using the internal ZooKeeper.  
-      *default*: * &lt;blank&gt;*
+      *default*: *&lt;blank&gt;*
     
     * **Solr URL** 
       The URL used to communicate with Solr in standalone mode.  
@@ -180,12 +180,12 @@ The following cURL command shows what is necessary for an HTTP request to reinde
 
 The basic format is:
 
-cURL -u *signin * -d *data * *reindex-url*
+cURL -u *signin* -d *data* *reindex-url*
 
 *signin* = administrator-id:password  
 for example: admin:admin
 
-*data *= "batchSize=*size*&path=*path"*
+*data* = "batchSize=*size*&path=*path"*
 
 *size* = how many UGC entries to reindex per operation  
 `/content/usergenerated/asi/mongo/`

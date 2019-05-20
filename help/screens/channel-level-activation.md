@@ -16,14 +16,14 @@ noindex: true
 
 Using Channel Level Activation covers the following topics:
 
-* ** [Overview](/help/screens/channel-level-activation.md#overview)**
-* ** [Using Channel Level Activation as a Single Event Playback](/help/screens/channel-level-activation.md#using-channel-level-activation)**
+* **[Overview](/help/screens/channel-level-activation.md#overview)**
+* **[Using Channel Level Activation as a Single Event Playback](/help/screens/channel-level-activation.md#using-channel-level-activation)**
 
-    * ** [Prerequisites](/help/screens/channel-level-activation.md#prerequisites)**
-    * ** [Implementation](/help/screens/channel-level-activation.md#implementation)  
+    * **[Prerequisites](/help/screens/channel-level-activation.md#prerequisites)**
+    * **[Implementation](/help/screens/channel-level-activation.md#implementation)  
       **
 
-* ** [Viewing the Results](/help/screens/channel-level-activation.md#viewing-the-results)**
+* **[Viewing the Results](/help/screens/channel-level-activation.md#viewing-the-results)**
 
 ## Overview {#overview}
 

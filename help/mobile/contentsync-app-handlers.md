@@ -38,7 +38,7 @@ The following lists out-of-the-box app handlers:
 
 * ***deep - Boolean*** - Optional boolean property determining if child pages should be included, as well. The default value is *true.*
 
-* ***includeImages - Boolean* - **Optional boolean property determining if images should be included. The default value is *true*.
+* ***includeImages - Boolean*** - Optional boolean property determining if images should be included. The default value is *true*.
 
     * By default, only image components with a resource type of foundation/components/image are considered for inclusion.
 
@@ -123,7 +123,7 @@ This handler should be used on a AEM App Shell ContentSync config (node with pge
 * ***type - String* - **widgetconfig
 * ***path** - **String*** - Path to any app shell child node (node with pge-type=[app-instance]).
 * ***targetRootDirectory - String*** - the prefix to add to paths as a target root for content update for this handler.
-* ***targetIconDirectory - String*** - ****the directory to place the icons for the app
+* ***targetIconDirectory - String*** - the directory to place the icons for the app
 
 **mobileADBMobileConfigJSON** Include the ADBMobileConfig.JSON file if the AMS cloudservice was configured.
 

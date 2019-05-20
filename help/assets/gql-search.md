@@ -152,7 +152,7 @@ Here are some examples of search formats for complex queries:
 
 * To display all assets with multiple facets fields (for example: title=John Doe and creator tool = Adobe Photoshop):
 
-tiltle:"John Doe" creatortool : Adobe&#42;
+tiltle:"John Doe" creatortool : Adobe&ast;
 
 * To display all assets when the facets value is not a single word but a sentence (for example: title=Scott Reynolds)
 
@@ -164,19 +164,19 @@ title:"Scott Reynolds" OR "John Doe"
 
 * To display assets with property values starting with a specific string (for example: title is Scott Reynolds)
 
-title:Scott&#42;
+title:Scott&ast;
 
 * To display assets with property values ending with a specific string (for example: title is Scott Reynolds)
 
-title:&#42;Reynolds
+title:&ast;Reynolds
 
 * To display assets with a property value that contains a specific string (for example: title = Basel Meeting Room)
 
-title:&#42;Meeting&#42;
+title:&ast;Meeting&ast;
 
 * To display assets that contain a particular string and have a specific property value (for example: search for string Adobe in assets having title=John Doe)
 
-&#42;Adobe&#42; title:"John Doe "OR title:"John Doe" &#42;Adobe&#42;
+&ast;Adobe&ast; title:"John Doe "OR title:"John Doe" &ast;Adobe&ast;
 
 >[!NOTE]
 >

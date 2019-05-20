@@ -43,9 +43,9 @@ In AEM 6.3, by default, when a traversal of 100,000 is reached, the query fails 
 
 #### During Development {#during-development}
 
-Explain **all** queries and ensure their query plans do not contain the **/&#42; traverse** explanation in them. Example traversing query plan:
+Explain **all** queries and ensure their query plans do not contain the **/&ast; traverse** explanation in them. Example traversing query plan:
 
-* **PLAN:** [nt:unstructured] as [a] /&#42; traverse "/content//&#42;" where ([a].[unindexedProperty] = 'some value') and (isdescendantnode([a], [/content])) &#42;/
+* **PLAN:** [nt:unstructured] as [a] /&ast; traverse "/content//&ast;" where ([a].[unindexedProperty] = 'some value') and (isdescendantnode([a], [/content])) &ast;/
 
 #### Post-Deployment {#post-deployment}
 
@@ -85,7 +85,7 @@ Before adding the cq:tags index rule
 
 * **Query plan**
 
-    * [cq:Page] as [a] /&#42; lucene:cqPageLucene(/oak:index/cqPageLucene) &#42;:&#42; where [a].[jcr:content/cq:tags] = 'my:tag' &#42;/
+    * [cq:Page] as [a] /&ast; lucene:cqPageLucene(/oak:index/cqPageLucene) &ast;:&ast; where [a].[jcr:content/cq:tags] = 'my:tag' &ast;/
 
 This query resolves to the `cqPageLucene` index, but because no property index rule exists for `jcr:content` or `cq:tags`, when this restriction is evaluated, every record in the `cqPageLucene` index is checked to determine a match. This means that if the index contains 1 million `cq:Page` nodes, then 1 million records are checked to determine the result set.
 
@@ -113,7 +113,7 @@ After adding the cq:tags index rule
 
 * **Query plan**
 
-    * [cq:Page] as [a] /&#42; lucene:cqPageLucene(/oak:index/cqPageLucene) jcr:content/cq:tags:my:tag where [a].[jcr:content/cq:tags] = 'my:tag' &#42;/
+    * [cq:Page] as [a] /&ast; lucene:cqPageLucene(/oak:index/cqPageLucene) jcr:content/cq:tags:my:tag where [a].[jcr:content/cq:tags] = 'my:tag' &ast;/
 
 The addition of the indexRule for `jcr:content/cq:tags` in the `cqPageLucene` index allows `cq:tags` data to be stored in an optimized way.
 
@@ -455,19 +455,19 @@ Therefore, ensure an indexes satisfy queries, except if the combination of path 
     * A WebUI for executing XPath and JCR-SQL2 queries.
     * Located on AEM at [/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp) &gt; Tools &gt; Query...
 
-* ** [Explain Query](/help/sites-administering/operations-dashboard.md#explain-query)**
+* **[Explain Query](/help/sites-administering/operations-dashboard.md#explain-query)**
 
     * An AEM Operations dashboard that provides a detailed explanation (Query plan, query time, and # of results) for any given XPATH or JCR-SQL2 query.
 
-* ** [Slow/Popular Queries](/help/sites-administering/operations-dashboard.md#query-performance)**
+* **[Slow/Popular Queries](/help/sites-administering/operations-dashboard.md#query-performance)**
 
     * An AEM Operations dashboard listing the recent slow and popular queries executed on AEM.
 
-* ** [Index Manager](/help/sites-administering/operations-dashboard.md#the-index-manager)**
+* **[Index Manager](/help/sites-administering/operations-dashboard.md#the-index-manager)**
 
     * An AEM Operations WebUI displaying the indexes on the AEM instance; facilitates understanding what indexes already exist, can be targeted or augmented.
 
-* ** [Logging](/help/sites-administering/operations-dashboard.md#log-messages)**
+* **[Logging](/help/sites-administering/operations-dashboard.md#log-messages)**
 
     * Query Builder logging
 
@@ -489,11 +489,11 @@ Therefore, ensure an indexes satisfy queries, except if the combination of path 
 
 ### Community Supported {#community-supported}
 
-* ** [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index)**
+* **[Oak Index Definition Generator](https://oakutils.appspot.com/generate/index)**
 
     * Generate optimal Lucence Property Index from XPath or JCR-SQL2 query statements.
 
-* ** [AEM Chrome Plug-in](https://chrome.google.com/webstore/detail/aem-chrome-plug-in/ejdcnikffjleeffpigekhccpepplaode?hl=en-US)**
+* **[AEM Chrome Plug-in](https://chrome.google.com/webstore/detail/aem-chrome-plug-in/ejdcnikffjleeffpigekhccpepplaode?hl=en-US)**
 
     * Google Chrome web browser extension that exposes per-request log data, including executed queries and their query plans, in the browser's dev tools console.
     * Requires [Sling Log Tracer 1.0.2+](https://sling.apache.org/downloads.cgi) to be installed and enabled on AEM.

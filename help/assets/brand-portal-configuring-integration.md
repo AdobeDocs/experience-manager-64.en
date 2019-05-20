@@ -34,15 +34,15 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
 ## Create JWT application {#create-jwt-application}
 
-1. Log in to [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) with your Adobe ID. You reach ** JWT  Applications** page.
+1. Log in to [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) with your Adobe ID. You reach **JWT  Applications** page.
 
    >[!NOTE]
    >
    >You can create an application ID only if you are the system administrator of your organization. Tenant is the technical name for your organization that is registered with Adobe Marketing Cloud.
 
-1. Select **Add Application **to create an application.
+1. Select **Add Application** to create an application.
 1. Specify a name for the application and an optional description.
-1. From the **Organization **list, select the organization for which you want to synchronize assets.
+1. From the **Organization** list, select the organization for which you want to synchronize assets.
 1. From the **Scope** list, select **dam-read**, **dam-sync**, **dam-write**, and **cc-share**.
 1. Tap/ click **Create**. A JWT Service application is created. You can edit the application and Save.
 1. Copy the Application ID that is generated for the new application.
@@ -70,7 +70,7 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
    ![](assets/bp-config.png)
 
-1. In the **AEM Assets Brand Portal Replication** dialog, specify the URL of your organization in the **Tenant URL **field. 
+1. In the **AEM Assets Brand Portal Replication** dialog, specify the URL of your organization in the **Tenant URL** field. 
 1. In the **Client ID** field, paste the application ID you copied at the end of the procedure [Create an application](brand-portal-configuring-integration.md#create-jwt-application). Click **OK**.
 
    ![](assets/public-folder-publish.png)
@@ -162,7 +162,7 @@ After replication succeeds, you can publish assets, folders, and collections  to
     
     * From the toolbar, select **Manage Publication**.
 
-    1. Then from the **Action** select **Publish to Brand Portal, **and from **Scheduling** select **Now**. Tap/ click **Next.**
+    1. Then from the **Action** select **Publish to Brand Portal**, and from **Scheduling** select **Now**. Tap/ click **Next.**
     1. Within **Scope**, confirm your selection and tap/ click **Publish to Brand Portal**.
 
    A message appears stating that the assets have been queued up for publishing to Brand Portal. Log in to the Brand Portal interface to see the published assets.
@@ -171,13 +171,13 @@ After replication succeeds, you can publish assets, folders, and collections  to
 
    To schedule publishing the assets to Brand Portal to a later date or time:
 
-    1. Once you have selected assets/ folders to publish, select **Manage Publication **from the tool bar at the top.
-    1. On** Manage Publication** page, select **Publish to Brand Portal **from **Action** and select** Later **from **Scheduling**.
+    1. Once you have selected assets/ folders to publish, select **Manage Publication** from the tool bar at the top.
+    1. On **Manage Publication** page, select **Publish to Brand Portal** from **Action** and select **Later**from **Scheduling**.
     
        ![](assets/publishlaterbp-1.png)
 
-    1. Select an **Activation date **and specify time. Tap/ click **Next**.
-    1. Select an **Activation date **and specify time. Tap/ click **Next**.
+    1. Select an **Activation date** and specify time. Tap/ click **Next**.
+    1. Select an **Activation date** and specify time. Tap/ click **Next**.
     1. Specify a Workflow title under **Workflows**. Tap/ click **Publish Later**.
     
        ![](assets/publishworkflow.png)

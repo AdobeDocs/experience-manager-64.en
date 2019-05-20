@@ -87,7 +87,7 @@ Do the following to configure your MySQL database:
         
         * **Test on Return:** Enable the **Test on Return** option.
         
-        * **Validation Query:** Specify a SQL SELECT query to validate connections from the pool. The query must return at least one row. For example, **select &#42; from customer**.
+        * **Validation Query:** Specify a SQL SELECT query to validate connections from the pool. The query must return at least one row. For example, **select &ast; from customer**.
         
         * **Transaction Isolation**: Set the value to **READ_COMMITTED**.
 

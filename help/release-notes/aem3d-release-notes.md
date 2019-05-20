@@ -12,7 +12,7 @@ topic-tags: 3D
 discoiquuid: 9789d031-fb7e-415a-a9c3-8b8fde978238
 ---
 
-# AEM 3D Release Notes{#aem-d-release-notes}
+# AEM 3D Release Notes {#aem-d-release-notes}
 
 AEM-6.4-DynamicMedia-3D version 3.1.0 (October 10, 2018)
 
@@ -160,7 +160,7 @@ Version 3.1
 ### Compatibility {#compatibility}
 
 * **Running as a Windows service is not supported (Windows only)** - This may work but it has not been tested.
-* **Dynamic Media** ( `dynamicmedia-scene7` mode)** - **Compatibility of AEM3D with the new Dynamic Media solution released with AEM 6.4 is not yet fully verified. If Dynamic Media and AEM3D is deployed together, it is recommended that you place 3D assets and their dependencies only in an area of the AEM Assets repository that is not assigned to Dynamic Media. This recommendation is especially important for 32-bit TIFF files which are required for 3D Stages but are not supported by Dynamic Media.
+* **Dynamic Media** ( `dynamicmedia-scene7` mode) - Compatibility of AEM3D with the new Dynamic Media solution released with AEM 6.4 is not yet fully verified. If Dynamic Media and AEM3D is deployed together, it is recommended that you place 3D assets and their dependencies only in an area of the AEM Assets repository that is not assigned to Dynamic Media. This recommendation is especially important for 32-bit TIFF files which are required for 3D Stages but are not supported by Dynamic Media.
 
 ### General {#general}
 
@@ -183,16 +183,16 @@ Version 3.1
 
 ### Automatic dependency resolution {#automatic-dependency-resolution}
 
-* ****Unresolved file dependencies after upload**** - When 3D assets and their dependents are uploaded with the same upload operation, it is possible that some dependents are not resolved automatically. This issue is more likely to occur if the dependent files are large. To correct this issue, access the **Properties/Dependencies** page of the asset that shows unresolved dependents after upload. The previously unresolved dependents should now be shown. Click **Save** to finalize the asset. To prevent this issue in the future, you can upload all dependents in a separate transaction before you upload the 3D objects.
+* **Unresolved file dependencies after upload** - When 3D assets and their dependents are uploaded with the same upload operation, it is possible that some dependents are not resolved automatically. This issue is more likely to occur if the dependent files are large. To correct this issue, access the **Properties/Dependencies** page of the asset that shows unresolved dependents after upload. The previously unresolved dependents should now be shown. Click **Save** to finalize the asset. To prevent this issue in the future, you can upload all dependents in a separate transaction before you upload the 3D objects.
 
 * **Case-sensitivity** - Automatic dependency resolution attempts to match file names in a case-sensitive fashion. For example, if the original dependency found in the 3D asset is `image.jpg`, the dependency resolves to an asset named `Image.jpg`, `image.JPG`, or any other case variation.
 
 ### 3D stages {#d-stages}
 
-* ****Thumbnails for stages - ****The auto-generated thumbnails for stages may not represent the stage accurately.
+* **Thumbnails for stages** - The auto-generated thumbnails for stages may not represent the stage accurately.
 * **Stage geometry for non-IBL stages** - The Rapid Refine renderer does not render geometry from stages with non-IBL lighting, including backgrounds and ground planes. Such geometry still displays reasonably in the asset Detail view (3D preview).  
 
-* ****FBX stages with IBL lighting**** - You can upload FBX stages with IBL lighting. However, the FBX format does not have provisions to transfer the IBL image name. As such, file dependency resolution fails. The IBL image must be assigned manually to the stage after upload. You can assign the same 32-bit TIFF image to the three dependencies which are **Diffuse Lighting Environment Image**, **Reflection Envrionment Image**, and **Background Envrionment Image**, or different images may be assigned.  
+* **FBX stages with IBL lighting** - You can upload FBX stages with IBL lighting. However, the FBX format does not have provisions to transfer the IBL image name. As such, file dependency resolution fails. The IBL image must be assigned manually to the stage after upload. You can assign the same 32-bit TIFF image to the three dependencies which are **Diffuse Lighting Environment Image**, **Reflection Envrionment Image**, and **Background Envrionment Image**, or different images may be assigned.  
 
 * **Background image of IBL stages** - For some IBL scenes, the background image may have poor quality such as being too bright or too blurry. To maximize the visual quality of the image background of IBL stages, Adobe recommends that you prepare a separate high-resolution 8-bit JPEG image and attach it to the IBL stage as the **Background Environment Image**.
 
@@ -211,5 +211,5 @@ Version 3.1
 
 * **3D Component configuration** - You must install the 3D Feature Pack on all active Publish nodes and each node must be configured with **CRXDE Lite** to the same configuration options at `/libs/settings/dam/v3D/WebGLSites`.
 
-* **Missing textures, background, or lighting after publishing - **The **Publish** mechanism in AEM Sites automatically publishes the page's primary dependencies, including the 3D model and the 3D stage referenced by the 3D component. 3D stages and 3D models typically depend on secondary assets for IBL images and texture maps, which the Sites Publish mechanism does not publish automatically. Workaround: publish all 3D assets from Assets prior to publishing the web page from Sites. Doing so ensures that all dependencies for 3D assets are available on the Publish nodes.
+* **Missing textures, background, or lighting after publishing** - The **Publish** mechanism in AEM Sites automatically publishes the page's primary dependencies, including the 3D model and the 3D stage referenced by the 3D component. 3D stages and 3D models typically depend on secondary assets for IBL images and texture maps, which the Sites Publish mechanism does not publish automatically. Workaround: publish all 3D assets from Assets prior to publishing the web page from Sites. Doing so ensures that all dependencies for 3D assets are available on the Publish nodes.
 

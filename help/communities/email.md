@@ -142,7 +142,7 @@ In order for the email to be brought into the repository, it is necessary to con
 
 * **URL **: *(required)* The outbound mail server. For example, `pop.gmail.com:995/INBOX?username=community-emailgmail.com&password=****`
 
-* **Import to Path&#42;**: *(required)* Set to `/content/usergenerated/mailFolder/postEmails`  
+* **Import to Path&ast;**: *(required)* Set to `/content/usergenerated/mailFolder/postEmails`  
   by browsing to the `postEmails`folder and select **OK**
 
 * **Update Interval in Seconds**: *(optional) *The mail server configured for the default mail service may have requirements regarding the update interval value. For example, Gmail may require an interval of `300`.

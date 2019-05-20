@@ -17,7 +17,7 @@ discoiquuid: 5e76fe09-4d37-4c8c-8baf-97e75689bd26
 
 >[!NOTE]
 >
->For a list of content and configuration changes that are not under the scope the Compatibility Package, see [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring-in-aem64.md).
+>For a list of content and configuration changes that are not under the scope the Compatibility Package, see [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md).
 
 In AEM 6.4, all features have been developed with backwards compatibility in mind.
 

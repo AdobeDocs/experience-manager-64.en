@@ -27,7 +27,7 @@ For example:
 
 From the MCM you can access:
 
-* ** [Dashboard](#dashboard)** 
+* **[Dashboard](#dashboard)** 
   This is divided into four panes:
 
     * [Lists](#lists)  
@@ -45,7 +45,7 @@ From the MCM you can access:
     * [Campaigns](#campaigns)  
       This pane lists your campaign experiences such as [newsletters](/help/sites-classic-ui-authoring/classic-personalization-campaigns.md#newsletters) and [teasers](/help/sites-classic-ui-authoring/classic-personalization-campaigns.md#teasers).
 
-* ** [Leads](#leads)** 
+* **[Leads](#leads)** 
   Here you can manage your leads. You can create or import leads, edit specific details for individual leads or delete when no longer needed. You can also put leads in different groups, called Lists. **Note:** Adobe is not planning to further enhance this capability.  
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](/help/sites-administering/campaign.md).  
 
@@ -113,7 +113,7 @@ To access existing campaigns, in the MCM click **Campaigns**.
     * expand the list to show all related campaigns in the left pane; this list also shows the number of experiences that exist for each campaign.
     * open the brand overview in the right pane.
 
-* ******In the right pane**:  
+* **In the right pane**:  
   Icons are shown for each brand (historical campaigns will not be shown).  
   You can double-click on these to open the brand overview.
 

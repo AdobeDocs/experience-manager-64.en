@@ -286,7 +286,7 @@ This is done by enabling the styles plug-in.
 1. In your component, navigate to the node `<*rtePlugins-node*>/styles`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/help/sites-administering/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `styles` node:
 
-    * **Name ** `features`  
+    * **Name** `features`  
     
     * **Type** `String`
     
@@ -837,7 +837,7 @@ To configure how links are added in AEM from another program, define the HTML ru
                 * `manual`: not applicable in this context
                 * `blank`: not applicable in this context
 
-        * ****The target for internal links:
+        * The target for internal links:
 
             * **Name** `targetInternal`  
             
@@ -845,7 +845,7 @@ To configure how links are added in AEM from another program, define the HTML ru
             
             * **Value **the target for internal links (only use when the `` mode is `auto`)
 
-        * ****The target for external links:
+        * The target for external links:
 
             * **Name** `targetExternal`
             

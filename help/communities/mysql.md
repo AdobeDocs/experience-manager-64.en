@@ -116,12 +116,12 @@ The SQL scripts are obtained using CRXDE Lite on the author instance. The [SCORM
     * for example, [http://localhost:4502/crx/de](http://localhost:4502/crx/de)
 
 1. expand the `/libs/social/config/scorm/` folder
-1. download&#42; `database_scormengine.sql`
-1. download&#42; `database_scorm_integration.sql`
+1. download&ast; `database_scormengine.sql`
+1. download&ast; `database_scorm_integration.sql`
 
 ![](assets/chlimage_1-331.png)
 
-&#42; One method for downloading the schema is to
+&ast; One method for downloading the schema is to
 
 * select the `jcr:content`node for the sql file
 * notice the value for the `jcr:data`property is a view link

@@ -128,7 +128,7 @@ In case the entire cluster fails due to failures like database crash, you need t
     1. Delete the file clusterNode/revision.log on the node.
     1. Delete the .lock on the node, if exists.
     1. Delete the repository/system.id on the node, if exists.
-    1. Delete the files &#42;&#42;/listener.properties on the node, if exist.
+    1. Delete the files &ast;&ast;/listener.properties on the node, if exist.
     1. Restore repository/cluster_node.id for individual cluster nodes.
 
 >[!NOTE]
@@ -158,7 +158,7 @@ In case the entire cluster fails due to failures like database crash, you need t
     1. Delete the file clusterNode/revision.log on all cluster nodes.
     1. Delete the .lock on all cluster nodes, if exists.
     1. Delete the repository/system.id all cluster nodes, if exists.
-    1. Delete the files &#42;&#42;/listener.properties on all cluster nodes, if exist.
+    1. Delete the files &ast;&ast;/listener.properties on all cluster nodes, if exist.
     1. Restore repository/cluster_node.id for individual cluster nodes.
 
 >[!NOTE]

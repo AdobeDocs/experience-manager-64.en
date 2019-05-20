@@ -26,7 +26,7 @@ AEM leverages Adobe PhoneGap and Adobe Publishing Solutions, allowing you to cre
 * Introduce HTML5 Webviews to new or pre-existing **native** applications through Cordova WebViews.
 * Create, curate and share rich multimedia content across all delivery channels including, web, mobile-web, mobile-app and print.
 
-AEM integrates with the Adobe ** [PhoneGap Build service](https://build.phonegap.com/) **to simplify the application build and deploy process.
+AEM integrates with the Adobe **[PhoneGap Build service](https://build.phonegap.com/)** to simplify the application build and deploy process.
 
 **Adobe ContentSync** enables users to easily download page and content updates Over-the-Air (OTA) to their devices without having to re-install the application or download from the appStore, Google Play, or other app sources.
 
@@ -52,7 +52,7 @@ The readme for the Starter Kit Git repository includes a tutorial for using the 
 
 IOS developers should be aware of an open issue with Cordova apps running on iOS 9. This issue prevents requests from being made to insecure hosts (such as *http://localhost:4502*). This issue will be resolved with an upcoming release of cordova-ios (consumed by the Cordova CLI), but in the meantime there are two workarounds available:
 
-1. As an immediate workaround, you can still use any of the iOS 8.&#42; simulators without issue. 
+1. As an immediate workaround, you can still use any of the iOS 8.&ast; simulators without issue. 
 1. If you must use iOS 9, your apps -Info.plist (found after running `cordova platform add ios` in “&lt;app root&gt;/platforms/ios/&lt;app name&gt;/&lt;app name&gt;-Info.plist”) file can be manually edited to include the following property:
 
 *&lt;key&gt;NSAppTransportSecurity&lt;/key&gt; *

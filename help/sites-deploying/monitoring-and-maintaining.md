@@ -93,7 +93,7 @@ This section deals with maintenance operations related to the versioning feature
 
 ### Overview {#overview}
 
-The **Purge Versions **tool is available in the ** [Tools](/help/sites-administering/tools-consoles.md) console** under **Versioning** or directly at: ``
+The **Purge Versions **tool is available in the **[Tools](/help/sites-administering/tools-consoles.md) console** under **Versioning** or directly at: ``
 
 `https://<server>:<port>/etc/versioning/purge.html`
 
@@ -115,7 +115,7 @@ The **Purge Versions **tool is available in the ** [Tools](/help/sites-administe
 
 To purge versions of a web site, proceed as follows:
 
-1. Navigate to the ** [Tools](/help/sites-administering/tools-consoles.md) console**, select **Versioning** and double-click **Purge Versions.**
+1. Navigate to the **[Tools](/help/sites-administering/tools-consoles.md) console**, select **Versioning** and double-click **Purge Versions.**
 1. Set the start path of the content to be purged (e.g. `/content/geometrixx-outdoors`).
 
     * If you want to only purge the node defined by your path, unselect **Recursive**.
@@ -146,7 +146,7 @@ The **Dry Run** and **Purge** processes list all the nodes that have been proces
 Moreover the console provides useful information about the versions:
 
 * `V 1.0`: the version number.
-* `V 1.0.1`&#42;: the star indicates that the version is the current one.  
+* `V 1.0.1`&ast;: the star indicates that the version is the current one.  
 
 * `Thu Mar 15 2012 08:37:32 GMT+0100`: the date of the version.
 

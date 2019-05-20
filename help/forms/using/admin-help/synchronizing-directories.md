@@ -65,7 +65,7 @@ You can configure User Management to periodically check for any failed directory
 1. In administration console, click Settings &gt; User Management &gt; Configuration &gt; Configure Advanced System Attributes.
 1. Under Synch Finisher Cron Expression, enter a cron expression that represents the interval at which User Management retries failed synchronizations. The cron expression usage is based on the Quartz open source job-scheduling system, version 1.4.0.
 
-   The default is 0 0/13 &#42; ? &#42; &#42;, which means the check occurs every 13 minutes.
+   The default is 0 0/13 &ast; ? &ast; &ast;, which means the check occurs every 13 minutes.
 
 ## Manually synchronize directories {#manually-synchronize-directories}
 

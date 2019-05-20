@@ -21,10 +21,10 @@ For information about embedding an adaptive form in an external web page, see [E
 
 In AEM Sites page, you can add an adaptive form or interactive communication using:
 
-* ** [AEM Forms Container component](/help/forms/using/embed-adaptive-form-aem-sites.md#af-component)** 
+* **[AEM Forms Container component](/help/forms/using/embed-adaptive-form-aem-sites.md#af-component)** 
   AEM Forms provides a component that you can add to your site pages. The AEM Forms Container component lets you embed an adaptive form and interactive communication.  
 
-* ** [Asset browser](/help/forms/using/embed-adaptive-form-aem-sites.md#asset-browser)** 
+* **[Asset browser](/help/forms/using/embed-adaptive-form-aem-sites.md#asset-browser)** 
   All the forms and interactive communications you create are available under Assets. You can drag-drop the form as an asset on your page.
 
 ## Prerequisites {#prerequisites}

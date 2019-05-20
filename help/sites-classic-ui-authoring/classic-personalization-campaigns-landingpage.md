@@ -37,7 +37,7 @@ In AEM, you create landing pages by performing the following steps:
 1. [Prepare the HTML and assets.](/help/sites-administering/extending-the-design-importer-for-landingpages.md)
 1. Package the resources into a ZIP file referred to here as the Design Package.  
 1. Import the design package on the importer page.  
-1. Modify and publish the page.****
+1. Modify and publish the page.
 
 ### Desktop Landing Pages {#desktop-landing-pages}
 

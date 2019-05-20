@@ -29,7 +29,7 @@ For the full documentation on creating, managing, using and developing content f
 
 >[!NOTE]
 >
->**Content Fragments** and ** [Experience Fragments](/help/sites-authoring/experience-fragments.md)** are different features within AEM:
+>**Content Fragments** and **[Experience Fragments](/help/sites-authoring/experience-fragments.md)** are different features within AEM:
 >
 >* **Content Fragments** are editorial content, primarily text and related images. They are pure content, without design and layout.
 >* **Experience Fragments** are fully laid out content; a fragment of a web page.  
@@ -56,10 +56,10 @@ Here you can [edit and manage](/help/assets/content-fragments.md) your fragment 
 
 ![](do-not-localize/cf-45-aa.png) ![](do-not-localize/cf-45-a.png)
 
-* ** [Variations](/help/assets/content-fragments-variations.md)** including [Markdown](/help/assets/content-fragments-markdown.md)   
+* **[Variations](/help/assets/content-fragments-variations.md)** including [Markdown](/help/assets/content-fragments-markdown.md)   
 
-* ** [Associated Content](/help/assets/content-fragments-assoc-content.md)**
-* ** [Metadata](/help/assets/content-fragments-metadata.md)**
+* **[Associated Content](/help/assets/content-fragments-assoc-content.md)**
+* **[Metadata](/help/assets/content-fragments-metadata.md)**
 
 ![](assets/cf-46.png) 
 

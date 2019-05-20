@@ -42,7 +42,7 @@ See [Changing Live Copy Content](/help/sites-administering/msm-livecopy.md#chang
 To track the changes you have made, you can view the launch in **References** and compare the launch page with its source page:
 
 1. In the **Sites** console, [navigate to the source page of your launch and select it](/help/sites-authoring/basic-handling.md#viewing-and-selecting-resources).
-1. Open the ** [References](/help/sites-authoring/basic-handling.md#references)** panel and select **Launches**.
+1. Open the **[References](/help/sites-authoring/basic-handling.md#references)** panel and select **Launches**.
 1. Select your specific launch then **Compare to Source**:
 
    ![](assets/chlimage_1-96.png)

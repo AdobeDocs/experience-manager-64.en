@@ -366,7 +366,7 @@ When content is translated for an existing language copy, review the translation
 To compare Language Copies to the language Master:
 
 1. In the **Sites** console, navigate to the language copy you want to compare.
-1. Open the ** [References](/help/sites-authoring/basic-handling.md#references)** panel.
+1. Open the **[References](/help/sites-authoring/basic-handling.md#references)** panel.
 1. Under the **Copies** heading select **Language Copies.**
 1. Select your specific language copy and then you can either click **Compare to Master **or **Compare to Previous **if applicable.
 

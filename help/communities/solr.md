@@ -185,8 +185,8 @@ The Standard MLS files are stored in the AEM repository.
     
     1. copy the contents of the existing Solr configuration directory to *new-config-dir*
 
-        * for Solr4: copy *solr-install-dir*/example/solr/collection1/conf/&#42;
-        * for Solr5: copy *solr-install-dir*/server/solr/configsets/data_driven_schema_configs/&#42;
+        * for Solr4: copy *solr-install-dir*/example/solr/collection1/conf/&ast;
+        * for Solr5: copy *solr-install-dir*/server/solr/configsets/data_driven_schema_configs/&ast;
 
     1. copy the downloaded **schema.xml** and **solrconfig.xml** to *new-config-dir* to overwrite existing files
 
@@ -247,16 +247,16 @@ Installation instructions - note the few differences for Solr4 and Solr5:
 
     1. copy the contents of the existing Solr config dir to *new-config-dir*
 
-        * for Solr4: copy *solr-install-dir*/example/solr/collection1/conf/&#42;
-        * for Solr5: copy *solr-install-dir*/server/solr/configsets/data_driven_schema_configs/&#42;
+        * for Solr4: copy *solr-install-dir*/example/solr/collection1/conf/&ast;
+        * for Solr5: copy *solr-install-dir*/server/solr/configsets/data_driven_schema_configs/&ast;
 
     1. copy the extracted **schema.xml** and **solrconfig.xml** to *new-config-dir* to overwrite existing files
     
-    1. for Solr5: copy *solr_install_dir*/server/solr/configsets/sample_techproducts_configs/conf/lang/&#42;.txt" to *new-config-dir*/lang/
+    1. for Solr5: copy *solr_install_dir*/server/solr/configsets/sample_techproducts_configs/conf/lang/&ast;.txt" to *new-config-dir*/lang/
     
     1. copy the extracted **stopwords/** folder to *new-config-dir*
 
-        * resulting in *new-config-dir*/stopwords/&#42;.txt
+        * resulting in *new-config-dir*/stopwords/&ast;.txt
 
 1. [Upload the new configuration](#upload-a-configuration-to-zookeeper) to ZooKeeper
 1. Copy the new **profiles/** folder ...
@@ -267,16 +267,16 @@ Installation instructions - note the few differences for Solr4 and Solr5:
 1. Create a** lib/** folder in the solr-home directory (contains solr.xml) of each node in SolrCloud. Copy jars from the following locations to the new lib/ folder on each node:
 
     * **extra-libs/** extracted from the advanced MLS package
-    * *solr-install-dir*/contrib/extraction/lib/&#42;.jar
-    * *solr-install-dir*/dist/solr-cell-&#42;.jar
-    * *solr-install-dir*/contrib/clustering/lib/&#42;.jar
-    * *solr-install-dir*/dist/solr-clustering-&#42;.jar
-    * *solr-install-dir*/contrib/langid/lib/&#42;.jar
-    * *solr-install-dir*/dist/solr-langid-&#42;.jar
-    * *solr-install-dir*/contrib/velocity/lib/&#42;.jar
-    * *solr-install-dir*/dist/solr-velocity-&#42;.jar
-    * *solr-install-dir*/contrib/analysis-extras/lib/&#42;.jar
-    * *solr-install-dir*/contrib/analysis-extras/lucene-libs/&#42;.jar
+    * *solr-install-dir*/contrib/extraction/lib/&ast;.jar
+    * *solr-install-dir*/dist/solr-cell-&ast;.jar
+    * *solr-install-dir*/contrib/clustering/lib/&ast;.jar
+    * *solr-install-dir*/dist/solr-clustering-&ast;.jar
+    * *solr-install-dir*/contrib/langid/lib/&ast;.jar
+    * *solr-install-dir*/dist/solr-langid-&ast;.jar
+    * *solr-install-dir*/contrib/velocity/lib/&ast;.jar
+    * *solr-install-dir*/dist/solr-velocity-&ast;.jar
+    * *solr-install-dir*/contrib/analysis-extras/lib/&ast;.jar
+    * *solr-install-dir*/contrib/analysis-extras/lucene-libs/&ast;.jar
 
 1. [Create a collection](#create-a-collection) specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.
 1. If the configuration name was *not* provided during creation of the collection, [link this newly created collection](#link-a-collection-to-a-configuration-set) with the configuration uploaded to ZooKeeper

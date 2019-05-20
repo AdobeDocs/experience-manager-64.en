@@ -115,7 +115,7 @@ The **Language Copy** feature allows authors to copy their master Language Copy 
    >
    >Language Copy nodes can only exist as a direct child of the Space.
 
-1. Choose **Content Package Language&#42;** and enter the **Title&#42;** in **Create Language Copy** dialog.
+1. Choose **Content Package Language&ast;** and enter the **Title&ast;** in **Create Language Copy** dialog.
 
    Click **Create**.
 

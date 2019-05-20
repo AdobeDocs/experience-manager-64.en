@@ -86,7 +86,7 @@ The following image shows the **Manage Banners** tile in AEM Mobile Application 
 
 >[!NOTE]
 >
->See ** [Managing Banners](/help/mobile/mobile-on-demand-managing-banners.md)** for creating, deleting, or updating the banners.
+>See **[Managing Banners](/help/mobile/mobile-on-demand-managing-banners.md)** for creating, deleting, or updating the banners.
 
 ### The Manage Articles Tile {#the-manage-articles-tile}
 
@@ -124,7 +124,7 @@ The following image shows the **Manage Collections** tile in AEM Mobile Applicat
 
 >[!NOTE]
 >
->See ** [Managing Collections](/help/mobile/mobile-on-demand-managing-collections.md)** for creating, deleting, or updating the collections.
+>See **[Managing Collections](/help/mobile/mobile-on-demand-managing-collections.md)** for creating, deleting, or updating the collections.
 
 ### The Next Steps {#the-next-steps}
 

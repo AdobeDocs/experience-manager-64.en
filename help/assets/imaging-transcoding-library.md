@@ -55,7 +55,7 @@ Imaging Transcoding Library is currently available for the following operating s
 
 >[!NOTE]
 >
->Currently, only RHEL 7 and CentOS 7 are supported for Linux distros. Mac OS and other &#42;nix distributions (for example, Debian and Ubuntu) are not supported.
+>Currently, only RHEL 7 and CentOS 7 are supported for Linux distros. Mac OS and other &ast;nix distributions (for example, Debian and Ubuntu) are not supported.
 
 ## Usage {#usage}
 

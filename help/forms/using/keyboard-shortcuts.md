@@ -23,22 +23,22 @@ This article lists the keyboard shortcuts that can be used with Adaptive Form Ed
 | Close Properties browser for the selected adaptive form component |Ctrl+Alt+W |Command+Alt+W |
 | Save changes in the Properties browser for the selected adaptive form component |Ctrl+S |Command+S |
 | Edit rule for the selected adaptive form component |Ctrl+Alt+Enter |Command+Alt+Return |
-| Toggle between Preview and the currently selected mode (for example, Edit, Scaffolding, etc.) |Ctrl+Shift+M |Ctrl+Shift+M&#42; |
-| Undo last change |Ctrl+Z |Ctrl+Z&#42; |
-| Redo last change |Ctrl+Y |Ctrl+Y&#42; |
+| Toggle between Preview and the currently selected mode (for example, Edit, Scaffolding, etc.) |Ctrl+Shift+M |Ctrl+Shift+M&ast; |
+| Undo last change |Ctrl+Z |Ctrl+Z&ast; |
+| Redo last change |Ctrl+Y |Ctrl+Y&ast; |
 | Select multiple components |Shift+Click |Shift+Click |
-| Copy selected component |Ctrl-C |Ctrl-C&#42; |
-| Cut selected component(s). The cut component does not disappear until it is pasted to the new location. |Ctrl-X |Ctrl-X&#42; |
+| Copy selected component |Ctrl-C |Ctrl-C&ast; |
+| Cut selected component(s). The cut component does not disappear until it is pasted to the new location. |Ctrl-X |Ctrl-X&ast; |
 | Paste component(s) |Ctrl+V |Ctrl+V |
-| Delete selected component(s) |Ctrl+Del |Ctrl+Del&#42; |
-| Delete selected component(s) |Ctrl+Backspace |Ctrl+Backspace&#42; |
-| Make text bold while using Rich Text Editor component in Preview mode |Ctrl+B |Ctrl+B&#42; |
-| Italicize text while using Rich Text Editor component in Preview mode |Ctrl+I |Ctrl+I&#42; |
-| Make text bold while using Rich Text Editor component in Preview mode |Ctrl+U |Ctrl+U&#42; |
+| Delete selected component(s) |Ctrl+Del |Ctrl+Del&ast; |
+| Delete selected component(s) |Ctrl+Backspace |Ctrl+Backspace&ast; |
+| Make text bold while using Rich Text Editor component in Preview mode |Ctrl+B |Ctrl+B&ast; |
+| Italicize text while using Rich Text Editor component in Preview mode |Ctrl+I |Ctrl+I&ast; |
+| Make text bold while using Rich Text Editor component in Preview mode |Ctrl+U |Ctrl+U&ast; |
 
 >[!NOTE]
 >
->Shortcuts marked with a '&#42;' work both with the Ctrl and Command keys on Mac OS.
+>Shortcuts marked with a '&ast;' work both with the Ctrl and Command keys on Mac OS.
 
 >[!NOTE]
 >
@@ -54,13 +54,13 @@ This article lists the keyboard shortcuts that can be used with Adaptive Form Ed
 |---|---|---|
 | Open properties browser for the selected component in a theme |Alt+Enter |Alt+Return |
 | Close properties browser for the selected component in a theme |Ctrl+Alt+W |Command+Alt+W |
-| Undo last change |Ctrl+Z |Ctrl+Z&#42; |
-| Redo last change |Ctrl+Y |Ctrl+Y&#42; |
-| Save changes in the Properties browser for the selected component in a theme |Ctrl+S |Ctrl+S&#42; |
+| Undo last change |Ctrl+Z |Ctrl+Z&ast; |
+| Redo last change |Ctrl+Y |Ctrl+Y&ast; |
+| Save changes in the Properties browser for the selected component in a theme |Ctrl+S |Ctrl+S&ast; |
 
 >[!NOTE]
 >
->Shortcuts marked with a '&#42;' work both with the Ctrl and Command keys on Mac OS.
+>Shortcuts marked with a '&ast;' work both with the Ctrl and Command keys on Mac OS.
 
 ## Content Browser  {#contentbrowser}
 

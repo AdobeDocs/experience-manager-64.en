@@ -139,7 +139,7 @@ In the Basic tab, you can configure the following properties:
 
 **X-axis > Title** Specifies the title for the x-axis.
 
-**X-axis > Data Model Object &#42;** Specify the name of the form data model collection item to be plotted on x-axis.
+**X-axis > Data Model Object &ast;** Specify the name of the form data model collection item to be plotted on x-axis.
 
 **X-axis > Function** Specifies the statistical/custom function to use for computing the values on x-axis. For more information about functions, see Use functions in chart and Example 2: Application of sum and mean functions in a line chart.
 
@@ -147,7 +147,7 @@ In the Basic tab, you can configure the following properties:
 
 **Y-axis > Title** Specifies the title for the y-axis.
 
-**Y-axis > Data Model Object &#42;** Specifies the form data model collection item to be plotted on y-axis. In the Print channel, the data model object for the Y-axis should be of type Number.
+**Y-axis > Data Model Object &ast;** Specifies the form data model collection item to be plotted on y-axis. In the Print channel, the data model object for the Y-axis should be of type Number.
 
 **Y-axis > Function** Specifies the statistical/custom function to use for computing the values on y-axis. For more information about functions, see Use functions in chart and Example 2: Application of sum and mean functions in a line chart.
 
@@ -155,15 +155,15 @@ In the Basic tab, you can configure the following properties:
 
 **Legend position** Specifies the position of the legend with respect to the chart. The available options are Right, Left, Top, and Bottom.
 
-**Height (Print channel only) ** Height of the chart in pixels.
+**Height (Print channel only)** Height of the chart in pixels.
 
-**Width (Print channel only) ** Width of the chart in pixels.
+**Width (Print channel only)** Width of the chart in pixels.
 
 >[!NOTE]
 >
 >You can control width of chart in web channel using the style layer or by applying a theme.
 
-**Tooltip (Web channel only)** Specifies the format in which the tooltip appears on mouseover on a data point in the chart in the web channel. The default value is ${x}(${y}). Depending on the chart type, when you point the mouse on a point, bar, or slice in the chart, the variables ${x} and ${y} are dynamically replaced with the corresponding values on x-axis and y-axis and displayed in the tooltip.
+**Tooltip (Web channel only)** Specifies the format in which the tooltip appears on mouseover on a data point in the chart in the web channel. The default value is \${x}(\${y}). Depending on the chart type, when you point the mouse on a point, bar, or slice in the chart, the variables \${x} and \${y} are dynamically replaced with the corresponding values on x-axis and y-axis and displayed in the tooltip.
 
 To disable tool tip, leave the Tooltip field blank. This option is not applicable for Line and Area charts. For example, see [Example 1: Chart output in print and web](#chartoutputprintweb).
 

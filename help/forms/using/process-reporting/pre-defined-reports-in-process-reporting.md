@@ -16,11 +16,11 @@ discoiquuid: 6320c632-c7ec-4e56-9d12-cd27e3e9306e
 
 AEM Forms Process Reporting ships with the following *out-of-the-box* reports:
 
-* ** [Long Running Processes](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#p-long-running-processes-p)**: A report of all AEM Forms processes that took more than a specified time to complete  
+* **[Long Running Processes](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#p-long-running-processes-p)**: A report of all AEM Forms processes that took more than a specified time to complete  
 
-* ** [Process Duration Chart](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#p-process-duration-report-br-p)**: A report of a specified AEM Forms process by duration  
+* **[Process Duration Chart](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#p-process-duration-report-br-p)**: A report of a specified AEM Forms process by duration  
 
-* ** [Workflow Volume](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#p-workflow-volume-report-p)**: A report of the running and completed instances of specified process by date
+* **[Workflow Volume](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#p-workflow-volume-report-p)**: A report of the running and completed instances of specified process by date
 
 ## Long Running Processes {#long-running-processes}
 
@@ -28,7 +28,7 @@ The Long Running Processes report displays the AEM Forms processes that have tak
 
 ### To execute a Long Running Process report {#to-execute-a-long-running-process-report-br}
 
-1. To view the list of pre-defined reports in Process Reporting, on the **Process Reporting** tree view, click the **Reports **node.
+1. To view the list of pre-defined reports in Process Reporting, on the **Process Reporting** tree view, click the **Reports** node.
 1. Click the **Long Running Processes** report node.
 
    ![](assets/long_running_node.png)
@@ -39,13 +39,13 @@ The Long Running Processes report displays the AEM Forms processes that have tak
 
    Parameters:
 
-    * **Duration **(*mandatory*): Specify a duration and unit of time. Display all AEM Forms processes that have run for more than the specified duration.
+    * **Duration**(*mandatory*): Specify a duration and unit of time. Display all AEM Forms processes that have run for more than the specified duration.
     
     * **Started After** (*optional*): Select a date. Filter the report to display process instances that started after the specified date.
     
     * **Started Before** (*optional*): Select a date. Filter the report to display process instances that started before the specified date.
 
-1. Click **Go **to execute the report.
+1. Click **Go** to execute the report.
 
    The report displays in the **Report **panel on the right of the **Process Reporting** window.
 
@@ -78,7 +78,7 @@ The Process Duration report displays the number of instances of a Forms process 
 
 1. Click **Go **to execute the report.
 
-   The report displays in the **Report **panel on the right of the Process Reporting window.
+   The report displays in the **Report** panel on the right of the Process Reporting window.
 
    ![](assets/process_duration_report.png)
 

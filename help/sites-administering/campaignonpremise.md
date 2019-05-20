@@ -200,7 +200,7 @@ Content created from the AEM authoring instance is first sent to the publishing 
 
 >[!NOTE]
 >
->If you do not want to use the replication URL but instead use the public-facing URL, you can set the **Public URL** in the following configuration setting in the OSGi (**AEM logo** &gt;  **Tools **icon**** &gt;  **Operations** &gt; **Web Console** &gt; **OSGi Configuration &gt; AEM Campaign Integration - Configuration**):
+>If you do not want to use the replication URL but instead use the public-facing URL, you can set the **Public URL** in the following configuration setting in the OSGi (**AEM logo** &gt;  **Tools** icon &gt;  **Operations** &gt; **Web Console** &gt; **OSGi Configuration** &gt; **AEM Campaign Integration - Configuration**):
 >
 >**Public URL:** com.day.cq.mcm.campaign.impl.IntegrationConfigImpl#aem.mcm.campaign.publicUrl
 
@@ -208,7 +208,7 @@ This step is also necessary to replicate certain authoring instance configuratio
 
 To configure replication between AEM instances:
 
-1. From the authoring instance, select **AEM logo**&gt; **Tools **icon &gt; **Deployment** &gt; **Replication** &gt; **Agents on author**, then click **Default Agent**.
+1. From the authoring instance, select **AEM logo**&gt; **Tools** icon &gt; **Deployment** &gt; **Replication** &gt; **Agents on author**, then click **Default Agent**.
 
    ![](assets/chlimage_1-138.png)
 
@@ -226,7 +226,7 @@ To configure replication between AEM instances:
 Before you can use AEM and Adobe Campaign together, you must establish the link between both solutions so that they can communicate.
 
 1. Connect to your AEM authoring instance.
-1. Select **AEM logo**&gt; **Tools **icon**** &gt;  **Deployment** &gt; **Cloud Services**, then **Configure now** in the Adobe Campaign section.
+1. Select **AEM logo** &gt; **Tools** icon &gt; **Deployment** &gt; **Cloud Services**, then **Configure now** in the Adobe Campaign section.
 
    ![](assets/chlimage_1-140.png)
 

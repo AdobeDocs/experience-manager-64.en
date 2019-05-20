@@ -329,7 +329,7 @@ Supports facet extraction. Will provide buckets for each unique property value i
   " `equals`" for exact match (default), " `unequals`" for unequality comparison, " `like`" for using the `jcr:like` xpath function (optional), " `not`" for no match (eg. " `not(@prop)`" in xpath, value param will be ignored) or " `exists`" for existence check (value can be true - property must exist, the default - or false - same as " `not`")
 
 * **depth** 
-  number of wildcard levels underneath which the property/relative path can exist (for instance, `property=size depth=2` will check node/size, node/&#42;/size and node/&#42;/&#42;/size)
+  number of wildcard levels underneath which the property/relative path can exist (for instance, `property=size depth=2` will check node/size, node/&ast;/size and node/&ast;/&ast;/size)
 
 ### rangeproperty {#rangeproperty}
 

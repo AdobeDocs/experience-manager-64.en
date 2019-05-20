@@ -54,7 +54,7 @@ Let us review the different components of the form data model editor UI.
 
 **D. Services** Content area where added data source operations or services appear.
 
-**E. Toolbar ** Tools to work with form data model. The toolbar shows more options depending on the selected object in form data model.
+**E. Toolbar** Tools to work with form data model. The toolbar shows more options depending on the selected object in form data model.
 
 **F. Add Selected** Adds selected data model objects and services to the form data model.
 
@@ -65,7 +65,7 @@ For more information about form data model editor and how you can work with it t
 Do the following to add or update data sources to an existing form data model.
 
 1. Go to **[!UICONTROL Forms > Data Integrations]**, select the form data model in which you want to add or update data sources, and tap **[!UICONTROL Properties]**.
-1. In the form data model properties, go to the **[!UICONTROL Update Source]**tab.
+1. In the form data model properties, go to the **[!UICONTROL Update Source]** tab.
 
    In the Update Source tab:
 

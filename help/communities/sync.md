@@ -43,9 +43,9 @@ For detailed, step-by-step instructions, on how to enable synchronization across
 
 ![](assets/sling-dist-workflow.png)
 
-&#42; ** vlt  package**: is a zip file of all the changes done on a publisher, which need to be distributed across publishers. Changes on a publisher generate events that are picked by the change event listener. This creates a vlt package that contains all the changes.
+&ast; **vlt  package**: is a zip file of all the changes done on a publisher, which need to be distributed across publishers. Changes on a publisher generate events that are picked by the change event listener. This creates a vlt package that contains all the changes.
 
-&#42;&#42; **distribution package**: contains distribution information for Sling. That is information about where the content needs to be distributed, and when was it distributed last.
+&ast;&ast; **distribution package**: contains distribution information for Sling. That is information about where the content needs to be distributed, and when was it distributed last.
 
 ## What Happens When ... {#what-happens-when}
 
@@ -180,7 +180,7 @@ On AEM publish instance:
 ### Adobe Granite Distribution - Diff Observer Factory {#adobe-granite-distribution-diff-observer-factory}
 
 This configuration syncs group membership across publishers.   
-If changing the membership of a group in one publisher does not update its membership on other publishers, then ensure that **ref:members ** is  added to **looked properties names**.
+If changing the membership of a group in one publisher does not update its membership on other publishers, then ensure that **ref:members** is  added to **looked properties names**.
 
 <!--This section used to be an accordion until converted to straight Markdown. When accordions are enabled, revert-->
 
@@ -302,7 +302,7 @@ Repeat these steps until all publish instances have an unique Sling ID.
 ### Vault Package Builder Factory {#vault-package-builder-factory}
 
 For updates to sync properly, it is necessary to modify the vault package builder for user sync.  
-In **/home/users**, a **&#42;/rep:cache **node is created. It is a cache which is used to find that if we query on the principal name of a node then this cache can be used directly.
+In **/home/users**, a **&ast;/rep:cache **node is created. It is a cache which is used to find that if we query on the principal name of a node then this cache can be used directly.
 
 User synchronization can stop if `rep:cache `nodes are synced across publishers.
 
@@ -334,17 +334,17 @@ On each AEM publish instance:
 If Sling distribution fails, try the following debugging steps:
 
 1. **Check for [improperly added configurations](/help/sites-administering/sync.md#improperconfig).** Ensure that multiple configurations are not added or edited, instead, the existing default configurations should be edited.
-1. **Check configurations**. Ensure that all the [configurations](/help/communities/sync.md#bestpractices)are appropriately set in your AEM Author instance, as mentioned in the [Best Practices](/help/communities/sync.md#main-pars-header-863110628).
+1. **Check configurations**. Ensure that all the [configurations](/help/communities/sync.md#bestpractices) are appropriately set in your AEM Author instance, as mentioned in the [Best Practices](/help/communities/sync.md#main-pars-header-863110628).
 1. **Check authorized user permissions**. If the packages are not installed properly, then check that the [authorized user](/help/sites-administering/sync.md#createauthuser) created in the first Publish instance has the correct ACLs.
 
    To validate this, instead of the [created authorized user](/help/sites-administering/sync.md#createauthuser) change the [Adobe Granite Distribution - Encrypted Password Transport Secret Provider](/help/sites-administering/sync.md#adobegraniteencpasswrd) configuration on Author instance to use Admin user credentials. Now try installing the packages again. If the user sync works fine with administrator credentials, then it means that the created publish user did not have appropriate ACLs.
 
-1. **Check Diff Observer Factory configuration**. If only specific nodes are not synced across the publish farm- for example, group members are not synchronized- then ensure that the [Adobe Granite Distribution - Diff Observer Factory](/help/sites-administering/sync.md#diffobserver) configuration is enabled and **rep:members ** are set in **looked properties names**.
-1. **Check AEM Communities User Sync Listener configuration. **If the created users are synced but subscriptions and follows are not working, then ensure that AEM Communities User Sync Listener configuration has:
+1. **Check Diff Observer Factory configuration**. If only specific nodes are not synced across the publish farm- for example, group members are not synchronized- then ensure that the [Adobe Granite Distribution - Diff Observer Factory](/help/sites-administering/sync.md#diffobserver) configuration is enabled and **rep:members** are set in **looked properties names**.
+1. **Check AEM Communities User Sync Listener configuration.** If the created users are synced but subscriptions and follows are not working, then ensure that AEM Communities User Sync Listener configuration has:
 
-    * Node types- set to **rep:User,  nt:unstructured**, ** nt:resource**, **rep:ACL**, **sling:Folder**, and **sling:OrderedFolder**
+    * Node types- set to **rep:User,  nt:unstructured**, **nt:resource**, **rep:ACL**, **sling:Folder**, and **sling:OrderedFolder**
     
-    * Ignorable nodes- set to **.tokens**, **system**, and **rep:cache **
+    * Ignorable nodes- set to **.tokens**, **system**, and **rep:cache**
     
     * Distributed Folders- set to the folders which you want to be distributed
 
@@ -371,13 +371,13 @@ If Sling distribution fails, try the following debugging steps:
        2. Access the [Web Console](/help/sites-deploying/configuring-osgi.md). For example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).  
        3. Locate the configuration **Apache Sling Distribution Agent - Sync Agents Factory**.  
        4. Deselect the **Enabled** checkbox.  
-       On disabling the user synchronization on author instance, (exporter and importer) endpoints are disabled and the author instance is static. The ** vlt ** packages are not pinged or fetched by the author.  
-       Now if a user is created on publish instance, the ** vlt  **package is created in */var/sling/distribution/packages/  socialpubsync -  vlt /data* node. And if these packages are pushed by the author to another service. You can download and extract this data to check what all properties are pushed to other services. 
+       On disabling the user synchronization on author instance, (exporter and importer) endpoints are disabled and the author instance is static. The **vlt** packages are not pinged or fetched by the author.  
+       Now if a user is created on publish instance, the **vlt** package is created in */var/sling/distribution/packages/  socialpubsync -  vlt /data* node. And if these packages are pushed by the author to another service. You can download and extract this data to check what all properties are pushed to other services. 
     
     1. Go to a publisher, and create a user on the publisher. As a result, events are created.
     1. Check the [order of logs](/help/communities/sync.md#troubleshoot-sling-distribution-in-aem-communities), created on user creation.  
     
-    1. Check whether a **vlt **package is created on **/var/sling/distribution/packages/socialpubsync-vlt/data**.
+    1. Check whether a **vlt** package is created on **/var/sling/distribution/packages/socialpubsync-vlt/data**.
     
     1. Now, enable the user synchronization on AEM author instance. 
     1. On publisher, change the exporter or importer endpoints in **Apache Sling Distribution Agent - Sync Agents Factory**.   

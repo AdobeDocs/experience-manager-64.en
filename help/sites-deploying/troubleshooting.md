@@ -68,7 +68,7 @@ My application running on CRX throws out-of-memory errors
 
 CRX itself has a very low memory footprint. If the application running within CRX has bigger memory requirements or requests memory-heavy operations (for example, large transactions), the JVM instance where CRX runs needs to be started with appropriate memory settings.
 
-Use Java command options to define memory settings of the JVM (for example, java -Xmx512m -jar crx&#42;.jar to set heapsize to 512MB).
+Use Java command options to define memory settings of the JVM (for example, java -Xmx512m -jar crx&ast;.jar to set heapsize to 512MB).
 
 Specify the memory setting option while starting AEM WCM from the command line. The AEM WCM start/stop scripts or custom scripts for managing AEM WCM startup can also be modified to define the required memory settings.
 
@@ -76,7 +76,7 @@ If you have already defined your heapsize to 512MB, you may want to analyze the 
 
 To automatically create a heap dump when running out of memory, use the following command:
 
-java -Xmx256m -XX:+HeapDumpOnOutOfMemoryError -jar &#42;.jar
+java -Xmx256m -XX:+HeapDumpOnOutOfMemoryError -jar &ast;.jar
 
 This generates a heap dump file (**java_...hprof**) whenever the process runs out of memory. The process may continue to run after the heap dump was generated. Usually, one heap dump file is enough to analyze the problem.
 
@@ -98,7 +98,7 @@ If everything else fails, check the logs to find out what has happened.
 
 **Applies to WebLogic 10.3.5 and JBoss 5.1**
 
-****When a request to geometrixx-outdoors/en page returns a 404 (Page Not Foun) then you may recheck that you have set the additional sling property in the sling.properties file needed for these specific Application Servers.
+When a request to geometrixx-outdoors/en page returns a 404 (Page Not Foun) then you may recheck that you have set the additional sling property in the sling.properties file needed for these specific Application Servers.
 
 See in the *Deploy AEM web application* steps for the details.
 

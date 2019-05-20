@@ -25,7 +25,7 @@ The Operations Dashboard in AEM 6 helps system operators to monitor AEM system h
 * Reduces time to find, analyze and fix issues
 * Provides self-contained maintenance automation that helps reduce project operations costs significantly
 
-It can be accessed by going to **Tools **- **Operations ** from the AEM Welcome screen.
+It can be accessed by going to **Tools** - **Operations** from the AEM Welcome screen.
 
 >[!NOTE]
 >

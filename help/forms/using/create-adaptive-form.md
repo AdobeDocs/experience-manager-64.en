@@ -33,10 +33,10 @@ You will have a form similar to the following by end of article:
 
 ## Step 1: Create the adaptive form {#step-create-the-adaptive-form}
 
-1. Log in to the AEM author instance and navigate to **Adobe Experience Manager** &gt; **Forms** &gt; ** Forms & Documents**. The default URL is [http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments). 
-1. Tap **Create **and select **Adaptive Form**. An option to select a template appears. Tap the **Blank** template to select it and tap **Next**.  
+1. Log in to the AEM author instance and navigate to **Adobe Experience Manager** &gt; **Forms** &gt; **Forms & Documents**. The default URL is [http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments). 
+1. Tap **Create** and select **Adaptive Form**. An option to select a template appears. Tap the **Blank** template to select it and tap **Next**.  
 
-1. An option to **Add Properties** appears. The **Title **and **Name **fields are mandatory:
+1. An option to **Add Properties** appears. The **Title** and **Name** fields are mandatory:
 
     * **Title:** Specify `Add new or update shipping address` in the Title field. The title field specifies the display name of the form. The title helps you identify the form in the AEM Forms user interface.  
     
@@ -69,7 +69,7 @@ AEM Forms provides many components to display information on an adaptive form. H
 
 Components are building blocks of an adaptive form. AEM Forms provides many components to capture and display information in an adaptive form. You can drag the components from ![](assets/treeexpandall.png) to a form. To learn about available components and corresponding functionality, see [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
-1. Drag the Numeric Box component to the adaptive form. Place it before the footer component. Open properties of the component, change **Title **of the component to **`Customer ID`**, change **Element Name** to** `customer_ID`**, enable the **Required Field** option, enable the **Use HTML5 Number Input Type** option, and tap ![](assets/aem_6_3_forms_save.png).
+1. Drag the Numeric Box component to the adaptive form. Place it before the footer component. Open properties of the component, change **Title** of the component to **`Customer ID`**, change **Element Name** to **`customer_ID`**, enable the **Required Field** option, enable the **Use HTML5 Number Input Type** option, and tap ![](assets/aem_6_3_forms_save.png).
 1. Drag three Text Box components to the adaptive form. Place these before the footer component. Set the following properties for these text boxes.:
 
 <table> 

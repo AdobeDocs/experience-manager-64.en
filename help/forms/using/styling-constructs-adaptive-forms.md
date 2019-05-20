@@ -936,7 +936,7 @@ A Panel includes an optional toolbar and its content.
 
 The panel node is divided into navigators and content. There `` `` is no separate styling component for the content. The variables described are applied on navigator as well as content.
 
-&#42;The topmost panel (RootPanel) doesn't have this class.
+&ast;The topmost panel (RootPanel) doesn't have this class.
 
 ## Mobile styling {#mobile-styling}
 

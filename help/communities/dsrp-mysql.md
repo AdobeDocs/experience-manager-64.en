@@ -111,11 +111,11 @@ The SQL script is obtained from the AEM repository:
     * for example, [http://localhost:4502/crx/de](http://localhost:4502/crx/de)
 
 1. select the /libs/social/config/datastore/dsrp/schema folder
-1. download&#42; `init-schema.sql`
+1. download&ast; `init-schema.sql`
 
 ![](assets/chlimage_1-107.png)
 
-&#42; One method for downloading the schema is to
+&ast; One method for downloading the schema is to
 
 * select the `jcr:content`node for the sql file
 * notice the value for the `jcr:data`property is a view link

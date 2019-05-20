@@ -348,9 +348,9 @@ On Oracle, the database account that you use needs only the CONNECT, RESOURCE, a
    ```
 
 1. Under Change Center, click **Lock & Edit**.
-1. Under Domain Structure, click *[base_domain]*****&gt;** Services** &gt; ** JDBC** &gt; ** Data Sources** and, in the right pane, click **IDP_DS**.
-1. On the next screen, on the **Configuration** tab, click the **Connection****Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
-1. Under Domain Structure, click **[base_domain]** &gt; ** Services** &gt; ** JDBC** &gt; ** Data Sources** and, in the right pane, click **RM_DS**.
+1. Under Domain Structure, click *[base_domain]* &gt; **Services** &gt; **JDBC** &gt; **Data Sources** and, in the right pane, click **IDP_DS**.
+1. On the next screen, on the **Configuration** tab, click the **Connection Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
+1. Under Domain Structure, click **[base_domain]** &gt; **Services** &gt; **JDBC** &gt; **Data Sources** and, in the right pane, click **RM_DS**.
 1. On the next screen, on the **Configuration** tab, click the **Connection Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
 1. Add the sqljdbc_auth.dll file to the Windows systems path on the computer that is running the application server. The sqljdbc_auth.dll file is located with the Microsoft SQL JDBC 6.2.1.0 driver installation.
 1. Set Security for SQL Server from **Mixed** mode to** Windows Authentication only**.
@@ -360,10 +360,10 @@ On Oracle, the database account that you use needs only the CONNECT, RESOURCE, a
 On WebSphere, you can configure integrated security only when you use an external SQL Server JDBC driver, not the SQL Server JDBC driver that is embedded with WebSphere.
 
 1. Log in to the WebSphere Administrative Console.
-1. In the navigation tree, click **Resources** &gt; ** JDBC** &gt; ** Data Sources** and, in the right pane, click **IDP_DS**. 
+1. In the navigation tree, click **Resources** &gt; **JDBC** &gt; **Data Sources** and, in the right pane, click **IDP_DS**. 
 1. In the right pane, under Additional Properties, click **Custom Properties**, and then click **New**.
 1. In the **Name** box, type `integratedSecurity` and, in the **Value** box, type `true`.
-1. In the navigation tree, click **Resources** &gt; ** JDBC** &gt; ** Data Sources** and, in the right pane, click **RM_DS**.
+1. In the navigation tree, click **Resources** &gt; **JDBC** &gt; **Data Sources** and, in the right pane, click **RM_DS**.
 1. In the right pane, under Additional Properties, click **Custom Properties**, and then click **New**.
 1. In the **Name** box, type `integratedSecurity` and, in the **Value** box, type `true`. 
 1. On the computer where WebSphere is installed, add the sqljdbc_auth.dll file to the Windows systems path (C:\Windows). The sqljdbc_auth.dll file is in the same location as the Microsoft SQL JDBC 1.2 driver installation (default is *[InstallDir]*/sqljdbc_1.2/enu/auth/x86).
@@ -1030,7 +1030,7 @@ Set the `directoryBrowsingEnabled` property in the ibm-web-ext.xml file to `fals
 ### Enable WebSphere administrative security {#enable-websphere-administrative-security}
 
 1. Log in to the WebSphere Administrative Console.
-1. In the navigation tree, go to **Security** &gt; ** Global Security**
+1. In the navigation tree, go to **Security** &gt; **Global Security**
 1. Select **Enable administrative security**.
 1. Deselect both **Enable application security** and **Use Java 2 security**.
 1. Click **OK** or **Apply**.

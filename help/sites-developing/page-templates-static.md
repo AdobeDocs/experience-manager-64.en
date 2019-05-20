@@ -154,13 +154,13 @@ To see a list of all templates in the repository, proceed as follows:
 1. As **Type**, select **XPath**.
 
 1. In the **Query** input field, enter following string:  
-   //element(&#42;, cq:Template)
+   //element(&ast;, cq:Template)
 
 1. Click **Execute**. The list is displayed in the result box.
 
 In most cases, you will take an existing template and develop a new one for your own use. See [Developing Page Templates](#developing-page-templates) for more information.
 
-To enable an existing template for your website and you want it to be displayed in the **Create Page** dialog when creating a page right under **Websites** from the **Websites** console, set the allowedPaths property of the template node to: **/content(/.&#42;)?**
+To enable an existing template for your website and you want it to be displayed in the **Create Page** dialog when creating a page right under **Websites** from the **Websites** console, set the allowedPaths property of the template node to: **/content(/.&ast;)?**
 
 ## How Template Designs are Applied {#how-template-designs-are-applied}
 

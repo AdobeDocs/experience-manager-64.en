@@ -132,7 +132,7 @@ The following options determine how image files are converted to PDF. For instru
 
 ## Adobe PDF export settings (Windows only) {#adobe-pdf-export-settings-windows-only}
 
-The Export File Type setting in the Adobe PDF export settings section is used for converting a PDF file to another format. The default is HTML 4.01 with cascading style sheets (CSS) 1.0****(&#42;.htm, &#42;.html).
+The Export File Type setting in the Adobe PDF export settings section is used for converting a PDF file to another format. The default is HTML 4.01 with cascading style sheets (CSS) 1.0 (*.htm, *.html).
 
 For instructions about accessing this setting, see [Create or edit file type settings](configuring-file-type-settings.md#create-or-edit-file-type-settings).
 
@@ -255,7 +255,7 @@ For instructions about accessing this setting, see [Create or edit file type set
 
    >[!NOTE]
    >
-   >*If you’re using this option in combination with **Unembed some fonts**, fonts in the **A**dd fonts to unembed**** list are still completely unembedded.*
+   >*If you’re using this option in combination with **Unembed some fonts**, fonts in the **Add fonts to unembed** list are still completely unembedded.*
 
    >[!NOTE]
    >
@@ -430,11 +430,11 @@ These options determine how Microsoft PowerPoint files are converted. For instru
 
 **[!UICONTROL Try OpenOffice As Fallback Converter]**: When this option is selected and a conversion using Microsoft PowerPoint fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using OpenOffice. If the conversion using OpenOffice fails or reaches the specified time-out limit, an exception is written to the log file.
 
-****[!UICONTROL Filename Extensions]****: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is ppt,pptx. Do not include a period before or a space between the extensions.
+**[!UICONTROL Filename Extensions]**: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is ppt,pptx. Do not include a period before or a space between the extensions.
 
-****[!UICONTROL Convert Document Information]****: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.
+**[!UICONTROL Convert Document Information]**: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.
 
-****[!UICONTROL Add Bookmarks To Adobe PDF]****: Converts PowerPoint titles to bookmarks. This option is selected by default.
+**[!UICONTROL Add Bookmarks To Adobe PDF]**: Converts PowerPoint titles to bookmarks. This option is selected by default.
 
 **[!UICONTROL Attach Source File To Adobe PDF]**: Adds the source file to the PDF file as an attachment. This option is deselected by default.
 

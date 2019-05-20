@@ -62,13 +62,13 @@ The sidebar includes the following:
 | Document Fragment |✓ |✓ |Allows you to add a reusable component, text, list, or condition, to an Interactive Communication. The reusable component you add to an Interactive Communication could be either form data model-based or without a form data model. |
 | Image |✓ |✓ |Allows you to insert an image. |
 | Panel |-  |✓ |The Panel component is a placeholder for grouping other components together and controls how a group of components are laid out in an Interactive Communication. A panel component also allows you to make a group of components repeatable for the end user, such as in multiple entries required for filling in educational credentials. It is also a good practice to use a panel each for a tab of an Interactive Communication with multiple tabs. |
-| Table  |&#42; |✓ |Adds a table that lets you organize data in rows and columns.  |
-| Target Area |&#42;&#42; |✓ |Inserts a target area in a web channel to organize the web-channel-specific components. |
+| Table  |&ast; |✓ |Adds a table that lets you organize data in rows and columns.  |
+| Target Area |&ast;&ast; |✓ |Inserts a target area in a web channel to organize the web-channel-specific components. |
 | Text  |- |✓ |Adds text to the web channel of an Interactive Communication. Text can make use of form data model objects to make the content dynamic. |
 
-&#42; Use Layout Fragments in the Print channel to add tables.
+&ast; Use Layout Fragments in the Print channel to add tables.
 
-&#42;&#42; In the Print channel, target areas are predefined in the XDP/print template. You cannot add new target areas using the Interactive Communication authoring UI.
+&ast;&ast; In the Print channel, target areas are predefined in the XDP/print template. You cannot add new target areas using the Interactive Communication authoring UI.
 
 * **Data Sources Browser** 
   Data Sources Browser displays the available data sources in the form data model you selected while creating the Interactive Communication.

@@ -273,7 +273,7 @@ Do the following on both author and publish instances:
 
 1. Go to AEM Web Configuration console at `https://[server]:[host]/system/console/configMgr`.
 1. Find and tap **[!UICONTROL Adobe Sign Configuration Service]** to open it for configuration.
-1. Configure **[!UICONTROL Status Update Scheduler Expression]** as **0 0/2 &#42; &#42; &#42; ?**.
+1. Configure **[!UICONTROL Status Update Scheduler Expression]** as **0 0/2 &ast; &ast; &ast; ?**.
 
    >[!NOTE]
    >

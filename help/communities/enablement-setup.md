@@ -191,12 +191,12 @@ Create a user on *author*, who is assigned the role of Community Administrator:
 
 * in the `Create New User` dialog enter
 
-    * **ID&#42;**: sirius
+    * **ID&ast;**: sirius
     * **Emai Address**: sirius.nilson@mailinator.com
-    * **Password&#42;**: password
-    * **Confirm Password&#42;**: password
+    * **Password&ast;**: password
+    * **Confirm Password&ast;**: password
     * **First Name**: Sirius
-    * **Last Name&#42;**: Nilson
+    * **Last Name&ast;**: Nilson
 
 ### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
 
