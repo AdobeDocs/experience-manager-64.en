@@ -175,7 +175,7 @@ Included in the beta release are two advanced scoring rules for the [forum funct
 
 1. /etc/community/scoring/rules/adv-comments-scoring
 
-    * subRules[] =  
+    * subRules`[]` =  
 
       /etc/community/scoring/rules/sub-rules/adv-comments-rule  
 
@@ -185,7 +185,7 @@ Included in the beta release are two advanced scoring rules for the [forum funct
 
 1. /etc/community/scoring/rules/adv-forums-scoring
 
-    * subRules[] =  
+    * subRules`[]` =  
 
       /etc/community/scoring/rules/sub-rules/adv-forums-rule  
 

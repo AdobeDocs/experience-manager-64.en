@@ -164,7 +164,7 @@ The screen shots of repository data come from setting up scoring and badging for
 
     * a user signs in, creates a forum topic, and is awarded a bronze badge
 
-1. An AEM site *without *an unique id:
+1. An AEM site *without* an unique id:
 
     * using the [Community Components guide](/help/communities/components-guide.md)
     * locate the forum page node
