@@ -175,3 +175,16 @@ If you want to view the timeline of the document:
     1. **Go** to show the content of the published page at the selected point of time.
     1. When showing that content then use **Exit Timewarp** to exit and return to the current author page.
 
+### Timewarp Limitations
+
+Timewarp makes a best effort to reproduce a page at a selected point in time. However because of the complexities of the continuous authoring of content in AEM, this is not always possible. These limitations should be kept in mind as you use Timewarp.
+
+* **Timewarp works based on published pages** - Timewarp will only work fully if you have previously published the page. If not, timewarp will show the current page on the author environment.
+* **Timewarp uses page versions** - If you navigate to a page that has been removed/deleted from the repository it will be rendered properly if old versions of the page are still available in the repository.
+* **Removed versions affect Timewarp** - If versions are removed from the repository then Timewarp cannot show the correct view.
+* **Timewarp is read-only** - You cannot edit the old version of the page. It is only available for viewing. If you want to restore the older version you will have to do that manually using restore.
+* **Timewarp is only based on page content** - If elements (such as code, css, assets/images, etc) for rendering the website have changed, the view will differ from what it originally was, as those items are not versioned in the repository.
+
+>[!CAUTION]
+>
+> Timewarp is designed as a tool to assit authors with understanding and creating their content. It is not intended as an audit log or for legal purposes.
