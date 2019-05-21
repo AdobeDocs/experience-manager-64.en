@@ -39,25 +39,31 @@ The tutorial helps to illustrate the steps of integrating interactive images on 
 
 Interactive Images steps:
 
-1. **(Optional) Identifying hotspot variables** - If you use AEM Assets and Dynamic Media standalone, start by identifying dynamic variables used in your existing Quickview implementation so that you can enter hotspot data when creating the interactive image. See [(Optional) Identifying hotspot variables](#optional-identifying-hotspot-variables).  
+1. **(Optional) Identifying hotspot variables** - If you use AEM Assets and Dynamic Media standalone, start by identifying dynamic variables used in your existing Quickview implementation so that you can enter hotspot data when creating the interactive image. See [(Optional) Identifying hotspot variables](#optional-identifying-hotspot-variables).
+
    However, if you use AEM Sites, or AEM eCommerce, or both, then this step is not necessary.  
+
    See [eCommerce concepts in AEM Assets](/help/sites-administering/concepts.md).  
 
 1. **(Optional) Creating an Interactive Image viewer preset** - Customize the graphic image that is used to represent hotspots. Creating your own Interactive Image viewer preset is not required if you intend to use the out-of-the-box Interactive Image viewer preset named `Shoppable_Banner` instead. 
+
    See [(Optional) Creating an Interactive Image viewer preset](managing-viewer-presets.md#creating-a-new-viewer-preset).  
 
 1. **Uploading an image banner** - Upload image banners that you want to make interactive.  
+
    See [Uploading an image banner](#uploading-an-image-banner).  
 
 1. **Adding hotspots to an image banner** - Add one or more hotspots to an image banner and associate each one with an action such as a hyperlink, a Quickview, or an Experience Fragment. After you add hotspots, you will finish this task by publishing the interactive image.  
-   See [Adding hotspots to an image banner](#adding-hotspots-to-an-image-banner).  
-   See [Previewing interactive images](#optional-previewing-interactive-images) - Optional. If desired, you can view a representation of your shoppable banner and test its interactivity.  
-   See [Publishing Assets](publishing-dynamicmedia-assets.md) for details on how to publish interactive image assets.  
 
-1. **Adding an interactive image to your website or to your website in AEM** 
-   If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive image directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)  
-   If you use AEM Assets and Dynamic Media standalone, you must copy the embed code on your website and then integrate it with your existing Quickview. See [Integrating an interactive image with your website](#integrating-an-interactive-image-with-your-website).  
-   If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive image with an existing Quickview](#integrating-an-interactive-image-with-an-existing-quickview).
+   * See [Adding hotspots to an image banner](#adding-hotspots-to-an-image-banner).  
+   * See [Previewing interactive images](#optional-previewing-interactive-images) - Optional. If desired, you can view a representation of your shoppable banner and test its interactivity.  
+   * See [Publishing Assets](publishing-dynamicmedia-assets.md) for details on how to publish interactive image assets.  
+
+1. **Adding an interactive image to your website or to your website in AEM**
+
+   * If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive image directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)
+   * If you use AEM Assets and Dynamic Media standalone, you must copy the embed code on your website and then integrate it with your existing Quickview. See [Integrating an interactive image with your website](#integrating-an-interactive-image-with-your-website).
+   * If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive image with an existing Quickview](#integrating-an-interactive-image-with-an-existing-quickview).
 
 ## (Optional) Identifying hotspot variables {#optional-identifying-hotspot-variables}
 
@@ -91,10 +97,12 @@ The approach then is to visit different areas of the existing website where the 
 
 Normally there is no need for you to use any specialized debugging tools. Modern web browsers feature web inspectors that do an adequate job. The following are a few examples of web browsers that include web inspectors:
 
-* To see all outgoing HTTP requests in Google Chrome, press F12 to open the Developer Tools panel, and then click the Network tab.  
+* To see all outgoing HTTP requests in Google Chrome, press F12 to open the Developer Tools panel, and then click the Network tab.
+
   On a Mac, press Command+Option+I to open the Developer Tools panel, then click the Network tab.  
 
-* In Firefox, you can either activate the Firebug plug-in by pressing F12 and use its Net tab, or you can use the built-in Inspector tool and its Network tab.  
+* In Firefox, you can either activate the Firebug plug-in by pressing F12 and use its Net tab, or you can use the built-in Inspector tool and its Network tab.
+
   On a Mac, press Command+Option+I to open the Developer Tools panel, then click the Inspector tab.
 
 When network monitoring is turned on in the browser, trigger the Quickview on the page.

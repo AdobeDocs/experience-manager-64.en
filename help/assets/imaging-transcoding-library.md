@@ -93,7 +93,6 @@ The command line arguments for Imaging Transcoding Library can include the follo
 
     * `vi ~/.bash_profile`
     * Add " `export LD_LIBRARY_PATH`=**.**"
-    
     * Save and exit.
 
 1. Fetch the value of `LD_LIBRARY_PATH` using the following command:
