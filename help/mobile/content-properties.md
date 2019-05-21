@@ -136,7 +136,7 @@ The following tables describe the content properties and nodes.
    <td> </td> 
   </tr>
   <tr>
-   <td><p>dps-allowDownlaod</p> </td> 
+   <td><p>dps-allowDownload</p> </td> 
    <td>Boolean</td> 
    <td> </td> 
   </tr>
@@ -178,45 +178,19 @@ The following tables describe the content properties and nodes.
 
 #### Articles {#articles-1}
 
-<table> 
- <tbody>
-  <tr>
-   <td>Node Name</td> 
-   <td>Type</td> 
-   <td>Defaults of Expected Values</td> 
-   <td>Description</td> 
-  </tr>
-  <tr>
-   <td>social-share-image</td> 
-   <td> </td> 
-   <td><p>jcr:primaryType=nt:unstructured</p> <p>sling:resourceType=foundation/components/image</p> <p> </p> </td> 
-   <td> </td> 
-  </tr>
- </tbody>
-</table>
+|Node Name|Type|Defaults of Expected Values|Description|
+|--- |--- |--- |--- |
+|social-share-image||jcr:primaryType=nt:unstructured <br> sling:resourceType=foundation/components/image||
 
 #### Banners {#banners-1}
 
 | Node Name |Type |Defaults of Expected Values |Description |
 |---|---|---|---|
-|   |  |  |  |
+|  NA |  |  |  |
 
 #### Collections {#collections-1}
 
-<table> 
- <tbody>
-  <tr>
-   <td>Node Name</td> 
-   <td>Type</td> 
-   <td>Defaults of Expected Values</td> 
-   <td>Description</td> 
-  </tr>
-  <tr>
-   <td>background-image</td> 
-   <td><p>jcr:primaryType=nt:unstructured</p> <p>sling:resourceType=foundation/components/image</p> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
- </tbody>
-</table>
+|Node Name|Type|Defaults of Expected Values|Description|
+|--- |--- |--- |--- |
+|background-image|jcr:primaryType=nt:unstructured <br> sling:resourceType=foundation/components/image|||
 

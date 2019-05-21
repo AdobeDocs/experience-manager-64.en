@@ -11,7 +11,7 @@ topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 8cd6480f-cb4f-40dd-a444-8ba463b78604
 ---
 
-# Configuring Adobe Target Cloud Service{#configuring-adobe-target-cloud-service}
+# Configuring Adobe Target Cloud Service {#configuring-adobe-target-cloud-service}
 
 >[!NOTE]
 >

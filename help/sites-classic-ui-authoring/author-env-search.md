@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: b20e0f78-9ae4-47ba-8e9a-452a0a78b663
 ---
 
-# Search{#search}
+# Search{#search-features}
 
 The author environment of AEM provides various mechanisms for searching for content, dependent on the the resource type.
 

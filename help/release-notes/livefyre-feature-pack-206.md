@@ -8,7 +8,7 @@ contentOwner: alba
 discoiquuid: d445bcfb-7712-472f-bfb4-a8811c2bc4f1
 ---
 
-# Livefyre Feature Pack 2.0.6 Release Notes{#livefyre-feature-pack-release-notes}
+# Livefyre Feature Pack 2.0.6 Release Notes {#livefyre-feature-pack-release-notes}
 
 ## Release Information {#release-information}
 
@@ -47,7 +47,7 @@ discoiquuid: d445bcfb-7712-472f-bfb4-a8811c2bc4f1
 
 ## What is included in Livefyre Feature Pack 2.0.6 {#what-is-included-in-livefyre-feature-pack}
 
-This package integrates Livefyre's industry leading curation capabilities with your AEM instance, allowing you to publish valuable user-generated content (UGC) from social networks to your site in minutes. There are 3 different components to this package:
+This package integrates Livefyre's industry leading curation capabilities with your AEM instance, allowing you to publish valuable user-generated content (UGC) from social networks to your site in minutes. There are three different components to this package:
 
 **Import UGC Content into AEM Assets**
 

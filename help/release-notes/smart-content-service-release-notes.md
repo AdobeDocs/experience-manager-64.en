@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER
 discoiquuid: 9f88c773-ddeb-4c66-ac07-7d3aa196c51b
 ---
 
-# Smart Content Service Release Notes{#smart-content-service-release-notes}
+# Smart Content Service Release Notes {#smart-content-service-release-notes}
 
 Overview of the Smart Content Service and known issues around the service.
 

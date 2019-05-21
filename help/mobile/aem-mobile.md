@@ -11,7 +11,7 @@ topic-tags: administering-on-demand-services-app
 discoiquuid: 5e1e6a51-67e1-42e3-bcb0-e16bc92c9cb3
 ---
 
-# AEM Mobile On-Demand{#aem-mobile-on-demand}
+# AEM Mobile On-Demand {#aem-mobile-on-demand}
 
 >[!NOTE]
 >
@@ -19,7 +19,7 @@ discoiquuid: 5e1e6a51-67e1-42e3-bcb0-e16bc92c9cb3
 
 >[!NOTE]
 >
->If you are not using AEM as your content managment source, see [AEM Mobile On-Demand Services Help](https://helpx.adobe.com/digital-publishing-solution/topics.html).
+>If you are not using AEM as your content management source, see [AEM Mobile On-Demand Services Help](https://helpx.adobe.com/digital-publishing-solution/topics.html).
 
 ## AEM Administrator {#aem-administrator}
 

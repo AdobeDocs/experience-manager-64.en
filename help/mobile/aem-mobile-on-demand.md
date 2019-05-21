@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: cc97a926-d893-46a9-8aea-b56cbee5df01
 ---
 
-# AEM Mobile On-Demand{#aem-mobile-on-demand}
+# AEM Mobile On-Demand {#aem-mobile-on-demand}
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ discoiquuid: cc97a926-d893-46a9-8aea-b56cbee5df01
 >
 >To Set up your environment for AEM Mobile On-Demand Services, see [AEM Mobile Application Dashboard or the Control Center](/help/mobile/mobile-apps-ondemand-application-dashboard.md).
 
-An **AEM developer** extends and creates custom web templates and components to enable the *AEM Author *to create beautiful and engaging mobile experiences. These templates and components are not only optimized for the mobile app world; but communicate both to the device and to the AEM server (any remote server) to omni-channel service end-points. AEM's built-in content editor is used by *AEM Authors* to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.
+An **AEM developer** extends and creates custom web templates and components to enable the *AEM Author* to create beautiful and engaging mobile experiences. These templates and components are not only optimized for the mobile app world; but communicate both to the device and to the AEM server (any remote server) to omni-channel service end-points. AEM's built-in content editor is used by *AEM Authors* to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.
 
 An AEM developer is responsible for the following tasks while creating an app using AEM Mobile On-Demand Services:
 

@@ -36,7 +36,7 @@ For learn about content services Content Services, see [Administering Content Se
 
 >[!NOTE]
 >
->The *AEM Verify* is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. The* AEM Verify* is a mobile app, on your device and you connect it to the server running the quickstart to get a list of apps to view. Click [here](/help/mobile/phonegap-mobile-quickstart.md) to view the details.
+>The *AEM Verify* is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. The *AEM Verify* is a mobile app, on your device and you connect it to the server running the quickstart to get a list of apps to view. Click [here](/help/mobile/phonegap-mobile-quickstart.md) to view the details.
 
 ## Additional Resources {#additional-resources}
 

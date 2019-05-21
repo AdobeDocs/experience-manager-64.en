@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
 ---
 
-# AEM Foundation & Repository{#aem-foundation-repository}
+# AEM Foundation & Repository {#aem-foundation-repository}
 
 ## List of changes {#list-of-changes}
 

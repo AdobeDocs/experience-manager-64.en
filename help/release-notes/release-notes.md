@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 2be468e7-2b4e-4e04-881b-b9bdd1f55e57
 ---
 
-# General Release Notes for Adobe Experience Manager 6.4{#general-release-notes-for-adobe-experience-manager}
+# General Release Notes for Adobe Experience Manager 6.4 {#general-release-notes-for-adobe-experience-manager}
 
 ## Release Information {#release-information}
 
@@ -370,10 +370,7 @@ Please see [upgrade documentation](/help/sites-deploying/upgrade.md) for detaile
 
 ## Supported Platforms {#supported-platforms}
 
-Please find the complete matrix of supported platforms incl. Support-Level on [AEM 6.4 Technical Requirements](/help/sites-deploying/technical-requirements.md)
-
-Oak MicroKernel for  
-Oak MicroKernel for  
+Please find the complete matrix of supported platforms incl. Support-Level on [AEM 6.4 Technical Requirements](/help/sites-deploying/technical-requirements.md) 
 
 >[!NOTE]
 >

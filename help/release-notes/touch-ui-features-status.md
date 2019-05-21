@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 482b5eb0-1b15-4f10-a9d8-3b72dd74acf8
 ---
 
-# Touch UI Feature Status{#touch-ui-feature-status}
+# Touch UI Feature Status {#touch-ui-feature-status}
 
 >[!CAUTION]
 >

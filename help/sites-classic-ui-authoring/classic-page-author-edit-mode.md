@@ -501,7 +501,7 @@ Once configured the content will appear exactly as on the source page. The fact 
 
 ![](assets/chlimage_1-31.png) 
 
-### Search {#search}
+### Search {#search-features}
 
 The Search component adds search capability to your page.
 

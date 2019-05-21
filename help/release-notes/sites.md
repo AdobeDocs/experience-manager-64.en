@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 40225441-7cfe-4395-ac71-60504b42e764
 ---
 
-# AEM Sites Release Notes{#aem-sites-release-notes}
+# AEM Sites Release Notes {#aem-sites-release-notes}
 
 ## Sites {#sites}
 
@@ -78,7 +78,7 @@ See the following for AEM Sites 6.4 enhancements in detail:
 * Addrf the ability to start workflows with Experience Fragments via the timeline rail
 * Reference rail now shows where an Experience Fragment is being used in AEM   
 * Configuration of template locations now allows authors to define on a global or folder level what Experience Fragment templates are allowed to use
-* Faceted search now supports advanced filtering, such as published / non-published, exported to social media and Adobe Target
+* Faceted search now supports advanced filtering, such as published/non-published, exported to social media and Adobe Target
 * Added single social media login when exporting Experience Fragments to Pinterest or Facebook
 * Integrated AEM Experience Fragments with Adobe Target. Synchronizing Experience Fragments to Target will create offers in Adobe Target that can be used with Target's Visual Experience Composer to embed it in any Target enabled experience.
 

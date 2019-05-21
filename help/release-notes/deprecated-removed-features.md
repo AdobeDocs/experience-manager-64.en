@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 15819d42-4897-40fa-a013-e019d1580fa2
 ---
 
-# Deprecated and Removed Features{#deprecated-and-removed-features}
+# Deprecated and Removed Features {#deprecated-and-removed-features}
 
 Adobe constantly evaluates product capabilities, to over time reinvent or replace older features with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 

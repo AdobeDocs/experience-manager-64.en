@@ -317,7 +317,7 @@ For further details on the available configuration options, see [Configuring Nod
 >
 >For additional details also see the [technical requirements](/help/sites-deploying/technical-requirements.md#supported-platforms) page.
 
-### Search {#search}
+### Search {#search-features}
 
 Listed in this section are the custom index providers used with AEM. To know more about indexing, see [Oak Queries and Indexing](/help/sites-deploying/queries-and-indexing.md).
 

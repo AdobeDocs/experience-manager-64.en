@@ -817,7 +817,7 @@ Payment Card Industry (PCI) complicance can be achieved.
 
 The order is confirmed on screen and can be tracked with the [order tracking](#order-tracking).
 
-## Search {#search}
+## Search {#search-features}
 
 ![](assets/chlimage_1-181.png)
 

@@ -77,7 +77,7 @@ The following guidelines will help experienced AEM developers for sites, who wan
 **Minimize size of article payload**
 
 * Use the smallest assets possible that can effectively cover the largest viewport you will be supporting, at a reasonable resolution
-* Use a tool like* ImageOptim* on your images to remove any excess metadata
+* Use a tool like *ImageOptim* on your images to remove any excess metadata
 
 ## Getting Ahead {#getting-ahead}
 
