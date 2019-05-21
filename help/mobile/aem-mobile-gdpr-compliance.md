@@ -8,7 +8,7 @@ contentOwner: trushton
 discoiquuid: 9399dd3d-a485-4f53-a6f2-7b190da4235b
 ---
 
-# AEM Mobile - GDPR Readiness{#aem-mobile-gdpr-readiness}
+# AEM Mobile - GDPR Readiness {#aem-mobile-gdpr-readiness}
 
 ## AEM Mobile GDPR Support {#aem-mobile-gdpr-support}
 
@@ -42,7 +42,7 @@ Provide at least 1 of the following:
 
 ### Frequently Asked Questions (FAQ) {#frequently-asked-questions-faq}
 
-**Will Adobe delete my App Store purchases when initiating a DELETE request? **
+**Will Adobe delete my App Store purchases when initiating a DELETE request?**
 
 Adobe will delete information it has of App store purchases (subscriptions, etc.) but purchases will still be on record in the App stores. If the App (end-user) is logged into the App store, those receipts will be picked up again and sent to Adobe and subsequently, those will be considered as new purchases and will be restored by the App to have access again.
 

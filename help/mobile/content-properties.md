@@ -11,7 +11,7 @@ topic-tags: developing-on-demand-services-app
 discoiquuid: f5721ddc-df5c-496c-be61-38d1cab63ad4
 ---
 
-# Content Properties and Nodes{#content-properties-and-nodes}
+# Content Properties and Nodes {#content-properties-and-nodes}
 
 >[!NOTE]
 >
@@ -36,60 +36,18 @@ The following tables describe the content properties and nodes.
 
 ## Core Metadata Properties {#core-metadata-properties}
 
-<table> 
- <tbody>
-  <tr>
-   <td><strong>Property Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Defaults or Expected Values</strong></td> 
-  </tr>
-  <tr>
-   <td>dps-title<br /> </td> 
-   <td>String</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-shortTitle</td> 
-   <td>String</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-abstract</td> 
-   <td>String</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-shortAbstract</td> 
-   <td>String</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-department</td> 
-   <td>String</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-category</td> 
-   <td>String</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-keywords</td> 
-   <td>String[]</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-internalKeywords</td> 
-   <td>String[]</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-importance</td> 
-   <td>String[]</td> 
-   <td>Importance from {"low", "normal", "high"}</td> 
-  </tr>
- </tbody>
-</table>
+|Property Name|Type|Defaults or Expected Values|
+|--- |--- |--- |
+|dps-title|String||
+|dps-shortTitle|String||
+|dps-abstract|String||
+|dps-shortAbstract|String||
+|dps-department|String||
+|dps-category|String||
+|dps-keywords|String[]||
+|dps-internalKeywords|String[]||
+|dps-importance|String[]|Importance from {"low", "normal", "high"}|
+
 
 ### Articles {#articles}
 
@@ -113,66 +71,22 @@ The following tables describe the content properties and nodes.
 
 ### Collections {#collections}
 
-<table> 
- <tbody>
-  <tr>
-   <td><strong>Property Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Defaults or Expected Values</strong></td> 
-  </tr>
-  <tr>
-   <td>dps-productId</td> 
-   <td>String</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-readingPosition</td> 
-   <td>String</td> 
-   <td>from {"reset","retain"}</td> 
-  </tr>
-  <tr>
-   <td>dps-horizontalSwipe</td> 
-   <td>Boolean</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td><p>dps-allowDownload</p> </td> 
-   <td>Boolean</td> 
-   <td> </td> 
-  </tr>
-  <tr>
-   <td>dps-openDefault</td> 
-   <td>String</td> 
-   <td>from {"browsePage","contentView"}</td> 
-  </tr>
-  <tr>
-   <td>dps-layout</td> 
-   <td>String</td> 
-   <td> </td> 
-  </tr>
- </tbody>
-</table>
+|Property Name|Type|Defaults or Expected Values|
+|--- |--- |--- |
+|dps-productId|String||
+|dps-readingPosition|String|from {"reset","retain"}|
+|dps-horizontalSwipe|Boolean||
+|dps-allowDownload|Boolean||
+|dps-openDefault|String|from {"browsePage","contentView"}|
+|dps-layout|String||
 
 ## Content Nodes {#content-nodes}
 
 ### Common Nodes {#common-nodes}
 
-<table> 
- <tbody>
-  <tr>
-   <td><strong>Node Name</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Defaults or Expected Values</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr>
-  <tr>
-   <td>image</td> 
-   <td><p>jcr:primaryType=nt:unstructured</p> <p>sling:resourceType=foundation/components/image</p> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr>
- </tbody>
-</table>
+|Node Name|Type|Defaults or Expected Values|Description|
+--- |--- |--- |--- |
+|image|jcr:primaryType=nt:unstructured <br> sling:resourceType=foundation/components/image|||
 
 ### Entities {#entities}
 
