@@ -26,7 +26,7 @@ Community content, also known as user generated content (UGC), is created when a
 * [QnA](/help/communities/working-with-qna.md): members create a question or answer a question
 * [reviews](/help/communities/reviews.md): members post a comment when rating an item
 
-Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments: [](/help/communities/working-with-srp.md)
+Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments:
 
 * [bulk moderation console](/help/communities/moderation.md)  
   The Moderation console is accessible by administrators and [community moderators](/help/communities/users.md) in the public environment as well as by administrators in the author environment. This is possible when community content is stored in a [common store](/help/communities/working-with-srp.md).

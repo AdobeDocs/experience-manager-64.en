@@ -1286,7 +1286,7 @@ An instance of your new report can now be created:
 1. Select **Reports** in the left-hand pane.
 1. Then **New...** from the toolbar. Define a **Title** and **Name**, select your new report type (the **OSGi Report Template**) from the list of templates, then click **Create**.
 1. Your new report instance will appear in the list. Double-click this to open.
-1. Drag a component (for this example, **Bundle** in the **OSGi Report** group) from the sidekick to create the first column and [start the report definition](/help/sites-administering/reporting.md#the-basics-of-report-customization). [](/help/sites-administering/reporting.md#the-basics-of-report-customization)
+1. Drag a component (for this example, **Bundle** in the **OSGi Report** group) from the sidekick to create the first column and [start the report definition](/help/sites-administering/reporting.md#the-basics-of-report-customization).
 
    >[!NOTE]
    >

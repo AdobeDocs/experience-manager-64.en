@@ -610,7 +610,7 @@ Workflows can also be purged from the Maintenance Dashboard. In order to run the
 
 ### Audit Log Maintenance {#audit-log-maintenance}
 
-For Audit Log Maintenance, see the [separate documentation page.](/help/sites-administering/operations-audit-log.md) [](/help/sites-administering/operations-audit-log.md)
+For Audit Log Maintenance, see the [separate documentation page.](/help/sites-administering/operations-audit-log.md)
 
 ### Version Purge {#version-purge}
 
@@ -685,7 +685,7 @@ Custom maintenance tasks can be implemented as OSGi services. As the maintenance
 
 Apart from the above service properties, the `process()` method of the `JobConsumer` interface needs to be implemented by adding the code that should be executed for the maintance task. The provided `JobExecutionContext` can be used to output status information, check if the job is stopped by the user and create a result (success or failed).
 
-For situations where a maintenance task should not be run on all installations (for example, run only on the publish instance), you can make the service require a configuration in order to be active by adding `@Component(policy=ConfigurationPolicy.REQUIRE)`. You can then mark the according configuration as being run mode dependent in the repository. For more information, see [Configuring OSGi](/help/sites-deploying/configuring-osgi.md#creating-the-configuration-in-the-repository). [](/help/sites-deploying/configuring-osgi.md#creating-the-configuration-in-the-repository)
+For situations where a maintenance task should not be run on all installations (for example, run only on the publish instance), you can make the service require a configuration in order to be active by adding `@Component(policy=ConfigurationPolicy.REQUIRE)`. You can then mark the according configuration as being run mode dependent in the repository. For more information, see [Configuring OSGi](/help/sites-deploying/configuring-osgi.md#creating-the-configuration-in-the-repository).
 
 Below is an example of a custom maintenance task that deletes files from a configurable temporary directory which have been modified in the last 24 hours:
 

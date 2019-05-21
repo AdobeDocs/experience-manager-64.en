@@ -278,7 +278,7 @@ See [Scoring and Badges Essentials](/help/communities/configure-scoring.md#examp
 
 #### MSRP Reindexing {#msrp-reindexing}
 
-See [MSRP - MongoDB Storage Resource Provider](/help/communities/msrp.md#running-msrp-reindex-tool-using-curl-command) for details. [](/help/communities/msrp.md#running-msrp-reindex-tool-using-curl-command)
+See [MSRP - MongoDB Storage Resource Provider](/help/communities/msrp.md#running-msrp-reindex-tool-using-curl-command) for details.
 
 ### Security {#security}
 
@@ -292,7 +292,7 @@ See [Data Store Garbage Collection](/help/sites-administering/data-store-garbage
 
 ### Analytics and Target Integration {#analytics-and-target-integration}
 
-See [Opting Into Adobe Analytics and Adobe Target](/help/sites-administering/opt-in.md#configuring-the-setup-and-provisioning-via-script) for details. [](/help/sites-administering/opt-in.md#configuring-the-setup-and-provisioning-via-script)
+See [Opting Into Adobe Analytics and Adobe Target](/help/sites-administering/opt-in.md#configuring-the-setup-and-provisioning-via-script) for details.
 
 ### Single Sign On {#single-sign-on}
 

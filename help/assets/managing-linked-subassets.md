@@ -52,7 +52,7 @@ Referenced assets already exist in AEM Assets. You can extract subassets by [con
 
 ### Create references By Dragging AEM assets {#create-references-by-dragging-aem-assets}
 
-This procedure is similar to [Adding AEM assets as references in Adobe Illustrator](#refai). [](managing-linked-subassets.md#refai)
+This procedure is similar to [Adding AEM assets as references in Adobe Illustrator](#refai).
 
 ### Create references to AEM assets by exporting a ZIP file {#create-references-to-aem-assets-by-exporting-a-zip-file}
 
