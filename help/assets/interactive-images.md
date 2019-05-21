@@ -197,6 +197,7 @@ After you save the viewer preset, it is automatically activated (turned on) on t
 1. In the left rail, tap **Tools** &gt; **Assets** &gt; **Viewer Presets**.
 1. Near the upper-right corner of the page, tap **Create**.
 1. In the New Viewer Preset dialog box, type a name to describe the interactive banner viewer preset.  
+
    This is the title that will appear in the Viewer Preset list page after you save.
 1. In the Rich Media Type pull-down menu, select **Interactive Image**.
 1. Tap **Create**.
@@ -261,7 +262,7 @@ See [(Optional) Previewing interactive images](#optional-previewing-interactive-
 1. In the Assets view, navigate to the image banner that you want to make interactive.
 1. Do one of the following:
 
-    * Hover on the image, then tap **Selec**t (checkmark icon). On the toolbar, tap **Edit**.  
+    * Hover on the image, then tap **Select** (checkmark icon). On the toolbar, tap **Edit**.  
     * Hover on the image, then tap **More actions** (three dots icon) &gt; **Edit**.
     * Tap the image to open it in the Detail View page. On the toolbar, tap **Edit**.
 
@@ -296,6 +297,7 @@ See [(Optional) Previewing interactive images](#optional-previewing-interactive-
     * Tap **Experience Fragment**.
 
         * If you are an AEM Sites customer, tap the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap Select in the upper-right corner of the page to return to the Hotspot management page.  
+
           See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
           **Note**: Be aware that the social media sharing tools in Interactive Image are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
 
@@ -343,9 +345,11 @@ If you are an AEM Sites customer, you can add the interactive image by dragging 
 If you are a standalone AEM Assets customer, you can manually add the interactive image to your website as described in this section.
 
 1. Copy the published interactive image's embed code.  
+
    See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).
 
 1. Add the copied embed code on the desired location within the webpage.   
+
    The copied embed code is set for a responsive environment so it should automatically fit the assigned area.
 
 **Example**

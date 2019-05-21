@@ -62,21 +62,28 @@ When you finish the tutorial in the last Example section, the final demo web pag
 
 Interactive video steps:
 
-1. **(Optional) Identifying Quickview variables** - Start by identifying dynamic variables used by your existing Quickview implementation. You use the variables to map product thumbnails to their corresponding product Quickview when you create your interactive video. See [(Optional) Identifying Quickview variables](#optional-identifying-quickview-variables).  
+1. **(Optional) Identifying Quickview variables** - Start by identifying dynamic variables used by your existing Quickview implementation. You use the variables to map product thumbnails to their corresponding product Quickview when you create your interactive video. See [(Optional) Identifying Quickview variables](#optional-identifying-quickview-variables). 
+
    *Note that this step is only required if all the following are true*:  
-   • You want to add interactivity to your video by triggering to quickviews.  
-   • Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](/help/sites-administering/concepts.md).  
+
+   * You want to add interactivity to your video by triggering to quickviews.  
+   * Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](/help/sites-administering/concepts.md).  
 
 1. **(Optional) Creating an Interactive Video viewer preset** - Customize the appearance and behavior of various components that make up the player such as the video scrubber and the interactive thumbnails.  
+
    Creating your own Interactive Video viewer preset is not required if you intend to use the out-of-the-box Interactive Video viewer presets `Shoppable_Video_Light` or `Shoppable_Video_Dark` instead. 
    See [Creating a New Viewer Preset](managing-viewer-presets.md#creating-a-new-viewer-preset) (this is optional) and [Special considerations for creating an Interactive Viewer preset](managing-viewer-presets.md#special-considerations-for-creating-an-interactive-viewer-preset).
 
 1. **Uploading a video and its associated image assets** - Upload a video and associated images that you want to make interactive.  
+
    See [Uploading a video and its associated thumbnail assets](#uploading-a-video-and-its-associated-thumbnail-assets).  
 
 1. **Adding interactivity to your video** - Add one or more time segments to the video. Then, associate image thumbnails within those time segments. Assign each image thumbnail to an action such as a hyperlink, a Quickview, or an Experience Fragment.  
+
    (Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.)  
+
    Finish by publishing the interactive video assets. Publishing creates the embed code or URL that you will eventually copy and apply to your website landing page.See [Adding interactivity to your video](#adding-interactivity-to-your-video).  
+   
    See [Publishing Assets](publishing-dynamicmedia-assets.md).
 
 1. **Adding an interactive video to your website or to your website in AEM** 

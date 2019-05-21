@@ -232,7 +232,6 @@ To configure suoport for Adobe Dimension assets:
     1. Upload `logo_sphere.dn` to the `test3d` folder. The file is located in `sample-3D-content/models`.
 
        Note that `sample-3D-content.zip` was previously downloaded for validating the basic 3D functionality. 
-    
     1. Return to the Card view and observe the message banner shown on the uploaded asset. The Converting Format... banner is displayed while the conversion process is in progress.
     1. After all processing is complete, open the asset in Detail view to verify that the converted asset is displayed correctly and that the viewer's navigation controls are usable.
 

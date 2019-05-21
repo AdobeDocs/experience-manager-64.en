@@ -77,8 +77,10 @@ Smart imaging works with images delivered over HTTP or HTTPS. In addiiton, it al
 To use smart imaging, your company's Dynamic Media Classic (Scene7) or Dynamic Media account must meet the following requirements:
 
 * Use the Adobe-bundled CDN as part of your license.
-* Use a dedicated domain (that is, images.company.com or mycompany.scene7.com), not a generic domain (that is, s7d1.scene7.com, s7d2.scene7.com, or s7d13.scene7.com).  
+* Use a dedicated domain (that is, images.company.com or mycompany.scene7.com), not a generic domain (that is, s7d1.scene7.com, s7d2.scene7.com, or s7d13.scene7.com). 
+
   To find your domains, log in to your company account or accounts.  
+  
   Click **Setup** &gt; **Application Setup** &gt; **General Settings**. Look for the field labeled **Published Server Name**. If you are currently using a generic domain, you can request moving over to your own custom domain as part of this transition.   
 
 * Do not request CMYK JPEG images. As part of its processing, smart imaging converts CMYK JPEG images to RGB. If you need to obtain CMYK JPEG images, you cannot use smart imaging.
@@ -91,17 +93,21 @@ You must initiate the request to use smart imaging; it is not automatically enab
 1. Provide the following information in your support request:
 
     1. Primary contact name, email, phone.
-    1. All domains to be enabled for smart imaging (that is, images.company.com or mycompany.scene7.com).   
-       To find your domains, log into your company account or accounts.  
-       Click **Setup** &gt; **Application Setup** &gt; **General Settings**.   
-       Look for the field labelled **Published Server Name**.
-    
+    1. All domains to be enabled for smart imaging (that is, images.company.com or mycompany.scene7.com).
+
+       To find your domains, log into your company account or accounts. 
+
+       Click **Setup** &gt; **Application Setup** &gt; **General Settings**.  
+
+       Look for the field labeled **Published Server Name**.
     1. Verify that you are using the CDN through Adobe and not managed with a direct relationship.
     1. Verify you are using a dedicated domain such as images.company.com or mycompany.scene7.com, and not a generic domain, such as s7d1.scene7.com, s7d2.scene7.com, s7d13.scene7.com.  
-       To find your domains, log into your company account or accounts.  
+
+       To find your domains, log into your company account or accounts.
+
        Click **Setup** &gt; **Application Setup** &gt; **General Settings**.  
-       Look for the field labelled **Published Server Name**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
-    
+
+       Look for the field labeled **Published Server Name**. If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.
     1. Indicate if you also need this to work over HTTP/2
 
 1. Technical Support will add you to the smart imaging customer Wait List based on the order in which requests were submitted.
@@ -111,7 +117,6 @@ You must initiate the request to use smart imaging; it is not automatically enab
 1. To maximize the performance improvements of smart imaging, Adobe recommends setting the Time To Live (TTL) to 24 hours or longer. The TTL defines how long assets are cached by the CDN. To change this setting:
 
     1. If you use Dynamic Media Classic (Scene7), click **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server**. Set the **Default Client Cache Time To Live** value to 24 or longer.
-    
     1. If you use Dynamic Media, follow these instructions: [https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html](https://helpx.adobe.com/experience-manager/6-3/assets/using/config-dynamic.html) (Configuring Dynamic Media Image Settings). Set the **Expiration** value 24 hours or longer.
 
 ## When can I expect my account to be enabled with smart imaging? {#when-can-i-expect-my-account-to-be-enabled-with-smart-imaging}
