@@ -266,14 +266,15 @@ However, (under controlled circumstances) the following guidelines can be applie
 * 25% of the requests for pages should respond in less than 100ms-300ms.
 * 4% of the requests for pages should respond in less than 300ms-500ms.
 * 1% of the requests for pages should respond in less than 500ms-1000ms.
-* No pages should respond slower than 1 second.  
-  The above numbers assume the following conditions:
+* No pages should respond slower than 1 second. 
 
-    * measured on publish (no authoring environment and/or CFC overhead)
-    * measured on the server (no network overhead)
-    * not cached (no AEM-output cache, no Dispatcher cache)
-    * only for complex items with many dependencies (HTML, JS, PDF, ...)
-    * no other load on the system
+The above numbers assume the following conditions:
+
+* measured on publish (no authoring environment and/or CFC overhead)
+* measured on the server (no network overhead)
+* not cached (no AEM-output cache, no Dispatcher cache)
+* only for complex items with many dependencies (HTML, JS, PDF, ...)
+* no other load on the system
 
 There are several mechanisms you can use to monitor the response times:
 

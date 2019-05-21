@@ -102,7 +102,7 @@ AEM runs well in virtualized environments, but there can be factors such as CPU 
 
 ### Parallelization of AEM Instances {#parallelization-of-aem-instances}
 
-**Fail Safeness **
+**Fail Safeness**
 
 A fail-safe website is deployed on at least two separate systems. If one system breaks down, an other system can take over and thus compensate the system failure.
 
@@ -119,15 +119,15 @@ The estimation of how many cluster nodes are necessary is based on the basic req
 
 For benchmarking purposes, Adobe has developed some benchmark tests for standalone author instances.
 
-* **Benchmark test 1  
+* **Benchmark test 1**  
   
   **Calculate maximum throughput of a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages all of a similar nature. The steps involved were logging in to the site, creating a page with a SWF and Image/Text, adding a tag cloud, then activating the page.
 
-    * **Result  
+    * **Result**  
   
       **Maximum throughput for a simple page creation exercise such as above (considered as one transaction) was found to be 1730 transactions/hour.
 
-* **Benchmark test 2  
+* **Benchmark test 2**  
   
   **Calculate maximum throughput when load profile has a mix of fresh page creation (10%), modification of an existing page (80%) and creation then modification of a page in succession (10%). The complexity of the pages remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of the same complexity as defined in benchmark test 1.
 
@@ -266,16 +266,16 @@ The variables in the equation are as follows:
 If you have a more complex website, you also need more powerful web servers so that AEM can answer a request in an acceptable time.
 
 * Complexity below 4:  
-  • 1024 MB JVM RAM&ast;  
-  • Low to mid-performance CPU
+    * 1024 MB JVM RAM&ast;  
+    * Low to mid-performance CPU
 
 * Complexity between 4 and 8:  
-  • 2048 MB JVM RAM&ast;  
-  • Mid to high-performance CPU
+    * 2048 MB JVM RAM&ast;  
+    * Mid to high-performance CPU
 
 * Complexity above 8:  
-  • 4096 MB JVM RAM&ast;  
-  • High to high-end-performance CPU
+    * 4096 MB JVM RAM&ast;  
+    * High to high-end-performance CPU
 
 >[!NOTE]
 >

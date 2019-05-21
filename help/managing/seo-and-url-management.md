@@ -27,7 +27,7 @@ There are some generally accepted best practices when it comes to URLs.
 
 In your AEM project, when evaluating your URLs, ask yourself the following:
 
-“If a user were to see this URL and none of the content on the page, could they describe what this page was?”
+* “If a user were to see this URL and none of the content on the page, could they describe what this page was?”
 
 If the answer is yes, then it is likely that the URL will work well for a search engine.
 
@@ -47,9 +47,7 @@ Here are some general tips on how to construct your URLs for SEO:
 
     * When using selectors on a page, selectors that provide semantic value are preferred.
     * If a human cannot read your URL, a search engine cannot either.
-    * For example:  
-      `mybrand.com/products/product-detail.product-category.product-name.html`  
-      is preferred to `mybrand.com/products/product-detail.1234.html`
+    * For example: `mybrand.com/products/product-detail.product-category.product-name.html` is preferred to `mybrand.com/products/product-detail.1234.html`
 
 * Avoid subdomains whenever possible, as search engines will treat them as different entities, fragmenting the SEO value of the site.
 
@@ -188,21 +186,17 @@ If an author wants a page to be accessible from a second location for promotiona
 
 You may want to to display localized page names to users of translated content. For example:
 
-* Rather than having a Spanish-speaking user navigate to:  
-  `www.mydomain.com/es/home.html`
+* Rather than having a Spanish-speaking user navigate to: `www.mydomain.com/es/home.html`
 
-* It would be better for the URL to be:  
-  `www.mydomain.com/es/casa.html`.
+* It would be better for the URL to be: `www.mydomain.com/es/casa.html`.
 
 The challenge with localizing the name of the page is that many of the localization tools available on the AEM platform rely on having the page names match across locales in order to keep the content synchronized.
 
 The `sling:alias` property allows you to have our cake and eat it too. `sling:alias` can be added as a property to any resource to allow for an alias name for the resource. In the previous example, you would have:
 
-* A page in the JCR at:  
-  `…/es/home`
+* A page in the JCR at: `…/es/home`
 
-* Then add a property to it:  
-  `sling:alias` = `casa`
+* Then add a property to it: `sling:alias` = `casa`
 
 This would allow the AEM translation tools such as the multi-site manager to continue to maintain a relationship between:
 
@@ -220,14 +214,15 @@ While also allowing end users to interact with the page name in their native lan
 
 In a standard AEM installation:
 
-* for the OSGi configuration   
-  **Apache Sling Resource Resolver Factory** 
+* for the OSGi configuration:  
+  **Apache Sling Resource Resolver Factory**  
   ( `org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl`)
 
-* the property  
+* the property:  
   **Mapping Location** ( `resource.resolver.map.location`)
 
-* defaults to `/etc/map`.
+* defaults to:  
+  `/etc/map`
 
 Mapping definitions can be added in this location to map inbound requests, rewrite URLs on pages in AEM, or both.
 
@@ -238,12 +233,12 @@ While this is the approach that is documented in the official AEM and Sling docu
 Here is an example of how this issue occurs:
 
 1. A user visits your website and requests `https://www.mydomain.com/my-page.html`
-1. The dispatcher forwards this request to the publish server.
-1. Using `/etc/map`, the publish server resolves this request to `/content/my-brand/my-page` and renders the page.
+2. The dispatcher forwards this request to the publish server.
+3. Using `/etc/map`, the publish server resolves this request to `/content/my-brand/my-page` and renders the page.
 
-1. The dispatcher caches the response at `/my-page.html` and returns the response to the user.
-1. A content author makes a change to this page and activates it.
-1. The dispatcher flush agent sends an invalidation request for `/content/my-brand/my-page`**.** Because the dispatcher does not have a page cached at this path, the old content remains cached and will be stale.
+4. The dispatcher caches the response at `/my-page.html` and returns the response to the user.
+5. A content author makes a change to this page and activates it.
+6. The dispatcher flush agent sends an invalidation request for `/content/my-brand/my-page`**.** Because the dispatcher does not have a page cached at this path, the old content remains cached and will be stale.
 
 There are ways to configure custom dispatch-flush rules that will map the shorter URL to the longer URL for purposes of cache invalidation.
 
@@ -253,7 +248,7 @@ However, there is also a simpler way to manage this:
 
    Using the web console (for example, localhost:4502/system/console/configMgr) you can configure the Sling Resource Resolver:
 
-    * **Apache Sling Resource Resolver Factory** 
+    * **Apache Sling Resource Resolver Factory**  
       `(org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl)`.
 
    It is recommended that you build out the mappings required to shorten URLs as regular expressions, then define these configurations under an OsgiConfignode, `config.publish`, that is included in your build.
