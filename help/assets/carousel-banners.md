@@ -80,15 +80,13 @@ To get you up and running quickly:
 
 1. Do one of the following:
 
-    * [Add a carousel banner to your website page  
-      ](#adding-a-carousel-banner-to-your-website-page)You can add the carousel banner URL or embed code you have copied onto the website page.
+    * [Add a carousel banner to your website page](#adding-a-carousel-banner-to-your-website-page) You can add the carousel banner URL or embed code you have copied onto the website page.
 
         * [Integrate the carousel banner with an existing Quickview](#integrating-the-carousel-banner-with-an-existing-quickview). If you are using a third party web content management system, you will need to integrate the new carousel banner with the existing Quickview implementation on your website.
 
-    * [Add a carousel banner to your website in AEM  
-      ](adding-dynamic-media-assets-to-pages.md)If you are an AEM Sites customer you can add the carousel set directly to the page in AEM, using the Interactive Media component.
+    * [Add a carousel banner to your website in AEM](adding-dynamic-media-assets-to-pages.md) If you are an AEM Sites customer you can add the carousel set directly to the page in AEM, using the Interactive Media component.
 
-If you need to edit Carousel Sets, see [editing Carousel Sets.](#editing-carousel-sets) In addition, you can view and edit [Carousel Set properties](/help/assets/managing-assets-touch-ui.md#editing-properties).
+If you need to edit Carousel Sets, see [editing Carousel Sets](#editing-carousel-sets). In addition, you can view and edit [Carousel Set properties](/help/assets/managing-assets-touch-ui.md#editing-properties).
 
 ## Identifying Hotspot and Image Map Variables {#identifying-hotspot-and-image-map-variables}
 
@@ -191,8 +189,7 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
 
    On the Carousel Banner Editor page, do either one of the following:
 
-    * Near the upper-left corner of the page, tap **Add Slide** icon.  
-    
+    * Near the upper-left corner of the page, tap **Add Slide** icon.
     * Near the middle of the page, tap **Tap to open Asset Selector**.
 
    Tap to select assets that you want to include in your Carousel Set. Selected assets have a checkmark icon over them. When you are finished, near the upper-right corner of the page, tap **Select**.
@@ -205,8 +202,7 @@ To upload image banners, see [Uploading assets](managing-assets-touch-ui.md).
 1. (Optional) Do any of the following:
 
     * If necessary, drag slide's to re-order images in the the set list.
-    * To delete an image, select the image, then tap **Delete Slide** on the toolbar.  
-    
+    * To delete an image, select the image, then tap **Delete Slide** on the toolbar. 
     * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list, then select a preset to apply to the set at once.
 
    To delete a slide, tap or click the slide and tap or click **Delete Slide** in the toolbar. To move a slide, tap the reoreder icon and hold and move to the desired location.
@@ -280,12 +276,13 @@ To add hotspots to an image banner:
 
             * See [Identifying hotspot variables](#identifying-hotspot-and-image-map-variables) as you may want to define these variables. 
             * Then, manually enter the SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the quick view template so that the system knows to associate the tapped hotspot with a particular SKU's quick view.
-            * (Optional) If there are other variables within the quick view that you need to use to further identify a product, tap **Add Generic Variable**. In the text field, specify an additional variable. For example, category=Mens is an added variable.  
+            * (Optional) If there are other variables within the quick view that you need to use to further identify a product, tap **Add Generic Variable**. In the text field, specify an additional variable. For example, category=Mens is an added variable. 
             * See [Working with Selectors](working-with-selectors.md) for more information.
 
     * Tap **Hyperlink**.
 
-        * If you are an AEM Sites customer, tap or click the Site Selector icon (folder) to navigate to a URL.  
+        * If you are an AEM Sites customer, tap or click the Site Selector icon (folder) to navigate to a URL.
+
           **Note**: The URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
         * If you are a standalone customer, in the HREF text field, specify the full URL path to a linked web page.
 
@@ -295,9 +292,12 @@ To add hotspots to an image banner:
 
     * Tap **Experience Fragment**.
 
-        * If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap the Experience Fragment you want to use, then tap **Select** in the upper-right corner of the page to return to the Hotspot management page.  
+        * If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap the Experience Fragment you want to use, then tap **Select** in the upper-right corner of the page to return to the Hotspot management page.
+
           See [Experience Fragments](/help/sites-authoring/experience-fragments.md).
-         **Note**: Be aware that the social media sharing tools in Carousel Banner are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
+
+          **Note**: Be aware that the social media sharing tools in Carousel Banner are not supported when you embed the viewer in an Experience Fragment. To work around this, you can use or create viewer presets that do not have social media sharing tools. Such viewer presets let you successfully embed it in Experience Fragments.
+
         * Specify the width and height of the Experience Fragment as it will appear on the banner.
   
    ![](assets/experience_fragment-carouselbanner.png)
@@ -332,7 +332,6 @@ To edit a Carousel Set:
 
     * Hover over an Carousel Set asset, then tap **Edit** (pencil icon).
     * Hover over an Carousel Set asset, tap **Select** (checkmark icon), then tap **Edit** on the toolbar.
-    
     * Tap on a Carousel Set asset, then in the upper-left corner of the page tap **Edit** (pencil icon).
 
 1. To edit the Carousel Set, do any of the following:
@@ -340,19 +339,15 @@ To edit a Carousel Set:
     * To add a slide, tap the **Add Slide** icon then navigate to the asset you want to add to that slide and tap or click the checkmark.
     * To reorder slides, drag an slide to a new location (select the reorder icon to move items).
     * To add a hotspot or image map, click the hotspot or image map icons and see [adding hotspots and image maps](#adding-hotspots-or-image-maps-to-an-image-banner).
-    * To edit the appearance or behavior of the carousel set, tap the **Appearance** tab or **Behavior** tab, then set the options you want.  
-    
+    * To edit the appearance or behavior of the carousel set, tap the **Appearance** tab or **Behavior** tab, then set the options you want.
     * To edit hotspots or image maps, on the appropriate slide, select a hotspot or image map and make changes as necessary under the **Actions** tab.
     * To delete an slide, select it, then tap **Delete Slide** on the toolbar.
     * To apply a preset, near the upper-right corner of the page, tap the preset drop-down list, then select a viewer preset.  
-    
     * To delete an entire Carousel Set, navigate to the Carousel Set, select it, then tap **Delete**.
 
    >[!NOTE]
    >
    >If you are editing interactive images with hotspots and crop the image, your hotspots are removed.
-   >
-   >
 
 ## (Optional) Previewing Carousel Banners {#optional-previewing-carousel-banners}
 
@@ -405,10 +400,12 @@ After you have uploaded banner images to create a carousel, added hotspots and/o
 
 However, if you are a stand-alone AEM assets customer you can manually add the carousel banner to your website landing page as described in this section.
 
-1. Copy the published carousel set's embed code.  
+1. Copy the published carousel set's embed code.
+
    See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).
 
 1. Add the embed code that you copied from AEM Assets to your webpage.  
+
    The copied embed code is responsive so it should automatically fit the embedding area of the page.
 
 ## Integrating the Carousel Banner with an Existing Quickview {#integrating-the-carousel-banner-with-an-existing-quickview}

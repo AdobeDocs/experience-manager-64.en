@@ -39,11 +39,12 @@ A combination of the following properties are available for most workflow step c
 * **Description** 
   A description of the step.
 
-* **Workflow Stage  
-  **A drop down selector to apply a [Stage](/help/sites-developing/workflows.md#workflow-stages) to the step.  
+* **Workflow Stage**  
+  A drop-down selector to apply a [Stage](/help/sites-developing/workflows.md#workflow-stages) to the step.  
 
 * **Timeout** 
   The period after which the step will be "timed out".  
+  
   You can select between: **Off**, **Immediate**, **1h**, **6h**, **12h**, **24h**.
 
 * **Timeout Handler** 
@@ -67,12 +68,11 @@ The following properties are available for many workflow step components, on the
     * A drop down selection box will allow you to navigate and select a user or group.  
     * If you assign the step to a specific user, then only this user can take action on the step.  
     * If you assign the step to an entire group, then when the workflow reaches this step all users in this group will have the action in their **Workflow Inbox**.  
-    
     * See [Participating in Workflows](/help/sites-authoring/workflows-participating.md) for more information.
 
 ## AND Split {#and-split}
 
-The **AND Split **creates a split in the workflow, after which both branches will be active. You add workflow steps to each branch as required. This step enables you to introduce multiple processing paths into the workflow. For example, you can allow certain review steps to occur in parallel, so saving time.
+The **AND Split** creates a split in the workflow, after which both branches will be active. You add workflow steps to each branch as required. This step enables you to introduce multiple processing paths into the workflow. For example, you can allow certain review steps to occur in parallel, so saving time.
 
 ![](assets/wf-26.png) 
 
@@ -83,7 +83,6 @@ To configure the split:
 * Edit the **AND Split Properties**:
 
     * **Split Name**: assign a name for explanatory purposes  
-    
     * Select the number of branches required; 2, 3, 4 or 5.
 
 * Add workflow steps to the branches as required.
@@ -126,7 +125,6 @@ To configure the step, edit and use the following tabs:
 
     * **The step to go to.**: Select the step to execute.
     * **Script Path**: The path to the ECMAScript that determines whether to execute the **Goto Step**.
-    
     * **Script**: The ECMAScript that determines whether to execute the **Goto Step**.
 
 >[!CAUTION]
@@ -196,22 +194,10 @@ To configure the split:
   >
   >There is a separate tab for each branch:
   >
-  >    
-  >    
-  >    * The script of each branch is evaluated one at a time.   >    
-  >        
-  >        
-  >        * The branches are evaluated left to right.
-  >        
-  >        
-  >    * The first script that evaluates to true is executed.   >    
-  >        
-  >        
-  >        * If no branch evaluates to true, then the workflow does not advance.
-  >        
-  >        
-  >    
-  >
+  >* The script of each branch is evaluated one at a time.
+  >* The branches are evaluated left to right.
+  >* The first script that evaluates to true is executed.
+  >* If no branch evaluates to true, then the workflow does not advance.
 
   >[!CAUTION]
   >
@@ -282,6 +268,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
 * **Store Data with the Payload**
 
     * To store widget data as a property of the workflow payload, use the following format for the value of the name property of the widget node:  
+
       `./jcr:content/nodename`
     
     * The data is stored in the `nodename` property of the payload node. If the node does not contain that property, the property is created.
@@ -290,8 +277,9 @@ You can store widget data in the workflow payload or in the work item metadata. 
 * **Store Data with the Work Item**
 
     * To store widget data as a property of the work item metadata, use the following format for the value of the name property:  
+
       `nodename`
-    
+      
     * The data is stored in the `nodename` property of the work item `metadata`. The data is preserved if the dialog subsequently used with the same payload.
 
 #### Dialog Participant Step - Dialog Definition {#dialog-participant-step-dialog-definition}
@@ -383,7 +371,6 @@ To configure the step, edit and use the following tabs:
 * **Participant Chooser**
 
     * **Participant Chooser**: The name of the [participant chooser that you create](#dynamic-participant-step-developing-the-participant-chooser).
-    
     * **Arguments**: Any required arguments.
     * **Email**: Whether an email notification should be sent to the user.
 
@@ -429,7 +416,6 @@ Create an OSGi service or an ECMAScript that selects a user to assign the work i
   Services must implement the [com.day.cq.workflow.exec.ParticipantStepChooser](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/ParticipantStepChooser.html) interface. The interface defines the following members:
 
     * `SERVICE_PROPERTY_LABEL` field: Use this field to specify the name of the participant chooser. The name appears in a list of available participant choosers in the **Dynamic Participant Step** properties.
-    
     * `getParticipant` method: Returns the the dynamically resolved Principal id as a `String` value.
 
   >[!CAUTION]

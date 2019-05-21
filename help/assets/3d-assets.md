@@ -31,22 +31,27 @@ When you create 3D models for use in AEM 3D, be aware of the following:
 * Place the model above the ground plane. This positioning is especially important when you view or render with stages that provide a ground plane. A configuration setting is available (and enabled by default) that causes the object to be moved above the ground plane when previewing or rendering with Rapid Refine. This setting does not affect rendering with third-party renderers (for example, by way of Maya), and thus objects that are not located above the ground plane may be partially hidden.  
 * Position the model so that it is reasonably centered laterally around the coordinate system origin (0,0,0). Doing so ensures a good interactive viewing experience for you.
 * Other than texture maps, external file references are supported. Therefore, you must embed any referenced content in the primary model file before you upload it into AEM.  
+
   See [About the uploading and processing of 3D assets in AEM](upload-processing-3d-assets.md).
 
 * The general scene lighting is provided by the stage. As such, Adobe does not recommend that you include lights with 3D model files. You can include lights in the model. However, they must be specific to the model only. For example, it may be necessary to include additional lighting to brighten a part of the object that is obscured by other parts. Therefore, it would not be sufficiently visible with just the stage lights.  
 
 ## Supported files in AEM 3D {#supported-files-in-aem-d}
 
-A typical 3D asset has a primary model file and none or more referenced files. Referenced files include such things as texture maps or IBL (Image-Based Lighting) images**.**
+A typical 3D asset has a primary model file and none or more referenced files. Referenced files include such things as texture maps or **IBL (Image-Based Lighting)** images.
 
 ### About the primary 3D model file {#about-the-primary-d-model-file}
 
 The primary 3D model file contains the actual 3D model geometry and definitions for the (default) materials that are applied to the model surfaces. AEM 3D supports the following primary 3D model file formats:
 
 * Wavefront OBJ file format (.obj)  
+
   The OBJ format requires one or more separate, external MTL files (Material Template Library) (.mtl).
+
 * Autodesk FBX (Filmbox) file format (.fbx)  
+
   The Autodesk 3D file interchange format; both binary and ASCII formats.  
+
   When you create FBX files in third-party applications, Adobe recommends the following configuration settings (see table below). These settings can help you achieve the best results for 3D files that you intend to use in AEM. The option names are taken from the Autodesk Maya FBX Export Options dialog box.
 
 <table> 
@@ -105,9 +110,11 @@ The primary 3D model file contains the actual 3D model geometry and definitions 
 The following additional file formats are supported if Autodesk Maya is installed and configured on AEM authoring servers:
 
 * Autodesk Maya  
+
   Both ASCII `.ma` and binary `.mb` formats.
 
 * ``Jupiter Tesselation (ISO 14306-1) `.jt`.  
+
   An industry-standard CAD data exchange, collaboration, and product visualization format.
 
 ### Support for texture map files {#support-for-texture-map-files}

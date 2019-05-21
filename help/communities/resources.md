@@ -84,7 +84,7 @@ Once a specific community site is selected, any existing enablement resources an
 
 ![](assets/chlimage_1-164.png) 
 
-#### Search {#search}
+#### Search {#search-features}
 
 ![](assets/chlimage_1-165.png)
 

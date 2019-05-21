@@ -52,7 +52,6 @@ Here are some general tips on how to construct your URLs for SEO:
 * Avoid subdomains whenever possible, as search engines will treat them as different entities, fragmenting the SEO value of the site.
 
     * Instead use first-level sub paths. For example, instead of `es.mybrand.com/home.html`, use `www.mybrand.com/es/home.html`.
-    
     * Plan your content hierarchy to match the way that the content will be presented, according to this guideline.
 
 * Keyword effectiveness in URLs decreases as the length of the URL and the position of the keyword increases. In other words, shorter is better.
@@ -63,7 +62,6 @@ Here are some general tips on how to construct your URLs for SEO:
 * Use canonical URLs.
 
     * When a URL can be served from different paths or with different parameters or selectors, make sure to use a `rel=canonical` tag on the page. 
-    
     * This can be included in the code for the AEM template.
 
 * Match URLs to page titles whenever possible.
@@ -78,7 +76,6 @@ Here are some general tips on how to construct your URLs for SEO:
 * Make sure that each page is only served from one protocol.
 
     * Sometimes sites will be served over `http` until a user reaches a page with, for example, a checkout or login form, at which point it switches to `https`. When linking from this page, if the user can return to `http` pages and access them through `https`, the search engine will track these as two separate pages.
-    
     * Google currently prefers `https` pages to `http` ones. For this reason it often makes everyone’s life easier to serve the whole site over `https`.
 
 ### Server configuration {#server-configuration}

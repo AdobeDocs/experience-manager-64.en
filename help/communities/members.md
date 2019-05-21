@@ -44,7 +44,7 @@ In the author environment, to reach the Members console for managing members reg
 
 ![](assets/chlimage_1-119.png)
 
-### Search {#search}
+### Search {#search-features}
 
 Select the side panel icon on the left side of the `Members` header to toggle open the search side panel.
 

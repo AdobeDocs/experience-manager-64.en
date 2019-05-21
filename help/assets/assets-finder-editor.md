@@ -425,12 +425,12 @@ With AEM Assets you can make changes to several assets at once. After having sel
 To multi-edit assets with the Asset Editor page:
 
 1. Open the Geometrixx **Press Center** page:  
+
    `http://localhost:4502/content/geometrixx/en/company/press.html`
 
 1. Select the assets:
 
     * on Windows: `Ctrl + click` each asset.  
-    
     * on Mac: `Cmd + click` each asset.
 
    To select a range of assets: click the first asset then `Shift + click` the last asset.  
@@ -452,17 +452,19 @@ To multi-edit assets with the Asset Editor page:
    You can:
 
     * Click the **x** icon to remove the tag for all the assets.  
-    
     * Click the **+** icon to add the tag to all the assets.
     * Click the **arrow** and select a tag to add a new tag to all the assets.
 
    Click **OK** to write the changes to the form. The box beside the **Tags** field is automatically checked.  
 
 1. Edit the Description field. For example set it to:  
+
    `This is a common description`  
+
    When a field is edited, its value overwrites the existing values of the selected assets when the form is submitted.  
+
    Note: the box beside the field is automatically checked when the field is edited.  
 
 1. Click **Update Metadata** to submit the form and save the changes for all the assets.  
-   Note: only the checked metadata are modified.
 
+   Note: only the checked metadata are modified.

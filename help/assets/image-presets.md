@@ -29,15 +29,9 @@ You can apply an image preset to an image anytime you preview it. To apply an im
 
    >[!NOTE]
    >
+   >* Static renditions appear in the top half of the the pane. Dynamic renditions appear in the lower half. With dynamic renditions only, you can use the URL to display the image. The **URL** button only appears if you select a dynamic rendition. The **RESS** button only appears if you select a responsive image preset.
    >
-   >    
-   >    
-   >    * Static renditions appear in the top half of the the pane. Dynamic renditions appear in the lower half. With dynamic renditions only, you can use the URL to display the image. The **URL** button only appears if you select a dynamic rendition. The **RESS** button only appears if you select a responsive image preset.
-   >    
-   >    * The system shows numerous renditions when you select **Renditions** in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of image presets that display](managing-image-presets.md#increasing-or-decreasing-the-number-of-image-presets-that-display).
-   >    
-   >    
-   >
+   >* The system shows numerous renditions when you select **Renditions** in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of image presets that display](managing-image-presets.md#increasing-or-decreasing-the-number-of-image-presets-that-display).
 
    ![](assets/chlimage_1-208.png)
 

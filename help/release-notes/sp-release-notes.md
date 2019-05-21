@@ -85,7 +85,7 @@ Some of the key highlights of AEM 6.4.4.0 are:
 * Multifield file upload does not show drop zone. NPR-28676: Hotfix for CQ-4263516
 * 'Invalid recursion selector value' error while migrating a component from AEM 6.0 to AEM 6.2. NPR-28609: Hotfix for CQ-4241258 
 * Rich Text Editor in dialog is flickering when popover of a plugin is higher than text area, hence, blocking any further authoring. NPR-27579: Hotfix for CQ-4257440
-*  &lsqb;Classic UI &rsqb; cq:action editannotate does not work. NPR-28232: Hotfix for CQ-4257703
+*  &lsqb;Classic UI&rsqb; cq:action editannotate does not work. NPR-28232: Hotfix for CQ-4257703
 * Removing tags from the tags filter  asset search panel of the page editor doesn't refresh the list properly. NPR-27983: Hotfix for CQ-4245567
 * If the multifield number values are empty, clicking Save will result in infinite loading prompt without actually ever completing.  NPR-28400, NPR-28393: Hotfix for CQ-4244058, CQ-4244349
 * With just read permission, users/groups are not able to select an XF and have no option to view the XF and its page properties. NPR-28341: Hotfix for CQ-4260412
@@ -209,7 +209,7 @@ Some of the key highlights of AEM 6.4.4.0 are:
 
 ### Workflow {#workflow-changes}
 
-* When we open complete work item dialog in the workflow notification which has a Tag field , clicking on cross mark  adds a Tag property to it. NPR-28304: Hotfix for CQ-4261321
+* When we open complete work item dialog in the workflow notification which has a Tag field, clicking on cross mark  adds a Tag property to it. NPR-28304: Hotfix for CQ-4261321
 * User Selection Toggle Button in Reassign Task Dialog is not working. NPR-28963: Hotfix for CQ-4264206
 
 ### Forms {#forms-new}
@@ -468,7 +468,7 @@ Some of the key highlights of AEM 6.4.3.0 are:
 *   Modifications in AEM experiences created through the targeting engine are not published. NPR-24869: Hotfix for CQ-4247832
 *   Cannot create multiple activities and experiences if their names include Japanese characters. NPR-27271: Hotfix for CQ-4256857
 *   Update Launch API endpoint. NPR-26790: Hotfix for CQ-4254380
-*    &lsqb;Personalization &rsqb; BrandsRetriever walks the entire tree. NPR-27060: Hotfix for CQ-4255790
+*    &lsqb;Personalization&rsqb; BrandsRetriever walks the entire tree. NPR-27060: Hotfix for CQ-4255790
 
 ### WCM - Admin UI {#wcm-admin-ui}
 
@@ -595,27 +595,27 @@ Some of the key highlights of AEM 6.4.2.0 are:
 *   Subassets generation for pptx file does not contain any images and thumbnails. NPR-24286: Hotfix for CQ-4217986
 *   migrateAllAssets - Add support for batch processing and improve AEM method that adds UUID to old assets. NPR-24861: Hotfix for CQ-4242863 and CQ-4247874
 *   Performance issue with thumbnail generation. NPR-24693: Hotfix for CQ-4246960
-*    &lsqb;Touch UI &rsqb; The “options predicate” component remains blank when added to the Asset Share publisher page. NPR-24643: Hotfix for CQ-4245295
-*    &lsqb;Workflow &rsqb; Smart Tag Assets doesn't process through the proxy configuration. NPR-25840: Hotfix for CQ-4248202
-*    &lsqb;Omnisearch &rsqb; removing filetype:image from search criteria does not remove the image type. NPR-25232: Hotfix for CQ-4248280
+*    &lsqb;Touch UI&rsqb; The “options predicate” component remains blank when added to the Asset Share publisher page. NPR-24643: Hotfix for CQ-4245295
+*    &lsqb;Workflow&rsqb; Smart Tag Assets doesn't process through the proxy configuration. NPR-25840: Hotfix for CQ-4248202
+*    &lsqb;Omnisearch&rsqb; removing filetype:image from search criteria does not remove the image type. NPR-25232: Hotfix for CQ-4248280
 *   When trying to move a file to a different folder, folders with apostrophe in their name are not displayed. NPR-25125: Hotfix for CQ-4248660
 *   Slider in Subasset page does not work correctly when the language preference set to other than English. NPR-25274: Hotfix for CQ-4248489
 *   Issue with metadata export csv file when opened on machines having European number format. NPR-26009: Hotfix for CQ-4250677
 *   Create button is not available on asset folder selection without "delete" permission. NPR-25788: Hotfix for CQ-4250140
-*    &lsqb;Backport &rsqb; Accessibility enhancements: Duplicate-id: id attribute value must be unique, Label: Form elements must have labels and Link-name: Links must have discernible text. NPR-24252: Hotfix for CQ-4250905, CQ-4250906, CQ-4250907
+*    &lsqb;Backport&rsqb; Accessibility enhancements: Duplicate-id: id attribute value must be unique, Label: Form elements must have labels and Link-name: Links must have discernible text. NPR-24252: Hotfix for CQ-4250905, CQ-4250906, CQ-4250907
 *   Uploading a csv with fields separated with "," fails for European countries. NPR-25549: Hotfix for CQ-4249931
-*    &lsqb;Brand Portal &rsqb; Subassets of a multipage pdf file do not publish when an asset is published. NPR-25991: Hotfix for CQ-4245162
+*    &lsqb;Brand Portal&rsqb; Subassets of a multipage pdf file do not publish when an asset is published. NPR-25991: Hotfix for CQ-4245162
 *   Publish later functionality for AEM to Brand Portal replication. NPR-25911: Hotfix for CQ-109139
 *   Publishing and un-publishing the private collection by non-admin users results in a NPE. NPR-25906: Hotfix for CQ-4250594
 *   Disable publish of content fragment and forms schemas to Brand Portal. NPR-24176, NPR-26004: Hotfix for CQ-4251592, CQ-4252026
-*    &lsqb;Dynamic Media &rsqb; Updated DM viewers to 5.10.1 release which enables check for duplicate names on Image Preset page. Refer to [Update Dynamic Media Viewers (5.10.1)](/help/release-notes/sp-release-notes.md#update-dynamic-media-viewers). NPR-24403: Hotfix for CQ-4247554
+*    &lsqb;Dynamic Media&rsqb; Updated DM viewers to 5.10.1 release which enables check for duplicate names on Image Preset page. Refer to [Update Dynamic Media Viewers (5.10.1)](/help/release-notes/sp-release-notes.md#update-dynamic-media-viewers). NPR-24403: Hotfix for CQ-4247554
 *   Javascript error in browser console in column view on selecting an asset or folder. NPR-25939: Hotfix for CQ-4250228
-*    &lsqb;Column view &rsqb; Unable to identify tasks as the key file shows up as blank white entry. NPR-25903: Hotfix for CQ-4246307
+*    &lsqb;Column view&rsqb; Unable to identify tasks as the key file shows up as blank white entry. NPR-25903: Hotfix for CQ-4246307
 
 ### Sites {#sites-3}
 
 *   Query of `datasource` .jsp on AEM 6.2 is different from AEM 6.4. NPR-24968: Hotfix for CQ-4244235
-*    &lsqb;Classic UI &rsqb; Unable to add tags to pages. NPR-25255, NPR-25612: Hotfix for CQ-4249615
+*    &lsqb;Classic UI&rsqb; Unable to add tags to pages. NPR-25255, NPR-25612: Hotfix for CQ-4249615
 *   HTML Template Language Specification 1.4 features backported to AEM 6.4.2.0 NPR-24585
 *   Wrong inheritance on `local` component after copying a live copy page. NPR-25920: Hotfix for CQ-4236737, CQ-4248957
 *   ON/OFF time is stored in crx/de but doesn't fetch the same in page properties UI console. NPR-25154: Hotfix for CQ-4243431
@@ -623,13 +623,13 @@ Some of the key highlights of AEM 6.4.2.0 are:
 *   When defining a cq:tagName property in a cq:htmlTag node, the tag name is not considered if the component is included via JSP. NPR-24154: Hotfix for CQ-4244120
 *   For a nested parsys components, always the first (with least nested path) satisfying design is applied from multiple available components. For more information, see [Design Path Resolution](/help/sites-developing/page-templates-static.md). NPR-24973: Hotfix for CQ-4246276
 *   When pasting text into an RTE component, a pop-up dialog is displayed, but not rendered properly. NPR-24895: Hotfix for CQ-4245901
-*    &lsqb;RTE &rsqb; Performance issues with mandatory field indicator. NPR-24894: Hotfix for CQ-4241895
-*    &lsqb;Page component &rsqb; Adding a component to Parsys gets cropped off from right and comes out the device frame width. NPR-25536: Hotfix for CQ-4238224
+*    &lsqb;RTE&rsqb; Performance issues with mandatory field indicator. NPR-24894: Hotfix for CQ-4241895
+*    &lsqb;Page component&rsqb; Adding a component to Parsys gets cropped off from right and comes out the device frame width. NPR-25536: Hotfix for CQ-4238224
 *   Plaintext editor sends un-trimmed data and adds extra spaces. NPR-25312: Hotfix for CQ-4249006
 *   While opening the component using inlide mode, plugins loaded previously are not visible the second time. NPR-24610: Hotfix for CQ-4236850
 *   Loading an XF in editor view by copy/paste does not load the master variation automatically. NPR-24841: Hotfix for CQ-4248037
 *   Wrong HTML structure in siteadmin / damadmin breaks IE11. NPR-24686: Hotfix for CQ-4246363, CQ-4248402
-*    &lsqb;Manage Publication Wizard &rsqb; Calendar for activation date at Options step does not open after some actions at Scope step. NPR-25681: Hotfix for CQ-4250205
+*    &lsqb;Manage Publication Wizard&rsqb; Calendar for activation date at Options step does not open after some actions at Scope step. NPR-25681: Hotfix for CQ-4250205
 *   Classic UI does not work to edit CUG due to deprecation. NPR-25075: Hotfix for 4241823
 *   Create option unavailable to create experience fragments. NPR-26053: Hotfix for CQ-4249923
 *   XF variation is getting activated twice hence, generating duplicate IDs for the same item. NPR-24179: Hotfix for CQ-4245093
@@ -643,7 +643,7 @@ Some of the key highlights of AEM 6.4.2.0 are:
 *   Update EditableActions based on the columnClassNames relocation. Hotfix for CQ-4250781
 *   Expose resource and model paths using a single property and attribute. Hotfix for CQ-4251255
 *   Revert export.json API breaking changes. Hotfix for CQ-4251854
-*    &lsqb;Editable SPA &rsqb; Release candidate for 1.0.0. Hotfix for CQ-4251991
+*    &lsqb;Editable SPA&rsqb; Release candidate for 1.0.0. Hotfix for CQ-4251991
 *   Edit toolbar gets disabled for other components on editing any one component. Hotfix for CQ-4253270
 
 ### Integration {#integration-2}
@@ -653,7 +653,7 @@ Some of the key highlights of AEM 6.4.2.0 are:
 *   Add support for asynchronous deployment for hosted client libraries. NPR-25716: Hotfix for CQ-4245745
 *   Targeted component with missing corresponding offer renders the whole page and instead of an empty targeted component, another full rendition of the page is added. NPR-25273: Hotfix for CQ-4248003
 *   Target engine (mbox.js, at.js) does not use mangled URLs and uses URLs containing colons which might fail with certain deployments. NPR-25339: Hotfix for CQ-4237854
-*    &lsqb;Launch &rsqb; LibraryDownloadProcess stores wrong libraryUri value. NPR-25330: Hotfix for CQ-4250006
+*    &lsqb;Launch&rsqb; LibraryDownloadProcess stores wrong libraryUri value. NPR-25330: Hotfix for CQ-4250006
 
 ### Platform {#platform-3}
 
@@ -663,7 +663,7 @@ Some of the key highlights of AEM 6.4.2.0 are:
 *   Replication of delete event doesn't check for rights. NPR-25679: Hotfix for CQ-4241234
 *   Add STARTTLS support in "Day CQ Mail Service.” NPR-25611: Hotfix for CQ-4249924
 *   Proactive backport for granite.platform.login fixes to improve accessibility. NPR-25176: Hotfix for Granite 21746 and Granite-21309
-*    &lsqb;AEM 6.4 &rsqb; Error while re-building package and re-installing it. NPR-25173: Hotfix for CQ-4247939
+*    &lsqb;AEM 6.4&rsqb; Error while re-building package and re-installing it. NPR-25173: Hotfix for CQ-4247939
 *   Remove default MERGE\_PRESERVE aclHandling. NPR-24593: Hotfix for Granite-21889
 *   Content-Type is not propogated and missing in the response after applying the ContentDispositionFilter twice. NPR-24175: Hotfix for Sling-7525
 *   Package Manager status wrong after upgrade to AEM 6.4 branch. NPR-24551: Hotfix for Granite-21750
@@ -676,43 +676,43 @@ Some of the key highlights of AEM 6.4.2.0 are:
 
 ### MAC - Test & Target Integration {#mac-test-target-integration}
 
-*    &lsqb;Targeting &rsqb; Text component error during Targeting. Hotfix for CQ-4233343
+*    &lsqb;Targeting&rsqb; Text component error during Targeting. Hotfix for CQ-4233343
 
 ### Communities {#communities-4}
 
-*    &lsqb;File Library &rsqb; Downloading assets with blank spaces from causes format issues. NPR-24260: Hotfix for CQ-4245159
+*    &lsqb;File Library&rsqb; Downloading assets with blank spaces from causes format issues. NPR-24260: Hotfix for CQ-4245159
 *   Fixes to several Adobe Social issues. NPR-24247: Hotfix for CQ-4245054, CQ-4245120, CQ-4245296
 *   Infiinite scroll for members and groups console fail in case author publish run on different context paths. NPR-24437: Hotfix for CQ-4246013
 *   The post does not return to the unanswered state even on removing from the answered state and the score does not decrement. NPR-24419: Hotfix for CQ-4245797, CQ-4245932
 *   Events added using calendar functionality in communities outputs wrong values. NPR-24883: Hotfix for CQ-4244056
-*    &lsqb;Communities Forum &rsqb; Issues with Pagination click and Page load behavior. NPR-24880: Hotfix for CQ-4246109
-*    &lsqb;Chrome &rsqb; Timezone conversions fail on communities events. NPR-24881: Hotfix for CQ-4247115
+*    &lsqb;Communities Forum&rsqb; Issues with Pagination click and Page load behavior. NPR-24880: Hotfix for CQ-4246109
+*    &lsqb;Chrome&rsqb; Timezone conversions fail on communities events. NPR-24881: Hotfix for CQ-4247115
 *   Unable to render embedded object in Email. NPR-24999: Hotfix for CQ-4248022
 *   Automoderation sequence should be executed on UGC update in addition to UGC creation. NPR-25892: Hotfix for CQ-4251399
 *   Modal dialog responsiveness on Groups. NPR-25623: Hotfix for CQ-4248805
 *   Solr exception is thrown on content deletion. NPR-25869: Hotfix for CQ-4248908
 *   Paginated links to threads with lots of posts does not work on Notifications. NPR-25678: Hotfix for CQ-4243038
 *   Time values in search result display server time instead of the client's time zone. NPR-25594: Hotfix for CQ-4248986
-*    &lsqb;Forum comments &rsqb; Browser back button is not working as expected. NPR-25205: Hotfix for CQ-4248573
-*    &lsqb;Search results &rsqb; Browser back button is not working as expected. NPR-25214: Hotfix for CQ-4248574
+*    &lsqb;Forum comments&rsqb; Browser back button is not working as expected. NPR-25205: Hotfix for CQ-4248573
+*    &lsqb;Search results&rsqb; Browser back button is not working as expected. NPR-25214: Hotfix for CQ-4248574
 *   Null is returned when overlaying communitygroupmemberlist component. NPR-25228: Hotfix for CQ-4248523
-*    &lsqb;Communities Calendar &rsqb; ClassCastException is generated while saving the event with the new Cover image. NPR-25167: Hotfix for CQ-4248662
-*    &lsqb;Communities &rsqb; Messages getting truncated. NPR-25326
-*    &lsqb;AEM Publish &rsqb; Scorm Resource fails with context path and shows blank screen. NPR-26155: Hotfix for CQ-4251942
-*    &lsqb;MSRP &rsqb; The newly created calendar is saved partially throwing NPE in the error log. NPR-26071: Hotfix for CQ-4250531
+*    &lsqb;Communities Calendar&rsqb; ClassCastException is generated while saving the event with the new Cover image. NPR-25167: Hotfix for CQ-4248662
+*    &lsqb;Communities&rsqb; Messages getting truncated. NPR-25326
+*    &lsqb;AEM Publish&rsqb; Scorm Resource fails with context path and shows blank screen. NPR-26155: Hotfix for CQ-4251942
+*    &lsqb;MSRP&rsqb; The newly created calendar is saved partially throwing NPE in the error log. NPR-26071: Hotfix for CQ-4250531
 *   Forum/Topic pagination only gets updated when the page is refreshed. NPR-26070, NPR-25965: Hotfix for CQ-4249509
-*    &lsqb;Q&A Forum &rsqb; Unable to navigate to previous page on opening a direct link to a comment. NPR-26069: Hotfix for CQ-4251699
+*    &lsqb;Q&A Forum&rsqb; Unable to navigate to previous page on opening a direct link to a comment. NPR-26069: Hotfix for CQ-4251699
 *   Upload image in Create group does not work on mobile. NPR-26172: Hotfix for CQ-4251703
-*    &lsqb;Messaging &rsqb; When using DSRP, name of message receiver is always shown as "Unknown". NPR-26056: Hotfix for CQ-4251397
+*    &lsqb;Messaging&rsqb; When using DSRP, name of message receiver is always shown as "Unknown". NPR-26056: Hotfix for CQ-4251397
 *   Enablement Scorm Resource completion status label appears empty in UI. NPR-26034: Hotfix for CQ-4249994
 *   While creating a new community group, a duplicate community group is created on an active/active mongoMK cluster. NPR-26032: Hotfix for CQ-4245884
-*    &lsqb;Author &rsqb; Group creation wizard takes too long to load/create a group within the wizard. NPR-26031: Hotfix for CQ-4244966
+*    &lsqb;Author&rsqb; Group creation wizard takes too long to load/create a group within the wizard. NPR-26031: Hotfix for CQ-4244966
 *   Parsys disappears on adding an include statement in the hbs script. NPR-25908: Hotfix for CQ-4250489
 *   On enabling 'Allow privileged', the privileged members should only be able to compose for users who are community members. NPR-25877: Hotfix for CQ-4248450
 *   Deeplinks blocked for enablement. NPR-25966: Hotfix for CQ-4251478
 *   Forum pagination does not get updated dynamically on removal of replies. NPR-25970: Hotfix for CQ-4248975, CQ-4252843
 *   Auto Scroll and highlighting does not work on calendar and filelib events in case of nested comments. NPR-25958: Hotfix for CQ-4251471
-*    &lsqb;DSRP &rsqb; Direct/Deep Link performance degrading with high amounts of User Generated Content. NPR-25957: Hotfix for CQ-4251470
+*    &lsqb;DSRP&rsqb; Direct/Deep Link performance degrading with high amounts of User Generated Content. NPR-25957: Hotfix for CQ-4251470
 *   Unable to modify the properties of Allow Privileged Members and Privileged members. NPR-26014: Hotfix for CQ-4244592
 *   Mark all as read resets the notification counters for all community pages. NPR-25931: Hotfix for CQ-4248612
 *   Edit ITs failing for DSRP. NPR-25929: Hotfix for CQ-4251382
@@ -724,13 +724,13 @@ Some of the key highlights of AEM 6.4.2.0 are:
 *   Enablement Resources are not visible on author. Hotfix for CQ-4252618
 *   Notifications do not get generated for thread from unknown user. Hotfix for CQ-4245132
 *   Group search does not appear on left rail. Hotfix for CQ-4252621
-*    &lsqb;Author &rsqb; Pagination is not working for Groups Console. Hotfix for CQ-4242786
+*    &lsqb;Author&rsqb; Pagination is not working for Groups Console. Hotfix for CQ-4242786
 *   jQuery UI upgrade. Hotfix for CQ-4248894
 *   Upgrade to latest SCORM 2017.1 version. NPR-25675: Hotfix for CQ-4240671
 *   The "Compose on Behalf" fields is visible to non-community users. NPR-25331: Hotfix for CQ-4247858
 *   Post is still visible on UI even after deletion and gives error on console. NPR-26290: Hotfix for CQ-4252803
-*    &lsqb;Site settings &rsqb; Umable to save changes done to Roles. NPR-26274: Hotfix for CQ-4252187
-*    &lsqb;Security Vulnerability &rsqb; Account Takeover due to JSON Web Token Misconfiguration. NPR-26458: Hotfix for CQ-4253314
+*    &lsqb;Site settings&rsqb; Umable to save changes done to Roles. NPR-26274: Hotfix for CQ-4252187
+*    &lsqb;Security Vulnerability&rsqb; Account Takeover due to JSON Web Token Misconfiguration. NPR-26458: Hotfix for CQ-4253314
 *   Pagination is not reset upon removal of replies. NPR-26326: Hotfix for CQ-4252997
 *   Attachment image is not displayed in Drafts while editing. Hotfix for CQ-4253360
 *   Page is not refreshing while attaching attachment in Relational Database (DSRP). Hotfix for CQ-4253084
@@ -753,12 +753,12 @@ Some of the key highlights of AEM 6.4.2.0 are:
 ### UI - Foundation {#ui-foundation-5}
 
 *   Proactive Foundation UI Backports. NPR-24344, NPR-24345, NPR-25176, NPR-25095, NPR-24332, NPR-25653, NPR-25932, NPR-25935, NPR-25976
-*    &lsqb;Design Importer &rsqb; Importing a page does not import the js, `css` . NPR-25203: Hotfix for Granite-22236
+*    &lsqb;Design Importer&rsqb; Importing a page does not import the js, `css` . NPR-25203: Hotfix for Granite-22236
 *   Proactive Foundation UI Backports to improve the stability of the product. NPR-24334
 
 ### MAC - Test & Target Integration {mac-ui-tt-integration}
 
-*   Second page of PersonalizationWizard ( launched by "Start Targeting" ) is blank and throws console errors. Hotfix for CQ-4253277
+*   Second page of PersonalizationWizard (launched by "Start Targeting") is blank and throws console errors. Hotfix for CQ-4253277
 
 ### Experience Fragments {#experience-fragments}
 
@@ -792,22 +792,22 @@ Some of the key highlights of AEM 6.4.2.0 are:
 ### DAM - DMClient {#dam-dmclient-new}
 
 *   When publishing a video asset to YouTube, the tags that result in YouTube include the tag's full path. Hotfix for CQ-4245549
-*    &lsqb;Opt-out and Opt-In upgrades &rsqb; Issue with Viewer CSS redirect. Hotfix for CQ-4247854
+*    &lsqb;Opt-out and Opt-In upgrades&rsqb; Issue with Viewer CSS redirect. Hotfix for CQ-4247854
 *   Unable to create/edit viewer preset as non-member of 'administrators' group. Hotfix for CQ-4247618
-*    &lsqb;6.4.1.0 &rsqb; Adding multiple videos in multiple parsys breaks the video player. Hotfix for CQ-4248517
+*    &lsqb;6.4.1.0&rsqb; Adding multiple videos in multiple parsys breaks the video player. Hotfix for CQ-4248517
 *   Renaming & moving asset within an Image Set renders editing impossible. Hotfix for CQ-4248434
 *   Publish large videos to YouTube throws time out messages. Hotfix for CQ-4237831
-*    &lsqb;List View &rsqb; The Asset Picker/Selector's user interface changes to all gray and is disabled for the user. Hotfix for CQ-4237817
-*    &lsqb;Vertical Zoom &rsqb; Css fails to load with a 404 error. Hotfix for CQ-4236508
+*    &lsqb;List View&rsqb; The Asset Picker/Selector's user interface changes to all gray and is disabled for the user. Hotfix for CQ-4237817
+*    &lsqb;Vertical Zoom&rsqb; Css fails to load with a 404 error. Hotfix for CQ-4236508
 *   Trying to download an asset with percent (%) character in the asset name results in an empty archive. Hotfix for CQ-4250558
-*    &lsqb;Card View &rsqb; No processing indicator is displayed when using Copy and Paste on a Video Asset. Hotfix for CQ-4249037
-*    &lsqb;Upgrade from 6.3.2 to 6.4 &rsqb; Pre-Upgrade Image Presets are shown as "Unpublished" on Renditions page but do not yield URL button when selected. Hotfix for CQ-4240406
+*    &lsqb;Card View&rsqb; No processing indicator is displayed when using Copy and Paste on a Video Asset. Hotfix for CQ-4249037
+*    &lsqb;Upgrade from 6.3.2 to 6.4&rsqb; Pre-Upgrade Image Presets are shown as "Unpublished" on Renditions page but do not yield URL button when selected. Hotfix for CQ-4240406
 *   Technical Debt/Minor Enhancements. Hotfix for CQ-4240648
 *   The Asset Selector (or Asset Picker) does not show all Assets from the folders available. Hotfix for CQ-4218414
 *   Image Preset with no height displays images with incorrect size. Hotfix for CQ-4246546
-*    &lsqb;Multi Page Assets &rsqb; UI breaks on clicking on annotations. Hotfix for CQ-4251434
+*    &lsqb;Multi Page Assets&rsqb; UI breaks on clicking on annotations. Hotfix for CQ-4251434
 *   Upgrading from 6.3 to 6.4 and later the Analytics preset, a new report suite and analytics preset is created losing the user's older reporting data. Hotfix for CQ-4244529
-*    &lsqb;Manage Publication Wizard &rsqb; List of Assets appear to be empty when trying to publish or unpublish. Hotfix for CQ-4251881
+*    &lsqb;Manage Publication Wizard&rsqb; List of Assets appear to be empty when trying to publish or unpublish. Hotfix for CQ-4251881
 *   When choosing Viewers after viewing the Set Members, AVS videos fail to playback. Hotfix for CQ-4205308
 *   Pre-Upgrade Video Processing Presets cannot have a new Video Encoding Preset added nor edit the existing Encoding Preset(s). Hotfix for CQ-4240407
 *   Image presets are not applied to downloaded dynamic renditions. Hotfix for CQ-4249862
@@ -837,7 +837,6 @@ The key highlights for AEM 6.4.2.0 forms are:
 *   Removed the unsupported timestamp pattern from the datepicker dropdown.
 *   Added support for underlaying xfaf and pdf in OSGI.
 *   Added support to use the [transaction reports capability](/help/forms/using/transaction-reports-overview.md) at on-premise deployments.  
-    
 *   Added code to not display child var in condition rule editor.
 
 ### Forms add-on package {#forms-addon-pckg}
@@ -850,7 +849,7 @@ The key highlights for AEM 6.4.2.0 forms are:
 
 #### Forms - Workflow {#forms-workflow-new}
 
-*    &lsqb;HTML Workspace &rsqb; When a user claims a task, count of queue is refreshed for that particular user but not for other users unless the page is refreshed. This issue has been fixed by a new property. To configure this new property to your AEM instance, refer to [Configuration Settings](/help/release-notes/sp-release-notes.md#configuration-settings-required-for-npr). NPR-24536: Hotfix for CQ-4233665
+*    &lsqb;HTML Workspace&rsqb; When a user claims a task, count of queue is refreshed for that particular user but not for other users unless the page is refreshed. This issue has been fixed by a new property. To configure this new property to your AEM instance, refer to [Configuration Settings](/help/release-notes/sp-release-notes.md#configuration-settings-required-for-npr). NPR-24536: Hotfix for CQ-4233665
 *   Unable to load large form in the AEM Forms App on 6.4. NPR-24463: Hotfix for CQ-4245091
 *   Issue in Mobile Workspace App when trying to view the shared task. NPR-25177: Hotfix for CQ-4248733
 *   Inconsistent validation Behavior between Web and APK. NPR-25670: Hotfix for CQ-4248178
@@ -859,14 +858,14 @@ The key highlights for AEM 6.4.2.0 forms are:
 
 #### Mobile Forms {#mobile-forms-two}
 
-*    &lsqb;Formset &rsqb; SSN and Mobile field validation issue when previewed. NPR-24458: Hotfix for CQ-4244983
+*    &lsqb;Formset&rsqb; SSN and Mobile field validation issue when previewed. NPR-24458: Hotfix for CQ-4244983
 *   Data is not shown with prefilling of multi-line fields in HTML preview. NPR-24549: Hotfix for CQ-4244212
 *   Data gets lost when the script is evaluated on a multi-line field. NPR-25333, Hotfix for CQ-4249610
 
 #### Forms - Interactive Communication & Correspondence Management {#forms-iccm}
 
 *   Sync fails on IC with Basic Template and Reference IC Print Template. NPR-24912
-*    &lsqb;CCR &rsqb; Validators don't work for fields/variables. Hotfix for CQ-4245047
+*    &lsqb;CCR&rsqb; Validators don't work for fields/variables. Hotfix for CQ-4245047
 *   Data Model Object icon disappears on Text Edit toolbar intermittently. Hotfix for CQ-4245122
 *   Exception logs appear on copied IC if original IC is deleted. Hotfix for CQ-4249378
 *   In the letter rendition, the condition does not evaluate to true even when the data is correct. Hotfix for CQ-4245944
@@ -876,26 +875,26 @@ The key highlights for AEM 6.4.2.0 forms are:
 *   Unable to update properties of Condition module. Hotfix for CQ-4247909
 *   UX of "Cancel Inheritance" dialog when user re-arranges an Object in Web Channel needs to be improved. Hotfix for CQ-4241076
 *   Data in the letter corresponding to bindings defined in XDP is not populated on using direct letter URL. Hotfix for CQ-4245833
-*    &lsqb;Caching issue &rsqb; Synchronization of web channel does not reflect changes made to layout fragments, Text fragment of print channel. Hotfix for CQ-4251460
+*    &lsqb;Caching issue&rsqb; Synchronization of web channel does not reflect changes made to layout fragments, Text fragment of print channel. Hotfix for CQ-4251460
 *   Unable to update Layout fargment and DD properties. Hotfix for CQ-4247830
-*    &lsqb;CCR &rsqb; Draft reloading is failing due to XML parsing. Hotfix for CQ-4250950
-*    &lsqb;IC Editor &rsqb; "Edit Fragment" button should be more discoverable. Hotfix for CQ-4244694
-*    &lsqb;XDP &rsqb; A blank screen is displayed on adding a layout fragment in the new created subform. Hotfix for CQ-4248810
+*    &lsqb;CCR&rsqb; Draft reloading is failing due to XML parsing. Hotfix for CQ-4250950
+*    &lsqb;IC Editor&rsqb; "Edit Fragment" button should be more discoverable. Hotfix for CQ-4244694
+*    &lsqb;XDP&rsqb; A blank screen is displayed on adding a layout fragment in the new created subform. Hotfix for CQ-4248810
 *   DocumentFragment-master-DeployWithServerSideTests test failure. Hotfix for CQ-4245496
 *   Text module variable Instance duplicated in Condition module. Hotfix for CQ-4252128
 *   PDF preview URL do not show transaction reporting on publish. Hotfix for CQ-4246158
 *   IC Sync related issues with Print Channel to Web Channel Syncing. Hotfix for CQ-4251505
 *   EXM Code clean up: Remove LocalFunctionMapper. Hotfix for CQ-4243265
 *   To correct the resource type of TableHeader of IC's webChannel table component. Hotfix for CQ-4251821
-*    &lsqb;IC Editor &rsqb; Usability issues. Hotfix for CQ-4241081
+*    &lsqb;IC Editor&rsqb; Usability issues. Hotfix for CQ-4241081
 *   Print channel subform does not show insert functionality. Hotfix for CQ-4252994
 *   Keep changes sync fails post removing FDM node or Variable placeholder. Hotfix for CQ-4253178
-*    &lsqb;Template Editor &rsqb; Basic template shows header / footer additional drag drop areas and the screen flickers on opening Web Channel. Hotfix for CQ-4253323
+*    &lsqb;Template Editor&rsqb; Basic template shows header / footer additional drag drop areas and the screen flickers on opening Web Channel. Hotfix for CQ-4253323
 *   Auto-generated components do not get highlighted on selecting from the Content tree. Hotfix for CQ-4246178
 
 #### Document Services {#doc-services-one}
 
-*    &lsqb;Form Service &rsqb; OSGI lacks support for XFAF. NPR-25181, Hotfix for CQ-4251313
+*    &lsqb;Form Service&rsqb; OSGI lacks support for XFAF. NPR-25181, Hotfix for CQ-4251313
 *   The characters in the heading of the assembled PDF file are coming to be garbled. NPR-25113: Hotfix for CQ-4244682
 
 #### Adaptive Forms {#adaptive-forms-two}
@@ -903,13 +902,13 @@ The key highlights for AEM 6.4.2.0 forms are:
 *   Submit Action as Send Mail throws an exception with CC/BC fields blank. NPR-25019: Hotfix for CQ-4243039
 *   Unable to use the OOTB AEM Form component due to inefficient query. NPR-25065: Hotfix for CQ-4247256
 *   Remove sling:orderBefore from dialog nodes of guideImageChoiceComponent. Hotfix for CQ-4245013
-*    &lsqb;Date Picker &rsqb; Edit Pattern does not support two types of timestamp pattern. Hotfix for CQ-4237982
+*    &lsqb;Date Picker&rsqb; Edit Pattern does not support two types of timestamp pattern. Hotfix for CQ-4237982
 *   Submit Action using 'Forms Workflow' Classic authoring issues. Hotfix for CQ-4236981
-*    &lsqb;Web Channel &rsqb; IC Chart should inherit colspan property from AF chart. Hotfix for CQ-4252143
+*    &lsqb;Web Channel&rsqb; IC Chart should inherit colspan property from AF chart. Hotfix for CQ-4252143
 
 #### Backend Integration {#back-int}
 
-*    &lsqb;SOAP requests &rsqb; Big decimals (more than 6 digits) are represented in exponential notation resulting in validation error. NPR-25283: Hotfix for CQ-4248100
+*    &lsqb;SOAP requests&rsqb; Big decimals (more than 6 digits) are represented in exponential notation resulting in validation error. NPR-25283: Hotfix for CQ-4248100
 *   Incorrect validation of optional parameters defined in complex types. NPR-25070: Hotfix for CQ-4247107
 *   Added capability for the user to use the same WSDL file for multiple service. NPR-24604, Hotfix for CQ-4247756
 *   FDM shuffles order of parameters in its SOAP calls. NPR-25069, Hotfix for CQ-4247180
@@ -970,7 +969,7 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 
 *   The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.3.
 *   Introduced Enhanced Smart Tags.
-*   Fixes in Design picker, Tag picker(change the source VM and target VM to auto.**)**
+*   Fixes in Design picker, Tag picker(change the source VM and target VM to auto.)
 *   Added support for typeHint to save values as string.
 *   Added support for SMTP over TLS in Mail Service
 *   Proxy handling fix for HTTP forwarder in DMS7.
@@ -991,7 +990,7 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 *   Shared links on mylinkshare page and links to the page are not available for non-admin user NPR-23044: Hotfix for CQ-4239004
 *   To prevent a Null Pointer Exception in the DAM Asset Update workflow in 6.4.0. NPR-24134: Hotfix for CQ-4244972
 *   Published WCM page shows placeholder icons for hotspot, missing CSS files with 403 error for OOTB Viewers. NPR-23041: Hotfix for CQ-4233716
-*    &lsqb;Detail View &rsqb; The Next/Back Navigation feature leaves a DIV overlay in Dynamic Rendition preview area blocking access to the viewer. NPR-23043: Hotfix for CQ-4238499
+*    &lsqb;Detail View&rsqb; The Next/Back Navigation feature leaves a DIV overlay in Dynamic Rendition preview area blocking access to the viewer. NPR-23043: Hotfix for CQ-4238499
 *   CMYK image rendition has incorrect saturation. NPR-23048: Hotfix for CQ-4235470
 *   XMP metadata extraction by Scene7ListInfoProvider is resource intensive. NPR-23754
 *   Http forwarder does not respect HTTP proxy settings. NPR-24002: Hotfix for CQ-4244140
@@ -1020,14 +1019,14 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 
 ### User Interface {#user-interface-9}
 
-*    &lsqb;Coral3 Datepicker &rsqb; Add support for typeHint to save values as "String." NPR-23398: Hotfix for Granite-21194
+*    &lsqb;Coral3 Datepicker&rsqb; Add support for typeHint to save values as "String." NPR-23398: Hotfix for Granite-21194
 *   Internationalization translation does not work at the language level. NPR-22967, NPR-23046: Hotfix for Granite-21111
 *   Proactive Backport for granite.ui.commons fixes. NPR-23537
 *   Proactive Backport for granite.ui.content fixes. NPR-23535
 *   Proactive Backport for granite.ui.coralui fixes. NPR-23538
 *   Unable to remove multiple users from the group at once. NPR-23846
-*    &lsqb;OMEGA &rsqb; Report "Feature" in english only. NPR-23989: Hotfix for Granite-21231
-*    &lsqb;Design Importer &rsqb; Importing a page does not import the js, css. NPR-25203: Hotfix for Granite-22236
+*    &lsqb;OMEGA&rsqb; Report "Feature" in english only. NPR-23989: Hotfix for Granite-21231
+*    &lsqb;Design Importer&rsqb; Importing a page does not import the js, css. NPR-25203: Hotfix for Granite-22236
 
 ### Integration {#integration-9}
 
@@ -1035,21 +1034,21 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 *   TargetContentImpl makes AEM sluggish during long running queries. NPR-22359: Hotfix for CQ-4236907
 *   Target engine (mbox.js, at.js) does not use mangled URLs and uses URLs containing colons which might fail with certain deployments. NPR-22434: Hotfix for CQ-4237854
 *   In Target mode, Authors can modify a component inherited from the blueprint without cancelling the inheritance. NPR-22865: Hotfix for CQ-4237907
-*    &lsqb;Personalization &rsqb; Icons are deformed when switching to Card view. NPR-23373, NPR-23374: Hotfix for CQ-4240018, CQ-4240019
-*    &lsqb;Personalization &rsqb; Audience console does not show nt:folder types. NPR-23375: Hotfix for CQ-4242293
+*    &lsqb;Personalization&rsqb; Icons are deformed when switching to Card view. NPR-23373, NPR-23374: Hotfix for CQ-4240018, CQ-4240019
+*    &lsqb;Personalization&rsqb; Audience console does not show nt:folder types. NPR-23375: Hotfix for CQ-4242293
 *   When a component is targeted on publish instance, flickering appears showing the default experience before the targeted one. NPR-23415: Hotfix for CQ-4242038
-*    &lsqb;Adobe IMS Console &rsqb; AccessTokenProvider OSGi service configuration reappears after deletion. NPR-23520: Hotfix for CQ-4208250
+*    &lsqb;Adobe IMS Console&rsqb; AccessTokenProvider OSGi service configuration reappears after deletion. NPR-23520: Hotfix for CQ-4208250
 *   Configuration reference replication fails with intermediate folder structure. NPR-23485: Hotfix for CQ-4242751
-*    &lsqb;Personalization &rsqb; clientlib blocked by the proxy servlet. NPR-23521: Hotfix for CQ-4240995
-*    &lsqb;Adobe IMS Console &rsqb; Registered Cloud Solutions do not get picked up in configuration wizard. NPR-23977: Hotfix for CQ-4244549
+*    &lsqb;Personalization&rsqb; clientlib blocked by the proxy servlet. NPR-23521: Hotfix for CQ-4240995
+*    &lsqb;Adobe IMS Console&rsqb; Registered Cloud Solutions do not get picked up in configuration wizard. NPR-23977: Hotfix for CQ-4244549
 *   Infinite loop when loading targeted content on pages without an HTML extension. NPR-23522: Hotfix for CQ-4223600
 *   Activation fails for a page with inherited Dynamic Tag Management configuration references. NPR-23485: Hotfix for CQ-4242751
 
 ### Platform {#platform-9}
 
-*    &lsqb;Classic UI &rsqb; &lsqb;Touch UI &rsqb; The tag picker does not display and throws an exception when trying to browse for tags via a tags predicate in the Asset Search schema. NPR-23049: Hotfix for CQ-4239371
-*    &lsqb;Classic UI &rsqb; Components using xtype=tags return null and cannot be selected from eth list of tags. NPR-23050: Hotfix for CQ-4239937
-*    &lsqb;Branding &rsqb; Opt-in dialog mentions Adobe Marketing Cloud instead of Adobe Experience Cloud. NPR-23210: Hotfix for CQ-4237799
+*    &lsqb;Classic UI&rsqb; &lsqb;Touch UI&rsqb; The tag picker does not display and throws an exception when trying to browse for tags via a tags predicate in the Asset Search schema. NPR-23049: Hotfix for CQ-4239371
+*    &lsqb;Classic UI&rsqb; Components using xtype=tags return null and cannot be selected from eth list of tags. NPR-23050: Hotfix for CQ-4239937
+*    &lsqb;Branding&rsqb; Opt-in dialog mentions Adobe Marketing Cloud instead of Adobe Experience Cloud. NPR-23210: Hotfix for CQ-4237799
 *   Filter option makes AEM sluggish after upgrading from 6.3 to 6.4. NPR-23260: Hotfix for CQ-4239847 (to check)
 *   Proactive Backport for granite.omnisearch.core fixes. NPR-23536
 *   Proactive Backport for platform.clientlibs fixes. NPR-23569
@@ -1058,7 +1057,7 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 
 ### Projects {#projects-9}
 
-*    &lsqb;Content Fragment &rsqb; Language copy for embedded asset is not created while English asset is added to translation. Hotfix for CQ-4243477
+*    &lsqb;Content Fragment&rsqb; Language copy for embedded asset is not created while English asset is added to translation. Hotfix for CQ-4243477
 *   The msft config dropdown is showing config from /libs(6.4 configs) instead of from /etc(6.3 configs) in legacy mode. Hotfix for CQ-4243475
 *   Automatically promote and delete translation launches in Translation projects. Hotfix for CQ-4243474
 *   Content fragment inside sites not getting translated. Hotfix for CQ-4243482, CQ-4243483, CQ-4245687
@@ -1081,11 +1080,11 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 *   Workflow Process step does not display scripts from /etc/workflow/scripts. NPR-23263: Hotfix for Granite-20775
 *   Workflow Dynamic Participant Step does not display scripts from /apps/workflow/scripts. NPR-23464: Hotfix for Granite-21276
 *   Unable to edit any workflow after editing it once. NPR-23742: Hotfix for CQ-4238526
-*    &lsqb;Classic UI &rsqb; Upon editing the workflow launchers, the conditions disappear causing the workflows to launch without any conditions. NPR-23835: Hotfix for CQ-4239153
+*    &lsqb;Classic UI&rsqb; Upon editing the workflow launchers, the conditions disappear causing the workflows to launch without any conditions. NPR-23835: Hotfix for CQ-4239153
 *   Project inbox: switching to calendar view shows main inbox content. NPR-23947: Hotfix for CQ-4241236
 *   Need to expose payload details in the bundle so the HTL component can display the value in the list view. NPR-23948: Hotfix for CQ-4240953
 *   Unable to store dialog data in Dialog Participant step. NPR-23965: Hotfix for CQ-4234123
-*    &lsqb;Touch UI &rsqb; When saving a workflow model, the 'Sync' button changes to 'Synched' resulting to spelling mistake. Hotfix for CQ-4244843
+*    &lsqb;Touch UI&rsqb; When saving a workflow model, the 'Sync' button changes to 'Synched' resulting to spelling mistake. Hotfix for CQ-4244843
 *   Project inbox: switching to calendar view shows main inbox content. Hotfix for CQ-4244436
 *   Unable to select Dialogs in Dialog Participant step. Hotfix for CQ-4244532
 *   Proactive Backport for granite.omnisearch.core fixes. NPR-23536
@@ -1093,12 +1092,12 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 
 ### WCM - Translation {#wcm-translation}
 
-*    &lsqb;Reference Panel &rsqb; Translation jobs are not getting executed during project creation. Hotfix for CQ-4245327
+*    &lsqb;Reference Panel&rsqb; Translation jobs are not getting executed during project creation. Hotfix for CQ-4245327
 
 ### WCM - MSM {#wcm-msm}
 
-*    &lsqb;MSM &rsqb; Rollout performance improvement. Hotfix for CQ-4231488
-*    &lsqb;MSM &rsqb; Timing gap in Event Listening between event actually happening and event handling. Hotfix for CQ-4227766
+*    &lsqb;MSM&rsqb; Rollout performance improvement. Hotfix for CQ-4231488
+*    &lsqb;MSM&rsqb; Timing gap in Event Listening between event actually happening and event handling. Hotfix for CQ-4227766
 
 ### Screens {#screens}
 
@@ -1106,7 +1105,7 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 
 ### Projects - Translation {#projects-translation-1}
 
-*    &lsqb;Content Fragment &rsqb; Language copy for embedded asset is not created while English asset is added to translation. Hotfix for CQ-4243477
+*    &lsqb;Content Fragment&rsqb; Language copy for embedded asset is not created while English asset is added to translation. Hotfix for CQ-4243477
 *   The msft config dropdown is showing config from /libs(6.4 configs) instead of from /etc(6.3 configs) in legacy mode. Hotfix for CQ-4243475
 *   Automatically promote and delete translation launches in Translation projects. Hotfix for CQ-4243474
 *   Content fragment inside sites not getting translated. Hotfix for CQ-4243482, CQ-4243483, CQ-4245687
@@ -1120,7 +1119,7 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 ### DAM - General {#dam-general-2}
 
 *   Closing the detail view of an asset returns to incorrect search result page. Hotfix for CQ-4240960
-*    &lsqb;Camera Raw &rsqb; Image adjust option is missing. Hotfix for CQ-4246121
+*    &lsqb;Camera Raw&rsqb; Image adjust option is missing. Hotfix for CQ-4246121
 *   IndexOutOfBoundsException: OOTB Asset Modification report. Hotfix for CQ-4239744
 *   Remove confidence score from report csv. Hotfix for CQ-4241491
 *   Link share email delivery broken for non "admin" sender. Hotfix for CQ-4240357
@@ -1139,46 +1138,46 @@ AEM 6.4.1.0 can be installed on AEM 6.4 GA. Some of the key highlights of the se
 
 *   Upgrading to 6.4 removes previously created video encoding profiles. Hotfix for CQ-4244067
 *   Alt Text attribute is broken in Dynamic Media component. Hotfix for CQ-4244081
-*    &lsqb;DMS7 &rsqb; Editing remote sets in AEM are not overwritten in Scene7. Hotfix for CQ-4243430
+*    &lsqb;DMS7&rsqb; Editing remote sets in AEM are not overwritten in Scene7. Hotfix for CQ-4243430
 *   Verification of 6.4 SP1 build on DM Hybrid. Hotfix for CQ-4244623
-*    &lsqb;DMS7-UA &rsqb; When clicking the Embed button for a published Video Asset, nothing appears to happen. The Embed dialog is expected to display with HTML code. Hotfix for CQ-4245237
-*    &lsqb;DM Hybrid &rsqb; Copy URL for published Video Assets or Mixed Media Sets gets “ &lsqb; &lsqb;object Object &rsqb;” in the URL dialog. Hotfix for CQ-4245236, CQ-4245451
-*    &lsqb;DMHybrid &rsqb; &lsqb;REGR &rsqb; Video's Details View page does not contain the preview of the Video Asset show and outputs an error message to the console. Hotfix for CQ-4244320
+*    &lsqb;DMS7-UA&rsqb; When clicking the Embed button for a published Video Asset, nothing appears to happen. The Embed dialog is expected to display with HTML code. Hotfix for CQ-4245237
+*    &lsqb;DM Hybrid&rsqb; Copy URL for published Video Assets or Mixed Media Sets gets “ &lsqb; &lsqb;object Object&rsqb;” in the URL dialog. Hotfix for CQ-4245236, CQ-4245451
+*    &lsqb;DMHybrid&rsqb; &lsqb;REGR&rsqb; Video's Details View page does not contain the preview of the Video Asset show and outputs an error message to the console. Hotfix for CQ-4244320
 *   Automatic S7 Encoding of we.retail content. Hotfix for CQ-4242253
 *   Pre-Upgrade Video Processing Presets cannot have a new Video Encoding Preset added nor edit the existing Encoding Presets. Hotfix for CQ-4240407
 *   Pre-Upgrade Image Presets are shown as Unpublished on Renditions page and does not yield URL. Hotfix for CQ-4240406
-*    &lsqb;CSS &rsqb; Assets are shown - but viewers used are default and not the OOTB Viewers. Hotfix for CQ-4239839
+*    &lsqb;CSS&rsqb; Assets are shown - but viewers used are default and not the OOTB Viewers. Hotfix for CQ-4239839
 *   Disabled clean up step hang manual execution & used of private coral classes. Hotfix for CQ-4239729
 *   Image viewer is generating an error and fails to display the correct smart crop. Hotfix for CQ-4237564
 *   Legacy preset under /etc appears to be broken and not migrated to location under /conf upon save. Hotfix for CQ-4237416
 *   Regression in OOB VideoViewer 5.8.x - the viewer expands iframe to the right, hence breaking page layout. Hotfix for CQ-4235465
-*    &lsqb;DMS7 &rsqb; Smart Crop rendition URL and Embed buttons are active for images that have not been published. Hotfix for CQ-4233696
-*    &lsqb;DMHybrid &rsqb; Restore previous crop/rotate feature. Hotfix for CQ-4239489
+*    &lsqb;DMS7&rsqb; Smart Crop rendition URL and Embed buttons are active for images that have not been published. Hotfix for CQ-4233696
+*    &lsqb;DMHybrid&rsqb; Restore previous crop/rotate feature. Hotfix for CQ-4239489
 *   When previewing a video in card view, the play button does not toggle to pause. Hotfix for CQ-4238592
 *   When performing an Opt-In upgrade, the YouTube configuration is not moved/copied from its old location to the new location. Hotfix for CQ-4238590
 *   DropTwo OOTB AVS Video Processing Profiles are listed under Folder properties and only one contains defined encodings. Hotfix for CQ-4238096
-*    &lsqb;DMS7 &rsqb; Smart Crop: Detail View: URL button is labeled Copy button for renditons. Hotfix for CQ-4237804
+*    &lsqb;DMS7&rsqb; Smart Crop: Detail View: URL button is labeled Copy button for renditons. Hotfix for CQ-4237804
 *   Viewer Preset listing page remains blank even after executing the curl commands. Hotfix for CQ-4243246
 *   Disabled clean up step hang manual execution & use of private coral classes. Hotfix for CQ-4239729
 *   Video Report Details page does not show video asset. Hotfix for CQ-4246208
 
 ### DAM - DMServices {#dam-dmservices-1}
 
-*    &lsqb;DMS7 &rsqb; Cloud Configuration: Unable to sync new content with Scene7 after updating to SP1. Hotfix for CQ-4244437
-*    &lsqb;DMHybrid &rsqb; Color profiles and catalog settings are not registering in a debug\_info=catalog call. Hotfix for CQ-4242346
+*    &lsqb;DMS7&rsqb; Cloud Configuration: Unable to sync new content with Scene7 after updating to SP1. Hotfix for CQ-4244437
+*    &lsqb;DMHybrid&rsqb; Color profiles and catalog settings are not registering in a debug\_info=catalog call. Hotfix for CQ-4242346
 *   Add color profiles to the customer settings on delivery servers. Hotfix for CQ-4241818, CQ-4241819
-*    &lsqb;DMHybrid &rsqb; &lsqb;0dt &rsqb; After 6.3 &gt; 6.4 upgrade, catalog settings are moved to the incorrect node. Hotfix for CQ-4239974, CQ-4239975
-*    &lsqb;DMHybrid &rsqb; pushviewerpresets script does not create the nodes needed to modify catalog settings. Hotfix for CQ-4240076
+*    &lsqb;DMHybrid&rsqb; &lsqb;0dt&rsqb; After 6.3 &gt; 6.4 upgrade, catalog settings are moved to the incorrect node. Hotfix for CQ-4239974, CQ-4239975
+*    &lsqb;DMHybrid&rsqb; pushviewerpresets script does not create the nodes needed to modify catalog settings. Hotfix for CQ-4240076
 *   When using the “Format” drop-down selection and selecting either PNG or JPG formats, the downloaded file is shown as oversaturated and darker than the original asset. Hotfix for CQ-4240073
-*    &lsqb;DMS7 &rsqb; Remove the MIME Type mapping: image\_x-eps. Hotfix for CQ-4240394
-*    &lsqb;DMS7 &rsqb; Upload parameters for knockout background do not pass the ipsApiService.log and hence, do not work. Hotfix for CQ-4240686
+*    &lsqb;DMS7&rsqb; Remove the MIME Type mapping: image\_x-eps. Hotfix for CQ-4240394
+*    &lsqb;DMS7&rsqb; Upload parameters for knockout background do not pass the ipsApiService.log and hence, do not work. Hotfix for CQ-4240686
 *   Upgrading Image Processing Profiles created in a 6.3 to 6.4 instance breaks the “Crop-type” property. Hotfix for CQ-4237739
-*    &lsqb;Dynamic Media &rsqb; Regular Asset upload outside the smartcrop folder fails. Hotfix for CQ-4237670
+*    &lsqb;Dynamic Media&rsqb; Regular Asset upload outside the smartcrop folder fails. Hotfix for CQ-4237670
 *   Adjust profile fallback code for "Adaptive Video Encoding" profile name to "Adaptive\_Video\_Encoding". Hotfix for CQ-4237666
 *   EmbedXMP data is always set to “active” for Ptiff generation process. Hotfix for CQ-4234498
 *   CMYK image rendition has incorrect saturation. Hotfix for CQ-4235470
 *   Image Server settings are not replicated to delivery while the replication logs mark them successful. Hotfix for CQ-4239480, CQ-4239046
-*    &lsqb;DMS7 &rsqb; Unable to create sets using old/new references to Cloud Configuration. Hotfix for CQ-4238078
+*    &lsqb;DMS7&rsqb; Unable to create sets using old/new references to Cloud Configuration. Hotfix for CQ-4238078
 *   Scene7 workflow step only reads Scene7 in the name and the description but does not clarify the workflow step in DAM Update workflow. Hotfix for CQ-4237865
 
 ### DAM - Smart Tags {#dam-smart-tags}
@@ -1192,7 +1191,6 @@ AEM Forms fixes are delivered through add-on packages and other patch installers
 The key highlights for AEM Forms are:
 
 *   AEM Forms introduces [transaction reports capability](/help/forms/using/transaction-reports-overview.md) to track and keep count of transactions like submitted forms, processed documents, and rendered documents on your AEM Forms deployment. It provides insights about product usage and helps business users understand digital processing volumes.  
-    
 *   Enabled PDF/UA support to XML forms.
 *   Added allowProxy = true for Clientlib **aemfd.ccm.channel.contentpage**
 *   Updated code to make advanced title search as contains rather than equal.
@@ -1211,7 +1209,7 @@ The key highlights for AEM Forms are:
 *   Enhanced input in Web Services Description Language (WSDL). Hotfix for CQ-4244133
 *   Basic authentication testing for WSDL results in different error for same configuration in AEM 6.3 and AEM 6.4. Hotfix for CQ-4244132
 *   Request to include ValueUtil in client- `sdk` and `javadocs` . Hotfix for CQ-4242803
-*    &lsqb;FDM Cloud Config &rsqb; Unable to configure `SOAP based` Authentication from cloud configuration. Hotfix for CQ-4238462
+*    &lsqb;FDM Cloud Config&rsqb; Unable to configure `SOAP based` Authentication from cloud configuration. Hotfix for CQ-4238462
 *   Dermis - Add missing packages in Javadocs. Hotfix for CQ-4242815
 *   WSDLInvokerParams to be included in Forms Add-On client `sdk` . NPR-23381: Hotfix for CQ-4240233
 
@@ -1226,7 +1224,7 @@ The key highlights for AEM Forms are:
 *   Values are missing in verify stage on pre-upgrade and upgraded server for submitted form. Hotfix for CQ-4241896
 *   Quit and save button at the bottom of the page are not working. Hotfix for CQ-4240112
 *   Contact number missing on the upgraded set-up. Hotfix for CQ-4239870
-*   Under “ACTION TAKEN” section in Dispute Type tab , “Additional documents to support my claim” has additional field Proof Type Saved “in it. Hotfix for CQ-4239873
+*   Under “ACTION TAKEN” section in Dispute Type tab, “Additional documents to support my claim” has additional field Proof Type Saved “in it. Hotfix for CQ-4239873
 *   "Error in getDataAPI" erorr encountered at verifyPdf stage. Hotfix for CQ-4239865
 *   Errors in migration logs for author and publish instance. Hotfix for CQ-4239365
 *   Errors in migration logs for author and publish instance. Hotfix for CQ-4239635
@@ -1265,7 +1263,7 @@ The key highlights for AEM Forms are:
 *   The guideContext should be formed by deep copying the fields as guideContext contains customPropertyMap that itself is an object. Hotfix for CQ-4240126
 *   Error when trying to save a form. Hotfix for CQ-4240763
 *   The entry for saved and submitted forms is getting populated in crx/de despite we have DB configuration given in Forms Portal Draft and Submission Configuration. Hotfix for CQ-4240726
-*    &lsqb;Search & Lister &rsqb; Advanced search title fixed value should work as contain rather than equal. Hotfix for CQ-4245499
+*    &lsqb;Search & Lister&rsqb; Advanced search title fixed value should work as contain rather than equal. Hotfix for CQ-4245499
 
 #### Mobile Forms {#mobile-forms-5}
 
@@ -1275,31 +1273,31 @@ The key highlights for AEM Forms are:
 
 #### AEM Forms App {#aem-forms-app}
 
-*    &lsqb;Windows App &rsqb; Unable to render the form. Hotfix for CQ-4238005
+*    &lsqb;Windows App&rsqb; Unable to render the form. Hotfix for CQ-4238005
 
 #### WorkflowOSGI {#workflowosgi}
 
 *   Transaction logging in Workflow Assign Task. Hotfix for CQ-4244440
-*    &lsqb;FDM Step &rsqb; Unable to use values from workflow metadata when an Assign Task step is inserted between the process step and fdm step. Hotfix for CQ-4241472
+*    &lsqb;FDM Step&rsqb; Unable to use values from workflow metadata when an Assign Task step is inserted between the process step and fdm step. Hotfix for CQ-4241472
 *   Delegation of assign task does not work in Forms Integration in OSGI Workflows. NPR-23709: Hotfix for CQ-4243700
-*    &lsqb;Workflow Model Editor &rsqb; Some Workflow Models are not editable via the ClassicUI WF model editor. Hotfix for CQ-4241151
+*    &lsqb;Workflow Model Editor&rsqb; Some Workflow Models are not editable via the ClassicUI WF model editor. Hotfix for CQ-4241151
 
 #### MultiChannel Document {#multichannel-document}
 
 *   Date field in Template is overlapping the subform in the IC authoring. Hotfix for CQ-4240110
 *   Header should not be allowed to be deleted or to be moved up and down in IC web channel authoring. Hotfix for CQ-4243358
-*    &lsqb;IC Editor &rsqb; Default rows to be set to 1 for Table components. Hotfix for CQ-4244848
+*    &lsqb;IC Editor&rsqb; Default rows to be set to 1 for Table components. Hotfix for CQ-4244848
 *   Target Area to remain visible even after the content has been dragged and dropped on it. Hotfix for CQ-4244534
 *   Web channel do not recognize tabs space in Text Document Fragments. Hotfix for CQ-4244481
-*    &lsqb;Print channel &rsqb; Document (IC) rendition should be logged as a transaction using Transaction Recording Service. Hotfix for CQ-4245335
-*    &lsqb;Web channel &rsqb; Document (IC) rendition should be logged as a transaction using Transaction Recording Service. Hotfix for CQ-4245334
+*    &lsqb;Print channel&rsqb; Document (IC) rendition should be logged as a transaction using Transaction Recording Service. Hotfix for CQ-4245335
+*    &lsqb;Web channel&rsqb; Document (IC) rendition should be logged as a transaction using Transaction Recording Service. Hotfix for CQ-4245334
 *   Document Container Search or the Data Model Tree search must be unified to the Asset filter search. Hotfix for CQ-4242305
-*    &lsqb;Document Fragment &rsqb; The indentation property indents the text by how much units cannot be comprehended. Hotfix for CQ-4241082, CQ-4240643
-*    &lsqb;IC Editor &rsqb; The Edit Fragment icon on document fragment's tile listed under Assets tab is not very easily discoverable and understandable. Hotfix for CQ-4241047
+*    &lsqb;Document Fragment&rsqb; The indentation property indents the text by how much units cannot be comprehended. Hotfix for CQ-4241082, CQ-4240643
+*    &lsqb;IC Editor&rsqb; The Edit Fragment icon on document fragment's tile listed under Assets tab is not very easily discoverable and understandable. Hotfix for CQ-4241047
 *   Allow anonymous access to IC Anonymous inaccessible client library. Hotfix for CQ-4245588
-*    &lsqb;Web channel &rsqb; Data does not resolve in any of the table in web preview and is shown as blank. Hotfix for CQ-4244476
+*    &lsqb;Web channel&rsqb; Data does not resolve in any of the table in web preview and is shown as blank. Hotfix for CQ-4244476
 *   Table headers are shown as variables in web channel on auto-generation. Hotfix for CQ-4244242
-*    &lsqb;IC Editor &rsqb; Content of a Document Fragment used in an IC should get automatically re-sized to fit the width of the Target Area. Hotfix for CQ-4244094
+*    &lsqb;IC Editor&rsqb; Content of a Document Fragment used in an IC should get automatically re-sized to fit the width of the Target Area. Hotfix for CQ-4244094
 *   The channel name shown in the center top must be consistent either IC title for WEB / PRINT. Hotfix for CQ-4242498
 *   Text editor Data object panel should list only top level entities, Hotfix for CQ-4244121
 *   Default name is not assigned when adding a new component in editor. Hotfix for CQ-4244691
@@ -1321,7 +1319,7 @@ The key highlights for AEM Forms are:
 
 #### Core {#core}
 
-*    &lsqb;HTML Workspace &rsqb; Tracking details missing for applications with parentheses symbol in the name. NPR-23402
+*    &lsqb;HTML Workspace&rsqb; Tracking details missing for applications with parentheses symbol in the name. NPR-23402
 
 #### PDFG Service {#pdfg-service-1}
 
@@ -1334,7 +1332,7 @@ The key highlights for AEM Forms are:
 
 *   [HTML Workspace] Process Startpoints are not sorted in alphanumerical order. Hotfix for CQ-4239629
 *   [HTML workspace] Prepare data call coming up twice when draft is opened the first time. Hotfix for CQ-4243280
-*   [HTML Workspace &rsqb; Prepare Data process gets triggered while closing a form. Hotfix for CQ-4239456
+*   [HTML Workspace&rsqb; Prepare Data process gets triggered while closing a form. Hotfix for CQ-4239456
 *   Work space hangs when traversed between two tasks. Hotfix for CQ-4237125
 
 #### Workbench {#workbench}
@@ -1355,7 +1353,7 @@ The key highlights for AEM Forms are:
 
 #### Sites {#sites-7}
 
-*    &lsqb;Page Authoring &rsqb; Image Editor enhancements. For more information, see [Image Editor](/help/sites-developing/image-editor.md). NPR-24267: Hotfix for CQ-4245502
+*    &lsqb;Page Authoring&rsqb; Image Editor enhancements. For more information, see [Image Editor](/help/sites-developing/image-editor.md). NPR-24267: Hotfix for CQ-4245502
 
 ### OSGI bundles and content packages included {#osgi-bundles-included}
 
@@ -1396,8 +1394,7 @@ List of Content Packages included in AEM 6.4.1.0
 
 Perform the following steps to install the Service Pack on an existing AEM 6.4 instance:
 
-1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.4.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.4.0).  
-   (search for "AEM-6.4.3.0" to find it)  
+1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.4.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.4.0). (search for "AEM-6.4.3.0" to find it)  
 
 1. Install the downloaded package using Package Manager.
 
@@ -1510,16 +1507,15 @@ This section lists features and capabilities that have been removed or deprecate
 
 ## Known Issues {#known-issues}
 
-The following errors & warning may occur during installation of AEM 6.4.4.0 and can be safely ignored as they do not impact your AEM instance :
+The following errors & warning may occur during installation of AEM 6.4.4.0 and can be safely ignored as they do not impact your AEM instance:
 
 * Errors as create component instance and Service factory returned null occurs due to repository restart:
 
     * com.day.cq.cq-personalization [com.day.cq.personalization.impl.DefaultProfileProvider(938)] Cannot create component instance due to failure to bind reference profileManager
     * org.apache.sling.commons.scheduler FrameworkEvent ERROR (org.osgi.framework.ServiceException: Service factory returned null. (Component: com.day.cq.tagging.impl.TagGarbageCollector (1687)))
-
-* `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)] : Timeout waiting for reg change to complete unregistered`
-* `com.adobe.granite.maintenance.impl.TaskScheduler No maintenance windows found at granite/operations/maintenance`
-* `com.adobe.cq.com.adobe.cq.ui.commons bundle com.adobe.cq.com.adobe.cq.ui.commons:1.2.28 (204)[com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory(573)] : The unbindAmendment method has thrown an exception (java.lang.IllegalStateException: Service already unregistered).`
+    * `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)] : Timeout waiting for reg change to complete unregistered`
+    * `com.adobe.granite.maintenance.impl.TaskScheduler No maintenance windows found at granite/operations/maintenance`
+    * `com.adobe.cq.com.adobe.cq.ui.commons bundle com.adobe.cq.com.adobe.cq.ui.commons:1.2.28 (204)[com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory(573)] : The unbindAmendment method has thrown an exception (java.lang.IllegalStateException: Service already unregistered).`
 
 ## OSGi bundles and Content Packages included {#osgi-bundles-and-content-packages-included}
 

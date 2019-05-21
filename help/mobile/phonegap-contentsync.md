@@ -146,6 +146,7 @@ The image type is used to include the We.Retail logo in the zip file.
 * **deep** - Optional boolean property determining if child pages should be included, as well. The default value is *true.*
 
 * **includeImages** - Optional boolean property determining if images should be included. The default value is *true*.  
+
   By default, only image components with a resource type of foundation/components/image are considered for inclusion. You can add more resource types by configuring the **Day CQ WCM Pages Update Handler** in the Web console.
 
 **rewrite** The rewrite node defines how the links are rewritten in the exported page. The rewritten links can either point to the files included in the zip file or to the resources on the server.

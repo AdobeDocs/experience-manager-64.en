@@ -43,13 +43,16 @@ See also [Advanced configuration settings](advanced-config-3d.md).
 
 1. Use the link appropriate for your operating system to download **FBX SDK version 2016.1.2**
 
-    * **Windows**  
+    * **Windows**
+
       [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_vs2010_win.exe)  
     
     * **OS X** 
+
       [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_clang_mac.pkg.tgz](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_clang_mac.pkg.tgz)  
     
     * **Linux** 
+
       [https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_linux.tar.gz](https://download.autodesk.com/us/fbx_release_older/2016.1.2/fbx20161_2_fbxsdk_linux.tar.gz)
 
 1. Install the FBX SDK:
@@ -205,33 +208,30 @@ To configure suoport for Adobe Dimension assets:
 1. Configure the new credentials information by doing the following in CRXDE Lite:
 
     1. Navigate to `/libs/settings/dam/v3D/services/dncr` and set the `clientId` property to the new value.
-    
     1. Navigate to `/libs/settings/dam/v3D/services/aws` and set the `accountId`, `customerId`, `identityPoolId`, and `userPoolId` properties to the new values.
-    
     1. Load the new password value into the `encryptedPassword` property. This value is automatically encrypted when you tap **Save All**.
-    
     1. Tap **Save All**, reload the page, then verify that the `encryptedPassword` property shows a different string enclosed by curly braces. This appearance indicates that the password is properly encrypted and secure.
 
 1. Specify the format of the .glb conversion rendition by doing the following in CRXDE Lite:
 
-    1. Navigate to `/libs/settings/dam/v3D/services/dncr` in CRXDE Lite.  
-    
-    1. Set the `outputFormat` property to either `Dn` or `generic`.  
+    1. Navigate to `/libs/settings/dam/v3D/services/dncr` in CRXDE Lite.
+    1. Set the `outputFormat` property to either `Dn` or `generic`.
+
        When set to `Dn`, the .glb conversion includes Adobe-specific extensions, such as IBL lighting, for best quality when viewing Dn assets in AEM. However, the converted .glb rendition may not render well in third-party applications.  
+
        When set to `generic`, the .glb rendition is generic without Adobe-specific extensions. This setting allows it to be used in third-party applications, while viewing with the AEM 3D viewer will be visually sub-optimal.
 
 1. Enable the Dn file format by doing the following in CRXDE Lite:
 
-    1. Navigate to `/libs/settings/dam/v3D/assetTypes/Dn`.   
-    
+    1. Navigate to `/libs/settings/dam/v3D/assetTypes/Dn`.
     1. Set the `Enabled` property to true.
 
 1. Validate the configuration by doing the following:
 
     1. Open AEM Assets.
-    1. Upload `logo_sphere.dn` to the `test3d` folder. The file is located in `sample-3D-content/models`.  
+    1. Upload `logo_sphere.dn` to the `test3d` folder. The file is located in `sample-3D-content/models`.
+
        Note that `sample-3D-content.zip` was previously downloaded for validating the basic 3D functionality. 
-    
     1. Return to the Card view and observe the message banner shown on the uploaded asset. The Converting Format... banner is displayed while the conversion process is in progress.
     1. After all processing is complete, open the asset in Detail view to verify that the converted asset is displayed correctly and that the viewer's navigation controls are usable.
 
@@ -244,4 +244,3 @@ To configure suoport for Adobe Dimension assets:
     * Delete the asset, then upload it again.
     * Ensure that you have correctly set all configuration parameters in CRXDE Lite.
     * Verify that no firewall is blocking access to the conversion service and AWS endpoints.
-

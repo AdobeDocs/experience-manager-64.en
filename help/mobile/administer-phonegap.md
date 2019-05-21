@@ -11,7 +11,7 @@ topic-tags: administering-adobe-phonegap-enterprise
 discoiquuid: cd080122-7ae5-4e6e-a8f6-b95dfbb0b511
 ---
 
-# Administering Content for Adobe PhoneGap Enterprise with AEM{#administering-content-for-adobe-phonegap-enterprise-with-aem}
+# Administering Content for Adobe PhoneGap Enterprise with AEM {#administering-content-for-adobe-phonegap-enterprise-with-aem}
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ For learn about content services Content Services, see [Administering Content Se
 
 >[!NOTE]
 >
->The *AEM Verify* is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. The* AEM Verify* is a mobile app, on your device and you connect it to the server running the quickstart to get a list of apps to view. Click [here](/help/mobile/phonegap-mobile-quickstart.md) to view the details.
+>The *AEM Verify* is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. The *AEM Verify* is a mobile app, on your device and you connect it to the server running the quickstart to get a list of apps to view. Click [here](/help/mobile/phonegap-mobile-quickstart.md) to view the details.
 
 ## Additional Resources {#additional-resources}
 

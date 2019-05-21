@@ -15,13 +15,13 @@ discoiquuid: 42fb3c50-8728-4897-ade9-6b839294a10e
 
 ## Overview {#overview}
 
-Advanced scoring allows awarding of badges to identify members as experts. Advanced scoring assigns points based on the quantity *and *quality of content created by a member, whereas basic scoring assigns points simply based on the quantity of content created.
+Advanced scoring allows awarding of badges to identify members as experts. Advanced scoring assigns points based on the quantity *and* quality of content created by a member, whereas basic scoring assigns points simply based on the quantity of content created.
 
 This difference is due to the scoring engine used to calculate the scores. The basic scoring engine applies simple math. The advanced scoring engine is an adaptive algorithm that rewards active members who contribute valued and relevant content, deduced through natural language processing (NLP) of a topic.
 
 In addition to content relevance, the scoring algorithms take into account member activities, such as voting and percentage of answers. While basic scoring includes them quantitatively, advanced scoring uses them algorithmically.
 
-Therefore, the advanced scoring engine requires enough data to make analysis meaningful. The achievement threshold for becoming an expert is constantly re-evaluated as the algorithm continually adjusts to the volume and quality of content created. There is also a concept of *decay *of a member's older posts. If an expert member stops participating in the subject matter where they gained expert status, at some pre-determined point (see [scoring engine configuration](#configurable-scoring-engine)) they could lose their status as an expert.
+Therefore, the advanced scoring engine requires enough data to make analysis meaningful. The achievement threshold for becoming an expert is constantly re-evaluated as the algorithm continually adjusts to the volume and quality of content created. There is also a concept of *decay* of a member's older posts. If an expert member stops participating in the subject matter where they gained expert status, at some pre-determined point (see [scoring engine configuration](#configurable-scoring-engine)) they could lose their status as an expert.
 
 Setting up advanced scoring is virtually the same as basic scoring:
 
@@ -57,20 +57,26 @@ The advanced scoring engine provides an OSGi configuration with parameters that 
 
 * **scoring weights** 
   For a topic, specify the verb that should be given the highest priority when calculating the score. One or more topics may be entered, but limited to **one verb per topic**. See [Topics and Verbs](/help/communities/implementing-scoring.md#topics-and-verbs).  
+
   Entered as `topic,verb` with the comma escaped. For example:  
+
   `/social/forum/hbs/social/forum\,ADD`  
+
   Default is set to the ADD verb for QnA and forum components.
 
 * **scoring range** 
   The range for advanced scores is defined by this value (maximum possible score) and 0 (lowest possible score.  
+
   Default value is 100 so that scoring range is 0-100.
 
 * **entity decay time interval** 
   This parameter represents the number of hours after which all entity scores are decayed. This is required to no longer include old content in scores for a community site.  
+
   Default value is 216000 hours (~24 years).
 
 * **scoring growth rate** 
   This specifies the score. between 0 and scoring range, beyond which growth slows to limit the number of experts.  
+
   Default value is 50.
 
 ## Advanced Scoring Rules {#advanced-scoring-rules}
@@ -148,7 +154,8 @@ Instead of associating points with a badge image, it is only necessary to identi
 Included in this beta release is one reward-based expert badge:
 
 * expert  
-  /etc/community/badging/images/expert-badge/jcr:content/expert.png
+
+  `/etc/community/badging/images/expert-badge/jcr:content/expert.png`
 
 ![](assets/chlimage_1-263.png)
 
@@ -168,26 +175,30 @@ Included in the beta release are two advanced scoring rules for the [forum funct
 
 1. /etc/community/scoring/rules/adv-comments-scoring
 
-    * subRules[] =  
+    * subRules`[]` =  
+
       /etc/community/scoring/rules/sub-rules/adv-comments-rule  
+
       /etc/community/scoring/rules/sub-rules/adv-voting-rule-owner  
+
       /etc/community/scoring/rules/sub-rules/adv-voting-rule
 
 1. /etc/community/scoring/rules/adv-forums-scoring
 
-    * subRules[] =  
+    * subRules`[]` =  
+
       /etc/community/scoring/rules/sub-rules/adv-forums-rule  
+
       /etc/community/scoring/rules/sub-rules/adv-comments-rule  
+
       /etc/community/scoring/rules/sub-rules/adv-voting-rule-owner
 
 **Notes:**
 
 * both `rules`and `sub-rules` nodes are of type cq:Page
-
-* `subRules`is an attribute of type String[] on the rule's `jcr:content` node
-
+* `subRules` is an attribute of type String[] on the rule's `jcr:content` node
 * `sub-rules` may be shared among various scoring rules
-* `rules`should be located in a repository location with read permission for everyone
+* `rules` should be located in a repository location with read permission for everyone
 
     * rule names must be unique regardless of location
 

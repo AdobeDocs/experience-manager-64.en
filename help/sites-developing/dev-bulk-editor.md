@@ -558,9 +558,11 @@ The Save servlet concept is that the modifications are not directly posted to ea
 Each updated property is sent to the servlet in the following format:
 
 * Parameter name: &lt;jcr path&gt;/&lt;property name&gt;  
+
   Example: /content/geometrixx/en/products/jcr:content/par/productlist/1258674859000/SellingSku  
 
 * Value: &lt;value&gt;  
+
   Example: 12123
 
 The servlet needs to know where the catalogCode property is stored.

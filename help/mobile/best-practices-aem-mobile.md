@@ -42,7 +42,6 @@ The following guidelines will help experienced AEM developers for sites, who wan
 * Prefer multiple component script files over a single monolithic one
 
     * A number of empty extension points are provided, such as *customheaderlibs.html* and *customfooterlibs.html, *which allow the developer to change the page template while duplicating as little core code as possible
-    
     * Templates can then be extended and customized via Sling's *sling:resourceSuperType* mechanism
 
 * Prefer Sightly/HTL over JSP as the templating language
@@ -77,7 +76,7 @@ The following guidelines will help experienced AEM developers for sites, who wan
 **Minimize size of article payload**
 
 * Use the smallest assets possible that can effectively cover the largest viewport you will be supporting, at a reasonable resolution
-* Use a tool like* ImageOptim* on your images to remove any excess metadata
+* Use a tool like *ImageOptim* on your images to remove any excess metadata
 
 ## Getting Ahead {#getting-ahead}
 

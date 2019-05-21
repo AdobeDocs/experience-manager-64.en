@@ -42,8 +42,10 @@ To use HTTP/2, you must meet the following requirements:
 
 * Use secure HTTPS for your rich media requests.
 * Use the Adobe-bundled CDN (content delivery network) as part of your Dynamic Media license.
-* Use a dedicated (non- company-h.assetsadobe#.com) domain.  
+* Use a dedicated (non- company-h.assetsadobe#.com) domain.
+
   If you already have a dedicated domain, you can opt-in by way of Technical Support.  
+
   If you do not have a dedicated domain, Adobe will schedule your transition to HTTP/2 in 2018.
 
 ## What is the process for enabling HTTP/2 for my Dynamic Media account? {#what-is-the-process-for-enabling-http-for-my-dynamic-media-account}
@@ -62,8 +64,10 @@ You must initiate the request to switch over to HTTP/2; it is not automatically 
 
     1. Technical Support will add you to the HTTP/2 customer waitlist based in the order in which requests were submitted.
     1. When Adobe is ready to handle your request, support will contact you to coordinate the transition and set a target date.
-    1. You will be notified after completion and can verify successful transition over to HTTP2.  
-       Because the browser does not state this fact, it is necessary to download an extension.  
+    1. You will be notified after completion and can verify successful transition over to HTTP2.
+
+       Because the browser does not state this fact, it is necessary to download an extension.
+
        For Firefox and Chrome there is an extension called "HTTP/2 and SPDY Indicator". Browsers only support http/2 securely, so it is necessary to call a URL with https to verify. If http/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2".
 
 ## When can I expect to be transitioned over to HTTP/2? {#when-can-i-expect-to-be-transitioned-over-to-http}

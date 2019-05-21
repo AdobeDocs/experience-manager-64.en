@@ -85,19 +85,16 @@ To configure dynamic media cloud services:
 
 1. If the connection is successful, you can also set the following:
 
-    * **Company** - the name of the Dynamic Media account. It is possible you may have multiple Dynamic Media accounts for different sub-brands, divisions, or different staging/production environments.  
-    
+    * **Company** - the name of the Dynamic Media account. It is possible you may have multiple Dynamic Media accounts for different sub-brands, divisions, or different staging/production environments.
     * **Company Root Folder Path** 
-    
     * **Publishing Assets** - the option **Immediately** means that when assets are uploaded, the system ingests the assets and provides the URL/Embed instantly. There is no user intervention necessary to publish assets. The option **Upon Activation** means that you need to explicitly publish the asset first before a URL/Embed link is provided.
-    
-    * **Secure Preview Server** - lets you specify the URL path to your secure renditions preview server. That is, after renditions are generated, AEM can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the AEM instance).  
+    * **Secure Preview Server** - lets you specify the URL path to your secure renditions preview server. That is, after renditions are generated, AEM can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the AEM instance).
+
       Unless you have a special arrangment to use your own company's server or a special server, Adobe Systems recommends that you leave this setting as specified.
 
    >[!NOTE]
    >
    >There is no support for versioning in DMS7. Also, delayed activation applies only if **Publish Assets** in the Edit Dynamic Media Configuration page is set to **Upon Activation**, and then only until the first time the asset is activated.
-   >
    >
    >After an asset is activated, any updates are immediately published live to S7 Delivery.
 
@@ -108,7 +105,6 @@ To configure dynamic media cloud services:
 
     * Log on to your Dynamic Media Classic account: [https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html). Your credentials and logon were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
     * On the navigation bar near the top right of the page, tap **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server**.
-    
     * On the Image Server Publish page, in the Publish Context drop-down list, select **Test Image Serving**.
     * For the Client Address Filter, tap **Add**.
     * Select the check box to enable (turn on) the address, and then enter the IP address of the AEM Author instance (not Dispatcher IP).
@@ -234,7 +230,6 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 1. On the right side of the CRXDE Lite page, in the lower portion:
 
     * double-click the **enabled** field. By default all asset mime types are enabled (set to **true**), which means the assets will be synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **false**.
-    
     * double-click **jobParam** to open its associated text field. See [Supported Mime Types](assets-formats.md#supported-mime-types) for a list of permitted processing parameter values you can use for a given mime type.
 
 1. Do one of the following:
@@ -312,7 +307,6 @@ You can use either the form field method to define a batch set preset or the cod
 1. Do one of the following:
 
     * If you are using a default naming convention that you previously set up under **Application Setup** &gt; **Batch Set Presets** &gt; **Default Naming**, expand **Asset Naming Conventions**, and then in the File Naming drop-down list, tap **Default**.
-    
     * To define a new naming convention as you set up the preset, expand **Asset Naming Conventions**, and then in the File Naming drop-down list, tap **Custom**.
 
 1. For Sequence order, define the order in which images are displayed after the set is grouped together in Dynamic Media.

@@ -418,7 +418,7 @@ Some points to note for each category are:
         * Every sprint has a runable result.
         * Each sprint gets a customer signoff (minimum of structured test with feedback).
 
-    * Plan for the eventuality of an update of the available AEM version during the project.  
+    * Plan for the eventuality of an update of the available AEM version during the project.
     * Plan for tests and optimization during sprints.
     * Plan for stabilization and optimization phases.
     * Create a log of items to be planned for further releases.

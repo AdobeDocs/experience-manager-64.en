@@ -63,6 +63,7 @@ To demonstrate the feature, styles need to be created for a component. Using [We
 Style system demo package
 
 [Get File](/help/sites-authoring/assets/package_-_style_systemdemo.zip)
+
 The following sections [As a Content Author](/help/release-notes/style-system-fp.md#as-a-content-author) and [As a Template Author](#as-a-template-author) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
 
 If you wish to use the style system for your own components follow these steps:

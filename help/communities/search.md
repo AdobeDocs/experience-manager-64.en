@@ -23,7 +23,7 @@ The page that includes the `Search`component provides a place to launch a search
 
 The search feature may be used with any other feature which allows site visitors and members to view content.
 
-## Search {#search}
+## Search {#search-features}
 
 ### Add Search to a Page {#add-search-to-a-page}
 

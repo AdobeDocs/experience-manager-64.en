@@ -213,12 +213,14 @@ You can re-run smart crop to generate the additional crops again, if required.
 
 1. On the Edit Smart Crops page, do any of the following:
 
-    * Adjust the viewing size of images on the Edit Smart Crops page.  
+    * Adjust the viewing size of images on the Edit Smart Crops page.
+  
       To the right of the breakpoint name drop-down list, drag the slider bar left or right to change the size of the viewable image display.
 
        ![](assets/edit_smart_crops-sliderbar.png)
 
-    * Filter the list of viewable images based on breakpoint names. In the example below, the images are filtered on the breakpoint name "Medium".  
+    * Filter the list of viewable images based on breakpoint names. In the example below, the images are filtered on the breakpoint name "Medium".
+
       Near the upper-right corner of the page, from the drop-down list, select a breakpoint name to filter on what images you see. (See the image above.)
 
        ![](assets/edit_smart_crops-dropdownlist.png)
@@ -237,7 +239,8 @@ You can re-run smart crop to generate the additional crops again, if required.
 
        ![](assets/edit_smart_crops-move.png)
 
-    * Undo all your edits and restore the original smart crop or smart swatch (applies to the current editing session only).  
+    * Undo all your edits and restore the original smart crop or smart swatch (applies to the current editing session only).
+
       Tap **Revert** above the image.
 
        ![](assets/edit_smart_crops-revert.png)
@@ -263,4 +266,3 @@ You can remove an image profile from a folder from within the **Tools** menu or 
 1. Tap or click the AEM logo and navigate **Assets** and then to the folder that you want to remove an image profile from.
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.
 1. Select the **Image Profiles** tab and select **None** from the **Profile Name** drop-down menu and click **Save & Close**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
-

@@ -133,7 +133,6 @@ Follow these steps to set up Amazon SNS for push notifications:
 
     1. Click **Create Topic** and choose a topic name. Record all fields such as Topic ARN, Topic Owner, Region, Display name.
     1. Click **Other Topic Actions** > **Edit Topic Policy**. Under **Allow these users to subscribe to this topic**, select **Everyone.**
-    
     1. Click **Update Policy**.
 
    >[!NOTE]

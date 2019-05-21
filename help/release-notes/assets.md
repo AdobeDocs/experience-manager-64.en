@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 397b3267-1437-4263-963c-9d68ccc928ab
 ---
 
-# AEM Assets Release Notes{#aem-assets-release-notes}
+# AEM Assets Release Notes {#aem-assets-release-notes}
 
 Release notes specific to Adobe Experience Manager 6.4 Assets.
 
@@ -19,7 +19,7 @@ Here are the key features and highlights of the AEM 6.4 Assets release.
 
 ## Adobe Asset Link {#adobe-asset-link}
 
-Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise, providing a connection to AEM Assets directly from Photoshop, Illustrator, and InDesign—without leaving their tools of choice.  
+Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise, providing a connection to AEM Assets directly from Photoshop, Illustrator, and InDesign — without leaving their tools of choice.  
 
 To learn more about the capability, prerequisites, and how to access it, see the [Adobe Asset Link](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html) page.  
 
@@ -42,7 +42,7 @@ AEM 6.4 introduces Smart Translation Search capability to support multi lingual 
 
 ## User Experience {#user-experience}
 
-AEM 6.4 delivers significant user experience improvents in areas of browse, search, multi page assets and admin tools. Details below:
+AEM 6.4 delivers significant user experience improvements in areas of browse, search, multi page assets and admin tools. Details below:
 
 Browse Improvements
 

@@ -44,12 +44,9 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >
    >If you want to share links from your AEM Author instance to external entities, ensure that you only expose the following URLs (which are specifically used for link sharing) for GET requests only:
    >
-   >    
-   >    
-   >    * &lt;AEM Server&gt;/linkshare.html
-   >    * &lt;AEM Server&gt;/linksharepreview.html
-   >    * &lt;AEM Server&gt;/linkexpired.html
-   >    
+   >* &lt;AEM Server&gt;/linkshare.html
+   >* &lt;AEM Server&gt;/linksharepreview.html
+   >* &lt;AEM Server&gt;/linkexpired.html
    >    
    >Block other URLs to ensure that your Author instance is secure.
 
@@ -106,8 +103,6 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >
    >You can generate the preview of assets of specific MIME types only. These include:
    >
-   >    
-   >    
    >    * JPG
    >    * PNG
    >    * GIF
@@ -115,7 +110,6 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >    * INDD
    >    * PDF
    >    * PPT
-   >    
    >    
    >For assets of other MIME types, you can only download the assets.
 

@@ -176,22 +176,13 @@ To enable dynamic media:
 
    >[!NOTE]
    >
-   >To troubleshoot issues with Dynamic Media, see the following logs in the** crx-quickstart/logs/** directory:
+   >To troubleshoot issues with Dynamic Media, see the following logs in the **crx-quickstart/logs/** directory:
    >
-   >    
-   >    
-   >    * ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.  
+   >    * ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.
+   >
    >      Example of an Image Server log file name: `ImageServer-57346-2019-07-25.log`
-   >    
-   >    
-   >    
-   >
-   >    
-   >    
    >    * s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
-   >    
-   >    
-   >    
+   >
    >These logs are only used when Dynamic Media is enabled. They are not included in the **Download Full** package that is generated from the **system/console/status-Bundlelis**t page; when calling Customer Support if you have a Dynamic Media issue, please append both these logs to the issue.
 
 ### If you installed AEM to a different port or context path ... {#if-you-installed-aem-to-a-different-port-or-context-path}
@@ -205,7 +196,6 @@ When Dynamic Media is enabled, the static thumbnail renditions for image assets 
 In AEM:
 
 * The **self** domain in the [externalizer](/help/sites-developing/externalizer.md) is used to retrieve both the port number and context path.
-
 * If no **self** domain is configured, the port number and context path are retrieved from the Jetty HTTP service.
 
 In an AEM QuickStart WAR deployment, the port number and context path cannot be derived, therefore you must configure a **self** domain. See [externalizer documentation](/help/sites-developing/externalizer.md) on how to configure the **self** domain.
@@ -303,15 +293,11 @@ To set up authentication:
 
 1. On the **Edit User Settings For dynamic-media-replication** page, expand the **Add Private Key from KeyStore file **area and add the following (see the images that follow):
 
-    * In the **New Alias** field, enter the name of an alias that you will later use in the replication configuration; for example, **replication**.
-    
-    * Tap **KeyStore File**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **Open**.  
-    
-    * In the** KeyStore File Password** field, enter the KeyStore File password. This is **not** the KeyStore password that you created in Step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a KeyStore File password.
-    
-    * In the **Private Key Password** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.  
-    
-    * In the** Private Key Alias** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
+   * In the **New Alias** field, enter the name of an alias that you will later use in the replication configuration; for example, **replication**.
+   * Tap **KeyStore File**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **Open**.  
+   * In the **KeyStore File Password** field, enter the KeyStore File password. This is **not** the KeyStore password that you created in Step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a KeyStore File password.
+   * In the **Private Key Password** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.  
+   * In the **Private Key Alias** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
 
    ![](assets/edit_settings_fordynamic-media-replication2.png)
 
@@ -328,13 +314,11 @@ To configure the replication agent:
 1. Tap **Edit**.
 1. Tap the **Settings** tab, then enter the following:
 
-    * **Enabled** - Select this check box to enable the replication agent.
-    * **Region** - Set to the appropriate region: North America, Europe, or Asia
-    * **Tenant ID** - This value is the name of your company/tenant that is publishing to the Replication Service. This value is the Tenant ID that Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive this.
-
-    * **Key Store Alias** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#setting-up-authentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#setting-up-authentication).)
-
-    * **Key Store Password** - This is the KeyStore password that was created when you clicked/tapped **Create KeyStore**. Adobe does not provide this password. See step 5 of [Setting up Authentication](#setting-up-authentication).
+   * **Enabled** - Select this check box to enable the replication agent.
+   * **Region** - Set to the appropriate region: North America, Europe, or Asia
+   * **Tenant ID** - This value is the name of your company/tenant that is publishing to the Replication Service. This value is the Tenant ID that Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive this.
+   * **Key Store Alias** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#setting-up-authentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#setting-up-authentication).)
+   * **Key Store Password** - This is the KeyStore password that was created when you clicked/tapped **Create KeyStore**. Adobe does not provide this password. See step 5 of [Setting up Authentication](#setting-up-authentication).
 
    The following image shows the replication agent with sample data:
 
@@ -368,7 +352,6 @@ Replication test succeeded
 >
 >* Check the replication logs to make sure the asset is replicated. 
 >* Publish an image. Tap or click the image and select **Viewers** in drop-down menu. Then select a viewer preset, then click URL, and copy/paste the URL in the browser to verify that you can see the image.
->
 
 ### Troubleshooting Authentication {#troubleshooting-authentication}
 
@@ -454,13 +437,15 @@ Replication test to s7delivery:https://replicate-na.assetsadobe.com/is-publish
 
 **Solution**:
 
-1. Navigate to the User Management page:  
+1. Navigate to the User Management page:
+
    `localhost:4502/libs/granite/security/content/useradmin.html`
 1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
 1. Click the **KeyStore** tab. If the **Create KeyStore** button appears, then you need to redo the steps under [Setting up Authentication](#setting-up-authentication) earlier.
 1. If you had to redo the KeyStore setup, you may need to do [Configuring the Replication Agent](config-dynamic.md#configuring-the-replication-agent) again, as well.
 
-   Reconfigure the s7delivery Replication Agent.  
+   Reconfigure the s7delivery Replication Agent.
+
    `localhost:4502/etc/replication/agents.author/s7delivery.html`
 
 1. Tap **Test Connection** to verify the configuration is valid.
@@ -479,7 +464,6 @@ Replicate log example:
 01.08.2016 18:42:59 - Publishing: POST[https://replicate-eu.assetsadobe2.com:443/is-publish/publish-receiver?Cmd=Test&RootId=altayerstaging]
 01.08.2016 18:42:59 - Transfer failed for ReplicationAction{type=TEST, path[0]='/content/dam', time=1470073379634, userId='admin', revision='null'}. java.io.IOException: Failed to execute request 'https://replicate-eu.assetsadobe2.com:443/is-publish/publish-receiver?Cmd=Test&RootId=rbroughstaging': Server returned status code 401 with message: Authorization required.
 01.08.2016 18:42:59 - Error while replicating: com.day.cq.replication.ReplicationException: Transfer failed for ReplicationAction{type=TEST, path[0]='/content/dam', time=1470073379634, userId='admin', revision='null'}. java.io.IOException: Failed to execute request 'https://replicate-eu.assetsadobe2.com:443/is-publish/publish-receiver?Cmd=Test&RootId=rbroughstaging': Server returned status code 401 with message: Authorization required.
-
 ```
 
 **Solution:**
@@ -490,7 +474,8 @@ To fix this issue:
 
    `localhost:4502/crx/de/index.jsp`
 
-1. Navigate to the s7delivery Replication Agent node.  
+1. Navigate to the s7delivery Replication Agent node.
+
    `localhost:4502/crx/de/index.jsp#/etc/replication/agents.author/s7delivery/jcr:content`  
 
 1. Add this setting to the replication agent (Boolean with value set to **True**):
@@ -541,7 +526,6 @@ To configure dynamic media cloud services:
 1. If you are configuring Dynamic Media for video,
 
     * In the **Registration ID** field, type your registration ID.
-    
     * In the **Video Service URL** field, enter the video service URL for the Dynamic Media Gateway.
 
 1. If you are configuring Dynamic Media for imaging, in the **Image Service URL** field, enter the image service URL for the Dynamic Media Gateway.
@@ -593,28 +577,32 @@ Make sure that the Video Analytics preset package from the first Author node is 
       To check the Video Analytics preset by way of the JCR, you must have access to CRXDE Lite.  
   
       AEM - In CRXDE Lite, navigate to /conf/global/settings/  
+
       dam/dm/presets/analytics/jcr:content/userdata  
   
       That is http://localhost:4502/crx/de/index.jsp#/conf/global/settings/dam/dm/presets/analytics/jcr%3Acontent/userdata  
   
       If you do not have access to CRXDE Lite on the Author node, you can check the preset through the Publish server.
 
-    * **Check the Video Analytics preset through the Image Server**  
-      You can validate the Video Analytics preset directly by making an Image Server req=userdata request.  
+    * **Check the Video Analytics preset through the Image Server**
+
+      You can validate the Video Analytics preset directly by making an Image Server req=userdata request.
+
       For example, to see the Analytics preset on the Author node, you can make the following request:  
   
       `http://localhost:4502/is/image/conf/global/settings/dam/dm/presets/analytics?req=userdata`  
   
       To validate the preset on Publish servers, you can make a similar direct request to the Publish server. The responses are the same on Author and Publish nodes. The response looks similar to the following:
-      
-      ```    
+
+      ```
       marketingCloudOrgId=0FC4E86B573F99CC7F000101
        reportSuite=aemaem6397618-2018-05-23
        trackingNamespace=aemvideodal
        trackingServer=aemvideodal.d2.sc.omtrdc.net
       ```
 
-    * **Check the Video Analytics preset through the Video Reporting tool in AEM**  
+    * **Check the Video Analytics preset through the Video Reporting tool in AEM**
+
       Click **Tools** &gt; **Assets** &gt; **Video Reporting** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
   
       If you see the following error message, the report suite is available, but unpopulated. This error is correct--and desired--in a new installation before the system collects any data.

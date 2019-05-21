@@ -48,7 +48,7 @@ Various properties can be set, in particular:
 * **jcr:title** - title for the template; appears in the dialog when creating a page.
 * **jcr:description** - description for the template; appears in the dialog when creating a page.
 
-This node contains *a jcr:content (cq:PageContent) *node which be used as the basis for the content node of resulting pages; this references, using *sling:resourceType*, the component to be used for rendering the actual content of a new page.
+This node contains *a jcr:content (cq:PageContent)* node which be used as the basis for the content node of resulting pages; this references, using *sling:resourceType*, the component to be used for rendering the actual content of a new page.
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ This node contains *a jcr:content (cq:PageContent) *node which be used as the ba
 >* [Components](/help/sites-developing/components.md)
 >
 
-Once you have the basic understanding of Templates and Components, See the following resources:
+After you have the basic understanding of Templates and Components, see the following resources:
 
 * [Creating and Adding Templates and Components](/help/mobile/mobile-ondemand-app-templates.md)
 * [Using Content Properties to Export Content](/help/mobile/on-demand-content-properties-exporting.md)
@@ -67,7 +67,7 @@ Once you have the basic understanding of Templates and Components, See the follo
 
 ### Additional Resources {#additional-resources}
 
-To learn about additional topics on mobile apps, See the links below:
+To learn about additional topics on mobile apps, see the links below:
 
 * [Mobile with Content Sync](/help/mobile/mobile-ondemand-contentsync.md)
 * [Testing Mobile Apps](/help/mobile/develop-mobile-apps-testing.md)

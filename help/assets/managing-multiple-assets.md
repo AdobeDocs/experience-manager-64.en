@@ -39,13 +39,8 @@ To customize the metadata properties page, including adding, modifying, deleting
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * In the properties page, you can remove assets from the asset list by deselecting them. The asset list has all the assets selected by default. The metadata for assets that you remove from the list is not updated.
-   >    * At the top of assets list, select the check box near **Title** to toggle between selecting the assets and clearing the list.
-   >    
-   >
+   >* In the properties page, you can remove assets from the asset list by deselecting them. The asset list has all the assets selected by default. The metadata for assets that you remove from the list is not updated.
+   >* At the top of assets list, select the check box near **Title** to toggle between selecting the assets and clearing the list.
 
 1. To select a different metadata schema for the assets, tap/click the **Settings** icon from the toolbar, and select the desired schema.
 1. Save the changes.
@@ -71,13 +66,8 @@ To customize the metadata properties page, including adding, modifying, deleting
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * In the collection properties page, you can remove collections from the list of collections by deselecting them. The collections list has all the collections selected by default. The metadata for collections that you remove is not updated.
-   >    * At the top of the list, select the check box near **Title** to toggle between selecting the collections and clearing the list.
-   >    
-   >
+   >* In the collection properties page, you can remove collections from the list of collections by deselecting them. The collections list has all the collections selected by default. The metadata for collections that you remove is not updated.
+   >* At the top of the list, select the check box near **Title** to toggle between selecting the collections and clearing the list.
 
 1. Save the changes.
 

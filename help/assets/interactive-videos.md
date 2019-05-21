@@ -62,26 +62,36 @@ When you finish the tutorial in the last Example section, the final demo web pag
 
 Interactive video steps:
 
-1. **(Optional) Identifying Quickview variables** - Start by identifying dynamic variables used by your existing Quickview implementation. You use the variables to map product thumbnails to their corresponding product Quickview when you create your interactive video. See [(Optional) Identifying Quickview variables](#optional-identifying-quickview-variables).  
+1. **(Optional) Identifying Quickview variables** - Start by identifying dynamic variables used by your existing Quickview implementation. You use the variables to map product thumbnails to their corresponding product Quickview when you create your interactive video. See [(Optional) Identifying Quickview variables](#optional-identifying-quickview-variables). 
+
    *Note that this step is only required if all the following are true*:  
-   • You want to add interactivity to your video by triggering to quickviews.  
-   • Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](/help/sites-administering/concepts.md).  
+
+   * You want to add interactivity to your video by triggering to quickviews.  
+   * Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](/help/sites-administering/concepts.md).  
 
 1. **(Optional) Creating an Interactive Video viewer preset** - Customize the appearance and behavior of various components that make up the player such as the video scrubber and the interactive thumbnails.  
+
    Creating your own Interactive Video viewer preset is not required if you intend to use the out-of-the-box Interactive Video viewer presets `Shoppable_Video_Light` or `Shoppable_Video_Dark` instead. 
    See [Creating a New Viewer Preset](managing-viewer-presets.md#creating-a-new-viewer-preset) (this is optional) and [Special considerations for creating an Interactive Viewer preset](managing-viewer-presets.md#special-considerations-for-creating-an-interactive-viewer-preset).
 
 1. **Uploading a video and its associated image assets** - Upload a video and associated images that you want to make interactive.  
+
    See [Uploading a video and its associated thumbnail assets](#uploading-a-video-and-its-associated-thumbnail-assets).  
 
 1. **Adding interactivity to your video** - Add one or more time segments to the video. Then, associate image thumbnails within those time segments. Assign each image thumbnail to an action such as a hyperlink, a Quickview, or an Experience Fragment.  
+
    (Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.)  
+
    Finish by publishing the interactive video assets. Publishing creates the embed code or URL that you will eventually copy and apply to your website landing page.See [Adding interactivity to your video](#adding-interactivity-to-your-video).  
+
    See [Publishing Assets](publishing-dynamicmedia-assets.md).
 
 1. **Adding an interactive video to your website or to your website in AEM** 
-   If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive video directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)  
+
+   If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive video directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md) 
+
    Use the embed code or URL to integrate your interactive video with your website experiences. See [Integrating an interactive video with your website](#integrating-an-interactive-video-with-your-website).  
+
    If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive video with an existing Quickview](#integrating-an-interactive-video-with-an-existing-quickview).  
 
 ## (Optional) Identifying Quickview variables {#optional-identifying-quickview-variables}
@@ -242,6 +252,7 @@ To upload a video and its associated thumbnail assets:
 1. Upload the video and associated thumbnail assets to the folder or folders you want.
 
    See [Uploading assets](managing-assets-touch-ui.md).  
+
    See [Uploading assets using FTP job scheduling](managing-assets-touch-ui.md).
 
    Now add interactivity to your video.
@@ -262,15 +273,13 @@ Undo and Redo options, near the upper-right corner of the page, are supported du
 
 After you save your interactive video, the video is immediately opened into Preview. From there, you can select an Interactive Video viewer preset and play the video to see an approximate representation of how it will appear to customers.
 
-To add interactivty to your video:
+To add interactivity to your video:
 
 1. In the Assets view, navigate to the video that you uploaded and want to make interactive.
 1. Do one of the following:
 
-    * Hover on the image, then tap **Selec**t (checkmark icon). On the toolbar, tap **Edit**.  
-    
+    * Hover on the image, then tap **Select** (checkmark icon). On the toolbar, tap **Edit**.  
     * Hover on the image, then tap **More actions** (three dots icon) &gt; **Edit**.
-    
     * Tap the image to open it in the Detail View page. On the toolbar, tap **Edit**.
 
 1. On the Create Interactive Video page, do any one of the following:
@@ -507,11 +516,14 @@ If you are an AEM Sites customer, you can add the interactive video by dragging 
 If you are a standalone AEM Assets customer, you can manually add the interactive video to your website as described in this section.
 
 1. Copy the published interactive video's embed code or URL.  
+
    See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).  
+
    If you added interactivity with Quickviews, only use the embed code; if you added interactivity with hyperlinked webpages, you can also use the published URL. Note, however, that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
 
 1. In the target's web page code, identify where the static video is located.  
 1. Remove the static video and replace the code with the embed code or URL that you copied from AEM Assets, as is.  
+
    The copied embed code is set for a responsive environment so it should automatically fit the area previously occupied by the static video.
 
 >[!NOTE]
