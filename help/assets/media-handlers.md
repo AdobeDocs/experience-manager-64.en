@@ -550,14 +550,16 @@ First install ImageMagick on the disk hosting the AEM server:
    >
    >In some versions of Windows (for example Windows SE), the convert command may fail to run because it conflicts with the native convert utility that is part of Windows installation. In this case, mention the complete path for the ImageMagick utility used to convert image files to thumbnails. For example, `"C:\Program Files\ImageMagick-6.8.9-Q16\convert.exe" -define jpeg:size=319x319 ${filename} -thumbnail 319x319 cq5dam.thumbnail.319.319.png`.
 
-1. To see if the tool runs properly, add a .jpg image to the working directory and run the command convert `<image-name>.jpg -flip <image-name>-flipped.jpg` on the command line.  
+1. To see if the tool runs properly, add a .jpg image to the working directory and run the command convert `<image-name>.jpg -flip <image-name>-flipped.jpg` on the command line.
+
    A flipped image is added to the directory.
 
 Then, add the command line process step to the **DAM Update Asset workflow**:
 
-1. Go to the** Workflow** console.
+1. Go to the **Workflow** console.
 1. In the **Models** tab, edit the **DAM Update Asset** model.
 1. Change the settings of the **Web enabled rendition** step as follows:  
+
    **Arguments**:
 
    `mime:image/gif,mime:image/tiff,tn:140:100,tn:48:48,tn:10:250,cmd:convert ${directory}/${filename} -flip ${directory}/${basename}.flipped.jpg`

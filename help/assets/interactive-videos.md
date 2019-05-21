@@ -83,12 +83,15 @@ Interactive video steps:
    (Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.)  
 
    Finish by publishing the interactive video assets. Publishing creates the embed code or URL that you will eventually copy and apply to your website landing page.See [Adding interactivity to your video](#adding-interactivity-to-your-video).  
-   
+
    See [Publishing Assets](publishing-dynamicmedia-assets.md).
 
 1. **Adding an interactive video to your website or to your website in AEM** 
-   If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive video directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md)  
+
+   If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive video directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](adding-dynamic-media-assets-to-pages.md) 
+
    Use the embed code or URL to integrate your interactive video with your website experiences. See [Integrating an interactive video with your website](#integrating-an-interactive-video-with-your-website).  
+
    If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive video with an existing Quickview](#integrating-an-interactive-video-with-an-existing-quickview).  
 
 ## (Optional) Identifying Quickview variables {#optional-identifying-quickview-variables}
@@ -249,6 +252,7 @@ To upload a video and its associated thumbnail assets:
 1. Upload the video and associated thumbnail assets to the folder or folders you want.
 
    See [Uploading assets](managing-assets-touch-ui.md).  
+
    See [Uploading assets using FTP job scheduling](managing-assets-touch-ui.md).
 
    Now add interactivity to your video.
@@ -269,15 +273,13 @@ Undo and Redo options, near the upper-right corner of the page, are supported du
 
 After you save your interactive video, the video is immediately opened into Preview. From there, you can select an Interactive Video viewer preset and play the video to see an approximate representation of how it will appear to customers.
 
-To add interactivty to your video:
+To add interactivity to your video:
 
 1. In the Assets view, navigate to the video that you uploaded and want to make interactive.
 1. Do one of the following:
 
-    * Hover on the image, then tap **Selec**t (checkmark icon). On the toolbar, tap **Edit**.  
-    
+    * Hover on the image, then tap **Select** (checkmark icon). On the toolbar, tap **Edit**.  
     * Hover on the image, then tap **More actions** (three dots icon) &gt; **Edit**.
-    
     * Tap the image to open it in the Detail View page. On the toolbar, tap **Edit**.
 
 1. On the Create Interactive Video page, do any one of the following:
@@ -514,11 +516,14 @@ If you are an AEM Sites customer, you can add the interactive video by dragging 
 If you are a standalone AEM Assets customer, you can manually add the interactive video to your website as described in this section.
 
 1. Copy the published interactive video's embed code or URL.  
+
    See [Embedding the Video or Image Viewer on a Web Page](embed-code.md).  
+
    If you added interactivity with Quickviews, only use the embed code; if you added interactivity with hyperlinked webpages, you can also use the published URL. Note, however, that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.
 
 1. In the target's web page code, identify where the static video is located.  
 1. Remove the static video and replace the code with the embed code or URL that you copied from AEM Assets, as is.  
+
    The copied embed code is set for a responsive environment so it should automatically fit the area previously occupied by the static video.
 
 >[!NOTE]

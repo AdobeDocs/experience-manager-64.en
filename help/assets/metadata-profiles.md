@@ -29,7 +29,6 @@ A Metadata Profile lets you apply default metadata to assets within a folder. Cr
    Edit the following properties for the **Description** component:
 
     * **Field Label**: The display name of the metadata property. It is only for the user reference.
-    
     * **Map to Property**: The value of this property provides the relative path/name to the asset node where it is saved in the repository. The value should always start with "**./**" because it indicates that the path is under the asset's node.
 
    ![](assets/chlimage_1-482.png)
