@@ -42,7 +42,6 @@ The following guidelines will help experienced AEM developers for sites, who wan
 * Prefer multiple component script files over a single monolithic one
 
     * A number of empty extension points are provided, such as *customheaderlibs.html* and *customfooterlibs.html, *which allow the developer to change the page template while duplicating as little core code as possible
-    
     * Templates can then be extended and customized via Sling's *sling:resourceSuperType* mechanism
 
 * Prefer Sightly/HTL over JSP as the templating language

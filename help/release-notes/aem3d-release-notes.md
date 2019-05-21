@@ -55,6 +55,7 @@ Other browsers may not support interactive viewing of 3D content in AEM. Only Go
 * CPU - 3D processing and rendering is very demanding on a computer's CPU. As such, a contemporary server with a minimum of eight CPU cores is recommended.
 * Memory - A minimum of 32 GB is recommended.
 * Mass storage - High bandwidth SSD storage is recommended.  
+
   On upload, 3D assets are converted to a proprietary format for fast, interactive viewing. Depending on the type of 3D asset, storage space of 2-3x the size of the uploaded 3D asset is required.
 
 See also [Working with 3D assets](/help/assets/3d-assets.md).

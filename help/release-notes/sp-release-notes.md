@@ -837,7 +837,6 @@ The key highlights for AEM 6.4.2.0 forms are:
 *   Removed the unsupported timestamp pattern from the datepicker dropdown.
 *   Added support for underlaying xfaf and pdf in OSGI.
 *   Added support to use the [transaction reports capability](/help/forms/using/transaction-reports-overview.md) at on-premise deployments.  
-    
 *   Added code to not display child var in condition rule editor.
 
 ### Forms add-on package {#forms-addon-pckg}
@@ -1192,7 +1191,6 @@ AEM Forms fixes are delivered through add-on packages and other patch installers
 The key highlights for AEM Forms are:
 
 *   AEM Forms introduces [transaction reports capability](/help/forms/using/transaction-reports-overview.md) to track and keep count of transactions like submitted forms, processed documents, and rendered documents on your AEM Forms deployment. It provides insights about product usage and helps business users understand digital processing volumes.  
-    
 *   Enabled PDF/UA support to XML forms.
 *   Added allowProxy = true for Clientlib **aemfd.ccm.channel.contentpage**
 *   Updated code to make advanced title search as contains rather than equal.
@@ -1396,8 +1394,7 @@ List of Content Packages included in AEM 6.4.1.0
 
 Perform the following steps to install the Service Pack on an existing AEM 6.4 instance:
 
-1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.4.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.4.0).  
-   (search for "AEM-6.4.3.0" to find it)  
+1. Login to Package Share within AEM or directly from your browser and download the [AEM 6.4.4.0 package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/servicepack/AEM-6.4.4.0). (search for "AEM-6.4.3.0" to find it)  
 
 1. Install the downloaded package using Package Manager.
 

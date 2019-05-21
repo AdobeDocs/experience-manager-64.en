@@ -19,24 +19,30 @@ There are many social, economical, and legal motivations for ensuring that web c
 Creating accessible websites and content with AEM impact:
 
 * Administrators responsible for configuring Adobe Experience Manager (AEM) to ensure accessibility features are correctly enabled.  
-* Authors using these features to create web sites that support key guidelines in WCAG 2.0.  
+* Authors using these features to create web sites that support key guidelines in WCAG 2.0.
+
   Creating accessible content is a process. AEM provides the capabilities, but content authors need to ensure that they follow the techniques required to create accessible content.
+
 * Template developers should also be aware of such issues when implementing the website design.
 
 ## Further Information {#further-information}
 
 The following pages and section provide information and guidelines:
 
-* [Configuring the Rich Text Editor for Producing Accessible Sites](/help/sites-administering/rte-accessible-content.md)  
+* [Configuring the Rich Text Editor for Producing Accessible Sites](/help/sites-administering/rte-accessible-content.md) 
+
   Guidelines on how administrators can configure AEM for producing accessible content.
 
 * [Creating Accessible Content (WCAG 2.0 Conformance)](/help/sites-authoring/creating-accessible-content.md)  
+
   The WCAG 2.0 Guidelines provide a list of success criteria for Level A and Level AA conformance levels. This page details the success criteria covered by AEM, together with how to meet them when generating content.  
 
 * [Quick Guide to WCAG 2.0](/help/managing/qg-wcag.md)  
+
   Background information about WCAG 2.0.   
 
 * [Creating Accessible Adaptive Forms](/help/forms/using/creating-accessible-adaptive-forms.md)  
+
   Adobe Experience Manager (AEM) includes a number of features and capabilities that enhance the usability of adaptive forms for users with different abilities. The solution also assists form authors in creating accessible adaptive forms.
 
 ## World Wide Web Consortium and WCAG 2.0 {#world-wide-web-consortium-and-wcag}

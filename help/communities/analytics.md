@@ -60,16 +60,24 @@ This section of the documentation describes how to connect an Analytics report s
 To configure Analytics for Communities features, it is necessary to work with your account representative to setup an Adobe Analytics account and [report suite](#adobe-analytics-report-suite-for-video-reporting). Once established, the following information should be available:
 
 * Company Name  
+
   the company that is associated with the Adobe Analytics account
 * Username  
-  the login username for the user authorized to manage the Analytics account  
+
+  the login username for the user authorized to manage the Analytics account 
+
   (should include Web Service Access privileges)
 
 * Password  
+
   the login password for the authorized user
+
 * Analytics Data Center  
+
   the URL of the Analytics data center for the account
+
 * Report Suite  
+
   the name of the Analytics report suite to use
 
 ## Adobe Analytics Report Suite for Video Reporting {#adobe-analytics-report-suite-for-video-reporting}
@@ -162,10 +170,12 @@ On the Create Configuration dialog, the values to be entered identify the config
 
 * **Title** 
   (required) A display title for the configuration.  
+
   For example, enter *Enablement Community Analytics*
 
 * **Name** 
   (optional) If not specified, the name will default to a valid node name derived from the title.  
+
   For example, enter *communities*
 
 * *Template* 
@@ -229,10 +239,12 @@ After successful configuration of the basic connection to Adobe Analytics, it is
 
 * **Title** 
   (required) A display title for the framework  
+  
   For example, enter *Enablement Community Framework*
 
 * **Name** 
   (optional) If not specified, the name will default to a valid node name derived from the title.  
+
   For example, enter *communities*
 
 * *Template* 

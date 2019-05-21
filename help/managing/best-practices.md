@@ -97,7 +97,7 @@ The Four Factors:
 
     * How will you define success?
     * How will you measure success?
-    * What are the requirements, business and technical?  
+    * What are the requirements, business and technical?
     * Are there legacy systems to be replaced and if so, is there data to be migrated?
     * Who will be involved?
     * How will you measure progress?
@@ -180,7 +180,6 @@ Planning the development is key to ensure that your project is built on a solid 
     * Third party systems
     * Interfaces; hardware, software and human interaction
     * Servers for each environment; see the [Technical Requirements](/help/sites-deploying/technical-requirements.md) and [Hardware Sizing Guidelines](/help/managing/hardware-sizing-guidelines.md)
-    
     * Processes for each environment; for example, deployment and maintenance requirements
     * Maintenance activities (Datastore GC, TarPM optimization, etc.)
     * [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html) caching 
@@ -249,7 +248,6 @@ On a similar basis the operations must be properly planned to ensure you have th
   For example:
 
     * A list of roles (i.e. groups) with `read`/ `write` access definitions for each 
-    
     * Definition of the use of privileges that impact the publish environment; for example, `replicate`
     * For users with minimal privileges, workflows should be defined 
     * Users in the `editor` group should not have `admin` rights nor be part of the `administrators` group
@@ -376,7 +374,6 @@ Once the new application is available it will need to undergo stringent testing,
 
     * [Performance Testing](/help/sites-deploying/configuring-performance.md)
     * [How to plan and run testing](/help/sites-developing/planning.md)  
-    
     * [Basic Performance Guidelines](/help/sites-deploying/configuring-performance.md#basic-performance-guidelines)
 
   >[!NOTE]
@@ -609,6 +606,7 @@ For best practices on deploying, administering, developing, or authoring, see th
 ## Key Documentation Areas {#key-documentation-areas}
 
 * AEM Documentation  
+
   In addition, the following sections of AEM documentation are of particular interest (however, this list is not exhaustive):
 
     * [Security](/help/sites-developing/security.md)

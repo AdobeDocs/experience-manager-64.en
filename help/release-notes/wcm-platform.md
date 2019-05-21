@@ -77,7 +77,7 @@ discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
 * New Health Checks:
 
     * Detect large Lucene indexes
-    * Async indexing health  
+    * Async indexing health
     * Large Lucene Indexes
     * Query Performance
     * Query Traversal Limits

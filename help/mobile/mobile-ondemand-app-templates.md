@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: ec4ada04-e429-4ad4-a060-2dccac847cf0
 ---
 
-# Creating and Adding Templates and Components{#creating-and-adding-templates-and-components}
+# Creating and Adding Templates and Components {#creating-and-adding-templates-and-components}
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ As per AEM templates, you can add any default properties or child nodes to the t
 
 Components use and allow access to Widgets and these are used to render the Content.
 
-A simple component is included in the code repository, the source of which can be found in AEM. Subesequently, it can also be opened locally in CRXDE Lite.
+A simple component is included in the code repository, the source of which can be found in AEM. Subsequently, it can also be opened locally in CRXDE Lite.
 
 >[!NOTE]
 >
@@ -153,154 +153,3 @@ Once the component has already been included in an AEM page, along with a few ot
 
 * [Using Content Properties to Export Content](/help/mobile/on-demand-content-properties-exporting.md)
 * [Mobile with Content Sync](/help/mobile/mobile-ondemand-contentsync.md)
-
-* 
-  Deploying and Maintaining  
-* 
-  Authoring  
-* 
-  Administering  
-* 
-  Developing
-
-    * 
-      The Basics  
-    * 
-      Platform  
-    * 
-      Templates  
-    * 
-      Components  
-    * 
-      Development Tools  
-    * 
-      Search  
-    * 
-      Tagging  
-    * 
-      Mobile Apps
-
-        * 
-          Content Services  
-        * 
-          AEM Mobile On-Demand
-
-            * 
-              App Templates and Components  
-            * 
-              Mobile with Content Sync  
-            * 
-              Content Properties and Exporting Content
-
-        * 
-          PhoneGap  
-        * 
-          Testing Mobile Apps
-
-    * 
-      eCommerce  
-    * 
-      Personalization  
-    * 
-      Operations  
-    * 
-      Customizing and Extending AEM Features  
-    * 
-      Testing  
-    * 
-      Best Practices  
-    * 
-      Mobile Web  
-    * 
-      Reference Materials  
-    * 
-      Security  
-    * 
-      Developing Communities  
-    * 
-      Code Samples
-
-* 
-  Managing  
-* 
-  Copyright, Licenses and Disclaimers  
-* 
-  Release Notes
-
-### Mobile with Content Sync {#mobile-with-content-sync}
-
-* 
-  Deploying and Maintaining  
-* 
-  Authoring  
-* 
-  Administering  
-* 
-  Developing
-
-    * 
-      The Basics  
-    * 
-      Platform  
-    * 
-      Templates  
-    * 
-      Components  
-    * 
-      Development Tools  
-    * 
-      Search  
-    * 
-      Tagging  
-    * 
-      Mobile Apps
-
-        * 
-          Content Services  
-        * 
-          AEM Mobile On-Demand
-
-            * 
-              App Templates and Components  
-            * 
-              Mobile with Content Sync  
-            * 
-              Content Properties and Exporting Content
-
-        * 
-          PhoneGap  
-        * 
-          Testing Mobile Apps
-
-    * 
-      eCommerce  
-    * 
-      Personalization  
-    * 
-      Operations  
-    * 
-      Customizing and Extending AEM Features  
-    * 
-      Testing  
-    * 
-      Best Practices  
-    * 
-      Mobile Web  
-    * 
-      Reference Materials  
-    * 
-      Security  
-    * 
-      Developing Communities  
-    * 
-      Code Samples
-
-* 
-  Managing  
-* 
-  Copyright, Licenses and Disclaimers  
-* 
-  Release Notes
-
-### Mobile with Content Sync {#mobile-with-content-sync-1}
-

@@ -44,7 +44,7 @@ See the following for AEM Sites 6.4 enhancements in detail:
 * Grid System for Layout Container, see [Github](https://github.com/Adobe-Marketing-Cloud/aem-responsivegrid).
 * Template Editor and Policies
 
-    * Policies now support Style System configurations per component, per container, per template.  
+    * Policies now support Style System configurations per component, per container, per template.
     * Improved support for defining layout in templates on editable components
 
 * Reference Site We.Retail 3.0, see [Github for release notes](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/releases).

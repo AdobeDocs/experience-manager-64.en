@@ -69,7 +69,6 @@ These principles are sometimes referred to by the acronym POUR.
 * Each guideline consists of one or more **success criteria**.
 
     * Success criteria are written as statements, which are either `True` or `False` for any given web page.
-    
     * Success sriteria may include either/or choices, or may include exceptions; situations where the success criteria need not be met.
     * Success criteria are numbered according to the parent guideline and principle, from 1.1.1 to 4.1.1. They also have a short name summarizing the intent of the criterion, for easier reference. For example, success criterion 1.1.1 is Non-text alternative.
     * Success criteria include a list of related **techniques** (described in more detail below).
