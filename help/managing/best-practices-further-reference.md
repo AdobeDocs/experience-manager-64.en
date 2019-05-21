@@ -287,7 +287,7 @@ There are several mechanisms you can use to monitor the response times:
 
   `</body> </html>v <-- Page took 58 milliseconds to be rendered by the server --> Response times for search requests`
 
-#### Search {#search}
+#### Search Requests {#search-requests}
 
 Search requests can have a significant impact on your website, in terms of both the:
 
