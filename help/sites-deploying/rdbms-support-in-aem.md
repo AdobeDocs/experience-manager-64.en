@@ -62,9 +62,14 @@ Once the bundles are in place, follow the below steps in order to configure AEM 
 
 1. Next, prepare the JDBC OSGi bundles to be used with AEM:
 
-    1. In the `crx-quickstart/install` folder, create a folder named `9`.
-    
-    1. Place the JDBC jar in the new folder.
+    1. Download the ZIP archive from https://dev.mysql.com/downloads/connector/j/
+       * version must be >= 5.1.38
+    1. Extract the `mysql-connector-java-version-bin.jar` (bundle) from the archive
+    1. Use the web console to install and start the bundle :
+       * Go to *http://serveraddress:serverport/system/console/bundles*
+       * Select **Install/Update**
+       * Browse to the select the bundle extracted from the downloaded ZIP archive
+       * Check that **Oracle Corporation's JDBC Driver for MySQLcom.mysql.jdbc** is active, and start it.
 
 1. Finally, start AEM with the `crx3` and `crx3rdb` runmodes:
 
