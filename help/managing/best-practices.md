@@ -51,7 +51,7 @@ The **Project Heartbeat** worksheet provides a graphical overview of critical me
 
 ## Status by Role {#status-by-role}
 
-The **Status by Role** worksheet shows detailed breakdown of [**Health**, **Quality** and **Completeness**](#project-heartbeat-dashboard) by **[Phase](#phases-and-milestones)** and **[Persona](#persona)**.
+The **Status by Role** worksheet shows detailed breakdown of **[Health, Quality and Completeness](#project-heartbeat-dashboard)** by **[Phase](#phases-and-milestones)** and **[Persona](#persona)**.
 
 ## Phases and Milestones {#phases-and-milestones}
 
@@ -286,7 +286,7 @@ Development is a crucial phase that requires more than just coding.
     * Architecture
     * [Development tools](/help/sites-developing/dev-tools.md)
 
-        * A typical environment consists of**:**
+        * A typical environment consists of:
 
             * an issue tracking system; such as Jira
             * an IDE; such as Eclipse
