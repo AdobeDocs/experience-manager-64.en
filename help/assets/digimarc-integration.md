@@ -39,7 +39,8 @@ You can set the level for Digimarc durability. If you plan to alter images dynam
 1. Step text
 1. After the publish is complete, you can verify a watermark by requesting any Dynamic Media image asset. Do one of the following:
 
-    * Save the image locally. Open the image in PhotoShop CS5 or above. On the Photoshop menu bar, tap **Filter** &gt; **Digimarc** &gt; **Read Watermark**.   
+    * Save the image locally. Open the image in PhotoShop CS5 or above. On the Photoshop menu bar, tap **Filter** &gt; **Digimarc** &gt; **Read Watermark**.
+    
       If Digimarc is missing from the Filter menu, you may need to install the free Photoshop extension from [Adobe Exchange (www.adobeexchange.com) &gt; Creative Cloud &gt; Photoshop &gt; Digimarc Barcode for Digital Images](https://www.adobeexchange.com/creativecloud.details.12783.html). Digimarc is a subscription service.  
     
     * Download the following tool to verify the Digimarc within the browser: [https://www.digimarc.com/solutions/images/downloads.asp](https://www.digimarc.com/solutions/images/downloads.asp)

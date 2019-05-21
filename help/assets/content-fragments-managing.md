@@ -44,7 +44,6 @@ The method of creating a content fragment is (basically) the same for both simpl
     * This can be a:
 
         * [Template](/help/sites-developing/content-fragment-templates.md) - for example **Simple Fragment**
-        
         * [Model](content-fragments-models.md) - used to create a fragment that requires structured content; for example the **Airport** model
 
     * All available templates and models are displayed.
@@ -57,18 +56,18 @@ The method of creating a content fragment is (basically) the same for both simpl
 
     * **Basic**
 
-        * **Title** 
-          The fragment title.  
-          Mandatory.  
+        * **Title**
+
+          The fragment title. Mandatory.  
         
         * **Description**
         * **Tags**
 
     * **Advanced**
 
-        * **Name** 
-          The name; will be used to form the URL.  
-          Mandatory; will be automatically derived from the title, but can be updated.
+        * **Name**
+
+          The name; will be used to form the URL. Mandatory; will be automatically derived from the title, but can be updated.
 
 1. Select **Create** to complete the action, then either **Open** the fragment for editing or return to the console with **Done**.
 
@@ -85,23 +84,23 @@ Select the fragment to reveal the toolbar with applicable actions:
 
 * **Download**
 
-    * Save the fragment as a ZIP file; you can define whether to include Elements, Variations, Metadata.
+  Save the fragment as a ZIP file; you can define whether to include Elements, Variations, Metadata.
 
 * **Create**
 * **Checkout**
 * **Properties**
 
-    * Allows you to view and/or edit the fragment's metadata.
+  Allows you to view and/or edit the fragment's metadata.
 
 * **Edit**
 
-    * Allows you to [open the fragment for editing content](content-fragments-variations.md) together with its elements, variations, associated content and metadata.
+  Allows you to [open the fragment for editing content](content-fragments-variations.md) together with its elements, variations, associated content and metadata.
 
 * **Manage Tags**
 * **To Collection**
 
-    * Add the fragment to a collection.  
-    * This can also be done when [associating a collection with the fragment](content-fragments-assoc-content.md#adding-associated-content).
+  * Add the fragment to a collection.
+  * This can also be done when [associating a collection with the fragment](content-fragments-assoc-content.md#adding-associated-content).
 
 * **Copy**/**Paste**
 
@@ -142,7 +141,6 @@ To open your fragment for editing:
 1. Navigate through the three modes using the icons in the side panel:
 
     * Variations: [Editing the content](#editing-the-content-of-your-fragment) and [Managing your Variations](#creating-and-managing-variations-within-your-fragment)
-    
     * [Annotations](content-fragments-variations.md#annotating-a-content-fragment)
     * [Associated Content](#associating-content-with-your-fragment)
     * [Metadata](#viewing-and-editing-the-metadata-properties-of-your-fragment)
@@ -231,12 +229,9 @@ In addition to the standard options, [Timeline](managing-assets-touch-ui.md#time
 * View information about versions, comments, and annotations
 * Actions for Versions
 
-    * **[Revert to this Version](#reverting-to-a-version)** (select an existing fragment, then a specific version)  
-    
-    * **[Compare to Current](#comparing-fragment-versions)** (select an existing fragment, then a specific version)  
-    
-    * Add a **Label** and/or **Comment** (select an existing fragment, then a specific version)  
-    
+    * **[Revert to this Version](#reverting-to-a-version)** (select an existing fragment, then a specific version)
+    * **[Compare to Current](#comparing-fragment-versions)** (select an existing fragment, then a specific version)
+    * Add a **Label** and/or **Comment** (select an existing fragment, then a specific version)
     * **Save as Version** (select an existing fragment, then the up arrow at the bottom of Timeline)
 
 * Actions for Annotations
@@ -251,10 +246,10 @@ In addition to the standard options, [Timeline](managing-assets-touch-ui.md#time
 >* Made in Timeline
 >* Related to the fragment asset
 >
->Annotations (for Content Fragments) are:  >
+>Annotations (for Content Fragments) are: 
+>
 >* Entered in the fragment editor
 >* Specific to a selected segment of text within the fragment
->
 
 For example:
 
@@ -275,7 +270,7 @@ They will be shown side-by-side, where:
 * Any differences are highlighted
 
     * Deleted text - red
-    * Inserted text - green  
+    * Inserted text - green
     * Replaced text - blue
 
 * The full-screen icon allows you to open either version on its own; then toggle back to the parallel view
@@ -292,7 +287,8 @@ They will be shown side-by-side, where:
 
 You can revert to a specific version of your fragment:
 
-* Directly from the [Timeline](content-fragments-managing.md#timeline-for-content-fragments).  
+* Directly from the [Timeline](content-fragments-managing.md#timeline-for-content-fragments).
+
   Select the required version, then the **Revert to this Version** action.
 
 * While [comparing a version to the current version](content-fragments-managing.md#comparing-fragment-versions) you can **Revert** to the selected version.

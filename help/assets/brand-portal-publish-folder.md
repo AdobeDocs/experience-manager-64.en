@@ -32,7 +32,6 @@ If you make subsequent modifications to the original asset or folder in AEM Asse
    To publish the selected folders to Brand Portal, do either of the following:
 
     * From the toolbar, select **Quick Publish**. Then from the menu, select **Publish to Brand Portal**.
-    
     * From the toolbar, select **Manage Publication**.
 
 1. Then from the **Action** select **Publish to Brand Portal**, and from **Scheduling** select **Now**. Tap **Next.**
@@ -71,8 +70,8 @@ You have the option to unpublish folders from Brand Portal quickly or schedule i
 
    To quickly unpublish the desired folder from Brand Portal:
 
-    1. On **Manage Publication** page, from **Action** select **Unpublish from Brand Portal** and from **Scheduling** select **Now**.  
-       Tap/ click **Next.**
+    1. On **Manage Publication** page, from **Action** select **Unpublish from Brand Portal** and from **Scheduling** select **Now**.
+    1. Tap/ click **Next.**
     1. Within **Scope**, confirm your selection and tap **Unpublish from Brand Portal**.
 
    ![](assets/confirm-unpublish.png)
@@ -82,7 +81,6 @@ You have the option to unpublish folders from Brand Portal quickly or schedule i
    To schedule the publishing of a folder from Brand Portal to a later date and time:
 
     1. On **Manage Publication** page, from **Action** select **Unpublish from Brand Portal** and from **Scheduling** select **Later.**
-    1. 
     1. Select an **Activation date** and specify the time. Tap **Next**.
     1. Within **Scope**, confirm your selection and tap **Next**.
     1. Specify a **Workflow title** under **Workflows**. Tap **Unpublish Later.**
@@ -92,4 +90,3 @@ You have the option to unpublish folders from Brand Portal quickly or schedule i
 >[!NOTE]
 >
 >The procedure to publish/unpublish an asset to/from Brand Portal is similar to the corresponsing procedure for a folder.
-

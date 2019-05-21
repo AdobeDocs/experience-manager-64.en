@@ -159,7 +159,6 @@ After replication succeeds, you can publish assets, folders, and collections  to
    To publish the selected assets to Brand Portal, do either of the following:
 
     * From the toolbar, select **Quick Publish**. Then from the menu, select **Publish to Brand Portal**.
-    
     * From the toolbar, select **Manage Publication**.
 
     1. Then from the **Action** select **Publish to Brand Portal**, and from **Scheduling** select **Now**. Tap/ click **Next.**

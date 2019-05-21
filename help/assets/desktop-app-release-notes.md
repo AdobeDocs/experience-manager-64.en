@@ -401,7 +401,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 
 * Checkin/Checkout
 
-    * An asset checked out by one user is not possible to open for another user, either by Open action from Touch UI, or directly on the desktop. Some applications might report it as locked, but also corrupted or even hang while trying to open. (CQ-4199234)  
+    * An asset checked out by one user is not possible to open for another user, either by Open action from Touch UI, or directly on the desktop. Some applications might report it as locked, but also corrupted or even hang while trying to open. (CQ-4199234)
     * Changing files simultaneously by multiple users may cause some modifications to get lost. The workaround is to use the  checkin /checkout functionality to prevent multiple users from changing the same file (CQ-97035)
     * Certain applications don't support the read-only flag properly which allows a user to save a file that's checked out by another user. The modified file is not transferred until the other user checks in the file. Both modifications are available in AEM as different versions of the asset (CQ-89551, CQ-87572, CQ-89615)
     * The checked-out and read-only status are reported independently in Finder. This results in 2 lock icons when a user checks out an asset (CQ-89507)
@@ -409,8 +409,7 @@ Since the /Volumes folder no longer requires administrative rights, this change 
 * Finder integration
 
     * When dragging/dropping large files, Finder might time out while files are being transferred in the background. This results in an "Error -36." The workaround is to drag/drop or open the asset again (CQ-4219628)
-    * Manual folder reload does not always work. Workaround:  wait   30s  for the folder to be automatically updated. (CQ-97389)
-    
+    * Manual folder reload does not always work. Workaround:  wait `30s` for the folder to be automatically updated. (CQ-97389)
     * More Asset Info... is limited to single file selections (CQ-89542, CQ-87656)
     * Open in AEM Assets... is limited to single file and folder selections (CQ-83382)
     * Error when renaming assets that have no extension (CQ-4218971)

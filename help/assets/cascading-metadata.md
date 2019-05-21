@@ -50,7 +50,6 @@ Irrespective of the asset type chosen, display the copyright information as a re
 1. Key-values pairs are the options provided to a form-user. You can provide the key-value pairs either manually or from a JSON file.
 
     * To specify the values manually, select **[!UICONTROL Add Manually]**, and tap/click **[!UICONTROL Add Choice]** and specify the option text and value. For example, specify Video, PDF, Word, and Image asset types.
-    
     * To fetch the values from a JSON file dynamically, select **[!UICONTROL Add Through JSON Path]** and provide the path of the JSON file. AEM fetches the key-value pairs in the real time when the form is presented to the user.
 
    Both options are mutually exclusive. You cannot import the options from a JSON file and edit manually.

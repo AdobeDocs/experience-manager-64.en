@@ -86,9 +86,7 @@ While the functionality of each viewer differs, the process of creating a Quickv
 
    `*viewerInstance*.setHandlers({ *handler 1*, *handler 2*}, ...`
 
-   **Example  
    **Using the sample embed code example from above, we have the following code:** 
-   **
 
    ```xml
    s7interactiveimageviewer.setHandlers({
@@ -146,7 +144,8 @@ While the functionality of each viewer differs, the process of creating a Quickv
 
         * Update the `loadQuickView(sku,*var1*,*var2*)` call if you are adding additional variables.
 
-    * Create a simple loadQuickView () function on page, outside of the viewer.  
+    * Create a simple loadQuickView () function on page, outside of the viewer.
+
       For example, the following writes the value of sku to the browser console:
 
    ```xml
@@ -156,6 +155,7 @@ While the functionality of each viewer differs, the process of creating a Quickv
    ```
 
     * Upload a test HTML page to a webserver and open.  
+
       With the variables from the Quickview mapped and the function call in place, the browser console writes the variable value to the browser console using the sample function provided.
 
 1. You can now use a function to invoke a simple pop-up in the Quickview. The following example uses a `DIV` for a popup.
@@ -196,7 +196,8 @@ While the functionality of each viewer differs, the process of creating a Quickv
    ```
 
 1. Upload a test HTML page to your webserver and open. The viewer displays the pop-up `DIV` when a user invokes a Quickview.
-1. **How to display the custom pop-up in full screen mode** 
+1. **How to display the custom pop-up in full screen mode**
+
    Some viewers, such as the Interactive Video viewer, support display in fullscreen mode. However, using the pop-up as described in the previous steps causes it to display behind the viewer while in full screen mode.
 
    To have the pop-up display in both standard and full screen modes, you attach the pop-up to the viewer container. To accomplish this, you can use a second handler method, `initComplete`.

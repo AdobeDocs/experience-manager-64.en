@@ -25,16 +25,14 @@ With regards to delete permissions, Content Fragments must be considered at two 
 
 1. **The Content Fragment as a single entity.**
 
-    * **Use case**: A user who needs to edit/update a content fragment - **and delete an entire fragment**.  
-    
+    * **Use case**: A user who needs to edit/update a content fragment - **and delete an entire fragment**. 
     * **Permissions**: The [Delete](/help/sites-administering/security.md#actions) permission can be [assigned through User and/or Group Management](/help/sites-administering/security.md#managing-permissions).
 
 1. **The multiple sub-entities that make up a content fragment; for example, variations, sub-nodes.**
 
    Basic operation of the content fragment editor requires that such transient sub-elements can be deleted. For example, when manipulating variations; also when editing metadata or managing associated content.
 
-    * **Use case**: A user who needs to edit/update a content fragment - **without being allowed to delete an entire fragment**.  
-    
+    * **Use case**: A user who needs to edit/update a content fragment - **without being allowed to delete an entire fragment**.
     * **Permissions**: See [Permissions Required for Editor Functionality Only](content-fragments-delete.md#permissions-required-for-editor-functionality-only).
 
 >[!NOTE]
